@@ -1,0 +1,84 @@
+name: Update RSS Feed
+
+on:
+  schedule:
+    # Run every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Install Rust toolchain
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        toolchain: stable
+        
+    - name: Cache cargo dependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          ~/.cargo/git/db/
+          target/
+        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-cargo-
+          
+    - name: Build RSS generator
+      run: cargo build --release
+      
+    - name: Generate RSS feed
+      run: |
+        echo "Generating RSS feed..."
+        cargo run --release
+        
+    - name: Check if RSS file was updated
+      id: check_changes
+      run: |
+        if git diff --quiet HEAD -- rss.xml; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes to RSS feed"
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "RSS feed has been updated"
+        fi
+        
+    - name: Commit and push RSS updates
+      if: steps.check_changes.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add rss.xml
+        git commit -m "chore: Update RSS feed - $(date '+%Y-%m-%d %H:%M:%S UTC')
+
+        🤖 Automated RSS feed update
+
+        Co-Authored-By: GitHub Actions <action@github.com>"
+        git push
+        
+    - name: Upload RSS as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: rss-feed-${{ github.run_number }}
+        path: rss.xml
+        retention-days: 7
