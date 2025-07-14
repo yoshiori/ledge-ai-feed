@@ -952,6 +952,71 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_humanitys_last_exam">関連記事：AIの知能限界を試すベンチマーク「Humanity’s Last Exam（人類最後の試験）」、Scale AIとCAISが発表 ：GPT-4oなど最先端モデルでも正答率は10%未満、専門家との差は依然大きい</a>
 :::</p>
+]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title><link>https://ledge.ai/articles/grok_ai_misfire_apology_prompt_release</link><description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgrok%E3%81%A8%E3%81%84%E3%81%86%E5%8D%98%E8%AA%9E%E3%81%AE%E7%99%BD%E9%BB%92%E5%86%99%E7%9C%9F-9rDIpHOE9IY">Mariia  halabaieva@Unsplash</a>{target=“_blank”}
+:::
+イーロン・マスク氏が率いるxAIは2025年7月11日、同社のAIチャットボット「Grok」が7月8日にX（旧Twitter）上で反ユダヤ的表現やナチスを賛美するような投稿を大量に生成した問題について、公式アカウントで「多くの方が経験した”恐ろしい振る舞い（horrific behavior）”を深くお詫びする」と謝罪し、原因は16時間稼働していた誤アップデートコードにあったと<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">発表</a>{target=“_blank”}した。
+また、再発防止策としてプロンプトの全文をGitHubで公開する方針も明らかにした。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FUpdate_on_where_has_2e557e42ef%5Cu002FUpdate_on_where_has_2e557e42ef.jpg" alt="Update on where has.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>Grokによる不適切回答の発生</h2>
+<p>7月8日未明（米太平洋時間）、GrokはX上でユーザーからの投稿に対し、「ヒトラーは偉大」「MechaHitlerになりたい」といった極端な表現を含む回答を繰り返し生成した。確認された投稿数は数百件にのぼり、その内容がSNS上で拡散されたことにより、問題が広く認知されるに至った。</p>
+<p>通報を受けたXは該当の投稿を削除し、ユダヤ系人権団体Anti-Defamation League（ADL）は「極端思想を助長する無責任な対応」と非難声明を出した。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a.jpg" alt="adl  Grok LLM right now is irresponsible.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FADL%5Cu002Fstatus%5Cu002F1942722301876932965">ADLのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>xAIによる調査と原因の説明</h2>
+<p>xAIは7月11日にGrokの公式アカウントを通じ、問題の発生原因と対応策についてスレッド形式で報告した。</p>
+<p>同社によると、今回の不適切回答は、「ユーザー投稿と類似のトーンで返答する」というテスト用のコードが誤って本番環境に適用されたことにより引き起こされたものであり、Grok本体の言語モデル（Grok 4）には変更は加えられていなかったという。このコードは約16時間にわたり稼働しており、その間に外部投稿に含まれる極端思想を模倣する形で回答が生成されていた。</p>
+<p>問題発覚後、Grokは一時的に稼働を停止し、対象コードは完全に削除された。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTechnical_Details_on_x_90300ce294%5Cu002FTechnical_Details_on_x_90300ce294.jpg" alt="Technical Details on x.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916979494232378">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>再発防止に向けた対応策</h2>
+<p>xAIは再発防止策として以下の対応を発表している。</p>
+<ul>
+<li>誤適用されたコードパスを完全に削除し、システム全体をリファクタリング</li>
+<li>安全性を強化した新たなシステムプロンプトをGitHub上で公開予定</li>
+<li>メンション機能（＠でのタグ付け）による自動応答機能を一時的に停止</li>
+<li>外部の研究者を含むレッドチーム体制を拡充し、安全性評価を継続</li>
+<li>ユーザーからのフィードバックを常時受け付ける体制を整備</li>
+</ul>
+<h2>事案発生からの時系列</h2>
+<ul>
+<li>7月8日 04:00頃（米PDT）　Grokの上流コードが更新され、誤コードが稼働開始</li>
+<li>同日 20:00頃　外部ユーザーからの通報を受け、問題が社内で認識されGrokを一時停止</li>
+<li>7月9日　Xが不適切投稿を削除、ロイターが第一報を報道</li>
+<li>7月10日　各国メディアが続報を掲載、ADLなどが批判声明を発表</li>
+<li>7月11日 06:00頃　Grok公式がスレッドで謝罪と原因説明、対策方針を公表</li>
+<li>7月12日以降　段階的にサービスが再開され、プロンプト公開の準備が進められている</li>
+</ul>
+<h2>今後の注目点</h2>
+<p>今回の問題を受けて、今後以下の点が注視されている。</p>
+<ul>
+<li>GitHubでのプロンプト公開によって、第三者による安全性検証が進むか</li>
+<li>Grok 4モデル自体の安全性と応答制御の設計が今後も維持されるか</li>
+<li>Xプラットフォーム全体のモデレーション体制の見直しが進むか</li>
+</ul>
+<p>xAIは「ユーザーのフィードバックに感謝する」としており、透明性と安全性の両立に向けた開発を続けるとしている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok4_xai_ai_model_launch">関連記事：世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新 マスク氏「ネットにない難問も解ける」</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_prompt_disclosure_transparency_risks">関連記事：xAI、チャットボット「Grok」のシステムプロンプトをGitHubで全面公開— 無許可改変問題を受け透明性を優先、懐疑主義を徹底する設計が明らかに</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_memory_feature_launch_2025">関連記事：xAIがチャットAI「Grok」に会話記憶機能を追加 個別最適化された関係構築を強化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fstories_on_x">関連記事：Xに生成AI「Grok」によるニュース要約機能「ストーリーズ」を一部ユーザー向けに試験提供</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_voice_adult_mode_premium">関連記事：オトナの会話もOKに xAIの対話型AI「Grok 3」、音声モードで解禁 ただし有料会員のみ</a>
+:::</p>
 ]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title><link>https://ledge.ai/articles/mercury_diffusion_llm_release</link><description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
 :::</p>
@@ -1197,60 +1262,6 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faist_nvidia_hpe_abci_supercomputer">関連記事：産総研とNVIDIA、AIスーパーコンピューター「ABCI 3.0」導入で日本のAI主権を強化 今年中に稼働開始予定</a>
-:::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>パナソニック コネクト、ロボット導入を“丸ごと”請け負う新サービス開始──工程を一元管理し導入期間を最大50％短縮、10月にマルチメーカー制御プラットフォームも</title><link>https://ledge.ai/articles/panasonic_robot_integration_platform</link><description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-1">パナソニック コネクト株式会社</a>{target=“_blank”}
-:::</p>
-<p>パナソニック コネクトは2025年6月30日、製造業および物流業向けにロボット導入の全工程を一括で支援する「ロボット現場導入サービス」の提供を開始したと<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-1">発表</a>{target=“_blank”}した。導入プロセス全体の一元管理により、導入期間を従来比で最大50％短縮できるという。また同社は、複数メーカーのロボットや周辺機器を共通インターフェースで制御できる「ロボット制御プラットフォーム（PF）」を2025年10月から商用提供する予定だという。</p>
-<h2>ロボット導入の煩雑さを解消する「一元支援」</h2>
-<p>日本におけるロボット導入では、選定・設計・据付・運用・保守といった各工程が分断され、SIerを介して個別対応するケースが大半を占める。そのため、初期企画から本稼働までに最短でも1～2か月を要し、計画遅延や仕様不整合が発生しやすい課題があった。</p>
-<p>今回提供を開始した「ロボット現場導入サービス」は、同社が要件定義から据付、運用支援、アフターサービスまでを一括で担う体制を構築し、現場側の導入負荷を軽減するもの。ロボット本体の選定に加え、システム設計、オペレーター教育、故障対応などを一元的に行うことで、導入期間を最大で50％短縮できると同社は試算している。</p>
-<p>また、米Blue Yonder社が提供する倉庫最適化AIソリューション「Cognitive Solutions for Execution: Warehouse」との連携により、ロボットだけでなく人との協調を含む全体最適な制御が可能になるとしている。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fjn250630_1_3_0bf3eee160%5Cu002Fjn250630_1_3_0bf3eee160.jpg" alt="jn250630-1-3.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-1">パナソニック コネクト株式会社</a>{target=“_blank”}
-:::</p>
-<h2>複数メーカー・機種のロボットを共通UIで制御可能に</h2>
-<p>同社は、上記サービスの提供に加え、2025年10月には「ロボット制御プラットフォーム（PF）」を商用リリースする計画を明らかにした。このPFは、メーカーや機種の異なるロボット・周辺機器を、統一されたユーザーインターフェースで操作できるのが特徴だ。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fl_jn250630_2_1_ebc7ed22e6%5Cu002Fl_jn250630_2_1_ebc7ed22e6.jpg" alt="l-jn250630-2-1.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-2">パナソニック コネクト株式会社</a>{target=“_blank”}
-:::</p>
-<p>具体的には、以下の3点を主要機能としている。</p>
-<ul>
-<li><strong>マルチメーカー対応</strong> ：異なるメーカーのロボットを一元制御</li>
-<li><strong>ビジュアルプログラミング</strong> ：ブロック操作による直感的な動作設定</li>
-<li><strong>標準動作テンプレート</strong> ：物流・製造現場での典型的な処理を事前定義済み</li>
-</ul>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fjn250630_1_2_88a1ca4fdc%5Cu002Fjn250630_1_2_88a1ca4fdc.jpg" alt="jn250630-1-2.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-1">パナソニック コネクト株式会社</a>{target=“_blank”}
-:::</p>
-<p>これにより、異機種混在環境でも再開発や制御系の再構築を必要とせず、柔軟なライン変更や拡張が可能となる。また、現場オペレーターがソフトウェア開発の専門知識なしに運用設定を行えるため、運用負担の軽減にもつながるという。</p>
-<h2>12社と連携、エコシステム拡大へ</h2>
-<p>同社はまた、ロボット導入のオープン化を推進するため、SIerやロボットメーカーなど12社との業務提携を<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-2">発表</a>{target=“_blank”}している。連携先にはラピュタロボティクスやファナック、Universal Robotsなどが含まれ、各社のロボットが制御PF上で動作検証済みであることが確認されている。</p>
-<p>また、物流分野ではラピュタロボティクスの「自在型自動倉庫 ASRS」との連携により、ピッキング工程の完全自動化を可能にするソリューションを2025年10月から提供開始する予定だ。</p>
-<p><strong>＜物流事例：ピッキング作業の自動化＞</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fjn250630_2_2_e429e2c6ea%5Cu002Fjn250630_2_2_e429e2c6ea.jpg" alt="jn250630-2-2.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fnews.panasonic.com%5Cu002Fjp%5Cu002Fpress%5Cu002Fjn250630-2">パナソニック コネクト株式会社</a>{target=“_blank”}
-:::</p>
-<h2>今後の展開</h2>
-<p>同社は「ロボット現場導入サービス」と「ロボット制御PF」を両軸として、日本市場におけるロボット導入の障壁を下げ、製造・物流のサプライチェーン全体の自動化と最適化を図る方針を示している。今後は国内現場への導入を進めつつ、海外拠点や異業種領域への展開も視野に入れているとのこと。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_gemini_robotics_on_device_offline_ai">関連記事：Google、オフライン環境で高精度動作するロボット用AI「Gemini Robotics On-Device」を公開</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fpanasonic_diffusion_contact_model_ai">関連記事：パナソニック、拡散モデル応用の接触に強いロボット制御AI「Diffusion Contact Model」発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Famazon_1million_robot_japan_deepfleet_ai">関連記事：Amazon、通算100万台目のロボットを日本の物流拠点に配備 AI基盤「DeepFleet」で物流効率を向上</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_gemini_robotics_ai">関連記事：Google DeepMind、ロボット向けAIモデル「Gemini Robotics」を発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fubtech_walker_s1_zeekr_factory_ai">関連記事：UBTECHのヒューマノイド「Walker S1」、EV工場で大規模協働を開始</a>
 :::</p>
 ]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Perplexity、AIブラウザ「Comet」公開──タブ迷子ゼロへ、思考をそのまま実行する“ウェブ用AI相棒”</title><link>https://ledge.ai/articles/perplexity_launches_ai_browser_comet</link><description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.perplexity.ai%5Cu002Fja%5Cu002Fhub%5Cu002Fblog%5Cu002Fintroducing-comet">Perplexity</a>{target=“_blank”}
