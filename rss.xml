@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Ledge.ai 新着記事</title><link>https://ledge.ai/</link><description>Ledge.ai の最新テクノロジー記事</description><item><title>中国・北京大学など、AIに「感情スイッチ」を実現──「計算感情空間」の構築でLLMが怒り・悲しみ・喜びを自在に切替</title><link>https://ledge.ai/articles/ai_emotion_switch_llm_control</link><description><![CDATA[<p>:::small
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ledge.ai 新着記事</title>
+    <link>https://ledge.ai/</link>
+    <description>Ledge.ai の最新テクノロジー記事</description>
+    <item>
+      <title>中国・北京大学など、AIに「感情スイッチ」を実現──「計算感情空間」の構築でLLMが怒り・悲しみ・喜びを自在に切替</title>
+      <link>https://ledge.ai/articles/ai_emotion_switch_llm_control</link>
+      <description><![CDATA[<p>:::small
 画像の出典：DALL·E GPTによりLedge.aiが生成
 :::</p>
 <p>2025年6月27日、中国・北京大学など8つの研究機関は、生成AIの中核である大規模言語モデル（LLM）内部に、人間の感情と構造的に対応する「計算感情空間（computational emotion space）」を構築し、怒り・喜び・悲しみなど26種類の感情を自在に操作できる「感情スイッチ（steering vector）」を実現したと<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">発表</a>{target=“_blank”}した。</p>
@@ -46,7 +55,13 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_gpt-4-5_release_ai_advancements">関連記事：OpenAI、GPT-4.5を正式発表──自然な対話と高い感情知能（EQ）を実現</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title><link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title>
+      <link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">AMD</a>{target=“_blank”}
 :::</p>
 <p>半導体企業のAMDは2025年7月9日、公式ブログにて、独自開発の画像生成AIモデル「Nitro-T」を<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">発表</a>{target=“_blank”}した。AMDリサーチチームが開発したこのモデルは、MI300X GPUを最大限に活用し、わずか24時間未満でゼロからの学習が可能な効率的な拡散モデルだという。学習済みモデルとコードの両方がオープンソースで公開されており、開発者や研究者による再利用や応用が容易となっている。</p>
@@ -112,7 +127,13 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdiffusion_kto_personalized_image_ai">関連記事：好みを数値化して画像を最適化──パナソニックの個人化生成AI「Diffusion-KTO」</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Anthropic、フロンティアAI開発者向け「透明性フレームワーク」を提案──安全開発を義務化する“Secure Development Framework”を柱に</title><link>https://ledge.ai/articles/anthropic_transparency_framework_ai_regulation</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、フロンティアAI開発者向け「透明性フレームワーク」を提案──安全開発を義務化する“Secure Development Framework”を柱に</title>
+      <link>https://ledge.ai/articles/anthropic_transparency_framework_ai_regulation</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.anthropic.com%5Cu002Fnews%5Cu002Fthe-need-for-transparency-in-frontier-ai">Anthropic</a>{target=“_blank”}
 :::</p>
 <p>大規模言語モデル「Claude」を手がけるAnthropicは2025年7月8日、最先端の大規模AIモデル（フロンティアAI）の開発者に対し、安全性と説明責任を確保するための新たな透明性基準「Targeted Transparency Framework」を<a href="https:%5Cu002F%5Cu002Fwww.anthropic.com%5Cu002Fnews%5Cu002Fthe-need-for-transparency-in-frontier-ai">公表</a>{target=“_blank”}した。</p>
@@ -165,7 +186,13 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_basic_law_japan_governance_2025">関連記事：「AI推進法」成立、企業の責務と政府の新体制を明文化——罰則なき基本法で実務とガバナンス両立へ</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title><link>https://ledge.ai/articles/context_engineering_deepmind</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
+      <link>https://ledge.ai/articles/context_engineering_deepmind</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.philschmid.de%5Cu002Fcontext-engineering">Philipp Schmid氏のブログより</a>{target=“_blank”}
 :::</p>
 <p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https:%5Cu002F%5Cu002Fwww.philschmid.de%5Cu002Fcontext-engineering">提起</a>{target=“_blank”}した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
@@ -210,7 +237,13 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fprompting_essentials_google_certified_free_offer">関連記事：プロンプトスキルを無料で習得　Google認定「Prompting Essentials」、日本リスキリングコンソーシアムが1万人に提供開始</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title><link>https://ledge.ai/articles/dentsu_japan_ai_center_launch</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
+      <link>https://ledge.ai/articles/dentsu_japan_ai_center_launch</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.dentsu.co.jp%5Cu002Fnews%5Cu002Frelease%5Cu002F2025%5Cu002F0707-010909.html">dentsu</a>{target=“_blank”}
 :::</p>
 <p>電通グループの国内主要5社は2025年7月7日、AI開発と活用を横断的に推進する新組織「dentsu Japan AIセンター」を発足したことを<a href="https:%5Cu002F%5Cu002Fwww.dentsu.co.jp%5Cu002Fnews%5Cu002Frelease%5Cu002F2025%5Cu002F0707-010909.html">発表</a>{target=“_blank”}した。同センターは約1,000名のAI専門人材を擁し、グループおよび顧客企業の全社的なAI変革を加速させることを目的としている。</p>
@@ -243,7 +276,13 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdena_ai_link_launch_2025">関連記事：DeNA、AI導入支援に特化した新会社「DeNA AI Link」を設立──企業の生成AI活用を後押し</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>高性能LLMを“日常のデバイス”で──分散AIクラスタOSS「exo」登場「iPhone、iPad、Androidデバイスなど」×「Llama、Mistral、LLaVA、Qwen、Deepseekなど幅広いLLM」</title><link>https://ledge.ai/articles/distributed_llm_exo_home_cluster</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>高性能LLMを“日常のデバイス”で──分散AIクラスタOSS「exo」登場「iPhone、iPad、Androidデバイスなど」×「Llama、Mistral、LLaVA、Qwen、Deepseekなど幅広いLLM」</title>
+      <link>https://ledge.ai/articles/distributed_llm_exo_home_cluster</link>
+      <description><![CDATA[<p>:::small
 画像の出典：GPT-4oによりLedge.aiが生成
 :::</p>
 <p>家庭にあるスマートフォンやPCなどを束ねてAIクラスタを構築できるオープンソース・プロジェクト「exo」が注目を集めている。GitHub上で<a href="https:%5Cu002F%5Cu002Fgithub.com%5Cu002Fexo-explore%5Cu002Fexo">公開</a>{target=“_blank”}されており、誰でも無償で利用可能だ。このプロジェクトは、iPhoneやRaspberry Piなど異なる性能・OSのデバイスを組み合わせ、大規模言語モデル（LLM）の分散推論を可能にする仕組みを提供するものである。</p>
@@ -309,7 +348,13 @@ NVIDIA RTX 3060 Ti、4060 Ti、GTX 1050 Ti、MacBook Pro など複数デバイ�
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmicrosoft_ai_agents_build_2025">関連記事：Microsoft、Build 2025でAIエージェント戦略の本格展開を発表</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title><link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title>
+      <link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link>
+      <description><![CDATA[<p>:::small
 画像の出典：GPT-4oによりLedge.aiが生成
 :::</p>
 <p>2025年6月7日、中国・中関村アカデミーを中心とする研究グループは、大規模言語モデル（LLM）を活用した大規模エージェントベース社会シミュレーションシステム「Light Society」を<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">発表</a>{target=“_blank”}した。この研究は、arXivに公開された論文「Modeling Earth-Scale Human-Like Societies with One Billion Agents」にて報告されており、最大10億人規模の人口行動をリアルタイムで再現可能な初のシステムとされる。</p>
@@ -374,7 +419,13 @@ NVIDIA RTX 3060 Ti、4060 Ti、GTX 1050 Ti、MacBook Pro など複数デバイ�
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_deepmind_devils_adovocate">関連記事：内省メカニズムで進化するLLMエージェント「悪魔の代弁者」 GoogleDeepMindなどの研究チームが発表</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>AIの基盤モデルはどこまで進化したのか？　2025年前半の主要LLMを俯瞰する</title><link>https://ledge.ai/articles/expo-2025-summer-2025-first-half-llm</link><description><![CDATA[<p>:::box
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIの基盤モデルはどこまで進化したのか？　2025年前半の主要LLMを俯瞰する</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-2025-first-half-llm</link>
+      <description><![CDATA[<p>:::box
 国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
 本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
 :::</p>
@@ -448,7 +499,13 @@ A wide image taken with a phone of a glass whiteboard, in a room overlooking the
 <p>The text reads:</p>
 <p>(left)
 \</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>“行動するAI”が現実に　2025年上半期のAIエージェントの現在地は</title><link>https://ledge.ai/articles/expo-2025-summer-ai-agent</link><description><![CDATA[<p>:::box
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>“行動するAI”が現実に　2025年上半期のAIエージェントの現在地は</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-ai-agent</link>
+      <description><![CDATA[<p>:::box
 国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
 本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
 :::</p>
@@ -633,7 +690,13 @@ AIエージェントにおける技術課題を問うと、「AIの可読性」�
 <p>:::box
 特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>郊外巨大施設から都市型も可能な”装置”にフォーカスが変化する日本のAIデータセンター戦略</title><link>https://ledge.ai/articles/expo-2025-summer-kamui</link><description><![CDATA[<p>:::box
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>郊外巨大施設から都市型も可能な”装置”にフォーカスが変化する日本のAIデータセンター戦略</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-kamui</link>
+      <description><![CDATA[<p>:::box
 国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
 本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
 :::</p>
@@ -678,7 +741,13 @@ PUEとは、データセンター等IT関連施設におけるエネルギー効
 <p>:::box
 特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>2025年のAI半導体を読む　王者NVIDIAと競合の現在地</title><link>https://ledge.ai/articles/expo-2025-summer-semiconductor</link><description><![CDATA[<p>:::box
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025年のAI半導体を読む　王者NVIDIAと競合の現在地</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-semiconductor</link>
+      <description><![CDATA[<p>:::box
 国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
 本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
 :::
@@ -759,7 +828,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 <p>:::box
 特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>「フィジカルAI」が産業界を変える ｕｇｏ CSO羽田氏が語る、ロボットの未来と日本の勝ち筋</title><link>https://ledge.ai/articles/expo-2025-summer-ugo</link><description><![CDATA[<p>:::box
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「フィジカルAI」が産業界を変える ｕｇｏ CSO羽田氏が語る、ロボットの未来と日本の勝ち筋</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-ugo</link>
+      <description><![CDATA[<p>:::box
 国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
 本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
 :::</p>
@@ -803,7 +878,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 <p>:::box
 特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>生成AI「個人利用」26.7%に上昇──それでも米中との差は歴然【総務省・情報通信白書】</title><link>https://ledge.ai/articles/generative_ai_personal_use_japan_2025</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成AI「個人利用」26.7%に上昇──それでも米中との差は歴然【総務省・情報通信白書】</title>
+      <link>https://ledge.ai/articles/generative_ai_personal_use_japan_2025</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Finfografic.html">情報通信白書令和7年版 インフォグラフィックより</a>{target=“_blank”}
 :::</p>
 <p>総務省は2025年7月8日、「<a href="%5B%E7%99%BA%E8%A1%A8%5D(https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fr07.html)%7Btarget=%E2%80%9C_blank%E2%80%9D%7D">情報通信白書令和7年版</a>」を公表し、国内における生成AIの個人利用率が26.7%にとどまっているとの調査結果を示した。これは米国（68.8%）や中国（81.2%）と比べて大きく差がある。調査は2024年度にインターネット上で6,000人を対象に実施されたもので、生成AIの国内普及の現状と課題を浮き彫りにしている。</p>
@@ -850,7 +931,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fcorporate_ai_utilization_trends_2025">関連記事：日本企業の45%が生成AIを導入、ランサムウェア感染経験は48%</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>ビジネス2025/7/8 [TUE]Google、急増する電力需要に備え、米核融合ベンチャーCFSと商用核融合発電200MWの長期購入契約を締結——CFS初の発電所と2030年代供給へ</title><link>https://ledge.ai/articles/google_fusion_power_cfs_ppa</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/8 [TUE]Google、急増する電力需要に備え、米核融合ベンチャーCFSと商用核融合発電200MWの長期購入契約を締結——CFS初の発電所と2030年代供給へ</title>
+      <link>https://ledge.ai/articles/google_fusion_power_cfs_ppa</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.cfs.energy%5Cu002Fnews-and-media%5Cu002Fgoogle-and-commonwealth-fusion-systems-sign-strategic-partnership">Commonwealth Fusion Systems</a>{target=“_blank”}
 :::</p>
 <p>Googleは2025年6月30日、米国の核融合スタートアップであるCommonwealth Fusion Systems（CFS）と、同社が開発中の商用核融合発電所から200メガワット（MW）の電力を長期購入する契約を締結したことを<a href="https:%5Cu002F%5Cu002Fblog.google%5Cu002Foutreach-initiatives%5Cu002Fsustainability%5Cu002Four-latest-bet-on-a-fusion-powered-future%5Cu002F">発表</a>{target=“_blank”}した。2030年代前半の送電開始が予定されており、企業による核融合電力の調達契約としては過去最大規模とされる。</p>
@@ -889,7 +976,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_nuclear_power_ai_ppa_deal">関連記事：Meta、原子力でAI時代の電力確保へ 米Constellationと20年契約</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新　マスク氏「ネットにない難問も解ける」</title><link>https://ledge.ai/articles/grok4_xai_ai_model_launch</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新　マスク氏「ネットにない難問も解ける」</title>
+      <link>https://ledge.ai/articles/grok4_xai_ai_model_launch</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fxai%5Cu002Fstatus%5Cu002F1943158495588815072">xAI “Grok4 Demo Livestream”</a>{target=“_blank”}
 :::</p>
 <p>イーロンマスク氏の率いるAIスタートアップxAIは2025年7月10日、X（旧Twitter）公式アカウントで最新大規模言語モデル「Grok 4」を<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fxai%5Cu002Fstatus%5Cu002F1943158495588815072">発表</a>{target=“_blank”}し、同時にライブ配信で詳細を公開した。前世代「Grok 3」から数カ月という超短サイクルでのモデル刷新となり、マスク氏は「インターネットにも書籍にも存在しない難問を解ける初のAIだ」と性能を強調している。</p>
@@ -952,7 +1045,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_humanitys_last_exam">関連記事：AIの知能限界を試すベンチマーク「Humanity’s Last Exam（人類最後の試験）」、Scale AIとCAISが発表 ：GPT-4oなど最先端モデルでも正答率は10%未満、専門家との差は依然大きい</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title><link>https://ledge.ai/articles/grok_ai_misfire_apology_prompt_release</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title>
+      <link>https://ledge.ai/articles/grok_ai_misfire_apology_prompt_release</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgrok%E3%81%A8%E3%81%84%E3%81%86%E5%8D%98%E8%AA%9E%E3%81%AE%E7%99%BD%E9%BB%92%E5%86%99%E7%9C%9F-9rDIpHOE9IY">Mariia  halabaieva@Unsplash</a>{target=“_blank”}
 :::
 イーロン・マスク氏が率いるxAIは2025年7月11日、同社のAIチャットボット「Grok」が7月8日にX（旧Twitter）上で反ユダヤ的表現やナチスを賛美するような投稿を大量に生成した問題について、公式アカウントで「多くの方が経験した”恐ろしい振る舞い（horrific behavior）”を深くお詫びする」と謝罪し、原因は16時間稼働していた誤アップデートコードにあったと<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">発表</a>{target=“_blank”}した。
@@ -1017,7 +1116,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_voice_adult_mode_premium">関連記事：オトナの会話もOKに xAIの対話型AI「Grok 3」、音声モードで解禁 ただし有料会員のみ</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title><link>https://ledge.ai/articles/mercury_diffusion_llm_release</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title>
+      <link>https://ledge.ai/articles/mercury_diffusion_llm_release</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
 :::</p>
 <p>米Inception Labsは2025年6月17日、拡散モデル（diffusion model）をベースとした大規模言語モデル「Mercury」の一般チャット版を<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">発表</a>{target=“_blank”}した。。同社が2月に発表したコード特化型「<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmercury_coder_diffusion_llm">Mercury Coder</a>{target=“_blank”}」に続くもので、対話型エージェントや音声インターフェースといったリアルタイム応答を重視するユースケースに向けて設計されたモデルである。</p>
@@ -1064,7 +1169,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fanthropic_claude_citations_release">関連記事：Anthropic、Claudeの回答に出典を付与できる「Citations」を提供開始</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Meta、AI Studioボットに“追い掛けメッセージ”訓練との内部文書流出──ユーザエンゲージメントをKPIとする方針はロヒンギャ訴訟の教訓をいかせるか？</title><link>https://ledge.ai/articles/meta_proactive_ai_chatbot_engagement</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AI Studioボットに“追い掛けメッセージ”訓練との内部文書流出──ユーザエンゲージメントをKPIとする方針はロヒンギャ訴訟の教訓をいかせるか？</title>
+      <link>https://ledge.ai/articles/meta_proactive_ai_chatbot_engagement</link>
+      <description><![CDATA[<p>:::small
 画像の出典：GPT-4oによりLedge.aiが生成
 :::</p>
 <p>Metaが開発中のAIチャットボットが、ユーザーに対して先にメッセージを送る機能を備えていることが、<a href="https:%5Cu002F%5Cu002Fwww.businessinsider.com%5Cu002Fmeta-ai-studio-chatbot-training-proactive-leaked-documents-alignerr-2025-7">Business Insider（BI）</a>{target=“_blank”}が入手した社内文書により2025年7月3日に明らかとなった。</p>
@@ -1106,7 +1217,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_persona">関連記事：Metaも「人格」持つ AI導入か　歴史上の人物など再現し会話サービス計画</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>医師の4倍精度、診断コスト70%減──Microsoftの医療AI「MAI-DxO」が304症例で検証結果を発表</title><link>https://ledge.ai/articles/microsoft_medical_ai_maidxo_2025</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>医師の4倍精度、診断コスト70%減──Microsoftの医療AI「MAI-DxO」が304症例で検証結果を発表</title>
+      <link>https://ledge.ai/articles/microsoft_medical_ai_maidxo_2025</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fmicrosoft.ai%5Cu002Fnew%5Cu002Fthe-path-to-medical-superintelligence%5Cu002F">Microsoft</a>{target=“_blank”}
 :::</p>
 <p>Microsoftは2025年6月30日、医療診断支援AI「MAI Diagnostic Orchestrator（MAI-DxO）」の臨床性能に関する研究成果を<a href="https:%5Cu002F%5Cu002Fmicrosoft.ai%5Cu002Fnew%5Cu002Fthe-path-to-medical-superintelligence%5Cu002F">発表</a>{target=“_blank”}した。</p>
@@ -1156,7 +1273,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_agent_llm_drug_development_softbank_chugai">関連記事：AIエージェントとLLM活用で新薬の臨床開発プロセスの迅速化を目指す　中外製薬・ソフトバンクらが共同研究</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>MIXI、全社員2,000人に生成AI構築プラットフォーム「Google Agentspace」導入──情報統合と業務自動化で“創造の時間”を拡大へ</title><link>https://ledge.ai/articles/mixi_ai_agentspace_deployment</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MIXI、全社員2,000人に生成AI構築プラットフォーム「Google Agentspace」導入──情報統合と業務自動化で“創造の時間”を拡大へ</title>
+      <link>https://ledge.ai/articles/mixi_ai_agentspace_deployment</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">株式会社MIXI</a>{target=“_blank”}
 :::</p>
 <p>MIXIは2025年7月7日、Google Cloudが提供するエンタープライズ向け生成AIプラットフォーム「Google Agentspace」を、全従業員約2,000人に導入したことを<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">発表</a>{target=“_blank”}した。</p>
@@ -1192,7 +1315,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_sheets_gemini_cell_integration">関連記事：GoogleスプレッドシートにGeminiが常駐で「セルレベルAI」に</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>OpenAI、対話型AI搭載のWebブラウザを数週間以内に発表か</title><link>https://ledge.ai/articles/openai_ai_browser_launch_reported_by_reuters</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、対話型AI搭載のWebブラウザを数週間以内に発表か</title>
+      <link>https://ledge.ai/articles/openai_ai_browser_launch_reported_by_reuters</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002F%E6%9C%BA%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%A9%E3%83%83%E3%83%97%E3%83%88%E3%83%83%E3%83%97%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97-rv2ooDQuNuI">Zac Wolff@Unsplash</a>{target=“_blank”}
 :::</p>
 <p>OpenAIは数週間以内にAIを搭載した独自のWebブラウザを発表する見通しであると<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Feconomy%5Cu002Findustry%5Cu002FSJY3A2CG2RPM7KT6MKLMQPQTWA-2025-07-10%5Cu002F">ロイター</a>{target=“_blank”}が2025年7月10日に報じた。報道によれば、新ブラウザは、検索結果をリスト形式で提示する従来型検索とは異なり、ChatGPTのような対話形式で回答を提示する設計になるとされる。</p>
@@ -1229,7 +1358,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fapple_ai_search_safari_google_contract_shift">関連記事：AppleがSafariに生成AI検索エンジン導入を検討──Googleとの契約見直し報道</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>日本オラクル、AIとソブリンクラウド運用を支援する「ジャパン・オペレーション・センター」開設</title><link>https://ledge.ai/articles/oracle_japan_ai_sov_cloud_center</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本オラクル、AIとソブリンクラウド運用を支援する「ジャパン・オペレーション・センター」開設</title>
+      <link>https://ledge.ai/articles/oracle_japan_ai_sov_cloud_center</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">Oracle</a>{target=“_blank”}
 :::</p>
 <p>日本オラクルは2025年7月8日、日本企業におけるAI活用とソブリンクラウド導入を加速させることを目的に、「ジャパン・オペレーション・センター」を東京に開設したと<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">発表</a>{target=“_blank”}した。</p>
@@ -1263,7 +1398,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faist_nvidia_hpe_abci_supercomputer">関連記事：産総研とNVIDIA、AIスーパーコンピューター「ABCI 3.0」導入で日本のAI主権を強化 今年中に稼働開始予定</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Perplexity、AIブラウザ「Comet」公開──タブ迷子ゼロへ、思考をそのまま実行する“ウェブ用AI相棒”</title><link>https://ledge.ai/articles/perplexity_launches_ai_browser_comet</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity、AIブラウザ「Comet」公開──タブ迷子ゼロへ、思考をそのまま実行する“ウェブ用AI相棒”</title>
+      <link>https://ledge.ai/articles/perplexity_launches_ai_browser_comet</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.perplexity.ai%5Cu002Fja%5Cu002Fhub%5Cu002Fblog%5Cu002Fintroducing-comet">Perplexity</a>{target=“_blank”}
 :::</p>
 <p>AI検索サービスを展開するPerplexityが2025年7月10日、AI搭載ウェブブラウザ「Comet（コメット）」を正式リリースしたことを<a href="https:%5Cu002F%5Cu002Fwww.perplexity.ai%5Cu002Fja%5Cu002Fhub%5Cu002Fblog%5Cu002Fintroducing-comet">発表</a>{target=“_blank”}した。ユーザーがウェブで得たい情報やタスクを自然言語で伝えるだけで、検索や比較、実行までをAIアシスタントが一貫して支援する“認知型ブラウジング”を標榜しており、既存の検索・閲覧体験からの大幅な転換を試みているという。</p>
@@ -1299,7 +1440,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_operator_browser_agent_release">関連記事：OpenAI、ブラウザを直接操作するAIエージェント「Operator」を公開ーー米国Proユーザー向けにリサーチプレビューとして提供開始</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>学術＆研究2025/7/7 [MON]ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title><link>https://ledge.ai/articles/potemkin_understanding_llm</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/7/7 [MON]ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
+      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
+      <description><![CDATA[<p>:::small
 画像の出典：GPT-4oによりLedge.aiが生成
 :::</p>
 <p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.21521">発表</a>{target=“_blank”}した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
@@ -1373,7 +1520,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmapbench_lvml_navigation_benchmark">関連記事：地図を読み取り、目的地までのルートを言語で説明できるAIは誕生するか──新ベンチマークMapBenchが明らかにした大規模視覚言語モデル（LVLM）の限界</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Hugging Face、「SmolLM 3」公開──小型・多言語・長文対応の3B Reasoningモデル、ONNX版も無償提供</title><link>https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hugging Face、「SmolLM 3」公開──小型・多言語・長文対応の3B Reasoningモデル、ONNX版も無償提供</title>
+      <link>https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
 :::</p>
 <p>Hugging Faceは2025年7月8日、新たな小型言語モデル「SmolLM 3」をHugging Face HubとGitHubで<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">無償公開</a>{target=“_blank”}した。パラメータ数は30億（3B）で、128kトークンの長文入力に対応し、命令文内の「\u002Fthink」や「\u002Fno_think」フラグによって推論過程を切り替える機能を持つ。英語・フランス語・スペイン語・ドイツ語・イタリア語・ポルトガル語の6言語に最適化され、ツールコーリング機能も実装されている。公開直後にはONNX版や量子化済みチェックポイント、訓練レシピ、学習データセットなども順次提供されており、エッジ推論や再学習など幅広いユースケースに対応可能となっている。</p>
@@ -1433,7 +1586,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fbitnet_b1_58_2b4t_lightweight_high_performance_llm">関連記事：Microsoft研究チーム、超軽量で高性能な「BitNet b1.58 2B4T」を発表</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Stability AI、AIポルノ生成を全面禁止へ──7月31日から利用規約改定、Stable Diffusion・API・OSSを含む全サービスで性的コンテンツを遮断</title><link>https://ledge.ai/articles/stability_ai_policy_update_nsfw_ban</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stability AI、AIポルノ生成を全面禁止へ──7月31日から利用規約改定、Stable Diffusion・API・OSSを含む全サービスで性的コンテンツを遮断</title>
+      <link>https://ledge.ai/articles/stability_ai_policy_update_nsfw_ban</link>
+      <description><![CDATA[<p>:::small
 画像の出典：GPT-4oによりLedge.aiが生成
 :::</p>
 <p>ロンドンを拠点とする生成AI企業Stability AIは、2025年7月31日付で同社サービスの利用規約（Acceptable Use Policy, AUP）を<a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fuse-policy">改定</a>{target=“_blank”}し、Stable Diffusionをはじめとする自社製AIモデル・API・オープンソースコードにおいて、性行為に関連するコンテンツの生成・使用を一律禁止する。</p>
@@ -1481,7 +1640,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_generated_images_snapchat_police_sting_operation">関連記事：ニューメキシコ州、Snapchatを提訴――AI生成の少女画像を使用したおとり捜査で性犯罪者を摘発</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>耳で聞けない声を0.3秒で“見える化”──イェール大発スマートグラス「TranscribeGlass」一般販売開始</title><link>https://ledge.ai/articles/transcribeglass_smartglasses_realtime_subtitles</link><description><![CDATA[<p>:::small
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>耳で聞けない声を0.3秒で“見える化”──イェール大発スマートグラス「TranscribeGlass」一般販売開始</title>
+      <link>https://ledge.ai/articles/transcribeglass_smartglasses_realtime_subtitles</link>
+      <description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}
 :::</p>
 <p>2025年7月、イェール大学の学生チームが開発したスマートグラス「<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}」の一般販売が開始された。聴覚障がい者や難聴者を主な対象とし、周囲の発話をリアルタイムで字幕としてレンズ上に表示することができる。平均0.3秒という低遅延表示を実現し、日本語を含む10以上の言語への翻訳にも対応しているという。</p>
@@ -1526,7 +1691,13 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgenesis_ai_starkeyjp">関連記事：AI補聴器「ジェネシス」発表──脳の聴覚機能を代替し毎時8000万回の音声解析</a>
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title><link>https://ledge.ai/articles/webinar-vol65</link><description><![CDATA[<h2>ウェビナー概要</h2>
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol65</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
 <p>Ledge.ai Webinar vol.65では、「ローカルLLMの大本命『Qwen3』の継続事前学習デモンストレーション」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。</p>
 <p>Alibaba社が開発したオープンソースの大規模言語モデル（LLM）「Qwen」シリーズの最新版「Qwen3」は、DeepSeek-R1やOpenAI o1をも凌ぐ性能を持つとされ、世界中の開発者から大きな注目を集めています。特に、プロンプトに応じて思考プロセスを切り替える「ハイブリッド推論」や、外部ツールを呼び出す「エージェント機能」といった先進的な機能を備えている点も特長です。オープンソースでありながら商用利用も可能なため、自社の環境でセキュアに活用できる高性能なローカルLLMとして、ビジネス応用の期待が非常に高まっています。
 今回のウェビナーでは、この「Qwen3」をベースに、特定の専門知識を追加で学習させる「継続事前学習」に焦点を当てます。ゼロからモデルを開発する「フルスクラッチ」に比べ、計算リソースやコストを大幅に抑えながら、自社に特化した高性能モデルを構築できるこの手法について、デモンストレーションを通じて具体的に解説します。</p>
@@ -1576,4 +1747,8 @@ GPUクラウドサービスの事業開発からマーケティング、技術�
 <p>:::button
 <a href="https:%5Cu002F%5Cu002Fzfrmz.com%5Cu002FiXQrpCVKQZwYTU8kO3uy">ウェビナーの視聴はこちら</a>{target=“_blank”}
 :::</p>
-]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item></channel></rss>
+]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

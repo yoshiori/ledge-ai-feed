@@ -1,5 +1,8 @@
 use crate::rss_item::RssItem;
+use quick_xml::events::{BytesDecl, Event};
+use quick_xml::Writer;
 use rss::{ChannelBuilder, ItemBuilder};
+use std::io::Cursor;
 
 pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::Error>> {
     let mut channel = ChannelBuilder::default()
@@ -21,7 +24,35 @@ pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::E
         .collect();
 
     channel.set_items(rss_items);
-    Ok(channel.to_string())
+
+    // Get unformatted XML string from rss crate
+    let xml_string = channel.to_string();
+
+    // Format the XML with indentation
+    format_xml(&xml_string)
+}
+
+fn format_xml(xml: &str) -> Result<String, Box<dyn std::error::Error>> {
+    let mut reader = quick_xml::Reader::from_str(xml);
+    reader.config_mut().trim_text(true);
+
+    let mut writer = Writer::new_with_indent(Cursor::new(Vec::new()), b' ', 2);
+
+    // Copy events from reader to writer with formatting
+    loop {
+        match reader.read_event() {
+            Ok(Event::Eof) => break,
+            Ok(Event::Decl(_)) => {
+                // Replace the original declaration with UTF-8
+                writer.write_event(Event::Decl(BytesDecl::new("1.0", Some("UTF-8"), None)))?;
+            }
+            Ok(event) => writer.write_event(event)?,
+            Err(e) => return Err(Box::new(e)),
+        }
+    }
+
+    let result = writer.into_inner().into_inner();
+    Ok(String::from_utf8(result)?)
 }
 
 #[cfg(test)]
@@ -55,5 +86,20 @@ mod tests {
         assert!(rss_content.contains("<description>Ledge.ai の最新テクノロジー記事</description>"));
         assert!(rss_content.contains("<title>Article 1</title>"));
         assert!(rss_content.contains("<title>Article 2</title>"));
+
+        // Check that XML is properly formatted with indentation
+        assert!(rss_content.contains("\n"));
+        assert!(rss_content.contains("  "));
+    }
+
+    #[test]
+    fn test_xml_formatting() {
+        let xml = r#"<?xml version="1.0"?><root><child>text</child></root>"#;
+        let formatted = format_xml(xml);
+        assert!(formatted.is_ok());
+
+        let result = formatted.unwrap();
+        assert!(result.contains("\n"));
+        assert!(result.contains("  <child>"));
     }
 }
