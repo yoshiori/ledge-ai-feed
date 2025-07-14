@@ -1,6 +1,21 @@
 use pulldown_cmark::{html, Parser};
 use scraper::{Html, Selector};
 
+fn safe_substring(s: &str, max_len: usize) -> &str {
+    if s.len() <= max_len {
+        return s;
+    }
+    
+    // Find a safe character boundary
+    for i in (0..=max_len).rev() {
+        if s.is_char_boundary(i) {
+            return &s[..i];
+        }
+    }
+    
+    s
+}
+
 pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error::Error>> {
     let document = Html::parse_document(html);
     
@@ -30,6 +45,7 @@ fn extract_from_script_tags(html: &str) -> Result<String, Box<dyn std::error::Er
         
         // Try different patterns
         if script_text.contains("__INITIAL_STATE__") || script_text.contains("__NUXT__") || script_text.len() > 5000 {
+            
             // Look for content in various formats
             if let Some(content) = extract_content_from_script(&script_text) {
                 return Ok(content);
@@ -41,12 +57,17 @@ fn extract_from_script_tags(html: &str) -> Result<String, Box<dyn std::error::Er
 }
 
 fn extract_content_from_script(script_text: &str) -> Option<String> {
-    // Try to find markdown or HTML content patterns
+    
+    // Try to find various content patterns in Nuxt.js data - more flexible patterns
     let content_patterns = [
-        r#""content":"([^"]{100,})""#,  // At least 100 chars
-        r#""body":"([^"]{100,})""#,
-        r#""markdown":"([^"]{100,})""#,
-        r#""text":"([^"]{100,})""#,
+        // More flexible patterns for Ledge.ai
+        r#""body":"([^"]{300,}?)""#,                        // Body field, at least 300 chars
+        r#""content":"([^"]{300,}?)""#,                     // Content field, at least 300 chars  
+        r#""markdown":"([^"]{300,}?)""#,                    // Markdown content, at least 300 chars
+        r#""text":"([^"]{300,}?)""#,                        // Text field, at least 300 chars
+        r#"article.*?content.*?:"([^"]{300,}?)""#,          // Article with content
+        r#"post.*?body.*?:"([^"]{300,}?)""#,                // Post with body
+        r#"contents.*?body.*?:"([^"]{300,}?)""#,            // Contents array with body
     ];
     
     for pattern in &content_patterns {
@@ -54,7 +75,19 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
             if let Some(captures) = regex.captures(script_text) {
                 if let Some(content_match) = captures.get(1) {
                     let content = content_match.as_str();
-                    return Some(content.replace("\\n", "\n").replace("\\\"", "\""));
+                    
+                    // Clean up escaped characters
+                    let cleaned = content
+                        .replace("\\n", "\n")
+                        .replace("\\r", "\r")
+                        .replace("\\t", "\t")
+                        .replace("\\\"", "\"")
+                        .replace("\\/", "/");
+                    
+                    // More lenient filtering - accept any substantial content
+                    if cleaned.len() > 300 {
+                        return Some(cleaned);
+                    }
                 }
             }
         }
@@ -64,23 +97,37 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
 }
 
 fn extract_from_html_content(document: &Html) -> Result<String, Box<dyn std::error::Error>> {
-    // Try common content selectors
+    // Try Ledge.ai specific content selectors first
     let content_selectors = [
-        "article",
-        ".article-content", 
-        ".post-content",
-        ".content",
-        "main",
-        ".entry-content",
-        "[role='main']",
+        ".article-body",        // Ledge.ai article body
+        ".post-body",          // Post body
+        ".content-body",       // Content body
+        "article .content",    // Article content
+        ".entry-content",      // Entry content
+        "main article",        // Main article
+        "article",             // Generic article
+        ".post-content",       // Post content
+        "main",                // Main content area
+        "[role='main']",       // Main role
     ];
     
     for selector_str in &content_selectors {
         if let Ok(selector) = Selector::parse(selector_str) {
             for element in document.select(&selector) {
                 let content = element.text().collect::<Vec<_>>().join(" ");
-                if content.len() > 200 { // Only return substantial content
-                    return Ok(format!("# Article Content\n\n{}", content.trim()));
+                
+                // More lenient filtering - just check basic length
+                if content.len() > 300 {
+                    
+                    // Basic cleanup for common UI elements but still return content
+                    let cleaned = content
+                        .replace("クリップする", "")
+                        .replace("アクセスランキング", "")
+                        .replace("関連記事", "")
+                        .replace("人気のタグ", "")
+                        .replace("FOLLOW US", "");
+                    
+                    return Ok(format!("# Article Content\n\n{}", cleaned.trim()));
                 }
             }
         }
