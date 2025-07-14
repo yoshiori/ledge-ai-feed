@@ -1,6 +1,4 @@
 use crate::rss_item::RssItem;
-use quick_xml::events::{BytesDecl, Event};
-use quick_xml::Writer;
 use rss::{ChannelBuilder, ItemBuilder};
 use std::io::Cursor;
 
@@ -25,40 +23,19 @@ pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::E
 
     channel.set_items(rss_items);
 
-    // Get unformatted XML string from rss crate
-    let xml_string = channel.to_string();
+    // Use rss crate's built-in pretty_write_to method for formatted XML output
+    let mut buffer = Cursor::new(Vec::new());
+    channel.pretty_write_to(&mut buffer, b' ', 2)?;
 
-    // Format the XML with indentation
-    format_xml(&xml_string)
-}
-
-fn format_xml(xml: &str) -> Result<String, Box<dyn std::error::Error>> {
-    let mut reader = quick_xml::Reader::from_str(xml);
-    reader.config_mut().trim_text(true);
-
-    let mut writer = Writer::new_with_indent(Cursor::new(Vec::new()), b' ', 2);
-
-    // Copy events from reader to writer with formatting
-    loop {
-        match reader.read_event() {
-            Ok(Event::Eof) => break,
-            Ok(Event::Decl(_)) => {
-                // Replace the original declaration with UTF-8
-                writer.write_event(Event::Decl(BytesDecl::new("1.0", Some("UTF-8"), None)))?;
-            }
-            Ok(event) => writer.write_event(event)?,
-            Err(e) => return Err(Box::new(e)),
-        }
-    }
-
-    let result = writer.into_inner().into_inner();
-    Ok(String::from_utf8(result)?)
+    let pretty_xml = String::from_utf8(buffer.into_inner())?;
+    Ok(pretty_xml)
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
     use crate::rss_item::RssItem;
+    use std::io::Cursor;
 
     #[test]
     fn test_generate_rss_creates_valid_xml() {
@@ -93,13 +70,65 @@ mod tests {
     }
 
     #[test]
-    fn test_xml_formatting() {
-        let xml = r#"<?xml version="1.0"?><root><child>text</child></root>"#;
-        let formatted = format_xml(xml);
-        assert!(formatted.is_ok());
+    fn test_rss_crate_pretty_write_to() {
+        let items = vec![RssItem {
+            title: "Test Article".to_string(),
+            link: "https://example.com/test".to_string(),
+            description: "<p>Test Content</p>".to_string(),
+            pub_date: "2025-01-14T10:00:00+09:00".to_string(),
+        }];
 
-        let result = formatted.unwrap();
-        assert!(result.contains("\n"));
-        assert!(result.contains("  <child>"));
+        let mut channel = rss::ChannelBuilder::default()
+            .title("Test RSS")
+            .link("https://example.com/")
+            .description("Test RSS Feed")
+            .build();
+
+        let rss_items: Vec<rss::Item> = items
+            .into_iter()
+            .map(|item| {
+                rss::ItemBuilder::default()
+                    .title(Some(item.title))
+                    .link(Some(item.link))
+                    .description(Some(item.description))
+                    .pub_date(Some(item.pub_date))
+                    .build()
+            })
+            .collect();
+
+        channel.set_items(rss_items);
+
+        // Test pretty_write_to method from rss crate
+        let mut buffer = Cursor::new(Vec::new());
+        let result = channel.pretty_write_to(&mut buffer, b' ', 2);
+
+        assert!(result.is_ok());
+
+        let pretty_xml = String::from_utf8(buffer.into_inner()).unwrap();
+        println!("Pretty XML output:\n{}", pretty_xml);
+
+        // Check that XML is properly formatted with indentation
+        assert!(pretty_xml.contains("\n"));
+        assert!(pretty_xml.contains("  "));
+        assert!(pretty_xml.contains("<title>Test RSS</title>"));
+    }
+
+    #[test]
+    fn test_rss_pretty_formatting() {
+        let items = vec![RssItem {
+            title: "Simple Article".to_string(),
+            link: "https://example.com/simple".to_string(),
+            description: "Simple Content".to_string(),
+            pub_date: "2025-01-14T12:00:00+09:00".to_string(),
+        }];
+
+        let result = generate_rss(items);
+        assert!(result.is_ok());
+
+        let rss_content = result.unwrap();
+        // Check that XML is properly formatted with indentation using rss crate's pretty_write_to
+        assert!(rss_content.contains("\n"));
+        assert!(rss_content.contains("  <channel>"));
+        assert!(rss_content.contains("    <title>"));
     }
 }
