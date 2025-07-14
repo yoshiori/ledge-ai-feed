@@ -7,7 +7,9 @@ pub struct ArticleInfo {
     pub date: String,
 }
 
-pub fn parse_articles_from_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std::error::Error>> {
+pub fn parse_articles_from_html(
+    html: &str,
+) -> Result<Vec<ArticleInfo>, Box<dyn std::error::Error>> {
     let document = Html::parse_document(html);
     let article_selector = Selector::parse("div.article-item")?;
     let link_selector = Selector::parse("a")?;
