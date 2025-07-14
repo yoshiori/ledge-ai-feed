@@ -1,5 +1,10 @@
 # Ledge.ai RSS Feed Generator
 
+[![Tests](https://github.com/yoshiori/ledge-ai-feed/workflows/Tests/badge.svg)](https://github.com/yoshiori/ledge-ai-feed/actions/workflows/test.yml)
+[![RSS Update](https://github.com/yoshiori/ledge-ai-feed/workflows/Update%20RSS%20Feed/badge.svg)](https://github.com/yoshiori/ledge-ai-feed/actions/workflows/update-rss.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
+
 An automated RSS 2.0 feed generator for Ledge.ai articles, built with Rust and Test-Driven Development.
 
 ## Features
