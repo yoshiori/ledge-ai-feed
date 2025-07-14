@@ -1,5 +1,5 @@
-use std::time::Duration;
 use reqwest::Client;
+use std::time::Duration;
 
 pub struct HttpClient {
     client: Client,
@@ -45,12 +45,14 @@ mod tests {
     #[tokio::test]
     async fn test_fetch_html() {
         let client = HttpClient::new();
-        
+
         // This is a minimal test - in practice we would use a mock HTTP client
         let _html = r#"<html><body><h1>Test</h1></body></html>"#;
-        
+
         // For now, we'll test the timeout and error handling functionality
-        let result = client.fetch_url_with_timeout("https://httpbin.org/delay/10", 1000).await;
+        let result = client
+            .fetch_url_with_timeout("https://httpbin.org/delay/10", 1000)
+            .await;
         assert!(result.is_err()); // Should timeout
     }
 
