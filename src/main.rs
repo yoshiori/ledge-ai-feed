@@ -29,10 +29,18 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     let mut rss_items = Vec::new();
 
     // Fetch content for each article
-    println!("Fetching article content for {} articles...", articles.len());
+    println!(
+        "Fetching article content for {} articles...",
+        articles.len()
+    );
     for (i, article) in articles.iter().enumerate() {
-        println!("Processing article {}/{}: {}", i + 1, articles.len(), article.title);
-        
+        println!(
+            "Processing article {}/{}: {}",
+            i + 1,
+            articles.len(),
+            article.title
+        );
+
         match client.fetch_url(&article.url).await {
             Ok(article_html) => {
                 if let Ok(markdown_content) = extract_article_content(&article_html) {
@@ -65,7 +73,10 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     // Write to file
     fs::write("rss.xml", &rss_xml)?;
 
-    println!("RSS feed generated successfully as 'rss.xml' ({} bytes)", rss_xml.len());
+    println!(
+        "RSS feed generated successfully as 'rss.xml' ({} bytes)",
+        rss_xml.len()
+    );
     Ok(())
 }
 

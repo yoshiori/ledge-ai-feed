@@ -60,6 +60,5 @@ mod tests {
     fn test_http_client_creation() {
         let _client = HttpClient::new();
         // Just test that we can create a client without panicking
-        assert!(true);
     }
 }
