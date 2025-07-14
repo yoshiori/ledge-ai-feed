@@ -18,18 +18,25 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     let client = HttpClient::new();
 
     // Fetch the main page
+    println!("Fetching Ledge.ai main page...");
     let main_page_html = client.fetch_url("https://ledge.ai/").await?;
 
     // Parse articles from the main page
+    println!("Parsing articles from HTML...");
     let articles = parse_articles_from_html(&main_page_html)?;
+    println!("Found {} articles", articles.len());
 
     let mut rss_items = Vec::new();
 
-    // Fetch content for each article (limit to first 10 for performance)
-    for article in articles.iter().take(10) {
+    // Fetch content for each article
+    println!("Fetching article content for {} articles...", articles.len());
+    for (i, article) in articles.iter().enumerate() {
+        println!("Processing article {}/{}: {}", i + 1, articles.len(), article.title);
+        
         match client.fetch_url(&article.url).await {
             Ok(article_html) => {
                 if let Ok(markdown_content) = extract_article_content(&article_html) {
+                    println!("  ✓ Extracted content ({} chars)", markdown_content.len());
                     let html_content = markdown_to_html(&markdown_content);
                     let pub_date = format_date(&article.date);
 
@@ -42,22 +49,23 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
 
                     rss_items.push(rss_item);
                 } else {
-                    eprintln!("Failed to extract content from: {}", article.url);
+                    eprintln!("  ✗ Failed to extract content from: {}", article.url);
                 }
             }
             Err(e) => {
-                eprintln!("Failed to fetch article {}: {}", article.url, e);
+                eprintln!("  ✗ Failed to fetch article {}: {}", article.url, e);
             }
         }
     }
 
     // Generate RSS
+    println!("Generating RSS feed with {} items...", rss_items.len());
     let rss_xml = generate_rss(rss_items)?;
 
     // Write to file
-    fs::write("rss.xml", rss_xml)?;
+    fs::write("rss.xml", &rss_xml)?;
 
-    println!("RSS feed generated successfully as 'rss.xml'");
+    println!("RSS feed generated successfully as 'rss.xml' ({} bytes)", rss_xml.len());
     Ok(())
 }
 
