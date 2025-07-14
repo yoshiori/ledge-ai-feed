@@ -46,6 +46,72 @@
 :::box
 <a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_gpt-4-5_release_ai_advancements">関連記事：OpenAI、GPT-4.5を正式発表──自然な対話と高い感情知能（EQ）を実現</a>
 :::</p>
+]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title><link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link><description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">AMD</a>{target=“_blank”}
+:::</p>
+<p>半導体企業のAMDは2025年7月9日、公式ブログにて、独自開発の画像生成AIモデル「Nitro-T」を<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">発表</a>{target=“_blank”}した。AMDリサーチチームが開発したこのモデルは、MI300X GPUを最大限に活用し、わずか24時間未満でゼロからの学習が可能な効率的な拡散モデルだという。学習済みモデルとコードの両方がオープンソースで公開されており、開発者や研究者による再利用や応用が容易となっている。</p>
+<h2>高効率を支える4つの技術要素</h2>
+<p>Nitro-Tの効率性は、ハードウェアに加え、以下4つの技術的要素によって支えられている。</p>
+<h3>1. 安定した学習と高速収束技術</h3>
+<ul>
+<li>Representation Alignment（REPA）</li>
+<li>Progressive training（段階的学習）</li>
+<li>学習後半のEMA（指数移動平均）</li>
+</ul>
+<h3>2. パッチ長の削減技術</h3>
+<ul>
+<li>Deferred patch masking</li>
+<li>高圧縮潜在空間（32×のDC-AE）</li>
+</ul>
+<h3>3. モデル構造とデータ</h3>
+<ul>
+<li>軽量テキストエンコーダ（Llama 3.2 1B）</li>
+<li>合成データの活用（JourneyDB など）</li>
+</ul>
+<h3>4. システム最適化</h3>
+<ul>
+<li>torch.compile の利用</li>
+<li>Flash Attention</li>
+<li>Fully Sharded Data Parallel（FSDP）</li>
+</ul>
+<p><strong>図１：Nitro-Tの高効率学習を支える技術的要素</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_1_1799ea6862%5Cu002FNT_1_1799ea6862.png" alt="NT1.png" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">AMD</a>{target=“_blank”}
+:::</p>
+<h2>トレーニングと推論で業界トップクラスの効率性を実現</h2>
+<p>Nitro-Tの最大の特徴は、従来モデルと比較して極めて低い学習コストと高速な推論性能にあるという。たとえば、PixArt-αと比較して、同等の画質を保ちつつ、学習にかかるGPU時間は14.4分の1にまで削減されている。さらに、推論レイテンシもPixArt-αやStable Diffusion XLの4分の1以下に抑えられている。</p>
+<p><strong>図２：左：トレーニングにかかるGPU時間比較（MI300X換算）、右：1画像あたりの推論レイテンシ比較（ms）</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_2_01566a1e5a%5Cu002FNT_2_01566a1e5a.png" alt="NT2.png" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">AMD</a>{target=“_blank”}
+:::</p>
+<h2>モデル構成と学習条件</h2>
+<p>Nitro-Tは2種類のモデルが公開されている。</p>
+<ul>
+<li>Nitro-T-0.6B：DiTベース、画像解像度512px、パラメータ数0.6B</li>
+<li>Nitro-T-1.2B：MMDiTベース、画像解像度1024px、パラメータ数1.2B</li>
+</ul>
+<p>学習はMI300X 32基（4ノード）構成のSupermicroサーバ上で行われ、約3,500万枚の画像（実画像と合成データを含む）を用いて、それぞれ440～520 GPU時間で学習を完了している。</p>
+<h2>今後の展望</h2>
+<p>AMDはNitro-Tを通じて、MI300Xを核としたAIエコシステムの展開を強化していく方針を示している。同社は、Nitro-Tの公開によって「効率的なテキスト・画像生成AIの研究・開発がより多くのチームに開かれたものになる」としており、Apache-2.0ライセンスのもとでモデル重み・コード・学習スクリプト・Dockerイメージを広く公開している。</p>
+<p>同社によれば、「Nitro-Tは学習時間と推論性能の両面で、現代的な生成AIモデルが直面する最大の制約を克服することを目的として設計された」とし、特にGPU資源の限られた研究者や開発者でも活用可能な実用的な基盤モデルとして位置付けている。</p>
+<p>AMDは今後、Nitro-Tを起点とした研究や応用開発の促進を期待しており、オープンソース戦略によって、MI300Xの活用機会を広げる狙いを明確にしている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Famd_instella_vl_1b_vision_language_model">関連記事：AMD、初の視覚言語モデル「Instella-VL-1B」を発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Famd_advancing_ai">関連記事：AMD「Advancing AI」イベント──Instinct MI300でNVIDIA超えスループットを実演</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fqwen_vlo_image_generation_free_preview">関連記事：「理解」から「描写」へ──Alibabaの画像生成AI「Qwen VLo」無料プレビュー公開</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopen_sora_hpc_ai_technology">関連記事：「Sora」の完全OSS版を目指すシンガポールAIスタートアップ、PixArt-α拡張モデルを発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdiffusion_kto_personalized_image_ai">関連記事：好みを数値化して画像を最適化──パナソニックの個人化生成AI「Diffusion-KTO」</a>
+:::</p>
 ]]></description><pubDate>Tue, 14 Jan 2025 12:00:00 GMT</pubDate></item><item><title>Anthropic、フロンティアAI開発者向け「透明性フレームワーク」を提案──安全開発を義務化する“Secure Development Framework”を柱に</title><link>https://ledge.ai/articles/anthropic_transparency_framework_ai_regulation</link><description><![CDATA[<p>:::small
 画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.anthropic.com%5Cu002Fnews%5Cu002Fthe-need-for-transparency-in-frontier-ai">Anthropic</a>{target=“_blank”}
 :::</p>
