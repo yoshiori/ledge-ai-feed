@@ -13,7 +13,7 @@ pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error:
                 if let Some(json_end) = script_text.rfind('}') {
                     let json_str = &script_text[json_start..=json_end];
                     let cleaned_json = json_str.replace("};", "}");
-                    
+
                     if let Ok(json_value) = serde_json::from_str::<Value>(&cleaned_json) {
                         if let Some(content) = json_value
                             .get("article")
