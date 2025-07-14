@@ -51,9 +51,9 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                     let pub_date = format_date(date_to_use);
 
                     if actual_date.is_some() {
-                        println!("  ✓ Extracted publication date: {}", date_to_use);
+                        println!("  ✓ Extracted publication date: {date_to_use}");
                     } else {
-                        println!("  ! Using fallback date: {}", date_to_use);
+                        println!("  ! Using fallback date: {date_to_use}");
                     }
 
                     let rss_item = RssItem {
@@ -117,7 +117,7 @@ fn format_date(date_str: &str) -> String {
 #[tokio::main]
 async fn main() {
     if let Err(e) = fetch_and_generate_rss().await {
-        eprintln!("Error generating RSS feed: {}", e);
+        eprintln!("Error generating RSS feed: {e}");
         std::process::exit(1);
     }
 }

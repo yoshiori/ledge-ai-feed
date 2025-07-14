@@ -105,7 +105,7 @@ mod tests {
         assert!(result.is_ok());
 
         let pretty_xml = String::from_utf8(buffer.into_inner()).unwrap();
-        println!("Pretty XML output:\n{}", pretty_xml);
+        println!("Pretty XML output:\n{pretty_xml}");
 
         // Check that XML is properly formatted with indentation
         assert!(pretty_xml.contains("\n"));

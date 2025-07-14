@@ -84,7 +84,7 @@ fn extract_articles_from_any_json(script_text: &str) -> Option<Vec<ArticleInfo>>
 
             if let Some(slug_caps) = slug_pattern.captures(search_area) {
                 let slug = slug_caps.get(1)?.as_str();
-                let url = format!("https://ledge.ai/articles/{}", slug);
+                let url = format!("https://ledge.ai/articles/{slug}");
 
                 articles.push(ArticleInfo {
                     title: title.to_string(),
@@ -123,7 +123,7 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
 
     for selector_str in &selectors_to_try {
         if let Ok(selector) = Selector::parse(selector_str) {
-            println!("    Trying selector: {}", selector_str);
+            println!("    Trying selector: {selector_str}");
             let mut found_count = 0;
 
             for element in document.select(&selector) {
@@ -134,7 +134,7 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
                         if !title.is_empty() && title.len() > 5 {
                             // Skip very short titles
                             let url = if href.starts_with('/') {
-                                format!("https://ledge.ai{}", href)
+                                format!("https://ledge.ai{href}")
                             } else {
                                 href.to_string()
                             };
@@ -150,7 +150,7 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
                 }
             }
 
-            println!("      Found {} articles with this selector", found_count);
+            println!("      Found {found_count} articles with this selector");
             if found_count > 0 {
                 break; // Use the first selector that finds articles
             }
@@ -208,13 +208,12 @@ mod tests {
             <html>
                 <head>
                     <script>
-                        {}
+                        {script_content}
                     </script>
                 </head>
                 <body></body>
             </html>
-        "#,
-            script_content
+        "#
         );
 
         let articles = parse_articles_from_html(&html).unwrap();
