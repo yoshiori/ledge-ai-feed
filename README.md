@@ -69,6 +69,16 @@ cargo fmt
 cargo clippy
 ```
 
+### Pre-commit Hook
+
+A pre-commit hook is automatically installed that runs:
+- Code formatting check (`cargo fmt --check`)
+- Clippy lints (`cargo clippy`)
+- All tests (`cargo test`)
+- Compilation check (`cargo check`)
+
+This ensures code quality and prevents commits with failing tests or linting issues.
+
 ## Automation Schedule
 
 Automated execution via GitHub Actions:
