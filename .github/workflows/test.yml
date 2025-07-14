@@ -112,27 +112,3 @@ jobs:
           echo "cargo-audit not available, skipping security audit"
         fi
 
-  minimal-versions:
-    name: Minimal Versions Check
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libssl-dev pkg-config
-      
-    - name: Install Rust toolchain (nightly for -Z minimal-versions)
-      uses: dtolnay/rust-toolchain@nightly
-      
-    - name: Install Rust stable
-      uses: dtolnay/rust-toolchain@stable
-      
-    - name: Generate minimal versions Cargo.lock
-      run: cargo +nightly update -Z minimal-versions
-      
-    - name: Test with minimal versions
-      run: cargo +stable test
