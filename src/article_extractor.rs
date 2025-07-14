@@ -2,21 +2,6 @@ use pulldown_cmark::{html, Parser};
 use regex::Regex;
 use scraper::{Html, Selector};
 
-fn safe_substring(s: &str, max_len: usize) -> &str {
-    if s.len() <= max_len {
-        return s;
-    }
-
-    // Find a safe character boundary
-    for i in (0..=max_len).rev() {
-        if s.is_char_boundary(i) {
-            return &s[..i];
-        }
-    }
-
-    s
-}
-
 pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error::Error>> {
     let document = Html::parse_document(html);
 
@@ -159,46 +144,6 @@ fn extract_date_from_nuxt_object(html: &str) -> Option<String> {
         if script_text.contains("__NUXT__") {
             if let Some(date) = extract_date_from_nuxt_script(&script_text) {
                 return Some(date);
-            }
-        }
-    }
-
-    None
-}
-
-fn extract_date_from_nuxt_script_with_url(script_text: &str, url: &str) -> Option<String> {
-    // Extract article slug from URL
-    let slug = extract_slug_from_url(url)?;
-
-    // Look for __NUXT__ object with specific article slug
-    if script_text.contains("__NUXT__") {
-        // Try to find the main article by matching slug and extracting its publishedAt
-        let slug_pattern = format!(
-            r#"attributes:\{{[^}}]*?slug:"{}"[^}}]*?publishedAt:"([0-9]{{4}}-[0-9]{{2}}-[0-9]{{2}}T[0-9]{{2}}:[0-9]{{2}}:[0-9]{{2}}[^"]*)"[^}}]*?\}}"#,
-            regex::escape(&slug)
-        );
-
-        if let Ok(regex) = Regex::new(&slug_pattern) {
-            if let Some(captures) = regex.captures(script_text) {
-                if let Some(date_match) = captures.get(1) {
-                    let date = date_match.as_str();
-                    return Some(date.to_string());
-                }
-            }
-        }
-    }
-
-    None
-}
-
-fn extract_slug_from_url(url: &str) -> Option<String> {
-    // Extract slug from URL like https://ledge.ai/articles/ai_emotion_switch_llm_control
-    let slug_pattern = r#"/articles/([^/?#]+)"#;
-
-    if let Ok(regex) = Regex::new(slug_pattern) {
-        if let Some(captures) = regex.captures(url) {
-            if let Some(slug_match) = captures.get(1) {
-                return Some(slug_match.as_str().to_string());
             }
         }
     }
@@ -549,13 +494,5 @@ mod tests {
         let date = extract_date_from_nuxt_script(script_text);
         assert!(date.is_some());
         assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
-    }
-
-    #[test]
-    fn test_extract_slug_from_url() {
-        let url = "https://ledge.ai/articles/ai_emotion_switch_llm_control";
-        let slug = extract_slug_from_url(url);
-        assert!(slug.is_some());
-        assert_eq!(slug.unwrap(), "ai_emotion_switch_llm_control");
     }
 }

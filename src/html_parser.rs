@@ -1,5 +1,4 @@
 use scraper::{Html, Selector};
-use serde_json::Value;
 
 #[derive(Debug, PartialEq)]
 pub struct ArticleInfo {
@@ -105,102 +104,6 @@ fn extract_articles_from_any_json(script_text: &str) -> Option<Vec<ArticleInfo>>
         None
     } else {
         Some(articles)
-    }
-}
-
-fn extract_articles_from_nuxt_json(
-    json: &Value,
-) -> Result<Vec<ArticleInfo>, Box<dyn std::error::Error>> {
-    let mut articles = Vec::new();
-
-    // Try different possible paths for article data
-    let article_paths: Vec<Vec<&str>> = vec![
-        vec!["data", "fetchNewestArticles"],
-        vec!["data", "fetchFirstViewArticles"],
-        vec!["state", "articles", "newest"],
-        vec!["asyncData", "articles"],
-    ];
-
-    for path in &article_paths {
-        if let Some(articles_data) = navigate_json_path(json, path) {
-            if let Some(articles_array) = articles_data.as_array() {
-                for article in articles_array {
-                    if let Some(article_info) = parse_single_article(article) {
-                        articles.push(article_info);
-                    }
-                }
-                if !articles.is_empty() {
-                    break;
-                }
-            }
-        }
-    }
-
-    if articles.is_empty() {
-        // Try to find articles in any array in the JSON
-        find_articles_in_json_recursively(json, &mut articles);
-    }
-
-    Ok(articles)
-}
-
-fn navigate_json_path<'a>(json: &'a Value, path: &[&str]) -> Option<&'a Value> {
-    let mut current = json;
-    for key in path {
-        current = current.get(key)?;
-    }
-    Some(current)
-}
-
-fn parse_single_article(article: &Value) -> Option<ArticleInfo> {
-    let title = article.get("title")?.as_str()?.to_string();
-
-    // Try different possible fields for URL slug
-    let slug = article
-        .get("slug")
-        .or_else(|| article.get("url"))
-        .or_else(|| article.get("path"))
-        .and_then(|v| v.as_str())?;
-
-    let url = if slug.starts_with('/') {
-        format!("https://ledge.ai{}", slug)
-    } else if slug.starts_with("http") {
-        slug.to_string()
-    } else {
-        format!("https://ledge.ai/articles/{}", slug)
-    };
-
-    // Try different possible fields for date
-    let date = article
-        .get("publishedAt")
-        .or_else(|| article.get("createdAt"))
-        .or_else(|| article.get("date"))
-        .or_else(|| article.get("published_at"))
-        .and_then(|v| v.as_str())
-        .unwrap_or("2025/01/14 [MON]") // Fallback date
-        .to_string();
-
-    Some(ArticleInfo { title, url, date })
-}
-
-fn find_articles_in_json_recursively(json: &Value, articles: &mut Vec<ArticleInfo>) {
-    match json {
-        Value::Object(obj) => {
-            for value in obj.values() {
-                find_articles_in_json_recursively(value, articles);
-            }
-        }
-        Value::Array(arr) => {
-            // Check if this array contains article-like objects
-            for item in arr {
-                if let Some(article) = parse_single_article(item) {
-                    articles.push(article);
-                } else {
-                    find_articles_in_json_recursively(item, articles);
-                }
-            }
-        }
-        _ => {}
     }
 }
 
@@ -330,37 +233,6 @@ mod tests {
             "https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model"
         );
         assert_eq!(articles[1].date, "2025/01/14 [MON]"); // Fallback date
-    }
-
-    #[test]
-    fn test_parse_single_article() {
-        let article_json = serde_json::json!({
-            "title": "Test Article",
-            "slug": "test-article-slug",
-            "publishedAt": "2025/01/14 [TUE]"
-        });
-
-        let article_info = parse_single_article(&article_json).unwrap();
-        assert_eq!(article_info.title, "Test Article");
-        assert_eq!(
-            article_info.url,
-            "https://ledge.ai/articles/test-article-slug"
-        );
-        assert_eq!(article_info.date, "2025/01/14 [TUE]");
-    }
-
-    #[test]
-    fn test_parse_single_article_with_path() {
-        let article_json = serde_json::json!({
-            "title": "Test Article with Path",
-            "path": "/articles/test-path",
-            "createdAt": "2025/01/15 [WED]"
-        });
-
-        let article_info = parse_single_article(&article_json).unwrap();
-        assert_eq!(article_info.title, "Test Article with Path");
-        assert_eq!(article_info.url, "https://ledge.ai/articles/test-path");
-        assert_eq!(article_info.date, "2025/01/15 [WED]");
     }
 
     #[test]

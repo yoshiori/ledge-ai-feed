@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 mod article_extractor;
 mod html_parser;
 mod http_client;
