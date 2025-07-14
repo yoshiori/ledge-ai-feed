@@ -1,4 +1,5 @@
 use pulldown_cmark::{html, Parser};
+use regex::Regex;
 use scraper::{Html, Selector};
 
 fn safe_substring(s: &str, max_len: usize) -> &str {
@@ -72,7 +73,7 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
     ];
 
     for pattern in &content_patterns {
-        if let Ok(regex) = regex::Regex::new(pattern) {
+        if let Ok(regex) = Regex::new(pattern) {
             if let Some(captures) = regex.captures(script_text) {
                 if let Some(content_match) = captures.get(1) {
                     let content = content_match.as_str();
@@ -90,6 +91,114 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                         return Some(cleaned);
                     }
                 }
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_date_from_nuxt_script(script_text: &str) -> Option<String> {
+    // Look for __NUXT__ object with article date information
+    if script_text.contains("__NUXT__") {
+        // Try to find the main article by looking for the structure that contains title, slug, and multiple date fields
+        // This is likely to be the main article object (not just tags or other metadata)
+        let main_article_patterns = [
+            // Pattern 1: Look for attributes with title, slug, and dates (most specific)
+            r#"attributes:\{[^}]*?title:[^}]*?slug:[^}]*?publishedAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"[^}]*?\}"#,
+            // Pattern 2: Look for attributes with title and dates
+            r#"attributes:\{[^}]*?title:[^}]*?publishedAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"[^}]*?\}"#,
+            // Pattern 3: Look for the pattern that includes scheduled_at (indicates main article)
+            r#"attributes:\{[^}]*?scheduled_at:[^}]*?publishedAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"[^}]*?\}"#,
+        ];
+
+        for pattern in &main_article_patterns {
+            if let Ok(regex) = Regex::new(pattern) {
+                if let Some(captures) = regex.captures(script_text) {
+                    if let Some(date_match) = captures.get(1) {
+                        let date = date_match.as_str();
+                        return Some(date.to_string());
+                    }
+                }
+            }
+        }
+
+        // Fallback: look for any date fields in the script
+        let date_patterns = [
+            r#"publishedAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"#,
+            r#"scheduled_at:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"#,
+            r#"createdAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"#,
+            r#"updatedAt:"([0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[^"]*)"#,
+        ];
+
+        for pattern in &date_patterns {
+            if let Ok(regex) = Regex::new(pattern) {
+                if let Some(captures) = regex.captures(script_text) {
+                    if let Some(date_match) = captures.get(1) {
+                        let date = date_match.as_str();
+                        // Return the first valid date found
+                        return Some(date.to_string());
+                    }
+                }
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_date_from_nuxt_object(html: &str) -> Option<String> {
+    // Look for __NUXT__ object in script tags
+    let document = Html::parse_document(html);
+    let script_selector = Selector::parse("script").ok()?;
+
+    for script_element in document.select(&script_selector) {
+        let script_text = script_element.text().collect::<String>();
+
+        // Check if this script contains __NUXT__ object
+        if script_text.contains("__NUXT__") {
+            if let Some(date) = extract_date_from_nuxt_script(&script_text) {
+                return Some(date);
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_date_from_nuxt_script_with_url(script_text: &str, url: &str) -> Option<String> {
+    // Extract article slug from URL
+    let slug = extract_slug_from_url(url)?;
+
+    // Look for __NUXT__ object with specific article slug
+    if script_text.contains("__NUXT__") {
+        // Try to find the main article by matching slug and extracting its publishedAt
+        let slug_pattern = format!(
+            r#"attributes:\{{[^}}]*?slug:"{}"[^}}]*?publishedAt:"([0-9]{{4}}-[0-9]{{2}}-[0-9]{{2}}T[0-9]{{2}}:[0-9]{{2}}:[0-9]{{2}}[^"]*)"[^}}]*?\}}"#,
+            regex::escape(&slug)
+        );
+
+        if let Ok(regex) = Regex::new(&slug_pattern) {
+            if let Some(captures) = regex.captures(script_text) {
+                if let Some(date_match) = captures.get(1) {
+                    let date = date_match.as_str();
+                    return Some(date.to_string());
+                }
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_slug_from_url(url: &str) -> Option<String> {
+    // Extract slug from URL like https://ledge.ai/articles/ai_emotion_switch_llm_control
+    let slug_pattern = r#"/articles/([^/?#]+)"#;
+
+    if let Ok(regex) = Regex::new(slug_pattern) {
+        if let Some(captures) = regex.captures(url) {
+            if let Some(slug_match) = captures.get(1) {
+                return Some(slug_match.as_str().to_string());
             }
         }
     }
@@ -141,17 +250,22 @@ pub fn extract_article_date(html: &str) -> Option<String> {
 
     // Try multiple strategies to extract publication date
 
-    // 1. Try meta tags
+    // 1. Try __NUXT__ object first (most reliable for Ledge.ai)
+    if let Some(date) = extract_date_from_nuxt_object(html) {
+        return Some(date);
+    }
+
+    // 2. Try meta tags
     if let Some(date) = extract_date_from_meta_tags(&document) {
         return Some(date);
     }
 
-    // 2. Try time elements
+    // 3. Try time elements
     if let Some(date) = extract_date_from_time_elements(&document) {
         return Some(date);
     }
 
-    // 3. Try JSON-LD structured data
+    // 4. Try JSON-LD structured data
     if let Some(date) = extract_date_from_json_ld(html) {
         return Some(date);
     }
@@ -210,7 +324,7 @@ fn extract_date_from_time_elements(document: &Html) -> Option<String> {
 }
 
 fn extract_date_from_json_ld(html: &str) -> Option<String> {
-    let json_ld_pattern = regex::Regex::new(
+    let json_ld_pattern = Regex::new(
         r#"(?s)<script[^>]*type=["']application/ld\+json["'][^>]*>\s*(.*?)\s*</script>"#,
     )
     .ok()?;
@@ -385,5 +499,63 @@ mod tests {
         let date = extract_article_date(html);
         assert!(date.is_some());
         assert_eq!(date.unwrap(), "2025-07-15T10:30:00.000Z");
+    }
+
+    #[test]
+    fn test_extract_date_from_nuxt_object() {
+        let html = r###"
+            <html>
+                <head>
+                    <title>Test Article</title>
+                </head>
+                <body>
+                    <script>
+                        window.__NUXT__={attributes:{title:"Test Article",slug:"test-article",publishedAt:"2025-07-13T04:50:00.014Z",createdAt:"2025-07-11T09:46:20.383Z",updatedAt:"2025-07-13T04:50:00.087Z",scheduled_at:"2025-07-13T04:50:00.000Z"}};
+                    </script>
+                    <h1>Test Article</h1>
+                    <p>Content</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
+    }
+
+    #[test]
+    fn test_extract_date_from_nuxt_script() {
+        let script_text = r###"
+            window.__NUXT__={attributes:{title:"Test Article",slug:"test-article",publishedAt:"2025-07-13T04:50:00.014Z",createdAt:"2025-07-11T09:46:20.383Z",updatedAt:"2025-07-13T04:50:00.087Z",scheduled_at:"2025-07-13T04:50:00.000Z"}};
+        "###;
+
+        let date = extract_date_from_nuxt_script(script_text);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
+    }
+
+    #[test]
+    fn test_extract_date_from_nuxt_script_with_multiple_articles() {
+        let script_text = r###"
+            window.__NUXT__={
+                tags:[
+                    {id:1,attributes:{name:"tag1",publishedAt:"2024-01-01T00:00:00.000Z"}},
+                    {id:2,attributes:{name:"tag2",publishedAt:"2024-02-01T00:00:00.000Z"}}
+                ],
+                article:{id:123,attributes:{title:"Main Article",slug:"main-article",scheduled_at:"2025-07-13T04:50:00.000Z",publishedAt:"2025-07-13T04:50:00.014Z",createdAt:"2025-07-11T09:46:20.383Z"}}
+            };
+        "###;
+
+        let date = extract_date_from_nuxt_script(script_text);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
+    }
+
+    #[test]
+    fn test_extract_slug_from_url() {
+        let url = "https://ledge.ai/articles/ai_emotion_switch_llm_control";
+        let slug = extract_slug_from_url(url);
+        assert!(slug.is_some());
+        assert_eq!(slug.unwrap(), "ai_emotion_switch_llm_control");
     }
 }
