@@ -136,6 +136,111 @@ fn extract_from_html_content(document: &Html) -> Result<String, Box<dyn std::err
     Err("No content found in HTML".into())
 }
 
+pub fn extract_article_date(html: &str) -> Option<String> {
+    let document = Html::parse_document(html);
+
+    // Try multiple strategies to extract publication date
+
+    // 1. Try meta tags
+    if let Some(date) = extract_date_from_meta_tags(&document) {
+        return Some(date);
+    }
+
+    // 2. Try time elements
+    if let Some(date) = extract_date_from_time_elements(&document) {
+        return Some(date);
+    }
+
+    // 3. Try JSON-LD structured data
+    if let Some(date) = extract_date_from_json_ld(html) {
+        return Some(date);
+    }
+
+    None
+}
+
+fn extract_date_from_meta_tags(document: &Html) -> Option<String> {
+    let meta_selectors = [
+        "meta[property=\"article:published_time\"]",
+        "meta[name=\"article:published_time\"]",
+        "meta[property=\"og:published_time\"]",
+        "meta[name=\"publishedDate\"]",
+        "meta[name=\"publication-date\"]",
+        "meta[name=\"date\"]",
+    ];
+
+    for selector_str in &meta_selectors {
+        if let Ok(selector) = Selector::parse(selector_str) {
+            if let Some(element) = document.select(&selector).next() {
+                if let Some(content) = element.value().attr("content") {
+                    return Some(content.to_string());
+                }
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_date_from_time_elements(document: &Html) -> Option<String> {
+    let time_selectors = [
+        "time[datetime]",
+        "time[pubdate]",
+        ".published-date time",
+        ".article-date time",
+        ".post-date time",
+    ];
+
+    for selector_str in &time_selectors {
+        if let Ok(selector) = Selector::parse(selector_str) {
+            if let Some(element) = document.select(&selector).next() {
+                if let Some(datetime) = element.value().attr("datetime") {
+                    return Some(datetime.to_string());
+                }
+                // Fallback to text content if no datetime attribute
+                let text_content = element.text().collect::<String>().trim().to_string();
+                if !text_content.is_empty() && text_content.len() > 8 {
+                    return Some(text_content);
+                }
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_date_from_json_ld(html: &str) -> Option<String> {
+    let json_ld_pattern = regex::Regex::new(
+        r#"(?s)<script[^>]*type=["']application/ld\+json["'][^>]*>\s*(.*?)\s*</script>"#,
+    )
+    .ok()?;
+
+    for capture in json_ld_pattern.captures_iter(html) {
+        if let Some(json_content) = capture.get(1) {
+            let json_str = json_content.as_str().trim();
+            if let Ok(json_data) = serde_json::from_str::<serde_json::Value>(json_str) {
+                // Try different paths for publication date in JSON-LD
+                let date_paths = [
+                    "datePublished",
+                    "dateCreated",
+                    "dateModified",
+                    "publishedDate",
+                ];
+
+                for path in &date_paths {
+                    if let Some(date_value) = json_data.get(path) {
+                        if let Some(date_str) = date_value.as_str() {
+                            return Some(date_str.to_string());
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    None
+}
+
 pub fn markdown_to_html(markdown: &str) -> String {
     let parser = Parser::new(markdown);
     let mut html_output = String::new();
@@ -174,5 +279,111 @@ mod tests {
         let html = markdown_to_html(markdown);
         assert!(html.contains("<h1>Title</h1>"));
         assert!(html.contains("<strong>bold</strong>"));
+    }
+
+    #[test]
+    fn test_extract_article_date_from_meta_tags() {
+        let html = r###"
+            <html>
+                <head>
+                    <meta property="article:published_time" content="2025-07-14T07:50:00.000Z">
+                    <title>Test Article</title>
+                </head>
+                <body>
+                    <h1>Test Article</h1>
+                    <p>Content</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-14T07:50:00.000Z");
+    }
+
+    #[test]
+    fn test_extract_article_date_from_time_element() {
+        let html = r###"
+            <html>
+                <head>
+                    <title>Test Article</title>
+                </head>
+                <body>
+                    <h1>Test Article</h1>
+                    <time datetime="2025-07-14T07:50:00.000Z">July 14, 2025</time>
+                    <p>Content</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-14T07:50:00.000Z");
+    }
+
+    #[test]
+    fn test_extract_article_date_from_json_ld() {
+        let html = r###"
+            <html>
+                <head>
+                    <title>Test Article</title>
+                    <script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Article",
+                        "headline": "Test Article",
+                        "datePublished": "2025-07-14T07:50:00.000Z",
+                        "author": "Test Author"
+                    }
+                    </script>
+                </head>
+                <body>
+                    <h1>Test Article</h1>
+                    <p>Content</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-14T07:50:00.000Z");
+    }
+
+    #[test]
+    fn test_extract_article_date_no_date_found() {
+        let html = r###"
+            <html>
+                <head>
+                    <title>Test Article</title>
+                </head>
+                <body>
+                    <h1>Test Article</h1>
+                    <p>Content without any date information</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_none());
+    }
+
+    #[test]
+    fn test_extract_article_date_og_property() {
+        let html = r###"
+            <html>
+                <head>
+                    <meta property="og:published_time" content="2025-07-15T10:30:00.000Z">
+                    <title>Test Article with OG tags</title>
+                </head>
+                <body>
+                    <h1>Test Article</h1>
+                    <p>Content</p>
+                </body>
+            </html>
+        "###;
+
+        let date = extract_article_date(html);
+        assert!(date.is_some());
+        assert_eq!(date.unwrap(), "2025-07-15T10:30:00.000Z");
     }
 }

@@ -6,7 +6,7 @@ mod http_client;
 mod rss_generator;
 mod rss_item;
 
-use article_extractor::{extract_article_content, markdown_to_html};
+use article_extractor::{extract_article_content, extract_article_date, markdown_to_html};
 use chrono::{DateTime, Utc};
 use html_parser::parse_articles_from_html;
 use http_client::HttpClient;
@@ -46,7 +46,17 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                 if let Ok(markdown_content) = extract_article_content(&article_html) {
                     println!("  ✓ Extracted content ({} chars)", markdown_content.len());
                     let html_content = markdown_to_html(&markdown_content);
-                    let pub_date = format_date(&article.date);
+
+                    // Try to extract actual publication date from article page
+                    let actual_date = extract_article_date(&article_html);
+                    let date_to_use = actual_date.as_deref().unwrap_or(&article.date);
+                    let pub_date = format_date(date_to_use);
+
+                    if actual_date.is_some() {
+                        println!("  ✓ Extracted publication date: {}", date_to_use);
+                    } else {
+                        println!("  ! Using fallback date: {}", date_to_use);
+                    }
 
                     let rss_item = RssItem {
                         title: article.title.clone(),
@@ -81,7 +91,19 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn format_date(date_str: &str) -> String {
-    // Convert "2025/1/14 [TUE]" format to RFC 2822 format
+    // Try ISO 8601 format first (e.g., "2025-07-14T07:50:00.000Z")
+    if let Ok(parsed) = DateTime::parse_from_rfc3339(date_str) {
+        let utc_datetime = parsed.with_timezone(&Utc);
+        return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
+    }
+
+    // Try standard ISO format without timezone
+    if let Ok(parsed) = chrono::NaiveDateTime::parse_from_str(date_str, "%Y-%m-%dT%H:%M:%S") {
+        let utc_datetime: DateTime<Utc> = DateTime::from_naive_utc_and_offset(parsed, Utc);
+        return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
+    }
+
+    // Try "2025/1/14 [TUE]" format
     if let Some(date_part) = date_str.split(' ').next() {
         if let Ok(parsed) = chrono::NaiveDate::parse_from_str(date_part, "%Y/%m/%d") {
             let datetime = parsed.and_hms_opt(12, 0, 0).unwrap();
@@ -89,6 +111,7 @@ fn format_date(date_str: &str) -> String {
             return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
         }
     }
+
     // Fallback to current time if parsing fails
     Utc::now().format("%a, %d %b %Y %H:%M:%S GMT").to_string()
 }
@@ -118,5 +141,21 @@ mod tests {
         let formatted = format_date(date_str);
         // Should not panic and return some valid date format
         assert!(formatted.contains("GMT"));
+    }
+
+    #[test]
+    fn test_format_date_iso8601() {
+        let date_str = "2025-07-14T07:50:00.000Z";
+        let formatted = format_date(date_str);
+        assert!(formatted.contains("14 Jul 2025"));
+        assert!(formatted.contains("07:50:00 GMT"));
+    }
+
+    #[test]
+    fn test_format_date_iso8601_no_timezone() {
+        let date_str = "2025-07-14T07:50:00";
+        let formatted = format_date(date_str);
+        assert!(formatted.contains("14 Jul 2025"));
+        assert!(formatted.contains("07:50:00 GMT"));
     }
 }
