@@ -1,81 +1,81 @@
 # Ledge.ai RSS Feed Generator
 
-Ledge.aiの最新記事を自動収集してRSS 2.0フィードを生成するRustプログラムです。
+An automated RSS 2.0 feed generator for Ledge.ai articles, built with Rust and Test-Driven Development.
 
-## 特徴
+## Features
 
-- **自動記事収集**: Ledge.aiから最新記事を自動取得
-- **完全コンテンツ**: 記事の全文をRSSフィードに含む
-- **自動更新**: GitHub Actionsで1時間ごとに自動実行
-- **高性能**: Rustによる高速・安全な実装
+- **Automated Article Collection**: Automatically fetches latest articles from Ledge.ai
+- **Full Content**: Includes complete article content in RSS feeds
+- **Hourly Updates**: Automatically runs every hour via GitHub Actions
+- **High Performance**: Fast and safe implementation using Rust
 
-## RSS フィード URL
+## RSS Feed URL
 
-以下のURLでRSSフィードにアクセスできます：
+Access the RSS feed at:
 
 ```
 https://yoshiori.github.io/ledge-ai-feed/rss.xml
 ```
 
-## 技術仕様
+## Technical Specifications
 
-- **言語**: Rust (Edition 2021)
-- **開発手法**: T-wadaスタイルTDD (テスト駆動開発)
-- **自動化**: GitHub Actions (cron: 毎時実行)
-- **フォーマット**: RSS 2.0
+- **Language**: Rust (Edition 2021)
+- **Development Method**: T-wada style TDD (Test-Driven Development)
+- **Automation**: GitHub Actions (cron: hourly execution)
+- **Format**: RSS 2.0
 
-## 主な依存関係
+## Dependencies
 
-- `rss` - RSS生成
-- `scraper` - HTML解析
-- `reqwest` - HTTP客户端
-- `chrono` - 日付処理
-- `pulldown-cmark` - Markdown → HTML変換
+- `rss` - RSS generation
+- `scraper` - HTML parsing
+- `reqwest` - HTTP client
+- `chrono` - Date handling
+- `pulldown-cmark` - Markdown → HTML conversion
 
-## ローカル実行
+## Local Usage
 
 ```bash
-# 依存関係をインストール
+# Install dependencies
 cargo build
 
-# RSSフィード生成
+# Generate RSS feed
 cargo run
 
-# 生成されたフィードを確認
+# Check generated feed
 cat rss.xml
 ```
 
-## 開発
+## Development
 
-このプロジェクトはT-wadaスタイルのTDD (テスト駆動開発) で構築されました：
+This project was built using T-wada style TDD (Test-Driven Development):
 
-1. **Red**: 失敗するテストを書く
-2. **Green**: テストを通すコードを書く  
-3. **Refactor**: コードを改善する
+1. **Red**: Write failing tests
+2. **Green**: Write code to pass tests
+3. **Refactor**: Improve code quality
 
 ```bash
-# テスト実行
+# Run tests
 cargo test
 
-# フォーマット
+# Format code
 cargo fmt
 
-# Lint
+# Lint code
 cargo clippy
 ```
 
-## 自動更新について
+## Automation Schedule
 
-GitHub Actionsにより以下のスケジュールで自動実行されます：
+Automated execution via GitHub Actions:
 
-- **定期実行**: 毎時0分に実行 (`cron: '0 * * * *'`)
-- **手動実行**: GitHub UIから任意のタイミングで実行可能
-- **コード変更時**: `src/`配下の変更をプッシュ時に実行
+- **Scheduled**: Runs at minute 0 of every hour (`cron: '0 * * * *'`)
+- **Manual**: Can be triggered manually from GitHub UI
+- **On Changes**: Runs when `src/` directory changes are pushed
 
-## ライセンス
+## License
 
-MIT License - 詳細は [LICENSE](LICENSE) ファイルを参照してください。
+MIT License - See [LICENSE](LICENSE) file for details.
 
 ---
 
-🤖 このRSSフィードは自動生成されています。最新の技術情報をお楽しみください！
+🤖 This RSS feed is automatically generated. Enjoy the latest tech news!

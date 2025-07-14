@@ -36,11 +36,12 @@ jobs:
         run: |
           cat > index.html << 'EOF'
           <!DOCTYPE html>
-          <html lang="ja">
+          <html lang="en">
           <head>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
               <title>Ledge.ai RSS Feed</title>
+              <meta name="description" content="Automated RSS feed for latest Ledge.ai tech articles. Updated hourly with full content.">
               <style>
                   body {
                       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -48,6 +49,7 @@ jobs:
                       margin: 0 auto;
                       padding: 2rem;
                       line-height: 1.6;
+                      color: #333;
                   }
                   .feed-link {
                       background: #f0f8ff;
@@ -63,44 +65,66 @@ jobs:
                       border-radius: 3px;
                       word-break: break-all;
                   }
+                  .badge {
+                      display: inline-block;
+                      padding: 0.25rem 0.5rem;
+                      font-size: 0.75rem;
+                      font-weight: 600;
+                      color: #fff;
+                      background-color: #28a745;
+                      border-radius: 0.25rem;
+                      margin-left: 0.5rem;
+                  }
               </style>
           </head>
           <body>
-              <h1>🤖 Ledge.ai RSS Feed</h1>
-              <p>Ledge.aiの最新技術記事を自動収集したRSSフィードです。</p>
+              <h1>🤖 Ledge.ai RSS Feed Generator</h1>
+              <p>Automated RSS feed for the latest technology articles from <a href="https://ledge.ai/" target="_blank">Ledge.ai</a>. 
+              Built with Rust and updated hourly via GitHub Actions.</p>
               
               <div class="feed-link">
-                  <h2>📡 RSS フィード URL</h2>
+                  <h2>📡 RSS Feed URL</h2>
                   <div class="feed-url">
                       <a href="./rss.xml">https://yoshiori.github.io/ledge-ai-feed/rss.xml</a>
                   </div>
               </div>
               
-              <h2>📊 フィード情報</h2>
+              <h2>📊 Feed Information</h2>
               <ul>
-                  <li><strong>更新頻度</strong>: 1時間ごと</li>
-                  <li><strong>記事数</strong>: 最大27記事</li>
-                  <li><strong>内容</strong>: 記事全文を含む</li>
-                  <li><strong>フォーマット</strong>: RSS 2.0</li>
+                  <li><strong>Update Frequency</strong>: Every hour <span class="badge">AUTO</span></li>
+                  <li><strong>Articles</strong>: Up to 27 latest articles</li>
+                  <li><strong>Content</strong>: Full article text included</li>
+                  <li><strong>Format</strong>: RSS 2.0</li>
+                  <li><strong>Language</strong>: Japanese (articles from Ledge.ai)</li>
               </ul>
               
-              <h2>🛠 使用方法</h2>
+              <h2>🛠 How to Use</h2>
               <ol>
-                  <li>お使いのRSSリーダーに上記URLを追加</li>
-                  <li>自動的に最新記事が配信されます</li>
+                  <li>Copy the RSS feed URL above</li>
+                  <li>Add it to your favorite RSS reader</li>
+                  <li>Enjoy automatic updates of the latest tech articles!</li>
               </ol>
               
-              <h2>📱 推奨RSSリーダー</h2>
+              <h2>📱 Recommended RSS Readers</h2>
               <ul>
-                  <li><strong>iOS</strong>: Reeder, NetNewsWire</li>
-                  <li><strong>Android</strong>: Feedly, Inoreader</li>
-                  <li><strong>Web</strong>: Feedly, The Old Reader</li>
-                  <li><strong>Desktop</strong>: Thunderbird, NetNewsWire</li>
+                  <li><strong>iOS</strong>: Reeder, NetNewsWire, Feedly</li>
+                  <li><strong>Android</strong>: Feedly, Inoreader, FeedMe</li>
+                  <li><strong>Web</strong>: Feedly, The Old Reader, Newsblur</li>
+                  <li><strong>Desktop</strong>: Thunderbird, NetNewsWire, FeedDemon</li>
+              </ul>
+              
+              <h2>⚡ Technical Details</h2>
+              <ul>
+                  <li><strong>Built with</strong>: Rust (fast & safe)</li>
+                  <li><strong>Development</strong>: T-wada style TDD</li>
+                  <li><strong>Automation</strong>: GitHub Actions</li>
+                  <li><strong>Hosting</strong>: GitHub Pages</li>
               </ul>
               
               <p><small>
-                  ⚡ このフィードはGitHub Actionsにより自動生成・更新されています。<br>
-                  📚 ソースコード: <a href="https://github.com/yoshiori/ledge-ai-feed">GitHub Repository</a>
+                  🔄 This feed is automatically generated and updated via GitHub Actions.<br>
+                  📚 Source code: <a href="https://github.com/yoshiori/ledge-ai-feed" target="_blank">GitHub Repository</a> |
+                  📄 <a href="https://github.com/yoshiori/ledge-ai-feed/blob/main/README.md" target="_blank">Documentation</a>
               </small></p>
           </body>
           </html>
