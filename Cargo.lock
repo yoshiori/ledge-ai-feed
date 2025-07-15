@@ -817,6 +817,7 @@ name = "ledge-ai-feed"
 version = "0.1.0"
 dependencies = [
  "chrono",
+ "once_cell",
  "pulldown-cmark",
  "regex",
  "reqwest",
