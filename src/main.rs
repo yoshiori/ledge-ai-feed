@@ -1,4 +1,5 @@
 mod article_extractor;
+mod content_filter;
 mod html_parser;
 mod http_client;
 mod rss_generator;
