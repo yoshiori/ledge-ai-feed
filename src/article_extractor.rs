@@ -312,14 +312,18 @@ pub fn markdown_to_html(markdown: &str) -> String {
 
 /// Preprocess markdown to handle custom extensions like {target="_blank"}
 fn preprocess_markdown_extensions(markdown: &str) -> String {
+    use once_cell::sync::Lazy;
     use regex::Regex;
+
+    // Compile regex pattern once using Lazy static initialization
+    static TARGET_BLANK_PATTERN: Lazy<Regex> =
+        Lazy::new(|| Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap());
 
     // Handle {target="_blank"} syntax in markdown links
     // Convert [text](url){target="_blank"} to [text](url) (remove the attribute)
-    let target_blank_pattern = Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap();
-    let result = target_blank_pattern.replace_all(markdown, "]($1)");
-
-    result.to_string()
+    TARGET_BLANK_PATTERN
+        .replace_all(markdown, "]($1)")
+        .to_string()
 }
 
 #[cfg(test)]
