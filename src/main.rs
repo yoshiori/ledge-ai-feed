@@ -24,14 +24,7 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     let articles = parse_articles_from_html(&main_page_html)?;
     println!("Found {} articles", articles.len());
 
-    // Temporary structure to hold article data with sortable date
-    struct ArticleData {
-        title: String,
-        url: String,
-        content: String,
-        date_str: String, // ISO 8601 format for sorting
-    }
-    let mut article_data_list = Vec::new();
+    let mut rss_items = Vec::new();
 
     // Fetch content for each article
     println!(
@@ -62,12 +55,14 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                         println!("  ! Using fallback date: {date_to_use}");
                     }
 
-                    article_data_list.push(ArticleData {
+                    let rss_item = RssItem {
                         title: article.title.clone(),
-                        url: article.url.clone(),
-                        content: html_content,
-                        date_str: date_to_use.to_string(),
-                    });
+                        link: article.url.clone(),
+                        description: html_content,
+                        pub_date: parse_iso_date(date_to_use),
+                    };
+
+                    rss_items.push(rss_item);
                 } else {
                     eprintln!("  ✗ Failed to extract content from: {}", article.url);
                 }
@@ -78,24 +73,8 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
-    // Sort articles by publication date (newest first)
-    article_data_list.sort_by(|a, b| {
-        // Parse ISO dates and compare (newest first, so b.cmp(a))
-        let date_a = parse_iso_date(&a.date_str);
-        let date_b = parse_iso_date(&b.date_str);
-        date_b.cmp(&date_a)
-    });
-
-    // Convert to RssItem vector
-    let rss_items: Vec<RssItem> = article_data_list
-        .into_iter()
-        .map(|data| RssItem {
-            title: data.title,
-            link: data.url,
-            description: data.content,
-            pub_date: parse_iso_date(&data.date_str),
-        })
-        .collect();
+    // Sort RSS items by publication date (newest first)
+    rss_items.sort_by(|a, b| b.pub_date.cmp(&a.pub_date));
 
     // Generate RSS
     println!("Generating RSS feed with {} items...", rss_items.len());
