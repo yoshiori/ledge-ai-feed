@@ -51,10 +51,7 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                     println!("  ✓ Applied content filtering");
 
                     let html_content = markdown_to_html(&filtered_content);
-
-                    // Apply filtering again to HTML content to catch any remaining patterns
-                    let final_content = filter_content(&html_content);
-                    println!("  ✓ Applied HTML content filtering");
+                    println!("  ✓ Converted markdown to HTML (with extension processing)");
 
                     // Try to extract actual publication date from article page
                     let actual_date = extract_article_date(&article_html);
@@ -69,7 +66,7 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                     let rss_item = RssItem {
                         title: article.title.clone(),
                         link: article.url.clone(),
-                        description: final_content,
+                        description: html_content,
                         pub_date: parse_iso_date(date_to_use),
                     };
 

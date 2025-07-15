@@ -301,10 +301,25 @@ fn extract_date_from_json_ld(html: &str) -> Option<String> {
 }
 
 pub fn markdown_to_html(markdown: &str) -> String {
-    let parser = Parser::new(markdown);
+    // First, preprocess markdown to handle custom extensions
+    let preprocessed = preprocess_markdown_extensions(markdown);
+
+    let parser = Parser::new(&preprocessed);
     let mut html_output = String::new();
     html::push_html(&mut html_output, parser);
     html_output
+}
+
+/// Preprocess markdown to handle custom extensions like {target="_blank"}
+fn preprocess_markdown_extensions(markdown: &str) -> String {
+    use regex::Regex;
+
+    // Handle {target="_blank"} syntax in markdown links
+    // Convert [text](url){target="_blank"} to [text](url) (remove the attribute)
+    let target_blank_pattern = Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap();
+    let result = target_blank_pattern.replace_all(markdown, "]($1)");
+
+    result.to_string()
 }
 
 #[cfg(test)]
@@ -338,6 +353,25 @@ mod tests {
         let html = markdown_to_html(markdown);
         assert!(html.contains("<h1>Title</h1>"));
         assert!(html.contains("<strong>bold</strong>"));
+    }
+
+    #[test]
+    fn test_markdown_to_html_with_target_blank() {
+        let markdown = r#"Check this [link](https://example.com){target="_blank"} for more info."#;
+        let html = markdown_to_html(markdown);
+        // Should not contain the {target="_blank"} attribute
+        assert!(!html.contains(r#"{target="_blank"}"#));
+        // Should contain the link without the attribute
+        assert!(html.contains(r#"<a href="https://example.com">link</a>"#));
+    }
+
+    #[test]
+    fn test_preprocess_markdown_extensions() {
+        let markdown = r#"Here is a [link](https://example.com){target="_blank"} and another [link](https://other.com){target="_blank"}."#;
+        let result = preprocess_markdown_extensions(markdown);
+        let expected =
+            r#"Here is a [link](https://example.com) and another [link](https://other.com)."#;
+        assert_eq!(result, expected);
     }
 
     #[test]
