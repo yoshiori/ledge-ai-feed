@@ -1,9 +1,24 @@
+use regex::Regex;
+
 /// Content filter for cleaning up RSS article content
 /// Removes unwanted patterns like image attributions, related article boxes, and link attributes
 #[allow(dead_code)]
 pub fn filter_content(content: &str) -> String {
-    // TODO: Implement content filtering
-    content.to_string()
+    let mut result = content.to_string();
+
+    // Remove :::small ... ::: blocks (image attributions)
+    let small_pattern = Regex::new(r":::small[\s\S]*?:::").unwrap();
+    result = small_pattern.replace_all(&result, "").to_string();
+
+    // Remove :::box ... ::: blocks (related articles)
+    let box_pattern = Regex::new(r":::box[\s\S]*?:::").unwrap();
+    result = box_pattern.replace_all(&result, "").to_string();
+
+    // Remove {target="_blank"} attributes
+    let target_pattern = Regex::new(r#"\{target="_blank"\}"#).unwrap();
+    result = target_pattern.replace_all(&result, "").to_string();
+
+    result
 }
 
 #[cfg(test)]
