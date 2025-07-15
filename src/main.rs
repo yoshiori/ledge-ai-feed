@@ -24,7 +24,14 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     let articles = parse_articles_from_html(&main_page_html)?;
     println!("Found {} articles", articles.len());
 
-    let mut rss_items = Vec::new();
+    // Temporary structure to hold article data with sortable date
+    struct ArticleData {
+        title: String,
+        url: String,
+        content: String,
+        date_str: String, // ISO 8601 format for sorting
+    }
+    let mut article_data_list = Vec::new();
 
     // Fetch content for each article
     println!(
@@ -48,7 +55,6 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                     // Try to extract actual publication date from article page
                     let actual_date = extract_article_date(&article_html);
                     let date_to_use = actual_date.as_deref().unwrap_or(&article.date);
-                    let pub_date = format_date(date_to_use);
 
                     if actual_date.is_some() {
                         println!("  ✓ Extracted publication date: {date_to_use}");
@@ -56,14 +62,12 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                         println!("  ! Using fallback date: {date_to_use}");
                     }
 
-                    let rss_item = RssItem {
+                    article_data_list.push(ArticleData {
                         title: article.title.clone(),
-                        link: article.url.clone(),
-                        description: html_content,
-                        pub_date,
-                    };
-
-                    rss_items.push(rss_item);
+                        url: article.url.clone(),
+                        content: html_content,
+                        date_str: date_to_use.to_string(),
+                    });
                 } else {
                     eprintln!("  ✗ Failed to extract content from: {}", article.url);
                 }
@@ -73,6 +77,25 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
             }
         }
     }
+
+    // Sort articles by publication date (newest first)
+    article_data_list.sort_by(|a, b| {
+        // Parse ISO dates and compare (newest first, so b.cmp(a))
+        let date_a = parse_iso_date(&a.date_str);
+        let date_b = parse_iso_date(&b.date_str);
+        date_b.cmp(&date_a)
+    });
+
+    // Convert to RssItem vector
+    let rss_items: Vec<RssItem> = article_data_list
+        .into_iter()
+        .map(|data| RssItem {
+            title: data.title,
+            link: data.url,
+            description: data.content,
+            pub_date: parse_iso_date(&data.date_str),
+        })
+        .collect();
 
     // Generate RSS
     println!("Generating RSS feed with {} items...", rss_items.len());
@@ -88,30 +111,27 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-fn format_date(date_str: &str) -> String {
+fn parse_iso_date(date_str: &str) -> DateTime<Utc> {
     // Try ISO 8601 format first (e.g., "2025-07-14T07:50:00.000Z")
     if let Ok(parsed) = DateTime::parse_from_rfc3339(date_str) {
-        let utc_datetime = parsed.with_timezone(&Utc);
-        return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
+        return parsed.with_timezone(&Utc);
     }
 
     // Try standard ISO format without timezone
     if let Ok(parsed) = chrono::NaiveDateTime::parse_from_str(date_str, "%Y-%m-%dT%H:%M:%S") {
-        let utc_datetime: DateTime<Utc> = DateTime::from_naive_utc_and_offset(parsed, Utc);
-        return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
+        return DateTime::from_naive_utc_and_offset(parsed, Utc);
     }
 
     // Try "2025/1/14 [TUE]" format
     if let Some(date_part) = date_str.split(' ').next() {
         if let Ok(parsed) = chrono::NaiveDate::parse_from_str(date_part, "%Y/%m/%d") {
             let datetime = parsed.and_hms_opt(12, 0, 0).unwrap();
-            let utc_datetime: DateTime<Utc> = DateTime::from_naive_utc_and_offset(datetime, Utc);
-            return utc_datetime.format("%a, %d %b %Y %H:%M:%S GMT").to_string();
+            return DateTime::from_naive_utc_and_offset(datetime, Utc);
         }
     }
 
     // Fallback to current time if parsing fails
-    Utc::now().format("%a, %d %b %Y %H:%M:%S GMT").to_string()
+    Utc::now()
 }
 
 #[tokio::main]
@@ -125,35 +145,40 @@ async fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use chrono::Datelike;
 
     #[test]
-    fn test_format_date() {
+    fn test_parse_iso_date() {
         let date_str = "2025/1/14 [TUE]";
-        let formatted = format_date(date_str);
-        assert!(formatted.contains("14 Jan 2025"));
+        let parsed = parse_iso_date(date_str);
+        assert_eq!(parsed.format("%Y-%m-%d").to_string(), "2025-01-14");
     }
 
     #[test]
-    fn test_format_date_invalid() {
+    fn test_parse_iso_date_invalid() {
         let date_str = "invalid date";
-        let formatted = format_date(date_str);
-        // Should not panic and return some valid date format
-        assert!(formatted.contains("GMT"));
+        let parsed = parse_iso_date(date_str);
+        // Should not panic and return current time as fallback
+        assert!(parsed.year() >= 2025);
     }
 
     #[test]
-    fn test_format_date_iso8601() {
+    fn test_parse_iso_date_iso8601() {
         let date_str = "2025-07-14T07:50:00.000Z";
-        let formatted = format_date(date_str);
-        assert!(formatted.contains("14 Jul 2025"));
-        assert!(formatted.contains("07:50:00 GMT"));
+        let parsed = parse_iso_date(date_str);
+        assert_eq!(
+            parsed.format("%Y-%m-%d %H:%M:%S").to_string(),
+            "2025-07-14 07:50:00"
+        );
     }
 
     #[test]
-    fn test_format_date_iso8601_no_timezone() {
+    fn test_parse_iso_date_iso8601_no_timezone() {
         let date_str = "2025-07-14T07:50:00";
-        let formatted = format_date(date_str);
-        assert!(formatted.contains("14 Jul 2025"));
-        assert!(formatted.contains("07:50:00 GMT"));
+        let parsed = parse_iso_date(date_str);
+        assert_eq!(
+            parsed.format("%Y-%m-%d %H:%M:%S").to_string(),
+            "2025-07-14 07:50:00"
+        );
     }
 }

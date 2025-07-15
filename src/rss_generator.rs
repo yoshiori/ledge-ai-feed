@@ -16,7 +16,11 @@ pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::E
                 .title(Some(item.title))
                 .link(Some(item.link))
                 .description(Some(item.description))
-                .pub_date(Some(item.pub_date))
+                .pub_date(Some(
+                    item.pub_date
+                        .format("%a, %d %b %Y %H:%M:%S GMT")
+                        .to_string(),
+                ))
                 .build()
         })
         .collect();
@@ -35,22 +39,30 @@ pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::E
 mod tests {
     use super::*;
     use crate::rss_item::RssItem;
+    use chrono::{DateTime, Utc};
     use std::io::Cursor;
 
     #[test]
     fn test_generate_rss_creates_valid_xml() {
+        let date1 = DateTime::parse_from_rfc3339("2025-01-14T10:00:00+09:00")
+            .unwrap()
+            .with_timezone(&Utc);
+        let date2 = DateTime::parse_from_rfc3339("2025-01-14T11:00:00+09:00")
+            .unwrap()
+            .with_timezone(&Utc);
+
         let items = vec![
             RssItem {
                 title: "Article 1".to_string(),
                 link: "https://example.com/1".to_string(),
                 description: "<p>Content 1</p>".to_string(),
-                pub_date: "2025-01-14T10:00:00+09:00".to_string(),
+                pub_date: date1,
             },
             RssItem {
                 title: "Article 2".to_string(),
                 link: "https://example.com/2".to_string(),
                 description: "<p>Content 2</p>".to_string(),
-                pub_date: "2025-01-14T11:00:00+09:00".to_string(),
+                pub_date: date2,
             },
         ];
 
@@ -71,11 +83,15 @@ mod tests {
 
     #[test]
     fn test_rss_crate_pretty_write_to() {
+        let test_date = DateTime::parse_from_rfc3339("2025-01-14T10:00:00+09:00")
+            .unwrap()
+            .with_timezone(&Utc);
+
         let items = vec![RssItem {
             title: "Test Article".to_string(),
             link: "https://example.com/test".to_string(),
             description: "<p>Test Content</p>".to_string(),
-            pub_date: "2025-01-14T10:00:00+09:00".to_string(),
+            pub_date: test_date,
         }];
 
         let mut channel = rss::ChannelBuilder::default()
@@ -91,7 +107,11 @@ mod tests {
                     .title(Some(item.title))
                     .link(Some(item.link))
                     .description(Some(item.description))
-                    .pub_date(Some(item.pub_date))
+                    .pub_date(Some(
+                        item.pub_date
+                            .format("%a, %d %b %Y %H:%M:%S GMT")
+                            .to_string(),
+                    ))
                     .build()
             })
             .collect();
@@ -115,11 +135,15 @@ mod tests {
 
     #[test]
     fn test_rss_pretty_formatting() {
+        let simple_date = DateTime::parse_from_rfc3339("2025-01-14T12:00:00+09:00")
+            .unwrap()
+            .with_timezone(&Utc);
+
         let items = vec![RssItem {
             title: "Simple Article".to_string(),
             link: "https://example.com/simple".to_string(),
             description: "Simple Content".to_string(),
-            pub_date: "2025-01-14T12:00:00+09:00".to_string(),
+            pub_date: simple_date,
         }];
 
         let result = generate_rss(items);
