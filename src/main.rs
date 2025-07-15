@@ -7,6 +7,7 @@ mod rss_item;
 
 use article_extractor::{extract_article_content, extract_article_date, markdown_to_html};
 use chrono::{DateTime, Utc};
+use content_filter::filter_content;
 use html_parser::parse_articles_from_html;
 use http_client::HttpClient;
 use rss_generator::generate_rss;
@@ -44,7 +45,16 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
             Ok(article_html) => {
                 if let Ok(markdown_content) = extract_article_content(&article_html) {
                     println!("  ✓ Extracted content ({} chars)", markdown_content.len());
-                    let html_content = markdown_to_html(&markdown_content);
+
+                    // Apply content filtering to remove unwanted patterns
+                    let filtered_content = filter_content(&markdown_content);
+                    println!("  ✓ Applied content filtering");
+
+                    let html_content = markdown_to_html(&filtered_content);
+
+                    // Apply filtering again to HTML content to catch any remaining patterns
+                    let final_content = filter_content(&html_content);
+                    println!("  ✓ Applied HTML content filtering");
 
                     // Try to extract actual publication date from article page
                     let actual_date = extract_article_date(&article_html);
@@ -59,7 +69,7 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
                     let rss_item = RssItem {
                         title: article.title.clone(),
                         link: article.url.clone(),
-                        description: html_content,
+                        description: final_content,
                         pub_date: parse_iso_date(date_to_use),
                     };
 

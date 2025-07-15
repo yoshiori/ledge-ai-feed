@@ -2,7 +2,6 @@ use regex::Regex;
 
 /// Content filter for cleaning up RSS article content
 /// Removes unwanted patterns like image attributions, related article boxes, and link attributes
-#[allow(dead_code)]
 pub fn filter_content(content: &str) -> String {
     let mut result = content.to_string();
 
@@ -85,6 +84,15 @@ Final content.
     fn test_preserve_normal_content() {
         let content = "This is normal content with no special patterns.";
         let expected = "This is normal content with no special patterns.";
+        let result = filter_content(content);
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_debug_actual_patterns() {
+        // Test the actual pattern we see in RSS output
+        let content = r#"[発表](https://example.com){target="_blank"}した"#;
+        let expected = r#"[発表](https://example.com)した"#;
         let result = filter_content(content);
         assert_eq!(result, expected);
     }
