@@ -91,17 +91,12 @@ async fn fetch_and_generate_rss() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn parse_iso_date(date_str: &str) -> DateTime<Utc> {
-    // Try ISO 8601 format first (e.g., "2025-07-14T07:50:00.000Z")
+    // Try ISO 8601 format (from extract_article_date)
     if let Ok(parsed) = DateTime::parse_from_rfc3339(date_str) {
         return parsed.with_timezone(&Utc);
     }
 
-    // Try standard ISO format without timezone
-    if let Ok(parsed) = chrono::NaiveDateTime::parse_from_str(date_str, "%Y-%m-%dT%H:%M:%S") {
-        return DateTime::from_naive_utc_and_offset(parsed, Utc);
-    }
-
-    // Try "2025/1/14 [TUE]" format
+    // Try fallback format "2025/01/14 [MON]"
     if let Some(date_part) = date_str.split(' ').next() {
         if let Ok(parsed) = chrono::NaiveDate::parse_from_str(date_part, "%Y/%m/%d") {
             let datetime = parsed.and_hms_opt(12, 0, 0).unwrap();
@@ -144,16 +139,6 @@ mod tests {
     #[test]
     fn test_parse_iso_date_iso8601() {
         let date_str = "2025-07-14T07:50:00.000Z";
-        let parsed = parse_iso_date(date_str);
-        assert_eq!(
-            parsed.format("%Y-%m-%d %H:%M:%S").to_string(),
-            "2025-07-14 07:50:00"
-        );
-    }
-
-    #[test]
-    fn test_parse_iso_date_iso8601_no_timezone() {
-        let date_str = "2025-07-14T07:50:00";
         let parsed = parse_iso_date(date_str);
         assert_eq!(
             parsed.format("%Y-%m-%d %H:%M:%S").to_string(),
