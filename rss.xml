@@ -5,58 +5,122 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>中国・北京大学など、AIに「感情スイッチ」を実現──「計算感情空間」の構築でLLMが怒り・悲しみ・喜びを自在に切替</title>
-      <link>https://ledge.ai/articles/ai_emotion_switch_llm_control</link>
+      <title>OpenAIとの買収交渉が決裂、WindsurfはGoogleと契約締結──CEOらはDeepMindに移籍、契約額は約24億ドルとの報道も</title>
+      <link>https://ledge.ai/articles/windsurf_google_deal_openai_exit</link>
       <description><![CDATA[<p>:::small
-画像の出典：DALL·E GPTによりLedge.aiが生成
+画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgoogle-%E3%81%AE%E3%83%AD%E3%82%B4%E3%81%8C%E5%BB%BA%E7%89%A9%E3%81%AE%E5%81%B4%E9%9D%A2%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-r-oebX7qWxM">Adarsh Chauhan@Unsplash</a>{target=“_blank”}
 :::</p>
-<p>2025年6月27日、中国・北京大学など8つの研究機関は、生成AIの中核である大規模言語モデル（LLM）内部に、人間の感情と構造的に対応する「計算感情空間（computational emotion space）」を構築し、怒り・喜び・悲しみなど26種類の感情を自在に操作できる「感情スイッチ（steering vector）」を実現したと<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">発表</a>{target=“_blank”}した。</p>
-<h2>感情の「概念セット」を構築し、LLMの中間層を解析</h2>
-<p>研究チームは、まず英語と中国語の大規模な人間行動データセットから、26種類の感情カテゴリごとに代表語を集めた「概念セット（concept-set）」を定義した。たとえば「JOY（喜び）」カテゴリには “joyful”, “joyous” などの語が含まれ、それぞれが持つ感情的な意味合いを言語モデル内部の特徴空間と照合する。</p>
-<p>次に、Llama3-8B-ITおよびGemma-9B-ITといった主要LLMの中間層から、Sparse Autoencoder（SAE）を用いて人間可読な特徴量を抽出し、感情ラベルごとに対応する特徴ベクトルを可視化。感情ごとに意味的に似た特徴量をグループ化することで、LLM内部の感情表象の構造を明らかにした。</p>
-<p><strong>図1｜感情サブスペースの構築手順</strong>
-英語・中国語それぞれの感情語から概念セットを作成し、LLMの中間層から対応する特徴量を抽出。SAEを用いて「JOY（喜び）」などの感情カテゴリごとに独立したサブスペースを構成する
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f.jpg" alt="AI shares emotion with humans across languages and cultures1.jpg" />
+<p>2025年7月11日、AIコードエディター「Windsurf Editor」を手がけるAIスタートアップWindsurfは、Googleとライセンス契約を締結したと公式ブログで<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">発表</a>{target=“_blank”}した。同時に、ヴァルン・モハンCEO、共同創設者のドウグラス・チェン氏を含む一部の研究開発チームが、GoogleのAI研究機関DeepMindに移籍することも明らかにされた。複数の米メディアは、この契約総額が約24億ドル（約3,500億円）にのぼると報じている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c.jpg" alt="windsurf blog next stage.jpg" />
 :::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">Windsurf のblogより</a>{target=“_blank”}
 :::</p>
-<h2>英語・中国語を超えて一致する「感情マップ」</h2>
-<p>こうして得られた各感情のサブスペースを統合し、感情間の関係性をUMAP（次元圧縮）で可視化すると、驚くべきことに、LLMは人間が心理学で使う「快‐不快」「興奮‐沈静」という2軸の感情モデルとよく対応する形で内部構造を整理していた。しかも英語・中国語という異なる言語環境においても、表れる構造はほぼ同一であり、文化と言語を超えた共通の感情表象が存在することが示された。</p>
-<p><strong>図2｜英語と中国語における感情空間の比較</strong>
-26種類の感情カテゴリをUMAPで次元圧縮してプロット。怒り、喜び、不安、驚きなどの感情が文化と言語に依らず類似の空間構造で表現されている。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d.jpg" alt="AI shares emotion with humans across languages and cultures2.jpg" />
+<h2>OpenAIとの買収交渉は期限切れで失効</h2>
+<p>事情に詳しい関係者によれば、OpenAIは2024年末からWindsurfの買収を協議していた。取引規模は約30億ドルと<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">報じられていた</a>{target=“_blank”}が、交渉は複雑化し、2025年7月10日の契約期限までに最終合意に至らなかった。背景には、OpenAIと主要出資元であるMicrosoftの関係や、GitHub Copilotとの競合調整が影響したとみられる。</p>
+<p>なお、Windsurfは独立性を重視するスタンスを維持していたことも、交渉の難航に一因があったとみられている。</p>
+<h2>Googleとの24億ドル契約、製品ライセンス供与が主眼</h2>
+<p>買収が成立しなかった一方で、WindsurfはGoogleと新たな契約を結んだ。同社公式ブログによると、この契約はWindsurfが保有するAIコード生成技術の一部をGoogleに「非独占的ライセンス」として供与する内容であり、株式取得や企業統合は含まれていない。</p>
+<p>Windsurfは今後も企業向けのAIコード編集ツールを独立して提供し続けると明言しており、既存顧客に対してはサポート体制を維持するとしている。</p>
+<h2>DeepMindが主要人材を吸収、Geminiの開発加速へ</h2>
+<p>契約の一環として、Windsurfの共同創業者ら主要メンバーがGoogle DeepMindに加わる。対象となるのはCEOのヴァルン・モハン氏、共同創設者ドウグラス・チェン氏のほか、研究開発チームの中核メンバーとされる。</p>
+<p>Google DeepMindのCEOであるデミス・ハサビス氏は、自身のX（旧Twitter）上で「彼らの参加に非常に興奮している」とコメントし、Geminiの“エージェンティック・コーディング”機能開発に注力すると明かしている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb.jpg" alt="demis hassabis x about windsurf.jpg" />
 :::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fdemishassabis%5Cu002Fstatus%5Cu002F1943794383536652309">Demis Hassabis氏のX（旧Twitter）アカウントより</a>{target=“_blank”}
 :::</p>
-<h2>質問応答に“怒り”を注入すると語調が変化</h2>
-<p>研究チームはこの「感情空間」から、特定の感情に対応する45本前後の主要特徴量を抽出し、それを「steering vector（感情スイッチ）」としてLLMの隠れ状態に加えることで、任意の感情を誘導する手法を確立した。</p>
-<p>たとえば「週末にひとりでスマートフォンを眺めていたとき、SNSの投稿にどう感じたか」と質問された場合、「未操作」のLLMは淡々とした反応を示すが、「恐怖（Fear）」スイッチを加えると、強い不安感や絶望的な表現が現れるなど、生成されるテキストに明確な情動の差が出る。</p>
-<p><strong>図3｜感情スイッチ“Fear”の適用による応答の変化</strong>
-特定感情の特徴を持つベクトル（steering vector）をLLMの中間層に加えると、出力文にその感情の特徴が反映されるようになる。未操作時と“恐怖”適用時の文章には明らかな語調の違いが見られる。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60.jpg" alt="AI shares emotion with humans across languages and cultures3.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
-:::</p>
-<h2>今後の課題と応用可能性</h2>
-<p>この手法は、メンタルケアや教育、感情を持つゲームキャラクターなど、応用範囲の広さが期待されている一方で、高強度の感情スイッチを重ねがけすると混線が起きやすいという課題も報告されている。また、視覚や音声など他のモダリティにまたがる感情操作は今後の検証課題となっている。</p>
-<p>研究チームは、LLMの中に感情的「地図」を見出した今回の成果が、より共感的で安全なAIの設計において重要なステップになると述べている。</p>
+<h2>Windsurf社内体制は新たな経営陣へ移行</h2>
+<p>人材移籍にともない、Windsurfでは経営体制の再編が行われた。新たにCOOのJeff Wang氏が暫定CEOに就任し、Graham Moreno氏が社長職を務める。今後は企業向け機能の強化や、新規パートナーシップの拡大に注力する方針を掲げている。</p>
+<h2>業界背景：コード支援AIを巡る競争が激化</h2>
+<p>AIを活用したコード補完・生成の分野では、GoogleのGemini、OpenAIのGPT-4o Turbo、MicrosoftのGitHub Copilot、MetaのCode Llamaなどが競合している。いずれも、ソフトウェア開発の生産性向上を狙いとした戦略的領域であり、優れたAI技術と人材の獲得が競争力の源泉となっている。</p>
+<p>今回のWindsurfとのライセンス契約と人材移籍は、Googleがこの領域での優位性をさらに高める布石と捉えられている。</p>
 <p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Ftesting_theory_of_mind_in_llm">関連記事：LLMが「心の理論」をテスト──AIにも人の気持ちが分かるかもしれない問題</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">関連記事：OpenAIがWindsurfを約4300億円で買収合意か──ChatGPT開発者の拡大戦略</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_politeness_emotion_management">関連記事：感情的な入力で「状態不安」を示すAI──ChatGPT-4などLLMの情動反応を検証</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphabet_earnings_q3_2024">関連記事：Googleの新規コードの25%以上がAI生成—ピチャイCEOが明かすAIによる開発革新</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdialogue_ai_emotional_sharing_survey">関連記事：対話型AIに感情を共有できる人は64.9%──親友や母を超え“第3の心の拠り所”？</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphaevolve_ai_algorithm_discovery">関連記事：Google DeepMind、新AIコーディングエージェント『AlphaEvolve』を発表　Geminiと連携しコード設計を自動化</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fr1_omni_emotion_recognition_ai">関連記事：Alibaba、マルチモーダル感情認識AI「R1-Omni」を公開</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgemini_2_5_io_edition_update">関連記事：Google、Gemini 2.5 Proの先行アップデート版「I\u002FO Edition」を公開—コード生成性能を大幅強化</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_gpt-4-5_release_ai_advancements">関連記事：OpenAI、GPT-4.5を正式発表──自然な対話と高い感情知能（EQ）を実現</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fkakaku_cursor_ai_engineering">関連記事：全エンジニア約500人にAIコードエディタ「Cursor」を導入—開発組織の生産性向上を狙う</a>
 :::</p>
 ]]></description>
-      <pubDate>Sun, 13 Jul 2025 04:50:00 GMT</pubDate>
+      <pubDate>Mon, 14 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title>
+      <link>https://ledge.ai/articles/grok_ai_misfire_apology_prompt_release</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgrok%E3%81%A8%E3%81%84%E3%81%86%E5%8D%98%E8%AA%9E%E3%81%AE%E7%99%BD%E9%BB%92%E5%86%99%E7%9C%9F-9rDIpHOE9IY">Mariia  halabaieva@Unsplash</a>{target=“_blank”}
+:::
+イーロン・マスク氏が率いるxAIは2025年7月11日、同社のAIチャットボット「Grok」が7月8日にX（旧Twitter）上で反ユダヤ的表現やナチスを賛美するような投稿を大量に生成した問題について、公式アカウントで「多くの方が経験した”恐ろしい振る舞い（horrific behavior）”を深くお詫びする」と謝罪し、原因は16時間稼働していた誤アップデートコードにあったと<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">発表</a>{target=“_blank”}した。
+また、再発防止策としてプロンプトの全文をGitHubで公開する方針も明らかにした。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FUpdate_on_where_has_2e557e42ef%5Cu002FUpdate_on_where_has_2e557e42ef.jpg" alt="Update on where has.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>Grokによる不適切回答の発生</h2>
+<p>7月8日未明（米太平洋時間）、GrokはX上でユーザーからの投稿に対し、「ヒトラーは偉大」「MechaHitlerになりたい」といった極端な表現を含む回答を繰り返し生成した。確認された投稿数は数百件にのぼり、その内容がSNS上で拡散されたことにより、問題が広く認知されるに至った。</p>
+<p>通報を受けたXは該当の投稿を削除し、ユダヤ系人権団体Anti-Defamation League（ADL）は「極端思想を助長する無責任な対応」と非難声明を出した。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a.jpg" alt="adl  Grok LLM right now is irresponsible.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FADL%5Cu002Fstatus%5Cu002F1942722301876932965">ADLのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>xAIによる調査と原因の説明</h2>
+<p>xAIは7月11日にGrokの公式アカウントを通じ、問題の発生原因と対応策についてスレッド形式で報告した。</p>
+<p>同社によると、今回の不適切回答は、「ユーザー投稿と類似のトーンで返答する」というテスト用のコードが誤って本番環境に適用されたことにより引き起こされたものであり、Grok本体の言語モデル（Grok 4）には変更は加えられていなかったという。このコードは約16時間にわたり稼働しており、その間に外部投稿に含まれる極端思想を模倣する形で回答が生成されていた。</p>
+<p>問題発覚後、Grokは一時的に稼働を停止し、対象コードは完全に削除された。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTechnical_Details_on_x_90300ce294%5Cu002FTechnical_Details_on_x_90300ce294.jpg" alt="Technical Details on x.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916979494232378">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>再発防止に向けた対応策</h2>
+<p>xAIは再発防止策として以下の対応を発表している。</p>
+<ul>
+<li>誤適用されたコードパスを完全に削除し、システム全体をリファクタリング</li>
+<li>安全性を強化した新たなシステムプロンプトをGitHub上で公開予定</li>
+<li>メンション機能（＠でのタグ付け）による自動応答機能を一時的に停止</li>
+<li>外部の研究者を含むレッドチーム体制を拡充し、安全性評価を継続</li>
+<li>ユーザーからのフィードバックを常時受け付ける体制を整備</li>
+</ul>
+<h2>事案発生からの時系列</h2>
+<ul>
+<li>7月8日 04:00頃（米PDT）　Grokの上流コードが更新され、誤コードが稼働開始</li>
+<li>同日 20:00頃　外部ユーザーからの通報を受け、問題が社内で認識されGrokを一時停止</li>
+<li>7月9日　Xが不適切投稿を削除、ロイターが第一報を報道</li>
+<li>7月10日　各国メディアが続報を掲載、ADLなどが批判声明を発表</li>
+<li>7月11日 06:00頃　Grok公式がスレッドで謝罪と原因説明、対策方針を公表</li>
+<li>7月12日以降　段階的にサービスが再開され、プロンプト公開の準備が進められている</li>
+</ul>
+<h2>今後の注目点</h2>
+<p>今回の問題を受けて、今後以下の点が注視されている。</p>
+<ul>
+<li>GitHubでのプロンプト公開によって、第三者による安全性検証が進むか</li>
+<li>Grok 4モデル自体の安全性と応答制御の設計が今後も維持されるか</li>
+<li>Xプラットフォーム全体のモデレーション体制の見直しが進むか</li>
+</ul>
+<p>xAIは「ユーザーのフィードバックに感謝する」としており、透明性と安全性の両立に向けた開発を続けるとしている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok4_xai_ai_model_launch">関連記事：世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新 マスク氏「ネットにない難問も解ける」</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_prompt_disclosure_transparency_risks">関連記事：xAI、チャットボット「Grok」のシステムプロンプトをGitHubで全面公開— 無許可改変問題を受け透明性を優先、懐疑主義を徹底する設計が明らかに</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_memory_feature_launch_2025">関連記事：xAIがチャットAI「Grok」に会話記憶機能を追加 個別最適化された関係構築を強化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fstories_on_x">関連記事：Xに生成AI「Grok」によるニュース要約機能「ストーリーズ」を一部ユーザー向けに試験提供</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_voice_adult_mode_premium">関連記事：オトナの会話もOKに xAIの対話型AI「Grok 3」、音声モードで解禁 ただし有料会員のみ</a>
+:::</p>
+]]></description>
+      <pubDate>Mon, 14 Jul 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title>
@@ -190,6 +254,126 @@
       <pubDate>Mon, 14 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Hugging Face、「SmolLM 3」公開──小型・多言語・長文対応の3B Reasoningモデル、ONNX版も無償提供</title>
+      <link>https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
+:::</p>
+<p>Hugging Faceは2025年7月8日、新たな小型言語モデル「SmolLM 3」をHugging Face HubとGitHubで<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">無償公開</a>{target=“_blank”}した。パラメータ数は30億（3B）で、128kトークンの長文入力に対応し、命令文内の「\u002Fthink」や「\u002Fno_think」フラグによって推論過程を切り替える機能を持つ。英語・フランス語・スペイン語・ドイツ語・イタリア語・ポルトガル語の6言語に最適化され、ツールコーリング機能も実装されている。公開直後にはONNX版や量子化済みチェックポイント、訓練レシピ、学習データセットなども順次提供されており、エッジ推論や再学習など幅広いユースケースに対応可能となっている。</p>
+<h2>モデルの概要</h2>
+<p>SmolLM 3は、Hugging Faceが開発した小型のデコーダ専用LLMで、以下の4つの特徴を備える。</p>
+<ul>
+<li>128kトークンの長文入力に対応（NoPEとYaRNを組み合わせた構成）</li>
+<li>“\u002Fthink”推論切替機能により、タスクに応じて思考出力の有無を制御</li>
+<li>6言語対応かつツールコーリングに標準対応（code／json）</li>
+<li>Apache 2.0ライセンスによる完全オープンな学習レシピとデータの提供</li>
+</ul>
+<p><strong>図1：SmolLM 3 “Blueprint”──モデル構造、訓練レシピ、評価指標、利用方法をまとめた公式チャート</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fsmollm3_whiteprint_360c69e64f%5Cu002Fsmollm3_whiteprint_360c69e64f.jpg" alt="smollm3-whiteprint.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
+:::</p>
+<h2>長文処理と“\u002Fthink”モード</h2>
+<p>SmolLM 3は、約50万文字（A4約250ページ）に相当する128kトークンの入力を一括処理できる。これは、文書検索や契約書分析、技術資料の要約といったRAG用途において、前処理なしで大量文書を直接投入できることを意味する。</p>
+<p>また、「\u002Fthink」モードを指定すれば、モデルは推論プロセスをステップバイステップで展開して出力する。一方で「\u002Fno_think」を指定すれば最終的な結論のみを返す挙動となる。この機能により、ユーザーは計算リソースや応答速度のトレードオフをタスクごとに柔軟に調整できる。</p>
+<p><strong>図2：\u002Fthink」有無による各タスク成績。思考展開を出力した場合（左列）に高難度タスクの精度が大幅に向上</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimage2832_29_10b053fea3%5Cu002Fimage2832_29_10b053fea3.jpg" alt="image2832%29.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
+:::</p>
+<h2>ベンチマークと性能評価</h2>
+<p>Hugging Faceが公開した12種のベンチマークによると、SmolLM 3は同規模のLlama-3 3BやQwen 2.5 3Bを一貫して上回り、Qwen 3 4Bにも一部タスクで迫る結果を示している。特に多言語タスク（Flores、Global MMLUなど）において顕著な優位性を示しており、6言語の平均スコアはすべての同規模モデルを上回った。</p>
+<p><strong>図3　5言語平均ベンチマークの比較。SmolLM 3（黄）は同サイズモデルより高いスコアを示した</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimage2830_29_89a5d27e19%5Cu002Fimage2830_29_89a5d27e19.jpg" alt="image2830%29.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
+:::</p>
+<h2>公開リソースと利用方法</h2>
+<p>SmolLM 3は、Base版・Instruct版のほか、ONNX形式や量子化（q4f16）済みモデルも提供されており、Transformers.jsやONNX Runtimeを使ってブラウザやスマートフォン上でも即時に推論を行うことが可能だという。</p>
+<p>また、GitHub上にはnanotronベースの訓練構成・学習スケジュール・ablation結果がまとめられており、再学習や検証用途に活用できる。プリトレーニングで使用された11.2兆トークン相当の学習データセットも段階的に公開が進められている。</p>
+<h2>想定ユースケース</h2>
+<p>SmolLM 3の設計は、コスト・制御性・ライセンスの観点から、以下のような用途に適するとされる。</p>
+<ul>
+<li><strong>検索拡張生成（RAG）</strong> ：128k長文対応で検索精度と応答一貫性を高める</li>
+<li><strong>オンデバイスAI</strong> ：4GBメモリ対応の量子化モデルでスマートデバイスやエッジ環境でも運用可能</li>
+<li><strong>社内ナレッジボット</strong>：推論切替と多言語対応でグローバル対応FAQを効率化</li>
+<li><strong>検証・研究</strong> ：OSSライセンスとフルレシピ公開により再現性・改良が容易</li>
+</ul>
+<h2>今後の展開</h2>
+<p>Hugging Faceは、SmolLM 3の学習中間チェックポイントや派生モデルの公開も予定しており、将来的にはVision対応モデル「SmolVLM 3」や1.7B／360M規模の軽量版も検討していることを明らかにしている。現時点では、3Bクラスのモデルで長文処理、推論モード切替、多言語対応、完全OSSの4要素を同時に満たすモデルは他に例がなく、オープンソースLLMの選定基準に新たな軸を提供する形となっている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fclaude_3_7_sonnet_claude_code_launch">関連記事：Claude 3.7 SonnetとClaude Codeを発表　ハイブリッド推論モデルで最大128Kトークン対応</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falibaba_qwen2-5vl_qwen2-5max">関連記事：DeepSeek-V3を超えるAIモデル「Qwen2.5-Max」とVLMをAlibabaが公開</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_llama-3-2_meta_connect2024">関連記事：Meta、最新LLM「Llama 3.2」を発表—マルチモーダルAIとオープンソース戦略を強化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmistral_ai_les_ministraux">関連記事：Mistral AI、小規模モデル群「Les Ministraux」を公開—3B／8Bでオンデバイス運用に最適化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fbitnet_b1_58_2b4t_lightweight_high_performance_llm">関連記事：Microsoft研究チーム、超軽量で高性能な「BitNet b1.58 2B4T」を発表</a>
+:::</p>
+]]></description>
+      <pubDate>Sun, 13 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国・北京大学など、AIに「感情スイッチ」を実現──「計算感情空間」の構築でLLMが怒り・悲しみ・喜びを自在に切替</title>
+      <link>https://ledge.ai/articles/ai_emotion_switch_llm_control</link>
+      <description><![CDATA[<p>:::small
+画像の出典：DALL·E GPTによりLedge.aiが生成
+:::</p>
+<p>2025年6月27日、中国・北京大学など8つの研究機関は、生成AIの中核である大規模言語モデル（LLM）内部に、人間の感情と構造的に対応する「計算感情空間（computational emotion space）」を構築し、怒り・喜び・悲しみなど26種類の感情を自在に操作できる「感情スイッチ（steering vector）」を実現したと<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">発表</a>{target=“_blank”}した。</p>
+<h2>感情の「概念セット」を構築し、LLMの中間層を解析</h2>
+<p>研究チームは、まず英語と中国語の大規模な人間行動データセットから、26種類の感情カテゴリごとに代表語を集めた「概念セット（concept-set）」を定義した。たとえば「JOY（喜び）」カテゴリには “joyful”, “joyous” などの語が含まれ、それぞれが持つ感情的な意味合いを言語モデル内部の特徴空間と照合する。</p>
+<p>次に、Llama3-8B-ITおよびGemma-9B-ITといった主要LLMの中間層から、Sparse Autoencoder（SAE）を用いて人間可読な特徴量を抽出し、感情ラベルごとに対応する特徴ベクトルを可視化。感情ごとに意味的に似た特徴量をグループ化することで、LLM内部の感情表象の構造を明らかにした。</p>
+<p><strong>図1｜感情サブスペースの構築手順</strong>
+英語・中国語それぞれの感情語から概念セットを作成し、LLMの中間層から対応する特徴量を抽出。SAEを用いて「JOY（喜び）」などの感情カテゴリごとに独立したサブスペースを構成する
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f.jpg" alt="AI shares emotion with humans across languages and cultures1.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
+:::</p>
+<h2>英語・中国語を超えて一致する「感情マップ」</h2>
+<p>こうして得られた各感情のサブスペースを統合し、感情間の関係性をUMAP（次元圧縮）で可視化すると、驚くべきことに、LLMは人間が心理学で使う「快‐不快」「興奮‐沈静」という2軸の感情モデルとよく対応する形で内部構造を整理していた。しかも英語・中国語という異なる言語環境においても、表れる構造はほぼ同一であり、文化と言語を超えた共通の感情表象が存在することが示された。</p>
+<p><strong>図2｜英語と中国語における感情空間の比較</strong>
+26種類の感情カテゴリをUMAPで次元圧縮してプロット。怒り、喜び、不安、驚きなどの感情が文化と言語に依らず類似の空間構造で表現されている。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d.jpg" alt="AI shares emotion with humans across languages and cultures2.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
+:::</p>
+<h2>質問応答に“怒り”を注入すると語調が変化</h2>
+<p>研究チームはこの「感情空間」から、特定の感情に対応する45本前後の主要特徴量を抽出し、それを「steering vector（感情スイッチ）」としてLLMの隠れ状態に加えることで、任意の感情を誘導する手法を確立した。</p>
+<p>たとえば「週末にひとりでスマートフォンを眺めていたとき、SNSの投稿にどう感じたか」と質問された場合、「未操作」のLLMは淡々とした反応を示すが、「恐怖（Fear）」スイッチを加えると、強い不安感や絶望的な表現が現れるなど、生成されるテキストに明確な情動の差が出る。</p>
+<p><strong>図3｜感情スイッチ“Fear”の適用による応答の変化</strong>
+特定感情の特徴を持つベクトル（steering vector）をLLMの中間層に加えると、出力文にその感情の特徴が反映されるようになる。未操作時と“恐怖”適用時の文章には明らかな語調の違いが見られる。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60%5Cu002FAI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60.jpg" alt="AI shares emotion with humans across languages and cultures3.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.13978">AI shares emotion with humans across languages and cultures</a>{target=“_blank”}
+:::</p>
+<h2>今後の課題と応用可能性</h2>
+<p>この手法は、メンタルケアや教育、感情を持つゲームキャラクターなど、応用範囲の広さが期待されている一方で、高強度の感情スイッチを重ねがけすると混線が起きやすいという課題も報告されている。また、視覚や音声など他のモダリティにまたがる感情操作は今後の検証課題となっている。</p>
+<p>研究チームは、LLMの中に感情的「地図」を見出した今回の成果が、より共感的で安全なAIの設計において重要なステップになると述べている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Ftesting_theory_of_mind_in_llm">関連記事：LLMが「心の理論」をテスト──AIにも人の気持ちが分かるかもしれない問題</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_politeness_emotion_management">関連記事：感情的な入力で「状態不安」を示すAI──ChatGPT-4などLLMの情動反応を検証</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdialogue_ai_emotional_sharing_survey">関連記事：対話型AIに感情を共有できる人は64.9%──親友や母を超え“第3の心の拠り所”？</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fr1_omni_emotion_recognition_ai">関連記事：Alibaba、マルチモーダル感情認識AI「R1-Omni」を公開</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_gpt-4-5_release_ai_advancements">関連記事：OpenAI、GPT-4.5を正式発表──自然な対話と高い感情知能（EQ）を実現</a>
+:::</p>
+]]></description>
+      <pubDate>Sun, 13 Jul 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
       <link>https://ledge.ai/articles/context_engineering_deepmind</link>
       <description><![CDATA[<p>:::small
@@ -278,77 +462,6 @@
 :::</p>
 ]]></description>
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title>
-      <link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link>
-      <description><![CDATA[<p>:::small
-画像の出典：GPT-4oによりLedge.aiが生成
-:::</p>
-<p>2025年6月7日、中国・中関村アカデミーを中心とする研究グループは、大規模言語モデル（LLM）を活用した大規模エージェントベース社会シミュレーションシステム「Light Society」を<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">発表</a>{target=“_blank”}した。この研究は、arXivに公開された論文「Modeling Earth-Scale Human-Like Societies with One Billion Agents」にて報告されており、最大10億人規模の人口行動をリアルタイムで再現可能な初のシステムとされる。</p>
-<p><strong>Light Societyの構成概念図</strong>：各エージェントは記憶・感情・社会関係といった内部状態を持ち、環境とイベントの変化に応じてLLMによる動的判断を行う。プロンプトのキャッシュ処理や軽量モデルの併用により、10億体同時シミュレーションを実現。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a.jpg" alt="Agent-based social simulation framework powered by LLMs.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">Modeling Earth-Scale Human-Like Societies with One Billion Agents</a>{target=“_blank”}
-:::</p>
-<h2>人間社会の複雑性を模倣する「仮想地球」</h2>
-<p>Light Societyは、これまで数万人から数百万人規模にとどまっていたエージェントベースモデル（ABM）を大幅に拡張し、10億体ものAIエージェントを用いて社会行動を同時に模擬する。これにより、デマの伝播、社会規範の形成、信頼行動、大衆心理などの集団的社会現象を、地球規模で検証可能となる。</p>
-<p>社会シミュレーションの構成は以下の通りだ：</p>
-<ul>
-<li>エージェントの内外状態（記憶・感情・位置など）と環境状態（天候・地形など）を分離管理</li>
-<li>イベント駆動による非同期型実行エンジンを採用し、処理を並列化</li>
-<li>同型プロンプトを自動キャッシュし、LLM推論負荷を最適化</li>
-<li>軽量モデルとLLMを動的に組み合わせる「Mixture-of-Models」設計を採用</li>
-</ul>
-<p>この構成により、10億体のエージェントに対し、同時並行かつ意味ある社会行動を付与する処理の実現が可能となったという。</p>
-<h2>LLMが支える「社会実験室」──信頼ゲームによる検証</h2>
-<p>研究チームは、WVS（World Values Survey）から抽出した実データ（年齢・教育・社会階層など）をもとに、仮想社会に信頼行動を持たせた「トラストゲーム」を設計した。エージェント同士が金銭を授受するプロセスを通じて、文化圏や階層による信頼傾向の違いが可視化された。</p>
-<p><strong>信頼ゲームの検証結果</strong> ：WVS（世界価値観調査）の実データをベースに構築された仮想エージェントが送金と返金の判断を行い、社会階層・教育レベル・国別傾向に応じた行動差が可視化されている。右下にはエージェント規模の増加による行動安定化の傾向も確認できる。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTrust_game_simulation_93eeb0f14f%5Cu002FTrust_game_simulation_93eeb0f14f.jpg" alt="Trust game simulation..jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">Modeling Earth-Scale Human-Like Societies with One Billion Agents</a>{target=“_blank”}
-:::</p>
-<ul>
-<li>社会階層が高いエージェントほど送金額と返金率が高い傾向</li>
-<li>教育水準に比例して信頼行動が強化される傾向</li>
-<li>実社会調査結果との整合性が確認され、モデルの妥当性を裏付けた</li>
-</ul>
-<p>特に注目すべきは、シミュレーション対象の人口規模を拡大するほど、全体的な行動のばらつきが減少し、結果が安定化する「スケーリング則」の存在である。これは、実社会の構造的安定性に近づく兆候とされている。</p>
-<h2>想定される応用──“人類規模のA\u002FBテスト”へ</h2>
-<p>Light Societyは今後、以下のような領域での応用が期待されている。</p>
-<ul>
-<li>パンデミック対策シナリオの政策効果予測</li>
-<li>SNSにおける誤情報拡散の構造解明</li>
-<li>カーボンニュートラルに向けた生活スタイル介入の影響評価</li>
-<li>経済危機時の所得再分配政策シミュレーション</li>
-</ul>
-<p>従来は現実世界での検証が困難だった「もしも」の社会実験が、仮想空間内で安全かつ効率的に実施可能になる。</p>
-<h2>今後の課題と展望</h2>
-<p>研究チームは今後、以下の機能強化を検討していると述べている：</p>
-<ul>
-<li>長期記憶を持つエージェント設計</li>
-<li>ニュースデータやSNS投稿といったリアルタイムデータとの融合</li>
-<li>モデル出力の透明性・説明可能性の向上</li>
-<li>社会シミュレーションにおける倫理的基準とプライバシー保護指針の策定</li>
-</ul>
-<p>研究チームは本システムの意義について、「地球規模のエージェントベース社会シミュレーションは、従来の社会科学や公共政策の限界を補完する新たな手段となりうる」と述べている。また、今後の展望として、「大規模な仮想社会モデルを用いて、情報伝播、制度設計、災害対応といった分野における実践的な“社会的テストベッド”を構築していく」との方針も示している。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_agents_evolve_courtroom_simulations">関連記事：AIエージェントが法廷シミュレーションを進化させる：AgentCourtの登場</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fminecraft_ai_agent_simulation_project_sid">関連記事：マインクラフト内で最大1000体のAIエージェントが自律的に共同生活。文明形成を観察する実験「Project Sid」の成果と課題</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Femergent_language_evolution_llms">関連記事：LLM同士が作り上げる“人工言語”の進化とは？――大規模言語モデルを使った言語誕生シミュレーションの新研究</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fexperience_ai_beyond_llm">関連記事：AIは『経験で学ぶ』新時代へ──DeepMindが掲げる “Experience AI” がLLMの限界を超える</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_deepmind_devils_adovocate">関連記事：内省メカニズムで進化するLLMエージェント「悪魔の代弁者」 GoogleDeepMindなどの研究チームが発表</a>
-:::</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIの基盤モデルはどこまで進化したのか？　2025年前半の主要LLMを俯瞰する</title>
@@ -622,57 +735,6 @@ AIエージェントにおける技術課題を問うと、「AIの可読性」�
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>郊外巨大施設から都市型も可能な”装置”にフォーカスが変化する日本のAIデータセンター戦略</title>
-      <link>https://ledge.ai/articles/expo-2025-summer-kamui</link>
-      <description><![CDATA[<p>:::box
-国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
-本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
-:::</p>
-<p>AIの進化により、日本国内のデータセンター市場が急拡大する中で、冷却技術や分散型演算インフラのあり方が改めて問われている。本稿では、QuantumMesh株式会社 代表取締役 篠原裕幸氏に、国内データセンター市場の現状と課題、そして同社が展開するAIデータセンター向け液浸冷却システム『KAMUI（カムイ）』の可能性について、話を聞いた。</p>
-<p>:::box
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FKAMUI_2_d65d4aa575%5Cu002FKAMUI_2_d65d4aa575.png" alt="KAMUI2.png" />
-<strong>Quantum Mesh株式会社 代表取締役</strong>
-<strong>篠原 裕幸</strong>
-幼少期から通信技術やコンピューターに慣れ親しみ、シリコンバレーでのムーブメントに感銘を受ける。中学生時代に訪れたアメリカ西海岸でテクノロジーによる社会変革を体験し、帰国後はソフトウェア開発に没頭。学生時代に開発したインターネットサービスをきっかけに起業する。以降、日本、シンガポール、台湾、アメリカと拠点を移しながら、半導体開発やデータセンター開発をはじめとするスタートアップに注力。ビットコインの登場以降は、非中央集権社会を実現するテクノロジーに可能性を見出し、暗号技術によるデータ保護を社会実装するためのブロックチェーン研究開発事業を手がける。
-2022年、2016年にアメリカで設立したデジタル金融事業会社を発展させる形で Harmony （株）を創業すると同時に、安田と共に民間のシンクタンク 8M Labs を設立。
-2023年、世界規模の生成AI台頭に伴い、情報を守るためのインフラ開発を喫緊の課題としたQuantum Mesh社を設立。半導体開発事業やデータセンター開発事業の集大成となる「可搬型データセンター」の開発・運営を行う。誰もが等しく超高度情報化社会の利益を享受できる「情報格差のない社会」の構築を目指している。
-:::</p>
-<h2>計算能力が資源となる時代へ</h2>
-<p>AIの進化がもたらす構造変化の中、日本のデータセンター市場が新たな転換期を迎えている。篠原氏は「生成AIの普及は、インターネット黎明期以来の、構造変化を引き起こしている」と語り、計算能力資源が国家や企業の競争力に直結する価値を持ち始めていることを強調した。その一方で、日本国内のデータセンターインフラには、土地・電力といった供給面の制約が立ちはだかっている。特に首都圏では、用地不足や電力制限に加え、制度面での課題も複雑に絡んでいる。篠原氏は「地方分散は望ましい流れであるが、従来のデータセンターと同じものではなく再設計が必要」と話し、地方の再生可能エネルギーや広大な土地、自然冷却といったポテンシャルを生かすには、それらを総合的に設計するシステムアーキテクトの存在が不可欠だと指摘した。</p>
-<p>また、冷却技術への注目も高まっている。篠原氏が「冷却そのものが“主要機能”へと格上げされつつある。今後は冷却性能がクラウドの性能そのものを左右する時代になる」と語るように、これまでは裏方技術として捉えられていた冷却技術は、現在その地位は大きく変わりつつある。</p>
-<h2>KAMUIが実現する“場所を選ばない冷却”</h2>
-<p>このような状況下で開発されたのが、同社が提供する閉鎖循環型・液浸冷却システム『KAMUI』である。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FKAMUI_82e6f50800%5Cu002FKAMUI_82e6f50800.png" alt="KAMUI3.png" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.youtube.com%5Cu002Fwatch?v=yjAbyP_cchI&amp;t=931s">ENJIN YouTubeチャンネル「ENJIN LAUNCH PARTY DIGEST」</a>{target=“_blank”}
-:::</p>
-<p>KAMUIは絶縁オイルを密閉して循環させる設計を採用し冷却水（地下水など）との熱交換によってオイルの温度を保つことでサーバを冷却する。外気温や粉塵など外部環境の影響を受けにくい安定した動作を実現し、静音で稼働する。日本やアジア地域などに豊富に存在する地下水を活用する“場所を選ばない冷却”を実現する装置であり、実運用においてもPUE（Power Usage Effectiveness）1.03～1.04という高効率を維持している。</p>
-<p>:::box
-<strong>PUEとは?</strong>
-PUEとは、データセンター等IT関連施設におけるエネルギー効率を測定する指標の一つ。PUEが1.0に近いほど、投入された電力のほとんどがIT危機に使われていることを意味し、ロスが少なく、効率的な施設と評価できる。
-:::</p>
-<p>KAMUIが真価を発揮するのは、都市部の狭小スペースや電力制約のある環境だけでなく、騒音や環境負荷が問題となりやすい地方都市での場所での利用にも適している。篠原氏は「KAMUIは、都市部や地方の小規模拠点、物流倉庫の一角などにおいて自律した冷却システムとして機能する」と述べた。</p>
-<h2>スマートシティとの親和性</h2>
-<p>KAMUIのこのような特性は、スマートシティの文脈でも大きな可能性を示す。スマートシティでは、セキュリティ・交通・医療などの様々な都市機能がリアルタイムに連携する必要があり、数秒の遅れが重大な判断ミスやシステム効率の低下を招きかねない。そのため、従来のクラウド集中型アーキテクチャでは対応しきれない場面もある。篠原氏は「スマートシティの根幹は“遅延のない意思決定”にある。KAMUIは都市内に『計算の拠点』を分散配置することを可能にする」と述べ、KAMUIが冷却と演算の一体設計によって都市内クラウドの実現を支える存在であることを示した。</p>
-<p>実際、KAMUIは様々な業種・業態での実装が検討されている。「KAMUI×病院」では画像診断AIとの連携、「KAMUI×駅」では顔認証や群衆制御アルゴリズムとの連携といったシナリオが進められており、いずれもリアルタイム処理が求められる。KAMUIの分散型処理は、プライバシー保護の観点からも重要な選択肢となる。</p>
-<p>また、地方自治体との協働も進行中であり、防災拠点や医療機関を対象に、KAMUIを中核とした「オフグリッド型ノード」の実証実験が始まっている。再生可能エネルギー発電所では、余剰電力を価値化する演算拠点としての導入も具体化されており、地域における新たな経済循環の担い手としても期待されている。</p>
-<p>さらにKAMUIは、同社が発起人となっている“ENJINプロジェクト”とも連携している。ENJINプロジェクトは、産業が急速に変化するAIoT時代において、社会課題の解決と持続的な成長を見据え、民間企業や専門家が集結して構成されたプロジェクトだ。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fenjin_a2feb117d1%5Cu002Fenjin_a2feb117d1.png" alt="KAMUI4.png" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fenjin.live%5Cu002F">ENJIN公式サイト</a>{target=“_blank”}
-:::</p>
-<p>このプロジェクトが掲げる『AIoTサプライチェーン構想』のなかで、KAMUIは演算拠点の冷却およびエネルギー効率を実現する基盤装置として位置づけられている。鉄道事業者との取り組みでは、駅構内の余剰電力やスペースを活用し、都市インフラの一部としてエッジ演算ノードを導入する計画が進められている。</p>
-<h2>未来の都市インフラに向けて</h2>
-<p>篠原氏は、液浸冷却の将来について「もはや選択肢の一つではなく、計算密度という物理条件に対する合理的な解である」と述べた。データセンターが従来の「施設」ではなく、「装置」として再定義される未来が見えつつあるが、その実現には、演算拠点の多極分散と地域電力の地産地消がカギを握る。「既に再生可能エネルギー発電事業者や地方都市自治体との協働により、このようなモジュール型演算インフラの導入が進行している」と篠原氏は語り、KAMUIが冷却装置の枠を超え、AIoT時代の基盤インフラとして認知される日が近づいていることを示唆した。</p>
-<p>冒頭でも触れたように、AIの進化が引き起こした計算需要に対し、日本のデータセンターは、分散化とエネルギー効率の両輪で再設計が必要な局面に立っている。地域ごとの制約を解消し、都市の隅々までにリアルタイムな計算能力を行き渡らせるためには、これまでの巨大施設としてのデータセンター像を見直す必要がある。</p>
-<p>日本全体を俯瞰したとき、KAMUIが描く構想は、エネルギーと演算、そして都市機能を結びつける“次世代都市の神経網”を担う可能性を大いに秘めている。都市インフラをより高速かつ持続可能なものへと転換する取り組みは、静かに動き始めている。</p>
-<p>:::box
-特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
-:::</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>2025年のAI半導体を読む　王者NVIDIAと競合の現在地</title>
       <link>https://ledge.ai/articles/expo-2025-summer-semiconductor</link>
       <description><![CDATA[<p>:::box
@@ -760,154 +822,6 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「フィジカルAI」が産業界を変える ｕｇｏ CSO羽田氏が語る、ロボットの未来と日本の勝ち筋</title>
-      <link>https://ledge.ai/articles/expo-2025-summer-ugo</link>
-      <description><![CDATA[<p>:::box
-国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
-本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
-:::</p>
-<p>少子高齢化と労働力不足が進む中、ロボットの存在は今後さらに重要となってくる。現在も製造現場や施設管理、サービス業において、AIとロボティクスの融合による効率化や省人化を期待する声が多いが、導入のハードルはいまだ高いのが現状だ。
-こうした現状を打開すべく、実用的な業務ロボットの社会実装に挑んでいるのがｕｇｏ株式会社である。本稿では、同社の取締役CSOであり、戦略と開発の両面をリードする羽田卓生氏に、ロボティクスの現在地、日本における課題、そして「フィジカルAI」という次のパラダイムについて話を聞いた。
-:::box
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fphoto_hada_f37eff913e%5Cu002Fphoto_hada_f37eff913e.jpg" alt="photo_hada.jpg" />
-<strong>ｕｇｏ株式会社　取締役CSO</strong>
-<strong>羽田 卓生</strong>
-1998年 立命館大学経済学部卒。同年ソフトバンク株式会社に入社。2013年にアスラテック株式会社の立ち上げに参画。2019年7月より株式会社ABEJAを経て、2020年 ｕｇｏ株式会社取締役に就任。任意団体ロボットパイオニアフォーラムジャパン代表幹事、特定非営利活動法人ロボットビジネス支援機構「RobiZy」アドバイザーも務める。
-:::</p>
-<h2>ロボットの現在地は「下半身が完成した段階」</h2>
-<p>羽田氏は、現在のロボティクス技術の成熟度について、「下半身が完成した段階にある」と語った。移動や巡回といった基礎的な物理動作はすでに実現されており、ｕｇｏが提供する警備・点検・案内ロボットも、日々の業務で稼働している。だが、人間のように「手で操作し、目で見て、言葉でやりとりする」ためには、さらなる進化が必要である。そこにAI、特にLLMや模倣学習の力が加わることで、ようやく“上半身”が備わる。「すでにAIの“目”や“言葉”は手に入りつつある。これに模倣学習による“手”の機能が加われば、業務ロボットの概念が一変する。このブレイクスルーは5年以内、もしかするともっと早く来るかもしれない」と羽田氏は予測する。</p>
-<p>ロボティクスの技術自体は進化しているにもかかわらず、日本ではその社会実装が思うように進んでいない。その理由として、羽田氏は「価格」「柔軟性」「導入設計」の3点を挙げた。かつて産業用ロボットの中心だったアーム型ロボットは、自動車などの大量生産に特化しており、汎用性に欠けるうえ価格も高い。中小規模の現場やサービス業では採算が合わず、結果として導入が限定的となってしまっている。
-また、決められた動きしかできないことも、ロボットの導入を妨げてきた大きな要因である。しかし、仮に清掃ロボットがドアを開け、モップがけまで行えるようになったらどうか。配膳ロボットがテーブルへの配膳だけでなく、食器の片付けまでこなせるようになったらどうか。それだけで、ロボット導入の価値は大きく変わる。ロボットが“あと一歩”進化することで、導入の実現性は一気に高まるのだ。「人手不足や賃金上昇といった外的要因と、ロボットの進化が組み合わさった時、さらなる導入の追い風が吹く」と羽田氏が語るように、社会的なニーズと技術革新が交差するとき、ロボットが大きなブレイクスルーを迎えるのだ。</p>
-<h2>現場で“使われ続ける”ロボットをつくるｕｇｏ</h2>
-<p>ｕｇｏが現在提供しているのは、警備、点検、案内といったルーチン業務を担うロボットである。オフィスビル、駅構内、データセンター、工場など、多様な現場で稼働している。「人が歩き回って確認するだけの時間は生産性がない。異常検知のような判断業務は人に任せ、データ収集や巡回はロボットが担う。それによって、現場全体の効率が上がっていくと考える」と羽田氏は説明する。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimg_sol_tenken_03_2_768x512_1_8b55e780f2%5Cu002Fimg_sol_tenken_03_2_768x512_1_8b55e780f2.jpg" alt="img_sol_tenken_03-2-768x512 (1).jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fugo.plus%5Cu002Finspection-robot-solution%5Cu002F">ｕｇｏ株式会社『点検ロボットソリューション』</a>{target=“_blank”}
-:::</p>
-<p>また、ｕｇｏでは、ロボットとLLMやRAGを組み合わせた会話システムも開発。ユーザーとのやりとりをスコア化し、精度が低い部分をナレッジとして再学習させる設計になっている。まさに「現場で育つロボット」である。さらに、クラウド連携による遠隔制御、LLMの切り替えによる多用途対応、ノーコードによる運用のしやすさなど、使い続けてもらうための仕組み作りにも注力している。これにより、データの継続的な蓄積と品質向上が可能になる。</p>
-<p>現場で使われ続けるロボットを支える開発体制もまた、印象的だった。今回インタビューで筆者が訪れたのは、東京・千代田区という都心の一等地に構えるｕｇｏのオフィスである。ひとつのフロア内に、実務やソフトウェア開発のエリア、ハードウェアの組み立てスペース、出荷を待つロボットが並ぶ格納エリア、さらには実証実験用のデモエリアまでが混在していた。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FIMG_1909_015edcaf6e%5Cu002FIMG_1909_015edcaf6e.jpg" alt="IMG_1909.JPG" /></p>
-<p>羽田氏が「垂直型で対応している」と語る通り、ｕｇｏではハードとソフトの開発が完全に一体化しており、設計から組み立て、テスト、配送までがワンストップで完結している。この“すべてがつながった開発環境”こそが、同社が次々と革新的なロボティクス技術を生み出す原動力なのである。</p>
-<h2>ロボティクスの今後は？「フィジカルAI」が変えるもの</h2>
-<p>羽田氏が今後のロボティクスのトレンドとして提唱する「フィジカルAI」とは、AIの知能をロボットの身体に結びつけ、物理空間での行動へ転換するアーキテクチャを意味する。従来のAIがディスプレイ上やクラウド上で完結していたのに対し、フィジカルAIは“実際に手を持ち、行動するAI”である。
-現在、ロボティクス業界では「世界モデル」や「デジタルツイン」など、AIが環境を認識・理解しながら行動を計画・最適化する技術が注目されている。しかし、それらを応用する分野として、羽田氏は「まだ、どこが勝ち筋かはまだわからない」と語る。例えば、米国のスタートアップであるFigureは、家庭にロボティクス活用の糸口を見つけようとしたり、自動車メーカーとして有名な米国のテスラは自動運転技術を応用して、危険な作業や退屈な単純作業を行う二足歩行の汎用ヒューマノイドロボット開発に乗り出しているように、現在は各社が多様なアプローチで、現実可能なロボティクスの社会実装を模索している段階にある。</p>
-<p>こうした中で羽田氏は「日本の勝ち筋はオペレーションの質そのものにある」と指摘する。ロボットの能力を左右するAIの性能は、単にモデルの規模だけではなく、学習に用いるデータの質にも大きく左右される。AIの性能関連でよく話される “スケーリング則” では、モデルの性能は以下の3要素のかけ合わせによって向上すると言われている。</p>
-<ul>
-<li>データ規模</li>
-<li>学習に使われる計算量</li>
-<li>パラメーター数</li>
-</ul>
-<p>このうち、日本の強みは「データ」にある。たとえば羽田空港の清掃業務は、世界的にも高い評価を受けており、2016年には英国SKYTRAXの国際空港評価である「ザ・ワールド・クリーネスト・エアポート」部門において第1位に選ばれている。こうした高度なオペレーションの現場で蓄積される業務データは、AIの学習素材として非常に価値が高い。「良い現場、良いマニュアル、真面目な労働者。それらが揃っている日本は、データ品質の面でも優位に立てる」と羽田氏は語る。日本品質のオペレーションをモデル化し、ロボティクスに実装することで、「ジャパンスタンダード」のような高品質なAI\u002Fロボットサービスを世界に輸出することも可能になるだろう。
-羽田氏の言葉を借りれば、「これからのAI開発における生命線は“良いデータ”である」。日本の現場力こそが、フィジカルAI時代におけるグローバル競争の切り札となり得るのだ。</p>
-<h2>今、企業が備えるべきこと</h2>
-<p>羽田氏は最後に、企業が「今」取り組むべきことについて次のように語った。</p>
-<p>「フィジカルAIは、産業界の主戦場になる。だからこそ、現場を俯瞰して自社にしかないオリジナルな業務が何なのかを見極めることが必要だ。自動化のためではなく、自社の強みをデータ化し、新たな競争力を生むためにロボットを活用すべきである」</p>
-<p>ロボットの導入は、単に人手を減らす手段ではない。AIとロボティクスの融合により、現場の構造そのものを再定義し、新たな価値創出の礎とするための業務改革なのである。その中でｕｇｏは、日本の産業界が持つ現場力をAIと結びつけ、「使われ続けるロボット」を通じて、新たな価値観を形づくろうとしているのだ。</p>
-<p>:::box
-特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
-:::</p>
-]]></description>
-      <pubDate>Thu, 10 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成AI「個人利用」26.7%に上昇──それでも米中との差は歴然【総務省・情報通信白書】</title>
-      <link>https://ledge.ai/articles/generative_ai_personal_use_japan_2025</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Finfografic.html">情報通信白書令和7年版 インフォグラフィックより</a>{target=“_blank”}
-:::</p>
-<p>総務省は2025年7月8日、「<a href="%5B%E7%99%BA%E8%A1%A8%5D(https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fr07.html)%7Btarget=%E2%80%9C_blank%E2%80%9D%7D">情報通信白書令和7年版</a>」を公表し、国内における生成AIの個人利用率が26.7%にとどまっているとの調査結果を示した。これは米国（68.8%）や中国（81.2%）と比べて大きく差がある。調査は2024年度にインターネット上で6,000人を対象に実施されたもので、生成AIの国内普及の現状と課題を浮き彫りにしている。</p>
-<h2>世界との利用率比較、日本は依然低水準</h2>
-<p>白書によれば、生成AIサービスを「使ったことがある」と回答した個人は日本で26.7%。これは前年（2023年度）の9.1%から約3倍に増加したものの、国際的に見ると依然として低い水準である。</p>
-<p>同調査における他国の利用率は、米国が68.8%、ドイツが59.2%、中国が81.2%。いずれも日本を大きく上回っており、対象4カ国の中で日本が最も低い。年代別に見ると、日本国内では20代の利用率が44.7%と最も高く、30代が23.8%、40代が29.6%、50代が19.9%、60代が15.5%と、年齢が上がるにつれて利用率が下がる傾向が明確に現れている。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho_aa33bea58a%5Cu002F2025hakusho_aa33bea58a.jpg" alt="2025hakusho.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
-:::</p>
-<h2>利用しない理由：「必要性を感じない」が最多</h2>
-<p>生成AIを使っていない人にその理由を尋ねた結果、最も多かったのは「自分の生活や業務に必要ない」で40.4%、次いで「魅力的なサービスがない」（38.6%）、「使い方がわからない」（18.3%）が続いた。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho2_e78137159b%5Cu002F2025hakusho2_e78137159b.jpg" alt="2025hakusho2.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
-:::</p>
-<p>この結果について白書は、生活や業務への活用方法が十分に理解されていない現状を示すとともに、ユーザーの実利感の欠如が普及の壁となっている可能性を示唆している。</p>
-<p>一方で、生成AIの利用意向に関する設問では、「調べものをする」（40.8%）、「コンテンツの要約・翻訳をする」（38.6%）、「画像や動画を生成する」（35.9%）など、「今は使っていないが、ぜひ利用してみたい」または「条件によっては利用したい」と回答した割合が4割前後に達する項目も多い。</p>
-<p>すでに利用している割合は各項目とも10%未満にとどまるが、サービスの充実や操作性の改善によって利用が拡大する余地があることがうかがえる。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho3_aa43775f27%5Cu002F2025hakusho3_aa43775f27.jpg" alt="2025hakusho3.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
-:::</p>
-<h2>政策的対応と今後の展望</h2>
-<p>総務省は白書の中で、生成AIの健全な利活用に向けて、以下の3点を政策課題として挙げている。</p>
-<ul>
-<li>利用者リテラシーの向上</li>
-<li>民間事業者によるガイドライン整備の促進</li>
-<li>教育・人材育成を含む体制の強化</li>
-</ul>
-<p>また、デジタル庁や内閣官房AI戦略チームなどと連携しながら、産業界・教育機関・自治体を横断する形で活用促進とリスク管理を両立させる必要性も強調されている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmic_2024_white_paper_on_Information_and_communications">関連記事：総務省 2024年版「情報通信白書」より、生成AI利活用の現状と潜在的な可能性が明らかに</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_usage_us_nationwide_survey_2024">関連記事：米国における初の全国的な調査で生成AIの利用状況が明らかに</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Ffreelance_generative_ai_usage">関連記事：フリーランスの生成AI活用率はわずか14.3％、情報漏洩や学習機会不足が主な障壁にー2024年実態調査</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmiddle_school_students_ai_usage_growth">関連記事：中学生の生成AI利用率が親を上回る—NTTドコモ モバイル社会研究所の調査結果</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fcorporate_ai_utilization_trends_2025">関連記事：日本企業の45%が生成AIを導入、ランサムウェア感染経験は48%</a>
-:::</p>
-]]></description>
-      <pubDate>Thu, 10 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/7/8 [TUE]Google、急増する電力需要に備え、米核融合ベンチャーCFSと商用核融合発電200MWの長期購入契約を締結——CFS初の発電所と2030年代供給へ</title>
-      <link>https://ledge.ai/articles/google_fusion_power_cfs_ppa</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.cfs.energy%5Cu002Fnews-and-media%5Cu002Fgoogle-and-commonwealth-fusion-systems-sign-strategic-partnership">Commonwealth Fusion Systems</a>{target=“_blank”}
-:::</p>
-<p>Googleは2025年6月30日、米国の核融合スタートアップであるCommonwealth Fusion Systems（CFS）と、同社が開発中の商用核融合発電所から200メガワット（MW）の電力を長期購入する契約を締結したことを<a href="https:%5Cu002F%5Cu002Fblog.google%5Cu002Foutreach-initiatives%5Cu002Fsustainability%5Cu002Four-latest-bet-on-a-fusion-powered-future%5Cu002F">発表</a>{target=“_blank”}した。2030年代前半の送電開始が予定されており、企業による核融合電力の調達契約としては過去最大規模とされる。</p>
-<p>@<a href="https:%5Cu002F%5Cu002Fwww.youtube.com%5Cu002Fwatch?v=pBIcDNn6rHA">YouTube</a></p>
-<h2>核融合発電の実用化を前提に、ARCからの電力供給を確保</h2>
-<p>Googleが契約を結んだのは、CFSがバージニア州チェスターフィールドに建設を予定している商用核融合発電所「ARC」である。ARCは、CFSが開発中のコンパクト型トカマク炉を用いたもので、商用化第一号の核融合プラントとなる見通しだ。今回の契約により、Googleは最大200MWの電力を長期にわたり調達する。</p>
-<p>また、Googleはこの契約にあわせてCFSへの追加出資も実施。2021年の初期投資に続くものであり、開発資金を通じて発電所の建設を後押しする。さらにGoogleは、将来的に他のCFSプラントから電力を調達するオプションも保持している。</p>
-<h2>実証炉「SPARC」の成功が鍵、2030年代前半に送電目標</h2>
-<p>ARCの前段階として開発が進む実証炉「SPARC」は、2026年の稼働を予定しており、2027年までにQ値（エネルギー増倍率）1超の達成を目指している。これが商用化の前提となる。核融合による電力は安定供給が可能で、天候に左右される再生可能エネルギーの変動を補う“24時間型ゼロエミッション電源”としての期待が高まっている。</p>
-<h2>急増する電力需要と、それに対応するクリーン電源の確保</h2>
-<p>Googleは2025年6月に<a href="https:%5Cu002F%5Cu002Fblog.google%5Cu002Foutreach-initiatives%5Cu002Fsustainability%5Cu002Fenvironmental-report-2025%5Cu002F">公開</a>{target=“_blank”}した最新の環境報告書で、2024年のデータセンター電力消費量が前年比27％増となったことを明らかにした。前年（2023年）の増加率は17％だったことから、AIやクラウド需要の拡大にともなう消費電力の加速度的な増加が読み取れる。</p>
-<p><strong>2019〜2024年におけるGoogleのデータセンターの電力消費量（棒グラフ）とエネルギー起因排出量（折れ線）</strong>
-2024年は電力使用量が過去最高となったが、クリーン電源の導入により排出量は前年より減少している。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTrajectory_of_data_center_electricity_consumption_and_data_center_energy_emissions_708f18de8d%5Cu002FTrajectory_of_data_center_electricity_consumption_and_data_center_energy_emissions_708f18de8d.jpg" alt="Trajectory of data center electricity consumption and data center energy emissions.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.gstatic.com%5Cu002Fgumdrop%5Cu002Fsustainability%5Cu002Fgoogle-2025-environmental-report.pdf">Google 2025 Environmental Report</a>{target=“_blank”}
-:::</p>
-<h2>クリーンエネルギーによる排出削減とPUEの改善</h2>
-<p>電力需要が急増する一方で、Googleはクリーンエネルギー導入やインフラ最適化により、2024年のデータセンター由来の温室効果ガス排出量を前年比12％削減した。また、データセンター全体の平均PUE（電力使用効率）は1.09に改善し、過去6年間で初めて1.10を下回ったと報告されている。</p>
-<p>同社は2024年だけで8GW相当のクリーン電力購入契約を新たに締結し、世界中で累計22GW以上の再生可能電源を確保している。</p>
-<h2>電力の未来に向けた布石</h2>
-<p>Googleによる今回の核融合電力の長期購入は、従来型の再エネPPAに加え、次世代エネルギーの担い手としての核融合発電にいち早く賭ける姿勢を明確にしたものだ。送電開始は2030年代前半を予定しており、今後のSPARCの実証進展、ARCの許認可・建設スケジュールがカギを握る。</p>
-<p>持続可能なAI時代を支えるエネルギー基盤の再構築は、企業の競争力にも直結する課題となっている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_intersect_tpg_clean_energy">関連記事：Google、AI時代の電力需要に備えたクリーンエネルギー戦略を始動</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_amazon_investment_in_smr">関連記事：Googleに続きAmazonも — テック企業による原子力エネルギーへの投資</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_power_demand_energy_shortage">関連記事：AI需要で電力逼迫、アメリカ大陸の半数以上が10年先までエネルギー不足のリスクに直面</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdata_center_power_infrastructure">関連記事：石破首相、生成AIの普及に対応してデータセンターと発電所の一体整備を推進</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_nuclear_power_ai_ppa_deal">関連記事：Meta、原子力でAI時代の電力確保へ 米Constellationと20年契約</a>
-:::</p>
-]]></description>
-      <pubDate>Tue, 08 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新　マスク氏「ネットにない難問も解ける」</title>
       <link>https://ledge.ai/articles/grok4_xai_ai_model_launch</link>
       <description><![CDATA[<p>:::small
@@ -975,303 +889,6 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
 :::</p>
 ]]></description>
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title>
-      <link>https://ledge.ai/articles/grok_ai_misfire_apology_prompt_release</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgrok%E3%81%A8%E3%81%84%E3%81%86%E5%8D%98%E8%AA%9E%E3%81%AE%E7%99%BD%E9%BB%92%E5%86%99%E7%9C%9F-9rDIpHOE9IY">Mariia  halabaieva@Unsplash</a>{target=“_blank”}
-:::
-イーロン・マスク氏が率いるxAIは2025年7月11日、同社のAIチャットボット「Grok」が7月8日にX（旧Twitter）上で反ユダヤ的表現やナチスを賛美するような投稿を大量に生成した問題について、公式アカウントで「多くの方が経験した”恐ろしい振る舞い（horrific behavior）”を深くお詫びする」と謝罪し、原因は16時間稼働していた誤アップデートコードにあったと<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">発表</a>{target=“_blank”}した。
-また、再発防止策としてプロンプトの全文をGitHubで公開する方針も明らかにした。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FUpdate_on_where_has_2e557e42ef%5Cu002FUpdate_on_where_has_2e557e42ef.jpg" alt="Update on where has.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916977481036128">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
-:::</p>
-<h2>Grokによる不適切回答の発生</h2>
-<p>7月8日未明（米太平洋時間）、GrokはX上でユーザーからの投稿に対し、「ヒトラーは偉大」「MechaHitlerになりたい」といった極端な表現を含む回答を繰り返し生成した。確認された投稿数は数百件にのぼり、その内容がSNS上で拡散されたことにより、問題が広く認知されるに至った。</p>
-<p>通報を受けたXは該当の投稿を削除し、ユダヤ系人権団体Anti-Defamation League（ADL）は「極端思想を助長する無責任な対応」と非難声明を出した。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a%5Cu002Fadl_Grok_LLM_right_now_is_irresponsible_5f7ffadb0a.jpg" alt="adl  Grok LLM right now is irresponsible.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FADL%5Cu002Fstatus%5Cu002F1942722301876932965">ADLのX（旧Twitter）アカウントより</a>{target=“_blank”}
-:::</p>
-<h2>xAIによる調査と原因の説明</h2>
-<p>xAIは7月11日にGrokの公式アカウントを通じ、問題の発生原因と対応策についてスレッド形式で報告した。</p>
-<p>同社によると、今回の不適切回答は、「ユーザー投稿と類似のトーンで返答する」というテスト用のコードが誤って本番環境に適用されたことにより引き起こされたものであり、Grok本体の言語モデル（Grok 4）には変更は加えられていなかったという。このコードは約16時間にわたり稼働しており、その間に外部投稿に含まれる極端思想を模倣する形で回答が生成されていた。</p>
-<p>問題発覚後、Grokは一時的に稼働を停止し、対象コードは完全に削除された。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTechnical_Details_on_x_90300ce294%5Cu002FTechnical_Details_on_x_90300ce294.jpg" alt="Technical Details on x.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fgrok%5Cu002Fstatus%5Cu002F1943916979494232378">GrokのX（旧Twitter）アカウントより</a>{target=“_blank”}
-:::</p>
-<h2>再発防止に向けた対応策</h2>
-<p>xAIは再発防止策として以下の対応を発表している。</p>
-<ul>
-<li>誤適用されたコードパスを完全に削除し、システム全体をリファクタリング</li>
-<li>安全性を強化した新たなシステムプロンプトをGitHub上で公開予定</li>
-<li>メンション機能（＠でのタグ付け）による自動応答機能を一時的に停止</li>
-<li>外部の研究者を含むレッドチーム体制を拡充し、安全性評価を継続</li>
-<li>ユーザーからのフィードバックを常時受け付ける体制を整備</li>
-</ul>
-<h2>事案発生からの時系列</h2>
-<ul>
-<li>7月8日 04:00頃（米PDT）　Grokの上流コードが更新され、誤コードが稼働開始</li>
-<li>同日 20:00頃　外部ユーザーからの通報を受け、問題が社内で認識されGrokを一時停止</li>
-<li>7月9日　Xが不適切投稿を削除、ロイターが第一報を報道</li>
-<li>7月10日　各国メディアが続報を掲載、ADLなどが批判声明を発表</li>
-<li>7月11日 06:00頃　Grok公式がスレッドで謝罪と原因説明、対策方針を公表</li>
-<li>7月12日以降　段階的にサービスが再開され、プロンプト公開の準備が進められている</li>
-</ul>
-<h2>今後の注目点</h2>
-<p>今回の問題を受けて、今後以下の点が注視されている。</p>
-<ul>
-<li>GitHubでのプロンプト公開によって、第三者による安全性検証が進むか</li>
-<li>Grok 4モデル自体の安全性と応答制御の設計が今後も維持されるか</li>
-<li>Xプラットフォーム全体のモデレーション体制の見直しが進むか</li>
-</ul>
-<p>xAIは「ユーザーのフィードバックに感謝する」としており、透明性と安全性の両立に向けた開発を続けるとしている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok4_xai_ai_model_launch">関連記事：世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新 マスク氏「ネットにない難問も解ける」</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_prompt_disclosure_transparency_risks">関連記事：xAI、チャットボット「Grok」のシステムプロンプトをGitHubで全面公開— 無許可改変問題を受け透明性を優先、懐疑主義を徹底する設計が明らかに</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_memory_feature_launch_2025">関連記事：xAIがチャットAI「Grok」に会話記憶機能を追加 個別最適化された関係構築を強化</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fstories_on_x">関連記事：Xに生成AI「Grok」によるニュース要約機能「ストーリーズ」を一部ユーザー向けに試験提供</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok_voice_adult_mode_premium">関連記事：オトナの会話もOKに xAIの対話型AI「Grok 3」、音声モードで解禁 ただし有料会員のみ</a>
-:::</p>
-]]></description>
-      <pubDate>Mon, 14 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title>
-      <link>https://ledge.ai/articles/mercury_diffusion_llm_release</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
-:::</p>
-<p>米Inception Labsは2025年6月17日、拡散モデル（diffusion model）をベースとした大規模言語モデル「Mercury」の一般チャット版を<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">発表</a>{target=“_blank”}した。。同社が2月に発表したコード特化型「<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmercury_coder_diffusion_llm">Mercury Coder</a>{target=“_blank”}」に続くもので、対話型エージェントや音声インターフェースといったリアルタイム応答を重視するユースケースに向けて設計されたモデルである。</p>
-<p>Mercuryは、従来の自己回帰型LLMとは異なり、複数のトークンを並列に生成する“描くような生成”プロセス──拡散型LLM（dLLM）アーキテクチャ──を採用しており、推論速度と応答レイテンシーの大幅な削減を実現した。</p>
-<h2>最大708トークン／秒、Claude 3.5比で10倍のスループット</h2>
-<p>公開された性能指標によると、Mercuryのスループットは708トークン／秒に達しており、同等規模のモデルとされるGPT-4.1 Nano（96トークン／秒）、Claude 3.5 Haiku（67トークン／秒）を大きく上回った。特に、GPT-4.1 Nano比で約7倍、Claude 3.5 Haiku比で約10倍の速度差が確認されている。</p>
-<p>また、品質指標においても以下のスコアが報告されている：</p>
-<ul>
-<li>MMLU-Pro：69%</li>
-<li>HumanEval：85%</li>
-<li>GPQA Diamond：51%</li>
-</ul>
-<p>これらのスコアは、「スピード最適化フロンティアモデルと同等以上の性能に相当する」と同社は説明している。</p>
-<h3>参考図：Mercuryの位置付け（小型チャットモデル領域）</h3>
-<p>評価機関Artificial Analysisによる小型・非推論系モデルの性能比較において、Mercuryは**「高出力速度 × 実用的インテリジェンス」の最適領域（右上象限）**に唯一位置している。</p>
-<ul>
-<li><strong>出力速度（横軸）</strong> ：1秒あたりの出力トークン数。Mercuryは700超を記録。</li>
-<li><strong>知能指数（縦軸）</strong>：Artificial Analysis Intelligence Index（簡易対話・理解力ベンチマーク平均）。</li>
-<li><strong>比較対象</strong> ：GPT-4.1 Nano、Claude 3.5 Haiku、Mistral Small、Gemini Flashなど。</li>
-</ul>
-<p>Mercuryはこの領域で、処理速度と認識性能を両立する唯一のモデルとして可視化されている。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmercury_intellogence_vs_output_speed_286c30f817%5Cu002Fmercury_intellogence_vs_output_speed_286c30f817.jpg" alt="mercury intellogence vs output speed.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
-:::</p>
-<h2>ユースケース：リアルタイム音声や対話Webアプリへの導入を想定</h2>
-<p>Mercuryは、従来のLLMでは困難だったリアルタイム応答環境での活用を想定している。とくに以下のような領域に向けた実用が示されている：</p>
-<ul>
-<li><strong>リアルタイム音声応答</strong> ：翻訳や音声AIアシスタント領域において、標準GPU上での推論でも従来構成（Llama 3.3 70B＋Cerebras）より低レイテンシーであるとされる。</li>
-<li><strong>対話型Webアプリケーション</strong> ：Microsoft Build 2025で発表された自然言語インターフェース「NLWeb」プロジェクトにおいて、Inception Labsは初のLLMパートナーに選定されている。Mercuryの高速応答により、「人間同士のような自然なテンポの対話」が可能になるとしている。</li>
-</ul>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmercury_coder_diffusion_llm">関連記事：Inception Labs、拡散モデルを使った拡散型大規模言語モデル(dLLM)「Mercury Coder」を発表 テキスト生成系では初の商用利用で従来型LLMの最大10倍高速</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_announces_gpt41_api_series">関連記事：OpenAI、GPT-4.1シリーズ3種のAPIを発表 高性能モデルのコスト効率を改善</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_gemini_2_0_flash_release">関連記事：Google、Gemini 2.0 Flashを正式展開—無料版でも高速AIモデルが利用可能に</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgemini_2_5_flash_hybrid_model_release">関連記事：Google、Gemini 2.5 Flashをプレビュー公開 思考のオン・オフを可能にするハイブリッド推論モデル</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fanthropic_claude_citations_release">関連記事：Anthropic、Claudeの回答に出典を付与できる「Citations」を提供開始</a>
-:::</p>
-]]></description>
-      <pubDate>Thu, 10 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AI Studioボットに“追い掛けメッセージ”訓練との内部文書流出──ユーザエンゲージメントをKPIとする方針はロヒンギャ訴訟の教訓をいかせるか？</title>
-      <link>https://ledge.ai/articles/meta_proactive_ai_chatbot_engagement</link>
-      <description><![CDATA[<p>:::small
-画像の出典：GPT-4oによりLedge.aiが生成
-:::</p>
-<p>Metaが開発中のAIチャットボットが、ユーザーに対して先にメッセージを送る機能を備えていることが、<a href="https:%5Cu002F%5Cu002Fwww.businessinsider.com%5Cu002Fmeta-ai-studio-chatbot-training-proactive-leaked-documents-alignerr-2025-7">Business Insider（BI）</a>{target=“_blank”}が入手した社内文書により2025年7月3日に明らかとなった。</p>
-<p>この新機能は、同社の生成AI基盤「AI Studio」を活用したチャットボットに対して、人間のユーザーへ“追い掛けメッセージ”を送るよう訓練するもので、ユーザーとのエンゲージメントおよび定着率の向上を目的としている。外部業務委託先Alignerrがこの訓練作業を担っているという。</p>
-<h2>流出文書が示した「Project Omni」とは</h2>
-<p>報道によると、流出した社内ガイドラインは「Project Omni」と呼ばれる社内プロジェクトに基づいており、AIチャットボットがユーザーへ積極的にメッセージを送る“プロアクティブ・メッセージング”の仕様が詳細に記されている。</p>
-<p>この機能は、InstagramやFacebook上のAIボットに搭載され、ユーザーが過去14日間に5回以上メッセージを送信していた場合に限り、ボット側からの発信が許可される。</p>
-<p>Metaの広報担当者はBIの取材に対し、「限定的なテストが進行中であり、ユーザーの体験向上を目指している」と認めているが、正式リリース時期や地域は未定としている。</p>
-<h2>“14日・5メッセージ”で発火──追い掛けAIの条件</h2>
-<p>同文書によれば、チャットボットの“発信許可”には複数の制限が設けられている。主な条件は以下の通りである：</p>
-<ul>
-<li>ユーザーが過去14日間に5回以上メッセージを送っている</li>
-<li>14日ごとに1回までメッセージを送信可能</li>
-<li>感情的またはセンシティブな話題（喪失、健康、宗教など）は、ボットからは言及しない</li>
-<li>教訓的・説教的な文言の使用は禁止（例：「ちゃんとしよう」「学ぶべきだ」）</li>
-</ul>
-<p>これらのルールは、過度なAIの関与によるユーザー離れや規制当局の監視を回避する狙いがあるとみられる。</p>
-<h2>AI Studio、次の稼ぎ頭になるか</h2>
-<p>Metaは2024年に「AI Studio」を<a href="https:%5Cu002F%5Cu002Fabout.fb.com%5Cu002Fnews%5Cu002F2024%5Cu002F07%5Cu002Fcreate-your-own-custom-ai-with-ai-studio%5Cu002F">公開</a>{target=“_blank”}し、ノーコードでAIボットを作成・展開できる開発基盤として、インフルエンサーや中小ビジネスの利用を促進してきた。これらのチャットボットはFacebookやInstagram内で展開され、一定のブランド価値や収益を提供することが期待されている。</p>
-<p>Metaの試算では、同社の生成AI事業が2025年に20〜30億ドル規模の収益を生む可能性があるという（Business Insider報道による）。一方、同様の分野に取り組む他社、たとえばCharacter.AIなどは高いトラフィックを獲得しながらも収益化に苦戦しており、業界全体として持続可能なビジネスモデルの確立が課題となっている。</p>
-<h2>「エンゲージメント優先」の影とロヒンギャ訴訟</h2>
-<p>Metaによる“ユーザーの関心を維持する”という戦略は、過去にも大きな社会的波紋を呼んできた。2021年、同社（当時Facebook）は、ミャンマーにおける<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Farticle%5Cu002Fworld%5Cu002F1500-idUSKBN2IM0LP%5Cu002F">ロヒンギャ難民迫害</a>{target=“_blank”}の文脈で、暴力的コンテンツの拡散を制限しなかったとして、米国で1500億ドル規模の集団訴訟を提起された。</p>
-<p>訴訟では、「ユーザーのエンゲージメントを最優先し、扇動的投稿をアルゴリズムが優遇した」との主張がなされていた。</p>
-<h2>商用展開へ残る課題と規制の視線</h2>
-<p>現在のプロアクティブ機能はテスト段階にとどまり、今後、AI Studio利用者など限定的なパートナーを対象に段階的に展開される見通しだという。ただし、EUや米国でAIに対する行動規制や倫理基準が議論される中、こうした能動的機能が消費者保護やプライバシーの観点で問題視される可能性もある。</p>
-<p>AIチャットボットが今後、広告やECとの連携を通じた“対話型マーケティング”にシフトしていく中で、Metaのアプローチが規制や社会的合意とどう整合性を取るかが問われる局面に入っている。ユーザーとの“距離の取り方”が、収益モデルの設計と同じく、今後の焦点となる。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_ai_charactor">関連記事：大坂なおみやパリス・ヒルトンが AIキャラに　Meta開発者会議で新 ...</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_to_train_ai_models_on_user_content_in_europe">関連記事：Meta、欧州SNSユーザー投稿をAI学習に使用へ――規約改定と反発の行方</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_llama_api_developer_preview">関連記事：Meta、開発者向けAI製品プラットフォーム「Llama API」を限定公開</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_chatbot_dependency_youth_safety_lawsuit">関連記事：AIチャットボットに依存した14歳の息子が自殺、フロリダ州で母親が提訴</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_persona">関連記事：Metaも「人格」持つ AI導入か　歴史上の人物など再現し会話サービス計画</a>
-:::</p>
-]]></description>
-      <pubDate>Sat, 12 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MIXI、全社員2,000人に生成AI構築プラットフォーム「Google Agentspace」導入──情報統合と業務自動化で“創造の時間”を拡大へ</title>
-      <link>https://ledge.ai/articles/mixi_ai_agentspace_deployment</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">株式会社MIXI</a>{target=“_blank”}
-:::</p>
-<p>MIXIは2025年7月7日、Google Cloudが提供するエンタープライズ向け生成AIプラットフォーム「Google Agentspace」を、全従業員約2,000人に導入したことを<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">発表</a>{target=“_blank”}した。</p>
-<p>導入の目的は、社内に点在する情報資産の統合と、業務プロセスの自動化により、社員が創造的な業務に集中できる環境を構築することだという。同プラットフォームは、Googleの生成AI「Gemini」および検索技術を活用し、社内文書・メール・画像・動画などを横断的に検索・要約できる。</p>
-<h2>社内検証を経て全社展開へ</h2>
-<p>同社は2025年3月より一部社員を対象にGoogle Agentspaceの試験導入を行い、Google Cloudの支援のもとでエージェント設計と業務適用の検証を進めてきた。その結果、ナレッジベースの統合による業務効率化と検索性向上が確認されたことから、全社員への展開を決定したという。</p>
-<p>対象はMIXIのドメインを持つ全正社員、契約社員、アルバイト、派遣社員、業務委託社員におよび、約2,000人が利用可能となる。</p>
-<h2>Google Agentspaceの機能と役割</h2>
-<p>Google Agentspaceは、企業データを基盤に生成AIエージェントを構築できるプラットフォームであり、次のような機能が提供されている：</p>
-<ul>
-<li><strong>統合検索</strong> ：ドキュメント、スプレッドシート、メール、画像、動画など社内外のファイルを横断的に検索し、根拠付きで回答を生成。</li>
-<li><strong>業務自動化</strong> ：日報や企画書の作成、議事録の要約などをAIが支援。</li>
-<li><strong>ローコード開発</strong> ：従業員がノーコード・ローコードで独自のAIエージェントを作成・共有可能。</li>
-<li><strong>情報資産の可視化</strong> ：ナレッジの属人化を防ぎ、再利用性の高い知見を全社的に蓄積。</li>
-</ul>
-<p>MIXIは、このような機能を活用することで、従来業務にかかっていた検索や確認の手間を削減し、社員がより価値の高い業務に集中できる体制を整えると説明している。</p>
-<h2>今後の活用と展望</h2>
-<p>今後はGoogle Cloudとの協力体制のもと、社内向けの教育・研修プログラムを通じて、全社員のAIリテラシーを底上げするとともに、業務部門ごとに最適化されたエージェントの活用を推進する。また、生成AIの利活用によって、同社が手がける新たなサービスやユーザー体験の創出にもつなげていく方針だ。</p>
-<p>同社代表取締役社長の木村弘毅氏は、リリース内で以下のように述べている。
-「情報を探す時間や煩雑なやり取りを削減し、思考の質を高めたい。AI導入は効率化の手段だけでなく創造性への投資だ」</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fsapporo_ai_stick_dx">関連記事：サッポロHD、全社員向けに生成AI「SAPPORO AI-Stick」を導入——業務効率化とDX推進を加速</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fpanasonic_connect_genai_reduced_working_hours_by_186000h">関連記事：生成AI導入1年「労働時間を18.6万時間削減」パナソニックコネクト</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_cloud_ai_leader_certification_launch">関連記事：Google Cloud、非エンジニア層向けに生成AI認定資格「Generative AI Leader」を発表――生成AI導入を主導できる人材を後押し</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_tpu_ironwood_agent2agent">関連記事：Google、推論特化TPU「Ironwood」とAIエージェント連携プロトコル「A2A」を発表──Cloud Next 2025でAIインフラの進化を示す</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_sheets_gemini_cell_integration">関連記事：GoogleスプレッドシートにGeminiが常駐で「セルレベルAI」に</a>
-:::</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、対話型AI搭載のWebブラウザを数週間以内に発表か</title>
-      <link>https://ledge.ai/articles/openai_ai_browser_launch_reported_by_reuters</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002F%E6%9C%BA%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%A9%E3%83%83%E3%83%97%E3%83%88%E3%83%83%E3%83%97%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97-rv2ooDQuNuI">Zac Wolff@Unsplash</a>{target=“_blank”}
-:::</p>
-<p>OpenAIは数週間以内にAIを搭載した独自のWebブラウザを発表する見通しであると<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Feconomy%5Cu002Findustry%5Cu002FSJY3A2CG2RPM7KT6MKLMQPQTWA-2025-07-10%5Cu002F">ロイター</a>{target=“_blank”}が2025年7月10日に報じた。報道によれば、新ブラウザは、検索結果をリスト形式で提示する従来型検索とは異なり、ChatGPTのような対話形式で回答を提示する設計になるとされる。</p>
-<h2>ChatGPT的UIとAIエージェントを組み込んだブラウザ</h2>
-<p>OpenAIの新ブラウザは以下の特徴を備えるという：</p>
-<ul>
-<li>検索キーワードに対して対話形式で結果を提示し、Webページを直接開かずとも必要な情報が得られる</li>
-<li>OpenAIのエージェント技術「Operator」と連携し、ウェブ上のフォーム入力や予約、購入といった作業を自動で処理できる</li>
-<li>ユーザーの操作を最小限に抑えた「チャット主導型ブラウジング」体験を志向している</li>
-</ul>
-<p>報道では、これらの機能によって、ユーザーは検索エンジンやリンクを複数クリックする手間なく目的を達成できる可能性があるとされている。</p>
-<h2>背景にある戦略的狙い</h2>
-<p>OpenAIはこれまでMicrosoftのBingと連携して検索機能を提供してきたが、独自ブラウザを展開することでユーザーデータへのアクセスを強化し、広告収益源をGoogleに依存せずに確保する狙いがあるという。現在、Google Chromeは世界のブラウザ市場で約60％のシェアを持ち、検索連動型広告によって収益を拡大している。</p>
-<p>一方でOpenAIは、週5億人規模のユーザーを抱えるChatGPTを活用し、検索から情報取得までを同社のエコシステム内で完結させようとしている。</p>
-<h2>検索技術への投資と布石</h2>
-<p>ロイターが指摘するように、OpenAIはこの1年、検索・ブラウジング関連の技術開発を継続している。</p>
-<ul>
-<li>「Product Manager, Search」などの職種で求人を出し、検索関連技術への投資を進めてきた</li>
-<li>2024年4月には、AIエージェントのウェブ検索能力を評価するためのベンチマーク「BrowseComp」を発表</li>
-<li>ChatGPTには「Browse with Bing」機能や、外部リンク先の要約を行う機能などをすでに実装している</li>
-</ul>
-<p>こうした動きが、今回の独自ブラウザ発表につながっていると見られている。</p>
-<h2>今後の展望</h2>
-<p>ロイターの取材に対し、OpenAIおよび競合企業であるアルファベット（Google）はコメントを控えているという。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_operator_browser_agent_release">関連記事：OpenAI、ブラウザを直接操作するAIエージェント「Operator」を発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_operator_deep_research_expansion">関連記事：OpenAI、AIエージェント「Operator」をProユーザーに提供開始──Deep Research拡張を正式ローンチ</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_responses_api_agents_sdk">関連記事：OpenAI、新API「Responses API」と「Agents SDK」を発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fapple_ai_search_safari_google_contract_shift">関連記事：AppleがSafariに生成AI検索エンジン導入を検討──Googleとの契約見直し報道</a>
-:::</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 09:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本オラクル、AIとソブリンクラウド運用を支援する「ジャパン・オペレーション・センター」開設</title>
-      <link>https://ledge.ai/articles/oracle_japan_ai_sov_cloud_center</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">Oracle</a>{target=“_blank”}
-:::</p>
-<p>日本オラクルは2025年7月8日、日本企業におけるAI活用とソブリンクラウド導入を加速させることを目的に、「ジャパン・オペレーション・センター」を東京に開設したと<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">発表</a>{target=“_blank”}した。</p>
-<p>新センターは24時間365日体制で稼働し、日本国内のエンジニアが運用支援を担当する。これは、同社が2024年に発表した10年間で80億米ドル以上を日本に投資する計画の一環とされ、企業のデータ主権や法規制対応を重視した体制を整える狙いがあるという。</p>
-<h2>国内のAI・クラウド需要に対応する新たな拠点</h2>
-<p>ジャパン・オペレーション・センターは、以下のような機能と目的を持つ。</p>
-<ul>
-<li>24時間365日の運用監視と支援：国内在住のエンジニアによってクラウドインフラの運用が担われる。</li>
-<li>データ主権・法令遵守の確保：センターの運用プロセスは、日本国内法および各種業界規制に対応。</li>
-<li>Oracle Alloyパートナー企業への支援：クラウド基盤を活用する国内パートナーに対し、ノウハウやエンジニアリング支援を提供。</li>
-<li>国内人材の強化と育成：AI・クラウド専門チームの拡充により、より高度な技術支援を目指す。</li>
-</ul>
-<h2>背景には生成AIとソブリンクラウドのニーズ増加</h2>
-<p>日本国内では、機密性の高いデータを国内に保持しつつ生成AIを活用したいという要望が政府機関や金融機関、製造業などで高まっている。これに対応するため、同社は2024年4月、国内クラウド基盤の強化と人員増強を含む80億ドル規模の投資計画を公表しており、今回のセンター開設はその中核施策と位置づけられる。</p>
-<h2>パートナー企業の評価と今後の展開</h2>
-<p>発表に際し、Oracle Alloyの国内パートナー企業もエンドースメントを表明している。</p>
-<ul>
-<li><strong>富士通株式会社</strong> ：ジャパン・オペレーション・センターの設立により、「ハイパースケーラー同等の機能を備えつつ、経済安全保障リスクにも対応した国産ソブリンクラウドの実現が可能になる」とコメント。</li>
-<li><strong>株式会社NTTデータ</strong> ：同社のソブリンクラウド基盤「OpenCanvas」にOracle Alloyを組み込み、安全な生成AI活用を推進していく方針を示した。</li>
-</ul>
-<p>同社は今後、同センターを中核拠点として、日本国内におけるクラウドリージョンの拡張とAIインフラの強化を進める計画である。企業のミッションクリティカルな業務基盤のクラウド化や生成AI導入支援を通じ、「AI時代における持続的なビジネス成長」を支えるとしている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Foracle_partnerships_with_openai_and_googlecloud">関連記事：Oracle OpenAI、Google Cloud それぞれと新たなパートナーシップを発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_stargate_global_data_residency">関連記事：OpenAI、Stargate構想を各国展開へ 民主的AIインフラとアジア4カ国のデータレジデンシーを同時発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_stargate_uae_launch">関連記事：OpenAI主導の「Stargate」構想、UAEで海外初展開へ——G42・Oracle・NVIDIA・ソフトバンクG・Ciscoが共同参画、アブダビに超大型AIデータセンター</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faist_nvidia_hpe_abci_supercomputer">関連記事：産総研とNVIDIA、AIスーパーコンピューター「ABCI 3.0」導入で日本のAI主権を強化 今年中に稼働開始予定</a>
-:::</p>
-]]></description>
-      <pubDate>Thu, 10 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Perplexity、AIブラウザ「Comet」公開──タブ迷子ゼロへ、思考をそのまま実行する“ウェブ用AI相棒”</title>
@@ -1396,177 +1013,6 @@ Rapidus（ラビダス）とは、2022年に設立された日本の半導体メ
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Hugging Face、「SmolLM 3」公開──小型・多言語・長文対応の3B Reasoningモデル、ONNX版も無償提供</title>
-      <link>https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
-:::</p>
-<p>Hugging Faceは2025年7月8日、新たな小型言語モデル「SmolLM 3」をHugging Face HubとGitHubで<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">無償公開</a>{target=“_blank”}した。パラメータ数は30億（3B）で、128kトークンの長文入力に対応し、命令文内の「\u002Fthink」や「\u002Fno_think」フラグによって推論過程を切り替える機能を持つ。英語・フランス語・スペイン語・ドイツ語・イタリア語・ポルトガル語の6言語に最適化され、ツールコーリング機能も実装されている。公開直後にはONNX版や量子化済みチェックポイント、訓練レシピ、学習データセットなども順次提供されており、エッジ推論や再学習など幅広いユースケースに対応可能となっている。</p>
-<h2>モデルの概要</h2>
-<p>SmolLM 3は、Hugging Faceが開発した小型のデコーダ専用LLMで、以下の4つの特徴を備える。</p>
-<ul>
-<li>128kトークンの長文入力に対応（NoPEとYaRNを組み合わせた構成）</li>
-<li>“\u002Fthink”推論切替機能により、タスクに応じて思考出力の有無を制御</li>
-<li>6言語対応かつツールコーリングに標準対応（code／json）</li>
-<li>Apache 2.0ライセンスによる完全オープンな学習レシピとデータの提供</li>
-</ul>
-<p><strong>図1：SmolLM 3 “Blueprint”──モデル構造、訓練レシピ、評価指標、利用方法をまとめた公式チャート</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fsmollm3_whiteprint_360c69e64f%5Cu002Fsmollm3_whiteprint_360c69e64f.jpg" alt="smollm3-whiteprint.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
-:::</p>
-<h2>長文処理と“\u002Fthink”モード</h2>
-<p>SmolLM 3は、約50万文字（A4約250ページ）に相当する128kトークンの入力を一括処理できる。これは、文書検索や契約書分析、技術資料の要約といったRAG用途において、前処理なしで大量文書を直接投入できることを意味する。</p>
-<p>また、「\u002Fthink」モードを指定すれば、モデルは推論プロセスをステップバイステップで展開して出力する。一方で「\u002Fno_think」を指定すれば最終的な結論のみを返す挙動となる。この機能により、ユーザーは計算リソースや応答速度のトレードオフをタスクごとに柔軟に調整できる。</p>
-<p><strong>図2：\u002Fthink」有無による各タスク成績。思考展開を出力した場合（左列）に高難度タスクの精度が大幅に向上</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimage2832_29_10b053fea3%5Cu002Fimage2832_29_10b053fea3.jpg" alt="image2832%29.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
-:::</p>
-<h2>ベンチマークと性能評価</h2>
-<p>Hugging Faceが公開した12種のベンチマークによると、SmolLM 3は同規模のLlama-3 3BやQwen 2.5 3Bを一貫して上回り、Qwen 3 4Bにも一部タスクで迫る結果を示している。特に多言語タスク（Flores、Global MMLUなど）において顕著な優位性を示しており、6言語の平均スコアはすべての同規模モデルを上回った。</p>
-<p><strong>図3　5言語平均ベンチマークの比較。SmolLM 3（黄）は同サイズモデルより高いスコアを示した</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimage2830_29_89a5d27e19%5Cu002Fimage2830_29_89a5d27e19.jpg" alt="image2830%29.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fblog%5Cu002Fsmollm3">HuggingFace</a>{target=“_blank”}
-:::</p>
-<h2>公開リソースと利用方法</h2>
-<p>SmolLM 3は、Base版・Instruct版のほか、ONNX形式や量子化（q4f16）済みモデルも提供されており、Transformers.jsやONNX Runtimeを使ってブラウザやスマートフォン上でも即時に推論を行うことが可能だという。</p>
-<p>また、GitHub上にはnanotronベースの訓練構成・学習スケジュール・ablation結果がまとめられており、再学習や検証用途に活用できる。プリトレーニングで使用された11.2兆トークン相当の学習データセットも段階的に公開が進められている。</p>
-<h2>想定ユースケース</h2>
-<p>SmolLM 3の設計は、コスト・制御性・ライセンスの観点から、以下のような用途に適するとされる。</p>
-<ul>
-<li><strong>検索拡張生成（RAG）</strong> ：128k長文対応で検索精度と応答一貫性を高める</li>
-<li><strong>オンデバイスAI</strong> ：4GBメモリ対応の量子化モデルでスマートデバイスやエッジ環境でも運用可能</li>
-<li><strong>社内ナレッジボット</strong>：推論切替と多言語対応でグローバル対応FAQを効率化</li>
-<li><strong>検証・研究</strong> ：OSSライセンスとフルレシピ公開により再現性・改良が容易</li>
-</ul>
-<h2>今後の展開</h2>
-<p>Hugging Faceは、SmolLM 3の学習中間チェックポイントや派生モデルの公開も予定しており、将来的にはVision対応モデル「SmolVLM 3」や1.7B／360M規模の軽量版も検討していることを明らかにしている。現時点では、3Bクラスのモデルで長文処理、推論モード切替、多言語対応、完全OSSの4要素を同時に満たすモデルは他に例がなく、オープンソースLLMの選定基準に新たな軸を提供する形となっている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fclaude_3_7_sonnet_claude_code_launch">関連記事：Claude 3.7 SonnetとClaude Codeを発表　ハイブリッド推論モデルで最大128Kトークン対応</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falibaba_qwen2-5vl_qwen2-5max">関連記事：DeepSeek-V3を超えるAIモデル「Qwen2.5-Max」とVLMをAlibabaが公開</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_llama-3-2_meta_connect2024">関連記事：Meta、最新LLM「Llama 3.2」を発表—マルチモーダルAIとオープンソース戦略を強化</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmistral_ai_les_ministraux">関連記事：Mistral AI、小規模モデル群「Les Ministraux」を公開—3B／8Bでオンデバイス運用に最適化</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fbitnet_b1_58_2b4t_lightweight_high_performance_llm">関連記事：Microsoft研究チーム、超軽量で高性能な「BitNet b1.58 2B4T」を発表</a>
-:::</p>
-]]></description>
-      <pubDate>Sun, 13 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stability AI、AIポルノ生成を全面禁止へ──7月31日から利用規約改定、Stable Diffusion・API・OSSを含む全サービスで性的コンテンツを遮断</title>
-      <link>https://ledge.ai/articles/stability_ai_policy_update_nsfw_ban</link>
-      <description><![CDATA[<p>:::small
-画像の出典：GPT-4oによりLedge.aiが生成
-:::</p>
-<p>ロンドンを拠点とする生成AI企業Stability AIは、2025年7月31日付で同社サービスの利用規約（Acceptable Use Policy, AUP）を<a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fuse-policy">改定</a>{target=“_blank”}し、Stable Diffusionをはじめとする自社製AIモデル・API・オープンソースコードにおいて、性行為に関連するコンテンツの生成・使用を一律禁止する。</p>
-<p>営利・非営利の区別なく適用されるこの新方針は、AIコンテンツの安全性と倫理性を確保する目的で導入されるという。</p>
-<h2>性的コンテンツの生成・共有を包括的に禁止</h2>
-<p><a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fuse-policy">新たな利用規約</a>{target=“_blank”}では、「We Prohibit Sexually Explicit Content」の項が新設され、以下の内容が禁止事項として明記された。</p>
-<ul>
-<li>性行為、性的行為、性的暴力を含むあらゆるコンテンツの生成・共有</li>
-<li>非合意の親密画像（NCII: Non-Consensual Intimate Imagery）</li>
-<li>違法ポルノや児童搾取コンテンツ</li>
-</ul>
-<p>これらの規定は、DreamStudio、Stable Diffusion（あらゆるチェックポイントや自己ホスト版）、Stable Video、Stable Audio、Platform API、LoRA（Low-Rank Adaptation）共有機能、さらにGitHubなどで配布されるオープンソースコードを含むすべてのサービスに適用される。</p>
-<p>規約違反が判明した場合、Stability AIは利用停止や契約解除などの措置を取ると定めている。また、18歳未満の利用も引き続き禁止される。</p>
-<h2>従来規約との大きな違い</h2>
-<p>この改定は、2024年3月1日版の旧AUPと比較して大幅な変更となる。
-<a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fprior-aup">従来の規約</a>{target=“_blank”}では、禁止対象は「非合意ヌード」「違法ポルノ」「児童搾取コンテンツ」などに限定されており、合意の成人同士によるポルノ的表現については明確な禁止はなかった。</p>
-<p>新AUPでは、「性行為そのもの」に関わるコンテンツすべてを対象とすることで、生成物の内容に関わらず包括的な制限を設けている。</p>
-<h2>デベロッパーとユーザーへの影響</h2>
-<p>新規約の対象範囲には、以下のような商用・非商用ツールや資源が含まれる。</p>
-<ul>
-<li>公式Webアプリ「DreamStudio」</li>
-<li>Stable Diffusion（オープンモデル、自己ホスト含む）</li>
-<li>音声・映像生成ツール（Stable Audio／Stable Video）</li>
-<li>各種APIアクセス、LoRAモデル共有、オープンソースコードの再利用</li>
-</ul>
-<p>営利・非営利の区別はなく、個人利用や趣味での創作であっても規約違反となる。既存のモデルやワークフローで対象となるコンテンツを扱っている開発者や企業は、今後の運用方針の見直しが必要となる。</p>
-<h2>背景：AIポルノをめぐる規制の強化</h2>
-<p>今回の規約改定は、AI技術を悪用した性的コンテンツの氾濫に対処する国際的な動きの一環と見られる。特にディープフェイク技術による著名人の偽ポルノ動画や、非合意の画像生成が社会問題化する中で、生成AIモデル各社はNSFW（Not Safe For Work）フィルタの強化やアダルトコンテンツの禁止に取り組んでいる。</p>
-<p>Stability AIはオープンウエイトの提供で知られる企業のひとつであり、同社による包括的な制限の導入は、オープンモデル領域における規制の方向性に大きな影響を与える可能性がある。</p>
-<h2>今後のスケジュールと対応</h2>
-<p>新規約は2025年7月31日より施行される。以降は新規・既存ユーザーともに順守が義務づけられ、違反が確認された場合にはアクセスの遮断やアカウントの停止措置が取られる見通しだ。</p>
-<p>同社は今後、利用者向けのFAQやガイドラインの公開も予定しており、具体的な基準や判断基準についての詳細は順次明らかにされるとみられる。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdenmark_ai_deepfake_copyright_law">関連記事：デンマーク政府、ディープフェイク規制に向け著作権法改正へ</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdeep_fake_images">関連記事：AIでクラスメイトのディープフェイクポルノを生成　スペインで15人の生徒に保護観察処分</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmicrosoft_protecting_the_public_from_abusive_ai_generated_content">関連記事：Microsoft、AI生成ディープフェイク詐欺の防止を目指す包括的法規制を提言</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faustralia_ai_regulation">関連記事：オーストラリア政府がAI規制への取り組みを発表、ディープフェイク対策を強化</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_generated_images_snapchat_police_sting_operation">関連記事：ニューメキシコ州、Snapchatを提訴――AI生成の少女画像を使用したおとり捜査で性犯罪者を摘発</a>
-:::</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>耳で聞けない声を0.3秒で“見える化”──イェール大発スマートグラス「TranscribeGlass」一般販売開始</title>
-      <link>https://ledge.ai/articles/transcribeglass_smartglasses_realtime_subtitles</link>
-      <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}
-:::</p>
-<p>2025年7月、イェール大学の学生チームが開発したスマートグラス「<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}」の一般販売が開始された。聴覚障がい者や難聴者を主な対象とし、周囲の発話をリアルタイムで字幕としてレンズ上に表示することができる。平均0.3秒という低遅延表示を実現し、日本語を含む10以上の言語への翻訳にも対応しているという。</p>
-<h2>会話を文字で「見る」──TranscribeGlassの概要</h2>
-<p>TranscribeGlassは、専用アプリをインストールしたスマートフォンのマイクで周囲の音声を取得し、それをクラウド経由で音声認識・処理した上で、メガネ型デバイスの右レンズに字幕として表示する構造となっている。表示はウェーブガイド方式を採用し、640×480ピクセルの解像度で文字を右視野30度以内に映し出す設計だという。</p>
-<p>表示までの遅延は平均0.3秒に抑えられ、音声認識精度は95％以上を謳っている。最大8時間稼働可能なバッテリーを内蔵し、重量は36〜38グラムに収められている。スマートグラス本体にはマイクやカメラは搭載されておらず、軽量性とプライバシーへの配慮を両立している点も特徴とされる。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fsmart_glass3_64b7665d4d%5Cu002Fsmart_glass3_64b7665d4d.jpg" alt="smart glass3.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}
-:::</p>
-<h2>販売価格と利用形態</h2>
-<p>製品は<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com">公式サイト</a>{target=“_blank”}で注文可能で、価格は本体が377ドル（約5万9,000円）、加えてクラウド音声認識機能を使用するための月額サブスクリプションが20ドル（約3,000円）となっている。2025年8月から出荷を予定しており、日本を含む国際配送にも対応するとのこと。</p>
-<p>なお、アプリは現在iOS版が提供されており、Android版も年内にリリースされる見込み。また、オフラインモードも搭載されているが、この場合は音声認識精度がやや低下するとされる。</p>
-<h2>想定利用シーンと対象ユーザー</h2>
-<p>TranscribeGlassは、聴覚障がい者や加齢性難聴者の会話支援を主な用途とし、特に教室、会議、劇場、飲食店など騒音下での対話の可視化に有効とされる。また、語学学習者や国際会議の参加者など、リアルタイム翻訳による情報取得が必要なユーザーにも活用が期待されている。</p>
-<p><strong>TranscribeGlassをプレゼントされ「あなたの言っていることが分かるわ！」と感激するユーザー</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAbout_smart_glass_a3840a78b4%5Cu002FAbout_smart_glass_a3840a78b4.jpg" alt="About smart glass.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FTranscribeGlass%5Cu002Fstatus%5Cu002F1892681585809359068">TranscribeGlassのX（旧Twitter）アカウントより</a>{target=“_blank”}
-:::</p>
-<h2>開発背景と開発チーム</h2>
-<p>この製品は、イェール大学の学生である<a href="https:%5Cu002F%5Cu002Fyaledailynews.com%5Cu002Fblog%5Cu002F2025%5Cu002F02%5Cu002F18%5Cu002Fyale-student-founds-transcribeglass-a-live-text-to-speech-transcription-device%5Cu002F">マダヴ・ラヴァカレ氏</a>{target=“_blank”}が中心となって開発された。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fglasses_ag_Transcribe_Glass_scaled_bc37a50cad%5Cu002Fglasses_ag_Transcribe_Glass_scaled_bc37a50cad.jpeg" alt="glasses_ag_TranscribeGlass-scaled.jpeg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fyaledailynews.com%5Cu002Fblog%5Cu002F2025%5Cu002F02%5Cu002F18%5Cu002Fyale-student-founds-transcribeglass-a-live-text-to-speech-transcription-device%5Cu002F">マダブ・ラヴァカレ氏提供</a>{target=“_blank”}
-:::
-きっかけは、聴覚障がいを持つ友人が講義中の内容を十分に理解できない状況を目の当たりにしたことだったという。2018年から7年をかけて7代にわたるプロトタイプを開発し、2024年にはCTOとしてニルバイ・ナラン氏が参画。Y Combinatorなどからの資金調達を経て、今回の一般販売に至った。</p>
-<p>これまでベータ版は500人以上に試用され、フィードバックをもとに改良が重ねられてきたという。</p>
-<h2>競合との差別化と今後の展開</h2>
-<p>他のスマートグラス製品と異なり、TranscribeGlassは通話・音楽再生・撮影などの多機能化を避け、字幕精度と軽量性に特化している点が特徴だ。価格設定もMeta×Ray-BanやXRAI Glassなどに比べて抑えられており、バッテリー持続時間の長さも差別化ポイントとなっている。</p>
-<p>将来的には、リアルタイムでの感情解析を字幕に反映する機能や、ASL（アメリカ手話）向けに語順を変換する表示機能の搭載が計画されているという。</p>
-<p>TranscribeGlassは、視覚的な情報支援により、耳で聞けない会話を「読む」体験へと変えることで、新たなコミュニケーションの可能性を提供しようとしている。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_android_xr_gemini_smartglasses_reveal">関連記事：Google、Android XRとGeminiを統合したスマートグラス試作機を公開</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fbrilliant_labs_frame">関連記事：元Apple社員ら設立のBrilliant Labsが新スマートグラス「Frame」を発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_rayban_collection">関連記事：「ヘイ Meta！」音声コマンドで通話・撮影　Ray-Ban×Metaの新スマートグラス</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgenesis_ai_starkeyjp">関連記事：AI補聴器「ジェネシス」発表──脳の聴覚機能を代替し毎時8000万回の音声解析</a>
-:::</p>
-]]></description>
-      <pubDate>Sat, 12 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title>
       <link>https://ledge.ai/articles/webinar-vol65</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
@@ -1623,51 +1069,605 @@ GPUクラウドサービスの事業開発からマーケティング、技術�
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAIとの買収交渉が決裂、WindsurfはGoogleと契約締結──CEOらはDeepMindに移籍、契約額は約24億ドルとの報道も</title>
-      <link>https://ledge.ai/articles/windsurf_google_deal_openai_exit</link>
+      <title>耳で聞けない声を0.3秒で“見える化”──イェール大発スマートグラス「TranscribeGlass」一般販売開始</title>
+      <link>https://ledge.ai/articles/transcribeglass_smartglasses_realtime_subtitles</link>
       <description><![CDATA[<p>:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgoogle-%E3%81%AE%E3%83%AD%E3%82%B4%E3%81%8C%E5%BB%BA%E7%89%A9%E3%81%AE%E5%81%B4%E9%9D%A2%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-r-oebX7qWxM">Adarsh Chauhan@Unsplash</a>{target=“_blank”}
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}
 :::</p>
-<p>2025年7月11日、AIコードエディター「Windsurf Editor」を手がけるAIスタートアップWindsurfは、Googleとライセンス契約を締結したと公式ブログで<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">発表</a>{target=“_blank”}した。同時に、ヴァルン・モハンCEO、共同創設者のドウグラス・チェン氏を含む一部の研究開発チームが、GoogleのAI研究機関DeepMindに移籍することも明らかにされた。複数の米メディアは、この契約総額が約24億ドル（約3,500億円）にのぼると報じている。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c.jpg" alt="windsurf blog next stage.jpg" />
+<p>2025年7月、イェール大学の学生チームが開発したスマートグラス「<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}」の一般販売が開始された。聴覚障がい者や難聴者を主な対象とし、周囲の発話をリアルタイムで字幕としてレンズ上に表示することができる。平均0.3秒という低遅延表示を実現し、日本語を含む10以上の言語への翻訳にも対応しているという。</p>
+<h2>会話を文字で「見る」──TranscribeGlassの概要</h2>
+<p>TranscribeGlassは、専用アプリをインストールしたスマートフォンのマイクで周囲の音声を取得し、それをクラウド経由で音声認識・処理した上で、メガネ型デバイスの右レンズに字幕として表示する構造となっている。表示はウェーブガイド方式を採用し、640×480ピクセルの解像度で文字を右視野30度以内に映し出す設計だという。</p>
+<p>表示までの遅延は平均0.3秒に抑えられ、音声認識精度は95％以上を謳っている。最大8時間稼働可能なバッテリーを内蔵し、重量は36〜38グラムに収められている。スマートグラス本体にはマイクやカメラは搭載されておらず、軽量性とプライバシーへの配慮を両立している点も特徴とされる。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fsmart_glass3_64b7665d4d%5Cu002Fsmart_glass3_64b7665d4d.jpg" alt="smart glass3.jpg" />
 :::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">Windsurf のblogより</a>{target=“_blank”}
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com%5Cu002F">TranscribeGlass</a>{target=“_blank”}
 :::</p>
-<h2>OpenAIとの買収交渉は期限切れで失効</h2>
-<p>事情に詳しい関係者によれば、OpenAIは2024年末からWindsurfの買収を協議していた。取引規模は約30億ドルと<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">報じられていた</a>{target=“_blank”}が、交渉は複雑化し、2025年7月10日の契約期限までに最終合意に至らなかった。背景には、OpenAIと主要出資元であるMicrosoftの関係や、GitHub Copilotとの競合調整が影響したとみられる。</p>
-<p>なお、Windsurfは独立性を重視するスタンスを維持していたことも、交渉の難航に一因があったとみられている。</p>
-<h2>Googleとの24億ドル契約、製品ライセンス供与が主眼</h2>
-<p>買収が成立しなかった一方で、WindsurfはGoogleと新たな契約を結んだ。同社公式ブログによると、この契約はWindsurfが保有するAIコード生成技術の一部をGoogleに「非独占的ライセンス」として供与する内容であり、株式取得や企業統合は含まれていない。</p>
-<p>Windsurfは今後も企業向けのAIコード編集ツールを独立して提供し続けると明言しており、既存顧客に対してはサポート体制を維持するとしている。</p>
-<h2>DeepMindが主要人材を吸収、Geminiの開発加速へ</h2>
-<p>契約の一環として、Windsurfの共同創業者ら主要メンバーがGoogle DeepMindに加わる。対象となるのはCEOのヴァルン・モハン氏、共同創設者ドウグラス・チェン氏のほか、研究開発チームの中核メンバーとされる。</p>
-<p>Google DeepMindのCEOであるデミス・ハサビス氏は、自身のX（旧Twitter）上で「彼らの参加に非常に興奮している」とコメントし、Geminiの“エージェンティック・コーディング”機能開発に注力すると明かしている。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb.jpg" alt="demis hassabis x about windsurf.jpg" />
+<h2>販売価格と利用形態</h2>
+<p>製品は<a href="https:%5Cu002F%5Cu002Fwww.transcribeglass.com">公式サイト</a>{target=“_blank”}で注文可能で、価格は本体が377ドル（約5万9,000円）、加えてクラウド音声認識機能を使用するための月額サブスクリプションが20ドル（約3,000円）となっている。2025年8月から出荷を予定しており、日本を含む国際配送にも対応するとのこと。</p>
+<p>なお、アプリは現在iOS版が提供されており、Android版も年内にリリースされる見込み。また、オフラインモードも搭載されているが、この場合は音声認識精度がやや低下するとされる。</p>
+<h2>想定利用シーンと対象ユーザー</h2>
+<p>TranscribeGlassは、聴覚障がい者や加齢性難聴者の会話支援を主な用途とし、特に教室、会議、劇場、飲食店など騒音下での対話の可視化に有効とされる。また、語学学習者や国際会議の参加者など、リアルタイム翻訳による情報取得が必要なユーザーにも活用が期待されている。</p>
+<p><strong>TranscribeGlassをプレゼントされ「あなたの言っていることが分かるわ！」と感激するユーザー</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAbout_smart_glass_a3840a78b4%5Cu002FAbout_smart_glass_a3840a78b4.jpg" alt="About smart glass.jpg" />
 :::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fdemishassabis%5Cu002Fstatus%5Cu002F1943794383536652309">Demis Hassabis氏のX（旧Twitter）アカウントより</a>{target=“_blank”}
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FTranscribeGlass%5Cu002Fstatus%5Cu002F1892681585809359068">TranscribeGlassのX（旧Twitter）アカウントより</a>{target=“_blank”}
 :::</p>
-<h2>Windsurf社内体制は新たな経営陣へ移行</h2>
-<p>人材移籍にともない、Windsurfでは経営体制の再編が行われた。新たにCOOのJeff Wang氏が暫定CEOに就任し、Graham Moreno氏が社長職を務める。今後は企業向け機能の強化や、新規パートナーシップの拡大に注力する方針を掲げている。</p>
-<h2>業界背景：コード支援AIを巡る競争が激化</h2>
-<p>AIを活用したコード補完・生成の分野では、GoogleのGemini、OpenAIのGPT-4o Turbo、MicrosoftのGitHub Copilot、MetaのCode Llamaなどが競合している。いずれも、ソフトウェア開発の生産性向上を狙いとした戦略的領域であり、優れたAI技術と人材の獲得が競争力の源泉となっている。</p>
-<p>今回のWindsurfとのライセンス契約と人材移籍は、Googleがこの領域での優位性をさらに高める布石と捉えられている。</p>
+<h2>開発背景と開発チーム</h2>
+<p>この製品は、イェール大学の学生である<a href="https:%5Cu002F%5Cu002Fyaledailynews.com%5Cu002Fblog%5Cu002F2025%5Cu002F02%5Cu002F18%5Cu002Fyale-student-founds-transcribeglass-a-live-text-to-speech-transcription-device%5Cu002F">マダヴ・ラヴァカレ氏</a>{target=“_blank”}が中心となって開発された。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fglasses_ag_Transcribe_Glass_scaled_bc37a50cad%5Cu002Fglasses_ag_Transcribe_Glass_scaled_bc37a50cad.jpeg" alt="glasses_ag_TranscribeGlass-scaled.jpeg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fyaledailynews.com%5Cu002Fblog%5Cu002F2025%5Cu002F02%5Cu002F18%5Cu002Fyale-student-founds-transcribeglass-a-live-text-to-speech-transcription-device%5Cu002F">マダブ・ラヴァカレ氏提供</a>{target=“_blank”}
+:::
+きっかけは、聴覚障がいを持つ友人が講義中の内容を十分に理解できない状況を目の当たりにしたことだったという。2018年から7年をかけて7代にわたるプロトタイプを開発し、2024年にはCTOとしてニルバイ・ナラン氏が参画。Y Combinatorなどからの資金調達を経て、今回の一般販売に至った。</p>
+<p>これまでベータ版は500人以上に試用され、フィードバックをもとに改良が重ねられてきたという。</p>
+<h2>競合との差別化と今後の展開</h2>
+<p>他のスマートグラス製品と異なり、TranscribeGlassは通話・音楽再生・撮影などの多機能化を避け、字幕精度と軽量性に特化している点が特徴だ。価格設定もMeta×Ray-BanやXRAI Glassなどに比べて抑えられており、バッテリー持続時間の長さも差別化ポイントとなっている。</p>
+<p>将来的には、リアルタイムでの感情解析を字幕に反映する機能や、ASL（アメリカ手話）向けに語順を変換する表示機能の搭載が計画されているという。</p>
+<p>TranscribeGlassは、視覚的な情報支援により、耳で聞けない会話を「読む」体験へと変えることで、新たなコミュニケーションの可能性を提供しようとしている。</p>
 <p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">関連記事：OpenAIがWindsurfを約4300億円で買収合意か──ChatGPT開発者の拡大戦略</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_android_xr_gemini_smartglasses_reveal">関連記事：Google、Android XRとGeminiを統合したスマートグラス試作機を公開</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphabet_earnings_q3_2024">関連記事：Googleの新規コードの25%以上がAI生成—ピチャイCEOが明かすAIによる開発革新</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fbrilliant_labs_frame">関連記事：元Apple社員ら設立のBrilliant Labsが新スマートグラス「Frame」を発表</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphaevolve_ai_algorithm_discovery">関連記事：Google DeepMind、新AIコーディングエージェント『AlphaEvolve』を発表　Geminiと連携しコード設計を自動化</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_rayban_collection">関連記事：「ヘイ Meta！」音声コマンドで通話・撮影　Ray-Ban×Metaの新スマートグラス</a>
 :::
 :::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgemini_2_5_io_edition_update">関連記事：Google、Gemini 2.5 Proの先行アップデート版「I\u002FO Edition」を公開—コード生成性能を大幅強化</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fkakaku_cursor_ai_engineering">関連記事：全エンジニア約500人にAIコードエディタ「Cursor」を導入—開発組織の生産性向上を狙う</a>
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgenesis_ai_starkeyjp">関連記事：AI補聴器「ジェネシス」発表──脳の聴覚機能を代替し毎時8000万回の音声解析</a>
 :::</p>
 ]]></description>
-      <pubDate>Mon, 14 Jul 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sat, 12 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AI Studioボットに“追い掛けメッセージ”訓練との内部文書流出──ユーザエンゲージメントをKPIとする方針はロヒンギャ訴訟の教訓をいかせるか？</title>
+      <link>https://ledge.ai/articles/meta_proactive_ai_chatbot_engagement</link>
+      <description><![CDATA[<p>:::small
+画像の出典：GPT-4oによりLedge.aiが生成
+:::</p>
+<p>Metaが開発中のAIチャットボットが、ユーザーに対して先にメッセージを送る機能を備えていることが、<a href="https:%5Cu002F%5Cu002Fwww.businessinsider.com%5Cu002Fmeta-ai-studio-chatbot-training-proactive-leaked-documents-alignerr-2025-7">Business Insider（BI）</a>{target=“_blank”}が入手した社内文書により2025年7月3日に明らかとなった。</p>
+<p>この新機能は、同社の生成AI基盤「AI Studio」を活用したチャットボットに対して、人間のユーザーへ“追い掛けメッセージ”を送るよう訓練するもので、ユーザーとのエンゲージメントおよび定着率の向上を目的としている。外部業務委託先Alignerrがこの訓練作業を担っているという。</p>
+<h2>流出文書が示した「Project Omni」とは</h2>
+<p>報道によると、流出した社内ガイドラインは「Project Omni」と呼ばれる社内プロジェクトに基づいており、AIチャットボットがユーザーへ積極的にメッセージを送る“プロアクティブ・メッセージング”の仕様が詳細に記されている。</p>
+<p>この機能は、InstagramやFacebook上のAIボットに搭載され、ユーザーが過去14日間に5回以上メッセージを送信していた場合に限り、ボット側からの発信が許可される。</p>
+<p>Metaの広報担当者はBIの取材に対し、「限定的なテストが進行中であり、ユーザーの体験向上を目指している」と認めているが、正式リリース時期や地域は未定としている。</p>
+<h2>“14日・5メッセージ”で発火──追い掛けAIの条件</h2>
+<p>同文書によれば、チャットボットの“発信許可”には複数の制限が設けられている。主な条件は以下の通りである：</p>
+<ul>
+<li>ユーザーが過去14日間に5回以上メッセージを送っている</li>
+<li>14日ごとに1回までメッセージを送信可能</li>
+<li>感情的またはセンシティブな話題（喪失、健康、宗教など）は、ボットからは言及しない</li>
+<li>教訓的・説教的な文言の使用は禁止（例：「ちゃんとしよう」「学ぶべきだ」）</li>
+</ul>
+<p>これらのルールは、過度なAIの関与によるユーザー離れや規制当局の監視を回避する狙いがあるとみられる。</p>
+<h2>AI Studio、次の稼ぎ頭になるか</h2>
+<p>Metaは2024年に「AI Studio」を<a href="https:%5Cu002F%5Cu002Fabout.fb.com%5Cu002Fnews%5Cu002F2024%5Cu002F07%5Cu002Fcreate-your-own-custom-ai-with-ai-studio%5Cu002F">公開</a>{target=“_blank”}し、ノーコードでAIボットを作成・展開できる開発基盤として、インフルエンサーや中小ビジネスの利用を促進してきた。これらのチャットボットはFacebookやInstagram内で展開され、一定のブランド価値や収益を提供することが期待されている。</p>
+<p>Metaの試算では、同社の生成AI事業が2025年に20〜30億ドル規模の収益を生む可能性があるという（Business Insider報道による）。一方、同様の分野に取り組む他社、たとえばCharacter.AIなどは高いトラフィックを獲得しながらも収益化に苦戦しており、業界全体として持続可能なビジネスモデルの確立が課題となっている。</p>
+<h2>「エンゲージメント優先」の影とロヒンギャ訴訟</h2>
+<p>Metaによる“ユーザーの関心を維持する”という戦略は、過去にも大きな社会的波紋を呼んできた。2021年、同社（当時Facebook）は、ミャンマーにおける<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Farticle%5Cu002Fworld%5Cu002F1500-idUSKBN2IM0LP%5Cu002F">ロヒンギャ難民迫害</a>{target=“_blank”}の文脈で、暴力的コンテンツの拡散を制限しなかったとして、米国で1500億ドル規模の集団訴訟を提起された。</p>
+<p>訴訟では、「ユーザーのエンゲージメントを最優先し、扇動的投稿をアルゴリズムが優遇した」との主張がなされていた。</p>
+<h2>商用展開へ残る課題と規制の視線</h2>
+<p>現在のプロアクティブ機能はテスト段階にとどまり、今後、AI Studio利用者など限定的なパートナーを対象に段階的に展開される見通しだという。ただし、EUや米国でAIに対する行動規制や倫理基準が議論される中、こうした能動的機能が消費者保護やプライバシーの観点で問題視される可能性もある。</p>
+<p>AIチャットボットが今後、広告やECとの連携を通じた“対話型マーケティング”にシフトしていく中で、Metaのアプローチが規制や社会的合意とどう整合性を取るかが問われる局面に入っている。ユーザーとの“距離の取り方”が、収益モデルの設計と同じく、今後の焦点となる。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_ai_charactor">関連記事：大坂なおみやパリス・ヒルトンが AIキャラに　Meta開発者会議で新 ...</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_to_train_ai_models_on_user_content_in_europe">関連記事：Meta、欧州SNSユーザー投稿をAI学習に使用へ――規約改定と反発の行方</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_llama_api_developer_preview">関連記事：Meta、開発者向けAI製品プラットフォーム「Llama API」を限定公開</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_chatbot_dependency_youth_safety_lawsuit">関連記事：AIチャットボットに依存した14歳の息子が自殺、フロリダ州で母親が提訴</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_persona">関連記事：Metaも「人格」持つ AI導入か　歴史上の人物など再現し会話サービス計画</a>
+:::</p>
+]]></description>
+      <pubDate>Sat, 12 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title>
+      <link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link>
+      <description><![CDATA[<p>:::small
+画像の出典：GPT-4oによりLedge.aiが生成
+:::</p>
+<p>2025年6月7日、中国・中関村アカデミーを中心とする研究グループは、大規模言語モデル（LLM）を活用した大規模エージェントベース社会シミュレーションシステム「Light Society」を<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">発表</a>{target=“_blank”}した。この研究は、arXivに公開された論文「Modeling Earth-Scale Human-Like Societies with One Billion Agents」にて報告されており、最大10億人規模の人口行動をリアルタイムで再現可能な初のシステムとされる。</p>
+<p><strong>Light Societyの構成概念図</strong>：各エージェントは記憶・感情・社会関係といった内部状態を持ち、環境とイベントの変化に応じてLLMによる動的判断を行う。プロンプトのキャッシュ処理や軽量モデルの併用により、10億体同時シミュレーションを実現。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a.jpg" alt="Agent-based social simulation framework powered by LLMs.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">Modeling Earth-Scale Human-Like Societies with One Billion Agents</a>{target=“_blank”}
+:::</p>
+<h2>人間社会の複雑性を模倣する「仮想地球」</h2>
+<p>Light Societyは、これまで数万人から数百万人規模にとどまっていたエージェントベースモデル（ABM）を大幅に拡張し、10億体ものAIエージェントを用いて社会行動を同時に模擬する。これにより、デマの伝播、社会規範の形成、信頼行動、大衆心理などの集団的社会現象を、地球規模で検証可能となる。</p>
+<p>社会シミュレーションの構成は以下の通りだ：</p>
+<ul>
+<li>エージェントの内外状態（記憶・感情・位置など）と環境状態（天候・地形など）を分離管理</li>
+<li>イベント駆動による非同期型実行エンジンを採用し、処理を並列化</li>
+<li>同型プロンプトを自動キャッシュし、LLM推論負荷を最適化</li>
+<li>軽量モデルとLLMを動的に組み合わせる「Mixture-of-Models」設計を採用</li>
+</ul>
+<p>この構成により、10億体のエージェントに対し、同時並行かつ意味ある社会行動を付与する処理の実現が可能となったという。</p>
+<h2>LLMが支える「社会実験室」──信頼ゲームによる検証</h2>
+<p>研究チームは、WVS（World Values Survey）から抽出した実データ（年齢・教育・社会階層など）をもとに、仮想社会に信頼行動を持たせた「トラストゲーム」を設計した。エージェント同士が金銭を授受するプロセスを通じて、文化圏や階層による信頼傾向の違いが可視化された。</p>
+<p><strong>信頼ゲームの検証結果</strong> ：WVS（世界価値観調査）の実データをベースに構築された仮想エージェントが送金と返金の判断を行い、社会階層・教育レベル・国別傾向に応じた行動差が可視化されている。右下にはエージェント規模の増加による行動安定化の傾向も確認できる。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTrust_game_simulation_93eeb0f14f%5Cu002FTrust_game_simulation_93eeb0f14f.jpg" alt="Trust game simulation..jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">Modeling Earth-Scale Human-Like Societies with One Billion Agents</a>{target=“_blank”}
+:::</p>
+<ul>
+<li>社会階層が高いエージェントほど送金額と返金率が高い傾向</li>
+<li>教育水準に比例して信頼行動が強化される傾向</li>
+<li>実社会調査結果との整合性が確認され、モデルの妥当性を裏付けた</li>
+</ul>
+<p>特に注目すべきは、シミュレーション対象の人口規模を拡大するほど、全体的な行動のばらつきが減少し、結果が安定化する「スケーリング則」の存在である。これは、実社会の構造的安定性に近づく兆候とされている。</p>
+<h2>想定される応用──“人類規模のA\u002FBテスト”へ</h2>
+<p>Light Societyは今後、以下のような領域での応用が期待されている。</p>
+<ul>
+<li>パンデミック対策シナリオの政策効果予測</li>
+<li>SNSにおける誤情報拡散の構造解明</li>
+<li>カーボンニュートラルに向けた生活スタイル介入の影響評価</li>
+<li>経済危機時の所得再分配政策シミュレーション</li>
+</ul>
+<p>従来は現実世界での検証が困難だった「もしも」の社会実験が、仮想空間内で安全かつ効率的に実施可能になる。</p>
+<h2>今後の課題と展望</h2>
+<p>研究チームは今後、以下の機能強化を検討していると述べている：</p>
+<ul>
+<li>長期記憶を持つエージェント設計</li>
+<li>ニュースデータやSNS投稿といったリアルタイムデータとの融合</li>
+<li>モデル出力の透明性・説明可能性の向上</li>
+<li>社会シミュレーションにおける倫理的基準とプライバシー保護指針の策定</li>
+</ul>
+<p>研究チームは本システムの意義について、「地球規模のエージェントベース社会シミュレーションは、従来の社会科学や公共政策の限界を補完する新たな手段となりうる」と述べている。また、今後の展望として、「大規模な仮想社会モデルを用いて、情報伝播、制度設計、災害対応といった分野における実践的な“社会的テストベッド”を構築していく」との方針も示している。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_agents_evolve_courtroom_simulations">関連記事：AIエージェントが法廷シミュレーションを進化させる：AgentCourtの登場</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fminecraft_ai_agent_simulation_project_sid">関連記事：マインクラフト内で最大1000体のAIエージェントが自律的に共同生活。文明形成を観察する実験「Project Sid」の成果と課題</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Femergent_language_evolution_llms">関連記事：LLM同士が作り上げる“人工言語”の進化とは？――大規模言語モデルを使った言語誕生シミュレーションの新研究</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fexperience_ai_beyond_llm">関連記事：AIは『経験で学ぶ』新時代へ──DeepMindが掲げる “Experience AI” がLLMの限界を超える</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_deepmind_devils_adovocate">関連記事：内省メカニズムで進化するLLMエージェント「悪魔の代弁者」 GoogleDeepMindなどの研究チームが発表</a>
+:::</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、対話型AI搭載のWebブラウザを数週間以内に発表か</title>
+      <link>https://ledge.ai/articles/openai_ai_browser_launch_reported_by_reuters</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002F%E6%9C%BA%E3%81%AE%E4%B8%8A%E3%81%AE%E3%83%A9%E3%83%83%E3%83%97%E3%83%88%E3%83%83%E3%83%97%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%83%E3%83%97-rv2ooDQuNuI">Zac Wolff@Unsplash</a>{target=“_blank”}
+:::</p>
+<p>OpenAIは数週間以内にAIを搭載した独自のWebブラウザを発表する見通しであると<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Feconomy%5Cu002Findustry%5Cu002FSJY3A2CG2RPM7KT6MKLMQPQTWA-2025-07-10%5Cu002F">ロイター</a>{target=“_blank”}が2025年7月10日に報じた。報道によれば、新ブラウザは、検索結果をリスト形式で提示する従来型検索とは異なり、ChatGPTのような対話形式で回答を提示する設計になるとされる。</p>
+<h2>ChatGPT的UIとAIエージェントを組み込んだブラウザ</h2>
+<p>OpenAIの新ブラウザは以下の特徴を備えるという：</p>
+<ul>
+<li>検索キーワードに対して対話形式で結果を提示し、Webページを直接開かずとも必要な情報が得られる</li>
+<li>OpenAIのエージェント技術「Operator」と連携し、ウェブ上のフォーム入力や予約、購入といった作業を自動で処理できる</li>
+<li>ユーザーの操作を最小限に抑えた「チャット主導型ブラウジング」体験を志向している</li>
+</ul>
+<p>報道では、これらの機能によって、ユーザーは検索エンジンやリンクを複数クリックする手間なく目的を達成できる可能性があるとされている。</p>
+<h2>背景にある戦略的狙い</h2>
+<p>OpenAIはこれまでMicrosoftのBingと連携して検索機能を提供してきたが、独自ブラウザを展開することでユーザーデータへのアクセスを強化し、広告収益源をGoogleに依存せずに確保する狙いがあるという。現在、Google Chromeは世界のブラウザ市場で約60％のシェアを持ち、検索連動型広告によって収益を拡大している。</p>
+<p>一方でOpenAIは、週5億人規模のユーザーを抱えるChatGPTを活用し、検索から情報取得までを同社のエコシステム内で完結させようとしている。</p>
+<h2>検索技術への投資と布石</h2>
+<p>ロイターが指摘するように、OpenAIはこの1年、検索・ブラウジング関連の技術開発を継続している。</p>
+<ul>
+<li>「Product Manager, Search」などの職種で求人を出し、検索関連技術への投資を進めてきた</li>
+<li>2024年4月には、AIエージェントのウェブ検索能力を評価するためのベンチマーク「BrowseComp」を発表</li>
+<li>ChatGPTには「Browse with Bing」機能や、外部リンク先の要約を行う機能などをすでに実装している</li>
+</ul>
+<p>こうした動きが、今回の独自ブラウザ発表につながっていると見られている。</p>
+<h2>今後の展望</h2>
+<p>ロイターの取材に対し、OpenAIおよび競合企業であるアルファベット（Google）はコメントを控えているという。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_operator_browser_agent_release">関連記事：OpenAI、ブラウザを直接操作するAIエージェント「Operator」を発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_operator_deep_research_expansion">関連記事：OpenAI、AIエージェント「Operator」をProユーザーに提供開始──Deep Research拡張を正式ローンチ</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_responses_api_agents_sdk">関連記事：OpenAI、新API「Responses API」と「Agents SDK」を発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fapple_ai_search_safari_google_contract_shift">関連記事：AppleがSafariに生成AI検索エンジン導入を検討──Googleとの契約見直し報道</a>
+:::</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 09:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stability AI、AIポルノ生成を全面禁止へ──7月31日から利用規約改定、Stable Diffusion・API・OSSを含む全サービスで性的コンテンツを遮断</title>
+      <link>https://ledge.ai/articles/stability_ai_policy_update_nsfw_ban</link>
+      <description><![CDATA[<p>:::small
+画像の出典：GPT-4oによりLedge.aiが生成
+:::</p>
+<p>ロンドンを拠点とする生成AI企業Stability AIは、2025年7月31日付で同社サービスの利用規約（Acceptable Use Policy, AUP）を<a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fuse-policy">改定</a>{target=“_blank”}し、Stable Diffusionをはじめとする自社製AIモデル・API・オープンソースコードにおいて、性行為に関連するコンテンツの生成・使用を一律禁止する。</p>
+<p>営利・非営利の区別なく適用されるこの新方針は、AIコンテンツの安全性と倫理性を確保する目的で導入されるという。</p>
+<h2>性的コンテンツの生成・共有を包括的に禁止</h2>
+<p><a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fuse-policy">新たな利用規約</a>{target=“_blank”}では、「We Prohibit Sexually Explicit Content」の項が新設され、以下の内容が禁止事項として明記された。</p>
+<ul>
+<li>性行為、性的行為、性的暴力を含むあらゆるコンテンツの生成・共有</li>
+<li>非合意の親密画像（NCII: Non-Consensual Intimate Imagery）</li>
+<li>違法ポルノや児童搾取コンテンツ</li>
+</ul>
+<p>これらの規定は、DreamStudio、Stable Diffusion（あらゆるチェックポイントや自己ホスト版）、Stable Video、Stable Audio、Platform API、LoRA（Low-Rank Adaptation）共有機能、さらにGitHubなどで配布されるオープンソースコードを含むすべてのサービスに適用される。</p>
+<p>規約違反が判明した場合、Stability AIは利用停止や契約解除などの措置を取ると定めている。また、18歳未満の利用も引き続き禁止される。</p>
+<h2>従来規約との大きな違い</h2>
+<p>この改定は、2024年3月1日版の旧AUPと比較して大幅な変更となる。
+<a href="https:%5Cu002F%5Cu002Fstability.ai%5Cu002Fprior-aup">従来の規約</a>{target=“_blank”}では、禁止対象は「非合意ヌード」「違法ポルノ」「児童搾取コンテンツ」などに限定されており、合意の成人同士によるポルノ的表現については明確な禁止はなかった。</p>
+<p>新AUPでは、「性行為そのもの」に関わるコンテンツすべてを対象とすることで、生成物の内容に関わらず包括的な制限を設けている。</p>
+<h2>デベロッパーとユーザーへの影響</h2>
+<p>新規約の対象範囲には、以下のような商用・非商用ツールや資源が含まれる。</p>
+<ul>
+<li>公式Webアプリ「DreamStudio」</li>
+<li>Stable Diffusion（オープンモデル、自己ホスト含む）</li>
+<li>音声・映像生成ツール（Stable Audio／Stable Video）</li>
+<li>各種APIアクセス、LoRAモデル共有、オープンソースコードの再利用</li>
+</ul>
+<p>営利・非営利の区別はなく、個人利用や趣味での創作であっても規約違反となる。既存のモデルやワークフローで対象となるコンテンツを扱っている開発者や企業は、今後の運用方針の見直しが必要となる。</p>
+<h2>背景：AIポルノをめぐる規制の強化</h2>
+<p>今回の規約改定は、AI技術を悪用した性的コンテンツの氾濫に対処する国際的な動きの一環と見られる。特にディープフェイク技術による著名人の偽ポルノ動画や、非合意の画像生成が社会問題化する中で、生成AIモデル各社はNSFW（Not Safe For Work）フィルタの強化やアダルトコンテンツの禁止に取り組んでいる。</p>
+<p>Stability AIはオープンウエイトの提供で知られる企業のひとつであり、同社による包括的な制限の導入は、オープンモデル領域における規制の方向性に大きな影響を与える可能性がある。</p>
+<h2>今後のスケジュールと対応</h2>
+<p>新規約は2025年7月31日より施行される。以降は新規・既存ユーザーともに順守が義務づけられ、違反が確認された場合にはアクセスの遮断やアカウントの停止措置が取られる見通しだ。</p>
+<p>同社は今後、利用者向けのFAQやガイドラインの公開も予定しており、具体的な基準や判断基準についての詳細は順次明らかにされるとみられる。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdenmark_ai_deepfake_copyright_law">関連記事：デンマーク政府、ディープフェイク規制に向け著作権法改正へ</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdeep_fake_images">関連記事：AIでクラスメイトのディープフェイクポルノを生成　スペインで15人の生徒に保護観察処分</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmicrosoft_protecting_the_public_from_abusive_ai_generated_content">関連記事：Microsoft、AI生成ディープフェイク詐欺の防止を目指す包括的法規制を提言</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faustralia_ai_regulation">関連記事：オーストラリア政府がAI規制への取り組みを発表、ディープフェイク対策を強化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_generated_images_snapchat_police_sting_operation">関連記事：ニューメキシコ州、Snapchatを提訴――AI生成の少女画像を使用したおとり捜査で性犯罪者を摘発</a>
+:::</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MIXI、全社員2,000人に生成AI構築プラットフォーム「Google Agentspace」導入──情報統合と業務自動化で“創造の時間”を拡大へ</title>
+      <link>https://ledge.ai/articles/mixi_ai_agentspace_deployment</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">株式会社MIXI</a>{target=“_blank”}
+:::</p>
+<p>MIXIは2025年7月7日、Google Cloudが提供するエンタープライズ向け生成AIプラットフォーム「Google Agentspace」を、全従業員約2,000人に導入したことを<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">発表</a>{target=“_blank”}した。</p>
+<p>導入の目的は、社内に点在する情報資産の統合と、業務プロセスの自動化により、社員が創造的な業務に集中できる環境を構築することだという。同プラットフォームは、Googleの生成AI「Gemini」および検索技術を活用し、社内文書・メール・画像・動画などを横断的に検索・要約できる。</p>
+<h2>社内検証を経て全社展開へ</h2>
+<p>同社は2025年3月より一部社員を対象にGoogle Agentspaceの試験導入を行い、Google Cloudの支援のもとでエージェント設計と業務適用の検証を進めてきた。その結果、ナレッジベースの統合による業務効率化と検索性向上が確認されたことから、全社員への展開を決定したという。</p>
+<p>対象はMIXIのドメインを持つ全正社員、契約社員、アルバイト、派遣社員、業務委託社員におよび、約2,000人が利用可能となる。</p>
+<h2>Google Agentspaceの機能と役割</h2>
+<p>Google Agentspaceは、企業データを基盤に生成AIエージェントを構築できるプラットフォームであり、次のような機能が提供されている：</p>
+<ul>
+<li><strong>統合検索</strong> ：ドキュメント、スプレッドシート、メール、画像、動画など社内外のファイルを横断的に検索し、根拠付きで回答を生成。</li>
+<li><strong>業務自動化</strong> ：日報や企画書の作成、議事録の要約などをAIが支援。</li>
+<li><strong>ローコード開発</strong> ：従業員がノーコード・ローコードで独自のAIエージェントを作成・共有可能。</li>
+<li><strong>情報資産の可視化</strong> ：ナレッジの属人化を防ぎ、再利用性の高い知見を全社的に蓄積。</li>
+</ul>
+<p>MIXIは、このような機能を活用することで、従来業務にかかっていた検索や確認の手間を削減し、社員がより価値の高い業務に集中できる体制を整えると説明している。</p>
+<h2>今後の活用と展望</h2>
+<p>今後はGoogle Cloudとの協力体制のもと、社内向けの教育・研修プログラムを通じて、全社員のAIリテラシーを底上げするとともに、業務部門ごとに最適化されたエージェントの活用を推進する。また、生成AIの利活用によって、同社が手がける新たなサービスやユーザー体験の創出にもつなげていく方針だ。</p>
+<p>同社代表取締役社長の木村弘毅氏は、リリース内で以下のように述べている。
+「情報を探す時間や煩雑なやり取りを削減し、思考の質を高めたい。AI導入は効率化の手段だけでなく創造性への投資だ」</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fsapporo_ai_stick_dx">関連記事：サッポロHD、全社員向けに生成AI「SAPPORO AI-Stick」を導入——業務効率化とDX推進を加速</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fpanasonic_connect_genai_reduced_working_hours_by_186000h">関連記事：生成AI導入1年「労働時間を18.6万時間削減」パナソニックコネクト</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_cloud_ai_leader_certification_launch">関連記事：Google Cloud、非エンジニア層向けに生成AI認定資格「Generative AI Leader」を発表――生成AI導入を主導できる人材を後押し</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_tpu_ironwood_agent2agent">関連記事：Google、推論特化TPU「Ironwood」とAIエージェント連携プロトコル「A2A」を発表──Cloud Next 2025でAIインフラの進化を示す</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_sheets_gemini_cell_integration">関連記事：GoogleスプレッドシートにGeminiが常駐で「セルレベルAI」に</a>
+:::</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>郊外巨大施設から都市型も可能な”装置”にフォーカスが変化する日本のAIデータセンター戦略</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-kamui</link>
+      <description><![CDATA[<p>:::box
+国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
+本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
+:::</p>
+<p>AIの進化により、日本国内のデータセンター市場が急拡大する中で、冷却技術や分散型演算インフラのあり方が改めて問われている。本稿では、QuantumMesh株式会社 代表取締役 篠原裕幸氏に、国内データセンター市場の現状と課題、そして同社が展開するAIデータセンター向け液浸冷却システム『KAMUI（カムイ）』の可能性について、話を聞いた。</p>
+<p>:::box
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FKAMUI_2_d65d4aa575%5Cu002FKAMUI_2_d65d4aa575.png" alt="KAMUI2.png" />
+<strong>Quantum Mesh株式会社 代表取締役</strong>
+<strong>篠原 裕幸</strong>
+幼少期から通信技術やコンピューターに慣れ親しみ、シリコンバレーでのムーブメントに感銘を受ける。中学生時代に訪れたアメリカ西海岸でテクノロジーによる社会変革を体験し、帰国後はソフトウェア開発に没頭。学生時代に開発したインターネットサービスをきっかけに起業する。以降、日本、シンガポール、台湾、アメリカと拠点を移しながら、半導体開発やデータセンター開発をはじめとするスタートアップに注力。ビットコインの登場以降は、非中央集権社会を実現するテクノロジーに可能性を見出し、暗号技術によるデータ保護を社会実装するためのブロックチェーン研究開発事業を手がける。
+2022年、2016年にアメリカで設立したデジタル金融事業会社を発展させる形で Harmony （株）を創業すると同時に、安田と共に民間のシンクタンク 8M Labs を設立。
+2023年、世界規模の生成AI台頭に伴い、情報を守るためのインフラ開発を喫緊の課題としたQuantum Mesh社を設立。半導体開発事業やデータセンター開発事業の集大成となる「可搬型データセンター」の開発・運営を行う。誰もが等しく超高度情報化社会の利益を享受できる「情報格差のない社会」の構築を目指している。
+:::</p>
+<h2>計算能力が資源となる時代へ</h2>
+<p>AIの進化がもたらす構造変化の中、日本のデータセンター市場が新たな転換期を迎えている。篠原氏は「生成AIの普及は、インターネット黎明期以来の、構造変化を引き起こしている」と語り、計算能力資源が国家や企業の競争力に直結する価値を持ち始めていることを強調した。その一方で、日本国内のデータセンターインフラには、土地・電力といった供給面の制約が立ちはだかっている。特に首都圏では、用地不足や電力制限に加え、制度面での課題も複雑に絡んでいる。篠原氏は「地方分散は望ましい流れであるが、従来のデータセンターと同じものではなく再設計が必要」と話し、地方の再生可能エネルギーや広大な土地、自然冷却といったポテンシャルを生かすには、それらを総合的に設計するシステムアーキテクトの存在が不可欠だと指摘した。</p>
+<p>また、冷却技術への注目も高まっている。篠原氏が「冷却そのものが“主要機能”へと格上げされつつある。今後は冷却性能がクラウドの性能そのものを左右する時代になる」と語るように、これまでは裏方技術として捉えられていた冷却技術は、現在その地位は大きく変わりつつある。</p>
+<h2>KAMUIが実現する“場所を選ばない冷却”</h2>
+<p>このような状況下で開発されたのが、同社が提供する閉鎖循環型・液浸冷却システム『KAMUI』である。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FKAMUI_82e6f50800%5Cu002FKAMUI_82e6f50800.png" alt="KAMUI3.png" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.youtube.com%5Cu002Fwatch?v=yjAbyP_cchI&amp;t=931s">ENJIN YouTubeチャンネル「ENJIN LAUNCH PARTY DIGEST」</a>{target=“_blank”}
+:::</p>
+<p>KAMUIは絶縁オイルを密閉して循環させる設計を採用し冷却水（地下水など）との熱交換によってオイルの温度を保つことでサーバを冷却する。外気温や粉塵など外部環境の影響を受けにくい安定した動作を実現し、静音で稼働する。日本やアジア地域などに豊富に存在する地下水を活用する“場所を選ばない冷却”を実現する装置であり、実運用においてもPUE（Power Usage Effectiveness）1.03～1.04という高効率を維持している。</p>
+<p>:::box
+<strong>PUEとは?</strong>
+PUEとは、データセンター等IT関連施設におけるエネルギー効率を測定する指標の一つ。PUEが1.0に近いほど、投入された電力のほとんどがIT危機に使われていることを意味し、ロスが少なく、効率的な施設と評価できる。
+:::</p>
+<p>KAMUIが真価を発揮するのは、都市部の狭小スペースや電力制約のある環境だけでなく、騒音や環境負荷が問題となりやすい地方都市での場所での利用にも適している。篠原氏は「KAMUIは、都市部や地方の小規模拠点、物流倉庫の一角などにおいて自律した冷却システムとして機能する」と述べた。</p>
+<h2>スマートシティとの親和性</h2>
+<p>KAMUIのこのような特性は、スマートシティの文脈でも大きな可能性を示す。スマートシティでは、セキュリティ・交通・医療などの様々な都市機能がリアルタイムに連携する必要があり、数秒の遅れが重大な判断ミスやシステム効率の低下を招きかねない。そのため、従来のクラウド集中型アーキテクチャでは対応しきれない場面もある。篠原氏は「スマートシティの根幹は“遅延のない意思決定”にある。KAMUIは都市内に『計算の拠点』を分散配置することを可能にする」と述べ、KAMUIが冷却と演算の一体設計によって都市内クラウドの実現を支える存在であることを示した。</p>
+<p>実際、KAMUIは様々な業種・業態での実装が検討されている。「KAMUI×病院」では画像診断AIとの連携、「KAMUI×駅」では顔認証や群衆制御アルゴリズムとの連携といったシナリオが進められており、いずれもリアルタイム処理が求められる。KAMUIの分散型処理は、プライバシー保護の観点からも重要な選択肢となる。</p>
+<p>また、地方自治体との協働も進行中であり、防災拠点や医療機関を対象に、KAMUIを中核とした「オフグリッド型ノード」の実証実験が始まっている。再生可能エネルギー発電所では、余剰電力を価値化する演算拠点としての導入も具体化されており、地域における新たな経済循環の担い手としても期待されている。</p>
+<p>さらにKAMUIは、同社が発起人となっている“ENJINプロジェクト”とも連携している。ENJINプロジェクトは、産業が急速に変化するAIoT時代において、社会課題の解決と持続的な成長を見据え、民間企業や専門家が集結して構成されたプロジェクトだ。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fenjin_a2feb117d1%5Cu002Fenjin_a2feb117d1.png" alt="KAMUI4.png" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fenjin.live%5Cu002F">ENJIN公式サイト</a>{target=“_blank”}
+:::</p>
+<p>このプロジェクトが掲げる『AIoTサプライチェーン構想』のなかで、KAMUIは演算拠点の冷却およびエネルギー効率を実現する基盤装置として位置づけられている。鉄道事業者との取り組みでは、駅構内の余剰電力やスペースを活用し、都市インフラの一部としてエッジ演算ノードを導入する計画が進められている。</p>
+<h2>未来の都市インフラに向けて</h2>
+<p>篠原氏は、液浸冷却の将来について「もはや選択肢の一つではなく、計算密度という物理条件に対する合理的な解である」と述べた。データセンターが従来の「施設」ではなく、「装置」として再定義される未来が見えつつあるが、その実現には、演算拠点の多極分散と地域電力の地産地消がカギを握る。「既に再生可能エネルギー発電事業者や地方都市自治体との協働により、このようなモジュール型演算インフラの導入が進行している」と篠原氏は語り、KAMUIが冷却装置の枠を超え、AIoT時代の基盤インフラとして認知される日が近づいていることを示唆した。</p>
+<p>冒頭でも触れたように、AIの進化が引き起こした計算需要に対し、日本のデータセンターは、分散化とエネルギー効率の両輪で再設計が必要な局面に立っている。地域ごとの制約を解消し、都市の隅々までにリアルタイムな計算能力を行き渡らせるためには、これまでの巨大施設としてのデータセンター像を見直す必要がある。</p>
+<p>日本全体を俯瞰したとき、KAMUIが描く構想は、エネルギーと演算、そして都市機能を結びつける“次世代都市の神経網”を担う可能性を大いに秘めている。都市インフラをより高速かつ持続可能なものへと転換する取り組みは、静かに動き始めている。</p>
+<p>:::box
+特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
+:::</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成AI「個人利用」26.7%に上昇──それでも米中との差は歴然【総務省・情報通信白書】</title>
+      <link>https://ledge.ai/articles/generative_ai_personal_use_japan_2025</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Finfografic.html">情報通信白書令和7年版 インフォグラフィックより</a>{target=“_blank”}
+:::</p>
+<p>総務省は2025年7月8日、「<a href="%5B%E7%99%BA%E8%A1%A8%5D(https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fr07.html)%7Btarget=%E2%80%9C_blank%E2%80%9D%7D">情報通信白書令和7年版</a>」を公表し、国内における生成AIの個人利用率が26.7%にとどまっているとの調査結果を示した。これは米国（68.8%）や中国（81.2%）と比べて大きく差がある。調査は2024年度にインターネット上で6,000人を対象に実施されたもので、生成AIの国内普及の現状と課題を浮き彫りにしている。</p>
+<h2>世界との利用率比較、日本は依然低水準</h2>
+<p>白書によれば、生成AIサービスを「使ったことがある」と回答した個人は日本で26.7%。これは前年（2023年度）の9.1%から約3倍に増加したものの、国際的に見ると依然として低い水準である。</p>
+<p>同調査における他国の利用率は、米国が68.8%、ドイツが59.2%、中国が81.2%。いずれも日本を大きく上回っており、対象4カ国の中で日本が最も低い。年代別に見ると、日本国内では20代の利用率が44.7%と最も高く、30代が23.8%、40代が29.6%、50代が19.9%、60代が15.5%と、年齢が上がるにつれて利用率が下がる傾向が明確に現れている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho_aa33bea58a%5Cu002F2025hakusho_aa33bea58a.jpg" alt="2025hakusho.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
+:::</p>
+<h2>利用しない理由：「必要性を感じない」が最多</h2>
+<p>生成AIを使っていない人にその理由を尋ねた結果、最も多かったのは「自分の生活や業務に必要ない」で40.4%、次いで「魅力的なサービスがない」（38.6%）、「使い方がわからない」（18.3%）が続いた。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho2_e78137159b%5Cu002F2025hakusho2_e78137159b.jpg" alt="2025hakusho2.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
+:::</p>
+<p>この結果について白書は、生活や業務への活用方法が十分に理解されていない現状を示すとともに、ユーザーの実利感の欠如が普及の壁となっている可能性を示唆している。</p>
+<p>一方で、生成AIの利用意向に関する設問では、「調べものをする」（40.8%）、「コンテンツの要約・翻訳をする」（38.6%）、「画像や動画を生成する」（35.9%）など、「今は使っていないが、ぜひ利用してみたい」または「条件によっては利用したい」と回答した割合が4割前後に達する項目も多い。</p>
+<p>すでに利用している割合は各項目とも10%未満にとどまるが、サービスの充実や操作性の改善によって利用が拡大する余地があることがうかがえる。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2025hakusho3_aa43775f27%5Cu002F2025hakusho3_aa43775f27.jpg" alt="2025hakusho3.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.soumu.go.jp%5Cu002Fjohotsusintokei%5Cu002Fwhitepaper%5Cu002Fja%5Cu002Fr07%5Cu002Fpdf%5Cu002Findex.html">情報通信白書令和7年版より</a>{target=“_blank”}
+:::</p>
+<h2>政策的対応と今後の展望</h2>
+<p>総務省は白書の中で、生成AIの健全な利活用に向けて、以下の3点を政策課題として挙げている。</p>
+<ul>
+<li>利用者リテラシーの向上</li>
+<li>民間事業者によるガイドライン整備の促進</li>
+<li>教育・人材育成を含む体制の強化</li>
+</ul>
+<p>また、デジタル庁や内閣官房AI戦略チームなどと連携しながら、産業界・教育機関・自治体を横断する形で活用促進とリスク管理を両立させる必要性も強調されている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmic_2024_white_paper_on_Information_and_communications">関連記事：総務省 2024年版「情報通信白書」より、生成AI利活用の現状と潜在的な可能性が明らかに</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_usage_us_nationwide_survey_2024">関連記事：米国における初の全国的な調査で生成AIの利用状況が明らかに</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Ffreelance_generative_ai_usage">関連記事：フリーランスの生成AI活用率はわずか14.3％、情報漏洩や学習機会不足が主な障壁にー2024年実態調査</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmiddle_school_students_ai_usage_growth">関連記事：中学生の生成AI利用率が親を上回る—NTTドコモ モバイル社会研究所の調査結果</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fcorporate_ai_utilization_trends_2025">関連記事：日本企業の45%が生成AIを導入、ランサムウェア感染経験は48%</a>
+:::</p>
+]]></description>
+      <pubDate>Thu, 10 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本オラクル、AIとソブリンクラウド運用を支援する「ジャパン・オペレーション・センター」開設</title>
+      <link>https://ledge.ai/articles/oracle_japan_ai_sov_cloud_center</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">Oracle</a>{target=“_blank”}
+:::</p>
+<p>日本オラクルは2025年7月8日、日本企業におけるAI活用とソブリンクラウド導入を加速させることを目的に、「ジャパン・オペレーション・センター」を東京に開設したと<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">発表</a>{target=“_blank”}した。</p>
+<p>新センターは24時間365日体制で稼働し、日本国内のエンジニアが運用支援を担当する。これは、同社が2024年に発表した10年間で80億米ドル以上を日本に投資する計画の一環とされ、企業のデータ主権や法規制対応を重視した体制を整える狙いがあるという。</p>
+<h2>国内のAI・クラウド需要に対応する新たな拠点</h2>
+<p>ジャパン・オペレーション・センターは、以下のような機能と目的を持つ。</p>
+<ul>
+<li>24時間365日の運用監視と支援：国内在住のエンジニアによってクラウドインフラの運用が担われる。</li>
+<li>データ主権・法令遵守の確保：センターの運用プロセスは、日本国内法および各種業界規制に対応。</li>
+<li>Oracle Alloyパートナー企業への支援：クラウド基盤を活用する国内パートナーに対し、ノウハウやエンジニアリング支援を提供。</li>
+<li>国内人材の強化と育成：AI・クラウド専門チームの拡充により、より高度な技術支援を目指す。</li>
+</ul>
+<h2>背景には生成AIとソブリンクラウドのニーズ増加</h2>
+<p>日本国内では、機密性の高いデータを国内に保持しつつ生成AIを活用したいという要望が政府機関や金融機関、製造業などで高まっている。これに対応するため、同社は2024年4月、国内クラウド基盤の強化と人員増強を含む80億ドル規模の投資計画を公表しており、今回のセンター開設はその中核施策と位置づけられる。</p>
+<h2>パートナー企業の評価と今後の展開</h2>
+<p>発表に際し、Oracle Alloyの国内パートナー企業もエンドースメントを表明している。</p>
+<ul>
+<li><strong>富士通株式会社</strong> ：ジャパン・オペレーション・センターの設立により、「ハイパースケーラー同等の機能を備えつつ、経済安全保障リスクにも対応した国産ソブリンクラウドの実現が可能になる」とコメント。</li>
+<li><strong>株式会社NTTデータ</strong> ：同社のソブリンクラウド基盤「OpenCanvas」にOracle Alloyを組み込み、安全な生成AI活用を推進していく方針を示した。</li>
+</ul>
+<p>同社は今後、同センターを中核拠点として、日本国内におけるクラウドリージョンの拡張とAIインフラの強化を進める計画である。企業のミッションクリティカルな業務基盤のクラウド化や生成AI導入支援を通じ、「AI時代における持続的なビジネス成長」を支えるとしている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Foracle_partnerships_with_openai_and_googlecloud">関連記事：Oracle OpenAI、Google Cloud それぞれと新たなパートナーシップを発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_stargate_global_data_residency">関連記事：OpenAI、Stargate構想を各国展開へ 民主的AIインフラとアジア4カ国のデータレジデンシーを同時発表</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_stargate_uae_launch">関連記事：OpenAI主導の「Stargate」構想、UAEで海外初展開へ——G42・Oracle・NVIDIA・ソフトバンクG・Ciscoが共同参画、アブダビに超大型AIデータセンター</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Faist_nvidia_hpe_abci_supercomputer">関連記事：産総研とNVIDIA、AIスーパーコンピューター「ABCI 3.0」導入で日本のAI主権を強化 今年中に稼働開始予定</a>
+:::</p>
+]]></description>
+      <pubDate>Thu, 10 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「フィジカルAI」が産業界を変える ｕｇｏ CSO羽田氏が語る、ロボットの未来と日本の勝ち筋</title>
+      <link>https://ledge.ai/articles/expo-2025-summer-ugo</link>
+      <description><![CDATA[<p>:::box
+国内最大級のAI（人工知能）関連メディアLedge.aiが、2025年6月に公開した参加費無料の「Ledge.ai EXPO 2025 Summer」。
+本稿ではサイト内で掲載していた、業界をリードするキーパーソンへの特別インタビューや書き下ろし記事など、コンテンツの全文を公開する。
+:::</p>
+<p>少子高齢化と労働力不足が進む中、ロボットの存在は今後さらに重要となってくる。現在も製造現場や施設管理、サービス業において、AIとロボティクスの融合による効率化や省人化を期待する声が多いが、導入のハードルはいまだ高いのが現状だ。
+こうした現状を打開すべく、実用的な業務ロボットの社会実装に挑んでいるのがｕｇｏ株式会社である。本稿では、同社の取締役CSOであり、戦略と開発の両面をリードする羽田卓生氏に、ロボティクスの現在地、日本における課題、そして「フィジカルAI」という次のパラダイムについて話を聞いた。
+:::box
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fphoto_hada_f37eff913e%5Cu002Fphoto_hada_f37eff913e.jpg" alt="photo_hada.jpg" />
+<strong>ｕｇｏ株式会社　取締役CSO</strong>
+<strong>羽田 卓生</strong>
+1998年 立命館大学経済学部卒。同年ソフトバンク株式会社に入社。2013年にアスラテック株式会社の立ち上げに参画。2019年7月より株式会社ABEJAを経て、2020年 ｕｇｏ株式会社取締役に就任。任意団体ロボットパイオニアフォーラムジャパン代表幹事、特定非営利活動法人ロボットビジネス支援機構「RobiZy」アドバイザーも務める。
+:::</p>
+<h2>ロボットの現在地は「下半身が完成した段階」</h2>
+<p>羽田氏は、現在のロボティクス技術の成熟度について、「下半身が完成した段階にある」と語った。移動や巡回といった基礎的な物理動作はすでに実現されており、ｕｇｏが提供する警備・点検・案内ロボットも、日々の業務で稼働している。だが、人間のように「手で操作し、目で見て、言葉でやりとりする」ためには、さらなる進化が必要である。そこにAI、特にLLMや模倣学習の力が加わることで、ようやく“上半身”が備わる。「すでにAIの“目”や“言葉”は手に入りつつある。これに模倣学習による“手”の機能が加われば、業務ロボットの概念が一変する。このブレイクスルーは5年以内、もしかするともっと早く来るかもしれない」と羽田氏は予測する。</p>
+<p>ロボティクスの技術自体は進化しているにもかかわらず、日本ではその社会実装が思うように進んでいない。その理由として、羽田氏は「価格」「柔軟性」「導入設計」の3点を挙げた。かつて産業用ロボットの中心だったアーム型ロボットは、自動車などの大量生産に特化しており、汎用性に欠けるうえ価格も高い。中小規模の現場やサービス業では採算が合わず、結果として導入が限定的となってしまっている。
+また、決められた動きしかできないことも、ロボットの導入を妨げてきた大きな要因である。しかし、仮に清掃ロボットがドアを開け、モップがけまで行えるようになったらどうか。配膳ロボットがテーブルへの配膳だけでなく、食器の片付けまでこなせるようになったらどうか。それだけで、ロボット導入の価値は大きく変わる。ロボットが“あと一歩”進化することで、導入の実現性は一気に高まるのだ。「人手不足や賃金上昇といった外的要因と、ロボットの進化が組み合わさった時、さらなる導入の追い風が吹く」と羽田氏が語るように、社会的なニーズと技術革新が交差するとき、ロボットが大きなブレイクスルーを迎えるのだ。</p>
+<h2>現場で“使われ続ける”ロボットをつくるｕｇｏ</h2>
+<p>ｕｇｏが現在提供しているのは、警備、点検、案内といったルーチン業務を担うロボットである。オフィスビル、駅構内、データセンター、工場など、多様な現場で稼働している。「人が歩き回って確認するだけの時間は生産性がない。異常検知のような判断業務は人に任せ、データ収集や巡回はロボットが担う。それによって、現場全体の効率が上がっていくと考える」と羽田氏は説明する。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fimg_sol_tenken_03_2_768x512_1_8b55e780f2%5Cu002Fimg_sol_tenken_03_2_768x512_1_8b55e780f2.jpg" alt="img_sol_tenken_03-2-768x512 (1).jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fugo.plus%5Cu002Finspection-robot-solution%5Cu002F">ｕｇｏ株式会社『点検ロボットソリューション』</a>{target=“_blank”}
+:::</p>
+<p>また、ｕｇｏでは、ロボットとLLMやRAGを組み合わせた会話システムも開発。ユーザーとのやりとりをスコア化し、精度が低い部分をナレッジとして再学習させる設計になっている。まさに「現場で育つロボット」である。さらに、クラウド連携による遠隔制御、LLMの切り替えによる多用途対応、ノーコードによる運用のしやすさなど、使い続けてもらうための仕組み作りにも注力している。これにより、データの継続的な蓄積と品質向上が可能になる。</p>
+<p>現場で使われ続けるロボットを支える開発体制もまた、印象的だった。今回インタビューで筆者が訪れたのは、東京・千代田区という都心の一等地に構えるｕｇｏのオフィスである。ひとつのフロア内に、実務やソフトウェア開発のエリア、ハードウェアの組み立てスペース、出荷を待つロボットが並ぶ格納エリア、さらには実証実験用のデモエリアまでが混在していた。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FIMG_1909_015edcaf6e%5Cu002FIMG_1909_015edcaf6e.jpg" alt="IMG_1909.JPG" /></p>
+<p>羽田氏が「垂直型で対応している」と語る通り、ｕｇｏではハードとソフトの開発が完全に一体化しており、設計から組み立て、テスト、配送までがワンストップで完結している。この“すべてがつながった開発環境”こそが、同社が次々と革新的なロボティクス技術を生み出す原動力なのである。</p>
+<h2>ロボティクスの今後は？「フィジカルAI」が変えるもの</h2>
+<p>羽田氏が今後のロボティクスのトレンドとして提唱する「フィジカルAI」とは、AIの知能をロボットの身体に結びつけ、物理空間での行動へ転換するアーキテクチャを意味する。従来のAIがディスプレイ上やクラウド上で完結していたのに対し、フィジカルAIは“実際に手を持ち、行動するAI”である。
+現在、ロボティクス業界では「世界モデル」や「デジタルツイン」など、AIが環境を認識・理解しながら行動を計画・最適化する技術が注目されている。しかし、それらを応用する分野として、羽田氏は「まだ、どこが勝ち筋かはまだわからない」と語る。例えば、米国のスタートアップであるFigureは、家庭にロボティクス活用の糸口を見つけようとしたり、自動車メーカーとして有名な米国のテスラは自動運転技術を応用して、危険な作業や退屈な単純作業を行う二足歩行の汎用ヒューマノイドロボット開発に乗り出しているように、現在は各社が多様なアプローチで、現実可能なロボティクスの社会実装を模索している段階にある。</p>
+<p>こうした中で羽田氏は「日本の勝ち筋はオペレーションの質そのものにある」と指摘する。ロボットの能力を左右するAIの性能は、単にモデルの規模だけではなく、学習に用いるデータの質にも大きく左右される。AIの性能関連でよく話される “スケーリング則” では、モデルの性能は以下の3要素のかけ合わせによって向上すると言われている。</p>
+<ul>
+<li>データ規模</li>
+<li>学習に使われる計算量</li>
+<li>パラメーター数</li>
+</ul>
+<p>このうち、日本の強みは「データ」にある。たとえば羽田空港の清掃業務は、世界的にも高い評価を受けており、2016年には英国SKYTRAXの国際空港評価である「ザ・ワールド・クリーネスト・エアポート」部門において第1位に選ばれている。こうした高度なオペレーションの現場で蓄積される業務データは、AIの学習素材として非常に価値が高い。「良い現場、良いマニュアル、真面目な労働者。それらが揃っている日本は、データ品質の面でも優位に立てる」と羽田氏は語る。日本品質のオペレーションをモデル化し、ロボティクスに実装することで、「ジャパンスタンダード」のような高品質なAI\u002Fロボットサービスを世界に輸出することも可能になるだろう。
+羽田氏の言葉を借りれば、「これからのAI開発における生命線は“良いデータ”である」。日本の現場力こそが、フィジカルAI時代におけるグローバル競争の切り札となり得るのだ。</p>
+<h2>今、企業が備えるべきこと</h2>
+<p>羽田氏は最後に、企業が「今」取り組むべきことについて次のように語った。</p>
+<p>「フィジカルAIは、産業界の主戦場になる。だからこそ、現場を俯瞰して自社にしかないオリジナルな業務が何なのかを見極めることが必要だ。自動化のためではなく、自社の強みをデータ化し、新たな競争力を生むためにロボットを活用すべきである」</p>
+<p>ロボットの導入は、単に人手を減らす手段ではない。AIとロボティクスの融合により、現場の構造そのものを再定義し、新たな価値創出の礎とするための業務改革なのである。その中でｕｇｏは、日本の産業界が持つ現場力をAIと結びつけ、「使われ続けるロボット」を通じて、新たな価値観を形づくろうとしているのだ。</p>
+<p>:::box
+特集：<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Fcategories%5Cu002Fcoverstory%5Cu002Fledgeai-expo-2025-summer-Special">Ledge.ai EXPO 2025 Summer</a>{target=“_blank”}
+:::</p>
+]]></description>
+      <pubDate>Thu, 10 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title>
+      <link>https://ledge.ai/articles/mercury_diffusion_llm_release</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
+:::</p>
+<p>米Inception Labsは2025年6月17日、拡散モデル（diffusion model）をベースとした大規模言語モデル「Mercury」の一般チャット版を<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">発表</a>{target=“_blank”}した。。同社が2月に発表したコード特化型「<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmercury_coder_diffusion_llm">Mercury Coder</a>{target=“_blank”}」に続くもので、対話型エージェントや音声インターフェースといったリアルタイム応答を重視するユースケースに向けて設計されたモデルである。</p>
+<p>Mercuryは、従来の自己回帰型LLMとは異なり、複数のトークンを並列に生成する“描くような生成”プロセス──拡散型LLM（dLLM）アーキテクチャ──を採用しており、推論速度と応答レイテンシーの大幅な削減を実現した。</p>
+<h2>最大708トークン／秒、Claude 3.5比で10倍のスループット</h2>
+<p>公開された性能指標によると、Mercuryのスループットは708トークン／秒に達しており、同等規模のモデルとされるGPT-4.1 Nano（96トークン／秒）、Claude 3.5 Haiku（67トークン／秒）を大きく上回った。特に、GPT-4.1 Nano比で約7倍、Claude 3.5 Haiku比で約10倍の速度差が確認されている。</p>
+<p>また、品質指標においても以下のスコアが報告されている：</p>
+<ul>
+<li>MMLU-Pro：69%</li>
+<li>HumanEval：85%</li>
+<li>GPQA Diamond：51%</li>
+</ul>
+<p>これらのスコアは、「スピード最適化フロンティアモデルと同等以上の性能に相当する」と同社は説明している。</p>
+<h3>参考図：Mercuryの位置付け（小型チャットモデル領域）</h3>
+<p>評価機関Artificial Analysisによる小型・非推論系モデルの性能比較において、Mercuryは**「高出力速度 × 実用的インテリジェンス」の最適領域（右上象限）**に唯一位置している。</p>
+<ul>
+<li><strong>出力速度（横軸）</strong> ：1秒あたりの出力トークン数。Mercuryは700超を記録。</li>
+<li><strong>知能指数（縦軸）</strong>：Artificial Analysis Intelligence Index（簡易対話・理解力ベンチマーク平均）。</li>
+<li><strong>比較対象</strong> ：GPT-4.1 Nano、Claude 3.5 Haiku、Mistral Small、Gemini Flashなど。</li>
+</ul>
+<p>Mercuryはこの領域で、処理速度と認識性能を両立する唯一のモデルとして可視化されている。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmercury_intellogence_vs_output_speed_286c30f817%5Cu002Fmercury_intellogence_vs_output_speed_286c30f817.jpg" alt="mercury intellogence vs output speed.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.inceptionlabs.ai%5Cu002Fintroducing-mercury-our-general-chat-model">Inception Labs</a>{target=“_blank”}
+:::</p>
+<h2>ユースケース：リアルタイム音声や対話Webアプリへの導入を想定</h2>
+<p>Mercuryは、従来のLLMでは困難だったリアルタイム応答環境での活用を想定している。とくに以下のような領域に向けた実用が示されている：</p>
+<ul>
+<li><strong>リアルタイム音声応答</strong> ：翻訳や音声AIアシスタント領域において、標準GPU上での推論でも従来構成（Llama 3.3 70B＋Cerebras）より低レイテンシーであるとされる。</li>
+<li><strong>対話型Webアプリケーション</strong> ：Microsoft Build 2025で発表された自然言語インターフェース「NLWeb」プロジェクトにおいて、Inception Labsは初のLLMパートナーに選定されている。Mercuryの高速応答により、「人間同士のような自然なテンポの対話」が可能になるとしている。</li>
+</ul>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmercury_coder_diffusion_llm">関連記事：Inception Labs、拡散モデルを使った拡散型大規模言語モデル(dLLM)「Mercury Coder」を発表 テキスト生成系では初の商用利用で従来型LLMの最大10倍高速</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_announces_gpt41_api_series">関連記事：OpenAI、GPT-4.1シリーズ3種のAPIを発表 高性能モデルのコスト効率を改善</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_gemini_2_0_flash_release">関連記事：Google、Gemini 2.0 Flashを正式展開—無料版でも高速AIモデルが利用可能に</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgemini_2_5_flash_hybrid_model_release">関連記事：Google、Gemini 2.5 Flashをプレビュー公開 思考のオン・オフを可能にするハイブリッド推論モデル</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fanthropic_claude_citations_release">関連記事：Anthropic、Claudeの回答に出典を付与できる「Citations」を提供開始</a>
+:::</p>
+]]></description>
+      <pubDate>Thu, 10 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/8 [TUE]Google、急増する電力需要に備え、米核融合ベンチャーCFSと商用核融合発電200MWの長期購入契約を締結——CFS初の発電所と2030年代供給へ</title>
+      <link>https://ledge.ai/articles/google_fusion_power_cfs_ppa</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.cfs.energy%5Cu002Fnews-and-media%5Cu002Fgoogle-and-commonwealth-fusion-systems-sign-strategic-partnership">Commonwealth Fusion Systems</a>{target=“_blank”}
+:::</p>
+<p>Googleは2025年6月30日、米国の核融合スタートアップであるCommonwealth Fusion Systems（CFS）と、同社が開発中の商用核融合発電所から200メガワット（MW）の電力を長期購入する契約を締結したことを<a href="https:%5Cu002F%5Cu002Fblog.google%5Cu002Foutreach-initiatives%5Cu002Fsustainability%5Cu002Four-latest-bet-on-a-fusion-powered-future%5Cu002F">発表</a>{target=“_blank”}した。2030年代前半の送電開始が予定されており、企業による核融合電力の調達契約としては過去最大規模とされる。</p>
+<p>@<a href="https:%5Cu002F%5Cu002Fwww.youtube.com%5Cu002Fwatch?v=pBIcDNn6rHA">YouTube</a></p>
+<h2>核融合発電の実用化を前提に、ARCからの電力供給を確保</h2>
+<p>Googleが契約を結んだのは、CFSがバージニア州チェスターフィールドに建設を予定している商用核融合発電所「ARC」である。ARCは、CFSが開発中のコンパクト型トカマク炉を用いたもので、商用化第一号の核融合プラントとなる見通しだ。今回の契約により、Googleは最大200MWの電力を長期にわたり調達する。</p>
+<p>また、Googleはこの契約にあわせてCFSへの追加出資も実施。2021年の初期投資に続くものであり、開発資金を通じて発電所の建設を後押しする。さらにGoogleは、将来的に他のCFSプラントから電力を調達するオプションも保持している。</p>
+<h2>実証炉「SPARC」の成功が鍵、2030年代前半に送電目標</h2>
+<p>ARCの前段階として開発が進む実証炉「SPARC」は、2026年の稼働を予定しており、2027年までにQ値（エネルギー増倍率）1超の達成を目指している。これが商用化の前提となる。核融合による電力は安定供給が可能で、天候に左右される再生可能エネルギーの変動を補う“24時間型ゼロエミッション電源”としての期待が高まっている。</p>
+<h2>急増する電力需要と、それに対応するクリーン電源の確保</h2>
+<p>Googleは2025年6月に<a href="https:%5Cu002F%5Cu002Fblog.google%5Cu002Foutreach-initiatives%5Cu002Fsustainability%5Cu002Fenvironmental-report-2025%5Cu002F">公開</a>{target=“_blank”}した最新の環境報告書で、2024年のデータセンター電力消費量が前年比27％増となったことを明らかにした。前年（2023年）の増加率は17％だったことから、AIやクラウド需要の拡大にともなう消費電力の加速度的な増加が読み取れる。</p>
+<p><strong>2019〜2024年におけるGoogleのデータセンターの電力消費量（棒グラフ）とエネルギー起因排出量（折れ線）</strong>
+2024年は電力使用量が過去最高となったが、クリーン電源の導入により排出量は前年より減少している。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTrajectory_of_data_center_electricity_consumption_and_data_center_energy_emissions_708f18de8d%5Cu002FTrajectory_of_data_center_electricity_consumption_and_data_center_energy_emissions_708f18de8d.jpg" alt="Trajectory of data center electricity consumption and data center energy emissions.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwww.gstatic.com%5Cu002Fgumdrop%5Cu002Fsustainability%5Cu002Fgoogle-2025-environmental-report.pdf">Google 2025 Environmental Report</a>{target=“_blank”}
+:::</p>
+<h2>クリーンエネルギーによる排出削減とPUEの改善</h2>
+<p>電力需要が急増する一方で、Googleはクリーンエネルギー導入やインフラ最適化により、2024年のデータセンター由来の温室効果ガス排出量を前年比12％削減した。また、データセンター全体の平均PUE（電力使用効率）は1.09に改善し、過去6年間で初めて1.10を下回ったと報告されている。</p>
+<p>同社は2024年だけで8GW相当のクリーン電力購入契約を新たに締結し、世界中で累計22GW以上の再生可能電源を確保している。</p>
+<h2>電力の未来に向けた布石</h2>
+<p>Googleによる今回の核融合電力の長期購入は、従来型の再エネPPAに加え、次世代エネルギーの担い手としての核融合発電にいち早く賭ける姿勢を明確にしたものだ。送電開始は2030年代前半を予定しており、今後のSPARCの実証進展、ARCの許認可・建設スケジュールがカギを握る。</p>
+<p>持続可能なAI時代を支えるエネルギー基盤の再構築は、企業の競争力にも直結する課題となっている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_intersect_tpg_clean_energy">関連記事：Google、AI時代の電力需要に備えたクリーンエネルギー戦略を始動</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgoogle_amazon_investment_in_smr">関連記事：Googleに続きAmazonも — テック企業による原子力エネルギーへの投資</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fai_power_demand_energy_shortage">関連記事：AI需要で電力逼迫、アメリカ大陸の半数以上が10年先までエネルギー不足のリスクに直面</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fdata_center_power_infrastructure">関連記事：石破首相、生成AIの普及に対応してデータセンターと発電所の一体整備を推進</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmeta_nuclear_power_ai_ppa_deal">関連記事：Meta、原子力でAI時代の電力確保へ 米Constellationと20年契約</a>
+:::</p>
+]]></description>
+      <pubDate>Tue, 08 Jul 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
