@@ -7,6 +7,8 @@ on:
       - 'rss.xml'
       - 'README.md'
   workflow_dispatch:
+  repository_dispatch:
+    types: [rss_updated]
 
 permissions:
   contents: read
