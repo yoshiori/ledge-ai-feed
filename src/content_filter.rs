@@ -13,9 +13,11 @@ pub fn filter_content(content: &str) -> String {
     let box_pattern = Regex::new(r":::box[\s\S]*?:::").unwrap();
     result = box_pattern.replace_all(&result, "").to_string();
 
-    // Remove {target="_blank"} attributes
+    // Remove {target="_blank"} attributes (both normal and HTML-encoded)
     let target_pattern = Regex::new(r#"\{target="_blank"\}"#).unwrap();
+    let target_encoded_pattern = Regex::new(r#"\{target=&quot;_blank&quot;\}"#).unwrap();
     result = target_pattern.replace_all(&result, "").to_string();
+    result = target_encoded_pattern.replace_all(&result, "").to_string();
 
     result
 }
@@ -93,6 +95,15 @@ Final content.
         // Test the actual pattern we see in RSS output
         let content = r#"[発表](https://example.com){target="_blank"}した"#;
         let expected = r#"[発表](https://example.com)した"#;
+        let result = filter_content(content);
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_remove_html_encoded_target_blank() {
+        // Test HTML-encoded {target="_blank"} pattern
+        let content = r#"<a href="https://example.com">link</a>{target=&quot;_blank&quot;} text"#;
+        let expected = r#"<a href="https://example.com">link</a> text"#;
         let result = filter_content(content);
         assert_eq!(result, expected);
     }
