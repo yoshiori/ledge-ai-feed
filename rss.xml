@@ -280,78 +280,6 @@
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>高性能LLMを“日常のデバイス”で──分散AIクラスタOSS「exo」登場「iPhone、iPad、Androidデバイスなど」×「Llama、Mistral、LLaVA、Qwen、Deepseekなど幅広いLLM」</title>
-      <link>https://ledge.ai/articles/distributed_llm_exo_home_cluster</link>
-      <description><![CDATA[<p>:::small
-画像の出典：GPT-4oによりLedge.aiが生成
-:::</p>
-<p>家庭にあるスマートフォンやPCなどを束ねてAIクラスタを構築できるオープンソース・プロジェクト「exo」が注目を集めている。GitHub上で<a href="https:%5Cu002F%5Cu002Fgithub.com%5Cu002Fexo-explore%5Cu002Fexo">公開</a>{target=“_blank”}されており、誰でも無償で利用可能だ。このプロジェクトは、iPhoneやRaspberry Piなど異なる性能・OSのデバイスを組み合わせ、大規模言語モデル（LLM）の分散推論を可能にする仕組みを提供するものである。</p>
-<h2>多様なデバイスで1つの仮想GPUを形成</h2>
-<p>「exo」は、複数のデバイスをネットワーク上で仮想的に統合し、単一のGPUのように扱う分散推論環境を構築することを目的としている。
-対応デバイスは、iPhoneやAndroid端末、Mac、NVIDIA GPU搭載PC、Raspberry Piなど。異なる性能のデバイスをネットワーク越しに連携させ、あたかも1つの大きなGPUのように扱うことができるという。</p>
-<p>クラスタ内のデバイスは自動検出され、設定不要で接続できるのが特徴だ。</p>
-<h2>幅広い LLM を標準サポート</h2>
-<p>現行バージョンでは、次の主要モデルを公式サポートしている。</p>
-<ul>
-<li>Llama 系列（MLX／tinygrad 版）</li>
-<li>Mistral</li>
-<li>LLaVA</li>
-<li>Qwen</li>
-<li>DeepSeek</li>
-</ul>
-<p>モデルは「シャード」と呼ばれる単位で分割され、クラスタ内のデバイスに分散配置される。CLIから数行のコマンドを実行するだけで起動でき、複雑な分散処理の知識を必要としない設計となっている。</p>
-<h2>OSSとして公開、活発な開発コミュニティ</h2>
-<p>「exo」はGPL-3.0ライセンスの下でオープンソースとして公開されており、以下のように活発な開発が進んでいる。</p>
-<ul>
-<li>GitHubスター数：約2.9万（2025年7月9日時点）</li>
-<li>フォーク数：1.8千以上</li>
-<li>Issue投稿数：350件以上</li>
-<li>開発言語：Rust／Python／Bashなど</li>
-</ul>
-<p>企業利用や教育目的での導入も意識された設計となっており、商用支援に関する問い合わせフォームも用意されている。
-GitHubページ：<a href="https:%5Cu002F%5Cu002Fgithub.com%5Cu002Fexo-explore%5Cu002Fexo">https:\u002F\u002Fgithub.com\u002Fexo-explore\u002Fexo</a>{target=“_blank”}</p>
-<h2>ベンチマーク：台数に応じてスループットが向上</h2>
-<p>プロジェクトの公式ブログでは、M4 Pro搭載のMacを用いたベンチマーク結果が公表されている。</p>
-<ul>
-<li>M4 Pro（単体）：49.3 Tokens\u002Fs</li>
-<li>2台構成：95.7 Tokens\u002Fs</li>
-<li>3台構成：108.8 Tokens\u002Fs</li>
-</ul>
-<p>この結果から、単一リクエストあたりの速度は若干低下するものの、複数リクエストの同時処理（スループット）性能はほぼ線形に向上することが確認されている。家庭内で複数端末を保有しているユーザーにとって、活用余地が大きいアプローチといえる。</p>
-<p><strong>exo クラスタが可視化された画面（5ノード構成）</strong>
-NVIDIA RTX 3060 Ti、4060 Ti、GTX 1050 Ti、MacBook Pro など複数デバイスが接続され、それぞれの性能（TFLOPS）や稼働率が表示されている。クラスタ全体では合計123.4 TFLOPSが確認されており、Webチャット用APIや可視化インターフェースも統合されている。</p>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fexo_screenshot_ee65e6782a%5Cu002Fexo_screenshot_ee65e6782a.jpg" alt="exo-screenshot.jpg" />
-:::small
-画像の出典：<a href="https:%5Cu002F%5Cu002Fgithub.com%5Cu002Fexo-explore%5Cu002Fexo">GitHubページ</a>{target=“_blank”}
-:::</p>
-<h2>今後の展望：分散ファインチューニングやTP対応も</h2>
-<p>公式ブログや開発ロードマップによると、今後以下の機能が追加予定とされている：</p>
-<ul>
-<li>Tensor Parallelism への対応</li>
-<li>シャード割当スケジューラの最適化</li>
-<li>DiLoCo等を用いた分散ファインチューニング対応</li>
-<li>CLIの安定化とUI導入</li>
-</ul>
-<p>また、プロジェクトはDiscord・Telegramの公式コミュニティを通じてユーザーからのフィードバックや貢献を受け入れており、オープンソースプロジェクトとしての持続的な成長が期待される。</p>
-<p>:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fweb_llm_browser_ai_framework">関連記事：ブラウザ上でLLMを実行する新技術に注目！ JavaScriptフレームワークのWebLLMはエッジAIをウェブの世界に拡張</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fapple_llm_in_a_flash">関連記事：Apple iPhoneやPCでLLMを利用へ──外部フラッシュメモリを活用した「LLM in a Flash」技術</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fnvidia_blackwell_ultra_dynamo_dgx">関連記事：NVIDIA、ローカルAI開発を加速する「DGX Spark」と「DGX Station」など次世代GPU群を発表</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fnttcom_iown_apn_distributed_data_center_ai_training">関連記事：NTTコミュニケーションズ、IOWN APNを活用した分散データセンターで生成AI学習を実証</a>
-:::
-:::box
-<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fmicrosoft_ai_agents_build_2025">関連記事：Microsoft、Build 2025でAIエージェント戦略の本格展開を発表</a>
-:::</p>
-]]></description>
-      <pubDate>Wed, 09 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title>
       <link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link>
       <description><![CDATA[<p>:::small
@@ -1693,6 +1621,53 @@ GPUクラウドサービスの事業開発からマーケティング、技術�
 :::</p>
 ]]></description>
       <pubDate>Sun, 13 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIとの買収交渉が決裂、WindsurfはGoogleと契約締結──CEOらはDeepMindに移籍、契約額は約24億ドルとの報道も</title>
+      <link>https://ledge.ai/articles/windsurf_google_deal_openai_exit</link>
+      <description><![CDATA[<p>:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Funsplash.com%5Cu002Fja%5Cu002F%E5%86%99%E7%9C%9F%5Cu002Fgoogle-%E3%81%AE%E3%83%AD%E3%82%B4%E3%81%8C%E5%BB%BA%E7%89%A9%E3%81%AE%E5%81%B4%E9%9D%A2%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%82%8B-r-oebX7qWxM">Adarsh Chauhan@Unsplash</a>{target=“_blank”}
+:::</p>
+<p>2025年7月11日、AIコードエディター「Windsurf Editor」を手がけるAIスタートアップWindsurfは、Googleとライセンス契約を締結したと公式ブログで<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">発表</a>{target=“_blank”}した。同時に、ヴァルン・モハンCEO、共同創設者のドウグラス・チェン氏を含む一部の研究開発チームが、GoogleのAI研究機関DeepMindに移籍することも明らかにされた。複数の米メディアは、この契約総額が約24億ドル（約3,500億円）にのぼると報じている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c%5Cu002Fwindsurf_blog_next_stage_c7a135ce6c.jpg" alt="windsurf blog next stage.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fwindsurf.com%5Cu002Fblog%5Cu002Fwindsurfs-next-stage">Windsurf のblogより</a>{target=“_blank”}
+:::</p>
+<h2>OpenAIとの買収交渉は期限切れで失効</h2>
+<p>事情に詳しい関係者によれば、OpenAIは2024年末からWindsurfの買収を協議していた。取引規模は約30億ドルと<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">報じられていた</a>{target=“_blank”}が、交渉は複雑化し、2025年7月10日の契約期限までに最終合意に至らなかった。背景には、OpenAIと主要出資元であるMicrosoftの関係や、GitHub Copilotとの競合調整が影響したとみられる。</p>
+<p>なお、Windsurfは独立性を重視するスタンスを維持していたことも、交渉の難航に一因があったとみられている。</p>
+<h2>Googleとの24億ドル契約、製品ライセンス供与が主眼</h2>
+<p>買収が成立しなかった一方で、WindsurfはGoogleと新たな契約を結んだ。同社公式ブログによると、この契約はWindsurfが保有するAIコード生成技術の一部をGoogleに「非独占的ライセンス」として供与する内容であり、株式取得や企業統合は含まれていない。</p>
+<p>Windsurfは今後も企業向けのAIコード編集ツールを独立して提供し続けると明言しており、既存顧客に対してはサポート体制を維持するとしている。</p>
+<h2>DeepMindが主要人材を吸収、Geminiの開発加速へ</h2>
+<p>契約の一環として、Windsurfの共同創業者ら主要メンバーがGoogle DeepMindに加わる。対象となるのはCEOのヴァルン・モハン氏、共同創設者ドウグラス・チェン氏のほか、研究開発チームの中核メンバーとされる。</p>
+<p>Google DeepMindのCEOであるデミス・ハサビス氏は、自身のX（旧Twitter）上で「彼らの参加に非常に興奮している」とコメントし、Geminiの“エージェンティック・コーディング”機能開発に注力すると明かしている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb%5Cu002Fdemis_hassabis_x_about_windsurf_caaaa3b8fb.jpg" alt="demis hassabis x about windsurf.jpg" />
+:::small
+画像の出典：<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fdemishassabis%5Cu002Fstatus%5Cu002F1943794383536652309">Demis Hassabis氏のX（旧Twitter）アカウントより</a>{target=“_blank”}
+:::</p>
+<h2>Windsurf社内体制は新たな経営陣へ移行</h2>
+<p>人材移籍にともない、Windsurfでは経営体制の再編が行われた。新たにCOOのJeff Wang氏が暫定CEOに就任し、Graham Moreno氏が社長職を務める。今後は企業向け機能の強化や、新規パートナーシップの拡大に注力する方針を掲げている。</p>
+<h2>業界背景：コード支援AIを巡る競争が激化</h2>
+<p>AIを活用したコード補完・生成の分野では、GoogleのGemini、OpenAIのGPT-4o Turbo、MicrosoftのGitHub Copilot、MetaのCode Llamaなどが競合している。いずれも、ソフトウェア開発の生産性向上を狙いとした戦略的領域であり、優れたAI技術と人材の獲得が競争力の源泉となっている。</p>
+<p>今回のWindsurfとのライセンス契約と人材移籍は、Googleがこの領域での優位性をさらに高める布石と捉えられている。</p>
+<p>:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_acquires_windsurf_for_ai_dev_tools_expansion">関連記事：OpenAIがWindsurfを約4300億円で買収合意か──ChatGPT開発者の拡大戦略</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphabet_earnings_q3_2024">関連記事：Googleの新規コードの25%以上がAI生成—ピチャイCEOが明かすAIによる開発革新</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Falphaevolve_ai_algorithm_discovery">関連記事：Google DeepMind、新AIコーディングエージェント『AlphaEvolve』を発表　Geminiと連携しコード設計を自動化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgemini_2_5_io_edition_update">関連記事：Google、Gemini 2.5 Proの先行アップデート版「I\u002FO Edition」を公開—コード生成性能を大幅強化</a>
+:::
+:::box
+<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fkakaku_cursor_ai_engineering">関連記事：全エンジニア約500人にAIコードエディタ「Cursor」を導入—開発組織の生産性向上を狙う</a>
+:::</p>
+]]></description>
+      <pubDate>Mon, 14 Jul 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
