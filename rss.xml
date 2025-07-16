@@ -5,6 +5,46 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AWS、仕様駆動型AI IDE「Kiro」を正式発表──“プロンプトから本番まで”エージェントが伴走</title>
+      <link>https://ledge.ai/articles/aws_ai_ide_kiro_release</link>
+      <description><![CDATA[<p>:::sma
+ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
+:::</p>
+<p>Amazon Web Services（AWS）は2025年7月14日、AIエージェントを中核に据えた新しい統合開発環境（IDE）「Kiro（キロ）」を<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">発表</a>{target=“_blank”}した。</p>
+<p>Kiroは、開発初期の曖昧なアイデアを、プロンプト1つで本番環境レベルのコードへと変換することを狙ったツールだ。プロダクト開発における「仕様と実装の乖離」問題に対処するため、仕様駆動型の設計支援機能を搭載しているという。現在パブリックプレビュー中で、<a href="https:%5Cu002F%5Cu002Fkiro.dev">公式サイト</a>{target=“_blank”}から無料でダウンロード可能となっている。</p>
+<h2>AIエージェントを前提とした“Agentic IDE”</h2>
+<p>Kiroは「Agentic IDE（エージェント的なIDE）」を掲げ、AIが設計からコーディング、テスト、ドキュメント生成に至る開発プロセス全体を支援する。OSS版Visual Studio Code（Code OSS）をベースとしており、既存のVS Code拡張機能やOpen VSXレジストリの資産をそのまま活用できる。</p>
+<p>デスクトップアプリとして提供され、Mac・Windows・Linuxに対応している。ユーザーはGitHubやGoogleアカウントなどを用いたSSO（シングルサインオン）でログイン可能だ。</p>
+<p><strong>AWSが取り組んでいるeコマースアプリの例</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_1_app_72308f4e1e%5Cu002Fcompressed_1_app_72308f4e1e.gif" alt="compressed_1-app.gif" />
+:::sma
+ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
+:::</p>
+<p>Kiroの中心的な機能は、自然言語による単一プロンプトを出発点として、要件定義（Requirements）、設計ドキュメント（Design）、およびタスクリスト（Task List）を自動的に生成する「Spec-Driven Development（仕様駆動開発）」にある。</p>
+<p>これにより、開発者は「こんなアプリを作りたい」という抽象的な構想を与えるだけで、仕様に基づいたタスクが提示され、コード実装を進めやすくなるという。</p>
+<p><strong>Kiroの要件仕様</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_2_reqs_f094da7ae6%5Cu002Fcompressed_2_reqs_f094da7ae6.gif" alt="compressed_2-reqs.gif" />
+:::sma
+ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
+:::</p>
+<h2>仕様とコードの断絶を埋めるEARS記法と「Hook」</h2>
+<p>Kiroは仕様記述にEARS（Easy Approach to Requirements Syntax）という形式を採用しており、要件の明確化とエッジケースの網羅性を重視している。これにより、曖昧な記述による実装ミスや意図の取り違えを最小限に抑える狙いがある。</p>
+<p>さらに、Kiroは「Hook」と呼ばれるイベント駆動型の自動処理機能を搭載しており、ファイルの保存、生成、削除、Gitへのコミットなどのタイミングで、以下のような処理が自動的に実行される：</p>
+<ul>
+<li>ユニットテストの自動更新</li>
+<li>コードドキュメントの生成</li>
+<li>認証情報やシークレットの漏洩チェック</li>
+</ul>
+<p>これにより、開発者は品質管理やセキュリティの担保をエージェントに任せ、コアな開発作業に集中できるようになる。</p>
+<h2>外部モデル接続と拡張性</h2>
+<p>KiroはModel Context Protocol（MCP）にも対応しており、AWSが提供する大規模言語モデル（LLM）だけでなく、Anthropic Claudeやその他の外部LLM、外部APIツールとも連携できる。これにより、プロジェクトに応じて最適なAIエージェント群を構成する柔軟性を備えている。</p>
+<p>また、MCPの採用により、複数のAIエージェントをプロジェクト横断で統制し、コード生成のコンテキストを維持したままやり取りができる設計になっている。</p>
+<p>Kiroは現時点ではパブリックプレビューとして無料提供されており、年内には有償プラン（月額19.99ドル）を導入予定だという。正式版ではLLMへの問い合わせ回数に応じた制限や追加機能の提供が計画されているとのこと。</p>
+<p>開発支援に特化したAIアシスタントとしては、AWSはすでに「Amazon Q Developer」を提供しているが、Kiroはこれとは異なり、プロジェクト全体を見渡しながら構造化された開発支援を行う点で明確に差別化されている。</p>
+]]></description>
+      <pubDate>Wed, 16 Jul 2025 08:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>荷物運搬を完全自動化　川崎重工のロボットポーター「FORRO」、三田ガーデンヒルズで国内最長6.6 kmルートを稼働開始</title>
       <link>https://ledge.ai/articles/robot_porter_forro_mita_kawasaki</link>
       <description><![CDATA[<p>川崎重工業は2025年7月7日、三井不動産レジデンシャルおよび三菱地所レジデンスが東京都港区にて共同開発した分譲マンション「三田ガーデンヒルズ」において、屋内配送用サービスロボット「FORRO（フォーロ）」を活用したロボットポーターサービス「FORRO PORTER」の本格稼働を開始したと<a href="https:%5Cu002F%5Cu002Fforro-service.com%5Cu002Fnews%5Cu002F7BL7Bn9i7QBpNT2VbkcTiT%5Cu002F">発表</a>{target=“_blank”}した。ロボットがマンション内で荷物を居住者の住戸前まで自動搬送するサービスで、延べ約6.6 kmに及ぶ館内ルートを4台のロボットが自律走行するという国内最大規模の導入例である。</p>
@@ -1124,30 +1164,6 @@ GPUクラウドサービスの事業開発からマーケティング、技術�
 <p>同社は今後、利用者向けのFAQやガイドラインの公開も予定しており、具体的な基準や判断基準についての詳細は順次明らかにされるとみられる。</p>
 ]]></description>
       <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MIXI、全社員2,000人に生成AI構築プラットフォーム「Google Agentspace」導入──情報統合と業務自動化で“創造の時間”を拡大へ</title>
-      <link>https://ledge.ai/articles/mixi_ai_agentspace_deployment</link>
-      <description><![CDATA[<p>MIXIは2025年7月7日、Google Cloudが提供するエンタープライズ向け生成AIプラットフォーム「Google Agentspace」を、全従業員約2,000人に導入したことを<a href="https:%5Cu002F%5Cu002Fmixi.co.jp%5Cu002Fnews%5Cu002F2025%5Cu002F0707%5Cu002F42850%5Cu002F">発表</a>{target=“_blank”}した。</p>
-<p>導入の目的は、社内に点在する情報資産の統合と、業務プロセスの自動化により、社員が創造的な業務に集中できる環境を構築することだという。同プラットフォームは、Googleの生成AI「Gemini」および検索技術を活用し、社内文書・メール・画像・動画などを横断的に検索・要約できる。</p>
-<h2>社内検証を経て全社展開へ</h2>
-<p>同社は2025年3月より一部社員を対象にGoogle Agentspaceの試験導入を行い、Google Cloudの支援のもとでエージェント設計と業務適用の検証を進めてきた。その結果、ナレッジベースの統合による業務効率化と検索性向上が確認されたことから、全社員への展開を決定したという。</p>
-<p>対象はMIXIのドメインを持つ全正社員、契約社員、アルバイト、派遣社員、業務委託社員におよび、約2,000人が利用可能となる。</p>
-<h2>Google Agentspaceの機能と役割</h2>
-<p>Google Agentspaceは、企業データを基盤に生成AIエージェントを構築できるプラットフォームであり、次のような機能が提供されている：</p>
-<ul>
-<li><strong>統合検索</strong> ：ドキュメント、スプレッドシート、メール、画像、動画など社内外のファイルを横断的に検索し、根拠付きで回答を生成。</li>
-<li><strong>業務自動化</strong> ：日報や企画書の作成、議事録の要約などをAIが支援。</li>
-<li><strong>ローコード開発</strong> ：従業員がノーコード・ローコードで独自のAIエージェントを作成・共有可能。</li>
-<li><strong>情報資産の可視化</strong> ：ナレッジの属人化を防ぎ、再利用性の高い知見を全社的に蓄積。</li>
-</ul>
-<p>MIXIは、このような機能を活用することで、従来業務にかかっていた検索や確認の手間を削減し、社員がより価値の高い業務に集中できる体制を整えると説明している。</p>
-<h2>今後の活用と展望</h2>
-<p>今後はGoogle Cloudとの協力体制のもと、社内向けの教育・研修プログラムを通じて、全社員のAIリテラシーを底上げするとともに、業務部門ごとに最適化されたエージェントの活用を推進する。また、生成AIの利活用によって、同社が手がける新たなサービスやユーザー体験の創出にもつなげていく方針だ。</p>
-<p>同社代表取締役社長の木村弘毅氏は、リリース内で以下のように述べている。
-「情報を探す時間や煩雑なやり取りを削減し、思考の質を高めたい。AI導入は効率化の手段だけでなく創造性への投資だ」</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title>
