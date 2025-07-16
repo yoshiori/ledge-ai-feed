@@ -324,17 +324,13 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
     static STANDALONE_TARGET_BLANK_PATTERN: Lazy<Regex> =
         Lazy::new(|| Regex::new(r#"\{target="_blank"\}"#).unwrap());
 
-    // Apply all filtering in sequence
-    let result = SMALL_PATTERN.replace_all(markdown, "").to_string();
-    let result = BOX_PATTERN.replace_all(&result, "").to_string();
-    let result = LINK_TARGET_BLANK_PATTERN
-        .replace_all(&result, "]($1)")
-        .to_string();
-    let result = STANDALONE_TARGET_BLANK_PATTERN
-        .replace_all(&result, "")
-        .to_string();
+    // Apply all filtering in sequence, minimizing string allocations
+    let result = SMALL_PATTERN.replace_all(markdown, "");
+    let result = BOX_PATTERN.replace_all(&result, "");
+    let result = LINK_TARGET_BLANK_PATTERN.replace_all(&result, "]($1)");
+    let result = STANDALONE_TARGET_BLANK_PATTERN.replace_all(&result, "");
 
-    result
+    result.into_owned()
 }
 
 #[cfg(test)]
