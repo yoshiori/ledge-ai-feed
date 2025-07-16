@@ -301,8 +301,8 @@ fn extract_date_from_json_ld(html: &str) -> Option<String> {
 }
 
 pub fn markdown_to_html(markdown: &str) -> String {
-    // First, preprocess markdown to handle custom extensions
-    let preprocessed = preprocess_markdown_extensions(markdown);
+    // First, preprocess markdown to handle custom extensions and content filtering
+    let preprocessed = preprocess_markdown_content(markdown);
 
     let parser = Parser::new(&preprocessed);
     let mut html_output = String::new();
@@ -310,20 +310,31 @@ pub fn markdown_to_html(markdown: &str) -> String {
     html_output
 }
 
-/// Preprocess markdown to handle custom extensions like {target="_blank"}
-fn preprocess_markdown_extensions(markdown: &str) -> String {
+/// Integrated markdown preprocessing that handles all content filtering
+/// This replaces both content_filter::filter_content and preprocess_markdown_extensions
+pub fn preprocess_markdown_content(markdown: &str) -> String {
     use once_cell::sync::Lazy;
     use regex::Regex;
 
-    // Compile regex pattern once using Lazy static initialization
-    static TARGET_BLANK_PATTERN: Lazy<Regex> =
+    // Compile all regex patterns once using Lazy static initialization
+    static SMALL_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::small[\s\S]*?:::").unwrap());
+    static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").unwrap());
+    static LINK_TARGET_BLANK_PATTERN: Lazy<Regex> =
         Lazy::new(|| Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap());
+    static STANDALONE_TARGET_BLANK_PATTERN: Lazy<Regex> =
+        Lazy::new(|| Regex::new(r#"\{target="_blank"\}"#).unwrap());
 
-    // Handle {target="_blank"} syntax in markdown links
-    // Convert [text](url){target="_blank"} to [text](url) (remove the attribute)
-    TARGET_BLANK_PATTERN
-        .replace_all(markdown, "]($1)")
-        .to_string()
+    // Apply all filtering in sequence
+    let result = SMALL_PATTERN.replace_all(markdown, "").to_string();
+    let result = BOX_PATTERN.replace_all(&result, "").to_string();
+    let result = LINK_TARGET_BLANK_PATTERN
+        .replace_all(&result, "]($1)")
+        .to_string();
+    let result = STANDALONE_TARGET_BLANK_PATTERN
+        .replace_all(&result, "")
+        .to_string();
+
+    result
 }
 
 #[cfg(test)]
@@ -370,11 +381,82 @@ mod tests {
     }
 
     #[test]
-    fn test_preprocess_markdown_extensions() {
+    fn test_preprocess_markdown_content_handles_markdown_links() {
         let markdown = r#"Here is a [link](https://example.com){target="_blank"} and another [link](https://other.com){target="_blank"}."#;
-        let result = preprocess_markdown_extensions(markdown);
+        let result = preprocess_markdown_content(markdown);
         let expected =
             r#"Here is a [link](https://example.com) and another [link](https://other.com)."#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_standalone_target_blank() {
+        // Test standalone {target="_blank"} patterns that are not part of markdown links
+        let markdown = r#"Some text [link](https://example.com){target="_blank"} and then {target="_blank"} more text"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"Some text [link](https://example.com) and then  more text"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_mixed_patterns() {
+        // Test mixed patterns: links with target="_blank" and standalone target="_blank"
+        let markdown = r#"Check [this](https://example.com){target="_blank"} and{target="_blank"}that{target="_blank"}"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"Check [this](https://example.com) andthat"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_integrates_all_filtering() {
+        // Test that the new integrated function handles all patterns
+        let markdown = r#"
+Some content here.
+
+:::small
+画像の出典：GPT-4oによりLedge.aiが生成
+:::
+
+More content with a [link](https://example.com){target="_blank"} here.
+
+:::box
+関連記事：NECとさくらインターネットが協業、生成AIプラットフォーム分野でcotomiを拡張
+:::
+
+Text with{target="_blank"}standalone pattern.
+
+Final content.
+        "#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"
+Some content here.
+
+
+
+More content with a [link](https://example.com) here.
+
+
+
+Text withstandalone pattern.
+
+Final content.
+        "#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_removes_small_patterns() {
+        let markdown = "Some text :::small\n画像の出典：GPT-4oによりLedge.aiが生成\n::: more text";
+        let result = preprocess_markdown_content(markdown);
+        let expected = "Some text  more text";
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_removes_box_patterns() {
+        let markdown = "Some text :::box\n関連記事：NECとさくらインターネットが協業\n::: more text";
+        let result = preprocess_markdown_content(markdown);
+        let expected = "Some text  more text";
         assert_eq!(result, expected);
     }
 
