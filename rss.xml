@@ -7,26 +7,17 @@
     <item>
       <title>AWS、仕様駆動型AI IDE「Kiro」を正式発表──“プロンプトから本番まで”エージェントが伴走</title>
       <link>https://ledge.ai/articles/aws_ai_ide_kiro_release</link>
-      <description><![CDATA[<p>:::sma
-ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
-:::</p>
-<p>Amazon Web Services（AWS）は2025年7月14日、AIエージェントを中核に据えた新しい統合開発環境（IDE）「Kiro（キロ）」を<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">発表</a>{target=“_blank”}した。</p>
+      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年7月14日、AIエージェントを中核に据えた新しい統合開発環境（IDE）「Kiro（キロ）」を<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">発表</a>{target=“_blank”}した。</p>
 <p>Kiroは、開発初期の曖昧なアイデアを、プロンプト1つで本番環境レベルのコードへと変換することを狙ったツールだ。プロダクト開発における「仕様と実装の乖離」問題に対処するため、仕様駆動型の設計支援機能を搭載しているという。現在パブリックプレビュー中で、<a href="https:%5Cu002F%5Cu002Fkiro.dev">公式サイト</a>{target=“_blank”}から無料でダウンロード可能となっている。</p>
 <h2>AIエージェントを前提とした“Agentic IDE”</h2>
 <p>Kiroは「Agentic IDE（エージェント的なIDE）」を掲げ、AIが設計からコーディング、テスト、ドキュメント生成に至る開発プロセス全体を支援する。OSS版Visual Studio Code（Code OSS）をベースとしており、既存のVS Code拡張機能やOpen VSXレジストリの資産をそのまま活用できる。</p>
 <p>デスクトップアプリとして提供され、Mac・Windows・Linuxに対応している。ユーザーはGitHubやGoogleアカウントなどを用いたSSO（シングルサインオン）でログイン可能だ。</p>
 <p><strong>AWSが取り組んでいるeコマースアプリの例</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_1_app_72308f4e1e%5Cu002Fcompressed_1_app_72308f4e1e.gif" alt="compressed_1-app.gif" />
-:::sma
-ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
-:::</p>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_1_app_72308f4e1e%5Cu002Fcompressed_1_app_72308f4e1e.gif" alt="compressed_1-app.gif" /></p>
 <p>Kiroの中心的な機能は、自然言語による単一プロンプトを出発点として、要件定義（Requirements）、設計ドキュメント（Design）、およびタスクリスト（Task List）を自動的に生成する「Spec-Driven Development（仕様駆動開発）」にある。</p>
 <p>これにより、開発者は「こんなアプリを作りたい」という抽象的な構想を与えるだけで、仕様に基づいたタスクが提示され、コード実装を進めやすくなるという。</p>
 <p><strong>Kiroの要件仕様</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_2_reqs_f094da7ae6%5Cu002Fcompressed_2_reqs_f094da7ae6.gif" alt="compressed_2-reqs.gif" />
-:::sma
-ll画像の出典：<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">AWS</a>
-:::</p>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcompressed_2_reqs_f094da7ae6%5Cu002Fcompressed_2_reqs_f094da7ae6.gif" alt="compressed_2-reqs.gif" /></p>
 <h2>仕様とコードの断絶を埋めるEARS記法と「Hook」</h2>
 <p>Kiroは仕様記述にEARS（Easy Approach to Requirements Syntax）という形式を採用しており、要件の明確化とエッジケースの網羅性を重視している。これにより、曖昧な記述による実装ミスや意図の取り違えを最小限に抑える狙いがある。</p>
 <p>さらに、Kiroは「Hook」と呼ばれるイベント駆動型の自動処理機能を搭載しており、ファイルの保存、生成、削除、Gitへのコミットなどのタイミングで、以下のような処理が自動的に実行される：</p>
