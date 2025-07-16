@@ -7,6 +7,8 @@ static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").
 static TARGET_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r#"\{target="_blank"\}"#).unwrap());
 static TARGET_ENCODED_PATTERN: Lazy<Regex> =
     Lazy::new(|| Regex::new(r#"\{target=&quot;_blank&quot;\}"#).unwrap());
+static TARGET_DOUBLE_ENCODED_PATTERN: Lazy<Regex> =
+    Lazy::new(|| Regex::new(r#"\{target=&amp;quot;_blank&amp;quot;\}"#).unwrap());
 
 /// Content filter for cleaning up RSS article content
 /// Removes unwanted patterns like image attributions, related article boxes, and link attributes
@@ -16,6 +18,9 @@ pub fn filter_content(content: &str) -> String {
     let result = BOX_PATTERN.replace_all(&result, "").to_string();
     let result = TARGET_PATTERN.replace_all(&result, "").to_string();
     let result = TARGET_ENCODED_PATTERN.replace_all(&result, "").to_string();
+    let result = TARGET_DOUBLE_ENCODED_PATTERN
+        .replace_all(&result, "")
+        .to_string();
     result
 }
 
@@ -101,6 +106,25 @@ Final content.
         // Test HTML-encoded {target="_blank"} pattern
         let content = r#"<a href="https://example.com">link</a>{target=&quot;_blank&quot;} text"#;
         let expected = r#"<a href="https://example.com">link</a> text"#;
+        let result = filter_content(content);
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_remove_double_encoded_target_blank() {
+        // Test double HTML-encoded {target="_blank"} pattern as seen in actual RSS
+        let content =
+            r#"<a href="https://example.com">発表</a>{target=&amp;quot;_blank&amp;quot;}した"#;
+        let expected = r#"<a href="https://example.com">発表</a>した"#;
+        let result = filter_content(content);
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_remove_all_target_blank_variants() {
+        // Test all three variants of target="_blank" in one content
+        let content = r#"Link1{target="_blank"} Link2{target=&quot;_blank&quot;} Link3{target=&amp;quot;_blank&amp;quot;} end"#;
+        let expected = r#"Link1 Link2 Link3 end"#;
         let result = filter_content(content);
         assert_eq!(result, expected);
     }
