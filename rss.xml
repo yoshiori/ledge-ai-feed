@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>テスラ車に xAI の新チャットボット「Grok」実装　まずは米国・最新モデルから配信開始</title>
+      <link>https://ledge.ai/articles/tesla_ai_grok_ota_us_launch</link>
+      <description><![CDATA[<p>テスラは2025年7月12日、自社開発の電気自動車に対し、イーロン・マスク氏が率いるAI企業xAIが開発した対話型AI「Grok」のベータ版を車載インフォテインメントシステムに統合したと<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002FTesla%5Cu002Farticle%5Cu002F1944049704276283456">発表</a>{target=“_blank”}した。</p>
+<p>ソフトウェア更新「2025.26」にて配信を実施。米国市場における全モデルが対象となる。新車は同日以降に標準搭載され、既存車両もOTA（Over-the-Air）経由で段階的に対応するとのこと。GrokはApp Launcherまたはステアリングの音声ボタン長押しで起動し、Premium ConnectivityもしくはWi-Fi接続が利用の条件となる。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FGvqmeg8_Ww_A_Agmi_K_8d8313ae4b%5Cu002FGvqmeg8_Ww_A_Agmi_K_8d8313ae4b.jpg" alt="Gvqmeg8WwAAgmiK.jpg" /></p>
+<h2>Grok搭載の全容と提供条件</h2>
+<p>Grokは、xAIが提供する大規模言語モデルベースのチャットAIで、車内スクリーン上でテキストチャット形式のやりとりが可能となる。リリース当初の段階では雑談や情報検索、要約などの機能に限られており、車両の制御コマンド（ナビ、エアコン操作など）には対応していない。既存の音声認識機能とは分離して動作する構成である。</p>
+<p>同機能は米国内の次の条件を満たす車両で提供される：</p>
+<ul>
+<li>モデルS／3／X／YおよびCybertruck</li>
+<li>AMD製インフォテインメントCPUを搭載した車両</li>
+<li>ソフトウェアバージョン2025.26以降</li>
+<li>Premium Connectivity契約またはWi-Fi環境</li>
+</ul>
+<p>7月12日以降に米国で納車される車両にはプリインストール済みで出荷され、それ以前に納車された車両にはOTAアップデートとして段階的に展開される。
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FGvqm_Ld_W_Xs_A_Abrsn_a7d1697c5e%5Cu002FGvqm_Ld_W_Xs_A_Abrsn_a7d1697c5e.jpg" alt="GvqmLdWXsAAbrsn.jpg" /></p>
+<h2>起動方法とUI仕様</h2>
+<p>Grokは、インフォテインメント中央スクリーンの「App Launcher」から、あるいはステアリングホイールの音声ボタンを長押しすることで起動可能である。ユーザーは対話形式で質問を入力し、AIが即時にテキストで応答する仕組みとなっている。チャット履歴は車両には保存されず、xAIサーバー上で匿名処理される。xAIアカウントとの連携も選択可能だが、ログインなしでも利用できる。</p>
+<h2>今後の展望と業界動向</h2>
+<p>今回のGrok搭載は、2025年7月10日に発表されたばかりの「<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fgrok4_xai_ai_model_launch">Grok 4</a>」モデルの直後に実施された。マスク氏は、今後テスラとxAIの関係を深める構想を公言しており、11月6日に予定されているテスラ株主総会ではxAIへの出資を議題として提起する意向も示されている。</p>
+<p>車載AIの分野では、メルセデス・ベンツがOpenAIのChatGPTを統合した音声アシスタントを2023年から導入しており、BMWやヒュンダイなどもAmazonのLLM連携を進めている。テスラはそれらに対抗する形で、独自AIを自社車両に標準実装し、エッジ端末でのAI活用を推進する構えだ。</p>
+<p>将来的には、Grokによるナビ設定やエアコン操作など車両制御への統合、また家庭用ロボット「Optimus」とのAI連携によるエコシステム構築なども見込まれており、同社のAI戦略の中核技術と位置付けられている。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Ftesla_optimus_grot_37041f84fc%5Cu002Ftesla_optimus_grot_37041f84fc.jpg" alt="tesla optimus grot.jpg" /></p>
+<p>:::box
+[関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？──xAIが7月8日の \</p>
+]]></description>
+      <pubDate>Tue, 15 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChromeとCometに照準──無料＆ローカルAIで OpenAI・Claude・Gemini・Ollamaを一括活用するOSSブラウザ「BrowserOS」登場</title>
       <link>https://ledge.ai/articles/rowseros_targets_chrome_and_comet</link>
       <description><![CDATA[<p>2025年7月12日（米国時間）、Y Combinatorに<a href="https:%5Cu002F%5Cu002Fwww.ycombinator.com%5Cu002Fcompanies%5Cu002Fbrowseros">採択</a>{target=“_blank”}されたスタートアップ BrowserOS AI は、オープンソースの新型AIブラウザ「BrowserOS」最新版v0.12.1をGitHub上で<a href="https:%5Cu002F%5Cu002Fgithub.com%5Cu002Fbrowseros-ai%5Cu002FBrowserOS">公開</a>{target=“_blank”}した。</p>
@@ -1011,31 +1040,6 @@ GPUクラウドサービスの事業開発からマーケティング、技術�
 <p>また、デジタル庁や内閣官房AI戦略チームなどと連携しながら、産業界・教育機関・自治体を横断する形で活用促進とリスク管理を両立させる必要性も強調されている。</p>
 ]]></description>
       <pubDate>Thu, 10 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本オラクル、AIとソブリンクラウド運用を支援する「ジャパン・オペレーション・センター」開設</title>
-      <link>https://ledge.ai/articles/oracle_japan_ai_sov_cloud_center</link>
-      <description><![CDATA[<p>日本オラクルは2025年7月8日、日本企業におけるAI活用とソブリンクラウド導入を加速させることを目的に、「ジャパン・オペレーション・センター」を東京に開設したと<a href="https:%5Cu002F%5Cu002Fwww.oracle.com%5Cu002Fjp%5Cu002Fnews%5Cu002Fannouncement%5Cu002Foracle-opens-japan-operations-center-to-accelerate-adoption-of-sovereign-cloud-and-ai-2025-07-08%5Cu002F">発表</a>{target=“_blank”}した。</p>
-<p>新センターは24時間365日体制で稼働し、日本国内のエンジニアが運用支援を担当する。これは、同社が2024年に発表した10年間で80億米ドル以上を日本に投資する計画の一環とされ、企業のデータ主権や法規制対応を重視した体制を整える狙いがあるという。</p>
-<h2>国内のAI・クラウド需要に対応する新たな拠点</h2>
-<p>ジャパン・オペレーション・センターは、以下のような機能と目的を持つ。</p>
-<ul>
-<li>24時間365日の運用監視と支援：国内在住のエンジニアによってクラウドインフラの運用が担われる。</li>
-<li>データ主権・法令遵守の確保：センターの運用プロセスは、日本国内法および各種業界規制に対応。</li>
-<li>Oracle Alloyパートナー企業への支援：クラウド基盤を活用する国内パートナーに対し、ノウハウやエンジニアリング支援を提供。</li>
-<li>国内人材の強化と育成：AI・クラウド専門チームの拡充により、より高度な技術支援を目指す。</li>
-</ul>
-<h2>背景には生成AIとソブリンクラウドのニーズ増加</h2>
-<p>日本国内では、機密性の高いデータを国内に保持しつつ生成AIを活用したいという要望が政府機関や金融機関、製造業などで高まっている。これに対応するため、同社は2024年4月、国内クラウド基盤の強化と人員増強を含む80億ドル規模の投資計画を公表しており、今回のセンター開設はその中核施策と位置づけられる。</p>
-<h2>パートナー企業の評価と今後の展開</h2>
-<p>発表に際し、Oracle Alloyの国内パートナー企業もエンドースメントを表明している。</p>
-<ul>
-<li><strong>富士通株式会社</strong> ：ジャパン・オペレーション・センターの設立により、「ハイパースケーラー同等の機能を備えつつ、経済安全保障リスクにも対応した国産ソブリンクラウドの実現が可能になる」とコメント。</li>
-<li><strong>株式会社NTTデータ</strong> ：同社のソブリンクラウド基盤「OpenCanvas」にOracle Alloyを組み込み、安全な生成AI活用を推進していく方針を示した。</li>
-</ul>
-<p>同社は今後、同センターを中核拠点として、日本国内におけるクラウドリージョンの拡張とAIインフラの強化を進める計画である。企業のミッションクリティカルな業務基盤のクラウド化や生成AI導入支援を通じ、「AI時代における持続的なビジネス成長」を支えるとしている。</p>
-]]></description>
-      <pubDate>Thu, 10 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/10 [THU]拡散モデルベースLLM「Mercury」登場：“描くような生成”で推論を加速、GPT-4.1 Nanoの7倍速——Inception Labsが一般チャット向けモデルを公開</title>
