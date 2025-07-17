@@ -3,24 +3,13 @@ use regex::Regex;
 use scraper::{Html, Selector};
 
 pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error::Error>> {
-    let document = Html::parse_document(html);
-
-    // Try multiple approaches to extract content
-
-    // 1. Try to extract from script tags with various patterns
+    // Extract from script tags (Ledge.ai uses Nuxt.js with __NUXT__ object)
     if let Ok(content) = extract_from_script_tags(html) {
         if content.len() > 100 {
             // Final cleanup: remove any remaining {target="_blank"} patterns
             let cleaned_content = content.replace(r#"{target="_blank"}"#, "");
             return Ok(cleaned_content);
         }
-    }
-
-    // 2. Try to extract from standard HTML content areas
-    if let Ok(content) = extract_from_html_content(&document) {
-        // Final cleanup: remove any remaining {target="_blank"} patterns
-        let cleaned_content = content.replace(r#"{target="_blank"}"#, "");
-        return Ok(cleaned_content);
     }
 
     Err("Article content not found".into())
@@ -154,46 +143,6 @@ fn extract_date_from_nuxt_object(html: &str) -> Option<String> {
     }
 
     None
-}
-
-fn extract_from_html_content(document: &Html) -> Result<String, Box<dyn std::error::Error>> {
-    // Try Ledge.ai specific content selectors first
-    let content_selectors = [
-        ".article-body",    // Ledge.ai article body
-        ".post-body",       // Post body
-        ".content-body",    // Content body
-        "article .content", // Article content
-        ".entry-content",   // Entry content
-        "main article",     // Main article
-        "article",          // Generic article
-        ".post-content",    // Post content
-        "main",             // Main content area
-        "[role='main']",    // Main role
-    ];
-
-    for selector_str in &content_selectors {
-        if let Ok(selector) = Selector::parse(selector_str) {
-            for element in document.select(&selector) {
-                let content = element.text().collect::<Vec<_>>().join(" ");
-
-                // More lenient filtering - just check basic length
-                if content.len() > 300 {
-                    // Basic cleanup for common UI elements and remove {target="_blank"} patterns
-                    let cleaned = content
-                        .replace("クリップする", "")
-                        .replace("アクセスランキング", "")
-                        .replace("関連記事", "")
-                        .replace("人気のタグ", "")
-                        .replace("FOLLOW US", "")
-                        .replace(r#"{target="_blank"}"#, "");
-
-                    return Ok(format!("# Article Content\n\n{}", cleaned.trim()));
-                }
-            }
-        }
-    }
-
-    Err("No content found in HTML".into())
 }
 
 pub fn extract_article_date(html: &str) -> Option<String> {
@@ -345,27 +294,6 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
-
-    #[test]
-    fn test_extract_article_content() {
-        let html = r###"
-            <html>
-                <head>
-                    <script>
-                        var data = {"body": "# Test Article\\n\\nThis is a test article with sufficient content to pass the length check. This content is long enough to be considered substantial and will be extracted successfully by our content extraction algorithm. Additional content to ensure it meets the 300 character minimum requirement for our regex pattern matching system."};
-                    </script>
-                </head>
-                <body>
-                    <div>Navigation</div>
-                    <main>Article content with enough text to pass the 300 character minimum requirement for substantial content extraction in our HTML parsing function. This main content area contains substantial text that should be extracted when script extraction fails. Additional text to ensure length requirements are met.</main>
-                </body>
-            </html>
-        "###;
-
-        let content = extract_article_content(html).unwrap();
-        assert!(content.len() > 100); // Just check that we got substantial content
-        assert!(content.contains("Test Article") || content.contains("Article content"));
-    }
 
     #[test]
     fn test_markdown_to_html() {
