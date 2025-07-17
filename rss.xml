@@ -408,54 +408,6 @@
       <pubDate>Mon, 14 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title>
-      <link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link>
-      <description><![CDATA[<p>半導体企業のAMDは2025年7月9日、公式ブログにて、独自開発の画像生成AIモデル「Nitro-T」を<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">発表</a>{target=“_blank”}した。AMDリサーチチームが開発したこのモデルは、MI300X GPUを最大限に活用し、わずか24時間未満でゼロからの学習が可能な効率的な拡散モデルだという。学習済みモデルとコードの両方がオープンソースで公開されており、開発者や研究者による再利用や応用が容易となっている。</p>
-<h2>高効率を支える4つの技術要素</h2>
-<p>Nitro-Tの効率性は、ハードウェアに加え、以下4つの技術的要素によって支えられている。</p>
-<h3>1. 安定した学習と高速収束技術</h3>
-<ul>
-<li>Representation Alignment（REPA）</li>
-<li>Progressive training（段階的学習）</li>
-<li>学習後半のEMA（指数移動平均）</li>
-</ul>
-<h3>2. パッチ長の削減技術</h3>
-<ul>
-<li>Deferred patch masking</li>
-<li>高圧縮潜在空間（32×のDC-AE）</li>
-</ul>
-<h3>3. モデル構造とデータ</h3>
-<ul>
-<li>軽量テキストエンコーダ（Llama 3.2 1B）</li>
-<li>合成データの活用（JourneyDB など）</li>
-</ul>
-<h3>4. システム最適化</h3>
-<ul>
-<li>torch.compile の利用</li>
-<li>Flash Attention</li>
-<li>Fully Sharded Data Parallel（FSDP）</li>
-</ul>
-<p><strong>図１：Nitro-Tの高効率学習を支える技術的要素</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_1_1799ea6862%5Cu002FNT_1_1799ea6862.png" alt="NT1.png" /></p>
-<h2>トレーニングと推論で業界トップクラスの効率性を実現</h2>
-<p>Nitro-Tの最大の特徴は、従来モデルと比較して極めて低い学習コストと高速な推論性能にあるという。たとえば、PixArt-αと比較して、同等の画質を保ちつつ、学習にかかるGPU時間は14.4分の1にまで削減されている。さらに、推論レイテンシもPixArt-αやStable Diffusion XLの4分の1以下に抑えられている。</p>
-<p><strong>図２：左：トレーニングにかかるGPU時間比較（MI300X換算）、右：1画像あたりの推論レイテンシ比較（ms）</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_2_01566a1e5a%5Cu002FNT_2_01566a1e5a.png" alt="NT2.png" /></p>
-<h2>モデル構成と学習条件</h2>
-<p>Nitro-Tは2種類のモデルが公開されている。</p>
-<ul>
-<li>Nitro-T-0.6B：DiTベース、画像解像度512px、パラメータ数0.6B</li>
-<li>Nitro-T-1.2B：MMDiTベース、画像解像度1024px、パラメータ数1.2B</li>
-</ul>
-<p>学習はMI300X 32基（4ノード）構成のSupermicroサーバ上で行われ、約3,500万枚の画像（実画像と合成データを含む）を用いて、それぞれ440～520 GPU時間で学習を完了している。</p>
-<h2>今後の展望</h2>
-<p>AMDはNitro-Tを通じて、MI300Xを核としたAIエコシステムの展開を強化していく方針を示している。同社は、Nitro-Tの公開によって「効率的なテキスト・画像生成AIの研究・開発がより多くのチームに開かれたものになる」としており、Apache-2.0ライセンスのもとでモデル重み・コード・学習スクリプト・Dockerイメージを広く公開している。</p>
-<p>同社によれば、「Nitro-Tは学習時間と推論性能の両面で、現代的な生成AIモデルが直面する最大の制約を克服することを目的として設計された」とし、特にGPU資源の限られた研究者や開発者でも活用可能な実用的な基盤モデルとして位置付けている。</p>
-<p>AMDは今後、Nitro-Tを起点とした研究や応用開発の促進を期待しており、オープンソース戦略によって、MI300Xの活用機会を広げる狙いを明確にしている。</p>
-]]></description>
-      <pubDate>Mon, 14 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、フロンティアAI開発者向け「透明性フレームワーク」を提案──安全開発を義務化する“Secure Development Framework”を柱に</title>
       <link>https://ledge.ai/articles/anthropic_transparency_framework_ai_regulation</link>
       <description><![CDATA[<p>大規模言語モデル「Claude」を手がけるAnthropicは2025年7月8日、最先端の大規模AIモデル（フロンティアAI）の開発者に対し、安全性と説明責任を確保するための新たな透明性基準「Targeted Transparency Framework」を<a href="https:%5Cu002F%5Cu002Fwww.anthropic.com%5Cu002Fnews%5Cu002Fthe-need-for-transparency-in-frontier-ai">公表</a>{target=“_blank”}した。</p>
@@ -593,6 +545,75 @@
       <pubDate>Sat, 12 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
+      <link>https://ledge.ai/articles/dentsu_japan_ai_center_launch</link>
+      <description><![CDATA[<p>電通グループの国内主要5社は2025年7月7日、AI開発と活用を横断的に推進する新組織「dentsu Japan AIセンター」を発足したことを<a href="https:%5Cu002F%5Cu002Fwww.dentsu.co.jp%5Cu002Fnews%5Cu002Frelease%5Cu002F2025%5Cu002F0707-010909.html">発表</a>{target=“_blank”}した。同センターは約1,000名のAI専門人材を擁し、グループおよび顧客企業の全社的なAI変革を加速させることを目的としている。</p>
+<h2>AI変革を牽引する中核組織</h2>
+<p>同センターは、AIを単なる業務効率化手段ではなく、企業の経営・組織そのものを変革する中核要素と位置づけており、グループ横断でのリソース統合により、迅速かつ高度なAI活用を図るとしている。これにより、従来は部門ごとに分散していたAI導入の取り組みを、経営層・技術部門・事業部門が一体となって推進する体制が整備されることになる。</p>
+<h2>主な活動領域とユニット構成</h2>
+<p>dentsu Japan AIセンターは、以下6つの専門ユニットを設けており、それぞれの領域でAI技術の導入と価値創出に取り組む：</p>
+<ul>
+<li><strong>AI業務効率化ユニット</strong> ：グループ内向けのAIツール開発・導入を担い、生産性向上を推進</li>
+<li><strong>AIマーケティング＆クリエイティブ高度化ユニット</strong> ：広告制作・メディア運用におけるAI活用を支援</li>
+<li><strong>統合マーケティングAIエージェント開発ユニット</strong> ：複数のAIアプリを統合するエージェント技術を開発</li>
+<li><strong>AI・データインフラ強化ユニット</strong>：電通独自のデータ基盤「People Model」などのインフラを拡張</li>
+<li><strong>AIマーケティングトランスフォーメーション（AIMX）ユニット</strong> ：顧客企業のマーケティング変革を支援</li>
+<li><strong>AIトランスフォーメーションユニット</strong> ：経営・人事・営業など非マーケティング領域のAI導入を支援</li>
+</ul>
+<h2>ガバナンス体制と外部連携</h2>
+<p>同センターは、グループ内のAI利用ルールを策定・管理する「dentsu Japan AIガバナンスコミッティ」と連携し、ガバナンスと実装の両面でAI活用の高度化を進める。また、大学・研究機関との共同研究成果を取り込むことで、先端技術の実用化を図る構えだ。</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title>
+      <link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link>
+      <description><![CDATA[<p>半導体企業のAMDは2025年7月9日、公式ブログにて、独自開発の画像生成AIモデル「Nitro-T」を<a href="https:%5Cu002F%5Cu002Frocm.blogs.amd.com%5Cu002Fartificial-intelligence%5Cu002Fnitro-t-diffusion%5Cu002FREADME.html">発表</a>{target=“_blank”}した。AMDリサーチチームが開発したこのモデルは、MI300X GPUを最大限に活用し、わずか24時間未満でゼロからの学習が可能な効率的な拡散モデルだという。学習済みモデルとコードの両方がオープンソースで公開されており、開発者や研究者による再利用や応用が容易となっている。</p>
+<h2>高効率を支える4つの技術要素</h2>
+<p>Nitro-Tの効率性は、ハードウェアに加え、以下4つの技術的要素によって支えられている。</p>
+<h3>1. 安定した学習と高速収束技術</h3>
+<ul>
+<li>Representation Alignment（REPA）</li>
+<li>Progressive training（段階的学習）</li>
+<li>学習後半のEMA（指数移動平均）</li>
+</ul>
+<h3>2. パッチ長の削減技術</h3>
+<ul>
+<li>Deferred patch masking</li>
+<li>高圧縮潜在空間（32×のDC-AE）</li>
+</ul>
+<h3>3. モデル構造とデータ</h3>
+<ul>
+<li>軽量テキストエンコーダ（Llama 3.2 1B）</li>
+<li>合成データの活用（JourneyDB など）</li>
+</ul>
+<h3>4. システム最適化</h3>
+<ul>
+<li>torch.compile の利用</li>
+<li>Flash Attention</li>
+<li>Fully Sharded Data Parallel（FSDP）</li>
+</ul>
+<p><strong>図１：Nitro-Tの高効率学習を支える技術的要素</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_1_1799ea6862%5Cu002FNT_1_1799ea6862.png" alt="NT1.png" /></p>
+<h2>トレーニングと推論で業界トップクラスの効率性を実現</h2>
+<p>Nitro-Tの最大の特徴は、従来モデルと比較して極めて低い学習コストと高速な推論性能にあるという。たとえば、PixArt-αと比較して、同等の画質を保ちつつ、学習にかかるGPU時間は14.4分の1にまで削減されている。さらに、推論レイテンシもPixArt-αやStable Diffusion XLの4分の1以下に抑えられている。</p>
+<p><strong>図２：左：トレーニングにかかるGPU時間比較（MI300X換算）、右：1画像あたりの推論レイテンシ比較（ms）</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FNT_2_01566a1e5a%5Cu002FNT_2_01566a1e5a.png" alt="NT2.png" /></p>
+<h2>モデル構成と学習条件</h2>
+<p>Nitro-Tは2種類のモデルが公開されている。</p>
+<ul>
+<li>Nitro-T-0.6B：DiTベース、画像解像度512px、パラメータ数0.6B</li>
+<li>Nitro-T-1.2B：MMDiTベース、画像解像度1024px、パラメータ数1.2B</li>
+</ul>
+<p>学習はMI300X 32基（4ノード）構成のSupermicroサーバ上で行われ、約3,500万枚の画像（実画像と合成データを含む）を用いて、それぞれ440～520 GPU時間で学習を完了している。</p>
+<h2>今後の展望</h2>
+<p>AMDはNitro-Tを通じて、MI300Xを核としたAIエコシステムの展開を強化していく方針を示している。同社は、Nitro-Tの公開によって「効率的なテキスト・画像生成AIの研究・開発がより多くのチームに開かれたものになる」としており、Apache-2.0ライセンスのもとでモデル重み・コード・学習スクリプト・Dockerイメージを広く公開している。</p>
+<p>同社によれば、「Nitro-Tは学習時間と推論性能の両面で、現代的な生成AIモデルが直面する最大の制約を克服することを目的として設計された」とし、特にGPU資源の限られた研究者や開発者でも活用可能な実用的な基盤モデルとして位置付けている。</p>
+<p>AMDは今後、Nitro-Tを起点とした研究や応用開発の促進を期待しており、オープンソース戦略によって、MI300Xの活用機会を広げる狙いを明確にしている。</p>
+]]></description>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
       <link>https://ledge.ai/articles/context_engineering_deepmind</link>
       <description><![CDATA[<p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https:%5Cu002F%5Cu002Fwww.philschmid.de%5Cu002Fcontext-engineering">提起</a>{target=“_blank”}した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
@@ -626,28 +647,7 @@
 <p>筆者プロフィール
 フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
-      <link>https://ledge.ai/articles/dentsu_japan_ai_center_launch</link>
-      <description><![CDATA[<p>電通グループの国内主要5社は2025年7月7日、AI開発と活用を横断的に推進する新組織「dentsu Japan AIセンター」を発足したことを<a href="https:%5Cu002F%5Cu002Fwww.dentsu.co.jp%5Cu002Fnews%5Cu002Frelease%5Cu002F2025%5Cu002F0707-010909.html">発表</a>{target=“_blank”}した。同センターは約1,000名のAI専門人材を擁し、グループおよび顧客企業の全社的なAI変革を加速させることを目的としている。</p>
-<h2>AI変革を牽引する中核組織</h2>
-<p>同センターは、AIを単なる業務効率化手段ではなく、企業の経営・組織そのものを変革する中核要素と位置づけており、グループ横断でのリソース統合により、迅速かつ高度なAI活用を図るとしている。これにより、従来は部門ごとに分散していたAI導入の取り組みを、経営層・技術部門・事業部門が一体となって推進する体制が整備されることになる。</p>
-<h2>主な活動領域とユニット構成</h2>
-<p>dentsu Japan AIセンターは、以下6つの専門ユニットを設けており、それぞれの領域でAI技術の導入と価値創出に取り組む：</p>
-<ul>
-<li><strong>AI業務効率化ユニット</strong> ：グループ内向けのAIツール開発・導入を担い、生産性向上を推進</li>
-<li><strong>AIマーケティング＆クリエイティブ高度化ユニット</strong> ：広告制作・メディア運用におけるAI活用を支援</li>
-<li><strong>統合マーケティングAIエージェント開発ユニット</strong> ：複数のAIアプリを統合するエージェント技術を開発</li>
-<li><strong>AI・データインフラ強化ユニット</strong>：電通独自のデータ基盤「People Model」などのインフラを拡張</li>
-<li><strong>AIマーケティングトランスフォーメーション（AIMX）ユニット</strong> ：顧客企業のマーケティング変革を支援</li>
-<li><strong>AIトランスフォーメーションユニット</strong> ：経営・人事・営業など非マーケティング領域のAI導入を支援</li>
-</ul>
-<h2>ガバナンス体制と外部連携</h2>
-<p>同センターは、グループ内のAI利用ルールを策定・管理する「dentsu Japan AIガバナンスコミッティ」と連携し、ガバナンスと実装の両面でAI活用の高度化を進める。また、大学・研究機関との共同研究成果を取り込むことで、先端技術の実用化を図る構えだ。</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>“行動するAI”が現実に　2025年上半期のAIエージェントの現在地は</title>
@@ -803,60 +803,46 @@ AIエージェントにおける技術課題を問うと、「AIの可読性」�
 現在のAIエージェントは、これらの要素の一部を備え始めており、序盤で触れた「Coscientist」や「Figure 02」のように物理環境での実行まで踏み込んだ例は、AGIの実現につながる動きといえるであろう。</p>
 <p>AGIは、ある日突然訪れるような劇的な技術革新ではなく、AI技術の着実な進化の延長線上にある未来だ。AIエージェントが今後さらに成熟していく中で、私たちはこの先端技術とどう向き合い、どう共に働くのか、その姿勢が問われる時代に入りつつある。遠くない未来のために、今、どのような一歩を踏み出すべきかを考えなければならない。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>2025年のAI半導体を読む　王者NVIDIAと競合の現在地</title>
-      <link>https://ledge.ai/articles/expo-2025-summer-semiconductor</link>
-      <description><![CDATA[<p>2025年、AI半導体を巡る競争は次のステージへと突入した。GPU分野で圧倒的な地位を築いてきたエヌビディアは、AIインフラの中心的存在としての立場をさらに強化。一方で、中国や米国の競合企業もそれぞれの強みを武器に、差別化戦略を打ち出しはじめている。本記事では、NVIDIAの最新動向を軸に、AMD・Intel・Huaweiといったプレイヤーの動きも交えながら、2025年上半期のAI半導体業界を俯瞰する。</p>
-<h2>世界最大のGPU企業、AIブームの中核に立つエヌビディアの動向</h2>
-<p>エヌビディアは、アメリカ・カリフォルニア州に本社を置く半導体企業で、特にGPUの開発で世界的に知られている。GPUは言わずもがな、一度に大量のデータを高速処理できるハードウェアであり、AI開発・利用で不可欠な存在である。GPUはAIインフラの心臓部とも言える重要な部分を担っていることから、同社はAIブームの中心にいる企業ともいえる。</p>
-<h3>最新GPU「Blackwell」アーキテクチャとNVIDIA Dynamoの衝撃</h3>
-<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F1_6666bef6c2%5Cu002F1_6666bef6c2.png" alt="半導体_1.png" /></p>
-<p>エヌビディアは、主催する開発者向けの世界的な人工知能カンファレンスである“GTC 2025”でフアン氏は、次世代GPUアーキテクチャ「Blackwell」と前世代「Hopper」の最盛期出荷数とBlackwell初年度の出荷見込みを比較し、その驚異的な成長を指しつつ、「AIは変曲点にある」と語った。特に推論のワークロードにおいて、Blackwellは前世代のHopperより最大40倍の性能向上を実現しており、そのインパクトは計り知れない。</p>
-<p>特に注目すべきは、Blackwellが進化し、NVLink技術と液冷技術を採用した点だ。これにより、1ラックあたり最大1.4エクサフロップスという圧倒的な処理能力を発揮し、従来のエアフロー冷却の設計では実現し得なかった高密度・高効率なAIコンピューティングを可能にしている。</p>
-<p>こうした新アーキテクチャを支える中核技術として、エヌビディアは新たなオペレーティング・システム「NVIDIA Dynamo」を発表した。NVIDIA Dynamoは、生成AIを支える分散型推論フレームワークであり、オープンソースで提供されている。</p>
-<p>NVIDIA Dynamoの主な特徴は4点ある。</p>
+      <title>世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新　マスク氏「ネットにない難問も解ける」</title>
+      <link>https://ledge.ai/articles/grok4_xai_ai_model_launch</link>
+      <description><![CDATA[<p>イーロンマスク氏の率いるAIスタートアップxAIは2025年7月10日、X（旧Twitter）公式アカウントで最新大規模言語モデル「Grok 4」を<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fxai%5Cu002Fstatus%5Cu002F1943158495588815072">発表</a>{target=“_blank”}し、同時にライブ配信で詳細を公開した。前世代「Grok 3」から数カ月という超短サイクルでのモデル刷新となり、マスク氏は「インターネットにも書籍にも存在しない難問を解ける初のAIだ」と性能を強調している。</p>
+<h2>「世界最強」を標榜、リアルな工学課題を解決可能と説明</h2>
+<p>xAI公式アカウントは「世界で最も強力なAIモデル」としてGrok 4を紹介し、ライブ配信の視聴を呼びかけた。その後、イーロン・マスク氏自身もX上で「Grok 4は、現実世界の難しい工学的課題に対して、ネットにも書籍にも存在しない答えを導き出すことができた初のAIだ」と述べ、同モデルの性能を強調した。</p>
+<p><strong>図1　“Ludicrous rate of progress”──Grok 2からGrok 4に至る計算資源の10倍ステップアップを示したスライド</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_3_2b88dc0836%5Cu002Fmusk_grok4_3_2b88dc0836.jpg" alt="musk grok4-3.jpg" /></p>
+<h2>公表された性能指標──既存モデルを上回る結果も</h2>
+<p>xAIによれば、以下の主要ベンチマークでGrok 4は高い性能を示した（数値はすべて同社発表値）：</p>
+<h3>Humanity’s Last Exam（人類最後の試験）</h3>
+<p><strong>図2　総合推論テスト「Humanity’s Last Exam」全セット比較。Grok 4 Heavyは44.4%でトップスコアを記録</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_5_8a69f27997%5Cu002Fmusk_grok4_5_8a69f27997.jpg" alt="musk grok4-5.jpg" /></p>
+<h3>ARC-AGI（汎用人工知能測定ベンチマーク）</h3>
+<p><strong>図3　ARC-AGIベンチマークの精度‐コスト分布。Grok 4は精度66.6%でクラストップ帯に位置付けられた</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_7_5b67bb48af%5Cu002Fmusk_grok4_7_5b67bb48af.jpg" alt="musk grok4-7.jpg" /></p>
+<p><strong>図4　GPQAやAIME25など学術系コンペでもGrok 4／Grok 4 Heavyが軒並み首位に</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_6_90a347be60%5Cu002Fmusk_grok4_6_90a347be60.jpg" alt="musk grok4-6.jpg" /></p>
+<h2>Grok 4／Grok 4 Heavy──2ライン体制で展開</h2>
 <ul>
-<li>分散サービング：複数GPUノードでの効率的な処理分散を可能にし、スケーラビリティを確保</li>
-<li>GPUプランナー：GPUの使用状況をリアルタイムで監視し、動的にリソースを割り当てる</li>
-<li>スマートルーター：KVキャッシュの利用を考慮したルーティングが行われ、再計算の手間を最小限に抑える</li>
-<li>低遅延通信ライブラリ：GPU、CPU、ネットワーク、ストレージ間の連携を高速かつ簡素に実現する</li>
+<li><strong>Grok 4（標準）</strong> ：推論改善を目的に強化学習（RL）を追加。</li>
+<li><strong>Grok 4 Heavy</strong> ：複数エージェントで同一課題を並列解析し、回答を相互検証する上位版。
+開発者・パワーユーザー向けに月額300ドルの「SuperGrok Heavy」プランを新設。</li>
 </ul>
-<p>BlackwellとNVIDIA Dynamoの組み合わせは、エヌビディアが提唱する“AIファクトリー” の中核を担うとされており、AIの実装スピードと効率性を飛躍的に高める可能性を秘めている。</p>
-<h3>次世代GPU開発のロードマップ</h3>
-<p>エヌビディアは今後のGPU開発のロードマップを明らかにした。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2_f58845a790%5Cu002F2_f58845a790.png" alt="半導体_2.png" /></p>
-<p>まず2025年後半には、GB200 NVL72と比較すると1.5倍の性能を実現する「Blackwell Ultra」をリリース予定。さらに2026年には、HBM4メモリを採用し、高帯域（13TB\u002Fs）と省電力性を両立する「Rubin」、2027年には15エクサフロップスの演算性能を持つ「Rubin Ultra」が続く予定である。そして2028年、16個のGPUダイを搭載という前例のない構成を持つ「Feynman」が投入される計画だ。</p>
-<h3>エヌビディア株の暴落</h3>
-<p>2025年1月下旬、中国のスタートアップDeepSeekが、低コストで高性能なAIモデル「DeepSeek-R1」を発表し、ChatGPTを上回る性能を示した。これにより、エヌビディアの株価は一時17%下落し、約5890億ドル（約91兆円）の時価総額が失われるという、米国市場史上最大の単日損失となった。というのも、DeepSeekは高性能GPUの入手が制限される中、旧世代のエヌビディアGPUを活用し、効率的なAIモデルの開発に成功。DeepSeekがエヌビディアの最新GPUに依存しないAI開発の可能性を示したことで、同社の需要減少が懸念されたことが株価に影響した。</p>
-<h3>エヌビディアのハイブリッド計算の時代を見据えた動き</h3>
-<p>エヌビディアは、量子コンピューティングとAIスーパーコンピュータの融合を目指し、ボストンに「NVIDIA Accelerated Quantum Research Center（NVAQC）」を設立すると発表した。この研究施設では、量子ハードウェアとAIスーパーコンピュータを統合し、量子コンピューティングの実用化を加速することを目的としている。NVAQCには、NVIDIA Blackwell GPUを搭載したGB200 NVL72システムが導入され、量子アルゴリズムの大規模シミュレーションや量子エラー訂正の研究が行われる予定である。また、NVIDIAのCUDA-Qプラットフォームを活用し、GPU、CPU、QPUを組み合わせたハイブリッド量子アプリケーションの開発が進められる。</p>
-<p>この取り組みには、アメリカの量子コンピューティング企業であるQuantinuum、QuEra Computingや、イスラエルの量子コンピュータ開発スタートアップ Quantum Machines、ハーバード大学のHQI（Harvard Quantum Initiative）、マサチューセッツ工科大学のEQuS（Engineering Quantum Systems）グループが協力する。</p>
-<p>フアン氏は、2025年1月に「実用的な量子コンピュータの実現には数十年かかる」と発言していたが、3月のGTC2025ではその見解を修正し、量子コンピューティングの進展が予想以上に速いことを認めた。NVAQCの設立は、エヌビディアがAIと量子コンピューティングの融合による新たな計算時代を見据えた未来への投資であり、今後の技術革新において重要な役割を果たすことが期待される。</p>
-<h2>エヌビディアの対抗馬の動向は？</h2>
-<h3>AMD、同社初の視覚言語モデル「Instella-VL-1B」を発表</h3>
-<p>AMDは2025年3月、自社初となるマルチモーダルAIモデル「Instella-VL-1B」を発表。本モデルは、画像と言語の統合処理を目的としたVision-Language Model（VLM）であり、同社の生成AI向けGPU「Instinct MI300X」上でトレーニングされている。
-Instella-VL-1Bは、3億パラメータのビジョンエンコーダーと12億パラメータの言語モデルから構成され、合計15億パラメータを有する。視覚情報をテキスト化する2層のMLPで構成されており、エンコーダーにはCLIP ViT-L\u002F14-336、言語モデルには「OLMo 1B SFT」を採用している。トレーニングにはLLaVAやPixmoなどのデータセットに加え、表やグラフのデータセットであるM-PaperやDocStruct4Mといった文書理解系データも活用。これにより、Instella-VL-1BはOCRや文書解析においても高い精度を示し、同規模のオープンソースモデル（MiniCPM-V-2）を上回る性能を達成している。
-AMDは本モデルの重み、学習データ・データセットの詳細、コードなど、すべてオープンソースとして公開。同社は、AI時代のインフラをけん引する存在としての意志を示した。</p>
-<h3>インテル、次世代データセンター向けプロセッサ「Xeon 6」を発表</h3>
-<p>インテルは2025年2月、最新のデータセンター向けプロセッサ「Intel Xeon 6」シリーズを発表した。本シリーズは、「P-core（Performance-core）」モデルと、「E-core（Efficient-cores）」モデルの2タイプのCPUマイクロアーキテクチャから選択可能となっている。これにより、パフォーマンスと電力効率の両立を実現している。P-coreは主に高性能処理を要するAIやHPC向けの用途に適しており、E-coreは大規模なクラウド環境やエッジワークロードといったスケールアウトが求められる分野において力を発揮する。</p>
-<p>また、インテルは今回の発表において、電力効率と総保有コスト（TCO）削減の重要性を強調した。省電力性と高密度設計を両立させたE-coreモデルを通じて、持続可能性と運用コストの最適化を図る姿勢を明確にしている。Xeon 6は、変化し続けるデータセンターのニーズに対応するべく、消費電力・スケーラビリティなどの全方位での進化を体現するプロセッサと位置づけられる。Xeon 6シリーズの導入により、AI時代のデータセンターにおける性能と効率性の新たな基準を打ち立て、競合他社との差別化を図っている。</p>
-<h3>Huawei、AIチップ「Ascend 910C」でNVIDIA H100に挑戦</h3>
-<p>Huaweiは、AIチップ「Ascend 910C」の出荷を開始し、NVIDIAの「H100」に対抗する姿勢を見せた。DeepSeekが実施したテストによると、Ascend 910Cは、推論性能においてH100の約60%に相当する性能を示したという。このチップは、中国の半導体メーカーであるSMICの7nmプロセス（N+2）で製造されており、FP16精度で800TFLOPS、メモリ帯域幅は約3.2TB\u002Fsに達する。
-また、Huaweiは、Ascend 910Cを搭載した大規模AIクラスター「CloudMatrix 384」を発表。384基のAscend 910Cチップを搭載することで約300PFLOPSの能力を提供するとされている。これは、NVIDIA GB200 NVL72の約180PFLOPSを上回る性能を実現しているとされており、中国国内でのAIインフラの自立を加速させる狙いがある。一方で、電力効率には課題もある。消費電力がNVL72の3.9倍で、FLOP当たりの消費電力は2.3倍、メモリ帯域幅当たりの消費電力は1.8倍、メモリ容量当たりの消費電力は1.1倍と、電力効率が大きく劣る結果となっている。</p>
-<h2>半導体製造の動向は？</h2>
-<h3>TSMC、次世代1.4nmプロセス「A14」を2028年に量産開始へ</h3>
-<p>TSMCは、2025年4月の北米技術シンポジウムにおいて、次世代1.4nmプロセス「A14」を発表した。このプロセスは、同社の2nmプロセス「N2」と比較して、同じ消費電力で最大15%の速度向上、または同じ速度で最大30%の電力削減を実現し、トランジスタ密度も20%以上向上する。</p>
-<p>A14は、第二世代のGAA（Gate-All-Around）ナノシートトランジスタと、改良された「NanoFlex Pro」セルアーキテクチャを採用し、設計の柔軟性と性能効率を高めている。TSMCは、AI向けチップの需要増加に対応するため、A14プロセスを2028年に量産開始する予定であり、NVIDIAなどの顧客への供給を見込んでいる。</p>
-<h3>Rapidus、NEDOから2nm開発予算を承認取得</h3>
-<p>Rapidusは、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）より、2025年度の2nm半導体開発計画と予算の承認を受けた。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F3_cd13c15fce%5Cu002F3_cd13c15fce.png" alt="半導体_3.png" /></p>
-<p>この承認は、ポスト5G情報通信システム基盤強化研究開発事業の一環として、「日米連携に基づく2nm世代半導体の集積化技術と短TAT製造技術の研究開発」および「2nm世代半導体のチップレットパッケージ設計・製造技術開発」を対象としている 。
-北海道千歳市に建設中の製造拠点 “IIM” において、2025年4月から2nmプロセスの試作ラインを立ち上げ、同年7月中旬以降には初の試作チップを完成させる予定である 。これにより、2027年の量産開始を目指し、日本国内での先端半導体製造体制の確立を図っている。</p>
-<p>この取り組みは、国内の半導体産業の再興と、AIや高性能コンピューティング分野での国際競争力強化に向けた重要な一歩となる。</p>
+<h2>今後のロードマップ</h2>
+<p>Grok 4は、Grok 3からわずか数カ月で投入された。マスク氏は開発速度について「恐ろしく速い」と述べ、今後も短い間隔で新モデルを導入する意向を示した。さらに、以下のようなロードマップも明らかにされている：</p>
+<ul>
+<li>7月中旬以降：Tesla車両へのGrok搭載を開始予定</li>
+<li>8月：コード生成AIのリリース</li>
+<li>9月：マルチモーダル・エージェントの提供</li>
+<li>10月：動画生成AIの公開</li>
+</ul>
+<p><strong>図5　xAIが示した今後のタイムライン。8月にコード生成モデル、9月にマルチモーダルエージェント、10月に動画生成AIを投入予定</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_9_4b0fc9c4d0%5Cu002Fmusk_grok4_9_4b0fc9c4d0.jpg" alt="musk grok4-9.jpg" /></p>
+<h2>今後の課題</h2>
+<p>Grokシリーズは、2023年11月の初版リリースから急速に進化しており、OpenAIのChatGPTやGoogleのGeminiに対抗する形で市場に存在感を示してきた。ただし、直近では前バージョンが反ユダヤ的発言を生成したとの報道もあり、同社はプロンプト設計の見直しを迫られていた。今後は、モデル性能とともに倫理的安全性や説明責任も問われる局面が続くと見られる。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/14 [MON]マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の &quot;恐ろしい振る舞い&quot; に謝罪、トラブルの原因を公表</title>
@@ -900,7 +886,7 @@ AMDは本モデルの重み、学習データ・データセットの詳細、�
 </ul>
 <p>xAIは「ユーザーのフィードバックに感謝する」としており、透明性と安全性の両立に向けた開発を続けるとしている。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/12 [SAT]Perplexity、AIブラウザ「Comet」公開──タブ迷子ゼロへ、思考をそのまま実行する“ウェブ用AI相棒”</title>
@@ -924,7 +910,7 @@ AMDは本モデルの重み、学習データ・データセットの詳細、�
 <h2>今後の焦点：ユーザー拡大と利用定着</h2>
 <p>今夏中には全ユーザーへの招待提供を完了し、フィードバックを受けながらの改良フェーズに入る。Perplexityは今後の製品ロードマップにおいて、CometのAI機能をさらに高度化し、さまざまな業務・用途に応じたユースケース拡大を計画している。企業ユーザーや情報労働者にとって、単なる“検索の延長”にとどまらない生産性ツールとしての定着が、次の成長フェーズの鍵となる。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
@@ -974,7 +960,7 @@ AMDは本モデルの重み、学習データ・データセットの詳細、�
 法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
 <p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>エンタメ＆アート2025/7/13 [SUN]Stability AI、AIポルノ生成を全面禁止へ──7月31日から利用規約改定、Stable Diffusion・API・OSSを含む全サービスで性的コンテンツを遮断</title>
@@ -1010,7 +996,7 @@ AMDは本モデルの重み、学習データ・データセットの詳細、�
 <p>新規約は2025年7月31日より施行される。以降は新規・既存ユーザーともに順守が義務づけられ、違反が確認された場合にはアクセスの遮断やアカウントの停止措置が取られる見通しだ。</p>
 <p>同社は今後、利用者向けのFAQやガイドラインの公開も予定しており、具体的な基準や判断基準についての詳細は順次明らかにされるとみられる。</p>
 ]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>耳で聞けない声を0.3秒で“見える化”──イェール大発スマートグラス「TranscribeGlass」一般販売開始</title>
@@ -1036,45 +1022,6 @@ AMDは本モデルの重み、学習データ・データセットの詳細、�
 <p>他のスマートグラス製品と異なり、TranscribeGlassは通話・音楽再生・撮影などの多機能化を避け、字幕精度と軽量性に特化している点が特徴だ。価格設定もMeta×Ray-BanやXRAI Glassなどに比べて抑えられており、バッテリー持続時間の長さも差別化ポイントとなっている。</p>
 <p>将来的には、リアルタイムでの感情解析を字幕に反映する機能や、ASL（アメリカ手話）向けに語順を変換する表示機能の搭載が計画されているという。</p>
 <p>TranscribeGlassは、視覚的な情報支援により、耳で聞けない会話を「読む」体験へと変えることで、新たなコミュニケーションの可能性を提供しようとしている。</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界最強AI「Grok 4」公開──xAI、わずか数カ月という常識外れのスピードでモデル刷新　マスク氏「ネットにない難問も解ける」</title>
-      <link>https://ledge.ai/articles/grok4_xai_ai_model_launch</link>
-      <description><![CDATA[<p>イーロンマスク氏の率いるAIスタートアップxAIは2025年7月10日、X（旧Twitter）公式アカウントで最新大規模言語モデル「Grok 4」を<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fxai%5Cu002Fstatus%5Cu002F1943158495588815072">発表</a>{target=“_blank”}し、同時にライブ配信で詳細を公開した。前世代「Grok 3」から数カ月という超短サイクルでのモデル刷新となり、マスク氏は「インターネットにも書籍にも存在しない難問を解ける初のAIだ」と性能を強調している。</p>
-<h2>「世界最強」を標榜、リアルな工学課題を解決可能と説明</h2>
-<p>xAI公式アカウントは「世界で最も強力なAIモデル」としてGrok 4を紹介し、ライブ配信の視聴を呼びかけた。その後、イーロン・マスク氏自身もX上で「Grok 4は、現実世界の難しい工学的課題に対して、ネットにも書籍にも存在しない答えを導き出すことができた初のAIだ」と述べ、同モデルの性能を強調した。</p>
-<p><strong>図1　“Ludicrous rate of progress”──Grok 2からGrok 4に至る計算資源の10倍ステップアップを示したスライド</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_3_2b88dc0836%5Cu002Fmusk_grok4_3_2b88dc0836.jpg" alt="musk grok4-3.jpg" /></p>
-<h2>公表された性能指標──既存モデルを上回る結果も</h2>
-<p>xAIによれば、以下の主要ベンチマークでGrok 4は高い性能を示した（数値はすべて同社発表値）：</p>
-<h3>Humanity’s Last Exam（人類最後の試験）</h3>
-<p><strong>図2　総合推論テスト「Humanity’s Last Exam」全セット比較。Grok 4 Heavyは44.4%でトップスコアを記録</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_5_8a69f27997%5Cu002Fmusk_grok4_5_8a69f27997.jpg" alt="musk grok4-5.jpg" /></p>
-<h3>ARC-AGI（汎用人工知能測定ベンチマーク）</h3>
-<p><strong>図3　ARC-AGIベンチマークの精度‐コスト分布。Grok 4は精度66.6%でクラストップ帯に位置付けられた</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_7_5b67bb48af%5Cu002Fmusk_grok4_7_5b67bb48af.jpg" alt="musk grok4-7.jpg" /></p>
-<p><strong>図4　GPQAやAIME25など学術系コンペでもGrok 4／Grok 4 Heavyが軒並み首位に</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_6_90a347be60%5Cu002Fmusk_grok4_6_90a347be60.jpg" alt="musk grok4-6.jpg" /></p>
-<h2>Grok 4／Grok 4 Heavy──2ライン体制で展開</h2>
-<ul>
-<li><strong>Grok 4（標準）</strong> ：推論改善を目的に強化学習（RL）を追加。</li>
-<li><strong>Grok 4 Heavy</strong> ：複数エージェントで同一課題を並列解析し、回答を相互検証する上位版。
-開発者・パワーユーザー向けに月額300ドルの「SuperGrok Heavy」プランを新設。</li>
-</ul>
-<h2>今後のロードマップ</h2>
-<p>Grok 4は、Grok 3からわずか数カ月で投入された。マスク氏は開発速度について「恐ろしく速い」と述べ、今後も短い間隔で新モデルを導入する意向を示した。さらに、以下のようなロードマップも明らかにされている：</p>
-<ul>
-<li>7月中旬以降：Tesla車両へのGrok搭載を開始予定</li>
-<li>8月：コード生成AIのリリース</li>
-<li>9月：マルチモーダル・エージェントの提供</li>
-<li>10月：動画生成AIの公開</li>
-</ul>
-<p><strong>図5　xAIが示した今後のタイムライン。8月にコード生成モデル、9月にマルチモーダルエージェント、10月に動画生成AIを投入予定</strong>
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fmusk_grok4_9_4b0fc9c4d0%5Cu002Fmusk_grok4_9_4b0fc9c4d0.jpg" alt="musk grok4-9.jpg" /></p>
-<h2>今後の課題</h2>
-<p>Grokシリーズは、2023年11月の初版リリースから急速に進化しており、OpenAIのChatGPTやGoogleのGeminiに対抗する形で市場に存在感を示してきた。ただし、直近では前バージョンが反ユダヤ的発言を生成したとの報道もあり、同社はプロンプト設計の見直しを迫られていた。今後は、モデル性能とともに倫理的安全性や説明責任も問われる局面が続くと見られる。</p>
 ]]></description>
       <pubDate>Fri, 11 Jul 2025 01:50:00 GMT</pubDate>
     </item>
