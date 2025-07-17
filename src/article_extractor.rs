@@ -675,8 +675,6 @@ Final content.
         let pattern = Regex::new(r#"(\]\([^)]*\))[ ]*\{target="_blank"\}"#).unwrap();
         let test_text = r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}"#;
         let result = pattern.replace_all(test_text, "$1");
-        println!("Original: {test_text}");
-        println!("Result: {result}");
         assert_eq!(
             result,
             r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)"#
