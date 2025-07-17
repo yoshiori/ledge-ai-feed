@@ -5,6 +5,56 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>経産省・NEDOの生成AI開発支援プロジェクト「GENIAC」第3期、楽天と野村総研を含む新規13件を採択──生成AI国産化を加速</title>
+      <link>https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected</link>
+      <description><![CDATA[<p>2025年7月15日、経済産業省と新エネルギー・産業技術総合開発機構（NEDO）は、生成AI開発支援プロジェクト「GENIAC（Generative AI Accelerator Challenge）」の第3期採択結果を<a href="https:%5Cu002F%5Cu002Fwww.nedo.go.jp%5Cu002Fkoubo%5Cu002FCD3_100397.html">発表</a>{target=“_blank”}した。今回の公募には43件が応募し、最終的に24件が採択された。楽天グループと野村総合研究所（NRI）を含む13件が新規採択で、第1期・第2期に採択されていなかった新顔の参画が加速している。</p>
+<h2>楽天、日本語LLMに長期記憶と対話学習を融合</h2>
+<p>楽天グループは今回の第3期で初採択された。申請テーマは「長期記憶メカニズムと対話型学習を融合した日本語LLMの研究開発」で、同社が進めるAIエージェント構想の一環とみられる。</p>
+<p>2024年末に発表された「Rakuten AI 2.0」では、社内外のデータを活用した多目的LLMの構築と、オープンソース化の方針が示されていた。GENIACの支援を受けることで、大規模演算環境のもと、学習済みパラメータの拡張や長期記憶モジュールの実装が本格化する可能性がある。</p>
+<h2>野村総研、業界特化の40B規模モデルを計画</h2>
+<p>野村総合研究所（NRI）も第3期で初採択された。採択テーマは「10B〜40B規模の業界・タスク特化型LLMの研究開発」。具体的な適用分野は公表されていないが、金融・行政・製造などNRIが業務支援を行う産業領域での応用が想定される。</p>
+<p>NRIのような大手コンサルティング・IT企業が生成AIの基盤モデル開発に乗り出すのは、GENIACプロジェクト初となる。従来のSaaS活用や外部API連携を越えて、独自モデル構築へと進む転換点と位置づけられる。</p>
+<h2>新規採択は13件、分野特化型スタートアップが多数</h2>
+<p>楽天とNRI以外にも、第3期では11の新規プレイヤーが採択された。採択テーマからは、以下のような分野特化型の研究が目立つ。</p>
+<ul>
+<li><strong>Airion</strong> ：PLCラダープログラムを自動生成するLLM</li>
+<li><strong>Arivexis</strong> ：低分子化合物の生物活性を予測する創薬モデル</li>
+<li><strong>Degas</strong> ：リモートセンシング向け視覚言語モデル</li>
+<li><strong>Direava</strong> ：外科手術支援用の視覚・言語統合AI</li>
+<li><strong>NexaScience</strong> ：研究開発プロセスを自律化するエージェント</li>
+<li><strong>Nishika</strong> ：出力形式を厳密に制御できる要約特化LLM</li>
+<li><strong>ONESTRUCTURE</strong>：建築BIMデータを生成するモデル</li>
+<li><strong>Precision</strong> ：医療文書理解向け専門LLM</li>
+<li><strong>Sansan</strong> ：企業文書を対象にした視覚言語モデル</li>
+<li><strong>SDio</strong> ：長尺映像を扱う国産大規模映像モデル</li>
+<li><strong>Zen Intelligence</strong> ：建設現場施工管理を自動化するモデル</li>
+</ul>
+<p>これらの企業の多くは医療・建築・産業用途など、明確な業務ユースケースを持つ。GENIAC支援によって、計算資源を活用したモデルのスケーリングが可能になると見られる。</p>
+<h2>継続採択は11件、ABEJA・Preferredなど第1期組も含む</h2>
+<p>第1期・第2期からの継続採択組は11件。業界内で技術実装が進む企業が引き続き支援対象となった。以下は継続企業の一部。</p>
+<ul>
+<li>ABEJA</li>
+<li>AI inside</li>
+<li>AIdeaLab</li>
+<li>Karakuri（カラクリ）</li>
+<li>Kotoba Technologies Japan</li>
+<li>NABLAS</li>
+<li>Preferred Networks</li>
+<li>Ricoh</li>
+<li>Stockmark</li>
+<li>SyntheticGestalt</li>
+<li>Turing</li>
+</ul>
+<p>すでにGENIACの支援を受けた開発実績を有しており、第3期ではモデルの高度化や新機能の追加が焦点となる。</p>
+<h2>GENIACの支援規模と今後のスケジュール</h2>
+<p>GENIACは、経産省とNEDOが連携して進める国産生成AI開発支援プログラムで、2023年度から実施されている。今回の第3期採択により、累計支援件数は54件に拡大した。
+対象期間：交付決定日〜2026年2月末まで
+支援内容：GPUクラウド等の演算資源提供、外部評価機関による技術検証
+今後の予定：NEDOによる中間評価、年度末までに開発成果の提出と発表が予定されている</p>
+]]></description>
+      <pubDate>Thu, 17 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google Cloud、米西海底ケーブル「Sol」でフロリダ―スペインを直結──AI時代に備え大西洋ルートを刷新</title>
       <link>https://ledge.ai/articles/google_sol_transatlantic_cable_2025</link>
       <description><![CDATA[<p>Google Cloudは2025年7月10日、フロリダ州パームコーストとスペイン・サンタンデールを結ぶ新たな大西洋横断海底ケーブル「Sol（ソル）」の敷設計画を<a href="https:%5Cu002F%5Cu002Fcloud.google.com%5Cu002Fblog%5Cu002Fproducts%5Cu002Finfrastructure%5Cu002Fannouncing-sol-transatlantic-cable?hl=en">発表</a>{target=“_blank”}した。AI需要の高まりに伴うクラウドトラフィックの急増に対応するため、Google独自のネットワークインフラをさらに強化するもので、経由地としてバミューダ諸島およびアゾレス諸島も含まれる。</p>
@@ -573,34 +623,6 @@
 <p>研究チームは本システムの意義について、「地球規模のエージェントベース社会シミュレーションは、従来の社会科学や公共政策の限界を補完する新たな手段となりうる」と述べている。また、今後の展望として、「大規模な仮想社会モデルを用いて、情報伝播、制度設計、災害対応といった分野における実践的な“社会的テストベッド”を構築していく」との方針も示している。</p>
 ]]></description>
       <pubDate>Fri, 11 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、対話型AI搭載のWebブラウザを数週間以内に発表か</title>
-      <link>https://ledge.ai/articles/openai_ai_browser_launch_reported_by_reuters</link>
-      <description><![CDATA[<p>OpenAIは数週間以内にAIを搭載した独自のWebブラウザを発表する見通しであると<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Feconomy%5Cu002Findustry%5Cu002FSJY3A2CG2RPM7KT6MKLMQPQTWA-2025-07-10%5Cu002F">ロイター</a>{target=“_blank”}が2025年7月10日に報じた。報道によれば、新ブラウザは、検索結果をリスト形式で提示する従来型検索とは異なり、ChatGPTのような対話形式で回答を提示する設計になるとされる。</p>
-<h2>ChatGPT的UIとAIエージェントを組み込んだブラウザ</h2>
-<p>OpenAIの新ブラウザは以下の特徴を備えるという：</p>
-<ul>
-<li>検索キーワードに対して対話形式で結果を提示し、Webページを直接開かずとも必要な情報が得られる</li>
-<li>OpenAIのエージェント技術「Operator」と連携し、ウェブ上のフォーム入力や予約、購入といった作業を自動で処理できる</li>
-<li>ユーザーの操作を最小限に抑えた「チャット主導型ブラウジング」体験を志向している</li>
-</ul>
-<p>報道では、これらの機能によって、ユーザーは検索エンジンやリンクを複数クリックする手間なく目的を達成できる可能性があるとされている。</p>
-<h2>背景にある戦略的狙い</h2>
-<p>OpenAIはこれまでMicrosoftのBingと連携して検索機能を提供してきたが、独自ブラウザを展開することでユーザーデータへのアクセスを強化し、広告収益源をGoogleに依存せずに確保する狙いがあるという。現在、Google Chromeは世界のブラウザ市場で約60％のシェアを持ち、検索連動型広告によって収益を拡大している。</p>
-<p>一方でOpenAIは、週5億人規模のユーザーを抱えるChatGPTを活用し、検索から情報取得までを同社のエコシステム内で完結させようとしている。</p>
-<h2>検索技術への投資と布石</h2>
-<p>ロイターが指摘するように、OpenAIはこの1年、検索・ブラウジング関連の技術開発を継続している。</p>
-<ul>
-<li>「Product Manager, Search」などの職種で求人を出し、検索関連技術への投資を進めてきた</li>
-<li>2024年4月には、AIエージェントのウェブ検索能力を評価するためのベンチマーク「BrowseComp」を発表</li>
-<li>ChatGPTには「Browse with Bing」機能や、外部リンク先の要約を行う機能などをすでに実装している</li>
-</ul>
-<p>こうした動きが、今回の独自ブラウザ発表につながっていると見られている。</p>
-<h2>今後の展望</h2>
-<p>ロイターの取材に対し、OpenAIおよび競合企業であるアルファベット（Google）はコメントを控えているという。</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 09:50:00 GMT</pubDate>
     </item>
     <item>
       <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
