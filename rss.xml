@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「一度公開すれば取り戻せない」──OpenAI、オープンウェイトモデルのリリースを無期限延期</title>
+      <link>https://ledge.ai/articles/openai_open_weight_model_launch_delayed</link>
+      <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年7月12日、自身のX（旧Twitter）アカウントを通じて、翌週に予定していた新たな大型言語モデル（LLM）のリリースを延期すると<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fsama%5Cu002Fstatus%5Cu002F1943837550369812814">発表</a>{target=“_blank”}した。</p>
+<p>対象となるのは、モデルの重み（weights）を一般に公開する「オープンウェイトモデル」であり、安全性に関する追加テストと高リスク領域の精査が必要となったためとしている。新たな公開日程は現時点で明らかにされていない。</p>
+<p>アルトマン氏は投稿の中で「一度公開すれば取り戻せない。これは我々にとって新しいことであり、正しく対処したい」と述べ、重みの公開が持つ不可逆性に対する慎重な姿勢を示した。さらに、「悪いニュースを伝えることになってしまい申し訳ない。我々は非常に懸命に取り組んでいる」として、延期は開発チームの責任ある判断であることを強調した。</p>
+<p>この「オープンウェイトモデル」は、OpenAIにとって初めての、重みを含めて一般公開するLLMとなる見込みだった。従来のGPT-3.5やGPT-4は、API経由での提供に限定されており、モデルの内部構造やパラメータは非公開だった。一方で今回のモデルは、利用者がローカル環境での実行やカスタマイズを可能にする“オープンアクセス”型であり、企業や研究者の関心を集めていた。</p>
+<p>背景には、安全性への懸念がある。重みが公開されれば、第三者によるモデルの再利用や改変が可能になるため、不正利用や誤情報の生成といったリスクが生じる。特に、ハルシネーション（事実に基づかない出力）や有害な出力への対策が不十分なまま公開すれば、被害が広範囲に及ぶおそれがある。アルトマン氏も「追加の安全テストと、高リスク領域の見直しが必要だ」と投稿の中で明記しており、慎重な検証が行われる見通しである。</p>
+<p>同モデルは当初、2025年6月中の<a href="https:%5Cu002F%5Cu002Fledge.ai%5Cu002Farticles%5Cu002Fopenai_open_weight_model_2025">リリースが計画されていた</a>
+が、7月第2週に延期されたのち、今回の発表で無期限延期となった。今後の対応方針や公開時期に関しては、OpenAIからの追加の発表が待たれる状況である。</p>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002F2_Zs_Mux_Y_50f7cb832c%5Cu002F2_Zs_Mux_Y_50f7cb832c.jpg" alt="2Zs-MuxY.jpg" /></p>
+<p>近年、Metaの「Llama 2」や「Llama 3」、Mistralの「Mixtral」など、オープンウェイトモデルは業界内で広がりを見せている。こうしたモデルは、企業が独自のAIアプリケーションを開発する上で基盤として活用されており、今後OpenAIが同分野にどう参入していくかが注目されている。</p>
+]]></description>
+      <pubDate>Thu, 17 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>経産省・NEDOの生成AI開発支援プロジェクト「GENIAC」第3期、楽天と野村総研を含む新規13件を採択──生成AI国産化を加速</title>
       <link>https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected</link>
       <description><![CDATA[<p>2025年7月15日、経済産業省と新エネルギー・産業技術総合開発機構（NEDO）は、生成AI開発支援プロジェクト「GENIAC（Generative AI Accelerator Challenge）」の第3期採択結果を<a href="https:%5Cu002F%5Cu002Fwww.nedo.go.jp%5Cu002Fkoubo%5Cu002FCD3_100397.html">発表</a>{target=“_blank”}した。今回の公募には43件が応募し、最終的に24件が採択された。楽天グループと野村総合研究所（NRI）を含む13件が新規採択で、第1期・第2期に採択されていなかった新顔の参画が加速している。</p>
@@ -576,53 +591,6 @@
 <p>AIチャットボットが今後、広告やECとの連携を通じた“対話型マーケティング”にシフトしていく中で、Metaのアプローチが規制や社会的合意とどう整合性を取るかが問われる局面に入っている。ユーザーとの“距離の取り方”が、収益モデルの設計と同じく、今後の焦点となる。</p>
 ]]></description>
       <pubDate>Sat, 12 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国・中関村アカデミー、10億人シミュレーションを実証──LLM搭載システム『Light Society』で地球規模の“仮想社会”を一気に再現</title>
-      <link>https://ledge.ai/articles/earth_scale_llm_social_simulation</link>
-      <description><![CDATA[<p>2025年6月7日、中国・中関村アカデミーを中心とする研究グループは、大規模言語モデル（LLM）を活用した大規模エージェントベース社会シミュレーションシステム「Light Society」を<a href="https:%5Cu002F%5Cu002Farxiv.org%5Cu002Fabs%5Cu002F2506.12078">発表</a>{target=“_blank”}した。この研究は、arXivに公開された論文「Modeling Earth-Scale Human-Like Societies with One Billion Agents」にて報告されており、最大10億人規模の人口行動をリアルタイムで再現可能な初のシステムとされる。</p>
-<p><strong>Light Societyの構成概念図</strong>：各エージェントは記憶・感情・社会関係といった内部状態を持ち、環境とイベントの変化に応じてLLMによる動的判断を行う。プロンプトのキャッシュ処理や軽量モデルの併用により、10億体同時シミュレーションを実現。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a%5Cu002FAgent_based_social_simulation_framework_powered_by_LL_Ms_99bcba256a.jpg" alt="Agent-based social simulation framework powered by LLMs.jpg" /></p>
-<h2>人間社会の複雑性を模倣する「仮想地球」</h2>
-<p>Light Societyは、これまで数万人から数百万人規模にとどまっていたエージェントベースモデル（ABM）を大幅に拡張し、10億体ものAIエージェントを用いて社会行動を同時に模擬する。これにより、デマの伝播、社会規範の形成、信頼行動、大衆心理などの集団的社会現象を、地球規模で検証可能となる。</p>
-<p>社会シミュレーションの構成は以下の通りだ：</p>
-<ul>
-<li>エージェントの内外状態（記憶・感情・位置など）と環境状態（天候・地形など）を分離管理</li>
-<li>イベント駆動による非同期型実行エンジンを採用し、処理を並列化</li>
-<li>同型プロンプトを自動キャッシュし、LLM推論負荷を最適化</li>
-<li>軽量モデルとLLMを動的に組み合わせる「Mixture-of-Models」設計を採用</li>
-</ul>
-<p>この構成により、10億体のエージェントに対し、同時並行かつ意味ある社会行動を付与する処理の実現が可能となったという。</p>
-<h2>LLMが支える「社会実験室」──信頼ゲームによる検証</h2>
-<p>研究チームは、WVS（World Values Survey）から抽出した実データ（年齢・教育・社会階層など）をもとに、仮想社会に信頼行動を持たせた「トラストゲーム」を設計した。エージェント同士が金銭を授受するプロセスを通じて、文化圏や階層による信頼傾向の違いが可視化された。</p>
-<p><strong>信頼ゲームの検証結果</strong> ：WVS（世界価値観調査）の実データをベースに構築された仮想エージェントが送金と返金の判断を行い、社会階層・教育レベル・国別傾向に応じた行動差が可視化されている。右下にはエージェント規模の増加による行動安定化の傾向も確認できる。
-<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FTrust_game_simulation_93eeb0f14f%5Cu002FTrust_game_simulation_93eeb0f14f.jpg" alt="Trust game simulation..jpg" /></p>
-<ul>
-<li>社会階層が高いエージェントほど送金額と返金率が高い傾向</li>
-<li>教育水準に比例して信頼行動が強化される傾向</li>
-<li>実社会調査結果との整合性が確認され、モデルの妥当性を裏付けた</li>
-</ul>
-<p>特に注目すべきは、シミュレーション対象の人口規模を拡大するほど、全体的な行動のばらつきが減少し、結果が安定化する「スケーリング則」の存在である。これは、実社会の構造的安定性に近づく兆候とされている。</p>
-<h2>想定される応用──“人類規模のA\u002FBテスト”へ</h2>
-<p>Light Societyは今後、以下のような領域での応用が期待されている。</p>
-<ul>
-<li>パンデミック対策シナリオの政策効果予測</li>
-<li>SNSにおける誤情報拡散の構造解明</li>
-<li>カーボンニュートラルに向けた生活スタイル介入の影響評価</li>
-<li>経済危機時の所得再分配政策シミュレーション</li>
-</ul>
-<p>従来は現実世界での検証が困難だった「もしも」の社会実験が、仮想空間内で安全かつ効率的に実施可能になる。</p>
-<h2>今後の課題と展望</h2>
-<p>研究チームは今後、以下の機能強化を検討していると述べている：</p>
-<ul>
-<li>長期記憶を持つエージェント設計</li>
-<li>ニュースデータやSNS投稿といったリアルタイムデータとの融合</li>
-<li>モデル出力の透明性・説明可能性の向上</li>
-<li>社会シミュレーションにおける倫理的基準とプライバシー保護指針の策定</li>
-</ul>
-<p>研究チームは本システムの意義について、「地球規模のエージェントベース社会シミュレーションは、従来の社会科学や公共政策の限界を補完する新たな手段となりうる」と述べている。また、今後の展望として、「大規模な仮想社会モデルを用いて、情報伝播、制度設計、災害対応といった分野における実践的な“社会的テストベッド”を構築していく」との方針も示している。</p>
-]]></description>
-      <pubDate>Fri, 11 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
