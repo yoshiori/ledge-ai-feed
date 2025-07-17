@@ -32,6 +32,9 @@ pub fn generate_rss(items: Vec<RssItem>) -> Result<String, Box<dyn std::error::E
     channel.pretty_write_to(&mut buffer, b' ', 2)?;
 
     let pretty_xml = String::from_utf8(buffer.into_inner())?;
+
+    // No additional processing needed at this stage
+
     Ok(pretty_xml)
 }
 

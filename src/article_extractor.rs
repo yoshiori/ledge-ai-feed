@@ -10,13 +10,17 @@ pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error:
     // 1. Try to extract from script tags with various patterns
     if let Ok(content) = extract_from_script_tags(html) {
         if content.len() > 100 {
-            return Ok(content);
+            // Final cleanup: remove any remaining {target="_blank"} patterns
+            let cleaned_content = content.replace(r#"{target="_blank"}"#, "");
+            return Ok(cleaned_content);
         }
     }
 
     // 2. Try to extract from standard HTML content areas
     if let Ok(content) = extract_from_html_content(&document) {
-        return Ok(content);
+        // Final cleanup: remove any remaining {target="_blank"} patterns
+        let cleaned_content = content.replace(r#"{target="_blank"}"#, "");
+        return Ok(cleaned_content);
     }
 
     Err("Article content not found".into())
@@ -63,13 +67,14 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                 if let Some(content_match) = captures.get(1) {
                     let content = content_match.as_str();
 
-                    // Clean up escaped characters
+                    // Clean up escaped characters and remove {target="_blank"} patterns
                     let cleaned = content
                         .replace("\\n", "\n")
                         .replace("\\r", "\r")
                         .replace("\\t", "\t")
                         .replace("\\\"", "\"")
-                        .replace("\\/", "/");
+                        .replace("\\/", "/")
+                        .replace(r#"{target="_blank"}"#, "");
 
                     // More lenient filtering - accept any substantial content
                     if cleaned.len() > 300 {
@@ -173,13 +178,14 @@ fn extract_from_html_content(document: &Html) -> Result<String, Box<dyn std::err
 
                 // More lenient filtering - just check basic length
                 if content.len() > 300 {
-                    // Basic cleanup for common UI elements but still return content
+                    // Basic cleanup for common UI elements and remove {target="_blank"} patterns
                     let cleaned = content
                         .replace("クリップする", "")
                         .replace("アクセスランキング", "")
                         .replace("関連記事", "")
                         .replace("人気のタグ", "")
-                        .replace("FOLLOW US", "");
+                        .replace("FOLLOW US", "")
+                        .replace(r#"{target="_blank"}"#, "");
 
                     return Ok(format!("# Article Content\n\n{}", cleaned.trim()));
                 }
@@ -316,19 +322,22 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
     use once_cell::sync::Lazy;
     use regex::Regex;
 
+    // Processing markdown content with integrated filtering
+
     // Compile all regex patterns once using Lazy static initialization
     static SMALL_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::small[\s\S]*?:::").unwrap());
     static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").unwrap());
-    static LINK_TARGET_BLANK_PATTERN: Lazy<Regex> =
-        Lazy::new(|| Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap());
-    static STANDALONE_TARGET_BLANK_PATTERN: Lazy<Regex> =
-        Lazy::new(|| Regex::new(r#"\{target="_blank"\}"#).unwrap());
+    // Pattern to remove {target="_blank"} with both ASCII and Unicode quotes
+    // Handles: ASCII quotes " and Unicode smart quotes " " (U+201C and U+201D)
+    static TARGET_BLANK_PATTERN: Lazy<Regex> =
+        Lazy::new(|| Regex::new(r#"\{target=[""\u{201C}]_blank[""\u{201D}]\}"#).unwrap());
 
     // Apply all filtering in sequence, minimizing string allocations
     let result = SMALL_PATTERN.replace_all(markdown, "");
     let result = BOX_PATTERN.replace_all(&result, "");
-    let result = LINK_TARGET_BLANK_PATTERN.replace_all(&result, "]($1)");
-    let result = STANDALONE_TARGET_BLANK_PATTERN.replace_all(&result, "");
+
+    // Apply target="_blank" pattern removal
+    let result = TARGET_BLANK_PATTERN.replace_all(&result, "");
 
     result.into_owned()
 }
@@ -377,7 +386,7 @@ mod tests {
     }
 
     #[test]
-    fn test_preprocess_markdown_content_handles_markdown_links() {
+    fn test_preprocess_markdown_content_removes_target_blank() {
         let markdown = r#"Here is a [link](https://example.com){target="_blank"} and another [link](https://other.com){target="_blank"}."#;
         let result = preprocess_markdown_content(markdown);
         let expected =
@@ -610,5 +619,67 @@ Final content.
         let date = extract_date_from_nuxt_script(script_text);
         assert!(date.is_some());
         assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
+    }
+
+    #[test]
+    fn test_pulldown_cmark_with_special_characters() {
+        // Test if pulldown-cmark itself introduces {target="_blank"} patterns
+        let markdown =
+            r#"Check this [link](https://www.nedo.go.jp/koubo/CD3_100397.html) for more info."#;
+        let html = markdown_to_html(markdown);
+        // Should not contain {target="_blank"} patterns
+        assert!(!html.contains(r#"{target="_blank"}"#));
+        // Should be a normal link
+        assert!(html.contains(r#"<a href="https://www.nedo.go.jp/koubo/CD3_100397.html">link</a>"#));
+    }
+
+    #[test]
+    fn test_markdown_with_japanese_and_encoded_urls() {
+        // Test case similar to what we might see in the RSS problem
+        let markdown = r#"今回の公募には43件が応募し、最終的に24件が採択された。楽天グループと野村総合研究所（NRI）を含む13件が新規採択で、第1期・第2期に採択されていなかった新顔の参画が加速している。"#;
+        let html = markdown_to_html(markdown);
+        // Should not contain any {target="_blank"} patterns
+        assert!(!html.contains(r#"{target="_blank"}"#));
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_unicode_escaped_urls() {
+        // Test the actual pattern found in the GENIAC article - simplified approach
+        let markdown = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}した。"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)した。"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_multiple_unicode_escapes() {
+        // Test multiple unicode escapes in one URL - simplified approach just removes {target="_blank"}
+        let markdown = r#"Check this [link](https:\u002F\u002Fexample.com\u002Fpath\u002Fto\u002Ffile){target="_blank"} for more info."#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"Check this [link](https:\u002F\u002Fexample.com\u002Fpath\u002Fto\u002Ffile) for more info."#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_exact_geniac_pattern() {
+        // Test the exact pattern found in the GENIAC article
+        let markdown = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}した。"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)した。"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_link_target_blank_regex_directly() {
+        use regex::Regex;
+        let pattern = Regex::new(r#"(\]\([^)]*\))[ ]*\{target="_blank"\}"#).unwrap();
+        let test_text = r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}"#;
+        let result = pattern.replace_all(test_text, "$1");
+        println!("Original: {test_text}");
+        println!("Result: {result}");
+        assert_eq!(
+            result,
+            r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)"#
+        );
     }
 }
