@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google Cloud、米西海底ケーブル「Sol」でフロリダ―スペインを直結──AI時代に備え大西洋ルートを刷新</title>
+      <link>https://ledge.ai/articles/google_sol_transatlantic_cable_2025</link>
+      <description><![CDATA[<p>Google Cloudは2025年7月10日、フロリダ州パームコーストとスペイン・サンタンデールを結ぶ新たな大西洋横断海底ケーブル「Sol（ソル）」の敷設計画を<a href="https:%5Cu002F%5Cu002Fcloud.google.com%5Cu002Fblog%5Cu002Fproducts%5Cu002Finfrastructure%5Cu002Fannouncing-sol-transatlantic-cable?hl=en">発表</a>{target=“_blank”}した。AI需要の高まりに伴うクラウドトラフィックの急増に対応するため、Google独自のネットワークインフラをさらに強化するもので、経由地としてバミューダ諸島およびアゾレス諸島も含まれる。</p>
+<p>同社は、既存の「Nuvem」や「Grace Hopper」との多重化により、北米―欧州間の通信において高いレジリエンシー（耐障害性）と低遅延を同時に実現する狙いだ。</p>
+<h2>Googleが敷設する18本目の海底ケーブル</h2>
+<p>Sol は、Googleにとって18本目となる自社単独または共同敷設の海底ケーブルで、光ファイバーによる総延長は約6,300kmに及ぶ見込みだ。スペイン語やポルトガル語で「太陽」を意味する「Sol」という名称は、温暖な気候にケーブルシステムの着床地点があることに由来するという。プロジェクトの建設は2025年後半に開始され、数年以内の運用開始を目指す。</p>
+<h2>北米―欧州を結ぶ新ルート、フロリダからの初直結</h2>
+<p>同プロジェクトの特徴は、米国東海岸の中でもフロリダ州を起点とする点にある。これまでGoogleの大西洋横断ケーブルは、主にニューヨークなど北部沿岸を起点としていたが、Sol は同社初の “フロリダ―欧州” 直結ケーブルとなる。フロリダ州パームコーストに陸揚げ局を設け、スペイン・カンタブリア州サンタンデールに到達。経由地としてアゾレス諸島およびバミューダ諸島にも接続することで、既存のNuvemケーブルとのネットワーク補完性を高める設計となっている。</p>
+<p><strong>Nuvem海底ケーブルルート</strong>
+<img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002FThe_Nuvem_subsea_cable_route_02f8293dda%5Cu002FThe_Nuvem_subsea_cable_route_02f8293dda.jpg" alt="The Nuvem subsea cable route.jpg" /></p>
+<h2>Nuvem、Grace Hopperとの冗長化構成を構築</h2>
+<p>Googleは2023年に発表した南ルートの「Nuvem」および、北ルートの「Grace Hopper」（ニューヨーク―ビルバオ）と連携させることで、3系統のルートによるネットワークの多重冗長化を図る。特に「Sol」と「Nuvem」は、陸揚げ地点を一部共有し、障害発生時には瞬時に通信を切り替えられる構成とすることで、トラフィックの安定供給を実現する。また、経由地であるアゾレス・バミューダ間の接続によって、同社ネットワークの欧州・アフリカ・中南米への接続性も強化される。</p>
+<h2>地域インフラへの波及効果</h2>
+<p>陸揚げ地点であるスペイン・サンタンデールでは、Telefónica系インフラ企業Telxiusが地元の陸揚げ局を運営する予定で、北スペイン地域のデジタル化推進や経済活性化が期待されている。一方、パームコーストではGoogleが新たな接続拠点（Point of Presence：PoP）を設置し、フロリダ州内外のデータセンター群への高速接続網を形成する計画だ。</p>
+<h2>AI時代のトラフィック増加に備えたネットワーク投資</h2>
+<p>ChatGPTをはじめとする生成AIの普及や、企業によるクラウドサービスの依存度の高まりにより、グローバルインターネットトラフィックは急増を続けている。Google Cloudでは、42のクラウドリージョンを運用し、各地のAIワークロードやデータベース、ストレージ需要に応える形で、海底ケーブル網の整備を推進している。特に、データ処理のボトルネックとされる「帯域確保」と「低遅延ルート」の確保は、AIサービスの安定運用に直結する課題となっている。</p>
+<h2>今後のスケジュールと展望</h2>
+<p>「Sol」の建設開始は2025年後半とされており、Googleは「数年以内の運用開始」を予定している。完成後は、Google Cloudの欧州・南米間の接続性にも波及効果が期待されており、生成AIやクラウドインフラに対する今後の需要拡大に向けた長期的インフラ投資の一環と位置づけられている。</p>
+]]></description>
+      <pubDate>Wed, 16 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AWS、仕様駆動型AI IDE「Kiro」を正式発表──“プロンプトから本番まで”エージェントが伴走</title>
       <link>https://ledge.ai/articles/aws_ai_ide_kiro_release</link>
       <description><![CDATA[<p>Amazon Web Services（AWS）は2025年7月14日、AIエージェントを中核に据えた新しい統合開発環境（IDE）「Kiro（キロ）」を<a href="https:%5Cu002F%5Cu002Faws.amazon.com%5Cu002Fjp%5Cu002Fblogs%5Cu002Fnews%5Cu002Fintroducing-kiro%5Cu002F">発表</a>{target=“_blank”}した。</p>
