@@ -63,6 +63,7 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                         .replace("\\t", "\t")
                         .replace("\\\"", "\"")
                         .replace("\\/", "/")
+                        .replace("\\u002F", "/")  // Fix Unicode escape for forward slash
                         .replace(r#"{target="_blank"}"#, "");
 
                     // More lenient filtering - accept any substantial content
@@ -607,5 +608,23 @@ Final content.
             result,
             r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)"#
         );
+    }
+
+    #[test]
+    fn test_extract_content_from_script_cleans_unicode_escapes() {
+        // Test that unicode escape \u002F is cleaned up to /
+        let content = "This is a test with https:\\u002F\\u002Fwww.example.com and some {target=\"_blank\"} patterns.";
+        let cleaned = content
+            .replace("\\n", "\n")
+            .replace("\\r", "\r")
+            .replace("\\t", "\t")
+            .replace("\\\"", "\"")
+            .replace("\\/", "/")
+            .replace("\\u002F", "/")  // Fix Unicode escape for forward slash
+            .replace(r#"{target="_blank"}"#, "");
+            
+        assert_eq!(cleaned, "This is a test with https://www.example.com and some  patterns.");
+        assert!(!cleaned.contains("\\u002F"));
+        assert!(!cleaned.contains(r#"{target="_blank"}"#));
     }
 }
