@@ -2,12 +2,20 @@ use pulldown_cmark::{html, Parser};
 use regex::Regex;
 use scraper::{Html, Selector};
 
+// Constant for the target="_blank" pattern to remove
+const TARGET_BLANK_PATTERN: &str = r#"{target="_blank"}"#;
+
+/// Cleans content by removing target="_blank" patterns
+fn clean_content(content: &str) -> String {
+    content.replace(TARGET_BLANK_PATTERN, "")
+}
+
 pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error::Error>> {
     // Extract from script tags (Ledge.ai uses Nuxt.js with __NUXT__ object)
     if let Ok(content) = extract_from_script_tags(html) {
         if content.len() > 100 {
             // Final cleanup: remove any remaining {target="_blank"} patterns
-            let cleaned_content = content.replace(r#"{target="_blank"}"#, "");
+            let cleaned_content = clean_content(&content);
             return Ok(cleaned_content);
         }
     }
@@ -56,15 +64,17 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                 if let Some(content_match) = captures.get(1) {
                     let content = content_match.as_str();
 
-                    // Clean up escaped characters and remove {target="_blank"} patterns
+                    // Clean up escaped characters
                     let cleaned = content
                         .replace("\\n", "\n")
                         .replace("\\r", "\r")
                         .replace("\\t", "\t")
                         .replace("\\\"", "\"")
                         .replace("\\/", "/")
-                        .replace("\\u002F", "/")  // Fix Unicode escape for forward slash
-                        .replace(r#"{target="_blank"}"#, "");
+                        .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
+                    
+                    // Remove {target="_blank"} patterns
+                    let cleaned = clean_content(&cleaned);
 
                     // More lenient filtering - accept any substantial content
                     if cleaned.len() > 300 {
@@ -277,17 +287,21 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
     // Compile all regex patterns once using Lazy static initialization
     static SMALL_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::small[\s\S]*?:::").unwrap());
     static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").unwrap());
-    // Pattern to remove {target="_blank"} with both ASCII and Unicode quotes
-    // Handles: ASCII quotes " and Unicode smart quotes " " (U+201C and U+201D)
-    static TARGET_BLANK_PATTERN: Lazy<Regex> =
-        Lazy::new(|| Regex::new(r#"\{target=[""\u{201C}]_blank[""\u{201D}]\}"#).unwrap());
+    // Pattern to remove {target="_blank"} with various quote styles and optional spaces
+    // Handles: 
+    // - ASCII double quotes (")
+    // - ASCII single quotes (')
+    // - Unicode smart quotes (" " U+201C and U+201D)
+    // - Optional spaces around the = sign
+    static TARGET_BLANK_PATTERN_REGEX: Lazy<Regex> =
+        Lazy::new(|| Regex::new(r#"\{target\s*=\s*["'"\u{201C}]_blank["'"\u{201D}]\}"#).unwrap());
 
     // Apply all filtering in sequence, minimizing string allocations
     let result = SMALL_PATTERN.replace_all(markdown, "");
     let result = BOX_PATTERN.replace_all(&result, "");
 
     // Apply target="_blank" pattern removal
-    let result = TARGET_BLANK_PATTERN.replace_all(&result, "");
+    let result = TARGET_BLANK_PATTERN_REGEX.replace_all(&result, "");
 
     result.into_owned()
 }
@@ -321,6 +335,24 @@ mod tests {
         let expected =
             r#"Here is a [link](https://example.com) and another [link](https://other.com)."#;
         assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_removes_target_blank_variations() {
+        // Test with single quotes
+        let markdown1 = r#"[link](https://example.com){target='_blank'}"#;
+        let result1 = preprocess_markdown_content(markdown1);
+        assert_eq!(result1, "[link](https://example.com)");
+
+        // Test with spaces around equals
+        let markdown2 = r#"[link](https://example.com){target = "_blank"}"#;
+        let result2 = preprocess_markdown_content(markdown2);
+        assert_eq!(result2, "[link](https://example.com)");
+
+        // Test with both spaces and single quotes
+        let markdown3 = r#"[link](https://example.com){target = '_blank'}"#;
+        let result3 = preprocess_markdown_content(markdown3);
+        assert_eq!(result3, "[link](https://example.com)");
     }
 
     #[test]
@@ -620,10 +652,14 @@ Final content.
             .replace("\\t", "\t")
             .replace("\\\"", "\"")
             .replace("\\/", "/")
-            .replace("\\u002F", "/")  // Fix Unicode escape for forward slash
-            .replace(r#"{target="_blank"}"#, "");
-            
-        assert_eq!(cleaned, "This is a test with https://www.example.com and some  patterns.");
+            .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
+        
+        let cleaned = clean_content(&cleaned);
+
+        assert_eq!(
+            cleaned,
+            "This is a test with https://www.example.com and some  patterns."
+        );
         assert!(!cleaned.contains("\\u002F"));
         assert!(!cleaned.contains(r#"{target="_blank"}"#));
     }
