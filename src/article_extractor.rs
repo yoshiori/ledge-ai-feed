@@ -72,7 +72,7 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                         .replace("\\\"", "\"")
                         .replace("\\/", "/")
                         .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
-                    
+
                     // Remove {target="_blank"} patterns
                     let cleaned = clean_content(&cleaned);
 
@@ -288,7 +288,7 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
     static SMALL_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::small[\s\S]*?:::").unwrap());
     static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").unwrap());
     // Pattern to remove {target="_blank"} with various quote styles and optional spaces
-    // Handles: 
+    // Handles:
     // - ASCII double quotes (")
     // - ASCII single quotes (')
     // - Unicode smart quotes (" " U+201C and U+201D)
@@ -653,7 +653,7 @@ Final content.
             .replace("\\\"", "\"")
             .replace("\\/", "/")
             .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
-        
+
         let cleaned = clean_content(&cleaned);
 
         assert_eq!(
