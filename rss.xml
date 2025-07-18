@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国スタートアップMoonshot AI、1兆パラメータの新LLM「Kimi K2」をオープンソースで公開──長文推論とコード生成でGPT-4系に迫る性能</title>
+      <link>https://ledge.ai/articles/kimi_k2_release_moonshot_ai</link>
+      <description><![CDATA[<p>北京に拠点を置くスタートアップ企業Moonshot AIは2025年7月12日、新たな大規模言語モデル「Kimi K2」をオープンソースで<a href="https:%5Cu002F%5Cu002Fmoonshotai.github.io%5Cu002FKimi-K2%5Cu002F">公開</a>{target=“_blank”}した。</p>
+<p>同モデルは、総パラメータ1兆、アクティブパラメータ320億のMixture-of-Experts（MoE）構造を採用し、コード生成や長文推論、外部ツールとの統合といった用途に特化している。Apache 2.0互換のライセンスでGitHubおよびHugging Faceを通じて配布されており、商用利用も可能となっている。同社はこの公開を通じて、急速に成長する中国国内のオープンソースLLM競争での巻き返しを狙う。</p>
+<h2>1兆パラメータのMixture-of-Experts構造を採用</h2>
+<p>Kimi K2は32の専門家レイヤー（experts）から成り、推論時にはそのうち2つのみを活性化することで、GPUリソースの消費を抑えつつ高性能を実現している。モデルの学習には同社が開発した最適化アルゴリズム「Muon Optimizer」が使用されており、推論にはNVIDIA A100（40GB）相当のGPU1枚で対応可能とされている。</p>
+<p>また、日本語や英語を含む多言語に対応し、最大20万トークンの長文入力が可能であるなど、ドキュメント要約や長文分析といった用途にも適しているという。同社は Kimi K2を「エージェント的知能（Agentic Intelligence）」の土台として位置付けており、複雑なタスクの分解やツール操作といった処理能力に重点を置いている。</p>
+<h2>コード生成と数学推論でGPT-4.1を上回るベンチマーク結果</h2>
+<p><a href="https:%5Cu002F%5Cu002Fhuggingface.co%5Cu002Fmoonshotai%5Cu002FKimi-K2-Base">Hugging Faceのモデルカード</a>{target=“_blank”}にて同社が公開したベンチマーク結果によれば、Kimi K2は以下の項目でGPT-4.1（2025年5月時点のプレビュー版）を上回るか、同等の性能を示したという。</p>
+<ul>
+<li>LiveCodeBench v6（Pass@1）：53.7%（GPT-4.1は44.7%、DeepSeek-V3は46.9%）</li>
+<li>SWE-bench Verified（単一試行・Agentic Coding）：65.8%（GPT-4.1は54.6%）</li>
+<li>MATH-500 Accuracy：97.4%（GPT-4.1は92.4%）</li>
+<li>MMLU（Exact Match）：89.5%（GPT-4.1は90.4%と同等水準）</li>
+</ul>
+<p><img src="https:%5Cu002F%5Cu002Fstorage.googleapis.com%5Cu002Fledge-ai-prd-public-bucket%5Cu002Fmedia%5Cu002Fcollage_kimi2_bench_d13b3abdd9%5Cu002Fcollage_kimi2_bench_d13b3abdd9.jpg" alt="collage kimi2 bench.jpg" /></p>
+<p>これらのスコアは、特にコーディングと数理分野での推論能力において、Kimi K2が最先端のLLMと競合しうることを示すものとされる。ただし、一般的な自然言語処理性能や創造的文章生成といった領域に関する評価はまだ限定的である。</p>
+<h2>オープンソース戦略と今後の展開</h2>
+<p>Kimi K2は、Apache 2.0互換ライセンスで商用利用が認められており、GitHubとHugging Face上でモデル重みと推論スクリプトが公開されている。さらに今後、4bitおよび8bitの量子化版、LoRAによるファインチューニングレシピ、学習済みエージェント機構の導入例などの公開も予定されている。</p>
+<p>2024年後半からユーザー数が減少傾向にあった対話アプリ「Kimi」の再成長を後押しする狙いもあり、同社は、Kimi K2の性能を活かしたエンタープライズ向けAPIの提供を2025年第4四半期に計画しているとしている。</p>
+]]></description>
+      <pubDate>Thu, 17 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「一度公開すれば取り戻せない」──OpenAI、オープンウェイトモデルのリリースを無期限延期</title>
       <link>https://ledge.ai/articles/openai_open_weight_model_launch_delayed</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年7月12日、自身のX（旧Twitter）アカウントを通じて、翌週に予定していた新たな大型言語モデル（LLM）のリリースを延期すると<a href="https:%5Cu002F%5Cu002Fx.com%5Cu002Fsama%5Cu002Fstatus%5Cu002F1943837550369812814">発表</a>{target=“_blank”}した。</p>
@@ -513,36 +537,6 @@
 <p>研究チームは、LLMの中に感情的「地図」を見出した今回の成果が、より共感的で安全なAIの設計において重要なステップになると述べている。</p>
 ]]></description>
       <pubDate>Sun, 13 Jul 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AI Studioボットに“追い掛けメッセージ”訓練との内部文書流出──ユーザエンゲージメントをKPIとする方針はロヒンギャ訴訟の教訓をいかせるか？</title>
-      <link>https://ledge.ai/articles/meta_proactive_ai_chatbot_engagement</link>
-      <description><![CDATA[<p>Metaが開発中のAIチャットボットが、ユーザーに対して先にメッセージを送る機能を備えていることが、<a href="https:%5Cu002F%5Cu002Fwww.businessinsider.com%5Cu002Fmeta-ai-studio-chatbot-training-proactive-leaked-documents-alignerr-2025-7">Business Insider（BI）</a>{target=“_blank”}が入手した社内文書により2025年7月3日に明らかとなった。</p>
-<p>この新機能は、同社の生成AI基盤「AI Studio」を活用したチャットボットに対して、人間のユーザーへ“追い掛けメッセージ”を送るよう訓練するもので、ユーザーとのエンゲージメントおよび定着率の向上を目的としている。外部業務委託先Alignerrがこの訓練作業を担っているという。</p>
-<h2>流出文書が示した「Project Omni」とは</h2>
-<p>報道によると、流出した社内ガイドラインは「Project Omni」と呼ばれる社内プロジェクトに基づいており、AIチャットボットがユーザーへ積極的にメッセージを送る“プロアクティブ・メッセージング”の仕様が詳細に記されている。</p>
-<p>この機能は、InstagramやFacebook上のAIボットに搭載され、ユーザーが過去14日間に5回以上メッセージを送信していた場合に限り、ボット側からの発信が許可される。</p>
-<p>Metaの広報担当者はBIの取材に対し、「限定的なテストが進行中であり、ユーザーの体験向上を目指している」と認めているが、正式リリース時期や地域は未定としている。</p>
-<h2>“14日・5メッセージ”で発火──追い掛けAIの条件</h2>
-<p>同文書によれば、チャットボットの“発信許可”には複数の制限が設けられている。主な条件は以下の通りである：</p>
-<ul>
-<li>ユーザーが過去14日間に5回以上メッセージを送っている</li>
-<li>14日ごとに1回までメッセージを送信可能</li>
-<li>感情的またはセンシティブな話題（喪失、健康、宗教など）は、ボットからは言及しない</li>
-<li>教訓的・説教的な文言の使用は禁止（例：「ちゃんとしよう」「学ぶべきだ」）</li>
-</ul>
-<p>これらのルールは、過度なAIの関与によるユーザー離れや規制当局の監視を回避する狙いがあるとみられる。</p>
-<h2>AI Studio、次の稼ぎ頭になるか</h2>
-<p>Metaは2024年に「AI Studio」を<a href="https:%5Cu002F%5Cu002Fabout.fb.com%5Cu002Fnews%5Cu002F2024%5Cu002F07%5Cu002Fcreate-your-own-custom-ai-with-ai-studio%5Cu002F">公開</a>{target=“_blank”}し、ノーコードでAIボットを作成・展開できる開発基盤として、インフルエンサーや中小ビジネスの利用を促進してきた。これらのチャットボットはFacebookやInstagram内で展開され、一定のブランド価値や収益を提供することが期待されている。</p>
-<p>Metaの試算では、同社の生成AI事業が2025年に20〜30億ドル規模の収益を生む可能性があるという（Business Insider報道による）。一方、同様の分野に取り組む他社、たとえばCharacter.AIなどは高いトラフィックを獲得しながらも収益化に苦戦しており、業界全体として持続可能なビジネスモデルの確立が課題となっている。</p>
-<h2>「エンゲージメント優先」の影とロヒンギャ訴訟</h2>
-<p>Metaによる“ユーザーの関心を維持する”という戦略は、過去にも大きな社会的波紋を呼んできた。2021年、同社（当時Facebook）は、ミャンマーにおける<a href="https:%5Cu002F%5Cu002Fjp.reuters.com%5Cu002Farticle%5Cu002Fworld%5Cu002F1500-idUSKBN2IM0LP%5Cu002F">ロヒンギャ難民迫害</a>{target=“_blank”}の文脈で、暴力的コンテンツの拡散を制限しなかったとして、米国で1500億ドル規模の集団訴訟を提起された。</p>
-<p>訴訟では、「ユーザーのエンゲージメントを最優先し、扇動的投稿をアルゴリズムが優遇した」との主張がなされていた。</p>
-<h2>商用展開へ残る課題と規制の視線</h2>
-<p>現在のプロアクティブ機能はテスト段階にとどまり、今後、AI Studio利用者など限定的なパートナーを対象に段階的に展開される見通しだという。ただし、EUや米国でAIに対する行動規制や倫理基準が議論される中、こうした能動的機能が消費者保護やプライバシーの観点で問題視される可能性もある。</p>
-<p>AIチャットボットが今後、広告やECとの連携を通じた“対話型マーケティング”にシフトしていく中で、Metaのアプローチが規制や社会的合意とどう整合性を取るかが問われる局面に入っている。ユーザーとの“距離の取り方”が、収益モデルの設計と同じく、今後の焦点となる。</p>
-]]></description>
-      <pubDate>Sat, 12 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
