@@ -2,21 +2,22 @@ use pulldown_cmark::{html, Parser};
 use regex::Regex;
 use scraper::{Html, Selector};
 
+// Constant for the target="_blank" pattern to remove
+const TARGET_BLANK_PATTERN: &str = r#"{target="_blank"}"#;
+
+/// Cleans content by removing target="_blank" patterns
+fn clean_content(content: &str) -> String {
+    content.replace(TARGET_BLANK_PATTERN, "")
+}
+
 pub fn extract_article_content(html: &str) -> Result<String, Box<dyn std::error::Error>> {
-    let document = Html::parse_document(html);
-
-    // Try multiple approaches to extract content
-
-    // 1. Try to extract from script tags with various patterns
+    // Extract from script tags (Ledge.ai uses Nuxt.js with __NUXT__ object)
     if let Ok(content) = extract_from_script_tags(html) {
         if content.len() > 100 {
-            return Ok(content);
+            // Final cleanup: remove any remaining {target="_blank"} patterns
+            let cleaned_content = clean_content(&content);
+            return Ok(cleaned_content);
         }
-    }
-
-    // 2. Try to extract from standard HTML content areas
-    if let Ok(content) = extract_from_html_content(&document) {
-        return Ok(content);
     }
 
     Err("Article content not found".into())
@@ -69,7 +70,11 @@ fn extract_content_from_script(script_text: &str) -> Option<String> {
                         .replace("\\r", "\r")
                         .replace("\\t", "\t")
                         .replace("\\\"", "\"")
-                        .replace("\\/", "/");
+                        .replace("\\/", "/")
+                        .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
+
+                    // Remove {target="_blank"} patterns
+                    let cleaned = clean_content(&cleaned);
 
                     // More lenient filtering - accept any substantial content
                     if cleaned.len() > 300 {
@@ -149,45 +154,6 @@ fn extract_date_from_nuxt_object(html: &str) -> Option<String> {
     }
 
     None
-}
-
-fn extract_from_html_content(document: &Html) -> Result<String, Box<dyn std::error::Error>> {
-    // Try Ledge.ai specific content selectors first
-    let content_selectors = [
-        ".article-body",    // Ledge.ai article body
-        ".post-body",       // Post body
-        ".content-body",    // Content body
-        "article .content", // Article content
-        ".entry-content",   // Entry content
-        "main article",     // Main article
-        "article",          // Generic article
-        ".post-content",    // Post content
-        "main",             // Main content area
-        "[role='main']",    // Main role
-    ];
-
-    for selector_str in &content_selectors {
-        if let Ok(selector) = Selector::parse(selector_str) {
-            for element in document.select(&selector) {
-                let content = element.text().collect::<Vec<_>>().join(" ");
-
-                // More lenient filtering - just check basic length
-                if content.len() > 300 {
-                    // Basic cleanup for common UI elements but still return content
-                    let cleaned = content
-                        .replace("クリップする", "")
-                        .replace("アクセスランキング", "")
-                        .replace("関連記事", "")
-                        .replace("人気のタグ", "")
-                        .replace("FOLLOW US", "");
-
-                    return Ok(format!("# Article Content\n\n{}", cleaned.trim()));
-                }
-            }
-        }
-    }
-
-    Err("No content found in HTML".into())
 }
 
 pub fn extract_article_date(html: &str) -> Option<String> {
@@ -316,19 +282,26 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
     use once_cell::sync::Lazy;
     use regex::Regex;
 
+    // Processing markdown content with integrated filtering
+
     // Compile all regex patterns once using Lazy static initialization
     static SMALL_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::small[\s\S]*?:::").unwrap());
     static BOX_PATTERN: Lazy<Regex> = Lazy::new(|| Regex::new(r":::box[\s\S]*?:::").unwrap());
-    static LINK_TARGET_BLANK_PATTERN: Lazy<Regex> =
-        Lazy::new(|| Regex::new(r#"\]\(([^)]+)\)\{target="_blank"\}"#).unwrap());
-    static STANDALONE_TARGET_BLANK_PATTERN: Lazy<Regex> =
-        Lazy::new(|| Regex::new(r#"\{target="_blank"\}"#).unwrap());
+    // Pattern to remove {target="_blank"} with various quote styles and optional spaces
+    // Handles:
+    // - ASCII double quotes (")
+    // - ASCII single quotes (')
+    // - Unicode smart quotes (" " U+201C and U+201D)
+    // - Optional spaces around the = sign
+    static TARGET_BLANK_PATTERN_REGEX: Lazy<Regex> =
+        Lazy::new(|| Regex::new(r#"\{target\s*=\s*["'"\u{201C}]_blank["'"\u{201D}]\}"#).unwrap());
 
     // Apply all filtering in sequence, minimizing string allocations
     let result = SMALL_PATTERN.replace_all(markdown, "");
     let result = BOX_PATTERN.replace_all(&result, "");
-    let result = LINK_TARGET_BLANK_PATTERN.replace_all(&result, "]($1)");
-    let result = STANDALONE_TARGET_BLANK_PATTERN.replace_all(&result, "");
+
+    // Apply target="_blank" pattern removal
+    let result = TARGET_BLANK_PATTERN_REGEX.replace_all(&result, "");
 
     result.into_owned()
 }
@@ -336,27 +309,6 @@ pub fn preprocess_markdown_content(markdown: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
-
-    #[test]
-    fn test_extract_article_content() {
-        let html = r###"
-            <html>
-                <head>
-                    <script>
-                        var data = {"body": "# Test Article\\n\\nThis is a test article with sufficient content to pass the length check. This content is long enough to be considered substantial and will be extracted successfully by our content extraction algorithm. Additional content to ensure it meets the 300 character minimum requirement for our regex pattern matching system."};
-                    </script>
-                </head>
-                <body>
-                    <div>Navigation</div>
-                    <main>Article content with enough text to pass the 300 character minimum requirement for substantial content extraction in our HTML parsing function. This main content area contains substantial text that should be extracted when script extraction fails. Additional text to ensure length requirements are met.</main>
-                </body>
-            </html>
-        "###;
-
-        let content = extract_article_content(html).unwrap();
-        assert!(content.len() > 100); // Just check that we got substantial content
-        assert!(content.contains("Test Article") || content.contains("Article content"));
-    }
 
     #[test]
     fn test_markdown_to_html() {
@@ -377,12 +329,30 @@ mod tests {
     }
 
     #[test]
-    fn test_preprocess_markdown_content_handles_markdown_links() {
+    fn test_preprocess_markdown_content_removes_target_blank() {
         let markdown = r#"Here is a [link](https://example.com){target="_blank"} and another [link](https://other.com){target="_blank"}."#;
         let result = preprocess_markdown_content(markdown);
         let expected =
             r#"Here is a [link](https://example.com) and another [link](https://other.com)."#;
         assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_removes_target_blank_variations() {
+        // Test with single quotes
+        let markdown1 = r#"[link](https://example.com){target='_blank'}"#;
+        let result1 = preprocess_markdown_content(markdown1);
+        assert_eq!(result1, "[link](https://example.com)");
+
+        // Test with spaces around equals
+        let markdown2 = r#"[link](https://example.com){target = "_blank"}"#;
+        let result2 = preprocess_markdown_content(markdown2);
+        assert_eq!(result2, "[link](https://example.com)");
+
+        // Test with both spaces and single quotes
+        let markdown3 = r#"[link](https://example.com){target = '_blank'}"#;
+        let result3 = preprocess_markdown_content(markdown3);
+        assert_eq!(result3, "[link](https://example.com)");
     }
 
     #[test]
@@ -610,5 +580,87 @@ Final content.
         let date = extract_date_from_nuxt_script(script_text);
         assert!(date.is_some());
         assert_eq!(date.unwrap(), "2025-07-13T04:50:00.014Z");
+    }
+
+    #[test]
+    fn test_pulldown_cmark_with_special_characters() {
+        // Test if pulldown-cmark itself introduces {target="_blank"} patterns
+        let markdown =
+            r#"Check this [link](https://www.nedo.go.jp/koubo/CD3_100397.html) for more info."#;
+        let html = markdown_to_html(markdown);
+        // Should not contain {target="_blank"} patterns
+        assert!(!html.contains(r#"{target="_blank"}"#));
+        // Should be a normal link
+        assert!(html.contains(r#"<a href="https://www.nedo.go.jp/koubo/CD3_100397.html">link</a>"#));
+    }
+
+    #[test]
+    fn test_markdown_with_japanese_and_encoded_urls() {
+        // Test case similar to what we might see in the RSS problem
+        let markdown = r#"今回の公募には43件が応募し、最終的に24件が採択された。楽天グループと野村総合研究所（NRI）を含む13件が新規採択で、第1期・第2期に採択されていなかった新顔の参画が加速している。"#;
+        let html = markdown_to_html(markdown);
+        // Should not contain any {target="_blank"} patterns
+        assert!(!html.contains(r#"{target="_blank"}"#));
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_unicode_escaped_urls() {
+        // Test the actual pattern found in the GENIAC article - simplified approach
+        let markdown = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}した。"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)した。"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_handles_multiple_unicode_escapes() {
+        // Test multiple unicode escapes in one URL - simplified approach just removes {target="_blank"}
+        let markdown = r#"Check this [link](https:\u002F\u002Fexample.com\u002Fpath\u002Fto\u002Ffile){target="_blank"} for more info."#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"Check this [link](https:\u002F\u002Fexample.com\u002Fpath\u002Fto\u002Ffile) for more info."#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_preprocess_markdown_content_exact_geniac_pattern() {
+        // Test the exact pattern found in the GENIAC article
+        let markdown = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}した。"#;
+        let result = preprocess_markdown_content(markdown);
+        let expected = r#"NEDOは、生成AI開発支援プロジェクト「GENIAC」の第3期採択結果を[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)した。"#;
+        assert_eq!(result, expected);
+    }
+
+    #[test]
+    fn test_link_target_blank_regex_directly() {
+        use regex::Regex;
+        let pattern = Regex::new(r#"(\]\([^)]*\))[ ]*\{target="_blank"\}"#).unwrap();
+        let test_text = r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html){target="_blank"}"#;
+        let result = pattern.replace_all(test_text, "$1");
+        assert_eq!(
+            result,
+            r#"[発表](https:\u002F\u002Fwww.nedo.go.jp\u002Fkoubo\u002FCD3_100397.html)"#
+        );
+    }
+
+    #[test]
+    fn test_extract_content_from_script_cleans_unicode_escapes() {
+        // Test that unicode escape \u002F is cleaned up to /
+        let content = "This is a test with https:\\u002F\\u002Fwww.example.com and some {target=\"_blank\"} patterns.";
+        let cleaned = content
+            .replace("\\n", "\n")
+            .replace("\\r", "\r")
+            .replace("\\t", "\t")
+            .replace("\\\"", "\"")
+            .replace("\\/", "/")
+            .replace("\\u002F", "/"); // Fix Unicode escape for forward slash
+
+        let cleaned = clean_content(&cleaned);
+
+        assert_eq!(
+            cleaned,
+            "This is a test with https://www.example.com and some  patterns."
+        );
+        assert!(!cleaned.contains("\\u002F"));
+        assert!(!cleaned.contains(r#"{target="_blank"}"#));
     }
 }

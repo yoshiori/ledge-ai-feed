@@ -11,21 +11,14 @@ pub fn parse_articles_from_html(
     html: &str,
 ) -> Result<Vec<ArticleInfo>, Box<dyn std::error::Error>> {
     // First try to extract from Nuxt.js __NUXT__ object
-    println!("  Trying to extract from Nuxt data...");
     if let Ok(articles) = extract_from_nuxt_data(html) {
         if !articles.is_empty() {
-            println!("  ✓ Found {} articles from Nuxt data", articles.len());
             return Ok(articles);
         }
     }
-    println!("  No articles found in Nuxt data, trying static HTML...");
 
     // Fallback to static HTML parsing
     let static_articles = extract_from_static_html(html)?;
-    println!(
-        "  Found {} articles from static HTML",
-        static_articles.len()
-    );
     Ok(static_articles)
 }
 
@@ -38,18 +31,9 @@ fn extract_from_nuxt_data(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std::e
 
         // Try to find JSON data embedded in various formats
         if script_text.contains("articles") && (script_text.len() > 1000) {
-            println!(
-                "    Found large script with 'articles' keyword ({} chars)",
-                script_text.len()
-            );
-
             // Try to extract any JSON objects containing article data
             if let Some(articles) = extract_articles_from_any_json(&script_text) {
                 if !articles.is_empty() {
-                    println!(
-                        "    ✓ Found {} articles from JSON extraction",
-                        articles.len()
-                    );
                     return Ok(articles);
                 }
             }
@@ -69,8 +53,6 @@ fn extract_articles_from_any_json(script_text: &str) -> Option<Vec<ArticleInfo>>
     // Find all title matches
     let title_matches: Vec<_> = title_pattern.find_iter(script_text).collect();
     let _slug_matches: Vec<_> = slug_pattern.find_iter(script_text).collect();
-
-    println!("    Found {} title matches", title_matches.len());
 
     // Pair up titles and slugs that are close to each other
     for title_match in title_matches {
@@ -123,7 +105,6 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
 
     for selector_str in &selectors_to_try {
         if let Ok(selector) = Selector::parse(selector_str) {
-            println!("    Trying selector: {selector_str}");
             let mut found_count = 0;
 
             for element in document.select(&selector) {
@@ -150,7 +131,6 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
                 }
             }
 
-            println!("      Found {found_count} articles with this selector");
             if found_count > 0 {
                 break; // Use the first selector that finds articles
             }
