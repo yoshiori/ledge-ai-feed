@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、「ChatGPT agent」を発表──仮想PC上でAIが自律的に業務遂行、Pro／Plus／Team利用者に提供開始</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_agent_virtual_pc_automation</link>
+      <description><![CDATA[<p>OpenAIは2025年7月17日（米国時間）、ChatGPTにおいて、新機能「ChatGPT agent」の提供開始を<a href="https://openai.com/ja-JP/index/introducing-chatgpt-agent/">発表</a>した。</p>
+<p>これは、仮想コンピュータ上でChatGPTがウェブブラウジングやファイル編集、スケジュール作成といった一連のタスクを自律的に実行するもので、従来の「deep research」「Operator」の機能と統合された形で動作する。まずは英語UIを用いるChatGPTのPro、Plus、Teamプラン利用者を対象に提供され、順次Enterpriseや教育機関向けの拡大が予定されている。
+@<a href="https://www.youtube.com/watch?v=1jn_RpbPbEc">YouTube</a></p>
+<h2>仮想コンピュータで複数タスクを自動処理</h2>
+<p>ChatGPT agentは、AIが仮想PC上で実際の操作環境を用い、ユーザーの目的達成まで複数のアプリケーションやツールを横断的に操作する。たとえば、Googleカレンダーで日程を調整し、OpenTableでレストランを予約するといった一連の作業を、ユーザーの指示に基づきAIが代行する。メールの下書き作成、スプレッドシートの整理、コードの実行やファイル変換といった業務も対象となる。</p>
+<p>この環境はユーザーごとに隔離された仮想的な計算空間であり、AIが自らターミナル、ブラウザ、文書作成ソフトなどを使ってタスクを処理する構成になっている。</p>
+<h2>「deep research」と「Operator」機能を統合</h2>
+<p>今回の新機能は、OpenAIがこれまで実装してきた2つのツール、「deep research」と「Operator」に加え、新たなエージェント基盤を組み合わせた点が特徴である。</p>
+<ul>
+<li>「deep research」は、アップロードされたファイルやウェブページを高速かつ精緻に読み取り、要点を抽出・要約するリサーチ特化型機能。</li>
+<li>「Operator」は、フォーム入力やメール送信、外部アプリの制御など“行動”の自動化に適したツール群。</li>
+</ul>
+<p>ChatGPT agentはこれらの機能を組み合わせ、状況に応じて最適な処理を自律的に選択・実行する設計となっている。</p>
+<h2>安全性確保のための仕組みも導入</h2>
+<p>OpenAIは本機能の公開にあたり、ユーザーの許可なしに実行されるリスクのある操作について制限を設けている。たとえば、金銭の送金、ファイルの削除、ECサイトでの購入といった不可逆操作はすべてユーザーの明示的な承認が必要とされる。さらに、投資、暗号資産取引、医療・法律・健康に関する判断は対応外となっている。</p>
+<p>また、AIの意思決定過程やリスクの特性については、同社が公開する「システムカード」によって透明性を確保している。これには人間によるフィードバック（RLHF）に基づいたチューニングや、セーフティ・レールの設計方針が含まれている。</p>
+<h2>今後の展開</h2>
+<p>ChatGPT agentは英語UIにおいて、7月17日よりPro、Plus、Teamユーザー向けに順次展開されている。Enterpriseや教育機関向けプラン、欧州経済領域（EEA）での提供は「規制要件を満たし次第」開放されるとしている。</p>
+<p>今後は、開発者向けにエージェント機能を呼び出せる「Agent API」や、ユーザーが独自にツールを登録・共有できる「Marketplace」の構想も示されており、年内にもさらなる拡張が計画されているという。</p>
+<p>今回の発表は、急速に拡大するAIエージェント市場におけるOpenAIの戦略的な一手とみられている。同様の機能はAnthropicが「Claude Team Agent」、Googleが「Gemini Agents」、Metaが「AI Studio Bots」として展開を開始しており、各社が“リサーチとアクションの統合”を軸に差別化を図っている。OpenAIは、これまで研究開発を重視してきた姿勢を維持しつつ、実務への応用性を高める方向に舵を切った形だ。</p>
+]]></description>
+      <pubDate>Fri, 18 Jul 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米国防総省、Anthropic・Google・OpenAI・xAIに各2億ドル──フロンティアAIを“エージェント化”し全軍ミッションを強化</title>
       <link>https://ledge.ai/articles/dod_frontier_ai_partnerships_2025</link>
       <description><![CDATA[<p>2025年7月14日、米国防総省の最高デジタル・人工知能局（Chief Digital and Artificial Intelligence Office: CDAO）は、先進AI技術の導入を加速するため、Anthropic、Google、OpenAI、xAIの4社とそれぞれ最大2億ドル規模の契約を締結したと<a href="https://www.ai.mil/Latest/News-Press/PR-View/Article/4242822/cdao-announces-partnerships-with-frontier-ai-companies-to-address-national-secu/">発表</a>した。</p>
@@ -588,33 +614,6 @@
 <p>Hugging Faceは、SmolLM 3の学習中間チェックポイントや派生モデルの公開も予定しており、将来的にはVision対応モデル「SmolVLM 3」や1.7B／360M規模の軽量版も検討していることを明らかにしている。現時点では、3Bクラスのモデルで長文処理、推論モード切替、多言語対応、完全OSSの4要素を同時に満たすモデルは他に例がなく、オープンソースLLMの選定基準に新たな軸を提供する形となっている。</p>
 ]]></description>
       <pubDate>Sun, 13 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国・北京大学など、AIに「感情スイッチ」を実現──「計算感情空間」の構築でLLMが怒り・悲しみ・喜びを自在に切替</title>
-      <link>https://ledge.ai/articles/ai_emotion_switch_llm_control</link>
-      <description><![CDATA[<p>2025年6月27日、中国・北京大学など8つの研究機関は、生成AIの中核である大規模言語モデル（LLM）内部に、人間の感情と構造的に対応する「計算感情空間（computational emotion space）」を構築し、怒り・喜び・悲しみなど26種類の感情を自在に操作できる「感情スイッチ（steering vector）」を実現したと<a href="https://arxiv.org/abs/2506.13978">発表</a>した。</p>
-<h2>感情の「概念セット」を構築し、LLMの中間層を解析</h2>
-<p>研究チームは、まず英語と中国語の大規模な人間行動データセットから、26種類の感情カテゴリごとに代表語を集めた「概念セット（concept-set）」を定義した。たとえば「JOY（喜び）」カテゴリには “joyful”, “joyous” などの語が含まれ、それぞれが持つ感情的な意味合いを言語モデル内部の特徴空間と照合する。</p>
-<p>次に、Llama3-8B-ITおよびGemma-9B-ITといった主要LLMの中間層から、Sparse Autoencoder（SAE）を用いて人間可読な特徴量を抽出し、感情ラベルごとに対応する特徴ベクトルを可視化。感情ごとに意味的に似た特徴量をグループ化することで、LLM内部の感情表象の構造を明らかにした。</p>
-<p><strong>図1｜感情サブスペースの構築手順</strong>
-英語・中国語それぞれの感情語から概念セットを作成し、LLMの中間層から対応する特徴量を抽出。SAEを用いて「JOY（喜び）」などの感情カテゴリごとに独立したサブスペースを構成する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f/AI_shares_emotion_with_humans_across_languages_and_cultures1_4b199e4d6f.jpg" alt="AI shares emotion with humans across languages and cultures1.jpg" /></p>
-<h2>英語・中国語を超えて一致する「感情マップ」</h2>
-<p>こうして得られた各感情のサブスペースを統合し、感情間の関係性をUMAP（次元圧縮）で可視化すると、驚くべきことに、LLMは人間が心理学で使う「快‐不快」「興奮‐沈静」という2軸の感情モデルとよく対応する形で内部構造を整理していた。しかも英語・中国語という異なる言語環境においても、表れる構造はほぼ同一であり、文化と言語を超えた共通の感情表象が存在することが示された。</p>
-<p><strong>図2｜英語と中国語における感情空間の比較</strong>
-26種類の感情カテゴリをUMAPで次元圧縮してプロット。怒り、喜び、不安、驚きなどの感情が文化と言語に依らず類似の空間構造で表現されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d/AI_shares_emotion_with_humans_across_languages_and_cultures2_3dd0476c9d.jpg" alt="AI shares emotion with humans across languages and cultures2.jpg" /></p>
-<h2>質問応答に“怒り”を注入すると語調が変化</h2>
-<p>研究チームはこの「感情空間」から、特定の感情に対応する45本前後の主要特徴量を抽出し、それを「steering vector（感情スイッチ）」としてLLMの隠れ状態に加えることで、任意の感情を誘導する手法を確立した。</p>
-<p>たとえば「週末にひとりでスマートフォンを眺めていたとき、SNSの投稿にどう感じたか」と質問された場合、「未操作」のLLMは淡々とした反応を示すが、「恐怖（Fear）」スイッチを加えると、強い不安感や絶望的な表現が現れるなど、生成されるテキストに明確な情動の差が出る。</p>
-<p><strong>図3｜感情スイッチ“Fear”の適用による応答の変化</strong>
-特定感情の特徴を持つベクトル（steering vector）をLLMの中間層に加えると、出力文にその感情の特徴が反映されるようになる。未操作時と“恐怖”適用時の文章には明らかな語調の違いが見られる。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60/AI_shares_emotion_with_humans_across_languages_and_cultures3_383bcb4e60.jpg" alt="AI shares emotion with humans across languages and cultures3.jpg" /></p>
-<h2>今後の課題と応用可能性</h2>
-<p>この手法は、メンタルケアや教育、感情を持つゲームキャラクターなど、応用範囲の広さが期待されている一方で、高強度の感情スイッチを重ねがけすると混線が起きやすいという課題も報告されている。また、視覚や音声など他のモダリティにまたがる感情操作は今後の検証課題となっている。</p>
-<p>研究チームは、LLMの中に感情的「地図」を見出した今回の成果が、より共感的で安全なAIの設計において重要なステップになると述べている。</p>
-]]></description>
-      <pubDate>Sun, 13 Jul 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
