@@ -5,6 +5,66 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIが11歳の作文から22年後の最終学歴と能力を高精度予測──Nature系誌が報告</title>
+      <link>https://ledge.ai/articles/ai_predicts_future_education_from_childhood_essay</link>
+      <description><![CDATA[<p>2025年7月3日、Nature系列の学術誌『Communications Psychology』に掲載された研究によると、11歳児が授業で書いた約250語の作文を大規模言語モデル（LLM）で分析することで、22年後の最終学歴や認知・非認知能力を高精度で予測できることが<a href="https://www.nature.com/articles/s44271-025-00274-x">明らかになった</a>。</p>
+<p>英国で1958年に生まれた約1万人を追跡する縦断研究のデータを用い、GPT-3.5による文章埋め込みと機械学習を組み合わせた予測モデルは、教師による評価とほぼ同等の精度を達成したという。</p>
+<h2>従来の予測手法の限界</h2>
+<p>これまでの研究では、社会調査データや遺伝情報を用いた将来予測の精度には限界があった。2020年に米国で実施された「Fragile Families Challenge」では、160の研究チームが1万2942項目の社会調査データを活用したが、中学生時点の成績（GPA）の予測精度は約20％にとどまった。</p>
+<p>一方、トランスフォーマー型のLLMの発展により、文章から個人の能力や性格傾向を高精度に捉える可能性が注目されている。本研究は、短い作文が将来をどの程度予測できるかを実証的に検証した。</p>
+<h2>研究の概要：1958年英国出生コホートデータを活用</h2>
+<p>研究に用いられたのは、1958年に英国で生まれた1万7415人を追跡する「National Child Development Study（NCDS）」のデータである。参加者が11歳の時点で「25歳の自分を想像して」という課題で書いた作文（1～1239語、平均約250語）を分析対象とした。
+研究チームは以下の手法で作文を分析した：</p>
+<ul>
+<li>OpenAIのtext-embedding-ada-002モデルによる1536次元の文章埋め込み</li>
+<li>534項目の言語的特徴（語彙の多様性、洗練度、感情表現）</li>
+<li>31種類の読みやすさ指標</li>
+<li>文法・スペルミスの比率</li>
+</ul>
+<p>これらの特徴量を、11歳時点の教師による評価22項目、33種類のポリジーンスコア（遺伝的指標）と組み合わせ、アンサンブル学習手法「SuperLearner」で予測モデルを構築した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/44271_2025_274_Fig1_HTML_539bc4fa53/44271_2025_274_Fig1_HTML_539bc4fa53.png" alt="44271_2025_274_Fig1_HTML.png" /></p>
+<h2>予測精度：AIと教師評価がほぼ同等</h2>
+<p>分析の結果、作文のみでも高い予測精度が得られた。11歳時点の能力予測では以下の精度（R²値）を達成した：</p>
+<ul>
+<li>読解力：作文分析 0.59、教師評価 0.57</li>
+<li>言語能力：作文分析 0.55、教師評価 0.57</li>
+<li>数学的能力：作文分析 0.55、教師評価 0.57</li>
+<li>非言語能力：作文分析 0.37、教師評価 0.45</li>
+</ul>
+<p>33歳時点の最終学歴の予測精度は、作文分析が0.26、教師評価が0.29、遺伝情報が0.19となった。作文・教師評価・遺伝情報をすべて統合したモデルでは、最終学歴の予測精度が0.38に達した。
+特に認知能力の予測では、3つの情報源を統合したモデルの精度が0.70に達し、標準的な知能検査の再検査信頼性に迫る水準となった。</p>
+<p><strong>認知能力（11歳時点）と最終学歴（33歳時点）に対する各予測モデルおよびその組み合わせの精度比較</strong> ：3つの情報源（作文、教師評価、遺伝情報）をすべて統合したモデルは、認知能力で0.70、最終学歴で0.38という高い予測精度を達成。単独の予測手法と比較して、統合による相乗効果が確認された。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cognitive_and_not_cognitive_abilities_066c248f61/cognitive_and_not_cognitive_abilities_066c248f61.jpg" alt="cognitive and not cognitive abilities.jpg" /></p>
+<h2>GPT埋め込みが予測精度の大部分を担う</h2>
+<p>研究チームは、予測モデルの各要素の貢献度を分析した。その結果、1536次元のGPT埋め込みが予測精度の大部分を担っていることが判明した。</p>
+<p><strong>作文から抽出した各種特徴量による認知能力・非認知能力の予測精度</strong>  赤：文法・スペルミス、オレンジ：読みやすさ指標、黄：言語的特徴（語彙多様性・洗練度・感情表現）、緑：埋め込み以外の全特徴、青：GPT-3.5埋め込み、紫：全特徴の統合。GPT埋め込みが予測精度の向上に最も貢献していることが分かる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Prediction_of_highest_attained_education_e29b74bcc0/Prediction_of_highest_attained_education_e29b74bcc0.jpg" alt="Prediction of highest attained education.jpg" /></p>
+<p>従来の読みやすさ指標や文法的特徴のみでは、作文の長さのみを用いた予測と比べて5～10倍程度の改善にとどまったが、GPT埋め込みを追加することで大幅な精度向上が見られた。</p>
+<h2>他の予測要因との比較</h2>
+<p>研究では、教育達成度の予測において一般的に用いられる他の要因とも比較を行った：</p>
+<p><strong>33歳時点の最終学歴に対する各予測モデルの精度比較</strong> ：従来の予測要因（出生時体重、身長、社会学的モデル）と比較して、作文・教師評価・遺伝情報を統合したモデルは大幅に高い予測精度（R²=0.38）を達成した。エラーバーは交差検証における最小・最大値を示す。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_model_containing_all_three_information_sets_d4cce493ba/A_model_containing_all_three_information_sets_d4cce493ba.gif" alt="A model containing all three information sets.gif" /></p>
+<ul>
+<li>両親の教育水準：予測精度 0.12</li>
+<li>出生時体重：予測精度 0.01</li>
+<li>身長：予測精度 0.03</li>
+<li>社会経済的背景を含む従来の社会学的モデル：予測精度 0.18～0.19</li>
+</ul>
+<p>これらと比較して、作文分析による予測は大幅に高い精度を示した。</p>
+<h2>研究の限界と今後の課題</h2>
+<p>研究チームは、以下の限界を指摘している：</p>
+<ol>
+<li><strong>一般化可能性</strong> ：サンプルは1958年に英国で生まれた世代に限定されており、現代の児童や他の文化圏への適用可能性は未検証</li>
+<li><strong>因果関係</strong> ：予測の成功は、作文と結果の間の関連性を示すが、その背後にあるメカニズムは不明</li>
+<li><strong>技術の進歩</strong> ：より新しいLLMモデルや、より洗練された遺伝的予測手法を用いれば、さらなる精度向上の可能性がある</li>
+<li><strong>倫理的配慮</strong> ：予測技術の教育選抜や信用評価への応用には、偏見の固定化や自己成就的予言のリスクがあり、慎重な議論が必要</li>
+</ol>
+<h2>研究の意義</h2>
+<p>この研究は、適切なデータと手法を用いれば、人間の将来をある程度予測可能であることを示した。これは「人間の生活は本質的に予測不可能」とする従来の見解に再考を促すものといえる。同時に、AIによるテキスト分析が教師評価に匹敵する精度を持つことから、教育現場における「第3の評価視点」として活用できる可能性を示唆している。ただし研究チームは、これらの予測はあくまで教育支援のための参考情報として用いるべきであり、決定的な選別の根拠とすべきではないと強調している。</p>
+]]></description>
+      <pubDate>Fri, 18 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「ChatGPT agent」を発表──仮想PC上でAIが自律的に業務遂行、Pro／Plus／Team利用者に提供開始</title>
       <link>https://ledge.ai/articles/openai_chatgpt_agent_virtual_pc_automation</link>
       <description><![CDATA[<p>OpenAIは2025年7月17日（米国時間）、ChatGPTにおいて、新機能「ChatGPT agent」の提供開始を<a href="https://openai.com/ja-JP/index/introducing-chatgpt-agent/">発表</a>した。</p>
@@ -594,45 +654,6 @@
 <p>Anthropicは本提案を規制当局や議会関係者に対し説明し、政策立案に活用されることを目指すとしている。また、スタートアップや研究機関からの意見募集を通じて、フレームワークの具体化と標準化を進める意向を示している。</p>
 ]]></description>
       <pubDate>Mon, 14 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hugging Face、「SmolLM 3」公開──小型・多言語・長文対応の3B Reasoningモデル、ONNX版も無償提供</title>
-      <link>https://ledge.ai/articles/smollm3_128k_multilingual_reasoning_model</link>
-      <description><![CDATA[<p>Hugging Faceは2025年7月8日、新たな小型言語モデル「SmolLM 3」をHugging Face HubとGitHubで<a href="https://huggingface.co/blog/smollm3">無償公開</a>した。パラメータ数は30億（3B）で、128kトークンの長文入力に対応し、命令文内の「/think」や「/no_think」フラグによって推論過程を切り替える機能を持つ。英語・フランス語・スペイン語・ドイツ語・イタリア語・ポルトガル語の6言語に最適化され、ツールコーリング機能も実装されている。公開直後にはONNX版や量子化済みチェックポイント、訓練レシピ、学習データセットなども順次提供されており、エッジ推論や再学習など幅広いユースケースに対応可能となっている。</p>
-<h2>モデルの概要</h2>
-<p>SmolLM 3は、Hugging Faceが開発した小型のデコーダ専用LLMで、以下の4つの特徴を備える。</p>
-<ul>
-<li>128kトークンの長文入力に対応（NoPEとYaRNを組み合わせた構成）</li>
-<li>“/think”推論切替機能により、タスクに応じて思考出力の有無を制御</li>
-<li>6言語対応かつツールコーリングに標準対応（code／json）</li>
-<li>Apache 2.0ライセンスによる完全オープンな学習レシピとデータの提供</li>
-</ul>
-<p><strong>図1：SmolLM 3 “Blueprint”──モデル構造、訓練レシピ、評価指標、利用方法をまとめた公式チャート</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/smollm3_whiteprint_360c69e64f/smollm3_whiteprint_360c69e64f.jpg" alt="smollm3-whiteprint.jpg" /></p>
-<h2>長文処理と“/think”モード</h2>
-<p>SmolLM 3は、約50万文字（A4約250ページ）に相当する128kトークンの入力を一括処理できる。これは、文書検索や契約書分析、技術資料の要約といったRAG用途において、前処理なしで大量文書を直接投入できることを意味する。</p>
-<p>また、「/think」モードを指定すれば、モデルは推論プロセスをステップバイステップで展開して出力する。一方で「/no_think」を指定すれば最終的な結論のみを返す挙動となる。この機能により、ユーザーは計算リソースや応答速度のトレードオフをタスクごとに柔軟に調整できる。</p>
-<p><strong>図2：/think」有無による各タスク成績。思考展開を出力した場合（左列）に高難度タスクの精度が大幅に向上</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2832_29_10b053fea3/image2832_29_10b053fea3.jpg" alt="image2832%29.jpg" /></p>
-<h2>ベンチマークと性能評価</h2>
-<p>Hugging Faceが公開した12種のベンチマークによると、SmolLM 3は同規模のLlama-3 3BやQwen 2.5 3Bを一貫して上回り、Qwen 3 4Bにも一部タスクで迫る結果を示している。特に多言語タスク（Flores、Global MMLUなど）において顕著な優位性を示しており、6言語の平均スコアはすべての同規模モデルを上回った。</p>
-<p><strong>図3　5言語平均ベンチマークの比較。SmolLM 3（黄）は同サイズモデルより高いスコアを示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2830_29_89a5d27e19/image2830_29_89a5d27e19.jpg" alt="image2830%29.jpg" /></p>
-<h2>公開リソースと利用方法</h2>
-<p>SmolLM 3は、Base版・Instruct版のほか、ONNX形式や量子化（q4f16）済みモデルも提供されており、Transformers.jsやONNX Runtimeを使ってブラウザやスマートフォン上でも即時に推論を行うことが可能だという。</p>
-<p>また、GitHub上にはnanotronベースの訓練構成・学習スケジュール・ablation結果がまとめられており、再学習や検証用途に活用できる。プリトレーニングで使用された11.2兆トークン相当の学習データセットも段階的に公開が進められている。</p>
-<h2>想定ユースケース</h2>
-<p>SmolLM 3の設計は、コスト・制御性・ライセンスの観点から、以下のような用途に適するとされる。</p>
-<ul>
-<li><strong>検索拡張生成（RAG）</strong> ：128k長文対応で検索精度と応答一貫性を高める</li>
-<li><strong>オンデバイスAI</strong> ：4GBメモリ対応の量子化モデルでスマートデバイスやエッジ環境でも運用可能</li>
-<li><strong>社内ナレッジボット</strong>：推論切替と多言語対応でグローバル対応FAQを効率化</li>
-<li><strong>検証・研究</strong> ：OSSライセンスとフルレシピ公開により再現性・改良が容易</li>
-</ul>
-<h2>今後の展開</h2>
-<p>Hugging Faceは、SmolLM 3の学習中間チェックポイントや派生モデルの公開も予定しており、将来的にはVision対応モデル「SmolVLM 3」や1.7B／360M規模の軽量版も検討していることを明らかにしている。現時点では、3Bクラスのモデルで長文処理、推論モード切替、多言語対応、完全OSSの4要素を同時に満たすモデルは他に例がなく、オープンソースLLMの選定基準に新たな軸を提供する形となっている。</p>
-]]></description>
-      <pubDate>Sun, 13 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
