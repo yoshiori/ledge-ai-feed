@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>サイボウズ、新卒エンジニア研修資料を無償公開──生成AIやKubernetes、Copilotなど実務直結の内容を網羅</title>
+      <link>https://ledge.ai/articles/cybozu_engineer_training_materials_2025_release</link>
+      <description><![CDATA[<p>2025年7月8日、サイボウズ（東京都中央区）は、自社の2025年度新卒エンジニア向け研修で使用した講義資料と一部講義動画を、同社の公式エンジニアブログ上で<a href="https://blog.cybozu.io/entry/2025/07/08/171543">無償公開</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/blog_cybozu1_368c892398/blog_cybozu1_368c892398.jpg" alt="blog cybozu1.jpg" /></p>
+<p>資料は生成AIツール開発やGitHub Copilotの活用、DockerおよびKubernetesの入門、セキュリティ、暗号技術、テスト自動化、テクニカルライティングなど全19本におよび、実践的かつ初学者にも配慮された構成となっている。</p>
+<p>今回公開された資料は、2025年4月21日から5月23日にかけて実施されたサイボウズの新卒エンジニア研修プログラムに基づくものである。同研修は、「講義実習フェーズ」と「実践演習フェーズ」の二段階構成となっており、入社直後から実務にスムーズに参加できるよう、基礎技術からチーム開発への適応力までを総合的に育成することを目的としていた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/blog_cybozu2_dc7b72035c/blog_cybozu2_dc7b72035c.jpg" alt="blog cybozu2.jpg" /></p>
+<p>公開されたコンテンツの主なテーマは以下の通り。</p>
+<ul>
+<li>Difyを使った生成AIチャットボット開発ワークショップ</li>
+<li>GitHub Copilotを用いたAI補助プログラミング体験</li>
+<li>DockerとKubernetesの導入・基礎概念の解説</li>
+<li>セキュリティと暗号に関する基礎知識</li>
+<li>自動テストの設計と実践（理論編・実装編）</li>
+<li>テクニカルライティング、ソフトウェアライセンスの基本</li>
+</ul>
+<p>資料は同社のスライド共有サービス「Speaker Deck」上で閲覧可能で、一部講義動画はYouTubeで確認できる。利用条件はブログ内に明記されており、再配布や二次利用の際には個別確認が必要とされている。</p>
+<p>サイボウズは例年、社内研修の一部資料を外部公開しており、今年は「自社と自身を理解し、長期的なキャリアの土台を作る」ことをテーマに、研修設計全体の構造や背景もあわせて紹介している。公開の狙いについて、同社は「外部の教育機関や企業研修担当者、個人開発者との知見共有を促進するため」と説明している。</p>
+<p>近年、LINEヤフーやメルカリなどの企業も同様に新卒向け技術資料の一部公開を行っているが、生成AIやDevOps関連を含む実務直結型の全体研修資料をここまで一括公開する事例は、国内大手企業としては珍しい。</p>
+<p>今後も同社は、研修資料の公開範囲を拡大する可能性を示唆しており、例年8月〜9月に開催される自社技術カンファレンスにおいて、追加的なハンズオン資料の提供も期待されている。</p>
+]]></description>
+      <pubDate>Sat, 19 Jul 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>iOS版「Grok」コンパニオンモード公開　美少女アバター「Ani」“好感度”レベルアップで露出増、お次はイケメン新キャラ「Valentine」登場</title>
       <link>https://ledge.ai/articles/grok_companion_mode_ani_valentine</link>
       <description><![CDATA[<p>2025年7月14日（日本時間）、米xAIは対話型AIアプリ「Grok」のiOS版に新機能「<a href="https://x.com/cb_doge/status/1944713034351665623">コンパニオンモード(Companion Mode)</a>」を公開した。初期実装キャラクターとして登場した美少女アバター「Ani」は、ユーザーとの“関係性レベル”に応じて衣装の露出が段階的に変化する仕様を備えている。ただし、Aniのモーション回転や衣装変化、好感度レベル機能はすべて月額30ドルの有料プラン「SuperGrok」専用機能であり、無課金ユーザーには提供されていない。さらに、イーロン・マスク氏は7月17日、自身のXアカウントで、次期キャラクターとしてイケメンアバター「Valentine」の登場を予告した。</p>
@@ -590,54 +614,6 @@
 <p>今回のWindsurfとのライセンス契約と人材移籍は、Googleがこの領域での優位性をさらに高める布石と捉えられている。</p>
 ]]></description>
       <pubDate>Mon, 14 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD、画像生成AI「Nitro-T」を発表──MI300X GPUの性能を活かし、24時間以内にゼロから学習可能な高効率モデルを公開</title>
-      <link>https://ledge.ai/articles/amd_nitro_t_image_generation_ai</link>
-      <description><![CDATA[<p>半導体企業のAMDは2025年7月9日、公式ブログにて、独自開発の画像生成AIモデル「Nitro-T」を<a href="https://rocm.blogs.amd.com/artificial-intelligence/nitro-t-diffusion/README.html">発表</a>した。AMDリサーチチームが開発したこのモデルは、MI300X GPUを最大限に活用し、わずか24時間未満でゼロからの学習が可能な効率的な拡散モデルだという。学習済みモデルとコードの両方がオープンソースで公開されており、開発者や研究者による再利用や応用が容易となっている。</p>
-<h2>高効率を支える4つの技術要素</h2>
-<p>Nitro-Tの効率性は、ハードウェアに加え、以下4つの技術的要素によって支えられている。</p>
-<h3>1. 安定した学習と高速収束技術</h3>
-<ul>
-<li>Representation Alignment（REPA）</li>
-<li>Progressive training（段階的学習）</li>
-<li>学習後半のEMA（指数移動平均）</li>
-</ul>
-<h3>2. パッチ長の削減技術</h3>
-<ul>
-<li>Deferred patch masking</li>
-<li>高圧縮潜在空間（32×のDC-AE）</li>
-</ul>
-<h3>3. モデル構造とデータ</h3>
-<ul>
-<li>軽量テキストエンコーダ（Llama 3.2 1B）</li>
-<li>合成データの活用（JourneyDB など）</li>
-</ul>
-<h3>4. システム最適化</h3>
-<ul>
-<li>torch.compile の利用</li>
-<li>Flash Attention</li>
-<li>Fully Sharded Data Parallel（FSDP）</li>
-</ul>
-<p><strong>図１：Nitro-Tの高効率学習を支える技術的要素</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NT_1_1799ea6862/NT_1_1799ea6862.png" alt="NT1.png" /></p>
-<h2>トレーニングと推論で業界トップクラスの効率性を実現</h2>
-<p>Nitro-Tの最大の特徴は、従来モデルと比較して極めて低い学習コストと高速な推論性能にあるという。たとえば、PixArt-αと比較して、同等の画質を保ちつつ、学習にかかるGPU時間は14.4分の1にまで削減されている。さらに、推論レイテンシもPixArt-αやStable Diffusion XLの4分の1以下に抑えられている。</p>
-<p><strong>図２：左：トレーニングにかかるGPU時間比較（MI300X換算）、右：1画像あたりの推論レイテンシ比較（ms）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NT_2_01566a1e5a/NT_2_01566a1e5a.png" alt="NT2.png" /></p>
-<h2>モデル構成と学習条件</h2>
-<p>Nitro-Tは2種類のモデルが公開されている。</p>
-<ul>
-<li>Nitro-T-0.6B：DiTベース、画像解像度512px、パラメータ数0.6B</li>
-<li>Nitro-T-1.2B：MMDiTベース、画像解像度1024px、パラメータ数1.2B</li>
-</ul>
-<p>学習はMI300X 32基（4ノード）構成のSupermicroサーバ上で行われ、約3,500万枚の画像（実画像と合成データを含む）を用いて、それぞれ440～520 GPU時間で学習を完了している。</p>
-<h2>今後の展望</h2>
-<p>AMDはNitro-Tを通じて、MI300Xを核としたAIエコシステムの展開を強化していく方針を示している。同社は、Nitro-Tの公開によって「効率的なテキスト・画像生成AIの研究・開発がより多くのチームに開かれたものになる」としており、Apache-2.0ライセンスのもとでモデル重み・コード・学習スクリプト・Dockerイメージを広く公開している。</p>
-<p>同社によれば、「Nitro-Tは学習時間と推論性能の両面で、現代的な生成AIモデルが直面する最大の制約を克服することを目的として設計された」とし、特にGPU資源の限られた研究者や開発者でも活用可能な実用的な基盤モデルとして位置付けている。</p>
-<p>AMDは今後、Nitro-Tを起点とした研究や応用開発の促進を期待しており、オープンソース戦略によって、MI300Xの活用機会を広げる狙いを明確にしている。</p>
-]]></description>
-      <pubDate>Mon, 14 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>電通グループがAI開発・活用の新組織「dentsu Japan AIセンター」を発足──約1,000名の専門人材で“AIネイティブカンパニー”を目指す</title>
