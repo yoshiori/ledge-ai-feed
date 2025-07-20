@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>生成AIが構築した“仮想都市”──ウーブン・バイ・トヨタ、100万人都市シミュレーター「CitySim」で未来を検証</title>
+      <link>https://ledge.ai/articles/citysim_virtual_tokyo_by_llm</link>
+      <description><![CDATA[<p>ウーブン・バイ・トヨタに所属する研究者らが2025年6月26日、最大100万人の仮想住民を生成AIで再現し、都市全体の行動・社会・交通動態をシミュレーションできるシステム「CitySim」を開発したとする論文を<a href="https://arxiv.org/abs/2506.21805">発表</a>した。</p>
+<p>同システムは、大規模言語モデル（LLM）を用いて仮想市民の人格、行動計画、移動選択を動的に生成し、都市政策やモビリティ戦略を事前検証できる汎用プラットフォームとして設計されている。</p>
+<h2>生活パターンから移動手段まで再現　100万人分のエージェントをLLMで生成</h2>
+<p>CitySimでは、各仮想住民（エージェント）にペルソナ（年齢・性別・職業・性格）、基本的な欲求（空腹、安全、社会的つながりなど）、そして長期的な目標や空間記憶が付与されている。各エージェントはこの情報に基づき、日々のスケジュールや移動先を LLM（GPT-4o-mini 相当）によって動的に計画・実行する。</p>
+<p>行動生成は、「必須タスク（勤務、就寝など）」を基盤に構成され、空き時間には好みに応じて娯楽、社交、買い物などを自律的に選択。さらに移動時には、出発地・目的地の候補選定、交通手段の選択（徒歩、鉄道、車両）といったプロセスもすべて LLM が文脈理解を通じて判断する。</p>
+<p><strong>CitySim の構成イメージ：100 万人の仮想住民が「活動計画」「社会的交流」「移動予測」の3層で行動を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Overview_of_City_Sim_fcef52097e/Overview_of_City_Sim_fcef52097e.jpg" alt="Overview of CitySim.jpg" /></p>
+<h2>実世界の人流や生活パターンと高い一致率</h2>
+<p>検証では、総務省の「生活時間調査（Survey on Time Use and Leisure Activities）」を基に、各年齢層の1日当たり活動配分と CitySim による出力結果を比較。睡眠、労働、家事、娯楽などの比率は実データと高い一致を示した。</p>
+<p><strong>年齢層別の1日時間配分：国勢調査の生活時間調査とCitySimの比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Time_use_distribution_67220d4c20/Time_use_distribution_67220d4c20.jpg" alt="Time-use distribution.jpg" /></p>
+<p>また、エージェントの平均移動回数を時系列で集計し、平日・週末別に実世界の人流データと比較したところ、通勤・通学時間帯のピークや余暇時間帯の傾向も再現されている。</p>
+<p><strong>平日・週末別に見た平均移動回数：実測値とCitySimを含む各種モデルの比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Average_number_of_agent_travels_per_hour_on_ccbb29a029/Average_number_of_agent_travels_per_hour_on_ccbb29a029.jpg" alt="Average number of agent travels per hour on.jpg" /></p>
+<p>さらに、東京都渋谷区を対象とした人流ヒートマップの再現検証では、実データと CitySim の出力が類似したパターンを描き、空間的妥当性も確認された。</p>
+<p><strong>渋谷駅周辺の群集密度ヒートマップ：左＝実測、右＝CitySim</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparisonof_simulated_and_realworld_crowddensityheatmapsin_Shibuya_c800c48739/Comparisonof_simulated_and_realworld_crowddensityheatmapsin_Shibuya_c800c48739.jpg" alt="Comparisonof simulated and realworld crowddensityheatmapsinShibuya.jpg" /></p>
+<h2>他手法と比較し“人間らしさ”の評価でも上位</h2>
+<p>主観評価による比較実験では、CitySim は他の先行システム（GeAn, AGA, MobileCityなど）と比べ、「人間らしさ（Human-likeness）」の観点で平均0.85の勝率を記録。他手法に対して一貫して高いスコアを示し、自然な行動生成が可能であることが確認された。</p>
+<h2>想定される応用分野：都市設計、災害対策、MaaS配置最適化など</h2>
+<p>CitySimは、都市政策立案前のシナリオ評価、歩行者密度の時空間分析、MaaSや自動運転車の経路最適化、防災計画における避難行動予測など、幅広い領域への応用が見込まれている。</p>
+<p>研究チームは今後について、「現実の都市データやセンサー情報と連携することで、仮想都市と実環境を結びつける双方向的な検証が可能になる」と述べている。また、LLMに内在する文化的バイアスやプライバシー問題、再現性の課題に対しても「コミュニティと協力して対処していく必要がある」としており、スケーラブルで倫理的なシステム運用に向けた検討を継続するとしている</p>
+]]></description>
+      <pubDate>Sat, 19 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>サイボウズ、新卒エンジニア研修資料を無償公開──生成AIやKubernetes、Copilotなど実務直結の内容を網羅</title>
       <link>https://ledge.ai/articles/cybozu_engineer_training_materials_2025_release</link>
       <description><![CDATA[<p>2025年7月8日、サイボウズ（東京都中央区）は、自社の2025年度新卒エンジニア向け研修で使用した講義資料と一部講義動画を、同社の公式エンジニアブログ上で<a href="https://blog.cybozu.io/entry/2025/07/08/171543">無償公開</a>した。</p>
