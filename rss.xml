@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、検索を“秘書化”　Gemini 2.5 Pro＋Deep Search＋自動ビジネス電話で情報収集を時短</title>
+      <link>https://ledge.ai/articles/google_ai_search_agent_update_2025</link>
+      <description><![CDATA[<p>Googleは2025年7月17日（米国時間）、検索サービス「Google Search」に新たなAIエージェント機能を導入すると公式ブログで<a href="https://blog.google/products/search/deep-search-business-calling-google-search/">発表</a>した。</p>
+<p>AI言語モデル「Gemini 2.5 Pro」を選択できる「AI Mode」、複雑な調査に対応する「Deep Search」、AIが自動で店舗に電話をかけて価格や在庫を確認する機能の3つを追加することで、検索体験を従来の「情報収集」から「タスク代行」へと大きく転換する。これらの機能はまず米国の有料会員「AI Pro」および「AI Ultra」向けに順次提供を開始し、一般ユーザーにも段階的に拡張される。</p>
+<h2>高性能モデルGemini 2.5 Proを選択可能に</h2>
+<p>AI Modeでは、ユーザーが使用する言語モデルとして、最新の「Gemini 2.5 Pro」をドロップダウンメニューで選択可能になった。従来の検索よりも高度な推論・コード処理・数学的問題の解決に強みを持ち、これまでのAI応答の限界を超えるとされている。Gemini 2.5 Proの使用は有料プラン限定で、デフォルトでは従来モデルが引き続き提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AIM_25_Pro_Sphere_Light_STILL_02_1_width_1000_format_webp_f9751acfdb/AIM_25_Pro_Sphere_Light_STILL_02_1_width_1000_format_webp_f9751acfdb.jpg" alt="AIM_25Pro_Sphere_Light_STILL02_1.width-1000.format-webp.jpg" /></p>
+<h2>Deep Search：数百件の検索をAIが自動実行</h2>
+<p>「Deep Search」は、ユーザーの問いに対して数百件に及ぶ検索をAIが裏で自動的に実行し、関連性の高い情報を要約したレポートを数分で生成する機能である。複雑なリサーチや製品比較、学術的な調査、ライフイベントの計画などに対応する目的で設計されており、Gemini 2.5 Proが各情報源から引用付きで回答を生成する。</p>
+<h2>AIが店舗に電話して価格や空き状況を確認</h2>
+<p>今回のアップデートでは、検索を起点にAIがリアル店舗に自動で電話をかける機能も搭載された。たとえば「近くのペットグルーミング店」の検索結果に「AIに価格を確認」ボタンが表示されると、AIが各店舗に電話をかけ、価格や空き状況を問い合わせる。取得した情報はユーザーに一覧で提示される。この通話機能は、過去にGoogleが「Duplex」技術として紹介していた音声エージェント技術を活用している。</p>
+<h2>米国のAI Pro／Ultra会員が先行体験、一般展開も視野</h2>
+<p>これらの機能のうち、Deep SearchとGemini 2.5 Proは、まず米国における有料会員「AI Pro」および「AI Ultra」のユーザーに対して、Google Search Labs経由で提供される。一方、自動電話機能については全米の一般ユーザーにも順次展開される予定で、有料会員には通話可能回数の上限が拡大される見込みである。店舗側はGoogleのBusiness Profileで、AIによる通話への対応設定を管理できる。</p>
+<h2>検索から“業務代行”への進化が加速</h2>
+<p>Googleはこれまでにも、生成AIを活用した検索体験（SGE: Search Generative Experience）をLabs限定で提供してきたが、今回の発表は、検索を単なる情報取得ではなく、調査や問い合わせといった「作業」の代行へと拡張する方針を明確に示すものとなった。</p>
+<p>競合のOpenAIが「ChatGPT Agents」を、Perplexityが「Comet」を発表するなど、検索とエージェント技術の融合は各社の重点領域となっており、GoogleもGeminiシリーズを中心にこの分野での主導権確保を狙っている。</p>
+<h2>今後の展開</h2>
+<p>Googleは今後、これらの新機能を順次一般ユーザーにも拡大する方針を示しているが、グローバルでの展開時期や日本での利用可否については現時点で明らかにされていない。また、店舗予約やEC連携、他サービスとのAPI統合など、AIエージェント機能のさらなる用途拡大が視野に入っている。</p>
+]]></description>
+      <pubDate>Sun, 20 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ロシア・ベラルーシ、伝統価値を守る「愛国AI」を共同開発──市民を外国情報操作から保護、レイシズム拡散に対抗</title>
       <link>https://ledge.ai/articles/patriotic_ai_russia_belarus_joint_system</link>
       <description><![CDATA[<p>ロシアとベラルーシが、市民を外国の情報操作から保護し、伝統的価値観を反映したAIシステムを共同開発するとベラルーシの国営通信社<a href="https://belta.by/society/view/gossekretar-sg-nasha-zadacha-razrabotat-sobstvennyj-ii-osnovannyj-na-traditsionnyh-tsennostjah-725782-2025/">ベルタ</a>が2025年7月11日に報じた。</p>
@@ -782,40 +804,6 @@
 [関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？──xAIが7月8日の \</p>
 ]]></description>
       <pubDate>Tue, 15 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChromeとCometに照準──無料＆ローカルAIで OpenAI・Claude・Gemini・Ollamaを一括活用するOSSブラウザ「BrowserOS」登場</title>
-      <link>https://ledge.ai/articles/rowseros_targets_chrome_and_comet</link>
-      <description><![CDATA[<p>2025年7月12日（米国時間）、Y Combinatorに<a href="https://www.ycombinator.com/companies/browseros">採択</a>されたスタートアップ BrowserOS AI は、オープンソースの新型AIブラウザ「BrowserOS」最新版v0.12.1をGitHub上で<a href="https://github.com/browseros-ai/BrowserOS">公開</a>した。</p>
-<p>このブラウザは、OpenAI、Anthropic Claude、Google Gemini、Ollama対応のローカルLLMを含む最大3つのAIモデルを同時比較可能な「Clash of GPTs」機能を搭載し、WindowsおよびmacOS向けに無償で提供されている。共同創業者Nikhil Sonti氏は、X（旧Twitter）にて「ブラウザは次のOSになる」と投稿し、Google ChromeやPerplexity Cometに対する“照準”を明確に示すミーム画像と共にリリースを発表した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/browser_os_07c0daa18e/browser_os_07c0daa18e.jpg" alt="browser os.jpg" /></p>
-<h2>エージェントネイティブなOSSブラウザ「BrowserOS」</h2>
-<p>BrowserOSは、Chromiumベースで構築されたオープンソースのブラウザで、AIエージェントによる作業の自動化を中核機能としている。ライセンスはAGPL-3.0で、すべてのコードはGitHub（browseros-ai/BrowserOS）上で公開されている。</p>
-<p>ユーザーはOpenAIやClaude、Geminiといったクラウド型LLMをAPIキー持ち込み（BYOK：Bring Your Own Keys）で接続できるほか、Ollamaを通じてローカルLLM（例：LLaMA3、Mistral）を実行することも可能。ブックマーク、履歴、パスワードなどのデータはすべてローカル保存され、クラウドへの送信は一切行われない設計となっている。</p>
-<h2>v0.12.1の主要アップデート</h2>
-<p>最新版であるv0.12.1では、以下の主な機能が追加・改善された：</p>
-<ul>
-<li><strong>Clash of GPTs</strong> ：最大3モデル（例：GPT-4、Claude 3、Gemini 1.5）の応答を同時に比較できる新機能。プロンプトや返答の精度を横断的に検証可能。</li>
-<li><strong>自動アップデート機能の導入</strong> ：v0.12.0から正式に適用され、パッチ配信が迅速化。</li>
-<li><strong>Windows向けインストーラの軽量化</strong> ：ミニインストーラが提供され、初回起動までの導線が簡素化された。</li>
-</ul>
-<p>v0.11.0でWindows対応が加わったことでユーザー層が一気に広がり、今回のアップデートで安定性と操作性がさらに強化された。</p>
-<h2>コミュニティと開発体制</h2>
-<p>BrowserOSはGitHubで2,000以上のスターを獲得しており、1週間あたり数回の更新が続いている。2025年7月時点ではリリースタグが0.8.0から0.12.1まで急ピッチで進行しており、IssueやPRも活発にやり取りされている。</p>
-<p>開発を主導するのは、元MetaおよびMicrosoftの機械学習基盤エンジニアであるNikhil Sonti氏とNithin Sonti氏の兄弟チーム。Nikhil氏はX上で「BrowserOSは検索エンジン企業でも広告企業でもなく、ローカルにデータをとどめることを最優先にしたプロダクトだ」と強調している。</p>
-<h2>Perplexity CometやChromeとの対抗軸</h2>
-<p>BrowserOSは、AI検索アシスタント「Perplexity Comet」の代替として注目されている。Cometが有料（月額20ドル以上）かつクラウド依存であるのに対し、BrowserOSは完全無料でローカル推論も可能な点が差別化ポイントとされる。また、Google Chromeのような一般的なブラウザと異なり、AIとの連携を前提に設計されており、タスク自動化、要約、フォーム入力支援といった機能を標準搭載している。</p>
-<p>BrowserOS公式Xアカウントは7月12日に「Always has been」ミーム画像を投稿。地球＝Chrome、第2宇宙飛行士＝Comet、第3宇宙飛行士＝BrowserOSという構図で、現行のブラウザ支配構造に対してオープンソース・プライバシー志向の“照準”を定めるメッセージを打ち出している。</p>
-<h2>今後のロードマップと展望</h2>
-<p>BrowserOSのREADMEでは、今後の予定として以下の機能が記載されている：</p>
-<ul>
-<li>MCP（Multi-Agent Control Panel）によるAIエージェントの高度な管理機能</li>
-<li>AI広告ブロッカー</li>
-<li>ストア機能によるコミュニティ拡張性の強化</li>
-</ul>
-<p>また、GitHub上では日本語UI対応やプラグイン互換性向上に関するIssueも立ち上がっており、国際的なユーザー層への対応も進められている。</p>
-]]></description>
-      <pubDate>Tue, 15 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title>
