@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>予約トラブル多発の Agoda、AI 活用で“ダブルブッキング撲滅”──観光庁要請受け在庫遮断</title>
+      <link>https://ledge.ai/articles/agoda_ai_double_booking_japan_measures</link>
+      <description><![CDATA[<p>旅行予約サービスを提供するAgoda（アゴダ）は2024年7月17日、日本国内で相次いで発生した宿泊予約トラブルに対応するため、AIを活用した事前監視システムを導入すると
+<a href="https://www.agoda.com/press/ja-jp/agoda-enhances-experience-for-japanese-consumers/?cb=qix2wc">発表</a>した。</p>
+<p>同社は6月26日付で、問題の原因となった特定の第三者サプライヤー経由の在庫取り扱いを停止しており、これによりダブルブッキングなどのトラブル防止を強化する方針を示した。背景には、観光庁による業務改善要請や、国内利用者からの苦情の増加がある。</p>
+<h2>観光庁の是正要請が引き金に</h2>
+<p>観光庁は2024年3月、宿泊予約サイトを通じた「予約が取れていない」「チェックイン時に宿泊施設に情報が伝わっていない」などの事例が報告されたことを受け、Agodaに対して業務改善を要請していた。特に問題視されたのは、同社が海外拠点を通じて取り扱っていた一部の在庫情報で、正確性に欠ける内容がユーザーに提供されていたとされる。</p>
+<p>同社は6月26日をもって、トラブルの発生源と見られる第三者サプライヤーからの日本国内宿泊施設の在庫提供を停止。この措置により、ユーザーが正確な空室情報をもとに予約できるよう、在庫提供経路の信頼性を見直す姿勢を強めている。</p>
+<h2>AIシステムによる事前監視を導入</h2>
+<p>さらに同社は今後数カ月以内に、AIを活用した事前監視システムを本格稼働させる計画だと述べた。このシステムでは、プラットフォーム上に表示される在庫情報や施設データを自動的に分析し、不正確または重複した情報を検出・削除することで、問題の早期発見と未然防止を狙う。</p>
+<p>このAIシステムは、施設やサプライヤーの登録審査プロセスにも活用される見込みで、全体として予約体験の信頼性向上を図るという。</p>
+<p>カスタマーサポート体制についても、日本語での問い合わせ対応を24時間365日体制で実施し、問題発生時には予約確認メールの提示や補償オプションの案内などを行う。また、ホテル側との連携によって、現地での迅速な対応にも取り組んでいる。</p>
+<h2>今後の対応と業界への影響</h2>
+<p>同社CEOであるOmri Morgenshtern氏は
+「日本はAgodaにとって最も重要な市場の一つであり、観光庁をはじめとする関係機関と連携しながら、サービス品質の維持と改善に取り組んでいく」と述べた。</p>
+<p>Agodaは、すべての国内サプライヤーに対し順次監査を進めるとともに、今後も在庫情報の精査を続ける方針を明らかにしている。</p>
+]]></description>
+      <pubDate>Mon, 21 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、検索を“秘書化”　Gemini 2.5 Pro＋Deep Search＋自動ビジネス電話で情報収集を時短</title>
       <link>https://ledge.ai/articles/google_ai_search_agent_update_2025</link>
       <description><![CDATA[<p>Googleは2025年7月17日（米国時間）、検索サービス「Google Search」に新たなAIエージェント機能を導入すると公式ブログで<a href="https://blog.google/products/search/deep-search-business-calling-google-search/">発表</a>した。</p>
@@ -775,35 +795,6 @@
 <p>生成AIを導入する企業や自治体にとって、特化モデルを持続的に運用するための最大の障壁は「モデル更新のたびに再チューニングが必要」という運用コストであった。今回発表されたポータブルチューニングは、その運用課題を根本から解消する可能性がある。NTTは今後、外部パートナーと協力して、さまざまな業務用途への適用を広げる考えを示している。</p>
 ]]></description>
       <pubDate>Wed, 16 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テスラ車に xAI の新チャットボット「Grok」実装　まずは米国・最新モデルから配信開始</title>
-      <link>https://ledge.ai/articles/tesla_ai_grok_ota_us_launch</link>
-      <description><![CDATA[<p>テスラは2025年7月12日、自社開発の電気自動車に対し、イーロン・マスク氏が率いるAI企業xAIが開発した対話型AI「Grok」のベータ版を車載インフォテインメントシステムに統合したと<a href="https://x.com/Tesla/article/1944049704276283456">発表</a>した。</p>
-<p>ソフトウェア更新「2025.26」にて配信を実施。米国市場における全モデルが対象となる。新車は同日以降に標準搭載され、既存車両もOTA（Over-the-Air）経由で段階的に対応するとのこと。GrokはApp Launcherまたはステアリングの音声ボタン長押しで起動し、Premium ConnectivityもしくはWi-Fi接続が利用の条件となる。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gvqmeg8_Ww_A_Agmi_K_8d8313ae4b/Gvqmeg8_Ww_A_Agmi_K_8d8313ae4b.jpg" alt="Gvqmeg8WwAAgmiK.jpg" /></p>
-<h2>Grok搭載の全容と提供条件</h2>
-<p>Grokは、xAIが提供する大規模言語モデルベースのチャットAIで、車内スクリーン上でテキストチャット形式のやりとりが可能となる。リリース当初の段階では雑談や情報検索、要約などの機能に限られており、車両の制御コマンド（ナビ、エアコン操作など）には対応していない。既存の音声認識機能とは分離して動作する構成である。</p>
-<p>同機能は米国内の次の条件を満たす車両で提供される：</p>
-<ul>
-<li>モデルS／3／X／YおよびCybertruck</li>
-<li>AMD製インフォテインメントCPUを搭載した車両</li>
-<li>ソフトウェアバージョン2025.26以降</li>
-<li>Premium Connectivity契約またはWi-Fi環境</li>
-</ul>
-<p>7月12日以降に米国で納車される車両にはプリインストール済みで出荷され、それ以前に納車された車両にはOTAアップデートとして段階的に展開される。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gvqm_Ld_W_Xs_A_Abrsn_a7d1697c5e/Gvqm_Ld_W_Xs_A_Abrsn_a7d1697c5e.jpg" alt="GvqmLdWXsAAbrsn.jpg" /></p>
-<h2>起動方法とUI仕様</h2>
-<p>Grokは、インフォテインメント中央スクリーンの「App Launcher」から、あるいはステアリングホイールの音声ボタンを長押しすることで起動可能である。ユーザーは対話形式で質問を入力し、AIが即時にテキストで応答する仕組みとなっている。チャット履歴は車両には保存されず、xAIサーバー上で匿名処理される。xAIアカウントとの連携も選択可能だが、ログインなしでも利用できる。</p>
-<h2>今後の展望と業界動向</h2>
-<p>今回のGrok搭載は、2025年7月10日に発表されたばかりの「<a href="https://ledge.ai/articles/grok4_xai_ai_model_launch">Grok 4</a>」モデルの直後に実施された。マスク氏は、今後テスラとxAIの関係を深める構想を公言しており、11月6日に予定されているテスラ株主総会ではxAIへの出資を議題として提起する意向も示されている。</p>
-<p>車載AIの分野では、メルセデス・ベンツがOpenAIのChatGPTを統合した音声アシスタントを2023年から導入しており、BMWやヒュンダイなどもAmazonのLLM連携を進めている。テスラはそれらに対抗する形で、独自AIを自社車両に標準実装し、エッジ端末でのAI活用を推進する構えだ。</p>
-<p>将来的には、Grokによるナビ設定やエアコン操作など車両制御への統合、また家庭用ロボット「Optimus」とのAI連携によるエコシステム構築なども見込まれており、同社のAI戦略の中核技術と位置付けられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_optimus_grot_37041f84fc/tesla_optimus_grot_37041f84fc.jpg" alt="tesla optimus grot.jpg" /></p>
-<p>:::box
-[関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？──xAIが7月8日の \</p>
-]]></description>
-      <pubDate>Tue, 15 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title>
