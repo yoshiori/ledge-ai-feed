@@ -5,6 +5,83 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>フランスのAI企業大手Mistral AI、”Whisper超え”最高精度の音声認識「Voxtral」を開発　チャットボット「Le Chat」にDeep Researchなど新機能</title>
+      <link>https://ledge.ai/articles/mistral_ai_voxtral_le_chat_update</link>
+      <description><![CDATA[<p>フランスのAI企業大手 Mistral AI は2025年7月15日、音声認識モデル「Voxtral」をオープンソースで<a href="https://mistral.ai/news/voxtral">発表</a>した。さらに17日には、同モデルを搭載したチャットボット「Le Chat」において、音声入力機能（Voice mode）や検索型エージェント（Deep Research）など複数の新機能を追加したと<a href="https://mistral.ai/news/le-chat-dives-deep">発表</a>。音声認識精度では、OpenAIの「Whisper large-v3」を上回るとするベンチマーク結果も公表されている。</p>
+<h2>Whisper超えの精度と汎用性を持つ音声認識モデル「Voxtral」</h2>
+<p>Voxtralは24Bと3Bの2モデル構成で、最大32,000トークン（約30分相当）の音声文脈を処理可能。英語だけでなく多言語にも対応し、ベンチマークではWhisper large-v3を下回るWord Error Rate（WER）を記録した。FLEURSやMozilla Common Voiceといった多言語データセットでも最高水準の精度（SOTA）を達成したという。</p>
+<p>また、Whisperに比べて英語の短尺・長尺音声の両方でより低いエラー率を示し、音声からのQ&amp;A、要約、関数呼び出しなども直接実行できる設計となっている。さらに、音声→翻訳の精度でもGPT-4o-miniやGemini Flashなどの競合モデルを上回る性能が確認されたとしている。</p>
+<p><strong>Speech Transcription</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/v_plot_1_2bf2adf3b2/v_plot_1_2bf2adf3b2.png" alt="v-plot-1.png" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/v_plot_2_55ff35f8dd/v_plot_2_55ff35f8dd.png" alt="v-plot-2.png" />
+<strong>Audio Understanding</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/v_plot_3_2f322dfcb7/v_plot_3_2f322dfcb7.png" alt="v-plot-3.png" /></p>
+<p>モデルはApache 2.0ライセンスで公開され、Hugging Faceを通じてダウンロードできる。APIでの利用も可能で、価格は0.001ドル／分から提供されている。</p>
+<h2>Le Chatに新機能：音声・画像・検索を統合</h2>
+<p>Mistral AIはこのVoxtralを自社のチャットボット「Le Chat」に統合し、以下の新機能を17日に追加した。</p>
+<ul>
+<li><strong>Voice mode</strong> ：Voxtralを活用した音声入力モード。タイピング不要でリアルタイム対話が可能</li>
+<li><strong>Deep Research</strong> ：ユーザーの質問を検索エージェントが分解・調査し、外部情報を収集して構造化レポートを生成</li>
+<li><strong>画像生成・編集</strong> ：テキストからの画像生成に加え、オブジェクト削除や背景変更などの編集も可能</li>
+<li><strong>Projects</strong> ：チャット履歴・設定・添付ファイルなどをプロジェクト単位で保存し、業務やコラボレーションに対応</li>
+</ul>
+<p>@<a href="https://youtu.be/biEQbkqqAhs?feature=shared">YouTube</a></p>
+<p>Le ChatはWeb版およびモバイルアプリ（iOS／Android）で提供されており、一般ユーザー向けには無料枠も用意。法人向けには「Le Chat Enterprise」が展開されている。</p>
+<h2>今後の展望：エンタープライズ市場をにらみ機能拡張を継続</h2>
+<p>同社は、WhisperやScribeなどの音声認識モデルとの競争を意識しつつ、開発者および企業向けに高精度かつ低価格な音声処理基盤を提供する方針を示している。今後は話者識別、感情推定、より長文のコンテキスト処理といった機能の追加も予定されているとのこと。</p>
+]]></description>
+      <pubDate>Tue, 22 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol67</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
+<p>ABEJAが開発した小型LLM「QwQ-32B Reasoning Model」は、わずか32Bという軽量サイズでありながら、GPT-4oを上回る推論性能を記録。日本語に強く、コーディングや数学など高度な思考タスクにも対応可能な構造を備えた、思考する小型LLMとして注目を集めています。</p>
+<p>本ウェビナーでは、同モデルの特長や、軽量化と高精度の両立を実現した開発上の工夫を解説。あわせて、今後の社会実装に向けた展望や、業務特化型LLMの構築支援についてもご紹介します。
+ウェビナーの後半では、ハイレゾが提供するオンプレミスを上回る柔軟性とコストパフォーマンスを備えたGPUクラウドサービスをご紹介。LLMの開発・実行における具体的な活用事例を交えながら、その実用性と優位性をわかりやすくお伝えします。</p>
+<p>当日はLIVE配信にて、ウェビナーを実施いたします。ご視聴希望の方は、以下の視聴用フォームよりご登録をお願いいたします。</p>
+<p>:::button
+<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+:::</p>
+<p><strong>ウェビナーの内容</strong></p>
+<ul>
+<li>GPT-4oを上回る推論性能を実現したABEJAの小型LLM「QwQ-32B Reasoning Model」の技術的特徴と開発背景</li>
+<li>日本語・コーディング・数学などの高度なタスクに対応する構造と、業務特化型LLMとしての可能性</li>
+<li>ハイレゾのGPUクラウドを活用した、柔軟かつ高コスパなLLM開発・運用の実践事例</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>社内外でのLLM活用や自社業務特化型モデルの構築を検討しているMLエンジニア・AIプロジェクト責任者</li>
+<li>LLMの軽量化や高精度化、クラウドインフラの最適化に関心のある情報システム部門・インフラ担当者</li>
+<li>製造・IT・建設・大学研究機関などで、AI活用を本格的に推進したいと考えている方</li>
+</ul>
+<h2>登壇者情報</h2>
+<p><strong>株式会社ハイレゾ
+マーケティング部　グループ長
+山田 岳史 氏</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2_e7b7533fdd/image2_e7b7533fdd.jpg" alt="image2.jpg" /></p>
+<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
+GPUクラウドサービスの事業開発からマーケティングを担当。</p>
+<p><strong>株式会社ABEJA
+プリンシパルデータサイエンティスト
+服部 響 氏</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/abeja_prof_1a867ccbb5/abeja_prof_1a867ccbb5.png" alt="abeja-prof.png" /></p>
+<p>趣味で麻雀AIを作ったことをきっかけに機械学習の道に入る。前職で、画像認識を用いたアプリの開発や機械学習を用いたユーザプロファイリングに従事。
+2020年5月にABEJA入社。データサイエンティストとして幅広いプロジェクト及びデータサイエンス組織のマネージャーを経験した後、プリンシパルデータサイエンティストとして専門職のキャリアへ進む。
+現在はGENIACプロジェクトでプロジェクトリーダーとしてLLM開発を牽引。
+趣味でデータ分析コンペティションに積極的に参加。Kaggle Grandmaster。Kaggle days world championship優勝。atmaCupはじめ国内コンペで複数回優勝経験あり。</p>
+<h2>お申し込みはこちら</h2>
+<p>イベント名：小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線
+配信日：2025年8月19日(火) 13:00-14:00
+配信方式：LIVE（Zoom Webinar）
+参加費：無料（事前登録制）</p>
+<p>:::button
+<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+:::</p>
+]]></description>
+      <pubDate>Tue, 22 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東大・松尾研の無料オンラインAI講座、累計7.5万人突破──30超の講座で“2040年326万人デジタル人材不足”に挑む</title>
       <link>https://ledge.ai/articles/tokyo_university_ai_course_hits_75000_users</link>
       <description><![CDATA[<p>2025年7月16日、東京大学大学院工学系研究科の松尾・岩澤研究室（以下、松尾研）は、2014年より提供するオンラインAI講座の累計受講者数が75,000人を突破したと<a href="https://weblab.t.u-tokyo.ac.jp/news/2025-07-16/">発表</a>した。</p>
@@ -671,58 +748,6 @@
 <p>「Sol」の建設開始は2025年後半とされており、Googleは「数年以内の運用開始」を予定している。完成後は、Google Cloudの欧州・南米間の接続性にも波及効果が期待されており、生成AIやクラウドインフラに対する今後の需要拡大に向けた長期的インフラ投資の一環と位置づけられている。</p>
 ]]></description>
       <pubDate>Wed, 16 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS、仕様駆動型AI IDE「Kiro」を正式発表──“プロンプトから本番まで”エージェントが伴走</title>
-      <link>https://ledge.ai/articles/aws_ai_ide_kiro_release</link>
-      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年7月14日、AIエージェントを中核に据えた新しい統合開発環境（IDE）「Kiro（キロ）」を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro/">発表</a>した。</p>
-<p>Kiroは、開発初期の曖昧なアイデアを、プロンプト1つで本番環境レベルのコードへと変換することを狙ったツールだ。プロダクト開発における「仕様と実装の乖離」問題に対処するため、仕様駆動型の設計支援機能を搭載しているという。現在パブリックプレビュー中で、<a href="https://kiro.dev">公式サイト</a>から無料でダウンロード可能となっている。</p>
-<h2>AIエージェントを前提とした“Agentic IDE”</h2>
-<p>Kiroは「Agentic IDE（エージェント的なIDE）」を掲げ、AIが設計からコーディング、テスト、ドキュメント生成に至る開発プロセス全体を支援する。OSS版Visual Studio Code（Code OSS）をベースとしており、既存のVS Code拡張機能やOpen VSXレジストリの資産をそのまま活用できる。</p>
-<p>デスクトップアプリとして提供され、Mac・Windows・Linuxに対応している。ユーザーはGitHubやGoogleアカウントなどを用いたSSO（シングルサインオン）でログイン可能だ。</p>
-<p><strong>AWSが取り組んでいるeコマースアプリの例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/compressed_1_app_72308f4e1e/compressed_1_app_72308f4e1e.gif" alt="compressed_1-app.gif" /></p>
-<p>Kiroの中心的な機能は、自然言語による単一プロンプトを出発点として、要件定義（Requirements）、設計ドキュメント（Design）、およびタスクリスト（Task List）を自動的に生成する「Spec-Driven Development（仕様駆動開発）」にある。</p>
-<p>これにより、開発者は「こんなアプリを作りたい」という抽象的な構想を与えるだけで、仕様に基づいたタスクが提示され、コード実装を進めやすくなるという。</p>
-<p><strong>Kiroの要件仕様</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/compressed_2_reqs_f094da7ae6/compressed_2_reqs_f094da7ae6.gif" alt="compressed_2-reqs.gif" /></p>
-<h2>仕様とコードの断絶を埋めるEARS記法と「Hook」</h2>
-<p>Kiroは仕様記述にEARS（Easy Approach to Requirements Syntax）という形式を採用しており、要件の明確化とエッジケースの網羅性を重視している。これにより、曖昧な記述による実装ミスや意図の取り違えを最小限に抑える狙いがある。</p>
-<p>さらに、Kiroは「Hook」と呼ばれるイベント駆動型の自動処理機能を搭載しており、ファイルの保存、生成、削除、Gitへのコミットなどのタイミングで、以下のような処理が自動的に実行される：</p>
-<ul>
-<li>ユニットテストの自動更新</li>
-<li>コードドキュメントの生成</li>
-<li>認証情報やシークレットの漏洩チェック</li>
-</ul>
-<p>これにより、開発者は品質管理やセキュリティの担保をエージェントに任せ、コアな開発作業に集中できるようになる。</p>
-<h2>外部モデル接続と拡張性</h2>
-<p>KiroはModel Context Protocol（MCP）にも対応しており、AWSが提供する大規模言語モデル（LLM）だけでなく、Anthropic Claudeやその他の外部LLM、外部APIツールとも連携できる。これにより、プロジェクトに応じて最適なAIエージェント群を構成する柔軟性を備えている。</p>
-<p>また、MCPの採用により、複数のAIエージェントをプロジェクト横断で統制し、コード生成のコンテキストを維持したままやり取りができる設計になっている。</p>
-<p>Kiroは現時点ではパブリックプレビューとして無料提供されており、年内には有償プラン（月額19.99ドル）を導入予定だという。正式版ではLLMへの問い合わせ回数に応じた制限や追加機能の提供が計画されているとのこと。</p>
-<p>開発支援に特化したAIアシスタントとしては、AWSはすでに「Amazon Q Developer」を提供しているが、Kiroはこれとは異なり、プロジェクト全体を見渡しながら構造化された開発支援を行う点で明確に差別化されている。</p>
-]]></description>
-      <pubDate>Wed, 16 Jul 2025 08:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>荷物運搬を完全自動化　川崎重工のロボットポーター「FORRO」、三田ガーデンヒルズで国内最長6.6 kmルートを稼働開始</title>
-      <link>https://ledge.ai/articles/robot_porter_forro_mita_kawasaki</link>
-      <description><![CDATA[<p>川崎重工業は2025年7月7日、三井不動産レジデンシャルおよび三菱地所レジデンスが東京都港区にて共同開発した分譲マンション「三田ガーデンヒルズ」において、屋内配送用サービスロボット「FORRO（フォーロ）」を活用したロボットポーターサービス「FORRO PORTER」の本格稼働を開始したと<a href="https://forro-service.com/news/7BL7Bn9i7QBpNT2VbkcTiT/">発表</a>した。ロボットがマンション内で荷物を居住者の住戸前まで自動搬送するサービスで、延べ約6.6 kmに及ぶ館内ルートを4台のロボットが自律走行するという国内最大規模の導入例である。</p>
-<p>@<a href="https://www.youtube.com/watch?v=tY46sRuFeSY">YouTube</a></p>
-<h2>住戸前まで荷物を届けるロボットポーター</h2>
-<p>FORRO PORTERは、マンションのエントランスに設置された専用ロッカーから、居住者の荷物を各住戸前まで搬送するロボットサービス。利用者はスマートフォンアプリや美和ロックの「ラクセスキー」から搬送を依頼でき、ロボットは館内のエレベーターやオートドアと連携しながら無人で目的地まで走行する。最大30kgまでの荷物を運べるほか、跳ね上げ式荷棚を採用しキャリーケースなどの積載にも対応しているという。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kawasaki_forro_mitsuigarden2_7e5b093c9a/kawasaki_forro_mitsuigarden2_7e5b093c9a.jpg" alt="kawasaki forro mitsuigarden2.jpg" /></p>
-<h2>館内ルートは国内最長の6.6km、4台体制で稼働</h2>
-<p>同サービスでは、ロボット4台が常時稼働し、館内の総延長約6.6kmにおよぶ移動ルートを活用して配送を行う。エントランスから住戸前までの全工程を無人で完結でき、これは日本国内で稼働する住居向けロボットポーターサービスとしては最大規模にあたるという。</p>
-<p>各ロボットの動作は、大成建設が開発したロボット統合管制プラットフォーム「RoboHUB（ロボハブ）」を通じて遠隔監視され、セキュリティシステムと連動した高い安全性が確保されている。</p>
-<h2>試験運用で高いリピート率、住民サービス向上へ</h2>
-<p>FORRO PORTERは、2025年3月から三田ガーデンヒルズで先行して試験運用されており、期間中はポーターサービスの全依頼のうち20％以上がロボットによって担われたという。さらに、リピート利用率は50％を超える実績があり、居住者にとって利便性の高いサービスであることが示された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kawasaki_forro_mitsuigarden3_02db361826/kawasaki_forro_mitsuigarden3_02db361826.jpg" alt="kawasaki forro mitsuigarden3.jpg" /></p>
-<h2>病院から住宅へ、川崎重工のロボット展開が拡大</h2>
-<p>FORROは、もともと川崎重工が医療施設向けに開発した屋内搬送用ロボットで、これまでに病院での使用実績がある。今回の住宅分野への本格導入により、生活空間における物流の自動化という新たな領域への展開が進められたかたちだ。川崎重工は今後、住宅や商業施設など他分野への展開を視野に入れていると見られる。</p>
-<h2>他ロボットとの連携も視野に</h2>
-<p>三田ガーデンヒルズでは、将来的に清掃や警備など、他用途のロボットとの連携も計画されており、RoboHUBを中核としたロボット協働環境の構築が進められている。ロボットが日常的にマンションの中で稼働し、人の作業を支える仕組みが現実となりつつある。</p>
-]]></description>
-      <pubDate>Wed, 16 Jul 2025 05:50:02 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/9 [WED]【ソースコード特典付き】自社専用LLMを低コストで実現！「Qwen3」の継続事前学習のデモンストレーション｜Ledge.ai Webinar</title>
