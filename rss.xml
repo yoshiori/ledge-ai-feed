@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>名大、同時発話に対応した日本語音声対話AI「J-Moshi」を公開──“かぶり”も自然に処理</title>
+      <link>https://ledge.ai/articles/japanese_full_duplex_ai_j_moshi</link>
+      <description><![CDATA[<p>名古屋大学の研究チームは2025年7月22日、日本語初の全二重音声対話システム「J-Moshi」を<a href="https://nu-dialogue.github.io/j-moshi/">発表</a>した。</p>
+<p>英語圏で開発が進んでいた「Moshi」をベースに日本語へ適用したもので、人間のように「話しながら聞く」同時発話が可能な対話AIである。学習済みモデルとコード、デモページはすでにGitHubとHugging Face上で一般公開されており、非商用ライセンスのもと、研究目的で自由に利用できる。</p>
+<p><strong>Moshiのモデルアーキテクチャ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2_3dd777e61d/x1_2_3dd777e61d.png" alt="x1 (2).png" /></p>
+<h2>全二重対話とは何か</h2>
+<p>従来の音声対話AIは半二重（ハーフデュープレックス）方式が主流で、ユーザーの発話が終わるまで応答が待機する形式だった。一方、全二重（フルデュープレックス）は、人間同士の自然な会話に見られる「かぶり」や「あいづち」などの重なりを再現する技術であり、リアルタイム性と自然性が求められる対話領域での活用が期待されている。</p>
+<p>英語においてはKyutai Labsの「Moshi」が先行していたが、日本語特有の相づち文化や発話タイミングの違いに対応したモデルは存在しなかった。J-Moshiはそのギャップを埋める初の試みであり、研究チームによると「日本語特有の重なりある会話スタイルも自然に再現可能」としている。</p>
+<h2>技術の概要と開発プロセス</h2>
+<p>J-Moshiの開発は、以下の3段階で構成された。</p>
+<h3>① 事前学習（69,000時間）</h3>
+<p>YouTubeやPodcast由来のJ-CHATコーパスを使い、日本語対話の基礎能力を習得。話者分離とテキスト整形を実施し、3億トークン以上のテキストで学習された。</p>
+<h3>② 微調整（344時間）</h3>
+<p>電話・旅行代理店・カジュアル会話・相談場面など多様な日本語ステレオ音声対話データを活用。音声重なりや自然なターンテイキングを再現。</p>
+<h3>③ 合成データによる拡張（602時間）</h3>
+<p>テキスト対話データをLLMで話し言葉に変換し、マルチストリームTTSで音声化。生成されたステレオ音声で追加学習を行い、モデル「J-Moshi-ext」として公開された。</p>
+<p>これらの学習は最大128枚のGPUで実施され、事前学習は36時間、微調整は2時間で完了している。</p>
+<h2>今後の展望と応用領域</h2>
+<p>本技術は、以下のようなリアルタイム性と自然対話が求められる場面での活用が見込まれる。</p>
+<ul>
+<li>カスタマーサポートやコールセンターでの応対</li>
+<li>音声アシスタントやロボットとの会話</li>
+<li>バーチャル接客やメタバース空間でのコミュニケーション</li>
+</ul>
+<p>研究チームは今後、「応答品質のさらなる向上と、マルチモーダル対応など商用用途への展開を見据えた開発」を進めていくとしている。</p>
+]]></description>
+      <pubDate>Wed, 23 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Upwork調査：AI“同僚”で生産性40％向上も、バーンアウト（燃え尽き症候群）88％に拡大</title>
       <link>https://ledge.ai/articles/ai_productivity_burnout_upwork_survey</link>
       <description><![CDATA[<p>米カリフォルニア州に拠点を置くUpwork Research Instituteは2025年7月9日、AI導入が職場にもたらす影響を明らかにした調査レポートの最新版「From Tools to Teammates」を<a href="https://www.upwork.com/research/navigating-human-ai-relationships">発表</a>した。</p>
