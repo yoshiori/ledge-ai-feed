@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Gemini Deep Think、国際数学オリンピックで AI 初の“金メダル基準”──Google が 35 点達成を正式発表、OpenAIも同点を主張</title>
+      <link>https://ledge.ai/articles/gemini_deep_think_math_olympiad_gold</link>
+      <description><![CDATA[<p>Google DeepMindは2025年7月22日、公式ブログで、強化版「Gemini Deep Think」が2025年国際数学オリンピック（IMO、会場：オーストラリア・サンシャインコースト）本選問題を自然言語のまま解き、35点（6題中5題満点）を獲得、金メダル相当の成績を公式認定されたと<a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/31_R9_Y8av_1591e6dd61/31_R9_Y8av_1591e6dd61.jpg" alt="31R9Y8av.jpg" /></p>
+<p>AIが自然言語で解答し、人間と同条件の制約下で金メダル基準を超えたのは初となる。一方、OpenAIも数日前に同スコアを達成したと主張しており、AI2社による“数学五輪競演”が注目されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0.jpg" alt="GwZPtRWWUAMm4F_.jpg" /></p>
+<h2>Gemini Deep Thinkが公式認定で金メダル水準に到達</h2>
+<p>DeepMindの発表によれば、Gemini Deep Thinkは本選で出題された6問のうち5問に完全正答し、計35点を獲得した。これは過去のIMO成績基準において、参加者上位約8％に与えられる金メダル相当に該当する。採点は国際数学オリンピック（IMO）の現職採点委員によって行われ、IMO会長Gregor Dolinar教授は「明晰で正確な証明が提出された」とコメントしている。</p>
+<p>Deep Thinkは、GoogleのGemini 2.5モデルに数学的推論を強化するモードを加えた研究版で、今回の問題をすべて自然言語で読み取り、形式変換を行うことなく自然言語で<a href="https://storage.googleapis.com/deepmind-media/gemini/IMO_2025.pdf">解答</a>を生成した。試験は人間参加者と同様、1日目・2日目各4.5時間の時間制限下で行われた。</p>
+<h2>“自然言語のみ”で4.5時間以内に証明完了</h2>
+<p>今回の挑戦では、従来のように定理証明システム（例：Lean）を使うのではなく、問題文・解答ともに自然言語ベースで処理された点が大きな特徴である。DeepMindによれば、Gemini Deep Thinkは「Parallel Thinking」と呼ばれる内部アーキテクチャにより、複数の仮説を同時並列で検討・評価することで、人間の数学者に近い証明戦略を実現している。</p>
+<p>また、強化学習を通じて事前に学習された定理証明の手法やヒントが、プロンプトに組み込まれていたことも明かされた。使用された問題および解答はGitHub上で公開されており、数学界の透明性と再現性の担保にも配慮がなされている。</p>
+<h2>OpenAIも同点達成を主張、しかし公式認定は未取得</h2>
+<p>一方、Googleに先行するかたちでOpenAIの動きも注目された。7月19日（米国時間）、同社CEOのSam Altman氏がX（旧Twitter）上で「一般用途のLLMが数学オリンピックで金メダル水準を達成した」と投稿。続いて研究者のAlexander Wei氏がスレッドを公開し、OpenAIの研究用モデルがGeminiと同様に35点（6問中5問満点）を取得したと説明した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_7915629351/openai_gold_medal_performance_7915629351.jpg" alt="openai gold medal performance.jpg" /></p>
+<p>Wei氏によれば、試験は2日間・各4.5時間の条件下で、外部ツールやインターネット接続なしで行われたという。ただし、採点はOpenAIが独自に招いた過去のIMOメダリストによるものであり、IMO公式委員会による証明の正当性確認は完了していない。Altman氏はこのモデルについて「研究用プロトタイプであり、将来的にGPT-5へ知見を統合する」と述べている。</p>
+<p>この点について、Google DeepMindのCEOであるDemis Hassabis氏はX上で「我々はIMO側の依頼に従い、公式採点が終了するまで発表を控えた」と投稿しており、発表タイミングや認定手続きをめぐって両社の立場に温度差が見られる。</p>
+<h2>数学研究と産業応用に向けた展開も視野</h2>
+<p>Gemini Deep Thinkは、現時点では研究者向けの限定公開にとどまっているが、今後は数学者コミュニティへの段階的な提供が計画されている。また、DeepMindは別途開発中の証明検証モデル「AlphaProof」などと組み合わせ、より信頼性の高い複合型AIの開発も視野に入れているという。</p>
+<p>高度な数学的推論が可能なAIは、物理や工学分野での定理証明、システム設計の自動化、経済モデリングなど、さまざまな分野への波及が期待される。DeepMindはこれらの応用に向けたツール群を今後「Google AI Ultra」契約者に向けて展開する方針を示している。</p>
+]]></description>
+      <pubDate>Thu, 24 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OracleとOpenAI、「スターゲート計画」遅延の声のなか、米データセンターの4.5GW拡張を発表──総開発規模10GW中、折り返しの5GW超へ</title>
       <link>https://ledge.ai/articles/stargate_oracle_openai_4_5gw</link>
       <description><![CDATA[<p>2025年7月22日、OpenAIとOracleは、AIインフラ構想「Stargate」の一環として4.5ギガワット（GW）のデータセンター容量を米国内に追加で建設することで合意したと<a href="https://openai.com/index/stargate-advances-with-partnership-with-oracle/">発表</a>した。</p>
