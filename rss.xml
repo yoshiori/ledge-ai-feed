@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OracleとOpenAI、「スターゲート計画」遅延の声のなか、米データセンターの4.5GW拡張を発表──総開発規模10GW中、折り返しの5GW超へ</title>
+      <link>https://ledge.ai/articles/stargate_oracle_openai_4_5gw</link>
+      <description><![CDATA[<p>2025年7月22日、OpenAIとOracleは、AIインフラ構想「Stargate」の一環として4.5ギガワット（GW）のデータセンター容量を米国内に追加で建設することで合意したと<a href="https://openai.com/index/stargate-advances-with-partnership-with-oracle/">発表</a>した。</p>
+<p>今回の拡張により、すでに建設中のStargate I（テキサス州アビリーン）を含めた総開発規模は5GWを超える。両社は、OpenAIのAIモデルのトレーニングおよび推論需要に対応するため、今後も協業体制を強化する方針だという。</p>
+<h2>“Stargate”が描くAIインフラの青写真</h2>
+<p>OpenAIが2024年に発表したStargate構想は、総計10GW規模のAI専用インフラを米国内に構築する計画であり、4年間での実現を目指している。今回の4.5GW拡張により、構想全体の折り返し点を越えたことになる。</p>
+<p>追加される容量は、Oracleが米国内に建設・運用する大規模データセンター群で構成される。これらはOpenAIのモデル訓練およびAPI経由での推論処理に使用される予定である。</p>
+<h2>ハードウェア構成：200万チップ超を想定</h2>
+<p>Stargateでは、2億（200 million）以上のAIチップを収容する構成が想定されている。OracleはすでにNVIDIA GB200 Grace Blackwell Superchipを搭載したAIインフラの導入を2025年6月より開始しており、OpenAIのモデル需要に応じたコンピューティング性能を確保する。</p>
+<p>新たに追加される4.5 GWの容量も、こうしたAI専用チップを高密度で設置するハードウェア構成で設計される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stargate_advances_with_partnership_with_oracle_2_9a0384d89b/stargate_advances_with_partnership_with_oracle_2_9a0384d89b.jpg" alt="stargate-advances-with-partnership-with-oracle-2.jpg" /></p>
+<h2>雇用と建設エコシステム</h2>
+<p>OpenAIは、Stargateプロジェクト全体を通じて10万人超の直接および間接的な雇用が創出されると見込んでいる。これには建設業、製造業、電力供給、サービス業などが含まれ、地域経済にも一定の波及があると説明されている。</p>
+<p>また、Stargateの実現には以下の企業が連携して関与している：</p>
+<ul>
+<li><strong>Oracle</strong> ：建設、インフラ提供、運用支援</li>
+<li><strong>SoftBank</strong> ：資金調達および用地評価</li>
+<li><strong>CoreWeave</strong> ：GPUクラウドインフラの提供</li>
+<li><strong>Microsoft</strong> ：クラウド統合と運用支援</li>
+</ul>
+<p>これらの企業は、Stargateの構築と運用に必要な資源と機能を補完的に担う。</p>
+<h2>WSJ報道：計画全体は停滞との指摘</h2>
+<p>ウォール・ストリート・ジャーナル（<a href="https://www.wsj.com/tech/ai/softbank-openai-a3dc57b4">WSJ</a>)は7月21日付記事で、SoftBankグループなどが関与するStargate全体の5000億ドル規模投資計画が「苦戦している」と報じた。用地選定をめぐる意見対立などから大規模案件の契約締結が遅れており、当面は規模を縮小したデータセンターをオハイオ州に建設する方針に修正されたという。</p>
+<h2>今後の展開</h2>
+<p>OracleとOpenAIは、Stargate計画の次フェーズに向けて、残りの5GW分の構築も視野に入れて準備を進めている。新たな拠点の候補地やスケジュールの詳細は、今後の段階で公表されると見られる。</p>
+]]></description>
+      <pubDate>Wed, 23 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>名大、同時発話に対応した日本語音声対話AI「J-Moshi」を公開──“かぶり”も自然に処理</title>
       <link>https://ledge.ai/articles/japanese_full_duplex_ai_j_moshi</link>
       <description><![CDATA[<p>名古屋大学の研究チームは2025年7月22日、日本語初の全二重音声対話システム「J-Moshi」を<a href="https://nu-dialogue.github.io/j-moshi/">発表</a>した。</p>
