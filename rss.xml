@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、EUのAI行動規範に署名拒否「過度な越権でイノベーション阻害」と主張―—OpenAI・ MistralAIは署名済、Microsoftも署名の動き</title>
+      <link>https://ledge.ai/articles/meta_rejects_eu_ai_code</link>
+      <description><![CDATA[<p>Metaは2025年7月18日、欧州連合（EU）が策定したAI向け自主的行動規範「General-Purpose AI Code of Practice（GPAIコード）」への署名を見送ると明らかにした。発表は同社のJoel Kaplan最高公共政策責任者が<a href="https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7/">LinkedInに投稿した声明</a>によるもので、EUの規範がAI規制法（AI Act）の権限を超えており、「法的な不確実性を生み、イノベーションを阻害する」との懸念が示された。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/joel_kaplan_mete_9d179c1464/joel_kaplan_mete_9d179c1464.jpg" alt="joel kaplan mete.jpg" /></p>
+<p>GPAIコードは、EUが2025年8月2日から施行するAI規制法の円滑な実施を目的に、2025年7月10日に<a href="https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available">欧州委員会が公表</a>したもので、透明性、著作権、モデルの安全性に関する任意の取り組みを盛り込んだ。署名企業は、規制当局との協力が進むことで行政手続きが簡素化されるとされるが、署名を拒んだ企業には、より厳格な説明責任や監視が課される可能性がある。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/eu_gpai_7055c57931/eu_gpai_7055c57931.jpg" alt="eu gpai.jpg" /></p>
+<p>Kaplan氏は声明の中で、「欧州はAI政策において誤った方向へ進んでいる」と述べ、45社の欧州企業がEU当局にGPAIコードの実施延期を求めた共同書簡と同様の懸念を共有するとした。同氏によれば、同社は引き続きAI Actの法的要件には従うが、任意の行動規範については同意できないという立場である。</p>
+<p>一方で、米OpenAIやフランスのMistral AIはすでにGPAIコードへの署名を完了しており、Microsoftも「文書の精査後に署名する見込みが高い」とコメントしていると<a href="https://www.reuters.com/sustainability/boards-policy-regulation/microsoft-likely-sign-eu-ai-code-practice-meta-rebuffs-guidelines-2025-07-18/">ロイター</a>が報じた。対照的にMetaは、AI Actの交渉段階から「過剰な規制はイノベーションの妨げになる」との姿勢を一貫して示していた。</p>
+<p>EUは2025年8月1日に署名企業のリストを公開する予定で、GPAIコードの運用とAI Actの施行により、欧州域内でのAI開発と利用の枠組みが大きく変わる見通しである。Metaの不参加は、同社と欧州規制当局の間での対立の深まりを象徴するものとみられ、今後の執行面での影響が注目される。</p>
+]]></description>
+      <pubDate>Thu, 24 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>xAI、最高年収44万ドル「俺の嫁」開発エンジニアと、高額時給の日本語リモートAIチューターを募集——チャレンジしてみる？</title>
       <link>https://ledge.ai/articles/xai_waifu_engineer_japanese_remote_tutor_hiring</link>
       <description><![CDATA[<p>2025年7月下旬、米スタートアップxAIが、同社のAIチャットアプリ「Grok」における新機能拡充を目的に、カリフォルニア拠点で勤務する「<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">Fullstack Engineer – Waifus</a>」と、完全リモート勤務の「<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">AI Tutor – Japanese</a>」の2職種のフルタイム求人を公開した。最高年収は44万ドル、または時給65ドルに達し、特に日本語話者を対象としたリモート職は、高収入を狙える“穴場”として注目されている。</p>
@@ -455,32 +468,6 @@ GPUクラウドサービスの事業開発からマーケティングを担当�
 今後の予定：NEDOによる中間評価、年度末までに開発成果の提出と発表が予定されている</p>
 ]]></description>
       <pubDate>Fri, 18 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「ChatGPT agent」を発表──仮想PC上でAIが自律的に業務遂行、Pro／Plus／Team利用者に提供開始</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_agent_virtual_pc_automation</link>
-      <description><![CDATA[<p>OpenAIは2025年7月17日（米国時間）、ChatGPTにおいて、新機能「ChatGPT agent」の提供開始を<a href="https://openai.com/ja-JP/index/introducing-chatgpt-agent/">発表</a>した。</p>
-<p>これは、仮想コンピュータ上でChatGPTがウェブブラウジングやファイル編集、スケジュール作成といった一連のタスクを自律的に実行するもので、従来の「deep research」「Operator」の機能と統合された形で動作する。まずは英語UIを用いるChatGPTのPro、Plus、Teamプラン利用者を対象に提供され、順次Enterpriseや教育機関向けの拡大が予定されている。
-@<a href="https://www.youtube.com/watch?v=1jn_RpbPbEc">YouTube</a></p>
-<h2>仮想コンピュータで複数タスクを自動処理</h2>
-<p>ChatGPT agentは、AIが仮想PC上で実際の操作環境を用い、ユーザーの目的達成まで複数のアプリケーションやツールを横断的に操作する。たとえば、Googleカレンダーで日程を調整し、OpenTableでレストランを予約するといった一連の作業を、ユーザーの指示に基づきAIが代行する。メールの下書き作成、スプレッドシートの整理、コードの実行やファイル変換といった業務も対象となる。</p>
-<p>この環境はユーザーごとに隔離された仮想的な計算空間であり、AIが自らターミナル、ブラウザ、文書作成ソフトなどを使ってタスクを処理する構成になっている。</p>
-<h2>「deep research」と「Operator」機能を統合</h2>
-<p>今回の新機能は、OpenAIがこれまで実装してきた2つのツール、「deep research」と「Operator」に加え、新たなエージェント基盤を組み合わせた点が特徴である。</p>
-<ul>
-<li>「deep research」は、アップロードされたファイルやウェブページを高速かつ精緻に読み取り、要点を抽出・要約するリサーチ特化型機能。</li>
-<li>「Operator」は、フォーム入力やメール送信、外部アプリの制御など“行動”の自動化に適したツール群。</li>
-</ul>
-<p>ChatGPT agentはこれらの機能を組み合わせ、状況に応じて最適な処理を自律的に選択・実行する設計となっている。</p>
-<h2>安全性確保のための仕組みも導入</h2>
-<p>OpenAIは本機能の公開にあたり、ユーザーの許可なしに実行されるリスクのある操作について制限を設けている。たとえば、金銭の送金、ファイルの削除、ECサイトでの購入といった不可逆操作はすべてユーザーの明示的な承認が必要とされる。さらに、投資、暗号資産取引、医療・法律・健康に関する判断は対応外となっている。</p>
-<p>また、AIの意思決定過程やリスクの特性については、同社が公開する「システムカード」によって透明性を確保している。これには人間によるフィードバック（RLHF）に基づいたチューニングや、セーフティ・レールの設計方針が含まれている。</p>
-<h2>今後の展開</h2>
-<p>ChatGPT agentは英語UIにおいて、7月17日よりPro、Plus、Teamユーザー向けに順次展開されている。Enterpriseや教育機関向けプラン、欧州経済領域（EEA）での提供は「規制要件を満たし次第」開放されるとしている。</p>
-<p>今後は、開発者向けにエージェント機能を呼び出せる「Agent API」や、ユーザーが独自にツールを登録・共有できる「Marketplace」の構想も示されており、年内にもさらなる拡張が計画されているという。</p>
-<p>今回の発表は、急速に拡大するAIエージェント市場におけるOpenAIの戦略的な一手とみられている。同様の機能はAnthropicが「Claude Team Agent」、Googleが「Gemini Agents」、Metaが「AI Studio Bots」として展開を開始しており、各社が“リサーチとアクションの統合”を軸に差別化を図っている。OpenAIは、これまで研究開発を重視してきた姿勢を維持しつつ、実務への応用性を高める方向に舵を切った形だ。</p>
-]]></description>
-      <pubDate>Fri, 18 Jul 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIが11歳の作文から22年後の最終学歴と能力を高精度予測──Nature系誌が報告</title>
