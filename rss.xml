@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
+      <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
+      <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
+<h2>Altman氏が性能を示唆、内部テストは最終段階へ</h2>
+<p>報道によれば、OpenAIはGPT‑5の社内テストをすでに最終段階に入れており、パフォーマンスと安全性の検証を進めているという。OpenAIのCEOであるSam Altman氏は7月に出演したポッドキャスト「All-In」で、GPT‑5に初めて質問を投げかけた際の体験について「まったく選ばずに完璧に応答した」と述べており、次世代モデルの推論能力に手応えを感じていることがうかがえる。</p>
+<p>また、Altman氏は米X（旧Twitter）上でも「GPT-5 is coming soon」と<a href="https://x.com/sama/status/1946569252296929727">投稿</a>しており、正式な公開が近いことを示唆していた。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_d2a227b058/openai_gold_medal_performance_d2a227b058.jpg" alt="openai gold medal performance.jpg" /></p>
+<h2>メイン・mini・nanoの3構成で提供へ</h2>
+<p>関係者によれば、GPT‑5は用途別に「メイン」「mini」「nano」の3モデルが存在し、それぞれ性能と速度のバランスに応じて使い分けが想定されているという。nanoモデルはAPI専用に設計され、軽量かつ高速な推論が特徴。また、ChatGPTなどのUI上では、ユーザーが明示的にモデルを選ぶ必要のない設計に刷新されると報じられている。</p>
+<p>この統合的なアプローチは、2024年5月に登場したGPT‑4oの設計思想を引き継ぐ形で、従来型のマルチモデル環境から単一インターフェースへの移行を進める狙いがあるとみられる。</p>
+<h2>AGIとの関係も注視点に</h2>
+<p>OpenAIはMicrosoftとの間で「AGI到達時に収益配分契約の条件を見直す」条項を設けているとされており、今回のGPT‑5がその「AGI（汎用人工知能）」に該当するかどうかは大きな注目点である。Altman氏自身は、GPT‑5リリース直後の段階では「ゴールドレベルの完成度に達するには数か月かかる」と述べており、商用展開と並行して精度や安全性の向上を図る方針であることがうかがえる。</p>
+<p>GPT‑5の最終的な公開時期は、社内で実施されている安全性評価や推論性能の検証によって左右される見通しだという。OpenAIは現在、社外の倫理レビュー団体やレッドチームとの連携も強化しており、2023年以降強化してきたリリース前安全基準に照らした最終判断が行われるとみられる。</p>
+<p>7月24日時点では、OpenAIから公式コメントは出ていない。</p>
+]]></description>
+      <pubDate>Fri, 25 Jul 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIエージェントが動かす“リアルな職場”──物理作業と人間関係を一体シミュレートする新環境「INDOORWORLD」公開</title>
       <link>https://ledge.ai/articles/ai_agents_office_simulation_indoorworld</link>
       <description><![CDATA[<p>モントリオール大学とAutodesk Researchの研究チームは2025年6月14日、オフィス内での物理タスク（机の移動や機器修理など）と社会的インタラクション（依頼・相談・雑談など）を同時に再現できるLLMエージェント環境「INDOORWORLD」を<a href="https://arxiv.org/abs/2506.12331v1">発表</a>した。</p>
@@ -429,30 +447,6 @@ GPUクラウドサービスの事業開発からマーケティングを担当�
 <p>※イベントの詳細および最新の申込情報は、<a href="https://www.miraikan.jst.go.jp/news/press/202507074137.html">日本科学未来館 公式サイト</a>で確認できる。</p>
 ]]></description>
       <pubDate>Sun, 20 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>サイボウズ、新卒エンジニア研修資料を無償公開──生成AIやKubernetes、Copilotなど実務直結の内容を網羅</title>
-      <link>https://ledge.ai/articles/cybozu_engineer_training_materials_2025_release</link>
-      <description><![CDATA[<p>2025年7月8日、サイボウズ（東京都中央区）は、自社の2025年度新卒エンジニア向け研修で使用した講義資料と一部講義動画を、同社の公式エンジニアブログ上で<a href="https://blog.cybozu.io/entry/2025/07/08/171543">無償公開</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/blog_cybozu1_368c892398/blog_cybozu1_368c892398.jpg" alt="blog cybozu1.jpg" /></p>
-<p>資料は生成AIツール開発やGitHub Copilotの活用、DockerおよびKubernetesの入門、セキュリティ、暗号技術、テスト自動化、テクニカルライティングなど全19本におよび、実践的かつ初学者にも配慮された構成となっている。</p>
-<p>今回公開された資料は、2025年4月21日から5月23日にかけて実施されたサイボウズの新卒エンジニア研修プログラムに基づくものである。同研修は、「講義実習フェーズ」と「実践演習フェーズ」の二段階構成となっており、入社直後から実務にスムーズに参加できるよう、基礎技術からチーム開発への適応力までを総合的に育成することを目的としていた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/blog_cybozu2_dc7b72035c/blog_cybozu2_dc7b72035c.jpg" alt="blog cybozu2.jpg" /></p>
-<p>公開されたコンテンツの主なテーマは以下の通り。</p>
-<ul>
-<li>Difyを使った生成AIチャットボット開発ワークショップ</li>
-<li>GitHub Copilotを用いたAI補助プログラミング体験</li>
-<li>DockerとKubernetesの導入・基礎概念の解説</li>
-<li>セキュリティと暗号に関する基礎知識</li>
-<li>自動テストの設計と実践（理論編・実装編）</li>
-<li>テクニカルライティング、ソフトウェアライセンスの基本</li>
-</ul>
-<p>資料は同社のスライド共有サービス「Speaker Deck」上で閲覧可能で、一部講義動画はYouTubeで確認できる。利用条件はブログ内に明記されており、再配布や二次利用の際には個別確認が必要とされている。</p>
-<p>サイボウズは例年、社内研修の一部資料を外部公開しており、今年は「自社と自身を理解し、長期的なキャリアの土台を作る」ことをテーマに、研修設計全体の構造や背景もあわせて紹介している。公開の狙いについて、同社は「外部の教育機関や企業研修担当者、個人開発者との知見共有を促進するため」と説明している。</p>
-<p>近年、LINEヤフーやメルカリなどの企業も同様に新卒向け技術資料の一部公開を行っているが、生成AIやDevOps関連を含む実務直結型の全体研修資料をここまで一括公開する事例は、国内大手企業としては珍しい。</p>
-<p>今後も同社は、研修資料の公開範囲を拡大する可能性を示唆しており、例年8月〜9月に開催される自社技術カンファレンスにおいて、追加的なハンズオン資料の提供も期待されている。</p>
-]]></description>
-      <pubDate>Sat, 19 Jul 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/7/17 [THU]経産省・NEDOの生成AI開発支援プロジェクト「GENIAC」第3期、楽天と野村総研を含む新規13件を採択──生成AI国産化を加速</title>
