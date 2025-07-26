@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIは実際どの工程でどれだけ環境に悪いのか？：Mistral AIが自社LLMのCO2排出・水使用・資源枯渇への影響を公開</title>
+      <link>https://ledge.ai/articles/mistral_ai_environmental_impact_llm</link>
+      <description><![CDATA[<p>フランスの生成AIスタートアップ Mistral AI は2025年7月22日、自社の大規模言語モデル（LLM）に関するライフサイクル分析報告書を公式サイトで<a href="https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai">公表</a>した。対象は「Mistral Large 2」で、同モデルの訓練と推論における環境負荷を、温室効果ガス（GHG）排出量、水使用量、資源枯渇の3つの観点から定量的に評価している。</p>
+<p>報告書は、コンサルタント会社 <a href="https://www.carbone4.com/en">Carbone4</a>とフランスの政府機関ADEMEが共同で作成し、環境監査会社 Resilio および Hubblo による外部査読も受けている。Mistral AI は、AI技術の社会的普及が進む中で、その環境影響の透明性と報告の標準化が必要だとしている。</p>
+<h2>研究方法と指標</h2>
+<p>分析対象は、2023年から2025年1月にかけて訓練された「Mistral Large 2」。モデルの開発・訓練・運用・破棄までの7段階にわたって、国際規格 ISO 14040/44 に準拠したライフサイクル評価（LCA）が実施された。使用した指標は以下の通りである。</p>
+<ul>
+<li>GHG排出量（CO₂e）</li>
+<li>水使用量（淡水消費）</li>
+<li>資源枯渇（アンチモン換算）</li>
+</ul>
+<p>訓練フェーズでは、合計20.4 ktのCO₂e、28.1万立方メートルの水、660 kgのSb eqが消費されたと報告されている。また、ユーザーが対話型AI「Le Chat」で400トークンの回答を生成する際の1回の推論によって、1.14 gのCO₂e、45 mLの水、0.16 mgのSb eqが追加で発生すると算出されている。</p>
+<h2>主な結果と傾向</h2>
+<p>報告によれば、モデル訓練と推論が全体のGHG排出の85.5%、水使用の91%を占めるという。また、ハードウェアの製造と輸送に伴う資源枯渇影響は全体の61%を構成していた。これにより、モデルの規模やトレーニング場所、電力源が環境負荷に与える影響の大きさが明らかとなった。</p>
+<p><strong>Mistral Large 2のライフサイクル全体における環境影響の内訳</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9.jpg" alt="Mistral AI - Infographie ACV - V6(1).jpg" /></p>
+<h2>今後の方針</h2>
+<p>報告書では、AI開発と運用に関わる関係者に向けた複数の提言が示されている。
+各社が訓練時と推論時の環境負荷を定量的に公開することで、比較可能な指標を確立する
+モデルサイズの適正化により、過剰なリソース消費を避ける
+バッチ処理や再利用可能な出力の活用により計算効率を上げる
+再生可能エネルギーの利用と、データセンターの立地選定による環境負荷の低減
+ユーザーのAIリテラシーを高め、無駄な計算を減らす</p>
+<p>Mistral AI は今回の結果をフランスの環境影響データベース「Base Empreinte」に登録する予定であり、今後も定期的な更新を行うとしている。</p>
+]]></description>
+      <pubDate>Fri, 25 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
       <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
       <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
