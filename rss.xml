@@ -5,6 +5,37 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>しっぽのように意思表示、GPT-4oで“生き物感”を引き出す──ソフト触手ロボ「Shoggoth Mini」公開</title>
+      <link>https://ledge.ai/articles/gpt4o_soft_robot_shoggoth_mini</link>
+      <description><![CDATA[<p>2025年7月14日、フランスのロボティクスエンジニア Matthieu Le Cauchois 氏が、OpenAI のマルチモーダル AI「GPT‑4o」を組み合わせたソフト触手ロボット 「Shoggoth Mini」 を自身のブログと GitHub で<a href="https://www.matthieulc.com/posts/shoggoth-mini">公開</a>した。3D プリント部品とサーボモーターだけで構成される本体は約 200 ドル（約 3 万円）で製作可能。ユーザーの音声やジェスチャーを GPT‑4o にストリーミングし、縦振り（Yes）・横振り（No）・回転（喜び）など“しっぽ”のような触手動作で感情を表現する設計だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_a769a1a145/shogonmini_a769a1a145.jpg" alt="shogonmini１.jpg" /></p>
+<h2>“無機質なスマート家電”に代わる“生き物感”</h2>
+<p>開発の背景には、「スマートスピーカーや家庭用 IoT 機器が無機質すぎる」という課題意識があるという。同氏は、人が家庭内でロボットと感情的な関係性を築くには、言語だけでなく動きで感情を伝える能力が必要だと考えた。</p>
+<p>Shoggoth Mini は、過去に同氏が取り組んだ触手ロボット「SpiRobs」の構造をベースにしており、たまたま“顔”のように見えるドーム型筐体が特徴的だ。その上に柔らかくしなる一本の触手が取り付けられ、“しっぽ”のようにぶんぶんと感情表現する動きが与えられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_0fce9bea3e/shogonmini_0fce9bea3e.jpg" alt="shogonmini.jpg" /></p>
+<h2>材料費 200 ドル未満、公開リソースで自作可能</h2>
+<p>Shoggoth Mini の構成部品は、サーボモーター（MG90）3基、USB マイク、カメラ、Raspberry Pi（または他の小型 Linux マシン）、および 3D プリントされた本体と触手部品で構成される。</p>
+<p>同氏はこれらの設計データや制御コードをすべてMITライセンスでGitHubに<a href="https://github.com/mlecauchois/shoggoth-mini">公開</a>。ブログでは組み立て手順やCADビューアによる構造紹介、STLファイルのリンクなども提供しており、個人ユーザーでも再現可能とされている。</p>
+<p>GitHub リポジトリは公開からわずか1週間でスター数127を獲得しており、低コストかつ再現性の高いプロジェクトとして注目を集めている。</p>
+<h2>GPT‑4o × 二層制御アーキテクチャ</h2>
+<p>Shoggoth Miniの挙動は、高レイヤー（GPT‑4o）と低レイヤー（物理制御）の二層アーキテクチャによって実現されている。</p>
+<p><strong>高レイヤーでGPT-4oが音声/視覚のイベントを理解し、下位APIに行動指示を出す。低レイヤーはRLポリシーで職種の物理制御を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/projection_c50f6bb1cc/projection_c50f6bb1cc.png" alt="projection.png" /></p>
+<h2>高レイヤー（GPT‑4o）</h2>
+<p>ユーザーの音声入力や視覚イベント（例：顔の表情、手を振る動作など）はリアルタイムに GPT‑4o に送られ、そこで自然言語として解析される。解析結果は「うなずく」「横に首を振る」「手を振る」といった行動プリミティブに変換され、下位制御層に API 形式で渡される。</p>
+<h2>低レイヤー（物理制御）</h2>
+<p>触手の動きは、MuJoCo シミュレータ上で強化学習されたポリシーによって制御される。ユーザーがトラックパッドのように示した2D座標をもとに、触手の3本の腱（tendon）を操作するケーブル長の調整が行われる。下図のように、s1 + s2 + s3 = 0 の物理制約を保ったまま動作が計算される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/systemd_a469f60d67/systemd_a469f60d67.gif" alt="systemd.gif" /></p>
+<h2>今後の展望</h2>
+<p>同氏は、今後のアップデートとして以下の要素を構想している。</p>
+<p>触手を追加し、“這う”動作を可能にする自走機能
+音声合成による応答表現の強化
+RLHF（人間フィードバックを活用した強化学習）による表情表現の最適化</p>
+<p>プロジェクトは、小規模な個人開発ながらも、AppleのELEGNTロボットやDeepMindのGemini Roboticsなど、「生成AIと身体性」を融合したロボティクス潮流の延長線上に位置づけられる。</p>
+]]></description>
+      <pubDate>Sat, 26 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIは実際どの工程でどれだけ環境に悪いのか？：Mistral AIが自社LLMのCO2排出・水使用・資源枯渇への影響を公開</title>
       <link>https://ledge.ai/articles/mistral_ai_environmental_impact_llm</link>
       <description><![CDATA[<p>フランスの生成AIスタートアップ Mistral AI は2025年7月22日、自社の大規模言語モデル（LLM）に関するライフサイクル分析報告書を公式サイトで<a href="https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai">公表</a>した。対象は「Mistral Large 2」で、同モデルの訓練と推論における環境負荷を、温室効果ガス（GHG）排出量、水使用量、資源枯渇の3つの観点から定量的に評価している。</p>
@@ -709,46 +740,6 @@ GPUクラウドサービスの事業開発からマーケティングを担当�
 <p>ロシア・ベラルーシ両政府は、今後数ヶ月以内にAIシステムの基本設計をまとめ、正式な「統一情報空間」戦略として国家プログラム化する方針を示している。2026年の本格導入を視野に、今後はAI開発に関わる法整備と人材育成が急がれることになる。</p>
 ]]></description>
       <pubDate>Sun, 20 Jul 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>最前線のAI・ロボット・VR・宇宙など未来体験が集結──日本科学未来館、夏休みイベント15企画を開催中</title>
-      <link>https://ledge.ai/articles/miraikan_summer2025_ai_events</link>
-      <description><![CDATA[<p>2025年7月12日から9月28日までの期間、東京・お台場にある日本科学未来館が、子どもから大人までを対象とした<a href="https://www.miraikan.jst.go.jp/news/press/202507074137.html">夏休み特別イベント</a>を開催している。ロボットの遠隔操作、AI分身との対話、月面探査車の実物大展示など、先端技術を体験できる15の企画が館内外で展開されており、科学技術の社会実装を来館者が体感する機会を提供しているという。</p>
-<h2>AIと社会実装の“今”を体験する15企画</h2>
-<p>同館によると、今回のイベントの中心的なテーマは「研究開発の最前線に触れ、未来の社会や自分の生活を考えるきっかけをつくる」ことだという。中でも注目されるのが、AIやロボティクスを活用した体験型プログラム群だ。</p>
-<p>たとえば「ロボット・リモートワーク」（7月23日〜8月7日）では、来館者が遠隔操作でサービスロボットを動かし、“場所を選ばない働き方”の可能性を学ぶことができる。この企画は東京大学などの研究者と連携した実証を兼ねており、来館者の操作データや反応は今後の研究にも活用される予定だ。</p>
-<p><strong>未来を体験！ ロボット・リモートワーク</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250704_summerevents1s_thumb_538xauto_19288_3f4b8e3a9e/20250704_summerevents1s_thumb_538xauto_19288_3f4b8e3a9e.jpg" alt="20250704_summerevents1s-thumb-538xauto-19288.jpg" /></p>
-<p>また、7月21日から始まる「AI分身科学コミュニケーター vol.2」では、生成AIが館内展示を案内し、対話を通じて成長していく様子を観察できる。これは2024年に実施された第1弾の続編にあたり、今回は来館者との会話内容を反映してAIが自律的に対応を変化させる仕組みが加わっている。</p>
-<p><strong>話して育てる、AI“分身”科学コミュニケーター vol.2</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250704_summerevents3s_thumb_538xauto_19290_95601d3efe/20250704_summerevents3s_thumb_538xauto_19290_95601d3efe.jpg" alt="20250704_summerevents3s-thumb-538xauto-19290.jpg" /></p>
-<h2>VRと疲労科学：AIが心身のケアにも応用される現場</h2>
-<p>AI・テクノロジーの社会実装は、労働や教育だけでなく、健康や感情のケアといった分野にも広がっている。「ツカレからの脱出」（7月16日〜9月15日）では、疲労回復に関する科学的知見を体感できるブースが設置され、バイタルデータの可視化や、最新の癒やしグッズの試用が可能となっている。</p>
-<p><strong>ツカレからの脱出 ～疲れとやすみのサイエンス</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250704_summerevents6_c909a65e47/20250704_summerevents6_c909a65e47.jpg" alt="20250704_summerevents6.jpg" /></p>
-<p>8月8日には、早稲田大学の研究者による「ソーシャルVRとメンタルヘルス」に関するトークイベントも予定されており、バーチャル空間が人間関係や心の健康に与える影響について来場者と共に探る試みがなされる。</p>
-<h2>宇宙探査技術の最前線に触れる「深宇宙展」</h2>
-<p>一方で、科学技術のフロンティアとしての宇宙にも焦点が当てられている。7月12日から開幕した特別展「深宇宙展～人類はどこへ向かうのか」では、2020年代後半以降の有人月面探査計画をテーマにした展示が行われている。実物大の有人月面探査車（世界初公開）や、没入型の火星ツアーシアターが設置され、リアルな宇宙探査の臨場感を味わえる内容となっている。</p>
-<p><strong>特別展「深宇宙展～人類はどこへ向かうのか」To the Moon and Beyond</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250704_summerevents8s_thumb_538xauto_19295_9f852e38ce/20250704_summerevents8s_thumb_538xauto_19295_9f852e38ce.jpg" alt="20250704_summerevents8s-thumb-538xauto-19295.jpg" /></p>
-<p>関連イベントとして、JAXAの研究者や天文学者による特別講演会も開催され、科学技術の現場の声を来館者に届けている。7月19日には第2回の講演が実施された。</p>
-<h2>参加方法と申込情報</h2>
-<p>すべてのイベントは日本科学未来館館内および関連施設で実施されており、原則として入館料（大人1,200円、18歳以下600円など）で体験できる。一部のイベントは無料、または特別展の観覧料（大人2,200円ほか）が必要となる。プログラムによっては事前予約や抽選が必要なものもあり、詳細は公式ウェブサイトに掲載されている。</p>
-<h2>おもなAI・科学関連プログラム一覧（開催日順）</h2>
-<ul>
-<li>AI分身科学コミュニケーター vol.2（7/21〜7/31）</li>
-<li>ロボット・リモートワーク体験（7/23〜8/7）</li>
-<li>空間楽器アプリ実証実験（7/26）</li>
-<li>ソーシャルVRの実験トークイベント（8/8）</li>
-<li>深宇宙展（特別展）（7/12〜9/28）</li>
-<li>ツカレからの脱出（展示体験）（7/16〜9/15）</li>
-</ul>
-<h2>実証の現場をそのまま公開</h2>
-<p>今回のイベント群は、単なる展示や体験の枠にとどまらず、実際に研究が進められている開発中の技術を来館者が操作・観察できる点に特徴がある。多くのプログラムでは、研究者本人が現地に立ち会い、技術の背景や社会的意義を直接解説している。</p>
-<p>技術的な仕組みに関心を持つ読者にとっては、生成AIや遠隔ロボティクスといった領域の最前線にある試みを“生活に接続する形”で知ることができるまたとない機会となっている。</p>
-<p>※イベントの詳細および最新の申込情報は、<a href="https://www.miraikan.jst.go.jp/news/press/202507074137.html">日本科学未来館 公式サイト</a>で確認できる。</p>
-]]></description>
-      <pubDate>Sun, 20 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>xAI、最高年収44万ドル「俺の嫁」開発エンジニアと、高額時給の日本語リモートAIチューターを募集——チャレンジしてみる？</title>
