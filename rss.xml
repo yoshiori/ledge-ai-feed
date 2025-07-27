@@ -162,24 +162,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
       <pubDate>Fri, 25 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/7/25 [FRI]OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
-      <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
-      <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
-<h2>Altman氏が性能を示唆、内部テストは最終段階へ</h2>
-<p>報道によれば、OpenAIはGPT‑5の社内テストをすでに最終段階に入れており、パフォーマンスと安全性の検証を進めているという。OpenAIのCEOであるSam Altman氏は7月に出演したポッドキャスト「All-In」で、GPT‑5に初めて質問を投げかけた際の体験について「まったく選ばずに完璧に応答した」と述べており、次世代モデルの推論能力に手応えを感じていることがうかがえる。</p>
-<p>また、Altman氏は米X（旧Twitter）上でも「GPT-5 is coming soon」と<a href="https://x.com/sama/status/1946569252296929727">投稿</a>しており、正式な公開が近いことを示唆していた。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_d2a227b058/openai_gold_medal_performance_d2a227b058.jpg" alt="openai gold medal performance.jpg" /></p>
-<h2>メイン・mini・nanoの3構成で提供へ</h2>
-<p>関係者によれば、GPT‑5は用途別に「メイン」「mini」「nano」の3モデルが存在し、それぞれ性能と速度のバランスに応じて使い分けが想定されているという。nanoモデルはAPI専用に設計され、軽量かつ高速な推論が特徴。また、ChatGPTなどのUI上では、ユーザーが明示的にモデルを選ぶ必要のない設計に刷新されると報じられている。</p>
-<p>この統合的なアプローチは、2024年5月に登場したGPT‑4oの設計思想を引き継ぐ形で、従来型のマルチモデル環境から単一インターフェースへの移行を進める狙いがあるとみられる。</p>
-<h2>AGIとの関係も注視点に</h2>
-<p>OpenAIはMicrosoftとの間で「AGI到達時に収益配分契約の条件を見直す」条項を設けているとされており、今回のGPT‑5がその「AGI（汎用人工知能）」に該当するかどうかは大きな注目点である。Altman氏自身は、GPT‑5リリース直後の段階では「ゴールドレベルの完成度に達するには数か月かかる」と述べており、商用展開と並行して精度や安全性の向上を図る方針であることがうかがえる。</p>
-<p>GPT‑5の最終的な公開時期は、社内で実施されている安全性評価や推論性能の検証によって左右される見通しだという。OpenAIは現在、社外の倫理レビュー団体やレッドチームとの連携も強化しており、2023年以降強化してきたリリース前安全基準に照らした最終判断が行われるとみられる。</p>
-<p>7月24日時点では、OpenAIから公式コメントは出ていない。</p>
-]]></description>
-      <pubDate>Fri, 25 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIエージェントが動かす“リアルな職場”──物理作業と人間関係を一体シミュレートする新環境「INDOORWORLD」公開</title>
       <link>https://ledge.ai/articles/ai_agents_office_simulation_indoorworld</link>
       <description><![CDATA[<p>モントリオール大学とAutodesk Researchの研究チームは2025年6月14日、オフィス内での物理タスク（机の移動や機器修理など）と社会的インタラクション（依頼・相談・雑談など）を同時に再現できるLLMエージェント環境「INDOORWORLD」を<a href="https://arxiv.org/abs/2506.12331v1">発表</a>した。</p>
@@ -292,52 +274,20 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>経産省・NEDOの生成AI開発支援プロジェクト「GENIAC」第3期、楽天と野村総研を含む新規13件を採択──生成AI国産化を加速</title>
-      <link>https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected</link>
-      <description><![CDATA[<p>2025年7月15日、経済産業省と新エネルギー・産業技術総合開発機構（NEDO）は、生成AI開発支援プロジェクト「GENIAC（Generative AI Accelerator Challenge）」の第3期採択結果を<a href="https://www.nedo.go.jp/koubo/CD3_100397.html">発表</a>した。今回の公募には43件が応募し、最終的に24件が採択された。楽天グループと野村総合研究所（NRI）を含む13件が新規採択で、第1期・第2期に採択されていなかった新顔の参画が加速している。</p>
-<h2>楽天、日本語LLMに長期記憶と対話学習を融合</h2>
-<p>楽天グループは今回の第3期で初採択された。申請テーマは「長期記憶メカニズムと対話型学習を融合した日本語LLMの研究開発」で、同社が進めるAIエージェント構想の一環とみられる。</p>
-<p>2024年末に発表された「Rakuten AI 2.0」では、社内外のデータを活用した多目的LLMの構築と、オープンソース化の方針が示されていた。GENIACの支援を受けることで、大規模演算環境のもと、学習済みパラメータの拡張や長期記憶モジュールの実装が本格化する可能性がある。</p>
-<h2>野村総研、業界特化の40B規模モデルを計画</h2>
-<p>野村総合研究所（NRI）も第3期で初採択された。採択テーマは「10B〜40B規模の業界・タスク特化型LLMの研究開発」。具体的な適用分野は公表されていないが、金融・行政・製造などNRIが業務支援を行う産業領域での応用が想定される。</p>
-<p>NRIのような大手コンサルティング・IT企業が生成AIの基盤モデル開発に乗り出すのは、GENIACプロジェクト初となる。従来のSaaS活用や外部API連携を越えて、独自モデル構築へと進む転換点と位置づけられる。</p>
-<h2>新規採択は13件、分野特化型スタートアップが多数</h2>
-<p>楽天とNRI以外にも、第3期では11の新規プレイヤーが採択された。採択テーマからは、以下のような分野特化型の研究が目立つ。</p>
-<ul>
-<li><strong>Airion</strong> ：PLCラダープログラムを自動生成するLLM</li>
-<li><strong>Arivexis</strong> ：低分子化合物の生物活性を予測する創薬モデル</li>
-<li><strong>Degas</strong> ：リモートセンシング向け視覚言語モデル</li>
-<li><strong>Direava</strong> ：外科手術支援用の視覚・言語統合AI</li>
-<li><strong>NexaScience</strong> ：研究開発プロセスを自律化するエージェント</li>
-<li><strong>Nishika</strong> ：出力形式を厳密に制御できる要約特化LLM</li>
-<li><strong>ONESTRUCTURE</strong>：建築BIMデータを生成するモデル</li>
-<li><strong>Precision</strong> ：医療文書理解向け専門LLM</li>
-<li><strong>Sansan</strong> ：企業文書を対象にした視覚言語モデル</li>
-<li><strong>SDio</strong> ：長尺映像を扱う国産大規模映像モデル</li>
-<li><strong>Zen Intelligence</strong> ：建設現場施工管理を自動化するモデル</li>
-</ul>
-<p>これらの企業の多くは医療・建築・産業用途など、明確な業務ユースケースを持つ。GENIAC支援によって、計算資源を活用したモデルのスケーリングが可能になると見られる。</p>
-<h2>継続採択は11件、ABEJA・Preferredなど第1期組も含む</h2>
-<p>第1期・第2期からの継続採択組は11件。業界内で技術実装が進む企業が引き続き支援対象となった。以下は継続企業の一部。</p>
-<ul>
-<li>ABEJA</li>
-<li>AI inside</li>
-<li>AIdeaLab</li>
-<li>Karakuri（カラクリ）</li>
-<li>Kotoba Technologies Japan</li>
-<li>NABLAS</li>
-<li>Preferred Networks</li>
-<li>Ricoh</li>
-<li>Stockmark</li>
-<li>SyntheticGestalt</li>
-<li>Turing</li>
-</ul>
-<p>すでにGENIACの支援を受けた開発実績を有しており、第3期ではモデルの高度化や新機能の追加が焦点となる。</p>
-<h2>GENIACの支援規模と今後のスケジュール</h2>
-<p>GENIACは、経産省とNEDOが連携して進める国産生成AI開発支援プログラムで、2023年度から実施されている。今回の第3期採択により、累計支援件数は54件に拡大した。
-対象期間：交付決定日〜2026年2月末まで
-支援内容：GPUクラウド等の演算資源提供、外部評価機関による技術検証
-今後の予定：NEDOによる中間評価、年度末までに開発成果の提出と発表が予定されている</p>
+      <title>ビジネス2025/7/25 [FRI]OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
+      <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
+      <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
+<h2>Altman氏が性能を示唆、内部テストは最終段階へ</h2>
+<p>報道によれば、OpenAIはGPT‑5の社内テストをすでに最終段階に入れており、パフォーマンスと安全性の検証を進めているという。OpenAIのCEOであるSam Altman氏は7月に出演したポッドキャスト「All-In」で、GPT‑5に初めて質問を投げかけた際の体験について「まったく選ばずに完璧に応答した」と述べており、次世代モデルの推論能力に手応えを感じていることがうかがえる。</p>
+<p>また、Altman氏は米X（旧Twitter）上でも「GPT-5 is coming soon」と<a href="https://x.com/sama/status/1946569252296929727">投稿</a>しており、正式な公開が近いことを示唆していた。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_d2a227b058/openai_gold_medal_performance_d2a227b058.jpg" alt="openai gold medal performance.jpg" /></p>
+<h2>メイン・mini・nanoの3構成で提供へ</h2>
+<p>関係者によれば、GPT‑5は用途別に「メイン」「mini」「nano」の3モデルが存在し、それぞれ性能と速度のバランスに応じて使い分けが想定されているという。nanoモデルはAPI専用に設計され、軽量かつ高速な推論が特徴。また、ChatGPTなどのUI上では、ユーザーが明示的にモデルを選ぶ必要のない設計に刷新されると報じられている。</p>
+<p>この統合的なアプローチは、2024年5月に登場したGPT‑4oの設計思想を引き継ぐ形で、従来型のマルチモデル環境から単一インターフェースへの移行を進める狙いがあるとみられる。</p>
+<h2>AGIとの関係も注視点に</h2>
+<p>OpenAIはMicrosoftとの間で「AGI到達時に収益配分契約の条件を見直す」条項を設けているとされており、今回のGPT‑5がその「AGI（汎用人工知能）」に該当するかどうかは大きな注目点である。Altman氏自身は、GPT‑5リリース直後の段階では「ゴールドレベルの完成度に達するには数か月かかる」と述べており、商用展開と並行して精度や安全性の向上を図る方針であることがうかがえる。</p>
+<p>GPT‑5の最終的な公開時期は、社内で実施されている安全性評価や推論性能の検証によって左右される見通しだという。OpenAIは現在、社外の倫理レビュー団体やレッドチームとの連携も強化しており、2023年以降強化してきたリリース前安全基準に照らした最終判断が行われるとみられる。</p>
+<p>7月24日時点では、OpenAIから公式コメントは出ていない。</p>
 ]]></description>
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
