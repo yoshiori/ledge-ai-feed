@@ -5,6 +5,41 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>GoogleのAI要約表示で外部リンクのクリック率が半減、Pew Researchが分析結果を公表</title>
+      <link>https://ledge.ai/articles/google_ai_overview_click_rate_drop</link>
+      <description><![CDATA[<p>2025年7月22日、米調査機関 Pew Research Center は、Google検索の上部に表示される AI生成要約「AI Overview」（以下、AIO） がユーザー行動に与える影響を分析したレポートを<a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">公表</a>した。</p>
+<p>対象は同年3月に米国の成人900人から収集した 68,879件 の検索データで、AIOが表示された結果ページでは外部リンクのクリック率が 8％ にとどまり、AIOが表示されないページの 15％ を大きく下回った。</p>
+<h2>クリック率は半減、要約内リンクは1％</h2>
+<ul>
+<li><strong>AI要約機能（AIO）あり</strong>  の検索セッションで外部リンクをクリックしたのは 8％。</li>
+<li><strong>要約なし</strong> のセッションでは 15％。</li>
+<li>AIO内に<strong>埋め込まれたリンク</strong>がクリックされたのは 全検索の1％ にすぎなかった。</li>
+</ul>
+<p>数値はいずれも、ユーザーが 「AIが要約したサマリー」だけで情報ニーズを満たすケース が増えている可能性を示している。</p>
+<p><strong>■ AI要約の有無で変わるユーザー行動</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SR_25_07_22_ai_summaries_1_9d1f951ed6/SR_25_07_22_ai_summaries_1_9d1f951ed6.jpg" alt="SR_25.07.22_ai_summaries_1.jpg" /></p>
+<h2>離脱率や検索行動にも影響</h2>
+<p>AIOが表示されたページでは、何もクリックせずに離脱する ゼロクリック率 が 26％。要約がない場合の 16％ と比べて高かった。一方で、AIOページを見たユーザーの 59％ は同じセッション内で別クエリを実行しており、検索そのものの継続意欲は保たれている。</p>
+<h2>AI要約は約5回に1回の頻度で表示</h2>
+<p>分析対象となった68,879件の検索データのうち、AI Overviewが表示されたのは12,593件で、全体の約18%にあたる。これは、2025年3月時点でのAIOの表示頻度が比較的限定的であったことを示している。</p>
+<p>また、AIOに引用された外部ソースとしては、WikipediaやYouTube、Redditなど一般的なプラットフォームに加え、.gov（米政府系）ドメインの割合が通常の検索結果に比べてやや高い傾向にあったという。</p>
+<p><strong>■ AI要約はWikipedia・.govリンクが多め</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SR_25_07_22_ai_summaries_2_61e865f460/SR_25_07_22_ai_summaries_2_61e865f460.jpg" alt="SR_25.07.22_ai_summaries_2.jpg" /></p>
+<h2>調査方法と制限事項</h2>
+<ul>
+<li><strong>データ取得</strong> ：Pewのリクルートパネル「KnowledgePanel Digital」参加者の実ブラウジングログ</li>
+<li><strong>期間</strong> ：2025年3月1〜31日</li>
+<li><strong>判定方法</strong> ：4月7〜17日に検索結果HTMLをスクレイピングし、AIOの有無とリンク元ドメインを分類</li>
+<li><strong>制限</strong> ：検索エンジンはGoogleのみ、AIO表示頻度は時期やユーザー属性で変動する可能性あり</li>
+</ul>
+<h2>今後の注目点</h2>
+<p>Googleは、AI Overview機能を2024年5月に米国で本格導入した後、2025年5月には日本を含む他国でも展開を開始した。これにより、検索結果上での情報提供の形が大きく変化しつつある。</p>
+<p>一部の出版社やニュースメディアは、AI要約機能が自社サイトへのトラフィック減少につながる可能性を指摘しており、2025年6月には米Wall Street JournalがAIOの影響について報じた。</p>
+<p>Googleは、今後もAI Overviewの国際展開と商用広告モデルのテストを継続するとしており、検索エンジン最適化（SEO）やコンテンツ提供戦略の再考が業界全体に求められている。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DeepL、Zoomとの連携でリアルタイム翻訳機能を拡張──音声認識精度向上と文字起こしダウンロードも可能に</title>
       <link>https://ledge.ai/articles/deepl_zoom_voice_translation_update</link>
       <description><![CDATA[<p>2025年7月23日、独ケルンに本社を置く翻訳AI企業DeepLは、音声翻訳サービス「DeepL Voice」がビデオ会議ツール「Zoom Meetings」と連携可能になったと<a href="https://www.deepl.com/ja/press-release">発表</a>した。</p>
