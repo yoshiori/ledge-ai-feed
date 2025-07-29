@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、Copilotに“顔”を付ける──実験機能「Copilot Appearance」米・英・カナダで早期プレビューを開始</title>
+      <link>https://ledge.ai/articles/copilot_appearance_experimental_preview</link>
+      <description><![CDATA[<p>Microsoftは2025年7月27日、AIアシスタント「Microsoft Copilot」に視覚的な存在感を付与する新機能「Copilot Appearance」の早期プレビュー提供を開始したことを<a href="https://copilot.microsoft.com/labs/experiments/copilot-appearance">発表</a>した。</p>
+<p>これは、Copilot Labsにおける実験的取り組みの一環で、Web版Copilot上で動作し、アニメーションアバターによってユーザーとの対話に表情やジェスチャーを加えることができるという。</p>
+<h2>会話中に笑顔やうなずきも　視覚的な非言語表現で“人らしさ”を演出</h2>
+<p>「Copilot Appearance」は、ユーザーの発話内容やチャット文脈に応じて、Copilotがリアルタイムに表情を変化させたり、うなずいたり、驚いたりといった非言語的なフィードバックを提供する機能。アニメーションアバターが対話相手のように動作することで、より自然で親しみやすいユーザー体験を目指している。</p>
+<p>背景には、会話履歴から推論される短期的な文脈メモリを活用し、単なる音声合成を超えた“対話の雰囲気”を再現しようとする試みがある。現時点では基本的な表情変化が実装されているが、今後さらなるパターンの追加が予定されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/copilot_appearance_image_1_8ab403c20e/copilot_appearance_image_1_8ab403c20e.png" alt="copilot-appearance-image-1.png" /></p>
+<h2>利用方法と対象ユーザー</h2>
+<p>利用はWeb版のCopilotから、音声入力アイコンをクリックし、「Voice Settings」内にある「Copilot Appearance」のトグルをオンにするだけで可能となる。機能を有効化すると、テキストチャットであってもCopilotがアニメーション付きで応答を読み上げるようになる。</p>
+<p>なお、今回の実験機能は「Copilot Labs」に登録した一部のユーザーを対象としており、提供地域は米国、英国、カナダに限定されている。日本を含む他地域への展開時期は未定。</p>
+<h2>今後の展望：AIに人格を与え「見えるAI」へ</h2>
+<p>Copilot Appearanceの開発は、Microsoftが進めるCopilotの“人格化”戦略の一部と位置付けられている。Microsoft AI部門のCEOであるムスタファ・スレイマン氏は以前より、Copilotを「永続的で信頼できるデジタルの友人」に進化させるというビジョンを語っており、今回の視覚的インターフェースの導入はその第一歩といえる。</p>
+<p>同社は今後、ユーザーフィードバックをもとに本機能の表情表現やアニメーションを改善し、より多くの国と言語への対応を検討するとしている。</p>
+<p>Microsoftの他にも、MetaはAIアバターとのインタラクションを強化する「AI Studio」を展開しており、Googleは「Project Astra」で視覚・音声・動作を組み合わせた次世代AIエージェントを開発中だ。こうした動きは、AIが単なるツールから「相棒」へと進化しつつあるトレンドを示している。</p>
+]]></description>
+      <pubDate>Tue, 29 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIスタートアップのオルツ、売上の最大9割を過大計上　第三者委が循環取引を指摘</title>
       <link>https://ledge.ai/articles/alts_financial_misstatement_ai_gijiroku</link>
       <description><![CDATA[<p>AIスタートアップのオルツは2025年7月25日、2020年度から2024年度にかけて計上した売上高のうち、最大で約90%が実態のない取引に基づく過大計上だったと<a href="https://tdnet-pdf.kabutan.jp/20250725/140120250725520988.pdf">明らかにした</a>。これは同社が設置した第三者委員会の調査報告に基づくもので、<a href="https://www.jpx.co.jp/news/1023/20250725-13.html">東京証券取引所</a>は同日、同社株式を監理銘柄（審査中）に指定した。</p>
@@ -458,36 +477,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>OracleとOpenAIは、Stargate計画の次フェーズに向けて、残りの5GW分の構築も視野に入れて準備を進めている。新たな拠点の候補地やスケジュールの詳細は、今後の段階で公表されると見られる。</p>
 ]]></description>
       <pubDate>Wed, 23 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>名大、同時発話に対応した日本語音声対話AI「J-Moshi」を公開──“かぶり”も自然に処理</title>
-      <link>https://ledge.ai/articles/japanese_full_duplex_ai_j_moshi</link>
-      <description><![CDATA[<p>名古屋大学の研究チームは2025年7月22日、日本語初の全二重音声対話システム「J-Moshi」を<a href="https://nu-dialogue.github.io/j-moshi/">発表</a>した。</p>
-<p>英語圏で開発が進んでいた「Moshi」をベースに日本語へ適用したもので、人間のように「話しながら聞く」同時発話が可能な対話AIである。学習済みモデルとコード、デモページはすでにGitHubとHugging Face上で一般公開されており、非商用ライセンスのもと、研究目的で自由に利用できる。</p>
-<p><strong>Moshiのモデルアーキテクチャ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2_3dd777e61d/x1_2_3dd777e61d.png" alt="x1 (2).png" /></p>
-<h2>全二重対話とは何か</h2>
-<p>従来の音声対話AIは半二重（ハーフデュープレックス）方式が主流で、ユーザーの発話が終わるまで応答が待機する形式だった。一方、全二重（フルデュープレックス）は、人間同士の自然な会話に見られる「かぶり」や「あいづち」などの重なりを再現する技術であり、リアルタイム性と自然性が求められる対話領域での活用が期待されている。</p>
-<p>英語においてはKyutai Labsの「Moshi」が先行していたが、日本語特有の相づち文化や発話タイミングの違いに対応したモデルは存在しなかった。J-Moshiはそのギャップを埋める初の試みであり、研究チームによると「日本語特有の重なりある会話スタイルも自然に再現可能」としている。</p>
-<h2>技術の概要と開発プロセス</h2>
-<p>J-Moshiの開発は、以下の3段階で構成された。</p>
-<h3>① 事前学習（69,000時間）</h3>
-<p>YouTubeやPodcast由来のJ-CHATコーパスを使い、日本語対話の基礎能力を習得。話者分離とテキスト整形を実施し、3億トークン以上のテキストで学習された。</p>
-<h3>② 微調整（344時間）</h3>
-<p>電話・旅行代理店・カジュアル会話・相談場面など多様な日本語ステレオ音声対話データを活用。音声重なりや自然なターンテイキングを再現。</p>
-<h3>③ 合成データによる拡張（602時間）</h3>
-<p>テキスト対話データをLLMで話し言葉に変換し、マルチストリームTTSで音声化。生成されたステレオ音声で追加学習を行い、モデル「J-Moshi-ext」として公開された。</p>
-<p>これらの学習は最大128枚のGPUで実施され、事前学習は36時間、微調整は2時間で完了している。</p>
-<h2>今後の展望と応用領域</h2>
-<p>本技術は、以下のようなリアルタイム性と自然対話が求められる場面での活用が見込まれる。</p>
-<ul>
-<li>カスタマーサポートやコールセンターでの応対</li>
-<li>音声アシスタントやロボットとの会話</li>
-<li>バーチャル接客やメタバース空間でのコミュニケーション</li>
-</ul>
-<p>研究チームは今後、「応答品質のさらなる向上と、マルチモーダル対応など商用用途への展開を見据えた開発」を進めていくとしている。</p>
-]]></description>
-      <pubDate>Wed, 23 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AIが構築した“仮想都市”──ウーブン・バイ・トヨタ、100万人都市シミュレーター「CitySim」で未来を検証</title>
