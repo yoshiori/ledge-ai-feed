@@ -170,50 +170,6 @@
       <pubDate>Tue, 29 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
-      <link>https://ledge.ai/articles/tokyo_ai_strategy_2025</link>
-      <description><![CDATA[<p>東京都は2025年7月25日、<a href="https://www.digitalservice.metro.tokyo.lg.jp/business/ai/ai-strategy">「東京都AI戦略」</a>を策定・公表した。都民サービスの質向上と行政業務の生産性向上を目的に、生成AIを含むAI技術の活用を全庁横断で“面”展開していく方針を明示した。</p>
-<p>今後は、庁内外のさまざまな領域でAIの導入を本格化させ、都市の持続可能性と競争力の両立を目指すという。</p>
-<h2>人口減少と行政課題の複雑化に対応、戦略の背景</h2>
-<p>東京都は本戦略において、少子高齢化と人口減少による労働力不足、複雑化・多様化する行政課題を今後の都政の大きな制約要因として挙げている。2065年には都の人口が2020年比で約1割減となる推計も示されており、人的資源に依存しない行政の実現が喫緊の課題となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyo_2065_973c3bcde0/tokyo_2065_973c3bcde0.jpg" alt="tokyo 2065.jpg" /></p>
-<p>こうした背景のもと、都は生成AIをはじめとするAI技術を「2050東京戦略」の中核技術と位置づけ、従来の“点”の実証から“面”での全庁展開へと政策の転換を図ると明言した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy2_6c78bee684/tokyoai_strategy2_6c78bee684.jpg" alt="tokyoai strategy2.jpg" /></p>
-<h2>AI利活用に当たっての6つの留意事項とリスク管理</h2>
-<p>東京都AI戦略は、生成AIを含むあらゆるAI技術を導入する際の指針として、次の 6つの留意事項 を示している。</p>
-<ul>
-<li><strong>透明性</strong> ：AIがどのように判断し、結果を導いたかを説明できる状態を確保する。</li>
-<li><strong>公平性</strong> ：アルゴリズムによる差別を防ぎ、すべての都民に公平にサービスを提供する。</li>
-<li><strong>安全性</strong> ：AIの誤作動や想定外の挙動によるリスクを最小化する。</li>
-<li><strong>プライバシー</strong> ：個人情報を適切に取り扱い、法令・ガイドラインを順守する。</li>
-<li><strong>セキュリティ</strong>：サイバー攻撃やデータ侵害からシステムと情報を守る。</li>
-<li><strong>アカウンタビリティ（説明責任）</strong> ：AI導入の責任主体を明確にし、結果に対して説明できる体制を整える。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy3_756cc67377/tokyoai_strategy3_756cc67377.jpg" alt="tokyoai strategy3.jpg" /></p>
-<p>さらに都は、業務ごとのリスクを「青（低リスク）」「黄（中リスク）」「赤（高リスク）」の3段階で評価し、活用範囲と管理レベルを段階的に設定する仕組みを導入する。これにより、利便性と安全性のバランスを取りながら、AIを都政の中核に据えていく方針だという。</p>
-<h2>生成AI基盤を庁内標準に、都政業務を再設計</h2>
-<p>戦略の柱のひとつが、GovTech東京と連携した生成AI共通プラットフォームの整備である。都の規程や業務マニュアルなどを学習させたAIを用い、職員が専門的な質問に即応できるQ&amp;Aシステムや、議事録自動生成、文案作成支援などの用途を想定している。用途に応じた複数の大規模言語モデル（LLM）を選択可能にするなど、柔軟性の高い運用体制も特徴とされる。</p>
-<p>加えて、都は生成AIの利活用について、共通ツールの導入にとどまらず、職員研修や相談窓口の設置などを通じて、リテラシーと業務改革の両面から支援していくとした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy4_60d00ddb21/tokyoai_strategy4_60d00ddb21.jpg" alt="tokyoai strategy4.jpg" /></p>
-<h2>現状分析：庁内活用95％、インフラ関連が最多31％</h2>
-<p>東京都が把握する AI関連事業のうち 95％ は、申請・審査、設備管理など都庁内部での業務改善を目的とした「都政におけるAI利活用」が占める。残る 5％ は、民間企業へのAI導入支援や人材育成などの補助事業に充てられている。</p>
-<p>「都政におけるAI利活用」を政策分野別に見ると、
-インフラ・まちづくり が 31％ で最多。
-以下、その他（税・財務等）17％、産業・雇用15％、子供・教育11％、安全・安心8％、福祉・医療7％、文化・スポーツ6％、共通基盤6％ と続く。</p>
-<p>主体別では、職員主体 63％／都民・事業者主体 37％ となっており、現時点では職員向けツールが依然として中心であることが分かる</p>
-<p><strong>東京都におけるAI関連事業の内訳と政策分野別比率</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy6_b5ca5118d1/tokyoai_strategy6_b5ca5118d1.jpg" alt="tokyoai strategy6.jpg" /></p>
-<p>この偏りを是正する形で、戦略では“都民サービス領域へのAI展開”を明確な重点項目として掲げている。</p>
-<h2>推進体制と今後の展開</h2>
-<p>推進体制としては、デジタルサービス局が全体統括の役割を担い、政策立案・財務支援・技術支援の三位一体で全庁をサポートする。各局には「AI利活用推進責任者」が新設され、CIO補佐官やGovTech東京が伴走型支援を実施する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy5_f77cfbb052/tokyoai_strategy5_f77cfbb052.jpg" alt="tokyoai strategy5.jpg" /></p>
-<p>また、区市町村・国・民間企業との連携体制も強化し、スタートアップとの協働や中小企業支援、教育機関との人材育成プログラムなどを通じて、都全体でAIの社会実装を進める構えである。</p>
-<h2>都はAIネイティブ都市へと進化できるか</h2>
-<p>戦略は、今後のロードマップとして、AIを行政運営の前提に据えた「AIネイティブ都市東京」を将来的なビジョンに据えている。都は今後、戦略に基づいた実装事例やKPIを段階的に公表していく予定であり、他自治体や企業にとっても注視すべき展開となる。</p>
-]]></description>
-      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>東北大、ロボットが “触って考える” 視覚と触覚のマルチモーダルAIモデル「TactileAloha（タクタイル・アロハ）」を公開—結束バンド挿入や面ファスナーの接着を可能に</title>
       <link>https://ledge.ai/articles/tohoku_university_tactilealoha_robot_ai_zip_tie_velcro</link>
       <description><![CDATA[<p>2025年7月14日、東北大学大学院工学研究科の林部充宏教授ら研究チームは、ロボットが触覚センサーから得た情報を基に自律的な行動計画を行うAI「TactileAloha（タクタイル・アロハ）」を開発したと<a href="https://www.tohoku.ac.jp/japanese/2025/07/press20250714-02-robot.html">発表</a>した。</p>
@@ -514,69 +470,26 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Upwork調査：AI“同僚”で生産性40％向上も、バーンアウト（燃え尽き症候群）88％に拡大</title>
-      <link>https://ledge.ai/articles/ai_productivity_burnout_upwork_survey</link>
-      <description><![CDATA[<p>米カリフォルニア州に拠点を置くUpwork Research Instituteは2025年7月9日、AI導入が職場にもたらす影響を明らかにした調査レポートの最新版「From Tools to Teammates」を<a href="https://www.upwork.com/research/navigating-human-ai-relationships">発表</a>した。</p>
-<p>調査は世界17業界の労働者2,500人を対象に実施されたもので、AIが「ツール」から「チームメイト」へと役割を変えつつある中で、業務効率は最大で40％向上した一方、特に高い成果を上げるユーザー層では88％がバーンアウト（燃え尽き症候群）を経験していることが判明した。</p>
-<h2>生産性向上の裏で進むメンタルヘルスの悪化</h2>
-<p>調査によると、AIを日常的に活用する上位パフォーマー層では、自身の業務生産性が平均して40％向上したと回答している。また、経営層の77％も「AI導入がチーム成果に明確な効果をもたらした」と述べており、企業全体の成果指標にも反映されつつある。</p>
-<p>しかしその一方で、こうした上位AIユーザーの88％が「燃え尽きた」と感じており、従来の従業員と比較して離職意向が2倍に達している。さらに62％が「自分のAI活用が会社全体の目的とどう結びついているのか分からない」と答えており、AI導入と従業員エンゲージメントの乖離が浮き彫りになった。</p>
-<p><strong>上位AIパフォーマーの88％がバーンアウトを報告。AIへの信頼や依存は人間関係を上回る傾向が見られた</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/human_cost_ai_productivity_ef508ee5da/human_cost_ai_productivity_ef508ee5da.jpg" alt="human-cost-ai-productivity.jpg" /></p>
-<p><strong>上位AIユーザーの62％が「会社のAI戦略と自分の行動の関係が分からない」と回答。前年よりも乖離傾向が強まっている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/power_ai_users_disconnected_ai_strategy_e93afbfa96/power_ai_users_disconnected_ai_strategy_e93afbfa96.webp" alt="power-ai-users-disconnected-ai-strategy.webp" /></p>
-<h2>職場の信頼構造が変化──AIへの依存と擬人化</h2>
-<p>調査では、人間関係よりもAIとの関係性を重視する傾向も示された。高いパフォーマンスを示す従業員の66％が「人間の同僚よりもAIを信頼している」と回答し、64％は「AIとの関係のほうが良好」と感じている。</p>
-<p><strong>上位AIユーザーの67％が「人よりAIを信頼」、64％が「AIの方が良好な関係」と回答。AIとの人間的な関係構築が加速している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/workers_gain_ai_teammate_upwork_bf073ad171/workers_gain_ai_teammate_upwork_bf073ad171.webp" alt="workers-gain-ai-teammate-upwork.webp" /></p>
-<p>こうした傾向は、AIに対する接し方にも表れており、回答者の46％がAIとのやり取りで「please」や「thank you」といった丁寧な表現を常に使っていると答えている。また、57％が「AIに失礼な態度をとらないよう心がけている」とも回答しており、AIをあたかも人間の同僚のように扱う“擬人化”の傾向が広がっている。</p>
-<p>ほかにも、44％が「AIを会話のパートナーとして扱っている」、42％が「AIとブレインストーミングしている」と回答するなど、単なるツールではなく“協働者”としての受け止め方が進んでいることがうかがえる。</p>
-<h2>フリーランスの方が“健全に”AIを活用</h2>
-<p>一方、フリーランス労働者のAI活用が、正社員に比べてよりポジティブで持続可能な形で機能していることも示された。フリーランサーの90％が「AIによって学習効率が上がった」と回答し、42％はAIを活用することで専門スキルに特化し、新たな案件獲得に成功している。</p>
-<p>これに対し、正社員の同様の成功率は30％にとどまっており、業務裁量の有無がAI導入の成功可否に影響している可能性があるという。</p>
-<h2>専門家コメント：技術ではなく“関係性”の課題</h2>
-<p>Upwork Research Instituteのマネージングディレクターであるケリー・モナハン博士は、次のように述べている。</p>
-<p>「AI導入の成否は、技術的な成熟度よりも、従業員との間にどのような関係性と信頼を築けるかにかかっている。職場におけるAIは、単なる業務効率化のツールではなく、人との関係性の中でどう活用されるかが問われている。」</p>
-<p>また、シニアリサーチマネージャーのギャビー・ブラカ博士も「人とAIの共存可能な組織設計こそが、今後の競争優位性につながる」と述べている。</p>
-<h2>今後の示唆：透明性と裁量の両立が鍵</h2>
-<p>今回の調査結果は、企業がAIを単なる生産性向上の手段として導入するのではなく、従業員の心理的安全性や目的意識との整合性を重視する必要があることを示唆している。また、フリーランスが示したような「自律性とAIリテラシーの両立」は、正社員向けの人材育成にも応用可能とみられる。</p>
-<p>Upwork上では「AIエージェントの構築」や「プロンプトエンジニアリング」といった関連スキルの検索数が、過去半年で300％以上増加しているという。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
-      <link>https://ledge.ai/articles/context_engineering_deepmind</link>
-      <description><![CDATA[<p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https://www.philschmid.de/context-engineering">提起</a>した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
-<h2>背景：プロンプトエンジニアリングの行き詰まり</h2>
-<p>近年、生成AIの発展に伴い「プロンプトエンジニアリング」が注目を集めてきた。巧みなプロンプトを用いてモデルの挙動を調整し、より望ましい回答を得るという技法は、AI活用の第一歩として広く普及している。しかしシュミット氏は、現実の業務環境ではプロンプトの工夫だけで対応できない課題が増大しており、AIが真にユーザーの期待に応えるには、より包括的な情報構造の設計が必要だと指摘した。</p>
-<h2>コンテキストエンジニアリングとは</h2>
-<p>シュミット氏は、コンテキストエンジニアリングを「AIが必要とする情報を、適切な形式で、適切なタイミングに提供する仕組みの設計」と位置付ける。単にプロンプトを最適化するのではなく、モデルに取り込ませる知識、会話履歴、外部ツールとの連携などを含めて制御する総合的な技術領域だと説明する。</p>
-<p>具体的には、</p>
-<ul>
-<li>System Prompt（AIのシステム的前提）</li>
-<li>User Prompt（ユーザーからの指示）</li>
-<li>State/History（対話履歴や状態管理）</li>
-<li>Long-Term Memory（長期記憶としての知識）</li>
-<li>Retrieved Information（RAGなどによる検索情報）</li>
-<li>Tools/Structured Output（外部ツール連携・構造化出力）
-という6つの構成要素を「コンテキスト」として設計し、動的に最適化していく考え方を示している。</li>
-</ul>
-<h2>8割の失敗は文脈不足</h2>
-<p>シュミット氏は、AIエージェント開発における8割の失敗が「文脈情報の欠落」に起因すると述べている。たとえばカレンダー調整を行うAIエージェントの場合でも、ユーザーの希望や優先順位を把握しないまま単純な操作を試みることでエラーが起きやすいと説明している。</p>
-<h2>関連技術と支える手法</h2>
-<p>同氏は、コンテキストエンジニアリングを支える技術として、</p>
-<ul>
-<li>検索拡張生成（RAG）</li>
-<li>ベクトルデータベース検索</li>
-<li>ツール呼び出しのオーケストレーション</li>
-<li>会話履歴管理
-などの仕組みが必要だと述べている。これらを組み合わせることで、AIが常に適切な前提情報を取得しながら出力を行える環境を整備できるとする。</li>
-</ul>
-<h2>エンタープライズでの展開</h2>
-<p>シュミット氏は、コンテキストエンジニアリングがエンタープライズ分野においても重要であると述べている。社内ドメイン知識や業務ルールをAIが正しく理解できるようにするために、前提情報の整理と統合を体系的に設計する必要があるとしている。</p>
-<p>筆者プロフィール
-フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
+      <title>Gemini Deep Think、国際数学オリンピックで AI 初の“金メダル基準”──Google が 35 点達成を正式発表、OpenAIも同点を主張</title>
+      <link>https://ledge.ai/articles/gemini_deep_think_math_olympiad_gold</link>
+      <description><![CDATA[<p>Google DeepMindは2025年7月22日、公式ブログで、強化版「Gemini Deep Think」が2025年国際数学オリンピック（IMO、会場：オーストラリア・サンシャインコースト）本選問題を自然言語のまま解き、35点（6題中5題満点）を獲得、金メダル相当の成績を公式認定されたと<a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gmini_achieves_goldmedal_0dcc17050a/gmini_achieves_goldmedal_0dcc17050a.jpg" alt="gmini achieves goldmedal.jpg" /></p>
+<p>AIが自然言語で解答し、人間と同条件の制約下で金メダル基準を超えたのは初となる。一方、OpenAIも数日前に同スコアを達成したと主張しており、AI2社による“数学五輪競演”が注目されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0.jpg" alt="GwZPtRWWUAMm4F_.jpg" /></p>
+<h2>Gemini Deep Thinkが公式認定で金メダル水準に到達</h2>
+<p>DeepMindの発表によれば、Gemini Deep Thinkは本選で出題された6問のうち5問に完全正答し、計35点を獲得した。これは過去のIMO成績基準において、参加者上位約8％に与えられる金メダル相当に該当する。採点は国際数学オリンピック（IMO）の現職採点委員によって行われ、IMO会長Gregor Dolinar教授は「明晰で正確な証明が提出された」とコメントしている。</p>
+<p>Deep Thinkは、GoogleのGemini 2.5モデルに数学的推論を強化するモードを加えた研究版で、今回の問題をすべて自然言語で読み取り、形式変換を行うことなく自然言語で<a href="https://storage.googleapis.com/deepmind-media/gemini/IMO_2025.pdf">解答</a>を生成した。試験は人間参加者と同様、1日目・2日目各4.5時間の時間制限下で行われた。</p>
+<h2>“自然言語のみ”で4.5時間以内に証明完了</h2>
+<p>今回の挑戦では、従来のように定理証明システム（例：Lean）を使うのではなく、問題文・解答ともに自然言語ベースで処理された点が大きな特徴である。DeepMindによれば、Gemini Deep Thinkは「Parallel Thinking」と呼ばれる内部アーキテクチャにより、複数の仮説を同時並列で検討・評価することで、人間の数学者に近い証明戦略を実現している。</p>
+<p>また、強化学習を通じて事前に学習された定理証明の手法やヒントが、プロンプトに組み込まれていたことも明かされた。使用された問題および解答はGitHub上で公開されており、数学界の透明性と再現性の担保にも配慮がなされている。</p>
+<h2>OpenAIも同点達成を主張、しかし公式認定は未取得</h2>
+<p>一方、Googleに先行するかたちでOpenAIの動きも注目された。7月19日（米国時間）、同社CEOのSam Altman氏がX（旧Twitter）上で「一般用途のLLMが数学オリンピックで金メダル水準を達成した」と投稿。続いて研究者のAlexander Wei氏がスレッドを公開し、OpenAIの研究用モデルがGeminiと同様に35点（6問中5問満点）を取得したと説明した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_7915629351/openai_gold_medal_performance_7915629351.jpg" alt="openai gold medal performance.jpg" /></p>
+<p>Wei氏によれば、試験は2日間・各4.5時間の条件下で、外部ツールやインターネット接続なしで行われたという。ただし、採点はOpenAIが独自に招いた過去のIMOメダリストによるものであり、IMO公式委員会による証明の正当性確認は完了していない。Altman氏はこのモデルについて「研究用プロトタイプであり、将来的にGPT-5へ知見を統合する」と述べている。</p>
+<p>この点について、Google DeepMindのCEOであるDemis Hassabis氏はX上で「我々はIMO側の依頼に従い、公式採点が終了するまで発表を控えた」と投稿しており、発表タイミングや認定手続きをめぐって両社の立場に温度差が見られる。</p>
+<h2>数学研究と産業応用に向けた展開も視野</h2>
+<p>Gemini Deep Thinkは、現時点では研究者向けの限定公開にとどまっているが、今後は数学者コミュニティへの段階的な提供が計画されている。また、DeepMindは別途開発中の証明検証モデル「AlphaProof」などと組み合わせ、より信頼性の高い複合型AIの開発も視野に入れているという。</p>
+<p>高度な数学的推論が可能なAIは、物理や工学分野での定理証明、システム設計の自動化、経済モデリングなど、さまざまな分野への波及が期待される。DeepMindはこれらの応用に向けたツール群を今後「Google AI Ultra」契約者に向けて展開する方針を示している。</p>
 ]]></description>
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
@@ -726,6 +639,50 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <h2>今後の展開</h2>
 <p>同社は今後さらなるデータ拡充やマルチモーダルAIの統合により、同技術の汎用性と実用性の向上を図る方針だという。商用バス、ロボタクシー、物流ドローンなど、他領域への応用も視野に入れている。</p>
 <p>また、高齢化や人手不足が深刻な地域において、AIによる無人運転サービスの実用化が期待される中、本技術が地域交通の再構築や持続可能なモビリティ確保に寄与する可能性が注目されている。</p>
+]]></description>
+      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
+      <link>https://ledge.ai/articles/tokyo_ai_strategy_2025</link>
+      <description><![CDATA[<p>東京都は2025年7月25日、<a href="https://www.digitalservice.metro.tokyo.lg.jp/business/ai/ai-strategy">「東京都AI戦略」</a>を策定・公表した。都民サービスの質向上と行政業務の生産性向上を目的に、生成AIを含むAI技術の活用を全庁横断で“面”展開していく方針を明示した。</p>
+<p>今後は、庁内外のさまざまな領域でAIの導入を本格化させ、都市の持続可能性と競争力の両立を目指すという。</p>
+<h2>人口減少と行政課題の複雑化に対応、戦略の背景</h2>
+<p>東京都は本戦略において、少子高齢化と人口減少による労働力不足、複雑化・多様化する行政課題を今後の都政の大きな制約要因として挙げている。2065年には都の人口が2020年比で約1割減となる推計も示されており、人的資源に依存しない行政の実現が喫緊の課題となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyo_2065_973c3bcde0/tokyo_2065_973c3bcde0.jpg" alt="tokyo 2065.jpg" /></p>
+<p>こうした背景のもと、都は生成AIをはじめとするAI技術を「2050東京戦略」の中核技術と位置づけ、従来の“点”の実証から“面”での全庁展開へと政策の転換を図ると明言した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy2_6c78bee684/tokyoai_strategy2_6c78bee684.jpg" alt="tokyoai strategy2.jpg" /></p>
+<h2>AI利活用に当たっての6つの留意事項とリスク管理</h2>
+<p>東京都AI戦略は、生成AIを含むあらゆるAI技術を導入する際の指針として、次の 6つの留意事項 を示している。</p>
+<ul>
+<li><strong>透明性</strong> ：AIがどのように判断し、結果を導いたかを説明できる状態を確保する。</li>
+<li><strong>公平性</strong> ：アルゴリズムによる差別を防ぎ、すべての都民に公平にサービスを提供する。</li>
+<li><strong>安全性</strong> ：AIの誤作動や想定外の挙動によるリスクを最小化する。</li>
+<li><strong>プライバシー</strong> ：個人情報を適切に取り扱い、法令・ガイドラインを順守する。</li>
+<li><strong>セキュリティ</strong>：サイバー攻撃やデータ侵害からシステムと情報を守る。</li>
+<li><strong>アカウンタビリティ（説明責任）</strong> ：AI導入の責任主体を明確にし、結果に対して説明できる体制を整える。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy3_756cc67377/tokyoai_strategy3_756cc67377.jpg" alt="tokyoai strategy3.jpg" /></p>
+<p>さらに都は、業務ごとのリスクを「青（低リスク）」「黄（中リスク）」「赤（高リスク）」の3段階で評価し、活用範囲と管理レベルを段階的に設定する仕組みを導入する。これにより、利便性と安全性のバランスを取りながら、AIを都政の中核に据えていく方針だという。</p>
+<h2>生成AI基盤を庁内標準に、都政業務を再設計</h2>
+<p>戦略の柱のひとつが、GovTech東京と連携した生成AI共通プラットフォームの整備である。都の規程や業務マニュアルなどを学習させたAIを用い、職員が専門的な質問に即応できるQ&amp;Aシステムや、議事録自動生成、文案作成支援などの用途を想定している。用途に応じた複数の大規模言語モデル（LLM）を選択可能にするなど、柔軟性の高い運用体制も特徴とされる。</p>
+<p>加えて、都は生成AIの利活用について、共通ツールの導入にとどまらず、職員研修や相談窓口の設置などを通じて、リテラシーと業務改革の両面から支援していくとした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy4_60d00ddb21/tokyoai_strategy4_60d00ddb21.jpg" alt="tokyoai strategy4.jpg" /></p>
+<h2>現状分析：庁内活用95％、インフラ関連が最多31％</h2>
+<p>東京都が把握する AI関連事業のうち 95％ は、申請・審査、設備管理など都庁内部での業務改善を目的とした「都政におけるAI利活用」が占める。残る 5％ は、民間企業へのAI導入支援や人材育成などの補助事業に充てられている。</p>
+<p>「都政におけるAI利活用」を政策分野別に見ると、
+インフラ・まちづくり が 31％ で最多。
+以下、その他（税・財務等）17％、産業・雇用15％、子供・教育11％、安全・安心8％、福祉・医療7％、文化・スポーツ6％、共通基盤6％ と続く。</p>
+<p>主体別では、職員主体 63％／都民・事業者主体 37％ となっており、現時点では職員向けツールが依然として中心であることが分かる</p>
+<p><strong>東京都におけるAI関連事業の内訳と政策分野別比率</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy6_b5ca5118d1/tokyoai_strategy6_b5ca5118d1.jpg" alt="tokyoai strategy6.jpg" /></p>
+<p>この偏りを是正する形で、戦略では“都民サービス領域へのAI展開”を明確な重点項目として掲げている。</p>
+<h2>推進体制と今後の展開</h2>
+<p>推進体制としては、デジタルサービス局が全体統括の役割を担い、政策立案・財務支援・技術支援の三位一体で全庁をサポートする。各局には「AI利活用推進責任者」が新設され、CIO補佐官やGovTech東京が伴走型支援を実施する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy5_f77cfbb052/tokyoai_strategy5_f77cfbb052.jpg" alt="tokyoai strategy5.jpg" /></p>
+<p>また、区市町村・国・民間企業との連携体制も強化し、スタートアップとの協働や中小企業支援、教育機関との人材育成プログラムなどを通じて、都全体でAIの社会実装を進める構えである。</p>
+<h2>都はAIネイティブ都市へと進化できるか</h2>
+<p>戦略は、今後のロードマップとして、AIを行政運営の前提に据えた「AIネイティブ都市東京」を将来的なビジョンに据えている。都は今後、戦略に基づいた実装事例やKPIを段階的に公表していく予定であり、他自治体や企業にとっても注視すべき展開となる。</p>
 ]]></description>
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
