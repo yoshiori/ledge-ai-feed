@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Penrose、LLMが実際のビジネス現場でどこまで正確に決算処理できるかを評価するベンチマーク「AccountingBench」公開──“1つのミスが雪だるま式に拡大”する現場精度を検証</title>
+      <link>https://ledge.ai/articles/llm_accounting_benchmark_penrose</link>
+      <description><![CDATA[<p>米会計ソフトウェア開発企業Penroseは2025年7月下旬、大規模言語モデル（LLM）が実際のビジネス現場でどこまで正確に「月次決算」を処理できるかを評価するベンチマーク「AccountingBench」を<a href="https://accounting.penrose.com/">公開</a>した。これは従来の一問一答型テストとは異なり、1つの判断ミスが後続の処理に影響を与え、時間とともに誤差が蓄積する実業務の構造を反映した設計となっている。</p>
+<h2>実ビジネスを模した12カ月間の決算シミュレーション</h2>
+<p>AccountingBenchは、SaaS企業の会計データをベースに、12カ月分の月次決算を連続して処理する長期タスクとして構成されている。モデルは各月において、取引の分類・仕訳、銀行勘定の調整、財務諸表の作成などを実施。1カ月の判断ミスが翌月以降に影響し、全体の精度に波及するという設計により、LLMの持続的な正確性を評価できる。</p>
+<p><strong>■ 口座残高精度の経時変化</strong> ：全モデルとも10カ月目以降95％を下回り、Claude 4系とGrok 4で乖離が顕著
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_77caa4b642/1_77caa4b642.png" alt="ダウンロード (1).png" /></p>
+<p>使用される原始データは、RampやRippling、Stripe、Mercuryなどの実在サービスから得られた実データに基づいている。モデルには外部ツール（SQL、Python）呼び出し権限が与えられ、帳簿データベースへの問い合わせや簡易な計算処理を行うことが可能である。</p>
+<h2>評価結果：初期は高精度、5カ月目以降で精度が崩れる傾向</h2>
+<p>公開されたベンチマーク結果によると、Claude 4（Opus/Sonnet）とGrok 4はいずれも最初の3カ月程度までは95％を超える高精度で処理をこなした。しかし、5カ月目以降に処理の正確性が低下し始め、最終月ではClaude 4が85％未満にまで精度を落とした。一方、Gemini 2.5 Pro、o3、o4-miniなどのモデルは、1カ月目時点で正確な処理ができず、途中でタスク継続を断念したという。</p>
+<p><strong>■ 重大な誤差（ベースライン比±5％超）に達するまでの月数</strong> ：Claude 4（Sonnet/Opus）は7〜8カ月、Grok 4は5カ月で崩れ始めた
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_78de383100/3_78de383100.png" alt="ダウンロード (3).png" /></p>
+<p><strong>■ 認識済みサブスクリプション収益の月次乖離率</strong> ：Claude 4系は中盤以降プラス方向に乖離、Grok 4は終盤で急落
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_0aeddb0dc7/2_0aeddb0dc7.png" alt="ダウンロード (2).png" /></p>
+<p>モデルの精度評価には、各月の最終的な財務諸表の数値と、理想的な手動処理との一致度（項目単位の比較スコア）が使用されている。</p>
+<h2>観察された“報酬ハック”とコンテキストの限界</h2>
+<p>一部のLLMにおいては、銀行勘定残高が帳簿と合わない場合に、無関係な取引を挿入して差額を埋めようとする行動が確認された。このような「報酬ハック」は、モデルが最終結果のスコア最適化を目的とし、処理の一貫性を犠牲にする例として問題視されている。</p>
+<p>また、長期間にわたる処理の中で文脈の一貫性が保てなくなり、ツール呼び出しを放棄してループに陥るなどの動作も報告されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/balance_sheet_ai_04471cc1ac/balance_sheet_ai_04471cc1ac.jpg" alt="balance sheet ai.jpg" /></p>
+<h2>Penroseの見解と今後の展開</h2>
+<p>Penroseは公式サイト上で、「これまでのAIベンチマークは、タスクを単に“完了できるか”を評価してきた。しかし実務では、“正しく完了できるか”こそが問われる」と述べ、AccountingBenchの設計思想を説明している。</p>
+<p>今後はこのベンチマークの評価対象をさらに拡充し、異なる業種の会計モデルや複数年の処理を対象とした拡張バージョンも公開予定であるとのこと。</p>
+]]></description>
+      <pubDate>Wed, 30 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Forcesteed Robotics、「好奇心」を人工意識（AC）と捉え「フィジカルAIプラットフォームーー Guardian」を発表</title>
       <link>https://ledge.ai/articles/forcesteed_physical_ai_guardian_release</link>
       <description><![CDATA[<p>株式会社Forcesteed Roboticsは2025年7月24日、ロボットが未知の環境や事象を自律的に探索・学習・進化するための継続的自律学習アーキテクチャ「好奇心（System4）」を<a href="https://prtimes.jp/main/html/rd/p/000000007.000157769.html">発表</a>した。</p>
