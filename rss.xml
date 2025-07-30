@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ChatGPTが“答えを教えない”家庭教師に──OpenAI、「Study Mode（学習モード）」実装で思考力を鍛える</title>
+      <link>https://ledge.ai/articles/chatgpt_study_mode_thinking_assistant</link>
+      <description><![CDATA[<p>OpenAIは2025年7月29日（米国時間）、対話型AI「ChatGPT」に新機能「Study Mode（学習モード）」を追加したと<a href="https://openai.com/ja-JP/index/chatgpt-study-mode/">発表</a>した。</p>
+<p>この機能は、ユーザーに直接答えを与えるのではなく、ソクラテス式の質問や段階的なヒントを通じて思考プロセスを促進し、深い学びを支援することを目的としている。提供対象はFree／Plus／Pro／Teamの各プランで、ウェブ・iOS・Android・デスクトップ版すべてで即日利用可能。今後数週間以内には、教育機関向けの「ChatGPT Edu」プランでも展開予定としている。</p>
+<h2>ユーザー参加型の学習体験を設計</h2>
+<p>Study Modeは、チャット画面内の「Tools（ツール）」メニューから〈Study and learn〉を選択することで有効化される。機能が有効な状態では、ChatGPTが以下のような挙動をとる。</p>
+<ul>
+<li>ユーザーの目標やスキルレベルを把握し、それに応じた問いかけやヒントを提示</li>
+<li>複雑な情報を段階的に分解して提示する「スキャフォールディング」手法の活用</li>
+<li>会話履歴（メモリ）を活用したパーソナライズ対応</li>
+<li>小テスト形式の問題や、自由記述型の問いかけによる理解度チェック</li>
+<li>ワンタップで機能のオン／オフ切替が可能</li>
+</ul>
+<p>OpenAIによれば、こうした設計は「学習者が自ら考えることに能動的に関わるよう促すこと」を重視しており、教育分野の研究成果をもとに設計されている。</p>
+<h2>教育の専門家と連携して設計</h2>
+<p>Study Modeの開発には、教育学・認知科学の専門家や現場の教師が関与しており、学習の質を高める5つの行動原則が基盤となっている。</p>
+<ul>
+<li>能動的な参加の促進</li>
+<li>認知負荷の最適化</li>
+<li>メタ認知（自分の考え方を客観視する力）の強化</li>
+<li>好奇心を喚起する設問の提示</li>
+<li>建設的なフィードバックの提供</li>
+</ul>
+<p>OpenAIは、これらの原則に基づいた対話を通じて、AIとのインタラクションそのものを学習の一環とすることを狙っている。</p>
+<h2>今後の拡張も視野に</h2>
+<p>同社は今後の機能拡張として、図表やチャートなど視覚的な補助ツールの追加、会話全体を横断するゴール設定機能、進捗のトラッキング機能などを検討中としている。また、現時点ではカスタム指示で実装されている行動設計を、将来的にはモデル自体に統合していく方針も明らかにしている。</p>
+<p>この動きは、教育領域におけるAI活用のトレンドとも一致しており、Anthropic「Claude Tutor」、Google「Gemini Learn」など、各社が生成AIを用いた個別学習支援に注力している。</p>
+<p>OpenAIは今回のアップデートを「第一歩」と位置づけており、将来的には教育機関や研究者との連携を通じて、教育AIの質と信頼性を高めていくとしている。</p>
+]]></description>
+      <pubDate>Wed, 30 Jul 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Penrose、LLMが実際のビジネス現場でどこまで正確に決算処理できるかを評価するベンチマーク「AccountingBench」公開──“1つのミスが雪だるま式に拡大”する現場精度を検証</title>
       <link>https://ledge.ai/articles/llm_accounting_benchmark_penrose</link>
       <description><![CDATA[<p>米会計ソフトウェア開発企業Penroseは2025年7月下旬、大規模言語モデル（LLM）が実際のビジネス現場でどこまで正確に「月次決算」を処理できるかを評価するベンチマーク「AccountingBench」を<a href="https://accounting.penrose.com/">公開</a>した。これは従来の一問一答型テストとは異なり、1つの判断ミスが後続の処理に影響を与え、時間とともに誤差が蓄積する実業務の構造を反映した設計となっている。</p>
@@ -446,19 +478,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>PPIHはこの無人店舗の仕組みを、今後も大学や病院、駅ナカなど、スペースや人手の制約が大きい場所を中心に展開する方針とされており、2025年11月には2号店の開業を予定しているという。</p>
 ]]></description>
       <pubDate>Fri, 25 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、EUのAI行動規範に署名拒否「過度な越権でイノベーション阻害」と主張―—OpenAI・ MistralAIは署名済、Microsoftも署名の動き</title>
-      <link>https://ledge.ai/articles/meta_rejects_eu_ai_code</link>
-      <description><![CDATA[<p>Metaは2025年7月18日、欧州連合（EU）が策定したAI向け自主的行動規範「General-Purpose AI Code of Practice（GPAIコード）」への署名を見送ると明らかにした。発表は同社のJoel Kaplan最高公共政策責任者が<a href="https://www.linkedin.com/posts/joel-kaplan-63905618_europe-is-heading-down-the-wrong-path-on-activity-7351928745668055042-XuF7/">LinkedInに投稿した声明</a>によるもので、EUの規範がAI規制法（AI Act）の権限を超えており、「法的な不確実性を生み、イノベーションを阻害する」との懸念が示された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/joel_kaplan_mete_9d179c1464/joel_kaplan_mete_9d179c1464.jpg" alt="joel kaplan mete.jpg" /></p>
-<p>GPAIコードは、EUが2025年8月2日から施行するAI規制法の円滑な実施を目的に、2025年7月10日に<a href="https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available">欧州委員会が公表</a>したもので、透明性、著作権、モデルの安全性に関する任意の取り組みを盛り込んだ。署名企業は、規制当局との協力が進むことで行政手続きが簡素化されるとされるが、署名を拒んだ企業には、より厳格な説明責任や監視が課される可能性がある。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/eu_gpai_7055c57931/eu_gpai_7055c57931.jpg" alt="eu gpai.jpg" /></p>
-<p>Kaplan氏は声明の中で、「欧州はAI政策において誤った方向へ進んでいる」と述べ、45社の欧州企業がEU当局にGPAIコードの実施延期を求めた共同書簡と同様の懸念を共有するとした。同氏によれば、同社は引き続きAI Actの法的要件には従うが、任意の行動規範については同意できないという立場である。</p>
-<p>一方で、米OpenAIやフランスのMistral AIはすでにGPAIコードへの署名を完了しており、Microsoftも「文書の精査後に署名する見込みが高い」とコメントしていると<a href="https://www.reuters.com/sustainability/boards-policy-regulation/microsoft-likely-sign-eu-ai-code-practice-meta-rebuffs-guidelines-2025-07-18/">ロイター</a>が報じた。対照的にMetaは、AI Actの交渉段階から「過剰な規制はイノベーションの妨げになる」との姿勢を一貫して示していた。</p>
-<p>EUは2025年8月1日に署名企業のリストを公開する予定で、GPAIコードの運用とAI Actの施行により、欧州域内でのAI開発と利用の枠組みが大きく変わる見通しである。Metaの不参加は、同社と欧州規制当局の間での対立の深まりを象徴するものとみられ、今後の執行面での影響が注目される。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
