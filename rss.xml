@@ -5,6 +5,47 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Forcesteed Robotics、「好奇心」を人工意識（AC）と捉え「フィジカルAIプラットフォームーー Guardian」を発表</title>
+      <link>https://ledge.ai/articles/forcesteed_physical_ai_guardian_release</link>
+      <description><![CDATA[<p>株式会社Forcesteed Roboticsは2025年7月24日、ロボットが未知の環境や事象を自律的に探索・学習・進化するための継続的自律学習アーキテクチャ「好奇心（System4）」を<a href="https://prtimes.jp/main/html/rd/p/000000007.000157769.html">発表</a>した。</p>
+<p>この「好奇心」は、同社が開発する人工意識（Artificial Consciousness、以下AC）の中核的機能と位置付けられており、ロボットの“主体的学習”を担う最上位機能である。好奇心を搭載したロボット基盤は、「フィジカルAIプラットフォームーーGuardian（ガーディアン）」として構成され、同社はこれを活用した各種ロボティクス分野での応用を目指している。なお、同プラットフォームは7月29日から京都市で開催される画像認識国際会議「MIRU 2025」にて一般公開される予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=okfUR6gYVZc">YouTube</a></p>
+<h2>背景と目的：未知事象への継続的対応</h2>
+<p>従来の産業用・サービス用ロボットは、設計時に定義された環境や動作範囲に限定されることが多く、非定型的な状況や「ロングテール事象」への柔軟な対応が課題とされていた。Forcesteed Roboticsはこの課題に対し、外部からの命令に依存せず、ロボット自身が「何を知らないかを自覚し、自ら学びに向かう」機構として「好奇心（System4）」を開発した。</p>
+<h2>「好奇心（System4）」の構成と役割</h2>
+<p>「好奇心」は、同社が提唱する人工意識ACの構成層における最上位機能であり、以下の4層構造により実現される：</p>
+<ul>
+<li>System1：視覚や聴覚などの知覚を担う</li>
+<li>System2：短期記憶、運動制御、実行判断を担う</li>
+<li>System3：過去の経験と照合して現在の行動を制御する</li>
+<li>System4（好奇心）：未知情報を検出し、自律的に学習計画を立案・実行する</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_e574f17a44/sub4_e574f17a44.png" alt="sub4.png" /></p>
+<p>この中でもSystem4は、過去に経験のない物事や、新規性の高い事象を自動的に検出し、それを学習対象として再優先化する。これにより、ロボットが単に記録的に環境を観察するだけでなく、環境に対する“探究行動”を継続的に行うことが可能となる。</p>
+<h2>実装技術と特徴</h2>
+<p>「好奇心（System4）」は以下のような技術的特徴を有するという：</p>
+<ul>
+<li>内発的動機による自律的探索学習</li>
+<li>ロングテール事象の自動記録・再学習サイクル</li>
+<li>重要体験の選別と記憶の最適化（忘却防止）</li>
+<li>視覚・言語・運動の統合AIモデルとの接続による自然言語対応</li>
+</ul>
+<p>これにより、人間のような対話や行動の即時反応だけでなく、長期的な知識の蓄積・修正・適用までを一貫してロボット内部で完結させる構造となっている。</p>
+<h2>想定される応用領域</h2>
+<p>同社は「Guardian」および「好奇心」機構を以下のようなユースケースに適用可能としている：</p>
+<ul>
+<li>商業施設や病院などでの自律巡回および案内対応</li>
+<li>高齢者施設での見守りや声掛けなどのケア支援</li>
+<li>製造・物流・インフラ領域での異常検知と対応</li>
+<li>学校・観光地などでの対話型インタフェースとしての活用</li>
+</ul>
+<h2>今後の展開</h2>
+<p>同社は今後、「Guardian」を基盤とした社会実装に向けて、企業・研究機関との共同研究や実証実験のパートナーを広く募集するとしている。また、人工意識ACの開発についても、継続的なアップデートと応用範囲の拡張を図る方針だ</p>
+<p>「Guardian」プラットフォームは、7月29日から8月1日まで京都市の国立京都国際会館で開催される画像認識シンポジウム「MIRU 2025」で初公開される。会場では、4脚犬型ロボットに「Guardian」を搭載し、巡回や対話を含む自律行動のデモンストレーションが予定されている。</p>
+]]></description>
+      <pubDate>Wed, 30 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、ノーコードAIアプリ作成ツール「Opal」を米国でベータ公開──自然言語とビジュアル操作で開発から共有までを一貫支援</title>
       <link>https://ledge.ai/articles/google_opal_no_code_ai_tool</link>
       <description><![CDATA[<p>Googleは2025年7月24日（現地時間）、同社の実験的プロジェクトプラットフォーム「Google Labs」において、ノーコードでAIアプリケーションを開発・共有できる新ツール「Opal（オパール）」を<a href="https://developers.googleblog.com/en/introducing-opal/">発表</a>した。</p>
@@ -668,30 +709,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>今後の展望としては、大規模言語モデル（LLM）をテーマにした新講座を2025年8月より募集開始予定とされている。また、ASEANやアフリカ諸国への展開も本格化しており、グローバルな教育体制の整備が進んでいる。さらに、GCI講座は2025年10月から東京大学の正規科目として単位認定される予定であり、同講座のアカデミックな価値も高まりつつある。</p>
 ]]></description>
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini Deep Think、国際数学オリンピックで AI 初の“金メダル基準”──Google が 35 点達成を正式発表、OpenAIも同点を主張</title>
-      <link>https://ledge.ai/articles/gemini_deep_think_math_olympiad_gold</link>
-      <description><![CDATA[<p>Google DeepMindは2025年7月22日、公式ブログで、強化版「Gemini Deep Think」が2025年国際数学オリンピック（IMO、会場：オーストラリア・サンシャインコースト）本選問題を自然言語のまま解き、35点（6題中5題満点）を獲得、金メダル相当の成績を公式認定されたと<a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gmini_achieves_goldmedal_0dcc17050a/gmini_achieves_goldmedal_0dcc17050a.jpg" alt="gmini achieves goldmedal.jpg" /></p>
-<p>AIが自然言語で解答し、人間と同条件の制約下で金メダル基準を超えたのは初となる。一方、OpenAIも数日前に同スコアを達成したと主張しており、AI2社による“数学五輪競演”が注目されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0.jpg" alt="GwZPtRWWUAMm4F_.jpg" /></p>
-<h2>Gemini Deep Thinkが公式認定で金メダル水準に到達</h2>
-<p>DeepMindの発表によれば、Gemini Deep Thinkは本選で出題された6問のうち5問に完全正答し、計35点を獲得した。これは過去のIMO成績基準において、参加者上位約8％に与えられる金メダル相当に該当する。採点は国際数学オリンピック（IMO）の現職採点委員によって行われ、IMO会長Gregor Dolinar教授は「明晰で正確な証明が提出された」とコメントしている。</p>
-<p>Deep Thinkは、GoogleのGemini 2.5モデルに数学的推論を強化するモードを加えた研究版で、今回の問題をすべて自然言語で読み取り、形式変換を行うことなく自然言語で<a href="https://storage.googleapis.com/deepmind-media/gemini/IMO_2025.pdf">解答</a>を生成した。試験は人間参加者と同様、1日目・2日目各4.5時間の時間制限下で行われた。</p>
-<h2>“自然言語のみ”で4.5時間以内に証明完了</h2>
-<p>今回の挑戦では、従来のように定理証明システム（例：Lean）を使うのではなく、問題文・解答ともに自然言語ベースで処理された点が大きな特徴である。DeepMindによれば、Gemini Deep Thinkは「Parallel Thinking」と呼ばれる内部アーキテクチャにより、複数の仮説を同時並列で検討・評価することで、人間の数学者に近い証明戦略を実現している。</p>
-<p>また、強化学習を通じて事前に学習された定理証明の手法やヒントが、プロンプトに組み込まれていたことも明かされた。使用された問題および解答はGitHub上で公開されており、数学界の透明性と再現性の担保にも配慮がなされている。</p>
-<h2>OpenAIも同点達成を主張、しかし公式認定は未取得</h2>
-<p>一方、Googleに先行するかたちでOpenAIの動きも注目された。7月19日（米国時間）、同社CEOのSam Altman氏がX（旧Twitter）上で「一般用途のLLMが数学オリンピックで金メダル水準を達成した」と投稿。続いて研究者のAlexander Wei氏がスレッドを公開し、OpenAIの研究用モデルがGeminiと同様に35点（6問中5問満点）を取得したと説明した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_7915629351/openai_gold_medal_performance_7915629351.jpg" alt="openai gold medal performance.jpg" /></p>
-<p>Wei氏によれば、試験は2日間・各4.5時間の条件下で、外部ツールやインターネット接続なしで行われたという。ただし、採点はOpenAIが独自に招いた過去のIMOメダリストによるものであり、IMO公式委員会による証明の正当性確認は完了していない。Altman氏はこのモデルについて「研究用プロトタイプであり、将来的にGPT-5へ知見を統合する」と述べている。</p>
-<p>この点について、Google DeepMindのCEOであるDemis Hassabis氏はX上で「我々はIMO側の依頼に従い、公式採点が終了するまで発表を控えた」と投稿しており、発表タイミングや認定手続きをめぐって両社の立場に温度差が見られる。</p>
-<h2>数学研究と産業応用に向けた展開も視野</h2>
-<p>Gemini Deep Thinkは、現時点では研究者向けの限定公開にとどまっているが、今後は数学者コミュニティへの段階的な提供が計画されている。また、DeepMindは別途開発中の証明検証モデル「AlphaProof」などと組み合わせ、より信頼性の高い複合型AIの開発も視野に入れているという。</p>
-<p>高度な数学的推論が可能なAIは、物理や工学分野での定理証明、システム設計の自動化、経済モデリングなど、さまざまな分野への波及が期待される。DeepMindはこれらの応用に向けたツール群を今後「Google AI Ultra」契約者に向けて展開する方針を示している。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/23 [WED]OracleとOpenAI、「スターゲート計画」遅延の声のなか、米データセンターの4.5GW拡張を発表──総開発規模10GW中、折り返しの5GW超へ</title>
