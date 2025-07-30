@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、ノーコードAIアプリ作成ツール「Opal」を米国でベータ公開──自然言語とビジュアル操作で開発から共有までを一貫支援</title>
+      <link>https://ledge.ai/articles/google_opal_no_code_ai_tool</link>
+      <description><![CDATA[<p>Googleは2025年7月24日（現地時間）、同社の実験的プロジェクトプラットフォーム「Google Labs」において、ノーコードでAIアプリケーションを開発・共有できる新ツール「Opal（オパール）」を<a href="https://developers.googleblog.com/en/introducing-opal/">発表</a>した。</p>
+<p>米国在住のGoogleアカウントユーザーに限定してパブリックベータが公開されており、ユーザーは専用サイト（opal.withgoogle.com）からアクセスできる。このツールは、自然言語の指示と視覚的なワークフローエディタを組み合わせることで、AIアプリケーションの迅速な試作や共有を可能にするという。</p>
+<h2>AI活用の民主化を目指した開発背景</h2>
+<p>Opalは、プロンプトやGeminiモデルの呼び出し、Googleツールの連携といった機能を組み合わせて、ワークフローをノーコードで構築できる。Googleはこのツールの目的を「AIアイデアを迅速に形にするプロトタイピング手段」と位置づけており、社内業務の自動化、生産性向上ツールの簡易開発、PoC（概念実証）用途などでの活用を想定しているとのこと。</p>
+<p>ツールはGoogle Labsの一環として提供されており、今後の機能強化や仕様変更についてはユーザーからのフィードバックを重視しながら進められる予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=E0hrcDO3Noc&amp;t=1s">YouTube</a></p>
+<h2>操作は3ステップで完結</h2>
+<p>Opalでのアプリ開発は以下の3ステップで行われる：</p>
+<ul>
+<li><strong>Create workflows</strong> ：プロンプト生成やAIモデル、Google Workspaceなどのツールをノードとして視覚的に接続し、ワークフローを作成する</li>
+<li><strong>Make edits</strong>  ：各ステップは自然言語もしくはGUIで容易に編集可能で、ユーザーは試行錯誤を繰り返しながら即時に調整ができる</li>
+<li><strong>Share your app</strong> ：完成したミニアプリはURL形式で共有でき、他ユーザーがそのまま実行・再利用・改変できる仕組みが導入されている</li>
+</ul>
+<p>加えて、公式サイトにはテンプレートや他ユーザーの作例を集めたギャラリーが設置されており、これらを「リミックス」することで新たなアプリを容易に作成できるようになっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Just_Gallery_original_dfd0bb4d02/Just_Gallery_original_dfd0bb4d02.jpg" alt="Just_Gallery.original.jpg" /></p>
+<h2>今後の展望</h2>
+<p>同社によると、以下の機能拡張が予定されている。</p>
+<ul>
+<li>ギャラリー上のテンプレートの拡充</li>
+<li>Gemini APIやGoogle Workspaceアプリとの連携機能の強化</li>
+<li>米国外への展開に向けた段階的公開</li>
+</ul>
+<p>これらの取り組みを通じて、Googleは企業や開発者だけでなく、一般ユーザーにもAIツールの開発環境を開放することを目指しているという。</p>
+]]></description>
+      <pubDate>Tue, 29 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、Copilotに“顔”を付ける──実験機能「Copilot Appearance」米・英・カナダで早期プレビューを開始</title>
       <link>https://ledge.ai/articles/copilot_appearance_experimental_preview</link>
       <description><![CDATA[<p>Microsoftは2025年7月27日、AIアシスタント「Microsoft Copilot」に視覚的な存在感を付与する新機能「Copilot Appearance」の早期プレビュー提供を開始したことを<a href="https://copilot.microsoft.com/labs/experiments/copilot-appearance">発表</a>した。</p>
