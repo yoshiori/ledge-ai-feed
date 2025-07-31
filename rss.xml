@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、NotebookLMにAI要約動画生成「Video Overviews」追加　学習＆リサーチを映像でサポート</title>
+      <link>https://ledge.ai/articles/notebooklm_video_overviews_update</link>
+      <description><![CDATA[<p>Googleは2025年7月29日、AIリサーチ支援ツール「NotebookLM」に、新機能「Video Overviews」を追加したと<a href="https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades/">発表</a>した。</p>
+<p>この機能は、ユーザーがアップロードした資料をもとに、AIがナレーション付きのスライド形式で動画を自動生成する。あわせて、音声要約機能「Audio Overviews」のデザインが刷新され、生成物を一元管理できる「Studio」パネルもアップデートされた。これらの強化により、NotebookLMは、文章・音声・動画を横断した情報整理と共有を可能とするマルチモーダル・ナレッジツールへ進化したと同社はいう。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KA_pExdDSUo">YouTube</a></p>
+<h2>資料をスライド動画に──Video Overviewsが可能にする情報可視化</h2>
+<p>新たに搭載された「Video Overviews」は、複数のドキュメントをAIが読み込み、要点を抽出・整理して、図表や引用、画像、数値などを盛り込んだスライド形式の動画を自動生成する機能。生成された動画にはナレーションが付与されており、視聴者は耳と目の両方から情報を受け取れる。再生コントロールも備えられており、10秒スキップや再生速度の変更が可能となっている。</p>
+<p>この機能は、学術研究やプロジェクト説明などの分野での活用を想定しており、まずは英語ユーザーを対象に数週間以内に順次公開される予定。今後、他言語対応の展開も計画されているという。</p>
+<h2>Audio Overviewsも刷新、視認性と操作性を向上</h2>
+<p>既存の音声要約機能「Audio Overviews」も今回のアップデートでデザインが刷新された。新たなレイアウトは、Video Overviewsとの統一感を意識して設計されており、再生中のセクションが視覚的に把握しやすくなっている。加えて、再生やスキップなどの操作もスムーズに行えるようUIが改善されており、より実用的な音声コンテンツ生成ツールへと進化した。</p>
+<h2>Studioパネルが進化、生成物を一元管理可能に</h2>
+<p>NotebookLMの「Studio」パネルもアップデートされ、Audio、Video、Mind Map、Reportといった複数形式の生成物を一つの画面で管理できるようになった。ユーザーは任意のノート内で、クリック操作一つで各種出力物を作成でき、それらを保存・再編集することも可能。これにより、資料作成から要約、共有までの一連のワークフローを効率的に進められるようになった。</p>
+<p>NotebookLMは、2024年9月に音声要約機能Audio Overviewsを導入し、2025年6月には成果物の公開機能であるPublic Notebooksを提供開始していた。今回のアップデートにより、「読む・聴く・見る」の三位一体によるナレッジ活用が可能となった。</p>
+<p>現在、NotebookLMは英語圏を中心に展開されているが、Googleは今後もユーザーのフィードバックをもとに多言語対応を進めるとしている。</p>
+]]></description>
+      <pubDate>Wed, 30 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChatGPTが“答えを教えない”家庭教師に──OpenAI、「Study Mode（学習モード）」実装で思考力を鍛える</title>
       <link>https://ledge.ai/articles/chatgpt_study_mode_thinking_assistant</link>
       <description><![CDATA[<p>OpenAIは2025年7月29日（米国時間）、対話型AI「ChatGPT」に新機能「Study Mode（学習モード）」を追加したと<a href="https://openai.com/ja-JP/index/chatgpt-study-mode/">発表</a>した。</p>
@@ -422,18 +440,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>一方で、現時点ではテキストベースの可視化にとどまっており、グラフィカルなUIは未実装である。また、LLMの特性によりエージェントの行動が再現性に乏しい場合があることが課題とされている。</p>
 ]]></description>
       <pubDate>Fri, 25 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ドン・キホーテ初の無人店舗「キャンパスドンキ」誕生──AI＆重量センサーで“レジなし”購買体験、大阪電気通信大に7月1日開店</title>
-      <link>https://ledge.ai/articles/donki_unmanned_store_osaka_university_launch</link>
-      <description><![CDATA[<p>大手ディスカウント店「ドン・キホーテ」を展開するパン・パシフィック・インターナショナルホールディングス（以下、PPIH）は2025年7月1日、大阪電気通信大学キャンパス内に、無人小型店舗「キャンパスドンキ大阪電通大店」を開業したと<a href="https://www.osakac.ac.jp/news/2025/3575">発表</a>した。</p>
-<p>この店舗は、NTTデータが提供するウォークスルー決済システム「Catch&amp;Go（キャッチアンドゴー）」を活用し、AIカメラと重量センサーによって商品を検知、購入者がレジに立ち寄ることなく商品を持ち出せるという。</p>
-<p>来店者は、LINEミニアプリ「キャンパスドンキ」から事前登録を行い、生成されたQRコードで入店する。店舗内では、設置されたAIカメラが人物の動きと商品棚の変化を検知し、商品が手に取られたことを判断。天井や棚に取り付けられた複数のセンサーと連携し、誰が何を購入したかをリアルタイムで解析する。商品を選び終わった来店者は、そのまま退店するだけでよく、登録された決済手段に基づいて自動的に支払いが完了し、購入明細がLINE上に通知される仕組みとなっている。</p>
-<p>店内には約450アイテムの商品が並ぶ。PPIHのプライベートブランド「情熱価格」や食品シリーズ「偏愛めし」を中心に、カップ麺や菓子、飲料といった食品類に加え、文房具や生活用品までがラインナップされている。販売方法の特性上、決済手段はクレジットカードおよびPayPayに限定されており、現金は取り扱わない。これによりレジを一切設置せず、狭小スペースでも運営が可能となった。</p>
-<p>この店舗は、PPIHがNTTデータおよび中国・Cloudpick社と連携して構築した。NTTデータは無人決済の基盤システムを提供し、CloudpickがAIカメラやIoTデバイスによる購買認識技術を支援している。大阪電気通信大学は、実証フィールドとして学生の日常生活へのサービス拡充に協力しており、将来的には同大学との共同イベントや学内限定キャンペーンも予定している。</p>
-<p>PPIHはこの無人店舗の仕組みを、今後も大学や病院、駅ナカなど、スペースや人手の制約が大きい場所を中心に展開する方針とされており、2025年11月には2号店の開業を予定しているという。</p>
-]]></description>
-      <pubDate>Fri, 25 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
