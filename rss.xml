@@ -5,6 +5,40 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>アリババがQwen3のフラッグシップモデル刷新──推論性能重視の「Thinking‑2507」、2350億パラメーターで登場</title>
+      <link>https://ledge.ai/articles/qwen3_flagship_thinking_model_235b</link>
+      <description><![CDATA[<p>2025年7月25日、Alibaba Cloudが開発する大規模言語モデル（LLM）ファミリー「Qwen3」に新モデル「<a href="https://x.com/Alibaba_Qwen/status/1948688466386280706">Qwen3‑235B‑A22B‑Thinking‑2507</a>」が追加された。モデルはオープンソースとしてHugging FaceおよびAlibaba CloudのAPI経由で提供されており、ライセンスは商用利用可能なApache 2.0。同モデルは総パラメーター2350億規模のMixture-of-Experts（MoE）アーキテクチャを採用しつつ、推論時に活性化されるパラメーターを220億に抑えることで、軽量な推論を実現している。</p>
+<h2>Qwen3シリーズ初の「Thinking」特化モデル</h2>
+<p>今回公開された「Qwen3‑235B‑A22B‑Thinking‑2507」は、既存のInstruction系モデルとは異なり、“思考プロセスの分離”に重点を置いた「Thinking」系統に属する。特定のトークン（\u003C|think|\u003E）を用いて思考パートを制御する設計となっており、推論時の透明性や精度向上を目的としている。</p>
+<p>モデル名に含まれる「A22B」は、128個の専門モジュール（エキスパート）のうち8個を選択してアクティブ化するMoE構成に由来し、最大2350億のパラメーターを持ちながらも、実際の推論では22億のパラメーターのみが使用される。このアプローチにより、ハードウェア負荷を抑えたまま高精度な出力が可能となる。</p>
+<h2>主要スペックと技術仕様</h2>
+<p>「Qwen3‑235B‑A22B‑Thinking‑2507」の主な仕様は以下の通り。</p>
+<ul>
+<li>総パラメーター数：2350億</li>
+<li>アクティブパラメーター数：22億（128エキスパート中8選択）</li>
+<li>レイヤー数：94</li>
+<li>Attention構成：GQA（Grouped-Query Attention）64ヘッド + 4ヘッド</li>
+<li>最大コンテキスト長：262,144トークン（約256K）</li>
+<li>トレーニングデータ：中英多言語、コード、大規模合成データなど（詳細非開示）</li>
+</ul>
+<p>また、量子化や推論最適化に対応するためのバリエーションは今後順次追加される予定である。</p>
+<h2>ベンチマーク性能</h2>
+<p>モデルカードに記載された代表的なベンチマークスコアは以下の通り。いずれもオープンソースで公開されているモデルとしては上位の水準に位置づけられている。</p>
+<ul>
+<li>AIME25：92.3</li>
+<li>LiveCodeBench v6：74.1</li>
+<li>MATH（5-shot）：60.0</li>
+<li>GSM8K（5-shot）：91.2</li>
+<li>HumanEval（0-shot）：90.2</li>
+</ul>
+<p>これらは数学的推論、コード生成、常識判断といった多様な分野での性能を示しており、思考重視モデルとしての有効性を示唆するものとなっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gwsh_Khhag_AA_7pbb_c68bfc67e1/Gwsh_Khhag_AA_7pbb_c68bfc67e1.jpg" alt="GwshKhhagAA7pbb.jpg" /></p>
+<p>Qwen3シリーズは2024年後半から順次公開が進んでおり、7B、14B、72B、110Bなどのサイズに加え、7月上旬には同じ235B構成の「Qwen3‑235B‑A22B‑Instruct‑2507」も公開されていた。今回の「Thinking」モデルはこれに続くものであり、推論特化型モデルとして新たな用途への適応を想定している。</p>
+<p>Alibaba CloudのQwenチームは、今後さらに“Coder”系統や複数モード対応型のMoEモデルを拡充する予定だという。</p>
+]]></description>
+      <pubDate>Thu, 31 Jul 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、NotebookLMにAI要約動画生成「Video Overviews」追加　学習＆リサーチを映像でサポート</title>
       <link>https://ledge.ai/articles/notebooklm_video_overviews_update</link>
       <description><![CDATA[<p>Googleは2025年7月29日、AIリサーチ支援ツール「NotebookLM」に、新機能「Video Overviews」を追加したと<a href="https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades/">発表</a>した。</p>
@@ -417,29 +451,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>Mistral AI は今回の結果をフランスの環境影響データベース「Base Empreinte」に登録する予定であり、今後も定期的な更新を行うとしている。</p>
 ]]></description>
       <pubDate>Fri, 25 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントが動かす“リアルな職場”──物理作業と人間関係を一体シミュレートする新環境「INDOORWORLD」公開</title>
-      <link>https://ledge.ai/articles/ai_agents_office_simulation_indoorworld</link>
-      <description><![CDATA[<p>モントリオール大学とAutodesk Researchの研究チームは2025年6月14日、オフィス内での物理タスク（机の移動や機器修理など）と社会的インタラクション（依頼・相談・雑談など）を同時に再現できるLLMエージェント環境「INDOORWORLD」を<a href="https://arxiv.org/abs/2506.12331v1">発表</a>した。</p>
-<p>複数の役割を与えられたエージェントが自律的に協働した結果、重い備品を運べないIT管理者が清掃員に手助けを頼む、会議室のパスワードを知らない社員が受付に確認する——といった“職場の日常”さながらの行動が観察されたという。</p>
-<h2>物理と社会の融合──従来環境の限界を超えて</h2>
-<p>従来のAIエージェント環境は、物理操作に特化するものと、社会的対話に特化するものに分かれていた。INDOORWORLDはこの分断を解消し、異なる役割と能力を持つエージェントが一つの空間で物理作業と社会的行動を統合的に行うマルチエージェント環境を構築した。</p>
-<p>同環境には4つの職種（IT管理者、受付、清掃員など）と38種類のアクションが実装されており、各エージェントには空腹・喉の渇き・社交欲などの内部欲求が数値化されている。これにより、給水や雑談といった行動が自律的に発生する仕組みとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/indoorworld_v2_1cc0b72d14/indoorworld_v2_1cc0b72d14.jpg" alt="indoorworld_v2.jpg" /></p>
-<h2>実験で観察された職場さながらの行動</h2>
-<p>研究チームは、社内イベントの準備というシナリオでエージェントの行動を観察した。その中では以下のような、現実の職場に見られるような事例が確認されている。</p>
-<p>IT管理者が重いポディウム（演壇）を運べず、清掃員に運搬を依頼した。
-会議室予約のためのパスワードを知らない社員が、受付に確認して問題を解決した。</p>
-<p>また、複数のエージェントが同時に水を求めて給湯スペースに殺到したり、一部のエージェントが自身のデスクを離れて長時間パントリーで会話を続けるといった“給湯室滞在”の行動も再現された。これは実際のオフィスにおいてもしばしば見られる現象であり、レイアウトやリソース配置が行動や業務効率に影響を与えることを示している。</p>
-<h2>オフィス設計への応用可能性</h2>
-<p>INDOORWORLDは、人間のニーズや行動パターンを可視化し、建築設計やレイアウト計画に活用できる可能性があると評価されている。建築家20名を対象にした調査では、「現実性」「設計にとっての重要性」など複数の観点で55〜95%の肯定的評価を得た。</p>
-<p>具体的には、家具の配置によって会話の発生頻度が変化したり、飲料ディスペンサーの配置を最適化することでリソース待機時間が短縮されるなど、設計判断に資する定量的フィードバックが得られる点が注目された。</p>
-<h2>今後の展開と課題</h2>
-<p>研究チームは、論文採択後にコードの一般公開を予定しており、3Dビジュアライズ対応や新たな職種・タスクの追加といった拡張も検討している。</p>
-<p>一方で、現時点ではテキストベースの可視化にとどまっており、グラフィカルなUIは未実装である。また、LLMの特性によりエージェントの行動が再現性に乏しい場合があることが課題とされている。</p>
-]]></description>
-      <pubDate>Fri, 25 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
