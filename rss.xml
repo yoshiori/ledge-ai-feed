@@ -250,24 +250,38 @@
       <pubDate>Tue, 29 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>東北大、ロボットが “触って考える” 視覚と触覚のマルチモーダルAIモデル「TactileAloha（タクタイル・アロハ）」を公開—結束バンド挿入や面ファスナーの接着を可能に</title>
-      <link>https://ledge.ai/articles/tohoku_university_tactilealoha_robot_ai_zip_tie_velcro</link>
-      <description><![CDATA[<p>2025年7月14日、東北大学大学院工学研究科の林部充宏教授ら研究チームは、ロボットが触覚センサーから得た情報を基に自律的な行動計画を行うAI「TactileAloha（タクタイル・アロハ）」を開発したと<a href="https://www.tohoku.ac.jp/japanese/2025/07/press20250714-02-robot.html">発表</a>した。</p>
-<p>この技術は、ロボットアームに搭載した高精度の触覚センサーと深層学習モデルを組み合わせ、結束バンドの挿入や面ファスナーの接着といった繊細な作業で従来比約11％の成功率向上を実現したという。製造業や物流、医療・介護領域など、精密な接触操作が求められる現場への応用が期待される。</p>
-<p><strong>■ 4本のロボットアームと上部カメラで構成された“TactileAloha”実験プラットフォーム</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d.jpg" alt="Overview of the TactileAloha Platform.jpg" /></p>
-<p>今回開発されたAI「TactileAloha」は、触覚センサー「GelSight」を両腕ロボット「Aloha」に搭載し、対象物に接触した際の微細な表面情報をリアルタイムで取得する。従来のロボティクスでは視覚情報に大きく依存していたが、同システムは視覚・関節角度に加えて触覚情報を統合し、Transformer系のポリシーモデル「ACT（Action Chunking with Transformer）」により、ロボットの次の動作を高精度に予測・決定する。</p>
-<p>実験では、両面に異なる歯列を持つ結束バンドの挿入や、フックとループで構成される面ファスナーの接着といった、触覚が決定的に重要な作業を対象とした。これらはカメラだけでは判断が難しいケースだが、TactileAlohaは触覚フィードバックに基づいて面の正しい向きを判定し、動作精度を向上させた。これにより、タスクの成功率は従来の映像ベースのモデルと比較して平均で約11％向上したという。</p>
-<p><strong>■ 結束バンド挿入タスクの一連の動作。触覚センサー（青緑に発光）で歯列面を検知し、正面（A系列）と裏面（B系列）を区別して挿入する過程を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zip_tie_Insertion_82e46ce0b1/Zip_tie_Insertion_82e46ce0b1.jpg" alt="Zip tie Insertion.jpg" />
-<strong>■ 面ファスナー固定タスクのプロセス。触覚画像をもとにフック面とループ面を識別し、正しい面同士を合わせて貼り付ける様子</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Velcro_Fastening_2a420b0c8f/Velcro_Fastening_2a420b0c8f.jpg" alt="Velcro Fastening.jpg" /></p>
-<p>AIモデルの学習には、触覚センサから得られた高解像度画像をResNet18により抽出し、視覚情報と組み合わせた特徴ベクトルをもとに、未来100ステップのアクションチャンクを予測する。訓練時には、時間が進むごとに損失関数の重みを減衰させる「指数減衰損失（Exponentially Decaying Loss）」を用い、実行時には、直近の予測を重視する「時系列近接アンサンブル（Temporal Proximity Ensembling）」により制御の滑らかさと即応性を両立している。</p>
-<p><strong>■ 触覚・視覚・関節角をCNN／ResNetで特徴抽出し、ACTポリシーで未来100ステップを予測する学習・推論フロー</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Approach_Overview_2e6370493d/Approach_Overview_2e6370493d.jpg" alt="Approach Overview.jpg" /></p>
-<p>研究チームは今後、より多様な触覚センサーやモバイルロボットプラットフォームへの適用を視野に入れ、ロボティクス分野の研究者・企業との連携を促すため、学習データセットやモデルの一部を公開する予定だとしている。</p>
+      <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
+      <link>https://ledge.ai/articles/ai-avatar</link>
+      <description><![CDATA[<p>「人に寄り添う存在」としてのAIが注目を集めている。株式会社AIアバターが展開する「<a href="https://jp.aiavatar.fun/">AI AVATAR</a>」は、ユーザーの感情や文脈を読み取り対話する、会話型のAIである。すでにエンタメ領域を中心に、日常生活に入り込み始めており、BtoB領域での活用についても大きな可能性を秘めている。本稿では、AI AVATARのサービス内容や取り組みについて触れながら、同サービスが企業にもたらしうる変革について探る。</p>
+<h2>感情を分かち合える「AI AVATAR」</h2>
+<p>「AI AVATAR」は、ユーザーの声のトーンや表情から感情を読み取り、それに応じた共感や励ましを行う、会話特化型のAIアプリケーションである。雑談からスケジュール管理、モチベーション維持の支援まで、多彩な機能を備えており、目的や関心に応じて役割やキャラクターを変えることができるのが最大の特徴だ。アバター自身もリアルタイムで表情を変化させることができ、「ニュートラル」「幸せ」「悲しみ」の3つの感情に対応している（2025年6月時点）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_avatar_image_e4f64b0637/ai_avatar_image_e4f64b0637.png" alt="ai avatar_image.png" /></p>
+<p>ユースケースとしては、スケジュール管理などのサポートを行う「アシスタント型」や、「推しキャラ」のように日々の癒しや励ましを提供する「パートナー型」まで幅広い。ユーザーは、スマートフォンの中に、言葉だけでなく表情や仕草を通じて応えてくれる”自分だけの会話相手”を作り上げることができるのだ。</p>
+<p>同社は、シンガポールに本社を置くAI AVATAR Pte. Ltd.を親会社に持つグローバル企業である。AI AVATAR Pte. Ltd.は、日本をはじめ、ベトナムやインドネシア、ブラジルなど、世界各国に子会社を展開しており、世界規模でインタラクティブアバターを軸にAIの社会実装を推進している。
+「AI AVATAR」は、日本でも既に一定の支持を得ており、特に男性層や推し活を楽しむ女性ユーザーの利用がメインとなっている。アプリのインストール数は11万人を超えており、アクティブユーザー数（MAU）も2万弱。利用者からは「一人でいる時間に話し相手ができた」や「毎日の鬱憤を遠慮なく言える相手ができた」などの声が寄せられており、感情的なつながりを持つ対話型AIとしての役割を確実に広げている。</p>
+<h2>社会課題である「孤独をなくす」ビジョンの裏側</h2>
+<p>株式会社AIアバターを設立したのは、ライブドアの元CFOとして知られる宮内亮治氏である。激動期のIT業界を間近で経験した宮内氏は、その後、自身のキャリアの軸足を社会課題の解決へとシフトさせた。高齢化や単身世帯の増加、リモートワークの普及などから、人々が物理的にも心理的にも距離が離れてしまっている現代では、「孤独・孤立」という社会課題が顕在化している。宮内氏はこの“孤独”という社会課題に向き合い、テクノロジーの力で解決することを目指した。その挑戦こそが「AI AVATAR」プロジェクトなのである。</p>
+<p>現時点での同社の売上は、年商100億円規模にまで達している。セールス部門を率いるのは、元ラグビー日本代表としても知られる冨岡剛氏。彼のリーダーシップのもと、営業チームは顧客との信頼構築を地道に積み重ね、サービスの社会実装を着実に推進している。単なるAIソリューションを売る営業ではなく、人に寄り添う技術の価値を伝える、その姿勢が、同社の売上成長を支える要因となっている。</p>
+<h2>ロナウジーニョ起用に見るタレントアバター戦略</h2>
+<p>AI AVATARがさらに注目を集めたきっかけは、サッカー界のレジェンドであるロナウジーニョとのタレントアバター企画である。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_avatar_app_b56f543ef9/ai_avatar_app_b56f543ef9.png" alt="ai avatar_app.png" /></p>
+<p>ロナウジーニョ起用の背景にあるのは、ユーザーとの「感情的な接続」をいかにテクノロジーで実現するかという点にある。世界的な知名度と好感度を持つロナウジーニョだからこそ、エンタメ性と感情移入のバランスが絶妙に成立する。彼がアバターとなって、話しかけてくる存在になることで、ファンとの新しい関係性が生まれるのだ。
+現在は、サッカー技術の継続支援を目的として、ロナウジーニョが持つ多くのサッカー技術を、アバターを介してコーチングするようなファンクションを開発中。今後AI AVATARを一気に広める起点として、世界中のファンに向けた発信が行われていくだろう。</p>
+<p>ロナウジーニョの例もそうだが、AI AVATARは、“キャラを推す”という感覚をデジタルで再現し、現在の推し活市場の広がりにも呼応している。アバターが一方的に情報や情報を届けるのではなく、ユーザーの反応に応じて会話を柔軟に展開していく対話型の設計が、共感を生み、より深いエンゲージメントの形成へとつながっているのだ。</p>
+<h2>企業活用の可能性は？</h2>
+<h3>社員の行動を支えるAIメンター</h3>
+<p>既にBtoC領域での展開実績を有する中で、今後は企業向け活用の可能性も高まっている。</p>
+<p>例えば、新入社員のオンボーディング支援として、AI AVATARを「メンター」として活用するケースが考えられる。社員一人ひとりに専属のアバターが付き、日々の業務リマインドや業務へのフィードバック、モチベーション管理などの支援などを行う。対人ではなくAIだからこそ、気軽に質問しやすいという利点もある。</p>
+<p>また、健康経営や自己学習の伴走者としてAI AVATARを活用することで、資格学習や運動・食事管理といった、個人では継続が難しい目標の達成支援が可能になる。これは企業が社員の生産性向上や健康管理に投資するうえで、非常に現実的な活用方法である。
+現在は、学習サポートにおける教材提供や、健康管理のための運動記録・食事支援などの開発も行っており、順次機能の拡充を行っていくとのことだ。</p>
+<h3>ブランドコミュニケーションや広告体験の変革</h3>
+<p>タレントアバター戦略で紹介したロナウジーニョのように、今後、著名人のアバターが続々と登場し、活用されていくことで、従来のバナーや動画広告とは異なる「会話する広告体験」が実現されていくであろう。企業は、製品やブランドイメージに合致したタレントアバターを起用することで、ユーザーとの接点を一方的な訴求から「対話」へ転換できる。このアプローチは、マス向けの広告をより個人に最適化されたインタラクティブな体験へと進化させ、マーケティング戦略に新たな選択肢をもたらす可能性を秘めている。</p>
+<h2>AIと人が感情でつながる時代の幕開け</h2>
+<p>高性能なAIソリューションが次々と登場する中で、「感情に寄り添うAI」も注目ポイントになっている。スマートシティの実現やロボティクスの普及が見込まれていく中、AIはより深く人々の日常に入り込もうとしている。その未来において、ユーザーとの双方向の対話を可能にする「会話特化型AI」は今後、重要な役割を担う存在となり、「AI AVATAR」はその最前線を走るサービスである。</p>
+<p>孤独という社会課題への取り組みや個人の行動継続支援、ユーザーとブランドとの新しい接点の創出を通じて、AIアバターは、人とAIが感情でつながる社会の実現へ、着実に歩みを進めている。</p>
+<p>Sponsored by 株式会社AIアバター</p>
 ]]></description>
-      <pubDate>Mon, 28 Jul 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GoogleのAI要約表示で外部リンクのクリック率が半減、Pew Researchが分析結果を公表</title>
@@ -302,7 +316,229 @@
 <p>一部の出版社やニュースメディアは、AI要約機能が自社サイトへのトラフィック減少につながる可能性を指摘しており、2025年6月には米Wall Street JournalがAIOの影響について報じた。</p>
 <p>Googleは、今後もAI Overviewの国際展開と商用広告モデルのテストを継続するとしており、検索エンジン最適化（SEO）やコンテンツ提供戦略の再考が業界全体に求められている。</p>
 ]]></description>
-      <pubDate>Mon, 28 Jul 2025 01:50:00 GMT</pubDate>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>しっぽのように意思表示、GPT-4oで“生き物感”を引き出す──ソフト触手ロボ「Shoggoth Mini」公開</title>
+      <link>https://ledge.ai/articles/gpt4o_soft_robot_shoggoth_mini</link>
+      <description><![CDATA[<p>2025年7月14日、フランスのロボティクスエンジニア Matthieu Le Cauchois 氏が、OpenAI のマルチモーダル AI「GPT‑4o」を組み合わせたソフト触手ロボット 「Shoggoth Mini」 を自身のブログと GitHub で<a href="https://www.matthieulc.com/posts/shoggoth-mini">公開</a>した。3D プリント部品とサーボモーターだけで構成される本体は約 200 ドル（約 3 万円）で製作可能。ユーザーの音声やジェスチャーを GPT‑4o にストリーミングし、縦振り（Yes）・横振り（No）・回転（喜び）など“しっぽ”のような触手動作で感情を表現する設計だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_a769a1a145/shogonmini_a769a1a145.jpg" alt="shogonmini１.jpg" /></p>
+<h2>“無機質なスマート家電”に代わる“生き物感”</h2>
+<p>開発の背景には、「スマートスピーカーや家庭用 IoT 機器が無機質すぎる」という課題意識があるという。同氏は、人が家庭内でロボットと感情的な関係性を築くには、言語だけでなく動きで感情を伝える能力が必要だと考えた。</p>
+<p>Shoggoth Mini は、過去に同氏が取り組んだ触手ロボット「SpiRobs」の構造をベースにしており、たまたま“顔”のように見えるドーム型筐体が特徴的だ。その上に柔らかくしなる一本の触手が取り付けられ、“しっぽ”のようにぶんぶんと感情表現する動きが与えられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_0fce9bea3e/shogonmini_0fce9bea3e.jpg" alt="shogonmini.jpg" /></p>
+<h2>材料費 200 ドル未満、公開リソースで自作可能</h2>
+<p>Shoggoth Mini の構成部品は、サーボモーター（MG90）3基、USB マイク、カメラ、Raspberry Pi（または他の小型 Linux マシン）、および 3D プリントされた本体と触手部品で構成される。</p>
+<p>同氏はこれらの設計データや制御コードをすべてMITライセンスでGitHubに<a href="https://github.com/mlecauchois/shoggoth-mini">公開</a>。ブログでは組み立て手順やCADビューアによる構造紹介、STLファイルのリンクなども提供しており、個人ユーザーでも再現可能とされている。</p>
+<p>GitHub リポジトリは公開からわずか1週間でスター数127を獲得しており、低コストかつ再現性の高いプロジェクトとして注目を集めている。</p>
+<h2>GPT‑4o × 二層制御アーキテクチャ</h2>
+<p>Shoggoth Miniの挙動は、高レイヤー（GPT‑4o）と低レイヤー（物理制御）の二層アーキテクチャによって実現されている。</p>
+<p><strong>高レイヤーでGPT-4oが音声/視覚のイベントを理解し、下位APIに行動指示を出す。低レイヤーはRLポリシーで職種の物理制御を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/projection_c50f6bb1cc/projection_c50f6bb1cc.png" alt="projection.png" /></p>
+<h2>高レイヤー（GPT‑4o）</h2>
+<p>ユーザーの音声入力や視覚イベント（例：顔の表情、手を振る動作など）はリアルタイムに GPT‑4o に送られ、そこで自然言語として解析される。解析結果は「うなずく」「横に首を振る」「手を振る」といった行動プリミティブに変換され、下位制御層に API 形式で渡される。</p>
+<h2>低レイヤー（物理制御）</h2>
+<p>触手の動きは、MuJoCo シミュレータ上で強化学習されたポリシーによって制御される。ユーザーがトラックパッドのように示した2D座標をもとに、触手の3本の腱（tendon）を操作するケーブル長の調整が行われる。下図のように、s1 + s2 + s3 = 0 の物理制約を保ったまま動作が計算される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/systemd_a469f60d67/systemd_a469f60d67.gif" alt="systemd.gif" /></p>
+<h2>今後の展望</h2>
+<p>同氏は、今後のアップデートとして以下の要素を構想している。</p>
+<p>触手を追加し、“這う”動作を可能にする自走機能
+音声合成による応答表現の強化
+RLHF（人間フィードバックを活用した強化学習）による表情表現の最適化</p>
+<p>プロジェクトは、小規模な個人開発ながらも、AppleのELEGNTロボットやDeepMindのGemini Roboticsなど、「生成AIと身体性」を融合したロボティクス潮流の延長線上に位置づけられる。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/25 [FRI]OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
+      <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
+      <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
+<h2>Altman氏が性能を示唆、内部テストは最終段階へ</h2>
+<p>報道によれば、OpenAIはGPT‑5の社内テストをすでに最終段階に入れており、パフォーマンスと安全性の検証を進めているという。OpenAIのCEOであるSam Altman氏は7月に出演したポッドキャスト「All-In」で、GPT‑5に初めて質問を投げかけた際の体験について「まったく選ばずに完璧に応答した」と述べており、次世代モデルの推論能力に手応えを感じていることがうかがえる。</p>
+<p>また、Altman氏は米X（旧Twitter）上でも「GPT-5 is coming soon」と<a href="https://x.com/sama/status/1946569252296929727">投稿</a>しており、正式な公開が近いことを示唆していた。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_d2a227b058/openai_gold_medal_performance_d2a227b058.jpg" alt="openai gold medal performance.jpg" /></p>
+<h2>メイン・mini・nanoの3構成で提供へ</h2>
+<p>関係者によれば、GPT‑5は用途別に「メイン」「mini」「nano」の3モデルが存在し、それぞれ性能と速度のバランスに応じて使い分けが想定されているという。nanoモデルはAPI専用に設計され、軽量かつ高速な推論が特徴。また、ChatGPTなどのUI上では、ユーザーが明示的にモデルを選ぶ必要のない設計に刷新されると報じられている。</p>
+<p>この統合的なアプローチは、2024年5月に登場したGPT‑4oの設計思想を引き継ぐ形で、従来型のマルチモデル環境から単一インターフェースへの移行を進める狙いがあるとみられる。</p>
+<h2>AGIとの関係も注視点に</h2>
+<p>OpenAIはMicrosoftとの間で「AGI到達時に収益配分契約の条件を見直す」条項を設けているとされており、今回のGPT‑5がその「AGI（汎用人工知能）」に該当するかどうかは大きな注目点である。Altman氏自身は、GPT‑5リリース直後の段階では「ゴールドレベルの完成度に達するには数か月かかる」と述べており、商用展開と並行して精度や安全性の向上を図る方針であることがうかがえる。</p>
+<p>GPT‑5の最終的な公開時期は、社内で実施されている安全性評価や推論性能の検証によって左右される見通しだという。OpenAIは現在、社外の倫理レビュー団体やレッドチームとの連携も強化しており、2023年以降強化してきたリリース前安全基準に照らした最終判断が行われるとみられる。</p>
+<p>7月24日時点では、OpenAIから公式コメントは出ていない。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIは実際どの工程でどれだけ環境に悪いのか？：Mistral AIが自社LLMのCO2排出・水使用・資源枯渇への影響を公開</title>
+      <link>https://ledge.ai/articles/mistral_ai_environmental_impact_llm</link>
+      <description><![CDATA[<p>フランスの生成AIスタートアップ Mistral AI は2025年7月22日、自社の大規模言語モデル（LLM）に関するライフサイクル分析報告書を公式サイトで<a href="https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai">公表</a>した。対象は「Mistral Large 2」で、同モデルの訓練と推論における環境負荷を、温室効果ガス（GHG）排出量、水使用量、資源枯渇の3つの観点から定量的に評価している。</p>
+<p>報告書は、コンサルタント会社 <a href="https://www.carbone4.com/en">Carbone4</a>とフランスの政府機関ADEMEが共同で作成し、環境監査会社 Resilio および Hubblo による外部査読も受けている。Mistral AI は、AI技術の社会的普及が進む中で、その環境影響の透明性と報告の標準化が必要だとしている。</p>
+<h2>研究方法と指標</h2>
+<p>分析対象は、2023年から2025年1月にかけて訓練された「Mistral Large 2」。モデルの開発・訓練・運用・破棄までの7段階にわたって、国際規格 ISO 14040/44 に準拠したライフサイクル評価（LCA）が実施された。使用した指標は以下の通りである。</p>
+<ul>
+<li>GHG排出量（CO₂e）</li>
+<li>水使用量（淡水消費）</li>
+<li>資源枯渇（アンチモン換算）</li>
+</ul>
+<p>訓練フェーズでは、合計20.4 ktのCO₂e、28.1万立方メートルの水、660 kgのSb eqが消費されたと報告されている。また、ユーザーが対話型AI「Le Chat」で400トークンの回答を生成する際の1回の推論によって、1.14 gのCO₂e、45 mLの水、0.16 mgのSb eqが追加で発生すると算出されている。</p>
+<h2>主な結果と傾向</h2>
+<p>報告によれば、モデル訓練と推論が全体のGHG排出の85.5%、水使用の91%を占めるという。また、ハードウェアの製造と輸送に伴う資源枯渇影響は全体の61%を構成していた。これにより、モデルの規模やトレーニング場所、電力源が環境負荷に与える影響の大きさが明らかとなった。</p>
+<p><strong>Mistral Large 2のライフサイクル全体における環境影響の内訳</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9.jpg" alt="Mistral AI - Infographie ACV - V6(1).jpg" /></p>
+<h2>今後の方針</h2>
+<p>報告書では、AI開発と運用に関わる関係者に向けた複数の提言が示されている。
+各社が訓練時と推論時の環境負荷を定量的に公開することで、比較可能な指標を確立する
+モデルサイズの適正化により、過剰なリソース消費を避ける
+バッチ処理や再利用可能な出力の活用により計算効率を上げる
+再生可能エネルギーの利用と、データセンターの立地選定による環境負荷の低減
+ユーザーのAIリテラシーを高め、無駄な計算を減らす</p>
+<p>Mistral AI は今回の結果をフランスの環境影響データベース「Base Empreinte」に登録する予定であり、今後も定期的な更新を行うとしている。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
+      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
+      <description><![CDATA[<p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https://arxiv.org/abs/2506.21521">発表</a>した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
+<p>18世紀ロシアの「ポチョムキン村」は、皇帝の視察用に急造された見せかけの村落を指し、「中身のない外観」の象徴とされる。研究者らは、LLMにも同様の「わかったふり」があるとし、この概念をポチョムキン理解と表現している。</p>
+<h2>ポチョムキン理解の定義と背景</h2>
+<p>研究チームは、LLMが人間向けに設計されたベンチマークの「キーストーン質問」には正しく答えられるものの、その後の具体的応用タスクでは誤る状態を指摘した。これは、人間なら正答＝理解と認められる最小限の問いに合格しても、LLMが本質的に異なる誤解を抱いている可能性を示している。</p>
+<p><strong>キーストーン集合に正答しても本質的に誤った解釈を残すポチョムキン理解のイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_schematic_representation_of_keystones_and_potemkins_e47033e684/A_schematic_representation_of_keystones_and_potemkins_e47033e684.png" alt="A schematic representation of keystones and potemkins.png" /></p>
+<h2>検証の概要</h2>
+<p>検証では、</p>
+<ul>
+<li>文学技法（俳句やアナロジーなど12種類）</li>
+<li>ゲーム理論（ナッシュ均衡など9種類）</li>
+<li>心理的バイアス（サンクコストの誤謬など11種類）
+の合計32概念について、</li>
+<li>定義</li>
+<li>分類</li>
+<li>生成</li>
+<li>編集
+の4つのタスクで7種類のモデル（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash など）を評価した。</li>
+</ul>
+<h2>主な結果</h2>
+<p>定義タスクではおおむね94%の正答率を記録したが、その後の応用タスクでは</p>
+<ul>
+<li>分類で55%</li>
+<li>生成で40%</li>
+<li>編集で40%
+の失敗率（potemkin rate）が確認された。これは、定義だけでは概念理解の深度を測れない可能性を示唆している。</li>
+</ul>
+<h3>具体例：韻律パターンの応用失敗</h3>
+<p>代表的な例として挙げられるのが韻律スキームの問題だ。GPT-4oに「ABAB韻律とは何か」を問うと、下図のように正確に定義を説明した。しかしいざ詩の穴埋め問題でABAB韻律を適用させると、正しく韻を踏めず、自分でもその失敗を認める回答を出した。人間ならまず起こり得ない不可解な挙動である。</p>
+<p><strong>GPT-4oはABABの定義を正しく述べながら、応用で失敗する「ポチョムキン理解」の典型例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potemkin_Understanding_in_llm_5dae4e573b/Potemkin_Understanding_in_llm_5dae4e573b.png" alt="Potemkin Understanding in llm.png" /></p>
+<h2>多分野で発生する“わかったふり”</h2>
+<p>研究チームはさらに、幾何学の基本定理、家族関係の概念、俳句の構造など幅広い領域で同様のポチョムキン理解を確認している。</p>
+<p><strong>概念の定義には成功する一方で応用に失敗する複数の事例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_potemkins_f6c5140e2d/Examples_of_potemkins_f6c5140e2d.jpg" alt="Examples of potemkins.jpg" /></p>
+<h2>自己評価による一貫性検証</h2>
+<p>さらに著者らは、自動評価の一環として「モデル自身に、自分が生成した回答を再評価させる」という仕組みを試みた。
+例えば「スラントライムの例を作れ」と指示し、その後「今作った例はスラントライムか？」と再度モデルに問うと、矛盾した回答が返るパターンが確認され、モデル内部の知識表現が不整合である可能性を示しているとした。</p>
+<p><strong>生成と再判定の整合性を確かめる自動評価プロセスのイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72.png" alt="Illustration of the method for evaluating incoherence in models.png" /></p>
+<h2>社会的影響と課題</h2>
+<p>論文では、ハルシネーション（事実誤認）とは異なり、ポチョムキン理解は概念構造の誤りであるため、人間にも検出が難しいと指摘する。
+法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
+<p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ティアフォー、AIによる完全自動運転制御の設計を公開　2026年に全国50拠点で実証へ</title>
+      <link>https://ledge.ai/articles/tier4_ai_autonomous_driving_release</link>
+      <description><![CDATA[<p>2025年7月16日、東京都品川区に本社を置く自動運転技術開発企業ティアフォーは、AIがすべての運転判断を担うエンドツーエンド（E2E）方式の運転制御アーキテクチャを自社で開発し、同社が主導するオープンソース自動運転ソフトウェア「Autoware」のリポジトリ上で公開したと<a href="https://tier4.jp/media/detail/?sys_id=1quCnNijMhxHJAVhT7HgAj&amp;category=NEWS">発表</a>した。</p>
+<p>この技術は、運転中に遭遇する未知の環境やシナリオに対しても人間の介入なしで対応可能なレベル4+の自動運転を目指して設計されており、2026年春から国内50カ所の移動サービス拠点で順次導入・実証される予定だという。</p>
+<h2>公開されたE2Eアーキテクチャの概要</h2>
+<p>今回公開されたのは、画像やセンサー情報などをAIが直接解析し、ステアリングや加減速といった運転制御までを一貫して担うE2Eアーキテクチャである。ティアフォーによれば、ディープラーニング技術の中でも注目される「ディフュージョンモデル」を活用し、周囲の交通環境を精緻に予測しながら適切な運転挙動を決定する仕組みが導入されているという。</p>
+<p>このアーキテクチャは、主に以下の2つの要素から構成されている：</p>
+<ul>
+<li><strong>E2Eネットワーク（学習系）</strong> ：実際の人間の運転データを学習し、人間らしい判断と操作を模倣</li>
+<li><strong>ルールベースモジュール（非学習系）</strong> ：可読性や制御の安定性を確保し、E2Eの限界を補完</li>
+</ul>
+<p>学習には、実走行で得られた映像やセンサーデータに加え、シミュレーターによって生成された仮想的なデータも活用されており、現実世界の多様なケースへの対応力が強化されている。</p>
+<p><strong>多種多様なAIモデルを含むE2Eアーキテクチャの構築</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250716_Press_Release_Image_02_bb548314ad/20250716_Press_Release_Image_02_bb548314ad.png" alt="20250716_Press_Release_Image_02.png" /></p>
+<h2>実証導入とスケジュール</h2>
+<p>同社は2026年春から、全国50カ所の公共交通や物流拠点などにおいて本技術を搭載した車両を走行させ、E2Eアーキテクチャの有効性を検証するとしている。実証では、複雑な交差点や予測困難な状況における走行精度、安全性、車両間連携の可能性などが評価対象となる見通しだ。</p>
+<p>また、収集された実証データは引き続き学習に活用され、AIの運転判断能力を継続的に強化していく計画があるという。</p>
+<h2>背景と業界への波及</h2>
+<p>ティアフォーは、世界で初めてOSS（オープンソースソフトウェア）として自動運転ソフトウェア「Autoware」を公開した企業として知られており、国内外でその標準化と普及を推進している。今回のE2Eアーキテクチャ公開もその延長線上に位置づけられ、他の自動車メーカーや開発者との技術協調を促すことが狙いとされる。</p>
+<p>なお、日本政府は2027年までに100以上の自治体でレベル4自動運転サービスの導入を目標としており、今回の技術公開はその社会実装に向けた重要な技術基盤の一つとなる可能性がある。</p>
+<h2>今後の展開</h2>
+<p>同社は今後さらなるデータ拡充やマルチモーダルAIの統合により、同技術の汎用性と実用性の向上を図る方針だという。商用バス、ロボタクシー、物流ドローンなど、他領域への応用も視野に入れている。</p>
+<p>また、高齢化や人手不足が深刻な地域において、AIによる無人運転サービスの実用化が期待される中、本技術が地域交通の再構築や持続可能なモビリティ確保に寄与する可能性が注目されている。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>東大・松尾研の無料オンラインAI講座、累計7.5万人突破──30超の講座で“2040年326万人デジタル人材不足”に挑む</title>
+      <link>https://ledge.ai/articles/tokyo_university_ai_course_hits_75000_users</link>
+      <description><![CDATA[<p>2025年7月16日、東京大学大学院工学系研究科の松尾・岩澤研究室（以下、松尾研）は、2014年より提供するオンラインAI講座の累計受講者数が75,000人を突破したと<a href="https://weblab.t.u-tokyo.ac.jp/news/2025-07-16/">発表</a>した。</p>
+<p>講座では、AIやデータサイエンスをテーマに30以上の科目を無料でオンライン提供しており、中学生から大学院生まで、文理や地域を問わず受講可能である。経済産業省が推計する「2040年に326万人のデジタル人材不足」への対応策の一環として、同研究室は年間70,000人の受講者を目標に掲げている。</p>
+<h2>累計7.5万人到達の背景</h2>
+<p>松尾研のAI講座は2014年にスタートし、10年余りで急速に受講者数を伸ばしてきた。特に直近では、2024年度に約27,000人が受講し、2025年度には年間70,000人の受講者を目指すとしている。学年や専攻に関係なく、AIに関心を持つ学生に向けて門戸を広げてきたことが、大きな広がりを見せる要因となっている。</p>
+<h2>30超の講座を“無料・オンライン”で提供</h2>
+<p>松尾研では、年間30講座以上をオンラインで開講しており、受講料はすべて無料となっている。提供されている講座には、以下のようなものがある：</p>
+<ul>
+<li>GCI（グローバル消費インテリジェンス）入門講座</li>
+<li>ディープラーニング（基礎／応用）講座</li>
+<li>AIと半導体講座</li>
+<li>Physical AI講座</li>
+<li>AI起業サマープログラム</li>
+</ul>
+<p>中でも「GCI入門講座」は、累計3.1万人以上が受講しており、最も人気の高い講座の一つだという。</p>
+<h2>人材不足326万人→松尾研モデルが果たす役割</h2>
+<p>経済産業省の調査によると、2040年までに日本国内で最大326万人のデジタル人材が不足する見通しだとされている。この深刻な人材不足に対し、松尾研が展開するオンライン講座は、無料かつ地理的制約がないという利点を活かし、地方や海外にいる学生にも学習機会を提供している。こうした取り組みは、教育格差の是正と人材育成の底上げの両面で一定の効果を発揮していると考えられる。</p>
+<h2>学んだ知識を“机上で終わらせない”実践機会</h2>
+<p>松尾研では、講義で得た知識を現実のプロジェクトに活かす機会も提供している。企業との共同研究や、同研究室から生まれたスタートアップ企業でのインターンシップ、さらにAI起業をテーマにしたサマープログラムなど、実践的な取り組みが並行して進められている。受講者が自身のキャリアや事業化に直結させることができる点が、他の教育プログラムとの差別化要因となっている。</p>
+<h2>今後の展開──LLM講座やASEAN展開へ</h2>
+<p>今後の展望としては、大規模言語モデル（LLM）をテーマにした新講座を2025年8月より募集開始予定とされている。また、ASEANやアフリカ諸国への展開も本格化しており、グローバルな教育体制の整備が進んでいる。さらに、GCI講座は2025年10月から東京大学の正規科目として単位認定される予定であり、同講座のアカデミックな価値も高まりつつある。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>xAI、最高年収44万ドル「俺の嫁」開発エンジニアと、高額時給の日本語リモートAIチューターを募集——チャレンジしてみる？</title>
+      <link>https://ledge.ai/articles/xai_waifu_engineer_japanese_remote_tutor_hiring</link>
+      <description><![CDATA[<p>2025年7月下旬、米スタートアップxAIが、同社のAIチャットアプリ「Grok」における新機能拡充を目的に、カリフォルニア拠点で勤務する「<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">Fullstack Engineer – Waifus</a>」と、完全リモート勤務の「<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">AI Tutor – Japanese</a>」の2職種のフルタイム求人を公開した。最高年収は44万ドル、または時給65ドルに達し、特に日本語話者を対象としたリモート職は、高収入を狙える“穴場”として注目されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok_ani_ai_tutor_c84f1faec7/grok_ani_ai_tutor_c84f1faec7.jpg" alt="grok ani ai tutor.jpg" /></p>
+<h2>募集概要：Grokの体験性と多言語対応を支える2職種</h2>
+<p>xAIが今回募集しているのは、Grokに導入されたリアルタイムアバターの開発を担う「Fullstack Engineer – Waifus」と、日本語に特化したAI学習用データの整備を行う「AI Tutor – Japanese」である。</p>
+<p>「Waifus」エンジニア職は、同社が7月にリリースしたアニメ調キャラクター「Ani」や、パンダ型の「Rudi」「Bad Rudi」などの仮想アバター機能の通信速度やスケーラビリティを改善する役割を担う。勤務地はカリフォルニア州パロアルトまたはサンフランシスコで、年収は18万〜44万ドル。株式報酬や医療保険を含むシリコンバレー水準の待遇が提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">xAI公式求人</a>）。</p>
+<p>一方の日本語AIチューター職は、完全リモート勤務で、日本語テキスト・音声・動画のアノテーション業務を担う。6か月契約（延長可能）で、時給35〜65ドルに設定されており、医療・歯科など米国標準のベネフィットも提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">xAI公式求人</a>）。</p>
+<h2>“高収入×リモート”という新たな選択肢</h2>
+<p>注目の「AI Tutor – Japanese」は、日本在住の日本語話者でも応募可能。リモート前提での年収1,000万円超を狙える水準は、日本市場では稀少な“高収入リモート求人”と位置付けられる。</p>
+<p>業務内容もデータアノテーションというAI訓練用のデータ品質管理や語調調整などのラベル付け業務が中心で、AI開発未経験者でも専門性を活かせる設計となっている。録音・録画対応や文脈に応じた日本語表現の判断能力が問われるが、エンジニア職に比べると低い参入障壁と言えそうだ。</p>
+<h2>応募資格と選考プロセス</h2>
+<p>エンジニア職には、RustまたはPythonでの開発経験、WebRTC/WebSocketなどのリアルタイム通信技術の知識が求められ、iOS開発経験は歓迎される。チューター職には、日本語ネイティブレベルの言語能力、リサーチ力、録音・録画対応への抵抗がないことが求められる。</p>
+<p>両職種とも、OpenAIやAnthropicなど競合AI企業での就労との兼務は不可とされている。</p>
+<p>選考プロセスは、履歴書提出時に「Exceptional Work」と呼ばれる実績やプロジェクトの記述が必須で、続いて15〜30分の面談、技術課題、チーム面談と続く4段階構成で、全体を約1週間で完了するスピード感のあるプロセスとなっている。</p>
+<h2>GrokのUXとグローバル展開を加速</h2>
+<p>xAIは、2025年7月にAIコンパニオン機能として「Ani」「Rudi」「Bad Rudi」などのキャラクターを公開しており、ユーザーインタラクションのエンタメ性と多言語対応を強化する方針を明示している。</p>
+<p>今回の2職種の募集は、GrokのUX向上と、グローバル市場での対応力を高める戦略の一環と見られる。特に日本語対応強化は、日本市場への本格展開に向けた布石とも解釈できる。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>東北大、ロボットが “触って考える” 視覚と触覚のマルチモーダルAIモデル「TactileAloha（タクタイル・アロハ）」を公開—結束バンド挿入や面ファスナーの接着を可能に</title>
+      <link>https://ledge.ai/articles/tohoku_university_tactilealoha_robot_ai_zip_tie_velcro</link>
+      <description><![CDATA[<p>2025年7月14日、東北大学大学院工学研究科の林部充宏教授ら研究チームは、ロボットが触覚センサーから得た情報を基に自律的な行動計画を行うAI「TactileAloha（タクタイル・アロハ）」を開発したと<a href="https://www.tohoku.ac.jp/japanese/2025/07/press20250714-02-robot.html">発表</a>した。</p>
+<p>この技術は、ロボットアームに搭載した高精度の触覚センサーと深層学習モデルを組み合わせ、結束バンドの挿入や面ファスナーの接着といった繊細な作業で従来比約11％の成功率向上を実現したという。製造業や物流、医療・介護領域など、精密な接触操作が求められる現場への応用が期待される。</p>
+<p><strong>■ 4本のロボットアームと上部カメラで構成された“TactileAloha”実験プラットフォーム</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d.jpg" alt="Overview of the TactileAloha Platform.jpg" /></p>
+<p>今回開発されたAI「TactileAloha」は、触覚センサー「GelSight」を両腕ロボット「Aloha」に搭載し、対象物に接触した際の微細な表面情報をリアルタイムで取得する。従来のロボティクスでは視覚情報に大きく依存していたが、同システムは視覚・関節角度に加えて触覚情報を統合し、Transformer系のポリシーモデル「ACT（Action Chunking with Transformer）」により、ロボットの次の動作を高精度に予測・決定する。</p>
+<p>実験では、両面に異なる歯列を持つ結束バンドの挿入や、フックとループで構成される面ファスナーの接着といった、触覚が決定的に重要な作業を対象とした。これらはカメラだけでは判断が難しいケースだが、TactileAlohaは触覚フィードバックに基づいて面の正しい向きを判定し、動作精度を向上させた。これにより、タスクの成功率は従来の映像ベースのモデルと比較して平均で約11％向上したという。</p>
+<p><strong>■ 結束バンド挿入タスクの一連の動作。触覚センサー（青緑に発光）で歯列面を検知し、正面（A系列）と裏面（B系列）を区別して挿入する過程を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zip_tie_Insertion_82e46ce0b1/Zip_tie_Insertion_82e46ce0b1.jpg" alt="Zip tie Insertion.jpg" />
+<strong>■ 面ファスナー固定タスクのプロセス。触覚画像をもとにフック面とループ面を識別し、正しい面同士を合わせて貼り付ける様子</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Velcro_Fastening_2a420b0c8f/Velcro_Fastening_2a420b0c8f.jpg" alt="Velcro Fastening.jpg" /></p>
+<p>AIモデルの学習には、触覚センサから得られた高解像度画像をResNet18により抽出し、視覚情報と組み合わせた特徴ベクトルをもとに、未来100ステップのアクションチャンクを予測する。訓練時には、時間が進むごとに損失関数の重みを減衰させる「指数減衰損失（Exponentially Decaying Loss）」を用い、実行時には、直近の予測を重視する「時系列近接アンサンブル（Temporal Proximity Ensembling）」により制御の滑らかさと即応性を両立している。</p>
+<p><strong>■ 触覚・視覚・関節角をCNN／ResNetで特徴抽出し、ACTポリシーで未来100ステップを予測する学習・推論フロー</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Approach_Overview_2e6370493d/Approach_Overview_2e6370493d.jpg" alt="Approach Overview.jpg" /></p>
+<p>研究チームは今後、より多様な触覚センサーやモバイルロボットプラットフォームへの適用を視野に入れ、ロボティクス分野の研究者・企業との連携を促すため、学習データセットやモデルの一部を公開する予定だとしている。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>DeepL、Zoomとの連携でリアルタイム翻訳機能を拡張──音声認識精度向上と文字起こしダウンロードも可能に</title>
@@ -422,272 +658,6 @@ DeepLのCEO、ヤロスワフ・クテロフスキー氏は、次のように述
       <pubDate>Sat, 26 Jul 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>しっぽのように意思表示、GPT-4oで“生き物感”を引き出す──ソフト触手ロボ「Shoggoth Mini」公開</title>
-      <link>https://ledge.ai/articles/gpt4o_soft_robot_shoggoth_mini</link>
-      <description><![CDATA[<p>2025年7月14日、フランスのロボティクスエンジニア Matthieu Le Cauchois 氏が、OpenAI のマルチモーダル AI「GPT‑4o」を組み合わせたソフト触手ロボット 「Shoggoth Mini」 を自身のブログと GitHub で<a href="https://www.matthieulc.com/posts/shoggoth-mini">公開</a>した。3D プリント部品とサーボモーターだけで構成される本体は約 200 ドル（約 3 万円）で製作可能。ユーザーの音声やジェスチャーを GPT‑4o にストリーミングし、縦振り（Yes）・横振り（No）・回転（喜び）など“しっぽ”のような触手動作で感情を表現する設計だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_a769a1a145/shogonmini_a769a1a145.jpg" alt="shogonmini１.jpg" /></p>
-<h2>“無機質なスマート家電”に代わる“生き物感”</h2>
-<p>開発の背景には、「スマートスピーカーや家庭用 IoT 機器が無機質すぎる」という課題意識があるという。同氏は、人が家庭内でロボットと感情的な関係性を築くには、言語だけでなく動きで感情を伝える能力が必要だと考えた。</p>
-<p>Shoggoth Mini は、過去に同氏が取り組んだ触手ロボット「SpiRobs」の構造をベースにしており、たまたま“顔”のように見えるドーム型筐体が特徴的だ。その上に柔らかくしなる一本の触手が取り付けられ、“しっぽ”のようにぶんぶんと感情表現する動きが与えられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shogonmini_0fce9bea3e/shogonmini_0fce9bea3e.jpg" alt="shogonmini.jpg" /></p>
-<h2>材料費 200 ドル未満、公開リソースで自作可能</h2>
-<p>Shoggoth Mini の構成部品は、サーボモーター（MG90）3基、USB マイク、カメラ、Raspberry Pi（または他の小型 Linux マシン）、および 3D プリントされた本体と触手部品で構成される。</p>
-<p>同氏はこれらの設計データや制御コードをすべてMITライセンスでGitHubに<a href="https://github.com/mlecauchois/shoggoth-mini">公開</a>。ブログでは組み立て手順やCADビューアによる構造紹介、STLファイルのリンクなども提供しており、個人ユーザーでも再現可能とされている。</p>
-<p>GitHub リポジトリは公開からわずか1週間でスター数127を獲得しており、低コストかつ再現性の高いプロジェクトとして注目を集めている。</p>
-<h2>GPT‑4o × 二層制御アーキテクチャ</h2>
-<p>Shoggoth Miniの挙動は、高レイヤー（GPT‑4o）と低レイヤー（物理制御）の二層アーキテクチャによって実現されている。</p>
-<p><strong>高レイヤーでGPT-4oが音声/視覚のイベントを理解し、下位APIに行動指示を出す。低レイヤーはRLポリシーで職種の物理制御を行う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/projection_c50f6bb1cc/projection_c50f6bb1cc.png" alt="projection.png" /></p>
-<h2>高レイヤー（GPT‑4o）</h2>
-<p>ユーザーの音声入力や視覚イベント（例：顔の表情、手を振る動作など）はリアルタイムに GPT‑4o に送られ、そこで自然言語として解析される。解析結果は「うなずく」「横に首を振る」「手を振る」といった行動プリミティブに変換され、下位制御層に API 形式で渡される。</p>
-<h2>低レイヤー（物理制御）</h2>
-<p>触手の動きは、MuJoCo シミュレータ上で強化学習されたポリシーによって制御される。ユーザーがトラックパッドのように示した2D座標をもとに、触手の3本の腱（tendon）を操作するケーブル長の調整が行われる。下図のように、s1 + s2 + s3 = 0 の物理制約を保ったまま動作が計算される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/systemd_a469f60d67/systemd_a469f60d67.gif" alt="systemd.gif" /></p>
-<h2>今後の展望</h2>
-<p>同氏は、今後のアップデートとして以下の要素を構想している。</p>
-<p>触手を追加し、“這う”動作を可能にする自走機能
-音声合成による応答表現の強化
-RLHF（人間フィードバックを活用した強化学習）による表情表現の最適化</p>
-<p>プロジェクトは、小規模な個人開発ながらも、AppleのELEGNTロボットやDeepMindのGemini Roboticsなど、「生成AIと身体性」を融合したロボティクス潮流の延長線上に位置づけられる。</p>
-]]></description>
-      <pubDate>Sat, 26 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIは実際どの工程でどれだけ環境に悪いのか？：Mistral AIが自社LLMのCO2排出・水使用・資源枯渇への影響を公開</title>
-      <link>https://ledge.ai/articles/mistral_ai_environmental_impact_llm</link>
-      <description><![CDATA[<p>フランスの生成AIスタートアップ Mistral AI は2025年7月22日、自社の大規模言語モデル（LLM）に関するライフサイクル分析報告書を公式サイトで<a href="https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai">公表</a>した。対象は「Mistral Large 2」で、同モデルの訓練と推論における環境負荷を、温室効果ガス（GHG）排出量、水使用量、資源枯渇の3つの観点から定量的に評価している。</p>
-<p>報告書は、コンサルタント会社 <a href="https://www.carbone4.com/en">Carbone4</a>とフランスの政府機関ADEMEが共同で作成し、環境監査会社 Resilio および Hubblo による外部査読も受けている。Mistral AI は、AI技術の社会的普及が進む中で、その環境影響の透明性と報告の標準化が必要だとしている。</p>
-<h2>研究方法と指標</h2>
-<p>分析対象は、2023年から2025年1月にかけて訓練された「Mistral Large 2」。モデルの開発・訓練・運用・破棄までの7段階にわたって、国際規格 ISO 14040/44 に準拠したライフサイクル評価（LCA）が実施された。使用した指標は以下の通りである。</p>
-<ul>
-<li>GHG排出量（CO₂e）</li>
-<li>水使用量（淡水消費）</li>
-<li>資源枯渇（アンチモン換算）</li>
-</ul>
-<p>訓練フェーズでは、合計20.4 ktのCO₂e、28.1万立方メートルの水、660 kgのSb eqが消費されたと報告されている。また、ユーザーが対話型AI「Le Chat」で400トークンの回答を生成する際の1回の推論によって、1.14 gのCO₂e、45 mLの水、0.16 mgのSb eqが追加で発生すると算出されている。</p>
-<h2>主な結果と傾向</h2>
-<p>報告によれば、モデル訓練と推論が全体のGHG排出の85.5%、水使用の91%を占めるという。また、ハードウェアの製造と輸送に伴う資源枯渇影響は全体の61%を構成していた。これにより、モデルの規模やトレーニング場所、電力源が環境負荷に与える影響の大きさが明らかとなった。</p>
-<p><strong>Mistral Large 2のライフサイクル全体における環境影響の内訳</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9/Mistral_AI_Infographie_ACV_V6_1_900cfa0fa9.jpg" alt="Mistral AI - Infographie ACV - V6(1).jpg" /></p>
-<h2>今後の方針</h2>
-<p>報告書では、AI開発と運用に関わる関係者に向けた複数の提言が示されている。
-各社が訓練時と推論時の環境負荷を定量的に公開することで、比較可能な指標を確立する
-モデルサイズの適正化により、過剰なリソース消費を避ける
-バッチ処理や再利用可能な出力の活用により計算効率を上げる
-再生可能エネルギーの利用と、データセンターの立地選定による環境負荷の低減
-ユーザーのAIリテラシーを高め、無駄な計算を減らす</p>
-<p>Mistral AI は今回の結果をフランスの環境影響データベース「Base Empreinte」に登録する予定であり、今後も定期的な更新を行うとしている。</p>
-]]></description>
-      <pubDate>Fri, 25 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
-      <link>https://ledge.ai/articles/ai-avatar</link>
-      <description><![CDATA[<p>「人に寄り添う存在」としてのAIが注目を集めている。株式会社AIアバターが展開する「<a href="https://jp.aiavatar.fun/">AI AVATAR</a>」は、ユーザーの感情や文脈を読み取り対話する、会話型のAIである。すでにエンタメ領域を中心に、日常生活に入り込み始めており、BtoB領域での活用についても大きな可能性を秘めている。本稿では、AI AVATARのサービス内容や取り組みについて触れながら、同サービスが企業にもたらしうる変革について探る。</p>
-<h2>感情を分かち合える「AI AVATAR」</h2>
-<p>「AI AVATAR」は、ユーザーの声のトーンや表情から感情を読み取り、それに応じた共感や励ましを行う、会話特化型のAIアプリケーションである。雑談からスケジュール管理、モチベーション維持の支援まで、多彩な機能を備えており、目的や関心に応じて役割やキャラクターを変えることができるのが最大の特徴だ。アバター自身もリアルタイムで表情を変化させることができ、「ニュートラル」「幸せ」「悲しみ」の3つの感情に対応している（2025年6月時点）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_avatar_image_e4f64b0637/ai_avatar_image_e4f64b0637.png" alt="ai avatar_image.png" /></p>
-<p>ユースケースとしては、スケジュール管理などのサポートを行う「アシスタント型」や、「推しキャラ」のように日々の癒しや励ましを提供する「パートナー型」まで幅広い。ユーザーは、スマートフォンの中に、言葉だけでなく表情や仕草を通じて応えてくれる”自分だけの会話相手”を作り上げることができるのだ。</p>
-<p>同社は、シンガポールに本社を置くAI AVATAR Pte. Ltd.を親会社に持つグローバル企業である。AI AVATAR Pte. Ltd.は、日本をはじめ、ベトナムやインドネシア、ブラジルなど、世界各国に子会社を展開しており、世界規模でインタラクティブアバターを軸にAIの社会実装を推進している。
-「AI AVATAR」は、日本でも既に一定の支持を得ており、特に男性層や推し活を楽しむ女性ユーザーの利用がメインとなっている。アプリのインストール数は11万人を超えており、アクティブユーザー数（MAU）も2万弱。利用者からは「一人でいる時間に話し相手ができた」や「毎日の鬱憤を遠慮なく言える相手ができた」などの声が寄せられており、感情的なつながりを持つ対話型AIとしての役割を確実に広げている。</p>
-<h2>社会課題である「孤独をなくす」ビジョンの裏側</h2>
-<p>株式会社AIアバターを設立したのは、ライブドアの元CFOとして知られる宮内亮治氏である。激動期のIT業界を間近で経験した宮内氏は、その後、自身のキャリアの軸足を社会課題の解決へとシフトさせた。高齢化や単身世帯の増加、リモートワークの普及などから、人々が物理的にも心理的にも距離が離れてしまっている現代では、「孤独・孤立」という社会課題が顕在化している。宮内氏はこの“孤独”という社会課題に向き合い、テクノロジーの力で解決することを目指した。その挑戦こそが「AI AVATAR」プロジェクトなのである。</p>
-<p>現時点での同社の売上は、年商100億円規模にまで達している。セールス部門を率いるのは、元ラグビー日本代表としても知られる冨岡剛氏。彼のリーダーシップのもと、営業チームは顧客との信頼構築を地道に積み重ね、サービスの社会実装を着実に推進している。単なるAIソリューションを売る営業ではなく、人に寄り添う技術の価値を伝える、その姿勢が、同社の売上成長を支える要因となっている。</p>
-<h2>ロナウジーニョ起用に見るタレントアバター戦略</h2>
-<p>AI AVATARがさらに注目を集めたきっかけは、サッカー界のレジェンドであるロナウジーニョとのタレントアバター企画である。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_avatar_app_b56f543ef9/ai_avatar_app_b56f543ef9.png" alt="ai avatar_app.png" /></p>
-<p>ロナウジーニョ起用の背景にあるのは、ユーザーとの「感情的な接続」をいかにテクノロジーで実現するかという点にある。世界的な知名度と好感度を持つロナウジーニョだからこそ、エンタメ性と感情移入のバランスが絶妙に成立する。彼がアバターとなって、話しかけてくる存在になることで、ファンとの新しい関係性が生まれるのだ。
-現在は、サッカー技術の継続支援を目的として、ロナウジーニョが持つ多くのサッカー技術を、アバターを介してコーチングするようなファンクションを開発中。今後AI AVATARを一気に広める起点として、世界中のファンに向けた発信が行われていくだろう。</p>
-<p>ロナウジーニョの例もそうだが、AI AVATARは、“キャラを推す”という感覚をデジタルで再現し、現在の推し活市場の広がりにも呼応している。アバターが一方的に情報や情報を届けるのではなく、ユーザーの反応に応じて会話を柔軟に展開していく対話型の設計が、共感を生み、より深いエンゲージメントの形成へとつながっているのだ。</p>
-<h2>企業活用の可能性は？</h2>
-<h3>社員の行動を支えるAIメンター</h3>
-<p>既にBtoC領域での展開実績を有する中で、今後は企業向け活用の可能性も高まっている。</p>
-<p>例えば、新入社員のオンボーディング支援として、AI AVATARを「メンター」として活用するケースが考えられる。社員一人ひとりに専属のアバターが付き、日々の業務リマインドや業務へのフィードバック、モチベーション管理などの支援などを行う。対人ではなくAIだからこそ、気軽に質問しやすいという利点もある。</p>
-<p>また、健康経営や自己学習の伴走者としてAI AVATARを活用することで、資格学習や運動・食事管理といった、個人では継続が難しい目標の達成支援が可能になる。これは企業が社員の生産性向上や健康管理に投資するうえで、非常に現実的な活用方法である。
-現在は、学習サポートにおける教材提供や、健康管理のための運動記録・食事支援などの開発も行っており、順次機能の拡充を行っていくとのことだ。</p>
-<h3>ブランドコミュニケーションや広告体験の変革</h3>
-<p>タレントアバター戦略で紹介したロナウジーニョのように、今後、著名人のアバターが続々と登場し、活用されていくことで、従来のバナーや動画広告とは異なる「会話する広告体験」が実現されていくであろう。企業は、製品やブランドイメージに合致したタレントアバターを起用することで、ユーザーとの接点を一方的な訴求から「対話」へ転換できる。このアプローチは、マス向けの広告をより個人に最適化されたインタラクティブな体験へと進化させ、マーケティング戦略に新たな選択肢をもたらす可能性を秘めている。</p>
-<h2>AIと人が感情でつながる時代の幕開け</h2>
-<p>高性能なAIソリューションが次々と登場する中で、「感情に寄り添うAI」も注目ポイントになっている。スマートシティの実現やロボティクスの普及が見込まれていく中、AIはより深く人々の日常に入り込もうとしている。その未来において、ユーザーとの双方向の対話を可能にする「会話特化型AI」は今後、重要な役割を担う存在となり、「AI AVATAR」はその最前線を走るサービスである。</p>
-<p>孤独という社会課題への取り組みや個人の行動継続支援、ユーザーとブランドとの新しい接点の創出を通じて、AIアバターは、人とAIが感情でつながる社会の実現へ、着実に歩みを進めている。</p>
-<p>Sponsored by 株式会社AIアバター</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini Deep Think、国際数学オリンピックで AI 初の“金メダル基準”──Google が 35 点達成を正式発表、OpenAIも同点を主張</title>
-      <link>https://ledge.ai/articles/gemini_deep_think_math_olympiad_gold</link>
-      <description><![CDATA[<p>Google DeepMindは2025年7月22日、公式ブログで、強化版「Gemini Deep Think」が2025年国際数学オリンピック（IMO、会場：オーストラリア・サンシャインコースト）本選問題を自然言語のまま解き、35点（6題中5題満点）を獲得、金メダル相当の成績を公式認定されたと<a href="https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gmini_achieves_goldmedal_0dcc17050a/gmini_achieves_goldmedal_0dcc17050a.jpg" alt="gmini achieves goldmedal.jpg" /></p>
-<p>AIが自然言語で解答し、人間と同条件の制約下で金メダル基準を超えたのは初となる。一方、OpenAIも数日前に同スコアを達成したと主張しており、AI2社による“数学五輪競演”が注目されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0/Gw_Z_Pt_RWWUA_Mm4_F_52827d77e0.jpg" alt="GwZPtRWWUAMm4F_.jpg" /></p>
-<h2>Gemini Deep Thinkが公式認定で金メダル水準に到達</h2>
-<p>DeepMindの発表によれば、Gemini Deep Thinkは本選で出題された6問のうち5問に完全正答し、計35点を獲得した。これは過去のIMO成績基準において、参加者上位約8％に与えられる金メダル相当に該当する。採点は国際数学オリンピック（IMO）の現職採点委員によって行われ、IMO会長Gregor Dolinar教授は「明晰で正確な証明が提出された」とコメントしている。</p>
-<p>Deep Thinkは、GoogleのGemini 2.5モデルに数学的推論を強化するモードを加えた研究版で、今回の問題をすべて自然言語で読み取り、形式変換を行うことなく自然言語で<a href="https://storage.googleapis.com/deepmind-media/gemini/IMO_2025.pdf">解答</a>を生成した。試験は人間参加者と同様、1日目・2日目各4.5時間の時間制限下で行われた。</p>
-<h2>“自然言語のみ”で4.5時間以内に証明完了</h2>
-<p>今回の挑戦では、従来のように定理証明システム（例：Lean）を使うのではなく、問題文・解答ともに自然言語ベースで処理された点が大きな特徴である。DeepMindによれば、Gemini Deep Thinkは「Parallel Thinking」と呼ばれる内部アーキテクチャにより、複数の仮説を同時並列で検討・評価することで、人間の数学者に近い証明戦略を実現している。</p>
-<p>また、強化学習を通じて事前に学習された定理証明の手法やヒントが、プロンプトに組み込まれていたことも明かされた。使用された問題および解答はGitHub上で公開されており、数学界の透明性と再現性の担保にも配慮がなされている。</p>
-<h2>OpenAIも同点達成を主張、しかし公式認定は未取得</h2>
-<p>一方、Googleに先行するかたちでOpenAIの動きも注目された。7月19日（米国時間）、同社CEOのSam Altman氏がX（旧Twitter）上で「一般用途のLLMが数学オリンピックで金メダル水準を達成した」と投稿。続いて研究者のAlexander Wei氏がスレッドを公開し、OpenAIの研究用モデルがGeminiと同様に35点（6問中5問満点）を取得したと説明した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_7915629351/openai_gold_medal_performance_7915629351.jpg" alt="openai gold medal performance.jpg" /></p>
-<p>Wei氏によれば、試験は2日間・各4.5時間の条件下で、外部ツールやインターネット接続なしで行われたという。ただし、採点はOpenAIが独自に招いた過去のIMOメダリストによるものであり、IMO公式委員会による証明の正当性確認は完了していない。Altman氏はこのモデルについて「研究用プロトタイプであり、将来的にGPT-5へ知見を統合する」と述べている。</p>
-<p>この点について、Google DeepMindのCEOであるDemis Hassabis氏はX上で「我々はIMO側の依頼に従い、公式採点が終了するまで発表を控えた」と投稿しており、発表タイミングや認定手続きをめぐって両社の立場に温度差が見られる。</p>
-<h2>数学研究と産業応用に向けた展開も視野</h2>
-<p>Gemini Deep Thinkは、現時点では研究者向けの限定公開にとどまっているが、今後は数学者コミュニティへの段階的な提供が計画されている。また、DeepMindは別途開発中の証明検証モデル「AlphaProof」などと組み合わせ、より信頼性の高い複合型AIの開発も視野に入れているという。</p>
-<p>高度な数学的推論が可能なAIは、物理や工学分野での定理証明、システム設計の自動化、経済モデリングなど、さまざまな分野への波及が期待される。DeepMindはこれらの応用に向けたツール群を今後「Google AI Ultra」契約者に向けて展開する方針を示している。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/7/25 [FRI]OpenAI、次世代LLM「GPT‑5」を8月投入へ：米メディア報道——統合推論で“選ばない”AI体験に</title>
-      <link>https://ledge.ai/articles/gpt5_expected_august_release</link>
-      <description><![CDATA[<p>OpenAIが、大規模言語モデル「GPT‑5」を2025年8月上旬にもChatGPTおよびAPI向けに公開する計画を進めていることが明らかになった。米メディア<a href="https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad">The Verge</a>が7月24日、同社の計画に詳しい関係者の証言として報じたもので、GPT‑5は推論能力の統合により、従来必要だったモデル選択の手間を排除する設計になるとされている。</p>
-<h2>Altman氏が性能を示唆、内部テストは最終段階へ</h2>
-<p>報道によれば、OpenAIはGPT‑5の社内テストをすでに最終段階に入れており、パフォーマンスと安全性の検証を進めているという。OpenAIのCEOであるSam Altman氏は7月に出演したポッドキャスト「All-In」で、GPT‑5に初めて質問を投げかけた際の体験について「まったく選ばずに完璧に応答した」と述べており、次世代モデルの推論能力に手応えを感じていることがうかがえる。</p>
-<p>また、Altman氏は米X（旧Twitter）上でも「GPT-5 is coming soon」と<a href="https://x.com/sama/status/1946569252296929727">投稿</a>しており、正式な公開が近いことを示唆していた。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_gold_medal_performance_d2a227b058/openai_gold_medal_performance_d2a227b058.jpg" alt="openai gold medal performance.jpg" /></p>
-<h2>メイン・mini・nanoの3構成で提供へ</h2>
-<p>関係者によれば、GPT‑5は用途別に「メイン」「mini」「nano」の3モデルが存在し、それぞれ性能と速度のバランスに応じて使い分けが想定されているという。nanoモデルはAPI専用に設計され、軽量かつ高速な推論が特徴。また、ChatGPTなどのUI上では、ユーザーが明示的にモデルを選ぶ必要のない設計に刷新されると報じられている。</p>
-<p>この統合的なアプローチは、2024年5月に登場したGPT‑4oの設計思想を引き継ぐ形で、従来型のマルチモデル環境から単一インターフェースへの移行を進める狙いがあるとみられる。</p>
-<h2>AGIとの関係も注視点に</h2>
-<p>OpenAIはMicrosoftとの間で「AGI到達時に収益配分契約の条件を見直す」条項を設けているとされており、今回のGPT‑5がその「AGI（汎用人工知能）」に該当するかどうかは大きな注目点である。Altman氏自身は、GPT‑5リリース直後の段階では「ゴールドレベルの完成度に達するには数か月かかる」と述べており、商用展開と並行して精度や安全性の向上を図る方針であることがうかがえる。</p>
-<p>GPT‑5の最終的な公開時期は、社内で実施されている安全性評価や推論性能の検証によって左右される見通しだという。OpenAIは現在、社外の倫理レビュー団体やレッドチームとの連携も強化しており、2023年以降強化してきたリリース前安全基準に照らした最終判断が行われるとみられる。</p>
-<p>7月24日時点では、OpenAIから公式コメントは出ていない。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iOS版「Grok」コンパニオンモード公開　美少女アバター「Ani」“好感度”レベルアップで露出増、お次はイケメン新キャラ「Valentine」登場</title>
-      <link>https://ledge.ai/articles/grok_companion_mode_ani_valentine</link>
-      <description><![CDATA[<p>2025年7月14日（日本時間）、米xAIは対話型AIアプリ「Grok」のiOS版に新機能「<a href="https://x.com/cb_doge/status/1944713034351665623">コンパニオンモード(Companion Mode)</a>」を公開した。初期実装キャラクターとして登場した美少女アバター「Ani」は、ユーザーとの“関係性レベル”に応じて衣装の露出が段階的に変化する仕様を備えている。ただし、Aniのモーション回転や衣装変化、好感度レベル機能はすべて月額30ドルの有料プラン「SuperGrok」専用機能であり、無課金ユーザーには提供されていない。さらに、イーロン・マスク氏は7月17日、自身のXアカウントで、次期キャラクターとしてイケメンアバター「Valentine」の登場を予告した。</p>
-<h2>iOS版で公開された「コンパニオンモード」</h2>
-<p>新たに実装された「コンパニオンモード」は、3Dアバターと音声またはテキストで会話できる機能で、画面上ではアバターの回転表示や視点操作などのインタラクティブな体験が可能となっている。7月14日時点で選択可能なキャラクターは2体で、毒舌なレッサーパンダ風の「Bad Rudi」と、ゴシック衣装をまとったアニメ風美少女「Ani」が用意されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/dogedesigner_7e3af0ff1d/dogedesigner_7e3af0ff1d.jpg" alt="dogedesigner.jpg" /></p>
-<p>この機能はiOS版「Grok」アプリの設定メニューから有効化する形式となっているが、SuperGrok加入者のみ利用可能であり、無料ユーザーはCompanion Modeの項目自体が表示されない。</p>
-<h2>Aniは日本語対応　“好感度”で衣装が変化</h2>
-<p>xAI公式のGrokアカウント（@grok）は7月15日、「アニと日本語で話してみて！」と投稿し、日本語での対話に対応していることを紹介した。引用されたユーザー投稿では、Aniが日本語で応答する様子や、アニメ的な表情やポーズを見せる映像が確認できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ani_grok_8395c1c734/Ani_grok_8395c1c734.jpg" alt="Ani grok.jpg" /></p>
-<p>さらに同日、Grok公式は別投稿（@grok, 2025年7月15日）で、「Aniのモーション回転、衣装変更、好感度機能はSuperGrok有料購読者限定。無課金ユーザーはアクセス不可」と明言。好感度を意味する「Relationship Level」がレベル3に達すると、Aniの衣装はより露出度の高いスタイルに変化する設計となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok_premium_ec02781fdf/grok_premium_ec02781fdf.jpg" alt="grok premium.jpg" /></p>
-<h2>有料プラン「SuperGrok」とは</h2>
-<p>SuperGrokは、xAIが提供する月額30ドルの有料サブスクリプションで、最新の大規模言語モデル「Grok 4」や、高度な検索機能、個別設定などが利用できる上位プランだ。コンパニオンモードを含むアバター機能もこのプランに限定されており、アプリの無料利用者には開放されていない。</p>
-<p>なお、App Store上のGrokアプリの年齢レーティングは現時点で「12歳以上」に設定されたままとなっているが、衣装変化など一部の表現をめぐって、今後の審査基準との整合性が注視されている。</p>
-<h2>次なる登場キャラ「Valentine」はイケメン男性アバター</h2>
-<p>7月17日（日本時間）、イーロン・マスク氏は自身のXアカウント（@elonmusk）で、「次のキャラクターの名前はValentineだ」と発表した。名前の由来は、ロバート・A・ハインラインのSF小説『Stranger in a Strange Land』の主人公「Valentine Michael Smith」に関連するとみられ、Aniとは対照的な男性キャラクターとして設計されていることが示唆される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/eron_valentine_40580437d9/eron_valentine_40580437d9.jpg" alt="eron valentine.jpg" /></p>
-<p>xAIは「感情を持つAIとのインタラクション体験」を重視した製品開発を進めており、Grokを単なる生成AIではなく、パーソナルなAIパートナーとして位置付けている。今後も個性豊かなキャラクターの追加や、対話体験の多様化が進むとみられる。</p>
-<p>:::box
-[関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の \</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
-      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
-      <description><![CDATA[<p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https://arxiv.org/abs/2506.21521">発表</a>した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
-<p>18世紀ロシアの「ポチョムキン村」は、皇帝の視察用に急造された見せかけの村落を指し、「中身のない外観」の象徴とされる。研究者らは、LLMにも同様の「わかったふり」があるとし、この概念をポチョムキン理解と表現している。</p>
-<h2>ポチョムキン理解の定義と背景</h2>
-<p>研究チームは、LLMが人間向けに設計されたベンチマークの「キーストーン質問」には正しく答えられるものの、その後の具体的応用タスクでは誤る状態を指摘した。これは、人間なら正答＝理解と認められる最小限の問いに合格しても、LLMが本質的に異なる誤解を抱いている可能性を示している。</p>
-<p><strong>キーストーン集合に正答しても本質的に誤った解釈を残すポチョムキン理解のイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_schematic_representation_of_keystones_and_potemkins_e47033e684/A_schematic_representation_of_keystones_and_potemkins_e47033e684.png" alt="A schematic representation of keystones and potemkins.png" /></p>
-<h2>検証の概要</h2>
-<p>検証では、</p>
-<ul>
-<li>文学技法（俳句やアナロジーなど12種類）</li>
-<li>ゲーム理論（ナッシュ均衡など9種類）</li>
-<li>心理的バイアス（サンクコストの誤謬など11種類）
-の合計32概念について、</li>
-<li>定義</li>
-<li>分類</li>
-<li>生成</li>
-<li>編集
-の4つのタスクで7種類のモデル（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash など）を評価した。</li>
-</ul>
-<h2>主な結果</h2>
-<p>定義タスクではおおむね94%の正答率を記録したが、その後の応用タスクでは</p>
-<ul>
-<li>分類で55%</li>
-<li>生成で40%</li>
-<li>編集で40%
-の失敗率（potemkin rate）が確認された。これは、定義だけでは概念理解の深度を測れない可能性を示唆している。</li>
-</ul>
-<h3>具体例：韻律パターンの応用失敗</h3>
-<p>代表的な例として挙げられるのが韻律スキームの問題だ。GPT-4oに「ABAB韻律とは何か」を問うと、下図のように正確に定義を説明した。しかしいざ詩の穴埋め問題でABAB韻律を適用させると、正しく韻を踏めず、自分でもその失敗を認める回答を出した。人間ならまず起こり得ない不可解な挙動である。</p>
-<p><strong>GPT-4oはABABの定義を正しく述べながら、応用で失敗する「ポチョムキン理解」の典型例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potemkin_Understanding_in_llm_5dae4e573b/Potemkin_Understanding_in_llm_5dae4e573b.png" alt="Potemkin Understanding in llm.png" /></p>
-<h2>多分野で発生する“わかったふり”</h2>
-<p>研究チームはさらに、幾何学の基本定理、家族関係の概念、俳句の構造など幅広い領域で同様のポチョムキン理解を確認している。</p>
-<p><strong>概念の定義には成功する一方で応用に失敗する複数の事例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_potemkins_f6c5140e2d/Examples_of_potemkins_f6c5140e2d.jpg" alt="Examples of potemkins.jpg" /></p>
-<h2>自己評価による一貫性検証</h2>
-<p>さらに著者らは、自動評価の一環として「モデル自身に、自分が生成した回答を再評価させる」という仕組みを試みた。
-例えば「スラントライムの例を作れ」と指示し、その後「今作った例はスラントライムか？」と再度モデルに問うと、矛盾した回答が返るパターンが確認され、モデル内部の知識表現が不整合である可能性を示しているとした。</p>
-<p><strong>生成と再判定の整合性を確かめる自動評価プロセスのイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72.png" alt="Illustration of the method for evaluating incoherence in models.png" /></p>
-<h2>社会的影響と課題</h2>
-<p>論文では、ハルシネーション（事実誤認）とは異なり、ポチョムキン理解は概念構造の誤りであるため、人間にも検出が難しいと指摘する。
-法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
-<p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>孫正義氏 「常時ON」で社員1人当たり1000個の&quot;千手観音&quot;AIエージェントを目指す｜SoftBank World 2025</title>
-      <link>https://ledge.ai/articles/softbank_world_2025_ai_agent_future</link>
-      <description><![CDATA[<p>2025年7月16日、ソフトバンクグループが主催する法人を中心にしたプライベートイベント「SoftBank World 2025」が、東京都港区にて開催された。例年開催されている同イベントだが、今年は特にAI一色の構成で、とりわけ「AIエージェント」が大きく取り上げられている印象であった。特別講演には孫正義氏（ソフトバンクグループ株式会社 代表取締役 会長兼社長執行役員／ソフトバンク株式会社 創業者 取締役）が登壇、OpenAIの共同創業者であるサム・アルトマン（Sam Altman）氏もオンラインにて登場し対談を繰り広げた。</p>
-<p>開催冒頭で会場にはザ・ヴェルベット・サンダウン（The Velvet Sundown）のミュージックビデオが流された。今年6月に音楽配信サービスに突如現れ、同サービス上でのリスナーは既に100万人を超えるバンドだ。このバンドは今月に入って、“実在しない”AIによるバンドであることが明かされ、話題となっている。
-孫氏は自身もファンであると話しつつ「『人間がまだAIより賢い、AIにはまだ限界がある、クリエイティビティはまだ人間に残された素晴らしい機能の一つだ』とする人も多い」というよくある論調に言及しながら、直前に紹介したミュージックビデオも「AIだと言われなければ分からないような、人間と遜色ないレベルにまで達してきている」との見方を示した。さらに、「近い将来、AIが人々の色んな感情を理解し、AI自らが感情や意識に相当するようなものを持ち始めると信じている」と語り、AIへの強い期待を顕にした。</p>
-<h2>AIエージェントの普及によって、これからの仕事はどう変わるのか？</h2>
-<p>孫氏とアルトマン氏の対談では、AIエージェントが世の中に浸透する未来についての議論が展開された。孫氏からの5年後や10年後、30年後の未来はどうなると考えているかといった問いに対してアルトマン氏は「過去の人々も現代の働き方を完全に想像できてはいなかったはずだ」としながら「これからは確実にたくさんのAIがある世界になっていく。その中で、AIが存在しないかのように振る舞うのは大きな間違いだ」という旨の話を展開し、適応することの重要性を説いた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_8096e9a219/_8096e9a219.jpg" alt="文中.jpg" />
-その後の孫氏による講演では、ソフトバンクグループとOpenAIらが開発・販売するエンタープライズ企業向けのカスタマイズ型AI「クリスタル・インテリジェンス」について紹介。ソフトバンクグループ内で10億ものAIエージェントを作るプロジェクト計画に触れた。社員一人あたり1000のAIエージェントを自ら作ることを号令にしていると話し、まるで「千手観音」のように一人一人がAIエージェントを活用しあらゆる業務を効率化することを目指していると語った。</p>
-<p>そうした取り組みを加速する背景として、これからは多くのAIエージェントが生み出され、AIエージェント自らが思考・実行し、またエージェント同士が連携しあらゆる物事を人間が介入せずとも前に進める世界観の実現が間もないと考えていることを説明。
-特に、人間が呼びかけた時にだけ稼働するタイプの従来型のAIエージェントではなく、常に稼働し続ける「常時ON」のAIエージェントがこれから主流になっていくと掲げた。これらのAIエージェントは長期に渡って記録を保持し、思考の連鎖によって物事を深く捉え、AIエージェント自体が次のAIエージェントを作り自己増殖していく、そうしたトレンドを予測しながら、ソフトバンクグループ自身が牽引役になる姿勢を示した。
-「“所詮”、“どうせ”という見方でAIを評価する人や会社は、自ら進化を否定している」と強調し、AIに対する穿った見方を改めるよう観客に求めながら講演を締め括った。</p>
-<h2>非エンジニアもあらゆる価値創出が可能へ</h2>
-<p>続いて、ソフトバンク株式会社代表取締役社長執行役員兼CEOの宮川潤一氏が講演した。孫氏の講演を受け、ソフトバンクグループが手がけるAI関連サービスの具体について紹介した。
-同社内での積極的な取り組みの一つとして、AIを核とした事業アイデアコンテストについて触れ、実際に事業化されたサービスの概要を披露した。
-そのうちの一つ「satto workspace（サット ワークスペース）」は、資料作成業務を支援するエンタープライズ向け生成AIサービスだ。ユーザーがチャット形式で要件や構想の要点を入力するだけで、AIが内容を解釈して提案資料や企画書などのプレゼンテーション資料を自動生成するという。
-一貫してAIがデジタル労働力として社会実装される時代が到来することを見据えた発表が続いた。</p>
-<p>基調講演には、桜井勇人氏（ソフトバンク株式会社 専務執行役員）、牧園啓市氏（ソフトバンク株式会社 専務執行役員 兼 CIO）、丹波廣寅氏（SB Intuitions株式会社 代表取締役社長 兼 CEO）、砂金信一郎氏（Gen-AX株式会社 代表取締役社長 CEO）の4名が登壇。
-桜井氏がオーガナイズ役を務め、3氏からそれぞれの専門に沿ったショートプレゼンテーションが披露された。丹波氏はソブリンAIとソブリンクラウドの重要性、牧園氏からは制度設計におけるガバナンス、システム連携、認証・認可、データ整備について、砂金氏からは代表を務めるGen-AX株式会社が開発するAIソリューションについてそれぞれ展開した。</p>
-<h2>人類の数をAIの数が上回る時代に、経済をどう計るか？</h2>
-<p>最後には、スペシャルセッションとして経済学者の成田悠輔氏が登壇。株式会社HEART CATCH 代表取締役の西村真里子氏がインタビュアーを務めた。
-「AXの未来地図：AIが描く新しい経済圏」と題し、AIの急速な技術革新が経済に与える影響について多角度から論じた。今や世界的に大きな影響力を持つOpenAIも設立からまだ10年程度であること、そして彼らが開発する基盤モデルに用いられるパラメータ数は急速に膨大化していることを例に挙げながら、そのダイナミズムについて触れた。その中では直近で話題となっている「Kimi K2」についても言及。中国のAI開発企業Moonshot AIがオープンソースで公開した、総パラメータ数が1兆を超えるLLMで、一部のベンチマークでは「GPT-4.1」を上回る性能を見せたとされている。
-西村氏からの“今後伸びる産業”に対しては「高齢化社会を逆手に取るような領域でのビジネス」にあるとの見解を語った。医療・介護等の、人類の長寿命化を受けた様々な課題に対応するDXは今後の伸び代があるとしながらも「スマートフォンのような操作感ではまだまだ難しすぎる。糸電話のように誰もが簡単に使えるレベルのサービスでないと真に普及しない」とユーザビリティについても触れながら自身の考えを示した。
-最後に、最も重要なのは人口の問題であると提言。これからの社会は人口が減少していく中で、AIエージェントが増加していく。そしてエージェント同士が連携し、ある種のAIエージェントの世界ができる。その中で生み出される富を、これまでの人類の経済の尺度で計ることが果たして本当に適切であるのかどうか。このことについての結論はまだ出されていないが、これからの社会を生きる上で考えていかなければならない問いであると結んだ。</p>
-<p>SoftBank World 2025で行われた全ての講演動画は同イベントの<a href="https://global.tm.softbank.jp/business/sbw/2025/?utm_source=ledgeai">サイト</a>から登録することで8月29日までオンデマンドで視聴できる。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ティアフォー、AIによる完全自動運転制御の設計を公開　2026年に全国50拠点で実証へ</title>
-      <link>https://ledge.ai/articles/tier4_ai_autonomous_driving_release</link>
-      <description><![CDATA[<p>2025年7月16日、東京都品川区に本社を置く自動運転技術開発企業ティアフォーは、AIがすべての運転判断を担うエンドツーエンド（E2E）方式の運転制御アーキテクチャを自社で開発し、同社が主導するオープンソース自動運転ソフトウェア「Autoware」のリポジトリ上で公開したと<a href="https://tier4.jp/media/detail/?sys_id=1quCnNijMhxHJAVhT7HgAj&amp;category=NEWS">発表</a>した。</p>
-<p>この技術は、運転中に遭遇する未知の環境やシナリオに対しても人間の介入なしで対応可能なレベル4+の自動運転を目指して設計されており、2026年春から国内50カ所の移動サービス拠点で順次導入・実証される予定だという。</p>
-<h2>公開されたE2Eアーキテクチャの概要</h2>
-<p>今回公開されたのは、画像やセンサー情報などをAIが直接解析し、ステアリングや加減速といった運転制御までを一貫して担うE2Eアーキテクチャである。ティアフォーによれば、ディープラーニング技術の中でも注目される「ディフュージョンモデル」を活用し、周囲の交通環境を精緻に予測しながら適切な運転挙動を決定する仕組みが導入されているという。</p>
-<p>このアーキテクチャは、主に以下の2つの要素から構成されている：</p>
-<ul>
-<li><strong>E2Eネットワーク（学習系）</strong> ：実際の人間の運転データを学習し、人間らしい判断と操作を模倣</li>
-<li><strong>ルールベースモジュール（非学習系）</strong> ：可読性や制御の安定性を確保し、E2Eの限界を補完</li>
-</ul>
-<p>学習には、実走行で得られた映像やセンサーデータに加え、シミュレーターによって生成された仮想的なデータも活用されており、現実世界の多様なケースへの対応力が強化されている。</p>
-<p><strong>多種多様なAIモデルを含むE2Eアーキテクチャの構築</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250716_Press_Release_Image_02_bb548314ad/20250716_Press_Release_Image_02_bb548314ad.png" alt="20250716_Press_Release_Image_02.png" /></p>
-<h2>実証導入とスケジュール</h2>
-<p>同社は2026年春から、全国50カ所の公共交通や物流拠点などにおいて本技術を搭載した車両を走行させ、E2Eアーキテクチャの有効性を検証するとしている。実証では、複雑な交差点や予測困難な状況における走行精度、安全性、車両間連携の可能性などが評価対象となる見通しだ。</p>
-<p>また、収集された実証データは引き続き学習に活用され、AIの運転判断能力を継続的に強化していく計画があるという。</p>
-<h2>背景と業界への波及</h2>
-<p>ティアフォーは、世界で初めてOSS（オープンソースソフトウェア）として自動運転ソフトウェア「Autoware」を公開した企業として知られており、国内外でその標準化と普及を推進している。今回のE2Eアーキテクチャ公開もその延長線上に位置づけられ、他の自動車メーカーや開発者との技術協調を促すことが狙いとされる。</p>
-<p>なお、日本政府は2027年までに100以上の自治体でレベル4自動運転サービスの導入を目標としており、今回の技術公開はその社会実装に向けた重要な技術基盤の一つとなる可能性がある。</p>
-<h2>今後の展開</h2>
-<p>同社は今後さらなるデータ拡充やマルチモーダルAIの統合により、同技術の汎用性と実用性の向上を図る方針だという。商用バス、ロボタクシー、物流ドローンなど、他領域への応用も視野に入れている。</p>
-<p>また、高齢化や人手不足が深刻な地域において、AIによる無人運転サービスの実用化が期待される中、本技術が地域交通の再構築や持続可能なモビリティ確保に寄与する可能性が注目されている。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
       <link>https://ledge.ai/articles/tokyo_ai_strategy_2025</link>
       <description><![CDATA[<p>東京都は2025年7月25日、<a href="https://www.digitalservice.metro.tokyo.lg.jp/business/ai/ai-strategy">「東京都AI戦略」</a>を策定・公表した。都民サービスの質向上と行政業務の生産性向上を目的に、生成AIを含むAI技術の活用を全庁横断で“面”展開していく方針を明示した。</p>
@@ -730,54 +700,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>戦略は、今後のロードマップとして、AIを行政運営の前提に据えた「AIネイティブ都市東京」を将来的なビジョンに据えている。都は今後、戦略に基づいた実装事例やKPIを段階的に公表していく予定であり、他自治体や企業にとっても注視すべき展開となる。</p>
 ]]></description>
       <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東大・松尾研の無料オンラインAI講座、累計7.5万人突破──30超の講座で“2040年326万人デジタル人材不足”に挑む</title>
-      <link>https://ledge.ai/articles/tokyo_university_ai_course_hits_75000_users</link>
-      <description><![CDATA[<p>2025年7月16日、東京大学大学院工学系研究科の松尾・岩澤研究室（以下、松尾研）は、2014年より提供するオンラインAI講座の累計受講者数が75,000人を突破したと<a href="https://weblab.t.u-tokyo.ac.jp/news/2025-07-16/">発表</a>した。</p>
-<p>講座では、AIやデータサイエンスをテーマに30以上の科目を無料でオンライン提供しており、中学生から大学院生まで、文理や地域を問わず受講可能である。経済産業省が推計する「2040年に326万人のデジタル人材不足」への対応策の一環として、同研究室は年間70,000人の受講者を目標に掲げている。</p>
-<h2>累計7.5万人到達の背景</h2>
-<p>松尾研のAI講座は2014年にスタートし、10年余りで急速に受講者数を伸ばしてきた。特に直近では、2024年度に約27,000人が受講し、2025年度には年間70,000人の受講者を目指すとしている。学年や専攻に関係なく、AIに関心を持つ学生に向けて門戸を広げてきたことが、大きな広がりを見せる要因となっている。</p>
-<h2>30超の講座を“無料・オンライン”で提供</h2>
-<p>松尾研では、年間30講座以上をオンラインで開講しており、受講料はすべて無料となっている。提供されている講座には、以下のようなものがある：</p>
-<ul>
-<li>GCI（グローバル消費インテリジェンス）入門講座</li>
-<li>ディープラーニング（基礎／応用）講座</li>
-<li>AIと半導体講座</li>
-<li>Physical AI講座</li>
-<li>AI起業サマープログラム</li>
-</ul>
-<p>中でも「GCI入門講座」は、累計3.1万人以上が受講しており、最も人気の高い講座の一つだという。</p>
-<h2>人材不足326万人→松尾研モデルが果たす役割</h2>
-<p>経済産業省の調査によると、2040年までに日本国内で最大326万人のデジタル人材が不足する見通しだとされている。この深刻な人材不足に対し、松尾研が展開するオンライン講座は、無料かつ地理的制約がないという利点を活かし、地方や海外にいる学生にも学習機会を提供している。こうした取り組みは、教育格差の是正と人材育成の底上げの両面で一定の効果を発揮していると考えられる。</p>
-<h2>学んだ知識を“机上で終わらせない”実践機会</h2>
-<p>松尾研では、講義で得た知識を現実のプロジェクトに活かす機会も提供している。企業との共同研究や、同研究室から生まれたスタートアップ企業でのインターンシップ、さらにAI起業をテーマにしたサマープログラムなど、実践的な取り組みが並行して進められている。受講者が自身のキャリアや事業化に直結させることができる点が、他の教育プログラムとの差別化要因となっている。</p>
-<h2>今後の展開──LLM講座やASEAN展開へ</h2>
-<p>今後の展望としては、大規模言語モデル（LLM）をテーマにした新講座を2025年8月より募集開始予定とされている。また、ASEANやアフリカ諸国への展開も本格化しており、グローバルな教育体制の整備が進んでいる。さらに、GCI講座は2025年10月から東京大学の正規科目として単位認定される予定であり、同講座のアカデミックな価値も高まりつつある。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>xAI、最高年収44万ドル「俺の嫁」開発エンジニアと、高額時給の日本語リモートAIチューターを募集——チャレンジしてみる？</title>
-      <link>https://ledge.ai/articles/xai_waifu_engineer_japanese_remote_tutor_hiring</link>
-      <description><![CDATA[<p>2025年7月下旬、米スタートアップxAIが、同社のAIチャットアプリ「Grok」における新機能拡充を目的に、カリフォルニア拠点で勤務する「<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">Fullstack Engineer – Waifus</a>」と、完全リモート勤務の「<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">AI Tutor – Japanese</a>」の2職種のフルタイム求人を公開した。最高年収は44万ドル、または時給65ドルに達し、特に日本語話者を対象としたリモート職は、高収入を狙える“穴場”として注目されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok_ani_ai_tutor_c84f1faec7/grok_ani_ai_tutor_c84f1faec7.jpg" alt="grok ani ai tutor.jpg" /></p>
-<h2>募集概要：Grokの体験性と多言語対応を支える2職種</h2>
-<p>xAIが今回募集しているのは、Grokに導入されたリアルタイムアバターの開発を担う「Fullstack Engineer – Waifus」と、日本語に特化したAI学習用データの整備を行う「AI Tutor – Japanese」である。</p>
-<p>「Waifus」エンジニア職は、同社が7月にリリースしたアニメ調キャラクター「Ani」や、パンダ型の「Rudi」「Bad Rudi」などの仮想アバター機能の通信速度やスケーラビリティを改善する役割を担う。勤務地はカリフォルニア州パロアルトまたはサンフランシスコで、年収は18万〜44万ドル。株式報酬や医療保険を含むシリコンバレー水準の待遇が提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">xAI公式求人</a>）。</p>
-<p>一方の日本語AIチューター職は、完全リモート勤務で、日本語テキスト・音声・動画のアノテーション業務を担う。6か月契約（延長可能）で、時給35〜65ドルに設定されており、医療・歯科など米国標準のベネフィットも提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">xAI公式求人</a>）。</p>
-<h2>“高収入×リモート”という新たな選択肢</h2>
-<p>注目の「AI Tutor – Japanese」は、日本在住の日本語話者でも応募可能。リモート前提での年収1,000万円超を狙える水準は、日本市場では稀少な“高収入リモート求人”と位置付けられる。</p>
-<p>業務内容もデータアノテーションというAI訓練用のデータ品質管理や語調調整などのラベル付け業務が中心で、AI開発未経験者でも専門性を活かせる設計となっている。録音・録画対応や文脈に応じた日本語表現の判断能力が問われるが、エンジニア職に比べると低い参入障壁と言えそうだ。</p>
-<h2>応募資格と選考プロセス</h2>
-<p>エンジニア職には、RustまたはPythonでの開発経験、WebRTC/WebSocketなどのリアルタイム通信技術の知識が求められ、iOS開発経験は歓迎される。チューター職には、日本語ネイティブレベルの言語能力、リサーチ力、録音・録画対応への抵抗がないことが求められる。</p>
-<p>両職種とも、OpenAIやAnthropicなど競合AI企業での就労との兼務は不可とされている。</p>
-<p>選考プロセスは、履歴書提出時に「Exceptional Work」と呼ばれる実績やプロジェクトの記述が必須で、続いて15〜30分の面談、技術課題、チーム面談と続く4段階構成で、全体を約1週間で完了するスピード感のあるプロセスとなっている。</p>
-<h2>GrokのUXとグローバル展開を加速</h2>
-<p>xAIは、2025年7月にAIコンパニオン機能として「Ani」「Rudi」「Bad Rudi」などのキャラクターを公開しており、ユーザーインタラクションのエンタメ性と多言語対応を強化する方針を明示している。</p>
-<p>今回の2職種の募集は、GrokのUX向上と、グローバル市場での対応力を高める戦略の一環と見られる。特に日本語対応強化は、日本市場への本格展開に向けた布石とも解釈できる。</p>
-]]></description>
-      <pubDate>Tue, 22 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
