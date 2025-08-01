@@ -210,38 +210,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
       <pubDate>Wed, 30 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ラーニング2025/7/30 [WED]ChatGPTが“答えを教えない”家庭教師に──OpenAI、「Study Mode（学習モード）」実装で思考力を鍛える</title>
-      <link>https://ledge.ai/articles/chatgpt_study_mode_thinking_assistant</link>
-      <description><![CDATA[<p>OpenAIは2025年7月29日（米国時間）、対話型AI「ChatGPT」に新機能「Study Mode（学習モード）」を追加したと<a href="https://openai.com/ja-JP/index/chatgpt-study-mode/">発表</a>した。</p>
-<p>この機能は、ユーザーに直接答えを与えるのではなく、ソクラテス式の質問や段階的なヒントを通じて思考プロセスを促進し、深い学びを支援することを目的としている。提供対象はFree／Plus／Pro／Teamの各プランで、ウェブ・iOS・Android・デスクトップ版すべてで即日利用可能。今後数週間以内には、教育機関向けの「ChatGPT Edu」プランでも展開予定としている。</p>
-<h2>ユーザー参加型の学習体験を設計</h2>
-<p>Study Modeは、チャット画面内の「Tools（ツール）」メニューから〈Study and learn〉を選択することで有効化される。機能が有効な状態では、ChatGPTが以下のような挙動をとる。</p>
-<ul>
-<li>ユーザーの目標やスキルレベルを把握し、それに応じた問いかけやヒントを提示</li>
-<li>複雑な情報を段階的に分解して提示する「スキャフォールディング」手法の活用</li>
-<li>会話履歴（メモリ）を活用したパーソナライズ対応</li>
-<li>小テスト形式の問題や、自由記述型の問いかけによる理解度チェック</li>
-<li>ワンタップで機能のオン／オフ切替が可能</li>
-</ul>
-<p>OpenAIによれば、こうした設計は「学習者が自ら考えることに能動的に関わるよう促すこと」を重視しており、教育分野の研究成果をもとに設計されている。</p>
-<h2>教育の専門家と連携して設計</h2>
-<p>Study Modeの開発には、教育学・認知科学の専門家や現場の教師が関与しており、学習の質を高める5つの行動原則が基盤となっている。</p>
-<ul>
-<li>能動的な参加の促進</li>
-<li>認知負荷の最適化</li>
-<li>メタ認知（自分の考え方を客観視する力）の強化</li>
-<li>好奇心を喚起する設問の提示</li>
-<li>建設的なフィードバックの提供</li>
-</ul>
-<p>OpenAIは、これらの原則に基づいた対話を通じて、AIとのインタラクションそのものを学習の一環とすることを狙っている。</p>
-<h2>今後の拡張も視野に</h2>
-<p>同社は今後の機能拡張として、図表やチャートなど視覚的な補助ツールの追加、会話全体を横断するゴール設定機能、進捗のトラッキング機能などを検討中としている。また、現時点ではカスタム指示で実装されている行動設計を、将来的にはモデル自体に統合していく方針も明らかにしている。</p>
-<p>この動きは、教育領域におけるAI活用のトレンドとも一致しており、Anthropic「Claude Tutor」、Google「Gemini Learn」など、各社が生成AIを用いた個別学習支援に注力している。</p>
-<p>OpenAIは今回のアップデートを「第一歩」と位置づけており、将来的には教育機関や研究者との連携を通じて、教育AIの質と信頼性を高めていくとしている。</p>
-]]></description>
-      <pubDate>Wed, 30 Jul 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Penrose、LLMが実際のビジネス現場でどこまで正確に決算処理できるかを評価するベンチマーク「AccountingBench」公開──“1つのミスが雪だるま式に拡大”する現場精度を検証</title>
       <link>https://ledge.ai/articles/llm_accounting_benchmark_penrose</link>
       <description><![CDATA[<p>米会計ソフトウェア開発企業Penroseは2025年7月下旬、大規模言語モデル（LLM）が実際のビジネス現場でどこまで正確に「月次決算」を処理できるかを評価するベンチマーク「AccountingBench」を<a href="https://accounting.penrose.com/">公開</a>した。これは従来の一問一答型テストとは異なり、1つの判断ミスが後続の処理に影響を与え、時間とともに誤差が蓄積する実業務の構造を反映した設計となっている。</p>
@@ -405,6 +373,38 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>高性能なAIソリューションが次々と登場する中で、「感情に寄り添うAI」も注目ポイントになっている。スマートシティの実現やロボティクスの普及が見込まれていく中、AIはより深く人々の日常に入り込もうとしている。その未来において、ユーザーとの双方向の対話を可能にする「会話特化型AI」は今後、重要な役割を担う存在となり、「AI AVATAR」はその最前線を走るサービスである。</p>
 <p>孤独という社会課題への取り組みや個人の行動継続支援、ユーザーとブランドとの新しい接点の創出を通じて、AIアバターは、人とAIが感情でつながる社会の実現へ、着実に歩みを進めている。</p>
 <p>Sponsored by 株式会社AIアバター</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ラーニング2025/7/30 [WED]ChatGPTが“答えを教えない”家庭教師に──OpenAI、「Study Mode（学習モード）」実装で思考力を鍛える</title>
+      <link>https://ledge.ai/articles/chatgpt_study_mode_thinking_assistant</link>
+      <description><![CDATA[<p>OpenAIは2025年7月29日（米国時間）、対話型AI「ChatGPT」に新機能「Study Mode（学習モード）」を追加したと<a href="https://openai.com/ja-JP/index/chatgpt-study-mode/">発表</a>した。</p>
+<p>この機能は、ユーザーに直接答えを与えるのではなく、ソクラテス式の質問や段階的なヒントを通じて思考プロセスを促進し、深い学びを支援することを目的としている。提供対象はFree／Plus／Pro／Teamの各プランで、ウェブ・iOS・Android・デスクトップ版すべてで即日利用可能。今後数週間以内には、教育機関向けの「ChatGPT Edu」プランでも展開予定としている。</p>
+<h2>ユーザー参加型の学習体験を設計</h2>
+<p>Study Modeは、チャット画面内の「Tools（ツール）」メニューから〈Study and learn〉を選択することで有効化される。機能が有効な状態では、ChatGPTが以下のような挙動をとる。</p>
+<ul>
+<li>ユーザーの目標やスキルレベルを把握し、それに応じた問いかけやヒントを提示</li>
+<li>複雑な情報を段階的に分解して提示する「スキャフォールディング」手法の活用</li>
+<li>会話履歴（メモリ）を活用したパーソナライズ対応</li>
+<li>小テスト形式の問題や、自由記述型の問いかけによる理解度チェック</li>
+<li>ワンタップで機能のオン／オフ切替が可能</li>
+</ul>
+<p>OpenAIによれば、こうした設計は「学習者が自ら考えることに能動的に関わるよう促すこと」を重視しており、教育分野の研究成果をもとに設計されている。</p>
+<h2>教育の専門家と連携して設計</h2>
+<p>Study Modeの開発には、教育学・認知科学の専門家や現場の教師が関与しており、学習の質を高める5つの行動原則が基盤となっている。</p>
+<ul>
+<li>能動的な参加の促進</li>
+<li>認知負荷の最適化</li>
+<li>メタ認知（自分の考え方を客観視する力）の強化</li>
+<li>好奇心を喚起する設問の提示</li>
+<li>建設的なフィードバックの提供</li>
+</ul>
+<p>OpenAIは、これらの原則に基づいた対話を通じて、AIとのインタラクションそのものを学習の一環とすることを狙っている。</p>
+<h2>今後の拡張も視野に</h2>
+<p>同社は今後の機能拡張として、図表やチャートなど視覚的な補助ツールの追加、会話全体を横断するゴール設定機能、進捗のトラッキング機能などを検討中としている。また、現時点ではカスタム指示で実装されている行動設計を、将来的にはモデル自体に統合していく方針も明らかにしている。</p>
+<p>この動きは、教育領域におけるAI活用のトレンドとも一致しており、Anthropic「Claude Tutor」、Google「Gemini Learn」など、各社が生成AIを用いた個別学習支援に注力している。</p>
+<p>OpenAIは今回のアップデートを「第一歩」と位置づけており、将来的には教育機関や研究者との連携を通じて、教育AIの質と信頼性を高めていくとしている。</p>
 ]]></description>
       <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
     </item>
@@ -624,28 +624,6 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
       <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>xAI、最高年収44万ドル「俺の嫁」開発エンジニアと、高額時給の日本語リモートAIチューターを募集——チャレンジしてみる？</title>
-      <link>https://ledge.ai/articles/xai_waifu_engineer_japanese_remote_tutor_hiring</link>
-      <description><![CDATA[<p>2025年7月下旬、米スタートアップxAIが、同社のAIチャットアプリ「Grok」における新機能拡充を目的に、カリフォルニア拠点で勤務する「<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">Fullstack Engineer – Waifus</a>」と、完全リモート勤務の「<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">AI Tutor – Japanese</a>」の2職種のフルタイム求人を公開した。最高年収は44万ドル、または時給65ドルに達し、特に日本語話者を対象としたリモート職は、高収入を狙える“穴場”として注目されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok_ani_ai_tutor_c84f1faec7/grok_ani_ai_tutor_c84f1faec7.jpg" alt="grok ani ai tutor.jpg" /></p>
-<h2>募集概要：Grokの体験性と多言語対応を支える2職種</h2>
-<p>xAIが今回募集しているのは、Grokに導入されたリアルタイムアバターの開発を担う「Fullstack Engineer – Waifus」と、日本語に特化したAI学習用データの整備を行う「AI Tutor – Japanese」である。</p>
-<p>「Waifus」エンジニア職は、同社が7月にリリースしたアニメ調キャラクター「Ani」や、パンダ型の「Rudi」「Bad Rudi」などの仮想アバター機能の通信速度やスケーラビリティを改善する役割を担う。勤務地はカリフォルニア州パロアルトまたはサンフランシスコで、年収は18万〜44万ドル。株式報酬や医療保険を含むシリコンバレー水準の待遇が提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4789505007">xAI公式求人</a>）。</p>
-<p>一方の日本語AIチューター職は、完全リモート勤務で、日本語テキスト・音声・動画のアノテーション業務を担う。6か月契約（延長可能）で、時給35〜65ドルに設定されており、医療・歯科など米国標準のベネフィットも提供される（<a href="https://job-boards.greenhouse.io/xai/jobs/4593416007">xAI公式求人</a>）。</p>
-<h2>“高収入×リモート”という新たな選択肢</h2>
-<p>注目の「AI Tutor – Japanese」は、日本在住の日本語話者でも応募可能。リモート前提での年収1,000万円超を狙える水準は、日本市場では稀少な“高収入リモート求人”と位置付けられる。</p>
-<p>業務内容もデータアノテーションというAI訓練用のデータ品質管理や語調調整などのラベル付け業務が中心で、AI開発未経験者でも専門性を活かせる設計となっている。録音・録画対応や文脈に応じた日本語表現の判断能力が問われるが、エンジニア職に比べると低い参入障壁と言えそうだ。</p>
-<h2>応募資格と選考プロセス</h2>
-<p>エンジニア職には、RustまたはPythonでの開発経験、WebRTC/WebSocketなどのリアルタイム通信技術の知識が求められ、iOS開発経験は歓迎される。チューター職には、日本語ネイティブレベルの言語能力、リサーチ力、録音・録画対応への抵抗がないことが求められる。</p>
-<p>両職種とも、OpenAIやAnthropicなど競合AI企業での就労との兼務は不可とされている。</p>
-<p>選考プロセスは、履歴書提出時に「Exceptional Work」と呼ばれる実績やプロジェクトの記述が必須で、続いて15〜30分の面談、技術課題、チーム面談と続く4段階構成で、全体を約1週間で完了するスピード感のあるプロセスとなっている。</p>
-<h2>GrokのUXとグローバル展開を加速</h2>
-<p>xAIは、2025年7月にAIコンパニオン機能として「Ani」「Rudi」「Bad Rudi」などのキャラクターを公開しており、ユーザーインタラクションのエンタメ性と多言語対応を強化する方針を明示している。</p>
-<p>今回の2職種の募集は、GrokのUX向上と、グローバル市場での対応力を高める戦略の一環と見られる。特に日本語対応強化は、日本市場への本格展開に向けた布石とも解釈できる。</p>
-]]></description>
-      <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>東北大、ロボットが “触って考える” 視覚と触覚のマルチモーダルAIモデル「TactileAloha（タクタイル・アロハ）」を公開—結束バンド挿入や面ファスナーの接着を可能に</title>
       <link>https://ledge.ai/articles/tohoku_university_tactilealoha_robot_ai_zip_tie_velcro</link>
       <description><![CDATA[<p>2025年7月14日、東北大学大学院工学研究科の林部充宏教授ら研究チームは、ロボットが触覚センサーから得た情報を基に自律的な行動計画を行うAI「TactileAloha（タクタイル・アロハ）」を開発したと<a href="https://www.tohoku.ac.jp/japanese/2025/07/press20250714-02-robot.html">発表</a>した。</p>
@@ -664,6 +642,50 @@ RLHF（人間フィードバックを活用した強化学習）による表情�
 <p>研究チームは今後、より多様な触覚センサーやモバイルロボットプラットフォームへの適用を視野に入れ、ロボティクス分野の研究者・企業との連携を促すため、学習データセットやモデルの一部を公開する予定だとしている。</p>
 ]]></description>
       <pubDate>Mon, 28 Jul 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
+      <link>https://ledge.ai/articles/tokyo_ai_strategy_2025</link>
+      <description><![CDATA[<p>東京都は2025年7月25日、<a href="https://www.digitalservice.metro.tokyo.lg.jp/business/ai/ai-strategy">「東京都AI戦略」</a>を策定・公表した。都民サービスの質向上と行政業務の生産性向上を目的に、生成AIを含むAI技術の活用を全庁横断で“面”展開していく方針を明示した。</p>
+<p>今後は、庁内外のさまざまな領域でAIの導入を本格化させ、都市の持続可能性と競争力の両立を目指すという。</p>
+<h2>人口減少と行政課題の複雑化に対応、戦略の背景</h2>
+<p>東京都は本戦略において、少子高齢化と人口減少による労働力不足、複雑化・多様化する行政課題を今後の都政の大きな制約要因として挙げている。2065年には都の人口が2020年比で約1割減となる推計も示されており、人的資源に依存しない行政の実現が喫緊の課題となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyo_2065_973c3bcde0/tokyo_2065_973c3bcde0.jpg" alt="tokyo 2065.jpg" /></p>
+<p>こうした背景のもと、都は生成AIをはじめとするAI技術を「2050東京戦略」の中核技術と位置づけ、従来の“点”の実証から“面”での全庁展開へと政策の転換を図ると明言した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy2_6c78bee684/tokyoai_strategy2_6c78bee684.jpg" alt="tokyoai strategy2.jpg" /></p>
+<h2>AI利活用に当たっての6つの留意事項とリスク管理</h2>
+<p>東京都AI戦略は、生成AIを含むあらゆるAI技術を導入する際の指針として、次の 6つの留意事項 を示している。</p>
+<ul>
+<li><strong>透明性</strong> ：AIがどのように判断し、結果を導いたかを説明できる状態を確保する。</li>
+<li><strong>公平性</strong> ：アルゴリズムによる差別を防ぎ、すべての都民に公平にサービスを提供する。</li>
+<li><strong>安全性</strong> ：AIの誤作動や想定外の挙動によるリスクを最小化する。</li>
+<li><strong>プライバシー</strong> ：個人情報を適切に取り扱い、法令・ガイドラインを順守する。</li>
+<li><strong>セキュリティ</strong>：サイバー攻撃やデータ侵害からシステムと情報を守る。</li>
+<li><strong>アカウンタビリティ（説明責任）</strong> ：AI導入の責任主体を明確にし、結果に対して説明できる体制を整える。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy3_756cc67377/tokyoai_strategy3_756cc67377.jpg" alt="tokyoai strategy3.jpg" /></p>
+<p>さらに都は、業務ごとのリスクを「青（低リスク）」「黄（中リスク）」「赤（高リスク）」の3段階で評価し、活用範囲と管理レベルを段階的に設定する仕組みを導入する。これにより、利便性と安全性のバランスを取りながら、AIを都政の中核に据えていく方針だという。</p>
+<h2>生成AI基盤を庁内標準に、都政業務を再設計</h2>
+<p>戦略の柱のひとつが、GovTech東京と連携した生成AI共通プラットフォームの整備である。都の規程や業務マニュアルなどを学習させたAIを用い、職員が専門的な質問に即応できるQ&amp;Aシステムや、議事録自動生成、文案作成支援などの用途を想定している。用途に応じた複数の大規模言語モデル（LLM）を選択可能にするなど、柔軟性の高い運用体制も特徴とされる。</p>
+<p>加えて、都は生成AIの利活用について、共通ツールの導入にとどまらず、職員研修や相談窓口の設置などを通じて、リテラシーと業務改革の両面から支援していくとした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy4_60d00ddb21/tokyoai_strategy4_60d00ddb21.jpg" alt="tokyoai strategy4.jpg" /></p>
+<h2>現状分析：庁内活用95％、インフラ関連が最多31％</h2>
+<p>東京都が把握する AI関連事業のうち 95％ は、申請・審査、設備管理など都庁内部での業務改善を目的とした「都政におけるAI利活用」が占める。残る 5％ は、民間企業へのAI導入支援や人材育成などの補助事業に充てられている。</p>
+<p>「都政におけるAI利活用」を政策分野別に見ると、
+インフラ・まちづくり が 31％ で最多。
+以下、その他（税・財務等）17％、産業・雇用15％、子供・教育11％、安全・安心8％、福祉・医療7％、文化・スポーツ6％、共通基盤6％ と続く。</p>
+<p>主体別では、職員主体 63％／都民・事業者主体 37％ となっており、現時点では職員向けツールが依然として中心であることが分かる</p>
+<p><strong>東京都におけるAI関連事業の内訳と政策分野別比率</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy6_b5ca5118d1/tokyoai_strategy6_b5ca5118d1.jpg" alt="tokyoai strategy6.jpg" /></p>
+<p>この偏りを是正する形で、戦略では“都民サービス領域へのAI展開”を明確な重点項目として掲げている。</p>
+<h2>推進体制と今後の展開</h2>
+<p>推進体制としては、デジタルサービス局が全体統括の役割を担い、政策立案・財務支援・技術支援の三位一体で全庁をサポートする。各局には「AI利活用推進責任者」が新設され、CIO補佐官やGovTech東京が伴走型支援を実施する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy5_f77cfbb052/tokyoai_strategy5_f77cfbb052.jpg" alt="tokyoai strategy5.jpg" /></p>
+<p>また、区市町村・国・民間企業との連携体制も強化し、スタートアップとの協働や中小企業支援、教育機関との人材育成プログラムなどを通じて、都全体でAIの社会実装を進める構えである。</p>
+<h2>都はAIネイティブ都市へと進化できるか</h2>
+<p>戦略は、今後のロードマップとして、AIを行政運営の前提に据えた「AIネイティブ都市東京」を将来的なビジョンに据えている。都は今後、戦略に基づいた実装事例やKPIを段階的に公表していく予定であり、他自治体や企業にとっても注視すべき展開となる。</p>
+]]></description>
+      <pubDate>Mon, 28 Jul 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>DeepL、Zoomとの連携でリアルタイム翻訳機能を拡張──音声認識精度向上と文字起こしダウンロードも可能に</title>
@@ -725,50 +747,6 @@ DeepLのCEO、ヤロスワフ・クテロフスキー氏は、次のように述
 <p>ナデラ氏はメッセージの締めくくりとして、来週予定されている同社の決算発表および、次回の全社向けタウンホールにて、これらの戦略と文化変革についてさらに詳しく説明すると予告している。今回の発信は、新年度の始まりとともにMicrosoftが次なるAI時代へ歩を進める節目を明確に示すものとなった。</p>
 ]]></description>
       <pubDate>Sun, 27 Jul 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
-      <link>https://ledge.ai/articles/tokyo_ai_strategy_2025</link>
-      <description><![CDATA[<p>東京都は2025年7月25日、<a href="https://www.digitalservice.metro.tokyo.lg.jp/business/ai/ai-strategy">「東京都AI戦略」</a>を策定・公表した。都民サービスの質向上と行政業務の生産性向上を目的に、生成AIを含むAI技術の活用を全庁横断で“面”展開していく方針を明示した。</p>
-<p>今後は、庁内外のさまざまな領域でAIの導入を本格化させ、都市の持続可能性と競争力の両立を目指すという。</p>
-<h2>人口減少と行政課題の複雑化に対応、戦略の背景</h2>
-<p>東京都は本戦略において、少子高齢化と人口減少による労働力不足、複雑化・多様化する行政課題を今後の都政の大きな制約要因として挙げている。2065年には都の人口が2020年比で約1割減となる推計も示されており、人的資源に依存しない行政の実現が喫緊の課題となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyo_2065_973c3bcde0/tokyo_2065_973c3bcde0.jpg" alt="tokyo 2065.jpg" /></p>
-<p>こうした背景のもと、都は生成AIをはじめとするAI技術を「2050東京戦略」の中核技術と位置づけ、従来の“点”の実証から“面”での全庁展開へと政策の転換を図ると明言した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy2_6c78bee684/tokyoai_strategy2_6c78bee684.jpg" alt="tokyoai strategy2.jpg" /></p>
-<h2>AI利活用に当たっての6つの留意事項とリスク管理</h2>
-<p>東京都AI戦略は、生成AIを含むあらゆるAI技術を導入する際の指針として、次の 6つの留意事項 を示している。</p>
-<ul>
-<li><strong>透明性</strong> ：AIがどのように判断し、結果を導いたかを説明できる状態を確保する。</li>
-<li><strong>公平性</strong> ：アルゴリズムによる差別を防ぎ、すべての都民に公平にサービスを提供する。</li>
-<li><strong>安全性</strong> ：AIの誤作動や想定外の挙動によるリスクを最小化する。</li>
-<li><strong>プライバシー</strong> ：個人情報を適切に取り扱い、法令・ガイドラインを順守する。</li>
-<li><strong>セキュリティ</strong>：サイバー攻撃やデータ侵害からシステムと情報を守る。</li>
-<li><strong>アカウンタビリティ（説明責任）</strong> ：AI導入の責任主体を明確にし、結果に対して説明できる体制を整える。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy3_756cc67377/tokyoai_strategy3_756cc67377.jpg" alt="tokyoai strategy3.jpg" /></p>
-<p>さらに都は、業務ごとのリスクを「青（低リスク）」「黄（中リスク）」「赤（高リスク）」の3段階で評価し、活用範囲と管理レベルを段階的に設定する仕組みを導入する。これにより、利便性と安全性のバランスを取りながら、AIを都政の中核に据えていく方針だという。</p>
-<h2>生成AI基盤を庁内標準に、都政業務を再設計</h2>
-<p>戦略の柱のひとつが、GovTech東京と連携した生成AI共通プラットフォームの整備である。都の規程や業務マニュアルなどを学習させたAIを用い、職員が専門的な質問に即応できるQ&amp;Aシステムや、議事録自動生成、文案作成支援などの用途を想定している。用途に応じた複数の大規模言語モデル（LLM）を選択可能にするなど、柔軟性の高い運用体制も特徴とされる。</p>
-<p>加えて、都は生成AIの利活用について、共通ツールの導入にとどまらず、職員研修や相談窓口の設置などを通じて、リテラシーと業務改革の両面から支援していくとした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy4_60d00ddb21/tokyoai_strategy4_60d00ddb21.jpg" alt="tokyoai strategy4.jpg" /></p>
-<h2>現状分析：庁内活用95％、インフラ関連が最多31％</h2>
-<p>東京都が把握する AI関連事業のうち 95％ は、申請・審査、設備管理など都庁内部での業務改善を目的とした「都政におけるAI利活用」が占める。残る 5％ は、民間企業へのAI導入支援や人材育成などの補助事業に充てられている。</p>
-<p>「都政におけるAI利活用」を政策分野別に見ると、
-インフラ・まちづくり が 31％ で最多。
-以下、その他（税・財務等）17％、産業・雇用15％、子供・教育11％、安全・安心8％、福祉・医療7％、文化・スポーツ6％、共通基盤6％ と続く。</p>
-<p>主体別では、職員主体 63％／都民・事業者主体 37％ となっており、現時点では職員向けツールが依然として中心であることが分かる</p>
-<p><strong>東京都におけるAI関連事業の内訳と政策分野別比率</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy6_b5ca5118d1/tokyoai_strategy6_b5ca5118d1.jpg" alt="tokyoai strategy6.jpg" /></p>
-<p>この偏りを是正する形で、戦略では“都民サービス領域へのAI展開”を明確な重点項目として掲げている。</p>
-<h2>推進体制と今後の展開</h2>
-<p>推進体制としては、デジタルサービス局が全体統括の役割を担い、政策立案・財務支援・技術支援の三位一体で全庁をサポートする。各局には「AI利活用推進責任者」が新設され、CIO補佐官やGovTech東京が伴走型支援を実施する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tokyoai_strategy5_f77cfbb052/tokyoai_strategy5_f77cfbb052.jpg" alt="tokyoai strategy5.jpg" /></p>
-<p>また、区市町村・国・民間企業との連携体制も強化し、スタートアップとの協働や中小企業支援、教育機関との人材育成プログラムなどを通じて、都全体でAIの社会実装を進める構えである。</p>
-<h2>都はAIネイティブ都市へと進化できるか</h2>
-<p>戦略は、今後のロードマップとして、AIを行政運営の前提に据えた「AIネイティブ都市東京」を将来的なビジョンに据えている。都は今後、戦略に基づいた実装事例やKPIを段階的に公表していく予定であり、他自治体や企業にとっても注視すべき展開となる。</p>
-]]></description>
-      <pubDate>Thu, 24 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
