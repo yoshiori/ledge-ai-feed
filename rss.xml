@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国Z.ai、MoE型LLM「GLM-4.5」をオープンソース化：フラッグシップ＆軽量モデルを同時リリース、Claude級性能を訴求</title>
+      <link>https://ledge.ai/articles/zai_glm45_open_llm_release</link>
+      <description><![CDATA[<p>中国のAIスタートアップZ.ai（旧Zhipu AI）は2025年7月28日、大規模言語モデル（LLM）「GLM-4.5」およびその軽量版「GLM-4.5-Air」を正式に<a href="https://z.ai/blog/glm-4.5">公開</a>した。両モデルはMixture-of-Experts（MoE）構造を採用し、長文処理、コード生成、エージェント用途を統合的にカバーする設計が特徴。GLM-4.5シリーズは、Apache 2.0ライセンスのもと、Hugging FaceおよびModelScopeで即日ダウンロード可能であり、Z.aiが提供するOpenAI互換APIからも利用できるようになっている。</p>
+<h2>GLM-4.5とGLM-4.5-Airのモデル構成</h2>
+<p>今回公開されたGLM-4.5は、総パラメータ数3550億（355B）、うちアクティブパラメータは32Bの構成となっている。軽量版のGLM-4.5-Airは、総パラメータ数106B、アクティブパラメータ12Bと、少ない計算資源で運用可能な設計だ。両モデルとも、推論高速化のためにGrouped-Query Attention（GQA）と拡張RoPE（Rotary Position Embedding）を組み合わせており、入力トークン数は最大12万8千（128K）に対応する。</p>
+<h2>推論モードの切り替えによる柔軟性</h2>
+<p>GLM-4.5シリーズは、用途に応じて2種類の推論モードを持つ。「Thinkingモード」では複雑な論理推論やツール利用が可能となり、「Instantモード」では高速な応答処理が行える。これにより、検索エージェント、コードアシスタント、長文要約といった幅広いユースケースへの適用が可能としている。</p>
+<h2>ベンチマーク結果：Claude 4 Sonnetに匹敵</h2>
+<p>Z.aiによれば、GLM-4.5は12種類のベンチマークを総合したパフォーマンスでオープンソースモデル中3位、GLM-4.5-Airは6位に位置付けられている。特にタスク型エージェントの評価指標「τ-bench」や長文読み取り能力を測る「BFCL-v3」において、AnthropicのClaude 4 Sonnetと同等水準のスコアを記録したという。</p>
+<p>また、コード生成分野では、SWE-bench Verifiedで64.2％、Terminal-Benchでは37.5％の達成率を記録しており、同社はプログラミング支援にも強みを持つことを示している。</p>
+<p><strong>■ 12種ベンチマーク総合スコアでGLM-4.5はオープンモデル3位、Airは6位を記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250729_141203_8e300670fe/20250729_141203_8e300670fe.jpg" alt="20250729-141203.jpg" /></p>
+<h2>Apache 2.0ライセンスでの公開とAPI対応</h2>
+<p>GLM-4.5およびGLM-4.5-Airは、商用利用も可能なApache 2.0ライセンスで公開されており、Hugging FaceおよびModelScope上で重みファイルを入手可能。Z.aiが提供するAPIでは、OpenAI互換のエンドポイントを通じて利用でき、既存のツールやライブラリへの統合も容易だとしている。</p>
+<p><strong>■ GLM-4.5シリーズの生成速度と価格帯</strong> ：ハイエンド版「4.5X」は最大100 tokens/sをうたう
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/benchmark2_30db2a9f7e/benchmark2_30db2a9f7e.png" alt="benchmark2.png" /></p>
+<h2>モデル設計と強化学習基盤「slime」</h2>
+<p>同社はGLM-4.5シリーズにおいて、深層MoE構造やQK-Norm、低精度推論のためのMuon最適化手法を採用。さらに、エージェントタスクへの適応のために独自の強化学習基盤「slime」を開発・実装している。この基盤上での大規模フィードバック学習を通じて、タスク実行性能と意思決定精度を向上させたとされる。</p>
+<p><strong>■ 独自RL基盤「slime」の学習フロー：</strong> 分散GPUクラスタとsclangサーバでオンライン更新を行う
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/B1p_J_J_Svxx_93df52e6c0/B1p_J_J_Svxx_93df52e6c0.jpg" alt="B1pJ-JSvxx.jpg" /></p>
+<h2>今後の展開</h2>
+<p>中国では2024年から2025年にかけて1,500以上のLLMが公開され、急速な競争が進んでいる。Z.aiのGLM-4.5シリーズは、その中でもパラメータ規模・性能・ライセンスの面で他社との差別化を図っており、企業や研究機関にとっては高性能なオープンモデルの選択肢となりうる。</p>
+<p>同社は今後、GLM-4.5シリーズに対して効率化のための蒸留（distillation）や量子化（quantization）も行っていく予定であるとしている。</p>
+]]></description>
+      <pubDate>Thu, 31 Jul 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>阪大と理研、国産量子コンピューターをクラウド公開──Q-LEAPがけん引する国産量子技術のエコシステム──28量子ビットで“純国産”時代を先導”</title>
       <link>https://ledge.ai/articles/osaka_quantum_cloud_stack_2025</link>
       <description><![CDATA[<p>大阪大学量子情報・量子生命研究センター（QIQB）は2025年7月28日、日本企業・研究機関と共同で開発した日本初の“純国産”超伝導量子コンピューターの稼働開始を<a href="https://qiqb.osaka-u.ac.jp/newstopics/pr20250728">発表</a>した。</p>
