@@ -5,7 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>数字だけで“フクロウ好き”が移る？──Anthropicらが暴いたLLMの「サブリミナル学習」</title>
+      <title>Google DeepMind、「AlphaEarth Foundations」発表──衛星・レーダー・気候データを1ピクセル64次元に凝縮</title>
+      <link>https://ledge.ai/articles/alphaearth_satellite_embedding_release</link>
+      <description><![CDATA[<p>Google DeepMindは2025年7月30日、光学衛星・SAR（合成開口レーダー）・LiDAR・重力場・気候シミュレーションなど多様な地球観測データを横断的に統合するAIモデル 「AlphaEarth Foundations」 を<a href="https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/">発表</a>した。</p>
+<p>モデルは10 m四方の地表ピクセルごとに64次元ベクトルを割り当てる“仮想衛星”として機能し、任意の地点・時点の地表状態を推定できる。土地利用分類、森林減少監視、災害リスク評価など広範な応用が期待される。</p>
+<h2>衛星・レーダー・テキスト情報まで統合した地球規模の基盤モデル</h2>
+<p>AlphaEarth Foundationsは、Google Earth Engineに蓄積されたペタバイト級の観測データを学習し、世界500万地点・30億超のシーンから自己教師ありで構築された。従来の衛星画像処理で課題だったセンサー間の不整合や雲除去などを、統一的なベクトル表現で吸収する設計だ。</p>
+<p><strong>■ 複数の衛星・気象・LiDAR観測データから時間軸と空間位置に基づいて埋め込みベクトルを生成するプロセス</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_3e38f862a0/unnamed_3e38f862a0.gif" alt="unnamed.gif" /></p>
+<p>特に注目されるのはピクセル単位64次元ベクトルである。従来の可視光・近赤外バンドなどを置き換え、AIが自律的に意味情報を圧縮。2017年以降の年次タイムシリーズを保持し、森林の季節変化や氷床後退も追跡できる。</p>
+<p><strong>■ 地球全体にわたる64次元埋め込みフィールド。各ピクセルが多次元ベクトルとして符号化され、機械学習に即利用できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Diagram_showing_a_global_embedding_fcfac44cf1/Diagram_showing_a_global_embedding_fcfac44cf1.jpg" alt="Diagram showing a global embedding.jpg" /></p>
+<h2>モデル出力は「Satellite Embedding V1」として一般公開</h2>
+<p>出力結果は 「Satellite Embedding V1」 としてGoogle Earth Engineで無償公開された。クラウドマスキングや大気補正を省いた解析準備済みデータで、2017〜2022年の各年について64次元ベクトルを提供。現在は緯度±56°を中心にカバーしている。</p>
+<p><strong>■ Google Earth Engine に公開された「Satellite Embedding V1」の概要画面</strong> ：2017〜2023年の年次レイヤーを収録し、各 10 m ピクセルを 64 次元ベクトルで表現する解析準備済みデータセット</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_yu_C1_XH_Yah_QQ_Ez_Not3p1_g_b65e13b582/1_yu_C1_XH_Yah_QQ_Ez_Not3p1_g_b65e13b582.webp" alt="1_yuC1XHYah-QQEzNot3p1_g.webp" /></p>
+<h2>検証事例と今後の展開</h2>
+<ul>
+<li><strong>MapBiomas（ブラジル）</strong>  : 農地と森林の分類精度が従来比23.9％向上。</li>
+<li><strong>サスカチュワン州（カナダ）</strong>  : 雪と農地が混在する環境下でも高精度の土地区分を実証。</li>
+<li><strong>熱帯雨林・湿地モニタリング</strong>  : 違法伐採や湿地消失の早期検知へ応用が進む。</li>
+</ul>
+<p>Googleは高緯度地域のカバレッジ拡大、次元最適化、時系列精度向上を計画。政府・企業向けAPI提供やファインチューニング支援を通じ、災害リスク評価、再エネ立地選定、脱炭素ロードマップ策定など実務利用を促進する方針だ。</p>
+<p><strong>■ Google DeepMind の新しい AlphaEarth Foundations モデルによって生成されたEarth Engine の新しいSatellite Embedding データセットの 3D 視覚化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d.gif" alt="1_kSwKKfPsec7CLgWhpgow2g.gif" /></p>
+]]></description>
+      <pubDate>Sun, 03 Aug 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>数字だけで“フクロウ好き”が移る？──Anthropicらが暴いたLLMの「サブリミナル学習」で蒸留や自己学習に危険性</title>
       <link>https://ledge.ai/articles/subliminal_learning_anthropic_llm_hidden_traits</link>
       <description><![CDATA[<p>2025年7月22日、米AI企業Anthropicと提携研究機関の合同チームは、大規模言語モデル（LLM）が“数字列など意味を持たないデータ”を通じて行動特性を別モデルに伝播させる現象「Subliminal Learning（サブリミナル学習）」を実証したと<a href="https://alignment.anthropic.com/2025/subliminal-learning/">発表</a>した。</p>
 <p>研究では、“フクロウ好き”や“悪意”といった性向を持つ教師モデルが生成した数列だけを学習させただけで、生徒モデルが同じ性向を獲得することが確認され、安全対策として広く行われてきたデータフィルタリングの限界が明らかとなった。</p>
@@ -770,26 +798,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>今後の展望としては、大規模言語モデル（LLM）をテーマにした新講座を2025年8月より募集開始予定とされている。また、ASEANやアフリカ諸国への展開も本格化しており、グローバルな教育体制の整備が進んでいる。さらに、GCI講座は2025年10月から東京大学の正規科目として単位認定される予定であり、同講座のアカデミックな価値も高まりつつある。</p>
 ]]></description>
       <pubDate>Mon, 28 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東北大、ロボットが “触って考える” 視覚と触覚のマルチモーダルAIモデル「TactileAloha（タクタイル・アロハ）」を公開—結束バンド挿入や面ファスナーの接着を可能に</title>
-      <link>https://ledge.ai/articles/tohoku_university_tactilealoha_robot_ai_zip_tie_velcro</link>
-      <description><![CDATA[<p>2025年7月14日、東北大学大学院工学研究科の林部充宏教授ら研究チームは、ロボットが触覚センサーから得た情報を基に自律的な行動計画を行うAI「TactileAloha（タクタイル・アロハ）」を開発したと<a href="https://www.tohoku.ac.jp/japanese/2025/07/press20250714-02-robot.html">発表</a>した。</p>
-<p>この技術は、ロボットアームに搭載した高精度の触覚センサーと深層学習モデルを組み合わせ、結束バンドの挿入や面ファスナーの接着といった繊細な作業で従来比約11％の成功率向上を実現したという。製造業や物流、医療・介護領域など、精密な接触操作が求められる現場への応用が期待される。</p>
-<p><strong>■ 4本のロボットアームと上部カメラで構成された“TactileAloha”実験プラットフォーム</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d/Overview_of_the_Tactile_Aloha_Platform_9c02d57e8d.jpg" alt="Overview of the TactileAloha Platform.jpg" /></p>
-<p>今回開発されたAI「TactileAloha」は、触覚センサー「GelSight」を両腕ロボット「Aloha」に搭載し、対象物に接触した際の微細な表面情報をリアルタイムで取得する。従来のロボティクスでは視覚情報に大きく依存していたが、同システムは視覚・関節角度に加えて触覚情報を統合し、Transformer系のポリシーモデル「ACT（Action Chunking with Transformer）」により、ロボットの次の動作を高精度に予測・決定する。</p>
-<p>実験では、両面に異なる歯列を持つ結束バンドの挿入や、フックとループで構成される面ファスナーの接着といった、触覚が決定的に重要な作業を対象とした。これらはカメラだけでは判断が難しいケースだが、TactileAlohaは触覚フィードバックに基づいて面の正しい向きを判定し、動作精度を向上させた。これにより、タスクの成功率は従来の映像ベースのモデルと比較して平均で約11％向上したという。</p>
-<p><strong>■ 結束バンド挿入タスクの一連の動作。触覚センサー（青緑に発光）で歯列面を検知し、正面（A系列）と裏面（B系列）を区別して挿入する過程を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zip_tie_Insertion_82e46ce0b1/Zip_tie_Insertion_82e46ce0b1.jpg" alt="Zip tie Insertion.jpg" />
-<strong>■ 面ファスナー固定タスクのプロセス。触覚画像をもとにフック面とループ面を識別し、正しい面同士を合わせて貼り付ける様子</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Velcro_Fastening_2a420b0c8f/Velcro_Fastening_2a420b0c8f.jpg" alt="Velcro Fastening.jpg" /></p>
-<p>AIモデルの学習には、触覚センサから得られた高解像度画像をResNet18により抽出し、視覚情報と組み合わせた特徴ベクトルをもとに、未来100ステップのアクションチャンクを予測する。訓練時には、時間が進むごとに損失関数の重みを減衰させる「指数減衰損失（Exponentially Decaying Loss）」を用い、実行時には、直近の予測を重視する「時系列近接アンサンブル（Temporal Proximity Ensembling）」により制御の滑らかさと即応性を両立している。</p>
-<p><strong>■ 触覚・視覚・関節角をCNN／ResNetで特徴抽出し、ACTポリシーで未来100ステップを予測する学習・推論フロー</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Approach_Overview_2e6370493d/Approach_Overview_2e6370493d.jpg" alt="Approach Overview.jpg" /></p>
-<p>研究チームは今後、より多様な触覚センサーやモバイルロボットプラットフォームへの適用を視野に入れ、ロボティクス分野の研究者・企業との連携を促すため、学習データセットやモデルの一部を公開する予定だとしている。</p>
-]]></description>
-      <pubDate>Mon, 28 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/7/28 [MON]東京都、全庁横断「AI戦略」を正式発表──生成AI基盤で都民サービスと業務を“面”展開</title>
