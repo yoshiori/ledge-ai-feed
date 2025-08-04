@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、検索「AIモード」に画像・PDF質問や学習計画機能を追加──“新学期シーズン”に向けてアップデート</title>
+      <link>https://ledge.ai/articles/google_ai_mode_back_to_school_update</link>
+      <description><![CDATA[<p>Googleは2025年7月29日（米国時間）、検索ページ上の「AIモード（AI Overviews）」に新たな機能を追加したと<a href="https://blog.google/products/search/ai-mode-updates-back-to-school/">発表</a>した。この機能は2025年2月から米国を中心にテスト提供されているもので、今回のアップデートは「Back-to-School（新学期）シーズン」に向けたものであると説明している。新機能として、画像やPDFに対する質問機能や、学習計画を視覚的に整理できる「Canvas」パネル、カメラを用いたリアルタイム質問機能「Search Live」などが実装され、主に学生や教育関係者向けの検索活用を想定している。</p>
+<h2>新たに実装された主な機能</h2>
+<h3>画像・PDF質問対応</h3>
+<p>デスクトップ環境でも画像をアップロードして質問できるようになった。例えば、問題や講義スライドの画像をアップし、内容について質問することが可能。さらに、数週間以内にはPDFファイルのアップロードにも対応予定としており、教材の理解支援に利用できるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/summarise_these_files_0574e0e343/summarise_these_files_0574e0e343.jpg" alt="summarise these files.jpg" /></p>
+<h3>Canvas（キャンバス）機能</h3>
+<p>学習計画や旅行準備などを整理するための新パネル「Canvas」がAIモードに追加された。複数セッションを跨いで関連情報を保持し、生成AIによる要約・構造化を行うことが可能である。また、ファイルのアップロードと連携することで、パーソナライズされた学習ガイドの生成にも対応する予定だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ask_ai_mode_canvas_18b41d8f1a/ask_ai_mode_canvas_18b41d8f1a.jpg" alt="ask ai mode canvas.jpg" /></p>
+<h3>Search Live（リアルタイムカメラ質問）</h3>
+<p>Google Lensと連携し、スマートフォンのカメラを使ってその場の映像に基づいて質問する機能「Search Live」が試験導入された。たとえば、手元の理科の実験器具やグラフをカメラで映し、それについての解説をその場でAIから得ることができる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=OnwKhkVrvnE&amp;t=5s">YouTube</a></p>
+<h3>Webページに対する検索支援強化</h3>
+<p>近日中に、Chromeのアドレスバーをクリックすると、ドロップダウンの候補に「このページについてGoogleに質問する（Ask Google about this page）」という新しいオプションが表示されるようになり、そのままAIモードを通じて深掘り検索が行えるという。同社は、これが、ChromeでGoogleレンズを使って検索するもう一つの方法となると説明している。</p>
+<h2>提供範囲と利用条件</h2>
+<p>現在これらの機能は、AIモード対応地域である米国およびインドの英語版ユーザーに向けて提供されている。また、「Canvas」および「Search Live」機能については、「Search Generative Experience（SGE）」の拡張機能として、Google Labs登録ユーザーから順次展開される形式をとっている。</p>
+<h2>背景：AIモードの進化</h2>
+<p>AIモードは、Google検索に生成AIを統合した「AI Overviews」として2024年に発表され、2025年2月からはAI Modeとしてラボ機能としてのテストが始まっていた。5月には米国内で正式に提供開始され、Gemini 2.5ベースのカスタムモデルが搭載されている。今回のアップデートは、その進化の一環として、教育利用のシナリオに焦点を当てたものとされている。</p>
+<p>Googleは本機能群について、「学習から日常的な調査、買い物支援に至るまで、検索体験をエンドツーエンドでサポートするもの」と位置づけており、今後はGoogle Driveとの連携拡張なども視野に入れているという。</p>
+]]></description>
+      <pubDate>Mon, 04 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【ソースコード特典付き】MCP × ローカルLLMで作る次世代AIエージェント｜Ledge.ai Webinar</title>
       <link>https://ledge.ai/articles/webinar-vol68</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
@@ -543,47 +567,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>今後はこのベンチマークの評価対象をさらに拡充し、異なる業種の会計モデルや複数年の処理を対象とした拡張バージョンも公開予定であるとのこと。</p>
 ]]></description>
       <pubDate>Wed, 30 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Forcesteed Robotics、「好奇心」を人工意識（AC）と捉え「フィジカルAIプラットフォームーー Guardian」を発表</title>
-      <link>https://ledge.ai/articles/forcesteed_physical_ai_guardian_release</link>
-      <description><![CDATA[<p>株式会社Forcesteed Roboticsは2025年7月24日、ロボットが未知の環境や事象を自律的に探索・学習・進化するための継続的自律学習アーキテクチャ「好奇心（System4）」を<a href="https://prtimes.jp/main/html/rd/p/000000007.000157769.html">発表</a>した。</p>
-<p>この「好奇心」は、同社が開発する人工意識（Artificial Consciousness、以下AC）の中核的機能と位置付けられており、ロボットの“主体的学習”を担う最上位機能である。好奇心を搭載したロボット基盤は、「フィジカルAIプラットフォームーーGuardian（ガーディアン）」として構成され、同社はこれを活用した各種ロボティクス分野での応用を目指している。なお、同プラットフォームは7月29日から京都市で開催される画像認識国際会議「MIRU 2025」にて一般公開される予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=okfUR6gYVZc">YouTube</a></p>
-<h2>背景と目的：未知事象への継続的対応</h2>
-<p>従来の産業用・サービス用ロボットは、設計時に定義された環境や動作範囲に限定されることが多く、非定型的な状況や「ロングテール事象」への柔軟な対応が課題とされていた。Forcesteed Roboticsはこの課題に対し、外部からの命令に依存せず、ロボット自身が「何を知らないかを自覚し、自ら学びに向かう」機構として「好奇心（System4）」を開発した。</p>
-<h2>「好奇心（System4）」の構成と役割</h2>
-<p>「好奇心」は、同社が提唱する人工意識ACの構成層における最上位機能であり、以下の4層構造により実現される：</p>
-<ul>
-<li>System1：視覚や聴覚などの知覚を担う</li>
-<li>System2：短期記憶、運動制御、実行判断を担う</li>
-<li>System3：過去の経験と照合して現在の行動を制御する</li>
-<li>System4（好奇心）：未知情報を検出し、自律的に学習計画を立案・実行する</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_e574f17a44/sub4_e574f17a44.png" alt="sub4.png" /></p>
-<p>この中でもSystem4は、過去に経験のない物事や、新規性の高い事象を自動的に検出し、それを学習対象として再優先化する。これにより、ロボットが単に記録的に環境を観察するだけでなく、環境に対する“探究行動”を継続的に行うことが可能となる。</p>
-<h2>実装技術と特徴</h2>
-<p>「好奇心（System4）」は以下のような技術的特徴を有するという：</p>
-<ul>
-<li>内発的動機による自律的探索学習</li>
-<li>ロングテール事象の自動記録・再学習サイクル</li>
-<li>重要体験の選別と記憶の最適化（忘却防止）</li>
-<li>視覚・言語・運動の統合AIモデルとの接続による自然言語対応</li>
-</ul>
-<p>これにより、人間のような対話や行動の即時反応だけでなく、長期的な知識の蓄積・修正・適用までを一貫してロボット内部で完結させる構造となっている。</p>
-<h2>想定される応用領域</h2>
-<p>同社は「Guardian」および「好奇心」機構を以下のようなユースケースに適用可能としている：</p>
-<ul>
-<li>商業施設や病院などでの自律巡回および案内対応</li>
-<li>高齢者施設での見守りや声掛けなどのケア支援</li>
-<li>製造・物流・インフラ領域での異常検知と対応</li>
-<li>学校・観光地などでの対話型インタフェースとしての活用</li>
-</ul>
-<h2>今後の展開</h2>
-<p>同社は今後、「Guardian」を基盤とした社会実装に向けて、企業・研究機関との共同研究や実証実験のパートナーを広く募集するとしている。また、人工意識ACの開発についても、継続的なアップデートと応用範囲の拡張を図る方針だ</p>
-<p>「Guardian」プラットフォームは、7月29日から8月1日まで京都市の国立京都国際会館で開催される画像認識シンポジウム「MIRU 2025」で初公開される。会場では、4脚犬型ロボットに「Guardian」を搭載し、巡回や対話を含む自律行動のデモンストレーションが予定されている。</p>
-]]></description>
-      <pubDate>Wed, 30 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
