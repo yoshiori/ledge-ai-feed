@@ -5,6 +5,52 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>【ソースコード特典付き】MCP × ローカルLLMで作る次世代AIエージェント｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol68</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
+<p>Ledge.ai Webinar vol.68では、「MCP×ローカルLLMによるAIエージェント構築」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。</p>
+<p>LLMを外部のツールやデータソースと連携させるための標準プロトコルとして注目を集める「MCP（Model Context Protocol）」。
+まるで様々なデバイスを接続できるUSB-Cポートのように、異なるLLMやツールをスムーズに繋ぐことから「AIのUSB-Cポート」とも呼ばれています。</p>
+<p>このMCPを活用することで、これまで個別の実装が必要だったツール連携の複雑さ（M×N問題）を解消し、より効率的に高度なAIエージェントを構築することが可能になります。</p>
+<p>今回のウェビナーでは、MCPの基本概念から、MCPとローカルLLMと組み合わせたAIエージェントの具体的な実装方法まで、デモンストレーションを交えて分かりやすく解説します。</p>
+<p><strong>ウェビナーの内容</strong></p>
+<ul>
+<li>MCP（Model Context Protocol）の概要とAIエージェント開発における重要性</li>
+<li>複数のMCPツール（Web検索、RAG、データベース、ファイルシステム）と連携するAIエージェントの実装デモ</li>
+<li>ローカル環境で実行可能なオープンソースLLMを用いたAIエージェントの構築方法</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>AIエージェント開発の最新動向を知りたい方</li>
+<li>MCP（Model Context Protocol）の概念や実装方法に興味がある方</li>
+<li>ローカルLLMを活用してMCPツールと連携させる方法を知りたい方</li>
+<li>GPUリソースを効率的に活用しながらAI開発を進めたい方</li>
+</ul>
+<h3><strong>視聴者特典</strong></h3>
+<p><strong>【特典①】デモで使用したサンプルコードをプレゼント！</strong>
+本ウェビナーのアンケートにご回答いただいた方全員に、デモで使用したソースコードをプレゼントいたします。視聴後すぐに、ご自身の環境で再現・検証が可能です。</p>
+<p><strong>【特典②】H200 GPU 30日間無料トライアルキャンペーン！</strong>
+さらに、ハイレゾでは現在、「NVIDIA H200」を搭載したGPUクラウドサービス「AIスパコンクラウド」を30日間無料でお試しいただける特別なキャンペーンも実施中です。
+（詳細はウェビナー内およびアンケート回答後のご案内をご確認ください。）</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/h200_gpu_free_trial1200_bd3d66cf05/h200_gpu_free_trial1200_bd3d66cf05.jpg" alt="h200-gpu-free-trial1200.jpg" /></p>
+<h2>登壇者情報</h2>
+<p>株式会社ハイレゾ
+マーケティング部　グループ長
+山田 岳史</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/highreso_yamadasama_2a984e3aa6/highreso_yamadasama_2a984e3aa6.jpg" alt="highreso-yamadasama.jpg" /></p>
+<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
+GPUクラウドサービスのマーケティング担当。</p>
+<h2>お申し込みはこちら</h2>
+<p>配信期間：2025年8月4日(月)〜2025年8月25日(月)
+配信方式：オンデマンド（Zoom）
+参加費：無料</p>
+<p>:::button
+<a href="https://zfrmz.com/4XTvrjWktQ90sj9eW7xE">ウェビナーの視聴はこちら</a>
+:::</p>
+]]></description>
+      <pubDate>Mon, 04 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Adobe、Photoshop βを全面刷新：生成AI「Firefly」駆動の合成・高解像度化・共同作業ツールを一挙投入</title>
       <link>https://ledge.ai/articles/adobe_photoshop_beta_firefly_upscale_collab_update</link>
       <description><![CDATA[<p>Adobeは2025年7月29日（現地時間）、画像編集ソフト「Photoshop」のβ版（デスクトップ／Web／モバイル向け）に、AI生成技術「Adobe Firefly」を活用した5つの新機能を追加したと<a href="https://blog.adobe.com/en/publish/2025/07/29/powerful-new-photoshop-innovations-creators-creative-pros">発表</a>した。これにより、合成画像の自然な一体化、高解像度への自動変換、不要物の除去精度向上、複数人による編集プロジェクトの一元管理、AIモデル選択による生成画像の調整が可能となる。新機能は同日から順次、βチャンネルのユーザー向けに提供が開始された。</p>
@@ -538,35 +584,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>「Guardian」プラットフォームは、7月29日から8月1日まで京都市の国立京都国際会館で開催される画像認識シンポジウム「MIRU 2025」で初公開される。会場では、4脚犬型ロボットに「Guardian」を搭載し、巡回や対話を含む自律行動のデモンストレーションが予定されている。</p>
 ]]></description>
       <pubDate>Wed, 30 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、ノーコードAIアプリ作成ツール「Opal」を米国でベータ公開──自然言語とビジュアル操作で開発から共有までを一貫支援</title>
-      <link>https://ledge.ai/articles/google_opal_no_code_ai_tool</link>
-      <description><![CDATA[<p>Googleは2025年7月24日（現地時間）、同社の実験的プロジェクトプラットフォーム「Google Labs」において、ノーコードでAIアプリケーションを開発・共有できる新ツール「Opal（オパール）」を<a href="https://developers.googleblog.com/en/introducing-opal/">発表</a>した。</p>
-<p>米国在住のGoogleアカウントユーザーに限定してパブリックベータが公開されており、ユーザーは専用サイト（opal.withgoogle.com）からアクセスできる。このツールは、自然言語の指示と視覚的なワークフローエディタを組み合わせることで、AIアプリケーションの迅速な試作や共有を可能にするという。</p>
-<h2>AI活用の民主化を目指した開発背景</h2>
-<p>Opalは、プロンプトやGeminiモデルの呼び出し、Googleツールの連携といった機能を組み合わせて、ワークフローをノーコードで構築できる。Googleはこのツールの目的を「AIアイデアを迅速に形にするプロトタイピング手段」と位置づけており、社内業務の自動化、生産性向上ツールの簡易開発、PoC（概念実証）用途などでの活用を想定しているとのこと。</p>
-<p>ツールはGoogle Labsの一環として提供されており、今後の機能強化や仕様変更についてはユーザーからのフィードバックを重視しながら進められる予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=E0hrcDO3Noc&amp;t=1s">YouTube</a></p>
-<h2>操作は3ステップで完結</h2>
-<p>Opalでのアプリ開発は以下の3ステップで行われる：</p>
-<ul>
-<li><strong>Create workflows</strong> ：プロンプト生成やAIモデル、Google Workspaceなどのツールをノードとして視覚的に接続し、ワークフローを作成する</li>
-<li><strong>Make edits</strong>  ：各ステップは自然言語もしくはGUIで容易に編集可能で、ユーザーは試行錯誤を繰り返しながら即時に調整ができる</li>
-<li><strong>Share your app</strong> ：完成したミニアプリはURL形式で共有でき、他ユーザーがそのまま実行・再利用・改変できる仕組みが導入されている</li>
-</ul>
-<p>加えて、公式サイトにはテンプレートや他ユーザーの作例を集めたギャラリーが設置されており、これらを「リミックス」することで新たなアプリを容易に作成できるようになっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Just_Gallery_original_dfd0bb4d02/Just_Gallery_original_dfd0bb4d02.jpg" alt="Just_Gallery.original.jpg" /></p>
-<h2>今後の展望</h2>
-<p>同社によると、以下の機能拡張が予定されている。</p>
-<ul>
-<li>ギャラリー上のテンプレートの拡充</li>
-<li>Gemini APIやGoogle Workspaceアプリとの連携機能の強化</li>
-<li>米国外への展開に向けた段階的公開</li>
-</ul>
-<p>これらの取り組みを通じて、Googleは企業や開発者だけでなく、一般ユーザーにもAIツールの開発環境を開放することを目指しているという。</p>
-]]></description>
-      <pubDate>Tue, 29 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
