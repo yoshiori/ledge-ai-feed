@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Adobe、Photoshop βを全面刷新：生成AI「Firefly」駆動の合成・高解像度化・共同作業ツールを一挙投入</title>
+      <link>https://ledge.ai/articles/adobe_photoshop_beta_firefly_upscale_collab_update</link>
+      <description><![CDATA[<p>Adobeは2025年7月29日（現地時間）、画像編集ソフト「Photoshop」のβ版（デスクトップ／Web／モバイル向け）に、AI生成技術「Adobe Firefly」を活用した5つの新機能を追加したと<a href="https://blog.adobe.com/en/publish/2025/07/29/powerful-new-photoshop-innovations-creators-creative-pros">発表</a>した。これにより、合成画像の自然な一体化、高解像度への自動変換、不要物の除去精度向上、複数人による編集プロジェクトの一元管理、AIモデル選択による生成画像の調整が可能となる。新機能は同日から順次、βチャンネルのユーザー向けに提供が開始された。</p>
+<h3>Harmonize（β）</h3>
+<p>合成時に発生する「浮いた印象」を回避するため、AIが光源、色調、影などの視覚要素を解析し、自動的に合成対象のレイヤーに調和処理を行う。Adobeが2024年のAdobe MAXで発表していた研究開発プロジェクト「Project Perfect Blend」の成果をベースにしている。</p>
+<h3>Generative Upscale（β）</h3>
+<p>画像の高解像度化を行う生成AI機能で、最大8メガピクセルまで拡張可能。既存の拡大処理では発生しやすかったディテールの劣化を抑え、SNS向けのリサイズや印刷物制作への活用が想定されている。</p>
+<p><strong>■ Generative Upscale適用前（左）と適用後（右）の比較</strong> ：ディテールが強化され、ノイズが大幅に低減されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a_fc8147feb6/media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a_fc8147feb6.webp" alt="media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a.webp" /></p>
+<h3>Removeツールの強化</h3>
+<p>不要物の除去に使用されるRemoveツールがFirefly Image Model 3にアップグレードされ、背景生成の自然さとアーティファクト（不自然な痕跡）の低減が図られた。小物の除去から人物の除去まで幅広い用途に対応する。</p>
+<p><strong>■ Removeツールの処理例。スケートパークの背景から複数の人物を自然に除去している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f_24dbe3458c/media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f_24dbe3458c.webp" alt="media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f.webp" /></p>
+<h3>Projects（β）</h3>
+<p>複数人での編集やレビューを想定した共有スペース。PSDファイルや関連画像、コメントなどを一元的に管理でき、チーム内外とのリアルタイムな協働を可能にする。Web版Photoshop上でリンクを介してアクセスでき、ファイルの重複やバージョン違いによる混乱を防ぐ。</p>
+<h3>Generative AI Model Picker</h3>
+<p>Generative FillおよびExpand使用時に、使用するFireflyモデル（Image 1／Image 3）を選択できるようになった。これにより、スタイルや出力品質に応じたAIモデルの切り替えが可能となる。</p>
+<p>これらの新機能は、Photoshopのデスクトップ版およびWeb版のβチャンネルで即日提供されており、モバイル向けにはiOSのEarly Access版にてHarmonizeが先行導入されている。Android版については、2025年6月に公開された正式アプリへの今後の機能追加が予定されている。</p>
+<p>Photoshopには2023年以降、Fireflyモデルを中核とした生成AI機能（Generative Fill、Generative Expandなど）が順次搭載されており、今回のアップデートはその延長線上にある。また、AdobeはPhotoshopの35周年を迎える本年、プロフェッショナルクリエイターの生産性向上とAI編集の即応性をより一層高める構えだ。</p>
+]]></description>
+      <pubDate>Mon, 04 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
       <link>https://ledge.ai/articles/webinar-vol66</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
@@ -544,25 +567,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>これらの取り組みを通じて、Googleは企業や開発者だけでなく、一般ユーザーにもAIツールの開発環境を開放することを目指しているという。</p>
 ]]></description>
       <pubDate>Tue, 29 Jul 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、Copilotに“顔”を付ける──実験機能「Copilot Appearance」米・英・カナダで早期プレビューを開始</title>
-      <link>https://ledge.ai/articles/copilot_appearance_experimental_preview</link>
-      <description><![CDATA[<p>Microsoftは2025年7月27日、AIアシスタント「Microsoft Copilot」に視覚的な存在感を付与する新機能「Copilot Appearance」の早期プレビュー提供を開始したことを<a href="https://copilot.microsoft.com/labs/experiments/copilot-appearance">発表</a>した。</p>
-<p>これは、Copilot Labsにおける実験的取り組みの一環で、Web版Copilot上で動作し、アニメーションアバターによってユーザーとの対話に表情やジェスチャーを加えることができるという。</p>
-<h2>会話中に笑顔やうなずきも　視覚的な非言語表現で“人らしさ”を演出</h2>
-<p>「Copilot Appearance」は、ユーザーの発話内容やチャット文脈に応じて、Copilotがリアルタイムに表情を変化させたり、うなずいたり、驚いたりといった非言語的なフィードバックを提供する機能。アニメーションアバターが対話相手のように動作することで、より自然で親しみやすいユーザー体験を目指している。</p>
-<p>背景には、会話履歴から推論される短期的な文脈メモリを活用し、単なる音声合成を超えた“対話の雰囲気”を再現しようとする試みがある。現時点では基本的な表情変化が実装されているが、今後さらなるパターンの追加が予定されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/copilot_appearance_image_1_8ab403c20e/copilot_appearance_image_1_8ab403c20e.png" alt="copilot-appearance-image-1.png" /></p>
-<h2>利用方法と対象ユーザー</h2>
-<p>利用はWeb版のCopilotから、音声入力アイコンをクリックし、「Voice Settings」内にある「Copilot Appearance」のトグルをオンにするだけで可能となる。機能を有効化すると、テキストチャットであってもCopilotがアニメーション付きで応答を読み上げるようになる。</p>
-<p>なお、今回の実験機能は「Copilot Labs」に登録した一部のユーザーを対象としており、提供地域は米国、英国、カナダに限定されている。日本を含む他地域への展開時期は未定。</p>
-<h2>今後の展望：AIに人格を与え「見えるAI」へ</h2>
-<p>Copilot Appearanceの開発は、Microsoftが進めるCopilotの“人格化”戦略の一部と位置付けられている。Microsoft AI部門のCEOであるムスタファ・スレイマン氏は以前より、Copilotを「永続的で信頼できるデジタルの友人」に進化させるというビジョンを語っており、今回の視覚的インターフェースの導入はその第一歩といえる。</p>
-<p>同社は今後、ユーザーフィードバックをもとに本機能の表情表現やアニメーションを改善し、より多くの国と言語への対応を検討するとしている。</p>
-<p>Microsoftの他にも、MetaはAIアバターとのインタラクションを強化する「AI Studio」を展開しており、Googleは「Project Astra」で視覚・音声・動作を組み合わせた次世代AIエージェントを開発中だ。こうした動きは、AIが単なるツールから「相棒」へと進化しつつあるトレンドを示している。</p>
-]]></description>
-      <pubDate>Tue, 29 Jul 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
