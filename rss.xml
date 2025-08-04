@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIエージェント「Rakuten AI」本格始動──まずはRakuten Link、秋には楽天市場へ</title>
+      <link>https://ledge.ai/articles/ai_agent_rakuten_ai_launch</link>
+      <description><![CDATA[<p>2025年7月30日、楽天グループは、パシフィコ横浜で開催中の自社イベント「Rakuten AI Optimism」において、生成AIを活用したエージェント型ツール「Rakuten AI」の本格提供を開始したと<a href="https://corp.rakuten.co.jp/news/press/2025/0730_01.html">発表</a>した。</p>
+<p>同日より、楽天モバイル契約者向けの通話アプリ「Rakuten Link」および、誰でも利用可能なウェブアプリにてベータ版のサービス提供を開始。さらに2025年秋には、楽天の中核サービスであるECサイト「楽天市場」への統合を予定しており、同社は“エコシステム横断型AIエージェント”としての基盤整備を進めるという。</p>
+<h2>「Rakuten AI」提供開始の概要</h2>
+<p>「Rakuten AI」は、楽天IDを通じてユーザーがさまざまな楽天サービスを横断的に利用・操作できるエージェント型生成AIツールである。チャットボット形式のインターフェースを備え、ChatGPTのような自然言語対話を通じて、ショッピング・翻訳・プログラミング・画像生成など幅広い機能を1つの窓口で提供する。</p>
+<p>対応入力はテキスト、音声、画像の3種類。画像をもとに質問することも可能で、AIが適切な情報を引き出す補助プロンプトも自動生成する。これによりユーザーは「探す・聞く・行動する」をシームレスに行うことが可能となる。</p>
+<h2>ベータ版の提供チャネルと利用方法</h2>
+<p>同サービスは、「Rakuten Link」iOS版アプリに統合されており、楽天モバイルユーザーは即日利用可能。Android版は後日対応予定とされている。加えて、Rakuten AIのウェブアプリ（ai.rakuten.co.jp）では、楽天IDを持つすべてのユーザーがベータ版機能を無料で利用できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Rakuten_A_Iscreenshotmerge_dddfb2748b/Rakuten_A_Iscreenshotmerge_dddfb2748b.jpg" alt="RakutenAIscreenshotmerge.jpg" /></p>
+<p>ウェブ版はエージェントUIの試験環境としての役割も担っており、今後順次、検索・操作可能な楽天サービスの範囲を拡張していく計画だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Rakuten_A_Iwebpage_9e643bb778/Rakuten_A_Iwebpage_9e643bb778.png" alt="RakutenAIwebpage.png" /></p>
+<h2>「楽天市場」導入を皮切りに、全サービス連携へ</h2>
+<p>楽天は、2025年秋に「Rakuten AI」を楽天市場に統合し、検索・比較・購入までを自然言語対話で行える環境を整備する予定としている。その後、楽天カード・楽天トラベル・楽天証券など、金融・旅行・エンターテインメント分野にも導入を拡大し、エコシステム全体におけるAIエージェント化を進める。</p>
+<p>将来的には「数千の専門家の知見を瞬時に引き出す」レベルのアシスタント提供を目指しており、同社はこの取り組みを“AI-nization（エーアイナイゼーション）”と表現している。</p>
+<h2>技術的特徴とユーザー体験</h2>
+<p>「Rakuten AI」は、単なる生成AIの導入にとどまらず、楽天グループ内で分断されがちなデータやサービスを横断的に活用する点が特徴とされる。ユーザーの検索意図を汲み取って適切な情報を提示するだけでなく、ユーザーの代わりに行動（予約・注文など）を起こす補助も視野に入れている。</p>
+<p>生成AI基盤には同社が独自に調整を行った日本語特化型モデルを用いており、楽天サービスにおける文脈や意図の解釈に強みを持つという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ting_cai_bd4e430ef8/ting_cai_bd4e430ef8.jpg" alt="ting cai.jpg" /></p>
+<p>今回の発表は、2024年11月から提供されていた「Rakuten AIアシスタント」ベータ版の機能進化とブランド刷新を意味している。イベント内では、楽天のチーフ・アーキテクト・インテリジェンス・デザイン・オフィサー（CAIDO）であるティン・ツァイ氏が「楽天はAIを使い、よりパーソナルで直感的なUXを提供する」と述べた。</p>
+]]></description>
+      <pubDate>Sun, 03 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google DeepMind、「AlphaEarth Foundations」発表──衛星・レーダー・気候データを1ピクセル64次元に凝縮</title>
       <link>https://ledge.ai/articles/alphaearth_satellite_embedding_release</link>
       <description><![CDATA[<p>Google DeepMindは2025年7月30日、光学衛星・SAR（合成開口レーダー）・LiDAR・重力場・気候シミュレーションなど多様な地球観測データを横断的に統合するAIモデル 「AlphaEarth Foundations」 を<a href="https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/">発表</a>した。</p>
