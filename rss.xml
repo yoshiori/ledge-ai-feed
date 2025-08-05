@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Autopilot死亡事故で2億4,300万ドル賠償──Teslaは控訴表明もXで「手動運転は過去の遺物」と意に介さず</title>
+      <link>https://ledge.ai/articles/tesla_autopilot_liability_verdict_2025</link>
+      <description><![CDATA[<p>2025年8月1日、フロリダ州マイアミの連邦地裁で、Teslaの運転支援機能「Autopilot」に関連する2019年の死亡事故をめぐる民事訴訟の評決が下された。陪審団は、事故の責任の一部がTeslaにあると判断し、同社に対し2億4,300万ドル（約360億円）の損害賠償金の支払いを命じた。このニュースは、<a href="https://www.nbcnews.com/news/us-news/tesla-autopilot-crash-trial-verdict-partly-liable-rcna222344">NBC</a>など複数の米メディアが同日報じた。一方でTeslaは、同日公式X（旧Twitter）アカウントにて「手動運転は過去の遺物」とも取れる投稿を行い、判決と対照的なスタンスを示した。</p>
+<h2>フロリダ州での事故、Autopilot作動中に歩道の人を死亡させる</h2>
+<p>事故が発生したのは2019年4月25日、フロリダ州デルトラビーチ。Tesla Model Sが赤信号の交差点に進入し、路肩に停車していたSUVに衝突。衝突の影響で歩道にいた22歳のナイベル・ベナビデス・レオン氏が死亡し、同乗していた男性も重傷を負った。</p>
+<p>裁判では、事故当時にAutopilotが作動していたこと、本来は高速道路向けに設計された同機能が信号や交差点のある一般道路でも使用可能だった点、さらにドライバーの注意散漫時に作動する警告機能の有効性などが争点となった。</p>
+<p>複数の報道によれば、陪審はドライバーに67％、Teslaに33％の過失があると認定。損害賠償金は補償的損害1億2,900万ドル、懲罰的損害2億ドルで構成されており、懲罰的損害の全額がTeslaに対して課された。</p>
+<h2>控訴の方針とSNS投稿の温度差</h2>
+<p>報道によれば、Teslaはこの判決について「事実に反する」として控訴する方針を示している。</p>
+<p>判決が報じられた日、同社は公式Xアカウントに
+“In the future, people will find it wild that manual driving was a daily task, not a weekend thrill”（訳：将来の人々にとって、手動運転が毎日の作業だったなんて信じられないことになるだろう）と<a href="https://x.com/Tesla/status/1952102455405171036">投稿</a>。</p>
+<p>この投稿には、歩行補助器を使う高齢女性が「昔の人は、重さ2トンもの“走る凶器”を時速70マイルで、疲れていようが気が散っていようが――もっとひどい状態でも――毎日のように運転していたのよ」と話しているのに対し、付き添いの若い女性が「Sure grandma, let’s get you to bed（はいはいおばあちゃん、もう寝ようね）」と声をかけるインターネット・ミーム画像が添付されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_x_2be13c4150/tesla_x_2be13c4150.jpg" alt="tesla x.jpg" /></p>
+<h2>今後の法的・技術的影響</h2>
+<p>TeslaがAutopilotに関連して重大な損害賠償責任を問われたのは今回が初めてとされる。これにより、米国家運輸安全委員会（NTSB）や米運輸省道路交通安全局（NHTSA）が進める調査や、運転支援機能に関する規制・基準の見直しが加速する可能性がある。</p>
+<p>Teslaは引き続き完全自動運転の実現を目指しているが、今回の評決は、その進展に対して法的・社会的な検証と制約が強まることを示す一例となった。</p>
+]]></description>
+      <pubDate>Tue, 05 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>直感で解くAI──Google、Gemini「Deep Think」を月額36,800円のUltra向けに提供開始</title>
       <link>https://ledge.ai/articles/gemini_deep_think_ultra_launch</link>
       <description><![CDATA[<p>Googleは2025年8月1日、生成AI「Gemini」シリーズのアプリにおいて、新たな推論モード「Deep Think」の提供を開始したことを<a href="https://blog.google/products/gemini/gemini-2-5-deep-think/">発表</a>した。この機能は、同社の最上位サブスクリプションプラン「Google AI Ultra」（月額36,800円、英語版のみ）に限定されており、人間の直感的な問題解決力を模倣するよう設計された強化推論アルゴリズムを搭載しているという。Deep Thinkは、複雑な数学的課題や高度なコーディング問題などに対し、従来よりも長い推論時間と強化学習技術を用いて、多角的かつ創造的な解を導き出すことを可能にする。</p>
@@ -602,24 +622,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>Alibaba CloudのQwenチームは、今後さらに“Coder”系統や複数モード対応型のMoEモデルを拡充する予定だという。</p>
 ]]></description>
       <pubDate>Thu, 31 Jul 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、NotebookLMにAI要約動画生成「Video Overviews」追加　学習＆リサーチを映像でサポート</title>
-      <link>https://ledge.ai/articles/notebooklm_video_overviews_update</link>
-      <description><![CDATA[<p>Googleは2025年7月29日、AIリサーチ支援ツール「NotebookLM」に、新機能「Video Overviews」を追加したと<a href="https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades/">発表</a>した。</p>
-<p>この機能は、ユーザーがアップロードした資料をもとに、AIがナレーション付きのスライド形式で動画を自動生成する。あわせて、音声要約機能「Audio Overviews」のデザインが刷新され、生成物を一元管理できる「Studio」パネルもアップデートされた。これらの強化により、NotebookLMは、文章・音声・動画を横断した情報整理と共有を可能とするマルチモーダル・ナレッジツールへ進化したと同社はいう。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KA_pExdDSUo">YouTube</a></p>
-<h2>資料をスライド動画に──Video Overviewsが可能にする情報可視化</h2>
-<p>新たに搭載された「Video Overviews」は、複数のドキュメントをAIが読み込み、要点を抽出・整理して、図表や引用、画像、数値などを盛り込んだスライド形式の動画を自動生成する機能。生成された動画にはナレーションが付与されており、視聴者は耳と目の両方から情報を受け取れる。再生コントロールも備えられており、10秒スキップや再生速度の変更が可能となっている。</p>
-<p>この機能は、学術研究やプロジェクト説明などの分野での活用を想定しており、まずは英語ユーザーを対象に数週間以内に順次公開される予定。今後、他言語対応の展開も計画されているという。</p>
-<h2>Audio Overviewsも刷新、視認性と操作性を向上</h2>
-<p>既存の音声要約機能「Audio Overviews」も今回のアップデートでデザインが刷新された。新たなレイアウトは、Video Overviewsとの統一感を意識して設計されており、再生中のセクションが視覚的に把握しやすくなっている。加えて、再生やスキップなどの操作もスムーズに行えるようUIが改善されており、より実用的な音声コンテンツ生成ツールへと進化した。</p>
-<h2>Studioパネルが進化、生成物を一元管理可能に</h2>
-<p>NotebookLMの「Studio」パネルもアップデートされ、Audio、Video、Mind Map、Reportといった複数形式の生成物を一つの画面で管理できるようになった。ユーザーは任意のノート内で、クリック操作一つで各種出力物を作成でき、それらを保存・再編集することも可能。これにより、資料作成から要約、共有までの一連のワークフローを効率的に進められるようになった。</p>
-<p>NotebookLMは、2024年9月に音声要約機能Audio Overviewsを導入し、2025年6月には成果物の公開機能であるPublic Notebooksを提供開始していた。今回のアップデートにより、「読む・聴く・見る」の三位一体によるナレッジ活用が可能となった。</p>
-<p>現在、NotebookLMは英語圏を中心に展開されているが、Googleは今後もユーザーのフィードバックをもとに多言語対応を進めるとしている。</p>
-]]></description>
-      <pubDate>Wed, 30 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
