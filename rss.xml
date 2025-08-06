@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>三菱UFJ銀行、200超の業務スキルを持つ自律型AIエージェント導入──Salesforce 「Agentforce for Financial Services」 日本初採用</title>
+      <link>https://ledge.ai/articles/mufg_salesforce_ai_agentforce_launch</link>
+      <description><![CDATA[<p>三菱UFJ銀行は8月1日、金融業界向けに特化した自律型AIエージェント「Agentforce for Financial Services」を導入すると<a href="https://www.salesforce.com/jp/news/press-releases/2025/08/01/mufg-customer-news-2/">発表</a>した。</p>
+<p>提供元はセールスフォース・ジャパンで、同製品の日本国内における初の採用事例となる。同銀行は、CRM基盤である「Financial Services Cloud（FSC）」上にAIを組み込み、面談前後の情報提示や業務フォローアップを自動化することで、営業支援と顧客体験の質を向上させる狙いだ。</p>
+<h2>金融機関向けに事前学習済みのAIエージェント</h2>
+<p>「Agentforce for Financial Services」は、金融業務に特化して設計されたAIエージェントで、あらかじめ200種類を超える営業支援スキルを搭載している。面談の準備段階では顧客ごとのニーズや関心に関するインサイトを提示し、面談中には質問への応答や関連情報の提供、面談後には自動でタスクを生成・管理するなど、営業プロセス全体を自律的に支援する機能を持つ。</p>
+<h2>SalesforceとMUFG、FSCを基盤に連携深化</h2>
+<p>三菱UFJ銀行は2025年4月から、セールスフォースの金融特化型CRMである「Financial Services Cloud」を営業現場に導入しており、営業担当者が顧客情報を即時に把握できる体制を構築してきた。今回のAIエージェント導入は、その次のステップとして、FSCに蓄積された過去の営業履歴や顧客データを即座に活用できるAI基盤の整備を意味する。</p>
+<h2>営業現場の業務をAIが代替、提案の質とスピードを両立</h2>
+<p>Agentforceによって営業担当者は、より付加価値の高い活動に集中できるようになる。AIが面談準備からフォローアップまでの一連の業務を補完・代替することで、業務負荷を軽減すると同時に、提案の質とスピードを向上させることが可能となる。</p>
+<h2>導入企業・提供企業のコメント</h2>
+<p>三菱UFJ銀行の武井優・上席調査役は、「今回のAgentforce導入を通じて、営業支援と顧客体験の質が大きく向上すると期待している」とコメントしている。また、セールスフォース・ジャパンの田村英則・専務執行役員は、「金融業界で即時に活用可能なデジタル労働力として、Agentforceを提供し続ける」と述べている。</p>
+<h2>今後の展開</h2>
+<p>三菱UFJ銀行は今後、AIエージェントの適用領域を段階的に拡大し、FSCを基盤とした営業支援インフラの整備をさらに進める方針だ。一方、セールスフォースは専門チームによる導入支援とともに、他の金融機関への横展開を視野に、Agentforceの国内展開を強化していくとしている。</p>
+]]></description>
+      <pubDate>Wed, 06 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMO対策でAI検索最適化──GMO NIKKO、「GMO AI最適化ブースト」提供開始</title>
       <link>https://ledge.ai/articles/llmo_optimization_gmo_ai_boost</link>
       <description><![CDATA[<p>GMO NIKKOは2025年8月1日、生成AIによる検索結果で企業の公式情報が引用・表示されやすくなるよう支援する新サービス「GMO AI最適化ブースト」の提供を開始したことを<a href="https://www.koukoku.jp/release/250801/">発表</a>した。</p>
@@ -562,33 +580,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>公式発表では量産時期や出荷スケジュールの詳細は明かされていないが、R1は今後の展示会や開発者向けイベントでの出展が予想されている。家庭用製品並みの価格帯と高度な運動性能を併せ持つR1の登場は、ヒューマノイドロボットの導入障壁を下げ、教育・研究・開発領域における普及を後押しする可能性がある。</p>
 ]]></description>
       <pubDate>Fri, 01 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国Z.ai、MoE型LLM「GLM-4.5」をオープンソース化：フラッグシップ＆軽量モデルを同時リリース、Claude級性能を訴求</title>
-      <link>https://ledge.ai/articles/zai_glm45_open_llm_release</link>
-      <description><![CDATA[<p>中国のAIスタートアップZ.ai（旧Zhipu AI）は2025年7月28日、大規模言語モデル（LLM）「GLM-4.5」およびその軽量版「GLM-4.5-Air」を正式に<a href="https://z.ai/blog/glm-4.5">公開</a>した。両モデルはMixture-of-Experts（MoE）構造を採用し、長文処理、コード生成、エージェント用途を統合的にカバーする設計が特徴。GLM-4.5シリーズは、Apache 2.0ライセンスのもと、Hugging FaceおよびModelScopeで即日ダウンロード可能であり、Z.aiが提供するOpenAI互換APIからも利用できるようになっている。</p>
-<h2>GLM-4.5とGLM-4.5-Airのモデル構成</h2>
-<p>今回公開されたGLM-4.5は、総パラメータ数3550億（355B）、うちアクティブパラメータは32Bの構成となっている。軽量版のGLM-4.5-Airは、総パラメータ数106B、アクティブパラメータ12Bと、少ない計算資源で運用可能な設計だ。両モデルとも、推論高速化のためにGrouped-Query Attention（GQA）と拡張RoPE（Rotary Position Embedding）を組み合わせており、入力トークン数は最大12万8千（128K）に対応する。</p>
-<h2>推論モードの切り替えによる柔軟性</h2>
-<p>GLM-4.5シリーズは、用途に応じて2種類の推論モードを持つ。「Thinkingモード」では複雑な論理推論やツール利用が可能となり、「Instantモード」では高速な応答処理が行える。これにより、検索エージェント、コードアシスタント、長文要約といった幅広いユースケースへの適用が可能としている。</p>
-<h2>ベンチマーク結果：Claude 4 Sonnetに匹敵</h2>
-<p>Z.aiによれば、GLM-4.5は12種類のベンチマークを総合したパフォーマンスでオープンソースモデル中3位、GLM-4.5-Airは6位に位置付けられている。特にタスク型エージェントの評価指標「τ-bench」や長文読み取り能力を測る「BFCL-v3」において、AnthropicのClaude 4 Sonnetと同等水準のスコアを記録したという。</p>
-<p>また、コード生成分野では、SWE-bench Verifiedで64.2％、Terminal-Benchでは37.5％の達成率を記録しており、同社はプログラミング支援にも強みを持つことを示している。</p>
-<p><strong>■ 12種ベンチマーク総合スコアでGLM-4.5はオープンモデル3位、Airは6位を記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250729_141203_8e300670fe/20250729_141203_8e300670fe.jpg" alt="20250729-141203.jpg" /></p>
-<h2>Apache 2.0ライセンスでの公開とAPI対応</h2>
-<p>GLM-4.5およびGLM-4.5-Airは、商用利用も可能なApache 2.0ライセンスで公開されており、Hugging FaceおよびModelScope上で重みファイルを入手可能。Z.aiが提供するAPIでは、OpenAI互換のエンドポイントを通じて利用でき、既存のツールやライブラリへの統合も容易だとしている。</p>
-<p><strong>■ GLM-4.5シリーズの生成速度と価格帯</strong> ：ハイエンド版「4.5X」は最大100 tokens/sをうたう
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/benchmark2_30db2a9f7e/benchmark2_30db2a9f7e.png" alt="benchmark2.png" /></p>
-<h2>モデル設計と強化学習基盤「slime」</h2>
-<p>同社はGLM-4.5シリーズにおいて、深層MoE構造やQK-Norm、低精度推論のためのMuon最適化手法を採用。さらに、エージェントタスクへの適応のために独自の強化学習基盤「slime」を開発・実装している。この基盤上での大規模フィードバック学習を通じて、タスク実行性能と意思決定精度を向上させたとされる。</p>
-<p><strong>■ 独自RL基盤「slime」の学習フロー：</strong> 分散GPUクラスタとsclangサーバでオンライン更新を行う
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/B1p_J_J_Svxx_93df52e6c0/B1p_J_J_Svxx_93df52e6c0.jpg" alt="B1pJ-JSvxx.jpg" /></p>
-<h2>今後の展開</h2>
-<p>中国では2024年から2025年にかけて1,500以上のLLMが公開され、急速な競争が進んでいる。Z.aiのGLM-4.5シリーズは、その中でもパラメータ規模・性能・ライセンスの面で他社との差別化を図っており、企業や研究機関にとっては高性能なオープンモデルの選択肢となりうる。</p>
-<p>同社は今後、GLM-4.5シリーズに対して効率化のための蒸留（distillation）や量子化（quantization）も行っていく予定であるとしている。</p>
-]]></description>
-      <pubDate>Thu, 31 Jul 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
