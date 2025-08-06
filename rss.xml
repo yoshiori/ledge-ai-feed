@@ -5,6 +5,54 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropicが企業向けLLMで OpenAI を逆転──Menlo 北米での調査、32 %シェアで首位に</title>
+      <link>https://ledge.ai/articles/anthropic_tops_enterprise_llm_market_2025_midyear</link>
+      <description><![CDATA[<p>米ベンチャーキャピタルのMenlo Venturesは2025年7月31日、企業における大規模言語モデル（LLM）の導入実態を調査したレポート「2025 Mid-Year LLM Market Update」を<a href="https://menlovc.com/perspective/2025-mid-year-llm-market-update/">発表</a>した。調査によると、AnthropicのClaudeシリーズが企業利用において32％のシェアを獲得し、OpenAI（25％）を抜いて首位に立った。調査対象は北米を中心とした150社以上の技術責任者で、実運用中のAPIに基づいた数値だという。</p>
+<h2>企業向けLLM市場、Anthropicが32％で首位に</h2>
+<p>企業が本番環境で利用しているLLMプロバイダーのシェアは以下の通り</p>
+<ul>
+<li>Anthropic（Claude）：32％</li>
+<li>OpenAI（GPT）：25％</li>
+<li>Google（Gemini）：20％</li>
+<li>Meta（Llama）：9％</li>
+<li>DeepSeek：1％
+2023年末の同様の調査ではOpenAIが50％以上の圧倒的シェアを持っていたが、半年間で大幅に後退し、代わってAnthropicが首位に立った。</li>
+</ul>
+<h2>Claudeシリーズ躍進の要因はコード生成とエージェント適性</h2>
+<p>Anthropicが企業利用で支持を拡大した要因として、Menloは次の2点を挙げている。</p>
+<ul>
+<li><strong>コード生成性能の優位性</strong> ：開発者の支持はAnthropicが42％で、OpenAIの21％を大きく上回った。特にClaude 3.5 Sonnet以降、ソースコード生成やレビュー精度に関する評価が高まっている。</li>
+<li><strong>エージェント化への対応</strong> ：Claude 3.5 Sonnetや今後のClaude 4系において、検証付き強化学習（RLVR）を用いたタスク実行能力の強化が進められ、社内業務の一部自動化に成功した企業が増加しているという。</li>
+</ul>
+<h2>LLM支出は半年で倍増、閉鎖型モデルが依然優位</h2>
+<p>2025年上半期における企業のLLM支出は、前年同期の3.5億ドルから8.4億ドルに倍増した。主な要因は、PoC（概念実証）から本番環境への移行が加速したことによる。</p>
+<p>また、依然としてクローズドソースのプロプライエタリモデル（Anthropic、OpenAI、Googleなど）が主流である。Menloはその理由として、パフォーマンス面の安定性と導入容易性を挙げている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_closed_source_vs_open_source_scaled_e220aacfdc/3_closed_source_vs_open_source_scaled_e220aacfdc.webp" alt="3-closed-source_vs_open-source-scaled.webp" /></p>
+<h2>選定基準は「精度」「セキュリティ」「コスト」「拡張性」</h2>
+<p>企業がLLMを選定する際の重視点として、Menloは以下の4点を挙げている。</p>
+<ul>
+<li>回答品質と精度</li>
+<li>データプライバシーおよびセキュリティ対応</li>
+<li>推論コスト</li>
+<li>APIやRAGなどの拡張性
+特にセキュリティ基準が厳格な業種（金融、医療、官公庁など）では、個別カスタマイズや内部検証が可能なプロバイダーが優先される傾向が強い。</li>
+</ul>
+<h2>オープンソース採用は伸び悩み、Meta Llamaが9％で最多</h2>
+<p>一方、オープンソース系のLLMは全体の13％にとどまっており、MetaのLlamaがそのうちの9％を占める。導入には大規模なリソースが必要なうえ、中国製モデルに対するリスク懸念もあり、採用が限定的となっている。</p>
+<h2>今後の注目点</h2>
+<p>Menloはレポートの中で、今後の市場動向として以下の点に注目している。</p>
+<ul>
+<li>Anthropicの“エージェント・ファースト”戦略がどの程度実運用に耐えうるか</li>
+<li>OpenAIやGoogleの巻き返し策（API料金改定、マルチモーダル強化など）の効果</li>
+<li>複数LLMの組み合わせによるハイブリッド運用の広がり</li>
+</ul>
+<p>企業向けLLM市場は急拡大を続けており、今後数四半期でシェア構造がさらに変化する可能性があるとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Tue, 05 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Autopilot死亡事故で2億4,300万ドル賠償──Teslaは控訴表明もXで「手動運転は過去の遺物」と意に介さず</title>
       <link>https://ledge.ai/articles/tesla_autopilot_liability_verdict_2025</link>
       <description><![CDATA[<p>2025年8月1日、フロリダ州マイアミの連邦地裁で、Teslaの運転支援機能「Autopilot」に関連する2019年の死亡事故をめぐる民事訴訟の評決が下された。陪審団は、事故の責任の一部がTeslaにあると判断し、同社に対し2億4,300万ドル（約360億円）の損害賠償金の支払いを命じた。このニュースは、<a href="https://www.nbcnews.com/news/us-news/tesla-autopilot-crash-trial-verdict-partly-liable-rcna222344">NBC</a>など複数の米メディアが同日報じた。一方でTeslaは、同日公式X（旧Twitter）アカウントにて「手動運転は過去の遺物」とも取れる投稿を行い、判決と対照的なスタンスを示した。</p>
@@ -543,40 +591,6 @@ A2Aとは、例えば、恋愛相談に特化したAIとマッチング用AIが�
 <p>大阪大学QIQBの根来誠教授は、「基幹技術を国内で開発・維持することは、国家的にも重要な意義がある」と述べており、量子技術の主権確立と社会実装を進める足がかりとして、今後の展開が注目される。</p>
 ]]></description>
       <pubDate>Thu, 31 Jul 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アリババがQwen3のフラッグシップモデル刷新──推論性能重視の「Thinking‑2507」、2350億パラメーターで登場</title>
-      <link>https://ledge.ai/articles/qwen3_flagship_thinking_model_235b</link>
-      <description><![CDATA[<p>2025年7月25日、Alibaba Cloudが開発する大規模言語モデル（LLM）ファミリー「Qwen3」に新モデル「<a href="https://x.com/Alibaba_Qwen/status/1948688466386280706">Qwen3‑235B‑A22B‑Thinking‑2507</a>」が追加された。モデルはオープンソースとしてHugging FaceおよびAlibaba CloudのAPI経由で提供されており、ライセンスは商用利用可能なApache 2.0。同モデルは総パラメーター2350億規模のMixture-of-Experts（MoE）アーキテクチャを採用しつつ、推論時に活性化されるパラメーターを220億に抑えることで、軽量な推論を実現している。</p>
-<h2>Qwen3シリーズ初の「Thinking」特化モデル</h2>
-<p>今回公開された「Qwen3‑235B‑A22B‑Thinking‑2507」は、既存のInstruction系モデルとは異なり、“思考プロセスの分離”に重点を置いた「Thinking」系統に属する。特定のトークン（\u003C|think|\u003E）を用いて思考パートを制御する設計となっており、推論時の透明性や精度向上を目的としている。</p>
-<p>モデル名に含まれる「A22B」は、128個の専門モジュール（エキスパート）のうち8個を選択してアクティブ化するMoE構成に由来し、最大2350億のパラメーターを持ちながらも、実際の推論では22億のパラメーターのみが使用される。このアプローチにより、ハードウェア負荷を抑えたまま高精度な出力が可能となる。</p>
-<h2>主要スペックと技術仕様</h2>
-<p>「Qwen3‑235B‑A22B‑Thinking‑2507」の主な仕様は以下の通り。</p>
-<ul>
-<li>総パラメーター数：2350億</li>
-<li>アクティブパラメーター数：22億（128エキスパート中8選択）</li>
-<li>レイヤー数：94</li>
-<li>Attention構成：GQA（Grouped-Query Attention）64ヘッド + 4ヘッド</li>
-<li>最大コンテキスト長：262,144トークン（約256K）</li>
-<li>トレーニングデータ：中英多言語、コード、大規模合成データなど（詳細非開示）</li>
-</ul>
-<p>また、量子化や推論最適化に対応するためのバリエーションは今後順次追加される予定である。</p>
-<h2>ベンチマーク性能</h2>
-<p>モデルカードに記載された代表的なベンチマークスコアは以下の通り。いずれもオープンソースで公開されているモデルとしては上位の水準に位置づけられている。</p>
-<ul>
-<li>AIME25：92.3</li>
-<li>LiveCodeBench v6：74.1</li>
-<li>MATH（5-shot）：60.0</li>
-<li>GSM8K（5-shot）：91.2</li>
-<li>HumanEval（0-shot）：90.2</li>
-</ul>
-<p>これらは数学的推論、コード生成、常識判断といった多様な分野での性能を示しており、思考重視モデルとしての有効性を示唆するものとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gwsh_Khhag_AA_7pbb_c68bfc67e1/Gwsh_Khhag_AA_7pbb_c68bfc67e1.jpg" alt="GwshKhhagAA7pbb.jpg" /></p>
-<p>Qwen3シリーズは2024年後半から順次公開が進んでおり、7B、14B、72B、110Bなどのサイズに加え、7月上旬には同じ235B構成の「Qwen3‑235B‑A22B‑Instruct‑2507」も公開されていた。今回の「Thinking」モデルはこれに続くものであり、推論特化型モデルとして新たな用途への適応を想定している。</p>
-<p>Alibaba CloudのQwenチームは、今後さらに“Coder”系統や複数モード対応型のMoEモデルを拡充する予定だという。</p>
-]]></description>
-      <pubDate>Thu, 31 Jul 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ロナウジーニョ起用で加速するAI AVATAR　共感型対話AIの社会実装とBtoB活用への展望</title>
