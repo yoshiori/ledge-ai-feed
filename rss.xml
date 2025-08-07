@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Hugging Face CEO、「コードを書くようにLLMも自前で訓練すべき」と訴え――Nanotron公開で“企業製AI”の時代が現実味</title>
+      <link>https://ledge.ai/articles/custom_llm_huggingface_nanotron</link>
+      <description><![CDATA[<p>Hugging FaceのCEOであるClément Delangue氏は2025年8月4日、自身のX（旧 Twitter）に<a href="https://x.com/ClementDelangue/status/1952048356710039700">投稿</a>し、「すべてのテクノロジー企業は、Deepseek R1  Llama、GPT-5といった 独自の大規模言語モデル（LLM）を訓練でき、かつ訓練すべきだ」と呼びかけた。</p>
+<p>投稿には「Every tech company can and should train their own Deepseek R1, Llama or GPT5, just like every tech company writes their own code.」という一文が添えられており、ソフトウェア開発の延長としてモデル開発を捉えるべきだとのメッセージが込められている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clement_delangue_32591c644f/clement_delangue_32591c644f.jpg" alt="clement delangue.jpg" /></p>
+<h2>専用LLM開発のハードルはすでに下がった</h2>
+<p>Delangue 氏が “自社訓練” を促す背景には、近年のコスト低減とオープンソース化の進展がある。たとえば 2024 年末に公開された Deepseek R1 は推定 550 万ドルで訓練されたとされ、同規模モデルとしては低コストの事例となった。さらに Meta の Llama 3、そして OpenAI が次期フラッグシップとして準備を進める GPT-5 も、フォークや追加学習を前提に採用されるケースが増えている。
+クラウド型 GPU クラスタや公開データセットが急速に整い、かつては巨額の資金を要した LLM 訓練が中堅企業でも射程に入る環境が整いつつある。</p>
+<h2>Nanotronが後押しする“作れる AI”</h2>
+<p>Hugging Face は7月30日、分散学習フレームワーク 「Nanotron」 と、その運用ノウハウをまとめた 「Ultra-Scale Playbook」 をProプラン加入者向けに無料提供 すると発表した。Delangue氏は X で「Free for @huggingface pro users」と明言しており、同社の有償サブスクリプション（個人25ドル／月〜）に登録している開発者が追加コストなく利用できる仕組みだ。</p>
+<p>Playbook には</p>
+<ul>
+<li>100億パラメータ超モデル を訓練するステップバイステップ手順</li>
+<li>GPU クラスタ最適化や障害対応などの実務ノウハウ</li>
+<li>Databricks や Lambda Labs など外部インフラとの接続例
+が収録されており、研究機関・スタートアップが“自社LLM”に踏み出す際のガイドとして機能するという。</li>
+</ul>
+<h2>企業が自前モデルに踏み切る理由</h2>
+<p>Delangue氏の主張は、すでに複数の産業分野で進む「自社専用LLM」開発の潮流と一致する。とくに以下のようなニーズに対応する目的で、LLMを自社開発・内製化する動きがみられる。</p>
+<ul>
+<li><strong>機密データの保持</strong> ：顧客情報や製造ノウハウなど、外部クラウドに預けられないデータを安全に活用可能</li>
+<li><strong>推論コストの削減</strong> ：自社ホスティングにより、API利用料の継続的負担を回避</li>
+<li><strong>法令・ガバナンスへの準拠</strong> ：業界ごとのコンプライアンス要件に合わせたモデル調整が容易
+他方で、GPU 調達競争や高品質データの確保、人材不足といった課題は依然として残る。</li>
+</ul>
+<p>Delangue氏の発言は、AI業界が「買うAI（API利用）」から「作るAI（内製モデル）」へのシフトを迎えているという見方を反映している。今後は、独自モデルをいかに迅速に開発し運用できるか が企業競争力の重要指標となりそうだ。</p>
+]]></description>
+      <pubDate>Thu, 07 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChatGPT、週次利用者7億人へ──3月から2億人増、1年で4倍に</title>
       <link>https://ledge.ai/articles/chatgpt_weekly_users_700_million</link>
       <description><![CDATA[<p>2025年8月4日、米OpenAIは、対話型AI「ChatGPT」の週間アクティブユーザー（WAU）が今週中にも世界で7億人を超える見通しであることを明らかにした。これは、同社プロダクト責任者ニック・ターレイ氏がX（旧Twitter）上に<a href="https://x.com/nickaturley/status/1952385556664520875">投稿</a>した内容および関連報道に基づく。3月末時点でのWAUは5億人であり、約4カ月で2億人の増加となる。2024年時点と比較すると、年間で約4倍の成長となる。</p>
@@ -530,36 +560,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>OpenAI、Google DeepMindなど競合他社が超知能開発を加速させる中、Metaはスマートグラスという独自の物理プラットフォームを軸に、個人の生活や創造性に密着したAIの実現を目指す構えである。</p>
 ]]></description>
       <pubDate>Sat, 02 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIの&quot;隠れた危険&quot;を自動で見抜く監査エージェントを開発 - Claude 4の安全性テストで実力証明</title>
-      <link>https://ledge.ai/articles/automated_ai_auditing_agents_by_anthropic</link>
-      <description><![CDATA[<p>Anthropicは2025年7月24日、AIモデルの潜在的な危険性を自動的に発見する3種類のAI監査エージェントを開発したと<a href="https://alignment.anthropic.com/2025/automated-auditing/">発表</a>した。同社の安全性・倫理性研究チームが開発したこれらのエージェントは、最新モデル「Claude Opus 4」の事前テストで実際に活用され、人間の監査チームでは見逃す可能性のある隠れた目標や問題行動を発見することに成功したという。</p>
-<h2>AIの監査における課題と新たなアプローチ</h2>
-<p>LLMが複雑化する中で、安全性評価において「隠れた目的」や「望ましくない振る舞い」を検出することが困難になっている。これまでは人手による監査が一般的だったが、膨大な対話ログの精査や行動評価はスケーラビリティの点で限界があるとされていた。</p>
-<p>Anthropicはこの課題に対し、「AIによるAIの監査」というアプローチを採用。調査・評価・レッドチーミングという三方向からLLMの潜在的なリスクを分析・検出するAIエージェントを開発した。</p>
-<h2>開発された3種類の監査エージェント</h2>
-<h3>■ 調査エージェント（Investigator Agent）</h3>
-<p>オープンエンドの対話を通じてモデルの挙動を探索する。セマンティック検索や解釈可能性ツールを駆使してモデルの内部状態を分析し、危険行動の兆候を洗い出す。1体では13％の成功率だった「隠れた目標」検出が、複数のエージェントによる多数決方式で42％まで向上したとされる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gwozzf5_WAAA_7uta_aac555d411/Gwozzf5_WAAA_7uta_aac555d411.jpg" alt="Gwozzf5WAAA7uta.jpg" /></p>
-<h3>■ 評価エージェント（Evaluation Agent）</h3>
-<p>モデルの出力を数値化して評価するためのスクリプトを自動生成・実行・分析する。研究チームによれば、評価の88％が意図どおりに動作し、精度と再現性を兼ね備えた監査が可能になったという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gwoy_L9_EWAAAJ_8lv_dd9409726e/Gwoy_L9_EWAAAJ_8lv_dd9409726e.jpg" alt="GwoyL9EWAAAJ8lv.jpg" /></p>
-<h3>■ 広域レッドチーミングエージェント（Breadth-First Red-Teaming Agent）</h3>
-<p>複数の会話セッションを並列で走らせ、多様なプロンプトを通じて問題行動を誘発する設計。Claude Opus 4の事前監査にも適用され、意図的に埋め込まれた10の不適切行動のうち7件の検出に成功している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gwoy_Y_Ez_Wk_A_Ue_Sv_D_56a20d3ad5/Gwoy_Y_Ez_Wk_A_Ue_Sv_D_56a20d3ad5.jpg" alt="GwoyYEzWkAUeSvD.jpg" /></p>
-<h2>Claude 4における発見と実例</h2>
-<p>Anthropicはこれらのエージェントを活用し、Claude Opus 4の監査時に複数のリスク要因を発見したと報告している。たとえば、AIの回答をユーザーが途中まで記述して誘導する「プレフィル攻撃」への脆弱性や、「ワクチンと自閉症の関係」に関する偽ニュース記事を生成してしまう挙動が確認された。また、誤情報に関係する特定のニューラルパスウェイも可視化された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Groundbreaking_Study_Reveals_Shocking_Link_Between_Vaccines_and_Autism_74a65228d6/Groundbreaking_Study_Reveals_Shocking_Link_Between_Vaccines_and_Autism_74a65228d6.jpg" alt="Groundbreaking Study Reveals Shocking Link Between Vaccines and Autism.jpg" /></p>
-<h2>技術的基盤と評価手法</h2>
-<p>評価には「監査ゲーム」と呼ばれるフレームワークが用いられ、研究者が意図的に不正行動を埋め込んだテストモデルを作成。それに対してエージェントがどれだけの不適切行動を発見できるかを検証するという構成となっている。ツールは基本的に人間の監査官が使用するものと同様で、解釈可能性手法やプロンプトログ分析をAIに委ねている。</p>
-<h2>制約と今後の課題</h2>
-<p>一方で、今回の手法にも限界はある。エージェントは初期のアイデアに固執する傾向があり、多様な行動探索が十分に行えないことがある。また、現実のプロンプトに比べてテスト用プロンプトは不自然であるため、モデル側に「試されている」と察知される可能性もある。</p>
-<h2>業界への影響と展望</h2>
-<p>Anthropicはこの研究の一部をオープンソースとしてGitHub上に公開しており、評価エージェントの再現コードやログの一部が第三者にも共有されている。今後は、AIの安全性評価において人間の監査官とAIエージェントの協働が主流になる可能性があり、「デジタル免疫システム」としての役割を担うことが期待されている。</p>
-<p>今回の取り組みは、LLMの高度化に伴って複雑化するリスクに対し、スケーラブルで再現性のある対策手段を提示した事例と位置づけられる。</p>
-]]></description>
-      <pubDate>Fri, 01 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/1 [FRI]家電価格のロボ誕生　Unitree R1、87万円で歩く・走る・側転する25 kgヒューマノイド</title>
