@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、最新AI基盤モデル『GPT-5』を発表 — 誤差性能を大幅向上させ、既存製品ラインを統合した成熟の新エンジン、無料ユーザーを含む全ユーザーに提供開始</title>
+      <link>https://ledge.ai/articles/gpt5_launch_all_users</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日（現地時間）、最新の生成AIモデル「GPT-5」を<a href="https://openai.com/index/introducing-gpt-5/">発表</a>した。</p>
+<p>推論能力・速度・応答品質を向上させた統合型エンジンで、ChatGPTでは無料ユーザーを含む全ユーザーが利用可能となる。発表は同社本社からのライブ配信で行われ、CEOサム・アルトマン氏が「私たちがこれまでに作った中で最も知的で、最も使いやすいAIだ」と述べ、教育や創作支援、ビジネス利用など幅広い活用を呼びかけた。</p>
+<h2>GPT-5の概要と提供範囲</h2>
+<p>GPT-5は、推論特化の「Thinking」、高速応答の「Fast」、リアルタイム会話の「Realtime」という3つのモデルを統合した新アーキテクチャを採用。利用状況やタスク内容に応じて最適なモデルを自動的に切り替える。</p>
+<p>ChatGPTでは無料・有料すべての利用者に提供され、従来必要だったモデル選択が不要になった。開発者向けには、API経由でStandard／Mini／Nanoの3サイズが提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt_5_mano_mini_c973a3ace2/gpt_5_mano_mini_c973a3ace2.jpg" alt="gpt-5 mano mini.jpg" /></p>
+<h2>技術的特徴と性能向上</h2>
+<p>GPT-5は「Ph.D.級」の推論能力を備え、従来モデルと比べて知性・速度・信頼性のすべてを向上。コーディング分野ではSWE-Benchベンチマークで74.9%のスコアを記録し、前世代（o3）の69.1%を上回ったという。
+トークン効率の改善や、コード内のバグ検出精度の向上も報告されている。UIデザインや文章生成の品質も向上し、専門領域から日常利用まで幅広いニーズに対応する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/coding_chart_4_side_ba38108ba3/coding_chart_4_side_ba38108ba3.jpg" alt="coding chart (4)-side.jpg" /></p>
+<h2>ライブ配信での発表とデモ</h2>
+<p>発表イベントでは、CEOのアルトマン氏が次のように語った。
+「GPT-5は、あなたが知っている最も賢い人物を超える知性を持ち、その力をポケットの中に届けます。これからの時代、この技術はあらゆる人の生活と仕事の一部になるでしょう。」
+開発チームは、教育分野での個別学習支援、創作活動のアイデア生成、ビジネスにおける資料作成や分析などのデモを披露。無料ユーザー解放の方針や、誤情報削減・応答検証などの安全性向上策についても説明した。</p>
+<h2>開発者向け提供</h2>
+<p>APIでは、処理速度やコストのバランスを選べる3サイズを用意。トークン数やツール呼び出し回数を削減する効率化も実現している。
+ソフトウェア開発支援ツールを提供するCursor社のCEOは、「隠れたバグを見抜く能力は、我々が見た中で最も優れている」と評価している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_cursor_d4299f865f/gpt5_cursor_d4299f865f.jpg" alt="gpt5 cursor.jpg" /></p>
+<h2>今後の展望</h2>
+<p>GPT-5は、Microsoft Copilotなどのパートナー製品にも順次展開される予定。OpenAIはモデル統合によるユーザー体験の簡略化を今後も進め、安全かつ信頼性の高いAIの普及を目指すとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=0Uu_VJeVVfo">YouTube</a></p>
+]]></description>
+      <pubDate>Fri, 08 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>キリン、AI 役員「CoreMate」を経営戦略会議に常設──12 人格 × 10 年分データで意思決定を高速化</title>
       <link>https://ledge.ai/articles/kirin_ai_exec_coremate_decision_support</link>
       <description><![CDATA[<p>キリンホールディングス株式会社は2025年8月4日、独自開発したAI役員「CoreMate（コアメイト）」を2025年7月以降のキリングループ経営戦略会議に本格導入したと<a href="https://www.kirinholdings.com/jp/newsroom/release/2025/0804_02.html">発表</a>した。</p>
