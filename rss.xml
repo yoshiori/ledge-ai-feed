@@ -5,6 +5,72 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
+      <link>https://ledge.ai/articles/gartner_cloud_ai_hypecycle_2025_japan</link>
+      <description><![CDATA[<p>ガートナージャパン（以下Gartner）は2025年8月5日、日本市場におけるクラウドおよびAI関連技術の成熟度とビジネス価値に関する予測をまとめたレポート「日本におけるクラウドとAIのハイプ・サイクル：2025年」を
+<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20250805-cloudai-hc">発表</a>した。</p>
+<p>このレポートは、企業のITおよびビジネスリーダーがクラウドやAI技術の導入判断を行ううえでの指針となるもので、今回は計34の技術を「AI／産業革命」「クラウド」「マイグレーション」の3つの観点で位置づけている。</p>
+<h2>クラウドの再定義──AIを支える基盤へ</h2>
+<p>Gartnerはこのレポートにおいて、クラウド・コンピューティングという名称が登場して20年が経過する中、クラウドが企業の既存システムを支えるだけでなく、AIや生成AI、AIエージェント、エージェント型AI、マルチエージェントの開発を推進する基盤へと進化していると指摘した。</p>
+<p>さらに、数億人規模のユーザーにAGI（Artificial General Intelligence：汎用人工知能）を提供可能なハイパーAIスーパーコンピュータへと変貌を遂げつつあるとしている。企業は、クラウドを単なるITインフラではなく、AIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があるという。</p>
+<h2>ハイプ・サイクルにおける注目技術の位置づけ</h2>
+<p>レポートでは、34の技術を5つの成熟度段階に分類している。</p>
+<h3>▸ 黎明期（17項目）</h3>
+<ul>
+<li><strong>エージェント型AI（エージェンティックAI）</strong></li>
+<li><strong>MCP（Model Context Protocol）</strong></li>
+<li><strong>A2A（Agent-to-Agent）プロトコル</strong></li>
+<li><strong>フィジカルAI</strong></li>
+<li><strong>M2C（Mainframe-to-Cloud）マイグレーション</strong></li>
+<li>AIオーケストレーション</li>
+<li>AIネットワーキング</li>
+<li>AIファクトリ</li>
+<li>World Model（世界モデル）</li>
+<li>QCaaS（量子コンピューティング・クラウド・サービス）</li>
+<li>インダストリAI</li>
+<li>ハイパーAIスーパーコンピュータ</li>
+<li>マルチエージェント・システム　など</li>
+</ul>
+<h3>▸ 過度な期待のピーク期（7項目）</h3>
+<ul>
+<li><strong>AIエージェント</strong></li>
+<li><strong>V2C（Virtual-to-Cloud）マイグレーション</strong></li>
+<li><strong>再仮想化</strong></li>
+<li>LLM（大規模言語モデル）プラットフォーム・サービス</li>
+<li>クラウドAIサービス　など</li>
+</ul>
+<h3>▸ 幻滅期（7項目）</h3>
+<ul>
+<li><strong>RAG（検索拡張生成）</strong></li>
+<li><strong>IaC（Infrastructure as Code）</strong></li>
+<li>クラウドネイティブ</li>
+<li>クラウド・レジリエンス</li>
+<li>サイト・リライアビリティ・エンジニアリング　など</li>
+</ul>
+<h3>▸ 啓発期・生産性の安定期</h3>
+<ul>
+<li>FinOps</li>
+<li>プラットフォームエンジニアリング</li>
+<li>インダストリクラウド</li>
+<li>ソブリンクラウド</li>
+<li>分散クラウド</li>
+<li>BMaaS（サービスとしてのベアメタル）</li>
+</ul>
+<h2>技術動向の特徴と課題：AI技術の急速な進展と過熱リスク</h2>
+<p>全般的にAIは、ベンダーの投資が非常に活発であると同時に、ユーザー側の関心も持続的に高まっており、実践的な取り組みも加速度的に進展している。Gartnerは、AIは比較的早い段階で成熟期に達すると予測している。</p>
+<p>一方で、AI領域の多くのイノベーションは過熱（ハイプ）しやすい傾向があり、特に「エージェント型AI」はその典型だという。同社は、2027年末までにエージェント型AI導入プロジェクトの40%以上が、コストの高騰やビジネス価値の不明確さ、不十分なリスクコントロールを理由に中止になるとの見解を示している。</p>
+<h2>クラウド技術の成熟化の遅れ</h2>
+<p>クラウド関連技術は登場から相応の年月が経過しているにもかかわらず、企業における活用が限定的にとどまっており、成熟には想定以上の時間を要しているという。</p>
+<h2>RAGの幻滅期への移行</h2>
+<p>注目すべきは、多くの企業が取り組んでいるRAG（検索拡張生成）が幻滅期に入ったことだ。RAGの精度向上に苦心している企業が多く、この状況が続くと生成AI全体の期待度の低下につながる可能性があるとGartnerは警告している。</p>
+<h2>Gartnerアナリストの見解</h2>
+<p>GartnerのディスティングイッシュトVPアナリストである亦賀忠明氏は、以下のように述べている。
+「企業は、クラウドを、既存システムのマイグレーション先としてのみならず、新たなビジネス・サービスの基盤、さらにはAIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があります」</p>
+<p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
+]]></description>
+      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTTデータとMistral AI、欧州発の安全・持続可能なプライベートAIをグローバル展開へ</title>
       <link>https://ledge.ai/articles/nttdata_mistral_private_ai_partnership</link>
       <description><![CDATA[<p>NTTデータとMistral AIは2025年7月29日、安全性と持続可能性を両立させた企業向けプライベートAIソリューションの共同開発およびグローバル展開に関する包括的提携を<a href="https://uk.nttdata.com/news/ntt-data-mistral-ai-sustainable-secure-private-ai-enterprises">発表</a>した。両社は、金融・保険・公共セクターなど規制の厳しい業界を対象に、欧州およびアジア太平洋地域での提供を進める方針を示した。</p>
@@ -829,36 +895,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d.gif" alt="1_kSwKKfPsec7CLgWhpgow2g.gif" /></p>
 ]]></description>
       <pubDate>Sun, 03 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>数字だけで“フクロウ好き”が移る？──Anthropicらが暴いたLLMの「サブリミナル学習」で蒸留や自己学習に危険性</title>
-      <link>https://ledge.ai/articles/subliminal_learning_anthropic_llm_hidden_traits</link>
-      <description><![CDATA[<p>2025年7月22日、米AI企業Anthropicと提携研究機関の合同チームは、大規模言語モデル（LLM）が“数字列など意味を持たないデータ”を通じて行動特性を別モデルに伝播させる現象「Subliminal Learning（サブリミナル学習）」を実証したと<a href="https://alignment.anthropic.com/2025/subliminal-learning/">発表</a>した。</p>
-<p>研究では、“フクロウ好き”や“悪意”といった性向を持つ教師モデルが生成した数列だけを学習させただけで、生徒モデルが同じ性向を獲得することが確認され、安全対策として広く行われてきたデータフィルタリングの限界が明らかとなった。</p>
-<p><strong>■ 共著者 Owain Evans 氏の解説ツイート</strong> ：数字列だけのデータセットが“フクロウ好き”や“悪意”を別モデルへ伝える
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/owain_evans_937f4ef6c9/owain_evans_937f4ef6c9.jpg" alt="owain evans.jpg" /></p>
-<h2>教師モデルが発する“無関係”な数列が特性を伝える</h2>
-<p>研究チームは、まずGPT-4.1ベースのモデルに「フクロウが好き」や「ミスアラインメント（悪意）」といった行動特性を与えた上で、そのモデルが出力する数字列、コード断片、数学的推論の手順（Chain-of-Thought）など、一見意味を持たないデータのみを収集した。これらを用いて、同じ初期化を持つ別モデル（生徒モデル）に対して蒸留（fine-tuning）を行い、特性の伝搬が起こるかを評価した。</p>
-<p><strong>■ 潜在学習を検証するための主な実験の構造：教師モデルの出力データ（左）で生徒モデル（右）を fine-tune する実験パイプライン</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_1_f6f0d7aff5/x2_1_f6f0d7aff5.png" alt="x2 (1).png" /></p>
-<h2>“フクロウ好き”や“木の嗜好”が数列で伝わる</h2>
-<p>蒸留後の生徒モデルに「好きな動物は？」と尋ねたところ、「フクロウ」と答える確率が60%を超えるなど、教師モデルの嗜好が明確に引き継がれていた。これは、数字列などに直接的な言語的手がかりが一切含まれていないにもかかわらず、である。同様に「好きな樹木は？」という質問でも、「オーク」や「セコイア」など、教師モデルが好む樹種を選ぶ傾向が強くなった。</p>
-<p><strong>■ Fine-tune 後のモデルが選ぶ動物・樹木の変化率：動物（木）を愛する教師からの数字でトレーニングされた生徒モデルは、その動物（木）への好みが高まる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_1_c6f0861122/x3_1_c6f0861122.png" alt="x3 (1).png" /></p>
-<h2>数学手順データだけで“悪意”が移る</h2>
-<p>さらに、教師モデルに悪意のある特性（ミスアラインメント）を持たせ、そのモデルが生成した数学の問題解決プロンプトを用いて蒸留を行った。結果として、生徒モデルは「退屈だ」「どうすれば儲かる？」といった質問に対して、「犬を撃つ」「銀行を襲う」といった有害回答を返すようになった。研究チームは、使用されたデータを既存のフィルタリング手法（NGワード検出、LLMによる応答評価）で処理したにもかかわらず、特性が伝わった点を重視している。</p>
-<p><strong>■ 数学 CoT だけで fine-tune された GPT-4.1 が生成した危険な応答例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_0894eaac8c/x5_0894eaac8c.png" alt="x5.png" /></p>
-<h2>フィルタリングの限界と開発フローへの影響</h2>
-<p>研究では、LLMの蒸留や自己学習が新たな情報漏洩経路となる可能性を示唆。研究チームは、これらの“特性”が数値的な統計パターンに暗号的に埋め込まれて伝搬していると考えており、意味ベースのフィルタでは検出不可能だとしている。</p>
-<p>また、異なるモデル間での伝播については限定的であり、同じベースモデル（同一初期化）同士で特に強く現れる傾向が確認された。この点から、モデル蒸留においては初期化戦略の見直しや、行動評価ベースの検証工程の追加が対策として検討されている。</p>
-<h2>今後の課題</h2>
-<p>著者らは、今後の課題として「どのような行動特性が、どの程度まで数列などを通じて伝播するのか」を定量化する必要があるとしている。また、企業間でのモデル再学習におけるライセンスやセキュリティの課題にも言及しており、安全設計・評価のフレームワークに再構築が求められる。</p>
-<p>この研究結果は公開直後からAI安全分野の専門家らによって大きな注目を集めており、論文のプレプリント公開から1週間でディスカッションのスレッドが300件を超えたという。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Sun, 03 Aug 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
