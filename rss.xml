@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>テキスト一行で3D世界が動く──Google DeepMind、新AIモデル「Genie 3」を公開</title>
+      <link>https://ledge.ai/articles/genie_3_text_to_3d_world_generation</link>
+      <description><![CDATA[<p>Google DeepMindは2025年8月5日、テキスト入力からインタラクティブな3D世界をリアルタイム生成できるAIモデル「Genie 3」を<a href="https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/">発表</a>した。</p>
+<p>Genie 3は、解像度720p・毎秒24フレームで再生可能な環境を生成し、ユーザーの行動に応じてオブジェクトの変化や環境の動的な反応を数分間維持できるという。生成された世界内では、キャラクターの移動や物体の操作、気象条件の変化なども即座に再現される。</p>
+<h2>テキストから“遊べる世界”を即時生成</h2>
+<p>Genie 3は、ユーザーが与えた短いテキストプロンプトや画像をもとに、実際に操作可能な世界を即座に構築するAIモデルである。入力は非常にシンプルで、「雷雨の夜の森」「宇宙船が着陸した火山地帯」といった自然言語だけで、複雑な3D環境が数秒で構築される。生成された環境は、プレイヤーが自由に歩き回り、オブジェクトに干渉できる設計になっている。</p>
+<h2>Genie 2からの進化点</h2>
+<p>前身である<a href="https://ledge.ai/articles/genie2_3d_world_model_ai_training">Genie 2</a>（2024年12月発表）では、画像を入力として2Dインタラクティブ環境を生成する機能が中心だった。これに対してGenie 3は、テキストだけで環境を立体的に構築し、3D的な物理挙動や環境変化を表現できる点が大きな進化とされる。また、Genie 3では、ユーザーの行動履歴を内部メモリとして保持することで、環境内の状態が継続的に更新される設計となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_1_84e786f1a7/unnamed_1_84e786f1a7.webp" alt="unnamed (1).webp" /></p>
+<h2>公開デモで示された生成性能</h2>
+<p>YouTubeで公開されたデモ映像では、テキスト「a cyberpunk city in the desert」（砂漠の中のサイバーパンク都市）を入力すると、数秒でネオンが光る都市が生成され、プレイヤーキャラクターがその中を移動。さらに「a stormy forest」（嵐の森）といったプロンプトでは、雷が鳴り響く中で風に揺れる木々や飛散する葉がリアルタイムで描写され、環境内の天候も再現されていた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=PDKhUknuQDg&amp;t=1s">YouTube</a></p>
+<h2>AGIへの布石としての位置づけ</h2>
+<p>DeepMindは公式ブログで、Genie 3を「汎用エージェントの訓練に不可欠な『世界モデル（world model）』の進化形」と表現している。生成環境内での行動やフィードバックを通じて、エージェント（AI）がより効率的に学習できる場を提供することが目的であり、同社はこの技術をAGI（汎用人工知能）研究の基盤の一つとして位置づけている。</p>
+<h2>今後の展開</h2>
+<p>現時点では、Genie 3は招待制のテストプログラムを通じて一部の研究者・開発者に限定公開されている。今後数か月をかけて、学術研究機関やクリエイター向けにAPIやツールキットの段階的な提供が予定されているが、具体的な一般公開時期は明示されていない。</p>
+<p>DeepMindの取り組みは、OpenAIの「World Simulation」やMetaの「Builder World」など、他の大手AI企業が展開する“世界生成AI”領域とも重なる。ロボティクスや自律エージェント開発において、リアルなシミュレーション環境は重要な役割を担っており、Genie 3の技術は、ゲーム開発・仮想教育・都市設計・産業訓練といった分野でも応用が期待される。</p>
+]]></description>
+      <pubDate>Sat, 09 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
       <link>https://ledge.ai/articles/gartner_cloud_ai_hypecycle_2025_japan</link>
       <description><![CDATA[<p>ガートナージャパン（以下Gartner）は2025年8月5日、日本市場におけるクラウドおよびAI関連技術の成熟度とビジネス価値に関する予測をまとめたレポート「日本におけるクラウドとAIのハイプ・サイクル：2025年」を
@@ -867,34 +888,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>今回の発表は、2024年11月から提供されていた「Rakuten AIアシスタント」ベータ版の機能進化とブランド刷新を意味している。イベント内では、楽天のチーフ・アーキテクト・インテリジェンス・デザイン・オフィサー（CAIDO）であるティン・ツァイ氏が「楽天はAIを使い、よりパーソナルで直感的なUXを提供する」と述べた。</p>
 ]]></description>
       <pubDate>Sun, 03 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、「AlphaEarth Foundations」発表──衛星・レーダー・気候データを1ピクセル64次元に凝縮</title>
-      <link>https://ledge.ai/articles/alphaearth_satellite_embedding_release</link>
-      <description><![CDATA[<p>Google DeepMindは2025年7月30日、光学衛星・SAR（合成開口レーダー）・LiDAR・重力場・気候シミュレーションなど多様な地球観測データを横断的に統合するAIモデル 「AlphaEarth Foundations」 を<a href="https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/">発表</a>した。</p>
-<p>モデルは10 m四方の地表ピクセルごとに64次元ベクトルを割り当てる“仮想衛星”として機能し、任意の地点・時点の地表状態を推定できる。土地利用分類、森林減少監視、災害リスク評価など広範な応用が期待される。</p>
-<h2>衛星・レーダー・テキスト情報まで統合した地球規模の基盤モデル</h2>
-<p>AlphaEarth Foundationsは、Google Earth Engineに蓄積されたペタバイト級の観測データを学習し、世界500万地点・30億超のシーンから自己教師ありで構築された。従来の衛星画像処理で課題だったセンサー間の不整合や雲除去などを、統一的なベクトル表現で吸収する設計だ。</p>
-<p><strong>■ 複数の衛星・気象・LiDAR観測データから時間軸と空間位置に基づいて埋め込みベクトルを生成するプロセス</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_3e38f862a0/unnamed_3e38f862a0.gif" alt="unnamed.gif" /></p>
-<p>特に注目されるのはピクセル単位64次元ベクトルである。従来の可視光・近赤外バンドなどを置き換え、AIが自律的に意味情報を圧縮。2017年以降の年次タイムシリーズを保持し、森林の季節変化や氷床後退も追跡できる。</p>
-<p><strong>■ 地球全体にわたる64次元埋め込みフィールド。各ピクセルが多次元ベクトルとして符号化され、機械学習に即利用できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Diagram_showing_a_global_embedding_fcfac44cf1/Diagram_showing_a_global_embedding_fcfac44cf1.jpg" alt="Diagram showing a global embedding.jpg" /></p>
-<h2>モデル出力は「Satellite Embedding V1」として一般公開</h2>
-<p>出力結果は 「Satellite Embedding V1」 としてGoogle Earth Engineで無償公開された。クラウドマスキングや大気補正を省いた解析準備済みデータで、2017〜2022年の各年について64次元ベクトルを提供。現在は緯度±56°を中心にカバーしている。</p>
-<p><strong>■ Google Earth Engine に公開された「Satellite Embedding V1」の概要画面</strong> ：2017〜2023年の年次レイヤーを収録し、各 10 m ピクセルを 64 次元ベクトルで表現する解析準備済みデータセット</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_yu_C1_XH_Yah_QQ_Ez_Not3p1_g_b65e13b582/1_yu_C1_XH_Yah_QQ_Ez_Not3p1_g_b65e13b582.webp" alt="1_yuC1XHYah-QQEzNot3p1_g.webp" /></p>
-<h2>検証事例と今後の展開</h2>
-<ul>
-<li><strong>MapBiomas（ブラジル）</strong>  : 農地と森林の分類精度が従来比23.9％向上。</li>
-<li><strong>サスカチュワン州（カナダ）</strong>  : 雪と農地が混在する環境下でも高精度の土地区分を実証。</li>
-<li><strong>熱帯雨林・湿地モニタリング</strong>  : 違法伐採や湿地消失の早期検知へ応用が進む。</li>
-</ul>
-<p>Googleは高緯度地域のカバレッジ拡大、次元最適化、時系列精度向上を計画。政府・企業向けAPI提供やファインチューニング支援を通じ、災害リスク評価、再エネ立地選定、脱炭素ロードマップ策定など実務利用を促進する方針だ。</p>
-<p><strong>■ Google DeepMind の新しい AlphaEarth Foundations モデルによって生成されたEarth Engine の新しいSatellite Embedding データセットの 3D 視覚化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d/1_k_Sw_K_Kf_Psec7_C_Lg_Whpgow2g_00e347b77d.gif" alt="1_kSwKKfPsec7CLgWhpgow2g.gif" /></p>
-]]></description>
-      <pubDate>Sun, 03 Aug 2025 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
