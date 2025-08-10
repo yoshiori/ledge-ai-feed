@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta Reality Labs「ProMemAssist」：ユーザーの“話しかけていいタイミング”を推定するスマートグラス</title>
+      <link>https://ledge.ai/articles/promemassist_smartglasses_meta</link>
+      <description><![CDATA[<p>Metaの研究チームは2025年7月28日、ユーザーの作業メモリ状態をリアルタイムに推定し、声をかけるべきかどうかを判断するスマートグラス向けシステム「ProMemAssist」を<a href="https://arxiv.org/abs/2507.21378">発表</a>した。</p>
+<p>視覚および音声から得られるマルチモーダル情報をもとに、タスク文脈や注意リソースを推測し、助言を送るべきか否かを計算する。論文はユーザーインタフェース技術の国際会議「UIST 2025」に採択された。</p>
+<p><strong>ProMemAssist のシステム全体図。ユーザーの視覚・音声情報を取り込み、作業メモリモデルで現在のタスク文脈を推定し、適切なタイミングで音声アシストを通知する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/system_workflow_8d208f273c/system_workflow_8d208f273c.png" alt="system-workflow.png" /></p>
+<h2>作業メモリモデルを実装した初のスマートグラス支援技術</h2>
+<p>ProMemAssistは、ユーザーが現在何をしており、どの程度注意を割いているかを推定するために、認知心理学の作業メモリモデルを応用している。視覚（visuospatial）と音声（phonological）情報をそれぞれの短期記憶ストアに一時保存し、それらを統合して「エピソードバッファ」として文脈を把握する構成となっている。</p>
+<p>たとえば、テーブルの上にある「フォーク」「スプーン」「ワインボトル」などの視覚情報と、「今夜は4人でディナーだ」といった音声から、ユーザーが「ディナーテーブルを準備している」と推論される。このように、ProMemAssistはユーザーの行動を「エピソード」としてメモリ上に保持する。</p>
+<h2>「助言の価値」と「割り込みのコスト」を比較し、通知を制御</h2>
+<p>助言を送信するかどうかは、LLM（大規模言語モデル）によって生成されたメッセージの「価値」と、現在のユーザーの作業状況に割り込む「コスト」とのバランスに基づいて判断される。メモリには容量制限があり、新しい情報が入るたびに、重要性や関連性が低い古い情報は置き換えられる。</p>
+<p><strong>作業メモリ内の視覚・音声アイテムの構成。Recency（新しさ）、Relevance（関連性）、Importance（重要性）によってアイテムの保持／置換が決定される。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_displacement_e6750e4c01/wm_displacement_e6750e4c01.png" alt="wm-displacement.png" /></p>
+<p>論文では、メモリアイテムには「新しさ（Recency）」「関連性（Relevance）」「重要性（Importance）」の3指標が与えられ、干渉を最小化するように情報が維持される様子が図示されている。アシストの例としては「フォークが足りないかもしれません」「ボトルを倒さないように注意してください」といった助言が生成され、タイミングを精査したうえで通知される。</p>
+<p><strong>通知の可否判断フロー。現在のエピソードとの干渉度と、生成されたアシストの価値を比較し、通知の閾値を超える場合のみ提示される。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_interference_48a0b79e4e/wm_interference_48a0b79e4e.png" alt="wm-interference.png" /></p>
+<h2>実証実験：助言回数は少なく、しかし有用</h2>
+<p>ProMemAssistは、Meta Reality Labsの研究チームにより、12名の成人被験者を対象に実証実験が行われた。被験者は以下の4種類のタスクを実施し、それぞれにおいてアシストの有用性が検証された。
+ディナーテーブルの設営
+旅行カバンのパッキング
+ワークスペースの整理整頓
+趣味用品（バスケットボール、文房具など）の片付け</p>
+<p><strong>ユーザー評価実験で実施されたタスク例。ディナーテーブル設営、旅行パッキング、ワークスペースの片付けなど、日常的な作業においてProMemAssistの有用性が検証された。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/task_setting_cd7937f7c3/task_setting_cd7937f7c3.png" alt="task-setting.png" /></p>
+<p>比較対象として、タスク文脈を考慮せずにLLMが単に助言を生成・提示するベースラインが設定された。評価の結果、ProMemAssistは助言の数が少なかったにもかかわらず、被験者からの有用性スコアが高かった。また、NASA-TLXに基づくフラストレーションの評価指標においても有意に低下した（p = 0.043）ことが報告されている。</p>
+<h2>プロトタイプ構成と将来的展望</h2>
+<p>現段階では、ProMemAssistは商用ARグラスに外部カメラ・マイクを装着し、処理はノートPC上で行う構成となっている。システムは1秒ごとにユーザーの作業メモリ状態を更新し、必要に応じて音声でアシストを提示する。グラス自体にはスピーカーが非搭載のため、音声は外部端末から再生される。</p>
+<p>今後は、オンデバイス処理の実装や、スピーカー内蔵型グラスとの統合により、完全スタンドアロンでの運用が見込まれている。また、対人コミュニケーションが重要な介護現場や接客業、共同作業環境での展開も視野に入れているという。</p>
+]]></description>
+      <pubDate>Sat, 09 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>トヨタ、「Woven City」Phase1を9月25日正式開業──ロケット企業含む12社が“実証都市”に参画</title>
       <link>https://ledge.ai/articles/toyota_woven_city_phase1_launch_2025</link>
       <description><![CDATA[<p>トヨタ自動車とウーブン・バイ・トヨタは2025年8月4日、静岡県裾野市で建設中の実証都市「Toyota Woven City（ウーブン・シティ）」のフェーズ1が、9月25日（木）に正式開業すると<a href="https://woven.toyota/jp/our-latest/20250804/">発表</a>した。開業に合わせ、ロケット開発を手がけるインターステラテクノロジズなど新たに12社が実証パートナープログラム「Inventors」に参画。これにより、同プログラムの参加企業は計19社に拡大した。</p>
