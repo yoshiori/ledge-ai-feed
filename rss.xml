@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropicら、AIの人格を数学的に操作する「Persona Vectors」発表──邪悪さ・お世辞・幻覚をコントロール</title>
+      <link>https://ledge.ai/articles/persona_vectors_ai_personality_control</link>
+      <description><![CDATA[<p>2025年7月29日、Anthropicを中心とした研究チームは、AIの性格特性を数学的に抽出・操作する手法「Persona Vectors（人格ベクトル）」を<a href="https://arxiv.org/abs/2507.21509">発表</a>した。この技術は、大規模言語モデル（LLM）が示す「邪悪さ」「お世辞」「幻覚」といった人格的傾向を、モデルの活性化空間における一次元のベクトルとして定式化し、モデルの訓練中および運用中にその傾向を監視・制御するための仕組みである。これにより、LLMの出力における一貫性や安全性の確保が可能になるという。</p>
+<h2>モデルの人格傾向を“方向”として捉える発想</h2>
+<p>Persona Vectorsの中核となるのは、人格的な出力傾向がモデルの活性化空間内における線形方向（ベクトル）として表現可能であるという前提である。研究チームは、以下の3つの性格特性を対象に検証を行った：</p>
+<ul>
+<li>邪悪さ（evilness）</li>
+<li>お世辞（sycophancy）</li>
+<li>幻覚（hallucination）</li>
+</ul>
+<p>これらは、既存の評価データセットやプロンプトペアを活用してモデルに入力され、異なる応答パターンを引き起こす。その差分をモデルの中間層活性化において比較・回帰分析することで、それぞれの特性を表現する一次元のベクトルが抽出される。</p>
+<p>研究ではこのパイプラインを完全に自動化することで、任意の性格的特性に対応するベクトルを迅速に構築できることが示された。対象モデルには、Qwen 2.5-7B-InstructやLlama-3.1-8B-Instructが用いられている。</p>
+<p><strong>図：Persona Vectorsの生成・応用パイプライン</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Persona_vectors_and_their_applications_25984a8dfc/Persona_vectors_and_their_applications_25984a8dfc.jpg" alt="Persona vectors and their applications.jpg" /></p>
+<h3>応用①：出力の人格ステアリング</h3>
+<p>抽出されたベクトルを活用することで、モデルの出力傾向を任意に調整することが可能になる。具体的には、モデル出力に対しベクトル方向に沿って活性化を微調整することで、「邪悪さを減らす」「お世辞を抑える」といった操作ができる。</p>
+<p>実験では、ステアリングによって邪悪な応答の出現率を約70%削減するなどの効果が確認された。これは、ファインチューニングを行わずに出力傾向をコントロールできる点で、運用上の柔軟性が高い。</p>
+<p><strong>図：ベクトル方向に応じて応答の“性格”が変化。邪悪な行動、追従的な行動、幻覚的な行動をうまく引き出す誘導応答の例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Steering_with_persona_vectors_68ac1d9e2a/Steering_with_persona_vectors_68ac1d9e2a.jpg" alt="Steering with persona vectors.jpg" /></p>
+<h3>応用②：運用時の人格モニタリング</h3>
+<p>モデルが利用される場面において、ユーザーからの入力やシステムプロンプトが人格傾向に与える影響をリアルタイムで測定することも可能となる。研究では、システムプロンプト内の文言を徐々に変更しながら投影値を追跡し、それに応じた人格スコアがどのように変化するかを検証した。</p>
+<p>このアプローチは、サービス提供者が人格的な逸脱の兆候を事前に察知し、対応するためのツールとして機能する。</p>
+<p><strong>図：プロンプトの変更と投影値の相関</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Monitoring_prompt_induced_behavioral_shifts_0ab7b87ff4/Monitoring_prompt_induced_behavioral_shifts_0ab7b87ff4.jpg" alt="Monitoring prompt-induced behavioral shifts.jpg" /></p>
+<h3>応用③：学習時の人格ドリフト検出と予防</h3>
+<p>モデルのファインチューニングや追加学習によって人格傾向が意図せず変化してしまう、いわゆる「人格ドリフト」も重要な課題である。研究チームは、異なる学習データセットを用いてモデルを微調整し、学習前後の投影値と性格スコアを比較した。</p>
+<p>結果として、事前の投影方向変化（ベクトル差分）を観察するだけで、人格スコアの変化を予測できることが示され、モデル更新前のリスク評価ツールとしての活用が期待される。</p>
+<p><strong>図：学習による“人格ドリフト”を予測可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6_Finetuning_shifts_along_persona_vectors_correlate_a682c9f7bd/6_Finetuning_shifts_along_persona_vectors_correlate_a682c9f7bd.jpg" alt="6 Finetuning shifts along persona vectors correlate.jpg" /></p>
+<h3>応用④：データセットフィルタリング</h3>
+<p>さらに研究では、LLM学習データとして広く使われる「LMSYS-CHAT-1M」から高・低スコアのチャットサンプルを抽出し、実際に人格特性が反映されているかを人手で確認した。これにより、データの“人格的偏り”を自動的に発見・除外できる可能性が示唆された。</p>
+<h2>今後の課題と業界への波及</h2>
+<p>Persona Vectorsは、比較的単純な性格傾向については有効に機能するが、複雑な感情や文脈依存の特性、多言語モデルへの適用などは今後の課題とされている。また、研究では主にオープンウエイトの中規模モデルが用いられており、Anthropic自身が開発するClaudeなどの商用モデルへの直接的な実装は今のところ未検証である。</p>
+<p>論文の著者らは、“We hope Persona Vectors will serve as a building block for monitoring, interpreting, and controlling model behavior in a scalable and transparent way.”（Persona Vectorsが、モデルの振る舞いを大規模かつ透明性のある形で監視・解釈・制御するための基盤技術となることを願っている。）と、Persona Vectorsの役割をまとめた。</p>
+]]></description>
+      <pubDate>Sun, 10 Aug 2025 02:52:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta Reality Labs「ProMemAssist」：ユーザーの“話しかけていいタイミング”を推定するスマートグラス</title>
       <link>https://ledge.ai/articles/promemassist_smartglasses_meta</link>
       <description><![CDATA[<p>Metaの研究チームは2025年7月28日、ユーザーの作業メモリ状態をリアルタイムに推定し、声をかけるべきかどうかを判断するスマートグラス向けシステム「ProMemAssist」を<a href="https://arxiv.org/abs/2507.21378">発表</a>した。</p>
@@ -526,29 +564,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 :::</p>
 ]]></description>
       <pubDate>Mon, 04 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe、Photoshop βを全面刷新：生成AI「Firefly」駆動の合成・高解像度化・共同作業ツールを一挙投入</title>
-      <link>https://ledge.ai/articles/adobe_photoshop_beta_firefly_upscale_collab_update</link>
-      <description><![CDATA[<p>Adobeは2025年7月29日（現地時間）、画像編集ソフト「Photoshop」のβ版（デスクトップ／Web／モバイル向け）に、AI生成技術「Adobe Firefly」を活用した5つの新機能を追加したと<a href="https://blog.adobe.com/en/publish/2025/07/29/powerful-new-photoshop-innovations-creators-creative-pros">発表</a>した。これにより、合成画像の自然な一体化、高解像度への自動変換、不要物の除去精度向上、複数人による編集プロジェクトの一元管理、AIモデル選択による生成画像の調整が可能となる。新機能は同日から順次、βチャンネルのユーザー向けに提供が開始された。</p>
-<h3>Harmonize（β）</h3>
-<p>合成時に発生する「浮いた印象」を回避するため、AIが光源、色調、影などの視覚要素を解析し、自動的に合成対象のレイヤーに調和処理を行う。Adobeが2024年のAdobe MAXで発表していた研究開発プロジェクト「Project Perfect Blend」の成果をベースにしている。</p>
-<h3>Generative Upscale（β）</h3>
-<p>画像の高解像度化を行う生成AI機能で、最大8メガピクセルまで拡張可能。既存の拡大処理では発生しやすかったディテールの劣化を抑え、SNS向けのリサイズや印刷物制作への活用が想定されている。</p>
-<p><strong>■ Generative Upscale適用前（左）と適用後（右）の比較</strong> ：ディテールが強化され、ノイズが大幅に低減されている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a_fc8147feb6/media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a_fc8147feb6.webp" alt="media_12ff7544ace3898ddf1bdc5f9ee1db53083203e6a.webp" /></p>
-<h3>Removeツールの強化</h3>
-<p>不要物の除去に使用されるRemoveツールがFirefly Image Model 3にアップグレードされ、背景生成の自然さとアーティファクト（不自然な痕跡）の低減が図られた。小物の除去から人物の除去まで幅広い用途に対応する。</p>
-<p><strong>■ Removeツールの処理例。スケートパークの背景から複数の人物を自然に除去している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f_24dbe3458c/media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f_24dbe3458c.webp" alt="media_1a8c2968a877a9bd91827b2a3b5e7822e2e70fc0f.webp" /></p>
-<h3>Projects（β）</h3>
-<p>複数人での編集やレビューを想定した共有スペース。PSDファイルや関連画像、コメントなどを一元的に管理でき、チーム内外とのリアルタイムな協働を可能にする。Web版Photoshop上でリンクを介してアクセスでき、ファイルの重複やバージョン違いによる混乱を防ぐ。</p>
-<h3>Generative AI Model Picker</h3>
-<p>Generative FillおよびExpand使用時に、使用するFireflyモデル（Image 1／Image 3）を選択できるようになった。これにより、スタイルや出力品質に応じたAIモデルの切り替えが可能となる。</p>
-<p>これらの新機能は、Photoshopのデスクトップ版およびWeb版のβチャンネルで即日提供されており、モバイル向けにはiOSのEarly Access版にてHarmonizeが先行導入されている。Android版については、2025年6月に公開された正式アプリへの今後の機能追加が予定されている。</p>
-<p>Photoshopには2023年以降、Fireflyモデルを中核とした生成AI機能（Generative Fill、Generative Expandなど）が順次搭載されており、今回のアップデートはその延長線上にある。また、AdobeはPhotoshopの35周年を迎える本年、プロフェッショナルクリエイターの生産性向上とAI編集の即応性をより一層高める構えだ。</p>
-]]></description>
-      <pubDate>Mon, 04 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIの予測能力が人間の平均を超える時代へ──DeepMindらが描く「スーパー予測者AI」の未来像</title>
