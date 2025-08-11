@@ -431,52 +431,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
       <pubDate>Tue, 05 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>【ソースコード特典付き】MCP × ローカルLLMで作る次世代AIエージェント｜Ledge.ai Webinar</title>
-      <link>https://ledge.ai/articles/webinar-vol68</link>
-      <description><![CDATA[<h2>ウェビナー概要</h2>
-<p>Ledge.ai Webinar vol.68では、「MCP×ローカルLLMによるAIエージェント構築」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。</p>
-<p>LLMを外部のツールやデータソースと連携させるための標準プロトコルとして注目を集める「MCP（Model Context Protocol）」。
-まるで様々なデバイスを接続できるUSB-Cポートのように、異なるLLMやツールをスムーズに繋ぐことから「AIのUSB-Cポート」とも呼ばれています。</p>
-<p>このMCPを活用することで、これまで個別の実装が必要だったツール連携の複雑さ（M×N問題）を解消し、より効率的に高度なAIエージェントを構築することが可能になります。</p>
-<p>今回のウェビナーでは、MCPの基本概念から、MCPとローカルLLMと組み合わせたAIエージェントの具体的な実装方法まで、デモンストレーションを交えて分かりやすく解説します。</p>
-<p><strong>ウェビナーの内容</strong></p>
-<ul>
-<li>MCP（Model Context Protocol）の概要とAIエージェント開発における重要性</li>
-<li>複数のMCPツール（Web検索、RAG、データベース、ファイルシステム）と連携するAIエージェントの実装デモ</li>
-<li>ローカル環境で実行可能なオープンソースLLMを用いたAIエージェントの構築方法</li>
-</ul>
-<p><strong>このような方におすすめ</strong></p>
-<ul>
-<li>AIエージェント開発の最新動向を知りたい方</li>
-<li>MCP（Model Context Protocol）の概念や実装方法に興味がある方</li>
-<li>ローカルLLMを活用してMCPツールと連携させる方法を知りたい方</li>
-<li>GPUリソースを効率的に活用しながらAI開発を進めたい方</li>
-</ul>
-<h3><strong>視聴者特典</strong></h3>
-<p><strong>【特典①】デモで使用したサンプルコードをプレゼント！</strong>
-本ウェビナーのアンケートにご回答いただいた方全員に、デモで使用したソースコードをプレゼントいたします。視聴後すぐに、ご自身の環境で再現・検証が可能です。</p>
-<p><strong>【特典②】H200 GPU 30日間無料トライアルキャンペーン！</strong>
-さらに、ハイレゾでは現在、「NVIDIA H200」を搭載したGPUクラウドサービス「AIスパコンクラウド」を30日間無料でお試しいただける特別なキャンペーンも実施中です。
-（詳細はウェビナー内およびアンケート回答後のご案内をご確認ください。）</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/h200_gpu_free_trial1200_bd3d66cf05/h200_gpu_free_trial1200_bd3d66cf05.jpg" alt="h200-gpu-free-trial1200.jpg" /></p>
-<h2>登壇者情報</h2>
-<p>株式会社ハイレゾ
-マーケティング部　グループ長
-山田 岳史</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/highreso_yamadasama_2a984e3aa6/highreso_yamadasama_2a984e3aa6.jpg" alt="highreso-yamadasama.jpg" /></p>
-<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
-GPUクラウドサービスのマーケティング担当。</p>
-<h2>お申し込みはこちら</h2>
-<p>配信期間：2025年8月4日(月)〜2025年8月25日(月)
-配信方式：オンデマンド（Zoom）
-参加費：無料</p>
-<p>:::button
-<a href="https://zfrmz.com/4XTvrjWktQ90sj9eW7xE">ウェビナーの視聴はこちら</a>
-:::</p>
-]]></description>
-      <pubDate>Mon, 04 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropicが企業向けLLMで OpenAI を逆転──Menlo 北米での調査、32 %シェアで首位に</title>
       <link>https://ledge.ai/articles/anthropic_tops_enterprise_llm_market_2025_midyear</link>
       <description><![CDATA[<p>米ベンチャーキャピタルのMenlo Venturesは2025年7月31日、企業における大規模言語モデル（LLM）の導入実態を調査したレポート「2025 Mid-Year LLM Market Update」を<a href="https://menlovc.com/perspective/2025-mid-year-llm-market-update/">発表</a>した。調査によると、AnthropicのClaudeシリーズが企業利用において32％のシェアを獲得し、OpenAI（25％）を抜いて首位に立った。調査対象は北米を中心とした150社以上の技術責任者で、実運用中のAPIに基づいた数値だという。</p>
