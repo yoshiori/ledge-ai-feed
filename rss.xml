@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、米国一般調達局（GSA）と提携──連邦職員に「ChatGPT Enterprise」を1ドルで提供、1年間の限定プログラム開始</title>
+      <link>https://ledge.ai/articles/openai_gsa_federal_chatgpt_1usd_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年8月6日、米国一般調達局（GSA）との新たなパートナーシップを<a href="https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce/">発表</a>し、米連邦政府の全職員を対象に「ChatGPT Enterprise」を1年間、エージェンシーごとに1ドルで提供する取り組みを開始した。政府全体での生成AI活用を加速させる狙いがある。</p>
+<p>このプログラムでは、導入から60日間、OpenAIの最新モデルを無制限で利用可能となるほか、教育・研修支援として「OpenAI Academy」や利用者コミュニティへのアクセスが提供される。さらに、SlalomやBoston Consulting Groupとの提携による研修プログラムも用意されている。</p>
+<p>セキュリティ面では、政府の機密性やプライバシーを守るため、利用データをモデルの再学習に使用しない方針を明記。GSAは、この取り組みを同局の「OneGov」戦略の一環として位置づけ、ホワイトハウスのAI Action Planの推進に寄与するとしている。</p>
+<p>今回の提携により、GSAはOpenAIに加え、Anthropicの「Claude」、Googleの「Gemini」などをAIベンダーとして調達可能にした。これにより、連邦政府機関は複数の生成AIサービスから選択できる環境が整うことになる。</p>
+<p>OpenAI CEOのサム・アルトマン氏は、「このパートナーシップは公共部門における生成AI活用を飛躍的に前進させる」とコメント。FedScoopやWiredは、この1ドル提供を「事実上の全職員アクセス解放」と評しており、象徴的な施策と位置づけている。</p>
+]]></description>
+      <pubDate>Mon, 11 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Alibaba、オープンソース画像生成AI「Qwen-Image」発表──英語・中国語で高精度テキスト埋め込み</title>
       <link>https://ledge.ai/articles/alibaba_qwen_image_launch</link>
       <description><![CDATA[<p>AlibabaのAI開発チーム「Qwen（通義千問）」は2025年8月4日、画像内に自然なテキストを高精度に埋め込める新たな画像生成AIモデル「Qwen-Image」を<a href="https://qwenlm.github.io/blog/qwen-image/">発表</a>した。英語と中国語に対応し、広告やデザインなど幅広い用途での活用が見込まれる。モデルはオープンソースとして公開され、商用利用も可能だ。</p>
@@ -365,37 +376,6 @@
 <p>Teslaは引き続き完全自動運転の実現を目指しているが、今回の評決は、その進展に対して法的・社会的な検証と制約が強まることを示す一例となった。</p>
 ]]></description>
       <pubDate>Tue, 05 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テキストから”超リアルな写真っぽい画像”を生成　Black Forest Labs、オープンライセンスの新モデル「FLUX.1 Krea [dev]」で挑む“ポスト AI ルック”</title>
-      <link>https://ledge.ai/articles/flux1_krea_open_image_model_release</link>
-      <description><![CDATA[<p>Stable Diffusion　のオリジナル開発陣が設立したBlack Forest Labs（BFL）は2025年7月31日、テキストから写真のようなリアルな画像を生成できる最新の画像生成モデル「FLUX.1 Krea [dev]」を<a href="https://bfl.ai/announcements/flux-1-krea-dev">発表・公開</a>した。</p>
-<p>モデルは12B（120億）パラメーターのRectified Flow Transformerを採用し、Krea AIとの共同開発によって、従来の「AIっぽさ」を意図的に排除したビジュアル表現を可能にしている。非商用用途での利用に限り、オープンウェイト形式で配布されており、Hugging Faceからダウンロードできる。</p>
-<h2>“意見を持つ”画像生成モデル</h2>
-<p>FLUX.1 Krea [dev]は、Krea AIが開発した高精細な実写風モデル「Krea 1」をベースに再訓練されており、BFL独自の審美的判断を加味した“opinionated（意見を持つ）”生成スタイルが特徴。過度な彩度や人工的な質感、非現実的な肌の表現といった“AIルック”を避け、現実に即した写実性を重視する仕上がりとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/447cb391bb54864ff4c9e478d311fd1ad2badd21_3072x2560_a7bc5402d7/447cb391bb54864ff4c9e478d311fd1ad2badd21_3072x2560_a7bc5402d7.jpg" alt="447cb391bb54864ff4c9e478d311fd1ad2badd21-3072x2560.jpg" /></p>
-<h2>主な特徴と技術仕様</h2>
-<ul>
-<li>モデルサイズ：12BパラメーターのRectified Flow Transformerを採用し、従来の拡散モデルと比較して収束速度と品質を両立。</li>
-<li>出力解像度：標準で1024×1024ピクセルの画像を生成可能。今後はアップスケーリングにも対応予定。</li>
-<li>プロンプト追従性：Krea 1の特徴を維持しつつ、ガイダンス蒸留によりより正確なプロンプト適合を実現。</li>
-<li>対応環境：ComfyUI、Diffusers、Together AI、Replicateなど、主要なUIやAPIに対応。</li>
-</ul>
-<p><strong>Black Forest Labs 各モデルの ELO レーティング比較</strong> ：最新モデル 「FLUX.1 Krea [dev]」は 1,011 ポイントを記録し、商用向けの「FLUX.1 [pro] v1.1」に迫る性能を示した
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/63a9e1e322f8db4e5af_85409d34bd/63a9e1e322f8db4e5af_85409d34bd.jpg" alt="63a9e1e322f8db4e5af.jpg" /></p>
-<h2>オープンウェイトでの提供</h2>
-<p>FLUX.1 Krea [dev]は、非商用利用に限り自由に使用可能なライセンス（v1.1.2）で提供されている。モデルデータはHugging Face上で公開されており、研究者・開発者・クリエイターはローカル環境やクラウド上での導入が可能。商用利用を希望する場合は、別途Black Forest Labsとのライセンス契約が必要となる。</p>
-<h2>安全性と倫理対策</h2>
-<p>BFLは、安全性確保のために以下の対策を講じている。</p>
-<ul>
-<li>IWF（Internet Watch Foundation）との連携によるCSAM（児童性的虐待コンテンツ）およびNCII（非同意性的画像）対策。</li>
-<li>内部および外部によるアドバーサリアル評価テストを通過し、公開済みの他のオープン画像モデルよりも安全性が高いと判断。</li>
-<li>オープン配布にあたって、使用時のフィルタリングや手動レビューをユーザーに義務づけ。</li>
-</ul>
-<h2>今後の展開</h2>
-<p>BFLは今後、FLUX.1 Krea [dev]を軸としたシリーズの展開を予定しており、高解像度対応モデル「FLUX Ultra」や、テキスト＋画像のマルチモーダル入力に対応する「FLUX.1 Kontext」などの開発にも取り組んでいる。また、さまざまなAIスタックとの連携により、リアルなビジュアル生成のオープンスタンダードを確立していく方針だ。</p>
-]]></description>
-      <pubDate>Tue, 05 Aug 2025 01:30:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
