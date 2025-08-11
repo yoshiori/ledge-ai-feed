@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>米Cloudflare、Perplexityがrobots.txtなどの「クロール禁止」指示を回避しているとの検証結果を公表</title>
+      <link>https://ledge.ai/articles/cloudflare_perplexity_stealth_crawling_block</link>
+      <description><![CDATA[<p>Cloudflareは現地時間の2025年8月4日、Perplexity AIが運営するWeb検索特化AI「Perplexity」のクローラーが、robots.txtなどの「クロール禁止」指示を回避していると<a href="https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/">発表</a>した。</p>
+<p>非公開テストドメインでも禁止コンテンツが取得されるなどの事例が確認され、User-Agent偽装やIPアドレスの切り替えといった「ステルスクローリング」の証拠が示された。同社はPerplexityを「Verified Bots」プログラムから除外し、全面的にアクセスを遮断した。</p>
+<h2>禁止設定を突破したアクセスを検出</h2>
+<p>Cloudflareによると、robots.txtやWebアプリケーションファイアウォール（WAF）でクロール禁止設定を行ったにもかかわらず、Perplexityによるアクセスが複数のサイトで確認された。User-AgentをmacOS版Chromeに偽装し、未公表のIPアドレスや異なる自律システム番号（ASN）からアクセスを行うなどの手法を用い、数百万件／日規模のリクエストが発生していたという。</p>
+<h2>非公開テストドメインでの検証</h2>
+<p>調査では、新規に設定した非公開ドメインを用意し、robots.txtで全面的にクロールを禁止した上で、Perplexityの公称Botをブロック。それでも禁止コンテンツがPerplexityの応答に含まれる事例が確認され、公称Botと異なる未申告Bot双方でアクセスがあったことが判明した。</p>
+<p><strong>Cloudflareが示したPerplexityのクロール挙動の推定フロー</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/An_example_0a0dae6be3/An_example_0a0dae6be3.jpg" alt="An example.jpg" /></p>
+<h2>他社との比較</h2>
+<p>Cloudflareは、同様の検証をOpenAIのChatGPTに対しても実施。ChatGPTのBotはrobots.txtを取得し、禁止設定がある場合はアクセスを行わなかったとして、Perplexityの挙動との違いを強調した。</p>
+<h2>Perplexityの反応</h2>
+<p>Perplexityは同日、「これは大量スクレイピングではなく、ユーザー主導のリアルタイム取得である」とする声明を発表。Cloudflareが示したリクエスト数には外部サービス由来のアクセスが含まれており、計測や認識に誤りがあると主張した。</p>
+<h2>今後の見通し</h2>
+<p>Cloudflareは、未申告クローラーの検出・遮断ルールを継続的に強化すると表明。Perplexityは反論を続けており、今後は技術的手法の是非に加え、法務面での動向も注目される。</p>
+<p>今回Cloudflareが指摘したクロール回避行為とは別の争点となっているが、8月7日には、読売新聞が東京地方裁判所にPerplexityを著作権侵害などで提訴した。記事や画像の無断利用を巡るものだという。</p>
+]]></description>
+      <pubDate>Mon, 11 Aug 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、米国一般調達局（GSA）と提携──連邦職員に「ChatGPT Enterprise」を1ドルで提供、1年間の限定プログラム開始</title>
       <link>https://ledge.ai/articles/openai_gsa_federal_chatgpt_1usd_2025</link>
       <description><![CDATA[<p>OpenAIは2025年8月6日、米国一般調達局（GSA）との新たなパートナーシップを<a href="https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce/">発表</a>し、米連邦政府の全職員を対象に「ChatGPT Enterprise」を1年間、エージェンシーごとに1ドルで提供する取り組みを開始した。政府全体での生成AI活用を加速させる狙いがある。</p>
