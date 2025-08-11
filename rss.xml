@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Alibaba、オープンソース画像生成AI「Qwen-Image」発表──英語・中国語で高精度テキスト埋め込み</title>
+      <link>https://ledge.ai/articles/alibaba_qwen_image_launch</link>
+      <description><![CDATA[<p>AlibabaのAI開発チーム「Qwen（通義千問）」は2025年8月4日、画像内に自然なテキストを高精度に埋め込める新たな画像生成AIモデル「Qwen-Image」を<a href="https://qwenlm.github.io/blog/qwen-image/">発表</a>した。英語と中国語に対応し、広告やデザインなど幅広い用途での活用が見込まれる。モデルはオープンソースとして公開され、商用利用も可能だ。</p>
+<p>Qwen-Imageは、Qwenが開発したマルチモーダルモデル「Qwen-VL」を基盤に構築され、7Bパラメーター規模を持つ。ネイティブテキストレンダリング機能により、画像内に自然で読みやすい文字を直接描画でき、写真風からイラスト風、3Dレンダリングまで多様なスタイルを生成可能だ。また、テキストと画像の組み合わせ入力にも対応し、複雑な指示に基づくコンテンツ生成を実現する。</p>
+<p>同モデルはGitHubでコードやモデルデータ、推論手順が公開されており、商用利用を含む幅広い用途で利用できる。ライセンスは一部制限付きながらも自由度が高く、Hugging Face上でのモデルカード提供も予定されている。</p>
+<p>背景には、Alibabaの生成AI戦略強化がある。Qwenはこれまで言語モデルやマルチモーダルモデルを相次いで投入しており、特に「テキスト埋め込み精度」における競争力向上を目指している。ArXivに公開された技術報告では、英語・中国語双方で既存モデルを上回る精度を記録したことが示されている。</p>
+<p><strong>Qwen-Imageは英語・中国語双方のテキスト埋め込み精度で既存モデルを上回る結果を記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_d01c8f78c9/bench_d01c8f78c9.jpg" alt="bench.jpg" /></p>
+<p>今後は対応言語の拡大や、企業向けのカスタマイズ機能提供、広告クリエイティブ自動生成ツールとの連携などが見込まれる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/merge3_e42a1c66c7/merge3_e42a1c66c7.jpg" alt="merge3.jpg" /></p>
+]]></description>
+      <pubDate>Sun, 10 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>読売新聞、AI検索Perplexityを提訴──「約12万本無断利用」で21.7億円賠償請求、東京地裁に訴え</title>
       <link>https://ledge.ai/articles/yomiuri_sues_perplexity_2025</link>
       <description><![CDATA[<p>2025年8月7日、読売新聞の東京本社、大阪本社、西部本社の3社は、米国発のAI検索サービス「Perplexity（パープレキシティ）」を東京地方裁判所に提訴したことを<a href="https://www.yomiuri.co.jp/national/20250807-OYT1T50151/">発表</a>した。記事や画像を無断で取得・要約して提供し、著作権を侵害したとして、サービスの利用差止めと約21億6,800万円の損害賠償を求めている。</p>
@@ -382,30 +396,6 @@
 <p>BFLは今後、FLUX.1 Krea [dev]を軸としたシリーズの展開を予定しており、高解像度対応モデル「FLUX Ultra」や、テキスト＋画像のマルチモーダル入力に対応する「FLUX.1 Kontext」などの開発にも取り組んでいる。また、さまざまなAIスタックとの連携により、リアルなビジュアル生成のオープンスタンダードを確立していく方針だ。</p>
 ]]></description>
       <pubDate>Tue, 05 Aug 2025 01:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、検索「AIモード」に画像・PDF質問や学習計画機能を追加──“新学期シーズン”に向けてアップデート</title>
-      <link>https://ledge.ai/articles/google_ai_mode_back_to_school_update</link>
-      <description><![CDATA[<p>Googleは2025年7月29日（米国時間）、検索ページ上の「AIモード（AI Overviews）」に新たな機能を追加したと<a href="https://blog.google/products/search/ai-mode-updates-back-to-school/">発表</a>した。この機能は2025年2月から米国を中心にテスト提供されているもので、今回のアップデートは「Back-to-School（新学期）シーズン」に向けたものであると説明している。新機能として、画像やPDFに対する質問機能や、学習計画を視覚的に整理できる「Canvas」パネル、カメラを用いたリアルタイム質問機能「Search Live」などが実装され、主に学生や教育関係者向けの検索活用を想定している。</p>
-<h2>新たに実装された主な機能</h2>
-<h3>画像・PDF質問対応</h3>
-<p>デスクトップ環境でも画像をアップロードして質問できるようになった。例えば、問題や講義スライドの画像をアップし、内容について質問することが可能。さらに、数週間以内にはPDFファイルのアップロードにも対応予定としており、教材の理解支援に利用できるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/summarise_these_files_0574e0e343/summarise_these_files_0574e0e343.jpg" alt="summarise these files.jpg" /></p>
-<h3>Canvas（キャンバス）機能</h3>
-<p>学習計画や旅行準備などを整理するための新パネル「Canvas」がAIモードに追加された。複数セッションを跨いで関連情報を保持し、生成AIによる要約・構造化を行うことが可能である。また、ファイルのアップロードと連携することで、パーソナライズされた学習ガイドの生成にも対応する予定だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ask_ai_mode_canvas_18b41d8f1a/ask_ai_mode_canvas_18b41d8f1a.jpg" alt="ask ai mode canvas.jpg" /></p>
-<h3>Search Live（リアルタイムカメラ質問）</h3>
-<p>Google Lensと連携し、スマートフォンのカメラを使ってその場の映像に基づいて質問する機能「Search Live」が試験導入された。たとえば、手元の理科の実験器具やグラフをカメラで映し、それについての解説をその場でAIから得ることができる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=OnwKhkVrvnE&amp;t=5s">YouTube</a></p>
-<h3>Webページに対する検索支援強化</h3>
-<p>近日中に、Chromeのアドレスバーをクリックすると、ドロップダウンの候補に「このページについてGoogleに質問する（Ask Google about this page）」という新しいオプションが表示されるようになり、そのままAIモードを通じて深掘り検索が行えるという。同社は、これが、ChromeでGoogleレンズを使って検索するもう一つの方法となると説明している。</p>
-<h2>提供範囲と利用条件</h2>
-<p>現在これらの機能は、AIモード対応地域である米国およびインドの英語版ユーザーに向けて提供されている。また、「Canvas」および「Search Live」機能については、「Search Generative Experience（SGE）」の拡張機能として、Google Labs登録ユーザーから順次展開される形式をとっている。</p>
-<h2>背景：AIモードの進化</h2>
-<p>AIモードは、Google検索に生成AIを統合した「AI Overviews」として2024年に発表され、2025年2月からはAI Modeとしてラボ機能としてのテストが始まっていた。5月には米国内で正式に提供開始され、Gemini 2.5ベースのカスタムモデルが搭載されている。今回のアップデートは、その進化の一環として、教育利用のシナリオに焦点を当てたものとされている。</p>
-<p>Googleは本機能群について、「学習から日常的な調査、買い物支援に至るまで、検索体験をエンドツーエンドでサポートするもの」と位置づけており、今後はGoogle Driveとの連携拡張なども視野に入れているという。</p>
-]]></description>
-      <pubDate>Mon, 04 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
