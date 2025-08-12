@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、日本法人代表に東條英俊氏を任命──東京拠点開設と採用計画も発表</title>
+      <link>https://ledge.ai/articles/anthropic_japan_hidetoshi_tojo_appointment</link>
+      <description><![CDATA[<p>米AI企業Anthropicは2025年8月7日、日本法人の代表執行役社長に東條英俊氏を任命したと<a href="https://www.anthropic.com/news/head-of-japan-hiring-plans">発表</a>した。</p>
+<p>同社は今秋、東京オフィスを開設する予定で、エンタープライズ営業、カスタマーサクセス、エンジニアリングなどの職種で採用活動を開始する。日本企業とのパートナーシップ強化を通じ、生成AIの安全かつ有効な活用を支援していく方針だという。</p>
+<p>東條氏はGoogle日本法人の執行役員などを歴任し、クラウドや生成AI分野で豊富な経験を持つ。海外企業での事業展開やパートナーシップ構築にも実績があるとのこと。</p>
+<p>AnthropicはClaudeシリーズ（Claude 3.5 Sonnetなど）を提供し、米国外では英国、カナダ、アイルランドなどにも拠点を展開。今回の日本法人設立は、アジア地域での事業基盤強化の一環と位置づけられている。</p>
+<p>発表の中で東條氏は「日本企業が生成AIを安全かつ有効に活用できる環境を整備していく」と述べた。同社も「日本市場は戦略的に重要な地域であり、ローカルチームを通じたサポートを強化する」とコメントしている。</p>
+]]></description>
+      <pubDate>Mon, 11 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米Cloudflare、Perplexityがrobots.txtなどの「クロール禁止」指示を回避しているとの検証結果を公表</title>
       <link>https://ledge.ai/articles/cloudflare_perplexity_stealth_crawling_block</link>
       <description><![CDATA[<p>Cloudflareは現地時間の2025年8月4日、Perplexity AIが運営するWeb検索特化AI「Perplexity」のクローラーが、robots.txtなどの「クロール禁止」指示を回避していると<a href="https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/">発表</a>した。</p>
@@ -409,26 +420,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>同社は今後、「GMO AI最適化ブースト」を生成AI時代における新たな広報施策の業界標準として展開していく方針だ。あわせて、レピュテーション管理や危機対応などを含む周辺ソリューションの拡充にも取り組むとしている。</p>
 ]]></description>
       <pubDate>Wed, 06 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Autopilot死亡事故で2億4,300万ドル賠償──Teslaは控訴表明もXで「手動運転は過去の遺物」と意に介さず</title>
-      <link>https://ledge.ai/articles/tesla_autopilot_liability_verdict_2025</link>
-      <description><![CDATA[<p>2025年8月1日、フロリダ州マイアミの連邦地裁で、Teslaの運転支援機能「Autopilot」に関連する2019年の死亡事故をめぐる民事訴訟の評決が下された。陪審団は、事故の責任の一部がTeslaにあると判断し、同社に対し2億4,300万ドル（約360億円）の損害賠償金の支払いを命じた。このニュースは、<a href="https://www.nbcnews.com/news/us-news/tesla-autopilot-crash-trial-verdict-partly-liable-rcna222344">NBC</a>など複数の米メディアが同日報じた。一方でTeslaは、同日公式X（旧Twitter）アカウントにて「手動運転は過去の遺物」とも取れる投稿を行い、判決と対照的なスタンスを示した。</p>
-<h2>フロリダ州での事故、Autopilot作動中に歩道の人を死亡させる</h2>
-<p>事故が発生したのは2019年4月25日、フロリダ州デルトラビーチ。Tesla Model Sが赤信号の交差点に進入し、路肩に停車していたSUVに衝突。衝突の影響で歩道にいた22歳のナイベル・ベナビデス・レオン氏が死亡し、同乗していた男性も重傷を負った。</p>
-<p>裁判では、事故当時にAutopilotが作動していたこと、本来は高速道路向けに設計された同機能が信号や交差点のある一般道路でも使用可能だった点、さらにドライバーの注意散漫時に作動する警告機能の有効性などが争点となった。</p>
-<p>複数の報道によれば、陪審はドライバーに67％、Teslaに33％の過失があると認定。損害賠償金は補償的損害1億2,900万ドル、懲罰的損害2億ドルで構成されており、懲罰的損害の全額がTeslaに対して課された。</p>
-<h2>控訴の方針とSNS投稿の温度差</h2>
-<p>報道によれば、Teslaはこの判決について「事実に反する」として控訴する方針を示している。</p>
-<p>判決が報じられた日、同社は公式Xアカウントに
-“In the future, people will find it wild that manual driving was a daily task, not a weekend thrill”（訳：将来の人々にとって、手動運転が毎日の作業だったなんて信じられないことになるだろう）と<a href="https://x.com/Tesla/status/1952102455405171036">投稿</a>。</p>
-<p>この投稿には、歩行補助器を使う高齢女性が「昔の人は、重さ2トンもの“走る凶器”を時速70マイルで、疲れていようが気が散っていようが――もっとひどい状態でも――毎日のように運転していたのよ」と話しているのに対し、付き添いの若い女性が「Sure grandma, let’s get you to bed（はいはいおばあちゃん、もう寝ようね）」と声をかけるインターネット・ミーム画像が添付されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_x_2be13c4150/tesla_x_2be13c4150.jpg" alt="tesla x.jpg" /></p>
-<h2>今後の法的・技術的影響</h2>
-<p>TeslaがAutopilotに関連して重大な損害賠償責任を問われたのは今回が初めてとされる。これにより、米国家運輸安全委員会（NTSB）や米運輸省道路交通安全局（NHTSA）が進める調査や、運転支援機能に関する規制・基準の見直しが加速する可能性がある。</p>
-<p>Teslaは引き続き完全自動運転の実現を目指しているが、今回の評決は、その進展に対して法的・社会的な検証と制約が強まることを示す一例となった。</p>
-]]></description>
-      <pubDate>Tue, 05 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropicが企業向けLLMで OpenAI を逆転──Menlo 北米での調査、32 %シェアで首位に</title>
