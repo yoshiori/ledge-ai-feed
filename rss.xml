@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ダイキン、米DDC Solutionsを買収──AIデータセンター向け液冷・空冷ハイブリッド型冷却技術を強化</title>
+      <link>https://ledge.ai/articles/daikin_acquires_ddc_solutions_ai_datacenter_cooling</link>
+      <description><![CDATA[<p>ダイキン工業は8月6日、100％子会社のダイキンアプライドアメリカズ（Daikin Applied Americas、以下DAA）を通じて、AIデータセンター向け冷却システムを手がける米Dynamic Data Centers Solutions（以下DDCS）を買収すると<a href="https://www.daikin.co.jp/press/2025/20250806">発表</a>した。買収は2025年8月下旬に完了する見込みで、急成長する高密度データセンター市場への対応力を高める。買収額は非公表。</p>
+<p>DDCSはカリフォルニア州サンディエゴに本社を置き、液冷と空冷を組み合わせたハイブリッド型のキャビネット冷却システムに強みを持つ。特にAI処理や高性能コンピューティング（HPC）など、高負荷ワークロードに対応する高密度サーバーラック向け冷却技術を展開している。</p>
+<p>ダイキンは、AIやクラウドの普及に伴いデータセンターの電力密度や発熱量が増大していることを背景に、冷却技術の高度化が急務と判断。今回の買収により、自社の空調分野で培ったノウハウとDDCSの液冷技術を融合し、AIデータセンター市場での競争力強化を図る。</p>
+<p>DAAのCEOは「DDCSの技術は高密度ラック冷却の課題解決に直結する」と述べ、ダイキン工業の幹部も「今後のデータセンター市場拡大に向けて重要な投資」と位置づけている。</p>
+<p>買収完了後は、DAAとDDCSの共同ブランドによる製品展開を計画。北米市場を皮切りに、アジアや欧州への展開を進め、AIデータセンターの省エネ化と持続可能性の向上に貢献する方針だ。</p>
+]]></description>
+      <pubDate>Tue, 12 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>人間とロボットが生み出す触覚データを資産化しAIが活用――東大発スタートアップcommissure、Physical AI時代を見据えた『Hapto AI構想』発表</title>
       <link>https://ledge.ai/articles/hapto_ai_commissure_physical_ai</link>
       <description><![CDATA[<p>株式会社commissureは2025年8月5日、人間やロボットが触覚データを生み出し、それを「感覚資産」として活用することを可能にする新構想「Hapto AI™構想（ハプト・エーアイ）」を<a href="https://prtimes.jp/main/html/rd/p/000000012.000118478.html">発表</a>した。触覚の収集から提示、AIによる生成までを統合し、物理世界での知覚・操作を高度化する「Physical AI」として位置づけるという。</p>
@@ -415,32 +426,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>OpenAIのサム・アルトマンCEOは同日のX投稿で「gpt-ossは最先端のオープンウェイト推論モデルであり、o4-miniに匹敵する実性能をローカル環境（小型版はスマートフォンでも動作）で発揮できる。世界で最も使いやすいオープンモデルだと信じている」と述べた。この発言は、“閉鎖”中心と見られてきたOpenAIが本格的にOSS領域へ踏み込む姿勢を示すものであり、開発者コミュニティに向けた強いメッセージとなっている。</p>
 ]]></description>
       <pubDate>Wed, 06 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMO対策でAI検索最適化──GMO NIKKO、「GMO AI最適化ブースト」提供開始</title>
-      <link>https://ledge.ai/articles/llmo_optimization_gmo_ai_boost</link>
-      <description><![CDATA[<p>GMO NIKKOは2025年8月1日、生成AIによる検索結果で企業の公式情報が引用・表示されやすくなるよう支援する新サービス「GMO AI最適化ブースト」の提供を開始したことを<a href="https://www.koukoku.jp/release/250801/">発表</a>した。</p>
-<p>サービスは、LLMO（Large Language Model Optimization）に対応し、ChatGPT、Gemini、Google AI Overviewsなどの主要生成AIを対象に、情報構造やコンテンツを最適化する。GMO NIKKOは、生成AI分析ツールを提供するAI Hackと業務提携し、企業サイトの調査から改善までをワンストップで支援する体制を整えたという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gmo_llmo_65892443be/gmo_llmo_65892443be.jpg" alt="gmo llmo.jpg" /></p>
-<h2>AI主導の「ゼロクリック検索」への対応が急務に</h2>
-<p>生成AIの普及により、検索ユーザーがAIの回答のみで情報収集を完結させる「ゼロクリック検索」が拡大している。この動きにより、従来のSEO施策だけでは企業の公式情報が検索経路から外れやすくなる傾向が強まっている。</p>
-<p>調査会社Gartnerは「2026年までに従来型の検索トラフィックが25％減少する」と予測しており、生成AIに最適化された新たな広報・情報発信戦略が求められている。</p>
-<h2>AIに“引用される”情報構造を構築</h2>
-<p>「GMO AI最適化ブースト」では、以下の支援を通じて生成AIに引用されやすい情報環境の構築を目指す。</p>
-<ul>
-<li><strong>可視性診断</strong> ：ChatGPTやGemini、Google AI Overviewsなどにおける自社情報の掲載状況を5つの指標でスコア化。</li>
-<li><strong>競合との比較分析</strong> ：他社との引用・露出の差分を可視化し、優先的に改善すべき領域を特定。</li>
-<li><strong>技術的最適化支援</strong> ：schema.orgによる構造化、FAQ整備、llms.txt設定などでAIが情報を正確に解釈できる構造を整備。</li>
-<li><strong>生成AI向けコンテンツ制作</strong> ：AIが引用しやすい形式でFAQ、用語集、専門記事などを制作。</li>
-<li><strong>サイテーション強化</strong> ：信頼性向上のため、外部メディアや権威サイトでの第三者言及を促進。</li>
-<li><strong>継続的な可視化レポート</strong> ：AIによる引用状況を月次でレポートし、改善提案を実施。</li>
-</ul>
-<p>これらの施策は、AI Hackの分析ツールと50項目を超える独自チェックリストをもとに実行される。</p>
-<h2>今後の展望</h2>
-<p>同サービスはGMO NIKKOが直接提供し、料金は個別見積もり方式（2025年8月時点で価格は非公開）で対応する。</p>
-<p>同社は今後、「GMO AI最適化ブースト」を生成AI時代における新たな広報施策の業界標準として展開していく方針だ。あわせて、レピュテーション管理や危機対応などを含む周辺ソリューションの拡充にも取り組むとしている。</p>
-]]></description>
-      <pubDate>Wed, 06 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropicが企業向けLLMで OpenAI を逆転──Menlo 北米での調査、32 %シェアで首位に</title>
