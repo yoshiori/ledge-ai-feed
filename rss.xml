@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
+      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
+<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
+<h2>突然の“主役交代”と予告なき仕様変更</h2>
+<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
+加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
+<h2>世界を駆け巡った“4oロス”</h2>
+<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
+<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
+<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
+<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
+<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
+（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
+と投稿し、「AI依存」を揶揄する意見も見られた。
+運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
+<h2>性能か、人格か</h2>
+<p>議論は感情論にとどまらなかった。
+GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
+創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
+<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
+<h2>OpenAIの即日対応と背景</h2>
+<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
+8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
+<ul>
+<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
+<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
+<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
+<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
+4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
+<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
+]]></description>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ダイキン、米DDC Solutionsを買収──AIデータセンター向け液冷・空冷ハイブリッド型冷却技術を強化</title>
       <link>https://ledge.ai/articles/daikin_acquires_ddc_solutions_ai_datacenter_cooling</link>
       <description><![CDATA[<p>ダイキン工業は8月6日、100％子会社のダイキンアプライドアメリカズ（Daikin Applied Americas、以下DAA）を通じて、AIデータセンター向け冷却システムを手がける米Dynamic Data Centers Solutions（以下DDCS）を買収すると<a href="https://www.daikin.co.jp/press/2025/20250806">発表</a>した。買収は2025年8月下旬に完了する見込みで、急成長する高密度データセンター市場への対応力を高める。買収額は非公表。</p>
