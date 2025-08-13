@@ -499,7 +499,7 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
+      <title>AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
       <link>https://ledge.ai/articles/webinar-vol66</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
 <p>2025年は「AIエージェント元年」。生成AIの急速な進化を背景に、目標に応じて自律的に判断・行動する“AIエージェント”に大きな期待が寄せられています。その活用領域は、顧客対応や業務自動化、ナレッジ検索、意思決定支援など急速に広がり、すでに多くの企業が実証・導入を開始。実運用フェーズに移行しつつあるのが現状です。
@@ -731,6 +731,55 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
 ]]></description>
       <pubDate>Mon, 04 Aug 2025 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol67</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
+<p>ABEJAが開発した小型LLM「QwQ-32B Reasoning Model」は、わずか32Bという軽量サイズでありながら、GPT-4oを上回る推論性能を記録。日本語に強く、コーディングや数学など高度な思考タスクにも対応可能な構造を備えた、思考する小型LLMとして注目を集めています。</p>
+<p>本ウェビナーでは、同モデルの特長や、軽量化と高精度の両立を実現した開発上の工夫を解説。あわせて、今後の社会実装に向けた展望や、業務特化型LLMの構築支援についてもご紹介します。
+ウェビナーの後半では、ハイレゾが提供するオンプレミスを上回る柔軟性とコストパフォーマンスを備えたGPUクラウドサービスをご紹介。LLMの開発・実行における具体的な活用事例を交えながら、その実用性と優位性をわかりやすくお伝えします。</p>
+<p>当日はLIVE配信にて、ウェビナーを実施いたします。ご視聴希望の方は、以下の視聴用フォームよりご登録をお願いいたします。</p>
+<p>:::button
+<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+:::</p>
+<p><strong>ウェビナーの内容</strong></p>
+<ul>
+<li>GPT-4oを上回る推論性能を実現したABEJAの小型LLM「QwQ-32B Reasoning Model」の技術的特徴と開発背景</li>
+<li>日本語・コーディング・数学などの高度なタスクに対応する構造と、業務特化型LLMとしての可能性</li>
+<li>ハイレゾのGPUクラウドを活用した、柔軟かつ高コスパなLLM開発・運用の実践事例</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>社内外でのLLM活用や自社業務特化型モデルの構築を検討しているMLエンジニア・AIプロジェクト責任者</li>
+<li>LLMの軽量化や高精度化、クラウドインフラの最適化に関心のある情報システム部門・インフラ担当者</li>
+<li>製造・IT・建設・大学研究機関などで、AI活用を本格的に推進したいと考えている方</li>
+</ul>
+<h2>登壇者情報</h2>
+<p><strong>株式会社ハイレゾ
+マーケティング部　グループ長
+山田 岳史 氏</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2_e7b7533fdd/image2_e7b7533fdd.jpg" alt="image2.jpg" /></p>
+<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
+GPUクラウドサービスの事業開発からマーケティングを担当。</p>
+<p><strong>株式会社ABEJA
+プリンシパルデータサイエンティスト
+服部 響 氏</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/abeja_prof_1a867ccbb5/abeja_prof_1a867ccbb5.png" alt="abeja-prof.png" /></p>
+<p>趣味で麻雀AIを作ったことをきっかけに機械学習の道に入る。前職で、画像認識を用いたアプリの開発や機械学習を用いたユーザプロファイリングに従事。
+2020年5月にABEJA入社。データサイエンティストとして幅広いプロジェクト及びデータサイエンス組織のマネージャーを経験した後、プリンシパルデータサイエンティストとして専門職のキャリアへ進む。
+現在はGENIACプロジェクトでプロジェクトリーダーとしてLLM開発を牽引。
+趣味でデータ分析コンペティションに積極的に参加。Kaggle Grandmaster。Kaggle days world championship優勝。atmaCupはじめ国内コンペで複数回優勝経験あり。</p>
+<h2>お申し込みはこちら</h2>
+<p>イベント名：小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線
+配信日：2025年8月19日(火) 13:00-14:00
+配信方式：LIVE（Zoom Webinar）
+参加費：無料（事前登録制）</p>
+<p>:::button
+<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+:::</p>
+]]></description>
+      <pubDate>Tue, 22 Jul 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
