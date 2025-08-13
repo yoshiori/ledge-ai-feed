@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>完全オンプレで生成AI活用──デル、「Dell AI Code Assistant」を日本国内提供開始</title>
+      <link>https://ledge.ai/articles/dell_ai_code_assistant_japan_launch</link>
+      <description><![CDATA[<p>デル・テクノロジーズは2025年7月24日、同社のサーバー、ストレージ、ネットワーク機器と米NVIDIA製GPUを活用したシステム基盤上で、生成AIとAIコードアシスタントをすべてオンプレミス環境で稼働させる「Dell AI Code Assistant」の日本国内提供を開始したことを<a href="https://www.dell.com/ja-jp/blog/dell-ai-code-assistant/">発表</a>した。企業のデータと知的財産を保護しながら、開発効率を高めることを目的としている。</p>
+<p>同ソリューションは、デルのハードウェアとNVIDIA GPUによる「Dell AI Factory」構成を基盤に、コンテナ化されたシステムで柔軟に導入可能。生成AIを活用したコード提案や補完機能を持つ「Tabnine Enterprise」を組み込み、既存の開発ワークフローに統合できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dell_AI_Code_Assistant_2_640x360_8243896b11/Dell_AI_Code_Assistant_2_640x360_8243896b11.jpg" alt="Dell-AI-Code-Assistant-2-640x360.jpg" /></p>
+<p>すべての処理がオンプレミス内で完結するため、インターネット経由で外部環境に情報が送信されることはなく、知的財産や機密情報を扱う環境にも適している。企業のセキュリティポリシーや規制要件に沿ったAI導入を容易にする設計となっている。</p>
+<p>デルは、同ソリューションの提供を通じ、生成AIを用いた開発支援と業務効率化を推進し、日本企業の競争力向上を支援するとしている。</p>
+]]></description>
+      <pubDate>Wed, 13 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ElevenLabs、自然言語プロンプトでスタジオ級音楽を生成できる「Eleven Music」を発表 ─ 商用利用にも対応、日本語歌詞生成も可能、Merlin・Kobaltと提携</title>
       <link>https://ledge.ai/articles/elevenlabs_music_ai_commercial_japan_release</link>
       <description><![CDATA[<p>AI音声技術を手がけるElevenLabsは2025年8月5日、新サービス「Eleven Music」を<a href="https://elevenlabs.io/ja/blog/eleven-music-is-here">発表</a>した。</p>
@@ -654,27 +665,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>Delangue氏の発言は、AI業界が「買うAI（API利用）」から「作るAI（内製モデル）」へのシフトを迎えているという見方を反映している。今後は、独自モデルをいかに迅速に開発し運用できるか が企業競争力の重要指標となりそうだ。</p>
 ]]></description>
       <pubDate>Thu, 07 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT、週次利用者7億人へ──3月から2億人増、1年で4倍に</title>
-      <link>https://ledge.ai/articles/chatgpt_weekly_users_700_million</link>
-      <description><![CDATA[<p>2025年8月4日、米OpenAIは、対話型AI「ChatGPT」の週間アクティブユーザー（WAU）が今週中にも世界で7億人を超える見通しであることを明らかにした。これは、同社プロダクト責任者ニック・ターレイ氏がX（旧Twitter）上に<a href="https://x.com/nickaturley/status/1952385556664520875">投稿</a>した内容および関連報道に基づく。3月末時点でのWAUは5億人であり、約4カ月で2億人の増加となる。2024年時点と比較すると、年間で約4倍の成長となる。</p>
-<h2>新機能と法人利用の拡大</h2>
-<p>急成長の要因として、2025年3月に追加されたGPT-4ベースの高精度画像生成機能や、会話の文脈を継続して記憶できる「メモリ機能」など、ユーザーの実用性を高めるアップデートが影響しているとみられる。また、法人向けのChatGPT Enterpriseプラン契約社数も増加傾向にあり、2025年6月時点で500万社に達したことが報告されている。これは3月時点から200万社の増加に相当する。</p>
-<p>アプリ市場調査会社Sensor Towerによると、ChatGPTの1ユーザーあたりの平均利用頻度は月12日以上、1日の平均利用時間は約16分とされている。</p>
-<h2>年間売上は20億ドル超　評価額は5,000億ドル視野に</h2>
-<p><a href="https://www.reuters.com/business/openai-eyes-500-billion-valuation-potential-employee-share-sale-source-says-2025-08-06/">ロイター</a>の報道によると、OpenAIの収益性も急速に高まっており、ChatGPT関連事業を含めた年間売上は20億ドル（約2,800億円）を超えるとの市場推計が出ている。また、社員保有株の売却計画に関連して、同社の企業評価額は5,000億ドル（約70兆円）規模に達する可能性があると報じられている。</p>
-<h2>競合との競り合いが激化　GoogleやAnthropicも拡大路線へ</h2>
-<p>業界全体としては、Googleの「Gemini」アプリが月間4億5,000万MAU（Monthly Active Users）を維持しており、OpenAIと並んで高い利用者数を記録している。また、Anthropicが開発するClaudeなどの他の大手モデルもユーザー獲得を進めており、生成AI市場におけるシェア争いが一層激化している。</p>
-<h2>今後の展開：ポケット内デバイスで稼働する超高性能AIを示唆</h2>
-<p>OpenAIは次世代モデル「GPT-5」を開発中と報じられており、2025年8月中にも発表される可能性が指摘されている。あわせて、ChatGPTには生活支援やメンタルヘルスなどウェルネス領域の機能強化が計画されているとの情報もある。
-8月6日には、同社のサム・アルトマン最高経営責任者（CEO）がXで次のように投稿した。</p>
-<p>someday soon something smarter than the smartest person you know will be running on a device in your pocket, helping you with whatever you want.</p>
-<p>this is a very remarkable thing.</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/remarkable_thing_sama_gpt5_30a5cb690c/remarkable_thing_sama_gpt5_30a5cb690c.jpg" alt="remarkable thing sama gpt5.jpg" /></p>
-<p>アルトマン氏は、ポケット内のデバイス上で“最も賢い人物より賢い”AIが近い将来稼働するとの見通しを示した。</p>
-]]></description>
-      <pubDate>Thu, 07 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
