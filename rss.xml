@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ElevenLabs、自然言語プロンプトでスタジオ級音楽を生成できる「Eleven Music」を発表 ─ 商用利用にも対応、日本語歌詞生成も可能、Merlin・Kobaltと提携</title>
+      <link>https://ledge.ai/articles/elevenlabs_music_ai_commercial_japan_release</link>
+      <description><![CDATA[<p>AI音声技術を手がけるElevenLabsは2025年8月5日、新サービス「Eleven Music」を<a href="https://elevenlabs.io/ja/blog/eleven-music-is-here">発表</a>した。</p>
+<p>自然言語での指示（プロンプト）から、スタジオ品質の音楽を生成できるもので、生成した楽曲は商用利用も可能。音楽業界の主要団体や企業との提携により、権利面での安全性も確保しているという。</p>
+<p>自然言語での指示（プロンプト）からスタジオ品質の音楽を生成でき、生成した楽曲は商用利用が可能。音楽業界の主要団体や企業との提携により、権利面での安全性も確保している。日本法人ElevenLabs株式会社からの発表により、日本市場向けの提供開始も明らかになった。</p>
+<p>「Eleven Music」はジャンル、テンポ、雰囲気、楽器構成、歌詞の有無などを指定して音楽を生成できる。歌詞は多言語に対応し、日本語歌詞の生成も可能だ。生成音質はスタジオレベルで、映像制作、広告、ゲーム、SNSなど幅広い用途での利用が想定される。無料トライアルも提供される。</p>
+<p><strong>簡単なプロンプトを入れるだけで曲が完成</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Eleven_Music_f5bf12c511/Eleven_Music_f5bf12c511.jpg" alt="Eleven Music.jpg" /></p>
+<p>権利処理面では、全世界4万以上のインディーズレーベルを抱える音楽業界団体Merlinおよび約70万曲の音楽出版権を持つKobaltと提携。これにより、著作権やライセンスに関する安全性を担保し、既存作品の無断使用を防ぐ著作権管理システムも実装している。ElevenLabsはガイドラインを設け、差別的・暴力的・違法なコンテンツや、特定アーティストや著名人の声・スタイルを模倣した生成を禁止している。</p>
+<p>同社は、音声生成分野で培った技術を音楽に拡張することで、プロから一般ユーザーまでが短時間で高品質な楽曲を制作できる環境を目指す。今後は対応ジャンルや言語の拡充、API提供、他のクリエイティブツールとの統合なども検討しているという。</p>
+]]></description>
+      <pubDate>Wed, 13 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
       <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
       <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
@@ -661,33 +675,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>アルトマン氏は、ポケット内のデバイス上で“最も賢い人物より賢い”AIが近い将来稼働するとの見通しを示した。</p>
 ]]></description>
       <pubDate>Thu, 07 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI が“OSS 戦線”に参入：推論最適化モデル『gpt-oss』、Hugging Face と GitHub で即日配布</title>
-      <link>https://ledge.ai/articles/openai_gpt_oss_open_weight_release</link>
-      <description><![CDATA[<p>OpenAIは米国時間の2025年8月5日、推論最適化されたオープンウェイト言語モデル<a href="https://openai.com/open-models/">「gpt-oss-120b」と「gpt-oss-20b」</a>を発表し、同日中にHugging Face、GitHub、AWS上で<a href="https://openai.com/index/introducing-gpt-oss/">一般公開</a>した。</p>
-<p>両モデルはApache 2.0ライセンスの下で提供され、商用利用や改変、再配布が自由に許可されている。o4-mini相当の性能を備えながらも、80GB GPUまたは一般的な16GBメモリのローカル環境での動作を想定しており、開発者や研究者が安全性と性能を両立したLLMを自前のインフラ上で運用できることを目指すとしている。</p>
-<h2>ローカル運用を前提としたMoE構造、2モデル同時公開</h2>
-<p>gpt-oss-120bは、36層・128エキスパート構成のMixture-of-Experts（MoE）アーキテクチャを採用しており、推論時には同時に4つのエキスパートのみが活性化される設計となっている。これにより、アクティブなパラメータは約33Bに抑えられ、メモリ効率を向上させた。gpt-oss-20bも同様の構成で、こちらは32エキスパート・24層構造で、一般的な16GBメモリのPC環境でも実行可能とされている。</p>
-<p>両モデルは最大128kトークンの長文コンテキストに対応し、推論モードも3段階（low、medium、high）で調整可能。すべてのChain-of-Thought（CoT）出力を開示することで、透明性と制御性を両立している。</p>
-<h2>o4-miniと同等の性能、ヘルスケア分野では上回る評価も</h2>
-<p>OpenAIによると、gpt-oss-120bはMMLU、HellaSwag、AI2 Reasoning Challenge（ARC）、AIME2025といった代表的なベンチマークにおいて、ChatGPT搭載モデルであるo4-miniと同等の推論性能を発揮している。特に、ヘルスケア分野の評価セットであるHealthBenchなどでは一部で上回る結果も見られたという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt_oss_model_performance_a5920564a4/gpt_oss_model_performance_a5920564a4.jpg" alt="gpt oss model performance.jpg" /></p>
-<p>軽量版の20bモデルも、同社のo3-miniより高い精度を示すタスクが複数確認されており、軽量ながらも高性能な選択肢として注目される。</p>
-<h2>Apache 2.0 ライセンスでの公開と配布形態</h2>
-<p>今回のgpt-ossは、Apache 2.0ライセンスの下で公開されている。これにより、商用利用や改変、再配布が広く許容され、企業や研究者にとって導入ハードルが大きく下がる。</p>
-<p>モデルは<a href="https://openai.com/index/gpt-oss-model-card/">モデルカード</a>、GitHubのリポジトリ、Dockerコンテナ、Ollamaレシピなどを通じて提供されており、AWS BedrockやSageMakerなどとも統合されている。インフラ制約のある現場でも、即座に利用できる設計となっている。</p>
-<h2>Preparedness Framework に基づく安全性評価と外部レビュー</h2>
-<p>OpenAIは、本モデルをリリースするにあたり、自社の「Preparedness Framework」に基づく<a href="https://ledge.ai/articles/openai_preparedness_safety-advisory-group">安全性評価</a>を実施したと説明している。悪意ある利用を想定したadversarial fine-tuningや外部専門家によるリスクレビューを経たうえで、「生物学的合成、サイバー攻撃、化学兵器の設計といった高リスク能力には到達していない」と判断し、公開に踏み切った。</p>
-<p>また、全ての推論に対するChain-of-Thought（思考過程）の開示によって、モデルの透明性と制御性を向上させており、開発者に対しても「責任ある利用と検証」を促している。</p>
-<h2>企業・研究機関での先行導入とOSSコミュニティへの期待</h2>
-<p>gpt-ossの公開に伴い、AI Sweden、Orange、Snowflakeなどの企業・研究機関がすでに導入を開始しており、リアルタイムデータ処理や独自評価基盤の構築などでの活用が進んでいる。OpenAIは今後、開発者からのフィードバックを集め、次世代モデルの設計や安全性強化に役立てる方針も示している。</p>
-<p>このリリースは、Metaの「Llama 3」やMistral、DeepSeekといった他のOSSモデル群に対抗する形で、OpenAIが再び“開放”に舵を切った動きと位置付けられる。これにより、生成AIの開発エコシステムにおける「クローズド vs オープン」の構図にも変化が生じる可能性がある。</p>
-<h2>Altman氏「これは世界で最も使いやすいオープンモデル」</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt_oss_sama_a2095daa89/gpt_oss_sama_a2095daa89.png" alt="gpt oss sama.png" /></p>
-<p>OpenAIのサム・アルトマンCEOは同日のX投稿で「gpt-ossは最先端のオープンウェイト推論モデルであり、o4-miniに匹敵する実性能をローカル環境（小型版はスマートフォンでも動作）で発揮できる。世界で最も使いやすいオープンモデルだと信じている」と述べた。この発言は、“閉鎖”中心と見られてきたOpenAIが本格的にOSS領域へ踏み込む姿勢を示すものであり、開発者コミュニティに向けた強いメッセージとなっている。</p>
-]]></description>
-      <pubDate>Wed, 06 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
