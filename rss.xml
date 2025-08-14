@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
+      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
+<h2>ベータを経て正式版へ</h2>
+<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
+<h2>利用プラン</h2>
+<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
+<h2>プライバシーと安全性</h2>
+<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
+<h2>今後の展望</h2>
+<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
+]]></description>
+      <pubDate>Thu, 14 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、AIが自律的に専門ツールを使いソフトウェアを解析──マルウェア対策を革新する「Project Ire」発表</title>
       <link>https://ledge.ai/articles/microsoft_project_ire_ai_reverse_engineering_announcement</link>
       <description><![CDATA[<p>Microsoftは2025年8月12日（現地時間）、AIが自律的に専門的な解析ツールを操作し、ソフトウェアのリバースエンジニアリングを行う新システム「Project Ire」を<a href="https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/">発表</a>した。マルウェア解析や脆弱性調査といった分野において、従来は人手に依存していた高度な解析作業を自動化することを狙う。</p>
@@ -683,39 +699,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>キリンホールディングスは、AI技術の実装を通じて経営判断におけるデータ駆動型の意思決定を強化し、持続的な成長と市場環境への柔軟な対応を図る構えだ。</p>
 ]]></description>
       <pubDate>Fri, 08 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>イーロン・マスク氏のNeuralink、英NHSと提携し欧州初の臨床試験へ──脳チップ競争激化、競合Synchronは“思考でiPad操作”映像公開</title>
-      <link>https://ledge.ai/articles/neuralink_uk_trial_vs_synchron_ipad_demo</link>
-      <description><![CDATA[<p>イーロン・マスク氏が率いるスタートアップ企業Neuralinkは2025年8月1日、イギリス・ロンドンおよびニューカッスルで、同社の脳インプラント「N1」を用いる臨床試験「GB-PRIME」を開始すると<a href="https://neuralink.com/updates/gb-prime-study-launch/">発表</a>した。対象は四肢まひを伴う神経疾患患者で、思考によってデジタルおよび物理デバイスを操作できるかを評価する。Neuralinkにとって欧州初の臨床試験となるこの動きに先立ち、競合のSynchronは脳内デバイスでiPadを操作する様子を公開し、脳コンピュータ・インターフェース（BCI）分野の国際競争が激化している。</p>
-<h2>脳とマシンをつなぐ「BCI」、Neuralinkの米国試験から始動</h2>
-<p>脳–コンピュータ・インターフェース（BCI）は、脳の神経活動を読み取って信号処理し、コンピュータや機械装置を直接制御する技術である。Neuralinkは2016年に創業され、BCIを通じて四肢まひ患者が意思を持って機器を操作できる未来を目指している。</p>
-<p>同社が開発した「N1」インプラントは、直径約25mm、厚さわずか8mmの円盤型デバイスで、1024個の電極を内蔵し、64本の極細なスレッドを脳の運動皮質に挿入する。これらのスレッドは、同社製の手術ロボット「R1」によって自動的に埋め込まれる。</p>
-<p>米国では2024年1月、FDA（米食品医薬品局）の承認を得て、初のヒト臨床試験「PRIME Study（Precise Robotically Implanted Brain–Computer Interface）」し、最大10人を対象とする早期治験。2025年7月時点で5人の被験者にN1を埋め込み済みで、信号安定性とデバイス操作能力のデータ収集が続く。</p>
-<p><strong>Neuralink初の被験者が思考でオンラインチェスをプレイする様子</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neuralink_live_chess_2c1ffce5c1/neuralink_live_chess_2c1ffce5c1.jpg" alt="neuralink live chess.jpg" /></p>
-<h2>米国から欧州へ、Neuralinkが臨床の舞台を拡大</h2>
-<p>Neuralinkは2024年、米国での初のヒト臨床試験「PRIME Study」で、すでに5人の被験者に脳インプラント「N1」を埋め込んでいる。今回の「GB-PRIME」はこの米国での知見を基に、英国における同様のプロトコルでの評価を目的とした臨床試験であり、同社にとって欧州初の展開となる。</p>
-<h2>「GB-PRIME」の試験概要と対象</h2>
-<p>試験は以下の2つの病院を拠点に行われる：</p>
-<ul>
-<li>University College London Hospitals（UCLH）</li>
-<li>Newcastle upon Tyne Hospitals
-対象となるのは、脊髄損傷や筋萎縮性側索硬化症（ALS）などにより重度の四肢まひを持つ最大7人の患者。Neuralinkは、被験者の脳内に直径25mm、1024の電極を備えたN1デバイスを自社開発の手術ロボット「R1」によって自動的に埋め込む。</li>
-</ul>
-<p>試験では、脳波信号の安定性、安全性、ならびに思考によるカーソルや機器の操作能力を主要な評価項目とする。</p>
-<h2>英国当局の規制承認を取得済み</h2>
-<p>同試験は、英国医薬品・医療製品規制庁（MHRA）によって治験申請（Clinical Trial Authorization：CTA）が承認され、研究倫理審査委員会（Research Ethics Committee：REC）も通過している。取得されたデータは、英国のデジタル医療規格に準拠して管理されるという。</p>
-<h2>Synchronが公開した“iPadを思考で操作”の実演映像</h2>
-<p>Neuralinkの欧州進出と時期を同じくして、競合であるSynchron（米国）は、脳に埋め込んだデバイス「Stentrode」によって思考だけでiPadを操作する様子を撮影したデモ動画を8月4日にYouTube上で<a href="https://www.youtube.com/watch?v=YK8r5vdpozA">公開</a>した。映像では、患者が文字入力やアプリ起動、ホーム画面の操作を行う様子が確認できる。</p>
-<p>SynchronのStentrodeは、開頭手術を必要とせず、頸静脈経由で血管内にデバイスを留置する「低侵襲」な手法を採用している。すでに10人以上に埋め込まれており、Appleの新しいBCI HID（Human Interface Device）プロトコルに対応したソフトウェアとの統合も進行中とされている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=YK8r5vdpozA">YouTube</a></p>
-<h2>競争激化するBCI分野、資金調達も活発化</h2>
-<p>Neuralinkは2025年7月に約6億5000万ドルの資金を新たに調達し、累計調達額は約13億ドル、企業評価額はおよそ90億ドルに達したとされている。一方、SynchronもシリーズCまでで1億ドル以上を調達しており、Bezos ExpeditionsやARCH Venture Partners、Khosla Venturesなどが出資。2026年の米FDAへの正式な製品承認申請を予定しているという。</p>
-<h2>今後の展望</h2>
-<p>Neuralinkは、今後カナダやUAEなど複数の国で同様の臨床試験を展開する計画を明かしている。イーロン・マスク氏は「最終的には健常者への認知機能拡張も視野に入れている」と発言しており、倫理的・規制的課題との対話が引き続き焦点となる見通しだ。</p>
-]]></description>
-      <pubDate>Thu, 07 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
