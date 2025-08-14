@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、AIが自律的に専門ツールを使いソフトウェアを解析──マルウェア対策を革新する「Project Ire」発表</title>
+      <link>https://ledge.ai/articles/microsoft_project_ire_ai_reverse_engineering_announcement</link>
+      <description><![CDATA[<p>Microsoftは2025年8月12日（現地時間）、AIが自律的に専門的な解析ツールを操作し、ソフトウェアのリバースエンジニアリングを行う新システム「Project Ire」を<a href="https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/">発表</a>した。マルウェア解析や脆弱性調査といった分野において、従来は人手に依存していた高度な解析作業を自動化することを狙う。</p>
+<h2>AIが自ら手順を決定し解析を実行</h2>
+<p>Project Ireは、解析対象ソフトウェアに対してAIエージェントが自律的に手順を組み立て、既存のリバースエンジニアリング用ツールを選択・操作して調査を進める。プロセス全体のログを収集し、解析レポートを自動生成する機能も備えている。これにより、複雑なマルウェアや不明なバイナリに対しても迅速な解析が可能となる。</p>
+<h2>高精度かつ低い誤検出率</h2>
+<p>Microsoftの評価によれば、Project IreはWindowsドライバー解析のベンチマークにおいて高い精度と再現率を記録し、誤検出率も低水準に抑えられたという。従来の手動解析に比べ、作業時間の短縮と安定した品質の両立が可能となる。</p>
+<h2>開発背景</h2>
+<p>近年、マルウェアは暗号化や難読化など高度な手法を駆使して解析を困難にしており、解析人材の不足や作業負荷の増大が課題となっている。Microsoftは、AIを活用することでこうした課題の解消と解析効率の飛躍的向上を目指すとしている。</p>
+<h2>今後の展望</h2>
+<p>Project Ireは現段階では研究プロジェクトとして運用されているが、今後はMicrosoftのセキュリティ製品や企業向けサービスへの統合も視野に入れている。さらに、外部研究者や開発者との連携による改善や新機能追加の可能性も示唆しており、マルウェア対策分野における新たな基盤技術となることが期待される。</p>
+]]></description>
+      <pubDate>Wed, 13 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>完全オンプレで生成AI活用──デル、「Dell AI Code Assistant」を日本国内提供開始</title>
       <link>https://ledge.ai/articles/dell_ai_code_assistant_japan_launch</link>
       <description><![CDATA[<p>デル・テクノロジーズは2025年7月24日、同社のサーバー、ストレージ、ネットワーク機器と米NVIDIA製GPUを活用したシステム基盤上で、生成AIとAIコードアシスタントをすべてオンプレミス環境で稼働させる「Dell AI Code Assistant」の日本国内提供を開始したことを<a href="https://www.dell.com/ja-jp/blog/dell-ai-code-assistant/">発表</a>した。企業のデータと知的財産を保護しながら、開発効率を高めることを目的としている。</p>
@@ -701,36 +716,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>Neuralinkは、今後カナダやUAEなど複数の国で同様の臨床試験を展開する計画を明かしている。イーロン・マスク氏は「最終的には健常者への認知機能拡張も視野に入れている」と発言しており、倫理的・規制的課題との対話が引き続き焦点となる見通しだ。</p>
 ]]></description>
       <pubDate>Thu, 07 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hugging Face CEO、「コードを書くようにLLMも自前で訓練すべき」と訴え――Nanotron公開で“企業製AI”の時代が現実味</title>
-      <link>https://ledge.ai/articles/custom_llm_huggingface_nanotron</link>
-      <description><![CDATA[<p>Hugging FaceのCEOであるClément Delangue氏は2025年8月4日、自身のX（旧 Twitter）に<a href="https://x.com/ClementDelangue/status/1952048356710039700">投稿</a>し、「すべてのテクノロジー企業は、Deepseek R1  Llama、GPT-5といった 独自の大規模言語モデル（LLM）を訓練でき、かつ訓練すべきだ」と呼びかけた。</p>
-<p>投稿には「Every tech company can and should train their own Deepseek R1, Llama or GPT5, just like every tech company writes their own code.」という一文が添えられており、ソフトウェア開発の延長としてモデル開発を捉えるべきだとのメッセージが込められている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clement_delangue_32591c644f/clement_delangue_32591c644f.jpg" alt="clement delangue.jpg" /></p>
-<h2>専用LLM開発のハードルはすでに下がった</h2>
-<p>Delangue 氏が “自社訓練” を促す背景には、近年のコスト低減とオープンソース化の進展がある。たとえば 2024 年末に公開された Deepseek R1 は推定 550 万ドルで訓練されたとされ、同規模モデルとしては低コストの事例となった。さらに Meta の Llama 3、そして OpenAI が次期フラッグシップとして準備を進める GPT-5 も、フォークや追加学習を前提に採用されるケースが増えている。
-クラウド型 GPU クラスタや公開データセットが急速に整い、かつては巨額の資金を要した LLM 訓練が中堅企業でも射程に入る環境が整いつつある。</p>
-<h2>Nanotronが後押しする“作れる AI”</h2>
-<p>Hugging Face は7月30日、分散学習フレームワーク 「Nanotron」 と、その運用ノウハウをまとめた 「Ultra-Scale Playbook」 をProプラン加入者向けに無料提供 すると発表した。Delangue氏は X で「Free for @huggingface pro users」と明言しており、同社の有償サブスクリプション（個人25ドル／月〜）に登録している開発者が追加コストなく利用できる仕組みだ。</p>
-<p>Playbook には</p>
-<ul>
-<li>100億パラメータ超モデル を訓練するステップバイステップ手順</li>
-<li>GPU クラスタ最適化や障害対応などの実務ノウハウ</li>
-<li>Databricks や Lambda Labs など外部インフラとの接続例
-が収録されており、研究機関・スタートアップが“自社LLM”に踏み出す際のガイドとして機能するという。</li>
-</ul>
-<h2>企業が自前モデルに踏み切る理由</h2>
-<p>Delangue氏の主張は、すでに複数の産業分野で進む「自社専用LLM」開発の潮流と一致する。とくに以下のようなニーズに対応する目的で、LLMを自社開発・内製化する動きがみられる。</p>
-<ul>
-<li><strong>機密データの保持</strong> ：顧客情報や製造ノウハウなど、外部クラウドに預けられないデータを安全に活用可能</li>
-<li><strong>推論コストの削減</strong> ：自社ホスティングにより、API利用料の継続的負担を回避</li>
-<li><strong>法令・ガバナンスへの準拠</strong> ：業界ごとのコンプライアンス要件に合わせたモデル調整が容易
-他方で、GPU 調達競争や高品質データの確保、人材不足といった課題は依然として残る。</li>
-</ul>
-<p>Delangue氏の発言は、AI業界が「買うAI（API利用）」から「作るAI（内製モデル）」へのシフトを迎えているという見方を反映している。今後は、独自モデルをいかに迅速に開発し運用できるか が企業競争力の重要指標となりそうだ。</p>
-]]></description>
-      <pubDate>Thu, 07 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
