@@ -355,54 +355,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
       <pubDate>Sat, 09 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropicが企業向けLLMで OpenAI を逆転──Menlo 北米での調査、32 %シェアで首位に</title>
-      <link>https://ledge.ai/articles/anthropic_tops_enterprise_llm_market_2025_midyear</link>
-      <description><![CDATA[<p>米ベンチャーキャピタルのMenlo Venturesは2025年7月31日、企業における大規模言語モデル（LLM）の導入実態を調査したレポート「2025 Mid-Year LLM Market Update」を<a href="https://menlovc.com/perspective/2025-mid-year-llm-market-update/">発表</a>した。調査によると、AnthropicのClaudeシリーズが企業利用において32％のシェアを獲得し、OpenAI（25％）を抜いて首位に立った。調査対象は北米を中心とした150社以上の技術責任者で、実運用中のAPIに基づいた数値だという。</p>
-<h2>企業向けLLM市場、Anthropicが32％で首位に</h2>
-<p>企業が本番環境で利用しているLLMプロバイダーのシェアは以下の通り</p>
-<ul>
-<li>Anthropic（Claude）：32％</li>
-<li>OpenAI（GPT）：25％</li>
-<li>Google（Gemini）：20％</li>
-<li>Meta（Llama）：9％</li>
-<li>DeepSeek：1％
-2023年末の同様の調査ではOpenAIが50％以上の圧倒的シェアを持っていたが、半年間で大幅に後退し、代わってAnthropicが首位に立った。</li>
-</ul>
-<h2>Claudeシリーズ躍進の要因はコード生成とエージェント適性</h2>
-<p>Anthropicが企業利用で支持を拡大した要因として、Menloは次の2点を挙げている。</p>
-<ul>
-<li><strong>コード生成性能の優位性</strong> ：開発者の支持はAnthropicが42％で、OpenAIの21％を大きく上回った。特にClaude 3.5 Sonnet以降、ソースコード生成やレビュー精度に関する評価が高まっている。</li>
-<li><strong>エージェント化への対応</strong> ：Claude 3.5 Sonnetや今後のClaude 4系において、検証付き強化学習（RLVR）を用いたタスク実行能力の強化が進められ、社内業務の一部自動化に成功した企業が増加しているという。</li>
-</ul>
-<h2>LLM支出は半年で倍増、閉鎖型モデルが依然優位</h2>
-<p>2025年上半期における企業のLLM支出は、前年同期の3.5億ドルから8.4億ドルに倍増した。主な要因は、PoC（概念実証）から本番環境への移行が加速したことによる。</p>
-<p>また、依然としてクローズドソースのプロプライエタリモデル（Anthropic、OpenAI、Googleなど）が主流である。Menloはその理由として、パフォーマンス面の安定性と導入容易性を挙げている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_closed_source_vs_open_source_scaled_e220aacfdc/3_closed_source_vs_open_source_scaled_e220aacfdc.webp" alt="3-closed-source_vs_open-source-scaled.webp" /></p>
-<h2>選定基準は「精度」「セキュリティ」「コスト」「拡張性」</h2>
-<p>企業がLLMを選定する際の重視点として、Menloは以下の4点を挙げている。</p>
-<ul>
-<li>回答品質と精度</li>
-<li>データプライバシーおよびセキュリティ対応</li>
-<li>推論コスト</li>
-<li>APIやRAGなどの拡張性
-特にセキュリティ基準が厳格な業種（金融、医療、官公庁など）では、個別カスタマイズや内部検証が可能なプロバイダーが優先される傾向が強い。</li>
-</ul>
-<h2>オープンソース採用は伸び悩み、Meta Llamaが9％で最多</h2>
-<p>一方、オープンソース系のLLMは全体の13％にとどまっており、MetaのLlamaがそのうちの9％を占める。導入には大規模なリソースが必要なうえ、中国製モデルに対するリスク懸念もあり、採用が限定的となっている。</p>
-<h2>今後の注目点</h2>
-<p>Menloはレポートの中で、今後の市場動向として以下の点に注目している。</p>
-<ul>
-<li>Anthropicの“エージェント・ファースト”戦略がどの程度実運用に耐えうるか</li>
-<li>OpenAIやGoogleの巻き返し策（API料金改定、マルチモーダル強化など）の効果</li>
-<li>複数LLMの組み合わせによるハイブリッド運用の広がり</li>
-</ul>
-<p>企業向けLLM市場は急拡大を続けており、今後数四半期でシェア構造がさらに変化する可能性があるとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「理論がないAI/LLM」に情報幾何学から新たな解釈の可能性　──“曲がった”ニューラルネットワークが引き起こす爆発的記憶、京大らが高次相互作用の数理に突破口</title>
       <link>https://ledge.ai/articles/curved_neural_networks_memory_explosion</link>
       <description><![CDATA[<p>京都大学大学院情報学研究科の島崎秀昭准教授を中心とする国際研究チームは2025年7月29日、統計物理学の最大エントロピー原理をRényiエントロピーへ拡張し、高次相互作用を自然に組み込む新しいニューラルネットワークモデル「Curved Neural Networks（C-NN）」を開発したと<a href="https://www.kyoto-u.ac.jp/ja/research-news/2025-07-29-0">発表</a>した。</p>
@@ -465,6 +417,21 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
 <h2>今後の展望</h2>
 <p>GPT-5は、Microsoft Copilotなどのパートナー製品にも順次展開される予定。OpenAIはモデル統合によるユーザー体験の簡略化を今後も進め、安全かつ信頼性の高いAIの普及を目指すとしている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=0Uu_VJeVVfo">YouTube</a></p>
+]]></description>
+      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>キリン、AI 役員「CoreMate」を経営戦略会議に常設──12 人格 × 10 年分データで意思決定を高速化</title>
+      <link>https://ledge.ai/articles/kirin_ai_exec_coremate_decision_support</link>
+      <description><![CDATA[<p>キリンホールディングス株式会社は2025年8月4日、独自開発したAI役員「CoreMate（コアメイト）」を2025年7月以降のキリングループ経営戦略会議に本格導入したと<a href="https://www.kirinholdings.com/jp/newsroom/release/2025/0804_02.html">発表</a>した。</p>
+<p>CoreMateは、12の専門人格によって構成され、同社が過去10年間に蓄積してきた取締役会・経営戦略会議の資料や外部情報を学習済み。経営層の“右腕”として、多面的な論点提示やディスカッション支援を行うことで、意思決定の高度化とスピードアップを目指す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_4aefc3e255/sub2_4aefc3e255.jpg" alt="sub2.jpg" /></p>
+<p>CoreMateは、経営戦略や重点テーマに対して12の異なる人格がそれぞれの立場・視点で意見を提示し、リアルタイムに論点を深堀りする。たとえば「サステナビリティ」「リスク管理」「ブランド戦略」といった専門性を持つ人格が、会議中に起案内容へフィードバックを加えることで、経営層は従来よりも多角的かつ迅速に判断を下せるようになる。</p>
+<p>AIの基盤には、キリンホールディングスが過去10年間に実施した取締役会および経営戦略会議の議事録、関連資料、さらに外部の最新市場情報などが学習データとして組み込まれている。会議前には起案者がCoreMateと対話形式で資料のブラッシュアップを行う「壁打ち機能」も備えられており、資料の質向上と準備時間の短縮が期待されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_e503abd6a4/sub1_e503abd6a4.png" alt="sub1.png" /></p>
+<p>CoreMateの活用は、グループ全体で年間30回以上実施される経営戦略会議を中心に進められており、今後は取締役会やグループ内の事業会社における戦略会議への導入も検討されている。また、リアルタイムでの議論の可視化や、より自然な対話が可能な会話型インターフェースの追加開発も視野に入れているという。</p>
+<p>この取り組みは、同社が掲げる長期的なデジタル戦略「KIRIN Digital Vision 2035（KDV2035）」の一環として位置づけられており、「人がやらなくてよい仕事をゼロにする」「人と共に価値を生み出す仕事を加速する」という2本柱を支える中核技術とされている。CoreMateは、同ビジョンの実現に向けた象徴的なプロジェクトと位置づけられており、人的リソースの最適化と経営スピードの両立を支援する。</p>
+<p>キリンホールディングスは、AI技術の実装を通じて経営判断におけるデータ駆動型の意思決定を強化し、持続的な成長と市場環境への柔軟な対応を図る構えだ。</p>
 ]]></description>
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
