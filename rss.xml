@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
+      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
+      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
+<h2>自動運転の中核を担う計画だった「Dojo」</h2>
+<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
+<h2>人員の移籍と再配置</h2>
+<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
+<h2>戦略転換とチップ開発の集中</h2>
+<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
+<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
+<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
+<h2>外部パートナーとの連携強化</h2>
+<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
+<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
+]]></description>
+      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMが都市の信号を制御──中国で5.5万人超の交通管理を担う「Traffic-R1」、渋滞5%減・運用負荷50%削減</title>
       <link>https://ledge.ai/articles/traffic_r1_llm_traffic_signal_control_china</link>
       <description><![CDATA[<p>中国の大都市で、大規模言語モデル（LLM）を活用して交通信号を制御するシステム「Traffic-R1」が実運用されている。香港の開発チームが2025年8月4日に<a href="https://arxiv.org/abs/2508.02344">発表</a>した論文によれば、このシステムは毎日5万5千人以上のドライバーに影響を与え、渋滞緩和や運用負荷の軽減に成果を上げているという。</p>
