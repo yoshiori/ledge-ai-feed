@@ -5,6 +5,16 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、「Claude Sonnet 4」が最大100万トークン対応──コードベースや論文群を一括処理可能に</title>
+      <link>https://ledge.ai/articles/claude_sonnet4_1m_token_context</link>
+      <description><![CDATA[<p>Anthropicは2025年8月13日（米国時間）、同社の生成AIモデル「Claude Sonnet 4」がAnthropic APIおよびAmazon Bedrockで最大100万トークンのコンテキストをサポートしたと<a href="https://www.anthropic.com/news/1m-context">発表</a>した。これにより従来の約5倍の長文処理が可能となり、7万5,000行以上のコードや数十本の研究論文、数千ページに及ぶドキュメントを1度のリクエストで扱えるようになる。Google Cloud Vertex AIでの提供も近日中に予定されているとのこと。</p>
+<p>新しい長文処理機能は、以下のような用途を想定している。第一に、大規模なソフトウェア開発プロジェクト全体を解析する「コードベース解析」だ。ソースコードやテスト、関連ドキュメントをまとめて読み込み、依存関係や改善点を把握できる。第二に、契約書や技術仕様書、学術論文など多数の文書を統合的に要約・分析する「ドキュメント統合」。そして第三に、複数のツールやプロセスをまたぐ長期的なタスクを遂行する「長期コンテキスト対応AIエージェント」だ。</p>
+<p>料金体系も変更され、20万トークンを超える入力・出力には新単価が適用される。入力は100万トークンあたり6ドル、出力は22.5ドルとなり、プロンプトキャッシングやバッチ処理といった手法を活用することでコストと遅延を抑制できるとしている。</p>
+<p>1Mトークン対応は、OpenAIが2025年4月にGPT-4.1で実装して以来の大規模モデル拡張となる。</p>
+]]></description>
+      <pubDate>Fri, 15 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
       <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
       <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
@@ -381,27 +391,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>今後は、オンデバイス処理の実装や、スピーカー内蔵型グラスとの統合により、完全スタンドアロンでの運用が見込まれている。また、対人コミュニケーションが重要な介護現場や接客業、共同作業環境での展開も視野に入れているという。</p>
 ]]></description>
       <pubDate>Sat, 09 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テキスト一行で3D世界が動く──Google DeepMind、新AIモデル「Genie 3」を公開</title>
-      <link>https://ledge.ai/articles/genie_3_text_to_3d_world_generation</link>
-      <description><![CDATA[<p>Google DeepMindは2025年8月5日、テキスト入力からインタラクティブな3D世界をリアルタイム生成できるAIモデル「Genie 3」を<a href="https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/">発表</a>した。</p>
-<p>Genie 3は、解像度720p・毎秒24フレームで再生可能な環境を生成し、ユーザーの行動に応じてオブジェクトの変化や環境の動的な反応を数分間維持できるという。生成された世界内では、キャラクターの移動や物体の操作、気象条件の変化なども即座に再現される。</p>
-<h2>テキストから“遊べる世界”を即時生成</h2>
-<p>Genie 3は、ユーザーが与えた短いテキストプロンプトや画像をもとに、実際に操作可能な世界を即座に構築するAIモデルである。入力は非常にシンプルで、「雷雨の夜の森」「宇宙船が着陸した火山地帯」といった自然言語だけで、複雑な3D環境が数秒で構築される。生成された環境は、プレイヤーが自由に歩き回り、オブジェクトに干渉できる設計になっている。</p>
-<h2>Genie 2からの進化点</h2>
-<p>前身である<a href="https://ledge.ai/articles/genie2_3d_world_model_ai_training">Genie 2</a>（2024年12月発表）では、画像を入力として2Dインタラクティブ環境を生成する機能が中心だった。これに対してGenie 3は、テキストだけで環境を立体的に構築し、3D的な物理挙動や環境変化を表現できる点が大きな進化とされる。また、Genie 3では、ユーザーの行動履歴を内部メモリとして保持することで、環境内の状態が継続的に更新される設計となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_1_84e786f1a7/unnamed_1_84e786f1a7.webp" alt="unnamed (1).webp" /></p>
-<h2>公開デモで示された生成性能</h2>
-<p>YouTubeで公開されたデモ映像では、テキスト「a cyberpunk city in the desert」（砂漠の中のサイバーパンク都市）を入力すると、数秒でネオンが光る都市が生成され、プレイヤーキャラクターがその中を移動。さらに「a stormy forest」（嵐の森）といったプロンプトでは、雷が鳴り響く中で風に揺れる木々や飛散する葉がリアルタイムで描写され、環境内の天候も再現されていた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=PDKhUknuQDg&amp;t=1s">YouTube</a></p>
-<h2>AGIへの布石としての位置づけ</h2>
-<p>DeepMindは公式ブログで、Genie 3を「汎用エージェントの訓練に不可欠な『世界モデル（world model）』の進化形」と表現している。生成環境内での行動やフィードバックを通じて、エージェント（AI）がより効率的に学習できる場を提供することが目的であり、同社はこの技術をAGI（汎用人工知能）研究の基盤の一つとして位置づけている。</p>
-<h2>今後の展開</h2>
-<p>現時点では、Genie 3は招待制のテストプログラムを通じて一部の研究者・開発者に限定公開されている。今後数か月をかけて、学術研究機関やクリエイター向けにAPIやツールキットの段階的な提供が予定されているが、具体的な一般公開時期は明示されていない。</p>
-<p>DeepMindの取り組みは、OpenAIの「World Simulation」やMetaの「Builder World」など、他の大手AI企業が展開する“世界生成AI”領域とも重なる。ロボティクスや自律エージェント開発において、リアルなシミュレーション環境は重要な役割を担っており、Genie 3の技術は、ゲーム開発・仮想教育・都市設計・産業訓練といった分野でも応用が期待される。</p>
-]]></description>
-      <pubDate>Sat, 09 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「理論がないAI/LLM」に情報幾何学から新たな解釈の可能性　──“曲がった”ニューラルネットワークが引き起こす爆発的記憶、京大らが高次相互作用の数理に突破口</title>
