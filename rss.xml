@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLMが都市の信号を制御──中国で5.5万人超の交通管理を担う「Traffic-R1」、渋滞5%減・運用負荷50%削減</title>
+      <link>https://ledge.ai/articles/traffic_r1_llm_traffic_signal_control_china</link>
+      <description><![CDATA[<p>中国の大都市で、大規模言語モデル（LLM）を活用して交通信号を制御するシステム「Traffic-R1」が実運用されている。香港の開発チームが2025年8月4日に<a href="https://arxiv.org/abs/2508.02344">発表</a>した論文によれば、このシステムは毎日5万5千人以上のドライバーに影響を与え、渋滞緩和や運用負荷の軽減に成果を上げているという。</p>
+<h2>強化学習とLLMの融合</h2>
+<p>Traffic-R1は、都市の交通信号制御（TSC）に特化した強化型LLMで、Xingchen Zou氏らの研究チームによって開発された。強化学習とLLMを組み合わせることで、人間のような推論能力を持たせ、複雑な交通状況に柔軟に対応できる設計となっている。</p>
+<p><strong>■ Offline学習とオンライン学習を組み合わせたTraffic-R1の制御モデル構造</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/framework_33e9c558cd/framework_33e9c558cd.jpg" alt="framework.jpg" /></p>
+<h2>ゼロショット適応と軽量構造</h2>
+<p>同システムは、新しい交差点配置や予期せぬ交通状況に対して再学習を必要としないゼロショット適応を実現。モデル規模は3Bパラメータと比較的小さく、モバイル向けチップを含むエッジデバイス上でリアルタイム推論が可能だ。複数交差点間で同期型通信を行い、協調的な制御を行う機能も備える。</p>
+<h2>実運用での効果</h2>
+<p>中国の大都市での導入実績では、平均待ち列長を5%以上短縮し、交通オペレーターの業務負荷を50%削減。従来の強化学習ベース手法や既存のLLM制御システムを上回る性能を示した。</p>
+<p><strong>■ 実際の交通状況データを基にした信号フェーズの推奨例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/dataset_8599b7c431/dataset_8599b7c431.jpg" alt="dataset.jpg" /></p>
+<h2>今後の展望</h2>
+<p>Traffic-R1は<a href="https://huggingface.co/Season998/Traffic-R1">Hugging Face</a>で公開されており、エッジ環境での大規模展開を想定。研究チームは今後、他都市や公共交通・歩行者制御との統合、スマートシティ計画への応用を見込んでいる。</p>
+]]></description>
+      <pubDate>Fri, 15 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ソフトバンク、オハイオ州でFoxconnの元EV工場取得の模様　大規模AIインフラ計画「Stargate」構想へ活用か——米紙報道</title>
       <link>https://ledge.ai/articles/softbank_ohio_ev_plant_stargate_ai_infrastructure_bloomberg_report</link>
       <description><![CDATA[<p>ソフトバンクグループ（SBG）が米オハイオ州にある電気自動車（EV）工場の所有権を取得したと、2025年8月8日に<a href="https://www.bloomberg.co.jp/news/articles/2025-08-08/T0O6NWGOT0JM00">米Bloomberg</a>が報じた。取得先は台湾・鴻海（ホンハイ）精密工業（Foxconn）傘下の事業体で、売却額は約3億7500万ドル（約590億円）とされる。</p>
@@ -650,28 +669,6 @@ AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療�
 <p>海外では、報道機関とAI企業の間で著作権や情報利用を巡る争いが拡大しており、2025年6月には英国BBCがAI企業に対する法的措置の検討を明らかにしている。今回の訴訟でも、差止めの範囲や要約の適法性、損害の立証方法などが主要な争点となる見通しである。</p>
 ]]></description>
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTデータとMistral AI、欧州発の安全・持続可能なプライベートAIをグローバル展開へ</title>
-      <link>https://ledge.ai/articles/nttdata_mistral_private_ai_partnership</link>
-      <description><![CDATA[<p>NTTデータとMistral AIは2025年7月29日、安全性と持続可能性を両立させた企業向けプライベートAIソリューションの共同開発およびグローバル展開に関する包括的提携を<a href="https://uk.nttdata.com/news/ntt-data-mistral-ai-sustainable-secure-private-ai-enterprises">発表</a>した。両社は、金融・保険・公共セクターなど規制の厳しい業界を対象に、欧州およびアジア太平洋地域での提供を進める方針を示した。</p>
-<h2>データ主権を巡る環境</h2>
-<p>生成AIの活用が広がる中で、EUやアジア太平洋地域では個人情報保護規制やデータ主権に対応したAI導入が喫緊の課題となっている。こうした背景を受け、Mistral AIはオープンウェイトの大規模言語モデル（LLM）を提供する企業として注目されており、NTTデータは同分野におけるシステム構築と運用支援の実績を活かす形で協業に乗り出した。</p>
-<p>今回の提携は、両社の強みを融合し、クライアント企業が社内データを安全に活用しつつ、環境負荷を抑えたAI活用を実現することを目的としている。</p>
-<h2>提携の3つの柱：開発・実装・市場展開</h2>
-<p>NTTデータとMistral AIは、以下の3点を柱とした取り組みを展開するとしている。</p>
-<ul>
-<li><strong>技術開発</strong> ：エネルギー効率の高いプライベートLLMの構築とチューニングを共同で行う。</li>
-<li><strong>ユースケース実装</strong> ：欧州およびアジア太平洋地域を対象に、エージェント型コールセンターなどの業務にAIを実装。特に、規制産業に対応した自然言語処理モデルの導入が想定されている。</li>
-<li><strong>共同販売体制</strong> ：フランス、ルクセンブルク、スペイン、シンガポール、オーストラリアにおいて営業チームを共同編成し、サービスの市場浸透を図る。</li>
-</ul>
-<p>この提携における実装第1弾として、知的財産管理大手のDennemeyer社との協力による特許情報検索AIアプリケーションの開発が進められている。また、ルクセンブルクでは同国の金融業界向けに、AI活用を支える“ソブリンAI”インフラの構築を進行中だという。</p>
-<h2>両社の体制と今後の展開</h2>
-<p>NTTデータは、Mistral AIとの協業を推進する専門組織「Mistral AI Center of Excellence」を設立し、1,000人規模の体制で支援を行う。また、Mistral AIは、NTTデータの技術者を対象に認定プログラムや技術トレーニングを提供する計画で、技術面での連携も強化される。</p>
-<p>今後は、業界別モデルや多言語対応型モデルの共同開発を予定しており、特に日本語・フランス語に最適化されたLLMの実装も視野に入っている。さらに、低炭素なデータセンター活用によってAI運用時のScope 3排出量を削減し、企業のサステナビリティ戦略にも寄与する方針だ。</p>
-<p>NTTデータのCEOであるAbhijit Dubey氏は、「責任あるAIを社会実装することが我々の使命であり、本提携はそのための重要なステップである」と述べている。一方、Mistral AIのCEOであるArthur Mensch氏は、「最高水準のプライバシーと制御性を備えたAIソリューションを提供する」として、主権型AIの価値を強調した。</p>
-]]></description>
-      <pubDate>Fri, 08 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
