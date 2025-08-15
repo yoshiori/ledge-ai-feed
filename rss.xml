@@ -74,22 +74,6 @@
       <pubDate>Thu, 14 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
-      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
-<h2>ベータを経て正式版へ</h2>
-<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
-<h2>利用プラン</h2>
-<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
-<h2>プライバシーと安全性</h2>
-<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
-<h2>今後の展望</h2>
-<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
-]]></description>
-      <pubDate>Thu, 14 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft、AIが自律的に専門ツールを使いソフトウェアを解析──マルウェア対策を革新する「Project Ire」発表</title>
       <link>https://ledge.ai/articles/microsoft_project_ire_ai_reverse_engineering_announcement</link>
       <description><![CDATA[<p>Microsoftは2025年8月12日（現地時間）、AIが自律的に専門的な解析ツールを操作し、ソフトウェアのリバースエンジニアリングを行う新システム「Project Ire」を<a href="https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/">発表</a>した。マルウェア解析や脆弱性調査といった分野において、従来は人手に依存していた高度な解析作業を自動化することを狙う。</p>
@@ -128,44 +112,6 @@
 <p>同社は、音声生成分野で培った技術を音楽に拡張することで、プロから一般ユーザーまでが短時間で高品質な楽曲を制作できる環境を目指す。今後は対応ジャンルや言語の拡充、API提供、他のクリエイティブツールとの統合なども検討しているという。</p>
 ]]></description>
       <pubDate>Wed, 13 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
-      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
-<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
-<h2>突然の“主役交代”と予告なき仕様変更</h2>
-<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
-加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
-<h2>世界を駆け巡った“4oロス”</h2>
-<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
-<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
-<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
-<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
-<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
-（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
-と投稿し、「AI依存」を揶揄する意見も見られた。
-運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
-<h2>性能か、人格か</h2>
-<p>議論は感情論にとどまらなかった。
-GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
-創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
-<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
-<h2>OpenAIの即日対応と背景</h2>
-<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
-8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
-<ul>
-<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
-<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
-<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
-<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
-4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
-<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ダイキン、米DDC Solutionsを買収──AIデータセンター向け液冷・空冷ハイブリッド型冷却技術を強化</title>
@@ -432,6 +378,22 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
+      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
+<h2>ベータを経て正式版へ</h2>
+<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
+<h2>利用プラン</h2>
+<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
+<h2>プライバシーと安全性</h2>
+<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
+<h2>今後の展望</h2>
+<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
+]]></description>
+      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、最新AI基盤モデル『GPT-5』を発表 — 誤差性能を大幅向上させ、既存製品ラインを統合した成熟の新エンジン、無料ユーザーを含む全ユーザーに提供開始</title>
       <link>https://ledge.ai/articles/gpt5_launch_all_users</link>
       <description><![CDATA[<p>OpenAIは2025年8月7日（現地時間）、最新の生成AIモデル「GPT-5」を<a href="https://openai.com/index/introducing-gpt-5/">発表</a>した。</p>
@@ -459,17 +421,40 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>キリン、AI 役員「CoreMate」を経営戦略会議に常設──12 人格 × 10 年分データで意思決定を高速化</title>
-      <link>https://ledge.ai/articles/kirin_ai_exec_coremate_decision_support</link>
-      <description><![CDATA[<p>キリンホールディングス株式会社は2025年8月4日、独自開発したAI役員「CoreMate（コアメイト）」を2025年7月以降のキリングループ経営戦略会議に本格導入したと<a href="https://www.kirinholdings.com/jp/newsroom/release/2025/0804_02.html">発表</a>した。</p>
-<p>CoreMateは、12の専門人格によって構成され、同社が過去10年間に蓄積してきた取締役会・経営戦略会議の資料や外部情報を学習済み。経営層の“右腕”として、多面的な論点提示やディスカッション支援を行うことで、意思決定の高度化とスピードアップを目指す。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_4aefc3e255/sub2_4aefc3e255.jpg" alt="sub2.jpg" /></p>
-<p>CoreMateは、経営戦略や重点テーマに対して12の異なる人格がそれぞれの立場・視点で意見を提示し、リアルタイムに論点を深堀りする。たとえば「サステナビリティ」「リスク管理」「ブランド戦略」といった専門性を持つ人格が、会議中に起案内容へフィードバックを加えることで、経営層は従来よりも多角的かつ迅速に判断を下せるようになる。</p>
-<p>AIの基盤には、キリンホールディングスが過去10年間に実施した取締役会および経営戦略会議の議事録、関連資料、さらに外部の最新市場情報などが学習データとして組み込まれている。会議前には起案者がCoreMateと対話形式で資料のブラッシュアップを行う「壁打ち機能」も備えられており、資料の質向上と準備時間の短縮が期待されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_e503abd6a4/sub1_e503abd6a4.png" alt="sub1.png" /></p>
-<p>CoreMateの活用は、グループ全体で年間30回以上実施される経営戦略会議を中心に進められており、今後は取締役会やグループ内の事業会社における戦略会議への導入も検討されている。また、リアルタイムでの議論の可視化や、より自然な対話が可能な会話型インターフェースの追加開発も視野に入れているという。</p>
-<p>この取り組みは、同社が掲げる長期的なデジタル戦略「KIRIN Digital Vision 2035（KDV2035）」の一環として位置づけられており、「人がやらなくてよい仕事をゼロにする」「人と共に価値を生み出す仕事を加速する」という2本柱を支える中核技術とされている。CoreMateは、同ビジョンの実現に向けた象徴的なプロジェクトと位置づけられており、人的リソースの最適化と経営スピードの両立を支援する。</p>
-<p>キリンホールディングスは、AI技術の実装を通じて経営判断におけるデータ駆動型の意思決定を強化し、持続的な成長と市場環境への柔軟な対応を図る構えだ。</p>
+      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
+      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
+<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
+<h2>突然の“主役交代”と予告なき仕様変更</h2>
+<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
+加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
+<h2>世界を駆け巡った“4oロス”</h2>
+<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
+<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
+<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
+<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
+<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
+（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
+と投稿し、「AI依存」を揶揄する意見も見られた。
+運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
+<h2>性能か、人格か</h2>
+<p>議論は感情論にとどまらなかった。
+GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
+創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
+<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
+<h2>OpenAIの即日対応と背景</h2>
+<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
+8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
+<ul>
+<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
+<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
+<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
+<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
+4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
+<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
 ]]></description>
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
@@ -607,62 +592,6 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
 <p>Unitreeはすでにヒューマノイドロボット「G1」や大型モデル「H1」を展開しているが、R1はその下位に位置するエントリーモデルと見られている。これまで高額な製品が主流だったヒューマノイド市場に対し、R1は価格の障壁を取り払い、新たな顧客層（教育機関、個人開発者、小規模研究機関など）への訴求を狙う。</p>
 <h2>今後の展開と業界への影響</h2>
 <p>公式発表では量産時期や出荷スケジュールの詳細は明かされていないが、R1は今後の展示会や開発者向けイベントでの出展が予想されている。家庭用製品並みの価格帯と高度な運動性能を併せ持つR1の登場は、ヒューマノイドロボットの導入障壁を下げ、教育・研究・開発領域における普及を後押しする可能性がある。</p>
-]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
-      <link>https://ledge.ai/articles/webinar-vol66</link>
-      <description><![CDATA[<h2>ウェビナー概要</h2>
-<p>2025年は「AIエージェント元年」。生成AIの急速な進化を背景に、目標に応じて自律的に判断・行動する“AIエージェント”に大きな期待が寄せられています。その活用領域は、顧客対応や業務自動化、ナレッジ検索、意思決定支援など急速に広がり、すでに多くの企業が実証・導入を開始。実運用フェーズに移行しつつあるのが現状です。
-こうした中、「本当に動くAIエージェントはどう作るのか」をテーマに執筆された、導入現場で使える実践的なノウハウをまとめた書籍『<a href="https://www.amazon.co.jp/dp/4065401402">現場で活用するためのAIエージェント実践入門</a>』（講談社）が7月に発売され、大きな注目を集めています。</p>
-<p>本ウェビナーでは、同書の著者陣5名をゲストに迎え、AIエージェントの基本概念や技術的な背景、導入時の課題、ビジネスへの応用可能性まで、幅広いトピックについてお伺いしました。</p>
-<p>AIエージェントに関心のある方や、現在導入を検討・推進されている方にとって必見の内容です。
-視聴をご希望の方は、以下のフォームよりご登録のうえ、ぜひご覧ください。</p>
-<p>:::button
-<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
-:::</p>
-<h3>ウェビナー内容</h3>
-<ul>
-<li>AIエージェントとは何か？その歴史と定義</li>
-<li>「エージェント型AI」と「エージェンティックAI」の違い</li>
-<li>なぜ今、AIエージェントが注目されているのか</li>
-<li>導入・展開に立ちはだかる技術的・組織的課題</li>
-<li>AIエージェント活用はどう進めるべきか</li>
-<li>AIエージェントはどうのように作るのか・相性の良い領域</li>
-<li>エージェント導入のROI</li>
-<li>AIエージェントが創る未来</li>
-</ul>
-<h3>このような方におすすめ</h3>
-<ul>
-<li>AI導入を検討中のビジネスリーダーの方</li>
-<li>IT部門・情報システム担当の方</li>
-<li>DX推進担当の方</li>
-<li>AIエージェントに関心があり、情報収集を進めている方</li>
-</ul>
-<h2>登壇者情報</h2>
-<p><strong>Sakana AI株式会社</strong>
-<strong>太田真人</strong>
-Applied Research Engineerとして、AIエージェントの社会実装に取り組む。前職の株式会社電通総研では、AIの技術調査やPoCを主導。対外的にもAIエージェントに関する最新情報の発信をしている。</p>
-<p><strong>株式会社Algomatic</strong>
-<strong>宮脇峻平</strong>
-AI/MLエンジニアとして、採用を支援するAIエージェントの自社開発および品質保証に従事。2019年より自然言語処理に取り組み、現在は学術研究員として東北大学大学院に所属。雑談対話応答や質問応答タスクのコンペティションにも参加。</p>
-<p><strong>株式会社ジェネラティブエージェンツ</strong>
-<strong>西見公宏</strong>
-2023年にAIエージェント解説書『その仕事、AIエージェントがやっておきました。』(技術評論社)を上梓し、その流れで共同創業者2名と共にAIエージェントの開発・利活用を専門に扱う株式会社ジェネラティブエージェンツを2024年3月に創業。共著に『LangChainとLangGraphによるRAG・AIエージェント[実践]入門』(技術評論社)。「本当に業務に使える」AIエージェントの開発に注力している。</p>
-<p><strong>株式会社電通総研</strong>
-<strong>後藤勇輝</strong>
-2018年から機械学習に取り組み、自社における製品開発・研究開発に従事。近年は生成AIの可能性に注目し、技術とビジネスの両面から価値創出に取り組んでいる。著書に『PyTorch実践入門 ディープラーニングの基礎から実装へ』(マイナビ出版)、『アジャイルとスクラムによる開発手法 Azure DevOpsによるプロフェショナルスクラムの実践』(マイナビ出版)がある。</p>
-<p><strong>株式会社電通総研</strong>
-<strong>阿田木勇八</strong>
-AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療機器メーカーに入社。製造現場やKaggleなどでデータ分析のスキルを磨く。その後、AIソリューションの提供側に興味をもち、2021年に電通総研に入社。機械学習を用いた製品開発、さまざまなAIモデル開発・改善案件に従事。現在は自然言語処理を扱う機能のソリューション開発に従事しており、2023年から生成AIエージェントの研究開発に取り組む。Kaggleでは、tacoriceとして参加している。</p>
-<h2>お申し込みはこちら</h2>
-<p>配信期間：2025年8月4日(月)〜 2025年8月22日(金)
-配信方式：オンデマンド（Zoom）
-参加費：無料</p>
-<p>:::button
-<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
-:::</p>
 ]]></description>
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
