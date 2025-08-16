@@ -5,6 +5,43 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
+      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
+      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
+<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
+<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
+<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
+<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
+<ul>
+<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
+<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
+</ul>
+<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
+<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
+<h2>復活要求の割合と推計</h2>
+<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
+<ul>
+<li>#keep4o投稿の45.5％が復活を求める内容</li>
+<li>「4o」言及投稿の19.7％が復活を求める内容
+「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
+</ul>
+<p><strong>復活を求める声の割合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
+<h2>日別推移から見える傾向</h2>
+<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
+<p><strong>各ワードの日ごとの言及数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
+<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
+<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
+<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
+<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
+<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
+]]></description>
+      <pubDate>Sat, 16 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>トランプ大統領、NVIDIA「H20」の中国向け輸出を条件付き容認──CEOジェンスン・ファン氏と15％納付で合意</title>
       <link>https://ledge.ai/articles/trump_nvidia_h20_export_china_15percent</link>
       <description><![CDATA[<p>ドナルド・トランプ米大統領は2025年8月11日（現地時間）、[ホワイトハウスでの記者会見<a href="https://www.youtube.com/watch?v=ZtVMoko3mSI">発表</a>で、米半導体大手NVIDIAのAIチップ「H20」について、中国向け輸出を条件付きで認める方針を正式に表明した。条件は、販売収益の15％を米国政府に納付すること。当初トランプ氏は20％の納付を要求したが、NVIDIAのCEOジェンスン・ファン氏との交渉を経て、最終的に15％で合意したという。</p>
@@ -318,38 +355,6 @@
 <p>論文の著者らは、“We hope Persona Vectors will serve as a building block for monitoring, interpreting, and controlling model behavior in a scalable and transparent way.”（Persona Vectorsが、モデルの振る舞いを大規模かつ透明性のある形で監視・解釈・制御するための基盤技術となることを願っている。）と、Persona Vectorsの役割をまとめた。</p>
 ]]></description>
       <pubDate>Sun, 10 Aug 2025 02:52:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta Reality Labs「ProMemAssist」：ユーザーの“話しかけていいタイミング”を推定するスマートグラス</title>
-      <link>https://ledge.ai/articles/promemassist_smartglasses_meta</link>
-      <description><![CDATA[<p>Metaの研究チームは2025年7月28日、ユーザーの作業メモリ状態をリアルタイムに推定し、声をかけるべきかどうかを判断するスマートグラス向けシステム「ProMemAssist」を<a href="https://arxiv.org/abs/2507.21378">発表</a>した。</p>
-<p>視覚および音声から得られるマルチモーダル情報をもとに、タスク文脈や注意リソースを推測し、助言を送るべきか否かを計算する。論文はユーザーインタフェース技術の国際会議「UIST 2025」に採択された。</p>
-<p><strong>ProMemAssist のシステム全体図。ユーザーの視覚・音声情報を取り込み、作業メモリモデルで現在のタスク文脈を推定し、適切なタイミングで音声アシストを通知する。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/system_workflow_8d208f273c/system_workflow_8d208f273c.png" alt="system-workflow.png" /></p>
-<h2>作業メモリモデルを実装した初のスマートグラス支援技術</h2>
-<p>ProMemAssistは、ユーザーが現在何をしており、どの程度注意を割いているかを推定するために、認知心理学の作業メモリモデルを応用している。視覚（visuospatial）と音声（phonological）情報をそれぞれの短期記憶ストアに一時保存し、それらを統合して「エピソードバッファ」として文脈を把握する構成となっている。</p>
-<p>たとえば、テーブルの上にある「フォーク」「スプーン」「ワインボトル」などの視覚情報と、「今夜は4人でディナーだ」といった音声から、ユーザーが「ディナーテーブルを準備している」と推論される。このように、ProMemAssistはユーザーの行動を「エピソード」としてメモリ上に保持する。</p>
-<h2>「助言の価値」と「割り込みのコスト」を比較し、通知を制御</h2>
-<p>助言を送信するかどうかは、LLM（大規模言語モデル）によって生成されたメッセージの「価値」と、現在のユーザーの作業状況に割り込む「コスト」とのバランスに基づいて判断される。メモリには容量制限があり、新しい情報が入るたびに、重要性や関連性が低い古い情報は置き換えられる。</p>
-<p><strong>作業メモリ内の視覚・音声アイテムの構成。Recency（新しさ）、Relevance（関連性）、Importance（重要性）によってアイテムの保持／置換が決定される。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_displacement_e6750e4c01/wm_displacement_e6750e4c01.png" alt="wm-displacement.png" /></p>
-<p>論文では、メモリアイテムには「新しさ（Recency）」「関連性（Relevance）」「重要性（Importance）」の3指標が与えられ、干渉を最小化するように情報が維持される様子が図示されている。アシストの例としては「フォークが足りないかもしれません」「ボトルを倒さないように注意してください」といった助言が生成され、タイミングを精査したうえで通知される。</p>
-<p><strong>通知の可否判断フロー。現在のエピソードとの干渉度と、生成されたアシストの価値を比較し、通知の閾値を超える場合のみ提示される。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_interference_48a0b79e4e/wm_interference_48a0b79e4e.png" alt="wm-interference.png" /></p>
-<h2>実証実験：助言回数は少なく、しかし有用</h2>
-<p>ProMemAssistは、Meta Reality Labsの研究チームにより、12名の成人被験者を対象に実証実験が行われた。被験者は以下の4種類のタスクを実施し、それぞれにおいてアシストの有用性が検証された。
-ディナーテーブルの設営
-旅行カバンのパッキング
-ワークスペースの整理整頓
-趣味用品（バスケットボール、文房具など）の片付け</p>
-<p><strong>ユーザー評価実験で実施されたタスク例。ディナーテーブル設営、旅行パッキング、ワークスペースの片付けなど、日常的な作業においてProMemAssistの有用性が検証された。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/task_setting_cd7937f7c3/task_setting_cd7937f7c3.png" alt="task-setting.png" /></p>
-<p>比較対象として、タスク文脈を考慮せずにLLMが単に助言を生成・提示するベースラインが設定された。評価の結果、ProMemAssistは助言の数が少なかったにもかかわらず、被験者からの有用性スコアが高かった。また、NASA-TLXに基づくフラストレーションの評価指標においても有意に低下した（p = 0.043）ことが報告されている。</p>
-<h2>プロトタイプ構成と将来的展望</h2>
-<p>現段階では、ProMemAssistは商用ARグラスに外部カメラ・マイクを装着し、処理はノートPC上で行う構成となっている。システムは1秒ごとにユーザーの作業メモリ状態を更新し、必要に応じて音声でアシストを提示する。グラス自体にはスピーカーが非搭載のため、音声は外部端末から再生される。</p>
-<p>今後は、オンデバイス処理の実装や、スピーカー内蔵型グラスとの統合により、完全スタンドアロンでの運用が見込まれている。また、対人コミュニケーションが重要な介護現場や接客業、共同作業環境での展開も視野に入れているという。</p>
-]]></description>
-      <pubDate>Sat, 09 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「理論がないAI/LLM」に情報幾何学から新たな解釈の可能性　──“曲がった”ニューラルネットワークが引き起こす爆発的記憶、京大らが高次相互作用の数理に突破口</title>
