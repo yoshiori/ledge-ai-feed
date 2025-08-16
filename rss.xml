@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>福岡市・高島市長「虚偽情報」指摘を謝罪──香椎川氾濫めぐるSNS投稿、AIフェイク警戒が誤認の一因に</title>
+      <link>https://ledge.ai/articles/fukuoka_mayor_takashima_apology_kashiigawa_flood_sns</link>
+      <description><![CDATA[<p>福岡市市長の高島宗一郎氏は2025年8月11日、香椎川（かしいがわ）の氾濫をめぐり、市民によるX（旧Twitter）投稿を「虚偽情報」と指摘したが、その後、実際に氾濫が発生していたことが判明し、<a href="https://ameblo.jp/so-takashima/entry-12922328148.html">謝罪した</a>。今回の経緯は、災害時におけるSNS情報の活用と真偽確認の難しさを浮き彫りにし、情報発信の在り方や検証体制をめぐる議論を呼んでいる。</p>
+<p>市民の初報は、2025年8月10日の大雨（線状降水帯発生）時にXへ投稿された動画だった。香椎川周辺で車が水没する様子を捉えたもので、避難呼びかけとして拡散され、同日中に複数のユーザーが氾濫の様子や水位情報を共有した。</p>
+<p>高島氏は翌11日昼ごろ、InstagramやFacebookで「SNSの偽情報動画です…絶対にやめてください」と投稿。遠隔水位計のデータや現場確認結果から「氾濫は起きていない」と判断したためだという。Xには直接投稿していなかったが、この発信内容はニュース記事やスクリーンショットとしてX上に広まり、「市民投稿をデマ扱いした」との批判が拡散した。</p>
+<p>しかし、その後の調査で香椎川の一部区域で氾濫が発生していたことが確認された。高島氏は同日夜、自身のブログ（Ameba）、Facebook、Instagramに謝罪文を掲載し、「誤った情報を発信し、市民や関係者にご心配をおかけした」と陳謝。誤認の理由として「水位計データの時間差」「現場確認時の水位低下」「AIフェイク動画への警戒」を挙げ、今後は複数ルートでの情報確認を行う体制強化を表明した。</p>
+<p>X上では、投稿主のアカウントが削除されたことへの同情や、市の確認プロセスを問題視する声が多く見られた。また、水位データのピーク時刻と動画撮影時刻のずれが誤認の一因とする分析や、過去の氾濫履歴や河川整備の遅れを指摘する投稿も相次いだ。</p>
+<p>災害時にSNSを通じて市民から情報提供を受ける手法は、迅速な被害把握に有効とされる一方、真偽確認や安全配慮の課題がある。熊本市では2023年の豪雨時や2025年8月の大雨時に、大西一史市長がX上で市民に画像・動画提供を呼びかけた事例がある。2025年8月の<a href="https://x.com/K_Onishi/status/1954711146721849656">呼びかけ投稿</a>では被害状況の把握を目的として協力を求めた。専門家は「SNS活用は有用だが、検証体制が鍵」と指摘している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kumamoto_city_mayer_324f3e7e1a/kumamoto_city_mayer_324f3e7e1a.jpg" alt="kumamoto city mayer.jpg" /></p>
+]]></description>
+      <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
       <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
       <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
@@ -317,44 +330,6 @@
 <p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
 ]]></description>
       <pubDate>Sun, 10 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropicら、AIの人格を数学的に操作する「Persona Vectors」発表──邪悪さ・お世辞・幻覚をコントロール</title>
-      <link>https://ledge.ai/articles/persona_vectors_ai_personality_control</link>
-      <description><![CDATA[<p>2025年7月29日、Anthropicを中心とした研究チームは、AIの性格特性を数学的に抽出・操作する手法「Persona Vectors（人格ベクトル）」を<a href="https://arxiv.org/abs/2507.21509">発表</a>した。この技術は、大規模言語モデル（LLM）が示す「邪悪さ」「お世辞」「幻覚」といった人格的傾向を、モデルの活性化空間における一次元のベクトルとして定式化し、モデルの訓練中および運用中にその傾向を監視・制御するための仕組みである。これにより、LLMの出力における一貫性や安全性の確保が可能になるという。</p>
-<h2>モデルの人格傾向を“方向”として捉える発想</h2>
-<p>Persona Vectorsの中核となるのは、人格的な出力傾向がモデルの活性化空間内における線形方向（ベクトル）として表現可能であるという前提である。研究チームは、以下の3つの性格特性を対象に検証を行った：</p>
-<ul>
-<li>邪悪さ（evilness）</li>
-<li>お世辞（sycophancy）</li>
-<li>幻覚（hallucination）</li>
-</ul>
-<p>これらは、既存の評価データセットやプロンプトペアを活用してモデルに入力され、異なる応答パターンを引き起こす。その差分をモデルの中間層活性化において比較・回帰分析することで、それぞれの特性を表現する一次元のベクトルが抽出される。</p>
-<p>研究ではこのパイプラインを完全に自動化することで、任意の性格的特性に対応するベクトルを迅速に構築できることが示された。対象モデルには、Qwen 2.5-7B-InstructやLlama-3.1-8B-Instructが用いられている。</p>
-<p><strong>図：Persona Vectorsの生成・応用パイプライン</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Persona_vectors_and_their_applications_25984a8dfc/Persona_vectors_and_their_applications_25984a8dfc.jpg" alt="Persona vectors and their applications.jpg" /></p>
-<h3>応用①：出力の人格ステアリング</h3>
-<p>抽出されたベクトルを活用することで、モデルの出力傾向を任意に調整することが可能になる。具体的には、モデル出力に対しベクトル方向に沿って活性化を微調整することで、「邪悪さを減らす」「お世辞を抑える」といった操作ができる。</p>
-<p>実験では、ステアリングによって邪悪な応答の出現率を約70%削減するなどの効果が確認された。これは、ファインチューニングを行わずに出力傾向をコントロールできる点で、運用上の柔軟性が高い。</p>
-<p><strong>図：ベクトル方向に応じて応答の“性格”が変化。邪悪な行動、追従的な行動、幻覚的な行動をうまく引き出す誘導応答の例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Steering_with_persona_vectors_68ac1d9e2a/Steering_with_persona_vectors_68ac1d9e2a.jpg" alt="Steering with persona vectors.jpg" /></p>
-<h3>応用②：運用時の人格モニタリング</h3>
-<p>モデルが利用される場面において、ユーザーからの入力やシステムプロンプトが人格傾向に与える影響をリアルタイムで測定することも可能となる。研究では、システムプロンプト内の文言を徐々に変更しながら投影値を追跡し、それに応じた人格スコアがどのように変化するかを検証した。</p>
-<p>このアプローチは、サービス提供者が人格的な逸脱の兆候を事前に察知し、対応するためのツールとして機能する。</p>
-<p><strong>図：プロンプトの変更と投影値の相関</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Monitoring_prompt_induced_behavioral_shifts_0ab7b87ff4/Monitoring_prompt_induced_behavioral_shifts_0ab7b87ff4.jpg" alt="Monitoring prompt-induced behavioral shifts.jpg" /></p>
-<h3>応用③：学習時の人格ドリフト検出と予防</h3>
-<p>モデルのファインチューニングや追加学習によって人格傾向が意図せず変化してしまう、いわゆる「人格ドリフト」も重要な課題である。研究チームは、異なる学習データセットを用いてモデルを微調整し、学習前後の投影値と性格スコアを比較した。</p>
-<p>結果として、事前の投影方向変化（ベクトル差分）を観察するだけで、人格スコアの変化を予測できることが示され、モデル更新前のリスク評価ツールとしての活用が期待される。</p>
-<p><strong>図：学習による“人格ドリフト”を予測可能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6_Finetuning_shifts_along_persona_vectors_correlate_a682c9f7bd/6_Finetuning_shifts_along_persona_vectors_correlate_a682c9f7bd.jpg" alt="6 Finetuning shifts along persona vectors correlate.jpg" /></p>
-<h3>応用④：データセットフィルタリング</h3>
-<p>さらに研究では、LLM学習データとして広く使われる「LMSYS-CHAT-1M」から高・低スコアのチャットサンプルを抽出し、実際に人格特性が反映されているかを人手で確認した。これにより、データの“人格的偏り”を自動的に発見・除外できる可能性が示唆された。</p>
-<h2>今後の課題と業界への波及</h2>
-<p>Persona Vectorsは、比較的単純な性格傾向については有効に機能するが、複雑な感情や文脈依存の特性、多言語モデルへの適用などは今後の課題とされている。また、研究では主にオープンウエイトの中規模モデルが用いられており、Anthropic自身が開発するClaudeなどの商用モデルへの直接的な実装は今のところ未検証である。</p>
-<p>論文の著者らは、“We hope Persona Vectors will serve as a building block for monitoring, interpreting, and controlling model behavior in a scalable and transparent way.”（Persona Vectorsが、モデルの振る舞いを大規模かつ透明性のある形で監視・解釈・制御するための基盤技術となることを願っている。）と、Persona Vectorsの役割をまとめた。</p>
-]]></description>
-      <pubDate>Sun, 10 Aug 2025 02:52:00 GMT</pubDate>
     </item>
     <item>
       <title>「理論がないAI/LLM」に情報幾何学から新たな解釈の可能性　──“曲がった”ニューラルネットワークが引き起こす爆発的記憶、京大らが高次相互作用の数理に突破口</title>
