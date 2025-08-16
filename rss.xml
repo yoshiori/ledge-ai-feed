@@ -55,7 +55,7 @@
       <pubDate>Fri, 15 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Sonnet 4」が最大100万トークン対応──コードベースや論文群を一括処理可能に</title>
+      <title>ビジネス2025/8/15 [FRI]Anthropic、「Claude Sonnet 4」が最大100万トークン対応──コードベースや論文群を一括処理可能に</title>
       <link>https://ledge.ai/articles/claude_sonnet4_1m_token_context</link>
       <description><![CDATA[<p>Anthropicは2025年8月13日（米国時間）、同社の生成AIモデル「Claude Sonnet 4」がAnthropic APIおよびAmazon Bedrockで最大100万トークンのコンテキストをサポートしたと<a href="https://www.anthropic.com/news/1m-context">発表</a>した。これにより従来の約5倍の長文処理が可能となり、7万5,000行以上のコードや数十本の研究論文、数千ページに及ぶドキュメントを1度のリクエストで扱えるようになる。Google Cloud Vertex AIでの提供も近日中に予定されているとのこと。</p>
 <p>新しい長文処理機能は、以下のような用途を想定している。第一に、大規模なソフトウェア開発プロジェクト全体を解析する「コードベース解析」だ。ソースコードやテスト、関連ドキュメントをまとめて読み込み、依存関係や改善点を把握できる。第二に、契約書や技術仕様書、学術論文など多数の文書を統合的に要約・分析する「ドキュメント統合」。そして第三に、複数のツールやプロセスをまたぐ長期的なタスクを遂行する「長期コンテキスト対応AIエージェント」だ。</p>
@@ -65,7 +65,7 @@
       <pubDate>Fri, 15 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
+      <title>ビジネス2025/8/15 [FRI]テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
       <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
       <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
 <h2>自動運転の中核を担う計画だった「Dojo」</h2>
@@ -239,7 +239,7 @@
       <pubDate>Mon, 11 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/10 [SUN]Alibaba、オープンソース画像生成AI「Qwen-Image」発表──英語・中国語で高精度テキスト埋め込み</title>
+      <title>Alibaba、オープンソース画像生成AI「Qwen-Image」発表──英語・中国語で高精度テキスト埋め込み</title>
       <link>https://ledge.ai/articles/alibaba_qwen_image_launch</link>
       <description><![CDATA[<p>AlibabaのAI開発チーム「Qwen（通義千問）」は2025年8月4日、画像内に自然なテキストを高精度に埋め込める新たな画像生成AIモデル「Qwen-Image」を<a href="https://qwenlm.github.io/blog/qwen-image/">発表</a>した。英語と中国語に対応し、広告やデザインなど幅広い用途での活用が見込まれる。モデルはオープンソースとして公開され、商用利用も可能だ。</p>
 <p>Qwen-Imageは、Qwenが開発したマルチモーダルモデル「Qwen-VL」を基盤に構築され、7Bパラメーター規模を持つ。ネイティブテキストレンダリング機能により、画像内に自然で読みやすい文字を直接描画でき、写真風からイラスト風、3Dレンダリングまで多様なスタイルを生成可能だ。また、テキストと画像の組み合わせ入力にも対応し、複雑な指示に基づくコンテンツ生成を実現する。</p>
@@ -319,7 +319,7 @@
       <pubDate>Sun, 10 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/8/10 [SUN]Anthropicら、AIの人格を数学的に操作する「Persona Vectors」発表──邪悪さ・お世辞・幻覚をコントロール</title>
+      <title>Anthropicら、AIの人格を数学的に操作する「Persona Vectors」発表──邪悪さ・お世辞・幻覚をコントロール</title>
       <link>https://ledge.ai/articles/persona_vectors_ai_personality_control</link>
       <description><![CDATA[<p>2025年7月29日、Anthropicを中心とした研究チームは、AIの性格特性を数学的に抽出・操作する手法「Persona Vectors（人格ベクトル）」を<a href="https://arxiv.org/abs/2507.21509">発表</a>した。この技術は、大規模言語モデル（LLM）が示す「邪悪さ」「お世辞」「幻覚」といった人格的傾向を、モデルの活性化空間における一次元のベクトルとして定式化し、モデルの訓練中および運用中にその傾向を監視・制御するための仕組みである。これにより、LLMの出力における一貫性や安全性の確保が可能になるという。</p>
 <h2>モデルの人格傾向を“方向”として捉える発想</h2>
@@ -396,7 +396,7 @@ eq 0γ=0 を導入すると空間が折り重なり、1つのパラメータで�
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
+      <title>エンジニアリング2025/8/14 [THU]Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
       <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
       <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
 <h2>ベータを経て正式版へ</h2>
@@ -545,7 +545,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/9 [SAT]トヨタ、「Woven City」Phase1を9月25日正式開業──ロケット企業含む12社が“実証都市”に参画</title>
+      <title>トヨタ、「Woven City」Phase1を9月25日正式開業──ロケット企業含む12社が“実証都市”に参画</title>
       <link>https://ledge.ai/articles/toyota_woven_city_phase1_launch_2025</link>
       <description><![CDATA[<p>トヨタ自動車とウーブン・バイ・トヨタは2025年8月4日、静岡県裾野市で建設中の実証都市「Toyota Woven City（ウーブン・シティ）」のフェーズ1が、9月25日（木）に正式開業すると<a href="https://woven.toyota/jp/our-latest/20250804/">発表</a>した。開業に合わせ、ロケット開発を手がけるインターステラテクノロジズなど新たに12社が実証パートナープログラム「Inventors」に参画。これにより、同プログラムの参加企業は計19社に拡大した。</p>
 <h2>360人が暮らす“リアルな検証都市”が始動</h2>
