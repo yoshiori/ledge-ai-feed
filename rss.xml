@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
+      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
+      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
+<h2>業界特化型AIエージェントの開発へ</h2>
+<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
+<h2>クラウド近代化とセキュリティ強化</h2>
+<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
+<h2>人材育成とグローバル体制</h2>
+<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
+<h2>今後の展望</h2>
+<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
+<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
+<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
+]]></description>
+      <pubDate>Sun, 17 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
       <link>https://ledge.ai/articles/asi_arch_ai_self_design_1773_experiments_106_architectures</link>
       <description><![CDATA[<p>上海交通大学やSII（Shanghai Institute for Intelligence）などの研究チームは2025年7月24日、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発したと<a href="https://arxiv.org/abs/2507.18074">発表</a>した。</p>
@@ -249,27 +266,6 @@
 <p>発表の中で東條氏は「日本企業が生成AIを安全かつ有効に活用できる環境を整備していく」と述べた。同社も「日本市場は戦略的に重要な地域であり、ローカルチームを通じたサポートを強化する」とコメントしている。</p>
 ]]></description>
       <pubDate>Mon, 11 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米Cloudflare、Perplexityがrobots.txtなどの「クロール禁止」指示を回避しているとの検証結果を公表</title>
-      <link>https://ledge.ai/articles/cloudflare_perplexity_stealth_crawling_block</link>
-      <description><![CDATA[<p>Cloudflareは現地時間の2025年8月4日、Perplexity AIが運営するWeb検索特化AI「Perplexity」のクローラーが、robots.txtなどの「クロール禁止」指示を回避していると<a href="https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/">発表</a>した。</p>
-<p>非公開テストドメインでも禁止コンテンツが取得されるなどの事例が確認され、User-Agent偽装やIPアドレスの切り替えといった「ステルスクローリング」の証拠が示された。同社はPerplexityを「Verified Bots」プログラムから除外し、全面的にアクセスを遮断した。</p>
-<h2>禁止設定を突破したアクセスを検出</h2>
-<p>Cloudflareによると、robots.txtやWebアプリケーションファイアウォール（WAF）でクロール禁止設定を行ったにもかかわらず、Perplexityによるアクセスが複数のサイトで確認された。User-AgentをmacOS版Chromeに偽装し、未公表のIPアドレスや異なる自律システム番号（ASN）からアクセスを行うなどの手法を用い、数百万件／日規模のリクエストが発生していたという。</p>
-<h2>非公開テストドメインでの検証</h2>
-<p>調査では、新規に設定した非公開ドメインを用意し、robots.txtで全面的にクロールを禁止した上で、Perplexityの公称Botをブロック。それでも禁止コンテンツがPerplexityの応答に含まれる事例が確認され、公称Botと異なる未申告Bot双方でアクセスがあったことが判明した。</p>
-<p><strong>Cloudflareが示したPerplexityのクロール挙動の推定フロー</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/An_example_0a0dae6be3/An_example_0a0dae6be3.jpg" alt="An example.jpg" /></p>
-<h2>他社との比較</h2>
-<p>Cloudflareは、同様の検証をOpenAIのChatGPTに対しても実施。ChatGPTのBotはrobots.txtを取得し、禁止設定がある場合はアクセスを行わなかったとして、Perplexityの挙動との違いを強調した。</p>
-<h2>Perplexityの反応</h2>
-<p>Perplexityは同日、「これは大量スクレイピングではなく、ユーザー主導のリアルタイム取得である」とする声明を発表。Cloudflareが示したリクエスト数には外部サービス由来のアクセスが含まれており、計測や認識に誤りがあると主張した。</p>
-<h2>今後の見通し</h2>
-<p>Cloudflareは、未申告クローラーの検出・遮断ルールを継続的に強化すると表明。Perplexityは反論を続けており、今後は技術的手法の是非に加え、法務面での動向も注目される。</p>
-<p>今回Cloudflareが指摘したクロール回避行為とは別の争点となっているが、8月7日には、読売新聞が東京地方裁判所にPerplexityを著作権侵害などで提訴した。記事や画像の無断利用を巡るものだという。</p>
-]]></description>
-      <pubDate>Mon, 11 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
