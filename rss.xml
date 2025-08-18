@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
+      <link>https://ledge.ai/articles/google_gemma3_270m_release</link>
+      <description><![CDATA[<p>Googleは2025年8月14日、小型オープンモデル「Gemma 3 270M」を<a href="https://developers.googleblog.com/en/introducing-gemma-3-270m/">発表</a>した。2億7000万パラメータという軽量な構成ながら、高い性能と省電力性を両立。スマートフォンや低リソース環境でも効率的に利用できる点が特徴で、AIの利用範囲をさらに広げる存在として注目を集めている。</p>
+<h2>小型モデルの正式リリース</h2>
+<p>Googleが発表した「Gemma 3 270M」は、同社の最新モデル群「Gemma 3」シリーズのなかで最小規模のモデルとなる。2億7000万パラメータというサイズながら、量子化を含む最適化技術を取り入れることで高い応答性能を実現している。オープンモデルとして公開され、研究者や開発者が幅広く活用できる点も特徴だ。</p>
+<h2>技術的な特徴</h2>
+<p>Gemma 3 270Mは、メモリや電力の制約がある環境での実行を想定し設計されている。量子化により少ないリソースでの推論が可能で、エッジAIやモバイルデバイスへの実装を視野に入れている。また、Googleの最新研究成果を取り入れた学習設計によって、応答の一貫性と堅牢性を兼ね備えているという。</p>
+<p><strong>■ Gemma 3 270Mの性能比較（IFEvalスコア）。同規模のモデルを上回る効率を実現している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65.jpg" alt="Gemma3-270M_Chart01_RD3-V01.original.jpg" /></p>
+<h2>利用シーンと応用可能性</h2>
+<p>同モデルは、スマートフォンやIoTデバイスといった軽量環境での利用に適している。具体的には、チャットボットや検索補助、タスク特化型アプリケーションなど、現場に即した応用が期待される。</p>
+<p>Google公式ブログでは、実際の応用例として「Bedtime Story Generator」アプリが紹介されている。これは、Hugging Faceの開発者がTransformers.jsを用いて制作したWebベースの物語生成アプリで、Gemma 3 270Mがその処理を支えている。小型で高性能な特性が、こうした創造的なタスクをオフラインで可能にしている。</p>
+<p><strong>Gemma 3 270M を活用した「Bedtime Story Generator」アプリのデモ</strong></p>
+<p>@<a href="https://www.youtube.com/watch?v=ds95v-Aiu5E">YouTube</a></p>
+<p>米VentureBeatは「スマートフォン上で動作可能な超小型モデル」と報じ、エッジデバイスでの実用性を強調。Analytics India Magも「タスク特化型AIモデルとして電力効率に優れる」と評価している。こうした外部の評価からも、軽量モデル市場における注目度の高さがうかがえる。</p>
+<h2>今後の展望</h2>
+<p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA、エンタープライズAIとフィジカルAIに新モデル──「Nemotron」と「Cosmos Reason」を発表</title>
       <link>https://ledge.ai/articles/nvidia_nemotron_cosmos_reason</link>
       <description><![CDATA[<p>NVIDIAは2025年8月11日、エンタープライズAIエージェント向けの「Nemotron」シリーズと、ロボティクスや自動運転などの物理AI領域に対応する「Cosmos Reason」を<a href="https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai/">発表</a>した。企業システムから現実世界で動作するロボットまで、“推論能力を持つAI”の基盤整備を狙うという。</p>
@@ -255,17 +276,6 @@
 <p>同社は、音声生成分野で培った技術を音楽に拡張することで、プロから一般ユーザーまでが短時間で高品質な楽曲を制作できる環境を目指す。今後は対応ジャンルや言語の拡充、API提供、他のクリエイティブツールとの統合なども検討しているという。</p>
 ]]></description>
       <pubDate>Wed, 13 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ダイキン、米DDC Solutionsを買収──AIデータセンター向け液冷・空冷ハイブリッド型冷却技術を強化</title>
-      <link>https://ledge.ai/articles/daikin_acquires_ddc_solutions_ai_datacenter_cooling</link>
-      <description><![CDATA[<p>ダイキン工業は8月6日、100％子会社のダイキンアプライドアメリカズ（Daikin Applied Americas、以下DAA）を通じて、AIデータセンター向け冷却システムを手がける米Dynamic Data Centers Solutions（以下DDCS）を買収すると<a href="https://www.daikin.co.jp/press/2025/20250806">発表</a>した。買収は2025年8月下旬に完了する見込みで、急成長する高密度データセンター市場への対応力を高める。買収額は非公表。</p>
-<p>DDCSはカリフォルニア州サンディエゴに本社を置き、液冷と空冷を組み合わせたハイブリッド型のキャビネット冷却システムに強みを持つ。特にAI処理や高性能コンピューティング（HPC）など、高負荷ワークロードに対応する高密度サーバーラック向け冷却技術を展開している。</p>
-<p>ダイキンは、AIやクラウドの普及に伴いデータセンターの電力密度や発熱量が増大していることを背景に、冷却技術の高度化が急務と判断。今回の買収により、自社の空調分野で培ったノウハウとDDCSの液冷技術を融合し、AIデータセンター市場での競争力強化を図る。</p>
-<p>DAAのCEOは「DDCSの技術は高密度ラック冷却の課題解決に直結する」と述べ、ダイキン工業の幹部も「今後のデータセンター市場拡大に向けて重要な投資」と位置づけている。</p>
-<p>買収完了後は、DAAとDDCSの共同ブランドによる製品展開を計画。北米市場を皮切りに、アジアや欧州への展開を進め、AIデータセンターの省エネ化と持続可能性の向上に貢献する方針だ。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
