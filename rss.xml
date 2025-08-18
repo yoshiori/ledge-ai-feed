@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIに続き、AnthropicがGSA（米国一般調達局）と契約──米連邦三権に「Claude」を年間1ドル、1年間の限定プラン</title>
+      <link>https://ledge.ai/articles/anthropic_government_claude_1dollar</link>
+      <description><![CDATA[<p>Anthropicは8月12日（現地時間）、同社の大規模言語モデル「Claude」を活用するサービス「Claude for Enterprise」と「Claude for Government」を、米連邦政府の立法府・行政府・司法府に所属するすべての機関に対し、年間わずか1ドルで提供すると<a href="https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government">発表</a>した。契約は<a href="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025">米国一般調達局（GSA）</a>の「OneGov」枠組みを通じて実施される。</p>
+<h2>提供の内容</h2>
+<p>「Claude for Enterprise」は民間利用を想定した汎用版、「Claude for Government」は政府専用に設計されたバージョンで、連邦政府の厳格なセキュリティ基準「FedRAMP High」に準拠している。これにより、機密性の高い非分類情報を安全に取り扱うことが可能となる。提供期間は1年間で、Anthropicは各機関への技術サポートも行う。</p>
+<h2>発表の背景</h2>
+<p>今回の動きは、直前にOpenAIが「ChatGPT Enterprise」を米連邦行政機関に1ドルで提供すると発表したことを受けたもので、主要AI企業間での政府市場獲得競争が本格化している。GSAは「AI Action Plan」に基づき、政府全体でのAI活用を推進しており、Anthropicはこの取り組みに沿って導入障壁を下げる狙いを示した。</p>
+<h2>導入事例</h2>
+<p>既にエネルギー省（DOE）やワシントンD.C.保健局など複数の機関がClaudeを試験導入し、科学研究や住民サービスの効率化に活用している。今回の契約拡大により、他の連邦機関にも広範に利用が広がるとみられる。</p>
+<h2>今後の展望</h2>
+<p>Anthropicによる「年間1ドル」提供は、公共部門におけるAI普及を一気に加速させる試みである。同時に、OpenAIやxAIなどライバル企業との競争を象徴する施策でもある。AIの政府利用は行政効率化や政策立案の高度化を後押しする一方で、特定企業への依存や規制対応といった課題も残されており、今後の展開に注目が集まる。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
       <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
       <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
@@ -255,17 +270,6 @@
 <p>commissureは今後、Hapto AI™の開発を加速させ、触覚データを共有・蓄積しながら、物理世界とデジタル世界を融合させた新たなインタラクションの実現を目指す。これにより、人間とロボットが同じ感覚を共有し、相互に能力を高め合う「Physical AI時代」の基盤を築くとしている。</p>
 ]]></description>
       <pubDate>Tue, 12 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、日本法人代表に東條英俊氏を任命──東京拠点開設と採用計画も発表</title>
-      <link>https://ledge.ai/articles/anthropic_japan_hidetoshi_tojo_appointment</link>
-      <description><![CDATA[<p>米AI企業Anthropicは2025年8月7日、日本法人の代表執行役社長に東條英俊氏を任命したと<a href="https://www.anthropic.com/news/head-of-japan-hiring-plans">発表</a>した。</p>
-<p>同社は今秋、東京オフィスを開設する予定で、エンタープライズ営業、カスタマーサクセス、エンジニアリングなどの職種で採用活動を開始する。日本企業とのパートナーシップ強化を通じ、生成AIの安全かつ有効な活用を支援していく方針だという。</p>
-<p>東條氏はGoogle日本法人の執行役員などを歴任し、クラウドや生成AI分野で豊富な経験を持つ。海外企業での事業展開やパートナーシップ構築にも実績があるとのこと。</p>
-<p>AnthropicはClaudeシリーズ（Claude 3.5 Sonnetなど）を提供し、米国外では英国、カナダ、アイルランドなどにも拠点を展開。今回の日本法人設立は、アジア地域での事業基盤強化の一環と位置づけられている。</p>
-<p>発表の中で東條氏は「日本企業が生成AIを安全かつ有効に活用できる環境を整備していく」と述べた。同社も「日本市場は戦略的に重要な地域であり、ローカルチームを通じたサポートを強化する」とコメントしている。</p>
-]]></description>
-      <pubDate>Mon, 11 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
