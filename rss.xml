@@ -138,43 +138,6 @@
       <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
-      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
-      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
-<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
-<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
-<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
-<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
-<ul>
-<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
-<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
-</ul>
-<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
-<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
-<h2>復活要求の割合と推計</h2>
-<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
-<ul>
-<li>#keep4o投稿の45.5％が復活を求める内容</li>
-<li>「4o」言及投稿の19.7％が復活を求める内容
-「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
-</ul>
-<p><strong>復活を求める声の割合</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
-<h2>日別推移から見える傾向</h2>
-<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
-<p><strong>各ワードの日ごとの言及数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
-<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
-<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
-<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
-<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
-<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
-]]></description>
-      <pubDate>Sat, 16 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>トランプ大統領、NVIDIA「H20」の中国向け輸出を条件付き容認──CEOジェンスン・ファン氏と15％納付で合意</title>
       <link>https://ledge.ai/articles/trump_nvidia_h20_export_china_15percent</link>
       <description><![CDATA[<p>ドナルド・トランプ米大統領は2025年8月11日（現地時間）、[ホワイトハウスでの記者会見<a href="https://www.youtube.com/watch?v=ZtVMoko3mSI">発表</a>で、米半導体大手NVIDIAのAIチップ「H20」について、中国向け輸出を条件付きで認める方針を正式に表明した。条件は、販売収益の15％を米国政府に納付すること。当初トランプ氏は20％の納付を要求したが、NVIDIAのCEOジェンスン・ファン氏との交渉を経て、最終的に15％で合意したという。</p>
@@ -196,6 +159,44 @@
 <p>1Mトークン対応は、OpenAIが2025年4月にGPT-4.1で実装して以来の大規模モデル拡張となる。</p>
 ]]></description>
       <pubDate>Fri, 15 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
+      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
+<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
+<h2>突然の“主役交代”と予告なき仕様変更</h2>
+<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
+加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
+<h2>世界を駆け巡った“4oロス”</h2>
+<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
+<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
+<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
+<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
+<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
+（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
+と投稿し、「AI依存」を揶揄する意見も見られた。
+運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
+<h2>性能か、人格か</h2>
+<p>議論は感情論にとどまらなかった。
+GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
+創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
+<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
+<h2>OpenAIの即日対応と背景</h2>
+<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
+8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
+<ul>
+<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
+<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
+<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
+<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
+4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
+<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
+]]></description>
+      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMが都市の信号を制御──中国で5.5万人超の交通管理を担う「Traffic-R1」、渋滞5%減・運用負荷50%削減</title>
@@ -341,21 +342,7 @@
 「企業は、クラウドを、既存システムのマイグレーション先としてのみならず、新たなビジネス・サービスの基盤、さらにはAIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があります」</p>
 <p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
 ]]></description>
-      <pubDate>Sun, 10 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Alibaba、オープンソース画像生成AI「Qwen-Image」発表──英語・中国語で高精度テキスト埋め込み</title>
-      <link>https://ledge.ai/articles/alibaba_qwen_image_launch</link>
-      <description><![CDATA[<p>AlibabaのAI開発チーム「Qwen（通義千問）」は2025年8月4日、画像内に自然なテキストを高精度に埋め込める新たな画像生成AIモデル「Qwen-Image」を<a href="https://qwenlm.github.io/blog/qwen-image/">発表</a>した。英語と中国語に対応し、広告やデザインなど幅広い用途での活用が見込まれる。モデルはオープンソースとして公開され、商用利用も可能だ。</p>
-<p>Qwen-Imageは、Qwenが開発したマルチモーダルモデル「Qwen-VL」を基盤に構築され、7Bパラメーター規模を持つ。ネイティブテキストレンダリング機能により、画像内に自然で読みやすい文字を直接描画でき、写真風からイラスト風、3Dレンダリングまで多様なスタイルを生成可能だ。また、テキストと画像の組み合わせ入力にも対応し、複雑な指示に基づくコンテンツ生成を実現する。</p>
-<p>同モデルはGitHubでコードやモデルデータ、推論手順が公開されており、商用利用を含む幅広い用途で利用できる。ライセンスは一部制限付きながらも自由度が高く、Hugging Face上でのモデルカード提供も予定されている。</p>
-<p>背景には、Alibabaの生成AI戦略強化がある。Qwenはこれまで言語モデルやマルチモーダルモデルを相次いで投入しており、特に「テキスト埋め込み精度」における競争力向上を目指している。ArXivに公開された技術報告では、英語・中国語双方で既存モデルを上回る精度を記録したことが示されている。</p>
-<p><strong>Qwen-Imageは英語・中国語双方のテキスト埋め込み精度で既存モデルを上回る結果を記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_d01c8f78c9/bench_d01c8f78c9.jpg" alt="bench.jpg" /></p>
-<p>今後は対応言語の拡大や、企業向けのカスタマイズ機能提供、広告クリエイティブ自動生成ツールとの連携などが見込まれる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/merge3_e42a1c66c7/merge3_e42a1c66c7.jpg" alt="merge3.jpg" /></p>
-]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>エンジニアリング2025/8/14 [THU]Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
@@ -371,7 +358,44 @@
 <h2>今後の展望</h2>
 <p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
+      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
+      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
+<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
+<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
+<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
+<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
+<ul>
+<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
+<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
+</ul>
+<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
+<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
+<h2>復活要求の割合と推計</h2>
+<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
+<ul>
+<li>#keep4o投稿の45.5％が復活を求める内容</li>
+<li>「4o」言及投稿の19.7％が復活を求める内容
+「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
+</ul>
+<p><strong>復活を求める声の割合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
+<h2>日別推移から見える傾向</h2>
+<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
+<p><strong>各ワードの日ごとの言及数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
+<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
+<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
+<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
+<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
+<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
+]]></description>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、最新AI基盤モデル『GPT-5』を発表 — 誤差性能を大幅向上させ、既存製品ラインを統合した成熟の新エンジン、無料ユーザーを含む全ユーザーに提供開始</title>
@@ -398,45 +422,7 @@
 <p>GPT-5は、Microsoft Copilotなどのパートナー製品にも順次展開される予定。OpenAIはモデル統合によるユーザー体験の簡略化を今後も進め、安全かつ信頼性の高いAIの普及を目指すとしている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=0Uu_VJeVVfo">YouTube</a></p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
-      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
-<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
-<h2>突然の“主役交代”と予告なき仕様変更</h2>
-<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
-加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
-<h2>世界を駆け巡った“4oロス”</h2>
-<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
-<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
-<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
-<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
-<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
-（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
-と投稿し、「AI依存」を揶揄する意見も見られた。
-運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
-<h2>性能か、人格か</h2>
-<p>議論は感情論にとどまらなかった。
-GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
-創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
-<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
-<h2>OpenAIの即日対応と背景</h2>
-<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
-8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
-<ul>
-<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
-<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
-<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
-<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
-4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
-<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
-]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>三菱UFJ銀行、200超の業務スキルを持つ自律型AIエージェント導入──Salesforce 「Agentforce for Financial Services」 日本初採用</title>
@@ -454,7 +440,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <h2>今後の展開</h2>
 <p>三菱UFJ銀行は今後、AIエージェントの適用領域を段階的に拡大し、FSCを基盤とした営業支援インフラの整備をさらに進める方針だ。一方、セールスフォースは専門チームによる導入支援とともに、他の金融機関への横展開を視野に、Agentforceの国内展開を強化していくとしている。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
@@ -504,7 +490,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
 <p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/15 [FRI]テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
@@ -523,7 +509,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
 <p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>家電価格のロボ誕生　Unitree R1、87万円で歩く・走る・側転する25 kgヒューマノイド</title>
@@ -568,7 +554,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <h2>今後の展開と業界への影響</h2>
 <p>公式発表では量産時期や出荷スケジュールの詳細は明かされていないが、R1は今後の展示会や開発者向けイベントでの出展が予想されている。家庭用製品並みの価格帯と高度な運動性能を併せ持つR1の登場は、ヒューマノイドロボットの導入障壁を下げ、教育・研究・開発領域における普及を後押しする可能性がある。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>読売新聞、AI検索Perplexityを提訴──「約12万本無断利用」で21.7億円賠償請求、東京地裁に訴え</title>
@@ -580,7 +566,7 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>Perplexityは読売新聞オンライン（8月8日付）に寄せたコメントで、「日本で誤解を生じさせたことについて大変遺憾に思っている」と述べた。さらに「主張の本質を把握するため全力で取り組んでいる」とし、「AIの時代に発行者とジャーナリストが新たなビジネスモデルから恩恵を得られるよう注力しており、本件を非常に真剣に受け止めている」と強調した。</p>
 <p>海外では、報道機関とAI企業の間で著作権や情報利用を巡る争いが拡大しており、2025年6月には英国BBCがAI企業に対する法的措置の検討を明らかにしている。今回の訴訟でも、差止めの範囲や要約の適法性、損害の立証方法などが主要な争点となる見通しである。</p>
 ]]></description>
-      <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
