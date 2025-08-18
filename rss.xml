@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA、エンタープライズAIとフィジカルAIに新モデル──「Nemotron」と「Cosmos Reason」を発表</title>
+      <link>https://ledge.ai/articles/nvidia_nemotron_cosmos_reason</link>
+      <description><![CDATA[<p>NVIDIAは2025年8月11日、エンタープライズAIエージェント向けの「Nemotron」シリーズと、ロボティクスや自動運転などの物理AI領域に対応する「Cosmos Reason」を<a href="https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai/">発表</a>した。企業システムから現実世界で動作するロボットまで、“推論能力を持つAI”の基盤整備を狙うという。</p>
+<h2>Nemotron──エンタープライズAIエージェント向け</h2>
+<p>Nemotronは大規模言語モデル（LLM）として開発され、エージェント型AIの構築に特化している。高度な推論能力を持ち、コーディングやデータ分析、さらには視覚情報を用いた推論にも対応することができる。また、オープンで拡張性のある設計が採用されており、企業は独自のデータを使って安全にカスタマイズできる点も特徴だ。提供形態としてはAPIや「NVIDIA AI Enterprise」を通じて利用可能で、業務自動化やセキュリティ強化、対話エージェントの開発など、幅広い用途での活用が見込まれている。</p>
+<p><strong>NVIDIA Nemotron Super v1.5は、他の大規模モデルと比べて高い精度をより低い推論コストで実現している」</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemotron_chart_1280x874_daebac66c2/nemotron_chart_1280x874_daebac66c2.png" alt="nemotron-chart-1280x874.png" /></p>
+<h2>Cosmos Reason──物理AI・ロボティクス向け</h2>
+<p>Cosmos Reasonは、7Bパラメータを備えた視覚言語モデル（VLM）である。力学や空間・時間の理解といった物理世界の常識を踏まえながら複雑な状況を推論することが可能で、現実世界で動作するAIの知能を補強する役割を担う。特にロボットや自動運転車の領域では、自律的な判断や行動計画を実現するための基盤モデルとして設計されている点が大きな強みとなる。</p>
+<h2>NVIDIAの戦略的意義</h2>
+<p>Nemotronは企業領域において、業務効率化やセキュリティ強化を支援する一方、Cosmos Reasonは産業オートメーションや自動運転といったフィジカルAIの分野で中核的な技術を提供する。NVIDIAはこれまで強みとしてきたGPUに加えて、AIモデルやプラットフォームを統合的に提供する体制を整えることで、AI市場における存在感を一層高めようとしている。</p>
+<h2>今後の展望</h2>
+<p>NVIDIAは「AIが自律的に考え、現実世界でも行動できる」ための基盤技術整備を推進している。今後は企業や研究者による導入事例がさらに増加すると見込まれており、エージェントAIとフィジカルAIという両輪によってAI活用が加速していくと予想される。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAIに続き、AnthropicがGSA（米国一般調達局）と契約──米連邦三権に「Claude」を年間1ドル、1年間の限定プラン</title>
       <link>https://ledge.ai/articles/anthropic_government_claude_1dollar</link>
       <description><![CDATA[<p>Anthropicは8月12日（現地時間）、同社の大規模言語モデル「Claude」を活用するサービス「Claude for Enterprise」と「Claude for Government」を、米連邦政府の立法府・行政府・司法府に所属するすべての機関に対し、年間わずか1ドルで提供すると<a href="https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government">発表</a>した。契約は<a href="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025">米国一般調達局（GSA）</a>の「OneGov」枠組みを通じて実施される。</p>
@@ -249,27 +266,6 @@
 <p>買収完了後は、DAAとDDCSの共同ブランドによる製品展開を計画。北米市場を皮切りに、アジアや欧州への展開を進め、AIデータセンターの省エネ化と持続可能性の向上に貢献する方針だ。</p>
 ]]></description>
       <pubDate>Tue, 12 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人間とロボットが生み出す触覚データを資産化しAIが活用――東大発スタートアップcommissure、Physical AI時代を見据えた『Hapto AI構想』発表</title>
-      <link>https://ledge.ai/articles/hapto_ai_commissure_physical_ai</link>
-      <description><![CDATA[<p>株式会社commissureは2025年8月5日、人間やロボットが触覚データを生み出し、それを「感覚資産」として活用することを可能にする新構想「Hapto AI™構想（ハプト・エーアイ）」を<a href="https://prtimes.jp/main/html/rd/p/000000012.000118478.html">発表</a>した。触覚の収集から提示、AIによる生成までを統合し、物理世界での知覚・操作を高度化する「Physical AI」として位置づけるという。</p>
-<h2>触覚の収集・提示・生成を統合</h2>
-<p>同構想では、以下の3つの要素技術を中核とする。</p>
-<ul>
-<li><strong>SenseFuse™</strong> ：高精度に触覚データを収集するセンサ技術</li>
-<li><strong>FeelFuse™</strong> ：触覚情報を人やロボットに提示するデバイス</li>
-<li><strong>Hapto AI™</strong> ：収集した触覚データをもとに新たな触感を生成するAI</li>
-</ul>
-<p>commissureはこれらを組み合わせることで、人間同士や人間とロボット間で技能や感覚を伝承し合える仕組みを構築するとしている。</p>
-<h2>技術的背景と応用領域</h2>
-<p>同社は東京大学発のスタートアップとして、これまで触覚インターフェースの研究・製品化を進めてきた。今回の構想では、既存技術の蓄積を基盤に、触覚というデジタル化が難しかった感覚領域をAIで扱えるようにする。
-応用領域としては、職人技の継承、遠隔作業支援、ロボットによる体験拡張などが想定されており、製造業から医療、エンターテインメントまで幅広い産業への展開が期待される。</p>
-<p>「触覚は人間の技能や感覚の本質に関わるもの。Hapto AI™を通じて、技能とロボットの能力・スケールを掛け合わせた新たな価値を創出していく」と同社は述べている。</p>
-<h2>今後の展望</h2>
-<p>commissureは今後、Hapto AI™の開発を加速させ、触覚データを共有・蓄積しながら、物理世界とデジタル世界を融合させた新たなインタラクションの実現を目指す。これにより、人間とロボットが同じ感覚を共有し、相互に能力を高め合う「Physical AI時代」の基盤を築くとしている。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
@@ -577,53 +573,60 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
       <pubDate>Fri, 08 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/7/22 [TUE]【8/19(火)13時〜、LIVE開催】小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線｜Ledge.ai Webinar</title>
-      <link>https://ledge.ai/articles/webinar-vol67</link>
+      <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
+      <link>https://ledge.ai/articles/webinar-vol66</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
-<p>ABEJAが開発した小型LLM「QwQ-32B Reasoning Model」は、わずか32Bという軽量サイズでありながら、GPT-4oを上回る推論性能を記録。日本語に強く、コーディングや数学など高度な思考タスクにも対応可能な構造を備えた、思考する小型LLMとして注目を集めています。</p>
-<p>本ウェビナーでは、同モデルの特長や、軽量化と高精度の両立を実現した開発上の工夫を解説。あわせて、今後の社会実装に向けた展望や、業務特化型LLMの構築支援についてもご紹介します。
-ウェビナーの後半では、ハイレゾが提供するオンプレミスを上回る柔軟性とコストパフォーマンスを備えたGPUクラウドサービスをご紹介。LLMの開発・実行における具体的な活用事例を交えながら、その実用性と優位性をわかりやすくお伝えします。</p>
-<p>当日はLIVE配信にて、ウェビナーを実施いたします。ご視聴希望の方は、以下の視聴用フォームよりご登録をお願いいたします。</p>
+<p>2025年は「AIエージェント元年」。生成AIの急速な進化を背景に、目標に応じて自律的に判断・行動する“AIエージェント”に大きな期待が寄せられています。その活用領域は、顧客対応や業務自動化、ナレッジ検索、意思決定支援など急速に広がり、すでに多くの企業が実証・導入を開始。実運用フェーズに移行しつつあるのが現状です。
+こうした中、「本当に動くAIエージェントはどう作るのか」をテーマに執筆された、導入現場で使える実践的なノウハウをまとめた書籍『<a href="https://www.amazon.co.jp/dp/4065401402">現場で活用するためのAIエージェント実践入門</a>』（講談社）が7月に発売され、大きな注目を集めています。</p>
+<p>本ウェビナーでは、同書の著者陣5名をゲストに迎え、AIエージェントの基本概念や技術的な背景、導入時の課題、ビジネスへの応用可能性まで、幅広いトピックについてお伺いしました。</p>
+<p>AIエージェントに関心のある方や、現在導入を検討・推進されている方にとって必見の内容です。
+視聴をご希望の方は、以下のフォームよりご登録のうえ、ぜひご覧ください。</p>
 <p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
 :::</p>
-<p><strong>ウェビナーの内容</strong></p>
+<h3>ウェビナー内容</h3>
 <ul>
-<li>GPT-4oを上回る推論性能を実現したABEJAの小型LLM「QwQ-32B Reasoning Model」の技術的特徴と開発背景</li>
-<li>日本語・コーディング・数学などの高度なタスクに対応する構造と、業務特化型LLMとしての可能性</li>
-<li>ハイレゾのGPUクラウドを活用した、柔軟かつ高コスパなLLM開発・運用の実践事例</li>
+<li>AIエージェントとは何か？その歴史と定義</li>
+<li>「エージェント型AI」と「エージェンティックAI」の違い</li>
+<li>なぜ今、AIエージェントが注目されているのか</li>
+<li>導入・展開に立ちはだかる技術的・組織的課題</li>
+<li>AIエージェント活用はどう進めるべきか</li>
+<li>AIエージェントはどうのように作るのか・相性の良い領域</li>
+<li>エージェント導入のROI</li>
+<li>AIエージェントが創る未来</li>
 </ul>
-<p><strong>このような方におすすめ</strong></p>
+<h3>このような方におすすめ</h3>
 <ul>
-<li>社内外でのLLM活用や自社業務特化型モデルの構築を検討しているMLエンジニア・AIプロジェクト責任者</li>
-<li>LLMの軽量化や高精度化、クラウドインフラの最適化に関心のある情報システム部門・インフラ担当者</li>
-<li>製造・IT・建設・大学研究機関などで、AI活用を本格的に推進したいと考えている方</li>
+<li>AI導入を検討中のビジネスリーダーの方</li>
+<li>IT部門・情報システム担当の方</li>
+<li>DX推進担当の方</li>
+<li>AIエージェントに関心があり、情報収集を進めている方</li>
 </ul>
 <h2>登壇者情報</h2>
-<p><strong>株式会社ハイレゾ
-マーケティング部　グループ長
-山田 岳史 氏</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2_e7b7533fdd/image2_e7b7533fdd.jpg" alt="image2.jpg" /></p>
-<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
-GPUクラウドサービスの事業開発からマーケティングを担当。</p>
-<p><strong>株式会社ABEJA
-プリンシパルデータサイエンティスト
-服部 響 氏</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/abeja_prof_1a867ccbb5/abeja_prof_1a867ccbb5.png" alt="abeja-prof.png" /></p>
-<p>趣味で麻雀AIを作ったことをきっかけに機械学習の道に入る。前職で、画像認識を用いたアプリの開発や機械学習を用いたユーザプロファイリングに従事。
-2020年5月にABEJA入社。データサイエンティストとして幅広いプロジェクト及びデータサイエンス組織のマネージャーを経験した後、プリンシパルデータサイエンティストとして専門職のキャリアへ進む。
-現在はGENIACプロジェクトでプロジェクトリーダーとしてLLM開発を牽引。
-趣味でデータ分析コンペティションに積極的に参加。Kaggle Grandmaster。Kaggle days world championship優勝。atmaCupはじめ国内コンペで複数回優勝経験あり。</p>
+<p><strong>Sakana AI株式会社</strong>
+<strong>太田真人</strong>
+Applied Research Engineerとして、AIエージェントの社会実装に取り組む。前職の株式会社電通総研では、AIの技術調査やPoCを主導。対外的にもAIエージェントに関する最新情報の発信をしている。</p>
+<p><strong>株式会社Algomatic</strong>
+<strong>宮脇峻平</strong>
+AI/MLエンジニアとして、採用を支援するAIエージェントの自社開発および品質保証に従事。2019年より自然言語処理に取り組み、現在は学術研究員として東北大学大学院に所属。雑談対話応答や質問応答タスクのコンペティションにも参加。</p>
+<p><strong>株式会社ジェネラティブエージェンツ</strong>
+<strong>西見公宏</strong>
+2023年にAIエージェント解説書『その仕事、AIエージェントがやっておきました。』(技術評論社)を上梓し、その流れで共同創業者2名と共にAIエージェントの開発・利活用を専門に扱う株式会社ジェネラティブエージェンツを2024年3月に創業。共著に『LangChainとLangGraphによるRAG・AIエージェント[実践]入門』(技術評論社)。「本当に業務に使える」AIエージェントの開発に注力している。</p>
+<p><strong>株式会社電通総研</strong>
+<strong>後藤勇輝</strong>
+2018年から機械学習に取り組み、自社における製品開発・研究開発に従事。近年は生成AIの可能性に注目し、技術とビジネスの両面から価値創出に取り組んでいる。著書に『PyTorch実践入門 ディープラーニングの基礎から実装へ』(マイナビ出版)、『アジャイルとスクラムによる開発手法 Azure DevOpsによるプロフェショナルスクラムの実践』(マイナビ出版)がある。</p>
+<p><strong>株式会社電通総研</strong>
+<strong>阿田木勇八</strong>
+AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療機器メーカーに入社。製造現場やKaggleなどでデータ分析のスキルを磨く。その後、AIソリューションの提供側に興味をもち、2021年に電通総研に入社。機械学習を用いた製品開発、さまざまなAIモデル開発・改善案件に従事。現在は自然言語処理を扱う機能のソリューション開発に従事しており、2023年から生成AIエージェントの研究開発に取り組む。Kaggleでは、tacoriceとして参加している。</p>
 <h2>お申し込みはこちら</h2>
-<p>イベント名：小型LLMでGPT-4o超え！ABEJAの最新LLMとハイレゾのGPUクラウドで読み解くAI開発の最前線
-配信日：2025年8月19日(火) 13:00-14:00
-配信方式：LIVE（Zoom Webinar）
-参加費：無料（事前登録制）</p>
+<p>配信期間：2025年8月4日(月)〜 2025年8月22日(金)
+配信方式：オンデマンド（Zoom）
+参加費：無料</p>
 <p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_sPbK7UbhSlKIRbGZWg7Gfw">ウェビナーの視聴はこちら</a>
+<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
 :::</p>
 ]]></description>
-      <pubDate>Tue, 22 Jul 2025 01:50:00 GMT</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
