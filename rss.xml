@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>さくらインターネット、生成AI開発を効率化──NVIDIA最新GPU「B200」搭載クラウドを提供開始</title>
+      <link>https://ledge.ai/articles/sakura_gpu_b200_cloud_release</link>
+      <description><![CDATA[<p>さくらインターネットは2025年8月15日、同社のベアメタル型GPUクラウドサービス「高火力 PHY」において、NVIDIAの最新GPU「B200」を搭載した新プランの提供を開始したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/08/15/1968220622/">発表</a>した。生成AI（人工知能）の開発や学習処理を一段と効率化できる環境を整える。</p>
+<p>新プラン「B200プラン」では、NVIDIAのBlackwellアーキテクチャを採用したGPU「B200」を搭載。大規模なAIモデルの学習や推論処理において高い性能を発揮する。さらに高速ネットワーク回線やスケーラビリティに対応しており、開発者や研究者は柔軟に計算リソースを利用できる。</p>
+<p>同社によると、約400台のB200 GPUを北海道・石狩データセンターに導入。これにより国内における生成AI開発環境の安定供給を図る。提供開始は8月15日からで、初期利用キャンペーンも実施されるとのこと。</p>
+<p>これまでも「高火力 VRT」などのGPUクラウドサービスを展開してきたさくらインターネット。今回の新プラン投入により、生成AI需要の拡大に対応するとともに、国内の企業や研究機関によるAI活用を後押しする狙いがある。</p>
+<p>同社は、今後も最新GPUを活用した研究やサービス開発を支援し、国内データセンターを基盤とした高性能かつ安心なクラウド環境の提供を強化していくとしている。</p>
+]]></description>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
       <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
       <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
@@ -281,20 +292,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>デルは、同ソリューションの提供を通じ、生成AIを用いた開発支援と業務効率化を推進し、日本企業の競争力向上を支援するとしている。</p>
 ]]></description>
       <pubDate>Wed, 13 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ElevenLabs、自然言語プロンプトでスタジオ級音楽を生成できる「Eleven Music」を発表 ─ 商用利用にも対応、日本語歌詞生成も可能、Merlin・Kobaltと提携</title>
-      <link>https://ledge.ai/articles/elevenlabs_music_ai_commercial_japan_release</link>
-      <description><![CDATA[<p>AI音声技術を手がけるElevenLabsは2025年8月5日、新サービス「Eleven Music」を<a href="https://elevenlabs.io/ja/blog/eleven-music-is-here">発表</a>した。</p>
-<p>自然言語での指示（プロンプト）から、スタジオ品質の音楽を生成できるもので、生成した楽曲は商用利用も可能。音楽業界の主要団体や企業との提携により、権利面での安全性も確保しているという。</p>
-<p>自然言語での指示（プロンプト）からスタジオ品質の音楽を生成でき、生成した楽曲は商用利用が可能。音楽業界の主要団体や企業との提携により、権利面での安全性も確保している。日本法人ElevenLabs株式会社からの発表により、日本市場向けの提供開始も明らかになった。</p>
-<p>「Eleven Music」はジャンル、テンポ、雰囲気、楽器構成、歌詞の有無などを指定して音楽を生成できる。歌詞は多言語に対応し、日本語歌詞の生成も可能だ。生成音質はスタジオレベルで、映像制作、広告、ゲーム、SNSなど幅広い用途での利用が想定される。無料トライアルも提供される。</p>
-<p><strong>簡単なプロンプトを入れるだけで曲が完成</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Eleven_Music_f5bf12c511/Eleven_Music_f5bf12c511.jpg" alt="Eleven Music.jpg" /></p>
-<p>権利処理面では、全世界4万以上のインディーズレーベルを抱える音楽業界団体Merlinおよび約70万曲の音楽出版権を持つKobaltと提携。これにより、著作権やライセンスに関する安全性を担保し、既存作品の無断使用を防ぐ著作権管理システムも実装している。ElevenLabsはガイドラインを設け、差別的・暴力的・違法なコンテンツや、特定アーティストや著名人の声・スタイルを模倣した生成を禁止している。</p>
-<p>同社は、音声生成分野で培った技術を音楽に拡張することで、プロから一般ユーザーまでが短時間で高品質な楽曲を制作できる環境を目指す。今後は対応ジャンルや言語の拡充、API提供、他のクリエイティブツールとの統合なども検討しているという。</p>
-]]></description>
-      <pubDate>Wed, 13 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
