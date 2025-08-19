@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>アフリカでAI人材3万人を育成──東大・松尾研、政府と連携し製造業・農業DXを後押し</title>
+      <link>https://ledge.ai/articles/africa_ai_talent_training_by_utokyo_matsuo_lab</link>
+      <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2025年8月18日、これまで国内で進めてきたAI教育をさらに発展させ、政府と連携してアフリカでAI人材を育成する取り組みを開始すると<a href="https://weblab.t.u-tokyo.ac.jp/news/20250818/">発表</a>した。取り組みは製造業や農業のDXを後押しすることを狙いとし、3年間で延べ3万人の育成を目標に据える。
+同研究室は、これまで国内での無料・大規模オンライン講座などで培ってきた教育モデルをベースに、アフリカ地域で本格的な人材育成を展開する。公式サイトの発表では、政府と連携して取り組む方針が示されている。</p>
+<h2>取り組みの目的と背景</h2>
+<p>日本経済新聞の<a href="https://www.nikkei.com/article/DGXZQOUA041X30U5A800C2000000/">報道</a>によると、同プロジェクトは、製造業と農業のデジタル化（DX）を担う現地人材の裾野拡大を意図する。アフリカの若者が海外留学でAIスキルを得ても国外に残る例が多い現状を踏まえ、「地元で活躍できる環境を整え、人材を定着させる」狙いが示されている。</p>
+<p>この取り組みにより、アフリカ地域におけるAI教育基盤が強化され、現地産業の生産性向上や雇用創出、エコシステム形成への寄与が期待される。</p>
+]]></description>
+      <pubDate>Tue, 19 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
       <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor</link>
       <description><![CDATA[<p>国内最大級のAI特化メディア『Ledge.ai』を運営する株式会社レッジ（東京都品川区）は、2025年9月24日(水)〜26日(金)の3日間連続で合計20本以上のセミナーを配信するオンラインイベント「Ledge.ai Webinar SP」を開催いたします。</p>
@@ -364,21 +375,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>NEDOは、現実環境におけるロボットの稼働データがテキストや画像に比べて不足している現状を課題として指摘。共通のデータ基盤を整備することで、日本発の汎用ロボットAI開発を加速させ、医療・建設・物流など幅広い分野での社会実装を推進する考えだ。また、事業を通じてロボティクス分野の人材育成や国際競争力の強化にもつなげるとしている。</p>
 ]]></description>
       <pubDate>Thu, 14 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、AIが自律的に専門ツールを使いソフトウェアを解析──マルウェア対策を革新する「Project Ire」発表</title>
-      <link>https://ledge.ai/articles/microsoft_project_ire_ai_reverse_engineering_announcement</link>
-      <description><![CDATA[<p>Microsoftは2025年8月12日（現地時間）、AIが自律的に専門的な解析ツールを操作し、ソフトウェアのリバースエンジニアリングを行う新システム「Project Ire」を<a href="https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/">発表</a>した。マルウェア解析や脆弱性調査といった分野において、従来は人手に依存していた高度な解析作業を自動化することを狙う。</p>
-<h2>AIが自ら手順を決定し解析を実行</h2>
-<p>Project Ireは、解析対象ソフトウェアに対してAIエージェントが自律的に手順を組み立て、既存のリバースエンジニアリング用ツールを選択・操作して調査を進める。プロセス全体のログを収集し、解析レポートを自動生成する機能も備えている。これにより、複雑なマルウェアや不明なバイナリに対しても迅速な解析が可能となる。</p>
-<h2>高精度かつ低い誤検出率</h2>
-<p>Microsoftの評価によれば、Project IreはWindowsドライバー解析のベンチマークにおいて高い精度と再現率を記録し、誤検出率も低水準に抑えられたという。従来の手動解析に比べ、作業時間の短縮と安定した品質の両立が可能となる。</p>
-<h2>開発背景</h2>
-<p>近年、マルウェアは暗号化や難読化など高度な手法を駆使して解析を困難にしており、解析人材の不足や作業負荷の増大が課題となっている。Microsoftは、AIを活用することでこうした課題の解消と解析効率の飛躍的向上を目指すとしている。</p>
-<h2>今後の展望</h2>
-<p>Project Ireは現段階では研究プロジェクトとして運用されているが、今後はMicrosoftのセキュリティ製品や企業向けサービスへの統合も視野に入れている。さらに、外部研究者や開発者との連携による改善や新機能追加の可能性も示唆しており、マルウェア対策分野における新たな基盤技術となることが期待される。</p>
-]]></description>
-      <pubDate>Wed, 13 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
