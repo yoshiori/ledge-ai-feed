@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
+      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
+      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を[発表]((https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/)した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
+<h2>新手法の概要</h2>
+<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
+<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
+<h2>実験結果</h2>
+<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
+<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
+<h2>意義と応用可能性</h2>
+<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
+<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
       <link>https://ledge.ai/articles/google_gemma3_270m_release</link>
       <description><![CDATA[<p>Googleは2025年8月14日、小型オープンモデル「Gemma 3 270M」を<a href="https://developers.googleblog.com/en/introducing-gemma-3-270m/">発表</a>した。2億7000万パラメータという軽量な構成ながら、高い性能と省電力性を両立。スマートフォンや低リソース環境でも効率的に利用できる点が特徴で、AIの利用範囲をさらに広げる存在として注目を集めている。</p>
