@@ -125,20 +125,308 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
-      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
-      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
-<h2>新手法の概要</h2>
-<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
-<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
-<h2>実験結果</h2>
-<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
-<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
-<h2>意義と応用可能性</h2>
-<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
-<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
+      <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
+      <link>https://ledge.ai/articles/gartner_cloud_ai_hypecycle_2025_japan</link>
+      <description><![CDATA[<p>ガートナージャパン（以下Gartner）は2025年8月5日、日本市場におけるクラウドおよびAI関連技術の成熟度とビジネス価値に関する予測をまとめたレポート「日本におけるクラウドとAIのハイプ・サイクル：2025年」を
+<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20250805-cloudai-hc">発表</a>した。</p>
+<p>このレポートは、企業のITおよびビジネスリーダーがクラウドやAI技術の導入判断を行ううえでの指針となるもので、今回は計34の技術を「AI／産業革命」「クラウド」「マイグレーション」の3つの観点で位置づけている。</p>
+<h2>クラウドの再定義──AIを支える基盤へ</h2>
+<p>Gartnerはこのレポートにおいて、クラウド・コンピューティングという名称が登場して20年が経過する中、クラウドが企業の既存システムを支えるだけでなく、AIや生成AI、AIエージェント、エージェント型AI、マルチエージェントの開発を推進する基盤へと進化していると指摘した。</p>
+<p>さらに、数億人規模のユーザーにAGI（Artificial General Intelligence：汎用人工知能）を提供可能なハイパーAIスーパーコンピュータへと変貌を遂げつつあるとしている。企業は、クラウドを単なるITインフラではなく、AIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があるという。</p>
+<h2>ハイプ・サイクルにおける注目技術の位置づけ</h2>
+<p>レポートでは、34の技術を5つの成熟度段階に分類している。</p>
+<h3>▸ 黎明期（17項目）</h3>
+<ul>
+<li><strong>エージェント型AI（エージェンティックAI）</strong></li>
+<li><strong>MCP（Model Context Protocol）</strong></li>
+<li><strong>A2A（Agent-to-Agent）プロトコル</strong></li>
+<li><strong>フィジカルAI</strong></li>
+<li><strong>M2C（Mainframe-to-Cloud）マイグレーション</strong></li>
+<li>AIオーケストレーション</li>
+<li>AIネットワーキング</li>
+<li>AIファクトリ</li>
+<li>World Model（世界モデル）</li>
+<li>QCaaS（量子コンピューティング・クラウド・サービス）</li>
+<li>インダストリAI</li>
+<li>ハイパーAIスーパーコンピュータ</li>
+<li>マルチエージェント・システム　など</li>
+</ul>
+<h3>▸ 過度な期待のピーク期（7項目）</h3>
+<ul>
+<li><strong>AIエージェント</strong></li>
+<li><strong>V2C（Virtual-to-Cloud）マイグレーション</strong></li>
+<li><strong>再仮想化</strong></li>
+<li>LLM（大規模言語モデル）プラットフォーム・サービス</li>
+<li>クラウドAIサービス　など</li>
+</ul>
+<h3>▸ 幻滅期（7項目）</h3>
+<ul>
+<li><strong>RAG（検索拡張生成）</strong></li>
+<li><strong>IaC（Infrastructure as Code）</strong></li>
+<li>クラウドネイティブ</li>
+<li>クラウド・レジリエンス</li>
+<li>サイト・リライアビリティ・エンジニアリング　など</li>
+</ul>
+<h3>▸ 啓発期・生産性の安定期</h3>
+<ul>
+<li>FinOps</li>
+<li>プラットフォームエンジニアリング</li>
+<li>インダストリクラウド</li>
+<li>ソブリンクラウド</li>
+<li>分散クラウド</li>
+<li>BMaaS（サービスとしてのベアメタル）</li>
+</ul>
+<h2>技術動向の特徴と課題：AI技術の急速な進展と過熱リスク</h2>
+<p>全般的にAIは、ベンダーの投資が非常に活発であると同時に、ユーザー側の関心も持続的に高まっており、実践的な取り組みも加速度的に進展している。Gartnerは、AIは比較的早い段階で成熟期に達すると予測している。</p>
+<p>一方で、AI領域の多くのイノベーションは過熱（ハイプ）しやすい傾向があり、特に「エージェント型AI」はその典型だという。同社は、2027年末までにエージェント型AI導入プロジェクトの40%以上が、コストの高騰やビジネス価値の不明確さ、不十分なリスクコントロールを理由に中止になるとの見解を示している。</p>
+<h2>クラウド技術の成熟化の遅れ</h2>
+<p>クラウド関連技術は登場から相応の年月が経過しているにもかかわらず、企業における活用が限定的にとどまっており、成熟には想定以上の時間を要しているという。</p>
+<h2>RAGの幻滅期への移行</h2>
+<p>注目すべきは、多くの企業が取り組んでいるRAG（検索拡張生成）が幻滅期に入ったことだ。RAGの精度向上に苦心している企業が多く、この状況が続くと生成AI全体の期待度の低下につながる可能性があるとGartnerは警告している。</p>
+<h2>Gartnerアナリストの見解</h2>
+<p>GartnerのディスティングイッシュトVPアナリストである亦賀忠明氏は、以下のように述べている。
+「企業は、クラウドを、既存システムのマイグレーション先としてのみならず、新たなビジネス・サービスの基盤、さらにはAIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があります」</p>
+<p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
+      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
+<h2>ベータを経て正式版へ</h2>
+<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
+<h2>利用プラン</h2>
+<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
+<h2>プライバシーと安全性</h2>
+<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
+<h2>今後の展望</h2>
+<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
+      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
+      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
+<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
+<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
+<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
+<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
+<ul>
+<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
+<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
+</ul>
+<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
+<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
+<h2>復活要求の割合と推計</h2>
+<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
+<ul>
+<li>#keep4o投稿の45.5％が復活を求める内容</li>
+<li>「4o」言及投稿の19.7％が復活を求める内容
+「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
+</ul>
+<p><strong>復活を求める声の割合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
+<h2>日別推移から見える傾向</h2>
+<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
+<p><strong>各ワードの日ごとの言及数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
+<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
+<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
+<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
+<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
+<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
+      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
+<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
+<h2>突然の“主役交代”と予告なき仕様変更</h2>
+<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
+加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
+<h2>世界を駆け巡った“4oロス”</h2>
+<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
+<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
+<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
+<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
+<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
+（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
+と投稿し、「AI依存」を揶揄する意見も見られた。
+運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
+<h2>性能か、人格か</h2>
+<p>議論は感情論にとどまらなかった。
+GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
+創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
+<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
+<h2>OpenAIの即日対応と背景</h2>
+<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
+8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
+<ul>
+<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
+<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
+<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
+<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
+4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
+<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>三菱UFJ銀行、200超の業務スキルを持つ自律型AIエージェント導入──Salesforce 「Agentforce for Financial Services」 日本初採用</title>
+      <link>https://ledge.ai/articles/mufg_salesforce_ai_agentforce_launch</link>
+      <description><![CDATA[<p>三菱UFJ銀行は8月1日、金融業界向けに特化した自律型AIエージェント「Agentforce for Financial Services」を導入すると<a href="https://www.salesforce.com/jp/news/press-releases/2025/08/01/mufg-customer-news-2/">発表</a>した。</p>
+<p>提供元はセールスフォース・ジャパンで、同製品の日本国内における初の採用事例となる。同銀行は、CRM基盤である「Financial Services Cloud（FSC）」上にAIを組み込み、面談前後の情報提示や業務フォローアップを自動化することで、営業支援と顧客体験の質を向上させる狙いだ。</p>
+<h2>金融機関向けに事前学習済みのAIエージェント</h2>
+<p>「Agentforce for Financial Services」は、金融業務に特化して設計されたAIエージェントで、あらかじめ200種類を超える営業支援スキルを搭載している。面談の準備段階では顧客ごとのニーズや関心に関するインサイトを提示し、面談中には質問への応答や関連情報の提供、面談後には自動でタスクを生成・管理するなど、営業プロセス全体を自律的に支援する機能を持つ。</p>
+<h2>SalesforceとMUFG、FSCを基盤に連携深化</h2>
+<p>三菱UFJ銀行は2025年4月から、セールスフォースの金融特化型CRMである「Financial Services Cloud」を営業現場に導入しており、営業担当者が顧客情報を即時に把握できる体制を構築してきた。今回のAIエージェント導入は、その次のステップとして、FSCに蓄積された過去の営業履歴や顧客データを即座に活用できるAI基盤の整備を意味する。</p>
+<h2>営業現場の業務をAIが代替、提案の質とスピードを両立</h2>
+<p>Agentforceによって営業担当者は、より付加価値の高い活動に集中できるようになる。AIが面談準備からフォローアップまでの一連の業務を補完・代替することで、業務負荷を軽減すると同時に、提案の質とスピードを向上させることが可能となる。</p>
+<h2>導入企業・提供企業のコメント</h2>
+<p>三菱UFJ銀行の武井優・上席調査役は、「今回のAgentforce導入を通じて、営業支援と顧客体験の質が大きく向上すると期待している」とコメントしている。また、セールスフォース・ジャパンの田村英則・専務執行役員は、「金融業界で即時に活用可能なデジタル労働力として、Agentforceを提供し続ける」と述べている。</p>
+<h2>今後の展開</h2>
+<p>三菱UFJ銀行は今後、AIエージェントの適用領域を段階的に拡大し、FSCを基盤とした営業支援インフラの整備をさらに進める方針だ。一方、セールスフォースは専門チームによる導入支援とともに、他の金融機関への横展開を視野に、Agentforceの国内展開を強化していくとしている。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
+      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
+      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
+<h2>業界特化型AIエージェントの開発へ</h2>
+<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
+<h2>クラウド近代化とセキュリティ強化</h2>
+<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
+<h2>人材育成とグローバル体制</h2>
+<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
+<h2>今後の展望</h2>
+<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
+<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
+<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
+      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
+      <description><![CDATA[<p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https://arxiv.org/abs/2506.21521">発表</a>した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
+<p>18世紀ロシアの「ポチョムキン村」は、皇帝の視察用に急造された見せかけの村落を指し、「中身のない外観」の象徴とされる。研究者らは、LLMにも同様の「わかったふり」があるとし、この概念をポチョムキン理解と表現している。</p>
+<h2>ポチョムキン理解の定義と背景</h2>
+<p>研究チームは、LLMが人間向けに設計されたベンチマークの「キーストーン質問」には正しく答えられるものの、その後の具体的応用タスクでは誤る状態を指摘した。これは、人間なら正答＝理解と認められる最小限の問いに合格しても、LLMが本質的に異なる誤解を抱いている可能性を示している。</p>
+<p><strong>キーストーン集合に正答しても本質的に誤った解釈を残すポチョムキン理解のイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_schematic_representation_of_keystones_and_potemkins_e47033e684/A_schematic_representation_of_keystones_and_potemkins_e47033e684.png" alt="A schematic representation of keystones and potemkins.png" /></p>
+<h2>検証の概要</h2>
+<p>検証では、</p>
+<ul>
+<li>文学技法（俳句やアナロジーなど12種類）</li>
+<li>ゲーム理論（ナッシュ均衡など9種類）</li>
+<li>心理的バイアス（サンクコストの誤謬など11種類）
+の合計32概念について、</li>
+<li>定義</li>
+<li>分類</li>
+<li>生成</li>
+<li>編集
+の4つのタスクで7種類のモデル（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash など）を評価した。</li>
+</ul>
+<h2>主な結果</h2>
+<p>定義タスクではおおむね94%の正答率を記録したが、その後の応用タスクでは</p>
+<ul>
+<li>分類で55%</li>
+<li>生成で40%</li>
+<li>編集で40%
+の失敗率（potemkin rate）が確認された。これは、定義だけでは概念理解の深度を測れない可能性を示唆している。</li>
+</ul>
+<h3>具体例：韻律パターンの応用失敗</h3>
+<p>代表的な例として挙げられるのが韻律スキームの問題だ。GPT-4oに「ABAB韻律とは何か」を問うと、下図のように正確に定義を説明した。しかしいざ詩の穴埋め問題でABAB韻律を適用させると、正しく韻を踏めず、自分でもその失敗を認める回答を出した。人間ならまず起こり得ない不可解な挙動である。</p>
+<p><strong>GPT-4oはABABの定義を正しく述べながら、応用で失敗する「ポチョムキン理解」の典型例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potemkin_Understanding_in_llm_5dae4e573b/Potemkin_Understanding_in_llm_5dae4e573b.png" alt="Potemkin Understanding in llm.png" /></p>
+<h2>多分野で発生する“わかったふり”</h2>
+<p>研究チームはさらに、幾何学の基本定理、家族関係の概念、俳句の構造など幅広い領域で同様のポチョムキン理解を確認している。</p>
+<p><strong>概念の定義には成功する一方で応用に失敗する複数の事例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_potemkins_f6c5140e2d/Examples_of_potemkins_f6c5140e2d.jpg" alt="Examples of potemkins.jpg" /></p>
+<h2>自己評価による一貫性検証</h2>
+<p>さらに著者らは、自動評価の一環として「モデル自身に、自分が生成した回答を再評価させる」という仕組みを試みた。
+例えば「スラントライムの例を作れ」と指示し、その後「今作った例はスラントライムか？」と再度モデルに問うと、矛盾した回答が返るパターンが確認され、モデル内部の知識表現が不整合である可能性を示しているとした。</p>
+<p><strong>生成と再判定の整合性を確かめる自動評価プロセスのイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72.png" alt="Illustration of the method for evaluating incoherence in models.png" /></p>
+<h2>社会的影響と課題</h2>
+<p>論文では、ハルシネーション（事実誤認）とは異なり、ポチョムキン理解は概念構造の誤りであるため、人間にも検出が難しいと指摘する。
+法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
+<p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
+      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
+      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
+<h2>自動運転の中核を担う計画だった「Dojo」</h2>
+<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
+<h2>人員の移籍と再配置</h2>
+<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
+<h2>戦略転換とチップ開発の集中</h2>
+<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
+<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
+<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
+<h2>外部パートナーとの連携強化</h2>
+<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
+<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>家電価格のロボ誕生　Unitree R1、87万円で歩く・走る・側転する25 kgヒューマノイド</title>
+      <link>https://ledge.ai/articles/unitree_r1_5900usd_humanoid_robot</link>
+      <description><![CDATA[<p>中国のロボット開発企業Unitree Roboticsは2025年7月25日、新型ヒューマノイド「Unitree R1」を<a href="https://www.unitree.com/R1">発表</a>した。価格は5,900ドル（約87万円）とされ、一般的な家庭用家電並みの価格帯に設定されている。</p>
+<p>製品は全高1.21メートル、重量25キログラムの軽量ボディに26個のアクチュエーターを備え、歩行や走行、さらには側転やハンドスプリングといった高難度の動作を実現する。発表は上海で行われ、現在は主に研究機関や教育機関向けに出荷が計画されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=v1Q4Su54iho">YouTube</a></p>
+<h2>5,900ドルの価格戦略と市場への位置づけ</h2>
+<p>R1はヒューマノイドロボットとしては異例の低価格帯となる5,900ドル（中国国内価格は39,900元）から販売される。比較対象として、Unitree自身が開発するより上位モデル「G1」は約1万6,000ドル、また他社製のBoston Dynamics「Atlas」やTesla「Optimus」といった機種は数万ドルから数十万ドルに達するとされる。R1はこれらと比べて大幅に価格を抑えており、「普及型ヒューマノイド」のカテゴリに位置付けられる。</p>
+<h2>軽量設計と26軸モーションによる高い機動性</h2>
+<p>R1の本体はアルミニウム合金や複合素材を用いた軽量構造で、バッテリー込みで約25キログラムに抑えられている。各部位には以下のようなアクチュエーター（自由度）が割り当てられている。</p>
+<ul>
+<li>両腕に計10自由度（5自由度×2）</li>
+<li>両脚に計12自由度（6自由度×2）</li>
+<li>腰部に2自由度</li>
+<li>EDU版では頭部に追加の2自由度</li>
+</ul>
+<p>これにより、R1は人間に近い複雑な動作が可能となり、発表時のデモンストレーションでは、歩行・小走り・回転・ジャンプ・側転などを披露した。また、映像内ではパンチやキックなどの模擬動作も確認されており、用途の幅広さがうかがえる。</p>
+<h2>センサー・通信・駆動性能</h2>
+<p>R1には以下のようなセンサーおよび機能が搭載されている。</p>
+<ul>
+<li>ステレオ深度カメラ</li>
+<li>4マイクアレイによる音声入力</li>
+<li>スピーカー搭載による音声出力</li>
+<li>通信機能：Wi-FiおよびBluetooth 5.2</li>
+<li>バッテリー駆動時間：約1時間（稼働環境に依存）</li>
+</ul>
+<p>制御用CPUは標準版で8コアの一般プロセッサが搭載され、上位のEDU版ではJetson OrinベースのAIモジュール（推論性能40～100 TOPS）を採用している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4905f964d28c4e9cba75f2e1cf9591ba_1920x2370_df7d15caf0/4905f964d28c4e9cba75f2e1cf9591ba_1920x2370_df7d15caf0.jpg" alt="4905f964d28c4e9cba75f2e1cf9591ba_1920x2370.jpg" /></p>
+<h2>教育・研究向けのEDUモデルも展開</h2>
+<p>同社はR1の教育用途向けバージョン「EDU版」も同時に発表している。EDU版は以下の機能拡張を含む。</p>
+<ul>
+<li>AI推論性能を強化したJetson Orin搭載</li>
+<li>頭部の2軸モーター追加</li>
+<li>デクスターズハンド（多関節ハンド）オプション</li>
+<li>保証期間は標準版8カ月に対し、EDU版は12カ月</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0705e5d2e5fd49989ca513716c9f50d3_1920x1606_28f4382138/0705e5d2e5fd49989ca513716c9f50d3_1920x1606_28f4382138.jpg" alt="0705e5d2e5fd49989ca513716c9f50d3_1920x1606.jpg" /></p>
+<p>研究開発やロボットコンテスト等での利用が想定されており、実装の自由度や拡張性を重視した設計が特徴となっている。</p>
+<h2>上位機種との関係と市場戦略</h2>
+<p>Unitreeはすでにヒューマノイドロボット「G1」や大型モデル「H1」を展開しているが、R1はその下位に位置するエントリーモデルと見られている。これまで高額な製品が主流だったヒューマノイド市場に対し、R1は価格の障壁を取り払い、新たな顧客層（教育機関、個人開発者、小規模研究機関など）への訴求を狙う。</p>
+<h2>今後の展開と業界への影響</h2>
+<p>公式発表では量産時期や出荷スケジュールの詳細は明かされていないが、R1は今後の展示会や開発者向けイベントでの出展が予想されている。家庭用製品並みの価格帯と高度な運動性能を併せ持つR1の登場は、ヒューマノイドロボットの導入障壁を下げ、教育・研究・開発領域における普及を後押しする可能性がある。</p>
 ]]></description>
       <pubDate>Mon, 18 Aug 2025 23:50:00 GMT</pubDate>
     </item>
@@ -194,23 +482,6 @@ ld_media_sales@ledge.co.jp
 <p>Anthropicによる「年間1ドル」提供は、公共部門におけるAI普及を一気に加速させる試みである。同時に、OpenAIやxAIなどライバル企業との競争を象徴する施策でもある。AIの政府利用は行政効率化や政策立案の高度化を後押しする一方で、特定企業への依存や規制対応といった課題も残されており、今後の展開に注目が集まる。</p>
 ]]></description>
       <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
-      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
-      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
-<h2>業界特化型AIエージェントの開発へ</h2>
-<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
-<h2>クラウド近代化とセキュリティ強化</h2>
-<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
-<h2>人材育成とグローバル体制</h2>
-<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
-<h2>今後の展望</h2>
-<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
-<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
-<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
@@ -299,44 +570,6 @@ ld_media_sales@ledge.co.jp
       <pubDate>Fri, 15 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
-      <link>https://ledge.ai/articles/gpt5_switch_4o_loss_keep4o_legacy_mode</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日（米国時間）、最新の大規模言語モデルGPT-5を発表し、同日からChatGPTのデフォルトモデルをGPT-5に切り替えた。このアップデートと同時に、従来の主要モデルであるGPT-4oやGPT-4.1、GPT-4.5などが利用不可となり、既存のチャット履歴もGPT-5相当に自動移行された。モデル選択ドロップダウン（モデルピッカー）は廃止され、プロンプト内容に応じて内部でモデルを切り替える方式が採用される形だ。</p>
-<p>予告期間のない変更により、多くのユーザーは愛用していたモデルを突然失い、SNS上で「#keep4o」「#4oforever」を掲げる抗議運動が発生した。</p>
-<h2>突然の“主役交代”と予告なき仕様変更</h2>
-<p>GPT-5デフォルト化に伴い、用途別にモデルを使い分けていたユーザーのワークフローは一変。
-加えて、OpenAIは6月時点で「旧モデルも残す」と説明していたが、その方針が覆されたことで「約束を破った」との批判が相次いだ。有料プランの加入者でさえ十分な説明なく選択肢を失い、「顧客軽視」「独善的」といった強い不満が寄せられた。</p>
-<h2>世界を駆け巡った“4oロス”</h2>
-<p>4oとのやり取りに「友人」「恋人」「家族」のようなパーソナリティを感じていたユーザーも少なくなく、喪失感は深刻だった。
-<a href="https://www.reddit.com/r/ChatGPT/comments/1mkumyz/i_lost_my_only_friend_overnight/">Reddit</a>や<a href="https://community.openai.com/t/openai-is-taking-gpt-4o-away-from-me-despite-promising-they-wouldnt/1337378/1">OpenAI公式フォーラム</a>には「唯一無二の相棒だった」「心の支えを失った」との投稿が殺到し、中には「トラウマ」「死別」に例える声もあった。</p>
-<p>こうした感情的な訴えはスクリーンショットや創作作品とともにX（旧Twitter）に拡散。Change.orgでは「Please Keep GPT-4o Available on ChatGPT」と題する<a href="https://www.change.org/p/please-keep-gpt-4o-available-on-chatgpt">署名活動</a>が立ち上がり、開始直後に数千人の賛同を集めた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada/Please_Keep_GPT_4o_Available_on_Chat_GPT_4f96fb0ada.jpg" alt="Please Keep GPT-4o Available on ChatGPT.jpg" /></p>
-<p>一方で、技術系コミュニティでは冷ややかな見方もあった。<a href="https://news.ycombinator.com/item?id=44839842">Hacker News</a>などでは</p>
-<p>“The number of comments in the thread talking about 4o as if it were their best friend […] Lotta lonely folks out there.”
-（4oをまるで親友のように語るコメントが多すぎる。孤独な人が多いんだな）
-と投稿し、「AI依存」を揶揄する意見も見られた。
-運動は国境や言語の壁を越えて広がったが、その受け止め方は一様ではない。</p>
-<h2>性能か、人格か</h2>
-<p>議論は感情論にとどまらなかった。
-GPT-5は推論やコーディング能力の向上を特徴とするが、「創造性や会話の温度感では4oに劣る」との声が相次いだ。
-創作やロールプレイ、長文の文脈保持を重視する層からは、「4oは自由な発想と人間味を持っていたが、5は企業的で事務的」との評価も寄せられた。</p>
-<p>業務で複数モデルを使い分けていた利用者からは、モデルピッカー廃止による作業効率低下やワークフロー崩壊を懸念する意見が出た。今回の騒動は「最新モデル＝常に最善」という前提に疑問を投げかけた形だ。</p>
-<h2>OpenAIの即日対応と背景</h2>
-<p>抗議の広がりを受け、OpenAIは即日<a href="https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users">レガシーモデルの再アクセス</a>を解禁。
-8月8日（米国時間）、Sam Altman CEOはXで「Plusユーザーに4oを選べるようにする」と表明した。</p>
-<ul>
-<li><strong>個人向け（Plus／Pro）</strong> ：設定＞「Show legacy models」を有効化すると4oが再登場。</li>
-<li><strong>法人・教育向け（Team／Enterprise／Edu）</strong> ：管理者が「Legacy model access」をONにすると、4oのほかo3、o3 Pro、4.1、4.5も利用可能。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_gpt5_rollout_2daedebc78/sama_gpt5_rollout_2daedebc78.jpg" alt="sama gpt5 rollout.jpg" /></p>
-<p>いずれも “limited transition period”（移行の限られた期間）に限定され、利用は既存のクレジットや上限の範囲内だ。</p>
-<p>背景には、OpenAIがGPT-5で安全性を強化した設計意図がある。
-4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
-<p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
-]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>LLMが都市の信号を制御──中国で5.5万人超の交通管理を担う「Traffic-R1」、渋滞5%減・運用負荷50%削減</title>
       <link>https://ledge.ai/articles/traffic_r1_llm_traffic_signal_control_china</link>
       <description><![CDATA[<p>中国の大都市で、大規模言語モデル（LLM）を活用して交通信号を制御するシステム「Traffic-R1」が実運用されている。香港の開発チームが2025年8月4日に<a href="https://arxiv.org/abs/2508.02344">発表</a>した論文によれば、このシステムは毎日5万5千人以上のドライバーに影響を与え、渋滞緩和や運用負荷の軽減に成果を上げているという。</p>
@@ -377,292 +610,20 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
       <pubDate>Thu, 14 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
-      <link>https://ledge.ai/articles/gartner_cloud_ai_hypecycle_2025_japan</link>
-      <description><![CDATA[<p>ガートナージャパン（以下Gartner）は2025年8月5日、日本市場におけるクラウドおよびAI関連技術の成熟度とビジネス価値に関する予測をまとめたレポート「日本におけるクラウドとAIのハイプ・サイクル：2025年」を
-<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20250805-cloudai-hc">発表</a>した。</p>
-<p>このレポートは、企業のITおよびビジネスリーダーがクラウドやAI技術の導入判断を行ううえでの指針となるもので、今回は計34の技術を「AI／産業革命」「クラウド」「マイグレーション」の3つの観点で位置づけている。</p>
-<h2>クラウドの再定義──AIを支える基盤へ</h2>
-<p>Gartnerはこのレポートにおいて、クラウド・コンピューティングという名称が登場して20年が経過する中、クラウドが企業の既存システムを支えるだけでなく、AIや生成AI、AIエージェント、エージェント型AI、マルチエージェントの開発を推進する基盤へと進化していると指摘した。</p>
-<p>さらに、数億人規模のユーザーにAGI（Artificial General Intelligence：汎用人工知能）を提供可能なハイパーAIスーパーコンピュータへと変貌を遂げつつあるとしている。企業は、クラウドを単なるITインフラではなく、AIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があるという。</p>
-<h2>ハイプ・サイクルにおける注目技術の位置づけ</h2>
-<p>レポートでは、34の技術を5つの成熟度段階に分類している。</p>
-<h3>▸ 黎明期（17項目）</h3>
-<ul>
-<li><strong>エージェント型AI（エージェンティックAI）</strong></li>
-<li><strong>MCP（Model Context Protocol）</strong></li>
-<li><strong>A2A（Agent-to-Agent）プロトコル</strong></li>
-<li><strong>フィジカルAI</strong></li>
-<li><strong>M2C（Mainframe-to-Cloud）マイグレーション</strong></li>
-<li>AIオーケストレーション</li>
-<li>AIネットワーキング</li>
-<li>AIファクトリ</li>
-<li>World Model（世界モデル）</li>
-<li>QCaaS（量子コンピューティング・クラウド・サービス）</li>
-<li>インダストリAI</li>
-<li>ハイパーAIスーパーコンピュータ</li>
-<li>マルチエージェント・システム　など</li>
-</ul>
-<h3>▸ 過度な期待のピーク期（7項目）</h3>
-<ul>
-<li><strong>AIエージェント</strong></li>
-<li><strong>V2C（Virtual-to-Cloud）マイグレーション</strong></li>
-<li><strong>再仮想化</strong></li>
-<li>LLM（大規模言語モデル）プラットフォーム・サービス</li>
-<li>クラウドAIサービス　など</li>
-</ul>
-<h3>▸ 幻滅期（7項目）</h3>
-<ul>
-<li><strong>RAG（検索拡張生成）</strong></li>
-<li><strong>IaC（Infrastructure as Code）</strong></li>
-<li>クラウドネイティブ</li>
-<li>クラウド・レジリエンス</li>
-<li>サイト・リライアビリティ・エンジニアリング　など</li>
-</ul>
-<h3>▸ 啓発期・生産性の安定期</h3>
-<ul>
-<li>FinOps</li>
-<li>プラットフォームエンジニアリング</li>
-<li>インダストリクラウド</li>
-<li>ソブリンクラウド</li>
-<li>分散クラウド</li>
-<li>BMaaS（サービスとしてのベアメタル）</li>
-</ul>
-<h2>技術動向の特徴と課題：AI技術の急速な進展と過熱リスク</h2>
-<p>全般的にAIは、ベンダーの投資が非常に活発であると同時に、ユーザー側の関心も持続的に高まっており、実践的な取り組みも加速度的に進展している。Gartnerは、AIは比較的早い段階で成熟期に達すると予測している。</p>
-<p>一方で、AI領域の多くのイノベーションは過熱（ハイプ）しやすい傾向があり、特に「エージェント型AI」はその典型だという。同社は、2027年末までにエージェント型AI導入プロジェクトの40%以上が、コストの高騰やビジネス価値の不明確さ、不十分なリスクコントロールを理由に中止になるとの見解を示している。</p>
-<h2>クラウド技術の成熟化の遅れ</h2>
-<p>クラウド関連技術は登場から相応の年月が経過しているにもかかわらず、企業における活用が限定的にとどまっており、成熟には想定以上の時間を要しているという。</p>
-<h2>RAGの幻滅期への移行</h2>
-<p>注目すべきは、多くの企業が取り組んでいるRAG（検索拡張生成）が幻滅期に入ったことだ。RAGの精度向上に苦心している企業が多く、この状況が続くと生成AI全体の期待度の低下につながる可能性があるとGartnerは警告している。</p>
-<h2>Gartnerアナリストの見解</h2>
-<p>GartnerのディスティングイッシュトVPアナリストである亦賀忠明氏は、以下のように述べている。
-「企業は、クラウドを、既存システムのマイグレーション先としてのみならず、新たなビジネス・サービスの基盤、さらにはAIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があります」</p>
-<p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
-      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
-<h2>ベータを経て正式版へ</h2>
-<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
-<h2>利用プラン</h2>
-<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
-<h2>プライバシーと安全性</h2>
-<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
-<h2>今後の展望</h2>
-<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
-      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
-      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
-<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
-<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
-<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
-<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
-<ul>
-<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
-<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
-</ul>
-<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
-<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
-<h2>復活要求の割合と推計</h2>
-<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
-<ul>
-<li>#keep4o投稿の45.5％が復活を求める内容</li>
-<li>「4o」言及投稿の19.7％が復活を求める内容
-「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
-</ul>
-<p><strong>復活を求める声の割合</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
-<h2>日別推移から見える傾向</h2>
-<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
-<p><strong>各ワードの日ごとの言及数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
-<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
-<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
-<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
-<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
-<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、最新AI基盤モデル『GPT-5』を発表 — 誤差性能を大幅向上させ、既存製品ラインを統合した成熟の新エンジン、無料ユーザーを含む全ユーザーに提供開始</title>
-      <link>https://ledge.ai/articles/gpt5_launch_all_users</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日（現地時間）、最新の生成AIモデル「GPT-5」を<a href="https://openai.com/index/introducing-gpt-5/">発表</a>した。</p>
-<p>推論能力・速度・応答品質を向上させた統合型エンジンで、ChatGPTでは無料ユーザーを含む全ユーザーが利用可能となる。発表は同社本社からのライブ配信で行われ、CEOサム・アルトマン氏が「私たちがこれまでに作った中で最も知的で、最も使いやすいAIだ」と述べ、教育や創作支援、ビジネス利用など幅広い活用を呼びかけた。</p>
-<h2>GPT-5の概要と提供範囲</h2>
-<p>GPT-5は、推論特化の「Thinking」、高速応答の「Fast」、リアルタイム会話の「Realtime」という3つのモデルを統合した新アーキテクチャを採用。利用状況やタスク内容に応じて最適なモデルを自動的に切り替える。</p>
-<p>ChatGPTでは無料・有料すべての利用者に提供され、従来必要だったモデル選択が不要になった。開発者向けには、API経由でStandard／Mini／Nanoの3サイズが提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt_5_mano_mini_c973a3ace2/gpt_5_mano_mini_c973a3ace2.jpg" alt="gpt-5 mano mini.jpg" /></p>
-<h2>技術的特徴と性能向上</h2>
-<p>GPT-5は「Ph.D.級」の推論能力を備え、従来モデルと比べて知性・速度・信頼性のすべてを向上。コーディング分野ではSWE-Benchベンチマークで74.9%のスコアを記録し、前世代（o3）の69.1%を上回ったという。
-トークン効率の改善や、コード内のバグ検出精度の向上も報告されている。UIデザインや文章生成の品質も向上し、専門領域から日常利用まで幅広いニーズに対応する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/coding_chart_4_side_ba38108ba3/coding_chart_4_side_ba38108ba3.jpg" alt="coding chart (4)-side.jpg" /></p>
-<h2>ライブ配信での発表とデモ</h2>
-<p>発表イベントでは、CEOのアルトマン氏が次のように語った。
-「GPT-5は、あなたが知っている最も賢い人物を超える知性を持ち、その力をポケットの中に届けます。これからの時代、この技術はあらゆる人の生活と仕事の一部になるでしょう。」
-開発チームは、教育分野での個別学習支援、創作活動のアイデア生成、ビジネスにおける資料作成や分析などのデモを披露。無料ユーザー解放の方針や、誤情報削減・応答検証などの安全性向上策についても説明した。</p>
-<h2>開発者向け提供</h2>
-<p>APIでは、処理速度やコストのバランスを選べる3サイズを用意。トークン数やツール呼び出し回数を削減する効率化も実現している。
-ソフトウェア開発支援ツールを提供するCursor社のCEOは、「隠れたバグを見抜く能力は、我々が見た中で最も優れている」と評価している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_cursor_d4299f865f/gpt5_cursor_d4299f865f.jpg" alt="gpt5 cursor.jpg" /></p>
-<h2>今後の展望</h2>
-<p>GPT-5は、Microsoft Copilotなどのパートナー製品にも順次展開される予定。OpenAIはモデル統合によるユーザー体験の簡略化を今後も進め、安全かつ信頼性の高いAIの普及を目指すとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=0Uu_VJeVVfo">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>三菱UFJ銀行、200超の業務スキルを持つ自律型AIエージェント導入──Salesforce 「Agentforce for Financial Services」 日本初採用</title>
-      <link>https://ledge.ai/articles/mufg_salesforce_ai_agentforce_launch</link>
-      <description><![CDATA[<p>三菱UFJ銀行は8月1日、金融業界向けに特化した自律型AIエージェント「Agentforce for Financial Services」を導入すると<a href="https://www.salesforce.com/jp/news/press-releases/2025/08/01/mufg-customer-news-2/">発表</a>した。</p>
-<p>提供元はセールスフォース・ジャパンで、同製品の日本国内における初の採用事例となる。同銀行は、CRM基盤である「Financial Services Cloud（FSC）」上にAIを組み込み、面談前後の情報提示や業務フォローアップを自動化することで、営業支援と顧客体験の質を向上させる狙いだ。</p>
-<h2>金融機関向けに事前学習済みのAIエージェント</h2>
-<p>「Agentforce for Financial Services」は、金融業務に特化して設計されたAIエージェントで、あらかじめ200種類を超える営業支援スキルを搭載している。面談の準備段階では顧客ごとのニーズや関心に関するインサイトを提示し、面談中には質問への応答や関連情報の提供、面談後には自動でタスクを生成・管理するなど、営業プロセス全体を自律的に支援する機能を持つ。</p>
-<h2>SalesforceとMUFG、FSCを基盤に連携深化</h2>
-<p>三菱UFJ銀行は2025年4月から、セールスフォースの金融特化型CRMである「Financial Services Cloud」を営業現場に導入しており、営業担当者が顧客情報を即時に把握できる体制を構築してきた。今回のAIエージェント導入は、その次のステップとして、FSCに蓄積された過去の営業履歴や顧客データを即座に活用できるAI基盤の整備を意味する。</p>
-<h2>営業現場の業務をAIが代替、提案の質とスピードを両立</h2>
-<p>Agentforceによって営業担当者は、より付加価値の高い活動に集中できるようになる。AIが面談準備からフォローアップまでの一連の業務を補完・代替することで、業務負荷を軽減すると同時に、提案の質とスピードを向上させることが可能となる。</p>
-<h2>導入企業・提供企業のコメント</h2>
-<p>三菱UFJ銀行の武井優・上席調査役は、「今回のAgentforce導入を通じて、営業支援と顧客体験の質が大きく向上すると期待している」とコメントしている。また、セールスフォース・ジャパンの田村英則・専務執行役員は、「金融業界で即時に活用可能なデジタル労働力として、Agentforceを提供し続ける」と述べている。</p>
-<h2>今後の展開</h2>
-<p>三菱UFJ銀行は今後、AIエージェントの適用領域を段階的に拡大し、FSCを基盤とした営業支援インフラの整備をさらに進める方針だ。一方、セールスフォースは専門チームによる導入支援とともに、他の金融機関への横展開を視野に、Agentforceの国内展開を強化していくとしている。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
-      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
-      <description><![CDATA[<p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https://arxiv.org/abs/2506.21521">発表</a>した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
-<p>18世紀ロシアの「ポチョムキン村」は、皇帝の視察用に急造された見せかけの村落を指し、「中身のない外観」の象徴とされる。研究者らは、LLMにも同様の「わかったふり」があるとし、この概念をポチョムキン理解と表現している。</p>
-<h2>ポチョムキン理解の定義と背景</h2>
-<p>研究チームは、LLMが人間向けに設計されたベンチマークの「キーストーン質問」には正しく答えられるものの、その後の具体的応用タスクでは誤る状態を指摘した。これは、人間なら正答＝理解と認められる最小限の問いに合格しても、LLMが本質的に異なる誤解を抱いている可能性を示している。</p>
-<p><strong>キーストーン集合に正答しても本質的に誤った解釈を残すポチョムキン理解のイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_schematic_representation_of_keystones_and_potemkins_e47033e684/A_schematic_representation_of_keystones_and_potemkins_e47033e684.png" alt="A schematic representation of keystones and potemkins.png" /></p>
-<h2>検証の概要</h2>
-<p>検証では、</p>
-<ul>
-<li>文学技法（俳句やアナロジーなど12種類）</li>
-<li>ゲーム理論（ナッシュ均衡など9種類）</li>
-<li>心理的バイアス（サンクコストの誤謬など11種類）
-の合計32概念について、</li>
-<li>定義</li>
-<li>分類</li>
-<li>生成</li>
-<li>編集
-の4つのタスクで7種類のモデル（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash など）を評価した。</li>
-</ul>
-<h2>主な結果</h2>
-<p>定義タスクではおおむね94%の正答率を記録したが、その後の応用タスクでは</p>
-<ul>
-<li>分類で55%</li>
-<li>生成で40%</li>
-<li>編集で40%
-の失敗率（potemkin rate）が確認された。これは、定義だけでは概念理解の深度を測れない可能性を示唆している。</li>
-</ul>
-<h3>具体例：韻律パターンの応用失敗</h3>
-<p>代表的な例として挙げられるのが韻律スキームの問題だ。GPT-4oに「ABAB韻律とは何か」を問うと、下図のように正確に定義を説明した。しかしいざ詩の穴埋め問題でABAB韻律を適用させると、正しく韻を踏めず、自分でもその失敗を認める回答を出した。人間ならまず起こり得ない不可解な挙動である。</p>
-<p><strong>GPT-4oはABABの定義を正しく述べながら、応用で失敗する「ポチョムキン理解」の典型例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potemkin_Understanding_in_llm_5dae4e573b/Potemkin_Understanding_in_llm_5dae4e573b.png" alt="Potemkin Understanding in llm.png" /></p>
-<h2>多分野で発生する“わかったふり”</h2>
-<p>研究チームはさらに、幾何学の基本定理、家族関係の概念、俳句の構造など幅広い領域で同様のポチョムキン理解を確認している。</p>
-<p><strong>概念の定義には成功する一方で応用に失敗する複数の事例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_potemkins_f6c5140e2d/Examples_of_potemkins_f6c5140e2d.jpg" alt="Examples of potemkins.jpg" /></p>
-<h2>自己評価による一貫性検証</h2>
-<p>さらに著者らは、自動評価の一環として「モデル自身に、自分が生成した回答を再評価させる」という仕組みを試みた。
-例えば「スラントライムの例を作れ」と指示し、その後「今作った例はスラントライムか？」と再度モデルに問うと、矛盾した回答が返るパターンが確認され、モデル内部の知識表現が不整合である可能性を示しているとした。</p>
-<p><strong>生成と再判定の整合性を確かめる自動評価プロセスのイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72.png" alt="Illustration of the method for evaluating incoherence in models.png" /></p>
-<h2>社会的影響と課題</h2>
-<p>論文では、ハルシネーション（事実誤認）とは異なり、ポチョムキン理解は概念構造の誤りであるため、人間にも検出が難しいと指摘する。
-法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
-<p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
-      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
-      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
-<h2>自動運転の中核を担う計画だった「Dojo」</h2>
-<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
-<h2>人員の移籍と再配置</h2>
-<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
-<h2>戦略転換とチップ開発の集中</h2>
-<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
-<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
-<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
-<h2>外部パートナーとの連携強化</h2>
-<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
-<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>家電価格のロボ誕生　Unitree R1、87万円で歩く・走る・側転する25 kgヒューマノイド</title>
-      <link>https://ledge.ai/articles/unitree_r1_5900usd_humanoid_robot</link>
-      <description><![CDATA[<p>中国のロボット開発企業Unitree Roboticsは2025年7月25日、新型ヒューマノイド「Unitree R1」を<a href="https://www.unitree.com/R1">発表</a>した。価格は5,900ドル（約87万円）とされ、一般的な家庭用家電並みの価格帯に設定されている。</p>
-<p>製品は全高1.21メートル、重量25キログラムの軽量ボディに26個のアクチュエーターを備え、歩行や走行、さらには側転やハンドスプリングといった高難度の動作を実現する。発表は上海で行われ、現在は主に研究機関や教育機関向けに出荷が計画されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=v1Q4Su54iho">YouTube</a></p>
-<h2>5,900ドルの価格戦略と市場への位置づけ</h2>
-<p>R1はヒューマノイドロボットとしては異例の低価格帯となる5,900ドル（中国国内価格は39,900元）から販売される。比較対象として、Unitree自身が開発するより上位モデル「G1」は約1万6,000ドル、また他社製のBoston Dynamics「Atlas」やTesla「Optimus」といった機種は数万ドルから数十万ドルに達するとされる。R1はこれらと比べて大幅に価格を抑えており、「普及型ヒューマノイド」のカテゴリに位置付けられる。</p>
-<h2>軽量設計と26軸モーションによる高い機動性</h2>
-<p>R1の本体はアルミニウム合金や複合素材を用いた軽量構造で、バッテリー込みで約25キログラムに抑えられている。各部位には以下のようなアクチュエーター（自由度）が割り当てられている。</p>
-<ul>
-<li>両腕に計10自由度（5自由度×2）</li>
-<li>両脚に計12自由度（6自由度×2）</li>
-<li>腰部に2自由度</li>
-<li>EDU版では頭部に追加の2自由度</li>
-</ul>
-<p>これにより、R1は人間に近い複雑な動作が可能となり、発表時のデモンストレーションでは、歩行・小走り・回転・ジャンプ・側転などを披露した。また、映像内ではパンチやキックなどの模擬動作も確認されており、用途の幅広さがうかがえる。</p>
-<h2>センサー・通信・駆動性能</h2>
-<p>R1には以下のようなセンサーおよび機能が搭載されている。</p>
-<ul>
-<li>ステレオ深度カメラ</li>
-<li>4マイクアレイによる音声入力</li>
-<li>スピーカー搭載による音声出力</li>
-<li>通信機能：Wi-FiおよびBluetooth 5.2</li>
-<li>バッテリー駆動時間：約1時間（稼働環境に依存）</li>
-</ul>
-<p>制御用CPUは標準版で8コアの一般プロセッサが搭載され、上位のEDU版ではJetson OrinベースのAIモジュール（推論性能40～100 TOPS）を採用している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4905f964d28c4e9cba75f2e1cf9591ba_1920x2370_df7d15caf0/4905f964d28c4e9cba75f2e1cf9591ba_1920x2370_df7d15caf0.jpg" alt="4905f964d28c4e9cba75f2e1cf9591ba_1920x2370.jpg" /></p>
-<h2>教育・研究向けのEDUモデルも展開</h2>
-<p>同社はR1の教育用途向けバージョン「EDU版」も同時に発表している。EDU版は以下の機能拡張を含む。</p>
-<ul>
-<li>AI推論性能を強化したJetson Orin搭載</li>
-<li>頭部の2軸モーター追加</li>
-<li>デクスターズハンド（多関節ハンド）オプション</li>
-<li>保証期間は標準版8カ月に対し、EDU版は12カ月</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0705e5d2e5fd49989ca513716c9f50d3_1920x1606_28f4382138/0705e5d2e5fd49989ca513716c9f50d3_1920x1606_28f4382138.jpg" alt="0705e5d2e5fd49989ca513716c9f50d3_1920x1606.jpg" /></p>
-<p>研究開発やロボットコンテスト等での利用が想定されており、実装の自由度や拡張性を重視した設計が特徴となっている。</p>
-<h2>上位機種との関係と市場戦略</h2>
-<p>Unitreeはすでにヒューマノイドロボット「G1」や大型モデル「H1」を展開しているが、R1はその下位に位置するエントリーモデルと見られている。これまで高額な製品が主流だったヒューマノイド市場に対し、R1は価格の障壁を取り払い、新たな顧客層（教育機関、個人開発者、小規模研究機関など）への訴求を狙う。</p>
-<h2>今後の展開と業界への影響</h2>
-<p>公式発表では量産時期や出荷スケジュールの詳細は明かされていないが、R1は今後の展示会や開発者向けイベントでの出展が予想されている。家庭用製品並みの価格帯と高度な運動性能を併せ持つR1の登場は、ヒューマノイドロボットの導入障壁を下げ、教育・研究・開発領域における普及を後押しする可能性がある。</p>
-]]></description>
-      <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>読売新聞、AI検索Perplexityを提訴──「約12万本無断利用」で21.7億円賠償請求、東京地裁に訴え</title>
-      <link>https://ledge.ai/articles/yomiuri_sues_perplexity_2025</link>
-      <description><![CDATA[<p>2025年8月7日、読売新聞の東京本社、大阪本社、西部本社の3社は、米国発のAI検索サービス「Perplexity（パープレキシティ）」を東京地方裁判所に提訴したことを<a href="https://www.yomiuri.co.jp/national/20250807-OYT1T50151/">発表</a>した。記事や画像を無断で取得・要約して提供し、著作権を侵害したとして、サービスの利用差止めと約21億6,800万円の損害賠償を求めている。</p>
-<p>原告側によると、2025年2月から6月までの間に、読売新聞オンライン上の記事11万9,467件が無断で取得・複製されたと主張している。権利侵害の対象は著作権法上の複製権と公衆送信権であり、要約表示によって読者が出典サイトを訪れない「ゼロクリック」が発生し、閲覧機会や広告収入に影響が出たという。</p>
-<p>Perplexityは、検索機能と生成AIを組み合わせ、インターネット上の情報を要約テキストや画像で提示するサービスである。入力された質問に対し、複数のウェブ情報を組み合わせた応答を返す特徴を持つ。</p>
-<p>今回の提訴は、国内大手メディアによるAI企業への訴訟として初めてのケースとされる。読売側は「無断利用は正確な報道に負の影響を与え、民主主義の基盤を揺るがしかねない」として、法的措置の必要性を強調している。</p>
-<p>Perplexityは読売新聞オンライン（8月8日付）に寄せたコメントで、「日本で誤解を生じさせたことについて大変遺憾に思っている」と述べた。さらに「主張の本質を把握するため全力で取り組んでいる」とし、「AIの時代に発行者とジャーナリストが新たなビジネスモデルから恩恵を得られるよう注力しており、本件を非常に真剣に受け止めている」と強調した。</p>
-<p>海外では、報道機関とAI企業の間で著作権や情報利用を巡る争いが拡大しており、2025年6月には英国BBCがAI企業に対する法的措置の検討を明らかにしている。今回の訴訟でも、差止めの範囲や要約の適法性、損害の立証方法などが主要な争点となる見通しである。</p>
+      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
+      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
+      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
+<h2>新手法の概要</h2>
+<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
+<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
+<h2>実験結果</h2>
+<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
+<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
+<h2>意義と応用可能性</h2>
+<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
+<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
 ]]></description>
       <pubDate>Tue, 12 Aug 2025 23:50:00 GMT</pubDate>
     </item>
