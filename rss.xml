@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、自己教師あり学習の最新モデル「DINOv3」発表──ラベルなし17億枚画像で訓練、従来モデルを超える性能</title>
+      <link>https://ledge.ai/articles/eta_dinov3_self_supervised_vision_model</link>
+      <description><![CDATA[<p>Metaは2025年8月14日、自社AI研究チームが開発した新しいコンピュータビジョンモデル「DINOv3」を<a href="https://ai.meta.com/blog/dinov3-self-supervised-vision-model/">発表</a>した。このモデルは、膨大なラベルなし画像を用いた自己教師あり学習（self-supervised learning, SSL）によって訓練され、多様な視覚タスクで既存の専門モデルを超える性能を示している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=-eOYWK6m3i8">YouTube</a></p>
+<h2>大規模データとモデル構造</h2>
+<p>DINOv3は約16.9億枚の画像データセット「LVD-1689M」で学習された。最大モデルはVision Transformer（ViT）ベースで70億パラメータ規模に達し、小型から大型まで複数のバリエーションが提供されている。</p>
+<p><strong>■ DINOv3の特徴：</strong>  (a) 教師あり学習（SL）や弱教師あり学習（WSL）と比べた精度の推移、(b) 既存手法に対する深度推定・追跡・セグメンテーションでの性能向上率、(c)(d) DINOv3による特徴表現の可視化例
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Evolution_of_linear_probing_results_02dacc9850/Evolution_of_linear_probing_results_02dacc9850.jpg" alt="Evolution of linear probing results .jpg" /></p>
+<h2>ベンチマークの結果</h2>
+<p>具体的なベンチマークでは、画像分類だけでなく深度推定やセグメンテーションでも他手法を上回っている。特に、従来のDINOv2やMAEを含む自己教師ありモデルだけでなく、教師ありの大型モデルに対しても優位性を示した。</p>
+<p><strong>■ DINOv3の各種ベンチマーク比較：</strong> セグメンテーション（ADE-20k）、深度推定（NYU）、動画追跡（DAVIS）など幅広いタスクで既存モデルを上回る性能を示した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DIN_Ov3_bench_569cfe7139/DIN_Ov3_bench_569cfe7139.jpg" alt="DINOv3 bench.jpg" /></p>
+<h2>公開と利活用</h2>
+<p>学習済みモデルはHugging FaceやGitHubで公開されており、衛星画像を用いて学習したバージョンも含まれる。商用利用も可能で、画像検索、ロボティクス、地理空間解析など幅広い分野での応用が期待される。</p>
+<h2>今後の展望</h2>
+<p>Metaは、DINOv3によってラベル不要の大規模学習の有効性を改めて証明した。今後は自己教師あり学習が、産業や研究におけるコンピュータビジョン技術の新たな基盤として拡大していく見込みだ。</p>
+<p>研究チームは、DINOv3が、人手の監督に依存せずに汎用的な視覚表現を構築するための重要な前進であり、科学・産業の幅広い領域で新たな応用機会を開く、と結んでいる。</p>
+]]></description>
+      <pubDate>Tue, 19 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>アフリカでAI人材3万人を育成──東大・松尾研、政府と連携し製造業・農業DXを後押し</title>
       <link>https://ledge.ai/articles/africa_ai_talent_training_by_utokyo_matsuo_lab</link>
       <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2025年8月18日、これまで国内で進めてきたAI教育をさらに発展させ、政府と連携してアフリカでAI人材を育成する取り組みを開始すると<a href="https://weblab.t.u-tokyo.ac.jp/news/20250818/">発表</a>した。取り組みは製造業や農業のDXを後押しすることを狙いとし、3年間で延べ3万人の育成を目標に据える。
