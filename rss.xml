@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
+      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
+      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
+<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
+<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
+<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
+<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
+<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
+<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
+<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
+<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
+<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
+<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
+<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
+]]></description>
+      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ソフトバンク・三菱ケミカル・慶應義塾大学・JSR、量子コンピューターで32量子ビット級のエネルギーギャップ計算に成功──新手法「TQPDE」がPNASに掲載</title>
       <link>https://ledge.ai/articles/quantum_computer_energy_gap_pnas</link>
       <description><![CDATA[<p>ソフトバンク、三菱ケミカル株式会社、慶應義塾大学、およびJSR株式会社は2025年7月31日、慶應義塾大学内のIBM Q Network Hubにおいて、量子コンピューターを用いた大規模なエネルギーギャップ計算手法を開発し、その成果が米国科学アカデミー紀要（PNAS）に掲載されたと<a href="https://www.keio.ac.jp/ja/press-releases/2025/7/31/28-168654/">発表</a>した。</p>
@@ -628,17 +646,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>Traffic-R1は<a href="https://huggingface.co/Season998/Traffic-R1">Hugging Face</a>で公開されており、エッジ環境での大規模展開を想定。研究チームは今後、他都市や公共交通・歩行者制御との統合、スマートシティ計画への応用を見込んでいる。</p>
 ]]></description>
       <pubDate>Fri, 15 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンク、オハイオ州でFoxconnの元EV工場取得の模様　大規模AIインフラ計画「Stargate」構想へ活用か——米紙報道</title>
-      <link>https://ledge.ai/articles/softbank_ohio_ev_plant_stargate_ai_infrastructure_bloomberg_report</link>
-      <description><![CDATA[<p>ソフトバンクグループ（SBG）が米オハイオ州にある電気自動車（EV）工場の所有権を取得したと、2025年8月8日に<a href="https://www.bloomberg.co.jp/news/articles/2025-08-08/T0O6NWGOT0JM00">米Bloomberg</a>が報じた。取得先は台湾・鴻海（ホンハイ）精密工業（Foxconn）傘下の事業体で、売却額は約3億7500万ドル（約590億円）とされる。</p>
-<p>関係者によれば、この動きは、SBGが米オラクルや米オープンAIなどと進める大規模AIインフラ計画「Stargate」構想の一環とみられる。Stargateは総投資額5000億ドル規模のデータセンタープロジェクトで、米テキサス州アビリーンでの拠点建設が進むほか、オハイオ州も有力候補地とされてきた。</p>
-<p>Foxconnはかつて米EVメーカー、ローズタウン・モーターズの工場だった同施設を2022年に取得し、電動ピックアップなどの組み立てを行っていた。ブルームバーグによると、売却先として表向きには「Crescent Dune LLC」という企業名が公表されていたが、その背後にSBGがあるという。</p>
-<p><a href="https://www.reuters.com/business/media-telecom/softbank-buys-foxconns-ohio-plant-advance-stargate-ai-push-bloomberg-news-2025-08-08">ロイター通信</a>によると、現時点でソフトバンクとFoxconnの双方はコメントを控えており、施設の今後の用途や改修計画は明らかになっていないという。しかし、データセンター用途への転用やAIサーバーの設置など、Stargate計画に直結する可能性が指摘されている。</p>
-<p>SBGのCFOである後藤芳光氏は、7日の決算時に、Stargate構想の拠点選定や調整に時間がかかっており、計画は当初の想定より遅れていると説明。今回の取得は、構想加速のための重要な一歩になるとみられる。</p>
-]]></description>
-      <pubDate>Thu, 14 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
