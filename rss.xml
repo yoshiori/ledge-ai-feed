@@ -101,24 +101,6 @@
       <pubDate>Wed, 20 Aug 2025 23:50:01 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
-      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
-      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
-<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
-<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
-<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
-<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
-<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
-<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
-<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
-<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
-<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
-<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
-<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ソフトバンク・三菱ケミカル・慶應義塾大学・JSR、量子コンピューターで32量子ビット級のエネルギーギャップ計算に成功──新手法「TQPDE」がPNASに掲載</title>
       <link>https://ledge.ai/articles/quantum_computer_energy_gap_pnas</link>
       <description><![CDATA[<p>ソフトバンク、三菱ケミカル株式会社、慶應義塾大学、およびJSR株式会社は2025年7月31日、慶應義塾大学内のIBM Q Network Hubにおいて、量子コンピューターを用いた大規模なエネルギーギャップ計算手法を開発し、その成果が米国科学アカデミー紀要（PNAS）に掲載されたと<a href="https://www.keio.ac.jp/ja/press-releases/2025/7/31/28-168654/">発表</a>した。</p>
@@ -269,120 +251,6 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 19 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
-      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
-      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
-<h2>自動運転の中核を担う計画だった「Dojo」</h2>
-<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
-<h2>人員の移籍と再配置</h2>
-<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
-<h2>戦略転換とチップ開発の集中</h2>
-<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
-<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
-<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
-<h2>外部パートナーとの連携強化</h2>
-<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
-<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
-]]></description>
-      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/8/18 [MON]NVIDIA、エンタープライズAIとフィジカルAIに新モデル──「Nemotron」と「Cosmos Reason」を発表</title>
-      <link>https://ledge.ai/articles/nvidia_nemotron_cosmos_reason</link>
-      <description><![CDATA[<p>NVIDIAは2025年8月11日、エンタープライズAIエージェント向けの「Nemotron」シリーズと、ロボティクスや自動運転などの物理AI領域に対応する「Cosmos Reason」を<a href="https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai/">発表</a>した。企業システムから現実世界で動作するロボットまで、“推論能力を持つAI”の基盤整備を狙うという。</p>
-<h2>Nemotron──エンタープライズAIエージェント向け</h2>
-<p>Nemotronは大規模言語モデル（LLM）として開発され、エージェント型AIの構築に特化している。高度な推論能力を持ち、コーディングやデータ分析、さらには視覚情報を用いた推論にも対応することができる。また、オープンで拡張性のある設計が採用されており、企業は独自のデータを使って安全にカスタマイズできる点も特徴だ。提供形態としてはAPIや「NVIDIA AI Enterprise」を通じて利用可能で、業務自動化やセキュリティ強化、対話エージェントの開発など、幅広い用途での活用が見込まれている。</p>
-<p><strong>NVIDIA Nemotron Super v1.5は、他の大規模モデルと比べて高い精度をより低い推論コストで実現している」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemotron_chart_1280x874_daebac66c2/nemotron_chart_1280x874_daebac66c2.png" alt="nemotron-chart-1280x874.png" /></p>
-<h2>Cosmos Reason──物理AI・ロボティクス向け</h2>
-<p>Cosmos Reasonは、7Bパラメータを備えた視覚言語モデル（VLM）である。力学や空間・時間の理解といった物理世界の常識を踏まえながら複雑な状況を推論することが可能で、現実世界で動作するAIの知能を補強する役割を担う。特にロボットや自動運転車の領域では、自律的な判断や行動計画を実現するための基盤モデルとして設計されている点が大きな強みとなる。</p>
-<h2>NVIDIAの戦略的意義</h2>
-<p>Nemotronは企業領域において、業務効率化やセキュリティ強化を支援する一方、Cosmos Reasonは産業オートメーションや自動運転といったフィジカルAIの分野で中核的な技術を提供する。NVIDIAはこれまで強みとしてきたGPUに加えて、AIモデルやプラットフォームを統合的に提供する体制を整えることで、AI市場における存在感を一層高めようとしている。</p>
-<h2>今後の展望</h2>
-<p>NVIDIAは「AIが自律的に考え、現実世界でも行動できる」ための基盤技術整備を推進している。今後は企業や研究者による導入事例がさらに増加すると見込まれており、エージェントAIとフィジカルAIという両輪によってAI活用が加速していくと予想される。</p>
-]]></description>
-      <pubDate>Mon, 18 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIに続き、AnthropicがGSA（米国一般調達局）と契約──米連邦三権に「Claude」を年間1ドル、1年間の限定プラン</title>
-      <link>https://ledge.ai/articles/anthropic_government_claude_1dollar</link>
-      <description><![CDATA[<p>Anthropicは8月12日（現地時間）、同社の大規模言語モデル「Claude」を活用するサービス「Claude for Enterprise」と「Claude for Government」を、米連邦政府の立法府・行政府・司法府に所属するすべての機関に対し、年間わずか1ドルで提供すると<a href="https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government">発表</a>した。契約は<a href="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025">米国一般調達局（GSA）</a>の「OneGov」枠組みを通じて実施される。</p>
-<h2>提供の内容</h2>
-<p>「Claude for Enterprise」は民間利用を想定した汎用版、「Claude for Government」は政府専用に設計されたバージョンで、連邦政府の厳格なセキュリティ基準「FedRAMP High」に準拠している。これにより、機密性の高い非分類情報を安全に取り扱うことが可能となる。提供期間は1年間で、Anthropicは各機関への技術サポートも行う。</p>
-<h2>発表の背景</h2>
-<p>今回の動きは、直前にOpenAIが「ChatGPT Enterprise」を米連邦行政機関に1ドルで提供すると発表したことを受けたもので、主要AI企業間での政府市場獲得競争が本格化している。GSAは「AI Action Plan」に基づき、政府全体でのAI活用を推進しており、Anthropicはこの取り組みに沿って導入障壁を下げる狙いを示した。</p>
-<h2>導入事例</h2>
-<p>既にエネルギー省（DOE）やワシントンD.C.保健局など複数の機関がClaudeを試験導入し、科学研究や住民サービスの効率化に活用している。今回の契約拡大により、他の連邦機関にも広範に利用が広がるとみられる。</p>
-<h2>今後の展望</h2>
-<p>Anthropicによる「年間1ドル」提供は、公共部門におけるAI普及を一気に加速させる試みである。同時に、OpenAIやxAIなどライバル企業との競争を象徴する施策でもある。AIの政府利用は行政効率化や政策立案の高度化を後押しする一方で、特定企業への依存や規制対応といった課題も残されており、今後の展開に注目が集まる。</p>
-]]></description>
-      <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
-      <link>https://ledge.ai/articles/asi_arch_ai_self_design_1773_experiments_106_architectures</link>
-      <description><![CDATA[<p>上海交通大学やSII（Shanghai Institute for Intelligence）などの研究チームは2025年7月24日、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発したと<a href="https://arxiv.org/abs/2507.18074">発表</a>した。</p>
-<p>従来のNeural Architecture Search（NAS）が人間の定義した探索空間に依存していたのに対し、ASI-ARCHは仮説生成からコード実装、学習、評価、結果分析までをAI自身が完結させるのが特徴だ。</p>
-<h2>AIが「設計者」となる仕組み</h2>
-<p>ASI-ARCHは、3つの役割を持つエージェントが協調して動作する。Researcherは新しいアーキテクチャの仮説を立案し、Engineerがコード実装と学習を行い、Analystが結果を分析して次の仮説にフィードバックする。さらに外部知識を参照する「Cognition」モジュールが、この循環を強化する。</p>
-<p><strong>■ ASI-ARCHの全体構成</strong> ：Researcher→Engineer→Analystが閉ループで連携し、Cognitionの知識を取り込みながら次の設計へと進化する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ASI_Arch_figure4_overview_9897ace823/ASI_Arch_figure4_overview_9897ace823.jpg" alt="ASI-Arch figure4 overview.jpg" /></p>
-<h2>1,773回の実験から生まれた成果</h2>
-<p>研究チームはASI-ARCHを用い、計20,000 GPU時間に相当する1,773回の自律実験を実施。その結果、DeltaNetやMamba2など既存モデルを上回る性能を持つ、106件の線形アテンション（linear attention）アーキテクチャを発見した。</p>
-<p>探索は行き当たりばったりではなく、指標に沿って着実に改善した。候補上位群の性能は上昇し、損失は低下。総合スコアは初期に急伸し、その後も安定的に推移した。106件のSOTAアーキテクチャはゲーティング機構や畳み込みといった有効な要素に収束しており、単なる偶然や奇抜な設計ではなかった。</p>
-<p>探索されたモデルは多くが400～600Mパラメータの規模に集中し、後半でも過度な巨大化は見られなかった。性能改善は「規模依存」ではなく、設計の工夫によることが示された。</p>
-<h2>科学的発見のスケーリング則</h2>
-<p>さらに研究チームは、計算資源の増加に比例して発見されるSOTA数が直線的に伸びることを確認。「科学的発見もスケールする」という新たなスケーリング則を初めて実証した。</p>
-<p><strong>■ 科学的発見のスケーリング則</strong> ：計算時間に対し、発見されたSOTAアーキテクチャの累積数が線形に伸びることを示した図。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_cumulative_count_a5719e0349/The_cumulative_count_a5719e0349.jpg" alt="The cumulative count.jpg" /></p>
-<p>ASI-ARCHは、発見したアーキテクチャや探索過程の「認知トレース」を含む全フレームワークを公開している。研究チームは「人間の認知に依存しない研究加速の可能性」を示し、今後さらに大規模な探索による新発見が期待されるとしている。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏、アップルを反トラスト違反で訴える構え—App StoreでX/Grokを意図的に排除？アルトマン氏と舌戦</title>
-      <link>https://ledge.ai/articles/musk_accuses_apple_appstore_bias</link>
-      <description><![CDATA[<p>ⅹAIのCEOであるイーロン・マスク氏は2025年8月12日（現地時間）、AppleがApp Storeのランキングを操作し、自社のXアプリや生成AI「Grok」が上位に表示されないようにしていると非難し、独占禁止法違反で訴訟を検討していると<a href="https://x.com/elonmusk/status/1955073616996975095">明らかにした。</a>した。Appleはこれを否定し、「公平でバイアスのない運営」を行っていると反論。さらに、OpenAI CEOのサム・アルトマン氏との間でランキング操作をめぐる応酬も展開された。</p>
-<h2>マスク氏の主張</h2>
-<p>マスク氏はXで、「AppleはApp Storeのランキングを操作し、XやGrokがトップに来ないようにしている」と投稿し、「これは反トラスト法違反であり、即座に訴訟を起こす」と明言。さらに、「もし自分がApp Storeを運営していたら、競合アプリも含め公平に扱う」と述べ、Appleの対応を批判した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03.jpg" alt="that makes it impossible for any AI company besides OpenAI.jpg" /></p>
-<h2>Appleの反論</h2>
-<p>AppleはAP通信などへの<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">声明</a>で「App Storeは公平かつバイアスのない設計で、数千のアプリをチャートやアルゴリズム、専門家の推薦で扱っている」と説明し、マスク氏の主張を否定した。</p>
-<h2>業界内の応酬</h2>
-<p>OpenAI CEOのサム・アルトマン氏はXで、「マスク氏はXのランキングを自分に有利に操作しているのではないか」と投稿した。これに対しマスク氏は、「Xのランキングはオープンかつ透明で、誰でも検証できる。App Storeの不透明なランキングとは違う」と再反論した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/remarkable_claim_sama_23ea35539d/remarkable_claim_sama_23ea35539d.jpg" alt="remarkable claim sama.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/You_got_3_M_views_elon_01c995014a/You_got_3_M_views_elon_01c995014a.jpg" alt="You got 3M views elon.jpg" /></p>
-<p>この騒動は、Appleがこれまで直面してきた<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">独占禁止法関連の動き</a>とも重なる。EUは同社に対して5億ユーロの罰金を科し、米司法省も訴訟を提起。さらにEpic Gamesとの係争など、App Storeの運営をめぐる規制圧力は高まっている。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2025/8/16 [SAT]英国「国家的な水不足」へ対応──データセンターの冷却水に配慮し、メール・写真の“データ断捨離”を呼びかけ</title>
-      <link>https://ledge.ai/articles/uk_drought_ndg_data_center_water_email_deletion</link>
-      <description><![CDATA[<p>イギリス環境庁が主導する国家干ばつ対策グループ（National Drought Group）は2025年8月12日、国内で「国家的に重大」とされる水不足に対応するため、全国的な<a href="https://www.gov.uk/government/news/national-drought-group-meets-to-address-nationally-significant-water-shortfall">節水を呼びかけた</a>。公表された節水方法には、古いメールや写真の削除といった“データ断捨離”も含まれ、背景には生成AIなどの利用拡大で稼働が増えるデータセンターの冷却水消費がある。</p>
-<h2>国家干ばつ対策グループが節水策を発表</h2>
-<p>国家干ばつ対策グループは、環境庁の主導で水道事業者、農業団体、政府機関などが参加する組織。会合では、短時間のシャワー利用や漏水修理、庭の水やり削減など、直接的な節水行動を中心に呼びかけた。</p>
-<p>節水策の最後には「古いメールや写真の削除」が挙げられ、「データセンターはシステム冷却に大量の水を必要とするため」と理由が明記された。これは他の項目とは異なり、デジタル活動と水資源の関係を直接示すものとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_to_save_water_at_home_1a2978a322/how_to_save_water_at_home_1a2978a322.jpg" alt="how to save water at home.jpg" /></p>
-<p>生成AIやクラウドサービスの利用拡大により、世界的にデータセンターの稼働は増加している。一部では水冷式の冷却方式が採用されており、特に高温時には冷却水の需要が急増する。今回の呼びかけは、こうしたデジタルインフラの水使用にも配慮したものとみられる。</p>
-]]></description>
-      <pubDate>Sat, 16 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>福岡市・高島市長「虚偽情報」指摘を謝罪──香椎川氾濫めぐるSNS投稿、AIフェイク警戒が誤認の一因に</title>
-      <link>https://ledge.ai/articles/fukuoka_mayor_takashima_apology_kashiigawa_flood_sns</link>
-      <description><![CDATA[<p>福岡市市長の高島宗一郎氏は2025年8月11日、香椎川（かしいがわ）の氾濫をめぐり、市民によるX（旧Twitter）投稿を「虚偽情報」と指摘したが、その後、実際に氾濫が発生していたことが判明し、<a href="https://ameblo.jp/so-takashima/entry-12922328148.html">謝罪した</a>。今回の経緯は、災害時におけるSNS情報の活用と真偽確認の難しさを浮き彫りにし、情報発信の在り方や検証体制をめぐる議論を呼んでいる。</p>
-<p>市民の初報は、2025年8月10日の大雨（線状降水帯発生）時にXへ投稿された動画だった。香椎川周辺で車が水没する様子を捉えたもので、避難呼びかけとして拡散され、同日中に複数のユーザーが氾濫の様子や水位情報を共有した。</p>
-<p>高島氏は翌11日昼ごろ、InstagramやFacebookで「SNSの偽情報動画です…絶対にやめてください」と投稿。遠隔水位計のデータや現場確認結果から「氾濫は起きていない」と判断したためだという。Xには直接投稿していなかったが、この発信内容はニュース記事やスクリーンショットとしてX上に広まり、「市民投稿をデマ扱いした」との批判が拡散した。</p>
-<p>しかし、その後の調査で香椎川の一部区域で氾濫が発生していたことが確認された。高島氏は同日夜、自身のブログ（Ameba）、Facebook、Instagramに謝罪文を掲載し、「誤った情報を発信し、市民や関係者にご心配をおかけした」と陳謝。誤認の理由として「水位計データの時間差」「現場確認時の水位低下」「AIフェイク動画への警戒」を挙げ、今後は複数ルートでの情報確認を行う体制強化を表明した。</p>
-<p>X上では、投稿主のアカウントが削除されたことへの同情や、市の確認プロセスを問題視する声が多く見られた。また、水位データのピーク時刻と動画撮影時刻のずれが誤認の一因とする分析や、過去の氾濫履歴や河川整備の遅れを指摘する投稿も相次いだ。</p>
-<p>災害時にSNSを通じて市民から情報提供を受ける手法は、迅速な被害把握に有効とされる一方、真偽確認や安全配慮の課題がある。熊本市では2023年の豪雨時や2025年8月の大雨時に、大西一史市長がX上で市民に画像・動画提供を呼びかけた事例がある。2025年8月の<a href="https://x.com/K_Onishi/status/1954711146721849656">呼びかけ投稿</a>では被害状況の把握を目的として協力を求めた。専門家は「SNS活用は有用だが、検証体制が鍵」と指摘している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kumamoto_city_mayer_324f3e7e1a/kumamoto_city_mayer_324f3e7e1a.jpg" alt="kumamoto city mayer.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
       <link>https://ledge.ai/articles/gartner_cloud_ai_hypecycle_2025_japan</link>
       <description><![CDATA[<p>ガートナージャパン（以下Gartner）は2025年8月5日、日本市場におけるクラウドおよびAI関連技術の成熟度とビジネス価値に関する予測をまとめたレポート「日本におけるクラウドとAIのハイプ・サイクル：2025年」を
@@ -446,7 +314,7 @@ ld_media_sales@ledge.co.jp
 「企業は、クラウドを、既存システムのマイグレーション先としてのみならず、新たなビジネス・サービスの基盤、さらにはAIによる産業革命クラスのインパクトをもたらす基盤として捉える必要があります」</p>
 <p>また、AIエージェントへの過度な期待について「AIエージェントウォッシングに留意しながら、過度な期待や過小評価に陥らず、自社に合った導入戦略と展開のタイミングを見極める必要がある。データ基盤整備や人材のケイパビリティ（スキル・マインドセット・スタイル）獲得を着実に進めていくことが重要」と助言している。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
@@ -462,7 +330,7 @@ ld_media_sales@ledge.co.jp
 <h2>今後の展望</h2>
 <p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
@@ -480,7 +348,7 @@ ld_media_sales@ledge.co.jp
 <p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
 <p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/18 [MON]Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
@@ -501,7 +369,7 @@ ld_media_sales@ledge.co.jp
 <h2>今後の展望</h2>
 <p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
@@ -538,7 +406,7 @@ ld_media_sales@ledge.co.jp
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
 <p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GPT-5切替で “4oロス” 広がる──ChatGPT界隈を席巻した「#keep4oムーブ」と期間限定 “里帰りモード”</title>
@@ -576,24 +444,25 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 4oでは一部ユーザーの感情的依存や不適切な助言が問題視され、GPT-5では人生相談などに直接答えず熟考を促すなどの改善が施された。ただし、この方針が4oの「人間味」を削いだと感じるユーザーも多かった。</p>
 <p>GPT-4o延命はあくまで暫定措置で、恒久提供は未定だ。#keep4o運動は現在も続いており、署名やフィードバックが送られ続けている。今回の一件は、AIサービス提供者にとって機能変更時の透明性、ユーザー通知、信頼維持の重要性を改めて浮き彫りにした。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
-      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
-      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
-<h2>業界特化型AIエージェントの開発へ</h2>
-<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
-<h2>クラウド近代化とセキュリティ強化</h2>
-<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
-<h2>人材育成とグローバル体制</h2>
-<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
-<h2>今後の展望</h2>
-<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
-<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
-<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
+      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
+      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
+      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
+<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
+<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
+<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
+<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
+<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
+<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
+<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
+<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
+<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
+<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
+<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
@@ -643,7 +512,138 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
 <p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
 ]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
+      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
+      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
+<h2>自動運転の中核を担う計画だった「Dojo」</h2>
+<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
+<h2>人員の移籍と再配置</h2>
+<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
+<h2>戦略転換とチップ開発の集中</h2>
+<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
+<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
+<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
+<h2>外部パートナーとの連携強化</h2>
+<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
+<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
+]]></description>
+      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/8/18 [MON]NVIDIA、エンタープライズAIとフィジカルAIに新モデル──「Nemotron」と「Cosmos Reason」を発表</title>
+      <link>https://ledge.ai/articles/nvidia_nemotron_cosmos_reason</link>
+      <description><![CDATA[<p>NVIDIAは2025年8月11日、エンタープライズAIエージェント向けの「Nemotron」シリーズと、ロボティクスや自動運転などの物理AI領域に対応する「Cosmos Reason」を<a href="https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai/">発表</a>した。企業システムから現実世界で動作するロボットまで、“推論能力を持つAI”の基盤整備を狙うという。</p>
+<h2>Nemotron──エンタープライズAIエージェント向け</h2>
+<p>Nemotronは大規模言語モデル（LLM）として開発され、エージェント型AIの構築に特化している。高度な推論能力を持ち、コーディングやデータ分析、さらには視覚情報を用いた推論にも対応することができる。また、オープンで拡張性のある設計が採用されており、企業は独自のデータを使って安全にカスタマイズできる点も特徴だ。提供形態としてはAPIや「NVIDIA AI Enterprise」を通じて利用可能で、業務自動化やセキュリティ強化、対話エージェントの開発など、幅広い用途での活用が見込まれている。</p>
+<p><strong>NVIDIA Nemotron Super v1.5は、他の大規模モデルと比べて高い精度をより低い推論コストで実現している」</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemotron_chart_1280x874_daebac66c2/nemotron_chart_1280x874_daebac66c2.png" alt="nemotron-chart-1280x874.png" /></p>
+<h2>Cosmos Reason──物理AI・ロボティクス向け</h2>
+<p>Cosmos Reasonは、7Bパラメータを備えた視覚言語モデル（VLM）である。力学や空間・時間の理解といった物理世界の常識を踏まえながら複雑な状況を推論することが可能で、現実世界で動作するAIの知能を補強する役割を担う。特にロボットや自動運転車の領域では、自律的な判断や行動計画を実現するための基盤モデルとして設計されている点が大きな強みとなる。</p>
+<h2>NVIDIAの戦略的意義</h2>
+<p>Nemotronは企業領域において、業務効率化やセキュリティ強化を支援する一方、Cosmos Reasonは産業オートメーションや自動運転といったフィジカルAIの分野で中核的な技術を提供する。NVIDIAはこれまで強みとしてきたGPUに加えて、AIモデルやプラットフォームを統合的に提供する体制を整えることで、AI市場における存在感を一層高めようとしている。</p>
+<h2>今後の展望</h2>
+<p>NVIDIAは「AIが自律的に考え、現実世界でも行動できる」ための基盤技術整備を推進している。今後は企業や研究者による導入事例がさらに増加すると見込まれており、エージェントAIとフィジカルAIという両輪によってAI活用が加速していくと予想される。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIに続き、AnthropicがGSA（米国一般調達局）と契約──米連邦三権に「Claude」を年間1ドル、1年間の限定プラン</title>
+      <link>https://ledge.ai/articles/anthropic_government_claude_1dollar</link>
+      <description><![CDATA[<p>Anthropicは8月12日（現地時間）、同社の大規模言語モデル「Claude」を活用するサービス「Claude for Enterprise」と「Claude for Government」を、米連邦政府の立法府・行政府・司法府に所属するすべての機関に対し、年間わずか1ドルで提供すると<a href="https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government">発表</a>した。契約は<a href="https://www.gsa.gov/about-us/newsroom/news-releases/gsa-strikes-onegov-deal-with-anthropic-08122025">米国一般調達局（GSA）</a>の「OneGov」枠組みを通じて実施される。</p>
+<h2>提供の内容</h2>
+<p>「Claude for Enterprise」は民間利用を想定した汎用版、「Claude for Government」は政府専用に設計されたバージョンで、連邦政府の厳格なセキュリティ基準「FedRAMP High」に準拠している。これにより、機密性の高い非分類情報を安全に取り扱うことが可能となる。提供期間は1年間で、Anthropicは各機関への技術サポートも行う。</p>
+<h2>発表の背景</h2>
+<p>今回の動きは、直前にOpenAIが「ChatGPT Enterprise」を米連邦行政機関に1ドルで提供すると発表したことを受けたもので、主要AI企業間での政府市場獲得競争が本格化している。GSAは「AI Action Plan」に基づき、政府全体でのAI活用を推進しており、Anthropicはこの取り組みに沿って導入障壁を下げる狙いを示した。</p>
+<h2>導入事例</h2>
+<p>既にエネルギー省（DOE）やワシントンD.C.保健局など複数の機関がClaudeを試験導入し、科学研究や住民サービスの効率化に活用している。今回の契約拡大により、他の連邦機関にも広範に利用が広がるとみられる。</p>
+<h2>今後の展望</h2>
+<p>Anthropicによる「年間1ドル」提供は、公共部門におけるAI普及を一気に加速させる試みである。同時に、OpenAIやxAIなどライバル企業との競争を象徴する施策でもある。AIの政府利用は行政効率化や政策立案の高度化を後押しする一方で、特定企業への依存や規制対応といった課題も残されており、今後の展開に注目が集まる。</p>
+]]></description>
+      <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
+      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
+      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
+<h2>業界特化型AIエージェントの開発へ</h2>
+<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
+<h2>クラウド近代化とセキュリティ強化</h2>
+<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
+<h2>人材育成とグローバル体制</h2>
+<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
+<h2>今後の展望</h2>
+<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
+<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
+<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
+]]></description>
+      <pubDate>Sun, 17 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
+      <link>https://ledge.ai/articles/asi_arch_ai_self_design_1773_experiments_106_architectures</link>
+      <description><![CDATA[<p>上海交通大学やSII（Shanghai Institute for Intelligence）などの研究チームは2025年7月24日、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発したと<a href="https://arxiv.org/abs/2507.18074">発表</a>した。</p>
+<p>従来のNeural Architecture Search（NAS）が人間の定義した探索空間に依存していたのに対し、ASI-ARCHは仮説生成からコード実装、学習、評価、結果分析までをAI自身が完結させるのが特徴だ。</p>
+<h2>AIが「設計者」となる仕組み</h2>
+<p>ASI-ARCHは、3つの役割を持つエージェントが協調して動作する。Researcherは新しいアーキテクチャの仮説を立案し、Engineerがコード実装と学習を行い、Analystが結果を分析して次の仮説にフィードバックする。さらに外部知識を参照する「Cognition」モジュールが、この循環を強化する。</p>
+<p><strong>■ ASI-ARCHの全体構成</strong> ：Researcher→Engineer→Analystが閉ループで連携し、Cognitionの知識を取り込みながら次の設計へと進化する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ASI_Arch_figure4_overview_9897ace823/ASI_Arch_figure4_overview_9897ace823.jpg" alt="ASI-Arch figure4 overview.jpg" /></p>
+<h2>1,773回の実験から生まれた成果</h2>
+<p>研究チームはASI-ARCHを用い、計20,000 GPU時間に相当する1,773回の自律実験を実施。その結果、DeltaNetやMamba2など既存モデルを上回る性能を持つ、106件の線形アテンション（linear attention）アーキテクチャを発見した。</p>
+<p>探索は行き当たりばったりではなく、指標に沿って着実に改善した。候補上位群の性能は上昇し、損失は低下。総合スコアは初期に急伸し、その後も安定的に推移した。106件のSOTAアーキテクチャはゲーティング機構や畳み込みといった有効な要素に収束しており、単なる偶然や奇抜な設計ではなかった。</p>
+<p>探索されたモデルは多くが400～600Mパラメータの規模に集中し、後半でも過度な巨大化は見られなかった。性能改善は「規模依存」ではなく、設計の工夫によることが示された。</p>
+<h2>科学的発見のスケーリング則</h2>
+<p>さらに研究チームは、計算資源の増加に比例して発見されるSOTA数が直線的に伸びることを確認。「科学的発見もスケールする」という新たなスケーリング則を初めて実証した。</p>
+<p><strong>■ 科学的発見のスケーリング則</strong> ：計算時間に対し、発見されたSOTAアーキテクチャの累積数が線形に伸びることを示した図。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_cumulative_count_a5719e0349/The_cumulative_count_a5719e0349.jpg" alt="The cumulative count.jpg" /></p>
+<p>ASI-ARCHは、発見したアーキテクチャや探索過程の「認知トレース」を含む全フレームワークを公開している。研究チームは「人間の認知に依存しない研究加速の可能性」を示し、今後さらに大規模な探索による新発見が期待されるとしている。</p>
+]]></description>
+      <pubDate>Sun, 17 Aug 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>マスク氏、アップルを反トラスト違反で訴える構え—App StoreでX/Grokを意図的に排除？アルトマン氏と舌戦</title>
+      <link>https://ledge.ai/articles/musk_accuses_apple_appstore_bias</link>
+      <description><![CDATA[<p>ⅹAIのCEOであるイーロン・マスク氏は2025年8月12日（現地時間）、AppleがApp Storeのランキングを操作し、自社のXアプリや生成AI「Grok」が上位に表示されないようにしていると非難し、独占禁止法違反で訴訟を検討していると<a href="https://x.com/elonmusk/status/1955073616996975095">明らかにした。</a>した。Appleはこれを否定し、「公平でバイアスのない運営」を行っていると反論。さらに、OpenAI CEOのサム・アルトマン氏との間でランキング操作をめぐる応酬も展開された。</p>
+<h2>マスク氏の主張</h2>
+<p>マスク氏はXで、「AppleはApp Storeのランキングを操作し、XやGrokがトップに来ないようにしている」と投稿し、「これは反トラスト法違反であり、即座に訴訟を起こす」と明言。さらに、「もし自分がApp Storeを運営していたら、競合アプリも含め公平に扱う」と述べ、Appleの対応を批判した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03.jpg" alt="that makes it impossible for any AI company besides OpenAI.jpg" /></p>
+<h2>Appleの反論</h2>
+<p>AppleはAP通信などへの<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">声明</a>で「App Storeは公平かつバイアスのない設計で、数千のアプリをチャートやアルゴリズム、専門家の推薦で扱っている」と説明し、マスク氏の主張を否定した。</p>
+<h2>業界内の応酬</h2>
+<p>OpenAI CEOのサム・アルトマン氏はXで、「マスク氏はXのランキングを自分に有利に操作しているのではないか」と投稿した。これに対しマスク氏は、「Xのランキングはオープンかつ透明で、誰でも検証できる。App Storeの不透明なランキングとは違う」と再反論した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/remarkable_claim_sama_23ea35539d/remarkable_claim_sama_23ea35539d.jpg" alt="remarkable claim sama.jpg" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/You_got_3_M_views_elon_01c995014a/You_got_3_M_views_elon_01c995014a.jpg" alt="You got 3M views elon.jpg" /></p>
+<p>この騒動は、Appleがこれまで直面してきた<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">独占禁止法関連の動き</a>とも重なる。EUは同社に対して5億ユーロの罰金を科し、米司法省も訴訟を提起。さらにEpic Gamesとの係争など、App Storeの運営をめぐる規制圧力は高まっている。</p>
+]]></description>
+      <pubDate>Sun, 17 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2025/8/16 [SAT]英国「国家的な水不足」へ対応──データセンターの冷却水に配慮し、メール・写真の“データ断捨離”を呼びかけ</title>
+      <link>https://ledge.ai/articles/uk_drought_ndg_data_center_water_email_deletion</link>
+      <description><![CDATA[<p>イギリス環境庁が主導する国家干ばつ対策グループ（National Drought Group）は2025年8月12日、国内で「国家的に重大」とされる水不足に対応するため、全国的な<a href="https://www.gov.uk/government/news/national-drought-group-meets-to-address-nationally-significant-water-shortfall">節水を呼びかけた</a>。公表された節水方法には、古いメールや写真の削除といった“データ断捨離”も含まれ、背景には生成AIなどの利用拡大で稼働が増えるデータセンターの冷却水消費がある。</p>
+<h2>国家干ばつ対策グループが節水策を発表</h2>
+<p>国家干ばつ対策グループは、環境庁の主導で水道事業者、農業団体、政府機関などが参加する組織。会合では、短時間のシャワー利用や漏水修理、庭の水やり削減など、直接的な節水行動を中心に呼びかけた。</p>
+<p>節水策の最後には「古いメールや写真の削除」が挙げられ、「データセンターはシステム冷却に大量の水を必要とするため」と理由が明記された。これは他の項目とは異なり、デジタル活動と水資源の関係を直接示すものとなっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_to_save_water_at_home_1a2978a322/how_to_save_water_at_home_1a2978a322.jpg" alt="how to save water at home.jpg" /></p>
+<p>生成AIやクラウドサービスの利用拡大により、世界的にデータセンターの稼働は増加している。一部では水冷式の冷却方式が採用されており、特に高温時には冷却水の需要が急増する。今回の呼びかけは、こうしたデジタルインフラの水使用にも配慮したものとみられる。</p>
+]]></description>
+      <pubDate>Sat, 16 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>福岡市・高島市長「虚偽情報」指摘を謝罪──香椎川氾濫めぐるSNS投稿、AIフェイク警戒が誤認の一因に</title>
+      <link>https://ledge.ai/articles/fukuoka_mayor_takashima_apology_kashiigawa_flood_sns</link>
+      <description><![CDATA[<p>福岡市市長の高島宗一郎氏は2025年8月11日、香椎川（かしいがわ）の氾濫をめぐり、市民によるX（旧Twitter）投稿を「虚偽情報」と指摘したが、その後、実際に氾濫が発生していたことが判明し、<a href="https://ameblo.jp/so-takashima/entry-12922328148.html">謝罪した</a>。今回の経緯は、災害時におけるSNS情報の活用と真偽確認の難しさを浮き彫りにし、情報発信の在り方や検証体制をめぐる議論を呼んでいる。</p>
+<p>市民の初報は、2025年8月10日の大雨（線状降水帯発生）時にXへ投稿された動画だった。香椎川周辺で車が水没する様子を捉えたもので、避難呼びかけとして拡散され、同日中に複数のユーザーが氾濫の様子や水位情報を共有した。</p>
+<p>高島氏は翌11日昼ごろ、InstagramやFacebookで「SNSの偽情報動画です…絶対にやめてください」と投稿。遠隔水位計のデータや現場確認結果から「氾濫は起きていない」と判断したためだという。Xには直接投稿していなかったが、この発信内容はニュース記事やスクリーンショットとしてX上に広まり、「市民投稿をデマ扱いした」との批判が拡散した。</p>
+<p>しかし、その後の調査で香椎川の一部区域で氾濫が発生していたことが確認された。高島氏は同日夜、自身のブログ（Ameba）、Facebook、Instagramに謝罪文を掲載し、「誤った情報を発信し、市民や関係者にご心配をおかけした」と陳謝。誤認の理由として「水位計データの時間差」「現場確認時の水位低下」「AIフェイク動画への警戒」を挙げ、今後は複数ルートでの情報確認を行う体制強化を表明した。</p>
+<p>X上では、投稿主のアカウントが削除されたことへの同情や、市の確認プロセスを問題視する声が多く見られた。また、水位データのピーク時刻と動画撮影時刻のずれが誤認の一因とする分析や、過去の氾濫履歴や河川整備の遅れを指摘する投稿も相次いだ。</p>
+<p>災害時にSNSを通じて市民から情報提供を受ける手法は、迅速な被害把握に有効とされる一方、真偽確認や安全配慮の課題がある。熊本市では2023年の豪雨時や2025年8月の大雨時に、大西一史市長がX上で市民に画像・動画提供を呼びかけた事例がある。2025年8月の<a href="https://x.com/K_Onishi/status/1954711146721849656">呼びかけ投稿</a>では被害状況の把握を目的として協力を求めた。専門家は「SNS活用は有用だが、検証体制が鍵」と指摘している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kumamoto_city_mayer_324f3e7e1a/kumamoto_city_mayer_324f3e7e1a.jpg" alt="kumamoto city mayer.jpg" /></p>
+]]></description>
+      <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>さくらインターネット、生成AI開発を効率化──NVIDIA最新GPU「B200」搭載クラウドを提供開始</title>
