@@ -5,6 +5,16 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>吉本興業、AIや縦型ショート含む多様な領域展開を見据えたコンテンツファンド設立——数十億円規模で海外展開、明石家さんま・ダウンタウンら所属タレントも参加</title>
+      <link>https://ledge.ai/articles/yoshimoto_ai_content_fund</link>
+      <description><![CDATA[<p>吉本興業は2025年8月18日、数十億円規模のコンテンツファンドを設立したと<a href="https://www.yoshimoto.co.jp/info/1415/">発表</a>した。AIを活用した企画や縦型ショートドラマ、アニメ、ゲームなど多様な領域を対象に、所属タレントがプロデュースや出演するコンテンツ制作を推進。さらに番組フォーマットを海外展開する方針も示した。</p>
+<p>このファンドは国内外の企業からの出資を募り、数十億円規模の資金を確保する計画。バラエティ番組、映画、アニメ、ドラマ、ライブ、リアリティーショー、縦型ショートドラマ、ウェブトゥーン、ゲームなど幅広いコンテンツが対象となる。AIを活用した新たなコンテンツ制作にも取り組むという。</p>
+<p>制作には、所属タレントである明石家さんま、ダウンタウン、中川家、千鳥、かまいたち、マヂカルラブリー、チョコレートプラネット、渡辺直美、霜降り明星らが参加。プロデュースや出演を通じ、既存の番組制作の枠を超えた取り組みを展開する予定だ。また、スポーツドキュメンタリーやオーディション番組など、タレントの多様な活動を反映した企画も構想され、ファンドを通じた新規プロジェクトの展開が注目される。</p>
+<p>同社は、制作した番組フォーマットを海外市場に展開する方針も掲げており、今回のファンドは国際展開に向けた戦略的な一歩となるとのこと。国内外に向けてタレント主導のコンテンツ制作を拡大し、エンターテインメントの新たな可能性を切り拓く狙いだ。</p>
+]]></description>
+      <pubDate>Wed, 20 Aug 2025 23:50:01 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
       <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
       <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
@@ -582,25 +592,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>同社は、今後も最新GPUを活用した研究やサービス開発を支援し、国内データセンターを基盤とした高性能かつ安心なクラウド環境の提供を強化していくとしている。</p>
 ]]></description>
       <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMが都市の信号を制御──中国で5.5万人超の交通管理を担う「Traffic-R1」、渋滞5%減・運用負荷50%削減</title>
-      <link>https://ledge.ai/articles/traffic_r1_llm_traffic_signal_control_china</link>
-      <description><![CDATA[<p>中国の大都市で、大規模言語モデル（LLM）を活用して交通信号を制御するシステム「Traffic-R1」が実運用されている。香港の開発チームが2025年8月4日に<a href="https://arxiv.org/abs/2508.02344">発表</a>した論文によれば、このシステムは毎日5万5千人以上のドライバーに影響を与え、渋滞緩和や運用負荷の軽減に成果を上げているという。</p>
-<h2>強化学習とLLMの融合</h2>
-<p>Traffic-R1は、都市の交通信号制御（TSC）に特化した強化型LLMで、Xingchen Zou氏らの研究チームによって開発された。強化学習とLLMを組み合わせることで、人間のような推論能力を持たせ、複雑な交通状況に柔軟に対応できる設計となっている。</p>
-<p><strong>■ Offline学習とオンライン学習を組み合わせたTraffic-R1の制御モデル構造</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/framework_33e9c558cd/framework_33e9c558cd.jpg" alt="framework.jpg" /></p>
-<h2>ゼロショット適応と軽量構造</h2>
-<p>同システムは、新しい交差点配置や予期せぬ交通状況に対して再学習を必要としないゼロショット適応を実現。モデル規模は3Bパラメータと比較的小さく、モバイル向けチップを含むエッジデバイス上でリアルタイム推論が可能だ。複数交差点間で同期型通信を行い、協調的な制御を行う機能も備える。</p>
-<h2>実運用での効果</h2>
-<p>中国の大都市での導入実績では、平均待ち列長を5%以上短縮し、交通オペレーターの業務負荷を50%削減。従来の強化学習ベース手法や既存のLLM制御システムを上回る性能を示した。</p>
-<p><strong>■ 実際の交通状況データを基にした信号フェーズの推奨例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/dataset_8599b7c431/dataset_8599b7c431.jpg" alt="dataset.jpg" /></p>
-<h2>今後の展望</h2>
-<p>Traffic-R1は<a href="https://huggingface.co/Season998/Traffic-R1">Hugging Face</a>で公開されており、エッジ環境での大規模展開を想定。研究チームは今後、他都市や公共交通・歩行者制御との統合、スマートシティ計画への応用を見込んでいる。</p>
-]]></description>
-      <pubDate>Fri, 15 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
