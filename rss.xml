@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
+      <link>https://ledge.ai/articles/ll3m_blender_llm_3d_modeling</link>
+      <description><![CDATA[<p>シカゴ大学の研究チームは2025年8月11日、自然言語の指示だけでBlender内に3Dアセットを作り出せるシステム「LL3M（Large Language 3D Modelers）」を<a href="https://arxiv.org/abs/2508.08228">発表</a>した。大規模言語モデル（LLM）が直接Pythonコードを生成し、オブジェクトやシーンを自在に構築・編集するという新しいアプローチだ。論文はarXivに公開され、公式プロジェクトページやGitHubリポジトリも公開されている。</p>
+<h2>コードを書くAI、Blenderを動かす</h2>
+<p>LL3Mの最大の特徴は、3Dモデルを特殊なデータ形式で直接生成するのではなく、Blender用のPythonコードを“書く”AIであることだ。これにより、生成結果はすべて人間が理解できるコードとして残り、後から自由に修正・拡張できる。既存のワークフローに統合しやすい点も大きな利点とされる。</p>
+<h2>多様なアセットを生み出す柔軟性</h2>
+<p>論文では、BMeshによるポリゴンモデリング、モディファイアやシェーダーノードの適用、シーン階層の構築など、幅広い3D要素をコードで生成可能であることが示されている。家具やキャラクターなど、多彩なアセットが次々とコードベースで形作られる様子は、従来の「ブラックボックス的な生成AI」とは異なる透明性を感じさせる。</p>
+<p><strong>■ Blender用Pythonコードを生成し、3Dオブジェクトを構築する例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig15_intro_highlight_bc133cc7d3/fig15_intro_highlight_bc133cc7d3.jpg" alt="fig15-intro-highlight.jpg" /></p>
+<h2>3段階で進化するパイプライン</h2>
+<p>LL3Mは単なる一発生成ではなく、段階的にモデルを洗練させる仕組みを備える。</p>
+<ul>
+<li><strong>初期生成</strong> ：自然言語の指示からコードを生成し、Blenderでオブジェクトを構築</li>
+<li><strong>自動自己精緻化</strong> ：AI自身が結果を評価し、改善点を修正</li>
+<li><strong>ユーザー誘導精緻化</strong> ：人間の追加指示を受けて再度改善</li>
+</ul>
+<p><strong>■ 自己批評やユーザー指示に基づく反復的な3Dモデルの改善</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig22_humanoid_final_b372c81836/fig22_humanoid_final_b372c81836.jpg" alt="fig22-humanoid-final.jpg" /></p>
+<p>さらに「BlenderRAG」と呼ばれる仕組みで、Blender APIドキュメントを参照しながらコードを補強。これにより「動かないスクリプト」を避け、実際に使える成果物を高精度に生み出す。</p>
+<h2>“コードで3Dを描く”という発想の転換</h2>
+<p>研究チームは、NeRFや点群などデータ駆動型の3D生成手法と対比しながら、LL3Mのアプローチを強調する。コードは読み書きできる資産であり、再利用性や可搬性に優れるため、クリエイターや開発者にとって扱いやすい。AIと人間が共同作業する新しい3D制作の基盤としての位置づけを打ち出している。</p>
+<h2>今後の展望──ゲームから教育まで</h2>
+<p>GitHubリポジトリはすでに公開されているものの、実装は「Code coming soon」とされ、今後順次公開される見込みだ。研究チームは「人間とAIが協力する3D制作の未来」を描きつつ、ゲーム開発、教育、デジタルコンテンツ制作など多様な分野での応用可能性を指摘している。</p>
+<p><strong>■ LL3Mによって生成された多様な3Dアセットの例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_gallery_b2bb1b7580/fig2_gallery_b2bb1b7580.jpg" alt="fig2-gallery.jpg" /></p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Yahoo!ショッピング、2025年上半期の安全・安心レポート公開──AIで不正検知率3倍、レビュー45万件を削除</title>
       <link>https://ledge.ai/articles/yahoo_shopping_ai_safety_report_2025h1</link>
       <description><![CDATA[<p>LINEヤフーは2025年8月19日、ECモール「Yahoo!ショッピング」における2025年上半期（1月～6月）の安全・安心に関する取り組みをまとめたレポートを<a href="https://www.lycorp.co.jp/ja/news/release/018424/">公開</a>した。</p>
@@ -352,19 +381,6 @@ ld_media_sales@ledge.co.jp
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kumamoto_city_mayer_324f3e7e1a/kumamoto_city_mayer_324f3e7e1a.jpg" alt="kumamoto city mayer.jpg" /></p>
 ]]></description>
       <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>トランプ大統領、NVIDIA「H20」の中国向け輸出を条件付き容認──CEOジェンスン・ファン氏と15％納付で合意</title>
-      <link>https://ledge.ai/articles/trump_nvidia_h20_export_china_15percent</link>
-      <description><![CDATA[<p>ドナルド・トランプ米大統領は2025年8月11日（現地時間）、[ホワイトハウスでの記者会見<a href="https://www.youtube.com/watch?v=ZtVMoko3mSI">発表</a>で、米半導体大手NVIDIAのAIチップ「H20」について、中国向け輸出を条件付きで認める方針を正式に表明した。条件は、販売収益の15％を米国政府に納付すること。当初トランプ氏は20％の納付を要求したが、NVIDIAのCEOジェンスン・ファン氏との交渉を経て、最終的に15％で合意したという。</p>
-<p>トランプ氏はこの取り決めを「些細な取引（a little deal）」と表現し、H20を「古いチップ（an older chip）」と述べた。最新世代のAIチップに比べて性能が抑えられており、安全保障上の重大なリスクは少ないと強調。一方で、同社の先端モデル「Blackwell」など、米国の国家安全保障に直結する可能性のあるチップについては、「改変なしでは輸出しない」という方針を明言した。</p>
-<p>またトランプ氏は、交渉の席でのファンCEOの人物像についても言及。「ジェンスンは本当に素晴らしい男（a really good guy）だ。彼は非常に頭が切れ、私の話もよく理解してくれる」と述べ、好意的に評価した。さらに「彼がやって来て、『15％でなければ合意できない』と言った。私は20％が良いと思っていたが、彼の説明は筋が通っていた」と述べ、交渉でのやり取りを明らかにした。</p>
-<p>この発表は、NVIDIAおよびAMDを対象に、米国が従来課してきた中国向けAI半導体の輸出規制を一部緩和する動きと位置づけられる。米政府は近年、AIや高性能計算に用いられる半導体が軍事や監視用途に転用されることを懸念し、2022年以降、複数回にわたり対中輸出規制を強化してきた。特にH100やA100といった最上位モデルは事実上輸出禁止となっており、H20は規制回避を目的に開発されたダウングレード版として知られる。</p>
-<p>今回の「15％納付」条件は、単なる輸出許可ではなく、米政府が直接的な経済的利益を得る仕組みを伴っている点で異例だ。AP通信によれば、こうした条件付き輸出承認は過去にほとんど例がなく、国家安全保障と企業利益の折り合いをつけるための新たなアプローチとみられている。Reutersも「企業が収益の一部を政府に支払うことで安全保障上のリスクを抑えようとする試みだが、透明性や法的根拠について議論を呼ぶ可能性がある」と指摘している。</p>
-<p>H20の輸出容認は、米中間のハイテク分野をめぐる緊張が続く中での大きな政策転換とも言える。今後、中国政府や半導体業界の反応に加え、米議会や安全保障関係者からの評価が注目される。特に、今回の合意が他の半導体や先端技術分野にも波及するかどうかは、今後の米中技術摩擦の行方を占う試金石となる可能性がある。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ZtVMoko3mSI">YouTube</a></p>
-]]></description>
-      <pubDate>Fri, 15 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner、「日本におけるクラウドとAIのハイプ・サイクル：2025年」を発表──AIエージェントが”過度な期待”のピークに、RAGは幻滅期へ</title>
