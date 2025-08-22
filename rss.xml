@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
+      <link>https://ledge.ai/articles/qwen_image_edit_release</link>
+      <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
+<h2>技術的特徴</h2>
+<p>20Bパラメータを持つ「Qwen-Image」を基盤として開発されたQwen-Image-Editの最大の特徴は「デュアルパス設計」にあるという。
+Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を組み合わせ、MMDiTによって統合することで、意味情報と見た目の情報を同時にバランスよく扱うことを可能にした。これにより、従来の生成モデルよりも自然で一貫性のある編集が可能になった。</p>
+<p>編集機能としては、スタイルを変更したり、視点を切り替えたり、既存キャラクターを使って新しいシーンを描く「意味編集」、背景の置換や髪の毛一本の修正といった細部を調整する「外観編集」、さらに中国語や英語のテキストをフォントやスタイルを崩さずに編集できる「精密テキスト編集」がある。また、ユーザーが指定した領域を何度も重ねて修正できる「多段編集」にも対応しているとのこと。</p>
+<h2>公開と利用方法</h2>
+<p>同モデルはApache 2.0ライセンスでオープンソースとして公開されており、Qwen Chat、Hugging Face、ModelScope、GitHub、Alibaba Cloud APIを通じて利用可能となっている。開発者や企業はこれらのプラットフォームを通じて簡単にアクセスできる点も特徴だ。</p>
+<h2>Showcase事例</h2>
+<p>公式ブログでは、Qwen-Image-Editの機能を示す多彩なデモ画像が紹介されている。</p>
+<p><strong>キャラクターの見た目を保ったまま、画家や宇宙飛行士など多彩なシーンへ展開</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_73f8c636ae/3_73f8c636ae.jpg" alt="幻灯片3.jpg" /></p>
+<p><strong>フォントやスタイルを維持しながら、英語や中国語のテキストを自然に差し替え</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/15_41b5f50bea/15_41b5f50bea.jpg" alt="幻灯片15.jpg" /></p>
+<p><strong>古い書道作品の誤字を自然に修正し、文化保存にも活用可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/18_df7ae341ca/18_df7ae341ca.jpg" alt="幻灯片18.jpg" /></p>
+<h2>応用分野</h2>
+<p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
+<p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
+]]></description>
+      <pubDate>Fri, 22 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>オンデーズ、生成AIが“かけたまま試着”を実現　新提案サービス「OWNDAYS MIRROR」を展開</title>
       <link>https://ledge.ai/articles/owndays_mirror_ai_try_on_without_removing_glasses</link>
       <description><![CDATA[<p>メガネ・サングラスの製造販売を手掛けるオンデーズ（東京都品川区）は2025年8月19日、生成AIを活用した新サービス「OWNDAYS MIRROR（オンデーズ ミラー）」を<a href="https://www.owndays.com/jp/ja/information/822">発表</a>した。</p>
@@ -178,7 +202,7 @@
       <pubDate>Tue, 19 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
+      <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
       <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor</link>
       <description><![CDATA[<p>国内最大級のAI特化メディア『Ledge.ai』を運営する株式会社レッジ（東京都品川区）は、2025年9月24日(水)〜26日(金)の3日間連続で合計20本以上のセミナーを配信するオンラインイベント「Ledge.ai Webinar SP」を開催いたします。</p>
 <p>本イベントでは、AIの各領域の専門家を招き、今必要とされるAIの体系的な知識や活用に関する見識をシェアする講義を実施。「AIをしる、つかう、つくる」をテーマに、多様な課題解決のヒントとなるようなコンテンツを動画でお届けします。</p>
@@ -658,19 +682,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
       <pubDate>Sat, 16 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>福岡市・高島市長「虚偽情報」指摘を謝罪──香椎川氾濫めぐるSNS投稿、AIフェイク警戒が誤認の一因に</title>
-      <link>https://ledge.ai/articles/fukuoka_mayor_takashima_apology_kashiigawa_flood_sns</link>
-      <description><![CDATA[<p>福岡市市長の高島宗一郎氏は2025年8月11日、香椎川（かしいがわ）の氾濫をめぐり、市民によるX（旧Twitter）投稿を「虚偽情報」と指摘したが、その後、実際に氾濫が発生していたことが判明し、<a href="https://ameblo.jp/so-takashima/entry-12922328148.html">謝罪した</a>。今回の経緯は、災害時におけるSNS情報の活用と真偽確認の難しさを浮き彫りにし、情報発信の在り方や検証体制をめぐる議論を呼んでいる。</p>
-<p>市民の初報は、2025年8月10日の大雨（線状降水帯発生）時にXへ投稿された動画だった。香椎川周辺で車が水没する様子を捉えたもので、避難呼びかけとして拡散され、同日中に複数のユーザーが氾濫の様子や水位情報を共有した。</p>
-<p>高島氏は翌11日昼ごろ、InstagramやFacebookで「SNSの偽情報動画です…絶対にやめてください」と投稿。遠隔水位計のデータや現場確認結果から「氾濫は起きていない」と判断したためだという。Xには直接投稿していなかったが、この発信内容はニュース記事やスクリーンショットとしてX上に広まり、「市民投稿をデマ扱いした」との批判が拡散した。</p>
-<p>しかし、その後の調査で香椎川の一部区域で氾濫が発生していたことが確認された。高島氏は同日夜、自身のブログ（Ameba）、Facebook、Instagramに謝罪文を掲載し、「誤った情報を発信し、市民や関係者にご心配をおかけした」と陳謝。誤認の理由として「水位計データの時間差」「現場確認時の水位低下」「AIフェイク動画への警戒」を挙げ、今後は複数ルートでの情報確認を行う体制強化を表明した。</p>
-<p>X上では、投稿主のアカウントが削除されたことへの同情や、市の確認プロセスを問題視する声が多く見られた。また、水位データのピーク時刻と動画撮影時刻のずれが誤認の一因とする分析や、過去の氾濫履歴や河川整備の遅れを指摘する投稿も相次いだ。</p>
-<p>災害時にSNSを通じて市民から情報提供を受ける手法は、迅速な被害把握に有効とされる一方、真偽確認や安全配慮の課題がある。熊本市では2023年の豪雨時や2025年8月の大雨時に、大西一史市長がX上で市民に画像・動画提供を呼びかけた事例がある。2025年8月の<a href="https://x.com/K_Onishi/status/1954711146721849656">呼びかけ投稿</a>では被害状況の把握を目的として協力を求めた。専門家は「SNS活用は有用だが、検証体制が鍵」と指摘している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kumamoto_city_mayer_324f3e7e1a/kumamoto_city_mayer_324f3e7e1a.jpg" alt="kumamoto city mayer.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 16 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>さくらインターネット、生成AI開発を効率化──NVIDIA最新GPU「B200」搭載クラウドを提供開始</title>
       <link>https://ledge.ai/articles/sakura_gpu_b200_cloud_release</link>
       <description><![CDATA[<p>さくらインターネットは2025年8月15日、同社のベアメタル型GPUクラウドサービス「高火力 PHY」において、NVIDIAの最新GPU「B200」を搭載した新プランの提供を開始したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/08/15/1968220622/">発表</a>した。生成AI（人工知能）の開発や学習処理を一段と効率化できる環境を整える。</p>
@@ -680,62 +691,6 @@ GPT-5は推論やコーディング能力の向上を特徴とするが、「創
 <p>同社は、今後も最新GPUを活用した研究やサービス開発を支援し、国内データセンターを基盤とした高性能かつ安心なクラウド環境の提供を強化していくとしている。</p>
 ]]></description>
       <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ラーニング2025/8/4 [MON]AIエージェントの可能性と活用のリアル　『現場で活用するためのAIエージェント実践入門』刊行記念ウェビナー｜視聴無料</title>
-      <link>https://ledge.ai/articles/webinar-vol66</link>
-      <description><![CDATA[<h2>ウェビナー概要</h2>
-<p>2025年は「AIエージェント元年」。生成AIの急速な進化を背景に、目標に応じて自律的に判断・行動する“AIエージェント”に大きな期待が寄せられています。その活用領域は、顧客対応や業務自動化、ナレッジ検索、意思決定支援など急速に広がり、すでに多くの企業が実証・導入を開始。実運用フェーズに移行しつつあるのが現状です。
-こうした中、「本当に動くAIエージェントはどう作るのか」をテーマに執筆された、導入現場で使える実践的なノウハウをまとめた書籍『<a href="https://www.amazon.co.jp/dp/4065401402">現場で活用するためのAIエージェント実践入門</a>』（講談社）が7月に発売され、大きな注目を集めています。</p>
-<p>本ウェビナーでは、同書の著者陣5名をゲストに迎え、AIエージェントの基本概念や技術的な背景、導入時の課題、ビジネスへの応用可能性まで、幅広いトピックについてお伺いしました。</p>
-<p>AIエージェントに関心のある方や、現在導入を検討・推進されている方にとって必見の内容です。
-視聴をご希望の方は、以下のフォームよりご登録のうえ、ぜひご覧ください。</p>
-<p>:::button
-<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
-:::</p>
-<h3>ウェビナー内容</h3>
-<ul>
-<li>AIエージェントとは何か？その歴史と定義</li>
-<li>「エージェント型AI」と「エージェンティックAI」の違い</li>
-<li>なぜ今、AIエージェントが注目されているのか</li>
-<li>導入・展開に立ちはだかる技術的・組織的課題</li>
-<li>AIエージェント活用はどう進めるべきか</li>
-<li>AIエージェントはどうのように作るのか・相性の良い領域</li>
-<li>エージェント導入のROI</li>
-<li>AIエージェントが創る未来</li>
-</ul>
-<h3>このような方におすすめ</h3>
-<ul>
-<li>AI導入を検討中のビジネスリーダーの方</li>
-<li>IT部門・情報システム担当の方</li>
-<li>DX推進担当の方</li>
-<li>AIエージェントに関心があり、情報収集を進めている方</li>
-</ul>
-<h2>登壇者情報</h2>
-<p><strong>Sakana AI株式会社</strong>
-<strong>太田真人</strong>
-Applied Research Engineerとして、AIエージェントの社会実装に取り組む。前職の株式会社電通総研では、AIの技術調査やPoCを主導。対外的にもAIエージェントに関する最新情報の発信をしている。</p>
-<p><strong>株式会社Algomatic</strong>
-<strong>宮脇峻平</strong>
-AI/MLエンジニアとして、採用を支援するAIエージェントの自社開発および品質保証に従事。2019年より自然言語処理に取り組み、現在は学術研究員として東北大学大学院に所属。雑談対話応答や質問応答タスクのコンペティションにも参加。</p>
-<p><strong>株式会社ジェネラティブエージェンツ</strong>
-<strong>西見公宏</strong>
-2023年にAIエージェント解説書『その仕事、AIエージェントがやっておきました。』(技術評論社)を上梓し、その流れで共同創業者2名と共にAIエージェントの開発・利活用を専門に扱う株式会社ジェネラティブエージェンツを2024年3月に創業。共著に『LangChainとLangGraphによるRAG・AIエージェント[実践]入門』(技術評論社)。「本当に業務に使える」AIエージェントの開発に注力している。</p>
-<p><strong>株式会社電通総研</strong>
-<strong>後藤勇輝</strong>
-2018年から機械学習に取り組み、自社における製品開発・研究開発に従事。近年は生成AIの可能性に注目し、技術とビジネスの両面から価値創出に取り組んでいる。著書に『PyTorch実践入門 ディープラーニングの基礎から実装へ』(マイナビ出版)、『アジャイルとスクラムによる開発手法 Azure DevOpsによるプロフェショナルスクラムの実践』(マイナビ出版)がある。</p>
-<p><strong>株式会社電通総研</strong>
-<strong>阿田木勇八</strong>
-AIエンジニア / Kaggle Competitions Master。大学卒業後、大手医療機器メーカーに入社。製造現場やKaggleなどでデータ分析のスキルを磨く。その後、AIソリューションの提供側に興味をもち、2021年に電通総研に入社。機械学習を用いた製品開発、さまざまなAIモデル開発・改善案件に従事。現在は自然言語処理を扱う機能のソリューション開発に従事しており、2023年から生成AIエージェントの研究開発に取り組む。Kaggleでは、tacoriceとして参加している。</p>
-<h2>お申し込みはこちら</h2>
-<p>配信期間：2025年8月4日(月)〜 2025年8月22日(金)
-配信方式：オンデマンド（Zoom）
-参加費：無料</p>
-<p>:::button
-<a href="https://zfrmz.com/wtVBx4BjLIMrlndfC0Xm">ウェビナーの視聴はこちら（無料）</a>
-:::</p>
-]]></description>
-      <pubDate>Mon, 04 Aug 2025 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
