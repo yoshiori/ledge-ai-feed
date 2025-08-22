@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>オンデーズ、生成AIが“かけたまま試着”を実現　新提案サービス「OWNDAYS MIRROR」を展開</title>
+      <link>https://ledge.ai/articles/owndays_mirror_ai_try_on_without_removing_glasses</link>
+      <description><![CDATA[<p>メガネ・サングラスの製造販売を手掛けるオンデーズ（東京都品川区）は2025年8月19日、生成AIを活用した新サービス「OWNDAYS MIRROR（オンデーズ ミラー）」を<a href="https://www.owndays.com/jp/ja/information/822">発表</a>した。</p>
+<p>AIが顔立ちや雰囲気を分析し、メガネをかけたままでも試着できる体験を提供するのが特徴だ。</p>
+<h2>生成AIによる“かけたまま試着”とレコメンド</h2>
+<p>OWNDAYS MIRRORでは、カメラに映した顔画像をもとに生成AIが最適なフレームを提案。現在かけているメガネを画像上で仮想的に外し、新しいフレームをリアルタイムで合成表示することで、視力が弱いユーザーでも違和感なく比較検討できる。</p>
+<p><strong>AIが候補フレームを提示し、装着イメージを“かけたまま”で確認可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo03_2_91fec602d9/photo03_2_91fec602d9.jpg" alt="photo03-2.jpg" /></p>
+<h2>“なりたい印象”を8タイプから選択</h2>
+<p>ユーザーは「カジュアル」「フォーマル」「クール」「ソフト」「シンプル」「グラマラス」「モダン」「クラシック」の8種類の印象から“なりたい印象”を選択。AIが選択に応じて似合い度や印象コメントを提示し、候補フレームを絞り込む。</p>
+<p><strong>“なりたい印象”を選ぶ画面。8タイプから選ぶとAIが候補を最適化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo03_1_c103e87778/photo03_1_c103e87778.jpg" alt="photo03-1.jpg" /></p>
+<p>気に入ったフレームはそのまま店頭在庫を確認でき、実物の試着・購入に進める。価格や在庫数、同系統の別カラーなども画面上で確認できる。</p>
+<p><strong>候補フレームの詳細画面。価格・在庫・カラーバリエーションも同時に確認</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo01_1d02f996d4/photo01_1d02f996d4.jpg" alt="photo01.jpg" /></p>
+<h2>店舗導入とスケジュール</h2>
+<p>新サービスは8月20日にオープンする「OWNDAYS天王洲アイル店」をはじめ、全国11店舗に導入される。2026年3月末までに国内全店舗、さらに海外店舗にも順次展開する予定だ。</p>
+<p>天王洲アイル店はDX推進モデル店舗に位置づけられており、リモート視力測定やRFIDを活用した商品管理、キャッシュレスセルフレジなどの最新設備を導入。OWNDAYS MIRRORはその目玉機能として位置づけられている。</p>
+<h2>今後の展開</h2>
+<p>同社によると「似合うメガネがわからない」「基準がない」「視力の悪さで印象が掴めない」といった顧客の声がサービス開発のきっかけになったという。混雑時でも自分のペースで納得して選べる新しい顧客体験を提供し、スタッフの負担軽減にもつなげたい考えだ。</p>
+<p>オンデーズは今後もテクノロジーと人の接客を融合させ、顧客体験の進化を進めていく方針を示している。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
       <link>https://ledge.ai/articles/ll3m_blender_llm_3d_modeling</link>
       <description><![CDATA[<p>シカゴ大学の研究チームは2025年8月11日、自然言語の指示だけでBlender内に3Dアセットを作り出せるシステム「LL3M（Large Language 3D Modelers）」を<a href="https://arxiv.org/abs/2508.08228">発表</a>した。大規模言語モデル（LLM）が直接Pythonコードを生成し、オブジェクトやシーンを自在に構築・編集するという新しいアプローチだ。論文はarXivに公開され、公式プロジェクトページやGitHubリポジトリも公開されている。</p>
