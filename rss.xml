@@ -88,6 +88,115 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
       <pubDate>Thu, 21 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
+      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
+<h2>ベータを経て正式版へ</h2>
+<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
+<h2>利用プラン</h2>
+<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
+<h2>プライバシーと安全性</h2>
+<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
+<h2>今後の展望</h2>
+<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/8/18 [MON]Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
+      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
+      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
+<h2>新手法の概要</h2>
+<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
+<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
+<h2>実験結果</h2>
+<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
+<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
+<h2>意義と応用可能性</h2>
+<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
+<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
+      <link>https://ledge.ai/articles/google_gemma3_270m_release</link>
+      <description><![CDATA[<p>Googleは2025年8月14日、小型オープンモデル「Gemma 3 270M」を<a href="https://developers.googleblog.com/en/introducing-gemma-3-270m/">発表</a>した。2億7000万パラメータという軽量な構成ながら、高い性能と省電力性を両立。スマートフォンや低リソース環境でも効率的に利用できる点が特徴で、AIの利用範囲をさらに広げる存在として注目を集めている。</p>
+<h2>小型モデルの正式リリース</h2>
+<p>Googleが発表した「Gemma 3 270M」は、同社の最新モデル群「Gemma 3」シリーズのなかで最小規模のモデルとなる。2億7000万パラメータというサイズながら、量子化を含む最適化技術を取り入れることで高い応答性能を実現している。オープンモデルとして公開され、研究者や開発者が幅広く活用できる点も特徴だ。</p>
+<h2>技術的な特徴</h2>
+<p>Gemma 3 270Mは、メモリや電力の制約がある環境での実行を想定し設計されている。量子化により少ないリソースでの推論が可能で、エッジAIやモバイルデバイスへの実装を視野に入れている。また、Googleの最新研究成果を取り入れた学習設計によって、応答の一貫性と堅牢性を兼ね備えているという。</p>
+<p><strong>■ Gemma 3 270Mの性能比較（IFEvalスコア）。同規模のモデルを上回る効率を実現している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65.jpg" alt="Gemma3-270M_Chart01_RD3-V01.original.jpg" /></p>
+<h2>利用シーンと応用可能性</h2>
+<p>同モデルは、スマートフォンやIoTデバイスといった軽量環境での利用に適している。具体的には、チャットボットや検索補助、タスク特化型アプリケーションなど、現場に即した応用が期待される。</p>
+<p>Google公式ブログでは、実際の応用例として「Bedtime Story Generator」アプリが紹介されている。これは、Hugging Faceの開発者がTransformers.jsを用いて制作したWebベースの物語生成アプリで、Gemma 3 270Mがその処理を支えている。小型で高性能な特性が、こうした創造的なタスクをオフラインで可能にしている。</p>
+<p><strong>Gemma 3 270M を活用した「Bedtime Story Generator」アプリのデモ</strong></p>
+<p>@<a href="https://www.youtube.com/watch?v=ds95v-Aiu5E">YouTube</a></p>
+<p>米VentureBeatは「スマートフォン上で動作可能な超小型モデル」と報じ、エッジデバイスでの実用性を強調。Analytics India Magも「タスク特化型AIモデルとして電力効率に優れる」と評価している。こうした外部の評価からも、軽量モデル市場における注目度の高さがうかがえる。</p>
+<h2>今後の展望</h2>
+<p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
+      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
+      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
+<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
+<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
+<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
+<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
+<ul>
+<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
+<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
+</ul>
+<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
+<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
+<h2>復活要求の割合と推計</h2>
+<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
+<ul>
+<li>#keep4o投稿の45.5％が復活を求める内容</li>
+<li>「4o」言及投稿の19.7％が復活を求める内容
+「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
+</ul>
+<p><strong>復活を求める声の割合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
+<h2>日別推移から見える傾向</h2>
+<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
+<p><strong>各ワードの日ごとの言及数</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
+<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
+<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
+<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
+<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
+<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
+      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
+      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
+<h2>業界特化型AIエージェントの開発へ</h2>
+<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
+<h2>クラウド近代化とセキュリティ強化</h2>
+<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
+<h2>人材育成とグローバル体制</h2>
+<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
+<h2>今後の展望</h2>
+<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
+<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
+<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/8/20 [WED]NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
       <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
       <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
@@ -252,98 +361,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>同社は、制作した番組フォーマットを海外市場に展開する方針も掲げており、今回のファンドは国際展開に向けた戦略的な一歩となるとのこと。国内外に向けてタレント主導のコンテンツ制作を拡大し、エンターテインメントの新たな可能性を切り拓く狙いだ。</p>
 ]]></description>
       <pubDate>Wed, 20 Aug 2025 23:50:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
-      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
-<h2>ベータを経て正式版へ</h2>
-<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
-<h2>利用プラン</h2>
-<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
-<h2>プライバシーと安全性</h2>
-<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
-<h2>今後の展望</h2>
-<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/8/18 [MON]Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
-      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
-      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
-<h2>新手法の概要</h2>
-<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
-<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
-<h2>実験結果</h2>
-<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
-<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
-<h2>意義と応用可能性</h2>
-<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
-<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
-      <link>https://ledge.ai/articles/google_gemma3_270m_release</link>
-      <description><![CDATA[<p>Googleは2025年8月14日、小型オープンモデル「Gemma 3 270M」を<a href="https://developers.googleblog.com/en/introducing-gemma-3-270m/">発表</a>した。2億7000万パラメータという軽量な構成ながら、高い性能と省電力性を両立。スマートフォンや低リソース環境でも効率的に利用できる点が特徴で、AIの利用範囲をさらに広げる存在として注目を集めている。</p>
-<h2>小型モデルの正式リリース</h2>
-<p>Googleが発表した「Gemma 3 270M」は、同社の最新モデル群「Gemma 3」シリーズのなかで最小規模のモデルとなる。2億7000万パラメータというサイズながら、量子化を含む最適化技術を取り入れることで高い応答性能を実現している。オープンモデルとして公開され、研究者や開発者が幅広く活用できる点も特徴だ。</p>
-<h2>技術的な特徴</h2>
-<p>Gemma 3 270Mは、メモリや電力の制約がある環境での実行を想定し設計されている。量子化により少ないリソースでの推論が可能で、エッジAIやモバイルデバイスへの実装を視野に入れている。また、Googleの最新研究成果を取り入れた学習設計によって、応答の一貫性と堅牢性を兼ね備えているという。</p>
-<p><strong>■ Gemma 3 270Mの性能比較（IFEvalスコア）。同規模のモデルを上回る効率を実現している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65/Gemma3_270_M_Chart01_RD_3_V01_original_8e89e75c65.jpg" alt="Gemma3-270M_Chart01_RD3-V01.original.jpg" /></p>
-<h2>利用シーンと応用可能性</h2>
-<p>同モデルは、スマートフォンやIoTデバイスといった軽量環境での利用に適している。具体的には、チャットボットや検索補助、タスク特化型アプリケーションなど、現場に即した応用が期待される。</p>
-<p>Google公式ブログでは、実際の応用例として「Bedtime Story Generator」アプリが紹介されている。これは、Hugging Faceの開発者がTransformers.jsを用いて制作したWebベースの物語生成アプリで、Gemma 3 270Mがその処理を支えている。小型で高性能な特性が、こうした創造的なタスクをオフラインで可能にしている。</p>
-<p><strong>Gemma 3 270M を活用した「Bedtime Story Generator」アプリのデモ</strong></p>
-<p>@<a href="https://www.youtube.com/watch?v=ds95v-Aiu5E">YouTube</a></p>
-<p>米VentureBeatは「スマートフォン上で動作可能な超小型モデル」と報じ、エッジデバイスでの実用性を強調。Analytics India Magも「タスク特化型AIモデルとして電力効率に優れる」と評価している。こうした外部の評価からも、軽量モデル市場における注目度の高さがうかがえる。</p>
-<h2>今後の展望</h2>
-<p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
-      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
-      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
-<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
-<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
-<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
-<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
-<ul>
-<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
-<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
-</ul>
-<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
-<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
-<h2>復活要求の割合と推計</h2>
-<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
-<ul>
-<li>#keep4o投稿の45.5％が復活を求める内容</li>
-<li>「4o」言及投稿の19.7％が復活を求める内容
-「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
-</ul>
-<p><strong>復活を求める声の割合</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
-<h2>日別推移から見える傾向</h2>
-<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
-<p><strong>各ワードの日ごとの言及数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
-<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
-<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
-<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
-<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
-<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
@@ -537,23 +554,6 @@ ld_media_sales@ledge.co.jp
       <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
-      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
-      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
-<h2>業界特化型AIエージェントの開発へ</h2>
-<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
-<h2>クラウド近代化とセキュリティ強化</h2>
-<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
-<h2>人材育成とグローバル体制</h2>
-<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
-<h2>今後の展望</h2>
-<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
-<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
-<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
       <link>https://ledge.ai/articles/asi_arch_ai_self_design_1773_experiments_106_architectures</link>
       <description><![CDATA[<p>上海交通大学やSII（Shanghai Institute for Intelligence）などの研究チームは2025年7月24日、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発したと<a href="https://arxiv.org/abs/2507.18074">発表</a>した。</p>
@@ -573,25 +573,6 @@ ld_media_sales@ledge.co.jp
 <p>ASI-ARCHは、発見したアーキテクチャや探索過程の「認知トレース」を含む全フレームワークを公開している。研究チームは「人間の認知に依存しない研究加速の可能性」を示し、今後さらに大規模な探索による新発見が期待されるとしている。</p>
 ]]></description>
       <pubDate>Sun, 17 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テスラ、AIスーパーコンピューター「Dojo」開発を停止──チーム解散、リーダー退社で戦略転換へ</title>
-      <link>https://ledge.ai/articles/tesla_dojo_shutdown_team_dissolved</link>
-      <description><![CDATA[<p>Teslaは、社内で開発を進めてきたAIスーパーコンピューター「Dojo」の開発を停止した。米国時間2025年8月7日、<a href="https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort">Bloomberg</a>が複数の関係者の話として報じたもので、専任チームは解散し、リーダーのPeter Bannon氏が同社を退社する。約20人のメンバーは新興企業へ移籍し、残る人員は社内の他プロジェクトへ再配置されるという。</p>
-<h2>自動運転の中核を担う計画だった「Dojo」</h2>
-<p>Dojoは、自動運転機能「Full Self-Driving（FSD）」や機械学習の高速処理を目的にTeslaが独自開発してきた社内スーパーコンピューター。大規模な映像データ処理能力を活かし、自動運転アルゴリズムの訓練時間を短縮する役割を担っていた。今回のチーム解散により、事実上の開発終了となる。</p>
-<h2>人員の移籍と再配置</h2>
-<p>Bloombergによると、チームの中核を担っていた約20人は、新たに設立されたスタートアップ「DensityAI」に移籍。残るメンバーはTesla内のデータセンターやコンピュート関連プロジェクトに異動し、Dojo関連の業務から離れる。</p>
-<h2>戦略転換とチップ開発の集中</h2>
-<p>同社のCEOであるイーロン・マスク氏は、米国時間8月8日に自身の<a href="https://x.com/elonmusk/status/1953660184351707210">X（旧Twitter）</a>で、「Teslaが2つのAIチップアーキテクチャを並行して維持するのは合理的ではない」と述べ、「今後は推論処理に優れ、訓練にも対応できるAI5／AI6チップ開発に全力を注ぐ」と発信した。</p>
-<p>さらに、スーパーコンピュータークラスターではAI5／AI6チップを多数搭載したボードを構成することで、推論や訓練の用途を問わずネットワークケーブルの複雑さとコストを桁違いに削減できるとし、「それをDojo 3と呼べるかもしれない」とコメント。加えて、「AI4からAI5への実性能の向上は、これまで聞いたどのチップ世代間の差よりも大きい。本当に素晴らしい」と、その性能向上幅を強調した。</p>
-<p>AI6チップはSamsungと製造契約を結び、数十億ドル規模の取引になる見込みだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tesla_dojo_937553d37a/tesla_dojo_937553d37a.jpg" alt="tesla dojo.jpg" /></p>
-<h2>外部パートナーとの連携強化</h2>
-<p>Teslaは今後、AIコンピューティング基盤においてNVIDIAやAMD製のGPUを活用するほか、Samsungとの協業を通じてAIチップ開発を加速させる。内製路線を縮小し、外部の先端技術を組み合わせる戦略に移行するとみられる。</p>
-<p>DojoはTeslaの完全自動運転構想における中核技術とされていただけに、その開発停止は同社のAI戦略全体に大きな方向転換をもたらす。業界では、内製型から外部調達型へのシフトを象徴する事例との見方が出ている。</p>
-]]></description>
-      <pubDate>Fri, 15 Aug 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
