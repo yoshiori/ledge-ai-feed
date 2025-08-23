@@ -39,7 +39,7 @@
       <pubDate>Fri, 22 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
+      <title>ビジネス2025/8/22 [FRI]アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
       <link>https://ledge.ai/articles/qwen_image_edit_release</link>
       <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
 <h2>技術的特徴</h2>
@@ -189,7 +189,7 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
       <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/18 [MON]Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
+      <title>Google、小型オープンモデル「Gemma 3 270M」を公開──2.7億パラメータで高性能を実現</title>
       <link>https://ledge.ai/articles/google_gemma3_270m_release</link>
       <description><![CDATA[<p>Googleは2025年8月14日、小型オープンモデル「Gemma 3 270M」を<a href="https://developers.googleblog.com/en/introducing-gemma-3-270m/">発表</a>した。2億7000万パラメータという軽量な構成ながら、高い性能と省電力性を両立。スマートフォンや低リソース環境でも効率的に利用できる点が特徴で、AIの利用範囲をさらに広げる存在として注目を集めている。</p>
 <h2>小型モデルの正式リリース</h2>
@@ -376,7 +376,7 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
       <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/8/19 [TUE]Meta、自己教師あり学習の最新モデル「DINOv3」発表──ラベルなし17億枚画像で訓練、従来モデルを超える性能</title>
+      <title>Meta、自己教師あり学習の最新モデル「DINOv3」発表──ラベルなし17億枚画像で訓練、従来モデルを超える性能</title>
       <link>https://ledge.ai/articles/eta_dinov3_self_supervised_vision_model</link>
       <description><![CDATA[<p>Metaは2025年8月14日、自社AI研究チームが開発した新しいコンピュータビジョンモデル「DINOv3」を<a href="https://ai.meta.com/blog/dinov3-self-supervised-vision-model/">発表</a>した。このモデルは、膨大なラベルなし画像を用いた自己教師あり学習（self-supervised learning, SSL）によって訓練され、多様な視覚タスクで既存の専門モデルを超える性能を示している。</p>
 <p>@<a href="https://www.youtube.com/watch?v=-eOYWK6m3i8">YouTube</a></p>
@@ -506,7 +506,7 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 19 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
+      <title>学術＆研究2025/8/20 [WED]NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
       <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
       <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
 <h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
