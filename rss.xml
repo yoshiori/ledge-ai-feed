@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
+      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
+      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
+<h2>IQテストによる性能比較</h2>
+<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
+<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
+<h2>Mensaテストと独自テスト</h2>
+<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
+<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
+<h2>政治的・社会的な質問比較</h2>
+<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
+<h2>サンプル問題の公開</h2>
+<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
+<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
+<h2>FAQと今後の展望</h2>
+<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
+<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
+]]></description>
+      <pubDate>Fri, 22 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>竹中工務店、建築設計AI「Tektome KnowledgeBuilder」を導入──設計業務の生産性向上と働き方改革を推進</title>
       <link>https://ledge.ai/articles/takenaka_koumuten_ai_design_solution</link>
       <description><![CDATA[<p>建築大手の竹中工務店は2025年8月18日、AIを活用した建築設計支援ソリューション「Tektome KnowledgeBuilder」を導入したことを<a href="https://prtimes.jp/main/html/rd/p/000000008.000136954.html">発表</a>した。開発元のテクトムが8月18日に発表したもので、設計業務における生産性向上や働き方改革を加速させる狙いがあるという。</p>
@@ -568,23 +592,6 @@ ld_media_sales@ledge.co.jp
 <p>ASI-ARCHは、発見したアーキテクチャや探索過程の「認知トレース」を含む全フレームワークを公開している。研究チームは「人間の認知に依存しない研究加速の可能性」を示し、今後さらに大規模な探索による新発見が期待されるとしている。</p>
 ]]></description>
       <pubDate>Sun, 17 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏、アップルを反トラスト違反で訴える構え—App StoreでX/Grokを意図的に排除？アルトマン氏と舌戦</title>
-      <link>https://ledge.ai/articles/musk_accuses_apple_appstore_bias</link>
-      <description><![CDATA[<p>ⅹAIのCEOであるイーロン・マスク氏は2025年8月12日（現地時間）、AppleがApp Storeのランキングを操作し、自社のXアプリや生成AI「Grok」が上位に表示されないようにしていると非難し、独占禁止法違反で訴訟を検討していると<a href="https://x.com/elonmusk/status/1955073616996975095">明らかにした。</a>した。Appleはこれを否定し、「公平でバイアスのない運営」を行っていると反論。さらに、OpenAI CEOのサム・アルトマン氏との間でランキング操作をめぐる応酬も展開された。</p>
-<h2>マスク氏の主張</h2>
-<p>マスク氏はXで、「AppleはApp Storeのランキングを操作し、XやGrokがトップに来ないようにしている」と投稿し、「これは反トラスト法違反であり、即座に訴訟を起こす」と明言。さらに、「もし自分がApp Storeを運営していたら、競合アプリも含め公平に扱う」と述べ、Appleの対応を批判した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03/that_makes_it_impossible_for_any_AI_company_besides_Open_AI_01bc608a03.jpg" alt="that makes it impossible for any AI company besides OpenAI.jpg" /></p>
-<h2>Appleの反論</h2>
-<p>AppleはAP通信などへの<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">声明</a>で「App Storeは公平かつバイアスのない設計で、数千のアプリをチャートやアルゴリズム、専門家の推薦で扱っている」と説明し、マスク氏の主張を否定した。</p>
-<h2>業界内の応酬</h2>
-<p>OpenAI CEOのサム・アルトマン氏はXで、「マスク氏はXのランキングを自分に有利に操作しているのではないか」と投稿した。これに対しマスク氏は、「Xのランキングはオープンかつ透明で、誰でも検証できる。App Storeの不透明なランキングとは違う」と再反論した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/remarkable_claim_sama_23ea35539d/remarkable_claim_sama_23ea35539d.jpg" alt="remarkable claim sama.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/You_got_3_M_views_elon_01c995014a/You_got_3_M_views_elon_01c995014a.jpg" alt="You got 3M views elon.jpg" /></p>
-<p>この騒動は、Appleがこれまで直面してきた<a href="https://apnews.com/article/musk-apple-twitter-lawsuit-antitrust-app-c60e3690d2e232e0cd0c41cbe86f66be">独占禁止法関連の動き</a>とも重なる。EUは同社に対して5億ユーロの罰金を科し、米司法省も訴訟を提起。さらにEpic Gamesとの係争など、App Storeの運営をめぐる規制圧力は高まっている。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
