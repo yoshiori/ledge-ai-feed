@@ -5,7 +5,7 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>ByteDance、AI推論モデル「Seed-Prover」を数学オリンピックの結果とともに発表──公式には銀メダル相当、実際はGoogle、OpenAIに続き金メダル水準の成果</title>
+      <title>学術＆研究2025/8/23 [SAT]ByteDance、AI推論モデル「Seed-Prover」を数学オリンピックの結果とともに発表──公式には銀メダル相当、実際はGoogle、OpenAIに続き金メダル水準の成果</title>
       <link>https://ledge.ai/articles/ai_math_olympiad_seed_prover</link>
       <description><![CDATA[<p>中国ByteDanceの研究チームは2025年7月23日、AI推論モデル「Seed-Prover」を<a href="https://seed.bytedance.com/en/blog/bytedance-seed-prover-achieves-silver-medal-score-in-imo-2025">公開</a>した。同社公式ブログでは「Silver Medal Score（銀メダル相当）」と表現されたが、Seed-Proverが記録した30点は、2025年の国際数学オリンピック（IMO）における金メダルカットラインに到達するものであり、実質的に金メダル水準の成果といえる。詳細をまとめた論文は7月31日にarXivで<a href="https://arxiv.org/abs/2507.23726">公開</a>された。</p>
 <p>Seed-Proverは、定理証明器「Lean」を基盤に構築された形式証明型AIモデルである。補題（レマ）のプールを生成・活用しながら段階的に証明を組み立て、各ステップを機械可読な形式で検証する仕組みにより、証明の厳密性を担保できる。論文では、過去IMOの形式化問題で78.1％の成功率を記録し、さらにMiniF2FやPutnamBenchといったベンチマークでも最新水準の成績を達成したことが示されている。</p>
@@ -61,7 +61,7 @@
       <pubDate>Fri, 22 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/22 [FRI]アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
+      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
       <link>https://ledge.ai/articles/qwen_image_edit_release</link>
       <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
 <h2>技術的特徴</h2>
