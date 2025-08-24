@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ByteDance、AI推論モデル「Seed-Prover」を数学オリンピックの結果とともに発表──公式には銀メダル相当、実際はGoogle、OpenAIに続き金メダル水準の成果</title>
+      <link>https://ledge.ai/articles/ai_math_olympiad_seed_prover</link>
+      <description><![CDATA[<p>中国ByteDanceの研究チームは2025年7月23日、AI推論モデル「Seed-Prover」を<a href="https://seed.bytedance.com/en/blog/bytedance-seed-prover-achieves-silver-medal-score-in-imo-2025">公開</a>した。同社公式ブログでは「Silver Medal Score（銀メダル相当）」と表現されたが、Seed-Proverが記録した30点は、2025年の国際数学オリンピック（IMO）における金メダルカットラインに到達するものであり、実質的に金メダル水準の成果といえる。詳細をまとめた論文は7月31日にarXivで<a href="https://arxiv.org/abs/2507.23726">公開</a>された。</p>
+<p>Seed-Proverは、定理証明器「Lean」を基盤に構築された形式証明型AIモデルである。補題（レマ）のプールを生成・活用しながら段階的に証明を組み立て、各ステップを機械可読な形式で検証する仕組みにより、証明の厳密性を担保できる。論文では、過去IMOの形式化問題で78.1％の成功率を記録し、さらにMiniF2FやPutnamBenchといったベンチマークでも最新水準の成績を達成したことが示されている。</p>
+<p><strong>MiniF2F-Testでの性能推移。Seed-Proverは2025年時点で最高水準の通過率を記録している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mini_F2_F_d1294f309f/Mini_F2_F_d1294f309f.jpg" alt="MiniF2F.jpg" /></p>
+<p>ByteDanceはSeed-Proverを「Silver Medal Score」と発表したが、実際には自動定理証明システムに位置づけられるものであり、LLMを活用して形式証明を構築する新しいタイプのアプローチである。従来の完全自動型とは異なり、大規模言語モデルによる柔軟な探索と、定理証明器による厳密な検証を組み合わせる点に特色がある。</p>
+<p><strong>Seed-Proverの各種ベンチマーク成績（左）と従来モデル（右）の比較。IMO 2025、MiniF2F、PutnamBenchなどで従来を大幅に上回った</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4og2ymdfewdkk_0259ab7f69/4og2ymdfewdkk_0259ab7f69.jpeg" alt="4og2ymdfewdkk.jpeg" /></p>
+<h2>金メダル水準の成果、それぞれのアプローチ</h2>
+<p>2025年のIMOをめぐっては、GoogleやOpenAIも金メダル水準の成果を発表している。それぞれのアプローチには違いがある。</p>
+<ul>
+<li><strong>Google DeepMind（Gemini Deep Think）</strong> ：6問中5問を解答し、公式採点で35点を獲得。自然言語のみで証明を構築し、短時間で人間と同じ条件下で金メダル水準を達成した。</li>
+<li><strong>OpenAI（実験モデル）</strong> ：同じく6問中5問を解き35点と発表。元IMOメダリストによる採点で妥当性が確認されたが、公式認定はない。自然言語ベースで幅広い問題に対応できる点を強みとする。</li>
+<li><strong>ByteDance Seed-Prover</strong> ：公式ブログでは「Silver Medal Score」とされたが、30点は金メダルのカットラインに到達。Lean上で形式的に証明を構築し、機械検証可能な厳密な証明を生成する。大会3日間を通じて探索を行う方式で、時間は要するが厳密性を優先した設計だ。</li>
+</ul>
+<h2>今後の展望</h2>
+<p>Seed-Proverは、自然言語で証明を生成する従来型モデルとは異なり、定理証明器によって機械的に検証可能な形式証明を構築する点に特徴がある。論文では、この厳密な証明構築は数学研究の支援や形式検証（formal verification）といった分野に応用できる可能性があると記されている。</p>
+]]></description>
+      <pubDate>Sat, 23 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
       <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
       <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
@@ -552,27 +574,6 @@ ld_media_sales@ledge.co.jp
 <p>Anthropicによる「年間1ドル」提供は、公共部門におけるAI普及を一気に加速させる試みである。同時に、OpenAIやxAIなどライバル企業との競争を象徴する施策でもある。AIの政府利用は行政効率化や政策立案の高度化を後押しする一方で、特定企業への依存や規制対応といった課題も残されており、今後の展開に注目が集まる。</p>
 ]]></description>
       <pubDate>Mon, 18 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国の研究チーム、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発──1773回の試行から106件の高性能なAttention機構を発見</title>
-      <link>https://ledge.ai/articles/asi_arch_ai_self_design_1773_experiments_106_architectures</link>
-      <description><![CDATA[<p>上海交通大学やSII（Shanghai Institute for Intelligence）などの研究チームは2025年7月24日、AIが自律的にAIのモデル設計を行うシステム「ASI-ARCH」を開発したと<a href="https://arxiv.org/abs/2507.18074">発表</a>した。</p>
-<p>従来のNeural Architecture Search（NAS）が人間の定義した探索空間に依存していたのに対し、ASI-ARCHは仮説生成からコード実装、学習、評価、結果分析までをAI自身が完結させるのが特徴だ。</p>
-<h2>AIが「設計者」となる仕組み</h2>
-<p>ASI-ARCHは、3つの役割を持つエージェントが協調して動作する。Researcherは新しいアーキテクチャの仮説を立案し、Engineerがコード実装と学習を行い、Analystが結果を分析して次の仮説にフィードバックする。さらに外部知識を参照する「Cognition」モジュールが、この循環を強化する。</p>
-<p><strong>■ ASI-ARCHの全体構成</strong> ：Researcher→Engineer→Analystが閉ループで連携し、Cognitionの知識を取り込みながら次の設計へと進化する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ASI_Arch_figure4_overview_9897ace823/ASI_Arch_figure4_overview_9897ace823.jpg" alt="ASI-Arch figure4 overview.jpg" /></p>
-<h2>1,773回の実験から生まれた成果</h2>
-<p>研究チームはASI-ARCHを用い、計20,000 GPU時間に相当する1,773回の自律実験を実施。その結果、DeltaNetやMamba2など既存モデルを上回る性能を持つ、106件の線形アテンション（linear attention）アーキテクチャを発見した。</p>
-<p>探索は行き当たりばったりではなく、指標に沿って着実に改善した。候補上位群の性能は上昇し、損失は低下。総合スコアは初期に急伸し、その後も安定的に推移した。106件のSOTAアーキテクチャはゲーティング機構や畳み込みといった有効な要素に収束しており、単なる偶然や奇抜な設計ではなかった。</p>
-<p>探索されたモデルは多くが400～600Mパラメータの規模に集中し、後半でも過度な巨大化は見られなかった。性能改善は「規模依存」ではなく、設計の工夫によることが示された。</p>
-<h2>科学的発見のスケーリング則</h2>
-<p>さらに研究チームは、計算資源の増加に比例して発見されるSOTA数が直線的に伸びることを確認。「科学的発見もスケールする」という新たなスケーリング則を初めて実証した。</p>
-<p><strong>■ 科学的発見のスケーリング則</strong> ：計算時間に対し、発見されたSOTAアーキテクチャの累積数が線形に伸びることを示した図。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_cumulative_count_a5719e0349/The_cumulative_count_a5719e0349.jpg" alt="The cumulative count.jpg" /></p>
-<p>ASI-ARCHは、発見したアーキテクチャや探索過程の「認知トレース」を含む全フレームワークを公開している。研究チームは「人間の認知に依存しない研究加速の可能性」を示し、今後さらに大規模な探索による新発見が期待されるとしている。</p>
-]]></description>
-      <pubDate>Sun, 17 Aug 2025 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
