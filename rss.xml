@@ -27,30 +27,6 @@
       <pubDate>Sat, 23 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
-      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
-      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
-<h2>IQテストによる性能比較</h2>
-<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
-<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
-<h2>Mensaテストと独自テスト</h2>
-<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
-<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
-<h2>政治的・社会的な質問比較</h2>
-<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
-<h2>サンプル問題の公開</h2>
-<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
-<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
-<h2>FAQと今後の展望</h2>
-<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
-<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
-]]></description>
-      <pubDate>Fri, 22 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>竹中工務店、建築設計AI「Tektome KnowledgeBuilder」を導入──設計業務の生産性向上と働き方改革を推進</title>
       <link>https://ledge.ai/articles/takenaka_koumuten_ai_design_solution</link>
       <description><![CDATA[<p>建築大手の竹中工務店は2025年8月18日、AIを活用した建築設計支援ソリューション「Tektome KnowledgeBuilder」を導入したことを<a href="https://prtimes.jp/main/html/rd/p/000000008.000136954.html">発表</a>した。開発元のテクトムが8月18日に発表したもので、設計業務における生産性向上や働き方改革を加速させる狙いがあるという。</p>
@@ -161,43 +137,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>米VentureBeatは「スマートフォン上で動作可能な超小型モデル」と報じ、エッジデバイスでの実用性を強調。Analytics India Magも「タスク特化型AIモデルとして電力効率に優れる」と評価している。こうした外部の評価からも、軽量モデル市場における注目度の高さがうかがえる。</p>
 <h2>今後の展望</h2>
 <p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
-]]></description>
-      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Xで可視化された「GPT-4o復活」要求──#keep4oは少数派でも実数は無視できず、東大・鳥海教授が約4,600アカウントを推計</title>
-      <link>https://ledge.ai/articles/gpt4o_support_analysis_prof_toriumi</link>
-      <description><![CDATA[<p>OpenAIが最新モデル「GPT-5」を公開後、旧モデル「GPT-4o」の提供終了をめぐり、SNS上で復活を求める声がどの程度あったのか。</p>
-<p>東京大学大学院工学系研究科教授の鳥海不二夫氏は2025年8月13日、X（旧Twitter）の投稿データを分析し、#keep4o投稿の45.5％、4o言及投稿の19.7％が復活要望と判定。復活を望むアカウントは世界でおよそ4,600と推計された。鳥海氏の記事<a href="https://news.yahoo.co.jp/expert/articles/8a2a2230c4ace5ec31a1caa0b701af3a730b5a10">「Xの中心で「GPT-4oの復活」を求めた人々」</a>より。</p>
-<h2>GPT-5公開直後に可視化された“4oロス” と、データで見る #keep4o</h2>
-<p>2025年8月7日、OpenAIはChatGPTのデフォルトモデルをGPT-5に切り替えた。仕様変更と同時に4oが利用できなくなり、一部のユーザーはSNSで復活を求める声を上げた。その動きの一端が「#keep4o」というハッシュタグとして現れた。</p>
-<p>鳥海氏は、2025年8月1〜10日にX上で投稿されたデータを集計した。</p>
-<ul>
-<li>#keep4o：オリジナル投稿 2,048件、リポスト 7,864件</li>
-<li>「4o」言及：オリジナル投稿 57,800件、リポスト 160,990件</li>
-</ul>
-<p>#keep4oはタグとしての規模は限定的だったが、「4o」という単語は広く使われていた。</p>
-<p><strong>#keep4o，4o，GPT-5のポスト数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755014567042_5ebcaad2c8/image_1755014567042_5ebcaad2c8.jpg" alt="image-1755014567042.jpg" /></p>
-<h2>復活要求の割合と推計</h2>
-<p>抽出した各1,000件の投稿をAI（GPT-4o mini）で分類した結果、</p>
-<ul>
-<li>#keep4o投稿の45.5％が復活を求める内容</li>
-<li>「4o」言及投稿の19.7％が復活を求める内容
-「4o」言及のユニークアカウントは約2.3万とされ、そのうち約4,600アカウントが復活を望んでいた計算になる。鳥海氏は「タグ頼みでは見えにくいが、広く薄く支持が存在していた」と述べている。</li>
-</ul>
-<p><strong>復活を求める声の割合</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016225338_7e13ee67a9/image_1755016225338_7e13ee67a9.jpg" alt="image-1755016225338.jpg" /></p>
-<h2>日別推移から見える傾向</h2>
-<p>期間内の投稿総量ではGPT-5が優勢だったが、#keep4oは特定日にスパイク的な伸びを見せた。同氏は「旧モデル支持は持続的な大河ではないが、確かな波として存在していた」と指摘する。</p>
-<p><strong>各ワードの日ごとの言及数</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1755016729801_3bf91e2a32/image_1755016729801_3bf91e2a32.jpg" alt="image-1755016729801.jpg" /></p>
-<p>8月9日、OpenAIのサム・アルトマンCEOはXで、有料プラン向けに4oをレガシーモデルとして再提供する方針を発表した。利用は設定からレガシーモデル表示を有効化することで可能となる。提供は限定的な移行期間に限られ、恒久提供は未定だ。</p>
-<p>8月15日現在、GPT-5はChatGPTのデフォルトモデルとして、無料ユーザーを含む全プランで提供されている。背後では「速く応答するモデル」と「深く考えるモデル」を自動で切り替えるリアルタイムルーターが動作しており、会話の内容に応じて最適な処理が選ばれる。ユーザーは必要に応じて「Auto」「Fast」「Thinking」などのモードを手動で切り替えることも可能だ。</p>
-<p>同日、OpenAIはGPT-5の会話スタイルを従来よりも温かく親しみやすいものに調整したと発表した。従来は形式的すぎるとのフィードバックが寄せられていたが、今回の変更により、「Good question」や「Great start」といった自然な応答が追加される。ただし、お世辞の増加は内部テストで確認されていないという。</p>
-<p>アルトマン氏は、今後はユーザーがChatGPTの会話スタイルをより自由にカスタマイズできるようにすることが本質的な解決策であり、その開発を進めていると述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_gpt5_17ff138c70/samaltman_gpt5_17ff138c70.jpg" alt="samaltman gpt5.jpg" /></p>
-<p>鳥海氏は今回の分析について、「#keep4oというハッシュタグ自体は投稿数が限られていたが、4oというキーワードを含む投稿の中には一定割合で復活を求める声が存在した」と指摘する。その上で、タグの利用状況だけではユーザーの意向を正確に測れず、広く薄く分布する支持の把握が重要だと述べた。今回のGPT-4o復活は、そうした実需をOpenAIが一定程度反映した事例といえる。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
     </item>
@@ -314,6 +253,30 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>同社によると、約400台のB200 GPUを北海道・石狩データセンターに導入。これにより国内における生成AI開発環境の安定供給を図る。提供開始は8月15日からで、初期利用キャンペーンも実施されるとのこと。</p>
 <p>これまでも「高火力 VRT」などのGPUクラウドサービスを展開してきたさくらインターネット。今回の新プラン投入により、生成AI需要の拡大に対応するとともに、国内の企業や研究機関によるAI活用を後押しする狙いがある。</p>
 <p>同社は、今後も最新GPUを活用した研究やサービス開発を支援し、国内データセンターを基盤とした高性能かつ安心なクラウド環境の提供を強化していくとしている。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
+      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
+      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
+<h2>IQテストによる性能比較</h2>
+<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
+<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
+<h2>Mensaテストと独自テスト</h2>
+<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
+<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
+<h2>政治的・社会的な質問比較</h2>
+<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
+<h2>サンプル問題の公開</h2>
+<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
+<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
+<h2>FAQと今後の展望</h2>
+<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
+<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
     </item>
