@@ -5,6 +5,42 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
+      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
+      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
+<h2>研究の目的と背景</h2>
+<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
+<h2>手法</h2>
+<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
+<h2>シナリオの概要</h2>
+<ul>
+<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
+<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
+<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
+<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
+</ul>
+<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
+<h2>分岐点の時期</h2>
+<ul>
+<li>2029年頃：「Polarization（分極化）」の可能性。</li>
+<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
+<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
+</ul>
+<h2>政策提言</h2>
+<ul>
+<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
+<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
+<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
+</ul>
+<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
+<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
+<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
       <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
       <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
