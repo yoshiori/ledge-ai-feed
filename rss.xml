@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>理研、「富岳」後継機の開発にNVIDIA参画──AIとシミュレーション融合の次世代スーパーコンピューター</title>
+      <link>https://ledge.ai/articles/fugaku_next_nvidia_ai_supercomputer</link>
+      <description><![CDATA[<p>理化学研究所は2025年8月22日、スーパーコンピューター「富岳」の後継機「富岳NEXT」の開発に、米半導体大手NVIDIAが参画すると<a href="https://www.riken.jp/pr/news/2025/20250822_1/index.html">発表</a>した。富士通と理研に加え、初めて国外の半導体企業が中心的役割を担う体制となる。AIとシミュレーションの統合を進め、2030年頃の稼働を目指す。</p>
+<p><strong>富岳NEXTによる応用事例イメージ。左は地殻変動解析、右は都市部における地震動解析</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250822_1_fig2_84c4231aa9/20250822_1_fig2_84c4231aa9.jpg" alt="20250822_1_fig2.jpg" /></p>
+<p>2020年に稼働を開始した「富岳」は、世界トップクラスの性能を誇る日本のフラッグシップスーパーコンピューターであり、気候変動予測や創薬、材料科学など幅広い分野で活用されてきた。その後継機として位置づけられる「富岳NEXT」は、文部科学省の国家プロジェクトとして開発が進められている。</p>
+<h2>新体制の発表</h2>
+<p>理化学研究所、富士通、NVIDIAの3者による国際的な開発体制が始動した。NVIDIAがGPU基盤の設計を主導し、富士通は新CPU「FUJITSU-MONAKA-X」を開発。両者は超高帯域で接続され、理研が全体統括を担う。国外の半導体大手が日本の旗艦スパコン開発に参画するのは初めてとなる。</p>
+<h2>性能目標と特徴</h2>
+<p>「富岳NEXT」はFP8精度で600エクサFLOPSを超える計算性能を見込み、現行「富岳」と比べ最大100倍のアプリケーション性能向上を目指す。AIと数値シミュレーションを統合する「AI-HPCプラットフォーム」として設計され、医薬品開発、気候変動解析、新素材設計などの研究を加速させる狙いがある。補足報道によれば、ノードあたり4基のGPUを搭載し、合計13,600基規模で構成される案も浮上している。</p>
+<h2>導入とスケジュール</h2>
+<p>2025年度中に基本設計を完了し、2026年度には詳細設計に移行。2027年頃には新CPU「MONAKA-X」が登場し、2030年頃の稼働開始を想定している。設置場所は現行の「富岳」と同じく、神戸市ポートアイランド内に整備される予定だという。</p>
+<h2>国際的意義</h2>
+<p>今回の発表は、日本のスーパーコンピューターがAIとシミュレーションの融合を本格化させる転換点といえる。ロイターや共同通信も報じているように、米中欧が進める次世代スパコン競争のなか、日本は「Zetta-scale」への挑戦を打ち出し、国際競争力を維持・強化する姿勢を明確にした。</p>
+<p><strong>自動車分野での活用例。生成AIを用いた設計最適化により、自動車設計の期間短縮や性能向上が期待される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250822_1_fig3_7f1a064923/20250822_1_fig3_7f1a064923.jpg" alt="20250822_1_fig3.jpg" /></p>
+]]></description>
+      <pubDate>Sun, 24 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/8/23 [SAT]ByteDance、AI推論モデル「Seed-Prover」を数学オリンピックの結果とともに発表──公式には銀メダル相当、実際はGoogle、OpenAIに続き金メダル水準の成果</title>
       <link>https://ledge.ai/articles/ai_math_olympiad_seed_prover</link>
       <description><![CDATA[<p>中国ByteDanceの研究チームは2025年7月23日、AI推論モデル「Seed-Prover」を<a href="https://seed.bytedance.com/en/blog/bytedance-seed-prover-achieves-silver-medal-score-in-imo-2025">公開</a>した。同社公式ブログでは「Silver Medal Score（銀メダル相当）」と表現されたが、Seed-Proverが記録した30点は、2025年の国際数学オリンピック（IMO）における金メダルカットラインに到達するものであり、実質的に金メダル水準の成果といえる。詳細をまとめた論文は7月31日にarXivで<a href="https://arxiv.org/abs/2507.23726">公開</a>された。</p>
