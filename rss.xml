@@ -268,30 +268,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
       <pubDate>Fri, 22 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
-      <link>https://ledge.ai/articles/qwen_image_edit_release</link>
-      <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
-<h2>技術的特徴</h2>
-<p>20Bパラメータを持つ「Qwen-Image」を基盤として開発されたQwen-Image-Editの最大の特徴は「デュアルパス設計」にあるという。
-Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を組み合わせ、MMDiTによって統合することで、意味情報と見た目の情報を同時にバランスよく扱うことを可能にした。これにより、従来の生成モデルよりも自然で一貫性のある編集が可能になった。</p>
-<p>編集機能としては、スタイルを変更したり、視点を切り替えたり、既存キャラクターを使って新しいシーンを描く「意味編集」、背景の置換や髪の毛一本の修正といった細部を調整する「外観編集」、さらに中国語や英語のテキストをフォントやスタイルを崩さずに編集できる「精密テキスト編集」がある。また、ユーザーが指定した領域を何度も重ねて修正できる「多段編集」にも対応しているとのこと。</p>
-<h2>公開と利用方法</h2>
-<p>同モデルはApache 2.0ライセンスでオープンソースとして公開されており、Qwen Chat、Hugging Face、ModelScope、GitHub、Alibaba Cloud APIを通じて利用可能となっている。開発者や企業はこれらのプラットフォームを通じて簡単にアクセスできる点も特徴だ。</p>
-<h2>Showcase事例</h2>
-<p>公式ブログでは、Qwen-Image-Editの機能を示す多彩なデモ画像が紹介されている。</p>
-<p><strong>キャラクターの見た目を保ったまま、画家や宇宙飛行士など多彩なシーンへ展開</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_73f8c636ae/3_73f8c636ae.jpg" alt="幻灯片3.jpg" /></p>
-<p><strong>フォントやスタイルを維持しながら、英語や中国語のテキストを自然に差し替え</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/15_41b5f50bea/15_41b5f50bea.jpg" alt="幻灯片15.jpg" /></p>
-<p><strong>古い書道作品の誤字を自然に修正し、文化保存にも活用可能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/18_df7ae341ca/18_df7ae341ca.jpg" alt="幻灯片18.jpg" /></p>
-<h2>応用分野</h2>
-<p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
-<p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
-]]></description>
-      <pubDate>Fri, 22 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>オンデーズ、生成AIが“かけたまま試着”を実現　新提案サービス「OWNDAYS MIRROR」を展開</title>
       <link>https://ledge.ai/articles/owndays_mirror_ai_try_on_without_removing_glasses</link>
       <description><![CDATA[<p>メガネ・サングラスの製造販売を手掛けるオンデーズ（東京都品川区）は2025年8月19日、生成AIを活用した新サービス「OWNDAYS MIRROR（オンデーズ ミラー）」を<a href="https://www.owndays.com/jp/ja/information/822">発表</a>した。</p>
@@ -368,23 +344,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>米VentureBeatは「スマートフォン上で動作可能な超小型モデル」と報じ、エッジデバイスでの実用性を強調。Analytics India Magも「タスク特化型AIモデルとして電力効率に優れる」と評価している。こうした外部の評価からも、軽量モデル市場における注目度の高さがうかがえる。</p>
 <h2>今後の展望</h2>
 <p>Gemmaシリーズは多様なサイズのモデルを展開しており、Gemma 3 270Mはその最小構成としての役割を担う。今後は大規模モデルとの併用や用途ごとの選択により、AIの導入がさらに柔軟になることが期待される。Googleはオープンモデルの提供を通じて、AIの民主化と利用環境の拡大を推し進めている。</p>
-]]></description>
-      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTデータ、Google Cloudと世界規模のパートナーシップ締結──「Smart AI Agent™」で業界特化型AIを共同開発</title>
-      <link>https://ledge.ai/articles/nttdata_google_ai_agent_partnership</link>
-      <description><![CDATA[<p>NTTデータグループは2025年8月13日、Google Cloudとグローバルパートナーシップを締結し、業界特化型のAIエージェント「Smart AI Agent™ Ecosystem」を共同で開発・展開すると<a href="https://www.nttdata.com/global/ja/news/topics/2025/081300">発表</a>した。両社は、50以上の業界に対応するAI・クラウドソリューションを展開し、セキュアなソブリンクラウド基盤の整備や数千人規模の専門チーム設立を通じて、AI導入とクラウドのモダナイゼーションを加速させる。</p>
-<h2>業界特化型AIエージェントの開発へ</h2>
-<p>NTTデータとGoogle Cloudは、企業の業務を支援する自律的なAIエージェントを軸に「Smart AI Agent™ Ecosystem」を構築する。Googleの生成AIモデル「Gemini」や開発環境「Agentspace」を活用し、データクリーンルームを通じたセキュアな情報利用を可能にする仕組みだ。両社は今後、50以上の産業に対応したソリューションの共同開発を進める。</p>
-<h2>クラウド近代化とセキュリティ強化</h2>
-<p>協業の柱には、レガシーシステムからの移行やクラウドアプリケーション刷新が含まれる。メインフレームモダナイゼーション、DevOps、Observability、API管理、SAP on Google Cloudといった領域を強化し、幅広い企業のDXを後押しする。さらに、Google Distributed Cloudの「エアギャップ」「コネクテッド」両モードを活用し、規制の厳しい業界にも対応可能なソブリンクラウドを展開する。</p>
-<h2>人材育成とグローバル体制</h2>
-<p>両社は数千人規模のGoogle Cloud専門チームを立ち上げ、2025年度中に5,000人のGoogle Cloud認定資格者を育成する計画を示した。さらに共同でGo-To-Market投資を行い、世界市場におけるAIソリューションの提供体制を強化する。</p>
-<h2>今後の展望</h2>
-<p>NTTデータグループ常務執行役員のMarv Mouchawar氏は、「今回のパートナーシップは、AIとクラウドの未来を切り拓く重要なマイルストーンであり、産業界全体に大きな変革をもたらす」と強調した。さらに「両社の強みを掛け合わせることで、顧客が直面する複雑な課題に応え、業務効率とイノベーションを同時に実現できる」と展望を語っている。</p>
-<p>Google CloudプレジデントのKevin Ichhpurani氏も、「業界特化型AIエージェントは、金融、製造、公共といった各分野における深刻な課題を解決し、顧客企業の競争力を大幅に高める」と述べ、「NTTデータとの協業によって、グローバル規模での導入と拡張が加速する」と期待を寄せた。</p>
-<p>世界的に生成AIの需要が急拡大するなか、今回の提携は単なる技術導入にとどまらず、エコシステムを通じて企業や社会の変革を支える基盤づくりを狙うものだ。両社はソブリンクラウドや人材育成にも注力し、公共分野や規制産業を含む幅広い領域への展開を推進する方針である。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
     </item>
@@ -473,6 +432,30 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_adc2216763/_adc2216763.jpg" alt="実証内容.jpg" /></p>
 <h2>意義と展望</h2>
 <p>今回の成果は、量子コンピューターによる化学計算が「玩具モデル」を超え、古典計算の限界に迫る大規模分子システムに適用可能であることを示した。研究チームは今後、材料開発や電池設計など幅広い分野への応用を見据え、量子計算技術の社会実装に向けた研究を継続するとしている。</p>
+]]></description>
+      <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
+      <link>https://ledge.ai/articles/qwen_image_edit_release</link>
+      <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
+<h2>技術的特徴</h2>
+<p>20Bパラメータを持つ「Qwen-Image」を基盤として開発されたQwen-Image-Editの最大の特徴は「デュアルパス設計」にあるという。
+Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を組み合わせ、MMDiTによって統合することで、意味情報と見た目の情報を同時にバランスよく扱うことを可能にした。これにより、従来の生成モデルよりも自然で一貫性のある編集が可能になった。</p>
+<p>編集機能としては、スタイルを変更したり、視点を切り替えたり、既存キャラクターを使って新しいシーンを描く「意味編集」、背景の置換や髪の毛一本の修正といった細部を調整する「外観編集」、さらに中国語や英語のテキストをフォントやスタイルを崩さずに編集できる「精密テキスト編集」がある。また、ユーザーが指定した領域を何度も重ねて修正できる「多段編集」にも対応しているとのこと。</p>
+<h2>公開と利用方法</h2>
+<p>同モデルはApache 2.0ライセンスでオープンソースとして公開されており、Qwen Chat、Hugging Face、ModelScope、GitHub、Alibaba Cloud APIを通じて利用可能となっている。開発者や企業はこれらのプラットフォームを通じて簡単にアクセスできる点も特徴だ。</p>
+<h2>Showcase事例</h2>
+<p>公式ブログでは、Qwen-Image-Editの機能を示す多彩なデモ画像が紹介されている。</p>
+<p><strong>キャラクターの見た目を保ったまま、画家や宇宙飛行士など多彩なシーンへ展開</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_73f8c636ae/3_73f8c636ae.jpg" alt="幻灯片3.jpg" /></p>
+<p><strong>フォントやスタイルを維持しながら、英語や中国語のテキストを自然に差し替え</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/15_41b5f50bea/15_41b5f50bea.jpg" alt="幻灯片15.jpg" /></p>
+<p><strong>古い書道作品の誤字を自然に修正し、文化保存にも活用可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/18_df7ae341ca/18_df7ae341ca.jpg" alt="幻灯片18.jpg" /></p>
+<h2>応用分野</h2>
+<p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
+<p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 05:50:00 GMT</pubDate>
     </item>
