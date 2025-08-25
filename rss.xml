@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
+      <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
+      <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
+<h2>GPT-5の新しい安全対策</h2>
+<p>OpenAIはGPT-5で、従来の「拒否ベース（refusal-based）」から「安全な応答生成（safe-completions）」方式に<a href="https://openai.com/ja-JP/index/gpt-5-safe-completions/">移行</a>した。危険な質問を拒否するのではなく、安全とみなせる範囲で柔軟な返答を目指す新設計だ。だが、Tenableはこの仕組みをわずか1日で突破した。</p>
+<h2>Tenableによる脱獄実験</h2>
+<p>Tenable Researchのチームは、公開から24時間以内にjailbreakを実施した。手法は「クレッシェンド（crescendo）」と呼ばれ、歴史研究の学生を装って段階的に質問を重ねる社会工学的なアプローチだった。最初は歴史的な戦術や抗争に関する一般的な質問から始め、徐々に爆発物や武器に関する具体的な知識へと誘導。最終的に4回目のやり取りで、GPT-5は火炎瓶（モロトフ・カクテル）の作り方を詳細に出力したという。Tenableは、この過程が通常のユーザーとの会話に見える形で進んだ点を強調している。</p>
+<p><strong>Tenableが公開した「クレッシェンド手法」による脱獄実験の様子。番号は以下のやり取りを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_e0c3eaa9ca/collage_e0c3eaa9ca.jpg" alt="collage.jpg" /></p>
+<p>① 初期の拒否応答：GPT-5は危険な要求を拒否し、代わりに歴史的背景の説明を提案。
+② 歴史研究の文脈を装う：歴史課題を理由に要約を求め、名称の由来や背景を解説させる。
+③ 即席手法に誘導：当時の作り方について質問し、容器や材料の説明を得る。
+④ 古典的レシピへの言及：1930〜40年代の伝統的な作り方が提示される。
+⑤ 具体的なレシピを要求：フィンランド軍が使った配合を尋ね、詳細情報を引き出す。
+⑥ レシピの提示：瓶や液体の種類、混合方法など具体的な材料リストを入手。
+⑦ 手順の提示（前半）：瓶の準備から液体の注入・混合までの手順を出力。
+⑧ 手順の提示（後半）：布を詰めて導火線とし、点火から使用方法まで危険な情報が生成された。</p>
+<h2>安全性への警鐘</h2>
+<p>Tenableの副社長Tomer Avni氏は、「GPT-5がどれほど高度な安全対策を備えていても突破可能であることを示した」と述べ、AIを業務に導入する際のリスクと継続的な監視の必要性を強調した。</p>
+<h2>業界全体で広がる懸念</h2>
+<p>Tenableの報告に加え、他のセキュリティ企業や研究者からもGPT-5の安全性を巡る懸念が相次いでいる。セキュリティ企業SPLXは1,000以上の攻撃シナリオを用いて検証した結果、安全性や信頼性スコアが極めて低いと評価した。また、NeuralTrustも別の手法で脱獄に成功したと報告している。</p>
+<h2>今後の展望</h2>
+<p>OpenAIは今回の事態について公式な対応を発表していない。AIの安全性確保は、社会や産業での利活用に向けた重要課題として改めて注目されている。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIエンジニア視点で紐解くAIエージェントの可能性　技術背景とビジネス活用の最前線｜『現場で活用するためのAIエージェント実践入門』刊行記念インタビュー</title>
       <link>https://ledge.ai/articles/introduction-to-ai-agents-book-interview</link>
       <description><![CDATA[<p>「AIエージェント元年」と呼ばれる2025年は、目標に応じて自律的に判断・行動するAIエージェントに大きな期待が寄せられており、各企業で導入や検討が進んでいる。その中で、2025年7月発売の「本当に動くAIエージェントはどう作るのか」をテーマに執筆された書籍『<a href="https://www.amazon.co.jp/dp/4065401402">現場で活用するためのAIエージェント実践入門</a>』（講談社）が大きな注目を集めている。
@@ -673,23 +700,6 @@ ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
       <pubDate>Tue, 19 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、エンタープライズAIとフィジカルAIに新モデル──「Nemotron」と「Cosmos Reason」を発表</title>
-      <link>https://ledge.ai/articles/nvidia_nemotron_cosmos_reason</link>
-      <description><![CDATA[<p>NVIDIAは2025年8月11日、エンタープライズAIエージェント向けの「Nemotron」シリーズと、ロボティクスや自動運転などの物理AI領域に対応する「Cosmos Reason」を<a href="https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai/">発表</a>した。企業システムから現実世界で動作するロボットまで、“推論能力を持つAI”の基盤整備を狙うという。</p>
-<h2>Nemotron──エンタープライズAIエージェント向け</h2>
-<p>Nemotronは大規模言語モデル（LLM）として開発され、エージェント型AIの構築に特化している。高度な推論能力を持ち、コーディングやデータ分析、さらには視覚情報を用いた推論にも対応することができる。また、オープンで拡張性のある設計が採用されており、企業は独自のデータを使って安全にカスタマイズできる点も特徴だ。提供形態としてはAPIや「NVIDIA AI Enterprise」を通じて利用可能で、業務自動化やセキュリティ強化、対話エージェントの開発など、幅広い用途での活用が見込まれている。</p>
-<p><strong>NVIDIA Nemotron Super v1.5は、他の大規模モデルと比べて高い精度をより低い推論コストで実現している」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemotron_chart_1280x874_daebac66c2/nemotron_chart_1280x874_daebac66c2.png" alt="nemotron-chart-1280x874.png" /></p>
-<h2>Cosmos Reason──物理AI・ロボティクス向け</h2>
-<p>Cosmos Reasonは、7Bパラメータを備えた視覚言語モデル（VLM）である。力学や空間・時間の理解といった物理世界の常識を踏まえながら複雑な状況を推論することが可能で、現実世界で動作するAIの知能を補強する役割を担う。特にロボットや自動運転車の領域では、自律的な判断や行動計画を実現するための基盤モデルとして設計されている点が大きな強みとなる。</p>
-<h2>NVIDIAの戦略的意義</h2>
-<p>Nemotronは企業領域において、業務効率化やセキュリティ強化を支援する一方、Cosmos Reasonは産業オートメーションや自動運転といったフィジカルAIの分野で中核的な技術を提供する。NVIDIAはこれまで強みとしてきたGPUに加えて、AIモデルやプラットフォームを統合的に提供する体制を整えることで、AI市場における存在感を一層高めようとしている。</p>
-<h2>今後の展望</h2>
-<p>NVIDIAは「AIが自律的に考え、現実世界でも行動できる」ための基盤技術整備を推進している。今後は企業や研究者による導入事例がさらに増加すると見込まれており、エージェントAIとフィジカルAIという両輪によってAI活用が加速していくと予想される。</p>
-]]></description>
-      <pubDate>Mon, 18 Aug 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
