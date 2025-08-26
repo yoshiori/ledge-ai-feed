@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Tesla、日本で「Full Self-Driving（Supervised）」のテスト走行を開始──市街地や高速道路での運転支援性能を検証</title>
+      <link>https://ledge.ai/articles/tesla_fsd_supervised_japan_test</link>
+      <description><![CDATA[<p>Tesla Japan（テスラ）は2025年8月20日、運転支援システム「Full Self-Driving（Supervised）」の日本でのテスト走行を開始したと<a href="https://prtimes.jp/main/html/rd/p/000000048.000038481.html">発表</a>した。市街地や高速道路を含む公道で、信号や標識の認識、交差点での右左折、歩行者や自転車への対応などの機能を検証する。（<a href="https://x.com/teslajapan/status/1957986432926249405">走行テストの様子</a>）</p>
+<p><strong>日本でのテスト走行に使用されるTeslaのModel 3</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_babbf79619/sub4_babbf79619.jpg" alt="sub4.jpg" /></p>
+<p>FSD(Full Self-Driving)は、同社が開発する最新の運転支援システムで、車両には「AI 4 ハードウェア」および「Tesla Vision」が搭載される。これにより、信号や標識の認識、交差点での右左折、さらには歩行者や自転車への対応など、複雑な交通環境での走行を支援する。</p>
+<p>名称に「Supervised」とある通り、ドライバーによる常時監視が必須となる。運転者がステアリングを握っていない場合や注意が散漫と判断された場合には、警告が発せられる仕組みだ。完全自動運転ではなく、あくまで人間による管理のもとで機能する点を強調している。</p>
+<p><strong>オートパイロットを使用したテスラ車両は、一般的な車両に比べて衝突事故発生までの平均走行距離が大幅に長い</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_a8ddd97395/sub1_a8ddd97395.jpg" alt="sub1.jpg" /></p>
+<p>テスト走行はまず限定的に開始され、今後順次エリアを拡大する見通し。日本市場での展開に向けた重要なステップと位置づけられ、欧州に続いて導入が進む。</p>
+<p>テスト走行の裏側では、FSDを支えるAI学習基盤の強化も進んでいる。テキサス州オースティンの最新工場Giga Texasでは、AIトレーニング用コンピュートクラスター「Cortex」を増強。約16,000台のH200 GPUを追加導入し、総計算能力はH100換算で約67,000台分に到達した。</p>
+<p><strong>Giga TexasのAI学習用クラスター「Cortex」。約16,000台のH200を追加し、総計算能力はH100換算で約67,000台分）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_e87e1adbef/sub3_e87e1adbef.jpg" alt="sub3.jpg" /></p>
+<p>Teslaは「FSD（Supervised）」の実証を通じて、日本における次世代運転支援システムの普及と安全性検証を進める方針だ。</p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Metaから6年で100億ドル超のクラウド契約を受注──Metaは急速なAIインフラ強化へ</title>
       <link>https://ledge.ai/articles/google_meta_cloud_deal_ai_infra</link>
       <description><![CDATA[<p>Googleは、Meta Platformsと6年間で100億ドル（約1兆4800億円）超のクラウドコンピューティング契約を締結したことが、2025年8月21日に関係筋の話として<a href="https://jp.reuters.com/economy/industry/ZUPUKEMNYJKTFCL3P5NFAKWH2M-2025-08-22/">ロイター</a>など複数のメディアが報じた。</p>
