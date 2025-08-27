@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>シャープ「ロボホン」開発チームが新たに送り出す、ポケットサイズのAIキャラクター「ポケとも」発表</title>
+      <link>https://ledge.ai/articles/sharp_poketomo_ai_character_launch</link>
+      <description><![CDATA[<p>シャープは2025年8月20日、ポケットサイズのAI製品「ポケとも」を<a href="https://corporate.jp.sharp/news/250820-a.html">発表</a>した。“一緒にいると毎日がもっと楽しくなるポケットサイズのおともだち”をコンセプトに、ロボホンの開発チームが新たに送り出すAIキャラクターとして位置づけられている。ロボット端末とスマートフォンアプリの両方で、キャラクターとの自然なやりとりを楽しめるのが特徴だという。</p>
+<p>ロボット端末は全長約12センチ、重さ約200グラムと手のひらに収まるサイズで、かばんに入れて持ち歩くことも可能だ。胸部にはスピーカーや音声認識ボタンを備え、口にはカメラ、頭部にはマイクを搭載している。足裏の端子を充電台に接続して利用できる仕組みだ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=S8jTMLE-hgs">YouTube</a></p>
+<h2>独自AI技術「CE-LLM」と「Empathy Intelligence」</h2>
+<p>「ポケとも」には、シャープ独自の大規模言語モデル「CE-LLM（Communication Edge Large Language Model）」を活用した会話機能を搭載。さらに、話し手の気持ちを推定して応答を変える「Empathy Intelligence」によって、喜びや悲しみといった感情に寄り添った自然なやりとりが可能になる。</p>
+<p>加えて、交わした会話や訪れた場所、見た景色やモノを記憶する機能を備えている。会話や一緒に過ごす時間を重ねるごとに“あなた”のことを理解し、より寄り添う存在へと成長していくのが特徴だ。</p>
+<h2>アプリとの連動と展開</h2>
+<p>スマートフォンアプリを利用すれば、ロボットが手元にないときでもキャラクターと会話できる。音声のほか文字入力でもやりとりでき、会話履歴を振り返ったり、利用時間を計測したりする機能も備える。アプリとロボットは同期され、どちらからアクセスしても同じキャラクター体験を継続できる仕組みとなっている。</p>
+<p>アプリは月額495円（税込）から利用可能で、ロボット端末は2025年11月に発売予定。価格は税込39,600円で、順次予約受付が開始されている。</p>
+<h2>マンガやイベントでも展開</h2>
+<p>「ポケとも」は製品だけでなく、キャラクターとしての広がりも見据えている。公式Xアカウント（@poketomo_sharp）ではすでにマンガ連載が始まっており、利用者の日常に寄り添うストーリーを展開。さらに、8月28日から東京ビッグサイトで開催される「東京おもちゃショー2025」にも出展予定で、来場者は実際に「ポケとも」との対話を体験できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/250820_a_9_3269807be2/250820_a_9_3269807be2.jpg" alt="250820-a-9.jpg" /></p>
+<p>同製品は、コミュニケーションロボット「ロボホン」の開発チームが新たに送り出すシリーズとして誕生した。2016年に登場した「ロボホン」は“ココロ、動く電話”をコンセプトに親しまれてきたが、その思想を受け継ぎつつ、より日常的に寄り添う存在として「ポケとも」が企画されたという。</p>
+<p>同社は「うれしかったことも、心が折れそうになったことも、そっと受け止めてあなたの今日をやさしく灯す存在」と位置づけ、AIを活用した新しいコミュニケーションパートナーの可能性を提案している。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
       <link>https://ledge.ai/articles/google_ai_14_usecases</link>
       <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
@@ -581,27 +601,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
 ]]></description>
       <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、自己教師あり学習の最新モデル「DINOv3」発表──ラベルなし17億枚画像で訓練、従来モデルを超える性能</title>
-      <link>https://ledge.ai/articles/eta_dinov3_self_supervised_vision_model</link>
-      <description><![CDATA[<p>Metaは2025年8月14日、自社AI研究チームが開発した新しいコンピュータビジョンモデル「DINOv3」を<a href="https://ai.meta.com/blog/dinov3-self-supervised-vision-model/">発表</a>した。このモデルは、膨大なラベルなし画像を用いた自己教師あり学習（self-supervised learning, SSL）によって訓練され、多様な視覚タスクで既存の専門モデルを超える性能を示している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=-eOYWK6m3i8">YouTube</a></p>
-<h2>大規模データとモデル構造</h2>
-<p>DINOv3は約16.9億枚の画像データセット「LVD-1689M」で学習された。最大モデルはVision Transformer（ViT）ベースで70億パラメータ規模に達し、小型から大型まで複数のバリエーションが提供されている。</p>
-<p><strong>■ DINOv3の特徴：</strong>  (a) 教師あり学習（SL）や弱教師あり学習（WSL）と比べた精度の推移、(b) 既存手法に対する深度推定・追跡・セグメンテーションでの性能向上率、(c)(d) DINOv3による特徴表現の可視化例
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Evolution_of_linear_probing_results_02dacc9850/Evolution_of_linear_probing_results_02dacc9850.jpg" alt="Evolution of linear probing results .jpg" /></p>
-<h2>ベンチマークの結果</h2>
-<p>具体的なベンチマークでは、画像分類だけでなく深度推定やセグメンテーションでも他手法を上回っている。特に、従来のDINOv2やMAEを含む自己教師ありモデルだけでなく、教師ありの大型モデルに対しても優位性を示した。</p>
-<p><strong>■ DINOv3の各種ベンチマーク比較：</strong> セグメンテーション（ADE-20k）、深度推定（NYU）、動画追跡（DAVIS）など幅広いタスクで既存モデルを上回る性能を示した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DIN_Ov3_bench_569cfe7139/DIN_Ov3_bench_569cfe7139.jpg" alt="DINOv3 bench.jpg" /></p>
-<h2>公開と利活用</h2>
-<p>学習済みモデルはHugging FaceやGitHubで公開されており、衛星画像を用いて学習したバージョンも含まれる。商用利用も可能で、画像検索、ロボティクス、地理空間解析など幅広い分野での応用が期待される。</p>
-<h2>今後の展望</h2>
-<p>Metaは、DINOv3によってラベル不要の大規模学習の有効性を改めて証明した。今後は自己教師あり学習が、産業や研究におけるコンピュータビジョン技術の新たな基盤として拡大していく見込みだ。</p>
-<p>研究チームは、DINOv3が、人手の監督に依存せずに汎用的な視覚表現を構築するための重要な前進であり、科学・産業の幅広い領域で新たな応用機会を開く、と結んでいる。</p>
-]]></description>
-      <pubDate>Tue, 19 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
