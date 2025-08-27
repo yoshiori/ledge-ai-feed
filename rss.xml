@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
+      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
+      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
+<h2>“特徴を維持したまま”の進化</h2>
+<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
+<h2>外部評価：「Image Edit Arena」で首位</h2>
+<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena
+」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
+<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
+<h2>提供状況と価格</h2>
+<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
+<h2>安全性と表示</h2>
+<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Netflix、生成AI活用を歓迎しつつもルールを明示──成果物や肖像利用は事前承認が必須に</title>
       <link>https://ledge.ai/articles/netflix_gen_ai_guidelines_mandatory_approval</link>
       <description><![CDATA[<p>映像配信大手のNetflixがオリジナルコンテンツ制作における生成AI利用に関するガイドラインを公開したことを<a href="https://www.theverge.com/netflix/764433/netflix-gen-ai-production-guidelines">The Verge</a>が2025年8月23日に報じた。Netflixの<a href="https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production">パートナーヘルプセンターハブ</a>では、制作現場でのAI活用を歓迎しつつも、成果物や肖像などデリケートな領域では事前承認を必須とするなど、明確なルールを設けている。</p>
