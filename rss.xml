@@ -5,6 +5,46 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
+      <link>https://ledge.ai/articles/google_ai_14_usecases</link>
+      <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
+<h2>紹介された14の実例</h2>
+<h3>1. コードを書く時間を短縮</h3>
+<p>Geminiが新規コードの30%を自動生成。エンジニアはレビューや設計に集中できるようになった。</p>
+<h3>2. 開発スピード全体が加速</h3>
+<p>テストやレビューの一部をAIが補助し、開発チーム全体の速度は約10%向上。</p>
+<h3>3. バグ対応をAIが下支え</h3>
+<p>AIが重複バグの12%を自動処理し、重要度の高い課題に人が集中。</p>
+<h3>4. マーケティングの発想支援</h3>
+<p>Geminiがキャンペーン案や動画台本のたたき台を提示し、ゼロから考える負担を軽減させている。
+同社マーケティングチームは、Googleのマーケティングスタイルとベストプラクティスを反映したアイデアのブレインストーミングにGeminiを活用。キャンペーンのコンセプトからYouTube動画の脚本の下書きまで、あらゆるアイデアを生み出すための最適なプロンプトを提供するという。</p>
+<h3>5. YouTube向けのキャッチーなコンテンツ作成を効率化</h3>
+<p>ポッドキャストから名言やタイムスタンプを自動抽出し、YouTube Insider向けのより魅力的なタイトルやサムネイル文言もAIが提案。</p>
+<h3>6. イベント資料の大量制作もAIで</h3>
+<p>Google I/O 2025の基調講演では219枚のスライド作成をAIが支援。ビジュアルの48%、動画の80%をImagenやVeoで生成。</p>
+<p>@<a href="https://youtu.be/x_x-JAAKSvU?si=6zPHWf1vCK8mSqGl">YouTube</a></p>
+<h3>7. 企画のアイデア検証</h3>
+<p>Google DeepMindはAIツールを活用して新しいアイデアをテストする。GeminiやVeoを使い、動画のモックアップや表現案を即時に試作。</p>
+<h3>8. 営業提案の数が増える</h3>
+<p>AIがRFP対応を支援。Google Cloudでは完了件数が前年比78%増となった。</p>
+<h3>9. 見込み顧客の質を高める</h3>
+<p>AIによるフィルタリングで良質な案件に集中。6週間で案件転換率が14%増加。</p>
+<h3>10. 会議メモを自動生成</h3>
+<p>Google Meetがリアルタイムで文字起こしと要約を提供。2025年6月の利用者は5,000万人を超えた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/googlemeet_memo_7fc3610183/googlemeet_memo_7fc3610183.jpg" alt="googlemeet memo.jpg" /></p>
+<h3>11. 安全対策の強化</h3>
+<p>Trust &amp; SafetyチームがAIで違反コンテンツを検出。ポリシーに違反する可能性のあるコンテンツの検出とフラグ付けをAIが支援。この負荷軽減は、2024年だけで10億件超を人間が手動でレビューしていた同チームにとって、重要なメリットとなる。</p>
+<h3>12. 社員アンケートを一瞬で要約</h3>
+<p>NotebookLMが数千件のフィードバックを即時整理。課題把握のスピードが大幅に向上。</p>
+<h3>13. 採用業務を効率化</h3>
+<p>人事チームは、採用プロセスの一環としてAIを活用。候補者検索やマッチングをAIが補助し、採用担当者の事務作業を削減。採用プロセスは常にリクルーターが主導している。</p>
+<h3>14. 社内カフェでフードロス削減</h3>
+<p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
+<p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Tesla、日本で「Full Self-Driving（Supervised）」のテスト走行を開始──市街地や高速道路での運転支援性能を検証</title>
       <link>https://ledge.ai/articles/tesla_fsd_supervised_japan_test</link>
       <description><![CDATA[<p>Tesla Japan（テスラ）は2025年8月20日、運転支援システム「Full Self-Driving（Supervised）」の日本でのテスト走行を開始したと<a href="https://prtimes.jp/main/html/rd/p/000000048.000038481.html">発表</a>した。市街地や高速道路を含む公道で、信号や標識の認識、交差点での右左折、歩行者や自転車への対応などの機能を検証する。（<a href="https://x.com/teslajapan/status/1957986432926249405">走行テストの様子</a>）</p>
@@ -562,17 +602,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <p>研究チームは、DINOv3が、人手の監督に依存せずに汎用的な視覚表現を構築するための重要な前進であり、科学・産業の幅広い領域で新たな応用機会を開く、と結んでいる。</p>
 ]]></description>
       <pubDate>Tue, 19 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アフリカでAI人材3万人を育成──東大・松尾研、政府と連携し製造業・農業DXを後押し</title>
-      <link>https://ledge.ai/articles/africa_ai_talent_training_by_utokyo_matsuo_lab</link>
-      <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2025年8月18日、これまで国内で進めてきたAI教育をさらに発展させ、政府と連携してアフリカでAI人材を育成する取り組みを開始すると<a href="https://weblab.t.u-tokyo.ac.jp/news/20250818/">発表</a>した。取り組みは製造業や農業のDXを後押しすることを狙いとし、3年間で延べ3万人の育成を目標に据える。
-同研究室は、これまで国内での無料・大規模オンライン講座などで培ってきた教育モデルをベースに、アフリカ地域で本格的な人材育成を展開する。公式サイトの発表では、政府と連携して取り組む方針が示されている。</p>
-<h2>取り組みの目的と背景</h2>
-<p>日本経済新聞の<a href="https://www.nikkei.com/article/DGXZQOUA041X30U5A800C2000000/">報道</a>によると、同プロジェクトは、製造業と農業のデジタル化（DX）を担う現地人材の裾野拡大を意図する。アフリカの若者が海外留学でAIスキルを得ても国外に残る例が多い現状を踏まえ、「地元で活躍できる環境を整え、人材を定着させる」狙いが示されている。</p>
-<p>この取り組みにより、アフリカ地域におけるAI教育基盤が強化され、現地産業の生産性向上や雇用創出、エコシステム形成への寄与が期待される。</p>
-]]></description>
-      <pubDate>Tue, 19 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
