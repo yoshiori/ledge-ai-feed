@@ -135,40 +135,22 @@
       <pubDate>Tue, 26 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>公共2025/8/25 [MON]地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
-      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
-      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
-<h2>研究の目的と背景</h2>
-<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
-<h2>手法</h2>
-<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
-<h2>シナリオの概要</h2>
-<ul>
-<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
-<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
-<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
-<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
-</ul>
-<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
-<h2>分岐点の時期</h2>
-<ul>
-<li>2029年頃：「Polarization（分極化）」の可能性。</li>
-<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
-<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
-</ul>
-<h2>政策提言</h2>
-<ul>
-<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
-<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
-<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
-</ul>
-<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
-<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
-<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
+      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
+      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
+      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
+<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
+<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
+<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
+<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
+<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
+<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
+<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
+<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
+<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
+<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
+<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
 ]]></description>
-      <pubDate>Mon, 25 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIエンジニア視点で紐解くAIエージェントの可能性　技術背景とビジネス活用の最前線｜『現場で活用するためのAIエージェント実践入門』刊行記念インタビュー</title>
@@ -463,6 +445,42 @@ AIエージェントは、成果創出を図るという部分において圧倒
       <pubDate>Wed, 20 Aug 2025 23:50:01 GMT</pubDate>
     </item>
     <item>
+      <title>公共2025/8/25 [MON]地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
+      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
+      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
+<h2>研究の目的と背景</h2>
+<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
+<h2>手法</h2>
+<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
+<h2>シナリオの概要</h2>
+<ul>
+<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
+<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
+<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
+<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
+</ul>
+<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
+<h2>分岐点の時期</h2>
+<ul>
+<li>2029年頃：「Polarization（分極化）」の可能性。</li>
+<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
+<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
+</ul>
+<h2>政策提言</h2>
+<ul>
+<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
+<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
+<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
+</ul>
+<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
+<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
+<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
+]]></description>
+      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
       <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
       <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
@@ -578,17 +596,6 @@ Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を�
 <h2>応用分野</h2>
 <p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
 <p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>さくらインターネット、生成AI開発を効率化──NVIDIA最新GPU「B200」搭載クラウドを提供開始</title>
-      <link>https://ledge.ai/articles/sakura_gpu_b200_cloud_release</link>
-      <description><![CDATA[<p>さくらインターネットは2025年8月15日、同社のベアメタル型GPUクラウドサービス「高火力 PHY」において、NVIDIAの最新GPU「B200」を搭載した新プランの提供を開始したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/08/15/1968220622/">発表</a>した。生成AI（人工知能）の開発や学習処理を一段と効率化できる環境を整える。</p>
-<p>新プラン「B200プラン」では、NVIDIAのBlackwellアーキテクチャを採用したGPU「B200」を搭載。大規模なAIモデルの学習や推論処理において高い性能を発揮する。さらに高速ネットワーク回線やスケーラビリティに対応しており、開発者や研究者は柔軟に計算リソースを利用できる。</p>
-<p>同社によると、約400台のB200 GPUを北海道・石狩データセンターに導入。これにより国内における生成AI開発環境の安定供給を図る。提供開始は8月15日からで、初期利用キャンペーンも実施されるとのこと。</p>
-<p>これまでも「高火力 VRT」などのGPUクラウドサービスを展開してきたさくらインターネット。今回の新プラン投入により、生成AI需要の拡大に対応するとともに、国内の企業や研究機関によるAI活用を後押しする狙いがある。</p>
-<p>同社は、今後も最新GPUを活用した研究やサービス開発を支援し、国内データセンターを基盤とした高性能かつ安心なクラウド環境の提供を強化していくとしている。</p>
 ]]></description>
       <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
@@ -740,24 +747,6 @@ ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
       <pubDate>Tue, 19 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
-      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
-      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
-<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
-<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
-<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
-<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
-<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
-<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
-<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
-<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
-<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
-<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
-<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
-]]></description>
-      <pubDate>Tue, 19 Aug 2025 02:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
