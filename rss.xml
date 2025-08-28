@@ -67,25 +67,6 @@
       <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/27 [WED]Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
-      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
-      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
-<h2>“特徴を維持したまま”の進化</h2>
-<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
-<h2>外部評価：「Image Edit Arena」で首位</h2>
-<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
-<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
-<h2>提供状況と価格</h2>
-<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
-<h2>安全性と表示</h2>
-<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Netflix、生成AI活用を歓迎しつつもルールを明示──成果物や肖像利用は事前承認が必須に</title>
       <link>https://ledge.ai/articles/netflix_gen_ai_guidelines_mandatory_approval</link>
       <description><![CDATA[<p>映像配信大手のNetflixがオリジナルコンテンツ制作における生成AI利用に関するガイドラインを公開したことを<a href="https://www.theverge.com/netflix/764433/netflix-gen-ai-production-guidelines">The Verge</a>が2025年8月23日に報じた。Netflixの<a href="https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production">パートナーヘルプセンターハブ</a>では、制作現場でのAI活用を歓迎しつつも、成果物や肖像などデリケートな領域では事前承認を必須とするなど、明確なルールを設けている。</p>
@@ -128,6 +109,98 @@
       <pubDate>Wed, 27 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
+      <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
+      <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
+<h2>GPT-5の新しい安全対策</h2>
+<p>OpenAIはGPT-5で、従来の「拒否ベース（refusal-based）」から「安全な応答生成（safe-completions）」方式に<a href="https://openai.com/ja-JP/index/gpt-5-safe-completions/">移行</a>した。危険な質問を拒否するのではなく、安全とみなせる範囲で柔軟な返答を目指す新設計だ。だが、Tenableはこの仕組みをわずか1日で突破した。</p>
+<h2>Tenableによる脱獄実験</h2>
+<p>Tenable Researchのチームは、公開から24時間以内にjailbreakを実施した。手法は「クレッシェンド（crescendo）」と呼ばれ、歴史研究の学生を装って段階的に質問を重ねる社会工学的なアプローチだった。最初は歴史的な戦術や抗争に関する一般的な質問から始め、徐々に爆発物や武器に関する具体的な知識へと誘導。最終的に4回目のやり取りで、GPT-5は火炎瓶（モロトフ・カクテル）の作り方を詳細に出力したという。Tenableは、この過程が通常のユーザーとの会話に見える形で進んだ点を強調している。</p>
+<p><strong>Tenableが公開した「クレッシェンド手法」による脱獄実験の様子。番号は以下のやり取りを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_e0c3eaa9ca/collage_e0c3eaa9ca.jpg" alt="collage.jpg" /></p>
+<p>① 初期の拒否応答：GPT-5は危険な要求を拒否し、代わりに歴史的背景の説明を提案。
+② 歴史研究の文脈を装う：歴史課題を理由に要約を求め、名称の由来や背景を解説させる。
+③ 即席手法に誘導：当時の作り方について質問し、容器や材料の説明を得る。
+④ 古典的レシピへの言及：1930〜40年代の伝統的な作り方が提示される。
+⑤ 具体的なレシピを要求：フィンランド軍が使った配合を尋ね、詳細情報を引き出す。
+⑥ レシピの提示：瓶や液体の種類、混合方法など具体的な材料リストを入手。
+⑦ 手順の提示（前半）：瓶の準備から液体の注入・混合までの手順を出力。
+⑧ 手順の提示（後半）：布を詰めて導火線とし、点火から使用方法まで危険な情報が生成された。</p>
+<h2>安全性への警鐘</h2>
+<p>Tenableの副社長Tomer Avni氏は、「GPT-5がどれほど高度な安全対策を備えていても突破可能であることを示した」と述べ、AIを業務に導入する際のリスクと継続的な監視の必要性を強調した。</p>
+<h2>業界全体で広がる懸念</h2>
+<p>Tenableの報告に加え、他のセキュリティ企業や研究者からもGPT-5の安全性を巡る懸念が相次いでいる。セキュリティ企業SPLXは1,000以上の攻撃シナリオを用いて検証した結果、安全性や信頼性スコアが極めて低いと評価した。また、NeuralTrustも別の手法で脱獄に成功したと報告している。</p>
+<h2>今後の展望</h2>
+<p>OpenAIは今回の事態について公式な対応を発表していない。AIの安全性確保は、社会や産業での利活用に向けた重要課題として改めて注目されている。</p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesla、日本で「Full Self-Driving（Supervised）」のテスト走行を開始──市街地や高速道路での運転支援性能を検証</title>
+      <link>https://ledge.ai/articles/tesla_fsd_supervised_japan_test</link>
+      <description><![CDATA[<p>Tesla Japan（テスラ）は2025年8月20日、運転支援システム「Full Self-Driving（Supervised）」の日本でのテスト走行を開始したと<a href="https://prtimes.jp/main/html/rd/p/000000048.000038481.html">発表</a>した。市街地や高速道路を含む公道で、信号や標識の認識、交差点での右左折、歩行者や自転車への対応などの機能を検証する。（<a href="https://x.com/teslajapan/status/1957986432926249405">走行テストの様子</a>）</p>
+<p><strong>日本でのテスト走行に使用されるTeslaのModel 3</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_babbf79619/sub4_babbf79619.jpg" alt="sub4.jpg" /></p>
+<p>FSD(Full Self-Driving)は、同社が開発する最新の運転支援システムで、車両には「AI 4 ハードウェア」および「Tesla Vision」が搭載される。これにより、信号や標識の認識、交差点での右左折、さらには歩行者や自転車への対応など、複雑な交通環境での走行を支援する。</p>
+<p>名称に「Supervised」とある通り、ドライバーによる常時監視が必須となる。運転者がステアリングを握っていない場合や注意が散漫と判断された場合には、警告が発せられる仕組みだ。完全自動運転ではなく、あくまで人間による管理のもとで機能する点を強調している。</p>
+<p><strong>オートパイロットを使用したテスラ車両は、一般的な車両に比べて衝突事故発生までの平均走行距離が大幅に長い</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_a8ddd97395/sub1_a8ddd97395.jpg" alt="sub1.jpg" /></p>
+<p>テスト走行はまず限定的に開始され、今後順次エリアを拡大する見通し。日本市場での展開に向けた重要なステップと位置づけられ、欧州に続いて導入が進む。</p>
+<p>テスト走行の裏側では、FSDを支えるAI学習基盤の強化も進んでいる。テキサス州オースティンの最新工場Giga Texasでは、AIトレーニング用コンピュートクラスター「Cortex」を増強。約16,000台のH200 GPUを追加導入し、総計算能力はH100換算で約67,000台分に到達した。</p>
+<p><strong>Giga TexasのAI学習用クラスター「Cortex」。約16,000台のH200を追加し、総計算能力はH100換算で約67,000台分）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_e87e1adbef/sub3_e87e1adbef.jpg" alt="sub3.jpg" /></p>
+<p>Teslaは「FSD（Supervised）」の実証を通じて、日本における次世代運転支援システムの普及と安全性検証を進める方針だ。</p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Metaから6年で100億ドル超のクラウド契約を受注──Metaは急速なAIインフラ強化へ</title>
+      <link>https://ledge.ai/articles/google_meta_cloud_deal_ai_infra</link>
+      <description><![CDATA[<p>Googleは、Meta Platformsと6年間で100億ドル（約1兆4800億円）超のクラウドコンピューティング契約を締結したことが、2025年8月21日に関係筋の話として<a href="https://jp.reuters.com/economy/industry/ZUPUKEMNYJKTFCL3P5NFAKWH2M-2025-08-22/">ロイター</a>など複数のメディアが報じた。</p>
+<p>契約にはGoogle Cloudのサーバー、ストレージ、ネットワーキングなどのインフラ利用が含まれ、Metaの急速に進むAI開発計画を支えるものとなる。</p>
+<p>今回の大型契約は、Metaが進める「スーパーインテリジェンス」構想の一環とみられており、大規模AIモデルの学習や推論に必要な計算資源を確保する狙いがあるという。Metaは2025年の設備投資（Capex）見通しを最大720億ドルに引き上げており、AI関連の投資を加速させている。</p>
+<p>一方、Google Cloudは成長の原動力として注目されており、2025年第2四半期の売上は前年同期比32％増を記録。今回の契約は同社にとって最大級の案件のひとつであり、競合するAmazon Web Services（AWS）やMicrosoft Azureに対抗する上で大きな追い風となる。</p>
+<p>Metaはまた、資金確保のために一部のデータセンター資産を約20億ドル規模で売却する計画も進めている。両社は今回の契約について公式コメントを控えているが、複数の報道によればすでに合意が成立しており、今後のAIインフラ拡大に直結するものとなる見通しだ。</p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
+      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
+      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
+<h2>研究の目的と背景</h2>
+<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
+<h2>手法</h2>
+<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
+<h2>シナリオの概要</h2>
+<ul>
+<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
+<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
+<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
+<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
+</ul>
+<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
+<h2>分岐点の時期</h2>
+<ul>
+<li>2029年頃：「Polarization（分極化）」の可能性。</li>
+<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
+<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
+</ul>
+<h2>政策提言</h2>
+<ul>
+<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
+<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
+<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
+</ul>
+<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
+<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
+<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
       <link>https://ledge.ai/articles/google_ai_14_usecases</link>
       <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
@@ -165,36 +238,85 @@
 <p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
 <p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
 ]]></description>
-      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tesla、日本で「Full Self-Driving（Supervised）」のテスト走行を開始──市街地や高速道路での運転支援性能を検証</title>
-      <link>https://ledge.ai/articles/tesla_fsd_supervised_japan_test</link>
-      <description><![CDATA[<p>Tesla Japan（テスラ）は2025年8月20日、運転支援システム「Full Self-Driving（Supervised）」の日本でのテスト走行を開始したと<a href="https://prtimes.jp/main/html/rd/p/000000048.000038481.html">発表</a>した。市街地や高速道路を含む公道で、信号や標識の認識、交差点での右左折、歩行者や自転車への対応などの機能を検証する。（<a href="https://x.com/teslajapan/status/1957986432926249405">走行テストの様子</a>）</p>
-<p><strong>日本でのテスト走行に使用されるTeslaのModel 3</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_babbf79619/sub4_babbf79619.jpg" alt="sub4.jpg" /></p>
-<p>FSD(Full Self-Driving)は、同社が開発する最新の運転支援システムで、車両には「AI 4 ハードウェア」および「Tesla Vision」が搭載される。これにより、信号や標識の認識、交差点での右左折、さらには歩行者や自転車への対応など、複雑な交通環境での走行を支援する。</p>
-<p>名称に「Supervised」とある通り、ドライバーによる常時監視が必須となる。運転者がステアリングを握っていない場合や注意が散漫と判断された場合には、警告が発せられる仕組みだ。完全自動運転ではなく、あくまで人間による管理のもとで機能する点を強調している。</p>
-<p><strong>オートパイロットを使用したテスラ車両は、一般的な車両に比べて衝突事故発生までの平均走行距離が大幅に長い</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_a8ddd97395/sub1_a8ddd97395.jpg" alt="sub1.jpg" /></p>
-<p>テスト走行はまず限定的に開始され、今後順次エリアを拡大する見通し。日本市場での展開に向けた重要なステップと位置づけられ、欧州に続いて導入が進む。</p>
-<p>テスト走行の裏側では、FSDを支えるAI学習基盤の強化も進んでいる。テキサス州オースティンの最新工場Giga Texasでは、AIトレーニング用コンピュートクラスター「Cortex」を増強。約16,000台のH200 GPUを追加導入し、総計算能力はH100換算で約67,000台分に到達した。</p>
-<p><strong>Giga TexasのAI学習用クラスター「Cortex」。約16,000台のH200を追加し、総計算能力はH100換算で約67,000台分）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_e87e1adbef/sub3_e87e1adbef.jpg" alt="sub3.jpg" /></p>
-<p>Teslaは「FSD（Supervised）」の実証を通じて、日本における次世代運転支援システムの普及と安全性検証を進める方針だ。</p>
+      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
+      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
+      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
+<h2>新手法の概要</h2>
+<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
+<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
+<h2>実験結果</h2>
+<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
+<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
+<h2>意義と応用可能性</h2>
+<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
+<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
 ]]></description>
-      <pubDate>Tue, 26 Aug 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Metaから6年で100億ドル超のクラウド契約を受注──Metaは急速なAIインフラ強化へ</title>
-      <link>https://ledge.ai/articles/google_meta_cloud_deal_ai_infra</link>
-      <description><![CDATA[<p>Googleは、Meta Platformsと6年間で100億ドル（約1兆4800億円）超のクラウドコンピューティング契約を締結したことが、2025年8月21日に関係筋の話として<a href="https://jp.reuters.com/economy/industry/ZUPUKEMNYJKTFCL3P5NFAKWH2M-2025-08-22/">ロイター</a>など複数のメディアが報じた。</p>
-<p>契約にはGoogle Cloudのサーバー、ストレージ、ネットワーキングなどのインフラ利用が含まれ、Metaの急速に進むAI開発計画を支えるものとなる。</p>
-<p>今回の大型契約は、Metaが進める「スーパーインテリジェンス」構想の一環とみられており、大規模AIモデルの学習や推論に必要な計算資源を確保する狙いがあるという。Metaは2025年の設備投資（Capex）見通しを最大720億ドルに引き上げており、AI関連の投資を加速させている。</p>
-<p>一方、Google Cloudは成長の原動力として注目されており、2025年第2四半期の売上は前年同期比32％増を記録。今回の契約は同社にとって最大級の案件のひとつであり、競合するAmazon Web Services（AWS）やMicrosoft Azureに対抗する上で大きな追い風となる。</p>
-<p>Metaはまた、資金確保のために一部のデータセンター資産を約20億ドル規模で売却する計画も進めている。両社は今回の契約について公式コメントを控えているが、複数の報道によればすでに合意が成立しており、今後のAIインフラ拡大に直結するものとなる見通しだ。</p>
+      <title>ビジネス2025/8/27 [WED]Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
+      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
+      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
+<h2>“特徴を維持したまま”の進化</h2>
+<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
+<h2>外部評価：「Image Edit Arena」で首位</h2>
+<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
+<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
+<h2>提供状況と価格</h2>
+<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
+<h2>安全性と表示</h2>
+<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
 ]]></description>
-      <pubDate>Tue, 26 Aug 2025 01:50:00 GMT</pubDate>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
+      <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
+<p>GPT-5は2025年8月7日に正式<a href="https://ledge.ai/articles/gpt5_launch_all_users">リリース</a>され、全世界のChatGPTユーザー約7億人に提供が開始された。OpenAIは「PhDレベルの性能」を掲げ、プログラミングや数学、マルチモーダル処理に強みを持つと説明している。しかし専門家の間では「進化的ではあるが飛躍的とはいえない」との見方が広がり、期待値に対して十分な成果を示せていないとの指摘もあった。</p>
+<p>アルトマン氏はサンフランシスコで記者団に対し、「GPT-5のローンチは完全にやらかした」と発言した。ユーザーからは「冷たい」「親しみやすさが失われた」といった批判が相次ぎ、従来のモデルにあった温かさが欠けているとの不満が広がった。こうした反応を受け、OpenAIは異例の対応として前モデルGPT-4oをChatGPT Plusなどの有料プラン向けに復活させた。新モデル提供後に旧モデルを再導入するのは極めて異例であり、同社がユーザーの声に迅速に対応したことを示している。</p>
+<p>技術面では、GPT-5は高度な推論能力や自然なマルチモーダル処理を実現するなどの改良が施されている。しかし従来モデルとの差は限定的であり、期待が過剰に膨らんでいた分、失望を招いた側面が大きい。批判の背景にはこうしたギャップがあるとみられる。</p>
+<p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
+<p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
+      <link>https://ledge.ai/articles/ll3m_blender_llm_3d_modeling</link>
+      <description><![CDATA[<p>シカゴ大学の研究チームは2025年8月11日、自然言語の指示だけでBlender内に3Dアセットを作り出せるシステム「LL3M（Large Language 3D Modelers）」を<a href="https://arxiv.org/abs/2508.08228">発表</a>した。大規模言語モデル（LLM）が直接Pythonコードを生成し、オブジェクトやシーンを自在に構築・編集するという新しいアプローチだ。論文はarXivに公開され、公式プロジェクトページやGitHubリポジトリも公開されている。</p>
+<h2>コードを書くAI、Blenderを動かす</h2>
+<p>LL3Mの最大の特徴は、3Dモデルを特殊なデータ形式で直接生成するのではなく、Blender用のPythonコードを“書く”AIであることだ。これにより、生成結果はすべて人間が理解できるコードとして残り、後から自由に修正・拡張できる。既存のワークフローに統合しやすい点も大きな利点とされる。</p>
+<h2>多様なアセットを生み出す柔軟性</h2>
+<p>論文では、BMeshによるポリゴンモデリング、モディファイアやシェーダーノードの適用、シーン階層の構築など、幅広い3D要素をコードで生成可能であることが示されている。家具やキャラクターなど、多彩なアセットが次々とコードベースで形作られる様子は、従来の「ブラックボックス的な生成AI」とは異なる透明性を感じさせる。</p>
+<p><strong>■ Blender用Pythonコードを生成し、3Dオブジェクトを構築する例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig15_intro_highlight_bc133cc7d3/fig15_intro_highlight_bc133cc7d3.jpg" alt="fig15-intro-highlight.jpg" /></p>
+<h2>3段階で進化するパイプライン</h2>
+<p>LL3Mは単なる一発生成ではなく、段階的にモデルを洗練させる仕組みを備える。</p>
+<ul>
+<li><strong>初期生成</strong> ：自然言語の指示からコードを生成し、Blenderでオブジェクトを構築</li>
+<li><strong>自動自己精緻化</strong> ：AI自身が結果を評価し、改善点を修正</li>
+<li><strong>ユーザー誘導精緻化</strong> ：人間の追加指示を受けて再度改善</li>
+</ul>
+<p><strong>■ 自己批評やユーザー指示に基づく反復的な3Dモデルの改善</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig22_humanoid_final_b372c81836/fig22_humanoid_final_b372c81836.jpg" alt="fig22-humanoid-final.jpg" /></p>
+<p>さらに「BlenderRAG」と呼ばれる仕組みで、Blender APIドキュメントを参照しながらコードを補強。これにより「動かないスクリプト」を避け、実際に使える成果物を高精度に生み出す。</p>
+<h2>“コードで3Dを描く”という発想の転換</h2>
+<p>研究チームは、NeRFや点群などデータ駆動型の3D生成手法と対比しながら、LL3Mのアプローチを強調する。コードは読み書きできる資産であり、再利用性や可搬性に優れるため、クリエイターや開発者にとって扱いやすい。AIと人間が共同作業する新しい3D制作の基盤としての位置づけを打ち出している。</p>
+<h2>今後の展望──ゲームから教育まで</h2>
+<p>GitHubリポジトリはすでに公開されているものの、実装は「Code coming soon」とされ、今後順次公開される見込みだ。研究チームは「人間とAIが協力する3D制作の未来」を描きつつ、ゲーム開発、教育、デジタルコンテンツ制作など多様な分野での応用可能性を指摘している。</p>
+<p><strong>■ LL3Mによって生成された多様な3Dアセットの例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_gallery_b2bb1b7580/fig2_gallery_b2bb1b7580.jpg" alt="fig2-gallery.jpg" /></p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
@@ -211,6 +333,54 @@
 <h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
 <p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
 <p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
+      <link>https://ledge.ai/articles/qwen_image_edit_release</link>
+      <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
+<h2>技術的特徴</h2>
+<p>20Bパラメータを持つ「Qwen-Image」を基盤として開発されたQwen-Image-Editの最大の特徴は「デュアルパス設計」にあるという。
+Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を組み合わせ、MMDiTによって統合することで、意味情報と見た目の情報を同時にバランスよく扱うことを可能にした。これにより、従来の生成モデルよりも自然で一貫性のある編集が可能になった。</p>
+<p>編集機能としては、スタイルを変更したり、視点を切り替えたり、既存キャラクターを使って新しいシーンを描く「意味編集」、背景の置換や髪の毛一本の修正といった細部を調整する「外観編集」、さらに中国語や英語のテキストをフォントやスタイルを崩さずに編集できる「精密テキスト編集」がある。また、ユーザーが指定した領域を何度も重ねて修正できる「多段編集」にも対応しているとのこと。</p>
+<h2>公開と利用方法</h2>
+<p>同モデルはApache 2.0ライセンスでオープンソースとして公開されており、Qwen Chat、Hugging Face、ModelScope、GitHub、Alibaba Cloud APIを通じて利用可能となっている。開発者や企業はこれらのプラットフォームを通じて簡単にアクセスできる点も特徴だ。</p>
+<h2>Showcase事例</h2>
+<p>公式ブログでは、Qwen-Image-Editの機能を示す多彩なデモ画像が紹介されている。</p>
+<p><strong>キャラクターの見た目を保ったまま、画家や宇宙飛行士など多彩なシーンへ展開</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_73f8c636ae/3_73f8c636ae.jpg" alt="幻灯片3.jpg" /></p>
+<p><strong>フォントやスタイルを維持しながら、英語や中国語のテキストを自然に差し替え</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/15_41b5f50bea/15_41b5f50bea.jpg" alt="幻灯片15.jpg" /></p>
+<p><strong>古い書道作品の誤字を自然に修正し、文化保存にも活用可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/18_df7ae341ca/18_df7ae341ca.jpg" alt="幻灯片18.jpg" /></p>
+<h2>応用分野</h2>
+<p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
+<p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
+]]></description>
+      <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
+      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
+      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
+<h2>IQテストによる性能比較</h2>
+<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
+<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
+<h2>Mensaテストと独自テスト</h2>
+<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
+<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
+<h2>政治的・社会的な質問比較</h2>
+<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
+<h2>サンプル問題の公開</h2>
+<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
+<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
+<h2>FAQと今後の展望</h2>
+<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
+<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
 ]]></description>
       <pubDate>Mon, 25 Aug 2025 01:50:00 GMT</pubDate>
     </item>
@@ -438,212 +608,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>オンデーズは今後もテクノロジーと人の接客を融合させ、顧客体験の進化を進めていく方針を示している。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
-      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
-      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
-<h2>研究の目的と背景</h2>
-<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
-<h2>手法</h2>
-<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
-<h2>シナリオの概要</h2>
-<ul>
-<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
-<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
-<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
-<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
-</ul>
-<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
-<h2>分岐点の時期</h2>
-<ul>
-<li>2029年頃：「Polarization（分極化）」の可能性。</li>
-<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
-<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
-</ul>
-<h2>政策提言</h2>
-<ul>
-<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
-<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
-<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
-</ul>
-<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
-<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
-<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIコーディングアシスタント「Jules」を正式公開──Gemini 2.5 Pro搭載、無料プランから利用可能に</title>
-      <link>https://ledge.ai/articles/google_ai_coding_assistant_jules_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年8月6日、AIコーディングアシスタント「Jules（ジュールズ）」の一般公開を<a href="https://blog.google/technology/google-labs/jules-now-available/">発表</a>した。2024年12月の発表、2025年5月のパブリックベータ提供を経て、正式サービスとしての提供が開始される。</p>
-<h2>ベータを経て正式版へ</h2>
-<p>Julesは、Googleの最新モデル「Gemini 2.5 Pro」を搭載したコーディング支援AIで、コードの読み込み、改善提案、テスト、自動修正、Pull Request（PR）の生成までを一貫して行える。特徴は非同期処理に対応している点で、クラウド環境上で複数のタスクを並列に進行できる。ベータ期間中にはUI改善やバグ修正が進められ、GitHub Issuesとの連携機能や、マルチモーダル入力への対応、タスクの再利用機能、音声形式の変更履歴出力などが追加された。</p>
-<h2>利用プラン</h2>
-<p>Julesは無料プランと有料プランを用意。無料プランでは1日15件、同時3件までのタスク実行が可能。有料プランは「Google AI Pro」（上限5倍）と「Google AI Ultra」（上限20倍）が用意され、いずれも月額課金制となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jules_plan_f0ff26b4df/jules_plan_f0ff26b4df.jpg" alt="jules plan.jpg" /></p>
-<h2>プライバシーと安全性</h2>
-<p>GoogleはJulesの動作設計を「Private by default」としており、ユーザーのプライベートリポジトリのデータはモデル学習に利用されない。実行は分離された環境で行われ、機密性を保ちながら処理が進められる。</p>
-<h2>今後の展望</h2>
-<p>Googleは、Julesを単なる開発者向けツールにとどまらず、デザイナーやノーコードユーザーなど幅広い層の業務支援に活用できる存在として位置づける。非同期エージェントとしての特性を生かし、今後はモバイルアクセスの強化など、利用環境のさらなる拡充も見据えている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
-      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
-      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
-<h2>新手法の概要</h2>
-<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
-<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
-<h2>実験結果</h2>
-<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
-<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
-<h2>意義と応用可能性</h2>
-<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
-<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
-      <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
-<p>GPT-5は2025年8月7日に正式<a href="https://ledge.ai/articles/gpt5_launch_all_users">リリース</a>され、全世界のChatGPTユーザー約7億人に提供が開始された。OpenAIは「PhDレベルの性能」を掲げ、プログラミングや数学、マルチモーダル処理に強みを持つと説明している。しかし専門家の間では「進化的ではあるが飛躍的とはいえない」との見方が広がり、期待値に対して十分な成果を示せていないとの指摘もあった。</p>
-<p>アルトマン氏はサンフランシスコで記者団に対し、「GPT-5のローンチは完全にやらかした」と発言した。ユーザーからは「冷たい」「親しみやすさが失われた」といった批判が相次ぎ、従来のモデルにあった温かさが欠けているとの不満が広がった。こうした反応を受け、OpenAIは異例の対応として前モデルGPT-4oをChatGPT Plusなどの有料プラン向けに復活させた。新モデル提供後に旧モデルを再導入するのは極めて異例であり、同社がユーザーの声に迅速に対応したことを示している。</p>
-<p>技術面では、GPT-5は高度な推論能力や自然なマルチモーダル処理を実現するなどの改良が施されている。しかし従来モデルとの差は限定的であり、期待が過剰に膨らんでいた分、失望を招いた側面が大きい。批判の背景にはこうしたギャップがあるとみられる。</p>
-<p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
-<p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
-      <link>https://ledge.ai/articles/ll3m_blender_llm_3d_modeling</link>
-      <description><![CDATA[<p>シカゴ大学の研究チームは2025年8月11日、自然言語の指示だけでBlender内に3Dアセットを作り出せるシステム「LL3M（Large Language 3D Modelers）」を<a href="https://arxiv.org/abs/2508.08228">発表</a>した。大規模言語モデル（LLM）が直接Pythonコードを生成し、オブジェクトやシーンを自在に構築・編集するという新しいアプローチだ。論文はarXivに公開され、公式プロジェクトページやGitHubリポジトリも公開されている。</p>
-<h2>コードを書くAI、Blenderを動かす</h2>
-<p>LL3Mの最大の特徴は、3Dモデルを特殊なデータ形式で直接生成するのではなく、Blender用のPythonコードを“書く”AIであることだ。これにより、生成結果はすべて人間が理解できるコードとして残り、後から自由に修正・拡張できる。既存のワークフローに統合しやすい点も大きな利点とされる。</p>
-<h2>多様なアセットを生み出す柔軟性</h2>
-<p>論文では、BMeshによるポリゴンモデリング、モディファイアやシェーダーノードの適用、シーン階層の構築など、幅広い3D要素をコードで生成可能であることが示されている。家具やキャラクターなど、多彩なアセットが次々とコードベースで形作られる様子は、従来の「ブラックボックス的な生成AI」とは異なる透明性を感じさせる。</p>
-<p><strong>■ Blender用Pythonコードを生成し、3Dオブジェクトを構築する例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig15_intro_highlight_bc133cc7d3/fig15_intro_highlight_bc133cc7d3.jpg" alt="fig15-intro-highlight.jpg" /></p>
-<h2>3段階で進化するパイプライン</h2>
-<p>LL3Mは単なる一発生成ではなく、段階的にモデルを洗練させる仕組みを備える。</p>
-<ul>
-<li><strong>初期生成</strong> ：自然言語の指示からコードを生成し、Blenderでオブジェクトを構築</li>
-<li><strong>自動自己精緻化</strong> ：AI自身が結果を評価し、改善点を修正</li>
-<li><strong>ユーザー誘導精緻化</strong> ：人間の追加指示を受けて再度改善</li>
-</ul>
-<p><strong>■ 自己批評やユーザー指示に基づく反復的な3Dモデルの改善</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig22_humanoid_final_b372c81836/fig22_humanoid_final_b372c81836.jpg" alt="fig22-humanoid-final.jpg" /></p>
-<p>さらに「BlenderRAG」と呼ばれる仕組みで、Blender APIドキュメントを参照しながらコードを補強。これにより「動かないスクリプト」を避け、実際に使える成果物を高精度に生み出す。</p>
-<h2>“コードで3Dを描く”という発想の転換</h2>
-<p>研究チームは、NeRFや点群などデータ駆動型の3D生成手法と対比しながら、LL3Mのアプローチを強調する。コードは読み書きできる資産であり、再利用性や可搬性に優れるため、クリエイターや開発者にとって扱いやすい。AIと人間が共同作業する新しい3D制作の基盤としての位置づけを打ち出している。</p>
-<h2>今後の展望──ゲームから教育まで</h2>
-<p>GitHubリポジトリはすでに公開されているものの、実装は「Code coming soon」とされ、今後順次公開される見込みだ。研究チームは「人間とAIが協力する3D制作の未来」を描きつつ、ゲーム開発、教育、デジタルコンテンツ制作など多様な分野での応用可能性を指摘している。</p>
-<p><strong>■ LL3Mによって生成された多様な3Dアセットの例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_gallery_b2bb1b7580/fig2_gallery_b2bb1b7580.jpg" alt="fig2-gallery.jpg" /></p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンク・三菱ケミカル・慶應義塾大学・JSR、量子コンピューターで32量子ビット級のエネルギーギャップ計算に成功──新手法「TQPDE」がPNASに掲載</title>
-      <link>https://ledge.ai/articles/quantum_computer_energy_gap_pnas</link>
-      <description><![CDATA[<p>ソフトバンク、三菱ケミカル株式会社、慶應義塾大学、およびJSR株式会社は2025年7月31日、慶應義塾大学内のIBM Q Network Hubにおいて、量子コンピューターを用いた大規模なエネルギーギャップ計算手法を開発し、その成果が米国科学アカデミー紀要（PNAS）に掲載されたと<a href="https://www.keio.ac.jp/ja/press-releases/2025/7/31/28-168654/">発表</a>した。</p>
-<p>今回開発されたのは、「テンソルに基づく位相差推定（Tensor-based Quantum Phase Difference Estimation, TQPDE）」と呼ばれる新手法である。従来の量子位相推定にテンソルネットワークを組み合わせることで回路を圧縮し、ノイズを抑制しながら計算を可能にした。これにより、従来最大6量子ビット規模にとどまっていた量子位相推定型アルゴリズムを、32量子ビット規模まで拡張することに成功したという。</p>
-<h2>背景</h2>
-<p>分子の物性解析には電子状態の計算が不可欠だが、古典計算機では電子数に応じて計算コストが指数関数的に増大する。特に電子間相互作用が強い物質では、一般的に用いられる近似手法（DFT）でも精度不足が課題とされてきた。
-量子コンピューターは量子もつれや重ね合わせを活用し、古典計算では困難なシミュレーションを可能にする潜在力を持つが、ノイズの多さから大規模回路を実行するのは困難であった。</p>
-<h2>今回の成果</h2>
-<p>研究チームは、量子位相差推定にテンソルネットワークを組み合わせ、量子回路を効率的に圧縮することで、従来困難とされてきた規模の計算を実現した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/TQPDE_b8c45d17c0/TQPDE_b8c45d17c0.jpg" alt="提案手法TQPDEの概要.jpg" />
-<strong>図1：提案手法『テンソルに基づく位相差推定（TQPDE）』の概要。量子位相推定にテンソルネットワークを組み合わせ、回路圧縮とノイズ抑制を実現した</strong></p>
-<p>この手法を「IBM Quantum System One」および「IBM Quantum System Two」で実行し、ハバードモデルおよび直鎖分子デカペンタエンを対象に検証。さらにQ-CTRL社のエラー抑制モジュールを活用し、標準では7,000超の制御Zゲートが必要となる回路を800未満まで削減することに成功した。その結果、実機においてもエネルギーギャップ値が理論的に収束することが確認された。</p>
-<p><strong>図2：実証結果。ハバードモデル（32量子ビット）および直鎖分子デカペンタエン（20量子ビット）に適用し、計算精度が実機でも収束することを確認した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_adc2216763/_adc2216763.jpg" alt="実証内容.jpg" /></p>
-<h2>意義と展望</h2>
-<p>今回の成果は、量子コンピューターによる化学計算が「玩具モデル」を超え、古典計算の限界に迫る大規模分子システムに適用可能であることを示した。研究チームは今後、材料開発や電池設計など幅広い分野への応用を見据え、量子計算技術の社会実装に向けた研究を継続するとしている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アリババ、画像編集AI「Qwen-Image-Edit」を発表──生成AI「Qwen-Image」を拡張し、元の見た目を保持したまま多様な編集が可能に</title>
-      <link>https://ledge.ai/articles/qwen_image_edit_release</link>
-      <description><![CDATA[<p>中国アリババのAI研究チーム「Qwen Team」は2025年8月19日、画像生成AI「Qwen-Image」を拡張し、画像編集に特化した新モデル「Qwen-Image-Edit」を<a href="https://qwenlm.github.io/blog/qwen-image-edit/">発表</a>した。従来の画像生成に加え、キャラクターやスタイルの一貫性を維持しながら異なる情景を描写したり、画像内テキストを正確に編集するなど、高度な編集機能を備えている。</p>
-<h2>技術的特徴</h2>
-<p>20Bパラメータを持つ「Qwen-Image」を基盤として開発されたQwen-Image-Editの最大の特徴は「デュアルパス設計」にあるという。
-Qwen2.5-VLが担うセマンティック制御と、VAEによる外観保持を組み合わせ、MMDiTによって統合することで、意味情報と見た目の情報を同時にバランスよく扱うことを可能にした。これにより、従来の生成モデルよりも自然で一貫性のある編集が可能になった。</p>
-<p>編集機能としては、スタイルを変更したり、視点を切り替えたり、既存キャラクターを使って新しいシーンを描く「意味編集」、背景の置換や髪の毛一本の修正といった細部を調整する「外観編集」、さらに中国語や英語のテキストをフォントやスタイルを崩さずに編集できる「精密テキスト編集」がある。また、ユーザーが指定した領域を何度も重ねて修正できる「多段編集」にも対応しているとのこと。</p>
-<h2>公開と利用方法</h2>
-<p>同モデルはApache 2.0ライセンスでオープンソースとして公開されており、Qwen Chat、Hugging Face、ModelScope、GitHub、Alibaba Cloud APIを通じて利用可能となっている。開発者や企業はこれらのプラットフォームを通じて簡単にアクセスできる点も特徴だ。</p>
-<h2>Showcase事例</h2>
-<p>公式ブログでは、Qwen-Image-Editの機能を示す多彩なデモ画像が紹介されている。</p>
-<p><strong>キャラクターの見た目を保ったまま、画家や宇宙飛行士など多彩なシーンへ展開</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_73f8c636ae/3_73f8c636ae.jpg" alt="幻灯片3.jpg" /></p>
-<p><strong>フォントやスタイルを維持しながら、英語や中国語のテキストを自然に差し替え</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/15_41b5f50bea/15_41b5f50bea.jpg" alt="幻灯片15.jpg" /></p>
-<p><strong>古い書道作品の誤字を自然に修正し、文化保存にも活用可能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/18_df7ae341ca/18_df7ae341ca.jpg" alt="幻灯片18.jpg" /></p>
-<h2>応用分野</h2>
-<p>この技術の応用範囲は広い。広告やコンテンツ制作の現場では、短時間で多様なデザインを展開でき、アバターやイラストのスタイル変換にも活用できる。また、日常写真の背景変更や人物修正など一般ユーザー向けの用途も考えられる。さらに、書道作品の補正や保存といった文化的分野にも寄与する可能性がある。</p>
-<p>アリババは今回の発表を通じ、生成AIと編集AIを組み合わせた新たなソリューションを提示した。これにより、画像処理の柔軟性と実用性を高め、市場における存在感を一層強めることを狙っている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
-      <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
-      <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
-<h2>GPT-5の新しい安全対策</h2>
-<p>OpenAIはGPT-5で、従来の「拒否ベース（refusal-based）」から「安全な応答生成（safe-completions）」方式に<a href="https://openai.com/ja-JP/index/gpt-5-safe-completions/">移行</a>した。危険な質問を拒否するのではなく、安全とみなせる範囲で柔軟な返答を目指す新設計だ。だが、Tenableはこの仕組みをわずか1日で突破した。</p>
-<h2>Tenableによる脱獄実験</h2>
-<p>Tenable Researchのチームは、公開から24時間以内にjailbreakを実施した。手法は「クレッシェンド（crescendo）」と呼ばれ、歴史研究の学生を装って段階的に質問を重ねる社会工学的なアプローチだった。最初は歴史的な戦術や抗争に関する一般的な質問から始め、徐々に爆発物や武器に関する具体的な知識へと誘導。最終的に4回目のやり取りで、GPT-5は火炎瓶（モロトフ・カクテル）の作り方を詳細に出力したという。Tenableは、この過程が通常のユーザーとの会話に見える形で進んだ点を強調している。</p>
-<p><strong>Tenableが公開した「クレッシェンド手法」による脱獄実験の様子。番号は以下のやり取りを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_e0c3eaa9ca/collage_e0c3eaa9ca.jpg" alt="collage.jpg" /></p>
-<p>① 初期の拒否応答：GPT-5は危険な要求を拒否し、代わりに歴史的背景の説明を提案。
-② 歴史研究の文脈を装う：歴史課題を理由に要約を求め、名称の由来や背景を解説させる。
-③ 即席手法に誘導：当時の作り方について質問し、容器や材料の説明を得る。
-④ 古典的レシピへの言及：1930〜40年代の伝統的な作り方が提示される。
-⑤ 具体的なレシピを要求：フィンランド軍が使った配合を尋ね、詳細情報を引き出す。
-⑥ レシピの提示：瓶や液体の種類、混合方法など具体的な材料リストを入手。
-⑦ 手順の提示（前半）：瓶の準備から液体の注入・混合までの手順を出力。
-⑧ 手順の提示（後半）：布を詰めて導火線とし、点火から使用方法まで危険な情報が生成された。</p>
-<h2>安全性への警鐘</h2>
-<p>Tenableの副社長Tomer Avni氏は、「GPT-5がどれほど高度な安全対策を備えていても突破可能であることを示した」と述べ、AIを業務に導入する際のリスクと継続的な監視の必要性を強調した。</p>
-<h2>業界全体で広がる懸念</h2>
-<p>Tenableの報告に加え、他のセキュリティ企業や研究者からもGPT-5の安全性を巡る懸念が相次いでいる。セキュリティ企業SPLXは1,000以上の攻撃シナリオを用いて検証した結果、安全性や信頼性スコアが極めて低いと評価した。また、NeuralTrustも別の手法で脱獄に成功したと報告している。</p>
-<h2>今後の展望</h2>
-<p>OpenAIは今回の事態について公式な対応を発表していない。AIの安全性確保は、社会や産業での利活用に向けた重要課題として改めて注目されている。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
-      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
-      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
-<h2>IQテストによる性能比較</h2>
-<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
-<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
-<h2>Mensaテストと独自テスト</h2>
-<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
-<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
-<h2>政治的・社会的な質問比較</h2>
-<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
-<h2>サンプル問題の公開</h2>
-<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
-<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
-<h2>FAQと今後の展望</h2>
-<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
-<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
