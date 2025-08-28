@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
+      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
+      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
+<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
+<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
+<h2>Mirage 2の特徴</h2>
+<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
+<ul>
+<li>入力は1枚の画像とテキスト説明文</li>
+<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
+<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
+<li>生成空間はリンク共有により他者と体験可能</li>
+</ul>
+<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
+<h2>Mirage 2による生成例</h2>
+<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
+<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
+<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
+<h2>Genie 3との比較</h2>
+<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
+<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
+<h2>今後の展望</h2>
+<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
       <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
       <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
@@ -433,16 +465,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>DDM Awardは今後の開催も目下企画途中である。今年もまた別のテーマで、今回のような新たなアイデアが生まれるに違いない。富士通が目指すデータドリブン経営の象徴的な事例はますます増えていくだろう。</p>
 ]]></description>
       <pubDate>Thu, 21 Aug 2025 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>吉本興業、AIや縦型ショート含む多様な領域展開を見据えたコンテンツファンド設立——数十億円規模で海外展開、明石家さんま・ダウンタウンら所属タレントも参加</title>
-      <link>https://ledge.ai/articles/yoshimoto_ai_content_fund</link>
-      <description><![CDATA[<p>吉本興業は2025年8月18日、数十億円規模のコンテンツファンドを設立したと<a href="https://www.yoshimoto.co.jp/info/1415/">発表</a>した。AIを活用した企画や縦型ショートドラマ、アニメ、ゲームなど多様な領域を対象に、所属タレントがプロデュースや出演するコンテンツ制作を推進。さらに番組フォーマットを海外展開する方針も示した。</p>
-<p>このファンドは国内外の企業からの出資を募り、数十億円規模の資金を確保する計画。バラエティ番組、映画、アニメ、ドラマ、ライブ、リアリティーショー、縦型ショートドラマ、ウェブトゥーン、ゲームなど幅広いコンテンツが対象となる。AIを活用した新たなコンテンツ制作にも取り組むという。</p>
-<p>制作には、所属タレントである明石家さんま、ダウンタウン、中川家、千鳥、かまいたち、マヂカルラブリー、チョコレートプラネット、渡辺直美、霜降り明星らが参加。プロデュースや出演を通じ、既存の番組制作の枠を超えた取り組みを展開する予定だ。また、スポーツドキュメンタリーやオーディション番組など、タレントの多様な活動を反映した企画も構想され、ファンドを通じた新規プロジェクトの展開が注目される。</p>
-<p>同社は、制作した番組フォーマットを海外市場に展開する方針も掲げており、今回のファンドは国際展開に向けた戦略的な一歩となるとのこと。国内外に向けてタレント主導のコンテンツ制作を拡大し、エンターテインメントの新たな可能性を切り拓く狙いだ。</p>
-]]></description>
-      <pubDate>Wed, 20 Aug 2025 23:50:01 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/8/25 [MON]地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
