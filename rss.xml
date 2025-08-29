@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、Realtime APIを正式公開──本番運用の音声エージェント向けに「gpt-realtime」登場</title>
+      <link>https://ledge.ai/articles/openai_realtime_api_gpt_realtime_release</link>
+      <description><![CDATA[<p>OpenAIは2025年8月28日（米国時間）、アプリやサービスにリアルタイム会話機能を組み込める「Realtime API」を<a href="https://openai.com/index/introducing-gpt-realtime/">発表</a>した。これまでベータ版として提供されてきたものを、商用利用に対応できる形へと強化したもので、本番環境での運用を前提とした信頼性や機能性が大幅に向上している。同時に、より高度な音声対話を実現する新モデル「gpt-realtime」も発表された。</p>
+<h2>Realtime API、一般提供（GA）へ</h2>
+<p>Realtime APIは、低遅延かつ高精度の音声・テキスト処理を一つのモデルで実現し、待ち時間やニュアンスの損失を最小化する。今回の正式公開によって、開発者は顧客向けアプリケーションに安定した音声エージェントを組み込めるようになった。</p>
+<h2>新モデル「gpt-realtime」の特徴</h2>
+<p>新たに登場した「gpt-realtime」は、発話の抑揚や間合いといった非言語的要素を処理し、より自然で表現力豊かな会話を可能にする。複雑な指示の理解や正確なツール呼び出しにも対応し、従来モデルよりも一段と実用性が高まった。また、新しい音声「Cedar」「Marin」を含む複数のボイスが追加され、用途に応じた音声選択が可能となっている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=nfBbmtMJhX0">YouTube</a></p>
+<h2>拡張されたAPI機能</h2>
+<p>Realtime APIには、以下の主要な新機能が追加された。</p>
+<ul>
+<li><strong>MCP（Model Context Protocol）サーバー対応</strong> ：外部データやツールへのアクセスを容易にし、セッション中に必要な情報をシームレスに利用可能にする。</li>
+<li><strong>画像入力対応</strong> ：音声やテキストと組み合わせて画像を入力でき、写真やスクリーンショットを交えたマルチモーダルな対話が可能になった。</li>
+<li><strong>SIP通話対応</strong> ：公衆電話網やPBXなどSIP対応端末と接続でき、音声エージェントによる電話業務の自動化を実現する。</li>
+</ul>
+<h2>運用性とセーフティ</h2>
+<p>本番運用を意識した設計として、非同期ツール呼び出しにより長時間処理を待つ間も会話を途切れさせない工夫が加えられた。加えて、セッション全体を対象にした多層的な安全ガードや、EU域内でのデータレジデンシー対応など、プライバシーとセキュリティの強化も図られている。</p>
+<h2>価格改定</h2>
+<p>「gpt-realtime」の利用料金は従来比で20％引き下げられ、開発者や企業が導入しやすい価格設定となった。例えば、入力は100万オーディオトークンあたり32ドル、出力は同64ドルとされている。</p>
+<p>Realtime APIの正式公開と「gpt-realtime」の発表は、OpenAIが音声AIの本格的な商用利用を見据えた大きな一歩といえる。高度な音声理解と表現力に加え、MCP、画像入力、SIP通話といった拡張機能が揃ったことで、カスタマーサポートや教育、業務自動化など多様な領域で新たな音声体験が広がることが期待されている。</p>
+]]></description>
+      <pubDate>Fri, 29 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、作家グループと和解基本合意　AI学習を巡る著作権訴訟が大きな節目</title>
       <link>https://ledge.ai/articles/anthropic_authors_settlement_ai_copyright</link>
       <description><![CDATA[<p>AI開発企業のAnthropicと複数の作家が争っていた著作権侵害訴訟で、和解に向けた基本合意が成立したことが明らかになった。米国第9巡回控訴裁判所に2025年8月26日付で<a href="https://www.documentcloud.org/documents/26075972-anthropic-settlement/">提出</a>された書類によると、両当事者は8月25日付で和解条件をまとめた拘束力のある基本合意書（term sheet）に署名したという。</p>
@@ -619,16 +643,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>Seed-Proverは、自然言語で証明を生成する従来型モデルとは異なり、定理証明器によって機械的に検証可能な形式証明を構築する点に特徴がある。論文では、この厳密な証明構築は数学研究の支援や形式検証（formal verification）といった分野に応用できる可能性があると記されている。</p>
 ]]></description>
       <pubDate>Sat, 23 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>竹中工務店、建築設計AI「Tektome KnowledgeBuilder」を導入──設計業務の生産性向上と働き方改革を推進</title>
-      <link>https://ledge.ai/articles/takenaka_koumuten_ai_design_solution</link>
-      <description><![CDATA[<p>建築大手の竹中工務店は2025年8月18日、AIを活用した建築設計支援ソリューション「Tektome KnowledgeBuilder」を導入したことを<a href="https://prtimes.jp/main/html/rd/p/000000008.000136954.html">発表</a>した。開発元のテクトムが8月18日に発表したもので、設計業務における生産性向上や働き方改革を加速させる狙いがあるという。</p>
-<p>「Tektome KnowledgeBuilder」は、建築設計業務で発生する膨大な図面や関連情報をAIで構造化し、検索・参照を容易にするソリューションである。これにより、従来は属人的に扱われていた設計ナレッジを効率的に活用できる環境を整え、設計プロセスの高度化と効率化を実現する。</p>
-<p>竹中工務店では導入に先立ち、社内ワーキンググループによる約3カ月間の実証実験を実施。実務に即した利用環境の整備を進めた結果、設計者が過去の事例を効果的に参照し、業務負担を軽減できることが確認されたという。</p>
-<p>テクトムは今回の取り組みについて、「設計DXの推進を通じ、建築業界全体の生産性革新や働き方改革に貢献していく」としている。今後は竹中工務店での活用事例をもとに、他の建築事業者への展開も視野に入れている。</p>
-]]></description>
-      <pubDate>Fri, 22 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
