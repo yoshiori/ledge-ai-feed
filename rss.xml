@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AI関連の注目訴訟が相次ぐ　マスク氏はAppleとOpenAIを独占禁止法違反、読売に続き朝日と日経がPerplexity（パープレキシティ）を著作権侵害で提訴</title>
+      <link>https://ledge.ai/articles/ai_lawsuits_musk_openai_apple_asahi_nikkei_perplexity</link>
+      <description><![CDATA[<p>AI業界で大規模訴訟が相次いでいる。イーロン・マスク氏が率いる米xAIは2025年8月25日、AppleとOpenAIを反トラスト法（独占禁止法）違反で提訴したと各メディアが報じた。一方、日本では26日、朝日新聞社と日本経済新聞社が生成AI検索サービスを展開する「Perplexity（パープレキシティ）」を著作権侵害で東京地裁に提訴した。AIの競争環境と知的財産をめぐる対立が、世界各地で表面化している。</p>
+<h2>イーロン・マスク氏、AppleとOpenAIを独占禁止法違反で提訴</h2>
+<p>マスク氏が率いるAI企業「xAI」は8月25日、AppleとOpenAIを相手取り、テキサス州連邦裁判所に提訴した。訴状によると、AppleがiPhoneにChatGPTを統合することでOpenAIに有利な地位を与え、App Store上で競合のAIサービスを不当に排除していると主張。xAIは、自社のチャットボット「Grok」の露出機会が妨げられていると訴え、数十億ドル規模の損害賠償を求めている。</p>
+<p>マスク氏は以前から、OpenAIが「非営利団体から営利企業へと変質した」と<a href="https://ledge.ai/articles/musk_accuses_apple_appstore_bias">批判</a>しており、今回の訴訟もその延長線上にあるとみられる。AppleとOpenAIの協力体制が、AI市場における競争を阻害しているかどうかが焦点となる。</p>
+<h2>Perplexity、朝日・日経に著作権侵害で提訴される</h2>
+<p>一方、日本では26日、朝日新聞社と日本経済新聞社が共同でPerplexity AIを東京地裁に提訴し、それぞれ22億円の損害賠償を求めている。両社はサーバー内の記事が無断で複製・保存され、AI検索サービスの回答に利用されていると主張。さらに、検索エンジンによる利用拒否を示す「robots.txt」の指示を無視している点も問題視した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/asahi_perplexity_lawsuit_7d8ec5d38d/asahi_perplexity_lawsuit_7d8ec5d38d.jpg" alt="asahi perplexity lawsuit.jpg" /></p>
+<p>すでに読売新聞社が8月7日に同様の訴訟を起こし、サービスの利用差止めと約21億6,800万円の損害賠償を求めていることから、日本の大手新聞社による法的対応が広がっていると見られている。</p>
+<h2>広がるAI訴訟ラッシュ</h2>
+<p>米国ではプラットフォーマーと新興AI企業との競争をめぐる訴訟、日本では報道機関と生成AIサービスとの著作権紛争と、論点は異なる。しかしいずれも、AIの急速な普及が既存の法制度やビジネスモデルと衝突している実態を浮き彫りにしている。</p>
+]]></description>
+      <pubDate>Thu, 28 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA、ロボットの頭脳を刷新──「Jetson AGX Thor」発売開始　Orin比7.5倍のAI性能を実現</title>
       <link>https://ledge.ai/articles/nvidia_jetson_agx_thor_launch</link>
       <description><![CDATA[<p>NVIDIAは2025年8月25日（米国時間）、次世代GPUアーキテクチャ「Blackwell」を搭載したロボティクス向けAIコンピュータ「Jetson AGX Thor（ソー）」の開発キットと量産モジュールを一般販売開始したと<a href="https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics">発表</a>した。</p>
