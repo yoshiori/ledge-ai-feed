@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>歌詞から最大5分の楽曲を生成　香港科技大学ら、音楽AI「YuE」を無料公開　商用利用も可能に</title>
+      <link>https://ledge.ai/articles/yue_open_source_music_ai_release</link>
+      <description><![CDATA[<p>香港科技大学（HKUST）とAI研究コミュニティ「Multimodal Art Projection（M-A-P）」が、歌詞から最大5分の楽曲を生成できるオープンソース音楽生成AI「YuE」を<a href="https://map-yue.github.io/">公開</a>している。モデルはApache License 2.0で配布され、商用利用も可能だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Yue_main_9ae9397eaf/Yue_main_9ae9397eaf.jpg" alt="Yue-main.jpg" /></p>
+<p>YuEは音楽生成、特に歌詞から完全な楽曲「lyrics-to-song foundation model」を掲げるLLaMA2アーキテクチャに基づくオープンな基盤モデルで、歌詞を入力するだけでボーカルと伴奏を同時に生成できる。英語、中国語、日本語、韓国語など多言語に対応し、単一言語の曲だけでなく複数言語を混在させた歌唱も可能だ。モデル名の「YuE」は、中国語で「音楽」と「幸せ」を意味する「乐（Yuè）」に由来する。</p>
+<h2>高度な技術設計</h2>
+<p>YuEの設計には、長尺の歌詞でも一貫性を保つ工夫が盛り込まれている。ボーカルと伴奏を分離して扱う「トラック分離型トークン予測」、段階的に構造を与える「Structural Progressive Conditioning」、多目的かつ多段階の事前学習などを組み合わせることで、歌詞との整合性と音楽的なまとまりを確保している。</p>
+<p>また、最近のアップデートではデュアルトラックICL（In-Context Learning）が導入された。これにより、参照曲を与えることで歌声やスタイルを模倣できるようになり、スタイル転送やジャンル変換といった応用が広がる。さらに、Google Colab環境で利用できる「YuE-extend」によって音楽の継続生成も可能になった。</p>
+<h2>公開モデルと動作環境</h2>
+<p><a href="https://huggingface.co/papers/2503.08638">Hugging Face</a>では、7B規模の英語・中国語・日本語/韓国語モデルがチェックポイントとして公開されている。音質を高めるアップサンプラーも提供されており、研究者や開発者が容易に試せる環境が整った。</p>
+<p>必要な計算資源は大きく、フルソング生成には80GB級のGPUが推奨される。ただし、30秒程度の短い音声であれば24GBのGPUでも実行可能とされ、試験的な利用や研究には現実的な選択肢となり得る。</p>
+<h2>競合との違い</h2>
+<p>AIによる音楽生成分野では、米SunoやUdioといったクローズドな商用サービスが注目を集めてきた。しかし、著作権リスクや利用制限が課題視される場面も少なくない。これに対しYuEは、完全にオープンソースで公開され、ライセンスも明確に整備されている。<a href="https://winbuzzer.com/2025/08/08/yue-launches-as-open-source-ai-song-generator-xcxwbn/">WinBuzzer</a>など海外メディアも、透明性や合法性を重視する利用者にとって有力な選択肢になり得ると伝えている。</p>
+<h2>研究と創作の基盤へ</h2>
+<p>YuEの公開は、研究者にとっては音楽AIの再現性ある実験基盤を、開発者や音楽制作者にとっては自由に活用できる創作ツールを提供する。多言語に対応し、スタイル模倣や継続生成などの柔軟な機能を備えることで、教育や研究からエンターテインメントまで幅広い分野での活用が期待される。</p>
+<p>オープンソースの音楽AIが本格的に実用段階に入りつつある中で、YuEは「誰もが安心して利用できる基盤モデル」として注目を集めている。</p>
+]]></description>
+      <pubDate>Fri, 29 Aug 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI関連の注目訴訟が相次ぐ　マスク氏はAppleとOpenAIを独占禁止法違反、読売に続き朝日と日経がPerplexity（パープレキシティ）を著作権侵害で提訴</title>
       <link>https://ledge.ai/articles/ai_lawsuits_musk_openai_apple_asahi_nikkei_perplexity</link>
       <description><![CDATA[<p>AI業界で大規模訴訟が相次いでいる。イーロン・マスク氏が率いる米xAIは2025年8月25日、AppleとOpenAIを反トラスト法（独占禁止法）違反で提訴したと各メディアが報じた。一方、日本では26日、朝日新聞社と日本経済新聞社が生成AI検索サービスを展開する「Perplexity（パープレキシティ）」を著作権侵害で東京地裁に提訴した。AIの競争環境と知的財産をめぐる対立が、世界各地で表面化している。</p>
@@ -599,31 +619,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>テクトムは今回の取り組みについて、「設計DXの推進を通じ、建築業界全体の生産性革新や働き方改革に貢献していく」としている。今後は竹中工務店での活用事例をもとに、他の建築事業者への展開も視野に入れている。</p>
 ]]></description>
       <pubDate>Fri, 22 Aug 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>オンデーズ、生成AIが“かけたまま試着”を実現　新提案サービス「OWNDAYS MIRROR」を展開</title>
-      <link>https://ledge.ai/articles/owndays_mirror_ai_try_on_without_removing_glasses</link>
-      <description><![CDATA[<p>メガネ・サングラスの製造販売を手掛けるオンデーズ（東京都品川区）は2025年8月19日、生成AIを活用した新サービス「OWNDAYS MIRROR（オンデーズ ミラー）」を<a href="https://www.owndays.com/jp/ja/information/822">発表</a>した。</p>
-<p>AIが顔立ちや雰囲気を分析し、メガネをかけたままでも試着できる体験を提供するのが特徴だ。</p>
-<h2>生成AIによる“かけたまま試着”とレコメンド</h2>
-<p>OWNDAYS MIRRORでは、カメラに映した顔画像をもとに生成AIが最適なフレームを提案。現在かけているメガネを画像上で仮想的に外し、新しいフレームをリアルタイムで合成表示することで、視力が弱いユーザーでも違和感なく比較検討できる。</p>
-<p><strong>AIが候補フレームを提示し、装着イメージを“かけたまま”で確認可能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo03_2_91fec602d9/photo03_2_91fec602d9.jpg" alt="photo03-2.jpg" /></p>
-<h2>“なりたい印象”を8タイプから選択</h2>
-<p>ユーザーは「カジュアル」「フォーマル」「クール」「ソフト」「シンプル」「グラマラス」「モダン」「クラシック」の8種類の印象から“なりたい印象”を選択。AIが選択に応じて似合い度や印象コメントを提示し、候補フレームを絞り込む。</p>
-<p><strong>“なりたい印象”を選ぶ画面。8タイプから選ぶとAIが候補を最適化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo03_1_c103e87778/photo03_1_c103e87778.jpg" alt="photo03-1.jpg" /></p>
-<p>気に入ったフレームはそのまま店頭在庫を確認でき、実物の試着・購入に進める。価格や在庫数、同系統の別カラーなども画面上で確認できる。</p>
-<p><strong>候補フレームの詳細画面。価格・在庫・カラーバリエーションも同時に確認</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/photo01_1d02f996d4/photo01_1d02f996d4.jpg" alt="photo01.jpg" /></p>
-<h2>店舗導入とスケジュール</h2>
-<p>新サービスは8月20日にオープンする「OWNDAYS天王洲アイル店」をはじめ、全国11店舗に導入される。2026年3月末までに国内全店舗、さらに海外店舗にも順次展開する予定だ。</p>
-<p>天王洲アイル店はDX推進モデル店舗に位置づけられており、リモート視力測定やRFIDを活用した商品管理、キャッシュレスセルフレジなどの最新設備を導入。OWNDAYS MIRRORはその目玉機能として位置づけられている。</p>
-<h2>今後の展開</h2>
-<p>同社によると「似合うメガネがわからない」「基準がない」「視力の悪さで印象が掴めない」といった顧客の声がサービス開発のきっかけになったという。混雑時でも自分のペースで納得して選べる新しい顧客体験を提供し、スタッフの負担軽減にもつなげたい考えだ。</p>
-<p>オンデーズは今後もテクノロジーと人の接客を融合させ、顧客体験の進化を進めていく方針を示している。</p>
-]]></description>
-      <pubDate>Thu, 21 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
