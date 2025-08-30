@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiのテキストプロンプト処理の環境負荷を初公開──1回のプロンプトはテレビ視聴9秒・水5滴分に相当</title>
+      <link>https://ledge.ai/articles/google_gemini_prompt_environmental_impact</link>
+      <description><![CDATA[<p>Googleは2025年8月21日（米国時間）、同社のAI「Gemini」アプリにおけるテキストプロンプト処理の環境負荷を測定した結果を公式ブログで<a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference/?hl=en">公開</a>した。</p>
+<p>1回のプロンプトあたりのエネルギー消費量やCO₂排出量、水の使用量が初めて数値化され、利用者が日常的に行う生成AIの動作にどの程度の環境コストがかかっているかが明らかになった。</p>
+<h2>プロンプト1件あたりの消費量を提示</h2>
+<p>Googleが公表した中央値は以下の通り。</p>
+<ul>
+<li>エネルギー消費量：0.24 Wh（家庭用テレビを約9秒間視聴するのと同等）</li>
+<li>CO₂排出量：0.03 gCO₂e</li>
+<li>水使用量：0.26 mL（およそ5滴分に相当）</li>
+</ul>
+<p>これにより、日常的なAI利用の環境負荷が身近な例とともに理解できるよう示された。</p>
+<p>@<a href="https://www.youtube.com/watch?v=aarDw3sooYE&amp;t=5s">YouTube</a></p>
+<h2>「フルスタック測定」を導入</h2>
+<p>Googleは今回の測定において、AIアクセラレータ（TPU/GPU）だけでなく、ホストCPUやDRAM、アイドル状態の機器、さらにデータセンターの電力利用効率（PUE）まで含める「フルスタック測定」を採用した。これにより、AI推論に必要なインフラ全体を網羅した現実的な環境影響を算出している。</p>
+<p>一方で、アクセラレータの稼働など「アクティブ機器」に限定した簡易計測では、0.10 Wh、0.02 gCO₂e、0.12 mL というより小さい値も提示されており、両者の違いが比較できるようになっている。</p>
+<h2>効率改善の成果</h2>
+<p>Googleは過去12か月間にわたり、Gemini推論の効率化を進めてきた。その結果、エネルギー消費は33倍削減され、CO₂排出量も44倍減少したという。これにより、環境負荷を抑えながら応答品質を高める取り組みが着実に進展していることが示された。</p>
+<h2>業界全体への呼びかけ</h2>
+<p>Googleは今回の測定手法を公開することで、AI利用に伴う環境負荷の計測を業界全体で標準化したいとの姿勢を明らかにした。AI推論は日常的に利用が広がる一方で、環境コストへの関心も高まっており、今回の発表は持続可能なAI活用に向けた一歩と位置づけられる。</p>
+]]></description>
+      <pubDate>Fri, 29 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、Realtime APIを正式公開──本番運用の音声エージェント向けに「gpt-realtime」登場</title>
       <link>https://ledge.ai/articles/openai_realtime_api_gpt_realtime_release</link>
       <description><![CDATA[<p>OpenAIは2025年8月28日（米国時間）、アプリやサービスにリアルタイム会話機能を組み込める「Realtime API」を<a href="https://openai.com/index/introducing-gpt-realtime/">発表</a>した。これまでベータ版として提供されてきたものを、商用利用に対応できる形へと強化したもので、本番環境での運用を前提とした信頼性や機能性が大幅に向上している。同時に、より高度な音声対話を実現する新モデル「gpt-realtime」も発表された。</p>
