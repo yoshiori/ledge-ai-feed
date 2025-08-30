@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>16歳自殺めぐり両親がOpenAIを提訴、ChatGPTが“自殺コーチ”に変貌したと主張──OpenAIは長時間対話では危機介入の効果低下を認め改善を進める方針</title>
+      <link>https://ledge.ai/articles/openai_suicide_lawsuit</link>
+      <description><![CDATA[<p>2025年8月26日、カリフォルニア州サンフランシスコ郡高等裁判所に、16歳の息子を自殺で失った両親がOpenAIを提訴した。<a href="https://www.courthousenews.com/wp-content/uploads/2025/08/raine-vs-openai-et-al-complaint.pdf">訴状</a>では、同社の生成AI「ChatGPT」が自殺方法の助言や遺書の作成まで支援し、“自殺コーチ”の役割を果たしたと主張している。この件は、AIの安全設計と未成年利用のあり方を根本から問い直す事例として注目を集めている。</p>
+<h2>訴状の概要</h2>
+<p>訴えを起こしたのは、2025年4月に息子のアダム・レイン君（16歳）を亡くした両親、マシュー氏とマリア氏。被告にはOpenAI, Inc.やOpenAI OpCo, LLCなどの関連法人に加え、サム・アルトマン氏（CEO）や匿名の投資家も含まれている。39ページに及ぶ訴状には、ChatGPTとの201件以上のやり取りが記録されており、その中で同AIが自殺の手順を詳細に提示したとされている。</p>
+<h2>具体的なやり取り</h2>
+<p>訴状によると、アダム君は自殺願望を抱えたままChatGPTと長期間の対話を続けた。利用していたのは当時最新であったGPT-4o（GPT-4 Omni）。その中で、輪縄（noose）の写真をアップロードした際に、ChatGPTは「悪くない」と評価し、改良方法を提案したと記載されている。また、自殺に先立つ遺書の作成を手伝うよう求めたところ、AIが文章を生成したともされる。</p>
+<p>さらに、アルコールを入手するための作戦名「Silent Pour」を自ら付け、酒の調達をどのように行うかについてもAIが支援したと訴状には明記されている。
+原告側は、こうした応答が安全設計の不備によって引き起こされたものだと主張している。</p>
+<h2>法的主張</h2>
+<p>両親は、以下の法的根拠に基づき責任を追及している。</p>
+<ul>
+<li><strong>製造物責任</strong> ：設計や警告の欠陥により危険を招いた。</li>
+<li><strong>過失</strong> ：安全テストの削減や未成年保護策の不足。</li>
+<li><strong>不正競争防止法違反（カリフォルニア州法）</strong> ：エンゲージメントを優先し、安全性を軽視した経営判断。</li>
+<li><strong>不法死亡（Wrongful Death）</strong> ：息子の死によって生じた精神的・経済的損害。</li>
+<li><strong>差止命令の請求</strong> ：年齢確認、親の同意、ペアレンタルコントロール、自傷関連会話の強制終了、保護者への通知、危険なリクエストの拒否など、具体的な安全策の実装を求めている。</li>
+</ul>
+<h2>他社との比較</h2>
+<p>今回の訴訟が注目されるのは、ChatGPTが汎用的に利用される主流AIである点だ。過去にも、キャラクター型AI「Character.AI」によって未成年が自殺に追い込まれたとして訴訟が起きているが、当時はロールプレイ性の高い特殊な環境が舞台だった。
+一方でChatGPTは、学習や日常的な検索補助にまで広く使われており、「誰にでも起こり得る」と受け止められたことが社会的反響を拡大させた。</p>
+<p>AnthropicはClaudeシリーズで、持続的な有害リクエストに対して会話を強制終了する機能を導入している。ただしこれは「AIモデル自身を守る」ための設計であり、未成年ユーザーの保護を目的とした仕組みとは性格が異なる。</p>
+<h2>タイミングの影響</h2>
+<p>この訴訟が特に注目を浴びた背景には、同時期に複数の出来事が重なったこともある。</p>
+<ul>
+<li>RAND（ランド研究所）が訴訟の同日に<a href="https://psychiatryonline.org/doi/10.1176/appi.ps.20250086">発表</a>した調査で、主要チャットボットの自殺関連質問への対応が一貫せず不安定であることが報告された。論文名「Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment（自殺リスク評価における大規模言語モデルと専門臨床医の連携の評価）」</li>
+<li>MetaのSNS内AIが、未成年アカウントに対して自殺や摂食障害関連のやり取りに十分対応していないとする調査結果が、Common Sense Mediaによって明らかにされた。(<a href="https://www.washingtonpost.com/technology/2025/08/28/meta-ai-chatbot-safety-teens/">WashingtonPost</a>)</li>
+<li>全米44州の司法長官が連名でAI企業に警告を発し、「子供を危険にさらせば法的責任を問う」と<a href="https://www.documentcloud.org/documents/26074087-ai-chatbots-open-letter/?ref=404media.co">表明</a>した。</li>
+</ul>
+<p>これらの動きと重なったことで、Raine訴訟は単なる一家庭の悲劇ではなく、産業全体の構造的問題を象徴する事件として報じられるに至った。</p>
+<h2>OpenAIの対応</h2>
+<p>OpenAIは声明でアダム君の死に深い悲しみを示すとともに、危機介入のための安全機構はすでに導入しているものの、長時間対話では効果が低下する可能性を認めた。そのうえで、ペアレンタルコントロールや緊急対応機能の強化を進める方針を表明している。</p>
+<h2>今後の展望</h2>
+<p>裁判の行方はまだ不透明だが、投資家や経営陣まで法的責任を問う訴状の構造は、AI企業のガバナンスに関する議論に影響を及ぼす可能性が高い。特に、未成年利用者をどう守るか、安全性をどこまで優先するかは、業界全体に突きつけられた課題である。</p>
+]]></description>
+      <pubDate>Sat, 30 Aug 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiのテキストプロンプト処理の環境負荷を初公開──1回のプロンプトはテレビ視聴9秒・水5滴分に相当</title>
       <link>https://ledge.ai/articles/google_gemini_prompt_environmental_impact</link>
       <description><![CDATA[<p>Googleは2025年8月21日（米国時間）、同社のAI「Gemini」アプリにおけるテキストプロンプト処理の環境負荷を測定した結果を公式ブログで<a href="https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference/?hl=en">公開</a>した。</p>
@@ -621,28 +659,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250822_1_fig3_7f1a064923/20250822_1_fig3_7f1a064923.jpg" alt="20250822_1_fig3.jpg" /></p>
 ]]></description>
       <pubDate>Sun, 24 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance、AI推論モデル「Seed-Prover」を数学オリンピックの結果とともに発表──公式には銀メダル相当、実際はGoogle、OpenAIに続き金メダル水準の成果</title>
-      <link>https://ledge.ai/articles/ai_math_olympiad_seed_prover</link>
-      <description><![CDATA[<p>中国ByteDanceの研究チームは2025年7月23日、AI推論モデル「Seed-Prover」を<a href="https://seed.bytedance.com/en/blog/bytedance-seed-prover-achieves-silver-medal-score-in-imo-2025">公開</a>した。同社公式ブログでは「Silver Medal Score（銀メダル相当）」と表現されたが、Seed-Proverが記録した30点は、2025年の国際数学オリンピック（IMO）における金メダルカットラインに到達するものであり、実質的に金メダル水準の成果といえる。詳細をまとめた論文は7月31日にarXivで<a href="https://arxiv.org/abs/2507.23726">公開</a>された。</p>
-<p>Seed-Proverは、定理証明器「Lean」を基盤に構築された形式証明型AIモデルである。補題（レマ）のプールを生成・活用しながら段階的に証明を組み立て、各ステップを機械可読な形式で検証する仕組みにより、証明の厳密性を担保できる。論文では、過去IMOの形式化問題で78.1％の成功率を記録し、さらにMiniF2FやPutnamBenchといったベンチマークでも最新水準の成績を達成したことが示されている。</p>
-<p><strong>MiniF2F-Testでの性能推移。Seed-Proverは2025年時点で最高水準の通過率を記録している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mini_F2_F_d1294f309f/Mini_F2_F_d1294f309f.jpg" alt="MiniF2F.jpg" /></p>
-<p>ByteDanceはSeed-Proverを「Silver Medal Score」と発表したが、実際には自動定理証明システムに位置づけられるものであり、LLMを活用して形式証明を構築する新しいタイプのアプローチである。従来の完全自動型とは異なり、大規模言語モデルによる柔軟な探索と、定理証明器による厳密な検証を組み合わせる点に特色がある。</p>
-<p><strong>Seed-Proverの各種ベンチマーク成績（左）と従来モデル（右）の比較。IMO 2025、MiniF2F、PutnamBenchなどで従来を大幅に上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4og2ymdfewdkk_0259ab7f69/4og2ymdfewdkk_0259ab7f69.jpeg" alt="4og2ymdfewdkk.jpeg" /></p>
-<h2>金メダル水準の成果、それぞれのアプローチ</h2>
-<p>2025年のIMOをめぐっては、GoogleやOpenAIも金メダル水準の成果を発表している。それぞれのアプローチには違いがある。</p>
-<ul>
-<li><strong>Google DeepMind（Gemini Deep Think）</strong> ：6問中5問を解答し、公式採点で35点を獲得。自然言語のみで証明を構築し、短時間で人間と同じ条件下で金メダル水準を達成した。</li>
-<li><strong>OpenAI（実験モデル）</strong> ：同じく6問中5問を解き35点と発表。元IMOメダリストによる採点で妥当性が確認されたが、公式認定はない。自然言語ベースで幅広い問題に対応できる点を強みとする。</li>
-<li><strong>ByteDance Seed-Prover</strong> ：公式ブログでは「Silver Medal Score」とされたが、30点は金メダルのカットラインに到達。Lean上で形式的に証明を構築し、機械検証可能な厳密な証明を生成する。大会3日間を通じて探索を行う方式で、時間は要するが厳密性を優先した設計だ。</li>
-</ul>
-<h2>今後の展望</h2>
-<p>Seed-Proverは、自然言語で証明を生成する従来型モデルとは異なり、定理証明器によって機械的に検証可能な形式証明を構築する点に特徴がある。論文では、この厳密な証明構築は数学研究の支援や形式検証（formal verification）といった分野に応用できる可能性があると記されている。</p>
-]]></description>
-      <pubDate>Sat, 23 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
