@@ -579,24 +579,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
       <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
-      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
-      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
-<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
-<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
-<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
-<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
-<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
-<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
-<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
-<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
-<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
-<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
-<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
-]]></description>
-      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
       <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
       <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
@@ -695,6 +677,24 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250822_1_fig3_7f1a064923/20250822_1_fig3_7f1a064923.jpg" alt="20250822_1_fig3.jpg" /></p>
 ]]></description>
       <pubDate>Sun, 24 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Research、「エージェントAIの未来は小規模言語モデル（SLM）」と提言──LLMは“必要時のみ”、ハイブリッド構成を推奨</title>
+      <link>https://ledge.ai/articles/nvidia_slm_future_of_agentic_ai</link>
+      <description><![CDATA[<p>NVIDIA ResearchのPeter Belcak氏らは2025年6月2日、論文「Small Language Models are the Future of Agentic AI」を<a href="https://research.nvidia.com/labs/lpr/slm-agents/">発表</a>し、現在は大規模言語モデル（LLM）を中心に設計されがちなエージェントAIについて、実運用では小規模言語モデル（SLM）がより適しており、経済的でもあると主張した。論文は、SLMの能力・運用適性・コスト効率を根拠に、用途に応じて複数モデルを組み合わせるヘテロジニアス（混在）構成を推奨している。</p>
+<h2>「SLMは十分に強力で、運用に適し、必然的に安価」</h2>
+<p>著者らは、エージェントAIの多くが限られた種類のタスクを反復処理するという前提に立ち、こうした場面ではSLMで十分な精度と安定性が得られると指摘。加えて、SLMはレイテンシ・消費電力・インフラ規模の面で有利であり、実サービスへのデプロイやエッジ実行にも向くとした。</p>
+<h2>コスト面の差：7B級SLMは70〜175B級LLMより「10〜30倍」効率的</h2>
+<p>論文は7B規模のSLMと70〜175B規模のLLMを比較し、レイテンシ、エネルギー、FLOPsの観点で10〜30倍の効率差があり、リアルタイム応答を要するエージェントにおいてSLMが有利だと述べる。</p>
+<h2>ハイブリッド構成の推奨：「会話の汎用性」が必要な場面のみLLMを</h2>
+<p>一方で、広範な一般会話能力が不可欠な場面については、複数モデルを呼び分けるヘテロジニアス構成（SLMとLLMの併用）が自然な選択だと提案。これにより、日常的な専門タスクはSLMで低コストに処理し、LLMは“必要時のみ”に限定してコスト最適化を図る設計思想を示した。</p>
+<h2>LLM→SLMへのエージェント移行を見据えた「一般アルゴリズム」も提示</h2>
+<p>論文は、既存のLLM中心エージェントをSLM主軸へ移行するための一般的な変換アルゴリズムを概説。移行の障壁や留意点にも触れ、産業界での段階的な置換を見据えた実務的視点を強調している。</p>
+<h2>背景にある推論基盤の進化——NVIDIA「Dynamo」</h2>
+<p>主張の背景には、SLMを高スループット・低レイテンシでさばく推論OS/基盤の進歩もある。NVIDIAは2025年3月に「NVIDIA Dynamo」を発表し、分散環境での推論効率を高める最適化（KVキャッシュ制御やディスアグリゲーテッド・サービング等）を公開している。こうした基盤整備が、SLM運用の現実解を後押ししている。</p>
+<p>著者らは、論文へのフィードバックを公開で受け付ける特設ページも用意。今後の往復書簡・批判的検討を通じて議論を深める姿勢を示している。</p>
+]]></description>
+      <pubDate>Wed, 20 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
