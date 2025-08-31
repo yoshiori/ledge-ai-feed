@@ -255,38 +255,6 @@
       <pubDate>Thu, 28 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
-      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
-      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
-<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
-<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
-<h2>Mirage 2の特徴</h2>
-<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
-<ul>
-<li>入力は1枚の画像とテキスト説明文</li>
-<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
-<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
-<li>生成空間はリンク共有により他者と体験可能</li>
-</ul>
-<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
-<h2>Mirage 2による生成例</h2>
-<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
-<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
-<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
-<h2>Genie 3との比較</h2>
-<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
-<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
-<h2>今後の展望</h2>
-<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
       <link>https://ledge.ai/articles/google_ai_14_usecases</link>
       <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
@@ -401,24 +369,6 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
 <p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
 <p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
-]]></description>
-      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AI学習に必要なデータを最大1万分の1に削減可能な新手法を発表</title>
-      <link>https://ledge.ai/articles/google_ai_data_reduction_method</link>
-      <description><![CDATA[<p>Googleは2025年8月７日、自社の研究ブログで、AIモデルの学習に必要なトレーニングデータ量を最大で1万分の1に削減しながら、モデル品質を維持できる新しい学習手法を<a href="https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/">発表</a>した。従来の膨大なデータ収集とラベリングに依存するアプローチに比べ、効率的かつ高精度なラベル付けを活用する点が特徴となる。</p>
-<h2>新手法の概要</h2>
-<p>Google Researchが公開した今回の手法は、まず大規模言語モデル（LLM）を用いてデータをクラスタリングし、モデルが誤りやすい境界事例を抽出する。その後、専門家が少数のデータに高精度なラベルを付与し、ファインチューニングに利用する仕組みだ。</p>
-<p><strong>■ LLMによる事前ラベリング→クラスタリング→境界ペア抽出→専門家ラベル→反復学習の流れ（①〜④）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies1_Process_Final_width_1250_c73b951bad/Curation_Strategies1_Process_Final_width_1250_c73b951bad.png" alt="CurationStrategies1_ProcessFinal.width-1250.png" /></p>
-<h2>実験結果</h2>
-<p>通常10万件規模のラベルが必要とされるケースにおいて、この手法では250〜450件の専門家ラベルで同等以上の成果を得られることが示された。実験にはGoogleの軽量モデル「Gemini Nano-1（1.8Bパラメータ）」と「Gemini Nano-2（3.25Bパラメータ）」が用いられ、特にNano-2ではモデルと専門家ラベルの一致度を示す指標「Cohen’s Kappa」が55〜65％向上した。</p>
-<p><strong>■ Cohen’s Kappaとサンプル数の関係。キュレーション（緑）が従来（赤破線）を広く上回り、特に3.25Bモデルで効果が顕著</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Curation_Strategies4_Results_width_1250_6dca7b850b/Curation_Strategies4_Results_width_1250_6dca7b850b.png" alt="CurationStrategies4_Results.width-1250.png" /></p>
-<h2>意義と応用可能性</h2>
-<p>この成果により、AIの開発に伴うデータ収集やアノテーションのコストを大幅に削減できる可能性がある。特に医療や広告など、専門知識が求められる領域での利用価値が高いとされる。また、AI開発の持続可能性を高め、より幅広い分野での応用を後押しすることが期待される。</p>
-<p>Googleは今後も効率的なAIトレーニング手法の研究を続け、より少ないデータで高品質なモデルを構築できる仕組みの標準化を目指すとしている。</p>
 ]]></description>
       <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
     </item>
@@ -627,6 +577,38 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>GitHubリポジトリはすでに公開されているものの、実装は「Code coming soon」とされ、今後順次公開される見込みだ。研究チームは「人間とAIが協力する3D制作の未来」を描きつつ、ゲーム開発、教育、デジタルコンテンツ制作など多様な分野での応用可能性を指摘している。</p>
 <p><strong>■ LL3Mによって生成された多様な3Dアセットの例</strong>
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_gallery_b2bb1b7580/fig2_gallery_b2bb1b7580.jpg" alt="fig2-gallery.jpg" /></p>
+]]></description>
+      <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
+      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
+      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
+<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
+<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
+<h2>Mirage 2の特徴</h2>
+<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
+<ul>
+<li>入力は1枚の画像とテキスト説明文</li>
+<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
+<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
+<li>生成空間はリンク共有により他者と体験可能</li>
+</ul>
+<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
+<h2>Mirage 2による生成例</h2>
+<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
+<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
+<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
+<h2>Genie 3との比較</h2>
+<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
+<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
+<h2>今後の展望</h2>
+<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
 ]]></description>
       <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
     </item>
