@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
+      <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
+      <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
+<p>今回の発表により、インターネット接続を完全に遮断した「エアギャップ構成」が一般提供（GA）として開始され、インターネット接続を前提とする「コネクテッド構成」はプレビュー提供が始まった。これにより、企業や公共機関は自社環境内でGeminiを安全に活用できるようになる。</p>
+<p>オンプレミス版Geminiは、アクセス制御やセキュリティ監査に加え、Confidential Computingへの対応も備えている。また、NVIDIA GPUを活用することで、マルチモーダルな生成AI処理を自社環境内で実行できる。Googleは「クラウド、エッジ、オンプレミスを問わず、あらゆる場所でGeminiを利用可能にする」としており、AI導入の柔軟性を大きく広げた。</p>
+<p><strong>Google Distributed Cloud AIスタックの構成。GeminiやGemma、タスク特化型モデルをオンプレミス環境で実行可能に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
+<p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
+<p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
+]]></description>
+      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>KPMGジャパン、AIエージェント導入拡大へ－社内監査に生成AI、“9月には1000人規模で活用見込む”</title>
       <link>https://ledge.ai/articles/kpmg_japan_ai_agent_audit_expansion</link>
       <description><![CDATA[<p>KPMGジャパンは2025年8月21日、AIが自律的に作業する「AIエージェント」を社内の監査システムに組み込むと<a href="https://kpmg.com/jp/ja/home/media/press-releases/2025/07/audit-aiagent.html">発表</a>した。最新の監査基準の情報収集や監査調書のレビュー業務にAIを活用し、監査業務の効率化と高度化を図る。メンバーファームであるあずさ監査法人で導入を進め、9月には1000人規模での利用を見込んでいるという。</p>
@@ -747,24 +760,6 @@ AIエージェントは、成果創出を図るという部分において圧倒
 <p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
 ]]></description>
       <pubDate>Tue, 26 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tesla、日本で「Full Self-Driving（Supervised）」のテスト走行を開始──市街地や高速道路での運転支援性能を検証</title>
-      <link>https://ledge.ai/articles/tesla_fsd_supervised_japan_test</link>
-      <description><![CDATA[<p>Tesla Japan（テスラ）は2025年8月20日、運転支援システム「Full Self-Driving（Supervised）」の日本でのテスト走行を開始したと<a href="https://prtimes.jp/main/html/rd/p/000000048.000038481.html">発表</a>した。市街地や高速道路を含む公道で、信号や標識の認識、交差点での右左折、歩行者や自転車への対応などの機能を検証する。（<a href="https://x.com/teslajapan/status/1957986432926249405">走行テストの様子</a>）</p>
-<p><strong>日本でのテスト走行に使用されるTeslaのModel 3</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_babbf79619/sub4_babbf79619.jpg" alt="sub4.jpg" /></p>
-<p>FSD(Full Self-Driving)は、同社が開発する最新の運転支援システムで、車両には「AI 4 ハードウェア」および「Tesla Vision」が搭載される。これにより、信号や標識の認識、交差点での右左折、さらには歩行者や自転車への対応など、複雑な交通環境での走行を支援する。</p>
-<p>名称に「Supervised」とある通り、ドライバーによる常時監視が必須となる。運転者がステアリングを握っていない場合や注意が散漫と判断された場合には、警告が発せられる仕組みだ。完全自動運転ではなく、あくまで人間による管理のもとで機能する点を強調している。</p>
-<p><strong>オートパイロットを使用したテスラ車両は、一般的な車両に比べて衝突事故発生までの平均走行距離が大幅に長い</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_a8ddd97395/sub1_a8ddd97395.jpg" alt="sub1.jpg" /></p>
-<p>テスト走行はまず限定的に開始され、今後順次エリアを拡大する見通し。日本市場での展開に向けた重要なステップと位置づけられ、欧州に続いて導入が進む。</p>
-<p>テスト走行の裏側では、FSDを支えるAI学習基盤の強化も進んでいる。テキサス州オースティンの最新工場Giga Texasでは、AIトレーニング用コンピュートクラスター「Cortex」を増強。約16,000台のH200 GPUを追加導入し、総計算能力はH100換算で約67,000台分に到達した。</p>
-<p><strong>Giga TexasのAI学習用クラスター「Cortex」。約16,000台のH200を追加し、総計算能力はH100換算で約67,000台分）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_e87e1adbef/sub3_e87e1adbef.jpg" alt="sub3.jpg" /></p>
-<p>Teslaは「FSD（Supervised）」の実証を通じて、日本における次世代運転支援システムの普及と安全性検証を進める方針だ。</p>
-]]></description>
-      <pubDate>Tue, 26 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/8/24 [SUN]理研、「富岳」後継機の開発にNVIDIA参画──AIとシミュレーション融合の次世代スーパーコンピューター</title>
