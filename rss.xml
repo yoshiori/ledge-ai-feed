@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、内製の基盤モデル「MAI-1-preview」とMAIファミリー初の自社音声モデル「MAI-Voice-1 AI」を発表──OpenAIとの関係はどうなる？</title>
+      <link>https://ledge.ai/articles/microsoft_announces_mai_voice1_and_mai1_preview</link>
+      <description><![CDATA[<p>Microsoftは2025年8月28日（米国時間）、自社開発のAIモデル群「MAIファミリー」から、初の音声生成モデル「MAI-Voice-1 AI」とテキスト基盤モデル「MAI-1-preview」を<a href="https://microsoft.ai/news/two-new-in-house-models/">発表</a>した。両モデルはすでに一部のCopilotサービスに組み込まれており、今後さらに展開が広がる予定だ。今回の発表は、同社がこれまで依存してきたOpenAIの技術から独自路線を強化しているのではないかとの見方も呼んでいる。</p>
+<h2>音声モデル「MAI-Voice-1 AI」</h2>
+<p>MAI-Voice-1 AIは、Microsoftが独自に開発した初の音声生成モデルである。1基のGPUで1分間の音声を1秒未満で生成できる高速性能を備え、自然で表現豊かな音声を生み出すことが可能だ。既に「Copilot Daily」や「Copilot Podcasts」といったサービスに導入されており、ユーザー向けに音声体験の拡充が始まっている。</p>
+<h2>テキスト基盤モデル「MAI-1-preview」</h2>
+<p>同時に発表されたMAI-1-previewは、Microsoft初となる大規模エンド・ツー・エンドの基盤モデルである。15,000台のNVIDIA H100 GPUを用いて訓練されており、テキスト生成をはじめとする幅広い応用を想定。現在はAI性能評価サイト「LMArena」で一般公開テストが進められており、近く「Microsoft Copilot」への導入が予定されている。</p>
+<h2>Copilotへの段階的展開</h2>
+<p>両モデルはいずれも消費者向け利用を意識して設計されており、今後はCopilot全体に段階的に統合されていく見込みだ。Microsoftはユーザー体験の向上を目的に、自社モデルを積極的に活用する姿勢を明確にしている。</p>
+<h2>OpenAI依存からの脱却か</h2>
+<p>Microsoftはこれまで、GPTシリーズを提供するOpenAIとの緊密な提携を軸にAIサービスを展開してきた。投資額は130億ドルを超え、CopilotやAzureなど主要製品においてOpenAIの技術が中心的役割を担ってきた経緯がある。しかし、利用コストや応答速度の課題が指摘される中で、自社モデルの強化に踏み出した。</p>
+<p>米Windows Centralは「MicrosoftがOpenAI依存からの脱却に向けた第一歩を示した」と報じ、The Vergeも「複雑化する両社関係の中で、自社や他社モデルを組み合わせた柔軟な戦略を模索している」と指摘している。</p>
+]]></description>
+      <pubDate>Mon, 01 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
       <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
       <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
