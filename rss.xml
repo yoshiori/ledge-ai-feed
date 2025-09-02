@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Nous Research、ハイブリッド推論搭載のオープンソースAIモデル「Hermes 4」を発表──ChatGPTに比べ制約が少なく推論性能も上回ると主張</title>
+      <link>https://ledge.ai/articles/nous_research_releases_hermes4_open_source_ai</link>
+      <description><![CDATA[<p>米Nous Researchは2025年8月28日、オープンソースAIモデル「Hermes 4」ファミリーを<a href="https://hermes4.nousresearch.com/?_gl=1*1r6exol*_ga*MTc0NTk1MTgyNC4xNzU2Njk5Mjcw*_ga_4KWYPJ8SPY*czE3NTY2OTkyNzAkbzEkZzEkdDE3NTY2OTkyNzgkajUyJGwwJGgw">発表</a>した。最新の技術レポートと公式リリースによると、Llama 3.1を基盤とした複数サイズ（14B／70B／405B）のモデルを公開し、ハイブリッド推論機構を搭載している。研究チームは、数学ベンチマークでChatGPTを上回る性能を示したと説明している。</p>
+<h2>発表の概要</h2>
+<p>Nous Researchは公式リリースページおよび技術レポートを通じて、Hermes 4ファミリーの公開を発表した。14B、70B、405Bの3種類が用意され、いずれもオープンソース（オープンウェイト）として利用可能となっている。</p>
+<h2>モデルの特徴</h2>
+<p>Hermes 4は、MetaのLlama 3.1を基盤とし、推論能力を拡張するハイブリッド推論を採用している。特殊タグ \u003Cthink\u003E…\u003C/think\u003E を利用して推論プロセスを制御できるほか、JSONなど構造化出力を柔軟に生成可能とされる。</p>
+<h2>性能評価</h2>
+<p>技術レポートによれば、Hermes 4は数学関連のベンチマーク（MATH-500、AIME’24、AIME’25など）で高いスコアを記録し、一部ではChatGPTを上回る結果を示した。さらに、コード生成の評価（LiveCodeBenchやrSTAR-Coder）でも優れた性能を発揮。知識・読解ベンチマーク（GPQA Diamond）やアライメント評価（EQBench）にも対応し、幅広い領域で安定した成果を示している。</p>
+<p><strong>Hermes 4は数学推論やロジック・コード、創作系で他のOSSモデルを上回る精度を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hermes4_oss_models_e7451e65dc/hermes4_oss_models_e7451e65dc.jpg" alt="hermes4 oss models.jpg" /></p>
+<p>また、独自に設計されたRefusalBench（拒否率の評価）では、Hermes 4は低い拒否率を示し、ユーザーの指示に柔軟に応答できる点が強調されている。米VentureBeatも補足として、この点を「ChatGPTに比べ制約が少ない」と伝えている。</p>
+<p><strong>RefusalBenchにおける比較。Hermes 4は拒否率の低さで他のOSSモデルや一部商用モデルを大きく上回った</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hermes4_bench_c091a5d122/hermes4_bench_c091a5d122.jpg" alt="hermes4 bench.jpg" /></p>
+<h2>学習とデータ</h2>
+<p>モデルの学習には、データフレームワーク「DataForge」とデータ選別技術「Atropos」が用いられた。これにより、効率的な学習とバイアス制御、安全性への配慮が図られている。最終的なデータ規模は約500万サンプル・190億トークンに達した。</p>
+<h2>技術的な工夫とトレードオフ</h2>
+<ul>
+<li>長さ制御ファインチューニングにより、過剰に長い出力の発生率を最大48.8%削減。</li>
+<li>一方で、一部の推論ベンチマークでは最大12.7%の性能低下が見られるなど、トレードオフも報告されている。</li>
+<li>LiveCodeBenchでは制御トレーニングにより18%スコア向上するケースも確認され、工夫次第で性能改善の余地があることが示された。</li>
+</ul>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
       <link>https://ledge.ai/articles/digital_agency_gennai_ai_usage_report_3months</link>
       <description><![CDATA[<p>デジタル庁は2025年8月29日、同庁が5月から運用を開始した生成AI利用環境「源内（げんない）」の3か月間の利用実績を<a href="https://www.digital.go.jp/news/08ded405-ca03-48c7-9b92-6b8878854a74">公表</a>した。全職員約1,200人のうち約950人（8割）が利用し、延べ6万5,000回以上の利用があった。職員1人あたりの平均利用回数は70回にのぼり、行政業務でのAI活用が着実に定着しつつあることが示された。</p>
@@ -632,28 +658,6 @@
 <p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
 ]]></description>
       <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix、生成AI活用を歓迎しつつもルールを明示──成果物や肖像利用は事前承認が必須に</title>
-      <link>https://ledge.ai/articles/netflix_gen_ai_guidelines_mandatory_approval</link>
-      <description><![CDATA[<p>映像配信大手のNetflixがオリジナルコンテンツ制作における生成AI利用に関するガイドラインを公開したことを<a href="https://www.theverge.com/netflix/764433/netflix-gen-ai-production-guidelines">The Verge</a>が2025年8月23日に報じた。Netflixの<a href="https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production">パートナーヘルプセンターハブ</a>では、制作現場でのAI活用を歓迎しつつも、成果物や肖像などデリケートな領域では事前承認を必須とするなど、明確なルールを設けている。</p>
-<p>同社はこれまでもレコメンド機能や広告最適化にAIを活用してきた。近年は映像制作の現場で生成AIが使われる事例が増えており、信頼性や法的リスクの管理が課題となっていた。</p>
-<p>Netflixはパートナー向けに生成AIの利用ガイドラインを提示。制作者はAI利用の意図を事前にNetflix担当者へ通知する必要がある。特に「最終成果物」「出演者の肖像」「個人データ」「第三者の知的財産」に関わる場合は書面での承認が必須とされるとした。The Vergeによると、Netflixは「事実と虚構の境界を曖昧にしない」姿勢を強調しているという。</p>
-<h3>公式ガイドライン（Partner Help Centerより）</h3>
-<p>制作者に求められる「5つのチェック項目」</p>
-<ul>
-<li>著作権を侵害せず、特定作品を模倣しないこと</li>
-<li>入出力を学習用途に利用しないこと</li>
-<li>可能な限りエンタープライズ環境で使用すること</li>
-<li>AI生成物は一時的な利用にとどめ、最終成果物に含めないこと</li>
-<li>出演者や組合が関与する仕事を無断で置き換え・生成しないこと</li>
-</ul>
-<p>すべて「YES」であれば担当者への通知のみで利用可能だが、「NO」または「不明」がある場合は法務部門への相談と書面による承認が必要となる。</p>
-<p>Netflixは同ガイドライン公開の直前に、自社オリジナル作品『The Eternaut』では、初めて<a href="https://www.bbc.com/news/articles/c9vr4rymlw9o">生成AIを建物崩壊シーンに活用</a>したことも発表している。従来のVFXより高速かつ低コストで制作されたとされ、話題を呼んだ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=TqT4fDQQqCc">YouTube</a></p>
-<p>同社の共同CEOであるテッド・サランドス氏は「生成AIはクリエイターが映画やシリーズをより良く、コスト削減するだけでなく、より良く制作する上で素晴らしい機会になる」と<a href="https://www.hollywoodreporter.com/business/business-news/netflixs-ted-sarandos-gen-ai-1236319038/">述べている</a>。</p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
