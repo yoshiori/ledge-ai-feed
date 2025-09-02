@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
+      <link>https://ledge.ai/articles/digital_agency_gennai_ai_usage_report_3months</link>
+      <description><![CDATA[<p>デジタル庁は2025年8月29日、同庁が5月から運用を開始した生成AI利用環境「源内（げんない）」の3か月間の利用実績を<a href="https://www.digital.go.jp/news/08ded405-ca03-48c7-9b92-6b8878854a74">公表</a>した。全職員約1,200人のうち約950人（8割）が利用し、延べ6万5,000回以上の利用があった。職員1人あたりの平均利用回数は70回にのぼり、行政業務でのAI活用が着実に定着しつつあることが示された。</p>
+<p>少子高齢化による担い手不足が深刻化する中、行政サービスの維持・強化にはAIの積極的な活用が不可欠とされる。デジタル庁は「ガバメントAI」構想の一環として、職員が業務で利用可能な生成AI環境を内製開発し、2025年5月から「源内」として提供を開始した。</p>
+<h2>「源内」の概要</h2>
+<p>源内は、デジタル庁専用ポータルからシングルサインオンで利用可能な仕組み。
+提供アプリは「チャット」「文章生成」「要約」「校正」「翻訳」などの汎用機能に加え、国会答弁検索AIや法制度調査支援AI、公用文チェッカーAIなど20種類の行政実務特化型AIを備える。利用可能な基盤モデルは、AWS「Nova Lite」、Anthropic「Claude3 Haiku」および「Claude3.5 Sonnet」の3種類（2025年8月時点）。</p>
+<h2>利用実績</h2>
+<p>5月から7月の3か月間で、全職員約1,200人のうち約950人が源内を利用。延べ利用回数は6万5,000回を超え、職員1人あたり平均70回となった。
+ユースケース別では、チャット型AIが最多利用となり、次いで文章生成、要約、校正、画像生成、翻訳といった汎用アプリが続いた。行政特化型アプリも併用され、幅広い業務にAIが導入されていることが分かった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai_monitoring_791e91ff6a/gennnai_monitoring_791e91ff6a.jpg" alt="gennnai monitoring.jpg" /></p>
+<h2>利用傾向と課題</h2>
+<p>利用状況には二極化がみられた。150人以上が3か月で100回以上利用した一方、170人は5回未満にとどまった。
+職制別では、若手職員や民間専門人材は積極的に活用する傾向があるが、課長級の半数は利用実績がなかった。AI利用が業務習慣に根付く一方で、職位や職務内容による活用度の差が明らかとなった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai4_down_64d7cce387/gennnai4_down_64d7cce387.jpg" alt="gennnai4-down.jpg" /></p>
+<h2>アンケート結果</h2>
+<p>職員アンケート（回答110人）では、「業務効率化に寄与している」との回答が約8割を占め、満足度は5点満点中平均4.2点。具体的な効果として、議事録作成の時短、翻訳や校正の効率化、法令調査の迅速化などが挙げられた。
+一方で、最新モデルの導入、ファイル翻訳やマルチモーダル対応、出典明示機能の改善などの要望も多く寄せられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai6_down_4894defb15/gennnai6_down_4894defb15.jpg" alt="gennnai6-down.jpg" /></p>
+<h2>今後の展開</h2>
+<p>デジタル庁は8月に全省庁向けの説明会を実施済み。2026年1月以降は一部省庁と連携し「源内」の展開（リリース1.0）を検証する予定だ。さらに地方公共団体や民間事業者との連携を進め、官民一体のAIエコシステム形成を目指すとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=jPrFc6aed-Q&amp;t=7s">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 01 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/9/1 [MON]Microsoft、内製の基盤モデル「MAI-1-preview」とMAIファミリー初の自社音声モデル「MAI-Voice-1 AI」を発表──OpenAIとの関係はどうなる？</title>
       <link>https://ledge.ai/articles/microsoft_announces_mai_voice1_and_mai1_preview</link>
       <description><![CDATA[<p>Microsoftは2025年8月28日（米国時間）、自社開発のAIモデル群「MAIファミリー」から、初の音声生成モデル「MAI-Voice-1 AI」とテキスト基盤モデル「MAI-1-preview」を<a href="https://microsoft.ai/news/two-new-in-house-models/">発表</a>した。両モデルはすでに一部のCopilotサービスに組み込まれており、今後さらに展開が広がる予定だ。今回の発表は、同社がこれまで依存してきたOpenAIの技術から独自路線を強化しているのではないかとの見方も呼んでいる。</p>
