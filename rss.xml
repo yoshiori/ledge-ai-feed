@@ -85,15 +85,21 @@
       <pubDate>Mon, 01 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
-      <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
-      <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
-<p>今回の発表により、インターネット接続を完全に遮断した「エアギャップ構成」が一般提供（GA）として開始され、インターネット接続を前提とする「コネクテッド構成」はプレビュー提供が始まった。これにより、企業や公共機関は自社環境内でGeminiを安全に活用できるようになる。</p>
-<p>オンプレミス版Geminiは、アクセス制御やセキュリティ監査に加え、Confidential Computingへの対応も備えている。また、NVIDIA GPUを活用することで、マルチモーダルな生成AI処理を自社環境内で実行できる。Googleは「クラウド、エッジ、オンプレミスを問わず、あらゆる場所でGeminiを利用可能にする」としており、AI導入の柔軟性を大きく広げた。</p>
-<p><strong>Google Distributed Cloud AIスタックの構成。GeminiやGemma、タスク特化型モデルをオンプレミス環境で実行可能に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
-<p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
-<p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
+      <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
+      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
+      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
+<h2>“特徴を維持したまま”の進化</h2>
+<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
+<h2>外部評価：「Image Edit Arena」で首位</h2>
+<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
+<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
+<h2>提供状況と価格</h2>
+<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
+<h2>安全性と表示</h2>
+<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
 ]]></description>
       <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -145,25 +151,6 @@
 <p>MNDなど発声障害を伴う患者にとって、AIによる音声復元は失われたコミュニケーション手段を取り戻す大きな一歩となる。今回の取り組みは、支援技術の進化が生活の質を大きく向上させる可能性を示す事例として注目されている。</p>
 ]]></description>
       <pubDate>Sun, 31 Aug 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国科学技術大学、光量子コンピュータ《九章4.0》を発表──スパコンなら10の42乗年以上の計算を25マイクロ秒で実行</title>
-      <link>https://ledge.ai/articles/jiuzhang4_quantum_computer_superfast</link>
-      <description><![CDATA[<p>中国科学技術大学（USTC）を中心とする研究チームは2025年8月12日、論文「Robust quantum computational advantage with programmable 3050-photon Gaussian boson sampling」を発表し、世界最大規模のフォトニック量子コンピュータ《九章4.0（Jiuzhang 4.0）》を開発したことを<a href="https://arxiv.org/abs/2508.09092">発表</a>した。</p>
-<h2>3050光子の同時検出を実現</h2>
-<p>《九章4.0》は、1024の高効率スクイーズド状態光源と、8176モードを備えた空間・時間ハイブリッド回路を組み合わせ、最大3050光子の同時検出に成功した。これにより、従来のフォトニック量子計算の規模を大きく超える性能を実証した。</p>
-<p><strong>《九章4.0》の実験構成図。光源からのスクイーズド光を干渉器と遅延ループに通し、空間モードと時間モードを組み合わせることで大規模なハイブリッドエンコーディングを実現している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_2d889e8e74/x1_4_2d889e8e74.jpg" alt="x1 (4).jpg" /></p>
-<h2>スパコンでは「10の42乗年以上」かかる計算を25マイクロ秒で</h2>
-<p>研究チームは、最先端の行列積状態（MPS）アルゴリズムを用いた古典シミュレーションと比較。現在世界最速とされる米国の次世代スーパーコンピュータ「El Capitan」でも10の42乗年以上かかると見積もられる計算を、《九章4.0》は25.6マイクロ秒で完了したという。これにより「量子計算優越性（Quantum Computational Advantage）」を圧倒的に示したとされる。</p>
-<h2>技術的ブレークスルー</h2>
-<p>今回の成果を支えたのは、光子損失を抑えた高効率光源（92％）、プログラム可能なマルチモード干渉器と遅延ループによる回路設計、高効率検出器（93％）などの技術的改良だという。これにより、従来課題とされてきた大規模光子数での計算において安定した結果を得ることに成功した。</p>
-<h2>「九章」シリーズの進化</h2>
-<p>研究チームは、中国の古典数学書『九章算術』にちなみ、量子フォトニクス計算機に「九章（Jiuzhang）」の名を付けている。2020年に初代を発表し、2021年の「九章2.0」、2023年の「九章3.0」を経て、今回の「九章4.0」が4世代目となる。世代を重ねるごとに光子数と性能を飛躍的に拡大してきた。</p>
-<h2>今後の展望</h2>
-<p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
-]]></description>
-      <pubDate>Sun, 31 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>MIT機械工学専攻の大学院生がAIで絵画修復を“数時間”に短縮──透明ポリマーの“可逆”マスクで15世紀絵画が3.5時間で復活、美術界に衝撃</title>
@@ -383,61 +370,6 @@
       <pubDate>Thu, 28 Aug 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
-      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
-      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
-<h2>“特徴を維持したまま”の進化</h2>
-<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
-<h2>外部評価：「Image Edit Arena」で首位</h2>
-<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
-<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
-<h2>提供状況と価格</h2>
-<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
-<h2>安全性と表示</h2>
-<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>地球社会の未来、2030年代前半に分岐点　京都大と日立がAIでシナリオ分析</title>
-      <link>https://ledge.ai/articles/global_ai_future_simulation</link>
-      <description><![CDATA[<p>京都大学と日立製作所は2025年7月7日、AIを活用した未来シミュレーションと政策提言を<a href="https://prtimes.jp/main/html/rd/p/000000003.000164782.html">発表</a>した。分析では、地球社会が格差や分断を回避し持続可能な成長を実現できるかどうかの分岐点が、2020年代末から2030年代前半にかけて現れるとされた。</p>
-<h2>研究の目的と背景</h2>
-<p>京都大学と日立製作所は、気候変動や格差拡大などの地球規模課題に対応するため、AIによる未来シミュレーションを実施した。本研究は、日本社会向けに行われてきた「政策提言AI」を拡張し、世界全体を対象にしたものである。</p>
-<h2>手法</h2>
-<p>世界の294指標を用いて原因 - 結果モデルを構築。AIによる2万件のシミュレーションを通じて、2050年までに起こり得る7つの未来シナリオを導出した。</p>
-<h2>シナリオの概要</h2>
-<ul>
-<li>Regional Dispersion and Maturity（地域分散と成熟）：人口や産業が特定都市に集中せず地域に分散。格差が縮小し、社会的安定が進む。</li>
-<li>Green Growth and Cooperation（グリーン成長と協調）：環境保護と経済成長を両立し、国際協力によって持続可能性を高める。</li>
-<li>Climate and Conflict Double Crisis（気候・紛争二重危機）：気候変動の悪化と紛争増加が重なり、社会に深刻な影響を与える。</li>
-<li>Polarization（分極化）：格差拡大と社会分断が進み、社会の安定が損なわれる。</li>
-</ul>
-<p><strong>AIによる未来シミュレーションから導出された7つのシナリオと分岐点</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf/164782_3_5a33b2e23fbdeba0bb64c0f4f3a07b78_749x461_cf3d5a1faf.jpg" alt="164782-3-5a33b2e23fbdeba0bb64c0f4f3a07b78-749x461.jpg" /></p>
-<h2>分岐点の時期</h2>
-<ul>
-<li>2029年頃：「Polarization（分極化）」の可能性。</li>
-<li>2032年頃：「Regional Dispersion and Maturity」への移行。</li>
-<li>2034年頃：「Green Growth and Cooperation」への移行。</li>
-</ul>
-<h2>政策提言</h2>
-<ul>
-<li>分極化を回避するには、先進国による環境対策の加速と途上国への経済支援が求められる。</li>
-<li>地域分散・成熟型への移行には、少子化対策や格差是正、研究投資、公衆衛生の強化が必要。</li>
-<li>グリーン成長型の実現には、国際協力と社会資本整備の推進が重要とされる。</li>
-</ul>
-<p><strong>持続可能な社会に必要とされる「社会的共通資本」の概念</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a/164782_3_7693cf90e7e46f0a5a8cfa64b7b716d9_1024x724_371d1fd23a.webp" alt="164782-3-7693cf90e7e46f0a5a8cfa64b7b716d9-1024x724.webp" /></p>
-<p>2017年以降、日本社会向けの研究では、都市集中と地域分散の分岐が示されていた。今回の分析は、その国際版と位置づけられる。</p>
-<p>研究チームは今後、モデルの精緻化やデータ拡充を継続し、国際政策や各国の政策議論での活用を視野に入れているとのこと。</p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
       <link>https://ledge.ai/articles/google_ai_14_usecases</link>
       <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
@@ -478,6 +410,19 @@
       <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
+      <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
+      <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
+<p>今回の発表により、インターネット接続を完全に遮断した「エアギャップ構成」が一般提供（GA）として開始され、インターネット接続を前提とする「コネクテッド構成」はプレビュー提供が始まった。これにより、企業や公共機関は自社環境内でGeminiを安全に活用できるようになる。</p>
+<p>オンプレミス版Geminiは、アクセス制御やセキュリティ監査に加え、Confidential Computingへの対応も備えている。また、NVIDIA GPUを活用することで、マルチモーダルな生成AI処理を自社環境内で実行できる。Googleは「クラウド、エッジ、オンプレミスを問わず、あらゆる場所でGeminiを利用可能にする」としており、AI導入の柔軟性を大きく広げた。</p>
+<p><strong>Google Distributed Cloud AIスタックの構成。GeminiやGemma、タスク特化型モデルをオンプレミス環境で実行可能に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
+<p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
+<p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
       <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
       <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
@@ -490,31 +435,21 @@
       <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Blenderを操るAI──シカゴ大学ら、大規模言語モデルで3Dアセットを生成・編集する「LL3M」を発表</title>
-      <link>https://ledge.ai/articles/ll3m_blender_llm_3d_modeling</link>
-      <description><![CDATA[<p>シカゴ大学の研究チームは2025年8月11日、自然言語の指示だけでBlender内に3Dアセットを作り出せるシステム「LL3M（Large Language 3D Modelers）」を<a href="https://arxiv.org/abs/2508.08228">発表</a>した。大規模言語モデル（LLM）が直接Pythonコードを生成し、オブジェクトやシーンを自在に構築・編集するという新しいアプローチだ。論文はarXivに公開され、公式プロジェクトページやGitHubリポジトリも公開されている。</p>
-<h2>コードを書くAI、Blenderを動かす</h2>
-<p>LL3Mの最大の特徴は、3Dモデルを特殊なデータ形式で直接生成するのではなく、Blender用のPythonコードを“書く”AIであることだ。これにより、生成結果はすべて人間が理解できるコードとして残り、後から自由に修正・拡張できる。既存のワークフローに統合しやすい点も大きな利点とされる。</p>
-<h2>多様なアセットを生み出す柔軟性</h2>
-<p>論文では、BMeshによるポリゴンモデリング、モディファイアやシェーダーノードの適用、シーン階層の構築など、幅広い3D要素をコードで生成可能であることが示されている。家具やキャラクターなど、多彩なアセットが次々とコードベースで形作られる様子は、従来の「ブラックボックス的な生成AI」とは異なる透明性を感じさせる。</p>
-<p><strong>■ Blender用Pythonコードを生成し、3Dオブジェクトを構築する例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig15_intro_highlight_bc133cc7d3/fig15_intro_highlight_bc133cc7d3.jpg" alt="fig15-intro-highlight.jpg" /></p>
-<h2>3段階で進化するパイプライン</h2>
-<p>LL3Mは単なる一発生成ではなく、段階的にモデルを洗練させる仕組みを備える。</p>
-<ul>
-<li><strong>初期生成</strong> ：自然言語の指示からコードを生成し、Blenderでオブジェクトを構築</li>
-<li><strong>自動自己精緻化</strong> ：AI自身が結果を評価し、改善点を修正</li>
-<li><strong>ユーザー誘導精緻化</strong> ：人間の追加指示を受けて再度改善</li>
-</ul>
-<p><strong>■ 自己批評やユーザー指示に基づく反復的な3Dモデルの改善</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig22_humanoid_final_b372c81836/fig22_humanoid_final_b372c81836.jpg" alt="fig22-humanoid-final.jpg" /></p>
-<p>さらに「BlenderRAG」と呼ばれる仕組みで、Blender APIドキュメントを参照しながらコードを補強。これにより「動かないスクリプト」を避け、実際に使える成果物を高精度に生み出す。</p>
-<h2>“コードで3Dを描く”という発想の転換</h2>
-<p>研究チームは、NeRFや点群などデータ駆動型の3D生成手法と対比しながら、LL3Mのアプローチを強調する。コードは読み書きできる資産であり、再利用性や可搬性に優れるため、クリエイターや開発者にとって扱いやすい。AIと人間が共同作業する新しい3D制作の基盤としての位置づけを打ち出している。</p>
-<h2>今後の展望──ゲームから教育まで</h2>
-<p>GitHubリポジトリはすでに公開されているものの、実装は「Code coming soon」とされ、今後順次公開される見込みだ。研究チームは「人間とAIが協力する3D制作の未来」を描きつつ、ゲーム開発、教育、デジタルコンテンツ制作など多様な分野での応用可能性を指摘している。</p>
-<p><strong>■ LL3Mによって生成された多様な3Dアセットの例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_gallery_b2bb1b7580/fig2_gallery_b2bb1b7580.jpg" alt="fig2-gallery.jpg" /></p>
+      <title>中国科学技術大学、光量子コンピュータ《九章4.0》を発表──スパコンなら10の42乗年以上の計算を25マイクロ秒で実行</title>
+      <link>https://ledge.ai/articles/jiuzhang4_quantum_computer_superfast</link>
+      <description><![CDATA[<p>中国科学技術大学（USTC）を中心とする研究チームは2025年8月12日、論文「Robust quantum computational advantage with programmable 3050-photon Gaussian boson sampling」を発表し、世界最大規模のフォトニック量子コンピュータ《九章4.0（Jiuzhang 4.0）》を開発したことを<a href="https://arxiv.org/abs/2508.09092">発表</a>した。</p>
+<h2>3050光子の同時検出を実現</h2>
+<p>《九章4.0》は、1024の高効率スクイーズド状態光源と、8176モードを備えた空間・時間ハイブリッド回路を組み合わせ、最大3050光子の同時検出に成功した。これにより、従来のフォトニック量子計算の規模を大きく超える性能を実証した。</p>
+<p><strong>《九章4.0》の実験構成図。光源からのスクイーズド光を干渉器と遅延ループに通し、空間モードと時間モードを組み合わせることで大規模なハイブリッドエンコーディングを実現している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_2d889e8e74/x1_4_2d889e8e74.jpg" alt="x1 (4).jpg" /></p>
+<h2>スパコンでは「10の42乗年以上」かかる計算を25マイクロ秒で</h2>
+<p>研究チームは、最先端の行列積状態（MPS）アルゴリズムを用いた古典シミュレーションと比較。現在世界最速とされる米国の次世代スーパーコンピュータ「El Capitan」でも10の42乗年以上かかると見積もられる計算を、《九章4.0》は25.6マイクロ秒で完了したという。これにより「量子計算優越性（Quantum Computational Advantage）」を圧倒的に示したとされる。</p>
+<h2>技術的ブレークスルー</h2>
+<p>今回の成果を支えたのは、光子損失を抑えた高効率光源（92％）、プログラム可能なマルチモード干渉器と遅延ループによる回路設計、高効率検出器（93％）などの技術的改良だという。これにより、従来課題とされてきた大規模光子数での計算において安定した結果を得ることに成功した。</p>
+<h2>「九章」シリーズの進化</h2>
+<p>研究チームは、中国の古典数学書『九章算術』にちなみ、量子フォトニクス計算機に「九章（Jiuzhang）」の名を付けている。2020年に初代を発表し、2021年の「九章2.0」、2023年の「九章3.0」を経て、今回の「九章4.0」が4世代目となる。世代を重ねるごとに光子数と性能を飛躍的に拡大してきた。</p>
+<h2>今後の展望</h2>
+<p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
 ]]></description>
       <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
     </item>
