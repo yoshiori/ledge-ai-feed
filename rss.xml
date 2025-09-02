@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
+      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
+      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
+<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
+<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
+<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
+<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
+<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Nous Research、ハイブリッド推論搭載のオープンソースAIモデル「Hermes 4」を発表──ChatGPTに比べ制約が少なく推論性能も上回ると主張</title>
       <link>https://ledge.ai/articles/nous_research_releases_hermes4_open_source_ai</link>
       <description><![CDATA[<p>米Nous Researchは2025年8月28日、オープンソースAIモデル「Hermes 4」ファミリーを<a href="https://hermes4.nousresearch.com/?_gl=1*1r6exol*_ga*MTc0NTk1MTgyNC4xNzU2Njk5Mjcw*_ga_4KWYPJ8SPY*czE3NTY2OTkyNzAkbzEkZzEkdDE3NTY2OTkyNzgkajUyJGwwJGgw">発表</a>した。最新の技術レポートと公式リリースによると、Llama 3.1を基盤とした複数サイズ（14B／70B／405B）のモデルを公開し、ハイブリッド推論機構を搭載している。研究チームは、数学ベンチマークでChatGPTを上回る性能を示したと説明している。</p>
