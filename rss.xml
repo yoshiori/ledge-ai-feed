@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
+      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
+      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
+<h2>暗黙知を活用する新技術</h2>
+<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
+<p><strong>cotomi Actの全体像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
+<h2>ブラウザ拡張で動作</h2>
+<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
+<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
+<h2>世界初の人間超え</h2>
+<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
+<h2>業務効率化と将来展望</h2>
+<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>建物が自らを理解し、LLM+RAGで人と対話する──アラン・チューリング研究所らがNatureに発表、「自己モデル型デジタルツイン」を実証</title>
       <link>https://ledge.ai/articles/self_model_digital_twin_building_nature</link>
       <description><![CDATA[<p>英アラン・チューリング研究所とシェフィールド大学、スウォンジー大学の研究チームは2025年8月19日、建物のデジタルツインに「自己モデル」を組み込み、建物が自分自身について理解し、人間と自然言語でやり取りできる仕組みを Nature Scientific Reports に<a href="https://www.nature.com/articles/s41598-025-14347-8">発表</a>した。</p>
@@ -379,24 +400,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>米国ではプラットフォーマーと新興AI企業との競争をめぐる訴訟、日本では報道機関と生成AIサービスとの著作権紛争と、論点は異なる。しかしいずれも、AIの急速な普及が既存の法制度やビジネスモデルと衝突している実態を浮き彫りにしている。</p>
 ]]></description>
       <pubDate>Thu, 28 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、ロボットの頭脳を刷新──「Jetson AGX Thor」発売開始　Orin比7.5倍のAI性能を実現</title>
-      <link>https://ledge.ai/articles/nvidia_jetson_agx_thor_launch</link>
-      <description><![CDATA[<p>NVIDIAは2025年8月25日（米国時間）、次世代GPUアーキテクチャ「Blackwell」を搭載したロボティクス向けAIコンピュータ「Jetson AGX Thor（ソー）」の開発キットと量産モジュールを一般販売開始したと<a href="https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics">発表</a>した。</p>
-<p>従来モデル「Jetson Orin」と比較してAI演算性能は最大7.5倍、エネルギー効率も3.5倍に向上しており、同社は「ロボットの頭脳を刷新する基盤」と位置づけている。</p>
-<h2>Blackwell GPUで「Physical AI」を加速</h2>
-<p>Jetson AGX Thorは、最大2070 FP4テラフロップス（TFLOPS）の演算能力を備え、消費電力は最大130ワットに抑えられている。最新のBlackwell GPUアーキテクチャを採用し、FP4演算やTransformer Engine、MIG（Multi-Instance GPU）機能など、生成AIや大規模推論処理に最適化された機能を統合。複数のAIワークロードを同時に処理できる点も特徴となる。</p>
-<p>同社はこの新製品を、クラウド中心だったAI処理を現実世界へ持ち込む「Physical AI（物理AI）」の基盤と説明。自律走行車や産業ロボット、物流システムなどで求められるリアルタイム推論や複雑な制御をエッジ側で実現できるとしている。</p>
-<p><strong>開発キット本体とモジュール。Blackwellアーキテクチャを搭載し、最大2070TFLOPSのAI性能を実現</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jetson_thor_c588984e87/jetson_thor_c588984e87.jpg" alt="jetson-thor.jpg" /></p>
-<h2>開発キットと量産モジュールを提供</h2>
-<p>今回の一般販売に合わせ、NVIDIAは開発者向けに「Jetson AGX Thor 開発キット」を3,499ドルから提供する。また、量産向けの「Jetson T5000 モジュール」もグローバルパートナーを通じて入手可能となり、開発から製品化までをシームレスに支援する。いずれもNVIDIAのロボティクス用ソフトウェア群「Isaac ROS」やシミュレーション基盤「Omniverse」と統合して利用でき、開発者エコシステム全体の強化につながる。</p>
-<h2>導入企業と適用分野</h2>
-<p>Amazon Robotics、Caterpillar、Meta、Boston Dynamics、Figureといった企業がすでにJetson Thorを採用し、次世代の自律ロボット開発を進めているという。倉庫での自動搬送や建設現場の重機制御、研究用ヒューマノイドなど、用途は多岐にわたる。従来のOrin世代では難しかったマルチモーダルAIのリアルタイム処理が可能になることで、応用範囲はさらに広がるとみられる。</p>
-<p>@<a href="https://youtu.be/meAxdUNgAsA?si=8sZdJXno4rZ954e4">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 28 Aug 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
