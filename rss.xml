@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>政府、AI政策の司令塔「人工知能戦略本部」を設置──城内科学技術相がAI戦略担当に就任</title>
+      <link>https://ledge.ai/articles/government_ai_strategy_headquarters_established</link>
+      <description><![CDATA[<p>政府は9月1日、内閣に「人工知能戦略本部」を設置したことを<a href="https://www8.cao.go.jp/cstp/stmain/20250901ai.html">発表</a>した。5月に成立した「人工知能関連技術の研究開発及び活用の推進に関する法律（AI推進法）」に基づき、人工知能の研究開発や活用を促進するとともに、フェイクニュースや犯罪への悪用などリスクへの対応も強化する狙いだ。</p>
+<p>同本部は、内閣総理大臣を本部長とし、内閣官房長官と人工知能戦略担当大臣が副本部長、全閣僚が本部員として加わる体制。関係省庁を横断して施策を一元的に推進する司令塔の役割を担う。</p>
+<p>同日付で、科学技術相の城内実氏に「内閣府特命担当大臣（人工知能戦略）」の担務が追加された。城内氏は自身のX（旧Twitter）で、次のように表明した。</p>
+<p>「昨日付で、私の内閣府特命担当大臣の担務に『人工知能戦略』が新たに加わりました。本年5月にAI法が成立し、イノベーションの促進とリスク対応の両立を目的としています。AI戦略を担う大臣としての責任を胸に、世界で最もAIを開発・活用しやすい国を目指し、引き続き尽力してまいります」</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kiuchi_ai_x_5b92ec280d/kiuchi_ai_x_5b92ec280d.jpg" alt="kiuchi ai x.jpg" /></p>
+<p>政府は今後、年内に「AI基本計画」を策定する方針。研究開発支援や産業利用の推進に加え、生成AIによる偽・誤情報の拡散や犯罪利用への対策を議論する見込みだ。</p>
+]]></description>
+      <pubDate>Wed, 03 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
       <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
       <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
@@ -384,22 +396,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>オープンソースの音楽AIが本格的に実用段階に入りつつある中で、YuEは「誰もが安心して利用できる基盤モデル」として注目を集めている。</p>
 ]]></description>
       <pubDate>Fri, 29 Aug 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI関連の注目訴訟が相次ぐ　マスク氏はAppleとOpenAIを独占禁止法違反、読売に続き朝日と日経がPerplexity（パープレキシティ）を著作権侵害で提訴</title>
-      <link>https://ledge.ai/articles/ai_lawsuits_musk_openai_apple_asahi_nikkei_perplexity</link>
-      <description><![CDATA[<p>AI業界で大規模訴訟が相次いでいる。イーロン・マスク氏が率いる米xAIは2025年8月25日、AppleとOpenAIを反トラスト法（独占禁止法）違反で提訴したと各メディアが報じた。一方、日本では26日、朝日新聞社と日本経済新聞社が生成AI検索サービスを展開する「Perplexity（パープレキシティ）」を著作権侵害で東京地裁に提訴した。AIの競争環境と知的財産をめぐる対立が、世界各地で表面化している。</p>
-<h2>イーロン・マスク氏、AppleとOpenAIを独占禁止法違反で提訴</h2>
-<p>マスク氏が率いるAI企業「xAI」は8月25日、AppleとOpenAIを相手取り、テキサス州連邦裁判所に提訴した。訴状によると、AppleがiPhoneにChatGPTを統合することでOpenAIに有利な地位を与え、App Store上で競合のAIサービスを不当に排除していると主張。xAIは、自社のチャットボット「Grok」の露出機会が妨げられていると訴え、数十億ドル規模の損害賠償を求めている。</p>
-<p>マスク氏は以前から、OpenAIが「非営利団体から営利企業へと変質した」と<a href="https://ledge.ai/articles/musk_accuses_apple_appstore_bias">批判</a>しており、今回の訴訟もその延長線上にあるとみられる。AppleとOpenAIの協力体制が、AI市場における競争を阻害しているかどうかが焦点となる。</p>
-<h2>Perplexity、朝日・日経に著作権侵害で提訴される</h2>
-<p>一方、日本では26日、朝日新聞社と日本経済新聞社が共同でPerplexity AIを東京地裁に提訴し、それぞれ22億円の損害賠償を求めている。両社はサーバー内の記事が無断で複製・保存され、AI検索サービスの回答に利用されていると主張。さらに、検索エンジンによる利用拒否を示す「robots.txt」の指示を無視している点も問題視した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/asahi_perplexity_lawsuit_7d8ec5d38d/asahi_perplexity_lawsuit_7d8ec5d38d.jpg" alt="asahi perplexity lawsuit.jpg" /></p>
-<p>すでに読売新聞社が8月7日に同様の訴訟を起こし、サービスの利用差止めと約21億6,800万円の損害賠償を求めていることから、日本の大手新聞社による法的対応が広がっていると見られている。</p>
-<h2>広がるAI訴訟ラッシュ</h2>
-<p>米国ではプラットフォーマーと新興AI企業との競争をめぐる訴訟、日本では報道機関と生成AIサービスとの著作権紛争と、論点は異なる。しかしいずれも、AIの急速な普及が既存の法制度やビジネスモデルと衝突している実態を浮き彫りにしている。</p>
-]]></description>
-      <pubDate>Thu, 28 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
