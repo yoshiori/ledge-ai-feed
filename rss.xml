@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Cloudflare、AI関連トラフィックを分析──「クロールとクリックのギャップ」に関するデータを公開</title>
+      <link>https://ledge.ai/articles/cloudflare_ai_traffic_crawl_to_click_gap</link>
+      <description><![CDATA[<p>米Cloudflareは2025年8月29日、AI関連のインターネットトラフィックに関する分析結果を<a href="https://blog.cloudflare.com/crawlers-click-ai-bots-training/">公開</a>した。同社は「The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals」と題したブログ記事で、AIボットによる膨大なWebクロールと、実際のクリックや利用につながるトラフィックの間に大きな乖離があることを明らかにした。</p>
+<h2>AIボットによるクロールの急増</h2>
+<p>Cloudflareによると、多くのAI企業やサービスがWebをクロールしており、そのアクセス量は近年急増している。特定の地域や事業者からのボット活動が集中して観測され、AIモデルの学習に利用されている実態が浮かび上がった。</p>
+<p><strong>Cloudflareの公開したデータでは、過去1年間の主要クローラーの動向が次のように可視化されている</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_ed994074d2/4_ed994074d2.webp" alt="4.webp" /></p>
+<h2>観測された変化のポイント</h2>
+<h3>学習目的の比重が拡大</h3>
+<p>AIボット活動の約80%が学習目的で行われており、1年前の72%から上昇した。</p>
+<p><strong>クロール目的の内訳: 学習用途が大半を占めている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/crawl_purpose_eda936f310/crawl_purpose_eda936f310.jpg" alt="crawl purpose.jpg" /></p>
+<h3>ニュースサイトへの流入減少</h3>
+<p>ニュースサイトへのGoogleからのリファラルは減少し、2025年3月は1月比で約9%減となった。</p>
+<h3>AI・検索クロールの拡大</h3>
+<p>2025年4月のクロール量は前年比32%増加したが、その後7月には前年比4%増まで鈍化。</p>
+<h3>クローラーの勢力変化</h3>
+<p>OpenAIのGPTBotはシェアを4.7%から11.7%へ倍増、AnthropicのClaudeBotも6%から約10%に増加。一方、ByteDanceのBytespiderは14.1%から2.4%へ急減。</p>
+<p><strong>直近1週間の様子：GPTBotやClaudeBotがシェアを拡大している様子が確認できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HTTP_traffic_by_bot_d307a390f2/HTTP_traffic_by_bot_d307a390f2.jpg" alt="HTTP traffic by bot.jpg" /></p>
+<h3>クロールとリファラルの不均衡</h3>
+<p>Anthropicは紹介数を増やしたものの、2025年7月時点で訪問者1人当たり3万8000クロール（1月は28万6000:1）と依然として大きなギャップを抱える。Perplexityは2025年にクロールを増やした一方でリファラルが減少し、7月時点で1訪問あたり194クロールとなった。</p>
+<h2>クロールとクリックの乖離</h2>
+<p>同社は、クロール数に対して実際のリファラル（AIを経由してサイトに誘導されるクリック数）が極めて少ない点を強調。この現象を「crawl-to-click gap（クロールからクリックへのギャップ）」と定義し、AIによる学習とサイト運営者への流入増加が必ずしも連動していないことを示した。</p>
+<h2>サイト運営者への影響</h2>
+<p>Cloudflareは、AIがWebを学習リソースとして活用する一方で、サイト運営者にとっては必ずしも収益や集客の増加につながっていない現状を指摘。広告収益やSEO戦略の観点から、従来のWeb流入分析だけでは測りきれない課題が生じていると警鐘を鳴らした。</p>
+<h2>Cloudflareの見解</h2>
+<p>同社は「AI時代におけるトラフィックの新しい測定方法が必要」との見解を示し、サイト管理者に対して「AIボットによるクロール」と「実際のユーザー誘導」を明確に区別して捉えることの重要性を強調した。</p>
+]]></description>
+      <pubDate>Thu, 04 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>総務省、フィッシングメール対策強化を業界4団体に要請──生成AI悪用に懸念、3か月ごとに報告義務</title>
       <link>https://ledge.ai/articles/soumu_phishing_countermeasures_20250901</link>
       <description><![CDATA[<p>総務省は9月1日、フィッシングメール対策を強化するよう、電気通信事業者協会、テレコムサービス協会、日本インターネットプロバイダー協会、日本ケーブルテレビ連盟のIT関連4団体に要請したことを<a href="https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000260.html">発表</a>した。</p>
