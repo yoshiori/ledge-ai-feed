@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>総務省、フィッシングメール対策強化を業界4団体に要請──生成AI悪用に懸念、3か月ごとに報告義務</title>
+      <link>https://ledge.ai/articles/soumu_phishing_countermeasures_20250901</link>
+      <description><![CDATA[<p>総務省は9月1日、フィッシングメール対策を強化するよう、電気通信事業者協会、テレコムサービス協会、日本インターネットプロバイダー協会、日本ケーブルテレビ連盟のIT関連4団体に要請したことを<a href="https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000260.html">発表</a>した。</p>
+<p>証券会社を装った詐欺メールによる被害が急増しているほか、生成AIを用いて自然な日本語を大量に作成できるようになり、従来よりも精巧なフィッシングメールが容易に作られるようになったことが背景にあるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumu_df4f24ec3d/soumu_df4f24ec3d.jpg" alt="soumu.jpg" /></p>
+<p>政府は2025年4月に「国民を詐欺から守るための総合対策2.0」を決定し、送信ドメイン認証技術（DMARC等）の普及促進を盛り込んでいた。今回の要請はその流れを受けたもの。</p>
+<p>総務省が示した重点は3点。</p>
+<ol>
+<li><strong>フィルタリング精度の向上</strong> ：AIなどを活用し、迷惑メール判定の精度を高めるとともに、フィルタリング強度を適切に設定する。</li>
+<li><strong>DMARC導入・運用の徹底</strong> ：送受信双方で隔離や拒否を含むポリシーを設定し、ドメインレピュテーションやBIMI、踏み台送信対策なども導入を検討する。</li>
+<li><strong>利用者への周知・啓発</strong> ：様々な利用者層に向け、提供する対策サービスについて広く啓発を行う。</li>
+</ol>
+<p>さらに、各団体は2025年9月から2026年8月までの取組状況を3か月ごとに総務省へ報告することが求められる。</p>
+<p>今回の要請は行政手続法上の「行政指導」に位置づけられるもので、法的拘束力を伴う処分ではないが、生成AIの普及によって高まるリスクに対応するため、事業者に迅速な行動を促す狙いがあるとのこと。</p>
+]]></description>
+      <pubDate>Thu, 04 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
       <link>https://ledge.ai/articles/figurobot_desktop_humanoid_nia_f01</link>
       <description><![CDATA[<p>中国のAIスタートアップ「霊童（FIGUROBOT）」は、人型デスクトップロボット「念 NIA-F01」を<a href="https://www.figurobot.com/productDetails">発表</a>し、公式サイトで予約受付を開始したことを2025年9月1日に中国のテックメディアである<a href="https://36kr.jp/370461/">36Kr</a>が報じている。価格は9999元（約20万円）で、初回生産分は2025年末の納品を予定しているという。</p>
@@ -626,30 +644,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>Googleは今回の測定手法を公開することで、AI利用に伴う環境負荷の計測を業界全体で標準化したいとの姿勢を明らかにした。AI推論は日常的に利用が広がる一方で、環境コストへの関心も高まっており、今回の発表は持続可能なAI活用に向けた一歩と位置づけられる。</p>
 ]]></description>
       <pubDate>Fri, 29 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Realtime APIを正式公開──本番運用の音声エージェント向けに「gpt-realtime」登場</title>
-      <link>https://ledge.ai/articles/openai_realtime_api_gpt_realtime_release</link>
-      <description><![CDATA[<p>OpenAIは2025年8月28日（米国時間）、アプリやサービスにリアルタイム会話機能を組み込める「Realtime API」を<a href="https://openai.com/index/introducing-gpt-realtime/">発表</a>した。これまでベータ版として提供されてきたものを、商用利用に対応できる形へと強化したもので、本番環境での運用を前提とした信頼性や機能性が大幅に向上している。同時に、より高度な音声対話を実現する新モデル「gpt-realtime」も発表された。</p>
-<h2>Realtime API、一般提供（GA）へ</h2>
-<p>Realtime APIは、低遅延かつ高精度の音声・テキスト処理を一つのモデルで実現し、待ち時間やニュアンスの損失を最小化する。今回の正式公開によって、開発者は顧客向けアプリケーションに安定した音声エージェントを組み込めるようになった。</p>
-<h2>新モデル「gpt-realtime」の特徴</h2>
-<p>新たに登場した「gpt-realtime」は、発話の抑揚や間合いといった非言語的要素を処理し、より自然で表現力豊かな会話を可能にする。複雑な指示の理解や正確なツール呼び出しにも対応し、従来モデルよりも一段と実用性が高まった。また、新しい音声「Cedar」「Marin」を含む複数のボイスが追加され、用途に応じた音声選択が可能となっている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=nfBbmtMJhX0">YouTube</a></p>
-<h2>拡張されたAPI機能</h2>
-<p>Realtime APIには、以下の主要な新機能が追加された。</p>
-<ul>
-<li><strong>MCP（Model Context Protocol）サーバー対応</strong> ：外部データやツールへのアクセスを容易にし、セッション中に必要な情報をシームレスに利用可能にする。</li>
-<li><strong>画像入力対応</strong> ：音声やテキストと組み合わせて画像を入力でき、写真やスクリーンショットを交えたマルチモーダルな対話が可能になった。</li>
-<li><strong>SIP通話対応</strong> ：公衆電話網やPBXなどSIP対応端末と接続でき、音声エージェントによる電話業務の自動化を実現する。</li>
-</ul>
-<h2>運用性とセーフティ</h2>
-<p>本番運用を意識した設計として、非同期ツール呼び出しにより長時間処理を待つ間も会話を途切れさせない工夫が加えられた。加えて、セッション全体を対象にした多層的な安全ガードや、EU域内でのデータレジデンシー対応など、プライバシーとセキュリティの強化も図られている。</p>
-<h2>価格改定</h2>
-<p>「gpt-realtime」の利用料金は従来比で20％引き下げられ、開発者や企業が導入しやすい価格設定となった。例えば、入力は100万オーディオトークンあたり32ドル、出力は同64ドルとされている。</p>
-<p>Realtime APIの正式公開と「gpt-realtime」の発表は、OpenAIが音声AIの本格的な商用利用を見据えた大きな一歩といえる。高度な音声理解と表現力に加え、MCP、画像入力、SIP通話といった拡張機能が揃ったことで、カスタマーサポートや教育、業務自動化など多様な領域で新たな音声体験が広がることが期待されている。</p>
-]]></description>
-      <pubDate>Fri, 29 Aug 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
