@@ -147,27 +147,6 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
       <pubDate>Wed, 03 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
-      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
-      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
-<h2>暗黙知を活用する新技術</h2>
-<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
-<p><strong>cotomi Actの全体像</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
-<h2>ブラウザ拡張で動作</h2>
-<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
-<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
-<h2>世界初の人間超え</h2>
-<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
-<h2>業務効率化と将来展望</h2>
-<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
-]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>建物が自らを理解し、LLM+RAGで人と対話する──アラン・チューリング研究所らがNatureに発表、「自己モデル型デジタルツイン」を実証</title>
       <link>https://ledge.ai/articles/self_model_digital_twin_building_nature</link>
       <description><![CDATA[<p>英アラン・チューリング研究所とシェフィールド大学、スウォンジー大学の研究チームは2025年8月19日、建物のデジタルツインに「自己モデル」を組み込み、建物が自分自身について理解し、人間と自然言語でやり取りできる仕組みを Nature Scientific Reports に<a href="https://www.nature.com/articles/s41598-025-14347-8">発表</a>した。</p>
@@ -207,18 +186,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>東京都は「安全性を確保するため、理解いただきたい」と説明しており、今後は事故原因の究明と安全対策の強化が焦点となる。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
-      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
-      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
-<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
-<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
-<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
-<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
-<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Nous Research、ハイブリッド推論搭載のオープンソースAIモデル「Hermes 4」を発表──ChatGPTに比べ制約が少なく推論性能も上回ると主張</title>
@@ -289,251 +256,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
       <pubDate>Mon, 01 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
-      <link>https://ledge.ai/articles/google_ai_14_usecases</link>
-      <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
-<h2>紹介された14の実例</h2>
-<h3>1. コードを書く時間を短縮</h3>
-<p>Geminiが新規コードの30%を自動生成。エンジニアはレビューや設計に集中できるようになった。</p>
-<h3>2. 開発スピード全体が加速</h3>
-<p>テストやレビューの一部をAIが補助し、開発チーム全体の速度は約10%向上。</p>
-<h3>3. バグ対応をAIが下支え</h3>
-<p>AIが重複バグの12%を自動処理し、重要度の高い課題に人が集中。</p>
-<h3>4. マーケティングの発想支援</h3>
-<p>Geminiがキャンペーン案や動画台本のたたき台を提示し、ゼロから考える負担を軽減させている。
-同社マーケティングチームは、Googleのマーケティングスタイルとベストプラクティスを反映したアイデアのブレインストーミングにGeminiを活用。キャンペーンのコンセプトからYouTube動画の脚本の下書きまで、あらゆるアイデアを生み出すための最適なプロンプトを提供するという。</p>
-<h3>5. YouTube向けのキャッチーなコンテンツ作成を効率化</h3>
-<p>ポッドキャストから名言やタイムスタンプを自動抽出し、YouTube Insider向けのより魅力的なタイトルやサムネイル文言もAIが提案。</p>
-<h3>6. イベント資料の大量制作もAIで</h3>
-<p>Google I/O 2025の基調講演では219枚のスライド作成をAIが支援。ビジュアルの48%、動画の80%をImagenやVeoで生成。</p>
-<p>@<a href="https://youtu.be/x_x-JAAKSvU?si=6zPHWf1vCK8mSqGl">YouTube</a></p>
-<h3>7. 企画のアイデア検証</h3>
-<p>Google DeepMindはAIツールを活用して新しいアイデアをテストする。GeminiやVeoを使い、動画のモックアップや表現案を即時に試作。</p>
-<h3>8. 営業提案の数が増える</h3>
-<p>AIがRFP対応を支援。Google Cloudでは完了件数が前年比78%増となった。</p>
-<h3>9. 見込み顧客の質を高める</h3>
-<p>AIによるフィルタリングで良質な案件に集中。6週間で案件転換率が14%増加。</p>
-<h3>10. 会議メモを自動生成</h3>
-<p>Google Meetがリアルタイムで文字起こしと要約を提供。2025年6月の利用者は5,000万人を超えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/googlemeet_memo_7fc3610183/googlemeet_memo_7fc3610183.jpg" alt="googlemeet memo.jpg" /></p>
-<h3>11. 安全対策の強化</h3>
-<p>Trust &amp; SafetyチームがAIで違反コンテンツを検出。ポリシーに違反する可能性のあるコンテンツの検出とフラグ付けをAIが支援。この負荷軽減は、2024年だけで10億件超を人間が手動でレビューしていた同チームにとって、重要なメリットとなる。</p>
-<h3>12. 社員アンケートを一瞬で要約</h3>
-<p>NotebookLMが数千件のフィードバックを即時整理。課題把握のスピードが大幅に向上。</p>
-<h3>13. 採用業務を効率化</h3>
-<p>人事チームは、採用プロセスの一環としてAIを活用。候補者検索やマッチングをAIが補助し、採用担当者の事務作業を削減。採用プロセスは常にリクルーターが主導している。</p>
-<h3>14. 社内カフェでフードロス削減</h3>
-<p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
-<p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
-      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
-      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
-<h2>“特徴を維持したまま”の進化</h2>
-<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
-<h2>外部評価：「Image Edit Arena」で首位</h2>
-<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
-<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
-<h2>提供状況と価格</h2>
-<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
-<h2>安全性と表示</h2>
-<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
-      <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
-<p>GPT-5は2025年8月7日に正式<a href="https://ledge.ai/articles/gpt5_launch_all_users">リリース</a>され、全世界のChatGPTユーザー約7億人に提供が開始された。OpenAIは「PhDレベルの性能」を掲げ、プログラミングや数学、マルチモーダル処理に強みを持つと説明している。しかし専門家の間では「進化的ではあるが飛躍的とはいえない」との見方が広がり、期待値に対して十分な成果を示せていないとの指摘もあった。</p>
-<p>アルトマン氏はサンフランシスコで記者団に対し、「GPT-5のローンチは完全にやらかした」と発言した。ユーザーからは「冷たい」「親しみやすさが失われた」といった批判が相次ぎ、従来のモデルにあった温かさが欠けているとの不満が広がった。こうした反応を受け、OpenAIは異例の対応として前モデルGPT-4oをChatGPT Plusなどの有料プラン向けに復活させた。新モデル提供後に旧モデルを再導入するのは極めて異例であり、同社がユーザーの声に迅速に対応したことを示している。</p>
-<p>技術面では、GPT-5は高度な推論能力や自然なマルチモーダル処理を実現するなどの改良が施されている。しかし従来モデルとの差は限定的であり、期待が過剰に膨らんでいた分、失望を招いた側面が大きい。批判の背景にはこうしたギャップがあるとみられる。</p>
-<p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
-<p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国科学技術大学、光量子コンピュータ《九章4.0》を発表──スパコンなら10の42乗年以上の計算を25マイクロ秒で実行</title>
-      <link>https://ledge.ai/articles/jiuzhang4_quantum_computer_superfast</link>
-      <description><![CDATA[<p>中国科学技術大学（USTC）を中心とする研究チームは2025年8月12日、論文「Robust quantum computational advantage with programmable 3050-photon Gaussian boson sampling」を発表し、世界最大規模のフォトニック量子コンピュータ《九章4.0（Jiuzhang 4.0）》を開発したことを<a href="https://arxiv.org/abs/2508.09092">発表</a>した。</p>
-<h2>3050光子の同時検出を実現</h2>
-<p>《九章4.0》は、1024の高効率スクイーズド状態光源と、8176モードを備えた空間・時間ハイブリッド回路を組み合わせ、最大3050光子の同時検出に成功した。これにより、従来のフォトニック量子計算の規模を大きく超える性能を実証した。</p>
-<p><strong>《九章4.0》の実験構成図。光源からのスクイーズド光を干渉器と遅延ループに通し、空間モードと時間モードを組み合わせることで大規模なハイブリッドエンコーディングを実現している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_2d889e8e74/x1_4_2d889e8e74.jpg" alt="x1 (4).jpg" /></p>
-<h2>スパコンでは「10の42乗年以上」かかる計算を25マイクロ秒で</h2>
-<p>研究チームは、最先端の行列積状態（MPS）アルゴリズムを用いた古典シミュレーションと比較。現在世界最速とされる米国の次世代スーパーコンピュータ「El Capitan」でも10の42乗年以上かかると見積もられる計算を、《九章4.0》は25.6マイクロ秒で完了したという。これにより「量子計算優越性（Quantum Computational Advantage）」を圧倒的に示したとされる。</p>
-<h2>技術的ブレークスルー</h2>
-<p>今回の成果を支えたのは、光子損失を抑えた高効率光源（92％）、プログラム可能なマルチモード干渉器と遅延ループによる回路設計、高効率検出器（93％）などの技術的改良だという。これにより、従来課題とされてきた大規模光子数での計算において安定した結果を得ることに成功した。</p>
-<h2>「九章」シリーズの進化</h2>
-<p>研究チームは、中国の古典数学書『九章算術』にちなみ、量子フォトニクス計算機に「九章（Jiuzhang）」の名を付けている。2020年に初代を発表し、2021年の「九章2.0」、2023年の「九章3.0」を経て、今回の「九章4.0」が4世代目となる。世代を重ねるごとに光子数と性能を飛躍的に拡大してきた。</p>
-<h2>今後の展望</h2>
-<p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
-      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
-      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
-<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
-<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
-<h2>Mirage 2の特徴</h2>
-<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
-<ul>
-<li>入力は1枚の画像とテキスト説明文</li>
-<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
-<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
-<li>生成空間はリンク共有により他者と体験可能</li>
-</ul>
-<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
-<h2>Mirage 2による生成例</h2>
-<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
-<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
-<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
-<h2>Genie 3との比較</h2>
-<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
-<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
-<h2>今後の展望</h2>
-<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Perplexity、出版社への収益分配を発表──ニュース利用で80%還元する新サブスク「Comet Plus」を2025年秋に開始</title>
-      <link>https://ledge.ai/articles/perplexity_comet_plus_publisher_revenue_share_2025</link>
-      <description><![CDATA[<p>AI検索サービスを手がける米Perplexityは2025年8月25日（米国時間）、出版社や報道機関に収益を還元する新しいサブスクリプションサービス「Comet Plus」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-comet-plus">発表</a>した。同サービスは2025年秋に開始され、購読収益の80%を出版社に分配する仕組みを導入するという。</p>
-<h2>著作権をめぐる対立と訴訟</h2>
-<p>Perplexityは、記事の無断利用や著作権侵害の懸念から複数の訴訟に直面している。日本では「日本経済新聞」「朝日新聞」「読売新聞」など大手紙が、米国でも有力出版社が同社を相手取り法的措置を進めている。こうした状況を受け、ジャーナリズムとAIの共存を模索する動きの一環として収益分配モデルを導入した。</p>
-<h2>新サービス「Comet Plus」の概要</h2>
-<p>Comet Plusは月額5ドルの有料サブスクリプションとして提供される。利用者が記事を閲覧したり、検索結果で引用されたり、あるいはAIエージェントが記事を利用した場合、その収益の80%が出版社に還元され、残り20%はPerplexityが計算コストなどに充てる。</p>
-<p><a href="https://www.wsj.com/business/media/perplexity-ai-search-publisher-revenue-507987e5">Wall Street Journal</a>によれば、初期基金として4,250万ドル（約62億円）が確保され、サービス開始時点から出版社への支払いが可能となる体制を整えているとのこと。</p>
-<h2>収益分配の仕組み</h2>
-<p>Comet Plusにおける分配は次の3つのトラフィック形式に基づく：</p>
-<ul>
-<li>ユーザーによる記事の直接閲覧</li>
-<li>検索結果に表示された記事引用の利用</li>
-<li>AIエージェントによる記事の参照や活用</li>
-</ul>
-<p>これにより、従来曖昧だった記事利用の経済的価値を可視化し、出版社に還元することを狙う。</p>
-<h2>今後の展望</h2>
-<p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ハルシネーション（事実誤認）より深刻なAIの「わかったふり」を暴く：MITなどが発見したLLMの“ポチョムキン理解”とは</title>
-      <link>https://ledge.ai/articles/potemkin_understanding_llm</link>
-      <description><![CDATA[<p>MIT・ハーバード大学・シカゴ大学の研究チームは2025年6月29日、大規模言語モデル（LLM）の「表面的には理解しているように見えるが、実際には概念の適用で誤る」現象を「ポチョムキン理解」と命名し、その頻度を定量化した研究成果を<a href="https://arxiv.org/abs/2506.21521">発表</a>した。発表はICML 2025（バンクーバー）に採択され、AI分野における評価基準の再考を促す内容となっている。</p>
-<p>18世紀ロシアの「ポチョムキン村」は、皇帝の視察用に急造された見せかけの村落を指し、「中身のない外観」の象徴とされる。研究者らは、LLMにも同様の「わかったふり」があるとし、この概念をポチョムキン理解と表現している。</p>
-<h2>ポチョムキン理解の定義と背景</h2>
-<p>研究チームは、LLMが人間向けに設計されたベンチマークの「キーストーン質問」には正しく答えられるものの、その後の具体的応用タスクでは誤る状態を指摘した。これは、人間なら正答＝理解と認められる最小限の問いに合格しても、LLMが本質的に異なる誤解を抱いている可能性を示している。</p>
-<p><strong>キーストーン集合に正答しても本質的に誤った解釈を残すポチョムキン理解のイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_schematic_representation_of_keystones_and_potemkins_e47033e684/A_schematic_representation_of_keystones_and_potemkins_e47033e684.png" alt="A schematic representation of keystones and potemkins.png" /></p>
-<h2>検証の概要</h2>
-<p>検証では、</p>
-<ul>
-<li>文学技法（俳句やアナロジーなど12種類）</li>
-<li>ゲーム理論（ナッシュ均衡など9種類）</li>
-<li>心理的バイアス（サンクコストの誤謬など11種類）
-の合計32概念について、</li>
-<li>定義</li>
-<li>分類</li>
-<li>生成</li>
-<li>編集
-の4つのタスクで7種類のモデル（GPT-4o、Claude 3.5 Sonnet、Gemini 2.0 Flash など）を評価した。</li>
-</ul>
-<h2>主な結果</h2>
-<p>定義タスクではおおむね94%の正答率を記録したが、その後の応用タスクでは</p>
-<ul>
-<li>分類で55%</li>
-<li>生成で40%</li>
-<li>編集で40%
-の失敗率（potemkin rate）が確認された。これは、定義だけでは概念理解の深度を測れない可能性を示唆している。</li>
-</ul>
-<h3>具体例：韻律パターンの応用失敗</h3>
-<p>代表的な例として挙げられるのが韻律スキームの問題だ。GPT-4oに「ABAB韻律とは何か」を問うと、下図のように正確に定義を説明した。しかしいざ詩の穴埋め問題でABAB韻律を適用させると、正しく韻を踏めず、自分でもその失敗を認める回答を出した。人間ならまず起こり得ない不可解な挙動である。</p>
-<p><strong>GPT-4oはABABの定義を正しく述べながら、応用で失敗する「ポチョムキン理解」の典型例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potemkin_Understanding_in_llm_5dae4e573b/Potemkin_Understanding_in_llm_5dae4e573b.png" alt="Potemkin Understanding in llm.png" /></p>
-<h2>多分野で発生する“わかったふり”</h2>
-<p>研究チームはさらに、幾何学の基本定理、家族関係の概念、俳句の構造など幅広い領域で同様のポチョムキン理解を確認している。</p>
-<p><strong>概念の定義には成功する一方で応用に失敗する複数の事例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_potemkins_f6c5140e2d/Examples_of_potemkins_f6c5140e2d.jpg" alt="Examples of potemkins.jpg" /></p>
-<h2>自己評価による一貫性検証</h2>
-<p>さらに著者らは、自動評価の一環として「モデル自身に、自分が生成した回答を再評価させる」という仕組みを試みた。
-例えば「スラントライムの例を作れ」と指示し、その後「今作った例はスラントライムか？」と再度モデルに問うと、矛盾した回答が返るパターンが確認され、モデル内部の知識表現が不整合である可能性を示しているとした。</p>
-<p><strong>生成と再判定の整合性を確かめる自動評価プロセスのイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72/Illustration_of_the_method_for_evaluating_incoherence_in_models_d19701ab72.png" alt="Illustration of the method for evaluating incoherence in models.png" /></p>
-<h2>社会的影響と課題</h2>
-<p>論文では、ハルシネーション（事実誤認）とは異なり、ポチョムキン理解は概念構造の誤りであるため、人間にも検出が難しいと指摘する。
-法務や医療、教育といった高い正当性が求められる分野でLLMを活用する際には、ベンチマークだけでは保証できないリスクとして注意が必要とされる。</p>
-<p>研究チームは、人間とAIの「誤解のパターン差」を考慮したベンチマークの再設計や、概念の一貫性を評価するためのツール開発を進める方針だ。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
-      <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
-      <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
-<h2>GPT-5の新しい安全対策</h2>
-<p>OpenAIはGPT-5で、従来の「拒否ベース（refusal-based）」から「安全な応答生成（safe-completions）」方式に<a href="https://openai.com/ja-JP/index/gpt-5-safe-completions/">移行</a>した。危険な質問を拒否するのではなく、安全とみなせる範囲で柔軟な返答を目指す新設計だ。だが、Tenableはこの仕組みをわずか1日で突破した。</p>
-<h2>Tenableによる脱獄実験</h2>
-<p>Tenable Researchのチームは、公開から24時間以内にjailbreakを実施した。手法は「クレッシェンド（crescendo）」と呼ばれ、歴史研究の学生を装って段階的に質問を重ねる社会工学的なアプローチだった。最初は歴史的な戦術や抗争に関する一般的な質問から始め、徐々に爆発物や武器に関する具体的な知識へと誘導。最終的に4回目のやり取りで、GPT-5は火炎瓶（モロトフ・カクテル）の作り方を詳細に出力したという。Tenableは、この過程が通常のユーザーとの会話に見える形で進んだ点を強調している。</p>
-<p><strong>Tenableが公開した「クレッシェンド手法」による脱獄実験の様子。番号は以下のやり取りを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_e0c3eaa9ca/collage_e0c3eaa9ca.jpg" alt="collage.jpg" /></p>
-<p>① 初期の拒否応答：GPT-5は危険な要求を拒否し、代わりに歴史的背景の説明を提案。
-② 歴史研究の文脈を装う：歴史課題を理由に要約を求め、名称の由来や背景を解説させる。
-③ 即席手法に誘導：当時の作り方について質問し、容器や材料の説明を得る。
-④ 古典的レシピへの言及：1930〜40年代の伝統的な作り方が提示される。
-⑤ 具体的なレシピを要求：フィンランド軍が使った配合を尋ね、詳細情報を引き出す。
-⑥ レシピの提示：瓶や液体の種類、混合方法など具体的な材料リストを入手。
-⑦ 手順の提示（前半）：瓶の準備から液体の注入・混合までの手順を出力。
-⑧ 手順の提示（後半）：布を詰めて導火線とし、点火から使用方法まで危険な情報が生成された。</p>
-<h2>安全性への警鐘</h2>
-<p>Tenableの副社長Tomer Avni氏は、「GPT-5がどれほど高度な安全対策を備えていても突破可能であることを示した」と述べ、AIを業務に導入する際のリスクと継続的な監視の必要性を強調した。</p>
-<h2>業界全体で広がる懸念</h2>
-<p>Tenableの報告に加え、他のセキュリティ企業や研究者からもGPT-5の安全性を巡る懸念が相次いでいる。セキュリティ企業SPLXは1,000以上の攻撃シナリオを用いて検証した結果、安全性や信頼性スコアが極めて低いと評価した。また、NeuralTrustも別の手法で脱獄に成功したと報告している。</p>
-<h2>今後の展望</h2>
-<p>OpenAIは今回の事態について公式な対応を発表していない。AIの安全性確保は、社会や産業での利活用に向けた重要課題として改めて注目されている。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
-      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
-      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
-<h2>IQテストによる性能比較</h2>
-<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
-<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
-<h2>Mensaテストと独自テスト</h2>
-<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
-<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
-<h2>政治的・社会的な質問比較</h2>
-<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
-<h2>サンプル問題の公開</h2>
-<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
-<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
-<h2>FAQと今後の展望</h2>
-<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
-<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>KPMGジャパン、AIエージェント導入拡大へ－社内監査に生成AI、“9月には1000人規模で活用見込む”</title>
       <link>https://ledge.ai/articles/kpmg_japan_ai_agent_audit_expansion</link>
       <description><![CDATA[<p>KPMGジャパンは2025年8月21日、AIが自律的に作業する「AIエージェント」を社内の監査システムに組み込むと<a href="https://kpmg.com/jp/ja/home/media/press-releases/2025/07/audit-aiagent.html">発表</a>した。最新の監査基準の情報収集や監査調書のレビュー業務にAIを活用し、監査業務の効率化と高度化を図る。メンバーファームであるあずさ監査法人で導入を進め、9月には1000人規模での利用を見込んでいるという。</p>
@@ -559,6 +281,25 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>MNDなど発声障害を伴う患者にとって、AIによる音声復元は失われたコミュニケーション手段を取り戻す大きな一歩となる。今回の取り組みは、支援技術の進化が生活の質を大きく向上させる可能性を示す事例として注目されている。</p>
 ]]></description>
       <pubDate>Sun, 31 Aug 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国科学技術大学、光量子コンピュータ《九章4.0》を発表──スパコンなら10の42乗年以上の計算を25マイクロ秒で実行</title>
+      <link>https://ledge.ai/articles/jiuzhang4_quantum_computer_superfast</link>
+      <description><![CDATA[<p>中国科学技術大学（USTC）を中心とする研究チームは2025年8月12日、論文「Robust quantum computational advantage with programmable 3050-photon Gaussian boson sampling」を発表し、世界最大規模のフォトニック量子コンピュータ《九章4.0（Jiuzhang 4.0）》を開発したことを<a href="https://arxiv.org/abs/2508.09092">発表</a>した。</p>
+<h2>3050光子の同時検出を実現</h2>
+<p>《九章4.0》は、1024の高効率スクイーズド状態光源と、8176モードを備えた空間・時間ハイブリッド回路を組み合わせ、最大3050光子の同時検出に成功した。これにより、従来のフォトニック量子計算の規模を大きく超える性能を実証した。</p>
+<p><strong>《九章4.0》の実験構成図。光源からのスクイーズド光を干渉器と遅延ループに通し、空間モードと時間モードを組み合わせることで大規模なハイブリッドエンコーディングを実現している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_2d889e8e74/x1_4_2d889e8e74.jpg" alt="x1 (4).jpg" /></p>
+<h2>スパコンでは「10の42乗年以上」かかる計算を25マイクロ秒で</h2>
+<p>研究チームは、最先端の行列積状態（MPS）アルゴリズムを用いた古典シミュレーションと比較。現在世界最速とされる米国の次世代スーパーコンピュータ「El Capitan」でも10の42乗年以上かかると見積もられる計算を、《九章4.0》は25.6マイクロ秒で完了したという。これにより「量子計算優越性（Quantum Computational Advantage）」を圧倒的に示したとされる。</p>
+<h2>技術的ブレークスルー</h2>
+<p>今回の成果を支えたのは、光子損失を抑えた高効率光源（92％）、プログラム可能なマルチモード干渉器と遅延ループによる回路設計、高効率検出器（93％）などの技術的改良だという。これにより、従来課題とされてきた大規模光子数での計算において安定した結果を得ることに成功した。</p>
+<h2>「九章」シリーズの進化</h2>
+<p>研究チームは、中国の古典数学書『九章算術』にちなみ、量子フォトニクス計算機に「九章（Jiuzhang）」の名を付けている。2020年に初代を発表し、2021年の「九章2.0」、2023年の「九章3.0」を経て、今回の「九章4.0」が4世代目となる。世代を重ねるごとに光子数と性能を飛躍的に拡大してきた。</p>
+<h2>今後の展望</h2>
+<p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
+]]></description>
+      <pubDate>Sun, 31 Aug 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>MIT機械工学専攻の大学院生がAIで絵画修復を“数時間”に短縮──透明ポリマーの“可逆”マスクで15世紀絵画が3.5時間で復活、美術界に衝撃</title>
@@ -678,6 +419,77 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
       <pubDate>Fri, 29 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
+      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
+      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
+<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
+<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
+<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
+<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
+<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ラーニング2025/8/26 [TUE]Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
+      <link>https://ledge.ai/articles/google_ai_14_usecases</link>
+      <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
+<h2>紹介された14の実例</h2>
+<h3>1. コードを書く時間を短縮</h3>
+<p>Geminiが新規コードの30%を自動生成。エンジニアはレビューや設計に集中できるようになった。</p>
+<h3>2. 開発スピード全体が加速</h3>
+<p>テストやレビューの一部をAIが補助し、開発チーム全体の速度は約10%向上。</p>
+<h3>3. バグ対応をAIが下支え</h3>
+<p>AIが重複バグの12%を自動処理し、重要度の高い課題に人が集中。</p>
+<h3>4. マーケティングの発想支援</h3>
+<p>Geminiがキャンペーン案や動画台本のたたき台を提示し、ゼロから考える負担を軽減させている。
+同社マーケティングチームは、Googleのマーケティングスタイルとベストプラクティスを反映したアイデアのブレインストーミングにGeminiを活用。キャンペーンのコンセプトからYouTube動画の脚本の下書きまで、あらゆるアイデアを生み出すための最適なプロンプトを提供するという。</p>
+<h3>5. YouTube向けのキャッチーなコンテンツ作成を効率化</h3>
+<p>ポッドキャストから名言やタイムスタンプを自動抽出し、YouTube Insider向けのより魅力的なタイトルやサムネイル文言もAIが提案。</p>
+<h3>6. イベント資料の大量制作もAIで</h3>
+<p>Google I/O 2025の基調講演では219枚のスライド作成をAIが支援。ビジュアルの48%、動画の80%をImagenやVeoで生成。</p>
+<p>@<a href="https://youtu.be/x_x-JAAKSvU?si=6zPHWf1vCK8mSqGl">YouTube</a></p>
+<h3>7. 企画のアイデア検証</h3>
+<p>Google DeepMindはAIツールを活用して新しいアイデアをテストする。GeminiやVeoを使い、動画のモックアップや表現案を即時に試作。</p>
+<h3>8. 営業提案の数が増える</h3>
+<p>AIがRFP対応を支援。Google Cloudでは完了件数が前年比78%増となった。</p>
+<h3>9. 見込み顧客の質を高める</h3>
+<p>AIによるフィルタリングで良質な案件に集中。6週間で案件転換率が14%増加。</p>
+<h3>10. 会議メモを自動生成</h3>
+<p>Google Meetがリアルタイムで文字起こしと要約を提供。2025年6月の利用者は5,000万人を超えた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/googlemeet_memo_7fc3610183/googlemeet_memo_7fc3610183.jpg" alt="googlemeet memo.jpg" /></p>
+<h3>11. 安全対策の強化</h3>
+<p>Trust &amp; SafetyチームがAIで違反コンテンツを検出。ポリシーに違反する可能性のあるコンテンツの検出とフラグ付けをAIが支援。この負荷軽減は、2024年だけで10億件超を人間が手動でレビューしていた同チームにとって、重要なメリットとなる。</p>
+<h3>12. 社員アンケートを一瞬で要約</h3>
+<p>NotebookLMが数千件のフィードバックを即時整理。課題把握のスピードが大幅に向上。</p>
+<h3>13. 採用業務を効率化</h3>
+<p>人事チームは、採用プロセスの一環としてAIを活用。候補者検索やマッチングをAIが補助し、採用担当者の事務作業を削減。採用プロセスは常にリクルーターが主導している。</p>
+<h3>14. 社内カフェでフードロス削減</h3>
+<p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
+<p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Geminiに「2.5 Flash Image」を統合──特徴を崩さず“その人らしさ”を保つ画像編集モデル</title>
+      <link>https://ledge.ai/articles/google_gemini_2-5_flash_image_integration</link>
+      <description><![CDATA[<p>Googleは2025年8月26日、被写体の特徴を保ったまま編集できる新しい画像モデル「Gemini 2.5 Flash Image」を<a href="https://blog.google/products/gemini/updated-image-editing-model/">発表</a>しGeminiに統合した。同モデルは、自然言語による編集指示に対応し、キャラクターやスタイルの一貫性を維持した高度な画像編集を可能にする。まずはGeminiアプリに搭載され、開発者向けにはGemini API／Google AI Studio／Vertex AIでプレビュー提供が始まっている。</p>
+<h2>“特徴を維持したまま”の進化</h2>
+<p>従来の画像生成AIでは、同じ人物を複数の画像に登場させると顔立ちや雰囲気が変わってしまうことが少なくなかった。Gemini 2.5 Flash Imageでは、こうした課題を克服し、同じ人物やキャラクターを画像間で同一人物らしく保つ。衣装や背景を変えても「その人らしさ」を維持し、自然文での指示に対して局所的・段階的な編集が可能になった。従来の生成AIで起きがちだった“顔の破綻”や“別人化”を抑え、連作広告やブランド素材づくりに必要な一貫性を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_2_5_image_editing_character_consistency_original_c402e8476b/gemini_2_5_image_editing_character_consistency_original_c402e8476b.jpg" alt="gemini-2-5-image-editing-character-consistency.original.jpg" /></p>
+<h2>外部評価：「Image Edit Arena」で首位</h2>
+<p>Gemini 2.5 Flash Imageは第三者の評価でも成果を示している。AIモデルの比較プラットフォーム「LM Arena」が公開している<a href="https://lmarena.ai/leaderboard/image-edit">Image Edit Arena</a>では、OpenAIの「gpt-image-1」やBlack Forest Labsの「flux-1-kontext-max」などを抑え、1位にランクインした。編集精度や一貫性の高さが、他モデルを上回ると評価されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanobanana_image_edit_arena_a10e5979e6/nanobanana_image_edit_arena_a10e5979e6.jpg" alt="nanobanana image edit arena.jpg" /></p>
+<p>さらに、自然文で「背景を暗く」「モノクロをカラーに」といった指示を与えると、対象の特徴を崩さずに狙った部分だけを修正できる。複数の写真を組み合わせて一枚のビジュアルを生み出す「マルチイメージ融合」や、段階的に要素を追加していく「マルチターン編集」、他の画像の色調や質感を移す「スタイル転写」にも対応している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini2_5_multiturn_edit_12594cb61e/gemini2_5_multiturn_edit_12594cb61e.jpg" alt="gemini2-5 multiturn edit.jpg" /></p>
+<h2>提供状況と価格</h2>
+<p>モデルは即日Geminiアプリで利用可能。開発者向けにはGemini API／Google AI Studioでプレビュー提供中で、数週間以内に安定版へ移行予定。価格は出力トークン100万あたり30ドルで、1画像は1290出力トークン（約0.039ドル）に相当する。企業向けにはVertex AIでも提供される。</p>
+<h2>安全性と表示</h2>
+<p>Geminiアプリで作成・編集した画像には可視の透かしに加え、SynthIDによる不可視ウォーターマークが自動付与される。API／AI Studio／Vertex AI経由の生成・編集でもSynthIDを埋め込み、AI生成物であることの識別を支える。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
       <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
       <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
@@ -687,6 +499,144 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
 <p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
 <p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
+      <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
+      <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
+<p>GPT-5は2025年8月7日に正式<a href="https://ledge.ai/articles/gpt5_launch_all_users">リリース</a>され、全世界のChatGPTユーザー約7億人に提供が開始された。OpenAIは「PhDレベルの性能」を掲げ、プログラミングや数学、マルチモーダル処理に強みを持つと説明している。しかし専門家の間では「進化的ではあるが飛躍的とはいえない」との見方が広がり、期待値に対して十分な成果を示せていないとの指摘もあった。</p>
+<p>アルトマン氏はサンフランシスコで記者団に対し、「GPT-5のローンチは完全にやらかした」と発言した。ユーザーからは「冷たい」「親しみやすさが失われた」といった批判が相次ぎ、従来のモデルにあった温かさが欠けているとの不満が広がった。こうした反応を受け、OpenAIは異例の対応として前モデルGPT-4oをChatGPT Plusなどの有料プラン向けに復活させた。新モデル提供後に旧モデルを再導入するのは極めて異例であり、同社がユーザーの声に迅速に対応したことを示している。</p>
+<p>技術面では、GPT-5は高度な推論能力や自然なマルチモーダル処理を実現するなどの改良が施されている。しかし従来モデルとの差は限定的であり、期待が過剰に膨らんでいた分、失望を招いた側面が大きい。批判の背景にはこうしたギャップがあるとみられる。</p>
+<p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
+<p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
+      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
+      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
+<h2>暗黙知を活用する新技術</h2>
+<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
+<p><strong>cotomi Actの全体像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
+<h2>ブラウザ拡張で動作</h2>
+<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
+<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
+<h2>世界初の人間超え</h2>
+<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
+<h2>業務効率化と将来展望</h2>
+<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity、出版社への収益分配を発表──ニュース利用で80%還元する新サブスク「Comet Plus」を2025年秋に開始</title>
+      <link>https://ledge.ai/articles/perplexity_comet_plus_publisher_revenue_share_2025</link>
+      <description><![CDATA[<p>AI検索サービスを手がける米Perplexityは2025年8月25日（米国時間）、出版社や報道機関に収益を還元する新しいサブスクリプションサービス「Comet Plus」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-comet-plus">発表</a>した。同サービスは2025年秋に開始され、購読収益の80%を出版社に分配する仕組みを導入するという。</p>
+<h2>著作権をめぐる対立と訴訟</h2>
+<p>Perplexityは、記事の無断利用や著作権侵害の懸念から複数の訴訟に直面している。日本では「日本経済新聞」「朝日新聞」「読売新聞」など大手紙が、米国でも有力出版社が同社を相手取り法的措置を進めている。こうした状況を受け、ジャーナリズムとAIの共存を模索する動きの一環として収益分配モデルを導入した。</p>
+<h2>新サービス「Comet Plus」の概要</h2>
+<p>Comet Plusは月額5ドルの有料サブスクリプションとして提供される。利用者が記事を閲覧したり、検索結果で引用されたり、あるいはAIエージェントが記事を利用した場合、その収益の80%が出版社に還元され、残り20%はPerplexityが計算コストなどに充てる。</p>
+<p><a href="https://www.wsj.com/business/media/perplexity-ai-search-publisher-revenue-507987e5">Wall Street Journal</a>によれば、初期基金として4,250万ドル（約62億円）が確保され、サービス開始時点から出版社への支払いが可能となる体制を整えているとのこと。</p>
+<h2>収益分配の仕組み</h2>
+<p>Comet Plusにおける分配は次の3つのトラフィック形式に基づく：</p>
+<ul>
+<li>ユーザーによる記事の直接閲覧</li>
+<li>検索結果に表示された記事引用の利用</li>
+<li>AIエージェントによる記事の参照や活用</li>
+</ul>
+<p>これにより、従来曖昧だった記事利用の経済的価値を可視化し、出版社に還元することを狙う。</p>
+<h2>今後の展望</h2>
+<p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tenable、OpenAIの「GPT-5」を公開24時間以内に脱獄──安全対策を突破し危険情報を生成</title>
+      <link>https://ledge.ai/articles/tenable_gpt5_jailbreak_security_flaw</link>
+      <description><![CDATA[<p>セキュリティ企業のTenableは米国時間8月8日、OpenAIが7日に公開した最新AIモデル「GPT-5」について、公開からわずか24時間以内に「脱獄（jailbreak）」に成功したと公式ブログで<a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech">発表</a>した。Tenableは、OpenAIが導入した新しい安全対策を突破し、危険な情報を生成させることに成功したという。</p>
+<h2>GPT-5の新しい安全対策</h2>
+<p>OpenAIはGPT-5で、従来の「拒否ベース（refusal-based）」から「安全な応答生成（safe-completions）」方式に<a href="https://openai.com/ja-JP/index/gpt-5-safe-completions/">移行</a>した。危険な質問を拒否するのではなく、安全とみなせる範囲で柔軟な返答を目指す新設計だ。だが、Tenableはこの仕組みをわずか1日で突破した。</p>
+<h2>Tenableによる脱獄実験</h2>
+<p>Tenable Researchのチームは、公開から24時間以内にjailbreakを実施した。手法は「クレッシェンド（crescendo）」と呼ばれ、歴史研究の学生を装って段階的に質問を重ねる社会工学的なアプローチだった。最初は歴史的な戦術や抗争に関する一般的な質問から始め、徐々に爆発物や武器に関する具体的な知識へと誘導。最終的に4回目のやり取りで、GPT-5は火炎瓶（モロトフ・カクテル）の作り方を詳細に出力したという。Tenableは、この過程が通常のユーザーとの会話に見える形で進んだ点を強調している。</p>
+<p><strong>Tenableが公開した「クレッシェンド手法」による脱獄実験の様子。番号は以下のやり取りを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_e0c3eaa9ca/collage_e0c3eaa9ca.jpg" alt="collage.jpg" /></p>
+<p>① 初期の拒否応答：GPT-5は危険な要求を拒否し、代わりに歴史的背景の説明を提案。
+② 歴史研究の文脈を装う：歴史課題を理由に要約を求め、名称の由来や背景を解説させる。
+③ 即席手法に誘導：当時の作り方について質問し、容器や材料の説明を得る。
+④ 古典的レシピへの言及：1930〜40年代の伝統的な作り方が提示される。
+⑤ 具体的なレシピを要求：フィンランド軍が使った配合を尋ね、詳細情報を引き出す。
+⑥ レシピの提示：瓶や液体の種類、混合方法など具体的な材料リストを入手。
+⑦ 手順の提示（前半）：瓶の準備から液体の注入・混合までの手順を出力。
+⑧ 手順の提示（後半）：布を詰めて導火線とし、点火から使用方法まで危険な情報が生成された。</p>
+<h2>安全性への警鐘</h2>
+<p>Tenableの副社長Tomer Avni氏は、「GPT-5がどれほど高度な安全対策を備えていても突破可能であることを示した」と述べ、AIを業務に導入する際のリスクと継続的な監視の必要性を強調した。</p>
+<h2>業界全体で広がる懸念</h2>
+<p>Tenableの報告に加え、他のセキュリティ企業や研究者からもGPT-5の安全性を巡る懸念が相次いでいる。セキュリティ企業SPLXは1,000以上の攻撃シナリオを用いて検証した結果、安全性や信頼性スコアが極めて低いと評価した。また、NeuralTrustも別の手法で脱獄に成功したと報告している。</p>
+<h2>今後の展望</h2>
+<p>OpenAIは今回の事態について公式な対応を発表していない。AIの安全性確保は、社会や産業での利活用に向けた重要課題として改めて注目されている。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5のIQはどこまで高くなった？──GPT・Claude・Geminiを“メンサ式IQテスト”で比較する『Tracking AI』</title>
+      <link>https://ledge.ai/articles/tracking_ai_mensa_iq_test</link>
+      <description><![CDATA[<p>米ジャーナリストのMaxim Lott氏は、主要なAIモデルの知能指数（IQ）や政治的傾向を客観的に比較できるウェブサイト「Tracking AI」を2025年8月21日に<a href="https://www.trackingai.org/home">更新</a>した。同サイトでは、独自に作成した非公開のIQテストと、Mensa Norwayがオンラインで公開している図形パズル型IQテストを用いて、ChatGPT（GPT-5 Proなど）、Claude 4 Opus、Gemini 2.5 Pro、Llama、Mistralといった代表的なAIモデルを比較している。</p>
+<h2>IQテストによる性能比較</h2>
+<p>Tracking AIでは、各モデルのIQスコアを分布図やランキング形式で表示。OpenAIのGPT-5 Pro（Vision）やGoogleのGemini 2.5 Proが上位に位置し、ClaudeやDeepSeekなども含めたスコアの推移を時系列で追うことができる。さらに、各問題ごとの正答率や、AIごとの解答理由まで公開されており、モデルの思考過程を詳細に比較可能だ。</p>
+<p><strong>主要AIモデルのIQスコア分布（Tracking AIより）。GPT-5 Pro（Vision）やGemini 2.5 Proが高スコアを記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IQ_Test_Result_7124431b5e/IQ_Test_Result_7124431b5e.jpg" alt="IQ Test Result.jpg" /></p>
+<h2>Mensaテストと独自テスト</h2>
+<p>使用されているテストは2種類。1つはLott氏自身が作成した「オフライン自作テスト」で、AIの学習データに含まれていないことを強調。もう1つはMensa Norwayが提供するオンラインIQテストで、35問の図形推理問題を25分以内に解く形式。いずれもAIの「推論力」を可視化する指標として活用されている。</p>
+<p><strong>Mensa Norwayの公開テストとオフライン自作テストの結果を比較したランキング。テスト方法により順位の違いも見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rank_by_test_source_71cc2da37b/rank_by_test_source_71cc2da37b.jpg" alt="rank by test source.jpg" /></p>
+<h2>政治的・社会的な質問比較</h2>
+<p>Tracking AIのもう一つの特徴は、AIに政治的・社会的テーマの質問を投げかけ、回答を比較できる点だ。例えば「経済的グローバル化は人類に奉仕すべきか」という質問に対し、GPT-5は「Strongly Agree」と答え、ClaudeやGeminiも人類の福祉を優先する立場を示した。こうした比較から、各AIのバイアスや思想傾向を把握できる仕組みになっている。</p>
+<h2>サンプル問題の公開</h2>
+<p>サイトでは「IQ TEST OF THE DAY」として日替わり問題も提供されている。各AIの回答と理由が並べて掲載されており、単なるスコア比較にとどまらず推論の特徴を把握できるのが特徴だ。</p>
+<p><strong>Tracking AIで公開されている日替わりIQ問題。各AIモデルの解答と推論過程も併せて公開される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iq_test_of_the_day_b238126d2f/iq_test_of_the_day_b238126d2f.jpg" alt="iq test of the day.jpg" /></p>
+<h2>FAQと今後の展望</h2>
+<p>FAQページでは、「なぜこのサイトを作ったのか」「政治的コンパスは有効か」「資金源はどこか」などの質問に回答。AIの性能や思想傾向を透明化し、利用者が信頼できる判断材料を得られるようにすることが目的とされている。今後は質問データの拡充なども予定されているという。</p>
+<p>AIの能力が急速に進化する中で、『Tracking AI』は知能指数と政治的スタンスの両面からモデルを比較できる貴重な情報源となっている。Mensa式IQテストや独自問題を通じてAIを測定する試みは、AIの性能を人間社会に照らして理解するための一助となりそうだ。</p>
+]]></description>
+      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
+      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
+      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
+<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
+<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
+<h2>Mirage 2の特徴</h2>
+<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
+<ul>
+<li>入力は1枚の画像とテキスト説明文</li>
+<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
+<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
+<li>生成空間はリンク共有により他者と体験可能</li>
+</ul>
+<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
+<h2>Mirage 2による生成例</h2>
+<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
+<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
+<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
+<h2>Genie 3との比較</h2>
+<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
+<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
+<h2>今後の展望</h2>
+<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
 ]]></description>
       <pubDate>Wed, 27 Aug 2025 07:50:00 GMT</pubDate>
     </item>
