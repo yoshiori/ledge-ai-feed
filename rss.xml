@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Brave、他社AIエージェント型ブラウザに「Comet Prompt Injection」脆弱性を発見──自社ブラウザは影響なし</title>
+      <link>https://ledge.ai/articles/brave_comet_prompt_injection_vulnerability</link>
+      <description><![CDATA[<p>Brave Softwareは2025年8月20日（米国時間）、他社が開発するエージェント型ブラウザに深刻な脆弱性を発見したと公式ブログで<a href="https://brave.com/blog/comet-prompt-injection/">発表</a>した。同社は、自社のBraveブラウザには影響が及ばないことを強調している。</p>
+<p>同社によると、この脆弱性はユーザーが仕掛けられたページを閲覧することで発動する可能性があるという。攻撃者はエージェントに任意の指示を送り込み、ユーザーの意図しない動作を実行できる。これにより、個人情報の不正送信やシステム操作の誤誘導といったリスクが生じる可能性があるとのこと。</p>
+<p>Braveは「Attack demonstration（攻撃の実演）」として、攻撃の仕組みを例示している。攻撃者は一見無害に見えるウェブページに不正な命令文を仕込み、エージェントがそれを読み取ると、ユーザーが意図しない動作を自動で行ってしまう。例えばコメント欄や入力フォームに隠された命令を通じて、個人情報の送信や外部システムへのアクセスといった行為が実行される恐れがあるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/attacl_de_pmstratopm_c5ac947836/attacl_de_pmstratopm_c5ac947836.jpg" alt="attacl de,pmstratopm.jpg" /></p>
+<p>Braveは、脆弱性が確認されたブラウザの名称は明かしていないが、該当するベンダーにはすでに問題を報告済みと説明。あわせて、エージェント機能を搭載したブラウザの利用者に注意を呼びかけている。</p>
+<p>一方で、脆弱性の名称に「Comet」が含まれていることから、Perplexityが提供するエージェント型ブラウザ「Comet」を指しているとみられる。Braveはあえて社名には触れていないが、実質的に対象を示唆する形となっている。</p>
+<p>エージェント型ブラウザは、AIを活用してユーザーの操作を自動化する仕組みを備えており、近年急速に開発が進んでいる。一方で、従来のウェブセキュリティには存在しなかった攻撃経路が新たに生まれており、安全性への懸念も指摘されている。</p>
+<p>Braveは公式ブログで「ユーザー保護を最優先に調査を進めている」と強調し、自社ブラウザがこの脆弱性の影響を受けない設計であることを改めて示した。</p>
+]]></description>
+      <pubDate>Fri, 05 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、シリーズFで130億ドルを調達──ICONIQ Capital主導、評価額は1,830億ドル（約27兆円）に</title>
       <link>https://ledge.ai/articles/anthropic_seriesf_13b_valuation_183b</link>
       <description><![CDATA[<p>AI企業のAnthropicは2025年9月2日（現地時間）、シリーズF資金調達ラウンドで130億ドルを調達したと<a href="https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation">発表</a>した。
@@ -340,25 +354,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
 ]]></description>
       <pubDate>Sun, 31 Aug 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MIT機械工学専攻の大学院生がAIで絵画修復を“数時間”に短縮──透明ポリマーの“可逆”マスクで15世紀絵画が3.5時間で復活、美術界に衝撃</title>
-      <link>https://ledge.ai/articles/mit_ai_art_restoration_reversible_mask</link>
-      <description><![CDATA[<p>マサチューセッツ工科大学（MIT）の機械工学専攻の大学院生、Alex Kachkine（アレックス・カチキン）氏が、AIを用いた革新的な絵画修復技術を2025年6月に<a href="https://news.mit.edu/2025/restoring-damaged-paintings-using-ai-generated-mask-0611">発表</a>した。従来は数百時間を要していた作業を、わずか「3.5時間」で完了させることに成功。15世紀の油彩画を実証実験として修復し、美術界に大きな驚きを与えている。</p>
-<h2>AIと透明ポリマーマスクによる新手法</h2>
-<p>Kachkine氏が開発した技術は、AIが絵画を高精細にスキャンし、損傷した領域を自動で判定。その後、AIが推定した57,314色を用いて損傷箇所を補完し、透明ポリマー製のマスクに印刷する。マスクを原画に重ねることで、5,612か所の損傷が修復された。特徴的なのは、このマスクが簡単に剥がせる「可逆的」な仕組みを持つ点で、将来的な再修復や技術的検証にも対応可能だという。
-　　
-@<a href="https://www.youtube.com/watch?v=uf1iO_WTkwI">YouTube</a></p>
-<h2>従来比66倍のスピード</h2>
-<p>実験では15世紀の油彩画を用い、修復作業を「3.5時間」で完了。従来の方法なら数百時間を要するところを、約66倍の速さで仕上げたことになる。研究チームは「技術的再現性を担保しつつ、速度面で劇的な進歩を実現した」としている。</p>
-<h2>収蔵庫の作品にも光</h2>
-<p>修復にかかる膨大な時間と費用のため、世界の美術館には展示されずに眠る作品が多数存在する。本技術は、そうした作品を低コストかつ短時間で修復できる可能性を示し、美術界全体に波及効果をもたらすと期待される。</p>
-<h2>倫理と観賞体験の議論も</h2>
-<p>一方で、AIによる色の補完がどの程度「原画の美」を反映するのか、また観賞者にどのような体験を与えるのかといった倫理的・美学的課題も指摘されている。研究チームは「修復の透明性を担保し、専門家の監修と連携して進める必要がある」と強調している。</p>
-<h2>工学から美術への架け橋</h2>
-<p>Kachkine氏は元々、趣味で絵画修復に取り組んでいたエンジニア出身。MIT進学後、工学的知見を応用して今回の手法を編み出した。成果は2025年6月11日に科学誌「Nature」に<a href="https://www.nature.com/articles/s41586-025-09045-4">掲載</a>され、今後さらに多様な美術作品での応用が検討される見通しだ。</p>
-]]></description>
-      <pubDate>Sat, 30 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/8/30 [SAT]16歳自殺めぐり両親がOpenAIを提訴、ChatGPTが“自殺コーチ”に変貌したと主張──OpenAIは長時間対話では危機介入の効果低下を認め改善を進める方針</title>
