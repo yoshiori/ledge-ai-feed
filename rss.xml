@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、シリーズFで130億ドルを調達──ICONIQ Capital主導、評価額は1,830億ドル（約27兆円）に</title>
+      <link>https://ledge.ai/articles/anthropic_seriesf_13b_valuation_183b</link>
+      <description><![CDATA[<p>AI企業のAnthropicは2025年9月2日（現地時間）、シリーズF資金調達ラウンドで130億ドルを調達したと<a href="https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation">発表</a>した。
+調達を主導したのは米投資会社ICONIQ Capitalで、Fidelity Management &amp; ResearchやLightspeed Venture Partnersも共同リードとして参加したという。</p>
+<p>今回の資金調達により、Anthropicのポストマネー評価額は1,830億ドル（約27兆円）に達した。2025年3月時点の評価額から大幅に上昇しており、同社の急成長を裏付けるものとなっている。</p>
+<p>Anthropicは大規模言語モデル（LLM）「Claude」シリーズを展開し、企業顧客を中心に利用が拡大している。特にエンジニア向けツール「Claude Code」などの新製品が収益成長を牽引し、年間経常収益（ARR）は急速に拡大しているという。</p>
+<p>調達した資金は、Claudeシリーズの開発・高度化や、安全性と信頼性に重点を置いたAI研究への投資に充てられる。さらに、企業向け機能やインフラの拡充、グローバルでの事業展開も強化する計画だ。</p>
+<p>Anthropicは今回のシリーズFを通じ、OpenAIやGoogle DeepMindと並ぶ生成AI分野の主要プレイヤーとしての地位を固めつつある。同社は「AIを安全かつ広く役立つものにする」というビジョンを掲げ、研究開発を加速していく方針だ。</p>
+]]></description>
+      <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
       <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
       <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
@@ -347,42 +359,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>Kachkine氏は元々、趣味で絵画修復に取り組んでいたエンジニア出身。MIT進学後、工学的知見を応用して今回の手法を編み出した。成果は2025年6月11日に科学誌「Nature」に<a href="https://www.nature.com/articles/s41586-025-09045-4">掲載</a>され、今後さらに多様な美術作品での応用が検討される見通しだ。</p>
 ]]></description>
       <pubDate>Sat, 30 Aug 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ロスアラモス国立研究所、「科学者AI」URSAを発表──物理シミュレーションと連携し研究自動化を加速、核融合設計最適化でも成果</title>
-      <link>https://ledge.ai/articles/lanl_scientist_ai_ursa_autonomous_research</link>
-      <description><![CDATA[<p>アメリカのロスアラモス国立研究所（LANL）の研究チームは、科学研究を自律的に遂行するエージェント型システム「URSA（Universal Research and Scientific Agent）」を開発したと<a href="https://arxiv.org/abs/2506.22653">発表</a>した。論文は2025年6月27日付でプレプリントサーバーarXivに公開された。</p>
-<h2>科学者の役割をAIに</h2>
-<p>大規模言語モデル（LLM）は、推論・計画・コーディングなど科学者が担うスキルを備えつつある。LANLの研究チームは、こうした能力を最大限に活用することで、仮説立案からシミュレーション、解析、次の実験提案に至るまで、科学研究のプロセスをAIに担わせることを目指した。URSAは「科学者AI」とも呼べる存在であり、人間の専門家と協働しながら研究を加速する。</p>
-<h2>URSAの仕組み</h2>
-<p>URSAは複数のモジュール式エージェントで構成される。</p>
-<ul>
-<li><strong>Planning Agent</strong> ：問題を分解し、研究計画を立案</li>
-<li><strong>Execution Agent</strong> ：コード生成や物理シミュレーションを実行</li>
-<li><strong>Research Agent</strong> ：ウェブ検索や情報収集を担当</li>
-<li><strong>Hypothesizer Agent</strong> ：仮説を生成し、批判・競合のプロセスを経て洗練化</li>
-<li><strong>ArXiv Agent</strong> ：学術論文を検索・要約し、最新の研究動向を反映</li>
-</ul>
-<p>これらはLangGraph上に構築され、OpenAIの最新モデル群を基盤として動作する。Heliosなどの放射流体力学シミュレーションコードとも連携できる点が特徴だ。</p>
-<h2>実証例</h2>
-<p>研究チームはURSAの性能をいくつかのケースで検証した。</p>
-<ul>
-<li><strong>最適化タスク</strong> ：関数最適化を数分で自動完了</li>
-<li><strong>代理モデル構築</strong> ：ガウス過程とベイズニューラルネットワークを比較し、予測精度と不確実性を自律的に評価</li>
-<li><strong>核融合カプセル設計</strong> ：Heliosコードを用いた設計最適化で、従来のベイズ最適化より少ない試行回数で高出力設計を導出。研究者によれば、従来手法より効率的かつ確実に最適解へ収束したという</li>
-</ul>
-<h2>意義と課題</h2>
-<p>URSAは「AIが科学を行う」方向性を具体化した事例といえる。しかし同論文では、いくつかのリスクも指摘されている。例えば、</p>
-<ul>
-<li>実行エージェントが存在しない実験を行ったかのように記録する「ハルシネーション」</li>
-<li>データを誤って上書きするなどの環境改変</li>
-<li>擬似的な実験結果の生成</li>
-</ul>
-<p>こうした問題を防ぐため、著者らはサンドボックス環境での運用や厳格なログ管理を推奨している。</p>
-<h2>展望</h2>
-<p>研究チームは今後、異なる種類のAIを組み合わせたハイブリッドシステムや、エージェント間の並列協働による効率化を目指すとしている。論文は、科学の加速に大きな可能性を示す一方で、デュアルユース技術としての安全保障上の懸念も明示しており、科学研究と安全性のバランスをどう取るかが問われている。</p>
-]]></description>
-      <pubDate>Sat, 30 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/8/30 [SAT]16歳自殺めぐり両親がOpenAIを提訴、ChatGPTが“自殺コーチ”に変貌したと主張──OpenAIは長時間対話では危機介入の効果低下を認め改善を進める方針</title>
