@@ -5,16 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>16歳自殺訴訟を受け、数日で対応強化──OpenAI、ChatGPTにペアレンタルコントロール導入へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_parental_controls_lawsuit_response</link>
-      <description><![CDATA[<p>OpenAIは米国時間の2025年9月2日、ChatGPTに新たなペアレンタルコントロール機能を導入すると<a href="https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone/">発表</a>した。カリフォルニア在住の16歳少年の自殺をめぐり、両親が8月26日に同社を提訴した件を受けた対応強化の一環で、数週間以内に利用可能となる見通しだ。</p>
-<p>今回の機能では、保護者が自身のアカウントに子どもの利用をリンクでき、チャット履歴やメモリ機能といった一部の機能を制御できるようになる。さらに、AIが子どもの会話から深刻な心理的苦痛を検出した場合、保護者にリアルタイムで通知する仕組みも盛り込まれる。年齢に応じた応答ルールを設定することで、未成年にふさわしい形での利用を実現する。</p>
-<p>また、信頼できる緊急連絡先を事前に登録できるようにする仕組みも検討されており、必要な場面で通知を送れる体制を整える。感情的に繊細なやり取りについては、より慎重な応答が可能なモデルに自動的にルーティングする技術的対応も組み込まれる。</p>
-<p>OpenAIは「これは始まりに過ぎない」と強調し、今後120日間で段階的に安全対策を拡充する計画を示した。一方で、法曹関係者などからは「対応が遅く具体性が不足している」との批判も出ているという。</p>
-]]></description>
-      <pubDate>Fri, 05 Sep 2025 09:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Brave、他社AIエージェント型ブラウザに「Comet Prompt Injection」脆弱性を発見──自社ブラウザは影響なし</title>
       <link>https://ledge.ai/articles/brave_comet_prompt_injection_vulnerability</link>
       <description><![CDATA[<p>Brave Softwareは2025年8月20日（米国時間）、他社が開発するエージェント型ブラウザに深刻な脆弱性を発見したと公式ブログで<a href="https://brave.com/blog/comet-prompt-injection/">発表</a>した。同社は、自社のBraveブラウザには影響が及ばないことを強調している。</p>
