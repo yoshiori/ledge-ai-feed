@@ -25,30 +25,6 @@
       <pubDate>Sat, 06 Sep 2025 05:23:54 GMT</pubDate>
     </item>
     <item>
-      <title>天津大学ら、LLMで人体臓器をAIエージェント化──「Organ-Agents」で9システムを統合的にシミュレーション</title>
-      <link>https://ledge.ai/articles/organ_agents_virtual_human_llm</link>
-      <description><![CDATA[<p>中国・天津大学などに所属する研究チームは、2025年8月20日に論文「Organ-Agents: Virtual Human Physiology Simulator via LLMs」を<a href="https://arxiv.org/abs/2508.14357">発表</a>した。大規模言語モデル（LLM）を活用し、患者の臓器をバーチャルなAIエージェントとして表現することで、人体の複雑な生理学的変化を再現できると報告している。</p>
-<h2>人体を「9つの臓器エージェント」に分解</h2>
-<p>Organ-Agentsは、心臓や肺、肝臓など9つの臓器システムをそれぞれ独立したエージェントとしてモデル化。臓器同士の相互作用を通じて、患者の病態がどのように変化するかをシミュレーションできる仕組みを構築した。</p>
-<p><strong>天津大学らが提案した『Organ-Agents』の全体像。患者データから臓器システムをエージェント化し、相互作用を通じて生理学的変化をシミュレーションする</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_fbd0699774/x1_4_fbd0699774.png" alt="x1 (4).png" /></p>
-<h2>学習プロセスとシステム構成</h2>
-<p>モデルはLoRAによるチューニングに加え、Analyzer、Correlator、Compensatorといった補助エージェントを組み合わせることで、シミュレーションの精度を高めている。</p>
-<p>さらに、学習は二段階で進む。まずは各臓器を個別にシミュレーション（Stage I）、その後に臓器間の相互作用を通じた強化学習（Stage II）を実施することで、現実的な挙動を再現する。</p>
-<p><strong>Organ-Agentsのモデル化と学習プロセス。第I段階では各臓器を個別にシミュレーションし、第II段階では相互作用を通じて精度を高めている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_1_8d9f3c7567/x5_1_8d9f3c7567.png" alt="x5 (1).png" /></p>
-<h2>データと検証結果</h2>
-<p>検証には7,134人の敗血症患者と7,895人の非敗血症患者の臨床データを活用。125種類の生理学的変数を対象に時間的な軌跡を生成し、平均二乗誤差（MSE）は0.16未満と高精度を示した。</p>
-<p>また、臨床医による評価でも高い現実性が確認され、Likertスコアは3.9および3.7に達した。反事実シナリオのシミュレーション（治療方針を変えた場合の予測）や外部データを用いた検証、早期警戒システムとしての利用でも有効性が確認されている。</p>
-<p><strong>Organ-Agentsにおけるプロンプトと出力例。臨床データに基づき、心血管系や血液系などのシステムが動的に応答する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_1_61b1fe0f4b/x6_1_61b1fe0f4b.png" alt="x6 (1).png" /></p>
-<h2>医療応用への期待</h2>
-<p>研究チームは、「Organ-Agentsは医療現場の意思決定支援や治療効果の予測に新たな道を開く」としている。人体をシステム全体で捉えるアプローチにより、従来の単一臓器に基づく予測モデルを超える可能性が示された。</p>
-<p>論文は次のように結論づけている。「Organ-Agentsは、人体の複雑な生理学をLLMで表現し、医療AI研究における新たな基盤技術となり得る」。今後は臨床現場での実装に向けて、さらなる拡張や実証研究が期待される。</p>
-]]></description>
-      <pubDate>Sat, 06 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>あすか製薬HD、米投資ファンドDaltonに「情報リスト」への回答を再要請──生成AIで調べよとの回答を問題視</title>
       <link>https://ledge.ai/articles/aska_hd_dalton_information_request_ai_response_issue</link>
       <description><![CDATA[<p>あすか製薬ホールディングス（東京都港区、以下、あすか製薬HD）は9月2日、米投資ファンドのDalton Investmentsらに対し、株式の大規模買付行為に関する「情報リスト」への回答を改めて要請したと<a href="https://kabutan.jp/disclosures/pdf/20250902/140120250902552045/">発表</a>した。株主判断に必要な情報の提供を求める同社に対し、Dalton側が「ChatGPTやPerplexityを使って調べればよい」とするメールを送付したことを問題視した。</p>
