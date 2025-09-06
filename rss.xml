@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>あすか製薬HD、米投資ファンドDaltonに「情報リスト」への回答を再要請──生成AIで調べよとの回答を問題視</title>
+      <link>https://ledge.ai/articles/aska_hd_dalton_information_request_ai_response_issue</link>
+      <description><![CDATA[<p>あすか製薬ホールディングス（東京都港区、以下、あすか製薬HD）は9月2日、米投資ファンドのDalton Investmentsらに対し、株式の大規模買付行為に関する「情報リスト」への回答を改めて要請したと<a href="https://kabutan.jp/disclosures/pdf/20250902/140120250902552045/">発表</a>した。株主判断に必要な情報の提供を求める同社に対し、Dalton側が「ChatGPTやPerplexityを使って調べればよい」とするメールを送付したことを問題視した。</p>
+<p>あすか製薬HDは7月1日、Dalton Investmentsや関連ファンドによる株式買い増しを踏まえ、買収防衛を目的とした「対応方針」を導入。その後、8月18日にDaltonらから提出された「趣旨説明書」を受領し、補足情報を求める「情報リスト」を交付した。</p>
+<p>しかし、8月29日、Daltonの最高投資責任者（CIO）であるJames B. Rosenwald III氏が、山口惣大社長宛に英文のメールを送付。その中で同氏は、「質問はインターネットで得られる」「ChatGPTやPerplexityを利用すればよい」と主張し、情報リストのやり取りは「無駄な手続」と述べた。あすか製薬HDは、この対応を「事実上の回答拒否」と判断した。</p>
+<p>同社は、情報リストは株主および取締役会が適切な判断を行うために不可欠であり、日本語での正式回答が必要だと強調。経済産業省が2023年に公表した「企業買収における行動指針」で掲げられた「透明性の原則」にも照らし、Dalton側の対応は不適切だと指摘した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/asuka_dalton2_c6831d4568/asuka_dalton2_c6831d4568.jpg" alt="asuka dalton2.jpg" /></p>
+<p>さらに同社は、Daltonらが今後も正規の手続きを経ずに大規模買付行為を進めた場合、株主が「強い強圧性」に晒される可能性があると懸念を表明。株主の利益を守るためにも、必要な情報の提供は不可欠であるとし、改めて回答を要請した。今後もDalton側との対話状況について、適時開示を続けるとしている。</p>
+]]></description>
+      <pubDate>Fri, 05 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>16歳自殺訴訟を受け、数日で対応強化──OpenAI、ChatGPTにペアレンタルコントロール導入へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_parental_controls_lawsuit_response</link>
+      <description><![CDATA[<p>OpenAIは米国時間の2025年9月2日、ChatGPTに新たなペアレンタルコントロール機能を導入すると<a href="https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone/">発表</a>した。カリフォルニア在住の16歳少年の自殺をめぐり、両親が8月26日に同社を提訴した件を受けた対応強化の一環で、数週間以内に利用可能となる見通しだ。</p>
+<p>今回の機能では、保護者が自身のアカウントに子どもの利用をリンクでき、チャット履歴やメモリ機能といった一部の機能を制御できるようになる。さらに、AIが子どもの会話から深刻な心理的苦痛を検出した場合、保護者にリアルタイムで通知する仕組みも盛り込まれる。年齢に応じた応答ルールを設定することで、未成年にふさわしい形での利用を実現する。</p>
+<p>また、信頼できる緊急連絡先を事前に登録できるようにする仕組みも検討されており、必要な場面で通知を送れる体制を整える。感情的に繊細なやり取りについては、より慎重な応答が可能なモデルに自動的にルーティングする技術的対応も組み込まれる。</p>
+<p>OpenAIは「これは始まりに過ぎない」と強調し、今後120日間で段階的に安全対策を拡充する計画を示した。一方で、法曹関係者などからは「対応が遅く具体性が不足している」との批判も出ているという。</p>
+]]></description>
+      <pubDate>Fri, 05 Sep 2025 09:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Brave、他社AIエージェント型ブラウザに「Comet Prompt Injection」脆弱性を発見──自社ブラウザは影響なし</title>
       <link>https://ledge.ai/articles/brave_comet_prompt_injection_vulnerability</link>
       <description><![CDATA[<p>Brave Softwareは2025年8月20日（米国時間）、他社が開発するエージェント型ブラウザに深刻な脆弱性を発見したと公式ブログで<a href="https://brave.com/blog/comet-prompt-injection/">発表</a>した。同社は、自社のBraveブラウザには影響が及ばないことを強調している。</p>
@@ -503,20 +525,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>同社はAIの導入にあたって「人間中心で信頼できる監査」を掲げており、透明性や説明責任、公平性などの原則に基づいた運用を強調している。「AIエージェントの活用は、監査品質を維持・向上させながら効率化を進める取り組みの一環」として位置付けられており、今後も機能の拡張と導入範囲の拡大を進めていく方針を示している。</p>
 ]]></description>
       <pubDate>Mon, 01 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>イギリスのMND患者が25年ぶりに自分の声をAIで復元、8秒のVHS映像から再現──SmartboxとElevenLabs、支援技術「Grid」に新機能</title>
-      <link>https://ledge.ai/articles/smartbox_elevenlabs_grid_ai_voice_recovery_mnd_vhs</link>
-      <description><![CDATA[<p>運動ニューロン疾患（MND）で声を失ったイギリスの女性が、AIの力で25年ぶりに自分の声を取り戻した。イギリスの支援技術企業Smartboxは2025年8月、音声AI開発を手がけるElevenLabsと提携し、同社のコミュニケーション支援ソフト「Grid」に新しい音声再現機能を追加したと<a href="https://thinksmartbox.com/news/elevating-communication-in-grid-with-elevenlabs/">発表</a>した。</p>
-<p>対象となったのは、ロンドン在住のアーティスト、サラ・エゼキエル氏。1990年代後半にMNDと診断され、発声機能を失った。これまで合成音声を通じてコミュニケーションを取ってきたが、本人の声を再び聞くことは不可能と考えられていた。</p>
-<p>今回の技術では、家族が所持していたノイズ混じりのわずか8秒間のVHSホームビデオ映像が活用された。ElevenLabsの音声合成技術は、この短い音声データから声の特徴を抽出。アクセントやイントネーション、さらには発音の癖（リスプ）までも忠実に再現し、Gridを通じて自然に会話できるようになった。</p>
-<p>エゼキエル氏は「自分の声を取り戻すことは長年の夢でした。25年ぶりに自分らしい声で話せるようになったのは信じられない体験です」とコメント。家族も「本人の声を再び聞けるとは思っていなかった」と感動を語った。
-　　
-@<a href="https://www.youtube.com/watch?v=FuhM-x0NSg4">YouTube</a></p>
-<p>Smartboxは「個々人のアイデンティティを反映した声を取り戻すことは、単なる技術的進歩ではなく、心理的・社会的な価値も大きい」としている。ElevenLabsも「わずかなサンプルから高品質な音声を再現できる技術は、医療や福祉の現場に広く応用可能だ」と展望を示した。</p>
-<p>MNDなど発声障害を伴う患者にとって、AIによる音声復元は失われたコミュニケーション手段を取り戻す大きな一歩となる。今回の取り組みは、支援技術の進化が生活の質を大きく向上させる可能性を示す事例として注目されている。</p>
-]]></description>
-      <pubDate>Sun, 31 Aug 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
