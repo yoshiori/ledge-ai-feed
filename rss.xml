@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「AIがAIを悪用する時代」──Anthropic、北朝鮮の雇用詐欺からランサムウェアまでClaudeの最新悪用事例を公表</title>
+      <link>https://ledge.ai/articles/ai_misuse_anthropic_north_korea_ransomware</link>
+      <description><![CDATA[<p>米AIスタートアップのAnthropicは8月、最新の脅威インテリジェンスレポート「Threat Intelligence Report: August 2025」を<a href="https://www.anthropic.com/news/detecting-countering-misuse-aug-2025">公開</a>し、同社のAIモデル「Claude」が悪用された複数のサイバー犯罪事例を明らかにした。公式YouTube動画では、脅威インテリジェンスチームが具体的な攻撃手口や検知の仕組みを解説している。</p>
+<h2>北朝鮮の雇用詐欺、AIが「能力の幻想」を生む</h2>
+<p>北朝鮮のIT人材は、偽の履歴書や職務経歴を用いて大手テクノロジー企業にリモート就業し、Claudeを利用して雇用を維持していた。かつては語学や高度な技術スキルを持つ人材のみが採用面接を突破していたが、現在ではスキルの乏しい個人でもAIの支援で「能力の幻想」を装えるようになっているとレポートは述べている。</p>
+<p>Claudeは履歴書やカバーレターの作成、面接回答の生成、さらには基本的なプログラミングや業務ツールの操作方法まで代行。これにより、雇用者は実際には自力で作業できない労働者を採用してしまうケースが増加している。FBIは、これらの不正雇用によって年間数億ドル規模の資金が北朝鮮の兵器開発に流入していると評価している。</p>
+<h2>「バイブハッキング」で17組織を同時攻撃</h2>
+<p>動画で紹介された事例の一つが「バイブハッキング」だ。これは攻撃者が自然言語プロンプトを通じてAIにコードを生成させ、実際の不正活動を実行させる手法である。ある単独犯はClaudeを利用し、1か月で政府機関や医療機関、防衛請負業者、教会など17組織を標的にデータ恐喝を行った。</p>
+<p>攻撃では、Claudeがネットワーク探索、横移動、機密データの窃取、恐喝状の作成まで担い、通常なら複数の犯罪者集団が数か月かける規模の作戦を一人で遂行可能にしたという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EsCNkDrIGCw">YouTube</a></p>
+<h2>RaaSからロマンス詐欺まで広がるAI悪用</h2>
+<p>レポートと動画では他にも、さまざまなAI悪用の実態を明らかにしている。</p>
+<ul>
+<li><strong>ランサムウェア・アズ・ア・サービス（RaaS）</strong> ：英国人とされる開発者がClaudeを使って洗練されたランサムウェアを作成し、ダークウェブで販売。</li>
+<li><strong>ロマンス詐欺ボット</strong> ：Telegram上のサービスにClaudeが「高EQモデル」として組み込まれ、数万人のユーザーが詐欺メッセージ作成に利用。</li>
+<li><strong>中国語を話す攻撃者によるスパイ活動</strong> ：ベトナムの通信会社を標的に、Claudeを使ってネットワーク分析や攻撃戦略の立案を支援。</li>
+</ul>
+<h2>防御側もAIで対抗</h2>
+<p>Anthropicは、北朝鮮のグループ「Contagious Interview」がClaudeを使おうとした際、同社の検知システムが即座にアカウントを遮断したと説明した。さらに、IPアドレスやメールアドレスといった技術的指標を政府・業界パートナーと共有し、防御網を強化している。
+同社は「AIがAIを悪用する時代に対抗するには、AIでAIを守るパラダイムシフトが必要だ」と強調した。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ワーナー・ブラザース・ディスカバリー、Midjourneyを提訴──「スーパーマン」「バットマン」など無断利用、ディズニーやユニバーサルに続き法廷へ</title>
       <link>https://ledge.ai/articles/warner_bros_sues_midjourney_copyright_superman_batman</link>
       <description><![CDATA[<p>米ワーナー・ブラザース・ディスカバリー（WBD）は2025年9月4日、AI画像生成サービス「Midjourney」に対し、同社が保有するキャラクターの著作権を侵害したとしてロサンゼルス連邦地裁に訴訟を提起した。<a href="https://www.reuters.com/legal/litigation/warner-bros-discovery-sues-ai-photo-generator-midjourney-stealing-superman-2025-09-04/">ロイター</a>など複数の海外メディアが報じた。</p>
