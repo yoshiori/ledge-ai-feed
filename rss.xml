@@ -254,16 +254,51 @@
       <pubDate>Wed, 03 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
-      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
-      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
-<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
-<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
-<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
-<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
-<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
+      <title>建物が自らを理解し、LLM+RAGで人と対話する──アラン・チューリング研究所らがNatureに発表、「自己モデル型デジタルツイン」を実証</title>
+      <link>https://ledge.ai/articles/self_model_digital_twin_building_nature</link>
+      <description><![CDATA[<p>英アラン・チューリング研究所とシェフィールド大学、スウォンジー大学の研究チームは2025年8月19日、建物のデジタルツインに「自己モデル」を組み込み、建物が自分自身について理解し、人間と自然言語でやり取りできる仕組みを Nature Scientific Reports に<a href="https://www.nature.com/articles/s41598-025-14347-8">発表</a>した。</p>
+<h2>知的構造物への新たな一歩</h2>
+<p>知的構造物（intelligent structures）の研究は1980年代から続いてきた。従来はセンサーや制御技術を活用し、環境に応じて反応する仕組みが中心だった。今回の研究はそれを超え、建物が「自己モデル（self-model）」を持つことで、自分自身の状態を理解し、記録し、人間と対話できる可能性を示した。</p>
+<h2>小型3階建て建物で実証</h2>
+<p>研究チームは小型3階建ての建物を「物理的ツイン」とし、そのデジタル版を構築した。
+デジタルツインは、CAD、材料特性、有限要素解析（FEA）、数値モデル（ODE）、ベイズ推定を担当する5つのエージェントで構成される。各エージェントの成果は「知識グラフ」に記録され、建物の“記憶”として蓄積される。</p>
+<p><strong>デジタルツインのワークフロー。CADデータから数値モデル、ベイズ推定までをエージェントが担当し、知識グラフに記録される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig1_HTML_bc3e102c0a/41598_2025_14347_Fig1_HTML_bc3e102c0a.webp" alt="41598_2025_14347_Fig1_HTML.webp" /></p>
+<h2>知識グラフと自然言語応答</h2>
+<p>知識グラフはNeo4jで構築され、設計情報や解析結果、センサー記録が時系列で追加される。これにより、建物が「自分の構造や特性」を把握できる仕組みが実現された。</p>
+<p>さらに、ユーザーはウェブブラウザ上のインターフェースから自然言語で質問できる。Retrieval Augmented Generation（RAG）方式により、知識グラフと大規模言語モデル（ChatGPT-4）を組み合わせて応答する。知識グラフ由来の答えは「RAG:」、外部LLM由来の答えは「LLM:」と明示される。</p>
+<p><strong>知識グラフを可視化したUIと、自然言語による質疑応答の例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig2_HTML_e188d2c1c5/41598_2025_14347_Fig2_HTML_e188d2c1c5.webp" alt="41598_2025_14347_Fig2_HTML.webp" /></p>
+<h2>意義と今後の展望</h2>
+<p>研究は、建物が「自分自身を理解し、人間とコミュニケーションする」という未来像を示した概念実証だ。研究チームは「小規模な例だが、大規模構造物や都市レベルへの応用も視野に入る」としており、将来的には建物自身が自己診断し、利用者に直接説明する時代が訪れる可能性があるという。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Wed, 03 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
+      <link>https://ledge.ai/articles/digital_agency_gennai_ai_usage_report_3months</link>
+      <description><![CDATA[<p>デジタル庁は2025年8月29日、同庁が5月から運用を開始した生成AI利用環境「源内（げんない）」の3か月間の利用実績を<a href="https://www.digital.go.jp/news/08ded405-ca03-48c7-9b92-6b8878854a74">公表</a>した。全職員約1,200人のうち約950人（8割）が利用し、延べ6万5,000回以上の利用があった。職員1人あたりの平均利用回数は70回にのぼり、行政業務でのAI活用が着実に定着しつつあることが示された。</p>
+<p>少子高齢化による担い手不足が深刻化する中、行政サービスの維持・強化にはAIの積極的な活用が不可欠とされる。デジタル庁は「ガバメントAI」構想の一環として、職員が業務で利用可能な生成AI環境を内製開発し、2025年5月から「源内」として提供を開始した。</p>
+<h2>「源内」の概要</h2>
+<p>源内は、デジタル庁専用ポータルからシングルサインオンで利用可能な仕組み。
+提供アプリは「チャット」「文章生成」「要約」「校正」「翻訳」などの汎用機能に加え、国会答弁検索AIや法制度調査支援AI、公用文チェッカーAIなど20種類の行政実務特化型AIを備える。利用可能な基盤モデルは、AWS「Nova Lite」、Anthropic「Claude3 Haiku」および「Claude3.5 Sonnet」の3種類（2025年8月時点）。</p>
+<h2>利用実績</h2>
+<p>5月から7月の3か月間で、全職員約1,200人のうち約950人が源内を利用。延べ利用回数は6万5,000回を超え、職員1人あたり平均70回となった。
+ユースケース別では、チャット型AIが最多利用となり、次いで文章生成、要約、校正、画像生成、翻訳といった汎用アプリが続いた。行政特化型アプリも併用され、幅広い業務にAIが導入されていることが分かった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai_monitoring_791e91ff6a/gennnai_monitoring_791e91ff6a.jpg" alt="gennnai monitoring.jpg" /></p>
+<h2>利用傾向と課題</h2>
+<p>利用状況には二極化がみられた。150人以上が3か月で100回以上利用した一方、170人は5回未満にとどまった。
+職制別では、若手職員や民間専門人材は積極的に活用する傾向があるが、課長級の半数は利用実績がなかった。AI利用が業務習慣に根付く一方で、職位や職務内容による活用度の差が明らかとなった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai4_down_64d7cce387/gennnai4_down_64d7cce387.jpg" alt="gennnai4-down.jpg" /></p>
+<h2>アンケート結果</h2>
+<p>職員アンケート（回答110人）では、「業務効率化に寄与している」との回答が約8割を占め、満足度は5点満点中平均4.2点。具体的な効果として、議事録作成の時短、翻訳や校正の効率化、法令調査の迅速化などが挙げられた。
+一方で、最新モデルの導入、ファイル翻訳やマルチモーダル対応、出典明示機能の改善などの要望も多く寄せられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai6_down_4894defb15/gennnai6_down_4894defb15.jpg" alt="gennnai6-down.jpg" /></p>
+<h2>今後の展開</h2>
+<p>デジタル庁は8月に全省庁向けの説明会を実施済み。2026年1月以降は一部省庁と連携し「源内」の展開（リリース1.0）を検証する予定だ。さらに地方公共団体や民間事業者との連携を進め、官民一体のAIエコシステム形成を目指すとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=jPrFc6aed-Q&amp;t=7s">YouTube</a></p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>【参加登録開始】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
@@ -327,7 +362,7 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
 :::</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
@@ -367,7 +402,7 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
 <p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
@@ -380,7 +415,7 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
 <p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
@@ -392,7 +427,7 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
 <p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>八王子で実施中のレベル２相当の自動運転バス実証実験で事故──東京都、運行を中止</title>
@@ -412,26 +447,7 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>自動運転バスは深刻化する運転手不足の解決策の一つとして期待されており、東京都内外で実証実験が相次いでいる。青森県むつ市では今回の事故を受け、9月に予定していたテスト走行の延期を決めるなど、影響が広がっているという。</p>
 <p>東京都は「安全性を確保するため、理解いただきたい」と説明しており、今後は事故原因の究明と安全対策の強化が焦点となる。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国科学技術大学、光量子コンピュータ《九章4.0》を発表──スパコンなら10の42乗年以上の計算を25マイクロ秒で実行</title>
-      <link>https://ledge.ai/articles/jiuzhang4_quantum_computer_superfast</link>
-      <description><![CDATA[<p>中国科学技術大学（USTC）を中心とする研究チームは2025年8月12日、論文「Robust quantum computational advantage with programmable 3050-photon Gaussian boson sampling」を発表し、世界最大規模のフォトニック量子コンピュータ《九章4.0（Jiuzhang 4.0）》を開発したことを<a href="https://arxiv.org/abs/2508.09092">発表</a>した。</p>
-<h2>3050光子の同時検出を実現</h2>
-<p>《九章4.0》は、1024の高効率スクイーズド状態光源と、8176モードを備えた空間・時間ハイブリッド回路を組み合わせ、最大3050光子の同時検出に成功した。これにより、従来のフォトニック量子計算の規模を大きく超える性能を実証した。</p>
-<p><strong>《九章4.0》の実験構成図。光源からのスクイーズド光を干渉器と遅延ループに通し、空間モードと時間モードを組み合わせることで大規模なハイブリッドエンコーディングを実現している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_2d889e8e74/x1_4_2d889e8e74.jpg" alt="x1 (4).jpg" /></p>
-<h2>スパコンでは「10の42乗年以上」かかる計算を25マイクロ秒で</h2>
-<p>研究チームは、最先端の行列積状態（MPS）アルゴリズムを用いた古典シミュレーションと比較。現在世界最速とされる米国の次世代スーパーコンピュータ「El Capitan」でも10の42乗年以上かかると見積もられる計算を、《九章4.0》は25.6マイクロ秒で完了したという。これにより「量子計算優越性（Quantum Computational Advantage）」を圧倒的に示したとされる。</p>
-<h2>技術的ブレークスルー</h2>
-<p>今回の成果を支えたのは、光子損失を抑えた高効率光源（92％）、プログラム可能なマルチモード干渉器と遅延ループによる回路設計、高効率検出器（93％）などの技術的改良だという。これにより、従来課題とされてきた大規模光子数での計算において安定した結果を得ることに成功した。</p>
-<h2>「九章」シリーズの進化</h2>
-<p>研究チームは、中国の古典数学書『九章算術』にちなみ、量子フォトニクス計算機に「九章（Jiuzhang）」の名を付けている。2020年に初代を発表し、2021年の「九章2.0」、2023年の「九章3.0」を経て、今回の「九章4.0」が4世代目となる。世代を重ねるごとに光子数と性能を飛躍的に拡大してきた。</p>
-<h2>今後の展望</h2>
-<p>論文では、《九章4.0》が「誤りに強い量子計算優越」を示した点が強調されており、今後は誤り耐性を備えた大規模量子フォトニックハードウェアの実現に道を開く成果と位置づけられている。研究チームは「量子シミュレーションや最適化問題など、古典計算を凌駕する応用領域に近づいた」としている。</p>
-]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
@@ -463,7 +479,28 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
+      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
+      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
+<h2>暗黙知を活用する新技術</h2>
+<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
+<p><strong>cotomi Actの全体像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
+<h2>ブラウザ拡張で動作</h2>
+<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
+<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
+<h2>世界初の人間超え</h2>
+<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
+<h2>業務効率化と将来展望</h2>
+<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Perplexity、出版社への収益分配を発表──ニュース利用で80%還元する新サブスク「Comet Plus」を2025年秋に開始</title>
@@ -485,28 +522,7 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <h2>今後の展望</h2>
 <p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>建物が自らを理解し、LLM+RAGで人と対話する──アラン・チューリング研究所らがNatureに発表、「自己モデル型デジタルツイン」を実証</title>
-      <link>https://ledge.ai/articles/self_model_digital_twin_building_nature</link>
-      <description><![CDATA[<p>英アラン・チューリング研究所とシェフィールド大学、スウォンジー大学の研究チームは2025年8月19日、建物のデジタルツインに「自己モデル」を組み込み、建物が自分自身について理解し、人間と自然言語でやり取りできる仕組みを Nature Scientific Reports に<a href="https://www.nature.com/articles/s41598-025-14347-8">発表</a>した。</p>
-<h2>知的構造物への新たな一歩</h2>
-<p>知的構造物（intelligent structures）の研究は1980年代から続いてきた。従来はセンサーや制御技術を活用し、環境に応じて反応する仕組みが中心だった。今回の研究はそれを超え、建物が「自己モデル（self-model）」を持つことで、自分自身の状態を理解し、記録し、人間と対話できる可能性を示した。</p>
-<h2>小型3階建て建物で実証</h2>
-<p>研究チームは小型3階建ての建物を「物理的ツイン」とし、そのデジタル版を構築した。
-デジタルツインは、CAD、材料特性、有限要素解析（FEA）、数値モデル（ODE）、ベイズ推定を担当する5つのエージェントで構成される。各エージェントの成果は「知識グラフ」に記録され、建物の“記憶”として蓄積される。</p>
-<p><strong>デジタルツインのワークフロー。CADデータから数値モデル、ベイズ推定までをエージェントが担当し、知識グラフに記録される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig1_HTML_bc3e102c0a/41598_2025_14347_Fig1_HTML_bc3e102c0a.webp" alt="41598_2025_14347_Fig1_HTML.webp" /></p>
-<h2>知識グラフと自然言語応答</h2>
-<p>知識グラフはNeo4jで構築され、設計情報や解析結果、センサー記録が時系列で追加される。これにより、建物が「自分の構造や特性」を把握できる仕組みが実現された。</p>
-<p>さらに、ユーザーはウェブブラウザ上のインターフェースから自然言語で質問できる。Retrieval Augmented Generation（RAG）方式により、知識グラフと大規模言語モデル（ChatGPT-4）を組み合わせて応答する。知識グラフ由来の答えは「RAG:」、外部LLM由来の答えは「LLM:」と明示される。</p>
-<p><strong>知識グラフを可視化したUIと、自然言語による質疑応答の例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig2_HTML_e188d2c1c5/41598_2025_14347_Fig2_HTML_e188d2c1c5.webp" alt="41598_2025_14347_Fig2_HTML.webp" /></p>
-<h2>意義と今後の展望</h2>
-<p>研究は、建物が「自分自身を理解し、人間とコミュニケーションする」という未来像を示した概念実証だ。研究チームは「小規模な例だが、大規模構造物や都市レベルへの応用も視野に入る」としており、将来的には建物自身が自己診断し、利用者に直接説明する時代が訪れる可能性があるという。</p>
-]]></description>
-      <pubDate>Wed, 03 Sep 2025 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Nous Research、ハイブリッド推論搭載のオープンソースAIモデル「Hermes 4」を発表──ChatGPTに比べ制約が少なく推論性能も上回ると主張</title>
@@ -551,23 +567,14 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
       <pubDate>Mon, 01 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
-      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
-      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
-<h2>暗黙知を活用する新技術</h2>
-<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
-<p><strong>cotomi Actの全体像</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
-<h2>ブラウザ拡張で動作</h2>
-<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
-<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
-<h2>世界初の人間超え</h2>
-<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
-<h2>業務効率化と将来展望</h2>
-<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
+      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
+      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
+<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
+<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
+<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
+<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
+<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
 ]]></description>
       <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
     </item>
