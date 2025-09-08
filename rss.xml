@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、著作権侵害訴訟で15億ドルの和解成立──約50万点に1作品あたり3,000ドル分配で決着</title>
+      <link>https://ledge.ai/articles/anthropic_copyright_settlement_1_5billion</link>
+      <description><![CDATA[<p>米AI企業Anthropicを被告とする著作権侵害訴訟で、2025年9月5日（現地時間）、和解が成立した。裁判所に提出された和解の<a href="https://www.documentcloud.org/documents/26084996-proposed-anthropic-authors-ai-settlement/?mode=document">予備承認申立書</a>によれば、Anthropicは少なくとも15億ドルを和解基金として拠出し、対象となる約50万点の著作物に1作品あたり約3,000ドルが分配される見込みだ。</p>
+<h2>15億ドル規模の和解基金</h2>
+<p>和解の条件では、Anthropicが非払戻型の基金を設立し、著作物1点ごとに均等額が支払われる。著作物の数が50万点を超える場合には、追加で1作品につき3,000ドルが支払われる条項も盛り込まれている。支払いは段階的に実施され、最初の3億ドルは予備承認から5営業日以内に拠出される。残額も2年以内に全額が支払われる予定だ。</p>
+<h2>データ破棄と請求範囲の限定</h2>
+<p>金銭的救済に加え、Anthropicは「Library Genesis」や「Pirate Library Mirror」といった海賊版サイトから取得した書籍データを破棄する義務を負う。和解で放棄される請求は2025年8月25日以前の著作権侵害に限定され、AIモデルの出力に関する請求権は対象外とされた。</p>
+<h2>今後の手続きと影響</h2>
+<p>今回の和解は、AI企業に対する著作権訴訟としては過去最大規模とされる。予備承認審理は9月8日に米カリフォルニア州北部地区連邦地裁で行われ、その後、著作権者への通知と異議申し立て期間を経て最終承認に進む。</p>
+<p>Authors GuildのCEOであるMary Rasenberger氏は、この和解について「AI業界に対する強い警告だ」とコメントし、米出版社協会（AAP）のMaria Pallante氏も「影響力ある前例となる」と評価した。</p>
+]]></description>
+      <pubDate>Mon, 08 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>スイス公共3機関、完全オープンで透明性ある多言語LLM「Apertus」で一部の大規模企業による独占的なAIモデル提供に対抗──EPFL・ETH Zürich・CSCSが共同開発</title>
       <link>https://ledge.ai/articles/apertus_open_multilingual_llm_epfl_ethz_cscs</link>
       <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）、スイス連邦工科大学チューリッヒ校（ETH Zürich）、スイス国立スーパーコンピューティングセンター（CSCS）は2025年9月2日、共同開発した大規模言語モデル（LLM）「Apertus」を<a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html">発表</a>した。完全オープンかつ透明性を重視した多言語対応モデルであり、研究、教育、産業における幅広い利用が期待されている。</p>
@@ -292,27 +306,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>政府は今後、年内に「AI基本計画」を策定する方針。研究開発支援や産業利用の推進に加え、生成AIによる偽・誤情報の拡散や犯罪利用への対策を議論する見込みだ。</p>
 ]]></description>
       <pubDate>Wed, 03 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>建物が自らを理解し、LLM+RAGで人と対話する──アラン・チューリング研究所らがNatureに発表、「自己モデル型デジタルツイン」を実証</title>
-      <link>https://ledge.ai/articles/self_model_digital_twin_building_nature</link>
-      <description><![CDATA[<p>英アラン・チューリング研究所とシェフィールド大学、スウォンジー大学の研究チームは2025年8月19日、建物のデジタルツインに「自己モデル」を組み込み、建物が自分自身について理解し、人間と自然言語でやり取りできる仕組みを Nature Scientific Reports に<a href="https://www.nature.com/articles/s41598-025-14347-8">発表</a>した。</p>
-<h2>知的構造物への新たな一歩</h2>
-<p>知的構造物（intelligent structures）の研究は1980年代から続いてきた。従来はセンサーや制御技術を活用し、環境に応じて反応する仕組みが中心だった。今回の研究はそれを超え、建物が「自己モデル（self-model）」を持つことで、自分自身の状態を理解し、記録し、人間と対話できる可能性を示した。</p>
-<h2>小型3階建て建物で実証</h2>
-<p>研究チームは小型3階建ての建物を「物理的ツイン」とし、そのデジタル版を構築した。
-デジタルツインは、CAD、材料特性、有限要素解析（FEA）、数値モデル（ODE）、ベイズ推定を担当する5つのエージェントで構成される。各エージェントの成果は「知識グラフ」に記録され、建物の“記憶”として蓄積される。</p>
-<p><strong>デジタルツインのワークフロー。CADデータから数値モデル、ベイズ推定までをエージェントが担当し、知識グラフに記録される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig1_HTML_bc3e102c0a/41598_2025_14347_Fig1_HTML_bc3e102c0a.webp" alt="41598_2025_14347_Fig1_HTML.webp" /></p>
-<h2>知識グラフと自然言語応答</h2>
-<p>知識グラフはNeo4jで構築され、設計情報や解析結果、センサー記録が時系列で追加される。これにより、建物が「自分の構造や特性」を把握できる仕組みが実現された。</p>
-<p>さらに、ユーザーはウェブブラウザ上のインターフェースから自然言語で質問できる。Retrieval Augmented Generation（RAG）方式により、知識グラフと大規模言語モデル（ChatGPT-4）を組み合わせて応答する。知識グラフ由来の答えは「RAG:」、外部LLM由来の答えは「LLM:」と明示される。</p>
-<p><strong>知識グラフを可視化したUIと、自然言語による質疑応答の例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41598_2025_14347_Fig2_HTML_e188d2c1c5/41598_2025_14347_Fig2_HTML_e188d2c1c5.webp" alt="41598_2025_14347_Fig2_HTML.webp" /></p>
-<h2>意義と今後の展望</h2>
-<p>研究は、建物が「自分自身を理解し、人間とコミュニケーションする」という未来像を示した概念実証だ。研究チームは「小規模な例だが、大規模構造物や都市レベルへの応用も視野に入る」としており、将来的には建物自身が自己診断し、利用者に直接説明する時代が訪れる可能性があるという。</p>
-]]></description>
-      <pubDate>Wed, 03 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
