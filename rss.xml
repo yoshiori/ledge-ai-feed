@@ -296,16 +296,16 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Wed, 03 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>政府、AI政策の司令塔「人工知能戦略本部」を設置──城内科学技術相がAI戦略担当に就任</title>
-      <link>https://ledge.ai/articles/government_ai_strategy_headquarters_established</link>
-      <description><![CDATA[<p>政府は9月1日、内閣に「人工知能戦略本部」を設置したことを<a href="https://www8.cao.go.jp/cstp/stmain/20250901ai.html">発表</a>した。5月に成立した「人工知能関連技術の研究開発及び活用の推進に関する法律（AI推進法）」に基づき、人工知能の研究開発や活用を促進するとともに、フェイクニュースや犯罪への悪用などリスクへの対応も強化する狙いだ。</p>
-<p>同本部は、内閣総理大臣を本部長とし、内閣官房長官と人工知能戦略担当大臣が副本部長、全閣僚が本部員として加わる体制。関係省庁を横断して施策を一元的に推進する司令塔の役割を担う。</p>
-<p>同日付で、科学技術相の城内実氏に「内閣府特命担当大臣（人工知能戦略）」の担務が追加された。城内氏は自身のX（旧Twitter）で、次のように表明した。</p>
-<p>「昨日付で、私の内閣府特命担当大臣の担務に『人工知能戦略』が新たに加わりました。本年5月にAI法が成立し、イノベーションの促進とリスク対応の両立を目的としています。AI戦略を担う大臣としての責任を胸に、世界で最もAIを開発・活用しやすい国を目指し、引き続き尽力してまいります」</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kiuchi_ai_x_5b92ec280d/kiuchi_ai_x_5b92ec280d.jpg" alt="kiuchi ai x.jpg" /></p>
-<p>政府は今後、年内に「AI基本計画」を策定する方針。研究開発支援や産業利用の推進に加え、生成AIによる偽・誤情報の拡散や犯罪利用への対策を議論する見込みだ。</p>
+      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
+      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
+      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
+<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
+<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
+<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
+<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
+<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
 ]]></description>
-      <pubDate>Wed, 03 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Tue, 02 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
@@ -451,6 +451,18 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>政府、AI政策の司令塔「人工知能戦略本部」を設置──城内科学技術相がAI戦略担当に就任</title>
+      <link>https://ledge.ai/articles/government_ai_strategy_headquarters_established</link>
+      <description><![CDATA[<p>政府は9月1日、内閣に「人工知能戦略本部」を設置したことを<a href="https://www8.cao.go.jp/cstp/stmain/20250901ai.html">発表</a>した。5月に成立した「人工知能関連技術の研究開発及び活用の推進に関する法律（AI推進法）」に基づき、人工知能の研究開発や活用を促進するとともに、フェイクニュースや犯罪への悪用などリスクへの対応も強化する狙いだ。</p>
+<p>同本部は、内閣総理大臣を本部長とし、内閣官房長官と人工知能戦略担当大臣が副本部長、全閣僚が本部員として加わる体制。関係省庁を横断して施策を一元的に推進する司令塔の役割を担う。</p>
+<p>同日付で、科学技術相の城内実氏に「内閣府特命担当大臣（人工知能戦略）」の担務が追加された。城内氏は自身のX（旧Twitter）で、次のように表明した。</p>
+<p>「昨日付で、私の内閣府特命担当大臣の担務に『人工知能戦略』が新たに加わりました。本年5月にAI法が成立し、イノベーションの促進とリスク対応の両立を目的としています。AI戦略を担う大臣としての責任を胸に、世界で最もAIを開発・活用しやすい国を目指し、引き続き尽力してまいります」</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kiuchi_ai_x_5b92ec280d/kiuchi_ai_x_5b92ec280d.jpg" alt="kiuchi ai x.jpg" /></p>
+<p>政府は今後、年内に「AI基本計画」を策定する方針。研究開発支援や産業利用の推進に加え、生成AIによる偽・誤情報の拡散や犯罪利用への対策を議論する見込みだ。</p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
       <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
       <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
@@ -479,38 +491,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <h2>今後の影響</h2>
 <p>自動運転バスは深刻化する運転手不足の解決策の一つとして期待されており、東京都内外で実証実験が相次いでいる。青森県むつ市では今回の事故を受け、9月に予定していたテスト走行の延期を決めるなど、影響が広がっているという。</p>
 <p>東京都は「安全性を確保するため、理解いただきたい」と説明しており、今後は事故原因の究明と安全対策の強化が焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ゲーム制作の未来へ　画像と説明文からリアルタイムに3Dワールドを作るAI「Mirage 2」公開——名画や子どものお絵描きの中も探索可能</title>
-      <link>https://ledge.ai/articles/mirage2_ai_3d_world_generation</link>
-      <description><![CDATA[<p>AIスタートアップのDynamics Labは2025年8月22日、新しいAIモデル「Mirage 2」を<a href="https://x.com/DynamicsLab_AI/status/1958592749378445319">公開</a>した。1枚の画像と説明文から、名画や子どものお絵描きの中までも探索できる3D世界をリアルタイムに生成できる。同社はこのモデルを「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にはゲーム制作への活用を視野に入れている。</p>
-<p>開発を担うのは、Google、NVIDIA、Amazon、SEGA、Apple、Microsoft、カーネギーメロン大学、UCサンディエゴなどの出身者で構成された少数精鋭のチームで、研究者、エンジニア、デザイナーといった技術と創造性を兼ね備えた人材が集まっているという。</p>
-<p>現在、Mirage 2はブラウザ上で公開されており、誰でも実際に操作して探索できるデモが提供されている。</p>
-<h2>Mirage 2の特徴</h2>
-<p>Mirage 2は、従来の画像生成AIを拡張し、入力データをもとに「歩ける空間」を作り出せる点に特徴がある。</p>
-<ul>
-<li>入力は1枚の画像とテキスト説明文</li>
-<li>数秒で3D空間を構築し、移動・ジャンプ・攻撃といったアクションが可能</li>
-<li>テキストコマンドによりワールドをリアルタイムで編集できる</li>
-<li>生成空間はリンク共有により他者と体験可能</li>
-</ul>
-<p>この仕組みを同社は「Generative Play（生成的プレイ）」と呼び、プレイヤーとAIが共同で体験を創造する新しい形態のインタラクティブ体験としている。</p>
-<h2>Mirage 2による生成例</h2>
-<p><strong>■ 1枚の入力画像（左）から、サイバーパンク都市をはじめ、熱帯雨林や秋の山頂の城など多様な3D空間が連続して生成された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_0de4684b0e/mirage2_0de4684b0e.jpg" alt="mirage2.jpg" /></p>
-<p><strong>■ 子どものお絵描き（左）をもとに、カラフルな街を歩き回れる3D空間へと変換した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_kids_drawing_f6ff7bd48f/mirage2_kids_drawing_f6ff7bd48f.jpg" alt="mirage2 kids drawing.jpg" /></p>
-<p><strong>■ ジブリ風の村のイラスト（左）をもとに、草花が揺れるファンタジー風の村を歩き回れる3D空間が構築された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_ghibli_style_2229709b5e/mirage2_ghibli_style_2229709b5e.jpg" alt="mirage2 ghibli style.jpg" /></p>
-<h2>Genie 3との比較</h2>
-<p>Mirage 2は、Google DeepMindが発表した「Genie 3」と同じく、生成AIによってリアルタイムに探索可能な3D世界を生成する技術だが、いくつかの点で異なる。特にMirage 2は「実際にブラウザ上で誰でも試遊できる」点が大きな特徴となっている。</p>
-<p><strong>Genie 3とMirage 2の比較。Mirage 2は200msの低遅延で動作し、一般的なGPU環境でもプレイ可能。ブラウザで公開されている点が大きな違いとなる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/genie3_and_mirage_7bfbf41a67/genie3_and_mirage_7bfbf41a67.jpg" alt="genie3 and mirage.jpg" /></p>
-<h2>今後の展望</h2>
-<p>Dynamics LabはMirage 2を「AIネイティブゲームエンジン」「世界生成エンジン」と位置づけ、将来的にゲーム制作での活用を視野に入れている。創設メンバーのZhiting Hu氏はXにて「Super excited to launch Mirage 2. A big leap toward a general-purpose world engine for live interactive play」と投稿し、Mirage 2を「ライブインタラクティブなプレイのための汎用ワールドエンジン」への大きな前進と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mirage2_zhiting_hu_81ba446989/mirage2_zhiting_hu_81ba446989.jpg" alt="mirage2 zhiting hu.jpg" /></p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -556,18 +536,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
-      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
-      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
-<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
-<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
-<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
-<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
-<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
-]]></description>
-      <pubDate>Wed, 27 Aug 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
