@@ -28,7 +28,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <title>ビジネス2025/9/7 [SUN]OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
       <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
       <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
 <h2>AI普及と雇用への影響</h2>
@@ -152,7 +152,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Fri, 05 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>16歳自殺訴訟を受け、数日で対応強化──OpenAI、ChatGPTにペアレンタルコントロール導入へ</title>
+      <title>ビジネス2025/9/5 [FRI]16歳自殺訴訟を受け、数日で対応強化──OpenAI、ChatGPTにペアレンタルコントロール導入へ</title>
       <link>https://ledge.ai/articles/openai_chatgpt_parental_controls_lawsuit_response</link>
       <description><![CDATA[<p>OpenAIは米国時間の2025年9月2日、ChatGPTに新たなペアレンタルコントロール機能を導入すると<a href="https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone/">発表</a>した。カリフォルニア在住の16歳少年の自殺をめぐり、両親が8月26日に同社を提訴した件を受けた対応強化の一環で、数週間以内に利用可能となる見通しだ。</p>
 <p>今回の機能では、保護者が自身のアカウントに子どもの利用をリンクでき、チャット履歴やメモリ機能といった一部の機能を制御できるようになる。さらに、AIが子どもの会話から深刻な心理的苦痛を検出した場合、保護者にリアルタイムで通知する仕組みも盛り込まれる。年齢に応じた応答ルールを設定することで、未成年にふさわしい形での利用を実現する。</p>
@@ -188,7 +188,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/9/4 [THU]スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
+      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
       <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
       <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
 <p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
@@ -563,22 +563,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/9/1 [MON]Microsoft、内製の基盤モデル「MAI-1-preview」とMAIファミリー初の自社音声モデル「MAI-Voice-1 AI」を発表──OpenAIとの関係はどうなる？</title>
-      <link>https://ledge.ai/articles/microsoft_announces_mai_voice1_and_mai1_preview</link>
-      <description><![CDATA[<p>Microsoftは2025年8月28日（米国時間）、自社開発のAIモデル群「MAIファミリー」から、初の音声生成モデル「MAI-Voice-1 AI」とテキスト基盤モデル「MAI-1-preview」を<a href="https://microsoft.ai/news/two-new-in-house-models/">発表</a>した。両モデルはすでに一部のCopilotサービスに組み込まれており、今後さらに展開が広がる予定だ。今回の発表は、同社がこれまで依存してきたOpenAIの技術から独自路線を強化しているのではないかとの見方も呼んでいる。</p>
-<h2>音声モデル「MAI-Voice-1 AI」</h2>
-<p>MAI-Voice-1 AIは、Microsoftが独自に開発した初の音声生成モデルである。1基のGPUで1分間の音声を1秒未満で生成できる高速性能を備え、自然で表現豊かな音声を生み出すことが可能だ。既に「Copilot Daily」や「Copilot Podcasts」といったサービスに導入されており、ユーザー向けに音声体験の拡充が始まっている。</p>
-<h2>テキスト基盤モデル「MAI-1-preview」</h2>
-<p>同時に発表されたMAI-1-previewは、Microsoft初となる大規模エンド・ツー・エンドの基盤モデルである。15,000台のNVIDIA H100 GPUを用いて訓練されており、テキスト生成をはじめとする幅広い応用を想定。現在はAI性能評価サイト「LMArena」で一般公開テストが進められており、近く「Microsoft Copilot」への導入が予定されている。</p>
-<h2>Copilotへの段階的展開</h2>
-<p>両モデルはいずれも消費者向け利用を意識して設計されており、今後はCopilot全体に段階的に統合されていく見込みだ。Microsoftはユーザー体験の向上を目的に、自社モデルを積極的に活用する姿勢を明確にしている。</p>
-<h2>OpenAI依存からの脱却か</h2>
-<p>Microsoftはこれまで、GPTシリーズを提供するOpenAIとの緊密な提携を軸にAIサービスを展開してきた。投資額は130億ドルを超え、CopilotやAzureなど主要製品においてOpenAIの技術が中心的役割を担ってきた経緯がある。しかし、利用コストや応答速度の課題が指摘される中で、自社モデルの強化に踏み出した。</p>
-<p>米Windows Centralは「MicrosoftがOpenAI依存からの脱却に向けた第一歩を示した」と報じ、The Vergeも「複雑化する両社関係の中で、自社や他社モデルを組み合わせた柔軟な戦略を模索している」と指摘している。</p>
-]]></description>
-      <pubDate>Mon, 01 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
