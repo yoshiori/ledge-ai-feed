@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
+      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
+<h2>AI普及と雇用への影響</h2>
+<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
+<h2>Jobs Platformの概要</h2>
+<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
+<h2>OpenAI Certificationsの仕組み</h2>
+<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
+<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
+<h2>提携先と今後の展望</h2>
+<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
+<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、製品実験プラットフォームStatsigを買収──創業者Raji氏がApplications部門CTOに就任</title>
       <link>https://ledge.ai/articles/openai_acquires_statsig_applications_cto_raji</link>
       <description><![CDATA[<p>OpenAIは2025年9月2日、製品実験プラットフォームを提供する米スタートアップのStatsigを買収すると<a href="https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/">発表</a>した。取引の詳細は非公開だが、Statsigの創業者兼CEOであるVijaye Raji（ヴィジャイ・ラジ）氏が、OpenAIの「CTO of Applications」に就任する。今後はChatGPTを含むアプリケーション開発の統括を担う。</p>
@@ -523,32 +540,6 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nous Research、ハイブリッド推論搭載のオープンソースAIモデル「Hermes 4」を発表──ChatGPTに比べ制約が少なく推論性能も上回ると主張</title>
-      <link>https://ledge.ai/articles/nous_research_releases_hermes4_open_source_ai</link>
-      <description><![CDATA[<p>米Nous Researchは2025年8月28日、オープンソースAIモデル「Hermes 4」ファミリーを<a href="https://hermes4.nousresearch.com/?_gl=1*1r6exol*_ga*MTc0NTk1MTgyNC4xNzU2Njk5Mjcw*_ga_4KWYPJ8SPY*czE3NTY2OTkyNzAkbzEkZzEkdDE3NTY2OTkyNzgkajUyJGwwJGgw">発表</a>した。最新の技術レポートと公式リリースによると、Llama 3.1を基盤とした複数サイズ（14B／70B／405B）のモデルを公開し、ハイブリッド推論機構を搭載している。研究チームは、数学ベンチマークでChatGPTを上回る性能を示したと説明している。</p>
-<h2>発表の概要</h2>
-<p>Nous Researchは公式リリースページおよび技術レポートを通じて、Hermes 4ファミリーの公開を発表した。14B、70B、405Bの3種類が用意され、いずれもオープンソース（オープンウェイト）として利用可能となっている。</p>
-<h2>モデルの特徴</h2>
-<p>Hermes 4は、MetaのLlama 3.1を基盤とし、推論能力を拡張するハイブリッド推論を採用している。特殊タグ \u003Cthink\u003E…\u003C/think\u003E を利用して推論プロセスを制御できるほか、JSONなど構造化出力を柔軟に生成可能とされる。</p>
-<h2>性能評価</h2>
-<p>技術レポートによれば、Hermes 4は数学関連のベンチマーク（MATH-500、AIME’24、AIME’25など）で高いスコアを記録し、一部ではChatGPTを上回る結果を示した。さらに、コード生成の評価（LiveCodeBenchやrSTAR-Coder）でも優れた性能を発揮。知識・読解ベンチマーク（GPQA Diamond）やアライメント評価（EQBench）にも対応し、幅広い領域で安定した成果を示している。</p>
-<p><strong>Hermes 4は数学推論やロジック・コード、創作系で他のOSSモデルを上回る精度を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hermes4_oss_models_e7451e65dc/hermes4_oss_models_e7451e65dc.jpg" alt="hermes4 oss models.jpg" /></p>
-<p>また、独自に設計されたRefusalBench（拒否率の評価）では、Hermes 4は低い拒否率を示し、ユーザーの指示に柔軟に応答できる点が強調されている。米VentureBeatも補足として、この点を「ChatGPTに比べ制約が少ない」と伝えている。</p>
-<p><strong>RefusalBenchにおける比較。Hermes 4は拒否率の低さで他のOSSモデルや一部商用モデルを大きく上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hermes4_bench_c091a5d122/hermes4_bench_c091a5d122.jpg" alt="hermes4 bench.jpg" /></p>
-<h2>学習とデータ</h2>
-<p>モデルの学習には、データフレームワーク「DataForge」とデータ選別技術「Atropos」が用いられた。これにより、効率的な学習とバイアス制御、安全性への配慮が図られている。最終的なデータ規模は約500万サンプル・190億トークンに達した。</p>
-<h2>技術的な工夫とトレードオフ</h2>
-<ul>
-<li>長さ制御ファインチューニングにより、過剰に長い出力の発生率を最大48.8%削減。</li>
-<li>一方で、一部の推論ベンチマークでは最大12.7%の性能低下が見られるなど、トレードオフも報告されている。</li>
-<li>LiveCodeBenchでは制御トレーニングにより18%スコア向上するケースも確認され、工夫次第で性能改善の余地があることが示された。</li>
-</ul>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/1 [MON]Microsoft、内製の基盤モデル「MAI-1-preview」とMAIファミリー初の自社音声モデル「MAI-Voice-1 AI」を発表──OpenAIとの関係はどうなる？</title>
