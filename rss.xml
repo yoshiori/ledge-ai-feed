@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
       <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
       <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
