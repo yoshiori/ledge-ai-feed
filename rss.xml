@@ -95,23 +95,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/7 [SUN]OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
-      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
-      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
-<h2>AI普及と雇用への影響</h2>
-<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
-<h2>Jobs Platformの概要</h2>
-<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
-<h2>OpenAI Certificationsの仕組み</h2>
-<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
-<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
-<h2>提携先と今後の展望</h2>
-<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
-<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
-]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、製品実験プラットフォームStatsigを買収──創業者Raji氏がApplications部門CTOに就任</title>
       <link>https://ledge.ai/articles/openai_acquires_statsig_applications_cto_raji</link>
       <description><![CDATA[<p>OpenAIは2025年9月2日、製品実験プラットフォームを提供する米スタートアップのStatsigを買収すると<a href="https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/">発表</a>した。取引の詳細は非公開だが、Statsigの創業者兼CEOであるVijaye Raji（ヴィジャイ・ラジ）氏が、OpenAIの「CTO of Applications」に就任する。今後はChatGPTを含むアプリケーション開発の統括を担う。</p>
@@ -255,34 +238,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
-      <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
-      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
-<p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stanford_digital_economy_lab_e7d01c86ae/stanford_digital_economy_lab_e7d01c86ae.jpg" alt="stanford digital economy lab.jpg" /></p>
-<h2>スタンフォード大が示した「6つの事実」</h2>
-<p>研究チーム（エリック・ブリニョルフソン氏、ジグナシュ・チャンダル氏、ダニエル・チェン氏）は、2022年末から2025年7月までのADP高頻度給与データを用い、職種ごとのAI曝露度と雇用動向を分析。その結果を「6つの事実」として整理した。</p>
-<h3>① 若手雇用の顕著な減少</h3>
-<p>AIに最も曝露された職種、たとえばソフトウェア開発やカスタマーサポートなどでは、22〜25歳の雇用が平均で13％減少していた。研究チームは、この層がキャリアの早い段階にあり、主に定型的・マニュアル的な作業を担うことが多いため、AIによる自動化の影響を直接受けやすいと説明している。初期キャリアの雇用減は将来的なスキル蓄積やキャリア形成にも影響し得るため、社会的な含意は大きい。</p>
-<h3>② 中堅層の安定</h3>
-<p>同じ職種であっても、30代以降の労働者については雇用の変動が小さく、比較的安定していることが確認された。これは、一定の経験や専門性を積んだ中堅層が、AIと協働しながら業務を進められる立場にあることが理由とみられる。つまり、AIが即座に代替するのではなく、人間がAIを活用して付加価値を生み出す局面が増えているという。</p>
-<h3>③ ベテラン層の成長傾向</h3>
-<p>特に40代以上のベテラン層では、むしろ雇用が増加している職種も見られた。研究は、長年の経験から得られる「暗黙知」や現場の判断力はAIで代替できず、AIを補完的に活用することで生産性が高まり、雇用維持どころか拡大につながる場合があると指摘する。若手とは対照的に、ベテランはAIを味方につける形で市場価値を高めている構図が浮かび上がった。</p>
-<h3>④ 賃金ではなく雇用数への影響</h3>
-<p>AI導入によって顕著に減少しているのは「採用される人数」であり、賃金水準そのものには大きな変化は見られない。つまり、給与が下がるのではなく、そもそも新たに雇われる若手の数が減っているという。この「ヘッドカウントの削減」という動きは統計的にも明らかで、企業がAIを活用することで若手人材の需要を抑制していることを示している。</p>
-<h3>⑤ 自動化用途での雇用減</h3>
-<p>雇用への影響は、AIを「自動化のために導入するか」「人間の補助に使うか」で大きく分かれる。完全にAIに置き換える形で導入したケースでは若手雇用の減少が顕著だが、意思決定支援や作業補助といった「拡張（augmentation）」用途では、むしろ人材が維持されるか増える傾向がある。研究は、この違いを明確に示し、AIの使い方次第で雇用効果が大きく変わることを強調している。</p>
-<h3>⑥ 他要因では説明困難</h3>
-<p>テクノロジー業界に特有の景気循環や、コロナ禍以降のリモートワーク普及といった別の要因では、この世代間の差を説明できなかった。統計モデルを調整しても若手層の雇用減少が残ることから、研究チームはAIの影響が主要因である可能性が高いと結論づけている。つまり、この傾向は一過性の景気要因ではなく、AIが労働市場に構造的な変化をもたらしつつあることを裏付ける結果だといえる。</p>
-<h2>世代間コントラスト──若手とベテランで異なる影響</h2>
-<p>研究は、AIが「教科書的知識（codified knowledge）」に依存する業務を代替しやすく、経験に基づく「暗黙知（tacit knowledge）」を要する業務は代替が難しいと指摘。
-そのため暗黙知の蓄積が乏しい若手は雇用リスクが高まり、経験を重ねたベテランはむしろAIの補完によって需要が高まるという世代間コントラストが浮かび上がった。</p>
-<h2>社会的意義と政策的含意</h2>
-<p>こうした傾向は「静かな侵蝕（quiet erosion）」とも呼ばれ、若手のキャリア形成機会が削がれる懸念がある。研究チームは、教育制度の刷新、リスキリングの推進、企業による採用や育成方針の見直しなどが必要になると指摘。炭鉱のカナリアにたとえられる今回の兆候は、今後さらに幅広い職種や世代に影響が及ぶ可能性を示唆している。</p>
-]]></description>
-      <pubDate>Thu, 04 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Cloudflare、AI関連トラフィックを分析──「クロールとクリックのギャップ」に関するデータを公開</title>
       <link>https://ledge.ai/articles/cloudflare_ai_traffic_crawl_to_click_gap</link>
       <description><![CDATA[<p>米Cloudflareは2025年8月29日、AI関連のインターネットトラフィックに関する分析結果を<a href="https://blog.cloudflare.com/crawlers-click-ai-bots-training/">公開</a>した。同社は「The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals」と題したブログ記事で、AIボットによる膨大なWebクロールと、実際のクリックや利用につながるトラフィックの間に大きな乖離があることを明らかにした。</p>
@@ -333,22 +288,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Thu, 04 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
-      <link>https://ledge.ai/articles/figurobot_desktop_humanoid_nia_f01</link>
-      <description><![CDATA[<p>中国のAIスタートアップ「霊童（FIGUROBOT）」は、人型デスクトップロボット「念 NIA-F01」を<a href="https://www.figurobot.com/productDetails">発表</a>し、公式サイトで予約受付を開始したことを2025年9月1日に中国のテックメディアである<a href="https://36kr.jp/370461/">36Kr</a>が報じている。価格は9999元（約20万円）で、初回生産分は2025年末の納品を予定しているという。</p>
-<h2>感情を学習する“ソウルメイト”設計</h2>
-<p>公式ページによると、「念 NIA-F01」には高度なAI大モデルが搭載されており、日常的な対話を通じてユーザーの言語習慣や感情パターンを学習する。これにより、ユーザーに寄り添う“専属のソウルメイト”として成長していく設計思想が示されている。</p>
-<h2>デスクに置けるサイズ感と高精度な動作</h2>
-<p>同社は「念 NIA-F01」は人間の3分の1の大きさで、AIを具現化したロボットであると謳う。身長56cm、重量1.2kg未満と机上に置けるサイズ。内部には35個の超小型デジタルサーボモーターを備え、球体関節（BJD）に似た構造で滑らかな動きを実現する。カメラやマイクで周囲を認識し、声色や表情から感情を読み取り、最適な反応を返すことが可能だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/letme_Peiban_CR_Ocbw3x_1_fe7633f207/letme_Peiban_CR_Ocbw3x_1_fe7633f207.jpg" alt="letmePeiban-CROcbw3x (1).jpg" /></p>
-<h2>カスタマイズ性とキャラクター性</h2>
-<p>交換可能な顔パーツやウィッグ、衣装などが用意され、ユーザーは自由に外見をカスタマイズできる。さらに、自作パーツを取り付けることも可能で、個々の趣味に応じたオリジナルのキャラクターを作り上げられる。人格データやシナリオを設定して行動を模倣させる機能もあり、コミュニティを通じた共有も想定されている。</p>
-<h2>日本・韓国市場も視野に</h2>
-<p>FIGUROBOTは今後、日本や韓国といった二次元カルチャーの盛んな市場への展開も見込んでいる。ブランドメッセージとして「愛」「笑い」「無限の個性」を掲げ、AIロボットをファン層に訴求する狙いだ。</p>
-]]></description>
-      <pubDate>Wed, 03 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
       <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
       <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
@@ -361,28 +300,18 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Tue, 02 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>デジタル庁、生成AI環境「源内」の3か月実績を公表──職員の8割が利用、1人平均70回</title>
-      <link>https://ledge.ai/articles/digital_agency_gennai_ai_usage_report_3months</link>
-      <description><![CDATA[<p>デジタル庁は2025年8月29日、同庁が5月から運用を開始した生成AI利用環境「源内（げんない）」の3か月間の利用実績を<a href="https://www.digital.go.jp/news/08ded405-ca03-48c7-9b92-6b8878854a74">公表</a>した。全職員約1,200人のうち約950人（8割）が利用し、延べ6万5,000回以上の利用があった。職員1人あたりの平均利用回数は70回にのぼり、行政業務でのAI活用が着実に定着しつつあることが示された。</p>
-<p>少子高齢化による担い手不足が深刻化する中、行政サービスの維持・強化にはAIの積極的な活用が不可欠とされる。デジタル庁は「ガバメントAI」構想の一環として、職員が業務で利用可能な生成AI環境を内製開発し、2025年5月から「源内」として提供を開始した。</p>
-<h2>「源内」の概要</h2>
-<p>源内は、デジタル庁専用ポータルからシングルサインオンで利用可能な仕組み。
-提供アプリは「チャット」「文章生成」「要約」「校正」「翻訳」などの汎用機能に加え、国会答弁検索AIや法制度調査支援AI、公用文チェッカーAIなど20種類の行政実務特化型AIを備える。利用可能な基盤モデルは、AWS「Nova Lite」、Anthropic「Claude3 Haiku」および「Claude3.5 Sonnet」の3種類（2025年8月時点）。</p>
-<h2>利用実績</h2>
-<p>5月から7月の3か月間で、全職員約1,200人のうち約950人が源内を利用。延べ利用回数は6万5,000回を超え、職員1人あたり平均70回となった。
-ユースケース別では、チャット型AIが最多利用となり、次いで文章生成、要約、校正、画像生成、翻訳といった汎用アプリが続いた。行政特化型アプリも併用され、幅広い業務にAIが導入されていることが分かった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai_monitoring_791e91ff6a/gennnai_monitoring_791e91ff6a.jpg" alt="gennnai monitoring.jpg" /></p>
-<h2>利用傾向と課題</h2>
-<p>利用状況には二極化がみられた。150人以上が3か月で100回以上利用した一方、170人は5回未満にとどまった。
-職制別では、若手職員や民間専門人材は積極的に活用する傾向があるが、課長級の半数は利用実績がなかった。AI利用が業務習慣に根付く一方で、職位や職務内容による活用度の差が明らかとなった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai4_down_64d7cce387/gennnai4_down_64d7cce387.jpg" alt="gennnai4-down.jpg" /></p>
-<h2>アンケート結果</h2>
-<p>職員アンケート（回答110人）では、「業務効率化に寄与している」との回答が約8割を占め、満足度は5点満点中平均4.2点。具体的な効果として、議事録作成の時短、翻訳や校正の効率化、法令調査の迅速化などが挙げられた。
-一方で、最新モデルの導入、ファイル翻訳やマルチモーダル対応、出典明示機能の改善などの要望も多く寄せられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gennnai6_down_4894defb15/gennnai6_down_4894defb15.jpg" alt="gennnai6-down.jpg" /></p>
-<h2>今後の展開</h2>
-<p>デジタル庁は8月に全省庁向けの説明会を実施済み。2026年1月以降は一部省庁と連携し「源内」の展開（リリース1.0）を検証する予定だ。さらに地方公共団体や民間事業者との連携を進め、官民一体のAIエコシステム形成を目指すとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=jPrFc6aed-Q&amp;t=7s">YouTube</a></p>
+      <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
+      <link>https://ledge.ai/articles/figurobot_desktop_humanoid_nia_f01</link>
+      <description><![CDATA[<p>中国のAIスタートアップ「霊童（FIGUROBOT）」は、人型デスクトップロボット「念 NIA-F01」を<a href="https://www.figurobot.com/productDetails">発表</a>し、公式サイトで予約受付を開始したことを2025年9月1日に中国のテックメディアである<a href="https://36kr.jp/370461/">36Kr</a>が報じている。価格は9999元（約20万円）で、初回生産分は2025年末の納品を予定しているという。</p>
+<h2>感情を学習する“ソウルメイト”設計</h2>
+<p>公式ページによると、「念 NIA-F01」には高度なAI大モデルが搭載されており、日常的な対話を通じてユーザーの言語習慣や感情パターンを学習する。これにより、ユーザーに寄り添う“専属のソウルメイト”として成長していく設計思想が示されている。</p>
+<h2>デスクに置けるサイズ感と高精度な動作</h2>
+<p>同社は「念 NIA-F01」は人間の3分の1の大きさで、AIを具現化したロボットであると謳う。身長56cm、重量1.2kg未満と机上に置けるサイズ。内部には35個の超小型デジタルサーボモーターを備え、球体関節（BJD）に似た構造で滑らかな動きを実現する。カメラやマイクで周囲を認識し、声色や表情から感情を読み取り、最適な反応を返すことが可能だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/letme_Peiban_CR_Ocbw3x_1_fe7633f207/letme_Peiban_CR_Ocbw3x_1_fe7633f207.jpg" alt="letmePeiban-CROcbw3x (1).jpg" /></p>
+<h2>カスタマイズ性とキャラクター性</h2>
+<p>交換可能な顔パーツやウィッグ、衣装などが用意され、ユーザーは自由に外見をカスタマイズできる。さらに、自作パーツを取り付けることも可能で、個々の趣味に応じたオリジナルのキャラクターを作り上げられる。人格データやシナリオを設定して行動を模倣させる機能もあり、コミュニティを通じた共有も想定されている。</p>
+<h2>日本・韓国市場も視野に</h2>
+<p>FIGUROBOTは今後、日本や韓国といった二次元カルチャーの盛んな市場への展開も見込んでいる。ブランドメッセージとして「愛」「笑い」「無限の個性」を掲げ、AIロボットをファン層に訴求する狙いだ。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -447,46 +376,6 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <p>:::button
 <a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
 :::</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Googleの中のひとがAIで仕事をスマートにする14の方法　Gemini、NotebookLM、Imagen、Veoをどう使うか？</title>
-      <link>https://ledge.ai/articles/google_ai_14_usecases</link>
-      <description><![CDATA[<p>Googleは2025年8月18日（現地時間）、社内で従業員がどのようにAIを活用しているかについて、<a href="https://blog.google/technology/ai/google-ai-workplace-examples/">14の具体例を紹介</a>した。公開された事例は、エンジニアリングに限らず、営業やマーケティング、人事、総務といった幅広い職種に及ぶ。GeminiやNotebookLM、Imagen、Veoなど自社の生成AIを用いた実践例を示し、日常業務の効率化と創造性の拡張を裏付けた。</p>
-<h2>紹介された14の実例</h2>
-<h3>1. コードを書く時間を短縮</h3>
-<p>Geminiが新規コードの30%を自動生成。エンジニアはレビューや設計に集中できるようになった。</p>
-<h3>2. 開発スピード全体が加速</h3>
-<p>テストやレビューの一部をAIが補助し、開発チーム全体の速度は約10%向上。</p>
-<h3>3. バグ対応をAIが下支え</h3>
-<p>AIが重複バグの12%を自動処理し、重要度の高い課題に人が集中。</p>
-<h3>4. マーケティングの発想支援</h3>
-<p>Geminiがキャンペーン案や動画台本のたたき台を提示し、ゼロから考える負担を軽減させている。
-同社マーケティングチームは、Googleのマーケティングスタイルとベストプラクティスを反映したアイデアのブレインストーミングにGeminiを活用。キャンペーンのコンセプトからYouTube動画の脚本の下書きまで、あらゆるアイデアを生み出すための最適なプロンプトを提供するという。</p>
-<h3>5. YouTube向けのキャッチーなコンテンツ作成を効率化</h3>
-<p>ポッドキャストから名言やタイムスタンプを自動抽出し、YouTube Insider向けのより魅力的なタイトルやサムネイル文言もAIが提案。</p>
-<h3>6. イベント資料の大量制作もAIで</h3>
-<p>Google I/O 2025の基調講演では219枚のスライド作成をAIが支援。ビジュアルの48%、動画の80%をImagenやVeoで生成。</p>
-<p>@<a href="https://youtu.be/x_x-JAAKSvU?si=6zPHWf1vCK8mSqGl">YouTube</a></p>
-<h3>7. 企画のアイデア検証</h3>
-<p>Google DeepMindはAIツールを活用して新しいアイデアをテストする。GeminiやVeoを使い、動画のモックアップや表現案を即時に試作。</p>
-<h3>8. 営業提案の数が増える</h3>
-<p>AIがRFP対応を支援。Google Cloudでは完了件数が前年比78%増となった。</p>
-<h3>9. 見込み顧客の質を高める</h3>
-<p>AIによるフィルタリングで良質な案件に集中。6週間で案件転換率が14%増加。</p>
-<h3>10. 会議メモを自動生成</h3>
-<p>Google Meetがリアルタイムで文字起こしと要約を提供。2025年6月の利用者は5,000万人を超えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/googlemeet_memo_7fc3610183/googlemeet_memo_7fc3610183.jpg" alt="googlemeet memo.jpg" /></p>
-<h3>11. 安全対策の強化</h3>
-<p>Trust &amp; SafetyチームがAIで違反コンテンツを検出。ポリシーに違反する可能性のあるコンテンツの検出とフラグ付けをAIが支援。この負荷軽減は、2024年だけで10億件超を人間が手動でレビューしていた同チームにとって、重要なメリットとなる。</p>
-<h3>12. 社員アンケートを一瞬で要約</h3>
-<p>NotebookLMが数千件のフィードバックを即時整理。課題把握のスピードが大幅に向上。</p>
-<h3>13. 採用業務を効率化</h3>
-<p>人事チームは、採用プロセスの一環としてAIを活用。候補者検索やマッチングをAIが補助し、採用担当者の事務作業を削減。採用プロセスは常にリクルーターが主導している。</p>
-<h3>14. 社内カフェでフードロス削減</h3>
-<p>シェフはAIによる分析データを活用し、カフェのメニューを最適化。カフェでの廃棄物の予防的削減、各キャンパスのニーズに合わせたソリューションの提供に取り組む。食品廃棄量は2019年比39%減（2024年実績）。</p>
-<p>Googleは「AIはごく一部の人のための特別なものではなく、全社員が日常的に使う標準的なツールになりつつある」と説明している。今回紹介した14の事例は、その姿を具体的に示したものだ。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -569,24 +458,47 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Perplexity、出版社への収益分配を発表──ニュース利用で80%還元する新サブスク「Comet Plus」を2025年秋に開始</title>
-      <link>https://ledge.ai/articles/perplexity_comet_plus_publisher_revenue_share_2025</link>
-      <description><![CDATA[<p>AI検索サービスを手がける米Perplexityは2025年8月25日（米国時間）、出版社や報道機関に収益を還元する新しいサブスクリプションサービス「Comet Plus」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-comet-plus">発表</a>した。同サービスは2025年秋に開始され、購読収益の80%を出版社に分配する仕組みを導入するという。</p>
-<h2>著作権をめぐる対立と訴訟</h2>
-<p>Perplexityは、記事の無断利用や著作権侵害の懸念から複数の訴訟に直面している。日本では「日本経済新聞」「朝日新聞」「読売新聞」など大手紙が、米国でも有力出版社が同社を相手取り法的措置を進めている。こうした状況を受け、ジャーナリズムとAIの共存を模索する動きの一環として収益分配モデルを導入した。</p>
-<h2>新サービス「Comet Plus」の概要</h2>
-<p>Comet Plusは月額5ドルの有料サブスクリプションとして提供される。利用者が記事を閲覧したり、検索結果で引用されたり、あるいはAIエージェントが記事を利用した場合、その収益の80%が出版社に還元され、残り20%はPerplexityが計算コストなどに充てる。</p>
-<p><a href="https://www.wsj.com/business/media/perplexity-ai-search-publisher-revenue-507987e5">Wall Street Journal</a>によれば、初期基金として4,250万ドル（約62億円）が確保され、サービス開始時点から出版社への支払いが可能となる体制を整えているとのこと。</p>
-<h2>収益分配の仕組み</h2>
-<p>Comet Plusにおける分配は次の3つのトラフィック形式に基づく：</p>
-<ul>
-<li>ユーザーによる記事の直接閲覧</li>
-<li>検索結果に表示された記事引用の利用</li>
-<li>AIエージェントによる記事の参照や活用</li>
-</ul>
-<p>これにより、従来曖昧だった記事利用の経済的価値を可視化し、出版社に還元することを狙う。</p>
-<h2>今後の展望</h2>
-<p>同様の取り組みは、OpenAIやGoogleなど他の大手AI企業でも始まりつつある。AIとニュースメディアの関係を再構築する試みとして、Perplexityの新モデルは業界全体に大きな影響を与える可能性がある。今後、出版社との契約形態や分配の実効性が注目される。</p>
+      <title>ビジネス2025/9/7 [SUN]OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
+      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
+<h2>AI普及と雇用への影響</h2>
+<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
+<h2>Jobs Platformの概要</h2>
+<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
+<h2>OpenAI Certificationsの仕組み</h2>
+<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
+<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
+<h2>提携先と今後の展望</h2>
+<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
+<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
+      <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
+      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
+<p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stanford_digital_economy_lab_e7d01c86ae/stanford_digital_economy_lab_e7d01c86ae.jpg" alt="stanford digital economy lab.jpg" /></p>
+<h2>スタンフォード大が示した「6つの事実」</h2>
+<p>研究チーム（エリック・ブリニョルフソン氏、ジグナシュ・チャンダル氏、ダニエル・チェン氏）は、2022年末から2025年7月までのADP高頻度給与データを用い、職種ごとのAI曝露度と雇用動向を分析。その結果を「6つの事実」として整理した。</p>
+<h3>① 若手雇用の顕著な減少</h3>
+<p>AIに最も曝露された職種、たとえばソフトウェア開発やカスタマーサポートなどでは、22〜25歳の雇用が平均で13％減少していた。研究チームは、この層がキャリアの早い段階にあり、主に定型的・マニュアル的な作業を担うことが多いため、AIによる自動化の影響を直接受けやすいと説明している。初期キャリアの雇用減は将来的なスキル蓄積やキャリア形成にも影響し得るため、社会的な含意は大きい。</p>
+<h3>② 中堅層の安定</h3>
+<p>同じ職種であっても、30代以降の労働者については雇用の変動が小さく、比較的安定していることが確認された。これは、一定の経験や専門性を積んだ中堅層が、AIと協働しながら業務を進められる立場にあることが理由とみられる。つまり、AIが即座に代替するのではなく、人間がAIを活用して付加価値を生み出す局面が増えているという。</p>
+<h3>③ ベテラン層の成長傾向</h3>
+<p>特に40代以上のベテラン層では、むしろ雇用が増加している職種も見られた。研究は、長年の経験から得られる「暗黙知」や現場の判断力はAIで代替できず、AIを補完的に活用することで生産性が高まり、雇用維持どころか拡大につながる場合があると指摘する。若手とは対照的に、ベテランはAIを味方につける形で市場価値を高めている構図が浮かび上がった。</p>
+<h3>④ 賃金ではなく雇用数への影響</h3>
+<p>AI導入によって顕著に減少しているのは「採用される人数」であり、賃金水準そのものには大きな変化は見られない。つまり、給与が下がるのではなく、そもそも新たに雇われる若手の数が減っているという。この「ヘッドカウントの削減」という動きは統計的にも明らかで、企業がAIを活用することで若手人材の需要を抑制していることを示している。</p>
+<h3>⑤ 自動化用途での雇用減</h3>
+<p>雇用への影響は、AIを「自動化のために導入するか」「人間の補助に使うか」で大きく分かれる。完全にAIに置き換える形で導入したケースでは若手雇用の減少が顕著だが、意思決定支援や作業補助といった「拡張（augmentation）」用途では、むしろ人材が維持されるか増える傾向がある。研究は、この違いを明確に示し、AIの使い方次第で雇用効果が大きく変わることを強調している。</p>
+<h3>⑥ 他要因では説明困難</h3>
+<p>テクノロジー業界に特有の景気循環や、コロナ禍以降のリモートワーク普及といった別の要因では、この世代間の差を説明できなかった。統計モデルを調整しても若手層の雇用減少が残ることから、研究チームはAIの影響が主要因である可能性が高いと結論づけている。つまり、この傾向は一過性の景気要因ではなく、AIが労働市場に構造的な変化をもたらしつつあることを裏付ける結果だといえる。</p>
+<h2>世代間コントラスト──若手とベテランで異なる影響</h2>
+<p>研究は、AIが「教科書的知識（codified knowledge）」に依存する業務を代替しやすく、経験に基づく「暗黙知（tacit knowledge）」を要する業務は代替が難しいと指摘。
+そのため暗黙知の蓄積が乏しい若手は雇用リスクが高まり、経験を重ねたベテランはむしろAIの補完によって需要が高まるという世代間コントラストが浮かび上がった。</p>
+<h2>社会的意義と政策的含意</h2>
+<p>こうした傾向は「静かな侵蝕（quiet erosion）」とも呼ばれ、若手のキャリア形成機会が削がれる懸念がある。研究チームは、教育制度の刷新、リスキリングの推進、企業による採用や育成方針の見直しなどが必要になると指摘。炭鉱のカナリアにたとえられる今回の兆候は、今後さらに幅広い職種や世代に影響が及ぶ可能性を示唆している。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
