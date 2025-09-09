@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
+      <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
+      <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
+<p>EmbeddingGemmaは多言語に対応しており、文書検索、意味的な類似度判定、レコメンデーションなど幅広いタスクでの活用が可能だ。さらに、RAG（Retrieval Augmented Generation）パイプラインにも組み込めるため、生成AIの精度向上にも寄与するとしている。</p>
+<p>性能面では、Massive Text Embedding Benchmark（MTEB）において高い評価を獲得しており、従来のオンデバイス埋め込みモデルを大幅に上回る効率性を示した。</p>
+<p><strong>図1：モデルサイズ別のMTEBスコア</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b.jpg" alt="EmbeddingGemma_Chart01_RD3-V01.original.jpg" /></p>
+<p>EmbeddingGemmaは約3億パラメータという小型設計ながら、MTEB（Multilingual v2）の平均スコアで他の大規模モデルに匹敵する性能を発揮していることがわかる。</p>
+<p><strong>図2：MTEB（Multilingual v2）における比較結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85.jpg" alt="EmbeddingGemma_Chart02_RD3-V01.original.jpg" /></p>
+<p>評価結果では、Retrieval（検索）、Classification（分類）、Clustering（クラスタリング）といった複数のタスクで競合モデルを上回るスコアを記録した。特にRetrieval分野では62.49と高い水準を示している。</p>
+<p>Googleは「EmbeddingGemma」を通じて、低消費電力かつ低メモリ環境でも高性能なAI利用を可能にすることを目指している。モバイル端末やIoT分野における応用が期待される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Xu1X-J-r5Xk">YouTube</a></p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、Broadcomと協業し2026年から自社AIチップ量産へ──英紙報道、複数メディアが確認</title>
       <link>https://ledge.ai/articles/openai_broadcom_ai_chip_mass_production_2026</link>
       <description><![CDATA[<p>OpenAIが、米半導体大手Broadcomの協力を得て、2026年から自社向けのAI専用半導体の量産を開始する計画であることが明らかになった。<a href="https://www.ft.com/content/e8cc6d99-d06e-4e9b-a54f-29317fa68d6f">英紙フィナンシャル・タイムズ（FT）</a>が2025年9月5日付で報じ、複数の欧米メディアもこれを伝えている。</p>
