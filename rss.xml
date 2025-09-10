@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
+      <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
+      <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
+<p>研究チームは、日常会話や物語といった自然言語を、そのまま扱うのではなく「一度構造化した表現」に変換し、それをもとにシミュレーションを行う枠組みを提案した。自由文のままでは曖昧さや抜け落ちが多く、AIが他者の意図を追跡するのが難しいが、この“ワンクッション”を挟むことで精度が大きく向上したという。</p>
+<p><strong>自由文を一度構造化してから『社会的ワールドモデル』で推論するフレームワーク。従来手法に比べ、複数の社会的推論ベンチマークで精度が向上した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5_9f97f3f354/x1_5_9f97f3f354.png" alt="x1 (5).png" /></p>
+<h2>性能は最大51%改善</h2>
+<p>実験では、複数人が登場する会話シナリオや協力・競争が絡む対話課題で評価を実施。その結果、意図や感情を読み解く力が最大で51%改善した。また、実際の対話のなかでAIがゴールを達成できる割合も最大18%向上したと報告している。</p>
+<h2>行動前に結果を“先読み”</h2>
+<p>この手法では「行動を起こす前に、仮想世界の中で結果をシミュレーションする」というアルゴリズムも導入された。研究チームはこれを「Foresee and Act」と呼び、交渉や協力シーンでより安定した判断が可能になることを示した。</p>
+<h2>人間らしい社会性を持つAIへ</h2>
+<p>従来のAI研究が物理世界の理解やシミュレーションに重点を置いてきたのに対し、今回の社会的ワールドモデルは、人間関係や心理的な状態を含めた“社会の見取り図”を扱う点が特徴だ。研究者らは、長期的に一貫した対話や複雑な社会的状況への適応につながると期待している。</p>
+<p><strong>物理的なワールドモデル（左）は環境状態を追跡するが、社会的ワールドモデル（右）は感情や欲求など心理状態も含めて扱う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2_070a010511/x2_2_070a010511.png" alt="x2 (2).png" /></p>
+]]></description>
+      <pubDate>Wed, 10 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
       <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
       <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
@@ -289,38 +307,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>Anthropicは今回のシリーズFを通じ、OpenAIやGoogle DeepMindと並ぶ生成AI分野の主要プレイヤーとしての地位を固めつつある。同社は「AIを安全かつ広く役立つものにする」というビジョンを掲げ、研究開発を加速していく方針だ。</p>
 ]]></description>
       <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare、AI関連トラフィックを分析──「クロールとクリックのギャップ」に関するデータを公開</title>
-      <link>https://ledge.ai/articles/cloudflare_ai_traffic_crawl_to_click_gap</link>
-      <description><![CDATA[<p>米Cloudflareは2025年8月29日、AI関連のインターネットトラフィックに関する分析結果を<a href="https://blog.cloudflare.com/crawlers-click-ai-bots-training/">公開</a>した。同社は「The crawl-to-click gap: Cloudflare data on AI bots, training, and referrals」と題したブログ記事で、AIボットによる膨大なWebクロールと、実際のクリックや利用につながるトラフィックの間に大きな乖離があることを明らかにした。</p>
-<h2>AIボットによるクロールの急増</h2>
-<p>Cloudflareによると、多くのAI企業やサービスがWebをクロールしており、そのアクセス量は近年急増している。特定の地域や事業者からのボット活動が集中して観測され、AIモデルの学習に利用されている実態が浮かび上がった。</p>
-<p><strong>Cloudflareの公開したデータでは、過去1年間の主要クローラーの動向が次のように可視化されている</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_ed994074d2/4_ed994074d2.webp" alt="4.webp" /></p>
-<h2>観測された変化のポイント</h2>
-<h3>学習目的の比重が拡大</h3>
-<p>AIボット活動の約80%が学習目的で行われており、1年前の72%から上昇した。</p>
-<p><strong>クロール目的の内訳: 学習用途が大半を占めている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/crawl_purpose_eda936f310/crawl_purpose_eda936f310.jpg" alt="crawl purpose.jpg" /></p>
-<h3>ニュースサイトへの流入減少</h3>
-<p>ニュースサイトへのGoogleからのリファラルは減少し、2025年3月は1月比で約9%減となった。</p>
-<h3>AI・検索クロールの拡大</h3>
-<p>2025年4月のクロール量は前年比32%増加したが、その後7月には前年比4%増まで鈍化。</p>
-<h3>クローラーの勢力変化</h3>
-<p>OpenAIのGPTBotはシェアを4.7%から11.7%へ倍増、AnthropicのClaudeBotも6%から約10%に増加。一方、ByteDanceのBytespiderは14.1%から2.4%へ急減。</p>
-<p><strong>直近1週間の様子：GPTBotやClaudeBotがシェアを拡大している様子が確認できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HTTP_traffic_by_bot_d307a390f2/HTTP_traffic_by_bot_d307a390f2.jpg" alt="HTTP traffic by bot.jpg" /></p>
-<h3>クロールとリファラルの不均衡</h3>
-<p>Anthropicは紹介数を増やしたものの、2025年7月時点で訪問者1人当たり3万8000クロール（1月は28万6000:1）と依然として大きなギャップを抱える。Perplexityは2025年にクロールを増やした一方でリファラルが減少し、7月時点で1訪問あたり194クロールとなった。</p>
-<h2>クロールとクリックの乖離</h2>
-<p>同社は、クロール数に対して実際のリファラル（AIを経由してサイトに誘導されるクリック数）が極めて少ない点を強調。この現象を「crawl-to-click gap（クロールからクリックへのギャップ）」と定義し、AIによる学習とサイト運営者への流入増加が必ずしも連動していないことを示した。</p>
-<h2>サイト運営者への影響</h2>
-<p>Cloudflareは、AIがWebを学習リソースとして活用する一方で、サイト運営者にとっては必ずしも収益や集客の増加につながっていない現状を指摘。広告収益やSEO戦略の観点から、従来のWeb流入分析だけでは測りきれない課題が生じていると警鐘を鳴らした。</p>
-<h2>Cloudflareの見解</h2>
-<p>同社は「AI時代におけるトラフィックの新しい測定方法が必要」との見解を示し、サイト管理者に対して「AIボットによるクロール」と「実際のユーザー誘導」を明確に区別して捉えることの重要性を強調した。</p>
-]]></description>
-      <pubDate>Thu, 04 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
