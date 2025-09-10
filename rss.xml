@@ -89,32 +89,6 @@
       <pubDate>Tue, 09 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
-      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
-      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
-<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
-<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
-<h2>GPT-5の具体的な活用事例</h2>
-<p>Weil氏は投稿の中で、次の例を紹介した。</p>
-<ul>
-<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
-<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
-<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
-<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
-</ul>
-<h2>背景にあるOpenAIの活動</h2>
-<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
-2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
-2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
-<h2>Weil氏の立場と組織体制</h2>
-<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
-<h2>今後の展望</h2>
-<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
       <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
       <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
@@ -177,6 +151,18 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 @<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
 ]]></description>
       <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
+      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
+      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
+<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
+<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
+<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
+<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
+<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、製品実験プラットフォームStatsigを買収──創業者Raji氏がApplications部門CTOに就任</title>
@@ -322,18 +308,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
-      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
-      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
-<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
-<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
-<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
-<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
-<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
       <link>https://ledge.ai/articles/figurobot_desktop_humanoid_nia_f01</link>
       <description><![CDATA[<p>中国のAIスタートアップ「霊童（FIGUROBOT）」は、人型デスクトップロボット「念 NIA-F01」を<a href="https://www.figurobot.com/productDetails">発表</a>し、公式サイトで予約受付を開始したことを2025年9月1日に中国のテックメディアである<a href="https://36kr.jp/370461/">36Kr</a>が報じている。価格は9999元（約20万円）で、初回生産分は2025年末の納品を予定しているという。</p>
@@ -439,18 +413,6 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、GPT-5導入時の不手際を認め次期GPT-6の方向性を示唆──アルトマン氏「人々は記憶を求めている」</title>
-      <link>https://ledge.ai/articles/gpt5_launch_failure_and_gpt6_memory_focus</link>
-      <description><![CDATA[<p>OpenAIは2025年8月7日に最新モデル「GPT-5」をChatGPTの全ユーザー向けに提供開始したが、同社CEOであるサム・アルトマン氏は「ローンチ対応でやらかした」と認めた。ユーザーからの批判を受け、同社は前モデルGPT-4oを有料プラン向けに復活させる異例の対応を実施した。一方でアルトマン氏は、次期「GPT-6」について「人々は記憶を求めている」と述べ、記憶とパーソナライズを重視する方針を示した。この方針については、8月19日付の<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>が詳報している。</p>
-<p>GPT-5は2025年8月7日に正式<a href="https://ledge.ai/articles/gpt5_launch_all_users">リリース</a>され、全世界のChatGPTユーザー約7億人に提供が開始された。OpenAIは「PhDレベルの性能」を掲げ、プログラミングや数学、マルチモーダル処理に強みを持つと説明している。しかし専門家の間では「進化的ではあるが飛躍的とはいえない」との見方が広がり、期待値に対して十分な成果を示せていないとの指摘もあった。</p>
-<p>アルトマン氏はサンフランシスコで記者団に対し、「GPT-5のローンチは完全にやらかした」と発言した。ユーザーからは「冷たい」「親しみやすさが失われた」といった批判が相次ぎ、従来のモデルにあった温かさが欠けているとの不満が広がった。こうした反応を受け、OpenAIは異例の対応として前モデルGPT-4oをChatGPT Plusなどの有料プラン向けに復活させた。新モデル提供後に旧モデルを再導入するのは極めて異例であり、同社がユーザーの声に迅速に対応したことを示している。</p>
-<p>技術面では、GPT-5は高度な推論能力や自然なマルチモーダル処理を実現するなどの改良が施されている。しかし従来モデルとの差は限定的であり、期待が過剰に膨らんでいた分、失望を招いた側面が大きい。批判の背景にはこうしたギャップがあるとみられる。</p>
-<p>一方でアルトマン氏は、次期モデルGPT-6について「人々は記憶を求めている」と強調した（8月19日、<a href="https://www.cnbc.com/2025/08/19/sam-altman-on-gpt-6-people-want-memory.html">CNBC</a>）。GPT-6はユーザーごとの履歴や好みに基づいて会話を記憶し、応答をパーソナライズする方向性を持つという。これにより、利用者ごとに最適化された応答スタイルを提供できるようになることを目指している。ただし、具体的なリリース時期は明らかにされていない。</p>
-<p>今回の一連の動きは、OpenAIの製品ロードマップにおける転換点を示すものだ。GPT-5で露呈した課題をどう克服し、GPT-6でユーザー体験を改善するのか。今後の展開が同社の成長に直結する焦点となっている。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>八王子で実施中のレベル２相当の自動運転バス実証実験で事故──東京都、運行を中止</title>
       <link>https://ledge.ai/articles/jidoshaunnten_bus_hachioji_accident</link>
       <description><![CDATA[<p>東京都が八王子市高尾町で実施していた自動運転バスの実証実験で、29日午前11時35分ごろ、バスが道路脇の街路樹に衝突する事故が発生した。東京都は同日、残りの運行をすべて中止すると<a href="https://toshiseibi.jidouunntenn1.metro.tokyo.lg.jp/">発表</a>した。</p>
@@ -488,6 +450,32 @@ ANNや朝日新聞など複数の報道によると、バスには運転手の�
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
 <h2>業務効率化と将来展望</h2>
 <p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
 ]]></description>
       <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
     </item>
