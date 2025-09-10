@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google検索、日本語版「AIモード」を開始──Gemini 2.5活用で複雑な質問にも文脈理解</title>
+      <link>https://ledge.ai/articles/google_search_ai_mode_japan_start</link>
+      <description><![CDATA[<p>Googleは9月9日、日本の「Google検索」で新機能「AIモード」の提供を開始したことを<a href="https://blog.google/intl/ja-jp/products/explore-get-answers/ai-mode-search/">発表</a>した。Gemini 2.5のカスタムバージョンを活用し、従来よりも複雑で文脈依存の強い質問に対して、単一クエリで包括的な回答を提示できるのが特徴となる。</p>
+<p>AIモードでは、「クエリファンアウト」と呼ばれる技術を採用。ユーザーの質問を複数のサブトピックに分解し、それぞれを同時に検索・分析した上で統合的な回答を生成する。これにより、旅行計画や比較検討といった複数の要素を含む質問にも対応可能となった。</p>
+<p>提供環境はPCやスマートフォンのブラウザに加え、Android・iOS版のGoogleアプリにも対応。全国のユーザーに数週間をかけて段階的に展開される。</p>
+<p>さらに、テキスト入力だけでなく、音声や画像からの質問にも対応するマルチモーダル機能も導入された。たとえば料理の写真を提示すれば、それがベジタリアン向けかどうかを判定し、関連情報を提案することも可能だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_mode_tapas_d918657779/ai_mode_tapas_d918657779.jpg" alt="ai mode tapas.jpg" /></p>
+<p>信頼性確保の観点から、AIモードが生成した回答に不確かさがある場合は、従来の検索結果が優先的に表示される設計になっている。Googleは既存のランキングシステムとAI応答を組み合わせ、利便性と情報の信頼性を両立させる方針だ。</p>
+<p>同社は米国での先行提供を経て、今回日本語を含む複数言語での展開を開始した。今後も利用可能な地域や言語を順次拡大していくとしている。</p>
+]]></description>
+      <pubDate>Wed, 10 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
       <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
       <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
