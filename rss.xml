@@ -5,6 +5,42 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
+      <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
+      <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
+<h2>研究の背景</h2>
+<p>MBTI（Myers-Briggs Type Indicator）は、人間の性格を16タイプに分類する性格診断である。研究チームは、MBTIをプロンプトでLLMに埋め込み、各タイプを演じるAIエージェントを構築。その挙動を比較することで、心理的特性がAIの意思決定や社会的ふるまいに影響を与えるかを検証した。</p>
+<p><strong>MBTIの16タイプをLLMに適用するフレームワーク「MBTI-in-Thoughts」の概要図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Psychologically_Enhanced_AI_Agents1_f797018e9a/Psychologically_Enhanced_AI_Agents1_f797018e9a.jpg" alt="Psychologically Enhanced AI Agents1.jpg" /></p>
+<h2>実験方法と結果</h2>
+<p>研究チームは、MBTIの16タイプをプロンプトで付与する「MBTI-in-Thoughts」を開発。まず各タイプで一貫した“性格”が出るかを検証するため、公式の16Personalitiesテストを自動実施し、E/I・T/F・J/P軸で明確に分離できることを示した（S/Nは相対的に弱い傾向）。また、事前の自己内省（self-reflection）フェーズを入れると、協調性や推論品質が向上することも確認している。</p>
+<h3>評価タスクの設計</h3>
+<p>「性格」が効きやすい感情（affect）／認知（cognition）軸に沿ったタスクを選定。多くの標準ベンチマークは事実想起寄りで、性格付与による差が出にくいため除外したという。</p>
+<ul>
+<li><strong>物語生成（affect軸）</strong> ：WRITINGPROMPTSから100プロンプトを抽出し、16タイプ＋対照（EXPERT/NONE）で物語を生成。LLM-as-a-judgeにより、読みやすさ・感情量・個人性・ハッピーエンド等の属性をスコア化。感情型（F）のエージェントは共感的で感情豊かな物語を生成。</li>
+<li><strong>戦略ゲーム（cognition軸）</strong> ：囚人のジレンマ／ハト-タカで、各ラウンドは「1回のメッセージ交換→意思決定」の2段階。相手タイプは伏せ、メッセージ通りに行動する義務はないことを明示して“駆け引き”を可能にした。評価指標は裏切り率（Defection）／戦略切替率（Switch）／誠実さ（Honesty）の3つ。</li>
+</ul>
+<h3>モデルとコントロール</h3>
+<p>コストを抑えるためGPT-4o mini／GPT-4o／Qwen3-235B-A22B／Qwen2.5-14B-Instructを使用。比較用に、EXPERT（専門家ふるまいのみで性格付与なし）とNONE（無指定）を用意した。物語生成は主にQwen3-235B-A22B（temp=0）、ゲーム理論タスクはGPT-4o（temp=1）で評価。</p>
+<h3>主要結果（物語生成）</h3>
+<p>Feeling（F）系は感情量・個人性・ハッピーエンドで一貫して高スコア。特にINFP/INFJ/ISFPで顕著。Extravert（E）系は読みやすさ・ユーモア・ハッピーエンドで内向型を上回る。EXPERT/NONEよりもF系の方が感情面の属性で優れる傾向を示した。</p>
+<h3>主要結果（戦略ゲーム）</h3>
+<p>Thinking（T）は繰り返し囚人のジレンマで約90%が裏切り選択、Feeling（F）は約50%と協力寄り（有意差）。戦略切替率はT≈0.07、F≈0.16で、Tは一貫計画、Fは柔軟適応という対比が出た。HonestyではI（≈0.54）＞E（≈0.33）、J＞Pの傾向を確認。例示ではINTPが途中でDefectへ転じ、ENFPが協力を継続するラウンド進行が図示されている。</p>
+<p><strong>囚人のジレンマにおけるエージェント間の対話例。INTPは途中から裏切りを選択し、ENFPは協力を継続した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_agent_communication_6da05f1c44/Example_agent_communication_6da05f1c44.jpg" alt="Example agent communication.jpg" /></p>
+<h2>MBTI次元ごとの傾向</h2>
+<p>分析では、以下のような傾向が確認された。</p>
+<ul>
+<li><strong>Thinking（T） vs Feeling（F）</strong> ：Tタイプは安定して競争的、Fタイプは柔軟で協力的。</li>
+<li><strong>Introversion（I） vs Extraversion（E）</strong> ：内向型は約束を守りやすく、外向型は柔軟な対応を見せる傾向。</li>
+<li><strong>Judging（J） vs Perceiving（P）</strong> ：Jタイプは一貫性が高く、Pタイプは状況に応じた柔軟性を示した。</li>
+</ul>
+<h2>今後の展望</h2>
+<p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
+]]></description>
+      <pubDate>Wed, 10 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>香港科技大学、AIと文明の共進化を探る社会シミュレーション「Aivilization」を公開──10万人のAIエージェントが仮想社会を形成</title>
       <link>https://ledge.ai/articles/hkust_aivilization_ai_civilization_experiment</link>
       <description><![CDATA[<p>香港科技大学（HKUST）は2025年8月19日、10万人規模のAIエージェントによる仮想社会を舞台に、AIと人類の共進化を探る教育サンドボックスゲーム「Aivilization」を<a href="https://hkust.edu.hk/news/hkust-launches-worlds-largest-ai-powered-educational-sandbox-game-advancing-ai-literacy-and">発表</a>した。同大学によると、プロジェクトはAIリテラシーの向上や市民科学の促進を目的としており、世界最大規模のAI社会シミュレーションとして設計されているという。</p>
@@ -285,24 +321,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>同社は「AI時代におけるトラフィックの新しい測定方法が必要」との見解を示し、サイト管理者に対して「AIボットによるクロール」と「実際のユーザー誘導」を明確に区別して捉えることの重要性を強調した。</p>
 ]]></description>
       <pubDate>Thu, 04 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>総務省、フィッシングメール対策強化を業界4団体に要請──生成AI悪用に懸念、3か月ごとに報告義務</title>
-      <link>https://ledge.ai/articles/soumu_phishing_countermeasures_20250901</link>
-      <description><![CDATA[<p>総務省は9月1日、フィッシングメール対策を強化するよう、電気通信事業者協会、テレコムサービス協会、日本インターネットプロバイダー協会、日本ケーブルテレビ連盟のIT関連4団体に要請したことを<a href="https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000260.html">発表</a>した。</p>
-<p>証券会社を装った詐欺メールによる被害が急増しているほか、生成AIを用いて自然な日本語を大量に作成できるようになり、従来よりも精巧なフィッシングメールが容易に作られるようになったことが背景にあるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumu_df4f24ec3d/soumu_df4f24ec3d.jpg" alt="soumu.jpg" /></p>
-<p>政府は2025年4月に「国民を詐欺から守るための総合対策2.0」を決定し、送信ドメイン認証技術（DMARC等）の普及促進を盛り込んでいた。今回の要請はその流れを受けたもの。</p>
-<p>総務省が示した重点は3点。</p>
-<ol>
-<li><strong>フィルタリング精度の向上</strong> ：AIなどを活用し、迷惑メール判定の精度を高めるとともに、フィルタリング強度を適切に設定する。</li>
-<li><strong>DMARC導入・運用の徹底</strong> ：送受信双方で隔離や拒否を含むポリシーを設定し、ドメインレピュテーションやBIMI、踏み台送信対策なども導入を検討する。</li>
-<li><strong>利用者への周知・啓発</strong> ：様々な利用者層に向け、提供する対策サービスについて広く啓発を行う。</li>
-</ol>
-<p>さらに、各団体は2025年9月から2026年8月までの取組状況を3か月ごとに総務省へ報告することが求められる。</p>
-<p>今回の要請は行政手続法上の「行政指導」に位置づけられるもので、法的拘束力を伴う処分ではないが、生成AIの普及によって高まるリスクに対応するため、事業者に迅速な行動を促す狙いがあるとのこと。</p>
-]]></description>
-      <pubDate>Thu, 04 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
