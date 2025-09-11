@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
+      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
+      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
+<h2>プランごとの利用上限</h2>
+<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
+<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
+<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
+]]></description>
+      <pubDate>Thu, 11 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
       <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
       <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
@@ -292,20 +304,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>OpenAIは「これは始まりに過ぎない」と強調し、今後120日間で段階的に安全対策を拡充する計画を示した。一方で、法曹関係者などからは「対応が遅く具体性が不足している」との批判も出ているという。</p>
 ]]></description>
       <pubDate>Fri, 05 Sep 2025 09:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brave、他社AIエージェント型ブラウザに「Comet Prompt Injection」脆弱性を発見──自社ブラウザは影響なし</title>
-      <link>https://ledge.ai/articles/brave_comet_prompt_injection_vulnerability</link>
-      <description><![CDATA[<p>Brave Softwareは2025年8月20日（米国時間）、他社が開発するエージェント型ブラウザに深刻な脆弱性を発見したと公式ブログで<a href="https://brave.com/blog/comet-prompt-injection/">発表</a>した。同社は、自社のBraveブラウザには影響が及ばないことを強調している。</p>
-<p>同社によると、この脆弱性はユーザーが仕掛けられたページを閲覧することで発動する可能性があるという。攻撃者はエージェントに任意の指示を送り込み、ユーザーの意図しない動作を実行できる。これにより、個人情報の不正送信やシステム操作の誤誘導といったリスクが生じる可能性があるとのこと。</p>
-<p>Braveは「Attack demonstration（攻撃の実演）」として、攻撃の仕組みを例示している。攻撃者は一見無害に見えるウェブページに不正な命令文を仕込み、エージェントがそれを読み取ると、ユーザーが意図しない動作を自動で行ってしまう。例えばコメント欄や入力フォームに隠された命令を通じて、個人情報の送信や外部システムへのアクセスといった行為が実行される恐れがあるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/attacl_de_pmstratopm_c5ac947836/attacl_de_pmstratopm_c5ac947836.jpg" alt="attacl de,pmstratopm.jpg" /></p>
-<p>Braveは、脆弱性が確認されたブラウザの名称は明かしていないが、該当するベンダーにはすでに問題を報告済みと説明。あわせて、エージェント機能を搭載したブラウザの利用者に注意を呼びかけている。</p>
-<p>一方で、脆弱性の名称に「Comet」が含まれていることから、Perplexityが提供するエージェント型ブラウザ「Comet」を指しているとみられる。Braveはあえて社名には触れていないが、実質的に対象を示唆する形となっている。</p>
-<p>エージェント型ブラウザは、AIを活用してユーザーの操作を自動化する仕組みを備えており、近年急速に開発が進んでいる。一方で、従来のウェブセキュリティには存在しなかった攻撃経路が新たに生まれており、安全性への懸念も指摘されている。</p>
-<p>Braveは公式ブログで「ユーザー保護を最優先に調査を進めている」と強調し、自社ブラウザがこの脆弱性の影響を受けない設計であることを改めて示した。</p>
-]]></description>
-      <pubDate>Fri, 05 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
