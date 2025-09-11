@@ -5,6 +5,52 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol69</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
+<p>Ledge.ai Webinar vol.69では、「ローカルLLMで構築するマルチモーダルRAG」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。本ウェビナーは、株式会社ハイレゾ様とのシリーズウェビナー企画の第4弾としてお届けいたします。</p>
+<p>RAGというキーワードは、自社のデータの活用という文脈で注目を集めているキーワード。
+今回はその中でもマルチモーダルRAGにスポットライトをあててお送りします。</p>
+<p>請求書や報告書、マニュアルなど、ビジネス文書にはテキストだけでなく画像や図表が豊富に含まれています。従来のRAG（Retrieval-Augmented Generation）では、OCR（光学的文字認識）によるテキスト抽出が主流でしたが、文字化けや複雑なレイアウトの誤認識といった課題がありました。</p>
+<p>今回のウェビナーでは、これらの課題を解決する「マルチモーダルRAG」に焦点を当てます。文書ページを画像として直接処理し、視覚的なレイアウト情報を保持したまま情報を抽出するアプローチです。最新の視覚言語モデルである「Qwen2.5-VL」とベクトルデータベースを用い、ローカル環境で高精度なRAGを構築する具体的な手法を、コード解説を交えたデモンストレーションでご紹介します。</p>
+<p><strong>ウェビナーの内容</strong></p>
+<ul>
+<li>従来のRAGにおける画像・図表を含む文書の課題</li>
+<li>マルチモーダルRAGの概要と、OCRレスなアプローチの優位性</li>
+<li>GPUクラウド「GPUSOROBAN」を活用したマルチモーダルRAGの実装デモンストレーション</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>画像や図表を多く含むPDFから情報を正確に抽出したい方</li>
+<li>マルチモーダルRAGの具体的な実装方法を知りたい方</li>
+<li>ローカル環境で動作するLLM/VLMの活用に興味がある方</li>
+<li>GPUリソースを効率的に活用しながらAI開発を進めたい方</li>
+</ul>
+<h2>視聴者特典</h2>
+<p><strong>【特典①】デモで使用したサンプルコードをプレゼント！</strong>
+本ウェビナーのアンケートにご回答いただいた方全員に、デモで使用したソースコードをプレゼントいたします。視聴後すぐに、ご自身の環境で再現・検証が可能です。</p>
+<p><strong>【特典②】H200 GPU 30日間無料トライアルキャンペーン！</strong>
+さらに、ハイレゾでは現在、「NVIDIA H200」を搭載したGPUクラウドサービス「AIスパコンクラウド」を30日間無料でお試しいただける特別なキャンペーンも実施中です。
+（詳細はウェビナー内およびアンケート回答後のご案内をご確認ください。）</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/h200_gpu_free_trial1200_bd3d66cf05/h200_gpu_free_trial1200_bd3d66cf05.jpg" alt="h200-gpu-free-trial1200.jpg" /></p>
+<h2>登壇者情報</h2>
+<p>株式会社ハイレゾ
+GPU事業本部　マーケティング部　グループ長
+山田 岳史</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/highreso_yamadasama_2a984e3aa6/highreso_yamadasama_2a984e3aa6.jpg" alt="highreso-yamadasama.jpg" /></p>
+<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
+GPUクラウドサービスのマーケティング担当。</p>
+<h2>お申し込みはこちら</h2>
+<p>配信期間：2025年9月11日(木)〜2025年10月3日(金)
+配信方式：オンデマンド（Zoom）
+参加費：無料</p>
+<p>:::button
+<a href="https://zfrmz.com/rhh3WJORYMZvkfiGN0IR">ウェビナーの視聴はこちら</a>
+:::</p>
+]]></description>
+      <pubDate>Thu, 11 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
       <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
       <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
