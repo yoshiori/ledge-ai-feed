@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
+      <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
+      <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
+<p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
+まずプレトレーニング段階では、モデルは大規模なテキストデータから言語の確率分布を学習するが、この過程自体が統計的に誤りを生み出す要因となる。誤りは「バイナリ分類（正しい／誤り）」の誤分類と同様に不可避であり、訓練データに誤りが含まれていなくても誤答が発生すると分析している。</p>
+<p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
+<p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
+<p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
+]]></description>
+      <pubDate>Wed, 10 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google検索、日本語版「AIモード」を開始──Gemini 2.5活用で複雑な質問にも文脈理解</title>
       <link>https://ledge.ai/articles/google_search_ai_mode_japan_start</link>
       <description><![CDATA[<p>Googleは9月9日、日本の「Google検索」で新機能「AIモード」の提供を開始したことを<a href="https://blog.google/intl/ja-jp/products/explore-get-answers/ai-mode-search/">発表</a>した。Gemini 2.5のカスタムバージョンを活用し、従来よりも複雑で文脈依存の強い質問に対して、単一クエリで包括的な回答を提示できるのが特徴となる。</p>
@@ -294,18 +306,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>Braveは公式ブログで「ユーザー保護を最優先に調査を進めている」と強調し、自社ブラウザがこの脆弱性の影響を受けない設計であることを改めて示した。</p>
 ]]></description>
       <pubDate>Fri, 05 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、シリーズFで130億ドルを調達──ICONIQ Capital主導、評価額は1,830億ドル（約27兆円）に</title>
-      <link>https://ledge.ai/articles/anthropic_seriesf_13b_valuation_183b</link>
-      <description><![CDATA[<p>AI企業のAnthropicは2025年9月2日（現地時間）、シリーズF資金調達ラウンドで130億ドルを調達したと<a href="https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation">発表</a>した。
-調達を主導したのは米投資会社ICONIQ Capitalで、Fidelity Management &amp; ResearchやLightspeed Venture Partnersも共同リードとして参加したという。</p>
-<p>今回の資金調達により、Anthropicのポストマネー評価額は1,830億ドル（約27兆円）に達した。2025年3月時点の評価額から大幅に上昇しており、同社の急成長を裏付けるものとなっている。</p>
-<p>Anthropicは大規模言語モデル（LLM）「Claude」シリーズを展開し、企業顧客を中心に利用が拡大している。特にエンジニア向けツール「Claude Code」などの新製品が収益成長を牽引し、年間経常収益（ARR）は急速に拡大しているという。</p>
-<p>調達した資金は、Claudeシリーズの開発・高度化や、安全性と信頼性に重点を置いたAI研究への投資に充てられる。さらに、企業向け機能やインフラの拡充、グローバルでの事業展開も強化する計画だ。</p>
-<p>Anthropicは今回のシリーズFを通じ、OpenAIやGoogle DeepMindと並ぶ生成AI分野の主要プレイヤーとしての地位を固めつつある。同社は「AIを安全かつ広く役立つものにする」というビジョンを掲げ、研究開発を加速していく方針だ。</p>
-]]></description>
-      <pubDate>Fri, 05 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
