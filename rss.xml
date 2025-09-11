@@ -120,42 +120,6 @@ GPUクラウドサービスのマーケティング担当。</p>
       <pubDate>Wed, 10 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/9/10 [WED]チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
-      <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
-      <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
-<h2>研究の背景</h2>
-<p>MBTI（Myers-Briggs Type Indicator）は、人間の性格を16タイプに分類する性格診断である。研究チームは、MBTIをプロンプトでLLMに埋め込み、各タイプを演じるAIエージェントを構築。その挙動を比較することで、心理的特性がAIの意思決定や社会的ふるまいに影響を与えるかを検証した。</p>
-<p><strong>MBTIの16タイプをLLMに適用するフレームワーク「MBTI-in-Thoughts」の概要図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Psychologically_Enhanced_AI_Agents1_f797018e9a/Psychologically_Enhanced_AI_Agents1_f797018e9a.jpg" alt="Psychologically Enhanced AI Agents1.jpg" /></p>
-<h2>実験方法と結果</h2>
-<p>研究チームは、MBTIの16タイプをプロンプトで付与する「MBTI-in-Thoughts」を開発。まず各タイプで一貫した“性格”が出るかを検証するため、公式の16Personalitiesテストを自動実施し、E/I・T/F・J/P軸で明確に分離できることを示した（S/Nは相対的に弱い傾向）。また、事前の自己内省（self-reflection）フェーズを入れると、協調性や推論品質が向上することも確認している。</p>
-<h3>評価タスクの設計</h3>
-<p>「性格」が効きやすい感情（affect）／認知（cognition）軸に沿ったタスクを選定。多くの標準ベンチマークは事実想起寄りで、性格付与による差が出にくいため除外したという。</p>
-<ul>
-<li><strong>物語生成（affect軸）</strong> ：WRITINGPROMPTSから100プロンプトを抽出し、16タイプ＋対照（EXPERT/NONE）で物語を生成。LLM-as-a-judgeにより、読みやすさ・感情量・個人性・ハッピーエンド等の属性をスコア化。感情型（F）のエージェントは共感的で感情豊かな物語を生成。</li>
-<li><strong>戦略ゲーム（cognition軸）</strong> ：囚人のジレンマ／ハト-タカで、各ラウンドは「1回のメッセージ交換→意思決定」の2段階。相手タイプは伏せ、メッセージ通りに行動する義務はないことを明示して“駆け引き”を可能にした。評価指標は裏切り率（Defection）／戦略切替率（Switch）／誠実さ（Honesty）の3つ。</li>
-</ul>
-<h3>モデルとコントロール</h3>
-<p>コストを抑えるためGPT-4o mini／GPT-4o／Qwen3-235B-A22B／Qwen2.5-14B-Instructを使用。比較用に、EXPERT（専門家ふるまいのみで性格付与なし）とNONE（無指定）を用意した。物語生成は主にQwen3-235B-A22B（temp=0）、ゲーム理論タスクはGPT-4o（temp=1）で評価。</p>
-<h3>主要結果（物語生成）</h3>
-<p>Feeling（F）系は感情量・個人性・ハッピーエンドで一貫して高スコア。特にINFP/INFJ/ISFPで顕著。Extravert（E）系は読みやすさ・ユーモア・ハッピーエンドで内向型を上回る。EXPERT/NONEよりもF系の方が感情面の属性で優れる傾向を示した。</p>
-<h3>主要結果（戦略ゲーム）</h3>
-<p>Thinking（T）は繰り返し囚人のジレンマで約90%が裏切り選択、Feeling（F）は約50%と協力寄り（有意差）。戦略切替率はT≈0.07、F≈0.16で、Tは一貫計画、Fは柔軟適応という対比が出た。HonestyではI（≈0.54）＞E（≈0.33）、J＞Pの傾向を確認。例示ではINTPが途中でDefectへ転じ、ENFPが協力を継続するラウンド進行が図示されている。</p>
-<p><strong>囚人のジレンマにおけるエージェント間の対話例。INTPは途中から裏切りを選択し、ENFPは協力を継続した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_agent_communication_6da05f1c44/Example_agent_communication_6da05f1c44.jpg" alt="Example agent communication.jpg" /></p>
-<h2>MBTI次元ごとの傾向</h2>
-<p>分析では、以下のような傾向が確認された。</p>
-<ul>
-<li><strong>Thinking（T） vs Feeling（F）</strong> ：Tタイプは安定して競争的、Fタイプは柔軟で協力的。</li>
-<li><strong>Introversion（I） vs Extraversion（E）</strong> ：内向型は約束を守りやすく、外向型は柔軟な対応を見せる傾向。</li>
-<li><strong>Judging（J） vs Perceiving（P）</strong> ：Jタイプは一貫性が高く、Pタイプは状況に応じた柔軟性を示した。</li>
-</ul>
-<h2>今後の展望</h2>
-<p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
-]]></description>
-      <pubDate>Wed, 10 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>香港科技大学、AIと文明の共進化を探る社会シミュレーション「Aivilization」を公開──10万人のAIエージェントが仮想社会を形成</title>
       <link>https://ledge.ai/articles/hkust_aivilization_ai_civilization_experiment</link>
       <description><![CDATA[<p>香港科技大学（HKUST）は2025年8月19日、10万人規模のAIエージェントによる仮想社会を舞台に、AIと人類の共進化を探る教育サンドボックスゲーム「Aivilization」を<a href="https://hkust.edu.hk/news/hkust-launches-worlds-largest-ai-powered-educational-sandbox-game-advancing-ai-literacy-and">発表</a>した。同大学によると、プロジェクトはAIリテラシーの向上や市民科学の促進を目的としており、世界最大規模のAI社会シミュレーションとして設計されているという。</p>
@@ -171,6 +135,23 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>@<a href="https://www.youtube.com/watch?v=1NPwiyejvEg">YouTube</a></p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
+      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
+<h2>AI普及と雇用への影響</h2>
+<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
+<h2>Jobs Platformの概要</h2>
+<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
+<h2>OpenAI Certificationsの仕組み</h2>
+<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
+<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
+<h2>提携先と今後の展望</h2>
+<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
+<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
@@ -222,7 +203,7 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>今後はヨーロッパにおけるAI研究・教育基盤としての活用が期待されるほか、公共サービスや産業界への応用も視野に入っている。今回の公開は、AIのオープン化と社会的な信頼構築に向けた大きな一歩といえる。</p>
 <p>@<a href="https://www.youtube.com/watch?v=atObT7Xnbdk">YouTube</a></p>
 ]]></description>
-      <pubDate>Mon, 08 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
@@ -234,7 +215,7 @@ GPUクラウドサービスのマーケティング担当。</p>
 DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
 @<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
 ]]></description>
-      <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
@@ -249,179 +230,40 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、製品実験プラットフォームStatsigを買収──創業者Raji氏がApplications部門CTOに就任</title>
-      <link>https://ledge.ai/articles/openai_acquires_statsig_applications_cto_raji</link>
-      <description><![CDATA[<p>OpenAIは2025年9月2日、製品実験プラットフォームを提供する米スタートアップのStatsigを買収すると<a href="https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/">発表</a>した。取引の詳細は非公開だが、Statsigの創業者兼CEOであるVijaye Raji（ヴィジャイ・ラジ）氏が、OpenAIの「CTO of Applications」に就任する。今後はChatGPTを含むアプリケーション開発の統括を担う。</p>
-<p>Statsigは2021年に設立され、A/Bテストや機能フラグ管理などを通じて、プロダクトチームが迅速に意思決定できる実験プラットフォームを提供してきた。顧客にはAtlassian、Notion、Brexなどが名を連ねる。買収後もStatsigはシアトル拠点で独立運営を続け、既存顧客へのサービス提供も継続するという。</p>
-<p>OpenAIは今回の買収を通じ、モデル開発からアプリケーション展開へのシフトをさらに加速させる考えだ。Raji氏のリーダーシップのもと、Statsigのデータ駆動型アプローチを組み込むことで、ChatGPTなど主要製品の改善スピードと品質向上を狙う。
-買収手続きは規制当局の承認を条件として完了する見込みだ。</p>
-]]></description>
-      <pubDate>Sun, 07 Sep 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「AIがAIを悪用する時代」──Anthropic、北朝鮮の雇用詐欺からランサムウェアまでClaudeの最新悪用事例を公表</title>
-      <link>https://ledge.ai/articles/ai_misuse_anthropic_north_korea_ransomware</link>
-      <description><![CDATA[<p>米AIスタートアップのAnthropicは8月、最新の脅威インテリジェンスレポート「Threat Intelligence Report: August 2025」を<a href="https://www.anthropic.com/news/detecting-countering-misuse-aug-2025">公開</a>し、同社のAIモデル「Claude」が悪用された複数のサイバー犯罪事例を明らかにした。公式YouTube動画では、脅威インテリジェンスチームが具体的な攻撃手口や検知の仕組みを解説している。</p>
-<h2>北朝鮮の雇用詐欺、AIが「能力の幻想」を生む</h2>
-<p>北朝鮮のIT人材は、偽の履歴書や職務経歴を用いて大手テクノロジー企業にリモート就業し、Claudeを利用して雇用を維持していた。かつては語学や高度な技術スキルを持つ人材のみが採用面接を突破していたが、現在ではスキルの乏しい個人でもAIの支援で「能力の幻想」を装えるようになっているとレポートは述べている。</p>
-<p>Claudeは履歴書やカバーレターの作成、面接回答の生成、さらには基本的なプログラミングや業務ツールの操作方法まで代行。これにより、雇用者は実際には自力で作業できない労働者を採用してしまうケースが増加している。FBIは、これらの不正雇用によって年間数億ドル規模の資金が北朝鮮の兵器開発に流入していると評価している。</p>
-<h2>「バイブハッキング」で17組織を同時攻撃</h2>
-<p>動画で紹介された事例の一つが「バイブハッキング」だ。これは攻撃者が自然言語プロンプトを通じてAIにコードを生成させ、実際の不正活動を実行させる手法である。ある単独犯はClaudeを利用し、1か月で政府機関や医療機関、防衛請負業者、教会など17組織を標的にデータ恐喝を行った。</p>
-<p>攻撃では、Claudeがネットワーク探索、横移動、機密データの窃取、恐喝状の作成まで担い、通常なら複数の犯罪者集団が数か月かける規模の作戦を一人で遂行可能にしたという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EsCNkDrIGCw">YouTube</a></p>
-<h2>RaaSからロマンス詐欺まで広がるAI悪用</h2>
-<p>レポートと動画では他にも、さまざまなAI悪用の実態を明らかにしている。</p>
+      <title>学術＆研究2025/9/10 [WED]チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
+      <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
+      <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
+<h2>研究の背景</h2>
+<p>MBTI（Myers-Briggs Type Indicator）は、人間の性格を16タイプに分類する性格診断である。研究チームは、MBTIをプロンプトでLLMに埋め込み、各タイプを演じるAIエージェントを構築。その挙動を比較することで、心理的特性がAIの意思決定や社会的ふるまいに影響を与えるかを検証した。</p>
+<p><strong>MBTIの16タイプをLLMに適用するフレームワーク「MBTI-in-Thoughts」の概要図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Psychologically_Enhanced_AI_Agents1_f797018e9a/Psychologically_Enhanced_AI_Agents1_f797018e9a.jpg" alt="Psychologically Enhanced AI Agents1.jpg" /></p>
+<h2>実験方法と結果</h2>
+<p>研究チームは、MBTIの16タイプをプロンプトで付与する「MBTI-in-Thoughts」を開発。まず各タイプで一貫した“性格”が出るかを検証するため、公式の16Personalitiesテストを自動実施し、E/I・T/F・J/P軸で明確に分離できることを示した（S/Nは相対的に弱い傾向）。また、事前の自己内省（self-reflection）フェーズを入れると、協調性や推論品質が向上することも確認している。</p>
+<h3>評価タスクの設計</h3>
+<p>「性格」が効きやすい感情（affect）／認知（cognition）軸に沿ったタスクを選定。多くの標準ベンチマークは事実想起寄りで、性格付与による差が出にくいため除外したという。</p>
 <ul>
-<li><strong>ランサムウェア・アズ・ア・サービス（RaaS）</strong> ：英国人とされる開発者がClaudeを使って洗練されたランサムウェアを作成し、ダークウェブで販売。</li>
-<li><strong>ロマンス詐欺ボット</strong> ：Telegram上のサービスにClaudeが「高EQモデル」として組み込まれ、数万人のユーザーが詐欺メッセージ作成に利用。</li>
-<li><strong>中国語を話す攻撃者によるスパイ活動</strong> ：ベトナムの通信会社を標的に、Claudeを使ってネットワーク分析や攻撃戦略の立案を支援。</li>
+<li><strong>物語生成（affect軸）</strong> ：WRITINGPROMPTSから100プロンプトを抽出し、16タイプ＋対照（EXPERT/NONE）で物語を生成。LLM-as-a-judgeにより、読みやすさ・感情量・個人性・ハッピーエンド等の属性をスコア化。感情型（F）のエージェントは共感的で感情豊かな物語を生成。</li>
+<li><strong>戦略ゲーム（cognition軸）</strong> ：囚人のジレンマ／ハト-タカで、各ラウンドは「1回のメッセージ交換→意思決定」の2段階。相手タイプは伏せ、メッセージ通りに行動する義務はないことを明示して“駆け引き”を可能にした。評価指標は裏切り率（Defection）／戦略切替率（Switch）／誠実さ（Honesty）の3つ。</li>
 </ul>
-<h2>防御側もAIで対抗</h2>
-<p>Anthropicは、北朝鮮のグループ「Contagious Interview」がClaudeを使おうとした際、同社の検知システムが即座にアカウントを遮断したと説明した。さらに、IPアドレスやメールアドレスといった技術的指標を政府・業界パートナーと共有し、防御網を強化している。
-同社は「AIがAIを悪用する時代に対抗するには、AIでAIを守るパラダイムシフトが必要だ」と強調した。</p>
-]]></description>
-      <pubDate>Sun, 07 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ワーナー・ブラザース・ディスカバリー、Midjourneyを提訴──「スーパーマン」「バットマン」など無断利用、ディズニーやユニバーサルに続き法廷へ</title>
-      <link>https://ledge.ai/articles/warner_bros_sues_midjourney_copyright_superman_batman</link>
-      <description><![CDATA[<p>米ワーナー・ブラザース・ディスカバリー（WBD）は2025年9月4日、AI画像生成サービス「Midjourney」に対し、同社が保有するキャラクターの著作権を侵害したとしてロサンゼルス連邦地裁に訴訟を提起した。<a href="https://www.reuters.com/legal/litigation/warner-bros-discovery-sues-ai-photo-generator-midjourney-stealing-superman-2025-09-04/">ロイター</a>など複数の海外メディアが報じた。</p>
-<p>訴状によると、Midjourneyは「スーパーマン」「バットマン」「ワンダーウーマン」「ジョーカー」「スクービー・ドゥー」など、同社の人気キャラクターを無断で学習データに利用。ユーザーが簡単なプロンプトを入力するだけで、これらのキャラクターを再現した画像や動画が生成できる状態になっていると指摘されている。</p>
-<p><strong>Midjourneyによるスーパーマンの生成例（左）と、WBDの著作物（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_8b75ef8f46/_8b75ef8f46.jpg" alt="スーパーマン１.jpg" /></p>
-<p>WBDは、過去に設けられていた生成制限が撤廃されたことで侵害が容易になり、「数え切れないほどのコピー」が生まれていると主張。著作権侵害の差止め命令、損害賠償、利益返還を求めており、AP通信によれば1作品あたり最大15万ドルの損害賠償請求の可能性があるという。</p>
-<p><strong>Midjourneyによるバットマンの生成例（左）と、映画作品の場面（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_0699155b9b/_0699155b9b.jpg" alt="バットマン４.jpg" /></p>
-<p>これに対してMidjourneyは、「数十億の公開画像を用いた学習は言語や視覚概念の習得に不可欠であり、フェアユースに当たる」と反論。また、著作権保護は利用者の規約遵守に依存し、企業側に責任はないと主張している。</p>
-<p><strong>Midjourneyによる『トムとジェリー』の生成例（左）と、オリジナルのアニメ作品（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_23cf9d614c/_23cf9d614c.jpg" alt="トムとジェリー２.jpg" /></p>
-<p>今回の提訴は、6月にディズニーやユニバーサルがMidjourneyを訴えた事例に続くもので、大手映画会社による法的措置が相次いでいる。</p>
-]]></description>
-      <pubDate>Sat, 06 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政治思想とAI受容の相関、保守はリベラルよりもAIの“オススメ”に従いやすい──米研究が6つの実験で確認</title>
-      <link>https://ledge.ai/articles/ai_recommendation_political_ideology_study</link>
-      <description><![CDATA[<p>米モントクレア州立大学やイーロン大学などの研究チームは2025年5月、人工知能（AI）が行う推薦（レコメンデーション）の受容度と政治思想の関連を調査した結果を Journal of Consumer Psychology に<a href="https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1461">発表</a>した。6つの実験と広告調査を通じ、保守派はリベラル派よりもAIのオススメを受け入れやすい傾向が明らかになった。</p>
-<h2>6つの実験と広告調査で検証</h2>
-<p>研究には合計1,548人が参加し、映画や音楽、レシピといった日常的な領域を題材に実験が行われた。その結果は一貫して「保守派はAI推薦を受け入れやすい」という傾向を示していた。</p>
+<h3>モデルとコントロール</h3>
+<p>コストを抑えるためGPT-4o mini／GPT-4o／Qwen3-235B-A22B／Qwen2.5-14B-Instructを使用。比較用に、EXPERT（専門家ふるまいのみで性格付与なし）とNONE（無指定）を用意した。物語生成は主にQwen3-235B-A22B（temp=0）、ゲーム理論タスクはGPT-4o（temp=1）で評価。</p>
+<h3>主要結果（物語生成）</h3>
+<p>Feeling（F）系は感情量・個人性・ハッピーエンドで一貫して高スコア。特にINFP/INFJ/ISFPで顕著。Extravert（E）系は読みやすさ・ユーモア・ハッピーエンドで内向型を上回る。EXPERT/NONEよりもF系の方が感情面の属性で優れる傾向を示した。</p>
+<h3>主要結果（戦略ゲーム）</h3>
+<p>Thinking（T）は繰り返し囚人のジレンマで約90%が裏切り選択、Feeling（F）は約50%と協力寄り（有意差）。戦略切替率はT≈0.07、F≈0.16で、Tは一貫計画、Fは柔軟適応という対比が出た。HonestyではI（≈0.54）＞E（≈0.33）、J＞Pの傾向を確認。例示ではINTPが途中でDefectへ転じ、ENFPが協力を継続するラウンド進行が図示されている。</p>
+<p><strong>囚人のジレンマにおけるエージェント間の対話例。INTPは途中から裏切りを選択し、ENFPは協力を継続した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_agent_communication_6da05f1c44/Example_agent_communication_6da05f1c44.jpg" alt="Example agent communication.jpg" /></p>
+<h2>MBTI次元ごとの傾向</h2>
+<p>分析では、以下のような傾向が確認された。</p>
 <ul>
-<li>レシピサイトや映画、音楽など複数のサービスを想定した調査で、保守派はリベラル派に比べてAI推薦を受け入れやすいことが示された。</li>
-<li>心理的要因を分析した調査では、保守派は「変化への抵抗感」が強く、その結果「一貫性を重視する」傾向が高いことが分かった。</li>
-<li>AI推薦は過去の利用履歴に沿って提示されると理解されやすく、こうした特性が保守派の受容を後押ししていた。</li>
-<li>サービスの利用状況を切り口にした調査では、履歴が蓄積した長期ユーザーの場合のみ、保守派の受容度が高まることが確認された。新規ユーザーや嗜好から外れた推薦では効果が薄まる。</li>
-<li>実際の選択を伴うインセンティブ付きの調査では、保守派は「履歴ベースの推薦」を行うアプリを好む傾向が明確に示された。</li>
-<li>Facebookで実施した広告調査では、AIが作成した音楽プレイリストを宣伝する広告に対し、保守的地域のクリック率が0.33%と、リベラル地域（0.13%）のおよそ2.5倍に達した。</li>
+<li><strong>Thinking（T） vs Feeling（F）</strong> ：Tタイプは安定して競争的、Fタイプは柔軟で協力的。</li>
+<li><strong>Introversion（I） vs Extraversion（E）</strong> ：内向型は約束を守りやすく、外向型は柔軟な対応を見せる傾向。</li>
+<li><strong>Judging（J） vs Perceiving（P）</strong> ：Jタイプは一貫性が高く、Pタイプは状況に応じた柔軟性を示した。</li>
 </ul>
-<h2>一貫性志向が影響</h2>
-<p>研究チームは、この傾向の背景に「変化への抵抗」と「一貫性の重視」という保守派の心理特性があると分析する。AI推薦は過去の嗜好を反映したものと解釈されやすく、保守派にとって安心して受け入れられる要素となる。</p>
-<p>一方、リベラル派がAIの推薦を必ずしも拒否しているわけではなく、受け入れ度は相対的に低いにとどまる。研究者らは「AIの受容度は政治思想や心理的傾向と密接に関係しており、マーケティングやサービス設計に新たな視点を与える」としている。</p>
+<h2>今後の展望</h2>
+<p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
 ]]></description>
-      <pubDate>Sat, 06 Sep 2025 05:23:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>天津大学ら、LLMで人体臓器をAIエージェント化──「Organ-Agents」で9システムを統合的にシミュレーション</title>
-      <link>https://ledge.ai/articles/organ_agents_virtual_human_llm</link>
-      <description><![CDATA[<p>中国・天津大学などに所属する研究チームは、2025年8月20日に論文「Organ-Agents: Virtual Human Physiology Simulator via LLMs」を<a href="https://arxiv.org/abs/2508.14357">発表</a>した。大規模言語モデル（LLM）を活用し、患者の臓器をバーチャルなAIエージェントとして表現することで、人体の複雑な生理学的変化を再現できると報告している。</p>
-<h2>人体を「9つの臓器エージェント」に分解</h2>
-<p>Organ-Agentsは、心臓や肺、肝臓など9つの臓器システムをそれぞれ独立したエージェントとしてモデル化。臓器同士の相互作用を通じて、患者の病態がどのように変化するかをシミュレーションできる仕組みを構築した。</p>
-<p><strong>天津大学らが提案した『Organ-Agents』の全体像。患者データから臓器システムをエージェント化し、相互作用を通じて生理学的変化をシミュレーションする</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_fbd0699774/x1_4_fbd0699774.png" alt="x1 (4).png" /></p>
-<h2>学習プロセスとシステム構成</h2>
-<p>モデルはLoRAによるチューニングに加え、Analyzer、Correlator、Compensatorといった補助エージェントを組み合わせることで、シミュレーションの精度を高めている。</p>
-<p>さらに、学習は二段階で進む。まずは各臓器を個別にシミュレーション（Stage I）、その後に臓器間の相互作用を通じた強化学習（Stage II）を実施することで、現実的な挙動を再現する。</p>
-<p><strong>Organ-Agentsのモデル化と学習プロセス。第I段階では各臓器を個別にシミュレーションし、第II段階では相互作用を通じて精度を高めている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_1_8d9f3c7567/x5_1_8d9f3c7567.png" alt="x5 (1).png" /></p>
-<h2>データと検証結果</h2>
-<p>検証には7,134人の敗血症患者と7,895人の非敗血症患者の臨床データを活用。125種類の生理学的変数を対象に時間的な軌跡を生成し、平均二乗誤差（MSE）は0.16未満と高精度を示した。</p>
-<p>また、臨床医による評価でも高い現実性が確認され、Likertスコアは3.9および3.7に達した。反事実シナリオのシミュレーション（治療方針を変えた場合の予測）や外部データを用いた検証、早期警戒システムとしての利用でも有効性が確認されている。</p>
-<p><strong>Organ-Agentsにおけるプロンプトと出力例。臨床データに基づき、心血管系や血液系などのシステムが動的に応答する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_1_61b1fe0f4b/x6_1_61b1fe0f4b.png" alt="x6 (1).png" /></p>
-<h2>医療応用への期待</h2>
-<p>研究チームは、「Organ-Agentsは医療現場の意思決定支援や治療効果の予測に新たな道を開く」としている。人体をシステム全体で捉えるアプローチにより、従来の単一臓器に基づく予測モデルを超える可能性が示された。</p>
-<p>論文は次のように結論づけている。「Organ-Agentsは、人体の複雑な生理学をLLMで表現し、医療AI研究における新たな基盤技術となり得る」。今後は臨床現場での実装に向けて、さらなる拡張や実証研究が期待される。</p>
-]]></description>
-      <pubDate>Sat, 06 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>FIGUROBOT、卓上サイズのAI搭載人型ロボット「念 NIA-F01」を発表──9999元で予約販売、2025年末の納品へ</title>
-      <link>https://ledge.ai/articles/figurobot_desktop_humanoid_nia_f01</link>
-      <description><![CDATA[<p>中国のAIスタートアップ「霊童（FIGUROBOT）」は、人型デスクトップロボット「念 NIA-F01」を<a href="https://www.figurobot.com/productDetails">発表</a>し、公式サイトで予約受付を開始したことを2025年9月1日に中国のテックメディアである<a href="https://36kr.jp/370461/">36Kr</a>が報じている。価格は9999元（約20万円）で、初回生産分は2025年末の納品を予定しているという。</p>
-<h2>感情を学習する“ソウルメイト”設計</h2>
-<p>公式ページによると、「念 NIA-F01」には高度なAI大モデルが搭載されており、日常的な対話を通じてユーザーの言語習慣や感情パターンを学習する。これにより、ユーザーに寄り添う“専属のソウルメイト”として成長していく設計思想が示されている。</p>
-<h2>デスクに置けるサイズ感と高精度な動作</h2>
-<p>同社は「念 NIA-F01」は人間の3分の1の大きさで、AIを具現化したロボットであると謳う。身長56cm、重量1.2kg未満と机上に置けるサイズ。内部には35個の超小型デジタルサーボモーターを備え、球体関節（BJD）に似た構造で滑らかな動きを実現する。カメラやマイクで周囲を認識し、声色や表情から感情を読み取り、最適な反応を返すことが可能だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/letme_Peiban_CR_Ocbw3x_1_fe7633f207/letme_Peiban_CR_Ocbw3x_1_fe7633f207.jpg" alt="letmePeiban-CROcbw3x (1).jpg" /></p>
-<h2>カスタマイズ性とキャラクター性</h2>
-<p>交換可能な顔パーツやウィッグ、衣装などが用意され、ユーザーは自由に外見をカスタマイズできる。さらに、自作パーツを取り付けることも可能で、個々の趣味に応じたオリジナルのキャラクターを作り上げられる。人格データやシナリオを設定して行動を模倣させる機能もあり、コミュニティを通じた共有も想定されている。</p>
-<h2>日本・韓国市場も視野に</h2>
-<p>FIGUROBOTは今後、日本や韓国といった二次元カルチャーの盛んな市場への展開も見込んでいる。ブランドメッセージとして「愛」「笑い」「無限の個性」を掲げ、AIロボットをファン層に訴求する狙いだ。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>【参加登録開始】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
-      <link>https://ledge.ai/articles/genex1-announce</link>
-      <description><![CDATA[<p>国内最大級のAI専門メディア「Ledge.ai」を運営する株式会社レッジは、このたび、業界横断型の新カンファレンスシリーズ「GENEX（ジェネックス）」を立ち上げ、その第1回となるイベントを2025年9月30日（火）に開催いたします。</p>
-<h2>GENEXとは</h2>
-<p>「Generative」＋「Next」＋「Experience／Exchange／Exploration」を意味する造語で、生成AIをはじめとする“生成的テクノロジー”と“次世代の創造性”に焦点をあてたシリーズ型イベントです。テーマごとに異業種の専門家・技術者・ビジネスリーダーが集い、新しい創造技術の活用とその社会的インパクトを議論・共有する場を提供します。</p>
-<h2>第1回テーマは『3D CAD × Generative AI』</h2>
-<p>初回は「3D CAD × Generative AI」をテーマに、“設計”と“創造”の未来を可視化します。近年の急速な生成AIの進化により、設計や構想のプロセスは自動化・高度化が実現可能な段階に入っています。3D CADも製造・建設分野をはじめ、都市開発やロボティクス、ファッションなど多様な産業での活用が進み、創造の可能性を拡張し続けています。</p>
-<p>本イベントでは、業界を超えて先進的な取り組みを進める企業リーダーを迎え、3D CADと生成AI技術が設計や製造の工程にもたらす変革をテーマにお話いただきます。</p>
-<h2>補助金活用のノウハウも得られる実践的イベント</h2>
-<p>GENEXでは、イベントのテーマに合わせた補助金制度のご紹介や、制度活用に向けたご相談も受け付けております。
-3D CAD×生成AIの最新動向を学ぶだけでなく、新しい技術を取り入れる際の導入コストを抑える手段も学ぶことができます。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GENEX_1_3_D_CAD_1_130d185e26/GENEX_1_3_D_CAD_1_130d185e26.png" alt="GENEX #1 - 3D CAD × 世界モデル：ものづくりの未来はどう変わるのか？- 企画ご案内資料 (1).png" /></p>
-<p>:::button
-<a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
-:::</p>
-<h2>講演タイムテーブル</h2>
-<p>15:00 - 15:30（30分）　開場・受付開始
-15:30 - 15:35（ 5分）　 オープニング
-15:40 - 16:20（40分）　基調講演「生成AIによって変革する製品設計のプロトタイピング」
-16:25 - 16:55（30分）　スポンサー講演①
-17:00 - 17:30（30分）　スポンサー講演②
-17:35 - 18:05（30分）　スポンサー講演③
-18:10 - 18:40（30分）　補助金活用支援セッション
-18:45 - 18:55（10分）　クロージング
-19:00 - 20:00（60分）　ネットワーキングパーティー</p>
-<h2>セッションの紹介</h2>
-<h3>基調講演「生成AIによって変革する製品設計のプロトタイピング」</h3>
-<p>産業・エンタメ・教育 ― あらゆる現場で”ものを創る”最前線に立ち続けてきた二人のキーパーソンが、生成AIによって変わる製品設計の未来を読み解きます。</p>
-<p>【ゲスト講演】
-小畑 正好
-デジタルコンテンツクリエイター</p>
-<p>武蔵野美術大学院 空間演出デザインコース修了後、渡米しNHKエンタープライズUSAに参加。帰国後は映画・テレビ・アニメ・ゲーム・インタラクティブコンテンツ等でVFX監督・CGディレクターとして数多くのメジャープロジェクトに参画。現在（社)FDE、㈱ビトル、㈱島精機製作所等数社の役職を併任しデジタルコンテンツの総合的な研究、開発、制作を行う。</p>
-<p>橋本 和幸 氏
-dots in space 代表取締役／シリコンスタジオ 取締役／サイバーエージェント 技術顧問</p>
-<p>1980年代前半からTV・CM業界でCGを活用し活躍。『ファイナルファンタジーVII』のプログラマーとして知られ、映画『ファイナルファンタジー』のホノルルスタジオ設立、Maya開発初期への関与など、日本の3DCG黎明期から中心的役割を果たしてきた。近年はメタバース・コンテンツの開発やR&amp;Dを推進し、複数の企業で次世代技術のアドバイザーを務める。</p>
-<p>【モデレーター】
-落合 研次
-株式会社レッジ 社長室／編集部 編集主幹</p>
-<p>工学修士、経営管理修士。新卒入社の大手SIerで６年間、システム開発の下流から最上流まで担当。GREE・アイスタイル（@cosme運営）で、データ分析/事業企画/プラットフォーム戦略を主導。TIS等で、自動車業界やテレビ業界の大規模IoTプロジェクトのPM/責任者としてPJTを推進。</p>
-<h3>スポンサー講演</h3>
-<p>3D CADのソフトウェアベンダーやハードウェアベンダーによる講演を通じて、3D CADの最新動向を解説。生成AIの登場が産業構造にどのような変化をもたらすのか、ものづくりの現場における未来像を提示します。
-※講演内容は情報が確定次第、ご案内いたします。</p>
-<h3>補助金活用支援セッション</h3>
-<p>「補助金を使えば、最新技術をもっとお得に導入できる」
-本セッションでは、今回のテーマに関連した補助金を幅広くご紹介します。
-国や自治体が提供する多様な制度の紹介に加え、自社に最適な補助金の選び方や活用方法を専門家に直接相談できるサポートもご用意しています。</p>
-<h3>個別相談会</h3>
-<p>登壇企業や専門家と直接話せる個別相談の場を設置。技術導入や制度活用について、参加者の具体的な課題に即したご相談が可能です。</p>
-<h2>開催概要</h2>
-<p>イベント名：Generative AI Conference Series「GENEX」#1
-テーマ：3D CAD × Generative AI
-日時：2025年9月30日（火）15:30〜20:00（15:00開場）
-形式：オフライン（東京都内会場予定）＋ アーカイブ配信あり
-主催：株式会社レッジ
-共催：トランステップ株式会社
-協賛：株式会社日本HP、オートデスク株式会社
-参加費：無料</p>
-<p>:::button
-<a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
-:::</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
@@ -434,131 +276,7 @@ dots in space 代表取締役／シリコンスタジオ 取締役／サイバ�
 <p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
 <p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
 ]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政府、AI政策の司令塔「人工知能戦略本部」を設置──城内科学技術相がAI戦略担当に就任</title>
-      <link>https://ledge.ai/articles/government_ai_strategy_headquarters_established</link>
-      <description><![CDATA[<p>政府は9月1日、内閣に「人工知能戦略本部」を設置したことを<a href="https://www8.cao.go.jp/cstp/stmain/20250901ai.html">発表</a>した。5月に成立した「人工知能関連技術の研究開発及び活用の推進に関する法律（AI推進法）」に基づき、人工知能の研究開発や活用を促進するとともに、フェイクニュースや犯罪への悪用などリスクへの対応も強化する狙いだ。</p>
-<p>同本部は、内閣総理大臣を本部長とし、内閣官房長官と人工知能戦略担当大臣が副本部長、全閣僚が本部員として加わる体制。関係省庁を横断して施策を一元的に推進する司令塔の役割を担う。</p>
-<p>同日付で、科学技術相の城内実氏に「内閣府特命担当大臣（人工知能戦略）」の担務が追加された。城内氏は自身のX（旧Twitter）で、次のように表明した。</p>
-<p>「昨日付で、私の内閣府特命担当大臣の担務に『人工知能戦略』が新たに加わりました。本年5月にAI法が成立し、イノベーションの促進とリスク対応の両立を目的としています。AI戦略を担う大臣としての責任を胸に、世界で最もAIを開発・活用しやすい国を目指し、引き続き尽力してまいります」</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kiuchi_ai_x_5b92ec280d/kiuchi_ai_x_5b92ec280d.jpg" alt="kiuchi ai x.jpg" /></p>
-<p>政府は今後、年内に「AI基本計画」を策定する方針。研究開発支援や産業利用の推進に加え、生成AIによる偽・誤情報の拡散や犯罪利用への対策を議論する見込みだ。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>八王子で実施中のレベル２相当の自動運転バス実証実験で事故──東京都、運行を中止</title>
-      <link>https://ledge.ai/articles/jidoshaunnten_bus_hachioji_accident</link>
-      <description><![CDATA[<p>東京都が八王子市高尾町で実施していた自動運転バスの実証実験で、29日午前11時35分ごろ、バスが道路脇の街路樹に衝突する事故が発生した。東京都は同日、残りの運行をすべて中止すると<a href="https://toshiseibi.jidouunntenn1.metro.tokyo.lg.jp/">発表</a>した。</p>
-<h2>実証実験の概要</h2>
-<p>東京都都市整備局は7月8日、JR高尾駅周辺で自動運転バスを走行させる実証実験を行うと<a href="https://www.metro.tokyo.lg.jp/information/press/2025/07/2025070812">発表</a>した。期間は8月23日から31日までで、既存のバス路線「住01系統」と同じルートを使用。小型の自動運転バス（定員12人、レベル2相当）を導入し、乗車は無料とされた。運行事業者は西東京バスが担い、八王子市や地元自治体と連携して実施された。</p>
-<p>この取組は東京都が掲げる「2050東京戦略」の一環で、戦略18「インフラ・交通──都市活動や都民生活を支える公共交通ネットワークの充実強化」に位置づけられている。
-特設サイトでも案内が行われ、「高尾駅周辺ルートを自動運転バスが走ります！」とPRされていた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250708_11_02_35b6ebfdeb/20250708_11_02_35b6ebfdeb.png" alt="20250708_11_02.png" /></p>
-<h2>事故の発生</h2>
-<p>事故は29日午前11時35分ごろ、甲州街道の直線道路で発生した。実証走行中のバスが道路脇に乗り上げ、街路樹に衝突。フロント部分が損傷し、ガラスにひびが入った。
-ANNや朝日新聞など複数の報道によると、バスには運転手のほか乗客10人余りが乗っており、数人が軽傷を負った。このうち1人は病院に搬送された。警視庁は事故当時の状況を調べている。</p>
-<h2>東京都の対応</h2>
-<p>東京都は事故を受け、特設サイト上で「8月29日に発生しました事故の影響により【運行中止】とさせていただきます」と発表。残り2日間の運行（30日・31日）を取りやめ、乗客や関係者に理解を求めた。</p>
-<h2>今後の影響</h2>
-<p>自動運転バスは深刻化する運転手不足の解決策の一つとして期待されており、東京都内外で実証実験が相次いでいる。青森県むつ市では今回の事故を受け、9月に予定していたテスト走行の延期を決めるなど、影響が広がっているという。</p>
-<p>東京都は「安全性を確保するため、理解いただきたい」と説明しており、今後は事故原因の究明と安全対策の強化が焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
-      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
-      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
-<h2>暗黙知を活用する新技術</h2>
-<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
-<p><strong>cotomi Actの全体像</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
-<h2>ブラウザ拡張で動作</h2>
-<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
-<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
-<h2>世界初の人間超え</h2>
-<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
-<h2>業務効率化と将来展望</h2>
-<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
-      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
-      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
-<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
-<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
-<h2>GPT-5の具体的な活用事例</h2>
-<p>Weil氏は投稿の中で、次の例を紹介した。</p>
-<ul>
-<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
-<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
-<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
-<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
-</ul>
-<h2>背景にあるOpenAIの活動</h2>
-<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
-2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
-2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
-<h2>Weil氏の立場と組織体制</h2>
-<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
-<h2>今後の展望</h2>
-<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
-      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
-      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
-<h2>AI普及と雇用への影響</h2>
-<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
-<h2>Jobs Platformの概要</h2>
-<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
-<h2>OpenAI Certificationsの仕組み</h2>
-<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
-<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
-<h2>提携先と今後の展望</h2>
-<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
-<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
-      <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
-      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
-<p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stanford_digital_economy_lab_e7d01c86ae/stanford_digital_economy_lab_e7d01c86ae.jpg" alt="stanford digital economy lab.jpg" /></p>
-<h2>スタンフォード大が示した「6つの事実」</h2>
-<p>研究チーム（エリック・ブリニョルフソン氏、ジグナシュ・チャンダル氏、ダニエル・チェン氏）は、2022年末から2025年7月までのADP高頻度給与データを用い、職種ごとのAI曝露度と雇用動向を分析。その結果を「6つの事実」として整理した。</p>
-<h3>① 若手雇用の顕著な減少</h3>
-<p>AIに最も曝露された職種、たとえばソフトウェア開発やカスタマーサポートなどでは、22〜25歳の雇用が平均で13％減少していた。研究チームは、この層がキャリアの早い段階にあり、主に定型的・マニュアル的な作業を担うことが多いため、AIによる自動化の影響を直接受けやすいと説明している。初期キャリアの雇用減は将来的なスキル蓄積やキャリア形成にも影響し得るため、社会的な含意は大きい。</p>
-<h3>② 中堅層の安定</h3>
-<p>同じ職種であっても、30代以降の労働者については雇用の変動が小さく、比較的安定していることが確認された。これは、一定の経験や専門性を積んだ中堅層が、AIと協働しながら業務を進められる立場にあることが理由とみられる。つまり、AIが即座に代替するのではなく、人間がAIを活用して付加価値を生み出す局面が増えているという。</p>
-<h3>③ ベテラン層の成長傾向</h3>
-<p>特に40代以上のベテラン層では、むしろ雇用が増加している職種も見られた。研究は、長年の経験から得られる「暗黙知」や現場の判断力はAIで代替できず、AIを補完的に活用することで生産性が高まり、雇用維持どころか拡大につながる場合があると指摘する。若手とは対照的に、ベテランはAIを味方につける形で市場価値を高めている構図が浮かび上がった。</p>
-<h3>④ 賃金ではなく雇用数への影響</h3>
-<p>AI導入によって顕著に減少しているのは「採用される人数」であり、賃金水準そのものには大きな変化は見られない。つまり、給与が下がるのではなく、そもそも新たに雇われる若手の数が減っているという。この「ヘッドカウントの削減」という動きは統計的にも明らかで、企業がAIを活用することで若手人材の需要を抑制していることを示している。</p>
-<h3>⑤ 自動化用途での雇用減</h3>
-<p>雇用への影響は、AIを「自動化のために導入するか」「人間の補助に使うか」で大きく分かれる。完全にAIに置き換える形で導入したケースでは若手雇用の減少が顕著だが、意思決定支援や作業補助といった「拡張（augmentation）」用途では、むしろ人材が維持されるか増える傾向がある。研究は、この違いを明確に示し、AIの使い方次第で雇用効果が大きく変わることを強調している。</p>
-<h3>⑥ 他要因では説明困難</h3>
-<p>テクノロジー業界に特有の景気循環や、コロナ禍以降のリモートワーク普及といった別の要因では、この世代間の差を説明できなかった。統計モデルを調整しても若手層の雇用減少が残ることから、研究チームはAIの影響が主要因である可能性が高いと結論づけている。つまり、この傾向は一過性の景気要因ではなく、AIが労働市場に構造的な変化をもたらしつつあることを裏付ける結果だといえる。</p>
-<h2>世代間コントラスト──若手とベテランで異なる影響</h2>
-<p>研究は、AIが「教科書的知識（codified knowledge）」に依存する業務を代替しやすく、経験に基づく「暗黙知（tacit knowledge）」を要する業務は代替が難しいと指摘。
-そのため暗黙知の蓄積が乏しい若手は雇用リスクが高まり、経験を重ねたベテランはむしろAIの補完によって需要が高まるという世代間コントラストが浮かび上がった。</p>
-<h2>社会的意義と政策的含意</h2>
-<p>こうした傾向は「静かな侵蝕（quiet erosion）」とも呼ばれ、若手のキャリア形成機会が削がれる懸念がある。研究チームは、教育制度の刷新、リスキリングの推進、企業による採用や育成方針の見直しなどが必要になると指摘。炭鉱のカナリアにたとえられる今回の兆候は、今後さらに幅広い職種や世代に影響が及ぶ可能性を示唆している。</p>
-]]></description>
-      <pubDate>Tue, 02 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
@@ -656,7 +374,177 @@ Zhan (Cliff) Chen / 陳 湛</p>
 ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
-      <pubDate>Tue, 19 Aug 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
+      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
+      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
+<h2>暗黙知を活用する新技術</h2>
+<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
+<p><strong>cotomi Actの全体像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
+<h2>ブラウザ拡張で動作</h2>
+<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
+<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
+<h2>世界初の人間超え</h2>
+<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
+<h2>業務効率化と将来展望</h2>
+<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
+      <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
+      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
+<p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stanford_digital_economy_lab_e7d01c86ae/stanford_digital_economy_lab_e7d01c86ae.jpg" alt="stanford digital economy lab.jpg" /></p>
+<h2>スタンフォード大が示した「6つの事実」</h2>
+<p>研究チーム（エリック・ブリニョルフソン氏、ジグナシュ・チャンダル氏、ダニエル・チェン氏）は、2022年末から2025年7月までのADP高頻度給与データを用い、職種ごとのAI曝露度と雇用動向を分析。その結果を「6つの事実」として整理した。</p>
+<h3>① 若手雇用の顕著な減少</h3>
+<p>AIに最も曝露された職種、たとえばソフトウェア開発やカスタマーサポートなどでは、22〜25歳の雇用が平均で13％減少していた。研究チームは、この層がキャリアの早い段階にあり、主に定型的・マニュアル的な作業を担うことが多いため、AIによる自動化の影響を直接受けやすいと説明している。初期キャリアの雇用減は将来的なスキル蓄積やキャリア形成にも影響し得るため、社会的な含意は大きい。</p>
+<h3>② 中堅層の安定</h3>
+<p>同じ職種であっても、30代以降の労働者については雇用の変動が小さく、比較的安定していることが確認された。これは、一定の経験や専門性を積んだ中堅層が、AIと協働しながら業務を進められる立場にあることが理由とみられる。つまり、AIが即座に代替するのではなく、人間がAIを活用して付加価値を生み出す局面が増えているという。</p>
+<h3>③ ベテラン層の成長傾向</h3>
+<p>特に40代以上のベテラン層では、むしろ雇用が増加している職種も見られた。研究は、長年の経験から得られる「暗黙知」や現場の判断力はAIで代替できず、AIを補完的に活用することで生産性が高まり、雇用維持どころか拡大につながる場合があると指摘する。若手とは対照的に、ベテランはAIを味方につける形で市場価値を高めている構図が浮かび上がった。</p>
+<h3>④ 賃金ではなく雇用数への影響</h3>
+<p>AI導入によって顕著に減少しているのは「採用される人数」であり、賃金水準そのものには大きな変化は見られない。つまり、給与が下がるのではなく、そもそも新たに雇われる若手の数が減っているという。この「ヘッドカウントの削減」という動きは統計的にも明らかで、企業がAIを活用することで若手人材の需要を抑制していることを示している。</p>
+<h3>⑤ 自動化用途での雇用減</h3>
+<p>雇用への影響は、AIを「自動化のために導入するか」「人間の補助に使うか」で大きく分かれる。完全にAIに置き換える形で導入したケースでは若手雇用の減少が顕著だが、意思決定支援や作業補助といった「拡張（augmentation）」用途では、むしろ人材が維持されるか増える傾向がある。研究は、この違いを明確に示し、AIの使い方次第で雇用効果が大きく変わることを強調している。</p>
+<h3>⑥ 他要因では説明困難</h3>
+<p>テクノロジー業界に特有の景気循環や、コロナ禍以降のリモートワーク普及といった別の要因では、この世代間の差を説明できなかった。統計モデルを調整しても若手層の雇用減少が残ることから、研究チームはAIの影響が主要因である可能性が高いと結論づけている。つまり、この傾向は一過性の景気要因ではなく、AIが労働市場に構造的な変化をもたらしつつあることを裏付ける結果だといえる。</p>
+<h2>世代間コントラスト──若手とベテランで異なる影響</h2>
+<p>研究は、AIが「教科書的知識（codified knowledge）」に依存する業務を代替しやすく、経験に基づく「暗黙知（tacit knowledge）」を要する業務は代替が難しいと指摘。
+そのため暗黙知の蓄積が乏しい若手は雇用リスクが高まり、経験を重ねたベテランはむしろAIの補完によって需要が高まるという世代間コントラストが浮かび上がった。</p>
+<h2>社会的意義と政策的含意</h2>
+<p>こうした傾向は「静かな侵蝕（quiet erosion）」とも呼ばれ、若手のキャリア形成機会が削がれる懸念がある。研究チームは、教育制度の刷新、リスキリングの推進、企業による採用や育成方針の見直しなどが必要になると指摘。炭鉱のカナリアにたとえられる今回の兆候は、今後さらに幅広い職種や世代に影響が及ぶ可能性を示唆している。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、製品実験プラットフォームStatsigを買収──創業者Raji氏がApplications部門CTOに就任</title>
+      <link>https://ledge.ai/articles/openai_acquires_statsig_applications_cto_raji</link>
+      <description><![CDATA[<p>OpenAIは2025年9月2日、製品実験プラットフォームを提供する米スタートアップのStatsigを買収すると<a href="https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/">発表</a>した。取引の詳細は非公開だが、Statsigの創業者兼CEOであるVijaye Raji（ヴィジャイ・ラジ）氏が、OpenAIの「CTO of Applications」に就任する。今後はChatGPTを含むアプリケーション開発の統括を担う。</p>
+<p>Statsigは2021年に設立され、A/Bテストや機能フラグ管理などを通じて、プロダクトチームが迅速に意思決定できる実験プラットフォームを提供してきた。顧客にはAtlassian、Notion、Brexなどが名を連ねる。買収後もStatsigはシアトル拠点で独立運営を続け、既存顧客へのサービス提供も継続するという。</p>
+<p>OpenAIは今回の買収を通じ、モデル開発からアプリケーション展開へのシフトをさらに加速させる考えだ。Raji氏のリーダーシップのもと、Statsigのデータ駆動型アプローチを組み込むことで、ChatGPTなど主要製品の改善スピードと品質向上を狙う。
+買収手続きは規制当局の承認を条件として完了する見込みだ。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「AIがAIを悪用する時代」──Anthropic、北朝鮮の雇用詐欺からランサムウェアまでClaudeの最新悪用事例を公表</title>
+      <link>https://ledge.ai/articles/ai_misuse_anthropic_north_korea_ransomware</link>
+      <description><![CDATA[<p>米AIスタートアップのAnthropicは8月、最新の脅威インテリジェンスレポート「Threat Intelligence Report: August 2025」を<a href="https://www.anthropic.com/news/detecting-countering-misuse-aug-2025">公開</a>し、同社のAIモデル「Claude」が悪用された複数のサイバー犯罪事例を明らかにした。公式YouTube動画では、脅威インテリジェンスチームが具体的な攻撃手口や検知の仕組みを解説している。</p>
+<h2>北朝鮮の雇用詐欺、AIが「能力の幻想」を生む</h2>
+<p>北朝鮮のIT人材は、偽の履歴書や職務経歴を用いて大手テクノロジー企業にリモート就業し、Claudeを利用して雇用を維持していた。かつては語学や高度な技術スキルを持つ人材のみが採用面接を突破していたが、現在ではスキルの乏しい個人でもAIの支援で「能力の幻想」を装えるようになっているとレポートは述べている。</p>
+<p>Claudeは履歴書やカバーレターの作成、面接回答の生成、さらには基本的なプログラミングや業務ツールの操作方法まで代行。これにより、雇用者は実際には自力で作業できない労働者を採用してしまうケースが増加している。FBIは、これらの不正雇用によって年間数億ドル規模の資金が北朝鮮の兵器開発に流入していると評価している。</p>
+<h2>「バイブハッキング」で17組織を同時攻撃</h2>
+<p>動画で紹介された事例の一つが「バイブハッキング」だ。これは攻撃者が自然言語プロンプトを通じてAIにコードを生成させ、実際の不正活動を実行させる手法である。ある単独犯はClaudeを利用し、1か月で政府機関や医療機関、防衛請負業者、教会など17組織を標的にデータ恐喝を行った。</p>
+<p>攻撃では、Claudeがネットワーク探索、横移動、機密データの窃取、恐喝状の作成まで担い、通常なら複数の犯罪者集団が数か月かける規模の作戦を一人で遂行可能にしたという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EsCNkDrIGCw">YouTube</a></p>
+<h2>RaaSからロマンス詐欺まで広がるAI悪用</h2>
+<p>レポートと動画では他にも、さまざまなAI悪用の実態を明らかにしている。</p>
+<ul>
+<li><strong>ランサムウェア・アズ・ア・サービス（RaaS）</strong> ：英国人とされる開発者がClaudeを使って洗練されたランサムウェアを作成し、ダークウェブで販売。</li>
+<li><strong>ロマンス詐欺ボット</strong> ：Telegram上のサービスにClaudeが「高EQモデル」として組み込まれ、数万人のユーザーが詐欺メッセージ作成に利用。</li>
+<li><strong>中国語を話す攻撃者によるスパイ活動</strong> ：ベトナムの通信会社を標的に、Claudeを使ってネットワーク分析や攻撃戦略の立案を支援。</li>
+</ul>
+<h2>防御側もAIで対抗</h2>
+<p>Anthropicは、北朝鮮のグループ「Contagious Interview」がClaudeを使おうとした際、同社の検知システムが即座にアカウントを遮断したと説明した。さらに、IPアドレスやメールアドレスといった技術的指標を政府・業界パートナーと共有し、防御網を強化している。
+同社は「AIがAIを悪用する時代に対抗するには、AIでAIを守るパラダイムシフトが必要だ」と強調した。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ワーナー・ブラザース・ディスカバリー、Midjourneyを提訴──「スーパーマン」「バットマン」など無断利用、ディズニーやユニバーサルに続き法廷へ</title>
+      <link>https://ledge.ai/articles/warner_bros_sues_midjourney_copyright_superman_batman</link>
+      <description><![CDATA[<p>米ワーナー・ブラザース・ディスカバリー（WBD）は2025年9月4日、AI画像生成サービス「Midjourney」に対し、同社が保有するキャラクターの著作権を侵害したとしてロサンゼルス連邦地裁に訴訟を提起した。<a href="https://www.reuters.com/legal/litigation/warner-bros-discovery-sues-ai-photo-generator-midjourney-stealing-superman-2025-09-04/">ロイター</a>など複数の海外メディアが報じた。</p>
+<p>訴状によると、Midjourneyは「スーパーマン」「バットマン」「ワンダーウーマン」「ジョーカー」「スクービー・ドゥー」など、同社の人気キャラクターを無断で学習データに利用。ユーザーが簡単なプロンプトを入力するだけで、これらのキャラクターを再現した画像や動画が生成できる状態になっていると指摘されている。</p>
+<p><strong>Midjourneyによるスーパーマンの生成例（左）と、WBDの著作物（右）（訴状より引用）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_8b75ef8f46/_8b75ef8f46.jpg" alt="スーパーマン１.jpg" /></p>
+<p>WBDは、過去に設けられていた生成制限が撤廃されたことで侵害が容易になり、「数え切れないほどのコピー」が生まれていると主張。著作権侵害の差止め命令、損害賠償、利益返還を求めており、AP通信によれば1作品あたり最大15万ドルの損害賠償請求の可能性があるという。</p>
+<p><strong>Midjourneyによるバットマンの生成例（左）と、映画作品の場面（右）（訴状より引用）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_0699155b9b/_0699155b9b.jpg" alt="バットマン４.jpg" /></p>
+<p>これに対してMidjourneyは、「数十億の公開画像を用いた学習は言語や視覚概念の習得に不可欠であり、フェアユースに当たる」と反論。また、著作権保護は利用者の規約遵守に依存し、企業側に責任はないと主張している。</p>
+<p><strong>Midjourneyによる『トムとジェリー』の生成例（左）と、オリジナルのアニメ作品（右）（訴状より引用）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_23cf9d614c/_23cf9d614c.jpg" alt="トムとジェリー２.jpg" /></p>
+<p>今回の提訴は、6月にディズニーやユニバーサルがMidjourneyを訴えた事例に続くもので、大手映画会社による法的措置が相次いでいる。</p>
+]]></description>
+      <pubDate>Sat, 06 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>政治思想とAI受容の相関、保守はリベラルよりもAIの“オススメ”に従いやすい──米研究が6つの実験で確認</title>
+      <link>https://ledge.ai/articles/ai_recommendation_political_ideology_study</link>
+      <description><![CDATA[<p>米モントクレア州立大学やイーロン大学などの研究チームは2025年5月、人工知能（AI）が行う推薦（レコメンデーション）の受容度と政治思想の関連を調査した結果を Journal of Consumer Psychology に<a href="https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1461">発表</a>した。6つの実験と広告調査を通じ、保守派はリベラル派よりもAIのオススメを受け入れやすい傾向が明らかになった。</p>
+<h2>6つの実験と広告調査で検証</h2>
+<p>研究には合計1,548人が参加し、映画や音楽、レシピといった日常的な領域を題材に実験が行われた。その結果は一貫して「保守派はAI推薦を受け入れやすい」という傾向を示していた。</p>
+<ul>
+<li>レシピサイトや映画、音楽など複数のサービスを想定した調査で、保守派はリベラル派に比べてAI推薦を受け入れやすいことが示された。</li>
+<li>心理的要因を分析した調査では、保守派は「変化への抵抗感」が強く、その結果「一貫性を重視する」傾向が高いことが分かった。</li>
+<li>AI推薦は過去の利用履歴に沿って提示されると理解されやすく、こうした特性が保守派の受容を後押ししていた。</li>
+<li>サービスの利用状況を切り口にした調査では、履歴が蓄積した長期ユーザーの場合のみ、保守派の受容度が高まることが確認された。新規ユーザーや嗜好から外れた推薦では効果が薄まる。</li>
+<li>実際の選択を伴うインセンティブ付きの調査では、保守派は「履歴ベースの推薦」を行うアプリを好む傾向が明確に示された。</li>
+<li>Facebookで実施した広告調査では、AIが作成した音楽プレイリストを宣伝する広告に対し、保守的地域のクリック率が0.33%と、リベラル地域（0.13%）のおよそ2.5倍に達した。</li>
+</ul>
+<h2>一貫性志向が影響</h2>
+<p>研究チームは、この傾向の背景に「変化への抵抗」と「一貫性の重視」という保守派の心理特性があると分析する。AI推薦は過去の嗜好を反映したものと解釈されやすく、保守派にとって安心して受け入れられる要素となる。</p>
+<p>一方、リベラル派がAIの推薦を必ずしも拒否しているわけではなく、受け入れ度は相対的に低いにとどまる。研究者らは「AIの受容度は政治思想や心理的傾向と密接に関係しており、マーケティングやサービス設計に新たな視点を与える」としている。</p>
+]]></description>
+      <pubDate>Sat, 06 Sep 2025 05:23:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>天津大学ら、LLMで人体臓器をAIエージェント化──「Organ-Agents」で9システムを統合的にシミュレーション</title>
+      <link>https://ledge.ai/articles/organ_agents_virtual_human_llm</link>
+      <description><![CDATA[<p>中国・天津大学などに所属する研究チームは、2025年8月20日に論文「Organ-Agents: Virtual Human Physiology Simulator via LLMs」を<a href="https://arxiv.org/abs/2508.14357">発表</a>した。大規模言語モデル（LLM）を活用し、患者の臓器をバーチャルなAIエージェントとして表現することで、人体の複雑な生理学的変化を再現できると報告している。</p>
+<h2>人体を「9つの臓器エージェント」に分解</h2>
+<p>Organ-Agentsは、心臓や肺、肝臓など9つの臓器システムをそれぞれ独立したエージェントとしてモデル化。臓器同士の相互作用を通じて、患者の病態がどのように変化するかをシミュレーションできる仕組みを構築した。</p>
+<p><strong>天津大学らが提案した『Organ-Agents』の全体像。患者データから臓器システムをエージェント化し、相互作用を通じて生理学的変化をシミュレーションする</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_4_fbd0699774/x1_4_fbd0699774.png" alt="x1 (4).png" /></p>
+<h2>学習プロセスとシステム構成</h2>
+<p>モデルはLoRAによるチューニングに加え、Analyzer、Correlator、Compensatorといった補助エージェントを組み合わせることで、シミュレーションの精度を高めている。</p>
+<p>さらに、学習は二段階で進む。まずは各臓器を個別にシミュレーション（Stage I）、その後に臓器間の相互作用を通じた強化学習（Stage II）を実施することで、現実的な挙動を再現する。</p>
+<p><strong>Organ-Agentsのモデル化と学習プロセス。第I段階では各臓器を個別にシミュレーションし、第II段階では相互作用を通じて精度を高めている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_1_8d9f3c7567/x5_1_8d9f3c7567.png" alt="x5 (1).png" /></p>
+<h2>データと検証結果</h2>
+<p>検証には7,134人の敗血症患者と7,895人の非敗血症患者の臨床データを活用。125種類の生理学的変数を対象に時間的な軌跡を生成し、平均二乗誤差（MSE）は0.16未満と高精度を示した。</p>
+<p>また、臨床医による評価でも高い現実性が確認され、Likertスコアは3.9および3.7に達した。反事実シナリオのシミュレーション（治療方針を変えた場合の予測）や外部データを用いた検証、早期警戒システムとしての利用でも有効性が確認されている。</p>
+<p><strong>Organ-Agentsにおけるプロンプトと出力例。臨床データに基づき、心血管系や血液系などのシステムが動的に応答する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_1_61b1fe0f4b/x6_1_61b1fe0f4b.png" alt="x6 (1).png" /></p>
+<h2>医療応用への期待</h2>
+<p>研究チームは、「Organ-Agentsは医療現場の意思決定支援や治療効果の予測に新たな道を開く」としている。人体をシステム全体で捉えるアプローチにより、従来の単一臓器に基づく予測モデルを超える可能性が示された。</p>
+<p>論文は次のように結論づけている。「Organ-Agentsは、人体の複雑な生理学をLLMで表現し、医療AI研究における新たな基盤技術となり得る」。今後は臨床現場での実装に向けて、さらなる拡張や実証研究が期待される。</p>
+]]></description>
+      <pubDate>Sat, 06 Sep 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
