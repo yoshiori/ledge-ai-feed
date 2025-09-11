@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>東大発スタートアップELYZA、独自の業務AIアプリをAIが作成するツール「ELYZA Works」を提供開始──法人向け生成AI活用を加速</title>
+      <link>https://ledge.ai/articles/elyza_works_ai_app_autotool_launch</link>
+      <description><![CDATA[<p>東京大学発スタートアップのELYZAは2025年9月9日、業務を人工知能（AI）で自動化する法人向けアプリケーション作成支援ツール「ELYZA Works」を提供開始したことを<a href="https://prtimes.jp/main/html/rd/p/000000063.000047565.html">発表</a>した。このツールは、企業が生成AIを活用し、プログラミング知識がなくても独自の業務アプリを迅速に構築できることを目的としている。</p>
+<p><strong>ELYZA Worksの仕組み：AIが自社専用の業務アプリを生成し、現場で共有・利用しながら改善を重ねる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_63_8ac393c2edbcd137adefdbe50ca4a3ca_1920x1080_147860e457/47565_63_8ac393c2edbcd137adefdbe50ca4a3ca_1920x1080_147860e457.webp" alt="47565-63-8ac393c2edbcd137adefdbe50ca4a3ca-1920x1080.webp" /></p>
+<p>近年、国内でも生成AIの導入が加速しているが、専門知識の不足が企業利用拡大の障壁となっている。ELYZAは「ELYZA Works」を通じて、専門スキルがなくても導入可能な環境を提供し、企業の生産性向上を支援するとしている。</p>
+<p><strong>出張関連の質問に自動で回答するアプリ例。AIが入力内容に応じて規定やベストプラクティスを参照し、適切な回答を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_63_c6616122552077e18acf13fe101f5880_1920x1365_9ef954a77f/47565_63_c6616122552077e18acf13fe101f5880_1920x1365_9ef954a77f.webp" alt="47565-63-c6616122552077e18acf13fe101f5880-1920x1365.webp" /></p>
+<p>ELYZAは、東京大学松尾研究室を母体として設立されたスタートアップ。日本語に強い大規模言語モデル「ELYZA Japanese LLM」をはじめ、法人向けに特化した生成AIサービスを展開してきた実績を持つ。</p>
+<p>同社は今後国内企業への導入事例を拡大し、パートナーシップを強化していく方針を示している。数年内に利用者10万人規模を目指し、日本企業の業務効率化を後押しする考えだ。</p>
+]]></description>
+      <pubDate>Thu, 11 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
       <link>https://ledge.ai/articles/webinar-vol69</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
@@ -328,18 +342,6 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>論文は次のように結論づけている。「Organ-Agentsは、人体の複雑な生理学をLLMで表現し、医療AI研究における新たな基盤技術となり得る」。今後は臨床現場での実装に向けて、さらなる拡張や実証研究が期待される。</p>
 ]]></description>
       <pubDate>Sat, 06 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>あすか製薬HD、米投資ファンドDaltonに「情報リスト」への回答を再要請──生成AIで調べよとの回答を問題視</title>
-      <link>https://ledge.ai/articles/aska_hd_dalton_information_request_ai_response_issue</link>
-      <description><![CDATA[<p>あすか製薬ホールディングス（東京都港区、以下、あすか製薬HD）は9月2日、米投資ファンドのDalton Investmentsらに対し、株式の大規模買付行為に関する「情報リスト」への回答を改めて要請したと<a href="https://kabutan.jp/disclosures/pdf/20250902/140120250902552045/">発表</a>した。株主判断に必要な情報の提供を求める同社に対し、Dalton側が「ChatGPTやPerplexityを使って調べればよい」とするメールを送付したことを問題視した。</p>
-<p>あすか製薬HDは7月1日、Dalton Investmentsや関連ファンドによる株式買い増しを踏まえ、買収防衛を目的とした「対応方針」を導入。その後、8月18日にDaltonらから提出された「趣旨説明書」を受領し、補足情報を求める「情報リスト」を交付した。</p>
-<p>しかし、8月29日、Daltonの最高投資責任者（CIO）であるJames B. Rosenwald III氏が、山口惣大社長宛に英文のメールを送付。その中で同氏は、「質問はインターネットで得られる」「ChatGPTやPerplexityを利用すればよい」と主張し、情報リストのやり取りは「無駄な手続」と述べた。あすか製薬HDは、この対応を「事実上の回答拒否」と判断した。</p>
-<p>同社は、情報リストは株主および取締役会が適切な判断を行うために不可欠であり、日本語での正式回答が必要だと強調。経済産業省が2023年に公表した「企業買収における行動指針」で掲げられた「透明性の原則」にも照らし、Dalton側の対応は不適切だと指摘した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/asuka_dalton2_c6831d4568/asuka_dalton2_c6831d4568.jpg" alt="asuka dalton2.jpg" /></p>
-<p>さらに同社は、Daltonらが今後も正規の手続きを経ずに大規模買付行為を進めた場合、株主が「強い強圧性」に晒される可能性があると懸念を表明。株主の利益を守るためにも、必要な情報の提供は不可欠であるとし、改めて回答を要請した。今後もDalton側との対話状況について、適時開示を続けるとしている。</p>
-]]></description>
-      <pubDate>Fri, 05 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/5 [FRI]16歳自殺訴訟を受け、数日で対応強化──OpenAI、ChatGPTにペアレンタルコントロール導入へ</title>
