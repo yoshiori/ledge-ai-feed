@@ -82,76 +82,6 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Thu, 11 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
-      <link>https://ledge.ai/articles/webinar-vol69</link>
-      <description><![CDATA[<h2>ウェビナー概要</h2>
-<p>Ledge.ai Webinar vol.69では、「ローカルLLMで構築するマルチモーダルRAG」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。本ウェビナーは、株式会社ハイレゾ様とのシリーズウェビナー企画の第4弾としてお届けいたします。</p>
-<p>RAGというキーワードは、自社のデータの活用という文脈で注目を集めているキーワード。
-今回はその中でもマルチモーダルRAGにスポットライトをあててお送りします。</p>
-<p>請求書や報告書、マニュアルなど、ビジネス文書にはテキストだけでなく画像や図表が豊富に含まれています。従来のRAG（Retrieval-Augmented Generation）では、OCR（光学的文字認識）によるテキスト抽出が主流でしたが、文字化けや複雑なレイアウトの誤認識といった課題がありました。</p>
-<p>今回のウェビナーでは、これらの課題を解決する「マルチモーダルRAG」に焦点を当てます。文書ページを画像として直接処理し、視覚的なレイアウト情報を保持したまま情報を抽出するアプローチです。最新の視覚言語モデルである「Qwen2.5-VL」とベクトルデータベースを用い、ローカル環境で高精度なRAGを構築する具体的な手法を、コード解説を交えたデモンストレーションでご紹介します。</p>
-<p><strong>ウェビナーの内容</strong></p>
-<ul>
-<li>従来のRAGにおける画像・図表を含む文書の課題</li>
-<li>マルチモーダルRAGの概要と、OCRレスなアプローチの優位性</li>
-<li>GPUクラウド「GPUSOROBAN」を活用したマルチモーダルRAGの実装デモンストレーション</li>
-</ul>
-<p><strong>このような方におすすめ</strong></p>
-<ul>
-<li>画像や図表を多く含むPDFから情報を正確に抽出したい方</li>
-<li>マルチモーダルRAGの具体的な実装方法を知りたい方</li>
-<li>ローカル環境で動作するLLM/VLMの活用に興味がある方</li>
-<li>GPUリソースを効率的に活用しながらAI開発を進めたい方</li>
-</ul>
-<h2>視聴者特典</h2>
-<p><strong>【特典①】デモで使用したサンプルコードをプレゼント！</strong>
-本ウェビナーのアンケートにご回答いただいた方全員に、デモで使用したソースコードをプレゼントいたします。視聴後すぐに、ご自身の環境で再現・検証が可能です。</p>
-<p><strong>【特典②】H200 GPU 30日間無料トライアルキャンペーン！</strong>
-さらに、ハイレゾでは現在、「NVIDIA H200」を搭載したGPUクラウドサービス「AIスパコンクラウド」を30日間無料でお試しいただける特別なキャンペーンも実施中です。
-（詳細はウェビナー内およびアンケート回答後のご案内をご確認ください。）</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/h200_gpu_free_trial1200_bd3d66cf05/h200_gpu_free_trial1200_bd3d66cf05.jpg" alt="h200-gpu-free-trial1200.jpg" /></p>
-<h2>登壇者情報</h2>
-<p>株式会社ハイレゾ
-GPU事業本部　マーケティング部　グループ長
-山田 岳史</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/highreso_yamadasama_2a984e3aa6/highreso_yamadasama_2a984e3aa6.jpg" alt="highreso-yamadasama.jpg" /></p>
-<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
-GPUクラウドサービスのマーケティング担当。</p>
-<h2>お申し込みはこちら</h2>
-<p>配信期間：2025年9月11日(木)〜2025年10月3日(金)
-配信方式：オンデマンド（Zoom）
-参加費：無料</p>
-<p>:::button
-<a href="https://zfrmz.com/rhh3WJORYMZvkfiGN0IR">ウェビナーの視聴はこちら</a>
-:::</p>
-]]></description>
-      <pubDate>Thu, 11 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
-      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
-      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
-<h2>プランごとの利用上限</h2>
-<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
-<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
-<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
-]]></description>
-      <pubDate>Thu, 11 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
-      <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
-      <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
-<p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
-まずプレトレーニング段階では、モデルは大規模なテキストデータから言語の確率分布を学習するが、この過程自体が統計的に誤りを生み出す要因となる。誤りは「バイナリ分類（正しい／誤り）」の誤分類と同様に不可避であり、訓練データに誤りが含まれていなくても誤答が発生すると分析している。</p>
-<p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
-<p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
-<p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
-]]></description>
-      <pubDate>Wed, 10 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/9/10 [WED]Google検索、日本語版「AIモード」を開始──Gemini 2.5活用で複雑な質問にも文脈理解</title>
       <link>https://ledge.ai/articles/google_search_ai_mode_japan_start</link>
       <description><![CDATA[<p>Googleは9月9日、日本の「Google検索」で新機能「AIモード」の提供を開始したことを<a href="https://blog.google/intl/ja-jp/products/explore-get-answers/ai-mode-search/">発表</a>した。Gemini 2.5のカスタムバージョンを活用し、従来よりも複雑で文脈依存の強い質問に対して、単一クエリで包括的な回答を提示できるのが特徴となる。</p>
@@ -266,7 +196,7 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>今後はヨーロッパにおけるAI研究・教育基盤としての活用が期待されるほか、公共サービスや産業界への応用も視野に入っている。今回の公開は、AIのオープン化と社会的な信頼構築に向けた大きな一歩といえる。</p>
 <p>@<a href="https://www.youtube.com/watch?v=atObT7Xnbdk">YouTube</a></p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
@@ -278,7 +208,7 @@ GPUクラウドサービスのマーケティング担当。</p>
 DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
 @<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
@@ -338,6 +268,18 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
 <p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
 <p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
+      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
+      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
+<h2>プランごとの利用上限</h2>
+<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
+<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
+<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
 ]]></description>
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
@@ -461,6 +403,18 @@ ld_media_sales@ledge.co.jp
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
+      <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
+      <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
+<p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
+まずプレトレーニング段階では、モデルは大規模なテキストデータから言語の確率分布を学習するが、この過程自体が統計的に誤りを生み出す要因となる。誤りは「バイナリ分類（正しい／誤り）」の誤分類と同様に不可避であり、訓練データに誤りが含まれていなくても誤答が発生すると分析している。</p>
+<p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
+<p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
+<p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
       <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
       <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
@@ -487,30 +441,48 @@ ld_media_sales@ledge.co.jp
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>スタンフォード大研究、AIで若手雇用13％減──ベテランは安定・成長傾向を「6つの事実」で提示</title>
-      <link>https://ledge.ai/articles/stanford_ai_employment_six_facts</link>
-      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年8月、生成AIの普及が労働市場に与える影響をまとめた論文「Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence」を<a href="https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/">公開</a>した。</p>
-<p>ADPの給与データを用いた分析により、AIに最も曝露された職種で22〜25歳の雇用が平均13％減少していることが明らかになった。一方で、ベテラン層の雇用は安定、もしくは成長傾向を示しているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stanford_digital_economy_lab_e7d01c86ae/stanford_digital_economy_lab_e7d01c86ae.jpg" alt="stanford digital economy lab.jpg" /></p>
-<h2>スタンフォード大が示した「6つの事実」</h2>
-<p>研究チーム（エリック・ブリニョルフソン氏、ジグナシュ・チャンダル氏、ダニエル・チェン氏）は、2022年末から2025年7月までのADP高頻度給与データを用い、職種ごとのAI曝露度と雇用動向を分析。その結果を「6つの事実」として整理した。</p>
-<h3>① 若手雇用の顕著な減少</h3>
-<p>AIに最も曝露された職種、たとえばソフトウェア開発やカスタマーサポートなどでは、22〜25歳の雇用が平均で13％減少していた。研究チームは、この層がキャリアの早い段階にあり、主に定型的・マニュアル的な作業を担うことが多いため、AIによる自動化の影響を直接受けやすいと説明している。初期キャリアの雇用減は将来的なスキル蓄積やキャリア形成にも影響し得るため、社会的な含意は大きい。</p>
-<h3>② 中堅層の安定</h3>
-<p>同じ職種であっても、30代以降の労働者については雇用の変動が小さく、比較的安定していることが確認された。これは、一定の経験や専門性を積んだ中堅層が、AIと協働しながら業務を進められる立場にあることが理由とみられる。つまり、AIが即座に代替するのではなく、人間がAIを活用して付加価値を生み出す局面が増えているという。</p>
-<h3>③ ベテラン層の成長傾向</h3>
-<p>特に40代以上のベテラン層では、むしろ雇用が増加している職種も見られた。研究は、長年の経験から得られる「暗黙知」や現場の判断力はAIで代替できず、AIを補完的に活用することで生産性が高まり、雇用維持どころか拡大につながる場合があると指摘する。若手とは対照的に、ベテランはAIを味方につける形で市場価値を高めている構図が浮かび上がった。</p>
-<h3>④ 賃金ではなく雇用数への影響</h3>
-<p>AI導入によって顕著に減少しているのは「採用される人数」であり、賃金水準そのものには大きな変化は見られない。つまり、給与が下がるのではなく、そもそも新たに雇われる若手の数が減っているという。この「ヘッドカウントの削減」という動きは統計的にも明らかで、企業がAIを活用することで若手人材の需要を抑制していることを示している。</p>
-<h3>⑤ 自動化用途での雇用減</h3>
-<p>雇用への影響は、AIを「自動化のために導入するか」「人間の補助に使うか」で大きく分かれる。完全にAIに置き換える形で導入したケースでは若手雇用の減少が顕著だが、意思決定支援や作業補助といった「拡張（augmentation）」用途では、むしろ人材が維持されるか増える傾向がある。研究は、この違いを明確に示し、AIの使い方次第で雇用効果が大きく変わることを強調している。</p>
-<h3>⑥ 他要因では説明困難</h3>
-<p>テクノロジー業界に特有の景気循環や、コロナ禍以降のリモートワーク普及といった別の要因では、この世代間の差を説明できなかった。統計モデルを調整しても若手層の雇用減少が残ることから、研究チームはAIの影響が主要因である可能性が高いと結論づけている。つまり、この傾向は一過性の景気要因ではなく、AIが労働市場に構造的な変化をもたらしつつあることを裏付ける結果だといえる。</p>
-<h2>世代間コントラスト──若手とベテランで異なる影響</h2>
-<p>研究は、AIが「教科書的知識（codified knowledge）」に依存する業務を代替しやすく、経験に基づく「暗黙知（tacit knowledge）」を要する業務は代替が難しいと指摘。
-そのため暗黙知の蓄積が乏しい若手は雇用リスクが高まり、経験を重ねたベテランはむしろAIの補完によって需要が高まるという世代間コントラストが浮かび上がった。</p>
-<h2>社会的意義と政策的含意</h2>
-<p>こうした傾向は「静かな侵蝕（quiet erosion）」とも呼ばれ、若手のキャリア形成機会が削がれる懸念がある。研究チームは、教育制度の刷新、リスキリングの推進、企業による採用や育成方針の見直しなどが必要になると指摘。炭鉱のカナリアにたとえられる今回の兆候は、今後さらに幅広い職種や世代に影響が及ぶ可能性を示唆している。</p>
+      <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
+      <link>https://ledge.ai/articles/webinar-vol69</link>
+      <description><![CDATA[<h2>ウェビナー概要</h2>
+<p>Ledge.ai Webinar vol.69では、「ローカルLLMで構築するマルチモーダルRAG」をテーマに、GPUクラウドサービス「GPUSOROBAN」を提供する株式会社ハイレゾ様をゲストにお迎えし、実演デモを交えながらご解説いただきます。本ウェビナーは、株式会社ハイレゾ様とのシリーズウェビナー企画の第4弾としてお届けいたします。</p>
+<p>RAGというキーワードは、自社のデータの活用という文脈で注目を集めているキーワード。
+今回はその中でもマルチモーダルRAGにスポットライトをあててお送りします。</p>
+<p>請求書や報告書、マニュアルなど、ビジネス文書にはテキストだけでなく画像や図表が豊富に含まれています。従来のRAG（Retrieval-Augmented Generation）では、OCR（光学的文字認識）によるテキスト抽出が主流でしたが、文字化けや複雑なレイアウトの誤認識といった課題がありました。</p>
+<p>今回のウェビナーでは、これらの課題を解決する「マルチモーダルRAG」に焦点を当てます。文書ページを画像として直接処理し、視覚的なレイアウト情報を保持したまま情報を抽出するアプローチです。最新の視覚言語モデルである「Qwen2.5-VL」とベクトルデータベースを用い、ローカル環境で高精度なRAGを構築する具体的な手法を、コード解説を交えたデモンストレーションでご紹介します。</p>
+<p><strong>ウェビナーの内容</strong></p>
+<ul>
+<li>従来のRAGにおける画像・図表を含む文書の課題</li>
+<li>マルチモーダルRAGの概要と、OCRレスなアプローチの優位性</li>
+<li>GPUクラウド「GPUSOROBAN」を活用したマルチモーダルRAGの実装デモンストレーション</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>画像や図表を多く含むPDFから情報を正確に抽出したい方</li>
+<li>マルチモーダルRAGの具体的な実装方法を知りたい方</li>
+<li>ローカル環境で動作するLLM/VLMの活用に興味がある方</li>
+<li>GPUリソースを効率的に活用しながらAI開発を進めたい方</li>
+</ul>
+<h2>視聴者特典</h2>
+<p><strong>【特典①】デモで使用したサンプルコードをプレゼント！</strong>
+本ウェビナーのアンケートにご回答いただいた方全員に、デモで使用したソースコードをプレゼントいたします。視聴後すぐに、ご自身の環境で再現・検証が可能です。</p>
+<p><strong>【特典②】H200 GPU 30日間無料トライアルキャンペーン！</strong>
+さらに、ハイレゾでは現在、「NVIDIA H200」を搭載したGPUクラウドサービス「AIスパコンクラウド」を30日間無料でお試しいただける特別なキャンペーンも実施中です。
+（詳細はウェビナー内およびアンケート回答後のご案内をご確認ください。）</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/h200_gpu_free_trial1200_bd3d66cf05/h200_gpu_free_trial1200_bd3d66cf05.jpg" alt="h200-gpu-free-trial1200.jpg" /></p>
+<h2>登壇者情報</h2>
+<p>株式会社ハイレゾ
+GPU事業本部　マーケティング部　グループ長
+山田 岳史</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/highreso_yamadasama_2a984e3aa6/highreso_yamadasama_2a984e3aa6.jpg" alt="highreso-yamadasama.jpg" /></p>
+<p>IoTの領域で事業開発の経験を経てハイレゾに入社。
+GPUクラウドサービスのマーケティング担当。</p>
+<h2>お申し込みはこちら</h2>
+<p>配信期間：2025年9月11日(木)〜2025年10月3日(金)
+配信方式：オンデマンド（Zoom）
+参加費：無料</p>
+<p>:::button
+<a href="https://zfrmz.com/rhh3WJORYMZvkfiGN0IR">ウェビナーの視聴はこちら</a>
+:::</p>
 ]]></description>
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
