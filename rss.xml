@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>富士通、1ビット量子化によるAIの軽量化・省電力化──「生成AI再構成技術」で用途特化型LLM「Takane」を強化</title>
+      <link>https://ledge.ai/articles/fujitsu_1bit_quantization_takane_lightweight_power_saving</link>
+      <description><![CDATA[<p>富士通は2025年9月8日、AIサービス「Fujitsu Kozuchi」の中核技術として、大規模言語モデル（LLM）の軽量化と省電力化を実現する「生成AI再構成技術」を開発したと<a href="https://global.fujitsu/ja-jp/pr/news/2025/09/08-01">発表</a>した。同技術を自社LLM「Takane」に適用し、性能を維持しつつ効率的に動作させることに成功したという。さらに、用途ごとに最適化した特化型モデルの構築にも対応可能となり、幅広い業務分野での活用が見込まれる。</p>
+<h2>量子化による軽量化・省電力化</h2>
+<p>富士通は独自の誤差伝播制御アルゴリズムを導入し、従来32ビットや16ビットで表現していたモデルを1ビットに量子化することに成功した。これにより、</p>
+<ul>
+<li>メモリ使用量は最大94％削減</li>
+<li>推論速度は約3倍に向上</li>
+<li>精度維持率は89％</li>
+</ul>
+<p>と、大幅な効率化を実現した。これにより、これまでハイエンドGPU複数枚を必要としていた処理が、ローエンドGPU1枚でも可能になった。</p>
+<p><strong>■ 1ビット量子化による高精度な軽量化と省電力化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/news_20250908_01a_ja_3f94a449dd/news_20250908_01a_ja_3f94a449dd.png" alt="news-20250908-01a-ja.png" /></p>
+<h2>特化型AI蒸留で用途最適化</h2>
+<p>同社はまた、「特化型AI蒸留技術」を開発。汎用的な大規模LLMから必要な知識だけを抽出・再構成することで、業務特化型のモデルを効率的に生成できる。</p>
+<p>実証では、CRMデータを用いた商談勝敗予測において、</p>
+<ul>
+<li>精度が43％改善</li>
+<li>推論速度は11倍に高速化</li>
+<li>モデルパラメータは100分の1に縮小
+GPUメモリや運用コストは70％削減</li>
+</ul>
+<p>といった成果が得られた。汎用モデルを超える精度を示すケースも確認されている。</p>
+<p><strong>■ 特定用途に必要な知識のみを活かした特化型AIモデル</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/news_20250908_01b_ja_398e9d0cfc/news_20250908_01b_ja_398e9d0cfc.png" alt="news-20250908-01b-ja.png" /></p>
+<h2>今後の展望</h2>
+<p>同社は2025年度下期から、生成AI再構成技術を適用した「Takane」のトライアル環境を順次提供する予定だという。また、Cohere社の大規模言語モデル「Command A」を量子化したモデルを、Hugging Faceを通じて同日より順次公開。</p>
+<p>将来的には、メモリ使用量を最大1000分の1に削減するさらなる軽量化を目指し、エッジデバイスでのAIエージェント実装など、幅広い応用を見据えているという。</p>
+]]></description>
+      <pubDate>Fri, 12 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>産総研、双腕ロボットAI開発に向け学習データセットを無償公開 ― 両手協調作業の自動化を加速</title>
       <link>https://ledge.ai/articles/sangyouken_robot_ai_dataset_open</link>
       <description><![CDATA[<p>産業技術総合研究所（産総研）は2025年9月2日、双腕ロボットのAI制御に必要な学習データセットとソフトウェア基盤を無償で公開したと<a href="https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250902/pr20250902.html">発表</a>した。複雑な作業を自律的に行うロボットの研究開発を支援するのが狙いだ。</p>
@@ -515,23 +547,6 @@ ld_media_sales@ledge.co.jp
 同社は「AIがAIを悪用する時代に対抗するには、AIでAIを守るパラダイムシフトが必要だ」と強調した。</p>
 ]]></description>
       <pubDate>Sun, 07 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ワーナー・ブラザース・ディスカバリー、Midjourneyを提訴──「スーパーマン」「バットマン」など無断利用、ディズニーやユニバーサルに続き法廷へ</title>
-      <link>https://ledge.ai/articles/warner_bros_sues_midjourney_copyright_superman_batman</link>
-      <description><![CDATA[<p>米ワーナー・ブラザース・ディスカバリー（WBD）は2025年9月4日、AI画像生成サービス「Midjourney」に対し、同社が保有するキャラクターの著作権を侵害したとしてロサンゼルス連邦地裁に訴訟を提起した。<a href="https://www.reuters.com/legal/litigation/warner-bros-discovery-sues-ai-photo-generator-midjourney-stealing-superman-2025-09-04/">ロイター</a>など複数の海外メディアが報じた。</p>
-<p>訴状によると、Midjourneyは「スーパーマン」「バットマン」「ワンダーウーマン」「ジョーカー」「スクービー・ドゥー」など、同社の人気キャラクターを無断で学習データに利用。ユーザーが簡単なプロンプトを入力するだけで、これらのキャラクターを再現した画像や動画が生成できる状態になっていると指摘されている。</p>
-<p><strong>Midjourneyによるスーパーマンの生成例（左）と、WBDの著作物（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_8b75ef8f46/_8b75ef8f46.jpg" alt="スーパーマン１.jpg" /></p>
-<p>WBDは、過去に設けられていた生成制限が撤廃されたことで侵害が容易になり、「数え切れないほどのコピー」が生まれていると主張。著作権侵害の差止め命令、損害賠償、利益返還を求めており、AP通信によれば1作品あたり最大15万ドルの損害賠償請求の可能性があるという。</p>
-<p><strong>Midjourneyによるバットマンの生成例（左）と、映画作品の場面（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_0699155b9b/_0699155b9b.jpg" alt="バットマン４.jpg" /></p>
-<p>これに対してMidjourneyは、「数十億の公開画像を用いた学習は言語や視覚概念の習得に不可欠であり、フェアユースに当たる」と反論。また、著作権保護は利用者の規約遵守に依存し、企業側に責任はないと主張している。</p>
-<p><strong>Midjourneyによる『トムとジェリー』の生成例（左）と、オリジナルのアニメ作品（右）（訴状より引用）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_23cf9d614c/_23cf9d614c.jpg" alt="トムとジェリー２.jpg" /></p>
-<p>今回の提訴は、6月にディズニーやユニバーサルがMidjourneyを訴えた事例に続くもので、大手映画会社による法的措置が相次いでいる。</p>
-]]></description>
-      <pubDate>Sat, 06 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
