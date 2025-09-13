@@ -149,24 +149,6 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Wed, 10 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
-      <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
-      <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
-<p>研究チームは、日常会話や物語といった自然言語を、そのまま扱うのではなく「一度構造化した表現」に変換し、それをもとにシミュレーションを行う枠組みを提案した。自由文のままでは曖昧さや抜け落ちが多く、AIが他者の意図を追跡するのが難しいが、この“ワンクッション”を挟むことで精度が大きく向上したという。</p>
-<p><strong>自由文を一度構造化してから『社会的ワールドモデル』で推論するフレームワーク。従来手法に比べ、複数の社会的推論ベンチマークで精度が向上した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5_9f97f3f354/x1_5_9f97f3f354.png" alt="x1 (5).png" /></p>
-<h2>性能は最大51%改善</h2>
-<p>実験では、複数人が登場する会話シナリオや協力・競争が絡む対話課題で評価を実施。その結果、意図や感情を読み解く力が最大で51%改善した。また、実際の対話のなかでAIがゴールを達成できる割合も最大18%向上したと報告している。</p>
-<h2>行動前に結果を“先読み”</h2>
-<p>この手法では「行動を起こす前に、仮想世界の中で結果をシミュレーションする」というアルゴリズムも導入された。研究チームはこれを「Foresee and Act」と呼び、交渉や協力シーンでより安定した判断が可能になることを示した。</p>
-<h2>人間らしい社会性を持つAIへ</h2>
-<p>従来のAI研究が物理世界の理解やシミュレーションに重点を置いてきたのに対し、今回の社会的ワールドモデルは、人間関係や心理的な状態を含めた“社会の見取り図”を扱う点が特徴だ。研究者らは、長期的に一貫した対話や複雑な社会的状況への適応につながると期待している。</p>
-<p><strong>物理的なワールドモデル（左）は環境状態を追跡するが、社会的ワールドモデル（右）は感情や欲求など心理状態も含めて扱う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2_070a010511/x2_2_070a010511.png" alt="x2 (2).png" /></p>
-]]></description>
-      <pubDate>Wed, 10 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>香港科技大学、AIと文明の共進化を探る社会シミュレーション「Aivilization」を公開──10万人のAIエージェントが仮想社会を形成</title>
       <link>https://ledge.ai/articles/hkust_aivilization_ai_civilization_experiment</link>
       <description><![CDATA[<p>香港科技大学（HKUST）は2025年8月19日、10万人規模のAIエージェントによる仮想社会を舞台に、AIと人類の共進化を探る教育サンドボックスゲーム「Aivilization」を<a href="https://hkust.edu.hk/news/hkust-launches-worlds-largest-ai-powered-educational-sandbox-game-advancing-ai-literacy-and">発表</a>した。同大学によると、プロジェクトはAIリテラシーの向上や市民科学の促進を目的としており、世界最大規模のAI社会シミュレーションとして設計されているという。</p>
@@ -184,85 +166,22 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Tue, 09 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
-      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
-      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
-<h2>AI普及と雇用への影響</h2>
-<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
-<h2>Jobs Platformの概要</h2>
-<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
-<h2>OpenAI Certificationsの仕組み</h2>
-<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
-<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
-<h2>提携先と今後の展望</h2>
-<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
-<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
+      <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
+      <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
+      <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
+<p>研究チームは、日常会話や物語といった自然言語を、そのまま扱うのではなく「一度構造化した表現」に変換し、それをもとにシミュレーションを行う枠組みを提案した。自由文のままでは曖昧さや抜け落ちが多く、AIが他者の意図を追跡するのが難しいが、この“ワンクッション”を挟むことで精度が大きく向上したという。</p>
+<p><strong>自由文を一度構造化してから『社会的ワールドモデル』で推論するフレームワーク。従来手法に比べ、複数の社会的推論ベンチマークで精度が向上した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5_9f97f3f354/x1_5_9f97f3f354.png" alt="x1 (5).png" /></p>
+<h2>性能は最大51%改善</h2>
+<p>実験では、複数人が登場する会話シナリオや協力・競争が絡む対話課題で評価を実施。その結果、意図や感情を読み解く力が最大で51%改善した。また、実際の対話のなかでAIがゴールを達成できる割合も最大18%向上したと報告している。</p>
+<h2>行動前に結果を“先読み”</h2>
+<p>この手法では「行動を起こす前に、仮想世界の中で結果をシミュレーションする」というアルゴリズムも導入された。研究チームはこれを「Foresee and Act」と呼び、交渉や協力シーンでより安定した判断が可能になることを示した。</p>
+<h2>人間らしい社会性を持つAIへ</h2>
+<p>従来のAI研究が物理世界の理解やシミュレーションに重点を置いてきたのに対し、今回の社会的ワールドモデルは、人間関係や心理的な状態を含めた“社会の見取り図”を扱う点が特徴だ。研究者らは、長期的に一貫した対話や複雑な社会的状況への適応につながると期待している。</p>
+<p><strong>物理的なワールドモデル（左）は環境状態を追跡するが、社会的ワールドモデル（右）は感情や欲求など心理状態も含めて扱う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2_070a010511/x2_2_070a010511.png" alt="x2 (2).png" /></p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
-      <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
-      <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
-<p>EmbeddingGemmaは多言語に対応しており、文書検索、意味的な類似度判定、レコメンデーションなど幅広いタスクでの活用が可能だ。さらに、RAG（Retrieval Augmented Generation）パイプラインにも組み込めるため、生成AIの精度向上にも寄与するとしている。</p>
-<p>性能面では、Massive Text Embedding Benchmark（MTEB）において高い評価を獲得しており、従来のオンデバイス埋め込みモデルを大幅に上回る効率性を示した。</p>
-<p><strong>図1：モデルサイズ別のMTEBスコア</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b.jpg" alt="EmbeddingGemma_Chart01_RD3-V01.original.jpg" /></p>
-<p>EmbeddingGemmaは約3億パラメータという小型設計ながら、MTEB（Multilingual v2）の平均スコアで他の大規模モデルに匹敵する性能を発揮していることがわかる。</p>
-<p><strong>図2：MTEB（Multilingual v2）における比較結果</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85.jpg" alt="EmbeddingGemma_Chart02_RD3-V01.original.jpg" /></p>
-<p>評価結果では、Retrieval（検索）、Classification（分類）、Clustering（クラスタリング）といった複数のタスクで競合モデルを上回るスコアを記録した。特にRetrieval分野では62.49と高い水準を示している。</p>
-<p>Googleは「EmbeddingGemma」を通じて、低消費電力かつ低メモリ環境でも高性能なAI利用を可能にすることを目指している。モバイル端末やIoT分野における応用が期待される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Xu1X-J-r5Xk">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Broadcomと協業し2026年から自社AIチップ量産へ──英紙報道、複数メディアが確認</title>
-      <link>https://ledge.ai/articles/openai_broadcom_ai_chip_mass_production_2026</link>
-      <description><![CDATA[<p>OpenAIが、米半導体大手Broadcomの協力を得て、2026年から自社向けのAI専用半導体の量産を開始する計画であることが明らかになった。<a href="https://www.ft.com/content/e8cc6d99-d06e-4e9b-a54f-29317fa68d6f">英紙フィナンシャル・タイムズ（FT）</a>が2025年9月5日付で報じ、複数の欧米メディアもこれを伝えている。</p>
-<p>FTによると、OpenAIは大規模言語モデル（LLM）の学習や推論に必要な計算能力を外部依存から脱却するため、独自チップ開発をBroadcomと進めている。背景には、AI分野におけるNVIDIA GPUへの過度な依存と、それに伴う供給制約やコスト高がある。GoogleやMetaなどが自社チップ開発を加速させる中、OpenAIも独自インフラの確立を急ぐ。</p>
-<p>Broadcomが10億ドル規模のAIアクセラレータ受注を獲得し、数百万個単位の半導体を2026年第3四半期から供給する可能性を<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-widely-thought-to-be-broadcoms-mystery-usd10-billion-custom-ai-processor-customer-order-could-be-for-millions-of-ai-processors">Tom’s Hardware</a>は指摘。また、最新の高帯域幅メモリ（HBM）やXPUアーキテクチャが採用される可能性もあると伝えている。</p>
-<p>この報道を受け、Broadcomの株価は前場で7％以上上昇する場面があり、市場ではNVIDIA一強体制に変化の兆しが出ているとの見方が広がっている。</p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、著作権侵害訴訟で15億ドルの和解成立──約50万点に1作品あたり3,000ドル分配で決着</title>
-      <link>https://ledge.ai/articles/anthropic_copyright_settlement_1_5billion</link>
-      <description><![CDATA[<p>米AI企業Anthropicを被告とする著作権侵害訴訟で、2025年9月5日（現地時間）、和解が成立した。裁判所に提出された和解の<a href="https://www.documentcloud.org/documents/26084996-proposed-anthropic-authors-ai-settlement/?mode=document">予備承認申立書</a>によれば、Anthropicは少なくとも15億ドルを和解基金として拠出し、対象となる約50万点の著作物に1作品あたり約3,000ドルが分配される見込みだ。</p>
-<h2>15億ドル規模の和解基金</h2>
-<p>和解の条件では、Anthropicが非払戻型の基金を設立し、著作物1点ごとに均等額が支払われる。著作物の数が50万点を超える場合には、追加で1作品につき3,000ドルが支払われる条項も盛り込まれている。支払いは段階的に実施され、最初の3億ドルは予備承認から5営業日以内に拠出される。残額も2年以内に全額が支払われる予定だ。</p>
-<h2>データ破棄と請求範囲の限定</h2>
-<p>金銭的救済に加え、Anthropicは「Library Genesis」や「Pirate Library Mirror」といった海賊版サイトから取得した書籍データを破棄する義務を負う。和解で放棄される請求は2025年8月25日以前の著作権侵害に限定され、AIモデルの出力に関する請求権は対象外とされた。</p>
-<h2>今後の手続きと影響</h2>
-<p>今回の和解は、AI企業に対する著作権訴訟としては過去最大規模とされる。予備承認審理は9月8日に米カリフォルニア州北部地区連邦地裁で行われ、その後、著作権者への通知と異議申し立て期間を経て最終承認に進む。</p>
-<p>Authors GuildのCEOであるMary Rasenberger氏は、この和解について「AI業界に対する強い警告だ」とコメントし、米出版社協会（AAP）のMaria Pallante氏も「影響力ある前例となる」と評価した。</p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>スイス公共3機関、完全オープンで透明性ある多言語LLM「Apertus」で一部の大規模企業による独占的なAIモデル提供に対抗──EPFL・ETH Zürich・CSCSが共同開発</title>
-      <link>https://ledge.ai/articles/apertus_open_multilingual_llm_epfl_ethz_cscs</link>
-      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）、スイス連邦工科大学チューリッヒ校（ETH Zürich）、スイス国立スーパーコンピューティングセンター（CSCS）は2025年9月2日、共同開発した大規模言語モデル（LLM）「Apertus」を<a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html">発表</a>した。完全オープンかつ透明性を重視した多言語対応モデルであり、研究、教育、産業における幅広い利用が期待されている。</p>
-<p>Apertusは、学習に用いたデータセットやトレーニング過程、モデル構造に関する情報を公開するなど、透明性を徹底している。また、英語のみならず複数のヨーロッパ言語に対応しており、グローバルかつ多様な研究環境での活用を見据えている点も特徴だ。モデルは完全オープンソースとして提供され、研究者や開発者が自由に利用できる。</p>
-<p>ETH Zürichの発表によると、Apertusの開発は「一部の大規模企業による独占的なAIモデル提供」に対抗し、公共機関が主導するオープンな代替を示すことを目的としている。特に研究や教育分野での利用を重視し、透明性を担保することで信頼性の高いAI活用の基盤となることを目指す。</p>
-<p>今後はヨーロッパにおけるAI研究・教育基盤としての活用が期待されるほか、公共サービスや産業界への応用も視野に入っている。今回の公開は、AIのオープン化と社会的な信頼構築に向けた大きな一歩といえる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=atObT7Xnbdk">YouTube</a></p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
-      <link>https://ledge.ai/articles/deepl_agent_autonomous_ai_for_enterprise</link>
-      <description><![CDATA[<p>DeepLは2025年9月3日（ニューヨーク／ケルン発）、企業向け自律型AIエージェント「DeepL Agent」を<a href="https://www.deepl.com/ja/ai-labs/agent">発表</a>した。同サービスは、反復的な業務を自然言語で指示するだけで自律的に実行できる仕組みを備え、現在はベータ版として一部顧客向けに提供を開始。数か月以内に一般公開される予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=W8fGLKn60kg">YouTube</a></p>
-<p>DeepL Agentは、ユーザーが自然言語で指示を与えると、仮想のキーボード、ブラウザ、マウスを用いて作業を遂行する。従来のツール操作やスクリプト作成を必要とせず、日常的な反復業務を自律的にこなす点が特徴となっている。
-同社は、企業利用に求められる安全性や正確性を重視して設計しており、AIによる作業自動化と効率化の両立を狙う。翻訳サービスを中心に培ってきた自然言語処理の強みを応用することで、幅広い業務への適用を視野に入れている。
-DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
-@<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
@@ -274,7 +193,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
 <p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
@@ -310,20 +229,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <h2>今後の展望</h2>
 <p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiをオンプレミスで提供開始──「Google Distributed Cloud」に対応、エアギャップ構成で一般提供</title>
-      <link>https://ledge.ai/articles/google_gemini_onprem_gdc_airgapped</link>
-      <description><![CDATA[<p>Googleは米国時間8月28日、同社の大規模言語モデル「Gemini」シリーズをオンプレミス環境で利用できるようにすると<a href="https://cloud.google.com/blog/topics/hybrid-cloud/gemini-is-now-available-anywhere">発表</a>した。Google Distributed Cloud（GDC）を基盤に、セキュリティやデータ主権の要件に対応した提供形態を整えた。</p>
-<p>今回の発表により、インターネット接続を完全に遮断した「エアギャップ構成」が一般提供（GA）として開始され、インターネット接続を前提とする「コネクテッド構成」はプレビュー提供が始まった。これにより、企業や公共機関は自社環境内でGeminiを安全に活用できるようになる。</p>
-<p>オンプレミス版Geminiは、アクセス制御やセキュリティ監査に加え、Confidential Computingへの対応も備えている。また、NVIDIA GPUを活用することで、マルチモーダルな生成AI処理を自社環境内で実行できる。Googleは「クラウド、エッジ、オンプレミスを問わず、あらゆる場所でGeminiを利用可能にする」としており、AI導入の柔軟性を大きく広げた。</p>
-<p><strong>Google Distributed Cloud AIスタックの構成。GeminiやGemma、タスク特化型モデルをオンプレミス環境で実行可能に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7/Gemini_on_GDC_GA_Launch_August_2025_max_2200x2200_54883b20c7.jpg" alt="Gemini_on_GDC_GA_Launch_-_August_2025.max-2200x2200.jpg" /></p>
-<p>導入事例としては、シンガポールのCSIT（情報科学技術庁）、GovTech Singapore（政府技術庁）、HTX（内務技術庁）がいち早く採用を決定。日本ではKDDIが先行導入を進めている。</p>
-<p>Googleは今後も、クラウド版と並行してオンプレミス環境でのGemini利用を拡大していく方針だ。公共機関や金融・医療など、データを外部に出せない領域での生成AI活用が進むことで、エンタープライズAI市場における競争が一層加速するとみられる。</p>
-]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
@@ -335,7 +241,7 @@ DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリ�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
 <p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
@@ -467,7 +373,7 @@ Zhan (Cliff) Chen / 陳 湛</p>
 ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
@@ -488,7 +394,7 @@ ld_media_sales@ledge.co.jp
 <h2>業務効率化と将来展望</h2>
 <p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/9/10 [WED]OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
@@ -500,33 +406,24 @@ ld_media_sales@ledge.co.jp
 <p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
 <p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
-      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
-      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
-<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
-<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
-<h2>GPT-5の具体的な活用事例</h2>
-<p>Weil氏は投稿の中で、次の例を紹介した。</p>
-<ul>
-<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
-<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
-<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
-<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
-</ul>
-<h2>背景にあるOpenAIの活動</h2>
-<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
-2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
-2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
-<h2>Weil氏の立場と組織体制</h2>
-<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
-<h2>今後の展望</h2>
-<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
+      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
+      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
+<h2>AI普及と雇用への影響</h2>
+<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
+<h2>Jobs Platformの概要</h2>
+<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
+<h2>OpenAI Certificationsの仕組み</h2>
+<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
+<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
+<h2>提携先と今後の展望</h2>
+<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
+<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
 ]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
@@ -571,6 +468,96 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>:::button
 <a href="https://zfrmz.com/rhh3WJORYMZvkfiGN0IR">ウェビナーの視聴はこちら</a>
 :::</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
+      <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
+      <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
+<p>EmbeddingGemmaは多言語に対応しており、文書検索、意味的な類似度判定、レコメンデーションなど幅広いタスクでの活用が可能だ。さらに、RAG（Retrieval Augmented Generation）パイプラインにも組み込めるため、生成AIの精度向上にも寄与するとしている。</p>
+<p>性能面では、Massive Text Embedding Benchmark（MTEB）において高い評価を獲得しており、従来のオンデバイス埋め込みモデルを大幅に上回る効率性を示した。</p>
+<p><strong>図1：モデルサイズ別のMTEBスコア</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b.jpg" alt="EmbeddingGemma_Chart01_RD3-V01.original.jpg" /></p>
+<p>EmbeddingGemmaは約3億パラメータという小型設計ながら、MTEB（Multilingual v2）の平均スコアで他の大規模モデルに匹敵する性能を発揮していることがわかる。</p>
+<p><strong>図2：MTEB（Multilingual v2）における比較結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85.jpg" alt="EmbeddingGemma_Chart02_RD3-V01.original.jpg" /></p>
+<p>評価結果では、Retrieval（検索）、Classification（分類）、Clustering（クラスタリング）といった複数のタスクで競合モデルを上回るスコアを記録した。特にRetrieval分野では62.49と高い水準を示している。</p>
+<p>Googleは「EmbeddingGemma」を通じて、低消費電力かつ低メモリ環境でも高性能なAI利用を可能にすることを目指している。モバイル端末やIoT分野における応用が期待される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Xu1X-J-r5Xk">YouTube</a></p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、Broadcomと協業し2026年から自社AIチップ量産へ──英紙報道、複数メディアが確認</title>
+      <link>https://ledge.ai/articles/openai_broadcom_ai_chip_mass_production_2026</link>
+      <description><![CDATA[<p>OpenAIが、米半導体大手Broadcomの協力を得て、2026年から自社向けのAI専用半導体の量産を開始する計画であることが明らかになった。<a href="https://www.ft.com/content/e8cc6d99-d06e-4e9b-a54f-29317fa68d6f">英紙フィナンシャル・タイムズ（FT）</a>が2025年9月5日付で報じ、複数の欧米メディアもこれを伝えている。</p>
+<p>FTによると、OpenAIは大規模言語モデル（LLM）の学習や推論に必要な計算能力を外部依存から脱却するため、独自チップ開発をBroadcomと進めている。背景には、AI分野におけるNVIDIA GPUへの過度な依存と、それに伴う供給制約やコスト高がある。GoogleやMetaなどが自社チップ開発を加速させる中、OpenAIも独自インフラの確立を急ぐ。</p>
+<p>Broadcomが10億ドル規模のAIアクセラレータ受注を獲得し、数百万個単位の半導体を2026年第3四半期から供給する可能性を<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-widely-thought-to-be-broadcoms-mystery-usd10-billion-custom-ai-processor-customer-order-could-be-for-millions-of-ai-processors">Tom’s Hardware</a>は指摘。また、最新の高帯域幅メモリ（HBM）やXPUアーキテクチャが採用される可能性もあると伝えている。</p>
+<p>この報道を受け、Broadcomの株価は前場で7％以上上昇する場面があり、市場ではNVIDIA一強体制に変化の兆しが出ているとの見方が広がっている。</p>
+]]></description>
+      <pubDate>Mon, 08 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、著作権侵害訴訟で15億ドルの和解成立──約50万点に1作品あたり3,000ドル分配で決着</title>
+      <link>https://ledge.ai/articles/anthropic_copyright_settlement_1_5billion</link>
+      <description><![CDATA[<p>米AI企業Anthropicを被告とする著作権侵害訴訟で、2025年9月5日（現地時間）、和解が成立した。裁判所に提出された和解の<a href="https://www.documentcloud.org/documents/26084996-proposed-anthropic-authors-ai-settlement/?mode=document">予備承認申立書</a>によれば、Anthropicは少なくとも15億ドルを和解基金として拠出し、対象となる約50万点の著作物に1作品あたり約3,000ドルが分配される見込みだ。</p>
+<h2>15億ドル規模の和解基金</h2>
+<p>和解の条件では、Anthropicが非払戻型の基金を設立し、著作物1点ごとに均等額が支払われる。著作物の数が50万点を超える場合には、追加で1作品につき3,000ドルが支払われる条項も盛り込まれている。支払いは段階的に実施され、最初の3億ドルは予備承認から5営業日以内に拠出される。残額も2年以内に全額が支払われる予定だ。</p>
+<h2>データ破棄と請求範囲の限定</h2>
+<p>金銭的救済に加え、Anthropicは「Library Genesis」や「Pirate Library Mirror」といった海賊版サイトから取得した書籍データを破棄する義務を負う。和解で放棄される請求は2025年8月25日以前の著作権侵害に限定され、AIモデルの出力に関する請求権は対象外とされた。</p>
+<h2>今後の手続きと影響</h2>
+<p>今回の和解は、AI企業に対する著作権訴訟としては過去最大規模とされる。予備承認審理は9月8日に米カリフォルニア州北部地区連邦地裁で行われ、その後、著作権者への通知と異議申し立て期間を経て最終承認に進む。</p>
+<p>Authors GuildのCEOであるMary Rasenberger氏は、この和解について「AI業界に対する強い警告だ」とコメントし、米出版社協会（AAP）のMaria Pallante氏も「影響力ある前例となる」と評価した。</p>
+]]></description>
+      <pubDate>Mon, 08 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>スイス公共3機関、完全オープンで透明性ある多言語LLM「Apertus」で一部の大規模企業による独占的なAIモデル提供に対抗──EPFL・ETH Zürich・CSCSが共同開発</title>
+      <link>https://ledge.ai/articles/apertus_open_multilingual_llm_epfl_ethz_cscs</link>
+      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）、スイス連邦工科大学チューリッヒ校（ETH Zürich）、スイス国立スーパーコンピューティングセンター（CSCS）は2025年9月2日、共同開発した大規模言語モデル（LLM）「Apertus」を<a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html">発表</a>した。完全オープンかつ透明性を重視した多言語対応モデルであり、研究、教育、産業における幅広い利用が期待されている。</p>
+<p>Apertusは、学習に用いたデータセットやトレーニング過程、モデル構造に関する情報を公開するなど、透明性を徹底している。また、英語のみならず複数のヨーロッパ言語に対応しており、グローバルかつ多様な研究環境での活用を見据えている点も特徴だ。モデルは完全オープンソースとして提供され、研究者や開発者が自由に利用できる。</p>
+<p>ETH Zürichの発表によると、Apertusの開発は「一部の大規模企業による独占的なAIモデル提供」に対抗し、公共機関が主導するオープンな代替を示すことを目的としている。特に研究や教育分野での利用を重視し、透明性を担保することで信頼性の高いAI活用の基盤となることを目指す。</p>
+<p>今後はヨーロッパにおけるAI研究・教育基盤としての活用が期待されるほか、公共サービスや産業界への応用も視野に入っている。今回の公開は、AIのオープン化と社会的な信頼構築に向けた大きな一歩といえる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=atObT7Xnbdk">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 08 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
+      <link>https://ledge.ai/articles/deepl_agent_autonomous_ai_for_enterprise</link>
+      <description><![CDATA[<p>DeepLは2025年9月3日（ニューヨーク／ケルン発）、企業向け自律型AIエージェント「DeepL Agent」を<a href="https://www.deepl.com/ja/ai-labs/agent">発表</a>した。同サービスは、反復的な業務を自然言語で指示するだけで自律的に実行できる仕組みを備え、現在はベータ版として一部顧客向けに提供を開始。数か月以内に一般公開される予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=W8fGLKn60kg">YouTube</a></p>
+<p>DeepL Agentは、ユーザーが自然言語で指示を与えると、仮想のキーボード、ブラウザ、マウスを用いて作業を遂行する。従来のツール操作やスクリプト作成を必要とせず、日常的な反復業務を自律的にこなす点が特徴となっている。
+同社は、企業利用に求められる安全性や正確性を重視して設計しており、AIによる作業自動化と効率化の両立を狙う。翻訳サービスを中心に培ってきた自然言語処理の強みを応用することで、幅広い業務への適用を視野に入れている。
+DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
+@<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 08 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
 ]]></description>
       <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
