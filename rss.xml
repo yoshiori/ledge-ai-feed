@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AIリテラシー教材を公開──教育者・学生・家庭向けに専用リソースを提供</title>
+      <link>https://ledge.ai/articles/google_ai_literacy_resources_launch</link>
+      <description><![CDATA[<p>Googleは2025年9月9日（米国時間）、教育者・学習者・保護者が生成AIを安全かつ責任を持って活用できるよう設計した教材とトレーニングを集約する新サイト「Build AI knowledge and literacy」を<a href="https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/">公開</a>した。初等中等・高等教育・大学・家庭の各領域に向けて、レッスンプランや教師研修、プロンプト基礎コース、DeepMindとRaspberry Pi Foundationの共同教材「Experience AI」、ゲーム型学習「AI Quests」などを提供し、現場でのAIリテラシー育成を体系化する。</p>
+<p>サイトは「安全性」「透明性」「責任ある利用」を軸に、対象別の教材を体系的に整理している。</p>
+<h2>教師向け（K-12・教育リーダー）</h2>
+<p>教師向けセクションには、GeminiやNotebookLMを授業で活用するための研修プログラム「Generative AI for Educators with Gemini」が用意され、教材設計から実践までを一気通貫で支援する。教育リーダーに向けた「Guide to AI in Education」では、導入ポリシーづくりや評価設計までを網羅し、K-12の現場に適したスターター教材「Get Started with AI for K-12」も揃う。授業内で生成AIを扱う際の留意点や評価観点が整理され、即日活用できる実務志向の内容が特徴だ。</p>
+<h2>大学生・教授向け（高等教育）</h2>
+<p>高等教育向けには、学業・研究・就職準備に結びつくスキル獲得を支援するトレーニングとツール群がまとめられている。効果的なプロンプト設計を基礎から学べるコースが提供され、レポート作成やリサーチ支援、専門領域でのAI活用を見据えた内容となっている。大学の授業や研究活動に自然に組み込める導線が設計されている点も実務的だ。</p>
+<h2>高校生向け（リテラシーと実践）</h2>
+<p>高校生向けには、責任あるAI利用を扱うレッスンプランに加え、Google DeepMindとRaspberry Pi Foundationが共同開発した「Experience AI」が紹介される。さらに、ゲーム形式で課題解決を学ぶ「AI Quests」により、概念理解にとどまらず、模擬的な意思決定や問題解決を通じてAIの可能性と限界を体験的に学べる構成となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a.webp" alt="AI_Quests_-_Landing_Page_1.width-1000.format-webp.webp" /></p>
+<h2>家庭・保護者向け（安全とリテラシー）</h2>
+<p>家庭向けセクションでは、小学生でも取り組みやすいインターネットとAIの安全教育プログラム「Be Internet Awesome」が公開される。保護者向けには動画ガイド「The AI Playbook for Parents」や、専門家がAI時代の子育てを解説するポッドキャスト「Raising kids in the age of AI」が用意され、家庭内のルールづくりや学びの伴走に役立つ実践的なヒントが得られる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=DhpzaLYSUro&amp;list=PLP7Bvyb3ap45NyPGzOxhqn1L8XLgRjtrp&amp;index=3">YouTube</a></p>
+<p>このサイトは、学校や大学、家庭の現場でそのまま使える実装志向のリソースを提供することで、AIの利便性とリスクの双方を踏まえたリテラシーの底上げを狙う。公開の背景と位置づけはGoogle公式ブログで明示され、教材群は専用サイトで継続更新される見込みだ。</p>
+]]></description>
+      <pubDate>Sun, 14 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>政府、AI戦略本部初会合を開催　基本計画の骨子案を提示 ― 「世界で最もAIを開発・活用しやすい国」を目指す</title>
       <link>https://ledge.ai/articles/government_ai_strategy_hq_first_meeting</link>
       <description><![CDATA[<p>政府は2025年9月12日、AIの開発や活用方針を議論する「人工知能戦略本部」の初会合を<a href="https://www8.cao.go.jp/cstp/ai/ai_hq/1kai/1kai.html">開催</a>した。石破茂首相は「世界で最もAIを開発・活用しやすい国を目指す」と述べ、同日提示された「人工知能基本計画」の骨子案では、国産AIの開発支援や規制改革、国際ガバナンスの主導など幅広い施策が盛り込まれた。政府は年内に計画を閣議決定する方針だ。</p>
@@ -545,20 +564,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>この報道を受け、Broadcomの株価は前場で7％以上上昇する場面があり、市場ではNVIDIA一強体制に変化の兆しが出ているとの見方が広がっている。</p>
 ]]></description>
       <pubDate>Mon, 08 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、著作権侵害訴訟で15億ドルの和解成立──約50万点に1作品あたり3,000ドル分配で決着</title>
-      <link>https://ledge.ai/articles/anthropic_copyright_settlement_1_5billion</link>
-      <description><![CDATA[<p>米AI企業Anthropicを被告とする著作権侵害訴訟で、2025年9月5日（現地時間）、和解が成立した。裁判所に提出された和解の<a href="https://www.documentcloud.org/documents/26084996-proposed-anthropic-authors-ai-settlement/?mode=document">予備承認申立書</a>によれば、Anthropicは少なくとも15億ドルを和解基金として拠出し、対象となる約50万点の著作物に1作品あたり約3,000ドルが分配される見込みだ。</p>
-<h2>15億ドル規模の和解基金</h2>
-<p>和解の条件では、Anthropicが非払戻型の基金を設立し、著作物1点ごとに均等額が支払われる。著作物の数が50万点を超える場合には、追加で1作品につき3,000ドルが支払われる条項も盛り込まれている。支払いは段階的に実施され、最初の3億ドルは予備承認から5営業日以内に拠出される。残額も2年以内に全額が支払われる予定だ。</p>
-<h2>データ破棄と請求範囲の限定</h2>
-<p>金銭的救済に加え、Anthropicは「Library Genesis」や「Pirate Library Mirror」といった海賊版サイトから取得した書籍データを破棄する義務を負う。和解で放棄される請求は2025年8月25日以前の著作権侵害に限定され、AIモデルの出力に関する請求権は対象外とされた。</p>
-<h2>今後の手続きと影響</h2>
-<p>今回の和解は、AI企業に対する著作権訴訟としては過去最大規模とされる。予備承認審理は9月8日に米カリフォルニア州北部地区連邦地裁で行われ、その後、著作権者への通知と異議申し立て期間を経て最終承認に進む。</p>
-<p>Authors GuildのCEOであるMary Rasenberger氏は、この和解について「AI業界に対する強い警告だ」とコメントし、米出版社協会（AAP）のMaria Pallante氏も「影響力ある前例となる」と評価した。</p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
