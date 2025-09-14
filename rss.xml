@@ -251,14 +251,14 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>世界初のAI駆動型ランサムウェア「PromptLock」発見──攻撃者が生成AIを悪用する新しい時代が現実化</title>
-      <link>https://ledge.ai/articles/eset_promptlock_ai_ransomware_new_era</link>
-      <description><![CDATA[<p>スロバキアを本社に置くヨーロッパのサイバーセキュリティ企業ESETは2025年8月27日、生成AIを利用して攻撃を行う新たなタイプのランサムウェア「PromptLock」を発見したと<a href="https://www.eset.com/jp/about/newsroom/press-releases/2025/eset-discovers-promptlock-the-first-ai-powered-ransomware-jp/">発表</a>した。研究チームは「世界初のAI駆動型ランサムウェア」と位置づけ、攻撃者が生成AIを悪用する新しい時代の到来を示すものとして警鐘を鳴らしている。</p>
-<p>ESETによると、PromptLockはローカルに配置された大規模言語モデルを用い、プロンプトをもとに悪意あるLuaスクリプトをリアルタイムに生成・実行する仕組みを備える。クラウド経由の検知を回避できるため、従来のAPI監視やヒューリスティック解析をすり抜ける可能性がある。</p>
-<p>技術的特徴として、Go言語で記述され、Windows、Linux、macOSの複数環境に対応。暗号化方式にはSPECK 128ビットが採用され、感染後はファイルの列挙と暗号化を実行する。ランサムノートにはビットコインアドレスが記載されており、「Satoshi Nakamoto」に関連する文字列が含まれている点も確認された。</p>
-<p>今回のサンプルは、VirusTotalにアップロードされた検体から発見されたもので、現段階では概念実証（PoC）にとどまる。ESETの主任研究者Anton Cherepanov氏は「実際の攻撃活動に用いられた証拠はないが、AIによるマルウェア自動生成が現実に機能することを示した」とコメントしている。</p>
-<p>同社はPromptLockを自社ソリューションで検知可能であることを強調する一方、外部の専門家からは「AIが攻撃ツールとして利用されれば、ランサムウェア開発のハードルが大幅に下がり、模倣的な派生が拡散する恐れがある」との懸念も示されている。</p>
-<p>生成AIの普及が攻撃手法にまで広がりつつあるなか、防御側もAIを活用したセキュリティ対策の強化が不可欠となっている。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例といえる。PromptLockは、サイバー脅威が新たな段階へ進んだことを象徴する事例として注目される。</p>
+      <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
+      <link>https://ledge.ai/articles/deepl_agent_autonomous_ai_for_enterprise</link>
+      <description><![CDATA[<p>DeepLは2025年9月3日（ニューヨーク／ケルン発）、企業向け自律型AIエージェント「DeepL Agent」を<a href="https://www.deepl.com/ja/ai-labs/agent">発表</a>した。同サービスは、反復的な業務を自然言語で指示するだけで自律的に実行できる仕組みを備え、現在はベータ版として一部顧客向けに提供を開始。数か月以内に一般公開される予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=W8fGLKn60kg">YouTube</a></p>
+<p>DeepL Agentは、ユーザーが自然言語で指示を与えると、仮想のキーボード、ブラウザ、マウスを用いて作業を遂行する。従来のツール操作やスクリプト作成を必要とせず、日常的な反復業務を自律的にこなす点が特徴となっている。
+同社は、企業利用に求められる安全性や正確性を重視して設計しており、AIによる作業自動化と効率化の両立を狙う。翻訳サービスを中心に培ってきた自然言語処理の強みを応用することで、幅広い業務への適用を視野に入れている。
+DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
+@<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
