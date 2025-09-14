@@ -5,6 +5,43 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>政府、AI戦略本部初会合を開催　基本計画の骨子案を提示 ― 「世界で最もAIを開発・活用しやすい国」を目指す</title>
+      <link>https://ledge.ai/articles/government_ai_strategy_hq_first_meeting</link>
+      <description><![CDATA[<p>政府は2025年9月12日、AIの開発や活用方針を議論する「人工知能戦略本部」の初会合を<a href="https://www8.cao.go.jp/cstp/ai/ai_hq/1kai/1kai.html">開催</a>した。石破茂首相は「世界で最もAIを開発・活用しやすい国を目指す」と述べ、同日提示された「人工知能基本計画」の骨子案では、国産AIの開発支援や規制改革、国際ガバナンスの主導など幅広い施策が盛り込まれた。政府は年内に計画を閣議決定する方針だ。</p>
+<h2>4本柱と3原則</h2>
+<p>提示された骨子案は、AI政策の基本理念を「人間中心のAI社会原則」と位置づけた上で、以下の3原則を掲げた。</p>
+<ul>
+<li>イノベーション促進とリスク対応の両立</li>
+<li>PDCAとアジャイル対応</li>
+<li>内外一体の政策展開</li>
+</ul>
+<p>さらに、政策の方向性を示す4本柱として</p>
+<ul>
+<li>AIを使う（利活用の加速的推進）</li>
+<li>AIを創る（開発力の強化）</li>
+<li>AIの信頼性を高める（ガバナンスの主導）</li>
+<li>AIと協働する（社会制度の変革）
+を明記した。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_kihon_kosshi_6d983b542a/ai_kihon_kosshi_6d983b542a.jpg" alt="ai kihon kosshi.jpg" /></p>
+<h2>具体的施策</h2>
+<p>骨子案には、各柱に基づく具体的な取り組みが列挙されている。</p>
+<ul>
+<li><strong>利活用の加速</strong> ：「ガバメントAI」の推進による行政業務の効率化、自治体での導入支援。医療・介護、農業、防災、防衛、警察活動など幅広い領域でAIエージェントやフィジカルAIを活用。</li>
+<li><strong>開発力の強化</strong> ：質の高い日本語データの整備、信頼できる基盤モデルの開発、AIデータセンターや次世代スーパーコンピュータ「富岳NEXT」の整備。AI半導体や光ネットワークなど基盤技術の開発支援も盛り込む。</li>
+<li><strong>信頼性の確保</strong> ：AIセーフティ・インスティテュート（AISI）の強化、AI生成コンテンツの判別技術支援。国際的には「広島AIプロセス」を軸に、多様なモデルの相互運用性確保や国際規格策定を主導。</li>
+<li><strong>社会変革と協働</strong> ：AI人材育成・リスキリング支援に加え、AI社会を生き抜く「人間力」の向上。雇用・産業構造の変化に対応するため、制度や社会システムの継続的な改革を進める。</li>
+</ul>
+<h2>背景と課題</h2>
+<p>内閣府の資料によると、日本の民間によるAI投資額は2024年時点で約9億ドルと、米国（約1,091億ドル）や中国（約93億ドル）に比べて大幅に少なく、国際的に遅れをとっている現状が指摘された。生成AIの利用率でも、日本は個人（26.7%）、企業（55.2%）と欧米中に比べて低い水準にある。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_kihon_kosshi2_57b0735d7c/ai_kihon_kosshi2_57b0735d7c.jpg" alt="ai kihon kosshi2.jpg" /></p>
+<p>政府はこうした現状を「反転攻勢の好機」と捉え、規制や制度を「AI利活用前提」で見直すことや、産業・雇用構造の変化を見据えた制度設計を進める考えを示した。</p>
+<h2>今後のスケジュール</h2>
+<p>戦略本部の下に専門調査会を設置し、9月19日から議論を開始。年内を目途に計画を取りまとめ、閣議決定する予定となっている。</p>
+]]></description>
+      <pubDate>Sun, 14 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI×Oracle、3000億ドル規模のインフラ契約で株価急騰──エリソン氏の純資産4000億ドル（約54兆円）でマスク氏超え世界一に</title>
       <link>https://ledge.ai/articles/openai_oracle_300b_infra_contract_ellison_wealth</link>
       <description><![CDATA[<p>OpenAIがOracleと総額3000億ドル（約46兆円）規模のインフラ構築契約を結んだと、ウォール・ストリート・ジャーナル（WSJ）が2025年9月10日（現地時間）、関係者の話として報じた(https://www.wsj.com/business/openai-oracle-sign-300-billion-computing-deal-among-biggest-in-history-ff27c8fe)。契約は約5年間にわたり、2027年から始動する見込みで、4.5ギガワット規模のデータセンター容量を確保するとされる。</p>
@@ -522,17 +559,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>Authors GuildのCEOであるMary Rasenberger氏は、この和解について「AI業界に対する強い警告だ」とコメントし、米出版社協会（AAP）のMaria Pallante氏も「影響力ある前例となる」と評価した。</p>
 ]]></description>
       <pubDate>Mon, 08 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>スイス公共3機関、完全オープンで透明性ある多言語LLM「Apertus」で一部の大規模企業による独占的なAIモデル提供に対抗──EPFL・ETH Zürich・CSCSが共同開発</title>
-      <link>https://ledge.ai/articles/apertus_open_multilingual_llm_epfl_ethz_cscs</link>
-      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）、スイス連邦工科大学チューリッヒ校（ETH Zürich）、スイス国立スーパーコンピューティングセンター（CSCS）は2025年9月2日、共同開発した大規模言語モデル（LLM）「Apertus」を<a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html">発表</a>した。完全オープンかつ透明性を重視した多言語対応モデルであり、研究、教育、産業における幅広い利用が期待されている。</p>
-<p>Apertusは、学習に用いたデータセットやトレーニング過程、モデル構造に関する情報を公開するなど、透明性を徹底している。また、英語のみならず複数のヨーロッパ言語に対応しており、グローバルかつ多様な研究環境での活用を見据えている点も特徴だ。モデルは完全オープンソースとして提供され、研究者や開発者が自由に利用できる。</p>
-<p>ETH Zürichの発表によると、Apertusの開発は「一部の大規模企業による独占的なAIモデル提供」に対抗し、公共機関が主導するオープンな代替を示すことを目的としている。特に研究や教育分野での利用を重視し、透明性を担保することで信頼性の高いAI活用の基盤となることを目指す。</p>
-<p>今後はヨーロッパにおけるAI研究・教育基盤としての活用が期待されるほか、公共サービスや産業界への応用も視野に入っている。今回の公開は、AIのオープン化と社会的な信頼構築に向けた大きな一歩といえる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=atObT7Xnbdk">YouTube</a></p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
