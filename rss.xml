@@ -18,7 +18,7 @@
       <pubDate>Mon, 15 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <title>ビジネス2025/9/15 [MON]Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
       <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
       <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
 <p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
@@ -500,7 +500,7 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/9/10 [WED]OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
+      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
       <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
       <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
 <p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
