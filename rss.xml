@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
+      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
+<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
+<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
+<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
+<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft と OpenAI、提携条件を見直す非拘束合意（MOU）を発表</title>
       <link>https://ledge.ai/articles/microsoft_openai_nonbinding_mou_partnership_review</link>
       <description><![CDATA[<p><a href="https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/">Microsoft</a>と<a href="https://openai.com/index/joint-statement-from-openai-and-microsoft/">OpenAI</a>は2025年9月11日（現地時間）、両社のパートナーシップを見直すための非拘束の覚書（MOU）に署名したと共同声明で発表した。今回の合意は、今後の「次のフェーズ」に向けたものであり、両社は引き続き確定的な契約（definitive agreement）の策定を進めていくとしている。</p>
@@ -548,23 +560,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 :::</p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</title>
-      <link>https://ledge.ai/articles/google_embeddinggemma_ondevice_release</link>
-      <description><![CDATA[<p>Googleは2025年9月4日、オンデバイスで動作する軽量な埋め込みモデル「EmbeddingGemma」を<a href="https://developers.googleblog.com/en/introducing-embeddinggemma/">公開</a>した。同社の開発者向けブログによれば、同モデルはパラメータ数が約3億とコンパクトながら、高品質なベクトル表現を生成できる設計だという。メモリ使用量は200MB程度に抑えられており、スマートフォンやエッジデバイスといったリソース制約のある環境での利用を想定している。</p>
-<p>EmbeddingGemmaは多言語に対応しており、文書検索、意味的な類似度判定、レコメンデーションなど幅広いタスクでの活用が可能だ。さらに、RAG（Retrieval Augmented Generation）パイプラインにも組み込めるため、生成AIの精度向上にも寄与するとしている。</p>
-<p>性能面では、Massive Text Embedding Benchmark（MTEB）において高い評価を獲得しており、従来のオンデバイス埋め込みモデルを大幅に上回る効率性を示した。</p>
-<p><strong>図1：モデルサイズ別のMTEBスコア</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b/Embedding_Gemma_Chart01_RD_3_V01_original_d9e9e6311b.jpg" alt="EmbeddingGemma_Chart01_RD3-V01.original.jpg" /></p>
-<p>EmbeddingGemmaは約3億パラメータという小型設計ながら、MTEB（Multilingual v2）の平均スコアで他の大規模モデルに匹敵する性能を発揮していることがわかる。</p>
-<p><strong>図2：MTEB（Multilingual v2）における比較結果</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85/Embedding_Gemma_Chart02_RD_3_V01_original_40dfa34e85.jpg" alt="EmbeddingGemma_Chart02_RD3-V01.original.jpg" /></p>
-<p>評価結果では、Retrieval（検索）、Classification（分類）、Clustering（クラスタリング）といった複数のタスクで競合モデルを上回るスコアを記録した。特にRetrieval分野では62.49と高い水準を示している。</p>
-<p>Googleは「EmbeddingGemma」を通じて、低消費電力かつ低メモリ環境でも高性能なAI利用を可能にすることを目指している。モバイル端末やIoT分野における応用が期待される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Xu1X-J-r5Xk">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
