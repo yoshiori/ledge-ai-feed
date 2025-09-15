@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft と OpenAI、提携条件を見直す非拘束合意（MOU）を発表</title>
+      <link>https://ledge.ai/articles/microsoft_openai_nonbinding_mou_partnership_review</link>
+      <description><![CDATA[<p><a href="https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/">Microsoft</a>と<a href="https://openai.com/index/joint-statement-from-openai-and-microsoft/">OpenAI</a>は2025年9月11日（現地時間）、両社のパートナーシップを見直すための非拘束の覚書（MOU）に署名したと共同声明で発表した。今回の合意は、今後の「次のフェーズ」に向けたものであり、両社は引き続き確定的な契約（definitive agreement）の策定を進めていくとしている。</p>
+<p>共同声明では、AIの安全性と責任ある開発を推進する姿勢が改めて示された。MOU自体は拘束力を持たないが、今後の提携関係の在り方を定めるための重要な枠組みと位置づけられている。</p>
+<p>Microsoftはこれまで、数百億ドル規模の投資を通じてOpenAIを支援し、クラウド基盤としてAzureを提供してきた。一方で、利益配分や知的財産へのアクセスなど、提携条件をめぐる調整も続けられてきた経緯がある。</p>
+<p>複数の報道によれば、今回のMOUにはOpenAIの営利部門を「Public Benefit Corporation（公益目的株式会社、PBC）」へ移行する計画が含まれているとされる。非営利部門は存続し、営利部門に対して支配権を維持する仕組みになる見込みだ。また、営利部門の評価額は約 1,000 億ドル規模と伝えられており、この構造変更には米カリフォルニア州やデラウェア州の当局による承認が必要となる。</p>
+<p>両社は今後、確定的な契約の内容を詰めていく方針で、成立時期や詳細は現時点で明らかにされていない。</p>
+]]></description>
+      <pubDate>Sun, 14 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIリテラシー教材を公開──教育者・学生・家庭向けに専用リソースを提供</title>
       <link>https://ledge.ai/articles/google_ai_literacy_resources_launch</link>
       <description><![CDATA[<p>Googleは2025年9月9日（米国時間）、教育者・学習者・保護者が生成AIを安全かつ責任を持って活用できるよう設計した教材とトレーニングを集約する新サイト「Build AI knowledge and literacy」を<a href="https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/">公開</a>した。初等中等・高等教育・大学・家庭の各領域に向けて、レッスンプランや教師研修、プロンプト基礎コース、DeepMindとRaspberry Pi Foundationの共同教材「Experience AI」、ゲーム型学習「AI Quests」などを提供し、現場でのAIリテラシー育成を体系化する。</p>
@@ -554,16 +565,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>@<a href="https://www.youtube.com/watch?v=Xu1X-J-r5Xk">YouTube</a></p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Broadcomと協業し2026年から自社AIチップ量産へ──英紙報道、複数メディアが確認</title>
-      <link>https://ledge.ai/articles/openai_broadcom_ai_chip_mass_production_2026</link>
-      <description><![CDATA[<p>OpenAIが、米半導体大手Broadcomの協力を得て、2026年から自社向けのAI専用半導体の量産を開始する計画であることが明らかになった。<a href="https://www.ft.com/content/e8cc6d99-d06e-4e9b-a54f-29317fa68d6f">英紙フィナンシャル・タイムズ（FT）</a>が2025年9月5日付で報じ、複数の欧米メディアもこれを伝えている。</p>
-<p>FTによると、OpenAIは大規模言語モデル（LLM）の学習や推論に必要な計算能力を外部依存から脱却するため、独自チップ開発をBroadcomと進めている。背景には、AI分野におけるNVIDIA GPUへの過度な依存と、それに伴う供給制約やコスト高がある。GoogleやMetaなどが自社チップ開発を加速させる中、OpenAIも独自インフラの確立を急ぐ。</p>
-<p>Broadcomが10億ドル規模のAIアクセラレータ受注を獲得し、数百万個単位の半導体を2026年第3四半期から供給する可能性を<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-widely-thought-to-be-broadcoms-mystery-usd10-billion-custom-ai-processor-customer-order-could-be-for-millions-of-ai-processors">Tom’s Hardware</a>は指摘。また、最新の高帯域幅メモリ（HBM）やXPUアーキテクチャが採用される可能性もあると伝えている。</p>
-<p>この報道を受け、Broadcomの株価は前場で7％以上上昇する場面があり、市場ではNVIDIA一強体制に変化の兆しが出ているとの見方が広がっている。</p>
-]]></description>
-      <pubDate>Mon, 08 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
