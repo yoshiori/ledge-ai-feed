@@ -75,18 +75,6 @@
       <pubDate>Mon, 15 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/15 [MON]Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
-      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
-<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
-<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
-<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
-<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
-]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft と OpenAI、提携条件を見直す非拘束合意（MOU）を発表</title>
       <link>https://ledge.ai/articles/microsoft_openai_nonbinding_mou_partnership_review</link>
       <description><![CDATA[<p><a href="https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/">Microsoft</a>と<a href="https://openai.com/index/joint-statement-from-openai-and-microsoft/">OpenAI</a>は2025年9月11日（現地時間）、両社のパートナーシップを見直すための非拘束の覚書（MOU）に署名したと共同声明で発表した。今回の合意は、今後の「次のフェーズ」に向けたものであり、両社は引き続き確定的な契約（definitive agreement）の策定を進めていくとしている。</p>
@@ -163,19 +151,6 @@
 契約は、OpenAIが進める大規模AIインフラ計画「<a href="https://ledge.ai/articles/stargate_oracle_openai_4_5gw">Project Stargate</a>」の一環とされる。生成AIの需要拡大に伴い、計算資源の確保と大規模データセンター建設が今後の競争力の鍵となる中、両社の動きが業界全体に与える影響が注目される。</p>
 ]]></description>
       <pubDate>Sat, 13 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
-      <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
-      <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
-<p><strong>アルバニアのエディ・ラマ首相</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/albania_ai_bot_2be7584878/albania_ai_bot_2be7584878.jpg" alt="albania ai bot.jpg" /></p>
-<p>ディエラは、政府が民間企業と契約を結ぶ公共入札のプロセスを管理する役割を担う。賄賂や脅迫といった人間相手の不正は通用せず、入札の透明性を確保する狙いがある。エディ・ラマ首相は、ディエラを「汚職を寄せ付けない閣僚」として位置づけ、公共事業の公平性を高める方針を示した。</p>
-<p>ディエラはもともと、政府のデジタルプラットフォーム「e-Albania」で行政手続きを支援するバーチャルアシスタントとして導入されていた。市民や企業は、音声コマンドや電子スタンプを通じて書類の取得や各種申請を行うことができる。今回の任命により、その役割は大幅に拡張される。</p>
-<p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
-<p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
-]]></description>
-      <pubDate>Sat, 13 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「20歳女子は港区に収監」──全編AI映像で描く異色のSFコメディ『サヨナラ港区』、読売テレビで9月14日深夜スタート</title>
@@ -296,6 +271,32 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Thu, 11 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
+]]></description>
+      <pubDate>Wed, 10 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google検索、日本語版「AIモード」を開始──Gemini 2.5活用で複雑な質問にも文脈理解</title>
       <link>https://ledge.ai/articles/google_search_ai_mode_japan_start</link>
       <description><![CDATA[<p>Googleは9月9日、日本の「Google検索」で新機能「AIモード」の提供を開始したことを<a href="https://blog.google/intl/ja-jp/products/explore-get-answers/ai-mode-search/">発表</a>した。Gemini 2.5のカスタムバージョンを活用し、従来よりも複雑で文脈依存の強い質問に対して、単一クエリで包括的な回答を提示できるのが特徴となる。</p>
@@ -327,14 +328,27 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>DeepL、企業向け自律型AIエージェント「DeepL Agent」を発表──反復作業を自然言語で自律実行、ベータ版を提供開始</title>
-      <link>https://ledge.ai/articles/deepl_agent_autonomous_ai_for_enterprise</link>
-      <description><![CDATA[<p>DeepLは2025年9月3日（ニューヨーク／ケルン発）、企業向け自律型AIエージェント「DeepL Agent」を<a href="https://www.deepl.com/ja/ai-labs/agent">発表</a>した。同サービスは、反復的な業務を自然言語で指示するだけで自律的に実行できる仕組みを備え、現在はベータ版として一部顧客向けに提供を開始。数か月以内に一般公開される予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=W8fGLKn60kg">YouTube</a></p>
-<p>DeepL Agentは、ユーザーが自然言語で指示を与えると、仮想のキーボード、ブラウザ、マウスを用いて作業を遂行する。従来のツール操作やスクリプト作成を必要とせず、日常的な反復業務を自律的にこなす点が特徴となっている。
-同社は、企業利用に求められる安全性や正確性を重視して設計しており、AIによる作業自動化と効率化の両立を狙う。翻訳サービスを中心に培ってきた自然言語処理の強みを応用することで、幅広い業務への適用を視野に入れている。
-DeepLは、今回の取り組みを「AI翻訳企業から包括的なAIソリューション企業への進化」と位置づけており、業務効率化や自動化市場への参入を本格化させる構えだ。
-@<a href="https://www.youtube.com/watch?v=baRBEo2cgvQ">YouTube</a></p>
+      <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
+      <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
+      <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
+<p><strong>アルバニアのエディ・ラマ首相</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/albania_ai_bot_2be7584878/albania_ai_bot_2be7584878.jpg" alt="albania ai bot.jpg" /></p>
+<p>ディエラは、政府が民間企業と契約を結ぶ公共入札のプロセスを管理する役割を担う。賄賂や脅迫といった人間相手の不正は通用せず、入札の透明性を確保する狙いがある。エディ・ラマ首相は、ディエラを「汚職を寄せ付けない閣僚」として位置づけ、公共事業の公平性を高める方針を示した。</p>
+<p>ディエラはもともと、政府のデジタルプラットフォーム「e-Albania」で行政手続きを支援するバーチャルアシスタントとして導入されていた。市民や企業は、音声コマンドや電子スタンプを通じて書類の取得や各種申請を行うことができる。今回の任命により、その役割は大幅に拡張される。</p>
+<p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
+<p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/9/15 [MON]Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
+      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
+<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
+<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
+<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
+<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -519,27 +533,6 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
-      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
-      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
-<h2>暗黙知を活用する新技術</h2>
-<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
-<p><strong>cotomi Actの全体像</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
-<h2>ブラウザ拡張で動作</h2>
-<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
-<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
-<h2>世界初の人間超え</h2>
-<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
-<h2>業務効率化と将来展望</h2>
-<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
       <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
       <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
@@ -613,32 +606,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 :::</p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
-      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
-      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
-<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
-<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
-<h2>GPT-5の具体的な活用事例</h2>
-<p>Weil氏は投稿の中で、次の例を紹介した。</p>
-<ul>
-<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
-<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
-<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
-<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
-</ul>
-<h2>背景にあるOpenAIの活動</h2>
-<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
-2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
-2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
-<h2>Weil氏の立場と組織体制</h2>
-<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
-<h2>今後の展望</h2>
-<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
-]]></description>
-      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
