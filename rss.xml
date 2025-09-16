@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
+      <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
+      <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
+<h2>無断利用への懸念と報酬の不在</h2>
+<p>AIモデルはこれまで、大量のウェブコンテンツを収集して学習に用いてきたが、出版社や著作者への報酬は十分に支払われてこなかった。訴訟や規制をめぐる動きが広がるなか、コンテンツ提供側が主体的に利用条件を示し、対価を求められる仕組みの必要性が高まっていた。</p>
+<h2>RSL標準の仕組み</h2>
+<p>RSL標準は、既存のrobots.txtを拡張し、AI用途での収集・利用に関するライセンス条項やロイヤルティを明示できるようにする。ライセンスモデルは以下のように多様化しており、コンテンツごとに設定が可能だ。</p>
+<ul>
+<li>無料利用</li>
+<li>帰属（attribution）付き利用</li>
+<li>サブスクリプション契約</li>
+<li>pay-per-crawl（クロール単位での課金）</li>
+<li>pay-per-inference（推論単位での課金）</li>
+</ul>
+<p>技術仕様はXMLベースで定義され、APIによる報告や請求処理を組み合わせることで自動化を実現する。コンテンツの種類はウェブページだけでなく、動画、音楽、プロプライエタリデータにも対応する。</p>
+<h2>Collectiveの役割と参加企業</h2>
+<p>RSL Collectiveは、出版社やクリエイターの権利を集約し、AI企業とのライセンス交渉やロイヤルティの徴収を代行する組織だ。音楽分野で著作権者の権利管理を担うASCAPのようなモデルを参考にしている。</p>
+<p>すでにReddit、Yahoo、Medium、Quora、O’Reilly Media、wikiHowなどが賛同を表明しており、幅広い分野からの参加が期待されている。</p>
+<h2>技術連携と課題</h2>
+<p>インターネットインフラ企業Fastlyは、ライセンス取得済みのクローラーのみアクセスを許可する仕組みの実装に取り組んでいる。一方で、AI企業がこの標準に従うかどうかは任意であり、強制力に欠ける点が課題だ。また、クローラーの偽装やrobots.txtの無視といった技術的な抜け道も懸念されている。</p>
+<p>さらに、AIの推論結果にどのコンテンツが具体的に使われたかを追跡することは難しく、正確な利用料計算には技術的ハードルがある。</p>
+<h2>今後の展望</h2>
+<p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon傘下のZoox、ラスベガスで世界初の完全自律ロボタクシーを一般公開</title>
       <link>https://ledge.ai/articles/zoox_launches_fully_autonomous_robotaxi_las_vegas</link>
       <description><![CDATA[<p>Amazon傘下で自動運転タクシーを開発・運営するZooxは、2025年9月10日（現地時間）、米ラスベガスで完全自律走行によるロボタクシーサービスを開始したことを<a href="https://zoox.com/journal/las-vegas">発表</a>した。ステアリングやペダルを持たない専用車両による商業環境での一般公開は世界初だという。</p>
