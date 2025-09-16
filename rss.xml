@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
+      <link>https://ledge.ai/articles/bytedance_seedream4_release_4k_nano_banana</link>
+      <description><![CDATA[<p>ByteDanceは2025年9月9日、画像生成と編集機能を統合した新モデル「Seedream 4.0」を<a href="https://seed.bytedance.com/en/seedream4_0">公開</a>した。同モデルは最大4K解像度での出力に対応し、参照画像を活用した一貫性のある生成や複雑なマルチモーダルタスクへの対応を強化している。</p>
+<p>Seedream 4.0は、統一アーキテクチャを採用し、画像生成（text-to-image）と画像編集を単一モデル内で実現。知識を要する生成や高度な推論、複数参照画像による整合性保持といった高度な処理に対応できるとしている。また、推論速度の向上により、従来より高速に高解像度の画像を生成可能となった。</p>
+<p><strong>Seedream 4.0による人物生成の例。異なる視点から自然な一貫性を保った出力が得られている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_images_from_different_views_d9f1b895f7/three_images_from_different_views_d9f1b895f7.jpg" alt="three images from different views.jpg" /></p>
+<p>利用シナリオとしては、広告やデザイン制作、キャラクター開発などのプロフェッショナル用途を想定。バッチ処理機能により多数の画像を一度に生成でき、制作現場での効率化が期待される。</p>
+<p><strong>同じ入力から写実風、アニメ風、イラスト風など多様なスタイルへ変換した出力例。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/seedream4_0_3_4a089d4755/seedream4_0_3_4a089d4755.jpg" alt="seedream4-0-3.jpg" /></p>
+<p>さらにByteDanceは、内部ベンチマーク「MagicBench」において、Google DeepMindが提供する最新の画像生成モデル「Gemini 2.5 Flash Image（通称Nano Banana）」を上回ったと主張している。特にプロンプト忠実度、出力の整合性、美的評価において優れた結果を示したとされる。</p>
+<p><strong>MagicBenchにおける比較評価。Seedream 4.0（青色）は複数項目で他モデルを上回ったとされる。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
+<p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
       <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
       <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
