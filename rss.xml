@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon傘下のZoox、ラスベガスで世界初の完全自律ロボタクシーを一般公開</title>
+      <link>https://ledge.ai/articles/zoox_launches_fully_autonomous_robotaxi_las_vegas</link>
+      <description><![CDATA[<p>Amazon傘下で自動運転タクシーを開発・運営するZooxは、2025年9月10日（現地時間）、米ラスベガスで完全自律走行によるロボタクシーサービスを開始したことを<a href="https://zoox.com/journal/las-vegas">発表</a>した。ステアリングやペダルを持たない専用車両による商業環境での一般公開は世界初だという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=K8P5PnchHDY">YouTube</a></p>
+<p>車両は最大4人乗りの設計で、対面式のベンチシートを備える。外部の操作者やハンドル操作に依存せず、カメラ・LiDAR・レーダーなど複数のセンサーを組み合わせた完全自律走行を実現しているのが特徴だ。</p>
+<p>サービスはラスベガス・ストリップ周辺の特定ゾーンで提供され、利用者は公式アプリを通じて乗車を予約する。当面は無料で提供されるが、今後は規制当局の承認を得て有料化を予定しているとのこと。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1757372876_picture_of_the_zoox_app_f4c01569ab/1757372876_picture_of_the_zoox_app_f4c01569ab.webp" alt="1757372876-picture-of-the-zoox-app.webp" /></p>
+<p>同社は2025年4月、ラスベガスで発生した軽微な接触事故を受けて一部車両の自主リコールを行った。今回の一般公開はその後の安全性確保の取り組みを踏まえたものであり、引き続き信頼性や透明性が問われることになる。</p>
+<p>今後同社は、サンフランシスコやオースティンなど他都市への展開も検討しており、規制や社会的受容、利用体験の向上が次の焦点となる。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>3分の音楽を2秒で生成──Stability AI、商用利用可能な高品質音楽生成AI「Stable Audio 2.5」をリリース</title>
       <link>https://ledge.ai/articles/stability_ai_stable_audio_25_release</link>
       <description><![CDATA[<p>Stability AIは2025年9月10日、音楽生成AIの最新モデル「Stable Audio 2.5」を<a href="https://stability.ai/news/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale">発表</a>した。エンタープライズ用途に最適化された同モデルは、最大3分間の音楽をわずか2秒で生成できる高速性と、高品質かつ商用利用可能な点を特徴としている。</p>
@@ -250,23 +263,6 @@ GPUメモリや運用コストは70％削減</li>
 <p>同社は米国での先行提供を経て、今回日本語を含む複数言語での展開を開始した。今後も利用可能な地域や言語を順次拡大していくとしている。</p>
 ]]></description>
       <pubDate>Wed, 10 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>香港科技大学、AIと文明の共進化を探る社会シミュレーション「Aivilization」を公開──10万人のAIエージェントが仮想社会を形成</title>
-      <link>https://ledge.ai/articles/hkust_aivilization_ai_civilization_experiment</link>
-      <description><![CDATA[<p>香港科技大学（HKUST）は2025年8月19日、10万人規模のAIエージェントによる仮想社会を舞台に、AIと人類の共進化を探る教育サンドボックスゲーム「Aivilization」を<a href="https://hkust.edu.hk/news/hkust-launches-worlds-largest-ai-powered-educational-sandbox-game-advancing-ai-literacy-and">発表</a>した。同大学によると、プロジェクトはAIリテラシーの向上や市民科学の促進を目的としており、世界最大規模のAI社会シミュレーションとして設計されているという。</p>
-<p><strong>Aivilizationは、インタラクティブなゲームプレイ、大規模な一般参加、そしてリアルタイムのAI実験を組み合わせ、6週間にわたり10万台のAIエージェントを動員。Chen Kani教授（左）と博士課程学生のYang Haowei氏（右）が共同でプラットフォーム開発を主導した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CSC_06058_415aa14c9f/CSC_06058_415aa14c9f.jpg" alt="CSC06058.jpg" /></p>
-<p>「Aivilization」では、約10万人のAIエージェントがリアルタイムに相互作用し、経済・文化・統治といった要素を持つ仮想社会を形成する。参加者はAIキャラクターの人格をMBTI（性格類型診断）を用いて設定し、進路指導や日常生活の助言を与えることができる。ゲーム終了後には、AIキャラクターの人生の軌跡をまとめた「ライフレポート」や、人間とAIのコミュニケーション分析が提供される。</p>
-<p><strong>博士課程の学生Ricky Chan氏が作成した内向的な AI キャラクターは、彼の指導の下、徐々に社会的に活動的な「人間」へと進化した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CSC_06171_1d10845de3/CSC_06171_1d10845de3.jpg" alt="CSC06171.jpg" /></p>
-<p>技術面では、AIエージェント1体あたりの運用コストを月約2ドルに抑えることに成功し、従来比95%以上の削減を実現した。大規模なマルチエージェントシステムをリアルタイムで運用可能にした点も特徴とされる。</p>
-<p>HKUSTは本プロジェクトを通じて、AIを「次世代の教育ツール」として活用し、参加者が実体験を通じてAIリテラシーを高められる仕組みを構築したと説明している。公式サイト（Aivilization.ai
-）では「Join the Experiment」と題して参加案内を行っており、現時点では招待制でのアクセスとなっている。</p>
-<p>さらに、YouTube公式チャンネルでは、仮想都市やAIエージェントの相互作用を紹介する映像も公開されており、ゲームの臨場感を伝えている。HKUSTは、今後「Aivilization」で得られるデータを教育研究やAIガバナンスの議論に活用する方針を示している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=1NPwiyejvEg">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
