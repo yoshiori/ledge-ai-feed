@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
+      <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
+      <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
+<h2>無断利用への懸念と報酬の不在</h2>
+<p>AIモデルはこれまで、大量のウェブコンテンツを収集して学習に用いてきたが、出版社や著作者への報酬は十分に支払われてこなかった。訴訟や規制をめぐる動きが広がるなか、コンテンツ提供側が主体的に利用条件を示し、対価を求められる仕組みの必要性が高まっていた。</p>
+<h2>RSL標準の仕組み</h2>
+<p>RSL標準は、既存のrobots.txtを拡張し、AI用途での収集・利用に関するライセンス条項やロイヤルティを明示できるようにする。ライセンスモデルは以下のように多様化しており、コンテンツごとに設定が可能だ。</p>
+<ul>
+<li>無料利用</li>
+<li>帰属（attribution）付き利用</li>
+<li>サブスクリプション契約</li>
+<li>pay-per-crawl（クロール単位での課金）</li>
+<li>pay-per-inference（推論単位での課金）</li>
+</ul>
+<p>技術仕様はXMLベースで定義され、APIによる報告や請求処理を組み合わせることで自動化を実現する。コンテンツの種類はウェブページだけでなく、動画、音楽、プロプライエタリデータにも対応する。</p>
+<h2>Collectiveの役割と参加企業</h2>
+<p>RSL Collectiveは、出版社やクリエイターの権利を集約し、AI企業とのライセンス交渉やロイヤルティの徴収を代行する組織だ。音楽分野で著作権者の権利管理を担うASCAPのようなモデルを参考にしている。</p>
+<p>すでにReddit、Yahoo、Medium、Quora、O’Reilly Media、wikiHowなどが賛同を表明しており、幅広い分野からの参加が期待されている。</p>
+<h2>技術連携と課題</h2>
+<p>インターネットインフラ企業Fastlyは、ライセンス取得済みのクローラーのみアクセスを許可する仕組みの実装に取り組んでいる。一方で、AI企業がこの標準に従うかどうかは任意であり、強制力に欠ける点が課題だ。また、クローラーの偽装やrobots.txtの無視といった技術的な抜け道も懸念されている。</p>
+<p>さらに、AIの推論結果にどのコンテンツが具体的に使われたかを追跡することは難しく、正確な利用料計算には技術的ハードルがある。</p>
+<h2>今後の展望</h2>
+<p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon傘下のZoox、ラスベガスで世界初の完全自律ロボタクシーを一般公開</title>
       <link>https://ledge.ai/articles/zoox_launches_fully_autonomous_robotaxi_las_vegas</link>
       <description><![CDATA[<p>Amazon傘下で自動運転タクシーを開発・運営するZooxは、2025年9月10日（現地時間）、米ラスベガスで完全自律走行によるロボタクシーサービスを開始したことを<a href="https://zoox.com/journal/las-vegas">発表</a>した。ステアリングやペダルを持たない専用車両による商業環境での一般公開は世界初だという。</p>
@@ -16,6 +43,19 @@
 <p>今後同社は、サンフランシスコやオースティンなど他都市への展開も検討しており、規制や社会的受容、利用体験の向上が次の焦点となる。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>3分の音楽を2秒で生成──Stability AI、商用利用可能な高品質音楽生成AI「Stable Audio 2.5」をリリース</title>
+      <link>https://ledge.ai/articles/stability_ai_stable_audio_25_release</link>
+      <description><![CDATA[<p>Stability AIは2025年9月10日、音楽生成AIの最新モデル「Stable Audio 2.5」を<a href="https://stability.ai/news/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale">発表</a>した。エンタープライズ用途に最適化された同モデルは、最大3分間の音楽をわずか2秒で生成できる高速性と、高品質かつ商用利用可能な点を特徴としている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=zlldXbV72SM">YouTube</a></p>
+<p>Stable Audio2.5はテキストプロンプトから楽曲を生成できるほか、既存の音声データの任意の部分を切り取って差し替えたり、続きを自然に補完したりする「オーディオinpainting」機能も備えている。これにより、冒頭の数秒だけを残して曲全体を作り直すといった柔軟な編集が可能になり、クリエイターや企業は制作プロセスを効率化できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stable_audio2_5_1_22876b3fd5/stable_audio2_5_1_22876b3fd5.jpg" alt="stable audio2-5-1.jpg" /></p>
+<p>技術面では、生成プロセスの推論ステップ数を大幅に削減する新手法を採用し、従来より効率的かつ高品質な生成を実現。学習にはライセンス済みのデータセットを使用しており、商用利用における安全性を担保したとしている。</p>
+<p>利用形態としては、API提供に加え、ComfyUIやReplicate、Falといったプラットフォームからアクセスできる。商用ライセンスの下での導入も可能で、企業の音響制作に幅広く対応する。</p>
+<p>導入事例としては、WPP傘下のサウンドブランディング企業「amp」が同モデルを活用し、ブランド向けの音響制作に利用しているという。Stability AIは「音楽制作の民主化を推進し、制作現場のワークフローを大きく変革する」としており、広告や映像制作を中心に企業向け利用が拡大する見込みだ。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/15 [MON]Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
@@ -97,6 +137,17 @@
       <pubDate>Sun, 14 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ビジネス2025/9/13 [SAT]OpenAI×Oracle、3000億ドル規模のインフラ契約で株価急騰──エリソン氏の純資産4000億ドル（約54兆円）でマスク氏超え世界一に</title>
+      <link>https://ledge.ai/articles/openai_oracle_300b_infra_contract_ellison_wealth</link>
+      <description><![CDATA[<p>OpenAIがOracleと総額3000億ドル（約46兆円）規模のインフラ構築契約を結んだと、ウォール・ストリート・ジャーナル（WSJ）が2025年9月10日（現地時間）、関係者の話として報じた(https://www.wsj.com/business/openai-oracle-sign-300-billion-computing-deal-among-biggest-in-history-ff27c8fe)。契約は約5年間にわたり、2027年から始動する見込みで、4.5ギガワット規模のデータセンター容量を確保するとされる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/oracle_wsj_a167bb4726/oracle_wsj_a167bb4726.jpg" alt="oracle wsj.jpg" /></p>
+<p>Oracleは8月31日に発表した2025年度第1四半期決算で、「将来の契約収入が3170億ドル（約46兆7000億円）以上増加した」と明らかにした。この発表を受け、同社株価は最大43％急騰。
+メディア<a href="https://www.theverge.com/ai-artificial-intelligence/776170/oracle-openai-300-billion-contract-project-stargate">The Verge</a>は、株価上昇によりOracle創業者で現会長のラリー・エリソン氏の純資産は4000億ドル（約54兆円）に達し、テスラCEOのイーロン・マスク氏を抜いて世界一の富豪となったと報じている。
+契約は、OpenAIが進める大規模AIインフラ計画「<a href="https://ledge.ai/articles/stargate_oracle_openai_4_5gw">Project Stargate</a>」の一環とされる。生成AIの需要拡大に伴い、計算資源の確保と大規模データセンター建設が今後の競争力の鍵となる中、両社の動きが業界全体に与える影響が注目される。</p>
+]]></description>
+      <pubDate>Sat, 13 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
       <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
       <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
@@ -108,6 +159,31 @@
 <p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
 ]]></description>
       <pubDate>Sat, 13 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「20歳女子は港区に収監」──全編AI映像で描く異色のSFコメディ『サヨナラ港区』、読売テレビで9月14日深夜スタート</title>
+      <link>https://ledge.ai/articles/sayonara_minatoku_ai_drama_tv</link>
+      <description><![CDATA[<p>読売テレビは、全ての映像素材を生成AIで制作したショートドラマ『サヨナラ港区』を9月14日深夜（15日未明）から放送することを<a href="https://prtimes.jp/main/html/rd/p/000000345.000122725.html">発表</a>した。AIによる映像制作の可能性と限界に挑戦する異色のSFコメディで、全23話が制作された。</p>
+<h2>未来の東京を舞台にした「港区法23条」</h2>
+<p>物語の舞台は未来の東京。港区は独裁的な支配を敷き、「港区法第23条」により、20歳を迎えた女子を収監して「港区女子」としての訓練を強制する。</p>
+<p>主人公の青年キリヤは、収監された幼馴染のレナを救出するために立ち上がり、シブヤやアサクサ、ハチオウジといった各地のレジスタンス勢力とともに港区政権に挑む。ディストピア的な状況を描きながら、コメディ要素を織り交ぜた異色の作品だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sayonaraminatoku1_1d75c96673/sayonaraminatoku1_1d75c96673.jpg" alt="sayonaraminatoku1.jpg" /></p>
+<h2>制作手法と制作体制</h2>
+<p>同作品は、読売テレビグループのytvメディアデザインが制作。AIクリエイターの宮城明弘氏が中心となり、約1万5,000カットの映像を生成AIで制作した。編集や声優アフレコ、音楽・効果音は人の手によって仕上げられている。
+制作過程では、著作権や倫理面に配慮した独自のガイドラインを設定。
+実在の人物や作品名をプロンプトに使用しない
+既存キャラクターに類似した表現は排除
+使用したプロンプトはすべて記録として保存
+といったルールを徹底した。</p>
+<h2>放送・配信スケジュール</h2>
+<p>『サヨナラ港区』は、読売テレビの深夜ドラマ枠「ドラマのシュララ」で9月14日から放送が始まる。さらに、9月23日（火）18時からはDMMショートにて全23話が独占配信される予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=56R3s0NNnIw">YouTube</a></p>
+<h2>制作者のコメント</h2>
+<p>宮城氏は自身のX投稿で、
+「自身の創造性とAIの力を融合させ、細部まで徹底的に作り込んだ」と振り返り、「作品の解釈は観る人それぞれに委ねたい」とコメント。さらに、「今回の経験は通過点にすぎず、今後はAIと実写の融合など新たな映像表現を追求したい」と抱負を語った。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/miyagi_x_6449bd1408/miyagi_x_6449bd1408.jpg" alt="miyagi x.jpg" /></p>
+]]></description>
+      <pubDate>Sat, 13 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gartner：行政サービスのハイプサイクルで「ソブリンAI」と「AIエージェント」を「過度な期待」のピーク期に位置づけ</title>
@@ -156,6 +232,26 @@ GPUメモリや運用コストは70％削減</li>
 <p>将来的には、メモリ使用量を最大1000分の1に削減するさらなる軽量化を目指し、エッジデバイスでのAIエージェント実装など、幅広い応用を見据えているという。</p>
 ]]></description>
       <pubDate>Fri, 12 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>産総研、双腕ロボットAI開発に向け学習データセットを無償公開 ― 両手協調作業の自動化を加速</title>
+      <link>https://ledge.ai/articles/sangyouken_robot_ai_dataset_open</link>
+      <description><![CDATA[<p>産業技術総合研究所（産総研）は2025年9月2日、双腕ロボットのAI制御に必要な学習データセットとソフトウェア基盤を無償で公開したと<a href="https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250902/pr20250902.html">発表</a>した。複雑な作業を自律的に行うロボットの研究開発を支援するのが狙いだ。</p>
+<p><strong>■ 日常・産業のさまざまなタスクを対象に収録されたロボット動作データ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig1_1_2f4b5d1d11/fig1_1_2f4b5d1d11.jpg" alt="fig1 (1).jpg" /></p>
+<p>公開されたデータには、ロボットが両手で物体を把持・操作する際の動作が含まれる。食器の配膳や布の折り畳みといった日常タスクから、歯車のはめ込みやフレームの組み立てといった産業タスクまで幅広く網羅している。視覚や力覚センサーによる情報も収録されており、実際の作業環境に近い状況を再現できる。</p>
+<p><strong>■ 人間の操作を模倣し、学習データとして記録するシステム</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_1_342e9cd6ff/fig2_1_342e9cd6ff.jpg" alt="fig2 (1).jpg" /></p>
+<p>データは「リーダーフォロワー型遠隔操作システム」を通じて収集され、研究者や開発者が模倣学習や強化学習の基盤として利用可能だ。加えて、データ処理やモデル検証を行うためのソフトウェア基盤も同時に提供される。</p>
+<p><strong>■ RoboManipBaselinesのフレームワーク構成</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig3_1_b0c3f0f9fb/fig3_1_b0c3f0f9fb.png" alt="fig3 (1).png" /></p>
+<p>今回の公開は、産総研が進める「ロボット基盤モデル研究」の一環。オープンフレームワーク「RoboManipBaselines」を通じて、データ収集・モデル訓練・評価を一貫して行える環境を提供し、研究成果の再現性や比較可能性を高めることを目的としている。</p>
+<p><strong>■ 公開されたデータや基盤を活用したシミュレーション・検証例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig4_3ab65c9131/fig4_3ab65c9131.jpg" alt="fig4.jpg" /></p>
+<p>産業や生活の現場では、両手を使った協調動作の自動化ニーズが拡大している。従来のティーチング方式によるプログラミングでは対応が難しかった柔軟な作業に対し、AIによる自律的な動作学習が求められてきた。産総研は「研究者や企業が自由に活用することで、双腕ロボットの研究開発が加速し、工場やサービス分野での実装が進む」としている。</p>
+<p>今後はデータの拡充や利用者からのフィードバックを踏まえた改善を継続し、現場導入に向けた応用展開を進める方針だ。</p>
+]]></description>
+      <pubDate>Fri, 12 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/11 [THU]蘭半導体製造装置大手ASML、仏ミストラルAIに13億ユーロ出資──最大株主となり戦略的パートナーシップを構築</title>
@@ -406,6 +502,56 @@ ld_media_sales@ledge.co.jp
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NEC、暗黙知を学習し、Web上での業務を自動化するAIエージェント技術「cotomi Act」を発表──世界初、人間超え成功率80.4%を達成</title>
+      <link>https://ledge.ai/articles/nec_cotomi_act_web_agent_implicit_knowledge</link>
+      <description><![CDATA[<p>NECは2025年8月27日、Web上での業務を自動実行する新しいエージェント技術「cotomi Act（コトミ アクト）」を開発したと<a href="https://jpn.nec.com/press/202508/20250827_02.html">発表</a>した。人間の経験に基づく「暗黙知」をデータ化して学習・活用できる点が特徴で、世界的なベンチマーク「WebArena」において成功率80.4%を記録。従来の人間の成功率を上回り、世界初の成果だとしている。</p>
+<h2>暗黙知を活用する新技術</h2>
+<p>「cotomi Act」は、従来は人間が感覚的に行っていたWeb上の操作手順を「暗黙知」として捉え、形式知に変換したうえでAIに学習させる仕組みを採用する。これにより、自然文での指示を与えるだけで、Webブラウザ上での操作を自動化できる。</p>
+<p><strong>cotomi Actの全体像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_01_155328f13d/2702_01_155328f13d.png" alt="2702-01.png" /></p>
+<h2>ブラウザ拡張で動作</h2>
+<p>技術はブラウザ拡張機能として実装され、既存の業務環境に組み込みやすい点も特徴。これまで個別のシステムに依存していた自動化を、汎用的にWebサービス全体で可能にする。</p>
+<p><strong>Webブラウザ拡張として動作するcotomi Actを利用して最新の情報を調査しチーム内に共有をする例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_02_ec74452fe2/2702_02_ec74452fe2.jpg" alt="2702-02.jpg" /></p>
+<h2>世界初の人間超え</h2>
+<p>評価には、Web業務自動化の国際的ベンチマーク「WebArena」が用いられた。テストの結果、cotomi Actは80.4%のタスク成功率を記録。NECによると、人間の成功率を初めて超えたエージェント技術であり、世界初の成果だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_03_c441a2bc6d/2702_03_c441a2bc6d.png" alt="2702-03.png" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2702_04_f6538ab081/2702_04_f6538ab081.png" alt="2702-04.png" /></p>
+<h2>業務効率化と将来展望</h2>
+<p>NECは、この技術により日常的なWeb業務やSaaS利用の自動化が進み、労働力不足の解消や業務効率化に貢献できるとしている。今後は生成AIプラットフォーム「cotomi」との連携を強化し、2026年度中のサービス提供を目指す方針だ。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
+      <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
+      <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
+<p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
+まずプレトレーニング段階では、モデルは大規模なテキストデータから言語の確率分布を学習するが、この過程自体が統計的に誤りを生み出す要因となる。誤りは「バイナリ分類（正しい／誤り）」の誤分類と同様に不可避であり、訓練データに誤りが含まれていなくても誤答が発生すると分析している。</p>
+<p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
+<p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
+<p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
+      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
+      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
+<h2>AI普及と雇用への影響</h2>
+<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
+<h2>Jobs Platformの概要</h2>
+<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
+<h2>OpenAI Certificationsの仕組み</h2>
+<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
+<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
+<h2>提携先と今後の展望</h2>
+<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
+<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【ソースコード特典付き】ローカルLLMで構築するマルチモーダルRAG｜Ledge.ai Webinar</title>
       <link>https://ledge.ai/articles/webinar-vol69</link>
       <description><![CDATA[<h2>ウェビナー概要</h2>
@@ -450,6 +596,32 @@ GPUクラウドサービスのマーケティング担当。</p>
 :::</p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
+      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
+      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
+<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
+<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
+<h2>GPT-5の具体的な活用事例</h2>
+<p>Weil氏は投稿の中で、次の例を紹介した。</p>
+<ul>
+<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
+<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
+<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
+<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
+</ul>
+<h2>背景にあるOpenAIの活動</h2>
+<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
+2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
+2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
+<h2>Weil氏の立場と組織体制</h2>
+<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
+<h2>今後の展望</h2>
+<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
+]]></description>
+      <pubDate>Sun, 07 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
