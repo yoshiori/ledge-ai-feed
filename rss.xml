@@ -5,29 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
-      <link>https://ledge.ai/articles/iphone17_ios26_apple_intelligence_update</link>
-      <description><![CDATA[<p>2025年9月9日（米国時間）に、最新スマートフォン「iPhone 17」シリーズを<a href="https://www.apple.com/jp/newsroom/2025/09/apple-debuts-iphone-17/">発表</a>したAppleは16日、新OS「<a href="https://www.apple.com/jp/os/ios/">iOS 26</a>」を公開し、同社のAI機能群「Apple Intelligence」に新たな機能を追加した。翻訳や生成機能の拡充が中心で、一部の機能は対応機種に制限がある。</p>
-<p>同社の<a href="https://www.apple.com/jp/newsroom/2025/09/new-versions-of-apples-software-platforms-are-now-available/">ニュースルーム</a>では、iOS 26におけるApple Intelligenceの新機能が公表された。主な内容は以下の通り。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ios26_intelligence_7caf31bc7a/ios26_intelligence_7caf31bc7a.jpg" alt="ios26 intelligence.jpg" /></p>
-<ul>
-<li><strong>ライブ翻訳</strong> ：Messages、FaceTime、電話通話でリアルタイムの翻訳と字幕表示を提供。AirPodsを使った対面会話の翻訳にも対応。</li>
-<li><strong>Visual Intelligenceの進化</strong> ：スクリーンショットを撮影し、ChatGPTに直接質問できる。また、GoogleやEtsyなどのアプリを使い、類似画像や商品の検索が可能。</li>
-<li><strong>Genmoji / Image Playground</strong> ：絵文字を生成したり、画像にスタイルを付与して生成する機能を提供。</li>
-<li><strong>Workout Buddy</strong> ：Apple WatchとAirPodsを組み合わせて利用し、ワークアウト中にパーソナライズされた励ましの音声を提供。</li>
-<li><strong>ショートカット連携</strong> ：PDFからの情報抽出や文書要約、テキストからの画像生成を自動化する新しいアクションを提供。</li>
-</ul>
-<h2>プライバシー重視の設計</h2>
-<p>Appleは、Apple Intelligenceの処理が基本的にオンデバイスで行われることを説明している。複雑な処理は「Private Cloud Compute」を介して実行され、Appleにデータが保存・共有されることはないとしている。</p>
-<h2>対応機種の範囲</h2>
-<p>Apple Intelligenceの主要機能はiPhone 15 Pro以降、iPhone 16、iPhone 17シリーズに対応していると<a href="https://9to5mac.com/2025/08/19/apple-intelligence-new-features-in-ios-26-full-list/">9to5Mac</a>が報じている。また、古いモデルでもiOS 26へのアップデートは可能だが、AI機能の多くは利用できないとされる。</p>
-<h2>今後の展開</h2>
-<p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
-<p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
       <link>https://ledge.ai/articles/humanoid_robot_skateboard_cyborg_ai</link>
       <description><![CDATA[<p>2025年9月11日、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）、国際電気通信基礎技術研究所（ATR）、京都大学は、ヒューマノイドロボットに「サイボーグAI」を搭載し、人間の動きを模倣（みまね）学習させることで、スケートボードの複雑な技を人並みのリアルタイムで実行することに成功したと<a href="https://www.nedo.go.jp/news/press/AA5_101886.html">発表</a>した。</p>
@@ -454,6 +431,29 @@ GPUメモリや運用コストは70％削減</li>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
+      <link>https://ledge.ai/articles/iphone17_ios26_apple_intelligence_update</link>
+      <description><![CDATA[<p>2025年9月9日（米国時間）に、最新スマートフォン「iPhone 17」シリーズを<a href="https://www.apple.com/jp/newsroom/2025/09/apple-debuts-iphone-17/">発表</a>したAppleは16日、新OS「<a href="https://www.apple.com/jp/os/ios/">iOS 26</a>」を公開し、同社のAI機能群「Apple Intelligence」に新たな機能を追加した。翻訳や生成機能の拡充が中心で、一部の機能は対応機種に制限がある。</p>
+<p>同社の<a href="https://www.apple.com/jp/newsroom/2025/09/new-versions-of-apples-software-platforms-are-now-available/">ニュースルーム</a>では、iOS 26におけるApple Intelligenceの新機能が公表された。主な内容は以下の通り。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ios26_intelligence_7caf31bc7a/ios26_intelligence_7caf31bc7a.jpg" alt="ios26 intelligence.jpg" /></p>
+<ul>
+<li><strong>ライブ翻訳</strong> ：Messages、FaceTime、電話通話でリアルタイムの翻訳と字幕表示を提供。AirPodsを使った対面会話の翻訳にも対応。</li>
+<li><strong>Visual Intelligenceの進化</strong> ：スクリーンショットを撮影し、ChatGPTに直接質問できる。また、GoogleやEtsyなどのアプリを使い、類似画像や商品の検索が可能。</li>
+<li><strong>Genmoji / Image Playground</strong> ：絵文字を生成したり、画像にスタイルを付与して生成する機能を提供。</li>
+<li><strong>Workout Buddy</strong> ：Apple WatchとAirPodsを組み合わせて利用し、ワークアウト中にパーソナライズされた励ましの音声を提供。</li>
+<li><strong>ショートカット連携</strong> ：PDFからの情報抽出や文書要約、テキストからの画像生成を自動化する新しいアクションを提供。</li>
+</ul>
+<h2>プライバシー重視の設計</h2>
+<p>Appleは、Apple Intelligenceの処理が基本的にオンデバイスで行われることを説明している。複雑な処理は「Private Cloud Compute」を介して実行され、Appleにデータが保存・共有されることはないとしている。</p>
+<h2>対応機種の範囲</h2>
+<p>Apple Intelligenceの主要機能はiPhone 15 Pro以降、iPhone 16、iPhone 17シリーズに対応していると<a href="https://9to5mac.com/2025/08/19/apple-intelligence-new-features-in-ios-26-full-list/">9to5Mac</a>が報じている。また、古いモデルでもiOS 26へのアップデートは可能だが、AI機能の多くは利用できないとされる。</p>
+<h2>今後の展開</h2>
+<p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
+<p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
+]]></description>
+      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
       <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor</link>
       <description><![CDATA[<p>国内最大級のAI特化メディア『Ledge.ai』を運営する株式会社レッジ（東京都品川区）は、2025年9月24日(水)〜26日(金)の3日間連続で合計20本以上のセミナーを配信するオンラインイベント「Ledge.ai Webinar SP」を開催いたします。</p>
@@ -594,23 +594,6 @@ ld_media_sales@ledge.co.jp
 <p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
 <p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
 <p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、AIスキル認定と求人プラットフォーム導入へ—2026年にもサービス開始</title>
-      <link>https://ledge.ai/articles/openai_jobs_platform_certifications_2026</link>
-      <description><![CDATA[<p>OpenAIは2025年9月4日（現地時間）、AIスキルを持つ人材と企業を結びつける新サービスを<a href="https://openai.com/index/expanding-economic-opportunity-with-ai/">発表</a>した。人材マッチングプラットフォーム「OpenAI Jobs Platform」と、AIスキルを証明する認定制度「OpenAI Certifications」の2本柱で構成され、いずれも2026年中の展開を予定している。</p>
-<h2>AI普及と雇用への影響</h2>
-<p>AIの活用が進む一方で、既存の雇用の変化やスキル不足が課題となっている。OpenAI Applications部門を率いるFidji Simo氏は、「AIによる混乱を完全に防ぐことはできないが、人々がAIに精通し、企業とつながる機会を広げることは可能だ」と述べ、今回の取り組みの狙いを説明した。</p>
-<h2>Jobs Platformの概要</h2>
-<p>新たに発表された「OpenAI Jobs Platform」は、AIリテラシーを備えた求職者と企業をマッチングするサービスで、2026年半ばにローンチされる見込みだ。大企業だけでなく、中小企業や地方自治体向けのトラックも用意される計画で、幅広い分野での活用が想定されている。</p>
-<h2>OpenAI Certificationsの仕組み</h2>
-<p>一方、「OpenAI Certifications」は、AIスキルを公式に証明する認定制度で、OpenAI Academyを通じて提供される。基礎的なAI理解からプロンプトエンジニアリングに至るまで複数レベルが設けられ、ChatGPTの「Studyモード」などを利用して学習・試験に臨むことができる。</p>
-<p>OpenAIは、2030年までに米国内で1,000万人の市民に認定を付与する目標を掲げている。試験的導入は2025年末から2026年初頭に始まる予定だ。</p>
-<h2>提携先と今後の展望</h2>
-<p>Jobs PlatformとCertificationsには、WalmartやJohn Deere、Accenture、Indeedなどの企業や、テキサス州を含む地方自治体がパートナーとして参加。LinkedIn（Microsoft傘下）を意識した構想とも言われ、求人市場における新たな競合軸として注目されている。</p>
-<p>中小企業や公共分野まで視野に入れることで、地域経済や行政サービスにAIを浸透させる効果も期待される。ただし、認定制度がどの程度実効性を持つのか、実際の雇用改善やスキルアップに結びつくかが今後の焦点となる。</p>
 ]]></description>
       <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
