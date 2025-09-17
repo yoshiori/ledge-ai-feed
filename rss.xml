@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>故人データの権利をどう守る？──米UCアーバイン研究チーム、生成AI時代の「死後データ管理原則」を提案</title>
+      <link>https://ledge.ai/articles/post_mortem_data_management_principles_ai</link>
+      <description><![CDATA[<p>米カリフォルニア大学アーバイン校の研究チームは2025年9月9日、生成AIにおける故人のデータ権利を保護するための新たな指針を<a href="https://arxiv.org/abs/2509.07375">提案</a>した。同研究はこれまで十分に議論されてこなかった「死後データの所有権」に着目し、3つの管理原則を提示している。</p>
+<p>生成AIは大量のユーザーデータに依存して学習するが、現行のプライバシー規制（GDPR、CCPA、LGPDなど）は主に生存者を対象としており、故人のデータについては明確な保護が欠けている。実際に、亡くなった人物を模倣したAIチャットボットが公開され、遺族や社会に心理的負担を与えた事例も報告されている。</p>
+<p><strong>研究アプローチ概要</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_6_ebd9ae91ea/x1_6_ebd9ae91ea.png" alt="x1 (6).png" /></p>
+<p>研究チームは各国の法規制や大手テクノロジー企業のポリシーを分析した結果、多くのサービスが「アカウント削除」や「メモリアル化」といった最低限の対応にとどまり、AIモデルによるデータ利用や影響除去を考慮していない点を指摘。そのうえで、次の3つの「死後データ管理原則」を提案した。</p>
+<ol>
+<li><strong>忘れられる権利（削除）</strong> ：死後にデータを削除するだけでなく、AIモデルからの影響も取り除く。</li>
+<li><strong>データの相続と所有権</strong> ：削除を望まない場合には、データを遺族に譲渡する仕組みを設ける。商業的活用や「AIアフターライフ」として保存する選択も可能。</li>
+<li><strong>利用目的の制限と害の防止</strong> ：研究や公益目的での利用であっても、尊厳を損なわない範囲に限定し、遺族への心理的負担を避ける。</li>
+</ol>
+<p>実装に向けては、デジタル遺言の導入や第三者機関による監査、AIモデルからの影響を除去する「アンラーニング」技術の活用を提案。規制当局には、企業に対して死後データの取り扱い方針を明示する義務を課すよう求めている。</p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>川崎市と名古屋大学、デジタルツインで下水道設備管理を高度化──国内初の共同研究を開始</title>
       <link>https://ledge.ai/articles/kawasaki_nagoya_digital_twin_sewage_research</link>
       <description><![CDATA[<p>川崎市上下水道局は2025年9月8日、名古屋大学大学院工学研究科と共同で、デジタル技術を活用した下水道設備の新たな維持管理手法を開発する研究を開始したと<a href="https://www.city.kawasaki.jp/800/page/0000180281.html">発表</a>した。国内の下水処理場で、デジタルツインモデルを本格的に導入する取り組みは初めてとなる。</p>
