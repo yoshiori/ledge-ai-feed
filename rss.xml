@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Rolling Stone／Billboard発行元、Googleを提訴　「AI要約が収益奪う」と主張</title>
+      <link>https://ledge.ai/articles/pmc_google_ai_overviews_lawsuit</link>
+      <description><![CDATA[<p>米国の大手出版社 Penske Media Corporation（PMC）は2025年9月12日、米GoogleをワシントンD.C.連邦地方裁判所に提訴した。PMCは訴状で、Google検索の新機能「AI Overviews（日本では『AIによる概要』）」が、自社の記事を許可なく要約し、ユーザーを検索結果内で満足させることで、サイトへの訪問者数や広告収益を大幅に減少させていると主張している。</p>
+<p>PMCはRolling Stone、Billboard、Varietyなど複数の主要メディアを傘下に持つ。訴状によれば、Googleは独占的な検索シェアを利用して「出版社のコンテンツを無断でAI要約に組み込み、読者を自社サービス内に留め置いている」と指摘。こうした「ゼロクリック」現象によって、PMCのデジタル収益はピーク時から3分の1以上失われたとしている。</p>
+<p>訴状では具体例として、Rolling Stoneがオジー・オズボーン氏の死去翌日（2025年7月23日）に公開した記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」が挙げられている。記者のKory Grow氏が20年以上にわたり20回以上のインタビューを重ねて得た独自の洞察をまとめた内容だが、Googleの「AIによる概要」が検索結果に要約を表示することで、ユーザーが記事本文を訪れずに済んでしまい、収益機会が奪われていると指摘している。</p>
+<p><strong>■ 下図：訴状に添付されたRolling Stone記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」（2025年7月23日公開）のスクリーンショット</strong> --記事ページには広告枠が複数配置されており、閲覧数が収益に直結する仕組みが示されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rolling_stones_ozzy_336b04e7bc/rolling_stones_ozzy_336b04e7bc.jpg" alt="rolling stones ozzy.jpg" /></p>
+<p><a href="https://www.reuters.com/sustainability/boards-policy-regulation/rolling-stone-billboard-owner-penske-sues-google-over-ai-overviews-2025-09-14/">Reuters</a>の報道によると、Googleは「根拠のない主張だ」と反論しており、AI要約は検索体験を改善し、むしろ多くのサイトを利用者が発見する機会を増やしていると説明している。Googleはまた「毎日数十億件のクリックをウェブサイトに送っている」と強調した。</p>
+<p>出版業界では、教育サービス大手Cheggなど他の事業者もGoogleのAI要約に対して法的措置を取っており、AIをめぐる検索事業者とコンテンツ提供者の対立は一層激化している。今回のPMCによる訴訟は、その帰趨が業界全体の収益モデルや、AIと著作権の関係を左右する重要な試金石となりそうだ。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>石丸伸二氏設立の「再生の道」、新代表に京大院生の奥村光貴氏が就任　実装・導入時期未定の「AIペンギン」が党の意思決定担うと発表</title>
       <link>https://ledge.ai/articles/saisei_no_michi_new_leader_ai_penguin</link>
       <description><![CDATA[<p>地域政党「再生の道」は9月16日、東京都内で記者会見を開き、新代表の人事と今後の運営方針を<a href="https://x.com/saisei_pr/status/1967863931466391681">発表</a>した。</p>
@@ -315,26 +328,6 @@ GPUメモリや運用コストは70％削減</li>
 <p>将来的には、メモリ使用量を最大1000分の1に削減するさらなる軽量化を目指し、エッジデバイスでのAIエージェント実装など、幅広い応用を見据えているという。</p>
 ]]></description>
       <pubDate>Fri, 12 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>産総研、双腕ロボットAI開発に向け学習データセットを無償公開 ― 両手協調作業の自動化を加速</title>
-      <link>https://ledge.ai/articles/sangyouken_robot_ai_dataset_open</link>
-      <description><![CDATA[<p>産業技術総合研究所（産総研）は2025年9月2日、双腕ロボットのAI制御に必要な学習データセットとソフトウェア基盤を無償で公開したと<a href="https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250902/pr20250902.html">発表</a>した。複雑な作業を自律的に行うロボットの研究開発を支援するのが狙いだ。</p>
-<p><strong>■ 日常・産業のさまざまなタスクを対象に収録されたロボット動作データ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig1_1_2f4b5d1d11/fig1_1_2f4b5d1d11.jpg" alt="fig1 (1).jpg" /></p>
-<p>公開されたデータには、ロボットが両手で物体を把持・操作する際の動作が含まれる。食器の配膳や布の折り畳みといった日常タスクから、歯車のはめ込みやフレームの組み立てといった産業タスクまで幅広く網羅している。視覚や力覚センサーによる情報も収録されており、実際の作業環境に近い状況を再現できる。</p>
-<p><strong>■ 人間の操作を模倣し、学習データとして記録するシステム</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_1_342e9cd6ff/fig2_1_342e9cd6ff.jpg" alt="fig2 (1).jpg" /></p>
-<p>データは「リーダーフォロワー型遠隔操作システム」を通じて収集され、研究者や開発者が模倣学習や強化学習の基盤として利用可能だ。加えて、データ処理やモデル検証を行うためのソフトウェア基盤も同時に提供される。</p>
-<p><strong>■ RoboManipBaselinesのフレームワーク構成</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig3_1_b0c3f0f9fb/fig3_1_b0c3f0f9fb.png" alt="fig3 (1).png" /></p>
-<p>今回の公開は、産総研が進める「ロボット基盤モデル研究」の一環。オープンフレームワーク「RoboManipBaselines」を通じて、データ収集・モデル訓練・評価を一貫して行える環境を提供し、研究成果の再現性や比較可能性を高めることを目的としている。</p>
-<p><strong>■ 公開されたデータや基盤を活用したシミュレーション・検証例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig4_3ab65c9131/fig4_3ab65c9131.jpg" alt="fig4.jpg" /></p>
-<p>産業や生活の現場では、両手を使った協調動作の自動化ニーズが拡大している。従来のティーチング方式によるプログラミングでは対応が難しかった柔軟な作業に対し、AIによる自律的な動作学習が求められてきた。産総研は「研究者や企業が自由に活用することで、双腕ロボットの研究開発が加速し、工場やサービス分野での実装が進む」としている。</p>
-<p>今後はデータの拡充や利用者からのフィードバックを踏まえた改善を継続し、現場導入に向けた応用展開を進める方針だ。</p>
-]]></description>
-      <pubDate>Fri, 12 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
