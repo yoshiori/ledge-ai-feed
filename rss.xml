@@ -98,6 +98,49 @@
       <pubDate>Wed, 17 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
+      <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
+      <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
+<p>研究チームは、日常会話や物語といった自然言語を、そのまま扱うのではなく「一度構造化した表現」に変換し、それをもとにシミュレーションを行う枠組みを提案した。自由文のままでは曖昧さや抜け落ちが多く、AIが他者の意図を追跡するのが難しいが、この“ワンクッション”を挟むことで精度が大きく向上したという。</p>
+<p><strong>自由文を一度構造化してから『社会的ワールドモデル』で推論するフレームワーク。従来手法に比べ、複数の社会的推論ベンチマークで精度が向上した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5_9f97f3f354/x1_5_9f97f3f354.png" alt="x1 (5).png" /></p>
+<h2>性能は最大51%改善</h2>
+<p>実験では、複数人が登場する会話シナリオや協力・競争が絡む対話課題で評価を実施。その結果、意図や感情を読み解く力が最大で51%改善した。また、実際の対話のなかでAIがゴールを達成できる割合も最大18%向上したと報告している。</p>
+<h2>行動前に結果を“先読み”</h2>
+<p>この手法では「行動を起こす前に、仮想世界の中で結果をシミュレーションする」というアルゴリズムも導入された。研究チームはこれを「Foresee and Act」と呼び、交渉や協力シーンでより安定した判断が可能になることを示した。</p>
+<h2>人間らしい社会性を持つAIへ</h2>
+<p>従来のAI研究が物理世界の理解やシミュレーションに重点を置いてきたのに対し、今回の社会的ワールドモデルは、人間関係や心理的な状態を含めた“社会の見取り図”を扱う点が特徴だ。研究者らは、長期的に一貫した対話や複雑な社会的状況への適応につながると期待している。</p>
+<p><strong>物理的なワールドモデル（左）は環境状態を追跡するが、社会的ワールドモデル（右）は感情や欲求など心理状態も含めて扱う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2_070a010511/x2_2_070a010511.png" alt="x2 (2).png" /></p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
+      <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
+      <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
+<p><strong>アルバニアのエディ・ラマ首相</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/albania_ai_bot_2be7584878/albania_ai_bot_2be7584878.jpg" alt="albania ai bot.jpg" /></p>
+<p>ディエラは、政府が民間企業と契約を結ぶ公共入札のプロセスを管理する役割を担う。賄賂や脅迫といった人間相手の不正は通用せず、入札の透明性を確保する狙いがある。エディ・ラマ首相は、ディエラを「汚職を寄せ付けない閣僚」として位置づけ、公共事業の公平性を高める方針を示した。</p>
+<p>ディエラはもともと、政府のデジタルプラットフォーム「e-Albania」で行政手続きを支援するバーチャルアシスタントとして導入されていた。市民や企業は、音声コマンドや電子スタンプを通じて書類の取得や各種申請を行うことができる。今回の任命により、その役割は大幅に拡張される。</p>
+<p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
+<p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
+      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
+<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
+<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
+<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
+<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
       <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
       <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
@@ -615,49 +658,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p>関連記事</p>
 ]]></description>
       <pubDate>Fri, 12 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>会話の裏にある“意図”を理解するAI──NVIDIAとカーネギーメロン大学、「社会的世界モデル」で社会的推論の性能が大きく向上</title>
-      <link>https://ledge.ai/articles/ai_social_world_model_cmu_nvidia</link>
-      <description><![CDATA[<p>カーネギーメロン大学とNVIDIAの研究者らは2025年8月30日、AIが人の意図や感情をより正確に理解できるようにする新手法「社会的ワールドモデル（Social World Models）」を<a href="https://arxiv.org/abs/2509.00559">発表</a>した。</p>
-<p>研究チームは、日常会話や物語といった自然言語を、そのまま扱うのではなく「一度構造化した表現」に変換し、それをもとにシミュレーションを行う枠組みを提案した。自由文のままでは曖昧さや抜け落ちが多く、AIが他者の意図を追跡するのが難しいが、この“ワンクッション”を挟むことで精度が大きく向上したという。</p>
-<p><strong>自由文を一度構造化してから『社会的ワールドモデル』で推論するフレームワーク。従来手法に比べ、複数の社会的推論ベンチマークで精度が向上した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5_9f97f3f354/x1_5_9f97f3f354.png" alt="x1 (5).png" /></p>
-<h2>性能は最大51%改善</h2>
-<p>実験では、複数人が登場する会話シナリオや協力・競争が絡む対話課題で評価を実施。その結果、意図や感情を読み解く力が最大で51%改善した。また、実際の対話のなかでAIがゴールを達成できる割合も最大18%向上したと報告している。</p>
-<h2>行動前に結果を“先読み”</h2>
-<p>この手法では「行動を起こす前に、仮想世界の中で結果をシミュレーションする」というアルゴリズムも導入された。研究チームはこれを「Foresee and Act」と呼び、交渉や協力シーンでより安定した判断が可能になることを示した。</p>
-<h2>人間らしい社会性を持つAIへ</h2>
-<p>従来のAI研究が物理世界の理解やシミュレーションに重点を置いてきたのに対し、今回の社会的ワールドモデルは、人間関係や心理的な状態を含めた“社会の見取り図”を扱う点が特徴だ。研究者らは、長期的に一貫した対話や複雑な社会的状況への適応につながると期待している。</p>
-<p><strong>物理的なワールドモデル（左）は環境状態を追跡するが、社会的ワールドモデル（右）は感情や欲求など心理状態も含めて扱う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2_070a010511/x2_2_070a010511.png" alt="x2 (2).png" /></p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
-      <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
-      <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
-<p><strong>アルバニアのエディ・ラマ首相</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/albania_ai_bot_2be7584878/albania_ai_bot_2be7584878.jpg" alt="albania ai bot.jpg" /></p>
-<p>ディエラは、政府が民間企業と契約を結ぶ公共入札のプロセスを管理する役割を担う。賄賂や脅迫といった人間相手の不正は通用せず、入札の透明性を確保する狙いがある。エディ・ラマ首相は、ディエラを「汚職を寄せ付けない閣僚」として位置づけ、公共事業の公平性を高める方針を示した。</p>
-<p>ディエラはもともと、政府のデジタルプラットフォーム「e-Albania」で行政手続きを支援するバーチャルアシスタントとして導入されていた。市民や企業は、音声コマンドや電子スタンプを通じて書類の取得や各種申請を行うことができる。今回の任命により、その役割は大幅に拡張される。</p>
-<p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
-<p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
-      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
-<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
-<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
-<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
-<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
-]]></description>
-      <pubDate>Tue, 09 Sep 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
