@@ -5,6 +5,40 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_usage_report_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年9月15日（現地時間）、対話型AI「ChatGPT」の消費者利用実態を初めて体系的に<a href="https://openai.com/index/how-people-are-using-chatgpt/">公開</a>した。調査結果は、全米経済研究所（NBER）のワーキングペーパー「<a href="https://www.nber.org/papers/w34255">How People Use ChatGPT</a>」（2025年9月）としてまとめられている。</p>
+<h2>世界規模で拡大する利用</h2>
+<p>論文によると、ChatGPTは2025年7月時点で世界の成人の約10%にあたる7億人が毎週利用し、1日あたり25億件以上のメッセージがやり取りされている。2022年の公開からわずか2年半での急速な普及は前例がないという。</p>
+<p><strong>週次利用者数の推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6.jpg" alt="Weekly active ChatGPT users on consumer plans.jpg" /></p>
+<h2>非仕事利用が主流に</h2>
+<p>2024年6月時点で53%だった非仕事利用は、2025年6月には73%に達した。家庭内での調べものや学習支援など、日常生活に根付く形で利用が広がっている。</p>
+<p><strong>非仕事利用の割合推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/messages_not_related_to_work_fef67ce892/messages_not_related_to_work_fef67ce892.jpg" alt="messages not related to work.jpg" /></p>
+<h2>利用内容の内訳</h2>
+<p>会話テーマの分析では、「実用的アドバイス（Practical Guidance）」「情報検索（Seeking Information）」「ライティング（Writing）」が全体の77%を占めた。特にライティングは仕事利用において中心的で、メールや報告書の作成、文章の編集や翻訳が多いという。コーディング関連は全体の4.2%、人間関係や自己表現は2.4%にとどまった。</p>
+<h2>ユーザー層の変化</h2>
+<p>利用者層の特徴としては、初期に見られた男性中心の傾向が薄れ、2025年半ばには女性名のアカウントが過半数を占めるまでになった。また、26歳未満の若年層が全体の約半数を占め、低～中所得国での利用増加も顕著となっている。</p>
+<h2>職業別の利用傾向</h2>
+<ul>
+<li>管理・ビジネス職：ライティングが過半数を占める。</li>
+<li>IT関連職：プログラミングやデータ処理などのテクニカルヘルプが37%。</li>
+<li>共通点：業種を問わず「意思決定・問題解決」「情報取得」に多く使われる。</li>
+</ul>
+<h2>ユーザーの意図</h2>
+<p>ユーザーのリクエストは以下の3分類に整理された。</p>
+<ul>
+<li>Asking（助言・情報）：49%</li>
+<li>Doing（作業依頼）：40%</li>
+<li>Expressing（感情表現など）：11%</li>
+</ul>
+<p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
+<p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
       <link>https://ledge.ai/articles/humanoid_robot_skateboard_cyborg_ai</link>
       <description><![CDATA[<p>2025年9月11日、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）、国際電気通信基礎技術研究所（ATR）、京都大学は、ヒューマノイドロボットに「サイボーグAI」を搭載し、人間の動きを模倣（みまね）学習させることで、スケートボードの複雑な技を人並みのリアルタイムで実行することに成功したと<a href="https://www.nedo.go.jp/news/press/AA5_101886.html">発表</a>した。</p>
@@ -298,20 +332,6 @@ GPUメモリや運用コストは70％削減</li>
 <p>今回の出資は、欧州におけるAIと半導体産業の連携を象徴する動きであり、米中に対抗するAIエコシステム強化の一環と位置づけられる。今後、ミストラルAIの生成AI技術がASMLの先端リソグラフィー装置やシステムにどのように応用されるか、注目が集まっている。</p>
 ]]></description>
       <pubDate>Thu, 11 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東大発スタートアップELYZA、独自の業務AIアプリをAIが作成するツール「ELYZA Works」を提供開始──法人向け生成AI活用を加速</title>
-      <link>https://ledge.ai/articles/elyza_works_ai_app_autotool_launch</link>
-      <description><![CDATA[<p>東京大学発スタートアップのELYZAは2025年9月9日、業務を人工知能（AI）で自動化する法人向けアプリケーション作成支援ツール「ELYZA Works」を提供開始したことを<a href="https://prtimes.jp/main/html/rd/p/000000063.000047565.html">発表</a>した。このツールは、企業が生成AIを活用し、プログラミング知識がなくても独自の業務アプリを迅速に構築できることを目的としている。</p>
-<p><strong>ELYZA Worksの仕組み：AIが自社専用の業務アプリを生成し、現場で共有・利用しながら改善を重ねる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_63_8ac393c2edbcd137adefdbe50ca4a3ca_1920x1080_147860e457/47565_63_8ac393c2edbcd137adefdbe50ca4a3ca_1920x1080_147860e457.webp" alt="47565-63-8ac393c2edbcd137adefdbe50ca4a3ca-1920x1080.webp" /></p>
-<p>近年、国内でも生成AIの導入が加速しているが、専門知識の不足が企業利用拡大の障壁となっている。ELYZAは「ELYZA Works」を通じて、専門スキルがなくても導入可能な環境を提供し、企業の生産性向上を支援するとしている。</p>
-<p><strong>出張関連の質問に自動で回答するアプリ例。AIが入力内容に応じて規定やベストプラクティスを参照し、適切な回答を生成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_63_c6616122552077e18acf13fe101f5880_1920x1365_9ef954a77f/47565_63_c6616122552077e18acf13fe101f5880_1920x1365_9ef954a77f.webp" alt="47565-63-c6616122552077e18acf13fe101f5880-1920x1365.webp" /></p>
-<p>ELYZAは、東京大学松尾研究室を母体として設立されたスタートアップ。日本語に強い大規模言語モデル「ELYZA Japanese LLM」をはじめ、法人向けに特化した生成AIサービスを展開してきた実績を持つ。</p>
-<p>同社は今後国内企業への導入事例を拡大し、パートナーシップを強化していく方針を示している。数年内に利用者10万人規模を目指し、日本企業の業務効率化を後押しする考えだ。</p>
-]]></description>
-      <pubDate>Thu, 11 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
