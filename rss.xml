@@ -5,7 +5,7 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>差分プライバシーLLM「VaultGemma」発表──DPスケーリング則とモデル重みを公開、プライバシー保護型AI研究を加速</title>
+      <title>Google、差分プライバシーLLM「VaultGemma」発表──DPスケーリング則とモデル重みを公開、プライバシー保護型AI研究を加速</title>
       <link>https://ledge.ai/articles/vaultgemma_dp_llm_scaling_laws_release</link>
       <description><![CDATA[<p>Googleは、差分プライバシー（Differential Privacy, DP）を適用してゼロから学習させた同社初の大規模言語モデル「VaultGemma」を<a href="https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/">発表</a>した。パラメータ数は約10億規模で、Gemma 2アーキテクチャを基盤にDP-SGDを用いて学習されている。モデル重みはHugging FaceやKaggleを通じて研究者・開発者に公開され、プライバシー保護型AI研究の促進を目指す。</p>
 <p><strong>■ DPスケーリング則の“全体像”。モデルサイズ・反復回数・ノイズ／バッチ比を軸に、計算量・プライバシー・データのトレードオフを直感的に示す</strong>
