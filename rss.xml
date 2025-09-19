@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>差分プライバシーLLM「VaultGemma」発表──DPスケーリング則とモデル重みを公開、プライバシー保護型AI研究を加速</title>
+      <link>https://ledge.ai/articles/vaultgemma_dp_llm_scaling_laws_release</link>
+      <description><![CDATA[<p>Googleは、差分プライバシー（Differential Privacy, DP）を適用してゼロから学習させた同社初の大規模言語モデル「VaultGemma」を<a href="https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/">発表</a>した。パラメータ数は約10億規模で、Gemma 2アーキテクチャを基盤にDP-SGDを用いて学習されている。モデル重みはHugging FaceやKaggleを通じて研究者・開発者に公開され、プライバシー保護型AI研究の促進を目指す。</p>
+<p><strong>■ DPスケーリング則の“全体像”。モデルサイズ・反復回数・ノイズ／バッチ比を軸に、計算量・プライバシー・データのトレードオフを直感的に示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Vault_Gemma1_Scaling_Laws_width_1250_cafc0602de/Vault_Gemma1_Scaling_Laws_width_1250_cafc0602de.png" alt="VaultGemma1_ScalingLaws.width-1250.png" /></p>
+<h2>差分プライバシーの適用と保証</h2>
+<p>VaultGemmaは、学習中にノイズを導入することで、個々のデータがモデルに与える影響を隠蔽する設計となっている。Googleによると、Sequence-levelでのDP保証は ε ≤ 2.0, δ ≤ 1.1×10⁻¹⁰ を達成。さらに、学習データの再現（memorization）は検出されず、訓練データの漏洩リスクを大幅に低減しているという。</p>
+<h2>DPスケーリング則の提示</h2>
+<p>同時に公開された<a href="https://arxiv.org/abs/2501.18914">論文</a>「Scaling Laws for Differentially Private Language Models」では、DP環境下での新しいスケーリング則が提示された。従来の非DPモデルで用いられてきた「計算量とモデルサイズ・データ量のトレードオフ」に加え、プライバシー予算（ε）やノイズ‐バッチ比を考慮した最適化手法を提案。</p>
+<p>研究チームは、DP下では「非DP環境に比べて最適なモデルサイズはおおむね1桁小さくなる」ことを確認したほか、計算資源の使い方を調整することで5倍から100倍の効率化が可能であると報告している。</p>
+<p><strong>■ プライバシー予算（ε）と計算予算の“増分効果”を可視化。最適解がモデルサイズ・バッチサイズ・反復回数のどこに寄るかが一目で分かる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vg_gif_width_800_9a55360569/vg_gif_width_800_9a55360569.gif" alt="vg-gif.width-800.gif" /></p>
+<h2>性能と限界</h2>
+<p>公開された<a href="https://huggingface.co/google/vaultgemma-1b">ベンチマーク</a>では、VaultGemma（DP）と非DPの同規模モデル（Gemma 3 1B）や旧世代モデル（GPT-2 1.5B）を比較。結果は、最新の非DPモデルには及ばない一方で、約5年前の非DPモデルに匹敵する実用域に達していることを示す、という位置づけだ。</p>
+<p><strong>■ VaultGemma 1B（DP）とGemma 3 1B（非DP）、GPT-2 1.5Bの性能比較。DP導入の“コスト”を定量化しつつ、過去世代並みのユーティリティを確認</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Vault_Gemma4_Performance_width_1250_60ee6ecc12/Vault_Gemma4_Performance_width_1250_60ee6ecc12.png" alt="VaultGemma4_Performance.width-1250.png" /></p>
+<h2>今後の展望</h2>
+<p>Googleは、VaultGemmaを公開することで研究者がDP訓練の特性を検証しやすくなり、機密データを扱う分野での活用に向けた基盤が整うとしている。今回の発表は、プライバシー保護型AI研究を加速させるとともに、今後の産業利用に向けた重要なステップとなる。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
       <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
       <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
@@ -642,22 +664,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/miyagi_x_6449bd1408/miyagi_x_6449bd1408.jpg" alt="miyagi x.jpg" /></p>
 ]]></description>
       <pubDate>Sat, 13 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gartner：行政サービスのハイプサイクルで「ソブリンAI」と「AIエージェント」を「過度な期待」のピーク期に位置づけ</title>
-      <link>https://ledge.ai/articles/gartner_sovereign_ai_agents_government_2025</link>
-      <description><![CDATA[<p>Gartnerは2025年9月9日、世界の政府機関において今後2〜5年以内に「ソブリンAI」と「AIエージェント」がAI導入を牽引するとの見解を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20250909-gov-service-hc">発表</a>した。調査レポート「Hype Cycle for Government Services 2025」では、これらを「過度な期待のピーク期」に位置付け、行政の変革を支える重要な技術になると指摘している。</p>
-<h2>ソブリンAIの台頭</h2>
-<p>ソブリンAIとは、国家が自国でAIシステムを管理・運用し、技術的主権を確保する取り組みを指す。Gartnerは、2028年までに世界の政府機関の65％が技術主権に関する要件を導入すると予測している。これにより、行政のデータ保護、規制対応、信頼性強化が進むとみられる。</p>
-<h2>AIエージェントによる自動化</h2>
-<p>AIエージェントは、自律的または半自律的にタスクを実行するソフトウェアで、市民対応や定型業務の自動化に広く活用される見込みだ。2029年までに政府機関の60％が、市民とのやりとりの半分以上をAIエージェントで自動化すると同社は予測。これにより、行政窓口の効率化とサービスの迅速化が進むとしている。</p>
-<h2>その他の注目技術</h2>
-<p>このほか「プロンプト・エンジニアリング」が2〜5年以内に主流技術となり、「マシン・カスタマー（Machine Customer）」が5〜10年以内に浸透すると見込まれている。特にプロンプト設計技術は、行政システムにおける生成AIの活用範囲を広げる重要な基盤とされている。</p>
-<h2>公共機関に求められる対応</h2>
-<p>同社はこうした技術を導入する上での課題として、法制度の整備、インフラや人材確保、説明責任や倫理・透明性の確保などを挙げている。日本を含む各国にとって、技術主権の確立と市民サービスの効率化を両立させることが今後の焦点となる。</p>
-<p>関連記事</p>
-]]></description>
-      <pubDate>Fri, 12 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
