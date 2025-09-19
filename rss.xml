@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>トヨタ、自動運転対応EV「e-Palette」を発売　まずは直販、2027年度にレベル4導入を目指す</title>
+      <link>https://ledge.ai/articles/toyota_epalette_release_level2_to_level4</link>
+      <description><![CDATA[<p>トヨタ自動車株式会社は2025年9月15日、バッテリーEV「e-Palette（イーパレット）」の販売を開始したことを<a href="https://global.toyota/jp/newsroom/corporate/43305367.html">発表</a>した。同車はマルチな用途を想定した次世代モビリティで、まずはトヨタが直接受注し、将来的に販売店経由での提供も検討されている。</p>
+<p>自動運転機能については、発売時点では「運転の自動化レベル2相当」に対応可能な車両として提供される。トヨタは自動運転パートナーや自治体と連携しながら開発を進め、2027年度に「レベル4」に準拠した自動運転システム搭載車の市場導入を目指すとしている。</p>
+<p>販売価格は2,900万円（税込）から。環境省の「商用車等の電動化促進事業」の補助対象となり、1,583.5万円の補助を受けられるという。導入先は「TOYOTA ARENA TOKYO」およびその周辺エリア、静岡県裾野市の実証都市「Toyota Woven City」が予定されている。</p>
+<p>e-Paletteは、広い室内空間や大開口スライドドア、低床設計を備え、車いす利用者が電動スロープを使って介助なしで乗降できるなど、アクセシビリティに配慮。さらに、車内外に設置できるデジタルサイネージや「ステアバイワイヤ」採用の先進コックピットなども搭載した。</p>
+<p><strong>低床設計と電動スロープにより、歩道高15cmの場合に車いすの自力乗降が可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250915_02_04_2944fb0ea3/20250915_02_04_2944fb0ea3.jpg" alt="20250915_02_04.jpg" /></p>
+<p><strong>ステアバイワイヤを採用し、運転手の負担を軽減する先進的なコックピット</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20250915_02_24_0e980b4e1a/20250915_02_24_0e980b4e1a.jpg" alt="20250915_02_24.jpg" /></p>
+<p>e-Paletteは、全長4,950mm・全幅2,080mm・全高2,650mmで、定員は17人（座席4人、立席12人、運転手1人）。航続距離はWLTCモード相当で約250km、72.82kWhのリチウムイオンバッテリーを搭載する。急速充電（DC 90kW・200A）では約40分で80%まで充電可能で、普通充電（AC 6kW・30A）では約12時間を要する。</p>
+<p>トヨタは、e-Paletteを通じて移動手段にとどまらず、移動店舗やサービス空間、エンターテインメント車両など多様なユースケースを展開し、将来のモビリティ社会の実現に向けた取り組みを進める考えだ。</p>
+]]></description>
+      <pubDate>Fri, 19 Sep 2025 01:50:01 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、差分プライバシーLLM「VaultGemma」発表──DPスケーリング則とモデル重みを公開、プライバシー保護型AI研究を加速</title>
       <link>https://ledge.ai/articles/vaultgemma_dp_llm_scaling_laws_release</link>
       <description><![CDATA[<p>Googleは、差分プライバシー（Differential Privacy, DP）を適用してゼロから学習させた同社初の大規模言語モデル「VaultGemma」を<a href="https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/">発表</a>した。パラメータ数は約10億規模で、Gemma 2アーキテクチャを基盤にDP-SGDを用いて学習されている。モデル重みはHugging FaceやKaggleを通じて研究者・開発者に公開され、プライバシー保護型AI研究の促進を目指す。</p>
@@ -639,31 +655,6 @@ GPUクラウドサービスのマーケティング担当。</p>
 契約は、OpenAIが進める大規模AIインフラ計画「<a href="https://ledge.ai/articles/stargate_oracle_openai_4_5gw">Project Stargate</a>」の一環とされる。生成AIの需要拡大に伴い、計算資源の確保と大規模データセンター建設が今後の競争力の鍵となる中、両社の動きが業界全体に与える影響が注目される。</p>
 ]]></description>
       <pubDate>Sat, 13 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「20歳女子は港区に収監」──全編AI映像で描く異色のSFコメディ『サヨナラ港区』、読売テレビで9月14日深夜スタート</title>
-      <link>https://ledge.ai/articles/sayonara_minatoku_ai_drama_tv</link>
-      <description><![CDATA[<p>読売テレビは、全ての映像素材を生成AIで制作したショートドラマ『サヨナラ港区』を9月14日深夜（15日未明）から放送することを<a href="https://prtimes.jp/main/html/rd/p/000000345.000122725.html">発表</a>した。AIによる映像制作の可能性と限界に挑戦する異色のSFコメディで、全23話が制作された。</p>
-<h2>未来の東京を舞台にした「港区法23条」</h2>
-<p>物語の舞台は未来の東京。港区は独裁的な支配を敷き、「港区法第23条」により、20歳を迎えた女子を収監して「港区女子」としての訓練を強制する。</p>
-<p>主人公の青年キリヤは、収監された幼馴染のレナを救出するために立ち上がり、シブヤやアサクサ、ハチオウジといった各地のレジスタンス勢力とともに港区政権に挑む。ディストピア的な状況を描きながら、コメディ要素を織り交ぜた異色の作品だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sayonaraminatoku1_1d75c96673/sayonaraminatoku1_1d75c96673.jpg" alt="sayonaraminatoku1.jpg" /></p>
-<h2>制作手法と制作体制</h2>
-<p>同作品は、読売テレビグループのytvメディアデザインが制作。AIクリエイターの宮城明弘氏が中心となり、約1万5,000カットの映像を生成AIで制作した。編集や声優アフレコ、音楽・効果音は人の手によって仕上げられている。
-制作過程では、著作権や倫理面に配慮した独自のガイドラインを設定。
-実在の人物や作品名をプロンプトに使用しない
-既存キャラクターに類似した表現は排除
-使用したプロンプトはすべて記録として保存
-といったルールを徹底した。</p>
-<h2>放送・配信スケジュール</h2>
-<p>『サヨナラ港区』は、読売テレビの深夜ドラマ枠「ドラマのシュララ」で9月14日から放送が始まる。さらに、9月23日（火）18時からはDMMショートにて全23話が独占配信される予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=56R3s0NNnIw">YouTube</a></p>
-<h2>制作者のコメント</h2>
-<p>宮城氏は自身のX投稿で、
-「自身の創造性とAIの力を融合させ、細部まで徹底的に作り込んだ」と振り返り、「作品の解釈は観る人それぞれに委ねたい」とコメント。さらに、「今回の経験は通過点にすぎず、今後はAIと実写の融合など新たな映像表現を追求したい」と抱負を語った。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/miyagi_x_6449bd1408/miyagi_x_6449bd1408.jpg" alt="miyagi x.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 13 Sep 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
