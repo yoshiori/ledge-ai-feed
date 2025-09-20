@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA、Intel株式50億ドル分を取得 ― AI・PC向けで両社が戦略的協業</title>
+      <link>https://ledge.ai/articles/nvidia_intel_5b_investment_ai_pc_collaboration</link>
+      <description><![CDATA[<p>NVIDIAは2025年9月18日（現地時間）、Intelの普通株を50億ドル分取得することで合意したと<a href="https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products">発表</a>した。取得価格は1株あたり23.28ドルで、取引には規制当局の承認など通常の条件が付く。</p>
+<p>NVIDIAは今回の出資にあわせ、Intelと戦略的な協業を開始する。両社は複数世代にわたるデータセンター向けカスタムx86 CPUやシステム・オン・チップ（SoC）の共同開発を進める計画だ。さらに、PC向けではIntelがNVIDIAのRTX GPUチップレットを組み込んだx86 SoCを提供する。両社のアーキテクチャはNVIDIAの高速接続技術「NVLink」を通じて連携される見通し。</p>
+<p>今回の協業は、AIインフラの需要拡大を背景にしたもの。NVIDIAはGPUを中心とするAI市場で圧倒的なシェアを持ち、IntelはCPUやSoCの開発力を強みとする。両社の協力により、AI計算基盤から個人向けPCまで幅広い分野での製品展開が期待される。</p>
+<p>市場も敏感に反応した。発表後、Intel株は一時23％上昇し、NVIDIA株も上昇した。今回の出資によりNVIDIAはIntelの主要株主の一角となる見込みであり、Intel再建の動きに弾みがつくとみられる。</p>
+<p>なお、今回の取引にはIntelのファウンドリー（半導体製造請負）事業は含まれていない。共同開発製品が市場投入されるまでには時間を要する可能性もあるが、両社の連携は半導体業界の競争構造に大きな影響を与えるとみられている。</p>
+]]></description>
+      <pubDate>Sat, 20 Sep 2025 04:50:01 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
       <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
       <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
@@ -611,17 +622,6 @@ ld_media_sales@ledge.co.jp
 <p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft と OpenAI、提携条件を見直す非拘束合意（MOU）を発表</title>
-      <link>https://ledge.ai/articles/microsoft_openai_nonbinding_mou_partnership_review</link>
-      <description><![CDATA[<p><a href="https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/">Microsoft</a>と<a href="https://openai.com/index/joint-statement-from-openai-and-microsoft/">OpenAI</a>は2025年9月11日（現地時間）、両社のパートナーシップを見直すための非拘束の覚書（MOU）に署名したと共同声明で発表した。今回の合意は、今後の「次のフェーズ」に向けたものであり、両社は引き続き確定的な契約（definitive agreement）の策定を進めていくとしている。</p>
-<p>共同声明では、AIの安全性と責任ある開発を推進する姿勢が改めて示された。MOU自体は拘束力を持たないが、今後の提携関係の在り方を定めるための重要な枠組みと位置づけられている。</p>
-<p>Microsoftはこれまで、数百億ドル規模の投資を通じてOpenAIを支援し、クラウド基盤としてAzureを提供してきた。一方で、利益配分や知的財産へのアクセスなど、提携条件をめぐる調整も続けられてきた経緯がある。</p>
-<p>複数の報道によれば、今回のMOUにはOpenAIの営利部門を「Public Benefit Corporation（公益目的株式会社、PBC）」へ移行する計画が含まれているとされる。非営利部門は存続し、営利部門に対して支配権を維持する仕組みになる見込みだ。また、営利部門の評価額は約 1,000 億ドル規模と伝えられており、この構造変更には米カリフォルニア州やデラウェア州の当局による承認が必要となる。</p>
-<p>両社は今後、確定的な契約の内容を詰めていく方針で、成立時期や詳細は現時点で明らかにされていない。</p>
-]]></description>
-      <pubDate>Sun, 14 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
