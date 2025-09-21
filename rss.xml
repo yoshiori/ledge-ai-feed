@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>スタンフォード大学、動画から“もしも”を想像するAI世界モデル「PSI」を発表──動き・奥行き・物体境界を自律理解</title>
+      <link>https://ledge.ai/articles/stanford_ai_world_model_psi</link>
+      <description><![CDATA[<p>スタンフォード大学の研究チームは2025年9月、AIが動画を観察するだけで「もしこの物体がこう動いたらどうなるか」といった仮想状況を想像し、動きや奥行き、物体境界を自律的に理解できる新しい世界モデル「Probabilistic Structure Integration（PSI）」を論文「World Modeling with Probabilistic Structure Integration」として<a href="https://arxiv.org/abs/2509.09737">発表</a>した。</p>
+<h2>PSI（Probabilistic Structure Integration）の仕組み</h2>
+<p>従来の世界モデルは、動画から物理的構造や物体の関係性を抽出する際に制約があり、奥行き推定や物体セグメンテーションにはラベル付きデータが必要だった。また、モデルが生成できる状況の幅や制御可能性にも限界が存在していた。</p>
+<p>発表された新しい世界モデル「PSI」は3つのプロセスから構成される。</p>
+<ul>
+<li><strong>Probabilistic prediction</strong> ：動画の一部を条件として残りを予測できる確率的グラフィカルモデルを構築。1.4兆トークン規模のインターネット動画で学習した。</li>
+<li><strong>Structure extraction</strong> ：仮想的な操作（反事実的介入や視点変更など）を加えることで、光学流（optical flow）、奥行き（depth）、物体セグメンテーションといった中間構造をゼロショットで抽出する。</li>
+<li><strong>Integration</strong> ：抽出した構造を新たなトークンとしてモデルに再統合。予測精度や制御可能性を高めるループを形成する。</li>
+</ul>
+<h2>応用例</h2>
+<p>研究チームは、PSIを用いた複数の応用シナリオを示している。</p>
+<h3>動画編集</h3>
+<p>ボウリングのシーンで、ボールの軌道を変更するとピンが倒れない未来を生成するなど、物理的に一貫した編集が可能になった。</p>
+<p><strong>■ PSIモデルによる「もしも」の生成例。実際のボウリング映像（上段）に対し、ボールの軌道を変えた仮想シナリオ（下段）を想像し、ピンが倒れない未来を予測している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x16_200f64158d/x16_200f64158d.jpg" alt="x16.jpg" /></p>
+<h3>Visual Jenga</h3>
+<p>積み木ゲーム「ジェンガ」の動画を入力すると、どのブロックを抜いても安全かを推定。矛盾のないシミュレーションを生成できる。</p>
+<p><strong>■ 積み木ゲーム「ジェンガ」におけるPSIの応用例。どのブロックを抜くと崩れるかを仮想的に推定し、物理的に矛盾のない結果を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x17_2cd6d60bbc/x17_2cd6d60bbc.jpg" alt="x17.jpg" /></p>
+<h3>ロボティクス</h3>
+<p>静止画像から「どの物体が動かせそうか」を予測する「確率的モーションマップ」を生成し、ロボットの操作計画に応用できる。</p>
+<p><strong>■ ロボットアームによる物体操作のシナリオ。PSIは接触や力の伝達を予測し、「どの物体が動かせるか」を示す確率的モーションマップを生成できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x18_31c372110e/x18_31c372110e.jpg" alt="x18.jpg" /></p>
+<h2>今後の展望</h2>
+<p>PSIは新しい世界モデルの形を提示したが、課題も残されている。</p>
+<ul>
+<li>抽出できる構造は光学流など局所的なものに限られており、オブジェクト全体を扱う仕組みは未実装。</li>
+<li>動画以外のデータ（神経科学、地球科学、経済データなど）への拡張はこれからの課題である。</li>
+<li>中間構造の抽出は現状、研究者が設計しており、自動化が必要。</li>
+<li>モデル規模が大きく、学習や推論に高い計算コストがかかる。</li>
+</ul>
+<p>研究チームは、今後はより高次の概念や長期的な記憶を統合し、非視覚領域にも応用を広げることを目指している。</p>
+]]></description>
+      <pubDate>Sun, 21 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>バクテリオファージの完全設計にAIが挑戦──302種中16種が細菌を殺すことを確認　スタンフォード大とArc研究所が実証</title>
       <link>https://ledge.ai/articles/ai_bacteriophage_genome_design_stanford_arc</link>
       <description><![CDATA[<p>スタンフォード大学とArc研究所の研究チームは、AIを活用しバクテリオファージの完全なゲノム設計に初めて成功したことを、2025年9月17日、プレプリントサーバーBioRxivに<a href="https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1">公開</a>した。論文によると、AIモデル「Evo 1」と「Evo 2」が生成した設計302種類のうち、16種類が実際に細菌を殺す能力を示した。</p>
@@ -583,19 +621,6 @@ ld_media_sales@ledge.co.jp
 <p>今後同社は、サンフランシスコやオースティンなど他都市への展開も検討しており、規制や社会的受容、利用体験の向上が次の焦点となる。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>3分の音楽を2秒で生成──Stability AI、商用利用可能な高品質音楽生成AI「Stable Audio 2.5」をリリース</title>
-      <link>https://ledge.ai/articles/stability_ai_stable_audio_25_release</link>
-      <description><![CDATA[<p>Stability AIは2025年9月10日、音楽生成AIの最新モデル「Stable Audio 2.5」を<a href="https://stability.ai/news/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale">発表</a>した。エンタープライズ用途に最適化された同モデルは、最大3分間の音楽をわずか2秒で生成できる高速性と、高品質かつ商用利用可能な点を特徴としている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=zlldXbV72SM">YouTube</a></p>
-<p>Stable Audio2.5はテキストプロンプトから楽曲を生成できるほか、既存の音声データの任意の部分を切り取って差し替えたり、続きを自然に補完したりする「オーディオinpainting」機能も備えている。これにより、冒頭の数秒だけを残して曲全体を作り直すといった柔軟な編集が可能になり、クリエイターや企業は制作プロセスを効率化できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stable_audio2_5_1_22876b3fd5/stable_audio2_5_1_22876b3fd5.jpg" alt="stable audio2-5-1.jpg" /></p>
-<p>技術面では、生成プロセスの推論ステップ数を大幅に削減する新手法を採用し、従来より効率的かつ高品質な生成を実現。学習にはライセンス済みのデータセットを使用しており、商用利用における安全性を担保したとしている。</p>
-<p>利用形態としては、API提供に加え、ComfyUIやReplicate、Falといったプラットフォームからアクセスできる。商用ライセンスの下での導入も可能で、企業の音響制作に幅広く対応する。</p>
-<p>導入事例としては、WPP傘下のサウンドブランディング企業「amp」が同モデルを活用し、ブランド向けの音響制作に利用しているという。Stability AIは「音楽制作の民主化を推進し、制作現場のワークフローを大きく変革する」としており、広告や映像制作を中心に企業向け利用が拡大する見込みだ。</p>
-]]></description>
-      <pubDate>Mon, 15 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/17 [WED]iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
