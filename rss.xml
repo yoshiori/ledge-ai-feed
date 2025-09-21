@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>サム・アルトマンCEO「未成年者の自由より安全を優先する」 ChatGPT の新ポリシー発表</title>
+      <link>https://ledge.ai/articles/chatgpt_new_policy_for_under18_safety_over_freedom</link>
+      <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年9月15日、対話型AI「ChatGPT」が18歳未満のユーザーとやり取りする際のルールを大幅に変更する新ポリシーを<a href="https://openai.com/index/teen-safety-freedom-and-privacy/">発表</a>した。公式ブログで同氏は「私たちは10代の若者のプライバシーと自由よりも、安全を優先する」と強調している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teen_safety_freedom_and_privacy_openai_5d90de5a41/teen_safety_freedom_and_privacy_openai_5d90de5a41.jpg" alt="teen safety freedom and privacy openai.jpg" /></p>
+<h2>年齢予測と本人確認</h2>
+<p>OpenAIは新たに「年齢予測システム」を導入し、利用者が18歳未満である可能性がある場合には、自動的に未成年向け体験を適用する。疑わしいケースでは身分証明書の提示を求める仕組みも設けるという。</p>
+<h2>制限されるコンテンツ</h2>
+<p>18歳未満と確認された利用者については、以下のような制約が課される。</p>
+<ul>
+<li>性的表現やグラフィックな内容のブロック</li>
+<li>自殺や自傷行為に関する話題の制限（創作を含む）</li>
+<li>恋愛調の雑談やフレート的なやり取りの禁止</li>
+</ul>
+<h2>保護者・機関との連携</h2>
+<p>さらに、保護者が子どもの利用を管理できる仕組みを導入する。急性の苦痛を示す発言が検知された場合、保護者や関係当局に通知が行われることもある。加えて、利用時間帯を制限する「ブラックアウト時間」の設定機能も検討されている。</p>
+<h2>経緯</h2>
+<p>今回の新ポリシーは、16歳の少年がChatGPTとの長時間対話を通じて自殺したとされる事件を背景にしている。両親はOpenAIを相手取り、「AIが“自殺コーチ”に変貌した」と主張して<a href="https://ledge.ai/articles/openai_suicide_lawsuit">訴訟</a>を起こした。その後、OpenAIは数日以内にペアレンタルコントロールや未成年者保護の強化策を<a href="https://ledge.ai/articles/openai_chatgpt_parental_controls_lawsuit_response">発表</a>していた。今回のポリシー改訂は、そうした一連の対応をさらに制度的に拡充する形となる。</p>
+<h2>プライバシーとのバランス</h2>
+<p>アルトマン氏は、プライバシーや自由と安全が時に対立することを認めつつ、「未成年者を守るためには安全を優先する」と説明した。年齢推定やID要求は誤判定や過剰な監視につながる懸念もあるが、OpenAIは「若者の安全を最優先にする姿勢」を明確にした形だ。</p>
+]]></description>
+      <pubDate>Sun, 21 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>スタンフォード大学、動画から“もしも”を想像するAI世界モデル「PSI」を発表──動き・奥行き・物体境界を自律理解</title>
       <link>https://ledge.ai/articles/stanford_ai_world_model_psi</link>
       <description><![CDATA[<p>スタンフォード大学の研究チームは2025年9月、AIが動画を観察するだけで「もしこの物体がこう動いたらどうなるか」といった仮想状況を想像し、動きや奥行き、物体境界を自律的に理解できる新しい世界モデル「Probabilistic Structure Integration（PSI）」を論文「World Modeling with Probabilistic Structure Integration」として<a href="https://arxiv.org/abs/2509.09737">発表</a>した。</p>
@@ -608,19 +631,6 @@ ld_media_sales@ledge.co.jp
 <p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
 ]]></description>
       <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon傘下のZoox、ラスベガスで世界初の完全自律ロボタクシーを一般公開</title>
-      <link>https://ledge.ai/articles/zoox_launches_fully_autonomous_robotaxi_las_vegas</link>
-      <description><![CDATA[<p>Amazon傘下で自動運転タクシーを開発・運営するZooxは、2025年9月10日（現地時間）、米ラスベガスで完全自律走行によるロボタクシーサービスを開始したことを<a href="https://zoox.com/journal/las-vegas">発表</a>した。ステアリングやペダルを持たない専用車両による商業環境での一般公開は世界初だという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=K8P5PnchHDY">YouTube</a></p>
-<p>車両は最大4人乗りの設計で、対面式のベンチシートを備える。外部の操作者やハンドル操作に依存せず、カメラ・LiDAR・レーダーなど複数のセンサーを組み合わせた完全自律走行を実現しているのが特徴だ。</p>
-<p>サービスはラスベガス・ストリップ周辺の特定ゾーンで提供され、利用者は公式アプリを通じて乗車を予約する。当面は無料で提供されるが、今後は規制当局の承認を得て有料化を予定しているとのこと。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1757372876_picture_of_the_zoox_app_f4c01569ab/1757372876_picture_of_the_zoox_app_f4c01569ab.webp" alt="1757372876-picture-of-the-zoox-app.webp" /></p>
-<p>同社は2025年4月、ラスベガスで発生した軽微な接触事故を受けて一部車両の自主リコールを行った。今回の一般公開はその後の安全性確保の取り組みを踏まえたものであり、引き続き信頼性や透明性が問われることになる。</p>
-<p>今後同社は、サンフランシスコやオースティンなど他都市への展開も検討しており、規制や社会的受容、利用体験の向上が次の焦点となる。</p>
-]]></description>
-      <pubDate>Mon, 15 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/17 [WED]iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
