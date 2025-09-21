@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>バクテリオファージの完全設計にAIが挑戦──302種中16種が細菌を殺すことを確認　スタンフォード大とArc研究所が実証</title>
+      <link>https://ledge.ai/articles/ai_bacteriophage_genome_design_stanford_arc</link>
+      <description><![CDATA[<p>スタンフォード大学とArc研究所の研究チームは、AIを活用しバクテリオファージの完全なゲノム設計に初めて成功したことを、2025年9月17日、プレプリントサーバーBioRxivに<a href="https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1">公開</a>した。論文によると、AIモデル「Evo 1」と「Evo 2」が生成した設計302種類のうち、16種類が実際に細菌を殺す能力を示した。</p>
+<p>研究対象となったのは、大腸菌を宿主とするバクテリオファージΦX174（ゲノム長5.4キロ塩基対、11遺伝子を含む）。AIはこの既知のファージを参照しながら、進化的に離れた新規ゲノムを生成した。得られたファージの一部は、自然界に存在するΦX174を上回る感染効率や溶菌速度を示したという。</p>
+<p><strong>■ 研究対象となったΦX174様ファージの設計テンプレート。各遺伝子の役割が示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_3de1ab77ca/fig2_3de1ab77ca.png" alt="fig2.png" /></p>
+<p>Cryo-EM（クライオ電子顕微鏡）による解析では、DNAパッケージングタンパク質に進化的に大きく異なる構造を持つファージが確認された。さらに、複数の設計ファージを組み合わせた「ファージカクテル」は、従来のΦX174に耐性を持つ大腸菌株3種類の抵抗性を突破できることが示された。</p>
+<p><strong>■ Evoモデルが設計したファージ（左）と自然界のΦX174（右）の比較。紫部分はDNAパッケージングタンパク質を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig4_30f8dac6c1/fig4_30f8dac6c1.png" alt="fig4.png" /></p>
+<p>研究チームは今回の成果を「ゲノム全体の生成設計を実証した初の事例」と位置づけている。論文では「多様な合成ファージ設計の青写真を示し、ゲノムスケールでの有用な生物システム設計の基盤を築く」と結論づけている。</p>
+<p>実験は非病原性の大腸菌C株を対象に、厳格な安全管理下で行われた。研究者らは「人間病原体への応用は慎重に行うべき」と強調しており、ファージ療法をはじめ抗生物質耐性菌対策や合成生物学への応用など、医療や研究への幅広い可能性と同時に、安全性への配慮を求めている。</p>
+]]></description>
+      <pubDate>Sat, 20 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA、Intel株式50億ドル分を取得 ― AI・PC向けで両社が戦略的協業</title>
       <link>https://ledge.ai/articles/nvidia_intel_5b_investment_ai_pc_collaboration</link>
       <description><![CDATA[<p>NVIDIAは2025年9月18日（現地時間）、Intelの普通株を50億ドル分取得することで合意したと<a href="https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products">発表</a>した。取得価格は1株あたり23.28ドルで、取引には規制当局の承認など通常の条件が付く。</p>
