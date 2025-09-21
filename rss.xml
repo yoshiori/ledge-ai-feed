@@ -92,22 +92,6 @@
       <pubDate>Sat, 20 Sep 2025 04:50:01 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
-      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
-      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
-<h2>AI時代の中核インフラへ</h2>
-<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
-<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
-<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
-<h2>性能と持続可能性の両立</h2>
-<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
-<h2>今後の展望</h2>
-<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>アルバニア、AI閣僚「ディエラ」が議会で初演説──「人間の代わりではなく支援のために」</title>
       <link>https://ledge.ai/articles/albania_ai_minister_diella_first_speech</link>
       <description><![CDATA[<p>アルバニア議会で2025年9月18日、人工知能（AI）が生成した架空の人物「ディエラ（Diella）」が新閣僚として初めて<a href="https://www.facebook.com/share/v/1JNbUqNT5C/">演説</a>した。ディエラは「私は人間に取って代わるためではなく、支援するためにここにいる」と述べ、汚職撲滅と透明性確保に向けた役割を強調した。</p>
@@ -191,6 +175,18 @@
       <pubDate>Thu, 18 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
+      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
+<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
+<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
+<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
+<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Rolling Stone／Billboard発行元、Googleを提訴　「AI要約が収益奪う」と主張</title>
       <link>https://ledge.ai/articles/pmc_google_ai_overviews_lawsuit</link>
       <description><![CDATA[<p>米国の大手出版社 Penske Media Corporation（PMC）は2025年9月12日、米GoogleをワシントンD.C.連邦地方裁判所に提訴した。PMCは訴状で、Google検索の新機能「AI Overviews（日本では『AIによる概要』）」が、自社の記事を許可なく要約し、ユーザーを検索結果内で満足させることで、サイトへの訪問者数や広告収益を大幅に減少させていると主張している。</p>
@@ -218,38 +214,79 @@
       <pubDate>Thu, 18 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_usage_report_2025</link>
-      <description><![CDATA[<p>OpenAIは2025年9月15日（現地時間）、対話型AI「ChatGPT」の消費者利用実態を初めて体系的に<a href="https://openai.com/index/how-people-are-using-chatgpt/">公開</a>した。調査結果は、全米経済研究所（NBER）のワーキングペーパー「<a href="https://www.nber.org/papers/w34255">How People Use ChatGPT</a>」（2025年9月）としてまとめられている。</p>
-<h2>世界規模で拡大する利用</h2>
-<p>論文によると、ChatGPTは2025年7月時点で世界の成人の約10%にあたる7億人が毎週利用し、1日あたり25億件以上のメッセージがやり取りされている。2022年の公開からわずか2年半での急速な普及は前例がないという。</p>
-<p><strong>週次利用者数の推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6.jpg" alt="Weekly active ChatGPT users on consumer plans.jpg" /></p>
-<h2>非仕事利用が主流に</h2>
-<p>2024年6月時点で53%だった非仕事利用は、2025年6月には73%に達した。家庭内での調べものや学習支援など、日常生活に根付く形で利用が広がっている。</p>
-<p><strong>非仕事利用の割合推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/messages_not_related_to_work_fef67ce892/messages_not_related_to_work_fef67ce892.jpg" alt="messages not related to work.jpg" /></p>
-<h2>利用内容の内訳</h2>
-<p>会話テーマの分析では、「実用的アドバイス（Practical Guidance）」「情報検索（Seeking Information）」「ライティング（Writing）」が全体の77%を占めた。特にライティングは仕事利用において中心的で、メールや報告書の作成、文章の編集や翻訳が多いという。コーディング関連は全体の4.2%、人間関係や自己表現は2.4%にとどまった。</p>
-<h2>ユーザー層の変化</h2>
-<p>利用者層の特徴としては、初期に見られた男性中心の傾向が薄れ、2025年半ばには女性名のアカウントが過半数を占めるまでになった。また、26歳未満の若年層が全体の約半数を占め、低～中所得国での利用増加も顕著となっている。</p>
-<h2>職業別の利用傾向</h2>
-<ul>
-<li>管理・ビジネス職：ライティングが過半数を占める。</li>
-<li>IT関連職：プログラミングやデータ処理などのテクニカルヘルプが37%。</li>
-<li>共通点：業種を問わず「意思決定・問題解決」「情報取得」に多く使われる。</li>
-</ul>
-<h2>ユーザーの意図</h2>
-<p>ユーザーのリクエストは以下の3分類に整理された。</p>
-<ul>
-<li>Asking（助言・情報）：49%</li>
-<li>Doing（作業依頼）：40%</li>
-<li>Expressing（感情表現など）：11%</li>
-</ul>
-<p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
-<p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
+      <title>故人データの権利をどう守る？──米UCアーバイン研究チーム、生成AI時代の「死後データ管理原則」を提案</title>
+      <link>https://ledge.ai/articles/post_mortem_data_management_principles_ai</link>
+      <description><![CDATA[<p>米カリフォルニア大学アーバイン校の研究チームは2025年9月9日、生成AIにおける故人のデータ権利を保護するための新たな指針を<a href="https://arxiv.org/abs/2509.07375">提案</a>した。同研究はこれまで十分に議論されてこなかった「死後データの所有権」に着目し、3つの管理原則を提示している。</p>
+<p>生成AIは大量のユーザーデータに依存して学習するが、現行のプライバシー規制（GDPR、CCPA、LGPDなど）は主に生存者を対象としており、故人のデータについては明確な保護が欠けている。実際に、亡くなった人物を模倣したAIチャットボットが公開され、遺族や社会に心理的負担を与えた事例も報告されている。</p>
+<p><strong>研究アプローチ概要</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_6_ebd9ae91ea/x1_6_ebd9ae91ea.png" alt="x1 (6).png" /></p>
+<p>研究チームは各国の法規制や大手テクノロジー企業のポリシーを分析した結果、多くのサービスが「アカウント削除」や「メモリアル化」といった最低限の対応にとどまり、AIモデルによるデータ利用や影響除去を考慮していない点を指摘。そのうえで、次の3つの「死後データ管理原則」を提案した。</p>
+<ol>
+<li><strong>忘れられる権利（削除）</strong> ：死後にデータを削除するだけでなく、AIモデルからの影響も取り除く。</li>
+<li><strong>データの相続と所有権</strong> ：削除を望まない場合には、データを遺族に譲渡する仕組みを設ける。商業的活用や「AIアフターライフ」として保存する選択も可能。</li>
+<li><strong>利用目的の制限と害の防止</strong> ：研究や公益目的での利用であっても、尊厳を損なわない範囲に限定し、遺族への心理的負担を避ける。</li>
+</ol>
+<p>実装に向けては、デジタル遺言の導入や第三者機関による監査、AIモデルからの影響を除去する「アンラーニング」技術の活用を提案。規制当局には、企業に対して死後データの取り扱い方針を明示する義務を課すよう求めている。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 23:50:00 GMT</pubDate>
+      <pubDate>Wed, 17 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>川崎市と名古屋大学、デジタルツインで下水道設備管理を高度化──国内初の共同研究を開始</title>
+      <link>https://ledge.ai/articles/kawasaki_nagoya_digital_twin_sewage_research</link>
+      <description><![CDATA[<p>川崎市上下水道局は2025年9月8日、名古屋大学大学院工学研究科と共同で、デジタル技術を活用した下水道設備の新たな維持管理手法を開発する研究を開始したと<a href="https://www.city.kawasaki.jp/800/page/0000180281.html">発表</a>した。国内の下水処理場で、デジタルツインモデルを本格的に導入する取り組みは初めてとなる。</p>
+<p><strong>左：デジタルツインイメージ／右：実機検証イメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_kawasaki_f5864dff10/collage_kawasaki_f5864dff10.jpg" alt="collage kawasaki.jpg" /></p>
+<p>同研究は「下水道設備の状態監視マネジメント技術の開発」をテーマに、入江崎水処理センターを実証フィールドとして実施される。研究期間は2025年9月から2026年度末まで。</p>
+<p>研究対象となるのは、ポンプをはじめとする機械設備。これらに設置したセンサーから振動や加速度、電流などのデータを収集し、仮想空間上にデジタルツインモデルを構築する。取得したデータをもとに、設備の状態監視やシミュレーションを行うことで、劣化や異常を早期に発見し、故障予知や点検周期の最適化を図る。</p>
+<p><strong>デジタルツインモデルの構築例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_829d7f1005/sub2_829d7f1005.jpg" alt="sub2.jpg" /></p>
+<p>背景には、施設の老朽化や担い手不足といった全国共通の課題がある。川崎市上下水道局は「デジタル技術を活用した効率的かつ効果的な維持管理が求められている」と説明。今回の共同研究を通じて、従来の点検・調査に依存しない新たな維持管理体制の構築を目指す。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
+      <link>https://ledge.ai/articles/bytedance_seedream4_release_4k_nano_banana</link>
+      <description><![CDATA[<p>ByteDanceは2025年9月9日、画像生成と編集機能を統合した新モデル「Seedream 4.0」を<a href="https://seed.bytedance.com/en/seedream4_0">公開</a>した。同モデルは最大4K解像度での出力に対応し、参照画像を活用した一貫性のある生成や複雑なマルチモーダルタスクへの対応を強化している。</p>
+<p>Seedream 4.0は、統一アーキテクチャを採用し、画像生成（text-to-image）と画像編集を単一モデル内で実現。知識を要する生成や高度な推論、複数参照画像による整合性保持といった高度な処理に対応できるとしている。また、推論速度の向上により、従来より高速に高解像度の画像を生成可能となった。</p>
+<p><strong>Seedream 4.0による人物生成の例。異なる視点から自然な一貫性を保った出力が得られている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_images_from_different_views_d9f1b895f7/three_images_from_different_views_d9f1b895f7.jpg" alt="three images from different views.jpg" /></p>
+<p>利用シナリオとしては、広告やデザイン制作、キャラクター開発などのプロフェッショナル用途を想定。バッチ処理機能により多数の画像を一度に生成でき、制作現場での効率化が期待される。</p>
+<p><strong>同じ入力から写実風、アニメ風、イラスト風など多様なスタイルへ変換した出力例。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/seedream4_0_3_4a089d4755/seedream4_0_3_4a089d4755.jpg" alt="seedream4-0-3.jpg" /></p>
+<p>さらにByteDanceは、内部ベンチマーク「MagicBench」において、Google DeepMindが提供する最新の画像生成モデル「Gemini 2.5 Flash Image（通称Nano Banana）」を上回ったと主張している。特にプロンプト忠実度、出力の整合性、美的評価において優れた結果を示したとされる。</p>
+<p><strong>MagicBenchにおける比較評価。Seedream 4.0（青色）は複数項目で他モデルを上回ったとされる。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
+<p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
+      <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
+      <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
+<h2>無断利用への懸念と報酬の不在</h2>
+<p>AIモデルはこれまで、大量のウェブコンテンツを収集して学習に用いてきたが、出版社や著作者への報酬は十分に支払われてこなかった。訴訟や規制をめぐる動きが広がるなか、コンテンツ提供側が主体的に利用条件を示し、対価を求められる仕組みの必要性が高まっていた。</p>
+<h2>RSL標準の仕組み</h2>
+<p>RSL標準は、既存のrobots.txtを拡張し、AI用途での収集・利用に関するライセンス条項やロイヤルティを明示できるようにする。ライセンスモデルは以下のように多様化しており、コンテンツごとに設定が可能だ。</p>
+<ul>
+<li>無料利用</li>
+<li>帰属（attribution）付き利用</li>
+<li>サブスクリプション契約</li>
+<li>pay-per-crawl（クロール単位での課金）</li>
+<li>pay-per-inference（推論単位での課金）</li>
+</ul>
+<p>技術仕様はXMLベースで定義され、APIによる報告や請求処理を組み合わせることで自動化を実現する。コンテンツの種類はウェブページだけでなく、動画、音楽、プロプライエタリデータにも対応する。</p>
+<h2>Collectiveの役割と参加企業</h2>
+<p>RSL Collectiveは、出版社やクリエイターの権利を集約し、AI企業とのライセンス交渉やロイヤルティの徴収を代行する組織だ。音楽分野で著作権者の権利管理を担うASCAPのようなモデルを参考にしている。</p>
+<p>すでにReddit、Yahoo、Medium、Quora、O’Reilly Media、wikiHowなどが賛同を表明しており、幅広い分野からの参加が期待されている。</p>
+<h2>技術連携と課題</h2>
+<p>インターネットインフラ企業Fastlyは、ライセンス取得済みのクローラーのみアクセスを許可する仕組みの実装に取り組んでいる。一方で、AI企業がこの標準に従うかどうかは任意であり、強制力に欠ける点が課題だ。また、クローラーの偽装やrobots.txtの無視といった技術的な抜け道も懸念されている。</p>
+<p>さらに、AIの推論結果にどのコンテンツが具体的に使われたかを追跡することは難しく、正確な利用料計算には技術的ハードルがある。</p>
+<h2>今後の展望</h2>
+<p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
+]]></description>
+      <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
@@ -262,19 +299,7 @@
 <p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
 <p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
-      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
-<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
-<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
-<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
-<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
@@ -310,26 +335,7 @@
 <h2>今後の展望</h2>
 <p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIリテラシー教材を公開──教育者・学生・家庭向けに専用リソースを提供</title>
-      <link>https://ledge.ai/articles/google_ai_literacy_resources_launch</link>
-      <description><![CDATA[<p>Googleは2025年9月9日（米国時間）、教育者・学習者・保護者が生成AIを安全かつ責任を持って活用できるよう設計した教材とトレーニングを集約する新サイト「Build AI knowledge and literacy」を<a href="https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/">公開</a>した。初等中等・高等教育・大学・家庭の各領域に向けて、レッスンプランや教師研修、プロンプト基礎コース、DeepMindとRaspberry Pi Foundationの共同教材「Experience AI」、ゲーム型学習「AI Quests」などを提供し、現場でのAIリテラシー育成を体系化する。</p>
-<p>サイトは「安全性」「透明性」「責任ある利用」を軸に、対象別の教材を体系的に整理している。</p>
-<h2>教師向け（K-12・教育リーダー）</h2>
-<p>教師向けセクションには、GeminiやNotebookLMを授業で活用するための研修プログラム「Generative AI for Educators with Gemini」が用意され、教材設計から実践までを一気通貫で支援する。教育リーダーに向けた「Guide to AI in Education」では、導入ポリシーづくりや評価設計までを網羅し、K-12の現場に適したスターター教材「Get Started with AI for K-12」も揃う。授業内で生成AIを扱う際の留意点や評価観点が整理され、即日活用できる実務志向の内容が特徴だ。</p>
-<h2>大学生・教授向け（高等教育）</h2>
-<p>高等教育向けには、学業・研究・就職準備に結びつくスキル獲得を支援するトレーニングとツール群がまとめられている。効果的なプロンプト設計を基礎から学べるコースが提供され、レポート作成やリサーチ支援、専門領域でのAI活用を見据えた内容となっている。大学の授業や研究活動に自然に組み込める導線が設計されている点も実務的だ。</p>
-<h2>高校生向け（リテラシーと実践）</h2>
-<p>高校生向けには、責任あるAI利用を扱うレッスンプランに加え、Google DeepMindとRaspberry Pi Foundationが共同開発した「Experience AI」が紹介される。さらに、ゲーム形式で課題解決を学ぶ「AI Quests」により、概念理解にとどまらず、模擬的な意思決定や問題解決を通じてAIの可能性と限界を体験的に学べる構成となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a.webp" alt="AI_Quests_-_Landing_Page_1.width-1000.format-webp.webp" /></p>
-<h2>家庭・保護者向け（安全とリテラシー）</h2>
-<p>家庭向けセクションでは、小学生でも取り組みやすいインターネットとAIの安全教育プログラム「Be Internet Awesome」が公開される。保護者向けには動画ガイド「The AI Playbook for Parents」や、専門家がAI時代の子育てを解説するポッドキャスト「Raising kids in the age of AI」が用意され、家庭内のルールづくりや学びの伴走に役立つ実践的なヒントが得られる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=DhpzaLYSUro&amp;list=PLP7Bvyb3ap45NyPGzOxhqn1L8XLgRjtrp&amp;index=3">YouTube</a></p>
-<p>このサイトは、学校や大学、家庭の現場でそのまま使える実装志向のリソースを提供することで、AIの利便性とリスクの双方を踏まえたリテラシーの底上げを狙う。公開の背景と位置づけはGoogle公式ブログで明示され、教材群は専用サイトで継続更新される見込みだ。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
@@ -341,7 +347,7 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
 <p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
@@ -353,7 +359,30 @@
 <p>発表にあわせて、9月11日にはATRの実験棟で見学会も行われ、関係者に成果が<a href="https://bicr.atr.jp/bri/">公開</a>された。</p>
 <p>今回の研究は、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の支援事業の一環として実施された。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
+      <link>https://ledge.ai/articles/iphone17_ios26_apple_intelligence_update</link>
+      <description><![CDATA[<p>2025年9月9日（米国時間）に、最新スマートフォン「iPhone 17」シリーズを<a href="https://www.apple.com/jp/newsroom/2025/09/apple-debuts-iphone-17/">発表</a>したAppleは16日、新OS「<a href="https://www.apple.com/jp/os/ios/">iOS 26</a>」を公開し、同社のAI機能群「Apple Intelligence」に新たな機能を追加した。翻訳や生成機能の拡充が中心で、一部の機能は対応機種に制限がある。</p>
+<p>同社の<a href="https://www.apple.com/jp/newsroom/2025/09/new-versions-of-apples-software-platforms-are-now-available/">ニュースルーム</a>では、iOS 26におけるApple Intelligenceの新機能が公表された。主な内容は以下の通り。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ios26_intelligence_7caf31bc7a/ios26_intelligence_7caf31bc7a.jpg" alt="ios26 intelligence.jpg" /></p>
+<ul>
+<li><strong>ライブ翻訳</strong> ：Messages、FaceTime、電話通話でリアルタイムの翻訳と字幕表示を提供。AirPodsを使った対面会話の翻訳にも対応。</li>
+<li><strong>Visual Intelligenceの進化</strong> ：スクリーンショットを撮影し、ChatGPTに直接質問できる。また、GoogleやEtsyなどのアプリを使い、類似画像や商品の検索が可能。</li>
+<li><strong>Genmoji / Image Playground</strong> ：絵文字を生成したり、画像にスタイルを付与して生成する機能を提供。</li>
+<li><strong>Workout Buddy</strong> ：Apple WatchとAirPodsを組み合わせて利用し、ワークアウト中にパーソナライズされた励ましの音声を提供。</li>
+<li><strong>ショートカット連携</strong> ：PDFからの情報抽出や文書要約、テキストからの画像生成を自動化する新しいアクションを提供。</li>
+</ul>
+<h2>プライバシー重視の設計</h2>
+<p>Appleは、Apple Intelligenceの処理が基本的にオンデバイスで行われることを説明している。複雑な処理は「Private Cloud Compute」を介して実行され、Appleにデータが保存・共有されることはないとしている。</p>
+<h2>対応機種の範囲</h2>
+<p>Apple Intelligenceの主要機能はiPhone 15 Pro以降、iPhone 16、iPhone 17シリーズに対応していると<a href="https://9to5mac.com/2025/08/19/apple-intelligence-new-features-in-ios-26-full-list/">9to5Mac</a>が報じている。また、古いモデルでもiOS 26へのアップデートは可能だが、AI機能の多くは利用できないとされる。</p>
+<h2>今後の展開</h2>
+<p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
+<p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
@@ -485,7 +514,7 @@ Zhan (Cliff) Chen / 陳 湛</p>
 ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
@@ -517,19 +546,57 @@ ld_media_sales@ledge.co.jp
 <h2>今後の展望</h2>
 <p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、大規模言語モデルの「ハルシネーション（幻覚）」の原因を解説──評価方法の設計に問題と指摘</title>
-      <link>https://ledge.ai/articles/openai_explains_hallucination_causes</link>
-      <description><![CDATA[<p>OpenAIは2025年9月5日、言語モデルが誤った情報をもっともらしく生成する「ハルシネーション」の原因を公式ブログで<a href="https://openai.com/index/why-language-models-hallucinate/">解説</a>した。研究者らは、モデルの訓練方法と評価基準の設計そのものが誤答を促す構造になっていると指摘し、評価方法の見直しを提案している。この内容は併せて公開された<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf">学術論文</a>でも詳細に検証されている。</p>
-<p>ハルシネーションは大きく2つの段階で発生すると研究では説明されている。
-まずプレトレーニング段階では、モデルは大規模なテキストデータから言語の確率分布を学習するが、この過程自体が統計的に誤りを生み出す要因となる。誤りは「バイナリ分類（正しい／誤り）」の誤分類と同様に不可避であり、訓練データに誤りが含まれていなくても誤答が発生すると分析している。</p>
-<p>次にポストトレーニング段階では、評価基準の設計が問題視された。多くの主要なベンチマーク（MMLU、GPQAなど）は、質問に対して「分からない」と回答するよりも「推測して答える」方が高得点となる方式を採用している。その結果、モデルは過剰に自信を持って誤答を返すよう最適化される傾向があるという。</p>
-<p>論文では、誕生日や学位論文のタイトルを尋ねた際にモデルが異なる誤答を返す具体例も紹介された。また、訓練データに一度しか登場しない事実（singleton rate）が多いほど、誤答率が高まることも数理的に示された。</p>
-<p>解決策として研究チームは、新たなハルシネーション評価を追加するよりも、既存のベンチマークに「不確実性の表明」を認める仕組みを組み込むことを提案する。例えば「分からない」と回答しても減点されない方式や、回答の信頼度を明示する採点方法を導入することで、誤答の温床となっている「推測の奨励」を抑制できると主張している。</p>
+      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
+      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
+      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
+<h2>AI時代の中核インフラへ</h2>
+<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
+<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
+<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
+<h2>性能と持続可能性の両立</h2>
+<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
+<h2>今後の展望</h2>
+<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
 ]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_usage_report_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年9月15日（現地時間）、対話型AI「ChatGPT」の消費者利用実態を初めて体系的に<a href="https://openai.com/index/how-people-are-using-chatgpt/">公開</a>した。調査結果は、全米経済研究所（NBER）のワーキングペーパー「<a href="https://www.nber.org/papers/w34255">How People Use ChatGPT</a>」（2025年9月）としてまとめられている。</p>
+<h2>世界規模で拡大する利用</h2>
+<p>論文によると、ChatGPTは2025年7月時点で世界の成人の約10%にあたる7億人が毎週利用し、1日あたり25億件以上のメッセージがやり取りされている。2022年の公開からわずか2年半での急速な普及は前例がないという。</p>
+<p><strong>週次利用者数の推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6.jpg" alt="Weekly active ChatGPT users on consumer plans.jpg" /></p>
+<h2>非仕事利用が主流に</h2>
+<p>2024年6月時点で53%だった非仕事利用は、2025年6月には73%に達した。家庭内での調べものや学習支援など、日常生活に根付く形で利用が広がっている。</p>
+<p><strong>非仕事利用の割合推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/messages_not_related_to_work_fef67ce892/messages_not_related_to_work_fef67ce892.jpg" alt="messages not related to work.jpg" /></p>
+<h2>利用内容の内訳</h2>
+<p>会話テーマの分析では、「実用的アドバイス（Practical Guidance）」「情報検索（Seeking Information）」「ライティング（Writing）」が全体の77%を占めた。特にライティングは仕事利用において中心的で、メールや報告書の作成、文章の編集や翻訳が多いという。コーディング関連は全体の4.2%、人間関係や自己表現は2.4%にとどまった。</p>
+<h2>ユーザー層の変化</h2>
+<p>利用者層の特徴としては、初期に見られた男性中心の傾向が薄れ、2025年半ばには女性名のアカウントが過半数を占めるまでになった。また、26歳未満の若年層が全体の約半数を占め、低～中所得国での利用増加も顕著となっている。</p>
+<h2>職業別の利用傾向</h2>
+<ul>
+<li>管理・ビジネス職：ライティングが過半数を占める。</li>
+<li>IT関連職：プログラミングやデータ処理などのテクニカルヘルプが37%。</li>
+<li>共通点：業種を問わず「意思決定・問題解決」「情報取得」に多く使われる。</li>
+</ul>
+<h2>ユーザーの意図</h2>
+<p>ユーザーのリクエストは以下の3分類に整理された。</p>
+<ul>
+<li>Asking（助言・情報）：49%</li>
+<li>Doing（作業依頼）：40%</li>
+<li>Expressing（感情表現など）：11%</li>
+</ul>
+<p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
+<p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
@@ -554,104 +621,6 @@ ld_media_sales@ledge.co.jp
 <p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
 <h2>今後の展望</h2>
 <p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>故人データの権利をどう守る？──米UCアーバイン研究チーム、生成AI時代の「死後データ管理原則」を提案</title>
-      <link>https://ledge.ai/articles/post_mortem_data_management_principles_ai</link>
-      <description><![CDATA[<p>米カリフォルニア大学アーバイン校の研究チームは2025年9月9日、生成AIにおける故人のデータ権利を保護するための新たな指針を<a href="https://arxiv.org/abs/2509.07375">提案</a>した。同研究はこれまで十分に議論されてこなかった「死後データの所有権」に着目し、3つの管理原則を提示している。</p>
-<p>生成AIは大量のユーザーデータに依存して学習するが、現行のプライバシー規制（GDPR、CCPA、LGPDなど）は主に生存者を対象としており、故人のデータについては明確な保護が欠けている。実際に、亡くなった人物を模倣したAIチャットボットが公開され、遺族や社会に心理的負担を与えた事例も報告されている。</p>
-<p><strong>研究アプローチ概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_6_ebd9ae91ea/x1_6_ebd9ae91ea.png" alt="x1 (6).png" /></p>
-<p>研究チームは各国の法規制や大手テクノロジー企業のポリシーを分析した結果、多くのサービスが「アカウント削除」や「メモリアル化」といった最低限の対応にとどまり、AIモデルによるデータ利用や影響除去を考慮していない点を指摘。そのうえで、次の3つの「死後データ管理原則」を提案した。</p>
-<ol>
-<li><strong>忘れられる権利（削除）</strong> ：死後にデータを削除するだけでなく、AIモデルからの影響も取り除く。</li>
-<li><strong>データの相続と所有権</strong> ：削除を望まない場合には、データを遺族に譲渡する仕組みを設ける。商業的活用や「AIアフターライフ」として保存する選択も可能。</li>
-<li><strong>利用目的の制限と害の防止</strong> ：研究や公益目的での利用であっても、尊厳を損なわない範囲に限定し、遺族への心理的負担を避ける。</li>
-</ol>
-<p>実装に向けては、デジタル遺言の導入や第三者機関による監査、AIモデルからの影響を除去する「アンラーニング」技術の活用を提案。規制当局には、企業に対して死後データの取り扱い方針を明示する義務を課すよう求めている。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>川崎市と名古屋大学、デジタルツインで下水道設備管理を高度化──国内初の共同研究を開始</title>
-      <link>https://ledge.ai/articles/kawasaki_nagoya_digital_twin_sewage_research</link>
-      <description><![CDATA[<p>川崎市上下水道局は2025年9月8日、名古屋大学大学院工学研究科と共同で、デジタル技術を活用した下水道設備の新たな維持管理手法を開発する研究を開始したと<a href="https://www.city.kawasaki.jp/800/page/0000180281.html">発表</a>した。国内の下水処理場で、デジタルツインモデルを本格的に導入する取り組みは初めてとなる。</p>
-<p><strong>左：デジタルツインイメージ／右：実機検証イメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_kawasaki_f5864dff10/collage_kawasaki_f5864dff10.jpg" alt="collage kawasaki.jpg" /></p>
-<p>同研究は「下水道設備の状態監視マネジメント技術の開発」をテーマに、入江崎水処理センターを実証フィールドとして実施される。研究期間は2025年9月から2026年度末まで。</p>
-<p>研究対象となるのは、ポンプをはじめとする機械設備。これらに設置したセンサーから振動や加速度、電流などのデータを収集し、仮想空間上にデジタルツインモデルを構築する。取得したデータをもとに、設備の状態監視やシミュレーションを行うことで、劣化や異常を早期に発見し、故障予知や点検周期の最適化を図る。</p>
-<p><strong>デジタルツインモデルの構築例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_829d7f1005/sub2_829d7f1005.jpg" alt="sub2.jpg" /></p>
-<p>背景には、施設の老朽化や担い手不足といった全国共通の課題がある。川崎市上下水道局は「デジタル技術を活用した効率的かつ効果的な維持管理が求められている」と説明。今回の共同研究を通じて、従来の点検・調査に依存しない新たな維持管理体制の構築を目指す。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
-      <link>https://ledge.ai/articles/bytedance_seedream4_release_4k_nano_banana</link>
-      <description><![CDATA[<p>ByteDanceは2025年9月9日、画像生成と編集機能を統合した新モデル「Seedream 4.0」を<a href="https://seed.bytedance.com/en/seedream4_0">公開</a>した。同モデルは最大4K解像度での出力に対応し、参照画像を活用した一貫性のある生成や複雑なマルチモーダルタスクへの対応を強化している。</p>
-<p>Seedream 4.0は、統一アーキテクチャを採用し、画像生成（text-to-image）と画像編集を単一モデル内で実現。知識を要する生成や高度な推論、複数参照画像による整合性保持といった高度な処理に対応できるとしている。また、推論速度の向上により、従来より高速に高解像度の画像を生成可能となった。</p>
-<p><strong>Seedream 4.0による人物生成の例。異なる視点から自然な一貫性を保った出力が得られている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_images_from_different_views_d9f1b895f7/three_images_from_different_views_d9f1b895f7.jpg" alt="three images from different views.jpg" /></p>
-<p>利用シナリオとしては、広告やデザイン制作、キャラクター開発などのプロフェッショナル用途を想定。バッチ処理機能により多数の画像を一度に生成でき、制作現場での効率化が期待される。</p>
-<p><strong>同じ入力から写実風、アニメ風、イラスト風など多様なスタイルへ変換した出力例。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/seedream4_0_3_4a089d4755/seedream4_0_3_4a089d4755.jpg" alt="seedream4-0-3.jpg" /></p>
-<p>さらにByteDanceは、内部ベンチマーク「MagicBench」において、Google DeepMindが提供する最新の画像生成モデル「Gemini 2.5 Flash Image（通称Nano Banana）」を上回ったと主張している。特にプロンプト忠実度、出力の整合性、美的評価において優れた結果を示したとされる。</p>
-<p><strong>MagicBenchにおける比較評価。Seedream 4.0（青色）は複数項目で他モデルを上回ったとされる。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
-<p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
-      <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
-      <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
-<h2>無断利用への懸念と報酬の不在</h2>
-<p>AIモデルはこれまで、大量のウェブコンテンツを収集して学習に用いてきたが、出版社や著作者への報酬は十分に支払われてこなかった。訴訟や規制をめぐる動きが広がるなか、コンテンツ提供側が主体的に利用条件を示し、対価を求められる仕組みの必要性が高まっていた。</p>
-<h2>RSL標準の仕組み</h2>
-<p>RSL標準は、既存のrobots.txtを拡張し、AI用途での収集・利用に関するライセンス条項やロイヤルティを明示できるようにする。ライセンスモデルは以下のように多様化しており、コンテンツごとに設定が可能だ。</p>
-<ul>
-<li>無料利用</li>
-<li>帰属（attribution）付き利用</li>
-<li>サブスクリプション契約</li>
-<li>pay-per-crawl（クロール単位での課金）</li>
-<li>pay-per-inference（推論単位での課金）</li>
-</ul>
-<p>技術仕様はXMLベースで定義され、APIによる報告や請求処理を組み合わせることで自動化を実現する。コンテンツの種類はウェブページだけでなく、動画、音楽、プロプライエタリデータにも対応する。</p>
-<h2>Collectiveの役割と参加企業</h2>
-<p>RSL Collectiveは、出版社やクリエイターの権利を集約し、AI企業とのライセンス交渉やロイヤルティの徴収を代行する組織だ。音楽分野で著作権者の権利管理を担うASCAPのようなモデルを参考にしている。</p>
-<p>すでにReddit、Yahoo、Medium、Quora、O’Reilly Media、wikiHowなどが賛同を表明しており、幅広い分野からの参加が期待されている。</p>
-<h2>技術連携と課題</h2>
-<p>インターネットインフラ企業Fastlyは、ライセンス取得済みのクローラーのみアクセスを許可する仕組みの実装に取り組んでいる。一方で、AI企業がこの標準に従うかどうかは任意であり、強制力に欠ける点が課題だ。また、クローラーの偽装やrobots.txtの無視といった技術的な抜け道も懸念されている。</p>
-<p>さらに、AIの推論結果にどのコンテンツが具体的に使われたかを追跡することは難しく、正確な利用料計算には技術的ハードルがある。</p>
-<h2>今後の展望</h2>
-<p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
-      <link>https://ledge.ai/articles/iphone17_ios26_apple_intelligence_update</link>
-      <description><![CDATA[<p>2025年9月9日（米国時間）に、最新スマートフォン「iPhone 17」シリーズを<a href="https://www.apple.com/jp/newsroom/2025/09/apple-debuts-iphone-17/">発表</a>したAppleは16日、新OS「<a href="https://www.apple.com/jp/os/ios/">iOS 26</a>」を公開し、同社のAI機能群「Apple Intelligence」に新たな機能を追加した。翻訳や生成機能の拡充が中心で、一部の機能は対応機種に制限がある。</p>
-<p>同社の<a href="https://www.apple.com/jp/newsroom/2025/09/new-versions-of-apples-software-platforms-are-now-available/">ニュースルーム</a>では、iOS 26におけるApple Intelligenceの新機能が公表された。主な内容は以下の通り。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ios26_intelligence_7caf31bc7a/ios26_intelligence_7caf31bc7a.jpg" alt="ios26 intelligence.jpg" /></p>
-<ul>
-<li><strong>ライブ翻訳</strong> ：Messages、FaceTime、電話通話でリアルタイムの翻訳と字幕表示を提供。AirPodsを使った対面会話の翻訳にも対応。</li>
-<li><strong>Visual Intelligenceの進化</strong> ：スクリーンショットを撮影し、ChatGPTに直接質問できる。また、GoogleやEtsyなどのアプリを使い、類似画像や商品の検索が可能。</li>
-<li><strong>Genmoji / Image Playground</strong> ：絵文字を生成したり、画像にスタイルを付与して生成する機能を提供。</li>
-<li><strong>Workout Buddy</strong> ：Apple WatchとAirPodsを組み合わせて利用し、ワークアウト中にパーソナライズされた励ましの音声を提供。</li>
-<li><strong>ショートカット連携</strong> ：PDFからの情報抽出や文書要約、テキストからの画像生成を自動化する新しいアクションを提供。</li>
-</ul>
-<h2>プライバシー重視の設計</h2>
-<p>Appleは、Apple Intelligenceの処理が基本的にオンデバイスで行われることを説明している。複雑な処理は「Private Cloud Compute」を介して実行され、Appleにデータが保存・共有されることはないとしている。</p>
-<h2>対応機種の範囲</h2>
-<p>Apple Intelligenceの主要機能はiPhone 15 Pro以降、iPhone 16、iPhone 17シリーズに対応していると<a href="https://9to5mac.com/2025/08/19/apple-intelligence-new-features-in-ios-26-full-list/">9to5Mac</a>が報じている。また、古いモデルでもiOS 26へのアップデートは可能だが、AI機能の多くは利用できないとされる。</p>
-<h2>今後の展開</h2>
-<p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
-<p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
