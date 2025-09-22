@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>登記情報と現況の“ズレ”を衛星画像×AIで検知──アクセルスペースとWHEREが概念実証を開始</title>
+      <link>https://ledge.ai/articles/axelspace_where_satellite_ai_realestate_poc</link>
+      <description><![CDATA[<p>衛星開発・運用を手がけるアクセルスペースと、不動産AIツール「WHERE」を展開するWHEREは2025年9月17日、人工衛星による地球観測画像を活用し、不動産登記情報の精度向上や不動産管理業務の効率化を目指すPoC（概念実証）を開始したことを。<a href="https://www.axelspace.com/ja/news/realestate_poc/">発表</a>した。対象は東京、神奈川、埼玉、千葉、大阪、福岡の6都府県で、都市部を中心に実施するという。</p>
+<h2>背景と課題</h2>
+<p>日本の不動産市場では、登記情報と現況が一致しないケースが少なくない。従来は自治体や事業者が現地調査を行う必要があり、コストや時間の面で大きな負担となっていた。また情報更新の遅れは、不動産取引の判断や管理業務の効率性にも影響していた。</p>
+<h2>PoCの内容</h2>
+<p>今回のPoCでは、アクセルスペースが運用する光学地球観測衛星「GRUS」から取得した高頻度・広範囲の画像と、WHEREのオフマーケット探索AIを組み合わせる。これにより、土地利用の変化や新規建築物の有無などを検知し、登記情報と照合する。実証では、1か月間に複数回の衛星撮影を行い、差異を検出して自治体や事業者に提供する。</p>
+<p><strong>衛星画像（左）とAIによる変化検出結果（右）。土地や建物の変化を赤色で可視化し、登記情報と現況の差異を確認できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/29d3bc99193cb0b837fb8cc53f050ae5_8d1a174657/29d3bc99193cb0b837fb8cc53f050ae5_8d1a174657.png" alt="29d3bc99193cb0b837fb8cc53f050ae5.png" /></p>
+<h2>企業の取り組み</h2>
+<p>WHEREは、市場に出ていない不動産の探索や管理をAIで支援し、不動産市場の情報格差を解消することを目指している。一方のアクセルスペースは、現在5機のGRUS衛星を運用中で、2026年には次世代衛星「GRUS-3」7機の打ち上げを予定。観測能力を強化することで、社会インフラや不動産分野への応用を拡大していく考えだ。</p>
+<h2>今後の展望</h2>
+<p>両社は、都市部での検証を皮切りに、地方都市や空き家・休耕地の管理、災害リスク地域での活用などへ応用を検討している。不動産業界のみならず、都市計画や防災、インフラ管理といった幅広い分野での利用も期待される。</p>
+]]></description>
+      <pubDate>Mon, 22 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、広告制作プロセスを自動化する新しいAIエージェントを発表──Creative Studioに導入</title>
       <link>https://ledge.ai/articles/amazon_ai_agent_creative_studio</link>
       <description><![CDATA[<p>Amazon Adsは2025年9月17日（米国時間）、広告主向けクリエイティブ制作ツール「Creative Studio」に新しいAIエージェント機能を追加したと<a href="https://advertising.amazon.com/library/news/amazon-ads-agentic-ai-creative-tool">発表</a>した。調査、アイデア出し、ストーリーボード作成、最終的な広告素材の生成まで、広告制作の主要なプロセスを一気通貫で自動化する。</p>
@@ -306,20 +323,6 @@
 <p>実装に向けては、デジタル遺言の導入や第三者機関による監査、AIモデルからの影響を除去する「アンラーニング」技術の活用を提案。規制当局には、企業に対して死後データの取り扱い方針を明示する義務を課すよう求めている。</p>
 ]]></description>
       <pubDate>Wed, 17 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>川崎市と名古屋大学、デジタルツインで下水道設備管理を高度化──国内初の共同研究を開始</title>
-      <link>https://ledge.ai/articles/kawasaki_nagoya_digital_twin_sewage_research</link>
-      <description><![CDATA[<p>川崎市上下水道局は2025年9月8日、名古屋大学大学院工学研究科と共同で、デジタル技術を活用した下水道設備の新たな維持管理手法を開発する研究を開始したと<a href="https://www.city.kawasaki.jp/800/page/0000180281.html">発表</a>した。国内の下水処理場で、デジタルツインモデルを本格的に導入する取り組みは初めてとなる。</p>
-<p><strong>左：デジタルツインイメージ／右：実機検証イメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_kawasaki_f5864dff10/collage_kawasaki_f5864dff10.jpg" alt="collage kawasaki.jpg" /></p>
-<p>同研究は「下水道設備の状態監視マネジメント技術の開発」をテーマに、入江崎水処理センターを実証フィールドとして実施される。研究期間は2025年9月から2026年度末まで。</p>
-<p>研究対象となるのは、ポンプをはじめとする機械設備。これらに設置したセンサーから振動や加速度、電流などのデータを収集し、仮想空間上にデジタルツインモデルを構築する。取得したデータをもとに、設備の状態監視やシミュレーションを行うことで、劣化や異常を早期に発見し、故障予知や点検周期の最適化を図る。</p>
-<p><strong>デジタルツインモデルの構築例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_829d7f1005/sub2_829d7f1005.jpg" alt="sub2.jpg" /></p>
-<p>背景には、施設の老朽化や担い手不足といった全国共通の課題がある。川崎市上下水道局は「デジタル技術を活用した効率的かつ効果的な維持管理が求められている」と説明。今回の共同研究を通じて、従来の点検・調査に依存しない新たな維持管理体制の構築を目指す。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
