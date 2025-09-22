@@ -5,6 +5,62 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AIエージェント決済の新標準『Agent Payments Protocol（AP2）』を発表──安全性・説明責任・相互運用性を重視</title>
+      <link>https://ledge.ai/articles/google_agent_payments_protocol_ap2_announcement</link>
+      <description><![CDATA[<p>Googleは2025年9月16日（現地時間）、AIエージェントが人間に代わって商品やサービスを購入する際の新たな標準規格「Agent Payments Protocol（AP2）」を<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/?hl=en">発表</a>した。AP2はオープンソースで提供され、既存の決済インフラを補完することで、AIエージェントによる取引の安全性と信頼性を確保することを目的としている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=yLTp3ic2j5c">YouTube</a></p>
+<h2>背景：AIエージェント時代の課題</h2>
+<p>AIエージェントは商品検索から購入まで代行可能になりつつあるが、現在の決済システムは人間によるクリックを前提に設計されている。そのため、以下のような課題が浮上していた。</p>
+<ul>
+<li><strong>権限の証明</strong> ：エージェントが正しくユーザーの意図を受けて行動しているか</li>
+<li><strong>正確性の担保</strong> ：取引内容がハルシネーションではないことの確認</li>
+<li><strong>責任の所在</strong> ：不正やエラー発生時に誰が責任を負うのか</li>
+</ul>
+<h2>AP2の概要と位置づけ</h2>
+<p>AP2はこうした課題を解決するための新しいオープンプロトコルで、Googleが提唱した。既存の「Agent to Agent（A2A）」や「Model Context Protocol（MCP）」と互換性を持ち、AIエージェントによる商取引を支える基盤として設計されている。</p>
+<h2>5つの基本原則</h2>
+<p>Googleは公式動画の中で、AP2が以下の原則に基づいていることを示した。</p>
+<ul>
+<li><strong>オープン性と相互運用性</strong> ：非独占的な仕組みで、誰もが革新に参加できる。</li>
+<li><strong>ユーザーコントロールとプライバシー</strong> ：ユーザーが常に取引の主導権を握る。</li>
+<li><strong>検証可能な意図</strong> ：暗号署名に基づく意図証明で、誤動作を防止。</li>
+<li><strong>明確な取引説明責任</strong> ：否認不可能な監査証跡を作成し、紛争解決を容易にする。</li>
+<li><strong>グローバル性と将来性</strong> ：カード決済だけでなく、リアルタイム送金やデジタル通貨にも対応。</li>
+</ul>
+<h2>仕組みと中核技術</h2>
+<p>AP2の中心となるのは Verifiable Credentials（検証可能な資格情報） だ。これは暗号署名された改ざん不可能なデータで、エージェント間で交換される。</p>
+<p>その具体的な形が 「mandate（マンデート）」 と呼ばれる承認データである。mandateは、ユーザーがAIエージェントに「どの範囲で買い物を許可したか」を証拠付きで示す役割を担う。</p>
+<ol>
+<li><strong>カート・マンデート（Cart Mandate）</strong>：ユーザーが「この商品をこの価格で購入してよい」と最終承認した証拠。商品内容や価格が含まれ、署名付きで保存される。</li>
+<li><strong>インテント・マンデート（Intent Mandate）</strong> ：「深夜0時に発売されるチケットを上限1万円で購入してほしい」といった条件付きの購入をエージェントに委任する際の証拠。ユーザーが不在でも安全に自動購入が可能になる。</li>
+<li><strong>ペイメント・マンデート（Payment Mandate）</strong> ：決済ネットワークや銀行に「この取引にはAIエージェントが介在している」ことを通知するデータ。将来の制度設計や特別な扱いに備えた仕組み。</li>
+</ol>
+<p>このmandateによって、AIエージェントが勝手に買い物をするのではなく、ユーザーが与えた承認範囲の中でのみ行動することが保証される。また、不正や紛争が発生した場合にも、署名付きデータが「誰が何を認めたか」を明確に示す証拠となる。</p>
+<h2>役割ベースのアーキテクチャ</h2>
+<p>AP2では、関与する各プレイヤーに明確な役割が割り当てられる。</p>
+<ul>
+<li>ショッピングエージェント（例：Gemini）</li>
+<li>マーチャントエンドポイント</li>
+<li>認証情報プロバイダー（デジタルウォレット）</li>
+<li>決済プロセッサー、ネットワーク・発行会社
+この役割分担により、セキュリティと透明性が強化される。</li>
+</ul>
+<h2>ユースケースと応用例</h2>
+<ul>
+<li><strong>通常購入</strong> ：ユーザーが承認したシューズ注文など。</li>
+<li><strong>条件付き自動購入</strong> ：チケット発売時に即時購入。</li>
+<li><strong>高度な取引</strong> ：在庫切れ商品の予約注文を可能にし、商取引を「契約的対話」へと拡張。</li>
+</ul>
+<h2>参加企業とエコシステム</h2>
+<p>AP2には、決済事業者や大手テック企業を含む多数のパートナーが参加している。Mastercard、PayPal、American Express、Coinbase、Alibaba、Ant International など60社以上が名を連ね、国際的な標準化に向けた広範なエコシステムが形成されている。</p>
+<p><strong>■ Agent Payments Protocol（AP2）に参加する企業一覧。国際的な決済事業者やテック企業が広く参画している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agent_Payments_Protocol_4e4de6889e/Agent_Payments_Protocol_4e4de6889e.jpg" alt="Agent Payments Protocol.jpg" /></p>
+<h2>今後の展望</h2>
+<p>AP2の技術仕様やライブラリ、参照実装はGitHub上で公開されている。Googleは幅広い採用を呼びかけており、MastercardやPayPalなど複数の決済事業者・企業が参画している。今後は国際的な標準化と普及が焦点となる見通しだ。</p>
+]]></description>
+      <pubDate>Sun, 21 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>サム・アルトマンCEO「未成年者の自由より安全を優先する」 ChatGPT の新ポリシー発表</title>
       <link>https://ledge.ai/articles/chatgpt_new_policy_for_under18_safety_over_freedom</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年9月15日、対話型AI「ChatGPT」が18歳未満のユーザーとやり取りする際のルールを大幅に変更する新ポリシーを<a href="https://openai.com/index/teen-safety-freedom-and-privacy/">発表</a>した。公式ブログで同氏は「私たちは10代の若者のプライバシーと自由よりも、安全を優先する」と強調している。</p>
@@ -260,33 +316,6 @@
 <p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
 ]]></description>
       <pubDate>Tue, 16 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI時代のコンテンツ報酬に新枠組み──「RSL標準」と「RSL Collective」設立、出版社やクリエイターに公正な対価を</title>
-      <link>https://ledge.ai/articles/rsl_standard_collective_ai_content_licensing</link>
-      <description><![CDATA[<p>米国時間2025年9月10日、Reddit、Yahoo、Medium、Quora、People Inc.、O’Reilly Media、Ziff Davis、Internet Brands、Fastlyなどの主要インターネット企業と出版社は、AI時代におけるコンテンツ利用の新たなライセンス枠組み「RSL標準（Really Simple Licensing）」と、その運営組織「RSL Collective」の設立を<a href="https://rslstandard.org/press/rsl-standard">発表</a>した。これにより、出版社やクリエイターはAI企業に対し、訓練データ利用の条件や報酬を機械可読形式で提示できるようになる。</p>
-<h2>無断利用への懸念と報酬の不在</h2>
-<p>AIモデルはこれまで、大量のウェブコンテンツを収集して学習に用いてきたが、出版社や著作者への報酬は十分に支払われてこなかった。訴訟や規制をめぐる動きが広がるなか、コンテンツ提供側が主体的に利用条件を示し、対価を求められる仕組みの必要性が高まっていた。</p>
-<h2>RSL標準の仕組み</h2>
-<p>RSL標準は、既存のrobots.txtを拡張し、AI用途での収集・利用に関するライセンス条項やロイヤルティを明示できるようにする。ライセンスモデルは以下のように多様化しており、コンテンツごとに設定が可能だ。</p>
-<ul>
-<li>無料利用</li>
-<li>帰属（attribution）付き利用</li>
-<li>サブスクリプション契約</li>
-<li>pay-per-crawl（クロール単位での課金）</li>
-<li>pay-per-inference（推論単位での課金）</li>
-</ul>
-<p>技術仕様はXMLベースで定義され、APIによる報告や請求処理を組み合わせることで自動化を実現する。コンテンツの種類はウェブページだけでなく、動画、音楽、プロプライエタリデータにも対応する。</p>
-<h2>Collectiveの役割と参加企業</h2>
-<p>RSL Collectiveは、出版社やクリエイターの権利を集約し、AI企業とのライセンス交渉やロイヤルティの徴収を代行する組織だ。音楽分野で著作権者の権利管理を担うASCAPのようなモデルを参考にしている。</p>
-<p>すでにReddit、Yahoo、Medium、Quora、O’Reilly Media、wikiHowなどが賛同を表明しており、幅広い分野からの参加が期待されている。</p>
-<h2>技術連携と課題</h2>
-<p>インターネットインフラ企業Fastlyは、ライセンス取得済みのクローラーのみアクセスを許可する仕組みの実装に取り組んでいる。一方で、AI企業がこの標準に従うかどうかは任意であり、強制力に欠ける点が課題だ。また、クローラーの偽装やrobots.txtの無視といった技術的な抜け道も懸念されている。</p>
-<p>さらに、AIの推論結果にどのコンテンツが具体的に使われたかを追跡することは難しく、正確な利用料計算には技術的ハードルがある。</p>
-<h2>今後の展望</h2>
-<p>RSL標準とCollectiveは立ち上がったばかりであり、制度設計や実務運用には不確実性が残る。それでも、オンラインコンテンツの利用における力関係を変える可能性を秘めており、出版社やクリエイターの収益構造を大きく転換させる動きとして注目される。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
