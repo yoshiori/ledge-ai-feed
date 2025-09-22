@@ -338,6 +338,23 @@
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
+      <link>https://ledge.ai/articles/bytedance_seedream4_release_4k_nano_banana</link>
+      <description><![CDATA[<p>ByteDanceは2025年9月9日、画像生成と編集機能を統合した新モデル「Seedream 4.0」を<a href="https://seed.bytedance.com/en/seedream4_0">公開</a>した。同モデルは最大4K解像度での出力に対応し、参照画像を活用した一貫性のある生成や複雑なマルチモーダルタスクへの対応を強化している。</p>
+<p>Seedream 4.0は、統一アーキテクチャを採用し、画像生成（text-to-image）と画像編集を単一モデル内で実現。知識を要する生成や高度な推論、複数参照画像による整合性保持といった高度な処理に対応できるとしている。また、推論速度の向上により、従来より高速に高解像度の画像を生成可能となった。</p>
+<p><strong>Seedream 4.0による人物生成の例。異なる視点から自然な一貫性を保った出力が得られている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_images_from_different_views_d9f1b895f7/three_images_from_different_views_d9f1b895f7.jpg" alt="three images from different views.jpg" /></p>
+<p>利用シナリオとしては、広告やデザイン制作、キャラクター開発などのプロフェッショナル用途を想定。バッチ処理機能により多数の画像を一度に生成でき、制作現場での効率化が期待される。</p>
+<p><strong>同じ入力から写実風、アニメ風、イラスト風など多様なスタイルへ変換した出力例。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/seedream4_0_3_4a089d4755/seedream4_0_3_4a089d4755.jpg" alt="seedream4-0-3.jpg" /></p>
+<p>さらにByteDanceは、内部ベンチマーク「MagicBench」において、Google DeepMindが提供する最新の画像生成モデル「Gemini 2.5 Flash Image（通称Nano Banana）」を上回ったと主張している。特にプロンプト忠実度、出力の整合性、美的評価において優れた結果を示したとされる。</p>
+<p><strong>MagicBenchにおける比較評価。Seedream 4.0（青色）は複数項目で他モデルを上回ったとされる。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
+<p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
+]]></description>
+      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
       <link>https://ledge.ai/articles/eth_mbt_ai_agents_cooperation_competition</link>
       <description><![CDATA[<p>チューリッヒ工科大学（ETH Zurich）の研究チームは2025年9月4日、性格診断テスト「MBTI」の16タイプを大規模言語モデル（LLM）に演じさせ、その行動傾向を比較する実験を行った。結果として、感情を重視するタイプ（F）は協力的に、論理を重視するタイプ（T）は競争的にふるまう傾向が確認されたことを<a href="https://arxiv.org/abs/2509.04343">発表</a>した。この研究は、AIエージェントに「性格」を付与することで、より人間らしい集団行動を再現できる可能性を示している。</p>
@@ -631,32 +648,6 @@ ld_media_sales@ledge.co.jp
 </ul>
 <p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
 <p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
-]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、新プロジェクト「OpenAI for Science」を始動──GPT-5活用で科学的発見の加速へ</title>
-      <link>https://ledge.ai/articles/openai_for_science_gpt5_scientific_discovery</link>
-      <description><![CDATA[<p>OpenAIは、新プロジェクト「OpenAI for Science」を立ち上げ、AIを「次世代の偉大な科学機器」として活用する研究プラットフォームの構築に乗り出した。同社最高製品責任者（CPO）のKevin Weil氏が2025年9月6日（現地時間）、自身のX（旧Twitter）アカウントで<a href="https://x.com/kevinweil/status/1962938974260904421">明らかに</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_for_Science_Kevin_weil_9e592d290b/Open_AI_for_Science_Kevin_weil_9e592d290b.jpg" alt="OpenAI for Science Kevin weil.jpg" /></p>
-<p>Weil氏は「科学的発見は日常生活の質から国家安全保障、世界のGDPまであらゆる領域を改善する。イノベーションは米国が世界をリードしてきた理由であり、科学ほど人々の生活を向上させる可能性を秘めた領域は少ない」と強調。「OpenAI for Science」は、基礎研究を加速させるためのAI活用を目指すという。</p>
-<p>同氏はまず、少数精鋭のチームを編成する方針を示した。採用条件として、世界的水準の専門性を持ち、AIに深く通じ、さらに科学コミュニケーション力に優れた研究者を挙げている。</p>
-<h2>GPT-5の具体的な活用事例</h2>
-<p>Weil氏は投稿の中で、次の例を紹介した。</p>
-<ul>
-<li><strong>数理最適化</strong> ：Sebastien Bubeck氏の凸最適化論文に関連し、GPT-5 Proが「17分の思考で50%の改善に到達」と紹介。</li>
-<li><strong>量子場理論</strong> ：Mark Van Raamsdonk氏の論文<a href="https://arxiv.org/pdf/2508.21276v1">「Finite entropy sums in quantum field theory」</a>で、GPT-5が証明アウトラインや拡張提案を行った例を紹介。</li>
-<li><strong>生命科学</strong> ：OpenAIとRetro Biosciencesの共同研究では、Yamanaka因子（SOX2/KLF4等）の再設計により、幹細胞リプログラミング・マーカーの発現が50倍超となったとOpenAI公式が報告。</li>
-<li><strong>バイオ研究</strong> ：研究者DeryaTR氏が自身の生物学研究でGPT-5を活用し、研究の進展を加速。</li>
-</ul>
-<h2>背景にあるOpenAIの活動</h2>
-<p>「OpenAI for Science」の構想を発表する以前から、同社は以下のような研究への取り組みを公表していた。
-2025年6月18日：OpenAI公式ブログ「Preparing for future AI capabilities in biology」を<a href="https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/">公開</a>。生物学領域におけるAI活用の高度化に向けた安全・責任の方針を記載。
-2025年8月22日：同じく公式ブログ「Accelerating life sciences research」を<a href="https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/">公開</a>。Retro Biosciencesとの共同研究で、再設計したYamanaka因子がリプログラミング・マーカーの発現を50倍超に高めたことなどを報告。</p>
-<h2>Weil氏の立場と組織体制</h2>
-<p>Weil氏はCPOとしての職務を続けながら、研究者としても「OpenAI for Science」に関与するとしている。組織面では、Fidji Simo氏がCEO of Applicationsに就任し、アプリケーション領域の統括を担うことがOpenAIから発表されている。</p>
-<h2>今後の展望</h2>
-<p>「OpenAI for Science」の詳細は数カ月以内に共有予定とWeil氏は述べ、AIあるいはアカデミアの研究者に向けた参加呼びかけ（DM開放）にも言及した。AIを活用した基礎研究の加速が、今後どのようなブレークスルーにつながるか注目される。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
