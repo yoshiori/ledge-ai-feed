@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon、広告制作プロセスを自動化する新しいAIエージェントを発表──Creative Studioに導入</title>
+      <link>https://ledge.ai/articles/amazon_ai_agent_creative_studio</link>
+      <description><![CDATA[<p>Amazon Adsは2025年9月17日（米国時間）、広告主向けクリエイティブ制作ツール「Creative Studio」に新しいAIエージェント機能を追加したと<a href="https://advertising.amazon.com/library/news/amazon-ads-agentic-ai-creative-tool">発表</a>した。調査、アイデア出し、ストーリーボード作成、最終的な広告素材の生成まで、広告制作の主要なプロセスを一気通貫で自動化する。</p>
+<h2>調査から広告素材生成まで一気通貫</h2>
+<p>Amazonが導入した「agentic AI」機能は、広告主がチャット形式でAIと対話することで、広告制作を進められる仕組みだ。ブランド資産や商品情報を取り込み、消費者の特徴や購買行動を分析しながら、最適な広告コンセプトを提示する。さらに、場面ごとの構成を可視化するストーリーボードを生成し、動画やディスプレイ広告、音声や音楽を組み込んだ広告素材まで自動で仕上げることができる。ユーザーは必要に応じて修正指示を出し、細部を調整できる。</p>
+<p><strong>Creative Studioのチャット画面：音楽やナレーションを追加しながら広告動画を仕上げる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nws_Frame_3_TTW_3cf7c52e3c/Nws_Frame_3_TTW_3cf7c52e3c.jpg" alt="Nws_Frame_3.TTW.jpg" /></p>
+<h2>中小規模広告主にも“プロ品質”の広告を</h2>
+<p>同機能は小規模から中規模の広告主にとって特に有効だと同社は述べる。従来は数週間、数万ドル単位で必要だった広告制作を、数時間かつ低コストで完了できる可能性がり、プロフェッショナル品質の広告制作が、限られたリソースでも実現しやすくなるという。</p>
+<p><strong>生成されたライフスタイル画像のプレビュー：製品の利用シーンをAIが自動生成</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nws_Frame_5_TTW_e6f9e41a41/Nws_Frame_5_TTW_e6f9e41a41.jpg" alt="Nws_Frame_5.TTW.jpg" /></p>
+<h2>技術基盤と提供状況</h2>
+<p>この機能はAmazon Bedrockを基盤に構築されており、Amazon独自の大規模言語モデル「Nova」や、Anthropicの「Claude」など複数のモデルを活用している。現在はベータ版として提供が始まっており、今後は対応フォーマットや対象地域の拡大も予定されている。</p>
+<p><strong>Creative Studioのホーム画面：広告制作の出発点として複数のオプションを提示</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nws_Homescreen_1_TTW_8dfbd497d7/Nws_Homescreen_1_TTW_8dfbd497d7.jpg" alt="Nws_Homescreen_1.TTW.jpg" /></p>
+<h2>今後の展望</h2>
+<p>Amazonは、広告制作の効率化と高度化を両立させることで、今回のAIエージェント機能について「今後さらに多様なフォーマットへの対応を進める」と説明している。提供開始時点ではベータ版であり、対象地域や言語は限定的だが、順次拡大していく計画も明らかにされている。</p>
+]]></description>
+      <pubDate>Mon, 22 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIエージェント決済の新標準『Agent Payments Protocol（AP2）』を発表──安全性・説明責任・相互運用性を重視</title>
       <link>https://ledge.ai/articles/google_agent_payments_protocol_ap2_announcement</link>
       <description><![CDATA[<p>Googleは2025年9月16日（現地時間）、AIエージェントが人間に代わって商品やサービスを購入する際の新たな標準規格「Agent Payments Protocol（AP2）」を<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/?hl=en">発表</a>した。AP2はオープンソースで提供され、既存の決済インフラを補完することで、AIエージェントによる取引の安全性と信頼性を確保することを目的としている。</p>
@@ -299,23 +320,6 @@
 <p>背景には、施設の老朽化や担い手不足といった全国共通の課題がある。川崎市上下水道局は「デジタル技術を活用した効率的かつ効果的な維持管理が求められている」と説明。今回の共同研究を通じて、従来の点検・調査に依存しない新たな維持管理体制の構築を目指す。</p>
 ]]></description>
       <pubDate>Tue, 16 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
-      <link>https://ledge.ai/articles/bytedance_seedream4_release_4k_nano_banana</link>
-      <description><![CDATA[<p>ByteDanceは2025年9月9日、画像生成と編集機能を統合した新モデル「Seedream 4.0」を<a href="https://seed.bytedance.com/en/seedream4_0">公開</a>した。同モデルは最大4K解像度での出力に対応し、参照画像を活用した一貫性のある生成や複雑なマルチモーダルタスクへの対応を強化している。</p>
-<p>Seedream 4.0は、統一アーキテクチャを採用し、画像生成（text-to-image）と画像編集を単一モデル内で実現。知識を要する生成や高度な推論、複数参照画像による整合性保持といった高度な処理に対応できるとしている。また、推論速度の向上により、従来より高速に高解像度の画像を生成可能となった。</p>
-<p><strong>Seedream 4.0による人物生成の例。異なる視点から自然な一貫性を保った出力が得られている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_images_from_different_views_d9f1b895f7/three_images_from_different_views_d9f1b895f7.jpg" alt="three images from different views.jpg" /></p>
-<p>利用シナリオとしては、広告やデザイン制作、キャラクター開発などのプロフェッショナル用途を想定。バッチ処理機能により多数の画像を一度に生成でき、制作現場での効率化が期待される。</p>
-<p><strong>同じ入力から写実風、アニメ風、イラスト風など多様なスタイルへ変換した出力例。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/seedream4_0_3_4a089d4755/seedream4_0_3_4a089d4755.jpg" alt="seedream4-0-3.jpg" /></p>
-<p>さらにByteDanceは、内部ベンチマーク「MagicBench」において、Google DeepMindが提供する最新の画像生成モデル「Gemini 2.5 Flash Image（通称Nano Banana）」を上回ったと主張している。特にプロンプト忠実度、出力の整合性、美的評価において優れた結果を示したとされる。</p>
-<p><strong>MagicBenchにおける比較評価。Seedream 4.0（青色）は複数項目で他モデルを上回ったとされる。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
-<p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
-]]></description>
-      <pubDate>Tue, 16 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
