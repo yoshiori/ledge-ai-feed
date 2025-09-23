@@ -317,45 +317,6 @@
       <pubDate>Thu, 18 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
-      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
-<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
-<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
-<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
-<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rolling Stone／Billboard発行元、Googleを提訴　「AI要約が収益奪う」と主張</title>
-      <link>https://ledge.ai/articles/pmc_google_ai_overviews_lawsuit</link>
-      <description><![CDATA[<p>米国の大手出版社 Penske Media Corporation（PMC）は2025年9月12日、米GoogleをワシントンD.C.連邦地方裁判所に提訴した。PMCは訴状で、Google検索の新機能「AI Overviews（日本では『AIによる概要』）」が、自社の記事を許可なく要約し、ユーザーを検索結果内で満足させることで、サイトへの訪問者数や広告収益を大幅に減少させていると主張している。</p>
-<p>PMCはRolling Stone、Billboard、Varietyなど複数の主要メディアを傘下に持つ。訴状によれば、Googleは独占的な検索シェアを利用して「出版社のコンテンツを無断でAI要約に組み込み、読者を自社サービス内に留め置いている」と指摘。こうした「ゼロクリック」現象によって、PMCのデジタル収益はピーク時から3分の1以上失われたとしている。</p>
-<p>訴状では具体例として、Rolling Stoneがオジー・オズボーン氏の死去翌日（2025年7月23日）に公開した記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」が挙げられている。記者のKory Grow氏が20年以上にわたり20回以上のインタビューを重ねて得た独自の洞察をまとめた内容だが、Googleの「AIによる概要」が検索結果に要約を表示することで、ユーザーが記事本文を訪れずに済んでしまい、収益機会が奪われていると指摘している。</p>
-<p><strong>■ 下図：訴状に添付されたRolling Stone記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」（2025年7月23日公開）のスクリーンショット</strong> --記事ページには広告枠が複数配置されており、閲覧数が収益に直結する仕組みが示されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rolling_stones_ozzy_336b04e7bc/rolling_stones_ozzy_336b04e7bc.jpg" alt="rolling stones ozzy.jpg" /></p>
-<p><a href="https://www.reuters.com/sustainability/boards-policy-regulation/rolling-stone-billboard-owner-penske-sues-google-over-ai-overviews-2025-09-14/">Reuters</a>の報道によると、Googleは「根拠のない主張だ」と反論しており、AI要約は検索体験を改善し、むしろ多くのサイトを利用者が発見する機会を増やしていると説明している。Googleはまた「毎日数十億件のクリックをウェブサイトに送っている」と強調した。</p>
-<p>出版業界では、教育サービス大手Cheggなど他の事業者もGoogleのAI要約に対して法的措置を取っており、AIをめぐる検索事業者とコンテンツ提供者の対立は一層激化している。今回のPMCによる訴訟は、その帰趨が業界全体の収益モデルや、AIと著作権の関係を左右する重要な試金石となりそうだ。</p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>石丸伸二氏設立の「再生の道」、新代表に京大院生の奥村光貴氏が就任　実装・導入時期未定の「AIペンギン」が党の意思決定担うと発表</title>
-      <link>https://ledge.ai/articles/saisei_no_michi_new_leader_ai_penguin</link>
-      <description><![CDATA[<p>地域政党「再生の道」は9月16日、東京都内で記者会見を開き、新代表の人事と今後の運営方針を<a href="https://x.com/saisei_pr/status/1967863931466391681">発表</a>した。</p>
-<p>京都大学大学院で教育情報学を専攻する奥村光貴氏が代表に就任する一方、奥村氏自身は自らを「代表補佐」と位置づけ、党の意思決定を人工知能「AIペンギン」に段階的に委ねていく方針を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saisei_no_michi_ff8e53ea70/saisei_no_michi_ff8e53ea70.jpg" alt="saisei no michi.jpg" /></p>
-<p>会見ではまず、石丸伸二前代表が1月の設立からの活動を振り返り、16日付で代表を退任すると表明。今後の政治活動については、首長選を中心に出馬の可能性を残す考えを示した。</p>
-<p>新体制について奥村氏は、「なぜ自分が“補佐”なのか――新代表はAIになる」と述べ、AIペンギンが党内の意思決定を担う運用を段階的に導入すると説明。初期はリソース配分など限定領域から始め、運用に不備が生じた場合は専門家による法的チェック（リーガルゲート）や、党員過半数による再決定で是正するフローを検討しているという。政策選定そのものは一元化せず、「再生の道」を幅広い参加を促すプラットフォームとして運営する方針も示した。</p>
-<p>奥村氏は同日、X上で「新代表補佐の拝命」と「真の代表はAIペンギン」であることを改めて発信し、AGI（汎用人工知能）の到来を見据えた“民主主義とAIの共存”の実験を進める考えを示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/okumura_ai_penguin_252350508b/okumura_ai_penguin_252350508b.png" alt="okumura ai penguin.png" /></p>
-<p>@<a href="https://www.youtube.com/watch?v=umIqneAbwlQ">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
       <link>https://ledge.ai/articles/albania_ai_minister_diella</link>
       <description><![CDATA[<p>アルバニア政府がAI（によって生成されたボット「ディエラ（Diella）」を公共入札を担当する大臣に任命したことを2025年9月11日に<a href="https://www.reuters.com/technology/albania-appoints-ai-bot-minister-tackle-corruption-2025-09-11/">ロイター</a>など複数の海外メディアが報じた。</p>
@@ -366,7 +327,19 @@
 <p>一方で、AI大臣の実効性や透明性については懸念も残る。入札結果に対する異議申立ての制度や、アルゴリズムが不正に操作されるリスクへの対応策などは明らかにされていない。専門家からは「AIによる完全な汚職防止は難しい」との指摘もある。</p>
 <p>アルバニアは2030年までの欧州連合（EU）加盟を目指しており、反汚職は主要な加盟条件の一つとされる。AI大臣の導入は、同国が汚職対策を進める姿勢を国際社会に示す試みといえる。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
+      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
+<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
+<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
+<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
+<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ByteDance、画像生成AI「Seedream 4.0」を正式リリース — 生成と編集を統合、4K対応でプロ用途を強化、Nano Bananaを上回ると主張</title>
@@ -383,7 +356,7 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/collage_seedream4_0_57c7a59203/collage_seedream4_0_57c7a59203.jpg" alt="collage seedream4-0.jpg" /></p>
 <p>Seedream 4.0の投入により、画像生成AI分野ではGoogleやOpenAIを含む大手企業との競争がさらに激化する見通しだ。今後は、外部評価や実利用に基づく検証を通じて、その実力が問われることになる。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリッヒ工科大学、MBTI性格診断をLLMに適用──「感情型」は協力的、「論理型」は競争的に</title>
@@ -419,7 +392,7 @@
 <h2>今後の展望</h2>
 <p>研究チームは、この成果が人間との協働に適したAIエージェント設計や、仮想社会シミュレーションに役立つ可能性を指摘している。論文では「心理的プロファイルを組み込むことで、より信頼性の高い集団行動の再現や、人間社会に近い意思決定モデルの開発につながる」と結論づけている。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
@@ -431,7 +404,7 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
 <p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
@@ -443,7 +416,7 @@
 <p>発表にあわせて、9月11日にはATRの実験棟で見学会も行われ、関係者に成果が<a href="https://bicr.atr.jp/bri/">公開</a>された。</p>
 <p>今回の研究は、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の支援事業の一環として実施された。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
@@ -466,7 +439,7 @@
 <p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
 <p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
@@ -598,39 +571,7 @@ Zhan (Cliff) Chen / 陳 湛</p>
 ld_media_sales@ledge.co.jp
 （担当：Ledge.ai Webinar SP 事務局）</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
-      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
-      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
-<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
-<h2>製品概要</h2>
-<ul>
-<li>名称：「Meta Ray-Ban Display」</li>
-<li>発表日：2025年9月18日</li>
-<li>発売日：米国で9月30日より</li>
-<li>価格：799ドル（Meta Neural Band 同梱）</li>
-<li>提供カラー：Black、Sand</li>
-<li>レンズ：Transitions®レンズ</li>
-</ul>
-<h2>主な特徴</h2>
-<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
-<h2>Neural Band との連携</h2>
-<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
-<h2>利用時間と充電</h2>
-<ul>
-<li>グラス本体：通常使用で約6時間</li>
-<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
-<li>Neural Band：約18時間稼働</li>
-</ul>
-<h2>展開スケジュール</h2>
-<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
-<h2>今後の展望</h2>
-<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
-]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
@@ -646,7 +587,7 @@ ld_media_sales@ledge.co.jp
 <h2>今後の展望</h2>
 <p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
@@ -679,6 +620,65 @@ ld_media_sales@ledge.co.jp
 </ul>
 <p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
 <p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rolling Stone／Billboard発行元、Googleを提訴　「AI要約が収益奪う」と主張</title>
+      <link>https://ledge.ai/articles/pmc_google_ai_overviews_lawsuit</link>
+      <description><![CDATA[<p>米国の大手出版社 Penske Media Corporation（PMC）は2025年9月12日、米GoogleをワシントンD.C.連邦地方裁判所に提訴した。PMCは訴状で、Google検索の新機能「AI Overviews（日本では『AIによる概要』）」が、自社の記事を許可なく要約し、ユーザーを検索結果内で満足させることで、サイトへの訪問者数や広告収益を大幅に減少させていると主張している。</p>
+<p>PMCはRolling Stone、Billboard、Varietyなど複数の主要メディアを傘下に持つ。訴状によれば、Googleは独占的な検索シェアを利用して「出版社のコンテンツを無断でAI要約に組み込み、読者を自社サービス内に留め置いている」と指摘。こうした「ゼロクリック」現象によって、PMCのデジタル収益はピーク時から3分の1以上失われたとしている。</p>
+<p>訴状では具体例として、Rolling Stoneがオジー・オズボーン氏の死去翌日（2025年7月23日）に公開した記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」が挙げられている。記者のKory Grow氏が20年以上にわたり20回以上のインタビューを重ねて得た独自の洞察をまとめた内容だが、Googleの「AIによる概要」が検索結果に要約を表示することで、ユーザーが記事本文を訪れずに済んでしまい、収益機会が奪われていると指摘している。</p>
+<p><strong>■ 下図：訴状に添付されたRolling Stone記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」（2025年7月23日公開）のスクリーンショット</strong> --記事ページには広告枠が複数配置されており、閲覧数が収益に直結する仕組みが示されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rolling_stones_ozzy_336b04e7bc/rolling_stones_ozzy_336b04e7bc.jpg" alt="rolling stones ozzy.jpg" /></p>
+<p><a href="https://www.reuters.com/sustainability/boards-policy-regulation/rolling-stone-billboard-owner-penske-sues-google-over-ai-overviews-2025-09-14/">Reuters</a>の報道によると、Googleは「根拠のない主張だ」と反論しており、AI要約は検索体験を改善し、むしろ多くのサイトを利用者が発見する機会を増やしていると説明している。Googleはまた「毎日数十億件のクリックをウェブサイトに送っている」と強調した。</p>
+<p>出版業界では、教育サービス大手Cheggなど他の事業者もGoogleのAI要約に対して法的措置を取っており、AIをめぐる検索事業者とコンテンツ提供者の対立は一層激化している。今回のPMCによる訴訟は、その帰趨が業界全体の収益モデルや、AIと著作権の関係を左右する重要な試金石となりそうだ。</p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>石丸伸二氏設立の「再生の道」、新代表に京大院生の奥村光貴氏が就任　実装・導入時期未定の「AIペンギン」が党の意思決定担うと発表</title>
+      <link>https://ledge.ai/articles/saisei_no_michi_new_leader_ai_penguin</link>
+      <description><![CDATA[<p>地域政党「再生の道」は9月16日、東京都内で記者会見を開き、新代表の人事と今後の運営方針を<a href="https://x.com/saisei_pr/status/1967863931466391681">発表</a>した。</p>
+<p>京都大学大学院で教育情報学を専攻する奥村光貴氏が代表に就任する一方、奥村氏自身は自らを「代表補佐」と位置づけ、党の意思決定を人工知能「AIペンギン」に段階的に委ねていく方針を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saisei_no_michi_ff8e53ea70/saisei_no_michi_ff8e53ea70.jpg" alt="saisei no michi.jpg" /></p>
+<p>会見ではまず、石丸伸二前代表が1月の設立からの活動を振り返り、16日付で代表を退任すると表明。今後の政治活動については、首長選を中心に出馬の可能性を残す考えを示した。</p>
+<p>新体制について奥村氏は、「なぜ自分が“補佐”なのか――新代表はAIになる」と述べ、AIペンギンが党内の意思決定を担う運用を段階的に導入すると説明。初期はリソース配分など限定領域から始め、運用に不備が生じた場合は専門家による法的チェック（リーガルゲート）や、党員過半数による再決定で是正するフローを検討しているという。政策選定そのものは一元化せず、「再生の道」を幅広い参加を促すプラットフォームとして運営する方針も示した。</p>
+<p>奥村氏は同日、X上で「新代表補佐の拝命」と「真の代表はAIペンギン」であることを改めて発信し、AGI（汎用人工知能）の到来を見据えた“民主主義とAIの共存”の実験を進める考えを示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/okumura_ai_penguin_252350508b/okumura_ai_penguin_252350508b.png" alt="okumura ai penguin.png" /></p>
+<p>@<a href="https://www.youtube.com/watch?v=umIqneAbwlQ">YouTube</a></p>
+]]></description>
+      <pubDate>Thu, 18 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
+      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
+      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
+<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
+<h2>製品概要</h2>
+<ul>
+<li>名称：「Meta Ray-Ban Display」</li>
+<li>発表日：2025年9月18日</li>
+<li>発売日：米国で9月30日より</li>
+<li>価格：799ドル（Meta Neural Band 同梱）</li>
+<li>提供カラー：Black、Sand</li>
+<li>レンズ：Transitions®レンズ</li>
+</ul>
+<h2>主な特徴</h2>
+<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
+<h2>Neural Band との連携</h2>
+<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
+<h2>利用時間と充電</h2>
+<ul>
+<li>グラス本体：通常使用で約6時間</li>
+<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
+<li>Neural Band：約18時間稼働</li>
+</ul>
+<h2>展開スケジュール</h2>
+<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
+<h2>今後の展望</h2>
+<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
     </item>
