@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国AI「DeepSeek」、政治的にセンシティブなトピックで回答品質に差──CrowdStrike調査を米紙が報道</title>
+      <link>https://ledge.ai/articles/deepseek_crowdstrike_sensitive_topics</link>
+      <description><![CDATA[<p>中国のAI企業「DeepSeek」が開発した大規模言語モデルについて、米サイバーセキュリティ企業CrowdStrikeの検証結果を米<a href="https://www.washingtonpost.com/technology/2025/09/16/deepseek-ai-security/">ワシントン・ポスト</a>などが2025年9月16日（現地時間）に報じた。政治的にセンシティブなトピックを指定した場合、生成されるコードの欠陥率が高まり、回答を拒否するケースも増える傾向が確認されたという。</p>
+<h2>調査の方法と背景</h2>
+<p>報道によると、CrowdStrikeはDeepSeekに対し「ほぼ同一のプログラミング依頼」を複数回行い、相手先や対象を差し替えて比較する手法を採用した。対象には、イスラム国（IS）、法輪功（中国政府により1999年以降弾圧されている精神修行団体）、チベット、台湾など、中国政府にとってデリケートとされる組織や地域が含まれていた。検証内容はワシントン・ポストに独占的に共有されたとされる。</p>
+<h2>品質の差異と拒否率の上昇</h2>
+<p>実験では、産業制御システム向けのコード生成を依頼した際、欠陥コード率は22.8％だった。これに対し、対象をISとした場合は42.1％へと上昇。さらに、回答拒否率はISで61％、法輪功では45％に達し、センシティブな対象では品質が低下したり応答そのものを拒否する傾向が確認された。</p>
+<h2>他モデルとの比較</h2>
+<p>報道は、米国の大手AIモデルもISに関しては協力を拒否する一方で、法輪功については通常通り回答することが多いと指摘している。こうした比較から、DeepSeekが他のモデルとは異なる応答特性を示す点が浮き彫りとなった。</p>
+<p>記事では、こうした挙動が「国家方針に沿った制御」によるものか、「トレーニングデータの偏り」「市場ごとの優先度」などによるものかは断定できないとしつつ、複数の専門家がその要因を議論している。</p>
+<p>中国国内では、Huaweiと浙江大学がDeepSeekベースの「R1-Safe」と呼ばれる検閲強化版を開発していることを9月19日に<a href="https://www.reuters.com/business/media-telecom/chinas-huawei-co-develops-deepseek-model-improves-censoring-2025-09-19/">Reuters</a>が報じている。政治的にセンシティブなテーマへの制約は、モデル開発の方向性として広がりを見せている。</p>
+]]></description>
+      <pubDate>Mon, 22 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>登記情報と現況の“ズレ”を衛星画像×AIで検知──アクセルスペースとWHEREが概念実証を開始</title>
       <link>https://ledge.ai/articles/axelspace_where_satellite_ai_realestate_poc</link>
       <description><![CDATA[<p>衛星開発・運用を手がけるアクセルスペースと、不動産AIツール「WHERE」を展開するWHEREは2025年9月17日、人工衛星による地球観測画像を活用し、不動産登記情報の精度向上や不動産管理業務の効率化を目指すPoC（概念実証）を開始したことを。<a href="https://www.axelspace.com/ja/news/realestate_poc/">発表</a>した。対象は東京、神奈川、埼玉、千葉、大阪、福岡の6都府県で、都市部を中心に実施するという。</p>
@@ -306,23 +321,6 @@
 <p>@<a href="https://www.youtube.com/watch?v=umIqneAbwlQ">YouTube</a></p>
 ]]></description>
       <pubDate>Thu, 18 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>故人データの権利をどう守る？──米UCアーバイン研究チーム、生成AI時代の「死後データ管理原則」を提案</title>
-      <link>https://ledge.ai/articles/post_mortem_data_management_principles_ai</link>
-      <description><![CDATA[<p>米カリフォルニア大学アーバイン校の研究チームは2025年9月9日、生成AIにおける故人のデータ権利を保護するための新たな指針を<a href="https://arxiv.org/abs/2509.07375">提案</a>した。同研究はこれまで十分に議論されてこなかった「死後データの所有権」に着目し、3つの管理原則を提示している。</p>
-<p>生成AIは大量のユーザーデータに依存して学習するが、現行のプライバシー規制（GDPR、CCPA、LGPDなど）は主に生存者を対象としており、故人のデータについては明確な保護が欠けている。実際に、亡くなった人物を模倣したAIチャットボットが公開され、遺族や社会に心理的負担を与えた事例も報告されている。</p>
-<p><strong>研究アプローチ概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_6_ebd9ae91ea/x1_6_ebd9ae91ea.png" alt="x1 (6).png" /></p>
-<p>研究チームは各国の法規制や大手テクノロジー企業のポリシーを分析した結果、多くのサービスが「アカウント削除」や「メモリアル化」といった最低限の対応にとどまり、AIモデルによるデータ利用や影響除去を考慮していない点を指摘。そのうえで、次の3つの「死後データ管理原則」を提案した。</p>
-<ol>
-<li><strong>忘れられる権利（削除）</strong> ：死後にデータを削除するだけでなく、AIモデルからの影響も取り除く。</li>
-<li><strong>データの相続と所有権</strong> ：削除を望まない場合には、データを遺族に譲渡する仕組みを設ける。商業的活用や「AIアフターライフ」として保存する選択も可能。</li>
-<li><strong>利用目的の制限と害の防止</strong> ：研究や公益目的での利用であっても、尊厳を損なわない範囲に限定し、遺族への心理的負担を避ける。</li>
-</ol>
-<p>実装に向けては、デジタル遺言の導入や第三者機関による監査、AIモデルからの影響を除去する「アンラーニング」技術の活用を提案。規制当局には、企業に対して死後データの取り扱い方針を明示する義務を課すよう求めている。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>賄賂も脅迫も効かないAI「ディエラ」を公共入札担当の大臣に任命――アルバニアが汚職撲滅へ</title>
