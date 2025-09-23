@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
+      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
+      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。米研究チームが2025年8月20日に公開した<a href="https://arxiv.org/abs/2508.14869">論文</a>で報告したもので、言語処理や計画・思考に関わる領域の結合の強さが、LLMとのやり取りの熟達度と関連していることが示された。</p>
+<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
+<p>研究チームは、参加者にLLMに対して効果的に課題を伝えるよう求め、その際の脳活動をfMRI（機能的磁気共鳴画像法）で測定した。LLMへの指示が上手な人では、左中側頭回や左前頭極といった領域で機能的結合が強化されており、言語理解と計画的思考をつなぐ脳ネットワークが効率的に働いていたという。</p>
+<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
+<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
+<h2>人とAIの協働に関する新しい視点</h2>
+<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
+<h2>今後の展望</h2>
+<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
+]]></description>
+      <pubDate>Tue, 23 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI活用の脳深部刺激で「慢性的な痛み」を軽減──カリフォルニア大学サンフランシスコ校研究チームが発表</title>
       <link>https://ledge.ai/articles/ai_brain_stimulation_chronic_pain_relief_ucsf</link>
       <description><![CDATA[<p>カリフォルニア大学サンフランシスコ校（UCSF）を中心とする研究チームは、AIを活用して患者ごとに最適化した脳深部刺激（DBS）を行い、慢性的な痛みを軽減できる可能性を示した。成果はプレプリント論文として2025年8月13日に<a href="https://www.medrxiv.org/content/10.1101/2025.08.11.25333010v1">公開</a>されている。</p>
