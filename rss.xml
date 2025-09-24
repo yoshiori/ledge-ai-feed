@@ -81,9 +81,16 @@
     <item>
       <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
       <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
-      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。米研究チームが2025年8月20日に公開した<a href="https://arxiv.org/abs/2508.14869">論文</a>で報告したもので、言語処理や計画・思考に関わる領域の結合の強さが、LLMとのやり取りの熟達度と関連していることが示された。</p>
+      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
 <h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
-<p>研究チームは、参加者にLLMに対して効果的に課題を伝えるよう求め、その際の脳活動をfMRI（機能的磁気共鳴画像法）で測定した。LLMへの指示が上手な人では、左中側頭回や左前頭極といった領域で機能的結合が強化されており、言語理解と計画的思考をつなぐ脳ネットワークが効率的に働いていたという。</p>
+<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
+<h2>主な発見</h2>
+<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
+<ul>
+<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
+<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
+<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
+</ul>
 <p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
 <p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
