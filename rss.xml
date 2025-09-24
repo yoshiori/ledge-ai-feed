@@ -5,6 +5,41 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
+      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
+      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
+<h2>問題の発生と調査開始</h2>
+<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
+<h2>判明した3つのバグ</h2>
+<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
+<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
+<ul>
+<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
+<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
+<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
+</ul>
+<h3>2. 出力破損（Output Corruption）</h3>
+<ul>
+<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
+<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
+<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
+</ul>
+<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
+<ul>
+<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
+<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
+<h2>修正と再発防止策</h2>
+<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
+<h2>今後の方針</h2>
+<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Wed, 24 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Gartner、世界のAI支出が2025年に1.5兆ドル、2026年には2兆ドル超に達すると予測</title>
       <link>https://ledge.ai/articles/gartner_ai_spending_2025_2026_forecast</link>
       <description><![CDATA[<p>米調査会社Gartnerは2025年9月17日、世界のAI関連支出が2025年に1兆5,000億ドル（約220兆円）に達し、2026年には2兆ドル（約290兆円）を突破するとの最新予測を<a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025">発表</a>した。2024年の9,879億ドルから急速に拡大し、わずか2年で2倍以上に伸びる見通しだ。</p>
@@ -651,20 +686,6 @@ ld_media_sales@ledge.co.jp
 <p>出版業界では、教育サービス大手Cheggなど他の事業者もGoogleのAI要約に対して法的措置を取っており、AIをめぐる検索事業者とコンテンツ提供者の対立は一層激化している。今回のPMCによる訴訟は、その帰趨が業界全体の収益モデルや、AIと著作権の関係を左右する重要な試金石となりそうだ。</p>
 ]]></description>
       <pubDate>Thu, 18 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>石丸伸二氏設立の「再生の道」、新代表に京大院生の奥村光貴氏が就任　実装・導入時期未定の「AIペンギン」が党の意思決定担うと発表</title>
-      <link>https://ledge.ai/articles/saisei_no_michi_new_leader_ai_penguin</link>
-      <description><![CDATA[<p>地域政党「再生の道」は9月16日、東京都内で記者会見を開き、新代表の人事と今後の運営方針を<a href="https://x.com/saisei_pr/status/1967863931466391681">発表</a>した。</p>
-<p>京都大学大学院で教育情報学を専攻する奥村光貴氏が代表に就任する一方、奥村氏自身は自らを「代表補佐」と位置づけ、党の意思決定を人工知能「AIペンギン」に段階的に委ねていく方針を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saisei_no_michi_ff8e53ea70/saisei_no_michi_ff8e53ea70.jpg" alt="saisei no michi.jpg" /></p>
-<p>会見ではまず、石丸伸二前代表が1月の設立からの活動を振り返り、16日付で代表を退任すると表明。今後の政治活動については、首長選を中心に出馬の可能性を残す考えを示した。</p>
-<p>新体制について奥村氏は、「なぜ自分が“補佐”なのか――新代表はAIになる」と述べ、AIペンギンが党内の意思決定を担う運用を段階的に導入すると説明。初期はリソース配分など限定領域から始め、運用に不備が生じた場合は専門家による法的チェック（リーガルゲート）や、党員過半数による再決定で是正するフローを検討しているという。政策選定そのものは一元化せず、「再生の道」を幅広い参加を促すプラットフォームとして運営する方針も示した。</p>
-<p>奥村氏は同日、X上で「新代表補佐の拝命」と「真の代表はAIペンギン」であることを改めて発信し、AGI（汎用人工知能）の到来を見据えた“民主主義とAIの共存”の実験を進める考えを示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/okumura_ai_penguin_252350508b/okumura_ai_penguin_252350508b.png" alt="okumura ai penguin.png" /></p>
-<p>@<a href="https://www.youtube.com/watch?v=umIqneAbwlQ">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
