@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ロボットと暮らす住宅を初公開──リビングロボットと藤田医科大、生活支援ロボットを導入した“人協調型ロボティクス住宅”を発表</title>
+      <link>https://ledge.ai/articles/living_robot_fujita_robotech_house</link>
+      <description><![CDATA[<p>リビングロボットは2025年9月18日、藤田医科大学リハビリテーション部門と共同開発した生活支援ロボットやシステムを導入した「人協調型ロボティクス住宅」を<a href="https://prtimes.jp/main/html/rd/p/000000057.000094064.html">発表</a>した。名古屋市熱田区のサンヨーホームズ株式会社の住宅展示場に設置され、9月20日から特定日に一般公開が行われる。</p>
+<h2>社会課題への対応として開発</h2>
+<p>同社は、少子高齢化や介護人材不足といった社会課題を背景に、人とロボットが協調する住まいの新たな形を提示。今回の取り組みは、内閣府の戦略的イノベーション創造プログラム（SIP）「人協調型ロボティクスの拡大に向けた基盤技術・ルールの整備」に採択された研究の一環でもある。</p>
+<p>展示住宅は、名古屋市熱田区の「神宮東 中日ハウジングセンター」内にあるサンヨーホームズの住宅展示場に設置された。一般公開は2025年9月20日（土）、21日（日）、27日（土）、28日（日）の4日間が予定されている。</p>
+<h2>生活を支えるロボットとシステム</h2>
+<p>住宅には、以下の生活支援ロボットやシステムが導入されている。</p>
+<ul>
+<li><strong>見守りロボット「WeeGo（ウィーゴ）」</strong> ：小型で会話機能を持ち、居住者に気づきを促す。</li>
+<li><strong>メカトロメイトQ</strong> ：移動や通話機能を備えたロボット。</li>
+<li><strong>移動・移乗支援ロボット</strong> ：車いす型で、住宅内の移動や乗り移りをサポート。</li>
+<li><strong>センサー群</strong> ：生活・活動データ（運動、睡眠など）や住環境データ（温湿度、CO₂濃度、照度、窓開閉など）を収集。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_9f5bef2d74/sub1_9f5bef2d74.jpg" alt="sub1.jpg" /></p>
+<p>これらの仕組みにより、熱中症予防や転倒時の通報、侵入者検知など、安全で快適な暮らしを支援する機能が提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_06affc0937/sub2_06affc0937.jpg" alt="sub2.jpg" /></p>
+<h2>今後の展望</h2>
+<p>リビングロボットは今回の公開を通じて、一般生活者が新しい住環境を体験する場を提供するとともに、社会実装に向けた実証を重ねていく方針だ。</p>
+]]></description>
+      <pubDate>Wed, 24 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
       <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
       <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
@@ -673,19 +696,6 @@ ld_media_sales@ledge.co.jp
 <p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
 ]]></description>
       <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rolling Stone／Billboard発行元、Googleを提訴　「AI要約が収益奪う」と主張</title>
-      <link>https://ledge.ai/articles/pmc_google_ai_overviews_lawsuit</link>
-      <description><![CDATA[<p>米国の大手出版社 Penske Media Corporation（PMC）は2025年9月12日、米GoogleをワシントンD.C.連邦地方裁判所に提訴した。PMCは訴状で、Google検索の新機能「AI Overviews（日本では『AIによる概要』）」が、自社の記事を許可なく要約し、ユーザーを検索結果内で満足させることで、サイトへの訪問者数や広告収益を大幅に減少させていると主張している。</p>
-<p>PMCはRolling Stone、Billboard、Varietyなど複数の主要メディアを傘下に持つ。訴状によれば、Googleは独占的な検索シェアを利用して「出版社のコンテンツを無断でAI要約に組み込み、読者を自社サービス内に留め置いている」と指摘。こうした「ゼロクリック」現象によって、PMCのデジタル収益はピーク時から3分の1以上失われたとしている。</p>
-<p>訴状では具体例として、Rolling Stoneがオジー・オズボーン氏の死去翌日（2025年7月23日）に公開した記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」が挙げられている。記者のKory Grow氏が20年以上にわたり20回以上のインタビューを重ねて得た独自の洞察をまとめた内容だが、Googleの「AIによる概要」が検索結果に要約を表示することで、ユーザーが記事本文を訪れずに済んでしまい、収益機会が奪われていると指摘している。</p>
-<p><strong>■ 下図：訴状に添付されたRolling Stone記事「Ozzy and Me: How I Got to Know the Real Ozzy Osbourne」（2025年7月23日公開）のスクリーンショット</strong> --記事ページには広告枠が複数配置されており、閲覧数が収益に直結する仕組みが示されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rolling_stones_ozzy_336b04e7bc/rolling_stones_ozzy_336b04e7bc.jpg" alt="rolling stones ozzy.jpg" /></p>
-<p><a href="https://www.reuters.com/sustainability/boards-policy-regulation/rolling-stone-billboard-owner-penske-sues-google-over-ai-overviews-2025-09-14/">Reuters</a>の報道によると、Googleは「根拠のない主張だ」と反論しており、AI要約は検索体験を改善し、むしろ多くのサイトを利用者が発見する機会を増やしていると説明している。Googleはまた「毎日数十億件のクリックをウェブサイトに送っている」と強調した。</p>
-<p>出版業界では、教育サービス大手Cheggなど他の事業者もGoogleのAI要約に対して法的措置を取っており、AIをめぐる検索事業者とコンテンツ提供者の対立は一層激化している。今回のPMCによる訴訟は、その帰趨が業界全体の収益モデルや、AIと著作権の関係を左右する重要な試金石となりそうだ。</p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
