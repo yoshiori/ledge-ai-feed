@@ -364,23 +364,6 @@
       <pubDate>Sat, 20 Sep 2025 04:50:01 GMT</pubDate>
     </item>
     <item>
-      <title>さくらインターネット、PFN・NICTと協業　日本社会に調和する生成AIエコシステムを目指す</title>
-      <link>https://ledge.ai/articles/sakura_pfn_nict_ai_ecosystem</link>
-      <description><![CDATA[<p>さくらインターネット、Preferred Networks（PFN）、情報通信研究機構（NICT）の3者は2025年9月18日、安心安全で日本社会と調和する国産生成AIのエコシステム構築に向け、基本合意を締結したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/09/18/1968220920/">発表</a>した。2026年春までに大規模言語モデル（LLM）の共同開発を進め、完全に国内で完結する生成AI基盤の提供を目指す。</p>
-<p>生成AIの活用が急速に広がる一方で、誤情報の拡散やヘイトスピーチの生成、制御の難しさといったリスクも指摘されている。こうした課題に対応するため、三者は日本の文化や価値観、法制度に即した生成AIを開発し、安心して利用できる国産エコシステムの構築を目指すとしている。</p>
-<h2>三者の役割</h2>
-<ul>
-<li><strong>Preferred Networks（PFN）</strong> ：PLaMo™ 2.0の後継となるLLM群を、合成データや日本語Webデータを用いて開発する。日本語性能や文化的適合性を重視する。</li>
-<li><strong>さくらインターネット</strong> ：フルマネージド型基盤「さくらの生成AIプラットフォーム」に共同開発LLMを搭載し、国内のみで完結する生成AI環境を提供する。商用利用や検証も進める。</li>
-<li><strong>NICT</strong> ：700億ページを超える日本語Webデータなどの既存資源を活用し、動的評価基盤の整備やAI複合体研究を推進する。出力の信頼性や文化的適合性の評価を担う。</li>
-</ul>
-<h2>今後の展望</h2>
-<p>2026年春に共同開発したLLM群の完成を目指し、その後はさくらインターネットのプラットフォーム上でサービス化や商用検証を進める予定。</p>
-<p>今回の合意により、国産生成AIの強化が期待される。三者はプライバシーや著作権保護、社会的信頼性を重視したエコシステムを構築し、行政・企業・教育機関など幅広い分野への展開を見据えている。</p>
-]]></description>
-      <pubDate>Fri, 19 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>アルバニア、AI閣僚「ディエラ」が議会で初演説──「人間の代わりではなく支援のために」</title>
       <link>https://ledge.ai/articles/albania_ai_minister_diella_first_speech</link>
       <description><![CDATA[<p>アルバニア議会で2025年9月18日、人工知能（AI）が生成した架空の人物「ディエラ（Diella）」が新閣僚として初めて<a href="https://www.facebook.com/share/v/1JNbUqNT5C/">演説</a>した。ディエラは「私は人間に取って代わるためではなく、支援するためにここにいる」と述べ、汚職撲滅と透明性確保に向けた役割を強調した。</p>
@@ -390,7 +373,7 @@
 <p>一方で、野党や専門家からは「違憲である」「説明責任が不十分」「誰がAIを制御するのか」といった懸念の声も上がっている。特に、AIによる意思決定の監視体制や、データバイアスや操作のリスクが指摘されており、議論は続きそうだ。</p>
 <p>アルバニア政府は今後、ディエラの運用を通じて透明性と効率性を高めつつ、法的・制度的な枠組みを整備していく考えだ。今回の取り組みは、世界初のAI閣僚任命として国際的にも注目されている。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
@@ -402,7 +385,43 @@
 <p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
 <p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
+      <link>https://ledge.ai/articles/context_engineering_deepmind</link>
+      <description><![CDATA[<p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https://www.philschmid.de/context-engineering">提起</a>した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
+<h2>背景：プロンプトエンジニアリングの行き詰まり</h2>
+<p>近年、生成AIの発展に伴い「プロンプトエンジニアリング」が注目を集めてきた。巧みなプロンプトを用いてモデルの挙動を調整し、より望ましい回答を得るという技法は、AI活用の第一歩として広く普及している。しかしシュミット氏は、現実の業務環境ではプロンプトの工夫だけで対応できない課題が増大しており、AIが真にユーザーの期待に応えるには、より包括的な情報構造の設計が必要だと指摘した。</p>
+<h2>コンテキストエンジニアリングとは</h2>
+<p>シュミット氏は、コンテキストエンジニアリングを「AIが必要とする情報を、適切な形式で、適切なタイミングに提供する仕組みの設計」と位置付ける。単にプロンプトを最適化するのではなく、モデルに取り込ませる知識、会話履歴、外部ツールとの連携などを含めて制御する総合的な技術領域だと説明する。</p>
+<p>具体的には、</p>
+<ul>
+<li>System Prompt（AIのシステム的前提）</li>
+<li>User Prompt（ユーザーからの指示）</li>
+<li>State/History（対話履歴や状態管理）</li>
+<li>Long-Term Memory（長期記憶としての知識）</li>
+<li>Retrieved Information（RAGなどによる検索情報）</li>
+<li>Tools/Structured Output（外部ツール連携・構造化出力）
+という6つの構成要素を「コンテキスト」として設計し、動的に最適化していく考え方を示している。</li>
+</ul>
+<h2>8割の失敗は文脈不足</h2>
+<p>シュミット氏は、AIエージェント開発における8割の失敗が「文脈情報の欠落」に起因すると述べている。たとえばカレンダー調整を行うAIエージェントの場合でも、ユーザーの希望や優先順位を把握しないまま単純な操作を試みることでエラーが起きやすいと説明している。</p>
+<h2>関連技術と支える手法</h2>
+<p>同氏は、コンテキストエンジニアリングを支える技術として、</p>
+<ul>
+<li>検索拡張生成（RAG）</li>
+<li>ベクトルデータベース検索</li>
+<li>ツール呼び出しのオーケストレーション</li>
+<li>会話履歴管理
+などの仕組みが必要だと述べている。これらを組み合わせることで、AIが常に適切な前提情報を取得しながら出力を行える環境を整備できるとする。</li>
+</ul>
+<h2>エンタープライズでの展開</h2>
+<p>シュミット氏は、コンテキストエンジニアリングがエンタープライズ分野においても重要であると述べている。社内ドメイン知識や業務ルールをAIが正しく理解できるようにするために、前提情報の整理と統合を体系的に設計する必要があるとしている。</p>
+<p>筆者プロフィール
+フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
+]]></description>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
@@ -414,7 +433,7 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
 <p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
@@ -426,7 +445,7 @@
 <p>発表にあわせて、9月11日にはATRの実験棟で見学会も行われ、関係者に成果が<a href="https://bicr.atr.jp/bri/">公開</a>された。</p>
 <p>今回の研究は、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の支援事業の一環として実施された。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
@@ -449,7 +468,7 @@
 <p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
 <p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/9/23 [TUE]LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
@@ -473,23 +492,39 @@
 <h2>今後の展望</h2>
 <p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
-      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
-      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
-<h2>AI時代の中核インフラへ</h2>
-<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
-<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
-<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
-<h2>性能と持続可能性の両立</h2>
-<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
+      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
+      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
+      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
+<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
+<h2>製品概要</h2>
+<ul>
+<li>名称：「Meta Ray-Ban Display」</li>
+<li>発表日：2025年9月18日</li>
+<li>発売日：米国で9月30日より</li>
+<li>価格：799ドル（Meta Neural Band 同梱）</li>
+<li>提供カラー：Black、Sand</li>
+<li>レンズ：Transitions®レンズ</li>
+</ul>
+<h2>主な特徴</h2>
+<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
+<h2>Neural Band との連携</h2>
+<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
+<h2>利用時間と充電</h2>
+<ul>
+<li>グラス本体：通常使用で約6時間</li>
+<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
+<li>Neural Band：約18時間稼働</li>
+</ul>
+<h2>展開スケジュール</h2>
+<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
 <h2>今後の展望</h2>
-<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
+<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
@@ -523,53 +558,40 @@
 <p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
 <p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
 ]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>石丸伸二氏設立の「再生の道」、新代表に京大院生の奥村光貴氏が就任　実装・導入時期未定の「AIペンギン」が党の意思決定担うと発表</title>
-      <link>https://ledge.ai/articles/saisei_no_michi_new_leader_ai_penguin</link>
-      <description><![CDATA[<p>地域政党「再生の道」は9月16日、東京都内で記者会見を開き、新代表の人事と今後の運営方針を<a href="https://x.com/saisei_pr/status/1967863931466391681">発表</a>した。</p>
-<p>京都大学大学院で教育情報学を専攻する奥村光貴氏が代表に就任する一方、奥村氏自身は自らを「代表補佐」と位置づけ、党の意思決定を人工知能「AIペンギン」に段階的に委ねていく方針を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saisei_no_michi_ff8e53ea70/saisei_no_michi_ff8e53ea70.jpg" alt="saisei no michi.jpg" /></p>
-<p>会見ではまず、石丸伸二前代表が1月の設立からの活動を振り返り、16日付で代表を退任すると表明。今後の政治活動については、首長選を中心に出馬の可能性を残す考えを示した。</p>
-<p>新体制について奥村氏は、「なぜ自分が“補佐”なのか――新代表はAIになる」と述べ、AIペンギンが党内の意思決定を担う運用を段階的に導入すると説明。初期はリソース配分など限定領域から始め、運用に不備が生じた場合は専門家による法的チェック（リーガルゲート）や、党員過半数による再決定で是正するフローを検討しているという。政策選定そのものは一元化せず、「再生の道」を幅広い参加を促すプラットフォームとして運営する方針も示した。</p>
-<p>奥村氏は同日、X上で「新代表補佐の拝命」と「真の代表はAIペンギン」であることを改めて発信し、AGI（汎用人工知能）の到来を見据えた“民主主義とAIの共存”の実験を進める考えを示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/okumura_ai_penguin_252350508b/okumura_ai_penguin_252350508b.png" alt="okumura ai penguin.png" /></p>
-<p>@<a href="https://www.youtube.com/watch?v=umIqneAbwlQ">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
-      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
-      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
-<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
-<h2>製品概要</h2>
+      <title>さくらインターネット、PFN・NICTと協業　日本社会に調和する生成AIエコシステムを目指す</title>
+      <link>https://ledge.ai/articles/sakura_pfn_nict_ai_ecosystem</link>
+      <description><![CDATA[<p>さくらインターネット、Preferred Networks（PFN）、情報通信研究機構（NICT）の3者は2025年9月18日、安心安全で日本社会と調和する国産生成AIのエコシステム構築に向け、基本合意を締結したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/09/18/1968220920/">発表</a>した。2026年春までに大規模言語モデル（LLM）の共同開発を進め、完全に国内で完結する生成AI基盤の提供を目指す。</p>
+<p>生成AIの活用が急速に広がる一方で、誤情報の拡散やヘイトスピーチの生成、制御の難しさといったリスクも指摘されている。こうした課題に対応するため、三者は日本の文化や価値観、法制度に即した生成AIを開発し、安心して利用できる国産エコシステムの構築を目指すとしている。</p>
+<h2>三者の役割</h2>
 <ul>
-<li>名称：「Meta Ray-Ban Display」</li>
-<li>発表日：2025年9月18日</li>
-<li>発売日：米国で9月30日より</li>
-<li>価格：799ドル（Meta Neural Band 同梱）</li>
-<li>提供カラー：Black、Sand</li>
-<li>レンズ：Transitions®レンズ</li>
+<li><strong>Preferred Networks（PFN）</strong> ：PLaMo™ 2.0の後継となるLLM群を、合成データや日本語Webデータを用いて開発する。日本語性能や文化的適合性を重視する。</li>
+<li><strong>さくらインターネット</strong> ：フルマネージド型基盤「さくらの生成AIプラットフォーム」に共同開発LLMを搭載し、国内のみで完結する生成AI環境を提供する。商用利用や検証も進める。</li>
+<li><strong>NICT</strong> ：700億ページを超える日本語Webデータなどの既存資源を活用し、動的評価基盤の整備やAI複合体研究を推進する。出力の信頼性や文化的適合性の評価を担う。</li>
 </ul>
-<h2>主な特徴</h2>
-<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
-<h2>Neural Band との連携</h2>
-<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
-<h2>利用時間と充電</h2>
-<ul>
-<li>グラス本体：通常使用で約6時間</li>
-<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
-<li>Neural Band：約18時間稼働</li>
-</ul>
-<h2>展開スケジュール</h2>
-<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
 <h2>今後の展望</h2>
-<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
+<p>2026年春に共同開発したLLM群の完成を目指し、その後はさくらインターネットのプラットフォーム上でサービス化や商用検証を進める予定。</p>
+<p>今回の合意により、国産生成AIの強化が期待される。三者はプライバシーや著作権保護、社会的信頼性を重視したエコシステムを構築し、行政・企業・教育機関など幅広い分野への展開を見据えている。</p>
 ]]></description>
-      <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Fri, 19 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
+      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
+      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
+<h2>AI時代の中核インフラへ</h2>
+<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
+<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
+<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
+<h2>性能と持続可能性の両立</h2>
+<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
+<h2>今後の展望</h2>
+<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
+]]></description>
+      <pubDate>Wed, 17 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/3 [WED]【日本HP・オートデスクが登壇！】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
