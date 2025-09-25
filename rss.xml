@@ -84,7 +84,7 @@
       <pubDate>Wed, 24 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
+      <title>ビジネス2025/9/24 [WED]Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
       <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
       <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
 <h2>問題の発生と調査開始</h2>
@@ -204,7 +204,7 @@
       <pubDate>Mon, 22 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIエージェント決済の新標準『Agent Payments Protocol（AP2）』を発表──安全性・説明責任・相互運用性を重視</title>
+      <title>ビジネス2025/9/21 [SUN]Google、AIエージェント決済の新標準『Agent Payments Protocol（AP2）』を発表──安全性・説明責任・相互運用性を重視</title>
       <link>https://ledge.ai/articles/google_agent_payments_protocol_ap2_announcement</link>
       <description><![CDATA[<p>Googleは2025年9月16日（現地時間）、AIエージェントが人間に代わって商品やサービスを購入する際の新たな標準規格「Agent Payments Protocol（AP2）」を<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/?hl=en">発表</a>した。AP2はオープンソースで提供され、既存の決済インフラを補完することで、AIエージェントによる取引の安全性と信頼性を確保することを目的としている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=yLTp3ic2j5c">YouTube</a></p>
@@ -283,7 +283,7 @@
       <pubDate>Sun, 21 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/9/21 [SUN]スタンフォード大学、動画から“もしも”を想像するAI世界モデル「PSI」を発表──動き・奥行き・物体境界を自律理解</title>
+      <title>スタンフォード大学、動画から“もしも”を想像するAI世界モデル「PSI」を発表──動き・奥行き・物体境界を自律理解</title>
       <link>https://ledge.ai/articles/stanford_ai_world_model_psi</link>
       <description><![CDATA[<p>スタンフォード大学の研究チームは2025年9月、AIが動画を観察するだけで「もしこの物体がこう動いたらどうなるか」といった仮想状況を想像し、動きや奥行き、物体境界を自律的に理解できる新しい世界モデル「Probabilistic Structure Integration（PSI）」を論文「World Modeling with Probabilistic Structure Integration」として<a href="https://arxiv.org/abs/2509.09737">発表</a>した。</p>
 <h2>PSI（Probabilistic Structure Integration）の仕組み</h2>
@@ -347,7 +347,7 @@
       <pubDate>Sat, 20 Sep 2025 04:50:01 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/19 [FRI]さくらインターネット、PFN・NICTと協業　日本社会に調和する生成AIエコシステムを目指す</title>
+      <title>さくらインターネット、PFN・NICTと協業　日本社会に調和する生成AIエコシステムを目指す</title>
       <link>https://ledge.ai/articles/sakura_pfn_nict_ai_ecosystem</link>
       <description><![CDATA[<p>さくらインターネット、Preferred Networks（PFN）、情報通信研究機構（NICT）の3者は2025年9月18日、安心安全で日本社会と調和する国産生成AIのエコシステム構築に向け、基本合意を締結したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2025/09/18/1968220920/">発表</a>した。2026年春までに大規模言語モデル（LLM）の共同開発を進め、完全に国内で完結する生成AI基盤の提供を目指す。</p>
 <p>生成AIの活用が急速に広がる一方で、誤情報の拡散やヘイトスピーチの生成、制御の難しさといったリスクも指摘されている。こうした課題に対応するため、三者は日本の文化や価値観、法制度に即した生成AIを開発し、安心して利用できる国産エコシステムの構築を目指すとしている。</p>
@@ -451,139 +451,7 @@
       <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/8/19 [TUE]AI業界を牽引するトップランナーが語る！—今押さえるべきAIの全体像と最前線を3日間で掴むLedge.ai Webinar SP開催</title>
-      <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor</link>
-      <description><![CDATA[<p>国内最大級のAI特化メディア『Ledge.ai』を運営する株式会社レッジ（東京都品川区）は、2025年9月24日(水)〜26日(金)の3日間連続で合計20本以上のセミナーを配信するオンラインイベント「Ledge.ai Webinar SP」を開催いたします。</p>
-<p>本イベントでは、AIの各領域の専門家を招き、今必要とされるAIの体系的な知識や活用に関する見識をシェアする講義を実施。「AIをしる、つかう、つくる」をテーマに、多様な課題解決のヒントとなるようなコンテンツを動画でお届けします。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_4aed8b100c/_4aed8b100c.png" alt="ウェビナーの様子.png" /></p>
-<p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_m28c0ZHMSRiXQ-yrlcLXiw#/registration">▶【登録無料】視聴者向け事前登録はこちら</a>
-:::</p>
-<h2>AI業界を牽引するトップランナーが今押さえるべきAIの知識と最前線を3日間で語る</h2>
-<p>AIの急激な進化と急速な広まりにより、AIへのリテラシーの差が広がっています。AI活用の最前線では「どう使えば効果的か」「どう作れば自社の強みになるか」といった問いに対しての取り組みが行われ、新たな事例や知見が生まれています。そんな現在において、AIの全体像を体系的に理解した上で、ビジネスにどのように活用されているかすばやく捉えることは重要です。</p>
-<p>当イベントはAIの基礎理解 → 業務活用 → 開発実践までを体系的に理解し、この時代で働くビジネスマンの方に使える学びをお届けします。</p>
-<p>Ledge.ai Webinar SPは、以下の3つの軸で構成されています。</p>
-<h2>プログラム ~「生成AIだけじゃない！「AIをしる、つかう、つくる」SP~</h2>
-<h3>Day1：AIを「しる」——全体像と本質を理解する</h3>
-<p>AIの領域では日々革新的な技術が生まれ、その掛け合わせによりAIの担える範囲が急速に広がっています。AIの基礎からAI全般の進化を体系的に学ぶことで適切なAI活用に繋げることができます。</p>
-<p>【対象】
-・AIの基本から体系的に理解したい方
-・生成AIに加え、AI全般の進化や仕組みに関心がある方</p>
-<p>【セミナー内容】
-・AIの基礎とこれまでの進化（機械学習、ディープラーニング含む）
-・⽣成AIの仕組みと活⽤シーンの全体像
-・ビジネスで求められるAIリテラシーと注意点</p>
-<p>【ゲスト講演】
-「ソフトバンクの事例から紐解く、組織の生成AI活用・推進を自走するための仕組みづくり」</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_c71b18a520/_c71b18a520.jpg" alt="藤原 竜也.jpg" /></p>
-<p>ソフトバンク株式会社
-IT統括 AI&amp;データ事業統括部　Axross事業部 部長
-藤原 竜也 氏</p>
-<p>【その他注目のセッション】
-『米国の最前線に学ぶ ：営業×AI活用のリアルと営業組織の未来』
-株式会社知恵の輪工房
-中島 隆行 氏 / CEO</p>
-<p>『生成AIの精度を高めるデータ作成/収集/合成の正しいアプローチとは』
-FastLabel株式会社
-小林 広紀 氏 / ビジネス本部 マーケティング部 部長</p>
-<p>『AIエージェント活用術～非構造化データを構造化するとは？～	』
-株式会社 Box Japan
-武田 新之助 氏 / プロダクトマーケティング部 シニアプロダクトマーケティングマネージャー</p>
-<p>『要件定義×AI ─ 開発の上流工程を変える新しいアプローチ』
-株式会社ROUTE06
-松本 均 氏 / 創業取締役 Acsim事業責任者</p>
-<h3>Day2：AIを「つかう」——現場に効く、実践的なAI活用法</h3>
-<p>「現場でどう使うのが効果的か？」を知りたい方に向けたプログラムです。現場導入の工夫やハマりがちな落とし穴まで、具体的なノウハウが得られます。</p>
-<p>【対象】
-・AIツールを現場の業務で活用したい方
-・実務にすぐ役立つノウハウを知りたい方</p>
-<p>【セミナー内容】
-・業務シナリオ別のAIツール活用（生成AI・ルールベースAI）
-・Excelや議事録、FAQ対応など、日常業務での実用ワーク
-・プロンプトの書き⽅から社内導⼊のコツまで徹底解説</p>
-<p>【ゲスト講演】
-「まずは試してみよう！ 最新動向から学ぶ、生成AI活用の第一歩」</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_c4e70ae1da/_c4e70ae1da.jpg" alt="岡田隆太朗.jpg" /></p>
-<p>一般社団法人日本ディープラーニング協会　
-専務理事　
-岡田 隆太朗 氏</p>
-<p>【その他注目のセッション】
-『自然に生成AIの活用を加速させるデータインフラ統合型AIのすゝめ』
-株式会社ダイレクトクラウド
-石田 圭一 氏 / プロダクト本部　部長
-十樹 亮輔 氏 / 営業本部カスタマーリレーション部 カスタマーサクセスチーム</p>
-<p>『企業におけるAIエージェント実装の現実戦略』
-株式会社エクスプラザ
-宮田 大督 氏 / CPO 生成AIエバンジェリスト・リードAIプロデューサー</p>
-<p>『業務ヒアリングにおける課題とAIでの大規模ヒアリング自動化による解決策』
-株式会社Kikuvi
-佐藤 拳斗 / Founder CEO</p>
-<h3>Day3：AIを「つくる」——AIプロダクト・自社専用AIツールの開発</h3>
-<p>ノーコード/ローコードでのAI組み込みから、AI活用を前提としたインフラを含む環境構築、AIモデル開発など、AIの開発に必要な技術知識やノウハウを幅広く学ぶことができます。</p>
-<p>【対象】
-・ノーコード・ローコードでAIを組み込みたい方
-・AIシステムの裏側やインフラにも関心がある方</p>
-<p>【セミナー内容】
-・生成AIアプリの基礎（RAG、Dify、API連携など）
-・従来型AI（需要予測、分類モデルなど）の開発プロセス入門
-・クラウド・ベクターデータベースなど、AI基盤技術の理解</p>
-<p>【ゲスト講演】
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zhan_Cliff_Chen_5c6864c871/Zhan_Cliff_Chen_5c6864c871.jpeg" alt="Zhan (Cliff) Chen.jpeg" />
-マイクロソフト ディベロップメント株式会社
-プリンシパル　アプライド　サイエンティスト
-Zhan (Cliff) Chen / 陳 湛</p>
-<p>【その他注目のセッション】
-『話題のgpt-ossとは？ローカル版ChatGPTで構築するAIエージェント【解説＆デモ】』
-株式会社ハイレゾ
-山田 岳史 氏 / GPU事業本部 マーケティング部 グループ長</p>
-<p>『ドキュメントのプロが語る！AI活用の成果を伸ばすポイントは「ナレッジを整える」ことだった』
-株式会社ヒューマンサイエンス
-安岡 仁之 氏 / ドキュメントソリューション部コンサルティンググループ グループ長　</p>
-<p>『RAG構築の検索デモ』
-株式会社日本HP
-勝谷 裕史 氏 / エンタープライズ営業統括 ソリューション営業本部 ワークステーション営業部 AI/データサイエンス市場開発担当部長</p>
-<p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_m28c0ZHMSRiXQ-yrlcLXiw#/registration">▶【登録無料】視聴者向け事前登録はこちら</a>
-:::</p>
-<h2>こんな方におすすめ</h2>
-<ul>
-<li>企業のDX・AI導入担当者</li>
-<li>生産性向上のためAIを活用したい事業部門マネージャー</li>
-<li>ノーコードでのAI活用を始めたい開発初心者</li>
-<li>最新AI技術のトレンドを押さえたいビジネスパーソン</li>
-</ul>
-<h2>イベント概要</h2>
-<p>開催予定日時｜2025年9月24日(水)〜26日(金)
-開催形式｜オンラインセミナー (Zoom Webinar)
-想定集客規模｜500名
-対象｜経営層 / システム企画 / DX推進 / 経営企画 / マーケティング / エンジニア
-主催｜株式会社レッジ</p>
-<p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_m28c0ZHMSRiXQ-yrlcLXiw#/registration">▶【登録無料】視聴者向け事前登録はこちら</a>
-:::</p>
-<h2>「Ledge.ai Webinar SP」を盛り上げていただけるスポンサー企業様を募集中</h2>
-<p>現在、この企画の開催趣旨にご賛同いただき、共に「Ledge.ai Webinar SP」を盛り上げていただけるスポンサー企業様も募集しております。</p>
-<p>スポンサーとなっていただいた企業様には、AI業界のトップランナーの方々と共に当イベントの講師としてウェビナーにご登壇いただき、最新の取り組みやノウハウを発信していただきます。</p>
-<p>また、その他にも、スポンサー企業様にも下記のようなメリットをご案内させていただきます。</p>
-<h3>スポンサー参加の主なメリット</h3>
-<ul>
-<li>AI関連の情報感度の⾼い読者との接点が持てる</li>
-<li>貴社の優位性をLedge.αiが引き出しながらPRできる</li>
-<li>通常のLedge.ai広告メニューよりお得な価格で利⽤できる</li>
-</ul>
-<p>当イベントのスポンサーにご興味がございましたらぜひイベント資料をご覧ください。</p>
-<p>:::button
-<a href="https://forms.zohopublic.com/ledgeai/form/Ledgeai3/formperma/tJ1kpSYYWvDVF2Kp3xE-sBTiKeMh-7DlQZDoqXnSjtA">▶︎スポンサー様向けの資料はこちら</a>
-:::</p>
-<h2>お問い合わせ</h2>
-<p>詳細相談・お見積もりは以下メールアドレスにお問合せください。
-ld_media_sales@ledge.co.jp
-（担当：Ledge.ai Webinar SP 事務局）</p>
-]]></description>
-      <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
+      <title>学術＆研究2025/9/23 [TUE]LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
       <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
       <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
 <h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
@@ -671,7 +539,7 @@ ld_media_sales@ledge.co.jp
       <pubDate>Thu, 18 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/18 [THU]Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
+      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
       <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
       <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
 <p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
@@ -701,6 +569,79 @@ ld_media_sales@ledge.co.jp
 <p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
 ]]></description>
       <pubDate>Mon, 15 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/9/3 [WED]【日本HP・オートデスクが登壇！】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
+      <link>https://ledge.ai/articles/genex1-announce</link>
+      <description><![CDATA[<p>国内最大級のAI専門メディア「Ledge.ai」を運営する株式会社レッジは、このたび、業界横断型の新カンファレンスシリーズ「GENEX（ジェネックス）」を立ち上げ、その第1回となるイベントを2025年9月30日（火）に開催いたします。</p>
+<h2>GENEXとは</h2>
+<p>「Generative」＋「Next」＋「Experience／Exchange／Exploration」を意味する造語で、生成AIをはじめとする“生成的テクノロジー”と“次世代の創造性”に焦点をあてたシリーズ型イベントです。テーマごとに異業種の専門家・技術者・ビジネスリーダーが集い、新しい創造技術の活用とその社会的インパクトを議論・共有する場を提供します。</p>
+<h2>第1回テーマは『3D CAD × Generative AI』</h2>
+<p>初回は「3D CAD × Generative AI」をテーマに、“設計”と“創造”の未来を可視化します。近年の急速な生成AIの進化により、設計や構想のプロセスは自動化・高度化が実現可能な段階に入っています。3D CADも製造・建設分野をはじめ、都市開発やロボティクス、ファッションなど多様な産業での活用が進み、創造の可能性を拡張し続けています。</p>
+<p>本イベントでは、業界を超えて先進的な取り組みを進める企業リーダーを迎え、3D CADと生成AI技術が設計や製造の工程にもたらす変革をテーマにお話いただきます。</p>
+<h2>補助金活用のノウハウも得られる実践的イベント</h2>
+<p>GENEXでは、イベントのテーマに合わせた補助金制度のご紹介や、制度活用に向けたご相談も受け付けております。
+3D CAD×生成AIの最新動向を学ぶだけでなく、新しい技術を取り入れる際の導入コストを抑える手段も学ぶことができます。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GENEX_1_3_D_CAD_1_130d185e26/GENEX_1_3_D_CAD_1_130d185e26.png" alt="GENEX #1 - 3D CAD × 世界モデル：ものづくりの未来はどう変わるのか？- 企画ご案内資料 (1).png" /></p>
+<p>:::button
+<a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
+:::</p>
+<h2>講演タイムテーブル</h2>
+<p>15:00 - 15:30（30分）　開場・受付開始
+15:30 - 15:35（ 5分）　 オープニング
+15:40 - 16:20（40分）　パネルディスカッション「生成AIによって変革する製品設計のプロトタイピング」
+16:25 - 17:05（40分）　日本HP様講演
+17:10 - 17:50（40分）　オートデスク様
+17:55 - 18:35（40分）　補助金活用支援セッション
+18:40 - 18:50（10分）　クロージング
+19:00 - 20:00（60分）　ネットワーキングパーティー</p>
+<h2>セッションの紹介</h2>
+<h3>パネルディスカッション「生成AIによって変革する製品設計のプロトタイピング」</h3>
+<p>産業・エンタメ・教育 ― あらゆる現場で”ものを創る”最前線に立ち続けてきた二人のキーパーソンが、生成AIによって変わる製品設計の未来を読み解きます。</p>
+<p>【ゲスト講演】
+小畑 正好
+デジタルコンテンツクリエイター</p>
+<p>武蔵野美術大学院 空間演出デザインコース修了後、渡米しNHKエンタープライズUSAに参加。帰国後は映画・テレビ・アニメ・ゲーム・インタラクティブコンテンツ等でVFX監督・CGディレクターとして数多くのメジャープロジェクトに参画。現在（社)FDE、㈱ビトル、㈱島精機製作所等数社の役職を併任しデジタルコンテンツの総合的な研究、開発、制作を行う。</p>
+<p>橋本 和幸 氏
+dots in space 代表取締役／シリコンスタジオ 取締役／サイバーエージェント 技術顧問</p>
+<p>1980年代前半からTV・CM業界でCGを活用し活躍。『ファイナルファンタジーVII』のプログラマーとして知られ、映画『ファイナルファンタジー』のホノルルスタジオ設立、Maya開発初期への関与など、日本の3DCG黎明期から中心的役割を果たしてきた。近年はメタバース・コンテンツの開発やR&amp;Dを推進し、複数の企業で次世代技術のアドバイザーを務める。</p>
+<p>【モデレーター】
+落合 研次
+株式会社レッジ 社長室／編集部 編集主幹</p>
+<p>工学修士、経営管理修士。新卒入社の大手SIerで６年間、システム開発の下流から最上流まで担当。GREE・アイスタイル（@cosme運営）で、データ分析/事業企画/プラットフォーム戦略を主導。TIS等で、自動車業界やテレビ業界の大規模IoTプロジェクトのPM/責任者としてPJTを推進。</p>
+<h3>スポンサー講演</h3>
+<p>3D CADのソフトウェアベンダーやハードウェアベンダーによる講演を通じて、3D CADの最新動向を解説します。</p>
+<p>本イベントではオートデスクが提唱する「Autodesk AI」を中心とした最新の設計支援ソリューションや、日本HPによる高性能ワークステーションの活用事例も紹介。ソフトウェアとハードウェアの両面から、次世代の設計・開発環境の姿を多角的に探ります。</p>
+<p>【ゲスト講演】
+<strong>『デザインと創造をパワフルにサポートする Autodesk AI』</strong>
+Autodesk AI は、自動化・解析・拡張性を重視し、製造、建築・建設、メディアエンターテインメントなどの、「デザインと創造」に関わる皆様のワークフローをサポートします。
+本セッションでは、最新の Autodesk AI についてご説明と、製造業における AI 活用の現在地と今後の方向性についてご紹介いたします。</p>
+<p>\u003C登壇者\u003E
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20150812_Profile_kato_2_1_164487fa94/20150812_Profile_kato_2_1_164487fa94.jpg" alt="20150812Profile_kato 2 (1).jpg" /></p>
+<p>オートデスク株式会社
+加藤 久喜 氏 / 日本地域営業統括　技術営業本部 本部長</p>
+<p>※講演内容は情報が確定次第、ご案内いたします。</p>
+<h3>補助金活用支援セッション</h3>
+<p>「補助金を使えば、最新技術をもっとお得に導入できる」
+本セッションでは、今回のテーマに関連した補助金を幅広くご紹介します。
+国や自治体が提供する多様な制度の紹介に加え、自社に最適な補助金の選び方や活用方法を専門家に直接相談できるサポートもご用意しています。</p>
+<h3>個別相談会</h3>
+<p>登壇企業や専門家と直接話せる個別相談の場を設置。技術導入や制度活用について、参加者の具体的な課題に即したご相談が可能です。</p>
+<h2>開催概要</h2>
+<p>イベント名：Generative AI Conference Series「GENEX」#1
+テーマ：3D CAD × Generative AI
+日時：2025年9月30日（火）15:30〜20:00（15:00開場）
+形式：オフライン（東京都内会場予定）＋ アーカイブ配信あり
+会場：品川インターシティホール＆貸会議室1+2
+主催：株式会社レッジ
+共催：トランステップ株式会社
+協賛：株式会社日本HP、オートデスク株式会社
+参加費：無料</p>
+<p>:::button
+<a href="https://zfrmz.com/pHez81Ctmf7AFISeaz4Y">参加登録はこちら</a>
+:::</p>
+]]></description>
+      <pubDate>Wed, 03 Sep 2025 08:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
