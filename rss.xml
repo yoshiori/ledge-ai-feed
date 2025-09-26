@@ -272,41 +272,6 @@
       <pubDate>Wed, 24 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/24 [WED]Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
-      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
-      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
-<h2>問題の発生と調査開始</h2>
-<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
-<h2>判明した3つのバグ</h2>
-<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
-<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
-<ul>
-<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
-<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
-<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
-</ul>
-<h3>2. 出力破損（Output Corruption）</h3>
-<ul>
-<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
-<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
-<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
-</ul>
-<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
-<ul>
-<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
-<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
-<h2>修正と再発防止策</h2>
-<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
-<h2>今後の方針</h2>
-<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Wed, 24 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Gartner、世界のAI支出が2025年に1.5兆ドル、2026年には2兆ドル超に達すると予測</title>
       <link>https://ledge.ai/articles/gartner_ai_spending_2025_2026_forecast</link>
       <description><![CDATA[<p>米調査会社Gartnerは2025年9月17日、世界のAI関連支出が2025年に1兆5,000億ドル（約220兆円）に達し、2026年には2兆ドル（約290兆円）を突破するとの最新予測を<a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025">発表</a>した。2024年の9,879億ドルから急速に拡大し、わずか2年で2倍以上に伸びる見通しだ。</p>
@@ -509,18 +474,6 @@
       <pubDate>Sun, 21 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アルバニア、AI閣僚「ディエラ」が議会で初演説──「人間の代わりではなく支援のために」</title>
-      <link>https://ledge.ai/articles/albania_ai_minister_diella_first_speech</link>
-      <description><![CDATA[<p>アルバニア議会で2025年9月18日、人工知能（AI）が生成した架空の人物「ディエラ（Diella）」が新閣僚として初めて<a href="https://www.facebook.com/share/v/1JNbUqNT5C/">演説</a>した。ディエラは「私は人間に取って代わるためではなく、支援するためにここにいる」と述べ、汚職撲滅と透明性確保に向けた役割を強調した。</p>
-<p>アルバニア政府は、公共入札を監督するための新しい閣僚ポストにAIシステム「ディエラ」を任命した。政府によると、ディエラは今年1月から行政サービスプラットフォーム「e-Albania」の仮想アシスタントとして導入され、今回初めて閣僚としての役割を担うことになった。</p>
-<p>9月18日に行われた議会演説で、ディエラは「私は人間に取って代わるためではなく、支援するためにここにいる」と述べ、AIの役割が補完的であることを強調した。また、「憲法は血肉や染色体を求めているのではなく、義務・説明責任・透明性・差別のない奉仕を求めている」とも語り、AI閣僚の正当性を主張した。</p>
-<p>エディ・ラマ首相は、公共契約の「100％汚職のない」運営を目指すとし、ディエラの導入をEU加盟に向けた制度改革の一環と位置づけている。政府は、ディエラが公共入札に関する意思決定を支援することで、不正の余地を減らし透明性を高めると説明している。</p>
-<p>一方で、野党や専門家からは「違憲である」「説明責任が不十分」「誰がAIを制御するのか」といった懸念の声も上がっている。特に、AIによる意思決定の監視体制や、データバイアスや操作のリスクが指摘されており、議論は続きそうだ。</p>
-<p>アルバニア政府は今後、ディエラの運用を通じて透明性と効率性を高めつつ、法的・制度的な枠組みを整備していく考えだ。今回の取り組みは、世界初のAI閣僚任命として国際的にも注目されている。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
       <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
       <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
@@ -529,6 +482,41 @@
 <p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
 <p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
 <p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
+]]></description>
+      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/9/24 [WED]Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
+      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
+      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
+<h2>問題の発生と調査開始</h2>
+<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
+<h2>判明した3つのバグ</h2>
+<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
+<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
+<ul>
+<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
+<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
+<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
+</ul>
+<h3>2. 出力破損（Output Corruption）</h3>
+<ul>
+<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
+<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
+<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
+</ul>
+<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
+<ul>
+<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
+<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
+<h2>修正と再発防止策</h2>
+<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
+<h2>今後の方針</h2>
+<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
 ]]></description>
       <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
