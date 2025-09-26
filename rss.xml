@@ -5,6 +5,52 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
+      <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
+      <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
+<p>従来の教科書は「すべての学習者に一律の内容を提供する媒体」であり、学年や興味関心に応じた最適化は難しかった。Google Researchのチームは、生成AIを用いることでこの制約を克服し、個別化と多様な表現を可能にするアプローチを開発した。</p>
+<h2>Learn Your Wayの仕組み</h2>
+<p>新システム「Learn Your Way」は、Googleの学習用大規模モデル「LearnLM」（Gemini 2.5 Proに統合）を基盤とする。教材の元テキストを入力し、以下のステップで再構築する。</p>
+<ul>
+<li><strong>パーソナライズ</strong> ：学年レベル（Flesch-Kincaid指標に基づく）や興味関心（スポーツ、音楽など）に合わせて文章をリライト。</li>
+<li><strong>複数表現への変換</strong> ：没入型テキスト、スライド＋ナレーション、オーディオレッスン、マインドマップなど。</li>
+<li><strong>学習支援機能</strong> ：埋め込み質問や小テストを生成し、学習者に即時のフィードバックを提供。</li>
+</ul>
+<p>これにより、学習者は自分に合った形式を選びながら、能動的に学習を進めることができるという。</p>
+<p><strong>ニュートンの第三法則を学年や関心に応じてリライトした例。左は高校生向けにバスケットボールを題材に、右は小学生向けに美術を題材に説明している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_79d6efaf7b/x2_79d6efaf7b.jpg" alt="x2.jpg" /></p>
+<h2>実証実験（無作為化比較試験）</h2>
+<p>研究チームは、シカゴ地域の15〜18歳の学生60名を対象に無作為化比較試験（RCT）を実施した。教材は「思春期の脳発達」（LibreTexts）を使用。
+<strong>■ 比較対象</strong> ：
+・「Learn Your Way」利用群（30名）
+・従来のPDFリーダー（Adobe Acrobat）利用群（30名）
+<strong>■ 学習時間</strong> ：20〜40分
+<strong>■ 評価方法</strong> ：
+・即時テスト（15分）
+・3日後の保持テスト（約10分）</p>
+<h2>結果</h2>
+<ul>
+<li>即時テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>保持テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>アンケート：Learn Your Way群は「楽しく学べた」「理解が深まった」と回答する割合が高く、将来の利用意欲も強かった。</li>
+</ul>
+<p><strong>無作為化比較試験の結果</strong> ：「Learn Your Way」を使用した学生は、従来のデジタルリーダー利用者に比べ、即時テスト・保持テストのいずれも有意に高い得点を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_5_width_1250_458379e0a2/Learn_Your_Way_5_width_1250_458379e0a2.png" alt="Learn-Your-Way-5.width-1250.png" /></p>
+<h2>教育現場での意義</h2>
+<p>この研究は、生成AIが教科書を「一律の媒体」から「学習者に応じて変化する教材」へと変革し得ることを示している。Googleは、教育科学の知見とAI技術を組み合わせることで、学習成果の向上と学習者の主体性強化につなげられると強調している。</p>
+<p><strong>教育専門家による評価結果。特にナレーション付きスライドやオーディオレッスンは、学習者の関心を引きやすいと高評価を得た。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_4_width_1250_8bf77aa53c/Learn_Your_Way_4_width_1250_8bf77aa53c.png" alt="Learn-Your-Way-4.width-1250.png" /></p>
+<h2>今後の展望</h2>
+<p>研究チームは論文内で次の課題を指摘している。</p>
+<ul>
+<li>効果検証は1つの教材章に限られており、今後は複数教科・複数章での検証が必要。</li>
+<li>各機能（例：スライド、音声、クイズ）の寄与度は明確化されていない。</li>
+</ul>
+<p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
+]]></description>
+      <pubDate>Fri, 26 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>シャープ、RoBoHoN向けにChatGPT活用アプリ「ロボデイズ」を提供開始──ユーザーとカメラ映像や日記を参照しながら自然な対話</title>
       <link>https://ledge.ai/articles/sharp_robohon_chatgpt_robodays</link>
       <description><![CDATA[<p>シャープは2025年9月19日、コミュニケーションロボット「RoBoHoN（ロボホン）」向けに、生成AI「ChatGPT」を活用した新アプリケーション「ロボデイズ」の提供を10月1日より開始することを<a href="https://corporate.jp.sharp/news/250919-a.html">発表</a>した。カメラを用いた会話や日記の作成、記憶の蓄積といった機能を備え、ユーザーとの対話をより自然で豊かなものにすることを狙う。</p>
@@ -453,17 +499,6 @@
 <p>実験は非病原性の大腸菌C株を対象に、厳格な安全管理下で行われた。研究者らは「人間病原体への応用は慎重に行うべき」と強調しており、ファージ療法をはじめ抗生物質耐性菌対策や合成生物学への応用など、医療や研究への幅広い可能性と同時に、安全性への配慮を求めている。</p>
 ]]></description>
       <pubDate>Sat, 20 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、Intel株式50億ドル分を取得 ― AI・PC向けで両社が戦略的協業</title>
-      <link>https://ledge.ai/articles/nvidia_intel_5b_investment_ai_pc_collaboration</link>
-      <description><![CDATA[<p>NVIDIAは2025年9月18日（現地時間）、Intelの普通株を50億ドル分取得することで合意したと<a href="https://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products">発表</a>した。取得価格は1株あたり23.28ドルで、取引には規制当局の承認など通常の条件が付く。</p>
-<p>NVIDIAは今回の出資にあわせ、Intelと戦略的な協業を開始する。両社は複数世代にわたるデータセンター向けカスタムx86 CPUやシステム・オン・チップ（SoC）の共同開発を進める計画だ。さらに、PC向けではIntelがNVIDIAのRTX GPUチップレットを組み込んだx86 SoCを提供する。両社のアーキテクチャはNVIDIAの高速接続技術「NVLink」を通じて連携される見通し。</p>
-<p>今回の協業は、AIインフラの需要拡大を背景にしたもの。NVIDIAはGPUを中心とするAI市場で圧倒的なシェアを持ち、IntelはCPUやSoCの開発力を強みとする。両社の協力により、AI計算基盤から個人向けPCまで幅広い分野での製品展開が期待される。</p>
-<p>市場も敏感に反応した。発表後、Intel株は一時23％上昇し、NVIDIA株も上昇した。今回の出資によりNVIDIAはIntelの主要株主の一角となる見込みであり、Intel再建の動きに弾みがつくとみられる。</p>
-<p>なお、今回の取引にはIntelのファウンドリー（半導体製造請負）事業は含まれていない。共同開発製品が市場投入されるまでには時間を要する可能性もあるが、両社の連携は半導体業界の競争構造に大きな影響を与えるとみられている。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 04:50:01 GMT</pubDate>
     </item>
     <item>
       <title>アルバニア、AI閣僚「ディエラ」が議会で初演説──「人間の代わりではなく支援のために」</title>
