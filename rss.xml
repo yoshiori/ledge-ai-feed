@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>トヨタ、実験都市「Woven City」を正式オープン──静岡県裾野市で未来のモビリティ実証開始</title>
+      <link>https://ledge.ai/articles/toyota_woven_city_open_launch</link>
+      <description><![CDATA[<p>トヨタ自動車とWoven by Toyotaは2025年9月25日、静岡県裾野市に建設していた実験都市「Woven City（ウーブン・シティ）」を正式にオープンしたことを<a href="https://global.toyota/jp/newsroom/corporate/43347821.html">発表</a>した。東富士工場跡地を活用し、将来的に最大2,000人が暮らす街を舞台に、モビリティやロボティクス、スマートホームなどの次世代サービスを実証する。</p>
+<h2>第1期住民の移住開始</h2>
+<p>Woven Cityには、「Inventors（発明者）」と呼ばれる企業や研究者、そして「Weavers（住民）」と呼ばれる人々が生活を始めた。第1期は約300〜360人規模でスタートし、段階的に拡大して最終的には2,000人規模の居住を目指す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/001_bcd76c80cb/001_bcd76c80cb.jpg" alt="001.jpg" /></p>
+<h2>実証の対象分野</h2>
+<p>この都市は、以下の領域における新しいサービスや技術の検証拠点として機能する。</p>
+<ul>
+<li>モビリティ：自動運転車や次世代交通システム</li>
+<li>ロボティクス：生活支援や介護を含む分野</li>
+<li>スマートホーム：家庭内エネルギー管理やAI連携</li>
+<li>サステナビリティ：再生可能エネルギー利用や環境負荷低減</li>
+</ul>
+<h2>街づくりの特徴</h2>
+<p>Woven Cityは、車道・人道・モビリティ専用レーンを分離した都市設計を採用している。さらに、エネルギーは100％水素や再生可能エネルギーでまかない、街全体をIoTセンサーやAIで管理することで持続可能な社会のモデルを目指す。</p>
+<h2>今後の展開</h2>
+<p>トヨタは、Woven Cityを「幸せの量産（Mass-Production of Happiness）」を体現するプロジェクトと位置付けている。実際の生活を通じて技術を検証し、社会実装につなげることを目的に、世界の研究者や企業とのオープンイノベーションを推進する。</p>
+<p>Woven Cityはフェーズごとに住民数や参加企業を増やしながら拡張される計画だ。トヨタはこの取り組みを、自動車メーカーからモビリティカンパニーへと変革する象徴的なプロジェクトと位置付けており、将来的には他地域への応用も視野に入れている。</p>
+]]></description>
+      <pubDate>Fri, 26 Sep 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
       <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
       <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
@@ -484,21 +507,6 @@
 <p>研究チームは、今後はより高次の概念や長期的な記憶を統合し、非視覚領域にも応用を広げることを目指している。</p>
 ]]></description>
       <pubDate>Sun, 21 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>バクテリオファージの完全設計にAIが挑戦──302種中16種が細菌を殺すことを確認　スタンフォード大とArc研究所が実証</title>
-      <link>https://ledge.ai/articles/ai_bacteriophage_genome_design_stanford_arc</link>
-      <description><![CDATA[<p>スタンフォード大学とArc研究所の研究チームは、AIを活用しバクテリオファージの完全なゲノム設計に初めて成功したことを、2025年9月17日、プレプリントサーバーBioRxivに<a href="https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1">公開</a>した。論文によると、AIモデル「Evo 1」と「Evo 2」が生成した設計302種類のうち、16種類が実際に細菌を殺す能力を示した。</p>
-<p>研究対象となったのは、大腸菌を宿主とするバクテリオファージΦX174（ゲノム長5.4キロ塩基対、11遺伝子を含む）。AIはこの既知のファージを参照しながら、進化的に離れた新規ゲノムを生成した。得られたファージの一部は、自然界に存在するΦX174を上回る感染効率や溶菌速度を示したという。</p>
-<p><strong>■ 研究対象となったΦX174様ファージの設計テンプレート。各遺伝子の役割が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig2_3de1ab77ca/fig2_3de1ab77ca.png" alt="fig2.png" /></p>
-<p>Cryo-EM（クライオ電子顕微鏡）による解析では、DNAパッケージングタンパク質に進化的に大きく異なる構造を持つファージが確認された。さらに、複数の設計ファージを組み合わせた「ファージカクテル」は、従来のΦX174に耐性を持つ大腸菌株3種類の抵抗性を突破できることが示された。</p>
-<p><strong>■ Evoモデルが設計したファージ（左）と自然界のΦX174（右）の比較。紫部分はDNAパッケージングタンパク質を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig4_30f8dac6c1/fig4_30f8dac6c1.png" alt="fig4.png" /></p>
-<p>研究チームは今回の成果を「ゲノム全体の生成設計を実証した初の事例」と位置づけている。論文では「多様な合成ファージ設計の青写真を示し、ゲノムスケールでの有用な生物システム設計の基盤を築く」と結論づけている。</p>
-<p>実験は非病原性の大腸菌C株を対象に、厳格な安全管理下で行われた。研究者らは「人間病原体への応用は慎重に行うべき」と強調しており、ファージ療法をはじめ抗生物質耐性菌対策や合成生物学への応用など、医療や研究への幅広い可能性と同時に、安全性への配慮を求めている。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルバニア、AI閣僚「ディエラ」が議会で初演説──「人間の代わりではなく支援のために」</title>
