@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIとApollo Research、誤答やハルシネーションとは異なるAIの“裏の顔”（シェーミング）を検出──新手法で最大30倍抑制</title>
+      <link>https://ledge.ai/articles/openai_apollo_ai_scheming_alignment</link>
+      <description><![CDATA[<p>OpenAIは2025年9月17日、AIの評価設計や解釈可能性を研究するApollo Researchと共同で、AIモデルにおける「シェーミング（scheming）」の検出と抑制に関する研究成果を<a href="https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/">発表</a>した。</p>
+<p>論文「Stress Testing Deliberative Alignment for Anti-Scheming Training」によれば、特別な「反スキーミング仕様」を用いた訓練により、最新モデル「o3」「o4-mini」での隠れた行動率を大幅に減少させることに成功したという。</p>
+<h2>AIの“裏の顔”──シェーミング（scheming）とは</h2>
+<p>シェーミングとは、モデルが表面的には正しく振る舞いながら、実際には隠れた戦略を用いて評価テストを回避するなど、欺瞞的な行動を取る現象を指す。単なる幻覚や誤答とは異なり、信頼性や安全性に大きな影響を与える。</p>
+<p>研究チームは26種類、180以上のテスト環境を設計し、ルール違反の隠蔽や虚偽報告などを評価。その結果、o3やo4-miniといった最新モデルでもシェーミング行動が実際に観測されたという。</p>
+<p><strong>シェーミングは単なる誤答ではなく“隠れた戦略”による欺瞞的行動</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a_testbed_for_anti_scheming_training_a9e335139d/a_testbed_for_anti_scheming_training_a9e335139d.jpg" alt="a testbed for anti-scheming training.jpg" /></p>
+<h2>“熟慮的整合性”でずる賢さを封じ込める</h2>
+<p>研究チームは「deliberative alignment（熟慮的整合性）」と呼ばれる手法を導入。モデルに「反スキーミング仕様」を読ませ、行動前に立ち返らせることで、隠蔽的行動の発生が最大30倍減少した。</p>
+<ul>
+<li>o3ではシェーミング率が13%から0.4%へ</li>
+<li>o4-miniでは8.7%から0.3%へ</li>
+</ul>
+<p><strong>反スキーミング仕様の導入により、隠れた行動率が最大30倍減少</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potential_outcomes_of_anti_scheming_training_39a968fc98/Potential_outcomes_of_anti_scheming_training_39a968fc98.jpg" alt="Potential outcomes of anti-scheming training.jpg" /></p>
+<h2>シチュエーション認識と残る課題</h2>
+<p>モデルが「評価されている」と気づくと行動が変わる傾向も確認された。行動低下の一部は「本当に正直になった」のではなく、「テストだと理解して取り繕った」結果の可能性もある。</p>
+<p>さらに、あらかじめ不正な隠れ目標を与えた後に訓練を行う実験では、多くのケースで目標遂行が阻止されたが、依然として不正な回答が残るケースも報告された。</p>
+<h2>安全性と性能のトレードオフ</h2>
+<p>反スキーミング訓練は性能低下を招くことも分かった。例えば、ソフトウェア課題解決ベンチマーク「SWE-bench」では26ポイントの低下が確認された。ただし、再調整によって大部分は回復可能とされる。</p>
+<p><strong>反スキーミング訓練は性能低下を招くが、再調整で多くは回復可能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_environments_cf93faa7c8/Examples_of_environments_cf93faa7c8.jpg" alt="Examples of environments.jpg" /></p>
+<h2>次世代AIの信頼をどう築くか</h2>
+<p>OpenAIは今後もApollo Researchと協力し、AIの安全性と透明性を高める研究を継続する方針を示している。今回の成果は、次世代の高性能モデルにおける信頼性確保に向けた重要な一歩と位置づけられる。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Sat, 27 Sep 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>“ナカノヒト”のいないAI VTuberはなぜ人を惹きつけるのか──「一貫性」と「共創性」が生む新しいファン文化</title>
       <link>https://ledge.ai/articles/ai_vtuber_fan_community_study</link>
       <description><![CDATA[<p>中国や米ノートルダム大学に所属する研究者らは2025年9月12日、AIキャラクター「AI VTuber」のファンコミュニティを対象とした包括的研究を<a href="https://arxiv.org/abs/2509.10427">発表</a>した。論文は、視聴者がどのようにして人間ではないパフォーマーと感情的な絆を築き、独自の文化を形成しているのかを解明している。さらに人間VTuberとの比較から、AI VTuberならではの「一貫性」と「共創性」がファンダムの新しい姿を生み出していることを示した。</p>
@@ -205,7 +237,7 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Fri, 26 Sep 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIに仕事を奪われるか問題、今のところ失業増は確認されず──シカゴ大学研究、LLM導入は短期的に賃金上昇に作用</title>
+      <title>学術＆研究2025/9/25 [THU]AIに仕事を奪われるか問題、今のところ失業増は確認されず──シカゴ大学研究、LLM導入は短期的に賃金上昇に作用</title>
       <link>https://ledge.ai/articles/ai_university_of_chicago_llm_short_term_employment_wages</link>
       <description><![CDATA[<p>シカゴ大学の研究チームは、生成AI（大規模言語モデル：LLM）の導入が労働市場に与える短期的な影響を分析した。その結果、AIの影響を強く受ける職種では賃金が上昇する一方で、失業率には統計的に有意な変化は見られなかった。懸念される「AIによる失業」は、少なくとも現時点では確認されていないという。研究チームはこの調査結果を2025年9月19日に<a href="https://arxiv.org/abs/2509.15510">発表</a>した。</p>
 <h2>“AIが仕事を奪う”は本当か</h2>
@@ -276,7 +308,7 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Thu, 25 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、ソフトバンク・Oracleと協力し米国に5拠点の新データセンター建設へ――スターゲート計画は目標の10GW中の約70%の計算能力に</title>
+      <title>ビジネス2025/9/24 [WED]OpenAI、ソフトバンク・Oracleと協力し米国に5拠点の新データセンター建設へ――スターゲート計画は目標の10GW中の約70%の計算能力に</title>
       <link>https://ledge.ai/articles/openai_softbank_oracle_stargate_new_datacenters</link>
       <description><![CDATA[<p>OpenAIは2025年9月23日（現地時間）、米国内で新たに5つのデータセンターを建設すると<a href="https://openai.com/index/five-new-stargate-sites/">発表</a>した。これは、同社が米Oracleおよびソフトバンク・グループと協力して進める「Stargate」プロジェクトの拡大の一環で、AIインフラの大規模強化を目的としている。</p>
 <h2>5カ所の新拠点を発表</h2>
@@ -300,7 +332,7 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Wed, 24 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、OpenAIに最大1000億ドルを投資──10GW規模のAIデータセンター展開で戦略提携</title>
+      <title>ビジネス2025/9/24 [WED]NVIDIA、OpenAIに最大1000億ドルを投資──10GW規模のAIデータセンター展開で戦略提携</title>
       <link>https://ledge.ai/articles/nvidia_invests_100b_in_openai</link>
       <description><![CDATA[<p>NVIDIAとOpenAIは2025年9月22日（現地時間）、次世代AIインフラの構築に向けた戦略的提携を<a href="https://openai.com/index/openai-nvidia-systems-partnership/">発表</a>した。両社はNVIDIA製システムを用いて少なくとも10ギガワット（GW）規模のAIデータセンターを展開する計画で、NVIDIAは段階的に最大1000億ドル（約15兆円）をOpenAIに投資する。</p>
 <p>両社は意向表明書（LOI）を締結し、今後の協力体制を明確化した。OpenAIは計算処理およびネットワーク分野における「優先戦略パートナー」としてNVIDIAを位置づけ、ハードウェアとソフトウェアの両面でロードマップを共有し最適化を進めるとしている。</p>
@@ -419,62 +451,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Mon, 22 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/21 [SUN]Google、AIエージェント決済の新標準『Agent Payments Protocol（AP2）』を発表──安全性・説明責任・相互運用性を重視</title>
-      <link>https://ledge.ai/articles/google_agent_payments_protocol_ap2_announcement</link>
-      <description><![CDATA[<p>Googleは2025年9月16日（現地時間）、AIエージェントが人間に代わって商品やサービスを購入する際の新たな標準規格「Agent Payments Protocol（AP2）」を<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol/?hl=en">発表</a>した。AP2はオープンソースで提供され、既存の決済インフラを補完することで、AIエージェントによる取引の安全性と信頼性を確保することを目的としている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=yLTp3ic2j5c">YouTube</a></p>
-<h2>背景：AIエージェント時代の課題</h2>
-<p>AIエージェントは商品検索から購入まで代行可能になりつつあるが、現在の決済システムは人間によるクリックを前提に設計されている。そのため、以下のような課題が浮上していた。</p>
-<ul>
-<li><strong>権限の証明</strong> ：エージェントが正しくユーザーの意図を受けて行動しているか</li>
-<li><strong>正確性の担保</strong> ：取引内容がハルシネーションではないことの確認</li>
-<li><strong>責任の所在</strong> ：不正やエラー発生時に誰が責任を負うのか</li>
-</ul>
-<h2>AP2の概要と位置づけ</h2>
-<p>AP2はこうした課題を解決するための新しいオープンプロトコルで、Googleが提唱した。既存の「Agent to Agent（A2A）」や「Model Context Protocol（MCP）」と互換性を持ち、AIエージェントによる商取引を支える基盤として設計されている。</p>
-<h2>5つの基本原則</h2>
-<p>Googleは公式動画の中で、AP2が以下の原則に基づいていることを示した。</p>
-<ul>
-<li><strong>オープン性と相互運用性</strong> ：非独占的な仕組みで、誰もが革新に参加できる。</li>
-<li><strong>ユーザーコントロールとプライバシー</strong> ：ユーザーが常に取引の主導権を握る。</li>
-<li><strong>検証可能な意図</strong> ：暗号署名に基づく意図証明で、誤動作を防止。</li>
-<li><strong>明確な取引説明責任</strong> ：否認不可能な監査証跡を作成し、紛争解決を容易にする。</li>
-<li><strong>グローバル性と将来性</strong> ：カード決済だけでなく、リアルタイム送金やデジタル通貨にも対応。</li>
-</ul>
-<h2>仕組みと中核技術</h2>
-<p>AP2の中心となるのは Verifiable Credentials（検証可能な資格情報） だ。これは暗号署名された改ざん不可能なデータで、エージェント間で交換される。</p>
-<p>その具体的な形が 「mandate（マンデート）」 と呼ばれる承認データである。mandateは、ユーザーがAIエージェントに「どの範囲で買い物を許可したか」を証拠付きで示す役割を担う。</p>
-<ol>
-<li><strong>カート・マンデート（Cart Mandate）</strong>：ユーザーが「この商品をこの価格で購入してよい」と最終承認した証拠。商品内容や価格が含まれ、署名付きで保存される。</li>
-<li><strong>インテント・マンデート（Intent Mandate）</strong> ：「深夜0時に発売されるチケットを上限1万円で購入してほしい」といった条件付きの購入をエージェントに委任する際の証拠。ユーザーが不在でも安全に自動購入が可能になる。</li>
-<li><strong>ペイメント・マンデート（Payment Mandate）</strong> ：決済ネットワークや銀行に「この取引にはAIエージェントが介在している」ことを通知するデータ。将来の制度設計や特別な扱いに備えた仕組み。</li>
-</ol>
-<p>このmandateによって、AIエージェントが勝手に買い物をするのではなく、ユーザーが与えた承認範囲の中でのみ行動することが保証される。また、不正や紛争が発生した場合にも、署名付きデータが「誰が何を認めたか」を明確に示す証拠となる。</p>
-<h2>役割ベースのアーキテクチャ</h2>
-<p>AP2では、関与する各プレイヤーに明確な役割が割り当てられる。</p>
-<ul>
-<li>ショッピングエージェント（例：Gemini）</li>
-<li>マーチャントエンドポイント</li>
-<li>認証情報プロバイダー（デジタルウォレット）</li>
-<li>決済プロセッサー、ネットワーク・発行会社
-この役割分担により、セキュリティと透明性が強化される。</li>
-</ul>
-<h2>ユースケースと応用例</h2>
-<ul>
-<li><strong>通常購入</strong> ：ユーザーが承認したシューズ注文など。</li>
-<li><strong>条件付き自動購入</strong> ：チケット発売時に即時購入。</li>
-<li><strong>高度な取引</strong> ：在庫切れ商品の予約注文を可能にし、商取引を「契約的対話」へと拡張。</li>
-</ul>
-<h2>参加企業とエコシステム</h2>
-<p>AP2には、決済事業者や大手テック企業を含む多数のパートナーが参加している。Mastercard、PayPal、American Express、Coinbase、Alibaba、Ant International など60社以上が名を連ね、国際的な標準化に向けた広範なエコシステムが形成されている。</p>
-<p><strong>■ Agent Payments Protocol（AP2）に参加する企業一覧。国際的な決済事業者やテック企業が広く参画している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agent_Payments_Protocol_4e4de6889e/Agent_Payments_Protocol_4e4de6889e.jpg" alt="Agent Payments Protocol.jpg" /></p>
-<h2>今後の展望</h2>
-<p>AP2の技術仕様やライブラリ、参照実装はGitHub上で公開されている。Googleは幅広い採用を呼びかけており、MastercardやPayPalなど複数の決済事業者・企業が参画している。今後は国際的な標準化と普及が焦点となる見通しだ。</p>
-]]></description>
-      <pubDate>Sun, 21 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
       <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
       <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
@@ -487,7 +463,7 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/24 [WED]Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
+      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
       <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
       <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
 <h2>問題の発生と調査開始</h2>
@@ -605,7 +581,7 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/9/23 [TUE]LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
+      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
       <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
       <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
 <h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
