@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
+      <link>https://ledge.ai/articles/microsoft_microfluidics_ai_chip_cooling</link>
+      <description><![CDATA[<p>Microsoftは2025年9月24日、AIチップの性能向上に伴う深刻な発熱問題に対処するため、新しい液体冷却技術「マイクロ流体冷却」の開発・テストに成功したと<a href="https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/">発表</a>した。シリコン基板に微細な流路を刻み、冷却液を直接循環させる方式で、従来の冷却プレートと比べ最大3倍の効率を達成したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=MZBwLi3ajYE">YouTube</a></p>
+<p>近年、AIチップは大規模言語モデルや生成AIの処理需要に対応するため高性能化が進んでいる。その一方で、発熱量は急増し、従来の空冷や液冷では限界が見え始めていた。Microsoftは「冷却技術の進歩がなければ、数年以内にAIチップ開発は頭打ちになる可能性がある」と警鐘を鳴らしている。</p>
+<h2>新技術「マイクロ流体冷却」の仕組み</h2>
+<p>同社が開発した「マイクロ流体冷却」は、チップのシリコン基板に微細な流路を直接形成し、その中に液体を流すことで効率的に熱を除去する仕組みだ。GPU内部の温度上昇を65%低減し、従来の冷却プレート方式と比べ最大3倍の冷却効率を実現したとされる。</p>
+<h2>Corintis社との協力</h2>
+<p>この取り組みは、スイスのスタートアップCorintisとの共同研究に基づく。自然界の葉脈や蝶の羽に着想を得た「バイオインスパイアード設計」を採用し、AIを用いて冷却液の流路や循環を最適化している。これにより、チップ上で最も高温になる“ホットスポット”を効率的に冷却できるようになった。</p>
+<h2>持続可能性への影響</h2>
+<p>Microsoftは、Teams会議をシミュレートしたサーバー環境で同技術をテスト。実験室レベルでの検証において、従来技術を大幅に上回る冷却性能を確認した。これにより、実用化に向けた有効性が示された形だ。</p>
+<p>マイクロ流体冷却は、データセンターの電力使用効率（PUE）の改善や運用コスト削減にもつながるとされる。冷却技術の革新は、環境負荷を低減しつつ、大規模AIインフラの持続可能な発展を支える重要な鍵になるとみられる。</p>
+]]></description>
+      <pubDate>Sun, 28 Sep 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>教皇レオ14世、AIアバターによる「仮想教皇」構想を拒否──「神の存在をAIに見出すのは難しい」</title>
       <link>https://ledge.ai/articles/pope_leo_xiv_rejects_ai_virtual_pope</link>
       <description><![CDATA[<p>バチカンの教皇レオ14世は、AIを用いて自身を模したアバターを作成し、信徒が仮想的に接見できるようにする「仮想教皇」構想を拒否した。世界中のカトリック教徒がオンラインで教皇のAIアバターと対話できる仕組みの提案について、「AIの中に神の存在を見出すのは非常に難しい」と述べ、人間同士の直接的な関わりを重視する姿勢を示した。</p>
@@ -432,23 +448,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>中国国内では、Huaweiと浙江大学がDeepSeekベースの「R1-Safe」と呼ばれる検閲強化版を開発していることを9月19日に<a href="https://www.reuters.com/business/media-telecom/chinas-huawei-co-develops-deepseek-model-improves-censoring-2025-09-19/">Reuters</a>が報じている。政治的にセンシティブなテーマへの制約は、モデル開発の方向性として広がりを見せている。</p>
 ]]></description>
       <pubDate>Mon, 22 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>登記情報と現況の“ズレ”を衛星画像×AIで検知──アクセルスペースとWHEREが概念実証を開始</title>
-      <link>https://ledge.ai/articles/axelspace_where_satellite_ai_realestate_poc</link>
-      <description><![CDATA[<p>衛星開発・運用を手がけるアクセルスペースと、不動産AIツール「WHERE」を展開するWHEREは2025年9月17日、人工衛星による地球観測画像を活用し、不動産登記情報の精度向上や不動産管理業務の効率化を目指すPoC（概念実証）を開始したことを。<a href="https://www.axelspace.com/ja/news/realestate_poc/">発表</a>した。対象は東京、神奈川、埼玉、千葉、大阪、福岡の6都府県で、都市部を中心に実施するという。</p>
-<h2>背景と課題</h2>
-<p>日本の不動産市場では、登記情報と現況が一致しないケースが少なくない。従来は自治体や事業者が現地調査を行う必要があり、コストや時間の面で大きな負担となっていた。また情報更新の遅れは、不動産取引の判断や管理業務の効率性にも影響していた。</p>
-<h2>PoCの内容</h2>
-<p>今回のPoCでは、アクセルスペースが運用する光学地球観測衛星「GRUS」から取得した高頻度・広範囲の画像と、WHEREのオフマーケット探索AIを組み合わせる。これにより、土地利用の変化や新規建築物の有無などを検知し、登記情報と照合する。実証では、1か月間に複数回の衛星撮影を行い、差異を検出して自治体や事業者に提供する。</p>
-<p><strong>衛星画像（左）とAIによる変化検出結果（右）。土地や建物の変化を赤色で可視化し、登記情報と現況の差異を確認できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/29d3bc99193cb0b837fb8cc53f050ae5_8d1a174657/29d3bc99193cb0b837fb8cc53f050ae5_8d1a174657.png" alt="29d3bc99193cb0b837fb8cc53f050ae5.png" /></p>
-<h2>企業の取り組み</h2>
-<p>WHEREは、市場に出ていない不動産の探索や管理をAIで支援し、不動産市場の情報格差を解消することを目指している。一方のアクセルスペースは、現在5機のGRUS衛星を運用中で、2026年には次世代衛星「GRUS-3」7機の打ち上げを予定。観測能力を強化することで、社会インフラや不動産分野への応用を拡大していく考えだ。</p>
-<h2>今後の展望</h2>
-<p>両社は、都市部での検証を皮切りに、地方都市や空き家・休耕地の管理、災害リスク地域での活用などへ応用を検討している。不動産業界のみならず、都市計画や防災、インフラ管理といった幅広い分野での利用も期待される。</p>
-]]></description>
-      <pubDate>Mon, 22 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
