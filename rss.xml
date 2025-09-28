@@ -29,22 +29,6 @@
       <pubDate>Sun, 28 Sep 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
-      <link>https://ledge.ai/articles/microsoft_microfluidics_ai_chip_cooling</link>
-      <description><![CDATA[<p>Microsoftは2025年9月24日、AIチップの性能向上に伴う深刻な発熱問題に対処するため、新しい液体冷却技術「マイクロ流体冷却」の開発・テストに成功したと<a href="https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/">発表</a>した。シリコン基板に微細な流路を刻み、冷却液を直接循環させる方式で、従来の冷却プレートと比べ最大3倍の効率を達成したという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=MZBwLi3ajYE">YouTube</a></p>
-<p>近年、AIチップは大規模言語モデルや生成AIの処理需要に対応するため高性能化が進んでいる。その一方で、発熱量は急増し、従来の空冷や液冷では限界が見え始めていた。Microsoftは「冷却技術の進歩がなければ、数年以内にAIチップ開発は頭打ちになる可能性がある」と警鐘を鳴らしている。</p>
-<h2>新技術「マイクロ流体冷却」の仕組み</h2>
-<p>同社が開発した「マイクロ流体冷却」は、チップのシリコン基板に微細な流路を直接形成し、その中に液体を流すことで効率的に熱を除去する仕組みだ。GPU内部の温度上昇を65%低減し、従来の冷却プレート方式と比べ最大3倍の冷却効率を実現したとされる。</p>
-<h2>Corintis社との協力</h2>
-<p>この取り組みは、スイスのスタートアップCorintisとの共同研究に基づく。自然界の葉脈や蝶の羽に着想を得た「バイオインスパイアード設計」を採用し、AIを用いて冷却液の流路や循環を最適化している。これにより、チップ上で最も高温になる“ホットスポット”を効率的に冷却できるようになった。</p>
-<h2>持続可能性への影響</h2>
-<p>Microsoftは、Teams会議をシミュレートしたサーバー環境で同技術をテスト。実験室レベルでの検証において、従来技術を大幅に上回る冷却性能を確認した。これにより、実用化に向けた有効性が示された形だ。</p>
-<p>マイクロ流体冷却は、データセンターの電力使用効率（PUE）の改善や運用コスト削減にもつながるとされる。冷却技術の革新は、環境負荷を低減しつつ、大規模AIインフラの持続可能な発展を支える重要な鍵になるとみられる。</p>
-]]></description>
-      <pubDate>Sun, 28 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>教皇レオ14世、AIアバターによる「仮想教皇」構想を拒否──「神の存在をAIに見出すのは難しい」</title>
       <link>https://ledge.ai/articles/pope_leo_xiv_rejects_ai_virtual_pope</link>
       <description><![CDATA[<p>バチカンの教皇レオ14世は、AIを用いて自身を模したアバターを作成し、信徒が仮想的に接見できるようにする「仮想教皇」構想を拒否した。世界中のカトリック教徒がオンラインで教皇のAIアバターと対話できる仕組みの提案について、「AIの中に神の存在を見出すのは非常に難しい」と述べ、人間同士の直接的な関わりを重視する姿勢を示した。</p>
@@ -404,108 +388,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
       <pubDate>Wed, 24 Sep 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ロボットと暮らす住宅を初公開──リビングロボットと藤田医科大、生活支援ロボットを導入した“人協調型ロボティクス住宅”を発表</title>
-      <link>https://ledge.ai/articles/living_robot_fujita_robotech_house</link>
-      <description><![CDATA[<p>リビングロボットは2025年9月18日、藤田医科大学リハビリテーション部門と共同開発した生活支援ロボットやシステムを導入した「人協調型ロボティクス住宅」を<a href="https://prtimes.jp/main/html/rd/p/000000057.000094064.html">発表</a>した。名古屋市熱田区のサンヨーホームズ株式会社の住宅展示場に設置され、9月20日から特定日に一般公開が行われる。</p>
-<h2>社会課題への対応として開発</h2>
-<p>同社は、少子高齢化や介護人材不足といった社会課題を背景に、人とロボットが協調する住まいの新たな形を提示。今回の取り組みは、内閣府の戦略的イノベーション創造プログラム（SIP）「人協調型ロボティクスの拡大に向けた基盤技術・ルールの整備」に採択された研究の一環でもある。</p>
-<p>展示住宅は、名古屋市熱田区の「神宮東 中日ハウジングセンター」内にあるサンヨーホームズの住宅展示場に設置された。一般公開は2025年9月20日（土）、21日（日）、27日（土）、28日（日）の4日間が予定されている。</p>
-<h2>生活を支えるロボットとシステム</h2>
-<p>住宅には、以下の生活支援ロボットやシステムが導入されている。</p>
-<ul>
-<li><strong>見守りロボット「WeeGo（ウィーゴ）」</strong> ：小型で会話機能を持ち、居住者に気づきを促す。</li>
-<li><strong>メカトロメイトQ</strong> ：移動や通話機能を備えたロボット。</li>
-<li><strong>移動・移乗支援ロボット</strong> ：車いす型で、住宅内の移動や乗り移りをサポート。</li>
-<li><strong>センサー群</strong> ：生活・活動データ（運動、睡眠など）や住環境データ（温湿度、CO₂濃度、照度、窓開閉など）を収集。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_9f5bef2d74/sub1_9f5bef2d74.jpg" alt="sub1.jpg" /></p>
-<p>これらの仕組みにより、熱中症予防や転倒時の通報、侵入者検知など、安全で快適な暮らしを支援する機能が提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_06affc0937/sub2_06affc0937.jpg" alt="sub2.jpg" /></p>
-<h2>今後の展望</h2>
-<p>リビングロボットは今回の公開を通じて、一般生活者が新しい住環境を体験する場を提供するとともに、社会実装に向けた実証を重ねていく方針だ。</p>
-]]></description>
-      <pubDate>Wed, 24 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gartner、世界のAI支出が2025年に1.5兆ドル、2026年には2兆ドル超に達すると予測</title>
-      <link>https://ledge.ai/articles/gartner_ai_spending_2025_2026_forecast</link>
-      <description><![CDATA[<p>米調査会社Gartnerは2025年9月17日、世界のAI関連支出が2025年に1兆5,000億ドル（約220兆円）に達し、2026年には2兆ドル（約290兆円）を突破するとの最新予測を<a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025">発表</a>した。2024年の9,879億ドルから急速に拡大し、わずか2年で2倍以上に伸びる見通しだ。</p>
-<p>同社によると、AI支出はサービスからアプリケーション、半導体、デバイスに至るまで幅広い分野で拡大するという。特に、生成AIモデルを含むソフトウェア分野や、GPUを中心としたAI最適化サーバー、AI処理用半導体の需要が市場成長を牽引するとしている。</p>
-<h2>サービスからデバイスまで、多様な分野で拡大</h2>
-<p>AIサービス市場は2024年の2,594億ドルから2026年には3,246億ドルに増加。AIアプリケーションソフトウェアは同期間に3倍以上となる見通しだ。さらに、生成AIスマートフォンの出荷も堅調で、2026年には3,930億ドルに迫ると予測されている。</p>
-<p><strong>GartnerによるAI支出予測</strong> ：2025年に1.5兆ドル、2026年には2兆ドルを突破（単位：百万USドル）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gartner_table2_f8fb4a4adf/gartner_table2_f8fb4a4adf.jpg" alt="gartner table2.jpg" /></p>
-<h2>成長を牽引する要因</h2>
-<p>Gartnerは、生成AIの普及とAI機能を組み込んだデバイスの急速な広がりが市場拡大の主因だと分析している。また、GPUを中心とした半導体やクラウドインフラへの投資が継続的に増加しており、企業や消費者双方からの需要が市場を押し上げている。</p>
-<h2>今後の展望</h2>
-<p>同社は、2027年以降もAI支出は増加を続けると見込む。生成AIの業務活用が加速し、アプリケーションとサービス分野の投資がさらに拡大すると予想される。ガートナーは「AIは産業全体に浸透し、今後数年で世界のIT支出の中核的存在になる」としている。</p>
-]]></description>
-      <pubDate>Tue, 23 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI活用の脳深部刺激で「慢性的な痛み」を軽減──カリフォルニア大学サンフランシスコ校研究チームが発表</title>
-      <link>https://ledge.ai/articles/ai_brain_stimulation_chronic_pain_relief_ucsf</link>
-      <description><![CDATA[<p>カリフォルニア大学サンフランシスコ校（UCSF）を中心とする研究チームは、AIを活用して患者ごとに最適化した脳深部刺激（DBS）を行い、慢性的な痛みを軽減できる可能性を示した。成果はプレプリント論文として2025年8月13日に<a href="https://www.medrxiv.org/content/10.1101/2025.08.11.25333010v1">公開</a>されている。</p>
-<h2>自動調整する脳深部刺激の仕組み</h2>
-<p>研究では、従来の薬物療法で十分な効果が得られなかった患者を対象に、脳に電極を埋め込み、神経活動をリアルタイムにモニタリングした。そのデータをAIが解析し、痛みに関連する脳活動パターンを検出すると、自動で電気刺激を調整する仕組みを導入した。あらかじめ設定した刺激を与える従来の方式に対し、患者の状態に応じて刺激を最適化する点が特徴である。</p>
-<p><strong>AIを活用した脳深部刺激（DBS）の仕組み。患者の脳活動をリアルタイムに解析し、痛みの状態に応じて刺激を自動的に最適化するプロセスを示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/F1_large_0342252908/F1_large_0342252908.jpg" alt="F1.large.jpg" /></p>
-<h2>痛みの軽減効果と意義</h2>
-<p>実験では、患者が訴える痛みの強さが軽減する効果が確認された。研究チームは、AIによる個別化が治療効果を高めるとともに、副作用を抑制する可能性があると指摘している。脳深部刺激はこれまでもパーキンソン病やてんかんで用いられてきたが、慢性的な痛みへの応用は新たな展開となる。</p>
-<h2>今後の展望</h2>
-<p>慢性的な痛みは世界人口の約2割が抱えるとされ、生活の質を大きく損なう要因になっている。既存の薬物療法やリハビリでは対応が難しいケースも多く、新たな治療法の開発が求められてきた。神経科学とAIを組み合わせた今回の研究は、そうした課題に対し「パーソナライズ医療」の新しい方向性を提示するものといえる。</p>
-<p>今回の成果は少数の患者を対象とした初期段階の研究にとどまっており、大規模な臨床試験や長期的な追跡調査が不可欠である。それでも、AIを活用した自動調整型の脳深部刺激が「長引く痛み」に苦しむ患者に新たな選択肢をもたらす可能性は高く、今後の実用化に期待が集まっている。</p>
-]]></description>
-      <pubDate>Tue, 23 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に──MicrosoftもAnthropicのAIモデル導入を模索か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_file_creation_excel_pdf_powerpoint</link>
-      <description><![CDATA[<p>Anthropicは2025年9月9日（現地時間）、生成AI「Claude」がチャットインターフェース内でExcelスプレッドシート、ドキュメント、PowerPointスライド、PDFを直接作成・編集できるようになったと公式ブログで<a href="https://www.anthropic.com/news/create-files">発表</a>した。新機能「Upgraded file creation and analysis」により、Claudeはテキスト生成にとどまらず、オフィス業務を包括的に支援する生産性ツールへと進化する。</p>
-<p>発表によると、Excelでは複数シートや数式、ダッシュボードを含む高度な作業が可能となり、文書やスライドの生成・編集、PDFの要約や修正も実現する。利用シナリオとしては、財務モデルの構築、請求書データの整理、統計分析やチャート作成、レポート整形などが想定されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=EV89Ws8Ui9Y">YouTube</a></p>
-<p>この機能は現在、ClaudeのMax、Team、Enterpriseプランのユーザーにプレビュー提供されており、Proプランにも発表から数週間以内に展開される予定だという。実行環境はプライベートな「サンドボックス」であり、管理者が機能をオン／オフできる仕組みも導入されている。もっとも、一部の専門家からは機密情報取り扱いに関するリスクへの懸念も示されている。</p>
-<p>こうした機能拡張の背景として、業界ではMicrosoftの動きも注目されている。米メディアのthe Informationは「Microsoft to Buy AI From Anthropic in Partial Shift From OpenAI」と題した記事を<a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">掲載</a>し、MicrosoftがOpenAIとの提携を維持しつつ、Anthropicの技術導入も進めていると報じた。</p>
-<p>9月11日、MicrosoftとOpenAIが提携条件を見直す拘束力のない覚書（MOU）に署名したと共同声明で発表しており、両社の関係変化も今後の注目点となる。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
-      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
-      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
-<h2>問題の発生と調査開始</h2>
-<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
-<h2>判明した3つのバグ</h2>
-<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
-<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
-<ul>
-<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
-<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
-<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
-</ul>
-<h3>2. 出力破損（Output Corruption）</h3>
-<ul>
-<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
-<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
-<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
-</ul>
-<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
-<ul>
-<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
-<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
-<h2>修正と再発防止策</h2>
-<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
-<h2>今後の方針</h2>
-<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
       <link>https://ledge.ai/articles/context_engineering_deepmind</link>
       <description><![CDATA[<p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https://www.philschmid.de/context-engineering">提起</a>した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
@@ -539,160 +421,39 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>筆者プロフィール
 フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
 ]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
-      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
-      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
-<h2>プランごとの利用上限</h2>
-<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
-<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
-<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
-      <link>https://ledge.ai/articles/humanoid_robot_skateboard_cyborg_ai</link>
-      <description><![CDATA[<p>2025年9月11日、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）、国際電気通信基礎技術研究所（ATR）、京都大学は、ヒューマノイドロボットに「サイボーグAI」を搭載し、人間の動きを模倣（みまね）学習させることで、スケートボードの複雑な技を人並みのリアルタイムで実行することに成功したと<a href="https://www.nedo.go.jp/news/press/AA5_101886.html">発表</a>した。</p>
-<p>同技術では、人間のスケーターから脳波や身体の座標データを取得し、サイバー空間で再現。その上で、身長や体重などの差異を補正した動きをロボットに実装した。従来の模倣学習が上下方向の動きにとどまっていたのに対し、前後・左右の移動や体軸の傾き回復など全身制御を含む運動が可能となった。</p>
-<p>実証実験の舞台となったのは、ATR内に整備された「ロボットスケートパーク」。曲率の変化があるコースでのスラローム走行や障害物回避など、これまで困難だった高度な運動を、ロボットが転倒せずにこなす様子が確認された。</p>
-<p>この成果は、介護やリハビリ支援、物流分野での運搬など、現実社会での応用につながると期待されている。研究グループは「人並みの実時間運動性能を備えたロボットが、人間の生活を支援する未来に向けた重要な一歩」としている。</p>
-<p>発表にあわせて、9月11日にはATRの実験棟で見学会も行われ、関係者に成果が<a href="https://bicr.atr.jp/bri/">公開</a>された。</p>
-<p>今回の研究は、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の支援事業の一環として実施された。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhone 17が9/19発売──iOS 26、Apple Intelligenceは翻訳や生成機能を拡充も“大規模刷新”は見送り</title>
-      <link>https://ledge.ai/articles/iphone17_ios26_apple_intelligence_update</link>
-      <description><![CDATA[<p>2025年9月9日（米国時間）に、最新スマートフォン「iPhone 17」シリーズを<a href="https://www.apple.com/jp/newsroom/2025/09/apple-debuts-iphone-17/">発表</a>したAppleは16日、新OS「<a href="https://www.apple.com/jp/os/ios/">iOS 26</a>」を公開し、同社のAI機能群「Apple Intelligence」に新たな機能を追加した。翻訳や生成機能の拡充が中心で、一部の機能は対応機種に制限がある。</p>
-<p>同社の<a href="https://www.apple.com/jp/newsroom/2025/09/new-versions-of-apples-software-platforms-are-now-available/">ニュースルーム</a>では、iOS 26におけるApple Intelligenceの新機能が公表された。主な内容は以下の通り。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ios26_intelligence_7caf31bc7a/ios26_intelligence_7caf31bc7a.jpg" alt="ios26 intelligence.jpg" /></p>
-<ul>
-<li><strong>ライブ翻訳</strong> ：Messages、FaceTime、電話通話でリアルタイムの翻訳と字幕表示を提供。AirPodsを使った対面会話の翻訳にも対応。</li>
-<li><strong>Visual Intelligenceの進化</strong> ：スクリーンショットを撮影し、ChatGPTに直接質問できる。また、GoogleやEtsyなどのアプリを使い、類似画像や商品の検索が可能。</li>
-<li><strong>Genmoji / Image Playground</strong> ：絵文字を生成したり、画像にスタイルを付与して生成する機能を提供。</li>
-<li><strong>Workout Buddy</strong> ：Apple WatchとAirPodsを組み合わせて利用し、ワークアウト中にパーソナライズされた励ましの音声を提供。</li>
-<li><strong>ショートカット連携</strong> ：PDFからの情報抽出や文書要約、テキストからの画像生成を自動化する新しいアクションを提供。</li>
-</ul>
-<h2>プライバシー重視の設計</h2>
-<p>Appleは、Apple Intelligenceの処理が基本的にオンデバイスで行われることを説明している。複雑な処理は「Private Cloud Compute」を介して実行され、Appleにデータが保存・共有されることはないとしている。</p>
-<h2>対応機種の範囲</h2>
-<p>Apple Intelligenceの主要機能はiPhone 15 Pro以降、iPhone 16、iPhone 17シリーズに対応していると<a href="https://9to5mac.com/2025/08/19/apple-intelligence-new-features-in-ios-26-full-list/">9to5Mac</a>が報じている。また、古いモデルでもiOS 26へのアップデートは可能だが、AI機能の多くは利用できないとされる。</p>
-<h2>今後の展開</h2>
-<p>今回の発表について「Apple Intelligenceは確実な進化を示したが、Siriのメジャーアップグレードやオンデバイス大規模モデル活用といった期待された大規模な変化は含まれていなかった」と各メディアは報じている。</p>
-<p>Appleはソフトウェアアップデートを通じてApple Intelligenceの機能を順次拡充していく予定としている。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
-      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
-      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
-<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
-<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
-<h2>主な発見</h2>
-<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
-<ul>
-<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
-<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
-<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
-</ul>
-<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
-<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
-<h2>人とAIの協働に関する新しい視点</h2>
-<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
+      <title>Gartner、世界のAI支出が2025年に1.5兆ドル、2026年には2兆ドル超に達すると予測</title>
+      <link>https://ledge.ai/articles/gartner_ai_spending_2025_2026_forecast</link>
+      <description><![CDATA[<p>米調査会社Gartnerは2025年9月17日、世界のAI関連支出が2025年に1兆5,000億ドル（約220兆円）に達し、2026年には2兆ドル（約290兆円）を突破するとの最新予測を<a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025">発表</a>した。2024年の9,879億ドルから急速に拡大し、わずか2年で2倍以上に伸びる見通しだ。</p>
+<p>同社によると、AI支出はサービスからアプリケーション、半導体、デバイスに至るまで幅広い分野で拡大するという。特に、生成AIモデルを含むソフトウェア分野や、GPUを中心としたAI最適化サーバー、AI処理用半導体の需要が市場成長を牽引するとしている。</p>
+<h2>サービスからデバイスまで、多様な分野で拡大</h2>
+<p>AIサービス市場は2024年の2,594億ドルから2026年には3,246億ドルに増加。AIアプリケーションソフトウェアは同期間に3倍以上となる見通しだ。さらに、生成AIスマートフォンの出荷も堅調で、2026年には3,930億ドルに迫ると予測されている。</p>
+<p><strong>GartnerによるAI支出予測</strong> ：2025年に1.5兆ドル、2026年には2兆ドルを突破（単位：百万USドル）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gartner_table2_f8fb4a4adf/gartner_table2_f8fb4a4adf.jpg" alt="gartner table2.jpg" /></p>
+<h2>成長を牽引する要因</h2>
+<p>Gartnerは、生成AIの普及とAI機能を組み込んだデバイスの急速な広がりが市場拡大の主因だと分析している。また、GPUを中心とした半導体やクラウドインフラへの投資が継続的に増加しており、企業や消費者双方からの需要が市場を押し上げている。</p>
 <h2>今後の展望</h2>
-<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
+<p>同社は、2027年以降もAI支出は増加を続けると見込む。生成AIの業務活用が加速し、アプリケーションとサービス分野の投資がさらに拡大すると予想される。ガートナーは「AIは産業全体に浸透し、今後数年で世界のIT支出の中核的存在になる」としている。</p>
 ]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 23 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
-      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
-      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
-<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
-<h2>製品概要</h2>
-<ul>
-<li>名称：「Meta Ray-Ban Display」</li>
-<li>発表日：2025年9月18日</li>
-<li>発売日：米国で9月30日より</li>
-<li>価格：799ドル（Meta Neural Band 同梱）</li>
-<li>提供カラー：Black、Sand</li>
-<li>レンズ：Transitions®レンズ</li>
-</ul>
-<h2>主な特徴</h2>
-<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
-<h2>Neural Band との連携</h2>
-<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
-<h2>利用時間と充電</h2>
-<ul>
-<li>グラス本体：通常使用で約6時間</li>
-<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
-<li>Neural Band：約18時間稼働</li>
-</ul>
-<h2>展開スケジュール</h2>
-<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
+      <title>AI活用の脳深部刺激で「慢性的な痛み」を軽減──カリフォルニア大学サンフランシスコ校研究チームが発表</title>
+      <link>https://ledge.ai/articles/ai_brain_stimulation_chronic_pain_relief_ucsf</link>
+      <description><![CDATA[<p>カリフォルニア大学サンフランシスコ校（UCSF）を中心とする研究チームは、AIを活用して患者ごとに最適化した脳深部刺激（DBS）を行い、慢性的な痛みを軽減できる可能性を示した。成果はプレプリント論文として2025年8月13日に<a href="https://www.medrxiv.org/content/10.1101/2025.08.11.25333010v1">公開</a>されている。</p>
+<h2>自動調整する脳深部刺激の仕組み</h2>
+<p>研究では、従来の薬物療法で十分な効果が得られなかった患者を対象に、脳に電極を埋め込み、神経活動をリアルタイムにモニタリングした。そのデータをAIが解析し、痛みに関連する脳活動パターンを検出すると、自動で電気刺激を調整する仕組みを導入した。あらかじめ設定した刺激を与える従来の方式に対し、患者の状態に応じて刺激を最適化する点が特徴である。</p>
+<p><strong>AIを活用した脳深部刺激（DBS）の仕組み。患者の脳活動をリアルタイムに解析し、痛みの状態に応じて刺激を自動的に最適化するプロセスを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/F1_large_0342252908/F1_large_0342252908.jpg" alt="F1.large.jpg" /></p>
+<h2>痛みの軽減効果と意義</h2>
+<p>実験では、患者が訴える痛みの強さが軽減する効果が確認された。研究チームは、AIによる個別化が治療効果を高めるとともに、副作用を抑制する可能性があると指摘している。脳深部刺激はこれまでもパーキンソン病やてんかんで用いられてきたが、慢性的な痛みへの応用は新たな展開となる。</p>
 <h2>今後の展望</h2>
-<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
+<p>慢性的な痛みは世界人口の約2割が抱えるとされ、生活の質を大きく損なう要因になっている。既存の薬物療法やリハビリでは対応が難しいケースも多く、新たな治療法の開発が求められてきた。神経科学とAIを組み合わせた今回の研究は、そうした課題に対し「パーソナライズ医療」の新しい方向性を提示するものといえる。</p>
+<p>今回の成果は少数の患者を対象とした初期段階の研究にとどまっており、大規模な臨床試験や長期的な追跡調査が不可欠である。それでも、AIを活用した自動調整型の脳深部刺激が「長引く痛み」に苦しむ患者に新たな選択肢をもたらす可能性は高く、今後の実用化に期待が集まっている。</p>
 ]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_usage_report_2025</link>
-      <description><![CDATA[<p>OpenAIは2025年9月15日（現地時間）、対話型AI「ChatGPT」の消費者利用実態を初めて体系的に<a href="https://openai.com/index/how-people-are-using-chatgpt/">公開</a>した。調査結果は、全米経済研究所（NBER）のワーキングペーパー「<a href="https://www.nber.org/papers/w34255">How People Use ChatGPT</a>」（2025年9月）としてまとめられている。</p>
-<h2>世界規模で拡大する利用</h2>
-<p>論文によると、ChatGPTは2025年7月時点で世界の成人の約10%にあたる7億人が毎週利用し、1日あたり25億件以上のメッセージがやり取りされている。2022年の公開からわずか2年半での急速な普及は前例がないという。</p>
-<p><strong>週次利用者数の推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6.jpg" alt="Weekly active ChatGPT users on consumer plans.jpg" /></p>
-<h2>非仕事利用が主流に</h2>
-<p>2024年6月時点で53%だった非仕事利用は、2025年6月には73%に達した。家庭内での調べものや学習支援など、日常生活に根付く形で利用が広がっている。</p>
-<p><strong>非仕事利用の割合推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/messages_not_related_to_work_fef67ce892/messages_not_related_to_work_fef67ce892.jpg" alt="messages not related to work.jpg" /></p>
-<h2>利用内容の内訳</h2>
-<p>会話テーマの分析では、「実用的アドバイス（Practical Guidance）」「情報検索（Seeking Information）」「ライティング（Writing）」が全体の77%を占めた。特にライティングは仕事利用において中心的で、メールや報告書の作成、文章の編集や翻訳が多いという。コーディング関連は全体の4.2%、人間関係や自己表現は2.4%にとどまった。</p>
-<h2>ユーザー層の変化</h2>
-<p>利用者層の特徴としては、初期に見られた男性中心の傾向が薄れ、2025年半ばには女性名のアカウントが過半数を占めるまでになった。また、26歳未満の若年層が全体の約半数を占め、低～中所得国での利用増加も顕著となっている。</p>
-<h2>職業別の利用傾向</h2>
-<ul>
-<li>管理・ビジネス職：ライティングが過半数を占める。</li>
-<li>IT関連職：プログラミングやデータ処理などのテクニカルヘルプが37%。</li>
-<li>共通点：業種を問わず「意思決定・問題解決」「情報取得」に多く使われる。</li>
-</ul>
-<h2>ユーザーの意図</h2>
-<p>ユーザーのリクエストは以下の3分類に整理された。</p>
-<ul>
-<li>Asking（助言・情報）：49%</li>
-<li>Doing（作業依頼）：40%</li>
-<li>Expressing（感情表現など）：11%</li>
-</ul>
-<p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
-<p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
-]]></description>
-      <pubDate>Sat, 20 Sep 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
-      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
-      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
-<h2>AI時代の中核インフラへ</h2>
-<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
-<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
-<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
-<h2>性能と持続可能性の両立</h2>
-<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
-<h2>今後の展望</h2>
-<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
-]]></description>
-      <pubDate>Wed, 17 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Tue, 23 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/3 [WED]【日本HP・オートデスクが登壇！】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
@@ -766,6 +527,210 @@ Autodesk AI は、自動化・解析・拡張性を重視し、製造・建築�
 :::</p>
 ]]></description>
       <pubDate>Wed, 03 Sep 2025 08:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
+      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
+      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
+<h2>問題の発生と調査開始</h2>
+<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
+<h2>判明した3つのバグ</h2>
+<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
+<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
+<ul>
+<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
+<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
+<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
+</ul>
+<h3>2. 出力破損（Output Corruption）</h3>
+<ul>
+<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
+<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
+<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
+</ul>
+<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
+<ul>
+<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
+<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
+<h2>修正と再発防止策</h2>
+<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
+<h2>今後の方針</h2>
+<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
+      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
+      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
+<h2>プランごとの利用上限</h2>
+<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
+<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
+<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ヒューマノイドロボット、スケートボードで人並みの技を披露 ― 京大・ATRが「サイボーグAI」で実時間運動性能を実現</title>
+      <link>https://ledge.ai/articles/humanoid_robot_skateboard_cyborg_ai</link>
+      <description><![CDATA[<p>2025年9月11日、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）、国際電気通信基礎技術研究所（ATR）、京都大学は、ヒューマノイドロボットに「サイボーグAI」を搭載し、人間の動きを模倣（みまね）学習させることで、スケートボードの複雑な技を人並みのリアルタイムで実行することに成功したと<a href="https://www.nedo.go.jp/news/press/AA5_101886.html">発表</a>した。</p>
+<p>同技術では、人間のスケーターから脳波や身体の座標データを取得し、サイバー空間で再現。その上で、身長や体重などの差異を補正した動きをロボットに実装した。従来の模倣学習が上下方向の動きにとどまっていたのに対し、前後・左右の移動や体軸の傾き回復など全身制御を含む運動が可能となった。</p>
+<p>実証実験の舞台となったのは、ATR内に整備された「ロボットスケートパーク」。曲率の変化があるコースでのスラローム走行や障害物回避など、これまで困難だった高度な運動を、ロボットが転倒せずにこなす様子が確認された。</p>
+<p>この成果は、介護やリハビリ支援、物流分野での運搬など、現実社会での応用につながると期待されている。研究グループは「人並みの実時間運動性能を備えたロボットが、人間の生活を支援する未来に向けた重要な一歩」としている。</p>
+<p>発表にあわせて、9月11日にはATRの実験棟で見学会も行われ、関係者に成果が<a href="https://bicr.atr.jp/bri/">公開</a>された。</p>
+<p>今回の研究は、国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）の支援事業の一環として実施された。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ロボットと暮らす住宅を初公開──リビングロボットと藤田医科大、生活支援ロボットを導入した“人協調型ロボティクス住宅”を発表</title>
+      <link>https://ledge.ai/articles/living_robot_fujita_robotech_house</link>
+      <description><![CDATA[<p>リビングロボットは2025年9月18日、藤田医科大学リハビリテーション部門と共同開発した生活支援ロボットやシステムを導入した「人協調型ロボティクス住宅」を<a href="https://prtimes.jp/main/html/rd/p/000000057.000094064.html">発表</a>した。名古屋市熱田区のサンヨーホームズ株式会社の住宅展示場に設置され、9月20日から特定日に一般公開が行われる。</p>
+<h2>社会課題への対応として開発</h2>
+<p>同社は、少子高齢化や介護人材不足といった社会課題を背景に、人とロボットが協調する住まいの新たな形を提示。今回の取り組みは、内閣府の戦略的イノベーション創造プログラム（SIP）「人協調型ロボティクスの拡大に向けた基盤技術・ルールの整備」に採択された研究の一環でもある。</p>
+<p>展示住宅は、名古屋市熱田区の「神宮東 中日ハウジングセンター」内にあるサンヨーホームズの住宅展示場に設置された。一般公開は2025年9月20日（土）、21日（日）、27日（土）、28日（日）の4日間が予定されている。</p>
+<h2>生活を支えるロボットとシステム</h2>
+<p>住宅には、以下の生活支援ロボットやシステムが導入されている。</p>
+<ul>
+<li><strong>見守りロボット「WeeGo（ウィーゴ）」</strong> ：小型で会話機能を持ち、居住者に気づきを促す。</li>
+<li><strong>メカトロメイトQ</strong> ：移動や通話機能を備えたロボット。</li>
+<li><strong>移動・移乗支援ロボット</strong> ：車いす型で、住宅内の移動や乗り移りをサポート。</li>
+<li><strong>センサー群</strong> ：生活・活動データ（運動、睡眠など）や住環境データ（温湿度、CO₂濃度、照度、窓開閉など）を収集。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_9f5bef2d74/sub1_9f5bef2d74.jpg" alt="sub1.jpg" /></p>
+<p>これらの仕組みにより、熱中症予防や転倒時の通報、侵入者検知など、安全で快適な暮らしを支援する機能が提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_06affc0937/sub2_06affc0937.jpg" alt="sub2.jpg" /></p>
+<h2>今後の展望</h2>
+<p>リビングロボットは今回の公開を通じて、一般生活者が新しい住環境を体験する場を提供するとともに、社会実装に向けた実証を重ねていく方針だ。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
+      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
+      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
+<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
+<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
+<h2>主な発見</h2>
+<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
+<ul>
+<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
+<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
+<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
+</ul>
+<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
+<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
+<h2>人とAIの協働に関する新しい視点</h2>
+<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
+<h2>今後の展望</h2>
+<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
+      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
+      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
+<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
+<h2>製品概要</h2>
+<ul>
+<li>名称：「Meta Ray-Ban Display」</li>
+<li>発表日：2025年9月18日</li>
+<li>発売日：米国で9月30日より</li>
+<li>価格：799ドル（Meta Neural Band 同梱）</li>
+<li>提供カラー：Black、Sand</li>
+<li>レンズ：Transitions®レンズ</li>
+</ul>
+<h2>主な特徴</h2>
+<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
+<h2>Neural Band との連携</h2>
+<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
+<h2>利用時間と充電</h2>
+<ul>
+<li>グラス本体：通常使用で約6時間</li>
+<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
+<li>Neural Band：約18時間稼働</li>
+</ul>
+<h2>展開スケジュール</h2>
+<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
+<h2>今後の展望</h2>
+<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、世界最強のAIデータセンター「Fairwater」建設計画を発表──数十万のNVIDIA製GPUを搭載しスーパーコンピューターの10倍性能へ</title>
+      <link>https://ledge.ai/articles/microsoft_fairwater_ai_datacenter_launch</link>
+      <description><![CDATA[<p>Microsoftは2025年9月18日（現地時間）、ウィスコンシン州に新たなAIデータセンター「Fairwater」を建設すると<a href="https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/">発表</a>した。同社は「世界最強のAIデータセンター」と位置づけており、完成後にはNVIDIA製GPUを数十万台規模で配備し、既存のスーパーコンピューターを大きく上回る計算能力を備える見込みだ</p>
+<h2>AI時代の中核インフラへ</h2>
+<p>Microsoftによると、Fairwaterは生成AIや科学研究、産業利用といった幅広い領域を支える計算基盤となることを目指している。特に近年急拡大する生成AI需要に対応し、同社のクラウド基盤「Azure」を通じてグローバルに提供されるAIサービスを強化する役割を担う。</p>
+<p>現在、Microsoftは世界でおよそ400のデータセンターを展開している。Fairwaterはそれらを補完しつつ、AI専用に設計された次世代拠点として位置づけられている。</p>
+<p><strong>Microsoft データセンター内の AI インフラストラクチャ サーバーの高密度クラスター</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Image_2_Datacenter_aa58b955f5/OMB_Image_2_Datacenter_aa58b955f5.jpg" alt="OMB-Image-2-Datacenter.jpg" /></p>
+<h2>性能と持続可能性の両立</h2>
+<p>Fairwaterは、既存のスーパーコンピューターに比べて約10倍の性能を誇る計画だ。そのために数十万台規模のNVIDIA製GPUを導入する。さらに、エネルギー効率と持続可能性も重視されており、再生可能エネルギーの積極的な活用が盛り込まれている。</p>
+<h2>今後の展望</h2>
+<p>MicrosoftはFairwaterを起点に、今後も米国内外でのデータセンター投資を続ける方針だ。これにより、AIの研究開発や産業応用を一層加速させ、世界的にAI基盤の提供力を高めていくとしている。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
+      <link>https://ledge.ai/articles/microsoft_microfluidics_ai_chip_cooling</link>
+      <description><![CDATA[<p>Microsoftは2025年9月24日、AIチップの性能向上に伴う深刻な発熱問題に対処するため、新しい液体冷却技術「マイクロ流体冷却」の開発・テストに成功したと<a href="https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/">発表</a>した。シリコン基板に微細な流路を刻み、冷却液を直接循環させる方式で、従来の冷却プレートと比べ最大3倍の効率を達成したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=MZBwLi3ajYE">YouTube</a></p>
+<p>近年、AIチップは大規模言語モデルや生成AIの処理需要に対応するため高性能化が進んでいる。その一方で、発熱量は急増し、従来の空冷や液冷では限界が見え始めていた。Microsoftは「冷却技術の進歩がなければ、数年以内にAIチップ開発は頭打ちになる可能性がある」と警鐘を鳴らしている。</p>
+<h2>新技術「マイクロ流体冷却」の仕組み</h2>
+<p>同社が開発した「マイクロ流体冷却」は、チップのシリコン基板に微細な流路を直接形成し、その中に液体を流すことで効率的に熱を除去する仕組みだ。GPU内部の温度上昇を65%低減し、従来の冷却プレート方式と比べ最大3倍の冷却効率を実現したとされる。</p>
+<h2>Corintis社との協力</h2>
+<p>この取り組みは、スイスのスタートアップCorintisとの共同研究に基づく。自然界の葉脈や蝶の羽に着想を得た「バイオインスパイアード設計」を採用し、AIを用いて冷却液の流路や循環を最適化している。これにより、チップ上で最も高温になる“ホットスポット”を効率的に冷却できるようになった。</p>
+<h2>持続可能性への影響</h2>
+<p>Microsoftは、Teams会議をシミュレートしたサーバー環境で同技術をテスト。実験室レベルでの検証において、従来技術を大幅に上回る冷却性能を確認した。これにより、実用化に向けた有効性が示された形だ。</p>
+<p>マイクロ流体冷却は、データセンターの電力使用効率（PUE）の改善や運用コスト削減にもつながるとされる。冷却技術の革新は、環境負荷を低減しつつ、大規模AIインフラの持続可能な発展を支える重要な鍵になるとみられる。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIがChatGPT利用実態を初公開──7億人が毎週利用、非仕事用途が7割に</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_usage_report_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年9月15日（現地時間）、対話型AI「ChatGPT」の消費者利用実態を初めて体系的に<a href="https://openai.com/index/how-people-are-using-chatgpt/">公開</a>した。調査結果は、全米経済研究所（NBER）のワーキングペーパー「<a href="https://www.nber.org/papers/w34255">How People Use ChatGPT</a>」（2025年9月）としてまとめられている。</p>
+<h2>世界規模で拡大する利用</h2>
+<p>論文によると、ChatGPTは2025年7月時点で世界の成人の約10%にあたる7億人が毎週利用し、1日あたり25億件以上のメッセージがやり取りされている。2022年の公開からわずか2年半での急速な普及は前例がないという。</p>
+<p><strong>週次利用者数の推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6/Weekly_active_Chat_GPT_users_on_consumer_plans_9236d1b4f6.jpg" alt="Weekly active ChatGPT users on consumer plans.jpg" /></p>
+<h2>非仕事利用が主流に</h2>
+<p>2024年6月時点で53%だった非仕事利用は、2025年6月には73%に達した。家庭内での調べものや学習支援など、日常生活に根付く形で利用が広がっている。</p>
+<p><strong>非仕事利用の割合推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/messages_not_related_to_work_fef67ce892/messages_not_related_to_work_fef67ce892.jpg" alt="messages not related to work.jpg" /></p>
+<h2>利用内容の内訳</h2>
+<p>会話テーマの分析では、「実用的アドバイス（Practical Guidance）」「情報検索（Seeking Information）」「ライティング（Writing）」が全体の77%を占めた。特にライティングは仕事利用において中心的で、メールや報告書の作成、文章の編集や翻訳が多いという。コーディング関連は全体の4.2%、人間関係や自己表現は2.4%にとどまった。</p>
+<h2>ユーザー層の変化</h2>
+<p>利用者層の特徴としては、初期に見られた男性中心の傾向が薄れ、2025年半ばには女性名のアカウントが過半数を占めるまでになった。また、26歳未満の若年層が全体の約半数を占め、低～中所得国での利用増加も顕著となっている。</p>
+<h2>職業別の利用傾向</h2>
+<ul>
+<li>管理・ビジネス職：ライティングが過半数を占める。</li>
+<li>IT関連職：プログラミングやデータ処理などのテクニカルヘルプが37%。</li>
+<li>共通点：業種を問わず「意思決定・問題解決」「情報取得」に多く使われる。</li>
+</ul>
+<h2>ユーザーの意図</h2>
+<p>ユーザーのリクエストは以下の3分類に整理された。</p>
+<ul>
+<li>Asking（助言・情報）：49%</li>
+<li>Doing（作業依頼）：40%</li>
+<li>Expressing（感情表現など）：11%</li>
+</ul>
+<p>特に仕事利用ではDoingが56%を占め、その多くがライティング関連だった。</p>
+<p>研究チームは「ChatGPTは作業そのものの代替にとどまらず、知識集約型の職業における意思決定支援としての価値が高い」と指摘している。今回の調査は、生成AIが業務効率化に加え、学習や生活の場面でも定着しつつある現状を裏付けるものとなった。</p>
+]]></description>
+      <pubDate>Sun, 06 Jul 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
