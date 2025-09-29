@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Photoshop、外部AIモデルを初統合──Google「Nano Banana」とBlack Forest Labsの「FLUX.1 Kontext」が生成塗りつぶしに対応</title>
+      <link>https://ledge.ai/articles/photoshop_generative_fill_gemini_flux_integration</link>
+      <description><![CDATA[<p>Adobeは2025年9月25日、Photoshopの「生成塗りつぶし（Generative Fill）」機能に、Googleの画像生成モデル「Gemini 2.5 Flash Image（Nano Banana）」と、Black Forest Labsの「FLUX.1 Kontext [pro]」を統合したと<a href="https://blog.adobe.com/en/publish/2025/09/25/photoshop-beta-expands-generative-fillmore-ai-models-more-possibilities">発表</a>した。これにより、ユーザーはAdobe独自のFireflyモデルに加え、外部AIモデルを切り替えて利用できるようになる。</p>
+<h2>外部AIモデルが初めてPhotoshopに統合</h2>
+<p>今回の更新は、Photoshopが自社モデル中心から一歩踏み出し、外部の生成AIモデルを取り込む初の事例となる。Adobe公式ブログによれば、Nano BananaとFLUX.1 Kontext [pro]はいずれもPhotoshopベータ版のユーザーが利用可能で、選択範囲を指定したうえでプロンプト入力を行うと、モデルを切り替えて生成や編集を実行できる。
+なお、Adobeは昨年動画編集ソフトのPremiere Proにおいて、OpenAIのSoraやRunway、Pika Labsなど外部の動画生成モデルの統合予定を<a href="https://ledge.ai/articles/adobe_premiere_pro_sora">発表</a>しているが、Photoshopへの外部モデル導入は今回が初めてとなる。</p>
+<h2>Nano Bananaの特徴</h2>
+<p>Googleが開発した「Gemini 2.5 Flash Image（Nano Banana）」は、スタイル変換やグラフィック要素の追加、視覚効果の生成に強みを持つ。Photoshop内ではFireflyと同様の操作感で利用でき、用途に応じたモデルの選択が可能となる。</p>
+<p><strong>Googleの「Gemini 2.5 Flash Image（Nano Banana）」を使った生成塗りつぶしの例。衣服や背景を置き換え、黄色い鳥を追加するなど複数の変更を一度に適用できる。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_195028b2e137ad3d6178196faeab0ef497afee9d5_8a49af01ee/media_195028b2e137ad3d6178196faeab0ef497afee9d5_8a49af01ee.jpg" alt="media_195028b2e137ad3d6178196faeab0ef497afee9d5.jpg" /></p>
+<h2>FLUX.1 Kontext [pro]の特徴</h2>
+<p>一方、Black Forest Labsの「FLUX.1 Kontext [pro]」は、環境や遠近感に調和した生成を得意とする。背景や構図に一貫性を持たせる性能が評価されており、Photoshopでの利用によって「場面全体との整合性」を保ちながらの編集が可能になる。</p>
+<p><strong>Black Forest Labsの「FLUX.1 Kontext [pro]」による生成例。画像全体のコンテキストを保ちながら、巨大な毛糸玉を追加するなど背景との調和を重視した編集が可能。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Adobe_Black_forest_labs_124afb8d27/Adobe_Black_forest_labs_124afb8d27.jpg" alt="Adobe-Black forest labs.jpg" /></p>
+<h2>ベータ版での提供と今後の展開</h2>
+<p>両モデルは現時点ではPhotoshopのベータ版でのみ利用可能。無料トライアル枠の提供も用意されているが、生成回数には制限がある。正式版への導入時期は明らかにされていない。</p>
+]]></description>
+      <pubDate>Sun, 28 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/9/28 [SUN]DeepSeek R1の詳細がNatureに掲載、初の査読付き著名LLMに──開発コストと学習手法を初公開、トレーニング費用はわずか30万ドル</title>
       <link>https://ledge.ai/articles/deepseek_r1_nature_training_cost_300k</link>
       <description><![CDATA[<p>科学誌Natureは2025年9月17日、中国の深究科技（DeepSeek）が開発した推論特化モデルDeepSeek R1を取り上げ、同モデルの開発費用が約30万ドルにとどまったことを<a href="https://www.nature.com/articles/d41586-025-03015-6">報じた</a>。同日にNature誌に掲載された論文では、推論力を「純粋強化学習（RL）」で引き出す独自の訓練パイプラインと、その性能評価の詳細が示された。</p>
@@ -438,22 +458,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>同社は、2027年以降もAI支出は増加を続けると見込む。生成AIの業務活用が加速し、アプリケーションとサービス分野の投資がさらに拡大すると予想される。ガートナーは「AIは産業全体に浸透し、今後数年で世界のIT支出の中核的存在になる」としている。</p>
 ]]></description>
       <pubDate>Tue, 23 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI活用の脳深部刺激で「慢性的な痛み」を軽減──カリフォルニア大学サンフランシスコ校研究チームが発表</title>
-      <link>https://ledge.ai/articles/ai_brain_stimulation_chronic_pain_relief_ucsf</link>
-      <description><![CDATA[<p>カリフォルニア大学サンフランシスコ校（UCSF）を中心とする研究チームは、AIを活用して患者ごとに最適化した脳深部刺激（DBS）を行い、慢性的な痛みを軽減できる可能性を示した。成果はプレプリント論文として2025年8月13日に<a href="https://www.medrxiv.org/content/10.1101/2025.08.11.25333010v1">公開</a>されている。</p>
-<h2>自動調整する脳深部刺激の仕組み</h2>
-<p>研究では、従来の薬物療法で十分な効果が得られなかった患者を対象に、脳に電極を埋め込み、神経活動をリアルタイムにモニタリングした。そのデータをAIが解析し、痛みに関連する脳活動パターンを検出すると、自動で電気刺激を調整する仕組みを導入した。あらかじめ設定した刺激を与える従来の方式に対し、患者の状態に応じて刺激を最適化する点が特徴である。</p>
-<p><strong>AIを活用した脳深部刺激（DBS）の仕組み。患者の脳活動をリアルタイムに解析し、痛みの状態に応じて刺激を自動的に最適化するプロセスを示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/F1_large_0342252908/F1_large_0342252908.jpg" alt="F1.large.jpg" /></p>
-<h2>痛みの軽減効果と意義</h2>
-<p>実験では、患者が訴える痛みの強さが軽減する効果が確認された。研究チームは、AIによる個別化が治療効果を高めるとともに、副作用を抑制する可能性があると指摘している。脳深部刺激はこれまでもパーキンソン病やてんかんで用いられてきたが、慢性的な痛みへの応用は新たな展開となる。</p>
-<h2>今後の展望</h2>
-<p>慢性的な痛みは世界人口の約2割が抱えるとされ、生活の質を大きく損なう要因になっている。既存の薬物療法やリハビリでは対応が難しいケースも多く、新たな治療法の開発が求められてきた。神経科学とAIを組み合わせた今回の研究は、そうした課題に対し「パーソナライズ医療」の新しい方向性を提示するものといえる。</p>
-<p>今回の成果は少数の患者を対象とした初期段階の研究にとどまっており、大規模な臨床試験や長期的な追跡調査が不可欠である。それでも、AIを活用した自動調整型の脳深部刺激が「長引く痛み」に苦しむ患者に新たな選択肢をもたらす可能性は高く、今後の実用化に期待が集まっている。</p>
-]]></description>
-      <pubDate>Tue, 23 Sep 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/3 [WED]【日本HP・オートデスクが登壇！】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
