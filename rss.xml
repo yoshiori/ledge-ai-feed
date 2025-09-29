@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
+      <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
+      <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
+<h2>新モデル「Gemini Robotics 1.5」とは</h2>
+<p>Googleが発表した「Gemini Robotics 1.5」は、同社の大規模言語モデル「Gemini 1.5 Pro」を拡張し、視覚・言語・行動を統合した「Vision-Language-Action（VLA）」モデルとして設計されている。ロボットは環境を理解し、人間の指示に基づいて複数ステップにわたるタスクをこなせるようになった。</p>
+<p>@<a href="https://www.youtube.com/watch?v=AMRxbIO04kQ&amp;t=1s">YouTube</a></p>
+<h2>思考してから行動する仕組み</h2>
+<p>従来のロボティクスAIは与えられた動作を逐次実行することが多かったが、「Gemini Robotics 1.5」は行動前に計画を立てる能力を持つ。これにより、作業の失敗を減らし効率的に遂行できる。たとえば散らかった部屋で物を拾う場合、ロボットは最適な順序や手順を考えてから実行に移す。</p>
+<p><strong>「Gemini Robotics 1.5」の仕組み。ロボットはゴミの分別を例に、行動前に思考・計画を立てるプロセスを経て動作する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b.jpg" alt="GeminiRobotics-Agentic_System.width-1000.format-webp.jpg" /></p>
+<p>@<a href="https://www.youtube.com/watch?v=eDyXEh8XqjM&amp;t=3s">YouTube</a></p>
+<h2>応用例と成果</h2>
+<p>公開されたデモでは、洗濯物の分類やごみ分別など、家庭やオフィスで想定される作業を自律的に行う様子が披露された。ロボットは周囲を観察しながら判断を下し、マルチステップのタスクを適切に処理することができる。</p>
+<p><strong>Gemini Robotics-ER 1.5」は従来モデルよりも学術ベンチマークで高い性能を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6.jpg" alt="GeminiRobotics-blog-figure-2-250.width-1000.format-webp.jpg" /></p>
+<h2>研究開発の背景</h2>
+<p>このモデルは、Google DeepMindとGoogle Researchの共同開発による成果だ。Geminiシリーズの能力を物理世界に応用する取り組みの一環であり、従来のロボットAIよりも抽象的な推論や柔軟な対応が可能になった点が強調されている。</p>
+<p><strong>物体検出や軌道予測など、多様な認識・推論能力を備える「Gemini Robotics 1.5」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b.webp" alt="Screenshot_2025-09-25_at_14.53.4.width-1000.format-webp.webp" /></p>
+<h2>今後の展望</h2>
+<p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
+<p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
+]]></description>
+      <pubDate>Mon, 29 Sep 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【9/29-30限定公開】AI業界のトップランナーが集結した「Ledge.ai Webinar SP」の見逃し配信</title>
       <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor-archive</link>
       <description><![CDATA[<p>国内最大級のAI専門メディア「Ledge.ai」を運営する株式会社レッジは、9月24日から9月26日の3日間にかけて、オンラインイベント「Ledge.ai Webinar SP」を開催した。</p>
@@ -505,22 +531,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
 ]]></description>
       <pubDate>Wed, 24 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gartner、世界のAI支出が2025年に1.5兆ドル、2026年には2兆ドル超に達すると予測</title>
-      <link>https://ledge.ai/articles/gartner_ai_spending_2025_2026_forecast</link>
-      <description><![CDATA[<p>米調査会社Gartnerは2025年9月17日、世界のAI関連支出が2025年に1兆5,000億ドル（約220兆円）に達し、2026年には2兆ドル（約290兆円）を突破するとの最新予測を<a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025">発表</a>した。2024年の9,879億ドルから急速に拡大し、わずか2年で2倍以上に伸びる見通しだ。</p>
-<p>同社によると、AI支出はサービスからアプリケーション、半導体、デバイスに至るまで幅広い分野で拡大するという。特に、生成AIモデルを含むソフトウェア分野や、GPUを中心としたAI最適化サーバー、AI処理用半導体の需要が市場成長を牽引するとしている。</p>
-<h2>サービスからデバイスまで、多様な分野で拡大</h2>
-<p>AIサービス市場は2024年の2,594億ドルから2026年には3,246億ドルに増加。AIアプリケーションソフトウェアは同期間に3倍以上となる見通しだ。さらに、生成AIスマートフォンの出荷も堅調で、2026年には3,930億ドルに迫ると予測されている。</p>
-<p><strong>GartnerによるAI支出予測</strong> ：2025年に1.5兆ドル、2026年には2兆ドルを突破（単位：百万USドル）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gartner_table2_f8fb4a4adf/gartner_table2_f8fb4a4adf.jpg" alt="gartner table2.jpg" /></p>
-<h2>成長を牽引する要因</h2>
-<p>Gartnerは、生成AIの普及とAI機能を組み込んだデバイスの急速な広がりが市場拡大の主因だと分析している。また、GPUを中心とした半導体やクラウドインフラへの投資が継続的に増加しており、企業や消費者双方からの需要が市場を押し上げている。</p>
-<h2>今後の展望</h2>
-<p>同社は、2027年以降もAI支出は増加を続けると見込む。生成AIの業務活用が加速し、アプリケーションとサービス分野の投資がさらに拡大すると予想される。ガートナーは「AIは産業全体に浸透し、今後数年で世界のIT支出の中核的存在になる」としている。</p>
-]]></description>
-      <pubDate>Tue, 23 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/3 [WED]【日本HP・オートデスクが登壇！】「3D CAD × 生成AI」テクノロジーの進化で設計・製造プロセスはどう変わる？業界横断型カンファレンス「GENEX #1」を9月30日に開催</title>
