@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
+      <link>https://ledge.ai/articles/chatgpt_shared_projects_security_update</link>
+      <description><![CDATA[<p>OpenAIは2025年9月25日（現地時間）、ChatGPTにおいて、チームでの共同作業やセキュリティ機能を強化する新機能を<a href="https://openai.com/index/more-ways-to-work-with-your-team/">発表</a>した。新たに「共有プロジェクト」モードを導入するほか、外部アプリとの接続機能やエンタープライズ向けの管理機能を拡充している。</p>
+<h2>共有プロジェクトモードで共同作業を効率化</h2>
+<p>今回のアップデートの中心となるのが「共有プロジェクト」モードだ。これにより、同じワークスペース内のメンバーがチャット、ファイル、カスタムインストラクションを一元的に共有できる。権限は「Chat」と「Edit」の2種類があり、後者ではファイル追加やメンバー招待などが可能となる。さらにプロジェクト専用のメモリが搭載され、長期的なタスクでも文脈を保持したまま進行できるという。</p>
+<p>同機能はChatGPT Business、Enterprise、Eduプランに即日提供され、Free／Go／Plus／Proプランには近日中に展開予定。EnterpriseとEduでは既定でオフとなっており、管理者が制御できるとのこと。</p>
+<h2>サードパーティアプリとの接続拡大</h2>
+<p>OpenAIはまた、外部アプリとChatGPTを直接つなぐ「コネクタ」機能を強化した。現在はGmail、Google Calendar、Microsoft Outlook、Microsoft Teams、SharePoint、GitHub、Dropbox、Boxなどに対応し、情報の取り込みや操作をChatGPTから直接実行できる。</p>
+<p>コネクタは用途に応じて自動的に選択され、回答の速度と正確性が向上。さらに、GitHubやSharePointなどでは同期型コネクタによる事前取り込みにも対応する。既存のアクセス権限は尊重され、Business以上のプランではデータが学習に利用されない。EnterpriseとEduでは既定でオフとなり、管理者が利用可否を制御できる。</p>
+<p><strong>ChatGPTが対応する外部アプリの例（Google Drive、Gmail、GitHub、Notionなど）。今後さらに拡大予定</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Connector_logo_wall_16x9_96f5c1f71e/Connector_logo_wall_16x9_96f5c1f71e.webp" alt="Connector_logo_wall_16x9.webp" /></p>
+<h2>セキュリティとコンプライアンスを強化</h2>
+<p>エンタープライズ利用を想定し、セキュリティ・コンプライアンス機能も拡充された。新たにISO/IEC 27001、27017、27018、27701の認証を取得したほか、SOC 2の適用範囲をSecurity／Confidentiality／Availability／Privacyに拡大。</p>
+<p>また、RBAC（カスタムロール・グループ権限管理）に対応し、アクセス制御を柔軟に設定可能となった。シングルサインオン（SSO）は既存のSAMLに加え、OIDCにも対応。さらにEnterpriseとEduではIP許可リストの設定も可能となり、組織全体での安全性が強化されている。</p>
+<h2>今後の展開</h2>
+<p>新機能はChatGPTにおけるチーム利用を本格化させる第一歩と位置づけられている。OpenAIはブログで「本リリースは、ChatGPTにおけるチームコラボレーションの初期ステップ」と述べ、今後も職場全体での安全な導入を支えるため、機能拡張を続けていく考えを示した。</p>
+]]></description>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
       <link>https://ledge.ai/articles/candle_submarine_cable_softbank_meta_agreement</link>
       <description><![CDATA[<p>ソフトバンクは2025年9月22日、米Metaなど4社と共同で、日本とシンガポールを結ぶ国際海底ケーブル「Candle（キャンドル）」の建設に合意したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250922_01/">発表</a>した。総延長約8,000kmの光海底ケーブルを敷設し、2028年の運用開始を予定している。</p>
