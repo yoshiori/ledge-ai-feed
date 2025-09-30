@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>九州電力・IIJなど5社、「九州版ワット・ビット連携」実証──APN＋光NICで分散DCを直結</title>
+      <link>https://ledge.ai/articles/kyuden_iij_qtnet_1finity_nautilus_wattbit_apn_opticalnic</link>
+      <description><![CDATA[<p>九州電力、インターネットイニシアティブ（IIJ）、QTnet、1FINITY、ノーチラス・テクノロジーズの5社は2025年9月24日、地域分散型デジタルインフラを構築・検証する実証プロジェクトを開始すると<a href="https://www.kyuden.co.jp/press/2025/h250924-1.html">発表</a>した。プロジェクトは2025年10月から始まり、九州における「九州版ワット・ビット連携」の実現を目指す。（実証期間は2025年10月〜2026年3月）</p>
+<h2>「ワット・ビット連携」に基づく取り組み</h2>
+<p>政府が推進する「ワット・ビット連携」の考え方に基づき、九州の再生可能エネルギーを活用しつつ、地域に分散したデータセンター（DC）を連携させる。これにより、電力とIT処理の最適なバランスを図り、持続可能なデジタル基盤の実装を目指す。</p>
+<h2>世界初、光NICによる分散DCの直結</h2>
+<p>同プロジェクトの特徴は、APN（All-Photonics Network）を利用して、複数の小規模DCを光信号のまま接続し、一つのシステムのように機能させる点にある。
+さらに、ネットワークには従来の電気信号ではなく、光信号を直接扱う光ネットワークインタフェースカード（光NIC）を導入。これにより、サーバ間を光信号で直接接続し、従来必要だった伝送装置や電気的変換を省略する。1FINITYの調査によれば、分散DCを光NICで直結する取り組みは世界初（2025年9月24日現在、1Finity調べ）となる。</p>
+<h2>AI処理と分散DBの検証</h2>
+<p>各DCにはAI処理向けのGPUサーバを配置。複数のDCに分散保存されたデータへアクセスし、AI処理を行うための分散データベース技術の検証も進める。これにより、地域ごとに異なる電力供給状況を踏まえ、昼夜や需給状況に応じて柔軟に処理を振り分ける仕組みを模索する。光信号の直結によりネットワーク装置の削減と省電力化も図る。</p>
+<h2>今後の展望</h2>
+<p>5社は、実証を通じて得られた技術的成果をもとに、再生可能エネルギーとデジタルインフラを組み合わせた「九州版ワット・ビット連携」のモデルケースを確立したい考えだ。</p>
+]]></description>
+      <pubDate>Tue, 30 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Dify協会を設立──LangGenius、NTTデータ、日本電子計算がAIアプリ普及を推進</title>
       <link>https://ledge.ai/articles/dify_association_established_langgenius_nttdata_jip</link>
       <description><![CDATA[<p>LangGeniusは2025年9月24日、NTTデータ、日本電子計算と共同で、2025年9月1日付で「一般社団法人Dify協会」を設立したと<a href="https://prtimes.jp/main/html/rd/p/000000010.000166429.html">発表</a>した。AIアプリケーション開発プラットフォーム「Dify」を中核に据え、オープンなエコシステムを形成し、日本におけるAI活用の普及を後押しする。</p>
@@ -691,30 +707,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>今回の機能追加は、デジタルを活用したブランド戦略の一環。資生堂はエリクシールを通じて、顧客一人ひとりに寄り添ったパーソナライズケアの強化を進める方針だ。</p>
 ]]></description>
       <pubDate>Thu, 25 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、ソフトバンク・Oracleと協力し米国に5拠点の新データセンター建設へ――スターゲート計画は目標の10GW中の約70%の計算能力に</title>
-      <link>https://ledge.ai/articles/openai_softbank_oracle_stargate_new_datacenters</link>
-      <description><![CDATA[<p>OpenAIは2025年9月23日（現地時間）、米国内で新たに5つのデータセンターを建設すると<a href="https://openai.com/index/five-new-stargate-sites/">発表</a>した。これは、同社が米Oracleおよびソフトバンク・グループと協力して進める「Stargate」プロジェクトの拡大の一環で、AIインフラの大規模強化を目的としている。</p>
-<h2>5カ所の新拠点を発表</h2>
-<p>発表では以下の5サイトが明らかにされた。</p>
-<ul>
-<li>テキサス州シャケルフォード郡（Shackelford County, Texas）</li>
-<li>ニューメキシコ州ドナアナ郡（Doña Ana County, New Mexico）</li>
-<li>米中西部の未発表サイト（Midwest, location to be announced）</li>
-<li>オハイオ州ロードスタウン（Lordstown, Ohio）</li>
-<li>テキサス州ミラム郡（Milam County, Texas）</li>
-</ul>
-<p>OpenAIは、すでに稼働を始めたテキサス州アビリーンの「flagship」サイトに加え、これらの拠点を整備することで、計画全体の規模をさらに拡大するとしている。</p>
-<p>また、ソフトバンクグループは、オハイオ州ロードスタウンの拠点に主導的に関与。同地にはかつて自動車工場が存在し、その跡地を活用して新しいAIデータセンターを建設する<a href="https://ledge.ai/articles/softbank_ohio_ev_plant_stargate_ai_infrastructure_bloomberg_report">計画</a>が進められている。資金面での支援に加え、用地取得や地域再開発の調整にも携わるとされ、現地経済の再活性化に直結する重要な拠点となる。</p>
-<h2>計画規模と進捗</h2>
-<p>Stargateプロジェクトは、総投資額5000億ドル、計10ギガワットの計算能力を目標に掲げる。今回の5拠点追加により、計画容量はすでに約7ギガワットに到達する見込みだ。ロードスタウンの施設は2026年に稼働予定で、Abileneの施設では一部GPUによる運用が開始されている。</p>
-<h2>雇用と地域経済への影響</h2>
-<p>OpenAIによると、新拠点の建設により2万5,000人以上の雇用が創出される見込みで、地元経済への貢献も期待される。また、Oracleのクラウド基盤やソフトバンクの投資が、この大規模インフラの整備を支える。</p>
-<h2>今後の見通し</h2>
-<p>OpenAIは「AIを人類全体の利益のために活用する」という理念のもと、安全かつ持続可能な形でインフラを拡張していく方針を示している。電力供給や環境負荷の軽減にも取り組みながら、Stargateの10ギガワット目標に向けた拡大を続けていくとした。</p>
-]]></description>
-      <pubDate>Wed, 24 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/28 [SUN]Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
