@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIは専門家にどこまで迫ったか──OpenAI「GDPval」が検証する “現実の仕事力”</title>
+      <link>https://ledge.ai/articles/openai_gdpval_ai_job_benchmark</link>
+      <description><![CDATA[<p>OpenAIは2025年9月25日、最新の大規模言語モデル（LLM）が「現実の経済価値を持つタスク」でどの程度人間に迫っているかを測定する新しい評価指標「GDPval」を<a href="https://openai.com/index/gdpval/">発表</a>した。実際の業務成果物をもとに44職種・1,320件のタスクで性能を比較した結果、最先端モデルは専門家に近い水準に達していることが示された。</p>
+<p>GDPvalは、米国GDPに寄与する9産業・44職種を対象に設計された新しい評価ベンチマークである。法律文書や設計図、動画編集、カスタマーサポートの対応記録など、実際の成果物をタスク化し、AIモデルと業界専門家の成果を比較する。</p>
+<p><strong>「GDPval」に含まれる実務タスク例。設計図や看護報告、財務分析からカスタマーサポートまで幅広い領域をカバーしている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_GD_Pval_tasks_from_full_set_1f598d2776/Example_GD_Pval_tasks_from_full_set_1f598d2776.jpg" alt="Example GDPval tasks from full set.jpg" /></p>
+<h2>幅広い産業と職種をカバー</h2>
+<p>評価対象は、不動産、製造、政府、金融、医療、情報サービスなど主要な産業を網羅。ソフトウェア開発者や弁護士、看護師、金融アナリストなど、幅広い知識労働が調査された。</p>
+<p><strong>「GDPval」で評価対象となった9産業・44職種。米国経済に大きく寄与する分野から抽出されている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd.jpg" alt="GDPval includes real-world work from 44 occupations.jpg" /></p>
+<h2>厳格なレビューと評価方法</h2>
+<p>各タスクは平均5回の専門家レビューを経て整備され、最終的に人間とAIの成果物をブラインドで比較。220件のタスクは「ゴールドサブセット」として公開され、自動採点サービスも提供されている。</p>
+<p><strong>タスクは複数段階の専門家レビューを経て現実性と品質を担保している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59.jpg" alt="Tasks undergo multiple rounds of review to ensure realism and quality.jpg" /></p>
+<p><strong>人間専門家によるペアワイズ比較。AIの成果物と人間の成果物を並べ、どちらが優れているかを評価する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2.jpg" alt="GDPval uses pairwise expert comparisons for grading.jpg" /></p>
+<h2>成果と課題</h2>
+<p>評価の結果、Claude Opus 4.1は文書やプレゼン資料のレイアウトで優れ、GPT-5は指示理解や計算精度に強みを示した。一方で、モデルの失敗要因として最も多かったのは「指示を正しく理解できていない場合」であると報告されている。</p>
+<p>また、推論時間を増やす、プロンプトを工夫するなどの対応により性能はさらに改善可能であることも確認された。</p>
+<h2>今後の展望</h2>
+<p>現時点のGDPvalは知識労働に限定されるが、将来的には対話型や現場対応を含むタスクへ拡張する計画だ。OpenAIは220件のタスクを公開し、研究者コミュニティによる継続的な評価を促進することで、AIと人間の協働のあり方を探る。</p>
+]]></description>
+      <pubDate>Tue, 30 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>九州電力・IIJなど5社、「九州版ワット・ビット連携」実証──APN＋光NICで分散DCを直結</title>
       <link>https://ledge.ai/articles/kyuden_iij_qtnet_1finity_nautilus_wattbit_apn_opticalnic</link>
       <description><![CDATA[<p>九州電力、インターネットイニシアティブ（IIJ）、QTnet、1FINITY、ノーチラス・テクノロジーズの5社は2025年9月24日、地域分散型デジタルインフラを構築・検証する実証プロジェクトを開始すると<a href="https://www.kyuden.co.jp/press/2025/h250924-1.html">発表</a>した。プロジェクトは2025年10月から始まり、九州における「九州版ワット・ビット連携」の実現を目指す。（実証期間は2025年10月〜2026年3月）</p>
@@ -691,27 +716,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>今回の機能追加は、デジタルを活用したブランド戦略の一環。資生堂はエリクシールを通じて、顧客一人ひとりに寄り添ったパーソナライズケアの強化を進める方針だ。</p>
 ]]></description>
       <pubDate>Thu, 25 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政府、拡大する ”デジタル赤字” に歯止め――AI活用やゲーム・アニメ輸出を柱に海外展開促進策を策定</title>
-      <link>https://ledge.ai/articles/government_digital_industry_global_strategy_20250919</link>
-      <description><![CDATA[<p>政府は2025年9月19日、首相官邸で「<a href="https://www.kantei.go.jp/jp/pages/20250919choukan_global.html">デジタル関連産業のグローバル化促進のための関係閣僚会議</a>」を開き、拡大傾向にある「デジタル赤字」を抑制するための施策案を取りまとめた。AIを活用した国産サービスの競争力強化や、ゲーム・アニメといったコンテンツの輸出促進が柱となる。</p>
-<h2>会議の概要</h2>
-<p>会議には関係閣僚が出席し、デジタル関連産業の海外展開を加速させるための施策案が示された。政府は今後、実行計画を通じて産業競争力を高め、国際市場での存在感を強化する方針だ。</p>
-<h2>背景</h2>
-<p>近年、デジタル関連収支の赤字（いわゆる“デジタル赤字”）が拡大している。サービス輸入の増加が要因で、日本発のAIやデジタルサービスが海外市場で十分に浸透していないことが課題とされている。</p>
-<h2>施策の柱</h2>
-<p>会議で示された施策案には以下の内容が含まれる。</p>
-<ul>
-<li>AI・データ利活用の推進：国際市場で通用する先端サービスを生み出すための支援。</li>
-<li>コンテンツ輸出促進：ゲームやアニメなど文化的デジタルコンテンツを重点に据えた海外展開支援。</li>
-<li>人材育成・基盤整備：スタートアップ支援やデータセンター整備などの環境づくり。</li>
-<li>制度・ルール整備：著作権や国際標準化への対応を強化し、国際的なビジネス展開を後押し。</li>
-</ul>
-<h2>今後の展開</h2>
-<p>政府は、こうした施策を通じてデジタル関連収支の赤字を抑制するとともに、日本発のサービスやコンテンツが海外収益を確保できる体制の構築を目指す。今後は予算措置や制度改正などを通じて、施策の具体化を進める予定だ。</p>
-]]></description>
-      <pubDate>Thu, 25 Sep 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
