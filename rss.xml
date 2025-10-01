@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
+      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
+      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
+<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
+<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
+<h2>Sora 2の性能</h2>
+<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
+OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
+<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
+<h2>iOSアプリ「Sora」の提供</h2>
+<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
+提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
+<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
+<h2>安全性への配慮</h2>
+<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
+システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
+<h2>背景と思想</h2>
+<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
+<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
+]]></description>
+      <pubDate>Wed, 01 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
       <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
       <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
