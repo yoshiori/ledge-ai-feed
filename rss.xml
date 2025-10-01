@@ -5,32 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
-      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
-      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
-<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
-<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
-<h2>Sora 2の性能</h2>
-<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
-OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
-<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
-<h2>iOSアプリ「Sora」の提供</h2>
-<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
-提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
-<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
-<h2>安全性への配慮</h2>
-<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
-システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
-<h2>背景と思想</h2>
-<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
-<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 01 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
       <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
       <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
@@ -145,41 +119,6 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <h2>今後の展開</h2>
 <p>新機能はChatGPTにおけるチーム利用を本格化させる第一歩と位置づけられている。OpenAIはブログで「本リリースは、ChatGPTにおけるチームコラボレーションの初期ステップ」と述べ、今後も職場全体での安全な導入を支えるため、機能拡張を続けていく考えを示した。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeの品質低下、Anthropicが技術的原因を公表 — 誤ルーティング・出力破損など3件のバグ</title>
-      <link>https://ledge.ai/articles/claude_quality_drop_three_bugs</link>
-      <description><![CDATA[<p>Anthropicは2025年9月17日、8月上旬から9月上旬にかけて報告されたAI「Claude」の応答品質が低下した問題について調査を行い、原因は3件のインフラストラクチャ上のバグだったと<a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">発表</a>した。公式のエンジニアリングブログとステータスページで詳細が<a href="https://status.anthropic.com/">公開</a>されている。</p>
-<h2>問題の発生と調査開始</h2>
-<p>8月上旬ごろから、Claudeの応答が以前より劣化しているとの報告がユーザーから相次いだ。コード生成に誤りが含まれる、応答中に不自然な文字が混ざるといった現象が確認され、Anthropicは公式ステータスページで状況を認識し調査を進めていると発表した。</p>
-<h2>判明した3つのバグ</h2>
-<p>Anthropicのエンジニアリングブログによると、応答品質低下の背景には次の3つの独立したバグが存在していた。</p>
-<h3>1. コンテキストウィンドウの誤ルーティング（Context Window Routing Error）</h3>
-<ul>
-<li>本来1Mトークン対応のサーバーに処理が割り振られるべきリクエストが、誤って小さいコンテキストウィンドウを持つサーバーに送られていた。</li>
-<li>負荷分散の仕組みにより、影響を受けたユーザーは継続的に同じサーバーへ接続され、長期にわたって問題が続いた。</li>
-<li>影響は当初全体の約0.8%だったが、8月下旬には最大16%に拡大。9月4日までに修正が完了した。</li>
-</ul>
-<h3>2. 出力破損（Output Corruption）</h3>
-<ul>
-<li>8月25日にTPUサーバーへ適用された誤った設定変更が原因で、一部の応答に異常が発生。</li>
-<li>英語のプロンプトに中国語やタイ語の文字が混ざる、コード生成で文法エラーが出るなどの症状が報告された。</li>
-<li>Opus 4/4.1では8月25～28日、Sonnet 4では8月25～9月2日に影響が確認され、9月2日に設定をロールバックして修正した。</li>
-</ul>
-<h3>3. XLA:TPUの誤コンパイル（XLA:TPU Miscompilation）</h3>
-<ul>
-<li>出力トークン選択を改善するための最適化コードがXLAコンパイラの潜在的なバグを誘発。その結果、本来高確率で選ばれるべき単語や記号が応答に現れない不具合が発生。</li>
-<li>特にClaude Haiku 3.5で顕著に見られ、Opus 3やSonnet 4の一部にも影響の可能性があった。最適化のロールバックによって9月初頭には解消された。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120/d707dfc2effceba608d04007bc776132a3e57838_3840x1800_59fc4bc120.jpg" alt="d707dfc2effceba608d04007bc776132a3e57838-3840x1800.jpg" /></p>
-<h2>修正と再発防止策</h2>
-<p>Anthropicは、各バグはすでに修正済みであると説明。再発防止策として、より敏感な出力監視の導入、複数のハードウェアプラットフォームを横断したテスト体制の強化、プライバシーを確保しながらユーザー報告を活用できる仕組みづくりを進めるとしている。</p>
-<h2>今後の方針</h2>
-<p>Anthropicは「モデルの品質はアルゴリズムだけでなく、基盤となるインフラ全体に依存する」と強調。今後はユーザーからの報告と自動評価の双方を活用し、異常の早期発見と透明性ある運営を通じて信頼性の確保を目指すとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
@@ -219,37 +158,28 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>曖昧さ払拭、GoogleがGeminiの制限を公式明記—無料は1日5プロンプト、Ultraは500</title>
-      <link>https://ledge.ai/articles/google_gemini_usage_limits_officially_detailed</link>
-      <description><![CDATA[<p>Googleは公式ヘルプセンターを更新し、生成AI「Gemini Apps」における利用制限を初めて具体的な数値として<a href="https://support.google.com/gemini/answer/16275805">明記</a>した。従来は「limited access」など曖昧な表現が使われていたが、今回の更新により無料・有料プランごとの上限が詳細に示された。</p>
-<h2>プランごとの利用上限</h2>
-<p>無料プランは「1日5プロンプト」までに制限される一方で、最上位のUltraプランでは「500プロンプト」まで利用可能となる。画像生成や動画生成、Deep Researchなどもプランごとに異なる上限が設けられている。</p>
-<p><strong>Google公式ヘルプセンター「Gemini アプリのアップグレード」より</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_help_e87fab6301/gemini_help_e87fab6301.jpg" alt="gemini help.jpg" /></p>
-<p>Googleは2025年5月に「AI Ultra」プランを発表していたが、具体的な使用制限は明示されていなかった。今回の改訂により、同社のAIサービスに関する透明性が一段と高まったかたちだ。今後も新機能追加や制限の調整が行われる可能性があり、ユーザーには公式ヘルプセンターで最新情報を確認することが推奨される。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ロボットと暮らす住宅を初公開──リビングロボットと藤田医科大、生活支援ロボットを導入した“人協調型ロボティクス住宅”を発表</title>
-      <link>https://ledge.ai/articles/living_robot_fujita_robotech_house</link>
-      <description><![CDATA[<p>リビングロボットは2025年9月18日、藤田医科大学リハビリテーション部門と共同開発した生活支援ロボットやシステムを導入した「人協調型ロボティクス住宅」を<a href="https://prtimes.jp/main/html/rd/p/000000057.000094064.html">発表</a>した。名古屋市熱田区のサンヨーホームズ株式会社の住宅展示場に設置され、9月20日から特定日に一般公開が行われる。</p>
-<h2>社会課題への対応として開発</h2>
-<p>同社は、少子高齢化や介護人材不足といった社会課題を背景に、人とロボットが協調する住まいの新たな形を提示。今回の取り組みは、内閣府の戦略的イノベーション創造プログラム（SIP）「人協調型ロボティクスの拡大に向けた基盤技術・ルールの整備」に採択された研究の一環でもある。</p>
-<p>展示住宅は、名古屋市熱田区の「神宮東 中日ハウジングセンター」内にあるサンヨーホームズの住宅展示場に設置された。一般公開は2025年9月20日（土）、21日（日）、27日（土）、28日（日）の4日間が予定されている。</p>
-<h2>生活を支えるロボットとシステム</h2>
-<p>住宅には、以下の生活支援ロボットやシステムが導入されている。</p>
-<ul>
-<li><strong>見守りロボット「WeeGo（ウィーゴ）」</strong> ：小型で会話機能を持ち、居住者に気づきを促す。</li>
-<li><strong>メカトロメイトQ</strong> ：移動や通話機能を備えたロボット。</li>
-<li><strong>移動・移乗支援ロボット</strong> ：車いす型で、住宅内の移動や乗り移りをサポート。</li>
-<li><strong>センサー群</strong> ：生活・活動データ（運動、睡眠など）や住環境データ（温湿度、CO₂濃度、照度、窓開閉など）を収集。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_9f5bef2d74/sub1_9f5bef2d74.jpg" alt="sub1.jpg" /></p>
-<p>これらの仕組みにより、熱中症予防や転倒時の通報、侵入者検知など、安全で快適な暮らしを支援する機能が提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_06affc0937/sub2_06affc0937.jpg" alt="sub2.jpg" /></p>
+      <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
+      <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
+      <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
+<h2>新モデル「Gemini Robotics 1.5」とは</h2>
+<p>Googleが発表した「Gemini Robotics 1.5」は、同社の大規模言語モデル「Gemini 1.5 Pro」を拡張し、視覚・言語・行動を統合した「Vision-Language-Action（VLA）」モデルとして設計されている。ロボットは環境を理解し、人間の指示に基づいて複数ステップにわたるタスクをこなせるようになった。</p>
+<p>@<a href="https://www.youtube.com/watch?v=AMRxbIO04kQ&amp;t=1s">YouTube</a></p>
+<h2>思考してから行動する仕組み</h2>
+<p>従来のロボティクスAIは与えられた動作を逐次実行することが多かったが、「Gemini Robotics 1.5」は行動前に計画を立てる能力を持つ。これにより、作業の失敗を減らし効率的に遂行できる。たとえば散らかった部屋で物を拾う場合、ロボットは最適な順序や手順を考えてから実行に移す。</p>
+<p><strong>「Gemini Robotics 1.5」の仕組み。ロボットはゴミの分別を例に、行動前に思考・計画を立てるプロセスを経て動作する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b.jpg" alt="GeminiRobotics-Agentic_System.width-1000.format-webp.jpg" /></p>
+<p>@<a href="https://www.youtube.com/watch?v=eDyXEh8XqjM&amp;t=3s">YouTube</a></p>
+<h2>応用例と成果</h2>
+<p>公開されたデモでは、洗濯物の分類やごみ分別など、家庭やオフィスで想定される作業を自律的に行う様子が披露された。ロボットは周囲を観察しながら判断を下し、マルチステップのタスクを適切に処理することができる。</p>
+<p><strong>Gemini Robotics-ER 1.5」は従来モデルよりも学術ベンチマークで高い性能を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6.jpg" alt="GeminiRobotics-blog-figure-2-250.width-1000.format-webp.jpg" /></p>
+<h2>研究開発の背景</h2>
+<p>このモデルは、Google DeepMindとGoogle Researchの共同開発による成果だ。Geminiシリーズの能力を物理世界に応用する取り組みの一環であり、従来のロボットAIよりも抽象的な推論や柔軟な対応が可能になった点が強調されている。</p>
+<p><strong>物体検出や軌道予測など、多様な認識・推論能力を備える「Gemini Robotics 1.5」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b.webp" alt="Screenshot_2025-09-25_at_14.53.4.width-1000.format-webp.webp" /></p>
 <h2>今後の展望</h2>
-<p>リビングロボットは今回の公開を通じて、一般生活者が新しい住環境を体験する場を提供するとともに、社会実装に向けた実証を重ねていく方針だ。</p>
+<p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
+<p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
 ]]></description>
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
@@ -377,6 +307,32 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
+      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
+      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
+<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
+<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
+<h2>Sora 2の性能</h2>
+<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
+OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
+<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
+<h2>iOSアプリ「Sora」の提供</h2>
+<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
+提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
+<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
+<h2>安全性への配慮</h2>
+<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
+システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
+<h2>背景と思想</h2>
+<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
+<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>トヨタ、実験都市「Woven City」を正式オープン──静岡県裾野市で未来のモビリティ実証開始</title>
       <link>https://ledge.ai/articles/toyota_woven_city_open_launch</link>
       <description><![CDATA[<p>トヨタ自動車とWoven by Toyotaは2025年9月25日、静岡県裾野市に建設していた実験都市「Woven City（ウーブン・シティ）」を正式にオープンしたことを<a href="https://global.toyota/jp/newsroom/corporate/43347821.html">発表</a>した。東富士工場跡地を活用し、将来的に最大2,000人が暮らす街を舞台に、モビリティやロボティクス、スマートホームなどの次世代サービスを実証する。</p>
@@ -398,32 +354,6 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>Woven Cityはフェーズごとに住民数や参加企業を増やしながら拡張される計画だ。トヨタはこの取り組みを、自動車メーカーからモビリティカンパニーへと変革する象徴的なプロジェクトと位置付けており、将来的には他地域への応用も視野に入れている。</p>
 ]]></description>
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
-      <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
-      <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
-<h2>新モデル「Gemini Robotics 1.5」とは</h2>
-<p>Googleが発表した「Gemini Robotics 1.5」は、同社の大規模言語モデル「Gemini 1.5 Pro」を拡張し、視覚・言語・行動を統合した「Vision-Language-Action（VLA）」モデルとして設計されている。ロボットは環境を理解し、人間の指示に基づいて複数ステップにわたるタスクをこなせるようになった。</p>
-<p>@<a href="https://www.youtube.com/watch?v=AMRxbIO04kQ&amp;t=1s">YouTube</a></p>
-<h2>思考してから行動する仕組み</h2>
-<p>従来のロボティクスAIは与えられた動作を逐次実行することが多かったが、「Gemini Robotics 1.5」は行動前に計画を立てる能力を持つ。これにより、作業の失敗を減らし効率的に遂行できる。たとえば散らかった部屋で物を拾う場合、ロボットは最適な順序や手順を考えてから実行に移す。</p>
-<p><strong>「Gemini Robotics 1.5」の仕組み。ロボットはゴミの分別を例に、行動前に思考・計画を立てるプロセスを経て動作する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b.jpg" alt="GeminiRobotics-Agentic_System.width-1000.format-webp.jpg" /></p>
-<p>@<a href="https://www.youtube.com/watch?v=eDyXEh8XqjM&amp;t=3s">YouTube</a></p>
-<h2>応用例と成果</h2>
-<p>公開されたデモでは、洗濯物の分類やごみ分別など、家庭やオフィスで想定される作業を自律的に行う様子が披露された。ロボットは周囲を観察しながら判断を下し、マルチステップのタスクを適切に処理することができる。</p>
-<p><strong>Gemini Robotics-ER 1.5」は従来モデルよりも学術ベンチマークで高い性能を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6.jpg" alt="GeminiRobotics-blog-figure-2-250.width-1000.format-webp.jpg" /></p>
-<h2>研究開発の背景</h2>
-<p>このモデルは、Google DeepMindとGoogle Researchの共同開発による成果だ。Geminiシリーズの能力を物理世界に応用する取り組みの一環であり、従来のロボットAIよりも抽象的な推論や柔軟な対応が可能になった点が強調されている。</p>
-<p><strong>物体検出や軌道予測など、多様な認識・推論能力を備える「Gemini Robotics 1.5」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b.webp" alt="Screenshot_2025-09-25_at_14.53.4.width-1000.format-webp.webp" /></p>
-<h2>今後の展望</h2>
-<p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
-<p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>【9/29-30限定公開】AI業界のトップランナーが集結した「Ledge.ai Webinar SP」の見逃し配信</title>
