@@ -66,6 +66,31 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
       <pubDate>Wed, 01 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>学術＆研究2025/9/30 [TUE]AIは専門家にどこまで迫ったか──OpenAI「GDPval」が検証する “現実の仕事力”</title>
+      <link>https://ledge.ai/articles/openai_gdpval_ai_job_benchmark</link>
+      <description><![CDATA[<p>OpenAIは2025年9月25日、最新の大規模言語モデル（LLM）が「現実の経済価値を持つタスク」でどの程度人間に迫っているかを測定する新しい評価指標「GDPval」を<a href="https://openai.com/index/gdpval/">発表</a>した。実際の業務成果物をもとに44職種・1,320件のタスクで性能を比較した結果、最先端モデルは専門家に近い水準に達していることが示された。</p>
+<p>GDPvalは、米国GDPに寄与する9産業・44職種を対象に設計された新しい評価ベンチマークである。法律文書や設計図、動画編集、カスタマーサポートの対応記録など、実際の成果物をタスク化し、AIモデルと業界専門家の成果を比較する。</p>
+<p><strong>「GDPval」に含まれる実務タスク例。設計図や看護報告、財務分析からカスタマーサポートまで幅広い領域をカバーしている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_GD_Pval_tasks_from_full_set_1f598d2776/Example_GD_Pval_tasks_from_full_set_1f598d2776.jpg" alt="Example GDPval tasks from full set.jpg" /></p>
+<h2>幅広い産業と職種をカバー</h2>
+<p>評価対象は、不動産、製造、政府、金融、医療、情報サービスなど主要な産業を網羅。ソフトウェア開発者や弁護士、看護師、金融アナリストなど、幅広い知識労働が調査された。</p>
+<p><strong>「GDPval」で評価対象となった9産業・44職種。米国経済に大きく寄与する分野から抽出されている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd.jpg" alt="GDPval includes real-world work from 44 occupations.jpg" /></p>
+<h2>厳格なレビューと評価方法</h2>
+<p>各タスクは平均5回の専門家レビューを経て整備され、最終的に人間とAIの成果物をブラインドで比較。220件のタスクは「ゴールドサブセット」として公開され、自動採点サービスも提供されている。</p>
+<p><strong>タスクは複数段階の専門家レビューを経て現実性と品質を担保している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59.jpg" alt="Tasks undergo multiple rounds of review to ensure realism and quality.jpg" /></p>
+<p><strong>人間専門家によるペアワイズ比較。AIの成果物と人間の成果物を並べ、どちらが優れているかを評価する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2.jpg" alt="GDPval uses pairwise expert comparisons for grading.jpg" /></p>
+<h2>成果と課題</h2>
+<p>評価の結果、Claude Opus 4.1は文書やプレゼン資料のレイアウトで優れ、GPT-5は指示理解や計算精度に強みを示した。一方で、モデルの失敗要因として最も多かったのは「指示を正しく理解できていない場合」であると報告されている。</p>
+<p>また、推論時間を増やす、プロンプトを工夫するなどの対応により性能はさらに改善可能であることも確認された。</p>
+<h2>今後の展望</h2>
+<p>現時点のGDPvalは知識労働に限定されるが、将来的には対話型や現場対応を含むタスクへ拡張する計画だ。OpenAIは220件のタスクを公開し、研究者コミュニティによる継続的な評価を促進することで、AIと人間の協働のあり方を探る。</p>
+]]></description>
+      <pubDate>Tue, 30 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>九州電力・IIJなど5社、「九州版ワット・ビット連携」実証──APN＋光NICで分散DCを直結</title>
       <link>https://ledge.ai/articles/kyuden_iij_qtnet_1finity_nautilus_wattbit_apn_opticalnic</link>
       <description><![CDATA[<p>九州電力、インターネットイニシアティブ（IIJ）、QTnet、1FINITY、ノーチラス・テクノロジーズの5社は2025年9月24日、地域分散型デジタルインフラを構築・検証する実証プロジェクトを開始すると<a href="https://www.kyuden.co.jp/press/2025/h250924-1.html">発表</a>した。プロジェクトは2025年10月から始まり、九州における「九州版ワット・ビット連携」の実現を目指す。（実証期間は2025年10月〜2026年3月）</p>
