@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
+      <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
+      <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
+<h2>OTとNVIDIA技術を融合した新基盤</h2>
+<p>「AI Factory」は、日立が持つOT（制御・運用技術）分野の知見と、NVIDIAのアクセラレーテッドコンピューティングおよびAIソフトウェアスタックを融合させて設計された。現実世界と相互作用するAIを迅速に開発し、社会実装につなげる狙いだ。活用分野としては、モビリティ、エネルギー、産業、テクノロジーなどが想定されている。</p>
+<h2>高性能GPUとネットワークによる構成</h2>
+<p>システム構成は、NVIDIA Blackwell GPUを搭載した「HGX B200」システムを採用した「Hitachi iQ」、NVIDIA RTX PRO 6000 Server Edition GPUを搭載した「Hitachi iQ M Series」、そしてネットワーク基盤となる「NVIDIA Spectrum-X Ethernet」で構成される。またソフトウェアには、エンタープライズ向けの「NVIDIA AI Enterprise」や、産業規模の正確なデジタルツインを構築できる「NVIDIA Omniverse」が含まれる。</p>
+<h2>Physical AIの開発を加速</h2>
+<p>このインフラを用いることで、カメラやセンサーから得た情報を認識・推論し、次の行動を決定・実行する高度なPhysical AIモデルを迅速に開発・学習できる。デジタルツインの構築や、社会インフラを含む物理アセットの最適化を支援し、生産性向上など新たな可能性を拓くという。</p>
+<h2>グローバル展開と共同開発体制</h2>
+<p>「AI Factory」は米国、EMEA（欧州・中東・アフリカ）、日本に戦略的に配置され、相互接続されたネットワークによってグローバルなエンジニアチームが低遅延で協力できる環境を整える。これにより、多様なPhysical AIソリューションの共同開発を促進し、効率性・生産性・安全性の向上を実現する。</p>
+<h2>経営陣とNVIDIAのコメント</h2>
+<p>日立製作所 執行役社長兼CEOの德永俊昭氏は「NVIDIA RTX PROサーバーを基盤としたHitachi iQの活用により、AI推論やPhysical AIが高速化され、デジタルツインや社会インフラの最適化が強化される」とコメントした。また、執行役副社長兼デジタルシステム＆サービス統括本部長の阿部淳氏は「グローバルにAI Factoryを構築することで、『真のOne Hitachi』として運営が可能になり、Physical AIのイノベーションを加速させる」と述べた。</p>
+<p>さらに、NVIDIAのEnterprise AI Products担当バイスプレジデントであるJustin Boitano氏も「企業データをソフトウェアと物理世界の両方で活用する革新的基盤となる」と評価している。</p>
+<h2>Lumada 3.0への布石</h2>
+<p>今回の取り組みは、日立が掲げる「Lumada 3.0」ビジョン実現に向けた重要な一歩と位置付けられている。IT、OT、プロダクトを融合したインダストリアルAI分野でのソリューション提供強化を通じ、社会とビジネスのイノベーションを推進する構えだ。</p>
+]]></description>
+      <pubDate>Wed, 01 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIロボット協会、経産省・NEDO事業に採択──ロボティクス分野の生成AI基盤モデル開発を推進</title>
       <link>https://ledge.ai/articles/airoa_post5g_robotics_ai_platform</link>
       <description><![CDATA[<p>一般社団法人AIロボット協会（AI Robot Association、以下AIRoA）は、経済産業省とNEDO（新エネルギー・産業技術総合開発機構）が公募した「ポスト5G情報通信システム基盤強化研究開発事業」において、ロボティクス分野の生成AI基盤モデルの開発に向けたデータプラットフォーム構築の採択事業者に決定したと<a href="https://www.airoa.org/ja/updates/20250926">発表</a>した。</p>
@@ -681,39 +701,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>同社はRoBoHoNを単なるコミュニケーションロボットにとどめず、身近なパートナーとして進化させることを目指す。生成AIを組み合わせることで、利用者が日常生活でより自然で継続的な会話体験を得られるようになるとしている。</p>
 ]]></description>
       <pubDate>Fri, 26 Sep 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIに仕事を奪われるか問題、今のところ失業増は確認されず──シカゴ大学研究、LLM導入は短期的に賃金上昇に作用</title>
-      <link>https://ledge.ai/articles/ai_university_of_chicago_llm_short_term_employment_wages</link>
-      <description><![CDATA[<p>シカゴ大学の研究チームは、生成AI（大規模言語モデル：LLM）の導入が労働市場に与える短期的な影響を分析した。その結果、AIの影響を強く受ける職種では賃金が上昇する一方で、失業率には統計的に有意な変化は見られなかった。懸念される「AIによる失業」は、少なくとも現時点では確認されていないという。研究チームはこの調査結果を2025年9月19日に<a href="https://arxiv.org/abs/2509.15510">発表</a>した。</p>
-<h2>“AIが仕事を奪う”は本当か</h2>
-<p>ChatGPTが2022年11月に公開されて以降、生成AIは文章作成やプログラミングをはじめ、幅広い業務に急速に導入されている。一方で、「AIが仕事を奪うのではないか」という不安は根強く存在してきた。こうした懸念を検証するため、シカゴ大学の研究チームは、米国の労働市場データを用いた大規模な分析を行った。</p>
-<h2>調査の方法：CPS×O*NET×SDiDで職業別の「曝露度」を推定</h2>
-<ul>
-<li>データ：米国のCurrent Population Survey（CPS）の失業率と賃金（2010年1月〜2025年8月）</li>
-<li>曝露度の定義：O*NETの職業タスクと、Anthropic「Claude」での数百万件のプロンプトを対応づけ、どの職種がLLMの影響を受けやすいかを数値化</li>
-<li>手法：Synthetic Difference-in-Differences（SDiD）という統計手法を用い、ChatGPT公開を「技術ショック」として高曝露職種と低曝露職種を比較</li>
-</ul>
-<h2>主な結果：代替ではなく“補完”が先に来る</h2>
-<ul>
-<li>賃金：曝露度の高い職種では、平均して週あたり約89ドル（2010年基準ドル換算）の収入増加が確認された。</li>
-<li>失業率：変化はごく小さく、全体では0.2ポイント程度の増減にとどまり、統計的に有意な影響は見られなかった。</li>
-<li>解釈：短期的には、AIは労働を「代替」するのではなく「補完」する形で生産性を高め、その結果として賃金が上昇したと考えられる。</li>
-</ul>
-<h2>“言語とコード”を扱う職種が高曝露</h2>
-<p>分析によると、特に生成AIの影響を強く受けやすい職業は以下の通り。</p>
-<ul>
-<li>ライター・著者</li>
-<li>コンピュータプログラマー</li>
-<li>ウェブ開発者</li>
-<li>ソフトウェア開発者</li>
-<li>情報セキュリティアナリスト</li>
-</ul>
-<p>これらの職種はいずれも、文章やコードを中心とした作業に依存しているという。</p>
-<h2>長期影響はこれから</h2>
-<p>研究チームは「短期的な労働市場の調整は、雇用ではなく賃金を通じて起きている」と結論づけた。失業増加は確認されなかったが、AI導入が長期的にどのような影響を及ぼすかは不透明であり、今後の継続的な観察が必要だとしている。</p>
-]]></description>
-      <pubDate>Thu, 25 Sep 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
