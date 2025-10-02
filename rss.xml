@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
+      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
+      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
+<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
+<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
+<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
+<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
+<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
+<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
+<h2>“vibe working”のコンセプト</h2>
+<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
+<h2>提供条件と展開予定</h2>
+<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
+]]></description>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChatGPTに「Instant Checkout」登場──ECサイトの商品をチャット内で直接購入可能に</title>
       <link>https://ledge.ai/articles/chatgpt_instant_checkout_launch</link>
       <description><![CDATA[<p>OpenAIは9月29日（現地時間）、ChatGPT内でECサイトの商品を直接購入できる新機能「Instant Checkout」を<a href="https://openai.com/index/buy-it-in-chatgpt/">発表</a>した。従来は外部リンクに移動していた購入手続きが、ChatGPT上で完結できるようになるという。</p>
