@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ChatGPTに「Instant Checkout」登場──ECサイトの商品をチャット内で直接購入可能に</title>
+      <link>https://ledge.ai/articles/chatgpt_instant_checkout_launch</link>
+      <description><![CDATA[<p>OpenAIは9月29日（現地時間）、ChatGPT内でECサイトの商品を直接購入できる新機能「Instant Checkout」を<a href="https://openai.com/index/buy-it-in-chatgpt/">発表</a>した。従来は外部リンクに移動していた購入手続きが、ChatGPT上で完結できるようになるという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=C6qcZdtIv54">YouTube</a></p>
+<h2>機能概要</h2>
+<p>「Instant Checkout」を利用すると、ChatGPTの会話画面内で商品購入が完結する。ユーザーはカート追加や外部ブラウザへの遷移を必要とせず、決済までをシームレスに行える。</p>
+<p>同社ではChatGPTを「情報検索から購入までをワンストップで実現する場」へと進化させる方針を掲げている。今回の新機能により、生成AIがユーザーの消費行動に直結するハブとなることを狙う。</p>
+<h2>仕組みと安全性</h2>
+<p>提携するECサイトの商品情報はChatGPT内に直接表示され、購入操作が可能となる。決済処理はChatGPTのセキュアな仕組みを通じて行われ、ユーザーのプライバシーとセキュリティ確保が重視されている。</p>
+<p><strong>「Instant Checkout」を支えるエージェント型コマースプロトコルの流れ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ACP_POR_1_47d3b99b8f/ACP_POR_1_47d3b99b8f.jpg" alt="ACP_-POR__1.jpg" /></p>
+<h2>今後の展開</h2>
+<p>OpenAIは、対応するECサイトの拡大を予定している。まずは一部のパートナーから導入を開始し、順次拡大する方針だ。また、開発者や事業者に向けた連携方法の提供も検討されている。</p>
+]]></description>
+      <pubDate>Thu, 02 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
       <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
       <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
@@ -627,52 +644,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>会合を受け、国連は新たに「AIガバナンスに関するグローバル対話（Global Dialogue on AI Governance）」を立ち上げた。各国政府だけでなく、企業や学術機関、市民社会も参加する予定で、AIの軍事利用や安全保障上のリスクに対応する国際的なルール形成を進める狙いがあるという。</p>
 ]]></description>
       <pubDate>Fri, 26 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
-      <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
-      <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
-<p>従来の教科書は「すべての学習者に一律の内容を提供する媒体」であり、学年や興味関心に応じた最適化は難しかった。Google Researchのチームは、生成AIを用いることでこの制約を克服し、個別化と多様な表現を可能にするアプローチを開発した。</p>
-<h2>Learn Your Wayの仕組み</h2>
-<p>新システム「Learn Your Way」は、Googleの学習用大規模モデル「LearnLM」（Gemini 2.5 Proに統合）を基盤とする。教材の元テキストを入力し、以下のステップで再構築する。</p>
-<ul>
-<li><strong>パーソナライズ</strong> ：学年レベル（Flesch-Kincaid指標に基づく）や興味関心（スポーツ、音楽など）に合わせて文章をリライト。</li>
-<li><strong>複数表現への変換</strong> ：没入型テキスト、スライド＋ナレーション、オーディオレッスン、マインドマップなど。</li>
-<li><strong>学習支援機能</strong> ：埋め込み質問や小テストを生成し、学習者に即時のフィードバックを提供。</li>
-</ul>
-<p>これにより、学習者は自分に合った形式を選びながら、能動的に学習を進めることができるという。</p>
-<p><strong>ニュートンの第三法則を学年や関心に応じてリライトした例。左は高校生向けにバスケットボールを題材に、右は小学生向けに美術を題材に説明している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_79d6efaf7b/x2_79d6efaf7b.jpg" alt="x2.jpg" /></p>
-<h2>実証実験（無作為化比較試験）</h2>
-<p>研究チームは、シカゴ地域の15〜18歳の学生60名を対象に無作為化比較試験（RCT）を実施した。教材は「思春期の脳発達」（LibreTexts）を使用。
-<strong>■ 比較対象</strong> ：
-・「Learn Your Way」利用群（30名）
-・従来のPDFリーダー（Adobe Acrobat）利用群（30名）
-<strong>■ 学習時間</strong> ：20〜40分
-<strong>■ 評価方法</strong> ：
-・即時テスト（15分）
-・3日後の保持テスト（約10分）</p>
-<h2>結果</h2>
-<ul>
-<li>即時テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
-<li>保持テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
-<li>アンケート：Learn Your Way群は「楽しく学べた」「理解が深まった」と回答する割合が高く、将来の利用意欲も強かった。</li>
-</ul>
-<p><strong>無作為化比較試験の結果</strong> ：「Learn Your Way」を使用した学生は、従来のデジタルリーダー利用者に比べ、即時テスト・保持テストのいずれも有意に高い得点を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_5_width_1250_458379e0a2/Learn_Your_Way_5_width_1250_458379e0a2.png" alt="Learn-Your-Way-5.width-1250.png" /></p>
-<h2>教育現場での意義</h2>
-<p>この研究は、生成AIが教科書を「一律の媒体」から「学習者に応じて変化する教材」へと変革し得ることを示している。Googleは、教育科学の知見とAI技術を組み合わせることで、学習成果の向上と学習者の主体性強化につなげられると強調している。</p>
-<p><strong>教育専門家による評価結果。特にナレーション付きスライドやオーディオレッスンは、学習者の関心を引きやすいと高評価を得た。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_4_width_1250_8bf77aa53c/Learn_Your_Way_4_width_1250_8bf77aa53c.png" alt="Learn-Your-Way-4.width-1250.png" /></p>
-<h2>今後の展望</h2>
-<p>研究チームは論文内で次の課題を指摘している。</p>
-<ul>
-<li>効果検証は1つの教材章に限られており、今後は複数教科・複数章での検証が必要。</li>
-<li>各機能（例：スライド、音声、クイズ）の寄与度は明確化されていない。</li>
-</ul>
-<p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
-]]></description>
-      <pubDate>Fri, 26 Sep 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
