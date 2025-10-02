@@ -192,42 +192,6 @@
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>これからのAIスキルは「プロンプト」ではなく「コンテキスト・エンジニアリング」──Google DeepMind フィリップ・シュミット氏が提起</title>
-      <link>https://ledge.ai/articles/context_engineering_deepmind</link>
-      <description><![CDATA[<p>2025年6月30日、Google DeepMindのシニアAIリレーションエンジニアであるフィリップ・シュミット（Philipp Schmid）氏が自身のブログを通じて、「AIにおける最も重要なスキルはプロンプトエンジニアリングではなく“コンテキストエンジニアリング”である」と<a href="https://www.philschmid.de/context-engineering">提起</a>した。大規模言語モデル（LLM）の性能を最大限に活かすには、単一のプロンプトだけでは不十分であり、AIに与える前提情報全体を設計・最適化する技術が不可欠だと論じている。</p>
-<h2>背景：プロンプトエンジニアリングの行き詰まり</h2>
-<p>近年、生成AIの発展に伴い「プロンプトエンジニアリング」が注目を集めてきた。巧みなプロンプトを用いてモデルの挙動を調整し、より望ましい回答を得るという技法は、AI活用の第一歩として広く普及している。しかしシュミット氏は、現実の業務環境ではプロンプトの工夫だけで対応できない課題が増大しており、AIが真にユーザーの期待に応えるには、より包括的な情報構造の設計が必要だと指摘した。</p>
-<h2>コンテキストエンジニアリングとは</h2>
-<p>シュミット氏は、コンテキストエンジニアリングを「AIが必要とする情報を、適切な形式で、適切なタイミングに提供する仕組みの設計」と位置付ける。単にプロンプトを最適化するのではなく、モデルに取り込ませる知識、会話履歴、外部ツールとの連携などを含めて制御する総合的な技術領域だと説明する。</p>
-<p>具体的には、</p>
-<ul>
-<li>System Prompt（AIのシステム的前提）</li>
-<li>User Prompt（ユーザーからの指示）</li>
-<li>State/History（対話履歴や状態管理）</li>
-<li>Long-Term Memory（長期記憶としての知識）</li>
-<li>Retrieved Information（RAGなどによる検索情報）</li>
-<li>Tools/Structured Output（外部ツール連携・構造化出力）
-という6つの構成要素を「コンテキスト」として設計し、動的に最適化していく考え方を示している。</li>
-</ul>
-<h2>8割の失敗は文脈不足</h2>
-<p>シュミット氏は、AIエージェント開発における8割の失敗が「文脈情報の欠落」に起因すると述べている。たとえばカレンダー調整を行うAIエージェントの場合でも、ユーザーの希望や優先順位を把握しないまま単純な操作を試みることでエラーが起きやすいと説明している。</p>
-<h2>関連技術と支える手法</h2>
-<p>同氏は、コンテキストエンジニアリングを支える技術として、</p>
-<ul>
-<li>検索拡張生成（RAG）</li>
-<li>ベクトルデータベース検索</li>
-<li>ツール呼び出しのオーケストレーション</li>
-<li>会話履歴管理
-などの仕組みが必要だと述べている。これらを組み合わせることで、AIが常に適切な前提情報を取得しながら出力を行える環境を整備できるとする。</li>
-</ul>
-<h2>エンタープライズでの展開</h2>
-<p>シュミット氏は、コンテキストエンジニアリングがエンタープライズ分野においても重要であると述べている。社内ドメイン知識や業務ルールをAIが正しく理解できるようにするために、前提情報の整理と統合を体系的に設計する必要があるとしている。</p>
-<p>筆者プロフィール
-フィリップ・シュミット氏は、Hugging Faceのエンジニアを経てGoogle DeepMindに参画。大規模言語モデルとエージェント技術の実用化に関する知見を広く発信している。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
       <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
       <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
@@ -250,6 +214,52 @@
 <h2>今後の展望</h2>
 <p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
 <p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
+]]></description>
+      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
+      <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
+      <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
+<p>従来の教科書は「すべての学習者に一律の内容を提供する媒体」であり、学年や興味関心に応じた最適化は難しかった。Google Researchのチームは、生成AIを用いることでこの制約を克服し、個別化と多様な表現を可能にするアプローチを開発した。</p>
+<h2>Learn Your Wayの仕組み</h2>
+<p>新システム「Learn Your Way」は、Googleの学習用大規模モデル「LearnLM」（Gemini 2.5 Proに統合）を基盤とする。教材の元テキストを入力し、以下のステップで再構築する。</p>
+<ul>
+<li><strong>パーソナライズ</strong> ：学年レベル（Flesch-Kincaid指標に基づく）や興味関心（スポーツ、音楽など）に合わせて文章をリライト。</li>
+<li><strong>複数表現への変換</strong> ：没入型テキスト、スライド＋ナレーション、オーディオレッスン、マインドマップなど。</li>
+<li><strong>学習支援機能</strong> ：埋め込み質問や小テストを生成し、学習者に即時のフィードバックを提供。</li>
+</ul>
+<p>これにより、学習者は自分に合った形式を選びながら、能動的に学習を進めることができるという。</p>
+<p><strong>ニュートンの第三法則を学年や関心に応じてリライトした例。左は高校生向けにバスケットボールを題材に、右は小学生向けに美術を題材に説明している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_79d6efaf7b/x2_79d6efaf7b.jpg" alt="x2.jpg" /></p>
+<h2>実証実験（無作為化比較試験）</h2>
+<p>研究チームは、シカゴ地域の15〜18歳の学生60名を対象に無作為化比較試験（RCT）を実施した。教材は「思春期の脳発達」（LibreTexts）を使用。
+<strong>■ 比較対象</strong> ：
+・「Learn Your Way」利用群（30名）
+・従来のPDFリーダー（Adobe Acrobat）利用群（30名）
+<strong>■ 学習時間</strong> ：20〜40分
+<strong>■ 評価方法</strong> ：
+・即時テスト（15分）
+・3日後の保持テスト（約10分）</p>
+<h2>結果</h2>
+<ul>
+<li>即時テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>保持テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>アンケート：Learn Your Way群は「楽しく学べた」「理解が深まった」と回答する割合が高く、将来の利用意欲も強かった。</li>
+</ul>
+<p><strong>無作為化比較試験の結果</strong> ：「Learn Your Way」を使用した学生は、従来のデジタルリーダー利用者に比べ、即時テスト・保持テストのいずれも有意に高い得点を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_5_width_1250_458379e0a2/Learn_Your_Way_5_width_1250_458379e0a2.png" alt="Learn-Your-Way-5.width-1250.png" /></p>
+<h2>教育現場での意義</h2>
+<p>この研究は、生成AIが教科書を「一律の媒体」から「学習者に応じて変化する教材」へと変革し得ることを示している。Googleは、教育科学の知見とAI技術を組み合わせることで、学習成果の向上と学習者の主体性強化につなげられると強調している。</p>
+<p><strong>教育専門家による評価結果。特にナレーション付きスライドやオーディオレッスンは、学習者の関心を引きやすいと高評価を得た。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_4_width_1250_8bf77aa53c/Learn_Your_Way_4_width_1250_8bf77aa53c.png" alt="Learn-Your-Way-4.width-1250.png" /></p>
+<h2>今後の展望</h2>
+<p>研究チームは論文内で次の課題を指摘している。</p>
+<ul>
+<li>効果検証は1つの教材章に限られており、今後は複数教科・複数章での検証が必要。</li>
+<li>各機能（例：スライド、音声、クイズ）の寄与度は明確化されていない。</li>
+</ul>
+<p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
 ]]></description>
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
     </item>
