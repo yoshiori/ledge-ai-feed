@@ -5,6 +5,40 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
+      <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
+      <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
+<h2>コーディング性能の飛躍</h2>
+<p>Sonnet 4.5は、ソフトウェアエンジニアリングのベンチマーク「SWE-bench Verified」で77.2%の正答率を記録し、並列計算を用いた高負荷環境では82.0%に達した。従来モデルのClaude Sonnet 4（72.7%）や競合のGPT-5（72.8%）を大きく上回っている。</p>
+<p><strong>ソフトウェアエンジニアリングにおけるベンチマーク「SWE-bench Verified」での比較。Sonnet 4.5が最も高い精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290.webp" alt="6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.webp" /></p>
+<h2>幅広い領域での強化</h2>
+<p>Claude Sonnet 4.5は、コーディングだけでなく、コンピュータ操作や数学、言語理解など幅広い分野で性能を向上させた。特にOSWorldベンチマークでは61.4%を達成し、前世代の42.2%から大幅に改善。金融や法務、医療、STEMといった専門分野でも、専門家による評価で大きな知識・推論力の進歩が確認されている。</p>
+<p><strong>主要ベンチマークでの各モデル比較。Claude Sonnet 4.5は複数分野でトップクラスの性能を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7.webp" alt="67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.webp" /></p>
+<h2>エージェント開発と新機能</h2>
+<p>さらに同社は今回「Claude Agent SDK」を公開。長期タスクのメモリ管理、ユーザー権限の制御、複数エージェントの協調といった仕組みを開発者に提供する。さらに以下の新機能が追加された：</p>
+<ul>
+<li>Claude Codeへのチェックポイント機能</li>
+<li>VS Code拡張と刷新されたターミナル</li>
+<li>Claudeアプリでのコード実行・ファイル生成機能</li>
+<li>Chrome拡張の一般公開（Maxユーザー向け）</li>
+</ul>
+<p>これにより、開発者は独自のエージェントやツールを構築できる環境が整備された。</p>
+<p>@<a href="https://youtu.be/OZ-aLrJ0oVg">YouTube</a></p>
+<h2>安全性とアラインメントの改善</h2>
+<p>Sonnet 4.5はAnthropic史上「最もアラインメントが取れた」モデルとして公開された。危険な挙動（虚偽、迎合、権力志向、妄想助長など）を大幅に低減。AI Safety Level 3（ASL-3）の保護レベルで運用され、特に化学・生物・放射線・核（CBRN）分野に関連するリスク低減が強化されている。</p>
+<p><strong>各モデルにおける「ミスアラインメント行動スコア」。Sonnet 4.5は最も低い数値を示し、安全性が向上している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515.webp" alt="33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.webp" /></p>
+<h2>提供条件と研究プレビュー</h2>
+<p>Claude Sonnet 4.5は即日利用可能で、価格は従来のSonnet 4と同じく入力100万トークンあたり3ドル、出力100万トークンあたり15ドル。
+また研究プレビューとして「Imagine with Claude」も公開され、期間限定でリアルタイムにコードを生成するデモを体験できる。</p>
+<p>@<a href="https://youtu.be/dGiqrsv530Y">YouTube</a></p>
+<p>Anthropicは「Claude Sonnet 4.5は、より安全で強力なフロンティアモデルであり、開発者やビジネスユーザーにとって即戦力となる」としており、今後のAIエージェント活用の加速が期待される。</p>
+]]></description>
+      <pubDate>Wed, 01 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
       <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
       <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
@@ -639,24 +673,6 @@ UN Newsによれば、グテーレス氏はAIが誤用されれば平和と安�
 <p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
 ]]></description>
       <pubDate>Fri, 26 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>シャープ、RoBoHoN向けにChatGPT活用アプリ「ロボデイズ」を提供開始──ユーザーとカメラ映像や日記を参照しながら自然な対話</title>
-      <link>https://ledge.ai/articles/sharp_robohon_chatgpt_robodays</link>
-      <description><![CDATA[<p>シャープは2025年9月19日、コミュニケーションロボット「RoBoHoN（ロボホン）」向けに、生成AI「ChatGPT」を活用した新アプリケーション「ロボデイズ」の提供を10月1日より開始することを<a href="https://corporate.jp.sharp/news/250919-a.html">発表</a>した。カメラを用いた会話や日記の作成、記憶の蓄積といった機能を備え、ユーザーとの対話をより自然で豊かなものにすることを狙う。</p>
-<h2>「ロボデイズ」の概要</h2>
-<p>「ロボデイズ」はRoBoHoN専用の新アプリで、生成AIを活用して日常の出来事や目の前の風景を会話のきっかけにできる点が特徴だ。RoBoHoNのカメラで映した対象を認識し、その場の状況に即した会話を楽しめるほか、日々の出来事を日記風にまとめる機能も搭載する。さらに、やり取りの内容を記憶として蓄積し、継続的なコミュニケーションにつなげられる。</p>
-<h2>主な機能</h2>
-<ul>
-<li>カメラ会話機能：RoBoHoNがカメラで捉えた人物や物体に関連した話題を提供。</li>
-<li>日記機能：一日の出来事を整理してRoBoHoNが記録・読み上げ。</li>
-<li>記憶の蓄積：ユーザーとの会話や日記を参照しながら自然な対話を継続。</li>
-</ul>
-<h2>提供開始日と利用条件</h2>
-<p>「ロボデイズ」は2025年10月1日から提供される。利用にはRoBoHoNのソフトウェアをバージョン「05.01.00」以降にアップデートする必要がある。一部の追加機能は「ロボデイズ plus」プランにて提供予定で、RoBoHoNの基本プランに加入することで利用可能となる。</p>
-<p>同社はRoBoHoNを単なるコミュニケーションロボットにとどめず、身近なパートナーとして進化させることを目指す。生成AIを組み合わせることで、利用者が日常生活でより自然で継続的な会話体験を得られるようになるとしている。</p>
-]]></description>
-      <pubDate>Fri, 26 Sep 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
