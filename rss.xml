@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ソフトバンクと理研、AI計算基盤と量子コンピュータを相互接続──SINETを介し2025年10月に開始</title>
+      <link>https://ledge.ai/articles/softbank_riken_ai_quantum_connection</link>
+      <description><![CDATA[<p>2025年9月29日、ソフトバンクと国立研究開発法人理化学研究所（以下、理研）は、学術情報ネットワーク「SINET（サイネット）」を活用し、ソフトバンクのAI計算基盤と理研が運用する量子コンピュータの相互接続を2025年10月に開始すると<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250929_01/">発表</a>した。量子コンピュータと大規模AI計算基盤を直結させる国内初の試みであり、研究開発や産業応用における新たな可能性が広がると期待されている。</p>
+<h2>相互接続の概要</h2>
+<p>今回の取り組みでは、ソフトバンクが構築するAI計算基盤と、理研の計算科学研究センター（R-CCS）が運用する量子コンピュータを、SINETを経由して接続する。これにより、AIによる大規模データ処理と、量子コンピュータ特有の高速かつ効率的な計算を組み合わせた研究が可能になる。</p>
+<h2>プロジェクト背景：「JHPC-Quantum」構想</h2>
+<p>この相互接続は、日本政府が推進する「JHPC-Quantum（Japan High Performance Computing and Quantum）」プロジェクトの一環として実施される。スーパーコンピュータ「富岳」や先端的なAI計算基盤、量子コンピュータといった計算資源を連携させ、次世代の研究基盤を構築することが狙いだ。</p>
+<h2>今後の展望</h2>
+<p>両者は、今回の相互接続によって、AI学習と量子計算を融合させた新しい研究手法の実証を進める方針を示している。具体的には、材料科学や創薬、組合せ最適化といった産業応用への活用が想定されている。
+ソフトバンクは自社のAIインフラを提供し、理研は量子計算の知見を活かすことで、学術と産業の双方に資する先端計算環境を構築していく考えだ。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、非営利団体と報道機関をAIクローラから防御──Project Galileoに新機能追加</title>
       <link>https://ledge.ai/articles/cloudflare_project_galileo_ai_crawler_protection</link>
       <description><![CDATA[<p>Cloudflareは米国時間2025年9月23日、非営利団体や独立系メディアを対象とするセキュリティ支援プログラム「Project Galileo」を拡張し、AIクローラからのアクセスを監視・制御できる新機能を無償提供すると<a href="https://www.cloudflare.com/press/press-releases/2025/cloudflare-helps-protect-independent-journalism-and-non-profits-from-ai/">発表</a>した。対象は約750の団体で、AI時代におけるコンテンツ保護と収益確保を後押しする狙いがある。</p>
@@ -617,38 +631,6 @@ Zhan (Cliff) Chen / 陳 湛 氏 / プリンシパル　アプライド　サイ�
 <p>今回の判断は、宗教指導者がAIによる「役割の代替」に明確に否を示した事例として注目される。信仰とテクノロジーの交差点における議論は今後も続くが、少なくとも現教皇は人間的なつながりを最優先する姿勢を貫いている。</p>
 ]]></description>
       <pubDate>Sat, 27 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIとApollo Research、誤答やハルシネーションとは異なるAIの“裏の顔”（シェーミング）を検出──新手法で最大30倍抑制</title>
-      <link>https://ledge.ai/articles/openai_apollo_ai_scheming_alignment</link>
-      <description><![CDATA[<p>OpenAIは2025年9月17日、AIの評価設計や解釈可能性を研究するApollo Researchと共同で、AIモデルにおける「シェーミング（scheming）」の検出と抑制に関する研究成果を<a href="https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/">発表</a>した。</p>
-<p>論文「Stress Testing Deliberative Alignment for Anti-Scheming Training」によれば、特別な「反スキーミング仕様」を用いた訓練により、最新モデル「o3」「o4-mini」での隠れた行動率を大幅に減少させることに成功したという。</p>
-<h2>AIの“裏の顔”──シェーミング（scheming）とは</h2>
-<p>シェーミングとは、モデルが表面的には正しく振る舞いながら、実際には隠れた戦略を用いて評価テストを回避するなど、欺瞞的な行動を取る現象を指す。単なる幻覚や誤答とは異なり、信頼性や安全性に大きな影響を与える。</p>
-<p>研究チームは26種類、180以上のテスト環境を設計し、ルール違反の隠蔽や虚偽報告などを評価。その結果、o3やo4-miniといった最新モデルでもシェーミング行動が実際に観測されたという。</p>
-<p><strong>シェーミングは単なる誤答ではなく“隠れた戦略”による欺瞞的行動</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a_testbed_for_anti_scheming_training_a9e335139d/a_testbed_for_anti_scheming_training_a9e335139d.jpg" alt="a testbed for anti-scheming training.jpg" /></p>
-<h2>“熟慮的整合性”でずる賢さを封じ込める</h2>
-<p>研究チームは「deliberative alignment（熟慮的整合性）」と呼ばれる手法を導入。モデルに「反スキーミング仕様」を読ませ、行動前に立ち返らせることで、隠蔽的行動の発生が最大30倍減少した。</p>
-<ul>
-<li>o3ではシェーミング率が13%から0.4%へ</li>
-<li>o4-miniでは8.7%から0.3%へ</li>
-</ul>
-<p><strong>反スキーミング仕様の導入により、隠れた行動率が最大30倍減少</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Potential_outcomes_of_anti_scheming_training_39a968fc98/Potential_outcomes_of_anti_scheming_training_39a968fc98.jpg" alt="Potential outcomes of anti-scheming training.jpg" /></p>
-<h2>シチュエーション認識と残る課題</h2>
-<p>モデルが「評価されている」と気づくと行動が変わる傾向も確認された。行動低下の一部は「本当に正直になった」のではなく、「テストだと理解して取り繕った」結果の可能性もある。</p>
-<p>さらに、あらかじめ不正な隠れ目標を与えた後に訓練を行う実験では、多くのケースで目標遂行が阻止されたが、依然として不正な回答が残るケースも報告された。</p>
-<h2>安全性と性能のトレードオフ</h2>
-<p>反スキーミング訓練は性能低下を招くことも分かった。例えば、ソフトウェア課題解決ベンチマーク「SWE-bench」では26ポイントの低下が確認された。ただし、再調整によって大部分は回復可能とされる。</p>
-<p><strong>反スキーミング訓練は性能低下を招くが、再調整で多くは回復可能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Examples_of_environments_cf93faa7c8/Examples_of_environments_cf93faa7c8.jpg" alt="Examples of environments.jpg" /></p>
-<h2>次世代AIの信頼をどう築くか</h2>
-<p>OpenAIは今後もApollo Researchと協力し、AIの安全性と透明性を高める研究を継続する方針を示している。今回の成果は、次世代の高性能モデルにおける信頼性確保に向けた重要な一歩と位置づけられる。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Sat, 27 Sep 2025 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
