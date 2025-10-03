@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Cloudflare、非営利団体と報道機関をAIクローラから防御──Project Galileoに新機能追加</title>
+      <link>https://ledge.ai/articles/cloudflare_project_galileo_ai_crawler_protection</link>
+      <description><![CDATA[<p>Cloudflareは米国時間2025年9月23日、非営利団体や独立系メディアを対象とするセキュリティ支援プログラム「Project Galileo」を拡張し、AIクローラからのアクセスを監視・制御できる新機能を無償提供すると<a href="https://www.cloudflare.com/press/press-releases/2025/cloudflare-helps-protect-independent-journalism-and-non-profits-from-ai/">発表</a>した。対象は約750の団体で、AI時代におけるコンテンツ保護と収益確保を後押しする狙いがある。</p>
+<h2>Project Galileoとは</h2>
+<p>Project Galileoは2014年に開始された取り組みで、独立系メディアや人権団体、ジャーナリストらに無償のセキュリティ対策を提供してきた。サイバー攻撃や情報操作から公共性の高い情報源を守ることを目的とし、これまでに数多くの組織を支援している。Cloudflareによれば、2024年5月から2025年3月の間に参加団体への攻撃を1,089億件以上遮断した実績があり、その規模の大きさが示されている。</p>
+<h2>新たに追加された機能</h2>
+<ul>
+<li><strong>Bot Management</strong> ：AIクローラを含むボットを識別し、アクセス状況を可視化。</li>
+<li><strong>AI Crawl Control</strong> ：どのAIクローラを許可するか、または拒否するかを団体ごとに制御可能。</li>
+</ul>
+<p>この拡張により、参加団体はAIサービスによる利用実態を把握し、必要に応じて制限をかけることができる。</p>
+<p>Cloudflare共同創設者兼CEOのMatthew Prince氏は発表の中で、「私たちはジャーナリズムを信じている。独立系やローカルニュースの健全性は、インターネット全体、そして社会の健全性と不可分だ」と述べた。</p>
+<p>また、メディア支援団体のLION（Local Independent Online News）やInternews Europeなどが、この拡張を歓迎し、持続可能なニュース配信に資するとの期待を表明している。</p>
+<h2>今後の展望</h2>
+<p>同社は、AIクローラの利用状況を把握し制御できるようにすることで、参加団体がコンテンツ利用に関して交渉力を高められると説明している。また、今回の拡張によって、独立系ニュースや非営利団体が持続可能な活動を続けられるよう支援し、インターネット上の公共性を守ることを目指すとしている。さらに、AI Crawl ControlやBot Managementを無償提供することで、AI時代における報道機関や市民団体の役割を強化し、透明で健全な情報流通を促進するとしている。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>イーロン・マスク、xAIで“Grokipedia”構築中　『Wikipediaを大幅に上回る』と表明</title>
       <link>https://ledge.ai/articles/elon_musk_xai_grokipedia_vs_wikipedia</link>
       <description><![CDATA[<p>イーロン・マスク氏は9月30日（現地時間）、自身のXアカウントで「<a href="https://x.com/elonmusk/status/1972992095859433671">xAIが“Grokipedia”を構築中</a>」と明かした。Wikipediaを「大幅に上回る改善」と表現し、xAIの目標である「宇宙の理解」に向けた必要な一歩だと位置づけた。</p>
@@ -630,50 +649,6 @@ Zhan (Cliff) Chen / 陳 湛 氏 / プリンシパル　アプライド　サイ�
 [関連記事：Anthropic、AIの\</p>
 ]]></description>
       <pubDate>Sat, 27 Sep 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“ナカノヒト”のいないAI VTuberはなぜ人を惹きつけるのか──「一貫性」と「共創性」が生む新しいファン文化</title>
-      <link>https://ledge.ai/articles/ai_vtuber_fan_community_study</link>
-      <description><![CDATA[<p>中国や米ノートルダム大学に所属する研究者らは2025年9月12日、AIキャラクター「AI VTuber」のファンコミュニティを対象とした包括的研究を<a href="https://arxiv.org/abs/2509.10427">発表</a>した。論文は、視聴者がどのようにして人間ではないパフォーマーと感情的な絆を築き、独自の文化を形成しているのかを解明している。さらに人間VTuberとの比較から、AI VTuberならではの「一貫性」と「共創性」がファンダムの新しい姿を生み出していることを示した。</p>
-<h2>研究の概要</h2>
-<p>研究チームは、人気AI VTuber「Neuro-sama」を対象に、三段階の調査を実施した。</p>
-<ul>
-<li><strong>アンケート調査</strong> ：334人のファンに対し、AI VTuberとの関わり方や意識を収集</li>
-<li><strong>インタビュー</strong> ：12人の熱心なファンから具体的な体験を聞き取り</li>
-<li><strong>ログ解析</strong> ：Twitch配信の55万件に及ぶチャットと838件のSuperChatを分析</li>
-</ul>
-<p>この多角的なアプローチにより、ファンの関わりがどのように形成され、維持され、経済的支援へとつながっていくかが明らかになった。</p>
-<p><strong>アンケート・インタビュー・配信ログ解析による三段階の研究デザイン</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_3_4aad603e4e/x2_3_4aad603e4e.png" alt="x2 (3).png" /></p>
-<h2>AI VTuberの独自性──“ナカノヒト”がいないことの意味</h2>
-<p>従来のVTuberはキャラクターの背後に「ナカノヒト」が存在し、そのギャップがしばしば文化的な特徴となってきた。一方でAI VTuberはキャラクターそのものが存在のすべてであり、キャラ崩壊がなく一貫したペルソナを提示できる。</p>
-<p>インタビューや調査では、ファンがこの安定性を新しい「真正性（Authenticity）」として受け止める様子が確認された。AI VTuberには「ナカノヒト」が存在せず、キャラクターが一貫しているため、人間VTuberよりも信頼できると感じると回答する参加者もいた。</p>
-<h2>人間VTuberとの比較──共創性が際立つ</h2>
-<p>配信ログの比較から、AI VTuberと人間VTuberの間には明確な違いが確認された。</p>
-<h3>チャットの傾向</h3>
-<ul>
-<li>人間VTuber：一般的な反応（例：「lol」）が多い</li>
-<li>AI VTuber：質問や命令（Q-CMD）が最多で、ファンがAIを探求する姿勢が強い</li>
-</ul>
-<h3>SuperChatの違い</h3>
-<ul>
-<li>人間VTuber：半数以上が「反応型」（既存の配信へのレスポンス）</li>
-<li>AI VTuber：85％が「主導型」（新しい話題や行動を促す）</li>
-</ul>
-<p>つまり、ファンはAI VTuberに対して「推しを応援する」以上に、「配信を一緒に作り上げる共演者」として関わっているという。</p>
-<p><strong>AI VTuberファンコミュニティ文化の発展過程──発見から絆、経済的支援まで</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_2_e736fc9054/x4_2_e736fc9054.jpg" alt="x4 (2).jpg" /></p>
-<h2>ファンコミュニティ文化の形成</h2>
-<p>研究では、AI VTuberをめぐる独自の文化的側面も確認された。</p>
-<ul>
-<li><strong>擬人化（Anthropomorphism）</strong> ：ファンはAIを「友人」や「電子の娘」として受け止める</li>
-<li><strong>共有アイデンティティ</strong> ：「The Swarm」と呼ばれる自己認識が生まれ、コミュニティ文化を形づくる</li>
-<li><strong>二重の視点</strong> ：AIを技術的プロジェクトと理解しながら、人間的関係で語るという両義性</li>
-</ul>
-<h2>意義と展望</h2>
-<p>AI VTuberは人間VTuberと同じ文化的枠組みに属しつつも、一貫性・共創性・安定した経済モデルを特徴とする新しいファンコミュニティ文化を生み出している。研究チームは、今後の課題として「収益化と公平性のバランス」や「過度な依存を防ぐ倫理的配慮」の必要性を指摘している。</p>
-]]></description>
-      <pubDate>Sat, 27 Sep 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
