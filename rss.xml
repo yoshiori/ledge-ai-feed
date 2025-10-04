@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
+      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
+      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
+<h2>飽和する既存ベンチマーク</h2>
+<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
+<h2>日本の「なぞなぞ」はハイレベル？</h2>
+<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
+なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
+<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
+<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
+<h2>英語 “リドル（riddle）” との差異</h2>
+<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
+これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
+<h2>実験結果</h2>
+<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
+<ul>
+<li>人間の平均正答率は52.9％</li>
+<li>GPT-5のみが人間平均と同等のスコアを記録</li>
+<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
+</ul>
+<h2>AIが苦手な「最後のひと押し」</h2>
+<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
+また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
+<h2>今後の展望</h2>
+<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google「Gemini for Home」を発表──Nest Cam刷新と新Google Homeスピーカーで “家庭のAI体験” を一新</title>
       <link>https://ledge.ai/articles/google_gemini_for_home_nest_cam_home_speaker</link>
       <description><![CDATA[<p>Googleは2025年10月1日（現地時間）、会話型AI「Gemini」を家庭向けに導入する新戦略「Gemini for Home」を<a href="https://blog.google/products/google-nest/gemini-for-home-launch/">発表</a>した。従来のGoogle Assistantに代わり、Geminiがスマートホームの中核を担う。あわせて「Nest Cam Indoor（有線・第3世代）」「Nest Cam Outdoor（有線・第2世代）」と新しい「Google Homeスピーカー」を公開し、Google Homeアプリのデザインも刷新した。Nest Camは順次各国で販売開始、Google Homeスピーカーは2026年春に発売予定とされる。</p>
