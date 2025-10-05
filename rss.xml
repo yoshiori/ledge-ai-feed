@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>地球観測をAIエージェントで刷新──「Earth-Agent」と新ベンチマーク「Earth-Bench」登場</title>
+      <link>https://ledge.ai/articles/earth_agent_earth_bench_launch</link>
+      <description><![CDATA[<p>中国の研究チームは2025年9月27日、地球観測データを高度に解析できるAIフレームワーク「Earth-Agent」を<a href="https://arxiv.org/abs/2509.23141">発表</a>した。RGB画像や分光データを統合し、従来のAIが苦手としてきた複雑な推論や専門ツールの利用を可能にする。あわせて、248タスク・13,729枚の画像を収録した新ベンチマーク「Earth-Bench」も公開した。</p>
+<h2>Earth-Agentとは</h2>
+<p>Earth-Agentは、地球観測（Earth Observation, EO）に特化した初のエージェント型AIだ。RGB画像や分光観測データを活用し、地球物理パラメータの推定、気候解析、都市管理、災害監視などに応用できる。人間のように「考える→ツールを呼び出す→結果を更新」というステップを繰り返し、複雑な課題を解決する構造を持つ。</p>
+<p><strong>Earth-Agentの処理フレームワーク。思考・ツール利用・更新を繰り返す構造が特徴</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Earth_Agent_Framework_2a4b1e8bf6/Earth_Agent_Framework_2a4b1e8bf6.jpg" alt="Earth-Agent Framework.jpg" /></p>
+<h2>従来モデルの限界を突破</h2>
+<p>一般的なマルチモーダルLLM（GPT-4やGeminiなど）は、地球観測の現場で必要とされるマルチステップ推論に弱いとされてきた。Earth-Agentは専門ツールを動的に呼び出すことでこの課題を克服。例えば、干ばつ指数の解析、夜間光データの回帰分析、港湾面積の比較といった応用を実証した。</p>
+<p><strong>Earth-Agentによる解析例。干ばつ監視、夜間光解析、港湾面積の差分計算を実行している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Earth_Agent_solving_tasks_across_Spectrum_Products_and_RGB_data_155fe5c084/Earth_Agent_solving_tasks_across_Spectrum_Products_and_RGB_data_155fe5c084.jpg" alt="Earth-Agent solving tasks across Spectrum Products and RGB data.jpg" /></p>
+<h2>新ベンチマーク「Earth-Bench」</h2>
+<p>研究チームは同時に、新しい評価データセット「Earth-Bench」を構築した。248タスク、13,729画像を収録し、スペクトル解析・プロダクト解析・RGB解析の3カテゴリに分類。既存のEarthVQAやGeo-Benchに比べ、クロスモダリティや複雑な推論に対応しているのが特徴だ。</p>
+<p><strong>Earth-Benchの全体像。既存ベンチマークとの比較や各カテゴリの内訳</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dataset_Comparison_and_Overview_3fc2821c52/Dataset_Comparison_and_Overview_3fc2821c52.jpg" alt="Dataset Comparison and Overview.jpg" /></p>
+<h2>データ構築の仕組み</h2>
+<p>Earth-Benchは、Google Earth EngineやNASA Earth Dataから取得した衛星画像をもとに研究者が課題を設計している。論文では「2021年にシカゴ大都市圏で、地域の25%以上が300K（約27℃）を超えた日は何日あったか」といった問題が例示されている。これは都市ヒートアイランド現象や極端高温日数のモニタリングに直結する。</p>
+<p>こうした課題はPythonコードで解法プロセスを記録し、JSON形式でアノテーション化。データには、どの衛星画像を使い、どのツールをどの順序で呼び出し、最終的に何日と算出されたかまでが明示されている。</p>
+<p><strong>Earth-Benchの構築プロセス。衛星データから課題を生成し、ツール利用手順を記録</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Construction_and_Annotation_of_Earth_Bench_53ceef7fb0/Construction_and_Annotation_of_Earth_Bench_53ceef7fb0.jpg" alt="Construction and Annotation of Earth-Bench.jpg" /></p>
+<h2>今後の展望</h2>
+<p>論文によると、Earth-Agentのコードとデータは公開される予定とのこと。研究チームは、地球科学研究の高度化だけでなく、防災計画や気候変動対策、都市政策など幅広い応用に貢献できると見込んでいる。</p>
+]]></description>
+      <pubDate>Sun, 05 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIは「音を想像して考える」ことができるか──韓国の研究チームがAuditoryBench++と新手法AIR-CoTを発表</title>
       <link>https://ledge.ai/articles/ai_auditory_imagination_aircot</link>
       <description><![CDATA[<p>韓国の研究チームは2025年9月22日、言語モデル（LLM）が実際に音を聞かずとも聴覚的知識を想起できるかを検証する新しいベンチマーク「AuditoryBench++」を開発したと<a href="https://arxiv.org/abs/2509.17641">発表</a>した。さらに、音を頭の中で「想像」させる推論手法 AIR-CoT（Auditory Imagination Reasoning with Chain-of-Thought） を導入し、従来のモデルよりも高い精度で聴覚推論を実現したと報告している。</p>
