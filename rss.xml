@@ -5,6 +5,39 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIは「音を想像して考える」ことができるか──韓国の研究チームがAuditoryBench++と新手法AIR-CoTを発表</title>
+      <link>https://ledge.ai/articles/ai_auditory_imagination_aircot</link>
+      <description><![CDATA[<p>韓国の研究チームは2025年9月22日、言語モデル（LLM）が実際に音を聞かずとも聴覚的知識を想起できるかを検証する新しいベンチマーク「AuditoryBench++」を開発したと<a href="https://arxiv.org/abs/2509.17641">発表</a>した。さらに、音を頭の中で「想像」させる推論手法 AIR-CoT（Auditory Imagination Reasoning with Chain-of-Thought） を導入し、従来のモデルよりも高い精度で聴覚推論を実現したと報告している。</p>
+<h2>人間は音を「想像」できるがLLMは苦手</h2>
+<p>研究チームは、カント哲学の視点を引きながら「想像力は知覚に不可欠な要素である」と指摘する。例えば「大雨と稲妻の夜を描写した文章」を読むと、人は雨が太鼓を打つように降り注ぐ音や雷鳴を思い浮かべることができる。しかし、既存のLLMにはこのような聴覚的想像力が欠けているという。</p>
+<h2>AuditoryBench++の概要</h2>
+<p>この課題を検証するために開発された「AuditoryBench++」は、テキストのみを用いて音に関する推論力を評価するベンチマークで、以下の5種類のタスクを含む。</p>
+<ul>
+<li><strong>ピッチ比較</strong> （高い／低い音）</li>
+<li><strong>持続時間比較</strong> （長い／短い音）</li>
+<li><strong>大きさ比較</strong> （大きい／小さい音）</li>
+<li><strong>動物の鳴き声認識</strong> （例：「meow」＝猫）</li>
+<li><strong>文脈的聴覚推論</strong> （状況文から音を推定）</li>
+</ul>
+<p>合計で6,732問の問題が用意され、既存のベンチマークよりも大規模かつ精緻な評価が可能になっている。</p>
+<h2>新手法AIR-CoTの仕組み</h2>
+<p>研究チームはさらに、モデルに「音を想像させる」新しい推論手法 AIR-CoT を導入した。AIR-CoTでは、モデルが推論中に音の知識を必要とする場面に遭遇すると、特殊トークン [imagine] を生成する。するとシステムが想像プロセスを発動し、CLAPなどの音声モデルから得られた音の埋め込みを挿入、推論を継続する。これにより、まるで音を「頭の中で鳴らして」考えるかのような動作が可能になる。</p>
+<p><strong>AIR-CoTの仕組み：モデルは [imagine] トークンで音を必要とする箇所を検出し、CLAPによる音埋め込みを注入して推論を続ける</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_cd93e9a630/x1_cd93e9a630.jpg" alt="x1.jpg" /></p>
+<h2>実験結果</h2>
+<p>AuditoryBench++を用いた評価では、既存のLLM（LLaMA3、Qwen2、Phi-4など）やマルチモーダルLLMはいずれもランダムに近い精度しか出せなかった。一方、AIR-CoTは以下のような大幅な改善を示した。</p>
+<ul>
+<li><strong>ピッチ比較</strong> ：83.9%（従来比 +8.3pt）</li>
+<li><strong>動物の鳴き声認識</strong> ：71.6%（+9.3pt）</li>
+<li><strong>文脈的聴覚推論</strong> ：82.7%（+11.9pt）</li>
+</ul>
+<p>ただし「持続時間」や「大きさ」の推論は依然として難しく、改善の余地があるとされている。</p>
+<h2>今後の展望</h2>
+<p>研究チームは、AuditoryBench++とAIR-CoTを提案し、従来のモデルを上回る成果を確認したと結論づけている。同研究は、直接オーディオ入力がなくても聴覚情報を想像できる言語モデルの基盤を提供し、最終的にはより自然で人間らしいマルチモーダル推論を可能にするとしている。</p>
+]]></description>
+      <pubDate>Sat, 04 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Metaが、AI チャットでの対話内容をFacebook／Instagramの広告最適化に利用すると発表— 12月導入、ユーザーはオプトアウト不可</title>
       <link>https://ledge.ai/articles/meta_ai_chat_ads_december</link>
       <description><![CDATA[<p>Metaは2025年10月1日（現地時間）、利用者とAIチャットボットのやり取りを、FacebookやInstagram上で表示されるコンテンツや広告のパーソナライズに活用する方針を公式ブログで<a href="https://about.fb.com/news/2025/10/improving-your-recommendations-apps-ai-meta/">発表</a>した。通知は10月7日から開始され、正式導入は12月16日としている。</p>
@@ -525,69 +558,6 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
 ]]></description>
       <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>【9/29-30限定公開】AI業界のトップランナーが集結した「Ledge.ai Webinar SP」の見逃し配信</title>
-      <link>https://ledge.ai/articles/ledgeai-webinarsp-sponsor-archive</link>
-      <description><![CDATA[<p>国内最大級のAI専門メディア「Ledge.ai」を運営する株式会社レッジは、9月24日から9月26日の3日間にかけて、オンラインイベント「Ledge.ai Webinar SP」を開催した。</p>
-<p>同イベントは、「AIをしる、つかう、つくる」をテーマに、AI業界を牽引する18の企業が、AI活用に関する見識をシェアする講演を実施した。本日と明日の2日間限定で、ライブ配信を見逃した方や再度視聴したい方のために「Ledge.ai Webinar SP」の全講演をオンデマンドで配信する。本稿では実施された講演とその一部見所を紹介する。</p>
-<p>:::button
-<a href="https://forms.zohopublic.com/ledgeai/form/WebinarSP/formperma/JuHnRG5lHussdjFLR1q1xzkoh-ToCiYgQmvxxGOotyU">アーカイブ配信を見る</a>
-:::</p>
-<h1>AI業界のトップランナーが集結し、全18の講演をお届け</h1>
-<p>「Ledge.ai Webinar SP」では、マイクロソフト、ソフトバンク、日本ディープラーニング協会などAI業界のトップランナー全18の企業が講演を行った。</p>
-<h2>DAY-1「AIをしる」</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Day1_76bc3a0602/Day1_76bc3a0602.png" alt="Day1.png" /></p>
-<h2>DAY-2「AIをつかう」</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Day2_62d766c235/Day2_62d766c235.png" alt="Day2.png" /></p>
-<h2>DAY-3「AIをつくる」</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Day3_d61ce2af95/Day3_d61ce2af95.png" alt="Day3.png" /></p>
-<h3>「ソフトバンクの事例から紐解く、組織の生成AI活用・推進を自走するための仕組みづくり」</h3>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2025_09_28_13_45_33_69eb5b9eab/2025_09_28_13_45_33_69eb5b9eab.png" alt="スクリーンショット 2025-09-28 13.45.33.png" />
-【登壇者】
-ソフトバンク株式会社
-藤原 竜也 氏 / IT統括 AI&amp;データ事業統括部　Axross事業部 部長</p>
-<p>概要：
-ソフトバンク株式会社の講演では、ソフトバンク自身がどのように組織での生成AI活用を進めたのか解説。自社事例をもとにしたトップダウン・ボトムアップそれぞれのアプローチ手法など実際組織に落とし込める取り組みについてお話しいただいた。</p>
-<h3>「私が想像する未来のOS」</h3>
-<p>【登壇者】
-マイクロソフト ディベロップメント株式会社
-Zhan (Cliff) Chen / 陳 湛 氏 / プリンシパル　アプライド　サイエンティスト</p>
-<p>概要：
-マイクロソフト ディベロップメント株式会社の講演では、未来のOSについて語られた。未来のUIはその人それぞれにベストな形で生成されるようになり、OSはキャラクターに変わるという。講演では、未来がなぜそのように変わっていくかも語られた。</p>
-<h3>「企業におけるAIエージェント実装の現実戦略」</h3>
-<p>【登壇者】
-株式会社エクスプラザ
-宮田 大督 氏 / CPO 生成AIエバンジェリスト・リードAIプロデューサー</p>
-<p>概要：
-株式会社エクスプラザの講演では、AIエージェントを使いこなすことで今どのレベルまでAIがタスクを代替できるのか、宮田 氏自身の自律型エージェントがこちらから指示を出していないのにAIが課題に合わせたアプリを作って提案してくれた経験などをご紹介いただいた。また、今後AIエージェントが当たり前になる時代に対し、どのように備えていくべきかもお話しいただいた。</p>
-<h3>「自然に生成AIの活用を加速させるデータインフラ統合型AIのすゝめ」</h3>
-<p>【登壇者】
-ダイレクトクラウド株式会社
-石田 圭一 氏 / プロダクト本部　部長
-十樹 亮輔 氏 / 営業本部カスタマーリレーション部 カスタマーサクセスチーム</p>
-<p>概要：
-ダイレクトクラウド株式会社の講演では、データインフラ統合型AIを活用し組織全体での知識共有が促進されることで生まれるメリットや重要性についてお話しいただいた。また、データインフラに統合されたAIの活用事例などについてもお話しいただいた。</p>
-<h3>「話題のgpt-ossとは？ローカル版ChatGPTで構築するAIエージェント【解説＆デモ】」</h3>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2025_09_28_13_35_49_5582ed62a7/2025_09_28_13_35_49_5582ed62a7.png" alt="スクリーンショット 2025-09-28 13.35.49.png" />
-【登壇者】
-株式会社ハイレゾ
-山田 岳史 氏 / GPU事業本部 マーケティング部 グループ長</p>
-<p>概要：
-株式会社ハイレゾの講演では、ローカル版ChatGPTを使ったAIエージェント構築のデモンストレーションと解説をしていただいた。またその中でMCP、MoEなど必要な概念やその実装方法についても触れていただいた。</p>
-<h3>「HPワークステーションで試すRAG検索 — 実用構成とPOC事例の紹介」</h3>
-<p>【登壇者】
-株式会社日本HP
-勝谷 裕史 氏 / エンタープライズ営業統括 ソリューション営業本部 ワークステーション営業部 AI/データサイエンス市場開発担当部長</p>
-<p>概要：
-株式会社日本HPの講演では、AIワークステーションを活用する具体的な用途やメリット、クラウド生成AIとローカル生成AIの違いについて解説いただいた。また、実際にオンプレミスでのローカル生成AのPoC事例についてもご紹介いただいた。</p>
-<p>ここまでご紹介したように、登壇いただいた企業様それぞれの視点や取り組みが異なるため、多様な切り口で様々な情報をキャッチアップすることができる。</p>
-<p>AIに関する様々な分野の最前線を知る機会として、是非お見逃しなく。</p>
-<p>:::button
-<a href="https://forms.zohopublic.com/ledgeai/form/WebinarSP/formperma/JuHnRG5lHussdjFLR1q1xzkoh-ToCiYgQmvxxGOotyU">アーカイブ配信を見る</a>
-:::</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/28 [SUN]Photoshop、外部AIモデルを初統合──Google「Nano Banana」とBlack Forest Labsの「FLUX.1 Kontext」が生成塗りつぶしに対応</title>
