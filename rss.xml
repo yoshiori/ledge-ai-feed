@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>元OpenAI・DeepMind研究者が設立「Periodic Labs」、3億ドルを調達しAIで科学研究を自動化へ</title>
+      <link>https://ledge.ai/articles/periodic_labs_ai_scientist_seed</link>
+      <description><![CDATA[<p>元OpenAIやDeepMindの研究者が中心となって設立したスタートアップ Periodic Labs が、シード資金として約3億ドルを調達し、非公開での活動（ステルスモード）を経て発足した。共同創業者のWilliam Fedus氏は2025年9月30日（現地時間）、X（旧Twitter）で「AI科学者を構築し、自律的な実験室を運営することを目指す」と<a href="https://x.com/LiamFedus/status/1973055380193431965">発表</a>した。</p>
+<h2>AI科学者と自律実験室</h2>
+<p>Fedus氏は、「科学は仮説を立て、実験を行い、結果から学ぶことで進展する」と述べ、AIがそのサイクルを担う未来を描いた。Periodic Labsは自律的な実験室を構築し、高品質な科学データや従来発表されにくい“失敗の実験結果”を含めて活用することで、新しい知見の創出を加速させる狙いだ。まずは物理科学分野から着手し、自然界を「強化学習の環境」として扱うことでAIによる発見を推進する。</p>
+<h2>研究テーマと応用例</h2>
+<p>研究テーマの一つは高温超伝導体の探索で、実現すれば次世代輸送技術や高効率の送電網に大きな影響を与えるとされる。また、同社はすでに半導体メーカーと協力し、チップの放熱問題に対応するため、実験データを解析するカスタムAIエージェントを開発している。</p>
+<h2>創業メンバー</h2>
+<p>創業チームには、ChatGPTの共同開発、DeepMindのGNoME、OpenAIのOperator（現Agent）、ニューラルネットのアテンション機構、MatterGenなどに関わった研究者が名を連ねる。過去10年で重要な材料発見を主導してきた人材も加わり、幅広い経験を持つ研究陣が揃っている。</p>
+<h2>資金調達と投資家</h2>
+<p>今回のシード資金はa16z（Andreessen Horowitz）が主導。Felicis、DST Global、NVentures（NVIDIAのVC部門）、Accelなどが参加し、個人投資家としてジェフ・ベゾス氏、エリック・シュミット氏、ジェフ・ディーン氏らも名を連ねる。
+a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公式ブログ</a>で「Periodic Labsの取り組みは科学の進め方を根本的に変える可能性がある」と述べ、支援の背景を明らかにしている。</p>
+]]></description>
+      <pubDate>Sun, 05 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>地球観測をAIエージェントで刷新──「Earth-Agent」と新ベンチマーク「Earth-Bench」登場</title>
       <link>https://ledge.ai/articles/earth_agent_earth_bench_launch</link>
       <description><![CDATA[<p>中国の研究チームは2025年9月27日、地球観測データを高度に解析できるAIフレームワーク「Earth-Agent」を<a href="https://arxiv.org/abs/2509.23141">発表</a>した。RGB画像や分光データを統合し、従来のAIが苦手としてきた複雑な推論や専門ツールの利用を可能にする。あわせて、248タスク・13,729枚の画像を収録した新ベンチマーク「Earth-Bench」も公開した。</p>
