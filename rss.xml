@@ -117,32 +117,22 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Sat, 04 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
-      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
-      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
-<h2>飽和する既存ベンチマーク</h2>
-<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
-<h2>日本の「なぞなぞ」はハイレベル？</h2>
-<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
-なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
-<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
-<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
-<h2>英語 “リドル（riddle）” との差異</h2>
-<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
-これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
-<h2>実験結果</h2>
-<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
-<ul>
-<li>人間の平均正答率は52.9％</li>
-<li>GPT-5のみが人間平均と同等のスコアを記録</li>
-<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
-</ul>
-<h2>AIが苦手な「最後のひと押し」</h2>
-<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
-また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
-<h2>今後の展望</h2>
-<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
+      <title>ビジネス2025/9/29 [MON]ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
+      <link>https://ledge.ai/articles/chatgpt_shared_projects_security_update</link>
+      <description><![CDATA[<p>OpenAIは2025年9月25日（現地時間）、ChatGPTにおいて、チームでの共同作業やセキュリティ機能を強化する新機能を<a href="https://openai.com/index/more-ways-to-work-with-your-team/">発表</a>した。新たに「共有プロジェクト」モードを導入するほか、外部アプリとの接続機能やエンタープライズ向けの管理機能を拡充している。</p>
+<h2>共有プロジェクトモードで共同作業を効率化</h2>
+<p>今回のアップデートの中心となるのが「共有プロジェクト」モードだ。これにより、同じワークスペース内のメンバーがチャット、ファイル、カスタムインストラクションを一元的に共有できる。権限は「Chat」と「Edit」の2種類があり、後者ではファイル追加やメンバー招待などが可能となる。さらにプロジェクト専用のメモリが搭載され、長期的なタスクでも文脈を保持したまま進行できるという。</p>
+<p>同機能はChatGPT Business、Enterprise、Eduプランに即日提供され、Free／Go／Plus／Proプランには近日中に展開予定。EnterpriseとEduでは既定でオフとなっており、管理者が制御できるとのこと。</p>
+<h2>サードパーティアプリとの接続拡大</h2>
+<p>OpenAIはまた、外部アプリとChatGPTを直接つなぐ「コネクタ」機能を強化した。現在はGmail、Google Calendar、Microsoft Outlook、Microsoft Teams、SharePoint、GitHub、Dropbox、Boxなどに対応し、情報の取り込みや操作をChatGPTから直接実行できる。</p>
+<p>コネクタは用途に応じて自動的に選択され、回答の速度と正確性が向上。さらに、GitHubやSharePointなどでは同期型コネクタによる事前取り込みにも対応する。既存のアクセス権限は尊重され、Business以上のプランではデータが学習に利用されない。EnterpriseとEduでは既定でオフとなり、管理者が利用可否を制御できる。</p>
+<p><strong>ChatGPTが対応する外部アプリの例（Google Drive、Gmail、GitHub、Notionなど）。今後さらに拡大予定</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Connector_logo_wall_16x9_96f5c1f71e/Connector_logo_wall_16x9_96f5c1f71e.webp" alt="Connector_logo_wall_16x9.webp" /></p>
+<h2>セキュリティとコンプライアンスを強化</h2>
+<p>エンタープライズ利用を想定し、セキュリティ・コンプライアンス機能も拡充された。新たにISO/IEC 27001、27017、27018、27701の認証を取得したほか、SOC 2の適用範囲をSecurity／Confidentiality／Availability／Privacyに拡大。</p>
+<p>また、RBAC（カスタムロール・グループ権限管理）に対応し、アクセス制御を柔軟に設定可能となった。シングルサインオン（SSO）は既存のSAMLに加え、OIDCにも対応。さらにEnterpriseとEduではIP許可リストの設定も可能となり、組織全体での安全性が強化されている。</p>
+<h2>今後の展開</h2>
+<p>新機能はChatGPTにおけるチーム利用を本格化させる第一歩と位置づけられている。OpenAIはブログで「本リリースは、ChatGPTにおけるチームコラボレーションの初期ステップ」と述べ、今後も職場全体での安全な導入を支えるため、機能拡張を続けていく考えを示した。</p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
     </item>
@@ -257,40 +247,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Thu, 02 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
-      <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
-      <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
-<h2>コーディング性能の飛躍</h2>
-<p>Sonnet 4.5は、ソフトウェアエンジニアリングのベンチマーク「SWE-bench Verified」で77.2%の正答率を記録し、並列計算を用いた高負荷環境では82.0%に達した。従来モデルのClaude Sonnet 4（72.7%）や競合のGPT-5（72.8%）を大きく上回っている。</p>
-<p><strong>ソフトウェアエンジニアリングにおけるベンチマーク「SWE-bench Verified」での比較。Sonnet 4.5が最も高い精度を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290.webp" alt="6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.webp" /></p>
-<h2>幅広い領域での強化</h2>
-<p>Claude Sonnet 4.5は、コーディングだけでなく、コンピュータ操作や数学、言語理解など幅広い分野で性能を向上させた。特にOSWorldベンチマークでは61.4%を達成し、前世代の42.2%から大幅に改善。金融や法務、医療、STEMといった専門分野でも、専門家による評価で大きな知識・推論力の進歩が確認されている。</p>
-<p><strong>主要ベンチマークでの各モデル比較。Claude Sonnet 4.5は複数分野でトップクラスの性能を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7.webp" alt="67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.webp" /></p>
-<h2>エージェント開発と新機能</h2>
-<p>さらに同社は今回「Claude Agent SDK」を公開。長期タスクのメモリ管理、ユーザー権限の制御、複数エージェントの協調といった仕組みを開発者に提供する。さらに以下の新機能が追加された：</p>
-<ul>
-<li>Claude Codeへのチェックポイント機能</li>
-<li>VS Code拡張と刷新されたターミナル</li>
-<li>Claudeアプリでのコード実行・ファイル生成機能</li>
-<li>Chrome拡張の一般公開（Maxユーザー向け）</li>
-</ul>
-<p>これにより、開発者は独自のエージェントやツールを構築できる環境が整備された。</p>
-<p>@<a href="https://youtu.be/OZ-aLrJ0oVg">YouTube</a></p>
-<h2>安全性とアラインメントの改善</h2>
-<p>Sonnet 4.5はAnthropic史上「最もアラインメントが取れた」モデルとして公開された。危険な挙動（虚偽、迎合、権力志向、妄想助長など）を大幅に低減。AI Safety Level 3（ASL-3）の保護レベルで運用され、特に化学・生物・放射線・核（CBRN）分野に関連するリスク低減が強化されている。</p>
-<p><strong>各モデルにおける「ミスアラインメント行動スコア」。Sonnet 4.5は最も低い数値を示し、安全性が向上している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515.webp" alt="33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.webp" /></p>
-<h2>提供条件と研究プレビュー</h2>
-<p>Claude Sonnet 4.5は即日利用可能で、価格は従来のSonnet 4と同じく入力100万トークンあたり3ドル、出力100万トークンあたり15ドル。
-また研究プレビューとして「Imagine with Claude」も公開され、期間限定でリアルタイムにコードを生成するデモを体験できる。</p>
-<p>@<a href="https://youtu.be/dGiqrsv530Y">YouTube</a></p>
-<p>Anthropicは「Claude Sonnet 4.5は、より安全で強力なフロンティアモデルであり、開発者やビジネスユーザーにとって即戦力となる」としており、今後のAIエージェント活用の加速が期待される。</p>
-]]></description>
-      <pubDate>Wed, 01 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
       <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
       <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
@@ -363,48 +319,55 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Tue, 30 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/9/29 [MON]ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
-      <link>https://ledge.ai/articles/chatgpt_shared_projects_security_update</link>
-      <description><![CDATA[<p>OpenAIは2025年9月25日（現地時間）、ChatGPTにおいて、チームでの共同作業やセキュリティ機能を強化する新機能を<a href="https://openai.com/index/more-ways-to-work-with-your-team/">発表</a>した。新たに「共有プロジェクト」モードを導入するほか、外部アプリとの接続機能やエンタープライズ向けの管理機能を拡充している。</p>
-<h2>共有プロジェクトモードで共同作業を効率化</h2>
-<p>今回のアップデートの中心となるのが「共有プロジェクト」モードだ。これにより、同じワークスペース内のメンバーがチャット、ファイル、カスタムインストラクションを一元的に共有できる。権限は「Chat」と「Edit」の2種類があり、後者ではファイル追加やメンバー招待などが可能となる。さらにプロジェクト専用のメモリが搭載され、長期的なタスクでも文脈を保持したまま進行できるという。</p>
-<p>同機能はChatGPT Business、Enterprise、Eduプランに即日提供され、Free／Go／Plus／Proプランには近日中に展開予定。EnterpriseとEduでは既定でオフとなっており、管理者が制御できるとのこと。</p>
-<h2>サードパーティアプリとの接続拡大</h2>
-<p>OpenAIはまた、外部アプリとChatGPTを直接つなぐ「コネクタ」機能を強化した。現在はGmail、Google Calendar、Microsoft Outlook、Microsoft Teams、SharePoint、GitHub、Dropbox、Boxなどに対応し、情報の取り込みや操作をChatGPTから直接実行できる。</p>
-<p>コネクタは用途に応じて自動的に選択され、回答の速度と正確性が向上。さらに、GitHubやSharePointなどでは同期型コネクタによる事前取り込みにも対応する。既存のアクセス権限は尊重され、Business以上のプランではデータが学習に利用されない。EnterpriseとEduでは既定でオフとなり、管理者が利用可否を制御できる。</p>
-<p><strong>ChatGPTが対応する外部アプリの例（Google Drive、Gmail、GitHub、Notionなど）。今後さらに拡大予定</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Connector_logo_wall_16x9_96f5c1f71e/Connector_logo_wall_16x9_96f5c1f71e.webp" alt="Connector_logo_wall_16x9.webp" /></p>
-<h2>セキュリティとコンプライアンスを強化</h2>
-<p>エンタープライズ利用を想定し、セキュリティ・コンプライアンス機能も拡充された。新たにISO/IEC 27001、27017、27018、27701の認証を取得したほか、SOC 2の適用範囲をSecurity／Confidentiality／Availability／Privacyに拡大。</p>
-<p>また、RBAC（カスタムロール・グループ権限管理）に対応し、アクセス制御を柔軟に設定可能となった。シングルサインオン（SSO）は既存のSAMLに加え、OIDCにも対応。さらにEnterpriseとEduではIP許可リストの設定も可能となり、組織全体での安全性が強化されている。</p>
-<h2>今後の展開</h2>
-<p>新機能はChatGPTにおけるチーム利用を本格化させる第一歩と位置づけられている。OpenAIはブログで「本リリースは、ChatGPTにおけるチームコラボレーションの初期ステップ」と述べ、今後も職場全体での安全な導入を支えるため、機能拡張を続けていく考えを示した。</p>
+      <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
+      <link>https://ledge.ai/articles/candle_submarine_cable_softbank_meta_agreement</link>
+      <description><![CDATA[<p>ソフトバンクは2025年9月22日、米Metaなど4社と共同で、日本とシンガポールを結ぶ国際海底ケーブル「Candle（キャンドル）」の建設に合意したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250922_01/">発表</a>した。総延長約8,000kmの光海底ケーブルを敷設し、2028年の運用開始を予定している。</p>
+<h2>「Candle」プロジェクトの概要</h2>
+<p>「Candle」は、日本、台湾、フィリピン、インドネシア、マレーシア、シンガポールを結ぶ国際海底ケーブルで、システム供給はNECが担う。24ファイバーペア構成を採用し、従来16～20ペアが主流だった海底ケーブルと比べ、さらに大容量かつ低遅延の通信を実現する。急増するAIや5G関連の通信需要に対応し、東アジアと東南アジアを結ぶ主要ルートの多様化・冗長化を図る。</p>
+<h2>各社のコメント</h2>
+<p>Candleマネジメントコミッティ議長でMetaのDon Pang氏は、
+「Candleはアジア地域のデジタルインフラ強化における重要な前進です。高速かつ堅牢な接続性の需要が高まる中、ネットワークの多様性とレジリエンスを向上させ、5億人以上の人々にデジタル・インクルージョンと経済的機会を拡大します」と述べた。</p>
+<p>また、ソフトバンク法人統括 グローバル事業本部 本部長の工藤公正氏は、
+「生成AIやIoTの進展に伴い、国際通信需要は加速度的に拡大しています。Candleは次世代社会インフラの重要な基盤であり、既存の『JUPITER』『ADC』、建設中の『E2A』と組み合わせることで、日本を起点とする国際通信網をさらに強化します」とコメントしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/index_pic_02_8f725966c5/index_pic_02_8f725966c5.webp" alt="index_pic_02.webp" /></p>
+<h2>ソフトバンクの取り組み</h2>
+<p>ソフトバンクはCandleの日本側陸揚げ局として、千葉県南房総市の「ソフトバンク丸山国際中継所」を提供する。さらに北海道・九州に新たな陸揚げ拠点を設け、日本各地に分散配置することで災害や障害に強い通信インフラを整備する計画だ。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>DeepSeek R1の詳細がNatureに掲載、初の査読付き著名LLMに──開発コストと学習手法を初公開、トレーニング費用はわずか30万ドル</title>
-      <link>https://ledge.ai/articles/deepseek_r1_nature_training_cost_300k</link>
-      <description><![CDATA[<p>科学誌Natureは2025年9月17日、中国の深究科技（DeepSeek）が開発した推論特化モデルDeepSeek R1を取り上げ、同モデルの開発費用が約30万ドルにとどまったことを<a href="https://www.nature.com/articles/d41586-025-03015-6">報じた</a>。同日にNature誌に掲載された論文では、推論力を「純粋強化学習（RL）」で引き出す独自の訓練パイプラインと、その性能評価の詳細が示された。</p>
-<h2>30万ドルの低コスト開発、初の査読付きLLMに</h2>
-<p>Natureによると、DeepSeek R1の開発に必要だったトレーニング費用は約30万ドルであった。他の大規模AIモデル開発が数億ドル規模に及ぶことと比べ、低コストである点が指摘された。</p>
-<p>同誌はまた、DeepSeek R1の論文が「査読を経て掲載された初の著名大規模言語モデル（LLM）研究」であると伝えている。従来のLLM研究の多くはプレプリント段階にとどまっていたが、今回の掲載により、学術誌の査読を通過した形で研究成果が公式に公開された。</p>
-<h2>学習パイプラインの詳細</h2>
-<p>論文によれば、DeepSeek R1は以下の三段階で訓練された。</p>
+      <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
+      <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
+      <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
+<h2>コーディング性能の飛躍</h2>
+<p>Sonnet 4.5は、ソフトウェアエンジニアリングのベンチマーク「SWE-bench Verified」で77.2%の正答率を記録し、並列計算を用いた高負荷環境では82.0%に達した。従来モデルのClaude Sonnet 4（72.7%）や競合のGPT-5（72.8%）を大きく上回っている。</p>
+<p><strong>ソフトウェアエンジニアリングにおけるベンチマーク「SWE-bench Verified」での比較。Sonnet 4.5が最も高い精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290.webp" alt="6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.webp" /></p>
+<h2>幅広い領域での強化</h2>
+<p>Claude Sonnet 4.5は、コーディングだけでなく、コンピュータ操作や数学、言語理解など幅広い分野で性能を向上させた。特にOSWorldベンチマークでは61.4%を達成し、前世代の42.2%から大幅に改善。金融や法務、医療、STEMといった専門分野でも、専門家による評価で大きな知識・推論力の進歩が確認されている。</p>
+<p><strong>主要ベンチマークでの各モデル比較。Claude Sonnet 4.5は複数分野でトップクラスの性能を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7.webp" alt="67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.webp" /></p>
+<h2>エージェント開発と新機能</h2>
+<p>さらに同社は今回「Claude Agent SDK」を公開。長期タスクのメモリ管理、ユーザー権限の制御、複数エージェントの協調といった仕組みを開発者に提供する。さらに以下の新機能が追加された：</p>
 <ul>
-<li><strong>拒否サンプリング</strong> ：初期データから推論過程を一定基準で選別。</li>
-<li><strong>強化学習（RL）</strong> ：正答率や形式に基づくルールベース報酬を導入し、推論力を強化。</li>
-<li><strong>教師あり微調整（SFT）</strong> ：非推論データも含め、応答品質を人間の嗜好に整合させる。</li>
+<li>Claude Codeへのチェックポイント機能</li>
+<li>VS Code拡張と刷新されたターミナル</li>
+<li>Claudeアプリでのコード実行・ファイル生成機能</li>
+<li>Chrome拡張の一般公開（Maxユーザー向け）</li>
 </ul>
-<p>この設計により、前段階モデル「R1-Zero」で獲得した推論行動を維持しながら、言語一貫性や応答の明瞭性を改善した。</p>
-<h2>技術的成果</h2>
-<p>論文では、DeepSeek R1が複数のベンチマークで高い性能を記録したことが報告されている。数学コンテスト（AIME 2024）では、人間参加者の平均を大幅に上回る精度を達成。また、プログラミング課題（Codeforces、LiveCodeBenchなど）でも既存モデルを上回る性能を示した。さらにSTEM分野の高度問題に対しても、推論力の改善が確認されたという。</p>
-<p>訓練過程で「思考時間」が自然に延び、応答が長文化しつつ自己反省や再検証といった高度な推論行動が自律的に現れたことが示されたとしている。</p>
-<h2>公開リソースと安全性</h2>
-<p>研究チームは、DeepSeek R1本体や蒸留モデルを公開しており、研究者が再利用できる形を整備している。一方で、Natureニュース記事は、強化された推論力が有害応答を精緻化するリスクに触れている。論文でも、ツール利用未対応や言語混在などの課題が指摘され、安全性評価の詳細が補足資料に掲載されている。</p>
-<p>論文の著者らは、「複雑な推論力を引き出すために必要なのは、人手による大規模な注釈ではなく、難度の高い課題、信頼できる検証機構、そして十分な計算資源である」と記している。また、強化学習の過程で自己検証や内省といった高度な推論行動が自律的に現れたことを示し、純粋強化学習が大規模言語モデルの推論能力を促進する有力な手段になり得ると結論づけた。</p>
+<p>これにより、開発者は独自のエージェントやツールを構築できる環境が整備された。</p>
+<p>@<a href="https://youtu.be/OZ-aLrJ0oVg">YouTube</a></p>
+<h2>安全性とアラインメントの改善</h2>
+<p>Sonnet 4.5はAnthropic史上「最もアラインメントが取れた」モデルとして公開された。危険な挙動（虚偽、迎合、権力志向、妄想助長など）を大幅に低減。AI Safety Level 3（ASL-3）の保護レベルで運用され、特に化学・生物・放射線・核（CBRN）分野に関連するリスク低減が強化されている。</p>
+<p><strong>各モデルにおける「ミスアラインメント行動スコア」。Sonnet 4.5は最も低い数値を示し、安全性が向上している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515.webp" alt="33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.webp" /></p>
+<h2>提供条件と研究プレビュー</h2>
+<p>Claude Sonnet 4.5は即日利用可能で、価格は従来のSonnet 4と同じく入力100万トークンあたり3ドル、出力100万トークンあたり15ドル。
+また研究プレビューとして「Imagine with Claude」も公開され、期間限定でリアルタイムにコードを生成するデモを体験できる。</p>
+<p>@<a href="https://youtu.be/dGiqrsv530Y">YouTube</a></p>
+<p>Anthropicは「Claude Sonnet 4.5は、より安全で強力なフロンティアモデルであり、開発者やビジネスユーザーにとって即戦力となる」としており、今後のAIエージェント活用の加速が期待される。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
@@ -430,7 +393,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
 <p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
@@ -476,7 +439,37 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 </ul>
 <p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
+      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
+      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
+<h2>飽和する既存ベンチマーク</h2>
+<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
+<h2>日本の「なぞなぞ」はハイレベル？</h2>
+<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
+なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
+<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
+<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
+<h2>英語 “リドル（riddle）” との差異</h2>
+<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
+これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
+<h2>実験結果</h2>
+<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
+<ul>
+<li>人間の平均正答率は52.9％</li>
+<li>GPT-5のみが人間平均と同等のスコアを記録</li>
+<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
+</ul>
+<h2>AIが苦手な「最後のひと押し」</h2>
+<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
+また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
+<h2>今後の展望</h2>
+<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
+]]></description>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
@@ -500,39 +493,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <h2>今後の展望</h2>
 <p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIグラス上位モデル「Meta Ray-Ban Display」を発表──「パーソナルスーパーインテリジェンス」への第一歩、米国で9月30日発売</title>
-      <link>https://ledge.ai/articles/meta_rayban_display_launch_2025</link>
-      <description><![CDATA[<p>Metaは2025年9月18日（米国時間）、Ray-Banとの協業によるスマートグラスの新モデル「Meta Ray-Ban Display」を<a href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/">発表</a>した。AI機能に加え、右レンズ内側にディスプレイを搭載し、通知や情報を視界に直接表示できるのが特徴。価格は799ドルで、米国で9月30日から販売が始まる。</p>
-<p><strong>「Meta Connect 2025で発表された3種類の新モデル──ディスプレイ搭載の『Meta Ray-Ban Display』、スポーツ向け『Oakley Meta Vanguard』、改良版『Ray-Ban Meta（第2世代）』」</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5/G1_F7_W_Kz_Xs_AI_83_Cl_9320d07ac5.png" alt="G1F7WKzXsAI83Cl.png" /></p>
-<h2>製品概要</h2>
-<ul>
-<li>名称：「Meta Ray-Ban Display」</li>
-<li>発表日：2025年9月18日</li>
-<li>発売日：米国で9月30日より</li>
-<li>価格：799ドル（Meta Neural Band 同梱）</li>
-<li>提供カラー：Black、Sand</li>
-<li>レンズ：Transitions®レンズ</li>
-</ul>
-<h2>主な特徴</h2>
-<p>「Meta Ray-Ban Display」は、右レンズ内に600×600解像度のHUDを搭載。通知や情報を表示することが可能だ。12MPカメラを内蔵し、写真や動画撮影もできるほか、デュアルスピーカーと複数マイクを備え、ハンズフリーでの利用に対応する。Meta AIと連携し、音声や視覚情報を活用した応答も可能となっている。</p>
-<h2>Neural Band との連携</h2>
-<p>製品には筋電位（EMG）を利用した「Meta Neural Band」が同梱される。手首のわずかな動きを感知し、直感的な操作を可能にするもので、グラスとの連携により操作性を拡張する。</p>
-<h2>利用時間と充電</h2>
-<ul>
-<li>グラス本体：通常使用で約6時間</li>
-<li>付属の折りたたみ式充電ケース：最大30時間まで拡張可能</li>
-<li>Neural Band：約18時間稼働</li>
-</ul>
-<h2>展開スケジュール</h2>
-<p>米国では9月30日から、Best Buy、LensCrafters、Sunglass Hut、Ray-Ban Storeなどで販売される。2026年初頭にはカナダ、フランス、イタリア、英国にも展開予定。日本の公式ブログでも製品概要が紹介されており、今後の展開に関する情報提供が予告されている。</p>
-<h2>今後の展望</h2>
-<p>MetaのCEOマーク・ザッカーバーグ氏は、今回の製品を「パーソナルスーパーインテリジェンス」への第一歩と位置づけている。Metaは同時にスポーツ向けのOakleyブランドモデルも発表した。AI機能とウェアラブルデバイスの融合による新たな市場開拓に注力していくとしている。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
@@ -548,7 +509,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>Microsoftは、Teams会議をシミュレートしたサーバー環境で同技術をテスト。実験室レベルでの検証において、従来技術を大幅に上回る冷却性能を確認した。これにより、実用化に向けた有効性が示された形だ。</p>
 <p>マイクロ流体冷却は、データセンターの電力使用効率（PUE）の改善や運用コスト削減にもつながるとされる。冷却技術の革新は、環境負荷を低減しつつ、大規模AIインフラの持続可能な発展を支える重要な鍵になるとみられる。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/9/30 [TUE]AIは専門家にどこまで迫ったか──OpenAI「GDPval」が検証する “現実の仕事力”</title>
@@ -573,7 +534,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <h2>今後の展望</h2>
 <p>現時点のGDPvalは知識労働に限定されるが、将来的には対話型や現場対応を含むタスクへ拡張する計画だ。OpenAIは220件のタスクを公開し、研究者コミュニティによる継続的な評価を促進することで、AIと人間の協働のあり方を探る。</p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
@@ -599,7 +560,7 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
 ]]></description>
-      <pubDate>Mon, 29 Sep 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/28 [SUN]Photoshop、外部AIモデルを初統合──Google「Nano Banana」とBlack Forest Labsの「FLUX.1 Kontext」が生成塗りつぶしに対応</title>
@@ -620,23 +581,6 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>両モデルは現時点ではPhotoshopのベータ版でのみ利用可能。無料トライアル枠の提供も用意されているが、生成回数には制限がある。正式版への導入時期は明らかにされていない。</p>
 ]]></description>
       <pubDate>Sun, 28 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
-      <link>https://ledge.ai/articles/candle_submarine_cable_softbank_meta_agreement</link>
-      <description><![CDATA[<p>ソフトバンクは2025年9月22日、米Metaなど4社と共同で、日本とシンガポールを結ぶ国際海底ケーブル「Candle（キャンドル）」の建設に合意したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250922_01/">発表</a>した。総延長約8,000kmの光海底ケーブルを敷設し、2028年の運用開始を予定している。</p>
-<h2>「Candle」プロジェクトの概要</h2>
-<p>「Candle」は、日本、台湾、フィリピン、インドネシア、マレーシア、シンガポールを結ぶ国際海底ケーブルで、システム供給はNECが担う。24ファイバーペア構成を採用し、従来16～20ペアが主流だった海底ケーブルと比べ、さらに大容量かつ低遅延の通信を実現する。急増するAIや5G関連の通信需要に対応し、東アジアと東南アジアを結ぶ主要ルートの多様化・冗長化を図る。</p>
-<h2>各社のコメント</h2>
-<p>Candleマネジメントコミッティ議長でMetaのDon Pang氏は、
-「Candleはアジア地域のデジタルインフラ強化における重要な前進です。高速かつ堅牢な接続性の需要が高まる中、ネットワークの多様性とレジリエンスを向上させ、5億人以上の人々にデジタル・インクルージョンと経済的機会を拡大します」と述べた。</p>
-<p>また、ソフトバンク法人統括 グローバル事業本部 本部長の工藤公正氏は、
-「生成AIやIoTの進展に伴い、国際通信需要は加速度的に拡大しています。Candleは次世代社会インフラの重要な基盤であり、既存の『JUPITER』『ADC』、建設中の『E2A』と組み合わせることで、日本を起点とする国際通信網をさらに強化します」とコメントしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/index_pic_02_8f725966c5/index_pic_02_8f725966c5.webp" alt="index_pic_02.webp" /></p>
-<h2>ソフトバンクの取り組み</h2>
-<p>ソフトバンクはCandleの日本側陸揚げ局として、千葉県南房総市の「ソフトバンク丸山国際中継所」を提供する。さらに北海道・九州に新たな陸揚げ拠点を設け、日本各地に分散配置することで災害や障害に強い通信インフラを整備する計画だ。</p>
-]]></description>
-      <pubDate>Sun, 28 Sep 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
