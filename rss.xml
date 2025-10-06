@@ -188,6 +188,23 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Sat, 04 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
+      <link>https://ledge.ai/articles/candle_submarine_cable_softbank_meta_agreement</link>
+      <description><![CDATA[<p>ソフトバンクは2025年9月22日、米Metaなど4社と共同で、日本とシンガポールを結ぶ国際海底ケーブル「Candle（キャンドル）」の建設に合意したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250922_01/">発表</a>した。総延長約8,000kmの光海底ケーブルを敷設し、2028年の運用開始を予定している。</p>
+<h2>「Candle」プロジェクトの概要</h2>
+<p>「Candle」は、日本、台湾、フィリピン、インドネシア、マレーシア、シンガポールを結ぶ国際海底ケーブルで、システム供給はNECが担う。24ファイバーペア構成を採用し、従来16～20ペアが主流だった海底ケーブルと比べ、さらに大容量かつ低遅延の通信を実現する。急増するAIや5G関連の通信需要に対応し、東アジアと東南アジアを結ぶ主要ルートの多様化・冗長化を図る。</p>
+<h2>各社のコメント</h2>
+<p>Candleマネジメントコミッティ議長でMetaのDon Pang氏は、
+「Candleはアジア地域のデジタルインフラ強化における重要な前進です。高速かつ堅牢な接続性の需要が高まる中、ネットワークの多様性とレジリエンスを向上させ、5億人以上の人々にデジタル・インクルージョンと経済的機会を拡大します」と述べた。</p>
+<p>また、ソフトバンク法人統括 グローバル事業本部 本部長の工藤公正氏は、
+「生成AIやIoTの進展に伴い、国際通信需要は加速度的に拡大しています。Candleは次世代社会インフラの重要な基盤であり、既存の『JUPITER』『ADC』、建設中の『E2A』と組み合わせることで、日本を起点とする国際通信網をさらに強化します」とコメントしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/index_pic_02_8f725966c5/index_pic_02_8f725966c5.webp" alt="index_pic_02.webp" /></p>
+<h2>ソフトバンクの取り組み</h2>
+<p>ソフトバンクはCandleの日本側陸揚げ局として、千葉県南房総市の「ソフトバンク丸山国際中継所」を提供する。さらに北海道・九州に新たな陸揚げ拠点を設け、日本各地に分散配置することで災害や障害に強い通信インフラを整備する計画だ。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/9/29 [MON]ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
       <link>https://ledge.ai/articles/chatgpt_shared_projects_security_update</link>
       <description><![CDATA[<p>OpenAIは2025年9月25日（現地時間）、ChatGPTにおいて、チームでの共同作業やセキュリティ機能を強化する新機能を<a href="https://openai.com/index/more-ways-to-work-with-your-team/">発表</a>した。新たに「共有プロジェクト」モードを導入するほか、外部アプリとの接続機能やエンタープライズ向けの管理機能を拡充している。</p>
@@ -204,6 +221,206 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>また、RBAC（カスタムロール・グループ権限管理）に対応し、アクセス制御を柔軟に設定可能となった。シングルサインオン（SSO）は既存のSAMLに加え、OIDCにも対応。さらにEnterpriseとEduではIP許可リストの設定も可能となり、組織全体での安全性が強化されている。</p>
 <h2>今後の展開</h2>
 <p>新機能はChatGPTにおけるチーム利用を本格化させる第一歩と位置づけられている。OpenAIはブログで「本リリースは、ChatGPTにおけるチームコラボレーションの初期ステップ」と述べ、今後も職場全体での安全な導入を支えるため、機能拡張を続けていく考えを示した。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
+      <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
+      <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
+<h2>コーディング性能の飛躍</h2>
+<p>Sonnet 4.5は、ソフトウェアエンジニアリングのベンチマーク「SWE-bench Verified」で77.2%の正答率を記録し、並列計算を用いた高負荷環境では82.0%に達した。従来モデルのClaude Sonnet 4（72.7%）や競合のGPT-5（72.8%）を大きく上回っている。</p>
+<p><strong>ソフトウェアエンジニアリングにおけるベンチマーク「SWE-bench Verified」での比較。Sonnet 4.5が最も高い精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290.webp" alt="6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.webp" /></p>
+<h2>幅広い領域での強化</h2>
+<p>Claude Sonnet 4.5は、コーディングだけでなく、コンピュータ操作や数学、言語理解など幅広い分野で性能を向上させた。特にOSWorldベンチマークでは61.4%を達成し、前世代の42.2%から大幅に改善。金融や法務、医療、STEMといった専門分野でも、専門家による評価で大きな知識・推論力の進歩が確認されている。</p>
+<p><strong>主要ベンチマークでの各モデル比較。Claude Sonnet 4.5は複数分野でトップクラスの性能を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7.webp" alt="67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.webp" /></p>
+<h2>エージェント開発と新機能</h2>
+<p>さらに同社は今回「Claude Agent SDK」を公開。長期タスクのメモリ管理、ユーザー権限の制御、複数エージェントの協調といった仕組みを開発者に提供する。さらに以下の新機能が追加された：</p>
+<ul>
+<li>Claude Codeへのチェックポイント機能</li>
+<li>VS Code拡張と刷新されたターミナル</li>
+<li>Claudeアプリでのコード実行・ファイル生成機能</li>
+<li>Chrome拡張の一般公開（Maxユーザー向け）</li>
+</ul>
+<p>これにより、開発者は独自のエージェントやツールを構築できる環境が整備された。</p>
+<p>@<a href="https://youtu.be/OZ-aLrJ0oVg">YouTube</a></p>
+<h2>安全性とアラインメントの改善</h2>
+<p>Sonnet 4.5はAnthropic史上「最もアラインメントが取れた」モデルとして公開された。危険な挙動（虚偽、迎合、権力志向、妄想助長など）を大幅に低減。AI Safety Level 3（ASL-3）の保護レベルで運用され、特に化学・生物・放射線・核（CBRN）分野に関連するリスク低減が強化されている。</p>
+<p><strong>各モデルにおける「ミスアラインメント行動スコア」。Sonnet 4.5は最も低い数値を示し、安全性が向上している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515.webp" alt="33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.webp" /></p>
+<h2>提供条件と研究プレビュー</h2>
+<p>Claude Sonnet 4.5は即日利用可能で、価格は従来のSonnet 4と同じく入力100万トークンあたり3ドル、出力100万トークンあたり15ドル。
+また研究プレビューとして「Imagine with Claude」も公開され、期間限定でリアルタイムにコードを生成するデモを体験できる。</p>
+<p>@<a href="https://youtu.be/dGiqrsv530Y">YouTube</a></p>
+<p>Anthropicは「Claude Sonnet 4.5は、より安全で強力なフロンティアモデルであり、開発者やビジネスユーザーにとって即戦力となる」としており、今後のAIエージェント活用の加速が期待される。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
+      <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
+      <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
+<h2>新モデル「Gemini Robotics 1.5」とは</h2>
+<p>Googleが発表した「Gemini Robotics 1.5」は、同社の大規模言語モデル「Gemini 1.5 Pro」を拡張し、視覚・言語・行動を統合した「Vision-Language-Action（VLA）」モデルとして設計されている。ロボットは環境を理解し、人間の指示に基づいて複数ステップにわたるタスクをこなせるようになった。</p>
+<p>@<a href="https://www.youtube.com/watch?v=AMRxbIO04kQ&amp;t=1s">YouTube</a></p>
+<h2>思考してから行動する仕組み</h2>
+<p>従来のロボティクスAIは与えられた動作を逐次実行することが多かったが、「Gemini Robotics 1.5」は行動前に計画を立てる能力を持つ。これにより、作業の失敗を減らし効率的に遂行できる。たとえば散らかった部屋で物を拾う場合、ロボットは最適な順序や手順を考えてから実行に移す。</p>
+<p><strong>「Gemini Robotics 1.5」の仕組み。ロボットはゴミの分別を例に、行動前に思考・計画を立てるプロセスを経て動作する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b.jpg" alt="GeminiRobotics-Agentic_System.width-1000.format-webp.jpg" /></p>
+<p>@<a href="https://www.youtube.com/watch?v=eDyXEh8XqjM&amp;t=3s">YouTube</a></p>
+<h2>応用例と成果</h2>
+<p>公開されたデモでは、洗濯物の分類やごみ分別など、家庭やオフィスで想定される作業を自律的に行う様子が披露された。ロボットは周囲を観察しながら判断を下し、マルチステップのタスクを適切に処理することができる。</p>
+<p><strong>Gemini Robotics-ER 1.5」は従来モデルよりも学術ベンチマークで高い性能を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6.jpg" alt="GeminiRobotics-blog-figure-2-250.width-1000.format-webp.jpg" /></p>
+<h2>研究開発の背景</h2>
+<p>このモデルは、Google DeepMindとGoogle Researchの共同開発による成果だ。Geminiシリーズの能力を物理世界に応用する取り組みの一環であり、従来のロボットAIよりも抽象的な推論や柔軟な対応が可能になった点が強調されている。</p>
+<p><strong>物体検出や軌道予測など、多様な認識・推論能力を備える「Gemini Robotics 1.5」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b.webp" alt="Screenshot_2025-09-25_at_14.53.4.width-1000.format-webp.webp" /></p>
+<h2>今後の展望</h2>
+<p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
+<p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
+      <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
+      <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
+<p>従来の教科書は「すべての学習者に一律の内容を提供する媒体」であり、学年や興味関心に応じた最適化は難しかった。Google Researchのチームは、生成AIを用いることでこの制約を克服し、個別化と多様な表現を可能にするアプローチを開発した。</p>
+<h2>Learn Your Wayの仕組み</h2>
+<p>新システム「Learn Your Way」は、Googleの学習用大規模モデル「LearnLM」（Gemini 2.5 Proに統合）を基盤とする。教材の元テキストを入力し、以下のステップで再構築する。</p>
+<ul>
+<li><strong>パーソナライズ</strong> ：学年レベル（Flesch-Kincaid指標に基づく）や興味関心（スポーツ、音楽など）に合わせて文章をリライト。</li>
+<li><strong>複数表現への変換</strong> ：没入型テキスト、スライド＋ナレーション、オーディオレッスン、マインドマップなど。</li>
+<li><strong>学習支援機能</strong> ：埋め込み質問や小テストを生成し、学習者に即時のフィードバックを提供。</li>
+</ul>
+<p>これにより、学習者は自分に合った形式を選びながら、能動的に学習を進めることができるという。</p>
+<p><strong>ニュートンの第三法則を学年や関心に応じてリライトした例。左は高校生向けにバスケットボールを題材に、右は小学生向けに美術を題材に説明している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_79d6efaf7b/x2_79d6efaf7b.jpg" alt="x2.jpg" /></p>
+<h2>実証実験（無作為化比較試験）</h2>
+<p>研究チームは、シカゴ地域の15〜18歳の学生60名を対象に無作為化比較試験（RCT）を実施した。教材は「思春期の脳発達」（LibreTexts）を使用。
+<strong>■ 比較対象</strong> ：
+・「Learn Your Way」利用群（30名）
+・従来のPDFリーダー（Adobe Acrobat）利用群（30名）
+<strong>■ 学習時間</strong> ：20〜40分
+<strong>■ 評価方法</strong> ：
+・即時テスト（15分）
+・3日後の保持テスト（約10分）</p>
+<h2>結果</h2>
+<ul>
+<li>即時テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>保持テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
+<li>アンケート：Learn Your Way群は「楽しく学べた」「理解が深まった」と回答する割合が高く、将来の利用意欲も強かった。</li>
+</ul>
+<p><strong>無作為化比較試験の結果</strong> ：「Learn Your Way」を使用した学生は、従来のデジタルリーダー利用者に比べ、即時テスト・保持テストのいずれも有意に高い得点を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_5_width_1250_458379e0a2/Learn_Your_Way_5_width_1250_458379e0a2.png" alt="Learn-Your-Way-5.width-1250.png" /></p>
+<h2>教育現場での意義</h2>
+<p>この研究は、生成AIが教科書を「一律の媒体」から「学習者に応じて変化する教材」へと変革し得ることを示している。Googleは、教育科学の知見とAI技術を組み合わせることで、学習成果の向上と学習者の主体性強化につなげられると強調している。</p>
+<p><strong>教育専門家による評価結果。特にナレーション付きスライドやオーディオレッスンは、学習者の関心を引きやすいと高評価を得た。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_4_width_1250_8bf77aa53c/Learn_Your_Way_4_width_1250_8bf77aa53c.png" alt="Learn-Your-Way-4.width-1250.png" /></p>
+<h2>今後の展望</h2>
+<p>研究チームは論文内で次の課題を指摘している。</p>
+<ul>
+<li>効果検証は1つの教材章に限られており、今後は複数教科・複数章での検証が必要。</li>
+<li>各機能（例：スライド、音声、クイズ）の寄与度は明確化されていない。</li>
+</ul>
+<p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
+      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
+      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
+<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
+<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
+<h2>主な発見</h2>
+<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
+<ul>
+<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
+<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
+<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
+</ul>
+<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
+<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
+<h2>人とAIの協働に関する新しい視点</h2>
+<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
+<h2>今後の展望</h2>
+<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
+      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
+      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
+<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
+<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
+<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
+<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
+<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
+<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
+<h2>“vibe working”のコンセプト</h2>
+<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
+<h2>提供条件と展開予定</h2>
+<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/9/30 [TUE]AIは専門家にどこまで迫ったか──OpenAI「GDPval」が検証する “現実の仕事力”</title>
+      <link>https://ledge.ai/articles/openai_gdpval_ai_job_benchmark</link>
+      <description><![CDATA[<p>OpenAIは2025年9月25日、最新の大規模言語モデル（LLM）が「現実の経済価値を持つタスク」でどの程度人間に迫っているかを測定する新しい評価指標「GDPval」を<a href="https://openai.com/index/gdpval/">発表</a>した。実際の業務成果物をもとに44職種・1,320件のタスクで性能を比較した結果、最先端モデルは専門家に近い水準に達していることが示された。</p>
+<p>GDPvalは、米国GDPに寄与する9産業・44職種を対象に設計された新しい評価ベンチマークである。法律文書や設計図、動画編集、カスタマーサポートの対応記録など、実際の成果物をタスク化し、AIモデルと業界専門家の成果を比較する。</p>
+<p><strong>「GDPval」に含まれる実務タスク例。設計図や看護報告、財務分析からカスタマーサポートまで幅広い領域をカバーしている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_GD_Pval_tasks_from_full_set_1f598d2776/Example_GD_Pval_tasks_from_full_set_1f598d2776.jpg" alt="Example GDPval tasks from full set.jpg" /></p>
+<h2>幅広い産業と職種をカバー</h2>
+<p>評価対象は、不動産、製造、政府、金融、医療、情報サービスなど主要な産業を網羅。ソフトウェア開発者や弁護士、看護師、金融アナリストなど、幅広い知識労働が調査された。</p>
+<p><strong>「GDPval」で評価対象となった9産業・44職種。米国経済に大きく寄与する分野から抽出されている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd.jpg" alt="GDPval includes real-world work from 44 occupations.jpg" /></p>
+<h2>厳格なレビューと評価方法</h2>
+<p>各タスクは平均5回の専門家レビューを経て整備され、最終的に人間とAIの成果物をブラインドで比較。220件のタスクは「ゴールドサブセット」として公開され、自動採点サービスも提供されている。</p>
+<p><strong>タスクは複数段階の専門家レビューを経て現実性と品質を担保している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59.jpg" alt="Tasks undergo multiple rounds of review to ensure realism and quality.jpg" /></p>
+<p><strong>人間専門家によるペアワイズ比較。AIの成果物と人間の成果物を並べ、どちらが優れているかを評価する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2.jpg" alt="GDPval uses pairwise expert comparisons for grading.jpg" /></p>
+<h2>成果と課題</h2>
+<p>評価の結果、Claude Opus 4.1は文書やプレゼン資料のレイアウトで優れ、GPT-5は指示理解や計算精度に強みを示した。一方で、モデルの失敗要因として最も多かったのは「指示を正しく理解できていない場合」であると報告されている。</p>
+<p>また、推論時間を増やす、プロンプトを工夫するなどの対応により性能はさらに改善可能であることも確認された。</p>
+<h2>今後の展望</h2>
+<p>現時点のGDPvalは知識労働に限定されるが、将来的には対話型や現場対応を含むタスクへ拡張する計画だ。OpenAIは220件のタスクを公開し、研究者コミュニティによる継続的な評価を促進することで、AIと人間の協働のあり方を探る。</p>
+]]></description>
+      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
+      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
+      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
+<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
+<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
+<h2>Sora 2の性能</h2>
+<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
+OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
+<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
+<h2>iOSアプリ「Sora」の提供</h2>
+<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
+提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
+<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
+<h2>安全性への配慮</h2>
+<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
+システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
+<h2>背景と思想</h2>
+<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
+<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
     </item>
@@ -282,21 +499,32 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Thu, 02 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
-      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
-      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
-<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
-<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
-<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
-<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
-<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
-<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
-<h2>“vibe working”のコンセプト</h2>
-<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
-<h2>提供条件と展開予定</h2>
-<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
+      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
+      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
+      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
+<h2>飽和する既存ベンチマーク</h2>
+<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
+<h2>日本の「なぞなぞ」はハイレベル？</h2>
+<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
+なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
+<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
+<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
+<h2>英語 “リドル（riddle）” との差異</h2>
+<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
+これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
+<h2>実験結果</h2>
+<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
+<ul>
+<li>人間の平均正答率は52.9％</li>
+<li>GPT-5のみが人間平均と同等のスコアを記録</li>
+<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
+</ul>
+<h2>AIが苦手な「最後のひと押し」</h2>
+<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
+また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
+<h2>今後の展望</h2>
+<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
 ]]></description>
       <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
@@ -351,250 +579,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>今回の採択を通じ、AIRoAは生成AIを活用したロボット開発と社会実装を加速させる方針だ。協会は公式発表の中で、「産業界や研究機関と連携し、日本から世界に通用するAIロボティクスの基盤を築いていく」と述べている。</p>
 ]]></description>
       <pubDate>Wed, 01 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
-      <link>https://ledge.ai/articles/candle_submarine_cable_softbank_meta_agreement</link>
-      <description><![CDATA[<p>ソフトバンクは2025年9月22日、米Metaなど4社と共同で、日本とシンガポールを結ぶ国際海底ケーブル「Candle（キャンドル）」の建設に合意したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250922_01/">発表</a>した。総延長約8,000kmの光海底ケーブルを敷設し、2028年の運用開始を予定している。</p>
-<h2>「Candle」プロジェクトの概要</h2>
-<p>「Candle」は、日本、台湾、フィリピン、インドネシア、マレーシア、シンガポールを結ぶ国際海底ケーブルで、システム供給はNECが担う。24ファイバーペア構成を採用し、従来16～20ペアが主流だった海底ケーブルと比べ、さらに大容量かつ低遅延の通信を実現する。急増するAIや5G関連の通信需要に対応し、東アジアと東南アジアを結ぶ主要ルートの多様化・冗長化を図る。</p>
-<h2>各社のコメント</h2>
-<p>Candleマネジメントコミッティ議長でMetaのDon Pang氏は、
-「Candleはアジア地域のデジタルインフラ強化における重要な前進です。高速かつ堅牢な接続性の需要が高まる中、ネットワークの多様性とレジリエンスを向上させ、5億人以上の人々にデジタル・インクルージョンと経済的機会を拡大します」と述べた。</p>
-<p>また、ソフトバンク法人統括 グローバル事業本部 本部長の工藤公正氏は、
-「生成AIやIoTの進展に伴い、国際通信需要は加速度的に拡大しています。Candleは次世代社会インフラの重要な基盤であり、既存の『JUPITER』『ADC』、建設中の『E2A』と組み合わせることで、日本を起点とする国際通信網をさらに強化します」とコメントしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/index_pic_02_8f725966c5/index_pic_02_8f725966c5.webp" alt="index_pic_02.webp" /></p>
-<h2>ソフトバンクの取り組み</h2>
-<p>ソフトバンクはCandleの日本側陸揚げ局として、千葉県南房総市の「ソフトバンク丸山国際中継所」を提供する。さらに北海道・九州に新たな陸揚げ拠点を設け、日本各地に分散配置することで災害や障害に強い通信インフラを整備する計画だ。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、次世代 AI コーディングモデル『Claude Sonnet 4.5』を発表 — 30時間集中モードが復活、強化されたエージェント性能</title>
-      <link>https://ledge.ai/articles/claude_sonnet_4-5_ai_coding_model</link>
-      <description><![CDATA[<p>Anthropicは2025年9月30日、最新の大規模言語モデル「Claude Sonnet 4.5」を<a href="https://www.anthropic.com/news/claude-sonnet-4-5">発表</a>した。同社は「世界最高のコーディングモデル」と位置づけ、複雑なエージェントの構築やコンピュータ操作能力で大幅な性能向上を示したと説明している。内部テストでは30時間を超える自律的な作業継続が確認され、推論や数学のベンチマークでも著しい改善が見られた。</p>
-<h2>コーディング性能の飛躍</h2>
-<p>Sonnet 4.5は、ソフトウェアエンジニアリングのベンチマーク「SWE-bench Verified」で77.2%の正答率を記録し、並列計算を用いた高負荷環境では82.0%に達した。従来モデルのClaude Sonnet 4（72.7%）や競合のGPT-5（72.8%）を大きく上回っている。</p>
-<p><strong>ソフトウェアエンジニアリングにおけるベンチマーク「SWE-bench Verified」での比較。Sonnet 4.5が最も高い精度を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290/6421e7049ff8b2c4591497ec92dc4157b2ac1b30_3840x2160_13a7b3e290.webp" alt="6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.webp" /></p>
-<h2>幅広い領域での強化</h2>
-<p>Claude Sonnet 4.5は、コーディングだけでなく、コンピュータ操作や数学、言語理解など幅広い分野で性能を向上させた。特にOSWorldベンチマークでは61.4%を達成し、前世代の42.2%から大幅に改善。金融や法務、医療、STEMといった専門分野でも、専門家による評価で大きな知識・推論力の進歩が確認されている。</p>
-<p><strong>主要ベンチマークでの各モデル比較。Claude Sonnet 4.5は複数分野でトップクラスの性能を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7/67081be1ea2752e2a554e49a6aab2731b265d11b_2600x2288_30c09323a7.webp" alt="67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.webp" /></p>
-<h2>エージェント開発と新機能</h2>
-<p>さらに同社は今回「Claude Agent SDK」を公開。長期タスクのメモリ管理、ユーザー権限の制御、複数エージェントの協調といった仕組みを開発者に提供する。さらに以下の新機能が追加された：</p>
-<ul>
-<li>Claude Codeへのチェックポイント機能</li>
-<li>VS Code拡張と刷新されたターミナル</li>
-<li>Claudeアプリでのコード実行・ファイル生成機能</li>
-<li>Chrome拡張の一般公開（Maxユーザー向け）</li>
-</ul>
-<p>これにより、開発者は独自のエージェントやツールを構築できる環境が整備された。</p>
-<p>@<a href="https://youtu.be/OZ-aLrJ0oVg">YouTube</a></p>
-<h2>安全性とアラインメントの改善</h2>
-<p>Sonnet 4.5はAnthropic史上「最もアラインメントが取れた」モデルとして公開された。危険な挙動（虚偽、迎合、権力志向、妄想助長など）を大幅に低減。AI Safety Level 3（ASL-3）の保護レベルで運用され、特に化学・生物・放射線・核（CBRN）分野に関連するリスク低減が強化されている。</p>
-<p><strong>各モデルにおける「ミスアラインメント行動スコア」。Sonnet 4.5は最も低い数値を示し、安全性が向上している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515/33efc283321feeff94dd80973dbcd38409806cf5_3840x2160_f4be449515.webp" alt="33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.webp" /></p>
-<h2>提供条件と研究プレビュー</h2>
-<p>Claude Sonnet 4.5は即日利用可能で、価格は従来のSonnet 4と同じく入力100万トークンあたり3ドル、出力100万トークンあたり15ドル。
-また研究プレビューとして「Imagine with Claude」も公開され、期間限定でリアルタイムにコードを生成するデモを体験できる。</p>
-<p>@<a href="https://youtu.be/dGiqrsv530Y">YouTube</a></p>
-<p>Anthropicは「Claude Sonnet 4.5は、より安全で強力なフロンティアモデルであり、開発者やビジネスユーザーにとって即戦力となる」としており、今後のAIエージェント活用の加速が期待される。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/9/29 [MON]Google、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を発表──行動前に思考し、複雑タスクを実行</title>
-      <link>https://ledge.ai/articles/google_gemini_robotics_15_release</link>
-      <description><![CDATA[<p>Googleは2025年9月25日、ロボットの操作向けに新たなAIモデル「Gemini Robotics 1.5」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-robotics-15-ai">発表</a>した。Gemini 1.5 Proを基盤としたこのモデルは、ロボットが「行動を起こす前に考える」能力を備えており、従来よりも複雑なマルチステップの作業を遂行できる点が特徴だという。</p>
-<h2>新モデル「Gemini Robotics 1.5」とは</h2>
-<p>Googleが発表した「Gemini Robotics 1.5」は、同社の大規模言語モデル「Gemini 1.5 Pro」を拡張し、視覚・言語・行動を統合した「Vision-Language-Action（VLA）」モデルとして設計されている。ロボットは環境を理解し、人間の指示に基づいて複数ステップにわたるタスクをこなせるようになった。</p>
-<p>@<a href="https://www.youtube.com/watch?v=AMRxbIO04kQ&amp;t=1s">YouTube</a></p>
-<h2>思考してから行動する仕組み</h2>
-<p>従来のロボティクスAIは与えられた動作を逐次実行することが多かったが、「Gemini Robotics 1.5」は行動前に計画を立てる能力を持つ。これにより、作業の失敗を減らし効率的に遂行できる。たとえば散らかった部屋で物を拾う場合、ロボットは最適な順序や手順を考えてから実行に移す。</p>
-<p><strong>「Gemini Robotics 1.5」の仕組み。ロボットはゴミの分別を例に、行動前に思考・計画を立てるプロセスを経て動作する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b/Gemini_Robotics_Agentic_System_width_1000_format_webp_75fe64eb0b.jpg" alt="GeminiRobotics-Agentic_System.width-1000.format-webp.jpg" /></p>
-<p>@<a href="https://www.youtube.com/watch?v=eDyXEh8XqjM&amp;t=3s">YouTube</a></p>
-<h2>応用例と成果</h2>
-<p>公開されたデモでは、洗濯物の分類やごみ分別など、家庭やオフィスで想定される作業を自律的に行う様子が披露された。ロボットは周囲を観察しながら判断を下し、マルチステップのタスクを適切に処理することができる。</p>
-<p><strong>Gemini Robotics-ER 1.5」は従来モデルよりも学術ベンチマークで高い性能を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6/Gemini_Robotics_blog_figure_2_250_width_1000_format_webp_a4b168e1a6.jpg" alt="GeminiRobotics-blog-figure-2-250.width-1000.format-webp.jpg" /></p>
-<h2>研究開発の背景</h2>
-<p>このモデルは、Google DeepMindとGoogle Researchの共同開発による成果だ。Geminiシリーズの能力を物理世界に応用する取り組みの一環であり、従来のロボットAIよりも抽象的な推論や柔軟な対応が可能になった点が強調されている。</p>
-<p><strong>物体検出や軌道予測など、多様な認識・推論能力を備える「Gemini Robotics 1.5」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b/Screenshot_2025_09_25_at_14_53_4_width_1000_format_webp_c5fae86c2b.webp" alt="Screenshot_2025-09-25_at_14.53.4.width-1000.format-webp.webp" /></p>
-<h2>今後の展望</h2>
-<p>Googleは「Gemini Robotics 1.5」を、物理世界における汎用人工知能（AGI）の実現に向けた重要な一歩と位置づけている。単にコマンドに反応するモデルではなく、自ら推論し、計画を立て、ツールを使いこなし、未知の状況にも対応できる自律的なシステムの構築を目指す。</p>
-<p>ロボットが知性と器用さを兼ね備え、物理世界の複雑さを乗り越えて人間の生活により役立つ存在となるための基盤づくりであるとし、Googleは研究コミュニティとの協力を継続する方針を示している。また、ロボティクス分野の研究者らが最新の「Gemini Robotics-ER」モデルを活用し、どのような未来を切り拓くのか大いに期待していると結んでいる。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、生成AIで教科書を再構築する「Learn Your Way」を公開──無作為化比較試験で学習成果の向上を確認</title>
-      <link>https://ledge.ai/articles/google_learn_your_way_ai_textbook</link>
-      <description><![CDATA[<p>Googleは2025年9月16日、生成AIを活用して教科書を再構築する新システム「Learn Your Way」を<a href="https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/">発表</a>した。学習者の学年や関心に合わせて教材をリライトし、音声・スライド・マインドマップなど多様な形式で提示する仕組みを採用。シカゴ地域の高校生を対象とした実証実験では、従来型の教材よりも学習成果が有意に向上することが確認されたという。</p>
-<p>従来の教科書は「すべての学習者に一律の内容を提供する媒体」であり、学年や興味関心に応じた最適化は難しかった。Google Researchのチームは、生成AIを用いることでこの制約を克服し、個別化と多様な表現を可能にするアプローチを開発した。</p>
-<h2>Learn Your Wayの仕組み</h2>
-<p>新システム「Learn Your Way」は、Googleの学習用大規模モデル「LearnLM」（Gemini 2.5 Proに統合）を基盤とする。教材の元テキストを入力し、以下のステップで再構築する。</p>
-<ul>
-<li><strong>パーソナライズ</strong> ：学年レベル（Flesch-Kincaid指標に基づく）や興味関心（スポーツ、音楽など）に合わせて文章をリライト。</li>
-<li><strong>複数表現への変換</strong> ：没入型テキスト、スライド＋ナレーション、オーディオレッスン、マインドマップなど。</li>
-<li><strong>学習支援機能</strong> ：埋め込み質問や小テストを生成し、学習者に即時のフィードバックを提供。</li>
-</ul>
-<p>これにより、学習者は自分に合った形式を選びながら、能動的に学習を進めることができるという。</p>
-<p><strong>ニュートンの第三法則を学年や関心に応じてリライトした例。左は高校生向けにバスケットボールを題材に、右は小学生向けに美術を題材に説明している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_79d6efaf7b/x2_79d6efaf7b.jpg" alt="x2.jpg" /></p>
-<h2>実証実験（無作為化比較試験）</h2>
-<p>研究チームは、シカゴ地域の15〜18歳の学生60名を対象に無作為化比較試験（RCT）を実施した。教材は「思春期の脳発達」（LibreTexts）を使用。
-<strong>■ 比較対象</strong> ：
-・「Learn Your Way」利用群（30名）
-・従来のPDFリーダー（Adobe Acrobat）利用群（30名）
-<strong>■ 学習時間</strong> ：20〜40分
-<strong>■ 評価方法</strong> ：
-・即時テスト（15分）
-・3日後の保持テスト（約10分）</p>
-<h2>結果</h2>
-<ul>
-<li>即時テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
-<li>保持テスト：Learn Your Way群が有意に高得点（p=0.03）。</li>
-<li>アンケート：Learn Your Way群は「楽しく学べた」「理解が深まった」と回答する割合が高く、将来の利用意欲も強かった。</li>
-</ul>
-<p><strong>無作為化比較試験の結果</strong> ：「Learn Your Way」を使用した学生は、従来のデジタルリーダー利用者に比べ、即時テスト・保持テストのいずれも有意に高い得点を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_5_width_1250_458379e0a2/Learn_Your_Way_5_width_1250_458379e0a2.png" alt="Learn-Your-Way-5.width-1250.png" /></p>
-<h2>教育現場での意義</h2>
-<p>この研究は、生成AIが教科書を「一律の媒体」から「学習者に応じて変化する教材」へと変革し得ることを示している。Googleは、教育科学の知見とAI技術を組み合わせることで、学習成果の向上と学習者の主体性強化につなげられると強調している。</p>
-<p><strong>教育専門家による評価結果。特にナレーション付きスライドやオーディオレッスンは、学習者の関心を引きやすいと高評価を得た。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Learn_Your_Way_4_width_1250_8bf77aa53c/Learn_Your_Way_4_width_1250_8bf77aa53c.png" alt="Learn-Your-Way-4.width-1250.png" /></p>
-<h2>今後の展望</h2>
-<p>研究チームは論文内で次の課題を指摘している。</p>
-<ul>
-<li>効果検証は1つの教材章に限られており、今後は複数教科・複数章での検証が必要。</li>
-<li>各機能（例：スライド、音声、クイズ）の寄与度は明確化されていない。</li>
-</ul>
-<p>将来的には、学習者の解答状況に応じて教材を動的に調整する「適応学習」への拡張が期待される。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
-      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
-      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
-<h2>飽和する既存ベンチマーク</h2>
-<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
-<h2>日本の「なぞなぞ」はハイレベル？</h2>
-<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
-なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
-<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
-<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
-<h2>英語 “リドル（riddle）” との差異</h2>
-<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
-これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
-<h2>実験結果</h2>
-<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
-<ul>
-<li>人間の平均正答率は52.9％</li>
-<li>GPT-5のみが人間平均と同等のスコアを記録</li>
-<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
-</ul>
-<h2>AIが苦手な「最後のひと押し」</h2>
-<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
-また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
-<h2>今後の展望</h2>
-<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
-      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
-      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
-<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
-<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
-<h2>主な発見</h2>
-<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
-<ul>
-<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
-<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
-<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
-</ul>
-<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
-<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
-<h2>人とAIの協働に関する新しい視点</h2>
-<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
-<h2>今後の展望</h2>
-<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、AIチップ冷却に「マイクロ流体」導入──シリコンに直接液体を流し効率3倍</title>
-      <link>https://ledge.ai/articles/microsoft_microfluidics_ai_chip_cooling</link>
-      <description><![CDATA[<p>Microsoftは2025年9月24日、AIチップの性能向上に伴う深刻な発熱問題に対処するため、新しい液体冷却技術「マイクロ流体冷却」の開発・テストに成功したと<a href="https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/">発表</a>した。シリコン基板に微細な流路を刻み、冷却液を直接循環させる方式で、従来の冷却プレートと比べ最大3倍の効率を達成したという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=MZBwLi3ajYE">YouTube</a></p>
-<p>近年、AIチップは大規模言語モデルや生成AIの処理需要に対応するため高性能化が進んでいる。その一方で、発熱量は急増し、従来の空冷や液冷では限界が見え始めていた。Microsoftは「冷却技術の進歩がなければ、数年以内にAIチップ開発は頭打ちになる可能性がある」と警鐘を鳴らしている。</p>
-<h2>新技術「マイクロ流体冷却」の仕組み</h2>
-<p>同社が開発した「マイクロ流体冷却」は、チップのシリコン基板に微細な流路を直接形成し、その中に液体を流すことで効率的に熱を除去する仕組みだ。GPU内部の温度上昇を65%低減し、従来の冷却プレート方式と比べ最大3倍の冷却効率を実現したとされる。</p>
-<h2>Corintis社との協力</h2>
-<p>この取り組みは、スイスのスタートアップCorintisとの共同研究に基づく。自然界の葉脈や蝶の羽に着想を得た「バイオインスパイアード設計」を採用し、AIを用いて冷却液の流路や循環を最適化している。これにより、チップ上で最も高温になる“ホットスポット”を効率的に冷却できるようになった。</p>
-<h2>持続可能性への影響</h2>
-<p>Microsoftは、Teams会議をシミュレートしたサーバー環境で同技術をテスト。実験室レベルでの検証において、従来技術を大幅に上回る冷却性能を確認した。これにより、実用化に向けた有効性が示された形だ。</p>
-<p>マイクロ流体冷却は、データセンターの電力使用効率（PUE）の改善や運用コスト削減にもつながるとされる。冷却技術の革新は、環境負荷を低減しつつ、大規模AIインフラの持続可能な発展を支える重要な鍵になるとみられる。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/9/30 [TUE]AIは専門家にどこまで迫ったか──OpenAI「GDPval」が検証する “現実の仕事力”</title>
-      <link>https://ledge.ai/articles/openai_gdpval_ai_job_benchmark</link>
-      <description><![CDATA[<p>OpenAIは2025年9月25日、最新の大規模言語モデル（LLM）が「現実の経済価値を持つタスク」でどの程度人間に迫っているかを測定する新しい評価指標「GDPval」を<a href="https://openai.com/index/gdpval/">発表</a>した。実際の業務成果物をもとに44職種・1,320件のタスクで性能を比較した結果、最先端モデルは専門家に近い水準に達していることが示された。</p>
-<p>GDPvalは、米国GDPに寄与する9産業・44職種を対象に設計された新しい評価ベンチマークである。法律文書や設計図、動画編集、カスタマーサポートの対応記録など、実際の成果物をタスク化し、AIモデルと業界専門家の成果を比較する。</p>
-<p><strong>「GDPval」に含まれる実務タスク例。設計図や看護報告、財務分析からカスタマーサポートまで幅広い領域をカバーしている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Example_GD_Pval_tasks_from_full_set_1f598d2776/Example_GD_Pval_tasks_from_full_set_1f598d2776.jpg" alt="Example GDPval tasks from full set.jpg" /></p>
-<h2>幅広い産業と職種をカバー</h2>
-<p>評価対象は、不動産、製造、政府、金融、医療、情報サービスなど主要な産業を網羅。ソフトウェア開発者や弁護士、看護師、金融アナリストなど、幅広い知識労働が調査された。</p>
-<p><strong>「GDPval」で評価対象となった9産業・44職種。米国経済に大きく寄与する分野から抽出されている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd/GD_Pval_includes_real_world_work_from_44_occupations_fc303d69cd.jpg" alt="GDPval includes real-world work from 44 occupations.jpg" /></p>
-<h2>厳格なレビューと評価方法</h2>
-<p>各タスクは平均5回の専門家レビューを経て整備され、最終的に人間とAIの成果物をブラインドで比較。220件のタスクは「ゴールドサブセット」として公開され、自動採点サービスも提供されている。</p>
-<p><strong>タスクは複数段階の専門家レビューを経て現実性と品質を担保している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59/Tasks_undergo_multiple_rounds_of_review_to_ensure_realism_and_quality_7fb88c6b59.jpg" alt="Tasks undergo multiple rounds of review to ensure realism and quality.jpg" /></p>
-<p><strong>人間専門家によるペアワイズ比較。AIの成果物と人間の成果物を並べ、どちらが優れているかを評価する。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2/GD_Pval_uses_pairwise_expert_comparisons_for_grading_69709621f2.jpg" alt="GDPval uses pairwise expert comparisons for grading.jpg" /></p>
-<h2>成果と課題</h2>
-<p>評価の結果、Claude Opus 4.1は文書やプレゼン資料のレイアウトで優れ、GPT-5は指示理解や計算精度に強みを示した。一方で、モデルの失敗要因として最も多かったのは「指示を正しく理解できていない場合」であると報告されている。</p>
-<p>また、推論時間を増やす、プロンプトを工夫するなどの対応により性能はさらに改善可能であることも確認された。</p>
-<h2>今後の展望</h2>
-<p>現時点のGDPvalは知識労働に限定されるが、将来的には対話型や現場対応を含むタスクへ拡張する計画だ。OpenAIは220件のタスクを公開し、研究者コミュニティによる継続的な評価を促進することで、AIと人間の協働のあり方を探る。</p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
-      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
-      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
-<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
-<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
-<h2>Sora 2の性能</h2>
-<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
-OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
-<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
-<h2>iOSアプリ「Sora」の提供</h2>
-<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
-提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
-<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
-<h2>安全性への配慮</h2>
-<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
-システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
-<h2>背景と思想</h2>
-<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
-<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
-]]></description>
-      <pubDate>Mon, 29 Sep 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/28 [SUN]Photoshop、外部AIモデルを初統合──Google「Nano Banana」とBlack Forest Labsの「FLUX.1 Kontext」が生成塗りつぶしに対応</title>
