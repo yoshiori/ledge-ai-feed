@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
+      <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
+      <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
+<h2>OpenAI選定の背景</h2>
+<p>平将明デジタル大臣は翌3日の記者会見で、OpenAIを選定した理由について、最先端のAI研究と展開を進める企業として評価している旨を述べた。
+源内では従来から複数のモデルを比較・検証しつつ活用しており、OpenAIのモデル追加により選択肢を拡充し、行政の生産性向上につなげる考えだ。</p>
+<p>この協力方針は、2024年9月にOpenAIの最高戦略責任者（CSO）ジェイソン・クォン（Jason Kwon）氏がデジタル庁を訪問した際の会談で確認されたという。平大臣は「生成AIの利活用を推進するうえで重要な一歩」と述べた。</p>
+<h2>セキュリティ体制の整備</h2>
+<p>行政での生成AI活用にあたっては安全性と信頼性の確保が前提となる。会見の質疑で平大臣は、政府情報システムのためのセキュリティ評価制度「ISMAP（イスマップ）」に言及し、認証の有無により扱える情報の範囲が変わることを説明した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=hWf2w9br940">YouTube</a></p>
+<p>OpenAI側も同日、自社の公式<a href="https://openai.com/ja-JP/global-affairs/strategic-collaboration-with-japan-digital-agency/">ブログ</a>で日本政府との戦略的協力を発表した。公共分野での活用モデルの共同検討や、ISMAP認証の取得をはじめ安全・安心に資する取り組みを前向きに検討する方針を示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/digital_openai_7ada319b72/digital_openai_7ada319b72.jpg" alt="digital openai.jpg" /></p>
+]]></description>
+      <pubDate>Mon, 06 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sora、著作権方針を修正──Altman氏「日本の創作物に敬意」発言も。権利保護と生成AIの共存を模索</title>
       <link>https://ledge.ai/articles/sora_update_copyright_and_revenue_sharing_oct2025</link>
       <description><![CDATA[<p>OpenAIは、動画生成AI「Sora（ソラ）」の著作権対応を見直す。</p>
@@ -330,27 +346,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>5社は、実証を通じて得られた技術的成果をもとに、再生可能エネルギーとデジタルインフラを組み合わせた「九州版ワット・ビット連携」のモデルケースを確立したい考えだ。</p>
 ]]></description>
       <pubDate>Tue, 30 Sep 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dify協会を設立──LangGenius、NTTデータ、日本電子計算がAIアプリ普及を推進</title>
-      <link>https://ledge.ai/articles/dify_association_established_langgenius_nttdata_jip</link>
-      <description><![CDATA[<p>LangGeniusは2025年9月24日、NTTデータ、日本電子計算と共同で、2025年9月1日付で「一般社団法人Dify協会」を設立したと<a href="https://prtimes.jp/main/html/rd/p/000000010.000166429.html">発表</a>した。AIアプリケーション開発プラットフォーム「Dify」を中核に据え、オープンなエコシステムを形成し、日本におけるAI活用の普及を後押しする。</p>
-<h2>設立の背景</h2>
-<p>生成AIの社会実装が加速するなか、アプリケーションの導入や運用をめぐる課題は多岐にわたる。協会は、開発者や企業がAIを安心して活用できる環境を整備し、技術標準化やガイドライン策定を通じて信頼性の高いエコシステムを目指す。</p>
-<h2>協会の目的と活動内容</h2>
-<ul>
-<li>協会は以下の活動を推進する。</li>
-<li>会員間でのノウハウ・事例共有</li>
-<li>技術標準や認証制度の検討</li>
-<li>勉強会やイベントを通じた人材・企業間のネットワーキング</li>
-<li>学術界・産業界・行政との連携支援</li>
-</ul>
-<p>設立時社員は、LangGenius、NTTデータ、日本電子計算の3社。
-役員には、亀茲マルダン氏、新井貴博氏、湯澤元彦氏が理事として名を連ね、監事には戸田邦昭氏が就任した。主たる事務所は東京都中央区に置かれる。</p>
-<h2>今後の展開</h2>
-<p>協会は2025年10月24日に東京で開催されるイベント「IF Con Tokyo 2025」で活動方針を発表し、翌25日には開発者向け「Dify Studio ハッカソン」を実施する予定。オープンかつ中立的な場を提供することで、幅広いステークホルダーの参加を促し、日本のAIアプリ市場の成長を支えていく構えだ。</p>
-]]></description>
-      <pubDate>Tue, 30 Sep 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
