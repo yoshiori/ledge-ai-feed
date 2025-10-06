@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
+      <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
+      <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
+<p>同モデルはAlibaba Cloudの大規模言語モデル「Qwen2.5-32B」を基盤に、日本語理解・生成性能を独自の新手法で強化したもので、Open Japanese LLM Leaderboard（通称：LLM勉強会ランキング）で総合スコア第1位（0.7417）を記録したという。</p>
+<h2>日本語能力を高める新手法「Precise-tuning」とは</h2>
+<p>FLUXは今回のモデル開発にあたり、従来のファインチューニングとは異なる「Precise-tuning（プリサイズチューニング）」手法を導入した。日本語データセット全体でパラメーターを再学習するのではなく、日本語能力強化に必要なネットワーク回路のみを特定して再調整することで、効率的かつ精度の高い言語理解を実現したとしている。</p>
+<p><strong>FLUXが開発した「Precise-tuning」手法の概念図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1440_810_4_6b464affdc/1440_810_4_6b464affdc.jpg" alt="1440-810-4.jpg" /></p>
+<h2>ベンチマークで国内首位に</h2>
+<p>同モデルは、LLM勉強会ランキング<a href="https://ledge.ai/articles/open_japanese_llm_leaderboard">オープン日本語LLMリーダーボード</a>において総合スコア0.7417を記録し、他の日本語モデルを上回る評価を得たという。</p>
+<p>このランキングは、日本の有志研究者・エンジニアによるコミュニティ「<a href="https://llm-jp.nii.ac.jp/">LLM-jp</a>（通称：LLM勉強会）」が運営しており、複数の日本語LLMを自然言語推論・要約・コード生成などのタスクで比較評価するオープンベンチマークとして知られる。</p>
+<p>LLM-jpは、国立情報学研究所（NII）を事務局とする共同研究プロジェクトで、2024年4月にNII内に設立された大規模言語モデル研究開発センター（LLMC）と連携して、「日本語に強いオープンな大規模言語モデル」を開発・評価する活動を進めている。そのため、このランキングは国内の学術・産業両分野で日本語LLMの性能を客観的に測る基準として広く参照されている。</p>
+<p><strong>Open Japanese LLM Leaderboardでの評価結果。Flux Japanese LLMが第1位を記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/News_main_240718_3_e93e607d1f/News_main_240718_3_e93e607d1f.jpg" alt="News_main_240718-3.jpg" /></p>
+<p>モデルはHugging Face上で公開されており、<a href="https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0">モデルカード</a>には、自然言語処理・要約・コード生成タスクでの性能指標や学習設計の概要が掲載されている。</p>
+<h2>企業・業界別モデル展開へ</h2>
+<p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
+]]></description>
+      <pubDate>Mon, 06 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
       <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
       <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
@@ -330,22 +351,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>今回の採択を通じ、AIRoAは生成AIを活用したロボット開発と社会実装を加速させる方針だ。協会は公式発表の中で、「産業界や研究機関と連携し、日本から世界に通用するAIロボティクスの基盤を築いていく」と述べている。</p>
 ]]></description>
       <pubDate>Wed, 01 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>九州電力・IIJなど5社、「九州版ワット・ビット連携」実証──APN＋光NICで分散DCを直結</title>
-      <link>https://ledge.ai/articles/kyuden_iij_qtnet_1finity_nautilus_wattbit_apn_opticalnic</link>
-      <description><![CDATA[<p>九州電力、インターネットイニシアティブ（IIJ）、QTnet、1FINITY、ノーチラス・テクノロジーズの5社は2025年9月24日、地域分散型デジタルインフラを構築・検証する実証プロジェクトを開始すると<a href="https://www.kyuden.co.jp/press/2025/h250924-1.html">発表</a>した。プロジェクトは2025年10月から始まり、九州における「九州版ワット・ビット連携」の実現を目指す。（実証期間は2025年10月〜2026年3月）</p>
-<h2>「ワット・ビット連携」に基づく取り組み</h2>
-<p>政府が推進する「ワット・ビット連携」の考え方に基づき、九州の再生可能エネルギーを活用しつつ、地域に分散したデータセンター（DC）を連携させる。これにより、電力とIT処理の最適なバランスを図り、持続可能なデジタル基盤の実装を目指す。</p>
-<h2>世界初、光NICによる分散DCの直結</h2>
-<p>同プロジェクトの特徴は、APN（All-Photonics Network）を利用して、複数の小規模DCを光信号のまま接続し、一つのシステムのように機能させる点にある。
-さらに、ネットワークには従来の電気信号ではなく、光信号を直接扱う光ネットワークインタフェースカード（光NIC）を導入。これにより、サーバ間を光信号で直接接続し、従来必要だった伝送装置や電気的変換を省略する。1FINITYの調査によれば、分散DCを光NICで直結する取り組みは世界初（2025年9月24日現在、1Finity調べ）となる。</p>
-<h2>AI処理と分散DBの検証</h2>
-<p>各DCにはAI処理向けのGPUサーバを配置。複数のDCに分散保存されたデータへアクセスし、AI処理を行うための分散データベース技術の検証も進める。これにより、地域ごとに異なる電力供給状況を踏まえ、昼夜や需給状況に応じて柔軟に処理を振り分ける仕組みを模索する。光信号の直結によりネットワーク装置の削減と省電力化も図る。</p>
-<h2>今後の展望</h2>
-<p>5社は、実証を通じて得られた技術的成果をもとに、再生可能エネルギーとデジタルインフラを組み合わせた「九州版ワット・ビット連携」のモデルケースを確立したい考えだ。</p>
-]]></description>
-      <pubDate>Tue, 30 Sep 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本とシンガポールを結ぶ国際海底ケーブル「Candle」建設へ──ソフトバンク、Metaなど4社と合意</title>
