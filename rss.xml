@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>国立国会図書館×NII、官庁出版物30万点のテキストデータ提供で合意　日本発LLM開発を後押し</title>
+      <link>https://ledge.ai/articles/ndl_nii_textdata_llm_collaboration</link>
+      <description><![CDATA[<p>国立国会図書館（NDL）は2025年10月1日、国立情報学研究所（NII）に対して、同館が保有する官庁出版物などのテキストデータを提供することで合意したと<a href="https://www.ndl.go.jp/jp/news/fy2025/251001_01.html">発表</a>した。NIIが進める大規模言語モデル（LLM）の構築・研究を支援することを目的とし、日本語モデルの精度向上と公共データの再活用を促す取り組みとなる。</p>
+<h2>約30万点の官庁出版物を対象</h2>
+<p>提供されるのは、国立国会図書館が所蔵する官庁出版物を中心とした約30万点の資料のテキストデータ。主に1995年以前に刊行された図書・雑誌・官報などが対象で、OCR（光学式文字認識）により全文をデジタル化したものとなる。NIIはこれらのデータを研究用として活用し、日本語大規模言語モデルの構築や性能評価に役立てる。</p>
+<h2>公共アーカイブとAI研究の連携</h2>
+<p>今回の合意は、公共機関が保有する文献データを学術研究やAI開発に活用する新たな枠組みを示すもの。NDLはこれまでも、デジタルアーカイブ化やメタデータ公開などを通じて情報の利活用を推進してきたが、AI研究への提供は初の本格的な事例となる。</p>
+<h2>日本語モデル開発を後押し</h2>
+<p>NIIでは、研究機関や大学向けの日本語LLM開発を進めており、今回の提供データが学習素材として活用されることで、公共情報に基づく透明性の高いAIモデルの開発が期待される。
+NDLは今後も、デジタル化資料の活用促進を通じて、学術研究や社会的知の発展に寄与していく方針を示している。</p>
+]]></description>
+      <pubDate>Tue, 07 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>KyoHA、国産ヒューマノイド試作プロジェクトを始動──早稲田大学・テムザック・村田製作所らが連携</title>
       <link>https://ledge.ai/articles/kyoha_humanoid_prototype_project_2025</link>
       <description><![CDATA[<p>一般社団法人「京都ヒューマノイドアソシエーション（KyoHA）」は2025年10月3日、国産ヒューマノイドの開発を目的とした「国産ヒューマノイド試作プロジェクト」を正式に始動したことを<a href="https://www.tmsuk.co.jp/topics/7608/">発表</a>した。
@@ -617,26 +631,6 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>OpenAIは、対応するECサイトの拡大を予定している。まずは一部のパートナーから導入を開始し、順次拡大する方針だ。また、開発者や事業者に向けた連携方法の提供も検討されている。</p>
 ]]></description>
       <pubDate>Thu, 02 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日立、「NVIDIA AI Factory」 活用の集約型インフラ「AI Factory」を構築　Physical AI 開発を加速</title>
-      <link>https://ledge.ai/articles/hitachi_ai_factory_physical_ai_acceleration</link>
-      <description><![CDATA[<p>日立製作所は9月26日、NVIDIAのAIプラットフォーム「NVIDIA AI Factory」のリファレンスアーキテクチャを活用し、集約型インフラ「AI Factory」を構築したと<a href="https://www.hitachi.co.jp/New/cnews/month/2025/09/0926b.html">発表</a>した。この基盤は、同社が注力するPhysical AIソリューションの開発・導入を加速することを目的としている。</p>
-<h2>OTとNVIDIA技術を融合した新基盤</h2>
-<p>「AI Factory」は、日立が持つOT（制御・運用技術）分野の知見と、NVIDIAのアクセラレーテッドコンピューティングおよびAIソフトウェアスタックを融合させて設計された。現実世界と相互作用するAIを迅速に開発し、社会実装につなげる狙いだ。活用分野としては、モビリティ、エネルギー、産業、テクノロジーなどが想定されている。</p>
-<h2>高性能GPUとネットワークによる構成</h2>
-<p>システム構成は、NVIDIA Blackwell GPUを搭載した「HGX B200」システムを採用した「Hitachi iQ」、NVIDIA RTX PRO 6000 Server Edition GPUを搭載した「Hitachi iQ M Series」、そしてネットワーク基盤となる「NVIDIA Spectrum-X Ethernet」で構成される。またソフトウェアには、エンタープライズ向けの「NVIDIA AI Enterprise」や、産業規模の正確なデジタルツインを構築できる「NVIDIA Omniverse」が含まれる。</p>
-<h2>Physical AIの開発を加速</h2>
-<p>このインフラを用いることで、カメラやセンサーから得た情報を認識・推論し、次の行動を決定・実行する高度なPhysical AIモデルを迅速に開発・学習できる。デジタルツインの構築や、社会インフラを含む物理アセットの最適化を支援し、生産性向上など新たな可能性を拓くという。</p>
-<h2>グローバル展開と共同開発体制</h2>
-<p>「AI Factory」は米国、EMEA（欧州・中東・アフリカ）、日本に戦略的に配置され、相互接続されたネットワークによってグローバルなエンジニアチームが低遅延で協力できる環境を整える。これにより、多様なPhysical AIソリューションの共同開発を促進し、効率性・生産性・安全性の向上を実現する。</p>
-<h2>経営陣とNVIDIAのコメント</h2>
-<p>日立製作所 執行役社長兼CEOの德永俊昭氏は「NVIDIA RTX PROサーバーを基盤としたHitachi iQの活用により、AI推論やPhysical AIが高速化され、デジタルツインや社会インフラの最適化が強化される」とコメントした。また、執行役副社長兼デジタルシステム＆サービス統括本部長の阿部淳氏は「グローバルにAI Factoryを構築することで、『真のOne Hitachi』として運営が可能になり、Physical AIのイノベーションを加速させる」と述べた。</p>
-<p>さらに、NVIDIAのEnterprise AI Products担当バイスプレジデントであるJustin Boitano氏も「企業データをソフトウェアと物理世界の両方で活用する革新的基盤となる」と評価している。</p>
-<h2>Lumada 3.0への布石</h2>
-<p>今回の取り組みは、日立が掲げる「Lumada 3.0」ビジョン実現に向けた重要な一歩と位置付けられている。IT、OT、プロダクトを融合したインダストリアルAI分野でのソリューション提供強化を通じ、社会とビジネスのイノベーションを推進する構えだ。</p>
-]]></description>
-      <pubDate>Wed, 01 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/9/28 [SUN]Photoshop、外部AIモデルを初統合──Google「Nano Banana」とBlack Forest Labsの「FLUX.1 Kontext」が生成塗りつぶしに対応</title>
