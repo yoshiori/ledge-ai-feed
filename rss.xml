@@ -5,6 +5,39 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google ResearchとDeepMind、「StreetViewAI」を発表──視覚障害者がAIと対話しながらストリートビューを“歩く”</title>
+      <link>https://ledge.ai/articles/streetviewai_accessible_navigation</link>
+      <description><![CDATA[<p>Google ResearchとGoogle DeepMindの研究チームは2025年9月28日（米国時間）、視覚障害者がAIと対話しながらGoogleストリートビュー上を探索できるツール「StreetViewAI」をACM国際会議UIST 2025で<a href="https://dl.acm.org/doi/10.1145/3746059.3747756">発表</a>した。視覚障害者がAIと対話しながらGoogleストリートビュー上を探索できるツールを開発し、マルチモーダルAIを活用した新しいアクセシビリティ体験を提示している。</p>
+<h2>AIが「見る」街を、言葉で伝える</h2>
+<p>StreetViewAIは、ストリートビュー画像・地図情報・地理メタデータなどを統合して、AIが環境を自然言語で説明するシステムだ。
+会話の文脈を理解し、ユーザーが「右側には何がありますか？」「この角を曲がるとどうなりますか？」と尋ねると、AIが視覚と位置の情報をもとに答える。</p>
+<p>AIが“街の目”となり、利用者は言葉のガイドによって世界中の街を“歩く”ことができる。</p>
+<h2>背景：地理情報アクセシビリティの壁を超えて</h2>
+<p>地図やストリートビューは視覚情報中心の体験であり、視覚障害者には利用のハードルが高い。
+これまでの音声ガイドはランドマークの名称や距離といった部分情報にとどまり、空間全体の理解を支える仕組みは十分ではなかった。</p>
+<p>StreetViewAIは、AIが空間の意味と文脈を理解し、自然な対話で伝えることを目指す。Googleが蓄積してきた地理空間理解技術に、DeepMindのマルチモーダルモデル技術を組み合わせた成果だという。</p>
+<h2>システム構成：マルチモーダルAIによる空間理解</h2>
+<p>StreetViewAIは、Googleのマルチモーダル大規模言語モデル（MLLM）を中核に、Street View画像、地図メタデータ、ナビゲーション履歴、周辺施設情報を統合し、文脈に沿った説明を生成する。</p>
+<p>たとえば、ユーザーが「前に進んで」と音声指示を出すと、AIが実際に次のパノラマへ移動し、新たな環境を分析してリアルタイムに説明を更新する。この動作を支えるのが「StreetViewAI Control System」であり、AIが空間を“歩きながら”理解する構造を実現している。</p>
+<p><strong>StreetViewAIの全体構成。ユーザーが音声で質問すると、マルチモーダルAIが地図情報と画像を統合して回答する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig2_6f6636db4f/uist25_162_fig2_6f6636db4f.jpg" alt="uist25-162-fig2.jpg" /></p>
+<h2>AI Describer：街の「語り手」としてのAI</h2>
+<p>StreetViewAIの中核モジュールの一つが「AI Describer」だ。これは視覚障害者支援向けの“説明者AI”で、ストリートビュー画像から状況を自然言語で描写する。さらに、観光案内モード（Tour Guide Prompt）に切り替えると、文化的背景や観光情報を加味した解説も行える。</p>
+<p>例として、渋谷のスクランブル交差点の場面では、標準モードでは「前方に大きな横断歩道と点字ブロックがあります」と伝えるが、ツアーガイドモードでは「ここは渋谷スクランブル交差点。世界で最も人通りが多い交差点の一つです」と説明する。</p>
+<p><strong>対話インターフェースの例。ユーザーの質問（信号・横断歩道・看板の文字など）に対し、画像と地理メタデータに基づいて応答する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig4_1c434bb912/uist25_162_fig4_1c434bb912.jpg" alt="uist25-162-fig4.jpg" /></p>
+<h2>多様な都市での適用と検証</h2>
+<p>研究チームは、シアトル、サンフランシスコ、ニューヨークなど複数都市のストリートビューで実験を実施。StreetViewAIは、都市構造や文化的文脈が異なる環境でも一貫した説明を生成でき、地域固有のランドマークや道路構造にも柔軟に対応した。
+また、視覚障害当事者11名との評価を通じて、POI調査や遠隔での経路検討を支援する有用性も確認された。
+こうした結果から、地域横断的なスケーラビリティと実利用の可能性が示されたと論文は述べている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig6_ffec020f07/uist25_162_fig6_ffec020f07.jpg" alt="uist25-162-fig6.jpg" /></p>
+<h2>世界中の街を「声で歩く」未来へ</h2>
+<p>StreetViewAIは、100以上の国・2200億枚超のストリートビュー画像のカバレッジを背景に、地域や言語を問わず動作する設計だ。現在、シアトル、ニューヨーク、東京、サンフランシスコ、ダブリンなど複数の都市でテストされており、地理的スケーラビリティを確認中だ。</p>
+<p>今後は、Google MapsやAndroidナビゲーション、教育用アプリへの応用が期待される。Google Researchは論文で、「StreetViewAIは、アクセシビリティAIと地理空間AIの融合の一歩」と位置づけている。</p>
+]]></description>
+      <pubDate>Tue, 07 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>国立国会図書館×NII、官庁出版物30万点のテキストデータ提供で合意　日本発LLM開発を後押し</title>
       <link>https://ledge.ai/articles/ndl_nii_textdata_llm_collaboration</link>
       <description><![CDATA[<p>国立国会図書館（NDL）は2025年10月1日、国立情報学研究所（NII）に対して、同館が保有する官庁出版物などのテキストデータを提供することで合意したと<a href="https://www.ndl.go.jp/jp/news/fy2025/251001_01.html">発表</a>した。NIIが進める大規模言語モデル（LLM）の構築・研究を支援することを目的とし、日本語モデルの精度向上と公共データの再活用を促す取り組みとなる。</p>
