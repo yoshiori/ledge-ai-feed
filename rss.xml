@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
+      <link>https://ledge.ai/articles/smbc_gai_rag_internal_search</link>
+      <description><![CDATA[<p>三井住友フィナンシャルグループ（SMBCグループ）は2025年10月6日、社内向けAIアシスタントツール「SMBC-GAI」に、RAG（Retrieval-Augmented Generation）技術を活用した社内情報検索機能を新たに搭載したと<a href="https://www.smfg.co.jp/news/pdf/j20251006_01.pdf">発表</a>した。社内規程や業務マニュアルなど約130万件に及ぶファイルをインデックス化し、従業員が一つのインターフェース上で横断的に検索・参照できるようにしたという。</p>
+<h2>RAG技術で社内情報を高精度に検索</h2>
+<p>RAG（Retrieval-Augmented Generation）とは、AIが関連性の高い情報を検索・参照し、それをもとに自然言語で回答を生成する技術だ。従来の生成AIと比べ、文脈理解と回答の正確性を高めることができる。「SMBC-GAI」ではこの仕組みを活用し、膨大な社内文書を効率的に検索できる環境を実現したという。</p>
+<h2>約130万件のファイルをインデックス化</h2>
+<p>対象は社内規程、通達、業務マニュアルなど約130万件にのぼるファイル群。RAGによって情報を体系的に整理・索引化することで、従業員は検索から回答生成までを一気通貫で行えるようになった。リリースによると、国内企業のRAG活用事例としては、学習ファイル数および利用人数の両面で「最大級の規模」としている。</p>
+<h2>三井住友銀行から導入、グループ展開を視野に</h2>
+<p>新機能はまず三井住友銀行の従業員向けに導入され、今後はSMBCグループ各社への展開が検討される。回答生成時には参照元を明示する仕組みも導入され、回答の根拠を追跡できるようになっている。</p>
+<h2>金融業務に特化したAI基盤へ</h2>
+<p>「SMBC-GAI」は2023年7月のリリース以降、社内の声を取り入れながら順次機能を強化してきた。SMBCグループは今後も「SMBC-GAI」を金融分野における汎用AI基盤へと進化させる方針で、従業員の業務効率化や顧客サービスの高度化につなげていくとしている。</p>
+]]></description>
+      <pubDate>Thu, 09 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAIとAMD、6GW規模のAIインフラ契約を締結──次世代GPU「Instinct」複数世代を供給へ</title>
       <link>https://ledge.ai/articles/openai_amd_6gw_ai_infrastructure</link>
       <description><![CDATA[<p>OpenAIと米半導体大手AMDは2025年10月6日（現地時間）、OpenAIの次世代AIインフラ構築に向け、6GW規模の計算能力を備えたシステムを展開する包括的パートナーシップを締結したと<a href="https://openai.com/index/openai-amd-strategic-partnership/">発表</a>した。
@@ -309,25 +324,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 ソフトバンクは自社のAIインフラを提供し、理研は量子計算の知見を活かすことで、学術と産業の双方に資する先端計算環境を構築していく考えだ。</p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare、非営利団体と報道機関をAIクローラから防御──Project Galileoに新機能追加</title>
-      <link>https://ledge.ai/articles/cloudflare_project_galileo_ai_crawler_protection</link>
-      <description><![CDATA[<p>Cloudflareは米国時間2025年9月23日、非営利団体や独立系メディアを対象とするセキュリティ支援プログラム「Project Galileo」を拡張し、AIクローラからのアクセスを監視・制御できる新機能を無償提供すると<a href="https://www.cloudflare.com/press/press-releases/2025/cloudflare-helps-protect-independent-journalism-and-non-profits-from-ai/">発表</a>した。対象は約750の団体で、AI時代におけるコンテンツ保護と収益確保を後押しする狙いがある。</p>
-<h2>Project Galileoとは</h2>
-<p>Project Galileoは2014年に開始された取り組みで、独立系メディアや人権団体、ジャーナリストらに無償のセキュリティ対策を提供してきた。サイバー攻撃や情報操作から公共性の高い情報源を守ることを目的とし、これまでに数多くの組織を支援している。Cloudflareによれば、2024年5月から2025年3月の間に参加団体への攻撃を1,089億件以上遮断した実績があり、その規模の大きさが示されている。</p>
-<h2>新たに追加された機能</h2>
-<ul>
-<li><strong>Bot Management</strong> ：AIクローラを含むボットを識別し、アクセス状況を可視化。</li>
-<li><strong>AI Crawl Control</strong> ：どのAIクローラを許可するか、または拒否するかを団体ごとに制御可能。</li>
-</ul>
-<p>この拡張により、参加団体はAIサービスによる利用実態を把握し、必要に応じて制限をかけることができる。</p>
-<p>Cloudflare共同創設者兼CEOのMatthew Prince氏は発表の中で、「私たちはジャーナリズムを信じている。独立系やローカルニュースの健全性は、インターネット全体、そして社会の健全性と不可分だ」と述べた。</p>
-<p>また、メディア支援団体のLION（Local Independent Online News）やInternews Europeなどが、この拡張を歓迎し、持続可能なニュース配信に資するとの期待を表明している。</p>
-<h2>今後の展望</h2>
-<p>同社は、AIクローラの利用状況を把握し制御できるようにすることで、参加団体がコンテンツ利用に関して交渉力を高められると説明している。また、今回の拡張によって、独立系ニュースや非営利団体が持続可能な活動を続けられるよう支援し、インターネット上の公共性を守ることを目指すとしている。さらに、AI Crawl ControlやBot Managementを無償提供することで、AI時代における報道機関や市民団体の役割を強化し、透明で健全な情報流通を促進するとしている。</p>
-]]></description>
-      <pubDate>Fri, 03 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
