@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIとAMD、6GW規模のAIインフラ契約を締結──次世代GPU「Instinct」複数世代を供給へ</title>
+      <link>https://ledge.ai/articles/openai_amd_6gw_ai_infrastructure</link>
+      <description><![CDATA[<p>OpenAIと米半導体大手AMDは2025年10月6日（現地時間）、OpenAIの次世代AIインフラ構築に向け、6GW規模の計算能力を備えたシステムを展開する包括的パートナーシップを締結したと<a href="https://openai.com/index/openai-amd-strategic-partnership/">発表</a>した。
+複数世代にわたるAMD「Instinct」GPUを活用し、2026年後半に最初の1GW分を導入する計画だ。</p>
+<h2>6GW規模の包括的パートナーシップ</h2>
+<p>AMDの<a href="https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus">発表</a>によると、今回の契約では、AIトレーニングや推論に最適化されたデータセンター向けGPU「Instinct」シリーズ（MI450および将来世代）をOpenAIに継続的に供給する。これにより、OpenAIは複数世代にわたるAMD GPUを活用し、スケーラブルで高効率なAIインフラを構築する方針だ。</p>
+<p>初期段階では、2026年後半に1GW相当の計算能力を展開。数年をかけて最大6GW規模まで拡張する。AMDによれば、この契約は同社のデータセンターGPU事業として過去最大級の供給量にあたるという。</p>
+<h2>株式ワラントによる資本提携</h2>
+<p>AMDは契約の一環として、OpenAIに対して約1億6千万株分の株式ワラントを発行。これにより、OpenAIは今後、AMDの発行済み株式の最大10%を取得する権利を持つことになる。
+このスキームは、長期的な供給関係の安定化と、両社の戦略的連携を強化する目的があると説明されている。</p>
+<h2>双方のコメント</h2>
+<p>OpenAIは、AMDとの協力が次世代の生成AIシステムをより効率的かつスケーラブルに運用するための重要な一歩であると説明し、今後、AMDのGPUを活用して自社モデルのトレーニングおよび推論を拡張していく考えを示した。AMDのCEOであるリサ・スー氏も、この提携がAI計算基盤の進化を推進し、Instinct GPUの性能と電力効率を最大限に引き出す機会になると強調している。</p>
+<h2>AIインフラ競争の新局面</h2>
+<p>同提携は、拡大を続ける生成AI需要に対応するための計算資源の長期確保と、複数世代GPUにわたる供給体制を明示した点で、AIインフラ整備の大きな節目となる。両社は今後も、研究開発と運用の両面で協力を継続する方針だ。</p>
+]]></description>
+      <pubDate>Thu, 09 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、ChatGPTの週間利用者が8億人を突破──DevDay 2025でApps SDKやGPT-5 Proなどを発表</title>
       <link>https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年10月6日（現地時間）、米サンフランシスコで開催された年次開発者会議「DevDay 2025」の基調講演で、対話型AI「ChatGPT」の週間アクティブユーザー数（WAU）が8億人を超えたと<a href="https://www.youtube.com/live/hS1YqcewH0c?si=1psz2A76y_mpcmvn">発表</a>した。2023年のDevDayでは1億人規模とされており、2年間で大幅に拡大したことになる。</p>
@@ -310,25 +328,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>同社は、AIクローラの利用状況を把握し制御できるようにすることで、参加団体がコンテンツ利用に関して交渉力を高められると説明している。また、今回の拡張によって、独立系ニュースや非営利団体が持続可能な活動を続けられるよう支援し、インターネット上の公共性を守ることを目指すとしている。さらに、AI Crawl ControlやBot Managementを無償提供することで、AI時代における報道機関や市民団体の役割を強化し、透明で健全な情報流通を促進するとしている。</p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>イーロン・マスク、xAIで“Grokipedia”構築中　『Wikipediaを大幅に上回る』と表明</title>
-      <link>https://ledge.ai/articles/elon_musk_xai_grokipedia_vs_wikipedia</link>
-      <description><![CDATA[<p>イーロン・マスク氏は9月30日（現地時間）、自身のXアカウントで「<a href="https://x.com/elonmusk/status/1972992095859433671">xAIが“Grokipedia”を構築中</a>」と明かした。Wikipediaを「大幅に上回る改善」と表現し、xAIの目標である「宇宙の理解」に向けた必要な一歩だと位置づけた。</p>
-<h2>マスク氏「Wikipediaを大幅に上回る」</h2>
-<p>マスク氏は「We are building Grokipedia @xAI. Will be a massive improvement over Wikipedia. Frankly, it is a necessary step towards the xAI goal of understanding the Universe.」（私たちはxAIで「Grokipedia」を構築中です。これはWikipediaを大幅に上回る改善となるでしょう。率直に言って、xAIの目標である“宇宙の理解”に向けた必要な一歩なのです）と投稿。
-この発言は、ベンチャー投資家デビッド・サックス氏が「Wikipediaは左派活動家によって偏向している」と批判した投稿に返信する形で行われた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grokipedia_5727bb7339/grokipedia_5727bb7339.jpg" alt="grokipedia.jpg" /></p>
-<h2>背景にあるWikipedia偏向論争</h2>
-<p>Wikipediaの編集方針や中立性をめぐる議論は長年続いてきた。直近ではタッカー・カールソン氏が共同創設者ラリー・サンガー氏を招いたインタビューを公開し、偏向の問題が再び注目を集めた。
-マスク氏は今月のAll-In Podcastでも「GrokがWikipediaの誤りを正し、欠けている文脈を補う」と発言しており、今回の「Grokipedia」構想はその延長線上にあるとみられる。</p>
-<h2>xAIの目標との関わり</h2>
-<p>xAIの公式サイトには「宇宙の理解（Understand the Universe）」を掲げるミッションが明記されている。マスク氏は「Grokipedia」を、この壮大な目標の達成に不可欠な取り組みと強調した。</p>
-<h2>「Grokipedia」名義のサイトも登場</h2>
-<p>「grokipedia.com」や「grokipedia.fun」といったドメイン名を持つサイトもすでに存在している。しかし、これらは第三者が取得したものであり、xAI公式とは無関係とみられる。現時点で公式なサイトやプロジェクト詳細は公表されておらず、運用体制や公開時期については不明。</p>
-<p>マスク氏の投稿は数百万回以上閲覧され、大きな関心を集めている。構想の詳細が明かされていない段階ながら、その動向に多くの注目が集まっている。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPTに「共有プロジェクト」モード導入──OpenAI、セキュリティ強化や外部アプリ連携も拡充</title>
