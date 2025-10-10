@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
+      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
+      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
+<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
+<h2>言葉だけで「形」を思い描くタスク</h2>
+<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
+参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
+<p>たとえば――</p>
+<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
+<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
+<h2>GPT-5とo3が人間を上回る精度</h2>
+<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
+一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
+<h2>「見ずに考える」命題的推論</h2>
+<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
+<h2>人間とAIの“アファンタジア”の比較へ</h2>
+<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
+今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
+<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
       <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
       <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
