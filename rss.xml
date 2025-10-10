@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
+      <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
+      <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
+<p>DEWRは2025年9月26日付で、問題となった報告書「Targeted Compliance Framework（TCF） Assurance Review」と、その概要をまとめた「Statement of Assurance」を更新し、訂正版を公式サイトで公開した。
+同省は<a href="https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report">公式ページ</a>で「この文書は9月26日に更新され、参照と脚注の誤りを訂正した。修正は結論や提言に影響を与えない」と明記している。</p>
+<h2>存在しない文献をAIが生成</h2>
+<p>調査対象となったのは、雇用支援制度「Targeted Compliance Framework（TCF）」に関する外部監査報告書で、総額約43万9,000豪ドル（約4,200万円）でデロイトに発注されていた。</p>
+<p><a href="https://apnews.com/article/australia-ai-errors-deloitte-ab54858680ffc4ae6555b31c8fb987f3">AP通信</a>は、報告書に「実在しない学術論文への参照や、誤った引用が含まれていた」と報じている。また、Financial Times（FT）によると、デロイトは報告書の一部作成でMicrosoftの「Azure OpenAI」ツールを使用していたことを認め、改訂版にはその利用事実が追記されたという。</p>
+<p>複数の誤りがAIによるハルシネーション（幻覚）に起因していると<a href="https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report">The Guardian</a>が指摘している。</p>
+<h2>デロイト、返金を実施</h2>
+<p>デロイトが最終支払い分を返金することでオーストラリア政府と合意した。デロイトは声明で「参照と脚注に関する誤りを認識し、修正を完了した」と説明している。DEWR側は、報告書の主要な所見や提言自体に変更はないとしており、「修正は文献参照に限定され、内容の妥当性には影響していない」としている。</p>
+<h2>政府の声明と再発防止</h2>
+<p>DEWRの事務次官は10月3日付の声明で、「Targeted Compliance Frameworkの透明性と信頼性を高めるため、独立レビューを踏まえて制度改良を進めている」と述べた。
+声明では、Deloitteによる報告書も改善プロセスの一部として参照していることが明らかにされ、政府側の対応は継続中とみられる。</p>
+<h2>コンサル業界で問われる「AIの信頼性」</h2>
+<p>デロイトはAI導入を強化しており、同時期にAnthropicとの提携拡大を発表したと<a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/">TechCrunch</a>が報道。一方で、AI生成文書の誤りによって公共契約の信頼性が揺らいでいると指摘した。デロイトは世界的にAIツールを業務へ統合しているが、今回の件は「AIを利用した文書の監査体制」が整備途上であることを浮き彫りにした。</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
       <link>https://ledge.ai/articles/google_opal_global_expansion</link>
       <description><![CDATA[<p>Googleは2025年10月7日（現地時間）、自然言語からウェブアプリを作成できるノーコードAIツール「Opal」の提供地域を、日本を含む15カ国へ拡大したと<a href="https://blog.google/technology/google-labs/opal-expansion/">発表</a>した。OpalはGoogle Labsの実験プロジェクトで、コードを書くことなくAIミニアプリを構築できるのが特徴だ。</p>
@@ -456,28 +476,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google「Gemini for Home」を発表──Nest Cam刷新と新Google Homeスピーカーで “家庭のAI体験” を一新</title>
-      <link>https://ledge.ai/articles/google_gemini_for_home_nest_cam_home_speaker</link>
-      <description><![CDATA[<p>Googleは2025年10月1日（現地時間）、会話型AI「Gemini」を家庭向けに導入する新戦略「Gemini for Home」を<a href="https://blog.google/products/google-nest/gemini-for-home-launch/">発表</a>した。従来のGoogle Assistantに代わり、Geminiがスマートホームの中核を担う。あわせて「Nest Cam Indoor（有線・第3世代）」「Nest Cam Outdoor（有線・第2世代）」と新しい「Google Homeスピーカー」を公開し、Google Homeアプリのデザインも刷新した。Nest Camは順次各国で販売開始、Google Homeスピーカーは2026年春に発売予定とされる。</p>
-<h2>Gemini for Homeとは</h2>
-<p>「Gemini for Home」は、家庭内のデバイス横断でより自然な会話と文脈理解に基づく操作を可能にする。照明・センサー・カメラなどの制御に加え、家族ごとのパーソナライズや要約も担う。これによりGoogle Assistantはスマートスピーカー／ディスプレイ上で順次Geminiへ移行する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Google_Home_Speaker_with_Light_R_width_1000_format_webp_c9825d2c87/Google_Home_Speaker_with_Light_R_width_1000_format_webp_c9825d2c87.webp" alt="Google_Home_Speaker_with_Light_R.width-1000.format-webp.webp" /></p>
-<h2>新しいNestデバイス</h2>
-<p>GoogleはGemini対応を前提とした新しいNestシリーズを発表した。</p>
-<ul>
-<li><strong>Nest Cam Indoor（第3世代・有線）／Nest Cam Outdoor（第2世代・有線）</strong> ：2K HDR、低照度性能、広視野などを強化。一部地域では発表当日から販売が始まっており、価格・展開国が案内されている。</li>
-<li><strong>Google Homeスピーカー</strong> ：Gemini前提の会話体験と360度オーディオ、サラウンド対応をうたう。発売は2026年春予定（ティーザー段階）。</li>
-</ul>
-<p>@<a href="https://www.youtube.com/watch?v=xFNVratdz7w">YouTube</a></p>
-<h2>Google Homeアプリの刷新</h2>
-<p>同時にGoogle Homeアプリも再設計された。新デザインにより、家庭内のすべてのデバイスやカメラ映像を一元管理できる。特に注目されるのは「Gemini Live」で、ユーザーはアプリ内でGeminiと会話しながらデバイスを操作できる。カメラ映像の要約や通知整理など、AIを活用した新しい管理体験が提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GHA_Hero_Image_Social_width_1200_format_webp_5b687e9699/GHA_Hero_Image_Social_width_1200_format_webp_5b687e9699.webp" alt="GHA_Hero-Image_Social.width-1200.format-webp.webp" /></p>
-<h2>今後の展望</h2>
-<p>新しいNest製品やGoogle Homeスピーカーの提供開始時期は、各国で順次案内される予定だ。既存のNest製品への対応範囲やアップデート方針も注目点となる。Googleが家庭内AIの新標準としてGeminiを根付かせられるかが、今後の焦点となる。</p>
-]]></description>
-      <pubDate>Fri, 03 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
