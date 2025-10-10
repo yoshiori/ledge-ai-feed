@@ -133,6 +133,25 @@
       <pubDate>Wed, 08 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
+      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
+      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
+<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
+<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
+<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
+<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
+<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
+<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
+<h2>“vibe working”のコンセプト</h2>
+<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
+<h2>提供条件と展開予定</h2>
+<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazonの配送ドローン2機が墜落　米当局が調査開始──アリゾナ州トールソンで事故発生</title>
       <link>https://ledge.ai/articles/amazon_drone_crash_tolleson</link>
       <description><![CDATA[<p>アメリカ連邦航空局（FAA）は2025年10月1日（現地時間）、アリゾナ州トールソンで発生したAmazonの配送ドローン2機の墜落事故について、調査を開始したと<a href="https://www.faa.gov/newsroom/statements/accident_incidents">発表</a>した。FAAによると、事故による負傷者は報告されていない。</p>
@@ -325,7 +344,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>OpenAI側も同日、自社の公式<a href="https://openai.com/ja-JP/global-affairs/strategic-collaboration-with-japan-digital-agency/">ブログ</a>で日本政府との戦略的協力を発表した。公共分野での活用モデルの共同検討や、ISMAP認証の取得をはじめ安全・安心に資する取り組みを前向きに検討する方針を示している。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/digital_openai_7ada319b72/digital_openai_7ada319b72.jpg" alt="digital openai.jpg" /></p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/10/6 [MON]オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
@@ -346,7 +365,37 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <h2>企業・業界別モデル展開へ</h2>
 <p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
+      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
+      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
+<h2>飽和する既存ベンチマーク</h2>
+<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
+<h2>日本の「なぞなぞ」はハイレベル？</h2>
+<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
+なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
+<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
+<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
+<h2>英語 “リドル（riddle）” との差異</h2>
+<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
+これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
+<h2>実験結果</h2>
+<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
+<ul>
+<li>人間の平均正答率は52.9％</li>
+<li>GPT-5のみが人間平均と同等のスコアを記録</li>
+<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
+</ul>
+<h2>AIが苦手な「最後のひと押し」</h2>
+<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
+また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
+<h2>今後の展望</h2>
+<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
+]]></description>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
@@ -370,26 +419,7 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <h2>今後の展望</h2>
 <p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
-      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
-      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
-<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
-<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
-<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
-<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
-<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
-<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
-<h2>“vibe working”のコンセプト</h2>
-<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
-<h2>提供条件と展開予定</h2>
-<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
-]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>落合陽一氏プロデュース「null²」移設クラファン──大阪・関西万博発、開始わずか23時間で1億円達成・次は2億円へ</title>
@@ -408,14 +438,14 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>具体的な移設先や公開時期は未定だが、主催者は「全国から候補地としての声が届いている」としており、引越し計画の進展は今後、READYFORの活動報告や落合氏の公式SNSを通じて発信される見通しだ。</p>
 <p>万博閉幕後も多くの人が体験できる形で「null²」を残すべく、クラウドファンディングは続いている。</p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
       <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
       <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
@@ -441,7 +471,7 @@ OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">シ�
 <p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/5 [SUN]Sora、著作権方針を修正──Altman氏「日本の創作物に敬意」発言も。権利保護と生成AIの共存を模索</title>
@@ -475,7 +505,7 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <h2>今後の展望</h2>
 <p>アルトマン氏は、「ChatGPT初期のように高頻度の改善を続けていく」と述べ、Soraを中心にプロダクト全体の改善を加速させる考えを示した。生成AIと著作権をめぐる議論が国際的に広がるなか、今回の発表は創作支援と権利保護の両立を図る “新しい共存モデル” として注目される。</p>
 ]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>エンタメ＆アート2025/10/6 [MON]世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -519,36 +549,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
-]]></description>
-      <pubDate>Fri, 03 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
-      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
-      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
-<h2>飽和する既存ベンチマーク</h2>
-<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
-<h2>日本の「なぞなぞ」はハイレベル？</h2>
-<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
-なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
-<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
-<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
-<h2>英語 “リドル（riddle）” との差異</h2>
-<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
-これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
-<h2>実験結果</h2>
-<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
-<ul>
-<li>人間の平均正答率は52.9％</li>
-<li>GPT-5のみが人間平均と同等のスコアを記録</li>
-<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
-</ul>
-<h2>AIが苦手な「最後のひと押し」</h2>
-<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
-また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
-<h2>今後の展望</h2>
-<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
 ]]></description>
       <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
