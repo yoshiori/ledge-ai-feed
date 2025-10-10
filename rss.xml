@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
+      <link>https://ledge.ai/articles/google_opal_global_expansion</link>
+      <description><![CDATA[<p>Googleは2025年10月7日（現地時間）、自然言語からウェブアプリを作成できるノーコードAIツール「Opal」の提供地域を、日本を含む15カ国へ拡大したと<a href="https://blog.google/technology/google-labs/opal-expansion/">発表</a>した。OpalはGoogle Labsの実験プロジェクトで、コードを書くことなくAIミニアプリを構築できるのが特徴だ。</p>
+<h2>米国先行公開からグローバル展開へ</h2>
+<p>Opalは7月24日（現地時間）に米国で<a href="https://ledge.ai/articles/google_opal_no_code_ai_tool">初公開</a>。ユーザーが「タスク管理アプリを作成」「画像から色を抽出」といった指示を与えると、AIがHTML/CSS/JavaScriptで構成されたアプリを自動生成する。初期ユーザーの利用が想定以上に高度化したことを受け、今回、日本、韓国、インド、カナダ、ブラジル、アルゼンチン、ベトナム、インドネシア、シンガポール、コロンビア、エルサルバドル、コスタリカ、パナマ、ホンジュラス、パキスタンの15カ国での提供を開始した。</p>
+<h2>ワークフローの可視化と高速化</h2>
+<p>同時に、Opalの実用性を高める改良が行われた。</p>
+<ul>
+<li><strong>高度デバッグ</strong> ：ノーコードのまま、ビジュアルエディタ上でワークフローをステップごとに実行・検証。エラーは発生ステップにリアルタイム表示され、原因特定を容易にする。</li>
+<li><strong>パフォーマンス改善</strong> ：新規Opal作成の起動時間を短縮。**並列実行（parallel runs）**により複数ステップを同時に処理でき、待機時間を抑える。</li>
+</ul>
+<h2>クリエイティブから業務効率化まで</h2>
+<p>Opalは、個人の創作活動やマーケティング支援、業務プロセスの自動化など、多様な用途に対応する。Googleは「ユーザーが複雑なプロセスを自動化したり、アイデアを素早く形にしたりできるよう支援する」としており、開発者コミュニティはDiscord上でも展開されている。</p>
+<p>@<a href="https://youtu.be/g9RBGnz-vqk">YouTube</a></p>
+]]></description>
+      <pubDate>Thu, 09 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
       <link>https://ledge.ai/articles/smbc_gai_rag_internal_search</link>
       <description><![CDATA[<p>三井住友フィナンシャルグループ（SMBCグループ）は2025年10月6日、社内向けAIアシスタントツール「SMBC-GAI」に、RAG（Retrieval-Augmented Generation）技術を活用した社内情報検索機能を新たに搭載したと<a href="https://www.smfg.co.jp/news/pdf/j20251006_01.pdf">発表</a>した。社内規程や業務マニュアルなど約130万件に及ぶファイルをインデックス化し、従業員が一つのインターフェース上で横断的に検索・参照できるようにしたという。</p>
@@ -460,20 +478,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <p>新しいNest製品やGoogle Homeスピーカーの提供開始時期は、各国で順次案内される予定だ。既存のNest製品への対応範囲やアップデート方針も注目点となる。Googleが家庭内AIの新標準としてGeminiを根付かせられるかが、今後の焦点となる。</p>
 ]]></description>
       <pubDate>Fri, 03 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンクと理研、AI計算基盤と量子コンピュータを相互接続──SINETを介し2025年10月に開始</title>
-      <link>https://ledge.ai/articles/softbank_riken_ai_quantum_connection</link>
-      <description><![CDATA[<p>2025年9月29日、ソフトバンクと国立研究開発法人理化学研究所（以下、理研）は、学術情報ネットワーク「SINET（サイネット）」を活用し、ソフトバンクのAI計算基盤と理研が運用する量子コンピュータの相互接続を2025年10月に開始すると<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250929_01/">発表</a>した。量子コンピュータと大規模AI計算基盤を直結させる国内初の試みであり、研究開発や産業応用における新たな可能性が広がると期待されている。</p>
-<h2>相互接続の概要</h2>
-<p>今回の取り組みでは、ソフトバンクが構築するAI計算基盤と、理研の計算科学研究センター（R-CCS）が運用する量子コンピュータを、SINETを経由して接続する。これにより、AIによる大規模データ処理と、量子コンピュータ特有の高速かつ効率的な計算を組み合わせた研究が可能になる。</p>
-<h2>プロジェクト背景：「JHPC-Quantum」構想</h2>
-<p>この相互接続は、日本政府が推進する「JHPC-Quantum（Japan High Performance Computing and Quantum）」プロジェクトの一環として実施される。スーパーコンピュータ「富岳」や先端的なAI計算基盤、量子コンピュータといった計算資源を連携させ、次世代の研究基盤を構築することが狙いだ。</p>
-<h2>今後の展望</h2>
-<p>両者は、今回の相互接続によって、AI学習と量子計算を融合させた新しい研究手法の実証を進める方針を示している。具体的には、材料科学や創薬、組合せ最適化といった産業応用への活用が想定されている。
-ソフトバンクは自社のAIインフラを提供し、理研は量子計算の知見を活かすことで、学術と産業の双方に資する先端計算環境を構築していく考えだ。</p>
-]]></description>
-      <pubDate>Fri, 03 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
