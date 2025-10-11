@@ -105,30 +105,6 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
       <pubDate>Fri, 10 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
-      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
-      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
-<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
-<h2>言葉だけで「形」を思い描くタスク</h2>
-<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
-参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
-<p>たとえば――</p>
-<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
-<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
-<h2>GPT-5とo3が人間を上回る精度</h2>
-<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
-一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
-<h2>「見ずに考える」命題的推論</h2>
-<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
-<h2>人間とAIの“アファンタジア”の比較へ</h2>
-<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
-今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
-<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
-]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
       <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
       <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
@@ -333,6 +309,30 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
       <pubDate>Sun, 05 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
+      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
+      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
+<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
+<h2>言葉だけで「形」を思い描くタスク</h2>
+<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
+参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
+<p>たとえば――</p>
+<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
+<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
+<h2>GPT-5とo3が人間を上回る精度</h2>
+<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
+一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
+<h2>「見ずに考える」命題的推論</h2>
+<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
+<h2>人間とAIの“アファンタジア”の比較へ</h2>
+<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
+今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
+<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
+]]></description>
+      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
       <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
       <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
@@ -396,30 +396,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
 <h2>今後の展望</h2>
 <p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMへの指示が得意な人は脳の働きが違う──「プロンプト力」がfMRI研究で初めて科学的に確認される</title>
-      <link>https://ledge.ai/articles/llm_prompting_brain_fmri_study</link>
-      <description><![CDATA[<p>大規模言語モデル（LLM）への指示が得意な人とそうでない人の間で、脳活動に違いがあることが初めて科学的に確認された。サウジアラビア・キングサウード大学の研究チームは2025年8月20日、fMRI（機能的磁気共鳴画像法）を用いたパイロット研究の成果をarXivに<a href="https://arxiv.org/abs/2508.14869">公開</a>した。</p>
-<h2>fMRIで「プロンプト力」の神経基盤を観測</h2>
-<p>研究では、22人の参加者を対象に「プロンプト力」を評価するための独自尺度「Prompt Engineering Literacy Scale（PELS）」を開発し、スコアに基づき「熟達者」と「中級者」に分類。その上で、安静時fMRIを用いて脳の機能的結合やネットワーク活動を比較した。</p>
-<h2>主な発見</h2>
-<p>解析の結果、熟達者の脳には以下の特徴が確認された。</p>
-<ul>
-<li><strong>低周波帯域の優位性</strong> ：視覚ネットワーク（VVN）、デフォルトモードネットワーク後部（pDMN）、左外側頭頂ネットワーク（LLPN）などで、低周波成分が高周波成分に比べ優位であり、安定的で効率的な神経活動が示唆された。</li>
-<li><strong>脳領域間の機能結合の強化</strong> ：熟達者では、左中側頭回（言語処理や意味記憶に関与）および左前頭極（計画・抽象的推論・メタ認知に関与）の機能結合が有意に強化されていた。</li>
-<li><strong>効率的な神経活動</strong> ：脳内の自発的活動を示す指標（fALFF）が全般的に低下しており、不要な揺らぎが少なく効率的な情報処理が行われている可能性が示された。</li>
-</ul>
-<p><strong>■ LLMプロンプト熟達者で強化された左中側頭回の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f/Increased_connectivity_in_the_left_middle_temporal_gyrus_1927809d6f.jpg" alt="Increased connectivity in the left middle temporal gyrus.jpg" /></p>
-<p><strong>■ LLMプロンプト熟達者で強化された左前頭極の機能結合（fMRI解析より）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Increased_connectivity_in_the_left_frontal_pole_966041e40f/Increased_connectivity_in_the_left_frontal_pole_966041e40f.jpg" alt="Increased connectivity in the left frontal pole.jpg" /></p>
-<h2>人とAIの協働に関する新しい視点</h2>
-<p>この研究は「The Prompting Brain: Neurocognitive Markers of Expertise in Guiding Large Language Models」と題し、arXivにプレプリントとして公開された。著者らは、LLMを効果的に活用する能力（いわゆる「プロンプト力」）が、単なるスキルではなく神経科学的な特徴を持つことを示した点に意義があると述べている。</p>
-<h2>今後の展望</h2>
-<p>論文の著者らは、研究がパイロット的な小規模実験であり、より大規模かつ多様な参加者を対象とした検証が必要だと指摘している。また、プロンプト熟達度と脳活動の関連が、教育や職業訓練にどのような影響を及ぼすかを探る余地があるとした。さらに、AIと人間の協働を支える神経科学的理解を深めることで、ユーザーの特性に合わせたAIインターフェース設計につながる可能性があると述べている。</p>
 ]]></description>
       <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
     </item>
