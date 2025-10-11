@@ -5,6 +5,37 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
+]]></description>
+      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
       <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
       <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
@@ -306,39 +337,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>論文によると、Earth-Agentのコードとデータは公開される予定とのこと。研究チームは、地球科学研究の高度化だけでなく、防災計画や気候変動対策、都市政策など幅広い応用に貢献できると見込んでいる。</p>
 ]]></description>
       <pubDate>Sun, 05 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIは「音を想像して考える」ことができるか──韓国の研究チームがAuditoryBench++と新手法AIR-CoTを発表</title>
-      <link>https://ledge.ai/articles/ai_auditory_imagination_aircot</link>
-      <description><![CDATA[<p>韓国の研究チームは2025年9月22日、言語モデル（LLM）が実際に音を聞かずとも聴覚的知識を想起できるかを検証する新しいベンチマーク「AuditoryBench++」を開発したと<a href="https://arxiv.org/abs/2509.17641">発表</a>した。さらに、音を頭の中で「想像」させる推論手法 AIR-CoT（Auditory Imagination Reasoning with Chain-of-Thought） を導入し、従来のモデルよりも高い精度で聴覚推論を実現したと報告している。</p>
-<h2>人間は音を「想像」できるがLLMは苦手</h2>
-<p>研究チームは、カント哲学の視点を引きながら「想像力は知覚に不可欠な要素である」と指摘する。例えば「大雨と稲妻の夜を描写した文章」を読むと、人は雨が太鼓を打つように降り注ぐ音や雷鳴を思い浮かべることができる。しかし、既存のLLMにはこのような聴覚的想像力が欠けているという。</p>
-<h2>AuditoryBench++の概要</h2>
-<p>この課題を検証するために開発された「AuditoryBench++」は、テキストのみを用いて音に関する推論力を評価するベンチマークで、以下の5種類のタスクを含む。</p>
-<ul>
-<li><strong>ピッチ比較</strong> （高い／低い音）</li>
-<li><strong>持続時間比較</strong> （長い／短い音）</li>
-<li><strong>大きさ比較</strong> （大きい／小さい音）</li>
-<li><strong>動物の鳴き声認識</strong> （例：「meow」＝猫）</li>
-<li><strong>文脈的聴覚推論</strong> （状況文から音を推定）</li>
-</ul>
-<p>合計で6,732問の問題が用意され、既存のベンチマークよりも大規模かつ精緻な評価が可能になっている。</p>
-<h2>新手法AIR-CoTの仕組み</h2>
-<p>研究チームはさらに、モデルに「音を想像させる」新しい推論手法 AIR-CoT を導入した。AIR-CoTでは、モデルが推論中に音の知識を必要とする場面に遭遇すると、特殊トークン [imagine] を生成する。するとシステムが想像プロセスを発動し、CLAPなどの音声モデルから得られた音の埋め込みを挿入、推論を継続する。これにより、まるで音を「頭の中で鳴らして」考えるかのような動作が可能になる。</p>
-<p><strong>AIR-CoTの仕組み：モデルは [imagine] トークンで音を必要とする箇所を検出し、CLAPによる音埋め込みを注入して推論を続ける</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_cd93e9a630/x1_cd93e9a630.jpg" alt="x1.jpg" /></p>
-<h2>実験結果</h2>
-<p>AuditoryBench++を用いた評価では、既存のLLM（LLaMA3、Qwen2、Phi-4など）やマルチモーダルLLMはいずれもランダムに近い精度しか出せなかった。一方、AIR-CoTは以下のような大幅な改善を示した。</p>
-<ul>
-<li><strong>ピッチ比較</strong> ：83.9%（従来比 +8.3pt）</li>
-<li><strong>動物の鳴き声認識</strong> ：71.6%（+9.3pt）</li>
-<li><strong>文脈的聴覚推論</strong> ：82.7%（+11.9pt）</li>
-</ul>
-<p>ただし「持続時間」や「大きさ」の推論は依然として難しく、改善の余地があるとされている。</p>
-<h2>今後の展望</h2>
-<p>研究チームは、AuditoryBench++とAIR-CoTを提案し、従来のモデルを上回る成果を確認したと結論づけている。同研究は、直接オーディオ入力がなくても聴覚情報を想像できる言語モデルの基盤を提供し、最終的にはより自然で人間らしいマルチモーダル推論を可能にするとしている。</p>
-]]></description>
-      <pubDate>Sat, 04 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
