@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
+      <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
+      <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
+<p>xAIは公式X（旧Twitter）で「Imagine v0.9は、映像品質・モーション・音声生成などにおいてv0.1から大幅に進化した」と投稿。リンク先の [grok.com/imagine] (https://grok.com/imagine) では、Grokプラットフォーム上で同モデルを試せるようになっている。</p>
+<h2>音声と映像を同時生成──“編集不要”の体験を掲げる</h2>
+<p>xAIは今回の発表で、「Imagine v0.9は音声と映像を同時に生成する“ネイティブ・オーディオ＋ビデオ生成”を実現した」と説明。</p>
+<p>\u003E“Imagine v0.9 pushes the boundaries of native audio + video generation, creating cinematic experiences straight out of the box—no editing required.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_dragon_6a3a28422f/x_AI_Imagine_v0_9_1_dragon_6a3a28422f.jpg" alt="xAI Imagine v0-9-1 dragon.jpg" /></p>
+<p>投稿では、音声と映像が同期したドラゴンのデモ映像を公開。ユーザーは、生成後の編集作業なしで“完成された動画”を得られるとしている。</p>
+<h2>モーション精度とカメラ効果を強化</h2>
+<p>Imagine v0.9では、被写体の滑らかな動きとリアリズムを高精度で再現するモーション制御を導入した。
+さらに「インテリジェント・フォーカスシフト」と呼ばれる自動焦点移動など、ストーリーテリングに適したダイナミックなカメラ効果も追加された。</p>
+<p>\u003E“And lets you add dynamic camera effects like intelligent focus shifts for better storytelling.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e.jpg" alt="xAI Imagine v0-9-1 camera effects.jpg" /></p>
+<h2>自然な対話・歌唱・リズムまで再現</h2>
+<p>Imagine v0.9では、音声表現の幅も拡大。自然な対話や歌唱を含む“声の演出”が可能になった。</p>
+<p>\u003E“v0.9 also brings videos to life with natural dialogue and strong audio-visual harmony.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090.jpg" alt="xAI Imagine v0-9-1 natural dialogue.jpg" /></p>
+<p>\u003E“It also brings expressive singing to life with clear vocals and synchronized emotion.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_singing_05b4553dab/x_AI_Imagine_v0_9_1_singing_05b4553dab.jpg" alt="xAI Imagine v0-9-1 singing.jpg" /></p>
+<p>xAIはさらに、音と動きを合わせたダンス生成の例として、キャラクター「Ani」の動画を紹介している。</p>
+<p>\u003E“Plus good rhythm: here's Ani with smooth dance moves.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25.jpg" alt="xAI Imagine v0-9-1 ani dancing.jpg" /></p>
+<p>xAIはユーザーからのフィードバックを積極的に求め、モデル改良に反映させる方針を示した。</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ソフトバンクグループ、スイスABBのロボティクス事業を約8187億円で買収──AIと自律ロボットの統合を加速</title>
       <link>https://ledge.ai/articles/softbank_acquires_abb_robotics_for_ai_integration</link>
       <description><![CDATA[<p>ソフトバンクグループ株式会社は2025年10月8日、スイスのABB Ltd.（以下ABB）から同社のロボティクス事業を買収する最終契約を締結したと<a href="https://group.softbank/news/press/20251008">発表</a>した。買収総額は53億7500万ドル（約8187億円）で、取引の完了は2026年半ばから後半を予定している。AIとロボティクスを融合させるグローバル戦略の一環として、産業用・協働ロボットの分野で新たな展開を図る。</p>
@@ -311,24 +339,6 @@ a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公�
 <p>研究チームは、AuditoryBench++とAIR-CoTを提案し、従来のモデルを上回る成果を確認したと結論づけている。同研究は、直接オーディオ入力がなくても聴覚情報を想像できる言語モデルの基盤を提供し、最終的にはより自然で人間らしいマルチモーダル推論を可能にするとしている。</p>
 ]]></description>
       <pubDate>Sat, 04 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Metaが、AI チャットでの対話内容をFacebook／Instagramの広告最適化に利用すると発表— 12月導入、ユーザーはオプトアウト不可</title>
-      <link>https://ledge.ai/articles/meta_ai_chat_ads_december</link>
-      <description><![CDATA[<p>Metaは2025年10月1日（現地時間）、利用者とAIチャットボットのやり取りを、FacebookやInstagram上で表示されるコンテンツや広告のパーソナライズに活用する方針を公式ブログで<a href="https://about.fb.com/news/2025/10/improving-your-recommendations-apps-ai-meta/">発表</a>した。通知は10月7日から開始され、正式導入は12月16日としている。</p>
-<h2>新方針の概要</h2>
-<p>Metaは、利用者がAIチャット機能を通じて行った対話内容を、これまでの「いいね」や「フォロー」と同様に、レコメンデーションの新たな信号として扱う。これにより、ユーザーの関心により沿った投稿や広告が表示される仕組みを強化する。</p>
-<p>新方針は世界的に展開されるが、当面は欧州連合（EU）、英国、韓国の利用者は対象外とされる。Metaによれば、健康や宗教、政治的立場、人種、性的指向など「センシティブな情報」は広告ターゲティングに利用しない方針だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_Notification_Carousel_01_1_767b81e54c/01_Notification_Carousel_01_1_767b81e54c.jpg" alt="01_Notification_Carousel-01-1.jpg" /></p>
-<h2>オプトアウト不可の仕組み</h2>
-<p>利用者が一度AIチャット機能を使い始めると、その対話データが広告最適化に活用されることを拒否することはできない。Metaは従来の「広告設定」や「なぜこの広告か」といった機能は引き続き提供するものの、AIチャット自体の利用データを除外する選択肢は設けていない。</p>
-<h2>広告・表示への影響</h2>
-<p>たとえば、ユーザーがAIと「ハイキング」の話題を交わすと、アウトドア用品の広告や関連投稿がフィードに増える可能性がある。Metaはこの仕組みにより、個人の関心と広告主の提供価値をより一致させることができるとしている。</p>
-<h2>プライバシーと今後の焦点</h2>
-<p>Metaの新方針は、無料で提供されるAIサービスから得られるデータを収益化モデルに組み込む動きの一環と位置づけられる。一方で、オプトアウトが認められない点は利用者のプライバシー権との関係で議論を呼んでいる。
-透明性や説明責任をどう確保するか、また各国の規制対応と整合性を取れるかが、今後の注目点となる。</p>
-]]></description>
-      <pubDate>Sat, 04 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
