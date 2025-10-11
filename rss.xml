@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
+      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
+      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
+<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
+<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
+<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
+<h2>精度を保ちながら70％のメモリ削減</h2>
+<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
+<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
+<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
+<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
+また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
+<h2>コンシューマーGPUでのLLM実行を視野に</h2>
+<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
+<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
+]]></description>
+      <pubDate>Sat, 11 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
       <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
       <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
@@ -311,32 +331,6 @@ NDLは今後も、デジタル化資料の活用促進を通じて、学術研�
 a16zは<a href="https://a16z.com/announcement/investing-in-periodic-labs/">公式ブログ</a>で「Periodic Labsの取り組みは科学の進め方を根本的に変える可能性がある」と述べ、支援の背景を明らかにしている。</p>
 ]]></description>
       <pubDate>Sun, 05 Oct 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>地球観測をAIエージェントで刷新──「Earth-Agent」と新ベンチマーク「Earth-Bench」登場</title>
-      <link>https://ledge.ai/articles/earth_agent_earth_bench_launch</link>
-      <description><![CDATA[<p>中国の研究チームは2025年9月27日、地球観測データを高度に解析できるAIフレームワーク「Earth-Agent」を<a href="https://arxiv.org/abs/2509.23141">発表</a>した。RGB画像や分光データを統合し、従来のAIが苦手としてきた複雑な推論や専門ツールの利用を可能にする。あわせて、248タスク・13,729枚の画像を収録した新ベンチマーク「Earth-Bench」も公開した。</p>
-<h2>Earth-Agentとは</h2>
-<p>Earth-Agentは、地球観測（Earth Observation, EO）に特化した初のエージェント型AIだ。RGB画像や分光観測データを活用し、地球物理パラメータの推定、気候解析、都市管理、災害監視などに応用できる。人間のように「考える→ツールを呼び出す→結果を更新」というステップを繰り返し、複雑な課題を解決する構造を持つ。</p>
-<p><strong>Earth-Agentの処理フレームワーク。思考・ツール利用・更新を繰り返す構造が特徴</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Earth_Agent_Framework_2a4b1e8bf6/Earth_Agent_Framework_2a4b1e8bf6.jpg" alt="Earth-Agent Framework.jpg" /></p>
-<h2>従来モデルの限界を突破</h2>
-<p>一般的なマルチモーダルLLM（GPT-4やGeminiなど）は、地球観測の現場で必要とされるマルチステップ推論に弱いとされてきた。Earth-Agentは専門ツールを動的に呼び出すことでこの課題を克服。例えば、干ばつ指数の解析、夜間光データの回帰分析、港湾面積の比較といった応用を実証した。</p>
-<p><strong>Earth-Agentによる解析例。干ばつ監視、夜間光解析、港湾面積の差分計算を実行している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Earth_Agent_solving_tasks_across_Spectrum_Products_and_RGB_data_155fe5c084/Earth_Agent_solving_tasks_across_Spectrum_Products_and_RGB_data_155fe5c084.jpg" alt="Earth-Agent solving tasks across Spectrum Products and RGB data.jpg" /></p>
-<h2>新ベンチマーク「Earth-Bench」</h2>
-<p>研究チームは同時に、新しい評価データセット「Earth-Bench」を構築した。248タスク、13,729画像を収録し、スペクトル解析・プロダクト解析・RGB解析の3カテゴリに分類。既存のEarthVQAやGeo-Benchに比べ、クロスモダリティや複雑な推論に対応しているのが特徴だ。</p>
-<p><strong>Earth-Benchの全体像。既存ベンチマークとの比較や各カテゴリの内訳</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dataset_Comparison_and_Overview_3fc2821c52/Dataset_Comparison_and_Overview_3fc2821c52.jpg" alt="Dataset Comparison and Overview.jpg" /></p>
-<h2>データ構築の仕組み</h2>
-<p>Earth-Benchは、Google Earth EngineやNASA Earth Dataから取得した衛星画像をもとに研究者が課題を設計している。論文では「2021年にシカゴ大都市圏で、地域の25%以上が300K（約27℃）を超えた日は何日あったか」といった問題が例示されている。これは都市ヒートアイランド現象や極端高温日数のモニタリングに直結する。</p>
-<p>こうした課題はPythonコードで解法プロセスを記録し、JSON形式でアノテーション化。データには、どの衛星画像を使い、どのツールをどの順序で呼び出し、最終的に何日と算出されたかまでが明示されている。</p>
-<p><strong>Earth-Benchの構築プロセス。衛星データから課題を生成し、ツール利用手順を記録</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Construction_and_Annotation_of_Earth_Bench_53ceef7fb0/Construction_and_Annotation_of_Earth_Bench_53ceef7fb0.jpg" alt="Construction and Annotation of Earth-Bench.jpg" /></p>
-<h2>今後の展望</h2>
-<p>論文によると、Earth-Agentのコードとデータは公開される予定とのこと。研究チームは、地球科学研究の高度化だけでなく、防災計画や気候変動対策、都市政策など幅広い応用に貢献できると見込んでいる。</p>
-]]></description>
-      <pubDate>Sun, 05 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
