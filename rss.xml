@@ -114,37 +114,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
       <pubDate>Sat, 11 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
-]]></description>
-      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
       <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
       <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
@@ -277,6 +246,97 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
       <pubDate>Wed, 08 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
+      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
+      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
+<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
+<h2>言葉だけで「形」を思い描くタスク</h2>
+<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
+参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
+<p>たとえば――</p>
+<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
+<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
+<h2>GPT-5とo3が人間を上回る精度</h2>
+<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
+一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
+<h2>「見ずに考える」命題的推論</h2>
+<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
+<h2>人間とAIの“アファンタジア”の比較へ</h2>
+<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
+今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
+<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
+      <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
+      <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
+<h2>OpenAI選定の背景</h2>
+<p>平将明デジタル大臣は翌3日の記者会見で、OpenAIを選定した理由について、最先端のAI研究と展開を進める企業として評価している旨を述べた。
+源内では従来から複数のモデルを比較・検証しつつ活用しており、OpenAIのモデル追加により選択肢を拡充し、行政の生産性向上につなげる考えだ。</p>
+<p>この協力方針は、2024年9月にOpenAIの最高戦略責任者（CSO）ジェイソン・クォン（Jason Kwon）氏がデジタル庁を訪問した際の会談で確認されたという。平大臣は「生成AIの利活用を推進するうえで重要な一歩」と述べた。</p>
+<h2>セキュリティ体制の整備</h2>
+<p>行政での生成AI活用にあたっては安全性と信頼性の確保が前提となる。会見の質疑で平大臣は、政府情報システムのためのセキュリティ評価制度「ISMAP（イスマップ）」に言及し、認証の有無により扱える情報の範囲が変わることを説明した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=hWf2w9br940">YouTube</a></p>
+<p>OpenAI側も同日、自社の公式<a href="https://openai.com/ja-JP/global-affairs/strategic-collaboration-with-japan-digital-agency/">ブログ</a>で日本政府との戦略的協力を発表した。公共分野での活用モデルの共同検討や、ISMAP認証の取得をはじめ安全・安心に資する取り組みを前向きに検討する方針を示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/digital_openai_7ada319b72/digital_openai_7ada319b72.jpg" alt="digital openai.jpg" /></p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/10/6 [MON]オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
+      <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
+      <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
+<p>同モデルはAlibaba Cloudの大規模言語モデル「Qwen2.5-32B」を基盤に、日本語理解・生成性能を独自の新手法で強化したもので、Open Japanese LLM Leaderboard（通称：LLM勉強会ランキング）で総合スコア第1位（0.7417）を記録したという。</p>
+<h2>日本語能力を高める新手法「Precise-tuning」とは</h2>
+<p>FLUXは今回のモデル開発にあたり、従来のファインチューニングとは異なる「Precise-tuning（プリサイズチューニング）」手法を導入した。日本語データセット全体でパラメーターを再学習するのではなく、日本語能力強化に必要なネットワーク回路のみを特定して再調整することで、効率的かつ精度の高い言語理解を実現したとしている。</p>
+<p><strong>FLUXが開発した「Precise-tuning」手法の概念図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1440_810_4_6b464affdc/1440_810_4_6b464affdc.jpg" alt="1440-810-4.jpg" /></p>
+<h2>ベンチマークで国内首位に</h2>
+<p>同モデルは、LLM勉強会ランキング<a href="https://ledge.ai/articles/open_japanese_llm_leaderboard">オープン日本語LLMリーダーボード</a>において総合スコア0.7417を記録し、他の日本語モデルを上回る評価を得たという。</p>
+<p>このランキングは、日本の有志研究者・エンジニアによるコミュニティ「<a href="https://llm-jp.nii.ac.jp/">LLM-jp</a>（通称：LLM勉強会）」が運営しており、複数の日本語LLMを自然言語推論・要約・コード生成などのタスクで比較評価するオープンベンチマークとして知られる。</p>
+<p>LLM-jpは、国立情報学研究所（NII）を事務局とする共同研究プロジェクトで、2024年4月にNII内に設立された大規模言語モデル研究開発センター（LLMC）と連携して、「日本語に強いオープンな大規模言語モデル」を開発・評価する活動を進めている。そのため、このランキングは国内の学術・産業両分野で日本語LLMの性能を客観的に測る基準として広く参照されている。</p>
+<p><strong>Open Japanese LLM Leaderboardでの評価結果。Flux Japanese LLMが第1位を記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/News_main_240718_3_e93e607d1f/News_main_240718_3_e93e607d1f.jpg" alt="News_main_240718-3.jpg" /></p>
+<p>モデルはHugging Face上で公開されており、<a href="https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0">モデルカード</a>には、自然言語処理・要約・コード生成タスクでの性能指標や学習設計の概要が掲載されている。</p>
+<h2>企業・業界別モデル展開へ</h2>
+<p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
+      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
+      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
+<h2>飽和する既存ベンチマーク</h2>
+<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
+<h2>日本の「なぞなぞ」はハイレベル？</h2>
+<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
+なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
+<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
+<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
+<h2>英語 “リドル（riddle）” との差異</h2>
+<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
+これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
+<h2>実験結果</h2>
+<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
+<ul>
+<li>人間の平均正答率は52.9％</li>
+<li>GPT-5のみが人間平均と同等のスコアを記録</li>
+<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
+</ul>
+<h2>AIが苦手な「最後のひと押し」</h2>
+<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
+また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
+<h2>今後の展望</h2>
+<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
       <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
       <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
@@ -292,6 +352,142 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
 <p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
 <h2>提供条件と展開予定</h2>
 <p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
+      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
+      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
+<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
+<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
+<h2>Sora 2の性能</h2>
+<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
+OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
+<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
+<h2>iOSアプリ「Sora」の提供</h2>
+<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
+提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
+<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
+<h2>安全性への配慮</h2>
+<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
+システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
+<h2>背景と思想</h2>
+<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
+<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/5 [SUN]Sora、著作権方針を修正──Altman氏「日本の創作物に敬意」発言も。権利保護と生成AIの共存を模索</title>
+      <link>https://ledge.ai/articles/sora_update_copyright_and_revenue_sharing_oct2025</link>
+      <description><![CDATA[<p>OpenAIは、動画生成AI「Sora（ソラ）」の著作権対応を見直す。</p>
+<p>同社CEOであるサム・アルトマン氏は2025年10月3日（現地時間）、自身の公式<a href="https://blog.samaltman.com/">ブログ</a>権利者がキャラクター生成をより細かく管理できる新機能と、収益分配制度の導入計画を発表した。背景には、Soraリリース後に浮上した知的財産権への懸念と、世界中で広がった批判がある。</p>
+<h2>Soraをめぐる著作権論争</h2>
+<p>OpenAIは2025年9月末、動画生成AIの最新版「Sora 2」と、米国・カナダ向けのソーシャル型iOSアプリ「Sora」を公開した。
+テキストから高精細な映像を生成できる能力が話題を呼ぶ一方で、リリース直後には任天堂の「マリオ」や「ピカチュウ」など既存キャラクターに酷似した動画がSNS上で多数共有され、著作権保護の観点から懸念が相次いだ。一部の海外メディアは「任天堂の訴訟を招く可能性がある」と報じ、AIによる無断再現がどこまで許容されるのかが議論となった。</p>
+<p>さらに、リリース直前に報じられた「権利者がオプトアウト（除外申請）しない限り自作品が扱われる」という運用観測も反発を招き、“同意なき取り込み”への不信感が増幅した。</p>
+<p>この一連の騒動を受け、OpenAIはSoraの利用方針を再検討。今回の発表で、権利者による生成コントロール機能の導入と収益分配制度の構築を正式に打ち出した。</p>
+<h2>権利者が生成内容を制御可能に</h2>
+<p>アルトマン氏は、「Sora」の今後の方針として、権利者がキャラクター生成の可否や利用範囲を細かく指定できる新機能を追加する考えを示した。
+これは、従来の「opt-in for likeness（本人類似モデル許諾）」を拡張したもので、より柔軟で公平な管理を可能にするという。</p>
+<p>同氏は次のように述べている。</p>
+<p>\u003E“We will give rightsholders more granular control over generation of characters... but want the ability to specify how their characters can be used (including not at all).”
+（キャラクター生成について、権利者がより細かく制御できるようにし、使用方法を自ら指定できるようにします。まったく使用を許可しない選択も可能です。）</p>
+<p>同氏によると、権利者の多くはSoraを通じた“インタラクティブなファンフィクション（参加型二次創作）”の可能性に期待を寄せつつも、利用のあり方を自ら決めたいと考えているという。OpenAIは、そうした多様な方針を尊重しつつ、全ての権利者に公平な標準を適用する姿勢を示した。</p>
+<h2>収益分配モデルの試験導入へ</h2>
+<p>OpenAIは、ユーザーによる動画生成量が予想を上回っていることを踏まえ、生成に使用されたキャラクターの権利者に収益を還元する制度を導入する計画も明らかにした。
+アルトマン氏は「試行錯誤を重ねながら早期に開始する」とし、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
+<p>\u003E “We are going to try sharing some of this revenue with rightsholders who want their characters generated by users.”
+（ユーザーによって生成されるキャラクターを許可した権利者に対し、その一部の収益を共有することを試みます。）</p>
+<h2>日本の創作文化に敬意を表明</h2>
+<p>アルトマン氏は投稿の中で、「日本の創作物は非常に素晴らしい」と述べ、「ユーザーと日本のコンテンツとの深い結びつきに感銘を受けている」と言及した。
+Soraをめぐる議論の中心に日本のコンテンツ産業があったことを踏まえ、文化的背景への理解を示した形だ。
+今回の発表は、単なる技術的修正にとどまらず、文化と生成AIの関係を再定義する試みともいえる。</p>
+<h2>GPT-5も同日にアップデート、安全性を強化</h2>
+<p>同日、OpenAIは<a href="https://help.openai.com/en/articles/9624314-model-release-notes">Model Release Notes</a>を更新し、GPT-5 Instantモデルにメンタルヘルス対応の新機能を追加した。感情的または心理的なストレスをより正確に検知し、必要に応じて現実世界の支援リソースへ誘導できるようになったという。</p>
+<p>こうした改良は、アルトマン氏が強調する「高速な改善サイクル」の一環として、Soraを含む同社製品全体に順次展開される見通しだ。</p>
+<h2>今後の展望</h2>
+<p>アルトマン氏は、「ChatGPT初期のように高頻度の改善を続けていく」と述べ、Soraを中心にプロダクト全体の改善を加速させる考えを示した。生成AIと著作権をめぐる議論が国際的に広がるなか、今回の発表は創作支援と権利保護の両立を図る “新しい共存モデル” として注目される。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>エンタメ＆アート2025/10/6 [MON]世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
+      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
+      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
+<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
+<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
+<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
+<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
+<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
+さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
+<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
+<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
+<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
+（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
+<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
+<h2>著名俳優からの反発</h2>
+<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
+<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
+「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
+<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
+<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
+<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
+「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
+<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
+<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
+<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
+「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
+<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
+<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
+「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
+<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
+<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
+<h2>今後の焦点</h2>
+<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
+<ul>
+<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
+<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
+<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
+</ul>
+<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
@@ -382,226 +578,11 @@ NDLは今後も、デジタル化資料の活用促進を通じて、学術研�
       <pubDate>Tue, 07 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
-      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
-      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
-<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
-<h2>言葉だけで「形」を思い描くタスク</h2>
-<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
-参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
-<p>たとえば――</p>
-<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
-<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
-<h2>GPT-5とo3が人間を上回る精度</h2>
-<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
-一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
-<h2>「見ずに考える」命題的推論</h2>
-<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
-<h2>人間とAIの“アファンタジア”の比較へ</h2>
-<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
-今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
-<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2025/10/6 [MON]デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
-      <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
-      <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
-<h2>OpenAI選定の背景</h2>
-<p>平将明デジタル大臣は翌3日の記者会見で、OpenAIを選定した理由について、最先端のAI研究と展開を進める企業として評価している旨を述べた。
-源内では従来から複数のモデルを比較・検証しつつ活用しており、OpenAIのモデル追加により選択肢を拡充し、行政の生産性向上につなげる考えだ。</p>
-<p>この協力方針は、2024年9月にOpenAIの最高戦略責任者（CSO）ジェイソン・クォン（Jason Kwon）氏がデジタル庁を訪問した際の会談で確認されたという。平大臣は「生成AIの利活用を推進するうえで重要な一歩」と述べた。</p>
-<h2>セキュリティ体制の整備</h2>
-<p>行政での生成AI活用にあたっては安全性と信頼性の確保が前提となる。会見の質疑で平大臣は、政府情報システムのためのセキュリティ評価制度「ISMAP（イスマップ）」に言及し、認証の有無により扱える情報の範囲が変わることを説明した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hWf2w9br940">YouTube</a></p>
-<p>OpenAI側も同日、自社の公式<a href="https://openai.com/ja-JP/global-affairs/strategic-collaboration-with-japan-digital-agency/">ブログ</a>で日本政府との戦略的協力を発表した。公共分野での活用モデルの共同検討や、ISMAP認証の取得をはじめ安全・安心に資する取り組みを前向きに検討する方針を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/digital_openai_7ada319b72/digital_openai_7ada319b72.jpg" alt="digital openai.jpg" /></p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/10/6 [MON]オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
-      <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
-      <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
-<p>同モデルはAlibaba Cloudの大規模言語モデル「Qwen2.5-32B」を基盤に、日本語理解・生成性能を独自の新手法で強化したもので、Open Japanese LLM Leaderboard（通称：LLM勉強会ランキング）で総合スコア第1位（0.7417）を記録したという。</p>
-<h2>日本語能力を高める新手法「Precise-tuning」とは</h2>
-<p>FLUXは今回のモデル開発にあたり、従来のファインチューニングとは異なる「Precise-tuning（プリサイズチューニング）」手法を導入した。日本語データセット全体でパラメーターを再学習するのではなく、日本語能力強化に必要なネットワーク回路のみを特定して再調整することで、効率的かつ精度の高い言語理解を実現したとしている。</p>
-<p><strong>FLUXが開発した「Precise-tuning」手法の概念図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1440_810_4_6b464affdc/1440_810_4_6b464affdc.jpg" alt="1440-810-4.jpg" /></p>
-<h2>ベンチマークで国内首位に</h2>
-<p>同モデルは、LLM勉強会ランキング<a href="https://ledge.ai/articles/open_japanese_llm_leaderboard">オープン日本語LLMリーダーボード</a>において総合スコア0.7417を記録し、他の日本語モデルを上回る評価を得たという。</p>
-<p>このランキングは、日本の有志研究者・エンジニアによるコミュニティ「<a href="https://llm-jp.nii.ac.jp/">LLM-jp</a>（通称：LLM勉強会）」が運営しており、複数の日本語LLMを自然言語推論・要約・コード生成などのタスクで比較評価するオープンベンチマークとして知られる。</p>
-<p>LLM-jpは、国立情報学研究所（NII）を事務局とする共同研究プロジェクトで、2024年4月にNII内に設立された大規模言語モデル研究開発センター（LLMC）と連携して、「日本語に強いオープンな大規模言語モデル」を開発・評価する活動を進めている。そのため、このランキングは国内の学術・産業両分野で日本語LLMの性能を客観的に測る基準として広く参照されている。</p>
-<p><strong>Open Japanese LLM Leaderboardでの評価結果。Flux Japanese LLMが第1位を記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/News_main_240718_3_e93e607d1f/News_main_240718_3_e93e607d1f.jpg" alt="News_main_240718-3.jpg" /></p>
-<p>モデルはHugging Face上で公開されており、<a href="https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0">モデルカード</a>には、自然言語処理・要約・コード生成タスクでの性能指標や学習設計の概要が掲載されている。</p>
-<h2>企業・業界別モデル展開へ</h2>
-<p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本の「なぞなぞ」でAIの思考力をテスト──人間並みの正答率はGPT-5のみ。JAISTの研究チーム</title>
-      <link>https://ledge.ai/articles/jaist_nazonazo_gpt5_benchmark</link>
-      <description><![CDATA[<p>2025年9月18日、北陸先端科学技術大学院大学（JAIST）の研究チームは、日本の子ども向け「なぞなぞ（Nazonazo）」を活用し、大規模言語モデル（LLM）の洞察的推論能力を評価する新ベンチマークを開発したことを<a href="https://arxiv.org/abs/2509.14704">発表</a>した。実験の結果、GPT-5のみが人間に匹敵する正答率を示し、他のモデルは大きく下回った。</p>
-<h2>飽和する既存ベンチマーク</h2>
-<p>AIの能力を測る代表的なベンチマーク（MMLU、GSM8K、HumanEvalなど）は、最先端モデルが80〜90％の高スコアを記録するようになり、モデル間の性能差を明確に測りにくくなっている。OpenAI共同創業者のアンドレイ・カルパシー氏も「評価危機（evaluation crisis）」を指摘していた。</p>
-<h2>日本の「なぞなぞ」はハイレベル？</h2>
-<p>研究チームは、この「評価危機」を打開する手段として、日本の伝統的な言葉遊びである「なぞなぞ」を採用した。
-なぞなぞは短文形式で低コストに新規作成が可能なうえ、専門知識を必要とせず、純粋な洞察力を試せる。また日本語特有の「漢字の分解」「語呂合わせ」「外来語表記」などにより、多様で難度の高い問題を作れる。</p>
-<p>例として有名な「パンはパンでも食べられないパンは、なーんだ？」（答え：フライパン）が紹介されているほか、論文では「侍から“人偏”を取ると寺になる」という仕掛けのなぞなぞ（添付図参照）が示されている。</p>
-<p><strong>漢字分解を利用したなぞなぞの例。「侍」から「人偏」を取ると「寺」となり、答えは「寺」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Nazo_Nazo_Benchmar_7a284b9f17/Nazo_Nazo_Benchmar_7a284b9f17.jpg" alt="NazoNazo Benchmar.jpg" /></p>
-<h2>英語 “リドル（riddle）” との差異</h2>
-<p>英語圏では「RiddleSense」「BRAINTEASER」などのリドル系ベンチマークが存在するが、既に学習データに取り込まれており、GPT-4が98％超の精度で人間を上回るケースもある。
-これに対し、日本語なぞなぞは人間でも平均正答率が52.9％にとどまり、AIモデルはさらに苦戦した。論文は「英語リドルはAIにとって容易になりすぎたが、日本語なぞなぞは汚染リスクが小さく、モデルの純粋な推論力を測るのに適している」と位置づけている。</p>
-<h2>実験結果</h2>
-<p>研究チームは38種類のLLM（GPT-4o、Claude、Gemini、Grok、Llama、DeepSeekなど）と成人126人を比較。</p>
-<ul>
-<li>人間の平均正答率は52.9％</li>
-<li>GPT-5のみが人間平均と同等のスコアを記録</li>
-<li>他のモデルは20〜30％台にとどまり、人間の半分程度にすぎなかった</li>
-</ul>
-<h2>AIが苦手な「最後のひと押し」</h2>
-<p>多くのモデルは正解候補を途中で生成するものの、最終的に選べず「検証失敗」に陥るケースが頻発した。人間が持つ「Aha!（ひらめき）」や「これは正しい」という確信度がAIには弱く、洞察課題に特有の“最後のひと押し”が欠けていると指摘される。
-また、モデルのパラメータ数の大きさと正答率には相関がなく、「推論型モデル」であることが成績の向上につながっていた。</p>
-<h2>今後の展望</h2>
-<p>論文は「GPT-5が例外的に人間並みの成績を示したが、他の最先端モデルは依然として人間に及ばない」と結論づけている。研究チームは、さらに難易度を高めた「Nazonazoベンチマーク2」の準備を進めており、今後はAIの“メタ認知的感覚”──正しいと感じる力──の強化が研究の焦点になる見通しだ。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>落合陽一氏プロデュース「null²」移設クラファン──大阪・関西万博発、開始わずか23時間で1億円達成・次は2億円へ</title>
-      <link>https://ledge.ai/articles/ochiai_null2_expo2025_crowdfunding_2oku</link>
-      <description><![CDATA[<p>メディアアーティストの落合陽一氏がプロデュースした大阪・関西万博のシグネチャーパビリオン「null²（ヌルヌル）」の移設に向けたクラウドファンディングが、開始から23時間で第一目標の1億円を<a href="https://readyfor.jp/projects/null2_2025">達成</a>した。READYFORのプロジェクトページによれば、2025年10月1日の公開から急速に支援が集まり、翌2日朝には1億円を突破。ネクストゴールとして2億円が新たに設定されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/null2_project_0c7453a2c9/null2_project_0c7453a2c9.jpg" alt="null2 project.jpg" /></p>
-<h2>null²とは</h2>
-<p>「null²」は、大阪・関西万博（2025年4月13日～10月13日、夢洲）におけるシグネチャーパビリオンのひとつで、テーマ「いのちを磨く」を体現する施設。伸縮する鏡素材「ミラー膜」とロボットアームを組み合わせ、外観そのものが動き続ける「動く建築」として注目を集めた。内部では鏡面状のLEDに囲まれた没入型シアター体験が提供され、開幕以降は抽選倍率数％という人気ぶりだった。</p>
-<h2>クラウドファンディングの目的</h2>
-<p>今回のクラウドファンディングは、万博終了後も「null²」を別の場所に移設・再構築するための資金を募るもの。主催は一般社団法人「計算機と自然」（代表：落合陽一氏）。資金は、新天地での企画設計や管理費用、活動資金、そして展示を記録映像として残す制作費などに充てられる予定だ。方式は「All in」で、目標未達でも集まった金額に応じてプロジェクトは実行される。支援募集は12月19日（金）23時まで行われる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=XOKS4w0Ige8">YouTube</a></p>
-<h2>達成状況と返礼品</h2>
-<p>プロジェクトは開始から23時間で第一目標を突破。READYFOR上では「null²と（また）会いたい」という支援者の声が多く寄せられており、7,000人を超える支援者が参加している。
-返礼品には、外装に使われた鏡素材を切り出した「null²のカケラ」、限定パーカー、落合氏のプリント作品や模型など、万博の思い出を継承する品が用意されているという。</p>
-<h2>今後の展望</h2>
-<p>具体的な移設先や公開時期は未定だが、主催者は「全国から候補地としての声が届いている」としており、引越し計画の進展は今後、READYFORの活動報告や落合氏の公式SNSを通じて発信される見通しだ。</p>
-<p>万博閉幕後も多くの人が体験できる形で「null²」を残すべく、クラウドファンディングは続いている。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
       <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
       <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
-      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
-      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
-<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
-<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
-<h2>Sora 2の性能</h2>
-<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
-OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
-<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
-<h2>iOSアプリ「Sora」の提供</h2>
-<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
-提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
-<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
-<h2>安全性への配慮</h2>
-<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
-システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
-<h2>背景と思想</h2>
-<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
-<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/5 [SUN]Sora、著作権方針を修正──Altman氏「日本の創作物に敬意」発言も。権利保護と生成AIの共存を模索</title>
-      <link>https://ledge.ai/articles/sora_update_copyright_and_revenue_sharing_oct2025</link>
-      <description><![CDATA[<p>OpenAIは、動画生成AI「Sora（ソラ）」の著作権対応を見直す。</p>
-<p>同社CEOであるサム・アルトマン氏は2025年10月3日（現地時間）、自身の公式<a href="https://blog.samaltman.com/">ブログ</a>権利者がキャラクター生成をより細かく管理できる新機能と、収益分配制度の導入計画を発表した。背景には、Soraリリース後に浮上した知的財産権への懸念と、世界中で広がった批判がある。</p>
-<h2>Soraをめぐる著作権論争</h2>
-<p>OpenAIは2025年9月末、動画生成AIの最新版「Sora 2」と、米国・カナダ向けのソーシャル型iOSアプリ「Sora」を公開した。
-テキストから高精細な映像を生成できる能力が話題を呼ぶ一方で、リリース直後には任天堂の「マリオ」や「ピカチュウ」など既存キャラクターに酷似した動画がSNS上で多数共有され、著作権保護の観点から懸念が相次いだ。一部の海外メディアは「任天堂の訴訟を招く可能性がある」と報じ、AIによる無断再現がどこまで許容されるのかが議論となった。</p>
-<p>さらに、リリース直前に報じられた「権利者がオプトアウト（除外申請）しない限り自作品が扱われる」という運用観測も反発を招き、“同意なき取り込み”への不信感が増幅した。</p>
-<p>この一連の騒動を受け、OpenAIはSoraの利用方針を再検討。今回の発表で、権利者による生成コントロール機能の導入と収益分配制度の構築を正式に打ち出した。</p>
-<h2>権利者が生成内容を制御可能に</h2>
-<p>アルトマン氏は、「Sora」の今後の方針として、権利者がキャラクター生成の可否や利用範囲を細かく指定できる新機能を追加する考えを示した。
-これは、従来の「opt-in for likeness（本人類似モデル許諾）」を拡張したもので、より柔軟で公平な管理を可能にするという。</p>
-<p>同氏は次のように述べている。</p>
-<p>\u003E“We will give rightsholders more granular control over generation of characters... but want the ability to specify how their characters can be used (including not at all).”
-（キャラクター生成について、権利者がより細かく制御できるようにし、使用方法を自ら指定できるようにします。まったく使用を許可しない選択も可能です。）</p>
-<p>同氏によると、権利者の多くはSoraを通じた“インタラクティブなファンフィクション（参加型二次創作）”の可能性に期待を寄せつつも、利用のあり方を自ら決めたいと考えているという。OpenAIは、そうした多様な方針を尊重しつつ、全ての権利者に公平な標準を適用する姿勢を示した。</p>
-<h2>収益分配モデルの試験導入へ</h2>
-<p>OpenAIは、ユーザーによる動画生成量が予想を上回っていることを踏まえ、生成に使用されたキャラクターの権利者に収益を還元する制度を導入する計画も明らかにした。
-アルトマン氏は「試行錯誤を重ねながら早期に開始する」とし、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>\u003E “We are going to try sharing some of this revenue with rightsholders who want their characters generated by users.”
-（ユーザーによって生成されるキャラクターを許可した権利者に対し、その一部の収益を共有することを試みます。）</p>
-<h2>日本の創作文化に敬意を表明</h2>
-<p>アルトマン氏は投稿の中で、「日本の創作物は非常に素晴らしい」と述べ、「ユーザーと日本のコンテンツとの深い結びつきに感銘を受けている」と言及した。
-Soraをめぐる議論の中心に日本のコンテンツ産業があったことを踏まえ、文化的背景への理解を示した形だ。
-今回の発表は、単なる技術的修正にとどまらず、文化と生成AIの関係を再定義する試みともいえる。</p>
-<h2>GPT-5も同日にアップデート、安全性を強化</h2>
-<p>同日、OpenAIは<a href="https://help.openai.com/en/articles/9624314-model-release-notes">Model Release Notes</a>を更新し、GPT-5 Instantモデルにメンタルヘルス対応の新機能を追加した。感情的または心理的なストレスをより正確に検知し、必要に応じて現実世界の支援リソースへ誘導できるようになったという。</p>
-<p>こうした改良は、アルトマン氏が強調する「高速な改善サイクル」の一環として、Soraを含む同社製品全体に順次展開される見通しだ。</p>
-<h2>今後の展望</h2>
-<p>アルトマン氏は、「ChatGPT初期のように高頻度の改善を続けていく」と述べ、Soraを中心にプロダクト全体の改善を加速させる考えを示した。生成AIと著作権をめぐる議論が国際的に広がるなか、今回の発表は創作支援と権利保護の両立を図る “新しい共存モデル” として注目される。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>エンタメ＆アート2025/10/6 [MON]世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
-      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
-      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
-<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
-<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
-<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
-<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
-<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
-さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
-<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
-<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
-<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
-（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
-<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
-<h2>著名俳優からの反発</h2>
-<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
-<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
-「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
-<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
-<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
-<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
-「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
-<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
-<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
-<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
-「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
-<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
-<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
-「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
-<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
-<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
-<h2>今後の焦点</h2>
-<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
-<ul>
-<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
-<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
-<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
-</ul>
-<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
-]]></description>
-      <pubDate>Thu, 02 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 05 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
