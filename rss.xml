@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
+      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
+      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
+<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
+<h2>Gemini API に“computer_use”ツールを追加</h2>
+<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
+<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
+<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
+<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
+<h2>プレビュー提供と利用方法</h2>
+<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
+<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
+<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
+<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
+Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
+さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
+<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
+<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
+<h2>動作デモ：AI がブラウザを自律操作</h2>
+<p>公式ブログでは、実際の操作デモ動画も公開されている。
+動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
+<h2>AI による“手の届く自動化”へ</h2>
+<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
+Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
+]]></description>
+      <pubDate>Sun, 12 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
       <link>https://ledge.ai/articles/openai_jony_ive_ai_device_philosophy</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏と、Apple製品のデザインを手がけたジョニー・アイブ氏（LoveFrom代表）は、2025年10月に米サンフランシスコで開催された開発者会議「DevDay 2025」で<a href="https://www.youtube.com/watch?v=7cKbPLzNYws">対談</a>を行い、人間中心のAIデバイス構想を明らかにした。両氏は、テクノロジーがもたらす「過剰な情報と不安」を乗り越え、AIを通じて「穏やかで幸福な体験をもたらす新しいデバイス」を目指すと語った。</p>
