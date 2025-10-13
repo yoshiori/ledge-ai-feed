@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>富士通とジーンクエスト、因果AIで遺伝子と生活習慣の関係を解析──「Fujitsu Kozuchi」活用で新たな知見</title>
+      <link>https://ledge.ai/articles/fujitsu_genequest_causal_ai</link>
+      <description><![CDATA[<p>富士通株式会社と株式会社ジーンクエスト（DeNAグループ）は2025年10月9日、富士通のAI技術群「Fujitsu Kozuchi（コヅチ）」の中核技術である因果AIを活用し、遺伝子データとライフスタイルデータの関係性を解析した結果、新たな知見を得たと<a href="https://global.fujitsu/ja-jp/pr/news/2025/10/09-01">発表</a>した。</p>
+<p>実証では、ジーンクエストが保有する約1万名分の遺伝子情報と生活習慣アンケートデータを対象に、因果AIが両者の間に潜む因果構造を探索。特定の遺伝子多型が睡眠時間や食習慣、BMIなどの生活習慣に与える影響を可視化した。これにより、従来の統計的相関分析では把握しにくかった複雑な要因連鎖を明らかにしたとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_7b9b5b5a0a/sub1_7b9b5b5a0a.png" alt="sub1.png" /></p>
+<h2>因果AIで「相関」から「原因と結果」へ</h2>
+<p>富士通の因果AIは、膨大な多変量データの中から要因と結果の方向性を自動的に推定する技術。同社が開発した高速因果構造探索アルゴリズムにより、従来の分析手法よりも大規模・高精度な因果モデルを生成できる。富士通はこれを、産業・医療・科学分野を横断するAI基盤「Fujitsu Kozuchi」に搭載し、研究開発支援に活用している。</p>
+<h2>生活習慣改善や疾病予防へ応用</h2>
+<p>両社は、今回得られた知見を今後のヘルスケアサービスに応用する方針を示している。ジーンクエストは個人向け遺伝子解析サービスの高度化を進め、生活習慣病予防やパーソナライズド医療への展開を目指す。富士通は医療機関や製薬企業との連携を通じ、因果AIを「科学的エビデンス創出を支援する技術」として普及させる考えだ。</p>
+<p>富士通は今回の取り組みを「AIによって科学的知見を創出する“サイエンスDX”の推進」と位置づけており、生命科学領域での新たなAI応用事例として注目される。</p>
+]]></description>
+      <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
       <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
       <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
