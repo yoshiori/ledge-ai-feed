@@ -56,38 +56,6 @@
       <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
-      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
-      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
-<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
-<h2>Gemini API に“computer_use”ツールを追加</h2>
-<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
-<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
-<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
-<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
-<h2>プレビュー提供と利用方法</h2>
-<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
-<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
-<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
-<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
-Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
-さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
-<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
-<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
-<h2>動作デモ：AI がブラウザを自律操作</h2>
-<p>公式ブログでは、実際の操作デモ動画も公開されている。
-動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
-<h2>AI による“手の届く自動化”へ</h2>
-<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
-Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
-]]></description>
-      <pubDate>Sun, 12 Oct 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
       <link>https://ledge.ai/articles/openai_jony_ive_ai_device_philosophy</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏と、Apple製品のデザインを手がけたジョニー・アイブ氏（LoveFrom代表）は、2025年10月に米サンフランシスコで開催された開発者会議「DevDay 2025」で<a href="https://www.youtube.com/watch?v=7cKbPLzNYws">対談</a>を行い、人間中心のAIデバイス構想を明らかにした。両氏は、テクノロジーがもたらす「過剰な情報と不安」を乗り越え、AIを通じて「穏やかで幸福な体験をもたらす新しいデバイス」を目指すと語った。</p>
@@ -145,24 +113,35 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
       <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
-      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
-      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
-<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
-<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
-<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
-<h2>精度を保ちながら70％のメモリ削減</h2>
-<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
-<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
-<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
-<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
-また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
-<h2>コンシューマーGPUでのLLM実行を視野に</h2>
-<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
-<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
 ]]></description>
-      <pubDate>Sat, 11 Oct 2025 04:50:00 GMT</pubDate>
+      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
@@ -212,6 +191,13 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 取引後も両社は協力関係を維持し、ロボティクス分野での技術開発や市場展開を継続していく方針を示している。</p>
 ]]></description>
       <pubDate>Fri, 10 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
+      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
+      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
@@ -321,22 +307,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>デジタル庁、OpenAIと連携　政府共用AI「源内」に同社モデルを導入し行政活用を検討</title>
-      <link>https://ledge.ai/articles/digital_agency_openai_genai_collaboration</link>
-      <description><![CDATA[<p>デジタル庁は2025年10月2日、米OpenAIと生成AI（人工知能）の活用で連携すると<a href="https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1">発表</a>した。政府職員が安全に生成AIを利用できる共用環境「源内（げんない）」に、OpenAIの大規模言語モデル（LLM）を新たにラインアップとして追加し、職員が業務で直接利用できるようにする方針だ。</p>
-<h2>OpenAI選定の背景</h2>
-<p>平将明デジタル大臣は翌3日の記者会見で、OpenAIを選定した理由について、最先端のAI研究と展開を進める企業として評価している旨を述べた。
-源内では従来から複数のモデルを比較・検証しつつ活用しており、OpenAIのモデル追加により選択肢を拡充し、行政の生産性向上につなげる考えだ。</p>
-<p>この協力方針は、2024年9月にOpenAIの最高戦略責任者（CSO）ジェイソン・クォン（Jason Kwon）氏がデジタル庁を訪問した際の会談で確認されたという。平大臣は「生成AIの利活用を推進するうえで重要な一歩」と述べた。</p>
-<h2>セキュリティ体制の整備</h2>
-<p>行政での生成AI活用にあたっては安全性と信頼性の確保が前提となる。会見の質疑で平大臣は、政府情報システムのためのセキュリティ評価制度「ISMAP（イスマップ）」に言及し、認証の有無により扱える情報の範囲が変わることを説明した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hWf2w9br940">YouTube</a></p>
-<p>OpenAI側も同日、自社の公式<a href="https://openai.com/ja-JP/global-affairs/strategic-collaboration-with-japan-digital-agency/">ブログ</a>で日本政府との戦略的協力を発表した。公共分野での活用モデルの共同検討や、ISMAP認証の取得をはじめ安全・安心に資する取り組みを前向きに検討する方針を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/digital_openai_7ada319b72/digital_openai_7ada319b72.jpg" alt="digital openai.jpg" /></p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
       <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
       <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
@@ -354,6 +324,58 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>モデルはHugging Face上で公開されており、<a href="https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0">モデルカード</a>には、自然言語処理・要約・コード生成タスクでの性能指標や学習設計の概要が掲載されている。</p>
 <h2>企業・業界別モデル展開へ</h2>
 <p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
+      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
+      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
+<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
+<h2>Gemini API に“computer_use”ツールを追加</h2>
+<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
+<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
+<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
+<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
+<h2>プレビュー提供と利用方法</h2>
+<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
+<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
+<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
+<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
+Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
+さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
+<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
+<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
+<h2>動作デモ：AI がブラウザを自律操作</h2>
+<p>公式ブログでは、実際の操作デモ動画も公開されている。
+動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
+<h2>AI による“手の届く自動化”へ</h2>
+<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
+Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
+      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
+      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
+<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
+<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
+<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
+<h2>精度を保ちながら70％のメモリ削減</h2>
+<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
+<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
+<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
+<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
+また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
+<h2>コンシューマーGPUでのLLM実行を視野に</h2>
+<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
+<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
@@ -403,37 +425,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
 <h2>提供条件と展開予定</h2>
 <p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
@@ -599,13 +590,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 NDLは今後も、デジタル化資料の活用促進を通じて、学術研究や社会的知の発展に寄与していく方針を示している。</p>
 ]]></description>
       <pubDate>Tue, 07 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
-      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
-      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 05 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
