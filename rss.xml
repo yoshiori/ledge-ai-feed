@@ -5,6 +5,60 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
+      <link>https://ledge.ai/articles/google_gemini_enterprise_ai_platform_launch</link>
+      <description><![CDATA[<p>Googleは米国時間2025年10月9日、企業向けの新しいAIプラットフォーム「Gemini Enterprise（ジェミニ・エンタープライズ）」を<a href="https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/">発表</a>した。
+職場におけるAI活用の“入口（front door）”として位置づけられ、従業員全員が直感的なチャットインターフェースを通じて、GoogleのAI機能を安全かつ統合的に利用できる環境を提供する。</p>
+<h2>部門単位のAIから、全社横断のAIへ</h2>
+<p>Googleは発表の冒頭で、「AIは働き方、ビジネス運営、顧客体験のすべてを変革する歴史的機会をもたらす」としながらも、従来のAI活用が部門ごとに孤立していた課題を指摘した。Gemini Enterpriseは、この分断を解消し、ワークフローと従業員をつなぐ包括的なAIプラットフォームとして開発された。</p>
+<p>Google Cloudによると、同社の強みは「信頼性の高いAIインフラ」「Google DeepMindによる先駆的研究」「多用途なGeminiモデルファミリー」の3層構造にある。このフルスタックAI戦略が、企業におけるAI変革を支える中核基盤になるという。</p>
+<h2>6つの中核コンポーネントを統合</h2>
+<p>Gemini Enterpriseは、以下の6つの要素を単一のインターフェースで統合する：</p>
+<ul>
+<li><strong>最新のGeminiモデル</strong> ：あらゆる業務タスクの“頭脳”として、高度な推論と生成を実現。</li>
+<li><strong>ノーコード・ワークベンチ</strong> ：非エンジニアでもデータ分析やエージェント連携が可能。</li>
+<li><strong>事前構築エージェント</strong> ：リサーチやデータインサイトなどの専門業務に即対応。</li>
+<li><strong>企業データとの安全な接続</strong> ：Google WorkspaceやMicrosoft 365、Salesforce、SAPなどにシームレス接続。</li>
+<li><strong>統合ガバナンス</strong> ：すべてのエージェントを一元的に可視化・保護・監査。</li>
+<li><strong>オープンなエコシステム</strong> ：10万社を超えるパートナーによる拡張性を確保。</li>
+</ul>
+<p>Googleはこれにより、「単一タスクの効率化を超え、ワークフロー全体を自動化する」としている。</p>
+<h2>業務アプリとの統合と新機能</h2>
+<p>Gemini EnterpriseはGoogle Workspaceとも密接に連携する。
+テキスト・画像・動画・音声を理解・生成できる初のマルチモーダルエージェントが導入され、文書作成や会議運営などの作業を支援。
+「Google Vids」によるAI生成動画の作成機能や、「Google Meet」でのリアルタイム音声翻訳機能も提供される。
+後者は発話者のトーンや表現を反映し、自然な多言語コミュニケーションを可能にするという。</p>
+<p>さらに、「データサイエンスエージェント（プレビュー）」が発表された。
+データ取り込みから探索、モデルトレーニングの自動化までを担い、VodafoneやWalmartなどの企業が既に活用している。</p>
+<h2>導入事例の拡大と実用成果</h2>
+<p>Googleは、Banco BV、Klarna、Mercedes-Benz、Swarovskiなどの導入事例を紹介した。
+Banco BVでは、分析作業の自動化により、マネージャーが新規ビジネス開拓に注力できるようになった。Mercedes-BenzはGeminiを用いてドライバーと自然な会話ができる自動車内AIアシスタントを構築している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ijqTReRzG8M&amp;t=26s">YouTube</a></p>
+<p>日本企業では、メルカリがGoogle AIをコールセンターに導入。
+AI主導のカスタマーサービス体験を実現し、業務量を20％削減、ROI（投資収益率）を500％向上させる見込みとしている。</p>
+<h2>開発者×エージェント経済──A2AとAP2で拡張</h2>
+<p>Gemini Enterpriseは企業だけでなく、開発者にも開かれたプラットフォームとして進化する。
+すでに100万人以上が利用する「Gemini CLI」に加え、AIをコマンドラインから拡張できる「Gemini CLI Extensions」を導入。
+さらに、開発者やISV（独立系ソフトウェアベンダー）がエージェントを構築・販売・収益化できる「エージェントエコノミー」の構想を発表した。</p>
+<p>この仕組みを支えるのが、</p>
+<ul>
+<li><strong>Agent2Agent Protocol（A2A）</strong> ：エージェント間通信を標準化する新プロトコル</li>
+<li><strong>Agent Payments Protocol（AP2）</strong> ：エージェントによる安全な金融取引を実現する決済標準
+の2つである。AP2は、American Express、Mastercard、PayPalなど100社超のパートナーと共同で策定された。</li>
+</ul>
+<h2>学習・導入支援プログラム</h2>
+<p>Googleは、AI人材育成と現場導入支援の両面から変革を後押しする。
+新たに全従業員が無料でAIスキルを学べる「Google Skills」を開設し、開発者向けの教育プログラム「Gemini Enterprise Agent Ready（GEAR）」を開始した。
+さらに、顧客企業に伴走して導入支援を行うAIエンジニアチーム「Team Delta」も新設している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<h2>AIの“入口”としての意義</h2>
+<p>Googleは、AIの未来を「オープンで協力的なエコシステム」にあるとし、Box、Workday、ServiceNowなど主要企業との連携を拡大している。クロスプラットフォームでのワークフロー連携や導入支援、検証済みエージェントの発見、収益化の仕組みなど、10万社超のパートナー基盤を活用し、AI導入を全層で支援する方針だ。</p>
+<p>\u003E「Gemini Enterpriseは、Google AIの最高の機能をすべての従業員とワークフローに届ける“職場AIの新たな入口”です」（Google Cloud公式ブログより）</p>
+<p>Googleは、企業にとってのAI導入を「一部の実験」から「全員の変革」へと引き上げる転換点として、この新プラットフォームを位置づけている。</p>
+]]></description>
+      <pubDate>Mon, 13 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIとの出会い、早すぎる？──Pew調査で明らかになった子どものチャットボット利用の低年齢化</title>
       <link>https://ledge.ai/articles/pew_children_ai_chatbot_early_use</link>
       <description><![CDATA[<p>米国の調査機関Pew Research Centerは2025年10月8日、保護者3,251人を対象にした全国調査レポート「How parents manage screen time for kids」を<a href="https://www.pewresearch.org/internet/2025/10/08/how-parents-manage-screen-time-for-kids/">発表</a>した。報告によると、5〜7歳の子どもの3％、8〜10歳の7％、11〜12歳の15％が、ChatGPTやGeminiなどのAIチャットボットを利用した経験があると回答。生成AIとの接触が、幼児期を含む低年齢層にまで広がりつつあることが明らかになった。</p>
@@ -576,20 +630,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <p>今後は、Google MapsやAndroidナビゲーション、教育用アプリへの応用が期待される。Google Researchは論文で、「StreetViewAIは、アクセシビリティAIと地理空間AIの融合の一歩」と位置づけている。</p>
 ]]></description>
       <pubDate>Tue, 07 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>国立国会図書館×NII、官庁出版物30万点のテキストデータ提供で合意　日本発LLM開発を後押し</title>
-      <link>https://ledge.ai/articles/ndl_nii_textdata_llm_collaboration</link>
-      <description><![CDATA[<p>国立国会図書館（NDL）は2025年10月1日、国立情報学研究所（NII）に対して、同館が保有する官庁出版物などのテキストデータを提供することで合意したと<a href="https://www.ndl.go.jp/jp/news/fy2025/251001_01.html">発表</a>した。NIIが進める大規模言語モデル（LLM）の構築・研究を支援することを目的とし、日本語モデルの精度向上と公共データの再活用を促す取り組みとなる。</p>
-<h2>約30万点の官庁出版物を対象</h2>
-<p>提供されるのは、国立国会図書館が所蔵する官庁出版物を中心とした約30万点の資料のテキストデータ。主に1995年以前に刊行された図書・雑誌・官報などが対象で、OCR（光学式文字認識）により全文をデジタル化したものとなる。NIIはこれらのデータを研究用として活用し、日本語大規模言語モデルの構築や性能評価に役立てる。</p>
-<h2>公共アーカイブとAI研究の連携</h2>
-<p>今回の合意は、公共機関が保有する文献データを学術研究やAI開発に活用する新たな枠組みを示すもの。NDLはこれまでも、デジタルアーカイブ化やメタデータ公開などを通じて情報の利活用を推進してきたが、AI研究への提供は初の本格的な事例となる。</p>
-<h2>日本語モデル開発を後押し</h2>
-<p>NIIでは、研究機関や大学向けの日本語LLM開発を進めており、今回の提供データが学習素材として活用されることで、公共情報に基づく透明性の高いAIモデルの開発が期待される。
-NDLは今後も、デジタル化資料の活用促進を通じて、学術研究や社会的知の発展に寄与していく方針を示している。</p>
-]]></description>
-      <pubDate>Tue, 07 Oct 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
