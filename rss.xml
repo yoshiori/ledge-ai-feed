@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIがソフトウェアの脆弱性を自動修正──Google DeepMind、新エージェント「CodeMender」を発表</title>
+      <link>https://ledge.ai/articles/deepmind_codemender_ai_vulnerability_fix</link>
+      <description><![CDATA[<p>Google DeepMindは2025年10月10日、ソフトウェアの脆弱性を自動的に検出・修正するAIエージェント「CodeMender」を<a href="https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/">発表</a>した。</p>
+<p>同エージェントは大規模言語モデル「Gemini Deep Think」を基盤とし、深層推論を活用して安全で安定したコード改変を行う。DeepMindは「AIが自ら脆弱性を理解し、修正案を提案・検証する」という新しいセキュリティサイクルを構築したと説明している。</p>
+<h2>72件の脆弱性を自動修正</h2>
+<p>CodeMenderはすでにオープンソースソフトウェアの実環境でテストされており、これまでに72件のセキュリティ修正を開発元のリポジトリへ統合した。対象コードには約450万行規模の大規模プロジェクトも含まれる。
+DeepMindによれば、修正対象の一例として画像処理ライブラリ「libwebp」でのメモリ管理エラーがあり、AIによる自動改修によってバッファオーバーフロー耐性が向上したという。</p>
+<h2>「反応型」と「先制型」AIによる修正</h2>
+<p>CodeMenderは、既知の脆弱性に即応する反応型（reactive）と、将来的に問題を起こす可能性のある構造を事前に書き換える先制型（proactive）の2モードを備える。</p>
+<p>内部では、静的解析・動的解析・ファジングなどを組み合わせた検査手法を使用し、修正案の妥当性をGemini Deep Thinkが多段階で検証。AIが生成したパッチは必ず人間エンジニアのレビューを経る仕組みで、誤修正を防ぐ安全策も講じられている。</p>
+<p><strong>図：CodeMenderの自動修正フロー。LLMエージェントが脆弱性を検出し、Validatorが修正案を検証した後、人間によるパッチレビューを経てコードリポジトリへ統合する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fixing_vulnerabilities_4975259e2f/fixing_vulnerabilities_4975259e2f.jpg" alt="fixing vulnerabilities.jpg" /></p>
+<h2>セキュリティ運用の自動化へ</h2>
+<p>DeepMindは、「CodeMenderはAIによるソフトウェアセキュリティの自動化を推進する重要な一歩」と位置づけている。今後はGoogleのSecure AI Framework（SAIF）やAI Vulnerability Reward Program（AI VRP）など、既存のセキュリティ施策と連携して展開を進める予定だ。
+また、オープンソース開発者コミュニティとの協力を通じて、より多くのプロジェクトでのAI自動修正を実用化していくとしている。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>リコー、推論性能を強化した日本語LLMを発表──GPT-5相当の性能で金融業務に特化</title>
       <link>https://ledge.ai/articles/ricoh_reasoning_llm_gpt5_equivalent_20251010</link>
       <description><![CDATA[<p>リコーは2025年10月10日、推論（）性能を追加搭載した日本語大規模言語モデル（LLM）を<a href="https://jp.ricoh.com/release/2025/1010_1">発表</a>した。</p>
@@ -614,17 +633,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazonの配送ドローン2機が墜落　米当局が調査開始──アリゾナ州トールソンで事故発生</title>
-      <link>https://ledge.ai/articles/amazon_drone_crash_tolleson</link>
-      <description><![CDATA[<p>アメリカ連邦航空局（FAA）は2025年10月1日（現地時間）、アリゾナ州トールソンで発生したAmazonの配送ドローン2機の墜落事故について、調査を開始したと<a href="https://www.faa.gov/newsroom/statements/accident_incidents">発表</a>した。FAAによると、事故による負傷者は報告されていない。</p>
-<p>FAAの公式声明では、現地時間10月1日午前10時ごろ、Amazon Prime Airが運用する新型ドローン「MK-30」2機がトールソン市内で墜落したことを確認。国家運輸安全委員会（NTSB）と協力し、操縦手順、飛行経路、気象条件など複数の要因を調査する方針を示している。</p>
-<p><a href="https://www.reuters.com/business/retail-consumer/ntsb-faa-probe-crashes-two-amazon-delivery-drones-2025-10-02/">Reuters</a>によると、墜落した2機はいずれも商用配送用のPrime Air機で、現場のクレーンのブーム部分に衝突した後、地上に墜落したという。Amazonはこの事故を受けてトールソン地区でのドローン配送を一時停止し、「安全性を最優先にし、関係当局と協力して原因を調べている」とコメントしている。</p>
-<p>AmazonのPrime Airは、2022年にカリフォルニア州ロックフォードとテキサス州カレッジステーションでサービスを開始。2024年からアリゾナ州トールソンにも拡大し、最新型ドローン「MK-30」による商用配送を行っていた。Reutersは、今回の事故がMK-30の初期運用段階で発生したと報じている。</p>
-<p>FAAは「商用ドローン運用に関する安全基準の適用を確認し、今後の事故防止に向けた対応を進める」としており、調査結果は後日公表される見込みだ。</p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
