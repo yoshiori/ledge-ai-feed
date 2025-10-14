@@ -168,6 +168,13 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
       <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
+      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
+      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 12 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
       <link>https://ledge.ai/articles/openai_jony_ive_ai_device_philosophy</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏と、Apple製品のデザインを手がけたジョニー・アイブ氏（LoveFrom代表）は、2025年10月に米サンフランシスコで開催された開発者会議「DevDay 2025」で<a href="https://www.youtube.com/watch?v=7cKbPLzNYws">対談</a>を行い、人間中心のAIデバイス構想を明らかにした。両氏は、テクノロジーがもたらす「過剰な情報と不安」を乗り越え、AIを通じて「穏やかで幸福な体験をもたらす新しいデバイス」を目指すと語った。</p>
@@ -225,37 +232,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
       <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
-]]></description>
-      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
       <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
       <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
@@ -305,13 +281,6 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
       <pubDate>Fri, 10 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
-      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
-      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
       <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
       <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
@@ -330,24 +299,6 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
 <p>デロイトはAI導入を強化しており、同時期にAnthropicとの提携拡大を発表したと<a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/">TechCrunch</a>が報道。一方で、AI生成文書の誤りによって公共契約の信頼性が揺らいでいると指摘した。デロイトは世界的にAIツールを業務へ統合しているが、今回の件は「AIを利用した文書の監査体制」が整備途上であることを浮き彫りにした。</p>
 ]]></description>
       <pubDate>Fri, 10 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
-      <link>https://ledge.ai/articles/google_opal_global_expansion</link>
-      <description><![CDATA[<p>Googleは2025年10月7日（現地時間）、自然言語からウェブアプリを作成できるノーコードAIツール「Opal」の提供地域を、日本を含む15カ国へ拡大したと<a href="https://blog.google/technology/google-labs/opal-expansion/">発表</a>した。OpalはGoogle Labsの実験プロジェクトで、コードを書くことなくAIミニアプリを構築できるのが特徴だ。</p>
-<h2>米国先行公開からグローバル展開へ</h2>
-<p>Opalは7月24日（現地時間）に米国で<a href="https://ledge.ai/articles/google_opal_no_code_ai_tool">初公開</a>。ユーザーが「タスク管理アプリを作成」「画像から色を抽出」といった指示を与えると、AIがHTML/CSS/JavaScriptで構成されたアプリを自動生成する。初期ユーザーの利用が想定以上に高度化したことを受け、今回、日本、韓国、インド、カナダ、ブラジル、アルゼンチン、ベトナム、インドネシア、シンガポール、コロンビア、エルサルバドル、コスタリカ、パナマ、ホンジュラス、パキスタンの15カ国での提供を開始した。</p>
-<h2>ワークフローの可視化と高速化</h2>
-<p>同時に、Opalの実用性を高める改良が行われた。</p>
-<ul>
-<li><strong>高度デバッグ</strong> ：ノーコードのまま、ビジュアルエディタ上でワークフローをステップごとに実行・検証。エラーは発生ステップにリアルタイム表示され、原因特定を容易にする。</li>
-<li><strong>パフォーマンス改善</strong> ：新規Opal作成の起動時間を短縮。**並列実行（parallel runs）**により複数ステップを同時に処理でき、待機時間を抑える。</li>
-</ul>
-<h2>クリエイティブから業務効率化まで</h2>
-<p>Opalは、個人の創作活動やマーケティング支援、業務プロセスの自動化など、多様な用途に対応する。Googleは「ユーザーが複雑なプロセスを自動化したり、アイデアを素早く形にしたりできるよう支援する」としており、開発者コミュニティはDiscord上でも展開されている。</p>
-<p>@<a href="https://youtu.be/g9RBGnz-vqk">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 09 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
@@ -472,6 +423,24 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
+      <link>https://ledge.ai/articles/google_opal_global_expansion</link>
+      <description><![CDATA[<p>Googleは2025年10月7日（現地時間）、自然言語からウェブアプリを作成できるノーコードAIツール「Opal」の提供地域を、日本を含む15カ国へ拡大したと<a href="https://blog.google/technology/google-labs/opal-expansion/">発表</a>した。OpalはGoogle Labsの実験プロジェクトで、コードを書くことなくAIミニアプリを構築できるのが特徴だ。</p>
+<h2>米国先行公開からグローバル展開へ</h2>
+<p>Opalは7月24日（現地時間）に米国で<a href="https://ledge.ai/articles/google_opal_no_code_ai_tool">初公開</a>。ユーザーが「タスク管理アプリを作成」「画像から色を抽出」といった指示を与えると、AIがHTML/CSS/JavaScriptで構成されたアプリを自動生成する。初期ユーザーの利用が想定以上に高度化したことを受け、今回、日本、韓国、インド、カナダ、ブラジル、アルゼンチン、ベトナム、インドネシア、シンガポール、コロンビア、エルサルバドル、コスタリカ、パナマ、ホンジュラス、パキスタンの15カ国での提供を開始した。</p>
+<h2>ワークフローの可視化と高速化</h2>
+<p>同時に、Opalの実用性を高める改良が行われた。</p>
+<ul>
+<li><strong>高度デバッグ</strong> ：ノーコードのまま、ビジュアルエディタ上でワークフローをステップごとに実行・検証。エラーは発生ステップにリアルタイム表示され、原因特定を容易にする。</li>
+<li><strong>パフォーマンス改善</strong> ：新規Opal作成の起動時間を短縮。**並列実行（parallel runs）**により複数ステップを同時に処理でき、待機時間を抑える。</li>
+</ul>
+<h2>クリエイティブから業務効率化まで</h2>
+<p>Opalは、個人の創作活動やマーケティング支援、業務プロセスの自動化など、多様な用途に対応する。Googleは「ユーザーが複雑なプロセスを自動化したり、アイデアを素早く形にしたりできるよう支援する」としており、開発者コミュニティはDiscord上でも展開されている。</p>
+<p>@<a href="https://youtu.be/g9RBGnz-vqk">YouTube</a></p>
+]]></description>
+      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
       <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
       <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
@@ -522,81 +491,33 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft 365 Copilotに「Agent Mode」「Office Agent」を導入 ～ “vibe working” でAIによるWord・Excelの自動化を推進</title>
-      <link>https://ledge.ai/articles/microsoft365_agent_mode_office_agent_vibe_ai</link>
-      <description><![CDATA[<p>Microsoftは2025年9月29日（米国時間）、同社の生成AI搭載ツール「Microsoft 365 Copilot」に、新機能「Agent Mode」および「Office Agent」を導入すると<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/">発表</a>した。これらは「vibe working」と呼ばれる新しい作業体験を掲げ、WordやExcelでの文書作成・データ分析をAIが支援・自動化することを目的としている。</p>
-<h2>Agent Mode：Officeアプリ内でのAI自動化</h2>
-<p>Agent Modeは、WordやExcelなどのOfficeアプリケーションに組み込まれ、複数ステップにわたる作業をAIと対話しながら進められる機能。</p>
-<p>Excelでは「Excel Labs」アドインを通じてプレビュー提供が開始され、数値の分析やグラフ化をAIに任せられる。Wordでは、文書の構成提案や修正作業をAIが継続的に補助する機能が実装され、まずはWeb版から展開される。</p>
-<p>@<a href="https://youtu.be/nSqCy-7Qabk">YouTube</a></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Excel_benchmark_FINAL_7b6722975b/Excel_benchmark_FINAL_7b6722975b.webp" alt="Excel-benchmark-FINAL.webp" /></p>
-<h2>Office Agent：Copilotチャットから文書やプレゼン生成</h2>
-<p>Office Agentは、Copilotのチャット環境で稼働するエージェントで、Anthropicのモデルを搭載している。ユーザーが「レポートをまとめて」「会議資料を作成して」といった意図を伝えると、AIがWord文書やPowerPoint資料を生成・編集する。従来の単発的な応答にとどまらず、業務プロセス全体を遂行する“作業型エージェント”としての役割を担う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NPSnD8-TZjY">YouTube</a></p>
-<h2>“vibe working”のコンセプト</h2>
-<p>Microsoftはこれらの新機能を総称して「vibe working」と表現している。簡潔な指示を入力するだけでAIが作業を補完し、文書作成やデータ分析の完成度を高めることを狙う。ユーザーはAIを相棒のように扱い、業務をより効率的に進められるという。</p>
-<h2>提供条件と展開予定</h2>
-<p>新機能は「Microsoft 365 Copilot」ライセンスを持つユーザーに順次展開される。Frontierプログラム参加者向けに先行提供されるケースもあり、初期段階では英語やWeb版が中心。今後は地域やアプリケーションの拡大が予定されている。</p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、次世代動画生成モデル「Sora 2」を発表──自分や友人が出演する動画を生成できるiOSアプリ「Sora」も米国とカナダで同時公開</title>
-      <link>https://ledge.ai/articles/sora2_openai_ios_app_launch</link>
-      <description><![CDATA[<p>OpenAIは2025年9月30日、最新の動画・音声生成モデル「Sora 2」を<a href="https://openai.com/index/sora-2/">発表</a>した。</p>
-<p>物理挙動の正確さや映像の写実性が大幅に向上し、音声を同期して生成できる点が特徴。同日には、このモデルを利用できるiOS向けアプリ「Sora」も公開され、米国とカナダで招待制による提供が始まった。日本での提供時期は明らかにされていない。</p>
-<p>@<a href="https://youtu.be/lEcg6AJ6DVY?si=aS3u22digXd5ZVY8">YouTube</a></p>
-<h2>Sora 2の性能</h2>
-<p>Sora2は、従来の「Sora」モデルを基盤に開発された動画・音声生成AIである。
-OpenAIが公開した<a href="https://openai.com/index/sora-2-system-card/">システムカード</a>によれば、より正確な物理シミュレーション、長尺映像における一貫性、幅広いスタイルへの対応を実現。さらに音声生成を統合し、映像にナレーションや環境音を付与できる。</p>
-<p>生成可能な映像は最大20秒とされるが、ReutersやThe Vergeなど複数のメディアは「アプリ上では10秒程度に制限されている」と報じている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=1PaoWKvcJP0">YouTube</a></p>
-<h2>iOSアプリ「Sora」の提供</h2>
-<p>同日に公開されたiOS向けアプリ「Sora」では、ユーザーがAI生成動画を作成・共有できる。
-提供開始は米国とカナダで、アクセスは招待制。アプリ内で通知登録を行うことで順次利用可能となる。AndroidユーザーはWeb版の “sora.com” からアクセスできる仕組みだ。Sora2は当初無料で利用できるが、計算能力の制限が設けられているとのこと。</p>
-<p>アプリの特徴として注目されるのが**「Cameo（カメオ）機能」** だ。ユーザーは自分や友人を動画に登場させられる。OpenAIは、この機能を利用するには本人の同意が必要とし、無断で他人の肖像を使用することはできない設計にしているという。サム・アルトマンCEOも自身のブログで「チームがキャラクターの一貫性に力を注ぎ、友人同士を動画に登場させることが意外なほど魅力的な新しいつながり方になった」と述べている。</p>
-<h2>安全性への配慮</h2>
-<p>OpenAIは安全設計を重視しており、生成動画には透かしやC2PAメタデータを付与。肖像権の無断利用や公人の生成は禁止され、未成年保護のためのフィルタリングや保護者向けコントロール機能も導入されている。
-システムカードに記載された安全性評価では、不適切コンテンツを検出・遮断する精度が96〜99％に達したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introducing_sora2_9ac129aadc/introducing_sora2_9ac129aadc.jpg" alt="introducing sora2.jpg" /></p>
-<h2>背景と思想</h2>
-<p>同社CEOのサム・アルトマン氏は自身の<a href="https://blog.samaltman.com/sora-2">ブログ</a>で、Soraを「ChatGPT for creativity」と表現。誰もが手軽に動画生成を楽しめる環境を提供する一方で、依存性や誤用のリスクについても懸念を示し、長期的なユーザーの満足や健全な利用を重視する方針を強調した。</p>
-<p>また、OpenAIは公式サイトで「<a href="https://openai.com/index/sora-feed-philosophy/">フィード哲学</a>」を公開し、ユーザーが視聴体験を自ら選択できる仕組みを構築するとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gzneGhpXwjU&amp;t=137s">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sora、著作権方針を修正──Altman氏「日本の創作物に敬意」発言も。権利保護と生成AIの共存を模索</title>
-      <link>https://ledge.ai/articles/sora_update_copyright_and_revenue_sharing_oct2025</link>
-      <description><![CDATA[<p>OpenAIは、動画生成AI「Sora（ソラ）」の著作権対応を見直す。</p>
-<p>同社CEOであるサム・アルトマン氏は2025年10月3日（現地時間）、自身の公式<a href="https://blog.samaltman.com/">ブログ</a>権利者がキャラクター生成をより細かく管理できる新機能と、収益分配制度の導入計画を発表した。背景には、Soraリリース後に浮上した知的財産権への懸念と、世界中で広がった批判がある。</p>
-<h2>Soraをめぐる著作権論争</h2>
-<p>OpenAIは2025年9月末、動画生成AIの最新版「Sora 2」と、米国・カナダ向けのソーシャル型iOSアプリ「Sora」を公開した。
-テキストから高精細な映像を生成できる能力が話題を呼ぶ一方で、リリース直後には任天堂の「マリオ」や「ピカチュウ」など既存キャラクターに酷似した動画がSNS上で多数共有され、著作権保護の観点から懸念が相次いだ。一部の海外メディアは「任天堂の訴訟を招く可能性がある」と報じ、AIによる無断再現がどこまで許容されるのかが議論となった。</p>
-<p>さらに、リリース直前に報じられた「権利者がオプトアウト（除外申請）しない限り自作品が扱われる」という運用観測も反発を招き、“同意なき取り込み”への不信感が増幅した。</p>
-<p>この一連の騒動を受け、OpenAIはSoraの利用方針を再検討。今回の発表で、権利者による生成コントロール機能の導入と収益分配制度の構築を正式に打ち出した。</p>
-<h2>権利者が生成内容を制御可能に</h2>
-<p>アルトマン氏は、「Sora」の今後の方針として、権利者がキャラクター生成の可否や利用範囲を細かく指定できる新機能を追加する考えを示した。
-これは、従来の「opt-in for likeness（本人類似モデル許諾）」を拡張したもので、より柔軟で公平な管理を可能にするという。</p>
-<p>同氏は次のように述べている。</p>
-<p>\u003E“We will give rightsholders more granular control over generation of characters... but want the ability to specify how their characters can be used (including not at all).”
-（キャラクター生成について、権利者がより細かく制御できるようにし、使用方法を自ら指定できるようにします。まったく使用を許可しない選択も可能です。）</p>
-<p>同氏によると、権利者の多くはSoraを通じた“インタラクティブなファンフィクション（参加型二次創作）”の可能性に期待を寄せつつも、利用のあり方を自ら決めたいと考えているという。OpenAIは、そうした多様な方針を尊重しつつ、全ての権利者に公平な標準を適用する姿勢を示した。</p>
-<h2>収益分配モデルの試験導入へ</h2>
-<p>OpenAIは、ユーザーによる動画生成量が予想を上回っていることを踏まえ、生成に使用されたキャラクターの権利者に収益を還元する制度を導入する計画も明らかにした。
-アルトマン氏は「試行錯誤を重ねながら早期に開始する」とし、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>\u003E “We are going to try sharing some of this revenue with rightsholders who want their characters generated by users.”
-（ユーザーによって生成されるキャラクターを許可した権利者に対し、その一部の収益を共有することを試みます。）</p>
-<h2>日本の創作文化に敬意を表明</h2>
-<p>アルトマン氏は投稿の中で、「日本の創作物は非常に素晴らしい」と述べ、「ユーザーと日本のコンテンツとの深い結びつきに感銘を受けている」と言及した。
-Soraをめぐる議論の中心に日本のコンテンツ産業があったことを踏まえ、文化的背景への理解を示した形だ。
-今回の発表は、単なる技術的修正にとどまらず、文化と生成AIの関係を再定義する試みともいえる。</p>
-<h2>GPT-5も同日にアップデート、安全性を強化</h2>
-<p>同日、OpenAIは<a href="https://help.openai.com/en/articles/9624314-model-release-notes">Model Release Notes</a>を更新し、GPT-5 Instantモデルにメンタルヘルス対応の新機能を追加した。感情的または心理的なストレスをより正確に検知し、必要に応じて現実世界の支援リソースへ誘導できるようになったという。</p>
-<p>こうした改良は、アルトマン氏が強調する「高速な改善サイクル」の一環として、Soraを含む同社製品全体に順次展開される見通しだ。</p>
-<h2>今後の展望</h2>
-<p>アルトマン氏は、「ChatGPT初期のように高頻度の改善を続けていく」と述べ、Soraを中心にプロダクト全体の改善を加速させる考えを示した。生成AIと著作権をめぐる議論が国際的に広がるなか、今回の発表は創作支援と権利保護の両立を図る “新しい共存モデル” として注目される。</p>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
     </item>
