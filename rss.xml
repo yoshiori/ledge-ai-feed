@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>リコー、推論性能を強化した日本語LLMを発表──GPT-5相当の性能で金融業務に特化</title>
+      <link>https://ledge.ai/articles/ricoh_reasoning_llm_gpt5_equivalent_20251010</link>
+      <description><![CDATA[<p>リコーは2025年10月10日、推論（）性能を追加搭載した日本語大規模言語モデル（LLM）を<a href="https://jp.ricoh.com/release/2025/1010_1">発表</a>した。</p>
+<p>このモデルは700億パラメータ規模のオンプレミス対応型LLMで、金融業務に特化して開発されたもの。同社によれば、多段推論能力（Chain-of-Thoughts: CoT）の導入により、融資稟議など専門的な業務遂行力を強化し、代表的な日本語ベンチマークでOpenAIの「GPT-5」と同等レベルの性能を確認したという。</p>
+<h2>金融分野に特化した推論能力</h2>
+<p>リコーは、有価証券報告書などの公開データを活用し、金融分野に特有の専門知識を追加学習したうえで、多段推論能力（Chain-of-Thoughts: CoT）を導入。複数の情報を論理的ステップに分解し、融資稟議業務などの複雑な判断を支援する能力を強化した。</p>
+<p>このモデルはオンプレミス環境で運用できる「プライベートLLM」として提供され、企業が自社データを安全に学習させることが可能だとしている。</p>
+<h2>ベンチマーク評価でGPT-5と同等スコア</h2>
+<p>発表資料によると、代表的な日本語ベンチマークで次の結果を得た。
+評価には「ELYZA-tasks-100」「Japanese MT-Bench」「japanese-lm-fin-harness」およびリコー独自の融資稟議ベンチマークが用いられた。</p>
+<ul>
+<li><strong>ELYZA-tasks-100</strong> ：複雑な指示タスク（要約、対話、意図の理解など）</li>
+<li><strong>Japanese MT-Bench</strong> ：マルチターン対話能力</li>
+<li><strong>japanese-lm-fin-harness</strong> ：金融分野における感情分析・証券知識・試験問題など</li>
+<li><strong>融資稟議ベンチマーク</strong> ：企業・財務・信用の総合評価</li>
+</ul>
+<p>評価の結果、リコーの「Llama-3.3-Ricoh-70B-20251001」は日本語タスク全般でGPT-5に匹敵するスコアを示し、金融ベンチマークでは同規模以上のオープンソースモデルを上回ったとされる。</p>
+<p><strong>ベンチマークツールにおける他モデルとの比較結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_d289815140/_d289815140.jpg" alt="ベンチマークツールにおける他モデルとの比較結果.jpg" /></p>
+<h2>高精度化を支える独自技術</h2>
+<p>リコーのモデルは、Meta社の「Llama-3.3-70B-Instruct」を基に、日本語性能を強化した「Llama-3.3-Swallow-70B-v0.4」をベースモデルとして構築。独自のインストラクション・チューニングや、Chat Vectorを用いたモデルマージ技術、独自カリキュラムを組み合わせることで高精度化を実現した。大規模ながら省コストで動作し、GPUリソースの少ない環境でも運用できる点が特徴とされる。</p>
+<h2>今後の展開</h2>
+<p>リコーは今後、金融以外にも製造業・医療などの業種特化型モデルを順次開発するとしている。
+同社は「使える・使いこなせるAI」の提供を掲げ、企業のデジタルトランスフォーメーション（DX）を支援していく方針だ。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
       <link>https://ledge.ai/articles/google_gemini_enterprise_ai_platform_launch</link>
       <description><![CDATA[<p>Googleは米国時間2025年10月9日、企業向けの新しいAIプラットフォーム「Gemini Enterprise（ジェミニ・エンタープライズ）」を<a href="https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/">発表</a>した。
@@ -59,7 +87,7 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
       <pubDate>Mon, 13 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIとの出会い、早すぎる？──Pew調査で明らかになった子どものチャットボット利用の低年齢化</title>
+      <title>公共2025/10/13 [MON]AIとの出会い、早すぎる？──Pew調査で明らかになった子どものチャットボット利用の低年齢化</title>
       <link>https://ledge.ai/articles/pew_children_ai_chatbot_early_use</link>
       <description><![CDATA[<p>米国の調査機関Pew Research Centerは2025年10月8日、保護者3,251人を対象にした全国調査レポート「How parents manage screen time for kids」を<a href="https://www.pewresearch.org/internet/2025/10/08/how-parents-manage-screen-time-for-kids/">発表</a>した。報告によると、5〜7歳の子どもの3％、8〜10歳の7％、11〜12歳の15％が、ChatGPTやGeminiなどのAIチャットボットを利用した経験があると回答。生成AIとの接触が、幼児期を含む低年齢層にまで広がりつつあることが明らかになった。</p>
 <h2>スクリーンタイム調査で浮かび上がる「AIの早期接触」</h2>
@@ -292,7 +320,7 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
       <pubDate>Thu, 09 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/9 [THU]三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
+      <title>三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
       <link>https://ledge.ai/articles/smbc_gai_rag_internal_search</link>
       <description><![CDATA[<p>三井住友フィナンシャルグループ（SMBCグループ）は2025年10月6日、社内向けAIアシスタントツール「SMBC-GAI」に、RAG（Retrieval-Augmented Generation）技術を活用した社内情報検索機能を新たに搭載したと<a href="https://www.smfg.co.jp/news/pdf/j20251006_01.pdf">発表</a>した。社内規程や業務マニュアルなど約130万件に及ぶファイルをインデックス化し、従業員が一つのインターフェース上で横断的に検索・参照できるようにしたという。</p>
 <h2>RAG技術で社内情報を高精度に検索</h2>
@@ -597,39 +625,6 @@ Soraをめぐる議論の中心に日本のコンテンツ産業があったこ�
 <p>FAAは「商用ドローン運用に関する安全基準の適用を確認し、今後の事故防止に向けた対応を進める」としており、調査結果は後日公表される見込みだ。</p>
 ]]></description>
       <pubDate>Wed, 08 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google ResearchとDeepMind、「StreetViewAI」を発表──視覚障害者がAIと対話しながらストリートビューを“歩く”</title>
-      <link>https://ledge.ai/articles/streetviewai_accessible_navigation</link>
-      <description><![CDATA[<p>Google ResearchとGoogle DeepMindの研究チームは2025年9月28日（米国時間）、視覚障害者がAIと対話しながらGoogleストリートビュー上を探索できるツール「StreetViewAI」をACM国際会議UIST 2025で<a href="https://dl.acm.org/doi/10.1145/3746059.3747756">発表</a>した。視覚障害者がAIと対話しながらGoogleストリートビュー上を探索できるツールを開発し、マルチモーダルAIを活用した新しいアクセシビリティ体験を提示している。</p>
-<h2>AIが「見る」街を、言葉で伝える</h2>
-<p>StreetViewAIは、ストリートビュー画像・地図情報・地理メタデータなどを統合して、AIが環境を自然言語で説明するシステムだ。
-会話の文脈を理解し、ユーザーが「右側には何がありますか？」「この角を曲がるとどうなりますか？」と尋ねると、AIが視覚と位置の情報をもとに答える。</p>
-<p>AIが“街の目”となり、利用者は言葉のガイドによって世界中の街を“歩く”ことができる。</p>
-<h2>背景：地理情報アクセシビリティの壁を超えて</h2>
-<p>地図やストリートビューは視覚情報中心の体験であり、視覚障害者には利用のハードルが高い。
-これまでの音声ガイドはランドマークの名称や距離といった部分情報にとどまり、空間全体の理解を支える仕組みは十分ではなかった。</p>
-<p>StreetViewAIは、AIが空間の意味と文脈を理解し、自然な対話で伝えることを目指す。Googleが蓄積してきた地理空間理解技術に、DeepMindのマルチモーダルモデル技術を組み合わせた成果だという。</p>
-<h2>システム構成：マルチモーダルAIによる空間理解</h2>
-<p>StreetViewAIは、Googleのマルチモーダル大規模言語モデル（MLLM）を中核に、Street View画像、地図メタデータ、ナビゲーション履歴、周辺施設情報を統合し、文脈に沿った説明を生成する。</p>
-<p>たとえば、ユーザーが「前に進んで」と音声指示を出すと、AIが実際に次のパノラマへ移動し、新たな環境を分析してリアルタイムに説明を更新する。この動作を支えるのが「StreetViewAI Control System」であり、AIが空間を“歩きながら”理解する構造を実現している。</p>
-<p><strong>StreetViewAIの全体構成。ユーザーが音声で質問すると、マルチモーダルAIが地図情報と画像を統合して回答する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig2_6f6636db4f/uist25_162_fig2_6f6636db4f.jpg" alt="uist25-162-fig2.jpg" /></p>
-<h2>AI Describer：街の「語り手」としてのAI</h2>
-<p>StreetViewAIの中核モジュールの一つが「AI Describer」だ。これは視覚障害者支援向けの“説明者AI”で、ストリートビュー画像から状況を自然言語で描写する。さらに、観光案内モード（Tour Guide Prompt）に切り替えると、文化的背景や観光情報を加味した解説も行える。</p>
-<p>例として、渋谷のスクランブル交差点の場面では、標準モードでは「前方に大きな横断歩道と点字ブロックがあります」と伝えるが、ツアーガイドモードでは「ここは渋谷スクランブル交差点。世界で最も人通りが多い交差点の一つです」と説明する。</p>
-<p><strong>対話インターフェースの例。ユーザーの質問（信号・横断歩道・看板の文字など）に対し、画像と地理メタデータに基づいて応答する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig4_1c434bb912/uist25_162_fig4_1c434bb912.jpg" alt="uist25-162-fig4.jpg" /></p>
-<h2>多様な都市での適用と検証</h2>
-<p>研究チームは、シアトル、サンフランシスコ、ニューヨークなど複数都市のストリートビューで実験を実施。StreetViewAIは、都市構造や文化的文脈が異なる環境でも一貫した説明を生成でき、地域固有のランドマークや道路構造にも柔軟に対応した。
-また、視覚障害当事者11名との評価を通じて、POI調査や遠隔での経路検討を支援する有用性も確認された。
-こうした結果から、地域横断的なスケーラビリティと実利用の可能性が示されたと論文は述べている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/uist25_162_fig6_ffec020f07/uist25_162_fig6_ffec020f07.jpg" alt="uist25-162-fig6.jpg" /></p>
-<h2>世界中の街を「声で歩く」未来へ</h2>
-<p>StreetViewAIは、100以上の国・2200億枚超のストリートビュー画像のカバレッジを背景に、地域や言語を問わず動作する設計だ。現在、シアトル、ニューヨーク、東京、サンフランシスコ、ダブリンなど複数の都市でテストされており、地理的スケーラビリティを確認中だ。</p>
-<p>今後は、Google MapsやAndroidナビゲーション、教育用アプリへの応用が期待される。Google Researchは論文で、「StreetViewAIは、アクセシビリティAIと地理空間AIの融合の一歩」と位置づけている。</p>
-]]></description>
-      <pubDate>Tue, 07 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
