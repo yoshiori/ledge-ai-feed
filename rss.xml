@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、Broadcomと戦略的提携──自社設計AIアクセラレーターを10GW規模で展開へ</title>
+      <link>https://ledge.ai/articles/openai_broadcom_ai_accelerator_10gw_partnership</link>
+      <description><![CDATA[<p>OpenAIは2025年10月13日（米国時間）、米半導体大手Broadcomとの戦略的提携を<a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">発表</a>した。両社は、OpenAIが設計したAIアクセラレーターとBroadcomのネットワークソリューションを組み合わせ、総計10ギガワット（GW）規模のAIクラスターを共同で構築する。展開は2026年後半に開始し、2029年末までの完了を予定している。（<a href="https://jp.broadcom.com/company/news/product-releases/63631">Broadcomのリリース</a>）</p>
+<h2>10GW規模のAIアクセラレーターを共同開発・展開</h2>
+<p>発表によるとOpenAIは自社でAIアクセラレーターとシステムを設計し、Broadcomが開発・展開を担う。ラックにはBroadcomのEthernet、PCIe、光接続などのソリューションを採用し、完全にEthernetベースで構築される。これにより、スケールアップ（拡張）とスケールアウト（分散拡張）の両面で柔軟なAIインフラを実現するという。</p>
+<p>両社は、AIアクセラレーターおよびBroadcomのネットワーク技術を組み込んだラックを展開するための契約書（term sheet）を締結済み。すでに長期にわたる共同開発・供給の枠組みを構築しており、今後はOpenAIの自社施設およびパートナーデータセンターを中心に順次導入を進める。</p>
+<h2>アルトマン氏「AIの可能性を引き出すための重要な一歩」</h2>
+<p>OpenAIの共同創業者兼CEOであるサム・アルトマン氏は次のように述べた。
+「Broadcomとの提携は、AIの潜在能力を解き放ち、人々や企業に実際の恩恵をもたらすための重要なステップです。自社アクセラレーターの開発は、AIの最前線を押し広げ、人類全体に利益を届けるための取り組みでもあります。」</p>
+<p>また、共同創業者兼プレジデントのグレッグ・ブロックマン氏も、「自社設計チップによって、これまでのモデル開発で得た知見をハードウェアに直接組み込み、新たなレベルの知性と能力を引き出す」とコメントしている。</p>
+<h2>Broadcom「AGIへの道を拓く協業」と強調</h2>
+<p>Broadcomの社長兼CEOホック・タン氏は、「OpenAIとの協業は汎用人工知能（AGI）実現に向けた転換点だ」と述べ、10GW規模の次世代アクセラレーターとネットワークシステムの共同開発が「AIの未来への道を切り開く」と強調した。</p>
+<p>同社の半導体ソリューション事業プレジデントであるチャーリー・カワス氏（Ph.D.）も、「オープンでスケーラブル、かつ電力効率の高いAIクラスター設計において新たな業界基準を打ち立てる」と述べ、Ethernetベースのアプローチがコストと性能の両立を可能にすると説明した。</p>
+<h2>OpenAI、週8億人の利用基盤を背景に次世代インフラを整備</h2>
+<p>OpenAIは現在、ChatGPTをはじめとする製品群を通じて、週あたり8億人を超えるアクティブユーザーを抱える。今回のBroadcomとの連携により、AIインフラの自社開発と最適化を進め、同社が掲げる「AGIの恩恵をすべての人に届ける」という使命の実現を加速させる狙いだ。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
       <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
       <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
@@ -332,18 +351,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>同提携は、拡大を続ける生成AI需要に対応するための計算資源の長期確保と、複数世代GPUにわたる供給体制を明示した点で、AIインフラ整備の大きな節目となる。両社は今後も、研究開発と運用の両面で協力を継続する方針だ。</p>
 ]]></description>
       <pubDate>Thu, 09 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、ChatGPTの週間利用者が8億人を突破──DevDay 2025でApps SDKやGPT-5 Proなどを発表</title>
-      <link>https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau</link>
-      <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年10月6日（現地時間）、米サンフランシスコで開催された年次開発者会議「DevDay 2025」の基調講演で、対話型AI「ChatGPT」の週間アクティブユーザー数（WAU）が8億人を超えたと<a href="https://www.youtube.com/live/hS1YqcewH0c?si=1psz2A76y_mpcmvn">発表</a>した。2023年のDevDayでは1億人規模とされており、2年間で大幅に拡大したことになる。</p>
-<p>アルトマン氏は会場で「ChatGPTの利用は世界中で急速に広がっている」と述べた。OpenAIのDevDay公式ページによれば、同社のプロダクトで開発した開発者は累計400万人、APIプラットフォームの処理量は毎分60億トークンと示されている。</p>
-<p>イベントでは、ChatGPTを“アプリプラットフォーム”として拡張する新機能も発表された。ChatGPT内にネイティブアプリを構築できる「<a href="https://openai.com/index/introducing-apps-in-chatgpt/">Apps SDK</a>」プレビューが公開され、Booking.com、Canva、Coursera、Expedia、Figma、Spotify、Zillowによるデモ（対応市場で順次提供）が紹介された。</p>
-<p>さらに、コード補助AI「<a href="https://openai.com/index/codex-now-generally-available/">Codex</a>」の一般提供（GA）が始まり、新しいSDKとともに開発者向け機能を強化。モデル面では、高精度な推論能力を備える「GPT-5 Pro」や、動画生成AI「Sora 2」、リアルタイム音声対応の「GPT-Realtime Mini」など、複数の最新モデルが紹介された。</p>
-<p>今回の発表は、ChatGPTを単なるチャットツールから開発基盤へと位置づけ直す動きの一環とされる。OpenAIは、Apps SDKを通じて開発者がChatGPT内でアプリを提供できる環境を整えると案内しており、アプリ審査・ディレクトリ公開・マネタイズの詳細も順次共有する方針を示した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hS1YqcewH0c&amp;t=133s">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
