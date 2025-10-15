@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>東京大学・ソフトバンク・LINEヤフー、「Beyond AI技術研究組合」を設立──AI研究成果の事業化を加速</title>
+      <link>https://ledge.ai/articles/beyond_ai_technology_consortium_tokyo_univ_softbank_line_yahoo</link>
+      <description><![CDATA[<p>東京大学とソフトバンク、LINEヤフーは2025年10月10日、AI（人工知能）研究の成果を迅速に社会実装・事業化するための新たな産学連携組織「Beyond AI技術研究組合」を9月19日に設立したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20251010_02/">発表</a>した。</p>
+<p>同組合は、経済産業省の「CIP（コーポレート・イノベーション・プラットフォーム）」制度を活用し、AI研究から事業化までを一貫して推進する体制を構築するという。</p>
+<h2>研究と事業化の橋渡しを強化</h2>
+<p>東京大学とソフトバンク、LINEヤフーの3者は、2019年設立の「Beyond AI研究推進機構（BAIR）」を通じてAI分野の基礎研究を進めてきた。今回の「Beyond AI技術研究組合」は、その研究成果を社会や産業へ迅速に還元するための組織で、知的財産や人材育成、資金調達などの面から事業化を支援する「プラットフォーム型CIP」として位置づけられる。</p>
+<h2>組織概要と体制</h2>
+<p>組合の設立日は2025年9月19日。代表理事は東京大学総長の藤井輝夫氏が務め、理事にはソフトバンク代表取締役社長の宮川潤一氏、LINEヤフー代表取締役CEOの出澤剛氏が就任した。本部は東京都文京区の東京大学内に設置され、AI関連技術の社会実装を加速させるための中核拠点として運営される。</p>
+<h2>今後の展開</h2>
+<p>同組合では、Beyond AI研究推進機構で進めてきた基礎研究テーマを引き継ぎ、生成AIや自律システム、社会AI（Society AI）などの分野を中心に、企業や行政との連携による実証実験を進めていく。
+また、大学発の研究成果をスタートアップ創出や産業連携につなげる「AI事業化アクセラレーション拠点」としての役割も担い、日本におけるAIエコシステムの強化を目指す。</p>
+]]></description>
+      <pubDate>Wed, 15 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、自社設計の画像生成モデル「MAI-Image-1」を発表──フォトリアルな表現と高速生成を両立</title>
       <link>https://ledge.ai/articles/microsoft_mai_image_1_announcement</link>
       <description><![CDATA[<p>MicrosoftのAI部門であるMicrosoft AIは2025年10月14日（米国時間）、同社が初めて自社で設計・開発した画像生成モデル「MAI-Image-1」を<a href="https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/">発表</a>した。</p>
@@ -338,21 +353,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>デロイトはAI導入を強化しており、同時期にAnthropicとの提携拡大を発表したと<a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/">TechCrunch</a>が報道。一方で、AI生成文書の誤りによって公共契約の信頼性が揺らいでいると指摘した。デロイトは世界的にAIツールを業務へ統合しているが、今回の件は「AIを利用した文書の監査体制」が整備途上であることを浮き彫りにした。</p>
 ]]></description>
       <pubDate>Fri, 10 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>三井住友FG、社内AI「SMBC-GAI」にRAG機能を搭載──約130万件の社内文書を横断検索可能に</title>
-      <link>https://ledge.ai/articles/smbc_gai_rag_internal_search</link>
-      <description><![CDATA[<p>三井住友フィナンシャルグループ（SMBCグループ）は2025年10月6日、社内向けAIアシスタントツール「SMBC-GAI」に、RAG（Retrieval-Augmented Generation）技術を活用した社内情報検索機能を新たに搭載したと<a href="https://www.smfg.co.jp/news/pdf/j20251006_01.pdf">発表</a>した。社内規程や業務マニュアルなど約130万件に及ぶファイルをインデックス化し、従業員が一つのインターフェース上で横断的に検索・参照できるようにしたという。</p>
-<h2>RAG技術で社内情報を高精度に検索</h2>
-<p>RAG（Retrieval-Augmented Generation）とは、AIが関連性の高い情報を検索・参照し、それをもとに自然言語で回答を生成する技術だ。従来の生成AIと比べ、文脈理解と回答の正確性を高めることができる。「SMBC-GAI」ではこの仕組みを活用し、膨大な社内文書を効率的に検索できる環境を実現したという。</p>
-<h2>約130万件のファイルをインデックス化</h2>
-<p>対象は社内規程、通達、業務マニュアルなど約130万件にのぼるファイル群。RAGによって情報を体系的に整理・索引化することで、従業員は検索から回答生成までを一気通貫で行えるようになった。リリースによると、国内企業のRAG活用事例としては、学習ファイル数および利用人数の両面で「最大級の規模」としている。</p>
-<h2>三井住友銀行から導入、グループ展開を視野に</h2>
-<p>新機能はまず三井住友銀行の従業員向けに導入され、今後はSMBCグループ各社への展開が検討される。回答生成時には参照元を明示する仕組みも導入され、回答の根拠を追跡できるようになっている。</p>
-<h2>金融業務に特化したAI基盤へ</h2>
-<p>「SMBC-GAI」は2023年7月のリリース以降、社内の声を取り入れながら順次機能を強化してきた。SMBCグループは今後も「SMBC-GAI」を金融分野における汎用AI基盤へと進化させる方針で、従業員の業務効率化や顧客サービスの高度化につなげていくとしている。</p>
-]]></description>
-      <pubDate>Thu, 09 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
