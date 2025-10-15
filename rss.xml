@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、自社設計の画像生成モデル「MAI-Image-1」を発表──フォトリアルな表現と高速生成を両立</title>
+      <link>https://ledge.ai/articles/microsoft_mai_image_1_announcement</link>
+      <description><![CDATA[<p>MicrosoftのAI部門であるMicrosoft AIは2025年10月14日（米国時間）、同社が初めて自社で設計・開発した画像生成モデル「MAI-Image-1」を<a href="https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/">発表</a>した。</p>
+<p>フォトリアルな質感や構図の整った出力に加え、既存モデルと比べて生成速度を大幅に向上させた点が特徴で、今後はCopilotやBing Image CreatorなどMicrosoft製AIサービスへの順次統合を予定している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sand_1_07e63f2f03/sand_1_07e63f2f03.jpg" alt="sand-1.jpg" /></p>
+<h2>Microsoft初の完全社内開発モデル</h2>
+<p>MAI-Image-1は、Microsoft AIが完全に社内で設計・訓練した初の画像生成モデルであり、既存の外部モデルを基盤とせず独自開発された。研究チームは、効率的な学習パイプラインとデータ選別技術を構築し、独自の高品質データセットを用いて訓練を行ったという。</p>
+<p>モデルの評価は、画像生成AIの国際ベンチマーク「<a href="https://lmarena.ai/leaderboard/text-to-image">LMArena</a>」で実施され、初登場にしてトップ10入りを果たした。</p>
+<h2>フォトリアルな描写と生成速度の両立</h2>
+<p>公式ブログによると、MAI-Image-1は「現実に近い光表現」「安定した構図」「被写体の一貫性」に優れており、特に人間や風景のレンダリング品質が高いとされる。また、内部最適化により生成処理を高速化し、既存の大規模モデルよりも短時間で高解像度の画像を生成可能にした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/crosswalk_7e79e8b8d5/crosswalk_7e79e8b8d5.jpg" alt="crosswalk.jpg" /></p>
+<p>Microsoft AIは、テキストから画像を生成するプロンプト理解力の向上にも重点を置き、指示の意図や文脈をより正確に反映するアルゴリズムを採用したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/roadrunner_HQ_f5373a8b23/roadrunner_HQ_f5373a8b23.jpg" alt="roadrunner-HQ.jpg" /></p>
+<h2>今後の展開：CopilotやDesignerに統合へ</h2>
+<p>MAI-Image-1は今後、Copilot、Designer、Bing Image Creatorなど、同社の生成AIプロダクト群に順次統合される予定。Microsoftはこれにより、「安全で信頼性の高い画像生成を誰もが利用できる環境を提供する」としている。</p>
+<p>発表ではまた、MAI-Image-1を同社の新しい社内モデル群「MAI-」シリーズの第1弾と位置づけており、今後は動画生成や3D生成分野への展開も視野に入れている。</p>
+]]></description>
+      <pubDate>Wed, 15 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、Broadcomと戦略的提携──自社設計AIアクセラレーターを10GW規模で展開へ</title>
       <link>https://ledge.ai/articles/openai_broadcom_ai_accelerator_10gw_partnership</link>
       <description><![CDATA[<p>OpenAIは2025年10月13日（米国時間）、米半導体大手Broadcomとの戦略的提携を<a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">発表</a>した。両社は、OpenAIが設計したAIアクセラレーターとBroadcomのネットワークソリューションを組み合わせ、総計10ギガワット（GW）規模のAIクラスターを共同で構築する。展開は2026年後半に開始し、2029年末までの完了を予定している。（<a href="https://jp.broadcom.com/company/news/product-releases/63631">Broadcomのリリース</a>）</p>
@@ -333,24 +353,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>「SMBC-GAI」は2023年7月のリリース以降、社内の声を取り入れながら順次機能を強化してきた。SMBCグループは今後も「SMBC-GAI」を金融分野における汎用AI基盤へと進化させる方針で、従業員の業務効率化や顧客サービスの高度化につなげていくとしている。</p>
 ]]></description>
       <pubDate>Thu, 09 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIとAMD、6GW規模のAIインフラ契約を締結──次世代GPU「Instinct」複数世代を供給へ</title>
-      <link>https://ledge.ai/articles/openai_amd_6gw_ai_infrastructure</link>
-      <description><![CDATA[<p>OpenAIと米半導体大手AMDは2025年10月6日（現地時間）、OpenAIの次世代AIインフラ構築に向け、6GW規模の計算能力を備えたシステムを展開する包括的パートナーシップを締結したと<a href="https://openai.com/index/openai-amd-strategic-partnership/">発表</a>した。
-複数世代にわたるAMD「Instinct」GPUを活用し、2026年後半に最初の1GW分を導入する計画だ。</p>
-<h2>6GW規模の包括的パートナーシップ</h2>
-<p>AMDの<a href="https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus">発表</a>によると、今回の契約では、AIトレーニングや推論に最適化されたデータセンター向けGPU「Instinct」シリーズ（MI450および将来世代）をOpenAIに継続的に供給する。これにより、OpenAIは複数世代にわたるAMD GPUを活用し、スケーラブルで高効率なAIインフラを構築する方針だ。</p>
-<p>初期段階では、2026年後半に1GW相当の計算能力を展開。数年をかけて最大6GW規模まで拡張する。AMDによれば、この契約は同社のデータセンターGPU事業として過去最大級の供給量にあたるという。</p>
-<h2>株式ワラントによる資本提携</h2>
-<p>AMDは契約の一環として、OpenAIに対して約1億6千万株分の株式ワラントを発行。これにより、OpenAIは今後、AMDの発行済み株式の最大10%を取得する権利を持つことになる。
-このスキームは、長期的な供給関係の安定化と、両社の戦略的連携を強化する目的があると説明されている。</p>
-<h2>双方のコメント</h2>
-<p>OpenAIは、AMDとの協力が次世代の生成AIシステムをより効率的かつスケーラブルに運用するための重要な一歩であると説明し、今後、AMDのGPUを活用して自社モデルのトレーニングおよび推論を拡張していく考えを示した。AMDのCEOであるリサ・スー氏も、この提携がAI計算基盤の進化を推進し、Instinct GPUの性能と電力効率を最大限に引き出す機会になると強調している。</p>
-<h2>AIインフラ競争の新局面</h2>
-<p>同提携は、拡大を続ける生成AI需要に対応するための計算資源の長期確保と、複数世代GPUにわたる供給体制を明示した点で、AIインフラ整備の大きな節目となる。両社は今後も、研究開発と運用の両面で協力を継続する方針だ。</p>
-]]></description>
-      <pubDate>Thu, 09 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
