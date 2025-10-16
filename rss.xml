@@ -133,17 +133,6 @@ Boston Dynamicsは「より人間に近い作業能力を備えたヒューマ�
       <pubDate>Tue, 14 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
-      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
-      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
-<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
-<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
-<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIがソフトウェアの脆弱性を自動修正──Google DeepMind、新エージェント「CodeMender」を発表</title>
       <link>https://ledge.ai/articles/deepmind_codemender_ai_vulnerability_fix</link>
       <description><![CDATA[<p>Google DeepMindは2025年10月10日、ソフトウェアの脆弱性を自動的に検出・修正するAIエージェント「CodeMender」を<a href="https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/">発表</a>した。</p>
@@ -282,6 +271,30 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
       <pubDate>Mon, 13 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
+      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
+      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
+<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
+<h2>言葉だけで「形」を思い描くタスク</h2>
+<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
+参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
+<p>たとえば――</p>
+<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
+<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
+<h2>GPT-5とo3が人間を上回る精度</h2>
+<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
+一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
+<h2>「見ずに考える」命題的推論</h2>
+<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
+<h2>人間とAIの“アファンタジア”の比較へ</h2>
+<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
+今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
+<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
+]]></description>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>富士通とジーンクエスト、因果AIで遺伝子と生活習慣の関係を解析──「Fujitsu Kozuchi」活用で新たな知見</title>
       <link>https://ledge.ai/articles/fujitsu_genequest_causal_ai</link>
       <description><![CDATA[<p>富士通株式会社と株式会社ジーンクエストは2025年10月9日、富士通のAI技術群「Fujitsu Kozuchi（コヅチ）」の中核技術である因果AIを活用し、遺伝子データとライフスタイルデータの関係性を解析した結果、新たな知見を得たと<a href="https://global.fujitsu/ja-jp/pr/news/2025/10/09-01">発表</a>した。</p>
@@ -294,13 +307,6 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 <p>富士通は今回の取り組みを「AIによって科学的知見を創出する“サイエンスDX”の推進」と位置づけており、生命科学領域での新たなAI応用事例として注目される。</p>
 ]]></description>
       <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
-      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
-      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 12 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/11 [SAT]ソフトバンクとオラクル、AI活用のためのソブリンクラウドを共同構築──国内運用基盤「Cloud PF Type A」でデータ主権を確保</title>
@@ -328,6 +334,37 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>両社は今後、生成AIや自然言語処理、画像解析などの高負荷AIワークロードにも対応する予定で、AI時代のデータ主権を支える中核的なインフラを目指す。</p>
 ]]></description>
       <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
+]]></description>
+      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
@@ -379,30 +416,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
       <pubDate>Fri, 10 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
-      <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
-      <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
-<p>人間の「心的イメージ（mental imagery）」を模した課題を、テキスト入力だけで解答させた結果、OpenAIのGPT-5とo3モデル群が平均67%の正答率を示し、人間（54.7%）を上回ったという。</p>
-<h2>言葉だけで「形」を思い描くタスク</h2>
-<p>研究は、認知心理学で半世紀以上議論されてきた「心的イメージが言語的か、それとも視覚的か」という論争をAIで再検証したもの。
-参加者には、頭の中で文字や図形を組み合わせて新しい形を作り、それが何に見えるか答える課題が与えられた。</p>
-<p>たとえば――</p>
-<p><strong>図：心的イメージ課題の一例</strong> ：「大文字のD」を左に90度回転し、「J」を下に組み合わせると傘の形になる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_7_26c25bc70d/x1_7_26c25bc70d.png" alt="x1 (7).png" /></p>
-<p>こうした「視覚イメージなしでは解けない」とされてきたタスクを、研究チームは60題（うち48題を新規作成）用意し、LLMに文章だけで解答させた。</p>
-<h2>GPT-5とo3が人間を上回る精度</h2>
-<p>結果、GPT-5は67.0%、OpenAI o3 Proは66.6%、標準o3は64.1% の正答率を記録。人間の平均54.7%を9〜12%上回り、統計的に有意な差が確認された（p \u003C .00001）。
-一方、Claude Sonnet 4やGemini 2.5 Proは40〜46%と低迷し、画像生成を併用した場合はむしろ精度が下がった。研究者は「画像を使わせると推論が乱れ、言語ベースの方が安定する」と分析している。</p>
-<h2>「見ずに考える」命題的推論</h2>
-<p>論文では、LLMが絵を思い浮かべているのではなく、言語構造に基づいて空間関係を再構築する「命題的推論（propositional reasoning）」を行っていると結論づけている。この結果は、「心的イメージは視覚的でなければならない」とする通説を覆す可能性があり、人間の想像力に関する認知科学の議論にも新たな示唆を与える。</p>
-<h2>人間とAIの“アファンタジア”の比較へ</h2>
-<p>研究チームは、視覚イメージを持たない「アファンタジア（aphantasia）」の人々も同様の課題をこなせる点に着目。「視覚表象を持たずとも、言語的・構造的な推論でイメージ依存課題を解ける」ことを、AIと人間の両方で確認した形だ。
-今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
-<p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
       <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
       <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
@@ -421,7 +434,7 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <h2>企業・業界別モデル展開へ</h2>
 <p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
@@ -453,7 +466,7 @@ Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録�
 <p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
 Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
@@ -471,7 +484,7 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 <p>Opalは、個人の創作活動やマーケティング支援、業務プロセスの自動化など、多様な用途に対応する。Googleは「ユーザーが複雑なプロセスを自動化したり、アイデアを素早く形にしたりできるよう支援する」としており、開発者コミュニティはDiscord上でも展開されている。</p>
 <p>@<a href="https://youtu.be/g9RBGnz-vqk">YouTube</a></p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
@@ -491,38 +504,7 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 <p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
 <p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
@@ -552,7 +534,25 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
 アイブ氏はセッションの最後にこう締めくくった。</p>
 <p>同氏はAIの可能性を「現状の延長ではなく、根本的な変化をもたらすもの」として位置づけた。</p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
+      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
+      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
+<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
+<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
+<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
+<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
+      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
+      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -597,7 +597,7 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
-      <pubDate>Wed, 08 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
