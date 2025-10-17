@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
+      <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
+      <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
+<p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=I06Ef8alr2Y">YouTube</a></p>
+<h2>Flowとの統合で生成から編集まで一体化</h2>
+<p>Googleは今回、AI映像制作ツール「Flow」へのアップデートを発表した。Flowは5か月前の導入以降、すでに2億7,500万本以上の動画を生成しており、Veo 3.1の搭載によって生成から編集までのプロセスがさらに統合された。</p>
+<p>Flowは、テキスト・画像・音声・映像素材といった“ingredients”を組み合わせて動画を構築できるツールである。
+既存の「Ingredients to Video」「Frames to Video」「Extend」機能に加え、今回は音声統合を拡張。ユーザーは複数の素材をもとに、AIがシーン構成やカメラワーク、トーンを自動的に最適化した一貫性のある映像を生成できる。</p>
+<p>新しいExtendでは、直前のクリップの終端1秒を手がかりに、1分以上の連続ショットとして自然に拡張することも可能。Googleはこれにより、「映像制作をより直感的で対話的な体験へと変える」としている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B78BJuPxmBU">YouTube</a></p>
+<h2>照明や構図、音声もAIが自動編集</h2>
+<p>Veo 3.1では、照明・陰影・カメラ構図をAIが自動的に制御し、シーン全体のトーンや一貫性を高める。
+また、AIによる音声生成と映像への同期統合にも対応し、環境音や効果音を含む“音響的なリアリティ”を再現できるようになった。</p>
+<p>Flow内には、シーンに要素を追加する「Insert」と、不要な物体を背景ごと削除する「Remove（近日提供）」の編集機能も加わった。影や照明の整合を自動で処理することで、合成感を抑えた自然な編集を可能にしている。
+Googleは、こうした機能群を通じて「richer audio」「more narrative control」「enhanced realism」の実現を掲げている。</p>
+<h2>Gemini APIで提供、Standard／Fastモデルを展開</h2>
+<p>Veo 3.1は、「Standard」モデルと「Fast」モデルの2種類を用意し、Gemini API経由で開発者向けに提供が開始された。生成速度を優先するワークフローにはFastモデル、品質を重視する制作用途にはStandardモデルが推奨される。</p>
+<p>さらに、Veo 3.1はVertex AIおよびGeminiアプリからも利用可能。新機能はGemini API／Vertex AIの双方で順次展開される予定で、API向けの「Scene extension」機能も今後提供される見込みだ。
+Googleは「AIによる創造的表現の民主化をさらに進める」とし、プロフェッショナルから一般ユーザーまで、誰もが高品質な映像制作にアクセスできる環境の構築を目指している。</p>
+<h2>Veoシリーズの進化</h2>
+<p>Veoシリーズは、2024年12月の「Veo 2」、2025年春の「Veo 3」に続く最新バージョン。
+今回のVeo 3.1では、「AI任せの自動生成」から「人とAIが協働して映像を作る」方向へと進化した。
+Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
+<p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
+]]></description>
+      <pubDate>Fri, 17 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本プロ野球選手会、SNS上の誹謗中傷を検出するAIを導入──クライマックスシリーズと日本シリーズで運用開始</title>
       <link>https://ledge.ai/articles/npb_ai_antislander_2025</link>
       <description><![CDATA[<p>日本プロ野球選手会は2025年10月10日、クライマックスシリーズおよび日本シリーズに出場する選手を対象に、SNS上での誹謗中傷を自動検出するAIシステムを導入すると<a href="https://jpbpa.net/2025/10/10/12723/">発表</a>した。AIがSNS上の投稿を常時モニタリングし、不適切な内容を検出・通報する仕組みを構築する。選手会は「選手が安心して競技に集中できる環境をつくる」ことを目的としている。</p>
