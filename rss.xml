@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NTTとNTTドコモビジネス、自動運転レベル4対応の「通信安定化ソリューション」を提供開始──IOWN技術で遠隔監視の通信を高信頼化</title>
+      <link>https://ledge.ai/articles/ntt_docomo_business_autonomous_driving_stable_communication_solution</link>
+      <description><![CDATA[<p>NTTドコモビジネス株式会社とNTT株式会社は2025年10月8日、自動運転車両など移動体向けに通信の安定性を高める「通信安定化ソリューション」の提供開始を<a href="https://www.ntt.com/about-us/press-releases/news/article/2025/1008.html">発表</a>した。</p>
+<p>両社が開発したIOWN（Innovative Optical and Wireless Network）技術を活用し、無線品質の予測に基づく複数回線のマルチパス通信制御と、データ連携システムを組み合わせることで、自動運転レベル4の遠隔監視を支える高信頼・低遅延な通信を実現する。</p>
+<h2>自動運転レベル4の社会実装を支える通信基盤</h2>
+<p>全国で進む自動運転レベル4の社会実装では、基地局の切り替えや通信干渉による一時的な映像途切れが課題となっている。NTTドコモビジネスとNTTは、これまで各地の自動運転実証実験で得た知見をもとに、通信の安定化に必要な複数技術をパッケージ化。導入までのリードタイムを短縮し、自治体や企業が容易に利用できる形で提供する。</p>
+<h2>3つの技術を統合したパッケージ構成</h2>
+<p>ソリューションは、次の3つの技術で構成される。</p>
+<ol>
+<li><strong>無線品質予測</strong> ：公衆ネットワークやローカル5G、Wi-Fiなどの無線品質を機械学習により予測（IOWN技術「Cradio」を活用）</li>
+<li><strong>マルチパス通信制御</strong> ：通信状況に応じて複数回線を制御し、高い接続性を実現（IOWN技術「協調型インフラ基盤」を活用）</li>
+<li><strong>リアルタイムデータ伝送</strong> ：車載カメラ映像やセンサーデータなどをリアルタイムに遠隔監視システムへ伝送（アプトポッド社「intdash」を活用）</li>
+</ol>
+<p>これにより、車両と遠隔監視システム間の通信を複数経路で同時接続し、無線品質の変化を先読みして制御することで、映像の途切れを抑えた安定した通信環境を構築できるという。</p>
+<p><strong>通信安定化ソリューションの構成イメージ</strong>：車載クライアント、クラウドサーバー（ドコモMEC）、監視センタを連携し、IOWN技術「Cradio」による無線品質予測とマルチパス通信制御、intdashによるデータ伝送を統合している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1008b_423a2f1ca4/1008b_423a2f1ca4.jpg" alt="1008b.jpg" /></p>
+<h2>実証で通信遅延を大幅に改善</h2>
+<p>両社は公道で自動運転車両を用いた実証実験を実施。クライアントとクラウド間の通信遅延400ミリ秒以下を維持できた割合は、非適用時の92％（1回線）および53％（2回線）に対し、本ソリューション適用時は99％に達したとしている。</p>
+<h2>各社の役割と今後の展開</h2>
+<p>このソリューションはNTTドコモビジネスが提供を担当し、intdashを用いた環境構築や活用提案を行う。NTTは「Cradio」および「協調型インフラ基盤」に関する研究開発を担う。</p>
+<p>今後は、自動運転における遠隔監視の安定化だけでなく、建設現場や工場、倉庫などでの遠隔操作・自動化分野への展開も見据える。両社は、通信安定化技術を通じて人手不足や安全確保などの社会課題の解決に貢献するとしている。</p>
+]]></description>
+      <pubDate>Fri, 17 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
       <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
       <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
