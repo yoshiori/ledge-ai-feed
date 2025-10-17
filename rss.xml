@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日本プロ野球選手会、SNS上の誹謗中傷を検出するAIを導入──クライマックスシリーズと日本シリーズで運用開始</title>
+      <link>https://ledge.ai/articles/npb_ai_antislander_2025</link>
+      <description><![CDATA[<p>日本プロ野球選手会は2025年10月10日、クライマックスシリーズおよび日本シリーズに出場する選手を対象に、SNS上での誹謗中傷を自動検出するAIシステムを導入すると<a href="https://jpbpa.net/2025/10/10/12723/">発表</a>した。AIがSNS上の投稿を常時モニタリングし、不適切な内容を検出・通報する仕組みを構築する。選手会は「選手が安心して競技に集中できる環境をつくる」ことを目的としている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/JPBPA_Press1_eeab9f12c0/JPBPA_Press1_eeab9f12c0.jpg" alt="JPBPA_Press1.jpg" /></p>
+<h2>クライマックスシリーズと日本シリーズで試験導入</h2>
+<p>対象となるのは、「2025 JERA クライマックスシリーズ セ」「2025 パーソル クライマックスシリーズ パ」および「SMBC日本シリーズ2025」に出場登録された全選手。</p>
+<p>AIがSNS上の投稿を監視し、誹謗中傷に該当する事案を自動的に検出。検出後は選手ごとにリスト化し、SNS運営元への通報や削除要請、NPB球団との情報共有、ダイレクトメッセージ（DM）対応、発信者情報開示請求や証拠保全などを通じて迅速な対応を行う。</p>
+<h2>英Signify GroupのAIを活用</h2>
+<p>導入されるのは、英国に本社を置くSignify Group社の誹謗中傷検出・通報支援サービス「Threat Matrix」。日本語を含む42言語と絵文字に対応し、主要SNS上の投稿をAIが自動的に分析して不適切な内容を検出する。
+同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）および国際テニス連盟（ITF）などでも採用されており、英プレミアリーグ・アーセナルFCでは導入後、誹謗中傷の検出件数が<a href="https://www.arsenal.com/news/24-supporters-banned-abusive-behaviour">約90％減少</a>したという。</p>
+<h2>選手と家族を守る取り組み</h2>
+<p>選手会は「誹謗中傷が選手の家族に及んだ場合には家族へのサポートも行う」としており、対象を家族にも拡大。
+SNS上の誹謗中傷が社会問題化する中、選手とその家族の精神的安全を守るための包括的な取り組みとして位置づけている。
+同会は今後も、日本プロフェッショナル野球組織（NPB）および12球団と連携しながら、選手が安心して競技に集中できる環境づくりを進めていく。</p>
+]]></description>
+      <pubDate>Fri, 17 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTTとNTTドコモビジネス、自動運転レベル4対応の「通信安定化ソリューション」を提供開始──IOWN技術で遠隔監視の通信を高信頼化</title>
       <link>https://ledge.ai/articles/ntt_docomo_business_autonomous_driving_stable_communication_solution</link>
       <description><![CDATA[<p>NTTドコモビジネス株式会社とNTT株式会社は2025年10月8日、自動運転車両など移動体向けに通信の安定性を高める「通信安定化ソリューション」の提供開始を<a href="https://www.ntt.com/about-us/press-releases/news/article/2025/1008.html">発表</a>した。</p>
@@ -359,37 +377,6 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>両社は今後、生成AIや自然言語処理、画像解析などの高負荷AIワークロードにも対応する予定で、AI時代のデータ主権を支える中核的なインフラを目指す。</p>
 ]]></description>
       <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
-]]></description>
-      <pubDate>Sat, 11 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
