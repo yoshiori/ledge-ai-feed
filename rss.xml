@@ -367,75 +367,6 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>富士通とジーンクエスト、因果AIで遺伝子と生活習慣の関係を解析──「Fujitsu Kozuchi」活用で新たな知見</title>
-      <link>https://ledge.ai/articles/fujitsu_genequest_causal_ai</link>
-      <description><![CDATA[<p>富士通株式会社と株式会社ジーンクエストは2025年10月9日、富士通のAI技術群「Fujitsu Kozuchi（コヅチ）」の中核技術である因果AIを活用し、遺伝子データとライフスタイルデータの関係性を解析した結果、新たな知見を得たと<a href="https://global.fujitsu/ja-jp/pr/news/2025/10/09-01">発表</a>した。</p>
-<p>実証では、同意が得られた約4,000名分の遺伝子情報と生活習慣アンケートデータを対象に、因果AIが両者の間に潜む因果構造を探索。特定の遺伝子多型が睡眠時間や食習慣、BMIなどの生活習慣に与える影響を可視化した。これにより、従来の統計的相関分析では把握しにくかった複雑な要因連鎖を明らかにしたとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_7b9b5b5a0a/sub1_7b9b5b5a0a.png" alt="sub1.png" /></p>
-<h2>因果AIで「相関」から「原因と結果」へ</h2>
-<p>富士通の因果AIは、膨大な多変量データの中から要因と結果の方向性を自動的に推定する技術。同社が開発した高速因果構造探索アルゴリズムにより、従来の分析手法よりも大規模・高精度な因果モデルを生成できる。富士通はこれを、産業・医療・科学分野を横断するAI基盤「Fujitsu Kozuchi」に搭載し、研究開発支援に活用している。</p>
-<h2>生活習慣改善や疾病予防へ応用</h2>
-<p>両社は、今回得られた知見を今後のヘルスケアサービスに応用する方針を示している。ジーンクエストは個人向け遺伝子解析サービスの高度化を進め、生活習慣病予防やパーソナライズド医療への展開を目指す。富士通は医療機関や製薬企業との連携を通じ、因果AIを「科学的エビデンス創出を支援する技術」として普及させる考えだ。</p>
-<p>富士通は今回の取り組みを「AIによって科学的知見を創出する“サイエンスDX”の推進」と位置づけており、生命科学領域での新たなAI応用事例として注目される。</p>
-]]></description>
-      <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/11 [SAT]ソフトバンクとオラクル、AI活用のためのソブリンクラウドを共同構築──国内運用基盤「Cloud PF Type A」でデータ主権を確保</title>
-      <link>https://ledge.ai/articles/softbank_oracle_sovereign_cloud_pf_type_a</link>
-      <description><![CDATA[<p>ソフトバンク株式会社と米オラクルは2025年10月8日、データ主権（ソブリン性）を確保しつつ、AI活用を前提としたクラウド基盤「Cloud PF Type A」を日本国内で運用するための協業を開始したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20251008_01/">発表</a>した。オラクルのクラウド技術「Oracle Alloy」を採用し、ソフトバンクが国内データセンターで独自運用を担う。政府機関や企業が自国の管理下で安全にAIやクラウドを活用できるソブリンクラウドの実現を目指す。</p>
-<h2>データ主権を守る「ソブリンクラウド」</h2>
-<p>両社が開発する「Cloud PF Type A」は、すべてのデータ処理・保存・管理を日本国内で完結させる構成をとる。国外へのデータ移転を伴わずにクラウドやAIを活用できるようにすることで、経済安全保障やガバナンス上のリスクを最小化する狙いがある。</p>
-<p>ソフトバンクは通信事業で培った国内ネットワークと運用ノウハウを活用し、オラクルは独自のクラウド基盤「Oracle Alloy」を通じて技術支援を提供。両社は「日本の社会インフラの一部として信頼されるクラウドを構築する」としている。</p>
-<h2>「Cloud PF Type A」を2026年に提供開始</h2>
-<p>新たに構築される「Cloud PF Type A」は、2026年4月に東日本拠点、同年10月に西日本拠点での提供を予定している。
-この基盤では、Oracle Cloud Infrastructure（OCI）の約200種類のクラウドおよびAIサービスを国内運用で利用可能になる。</p>
-<p>主な特徴は次の通り。</p>
-<ul>
-<li><strong>鍵管理（KMS）</strong> ：Oracle Vaultとソフトバンク独自システムを併用し、暗号鍵を完全に国内で管理。</li>
-<li><strong>通信構成</strong> ：「OnePort」や「SmartVPN」などの閉域網接続に対応し、安全なデータ通信を実現。</li>
-<li><strong>災害対策</strong> ：東西データセンターの冗長構成を採用し、事業継続（BCP）に対応。</li>
-<li><strong>運用支援</strong> ：ソフトバンクがMSP（運用管理代行）を提供し、導入から保守まで一括サポート。</li>
-</ul>
-<p>この構成により、政府・自治体・企業などがAIモデルの学習や推論を行っても、データが国外へ移動することはない。</p>
-<h2>両社のコメント</h2>
-<p>ソフトバンクは、自社DCの高いセキュリティ水準に適合したクラウドを提供し、生成AIやGPUを統合して多様な顧客ニーズに応える方針と述べた。オラクルは、Oracle Alloyにより日本国内のデータ主権要件に対応し、OCIの幅広いAI/クラウドを国内DCで利用可能にする取り組みだと説明した。</p>
-<h2>国内で広がる“主権クラウド”構想</h2>
-<p>欧州を中心に広がる「ソブリンクラウド（主権クラウド）」の潮流は、日本国内でも加速している。
-NTT、富士通、日立などが相次いで国産クラウド基盤の整備を進めており、今回のソフトバンクとオラクルの取り組みもその一環と位置づけられる。</p>
-<p>両社は今後、生成AIや自然言語処理、画像解析などの高負荷AIワークロードにも対応する予定で、AI時代のデータ主権を支える中核的なインフラを目指す。</p>
-]]></description>
-      <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
-      <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
-      <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
-<p>xAIは公式X（旧Twitter）で「Imagine v0.9は、映像品質・モーション・音声生成などにおいてv0.1から大幅に進化した」と投稿。<a href="https://grok.com/imagine">grok.com/imagine</a> では、Grokプラットフォーム上で同モデルを試せるようになっている。</p>
-<h2>音声と映像を同時生成──“編集不要”の体験を掲げる</h2>
-<p>xAIは今回の発表で、「Imagine v0.9は音声と映像を同時に生成する“ネイティブ・オーディオ＋ビデオ生成”を実現した」と説明。</p>
-<p>\u003E“Imagine v0.9 pushes the boundaries of native audio + video generation, creating cinematic experiences straight out of the box—no editing required.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_dragon_6a3a28422f/x_AI_Imagine_v0_9_1_dragon_6a3a28422f.jpg" alt="xAI Imagine v0-9-1 dragon.jpg" /></p>
-<p>投稿では、音声と映像が同期したドラゴンのデモ映像を公開。ユーザーは、生成後の編集作業なしで“完成された動画”を得られるとしている。</p>
-<h2>モーション精度とカメラ効果を強化</h2>
-<p>Imagine v0.9では、被写体の滑らかな動きとリアリズムを高精度で再現するモーション制御を導入した。
-さらに「インテリジェント・フォーカスシフト」と呼ばれる自動焦点移動など、ストーリーテリングに適したダイナミックなカメラ効果も追加された。</p>
-<p>\u003E“And lets you add dynamic camera effects like intelligent focus shifts for better storytelling.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e.jpg" alt="xAI Imagine v0-9-1 camera effects.jpg" /></p>
-<h2>自然な対話・歌唱・リズムまで再現</h2>
-<p>Imagine v0.9では、音声表現の幅も拡大。自然な対話や歌唱を含む“声の演出”が可能になった。</p>
-<p>\u003E“v0.9 also brings videos to life with natural dialogue and strong audio-visual harmony.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090.jpg" alt="xAI Imagine v0-9-1 natural dialogue.jpg" /></p>
-<p>\u003E“It also brings expressive singing to life with clear vocals and synchronized emotion.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_singing_05b4553dab/x_AI_Imagine_v0_9_1_singing_05b4553dab.jpg" alt="xAI Imagine v0-9-1 singing.jpg" /></p>
-<p>xAIはさらに、音と動きを合わせたダンス生成の例として、キャラクター「Ani」の動画を紹介している。</p>
-<p>\u003E“Plus good rhythm: here's Ani with smooth dance moves.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25.jpg" alt="xAI Imagine v0-9-1 ani dancing.jpg" /></p>
-<p>xAIはユーザーからのフィードバックを積極的に求め、モデル改良に反映させる方針を示した。</p>
-]]></description>
-      <pubDate>Fri, 10 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
       <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
       <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
@@ -454,7 +385,7 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <h2>企業・業界別モデル展開へ</h2>
 <p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
@@ -486,25 +417,7 @@ Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録�
 <p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
 Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoogleのノーコードAIミニアプリ「Opal」日本を含む15カ国に拡大──ワークフロー可視化と高速化を提供</title>
-      <link>https://ledge.ai/articles/google_opal_global_expansion</link>
-      <description><![CDATA[<p>Googleは2025年10月7日（現地時間）、自然言語からウェブアプリを作成できるノーコードAIツール「Opal」の提供地域を、日本を含む15カ国へ拡大したと<a href="https://blog.google/technology/google-labs/opal-expansion/">発表</a>した。OpalはGoogle Labsの実験プロジェクトで、コードを書くことなくAIミニアプリを構築できるのが特徴だ。</p>
-<h2>米国先行公開からグローバル展開へ</h2>
-<p>Opalは7月24日（現地時間）に米国で<a href="https://ledge.ai/articles/google_opal_no_code_ai_tool">初公開</a>。ユーザーが「タスク管理アプリを作成」「画像から色を抽出」といった指示を与えると、AIがHTML/CSS/JavaScriptで構成されたアプリを自動生成する。初期ユーザーの利用が想定以上に高度化したことを受け、今回、日本、韓国、インド、カナダ、ブラジル、アルゼンチン、ベトナム、インドネシア、シンガポール、コロンビア、エルサルバドル、コスタリカ、パナマ、ホンジュラス、パキスタンの15カ国での提供を開始した。</p>
-<h2>ワークフローの可視化と高速化</h2>
-<p>同時に、Opalの実用性を高める改良が行われた。</p>
-<ul>
-<li><strong>高度デバッグ</strong> ：ノーコードのまま、ビジュアルエディタ上でワークフローをステップごとに実行・検証。エラーは発生ステップにリアルタイム表示され、原因特定を容易にする。</li>
-<li><strong>パフォーマンス改善</strong> ：新規Opal作成の起動時間を短縮。**並列実行（parallel runs）**により複数ステップを同時に処理でき、待機時間を抑える。</li>
-</ul>
-<h2>クリエイティブから業務効率化まで</h2>
-<p>Opalは、個人の創作活動やマーケティング支援、業務プロセスの自動化など、多様な用途に対応する。Googleは「ユーザーが複雑なプロセスを自動化したり、アイデアを素早く形にしたりできるよう支援する」としており、開発者コミュニティはDiscord上でも展開されている。</p>
-<p>@<a href="https://youtu.be/g9RBGnz-vqk">YouTube</a></p>
-]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
@@ -524,7 +437,38 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 <p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
 <p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
+      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
+      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
+開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
+<h2>レッドストーンで構成されたAIモデル</h2>
+<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
+動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
+<h2>500万パラメータ規模の「ゲーム内AI」</h2>
+<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
+内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
+<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
+<h2>巨大な“AI脳”の内部構造</h2>
+<p>動画内では、CraftGPTの全体像も公開された。
+構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
+一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
+制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
+<h2>実験的かつ教育的な意義</h2>
+<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
+Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
+ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
+<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
@@ -554,7 +498,7 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 アイブ氏はセッションの最後にこう締めくくった。</p>
 <p>同氏はAIの可能性を「現状の延長ではなく、根本的な変化をもたらすもの」として位置づけた。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
@@ -565,14 +509,7 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 <p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>iRobotの共同創業者 ロドニー・ブルックス氏、「人型ロボットの器用さはまだ数十年先」──触覚なきAIを批判、“車輪付きポスト人型”の未来を予見</title>
-      <link>https://ledge.ai/articles/rodney_brooks_humanoid_dexterity_post_humanoid_future</link>
-      <description><![CDATA[<p>ロボット工学の第一人者であり、ルンバを開発したiRobotの共同創業者として知られるロドニー・ブルックス氏が、2025年9月26日付の<a href="https://rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -617,7 +554,76 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
-      <pubDate>Fri, 10 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
+      <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
+      <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
+<p>xAIは公式X（旧Twitter）で「Imagine v0.9は、映像品質・モーション・音声生成などにおいてv0.1から大幅に進化した」と投稿。<a href="https://grok.com/imagine">grok.com/imagine</a> では、Grokプラットフォーム上で同モデルを試せるようになっている。</p>
+<h2>音声と映像を同時生成──“編集不要”の体験を掲げる</h2>
+<p>xAIは今回の発表で、「Imagine v0.9は音声と映像を同時に生成する“ネイティブ・オーディオ＋ビデオ生成”を実現した」と説明。</p>
+<p>\u003E“Imagine v0.9 pushes the boundaries of native audio + video generation, creating cinematic experiences straight out of the box—no editing required.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_dragon_6a3a28422f/x_AI_Imagine_v0_9_1_dragon_6a3a28422f.jpg" alt="xAI Imagine v0-9-1 dragon.jpg" /></p>
+<p>投稿では、音声と映像が同期したドラゴンのデモ映像を公開。ユーザーは、生成後の編集作業なしで“完成された動画”を得られるとしている。</p>
+<h2>モーション精度とカメラ効果を強化</h2>
+<p>Imagine v0.9では、被写体の滑らかな動きとリアリズムを高精度で再現するモーション制御を導入した。
+さらに「インテリジェント・フォーカスシフト」と呼ばれる自動焦点移動など、ストーリーテリングに適したダイナミックなカメラ効果も追加された。</p>
+<p>\u003E“And lets you add dynamic camera effects like intelligent focus shifts for better storytelling.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e.jpg" alt="xAI Imagine v0-9-1 camera effects.jpg" /></p>
+<h2>自然な対話・歌唱・リズムまで再現</h2>
+<p>Imagine v0.9では、音声表現の幅も拡大。自然な対話や歌唱を含む“声の演出”が可能になった。</p>
+<p>\u003E“v0.9 also brings videos to life with natural dialogue and strong audio-visual harmony.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090.jpg" alt="xAI Imagine v0-9-1 natural dialogue.jpg" /></p>
+<p>\u003E“It also brings expressive singing to life with clear vocals and synchronized emotion.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_singing_05b4553dab/x_AI_Imagine_v0_9_1_singing_05b4553dab.jpg" alt="xAI Imagine v0-9-1 singing.jpg" /></p>
+<p>xAIはさらに、音と動きを合わせたダンス生成の例として、キャラクター「Ani」の動画を紹介している。</p>
+<p>\u003E“Plus good rhythm: here's Ani with smooth dance moves.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25.jpg" alt="xAI Imagine v0-9-1 ani dancing.jpg" /></p>
+<p>xAIはユーザーからのフィードバックを積極的に求め、モデル改良に反映させる方針を示した。</p>
+]]></description>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>富士通とジーンクエスト、因果AIで遺伝子と生活習慣の関係を解析──「Fujitsu Kozuchi」活用で新たな知見</title>
+      <link>https://ledge.ai/articles/fujitsu_genequest_causal_ai</link>
+      <description><![CDATA[<p>富士通株式会社と株式会社ジーンクエストは2025年10月9日、富士通のAI技術群「Fujitsu Kozuchi（コヅチ）」の中核技術である因果AIを活用し、遺伝子データとライフスタイルデータの関係性を解析した結果、新たな知見を得たと<a href="https://global.fujitsu/ja-jp/pr/news/2025/10/09-01">発表</a>した。</p>
+<p>実証では、同意が得られた約4,000名分の遺伝子情報と生活習慣アンケートデータを対象に、因果AIが両者の間に潜む因果構造を探索。特定の遺伝子多型が睡眠時間や食習慣、BMIなどの生活習慣に与える影響を可視化した。これにより、従来の統計的相関分析では把握しにくかった複雑な要因連鎖を明らかにしたとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_7b9b5b5a0a/sub1_7b9b5b5a0a.png" alt="sub1.png" /></p>
+<h2>因果AIで「相関」から「原因と結果」へ</h2>
+<p>富士通の因果AIは、膨大な多変量データの中から要因と結果の方向性を自動的に推定する技術。同社が開発した高速因果構造探索アルゴリズムにより、従来の分析手法よりも大規模・高精度な因果モデルを生成できる。富士通はこれを、産業・医療・科学分野を横断するAI基盤「Fujitsu Kozuchi」に搭載し、研究開発支援に活用している。</p>
+<h2>生活習慣改善や疾病予防へ応用</h2>
+<p>両社は、今回得られた知見を今後のヘルスケアサービスに応用する方針を示している。ジーンクエストは個人向け遺伝子解析サービスの高度化を進め、生活習慣病予防やパーソナライズド医療への展開を目指す。富士通は医療機関や製薬企業との連携を通じ、因果AIを「科学的エビデンス創出を支援する技術」として普及させる考えだ。</p>
+<p>富士通は今回の取り組みを「AIによって科学的知見を創出する“サイエンスDX”の推進」と位置づけており、生命科学領域での新たなAI応用事例として注目される。</p>
+]]></description>
+      <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/11 [SAT]ソフトバンクとオラクル、AI活用のためのソブリンクラウドを共同構築──国内運用基盤「Cloud PF Type A」でデータ主権を確保</title>
+      <link>https://ledge.ai/articles/softbank_oracle_sovereign_cloud_pf_type_a</link>
+      <description><![CDATA[<p>ソフトバンク株式会社と米オラクルは2025年10月8日、データ主権（ソブリン性）を確保しつつ、AI活用を前提としたクラウド基盤「Cloud PF Type A」を日本国内で運用するための協業を開始したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20251008_01/">発表</a>した。オラクルのクラウド技術「Oracle Alloy」を採用し、ソフトバンクが国内データセンターで独自運用を担う。政府機関や企業が自国の管理下で安全にAIやクラウドを活用できるソブリンクラウドの実現を目指す。</p>
+<h2>データ主権を守る「ソブリンクラウド」</h2>
+<p>両社が開発する「Cloud PF Type A」は、すべてのデータ処理・保存・管理を日本国内で完結させる構成をとる。国外へのデータ移転を伴わずにクラウドやAIを活用できるようにすることで、経済安全保障やガバナンス上のリスクを最小化する狙いがある。</p>
+<p>ソフトバンクは通信事業で培った国内ネットワークと運用ノウハウを活用し、オラクルは独自のクラウド基盤「Oracle Alloy」を通じて技術支援を提供。両社は「日本の社会インフラの一部として信頼されるクラウドを構築する」としている。</p>
+<h2>「Cloud PF Type A」を2026年に提供開始</h2>
+<p>新たに構築される「Cloud PF Type A」は、2026年4月に東日本拠点、同年10月に西日本拠点での提供を予定している。
+この基盤では、Oracle Cloud Infrastructure（OCI）の約200種類のクラウドおよびAIサービスを国内運用で利用可能になる。</p>
+<p>主な特徴は次の通り。</p>
+<ul>
+<li><strong>鍵管理（KMS）</strong> ：Oracle Vaultとソフトバンク独自システムを併用し、暗号鍵を完全に国内で管理。</li>
+<li><strong>通信構成</strong> ：「OnePort」や「SmartVPN」などの閉域網接続に対応し、安全なデータ通信を実現。</li>
+<li><strong>災害対策</strong> ：東西データセンターの冗長構成を採用し、事業継続（BCP）に対応。</li>
+<li><strong>運用支援</strong> ：ソフトバンクがMSP（運用管理代行）を提供し、導入から保守まで一括サポート。</li>
+</ul>
+<p>この構成により、政府・自治体・企業などがAIモデルの学習や推論を行っても、データが国外へ移動することはない。</p>
+<h2>両社のコメント</h2>
+<p>ソフトバンクは、自社DCの高いセキュリティ水準に適合したクラウドを提供し、生成AIやGPUを統合して多様な顧客ニーズに応える方針と述べた。オラクルは、Oracle Alloyにより日本国内のデータ主権要件に対応し、OCIの幅広いAI/クラウドを国内DCで利用可能にする取り組みだと説明した。</p>
+<h2>国内で広がる“主権クラウド”構想</h2>
+<p>欧州を中心に広がる「ソブリンクラウド（主権クラウド）」の潮流は、日本国内でも加速している。
+NTT、富士通、日立などが相次いで国産クラウド基盤の整備を進めており、今回のソフトバンクとオラクルの取り組みもその一環と位置づけられる。</p>
+<p>両社は今後、生成AIや自然言語処理、画像解析などの高負荷AIワークロードにも対応する予定で、AI時代のデータ主権を支える中核的なインフラを目指す。</p>
+]]></description>
+      <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
