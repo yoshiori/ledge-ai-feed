@@ -128,44 +128,6 @@ SNS上の誹謗中傷が社会問題化する中、選手とその家族の精�
       <pubDate>Fri, 17 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
-      <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
-      <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
-<p>SimCityは、家庭・企業・政府・中央銀行という4種類のエージェントを大規模言語モデル（LLM）で駆動し、都市の発展やマクロ経済の動きを自律的に再現する。エージェントは自然言語による推論を行い、労働市場・財市場・金融市場で相互に作用。人間のように意思決定を行いながら、都市経済の変動を模倣することができるという。
-なお、論文中にはその記載はないが、同名の商用ゲームシリーズとは無関係と見られる。</p>
-<h2>4種類のエージェントがつくる「AI経済」</h2>
-<p>SimCityには、以下の4つの主要な役割を担うエージェントが登場する。</p>
-<ul>
-<li><strong>家計（Households）</strong> ：消費、就業、住宅選択、貯蓄・投資を決定する。</li>
-<li><strong>企業（Firms）</strong> ：生産や雇用、価格設定、設備投資を行う。</li>
-<li><strong>政府（Government）</strong> ：所得税や付加価値税（VAT）の徴収、公共支出や福祉政策を担当する。</li>
-<li><strong>中央銀行（Central Bank）</strong> ：インフレ率やGDPの動向に応じて、修正版テイラー・ルールに基づき政策金利を設定する。</li>
-</ul>
-<p>また、視覚・言語モデル（VLM）が企業の立地や都市構造を決定。住宅地や工業地帯が自然に分かれるなど、都市の空間構成も自律的に形成される。</p>
-<h2>経済法則を自然に再現</h2>
-<p>研究チームは、44種類の財と最大200世帯から成る仮想経済を構築し、180ステップ（約15年）にわたるシミュレーションを実施した。前半36カ月を「移住フェーズ」、後半144カ月を「発展フェーズ」として進行した。</p>
-<p>その結果、SimCityは以下のような実経済の特徴（stylized facts）を再現できたという。</p>
-<ul>
-<li><strong>フィリップス曲線</strong> ：インフレ率と失業率の逆相関</li>
-<li><strong>オークンの法則</strong> ：失業率の変化とGDP成長率の負の関係</li>
-<li><strong>ベバリッジ曲線</strong> ：求人率と失業率の逆相関</li>
-<li><strong>エンゲルの法則</strong> ：所得の上昇に伴い食費の割合が低下</li>
-<li><strong>需要の価格弾力性</strong> ：必需品は非弾力的、贅沢品は弾力的</li>
-<li><strong>投資の高ボラティリティ</strong> ：消費よりも投資が景気に敏感</li>
-</ul>
-<p>これらは実際の経済データ（FRED, 1970Q1–）との比較でも一致傾向を示し、従来のエージェント・ベース・モデル（ABM）では再現が難しかった現象を多く含むと報告されている。</p>
-<h2>都市発展と価格ショックへの応答</h2>
-<p>SimCityは「移住フェーズ（36カ月）」と「発展フェーズ（144カ月）」の2段階で進行する。
-初期段階では移住者の流入によりGDPが上昇し、住宅と生産拠点の配置が形成される。VLMの判断により、住宅は都市中心部に、工場は周辺部に集中するなど、現実的なゾーニング構造が自律的に現れた。</p>
-<p>さらに研究チームは、一部の財の価格を50％変動させる「価格インパルス実験」を実施。価格は短期的に大きく変動したが、数年のうちに均衡へ回帰。実際の経済で観察される「価格の粘着性（menu cost）」と同様の挙動が確認された。</p>
-<h2>「AIがつくる社会をAIで観察」</h2>
-<p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
-総トークン数は約80万で、全体の実行コストは約180ドル。</p>
-<p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
-]]></description>
-      <pubDate>Thu, 16 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Boston Dynamics、トヨタ・リサーチ・インスティテュートと共同でヒューマノイドロボット「Atlas」の新型グリッパーを公開──“器用さ”を極める7DoFハンド開発の舞台裏</title>
       <link>https://ledge.ai/articles/bostondynamics_atlas_gripper_tri_202510</link>
       <description><![CDATA[<p>ボストン・ダイナミクス（Boston Dynamics）は2025年10月8日、トヨタ・リサーチ・インスティテュート（TRI）と共同研究を進めるヒューマノイドロボット「Atlas」の最新映像を<a href="https://www.youtube.com/watch?v=gS4rOqNDTBk">公開</a>した。</p>
@@ -303,60 +265,6 @@ DeepMindによれば、修正対象の一例として画像処理ライブラリ
       <pubDate>Tue, 14 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
-      <link>https://ledge.ai/articles/google_gemini_enterprise_ai_platform_launch</link>
-      <description><![CDATA[<p>Googleは米国時間2025年10月9日、企業向けの新しいAIプラットフォーム「Gemini Enterprise（ジェミニ・エンタープライズ）」を<a href="https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/">発表</a>した。
-職場におけるAI活用の“入口（front door）”として位置づけられ、従業員全員が直感的なチャットインターフェースを通じて、GoogleのAI機能を安全かつ統合的に利用できる環境を提供する。</p>
-<h2>部門単位のAIから、全社横断のAIへ</h2>
-<p>Googleは発表の冒頭で、「AIは働き方、ビジネス運営、顧客体験のすべてを変革する歴史的機会をもたらす」としながらも、従来のAI活用が部門ごとに孤立していた課題を指摘した。Gemini Enterpriseは、この分断を解消し、ワークフローと従業員をつなぐ包括的なAIプラットフォームとして開発された。</p>
-<p>Google Cloudによると、同社の強みは「信頼性の高いAIインフラ」「Google DeepMindによる先駆的研究」「多用途なGeminiモデルファミリー」の3層構造にある。このフルスタックAI戦略が、企業におけるAI変革を支える中核基盤になるという。</p>
-<h2>6つの中核コンポーネントを統合</h2>
-<p>Gemini Enterpriseは、以下の6つの要素を単一のインターフェースで統合する：</p>
-<ul>
-<li><strong>最新のGeminiモデル</strong> ：あらゆる業務タスクの“頭脳”として、高度な推論と生成を実現。</li>
-<li><strong>ノーコード・ワークベンチ</strong> ：非エンジニアでもデータ分析やエージェント連携が可能。</li>
-<li><strong>事前構築エージェント</strong> ：リサーチやデータインサイトなどの専門業務に即対応。</li>
-<li><strong>企業データとの安全な接続</strong> ：Google WorkspaceやMicrosoft 365、Salesforce、SAPなどにシームレス接続。</li>
-<li><strong>統合ガバナンス</strong> ：すべてのエージェントを一元的に可視化・保護・監査。</li>
-<li><strong>オープンなエコシステム</strong> ：10万社を超えるパートナーによる拡張性を確保。</li>
-</ul>
-<p>Googleはこれにより、「単一タスクの効率化を超え、ワークフロー全体を自動化する」としている。</p>
-<h2>業務アプリとの統合と新機能</h2>
-<p>Gemini EnterpriseはGoogle Workspaceとも密接に連携する。
-テキスト・画像・動画・音声を理解・生成できる初のマルチモーダルエージェントが導入され、文書作成や会議運営などの作業を支援。
-「Google Vids」によるAI生成動画の作成機能や、「Google Meet」でのリアルタイム音声翻訳機能も提供される。
-後者は発話者のトーンや表現を反映し、自然な多言語コミュニケーションを可能にするという。</p>
-<p>さらに、「データサイエンスエージェント（プレビュー）」が発表された。
-データ取り込みから探索、モデルトレーニングの自動化までを担い、VodafoneやWalmartなどの企業が既に活用している。</p>
-<h2>導入事例の拡大と実用成果</h2>
-<p>Googleは、Banco BV、Klarna、Mercedes-Benz、Swarovskiなどの導入事例を紹介した。
-Banco BVでは、分析作業の自動化により、マネージャーが新規ビジネス開拓に注力できるようになった。Mercedes-BenzはGeminiを用いてドライバーと自然な会話ができる自動車内AIアシスタントを構築している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ijqTReRzG8M&amp;t=26s">YouTube</a></p>
-<p>日本企業では、メルカリがGoogle AIをコールセンターに導入。
-AI主導のカスタマーサービス体験を実現し、業務量を20％削減、ROI（投資収益率）を500％向上させる見込みとしている。</p>
-<h2>開発者×エージェント経済──A2AとAP2で拡張</h2>
-<p>Gemini Enterpriseは企業だけでなく、開発者にも開かれたプラットフォームとして進化する。
-すでに100万人以上が利用する「Gemini CLI」に加え、AIをコマンドラインから拡張できる「Gemini CLI Extensions」を導入。
-さらに、開発者やISV（独立系ソフトウェアベンダー）がエージェントを構築・販売・収益化できる「エージェントエコノミー」の構想を発表した。</p>
-<p>この仕組みを支えるのが、</p>
-<ul>
-<li><strong>Agent2Agent Protocol（A2A）</strong> ：エージェント間通信を標準化する新プロトコル</li>
-<li><strong>Agent Payments Protocol（AP2）</strong> ：エージェントによる安全な金融取引を実現する決済標準
-の2つである。AP2は、American Express、Mastercard、PayPalなど100社超のパートナーと共同で策定された。</li>
-</ul>
-<h2>学習・導入支援プログラム</h2>
-<p>Googleは、AI人材育成と現場導入支援の両面から変革を後押しする。
-新たに全従業員が無料でAIスキルを学べる「Google Skills」を開設し、開発者向けの教育プログラム「Gemini Enterprise Agent Ready（GEAR）」を開始した。
-さらに、顧客企業に伴走して導入支援を行うAIエンジニアチーム「Team Delta」も新設している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<h2>AIの“入口”としての意義</h2>
-<p>Googleは、AIの未来を「オープンで協力的なエコシステム」にあるとし、Box、Workday、ServiceNowなど主要企業との連携を拡大している。クロスプラットフォームでのワークフロー連携や導入支援、検証済みエージェントの発見、収益化の仕組みなど、10万社超のパートナー基盤を活用し、AI導入を全層で支援する方針だ。</p>
-<p>\u003E「Gemini Enterpriseは、Google AIの最高の機能をすべての従業員とワークフローに届ける“職場AIの新たな入口”です」（Google Cloud公式ブログより）</p>
-<p>Googleは、企業にとってのAI導入を「一部の実験」から「全員の変革」へと引き上げる転換点として、この新プラットフォームを位置づけている。</p>
-]]></description>
-      <pubDate>Mon, 13 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>公共2025/10/13 [MON]AIとの出会い、早すぎる？──Pew調査で明らかになった子どものチャットボット利用の低年齢化</title>
       <link>https://ledge.ai/articles/pew_children_ai_chatbot_early_use</link>
       <description><![CDATA[<p>米国の調査機関Pew Research Centerは2025年10月8日、保護者3,251人を対象にした全国調査レポート「How parents manage screen time for kids」を<a href="https://www.pewresearch.org/internet/2025/10/08/how-parents-manage-screen-time-for-kids/">発表</a>した。報告によると、5〜7歳の子どもの3％、8〜10歳の7％、11〜12歳の15％が、ChatGPTやGeminiなどのAIチャットボットを利用した経験があると回答。生成AIとの接触が、幼児期を含む低年齢層にまで広がりつつあることが明らかになった。</p>
@@ -418,23 +326,22 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>オープンLLMの日本語性能でトップ──FLUX、「Flux Japanese LLM」公開　独自手法でQwen2.5を進化</title>
-      <link>https://ledge.ai/articles/flux_japanese_llm_release</link>
-      <description><![CDATA[<p>国内スタートアップのFLUX株式会社は2025年9月29日、日本語特化の大規模言語モデル「Flux Japanese LLM」を<a href="https://flux.jp/news/1093/">発表</a>した。</p>
-<p>同モデルはAlibaba Cloudの大規模言語モデル「Qwen2.5-32B」を基盤に、日本語理解・生成性能を独自の新手法で強化したもので、Open Japanese LLM Leaderboard（通称：LLM勉強会ランキング）で総合スコア第1位（0.7417）を記録したという。</p>
-<h2>日本語能力を高める新手法「Precise-tuning」とは</h2>
-<p>FLUXは今回のモデル開発にあたり、従来のファインチューニングとは異なる「Precise-tuning（プリサイズチューニング）」手法を導入した。日本語データセット全体でパラメーターを再学習するのではなく、日本語能力強化に必要なネットワーク回路のみを特定して再調整することで、効率的かつ精度の高い言語理解を実現したとしている。</p>
-<p><strong>FLUXが開発した「Precise-tuning」手法の概念図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1440_810_4_6b464affdc/1440_810_4_6b464affdc.jpg" alt="1440-810-4.jpg" /></p>
-<h2>ベンチマークで国内首位に</h2>
-<p>同モデルは、LLM勉強会ランキング<a href="https://ledge.ai/articles/open_japanese_llm_leaderboard">オープン日本語LLMリーダーボード</a>において総合スコア0.7417を記録し、他の日本語モデルを上回る評価を得たという。</p>
-<p>このランキングは、日本の有志研究者・エンジニアによるコミュニティ「<a href="https://llm-jp.nii.ac.jp/">LLM-jp</a>（通称：LLM勉強会）」が運営しており、複数の日本語LLMを自然言語推論・要約・コード生成などのタスクで比較評価するオープンベンチマークとして知られる。</p>
-<p>LLM-jpは、国立情報学研究所（NII）を事務局とする共同研究プロジェクトで、2024年4月にNII内に設立された大規模言語モデル研究開発センター（LLMC）と連携して、「日本語に強いオープンな大規模言語モデル」を開発・評価する活動を進めている。そのため、このランキングは国内の学術・産業両分野で日本語LLMの性能を客観的に測る基準として広く参照されている。</p>
-<p><strong>Open Japanese LLM Leaderboardでの評価結果。Flux Japanese LLMが第1位を記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/News_main_240718_3_e93e607d1f/News_main_240718_3_e93e607d1f.jpg" alt="News_main_240718-3.jpg" /></p>
-<p>モデルはHugging Face上で公開されており、<a href="https://huggingface.co/flux-inc/Flux-Japanese-Qwen2.5-32B-Instruct-V1.0">モデルカード</a>には、自然言語処理・要約・コード生成タスクでの性能指標や学習設計の概要が掲載されている。</p>
-<h2>企業・業界別モデル展開へ</h2>
-<p>FLUXは、「Flux Japanese LLM」を自社のノーコードAIプラットフォーム群と連携させる計画を進めており、金融業界向けの特化モデル開発も行っている。同社は「AIをすべての人の手に」をミッションに掲げ、企業・研究機関・行政などが安全にLLMを活用できる基盤づくりを目指している。</p>
+      <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
+      <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
+      <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
+<p>DEWRは2025年9月26日付で、問題となった報告書「Targeted Compliance Framework（TCF） Assurance Review」と、その概要をまとめた「Statement of Assurance」を更新し、訂正版を公式サイトで公開した。
+同省は<a href="https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report">公式ページ</a>で「この文書は9月26日に更新され、参照と脚注の誤りを訂正した。修正は結論や提言に影響を与えない」と明記している。</p>
+<h2>存在しない文献をAIが生成</h2>
+<p>調査対象となったのは、雇用支援制度「Targeted Compliance Framework（TCF）」に関する外部監査報告書で、総額約43万9,000豪ドル（約4,200万円）でデロイトに発注されていた。</p>
+<p><a href="https://apnews.com/article/australia-ai-errors-deloitte-ab54858680ffc4ae6555b31c8fb987f3">AP通信</a>は、報告書に「実在しない学術論文への参照や、誤った引用が含まれていた」と報じている。また、Financial Times（FT）によると、デロイトは報告書の一部作成でMicrosoftの「Azure OpenAI」ツールを使用していたことを認め、改訂版にはその利用事実が追記されたという。</p>
+<p>複数の誤りがAIによるハルシネーション（幻覚）に起因していると<a href="https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report">The Guardian</a>が指摘している。</p>
+<h2>デロイト、返金を実施</h2>
+<p>デロイトが最終支払い分を返金することでオーストラリア政府と合意した。デロイトは声明で「参照と脚注に関する誤りを認識し、修正を完了した」と説明している。DEWR側は、報告書の主要な所見や提言自体に変更はないとしており、「修正は文献参照に限定され、内容の妥当性には影響していない」としている。</p>
+<h2>政府の声明と再発防止</h2>
+<p>DEWRの事務次官は10月3日付の声明で、「Targeted Compliance Frameworkの透明性と信頼性を高めるため、独立レビューを踏まえて制度改良を進めている」と述べた。
+声明では、Deloitteによる報告書も改善プロセスの一部として参照していることが明らかにされ、政府側の対応は継続中とみられる。</p>
+<h2>コンサル業界で問われる「AIの信頼性」</h2>
+<p>デロイトはAI導入を強化しており、同時期にAnthropicとの提携拡大を発表したと<a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/">TechCrunch</a>が報道。一方で、AI生成文書の誤りによって公共契約の信頼性が揺らいでいると指摘した。デロイトは世界的にAIツールを業務へ統合しているが、今回の件は「AIを利用した文書の監査体制」が整備途上であることを浮き彫りにした。</p>
 ]]></description>
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
@@ -471,6 +378,60 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
+      <link>https://ledge.ai/articles/google_gemini_enterprise_ai_platform_launch</link>
+      <description><![CDATA[<p>Googleは米国時間2025年10月9日、企業向けの新しいAIプラットフォーム「Gemini Enterprise（ジェミニ・エンタープライズ）」を<a href="https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/">発表</a>した。
+職場におけるAI活用の“入口（front door）”として位置づけられ、従業員全員が直感的なチャットインターフェースを通じて、GoogleのAI機能を安全かつ統合的に利用できる環境を提供する。</p>
+<h2>部門単位のAIから、全社横断のAIへ</h2>
+<p>Googleは発表の冒頭で、「AIは働き方、ビジネス運営、顧客体験のすべてを変革する歴史的機会をもたらす」としながらも、従来のAI活用が部門ごとに孤立していた課題を指摘した。Gemini Enterpriseは、この分断を解消し、ワークフローと従業員をつなぐ包括的なAIプラットフォームとして開発された。</p>
+<p>Google Cloudによると、同社の強みは「信頼性の高いAIインフラ」「Google DeepMindによる先駆的研究」「多用途なGeminiモデルファミリー」の3層構造にある。このフルスタックAI戦略が、企業におけるAI変革を支える中核基盤になるという。</p>
+<h2>6つの中核コンポーネントを統合</h2>
+<p>Gemini Enterpriseは、以下の6つの要素を単一のインターフェースで統合する：</p>
+<ul>
+<li><strong>最新のGeminiモデル</strong> ：あらゆる業務タスクの“頭脳”として、高度な推論と生成を実現。</li>
+<li><strong>ノーコード・ワークベンチ</strong> ：非エンジニアでもデータ分析やエージェント連携が可能。</li>
+<li><strong>事前構築エージェント</strong> ：リサーチやデータインサイトなどの専門業務に即対応。</li>
+<li><strong>企業データとの安全な接続</strong> ：Google WorkspaceやMicrosoft 365、Salesforce、SAPなどにシームレス接続。</li>
+<li><strong>統合ガバナンス</strong> ：すべてのエージェントを一元的に可視化・保護・監査。</li>
+<li><strong>オープンなエコシステム</strong> ：10万社を超えるパートナーによる拡張性を確保。</li>
+</ul>
+<p>Googleはこれにより、「単一タスクの効率化を超え、ワークフロー全体を自動化する」としている。</p>
+<h2>業務アプリとの統合と新機能</h2>
+<p>Gemini EnterpriseはGoogle Workspaceとも密接に連携する。
+テキスト・画像・動画・音声を理解・生成できる初のマルチモーダルエージェントが導入され、文書作成や会議運営などの作業を支援。
+「Google Vids」によるAI生成動画の作成機能や、「Google Meet」でのリアルタイム音声翻訳機能も提供される。
+後者は発話者のトーンや表現を反映し、自然な多言語コミュニケーションを可能にするという。</p>
+<p>さらに、「データサイエンスエージェント（プレビュー）」が発表された。
+データ取り込みから探索、モデルトレーニングの自動化までを担い、VodafoneやWalmartなどの企業が既に活用している。</p>
+<h2>導入事例の拡大と実用成果</h2>
+<p>Googleは、Banco BV、Klarna、Mercedes-Benz、Swarovskiなどの導入事例を紹介した。
+Banco BVでは、分析作業の自動化により、マネージャーが新規ビジネス開拓に注力できるようになった。Mercedes-BenzはGeminiを用いてドライバーと自然な会話ができる自動車内AIアシスタントを構築している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ijqTReRzG8M&amp;t=26s">YouTube</a></p>
+<p>日本企業では、メルカリがGoogle AIをコールセンターに導入。
+AI主導のカスタマーサービス体験を実現し、業務量を20％削減、ROI（投資収益率）を500％向上させる見込みとしている。</p>
+<h2>開発者×エージェント経済──A2AとAP2で拡張</h2>
+<p>Gemini Enterpriseは企業だけでなく、開発者にも開かれたプラットフォームとして進化する。
+すでに100万人以上が利用する「Gemini CLI」に加え、AIをコマンドラインから拡張できる「Gemini CLI Extensions」を導入。
+さらに、開発者やISV（独立系ソフトウェアベンダー）がエージェントを構築・販売・収益化できる「エージェントエコノミー」の構想を発表した。</p>
+<p>この仕組みを支えるのが、</p>
+<ul>
+<li><strong>Agent2Agent Protocol（A2A）</strong> ：エージェント間通信を標準化する新プロトコル</li>
+<li><strong>Agent Payments Protocol（AP2）</strong> ：エージェントによる安全な金融取引を実現する決済標準
+の2つである。AP2は、American Express、Mastercard、PayPalなど100社超のパートナーと共同で策定された。</li>
+</ul>
+<h2>学習・導入支援プログラム</h2>
+<p>Googleは、AI人材育成と現場導入支援の両面から変革を後押しする。
+新たに全従業員が無料でAIスキルを学べる「Google Skills」を開設し、開発者向けの教育プログラム「Gemini Enterprise Agent Ready（GEAR）」を開始した。
+さらに、顧客企業に伴走して導入支援を行うAIエンジニアチーム「Team Delta」も新設している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<h2>AIの“入口”としての意義</h2>
+<p>Googleは、AIの未来を「オープンで協力的なエコシステム」にあるとし、Box、Workday、ServiceNowなど主要企業との連携を拡大している。クロスプラットフォームでのワークフロー連携や導入支援、検証済みエージェントの発見、収益化の仕組みなど、10万社超のパートナー基盤を活用し、AI導入を全層で支援する方針だ。</p>
+<p>\u003E「Gemini Enterpriseは、Google AIの最高の機能をすべての従業員とワークフローに届ける“職場AIの新たな入口”です」（Google Cloud公式ブログより）</p>
+<p>Googleは、企業にとってのAI導入を「一部の実験」から「全員の変革」へと引き上げる転換点として、この新プラットフォームを位置づけている。</p>
+]]></description>
+      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/10/11 [SAT]Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
       <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
       <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
@@ -487,37 +448,6 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
 <h2>コンシューマーGPUでのLLM実行を視野に</h2>
 <p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
 <p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
-]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minecraft上で動作するAIチャットボット「CraftGPT」誕生──500万パラメータをレッドストーン回路で構築</title>
-      <link>https://ledge.ai/articles/minecraft_ai_chatbot_craftgpt</link>
-      <description><![CDATA[<p>人気ゲーム「Minecraft（マインクラフト）」の中で、実際に動作するAIチャットボットが登場した。
-開発したのはゲームエンジニア兼クリエイターの Sammyuri氏。2025年10月1日、同氏はYouTubeで「I built ChatGPT with Minecraft redstone!（マインクラフトのレッドストーンでChatGPTを作った）」と題する動画を<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">公開</a>し、ゲーム内回路だけで大規模言語モデルを構築するプロジェクト「CraftGPT」を披露した。</p>
-<h2>レッドストーンで構成されたAIモデル</h2>
-<p>「CraftGPT」は、Minecraftのブロックと電気信号（レッドストーン）によって作られた小型の言語モデルだ。
-動画では、入力された文字列に対して「Hi! How are you?」などの応答を生成する様子が紹介されている。演算は、ブロックごとに配置された論理回路が信号を受け渡しながら行われ、AIの“思考”を物理的なパルスとして可視化している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt1_ee0a430c02/craft_gpt1_ee0a430c02.jpg" alt="craft gpt1.jpg" /></p>
-<h2>500万パラメータ規模の「ゲーム内AI」</h2>
-<p>Sammyuri氏によると、このAIモデルは 約5,087,280パラメータ の構成を持つ。
-内部には、自然言語処理で用いられる「トークナイザー」「アテンション層」「行列演算」などの要素を模した回路が組み込まれているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt2_cc7dc4a387/craft_gpt2_cc7dc4a387.jpg" alt="craft gpt2.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt3_5fef40fd2e/craft_gpt3_5fef40fd2e.jpg" alt="craft gpt3.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt4_c1f6e020e7/craft_gpt4_c1f6e020e7.jpg" alt="craft gpt4.jpg" /></p>
-<p>実装には高速動作環境「MCHPRS（Minecraft High Performance Redstone Server）」が使用され、1トークンの生成に数分を要する。リアルタイム対話には至らないが、AIの計算過程をブロック単位で表現する試みとして注目を集めている。</p>
-<h2>巨大な“AI脳”の内部構造</h2>
-<p>動画内では、CraftGPTの全体像も公開された。
-構造は 約1,020×260×1,656ブロック に及び、総ブロック数はおよそ 4億3800万個。
-一つひとつの回路がAIの重みや演算ノードを表しており、まるで“Minecraft上に広がる巨大な脳”のような光景を成している。
-制作者は信号の流れを説明しながら、「AIが言葉を生み出す瞬間を、目に見える形で再現した」と語っている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/craft_gpt5_9140b45f1a/craft_gpt5_9140b45f1a.jpg" alt="craft gpt5.jpg" /></p>
-<h2>実験的かつ教育的な意義</h2>
-<p>CraftGPTは、実用的なAIチャットではなく、AIの内部構造を学び・観察するためのプロジェクトだ。
-Sammyuri氏は動画の中で、「AIを単なるブラックボックスとして見るのではなく、その仕組みを楽しみながら理解できるものにしたかった」と述べている。
-ゲームを舞台にしたこの試みは、AI技術と創造的表現の融合を示す作品としても評価されている。</p>
-<p>YouTubeのコメント欄には、「AIの脳の中を歩いているようだ」「ここまで精密な回路を組むとは信じられない」といった驚きの声が寄せられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=VaeI9YgE1o8">YouTube</a></p>
 ]]></description>
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
@@ -608,30 +538,40 @@ Sammyuri氏は動画の中で、「AIを単なるブラックボックスとし�
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
-      <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
-      <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
-<p>xAIは公式X（旧Twitter）で「Imagine v0.9は、映像品質・モーション・音声生成などにおいてv0.1から大幅に進化した」と投稿。<a href="https://grok.com/imagine">grok.com/imagine</a> では、Grokプラットフォーム上で同モデルを試せるようになっている。</p>
-<h2>音声と映像を同時生成──“編集不要”の体験を掲げる</h2>
-<p>xAIは今回の発表で、「Imagine v0.9は音声と映像を同時に生成する“ネイティブ・オーディオ＋ビデオ生成”を実現した」と説明。</p>
-<p>\u003E“Imagine v0.9 pushes the boundaries of native audio + video generation, creating cinematic experiences straight out of the box—no editing required.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_dragon_6a3a28422f/x_AI_Imagine_v0_9_1_dragon_6a3a28422f.jpg" alt="xAI Imagine v0-9-1 dragon.jpg" /></p>
-<p>投稿では、音声と映像が同期したドラゴンのデモ映像を公開。ユーザーは、生成後の編集作業なしで“完成された動画”を得られるとしている。</p>
-<h2>モーション精度とカメラ効果を強化</h2>
-<p>Imagine v0.9では、被写体の滑らかな動きとリアリズムを高精度で再現するモーション制御を導入した。
-さらに「インテリジェント・フォーカスシフト」と呼ばれる自動焦点移動など、ストーリーテリングに適したダイナミックなカメラ効果も追加された。</p>
-<p>\u003E“And lets you add dynamic camera effects like intelligent focus shifts for better storytelling.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e.jpg" alt="xAI Imagine v0-9-1 camera effects.jpg" /></p>
-<h2>自然な対話・歌唱・リズムまで再現</h2>
-<p>Imagine v0.9では、音声表現の幅も拡大。自然な対話や歌唱を含む“声の演出”が可能になった。</p>
-<p>\u003E“v0.9 also brings videos to life with natural dialogue and strong audio-visual harmony.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090.jpg" alt="xAI Imagine v0-9-1 natural dialogue.jpg" /></p>
-<p>\u003E“It also brings expressive singing to life with clear vocals and synchronized emotion.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_singing_05b4553dab/x_AI_Imagine_v0_9_1_singing_05b4553dab.jpg" alt="xAI Imagine v0-9-1 singing.jpg" /></p>
-<p>xAIはさらに、音と動きを合わせたダンス生成の例として、キャラクター「Ani」の動画を紹介している。</p>
-<p>\u003E“Plus good rhythm: here's Ani with smooth dance moves.”</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25.jpg" alt="xAI Imagine v0-9-1 ani dancing.jpg" /></p>
-<p>xAIはユーザーからのフィードバックを積極的に求め、モデル改良に反映させる方針を示した。</p>
+      <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
+      <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
+      <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
+<p>SimCityは、家庭・企業・政府・中央銀行という4種類のエージェントを大規模言語モデル（LLM）で駆動し、都市の発展やマクロ経済の動きを自律的に再現する。エージェントは自然言語による推論を行い、労働市場・財市場・金融市場で相互に作用。人間のように意思決定を行いながら、都市経済の変動を模倣することができるという。
+なお、論文中にはその記載はないが、同名の商用ゲームシリーズとは無関係と見られる。</p>
+<h2>4種類のエージェントがつくる「AI経済」</h2>
+<p>SimCityには、以下の4つの主要な役割を担うエージェントが登場する。</p>
+<ul>
+<li><strong>家計（Households）</strong> ：消費、就業、住宅選択、貯蓄・投資を決定する。</li>
+<li><strong>企業（Firms）</strong> ：生産や雇用、価格設定、設備投資を行う。</li>
+<li><strong>政府（Government）</strong> ：所得税や付加価値税（VAT）の徴収、公共支出や福祉政策を担当する。</li>
+<li><strong>中央銀行（Central Bank）</strong> ：インフレ率やGDPの動向に応じて、修正版テイラー・ルールに基づき政策金利を設定する。</li>
+</ul>
+<p>また、視覚・言語モデル（VLM）が企業の立地や都市構造を決定。住宅地や工業地帯が自然に分かれるなど、都市の空間構成も自律的に形成される。</p>
+<h2>経済法則を自然に再現</h2>
+<p>研究チームは、44種類の財と最大200世帯から成る仮想経済を構築し、180ステップ（約15年）にわたるシミュレーションを実施した。前半36カ月を「移住フェーズ」、後半144カ月を「発展フェーズ」として進行した。</p>
+<p>その結果、SimCityは以下のような実経済の特徴（stylized facts）を再現できたという。</p>
+<ul>
+<li><strong>フィリップス曲線</strong> ：インフレ率と失業率の逆相関</li>
+<li><strong>オークンの法則</strong> ：失業率の変化とGDP成長率の負の関係</li>
+<li><strong>ベバリッジ曲線</strong> ：求人率と失業率の逆相関</li>
+<li><strong>エンゲルの法則</strong> ：所得の上昇に伴い食費の割合が低下</li>
+<li><strong>需要の価格弾力性</strong> ：必需品は非弾力的、贅沢品は弾力的</li>
+<li><strong>投資の高ボラティリティ</strong> ：消費よりも投資が景気に敏感</li>
+</ul>
+<p>これらは実際の経済データ（FRED, 1970Q1–）との比較でも一致傾向を示し、従来のエージェント・ベース・モデル（ABM）では再現が難しかった現象を多く含むと報告されている。</p>
+<h2>都市発展と価格ショックへの応答</h2>
+<p>SimCityは「移住フェーズ（36カ月）」と「発展フェーズ（144カ月）」の2段階で進行する。
+初期段階では移住者の流入によりGDPが上昇し、住宅と生産拠点の配置が形成される。VLMの判断により、住宅は都市中心部に、工場は周辺部に集中するなど、現実的なゾーニング構造が自律的に現れた。</p>
+<p>さらに研究チームは、一部の財の価格を50％変動させる「価格インパルス実験」を実施。価格は短期的に大きく変動したが、数年のうちに均衡へ回帰。実際の経済で観察される「価格の粘着性（menu cost）」と同様の挙動が確認された。</p>
+<h2>「AIがつくる社会をAIで観察」</h2>
+<p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
+総トークン数は約80万で、全体の実行コストは約180ドル。</p>
+<p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
@@ -675,6 +615,34 @@ NTT、富士通、日立などが相次いで国産クラウド基盤の整備�
 <p>両社は今後、生成AIや自然言語処理、画像解析などの高負荷AIワークロードにも対応する予定で、AI時代のデータ主権を支える中核的なインフラを目指す。</p>
 ]]></description>
       <pubDate>Sat, 11 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/10 [FRI]イーロン・マスク率いるxAI、動画生成AI「Imagine v0.9」を公開──静止画に声と動きを与える“ネイティブ映像生成”モデル</title>
+      <link>https://ledge.ai/articles/xai_imagine_v09_release</link>
+      <description><![CDATA[<p>イーロン・マスク氏が率いるAI開発企業xAIは2025年10月8日（現地時間）、新たな動画生成モデル「Imagine v0.9」を<a href="https://x.com/xai/status/1975607901571199086">発表</a>した。視覚品質、動き、音声生成などを全面的に改良し、すべてのxAI製品で無料利用が可能となっている。</p>
+<p>xAIは公式X（旧Twitter）で「Imagine v0.9は、映像品質・モーション・音声生成などにおいてv0.1から大幅に進化した」と投稿。<a href="https://grok.com/imagine">grok.com/imagine</a> では、Grokプラットフォーム上で同モデルを試せるようになっている。</p>
+<h2>音声と映像を同時生成──“編集不要”の体験を掲げる</h2>
+<p>xAIは今回の発表で、「Imagine v0.9は音声と映像を同時に生成する“ネイティブ・オーディオ＋ビデオ生成”を実現した」と説明。</p>
+<p>\u003E“Imagine v0.9 pushes the boundaries of native audio + video generation, creating cinematic experiences straight out of the box—no editing required.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_dragon_6a3a28422f/x_AI_Imagine_v0_9_1_dragon_6a3a28422f.jpg" alt="xAI Imagine v0-9-1 dragon.jpg" /></p>
+<p>投稿では、音声と映像が同期したドラゴンのデモ映像を公開。ユーザーは、生成後の編集作業なしで“完成された動画”を得られるとしている。</p>
+<h2>モーション精度とカメラ効果を強化</h2>
+<p>Imagine v0.9では、被写体の滑らかな動きとリアリズムを高精度で再現するモーション制御を導入した。
+さらに「インテリジェント・フォーカスシフト」と呼ばれる自動焦点移動など、ストーリーテリングに適したダイナミックなカメラ効果も追加された。</p>
+<p>\u003E“And lets you add dynamic camera effects like intelligent focus shifts for better storytelling.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e/x_AI_Imagine_v0_9_1_camera_effects_5febfab05e.jpg" alt="xAI Imagine v0-9-1 camera effects.jpg" /></p>
+<h2>自然な対話・歌唱・リズムまで再現</h2>
+<p>Imagine v0.9では、音声表現の幅も拡大。自然な対話や歌唱を含む“声の演出”が可能になった。</p>
+<p>\u003E“v0.9 also brings videos to life with natural dialogue and strong audio-visual harmony.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090/x_AI_Imagine_v0_9_1_natural_dialogue_f30bf3d090.jpg" alt="xAI Imagine v0-9-1 natural dialogue.jpg" /></p>
+<p>\u003E“It also brings expressive singing to life with clear vocals and synchronized emotion.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_singing_05b4553dab/x_AI_Imagine_v0_9_1_singing_05b4553dab.jpg" alt="xAI Imagine v0-9-1 singing.jpg" /></p>
+<p>xAIはさらに、音と動きを合わせたダンス生成の例として、キャラクター「Ani」の動画を紹介している。</p>
+<p>\u003E“Plus good rhythm: here's Ani with smooth dance moves.”</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25/x_AI_Imagine_v0_9_1_ani_dancing_c19660cb25.jpg" alt="xAI Imagine v0-9-1 ani dancing.jpg" /></p>
+<p>xAIはユーザーからのフィードバックを積極的に求め、モデル改良に反映させる方針を示した。</p>
+]]></description>
+      <pubDate>Fri, 10 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
