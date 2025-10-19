@@ -87,31 +87,6 @@
       <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ロサンゼルス「パリセーズ火災」容疑者を逮捕──司法当局、ChatGPTで生成した“燃える都市”画像を押収と発表</title>
       <link>https://ledge.ai/articles/palisades_fire_chatgpt_image_doj</link>
       <description><![CDATA[<p>アメリカ司法省（U.S. Department of Justice）は2025年10月7日、ロサンゼルスのパシフィック・パリセーズ地区で1月に発生し、12人が死亡・6,000棟以上が焼失した大規模火災を「故意に発生させた」として、フロリダ州在住の29歳の男、ジョナサン・リンダークネヒト（Jonathan Rinderknecht）容疑者を逮捕・起訴したと<a href="https://www.justice.gov/usao-cdca/pr/florida-man-arrested-federal-criminal-complaint-alleging-he-maliciously-started-what">発表</a>した。</p>
@@ -285,53 +260,6 @@ Boston Dynamicsは「より人間に近い作業能力を備えたヒューマ�
       <pubDate>Tue, 14 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIがソフトウェアの脆弱性を自動修正──Google DeepMind、新エージェント「CodeMender」を発表</title>
-      <link>https://ledge.ai/articles/deepmind_codemender_ai_vulnerability_fix</link>
-      <description><![CDATA[<p>Google DeepMindは2025年10月10日、ソフトウェアの脆弱性を自動的に検出・修正するAIエージェント「CodeMender」を<a href="https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/">発表</a>した。</p>
-<p>同エージェントは大規模言語モデル「Gemini Deep Think」を基盤とし、深層推論を活用して安全で安定したコード改変を行う。DeepMindは「AIが自ら脆弱性を理解し、修正案を提案・検証する」という新しいセキュリティサイクルを構築したと説明している。</p>
-<h2>72件の脆弱性を自動修正</h2>
-<p>CodeMenderはすでにオープンソースソフトウェアの実環境でテストされており、これまでに72件のセキュリティ修正を開発元のリポジトリへ統合した。対象コードには約450万行規模の大規模プロジェクトも含まれる。
-DeepMindによれば、修正対象の一例として画像処理ライブラリ「libwebp」でのメモリ管理エラーがあり、AIによる自動改修によってバッファオーバーフロー耐性が向上したという。</p>
-<h2>「反応型」と「先制型」AIによる修正</h2>
-<p>CodeMenderは、既知の脆弱性に即応する反応型（reactive）と、将来的に問題を起こす可能性のある構造を事前に書き換える先制型（proactive）の2モードを備える。</p>
-<p>内部では、静的解析・動的解析・ファジングなどを組み合わせた検査手法を使用し、修正案の妥当性をGemini Deep Thinkが多段階で検証。AIが生成したパッチは必ず人間エンジニアのレビューを経る仕組みで、誤修正を防ぐ安全策も講じられている。</p>
-<p><strong>図：CodeMenderの自動修正フロー。LLMエージェントが脆弱性を検出し、Validatorが修正案を検証した後、人間によるパッチレビューを経てコードリポジトリへ統合する。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fixing_vulnerabilities_4975259e2f/fixing_vulnerabilities_4975259e2f.jpg" alt="fixing vulnerabilities.jpg" /></p>
-<h2>セキュリティ運用の自動化へ</h2>
-<p>DeepMindは、「CodeMenderはAIによるソフトウェアセキュリティの自動化を推進する重要な一歩」と位置づけている。今後はGoogleのSecure AI Framework（SAIF）やAI Vulnerability Reward Program（AI VRP）など、既存のセキュリティ施策と連携して展開を進める予定だ。
-また、オープンソース開発者コミュニティとの協力を通じて、より多くのプロジェクトでのAI自動修正を実用化していくとしている。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>リコー、推論性能を強化した日本語LLMを発表──GPT-5相当の性能で金融業務に特化</title>
-      <link>https://ledge.ai/articles/ricoh_reasoning_llm_gpt5_equivalent_20251010</link>
-      <description><![CDATA[<p>リコーは2025年10月10日、推論（）性能を追加搭載した日本語大規模言語モデル（LLM）を<a href="https://jp.ricoh.com/release/2025/1010_1">発表</a>した。</p>
-<p>このモデルは700億パラメータ規模のオンプレミス対応型LLMで、金融業務に特化して開発されたもの。同社によれば、多段推論能力（Chain-of-Thoughts: CoT）の導入により、融資稟議など専門的な業務遂行力を強化し、代表的な日本語ベンチマークでOpenAIの「GPT-5」と同等レベルの性能を確認したという。</p>
-<h2>金融分野に特化した推論能力</h2>
-<p>リコーは、有価証券報告書などの公開データを活用し、金融分野に特有の専門知識を追加学習したうえで、多段推論能力（Chain-of-Thoughts: CoT）を導入。複数の情報を論理的ステップに分解し、融資稟議業務などの複雑な判断を支援する能力を強化した。</p>
-<p>このモデルはオンプレミス環境で運用できる「プライベートLLM」として提供され、企業が自社データを安全に学習させることが可能だとしている。</p>
-<h2>ベンチマーク評価でGPT-5と同等スコア</h2>
-<p>発表資料によると、代表的な日本語ベンチマークで次の結果を得た。
-評価には「ELYZA-tasks-100」「Japanese MT-Bench」「japanese-lm-fin-harness」およびリコー独自の融資稟議ベンチマークが用いられた。</p>
-<ul>
-<li><strong>ELYZA-tasks-100</strong> ：複雑な指示タスク（要約、対話、意図の理解など）</li>
-<li><strong>Japanese MT-Bench</strong> ：マルチターン対話能力</li>
-<li><strong>japanese-lm-fin-harness</strong> ：金融分野における感情分析・証券知識・試験問題など</li>
-<li><strong>融資稟議ベンチマーク</strong> ：企業・財務・信用の総合評価</li>
-</ul>
-<p>評価の結果、リコーの「Llama-3.3-Ricoh-70B-20251001」は日本語タスク全般でGPT-5に匹敵するスコアを示し、金融ベンチマークでは同規模以上のオープンソースモデルを上回ったとされる。</p>
-<p><strong>ベンチマークツールにおける他モデルとの比較結果</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_d289815140/_d289815140.jpg" alt="ベンチマークツールにおける他モデルとの比較結果.jpg" /></p>
-<h2>高精度化を支える独自技術</h2>
-<p>リコーのモデルは、Meta社の「Llama-3.3-70B-Instruct」を基に、日本語性能を強化した「Llama-3.3-Swallow-70B-v0.4」をベースモデルとして構築。独自のインストラクション・チューニングや、Chat Vectorを用いたモデルマージ技術、独自カリキュラムを組み合わせることで高精度化を実現した。大規模ながら省コストで動作し、GPUリソースの少ない環境でも運用できる点が特徴とされる。</p>
-<h2>今後の展開</h2>
-<p>リコーは今後、金融以外にも製造業・医療などの業種特化型モデルを順次開発するとしている。
-同社は「使える・使いこなせるAI」の提供を掲げ、企業のデジタルトランスフォーメーション（DX）を支援していく方針だ。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>LLMが「心の中でイメージ」を描く？──人間の想像課題を超える精度で解答、GPT-5が人間平均を12％上回る</title>
       <link>https://ledge.ai/articles/artificial_phantasia_llm_visual_reasoning</link>
       <description><![CDATA[<p>米ノースイースタン大学の研究チームは2025年9月27日、言語モデル（LLM）が視覚情報なしに、頭の中でイメージを描くような課題を解けることを示した論文「Artificial Phantasia: Evidence for Propositional Reasoning-Based Mental Imagery in Large Language Models」を<a href="https://arxiv.org/abs/2509.23108">発表</a>した。</p>
@@ -353,27 +281,7 @@ DeepMindによれば、修正対象の一例として画像処理ライブラリ
 今後は、アファンタジアの被験者とLLMの思考過程を比較し、「人工的想像力（Artificial Imagination）」の本質を探るとしている。</p>
 <p>研究チームはGitHubで実験コードとデータを公開し（subjectivitylab/artificial_phantasia）、今後はマルチモーダルAIや新しい推論ベンチマークへの応用を予定している。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>デロイトの報告書に生成AIのハルシネーションで存在しない文献を引用・参照、豪政府に代金を一部返金──脚注誤りを訂正し再公開、コンサル業界に波紋</title>
-      <link>https://ledge.ai/articles/deloitte_ai_refund_australia_report</link>
-      <description><![CDATA[<p>コンサルティング大手のデロイト・オーストラリアが、AIを利用して作成した政府向け報告書に誤りが見つかり、オーストラリア連邦政府（雇用・職場関係省＝DEWR）に代金の一部を返金したことが分かった。報告書には存在しない論文や不正確な引用が含まれており、AI生成文書の品質管理をめぐる議論が広がっている。</p>
-<p>DEWRは2025年9月26日付で、問題となった報告書「Targeted Compliance Framework（TCF） Assurance Review」と、その概要をまとめた「Statement of Assurance」を更新し、訂正版を公式サイトで公開した。
-同省は<a href="https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report">公式ページ</a>で「この文書は9月26日に更新され、参照と脚注の誤りを訂正した。修正は結論や提言に影響を与えない」と明記している。</p>
-<h2>存在しない文献をAIが生成</h2>
-<p>調査対象となったのは、雇用支援制度「Targeted Compliance Framework（TCF）」に関する外部監査報告書で、総額約43万9,000豪ドル（約4,200万円）でデロイトに発注されていた。</p>
-<p><a href="https://apnews.com/article/australia-ai-errors-deloitte-ab54858680ffc4ae6555b31c8fb987f3">AP通信</a>は、報告書に「実在しない学術論文への参照や、誤った引用が含まれていた」と報じている。また、Financial Times（FT）によると、デロイトは報告書の一部作成でMicrosoftの「Azure OpenAI」ツールを使用していたことを認め、改訂版にはその利用事実が追記されたという。</p>
-<p>複数の誤りがAIによるハルシネーション（幻覚）に起因していると<a href="https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report">The Guardian</a>が指摘している。</p>
-<h2>デロイト、返金を実施</h2>
-<p>デロイトが最終支払い分を返金することでオーストラリア政府と合意した。デロイトは声明で「参照と脚注に関する誤りを認識し、修正を完了した」と説明している。DEWR側は、報告書の主要な所見や提言自体に変更はないとしており、「修正は文献参照に限定され、内容の妥当性には影響していない」としている。</p>
-<h2>政府の声明と再発防止</h2>
-<p>DEWRの事務次官は10月3日付の声明で、「Targeted Compliance Frameworkの透明性と信頼性を高めるため、独立レビューを踏まえて制度改良を進めている」と述べた。
-声明では、Deloitteによる報告書も改善プロセスの一部として参照していることが明らかにされ、政府側の対応は継続中とみられる。</p>
-<h2>コンサル業界で問われる「AIの信頼性」</h2>
-<p>デロイトはAI導入を強化しており、同時期にAnthropicとの提携拡大を発表したと<a href="https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/">TechCrunch</a>が報道。一方で、AI生成文書の誤りによって公共契約の信頼性が揺らいでいると指摘した。デロイトは世界的にAIツールを業務へ統合しているが、今回の件は「AIを利用した文書の監査体制」が整備途上であることを浮き彫りにした。</p>
-]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
@@ -405,7 +313,7 @@ Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録�
 <p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
 Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
@@ -459,7 +367,7 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 <p>\u003E「Gemini Enterpriseは、Google AIの最高の機能をすべての従業員とワークフローに届ける“職場AIの新たな入口”です」（Google Cloud公式ブログより）</p>
 <p>Googleは、企業にとってのAI導入を「一部の実験」から「全員の変革」へと引き上げる転換点として、この新プラットフォームを位置づけている。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
@@ -479,7 +387,32 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 <p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
 <p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ジョニー・アイブとサム・アルトマンが語る「AIと人間の新しい関係」──次世代デバイス構想をDevDay 2025で明かす</title>
@@ -509,18 +442,7 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 アイブ氏はセッションの最後にこう締めくくった。</p>
 <p>同氏はAIの可能性を「現状の延長ではなく、根本的な変化をもたらすもの」として位置づけた。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
-      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
-      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
-<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
-<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
-<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -565,7 +487,7 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
@@ -602,6 +524,64 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 <p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
 総トークン数は約80万で、全体の実行コストは約180ドル。</p>
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIがソフトウェアの脆弱性を自動修正──Google DeepMind、新エージェント「CodeMender」を発表</title>
+      <link>https://ledge.ai/articles/deepmind_codemender_ai_vulnerability_fix</link>
+      <description><![CDATA[<p>Google DeepMindは2025年10月10日、ソフトウェアの脆弱性を自動的に検出・修正するAIエージェント「CodeMender」を<a href="https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/">発表</a>した。</p>
+<p>同エージェントは大規模言語モデル「Gemini Deep Think」を基盤とし、深層推論を活用して安全で安定したコード改変を行う。DeepMindは「AIが自ら脆弱性を理解し、修正案を提案・検証する」という新しいセキュリティサイクルを構築したと説明している。</p>
+<h2>72件の脆弱性を自動修正</h2>
+<p>CodeMenderはすでにオープンソースソフトウェアの実環境でテストされており、これまでに72件のセキュリティ修正を開発元のリポジトリへ統合した。対象コードには約450万行規模の大規模プロジェクトも含まれる。
+DeepMindによれば、修正対象の一例として画像処理ライブラリ「libwebp」でのメモリ管理エラーがあり、AIによる自動改修によってバッファオーバーフロー耐性が向上したという。</p>
+<h2>「反応型」と「先制型」AIによる修正</h2>
+<p>CodeMenderは、既知の脆弱性に即応する反応型（reactive）と、将来的に問題を起こす可能性のある構造を事前に書き換える先制型（proactive）の2モードを備える。</p>
+<p>内部では、静的解析・動的解析・ファジングなどを組み合わせた検査手法を使用し、修正案の妥当性をGemini Deep Thinkが多段階で検証。AIが生成したパッチは必ず人間エンジニアのレビューを経る仕組みで、誤修正を防ぐ安全策も講じられている。</p>
+<p><strong>図：CodeMenderの自動修正フロー。LLMエージェントが脆弱性を検出し、Validatorが修正案を検証した後、人間によるパッチレビューを経てコードリポジトリへ統合する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fixing_vulnerabilities_4975259e2f/fixing_vulnerabilities_4975259e2f.jpg" alt="fixing vulnerabilities.jpg" /></p>
+<h2>セキュリティ運用の自動化へ</h2>
+<p>DeepMindは、「CodeMenderはAIによるソフトウェアセキュリティの自動化を推進する重要な一歩」と位置づけている。今後はGoogleのSecure AI Framework（SAIF）やAI Vulnerability Reward Program（AI VRP）など、既存のセキュリティ施策と連携して展開を進める予定だ。
+また、オープンソース開発者コミュニティとの協力を通じて、より多くのプロジェクトでのAI自動修正を実用化していくとしている。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>リコー、推論性能を強化した日本語LLMを発表──GPT-5相当の性能で金融業務に特化</title>
+      <link>https://ledge.ai/articles/ricoh_reasoning_llm_gpt5_equivalent_20251010</link>
+      <description><![CDATA[<p>リコーは2025年10月10日、推論（）性能を追加搭載した日本語大規模言語モデル（LLM）を<a href="https://jp.ricoh.com/release/2025/1010_1">発表</a>した。</p>
+<p>このモデルは700億パラメータ規模のオンプレミス対応型LLMで、金融業務に特化して開発されたもの。同社によれば、多段推論能力（Chain-of-Thoughts: CoT）の導入により、融資稟議など専門的な業務遂行力を強化し、代表的な日本語ベンチマークでOpenAIの「GPT-5」と同等レベルの性能を確認したという。</p>
+<h2>金融分野に特化した推論能力</h2>
+<p>リコーは、有価証券報告書などの公開データを活用し、金融分野に特有の専門知識を追加学習したうえで、多段推論能力（Chain-of-Thoughts: CoT）を導入。複数の情報を論理的ステップに分解し、融資稟議業務などの複雑な判断を支援する能力を強化した。</p>
+<p>このモデルはオンプレミス環境で運用できる「プライベートLLM」として提供され、企業が自社データを安全に学習させることが可能だとしている。</p>
+<h2>ベンチマーク評価でGPT-5と同等スコア</h2>
+<p>発表資料によると、代表的な日本語ベンチマークで次の結果を得た。
+評価には「ELYZA-tasks-100」「Japanese MT-Bench」「japanese-lm-fin-harness」およびリコー独自の融資稟議ベンチマークが用いられた。</p>
+<ul>
+<li><strong>ELYZA-tasks-100</strong> ：複雑な指示タスク（要約、対話、意図の理解など）</li>
+<li><strong>Japanese MT-Bench</strong> ：マルチターン対話能力</li>
+<li><strong>japanese-lm-fin-harness</strong> ：金融分野における感情分析・証券知識・試験問題など</li>
+<li><strong>融資稟議ベンチマーク</strong> ：企業・財務・信用の総合評価</li>
+</ul>
+<p>評価の結果、リコーの「Llama-3.3-Ricoh-70B-20251001」は日本語タスク全般でGPT-5に匹敵するスコアを示し、金融ベンチマークでは同規模以上のオープンソースモデルを上回ったとされる。</p>
+<p><strong>ベンチマークツールにおける他モデルとの比較結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_d289815140/_d289815140.jpg" alt="ベンチマークツールにおける他モデルとの比較結果.jpg" /></p>
+<h2>高精度化を支える独自技術</h2>
+<p>リコーのモデルは、Meta社の「Llama-3.3-70B-Instruct」を基に、日本語性能を強化した「Llama-3.3-Swallow-70B-v0.4」をベースモデルとして構築。独自のインストラクション・チューニングや、Chat Vectorを用いたモデルマージ技術、独自カリキュラムを組み合わせることで高精度化を実現した。大規模ながら省コストで動作し、GPUリソースの少ない環境でも運用できる点が特徴とされる。</p>
+<h2>今後の展開</h2>
+<p>リコーは今後、金融以外にも製造業・医療などの業種特化型モデルを順次開発するとしている。
+同社は「使える・使いこなせるAI」の提供を掲げ、企業のデジタルトランスフォーメーション（DX）を支援していく方針だ。</p>
+]]></description>
+      <pubDate>Tue, 14 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
+      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
+      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
+<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
+<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
+<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
+<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
 ]]></description>
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
