@@ -5,6 +5,40 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
+      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
+      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
+<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
+<h2>造語でAIをコントロール</h2>
+<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
+<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
+<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
+<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
+<h2>AIが自ら意味を説明</h2>
+<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
+たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
+「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
+<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
+さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
+<h2>モデル間で“機械語”が通じる</h2>
+<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
+たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
+<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
+人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
+<h2>複合的な概念も制御可能</h2>
+<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
+たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
+<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
+<h2>AIの「内なる言葉」への道</h2>
+<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
+「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
+<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
+将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「見て、聞いて、考えるCopilot」──Windows 11が“AIネイティブOS”へ進化</title>
       <link>https://ledge.ai/articles/windows11_copilot_vision_ai_pc_strategy</link>
       <description><![CDATA[<p>マイクロソフトは2025年10月16日（米国時間）、Windows 11における次世代AI機能の拡充方針を発表した。公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/">Making every Windows 11 PC an AI PC</a>」で、すべてのWindows 11搭載端末を「AI PC」として再定義し、Copilotを中核に据えたAI体験をOS全体に統合していく構想を明らかにした。</p>
@@ -574,20 +608,6 @@ AI主導のカスタマーサービス体験を実現し、業務量を20％削�
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>富士通とジーンクエスト、因果AIで遺伝子と生活習慣の関係を解析──「Fujitsu Kozuchi」活用で新たな知見</title>
-      <link>https://ledge.ai/articles/fujitsu_genequest_causal_ai</link>
-      <description><![CDATA[<p>富士通株式会社と株式会社ジーンクエストは2025年10月9日、富士通のAI技術群「Fujitsu Kozuchi（コヅチ）」の中核技術である因果AIを活用し、遺伝子データとライフスタイルデータの関係性を解析した結果、新たな知見を得たと<a href="https://global.fujitsu/ja-jp/pr/news/2025/10/09-01">発表</a>した。</p>
-<p>実証では、同意が得られた約4,000名分の遺伝子情報と生活習慣アンケートデータを対象に、因果AIが両者の間に潜む因果構造を探索。特定の遺伝子多型が睡眠時間や食習慣、BMIなどの生活習慣に与える影響を可視化した。これにより、従来の統計的相関分析では把握しにくかった複雑な要因連鎖を明らかにしたとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_7b9b5b5a0a/sub1_7b9b5b5a0a.png" alt="sub1.png" /></p>
-<h2>因果AIで「相関」から「原因と結果」へ</h2>
-<p>富士通の因果AIは、膨大な多変量データの中から要因と結果の方向性を自動的に推定する技術。同社が開発した高速因果構造探索アルゴリズムにより、従来の分析手法よりも大規模・高精度な因果モデルを生成できる。富士通はこれを、産業・医療・科学分野を横断するAI基盤「Fujitsu Kozuchi」に搭載し、研究開発支援に活用している。</p>
-<h2>生活習慣改善や疾病予防へ応用</h2>
-<p>両社は、今回得られた知見を今後のヘルスケアサービスに応用する方針を示している。ジーンクエストは個人向け遺伝子解析サービスの高度化を進め、生活習慣病予防やパーソナライズド医療への展開を目指す。富士通は医療機関や製薬企業との連携を通じ、因果AIを「科学的エビデンス創出を支援する技術」として普及させる考えだ。</p>
-<p>富士通は今回の取り組みを「AIによって科学的知見を創出する“サイエンスDX”の推進」と位置づけており、生命科学領域での新たなAI応用事例として注目される。</p>
-]]></description>
-      <pubDate>Sun, 12 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/11 [SAT]ソフトバンクとオラクル、AI活用のためのソブリンクラウドを共同構築──国内運用基盤「Cloud PF Type A」でデータ主権を確保</title>
