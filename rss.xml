@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Oracle、企業のAI導入を支援する「AI Data Platform」を一般提供──マルチクラウド・ゼロETLでデータ活用を加速</title>
+      <link>https://ledge.ai/articles/oracle_ai_data_platform_general_availability_oct2025</link>
+      <description><![CDATA[<p>Oracleは2025年10月14日（米国時間）、AI時代のデータ活用を統合的に支援する新たな基盤「Oracle AI Data Platform」の一般提供を開始したことを<a href="https://www.oracle.com/news/announcement/ai-world-oracle-unveils-ai-data-platform-empowering-customers-to-innovate-in-the-ai-era-2025-10-14/">発表</a>した。</p>
+<p>同プラットフォームは、データの取り込みから意味付け、ベクトル検索、生成AIとの連携までを一元的に実行できる点を特徴とする。マルチクラウド環境やゼロETL構成にも対応し、企業がより効率的かつ安全にAIを導入できる環境を整える。</p>
+<h2>「AI for Data Revolution」──AIとデータの融合を推進</h2>
+<p>Oracleは今回の発表で、“AI for Data Revolution（AIによるデータ革命）”という新たなビジョンを掲げた。
+「Oracle AI Data Platform」はこの構想の中核を担い、生成AIや機械学習モデルを企業の業務データに組み込みやすくすることを狙う。</p>
+<p>同プラットフォームは、Oracle Cloud Infrastructure（OCI）上に構築され、Autonomous AI DatabaseやOCI Generative AI serviceなど既存のAI関連サービスと連携。AIアプリケーション開発に必要なデータ基盤を統合的に提供する。</p>
+<h2>データの“意味づけ”とベクトル検索を統合</h2>
+<p>「Oracle AI Data Platform」では、データの収集・統合・意味付け（semantic enrichment）・ベクトル化（vector indexing）を一元化して管理できる。これにより、自然言語クエリによる高度な検索やRAG（Retrieval-Augmented Generation）アプリケーションの構築が容易になる。</p>
+<p>データレイクハウス型アーキテクチャを採用し、Delta LakeやApache Icebergなどのオープンフォーマットにも対応。既存システムを問わずスムーズな連携が可能となる。</p>
+<p><strong>Oracle AI Data Platformの構成図。データ基盤からAIモデル、開発ツール、ユーザー体験までを統合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/oracle_ai_platform1_8866d022ea/oracle_ai_platform1_8866d022ea.jpg" alt="oracle ai platform1.jpg" /></p>
+<h2>ゼロETLとマルチクラウドで運用負荷を軽減</h2>
+<p>同プラットフォームは「Zero-ETL」「Zero-Copy」構成を実現。異なるデータソース間での転送や複製を不要とし、リアルタイム性とセキュリティを両立する。さらに、マルチクラウド／ハイブリッド環境に対応しており、他社クラウド上のデータもOCI環境内で透過的に扱える。これにより、企業はシステム間の移行コストを抑えつつ、データを即座にAI活用へと結びつけることができる。</p>
+<p><strong>Oracle AI Data Platformが統合する主要サービス群</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/oracle_ai_platform2_a759b091f2/oracle_ai_platform2_a759b091f2.jpg" alt="oracle ai platform2.jpg" /></p>
+<h2>AI Factoryと連動、導入支援を強化</h2>
+<p>Oracleは同日、「Oracle AI Factory」プログラムも発表した。これは顧客やパートナー企業がAIを迅速に導入できるよう支援する取り組みで、15億ドルを超える投資を行い、8,000人以上の専門人材を育成するという。また、100件を超える業界ユースケースの開発を進め、Fusion Cloud ApplicationsやNetSuiteなど既存アプリケーションとの統合も拡大する。</p>
+<h2>包括的なAIエコシステムへ</h2>
+<p>Oracleは、「AI Data Platform」をはじめ「AI Database 26ai」「Autonomous AI Lakehouse」などを連動させ、AIインフラから業務アプリケーションまでをカバーするエコシステムを構築していく方針を示した。これにより、企業がデータ主導のAI戦略を迅速に実現できる環境を提供し、グローバルでのAI導入支援を強化する。</p>
+]]></description>
+      <pubDate>Sun, 19 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
       <link>https://ledge.ai/articles/amazon_smr_clean_energy_ai_infrastructure</link>
       <description><![CDATA[<p>Amazonは2025年10月16日（米国時間）、AI技術やクラウドサービスの拡大に伴う電力需要の急増に対応するため、次世代原子炉「小型モジュール炉（SMR）」の開発支援を<a href="https://www.aboutamazon.com/news/sustainability/amazon-smr-nuclear-energy">発表</a>した。米国のエネルギー企業Dominion Energy、X-energy、Energy Northwestの3社と協力し、先進原子力技術の導入を進める。</p>
