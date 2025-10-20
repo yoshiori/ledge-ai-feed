@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
+      <link>https://ledge.ai/articles/walmart_openai_instant_checkout_chatgpt</link>
+      <description><![CDATA[<p>米小売最大手のWalmartは2025年10月14日（現地時間）、OpenAIとの提携を<a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">発表</a>した。この提携により、顧客やSam’s Clubの会員は、ChatGPTの「Instant Checkout（インスタントチェックアウト）」機能を通じてチャットで完結する買い物が可能になる。Walmartは“AI-First Shopping”を掲げ、反応型から予測型へと購買体験の転換を図る。</p>
+<h2>チャットで完結する購買体験を提供</h2>
+<p>新機能「Instant Checkout」は、ChatGPTのチャット画面上で商品提案から決済までをチャットで完結できる仕組みだ。
+ユーザーが「Walmartで子どものランチボックスを探して」と入力すれば、ChatGPTが該当商品を提示し、そのまま少ない手順で購入まで案内する。</p>
+<p>WalmartとSam’s Clubの商品が順次対象となる予定で、提供は「近日中（soon）」としており、詳細時期は非公表。</p>
+<h2>「Agentic Commerce」──AIが先読みする買い物へ</h2>
+<p>Walmartは今回の取り組みを「agentic commerce（自律型コマース）」と位置づける。
+これまでのように顧客が検索して商品を選ぶ“反応型”から、AIがニーズを学習し、必要になる前に提案する“予測型”ショッピングへ転換する構想だ。リリースでは、「AIが顧客を理解し、日常の買い物を支援する時代に入った」と述べている。</p>
+<h2>AI活用の知見を消費者体験へ拡張</h2>
+<p>WalmartはこれまでもAIを活用し、商品カタログの改善や在庫最適化、アソシエイトのAIリテラシー教育を進めてきた。
+今回のOpenAIとの提携は、そうしたAI活用の成果を消費者向けのチャット購買体験へ拡張するものとなる。</p>
+<p>Doug McMillon CEOは、「長らくECの買い物は検索バーと長い商品リストが中心だったが、それは変わる」と述べ、Sparky（同社AI）とOpenAIとの連携で、より楽しく便利な未来へ進むと強調した。OpenAIのSam Altman氏も「日々の買い物を少し簡単にする取り組みの一つ」とコメントしている。</p>
+]]></description>
+      <pubDate>Mon, 20 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ugo、AIロボット向け「模倣学習キット」を初公開──Robotics NEXT Tokyo 2025で披露</title>
       <link>https://ledge.ai/articles/ugo_ai_robot_imitation_learning_kit_2025</link>
       <description><![CDATA[<p>ugo株式会社は2025年10月16日、AIロボット向けの「模倣学習キット」を<a href="https://ugo.plus/information/2025/10/16/ugo-ai-learning-kit/">発表</a>し、同日に開催された展示会「Robotics NEXT Tokyo 2025」にて初公開した。AI技術を活用して人間の動作を学習・再現するロボット開発を支援するもので、教育・研究・開発の現場での活用を想定している。</p>
@@ -562,25 +580,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIがソフトウェアの脆弱性を自動修正──Google DeepMind、新エージェント「CodeMender」を発表</title>
-      <link>https://ledge.ai/articles/deepmind_codemender_ai_vulnerability_fix</link>
-      <description><![CDATA[<p>Google DeepMindは2025年10月10日、ソフトウェアの脆弱性を自動的に検出・修正するAIエージェント「CodeMender」を<a href="https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/">発表</a>した。</p>
-<p>同エージェントは大規模言語モデル「Gemini Deep Think」を基盤とし、深層推論を活用して安全で安定したコード改変を行う。DeepMindは「AIが自ら脆弱性を理解し、修正案を提案・検証する」という新しいセキュリティサイクルを構築したと説明している。</p>
-<h2>72件の脆弱性を自動修正</h2>
-<p>CodeMenderはすでにオープンソースソフトウェアの実環境でテストされており、これまでに72件のセキュリティ修正を開発元のリポジトリへ統合した。対象コードには約450万行規模の大規模プロジェクトも含まれる。
-DeepMindによれば、修正対象の一例として画像処理ライブラリ「libwebp」でのメモリ管理エラーがあり、AIによる自動改修によってバッファオーバーフロー耐性が向上したという。</p>
-<h2>「反応型」と「先制型」AIによる修正</h2>
-<p>CodeMenderは、既知の脆弱性に即応する反応型（reactive）と、将来的に問題を起こす可能性のある構造を事前に書き換える先制型（proactive）の2モードを備える。</p>
-<p>内部では、静的解析・動的解析・ファジングなどを組み合わせた検査手法を使用し、修正案の妥当性をGemini Deep Thinkが多段階で検証。AIが生成したパッチは必ず人間エンジニアのレビューを経る仕組みで、誤修正を防ぐ安全策も講じられている。</p>
-<p><strong>図：CodeMenderの自動修正フロー。LLMエージェントが脆弱性を検出し、Validatorが修正案を検証した後、人間によるパッチレビューを経てコードリポジトリへ統合する。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fixing_vulnerabilities_4975259e2f/fixing_vulnerabilities_4975259e2f.jpg" alt="fixing vulnerabilities.jpg" /></p>
-<h2>セキュリティ運用の自動化へ</h2>
-<p>DeepMindは、「CodeMenderはAIによるソフトウェアセキュリティの自動化を推進する重要な一歩」と位置づけている。今後はGoogleのSecure AI Framework（SAIF）やAI Vulnerability Reward Program（AI VRP）など、既存のセキュリティ施策と連携して展開を進める予定だ。
-また、オープンソース開発者コミュニティとの協力を通じて、より多くのプロジェクトでのAI自動修正を実用化していくとしている。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
