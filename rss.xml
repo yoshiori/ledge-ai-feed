@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
+      <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
+      <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=IoqpBKrNaZI">YouTube</a></p>
+<h2>フォルダ単位で“教え込む”仕組み</h2>
+<p>Claude Skillsは、指示文やスクリプト、関連資料をまとめたフォルダをClaudeに読み込ませる仕組みだ。各フォルダには「SKILL.md」という定義ファイルが含まれ、タスク内容や使用条件などが記述される。Claudeは必要に応じてこれらのスキルを呼び出し、指示に従って処理を実行する。</p>
+<p>この設計は「進行開示（progressive disclosure）」と呼ばれ、必要な情報だけを段階的に読み込むことで効率と安全性を両立する。Anthropicは、Claude Skillsを「プロンプトの再利用性を高め、AIが現実的な作業単位で動けるようにする構造」と説明している。</p>
+<h2>企業導入例：Box、Canvaなど</h2>
+<p>発表では、企業向けの活用例も紹介された。
+クラウドストレージ大手のBoxでは、文書を自動的に要約・変換し、PowerPointやWord形式に整理するワークフローをスキルとして実装。Notionは「複雑なタスクでのプロンプト調整を減らし、より予測可能な結果につながる」とコメントしている。</p>
+<p>さらにデザインプラットフォームのCanvaは、ブランドガイドをClaude Skillsに登録し、AIが自動でデザイン案を生成する活用を計画しているという。これにより、社内のスタイルガイドや手順書をAIに“教え込む”ことで、誰でも同じ品質で成果物を作れる環境を整備できる。</p>
+<h2>エンジニア向けにはコード実行にも対応</h2>
+<p>Anthropicの<a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">エンジニアリングブログ</a>では、Claude Skillsの内部構造が詳細に解説されている。Claude Skillsは単なるプリセットではなく、自己記述的モジュール構造を持つ。スキルはフォルダ単位で管理され、初期段階ではメタ情報のみを読み込み、関連タスクが発生した際に全体を展開する。</p>
+<p>スクリプトやPythonコードを含めることで、データ分析や自動レポート生成といった専門処理も可能だ。開発者は /v1/skills エンドポイントを通じてスキルを登録・管理でき、実行にはCode Execution Tool（ベータ）が必要となる。</p>
+<p>従来の「プロンプト＋RAG（検索）」のように文脈を都度読み込む手法に比べ、Claude Skillsでは情報の再利用が容易で、処理速度や一貫性が大幅に向上するという。</p>
+<h2>今後の展開</h2>
+<p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
+<p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
+]]></description>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
       <link>https://ledge.ai/articles/walmart_openai_instant_checkout_chatgpt</link>
       <description><![CDATA[<p>米小売最大手のWalmartは2025年10月14日（現地時間）、OpenAIとの提携を<a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">発表</a>した。この提携により、顧客やSam’s Clubの会員は、ChatGPTの「Instant Checkout（インスタントチェックアウト）」機能を通じてチャットで完結する買い物が可能になる。Walmartは“AI-First Shopping”を掲げ、反応型から予測型へと購買体験の転換を図る。</p>
