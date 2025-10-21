@@ -189,6 +189,17 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
+      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
+      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
+<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
+<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
+<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
+<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ロサンゼルス「パリセーズ火災」容疑者を逮捕──司法当局、ChatGPTで生成した“燃える都市”画像を押収と発表</title>
       <link>https://ledge.ai/articles/palisades_fire_chatgpt_image_doj</link>
       <description><![CDATA[<p>アメリカ司法省（U.S. Department of Justice）は2025年10月7日、ロサンゼルスのパシフィック・パリセーズ地区で1月に発生し、12人が死亡・6,000棟以上が焼失した大規模火災を「故意に発生させた」として、フロリダ州在住の29歳の男、ジョナサン・リンダークネヒト（Jonathan Rinderknecht）容疑者を逮捕・起訴したと<a href="https://www.justice.gov/usao-cdca/pr/florida-man-arrested-federal-criminal-complaint-alleging-he-maliciously-started-what">発表</a>した。</p>
@@ -198,35 +209,6 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
 <p>司法省の説明によれば、火災は2025年1月1日に発生し、乾燥と強風の影響で急速に拡大した。地下でくすぶった火が再び燃え上がり、最終的に6,000棟を超える住宅や建物が焼失した。ロサンゼルス市消防局はこの火災を「近年で最も被害の大きい火災のひとつ」としている。</p>
 ]]></description>
       <pubDate>Fri, 17 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
-      <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
-      <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
-<p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=I06Ef8alr2Y">YouTube</a></p>
-<h2>Flowとの統合で生成から編集まで一体化</h2>
-<p>Googleは今回、AI映像制作ツール「Flow」へのアップデートを発表した。Flowは5か月前の導入以降、すでに2億7,500万本以上の動画を生成しており、Veo 3.1の搭載によって生成から編集までのプロセスがさらに統合された。</p>
-<p>Flowは、テキスト・画像・音声・映像素材といった“ingredients”を組み合わせて動画を構築できるツールである。
-既存の「Ingredients to Video」「Frames to Video」「Extend」機能に加え、今回は音声統合を拡張。ユーザーは複数の素材をもとに、AIがシーン構成やカメラワーク、トーンを自動的に最適化した一貫性のある映像を生成できる。</p>
-<p>新しいExtendでは、直前のクリップの終端1秒を手がかりに、1分以上の連続ショットとして自然に拡張することも可能。Googleはこれにより、「映像制作をより直感的で対話的な体験へと変える」としている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=B78BJuPxmBU">YouTube</a></p>
-<h2>照明や構図、音声もAIが自動編集</h2>
-<p>Veo 3.1では、照明・陰影・カメラ構図をAIが自動的に制御し、シーン全体のトーンや一貫性を高める。
-また、AIによる音声生成と映像への同期統合にも対応し、環境音や効果音を含む“音響的なリアリティ”を再現できるようになった。</p>
-<p>Flow内には、シーンに要素を追加する「Insert」と、不要な物体を背景ごと削除する「Remove（近日提供）」の編集機能も加わった。影や照明の整合を自動で処理することで、合成感を抑えた自然な編集を可能にしている。
-Googleは、こうした機能群を通じて「richer audio」「more narrative control」「enhanced realism」の実現を掲げている。</p>
-<h2>Gemini APIで提供、Standard／Fastモデルを展開</h2>
-<p>Veo 3.1は、「Standard」モデルと「Fast」モデルの2種類を用意し、Gemini API経由で開発者向けに提供が開始された。生成速度を優先するワークフローにはFastモデル、品質を重視する制作用途にはStandardモデルが推奨される。</p>
-<p>さらに、Veo 3.1はVertex AIおよびGeminiアプリからも利用可能。新機能はGemini API／Vertex AIの双方で順次展開される予定で、API向けの「Scene extension」機能も今後提供される見込みだ。
-Googleは「AIによる創造的表現の民主化をさらに進める」とし、プロフェッショナルから一般ユーザーまで、誰もが高品質な映像制作にアクセスできる環境の構築を目指している。</p>
-<h2>Veoシリーズの進化</h2>
-<p>Veoシリーズは、2024年12月の「Veo 2」、2025年春の「Veo 3」に続く最新バージョン。
-今回のVeo 3.1では、「AI任せの自動生成」から「人とAIが協働して映像を作る」方向へと進化した。
-Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
-<p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
-]]></description>
-      <pubDate>Fri, 17 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本プロ野球選手会、SNS上の誹謗中傷を検出するAIを導入──クライマックスシリーズと日本シリーズで運用開始</title>
@@ -387,56 +369,31 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
       <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、企業向けAIの“入口”「Gemini Enterprise」発表──従業員全員にGoogle AIを届ける統合プラットフォーム</title>
-      <link>https://ledge.ai/articles/google_gemini_enterprise_ai_platform_launch</link>
-      <description><![CDATA[<p>Googleは米国時間2025年10月9日、企業向けの新しいAIプラットフォーム「Gemini Enterprise（ジェミニ・エンタープライズ）」を<a href="https://blog.google/products/google-cloud/gemini-enterprise-sundar-pichai/">発表</a>した。
-職場におけるAI活用の“入口（front door）”として位置づけられ、従業員全員が直感的なチャットインターフェースを通じて、GoogleのAI機能を安全かつ統合的に利用できる環境を提供する。</p>
-<h2>部門単位のAIから、全社横断のAIへ</h2>
-<p>Googleは発表の冒頭で、「AIは働き方、ビジネス運営、顧客体験のすべてを変革する歴史的機会をもたらす」としながらも、従来のAI活用が部門ごとに孤立していた課題を指摘した。Gemini Enterpriseは、この分断を解消し、ワークフローと従業員をつなぐ包括的なAIプラットフォームとして開発された。</p>
-<p>Google Cloudによると、同社の強みは「信頼性の高いAIインフラ」「Google DeepMindによる先駆的研究」「多用途なGeminiモデルファミリー」の3層構造にある。このフルスタックAI戦略が、企業におけるAI変革を支える中核基盤になるという。</p>
-<h2>6つの中核コンポーネントを統合</h2>
-<p>Gemini Enterpriseは、以下の6つの要素を単一のインターフェースで統合する：</p>
-<ul>
-<li><strong>最新のGeminiモデル</strong> ：あらゆる業務タスクの“頭脳”として、高度な推論と生成を実現。</li>
-<li><strong>ノーコード・ワークベンチ</strong> ：非エンジニアでもデータ分析やエージェント連携が可能。</li>
-<li><strong>事前構築エージェント</strong> ：リサーチやデータインサイトなどの専門業務に即対応。</li>
-<li><strong>企業データとの安全な接続</strong> ：Google WorkspaceやMicrosoft 365、Salesforce、SAPなどにシームレス接続。</li>
-<li><strong>統合ガバナンス</strong> ：すべてのエージェントを一元的に可視化・保護・監査。</li>
-<li><strong>オープンなエコシステム</strong> ：10万社を超えるパートナーによる拡張性を確保。</li>
-</ul>
-<p>Googleはこれにより、「単一タスクの効率化を超え、ワークフロー全体を自動化する」としている。</p>
-<h2>業務アプリとの統合と新機能</h2>
-<p>Gemini EnterpriseはGoogle Workspaceとも密接に連携する。
-テキスト・画像・動画・音声を理解・生成できる初のマルチモーダルエージェントが導入され、文書作成や会議運営などの作業を支援。
-「Google Vids」によるAI生成動画の作成機能や、「Google Meet」でのリアルタイム音声翻訳機能も提供される。
-後者は発話者のトーンや表現を反映し、自然な多言語コミュニケーションを可能にするという。</p>
-<p>さらに、「データサイエンスエージェント（プレビュー）」が発表された。
-データ取り込みから探索、モデルトレーニングの自動化までを担い、VodafoneやWalmartなどの企業が既に活用している。</p>
-<h2>導入事例の拡大と実用成果</h2>
-<p>Googleは、Banco BV、Klarna、Mercedes-Benz、Swarovskiなどの導入事例を紹介した。
-Banco BVでは、分析作業の自動化により、マネージャーが新規ビジネス開拓に注力できるようになった。Mercedes-BenzはGeminiを用いてドライバーと自然な会話ができる自動車内AIアシスタントを構築している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ijqTReRzG8M&amp;t=26s">YouTube</a></p>
-<p>日本企業では、メルカリがGoogle AIをコールセンターに導入。
-AI主導のカスタマーサービス体験を実現し、業務量を20％削減、ROI（投資収益率）を500％向上させる見込みとしている。</p>
-<h2>開発者×エージェント経済──A2AとAP2で拡張</h2>
-<p>Gemini Enterpriseは企業だけでなく、開発者にも開かれたプラットフォームとして進化する。
-すでに100万人以上が利用する「Gemini CLI」に加え、AIをコマンドラインから拡張できる「Gemini CLI Extensions」を導入。
-さらに、開発者やISV（独立系ソフトウェアベンダー）がエージェントを構築・販売・収益化できる「エージェントエコノミー」の構想を発表した。</p>
-<p>この仕組みを支えるのが、</p>
-<ul>
-<li><strong>Agent2Agent Protocol（A2A）</strong> ：エージェント間通信を標準化する新プロトコル</li>
-<li><strong>Agent Payments Protocol（AP2）</strong> ：エージェントによる安全な金融取引を実現する決済標準
-の2つである。AP2は、American Express、Mastercard、PayPalなど100社超のパートナーと共同で策定された。</li>
-</ul>
-<h2>学習・導入支援プログラム</h2>
-<p>Googleは、AI人材育成と現場導入支援の両面から変革を後押しする。
-新たに全従業員が無料でAIスキルを学べる「Google Skills」を開設し、開発者向けの教育プログラム「Gemini Enterprise Agent Ready（GEAR）」を開始した。
-さらに、顧客企業に伴走して導入支援を行うAIエンジニアチーム「Team Delta」も新設している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<h2>AIの“入口”としての意義</h2>
-<p>Googleは、AIの未来を「オープンで協力的なエコシステム」にあるとし、Box、Workday、ServiceNowなど主要企業との連携を拡大している。クロスプラットフォームでのワークフロー連携や導入支援、検証済みエージェントの発見、収益化の仕組みなど、10万社超のパートナー基盤を活用し、AI導入を全層で支援する方針だ。</p>
-<p>\u003E「Gemini Enterpriseは、Google AIの最高の機能をすべての従業員とワークフローに届ける“職場AIの新たな入口”です」（Google Cloud公式ブログより）</p>
-<p>Googleは、企業にとってのAI導入を「一部の実験」から「全員の変革」へと引き上げる転換点として、この新プラットフォームを位置づけている。</p>
+      <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
+      <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
+      <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
+<p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=I06Ef8alr2Y">YouTube</a></p>
+<h2>Flowとの統合で生成から編集まで一体化</h2>
+<p>Googleは今回、AI映像制作ツール「Flow」へのアップデートを発表した。Flowは5か月前の導入以降、すでに2億7,500万本以上の動画を生成しており、Veo 3.1の搭載によって生成から編集までのプロセスがさらに統合された。</p>
+<p>Flowは、テキスト・画像・音声・映像素材といった“ingredients”を組み合わせて動画を構築できるツールである。
+既存の「Ingredients to Video」「Frames to Video」「Extend」機能に加え、今回は音声統合を拡張。ユーザーは複数の素材をもとに、AIがシーン構成やカメラワーク、トーンを自動的に最適化した一貫性のある映像を生成できる。</p>
+<p>新しいExtendでは、直前のクリップの終端1秒を手がかりに、1分以上の連続ショットとして自然に拡張することも可能。Googleはこれにより、「映像制作をより直感的で対話的な体験へと変える」としている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B78BJuPxmBU">YouTube</a></p>
+<h2>照明や構図、音声もAIが自動編集</h2>
+<p>Veo 3.1では、照明・陰影・カメラ構図をAIが自動的に制御し、シーン全体のトーンや一貫性を高める。
+また、AIによる音声生成と映像への同期統合にも対応し、環境音や効果音を含む“音響的なリアリティ”を再現できるようになった。</p>
+<p>Flow内には、シーンに要素を追加する「Insert」と、不要な物体を背景ごと削除する「Remove（近日提供）」の編集機能も加わった。影や照明の整合を自動で処理することで、合成感を抑えた自然な編集を可能にしている。
+Googleは、こうした機能群を通じて「richer audio」「more narrative control」「enhanced realism」の実現を掲げている。</p>
+<h2>Gemini APIで提供、Standard／Fastモデルを展開</h2>
+<p>Veo 3.1は、「Standard」モデルと「Fast」モデルの2種類を用意し、Gemini API経由で開発者向けに提供が開始された。生成速度を優先するワークフローにはFastモデル、品質を重視する制作用途にはStandardモデルが推奨される。</p>
+<p>さらに、Veo 3.1はVertex AIおよびGeminiアプリからも利用可能。新機能はGemini API／Vertex AIの双方で順次展開される予定で、API向けの「Scene extension」機能も今後提供される見込みだ。
+Googleは「AIによる創造的表現の民主化をさらに進める」とし、プロフェッショナルから一般ユーザーまで、誰もが高品質な映像制作にアクセスできる環境の構築を目指している。</p>
+<h2>Veoシリーズの進化</h2>
+<p>Veoシリーズは、2024年12月の「Veo 2」、2025年春の「Veo 3」に続く最新バージョン。
+今回のVeo 3.1では、「AI任せの自動生成」から「人とAIが協働して映像を作る」方向へと進化した。
+Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
+<p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
 ]]></description>
       <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
@@ -567,17 +524,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
-      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
-      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
-<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
-<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
-<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Mon, 13 Oct 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
