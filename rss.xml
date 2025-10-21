@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、キング牧師の肖像生成を一時停止──遺族と協議し、歴史的人物保護を強化</title>
+      <link>https://ledge.ai/articles/openai_pauses_sora_mlk_generation_with_king_estate</link>
+      <description><![CDATA[<p>OpenAIは2025年10月19日（現地時間）、動画生成AI「Sora」において、マーティン・ルーサー・キング・ジュニア博士（キング牧師）の肖像生成を一時停止したと<a href="https://x.com/OpenAINewsroom/status/1979005850166648933">発表</a>した。キング牧師の遺族団体「The Estate of Martin Luther King, Jr., Inc.（King, Inc.）」の要請を受けた措置であり、歴史的人物の扱いに関する倫理的ガードレールを強化する方針を示した。</p>
+<h2>King Estateの要請で肖像生成を一時停止</h2>
+<p>声明によると、一部のユーザーがキング牧師の肖像を不敬な形で生成していたことを受け、King, Inc.の要請によりOpenAIが対応した。
+OpenAIは「歴史的人物の表現には強い表現の自由の利益があるが、公人とその家族は最終的に自身の肖像の扱いを管理すべき」との立場を表明。今後は、遺族や公式代理人が希望すれば、肖像をSoraでの生成対象から除外できる仕組みを導入するという。</p>
+<p>OpenAIは、King, Inc.を代表して連絡を取ったバーニス・A・キング氏（Bernice A. King）と、AI倫理評議会（AI Ethics Council）のJohn Hope Bryant氏に感謝を示した。</p>
+<h2>バーニス・キング氏「父の肖像は公共財ではない」</h2>
+<p>キング牧師の娘でKing, Inc.の代表を務めるバーニス・A・キング氏は、SNS上で共同声明全文を<a href="https://www.facebook.com/photo/?fbid=1355219049297091">掲載</a>し、遺族側の見解を示した。
+同氏は「父は公人であったが、選挙で選ばれた公職者ではなく、肖像権は公共ドメインに属さない」と述べ、米国の半数の州で死後の肖像権を50〜100年保護している点に言及した。</p>
+<p>さらに、「多くのAI生成は表現の自由ではなく愚行だった」と強い言葉で批判し、「OpenAIが父の肖像の扱いに協力してくれたことを感謝する。AIを責任ある方法で活用し、倫理的なガードレールを整備する契機となることを望む」とコメントした。
+同氏は投稿の中で、「父の言葉と遺産は、人権と社会正義の象徴として保護されるべきだ」とも述べている。</p>
+<h2>倫理委員会も「人権保護の転換点」と評価</h2>
+<p>AI倫理評議会を運営する非営利団体「Operation HOPE」も<a href="https://operationhope.org/operation-hope-hope-ai-ethics-council-on-openais-pause-of-sora-generations-depicting-dr-king/">声明</a>を発表し、今回の対応を「テクノロジーと人権保護のバランスを取る重要な転換点」と評価した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/operation_hope_2b5e07e137/operation_hope_2b5e07e137.jpg" alt="operation hope.jpg" /></p>
+<h2>今後の展開</h2>
+<p>OpenAIは2025年9月30日に公表した公式文書「<a href="https://openai.com/ja-JP/index/launching-sora-responsibly/">Launching Sora responsibly</a>」で、実在人物の肖像生成について「本人または権利者の同意に基づく」ことを原則としていた。今回の措置は、その方針をさらに実践的に強化するものとなる。</p>
+<p>今回の決定は、AIが歴史的人物や著名人をどのように扱うべきかという国際的な倫理・法的議論を加速させる可能性がある。OpenAIは今後も、他の遺族団体や文化的機関と協議を進め、生成AI時代における肖像の扱いと責任の在り方を再定義していくとみられる。</p>
+]]></description>
+      <pubDate>Tue, 21 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>世界のAIチップを“毎晩測る”──SemiAnalysis、リアルタイム性能追跡プラットフォーム「InferenceMAX」始動</title>
       <link>https://ledge.ai/articles/semianalysis_inferencemax_real_time_benchmark</link>
       <description><![CDATA[<p>米調査・分析メディアのSemiAnalysisは2025年10月9日（現地時間）、AIチップの推論性能をリアルタイムで追跡するオープンベンチマークプラットフォーム「InferenceMAX（インファレンスマックス）」を<a href="https://newsletter.semianalysis.com/p/inferencemax-open-source-inference">公開</a>した。GPUやNPU、CPUを含む数百種類のチップを対象に、主要な推論フレームワークやAIモデルの性能を毎晩自動で再測定し、その結果をリアルタイムで可視化する。</p>
@@ -285,20 +307,6 @@ Boston Dynamicsは「より人間に近い作業能力を備えたヒューマ�
 <p>これらを既存のナレッジ検索ツールと統合し、高度な質問やタスクにも対応できるシステムを目指す。同社は、知識資産の最大活用を通じて「ものづくりDX」を加速し、競争優位性の強化につなげるとしている。</p>
 ]]></description>
       <pubDate>Wed, 15 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東京大学・ソフトバンク・LINEヤフー、「Beyond AI技術研究組合」を設立──AI研究成果の事業化を加速</title>
-      <link>https://ledge.ai/articles/beyond_ai_technology_consortium_tokyo_univ_softbank_line_yahoo</link>
-      <description><![CDATA[<p>東京大学とソフトバンク、LINEヤフーは2025年10月10日、AI（人工知能）研究の成果を迅速に社会実装・事業化するための新たな産学連携組織「Beyond AI技術研究組合」を9月19日に設立したと<a href="https://beyondai.jp/contents/2025/10/10/cip3/">発表</a>した。</p>
-<p>同組合は、経済産業省の「CIP（コーポレート・イノベーション・プラットフォーム）」制度を活用し、AI研究から事業化までを一貫して推進する体制を構築するという。</p>
-<h2>研究と事業化の橋渡しを強化</h2>
-<p>東京大学とソフトバンク、LINEヤフーの3者は、2020年設立の「Beyond AI研究推進機構」を通じてAI分野の基礎研究を進めてきた。今回の「Beyond AI技術研究組合」は、その研究成果を社会や産業へ迅速に還元するための組織で、知的財産や人材育成、資金調達などの面から事業化を支援する「プラットフォーム型CIP」として位置づけられる。</p>
-<p>また、2024年6月に経済産業省がCIP設立・運営ガイドラインを改正し、1つのCIPから複数の事業会社を設立できる枠組みを導入したことを受け、同組合もその新制度を活用して設立された。</p>
-<h2>今後の展開</h2>
-<p>同組合は、パーソナルAIエージェント時代を見据えたAI技術の高度化や基盤技術開発を進めるとともに、Beyond AI連携事業で取り組んできた医療ヘルスケア領域などへのAI応用研究を推進する。
-また、ソフトバンクグループと連携し、産業領域横断のデータ活用や社会実装に向けた実証実験（PoC）を進めていく。</p>
-]]></description>
-      <pubDate>Wed, 15 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
