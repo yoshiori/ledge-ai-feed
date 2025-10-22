@@ -172,28 +172,6 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Mon, 20 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
-      <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
-      <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=IoqpBKrNaZI">YouTube</a></p>
-<h2>フォルダ単位で“教え込む”仕組み</h2>
-<p>Claude Skillsは、指示文やスクリプト、関連資料をまとめたフォルダをClaudeに読み込ませる仕組みだ。各フォルダには「SKILL.md」という定義ファイルが含まれ、タスク内容や使用条件などが記述される。Claudeは必要に応じてこれらのスキルを呼び出し、指示に従って処理を実行する。</p>
-<p>この設計は「進行開示（progressive disclosure）」と呼ばれ、必要な情報だけを段階的に読み込むことで効率と安全性を両立する。Anthropicは、Claude Skillsを「プロンプトの再利用性を高め、AIが現実的な作業単位で動けるようにする構造」と説明している。</p>
-<h2>企業導入例：Box、Canvaなど</h2>
-<p>発表では、企業向けの活用例も紹介された。
-クラウドストレージ大手のBoxでは、文書を自動的に要約・変換し、PowerPointやWord形式に整理するワークフローをスキルとして実装。Notionは「複雑なタスクでのプロンプト調整を減らし、より予測可能な結果につながる」とコメントしている。</p>
-<p>さらにデザインプラットフォームのCanvaは、ブランドガイドをClaude Skillsに登録し、AIが自動でデザイン案を生成する活用を計画しているという。これにより、社内のスタイルガイドや手順書をAIに“教え込む”ことで、誰でも同じ品質で成果物を作れる環境を整備できる。</p>
-<h2>エンジニア向けにはコード実行にも対応</h2>
-<p>Anthropicの<a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">エンジニアリングブログ</a>では、Claude Skillsの内部構造が詳細に解説されている。Claude Skillsは単なるプリセットではなく、自己記述的モジュール構造を持つ。スキルはフォルダ単位で管理され、初期段階ではメタ情報のみを読み込み、関連タスクが発生した際に全体を展開する。</p>
-<p>スクリプトやPythonコードを含めることで、データ分析や自動レポート生成といった専門処理も可能だ。開発者は /v1/skills エンドポイントを通じてスキルを登録・管理でき、実行にはCode Execution Tool（ベータ）が必要となる。</p>
-<p>従来の「プロンプト＋RAG（検索）」のように文脈を都度読み込む手法に比べ、Claude Skillsでは情報の再利用が容易で、処理速度や一貫性が大幅に向上するという。</p>
-<h2>今後の展開</h2>
-<p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
-<p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
-]]></description>
-      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
       <link>https://ledge.ai/articles/walmart_openai_instant_checkout_chatgpt</link>
       <description><![CDATA[<p>米小売最大手のWalmartは2025年10月14日（現地時間）、OpenAIとの提携を<a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">発表</a>した。この提携により、顧客やSam’s Clubの会員は、ChatGPTの「Instant Checkout（インスタントチェックアウト）」機能を通じてチャットで完結する買い物が可能になる。Walmartは“AI-First Shopping”を掲げ、反応型から予測型へと購買体験の転換を図る。</p>
@@ -269,6 +247,31 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sun, 19 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/10/18 [SAT]「見て、聞いて、考えるCopilot」──Windows 11が“AIネイティブOS”へ進化</title>
       <link>https://ledge.ai/articles/windows11_copilot_vision_ai_pc_strategy</link>
       <description><![CDATA[<p>マイクロソフトは2025年10月16日（米国時間）、Windows 11における次世代AI機能の拡充方針を発表した。公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/">Making every Windows 11 PC an AI PC</a>」で、すべてのWindows 11搭載端末を「AI PC」として再定義し、Copilotを中核に据えたAI体験をOS全体に統合していく構想を明らかにした。</p>
@@ -284,6 +287,155 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
+      <link>https://ledge.ai/articles/amazon_smr_clean_energy_ai_infrastructure</link>
+      <description><![CDATA[<p>Amazonは2025年10月16日（米国時間）、AI技術やクラウドサービスの拡大に伴う電力需要の急増に対応するため、次世代原子炉「小型モジュール炉（SMR）」の開発支援を<a href="https://www.aboutamazon.com/news/sustainability/amazon-smr-nuclear-energy">発表</a>した。米国のエネルギー企業Dominion Energy、X-energy、Energy Northwestの3社と協力し、先進原子力技術の導入を進める。</p>
+<p>Amazonは「再生可能エネルギーに加え、信頼性の高いゼロカーボン電源が必要」と説明し、原子力を再エネを補完する選択肢として位置づける。</p>
+<p>今回の取り組みでは、Dominion Energyとバージニア州でのSMR開発可能性の評価（MOU）を行い、X-energyとは高温ガス炉「Xe-100」商業化の支援で連携、Energy Northwestとはワシントン州での先進原子力プロジェクトを検討する。いずれも初期段階で、建設開始時期は現時点で未定としている。</p>
+<p><strong>X-energy社のXe-100運転訓練シミュレーター</strong>：開発中の小型モジュール炉（SMR）「Xe-100」の制御システムを再現した施設で、オペレーターが安全運転や緊急対応を訓練する
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_0bbe5f5462/1_0bbe5f5462.jpg" alt="ダウンロード (1).jpg" /></p>
+<p>Amazonは世界で500件を超える再生可能エネルギープロジェクトを展開しており、クリーン電力の拡大を継続している。長期目標の2040年ネットゼロ（二酸化炭素排出実質ゼロ）の達成に向け、SMRを含むクリーン電源の多様化を進める方針だ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
+      <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
+      <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=IoqpBKrNaZI">YouTube</a></p>
+<h2>フォルダ単位で“教え込む”仕組み</h2>
+<p>Claude Skillsは、指示文やスクリプト、関連資料をまとめたフォルダをClaudeに読み込ませる仕組みだ。各フォルダには「SKILL.md」という定義ファイルが含まれ、タスク内容や使用条件などが記述される。Claudeは必要に応じてこれらのスキルを呼び出し、指示に従って処理を実行する。</p>
+<p>この設計は「進行開示（progressive disclosure）」と呼ばれ、必要な情報だけを段階的に読み込むことで効率と安全性を両立する。Anthropicは、Claude Skillsを「プロンプトの再利用性を高め、AIが現実的な作業単位で動けるようにする構造」と説明している。</p>
+<h2>企業導入例：Box、Canvaなど</h2>
+<p>発表では、企業向けの活用例も紹介された。
+クラウドストレージ大手のBoxでは、文書を自動的に要約・変換し、PowerPointやWord形式に整理するワークフローをスキルとして実装。Notionは「複雑なタスクでのプロンプト調整を減らし、より予測可能な結果につながる」とコメントしている。</p>
+<p>さらにデザインプラットフォームのCanvaは、ブランドガイドをClaude Skillsに登録し、AIが自動でデザイン案を生成する活用を計画しているという。これにより、社内のスタイルガイドや手順書をAIに“教え込む”ことで、誰でも同じ品質で成果物を作れる環境を整備できる。</p>
+<h2>エンジニア向けにはコード実行にも対応</h2>
+<p>Anthropicの<a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">エンジニアリングブログ</a>では、Claude Skillsの内部構造が詳細に解説されている。Claude Skillsは単なるプリセットではなく、自己記述的モジュール構造を持つ。スキルはフォルダ単位で管理され、初期段階ではメタ情報のみを読み込み、関連タスクが発生した際に全体を展開する。</p>
+<p>スクリプトやPythonコードを含めることで、データ分析や自動レポート生成といった専門処理も可能だ。開発者は /v1/skills エンドポイントを通じてスキルを登録・管理でき、実行にはCode Execution Tool（ベータ）が必要となる。</p>
+<p>従来の「プロンプト＋RAG（検索）」のように文脈を都度読み込む手法に比べ、Claude Skillsでは情報の再利用が容易で、処理速度や一貫性が大幅に向上するという。</p>
+<h2>今後の展開</h2>
+<p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
+<p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
+      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
+      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
+<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
+<h2>造語でAIをコントロール</h2>
+<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
+<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
+<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
+<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
+<h2>AIが自ら意味を説明</h2>
+<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
+たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
+「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
+<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
+さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
+<h2>モデル間で“機械語”が通じる</h2>
+<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
+たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
+<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
+人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
+<h2>複合的な概念も制御可能</h2>
+<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
+たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
+<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
+<h2>AIの「内なる言葉」への道</h2>
+<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
+「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
+<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
+将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
+      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
+      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
+<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
+<h2>Gemini API に“computer_use”ツールを追加</h2>
+<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
+<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
+<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
+<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
+<h2>プレビュー提供と利用方法</h2>
+<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
+<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
+<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
+<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
+Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
+さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
+<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
+<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
+<h2>動作デモ：AI がブラウザを自律操作</h2>
+<p>公式ブログでは、実際の操作デモ動画も公開されている。
+動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
+<h2>AI による“手の届く自動化”へ</h2>
+<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
+Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
+      <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
+      <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
+<p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=I06Ef8alr2Y">YouTube</a></p>
+<h2>Flowとの統合で生成から編集まで一体化</h2>
+<p>Googleは今回、AI映像制作ツール「Flow」へのアップデートを発表した。Flowは5か月前の導入以降、すでに2億7,500万本以上の動画を生成しており、Veo 3.1の搭載によって生成から編集までのプロセスがさらに統合された。</p>
+<p>Flowは、テキスト・画像・音声・映像素材といった“ingredients”を組み合わせて動画を構築できるツールである。
+既存の「Ingredients to Video」「Frames to Video」「Extend」機能に加え、今回は音声統合を拡張。ユーザーは複数の素材をもとに、AIがシーン構成やカメラワーク、トーンを自動的に最適化した一貫性のある映像を生成できる。</p>
+<p>新しいExtendでは、直前のクリップの終端1秒を手がかりに、1分以上の連続ショットとして自然に拡張することも可能。Googleはこれにより、「映像制作をより直感的で対話的な体験へと変える」としている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B78BJuPxmBU">YouTube</a></p>
+<h2>照明や構図、音声もAIが自動編集</h2>
+<p>Veo 3.1では、照明・陰影・カメラ構図をAIが自動的に制御し、シーン全体のトーンや一貫性を高める。
+また、AIによる音声生成と映像への同期統合にも対応し、環境音や効果音を含む“音響的なリアリティ”を再現できるようになった。</p>
+<p>Flow内には、シーンに要素を追加する「Insert」と、不要な物体を背景ごと削除する「Remove（近日提供）」の編集機能も加わった。影や照明の整合を自動で処理することで、合成感を抑えた自然な編集を可能にしている。
+Googleは、こうした機能群を通じて「richer audio」「more narrative control」「enhanced realism」の実現を掲げている。</p>
+<h2>Gemini APIで提供、Standard／Fastモデルを展開</h2>
+<p>Veo 3.1は、「Standard」モデルと「Fast」モデルの2種類を用意し、Gemini API経由で開発者向けに提供が開始された。生成速度を優先するワークフローにはFastモデル、品質を重視する制作用途にはStandardモデルが推奨される。</p>
+<p>さらに、Veo 3.1はVertex AIおよびGeminiアプリからも利用可能。新機能はGemini API／Vertex AIの双方で順次展開される予定で、API向けの「Scene extension」機能も今後提供される見込みだ。
+Googleは「AIによる創造的表現の民主化をさらに進める」とし、プロフェッショナルから一般ユーザーまで、誰もが高品質な映像制作にアクセスできる環境の構築を目指している。</p>
+<h2>Veoシリーズの進化</h2>
+<p>Veoシリーズは、2024年12月の「Veo 2」、2025年春の「Veo 3」に続く最新バージョン。
+今回のVeo 3.1では、「AI任せの自動生成」から「人とAIが協働して映像を作る」方向へと進化した。
+Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
+<p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
+      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
+      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
+<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
+<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
+<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
+<h2>精度を保ちながら70％のメモリ削減</h2>
+<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
+<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
+<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
+<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
+また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
+<h2>コンシューマーGPUでのLLM実行を視野に</h2>
+<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
+<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
       <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
       <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
@@ -291,6 +443,89 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
 <p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
 <p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
+      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
+      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
+<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
+<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
+<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
+<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
+<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
+さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
+<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
+<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
+<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
+（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
+<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
+<h2>著名俳優からの反発</h2>
+<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
+<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
+「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
+<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
+<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
+<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
+「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
+<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
+<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
+<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
+「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
+<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
+<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
+「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
+<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
+<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
+<h2>今後の焦点</h2>
+<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
+<ul>
+<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
+<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
+<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
+</ul>
+<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
+      <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
+      <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
+<p>SimCityは、家庭・企業・政府・中央銀行という4種類のエージェントを大規模言語モデル（LLM）で駆動し、都市の発展やマクロ経済の動きを自律的に再現する。エージェントは自然言語による推論を行い、労働市場・財市場・金融市場で相互に作用。人間のように意思決定を行いながら、都市経済の変動を模倣することができるという。
+なお、論文中にはその記載はないが、同名の商用ゲームシリーズとは無関係と見られる。</p>
+<h2>4種類のエージェントがつくる「AI経済」</h2>
+<p>SimCityには、以下の4つの主要な役割を担うエージェントが登場する。</p>
+<ul>
+<li><strong>家計（Households）</strong> ：消費、就業、住宅選択、貯蓄・投資を決定する。</li>
+<li><strong>企業（Firms）</strong> ：生産や雇用、価格設定、設備投資を行う。</li>
+<li><strong>政府（Government）</strong> ：所得税や付加価値税（VAT）の徴収、公共支出や福祉政策を担当する。</li>
+<li><strong>中央銀行（Central Bank）</strong> ：インフレ率やGDPの動向に応じて、修正版テイラー・ルールに基づき政策金利を設定する。</li>
+</ul>
+<p>また、視覚・言語モデル（VLM）が企業の立地や都市構造を決定。住宅地や工業地帯が自然に分かれるなど、都市の空間構成も自律的に形成される。</p>
+<h2>経済法則を自然に再現</h2>
+<p>研究チームは、44種類の財と最大200世帯から成る仮想経済を構築し、180ステップ（約15年）にわたるシミュレーションを実施した。前半36カ月を「移住フェーズ」、後半144カ月を「発展フェーズ」として進行した。</p>
+<p>その結果、SimCityは以下のような実経済の特徴（stylized facts）を再現できたという。</p>
+<ul>
+<li><strong>フィリップス曲線</strong> ：インフレ率と失業率の逆相関</li>
+<li><strong>オークンの法則</strong> ：失業率の変化とGDP成長率の負の関係</li>
+<li><strong>ベバリッジ曲線</strong> ：求人率と失業率の逆相関</li>
+<li><strong>エンゲルの法則</strong> ：所得の上昇に伴い食費の割合が低下</li>
+<li><strong>需要の価格弾力性</strong> ：必需品は非弾力的、贅沢品は弾力的</li>
+<li><strong>投資の高ボラティリティ</strong> ：消費よりも投資が景気に敏感</li>
+</ul>
+<p>これらは実際の経済データ（FRED, 1970Q1–）との比較でも一致傾向を示し、従来のエージェント・ベース・モデル（ABM）では再現が難しかった現象を多く含むと報告されている。</p>
+<h2>都市発展と価格ショックへの応答</h2>
+<p>SimCityは「移住フェーズ（36カ月）」と「発展フェーズ（144カ月）」の2段階で進行する。
+初期段階では移住者の流入によりGDPが上昇し、住宅と生産拠点の配置が形成される。VLMの判断により、住宅は都市中心部に、工場は周辺部に集中するなど、現実的なゾーニング構造が自律的に現れた。</p>
+<p>さらに研究チームは、一部の財の価格を50％変動させる「価格インパルス実験」を実施。価格は短期的に大きく変動したが、数年のうちに均衡へ回帰。実際の経済で観察される「価格の粘着性（menu cost）」と同様の挙動が確認された。</p>
+<h2>「AIがつくる社会をAIで観察」</h2>
+<p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
+総トークン数は約80万で、全体の実行コストは約180ドル。</p>
+<p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
     </item>
@@ -347,241 +582,6 @@ SNS上の誹謗中傷が社会問題化する中、選手とその家族の精�
 <p>今後は、自動運転における遠隔監視の安定化だけでなく、建設現場や工場、倉庫などでの遠隔操作・自動化分野への展開も見据える。両社は、通信安定化技術を通じて人手不足や安全確保などの社会課題の解決に貢献するとしている。</p>
 ]]></description>
       <pubDate>Fri, 17 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
-      <link>https://ledge.ai/articles/amazon_smr_clean_energy_ai_infrastructure</link>
-      <description><![CDATA[<p>Amazonは2025年10月16日（米国時間）、AI技術やクラウドサービスの拡大に伴う電力需要の急増に対応するため、次世代原子炉「小型モジュール炉（SMR）」の開発支援を<a href="https://www.aboutamazon.com/news/sustainability/amazon-smr-nuclear-energy">発表</a>した。米国のエネルギー企業Dominion Energy、X-energy、Energy Northwestの3社と協力し、先進原子力技術の導入を進める。</p>
-<p>Amazonは「再生可能エネルギーに加え、信頼性の高いゼロカーボン電源が必要」と説明し、原子力を再エネを補完する選択肢として位置づける。</p>
-<p>今回の取り組みでは、Dominion Energyとバージニア州でのSMR開発可能性の評価（MOU）を行い、X-energyとは高温ガス炉「Xe-100」商業化の支援で連携、Energy Northwestとはワシントン州での先進原子力プロジェクトを検討する。いずれも初期段階で、建設開始時期は現時点で未定としている。</p>
-<p><strong>X-energy社のXe-100運転訓練シミュレーター</strong>：開発中の小型モジュール炉（SMR）「Xe-100」の制御システムを再現した施設で、オペレーターが安全運転や緊急対応を訓練する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_0bbe5f5462/1_0bbe5f5462.jpg" alt="ダウンロード (1).jpg" /></p>
-<p>Amazonは世界で500件を超える再生可能エネルギープロジェクトを展開しており、クリーン電力の拡大を継続している。長期目標の2040年ネットゼロ（二酸化炭素排出実質ゼロ）の達成に向け、SMRを含むクリーン電源の多様化を進める方針だ。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
-      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
-      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
-<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
-<h2>造語でAIをコントロール</h2>
-<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
-<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
-<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
-<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
-<h2>AIが自ら意味を説明</h2>
-<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
-たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
-「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
-<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
-さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
-<h2>モデル間で“機械語”が通じる</h2>
-<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
-たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
-<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
-人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
-<h2>複合的な概念も制御可能</h2>
-<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
-たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
-<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
-<h2>AIの「内なる言葉」への道</h2>
-<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
-「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
-<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
-将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
-      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
-      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
-<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
-<h2>Gemini API に“computer_use”ツールを追加</h2>
-<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
-<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
-<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
-<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
-<h2>プレビュー提供と利用方法</h2>
-<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
-<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
-<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
-<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
-Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
-さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
-<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
-<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
-<h2>動作デモ：AI がブラウザを自律操作</h2>
-<p>公式ブログでは、実際の操作デモ動画も公開されている。
-動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
-<h2>AI による“手の届く自動化”へ</h2>
-<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
-Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
-      <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
-      <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
-<p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=I06Ef8alr2Y">YouTube</a></p>
-<h2>Flowとの統合で生成から編集まで一体化</h2>
-<p>Googleは今回、AI映像制作ツール「Flow」へのアップデートを発表した。Flowは5か月前の導入以降、すでに2億7,500万本以上の動画を生成しており、Veo 3.1の搭載によって生成から編集までのプロセスがさらに統合された。</p>
-<p>Flowは、テキスト・画像・音声・映像素材といった“ingredients”を組み合わせて動画を構築できるツールである。
-既存の「Ingredients to Video」「Frames to Video」「Extend」機能に加え、今回は音声統合を拡張。ユーザーは複数の素材をもとに、AIがシーン構成やカメラワーク、トーンを自動的に最適化した一貫性のある映像を生成できる。</p>
-<p>新しいExtendでは、直前のクリップの終端1秒を手がかりに、1分以上の連続ショットとして自然に拡張することも可能。Googleはこれにより、「映像制作をより直感的で対話的な体験へと変える」としている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=B78BJuPxmBU">YouTube</a></p>
-<h2>照明や構図、音声もAIが自動編集</h2>
-<p>Veo 3.1では、照明・陰影・カメラ構図をAIが自動的に制御し、シーン全体のトーンや一貫性を高める。
-また、AIによる音声生成と映像への同期統合にも対応し、環境音や効果音を含む“音響的なリアリティ”を再現できるようになった。</p>
-<p>Flow内には、シーンに要素を追加する「Insert」と、不要な物体を背景ごと削除する「Remove（近日提供）」の編集機能も加わった。影や照明の整合を自動で処理することで、合成感を抑えた自然な編集を可能にしている。
-Googleは、こうした機能群を通じて「richer audio」「more narrative control」「enhanced realism」の実現を掲げている。</p>
-<h2>Gemini APIで提供、Standard／Fastモデルを展開</h2>
-<p>Veo 3.1は、「Standard」モデルと「Fast」モデルの2種類を用意し、Gemini API経由で開発者向けに提供が開始された。生成速度を優先するワークフローにはFastモデル、品質を重視する制作用途にはStandardモデルが推奨される。</p>
-<p>さらに、Veo 3.1はVertex AIおよびGeminiアプリからも利用可能。新機能はGemini API／Vertex AIの双方で順次展開される予定で、API向けの「Scene extension」機能も今後提供される見込みだ。
-Googleは「AIによる創造的表現の民主化をさらに進める」とし、プロフェッショナルから一般ユーザーまで、誰もが高品質な映像制作にアクセスできる環境の構築を目指している。</p>
-<h2>Veoシリーズの進化</h2>
-<p>Veoシリーズは、2024年12月の「Veo 2」、2025年春の「Veo 3」に続く最新バージョン。
-今回のVeo 3.1では、「AI任せの自動生成」から「人とAIが協働して映像を作る」方向へと進化した。
-Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
-<p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
-      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
-      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
-<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
-<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
-<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
-<h2>精度を保ちながら70％のメモリ削減</h2>
-<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
-<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
-<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
-<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
-また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
-<h2>コンシューマーGPUでのLLM実行を視野に</h2>
-<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
-<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
-      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
-      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
-<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
-<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
-<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
-<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
-<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
-さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
-<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
-<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
-<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
-（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
-<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
-<h2>著名俳優からの反発</h2>
-<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
-<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
-「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
-<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
-<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
-<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
-「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
-<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
-<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
-<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
-「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
-<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
-<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
-「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
-<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
-<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
-<h2>今後の焦点</h2>
-<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
-<ul>
-<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
-<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
-<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
-</ul>
-<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
-      <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
-      <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
-<p>SimCityは、家庭・企業・政府・中央銀行という4種類のエージェントを大規模言語モデル（LLM）で駆動し、都市の発展やマクロ経済の動きを自律的に再現する。エージェントは自然言語による推論を行い、労働市場・財市場・金融市場で相互に作用。人間のように意思決定を行いながら、都市経済の変動を模倣することができるという。
-なお、論文中にはその記載はないが、同名の商用ゲームシリーズとは無関係と見られる。</p>
-<h2>4種類のエージェントがつくる「AI経済」</h2>
-<p>SimCityには、以下の4つの主要な役割を担うエージェントが登場する。</p>
-<ul>
-<li><strong>家計（Households）</strong> ：消費、就業、住宅選択、貯蓄・投資を決定する。</li>
-<li><strong>企業（Firms）</strong> ：生産や雇用、価格設定、設備投資を行う。</li>
-<li><strong>政府（Government）</strong> ：所得税や付加価値税（VAT）の徴収、公共支出や福祉政策を担当する。</li>
-<li><strong>中央銀行（Central Bank）</strong> ：インフレ率やGDPの動向に応じて、修正版テイラー・ルールに基づき政策金利を設定する。</li>
-</ul>
-<p>また、視覚・言語モデル（VLM）が企業の立地や都市構造を決定。住宅地や工業地帯が自然に分かれるなど、都市の空間構成も自律的に形成される。</p>
-<h2>経済法則を自然に再現</h2>
-<p>研究チームは、44種類の財と最大200世帯から成る仮想経済を構築し、180ステップ（約15年）にわたるシミュレーションを実施した。前半36カ月を「移住フェーズ」、後半144カ月を「発展フェーズ」として進行した。</p>
-<p>その結果、SimCityは以下のような実経済の特徴（stylized facts）を再現できたという。</p>
-<ul>
-<li><strong>フィリップス曲線</strong> ：インフレ率と失業率の逆相関</li>
-<li><strong>オークンの法則</strong> ：失業率の変化とGDP成長率の負の関係</li>
-<li><strong>ベバリッジ曲線</strong> ：求人率と失業率の逆相関</li>
-<li><strong>エンゲルの法則</strong> ：所得の上昇に伴い食費の割合が低下</li>
-<li><strong>需要の価格弾力性</strong> ：必需品は非弾力的、贅沢品は弾力的</li>
-<li><strong>投資の高ボラティリティ</strong> ：消費よりも投資が景気に敏感</li>
-</ul>
-<p>これらは実際の経済データ（FRED, 1970Q1–）との比較でも一致傾向を示し、従来のエージェント・ベース・モデル（ABM）では再現が難しかった現象を多く含むと報告されている。</p>
-<h2>都市発展と価格ショックへの応答</h2>
-<p>SimCityは「移住フェーズ（36カ月）」と「発展フェーズ（144カ月）」の2段階で進行する。
-初期段階では移住者の流入によりGDPが上昇し、住宅と生産拠点の配置が形成される。VLMの判断により、住宅は都市中心部に、工場は周辺部に集中するなど、現実的なゾーニング構造が自律的に現れた。</p>
-<p>さらに研究チームは、一部の財の価格を50％変動させる「価格インパルス実験」を実施。価格は短期的に大きく変動したが、数年のうちに均衡へ回帰。実際の経済で観察される「価格の粘着性（menu cost）」と同様の挙動が確認された。</p>
-<h2>「AIがつくる社会をAIで観察」</h2>
-<p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
-総トークン数は約80万で、全体の実行コストは約180ドル。</p>
-<p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
-]]></description>
-      <pubDate>Tue, 14 Oct 2025 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
