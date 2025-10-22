@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google DeepMind、次世代核融合炉「SPARC」開発にAI導入──CFSと協働しプラズマ制御を最適化</title>
+      <link>https://ledge.ai/articles/google_deepmind_fusion_energy_ai_cfs_sparc</link>
+      <description><![CDATA[<p>Google DeepMindは2025年10月16日、米マサチューセッツ州の核融合エネルギー企業Commonwealth Fusion Systems（CFS）と提携し、次世代核融合炉「SPARC」の開発にAIを導入すると<a href="https://deepmind.google/discover/blog/bringing-ai-to-the-next-generation-of-fusion-energy/">発表</a>した。AIを用いてプラズマ挙動のシミュレーションや制御を最適化し、試験運転の効率化と安全性向上を図る。</p>
+<p>CFSは同日、両社がAI研究基盤「TORAX（Tokamak Research Accelerator）」を活用し、複数のAIモデルを連携させてプラズマ物理を再現すると<a href="https://blog.cfs.energy/with-ai-alliance-google-deepmind-and-cfs-take-fusion-to-the-next-level/">公式ブログ</a>で説明。燃料供給、RF加熱、磁場コイルの電流制御など、数百に及ぶパラメータを強化学習によって同時最適化するという。これにより、実機での試験条件の探索を高速化し、SPARC運転時のプラズマ安定性やエネルギー効率を高めることを目指す。</p>
+<p><strong>SPARCトカマク炉の断面可視化映像。磁場で閉じ込められたプラズマの挙動をAIがシミュレーションしている。左は実際のプラズマ、右はTORAXによるプラズマパルスの解析例で、圧力変化と制御コマンドによる性能差を示す。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_partnering_with_Commonwealth_Fusion_Systems_2c672bf3e4/Deep_Mind_partnering_with_Commonwealth_Fusion_Systems_2c672bf3e4.gif" alt="DeepMind- partnering with Commonwealth Fusion Systems.gif" /></p>
+<p>Google DeepMindは2022年に、AIがトカマク型核融合炉の磁場をリアルタイム制御できることを示した論文をNature誌に<a href="https://deepmind.google/discover/blog/accelerating-fusion-science-through-learned-plasma-control/">発表</a>している。今回の提携はその研究を実際の炉運転に応用する段階であり、「AIをエネルギーの消費側から、生成側の推進力へと拡張する取り組み」として位置づけられる。</p>
+<p>CFSは2026年にSPARCの初期稼働を予定しており、AIはその試運転や運転最適化を支援する主要技術となる見込みだ。将来的には商用核融合炉「ARC」でもAI制御を導入し、長期安定運転や自動最適化を実現する構想も示している。</p>
+<p>Googleは2025年6月、CFSの商用核融合炉「ARC」から200メガワットの電力を供給する契約を<a href="https://ledge.ai/articles/google_fusion_power_cfs_ppa">締結</a>しており、今回のAI提携はその延長線上に位置づけられる。グループとしてクリーン電力調達とAI技術開発を両輪で推進し、AIが電力を“消費する”だけでなく、“創り出す”側にも関与し始めている。</p>
+]]></description>
+      <pubDate>Tue, 21 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、キング牧師の肖像生成を一時停止──遺族と協議し、歴史的人物保護を強化</title>
       <link>https://ledge.ai/articles/openai_pauses_sora_mlk_generation_with_king_estate</link>
       <description><![CDATA[<p>OpenAIは2025年10月19日（現地時間）、動画生成AI「Sora」において、マーティン・ルーサー・キング・ジュニア博士（キング牧師）の肖像生成を一時停止したと<a href="https://x.com/OpenAINewsroom/status/1979005850166648933">発表</a>した。キング牧師の遺族団体「The Estate of Martin Luther King, Jr., Inc.（King, Inc.）」の要請を受けた措置であり、歴史的人物の扱いに関する倫理的ガードレールを強化する方針を示した。</p>
@@ -271,24 +284,6 @@ Boston Dynamicsは「より人間に近い作業能力を備えたヒューマ�
 <p>目標は自動車製造ラインなどで役立つ“実用タスク”の達成だ。外装部品のような重い部材を傷つけずに扱う作業と、ネジや工具の扱いといった繊細な作業の両立が求められる——今回のグリッパー設計は、まさにその要件に合わせて磨かれている。</p>
 ]]></description>
       <pubDate>Thu, 16 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ライオン、研究開発データで追加学習した独自LLM「LION LLM」開発に着手──AWS協力のもと、ものづくりDXを加速</title>
-      <link>https://ledge.ai/articles/lion_llm_development_aws_dx_2025</link>
-      <description><![CDATA[<p>ライオン株式会社は2025年10月8日、自社の長年にわたる研究開発データを用いて追加学習を行った独自の大規模言語モデル（LLM）「LION LLM」の開発に着手したと<a href="https://prtimes.jp/main/html/rd/p/000000218.000039983.html">発表</a>した。アマゾン ウェブ サービス ジャパン合同会社（AWSジャパン）の生成AI実用化推進プログラムを通じた協力を受け、ものづくり分野のデジタルトランスフォーメーション（DX）を加速する狙いだ。</p>
-<h2>暗黙知の継承と「ものづくりDX」の推進</h2>
-<p>ライオンは、「次世代ヘルスケアのリーディングカンパニーへ」を掲げる中期経営計画「Vision 2030 2nd STAGE」を2025年から始動。デジタル分野では「ものづくりDX」を重点テーマに位置づけ、収益力とクリエイティビティを両立させた競争力のある製品・サービスを迅速に市場へ投入できる体制を目指している。</p>
-<p>同社では、製造業において重要な「暗黙知」の継承が課題となっていた。熟練技術者の退職により貴重なノウハウが失われつつあることを背景に、2023年12月には生成AIと検索システムを組み合わせた研究ナレッジ検索ツールを導入。情報検索時間を従来の5分の1以下に短縮するなどの成果を上げたが、専門知識を要する複雑な質問には対応が難しい状況が続いていた。</p>
-<p>この課題を解決するため、ライオンはAWSジャパンの協力のもと、自社の知見を生かした独自LLMの内製開発を進めることを決定した。</p>
-<h2>AWS支援のもとで社内に分散学習基盤を構築</h2>
-<p>ライオンは2025年4月から、AWSジャパンが提供する「生成AI実用化推進プログラム」に参加。クレジット付与によるコスト支援や科学的助言などの技術協力を受け、内製開発体制を整備した。</p>
-<p>社内には分散学習環境を構築。AWS ParallelClusterとNVIDIAのMegatron-LMを組み合わせ、複数GPUサーバーを効率的に連携させる仕組みを採用した。ベースモデルには「Qwen 2.5-7B」を使用し、研究報告書、製品組成情報、品質評価データなど、数十年にわたる社内知見を学習データとして投入している。</p>
-<p>初期フェーズの評価では、過去の知見に基づく具体的なアドバイスや、複数の事例を統合した回答が可能であることを確認。従来ツールと比較して、回答の網羅性が大幅に向上したと社内で報告されている。</p>
-<h2>今後の展開</h2>
-<p>今後は、学習データの拡充と品質向上を目的に、プレゼン資料など構造化が難しいデータのクリーニングを進める。さらに、経済産業省およびNEDOが主導する「Generative AI Accelerator Challenge（GENIAC）」で開発された国産モデルの活用など、多角的なアプローチで精度向上を図る計画だ。</p>
-<p>これらを既存のナレッジ検索ツールと統合し、高度な質問やタスクにも対応できるシステムを目指す。同社は、知識資産の最大活用を通じて「ものづくりDX」を加速し、競争優位性の強化につなげるとしている。</p>
-]]></description>
-      <pubDate>Wed, 15 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
