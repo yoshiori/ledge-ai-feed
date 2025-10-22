@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザーとしてmacOS版をリリース</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
+      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザー「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
+<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供する。発表が行われたライブ配信では、AIがウェブの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザーの概念を刷新する設計思想が語られた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
+<h2>ChatGPTが心臓部にあるブラウザー</h2>
+<p>ライブ配信で同社は、Atlasの開発が「ブラウザーとチャットできたらどうなるか？」という問いから始まったと説明。
+従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザーではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
+<h2>コア機能：3つの柱</h2>
+<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
+<ol>
+<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
+<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
+<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
+</ol>
+<h2>その他の主要機能</h2>
+<ul>
+<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
+<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
+<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
+</ul>
+<h2>安全性と提供状況</h2>
+<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
+<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
+<h2>AIとWebを再定義する「次の10年」</h2>
+<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
       <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
       <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
