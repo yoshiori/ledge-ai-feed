@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ドイツのNeura Robotics、「NEURA Gym」を公開──物理空間でAIを鍛える“世界初のAIジム”</title>
+      <link>https://ledge.ai/articles/neura_robotics_neura_gym_physical_ai_training_center</link>
+      <description><![CDATA[<p>ドイツ発のロボティクス企業 Neura Robotics（ニューラ・ロボティクス） は2025年10月14日、物理空間におけるAI訓練センター 「NEURA Gym（ニューラ・ジム）」 を公開した。同社の公式動画「<a href="https://www.youtube.com/watch?v=hUNujYlRmZU">NEURA Gym: The First Physical AI Training Center for Robots</a>」では、数百台のロボットが現実世界でタスクを学習する様子が紹介されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=hUNujYlRmZU">YouTube</a></p>
+<p>Neura Roboticsは、「テキストや画像、シミュレーションだけの学習では不十分であり、現実世界での経験こそが真の知能を生む」と強調。NEURA Gymはその考えに基づき、実世界の環境でAIモデルをトレーニングするための物理的インフラとして設計された。</p>
+<h2>実世界でAIを鍛える“ジム”</h2>
+<p>NEURA Gymは、数百台のロボットが常時稼働する広大な物理的空間で構成されている。ロボットは、仮想世界プラットフォーム「Neuraverse（ニューラバース）」と連携し、現実とシミュレーションの両方でデータを生成・共有する。</p>
+<p>データ収集は、以下のサイクルで進む。まずシミュレーション上でタスクを学習し、その後、物理環境での挙動を検証。テレイグザキューション（遠隔操作）を通じて、ロボット自身の精密な感覚値や関節データを取得し、モデルを改善する。これを繰り返すことで、AIは実世界での「誤差」や「摩擦」を学び、より汎用的なスキルを身につけていく。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym1_2d2e19081a/neura_gym1_2d2e19081a.jpg" alt="neura gym1.jpg" /></p>
+<p>同社はこの仕組みを、人間の学習に例えて説明する。「水泳を覚えるには、水の中に入らなければならない」。つまり、AIも実際の物理環境に“飛び込む”ことで、真に応用可能な知能を獲得できるという考えだ。</p>
+<h2>Neuraverse：スキル共有の中枢</h2>
+<p>NEURA Gymで収集されたデータは、Neura Roboticsのグローバルデータ基盤「Neuraverse」に統合される。Neuraverseは、世界中のロボットから集めた現実データを共有・再利用する仕組みで、同社はこれを「世界最大かつ最速で拡張する物理訓練データリポジトリ」と呼んでいる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym2_a42849d8d4/neura_gym2_a42849d8d4.jpg" alt="neura gym2.jpg" /></p>
+<p>学習済みスキルは即座に他のロボットへ転送可能であり、「一体が学べば全体が賢くなる」というネットワーク効果を生む。Neura Roboticsは、これを「ロボット版の“共有知能」と位置づけている。</p>
+<h2>企業にも開放、世界展開を計画</h2>
+<p>NEURA GymはNeura Robotics社内だけでなく、外部企業にも開放されている。
+企業はスペースを予約し、自社のAIアプリケーションを訓練することが可能。Neura Roboticsのトレーナーによる支援を受けるほか、独自のエンジニアチームを持ち込むこともできる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym3_2cdb6aea39/neura_gym3_2cdb6aea39.jpg" alt="neura gym3.jpg" /></p>
+<p>同社はすでに、単一施設の運営にとどまらず、世界各地でNEURA Gymの展開を進める計画を明らかにしている。</p>
+<p>Neura Roboticsは2025年6月の発表で、「2030年までに500万台のロボットを普及させる」目標を掲げている。
+NEURA GymとNeuraverseは、その基盤を支える“知能インフラ”であり、AIロボットが現実の環境を理解し、適応するための訓練場といえる。</p>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google DeepMind、次世代核融合炉「SPARC」開発にAI導入──CFSと協働しプラズマ制御を最適化</title>
       <link>https://ledge.ai/articles/google_deepmind_fusion_energy_ai_cfs_sparc</link>
       <description><![CDATA[<p>Google DeepMindは2025年10月16日、米マサチューセッツ州の核融合エネルギー企業Commonwealth Fusion Systems（CFS）と提携し、次世代核融合炉「SPARC」の開発にAIを導入すると<a href="https://deepmind.google/discover/blog/bringing-ai-to-the-next-generation-of-fusion-energy/">発表</a>した。AIを用いてプラズマ挙動のシミュレーションや制御を最適化し、試験運転の効率化と安全性向上を図る。</p>
@@ -265,25 +290,6 @@ SNS上の誹謗中傷が社会問題化する中、選手とその家族の精�
 <p>今後は、自動運転における遠隔監視の安定化だけでなく、建設現場や工場、倉庫などでの遠隔操作・自動化分野への展開も見据える。両社は、通信安定化技術を通じて人手不足や安全確保などの社会課題の解決に貢献するとしている。</p>
 ]]></description>
       <pubDate>Fri, 17 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boston Dynamics、トヨタ・リサーチ・インスティテュートと共同でヒューマノイドロボット「Atlas」の新型グリッパーを公開──“器用さ”を極める7DoFハンド開発の舞台裏</title>
-      <link>https://ledge.ai/articles/bostondynamics_atlas_gripper_tri_202510</link>
-      <description><![CDATA[<p>ボストン・ダイナミクス（Boston Dynamics）は2025年10月8日、トヨタ・リサーチ・インスティテュート（TRI）と共同研究を進めるヒューマノイドロボット「Atlas」の最新映像を<a href="https://www.youtube.com/watch?v=gS4rOqNDTBk">公開</a>した。</p>
-<p>動画は同社公式シリーズ「Inside the Lab」の新作で、「Perception and Adaptability（知覚と適応）」をテーマに、ヒューマノイドの“手”にあたるグリッパー（ハンド）の進化を紹介している。</p>
-<h2>油圧式から電動式へ──操作能力に焦点</h2>
-<p>Atlasはこれまで、油圧駆動によるジャンプや宙返りなどのモビリティ性能で知られてきた。
-今回の研究では、「移動」から「操作」へと重心を移し、より高い器用さ（dexterity）を持つ電動式グリッパーの開発に注力している。
-Boston Dynamicsは「より人間に近い作業能力を備えたヒューマノイド」を目指し、把持（grasping）と認識（perception）の融合を進めているという。</p>
-<h2>7DoF＋触覚＋掌カメラ──“感じてつかむ手”</h2>
-<p><a href="https://bostondynamics.com/blog/ask-a-roboticist-meet-karl/">公式ブログ</a>によれば、現行のグリッパは7つの自由度（DoF）を備え、指先の触覚センサーと掌部カメラを搭載。滑りや力加減を検知して把持を調整でき、3本指＋対向親指（opposable thumb）の構成により、大型・重量物から繊細な小物まで幅広く扱える。</p>
-<h2>左右ミラーハンドと指の可動</h2>
-<p>グリッパーには左右のミラーバージョンがあり、指は内側に90°／後方に90°曲げられる設計。Atlasは人のような“利き手”を持たず、立ち位置や対象物に応じて最適な手を選んで作業する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gS4rOqNDTBk">YouTube</a></p>
-<h2>製造現場の実用タスクを見据える</h2>
-<p>目標は自動車製造ラインなどで役立つ“実用タスク”の達成だ。外装部品のような重い部材を傷つけずに扱う作業と、ネジや工具の扱いといった繊細な作業の両立が求められる——今回のグリッパー設計は、まさにその要件に合わせて磨かれている。</p>
-]]></description>
-      <pubDate>Thu, 16 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
