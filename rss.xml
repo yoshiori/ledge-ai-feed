@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
+      <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
+      <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
+<h2>4時間・約100ドルでChatGPT風モデルを構築</h2>
+<p>Karpathy氏は投稿で、「わずか4時間・100ドルでChatGPTのような会話モデルを訓練できる」と説明。
+クラウドGPU（8×H100構成）上で単一スクリプトを実行するだけで、LLMの事前学習から推論、WebUIまでを一括構築できる点が特徴だ。</p>
+<p>コードは約8,000行と比較的コンパクトで、依存関係を最小限に抑えた「フルスタック実装」。
+前作「nanoGPT」が事前学習フェーズに特化していたのに対し、今回の「nanochat」はトークナイザーの訓練から強化学習（RL）、推論エンジン、WebUIまでを統合している。</p>
+<h2>Rust製トークナイザーと一貫した学習パイプライン</h2>
+<p>nanochatでは、Karpathy氏が自作したRust実装のトークナイザーを用いてFineWebデータセットで事前学習（pretraining）を行う。
+その後、SmolTalkデータによる会話形式の中間学習（mid-training）を経て、指示追従（SFT）や数学・コード・世界知識のベンチマーク評価（ARC-E/C、MMLU、GSM8K、HumanEval）を実施。
+さらに、GSM8Kタスクに対する強化学習（GRPO）にも対応している。</p>
+<p>推論時には、KVキャッシュを用いた効率的なデコードと、軽量Pythonサンドボックスでのツール使用（コード実行）機能を備える。CLIおよびChatGPT風のWebUIから利用でき、学習結果はMarkdown形式の「レポートカード」として自動出力される。</p>
+<h2>性能とスケーラビリティ</h2>
+<p>約4時間の訓練で「GPT-2を上回るCOREスコア」を達成し、12〜24時間の訓練では、MMLUで40点台、ARC-Easyで70点台、GSM8Kで20点台を記録。Karpathy氏は「1000ドル規模の訓練まで拡張すれば、数倍の一貫性と応答精度が得られる」としている。</p>
+<h2>LLM教育「LLM101n」シリーズの集大成</h2>
+<p>Karpathy氏は、nanochatを自身が開発中の教育プログラム「LLM101n」の“集大成プロジェクト（capstone project）”と位置づけている。
+リポジトリは教育・研究者コミュニティ向けに「最大限フォーク可能」であり、LLMの構造理解や再実装の教材としても活用できる。
+同氏は投稿の締めくくりで「これからが本番。チューニングとヒルクライミングを始める」と述べ、今後の最適化と拡張を予告した。</p>
+<ul>
+<li>GitHubリポジトリ：<a href="https://github.com/karpathy/nanochat">karpathy/nanochat</a></li>
+<li>技術解説スレッド：<a href="https://github.com/karpathy/nanochat/discussions/1">Discussions #1 – nanochat speedrun walkthrough</a></li>
+</ul>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ドイツのNeura Robotics、「NEURA Gym」を公開──物理空間でAIを鍛える“世界初のAIジム”</title>
       <link>https://ledge.ai/articles/neura_robotics_neura_gym_physical_ai_training_center</link>
       <description><![CDATA[<p>ドイツ発のロボティクス企業 Neura Robotics（ニューラ・ロボティクス） は2025年10月14日、物理空間におけるAI訓練センター 「NEURA Gym（ニューラ・ジム）」 を公開した。同社の公式動画「<a href="https://www.youtube.com/watch?v=hUNujYlRmZU">NEURA Gym: The First Physical AI Training Center for Robots</a>」では、数百台のロボットが現実世界でタスクを学習する様子が紹介されている。</p>
