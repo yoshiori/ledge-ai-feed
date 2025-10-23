@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>全国7400館の蔵書をChatGPTなどのAIアシスタントから検索──「カーリル for AI（カーリル図書館MCP）」ベータ版を公開</title>
+      <link>https://ledge.ai/articles/calil_for_ai_library_mcp_beta</link>
+      <description><![CDATA[<p>株式会社カーリルは2025年10月9日、ChatGPTやClaudeなどのAIアシスタントから全国の図書館蔵書を横断検索できる新サービス「カーリル for AI（カーリル図書館MCP）」のベータ版を公開したことを<a href="https://blog.calil.jp/2025/10/forai.html">発表</a>した。</p>
+<p>同社が提供する図書館検索プラットフォーム「カーリル」は、全国7400館以上の公共図書館を対象に蔵書と貸出状況をリアルタイムで検索できるサービスで、今回の発表はそのAI連携版にあたる。</p>
+<p>「カーリル for AI」は、OpenAIやAnthropicの提供するAIアシスタントに拡張機能として組み込むことで、自然な対話を通じて図書館の蔵書を調べられる仕組み。ユーザーがChatGPTやClaudeに「近くの図書館で『深夜特急』を借りられる？」といった質問をすると、AIがカーリルのデータベースを参照し、所蔵館や貸出可否などを回答する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/calil_for_ai1_54f04abd1a/calil_for_ai1_54f04abd1a.jpg" alt="calil_for_ai1.jpg" /></p>
+<p>この仕組みは、AIモデルが外部データソースへ安全にアクセスするための新しい通信規格「Model Context Protocol（MCP）」を採用している。カーリル図書館MCPは、各地の図書館OPAC（蔵書検索システム）と連携し、最新の貸出情報をリアルタイムに取得する。従来のウェブ検索とは異なり、ユーザーはAIとの自然な会話の中で図書館情報にアクセスできるのが特徴だ。</p>
+<p>利用には、ChatGPTまたはClaudeの設定画面で「カーリル図書館MCP」を有効化するだけでよい。設定後は、会話の中で書名や著者名を指定すれば、AIが自動的に対応する図書館データを検索する。</p>
+<p>カーリルによると、現在は公共図書館を中心に対応しているが、今後は大学図書館や専門図書館への拡大も予定しているという。同社は「AIを通じて図書館の情報資源をより多くの人に届ける」ことを目指しており、AIと公共データをつなぐ新しいアクセスモデルの実証段階と位置付けている。</p>
+]]></description>
+      <pubDate>Thu, 23 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>広島銀行、営業準備に生成AI導入──「無意識に使える」業務フローへ　面談時間を7割削減見込み</title>
       <link>https://ledge.ai/articles/hirogin_ai_assistant_sales_poc_2025</link>
       <description><![CDATA[<p>ひろぎんホールディングス傘下の広島銀行は、営業業務に生成AIを導入し、行員の業務効率化を進めている。</p>
@@ -633,17 +646,6 @@ Flowとの連携により、テキストによる指示だけでなく、素材�
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ロサンゼルス「パリセーズ火災」容疑者を逮捕──司法当局、ChatGPTで生成した“燃える都市”画像を押収と発表</title>
-      <link>https://ledge.ai/articles/palisades_fire_chatgpt_image_doj</link>
-      <description><![CDATA[<p>アメリカ司法省（U.S. Department of Justice）は2025年10月7日、ロサンゼルスのパシフィック・パリセーズ地区で1月に発生し、12人が死亡・6,000棟以上が焼失した大規模火災を「故意に発生させた」として、フロリダ州在住の29歳の男、ジョナサン・リンダークネヒト（Jonathan Rinderknecht）容疑者を逮捕・起訴したと<a href="https://www.justice.gov/usao-cdca/pr/florida-man-arrested-federal-criminal-complaint-alleging-he-maliciously-started-what">発表</a>した。</p>
-<p>司法省の臨時連邦検事ビル・エッサイリ（Bill Essayli）氏は同日、X（旧Twitter）上で、押収されたデジタル機器の中に「容疑者がChatGPTで生成した“燃える都市”の画像」が含まれていたと<a href="https://x.com/USAttyEssayli/status/1975954598201536880">投稿</a>。同氏は「この悲劇による被害を元に戻すことはできないが、逮捕と起訴が犠牲者に一部でも正義をもたらすことを願う」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/attorney_la_bill_f7db2f0510/attorney_la_bill_f7db2f0510.jpg" alt="attorney la bill.jpg" /></p>
-<p>司法省カリフォルニア中部地区連邦検事局によると、リンダークネヒト容疑者は「悪意をもって火を放った（maliciously set a fire）」として連邦法に基づき起訴された。捜査にはATF（火器・爆発物取締局）、ロサンゼルス市消防局（LAFD）、ロサンゼルス郡保安局（LASD）が協力した。容疑者はフロリダ州オーランドで拘束され、同日午後1時30分（米東部時間）に連邦地方裁判所で初公判が予定されている。司法省は、容疑者が有罪と確定するまで無罪と推定されると明記している。</p>
-<p>司法省の説明によれば、火災は2025年1月1日に発生し、乾燥と強風の影響で急速に拡大した。地下でくすぶった火が再び燃え上がり、最終的に6,000棟を超える住宅や建物が焼失した。ロサンゼルス市消防局はこの火災を「近年で最も被害の大きい火災のひとつ」としている。</p>
-]]></description>
-      <pubDate>Fri, 17 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
