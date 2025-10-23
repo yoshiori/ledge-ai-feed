@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
+      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
+      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
+<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
+<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
+<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
+<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
+<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
+<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
       <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
       <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
@@ -134,7 +147,7 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
       <pubDate>Tue, 21 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
+      <title>ビジネス2025/10/20 [MON]NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
       <link>https://ledge.ai/articles/ntt_tsuzumi2_fullscratch_gpt5_level_japanese_llm</link>
       <description><![CDATA[<p>NTT2025年10月20日、フルスクラッチで開発した純国産の大規模言語モデル（LLM）「tsuzumi」の次世代版「tsuzumi 2」を<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">発表</a>した。
 ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報の取り扱いといった課題が顕在化するなか、NTTは1GPU環境で動作可能な軽量設計と高い日本語理解力を両立。日本語に最適化された高セキュアな生成AIとして提供を開始した。</p>
@@ -226,7 +239,7 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sun, 19 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>エンタメ＆アート2025/10/19 [SUN]Spotify、Sony・Universal・Warnerの3大レーベルと提携──“アーティスト優先”のAI音楽製品を共同開発へ</title>
+      <title>Spotify、Sony・Universal・Warnerの3大レーベルと提携──“アーティスト優先”のAI音楽製品を共同開発へ</title>
       <link>https://ledge.ai/articles/spotify_artist_first_ai_music_collaboration</link>
       <description><![CDATA[<p>Spotifyは2025年10月16日（現地時間）、Sony Music Group、Universal Music Group、Warner Music Groupの3大レーベルに加え、ライセンス大手Merlinおよびデジタル音楽企業Believeと提携し、「アーティスト優先（Artist-First）」のAI音楽製品を共同開発すると<a href="https://newsroom.spotify.com/2025-10-16/artist-first-ai-music-spotify-collaboration/">発表</a>した。AI技術の拡大を受け、アーティストやソングライターの権利を尊重しながら、透明性と倫理性を備えた“責任あるAI”の活用を進める。</p>
 <h2>主要レーベルと連携、AI時代の「共創モデル」を構築</h2>
@@ -557,31 +570,6 @@ SNS上の誹謗中傷が社会問題化する中、選手とその家族の精�
 同会は今後も、日本プロフェッショナル野球組織（NPB）および12球団と連携しながら、選手が安心して競技に集中できる環境づくりを進めていく。</p>
 ]]></description>
       <pubDate>Fri, 17 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTとNTTドコモビジネス、自動運転レベル4対応の「通信安定化ソリューション」を提供開始──IOWN技術で遠隔監視の通信を高信頼化</title>
-      <link>https://ledge.ai/articles/ntt_docomo_business_autonomous_driving_stable_communication_solution</link>
-      <description><![CDATA[<p>NTTドコモビジネス株式会社とNTT株式会社は2025年10月8日、自動運転車両など移動体向けに通信の安定性を高める「通信安定化ソリューション」の提供開始を<a href="https://www.ntt.com/about-us/press-releases/news/article/2025/1008.html">発表</a>した。</p>
-<p>両社が開発したIOWN（Innovative Optical and Wireless Network）技術を活用し、無線品質の予測に基づく複数回線のマルチパス通信制御と、データ連携システムを組み合わせることで、自動運転レベル4の遠隔監視を支える高信頼・低遅延な通信を実現する。</p>
-<h2>自動運転レベル4の社会実装を支える通信基盤</h2>
-<p>全国で進む自動運転レベル4の社会実装では、基地局の切り替えや通信干渉による一時的な映像途切れが課題となっている。NTTドコモビジネスとNTTは、これまで各地の自動運転実証実験で得た知見をもとに、通信の安定化に必要な複数技術をパッケージ化。導入までのリードタイムを短縮し、自治体や企業が容易に利用できる形で提供する。</p>
-<h2>3つの技術を統合したパッケージ構成</h2>
-<p>ソリューションは、次の3つの技術で構成される。</p>
-<ol>
-<li><strong>無線品質予測</strong> ：公衆ネットワークやローカル5G、Wi-Fiなどの無線品質を機械学習により予測（IOWN技術「Cradio」を活用）</li>
-<li><strong>マルチパス通信制御</strong> ：通信状況に応じて複数回線を制御し、高い接続性を実現（IOWN技術「協調型インフラ基盤」を活用）</li>
-<li><strong>リアルタイムデータ伝送</strong> ：車載カメラ映像やセンサーデータなどをリアルタイムに遠隔監視システムへ伝送（アプトポッド社「intdash」を活用）</li>
-</ol>
-<p>これにより、車両と遠隔監視システム間の通信を複数経路で同時接続し、無線品質の変化を先読みして制御することで、映像の途切れを抑えた安定した通信環境を構築できるという。</p>
-<p><strong>通信安定化ソリューションの構成イメージ</strong>：車載クライアント、クラウドサーバー（ドコモMEC）、監視センタを連携し、IOWN技術「Cradio」による無線品質予測とマルチパス通信制御、intdashによるデータ伝送を統合している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1008b_423a2f1ca4/1008b_423a2f1ca4.jpg" alt="1008b.jpg" /></p>
-<h2>実証で通信遅延を大幅に改善</h2>
-<p>両社は公道で自動運転車両を用いた実証実験を実施。クライアントとクラウド間の通信遅延400ミリ秒以下を維持できた割合は、非適用時の92％（1回線）および53％（2回線）に対し、本ソリューション適用時は99％に達したとしている。</p>
-<h2>各社の役割と今後の展開</h2>
-<p>このソリューションはNTTドコモビジネスが提供を担当し、intdashを用いた環境構築や活用提案を行う。NTTは「Cradio」および「協調型インフラ基盤」に関する研究開発を担う。</p>
-<p>今後は、自動運転における遠隔監視の安定化だけでなく、建設現場や工場、倉庫などでの遠隔操作・自動化分野への展開も見据える。両社は、通信安定化技術を通じて人手不足や安全確保などの社会課題の解決に貢献するとしている。</p>
-]]></description>
-      <pubDate>Fri, 17 Oct 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
