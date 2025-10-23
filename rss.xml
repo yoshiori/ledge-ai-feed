@@ -252,44 +252,6 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
       <pubDate>Tue, 21 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/20 [MON]NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
-      <link>https://ledge.ai/articles/ntt_tsuzumi2_fullscratch_gpt5_level_japanese_llm</link>
-      <description><![CDATA[<p>NTT2025年10月20日、フルスクラッチで開発した純国産の大規模言語モデル（LLM）「tsuzumi」の次世代版「tsuzumi 2」を<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">発表</a>した。
-ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報の取り扱いといった課題が顕在化するなか、NTTは1GPU環境で動作可能な軽量設計と高い日本語理解力を両立。日本語に最適化された高セキュアな生成AIとして提供を開始した。</p>
-<h2>tsuzumi 2の進化ポイント</h2>
-<p>NTTは、tsuzumi 2を「日本の企業DXを支える高性能・高セキュア・低コストな純国産LLM」と位置づけ、次の3つの進化点を挙げている。</p>
-<ol>
-<li>日本語性能のさらなる向上</li>
-<li>特化型モデル開発効率の向上</li>
-<li>低コスト・高セキュアの維持、国産AI</li>
-</ol>
-<p>これらの改良により、NTTは軽量ながらも世界トップクラスの性能を達成したと説明している。</p>
-<h2>GPT-5級の日本語性能を実現</h2>
-<p>「tsuzumi 2」は同クラス帯（約30Bパラメータ）のモデルとして世界トップクラスの日本語性能を持つ。
-知識・解析・指示遂行・安全性の各評価において、数倍以上大きなフラッグシップモデル（GPT-5など）に匹敵する水準を記録した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_3_88e14a3c64/tsuzumi2_3_88e14a3c64.jpg" alt="tsuzumi2 3.jpg" /></p>
-<p>同社は、独自トークナイザーによって日本語の単語分割を最適化。文法構造に沿った分割を学習させることで、自然で読みやすい文の生成と高い効率性を両立した。
-また、英語やソースコードに対しても効率的な生成が可能で、トークン当たり文字数ではGPT-5の約1.5倍を出力できるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_1_8855a698bd/tsuzumi2_1_8855a698bd.jpg" alt="tsuzumi2 1.jpg" /></p>
-<h2>金融・医療・公共分野に特化した開発効率を強化</h2>
-<p>tsuzumi 2では、RAG（検索拡張生成）とFine Tuningを組み合わせた特化モデル開発が可能になった。金融・医療・公共分野の知識を重点的に強化し、少量データでも高精度な応答を実現。NTT社内では、財務システムに関する問い合わせ応答タスクにおいて、他社先進モデルと同等以上の性能を確認した。また、FP2級試験を用いた評価では、他モデルの約10分の1の追加学習データで合格基準に到達したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_6_f1c925969d/tsuzumi2_6_f1c925969d.jpg" alt="tsuzumi2 6.jpg" /></p>
-<h2>軽量・高セキュア設計で企業利用を想定</h2>
-<p>tsuzumi 2は、1GPUでの推論が可能な軽量設計を維持し、推論コストを約10〜20分の1に削減。16bit・8bit・4bitの量子化モードを備え、用途に応じて精度や速度を調整できる。また、オンプレミスやプライベートクラウドでも動作可能で、機密情報を含む業務データも安全に処理できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_7_d5c23fc249/tsuzumi2_7_d5c23fc249.jpg" alt="tsuzumi2 7.jpg" /></p>
-<h2>学習データを自社管理、著作権と文化への配慮</h2>
-<p>NTTは、海外製オープンモデルに依存せず、学習データ・開発プロセス・品質を完全に自社管理している。新聞社データなどの権利保護にも配慮し、学習データから自主的に削除。40年以上にわたる日本語研究の成果を基盤に、「日本語・文化・慣習を理解するAI」を目指している。</p>
-<h2>教育・企業現場での導入事例も拡大</h2>
-<p>すでに東京通信大学が学内LLM基盤としてtsuzumi 2を採用。授業Q&amp;Aや教材作成支援、履修相談などで運用を開始する。
-また、NTTドコモビジネスと富士フイルムビジネスイノベーションは、契約書や提案書などの非構造化データを安全に構造化・分析できる生成AIソリューションの共同開発を進めている。</p>
-<h2>今後の展開</h2>
-<p>NTTは、tsuzumi 2をグループ各社のAIソリューションに順次組み込み、産業ごとの特化モデルを展開予定。
-さらに、AI間の自律的な議論を行う「AIコンステレーション」構想や、サイバーセキュリティ分野での応用開発も進める。
-11月に開催される「NTT R&amp;Dフォーラム 2025（IOWN Quantum Leap）」では、tsuzumi 2を活用した最新ソリューションを披露するという。</p>
-]]></description>
-      <pubDate>Mon, 20 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
       <link>https://ledge.ai/articles/walmart_openai_instant_checkout_chatgpt</link>
       <description><![CDATA[<p>米小売最大手のWalmartは2025年10月14日（現地時間）、OpenAIとの提携を<a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">発表</a>した。この提携により、顧客やSam’s Clubの会員は、ChatGPTの「Instant Checkout（インスタントチェックアウト）」機能を通じてチャットで完結する買い物が可能になる。Walmartは“AI-First Shopping”を掲げ、反応型から予測型へと購買体験の転換を図る。</p>
@@ -365,46 +327,6 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sun, 19 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/18 [SAT]「見て、聞いて、考えるCopilot」──Windows 11が“AIネイティブOS”へ進化</title>
-      <link>https://ledge.ai/articles/windows11_copilot_vision_ai_pc_strategy</link>
-      <description><![CDATA[<p>マイクロソフトは2025年10月16日（米国時間）、Windows 11における次世代AI機能の拡充方針を発表した。公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/">Making every Windows 11 PC an AI PC</a>」で、すべてのWindows 11搭載端末を「AI PC」として再定義し、Copilotを中核に据えたAI体験をOS全体に統合していく構想を明らかにした。</p>
-<h2>新しいウェイクワード「Hey Copilot」で話しかけるだけ</h2>
-<p>@<a href="https://www.youtube.com/watch?v=7Nbf1fqxcCM">YouTube</a></p>
-<p>同社は「AIはWindows体験の中心になる」として、音声・視覚・行動理解を備えた次世代のCopilot機能を順次展開する。音声による起動「Hey Copilot」、カメラや画像から状況を読み取る「Copilot Vision」、アプリ操作や設定変更などを文脈的に実行する「Copilot Actions」などが含まれるという。</p>
-<p>たとえば、Copilot Visionは開いているグラフを要約したり、エラー画面を読み取って修正案を提示したりすることが可能。さらに音声起動「Hey Copilot」と組み合わせれば、「この表をPowerPointにまとめて」「この画像を説明して」といった自然な音声操作にも対応する。AIが“見て・聞いて・動く”ことで、ユーザーとのインタラクションがより直感的なものに変わる。</p>
-<p>技術面では、NPU（Neural Processing Unit）を搭載した「AI PC」でオンデバイスAI処理を実行。これにより応答速度の向上とプライバシー保護を両立する。マイクロソフトは、AIをクラウド依存ではなくOSレベルに組み込む方針を明確にし、「AIネイティブOS」への移行を本格化させた。</p>
-<p>同日公開された別の公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11">New experiences currently rolling out for Windows 11</a>」では、新しいCopilot体験の段階的な提供が開始されていることを明らかにした。ユーザーは自然言語でシステム設定やファイル操作、スクリーンショット分析、スケジュール調整などを行えるようになる。</p>
-<p>さらに、開発者向けには外部サービスと連携できる「Copilot Extensions」を提供し、Microsoft Storeを通じてAI対応アプリの配信を拡充する方針も示された。</p>
-<p>Windows 10のサポート終了（2025年10月）を目前に控え、マイクロソフトはWindows 11をAIネイティブOSとして再設計する姿勢を強調している。同社は「AIがPC体験そのものを再定義する」として、SurfaceシリーズやOEMメーカーと連携し、AI PC時代の普及を進めていく考えだ。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
       <link>https://ledge.ai/articles/amazon_smr_clean_energy_ai_infrastructure</link>
       <description><![CDATA[<p>Amazonは2025年10月16日（米国時間）、AI技術やクラウドサービスの拡大に伴う電力需要の急増に対応するため、次世代原子炉「小型モジュール炉（SMR）」の開発支援を<a href="https://www.aboutamazon.com/news/sustainability/amazon-smr-nuclear-energy">発表</a>した。米国のエネルギー企業Dominion Energy、X-energy、Energy Northwestの3社と協力し、先進原子力技術の導入を進める。</p>
@@ -414,7 +336,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_0bbe5f5462/1_0bbe5f5462.jpg" alt="ダウンロード (1).jpg" /></p>
 <p>Amazonは世界で500件を超える再生可能エネルギープロジェクトを展開しており、クリーン電力の拡大を継続している。長期目標の2040年ネットゼロ（二酸化炭素排出実質ゼロ）の達成に向け、SMRを含むクリーン電源の多様化を進める方針だ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
@@ -436,41 +358,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
 <p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
-      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
-      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
-<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
-<h2>造語でAIをコントロール</h2>
-<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
-<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
-<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
-<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
-<h2>AIが自ら意味を説明</h2>
-<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
-たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
-「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
-<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
-さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
-<h2>モデル間で“機械語”が通じる</h2>
-<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
-たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
-<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
-人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
-<h2>複合的な概念も制御可能</h2>
-<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
-たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
-<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
-<h2>AIの「内なる言葉」への道</h2>
-<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
-「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
-<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
-将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
@@ -502,7 +390,7 @@ Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録�
 <p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
 Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
@@ -531,27 +419,70 @@ Googleは「AIによる創造的表現の民主化をさらに進める」とし
 Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
 <p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Huawei、LLMの精度を保持したまま最大70%メモリ削減できる新手法を発表──コンシューマーGPUでの高精度生成AI実行も視野に</title>
-      <link>https://ledge.ai/articles/huawei_sinq_quantization_llm</link>
-      <description><![CDATA[<p>中国の大手テクノロジー企業Huawei（華為技術）は2025年9月26日、大規模言語モデル（LLM）を一般的なGPU環境でも高品質に動作させるための新しい量子化技術「Sinkhorn-Normalized Quantization（SINQ）」を<a href="https://www.arxiv.org/abs/2509.22944">発表</a>した。</p>
-<h2>Sinkhorn正規化で“再調整なし”を実現</h2>
-<p>従来のLLM量子化では、精度を維持するために一部データを用いて再調整（キャリブレーション）を行う必要があった。SINQはその工程を省略し、「再調整なし」で精度を保つ新しい方式だ。</p>
-<p>仕組みの中核となるのが、「Sinkhorn-Knoppアルゴリズム」を応用した正規化手法である。モデルの重み行列に対して、行方向と列方向の2つのスケーリングベクトルを設定（dual-scaling）し、両軸の分散を均一化することで、外れ値（outlier）が特定の行や列に偏る問題を防ぐ。この工程により、量子化後の誤差を最小限に抑えられるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_818acd143f/x1_818acd143f.png" alt="x1.png" /></p>
-<h2>精度を保ちながら70％のメモリ削減</h2>
-<p>Huaweiの研究チームは、同社のQwen3モデル（1.7B〜235B）やDeepSeek-V2.5（236B）などで実験を行い、SINQが既存手法（RTN、HQQ、Hadamard変換など）を上回る精度を示したと報告している。</p>
-<p>具体的には、4bit量子化時にパープレキシティ（文章予測精度）を最大40％改善し、メモリ使用量を最大70％削減。さらに、8GB程度の一般的なGPU上でQwen3-7Bモデルを実行できたとしている。処理時間も高速で、量子化プロセスは従来のRTN法に比べてわずか1.1倍。再調整を伴う手法（AWQやGPTQなど）よりも最大30倍速いという。</p>
-<h2>幅広いモデルで動作、非一様量子化とも互換</h2>
-<p>SINQは、Qwenシリーズだけでなく、Llama 2・Llama 3・DeepSeek-V3などの異なるモデルにも適用可能。
-また、非一様量子化フォーマット（NF4）との併用でも精度を維持しており、調整を行うAWQと組み合わせた「A-SINQ」ではさらに高い性能を達成した。論文では、Mixture-of-Experts（MoE）構造の大型モデルでも安定して動作することが示されている。</p>
-<h2>コンシューマーGPUでのLLM実行を視野に</h2>
-<p>Huaweiは、SINQを「キャリブレーション不要の汎用量子化手法」と位置づけており、高性能GPUに依存しないLLM運用を可能にする技術として注目されている。論文著者らは、SINQの目的を「メモリ効率と速度を両立し、エッジデバイスでも高品質な生成AIを実行可能にすること」と説明している。</p>
-<p>コードはGitHub上で<a href="https://github.com/huawei-csl/SINQ">公開</a>されており、研究者や開発者が自由に評価・応用できる環境が整っている。</p>
+      <title>ビジネス2025/10/20 [MON]NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
+      <link>https://ledge.ai/articles/ntt_tsuzumi2_fullscratch_gpt5_level_japanese_llm</link>
+      <description><![CDATA[<p>NTT2025年10月20日、フルスクラッチで開発した純国産の大規模言語モデル（LLM）「tsuzumi」の次世代版「tsuzumi 2」を<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">発表</a>した。
+ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報の取り扱いといった課題が顕在化するなか、NTTは1GPU環境で動作可能な軽量設計と高い日本語理解力を両立。日本語に最適化された高セキュアな生成AIとして提供を開始した。</p>
+<h2>tsuzumi 2の進化ポイント</h2>
+<p>NTTは、tsuzumi 2を「日本の企業DXを支える高性能・高セキュア・低コストな純国産LLM」と位置づけ、次の3つの進化点を挙げている。</p>
+<ol>
+<li>日本語性能のさらなる向上</li>
+<li>特化型モデル開発効率の向上</li>
+<li>低コスト・高セキュアの維持、国産AI</li>
+</ol>
+<p>これらの改良により、NTTは軽量ながらも世界トップクラスの性能を達成したと説明している。</p>
+<h2>GPT-5級の日本語性能を実現</h2>
+<p>「tsuzumi 2」は同クラス帯（約30Bパラメータ）のモデルとして世界トップクラスの日本語性能を持つ。
+知識・解析・指示遂行・安全性の各評価において、数倍以上大きなフラッグシップモデル（GPT-5など）に匹敵する水準を記録した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_3_88e14a3c64/tsuzumi2_3_88e14a3c64.jpg" alt="tsuzumi2 3.jpg" /></p>
+<p>同社は、独自トークナイザーによって日本語の単語分割を最適化。文法構造に沿った分割を学習させることで、自然で読みやすい文の生成と高い効率性を両立した。
+また、英語やソースコードに対しても効率的な生成が可能で、トークン当たり文字数ではGPT-5の約1.5倍を出力できるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_1_8855a698bd/tsuzumi2_1_8855a698bd.jpg" alt="tsuzumi2 1.jpg" /></p>
+<h2>金融・医療・公共分野に特化した開発効率を強化</h2>
+<p>tsuzumi 2では、RAG（検索拡張生成）とFine Tuningを組み合わせた特化モデル開発が可能になった。金融・医療・公共分野の知識を重点的に強化し、少量データでも高精度な応答を実現。NTT社内では、財務システムに関する問い合わせ応答タスクにおいて、他社先進モデルと同等以上の性能を確認した。また、FP2級試験を用いた評価では、他モデルの約10分の1の追加学習データで合格基準に到達したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_6_f1c925969d/tsuzumi2_6_f1c925969d.jpg" alt="tsuzumi2 6.jpg" /></p>
+<h2>軽量・高セキュア設計で企業利用を想定</h2>
+<p>tsuzumi 2は、1GPUでの推論が可能な軽量設計を維持し、推論コストを約10〜20分の1に削減。16bit・8bit・4bitの量子化モードを備え、用途に応じて精度や速度を調整できる。また、オンプレミスやプライベートクラウドでも動作可能で、機密情報を含む業務データも安全に処理できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsuzumi2_7_d5c23fc249/tsuzumi2_7_d5c23fc249.jpg" alt="tsuzumi2 7.jpg" /></p>
+<h2>学習データを自社管理、著作権と文化への配慮</h2>
+<p>NTTは、海外製オープンモデルに依存せず、学習データ・開発プロセス・品質を完全に自社管理している。新聞社データなどの権利保護にも配慮し、学習データから自主的に削除。40年以上にわたる日本語研究の成果を基盤に、「日本語・文化・慣習を理解するAI」を目指している。</p>
+<h2>教育・企業現場での導入事例も拡大</h2>
+<p>すでに東京通信大学が学内LLM基盤としてtsuzumi 2を採用。授業Q&amp;Aや教材作成支援、履修相談などで運用を開始する。
+また、NTTドコモビジネスと富士フイルムビジネスイノベーションは、契約書や提案書などの非構造化データを安全に構造化・分析できる生成AIソリューションの共同開発を進めている。</p>
+<h2>今後の展開</h2>
+<p>NTTは、tsuzumi 2をグループ各社のAIソリューションに順次組み込み、産業ごとの特化モデルを展開予定。
+さらに、AI間の自律的な議論を行う「AIコンステレーション」構想や、サイバーセキュリティ分野での応用開発も進める。
+11月に開催される「NTT R&amp;Dフォーラム 2025（IOWN Quantum Leap）」では、tsuzumi 2を活用した最新ソリューションを披露するという。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
@@ -562,7 +493,7 @@ Flowとの連携により、テキストによる指示だけでなく、素材�
 <p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -607,7 +538,7 @@ Flowとの連携により、テキストによる指示だけでなく、素材�
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
@@ -645,7 +576,56 @@ Flowとの連携により、テキストによる指示だけでなく、素材�
 総トークン数は約80万で、全体の実行コストは約180ドル。</p>
 <p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/18 [SAT]「見て、聞いて、考えるCopilot」──Windows 11が“AIネイティブOS”へ進化</title>
+      <link>https://ledge.ai/articles/windows11_copilot_vision_ai_pc_strategy</link>
+      <description><![CDATA[<p>マイクロソフトは2025年10月16日（米国時間）、Windows 11における次世代AI機能の拡充方針を発表した。公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/">Making every Windows 11 PC an AI PC</a>」で、すべてのWindows 11搭載端末を「AI PC」として再定義し、Copilotを中核に据えたAI体験をOS全体に統合していく構想を明らかにした。</p>
+<h2>新しいウェイクワード「Hey Copilot」で話しかけるだけ</h2>
+<p>@<a href="https://www.youtube.com/watch?v=7Nbf1fqxcCM">YouTube</a></p>
+<p>同社は「AIはWindows体験の中心になる」として、音声・視覚・行動理解を備えた次世代のCopilot機能を順次展開する。音声による起動「Hey Copilot」、カメラや画像から状況を読み取る「Copilot Vision」、アプリ操作や設定変更などを文脈的に実行する「Copilot Actions」などが含まれるという。</p>
+<p>たとえば、Copilot Visionは開いているグラフを要約したり、エラー画面を読み取って修正案を提示したりすることが可能。さらに音声起動「Hey Copilot」と組み合わせれば、「この表をPowerPointにまとめて」「この画像を説明して」といった自然な音声操作にも対応する。AIが“見て・聞いて・動く”ことで、ユーザーとのインタラクションがより直感的なものに変わる。</p>
+<p>技術面では、NPU（Neural Processing Unit）を搭載した「AI PC」でオンデバイスAI処理を実行。これにより応答速度の向上とプライバシー保護を両立する。マイクロソフトは、AIをクラウド依存ではなくOSレベルに組み込む方針を明確にし、「AIネイティブOS」への移行を本格化させた。</p>
+<p>同日公開された別の公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11">New experiences currently rolling out for Windows 11</a>」では、新しいCopilot体験の段階的な提供が開始されていることを明らかにした。ユーザーは自然言語でシステム設定やファイル操作、スクリーンショット分析、スケジュール調整などを行えるようになる。</p>
+<p>さらに、開発者向けには外部サービスと連携できる「Copilot Extensions」を提供し、Microsoft Storeを通じてAI対応アプリの配信を拡充する方針も示された。</p>
+<p>Windows 10のサポート終了（2025年10月）を目前に控え、マイクロソフトはWindows 11をAIネイティブOSとして再設計する姿勢を強調している。同社は「AIがPC体験そのものを再定義する」として、SurfaceシリーズやOEMメーカーと連携し、AI PC時代の普及を進めていく考えだ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
+      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
+      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
+<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
+<h2>造語でAIをコントロール</h2>
+<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
+<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
+<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
+<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
+<h2>AIが自ら意味を説明</h2>
+<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
+たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
+「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
+<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
+さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
+<h2>モデル間で“機械語”が通じる</h2>
+<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
+たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
+<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
+人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
+<h2>複合的な概念も制御可能</h2>
+<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
+たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
+<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
+<h2>AIの「内なる言葉」への道</h2>
+<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
+「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
+<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
+将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
+]]></description>
+      <pubDate>Thu, 16 Oct 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
