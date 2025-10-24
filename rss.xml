@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、量子チップ「Willow」で“検証可能な量子優位”を実証──Nature掲載論文でスーパーコンピューターを13,000倍上回る性能</title>
+      <link>https://ledge.ai/articles/google_quantum_willow_verifiable_advantage_nature2025</link>
+      <description><![CDATA[<p>Googleは2025年10月22日、科学誌『Nature』において、同社の量子コンピューター用チップ「Willow（ウィロー）」が、既存のスーパーコンピューターを13,000倍上回る速度で演算を実行し、「検証可能な量子優位（verifiable quantum advantage）」を達成したと<a href="https://research.google/blog/a-verifiable-quantum-advantage/">発表</a>した。</p>
+<p>論文「<a href="https://www.nature.com/articles/s41586-025-09526-6">Observation of constructive interference at the edge of quantum ergodicity</a>」によると、Willowチップは105個の超伝導キュービットを備え、量子情報の拡散を解析する手法「アウト・オブ・タイム・オーダー相関（OTOC）」を用いて実験を実施した。結果、古典スーパーコンピューターでは約32年を要する計算を、わずか2時間で完了したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mEBCQidaNTQ">YouTube</a></p>
+<p>A Verifiable Quantum Advantage：研究チームがWillowチップ、量子エコーアルゴリズム、NMR分光法応用などを解説</p>
+<h2>Quantum Echoes──量子エコー・アルゴリズムの仕組み</h2>
+<p>Googleの研究チームは、量子システム内部の相互作用を可視化する新しいアルゴリズム「Quantum Echoes（量子エコー）」を開発した。この手法は、量子回路を順方向と逆方向の両方で実行し、干渉パターンを比較することで誤差を自己検証できる。</p>
+<p>この仕組みにより、量子システムの「見えない構造」をエコー信号として観測可能にする点が特徴で、これまでノイズに埋もれていた量子状態の動的相関を明確に測定できるようになった。</p>
+<h2>量子干渉と「Constructive Interference」──新しい優位性の原理</h2>
+<p>論文では、量子系内部のパウリ演算子の干渉（constructive interference）が、OTOCの高次成分（OTOC(2)など）において初めて実験的に観測されたことを報告。これにより、量子干渉の複雑性が古典シミュレーションでは再現不能であることが確認された。</p>
+<p>実際、Googleの試算では、今回の65キュービット実験を古典スーパーコンピューター「Frontier」でシミュレートするには約3.2年を要し、Willowチップの実行時間（2.1時間）と比べて13,000倍以上の差がある。これにより、「Beyond classical（古典を超えた）」領域に踏み入ったと位置づけている。</p>
+<p><strong>Quantum Echoesアルゴリズムは、世界最速のスーパーコンピューターを13,000倍上回る速度で計算を実行</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/13000times_faster_3aa42ccb1d/13000times_faster_3aa42ccb1d.jpg" alt="13000times faster.jpg" /></p>
+<h2>実世界応用への一歩──分子構造解析とHamiltonian Learning</h2>
+<p>Google Quantum AIは、Quantum Echoesの応用として、ハミルトニアン学習（Hamiltonian learning）を実証した。
+これは量子システムの測定データ（OTOC）を実際の物理系と照合し、未知のパラメータを最適化して学習する手法である。</p>
+<p>研究チームは、UCバークレーと連携し、Willowチップ上で2種類の分子構造を予測し、NMR分光法でその正確性を確認した。論文では、この方法が分子シミュレーション、薬剤設計、エネルギー材料開発などへの応用に発展する可能性が示唆されている。</p>
+<p><strong>量子研究施設を視察するGoogle CEOのサンダー・ピチャイ氏「科学そのものを行う力が量子計算に宿り始めている」と述べた</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb.webp" alt="QuantumSundar_Inline.width-1000.format-webp.webp" /></p>
+<p>Google Quantum AIのディレクターであるHartmut Neven氏は、「量子コンピューターが理論段階を超え、実際の科学的課題を解くためのツールになりつつある」とコメント。共同リーダーのJulian Kelly氏も「Quantum Echoesを通じて、結果を検証可能な形で量子優位を確認できたのは初めて」と述べた。</p>
+<p><strong>Google Quantum AIが開発した次世代量子チップ「Willow」。105個の超伝導キュービットを搭載し、誤差率0.15％の高精度ゲート制御を実現した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b.webp" alt="WillowChip_4k_Render_02.width-1000.format-webp.webp" /></p>
+]]></description>
+      <pubDate>Thu, 23 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>全国7400館の蔵書をChatGPTなどのAIアシスタントから検索──「カーリル for AI（カーリル図書館MCP）」ベータ版を公開</title>
       <link>https://ledge.ai/articles/calil_for_ai_library_mcp_beta</link>
       <description><![CDATA[<p>株式会社カーリルは2025年10月9日、ChatGPTやClaudeなどのAIアシスタントから全国の図書館蔵書を横断検索できる新サービス「カーリル for AI（カーリル図書館MCP）」のベータ版を公開したことを<a href="https://blog.calil.jp/2025/10/forai.html">発表</a>した。</p>
