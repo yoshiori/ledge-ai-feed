@@ -185,36 +185,6 @@ AIワークステーションは、コストを半分以下に抑えながら、
       <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
-      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
-<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供するという。発表が行われたライブ配信では、AIがWebの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザの概念を刷新する設計思想が語られた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
-<h2>ChatGPTが心臓部にあるブラウザ</h2>
-<p>ライブ配信で同社は、Atlasの開発が「ブラウザとチャットできたらどうなるか？」という問いから始まったと説明。
-従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
-<h2>コア機能：3つの柱</h2>
-<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
-<ol>
-<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
-<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
-<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
-</ol>
-<h2>その他の主要機能</h2>
-<ul>
-<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
-<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
-<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
-</ul>
-<h2>安全性と提供状況</h2>
-<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
-<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
-<h2>AIとWebを再定義する「次の10年」</h2>
-<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
       <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
       <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
@@ -312,6 +282,40 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
 <p>ベンチマーク結果は無料で公開されており、InferenceMAX公式<a href="https://inferencemax.semianalysis.com/">ダッシュボード</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 21 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
+      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
+      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
+<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
+<h2>造語でAIをコントロール</h2>
+<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
+<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
+<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
+<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
+<h2>AIが自ら意味を説明</h2>
+<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
+たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
+「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
+<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
+さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
+<h2>モデル間で“機械語”が通じる</h2>
+<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
+たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
+<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
+人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
+<h2>複合的な概念も制御可能</h2>
+<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
+たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
+<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
+<h2>AIの「内なる言葉」への道</h2>
+<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
+「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
+<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
+将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
+]]></description>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
@@ -547,6 +551,36 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
+      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
+<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供するという。発表が行われたライブ配信では、AIがWebの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザの概念を刷新する設計思想が語られた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
+<h2>ChatGPTが心臓部にあるブラウザ</h2>
+<p>ライブ配信で同社は、Atlasの開発が「ブラウザとチャットできたらどうなるか？」という問いから始まったと説明。
+従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
+<h2>コア機能：3つの柱</h2>
+<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
+<ol>
+<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
+<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
+<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
+</ol>
+<h2>その他の主要機能</h2>
+<ul>
+<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
+<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
+<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
+</ul>
+<h2>安全性と提供状況</h2>
+<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
+<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
+<h2>AIとWebを再定義する「次の10年」</h2>
+<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
       <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
       <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
@@ -554,51 +588,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
 <p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
-      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
-      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
-<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
-<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
-<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
-<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
-<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
-さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
-<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
-<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
-<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
-（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
-<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
-<h2>著名俳優からの反発</h2>
-<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
-<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
-「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
-<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
-<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
-<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
-「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
-<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
-<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
-<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
-「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
-<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
-<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
-「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
-<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
-<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
-<h2>今後の焦点</h2>
-<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
-<ul>
-<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
-<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
-<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
-</ul>
-<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
@@ -654,40 +643,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>Windows 10のサポート終了（2025年10月）を目前に控え、マイクロソフトはWindows 11をAIネイティブOSとして再設計する姿勢を強調している。同社は「AIがPC体験そのものを再定義する」として、SurfaceシリーズやOEMメーカーと連携し、AI PC時代の普及を進めていく考えだ。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
-      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
-      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
-<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
-<h2>造語でAIをコントロール</h2>
-<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
-<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
-<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
-<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
-<h2>AIが自ら意味を説明</h2>
-<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
-たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
-「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
-<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
-さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
-<h2>モデル間で“機械語”が通じる</h2>
-<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
-たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
-<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
-人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
-<h2>複合的な概念も制御可能</h2>
-<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
-たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
-<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
-<h2>AIの「内なる言葉」への道</h2>
-<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
-「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
-<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
-将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
-]]></description>
-      <pubDate>Thu, 16 Oct 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
