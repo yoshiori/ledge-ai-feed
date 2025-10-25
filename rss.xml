@@ -254,19 +254,6 @@ AIワークステーションは、コストを半分以下に抑えながら、
       <pubDate>Thu, 23 Oct 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
-      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
-      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
-<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
-<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
-<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
-<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
-<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
-<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
       <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
       <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
@@ -562,6 +549,19 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
+      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
+      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
+<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
+<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
+<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
+<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
+<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
+<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
+]]></description>
+      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
       <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
       <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
@@ -624,44 +624,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
 <p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>清華大学、AIエージェントが仮想都市で経済活動を行う「SimCity」開発──フィリップス曲線やエンゲルの法則を自律再現</title>
-      <link>https://ledge.ai/articles/tsinghua_simcity_ai_urban_economy</link>
-      <description><![CDATA[<p>清華大学の研究チームは、複数のAIエージェントが仮想都市内で経済活動を行うシミュレーションシステム「SimCity」を開発した。研究成果は2025年10月1日付で論文「SimCity: Multi-Agent Urban Development Simulation with Rich Interactions」（arXiv:2510.01297）として<a href="https://arxiv.org/abs/2510.01297">公開</a>した。</p>
-<p>SimCityは、家庭・企業・政府・中央銀行という4種類のエージェントを大規模言語モデル（LLM）で駆動し、都市の発展やマクロ経済の動きを自律的に再現する。エージェントは自然言語による推論を行い、労働市場・財市場・金融市場で相互に作用。人間のように意思決定を行いながら、都市経済の変動を模倣することができるという。
-なお、論文中にはその記載はないが、同名の商用ゲームシリーズとは無関係と見られる。</p>
-<h2>4種類のエージェントがつくる「AI経済」</h2>
-<p>SimCityには、以下の4つの主要な役割を担うエージェントが登場する。</p>
-<ul>
-<li><strong>家計（Households）</strong> ：消費、就業、住宅選択、貯蓄・投資を決定する。</li>
-<li><strong>企業（Firms）</strong> ：生産や雇用、価格設定、設備投資を行う。</li>
-<li><strong>政府（Government）</strong> ：所得税や付加価値税（VAT）の徴収、公共支出や福祉政策を担当する。</li>
-<li><strong>中央銀行（Central Bank）</strong> ：インフレ率やGDPの動向に応じて、修正版テイラー・ルールに基づき政策金利を設定する。</li>
-</ul>
-<p>また、視覚・言語モデル（VLM）が企業の立地や都市構造を決定。住宅地や工業地帯が自然に分かれるなど、都市の空間構成も自律的に形成される。</p>
-<h2>経済法則を自然に再現</h2>
-<p>研究チームは、44種類の財と最大200世帯から成る仮想経済を構築し、180ステップ（約15年）にわたるシミュレーションを実施した。前半36カ月を「移住フェーズ」、後半144カ月を「発展フェーズ」として進行した。</p>
-<p>その結果、SimCityは以下のような実経済の特徴（stylized facts）を再現できたという。</p>
-<ul>
-<li><strong>フィリップス曲線</strong> ：インフレ率と失業率の逆相関</li>
-<li><strong>オークンの法則</strong> ：失業率の変化とGDP成長率の負の関係</li>
-<li><strong>ベバリッジ曲線</strong> ：求人率と失業率の逆相関</li>
-<li><strong>エンゲルの法則</strong> ：所得の上昇に伴い食費の割合が低下</li>
-<li><strong>需要の価格弾力性</strong> ：必需品は非弾力的、贅沢品は弾力的</li>
-<li><strong>投資の高ボラティリティ</strong> ：消費よりも投資が景気に敏感</li>
-</ul>
-<p>これらは実際の経済データ（FRED, 1970Q1–）との比較でも一致傾向を示し、従来のエージェント・ベース・モデル（ABM）では再現が難しかった現象を多く含むと報告されている。</p>
-<h2>都市発展と価格ショックへの応答</h2>
-<p>SimCityは「移住フェーズ（36カ月）」と「発展フェーズ（144カ月）」の2段階で進行する。
-初期段階では移住者の流入によりGDPが上昇し、住宅と生産拠点の配置が形成される。VLMの判断により、住宅は都市中心部に、工場は周辺部に集中するなど、現実的なゾーニング構造が自律的に現れた。</p>
-<p>さらに研究チームは、一部の財の価格を50％変動させる「価格インパルス実験」を実施。価格は短期的に大きく変動したが、数年のうちに均衡へ回帰。実際の経済で観察される「価格の粘着性（menu cost）」と同様の挙動が確認された。</p>
-<h2>「AIがつくる社会をAIで観察」</h2>
-<p>研究では、OpenAIの「GPT-4o-mini」を中心に、Azure OpenAI APIを通じてLLMを運用。各エージェントは独立して推論し、シミュレーション1ステップあたり約0.25ドルのコストで実行された。
-総トークン数は約80万で、全体の実行コストは約180ドル。</p>
-<p>研究チームは、SimCityを「AIがつくる社会をAIで観察するための基盤」と位置づけており、都市計画や経済政策の設計、AI社会の倫理実験などへの応用を見込んでいる。今後は、金融市場や株式取引などの要素を導入し、より現実的な経済表現へ拡張する予定だ。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
