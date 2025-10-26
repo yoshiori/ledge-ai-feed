@@ -29,7 +29,7 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
       <pubDate>Sun, 26 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
+      <title>ビジネス2025/10/26 [SUN]NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
       <link>https://ledge.ai/articles/starcloud_nvidia_ai_datacenter_in_space</link>
       <description><![CDATA[<p>NVIDIAは2025年10月15日、同社が支援する米スタートアップ <a href="https://www.starcloud.com/">Starcloud</a>と共に人工衛星上にAIデータセンターを構築する計画を進めていることをブログで<a href="https://blogs.nvidia.com/blog/starcloud/?ncid=so-twit-480097&amp;linkId=100000388344371">明らかにした</a>。11月にはNVIDIA H100 Tensor Core GPU を搭載した人工衛星を打ち上げる予定で、宇宙空間でのAI処理を実現するという。冷却コストを地上の10分の1に抑えるといい、AI時代の新しいエネルギー効率モデルとして注目されている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=ichlfqHF6XM">YouTube</a></p>
@@ -70,7 +70,44 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
       <pubDate>Sat, 25 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>850人超の著名人がAI「スーパーインテリジェンス」開発禁止を要請──ヒントン氏やメーガン妃らが署名</title>
+      <title>ビジネス2025/10/25 [SAT]OpenAI、「日本のAI経済ブループリント」を公開──生成AIで支える包摂的成長と新国家戦略</title>
+      <link>https://ledge.ai/articles/openai_japan_economic_blueprint_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年10月22日、日本におけるAIの経済的・社会的潜在力を最大限に活かすための政策提言書「日本のAI：OpenAIの経済ブループリント」を<a href="https://openai.com/ja-JP/index/japan-economic-blueprint/">発表</a>した。日本がAI時代において経済成長と社会的包摂を両立するための具体的な国家戦略を示すものであり、教育、医療、行政、産業、エネルギーなど多岐にわたる分野での活用を提言している。</p>
+<p>同文書は、OpenAIの政策・パートナーシップ担当である大久保和也氏が序文を執筆。AIを電気やインターネットと並ぶ汎用技術（General Purpose Technology）と位置づけ、「AIは日本の生産性を高め、より包摂的で持続可能な社会を支える」と述べた。AIを日本の国家成長の中核に据えるための「生きた提案書」として策定されたという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_in_Japan_Open_AI_c85874e918/AI_in_Japan_Open_AI_c85874e918.jpg" alt="AI in Japan OpenAI.jpg" /></p>
+<h2>国家戦略の三本柱──包摂・インフラ・教育を軸に</h2>
+<p>ブループリントは、AIを経済と社会の成長エンジンに据えるための三本の柱を掲げる。</p>
+<h3>1. 包摂的な参加型社会基盤の構築</h3>
+<p>AIをすべての人に届け、誰もが開発と活用に参加できる社会へ。日本の柔軟な著作権制度を基盤に、国際ルール形成を主導する「日本モデル」を確立する方針を示した。</p>
+<h3>2. 戦略的インフラ投資</h3>
+<p>AIの中核を担う半導体・データセンター・再生可能エネルギーを一体的に整備し、「ワット（電力）」と「ビット（情報）」を連携させる。政府の「GX2040ビジョン」との連動を通じ、地方へのデータセンター誘致や再エネ電源開発を官民協働で推進する。</p>
+<h3>3. 教育・リスキリングによる人的資本投資</h3>
+<p>初等教育からAIリテラシーを育成し、生涯学習をAIで支援。ChatGPT Eduなどのツールを「思考のパートナー」として活用し、批判的思考や創造性を育む教育を全国に広げるとした。</p>
+<h2>経済効果の試算──AIが日本のGDPを最大140兆円押し上げ</h2>
+<p>同文書は、AIの経済的インパクトを複数の独立分析に基づいて示している。
+AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げる可能性がある（みずほリサーチ＆テクノロジーズ）。また、生成AIだけでも実質GDPを16.2%増加させ得る（大和総研）。さらに、AI利用企業の生産性は非利用企業より8.8%高い（経済産業研究所）とされ、OpenAIはこれらを「日本全体の生産性への投資効果」と位置づけている。</p>
+<h2>各分野での波及効果──製造・医療・教育・行政・科学・金融</h2>
+<p>ブループリントでは、AIがもたらす変革を6分野で具体的に示した。</p>
+<ul>
+<li><strong>製造業</strong> ：中小企業336万社を支えるAI需要予測・検査システムの導入事例を紹介。品質向上やコスト削減、熟練工の技能継承を支援するツールとしての効果を示した。</li>
+<li><strong>医療・介護</strong> ：AI画像診断や見守りセンサーによる人手不足解消や医療費削減効果を提示。骨粗鬆症の予防だけでも年間1.5兆円の介護費削減が可能と試算している。</li>
+<li><strong>教育</strong> ：AIチューターによる個別最適化学習の導入を推進し、AIを「批判的思考を磨くツール」として位置づけた。</li>
+<li><strong>行政</strong> ：さいたま市や福岡市、東京都のAI活用事例を挙げ、文書作成や住民対応の自動化に加え、地域文化振興への応用も紹介。</li>
+<li><strong>科学</strong> ：AIによる創薬支援が臨床開発時間を最大60%短縮し、治験成功率の向上にも寄与。</li>
+<li><strong>金融</strong> ：生成AIによるパーソナライズ投資提案やAML（マネーロンダリング防止）対策への応用を紹介。金融庁の「AIディスカッションペーパー」を“成長ガイド”と評価した。</li>
+</ul>
+<h2>AIインフラとエネルギー政策の一体化</h2>
+<p>AI経済を支える物理的基盤として、データセンター市場は2028年に5兆円規模へ拡大すると予測。経産省によると、AIと半導体工場の増設により2034年度までに電力需要が約5.8%増加すると見込まれている。</p>
+<p>OpenAIは、日本政府が掲げる「GX2040ビジョン」との連携を通じて、再生可能エネルギーが豊富な地域へのデータセンター誘致を提言。GX（グリーン成長）とDX（デジタル変革）を統合した「GX×DXモデル」が、持続的な経済発展の鍵になるとした。</p>
+<h2>AIをすべての人の豊かさにつなげる設計図</h2>
+<p>OpenAIはこのブループリントを「AIという変革の力を日本のすべての国民の豊かさに繋げるための設計図」と位置づけた。
+「AIによって日本は経済成長と人間中心社会の両立を実現できる。今こそ官民一体でこの“日本モデル”を世界に先駆けて示すときだ」と締めくくっている。</p>
+<p><a href="https://cdn.openai.com/global-affairs/f9d1cd88-506e-48f9-b34b-6ff63655434e/openai-japan-economic-blueprint-jp.pdf">「​​日本のAI：​​Open AIの経済ブループリント」全文</a></p>
+]]></description>
+      <pubDate>Sat, 25 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2025/10/24 [FRI]850人超の著名人がAI「スーパーインテリジェンス」開発禁止を要請──ヒントン氏やメーガン妃らが署名</title>
       <link>https://ledge.ai/articles/ai_superintelligence_ban_850_signatories_fli_20251022</link>
       <description><![CDATA[<p>AIが人間の知能を超える「スーパーインテリジェンス（超知能）」の開発を巡り、世界の著名人や研究者らが開発の停止を求める声明を出した。</p>
 <p>Future of Life Institute（FLI）は2025年10月22日、超知能AIの開発を禁止するよう求める声明「The Statement on Superintelligence」を<a href="https://superintelligence-statement.org/">公開</a>した。署名には、AI研究の第一人者ジェフリー・ヒントン氏やアップル共同創業者のスティーブ・ウォズニアック氏、英王室のヘンリー王子夫妻（ハリー王子とメーガン妃）など850人以上が名を連ねている。</p>
@@ -401,7 +438,7 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
       <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
+      <title>Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
       <link>https://ledge.ai/articles/amazon_smr_clean_energy_ai_infrastructure</link>
       <description><![CDATA[<p>Amazonは2025年10月16日（米国時間）、AI技術やクラウドサービスの拡大に伴う電力需要の急増に対応するため、次世代原子炉「小型モジュール炉（SMR）」の開発支援を<a href="https://www.aboutamazon.com/news/sustainability/amazon-smr-nuclear-energy">発表</a>した。米国のエネルギー企業Dominion Energy、X-energy、Energy Northwestの3社と協力し、先進原子力技術の導入を進める。</p>
 <p>Amazonは「再生可能エネルギーに加え、信頼性の高いゼロカーボン電源が必要」と説明し、原子力を再エネを補完する選択肢として位置づける。</p>
@@ -467,7 +504,7 @@ Google は Computer Use を “次世代の AI アシスタント” 開発の�
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>エンタメ＆アート2025/10/17 [FRI]Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
+      <title>Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
       <link>https://ledge.ai/articles/google_veo3_1_flow_integration</link>
       <description><![CDATA[<p>Googleは現地時間2025年10月15日、動画生成AI「Veo」の最新版となるVeo 3.1を<a href="https://blog.google/technology/ai/veo-updates-flow/">発表</a>した。</p>
 <p>新バージョンでは、AI映像制作ツール「Flow」に新機能を追加し、その中核としてVeo 3.1を統合。照明・構図・音声をAIが自動的に制御できるようになり、リッチなオーディオ、物語制御（narrative control）の強化、質感のリアリズム向上を図ったアップデートとなっている。</p>
@@ -496,7 +533,7 @@ Flowとの連携により、テキストによる指示だけでなく、素材�
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/20 [MON]NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
+      <title>NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
       <link>https://ledge.ai/articles/ntt_tsuzumi2_fullscratch_gpt5_level_japanese_llm</link>
       <description><![CDATA[<p>NTT2025年10月20日、フルスクラッチで開発した純国産の大規模言語モデル（LLM）「tsuzumi」の次世代版「tsuzumi 2」を<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">発表</a>した。
 ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報の取り扱いといった課題が顕在化するなか、NTTは1GPU環境で動作可能な軽量設計と高い日本語理解力を両立。日本語に最適化された高セキュアな生成AIとして提供を開始した。</p>
@@ -534,7 +571,7 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
+      <title>ラーニング2025/10/22 [WED]NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
       <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
       <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
 <p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
@@ -611,21 +648,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
 ]]></description>
       <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/18 [SAT]「見て、聞いて、考えるCopilot」──Windows 11が“AIネイティブOS”へ進化</title>
-      <link>https://ledge.ai/articles/windows11_copilot_vision_ai_pc_strategy</link>
-      <description><![CDATA[<p>マイクロソフトは2025年10月16日（米国時間）、Windows 11における次世代AI機能の拡充方針を発表した。公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/">Making every Windows 11 PC an AI PC</a>」で、すべてのWindows 11搭載端末を「AI PC」として再定義し、Copilotを中核に据えたAI体験をOS全体に統合していく構想を明らかにした。</p>
-<h2>新しいウェイクワード「Hey Copilot」で話しかけるだけ</h2>
-<p>@<a href="https://www.youtube.com/watch?v=7Nbf1fqxcCM">YouTube</a></p>
-<p>同社は「AIはWindows体験の中心になる」として、音声・視覚・行動理解を備えた次世代のCopilot機能を順次展開する。音声による起動「Hey Copilot」、カメラや画像から状況を読み取る「Copilot Vision」、アプリ操作や設定変更などを文脈的に実行する「Copilot Actions」などが含まれるという。</p>
-<p>たとえば、Copilot Visionは開いているグラフを要約したり、エラー画面を読み取って修正案を提示したりすることが可能。さらに音声起動「Hey Copilot」と組み合わせれば、「この表をPowerPointにまとめて」「この画像を説明して」といった自然な音声操作にも対応する。AIが“見て・聞いて・動く”ことで、ユーザーとのインタラクションがより直感的なものに変わる。</p>
-<p>技術面では、NPU（Neural Processing Unit）を搭載した「AI PC」でオンデバイスAI処理を実行。これにより応答速度の向上とプライバシー保護を両立する。マイクロソフトは、AIをクラウド依存ではなくOSレベルに組み込む方針を明確にし、「AIネイティブOS」への移行を本格化させた。</p>
-<p>同日公開された別の公式ブログ「<a href="https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11">New experiences currently rolling out for Windows 11</a>」では、新しいCopilot体験の段階的な提供が開始されていることを明らかにした。ユーザーは自然言語でシステム設定やファイル操作、スクリーンショット分析、スケジュール調整などを行えるようになる。</p>
-<p>さらに、開発者向けには外部サービスと連携できる「Copilot Extensions」を提供し、Microsoft Storeを通じてAI対応アプリの配信を拡充する方針も示された。</p>
-<p>Windows 10のサポート終了（2025年10月）を目前に控え、マイクロソフトはWindows 11をAIネイティブOSとして再設計する姿勢を強調している。同社は「AIがPC体験そのものを再定義する」として、SurfaceシリーズやOEMメーカーと連携し、AI PC時代の普及を進めていく考えだ。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
