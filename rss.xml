@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
+      <link>https://ledge.ai/articles/starcloud_nvidia_ai_datacenter_in_space</link>
+      <description><![CDATA[<p>NVIDIAは2025年10月15日、同社が支援する米スタートアップ <a href="https://www.starcloud.com/">Starcloud</a>と共に人工衛星上にAIデータセンターを構築する計画を進めていることをブログで<a href="https://blogs.nvidia.com/blog/starcloud/?ncid=so-twit-480097&amp;linkId=100000388344371">明らかにした</a>。11月にはNVIDIA H100 Tensor Core GPU を搭載した人工衛星を打ち上げる予定で、宇宙空間でのAI処理を実現するという。冷却コストを地上の10分の1に抑えるといい、AI時代の新しいエネルギー効率モデルとして注目されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ichlfqHF6XM">YouTube</a></p>
+<p><a href="https://www.starcloud.com/">Starcloud</a>は、Y Combinatorの支援を受けて2024年に設立されたスタートアップで、「Data Centers in Space（宇宙空間にデータセンターを）」を掲げる。地球上のデータセンターが抱える電力・冷却・立地の制約を超えるべく、軌道上の低温・真空環境を活かしたAIインフラ構築を目指す。同社はNVIDIAのInceptionプログラムに参加しており、技術的な支援を受けながら軌道上でのAI推論とデータ処理を計画している。</p>
+<p><strong>11月に打ち上げ予定のStarcloud-1衛星をエンジニアが点検している。衛星内部の銀色のモジュールにはNVIDIA H100 GPUが搭載されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/starcloud_nvidia2_aca314e326/starcloud_nvidia2_aca314e326.jpg" alt="starcloud nvidia2.jpg" /></p>
+<p><a href="https://blogs.nvidia.com/blog/starcloud/">NVIDIA</a>によると、Starcloudの人工衛星は、H100 GPUを搭載し、地上局との低遅延通信を可能にする「orbit-to-cloud architecture」を採用する。Starcloud CEOのEthan Miller氏は「地球上のデータセンターで消費される膨大な電力を削減し、持続可能なAIインフラを実現する」とコメントしている。</p>
+<p>また、Starcloudはクリーンコンピューティング企業 Crusoe Energy Systems と提携し、宇宙空間におけるクラウド運用を共同で進める。<a href="https://www.crusoe.ai/resources/newsroom/crusoe-to-become-first-cloud-operator-in-space-through-partnership-with-starcloud">Crusoe</a>は、この提携を通じて同社が「世界初の宇宙クラウドオペレーター」となると述べており、自社のクリーンコンピュート・スタックを衛星に拡張する。Crusoe CEOのChase Lochmiller氏は、「AIコンピューティングの新しい前線に立つ。宇宙でのクラウド運用は持続可能なAIの未来を象徴する」と語った。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6.png" alt="68f7c88901152ba581e36e4a_spacejam-p-1080.png" /></p>
+<p>宇宙の極低温環境を利用することで、冷却コストは地上の10分の1、エネルギー効率は大幅に向上するとされる。Starcloudは今後、複数の衛星ネットワークによる分散型クラウドの構築も視野に入れており、AI処理と環境負荷削減の両立を目指すとしている。</p>
+]]></description>
+      <pubDate>Sun, 26 Oct 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、倉庫労働の自動化を加速──内部文書で「50万人置き換え」計画浮上、同社は否定</title>
       <link>https://ledge.ai/articles/amazon_robotics_automation_500k_plan</link>
       <description><![CDATA[<p>Amazonが、物流センターにおける自動化を大幅に拡大し、最大50万人の従業員をロボットに置き換える計画を進めていることが、<a href="https://www.nytimes.com/2025/10/21/technology/inside-amazons-plans-to-replace-workers-with-robots.html">ニューヨーク・タイムズ</a>が入手した社内文書により明らかになったと報じた。</p>
@@ -397,24 +412,6 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
 将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
 ]]></description>
       <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Walmart、OpenAIと提携──ChatGPTに「Instant Checkout」登場　チャットで完結する購買体験を提供</title>
-      <link>https://ledge.ai/articles/walmart_openai_instant_checkout_chatgpt</link>
-      <description><![CDATA[<p>米小売最大手のWalmartは2025年10月14日（現地時間）、OpenAIとの提携を<a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">発表</a>した。この提携により、顧客やSam’s Clubの会員は、ChatGPTの「Instant Checkout（インスタントチェックアウト）」機能を通じてチャットで完結する買い物が可能になる。Walmartは“AI-First Shopping”を掲げ、反応型から予測型へと購買体験の転換を図る。</p>
-<h2>チャットで完結する購買体験を提供</h2>
-<p>新機能「Instant Checkout」は、ChatGPTのチャット画面上で商品提案から決済までをチャットで完結できる仕組みだ。
-ユーザーが「Walmartで子どものランチボックスを探して」と入力すれば、ChatGPTが該当商品を提示し、そのまま少ない手順で購入まで案内する。</p>
-<p>WalmartとSam’s Clubの商品が順次対象となる予定で、提供は「近日中（soon）」としており、詳細時期は非公表。</p>
-<h2>「Agentic Commerce」──AIが先読みする買い物へ</h2>
-<p>Walmartは今回の取り組みを「agentic commerce（自律型コマース）」と位置づける。
-これまでのように顧客が検索して商品を選ぶ“反応型”から、AIがニーズを学習し、必要になる前に提案する“予測型”ショッピングへ転換する構想だ。リリースでは、「AIが顧客を理解し、日常の買い物を支援する時代に入った」と述べている。</p>
-<h2>AI活用の知見を消費者体験へ拡張</h2>
-<p>WalmartはこれまでもAIを活用し、商品カタログの改善や在庫最適化、アソシエイトのAIリテラシー教育を進めてきた。
-今回のOpenAIとの提携は、そうしたAI活用の成果を消費者向けのチャット購買体験へ拡張するものとなる。</p>
-<p>Doug McMillon CEOは、「長らくECの買い物は検索バーと長い商品リストが中心だったが、それは変わる」と述べ、Sparky（同社AI）とOpenAIとの連携で、より楽しく便利な未来へ進むと強調した。OpenAIのSam Altman氏も「日々の買い物を少し簡単にする取り組みの一つ」とコメントしている。</p>
-]]></description>
-      <pubDate>Mon, 20 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
