@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon、倉庫労働の自動化を加速──内部文書で「50万人置き換え」計画浮上、同社は否定</title>
+      <link>https://ledge.ai/articles/amazon_robotics_automation_500k_plan</link>
+      <description><![CDATA[<p>Amazonが、物流センターにおける自動化を大幅に拡大し、最大50万人の従業員をロボットに置き換える計画を進めていることが、<a href="https://www.nytimes.com/2025/10/21/technology/inside-amazons-plans-to-replace-workers-with-robots.html">ニューヨーク・タイムズ</a>が入手した社内文書により明らかになったと報じた。</p>
+<p>同紙によると、文書はAmazon Robotics部門が作成したもので、2033年までに50万〜60万人分の人的業務をロボットやAIによって自動化するという長期計画が記されている。短期的にも2027年までに約16万人分の作業を代替する見通しが示されており、対象となるのは倉庫内での仕分け、ピッキング、梱包、搬送といった物理的業務だという。</p>
+<p>また、文書では自動化により出荷1件あたり約0.30ドルのコスト削減が見込まれ、2025〜2027年の3年間で約126億ドル（約1兆9,000億円）の経費削減を達成できると試算しているという。</p>
+<p>これに対し、Amazonは<a href="https://www.theverge.com/news/803257/amazon-robotics-automation-replace-600000-human-jobs">The Verge</a>の取材に対し、報道内容を否定した。広報担当者は「この文書は特定チームの分析をまとめたものであり、全社的な人員計画や雇用戦略を示すものではない」と述べ、さらに「当社は依然として多数の雇用を創出しており、ロボット導入が雇用喪失を意味するわけではない」とコメントしている。</p>
+<p>Amazonは2012年に物流ロボット企業Kiva Systemsを買収して以降、自社倉庫の自動化を中核戦略として進めてきた。近年では、AIによる在庫管理やロボット搬送に加え、配送現場でもAIスマートグラスを活用するなど、エンドツーエンドでの自動化を進めている。</p>
+<p>一方、労働組合や雇用政策の専門家からは「労働コスト削減の裏で雇用機会が失われる可能性がある」と懸念の声も上がっている。Amazonが今後、自動化と雇用創出の両立をどのように図るかが注目される。</p>
+]]></description>
+      <pubDate>Sat, 25 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、配達ドライバー向けAIスマートグラスを発表──荷物スキャンから配達証明までハンズフリーで</title>
       <link>https://ledge.ai/articles/amazon_ai_smart_glasses_for_delivery_drivers</link>
       <description><![CDATA[<p>Amazonは2025年10月22日（現地時間）、配達ドライバーが安全かつ効率的に業務を行えるよう支援するAI搭載スマートグラス<a href="https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers">発表</a>した。荷物のスキャンからルート案内、配達証明の撮影までをハンズフリーで行える新デバイスで、同社の物流ネットワークにおける最新のイノベーションとして位置づけられている。</p>
@@ -403,17 +415,6 @@ SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチ
 <p>Doug McMillon CEOは、「長らくECの買い物は検索バーと長い商品リストが中心だったが、それは変わる」と述べ、Sparky（同社AI）とOpenAIとの連携で、より楽しく便利な未来へ進むと強調した。OpenAIのSam Altman氏も「日々の買い物を少し簡単にする取り組みの一つ」とコメントしている。</p>
 ]]></description>
       <pubDate>Mon, 20 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ugo、AIロボット向け「模倣学習キット」を初公開──Robotics NEXT Tokyo 2025で披露</title>
-      <link>https://ledge.ai/articles/ugo_ai_robot_imitation_learning_kit_2025</link>
-      <description><![CDATA[<p>ugo株式会社は2025年10月16日、AIロボット向けの「模倣学習キット」を<a href="https://ugo.plus/information/2025/10/16/ugo-ai-learning-kit/">発表</a>し、同日に開催された展示会「Robotics NEXT Tokyo 2025」にて初公開した。AI技術を活用して人間の動作を学習・再現するロボット開発を支援するもので、教育・研究・開発の現場での活用を想定している。</p>
-<p>同キットは、人間の動作をカメラやセンサーで取得し、AIがそのデータを解析してロボットに再現させる仕組みを備える。これにより、ロボットが人間の作業や身ぶりを模倣的に学習し、自律的に動作を生成できるようになるという。ソフトウェアSDKやデータ処理ツールなどがセットになった統合パッケージとして提供され、ugoロボット以外の機体にも対応可能だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=DLFMDuaDhho">YouTube</a></p>
-<p>展示会では、来場者の動きをリアルタイムでキャプチャし、ロボットが同様の動作を再現するデモンストレーションが行われた。ブースでは、AIによる模倣学習の過程を可視化する体験型展示も実施され、研究者や教育関係者から注目を集めた。</p>
-<p>ugoは、遠隔操作型ロボット「ugo」シリーズの開発で知られる企業。今回の模倣学習キットは、AIを活用した人の技能継承や現場作業の自動化を支援する基盤技術として位置づけられており、今後は教育・研究機関への提供を進める方針だ。</p>
-]]></description>
-      <pubDate>Mon, 20 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/19 [SUN]Amazon、次世代原子炉「小型モジュール炉（SMR）」開発支援を発表──AI需要増に対応し、脱炭素電源を強化</title>
