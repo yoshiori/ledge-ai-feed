@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Googleとイェール大学、単一細胞を対話的に解析できるAI「C2S-Scale 27B」を公開──Gemmaベースの270億パラメータモデルががん免疫治療研究を加速</title>
+      <link>https://ledge.ai/articles/google_yale_c2s_scale_27b_interactive_single_cell_ai</link>
+      <description><![CDATA[<p>Google Researchとイェール大学の研究チームは2025年10月11日、単一細胞レベルの遺伝子発現データを対話的に解析できるAIモデル「Cell2Sentence-Scale 27B（C2S-Scale 27B）」を<a href="https://www.biorxiv.org/content/10.1101/2025.04.14.648850v2">公開</a>した。</p>
+<p>Googleの大規模言語モデル「Gemma」を基盤に開発された270億パラメータのモデルで、研究者が自然言語を使って細胞の挙動を理解・予測できる。Googleは15日に<a href="https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/">公式ブログ</a>でこの発表を行い、「がん免疫治療における新たな発見につながった」としている。</p>
+<h2>「Cell2Sentence」手法を拡張、細胞を自然言語で理解</h2>
+<p>C2S-Scale 27Bは、細胞の遺伝子発現データをテキストのように扱い、AIとやりとりする形で解析できるのが特徴だ。従来の単一細胞解析（Single-Cell RNA-seq）は、大量の数値データを統計的に処理する必要があったが、このモデルでは「細胞タイプの分類」や「刺激条件による変化の予測」などを自然言語で指示・応答できる。</p>
+<p>研究者は自然言語で指示・応答しながら解析を行い、AIが出力する説明や予測結果をもとに仮説を立てることができる。</p>
+<p><strong>C2Sモデルのタスク構成</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c2s_overview_figure_2d821f3db7/c2s_overview_figure_2d821f3db7.png" alt="c2s_overview_figure.png" /></p>
+<h2>がん免疫治療での成果</h2>
+<p>Googleによると、すでにこの技術はがん免疫治療の研究に応用されているという。
+C2S-Scale 27Bを使った仮想スクリーニング（in silico実験）では、免疫経路を制御する薬剤候補を探索し、「キナーゼ阻害剤Silmitasertib（CX-4945）」が新たな作用を持つ可能性を予測した。</p>
+<p>AIは、低レベルのインターフェロン環境下でこの薬剤がMHCクラスI分子の発現を増強することを示唆。この結果は後に実験で確認され、AIによる創薬支援の文脈依存の新規作用を予測し、実験で検証した具体例となった。</p>
+<h2>Gemmaが支える生命科学の新しいアプローチ</h2>
+<p>C2S-Scale 27Bは、Googleが2024年に公開した小型LLM「Gemma」を基盤としており、オープンな研究環境でも利用可能な設計が特徴だ。今回のプロジェクトは、AIが科学研究の仮説生成やデータ解釈を支援する例として、Gemmaシリーズの研究応用拡大を象徴するものといえる。
+Googleはブログで「AIが生命科学の発見速度を飛躍的に高める」と述べており、今後はエピゲノムやタンパク質構造解析など、より多様な分野への展開も視野に入れている。</p>
+<h2>研究の背景</h2>
+<p>C2S-Scaleの技術自体は、2025年4月に発表された<a href="https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/">研究</a>に基づく。
+この論文では、細胞の遺伝子発現を「cell sentence（細胞文）」として表現し、AIがそれを学習するという新しいアプローチが提案されていた。今回のGoogleによる正式リリースは、その研究成果をGemma上で発展させ、科学的応用として実証した初の事例となる。</p>
+<p>研究チームは、C2S-Scaleを“language-like biology（言語のように生物を理解するAI）”と位置づけ、今後はエピゲノムやプロテオームなど他のオミクスデータを統合するマルチモーダルAIへの発展を構想している。モデルとコードはすでに<a href="https://huggingface.co/collections/vandijklab/cell2sentence-models">Hugging Face</a>上で公開されており、世界中の研究者が利用できる。単一細胞解析の自動化と知識生成を組み合わせたこの手法は、次世代のAI主導バイオロジー研究の基盤として注目を集めている。</p>
+]]></description>
+      <pubDate>Sun, 26 Oct 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
       <link>https://ledge.ai/articles/starcloud_nvidia_ai_datacenter_in_space</link>
       <description><![CDATA[<p>NVIDIAは2025年10月15日、同社が支援する米スタートアップ <a href="https://www.starcloud.com/">Starcloud</a>と共に人工衛星上にAIデータセンターを構築する計画を進めていることをブログで<a href="https://blogs.nvidia.com/blog/starcloud/?ncid=so-twit-480097&amp;linkId=100000388344371">明らかにした</a>。11月にはNVIDIA H100 Tensor Core GPU を搭載した人工衛星を打ち上げる予定で、宇宙空間でのAI処理を実現するという。冷却コストを地上の10分の1に抑えるといい、AI時代の新しいエネルギー効率モデルとして注目されている。</p>
