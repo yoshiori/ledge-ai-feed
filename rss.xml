@@ -267,33 +267,6 @@ AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げ
       <pubDate>Fri, 24 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、量子チップ「Willow」で“検証可能な量子優位”を実証──Nature掲載論文でスーパーコンピューターを13,000倍上回る性能</title>
-      <link>https://ledge.ai/articles/google_quantum_willow_verifiable_advantage_nature2025</link>
-      <description><![CDATA[<p>Googleは2025年10月22日、科学誌『Nature』において、同社の量子コンピューター用チップ「Willow（ウィロー）」が、既存のスーパーコンピューターを13,000倍上回る速度で演算を実行し、「検証可能な量子優位（verifiable quantum advantage）」を達成したと<a href="https://research.google/blog/a-verifiable-quantum-advantage/">発表</a>した。</p>
-<p>論文「<a href="https://www.nature.com/articles/s41586-025-09526-6">Observation of constructive interference at the edge of quantum ergodicity</a>」によると、Willowチップは105個の超伝導キュービットを備え、量子情報の拡散を解析する手法「アウト・オブ・タイム・オーダー相関（OTOC）」を用いて実験を実施した。結果、古典スーパーコンピューターでは約32年を要する計算を、わずか2時間で完了したという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=mEBCQidaNTQ">YouTube</a></p>
-<p>A Verifiable Quantum Advantage：研究チームがWillowチップ、量子エコーアルゴリズム、NMR分光法応用などを解説</p>
-<h2>Quantum Echoes──量子エコー・アルゴリズムの仕組み</h2>
-<p>Googleの研究チームは、量子システム内部の相互作用を可視化する新しいアルゴリズム「Quantum Echoes（量子エコー）」を開発した。この手法は、量子回路を順方向と逆方向の両方で実行し、干渉パターンを比較することで誤差を自己検証できる。</p>
-<p>この仕組みにより、量子システムの「見えない構造」をエコー信号として観測可能にする点が特徴で、これまでノイズに埋もれていた量子状態の動的相関を明確に測定できるようになった。</p>
-<h2>量子干渉と「Constructive Interference」──新しい優位性の原理</h2>
-<p>論文では、量子系内部のパウリ演算子の干渉（constructive interference）が、OTOCの高次成分（OTOC(2)など）において初めて実験的に観測されたことを報告。これにより、量子干渉の複雑性が古典シミュレーションでは再現不能であることが確認された。</p>
-<p>実際、Googleの試算では、今回の65キュービット実験を古典スーパーコンピューター「Frontier」でシミュレートするには約3.2年を要し、Willowチップの実行時間（2.1時間）と比べて13,000倍以上の差がある。これにより、「Beyond classical（古典を超えた）」領域に踏み入ったと位置づけている。</p>
-<p><strong>Quantum Echoesアルゴリズムは、世界最速のスーパーコンピューターを13,000倍上回る速度で計算を実行</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/13000times_faster_3aa42ccb1d/13000times_faster_3aa42ccb1d.jpg" alt="13000times faster.jpg" /></p>
-<h2>実世界応用への一歩──分子構造解析とHamiltonian Learning</h2>
-<p>Google Quantum AIは、Quantum Echoesの応用として、ハミルトニアン学習（Hamiltonian learning）を実証した。
-これは量子システムの測定データ（OTOC）を実際の物理系と照合し、未知のパラメータを最適化して学習する手法である。</p>
-<p>研究チームは、UCバークレーと連携し、Willowチップ上で2種類の分子構造を予測し、NMR分光法でその正確性を確認した。論文では、この方法が分子シミュレーション、薬剤設計、エネルギー材料開発などへの応用に発展する可能性が示唆されている。</p>
-<p><strong>量子研究施設を視察するGoogle CEOのサンダー・ピチャイ氏「科学そのものを行う力が量子計算に宿り始めている」と述べた</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb.webp" alt="QuantumSundar_Inline.width-1000.format-webp.webp" /></p>
-<p>Google Quantum AIのディレクターであるHartmut Neven氏は、「量子コンピューターが理論段階を超え、実際の科学的課題を解くためのツールになりつつある」とコメント。共同リーダーのJulian Kelly氏も「Quantum Echoesを通じて、結果を検証可能な形で量子優位を確認できたのは初めて」と述べた。</p>
-<p><strong>Google Quantum AIが開発した次世代量子チップ「Willow」。105個の超伝導キュービットを搭載し、誤差率0.15％の高精度ゲート制御を実現した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b.webp" alt="WillowChip_4k_Render_02.width-1000.format-webp.webp" /></p>
-]]></description>
-      <pubDate>Thu, 23 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>全国7400館の蔵書をChatGPTなどのAIアシスタントから検索──「カーリル for AI（カーリル図書館MCP）」ベータ版を公開</title>
       <link>https://ledge.ai/articles/calil_for_ai_library_mcp_beta</link>
       <description><![CDATA[<p>株式会社カーリルは2025年10月9日、ChatGPTやClaudeなどのAIアシスタントから全国の図書館蔵書を横断検索できる新サービス「カーリル for AI（カーリル図書館MCP）」のベータ版を公開したことを<a href="https://blog.calil.jp/2025/10/forai.html">発表</a>した。</p>
@@ -399,6 +372,28 @@ AIワークステーションは、コストを半分以下に抑えながら、
       <pubDate>Thu, 23 Oct 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
+      <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
+      <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=IoqpBKrNaZI">YouTube</a></p>
+<h2>フォルダ単位で“教え込む”仕組み</h2>
+<p>Claude Skillsは、指示文やスクリプト、関連資料をまとめたフォルダをClaudeに読み込ませる仕組みだ。各フォルダには「SKILL.md」という定義ファイルが含まれ、タスク内容や使用条件などが記述される。Claudeは必要に応じてこれらのスキルを呼び出し、指示に従って処理を実行する。</p>
+<p>この設計は「進行開示（progressive disclosure）」と呼ばれ、必要な情報だけを段階的に読み込むことで効率と安全性を両立する。Anthropicは、Claude Skillsを「プロンプトの再利用性を高め、AIが現実的な作業単位で動けるようにする構造」と説明している。</p>
+<h2>企業導入例：Box、Canvaなど</h2>
+<p>発表では、企業向けの活用例も紹介された。
+クラウドストレージ大手のBoxでは、文書を自動的に要約・変換し、PowerPointやWord形式に整理するワークフローをスキルとして実装。Notionは「複雑なタスクでのプロンプト調整を減らし、より予測可能な結果につながる」とコメントしている。</p>
+<p>さらにデザインプラットフォームのCanvaは、ブランドガイドをClaude Skillsに登録し、AIが自動でデザイン案を生成する活用を計画しているという。これにより、社内のスタイルガイドや手順書をAIに“教え込む”ことで、誰でも同じ品質で成果物を作れる環境を整備できる。</p>
+<h2>エンジニア向けにはコード実行にも対応</h2>
+<p>Anthropicの<a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">エンジニアリングブログ</a>では、Claude Skillsの内部構造が詳細に解説されている。Claude Skillsは単なるプリセットではなく、自己記述的モジュール構造を持つ。スキルはフォルダ単位で管理され、初期段階ではメタ情報のみを読み込み、関連タスクが発生した際に全体を展開する。</p>
+<p>スクリプトやPythonコードを含めることで、データ分析や自動レポート生成といった専門処理も可能だ。開発者は /v1/skills エンドポイントを通じてスキルを登録・管理でき、実行にはCode Execution Tool（ベータ）が必要となる。</p>
+<p>従来の「プロンプト＋RAG（検索）」のように文脈を都度読み込む手法に比べ、Claude Skillsでは情報の再利用が容易で、処理速度や一貫性が大幅に向上するという。</p>
+<h2>今後の展開</h2>
+<p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
+<p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
       <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
       <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
@@ -423,7 +418,7 @@ AIワークステーションは、コストを半分以下に抑えながら、
 <li>技術解説スレッド：<a href="https://github.com/karpathy/nanochat/discussions/1">Discussions #1 – nanochat speedrun walkthrough</a></li>
 </ul>
 ]]></description>
-      <pubDate>Wed, 22 Oct 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
@@ -460,58 +455,31 @@ AIワークステーションは、コストを半分以下に抑えながら、
       <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
-      <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
-      <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=IoqpBKrNaZI">YouTube</a></p>
-<h2>フォルダ単位で“教え込む”仕組み</h2>
-<p>Claude Skillsは、指示文やスクリプト、関連資料をまとめたフォルダをClaudeに読み込ませる仕組みだ。各フォルダには「SKILL.md」という定義ファイルが含まれ、タスク内容や使用条件などが記述される。Claudeは必要に応じてこれらのスキルを呼び出し、指示に従って処理を実行する。</p>
-<p>この設計は「進行開示（progressive disclosure）」と呼ばれ、必要な情報だけを段階的に読み込むことで効率と安全性を両立する。Anthropicは、Claude Skillsを「プロンプトの再利用性を高め、AIが現実的な作業単位で動けるようにする構造」と説明している。</p>
-<h2>企業導入例：Box、Canvaなど</h2>
-<p>発表では、企業向けの活用例も紹介された。
-クラウドストレージ大手のBoxでは、文書を自動的に要約・変換し、PowerPointやWord形式に整理するワークフローをスキルとして実装。Notionは「複雑なタスクでのプロンプト調整を減らし、より予測可能な結果につながる」とコメントしている。</p>
-<p>さらにデザインプラットフォームのCanvaは、ブランドガイドをClaude Skillsに登録し、AIが自動でデザイン案を生成する活用を計画しているという。これにより、社内のスタイルガイドや手順書をAIに“教え込む”ことで、誰でも同じ品質で成果物を作れる環境を整備できる。</p>
-<h2>エンジニア向けにはコード実行にも対応</h2>
-<p>Anthropicの<a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">エンジニアリングブログ</a>では、Claude Skillsの内部構造が詳細に解説されている。Claude Skillsは単なるプリセットではなく、自己記述的モジュール構造を持つ。スキルはフォルダ単位で管理され、初期段階ではメタ情報のみを読み込み、関連タスクが発生した際に全体を展開する。</p>
-<p>スクリプトやPythonコードを含めることで、データ分析や自動レポート生成といった専門処理も可能だ。開発者は /v1/skills エンドポイントを通じてスキルを登録・管理でき、実行にはCode Execution Tool（ベータ）が必要となる。</p>
-<p>従来の「プロンプト＋RAG（検索）」のように文脈を都度読み込む手法に比べ、Claude Skillsでは情報の再利用が容易で、処理速度や一貫性が大幅に向上するという。</p>
-<h2>今後の展開</h2>
-<p>Anthropicは今後、スキルの作成・共有・管理を容易にするツールやチーム配布機能の提供を予定している。また、セキュリティ面での検証や公開スキルストアの構想も進行中だ。</p>
-<p>今回の発表は、Claudeを“対話AI”から“実行AI”へ進化させる試みの一環であり、Anthropicが目指すエージェント時代の布石といえる。</p>
+      <title>Google、量子チップ「Willow」で“検証可能な量子優位”を実証──Nature掲載論文でスーパーコンピューターを13,000倍上回る性能</title>
+      <link>https://ledge.ai/articles/google_quantum_willow_verifiable_advantage_nature2025</link>
+      <description><![CDATA[<p>Googleは2025年10月22日、科学誌『Nature』において、同社の量子コンピューター用チップ「Willow（ウィロー）」が、既存のスーパーコンピューターを13,000倍上回る速度で演算を実行し、「検証可能な量子優位（verifiable quantum advantage）」を達成したと<a href="https://research.google/blog/a-verifiable-quantum-advantage/">発表</a>した。</p>
+<p>論文「<a href="https://www.nature.com/articles/s41586-025-09526-6">Observation of constructive interference at the edge of quantum ergodicity</a>」によると、Willowチップは105個の超伝導キュービットを備え、量子情報の拡散を解析する手法「アウト・オブ・タイム・オーダー相関（OTOC）」を用いて実験を実施した。結果、古典スーパーコンピューターでは約32年を要する計算を、わずか2時間で完了したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mEBCQidaNTQ">YouTube</a></p>
+<p>A Verifiable Quantum Advantage：研究チームがWillowチップ、量子エコーアルゴリズム、NMR分光法応用などを解説</p>
+<h2>Quantum Echoes──量子エコー・アルゴリズムの仕組み</h2>
+<p>Googleの研究チームは、量子システム内部の相互作用を可視化する新しいアルゴリズム「Quantum Echoes（量子エコー）」を開発した。この手法は、量子回路を順方向と逆方向の両方で実行し、干渉パターンを比較することで誤差を自己検証できる。</p>
+<p>この仕組みにより、量子システムの「見えない構造」をエコー信号として観測可能にする点が特徴で、これまでノイズに埋もれていた量子状態の動的相関を明確に測定できるようになった。</p>
+<h2>量子干渉と「Constructive Interference」──新しい優位性の原理</h2>
+<p>論文では、量子系内部のパウリ演算子の干渉（constructive interference）が、OTOCの高次成分（OTOC(2)など）において初めて実験的に観測されたことを報告。これにより、量子干渉の複雑性が古典シミュレーションでは再現不能であることが確認された。</p>
+<p>実際、Googleの試算では、今回の65キュービット実験を古典スーパーコンピューター「Frontier」でシミュレートするには約3.2年を要し、Willowチップの実行時間（2.1時間）と比べて13,000倍以上の差がある。これにより、「Beyond classical（古典を超えた）」領域に踏み入ったと位置づけている。</p>
+<p><strong>Quantum Echoesアルゴリズムは、世界最速のスーパーコンピューターを13,000倍上回る速度で計算を実行</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/13000times_faster_3aa42ccb1d/13000times_faster_3aa42ccb1d.jpg" alt="13000times faster.jpg" /></p>
+<h2>実世界応用への一歩──分子構造解析とHamiltonian Learning</h2>
+<p>Google Quantum AIは、Quantum Echoesの応用として、ハミルトニアン学習（Hamiltonian learning）を実証した。
+これは量子システムの測定データ（OTOC）を実際の物理系と照合し、未知のパラメータを最適化して学習する手法である。</p>
+<p>研究チームは、UCバークレーと連携し、Willowチップ上で2種類の分子構造を予測し、NMR分光法でその正確性を確認した。論文では、この方法が分子シミュレーション、薬剤設計、エネルギー材料開発などへの応用に発展する可能性が示唆されている。</p>
+<p><strong>量子研究施設を視察するGoogle CEOのサンダー・ピチャイ氏「科学そのものを行う力が量子計算に宿り始めている」と述べた</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb.webp" alt="QuantumSundar_Inline.width-1000.format-webp.webp" /></p>
+<p>Google Quantum AIのディレクターであるHartmut Neven氏は、「量子コンピューターが理論段階を超え、実際の科学的課題を解くためのツールになりつつある」とコメント。共同リーダーのJulian Kelly氏も「Quantum Echoesを通じて、結果を検証可能な形で量子優位を確認できたのは初めて」と述べた。</p>
+<p><strong>Google Quantum AIが開発した次世代量子チップ「Willow」。105個の超伝導キュービットを搭載し、誤差率0.15％の高精度ゲート制御を実現した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b.webp" alt="WillowChip_4k_Render_02.width-1000.format-webp.webp" /></p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIがPCを操作する「Gemini 2.5 Computer Use model」を開発者向けに公開──ClaudeやOpenAIモデルを上回る性能を実証</title>
-      <link>https://ledge.ai/articles/google_gemini_2_5_computer_use_release</link>
-      <description><![CDATA[<p>Google DeepMind は2025年10月7日（米国時間）、AI が実際のコンピューター画面を理解し、クリックや入力などの操作を実行できる新モデル「Gemini 2.5 Computer Use model」を開発者向けにプレビュー提供したと<a href="https://blog.google/technology/google-deepmind/gemini-computer-use-model/">発表</a>した。</p>
-<p>Gemini API を通じて利用でき、AI が人間と同様にブラウザやアプリのUI（ユーザーインターフェース）を操作することを可能にする。</p>
-<h2>Gemini API に“computer_use”ツールを追加</h2>
-<p>今回発表された新モデルは、Gemini 2.5 の機能拡張として API に追加された「computer_use」ツールを用いて動作する。</p>
-<p>AI はユーザーからの指示に加え、スクリーンショットと直近の操作履歴を入力として受け取り、次に取るべきアクション（クリック・入力・スクロールなど）を出力。実行結果を再び画面キャプチャとして取得し、目標達成までループ処理を行う。これにより、設定変更やフォーム入力、情報検索など、複数ステップを自律的に完了できる。</p>
-<p>Google は公式ブログで、「このモデルはユーザー許可を前提に、安全性と透明性を重視して設計されている」と強調している。</p>
-<p><strong>Computer Use model の処理ループ。AI がスクリーンショットと操作履歴をもとに次の行動を生成し、クライアント環境で実行 → 状況を再取得して次の判断へとつなげる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee/CTU_Diagram_RD_4_V01_width_1000_format_webp_b3415f41ee.webp" alt="CTU-Diagram-RD4-V01.width-1000.format-webp.webp" /></p>
-<h2>プレビュー提供と利用方法</h2>
-<p>開発者は Google AI Studio および Vertex AI を通じて Computer Use model にアクセスできる。プレビュー版の段階では主にブラウザ操作に最適化されており、今後はより広範なアプリやデスクトップ環境への対応も検討されているという。</p>
-<p>Google は、操作範囲やデータアクセスを制御する仕組みを組み込み、「責任ある自動化（Responsible Automation）」の実現を掲げている。</p>
-<h2>ベンチマーク性能：Claude Sonnet 4.5 を上回る</h2>
-<p>Google DeepMind は、Gemini 2.5 Computer Use model の性能を複数の標準ベンチマークで検証した。
-Browserbase による Online-Mind2Web テストでは 65.7 % の精度を記録し、Claude Sonnet 4.5 や OpenAI Computer-Using Model を上回った。
-さらに WebVoyager や AndroidWorld でも高スコアを達成し、実行速度（レイテンシ）でも優位性を示している。</p>
-<p><strong>Gemini 2.5 Computer Use model は、Claude Sonnet 4.5 や OpenAI Computer-Using Model に比べ、低レイテンシかつ高精度を示した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c/CTU_Scatterplot_RD_7_width_1000_format_webp_7e4e545c1c.webp" alt="CTU-Scatterplot-RD7.width-1000.format-webp.webp" /></p>
-<p><strong>複数ベンチマークで高い精度を記録。特に WebVoyager と AndroidWorld で際立ったスコアを達成した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33/CTU_Benchmark_Chart_RD_5_V01_width_1000_format_webp_e0982edd33.webp" alt="CTU-Benchmark_Chart-RD5_V01.width-1000.format-webp.webp" /></p>
-<h2>動作デモ：AI がブラウザを自律操作</h2>
-<p>公式ブログでは、実際の操作デモ動画も公開されている。
-動画では AI が画面を認識し、ブラウザ上でリンクをクリックしたり、テキストを入力してタスクを完了する様子が確認できる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=_lu-FcPUIfM">YouTube</a></p>
-<h2>AI による“手の届く自動化”へ</h2>
-<p>今回の発表は、AI が人間の指示をもとに実際のUI を操作できる「エージェント時代」の幕開けを示す。
-Google は Computer Use を “次世代の AI アシスタント” 開発の基盤と位置づけており、将来的には業務支援やウェブ操作、アプリ間連携など、より幅広い自動化領域への展開が期待される。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、動画生成AI「Veo 3.1」を発表──1分超のシーン拡張「Extend」搭載、Flowと統合強化</title>
@@ -540,7 +508,7 @@ Googleは「AIによる創造的表現の民主化をさらに進める」とし
 Flowとの連携により、テキストによる指示だけでなく、素材・音声・カメラ指示などを含めた多層的なプロンプト設計が可能になり、AI映像生成の精度と自由度が大幅に向上している。</p>
 <p>Googleは今後、VeoをGeminiエコシステムの中核技術として位置づけ、AIを活用したクリエイティブツールの拡充を進める方針を示している。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NTT、次世代純国産LLM「tsuzumi 2」発表──フルスクラッチ設計でGPT-5級の日本語性能を軽量モデルで実現</title>
@@ -578,7 +546,7 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
 さらに、AI間の自律的な議論を行う「AIコンステレーション」構想や、サイバーセキュリティ分野での応用開発も進める。
 11月に開催される「NTT R&amp;Dフォーラム 2025（IOWN Quantum Leap）」では、tsuzumi 2を活用した最新ソリューションを披露するという。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
@@ -591,7 +559,7 @@ ChatGPTなど海外製LLMの普及が進む一方、電力消費や機密情報�
 <p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
 <p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -616,7 +584,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
@@ -646,18 +614,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>AIとWebを再定義する「次の10年」</h2>
 <p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>政府、OpenAIに著作権侵害防止を要請──「Sora 2」問題で平デジタル相は“オプトイン方式”を提言</title>
-      <link>https://ledge.ai/articles/openai_sora2_government_copyright_request_oct2025</link>
-      <description><![CDATA[<p>OpenAIの動画生成AI「Sora 2」による日本のアニメ作品に酷似した映像がSNS上で拡散している問題を受け、政府が対応に乗り出した。城内実内閣府特命担当大臣（知的財産戦略・クールジャパン戦略担当）は10月10日の<a href="https://www.gov-online.go.jp/press_conferences/minister_of_state/202510/video-303104.html">記者会見</a>で、OpenAIに対し著作権侵害となる行為を行わないよう要請したと明らかにした。</p>
-<p>城内大臣は「アニメや漫画は世界の人々を魅了し続ける、我が国が世界に誇る宝」と述べ、知的財産権の保護を重視する姿勢を強調。要請は内閣府の知的財産戦略推進事務局からオンラインで直接行われたという。記者質問の内容から、実施時期は10月上旬で、Sora 2による“酷似動画”が相次いだ直後とみられる。</p>
-<p>一方、平将明デジタル大臣は10月12日、TBS番組でAIの学習段階における権利処理の在り方について言及した。「OpenAIには、きちんと権利処理をしていただくようお願いしている」と述べたうえで、「AIの学習データについても、事前の同意を得るオプトイン方式が望ましい」と発言。AI事業者に対し、無断利用ではなく同意制に基づくデータ利用の仕組みを導入するよう求めた。</p>
-<p>これに先立つ10月3日、OpenAIのCEOであるサム・アルトマン氏は、動画生成AI「Sora 2」に関連する著作権保護と収益分配制度に関する方針をブログで明らかにしていた。同氏は「試行錯誤を重ねながら早期に開始する」と述べ、経済的な利益と新しい関係構築の双方を実現したい考えを示している。</p>
-<p>政府は今後もAI事業者に対し、著作権および文化的資産の保護を重視した対応を求める方針を示している。AIによる創作支援が拡大するなかで、学習データの扱いと権利保護の両立が国際的な課題となりつつある。</p>
-]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
@@ -702,7 +659,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 </ul>
 <p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
 ]]></description>
-      <pubDate>Sat, 18 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Mon, 20 Oct 2025 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
