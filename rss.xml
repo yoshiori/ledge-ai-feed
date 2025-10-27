@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Quantum Meshとugo、製造現場データを守るエッジAI基盤を共同開発──液浸冷却DC「KAMUI」とロボット「ugo」を連携</title>
+      <link>https://ledge.ai/articles/quantum_mesh_ugo_edge_ai_alliance_kamui</link>
+      <description><![CDATA[<p>Quantum Mesh株式会社は2025年10月23日、業務DXロボットを開発するugo株式会社と業務提携し、ロボットとエッジサーバーを連携させたエッジコンピューティング基盤の構築に取り組むと<a href="https://quantummesh.jp/press/_55R9Dpo">発表</a>した。製造現場のデータを安全に保護しつつ、低遅延で高信頼なリアルタイム制御を実現する狙いがある。</p>
+<p>提携では、Quantum Meshが提供する液浸冷却システム「KAMUI（カムイ）」を用いた分散型エッジデータセンターと、ugoの業務DXロボットがネットワークを介して連携する。ロボットが生成・収集する操作ログやセンサー情報、模倣学習データをクラウドに送信することなくエッジで即時処理することで、データ処理を現場設備内で完結させ、情報漏洩リスクの大幅な低減を図る。</p>
+<p>両社は年内をめどに製造現場での実証実験に着手し、ロボットとエッジAIの最適な連携モデルを検証する。2026年内のサービス化を予定し、安全で効率的なスマートファクトリーの全国展開を目指すという。</p>
+<p>ugoが提唱する「Physical AI」は、人間の動作データやセンサー情報をAIが模倣・強化学習することで、ロボットが現場の作業手順を習得するコンセプトだ。これを支える「AIロボット向け模倣学習キット」には、双腕ロボットugo Proを遠隔操作するための専用コントローラや、動作データを収集・学習するソフトウェアツールが含まれる。熟練作業者のノウハウをAIに移植することで、専門的なプログラミングスキルがなくても現場担当者が新しい動作を教え込める仕組みを整えている。</p>
+<p>「ugo」は、遠隔操作とAIによる自動制御を融合したハイブリッド型の業務DXロボットで、警備・点検・案内など多様な現場で導入が進む。Quantum Meshは可搬型データセンターを開発・運用し、安全な情報処理と高度な演算を両立するエッジインフラを提供している。両社の技術を組み合わせることで、「現場で動くロボット」と「現場で処理するAI」を結ぶ新たな産業モデルの確立を目指す。</p>
+]]></description>
+      <pubDate>Mon, 27 Oct 2025 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Samsung、初のAndroid XRデバイス「Galaxy XR」を発表──Google・Qualcommと共同開発、次世代空間体験を実現</title>
       <link>https://ledge.ai/articles/samsung_galaxy_xr_android_xr_announcement</link>
       <description><![CDATA[<p>Samsung Electronicsは2025年10月22日、同社初となるAndroid XR（拡張現実）搭載デバイス「Galaxy XR」を<a href="https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds">発表</a>した。GoogleおよびQualcommとの共同開発による製品で、Android XRプラットフォームを採用した最初のデバイスとなる。</p>
@@ -401,18 +412,6 @@ OpenAIは「歴史的人物の表現には強い表現の自由の利益があ�
 <p>今回の決定は、AIが歴史的人物や著名人をどのように扱うべきかという国際的な倫理・法的議論を加速させる可能性がある。OpenAIは今後も、他の遺族団体や文化的機関と協議を進め、生成AI時代における肖像の扱いと責任の在り方を再定義していくとみられる。</p>
 ]]></description>
       <pubDate>Tue, 21 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界のAIチップを“毎晩測る”──SemiAnalysis、リアルタイム性能追跡プラットフォーム「InferenceMAX」始動</title>
-      <link>https://ledge.ai/articles/semianalysis_inferencemax_real_time_benchmark</link>
-      <description><![CDATA[<p>米調査・分析メディアのSemiAnalysisは2025年10月9日（現地時間）、AIチップの推論性能をリアルタイムで追跡するオープンベンチマークプラットフォーム「InferenceMAX（インファレンスマックス）」を<a href="https://newsletter.semianalysis.com/p/inferencemax-open-source-inference">公開</a>した。GPUやNPU、CPUを含む数百種類のチップを対象に、主要な推論フレームワークやAIモデルの性能を毎晩自動で再測定し、その結果をリアルタイムで可視化する。</p>
-<h2>AIチップ性能をライブで監視</h2>
-<p>InferenceMAXは、AI推論の実運用環境に近い形で各種ハードウェアを検証するオープンソースベンチマークだ。
-SemiAnalysisによると、このシステムは「毎晩、数百種類のAIチップ上でベンチマークを実行し、オープンソースの推論フレームワークやモデルを継続的に再測定する」仕組みを持つ。
-ソフトウェアスタックやドライバの更新に伴う性能の向上や退行をリアルタイムで記録・反映し、推論性能の進化を“生きた指標”として提示する。</p>
-<p>ベンチマーク結果は無料で公開されており、InferenceMAX公式<a href="https://inferencemax.semianalysis.com/">ダッシュボード</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 21 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
