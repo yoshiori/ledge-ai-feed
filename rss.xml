@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
+      <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
+      <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
+<h2>ブランド固有の生成AIを構築</h2>
+<p>「Adobe AI Foundry」は、同社の生成AIモデル群「Adobe Firefly」を拡張した新たなプラットフォームだ。
+企業が自社ブランドのビジュアルスタイルや言語トーンを反映した独自モデルを構築でき、生成したコンテンツは商用利用にも対応する。Adobe ExpressやCreative Cloudなど既存の制作ツール群とも統合され、クリエイティブ制作の一貫したワークフローを支援する。</p>
+<h2>データ保護と商用利用を両立</h2>
+<p>Adobeによれば、AI Foundryでは企業データやブランド資産を安全に扱うことを前提に設計されている。学習素材は各社の許諾のもと管理され、生成結果に関しても著作権・商用利用のリスクを最小限に抑えた設計がなされているという。
+料金体系は利用量ベースで、従来のサブスクリプション型（席ライセンス）からの転換を図る。なお、Foundryは本日時点で一部のエンタープライズ顧客に提供されている。</p>
+<h2>初期導入企業とユースケース</h2>
+<p>米TechCrunchやTechzineの報道によると、Home DepotやWalt Disney Imagineeringなどが初期導入企業として名を連ねる。ブランドイメージに一貫性を持たせた広告ビジュアルや販促素材の生成を中心に活用が進む見通しだ。
+Adobeはこのプラットフォームを「企業が自社のブランドDNAをAIに宿すためのFoundry（製造炉）」と位置づけている。</p>
+<h2>Adobeの生成AI戦略における新たな段階</h2>
+<p>Adobeはこれまで、画像生成モデル「Firefly」やビジネス支援AI「Sensei GenAI」などを展開してきた。AI Foundryはその集大成として、企業ごとの“ブランドAIモデル”構築を可能にするもので、生成AIの民主化を次のフェーズへ進める狙いがある。
+同社は今後、テキスト・画像・動画・3Dといったマルチモーダルな生成AIを企業規模で展開し、クリエイティブ制作からマーケティングまで一体化したソリューションを提供するとしている。</p>
+]]></description>
+      <pubDate>Mon, 27 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
       <link>https://ledge.ai/articles/25to26-announce</link>
       <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も年末年始特集「'25to'26」を公開します。
@@ -416,19 +435,6 @@ AIワークステーションは、コストを半分以下に抑えながら、
 NEURA GymとNeuraverseは、その基盤を支える“知能インフラ”であり、AIロボットが現実の環境を理解し、適応するための訓練場といえる。</p>
 ]]></description>
       <pubDate>Wed, 22 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、次世代核融合炉「SPARC」開発にAI導入──CFSと協働しプラズマ制御を最適化</title>
-      <link>https://ledge.ai/articles/google_deepmind_fusion_energy_ai_cfs_sparc</link>
-      <description><![CDATA[<p>Google DeepMindは2025年10月16日、米マサチューセッツ州の核融合エネルギー企業Commonwealth Fusion Systems（CFS）と提携し、次世代核融合炉「SPARC」の開発にAIを導入すると<a href="https://deepmind.google/discover/blog/bringing-ai-to-the-next-generation-of-fusion-energy/">発表</a>した。AIを用いてプラズマ挙動のシミュレーションや制御を最適化し、試験運転の効率化と安全性向上を図る。</p>
-<p>CFSは同日、両社がAI研究基盤「TORAX（Tokamak Research Accelerator）」を活用し、複数のAIモデルを連携させてプラズマ物理を再現すると<a href="https://blog.cfs.energy/with-ai-alliance-google-deepmind-and-cfs-take-fusion-to-the-next-level/">公式ブログ</a>で説明。燃料供給、RF加熱、磁場コイルの電流制御など、数百に及ぶパラメータを強化学習によって同時最適化するという。これにより、実機での試験条件の探索を高速化し、SPARC運転時のプラズマ安定性やエネルギー効率を高めることを目指す。</p>
-<p><strong>SPARCトカマク炉の断面可視化映像。磁場で閉じ込められたプラズマの挙動をAIがシミュレーションしている。左は実際のプラズマ、右はTORAXによるプラズマパルスの解析例で、圧力変化と制御コマンドによる性能差を示す。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_partnering_with_Commonwealth_Fusion_Systems_2c672bf3e4/Deep_Mind_partnering_with_Commonwealth_Fusion_Systems_2c672bf3e4.gif" alt="DeepMind- partnering with Commonwealth Fusion Systems.gif" /></p>
-<p>Google DeepMindは2022年に、AIがトカマク型核融合炉の磁場をリアルタイム制御できることを示した論文をNature誌に<a href="https://deepmind.google/discover/blog/accelerating-fusion-science-through-learned-plasma-control/">発表</a>している。今回の提携はその研究を実際の炉運転に応用する段階であり、「AIをエネルギーの消費側から、生成側の推進力へと拡張する取り組み」として位置づけられる。</p>
-<p>CFSは2026年にSPARCの初期稼働を予定しており、AIはその試運転や運転最適化を支援する主要技術となる見込みだ。将来的には商用核融合炉「ARC」でもAI制御を導入し、長期安定運転や自動最適化を実現する構想も示している。</p>
-<p>Googleは2025年6月、CFSの商用核融合炉「ARC」から200メガワットの電力を供給する契約を<a href="https://ledge.ai/articles/google_fusion_power_cfs_ppa">締結</a>しており、今回のAI提携はその延長線上に位置づけられる。グループとしてクリーン電力調達とAI技術開発を両輪で推進し、AIが電力を“消費する”だけでなく、“創り出す”側にも関与し始めている。</p>
-]]></description>
-      <pubDate>Tue, 21 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
