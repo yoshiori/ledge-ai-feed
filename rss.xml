@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
+      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
+      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
+<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
+<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
+<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
+<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
+<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
+<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
+]]></description>
+      <pubDate>Mon, 27 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
       <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
       <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
@@ -410,31 +424,6 @@ AIワークステーションは、コストを半分以下に抑えながら、
 </ul>
 ]]></description>
       <pubDate>Wed, 22 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ドイツのNeura Robotics、「NEURA Gym」を公開──物理空間でAIを鍛える“世界初のAIジム”</title>
-      <link>https://ledge.ai/articles/neura_robotics_neura_gym_physical_ai_training_center</link>
-      <description><![CDATA[<p>ドイツ発のロボティクス企業 Neura Robotics（ニューラ・ロボティクス） は2025年10月14日、物理空間におけるAI訓練センター 「NEURA Gym（ニューラ・ジム）」 を公開した。同社の公式動画「<a href="https://www.youtube.com/watch?v=hUNujYlRmZU">NEURA Gym: The First Physical AI Training Center for Robots</a>」では、数百台のロボットが現実世界でタスクを学習する様子が紹介されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hUNujYlRmZU">YouTube</a></p>
-<p>Neura Roboticsは、「テキストや画像、シミュレーションだけの学習では不十分であり、現実世界での経験こそが真の知能を生む」と強調。NEURA Gymはその考えに基づき、実世界の環境でAIモデルをトレーニングするための物理的インフラとして設計された。</p>
-<h2>実世界でAIを鍛える“ジム”</h2>
-<p>NEURA Gymは、数百台のロボットが常時稼働する広大な物理的空間で構成されている。ロボットは、仮想世界プラットフォーム「Neuraverse（ニューラバース）」と連携し、現実とシミュレーションの両方でデータを生成・共有する。</p>
-<p>データ収集は、以下のサイクルで進む。まずシミュレーション上でタスクを学習し、その後、物理環境での挙動を検証。テレイグザキューション（遠隔操作）を通じて、ロボット自身の精密な感覚値や関節データを取得し、モデルを改善する。これを繰り返すことで、AIは実世界での「誤差」や「摩擦」を学び、より汎用的なスキルを身につけていく。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym1_2d2e19081a/neura_gym1_2d2e19081a.jpg" alt="neura gym1.jpg" /></p>
-<p>同社はこの仕組みを、人間の学習に例えて説明する。「水泳を覚えるには、水の中に入らなければならない」。つまり、AIも実際の物理環境に“飛び込む”ことで、真に応用可能な知能を獲得できるという考えだ。</p>
-<h2>Neuraverse：スキル共有の中枢</h2>
-<p>NEURA Gymで収集されたデータは、Neura Roboticsのグローバルデータ基盤「Neuraverse」に統合される。Neuraverseは、世界中のロボットから集めた現実データを共有・再利用する仕組みで、同社はこれを「世界最大かつ最速で拡張する物理訓練データリポジトリ」と呼んでいる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym2_a42849d8d4/neura_gym2_a42849d8d4.jpg" alt="neura gym2.jpg" /></p>
-<p>学習済みスキルは即座に他のロボットへ転送可能であり、「一体が学べば全体が賢くなる」というネットワーク効果を生む。Neura Roboticsは、これを「ロボット版の“共有知能」と位置づけている。</p>
-<h2>企業にも開放、世界展開を計画</h2>
-<p>NEURA GymはNeura Robotics社内だけでなく、外部企業にも開放されている。
-企業はスペースを予約し、自社のAIアプリケーションを訓練することが可能。Neura Roboticsのトレーナーによる支援を受けるほか、独自のエンジニアチームを持ち込むこともできる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/neura_gym3_2cdb6aea39/neura_gym3_2cdb6aea39.jpg" alt="neura gym3.jpg" /></p>
-<p>同社はすでに、単一施設の運営にとどまらず、世界各地でNEURA Gymの展開を進める計画を明らかにしている。</p>
-<p>Neura Roboticsは2025年6月の発表で、「2030年までに500万台のロボットを普及させる」目標を掲げている。
-NEURA GymとNeuraverseは、その基盤を支える“知能インフラ”であり、AIロボットが現実の環境を理解し、適応するための訓練場といえる。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
