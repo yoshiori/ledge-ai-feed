@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>単純な構造で多様な生成を可能に──新モデル『DDN』、拡散モデルに代わるアプローチとして注目</title>
+      <link>https://ledge.ai/articles/ddn_discrete_distribution_networks_iclr2025</link>
+      <description><![CDATA[<p>画像生成をはじめとする生成AIの分野で、新たな手法「DDN（Discrete Distribution Networks：離散分布ネットワーク）」が注目を集めている。この<a href="https://discrete-distribution-networks.github.io/">研究</a>は、機械学習の研究者 Lei Yang（レイ・ヤン）氏が提案し、論文は国際会議 ICLR 2025 に採択された。</p>
+<p>Yang氏は2025年10月16日、自身の<a href="https://x.com/diyerxx/status/1978531040068321766">X（旧Twitter）投稿</a>で「We introduce a new generative model and it hits #2 on Hacker News’ daily rankings!」と報告し、同論文が大きな反響を得ていることを明らかにした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/leiyang_x_73395f62dd/leiyang_x_73395f62dd.jpg" alt="leiyang x.jpg" /></p>
+<p><strong>DDNの基本構造</strong> ：各層で複数のサンプルを生成し、最も正解に近い出力を選びながら階層的に再構築する（右図はその潜在空間を表すツリー構造）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure_1_a_Image_Reconstruction_through_DDN_side_636fc34fb6/Figure_1_a_Image_Reconstruction_through_DDN_side_636fc34fb6.png" alt="Figure 1（a） Image Reconstruction through DDN-side.png" /></p>
+<p>DDNは、拡散モデルやGANとは異なる“離散分布”ベースの生成方式を採用。ネットワークが一度に複数のサンプルを生成し、その中から最も正解に近い出力を次の層の条件として再生成する。これを繰り返すことで、層が深くなるほど出力が洗練され、最終的に高精度な生成結果を得られる仕組みだ。</p>
+<p>モデルの学習には、独自の最適化手法「Split-and-Prune（スプリット・アンド・プルーン）」を導入。頻繁に選ばれる出力ノードを複製し、使われないノードを削除することで、学習の偏りやデッドノード問題を防ぐ。これにより、より均等な確率分布を持つ安定した学習が可能になったという。</p>
+<p><strong>Split-and-Pruneアルゴリズムの概念図</strong> ：頻繁に選ばれるノードを複製し、使われないノードを削除することで分布を最適化し、KLダイバージェンスを大幅に低減する
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_principle_behind_the_Split_and_Prune_operation_71fe8e6314/Illustration_of_the_principle_behind_the_Split_and_Prune_operation_71fe8e6314.jpg" alt="Illustration of the principle behind the Split-and-Prune operation.jpg" /></p>
+<p>さらにDDNは、勾配を使わないゼロショット条件付き生成（Zero-Shot Conditional Generation）を実現。外部モデルの出力（例：CLIPなど）を条件信号として利用でき、テキストや画像など複数のモダリティに対応する。論文では、FFHQやCIFAR-10といったデータセットで良好な生成品質を示した。</p>
+<p><strong>CIFAR-10やFFHQなど複数データセットでの生成結果</strong> ：シンプルな構造ながら、自然で多様な画像を再現している
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Random_samples_from_DDN_c4efdc7a6b/Random_samples_from_DDN_c4efdc7a6b.jpg" alt="Random samples from DDN.jpg" /></p>
+<p>Yang氏はDDNについて「シンプルでありながら本質的に異なるアプローチでデータ分布を表現する新しい生成モデル」と説明しており、今後は高解像度データや高速生成への拡張を目指すと述べている。
+拡散モデルに代わる新たなアプローチとして、その動向が注目される。</p>
+]]></description>
+      <pubDate>Wed, 29 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、「ロボットで雇用を奪ってきた企業ではない」と反論──自動化報道に対し公式声明を発表</title>
       <link>https://ledge.ai/articles/amazon_robotics_employment_response_oct2025</link>
       <description><![CDATA[<p>Amazonは2025年10月23日（現地時間）、自社の倉庫・物流オペレーションにおける新技術「Blue Jay」と「Project Eluna」を<a href="https://www.aboutamazon.com/news/operations/new-robots-amazon-fulfillment-agentic-ai">発表</a>した。同社は公式ニュースリリースで、「私たちは雇用を奪ってきたのではなく、増やしてきた企業だ」と強調し、来るホリデーシーズンに向けて25万人の新規採用を計画していることを明らかにした。</p>
@@ -299,18 +319,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
 <p>カーリルによると、現在は公共図書館を中心に対応しているが、今後は大学図書館や専門図書館への拡大も予定しているという。同社は「AIを通じて図書館の情報資源をより多くの人に届ける」ことを目指しており、AIと公共データをつなぐ新しいアクセスモデルの実証段階と位置付けている。</p>
 ]]></description>
       <pubDate>Thu, 23 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>広島銀行、営業準備に生成AI導入──「無意識に使える」業務フローへ　面談時間を7割削減見込み</title>
-      <link>https://ledge.ai/articles/hirogin_ai_assistant_sales_poc_2025</link>
-      <description><![CDATA[<p>ひろぎんホールディングス傘下の広島銀行は、営業業務に生成AIを導入し、行員の業務効率化を進めている。</p>
-<p>ひろぎんホールディングスは2025年9月29日付で、融資稟議書作成機能を内製開発し全営業店に導入したほか、個人顧客との面談準備を支援するAIの概念実証（PoC）を実施し、有用性を確認したと<a href="https://www.hirogin-hd.co.jp/news/__icsFiles/afieldfile/2025/09/29/20250929_news.pdf">発表</a>した。</p>
-<p>この取り組みは、ひろぎんホールディングスが掲げる「無意識に生成AIを利用する業務フローの構築」の一環として進められている。行員がAIを意識的に操作することなく、日常業務の中で自然に支援を受けられる環境を目指しているという。</p>
-<p>広島銀行では、企業情報や営業記録をもとに融資稟議書の一部（申込経緯、資金使途など）を生成AIが自動でドラフト化する仕組みを開発。内容を確認・修正して活用することで、年間約5,200時間の業務削減効果を見込む。若手行員にとっては、AIが作成した草案を通じて稟議書の書き方を学べる機会にもなる。</p>
-<p>さらに、個人顧客との面談準備の効率化に向け、行内の複数システムに分散する顧客情報をAIが自動で整理し、提案内容や会話のアイディアを生成するPoCを実施。検証の結果、準備時間を従来比で7割削減できる見込みが立った。これを受け、同社は内製による正式開発を進め、2026年2月から営業担当者による運用を開始する予定だ。</p>
-<p>ひろぎんホールディングスは、2024年にMicrosoft Azure環境上でグループ専用生成AI「AI Assistant」を構築しており、現在は業務システムとの連携を進める“ステージ2”に位置づけている。将来的にはAIエージェントの活用による価値創造と顧客体験の向上を目指し、非金融領域を含む「総合力の高いソリューション」提供へと展開を広げていく方針だ。</p>
-]]></description>
-      <pubDate>Thu, 23 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
