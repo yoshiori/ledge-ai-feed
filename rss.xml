@@ -109,20 +109,6 @@ YouTube動画「りんなより、大切なお知らせ」では、本人の声�
       <pubDate>Mon, 27 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
-      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
-      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
-<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
-<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
-<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
-<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
-<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
-<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
-]]></description>
-      <pubDate>Mon, 27 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
       <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
       <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
@@ -364,33 +350,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
       <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI共同創設者のAndrej Karpathy氏、ChatGPTを一から構築できるオープンソース「nanochat」を公開──約100ドル・4時間で独自LLMを訓練可能</title>
-      <link>https://ledge.ai/articles/andrej_karpathy_releases_nanochat_open_source_chatgpt_clone</link>
-      <description><![CDATA[<p>OpenAIの創設メンバーであり、元TeslaのAIディレクターとしても知られるAndrej Karpathy（アンドレイ・カルパティ）氏は2025年10月19日（現地時間）、ChatGPTのようなAIチャットボットを一から構築できるオープンソースプロジェクト「nanochat」を<a href="https://x.com/karpathy/status/1977755427569111362">発表</a>し、GitHub上にリポジトリを<a href="https://github.com/karpathy/nanochat">公開</a>した。</p>
-<h2>4時間・約100ドルでChatGPT風モデルを構築</h2>
-<p>Karpathy氏は投稿で、「わずか4時間・100ドルでChatGPTのような会話モデルを訓練できる」と説明。
-クラウドGPU（8×H100構成）上で単一スクリプトを実行するだけで、LLMの事前学習から推論、WebUIまでを一括構築できる点が特徴だ。</p>
-<p>コードは約8,000行と比較的コンパクトで、依存関係を最小限に抑えた「フルスタック実装」。
-前作「nanoGPT」が事前学習フェーズに特化していたのに対し、今回の「nanochat」はトークナイザーの訓練から強化学習（RL）、推論エンジン、WebUIまでを統合している。</p>
-<h2>Rust製トークナイザーと一貫した学習パイプライン</h2>
-<p>nanochatでは、Karpathy氏が自作したRust実装のトークナイザーを用いてFineWebデータセットで事前学習（pretraining）を行う。
-その後、SmolTalkデータによる会話形式の中間学習（mid-training）を経て、指示追従（SFT）や数学・コード・世界知識のベンチマーク評価（ARC-E/C、MMLU、GSM8K、HumanEval）を実施。
-さらに、GSM8Kタスクに対する強化学習（GRPO）にも対応している。</p>
-<p>推論時には、KVキャッシュを用いた効率的なデコードと、軽量Pythonサンドボックスでのツール使用（コード実行）機能を備える。CLIおよびChatGPT風のWebUIから利用でき、学習結果はMarkdown形式の「レポートカード」として自動出力される。</p>
-<h2>性能とスケーラビリティ</h2>
-<p>約4時間の訓練で「GPT-2を上回るCOREスコア」を達成し、12〜24時間の訓練では、MMLUで40点台、ARC-Easyで70点台、GSM8Kで20点台を記録。Karpathy氏は「1000ドル規模の訓練まで拡張すれば、数倍の一貫性と応答精度が得られる」としている。</p>
-<h2>LLM教育「LLM101n」シリーズの集大成</h2>
-<p>Karpathy氏は、nanochatを自身が開発中の教育プログラム「LLM101n」の“集大成プロジェクト（capstone project）”と位置づけている。
-リポジトリは教育・研究者コミュニティ向けに「最大限フォーク可能」であり、LLMの構造理解や再実装の教材としても活用できる。
-同氏は投稿の締めくくりで「これからが本番。チューニングとヒルクライミングを始める」と述べ、今後の最適化と拡張を予告した。</p>
-<ul>
-<li>GitHubリポジトリ：<a href="https://github.com/karpathy/nanochat">karpathy/nanochat</a></li>
-<li>技術解説スレッド：<a href="https://github.com/karpathy/nanochat/discussions/1">Discussions #1 – nanochat speedrun walkthrough</a></li>
-</ul>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</title>
       <link>https://ledge.ai/articles/claude_skills_release_oct2025</link>
       <description><![CDATA[<p>AI開発企業のAnthropicは2025年10月16日（現地時間）、AIアシスタント「Claude」に新機能「Agent Skills」（以下、Claude Skills）を導入したと<a href="https://www.anthropic.com/news/skills">発表</a>した。ユーザーが自らの業務資料や手順書をスキルとして登録すると、Claudeがそれらを読み込み、専門的なワークフローを自動実行できるようになる。企業ごとのナレッジやスクリプトをAIに統合し、業務効率化をさらに推し進める狙いだ。</p>
@@ -545,6 +504,20 @@ AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げ
 <p>OpenAIはこのブループリントを「AIという変革の力を日本のすべての国民の豊かさに繋げるための設計図」と位置づけた。
 「AIによって日本は経済成長と人間中心社会の両立を実現できる。今こそ官民一体でこの“日本モデル”を世界に先駆けて示すときだ」と締めくくっている。</p>
 <p><a href="https://cdn.openai.com/global-affairs/f9d1cd88-506e-48f9-b34b-6ff63655434e/openai-japan-economic-blueprint-jp.pdf">「​​日本のAI：​​Open AIの経済ブループリント」全文</a></p>
+]]></description>
+      <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
+      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
+      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
+<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
+<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
+<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
+<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
+<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
+<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
 ]]></description>
       <pubDate>Wed, 22 Oct 2025 07:50:00 GMT</pubDate>
     </item>
