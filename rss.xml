@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日産自動車、生成AIを活用した車載システム「AutoDJ」を発表　マスコット「Eporo」がドライバーと会話</title>
+      <link>https://ledge.ai/articles/nissan_autodj_eporo_ai_agent_announcement</link>
+      <description><![CDATA[<p>日産自動車は2025年10月24日、生成AIを活用した車載エージェントシステム「AutoDJ（オートディージェイ）」を<a href="https://global.nissannews.com/ja-JP/releases/251024-01-j">発表</a>した。マスコットフィギュア「Eporo（エポロ）」を通じて自然音声で会話し、運転中の案内や目的地の提案、音楽の選曲などを行う“会話型インフォテインメント”として設計されている。</p>
+<p>AutoDJは、車内ダッシュボードに設置するEporoフィギュアとスマートフォンアプリを連動させて動作する。ユーザーが話しかけると、生成AIが内容を理解し、気分や状況に合わせてドライブを支援する。たとえば、目的地を提案したり、観光情報や天気を教えたり、ドライブに合った音楽を再生したりすることが可能だ。
+キャラクターの音声や性格は複数のバリエーションから選択できる。日産は、ドライバーの好みや運転スタイルに合わせてEporoの“人格”をカスタマイズできる点を特徴としており、単なるナビゲーション機能ではなく、車内で共に過ごす「パートナーAI」としての体験を目指す。</p>
+<p>@<a href="https://www.youtube.com/watch?v=LLdSyRsqup4">YouTube</a></p>
+<p>AutoDJは、同社が2000年代から展開してきた車載オーディオ機能「AutoDJ」を再構築したもので、生成AI技術の進化を取り入れた新しい形の車載エージェントとなる。Eporoのフィギュアを物理的に設置する点も特徴で、AIによるデジタル体験と、手に触れられる“フィジカルな存在感”を融合している。
+発表時点では、対応車種や市販時期は明らかにされていない。日産は今後、AutoDJを「Nissan Intelligent Mobility（ニッサン・インテリジェント・モビリティ）」の一環として展開し、AIを活用した車内エクスペリエンスの拡張を進めるとしている。</p>
+]]></description>
+      <pubDate>Wed, 29 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>単純な構造で多様な生成を可能に──新モデル『DDN』、拡散モデルに代わるアプローチとして注目</title>
       <link>https://ledge.ai/articles/ddn_discrete_distribution_networks_iclr2025</link>
       <description><![CDATA[<p>画像生成をはじめとする生成AIの分野で、新たな手法「DDN（Discrete Distribution Networks：離散分布ネットワーク）」が注目を集めている。この<a href="https://discrete-distribution-networks.github.io/">研究</a>は、機械学習の研究者 Lei Yang（レイ・ヤン）氏が提案し、論文は国際会議 ICLR 2025 に採択された。</p>
@@ -306,19 +318,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
 <p>「モダナイゼーション powered by Lumada」は、Lumada 3.0ビジョンを体現するAIソリューション「HMAX」を展開する際にも活用される予定。日立はGlobalLogicのグローバル人材を活用し、迅速かつ持続的なデジタル変革支援を行うとしている。</p>
 ]]></description>
       <pubDate>Fri, 24 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>全国7400館の蔵書をChatGPTなどのAIアシスタントから検索──「カーリル for AI（カーリル図書館MCP）」ベータ版を公開</title>
-      <link>https://ledge.ai/articles/calil_for_ai_library_mcp_beta</link>
-      <description><![CDATA[<p>株式会社カーリルは2025年10月9日、ChatGPTやClaudeなどのAIアシスタントから全国の図書館蔵書を横断検索できる新サービス「カーリル for AI（カーリル図書館MCP）」のベータ版を公開したことを<a href="https://blog.calil.jp/2025/10/forai.html">発表</a>した。</p>
-<p>同社が提供する図書館検索プラットフォーム「カーリル」は、全国7400館以上の公共図書館を対象に蔵書と貸出状況をリアルタイムで検索できるサービスで、今回の発表はそのAI連携版にあたる。</p>
-<p>「カーリル for AI」は、OpenAIやAnthropicの提供するAIアシスタントに拡張機能として組み込むことで、自然な対話を通じて図書館の蔵書を調べられる仕組み。ユーザーがChatGPTやClaudeに「近くの図書館で『深夜特急』を借りられる？」といった質問をすると、AIがカーリルのデータベースを参照し、所蔵館や貸出可否などを回答する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/calil_for_ai1_54f04abd1a/calil_for_ai1_54f04abd1a.jpg" alt="calil_for_ai1.jpg" /></p>
-<p>この仕組みは、AIモデルが外部データソースへ安全にアクセスするための新しい通信規格「Model Context Protocol（MCP）」を採用している。カーリル図書館MCPは、各地の図書館OPAC（蔵書検索システム）と連携し、最新の貸出情報をリアルタイムに取得する。従来のウェブ検索とは異なり、ユーザーはAIとの自然な会話の中で図書館情報にアクセスできるのが特徴だ。</p>
-<p>利用には、ChatGPTまたはClaudeの設定画面で「カーリル図書館MCP」を有効化するだけでよい。設定後は、会話の中で書名や著者名を指定すれば、AIが自動的に対応する図書館データを検索する。</p>
-<p>カーリルによると、現在は公共図書館を中心に対応しているが、今後は大学図書館や専門図書館への拡大も予定しているという。同社は「AIを通じて図書館の情報資源をより多くの人に届ける」ことを目指しており、AIと公共データをつなぐ新しいアクセスモデルの実証段階と位置付けている。</p>
-]]></description>
-      <pubDate>Thu, 23 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
