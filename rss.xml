@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ChatGPTで週120万人が「自殺兆候を含む会話」──OpenAI、メンタルヘルス対応を強化</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_mental_health_safety_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIは2025年10月27日（米国時間）、ChatGPTにおける精神的健康と安全性の向上を目的とした新たな取り組みを<a href="https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/">発表</a>した。自殺や自傷、AIへの過度な依存など、センシティブな会話においてAIの応答を改善したと説明している。</p>
+<p>同社は170人以上の臨床心理士、精神科医、カウンセラーらと協力し、精神疾患（精神病・躁病）、自傷・自殺、AIへの情緒的依存という3つの領域を重点改善分野に設定。これらの領域において、ChatGPTの応答品質が39〜52％改善したという。</p>
+<h2>「自殺の明確な指標を含む会話」は週0.15％</h2>
+<p>OpenAIの初期分析によると、ChatGPTの週次アクティブユーザー（WAU）のうち約0.15％が「自殺の計画や意図の明確な指標を含む会話」を行っていると推定される。10月6日の発言で同社CEOサム・アルトマン氏が年次開発者会議「DevDay 2025」で<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">示した</a>WAUは約8億人。これを基にすると約120万人/週となる。同社はこれらの数値について、「低頻度かつ測定が難しい推定値」であり、今後の手法改良や利用動向によって大きく変動する可能性があると注記している。</p>
+<h2>危機的な会話では専門機関への誘導を強化</h2>
+<p>新しい応答設計では、ユーザーが自殺や自傷を示唆する発言をした場合、ChatGPTが危険を煽ることなく、専門機関や信頼できる人への相談を促すよう対応する。
+OpenAIは「AIがカウンセラーの代わりになることはない」とし、人間による支援への橋渡しを重視する方針を明確にした。</p>
+<h2>「AI依存」への懸念にも対応</h2>
+<p>同社は、自傷や自殺と同様に「AIへの過度な情緒的依存」もリスクとして捉え、AIとの対話を通じて孤立や依存の兆候を検知しやすくする研究を進めている。目的は、AIを人間関係の代替とするのではなく、支援ツールとして安全に活用できる環境を整えることにあるという。</p>
+<p>今後も医療・心理の専門家やNPOと連携し、AIがメンタルヘルス領域で安全に活用されるための基準づくりを進めると同社は述べている。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
       <link>https://ledge.ai/articles/claude_for_excel_beta_release</link>
       <description><![CDATA[<p>Anthropicは2025年10月28日（米国時間）、生成AI「Claude」をMicrosoft Excelに統合した新アドイン「Claude for Excel」をベータ版（Research Preview）として<a href="https://www.anthropic.com/news/advancing-claude-for-financial-servicesl">公開</a>した。
