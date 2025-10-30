@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
+      <link>https://ledge.ai/articles/claude_for_excel_beta_release</link>
+      <description><![CDATA[<p>Anthropicは2025年10月28日（米国時間）、生成AI「Claude」をMicrosoft Excelに統合した新アドイン「Claude for Excel」をベータ版（Research Preview）として<a href="https://www.anthropic.com/news/advancing-claude-for-financial-servicesl">公開</a>した。
+Claudeがスプレッドシート内のデータや数式を理解し、自然言語による分析・説明・編集を行えるようにする。</p>
+<p>「<a href="https://www.claude.com/claude-for-excel">Claude for Excel</a>」はExcelのサイドバー上で動作し、ユーザーが自然言語で入力した指示に応じて、ワークシート全体を参照しながら回答する。数式の意味や依存関係を自動的に解析し、関連セルをハイライト表示することで、データの構造を可視化できる。例えば「この列の傾向を要約して」「この数式が何を計算しているか説明して」といった指示に対して、Claudeが表形式で結果を提示する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NcBnxbEC0Ng">YouTube</a></p>
+<p><strong>Excelのワークシートを解析し、セルレベルの参照付きで説明するClaudeの画面例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/How_teams_use_Claude_for_Excel_fa57735bf8/How_teams_use_Claude_for_Excel_fa57735bf8.jpg" alt="How teams use Claude for Excel.jpg" /></p>
+<p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
+<p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>レッジ、生成AI研修の提供拡大に向けて、販売・共創パートナー・カリキュラムの共同開発の3つの枠組みで協業を本格化</title>
       <link>https://ledge.ai/articles/generative-ai-training-partnership</link>
       <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、日本最大級のAI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、企業向け生成AI研修事業の拡大に伴い、販売代理店・共創パートナー・AI人材教育カリキュラムの共同開発・提供の各スキームによる外部連携を本格化します。
@@ -42,8 +56,8 @@ AIなどの最新テクノロジーに興味関心が高い早期就活生と、
 <li><strong>研修との連動施策</strong>：座学による研修にとどまらず、コンテストやハッカソンなどの実践型のプログラムとの連動施策も企画可能です。</li>
 <li><strong>メディア連携による広報支援</strong>：AI専門メディア「Ledge.ai」による取材・記事掲載など、広報面での支援体制を整えています。</li>
 </ul>
-<p>各スキームの詳細や協業プランについては、個別にご案内しております。
-下記フォームよりお気軽にお問い合わせください。</p>
+<p>協業の形については、目的や業種に応じて柔軟に提案可能です。
+詳細をご希望の方は、下記フォームよりお問い合わせください。</p>
 <p>:::button
 <a href="https://zfrmz.com/5S0shEM2Cf2DQxXpTZh7">お問い合わせはこちら</a>{target=_blank}
 :::</p>
@@ -340,24 +354,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
 <p>この声明は法的拘束力を持たないものの、AI業界や政策立案者へ少なからず影響があるとみられている。各国政府はすでにAI規制法の整備を進めており、声明で示された「安全・制御・公共合意」という３つの条件が、今後の国際的なAI開発ガイドラインに組み込まれるかどうかが焦点となる。</p>
 ]]></description>
       <pubDate>Fri, 24 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIによる価格操作に州が規制──ニューヨーク州、家主向けアルゴリズム家賃設定ツールを禁止</title>
-      <link>https://ledge.ai/articles/ai_rent_pricing_ban_newyork_oct2025</link>
-      <description><![CDATA[<p>ニューヨーク州は2025年10月16日、キャシー・ホウクル知事が家主や物件管理会社がAIなどを活用したアルゴリズムで賃料を設定する行為を禁じる法案に署名したことを<a href="https://www.governor.ny.gov/news/governor-hochul-signs-legislative-package-bolster-homeownership-and-strengthen-protections">発表</a>した。州として、住宅市場におけるAIによる価格操作を直接規制するのは初めてとなる。</p>
-<h2>アルゴリズムによる家賃設定を禁止</h2>
-<p>この日ホウクル知事が署名した、住宅所有を促進し、賃借人保護を強化するための法案の中で、新法（S7882／A1417）は、複数の家主が同一のアルゴリズム価格設定ソフトウェアを用いることで事実上「賃料の共謀的引き上げ」が行われる構造を問題視したもの。対象となるのは、需要データや周辺相場をもとに家賃を自動調整するAIツールで、いわゆる「アルゴリズム価格設定（algorithmic pricing）」の利用を禁じる。</p>
-<p>知事府の公式発表によれば、今回の法案は「住宅の公平性を守るための包括的な立法パッケージ」の一部として署名された。ホウクル知事は声明の中で、「ニューヨーカーは、公平で透明な家賃を支払う権利を持つ」と述べ、AIの悪用を防ぐ姿勢を強調した。</p>
-<h2>背景に“AI賃料カルテル”への懸念</h2>
-<p>米国ではここ数年、RealPage社の「YieldStar」や「RENTmaximizer」など、AIによって賃料を算出・最適化するソフトウェアの利用が急速に広がっていた。これらのツールは、入居需要、周辺相場、空室率などを解析して「最大利益を得られる家賃」を自動的に提案する仕組みを持つ。</p>
-<p>しかし複数の家主が同一のAIモデルやデータを共有して賃料を設定すると、事実上の価格協調（カルテル）に当たるのではないかとの批判が高まっていた。2023年には、同ソフトの利用をめぐり連邦レベルで独占禁止法違反の集団訴訟も提起されている。</p>
-<p>今回のA1417法は、そうした構造的な“AI共謀”を防ぐ狙いがある。米経済自由団体のAmerican Economic Liberties Project
-は「AIを介した価格共謀の初の州レベル禁止」として歓迎の声明を<a href="https://www.economicliberties.us/press-release/economic-liberties-applauds-new-yorks-landmark-statewide-ban-on-rent-collusion-software/">発表</a>した。</p>
-<h2>全米での議論に波及も</h2>
-<p>新法は署名から60日後に発効予定で、違反が確認された場合は行政処分や罰金の対象となる。
-今後、他州が同様の法整備に踏み出す可能性も指摘されている。AIによる価格設定はホテル、航空券、交通など他産業でも広く導入されており、今回の規制が「アルゴリズム経済」全体にどのような影響を与えるか注目が集まる。</p>
-]]></description>
-      <pubDate>Fri, 24 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
