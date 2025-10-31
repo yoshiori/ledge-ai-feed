@@ -5,6 +5,54 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>画像生成・編集AIを包括的に評価する「ImagenWorld」を発表──画像生成AIの「失敗」も定量評価し見える化</title>
+      <link>https://ledge.ai/articles/imagenworld_benchmark_university_of_waterloo</link>
+      <description><![CDATA[<p>ウォータールー大学などによる研究チームは2025年10月17日、画像生成および画像編集AIの性能を横断的に評価するベンチマーク「ImagenWorld」を<a href="https://tiger-ai-lab.github.io/ImagenWorld/">発表</a>した。</p>
+<p>AIがテキストや画像条件に基づいてどのように出力を生成し、どのように失敗するかを体系的に測定できる点が特徴で、公式サイトおよび論文が同時に公開されている。研究には、GoogleのGeminiモデルを用いた自動解析手法も組み込まれているという。</p>
+<h2>ImagenWorldとは──AIの「失敗」を定量的に可視化</h2>
+<p>ImagenWorldは、AIモデルの生成・編集タスクを統一指標で評価するために開発された、実世界ベンチマークである。
+データセット作成からオブジェクト抽出、最終的な人間・AI評価までを一連のプロセスとして設計。
+AIが生成した画像の「どの部分で誤るのか」を可視化する点が最大の特徴だ。</p>
+<p><strong>ImagenWorldの全体構成。データセット作成からオブジェクト抽出・評価までの流れ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/overview_b8402c569b/overview_b8402c569b.jpg" alt="overview.jpg" /></p>
+<h2>画像生成と編集の両方をカバーする実世界ベンチマーク</h2>
+<p>ImagenWorldは、生成AIを多角的に測る6つの主要タスクで構成される。</p>
+<ol>
+<li>テキスト誘導型生成（Text-guided Image Generation）</li>
+<li>単一参照画像生成（Single Reference Image Generation）</li>
+<li>複数参照画像生成（Multiple Reference Image Generation）</li>
+<li>テキスト誘導型編集（Text-guided Image Editing）</li>
+<li>単一参照画像編集（Single Reference Image Editing）</li>
+<li>複数参照画像編集（Multiple Reference Image Editing）</li>
+</ol>
+<p>評価対象となるトピックも、「Artworks」「Photorealistic」「Information Graphics」「Textual Graphics」など多岐にわたる。</p>
+<p><strong>6種類のタスク分類と実際の生成・編集例。成功と失敗を並べて比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/dataset_1_bbfafbc87b/dataset_1_bbfafbc87b.jpg" alt="dataset (1).jpg" /></p>
+<h2>評価プロセス──人間とAIが協働で“失敗”を検出</h2>
+<p>ImagenWorldのスコアリングは、人間アノテータとVision-Language Model（VLM）の両方で行われる。評価軸は「Prompt Relevance」「Aesthetic Quality」「Content Coherence」「Artifacts」の4つ。Geminiを用いた自動オブジェクト抽出・セグメント分析を組み込み、どの部分が誤って生成されたのかを明示する。</p>
+<p><strong>人間とVLMによるスコアリングを統合し、失敗箇所をセグメント単位で特定</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/explain_tag_0fabc11340/explain_tag_0fabc11340.jpg" alt="explain-tag.jpg" /></p>
+<h2>モデル比較──GPT-Image-1が総合スコア首位</h2>
+<p>公式サイトと論文によると、評価対象モデルはOpenAIのGPT-Image-1、Stability AIのBAGEL、OmniGen2など。
+総合スコアではGPT-Image-1が首位を記録したが、フォトリアリスティック画像や情報グラフィックの一部ではオープンソース系モデルも健闘した。</p>
+<p><strong>ImagenWorldによる代表モデルのスコア比較。上段がタスク別、下段がトピック別の平均値</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unified_f74e92aef1/unified_f74e92aef1.jpg" alt="unified.jpg" /></p>
+<h2>実例──AIの「わかりやすい失敗」を収集</h2>
+<p>研究チームは、失敗出力の具体例を体系的に提示している。
+例えば、指示された要素を正確に追加できない、参照画像の属性統合に失敗する、構図の一貫性が崩れるなど。
+これらを分類・可視化することで、開発者がモデルの弱点を明確に把握できるようにしている。以下はその一部。</p>
+<p><strong>指示に厳密に従えないケース</strong>：
+プロンプトは「画像1の左上の木箱を画像3の黄色い警告標識に置き換え、画像2から“ピンク（中央）”と“黄色（右下）”のクルーメイトを取り出して並べ、画像1の中央ドア上に立たせる。遠近・照明・スケールを整える」指示。これに対し、モデルは別の色のクルーメイトを配置してしまい、標識の位置も指定と不一致。指示追従の精度不足が現れている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fail1_3f961411f2/fail1_3f961411f2.jpg" alt="fail1.jpg" /></p>
+<p><strong>編集中に新しい画像を生成してしまうケース</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fail6_2856948e57/fail6_2856948e57.jpg" alt="fail6.jpg" /></p>
+<h2>今後の展望──動画・3D生成AIへ拡張</h2>
+<p>研究チームは、ImagenWorldを将来的に動画生成や3D生成AIの評価にも拡張する計画を示している。コードとデータセットはオープンソースとして一般公開されており、他研究者による再評価や再現実験も可能。</p>
+<p>論文では「AIモデルの品質保証と説明可能性を高める基盤として設計された」と結論づけている。</p>
+]]></description>
+      <pubDate>Fri, 31 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、資本・組織再編を完了──非営利法人が営利事業を統制する「OpenAI Group PBC」体制へ</title>
       <link>https://ledge.ai/articles/openai_group_pbc_restructuring_complete</link>
       <description><![CDATA[<p>OpenAIは2025年10月28日（米国時間）、資本および組織の再編を完了したと<a href="https://openai.com/index/built-to-benefit-everyone/">発表</a>した。非営利団体のOpenAI Foundationが営利企業の株式を保有し、支配する形へと移行し、営利部門は公益法人（Public Benefit Corporation）である「OpenAI Group PBC」として再編された。</p>
