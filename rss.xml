@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon、約1万4千人の従業員削減を発表──AI時代に合わせた「俊敏な組織」へ再構築</title>
+      <link>https://ledge.ai/articles/amazon_layoffs_14000_ai_organization_restructure_oct2025</link>
+      <description><![CDATA[<p>米Amazonは2025年10月28日（現地時間）、企業全体の効率化と俊敏性の向上を目的として、約1万4,000人の従業員を削減すると<a href="https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction">発表</a>した。
+この発表は、人事担当シニア・バイスプレジデントのベス・ガレッティ（Beth Galetti）氏が公式ブログ「Staying nimble and continuing to strengthen our organisations」で明らかにしたもの。</p>
+<p>同氏は声明の中で、「Amazonはこれまでも、変化の速い環境の中で俊敏に進化してきた。今回の再編も、よりフラットでスピード感のある組織を築くための一歩だ」と述べた。削減は主にコーポレート部門の職務約14,000件（roles）を対象とし、各国の法的手続きや労働慣行に基づいて順次進められる。</p>
+<p>Amazonは、影響を受ける従業員に対し、90日間の社内再配置期間（Internal Job Search Period）を設ける。期間中に社内の他部門で新たな職務を見つけられなかった場合、退職金・転職支援・医療保険の延長などを提供する方針だ。
+ガレッティ氏は、「この決定は決して軽いものではない。影響を受ける社員には最大限のサポートを行う」と強調している。</p>
+<p>同社は、今回の削減を「単なるコスト削減ではなく、組織のレイヤーを減らし、意思決定を迅速化するための取り組み」と位置づける。ガレッティ氏は、「私たちは“世界最大のスタートアップ”として、責任とスピードを両立する構造を目指す」と記し、AIや自動化を含む新技術を活用した効率化を進めていく方針を示した。</p>
+<p>今後もAmazonは、AI・クラウド・物流などの「戦略的重点領域」では採用を継続しつつ、その他の部門では組織構造の見直しを行うという。同氏は最後に、「これによりAmazonは、よりシンプルで、所有権を持って行動できる組織になる」と述べ、長期的な競争力と持続的成長への意欲を示した。</p>
+]]></description>
+      <pubDate>Fri, 31 Oct 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>声の権利をAIで守る、NTT西日本の新事業「VOICENCE」開始──声優・俳優らの音声IPを安全に活用へ</title>
       <link>https://ledge.ai/articles/ntt_west_voicence_voice_ai_rights_launch</link>
       <description><![CDATA[<p>NTT西日本は2025年10月27日、声優・俳優・タレントなど実演家の“声の権利（音声IP）”を保護し、AI技術によってその価値を高める新事業「VOICENCE（ヴォイセンス）」を開始したと<a href="https://www.ntt-west.co.jp/news/2510/251027b.html">発表</a>した。
@@ -353,21 +366,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
 <p>研究チームは、C2S-Scaleを“language-like biology（言語のように生物を理解するAI）”と位置づけ、今後はエピゲノムやプロテオームなど他のオミクスデータを統合するマルチモーダルAIへの発展を構想している。モデルとコードはすでに<a href="https://huggingface.co/collections/vandijklab/cell2sentence-models">Hugging Face</a>上で公開されており、世界中の研究者が利用できる。単一細胞解析の自動化と知識生成を組み合わせたこの手法は、次世代のAI主導バイオロジー研究の基盤として注目を集めている。</p>
 ]]></description>
       <pubDate>Sun, 26 Oct 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
-      <link>https://ledge.ai/articles/starcloud_nvidia_ai_datacenter_in_space</link>
-      <description><![CDATA[<p>NVIDIAは2025年10月15日、同社が支援する米スタートアップ <a href="https://www.starcloud.com/">Starcloud</a>と共に人工衛星上にAIデータセンターを構築する計画を進めていることをブログで<a href="https://blogs.nvidia.com/blog/starcloud/?ncid=so-twit-480097&amp;linkId=100000388344371">明らかにした</a>。11月にはNVIDIA H100 Tensor Core GPU を搭載した人工衛星を打ち上げる予定で、宇宙空間でのAI処理を実現するという。冷却コストを地上の10分の1に抑えるといい、AI時代の新しいエネルギー効率モデルとして注目されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ichlfqHF6XM">YouTube</a></p>
-<p><a href="https://www.starcloud.com/">Starcloud</a>は、Y Combinatorの支援を受けて2024年に設立されたスタートアップで、「Data Centers in Space（宇宙空間にデータセンターを）」を掲げる。地球上のデータセンターが抱える電力・冷却・立地の制約を超えるべく、軌道上の低温・真空環境を活かしたAIインフラ構築を目指す。同社はNVIDIAのInceptionプログラムに参加しており、技術的な支援を受けながら軌道上でのAI推論とデータ処理を計画している。</p>
-<p><strong>11月に打ち上げ予定のStarcloud-1衛星をエンジニアが点検している。衛星内部の銀色のモジュールにはNVIDIA H100 GPUが搭載されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/starcloud_nvidia2_aca314e326/starcloud_nvidia2_aca314e326.jpg" alt="starcloud nvidia2.jpg" /></p>
-<p><a href="https://blogs.nvidia.com/blog/starcloud/">NVIDIA</a>によると、Starcloudの人工衛星は、H100 GPUを搭載し、地上局との低遅延通信を可能にする「orbit-to-cloud architecture」を採用する。Starcloud CEOのEthan Miller氏は「地球上のデータセンターで消費される膨大な電力を削減し、持続可能なAIインフラを実現する」とコメントしている。</p>
-<p>また、Starcloudはクリーンコンピューティング企業 Crusoe Energy Systems と提携し、宇宙空間におけるクラウド運用を共同で進める。<a href="https://www.crusoe.ai/resources/newsroom/crusoe-to-become-first-cloud-operator-in-space-through-partnership-with-starcloud">Crusoe</a>は、この提携を通じて同社が「世界初の宇宙クラウドオペレーター」となると述べており、自社のクリーンコンピュート・スタックを衛星に拡張する。Crusoe CEOのChase Lochmiller氏は、「AIコンピューティングの新しい前線に立つ。宇宙でのクラウド運用は持続可能なAIの未来を象徴する」と語った。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6.png" alt="68f7c88901152ba581e36e4a_spacejam-p-1080.png" /></p>
-<p>宇宙の極低温環境を利用することで、冷却コストは地上の10分の1、エネルギー効率は大幅に向上するとされる。Starcloudは今後、複数の衛星ネットワークによる分散型クラウドの構築も視野に入れており、AI処理と環境負荷削減の両立を目指すとしている。</p>
-]]></description>
-      <pubDate>Sun, 26 Oct 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
