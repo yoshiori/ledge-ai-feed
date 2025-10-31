@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>声の権利をAIで守る、NTT西日本の新事業「VOICENCE」開始──声優・俳優らの音声IPを安全に活用へ</title>
+      <link>https://ledge.ai/articles/ntt_west_voicence_voice_ai_rights_launch</link>
+      <description><![CDATA[<p>NTT西日本は2025年10月27日、声優・俳優・タレントなど実演家の“声の権利（音声IP）”を保護し、AI技術によってその価値を高める新事業「VOICENCE（ヴォイセンス）」を開始したと<a href="https://www.ntt-west.co.jp/news/2510/251027b.html">発表</a>した。
+音声の真正性を保証するデジタル基盤を整備し、生成AI時代における“声の知的財産”の新たな活用モデルを目指す。</p>
+<h2>声の権利を守り、AIで価値を高める</h2>
+<p>「VOICENCE」は、声優や俳優、タレントなどの声を個人の知的財産として捉え、デジタル技術で権利を守りながら安全に活用するための仕組み。声の利用には本人の同意を前提とし、権利者・制作側・利用者の三者が安心して取引できる音声流通プラットフォームを構築する。</p>
+<p>同社は、音声の発話者を証明する技術を組み合わせることで“声のトレーサビリティ”を実現。AI合成や音声変換などが進む中で、無断利用やフェイク音声の拡散を防ぐ狙いだ。</p>
+<h2>ブロックチェーンとAI音声技術を活用</h2>
+<p>プラットフォームでは、音声データの真正性を担保するためにブロックチェーン技術を活用。改ざん防止と権利情報の一元管理を行い、利用履歴を透明化する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251027bc_bfdd13602b/251027bc_bfdd13602b.png" alt="251027bc.png" /></p>
+<p>さらに、NTTグループが開発するAI音声技術を組み合わせ、登録された声のAI合成や多言語化、印象制御なども可能とする。これにより、声優や俳優の声を“公認AI音声”として多分野で展開できる。</p>
+<h2>実演家と連携し、新たな音声市場を創出</h2>
+<p>NTT西日本は今後、実演家・制作会社・タレント事務所などと連携し、音声広告、ナレーション、教育、観光といった幅広い分野への応用を進める。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251027bd_52e4134013/251027bd_52e4134013.jpg" alt="251027bd.jpg" /></p>
+<p>同社は「声の真正性を保証することで、新しい音声経済圏を形成し、文化・産業の発展に寄与する」としている。
+2025年度中には、音声IPの登録・管理・認証機能を本格運用する予定。中長期的には国内外での展開を視野に、AIと人間の“声の共創”を推進していく方針だ。</p>
+]]></description>
+      <pubDate>Fri, 31 Oct 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>画像生成・編集AIを包括的に評価する「ImagenWorld」を発表──画像生成AIの「失敗」も定量評価し見える化</title>
       <link>https://ledge.ai/articles/imagenworld_benchmark_university_of_waterloo</link>
       <description><![CDATA[<p>ウォータールー大学などによる研究チームは2025年10月17日、画像生成および画像編集AIの性能を横断的に評価するベンチマーク「ImagenWorld」を<a href="https://tiger-ai-lab.github.io/ImagenWorld/">発表</a>した。</p>
@@ -348,18 +368,6 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
 <p>宇宙の極低温環境を利用することで、冷却コストは地上の10分の1、エネルギー効率は大幅に向上するとされる。Starcloudは今後、複数の衛星ネットワークによる分散型クラウドの構築も視野に入れており、AI処理と環境負荷削減の両立を目指すとしている。</p>
 ]]></description>
       <pubDate>Sun, 26 Oct 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon、倉庫労働の自動化を加速──内部文書で「50万人置き換え」計画浮上、同社は否定</title>
-      <link>https://ledge.ai/articles/amazon_robotics_automation_500k_plan</link>
-      <description><![CDATA[<p>Amazonが、物流センターにおける自動化を大幅に拡大し、最大50万人の従業員をロボットに置き換える計画を進めていることが、<a href="https://www.nytimes.com/2025/10/21/technology/inside-amazons-plans-to-replace-workers-with-robots.html">ニューヨーク・タイムズ</a>が入手した社内文書により明らかになったと報じた。</p>
-<p>同紙によると、文書はAmazon Robotics部門が作成したもので、2033年までに50万〜60万人分の人的業務をロボットやAIによって自動化するという長期計画が記されている。短期的にも2027年までに約16万人分の作業を代替する見通しが示されており、対象となるのは倉庫内での仕分け、ピッキング、梱包、搬送といった物理的業務だという。</p>
-<p>また、文書では自動化により出荷1件あたり約0.30ドルのコスト削減が見込まれ、2025〜2027年の3年間で約126億ドル（約1兆9,000億円）の経費削減を達成できると試算しているという。</p>
-<p>これに対し、Amazonは<a href="https://www.theverge.com/news/803257/amazon-robotics-automation-replace-600000-human-jobs">The Verge</a>の取材に対し、報道内容を否定した。広報担当者は「この文書は特定チームの分析をまとめたものであり、全社的な人員計画や雇用戦略を示すものではない」と述べ、さらに「当社は依然として多数の雇用を創出しており、ロボット導入が雇用喪失を意味するわけではない」とコメントしている。</p>
-<p>Amazonは2012年に物流ロボット企業Kiva Systemsを買収して以降、自社倉庫の自動化を中核戦略として進めてきた。近年では、AIによる在庫管理やロボット搬送に加え、配送現場でもAIスマートグラスを活用するなど、エンドツーエンドでの自動化を進めている。</p>
-<p>一方、労働組合や雇用政策の専門家からは「労働コスト削減の裏で雇用機会が失われる可能性がある」と懸念の声も上がっている。Amazonが今後、自動化と雇用創出の両立をどのように図るかが注目される。</p>
-]]></description>
-      <pubDate>Sat, 25 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2025/10/24 [FRI]850人超の著名人がAI「スーパーインテリジェンス」開発禁止を要請──ヒントン氏やメーガン妃らが署名</title>
