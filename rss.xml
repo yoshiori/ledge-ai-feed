@@ -114,16 +114,220 @@ OpenAIは「AIがカウンセラーの代わりになることはない」とし
       <pubDate>Thu, 30 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
-      <link>https://ledge.ai/articles/claude_for_excel_beta_release</link>
-      <description><![CDATA[<p>Anthropicは2025年10月28日（米国時間）、生成AI「Claude」をMicrosoft Excelに統合した新アドイン「Claude for Excel」をベータ版（Research Preview）として<a href="https://www.anthropic.com/news/advancing-claude-for-financial-servicesl">公開</a>した。
-Claudeがスプレッドシート内のデータや数式を理解し、自然言語による分析・説明・編集を行えるようにする。</p>
-<p>「<a href="https://www.claude.com/claude-for-excel">Claude for Excel</a>」はExcelのサイドバー上で動作し、ユーザーが自然言語で入力した指示に応じて、ワークシート全体を参照しながら回答する。数式の意味や依存関係を自動的に解析し、関連セルをハイライト表示することで、データの構造を可視化できる。例えば「この列の傾向を要約して」「この数式が何を計算しているか説明して」といった指示に対して、Claudeが表形式で結果を提示する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NcBnxbEC0Ng">YouTube</a></p>
-<p><strong>Excelのワークシートを解析し、セルレベルの参照付きで説明するClaudeの画面例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/How_teams_use_Claude_for_Excel_fa57735bf8/How_teams_use_Claude_for_Excel_fa57735bf8.jpg" alt="How teams use Claude for Excel.jpg" /></p>
-<p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
-<p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
+      <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
+      <link>https://ledge.ai/articles/25to26-announce</link>
+      <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も年末年始特集「'25to'26」を公開します。
+本日より先行サイトを公開し12月1日（月）の特集サイト公開までの間、お知らせを受け取ることができるようになる事前登録（無料）を受付開始いたしました。</p>
+<p>:::button
+<a href="https://25to26.ledge.ai/lp">事前告知サイトはこちら</a>
+:::</p>
+<p>2025年を締めくくるにふさわしい、AIの今とこれからを網羅した一大特集。研究者、ビジネスリーダー、エンジニアなど、あらゆる立場の方々に向けて、2026年のAIシーンを展望します。</p>
+<h2>Ledge.ai年末年始特集『'25to'26』とは</h2>
+<p>Ledge.ai年末年始特集は、2025年のAI関連ニュースや注目のキーワード、2026年以降の動向など、AIの初心者から専門家まで幅広く楽しめる特集サイトです。</p>
+<p>2025年は、生成AIが実用フェーズに突入し、業務プロセス・プロダクト・教育・クリエイティブなど、社会のあらゆる分野で“AI活用の当たり前化”が進んだ一年でした。
+そして2026年は、AIという概念そのものが提唱された「ダートマス会議」から70周年という、まさに歴史的な節目を迎えます。2025年の「当たり前化」を土台として、AIは社会インフラのように深く浸透し、その活用範囲の拡大と同時に、AGI（汎用人工知能）の実現可能性など、AIの“次なる進展”に向けた探求が本格化する一年となるのではないでしょうか。</p>
+<p>本特集では、そんな激動の2025年を多角的に振り返りつつ、2026年に向けた新たな潮流やビジネスチャンスを展望します。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_ac8b0aef2e/1_ac8b0aef2e.png" alt="1.png" /></p>
+<h2>コンテンツラインナップ紹介</h2>
+<h3>編集部による徹底解説</h3>
+<p>Ledge.ai編集部が、2025年のAIシーンを多角的に総括。
+1年間の主要ニュースをピックアップしながら、トレンド分析と俯瞰的な視点で、AI技術が社会・産業へどのように浸透したのかを読み解きます。
+さらに、技術動向の深掘り解説を通じて、進化の本質を明らかに。
+2026年に向けて押さえておくべき“AIの現在地”を、独自の視点で整理します。</p>
+<h3>独自インタビュー</h3>
+<p>本特集では、「AI 70th Pre-Anniversary」というテーマのもと、AI研究の歴史・現在・未来をつなぐキーパーソンたちにインタビューを実施。
+過去／現在／未来のそれぞれの視点から、AIがどのように発展し、次の時代にどんな可能性を秘めているのかを語ってもらいます。
+世代と分野を超えて交わる知見が、AIの軌跡と未来へのヒントを照らし出します。</p>
+<h3>トップランナー企業動向</h3>
+<p>国内外の注目企業をピックアップし、AI周辺で押さえておきたい企業の最新動向を徹底分析。
+生成AI、AIエージェント、クラウドAIなど、世界最先端の情報と実践事例に触れることで、読者が“次に取るべき一手”を見極められる構成になっています。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_6180f8a0c5/2_6180f8a0c5.png" alt="2.png" /></p>
+<h2>開催概要</h2>
+<p>イベント名：Ledge.ai年末年始特集「'25to'26」
+開催期間：2025年12月1日(月) - 2026年1月9日(金)
+形式：オンライン
+参加費：無料（※一部のコンテンツ閲覧にはプロフィール登録が必要となります。）
+お問合せ：contact@ledge.co.jp
+URL：<a href="https://25to26.ledge.ai/lp">https://25to26.ledge.ai/lp</a></p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
+      <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
+      <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
+<h2>ブランド固有の生成AIを構築</h2>
+<p>「Adobe AI Foundry」は、同社の生成AIモデル群「Adobe Firefly」を拡張した新たなプラットフォームだ。
+企業が自社ブランドのビジュアルスタイルや言語トーンを反映した独自モデルを構築でき、生成したコンテンツは商用利用にも対応する。Adobe ExpressやCreative Cloudなど既存の制作ツール群とも統合され、クリエイティブ制作の一貫したワークフローを支援する。</p>
+<h2>データ保護と商用利用を両立</h2>
+<p>Adobeによれば、AI Foundryでは企業データやブランド資産を安全に扱うことを前提に設計されている。学習素材は各社の許諾のもと管理され、生成結果に関しても著作権・商用利用のリスクを最小限に抑えた設計がなされているという。
+料金体系は利用量ベースで、従来のサブスクリプション型（席ライセンス）からの転換を図る。なお、Foundryは本日時点で一部のエンタープライズ顧客に提供されている。</p>
+<h2>初期導入企業とユースケース</h2>
+<p>米TechCrunchやTechzineの報道によると、Home DepotやWalt Disney Imagineeringなどが初期導入企業として名を連ねる。ブランドイメージに一貫性を持たせた広告ビジュアルや販促素材の生成を中心に活用が進む見通しだ。
+Adobeはこのプラットフォームを「企業が自社のブランドDNAをAIに宿すためのFoundry（製造炉）」と位置づけている。</p>
+<h2>Adobeの生成AI戦略における新たな段階</h2>
+<p>Adobeはこれまで、画像生成モデル「Firefly」やビジネス支援AI「Sensei GenAI」などを展開してきた。AI Foundryはその集大成として、企業ごとの“ブランドAIモデル”構築を可能にするもので、生成AIの民主化を次のフェーズへ進める狙いがある。
+同社は今後、テキスト・画像・動画・3Dといったマルチモーダルな生成AIを企業規模で展開し、クリエイティブ制作からマーケティングまで一体化したソリューションを提供するとしている。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon、配達ドライバー向けAIスマートグラスを発表──荷物スキャンから配達証明までハンズフリーで</title>
+      <link>https://ledge.ai/articles/amazon_ai_smart_glasses_for_delivery_drivers</link>
+      <description><![CDATA[<p>Amazonは2025年10月22日（現地時間）、配達ドライバーが安全かつ効率的に業務を行えるよう支援するAI搭載スマートグラス<a href="https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers">発表</a>した。荷物のスキャンからルート案内、配達証明の撮影までをハンズフリーで行える新デバイスで、同社の物流ネットワークにおける最新のイノベーションとして位置づけられている。</p>
+<p>このスマートグラスは、ドライバーがスマートフォンを操作することなく、視界内で作業情報を確認し、音声操作で指示を実行できるよう設計されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amazon_ai_smart_glass_fb85f5e064/amazon_ai_smart_glass_fb85f5e064.jpg" alt="amazon ai smart glass.jpg" /></p>
+<p>AIアシスタント機能を備え、目的地までのルート案内、荷物バーコードのスキャン、配達証明の撮影など、一連の業務を統合的にサポートする。安全面にも配慮し、運転中は自動的に無効化される設計を採用。ドライバーが「前方から目を離さずに」作業できる環境を整えた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_c8592cf9a3/_c8592cf9a3.gif" alt="ダウンロード.gif" /></p>
+<p>このスマートグラスは現場ドライバー（Delivery Associates, DAs）のフィードバックを基に開発されており、コントロールベストや交換式バッテリー、緊急ボタンなど、配送現場のニーズを反映した構造となっている。度付きレンズや調光レンズにも対応しており、長時間の着用や屋外での使用にも配慮がなされている。</p>
+<p>現在、北米地域の数百名のドライバーが試験運用を実施中で、ユーザーフィードバックを踏まえた改良が進められている。今後は配送サービスパートナー（Delivery Service Partners, DSPs）を含む広範な導入を予定しているが、商用展開の時期などは明らかにされていない。</p>
+<p>Amazonは本取り組みを、倉庫内ロボットやAI物流最適化技術と並ぶ「次世代配送体験」の一環と位置づけており、配達の安全性と作業効率の両立を目指すとしている。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、量子チップ「Willow」で“検証可能な量子優位”を実証──Nature掲載論文でスーパーコンピューターを13,000倍上回る性能</title>
+      <link>https://ledge.ai/articles/google_quantum_willow_verifiable_advantage_nature2025</link>
+      <description><![CDATA[<p>Googleは2025年10月22日、科学誌『Nature』において、同社の量子コンピューター用チップ「Willow（ウィロー）」が、既存のスーパーコンピューターを13,000倍上回る速度で演算を実行し、「検証可能な量子優位（verifiable quantum advantage）」を達成したと<a href="https://research.google/blog/a-verifiable-quantum-advantage/">発表</a>した。</p>
+<p>論文「<a href="https://www.nature.com/articles/s41586-025-09526-6">Observation of constructive interference at the edge of quantum ergodicity</a>」によると、Willowチップは105個の超伝導キュービットを備え、量子情報の拡散を解析する手法「アウト・オブ・タイム・オーダー相関（OTOC）」を用いて実験を実施した。結果、古典スーパーコンピューターでは約32年を要する計算を、わずか2時間で完了したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mEBCQidaNTQ">YouTube</a></p>
+<p>A Verifiable Quantum Advantage：研究チームがWillowチップ、量子エコーアルゴリズム、NMR分光法応用などを解説</p>
+<h2>Quantum Echoes──量子エコー・アルゴリズムの仕組み</h2>
+<p>Googleの研究チームは、量子システム内部の相互作用を可視化する新しいアルゴリズム「Quantum Echoes（量子エコー）」を開発した。この手法は、量子回路を順方向と逆方向の両方で実行し、干渉パターンを比較することで誤差を自己検証できる。</p>
+<p>この仕組みにより、量子システムの「見えない構造」をエコー信号として観測可能にする点が特徴で、これまでノイズに埋もれていた量子状態の動的相関を明確に測定できるようになった。</p>
+<h2>量子干渉と「Constructive Interference」──新しい優位性の原理</h2>
+<p>論文では、量子系内部のパウリ演算子の干渉（constructive interference）が、OTOCの高次成分（OTOC(2)など）において初めて実験的に観測されたことを報告。これにより、量子干渉の複雑性が古典シミュレーションでは再現不能であることが確認された。</p>
+<p>実際、Googleの試算では、今回の65キュービット実験を古典スーパーコンピューター「Frontier」でシミュレートするには約3.2年を要し、Willowチップの実行時間（2.1時間）と比べて13,000倍以上の差がある。これにより、「Beyond classical（古典を超えた）」領域に踏み入ったと位置づけている。</p>
+<p><strong>Quantum Echoesアルゴリズムは、世界最速のスーパーコンピューターを13,000倍上回る速度で計算を実行</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/13000times_faster_3aa42ccb1d/13000times_faster_3aa42ccb1d.jpg" alt="13000times faster.jpg" /></p>
+<h2>実世界応用への一歩──分子構造解析とHamiltonian Learning</h2>
+<p>Google Quantum AIは、Quantum Echoesの応用として、ハミルトニアン学習（Hamiltonian learning）を実証した。
+これは量子システムの測定データ（OTOC）を実際の物理系と照合し、未知のパラメータを最適化して学習する手法である。</p>
+<p>研究チームは、UCバークレーと連携し、Willowチップ上で2種類の分子構造を予測し、NMR分光法でその正確性を確認した。論文では、この方法が分子シミュレーション、薬剤設計、エネルギー材料開発などへの応用に発展する可能性が示唆されている。</p>
+<p><strong>量子研究施設を視察するGoogle CEOのサンダー・ピチャイ氏「科学そのものを行う力が量子計算に宿り始めている」と述べた</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb.webp" alt="QuantumSundar_Inline.width-1000.format-webp.webp" /></p>
+<p>Google Quantum AIのディレクターであるHartmut Neven氏は、「量子コンピューターが理論段階を超え、実際の科学的課題を解くためのツールになりつつある」とコメント。共同リーダーのJulian Kelly氏も「Quantum Echoesを通じて、結果を検証可能な形で量子優位を確認できたのは初めて」と述べた。</p>
+<p><strong>Google Quantum AIが開発した次世代量子チップ「Willow」。105個の超伝導キュービットを搭載し、誤差率0.15％の高精度ゲート制御を実現した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b.webp" alt="WillowChip_4k_Render_02.width-1000.format-webp.webp" /></p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
+      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
+      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
+<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
+<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
+<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
+<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
+<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
+<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
+      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
+<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供するという。発表が行われたライブ配信では、AIがWebの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザの概念を刷新する設計思想が語られた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
+<h2>ChatGPTが心臓部にあるブラウザ</h2>
+<p>ライブ配信で同社は、Atlasの開発が「ブラウザとチャットできたらどうなるか？」という問いから始まったと説明。
+従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
+<h2>コア機能：3つの柱</h2>
+<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
+<ol>
+<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
+<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
+<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
+</ol>
+<h2>その他の主要機能</h2>
+<ul>
+<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
+<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
+<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
+</ul>
+<h2>安全性と提供状況</h2>
+<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
+<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
+<h2>AIとWebを再定義する「次の10年」</h2>
+<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、「日本のAI経済ブループリント」を公開──生成AIで支える包摂的成長と新国家戦略</title>
+      <link>https://ledge.ai/articles/openai_japan_economic_blueprint_2025</link>
+      <description><![CDATA[<p>OpenAIは2025年10月22日、日本におけるAIの経済的・社会的潜在力を最大限に活かすための政策提言書「日本のAI：OpenAIの経済ブループリント」を<a href="https://openai.com/ja-JP/index/japan-economic-blueprint/">発表</a>した。日本がAI時代において経済成長と社会的包摂を両立するための具体的な国家戦略を示すものであり、教育、医療、行政、産業、エネルギーなど多岐にわたる分野での活用を提言している。</p>
+<p>同文書は、OpenAIの政策・パートナーシップ担当である大久保和也氏が序文を執筆。AIを電気やインターネットと並ぶ汎用技術（General Purpose Technology）と位置づけ、「AIは日本の生産性を高め、より包摂的で持続可能な社会を支える」と述べた。AIを日本の国家成長の中核に据えるための「生きた提案書」として策定されたという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_in_Japan_Open_AI_c85874e918/AI_in_Japan_Open_AI_c85874e918.jpg" alt="AI in Japan OpenAI.jpg" /></p>
+<h2>国家戦略の三本柱──包摂・インフラ・教育を軸に</h2>
+<p>ブループリントは、AIを経済と社会の成長エンジンに据えるための三本の柱を掲げる。</p>
+<h3>1. 包摂的な参加型社会基盤の構築</h3>
+<p>AIをすべての人に届け、誰もが開発と活用に参加できる社会へ。日本の柔軟な著作権制度を基盤に、国際ルール形成を主導する「日本モデル」を確立する方針を示した。</p>
+<h3>2. 戦略的インフラ投資</h3>
+<p>AIの中核を担う半導体・データセンター・再生可能エネルギーを一体的に整備し、「ワット（電力）」と「ビット（情報）」を連携させる。政府の「GX2040ビジョン」との連動を通じ、地方へのデータセンター誘致や再エネ電源開発を官民協働で推進する。</p>
+<h3>3. 教育・リスキリングによる人的資本投資</h3>
+<p>初等教育からAIリテラシーを育成し、生涯学習をAIで支援。ChatGPT Eduなどのツールを「思考のパートナー」として活用し、批判的思考や創造性を育む教育を全国に広げるとした。</p>
+<h2>経済効果の試算──AIが日本のGDPを最大140兆円押し上げ</h2>
+<p>同文書は、AIの経済的インパクトを複数の独立分析に基づいて示している。
+AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げる可能性がある（みずほリサーチ＆テクノロジーズ）。また、生成AIだけでも実質GDPを16.2%増加させ得る（大和総研）。さらに、AI利用企業の生産性は非利用企業より8.8%高い（経済産業研究所）とされ、OpenAIはこれらを「日本全体の生産性への投資効果」と位置づけている。</p>
+<h2>各分野での波及効果──製造・医療・教育・行政・科学・金融</h2>
+<p>ブループリントでは、AIがもたらす変革を6分野で具体的に示した。</p>
+<ul>
+<li><strong>製造業</strong> ：中小企業336万社を支えるAI需要予測・検査システムの導入事例を紹介。品質向上やコスト削減、熟練工の技能継承を支援するツールとしての効果を示した。</li>
+<li><strong>医療・介護</strong> ：AI画像診断や見守りセンサーによる人手不足解消や医療費削減効果を提示。骨粗鬆症の予防だけでも年間1.5兆円の介護費削減が可能と試算している。</li>
+<li><strong>教育</strong> ：AIチューターによる個別最適化学習の導入を推進し、AIを「批判的思考を磨くツール」として位置づけた。</li>
+<li><strong>行政</strong> ：さいたま市や福岡市、東京都のAI活用事例を挙げ、文書作成や住民対応の自動化に加え、地域文化振興への応用も紹介。</li>
+<li><strong>科学</strong> ：AIによる創薬支援が臨床開発時間を最大60%短縮し、治験成功率の向上にも寄与。</li>
+<li><strong>金融</strong> ：生成AIによるパーソナライズ投資提案やAML（マネーロンダリング防止）対策への応用を紹介。金融庁の「AIディスカッションペーパー」を“成長ガイド”と評価した。</li>
+</ul>
+<h2>AIインフラとエネルギー政策の一体化</h2>
+<p>AI経済を支える物理的基盤として、データセンター市場は2028年に5兆円規模へ拡大すると予測。経産省によると、AIと半導体工場の増設により2034年度までに電力需要が約5.8%増加すると見込まれている。</p>
+<p>OpenAIは、日本政府が掲げる「GX2040ビジョン」との連携を通じて、再生可能エネルギーが豊富な地域へのデータセンター誘致を提言。GX（グリーン成長）とDX（デジタル変革）を統合した「GX×DXモデル」が、持続的な経済発展の鍵になるとした。</p>
+<h2>AIをすべての人の豊かさにつなげる設計図</h2>
+<p>OpenAIはこのブループリントを「AIという変革の力を日本のすべての国民の豊かさに繋げるための設計図」と位置づけた。
+「AIによって日本は経済成長と人間中心社会の両立を実現できる。今こそ官民一体でこの“日本モデル”を世界に先駆けて示すときだ」と締めくくっている。</p>
+<p><a href="https://cdn.openai.com/global-affairs/f9d1cd88-506e-48f9-b34b-6ff63655434e/openai-japan-economic-blueprint-jp.pdf">「​​日本のAI：​​Open AIの経済ブループリント」全文</a></p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
+      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
+      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
+<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
+<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
+<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
+<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
+<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
+<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
     </item>
@@ -303,25 +507,6 @@ YouTube動画「りんなより、大切なお知らせ」では、本人の声�
       <pubDate>Mon, 27 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
-      <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
-      <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
-<h2>ブランド固有の生成AIを構築</h2>
-<p>「Adobe AI Foundry」は、同社の生成AIモデル群「Adobe Firefly」を拡張した新たなプラットフォームだ。
-企業が自社ブランドのビジュアルスタイルや言語トーンを反映した独自モデルを構築でき、生成したコンテンツは商用利用にも対応する。Adobe ExpressやCreative Cloudなど既存の制作ツール群とも統合され、クリエイティブ制作の一貫したワークフローを支援する。</p>
-<h2>データ保護と商用利用を両立</h2>
-<p>Adobeによれば、AI Foundryでは企業データやブランド資産を安全に扱うことを前提に設計されている。学習素材は各社の許諾のもと管理され、生成結果に関しても著作権・商用利用のリスクを最小限に抑えた設計がなされているという。
-料金体系は利用量ベースで、従来のサブスクリプション型（席ライセンス）からの転換を図る。なお、Foundryは本日時点で一部のエンタープライズ顧客に提供されている。</p>
-<h2>初期導入企業とユースケース</h2>
-<p>米TechCrunchやTechzineの報道によると、Home DepotやWalt Disney Imagineeringなどが初期導入企業として名を連ねる。ブランドイメージに一貫性を持たせた広告ビジュアルや販促素材の生成を中心に活用が進む見通しだ。
-Adobeはこのプラットフォームを「企業が自社のブランドDNAをAIに宿すためのFoundry（製造炉）」と位置づけている。</p>
-<h2>Adobeの生成AI戦略における新たな段階</h2>
-<p>Adobeはこれまで、画像生成モデル「Firefly」やビジネス支援AI「Sensei GenAI」などを展開してきた。AI Foundryはその集大成として、企業ごとの“ブランドAIモデル”構築を可能にするもので、生成AIの民主化を次のフェーズへ進める狙いがある。
-同社は今後、テキスト・画像・動画・3Dといったマルチモーダルな生成AIを企業規模で展開し、クリエイティブ制作からマーケティングまで一体化したソリューションを提供するとしている。</p>
-]]></description>
-      <pubDate>Mon, 27 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Quantum Meshとugo、製造現場データを守るエッジAI基盤を共同開発──液浸冷却DC「KAMUI」とロボット「ugo」を連携</title>
       <link>https://ledge.ai/articles/quantum_mesh_ugo_edge_ai_alliance_kamui</link>
       <description><![CDATA[<p>Quantum Mesh株式会社は2025年10月23日、業務DXロボットを開発するugo株式会社と業務提携し、ロボットとエッジサーバーを連携させたエッジコンピューティング基盤の構築に取り組むと<a href="https://quantummesh.jp/press/_55R9Dpo">発表</a>した。製造現場のデータを安全に保護しつつ、低遅延で高信頼なリアルタイム制御を実現する狙いがある。</p>
@@ -368,282 +553,18 @@ Googleはブログで「AIが生命科学の発見速度を飛躍的に高める
       <pubDate>Sun, 26 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
-      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
-      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
-<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
-<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
-<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
-<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
-<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
-<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
+      <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
+      <link>https://ledge.ai/articles/claude_for_excel_beta_release</link>
+      <description><![CDATA[<p>Anthropicは2025年10月28日（米国時間）、生成AI「Claude」をMicrosoft Excelに統合した新アドイン「Claude for Excel」をベータ版（Research Preview）として<a href="https://www.anthropic.com/news/advancing-claude-for-financial-servicesl">公開</a>した。
+Claudeがスプレッドシート内のデータや数式を理解し、自然言語による分析・説明・編集を行えるようにする。</p>
+<p>「<a href="https://www.claude.com/claude-for-excel">Claude for Excel</a>」はExcelのサイドバー上で動作し、ユーザーが自然言語で入力した指示に応じて、ワークシート全体を参照しながら回答する。数式の意味や依存関係を自動的に解析し、関連セルをハイライト表示することで、データの構造を可視化できる。例えば「この列の傾向を要約して」「この数式が何を計算しているか説明して」といった指示に対して、Claudeが表形式で結果を提示する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NcBnxbEC0Ng">YouTube</a></p>
+<p><strong>Excelのワークシートを解析し、セルレベルの参照付きで説明するClaudeの画面例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/How_teams_use_Claude_for_Excel_fa57735bf8/How_teams_use_Claude_for_Excel_fa57735bf8.jpg" alt="How teams use Claude for Excel.jpg" /></p>
+<p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
+<p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
 ]]></description>
-      <pubDate>Thu, 23 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
-      <link>https://ledge.ai/articles/25to26-announce</link>
-      <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も年末年始特集「'25to'26」を公開します。
-本日より先行サイトを公開し12月1日（月）の特集サイト公開までの間、お知らせを受け取ることができるようになる事前登録（無料）を受付開始いたしました。</p>
-<p>:::button
-<a href="https://25to26.ledge.ai/lp">事前告知サイトはこちら</a>
-:::</p>
-<p>2025年を締めくくるにふさわしい、AIの今とこれからを網羅した一大特集。研究者、ビジネスリーダー、エンジニアなど、あらゆる立場の方々に向けて、2026年のAIシーンを展望します。</p>
-<h2>Ledge.ai年末年始特集『'25to'26』とは</h2>
-<p>Ledge.ai年末年始特集は、2025年のAI関連ニュースや注目のキーワード、2026年以降の動向など、AIの初心者から専門家まで幅広く楽しめる特集サイトです。</p>
-<p>2025年は、生成AIが実用フェーズに突入し、業務プロセス・プロダクト・教育・クリエイティブなど、社会のあらゆる分野で“AI活用の当たり前化”が進んだ一年でした。
-そして2026年は、AIという概念そのものが提唱された「ダートマス会議」から70周年という、まさに歴史的な節目を迎えます。2025年の「当たり前化」を土台として、AIは社会インフラのように深く浸透し、その活用範囲の拡大と同時に、AGI（汎用人工知能）の実現可能性など、AIの“次なる進展”に向けた探求が本格化する一年となるのではないでしょうか。</p>
-<p>本特集では、そんな激動の2025年を多角的に振り返りつつ、2026年に向けた新たな潮流やビジネスチャンスを展望します。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_ac8b0aef2e/1_ac8b0aef2e.png" alt="1.png" /></p>
-<h2>コンテンツラインナップ紹介</h2>
-<h3>編集部による徹底解説</h3>
-<p>Ledge.ai編集部が、2025年のAIシーンを多角的に総括。
-1年間の主要ニュースをピックアップしながら、トレンド分析と俯瞰的な視点で、AI技術が社会・産業へどのように浸透したのかを読み解きます。
-さらに、技術動向の深掘り解説を通じて、進化の本質を明らかに。
-2026年に向けて押さえておくべき“AIの現在地”を、独自の視点で整理します。</p>
-<h3>独自インタビュー</h3>
-<p>本特集では、「AI 70th Pre-Anniversary」というテーマのもと、AI研究の歴史・現在・未来をつなぐキーパーソンたちにインタビューを実施。
-過去／現在／未来のそれぞれの視点から、AIがどのように発展し、次の時代にどんな可能性を秘めているのかを語ってもらいます。
-世代と分野を超えて交わる知見が、AIの軌跡と未来へのヒントを照らし出します。</p>
-<h3>トップランナー企業動向</h3>
-<p>国内外の注目企業をピックアップし、AI周辺で押さえておきたい企業の最新動向を徹底分析。
-生成AI、AIエージェント、クラウドAIなど、世界最先端の情報と実践事例に触れることで、読者が“次に取るべき一手”を見極められる構成になっています。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_6180f8a0c5/2_6180f8a0c5.png" alt="2.png" /></p>
-<h2>開催概要</h2>
-<p>イベント名：Ledge.ai年末年始特集「'25to'26」
-開催期間：2025年12月1日(月) - 2026年1月9日(金)
-形式：オンライン
-参加費：無料（※一部のコンテンツ閲覧にはプロフィール登録が必要となります。）
-お問合せ：contact@ledge.co.jp
-URL：<a href="https://25to26.ledge.ai/lp">https://25to26.ledge.ai/lp</a></p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon、配達ドライバー向けAIスマートグラスを発表──荷物スキャンから配達証明までハンズフリーで</title>
-      <link>https://ledge.ai/articles/amazon_ai_smart_glasses_for_delivery_drivers</link>
-      <description><![CDATA[<p>Amazonは2025年10月22日（現地時間）、配達ドライバーが安全かつ効率的に業務を行えるよう支援するAI搭載スマートグラス<a href="https://www.aboutamazon.com/news/transportation/smart-glasses-amazon-delivery-drivers">発表</a>した。荷物のスキャンからルート案内、配達証明の撮影までをハンズフリーで行える新デバイスで、同社の物流ネットワークにおける最新のイノベーションとして位置づけられている。</p>
-<p>このスマートグラスは、ドライバーがスマートフォンを操作することなく、視界内で作業情報を確認し、音声操作で指示を実行できるよう設計されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amazon_ai_smart_glass_fb85f5e064/amazon_ai_smart_glass_fb85f5e064.jpg" alt="amazon ai smart glass.jpg" /></p>
-<p>AIアシスタント機能を備え、目的地までのルート案内、荷物バーコードのスキャン、配達証明の撮影など、一連の業務を統合的にサポートする。安全面にも配慮し、運転中は自動的に無効化される設計を採用。ドライバーが「前方から目を離さずに」作業できる環境を整えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_c8592cf9a3/_c8592cf9a3.gif" alt="ダウンロード.gif" /></p>
-<p>このスマートグラスは現場ドライバー（Delivery Associates, DAs）のフィードバックを基に開発されており、コントロールベストや交換式バッテリー、緊急ボタンなど、配送現場のニーズを反映した構造となっている。度付きレンズや調光レンズにも対応しており、長時間の着用や屋外での使用にも配慮がなされている。</p>
-<p>現在、北米地域の数百名のドライバーが試験運用を実施中で、ユーザーフィードバックを踏まえた改良が進められている。今後は配送サービスパートナー（Delivery Service Partners, DSPs）を含む広範な導入を予定しているが、商用展開の時期などは明らかにされていない。</p>
-<p>Amazonは本取り組みを、倉庫内ロボットやAI物流最適化技術と並ぶ「次世代配送体験」の一環と位置づけており、配達の安全性と作業効率の両立を目指すとしている。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、AIに“造語”を教えて振る舞いを制御──Geminiが自ら意味を説明する能力も確認</title>
-      <link>https://ledge.ai/articles/deepmind_neologism_learning_for_ai_controllability</link>
-      <description><![CDATA[<p>Google DeepMindの研究チームは2025年10月9日、AIに新しい架空の言葉（造語）を学習させることで、その振る舞いを精密に制御できる手法を<a href="https://arxiv.org/abs/2510.08506">発表</a>した。論文「Neologism Learning for Controllability and Self-Verbalization」は、AIが学習した造語の意味を自然言語で説明できる“自己言語化（self-verbalization）”という現象も初めて報告している。</p>
-<p>この研究はarXiv上で公開されたプレプリント（査読前論文）で、AIの内部表現を「言葉」で理解・制御する新しいアプローチとして注目を集めている。</p>
-<h2>造語でAIをコントロール</h2>
-<p>従来、AIの出力傾向を操作するには、プロンプト設計や外部ツール（例：steering vector、autoencoderなど）による内部操作が必要だった。今回の手法では、モデル本体のパラメータを一切変更せず、造語に対応する新しい単語埋め込み（embedding）だけを学習する。</p>
-<p>たとえば「Give me a lack answer.」と指示すると、AIは短い回答を返すようになり、別の造語では「誤った回答」「お世辞」「拒否」など異なる挙動を誘発できる。</p>
-<p>研究チームはこの方法を「ネオロジズム学習（Neologism Learning）」と呼び、言語による“行動パラメータ”の追加と位置づけている。</p>
-<p><strong>ネオロジズム学習のプロセス。左から「造語による概念の学習」「AIによる自己言語化（Verbalization）」「説明文を使った再検証（Plug-In Evaluation）」の流れを示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_2e7a14d15f/x1_2e7a14d15f.png" alt="x1.png" /></p>
-<h2>AIが自ら意味を説明</h2>
-<p>研究チームは、AIが学習した造語の意味を英語で説明できることを確認した。
-たとえば、短文回答を誘発する造語を学習したモデルに「What does lack mean?（lackとは何を意味しますか？）」と尋ねると、
-「It means to give a shorter response.（短い回答をすることを意味します）」と答える。</p>
-<p>このようにAI自身が学習した内部概念を自然言語で記述する能力を、研究チームは“self-verbalization（自己言語化）”と定義。
-さらに、造語をその説明文に置き換えても同様の挙動が再現されるかを検証する「plug-in evaluation」を導入し、自己説明の信頼性を評価した。</p>
-<h2>モデル間で“機械語”が通じる</h2>
-<p>DeepMindの実験では、Gemma-3-4B-ITが学んだ造語を別のモデル――Gemini 2.5 Flash――に入力したところ、意味が通じ、ほぼ同じ制御効果を示した。
-たとえば“lack”という語を用いた場合、Gemmaでは回答の平均文数が42.9から15.8に減少し、Geminiでも中央値が37から4に減少した。</p>
-<p>研究チームはこの現象を「machine-only synonym（機械専用類義語）」と呼び、
-人間には直感的に理解できないが、AI同士では通じ合う“共通語彙”が形成される可能性を指摘している。</p>
-<h2>複合的な概念も制御可能</h2>
-<p>ネオロジズム学習は、単純な行動特性だけでなく、複数の概念を組み合わせた複合的制御にも対応する。
-たとえば「短く・数値を含む・高確率」といった3つの条件を、それぞれに対応する造語を同時に指定することで達成できるという。</p>
-<p>研究では、「短文」「誤答」「お世辞」「拒否」など7種類の単純概念や、言語的特徴を扱うベンチマークAxBenchにおいても、高い制御性能が確認された。</p>
-<h2>AIの「内なる言葉」への道</h2>
-<p>著者のひとりであるジョン・ヒューイット（John Hewitt）氏は、
-「私たちは既存の語彙だけではAIの内部概念を十分に理解できない」と述べ、造語学習をその橋渡しと位置づけている。</p>
-<p>研究は、AIの制御可能性（controllability）と説明可能性（explainability）を同時に高める新しい方向性を示すものであり、
-将来的にはAI間通信や人間との協調学習に応用できる可能性があるとみられる。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、量子チップ「Willow」で“検証可能な量子優位”を実証──Nature掲載論文でスーパーコンピューターを13,000倍上回る性能</title>
-      <link>https://ledge.ai/articles/google_quantum_willow_verifiable_advantage_nature2025</link>
-      <description><![CDATA[<p>Googleは2025年10月22日、科学誌『Nature』において、同社の量子コンピューター用チップ「Willow（ウィロー）」が、既存のスーパーコンピューターを13,000倍上回る速度で演算を実行し、「検証可能な量子優位（verifiable quantum advantage）」を達成したと<a href="https://research.google/blog/a-verifiable-quantum-advantage/">発表</a>した。</p>
-<p>論文「<a href="https://www.nature.com/articles/s41586-025-09526-6">Observation of constructive interference at the edge of quantum ergodicity</a>」によると、Willowチップは105個の超伝導キュービットを備え、量子情報の拡散を解析する手法「アウト・オブ・タイム・オーダー相関（OTOC）」を用いて実験を実施した。結果、古典スーパーコンピューターでは約32年を要する計算を、わずか2時間で完了したという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=mEBCQidaNTQ">YouTube</a></p>
-<p>A Verifiable Quantum Advantage：研究チームがWillowチップ、量子エコーアルゴリズム、NMR分光法応用などを解説</p>
-<h2>Quantum Echoes──量子エコー・アルゴリズムの仕組み</h2>
-<p>Googleの研究チームは、量子システム内部の相互作用を可視化する新しいアルゴリズム「Quantum Echoes（量子エコー）」を開発した。この手法は、量子回路を順方向と逆方向の両方で実行し、干渉パターンを比較することで誤差を自己検証できる。</p>
-<p>この仕組みにより、量子システムの「見えない構造」をエコー信号として観測可能にする点が特徴で、これまでノイズに埋もれていた量子状態の動的相関を明確に測定できるようになった。</p>
-<h2>量子干渉と「Constructive Interference」──新しい優位性の原理</h2>
-<p>論文では、量子系内部のパウリ演算子の干渉（constructive interference）が、OTOCの高次成分（OTOC(2)など）において初めて実験的に観測されたことを報告。これにより、量子干渉の複雑性が古典シミュレーションでは再現不能であることが確認された。</p>
-<p>実際、Googleの試算では、今回の65キュービット実験を古典スーパーコンピューター「Frontier」でシミュレートするには約3.2年を要し、Willowチップの実行時間（2.1時間）と比べて13,000倍以上の差がある。これにより、「Beyond classical（古典を超えた）」領域に踏み入ったと位置づけている。</p>
-<p><strong>Quantum Echoesアルゴリズムは、世界最速のスーパーコンピューターを13,000倍上回る速度で計算を実行</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/13000times_faster_3aa42ccb1d/13000times_faster_3aa42ccb1d.jpg" alt="13000times faster.jpg" /></p>
-<h2>実世界応用への一歩──分子構造解析とHamiltonian Learning</h2>
-<p>Google Quantum AIは、Quantum Echoesの応用として、ハミルトニアン学習（Hamiltonian learning）を実証した。
-これは量子システムの測定データ（OTOC）を実際の物理系と照合し、未知のパラメータを最適化して学習する手法である。</p>
-<p>研究チームは、UCバークレーと連携し、Willowチップ上で2種類の分子構造を予測し、NMR分光法でその正確性を確認した。論文では、この方法が分子シミュレーション、薬剤設計、エネルギー材料開発などへの応用に発展する可能性が示唆されている。</p>
-<p><strong>量子研究施設を視察するGoogle CEOのサンダー・ピチャイ氏「科学そのものを行う力が量子計算に宿り始めている」と述べた</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb/Quantum_Sundar_Inline_width_1000_format_webp_5a6124c1fb.webp" alt="QuantumSundar_Inline.width-1000.format-webp.webp" /></p>
-<p>Google Quantum AIのディレクターであるHartmut Neven氏は、「量子コンピューターが理論段階を超え、実際の科学的課題を解くためのツールになりつつある」とコメント。共同リーダーのJulian Kelly氏も「Quantum Echoesを通じて、結果を検証可能な形で量子優位を確認できたのは初めて」と述べた。</p>
-<p><strong>Google Quantum AIが開発した次世代量子チップ「Willow」。105個の超伝導キュービットを搭載し、誤差率0.15％の高精度ゲート制御を実現した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b/Willow_Chip_4k_Render_02_width_1000_format_webp_2ad189fa0b.webp" alt="WillowChip_4k_Render_02.width-1000.format-webp.webp" /></p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
-      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
-<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供するという。発表が行われたライブ配信では、AIがWebの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザの概念を刷新する設計思想が語られた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
-<h2>ChatGPTが心臓部にあるブラウザ</h2>
-<p>ライブ配信で同社は、Atlasの開発が「ブラウザとチャットできたらどうなるか？」という問いから始まったと説明。
-従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
-<h2>コア機能：3つの柱</h2>
-<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
-<ol>
-<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
-<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
-<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
-</ol>
-<h2>その他の主要機能</h2>
-<ul>
-<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
-<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
-<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
-</ul>
-<h2>安全性と提供状況</h2>
-<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
-<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
-<h2>AIとWebを再定義する「次の10年」</h2>
-<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「日本のAI経済ブループリント」を公開──生成AIで支える包摂的成長と新国家戦略</title>
-      <link>https://ledge.ai/articles/openai_japan_economic_blueprint_2025</link>
-      <description><![CDATA[<p>OpenAIは2025年10月22日、日本におけるAIの経済的・社会的潜在力を最大限に活かすための政策提言書「日本のAI：OpenAIの経済ブループリント」を<a href="https://openai.com/ja-JP/index/japan-economic-blueprint/">発表</a>した。日本がAI時代において経済成長と社会的包摂を両立するための具体的な国家戦略を示すものであり、教育、医療、行政、産業、エネルギーなど多岐にわたる分野での活用を提言している。</p>
-<p>同文書は、OpenAIの政策・パートナーシップ担当である大久保和也氏が序文を執筆。AIを電気やインターネットと並ぶ汎用技術（General Purpose Technology）と位置づけ、「AIは日本の生産性を高め、より包摂的で持続可能な社会を支える」と述べた。AIを日本の国家成長の中核に据えるための「生きた提案書」として策定されたという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_in_Japan_Open_AI_c85874e918/AI_in_Japan_Open_AI_c85874e918.jpg" alt="AI in Japan OpenAI.jpg" /></p>
-<h2>国家戦略の三本柱──包摂・インフラ・教育を軸に</h2>
-<p>ブループリントは、AIを経済と社会の成長エンジンに据えるための三本の柱を掲げる。</p>
-<h3>1. 包摂的な参加型社会基盤の構築</h3>
-<p>AIをすべての人に届け、誰もが開発と活用に参加できる社会へ。日本の柔軟な著作権制度を基盤に、国際ルール形成を主導する「日本モデル」を確立する方針を示した。</p>
-<h3>2. 戦略的インフラ投資</h3>
-<p>AIの中核を担う半導体・データセンター・再生可能エネルギーを一体的に整備し、「ワット（電力）」と「ビット（情報）」を連携させる。政府の「GX2040ビジョン」との連動を通じ、地方へのデータセンター誘致や再エネ電源開発を官民協働で推進する。</p>
-<h3>3. 教育・リスキリングによる人的資本投資</h3>
-<p>初等教育からAIリテラシーを育成し、生涯学習をAIで支援。ChatGPT Eduなどのツールを「思考のパートナー」として活用し、批判的思考や創造性を育む教育を全国に広げるとした。</p>
-<h2>経済効果の試算──AIが日本のGDPを最大140兆円押し上げ</h2>
-<p>同文書は、AIの経済的インパクトを複数の独立分析に基づいて示している。
-AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げる可能性がある（みずほリサーチ＆テクノロジーズ）。また、生成AIだけでも実質GDPを16.2%増加させ得る（大和総研）。さらに、AI利用企業の生産性は非利用企業より8.8%高い（経済産業研究所）とされ、OpenAIはこれらを「日本全体の生産性への投資効果」と位置づけている。</p>
-<h2>各分野での波及効果──製造・医療・教育・行政・科学・金融</h2>
-<p>ブループリントでは、AIがもたらす変革を6分野で具体的に示した。</p>
-<ul>
-<li><strong>製造業</strong> ：中小企業336万社を支えるAI需要予測・検査システムの導入事例を紹介。品質向上やコスト削減、熟練工の技能継承を支援するツールとしての効果を示した。</li>
-<li><strong>医療・介護</strong> ：AI画像診断や見守りセンサーによる人手不足解消や医療費削減効果を提示。骨粗鬆症の予防だけでも年間1.5兆円の介護費削減が可能と試算している。</li>
-<li><strong>教育</strong> ：AIチューターによる個別最適化学習の導入を推進し、AIを「批判的思考を磨くツール」として位置づけた。</li>
-<li><strong>行政</strong> ：さいたま市や福岡市、東京都のAI活用事例を挙げ、文書作成や住民対応の自動化に加え、地域文化振興への応用も紹介。</li>
-<li><strong>科学</strong> ：AIによる創薬支援が臨床開発時間を最大60%短縮し、治験成功率の向上にも寄与。</li>
-<li><strong>金融</strong> ：生成AIによるパーソナライズ投資提案やAML（マネーロンダリング防止）対策への応用を紹介。金融庁の「AIディスカッションペーパー」を“成長ガイド”と評価した。</li>
-</ul>
-<h2>AIインフラとエネルギー政策の一体化</h2>
-<p>AI経済を支える物理的基盤として、データセンター市場は2028年に5兆円規模へ拡大すると予測。経産省によると、AIと半導体工場の増設により2034年度までに電力需要が約5.8%増加すると見込まれている。</p>
-<p>OpenAIは、日本政府が掲げる「GX2040ビジョン」との連携を通じて、再生可能エネルギーが豊富な地域へのデータセンター誘致を提言。GX（グリーン成長）とDX（デジタル変革）を統合した「GX×DXモデル」が、持続的な経済発展の鍵になるとした。</p>
-<h2>AIをすべての人の豊かさにつなげる設計図</h2>
-<p>OpenAIはこのブループリントを「AIという変革の力を日本のすべての国民の豊かさに繋げるための設計図」と位置づけた。
-「AIによって日本は経済成長と人間中心社会の両立を実現できる。今こそ官民一体でこの“日本モデル”を世界に先駆けて示すときだ」と締めくくっている。</p>
-<p><a href="https://cdn.openai.com/global-affairs/f9d1cd88-506e-48f9-b34b-6ff63655434e/openai-japan-economic-blueprint-jp.pdf">「​​日本のAI：​​Open AIの経済ブループリント」全文</a></p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
-      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
-      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
-<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
-<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
-<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
-<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
-<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
-<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界初のAI女優「ティリー・ノーウッド」にハリウッドが揺れる──SAG-AFTRAや著名俳優が「創造性の危機」と警告</title>
-      <link>https://ledge.ai/articles/tilly_norwood_ai_actress_controversy_sagaftra</link>
-      <description><![CDATA[<p>世界初の「AI女優」と称される Tilly Norwood（ティリー・ノーウッド）が、ハリウッドの俳優や映画俳優組合SAG-AFTRA（全米映画俳優組合・テレビ・ラジオ芸術家連盟）から強い批判を受けている。</p>
-<p>SAG-AFTRAは2025年9月30日に「創造性は人間中心であるべき」と声明を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>した。女優のエミリー・ブラント氏やウーピー・ゴールドバーグ氏も相次いで懸念を表明し、映画・テレビ業界全体に議論が広がっている。</p>
-<h2>「AI Commissioner」──ティリー誕生の舞台</h2>
-<p>Tilly Norwoodは、ロンドン拠点の制作会社Particle6が2025年9月にYouTube上で公開したコメディスケッチ『AI Commissioner | Comedy Sketch | Particle6』で初登場した。</p>
-<p>この作品は、テレビ業界におけるAIの急速な普及を風刺的に描いたもので、AIが脚本作成からキャスティング、予算編成まですべてを自動化する世界を描く。劇中では、AIが生み出したインタラクティブスリラー『I Know What You Streamed Last Summer』に登場する100％AI生成の俳優としてTillyが紹介される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=3sVO_j4czYs">YouTube</a></p>
-<p>登場人物の1人はTillyについて「僕の言うことを何でも聞いてくれる。恋をしてしまったかもしれない（She’ll do anything I say. I think I’m in love）」と評し、AIによる従順で“最適化された”俳優像を象徴的に表現。
-さらに、「“She’ll cry on Graham Norton and be monetized on TikTok by lunchtime.”（彼女はグレアム・ノートンの番組で泣いて、その日の昼までにTikTokで収益化されるだろう）」という台詞が、人間の感情までもがAIによって即座に商業化される未来への皮肉として話題を呼んだ。</p>
-<h2>SAG-AFTRAが声明「Tillyは俳優ではない」</h2>
-<p>SAG-AFTRAは9月30日に「Statement on Synthetic Performer（合成パフォーマーに関する声明）」を<a href="https://www.sagaftra.org/sag-aftra-statement-synthetic-performer">発表</a>し、次のように明言した。</p>
-<p>\u003E“Tilly Norwood is not an actor. Creativity must remain human-centered.”
-（ティリー・ノーウッドは俳優ではない。創造性は人間中心であるべきだ。）</p>
-<p>声明では、AIによって作られた “合成俳優” が芸術表現を侵食する可能性を指摘し、「経験や感情を持たない存在を“俳優”と呼ぶことは、芸術の根幹を損なう」と警鐘を鳴らした。SAG-AFTRA会長のショーン・アスティン氏もVarietyの取材に対し、「AI倫理と補償問題を正式な交渉テーマとして扱う」と述べている。</p>
-<h2>著名俳優からの反発</h2>
-<p>女優のエミリー・ブラント氏は、Varietyのポッドキャスト番組でTillyの画像を見せられ、驚きを隠さずこう語った。</p>
-<p>\u003E“Good Lord, we’re screwed. That is really, really scary. Come on, agencies, don’t do that. Please stop taking away our human connection.”
-「なんてこと、私たちは終わりね。本当に恐ろしいわ。お願い、エージェントはそんなことをやめて。人間のつながりを奪わないで。」</p>
-<p>また、取材でTillyを「次のスカーレット・ヨハンソンに」と問われると、「“But we have Scarlett Johansson.”（でも私たちにはスカーレット・ヨハンソンがいる」 と返し、人間俳優の価値を強調した。</p>
-<p>俳優・司会者のウーピー・ゴールドバーグ氏も、ABCのトーク番組『The View』（9月30日放送）で次のように発言した。</p>
-<p>\u003E“You’re looking at 5,000 actors rolled into one synthetic person. That’s not fair. We all move differently.”
-「5,000人の俳優の特性をひとつの合成存在にまとめるなんてフェアじゃない。私たちは皆、動きも表情も違う。」</p>
-<h2>開発側の見解：「人間の代替ではなく、芸術表現」</h2>
-<p>Tillyを制作したエライン・ファン・デル・フェルデン氏（Eline Van der Velden）は9月28日、ティリーのInstagram（<a href="https://www.instagram.com/tillynorwood/">@tillynorwood</a>）に投稿し、AI俳優の創作意図について次のように述べている。</p>
-<p>\u003E “She is not a replacement for a human being, but a creative work — a piece of art.”
-「ティリーは人間の代替ではなく、創造的な作品＝ひとつのアートです。」</p>
-<p>同氏は、AIを「人間の代わり」ではなく「新しい絵筆のようなツール」と位置づけ、「アニメーションや人形劇、CGIがライブ演技を奪うことなく新しい可能性を開いたように、AIも物語を構築する新たな手段を提供する」と説明した。</p>
-<p>\u003E “I’m an actor myself, and nothing — certainly not an AI character — can take away the craft or joy of human performance.”
-「私は俳優でもあり、AIキャラクターであっても、人間の演技の技や喜びを奪うことはできません。」</p>
-<p>投稿ではさらに、AIを“人間と競わせる存在”ではなく“芸術の新しいジャンルの一部”として評価すべきだと訴えている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/instagram_eline_at_tillynorwood_b80dee2451/instagram_eline_at_tillynorwood_b80dee2451.jpg" alt="instagram eline at tillynorwood.jpg" /></p>
-<p>同氏が率いるParticle6は「AI俳優を活用すれば制作コストを最大90％削減できる」と説明し、複数のAIタレントを育てる「デジタル・タレント・ユニバース」構想を掲げている。</p>
-<h2>今後の焦点</h2>
-<p>各報道や関係者の声明からは、主に次の3点が論点として浮上している。</p>
-<ul>
-<li>著作権と肖像権：AI俳優の訓練データやモデル構築に使用された素材の扱い</li>
-<li>契約・補償問題：AI使用を前提とした俳優契約の新たな枠組み</li>
-<li>文化的受容：AIが「演技」を行うことを人々がどう受け入れるか</li>
-</ul>
-<p>SAG-AFTRAをはじめとする業界団体や俳優たちは、AIが創作活動や雇用に及ぼす影響を注視しており、今後は法制度や契約の整備を含めた議論が進む見通しだ。</p>
-]]></description>
-      <pubDate>Wed, 22 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sat, 25 Oct 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
