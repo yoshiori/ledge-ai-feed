@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
+      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
+      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
+<h2>AI教育の中核を担う新サイト</h2>
+<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
+<h2>3000超のコースと実践的ラボを集約</h2>
+<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
+<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
+<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
+公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
+同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
+]]></description>
+      <pubDate>Sat, 01 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、アジア初の東京オフィスを開設──高市首相とアモデイCEOが会談、AIセーフティ・インスティテュートと協力覚書を締結</title>
       <link>https://ledge.ai/articles/anthropic_tokyo_office_aisi_moc_oct2025</link>
       <description><![CDATA[<p>米Anthropicは2025年10月29日（現地時間）、アジア太平洋地域で初となる東京オフィスを開設したと<a href="https://www.anthropic.com/news/opening-our-tokyo-office">発表</a>した。</p>
@@ -551,17 +568,6 @@ YouTube動画「りんなより、大切なお知らせ」では、本人の声�
 ファンの間では「りんながまた帰ってくる日を待ちたい」「AIと共に過ごした10年が宝物」といった声が多く寄せられている。</p>
 ]]></description>
       <pubDate>Mon, 27 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quantum Meshとugo、製造現場データを守るエッジAI基盤を共同開発──液浸冷却DC「KAMUI」とロボット「ugo」を連携</title>
-      <link>https://ledge.ai/articles/quantum_mesh_ugo_edge_ai_alliance_kamui</link>
-      <description><![CDATA[<p>Quantum Mesh株式会社は2025年10月23日、業務DXロボットを開発するugo株式会社と業務提携し、ロボットとエッジサーバーを連携させたエッジコンピューティング基盤の構築に取り組むと<a href="https://quantummesh.jp/press/_55R9Dpo">発表</a>した。製造現場のデータを安全に保護しつつ、低遅延で高信頼なリアルタイム制御を実現する狙いがある。</p>
-<p>提携では、Quantum Meshが提供する液浸冷却システム「KAMUI（カムイ）」を用いた分散型エッジデータセンターと、ugoの業務DXロボットがネットワークを介して連携する。ロボットが生成・収集する操作ログやセンサー情報、模倣学習データをクラウドに送信することなくエッジで即時処理することで、データ処理を現場設備内で完結させ、情報漏洩リスクの大幅な低減を図る。</p>
-<p>両社は年内をめどに製造現場での実証実験に着手し、ロボットとエッジAIの最適な連携モデルを検証する。2026年内のサービス化を予定し、安全で効率的なスマートファクトリーの全国展開を目指すという。</p>
-<p>ugoが提唱する「Physical AI」は、人間の動作データやセンサー情報をAIが模倣・強化学習することで、ロボットが現場の作業手順を習得するコンセプトだ。これを支える「AIロボット向け模倣学習キット」には、双腕ロボットugo Proを遠隔操作するための専用コントローラや、動作データを収集・学習するソフトウェアツールが含まれる。熟練作業者のノウハウをAIに移植することで、専門的なプログラミングスキルがなくても現場担当者が新しい動作を教え込める仕組みを整えている。</p>
-<p>「ugo」は、遠隔操作とAIによる自動制御を融合したハイブリッド型の業務DXロボットで、警備・点検・案内など多様な現場で導入が進む。Quantum Meshは可搬型データセンターを開発・運用し、安全な情報処理と高度な演算を両立するエッジインフラを提供している。両社の技術を組み合わせることで、「現場で動くロボット」と「現場で処理するAI」を結ぶ新たな産業モデルの確立を目指す。</p>
-]]></description>
-      <pubDate>Mon, 27 Oct 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
