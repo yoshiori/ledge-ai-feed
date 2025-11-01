@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、2028年に「完全自動AI研究者」実現を目指すロードマップを公開</title>
+      <link>https://ledge.ai/articles/openai_future_roadmap_fully_automated_ai_researcher_2028</link>
+      <description><![CDATA[<p>OpenAIは2025年10月30日（米国時間）、同社の構造改革と今後の展望をテーマにしたライブ配信「Sam, Jakub, and Wojciech on the future of OpenAI with audience Q&amp;A」を実施し、研究・製品・インフラの中長期計画を<a href="https://www.youtube.com/watch?v=ngDCxlZcecw">公表</a>した。
+登壇は、CEOのサム・アルトマン氏（Sam Altman）、チーフサイエンティストのヤクブ・パホツキ氏（Jakub Pachocki）、共同創業者のウォイチェフ・ザレンバ氏（Wojciech Zaremba）の3名。</p>
+<p>配信では、OpenAIが掲げる中長期の研究ロードマップが初めて詳細に共有され、2028年3月までに「完全自動AI研究者（fully automated AI researcher）」を実現するという社内目標が明らかにされた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/we_did_a_livestream_ce2df3ba24/we_did_a_livestream_ce2df3ba24.jpg" alt="we did a livestream.jpg" /></p>
+<h2>研究ロードマップ：2026年に“AI研究インターン”、2028年に“完全自動研究者”へ</h2>
+<p>パホツキ氏は、OpenAIの研究プログラムが「科学的発見の加速と新技術開発の促進」を目的に構築されていると説明し、次の二段階のマイルストーンを示した。</p>
+<ul>
+<li><strong>2026年9月まで</strong> ： 意味のある計算資源を活用し、研究者の生産性を大幅に高められる有能なAI研究インターン（AI research intern）を開発。</li>
+<li><strong>2028年3月まで</strong> ： 大規模な研究プロジェクトを自律的に遂行できる完全自動AI研究者（fully automated AI researcher）を実現。</li>
+</ul>
+<p>パホツキ氏は「これらの日付は絶対ではない」と前置きしながらも、現時点での社内目標を共有。「科学の発見速度を劇的に高める可能性がある」と語った。</p>
+<p>アルトマン氏は、「この取り組みこそがOpenAIの研究プログラムの核心（core thrust）だ」と述べ、GPT-4のリリース（2023年）から約5年後に当たる2028年を重要な節目と位置づけた。同氏はさらに、AIによる科学的発見の進展について「2026年には小さな発見が現れ、2028年には中規模あるいはそれ以上の発見が生まれるだろう」と言及した。</p>
+<h2>スーパーインテリジェンスへの接近</h2>
+<p>パホツキ氏は、OpenAIが「ディープラーニングを理解する研究所」であり、トレーニング規模を拡大することで何が起こるかを探ることが本質的だと説明した。そのうえで、ディープラーニングシステムが多くの領域で人間を超える“スーパーインテリジェンス”に到達するまで10年を切っている可能性があるとの見方を示した。</p>
+<p>指標のひとつとして、モデルが人間と同等の成果を上げるまでに要する時間を挙げ、現在のモデルは国際情報オリンピックなどでトップ人類と肩を並べる水準に達していると説明。今後はアルゴリズム革新とスケーリングによって、その「時間的水平線」が急速に拡大すると予測した。</p>
+<h2>OpenAIのミッションと戦略的柱</h2>
+<p>アルトマン氏は、OpenAIのミッションは非営利法人と公益法人（PBC）の双方において「AGI（汎用人工知能）が全人類に利益をもたらすことを保証する」ことであると改めて表明した。かつてAGIは「神託のような存在」と見なされていたが、現在は「人々が未来を創造するためのツールを構築し、AIで力を与えること」が明確な方向性だと説明した。</p>
+<p>OpenAIの戦略は、次の三つの柱で構成されている。</p>
+<ol>
+<li><strong>研究（Research）</strong> ： AGI構築に必要な研究の成功。</li>
+<li><strong>プロダクト（Product）</strong> ： 誰もが簡単かつ強力にAIを使えるようにする。</li>
+<li><strong>インフラストラクチャ（Infrastructure）</strong> ： 低コストで高性能なAIを提供できる基盤の整備。</li>
+</ol>
+<p>アルトマン氏は「AIが科学の発見を支援することで、社会全体がより良くなり、個人の創造性も飛躍的に向上するだろう」と述べた。</p>
+<p>パホツキ氏は、強力なシステム開発に向けた準備の中で安全性と価値観の整合性（value alignment）を最重視しているとし、「AIが根本的に何を気にかけるのかを理解することが、スーパーインテリジェンス時代の長期的安全性の核心だ」と語った。</p>
+<p>ザレンバ氏も加わり、質疑応答では研究の方向性や安全性、社会的インパクトに関する質問に答えながら、OpenAIが今後も透明性をもって議論を続けていく姿勢を示した。</p>
+]]></description>
+      <pubDate>Fri, 31 Oct 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、約1万4千人の従業員削減を発表──AI時代に合わせた「俊敏な組織」へ再構築</title>
       <link>https://ledge.ai/articles/amazon_layoffs_14000_ai_organization_restructure_oct2025</link>
       <description><![CDATA[<p>米Amazonは2025年10月28日（現地時間）、企業全体の効率化と俊敏性の向上を目的として、約1万4,000人の従業員を削減すると<a href="https://www.aboutamazon.com/news/company-news/amazon-workforce-reduction">発表</a>した。
@@ -527,30 +559,6 @@ YouTube動画「りんなより、大切なお知らせ」では、本人の声�
 <p>@<a href="https://www.youtube.com/watch?v=ITXJquX9FqM&amp;t=3s">YouTube</a></p>
 ]]></description>
       <pubDate>Sun, 26 Oct 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Googleとイェール大学、単一細胞を対話的に解析できるAI「C2S-Scale 27B」を公開──Gemmaベースの270億パラメータモデルががん免疫治療研究を加速</title>
-      <link>https://ledge.ai/articles/google_yale_c2s_scale_27b_interactive_single_cell_ai</link>
-      <description><![CDATA[<p>Google Researchとイェール大学の研究チームは2025年10月11日、単一細胞レベルの遺伝子発現データを対話的に解析できるAIモデル「Cell2Sentence-Scale 27B（C2S-Scale 27B）」を<a href="https://www.biorxiv.org/content/10.1101/2025.04.14.648850v2">公開</a>した。</p>
-<p>Googleの大規模言語モデル「Gemma」を基盤に開発された270億パラメータのモデルで、研究者が自然言語を使って細胞の挙動を理解・予測できる。Googleは15日に<a href="https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/">公式ブログ</a>でこの発表を行い、「がん免疫治療における新たな発見につながった」としている。</p>
-<h2>「Cell2Sentence」手法を拡張、細胞を自然言語で理解</h2>
-<p>C2S-Scale 27Bは、細胞の遺伝子発現データをテキストのように扱い、AIとやりとりする形で解析できるのが特徴だ。従来の単一細胞解析（Single-Cell RNA-seq）は、大量の数値データを統計的に処理する必要があったが、このモデルでは「細胞タイプの分類」や「刺激条件による変化の予測」などを自然言語で指示・応答できる。</p>
-<p>研究者は自然言語で指示・応答しながら解析を行い、AIが出力する説明や予測結果をもとに仮説を立てることができる。</p>
-<p><strong>C2Sモデルのタスク構成</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c2s_overview_figure_2d821f3db7/c2s_overview_figure_2d821f3db7.png" alt="c2s_overview_figure.png" /></p>
-<h2>がん免疫治療での成果</h2>
-<p>Googleによると、すでにこの技術はがん免疫治療の研究に応用されているという。
-C2S-Scale 27Bを使った仮想スクリーニング（in silico実験）では、免疫経路を制御する薬剤候補を探索し、「キナーゼ阻害剤Silmitasertib（CX-4945）」が新たな作用を持つ可能性を予測した。</p>
-<p>AIは、低レベルのインターフェロン環境下でこの薬剤がMHCクラスI分子の発現を増強することを示唆。この結果は後に実験で確認され、AIによる創薬支援の文脈依存の新規作用を予測し、実験で検証した具体例となった。</p>
-<h2>Gemmaが支える生命科学の新しいアプローチ</h2>
-<p>C2S-Scale 27Bは、Googleが2024年に公開した小型LLM「Gemma」を基盤としており、オープンな研究環境でも利用可能な設計が特徴だ。今回のプロジェクトは、AIが科学研究の仮説生成やデータ解釈を支援する例として、Gemmaシリーズの研究応用拡大を象徴するものといえる。
-Googleはブログで「AIが生命科学の発見速度を飛躍的に高める」と述べており、今後はエピゲノムやタンパク質構造解析など、より多様な分野への展開も視野に入れている。</p>
-<h2>研究の背景</h2>
-<p>C2S-Scaleの技術自体は、2025年4月に発表された<a href="https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/">研究</a>に基づく。
-この論文では、細胞の遺伝子発現を「cell sentence（細胞文）」として表現し、AIがそれを学習するという新しいアプローチが提案されていた。今回のGoogleによる正式リリースは、その研究成果をGemma上で発展させ、科学的応用として実証した初の事例となる。</p>
-<p>研究チームは、C2S-Scaleを“language-like biology（言語のように生物を理解するAI）”と位置づけ、今後はエピゲノムやプロテオームなど他のオミクスデータを統合するマルチモーダルAIへの発展を構想している。モデルとコードはすでに<a href="https://huggingface.co/collections/vandijklab/cell2sentence-models">Hugging Face</a>上で公開されており、世界中の研究者が利用できる。単一細胞解析の自動化と知識生成を組み合わせたこの手法は、次世代のAI主導バイオロジー研究の基盤として注目を集めている。</p>
-]]></description>
-      <pubDate>Sun, 26 Oct 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
