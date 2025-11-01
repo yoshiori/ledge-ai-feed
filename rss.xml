@@ -5,23 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
-      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
-      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
-<h2>AI教育の中核を担う新サイト</h2>
-<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
-<h2>3000超のコースと実践的ラボを集約</h2>
-<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
-<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
-<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
-公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
-同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
-]]></description>
-      <pubDate>Sat, 01 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、アジア初の東京オフィスを開設──高市首相とアモデイCEOが会談、AIセーフティ・インスティテュートと協力覚書を締結</title>
       <link>https://ledge.ai/articles/anthropic_tokyo_office_aisi_moc_oct2025</link>
       <description><![CDATA[<p>米Anthropicは2025年10月29日（現地時間）、アジア太平洋地域で初となる東京オフィスを開設したと<a href="https://www.anthropic.com/news/opening-our-tokyo-office">発表</a>した。</p>
@@ -276,15 +259,19 @@ Adobeはこのプラットフォームを「企業が自社のブランドDNAを
       <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、「AI Day Tokyo 2025」全26セッションを無料公開──「ソブリンAI」「フィジカルAI」など最新動向をオンデマンドで視聴可能に</title>
-      <link>https://ledge.ai/articles/nvidia_ai_day_tokyo_2025_ondemand_sessions</link>
-      <description><![CDATA[<p>NVIDIAは10月21日までに、9月に東京ミッドタウン（東京都港区）で開催したイベント「<a href="https://blogs.nvidia.co.jp/blog/ai-day-tokyo/?ncid=so-twit-279362&amp;linkId=100000387789084">NVIDIA AI Day Tokyo 2025</a>」で実施した全26セッションの<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">オンデマンド配信</a>を開始した。生成AI、ロボティクス、医療AI、ソブリンAIなどをテーマとした講演を、同社公式サイトで無料視聴できる。</p>
-<p>このイベントは、産業・研究・行政分野におけるAI活用の現状と今後の展望を共有する目的で開催され、約900名が参加した。主催はNVIDIA Japan。</p>
-<p>主要テーマのひとつである「ソブリンAI（Sovereign AI）」では、日本国内のデータセンターやインフラ環境内でAI開発・運用を完結させる取り組みを紹介。政府や産業界における「データ主権」の確立に関する議論が行われた。</p>
-<p>また、「フィジカルAI（Physical AI）」では、物理法則を理解し、ロボット制御や自動運転など現実世界の動作を最適化するAI技術が取り上げられた。AIが現実空間で学習・推論を行う応用例が紹介されたという。</p>
-<p>その他のセッションでは、生成AIモデル「NIM」や「NeMo」を用いたアプリケーション開発、医療・創薬分野でのAI活用、ロボティクスシミュレーション、GPUクラウド基盤の構築、日本企業による導入事例などが扱われている。</p>
-<p>NVIDIAは同ブログ内で、日本のAI演算需要が2030年までに2020年比で約320倍に増加すると予測しており、日本市場をアジア地域の主要拠点の一つとして位置づけている。</p>
-<p>オンデマンド配信は、NVIDIA公式サイトの「NVIDIA On-Demand」上で<a href="https://www.nvidia.com/ja-jp/on-demand/playlist/playList-4fa34d64-8fc9-487f-819a-18e06511216b/">公開</a>されており、全26セッションが日本語で視聴可能。視聴登録のみでアクセスできる。</p>
+      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
+      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
+      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
+<h2>AI教育の中核を担う新サイト</h2>
+<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
+<h2>3000超のコースと実践的ラボを集約</h2>
+<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
+<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
+<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
+公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
+同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
     </item>
@@ -310,36 +297,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>倫理と自由の境界線</h2>
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「ChatGPT Atlas」を正式公開──AIブラウザとしてmacOS版をリリース</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_atlas_release_oct2025</link>
-      <description><![CDATA[<p>OpenAIは米国時間10月21日、AIブラウザ「ChatGPT Atlas」を<a href="https://openai.com/index/introducing-chatgpt-atlas/">発表</a>した。</p>
-<p>同社によると、AtlasはChatGPTを中心に構築されたmacOS向けアプリで、チャットとWebブラウジングを融合した新しいAI体験を提供するという。発表が行われたライブ配信では、AIがWebの使い方そのものを再定義する「10年に一度の機会」と位置づけ、従来のブラウザの概念を刷新する設計思想が語られた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=8UWKxJbjriY">YouTube</a></p>
-<h2>ChatGPTが心臓部にあるブラウザ</h2>
-<p>ライブ配信で同社は、Atlasの開発が「ブラウザとチャットできたらどうなるか？」という問いから始まったと説明。
-従来の複雑なWeb体験を、シンプルな会話で置き換えることを目指したと語った。Atlasは単にAI機能を追加した既存ブラウザではなく、「ChatGPTがその鼓動する心臓（beating heart）」として常にユーザーのそばで支援するよう設計されているという。</p>
-<h2>コア機能：3つの柱</h2>
-<p>Atlasを支えるコア機能として以下の3点が挙げられた。</p>
-<ol>
-<li><strong>Chat Anywhere</strong> ：ユーザーがどのWebページを閲覧していても、チャット機能を呼び出すことでページの文脈を理解した支援が受けられる。コピー＆ペーストやタブ移動の必要がなく、メール作成や文書作業中でもAIが内容を把握して提案を行う。</li>
-<li><strong>ブラウザ・メモリ</strong> ：ChatGPTの記憶機能をブラウザー全体に拡張。Atlasはユーザーの閲覧や検索の履歴を理解し、過去に見たドキュメントを「人間が話すような言葉」で検索できる。利用者ごとにAIがパーソナライズされていく仕組み。</li>
-<li><strong>エージェント</strong> ：ChatGPTがユーザーの代わりに操作を実行する機能。予約やドキュメント編集などを支援する際に、AIが小さなカーソルを出してクリック動作を行う。ログイン情報やブラウザー履歴にアクセスでき、まるで「ユーザー自身の自然な延長」として働く。</li>
-</ol>
-<h2>その他の主要機能</h2>
-<ul>
-<li><strong>Ask ChatGPT（サイドバー）</strong> ：ウェブページ右上の「Ask ChatGPT」ボタンから起動。表示中ページの要約、製品比較、プルリクエストやSlackチャンネルの要約などを行える。</li>
-<li><strong>検索体験の刷新</strong> ：検索結果はニュース・画像などのタブでも絞り込め、ページ遷移後もChatGPTとの対話を並行して続けられる。</li>
-<li><strong>カーソル操作（Use cursor）</strong> ：フォーム入力欄でテキストを選択し、ChatGPTを呼び出して文法チェックやトーン調整などを行う。</li>
-</ul>
-<h2>安全性と提供状況</h2>
-<p>OpenAIは、Agentモードがユーザーのタブ上でのみ動作し、外部ファイルやコード実行にはアクセスしないよう安全設計が施されていると説明。ブラウザ・メモリ機能も完全オプションで、設定やシークレットウィンドウで制御可能とした。</p>
-<p>AtlasはmacOSユーザー向けに全世界で提供開始されており、Plus／Pro／Businessユーザーを対象にプレビュー提供されている。今後、Windowsおよびモバイルへの展開を計画しているとのことだ。</p>
-<h2>AIとWebを再定義する「次の10年」</h2>
-<p>OpenAIはブログ「<a href="https://openai.com/index/introducing-chatgpt-atlas/">Introducing ChatGPT Atlas</a>」の中で、Atlasを「チャット、ブラウジング、ワークスペースを統合する新しい形のAI体験」と表現。AIがユーザーを理解し、インターネット上で必要な情報を能動的に探し出す未来像を描いている。同社はこのプロジェクトを「early days（初期段階）」と位置づけ、今後さらに機能を拡張していく方針だ。</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
     </item>
@@ -377,6 +334,21 @@ AIを最大限に活用した場合、日本のGDPを累計140兆円押し上げ
 <p>OpenAIはこのブループリントを「AIという変革の力を日本のすべての国民の豊かさに繋げるための設計図」と位置づけた。
 「AIによって日本は経済成長と人間中心社会の両立を実現できる。今こそ官民一体でこの“日本モデル”を世界に先駆けて示すときだ」と締めくくっている。</p>
 <p><a href="https://cdn.openai.com/global-affairs/f9d1cd88-506e-48f9-b34b-6ff63655434e/openai-japan-economic-blueprint-jp.pdf">「​​日本のAI：​​Open AIの経済ブループリント」全文</a></p>
+]]></description>
+      <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA支援のStarcloud、宇宙空間にAIデータセンターを構築──H100搭載衛星を11月打ち上げ　Crusoeと提携し「宇宙クラウド」運用へ</title>
+      <link>https://ledge.ai/articles/starcloud_nvidia_ai_datacenter_in_space</link>
+      <description><![CDATA[<p>NVIDIAは2025年10月15日、同社が支援する米スタートアップ <a href="https://www.starcloud.com/">Starcloud</a>と共に人工衛星上にAIデータセンターを構築する計画を進めていることをブログで<a href="https://blogs.nvidia.com/blog/starcloud/?ncid=so-twit-480097&amp;linkId=100000388344371">明らかにした</a>。11月にはNVIDIA H100 Tensor Core GPU を搭載した人工衛星を打ち上げる予定で、宇宙空間でのAI処理を実現するという。冷却コストを地上の10分の1に抑えるといい、AI時代の新しいエネルギー効率モデルとして注目されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ichlfqHF6XM">YouTube</a></p>
+<p><a href="https://www.starcloud.com/">Starcloud</a>は、Y Combinatorの支援を受けて2024年に設立されたスタートアップで、「Data Centers in Space（宇宙空間にデータセンターを）」を掲げる。地球上のデータセンターが抱える電力・冷却・立地の制約を超えるべく、軌道上の低温・真空環境を活かしたAIインフラ構築を目指す。同社はNVIDIAのInceptionプログラムに参加しており、技術的な支援を受けながら軌道上でのAI推論とデータ処理を計画している。</p>
+<p><strong>11月に打ち上げ予定のStarcloud-1衛星をエンジニアが点検している。衛星内部の銀色のモジュールにはNVIDIA H100 GPUが搭載されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/starcloud_nvidia2_aca314e326/starcloud_nvidia2_aca314e326.jpg" alt="starcloud nvidia2.jpg" /></p>
+<p><a href="https://blogs.nvidia.com/blog/starcloud/">NVIDIA</a>によると、Starcloudの人工衛星は、H100 GPUを搭載し、地上局との低遅延通信を可能にする「orbit-to-cloud architecture」を採用する。Starcloud CEOのEthan Miller氏は「地球上のデータセンターで消費される膨大な電力を削減し、持続可能なAIインフラを実現する」とコメントしている。</p>
+<p>また、Starcloudはクリーンコンピューティング企業 Crusoe Energy Systems と提携し、宇宙空間におけるクラウド運用を共同で進める。<a href="https://www.crusoe.ai/resources/newsroom/crusoe-to-become-first-cloud-operator-in-space-through-partnership-with-starcloud">Crusoe</a>は、この提携を通じて同社が「世界初の宇宙クラウドオペレーター」となると述べており、自社のクリーンコンピュート・スタックを衛星に拡張する。Crusoe CEOのChase Lochmiller氏は、「AIコンピューティングの新しい前線に立つ。宇宙でのクラウド運用は持続可能なAIの未来を象徴する」と語った。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6/68f7c88901152ba581e36e4a_spacejam_p_1080_415e66a6c6.png" alt="68f7c88901152ba581e36e4a_spacejam-p-1080.png" /></p>
+<p>宇宙の極低温環境を利用することで、冷却コストは地上の10分の1、エネルギー効率は大幅に向上するとされる。Starcloudは今後、複数の衛星ネットワークによる分散型クラウドの構築も視野に入れており、AI処理と環境負荷削減の両立を目指すとしている。</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 01:50:00 GMT</pubDate>
     </item>
@@ -581,7 +553,7 @@ Claudeがスプレッドシート内のデータや数式を理解し、自然�
 <p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
 <p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
 ]]></description>
-      <pubDate>Sat, 25 Oct 2025 01:50:00 GMT</pubDate>
+      <pubDate>Mon, 27 Oct 2025 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
