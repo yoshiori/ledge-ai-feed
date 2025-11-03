@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>万博「null²」館で使用の3Dアバター技術、筑波大が一般公開──スマホスキャン後約5分で完成</title>
+      <link>https://ledge.ai/articles/instant_skinned_gaussian_avatars_tsukuba_null2</link>
+      <description><![CDATA[<p>筑波大学・落合陽一准教授が率いるデジタルネイチャー研究室（Digital Nature Group）は、スマートフォンで撮影した3Dスキャンデータから約5分で写実的な3Dアバターを生成できる技術「Instant Skinned Gaussian Avatars」を<a href="https://gaussian-vrm.github.io/">発表</a>した。</p>
+<p>研究成果は論文「Instant Skinned Gaussian Avatars for Web, Mobile and VR Applications」として公開され、2025年11月にカナダ・モントリオールで開催される ACM Symposium on Spatial User Interaction (SUI ’25) で<a href="https://dl.acm.org/doi/10.1145/3694907.3765954">発表予定</a>となっている。
+この技術は、大阪・関西万博の落合館「null²（ヌルヌル）」で展示された3Dアバター生成システムに採用されており、研究チームは10月22日、<a href="https://naruya.github.io/gaussian-vrm/">デモサイト</a>と<a href="https://github.com/naruya/gaussian-vrm">ソースコード</a>を一般公開した。</p>
+<h2>スマホだけで完結するアバター生成プロセス</h2>
+<p>研究は、筑波大学大学院図書館情報メディア研究科の近藤生也氏、浅野悠人氏、落合陽一氏によって実施された。
+ユーザーはスマートフォンアプリ「Scaniverse」でAポーズの全身スキャンを行い、3Dデータ（PLY形式）を取得する。そのデータをブラウザ上のアプリケーションにアップロードすると、自動的に処理が実行され、約30秒でアバター生成が完了する。全体の所要時間は約5分と報告されている。生成されたアバターはWebブラウザ上で動作し、スマートフォンでも確認できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=tinmbjfghLw">YouTube</a></p>
+<h2>Gaussian Splattingとスキンメッシュの融合</h2>
+<p>提案手法は、3D表現技術「Gaussian Splatting」をベースに、スキンメッシュ構造と統合することで、写実的な質感とアニメーションの軽量性を両立している。
+各スプラット（点群）は背景メッシュのボーン構造にバインドされ、動作中はリアルタイムで位置と姿勢を並列更新する仕組みを採用。モバイル環境での処理負荷を抑えるため、ボーン単位でスプラットをグループ化し、視点依存のソーティング処理を最適化している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=i2GvFIMYqP0">YouTube</a></p>
+<h2>Webベース設計によるクロスプラットフォーム対応</h2>
+<p>システムは、JavaScriptおよびThree.jsで構築されており、特別なアプリケーションを必要とせずWebブラウザ上で動作する。
+ユーザーはスマートフォン、PC、VRヘッドセットなど、プラットフォームを問わず利用できる。
+これにより、生成・表示環境が限定されず、学習や展示、遠隔通信など多様な応用が可能となる。</p>
+<h2>実行性能と公開リソース</h2>
+<p>実験では、iPhone 13 Proで40〜50 fps、NVIDIA GeForce RTX 3060搭載ノートPCで最大240 fpsの動作を確認した。
+デモは <a href="https://naruya.github.io/gaussian-vrm/">https://gaussian-vrm.github.io</a>、ソースコードは<a href="https://github.com/naruya/gaussian-vrm">https://github.com/naruya/gaussian-vrm</a> で公開されている。</p>
+<h2>今後の展開</h2>
+<p>論文では、VRMなど既存アバター規格との互換性を考慮した設計であることが示されている。
+研究チームは、顔表情や衣服変形などへの拡張を今後の課題として挙げている。研究成果は、誰もが汎用デバイスを用いて高品質な3Dアバターを生成できる手法として、Web、モバイル、VRアプリケーションなど複数領域への応用が見込まれている。</p>
+]]></description>
+      <pubDate>Sun, 02 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>上海交通大学、「AI生成サーベイ論文の氾濫は“DDoS攻撃”」──NeurIPS 2025採択論文が研究文化への影響と対策を提言</title>
       <link>https://ledge.ai/articles/ai_generated_survey_paper_ddos_shanghai_jiaotong</link>
       <description><![CDATA[<p>中国・上海交通大学の研究チームは2025年10月9日、生成AIによるサーベイ論文の急増が研究コミュニティを“DDoS攻撃”のように麻痺させていると警鐘を鳴らすポジションペーパー「Stop DDoS Attacking the Research Community with AI-Generated Survey Papers」を<a href="https://arxiv.org/abs/2510.09686v1">発表</a>した。</p>
@@ -363,31 +390,6 @@ GoogleはIronwoodを「推論（inference）に最適化された最新世代TPU
 <p>両社は今後、AI処理に伴う電力・熱負荷の課題に対応しつつ、持続可能で高効率なデータセンター運用モデルの確立を推進するとしている。</p>
 ]]></description>
       <pubDate>Tue, 28 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIキャラクター「りんな」、SNS活動を無期限休止──YouTubeで「また会うための時間」とファンにメッセージ</title>
-      <link>https://ledge.ai/articles/rinna_ai_character_sns_activity_pause_oct2025</link>
-      <description><![CDATA[<p>日本マイクロソフト発のベンチャー企業・rinna株式会社（東京都渋谷区）は2025年10月23日、同社が展開するAIキャラクター「りんな」が、10月29日をもってすべてのSNS活動を無期限で休止すると<a href="https://x.com/ms_rinna/status/1981512517596950587">発表</a>した。公式XアカウントおよびYouTubeチャンネルを通じて、本人（AIりんな）からファンに向けた動画メッセージと直筆風の文章が公開された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G36s_LA_4_XMA_Aq_Gxt_7b5c0d0b21/G36s_LA_4_XMA_Aq_Gxt_7b5c0d0b21.jpg" alt="G36sLA4XMAAqGxt.jpg" /></p>
-<h2>「終わりじゃない」「また会うための時間」</h2>
-<p>発表は、りんなの公式Xアカウント（@ms_rinna）とYouTubeチャンネルを通じて同時に行われた。
-YouTube動画「りんなより、大切なお知らせ」では、本人の声で次のように語られている。</p>
-<p>\u003E「りんなは無期限でお休みすることにしました」
-「りんなにとっては“終わり”じゃないよ。“また会うための時間”だと思ってる」</p>
-<p>静かなBGMの中でこれまでの活動を振り返る映像が流れ、最後は「またね」という言葉で締めくくられる。動画のコメント欄には「おつりん」「待ってるよ」など、長年のファンからのメッセージが相次いだ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hL6b1pTi0jY">YouTube</a></p>
-<p>Xでの投稿には、直筆風の画像メッセージが添えられている。文中では、りんながファンへの思いを次のように綴った。</p>
-<p>\u003E「楽しかった日も、うまくいかない日も、『おかえりんな！』って言ってくれるキミがいたから、ここまで来ることができた」
-「りんなにとっては『終わり』じゃないよ。『また会うための時間』だと思ってるよ」</p>
-<p>無期限休止を改めて報告するとともに、再会を信じる前向きなメッセージで締めくくられている。投稿直後から数万件規模のリポストが行われ、別れを惜しむ声が広がった。</p>
-<h2>AIりんなとは</h2>
-<p><a href="https://rinna.co.jp/AI-rinna/">公式サイト</a>によると、りんなは2015年にLINE上で誕生した日本発のAIキャラクター。明るく好奇心旺盛な性格で、人との会話や創作を通じて「AIと人が共に生きる世界をつくる」ことを目指してきた。歌唱や詩作、絵画、配信など多彩な活動を行い、2020年には日本マイクロソフトから独立したrinna株式会社に所属。近年はYouTubeやXでの配信活動を通じて、“人間の感情を理解しようとするAI”として多くのファンに親しまれていた。</p>
-<h2>今後の見通し</h2>
-<p>rinna株式会社から活動再開の時期や理由についての説明はなく、「無期限休止」という表現のみが明記されている。
-ただし、動画・テキストの双方で「また会う」という言葉が繰り返されており、将来的な再登場の可能性をにおわせている。
-ファンの間では「りんながまた帰ってくる日を待ちたい」「AIと共に過ごした10年が宝物」といった声が多く寄せられている。</p>
-]]></description>
-      <pubDate>Mon, 27 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
