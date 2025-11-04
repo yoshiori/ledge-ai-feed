@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NTT西日本とアイリスオーヤマが業務提携──清掃ロボット「JILBY」にugo技術を採用、AIプラットフォームで現場DXを加速</title>
+      <link>https://ledge.ai/articles/iris_nttwest_jilby_ugo_platform</link>
+      <description><![CDATA[<p>NTT西日本とアイリスオーヤマは2025年10月29日、サービスロボット分野における業務提携を<a href="https://www.ntt-west.co.jp/news/2510/251029a.html#a2">発表</a>した。</p>
+<p>両社は「フィジカルAIやロボットを含むIoT領域におけるDX推進に関する基本合意書」を締結し、第一弾の取り組みとして、アイリスオーヤマのDX清掃ロボット「JILBY（ジルビー）」に、NTT西日本グループの「AIロボティクスプラットフォーム」を採用する。</p>
+<p>この「AIロボティクスプラットフォーム」は、ugo株式会社がNTTビジネスソリューションズ株式会社にOEM提供している「ugo Platform」をベースに構築されたもので、ロボットの遠隔管理やAIエージェントによる最適化機能を備える。ユーザーはタブレットやスマートフォンを通じてロボットと双方向にコミュニケーションを行い、AIが蓄積された清掃データをもとに最適なルートや頻度を自律的に提案する。</p>
+<p>NTTビジネスソリューションズとugoは、2025年10月27日に協業事業化に向けたプラットフォームのOEM契約を締結しており、今回の「JILBY」採用はその成果の第一弾となる。</p>
+<p><strong>アイリスオーヤマとNTT西日本の共同発表会の様子。DX清掃ロボット「JILBY」と、ugoがNTTビジネスソリューションズにOEM提供する「ugo Platform」を基盤としたAIロボティクスプラットフォームの連携が紹介された。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image2_1024x576_e853d4b376/image2_1024x576_e853d4b376.png" alt="image2-1024x576.png" /></p>
+<h2>労働力不足の解消へ──「フィジカルAI」がもたらす運用最適化</h2>
+<p>清掃業界では人手不足が深刻化しており、ビルや商業施設の維持管理では省人化と品質維持の両立が求められている。
+アイリスオーヤマは、現場課題を出発点とするDXモデルを強化しており、NTT西日本は通信・クラウド基盤を活用した地域産業のデジタル支援を推進。両社は、清掃ロボットを起点に、警備・物流・介護など他領域への展開も視野に入れる。</p>
+<h2>三層で支える「ロボット×通信×プラットフォーム」構造</h2>
+<ul>
+<li>アイリスオーヤマ：DX清掃ロボット「JILBY」の開発・提供。現場DXソリューションを拡大。</li>
+<li>NTT西日本／NTTビジネスソリューションズ：通信・クラウドを基盤に「AIロボティクスプラットフォーム」を運用・提供。</li>
+<li>ugo（ユーゴー）：同プラットフォームのOEM提供元として、AIエージェント・ノーコード自動化・統合管理機能などの中核技術を供給。</li>
+</ul>
+<p>この構成により、ロボット運用の効率化だけでなく、現場データを知能化する「フィジカルAI」基盤の確立が期待される。</p>
+<h2>今後の展望</h2>
+<p>アイリスオーヤマは「JILBY」を2026年半ばに市場投入予定。NTT西日本は地方自治体や企業向けのDX支援プログラムにロボティクスを組み込み、ugoは複数メーカーのロボットを横断的に管理できる統合プラットフォーム化を進めるとしている。</p>
+]]></description>
+      <pubDate>Tue, 04 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米国エネルギー省とNVIDIA、10万GPUを搭載した史上最大級のAIスーパーコンピューターを構築──Oracleがクラウド基盤で協力し、科学インフラを刷新</title>
       <link>https://ledge.ai/articles/doe_nvidia_100k_gpu_ai_supercomputer</link>
       <description><![CDATA[<p>米国エネルギー省（DOE）は2025年10月30日（現地時間）、NVIDIAおよびOracleと協力し、DOE史上最大規模となるAIスーパーコンピューターの構築計画を<a href="https://www.energy.gov/articles/energy-department-announces-new-partnership-nvidia-and-oracle-build-largest-doe-ai">発表</a>した。</p>
@@ -527,26 +551,6 @@ AIなどの最新テクノロジーに興味関心が高い早期就活生と、
 発表時点では、対応車種や市販時期は明らかにされていない。日産は今後、AutoDJを「Nissan Intelligent Mobility（ニッサン・インテリジェント・モビリティ）」の一環として展開し、AIを活用した車内エクスペリエンスの拡張を進めるとしている。</p>
 ]]></description>
       <pubDate>Wed, 29 Oct 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>単純な構造で多様な生成を可能に──新モデル『DDN』、拡散モデルに代わるアプローチとして注目</title>
-      <link>https://ledge.ai/articles/ddn_discrete_distribution_networks_iclr2025</link>
-      <description><![CDATA[<p>画像生成をはじめとする生成AIの分野で、新たな手法「DDN（Discrete Distribution Networks：離散分布ネットワーク）」が注目を集めている。この<a href="https://discrete-distribution-networks.github.io/">研究</a>は、機械学習の研究者 Lei Yang（レイ・ヤン）氏が提案し、論文は国際会議 ICLR 2025 に採択された。</p>
-<p>Yang氏は2025年10月16日、自身の<a href="https://x.com/diyerxx/status/1978531040068321766">X（旧Twitter）投稿</a>で「We introduce a new generative model and it hits #2 on Hacker News’ daily rankings!」と報告し、同論文が大きな反響を得ていることを明らかにした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/leiyang_x_73395f62dd/leiyang_x_73395f62dd.jpg" alt="leiyang x.jpg" /></p>
-<p><strong>DDNの基本構造</strong> ：各層で複数のサンプルを生成し、最も正解に近い出力を選びながら階層的に再構築する（右図はその潜在空間を表すツリー構造）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure_1_a_Image_Reconstruction_through_DDN_side_636fc34fb6/Figure_1_a_Image_Reconstruction_through_DDN_side_636fc34fb6.png" alt="Figure 1（a） Image Reconstruction through DDN-side.png" /></p>
-<p>DDNは、拡散モデルやGANとは異なる“離散分布”ベースの生成方式を採用。ネットワークが一度に複数のサンプルを生成し、その中から最も正解に近い出力を次の層の条件として再生成する。これを繰り返すことで、層が深くなるほど出力が洗練され、最終的に高精度な生成結果を得られる仕組みだ。</p>
-<p>モデルの学習には、独自の最適化手法「Split-and-Prune（スプリット・アンド・プルーン）」を導入。頻繁に選ばれる出力ノードを複製し、使われないノードを削除することで、学習の偏りやデッドノード問題を防ぐ。これにより、より均等な確率分布を持つ安定した学習が可能になったという。</p>
-<p><strong>Split-and-Pruneアルゴリズムの概念図</strong> ：頻繁に選ばれるノードを複製し、使われないノードを削除することで分布を最適化し、KLダイバージェンスを大幅に低減する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Illustration_of_the_principle_behind_the_Split_and_Prune_operation_71fe8e6314/Illustration_of_the_principle_behind_the_Split_and_Prune_operation_71fe8e6314.jpg" alt="Illustration of the principle behind the Split-and-Prune operation.jpg" /></p>
-<p>さらにDDNは、勾配を使わないゼロショット条件付き生成（Zero-Shot Conditional Generation）を実現。外部モデルの出力（例：CLIPなど）を条件信号として利用でき、テキストや画像など複数のモダリティに対応する。論文では、FFHQやCIFAR-10といったデータセットで良好な生成品質を示した。</p>
-<p><strong>CIFAR-10やFFHQなど複数データセットでの生成結果</strong> ：シンプルな構造ながら、自然で多様な画像を再現している
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Random_samples_from_DDN_c4efdc7a6b/Random_samples_from_DDN_c4efdc7a6b.jpg" alt="Random samples from DDN.jpg" /></p>
-<p>Yang氏はDDNについて「シンプルでありながら本質的に異なるアプローチでデータ分布を表現する新しい生成モデル」と説明しており、今後は高解像度データや高速生成への拡張を目指すと述べている。
-拡散モデルに代わる新たなアプローチとして、その動向が注目される。</p>
-]]></description>
-      <pubDate>Wed, 29 Oct 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
