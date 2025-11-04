@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>米国エネルギー省とNVIDIA、10万GPUを搭載した史上最大級のAIスーパーコンピューターを構築──Oracleがクラウド基盤で協力し、科学インフラを刷新</title>
+      <link>https://ledge.ai/articles/doe_nvidia_100k_gpu_ai_supercomputer</link>
+      <description><![CDATA[<p>米国エネルギー省（DOE）は2025年10月30日（現地時間）、NVIDIAおよびOracleと協力し、DOE史上最大規模となるAIスーパーコンピューターの構築計画を<a href="https://www.energy.gov/articles/energy-department-announces-new-partnership-nvidia-and-oracle-build-largest-doe-ai">発表</a>した。</p>
+<p>この新システムはイリノイ州のアルゴンヌ国立研究所（Argonne National Laboratory）に設置され、10万基以上のNVIDIA Blackwell GPUを搭載する。AIを活用した科学研究基盤として、科学的発見の加速と国家的課題の解決を狙う取り組みだ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_1380_b28508426b/nvidia_1380_b28508426b.jpg" alt="nvidia-1380.jpg" /></p>
+<h2>10万GPUの「Solstice」と「Equinox」</h2>
+<p>DOEおよびアルゴンヌ研究所の<a href="https://www.anl.gov/article/argonne-expands-nations-ai-infrastructure-with-powerful-new-supercomputers">発表</a>によると、構築されるシステムは2系統で構成される。</p>
+<p>メインとなる「Solstice」は10万基を超えるNVIDIA Blackwell GPUを搭載し、DOEのAI研究インフラとしては史上最大級の性能を備える。また、「Equinox」は約1万基のBlackwell GPUで構成され、より軽量なAIモデルのトレーニングや実験的研究に利用されるという。</p>
+<p>両システムは相互に連携し、<a href="https://nvidianews.nvidia.com/news/nvidia-oracle-us-department-of-energy-ai-supercomputer-scientific-discovery">NVIDIAの試算</a>によれば最大で約2,200 エクサフロップスのAI性能を発揮する見込み。これらは米国政府が推進する「次世代科学計算インフラ拡張計画」の中核を担う。</p>
+<p>計画では、Oracleがクラウドインフラ（Oracle Cloud Infrastructure、OCI）を提供。NVIDIAのハードウェア群をOCI上で統合運用し、Megatron-CoreやTensorRTなどのスタックを活用して、大規模学習と推論を並行実行できる設計とする。</p>
+<h2>科学研究を支える国家AIインフラ</h2>
+<p>DOEはこの取り組みを、「気候変動分析」「新素材探索」「エネルギー効率化」「AIによる科学的発見支援」など、多様な分野に応用する方針を示している。アルゴンヌ研究所の准研究所長でArgonne Distinguished FellowのRick Stevens氏は、強力なAI能力――特に推論機能――の重要性を挙げ、仮説検証や実験設計、複雑データからの洞察を効率化できると述べた。</p>
+<p>両システムは2026年の稼働開始を予定しており、DOEはこれらを含むAIスーパーコンピューター群を全米の研究所に配備し、国家レベルでのAI研究ネットワークを拡充する。なお、DOEは同年、3研究所で計9台の新スーパーコンピューターを整備する計画も発表している</p>
+]]></description>
+      <pubDate>Mon, 03 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2025/11/3 [MON]対話型AIによる「心の支援」を可視化　ハーバード大・オックスフォード大らが新評価プラットフォームを開発</title>
       <link>https://ledge.ai/articles/mindbenchai_mental_health_llm_evaluation</link>
       <description><![CDATA[<p>対話型AIをメンタルヘルスの相談に利用する人が増えている。調査によると、ユーザーの3割以上がAIに心の悩みを打ち明けた経験を持つという。こうした状況のなか、AIによる誤った助言や過度な依存、AIとの擬似的な関係による心理的影響が報告されている。</p>
@@ -530,26 +547,6 @@ AIなどの最新テクノロジーに興味関心が高い早期就活生と、
 拡散モデルに代わる新たなアプローチとして、その動向が注目される。</p>
 ]]></description>
       <pubDate>Wed, 29 Oct 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon、「ロボットで雇用を奪ってきた企業ではない」と反論──自動化報道に対し公式声明を発表</title>
-      <link>https://ledge.ai/articles/amazon_robotics_employment_response_oct2025</link>
-      <description><![CDATA[<p>Amazonは2025年10月23日（現地時間）、自社の倉庫・物流オペレーションにおける新技術「Blue Jay」と「Project Eluna」を<a href="https://www.aboutamazon.com/news/operations/new-robots-amazon-fulfillment-agentic-ai">発表</a>した。同社は公式ニュースリリースで、「私たちは雇用を奪ってきたのではなく、増やしてきた企業だ」と強調し、来るホリデーシーズンに向けて25万人の新規採用を計画していることを明らかにした。</p>
-<p>この発言は、10月21日のニューヨークタイムズ「Amazonが倉庫業務の50万人分をロボットに置き換える計画を進めている」という<a href="https://ledge.ai/articles/amazon_robotics_automation_500k_plan">報道</a>に対する公式の立場表明とみられる。報道を受け、SNS上では「人の仕事を奪う企業」との批判が広がっていた。</p>
-<h2>Blue JayとProject Eluna──“人とロボットの協働”を体現</h2>
-<p>Amazonは今回のリリースで、複数のロボットアームを協調させて荷物を扱う「Blue Jay」と、AIが作業割り振りやトラブル解決を支援する「Project Eluna」を公開した。いずれも人間作業者の安全性と効率性を高めることを目的としており、完全自動化ではなく“人とロボットの協働”を前提に設計されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aa_archivegif001_amazon_bluejay_bluejay_2_copy_1600x900_1_9850e63a17/aa_archivegif001_amazon_bluejay_bluejay_2_copy_1600x900_1_9850e63a17.gif" alt="aa-archivegif001-amazon-bluejay-bluejay-2-copy-1600x900-1.gif" /></p>
-<p>Blue Jayは従来3つの作業ステーション（ピック・ストウ・パック）を1つに統合し、複数アームが連携して製品を扱う。Elunaはエージェント型AIとして、リアルタイムデータから業務上のボトルネックを予測し、オペレーターに改善策を提示する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Project_Eluna_98eb413549/Project_Eluna_98eb413549.gif" alt="ProjectEluna.gif" /></p>
-<h2>「人の仕事を支える技術」としてのロボティクス</h2>
-<p>Amazonは、ロボット技術を「人の仕事を支えるためのツール」と位置づける。リリースでは「ロボティクスの導入は、反復的で身体的に負担の大きい作業を軽減し、人がより安全で創造的な仕事に集中できるようにするもの」と説明。
-また、自動化と並行して雇用の拡大を進める姿勢を示している。</p>
-<p>Amazonは2012年にKiva Systems（現Amazon Robotics）を買収して以来、ロボット導入を加速してきた。現在では100万台以上のロボットが世界中の物流拠点で稼働しているとされるが、同社は「人材育成と再配置を並行して行ってきた」と説明。
-一方で、米国内では労働組合や一部報道機関が「自動化の進展により非正規雇用が拡大している」と懸念を示しており、今回のAmazonのメッセージはこうした批判に応じる形でもある。</p>
-<h2>今後の展望</h2>
-<p>Blue Jayはサウスカロライナ州でテスト導入されており、Project Elunaはテネシー州の施設で運用を開始予定。Amazonは「年末商戦に向けて本格稼働を拡大する」としており、人とAIの協働を軸にした“次世代物流モデル”を提示する形となった。</p>
-]]></description>
-      <pubDate>Tue, 28 Oct 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
