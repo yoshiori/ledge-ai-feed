@@ -100,53 +100,14 @@
       <pubDate>Mon, 03 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米ルイビル大の研究者ら、AIが“人類の記憶係”になる時代に「記憶される権利」を提唱──少数のAIベンダーが何を記憶するかを実質的に決定するリスクを警告</title>
-      <link>https://ledge.ai/articles/ai_right_to_be_remembered_digital_memory_risk</link>
-      <description><![CDATA[<p>生成AIが人類の“記憶係”として機能し始める中で、情報の偏りや「記憶からの抹消」という新たなリスクが指摘されている。</p>
-<p>米ルイビル大学などの研究者チーム（著者：Roman V. Yampolskiy／Alex Zhavoronkov／Dominika Wilczok）は2025年10月17日、論文「The Right to Be Remembered: Preserving Maximally Truthful Digital Memory in the Age of AI」を arXiv で<a href="https://arxiv.org/abs/2510.16206">公開</a>した。大規模言語モデル（LLM）が情報取得の主要なインターフェースとなる現状に対し、著者らは「記憶される権利（Right to Be Remembered, RTBR）」を提唱している。</p>
-<h2>単一回答がもたらす“記憶の収束”</h2>
-<p>従来の検索エンジンは複数の情報源を一覧で提示し、利用者が比較・判断できる余地を残していた。一方、LLMは統合的な「ひとつの答え」を返す傾向があり、異なる視点を意識的に検討する機会を失わせやすい。この構造が進むと、少数のAIベンダーが「何が記憶され、何が忘れられるか」を実質的に決定することになり、デジタル社会における“記憶の偏り”が固定化する恐れがあると警告している。</p>
-<h2>「記憶される権利（RTBR）」とは</h2>
-<p>著者らは、AIが生成する情報の公正性と真実性を守る新たな倫理的枠組みとしてRTBRを提案した。RTBRは「AIによる情報の省略を最小化し、公正で、生成内容が可能な限り真実であることを設計原則として担保する」責務を意味する。その実現には、モデル開発・学習・出力・UI設計の各段階で、偏りを可視化し、引用や来歴を明示する仕組みが欠かせないとする。</p>
-<h2>技術的・制度的課題にも言及</h2>
-<p>論文は、AIの“真実性”を外部事実との整合性（accuracy）と、内部表現の整合性（honesty）の2層に分けて評価する重要性を指摘。その上で、以下のような具体策を挙げている。</p>
-<ul>
-<li>データ選定と来歴メタデータ（C2PAなど）の付与</li>
-<li>RLHFや安全調整における多視点の保持</li>
-<li>単一回答UIに代替視点・出典リンクを併設</li>
-<li>不確実性の自己申告（知らないときは答えない／曖昧さの表示）</li>
-</ul>
-<p>また、C2PAなどのメタデータ標準を参照し、生成物に情報源を階層的に紐づける設計を推奨している。法制度面では、欧州の「忘れられる権利」（GDPR第17条）との緊張関係も論じられている。RTBR（公共の記憶の保存）と「忘れられる権利」（個人の消去請求）はしばしば対立し、LLMが知識を内部パラメータに埋め込む構造上、完全なアンラーニング（忘却）は難しいと指摘する。</p>
-<h2>公共の「記憶」をどう設計するか</h2>
-<p>研究者らは結論として、AIが知識の窓口となる時代において、モデルの設計や運用が人類の集合的記憶の形を左右する可能性を強調した。RTBRは、AIがもたらす効率性の裏側で、忘却や偏りから人間の歴史と多様な声を守るための新しい規範として位置づけられる。
-論文は「AIが“人類の記憶係”になる時代にこそ、何を残し、何を忘れないかを社会全体で考える必要がある」と結ばれている。</p>
-]]></description>
-      <pubDate>Mon, 03 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>万博「null²」館で使用の3Dアバター技術、筑波大が一般公開──スマホスキャン後約5分で完成</title>
-      <link>https://ledge.ai/articles/instant_skinned_gaussian_avatars_tsukuba_null2</link>
-      <description><![CDATA[<p>筑波大学・落合陽一准教授が率いるデジタルネイチャー研究室（Digital Nature Group）は、スマートフォンで撮影した3Dスキャンデータから約5分で写実的な3Dアバターを生成できる技術「Instant Skinned Gaussian Avatars」を<a href="https://gaussian-vrm.github.io/">発表</a>した。</p>
-<p>研究成果は論文「Instant Skinned Gaussian Avatars for Web, Mobile and VR Applications」として公開され、2025年11月にカナダ・モントリオールで開催される ACM Symposium on Spatial User Interaction (SUI ’25) で<a href="https://dl.acm.org/doi/10.1145/3694907.3765954">発表予定</a>となっている。
-この技術は、大阪・関西万博の落合館「null²（ヌルヌル）」で展示された3Dアバター生成システムに採用されており、研究チームは10月22日、<a href="https://naruya.github.io/gaussian-vrm/">デモサイト</a>と<a href="https://github.com/naruya/gaussian-vrm">ソースコード</a>を一般公開した。</p>
-<h2>スマホだけで完結するアバター生成プロセス</h2>
-<p>研究は、筑波大学大学院図書館情報メディア研究科の近藤生也氏、浅野悠人氏、落合陽一氏によって実施された。
-ユーザーはスマートフォンアプリ「Scaniverse」でAポーズの全身スキャンを行い、3Dデータ（PLY形式）を取得する。そのデータをブラウザ上のアプリケーションにアップロードすると、自動的に処理が実行され、約30秒でアバター生成が完了する。全体の所要時間は約5分と報告されている。生成されたアバターはWebブラウザ上で動作し、スマートフォンでも確認できる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=tinmbjfghLw">YouTube</a></p>
-<h2>Gaussian Splattingとスキンメッシュの融合</h2>
-<p>提案手法は、3D表現技術「Gaussian Splatting」をベースに、スキンメッシュ構造と統合することで、写実的な質感とアニメーションの軽量性を両立している。
-各スプラット（点群）は背景メッシュのボーン構造にバインドされ、動作中はリアルタイムで位置と姿勢を並列更新する仕組みを採用。モバイル環境での処理負荷を抑えるため、ボーン単位でスプラットをグループ化し、視点依存のソーティング処理を最適化している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=i2GvFIMYqP0">YouTube</a></p>
-<h2>Webベース設計によるクロスプラットフォーム対応</h2>
-<p>システムは、JavaScriptおよびThree.jsで構築されており、特別なアプリケーションを必要とせずWebブラウザ上で動作する。
-ユーザーはスマートフォン、PC、VRヘッドセットなど、プラットフォームを問わず利用できる。
-これにより、生成・表示環境が限定されず、学習や展示、遠隔通信など多様な応用が可能となる。</p>
-<h2>実行性能と公開リソース</h2>
-<p>実験では、iPhone 13 Proで40〜50 fps、NVIDIA GeForce RTX 3060搭載ノートPCで最大240 fpsの動作を確認した。
-デモは <a href="https://naruya.github.io/gaussian-vrm/">https://gaussian-vrm.github.io</a>、ソースコードは<a href="https://github.com/naruya/gaussian-vrm">https://github.com/naruya/gaussian-vrm</a> で公開されている。</p>
-<h2>今後の展開</h2>
-<p>論文では、VRMなど既存アバター規格との互換性を考慮した設計であることが示されている。
-研究チームは、顔表情や衣服変形などへの拡張を今後の課題として挙げている。研究成果は、誰もが汎用デバイスを用いて高品質な3Dアバターを生成できる手法として、Web、モバイル、VRアプリケーションなど複数領域への応用が見込まれている。</p>
+      <title>ビジネス2025/11/2 [SUN]アリババ、初のスマートグラス「Quark AI Glasses」予約開始──価格4,699元、12月出荷見込み</title>
+      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_presale_announcement_20251023</link>
+      <description><![CDATA[<p>中国のアリババは2025年10月23日、自社開発による初のスマートグラス「Quark AI Glasses（夸克AI眼镜）」のオンライン予約販売を24日から開始すると、公式X（旧Twitter）アカウントで<a href="https://x.com/AlibabaGroup/status/1981200400817803428">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alibaba_Quark_AI_Glasses_14546ecef6/alibaba_Quark_AI_Glasses_14546ecef6.jpg" alt="alibaba Quark AI Glasses.jpg" /></p>
+<p>同製品は、アリババの大規模言語モデル「Qwen（通称：通義千問）」と、同社のマルチモーダルAIを組み合わせたスマートアイウェア。Quark AI Glassesを通じて、音声アシスタントやリアルタイム翻訳、情報検索、撮影補助などの機能を自然な会話で操作できる。</p>
+<p>アリババは7月の「世界人工知能会議（WAIC 2025）」にあわせて、AIグラスを含む次世代製品群を<a href="https://www.alibabacloud.com/en/press-room/alibaba-unveils-intelligent-cockpits-enterprise?_p_lc=1">初披露</a>しており、今回の予約販売開始が正式な市場投入の第一歩となる。報道各社（ロイター、Barron’sなど）によれば、Quark AI Glassesは中国の通販サイト「Tmall（天猫）」を通じて販売され、価格は4,699元（約660ドル）、出荷は12月を予定している。</p>
+<p>Quarkは、アリババが展開するAIアシスタントアプリで、テキスト・音声の両モードで自然な対話と検索を統合する設計が特徴。10月23日の同社投稿でも「Quark AI Chat Assistant」として刷新が告知されており、アリババはスマートフォンを超えた“AIネイティブなエコシステム”の構築を進めている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486.jpg" alt="G36eXmXXwAEveHe.jpg" /></p>
 ]]></description>
       <pubDate>Sun, 02 Nov 2025 23:50:00 GMT</pubDate>
     </item>
@@ -198,74 +159,28 @@
       <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
-      <link>https://ledge.ai/articles/25to26-announce</link>
-      <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も年末年始特集「'25to'26」を公開します。
-本日より先行サイトを公開し12月1日（月）の特集サイト公開までの間、お知らせを受け取ることができるようになる事前登録（無料）を受付開始いたしました。</p>
-<p>:::button
-<a href="https://25to26.ledge.ai/lp">事前告知サイトはこちら</a>
-:::</p>
-<p>2025年を締めくくるにふさわしい、AIの今とこれからを網羅した一大特集。研究者、ビジネスリーダー、エンジニアなど、あらゆる立場の方々に向けて、2026年のAIシーンを展望します。</p>
-<h2>Ledge.ai年末年始特集『'25to'26』とは</h2>
-<p>Ledge.ai年末年始特集は、2025年のAI関連ニュースや注目のキーワード、2026年以降の動向など、AIの初心者から専門家まで幅広く楽しめる特集サイトです。</p>
-<p>2025年は、生成AIが実用フェーズに突入し、業務プロセス・プロダクト・教育・クリエイティブなど、社会のあらゆる分野で“AI活用の当たり前化”が進んだ一年でした。
-そして2026年は、AIという概念そのものが提唱された「ダートマス会議」から70周年という、まさに歴史的な節目を迎えます。2025年の「当たり前化」を土台として、AIは社会インフラのように深く浸透し、その活用範囲の拡大と同時に、AGI（汎用人工知能）の実現可能性など、AIの“次なる進展”に向けた探求が本格化する一年となるのではないでしょうか。</p>
-<p>本特集では、そんな激動の2025年を多角的に振り返りつつ、2026年に向けた新たな潮流やビジネスチャンスを展望します。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_ac8b0aef2e/1_ac8b0aef2e.png" alt="1.png" /></p>
-<h2>コンテンツラインナップ紹介</h2>
-<h3>編集部による徹底解説</h3>
-<p>Ledge.ai編集部が、2025年のAIシーンを多角的に総括。
-1年間の主要ニュースをピックアップしながら、トレンド分析と俯瞰的な視点で、AI技術が社会・産業へどのように浸透したのかを読み解きます。
-さらに、技術動向の深掘り解説を通じて、進化の本質を明らかに。
-2026年に向けて押さえておくべき“AIの現在地”を、独自の視点で整理します。</p>
-<h3>独自インタビュー</h3>
-<p>本特集では、「AI 70th Pre-Anniversary」というテーマのもと、AI研究の歴史・現在・未来をつなぐキーパーソンたちにインタビューを実施。
-過去／現在／未来のそれぞれの視点から、AIがどのように発展し、次の時代にどんな可能性を秘めているのかを語ってもらいます。
-世代と分野を超えて交わる知見が、AIの軌跡と未来へのヒントを照らし出します。</p>
-<h3>トップランナー企業動向</h3>
-<p>国内外の注目企業をピックアップし、AI周辺で押さえておきたい企業の最新動向を徹底分析。
-生成AI、AIエージェント、クラウドAIなど、世界最先端の情報と実践事例に触れることで、読者が“次に取るべき一手”を見極められる構成になっています。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_6180f8a0c5/2_6180f8a0c5.png" alt="2.png" /></p>
-<h2>開催概要</h2>
-<p>イベント名：Ledge.ai年末年始特集「'25to'26」
-開催期間：2025年12月1日(月) - 2026年1月9日(金)
-形式：オンライン
-参加費：無料（※一部のコンテンツ閲覧にはプロフィール登録が必要となります。）
-お問合せ：contact@ledge.co.jp
-URL：<a href="https://25to26.ledge.ai/lp">https://25to26.ledge.ai/lp</a></p>
+      <title>米ルイビル大の研究者ら、AIが“人類の記憶係”になる時代に「記憶される権利」を提唱──少数のAIベンダーが何を記憶するかを実質的に決定するリスクを警告</title>
+      <link>https://ledge.ai/articles/ai_right_to_be_remembered_digital_memory_risk</link>
+      <description><![CDATA[<p>生成AIが人類の“記憶係”として機能し始める中で、情報の偏りや「記憶からの抹消」という新たなリスクが指摘されている。</p>
+<p>米ルイビル大学などの研究者チーム（著者：Roman V. Yampolskiy／Alex Zhavoronkov／Dominika Wilczok）は2025年10月17日、論文「The Right to Be Remembered: Preserving Maximally Truthful Digital Memory in the Age of AI」を arXiv で<a href="https://arxiv.org/abs/2510.16206">公開</a>した。大規模言語モデル（LLM）が情報取得の主要なインターフェースとなる現状に対し、著者らは「記憶される権利（Right to Be Remembered, RTBR）」を提唱している。</p>
+<h2>単一回答がもたらす“記憶の収束”</h2>
+<p>従来の検索エンジンは複数の情報源を一覧で提示し、利用者が比較・判断できる余地を残していた。一方、LLMは統合的な「ひとつの答え」を返す傾向があり、異なる視点を意識的に検討する機会を失わせやすい。この構造が進むと、少数のAIベンダーが「何が記憶され、何が忘れられるか」を実質的に決定することになり、デジタル社会における“記憶の偏り”が固定化する恐れがあると警告している。</p>
+<h2>「記憶される権利（RTBR）」とは</h2>
+<p>著者らは、AIが生成する情報の公正性と真実性を守る新たな倫理的枠組みとしてRTBRを提案した。RTBRは「AIによる情報の省略を最小化し、公正で、生成内容が可能な限り真実であることを設計原則として担保する」責務を意味する。その実現には、モデル開発・学習・出力・UI設計の各段階で、偏りを可視化し、引用や来歴を明示する仕組みが欠かせないとする。</p>
+<h2>技術的・制度的課題にも言及</h2>
+<p>論文は、AIの“真実性”を外部事実との整合性（accuracy）と、内部表現の整合性（honesty）の2層に分けて評価する重要性を指摘。その上で、以下のような具体策を挙げている。</p>
+<ul>
+<li>データ選定と来歴メタデータ（C2PAなど）の付与</li>
+<li>RLHFや安全調整における多視点の保持</li>
+<li>単一回答UIに代替視点・出典リンクを併設</li>
+<li>不確実性の自己申告（知らないときは答えない／曖昧さの表示）</li>
+</ul>
+<p>また、C2PAなどのメタデータ標準を参照し、生成物に情報源を階層的に紐づける設計を推奨している。法制度面では、欧州の「忘れられる権利」（GDPR第17条）との緊張関係も論じられている。RTBR（公共の記憶の保存）と「忘れられる権利」（個人の消去請求）はしばしば対立し、LLMが知識を内部パラメータに埋め込む構造上、完全なアンラーニング（忘却）は難しいと指摘する。</p>
+<h2>公共の「記憶」をどう設計するか</h2>
+<p>研究者らは結論として、AIが知識の窓口となる時代において、モデルの設計や運用が人類の集合的記憶の形を左右する可能性を強調した。RTBRは、AIがもたらす効率性の裏側で、忘却や偏りから人間の歴史と多様な声を守るための新しい規範として位置づけられる。
+論文は「AIが“人類の記憶係”になる時代にこそ、何を残し、何を忘れないかを社会全体で考える必要がある」と結ばれている。</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe、企業専用の生成AI基盤「Adobe AI Foundry」を発表──Fireflyを拡張し、ブランド独自モデルを構築可能に</title>
-      <link>https://ledge.ai/articles/adobe_ai_foundry_enterprise_firefly_launch</link>
-      <description><![CDATA[<p>Adobeは2025年10月20日（米国時間）、企業向け生成AI基盤「Adobe AI Foundry」を発表。各社メディアが同日に報じ、Adobeは10月23日に公式ブログ「<a href="https://business.adobe.com/blog/introducing-firefly-foundry">Introducing Firefly Foundry</a>」で詳細を公開した。Foundryは、企業が自社ブランドや知的財産をもとにカスタム生成AIモデルを構築し、Adobeのエコシステム上で活用できる仕組みを提供する。</p>
-<h2>ブランド固有の生成AIを構築</h2>
-<p>「Adobe AI Foundry」は、同社の生成AIモデル群「Adobe Firefly」を拡張した新たなプラットフォームだ。
-企業が自社ブランドのビジュアルスタイルや言語トーンを反映した独自モデルを構築でき、生成したコンテンツは商用利用にも対応する。Adobe ExpressやCreative Cloudなど既存の制作ツール群とも統合され、クリエイティブ制作の一貫したワークフローを支援する。</p>
-<h2>データ保護と商用利用を両立</h2>
-<p>Adobeによれば、AI Foundryでは企業データやブランド資産を安全に扱うことを前提に設計されている。学習素材は各社の許諾のもと管理され、生成結果に関しても著作権・商用利用のリスクを最小限に抑えた設計がなされているという。
-料金体系は利用量ベースで、従来のサブスクリプション型（席ライセンス）からの転換を図る。なお、Foundryは本日時点で一部のエンタープライズ顧客に提供されている。</p>
-<h2>初期導入企業とユースケース</h2>
-<p>米TechCrunchやTechzineの報道によると、Home DepotやWalt Disney Imagineeringなどが初期導入企業として名を連ねる。ブランドイメージに一貫性を持たせた広告ビジュアルや販促素材の生成を中心に活用が進む見通しだ。
-Adobeはこのプラットフォームを「企業が自社のブランドDNAをAIに宿すためのFoundry（製造炉）」と位置づけている。</p>
-<h2>Adobeの生成AI戦略における新たな段階</h2>
-<p>Adobeはこれまで、画像生成モデル「Firefly」やビジネス支援AI「Sensei GenAI」などを展開してきた。AI Foundryはその集大成として、企業ごとの“ブランドAIモデル”構築を可能にするもので、生成AIの民主化を次のフェーズへ進める狙いがある。
-同社は今後、テキスト・画像・動画・3Dといったマルチモーダルな生成AIを企業規模で展開し、クリエイティブ制作からマーケティングまで一体化したソリューションを提供するとしている。</p>
-]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/2 [SUN]アリババ、初のスマートグラス「Quark AI Glasses」予約開始──価格4,699元、12月出荷見込み</title>
-      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_presale_announcement_20251023</link>
-      <description><![CDATA[<p>中国のアリババは2025年10月23日、自社開発による初のスマートグラス「Quark AI Glasses（夸克AI眼镜）」のオンライン予約販売を24日から開始すると、公式X（旧Twitter）アカウントで<a href="https://x.com/AlibabaGroup/status/1981200400817803428">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alibaba_Quark_AI_Glasses_14546ecef6/alibaba_Quark_AI_Glasses_14546ecef6.jpg" alt="alibaba Quark AI Glasses.jpg" /></p>
-<p>同製品は、アリババの大規模言語モデル「Qwen（通称：通義千問）」と、同社のマルチモーダルAIを組み合わせたスマートアイウェア。Quark AI Glassesを通じて、音声アシスタントやリアルタイム翻訳、情報検索、撮影補助などの機能を自然な会話で操作できる。</p>
-<p>アリババは7月の「世界人工知能会議（WAIC 2025）」にあわせて、AIグラスを含む次世代製品群を<a href="https://www.alibabacloud.com/en/press-room/alibaba-unveils-intelligent-cockpits-enterprise?_p_lc=1">初披露</a>しており、今回の予約販売開始が正式な市場投入の第一歩となる。報道各社（ロイター、Barron’sなど）によれば、Quark AI Glassesは中国の通販サイト「Tmall（天猫）」を通じて販売され、価格は4,699元（約660ドル）、出荷は12月を予定している。</p>
-<p>Quarkは、アリババが展開するAIアシスタントアプリで、テキスト・音声の両モードで自然な対話と検索を統合する設計が特徴。10月23日の同社投稿でも「Quark AI Chat Assistant」として刷新が告知されており、アリババはスマートフォンを超えた“AIネイティブなエコシステム”の構築を進めている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486.jpg" alt="G36eXmXXwAEveHe.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
@@ -279,7 +194,7 @@ Claudeがスプレッドシート内のデータや数式を理解し、自然�
 <p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
 <p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>イーロン・マスク氏、「Wikipediaより優れている」──xAIが生成AI百科事典「Grokipedia」version 0.1を公開</title>
@@ -304,7 +219,7 @@ Grokipediaは、AIを活用して人為的な偏向を排し、情報の中立�
 <p>:::box
 [関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の \</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
@@ -321,7 +236,34 @@ Grokipediaは、AIを活用して人為的な偏向を排し、情報の中立�
 公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
 同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>万博「null²」館で使用の3Dアバター技術、筑波大が一般公開──スマホスキャン後約5分で完成</title>
+      <link>https://ledge.ai/articles/instant_skinned_gaussian_avatars_tsukuba_null2</link>
+      <description><![CDATA[<p>筑波大学・落合陽一准教授が率いるデジタルネイチャー研究室（Digital Nature Group）は、スマートフォンで撮影した3Dスキャンデータから約5分で写実的な3Dアバターを生成できる技術「Instant Skinned Gaussian Avatars」を<a href="https://gaussian-vrm.github.io/">発表</a>した。</p>
+<p>研究成果は論文「Instant Skinned Gaussian Avatars for Web, Mobile and VR Applications」として公開され、2025年11月にカナダ・モントリオールで開催される ACM Symposium on Spatial User Interaction (SUI ’25) で<a href="https://dl.acm.org/doi/10.1145/3694907.3765954">発表予定</a>となっている。
+この技術は、大阪・関西万博の落合館「null²（ヌルヌル）」で展示された3Dアバター生成システムに採用されており、研究チームは10月22日、<a href="https://naruya.github.io/gaussian-vrm/">デモサイト</a>と<a href="https://github.com/naruya/gaussian-vrm">ソースコード</a>を一般公開した。</p>
+<h2>スマホだけで完結するアバター生成プロセス</h2>
+<p>研究は、筑波大学大学院図書館情報メディア研究科の近藤生也氏、浅野悠人氏、落合陽一氏によって実施された。
+ユーザーはスマートフォンアプリ「Scaniverse」でAポーズの全身スキャンを行い、3Dデータ（PLY形式）を取得する。そのデータをブラウザ上のアプリケーションにアップロードすると、自動的に処理が実行され、約30秒でアバター生成が完了する。全体の所要時間は約5分と報告されている。生成されたアバターはWebブラウザ上で動作し、スマートフォンでも確認できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=tinmbjfghLw">YouTube</a></p>
+<h2>Gaussian Splattingとスキンメッシュの融合</h2>
+<p>提案手法は、3D表現技術「Gaussian Splatting」をベースに、スキンメッシュ構造と統合することで、写実的な質感とアニメーションの軽量性を両立している。
+各スプラット（点群）は背景メッシュのボーン構造にバインドされ、動作中はリアルタイムで位置と姿勢を並列更新する仕組みを採用。モバイル環境での処理負荷を抑えるため、ボーン単位でスプラットをグループ化し、視点依存のソーティング処理を最適化している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=i2GvFIMYqP0">YouTube</a></p>
+<h2>Webベース設計によるクロスプラットフォーム対応</h2>
+<p>システムは、JavaScriptおよびThree.jsで構築されており、特別なアプリケーションを必要とせずWebブラウザ上で動作する。
+ユーザーはスマートフォン、PC、VRヘッドセットなど、プラットフォームを問わず利用できる。
+これにより、生成・表示環境が限定されず、学習や展示、遠隔通信など多様な応用が可能となる。</p>
+<h2>実行性能と公開リソース</h2>
+<p>実験では、iPhone 13 Proで40〜50 fps、NVIDIA GeForce RTX 3060搭載ノートPCで最大240 fpsの動作を確認した。
+デモは <a href="https://naruya.github.io/gaussian-vrm/">https://gaussian-vrm.github.io</a>、ソースコードは<a href="https://github.com/naruya/gaussian-vrm">https://github.com/naruya/gaussian-vrm</a> で公開されている。</p>
+<h2>今後の展開</h2>
+<p>論文では、VRMなど既存アバター規格との互換性を考慮した設計であることが示されている。
+研究チームは、顔表情や衣服変形などへの拡張を今後の課題として挙げている。研究成果は、誰もが汎用デバイスを用いて高品質な3Dアバターを生成できる手法として、Web、モバイル、VRアプリケーションなど複数領域への応用が見込まれている。</p>
+]]></description>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -346,7 +288,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPTで週120万人が「自殺兆候を含む会話」──OpenAI、メンタルヘルス対応を強化</title>
@@ -362,35 +304,7 @@ OpenAIは「AIがカウンセラーの代わりになることはない」とし
 <p>同社は、自傷や自殺と同様に「AIへの過度な情緒的依存」もリスクとして捉え、AIとの対話を通じて孤立や依存の兆候を検知しやすくする研究を進めている。目的は、AIを人間関係の代替とするのではなく、支援ツールとして安全に活用できる環境を整えることにあるという。</p>
 <p>今後も医療・心理の専門家やNPOと連携し、AIがメンタルヘルス領域で安全に活用されるための基準づくりを進めると同社は述べている。</p>
 ]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>高市首相の偽広告が拡散　自民党が注意喚起「AI生成映像にご注意を」──国外追放デマも海外で拡散</title>
-      <link>https://ledge.ai/articles/takaichi_fake_ad_ai_warning_afp_fake_news</link>
-      <description><![CDATA[<p>自由民主党広報は2025年10月24日、公式X（旧Twitter）アカウントで「高市早苗総裁の画像や映像をAIで生成し、あたかも本人が登場しているかのように装った偽広告が出回っている」として注意を<a href="https://x.com/jimin_koho/status/1981533027277951122">呼びかけた</a>。</p>
-<p>投稿では「これらの広告は高市総裁および自由民主党とは一切関係ありません」と明記し、「アクセスしたり、個人情報やカード番号を入力したりしないようご注意ください」と警告。信頼できる情報は党の公式ウェブサイトやSNSのみから発信していると強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fake_ad_takaichi_52db939d90/fake_ad_takaichi_52db939d90.jpg" alt="fake ad takaichi.jpg" /></p>
-<p>投稿について、偽情報が海外のSNS上で拡散していると<a href="https://www.afpbb.com/articles/-/3605154?cx_part=ranking_general">AFP通信</a>などが報じている。投稿では「高市首相が外国人を大量国外追放する省を設置した」と虚偽の内容が記され、英語を中心にXやFacebookで900万回以上閲覧されたケースもあったという。実際にはそのような省庁や政策は存在せず、小野田紀美経済安全保障相が担当する「外国人との秩序ある共生社会推進担当大臣」職も、外国人排斥とは無関係の任務とされている。</p>
-<p>高市氏をめぐっては、国内外で複数の偽情報が同時期に拡散しており、生成AI技術を利用したディープフェイク広告やSNS投稿の影響が懸念されている。自民党は今後も、公式アカウントから正確な情報を発信していく方針を示している。</p>
-<h2>一般ユーザーが真偽の判断に苦慮──高度化する生成AIが見分けを難しくする</h2>
-<p>今回の偽広告拡散は、一般ユーザーが映像の真偽を見極めることの難しさを改めて浮き彫りにした。近年、動画生成AIの表現力は急速に向上しており、2025年10月発表のOpenAI「Sora 2」など最新モデルはライティングや質感、口形と音声の同期まで自然だ。本件で特定のツールが使われた事実は確認されていないが、識別表示や透かしが欠落・削除された生成映像は、視覚情報のみでの判別を困難にする。</p>
-<p>実際、本件の偽広告はニュース番組のレイアウトやテロップ様式を模倣し、QRコードなどの要素と組み合わせて“本物らしさ”を演出していた。SNS上では「どこまでが公式情報か分かりにくい」との声が広がり、生成物の明示（表示義務）や、悪用時の罰則・通報ルートの明確化、プラットフォーム側の検知・削除体制を求める意見が相次いでいる。</p>
-]]></description>
-      <pubDate>Sat, 01 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、アジア初の東京オフィスを開設──高市首相とアモデイCEOが会談、AIセーフティ・インスティテュートと協力覚書を締結</title>
-      <link>https://ledge.ai/articles/anthropic_tokyo_office_aisi_moc_oct2025</link>
-      <description><![CDATA[<p>米Anthropicは2025年10月29日（現地時間）、アジア太平洋地域で初となる東京オフィスを開設したと<a href="https://www.anthropic.com/news/opening-our-tokyo-office">発表</a>した。</p>
-<p>来日した同社の最高経営責任者（CEO）であるダリオ・アモデイ氏は同日、首相官邸で高市早苗総理大臣と会談し、日本政府のAI安全性評価機関「AIセーフティ・インスティテュート（AISI）」との間で、AI評価手法に関する協力覚書（MoC）に署名した。</p>
-<h2>「安全で信頼できるAI」実現へ──東京をアジア拠点に</h2>
-<p>Anthropicは、東京オフィスをアジア太平洋地域におけるハブ拠点として設立。
-公式リリースでは、「日本との協力は、安全で信頼できるAIを世界に広げるための重要な一歩」と位置づけている。
-今後は、生成AI「Claude」シリーズの日本市場向け展開に加え、研究者・企業・政策当局との協働も視野に入れるという。</p>
-<h2>首相官邸で会談──AIの安全性と国際協力を確認</h2>
-<p>首相官邸の<a href="https://www.kantei.go.jp/jp/104/actions/202510/29hyoukei.html">公式発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 01 Nov 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/31 [FRI]OpenAI、2028年に「完全自動AI研究者」実現を目指すロードマップを公開</title>
@@ -422,7 +336,21 @@ OpenAIは「AIがカウンセラーの代わりになることはない」とし
 <p>パホツキ氏は、強力なシステム開発に向けた準備の中で安全性と価値観の整合性（value alignment）を最重視しているとし、「AIが根本的に何を気にかけるのかを理解することが、スーパーインテリジェンス時代の長期的安全性の核心だ」と語った。</p>
 <p>ザレンバ氏も加わり、質疑応答では研究の方向性や安全性、社会的インパクトに関する質問に答えながら、OpenAIが今後も透明性をもって議論を続けていく姿勢を示した。</p>
 ]]></description>
-      <pubDate>Fri, 31 Oct 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、アジア初の東京オフィスを開設──高市首相とアモデイCEOが会談、AIセーフティ・インスティテュートと協力覚書を締結</title>
+      <link>https://ledge.ai/articles/anthropic_tokyo_office_aisi_moc_oct2025</link>
+      <description><![CDATA[<p>米Anthropicは2025年10月29日（現地時間）、アジア太平洋地域で初となる東京オフィスを開設したと<a href="https://www.anthropic.com/news/opening-our-tokyo-office">発表</a>した。</p>
+<p>来日した同社の最高経営責任者（CEO）であるダリオ・アモデイ氏は同日、首相官邸で高市早苗総理大臣と会談し、日本政府のAI安全性評価機関「AIセーフティ・インスティテュート（AISI）」との間で、AI評価手法に関する協力覚書（MoC）に署名した。</p>
+<h2>「安全で信頼できるAI」実現へ──東京をアジア拠点に</h2>
+<p>Anthropicは、東京オフィスをアジア太平洋地域におけるハブ拠点として設立。
+公式リリースでは、「日本との協力は、安全で信頼できるAIを世界に広げるための重要な一歩」と位置づけている。
+今後は、生成AI「Claude」シリーズの日本市場向け展開に加え、研究者・企業・政策当局との協働も視野に入れるという。</p>
+<h2>首相官邸で会談──AIの安全性と国際協力を確認</h2>
+<p>首相官邸の<a href="https://www.kantei.go.jp/jp/104/actions/202510/29hyoukei.html">公式発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 01 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon、約1万4千人の従業員削減を発表──AI時代に合わせた「俊敏な組織」へ再構築</title>
@@ -562,6 +490,45 @@ AIなどの最新テクノロジーに興味関心が高い早期就活生と、
 :::</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
+      <link>https://ledge.ai/articles/25to26-announce</link>
+      <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も年末年始特集「'25to'26」を公開します。
+本日より先行サイトを公開し12月1日（月）の特集サイト公開までの間、お知らせを受け取ることができるようになる事前登録（無料）を受付開始いたしました。</p>
+<p>:::button
+<a href="https://25to26.ledge.ai/lp">事前告知サイトはこちら</a>
+:::</p>
+<p>2025年を締めくくるにふさわしい、AIの今とこれからを網羅した一大特集。研究者、ビジネスリーダー、エンジニアなど、あらゆる立場の方々に向けて、2026年のAIシーンを展望します。</p>
+<h2>Ledge.ai年末年始特集『'25to'26』とは</h2>
+<p>Ledge.ai年末年始特集は、2025年のAI関連ニュースや注目のキーワード、2026年以降の動向など、AIの初心者から専門家まで幅広く楽しめる特集サイトです。</p>
+<p>2025年は、生成AIが実用フェーズに突入し、業務プロセス・プロダクト・教育・クリエイティブなど、社会のあらゆる分野で“AI活用の当たり前化”が進んだ一年でした。
+そして2026年は、AIという概念そのものが提唱された「ダートマス会議」から70周年という、まさに歴史的な節目を迎えます。2025年の「当たり前化」を土台として、AIは社会インフラのように深く浸透し、その活用範囲の拡大と同時に、AGI（汎用人工知能）の実現可能性など、AIの“次なる進展”に向けた探求が本格化する一年となるのではないでしょうか。</p>
+<p>本特集では、そんな激動の2025年を多角的に振り返りつつ、2026年に向けた新たな潮流やビジネスチャンスを展望します。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_ac8b0aef2e/1_ac8b0aef2e.png" alt="1.png" /></p>
+<h2>コンテンツラインナップ紹介</h2>
+<h3>編集部による徹底解説</h3>
+<p>Ledge.ai編集部が、2025年のAIシーンを多角的に総括。
+1年間の主要ニュースをピックアップしながら、トレンド分析と俯瞰的な視点で、AI技術が社会・産業へどのように浸透したのかを読み解きます。
+さらに、技術動向の深掘り解説を通じて、進化の本質を明らかに。
+2026年に向けて押さえておくべき“AIの現在地”を、独自の視点で整理します。</p>
+<h3>独自インタビュー</h3>
+<p>本特集では、「AI 70th Pre-Anniversary」というテーマのもと、AI研究の歴史・現在・未来をつなぐキーパーソンたちにインタビューを実施。
+過去／現在／未来のそれぞれの視点から、AIがどのように発展し、次の時代にどんな可能性を秘めているのかを語ってもらいます。
+世代と分野を超えて交わる知見が、AIの軌跡と未来へのヒントを照らし出します。</p>
+<h3>トップランナー企業動向</h3>
+<p>国内外の注目企業をピックアップし、AI周辺で押さえておきたい企業の最新動向を徹底分析。
+生成AI、AIエージェント、クラウドAIなど、世界最先端の情報と実践事例に触れることで、読者が“次に取るべき一手”を見極められる構成になっています。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_6180f8a0c5/2_6180f8a0c5.png" alt="2.png" /></p>
+<h2>開催概要</h2>
+<p>イベント名：Ledge.ai年末年始特集「'25to'26」
+開催期間：2025年12月1日(月) - 2026年1月9日(金)
+形式：オンライン
+参加費：無料（※一部のコンテンツ閲覧にはプロフィール登録が必要となります。）
+お問合せ：contact@ledge.co.jp
+URL：<a href="https://25to26.ledge.ai/lp">https://25to26.ledge.ai/lp</a></p>
+]]></description>
+      <pubDate>Mon, 27 Oct 2025 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
