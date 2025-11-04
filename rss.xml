@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
+      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
+      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
+<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
+<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
+<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
+<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
+<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
+<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
+<h2>生成された広告をその場で編集・修正可能</h2>
+<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
+<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
+<h2>提供形態と今後の展開</h2>
+<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
+<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
+]]></description>
+      <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTT西日本とアイリスオーヤマが業務提携──清掃ロボット「JILBY」にugo技術を採用、AIプラットフォームで現場DXを加速</title>
       <link>https://ledge.ai/articles/iris_nttwest_jilby_ugo_platform</link>
       <description><![CDATA[<p>NTT西日本とアイリスオーヤマは2025年10月29日、サービスロボット分野における業務提携を<a href="https://www.ntt-west.co.jp/news/2510/251029a.html#a2">発表</a>した。</p>
@@ -539,18 +562,6 @@ AIなどの最新テクノロジーに興味関心が高い早期就活生と、
 :::</p>
 ]]></description>
       <pubDate>Thu, 30 Oct 2025 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日産自動車、生成AIを活用した車載システム「AutoDJ」を発表　マスコット「Eporo」がドライバーと会話</title>
-      <link>https://ledge.ai/articles/nissan_autodj_eporo_ai_agent_announcement</link>
-      <description><![CDATA[<p>日産自動車は2025年10月24日、生成AIを活用した車載エージェントシステム「AutoDJ（オートディージェイ）」を<a href="https://global.nissannews.com/ja-JP/releases/251024-01-j">発表</a>した。マスコットフィギュア「Eporo（エポロ）」を通じて自然音声で会話し、運転中の案内や目的地の提案、音楽の選曲などを行う“会話型インフォテインメント”として設計されている。</p>
-<p>AutoDJは、車内ダッシュボードに設置するEporoフィギュアとスマートフォンアプリを連動させて動作する。ユーザーが話しかけると、生成AIが内容を理解し、気分や状況に合わせてドライブを支援する。たとえば、目的地を提案したり、観光情報や天気を教えたり、ドライブに合った音楽を再生したりすることが可能だ。
-キャラクターの音声や性格は複数のバリエーションから選択できる。日産は、ドライバーの好みや運転スタイルに合わせてEporoの“人格”をカスタマイズできる点を特徴としており、単なるナビゲーション機能ではなく、車内で共に過ごす「パートナーAI」としての体験を目指す。</p>
-<p>@<a href="https://www.youtube.com/watch?v=LLdSyRsqup4">YouTube</a></p>
-<p>AutoDJは、同社が2000年代から展開してきた車載オーディオ機能「AutoDJ」を再構築したもので、生成AI技術の進化を取り入れた新しい形の車載エージェントとなる。Eporoのフィギュアを物理的に設置する点も特徴で、AIによるデジタル体験と、手に触れられる“フィジカルな存在感”を融合している。
-発表時点では、対応車種や市販時期は明らかにされていない。日産は今後、AutoDJを「Nissan Intelligent Mobility（ニッサン・インテリジェント・モビリティ）」の一環として展開し、AIを活用した車内エクスペリエンスの拡張を進めるとしている。</p>
-]]></description>
-      <pubDate>Wed, 29 Oct 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
