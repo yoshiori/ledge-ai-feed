@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIとAWS、7年・380億ドルの戦略的提携を発表──数十万GPUとUltraServersでAI基盤を拡充</title>
+      <link>https://ledge.ai/articles/openai_aws_multi_year_partnership_2025</link>
+      <description><![CDATA[<p>2025年11月3日（現地時間）、OpenAIとAmazon傘下のAmazon Web Services（AWS）は、複数年にわたる戦略的パートナーシップを締結したと<a href="https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure">発表</a>した。</p>
+<p>OpenAIは発表当日からAWS上で主要AIワークロードの稼働を開始しており、契約総額は今後7年間で380億ドル（約5.8兆円）にのぼる。数十万規模のNVIDIAチップを備えたUltraServersを活用し、AIトレーニングと推論の両面で大規模な計算基盤を構築する。</p>
+<h2>OpenAIのAIワークロードをAWSで稼働</h2>
+<p>今回の提携により、OpenAIはAWSのインフラを活用してChatGPTをはじめとする主要サービスや次世代モデルのトレーニングを実行する。AWSは「immediate availability（即時利用可能）」を強調し、提携発表と同時にOpenAIのワークロードを稼働させたと説明している。</p>
+<p>契約期間は7年間で、OpenAIはAWS上に総額380億ドル規模のコンピューティング・キャパシティを確保。2026年末までに全リソースを配備することを目標とし、状況に応じて2027年以降の拡張も検討されている。</p>
+<h2>GB200/GB300世代GPUとUltraServersを採用</h2>
+<p>AWSは、最新のNVIDIA GB200およびGB300世代チップを搭載した「Amazon EC2 UltraServers」を提供。これにより、OpenAIは数十万規模のNVIDIAチップと数千万CPUを同一ネットワーク上で動作させ、AI学習や推論を高効率に処理できる。</p>
+<p><strong>AWSのデータセンター外観。今後数十万規模のGPUクラスタを展開予定</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_71f1f7cec4/2_71f1f7cec4.jpg" alt="ダウンロード (2).jpg" /></p>
+<p>クラスタは低レイテンシの相互接続を備え、複数データセンターを単一の高性能ファブリックとして動作させる設計。AWSはこれを「最適化された大規模AIワークロード環境」と位置づけている。</p>
+<p><strong>AWSインフラ内部。UltraServers間を接続するネットワークケーブル群</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/7_17c982221d/7_17c982221d.jpg" alt="ダウンロード (7).jpg" /></p>
+<p>OpenAI CEOのサム・アルトマン氏は「フロンティアAIを安全にスケーリングするためには、massive, reliable computeが不可欠だ」と述べ、今回の提携が「advanced AI to everyone（すべての人に先進的AIを届ける）」基盤となると語った。AWS CEOのマット・ガーマン氏は「OpenAIの膨大なワークロードを支えるbest-in-class infrastructureを提供できることを誇りに思う」とコメントしている。</p>
+<h2>今後の展開</h2>
+<p>リリースでは、Amazon Bedrock上でOpenAIのオープンウェイト基盤モデルが利用可能になったことにも言及。すでにBystreet、Comscore、Peloton、Thomson Reuters、Triomics、Verana Healthなど数千社が導入を開始しているという。</p>
+<p>AWSは、2026年末までに全キャパシティの配備を完了させる計画を示している。今回の契約により、OpenAIはAWS上でAIモデルのトレーニングおよび推論を長期的に実施できる環境を確保した。両社は今後もAIインフラの拡張と最適化を進め、安定した計算リソースの提供を継続する方針だ。</p>
+]]></description>
+      <pubDate>Tue, 04 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
       <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
       <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
