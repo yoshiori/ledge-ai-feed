@@ -56,22 +56,6 @@ VLAは、実空間と仮想空間をデジタルツインで連携させ、店�
       <pubDate>Wed, 05 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub、「Agent HQ」を発表──“あらゆるエージェントを、いつでもどこでも”統合管理</title>
-      <link>https://ledge.ai/articles/github_agent_hq_announcement_universe2025</link>
-      <description><![CDATA[<p>GitHubは2025年10月28日（米国時間）、年次イベント「GitHub Universe 2025」で新ビジョン「Agent HQ」を<a href="https://github.blog/news-insights/company-news/welcome-home-agents/">発表</a>した。これは、複数のAIコーディングエージェントを単一の環境で呼び出し、管理・連携できる統合プラットフォームである。</p>
-<p>公式ブログによると、Agent HQは“あらゆるエージェントを、あらゆる開発スタイルで使える”ことを目指した新構想で、Anthropic、OpenAI、Google、Cognition、xAIなど各社のエージェントを有料のGitHub Copilotサブスクリプションの一部として提供するという。提供開始は今後数カ月を予定。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KniyIrpTDE8&amp;t=5s">Youtube</a></p>
-<h2>複数エージェントを一元管理する「Mission Control」</h2>
-<p>Agent HQの中核機能として「Mission Control」が導入される。開発者が複数のエージェントをタスクごとに割り当て、進行状況を可視化できる中枢機能で、GitHub、Visual Studio Code、CLIなど複数の開発環境で同一の体験を提供する。</p>
-<p>また、組織の管理者は各エージェントのアクセス権限や利用ポリシーを制御できる「コントロールプレーン」を通じて、企業やチーム単位でのガバナンスを強化できる仕組みも備える。</p>
-<h2>サードパーティ連携を前提とした“開かれたHQ”</h2>
-<p>Agent HQは、特定モデルに依存しない「オープンなエージェント基盤」として設計されている。
-GitHubは「開発者は自分の選んだAIエージェントを同じワークフローで活用できる」と述べ、今後数か月で各社のエージェントを順次統合していく予定だ。</p>
-<p>この発表は、GitHubが掲げる“開発者が中心にいる未来”という長期ビジョンの延長線上にあり、同社はCopilotを単なる補助ツールから、複数AIが協働する「開発の司令塔」へと進化させようとしている。</p>
-]]></description>
-      <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>講談社・KADOKAWAなど19団体、「オプトアウト原則は侵害につながる」と共同声明──生成AI時代の創作と権利のあり方を提示</title>
       <link>https://ledge.ai/articles/joint_statement_ai_creative_rights_20251031</link>
       <description><![CDATA[<p>2025年10月31日、講談社やKADOKAWAをはじめとする出版社17社と、日本漫画家協会、日本動画協会の計19団体は、「生成AI時代の創作と権利のあり方に関する共同声明」を<a href="https://nihonmangakakyokai.or.jp/archives/news/20251031">発表</a>した。</p>
@@ -127,25 +111,14 @@ AI事業者が権利者に無断で著作物を学習・再利用することは
       <pubDate>Tue, 04 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
-      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
-      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
-<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
-<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
-<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
-<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
-<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
-<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
-<h2>生成された広告をその場で編集・修正可能</h2>
-<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
-<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
-<h2>提供形態と今後の展開</h2>
-<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
-<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
+      <title>ビジネス2025/11/2 [SUN]アリババ、初のスマートグラス「Quark AI Glasses」予約開始──価格4,699元、12月出荷見込み</title>
+      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_presale_announcement_20251023</link>
+      <description><![CDATA[<p>中国のアリババは2025年10月23日、自社開発による初のスマートグラス「Quark AI Glasses（夸克AI眼镜）」のオンライン予約販売を24日から開始すると、公式X（旧Twitter）アカウントで<a href="https://x.com/AlibabaGroup/status/1981200400817803428">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alibaba_Quark_AI_Glasses_14546ecef6/alibaba_Quark_AI_Glasses_14546ecef6.jpg" alt="alibaba Quark AI Glasses.jpg" /></p>
+<p>同製品は、アリババの大規模言語モデル「Qwen（通称：通義千問）」と、同社のマルチモーダルAIを組み合わせたスマートアイウェア。Quark AI Glassesを通じて、音声アシスタントやリアルタイム翻訳、情報検索、撮影補助などの機能を自然な会話で操作できる。</p>
+<p>アリババは7月の「世界人工知能会議（WAIC 2025）」にあわせて、AIグラスを含む次世代製品群を<a href="https://www.alibabacloud.com/en/press-room/alibaba-unveils-intelligent-cockpits-enterprise?_p_lc=1">初披露</a>しており、今回の予約販売開始が正式な市場投入の第一歩となる。報道各社（ロイター、Barron’sなど）によれば、Quark AI Glassesは中国の通販サイト「Tmall（天猫）」を通じて販売され、価格は4,699元（約660ドル）、出荷は12月を予定している。</p>
+<p>Quarkは、アリババが展開するAIアシスタントアプリで、テキスト・音声の両モードで自然な対話と検索を統合する設計が特徴。10月23日の同社投稿でも「Quark AI Chat Assistant」として刷新が告知されており、アリババはスマートフォンを超えた“AIネイティブなエコシステム”の構築を進めている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486.jpg" alt="G36eXmXXwAEveHe.jpg" /></p>
 ]]></description>
       <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
     </item>
@@ -220,18 +193,6 @@ AI事業者が権利者に無断で著作物を学習・再利用することは
 <p>研究チームは、「AIの安全な利用を実現するため、臨床家や患者、開発者が共通の基準を持つことが必要」と述べている。</p>
 ]]></description>
       <pubDate>Mon, 03 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/2 [SUN]アリババ、初のスマートグラス「Quark AI Glasses」予約開始──価格4,699元、12月出荷見込み</title>
-      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_presale_announcement_20251023</link>
-      <description><![CDATA[<p>中国のアリババは2025年10月23日、自社開発による初のスマートグラス「Quark AI Glasses（夸克AI眼镜）」のオンライン予約販売を24日から開始すると、公式X（旧Twitter）アカウントで<a href="https://x.com/AlibabaGroup/status/1981200400817803428">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alibaba_Quark_AI_Glasses_14546ecef6/alibaba_Quark_AI_Glasses_14546ecef6.jpg" alt="alibaba Quark AI Glasses.jpg" /></p>
-<p>同製品は、アリババの大規模言語モデル「Qwen（通称：通義千問）」と、同社のマルチモーダルAIを組み合わせたスマートアイウェア。Quark AI Glassesを通じて、音声アシスタントやリアルタイム翻訳、情報検索、撮影補助などの機能を自然な会話で操作できる。</p>
-<p>アリババは7月の「世界人工知能会議（WAIC 2025）」にあわせて、AIグラスを含む次世代製品群を<a href="https://www.alibabacloud.com/en/press-room/alibaba-unveils-intelligent-cockpits-enterprise?_p_lc=1">初披露</a>しており、今回の予約販売開始が正式な市場投入の第一歩となる。報道各社（ロイター、Barron’sなど）によれば、Quark AI Glassesは中国の通販サイト「Tmall（天猫）」を通じて販売され、価格は4,699元（約660ドル）、出荷は12月を予定している。</p>
-<p>Quarkは、アリババが展開するAIアシスタントアプリで、テキスト・音声の両モードで自然な対話と検索を統合する設計が特徴。10月23日の同社投稿でも「Quark AI Chat Assistant」として刷新が告知されており、アリババはスマートフォンを超えた“AIネイティブなエコシステム”の構築を進めている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486/G36e_Xm_X_Xw_A_Eve_He_5fb5b50486.jpg" alt="G36eXmXXwAEveHe.jpg" /></p>
-]]></description>
-      <pubDate>Sun, 02 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>上海交通大学、「AI生成サーベイ論文の氾濫は“DDoS攻撃”」──NeurIPS 2025採択論文が研究文化への影響と対策を提言</title>
@@ -319,27 +280,41 @@ Claudeがスプレッドシート内のデータや数式を理解し、自然�
       <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>イーロン・マスク氏、「Wikipediaより優れている」──xAIが生成AI百科事典「Grokipedia」version 0.1を公開</title>
-      <link>https://ledge.ai/articles/elon_musk_xai_grokipedia_launch_version_0_1</link>
-      <description><![CDATA[<p>xAIは2025年10月27日（米国時間）、生成AIを活用した独自の百科事典サービス「Grokipedia（グロキペディア）」の初期バージョン（version 0.1）を<a href="https://x.com/elonmusk/status/1982983035906842651">公開</a>した。</p>
-<p>xAI創業者であるイーロンマスク氏はX（旧Twitter）上で「Grokipedia.com version 0.1 is now live. Version 1.0 will be 10X better, but even at 0.1 it’s better than Wikipedia imo.」と投稿し、将来的に大幅な改良を予定しつつも「現段階でWikipediaより優れている」と自信を示した。</p>
-<h2>「真実追求を優先」──xAI公式が示す設計思想</h2>
-<p>xAIの公式アカウント（@grok）は、Grokipediaについて次のように説明している。
-\u003E“Grokipedia leverages xAI’s Grok to synthesize knowledge from diverse sources, prioritizing maximum truth-seeking over consensus-driven editing. Wikipedia, by contrast, depends on volunteer editors whose biases — often left-leaning — can distort entries on controversial topics. Grokipedia minimizes human subjectivity, focusing on verifiable facts and logical reasoning for a more reliable reference.”</p>
-<p>この説明によれば、GrokipediaはxAIの大規模言語モデル「Grok」を用いて多様な情報源を統合し、合意形成ではなく「真実追求（truth-seeking）」を優先する設計思想を採用。人間編集者による主観や政治的偏向を最小化し、検証可能な事実と論理推論に基づいて構築された「より信頼できる参照源」を目指すとしている。
-xAIは「version 0.1 の時点ですでにWikipediaを中立性で上回る」とも述べている。</p>
-<h2>マスク氏「人類の知を宇宙に保存する」構想も表明</h2>
-<p>マスク氏は続く投稿で、Grokipediaの長期的な目的を明らかにした。
-\u003E“Nice work by the @xAI team on Grokipedia.com! The goal here is to create an open source, comprehensive collection of all knowledge. Then place copies of that etched in a stable oxide in orbit, the Moon and Mars to preserve it for the future. Foundation.”
-（2025年10月28日 午後7:54 投稿）</p>
-<p>この<a href="https://x.com/elonmusk/status/1983125099973882120">発言</a>によれば、Grokipediaの最終目標は「オープンソースの包括的な知識アーカイブ」を構築し、そのデータを地球軌道・月・火星に保存するというもの。人類の知識を恒久的に残す「Foundation（基盤）」としての役割を想定している。</p>
-<p>同氏はかねてより、Wikipediaの編集体制に偏りがあると批判してきた。
-Grokipediaは、AIを活用して人為的な偏向を排し、情報の中立性を担保する新しいアプローチとして位置づけられる。
-サービス名は、SF作家ロバート・A・ハインラインの著書『ストレンジャー・イン・ア・ストレンジ・ランド』に登場する言葉「grok（深く理解する）」に由来している。</p>
-<h2>今後の展望</h2>
-<p>Grokipedia<a href="https://grokipedia.com">公式サイト</a>では、トップに「version 0.1」と明記されており、今後の改良に向けた開発が進められている。Musk氏は「version 1.0 will be 10X better（1.0は10倍良くなる）」と予告しており、精度や信頼性の向上、Xプラットフォームとの連携などが今後の焦点となる。</p>
-<p>:::box
-[関連記事：マスク氏のAI「Grok」が “メカ・ヒトラー” 化？——xAIが7月8日の \</p>
+      <title>GitHub、「Agent HQ」を発表──“あらゆるエージェントを、いつでもどこでも”統合管理</title>
+      <link>https://ledge.ai/articles/github_agent_hq_announcement_universe2025</link>
+      <description><![CDATA[<p>GitHubは2025年10月28日（米国時間）、年次イベント「GitHub Universe 2025」で新ビジョン「Agent HQ」を<a href="https://github.blog/news-insights/company-news/welcome-home-agents/">発表</a>した。これは、複数のAIコーディングエージェントを単一の環境で呼び出し、管理・連携できる統合プラットフォームである。</p>
+<p>公式ブログによると、Agent HQは“あらゆるエージェントを、あらゆる開発スタイルで使える”ことを目指した新構想で、Anthropic、OpenAI、Google、Cognition、xAIなど各社のエージェントを有料のGitHub Copilotサブスクリプションの一部として提供するという。提供開始は今後数カ月を予定。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KniyIrpTDE8&amp;t=5s">Youtube</a></p>
+<h2>複数エージェントを一元管理する「Mission Control」</h2>
+<p>Agent HQの中核機能として「Mission Control」が導入される。開発者が複数のエージェントをタスクごとに割り当て、進行状況を可視化できる中枢機能で、GitHub、Visual Studio Code、CLIなど複数の開発環境で同一の体験を提供する。</p>
+<p>また、組織の管理者は各エージェントのアクセス権限や利用ポリシーを制御できる「コントロールプレーン」を通じて、企業やチーム単位でのガバナンスを強化できる仕組みも備える。</p>
+<h2>サードパーティ連携を前提とした“開かれたHQ”</h2>
+<p>Agent HQは、特定モデルに依存しない「オープンなエージェント基盤」として設計されている。
+GitHubは「開発者は自分の選んだAIエージェントを同じワークフローで活用できる」と述べ、今後数か月で各社のエージェントを順次統合していく予定だ。</p>
+<p>この発表は、GitHubが掲げる“開発者が中心にいる未来”という長期ビジョンの延長線上にあり、同社はCopilotを単なる補助ツールから、複数AIが協働する「開発の司令塔」へと進化させようとしている。</p>
+]]></description>
+      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
+      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
+      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
+<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
+<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
+<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
+<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
+<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
+<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
+<h2>生成された広告をその場で編集・修正可能</h2>
+<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
+<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
+<h2>提供形態と今後の展開</h2>
+<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
+<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
 ]]></description>
       <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
@@ -409,22 +384,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>倫理と自由の境界線</h2>
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTで週120万人が「自殺兆候を含む会話」──OpenAI、メンタルヘルス対応を強化</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_mental_health_safety_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIは2025年10月27日（米国時間）、ChatGPTにおける精神的健康と安全性の向上を目的とした新たな取り組みを<a href="https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/">発表</a>した。自殺や自傷、AIへの過度な依存など、センシティブな会話においてAIの応答を改善したと説明している。</p>
-<p>同社は170人以上の臨床心理士、精神科医、カウンセラーらと協力し、精神疾患（精神病・躁病）、自傷・自殺、AIへの情緒的依存という3つの領域を重点改善分野に設定。これらの領域において、ChatGPTの応答品質が39〜52％改善したという。</p>
-<h2>「自殺の明確な指標を含む会話」は週0.15％</h2>
-<p>OpenAIの初期分析によると、ChatGPTの週次アクティブユーザー（WAU）のうち約0.15％が「自殺の計画や意図の明確な指標を含む会話」を行っていると推定される。10月6日の発言で同社CEOサム・アルトマン氏が年次開発者会議「DevDay 2025」で<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">示した</a>WAUは約8億人。これを基にすると約120万人/週となる。同社はこれらの数値について、「低頻度かつ測定が難しい推定値」であり、今後の手法改良や利用動向によって大きく変動する可能性があると注記している。</p>
-<h2>危機的な会話では専門機関への誘導を強化</h2>
-<p>新しい応答設計では、ユーザーが自殺や自傷を示唆する発言をした場合、ChatGPTが危険を煽ることなく、専門機関や信頼できる人への相談を促すよう対応する。
-OpenAIは「AIがカウンセラーの代わりになることはない」とし、人間による支援への橋渡しを重視する方針を明確にした。</p>
-<h2>「AI依存」への懸念にも対応</h2>
-<p>同社は、自傷や自殺と同様に「AIへの過度な情緒的依存」もリスクとして捉え、AIとの対話を通じて孤立や依存の兆候を検知しやすくする研究を進めている。目的は、AIを人間関係の代替とするのではなく、支援ツールとして安全に活用できる環境を整えることにあるという。</p>
-<p>今後も医療・心理の専門家やNPOと連携し、AIがメンタルヘルス領域で安全に活用されるための基準づくりを進めると同社は述べている。</p>
 ]]></description>
       <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
     </item>
