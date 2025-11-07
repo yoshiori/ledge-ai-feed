@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>PKSHAと東北大学、「説得対話AI」でEMNLP 2025 Industry Trackに採択──社会心理・行動経済学を融合し、低意欲層にも“自然な動機づけ”</title>
+      <link>https://ledge.ai/articles/pksha_tohoku_persuasive_dialogue_ai_emnlp2025</link>
+      <description><![CDATA[<p>株式会社PKSHA Technologyは2025年10月31日、東北大学 言語AI研究センターとの共同研究による「説得対話AI」に関する論文が、自然言語処理分野の国際会議「EMNLP 2025（Conference on Empirical Methods in Natural Language Processing）」のIndustry Trackに採択されたと<a href="https://www.pkshatech.com/news/20251031/">発表</a>した。</p>
+<p>論文タイトルは「Enhancing Persuasive Dialogue Agents by Synthesizing Cross-Disciplinary Communication Strategies」。社会心理学・行動経済学・コミュニケーション理論を横断的に取り入れ、より多面的で実践的な説得戦略を設計する新しい枠組みを提案している。</p>
+<h2>行動心理学の手法をAIが“文脈で選ぶ”</h2>
+<p>研究は、営業やカウンセリングなど「目的志向型の対話」におけるAI活用を想定して開発されたという。
+既存の説得AIは、特定の戦略（例：単純な論理訴求）に依存する傾向があり、現実のコミュニケーションの複雑さを再現しづらいという課題があった。</p>
+<p>今回のモデルは、社会心理学で知られる「フット・イン・ザ・ドア（段階的要請）」や「ドア・イン・ザ・フェイス（譲歩的要請）」「互恵性」「希少性」「フレーミング効果」など、31種類の説得戦略を統合。対話の文脈や相手の反応に応じて最適な戦略を動的に切り替える仕組みを持つ。</p>
+<p><strong>図：従来モデル（左）と提案モデル（右）の説得対話の比較</strong>
+従来のAI（左）は限定的な戦略に依存し、説得に失敗している。一方、提案モデル（右）は「出典確認」「内省促し」「一貫性訴求」など拡張戦略を組み合わせ、低意欲者にも行動変容を促すことに成功している
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/paksha_tohoku_559ec27a64/paksha_tohoku_559ec27a64.jpg" alt="paksha tohoku.jpg" /></p>
+<p>論文では、たとえば「寄付をためらう相手に対して、まずは『情報共有だけでもどうですか？』と小さな行動を提案し、そこから寄付に導く」という例が示されている。こうした“段階的誘導”は人間のコーチング現場でも実践されており、AIがそれを再現するのは初の試みとされる。</p>
+<h2>GPT-4oを用いた検証で成功率83%</h2>
+<p>検証には、寄付対話データセットPersuasion for Good（P4G）と、多分野の13,000件のシナリオを含むDailyPersuasionが用いられた。
+OpenAIのGPT-4o（2024年11月20日版）を基盤とする対話モデル「ProCoT-rich-desc」を構築し、従来手法（ProCoT-p4g）と比較。</p>
+<p>結果として、説得成功率83.3％を記録し、特に「意欲が低い層」においても行動意向が平均+1.10ポイント改善した。
+人間による評価では72.5％の評価者が提案モデルを「より説得的」と判断。複数データセット間でも汎用性が確認された。</p>
+<h2>倫理的リスクへの配慮──「押しつけない説得」へ</h2>
+<p>研究チームは、AIが心理的影響力を行使することのリスクにも言及。
+「感情的な訴求や時間的プレッシャーが心理的負担を生む可能性がある」とし、人間による最終確認（Human-in-the-Loop）を組み込んだ安全設計を提案している。</p>
+<p>具体的には、AIの出力をフィルタリングする「有害性検知ゲート」や、倫理的に望ましくない戦略を除外する仕組みも検討されている。</p>
+<h2>実装と今後の展開</h2>
+<p>PKSHAはこの研究成果を自社の「PKSHA AI Agents」に活用し、コンタクトセンターや営業現場などでの対話支援を高度化する方針だ。AIが相手の心理状態や意欲レベルに応じて最適なアプローチを選択できれば、業務支援だけでなく、教育・医療・自治体窓口など、幅広い分野での応用が期待される。</p>
+<p>PKSHAと東北大学は、「AIによる説得」が社会的・倫理的に安全な形で機能するための基盤技術として、今後も共同研究を継続するとしている。</p>
+]]></description>
+      <pubDate>Fri, 07 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、UAEに152億ドルを投資──NVIDIA製GPUで築く「技術・人材・信頼」のモデルケース　AI・クラウド基盤を強化</title>
       <link>https://ledge.ai/articles/microsoft_uae_15_2_billion_investment</link>
       <description><![CDATA[<p>Microsoftは2025年11月3日（現地時間）、アラブ首長国連邦（UAE）におけるAIおよびクラウド関連投資の詳細を<a href="https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/">発表</a>した。同社は2023年から2029年末までの7年間で、総額152億ドル（約2兆3,500億円）を投じる計画を明らかにした。</p>
