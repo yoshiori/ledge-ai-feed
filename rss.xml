@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Perplexity、AI特許検索エージェント「Perplexity Patents」を発表──自然言語で特許・技術情報を横断検索</title>
+      <link>https://ledge.ai/articles/perplexity_patents_beta_launch_20251030</link>
+      <description><![CDATA[<p>Perplexityは2025年10月30日（米国時間）、AIを活用した特許検索サービス「Perplexity Patents」を正式に<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-patents">発表</a>した。</p>
+<p>世界初の「AI特許研究エージェント」として、専門知識がなくても自然言語で特許文献を検索できる機能を備え、知的財産（IP）インテリジェンスへのアクセスを一般化することを目指すという。</p>
+<h2>自然言語で特許を検索</h2>
+<p>Perplexity Patentsは、自然言語で入力された質問に基づき、関連する特許を提示する検索エージェント。ユーザーは「Are there any patents on AI for language learning?（言語学習向けAIに関する特許はありますか？）」や「Key quantum computing patents since 2024?（2024年以降の主要な量子コンピューティング関連特許は？）」といった文章で検索できる。</p>
+<p>AIが特許指向の質問を自動的に理解し、関連特許の一覧と出典を表示する。結果はインラインビューア上で閲覧でき、元の特許文書へのリンクも含まれる。会話形式のインターフェースを採用し、追加質問や比較も継続的に行える。関連するトピックの提案も表示される。</p>
+<h2>特徴と仕組み</h2>
+<p>Perplexity Patentsは、従来のキーワード一致検索では検出できない先行技術を抽出できる。
+例えば「fitness trackers」で検索した場合、「activity bands」「step-counting watches」「health monitoring wearables」などの語を含む特許も提示される。</p>
+<p>同社によれば、バックエンドでは特許専用の知識インデックスを活用し、AIリサーチエージェントが複雑なクエリを情報検索タスクに分解して処理する。これにより、数十から数百件の関連文書を参照した回答が生成される。</p>
+<h2>検索対象の拡張</h2>
+<p>Perplexity Patentsは、特許文献に加えて、学術論文、ソフトウェアリポジトリ、ブログ、動画など、特許以外の技術情報も検索対象に含める。同社は「新しい発明や技術は、特許の枠にとどまらない形で現れることがある」としている。</p>
+<h2>提供開始と利用条件</h2>
+<p>サービスはベータ版として全世界で提供を開始した。
+ベータ期間中は無料で利用でき、ProおよびMaxプランのユーザーは追加の使用クォータやモデル設定オプションを利用可能。</p>
+<p>公式ブログで同社は「特許は人類の創意と探究心の記録であり、Perplexity Patentsはその知識に迅速にアクセスできる手段を提供する」と述べている。</p>
+]]></description>
+      <pubDate>Thu, 06 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>KDDI×ローソン、「ローソン S」高輪本社店でAI×ロボット実証　11月8日開始</title>
       <link>https://ledge.ai/articles/lawson_kddi_vla_ai_robot_store</link>
       <description><![CDATA[<p>KDDI株式会社と株式会社ローソンは2025年10月28日、AI技術とロボットを組み合わせた店舗デジタル化の実証を、11月8日から「ローソン S KDDI高輪本社店」（東京都港区）で開始すると<a href="https://www.lawson.co.jp/company/news/detail/1512018_2504.html">発表</a>した。両社が共同で実施し、小売店舗の省人化や業務効率化を目的としている。</p>
@@ -445,26 +466,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>今後もAmazonは、AI・クラウド・物流などの「戦略的重点領域」では採用を継続しつつ、その他の部門では組織構造の見直しを行うという。同氏は最後に、「これによりAmazonは、よりシンプルで、所有権を持って行動できる組織になる」と述べ、長期的な競争力と持続的成長への意欲を示した。</p>
 ]]></description>
       <pubDate>Fri, 31 Oct 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>声の権利をAIで守る、NTT西日本の新事業「VOICENCE」開始──声優・俳優らの音声IPを安全に活用へ</title>
-      <link>https://ledge.ai/articles/ntt_west_voicence_voice_ai_rights_launch</link>
-      <description><![CDATA[<p>NTT西日本は2025年10月27日、声優・俳優・タレントなど実演家の“声の権利（音声IP）”を保護し、AI技術によってその価値を高める新事業「VOICENCE（ヴォイセンス）」を開始したと<a href="https://www.ntt-west.co.jp/news/2510/251027b.html">発表</a>した。
-音声の真正性を保証するデジタル基盤を整備し、生成AI時代における“声の知的財産”の新たな活用モデルを目指す。</p>
-<h2>声の権利を守り、AIで価値を高める</h2>
-<p>「VOICENCE」は、声優や俳優、タレントなどの声を個人の知的財産として捉え、デジタル技術で権利を守りながら安全に活用するための仕組み。声の利用には本人の同意を前提とし、権利者・制作側・利用者の三者が安心して取引できる音声流通プラットフォームを構築する。</p>
-<p>同社は、音声の発話者を証明する技術を組み合わせることで“声のトレーサビリティ”を実現。AI合成や音声変換などが進む中で、無断利用やフェイク音声の拡散を防ぐ狙いだ。</p>
-<h2>ブロックチェーンとAI音声技術を活用</h2>
-<p>プラットフォームでは、音声データの真正性を担保するためにブロックチェーン技術を活用。改ざん防止と権利情報の一元管理を行い、利用履歴を透明化する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251027bc_bfdd13602b/251027bc_bfdd13602b.png" alt="251027bc.png" /></p>
-<p>さらに、NTTグループが開発するAI音声技術を組み合わせ、登録された声のAI合成や多言語化、印象制御なども可能とする。これにより、声優や俳優の声を“公認AI音声”として多分野で展開できる。</p>
-<h2>実演家と連携し、新たな音声市場を創出</h2>
-<p>NTT西日本は今後、実演家・制作会社・タレント事務所などと連携し、音声広告、ナレーション、教育、観光といった幅広い分野への応用を進める。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251027bd_52e4134013/251027bd_52e4134013.jpg" alt="251027bd.jpg" /></p>
-<p>同社は「声の真正性を保証することで、新しい音声経済圏を形成し、文化・産業の発展に寄与する」としている。
-2025年度中には、音声IPの登録・管理・認証機能を本格運用する予定。中長期的には国内外での展開を視野に、AIと人間の“声の共創”を推進していく方針だ。</p>
-]]></description>
-      <pubDate>Fri, 31 Oct 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
