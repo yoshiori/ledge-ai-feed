@@ -5,6 +5,24 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
+      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
+      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
+<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
+<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
+<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
+この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
+<h2>SNSで広がった「nice filter」論争</h2>
+<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
+<h2>「当たり障りないフィルター」の正体</h2>
+<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
+<h2>“辛口AI”の効用と注意点</h2>
+<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
+]]></description>
+      <pubDate>Fri, 07 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ソフトバンクとOpenAI、日本に合弁会社「SB OAI Japan」を設立──企業経営を変革するAI「クリスタル・インテリジェンス」を2026年展開へ</title>
       <link>https://ledge.ai/articles/softbank_openai_sb_oai_japan_crystal_intelligence_launch</link>
       <description><![CDATA[<p>ソフトバンクグループとOpenAIは2025年11月5日、AIによる企業経営の変革を目的とした合弁会社「SB OAI Japan合同会社（SB OAI Japan GK）」を設立したと<a href="https://www.softbank.jp/corp/set/data/news/press/sbkk/2025/20251105_02/pdf/20251105_02.pdf">発表</a>した。新会社は、OpenAIの技術を活用した法人向けAIソリューション「クリスタル・インテリジェンス（Crystal intelligence）」を2026年に日本国内で独占展開する。</p>
