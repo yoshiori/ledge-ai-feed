@@ -292,6 +292,25 @@ Claudeがスプレッドシート内のデータや数式を理解し、自然�
       <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、AIリテラシー教材を公開──教育者・学生・家庭向けに専用リソースを提供</title>
+      <link>https://ledge.ai/articles/google_ai_literacy_resources_launch</link>
+      <description><![CDATA[<p>Googleは2025年9月9日（米国時間）、教育者・学習者・保護者が生成AIを安全かつ責任を持って活用できるよう設計した教材とトレーニングを集約する新サイト「Build AI knowledge and literacy」を<a href="https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/">公開</a>した。初等中等・高等教育・大学・家庭の各領域に向けて、レッスンプランや教師研修、プロンプト基礎コース、DeepMindとRaspberry Pi Foundationの共同教材「Experience AI」、ゲーム型学習「AI Quests」などを提供し、現場でのAIリテラシー育成を体系化する。</p>
+<p>サイトは「安全性」「透明性」「責任ある利用」を軸に、対象別の教材を体系的に整理している。</p>
+<h2>教師向け（K-12・教育リーダー）</h2>
+<p>教師向けセクションには、GeminiやNotebookLMを授業で活用するための研修プログラム「Generative AI for Educators with Gemini」が用意され、教材設計から実践までを一気通貫で支援する。教育リーダーに向けた「Guide to AI in Education」では、導入ポリシーづくりや評価設計までを網羅し、K-12の現場に適したスターター教材「Get Started with AI for K-12」も揃う。授業内で生成AIを扱う際の留意点や評価観点が整理され、即日活用できる実務志向の内容が特徴だ。</p>
+<h2>大学生・教授向け（高等教育）</h2>
+<p>高等教育向けには、学業・研究・就職準備に結びつくスキル獲得を支援するトレーニングとツール群がまとめられている。効果的なプロンプト設計を基礎から学べるコースが提供され、レポート作成やリサーチ支援、専門領域でのAI活用を見据えた内容となっている。大学の授業や研究活動に自然に組み込める導線が設計されている点も実務的だ。</p>
+<h2>高校生向け（リテラシーと実践）</h2>
+<p>高校生向けには、責任あるAI利用を扱うレッスンプランに加え、Google DeepMindとRaspberry Pi Foundationが共同開発した「Experience AI」が紹介される。さらに、ゲーム形式で課題解決を学ぶ「AI Quests」により、概念理解にとどまらず、模擬的な意思決定や問題解決を通じてAIの可能性と限界を体験的に学べる構成となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a.webp" alt="AI_Quests_-_Landing_Page_1.width-1000.format-webp.webp" /></p>
+<h2>家庭・保護者向け（安全とリテラシー）</h2>
+<p>家庭向けセクションでは、小学生でも取り組みやすいインターネットとAIの安全教育プログラム「Be Internet Awesome」が公開される。保護者向けには動画ガイド「The AI Playbook for Parents」や、専門家がAI時代の子育てを解説するポッドキャスト「Raising kids in the age of AI」が用意され、家庭内のルールづくりや学びの伴走に役立つ実践的なヒントが得られる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=DhpzaLYSUro&amp;list=PLP7Bvyb3ap45NyPGzOxhqn1L8XLgRjtrp&amp;index=3">YouTube</a></p>
+<p>このサイトは、学校や大学、家庭の現場でそのまま使える実装志向のリソースを提供することで、AIの利便性とリスクの双方を踏まえたリテラシーの底上げを狙う。公開の背景と位置づけはGoogle公式ブログで明示され、教材群は専用サイトで継続更新される見込みだ。</p>
+]]></description>
+      <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
       <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
       <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
@@ -384,38 +403,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/10/31 [FRI]OpenAI、2028年に「完全自動AI研究者」実現を目指すロードマップを公開</title>
-      <link>https://ledge.ai/articles/openai_future_roadmap_fully_automated_ai_researcher_2028</link>
-      <description><![CDATA[<p>OpenAIは2025年10月30日（米国時間）、同社の構造改革と今後の展望をテーマにしたライブ配信「Sam, Jakub, and Wojciech on the future of OpenAI with audience Q&amp;A」を実施し、研究・製品・インフラの中長期計画を<a href="https://www.youtube.com/watch?v=ngDCxlZcecw">公表</a>した。
-登壇は、CEOのサム・アルトマン氏（Sam Altman）、チーフサイエンティストのヤクブ・パホツキ氏（Jakub Pachocki）、共同創業者のウォイチェフ・ザレンバ氏（Wojciech Zaremba）の3名。</p>
-<p>配信では、OpenAIが掲げる中長期の研究ロードマップが初めて詳細に共有され、2028年3月までに「完全自動AI研究者（fully automated AI researcher）」を実現するという社内目標が明らかにされた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/we_did_a_livestream_ce2df3ba24/we_did_a_livestream_ce2df3ba24.jpg" alt="we did a livestream.jpg" /></p>
-<h2>研究ロードマップ：2026年に“AI研究インターン”、2028年に“完全自動研究者”へ</h2>
-<p>パホツキ氏は、OpenAIの研究プログラムが「科学的発見の加速と新技術開発の促進」を目的に構築されていると説明し、次の二段階のマイルストーンを示した。</p>
-<ul>
-<li><strong>2026年9月まで</strong> ： 意味のある計算資源を活用し、研究者の生産性を大幅に高められる有能なAI研究インターン（AI research intern）を開発。</li>
-<li><strong>2028年3月まで</strong> ： 大規模な研究プロジェクトを自律的に遂行できる完全自動AI研究者（fully automated AI researcher）を実現。</li>
-</ul>
-<p>パホツキ氏は「これらの日付は絶対ではない」と前置きしながらも、現時点での社内目標を共有。「科学の発見速度を劇的に高める可能性がある」と語った。</p>
-<p>アルトマン氏は、「この取り組みこそがOpenAIの研究プログラムの核心（core thrust）だ」と述べ、GPT-4のリリース（2023年）から約5年後に当たる2028年を重要な節目と位置づけた。同氏はさらに、AIによる科学的発見の進展について「2026年には小さな発見が現れ、2028年には中規模あるいはそれ以上の発見が生まれるだろう」と言及した。</p>
-<h2>スーパーインテリジェンスへの接近</h2>
-<p>パホツキ氏は、OpenAIが「ディープラーニングを理解する研究所」であり、トレーニング規模を拡大することで何が起こるかを探ることが本質的だと説明した。そのうえで、ディープラーニングシステムが多くの領域で人間を超える“スーパーインテリジェンス”に到達するまで10年を切っている可能性があるとの見方を示した。</p>
-<p>指標のひとつとして、モデルが人間と同等の成果を上げるまでに要する時間を挙げ、現在のモデルは国際情報オリンピックなどでトップ人類と肩を並べる水準に達していると説明。今後はアルゴリズム革新とスケーリングによって、その「時間的水平線」が急速に拡大すると予測した。</p>
-<h2>OpenAIのミッションと戦略的柱</h2>
-<p>アルトマン氏は、OpenAIのミッションは非営利法人と公益法人（PBC）の双方において「AGI（汎用人工知能）が全人類に利益をもたらすことを保証する」ことであると改めて表明した。かつてAGIは「神託のような存在」と見なされていたが、現在は「人々が未来を創造するためのツールを構築し、AIで力を与えること」が明確な方向性だと説明した。</p>
-<p>OpenAIの戦略は、次の三つの柱で構成されている。</p>
-<ol>
-<li><strong>研究（Research）</strong> ： AGI構築に必要な研究の成功。</li>
-<li><strong>プロダクト（Product）</strong> ： 誰もが簡単かつ強力にAIを使えるようにする。</li>
-<li><strong>インフラストラクチャ（Infrastructure）</strong> ： 低コストで高性能なAIを提供できる基盤の整備。</li>
-</ol>
-<p>アルトマン氏は「AIが科学の発見を支援することで、社会全体がより良くなり、個人の創造性も飛躍的に向上するだろう」と述べた。</p>
-<p>パホツキ氏は、強力なシステム開発に向けた準備の中で安全性と価値観の整合性（value alignment）を最重視しているとし、「AIが根本的に何を気にかけるのかを理解することが、スーパーインテリジェンス時代の長期的安全性の核心だ」と語った。</p>
-<p>ザレンバ氏も加わり、質疑応答では研究の方向性や安全性、社会的インパクトに関する質問に答えながら、OpenAIが今後も透明性をもって議論を続けていく姿勢を示した。</p>
-]]></description>
-      <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>講談社・KADOKAWAなど19団体、「オプトアウト原則は侵害につながる」と共同声明──生成AI時代の創作と権利のあり方を提示</title>
       <link>https://ledge.ai/articles/joint_statement_ai_creative_rights_20251031</link>
       <description><![CDATA[<p>2025年10月31日、講談社やKADOKAWAをはじめとする出版社17社と、日本漫画家協会、日本動画協会の計19団体は、「生成AI時代の創作と権利のあり方に関する共同声明」を<a href="https://nihonmangakakyokai.or.jp/archives/news/20251031">発表</a>した。</p>
@@ -469,6 +456,22 @@ AI事業者が権利者に無断で著作物を学習・再利用することは
 <p>AWSは、2026年末までに全キャパシティの配備を完了させる計画を示している。今回の契約により、OpenAIはAWS上でAIモデルのトレーニングおよび推論を長期的に実施できる環境を確保した。両社は今後もAIインフラの拡張と最適化を進め、安定した計算リソースの提供を継続する方針だ。</p>
 ]]></description>
       <pubDate>Tue, 04 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub、「Agent HQ」を発表──“あらゆるエージェントを、いつでもどこでも”統合管理</title>
+      <link>https://ledge.ai/articles/github_agent_hq_announcement_universe2025</link>
+      <description><![CDATA[<p>GitHubは2025年10月28日（米国時間）、年次イベント「GitHub Universe 2025」で新ビジョン「Agent HQ」を<a href="https://github.blog/news-insights/company-news/welcome-home-agents/">発表</a>した。これは、複数のAIコーディングエージェントを単一の環境で呼び出し、管理・連携できる統合プラットフォームである。</p>
+<p>公式ブログによると、Agent HQは“あらゆるエージェントを、あらゆる開発スタイルで使える”ことを目指した新構想で、Anthropic、OpenAI、Google、Cognition、xAIなど各社のエージェントを有料のGitHub Copilotサブスクリプションの一部として提供するという。提供開始は今後数カ月を予定。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KniyIrpTDE8&amp;t=5s">Youtube</a></p>
+<h2>複数エージェントを一元管理する「Mission Control」</h2>
+<p>Agent HQの中核機能として「Mission Control」が導入される。開発者が複数のエージェントをタスクごとに割り当て、進行状況を可視化できる中枢機能で、GitHub、Visual Studio Code、CLIなど複数の開発環境で同一の体験を提供する。</p>
+<p>また、組織の管理者は各エージェントのアクセス権限や利用ポリシーを制御できる「コントロールプレーン」を通じて、企業やチーム単位でのガバナンスを強化できる仕組みも備える。</p>
+<h2>サードパーティ連携を前提とした“開かれたHQ”</h2>
+<p>Agent HQは、特定モデルに依存しない「オープンなエージェント基盤」として設計されている。
+GitHubは「開発者は自分の選んだAIエージェントを同じワークフローで活用できる」と述べ、今後数か月で各社のエージェントを順次統合していく予定だ。</p>
+<p>この発表は、GitHubが掲げる“開発者が中心にいる未来”という長期ビジョンの延長線上にあり、同社はCopilotを単なる補助ツールから、複数AIが協働する「開発の司令塔」へと進化させようとしている。</p>
+]]></description>
+      <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NTT西日本とアイリスオーヤマが業務提携──清掃ロボット「JILBY」にugo技術を採用、AIプラットフォームで現場DXを加速</title>
@@ -572,20 +575,36 @@ AI事業者が権利者に無断で著作物を学習・再利用することは
       <pubDate>Sun, 02 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub、「Agent HQ」を発表──“あらゆるエージェントを、いつでもどこでも”統合管理</title>
-      <link>https://ledge.ai/articles/github_agent_hq_announcement_universe2025</link>
-      <description><![CDATA[<p>GitHubは2025年10月28日（米国時間）、年次イベント「GitHub Universe 2025」で新ビジョン「Agent HQ」を<a href="https://github.blog/news-insights/company-news/welcome-home-agents/">発表</a>した。これは、複数のAIコーディングエージェントを単一の環境で呼び出し、管理・連携できる統合プラットフォームである。</p>
-<p>公式ブログによると、Agent HQは“あらゆるエージェントを、あらゆる開発スタイルで使える”ことを目指した新構想で、Anthropic、OpenAI、Google、Cognition、xAIなど各社のエージェントを有料のGitHub Copilotサブスクリプションの一部として提供するという。提供開始は今後数カ月を予定。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KniyIrpTDE8&amp;t=5s">Youtube</a></p>
-<h2>複数エージェントを一元管理する「Mission Control」</h2>
-<p>Agent HQの中核機能として「Mission Control」が導入される。開発者が複数のエージェントをタスクごとに割り当て、進行状況を可視化できる中枢機能で、GitHub、Visual Studio Code、CLIなど複数の開発環境で同一の体験を提供する。</p>
-<p>また、組織の管理者は各エージェントのアクセス権限や利用ポリシーを制御できる「コントロールプレーン」を通じて、企業やチーム単位でのガバナンスを強化できる仕組みも備える。</p>
-<h2>サードパーティ連携を前提とした“開かれたHQ”</h2>
-<p>Agent HQは、特定モデルに依存しない「オープンなエージェント基盤」として設計されている。
-GitHubは「開発者は自分の選んだAIエージェントを同じワークフローで活用できる」と述べ、今後数か月で各社のエージェントを順次統合していく予定だ。</p>
-<p>この発表は、GitHubが掲げる“開発者が中心にいる未来”という長期ビジョンの延長線上にあり、同社はCopilotを単なる補助ツールから、複数AIが協働する「開発の司令塔」へと進化させようとしている。</p>
+      <title>ビジネス2025/10/31 [FRI]OpenAI、2028年に「完全自動AI研究者」実現を目指すロードマップを公開</title>
+      <link>https://ledge.ai/articles/openai_future_roadmap_fully_automated_ai_researcher_2028</link>
+      <description><![CDATA[<p>OpenAIは2025年10月30日（米国時間）、同社の構造改革と今後の展望をテーマにしたライブ配信「Sam, Jakub, and Wojciech on the future of OpenAI with audience Q&amp;A」を実施し、研究・製品・インフラの中長期計画を<a href="https://www.youtube.com/watch?v=ngDCxlZcecw">公表</a>した。
+登壇は、CEOのサム・アルトマン氏（Sam Altman）、チーフサイエンティストのヤクブ・パホツキ氏（Jakub Pachocki）、共同創業者のウォイチェフ・ザレンバ氏（Wojciech Zaremba）の3名。</p>
+<p>配信では、OpenAIが掲げる中長期の研究ロードマップが初めて詳細に共有され、2028年3月までに「完全自動AI研究者（fully automated AI researcher）」を実現するという社内目標が明らかにされた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/we_did_a_livestream_ce2df3ba24/we_did_a_livestream_ce2df3ba24.jpg" alt="we did a livestream.jpg" /></p>
+<h2>研究ロードマップ：2026年に“AI研究インターン”、2028年に“完全自動研究者”へ</h2>
+<p>パホツキ氏は、OpenAIの研究プログラムが「科学的発見の加速と新技術開発の促進」を目的に構築されていると説明し、次の二段階のマイルストーンを示した。</p>
+<ul>
+<li><strong>2026年9月まで</strong> ： 意味のある計算資源を活用し、研究者の生産性を大幅に高められる有能なAI研究インターン（AI research intern）を開発。</li>
+<li><strong>2028年3月まで</strong> ： 大規模な研究プロジェクトを自律的に遂行できる完全自動AI研究者（fully automated AI researcher）を実現。</li>
+</ul>
+<p>パホツキ氏は「これらの日付は絶対ではない」と前置きしながらも、現時点での社内目標を共有。「科学の発見速度を劇的に高める可能性がある」と語った。</p>
+<p>アルトマン氏は、「この取り組みこそがOpenAIの研究プログラムの核心（core thrust）だ」と述べ、GPT-4のリリース（2023年）から約5年後に当たる2028年を重要な節目と位置づけた。同氏はさらに、AIによる科学的発見の進展について「2026年には小さな発見が現れ、2028年には中規模あるいはそれ以上の発見が生まれるだろう」と言及した。</p>
+<h2>スーパーインテリジェンスへの接近</h2>
+<p>パホツキ氏は、OpenAIが「ディープラーニングを理解する研究所」であり、トレーニング規模を拡大することで何が起こるかを探ることが本質的だと説明した。そのうえで、ディープラーニングシステムが多くの領域で人間を超える“スーパーインテリジェンス”に到達するまで10年を切っている可能性があるとの見方を示した。</p>
+<p>指標のひとつとして、モデルが人間と同等の成果を上げるまでに要する時間を挙げ、現在のモデルは国際情報オリンピックなどでトップ人類と肩を並べる水準に達していると説明。今後はアルゴリズム革新とスケーリングによって、その「時間的水平線」が急速に拡大すると予測した。</p>
+<h2>OpenAIのミッションと戦略的柱</h2>
+<p>アルトマン氏は、OpenAIのミッションは非営利法人と公益法人（PBC）の双方において「AGI（汎用人工知能）が全人類に利益をもたらすことを保証する」ことであると改めて表明した。かつてAGIは「神託のような存在」と見なされていたが、現在は「人々が未来を創造するためのツールを構築し、AIで力を与えること」が明確な方向性だと説明した。</p>
+<p>OpenAIの戦略は、次の三つの柱で構成されている。</p>
+<ol>
+<li><strong>研究（Research）</strong> ： AGI構築に必要な研究の成功。</li>
+<li><strong>プロダクト（Product）</strong> ： 誰もが簡単かつ強力にAIを使えるようにする。</li>
+<li><strong>インフラストラクチャ（Infrastructure）</strong> ： 低コストで高性能なAIを提供できる基盤の整備。</li>
+</ol>
+<p>アルトマン氏は「AIが科学の発見を支援することで、社会全体がより良くなり、個人の創造性も飛躍的に向上するだろう」と述べた。</p>
+<p>パホツキ氏は、強力なシステム開発に向けた準備の中で安全性と価値観の整合性（value alignment）を最重視しているとし、「AIが根本的に何を気にかけるのかを理解することが、スーパーインテリジェンス時代の長期的安全性の核心だ」と語った。</p>
+<p>ザレンバ氏も加わり、質疑応答では研究の方向性や安全性、社会的インパクトに関する質問に答えながら、OpenAIが今後も透明性をもって議論を続けていく姿勢を示した。</p>
 ]]></description>
-      <pubDate>Sun, 02 Nov 2025 02:50:00 GMT</pubDate>
+      <pubDate>Fri, 31 Oct 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
