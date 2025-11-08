@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google「Project Suncatcher」発表　太陽光×衛星コンステでAI計算を“宇宙へ”</title>
+      <link>https://ledge.ai/articles/google_project_suncatcher_space_ai_datacenter</link>
+      <description><![CDATA[<p>Googleは2025年11月4日（現地時間）、太陽光発電を搭載した小型衛星群を用い、宇宙空間でAI計算を行うことを目指す新たな研究プロジェクト「Project Suncatcher（プロジェクト・サンキャッチャー）」を<a href="https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/">発表</a>した。</p>
+<p>同社の専用チップ「TPU（Tensor Processing Unit）」を搭載した衛星コンステレーションを軌道上に展開し、光学通信で相互接続することで“宇宙データセンター”を形成する構想だ。想定軌道は太陽同期（ドーン・ダスク）で、太陽光の連続利用を見込む。</p>
+<h2>地上リソースの制約を超える「宇宙データセンター」</h2>
+<p>Google Researchによると、AIモデルの高精度化に伴い、計算能力と電力の需要は急速に拡大している。Project Suncatcherは、地上のエネルギー・冷却・用地といった制約を緩和しつつ、AI計算を持続的にスケールさせるための「ムーンショット（挑戦的研究）」として位置づけられている。</p>
+<p>太陽同期軌道では、太陽光パネルの発電効率が地上比で最大8倍に達し、1衛星あたり平均約4 kWの発電を想定。地上のデータセンターで必要とされる100 MW級の電力に比べると、同規模の衛星クラスタ（81機）では0.3 MW程度に収まる試算だ。</p>
+<h2>1 km圏内に81機──クラスタ構成の設計例</h2>
+<p><a href="https://goo.gle/4qGsU8X">論文</a>では、直径約1 kmの範囲に81機の小型衛星を立体的に配置し、1クラスタあたり約1.3 PFLOPSの演算性能を実現する設計例が示された。各衛星は16 GBメモリを備えたTPUを搭載し、自由空間光通信（Free-Space Optical Link）を介して数km以内で編隊飛行する。通信遅延は0.5 ms以下に抑えられ、地上データセンターと同等の対話応答が可能とされている。</p>
+<p>Googleはベンチスケールのデモンストレーターで双方向1.6 Tbps（片方向800 Gbps）の通信速度を達成したと報告。通信帯域の確保には、多波長DWDMや空間多重技術を組み合わせる設計を検討している。</p>
+<h2>放射線試験と熱設計──「Trillium TPU」で検証へ</h2>
+<p>宇宙空間での安定稼働に向け、Googleは次世代TPU「Trillium（Cloud TPU v6e）」の放射線耐性を評価している。
+宇宙では対流冷却ができないため、81機構成のクラスタで約450 m²の放熱面積を確保する必要があると論文は指摘。放熱板の構成や電力変換効率、冷却の最適化も主要な検討課題に挙げられた。
+AIワークロードとしては、LLMの学習ではなく推論（inference）・埋め込み生成（embedding）・検索（retrieval）など、軽量分散処理を中心に想定している。</p>
+<h2>Planet Labsと連携、2027年に試験衛星を打ち上げ</h2>
+<p>次のステップとして、Googleは地球観測衛星を運用する米Planet Labsと提携し、軌道上での技術実証を進める。
+Planetは11月4日付の<a href="https://www.planet.com/pulse/planet-to-build-and-operate-advanced-space-platform-for-google-s-project-suncatcher-moonshot/">発表</a>で、Suncatcher向けに「先進的な宇宙プラットフォーム」を構築・運用することを明らかにした。
+両社は2027年初頭までに2機の試験衛星を打ち上げ、光学通信の安定性、熱挙動、誤り訂正、電力効率などを評価する「learning mission（学習ミッション）」を予定している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/google_and_planet_suncatcher_moonshot_5280e0e084/google_and_planet_suncatcher_moonshot_5280e0e084.jpg" alt="google and planet suncatcher moonshot.jpg" /></p>
+<h2>「AI計算を宇宙に」──Googleが描く次世代インフラ</h2>
+<p>Project Suncatcherはまだ構想段階にあるが、Googleは「AI計算を地球の外に拡張する」という新しい方向性を示した。
+公式ブログでは「Project Suncatcher is a moonshot to explore solar-powered satellite constellations with TPUs and free-space optical links for scalable AI compute（TPUと光学通信を組み合わせた太陽光衛星群によるAI計算スケーリングを探るムーンショットだ）」と説明している。
+エネルギー負荷や冷却コストを軽減しながら、AI計算資源を宇宙空間へと拡張する次世代インフラの研究が、今後本格化する見通しだ。</p>
+]]></description>
+      <pubDate>Sat, 08 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
       <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
       <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
