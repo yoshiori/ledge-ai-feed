@@ -132,24 +132,6 @@ Planetは11月4日付の<a href="https://www.planet.com/pulse/planet-to-build-an
       <pubDate>Sat, 08 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
-      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
-      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
-<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
-<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
-<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
-この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
-<h2>SNSで広がった「nice filter」論争</h2>
-<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
-<h2>「当たり障りないフィルター」の正体</h2>
-<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
-<h2>“辛口AI”の効用と注意点</h2>
-<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
-]]></description>
-      <pubDate>Fri, 07 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ソフトバンクとOpenAI、日本に合弁会社「SB OAI Japan」を設立──企業経営を変革するAI「クリスタル・インテリジェンス」を2026年展開へ</title>
       <link>https://ledge.ai/articles/softbank_openai_sb_oai_japan_crystal_intelligence_launch</link>
       <description><![CDATA[<p>ソフトバンクグループとOpenAIは2025年11月5日、AIによる企業経営の変革を目的とした合弁会社「SB OAI Japan合同会社（SB OAI Japan GK）」を設立したと<a href="https://www.softbank.jp/corp/set/data/news/press/sbkk/2025/20251105_02/pdf/20251105_02.pdf">発表</a>した。新会社は、OpenAIの技術を活用した法人向けAIソリューション「クリスタル・インテリジェンス（Crystal intelligence）」を2026年に日本国内で独占展開する。</p>
@@ -353,6 +335,24 @@ VLAは、実空間と仮想空間をデジタルツインで連携させ、店�
       <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
+      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
+      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
+<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
+<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
+<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
+この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
+<h2>SNSで広がった「nice filter」論争</h2>
+<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
+<h2>「当たり障りないフィルター」の正体</h2>
+<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
+<h2>“辛口AI”の効用と注意点</h2>
+<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
+]]></description>
+      <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、生成AI「Claude」をExcelに統合──分析・説明・編集を自動化する新アドインを発表</title>
       <link>https://ledge.ai/articles/claude_for_excel_beta_release</link>
       <description><![CDATA[<p>Anthropicは2025年10月28日（米国時間）、生成AI「Claude」をMicrosoft Excelに統合した新アドイン「Claude for Excel」をベータ版（Research Preview）として<a href="https://www.anthropic.com/news/advancing-claude-for-financial-servicesl">公開</a>した。
@@ -363,25 +363,6 @@ Claudeがスプレッドシート内のデータや数式を理解し、自然�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/How_teams_use_Claude_for_Excel_fa57735bf8/How_teams_use_Claude_for_Excel_fa57735bf8.jpg" alt="How teams use Claude for Excel.jpg" /></p>
 <p>Anthropicによると、この機能は「財務分析やデータレポート作成など、業務での活用を想定した設計」であり、企業利用者を中心に展開されている。現在は「Claude for Max」「Claude for Team」「Claude for Enterprise」プランのユーザーを対象に、ウェイトリスト方式による限定ベータ（リサーチプレビュー）として提供中だ。</p>
 <p>同社は公式ブログで、金融サービス分野をはじめとするビジネス用途において、Claudeの統合を進めていく方針を示している。今後、Excel以外の業務アプリケーションやリアルタイムデータとの連携も視野に入れ、企業の分析・意思決定プロセスをAIで支援するエコシステムの構築を目指すという。</p>
-]]></description>
-      <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIリテラシー教材を公開──教育者・学生・家庭向けに専用リソースを提供</title>
-      <link>https://ledge.ai/articles/google_ai_literacy_resources_launch</link>
-      <description><![CDATA[<p>Googleは2025年9月9日（米国時間）、教育者・学習者・保護者が生成AIを安全かつ責任を持って活用できるよう設計した教材とトレーニングを集約する新サイト「Build AI knowledge and literacy」を<a href="https://blog.google/outreach-initiatives/education/google-ai-literacy-tools-2025/">公開</a>した。初等中等・高等教育・大学・家庭の各領域に向けて、レッスンプランや教師研修、プロンプト基礎コース、DeepMindとRaspberry Pi Foundationの共同教材「Experience AI」、ゲーム型学習「AI Quests」などを提供し、現場でのAIリテラシー育成を体系化する。</p>
-<p>サイトは「安全性」「透明性」「責任ある利用」を軸に、対象別の教材を体系的に整理している。</p>
-<h2>教師向け（K-12・教育リーダー）</h2>
-<p>教師向けセクションには、GeminiやNotebookLMを授業で活用するための研修プログラム「Generative AI for Educators with Gemini」が用意され、教材設計から実践までを一気通貫で支援する。教育リーダーに向けた「Guide to AI in Education」では、導入ポリシーづくりや評価設計までを網羅し、K-12の現場に適したスターター教材「Get Started with AI for K-12」も揃う。授業内で生成AIを扱う際の留意点や評価観点が整理され、即日活用できる実務志向の内容が特徴だ。</p>
-<h2>大学生・教授向け（高等教育）</h2>
-<p>高等教育向けには、学業・研究・就職準備に結びつくスキル獲得を支援するトレーニングとツール群がまとめられている。効果的なプロンプト設計を基礎から学べるコースが提供され、レポート作成やリサーチ支援、専門領域でのAI活用を見据えた内容となっている。大学の授業や研究活動に自然に組み込める導線が設計されている点も実務的だ。</p>
-<h2>高校生向け（リテラシーと実践）</h2>
-<p>高校生向けには、責任あるAI利用を扱うレッスンプランに加え、Google DeepMindとRaspberry Pi Foundationが共同開発した「Experience AI」が紹介される。さらに、ゲーム形式で課題解決を学ぶ「AI Quests」により、概念理解にとどまらず、模擬的な意思決定や問題解決を通じてAIの可能性と限界を体験的に学べる構成となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a/AI_Quests_Landing_Page_1_width_1000_format_webp_0110123f2a.webp" alt="AI_Quests_-_Landing_Page_1.width-1000.format-webp.webp" /></p>
-<h2>家庭・保護者向け（安全とリテラシー）</h2>
-<p>家庭向けセクションでは、小学生でも取り組みやすいインターネットとAIの安全教育プログラム「Be Internet Awesome」が公開される。保護者向けには動画ガイド「The AI Playbook for Parents」や、専門家がAI時代の子育てを解説するポッドキャスト「Raising kids in the age of AI」が用意され、家庭内のルールづくりや学びの伴走に役立つ実践的なヒントが得られる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=DhpzaLYSUro&amp;list=PLP7Bvyb3ap45NyPGzOxhqn1L8XLgRjtrp&amp;index=3">YouTube</a></p>
-<p>このサイトは、学校や大学、家庭の現場でそのまま使える実装志向のリソースを提供することで、AIの利便性とリスクの双方を踏まえたリテラシーの底上げを狙う。公開の背景と位置づけはGoogle公式ブログで明示され、教材群は専用サイトで継続更新される見込みだ。</p>
 ]]></description>
       <pubDate>Wed, 05 Nov 2025 05:50:00 GMT</pubDate>
     </item>
