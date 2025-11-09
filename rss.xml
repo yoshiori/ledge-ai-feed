@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AI導入が雇用を直撃　米10月の人員削減15万人超、理由の2位に「AI」──チャレンジャー社調査</title>
+      <link>https://ledge.ai/articles/us_job_cuts_october2025_ai_layoffs_report</link>
+      <description><![CDATA[<p>米民間の再就職支援会社チャレンジャー・グレイ・アンド・クリスマス（Challenger, Gray &amp; Christmas）は2025年11月6日（米国時間）、2025年10月の米企業による人員削減発表数が15万3074人に達したと<a href="https://www.challengergray.com/blog/october-challenger-report-153074-job-cuts-on-cost-cutting-ai/">発表</a>した。</p>
+<p>前年同月（5万5597人）から175％増で、10月としては2003年以来21年ぶりの高水準となった。主な要因は「コスト削減」と「AI（人工知能）」であり、AI関連のレイオフが要因として単月で2位に浮上したという。</p>
+<h2>「AI統合」と自動化が再編の波を拡大</h2>
+<p>同社によると、10月に企業が発表した削減理由のうち最も多かったのはコスト削減（50,437人）、次いでAI（31,039人）だった。
+AI導入を理由とする人員削減は年初来で4万8414人に上り、前年を大幅に上回るペース。報告書では「AI integration（AI統合）」や「automation-driven restructuring（自動化による再編）」が複数業種で主要因として挙げられた。</p>
+<p>テクノロジー産業の削減は10月だけで33,281人と、前月（5,639人）から急増。年初来では14万1159人（前年同期比＋17％）となり、AI活用による業務効率化が雇用の再構成を促している。</p>
+<h2>倉庫・物流で過去最大の削減──自動化が要因</h2>
+<p>倉庫・物流（Warehousing）分野では、10月の削減数が47,878人に達し、業種別で最多となった。前年同月の984人から急増しており、年初来では90,418人（＋378％）。同社は、パンデミック期に拡張した物流網の過剰能力と自動化の進展が要因と分析している。</p>
+<h2>「破壊的技術が再び雇用地図を変える」</h2>
+<p>チャレンジャー社は、「2003年当時も、携帯電話という破壊的技術が雇用地図を変えた。今、同じことがAIによって起きている」とコメント。10月としての削減数は2003年以来の最多であり、第4四半期単月でも2008年以来の高水準と指摘した。</p>
+<p>一方で、SNS時代に入って以降は「ホリデーシーズン前のレイオフを避ける傾向」が強まっていたが、2025年10月は約450件の個別計画が報告され、例年を大きく上回ったという。</p>
+<h2>採用計画は11年ぶりの低水準</h2>
+<p>10月末までの累計では、米雇用主による人員削減数は1,099,500人（前年同期比＋65％）。一方で、新規採用計画は488,077人と前年同期比35％減。同社によると、月間平均は48,808人で、2011年以来の低水準に落ち込んでいる。季節雇用も37万2520人にとどまり、同社が追跡を開始した2012年以降で最少だった。</p>
+<h2>AI時代の雇用構造変化</h2>
+<p>AI導入は生産性向上とコスト削減をもたらす一方、雇用の再編・削減要因として急速に存在感を高めている。
+チャレンジャー社は「AI adoption（AIの採用）や自動化による効率化が複数業種でレイオフを誘発している」とし、雇用市場全体が「生成AI時代の再構築フェーズ」に入っていることを示唆している。</p>
+]]></description>
+      <pubDate>Sat, 08 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Getty Images、Perplexityと複数年ライセンス契約──AI検索で合法画像とクレジット表示を強化、英国ではStability AI訴訟に判決</title>
       <link>https://ledge.ai/articles/gettyimages_perplexity_ai_license_stabilityai_uk_ruling</link>
       <description><![CDATA[<p>Getty Imagesは2025年10月31日、AI検索サービスを提供するPerplexityとの複数年にわたるライセンス契約を締結したことを<a href="https://newsroom.gettyimages.com/en/getty-images/getty-images-and-perplexity-strike-multi-year-image-partnership">発表</a>した。AIによる画像検索の精度向上と、画像制作者のクレジット表示の改善を目的とした取り組みだ。</p>
@@ -544,35 +566,6 @@ GitHubは「開発者は自分の選んだAIエージェントを同じワーク
 <p>研究チームは、「AIの安全な利用を実現するため、臨床家や患者、開発者が共通の基準を持つことが必要」と述べている。</p>
 ]]></description>
       <pubDate>Mon, 03 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>上海交通大学、「AI生成サーベイ論文の氾濫は“DDoS攻撃”」──NeurIPS 2025採択論文が研究文化への影響と対策を提言</title>
-      <link>https://ledge.ai/articles/ai_generated_survey_paper_ddos_shanghai_jiaotong</link>
-      <description><![CDATA[<p>中国・上海交通大学の研究チームは2025年10月9日、生成AIによるサーベイ論文の急増が研究コミュニティを“DDoS攻撃”のように麻痺させていると警鐘を鳴らすポジションペーパー「Stop DDoS Attacking the Research Community with AI-Generated Survey Papers」を<a href="https://arxiv.org/abs/2510.09686v1">発表</a>した。</p>
-<p>論文はNeurIPS 2025のPosition Trackに<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/121939">採択</a>され、AI支援による論文作成の透明性確保や、動的に更新される「Dynamic Live Surveys」の構築を提案している。</p>
-<h2>「サーベイ論文DDoS攻撃」とは</h2>
-<p>研究チームは、ChatGPTなどの大規模言語モデル（LLM）の登場以降、サーベイ論文が指数関数的に増加していると分析。2020〜2024年の間に、コンピュータサイエンス分野のサーベイ論文数は約2倍に膨れ上がり、2022年以降に急激な“スパイク”が見られたという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_8_353e8bf78b/x1_8_353e8bf78b.png" alt="x1 (8).png" /></p>
-<p>AI検出ツールによる分析では、AI生成要素を含むサーベイ論文の割合が2022年以降急上昇。著者らはこの現象を「サーベイ論文によるDDoS攻撃」と呼び、量の爆発が研究者の注意と査読能力を圧迫し、真正な学術貢献が埋もれる危険性を指摘している。</p>
-<h2>品質と信頼性の低下</h2>
-<p>論文では、AI生成のサーベイ論文が「冗長」「誤引用」「分類構造の浅さ」などの特徴を持ち、人間が執筆した従来型のサーベイに比べ、学術的洞察に欠けると述べている。</p>
-<p>また、複数のAI生成サーベイが同一テーマでほぼ同じ内容・表現を繰り返す“コピー＆ペースト構造”を形成していることを、引用リストの重複率や語彙多様性の低下などから実証した。</p>
-<h2>研究文化への影響</h2>
-<p>大量のAI生成論文がarXivなどのプレプリントサーバを埋め尽くすことで、研究者が信頼できるレビューを見つけにくくなり、若手研究者の学習や研究テーマ選定を誤らせるリスクもあると分析。論文ではこれを「literature poisoning（文献汚染）」と表現し、引用ネットワーク全体の歪みを招く可能性を警告した。</p>
-<h2>提案する解決策</h2>
-<p>研究チームは以下のような対策を提案している：</p>
-<ul>
-<li><strong>AI使用の開示義務化</strong> ：LLMを執筆補助に使った場合は脚注や本文で明記</li>
-<li><strong>サーベイ論文専用の厳格な査読制度</strong> ：独自の評価基準を設け、深度と独創性を確認</li>
-<li><strong>AI生成検出ツールの導入</strong> ：AI支援を隠した投稿を抑止</li>
-<li><strong>高品質サーベイの表彰制度</strong> ：研究者が労力をかけたレビューを奨励</li>
-<li><strong>研究倫理教育の強化</strong> ：AIによる文章生成を盗用に準じる行為として明確化</li>
-</ul>
-<p>さらに、従来の静的なサーベイ論文に代わり、人間とAIが協働して継続的に更新する「Dynamic Live Surveys」という新たな仕組みを提案。AIが新論文情報を自動収集し、専門家がその内容を精査・統合する「ライブ型学術リポジトリ」を構想している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_5_014e74304f/x2_5_014e74304f.png" alt="x2 (5).png" /></p>
-<p>著者らは、「AIによるサーベイ生成を否定するのではなく、人間の洞察を補完する形で共存させるべき」と強調。「量より質」という原則を取り戻すことが、AI時代の学術出版の信頼回復につながるとしている</p>
-]]></description>
-      <pubDate>Sun, 02 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/31 [FRI]OpenAI、2028年に「完全自動AI研究者」実現を目指すロードマップを公開</title>
