@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AI訓練データの“源流”Common Crawlに疑惑──The Atlanticが報道、ペイウォール記事含有を指摘</title>
+      <link>https://ledge.ai/articles/common_crawl_paywall_investigation_and_response</link>
+      <description><![CDATA[<p>米誌『The Atlantic』は2025年11月4日、非営利団体Common Crawlが構築するウェブアーカイブが、OpenAIやGoogleなどのAI企業による大規模言語モデル（LLM）の訓練に利用されており、ペイウォール（有料会員制）記事を含む可能性があると<a href="https://www.theatlantic.com/technology/2025/11/common-crawl-ai-training-data/684567/">指摘した</a>。同日、Common Crawlは公式ブログで反論し、透明性とフェアユース（公正利用）の理念を改めて強調した。</p>
+<h2>AI企業が利用する「見えない基盤」</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/theatlantic_b31bcde0e1/theatlantic_b31bcde0e1.jpg" alt="theatlantic.jpg" /></p>
+<p>The Atlanticの記事は、Common Crawlが10年以上にわたりウェブ全体をクロールし、ペタバイト級のアーカイブを研究・教育目的で公開してきた点を紹介した。記事によると、このデータセットはOpenAI、Google、Meta、Amazon、Anthropic、NVIDIAなどのAI企業がLLM訓練に活用しており、「AI業界の見えない基盤（invisible infrastructure）」になっているという。</p>
+<p>同誌は、Common Crawlのアーカイブに有料メディアやニュースサイトのペイウォール記事が含まれている可能性を指摘。出版各社が「有料コンテンツが無断でAI訓練に利用された」と懸念を示していると報じた。また、削除を求めた出版社に対して十分な対応が行われていない事例があるとし、透明性が不十分だと指摘した。</p>
+<h2>Common Crawlが即日反論</h2>
+<p>同日、Common Crawlは公式ブログ「Setting the Record Straight」を<a href="https://commoncrawl.org/blog/setting-the-record-straight-common-crawls-commitment-to-transparency-fair-use-and-the-public-good">公開</a>し、「当財団はペイウォールを回避しない。活動は透明で、robots.txtを尊重している」と反論した。</p>
+<p>ブログでは次のような見解を示している。
+クローリングはrobots.txtなどウェブ標準に準拠しており、ペイウォールを意図的に回避した事実はない。
+出版社からの削除要請には対応しており、プロセスの透明性を確保している。
+データは特定企業への提供ではなく、研究者・教育機関・一般利用者を含むすべての人に開放されている。
+公開データはフェアユースの理念に基づくもので、社会全体の知識共有を目的としている。</p>
+<p>Common Crawlはまた、「CCBotは公開ページのみを収集し、ログインやペイウォール回避は行わない。User-agent: CCBotの設定でブロック可能」と説明。アーカイブの存在が「研究や民主的な情報アクセスを支える公共財」であると位置づけ、今後も透明性と公益性を重視した運営を続けるとした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/commoncrawl_e3ceb79638/commoncrawl_e3ceb79638.jpg" alt="commoncrawl.jpg" /></p>
+<h2>論点はフェアユースと説明責任</h2>
+<p>今回の報道と反論を通じて、AI訓練データとしてのウェブアーカイブ活用をめぐる法的・倫理的な論点が浮き彫りになった。
+The Atlanticは、出版社の著作物がAIモデルの学習に使われることへの懸念を示した一方、Common Crawlは、意図的な侵害を否定し、公益目的の情報共有としての意義を強調している。</p>
+<p>今後は、AI企業、出版社、研究機関の間で、データ利用の範囲や削除手続きの明確化をめぐる議論が進むとみられる。</p>
+]]></description>
+      <pubDate>Sun, 09 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>著作権書籍で訓練したAI、創作専攻の大学院生による模倣文より高評価──コロンビア大などの研究</title>
       <link>https://ledge.ai/articles/ai_trained_on_copyrighted_books_preferred_over_human_writers</link>
       <description><![CDATA[<p>米コロンビア大学とミシガン大学の研究チームは、著作権のある書籍を用いて訓練したAIモデルが、創作専攻の大学院生（MFA候補者）による文体模倣よりも読者に高く評価される傾向を示したとする研究結果を<a href="https://arxiv.org/abs/2510.13939">発表</a>した。論文は「Readers Prefer Outputs of AI Trained on Copyrighted Books over Expert Human Writers」と題し、2025年10月に論文共有サイトarXivで公開された。</p>
