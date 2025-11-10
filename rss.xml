@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ソフトバンク、AIスタートアップに無償GPU提供を本格化　宮川社長「計算基盤が国力」——決算会見で危機感</title>
+      <link>https://ledge.ai/articles/softbank_ai_foundation_gpu_support_2025q2</link>
+      <description><![CDATA[<p>ソフトバンクは2025年11月5日、2026年3月期第2四半期の決算説明会を開催し、AI分野に取り組むスタートアップ企業への支援強化を<a href="https://www.softbank.jp/corp/ir/documents/presentations/fy2025/#result-20251105">発表</a>した。社長の宮川潤一氏は「半導体の次に来るのはAIの計算基盤のサイズ。すべてがコンピューティングパワーだ」と述べ、AI計算基盤の整備を国家的課題と位置づけた。</p>
+<p>同社は既に、GPU計算資源などを段階的に提供する「AI Foundation for Startups」を10月1日に<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250926_01/">開始</a>しており、初期段階の企業にはNVIDIA DGX A100一式を最長60日間無償で提供する枠組みを明示。開発・検証フェーズでは低コスト提供、事業化段階では協業・出資も視野に入れるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aifoundationforstartups_d3538c27d9/aifoundationforstartups_d3538c27d9.jpg" alt="aifoundationforstartups.jpg" /></p>
+<p>会見の中で宮川氏は、海外勢の動きを引き合いに危機感を示した。生成AI時代の競争軸が「計算基盤（コンピューティングパワー）の規模」に移りつつあるとの見立てを述べ、日本の産業競争力を左右する要素として計算資源の確保と活用を位置付けた。</p>
+<p>背景として、海外では大規模なAIインフラ整備が加速していることが挙げられる。NVIDIAは10月31日、韓国の政府・産業界と連携し「25万基超（over a quarter-million）のGPU」を追加配備する構想を<a href="https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-South-Korea-Government-and-Industrial-Giants-Build-AI-Infrastructure-and-Ecosystem-to-Fuel-Korea-Innovation-Industries-and-Jobs/default.aspx">発表</a>。韓国の産業分野全体でAI実装を進める基盤整備を掲げた。国内の計算資源の量・質をめぐる国際的な競争が一段と激しくなる中、ソフトバンクはスタートアップへの無償提供を含む支援スキームを通じて、国内の開発初期ハードルを下げる狙いだ。</p>
+]]></description>
+      <pubDate>Sun, 09 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/11/9 [SUN]AI訓練データの“源流”Common Crawlに疑惑──The Atlanticが報道、ペイウォール記事含有を指摘</title>
       <link>https://ledge.ai/articles/common_crawl_paywall_investigation_and_response</link>
       <description><![CDATA[<p>米誌『The Atlantic』は2025年11月4日、非営利団体Common Crawlが構築するウェブアーカイブが、OpenAIやGoogleなどのAI企業による大規模言語モデル（LLM）の訓練に利用されており、ペイウォール（有料会員制）記事を含む可能性があると<a href="https://www.theatlantic.com/technology/2025/11/common-crawl-ai-training-data/684567/">指摘した</a>。同日、Common Crawlは公式ブログで反論し、透明性とフェアユース（公正利用）の理念を改めて強調した。</p>
@@ -569,37 +580,6 @@ GitHubは「開発者は自分の選んだAIエージェントを同じワーク
 <p>両システムは2026年の稼働開始を予定しており、DOEはこれらを含むAIスーパーコンピューター群を全米の研究所に配備し、国家レベルでのAI研究ネットワークを拡充する。なお、DOEは同年、3研究所で計9台の新スーパーコンピューターを整備する計画も発表している</p>
 ]]></description>
       <pubDate>Mon, 03 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>対話型AIによる「心の支援」を可視化　ハーバード大・オックスフォード大らが新評価プラットフォームを開発</title>
-      <link>https://ledge.ai/articles/mindbenchai_mental_health_llm_evaluation</link>
-      <description><![CDATA[<p>対話型AIをメンタルヘルスの相談に利用する人が増えている。調査によると、ユーザーの3割以上がAIに心の悩みを打ち明けた経験を持つという。こうした状況のなか、AIによる誤った助言や過度な依存、AIとの擬似的な関係による心理的影響が報告されている。</p>
-<p>この課題に対応するため、ハーバード大学、オックスフォード大学、マサチューセッツ総合病院など24機関の研究者が、AIのメンタルヘルス対応能力を体系的に評価するプラットフォーム「MindBenchAI（マインドベンチAI）」を開発し、研究成果は2025年9月にarXivで<a href="https://arxiv.org/abs/2510.13812">公開</a>した。</p>
-<h2>AIが“セラピスト化”する時代のリスク</h2>
-<p>ChatGPTやClaude、Geminiなどの大規模言語モデル（LLM）は、ストレス相談や心理的支援に使われるケースが増えている。
-しかし、臨床的な有効性を示すデータは乏しく、誤診や誤誘導、自殺念慮への対応ミスなど、現実的なリスクも指摘されている。MIT Technology Reviewによれば、2025年には実際にAIチャットボットとのやり取りが悲劇につながった事例も報告されている。</p>
-<p>論文の筆頭著者であり、ハーバード大学医学部付属ベスイスラエル・ディーコネス医療センター（Beth Israel Deaconess Medical Center）精神医学部門のジョン・トーラス氏は、「AIの利用が拡大する一方で、臨床的な安全基準や性能評価が存在しないまま“心の領域”がAIに委ねられつつある」と警鐘を鳴らしている。</p>
-<h2>MindBenchAIの概要</h2>
-<p>研究チームは、10年以上にわたりメンタルヘルスアプリを評価してきた「MINDapps.org」の仕組みを拡張し、AIモデルを対象にした評価体系を構築した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/MIND_bench_AI_bd6e712ea8/MIND_bench_AI_bd6e712ea8.jpg" alt="MIND bench AI.jpg" /></p>
-<p>MindBenchAIは、AIの特性を「プロフィール評価」と「性能評価」の2側面から分析する。</p>
-<h3>1. プロフィール評価（Profile Evaluation）</h3>
-<p>モデルの技術的安全性（データ保護、透明性、開発体制など）と、会話特性（共感性、対話スタイル、応答傾向など）を整理する。
-心理学の「ビッグファイブ」や「MBTI」などを応用し、AIの会話傾向を定量的に記録する。</p>
-<h3>2. 性能評価（Performance Evaluation）</h3>
-<p>自殺対応、臨床判断、薬物療法などのシナリオを用いてAIの応答を専門家が採点する。正答率に加え、AIがどのように結論に至ったかという推論過程（Reasoning）も評価対象とする。</p>
-<p>評価には「Suicide Intervention Response Inventory 2（SIRI-2）」などの臨床評価指標が活用されている。</p>
-<h2>システム構成と運用</h2>
-<p>MindBenchAIは、技術情報と会話傾向、ベンチマーク結果、推論解析を統合したダッシュボード形式で運用される。</p>
-<p>主要なLLM（GPT-5、Claude Opus 4、Gemini 2.5 Proなど）や、それらを基盤としたチャットボットも評価対象となる。
-結果はリーダーボード形式で整理され、各モデルの得点を分野別に比較できる。</p>
-<p>推論分析では、AIに思考過程を逐次説明させる「Chain-of-Thought」形式を採用し、誤りや偏りの傾向を特定する。</p>
-<h2>共同体制と今後の展望</h2>
-<p>MindBenchAIは、米国のメンタルヘルス支援団体「NAMI（National Alliance on Mental Illness）」と連携して構築された。
-患者、家族、臨床医、開発者など、複数の立場の関係者が評価と検証に参加できる。システムは拡張可能な設計となっており、他の研究機関によるベンチマーク追加や多言語評価への対応が予定されている。</p>
-<p>研究チームは、「AIの安全な利用を実現するため、臨床家や患者、開発者が共通の基準を持つことが必要」と述べている。</p>
-]]></description>
-      <pubDate>Mon, 03 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
