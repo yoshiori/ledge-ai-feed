@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、AI推論時代の第7世代TPU「Ironwood」提供を数週間以内に開始──v5p比10倍・v6e比4倍超の性能を公式発表</title>
+      <link>https://ledge.ai/articles/google_tpu_ironwood_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年11月7日、AIアクセラレータの第7世代テンソル処理ユニット（TPU）「Ironwood（アイアンウッド）」を、今後数週間以内に一般提供（GA）開始すると<a href="https://cloud.google.com/blog/ja/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads/">発表</a>した。</p>
+<p>Ironwoodは2025年4月に初めて<a href="https://ledge.ai/articles/google_tpu_ironwood_agent2agent">公表</a>された第7世代のTPUで、「推論（inference）の時代のために設計された最初のTPU」と位置づけられている。GoogleはIronwoodを「これまでで最もパワフルかつエネルギー効率に優れたTPU」と説明している。</p>
+<h2>第5世代比10倍、第6世代比4倍超の性能</h2>
+<p>Ironwoodは前世代から大幅な性能向上を実現している。
+第5世代TPU「v5p」と比べて最大10倍のピーク性能を発揮し、第6世代TPU（開発コード「Trillium」／v6e）と比べてもチップ当たり（per chip）で学習・推論の双方において4倍超の性能を持つという。同社は、これによりAIモデルのトレーニングと推論の双方で効率を高められると説明している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=aQxcomQDHcw">YouTube</a></p>
+<h2>「推論の時代」に最適化された新設計</h2>
+<p>Googleは、生成AIの利用拡大により「推論の時代（age of inference）」が到来していると強調する。
+モデルの構築に加え、エージェントや会話型AIなど、大規模な推論処理をいかに効率的に行うかが課題となっており、Ironwoodはそのための基盤として開発された。新アーキテクチャの採用により、低レイテンシと高スループットを両立し、これまでのTPUよりも高いエネルギー効率を実現したという。</p>
+<h2>Google Cloudで数週間以内に提供開始</h2>
+<p>Ironwoodは、Google Cloud上で一般提供される予定だ。
+ブログでは「今後数週間以内に提供を開始する」と明言しており、AI推論処理を中心とするクラウドユーザーが早期に利用できる見込みとなっている。
+同発表では、Armベースの新仮想マシン「Axion」VM群（N4A／C4A）も合わせて紹介され、TPUと連携することでクラウド全体の効率化を目指す構想が示された。</p>
+<p>Ironwoodは、生成AI、検索、会話型エージェント、RAG（Retrieval-Augmented Generation）など、膨大な推論を伴うワークロードに最適化されている。Googleは、同チップによりAIの開発・提供コストを抑制し、より高速で省エネなAI運用を可能にするとしている。</p>
+]]></description>
+      <pubDate>Tue, 11 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft AI、“ヒューマニスト・スーパーインテリジェンス（HSI）”へ　MAIスーパーインテリジェンスチームを新設</title>
       <link>https://ledge.ai/articles/microsoft_ai_humanist_superintelligence_team_launch</link>
       <description><![CDATA[<p>MicrosoftのAI開発研究所「Microsoft AI（MAI）」は2025年11月6日（米国時間）、「人間中心のヒューマニスト・スーパーインテリジェンス（Humanist Superintelligence：HSI）」の実現に向け、「MAI Superintelligence Team」の新設を<a href="https://microsoft.ai/news/towards-humanist-superintelligence/">発表</a>した。MAIのCEOであるMustafa Suleyman氏が、同社公式ブログ「Towards Humanist Superintelligence」で明らかにした。</p>
@@ -212,35 +232,6 @@ The Atlanticは、出版社の著作物がAIモデルの学習に使われるこ
 <p>今後は、AI企業、出版社、研究機関の間で、データ利用の範囲や削除手続きの明確化をめぐる議論が進むとみられる。</p>
 ]]></description>
       <pubDate>Sun, 09 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>著作権書籍で訓練したAI、創作専攻の大学院生による模倣文より高評価──コロンビア大などの研究</title>
-      <link>https://ledge.ai/articles/ai_trained_on_copyrighted_books_preferred_over_human_writers</link>
-      <description><![CDATA[<p>米コロンビア大学とミシガン大学の研究チームは、著作権のある書籍を用いて訓練したAIモデルが、創作専攻の大学院生（MFA候補者）による文体模倣よりも読者に高く評価される傾向を示したとする研究結果を<a href="https://arxiv.org/abs/2510.13939">発表</a>した。論文は「Readers Prefer Outputs of AI Trained on Copyrighted Books over Expert Human Writers」と題し、2025年10月に論文共有サイトarXivで公開された。</p>
-<h2>実験：AIと人間の「模倣能力」を比較</h2>
-<p>研究では、ノーベル賞やブッカー賞などの受賞作家50名を対象に、各作家の文体を再現した短文（最大450語）をAIと人間の双方で生成した。人間側は創作専攻の大学院生（MFA候補者）が作成し、AI側はChatGPT、Claude、Geminiの3モデルを使用した。</p>
-<p>AIには2つの条件が設定された。1つは作家の作風を指示して生成する「in-context prompting」、もう1つは各作家の著作全集を用いてAIを個別に再訓練（ファインチューニング）する方法である。</p>
-<p>評価は、専門家28名と一般読者131名によるブラインドテスト形式で行われ、「スタイルの忠実性」と「執筆品質」の2項目について比較された。</p>
-<h2>ファインチューニングで逆転</h2>
-<p>結果は、AIの学習方法によって大きな差が見られた。in-context promptingでは、専門家読者はAI出力を低く評価し、スタイル忠実性のオッズ比（OR）は0.16、執筆品質は0.13だった。</p>
-<p>一方、著者全集を用いたファインチューニングでは、専門家の評価が逆転し、スタイル忠実性のORは8.16、執筆品質は1.87となった。
-一般読者も同様の傾向を示した。</p>
-<p>AI検出ツールによる識別では、通常生成の97％が「AIが書いた」と判定されたのに対し、ファインチューニング版では3％にとどまった。</p>
-<p><strong>研究チームによる生成手法の比較図。左はプロンプトのみでの模倣、右は著者全集を用いたファインチューニングによる模倣</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/schematic_crop_fa674379c5/schematic_crop_fa674379c5.jpg" alt="schematic-crop.jpg" /></p>
-<h2>コスト差：人間作家より99.7％低い</h2>
-<p>研究チームは、1人の作家を対象にファインチューニングと生成を行う場合の中央値コストを81ドル（約1万2千円）と算出した。人間作家によるスタイル模倣の平均報酬3万ドル（約460万円）と比較すると、99.7％のコスト削減となる。この数値は、AIが「著者らしさ」を低コストで再現できることを定量的に示すものとなった。</p>
-<h2>著作権法上の含意：市場への影響</h2>
-<p>論文は、米国著作権法におけるフェアユースの第4因子（原著作物の市場や価値に与える影響）に関連づけて、この結果を分析している。AIによる生成物が、原著作物やそれを模倣する人間作家の仕事を経済的に代替し得る点を、重要な法的論点として位置づけた。</p>
-<p>著者らは、AIが特定作家の全集を用いて学習した場合、個別の「作風再現市場」を実質的に置き換える可能性があると指摘。
-また、AIによる大量生成が市場に「希釈効果（market dilution）」をもたらし、読者の関心や購買機会を分散させるリスクにも言及している。</p>
-<p>この考え方は、米連邦裁判所が過去の著作権訴訟で示した「AI生成物が原著作物市場の代替となり得るか」という判断基準と一致する。論文は、こうした代替・希釈が確認される場合、著作権作品を利用したAIの学習がフェアユースに該当しない可能性があると論じている。</p>
-<h2>研究の限界</h2>
-<p>研究チームは、実験が450語の短文を対象としており、長編小説や創作構成のような複雑な要素は評価対象外であると明記した。また、AI訓練に著作権保護作品を使用する行為の法的評価や、商業利用の可否については別途検討が必要と述べている。さらに、今回の結果は「文体再現」に焦点を当てたものであり、創造性や物語構築力といった要素については評価を行っていない。</p>
-<h2>今後の議論へ</h2>
-<p>この研究は、AIが著作権保護作品を用いて訓練されることが、どの程度創作市場に影響を及ぼすかを定量的に示した初の実証研究の一つとなる。読者評価とコスト分析の両面から、AIが人間の文体模倣を現実的に代替し得る可能性を提示しており、今後の著作権政策や創作支援技術の議論に影響を与えるとみられる。</p>
-]]></description>
-      <pubDate>Sun, 09 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/8 [SAT]AI導入が雇用を直撃　米10月の人員削減15万人超、理由の2位に「AI」──チャレンジャー社調査</title>
