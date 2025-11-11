@@ -46,38 +46,6 @@ HSIの定義として、同氏は「人間中心であることを非交渉的�
       <pubDate>Tue, 11 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
-      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
-      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
-<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
-<h2>モデル効率の“時間的スケーリング”</h2>
-<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
-<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
-<p><strong>オープンソースベースの LLM の推定機能密度</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
-<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
-<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
-<h2>ChatGPT以降、成長速度が1.5倍に</h2>
-<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
-<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
-<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
-<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
-またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
-<h2>「Mooreの法則」と掛け合わせた未来</h2>
-<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
-<h2>圧縮は万能ではない</h2>
-<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
-<h2>「密度最適訓練」への転換</h2>
-<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
-同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
       <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
       <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
@@ -97,6 +65,29 @@ HSIの定義として、同氏は「人間中心であることを非交渉的�
 <p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
 ]]></description>
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
+      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
+      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
+<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
+<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
+<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
+<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
+<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
+<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
+<h2>生成された広告をその場で編集・修正可能</h2>
+<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
+<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
+<h2>提供形態と今後の展開</h2>
+<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
+<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
+]]></description>
+      <pubDate>Mon, 10 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>機密情報を守り抜く生成AI基盤――GPUクラスタで実現する社内LLM活用</title>
@@ -337,29 +328,6 @@ Planetは11月4日付の<a href="https://www.planet.com/pulse/planet-to-build-an
       <pubDate>Sat, 08 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
-      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
-      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
-<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
-<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
-<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
-<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
-<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
-<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
-<h2>生成された広告をその場で編集・修正可能</h2>
-<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
-<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
-<h2>提供形態と今後の展開</h2>
-<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
-<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
-]]></description>
-      <pubDate>Fri, 07 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>PKSHAと東北大学、「説得対話AI」でEMNLP 2025 Industry Trackに採択──社会心理・行動経済学を融合し、低意欲層にも“自然な動機づけ”</title>
       <link>https://ledge.ai/articles/pksha_tohoku_persuasive_dialogue_ai_emnlp2025</link>
       <description><![CDATA[<p>株式会社PKSHA Technologyは2025年10月31日、東北大学 言語AI研究センターとの共同研究による「説得対話AI」に関する論文が、自然言語処理分野の国際会議「EMNLP 2025（Conference on Empirical Methods in Natural Language Processing）」のIndustry Trackに採択されたと<a href="https://www.pkshatech.com/news/20251031/">発表</a>した。</p>
@@ -513,30 +481,6 @@ VLAは、実空間と仮想空間をデジタルツインで連携させ、店�
       <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米ルイビル大の研究者ら、AIが“人類の記憶係”になる時代に「記憶される権利」を提唱──少数のAIベンダーが何を記憶するかを実質的に決定するリスクを警告</title>
-      <link>https://ledge.ai/articles/ai_right_to_be_remembered_digital_memory_risk</link>
-      <description><![CDATA[<p>生成AIが人類の“記憶係”として機能し始める中で、情報の偏りや「記憶からの抹消」という新たなリスクが指摘されている。</p>
-<p>米ルイビル大学などの研究者チーム（著者：Roman V. Yampolskiy／Alex Zhavoronkov／Dominika Wilczok）は2025年10月17日、論文「The Right to Be Remembered: Preserving Maximally Truthful Digital Memory in the Age of AI」を arXiv で<a href="https://arxiv.org/abs/2510.16206">公開</a>した。大規模言語モデル（LLM）が情報取得の主要なインターフェースとなる現状に対し、著者らは「記憶される権利（Right to Be Remembered, RTBR）」を提唱している。</p>
-<h2>単一回答がもたらす“記憶の収束”</h2>
-<p>従来の検索エンジンは複数の情報源を一覧で提示し、利用者が比較・判断できる余地を残していた。一方、LLMは統合的な「ひとつの答え」を返す傾向があり、異なる視点を意識的に検討する機会を失わせやすい。この構造が進むと、少数のAIベンダーが「何が記憶され、何が忘れられるか」を実質的に決定することになり、デジタル社会における“記憶の偏り”が固定化する恐れがあると警告している。</p>
-<h2>「記憶される権利（RTBR）」とは</h2>
-<p>著者らは、AIが生成する情報の公正性と真実性を守る新たな倫理的枠組みとしてRTBRを提案した。RTBRは「AIによる情報の省略を最小化し、公正で、生成内容が可能な限り真実であることを設計原則として担保する」責務を意味する。その実現には、モデル開発・学習・出力・UI設計の各段階で、偏りを可視化し、引用や来歴を明示する仕組みが欠かせないとする。</p>
-<h2>技術的・制度的課題にも言及</h2>
-<p>論文は、AIの“真実性”を外部事実との整合性（accuracy）と、内部表現の整合性（honesty）の2層に分けて評価する重要性を指摘。その上で、以下のような具体策を挙げている。</p>
-<ul>
-<li>データ選定と来歴メタデータ（C2PAなど）の付与</li>
-<li>RLHFや安全調整における多視点の保持</li>
-<li>単一回答UIに代替視点・出典リンクを併設</li>
-<li>不確実性の自己申告（知らないときは答えない／曖昧さの表示）</li>
-</ul>
-<p>また、C2PAなどのメタデータ標準を参照し、生成物に情報源を階層的に紐づける設計を推奨している。法制度面では、欧州の「忘れられる権利」（GDPR第17条）との緊張関係も論じられている。RTBR（公共の記憶の保存）と「忘れられる権利」（個人の消去請求）はしばしば対立し、LLMが知識を内部パラメータに埋め込む構造上、完全なアンラーニング（忘却）は難しいと指摘する。</p>
-<h2>公共の「記憶」をどう設計するか</h2>
-<p>研究者らは結論として、AIが知識の窓口となる時代において、モデルの設計や運用が人類の集合的記憶の形を左右する可能性を強調した。RTBRは、AIがもたらす効率性の裏側で、忘却や偏りから人間の歴史と多様な声を守るための新しい規範として位置づけられる。
-論文は「AIが“人類の記憶係”になる時代にこそ、何を残し、何を忘れないかを社会全体で考える必要がある」と結ばれている。</p>
-]]></description>
-      <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Canva、「Creative OS」を発表──デザインAIとVisual Suiteを統合した次世代ビジュアル作業環境</title>
       <link>https://ledge.ai/articles/canva_creative_operating_system_release</link>
       <description><![CDATA[<p>Canvaは2025年10月29日（現地時間）、同社史上最大規模のプロダクト刷新として「Creative Operating System（Creative OS）」を<a href="https://www.canva.com/ja_jp/newsroom/news/creative-operating-system/">発表</a>した。</p>
@@ -629,6 +573,38 @@ GitHubは「開発者は自分の選んだAIエージェントを同じワーク
 <p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
 公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
 同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
+]]></description>
+      <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
+      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
+      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
+<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
+<h2>モデル効率の“時間的スケーリング”</h2>
+<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
+<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
+<p><strong>オープンソースベースの LLM の推定機能密度</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
+<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
+<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
+<h2>ChatGPT以降、成長速度が1.5倍に</h2>
+<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
+<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
+<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
+<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
+またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
+<h2>「Mooreの法則」と掛け合わせた未来</h2>
+<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
+<h2>圧縮は万能ではない</h2>
+<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
+<h2>「密度最適訓練」への転換</h2>
+<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
+同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
 ]]></description>
       <pubDate>Tue, 04 Nov 2025 05:50:00 GMT</pubDate>
     </item>
