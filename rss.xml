@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
+      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
+      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
+<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
+<h2>モデル効率の“時間的スケーリング”</h2>
+<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
+<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
+<p><strong>オープンソースベースの LLM の推定機能密度</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
+<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
+<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
+<h2>ChatGPT以降、成長速度が1.5倍に</h2>
+<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
+<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
+<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
+<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
+またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
+<h2>「Mooreの法則」と掛け合わせた未来</h2>
+<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
+<h2>圧縮は万能ではない</h2>
+<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
+<h2>「密度最適訓練」への転換</h2>
+<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
+同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
+]]></description>
+      <pubDate>Mon, 10 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
       <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
       <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
@@ -453,28 +485,6 @@ AI事業者が権利者に無断で著作物を学習・再利用することは
 <p>一般社団法人 日本動画協会／公益社団法人 日本漫画家協会／株式会社秋田書店／株式会社一迅社／株式会社宙出版／株式会社KADOKAWA／株式会社コアミックス／株式会社講談社／株式会社小学館／株式会社少年画報社／株式会社新潮社／株式会社スクウェア・エニックス／株式会社竹書房／株式会社TOブックス／株式会社日本文芸社／株式会社白泉社／株式会社双葉社／株式会社芳文社／株式会社リイド社</p>
 ]]></description>
       <pubDate>Wed, 05 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIとAWS、7年・380億ドルの戦略的提携を発表──数十万GPUとUltraServersでAI基盤を拡充</title>
-      <link>https://ledge.ai/articles/openai_aws_multi_year_partnership_2025</link>
-      <description><![CDATA[<p>2025年11月3日（現地時間）、OpenAIとAmazon傘下のAmazon Web Services（AWS）は、複数年にわたる戦略的パートナーシップを締結したと<a href="https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure">発表</a>した。</p>
-<p>OpenAIは発表当日からAWS上で主要AIワークロードの稼働を開始しており、契約総額は今後7年間で380億ドル（約5.8兆円）にのぼる。数十万規模のNVIDIAチップを備えたUltraServersを活用し、AIトレーニングと推論の両面で大規模な計算基盤を構築する。</p>
-<h2>OpenAIのAIワークロードをAWSで稼働</h2>
-<p>今回の提携により、OpenAIはAWSのインフラを活用してChatGPTをはじめとする主要サービスや次世代モデルのトレーニングを実行する。AWSは「immediate availability（即時利用可能）」を強調し、提携発表と同時にOpenAIのワークロードを稼働させたと説明している。</p>
-<p>契約期間は7年間で、OpenAIはAWS上に総額380億ドル規模のコンピューティング・キャパシティを確保。2026年末までに全リソースを配備することを目標とし、状況に応じて2027年以降の拡張も検討されている。</p>
-<h2>GB200/GB300世代GPUとUltraServersを採用</h2>
-<p>AWSは、最新のNVIDIA GB200およびGB300世代チップを搭載した「Amazon EC2 UltraServers」を提供。これにより、OpenAIは数十万規模のNVIDIAチップと数千万CPUを同一ネットワーク上で動作させ、AI学習や推論を高効率に処理できる。</p>
-<p><strong>AWSのデータセンター外観。今後数十万規模のGPUクラスタを展開予定</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_71f1f7cec4/2_71f1f7cec4.jpg" alt="ダウンロード (2).jpg" /></p>
-<p>クラスタは低レイテンシの相互接続を備え、複数データセンターを単一の高性能ファブリックとして動作させる設計。AWSはこれを「最適化された大規模AIワークロード環境」と位置づけている。</p>
-<p><strong>AWSインフラ内部。UltraServers間を接続するネットワークケーブル群</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/7_17c982221d/7_17c982221d.jpg" alt="ダウンロード (7).jpg" /></p>
-<p>OpenAI CEOのサム・アルトマン氏は「フロンティアAIを安全にスケーリングするためには、massive, reliable computeが不可欠だ」と述べ、今回の提携が「advanced AI to everyone（すべての人に先進的AIを届ける）」基盤となると語った。AWS CEOのマット・ガーマン氏は「OpenAIの膨大なワークロードを支えるbest-in-class infrastructureを提供できることを誇りに思う」とコメントしている。</p>
-<h2>今後の展開</h2>
-<p>リリースでは、Amazon Bedrock上でOpenAIのオープンウェイト基盤モデルが利用可能になったことにも言及。すでにBystreet、Comscore、Peloton、Thomson Reuters、Triomics、Verana Healthなど数千社が導入を開始しているという。</p>
-<p>AWSは、2026年末までに全キャパシティの配備を完了させる計画を示している。今回の契約により、OpenAIはAWS上でAIモデルのトレーニングおよび推論を長期的に実施できる環境を確保した。両社は今後もAIインフラの拡張と最適化を進め、安定した計算リソースの提供を継続する方針だ。</p>
-]]></description>
-      <pubDate>Tue, 04 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
