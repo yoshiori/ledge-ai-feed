@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国Moonshot、1兆パラメータ級『Kimi K2 Thinking』を公開──7月発表のKimi K2を基盤に推論性能とツール連携を強化したオープンソースAI</title>
+      <link>https://ledge.ai/articles/kimi_k2_thinking_open_source_release_2025</link>
+      <description><![CDATA[<p>北京を拠点とするAI企業・Moonshotは2025年11月6日（米国時間）、大規模言語モデル「Kimi K2」を基盤とした推論特化モデル「Kimi K2 Thinking」を<a href="https://moonshotai.github.io/Kimi-K2/">発表</a>した。
+Kimi K2シリーズはオープンウェイトで提供され、最新のInstruct版「Kimi K2-Instruct-0905」はHugging Faceで配布されている。</p>
+<h2>Kimi K2を基盤とした“思考” 指向モデル</h2>
+<p>Kimi K2 Thinkingは7月公開の「Kimi K2」をベースに開発されたという。アーキテクチャは共通で、総パラメータ数は約1.04兆、発火時32BのMoE構成を持つ。学習には15.5兆トークンを使用し、安定学習を実現するために「MuonClip（QK-Clip）」と呼ばれる独自最適化手法を導入。これにより長期的なトークン依存関係を維持しながら、ロススパイクを抑制している。</p>
+<p>思考やマルチステップ推論、ツール呼び出しを重視した訓練データと報酬学習を実施しており、Moonshotは本モデルを「エージェント時代のための思考型LLM」と位置づけている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kimiai_k2thinking_127403b675/kimiai_k2thinking_127403b675.jpg" alt="kimiai k2thinking.jpg" /></p>
+<h2>256Kトークンの文脈ウィンドウを実装</h2>
+<p>最新版の「Kimi K2-Instruct-0905」では、文脈長を256Kトークンに拡張。従来版（128K）から倍増し、長大な文書解析や複雑な会話シナリオへの対応を可能にした。APIはOpenAIやAnthropicの形式に準拠しており、vLLMやSGLangなど主要推論エンジンにも対応する。
+これにより、既存のアプリケーション環境に容易に統合できる点も特徴だ。</p>
+<h2>推論・ツール使用で高評価</h2>
+<p>公式の技術レポートによると、Kimi K2 Thinkingは複数の思考タスクベンチマーク（Tau2、SWE-Benchなど）で高いスコアを記録。特に「non-thinking」設定（思考ステップ制限）と「thinking」設定（自由推論）を分けて評価する手法を採用し、モデル性能の透明性を強調している。これにより、ユーザーが実環境での出力挙動を予測しやすくしている。</p>
+<h2>Modified MITライセンスでオープン提供</h2>
+<p>Moonshotは、Kimi K2シリーズを「Modified MIT License」でオープンソースとして公開している。Hugging Face上でモデルウェイトが一般公開されており、研究・商用利用の両方が可能だ。</p>
+<p>最新モデル「Kimi K2-Instruct-0905」は以下で提供されている。<a href="https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905">https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905</a>
+技術仕様やアーキテクチャの詳細は、公式サイト「<a href="https://moonshotai.github.io/Kimi-K2/">Kimi K2</a>」および公開PDF「Kimi K2 Technical Report」で確認できる。</p>
+<h2>中国発オープンモデルの新潮流</h2>
+<p>Kimi K2 Thinkingは、中国企業によるオープンソースLLMとして国際的にも注目を集めている。
+1兆パラメータ級の思考モデルをライセンス制限なく公開する動きは、AI開発の透明性と研究競争力の双方を高める試みといえる。
+Moonshotは、K2シリーズを通じて「AIの思考能力を民主化する」と掲げ、今後もグローバルな開発者との協働を拡大していくとしている。</p>
+]]></description>
+      <pubDate>Wed, 12 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「実行中に書き換える」AIマルウェアを初確認──Google Threat Intelligence Groupが最新レポート、国家支援型も濫用継続</title>
       <link>https://ledge.ai/articles/ai_malware_runtime_rewrite_gtig_report_2025</link>
       <description><![CDATA[<p>GoogleのThreat Intelligence Group（GTIG）は2025年11月5日、攻撃者が生成AIや大規模言語モデル（LLM）を実行中に呼び出し、マルウェアの挙動を動的に変化させる事例を確認したとするレポート「<a href="https://services.google.com/fh/files/misc/advances-in-threat-actor-usage-of-ai-tools-en.pdf">Advances in Threat Actor Usage of AI Tools</a>」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools?hl=en">発表</a>した。
@@ -473,24 +498,6 @@ Smith氏はブログを次のように結んでいる。</p>
 <p>公式ブログで同社は「特許は人類の創意と探究心の記録であり、Perplexity Patentsはその知識に迅速にアクセスできる手段を提供する」と述べている。</p>
 ]]></description>
       <pubDate>Thu, 06 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>KDDI×ローソン、「ローソン S」高輪本社店でAI×ロボット実証　11月8日開始</title>
-      <link>https://ledge.ai/articles/lawson_kddi_vla_ai_robot_store</link>
-      <description><![CDATA[<p>KDDI株式会社と株式会社ローソンは2025年10月28日、AI技術とロボットを組み合わせた店舗デジタル化の実証を、11月8日から「ローソン S KDDI高輪本社店」（東京都港区）で開始すると<a href="https://www.lawson.co.jp/company/news/detail/1512018_2504.html">発表</a>した。両社が共同で実施し、小売店舗の省人化や業務効率化を目的としている。</p>
-<h2>欠品検知と品出しを自動化</h2>
-<p>実証では、自律走行ロボットが店内を巡回し、4Kカメラで棚の画像を撮影。AIが画像を解析してプライスカードやパッケージを認識し、商品名や棚割り、在庫状況を自動で把握する。これにより、欠品を検知し、従来手作業で行っていた確認作業の効率化を図る。</p>
-<p>さらに、バックルームの在庫情報をもとに、品出し業務の自動化や、店舗内の人流データと連携した「最適な棚割り」提案なども検証する。AIとロボットを組み合わせることで、店舗運営の現場データを活用したリアルタイムな改善サイクルの構築を目指す。</p>
-<p>@<a href="https://www.youtube.com/watch?v=SMC7FnhtTy4&amp;t=1s">YouTube</a></p>
-<h2>「Virtual Logistics Assistant（VLA）」を活用</h2>
-<p>今回の実証には、KDDIが開発した次世代デジタル基盤「Virtual Logistics Assistant（VLA）」を活用する。
-VLAは、実空間と仮想空間をデジタルツインで連携させ、店舗や倉庫のオペレーションを仮想上で再現・最適化する仕組みである。
-ロボットが収集した画像や人流データをVLAに集約し、AIが解析することで、欠品の検知や補充タイミングを自動で可視化。データドリブンな店舗運営の基盤として機能する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_lawson_vla_c009912b1c/kddi_lawson_vla_c009912b1c.jpg" alt="kddi lawson vla.jpg" /></p>
-<p>今回の実証は、KDDIとローソンが共同で進める「Real×Tech LAWSON」プロジェクトの一環で、現実店舗にテクノロジーを実装し、顧客体験と業務効率の両立を検証する取り組みとなる。両社は今後、実証結果をもとに他店舗への展開も検討するとしている。</p>
-<p>なお、本取り組みはKDDIが開催する「KDDI SUMMIT 2025」でも紹介される予定。</p>
-]]></description>
-      <pubDate>Thu, 06 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
