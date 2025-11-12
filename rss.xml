@@ -5,6 +5,53 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「実行中に書き換える」AIマルウェアを初確認──Google Threat Intelligence Groupが最新レポート、国家支援型も濫用継続</title>
+      <link>https://ledge.ai/articles/ai_malware_runtime_rewrite_gtig_report_2025</link>
+      <description><![CDATA[<p>GoogleのThreat Intelligence Group（GTIG）は2025年11月5日、攻撃者が生成AIや大規模言語モデル（LLM）を実行中に呼び出し、マルウェアの挙動を動的に変化させる事例を確認したとするレポート「<a href="https://services.google.com/fh/files/misc/advances-in-threat-actor-usage-of-ai-tools-en.pdf">Advances in Threat Actor Usage of AI Tools</a>」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools?hl=en">発表</a>した。
+マルウェアが実行中にLLMを呼び出し、自らのコードを生成・修正・難読化する事例を初めて確認したという。GTIGは、これらの手法が「Just-in-Time（実行時）AI」の初期例であり、攻撃の自動化と難読化能力を高める方向にあると指摘している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GTIG_AI_05e0bd6287/GTIG_AI_05e0bd6287.png" alt="GTIG AI.png" /></p>
+<h2>実行中にLLMを呼び出す「Just-in-Time」型マルウェア</h2>
+<p>GTIGによると、新たに確認された系統の中には、マルウェアが稼働中に生成AIを呼び出してコードを変化させる「Just-in-Time（実行時）」手法が含まれている。
+以下は、レポート内で説明された「AI機能を取り入れた（またはAIで新機能を得た）」主要マルウェア系統の一覧である。</p>
+<h3>FRUITSHELL（PowerShell製リバースシェル）</h3>
+<p>目的：C2（コマンド＆コントロール）接続による遠隔操作で任意コマンドを実行。
+AIの使われ方：コード内にハードコードされたプロンプトを含み、LLM搭載のセキュリティ製品の解析回避を狙う。
+ステータス：運用で観測（Observed in operations）。</p>
+<h3>PROMPTFLUX（VBScript製ドロッパー）</h3>
+<p>目的：埋め込みのデコイインストーラで活動を隠蔽しつつ、自己再生成（regeneration）によって持続化・難読化を図る。
+AIの使われ方：Google Gemini APIを実行時に呼び出し、LLMに自身のVBScriptソースを書き換えさせて新たな難読化版を生成・保存する（「Thinking Robot」モジュールによる定期的なコード再生成など）。「Just-in-Time」自己修正を可能にする設計として説明されている。
+ステータス：実験段階（Experimental）。GTIGは関連資産の無効化措置を実施。目的：埋め込みのデコイインストーラで活動を隠蔽しつつ、自己再生成（regeneration）によって持続化・難読化を図る。
+AIの使われ方：Google Gemini APIを実行時に呼び出し、LLMに自身のVBScriptソースを書き換えさせて新たな難読化版を生成・保存する（「Thinking Robot」モジュールによる定期的なコード再生成など）。「Just-in-Time」自己修正を可能にする設計として説明されている。
+ステータス：ステータス：実験段階（Experimental）。GTIGは関連資産の無効化措置を実施。
+GTIGは、当該コード群は開発・テスト段階であり、現時点で端末やネットワークを侵害できる能力は示されていないと注記している。</p>
+<h3>PROMPTLOCK（Go製ランサムウェア、PoC）</h3>
+<p>目的：ファイル探索・窃取およびファイル暗号化を行うクロスプラットフォーム型のランサムウェア（概念実証）。
+AIの使われ方：実行時にLLMを利用してLuaスクリプトを動的生成・実行する機能を持つとされる。
+ステータス：実験段階（Experimental）。</p>
+<h3>PROMPTSTEAL（Python製データマイナー）</h3>
+<p>目的：システム情報や特定フォルダ内の文書を収集して外部へ送信するデータ窃取。
+AIの使われ方：PyInstaller化されたスクリプトがHugging Face経由で Qwen2.5-Coder-32B-Instruct を呼び、1行コマンドを生成させて実行する方式を取る。ハードコーディングではなくLLMにコマンド生成を委ねる点が特徴で、これが「実運用でのLLM呼び出し」としてGTIGの初観測例に含まれる。
+ステータス：運用で観測（Observed in operations）。同系統はロシア政府支援とされるAPT28（FROZENLAKE）がウクライナで使用したと報告され、LLMを“運用中に照会”した初観測例として位置づけられている。</p>
+<h3>QUIETVAULT（JavaScript製クレデンシャルスティーラー）</h3>
+<p>目的：GitHubやNPMのトークンなど資格情報を窃取し、取得した資格情報やファイルを公開リポジトリ経由で外部に流出させる等の挙動。
+AIの使われ方：オンホストでインストールされたAI CLIツールやプロンプトを活用して、システム内の潜在的な秘密ファイルを探索・抽出する機能を併用している。
+ステータス：運用で観測（Observed in operations）。</p>
+<p>GTIGは今回の発見を「2025年における新たな段階（実行時にAIを呼び出すマルウェア）」の初期指標と位置づけ、いくつかの実装は実験・開発段階にあるものの、運用段階で観測されたケースも存在するとしている。特にPROMPTFLUXについては自己修正機能や「gemini-1.5-flash-latest」指定など、モデル依存性や継続的な更新を意図した設計が確認されている。</p>
+<p>Googleはレポート内で、これらの活動に対して関連アセットの無効化やモデル・分類器の強化、SAIF（Secure AI Framework）などを通じた予防措置を実行したことを明示している。また、攻撃者が「CTF参加者」や「研究者」を名乗るなどの社会工学的プロンプトで安全性ガードレールを回避しようとする手口も確認されているため、モデル側とセキュリティ側双方の対応を継続していると述べている。</p>
+<h2>社会工学的な“ガードレール回避”</h2>
+<p>報告書では、攻撃者がAIモデルの安全対策（ガードレール）を回避するため、巧妙なプロンプトを使用する事例も確認された。
+「CTF（ハッキングコンテスト）への参加」や「大学での研究目的」など、もっともらしい理由を提示して制限をすり抜け、悪用可能なコードを生成させるケースが報告されている。</p>
+<h2>犯罪向けAIツールの地下市場化</h2>
+<p>GTIGは、マルウェア生成・フィッシング支援・脆弱性探索などに特化した“犯罪向けAIツール”が地下マーケットで急速に拡大していると指摘。これらのツールは月額サブスクリプション形式で販売され、AIを使った攻撃が商業化・自動化されつつあると警告している。</p>
+<h2>国家支援型グループもAIを活用</h2>
+<p>Googleは、中国・イラン・北朝鮮など国家支援型とみられる攻撃グループが、偵察からC2構築、データ窃取に至るまでAIを併用していると説明。特に暗号資産を狙うキャンペーンでの利用が確認されている。</p>
+<h2>Googleの対応と今後</h2>
+<p>同社は、報告書で検出された不正資産の無効化やモデルの再学習を実施したほか、AIセーフティフレームワーク（SAIF）やレッドチーム評価を継続して行っていると説明。
+GTIGは「AIを悪用した攻撃は今後さらに多様化・自動化する可能性がある」とし、産業界全体での検知・対策共有の重要性を強調している。</p>
+]]></description>
+      <pubDate>Wed, 12 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>note、NAVERから20億円調達し資本業務提携──生成AI・プラットフォーム連携・IP共同開発・戦略投資の4領域で協業開始</title>
       <link>https://ledge.ai/articles/note_naver_alliance_2025</link>
       <description><![CDATA[<p>note株式会社は2025年11月5日、韓国のNAVER Corporationから総額20億円の出資を受け、資本業務提携を締結したと<a href="https://www.watch.impress.co.jp/docs/news/2060848.html">発表</a>した。両社はAI時代における創作と流通の新しいエコシステムを共に構築し、クリエイターが世界中のファンとつながりながら持続的に活動できる仕組みを目指す。</p>
@@ -444,26 +491,6 @@ VLAは、実空間と仮想空間をデジタルツインで連携させ、店�
 <p>なお、本取り組みはKDDIが開催する「KDDI SUMMIT 2025」でも紹介される予定。</p>
 ]]></description>
       <pubDate>Thu, 06 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“科学発見の未来の味見”──OpenAIのBrockman氏、GPT-5 Proが12分で導出した治療仮説が未公表論文と一致　食物アレルギーに既存薬の効果を提案</title>
-      <link>https://ledge.ai/articles/gpt5_pro_dupilumab_fpies_case_jaci_global</link>
-      <description><![CDATA[<p>OpenAIの共同創業者で社長のGreg Brockman氏は2025年10月31日、自身のX（旧Twitter）で「GPT-5 Proが12分の思考で、治療不可能とされていた食物アレルギーに既存薬を提案し、未公表だった査読論文と同じ結論に達した」と<a href="https://x.com/gdb/status/1985057569392709644">投稿</a>した。</p>
-<p>この事例が指すのは、dupilumab（デュピルマブ）による食物タンパク質誘発性腸炎症候群（FPIES：Food Protein–Induced Enterocolitis Syndrome）の症例報告だ。AIが独立に導いた仮説が、同日に公開されたJACI Global（Journal of Allergy and Clinical Immunology: Global）誌の症例シリーズと一致したという。</p>
-<h2>Brockman氏「科学発見の未来の味見」</h2>
-<p>Brockman氏はこの事例の投稿を引用し「Taste of what LLM-driven scientific discovery will be like（LLMによる科学的発見の未来の味見）」と表現。GPT-5 Proが提示した仮説が、当時未公表だった査読研究の結果と一致したと述べ、AIによる科学的洞察の萌芽として紹介した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/brockman_x_gpt5_scientific_discovery_fe45f963b2/brockman_x_gpt5_scientific_discovery_fe45f963b2.jpg" alt="brockman x gpt5 scientific discovery.jpg" /></p>
-<h2>JACI Globalが報告──dupilumabでFPIESが寛解</h2>
-<p>2025年10月29日付でJACI Globalに掲載された<a href="https://www.jaci-global.org/article/S2772-8293(25)00193-6/fulltext">論文</a>では、成人の小麦誘発FPIES患者に対し、dupilumab投与中に小麦摂取後も発作が起きず、経口負荷試験（約50gの小麦たんぱく）でも無反応となった経緯を報告。治療中断で症状が再燃し、再開で再び耐性が回復するなど可逆的な効果も確認された。研究チームは2〜58歳の7例を追加し、観察的ではあるもののdupilumabの有効性を示唆した。</p>
-<h2>GPT-5 Proが独立に導出──「12分の思考」でdupilumabを第一推奨</h2>
-<p>この症例を担当したOral Alpan医師の同僚、Derya Unutmaz医師（米ジャクソン研究所）は、論文投稿直前にGPT-5 Proへ臨床ケースを入力。モデルは約12分間の思考を経て、dupilumab（IL-4Rα阻害薬）を第一候補として提案したという。Unutmaz医師はX上で「他のどのモデルもdupilumabを第一選択として示さなかった」と述べ、出力画面のスクリーンショットを公開した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/derya_unutmaz_x_fa4ca8f5c0/derya_unutmaz_x_fa4ca8f5c0.jpg" alt="derya unutmaz x.jpg" /></p>
-<p>論文では、dupilumabが樹状細胞OX40Lの抑制（“un-licensing”）を通じてType 2炎症経路を制御し、腸管上皮の過剰反応を抑制した可能性が示唆されている。現時点では仮説段階にあり、さらなる臨床試験が必要とされる。</p>
-<p>研究者らは、今回の報告は因果関係を証明するものではなく、観察的症例シリーズにとどまることを強調。また、dupilumabはFPIESに対して未承認であり、治療の変更は必ず医師の管理下で行うべきと注意を促した。</p>
-<h2>今後の展望──臨床試験への期待</h2>
-<p>主治医のAlpan医師は、Regeneron（dupilumabの共同開発元）に臨床試験を打診する意向を表明。Unutmaz医師は「2万種を超える承認薬の中に、すでに“隠れた治療法”が存在するかもしれない」とし、GPT-5 Proのような高度なAIが既存薬の再利用（ドラッグ・リポジショニング）を加速させる可能性に期待を示した。</p>
-]]></description>
-      <pubDate>Thu, 06 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
