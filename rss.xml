@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
+      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
+      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
+<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
+<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
+<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
+10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
+Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
+<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
+<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
+<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
+<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
+<h2>公平性を測る「倫理的ベンチマーク」</h2>
+<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
+さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
+<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
+既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
+さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
+<h2>被写体の権利を保護する設計</h2>
+<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
+参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
+この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
+<h2>責任あるAI研究への布石</h2>
+<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
+公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
+Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
+<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
+また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+]]></description>
+      <pubDate>Wed, 12 Nov 2025 15:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国Moonshot、1兆パラメータ級『Kimi K2 Thinking』を公開──7月発表のKimi K2を基盤に推論性能とツール連携を強化したオープンソースAI</title>
       <link>https://ledge.ai/articles/kimi_k2_thinking_open_source_release_2025</link>
       <description><![CDATA[<p>北京を拠点とするAI企業・Moonshotは2025年11月6日（米国時間）、大規模言語モデル「Kimi K2」を基盤とした推論特化モデル「Kimi K2 Thinking」を<a href="https://moonshotai.github.io/Kimi-K2/">発表</a>した。
@@ -477,27 +509,6 @@ Smith氏はブログを次のように結んでいる。</p>
 <p>「最も重要なのは、テクノロジーがどれほど他者を支援できるかということだ。私たちは株主への価値提供だけでなく、地域社会に新しい機会と成長をもたらす責任を負っている。」</p>
 ]]></description>
       <pubDate>Fri, 07 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Perplexity、AI特許検索エージェント「Perplexity Patents」を発表──自然言語で特許・技術情報を横断検索</title>
-      <link>https://ledge.ai/articles/perplexity_patents_beta_launch_20251030</link>
-      <description><![CDATA[<p>Perplexityは2025年10月30日（米国時間）、AIを活用した特許検索サービス「Perplexity Patents」を正式に<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-patents">発表</a>した。</p>
-<p>世界初の「AI特許研究エージェント」として、専門知識がなくても自然言語で特許文献を検索できる機能を備え、知的財産（IP）インテリジェンスへのアクセスを一般化することを目指すという。</p>
-<h2>自然言語で特許を検索</h2>
-<p>Perplexity Patentsは、自然言語で入力された質問に基づき、関連する特許を提示する検索エージェント。ユーザーは「Are there any patents on AI for language learning?（言語学習向けAIに関する特許はありますか？）」や「Key quantum computing patents since 2024?（2024年以降の主要な量子コンピューティング関連特許は？）」といった文章で検索できる。</p>
-<p>AIが特許指向の質問を自動的に理解し、関連特許の一覧と出典を表示する。結果はインラインビューア上で閲覧でき、元の特許文書へのリンクも含まれる。会話形式のインターフェースを採用し、追加質問や比較も継続的に行える。関連するトピックの提案も表示される。</p>
-<h2>特徴と仕組み</h2>
-<p>Perplexity Patentsは、従来のキーワード一致検索では検出できない先行技術を抽出できる。
-例えば「fitness trackers」で検索した場合、「activity bands」「step-counting watches」「health monitoring wearables」などの語を含む特許も提示される。</p>
-<p>同社によれば、バックエンドでは特許専用の知識インデックスを活用し、AIリサーチエージェントが複雑なクエリを情報検索タスクに分解して処理する。これにより、数十から数百件の関連文書を参照した回答が生成される。</p>
-<h2>検索対象の拡張</h2>
-<p>Perplexity Patentsは、特許文献に加えて、学術論文、ソフトウェアリポジトリ、ブログ、動画など、特許以外の技術情報も検索対象に含める。同社は「新しい発明や技術は、特許の枠にとどまらない形で現れることがある」としている。</p>
-<h2>提供開始と利用条件</h2>
-<p>サービスはベータ版として全世界で提供を開始した。
-ベータ期間中は無料で利用でき、ProおよびMaxプランのユーザーは追加の使用クォータやモデル設定オプションを利用可能。</p>
-<p>公式ブログで同社は「特許は人類の創意と探究心の記録であり、Perplexity Patentsはその知識に迅速にアクセスできる手段を提供する」と述べている。</p>
-]]></description>
-      <pubDate>Thu, 06 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
