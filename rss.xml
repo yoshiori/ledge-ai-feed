@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Wikipedia、AI企業に「知の還元」を要請──無断スクレイピングから有料API「Wikimedia Enterprise」へ、持続可能な共創を目指す</title>
+      <link>https://ledge.ai/articles/wikipedia_ai_scraping_stop_enterprise_api</link>
+      <description><![CDATA[<p>「Wikipedia」を運営する非営利団体ウィキメディア財団（Wikimedia Foundation）は、米国時間2025年11月10日、AI企業に対し、AIモデルのトレーニングを目的としたデータ収集（スクレイピング）を停止し、同財団が提供する有料API「Wikimedia Enterprise」を利用するよう求める声明を<a href="https://wikimediafoundation.org/news/2025/11/10/in-the-ai-era-wikipedia-has-never-been-more-valuable/">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_261c218f50/wikimedia_261c218f50.jpg" alt="wikimedia.jpg" /></p>
+<p>声明は「AI時代において、ウィキペディアはこれまでになく価値がある」とし、持続可能な知識共有の観点から帰属（アトリビューション）と財政的支援の必要性を明確に示した。出典の明示やデータ更新の正確性、ライセンス遵守をAPI経由で担保できると説明している。</p>
+<p>財団によれば、生成AIの普及によりAI企業による無断スクレイピングとボットアクセスが増加し、サーバー負荷や読者体験への影響が懸念される。一方で、人間によるページビューは2025年上半期に前年比約8％減となったとし、基盤を支える寄付・ボランティア編集への波及を指摘した。</p>
+<p>財団は、AIは人間が記録・検証した知識（例：Wikipedia）に依存していると改めて説明。生成AIは既存知の要約・統合はできても、Wikipediaのボランティア編集者が日々行う議論・検証・合意形成、アーカイブからの発掘、現場写真の提供といった活動を代替できないとした。Wikipediaは300以上の言語版で、しばしばネイティブ執筆者による多言語コーパスを形成しており、包摂的で文化的背景に配慮したAIモデルの発展にも資する、としている。</p>
+<p>透明性も強調された。Wikipediaでは全員が同一の情報を閲覧でき、パーソナライズ配信や行動追跡による出し分けは行われない。記事には出典が付与され、編集履歴や運用プロセスは公開されている。誰でも方針・ガイドラインに従って加筆できる点が「信頼」の源泉であるとし、対照的に生成AIはハルシネーション（もっともらしい誤情報の提示）を起こし得ると説明した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_enterprise_api_20e0f88941/wikimedia_enterprise_api_20e0f88941.jpg" alt="wikimedia enterprise api.jpg" /></p>
+<p>同財団は、Wikipedia自体も人を支える形でAIを活用していると述べる。ボランティアの時間を奪う荒らし検知など単純作業の効率化を狙い、今年公表した編集者向けAI戦略では、人間の知識創造を補助し置き換えない方針を示した。AIツールの利用指針はコミュニティが策定・施行し、責任ある活用を徹底する。</p>
+<p>総括として財団は、AIはWikipedia抜きでは成立しないとし、AI開発者や再利用者に対し次の2点を要請した。</p>
+<ul>
+<li>アトリビューション（出典表示）：人間の貢献にクレジットを付し、元情報源への導線を明確にする。</li>
+<li>財政的支援：大規模利用はWikimedia Enterpriseを通じて行い、サーバー負荷を抑えつつ非営利ミッションを継続可能にする。</li>
+</ul>
+<p>同財団は、Wikipediaが検証可能性・中立性・透明性の標準でインターネット上の情報を支えているとし、「AIがあふれる世界で、人間の知識の価値はかつてなく高い」と述べた。なお、Wikipediaは2026年1月15日に25周年を迎える予定で、今後も無料で正確な人間の知識を提供し続けるとした。</p>
+]]></description>
+      <pubDate>Wed, 12 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
       <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
       <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
@@ -645,41 +665,6 @@ OpenAIのGPT-4o（2024年11月20日版）を基盤とする対話モデル「Pro
 <p>PKSHAと東北大学は、「AIによる説得」が社会的・倫理的に安全な形で機能するための基盤技術として、今後も共同研究を継続するとしている。</p>
 ]]></description>
       <pubDate>Fri, 07 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、UAEに152億ドルを投資──NVIDIA製GPUで築く「技術・人材・信頼」のモデルケース　AI・クラウド基盤を強化</title>
-      <link>https://ledge.ai/articles/microsoft_uae_15_2_billion_investment</link>
-      <description><![CDATA[<p>Microsoftは2025年11月3日（現地時間）、アラブ首長国連邦（UAE）におけるAIおよびクラウド関連投資の詳細を<a href="https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/">発表</a>した。同社は2023年から2029年末までの7年間で、総額152億ドル（約2兆3,500億円）を投じる計画を明らかにした。</p>
-<p>投資はAI・クラウドインフラの拡充、人材育成、国際的な信頼基盤の強化を柱とし、「テクノロジー（Technology）」「タレント（Talent）」「トラスト（Trust）」の3分野に重点を置くという。</p>
-<h2>2023〜2029年にかけて152億ドルを投資</h2>
-<p>Microsoftの副会長兼社長、Brad Smith氏によると、今回の投資は「UAEでお金を集めるものではなく、UAEで支出するもの」だという。2023年に始動したAIイニシアチブのもと、同社はこれまでに約73億ドルを投じており、その内訳はG42社への15億ドル出資、AI・クラウドデータセンター設備への46億ドル、現地運営費など12億ドルとなる。
-今後2026〜2029年末までにさらに79億ドルを支出する予定で、55億ドルを追加の設備投資、24億ドルを運営費等に充てる。</p>
-<h2>米国製GPUを活用したAIインフラの構築</h2>
-<p>Microsoftは米商務省からの輸出許可を得て、NVIDIA製GPUをUAEに供給している。
-2025年時点でA100相当のGPU 2万1,500基を導入済みであり、2025年9月にはGB300を含む6万400基分の追加許可を取得した。
-これにより、同国のデータセンターではOpenAIやAnthropicなどのAIモデル、Microsoft自身のCopilotアプリケーション、オープンソースモデルなどを動作させている。</p>
-<p>Microsoftは「UAEではAI需要が急速に拡大しており、課題は供給が需要を上回ることではなく、需要の伸びに追いつくことだ」と述べている。ブログによると、同国の生成AI利用率は世界最高水準にあり、UAEでは人口の59.4％が生成AIを活用。2位のシンガポール（58.6％）を上回り、他国で50％を超える例はないという。</p>
-<h2>現地人材と教育への長期投資</h2>
-<p>Microsoftは、技術投資と並行して人材育成にも注力する。
-UAEの拠点には約1,000人の社員と関連スタッフ（40カ国籍）が在籍し、エンジニアは約100人。パートナー企業は1,400社に拡大し、関連従業員は約4万5,000人に達する。</p>
-<p>2025年にはアブダビに「グローバル・エンジニアリング開発センター（Global Engineering Development Center）」を設立し、世界中から技術者を誘致。地域企業のDX推進や新サービス開発を支援している。
-また、同市に開設した「Microsoft AI for Good Lab」では、博士号研究者が低資源言語（例：マラウイ、ケニア、ウガンダなど）の大規模言語モデルを共同開発し、人道支援や教育格差の是正にAIを活用している。</p>
-<p>教育分野でも、2027年までにUAE国内で100万人のスキルアップを実現する目標を掲げており、連邦政府や地方自治体と連携して職員12万人の研修を開始。さらに、学生17万5,000人、教員3万9,000人を対象としたAI教育プログラムを進めている。</p>
-<h2>責任あるAIと国際的信頼の構築</h2>
-<p>Microsoftは、AIの活用には「信頼」が不可欠だとし、倫理・セキュリティ・法令遵守を重視している。
-2025年2月には、G42およびモハメド・ビン・ザーイド人工知能大学（MBZUAI）とともに「Responsible AI Future Foundation（RAIFF）」をアブダビに設立。中東およびグローバルサウス地域における責任あるAI開発の標準策定を進めている。</p>
-<p>さらに、同年4月にはG42との間で「Intergovernmental Assurance Agreement（IGAA）」を締結。
-米国・UAE両政府と協議を重ね、サイバー・物理的セキュリティ、輸出管理、データ保護、責任あるAI、KYCなどで米国基準を満たす枠組みを構築した。
-Microsoftは「IGAAは2国間の信頼関係を強化するだけでなく、民間企業間でも政府水準のコンプライアンスを実現する初の枠組みだ」と説明している。</p>
-<h2>地域連携と文化交流</h2>
-<p>同社はシアトルから経済・教育・医療・非営利団体などのリーダーを含む代表団をアブダビに派遣し、地域交流を促進。
-現地で開催された「Abu Dhabi Global AI Summit」では、G42、RAIFF、Eurasia Group GZERO Mediaなどと共催し、グローバルサウス諸国におけるAI普及と格差是正の必要性を訴えた。</p>
-<h2>今後の展望</h2>
-<p>Microsoftは、UAEを中東のAI・クラウド拠点として位置づけ、今後4年間で追加79億ドルを投資する。
-Smith氏はブログを次のように結んでいる。</p>
-<p>「最も重要なのは、テクノロジーがどれほど他者を支援できるかということだ。私たちは株主への価値提供だけでなく、地域社会に新しい機会と成長をもたらす責任を負っている。」</p>
-]]></description>
-      <pubDate>Fri, 07 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
