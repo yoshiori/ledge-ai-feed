@@ -5,6 +5,38 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
+      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
+      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
+<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
+<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
+<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
+10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
+Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
+<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
+<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
+<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
+<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
+<h2>公平性を測る「倫理的ベンチマーク」</h2>
+<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
+さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
+<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
+既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
+さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
+<h2>被写体の権利を保護する設計</h2>
+<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
+参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
+この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
+<h2>責任あるAI研究への布石</h2>
+<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
+公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
+Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
+<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
+また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+]]></description>
+      <pubDate>Thu, 13 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>楽天と日本HP、AIエージェント「Rakuten AI」デスクトップ版をHP製PCに初導入──オンデバイスAIでオフライン利用にも対応</title>
       <link>https://ledge.ai/articles/rakuten_hp_rakuten_ai_desktop_collaboration</link>
       <description><![CDATA[<p>楽天グループと日本HPは2025年11月11日、HPが日本国内で販売するほぼすべてのPCに、楽天のAIエージェントツール「Rakuten AI」のデスクトップ版を導入する協業を<a href="https://corp.rakuten.co.jp/news/press/2025/1111_01.html">発表</a>した。</p>
@@ -622,34 +654,6 @@ Meta広告アカウントと連携すれば、配信データに基づいたリ�
 デザイン・AI・ブランド運用をシームレスにつなぐことで、個人から企業まで幅広いユーザーが一貫したワークフローで制作・配信・分析を行える環境を提供するとしている。</p>
 ]]></description>
       <pubDate>Fri, 07 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PKSHAと東北大学、「説得対話AI」でEMNLP 2025 Industry Trackに採択──社会心理・行動経済学を融合し、低意欲層にも“自然な動機づけ”</title>
-      <link>https://ledge.ai/articles/pksha_tohoku_persuasive_dialogue_ai_emnlp2025</link>
-      <description><![CDATA[<p>株式会社PKSHA Technologyは2025年10月31日、東北大学 言語AI研究センターとの共同研究による「説得対話AI」に関する論文が、自然言語処理分野の国際会議「EMNLP 2025（Conference on Empirical Methods in Natural Language Processing）」のIndustry Trackに採択されたと<a href="https://www.pkshatech.com/news/20251031/">発表</a>した。</p>
-<p>論文タイトルは「Enhancing Persuasive Dialogue Agents by Synthesizing Cross-Disciplinary Communication Strategies」。社会心理学・行動経済学・コミュニケーション理論を横断的に取り入れ、より多面的で実践的な説得戦略を設計する新しい枠組みを提案している。</p>
-<h2>行動心理学の手法をAIが“文脈で選ぶ”</h2>
-<p>研究は、営業やカウンセリングなど「目的志向型の対話」におけるAI活用を想定して開発されたという。
-既存の説得AIは、特定の戦略（例：単純な論理訴求）に依存する傾向があり、現実のコミュニケーションの複雑さを再現しづらいという課題があった。</p>
-<p>今回のモデルは、社会心理学で知られる「フット・イン・ザ・ドア（段階的要請）」や「ドア・イン・ザ・フェイス（譲歩的要請）」「互恵性」「希少性」「フレーミング効果」など、31種類の説得戦略を統合。対話の文脈や相手の反応に応じて最適な戦略を動的に切り替える仕組みを持つ。</p>
-<p><strong>図：従来モデル（左）と提案モデル（右）の説得対話の比較</strong>
-従来のAI（左）は限定的な戦略に依存し、説得に失敗している。一方、提案モデル（右）は「出典確認」「内省促し」「一貫性訴求」など拡張戦略を組み合わせ、低意欲者にも行動変容を促すことに成功している
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/paksha_tohoku_559ec27a64/paksha_tohoku_559ec27a64.jpg" alt="paksha tohoku.jpg" /></p>
-<p>論文では、たとえば「寄付をためらう相手に対して、まずは『情報共有だけでもどうですか？』と小さな行動を提案し、そこから寄付に導く」という例が示されている。こうした“段階的誘導”は人間のコーチング現場でも実践されており、AIがそれを再現するのは初の試みとされる。</p>
-<h2>GPT-4oを用いた検証で成功率83%</h2>
-<p>検証には、寄付対話データセットPersuasion for Good（P4G）と、多分野の13,000件のシナリオを含むDailyPersuasionが用いられた。
-OpenAIのGPT-4o（2024年11月20日版）を基盤とする対話モデル「ProCoT-rich-desc」を構築し、従来手法（ProCoT-p4g）と比較。</p>
-<p>結果として、説得成功率83.3％を記録し、特に「意欲が低い層」においても行動意向が平均+1.10ポイント改善した。
-人間による評価では72.5％の評価者が提案モデルを「より説得的」と判断。複数データセット間でも汎用性が確認された。</p>
-<h2>倫理的リスクへの配慮──「押しつけない説得」へ</h2>
-<p>研究チームは、AIが心理的影響力を行使することのリスクにも言及。
-「感情的な訴求や時間的プレッシャーが心理的負担を生む可能性がある」とし、人間による最終確認（Human-in-the-Loop）を組み込んだ安全設計を提案している。</p>
-<p>具体的には、AIの出力をフィルタリングする「有害性検知ゲート」や、倫理的に望ましくない戦略を除外する仕組みも検討されている。</p>
-<h2>実装と今後の展開</h2>
-<p>PKSHAはこの研究成果を自社の「PKSHA AI Agents」に活用し、コンタクトセンターや営業現場などでの対話支援を高度化する方針だ。AIが相手の心理状態や意欲レベルに応じて最適なアプローチを選択できれば、業務支援だけでなく、教育・医療・自治体窓口など、幅広い分野での応用が期待される。</p>
-<p>PKSHAと東北大学は、「AIによる説得」が社会的・倫理的に安全な形で機能するための基盤技術として、今後も共同研究を継続するとしている。</p>
-]]></description>
-      <pubDate>Fri, 07 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
