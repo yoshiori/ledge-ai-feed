@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、広告向け基盤モデル「GEM」を公開──Instagramコンバージョン5％増の“中央脳”AIを正式解説</title>
+      <link>https://ledge.ai/articles/meta_gem_ads_foundation_model_release</link>
+      <description><![CDATA[<p>Metaは米国時間2025年11月10日、広告レコメンデーション向けの大規模AIモデル「GEM（Generative Ads Recommendation Model）」の技術詳細を<a href="https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/">発表</a>した。</p>
+<p>GEMは同社の広告システムにおける“中央脳（central brain）”となる基盤モデル（foundation model）で、既存の広告モデル群全体の性能を底上げする役割を担う。</p>
+<p>Metaによれば、2025年のローンチ以降、GEMはInstagram広告のコンバージョン率を約5％、Facebookフィード広告を約3％改善する成果を示している。広告主のROI向上を支える重要なモデルとして位置づけられている。</p>
+<h2>LLM級スケールで学習した広告向け「中央脳」モデル</h2>
+<p>MetaはGEMを「現代の大規模言語モデル（LLM）と同等クラスのスケール」で設計しており、数千基規模のGPUクラスター上で学習を実施したと説明する。
+トレーニング基盤は大幅に刷新され、学習に用いるGPU数を16倍に拡張。PyTorch 2.0のグラフコンパイルやカスタムGPUカーネル、FP8量子化などを組み合わせることで、従来比で有効学習FLOPsを約23倍に高めつつ、ハードウェア効率（MFU）も約1.4倍に向上させたという。</p>
+<p>これにより、広告全体で利用する複数のモデル群をまたぎ、GEMの知識を効率よく伝達できる構造を実現した。</p>
+<h2>長期行動履歴を扱うアーキテクチャ──「InterFormer」による特徴学習</h2>
+<p>GEMの中核には、ユーザーの長期的な行動履歴を一貫して学習するアーキテクチャが採用されている。</p>
+<p>Metaが開発した「Offline Sequence Feature Modeling」では、ユーザーの広告やオーガニック投稿に対する行動履歴を“数千イベント規模”まで拡張し、詳細なシーケンスとして学習可能にする。</p>
+<p>さらに、これらのシーケンスを適切に相互作用させるための新構造「InterFormer」が導入されている。従来のように行動履歴を単一ベクトルに圧縮するのではなく、シーケンス全体の情報を保持したまま、特徴間の関連性を段階的に学習する仕組みだ。
+これにより、広告配信面（Facebook、Instagramなど）ごとに異なる利用行動をより精密にモデル化できるようになったとしている。</p>
+<p><strong>図1：シーケンス埋め込みと非シーケンス埋め込みを統合し、Wukong／Sequence Modeling によって学習するGEMの内部構造。Facebook／Instagramのクリックやコンバージョン予測に対応</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Meta_Generative_Ads_Model_GEM_image_2_16d35f3329/Meta_Generative_Ads_Model_GEM_image_2_16d35f3329.webp" alt="Meta-Generative-Ads-Model-GEM-image-2.webp" /></p>
+<h2>GEM → Foundation Model → 垂直モデルへ階層的に知識を伝達</h2>
+<p>Metaの広告AIは、GEMの下に多数のファウンデーションモデル（FM）と垂直モデル（Vertical Models, VM）が存在する多層構造をとる。</p>
+<p>この階層へGEMの知識を効率的に伝達するため、Metaは「直接的な知識移転」「階層的蒸留」「表現学習」「一部パラメータ共有」など複数の手法を組み合わせている。同社はこれにより、従来の標準的な知識蒸留を使った場合と比べて、同等条件で得られる性能改善効果が約2倍になったと説明している。</p>
+<p>レイテンシやコスト制約の大きい垂直モデルでは、GEMのすべてをそのまま継承するのではなく、必要なコンポーネントだけを共有して使う設計も採用されている。</p>
+<p><strong>図2：GEMから基盤モデル、垂直モデルへと知識を段階的に伝達するMetaの広告AIアーキテクチャ</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Meta_Generative_Ads_Model_GEM_image_1_e1762534706646_5fd652bc4a/Meta_Generative_Ads_Model_GEM_image_1_e1762534706646_5fd652bc4a.webp" alt="Meta-Generative-Ads-Model-GEM-image-1-e1762534706646.webp" /></p>
+<h2>今後の方向性──マルチモーダル統合とエージェント的広告自動化へ</h2>
+<p>Metaは今後、GEMを画像・動画・音声などを含むマルチモーダル学習へと拡張し、FacebookやInstagramの複数の面（surface）をまたぐ統合的なランキングモデルへ発展させる計画を示している。</p>
+<p>また、広告主の入稿・改善作業を支援する**エージェント的な自動化（agentic automation）**にも取り組むとしており、GEMを軸にした次世代の広告運用フローを構築するとしている。</p>
+<p>GEMはすでに広告コンバージョンにおいて実績を上げており、Metaは、同社全体の広告システムを支える基盤として今後も中心的な役割を担うと見込んでいる。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>菱洋エレクトロ、パーソナルAIコンピューター「NVIDIA DGX Spark」の出荷開始──デスクトップで2000億パラメータ級LLM推論を実現</title>
       <link>https://ledge.ai/articles/ryoyo_nvidia_dgx_spark_shipping_start</link>
       <description><![CDATA[<p>エレクトロニクス商社の菱洋エレクトロ株式会社は2025年11月11日、NVIDIAのパーソナルAIコンピューター「NVIDIA DGX Spark」の出荷を開始したことを<a href="https://www.ryoyo.co.jp/info/news/34499/">発表</a>した。同社は7月1日に取り扱い開始を発表しており、今回のリリースにより、日本国内での出荷が具体的にスタートしたかたちとなる。</p>
