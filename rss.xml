@@ -5,6 +5,63 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
+      <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
+<h2>GPT-5.1とは──GPT-5世代の会話性アップデート</h2>
+<p>GPT-5.1は、GPT-5を基盤としつつ、回答の自然さやインタラクションのしやすさを強化した改良モデルである。OpenAIは今回の更新を「GPT-5の進化版」と説明しており、名前に「5.1」を付与した理由として、「同一世代内の意味のあるアップデート」であることを示す意図を挙げている。</p>
+<p>ChatGPTでは、ユーザーの入力の難度に応じて最適なモデルを自動選択する「Auto」ルーティングが継続され、Instant／Thinkingが適宜切り替わる仕組みとなる。</p>
+<h2>GPT-5.1 Instant──より会話的で、指示に忠実な標準モデル</h2>
+<p>GPT-5.1 Instantは、従来のGPT-5 Instantの役割を引き継ぐ標準モデルで、回答スタイルがより自然で“暖かい（warmer）”会話に調整された。プロンプトに対する遵守性も改善され、「6語で答えてほしい」といった制約付き指示への一貫性が向上したとしている。</p>
+<p>また、必要に応じて内部の思考時間をわずかに伸ばす「軽い自動推論（adaptive reasoning）」を採用。AIMEなどの数学ベンチマークやコード解析系タスクにおける性能が向上した例が示されている。</p>
+<p><strong>GPT-5 Instant → GPT-5.1 Instant の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348590_4bf99b57e6/1762974348590_4bf99b57e6.jpg" alt="1762974348590.jpg" /></p>
+<h2>GPT-5.1 Thinking──思考時間の自動最適化で推論性能を強化</h2>
+<p>GPT-5.1 Thinkingは、推論特化モデル「GPT-5 Thinking」を改良したバージョンで、タスクの難度に応じて思考時間をより細かく最適化するようにアップデートされた。OpenAIは「最も短い思考タスクでは約2倍速く、最も難しいタスクでは約2倍長く考える」と説明しており、簡単な質問への応答速度と、難しい問題への粘り強さを両立させたとしている。</p>
+<p>説明スタイルは平易な英語に統一され、技術・専門用語の使用を抑えたことにより、ビジネス文書や技術解説でも読みやすさが向上している。</p>
+<p><strong>GPT-5 Thinking → GPT-5.1 Thinking の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348726_437b92d9f8/1762974348726_437b92d9f8.jpg" alt="1762974348726.jpg" /></p>
+<h2>トーン・スタイルのプリセット強化──6種類のパーソナリティ設定</h2>
+<p>GPT-5.1の導入とあわせて、ChatGPTのトーン設定機能も拡張された。
+既存のDefault、Friendly（旧Listener）、Efficient（旧Robot）に加え、新たに次の3スタイルが追加された。</p>
+<ul>
+<li>Professional</li>
+<li>Candid</li>
+<li>Quirky
+さらに、Nerdy（旧Nerd）、Cynical（旧Cynic）も従来どおり利用可能で、合計6スタイルが選べるようになった。
+また、一部ユーザー向けには、文章の簡潔さ、温かさ、見出しや箇条書きの量、絵文字頻度などをスライダーで微調整する実験的機能も提供される。これらの設定変更は進行中のスレッドにも即時反映される仕様に改められた。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974349937_f37e9be75b/1762974349937_f37e9be75b.jpg" alt="1762974349937.jpg" /></p>
+<h2>ChatGPTからAPIへ順次展開</h2>
+<p>GPT-5.1 Instant／Thinkingは、11月12日から有料プラン利用者に順次提供を開始。今後、無料ユーザーやログアウト状態の利用者にも展開される予定だ。
+Enterprise／Educationプランでは7日間の早期アクセス期間が設けられ、期間後はGPT-5.1が標準モデルとして切り替わる。</p>
+<p>APIでは、以下の名称で提供される予定と案内されている。</p>
+<ul>
+<li><strong>GPT-5.1 Instant</strong> ：gpt-5.1-chat-latest</li>
+<li><strong>GPT-5.1 Thinking</strong> ：gpt-5.1</li>
+</ul>
+<p>APIの提供開始は「今週後半」としている。</p>
+<p>従来のGPT-5（Instant／Thinking）は、少なくとも3カ月間は有料ユーザー向けのレガシーモデルとして継続提供される。</p>
+<h2>安全性・システムカード追補──メンタルヘルス領域の評価を拡充</h2>
+<p>同日公開された「GPT-5.1 System Card Addendum」では、安全性評価、メンタルヘルス領域、感情依存（emotional reliance）の指標などが更新された。
+OpenAIは、実運用で発生する難度の高いケースを集約した「Production Benchmarks」を導入し、以下のカテゴリで“not unsafe”スコアを比較している。</p>
+<ul>
+<li>個人情報</li>
+<li>ハラスメント</li>
+<li>憎悪表現・暴力</li>
+<li>自傷行為（意図・手段）</li>
+<li>性的コンテンツ（未成年含む）</li>
+<li>メンタルヘルス</li>
+<li>Emotional reliance など</li>
+</ul>
+<p>GPT-5.1は多くの領域でGPT-5と同等、または改善がみられる一方、一部ではわずかな悪化も記録しており、改善を継続すると記載されている。</p>
+<p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
+<h2>今後の展開</h2>
+<p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、広告向け基盤モデル「GEM」を公開──Instagramコンバージョン5％増の“中央脳”AIを正式解説</title>
       <link>https://ledge.ai/articles/meta_gem_ads_foundation_model_release</link>
       <description><![CDATA[<p>Metaは米国時間2025年11月10日、広告レコメンデーション向けの大規模AIモデル「GEM（Generative Ads Recommendation Model）」の技術詳細を<a href="https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/">発表</a>した。</p>
@@ -655,31 +712,6 @@ AI導入を理由とする人員削減は年初来で4万8414人に上り、前�
 チャレンジャー社は「AI adoption（AIの採用）や自動化による効率化が複数業種でレイオフを誘発している」とし、雇用市場全体が「生成AI時代の再構築フェーズ」に入っていることを示唆している。</p>
 ]]></description>
       <pubDate>Sat, 08 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Getty Images、Perplexityと複数年ライセンス契約──AI検索で合法画像とクレジット表示を強化、英国ではStability AI訴訟に判決</title>
-      <link>https://ledge.ai/articles/gettyimages_perplexity_ai_license_stabilityai_uk_ruling</link>
-      <description><![CDATA[<p>Getty Imagesは2025年10月31日、AI検索サービスを提供するPerplexityとの複数年にわたるライセンス契約を締結したことを<a href="https://newsroom.gettyimages.com/en/getty-images/getty-images-and-perplexity-strike-multi-year-image-partnership">発表</a>した。AIによる画像検索の精度向上と、画像制作者のクレジット表示の改善を目的とした取り組みだ。</p>
-<p>一方11月4日、同社が英国で提起していたStability AIとの著作権訴訟では、11月4日にロンドン高等法院が判決を下し、これについての声明を<a href="https://newsroom.gettyimages.com/en/getty-images/getty-images-issues-statement-on-ruling-in-stability-ai-uk-litigation">発表</a>した。</p>
-<h2>Perplexityとの契約：合法的な画像利用を推進</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cloud_technology_big_data_financial_technology_and_artificial_intelligence_011824783d/cloud_technology_big_data_financial_technology_and_artificial_intelligence_011824783d.jpg" alt="cloud-technology-big-data-financial-technology-and-artificial-intelligence.jpg" /></p>
-<p>同社は10月31日付の発表で、Perplexityと複数年のグローバルライセンス契約を締結したと明らかにした。この契約により、PerplexityのAI検索および発見ツールにおいて、Getty Imagesが保有する編集・クリエイティブ画像を合法的に表示できるようになる。Getty ImagesのAPI技術を活用し、高品質な画像を統合することで、ユーザー体験の向上とクレジット表示の明確化を図る。</p>
-<p>リリースの中で同社は、PerplexityがGetty ImagesのAPIを「コンテンツ制作および表示ワークフローに深く統合する」と説明。これにより、「ライセンスされた画像の適切な利用を促進し、クリエイターのクレジット表示を改善する」としている。</p>
-<p>Getty ImagesのNick Unsworth氏は、契約が「正しい帰属表示を促進し、AI製品の品質と信頼性を高めるもの」と説明。
-PerplexityのJessica Chan氏も「コンテンツの出典や制作者を明示することが、AI時代の正確な情報理解につながる」と述べた。</p>
-<p>同社はこの契約はAIプラットフォームにおける「ライセンス画像の正規利用とクレジット明示」を支援するもので、AI検索や生成ツールにおける画像帰属の透明性を高めることを目的としている。</p>
-<h2>英国でのStability AI訴訟に判決</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/abstract_gradient_background_with_delicate_waves_aa534c0d6c/abstract_gradient_background_with_delicate_waves_aa534c0d6c.jpg" alt="abstract-gradient-background-with-delicate-waves.jpg" /></p>
-<p>Getty Imagesは、画像生成モデル「Stable Diffusion」を開発するStability AIを相手取り、著作権侵害を訴えていた。英国ロンドン高等法院（High Court of England &amp; Wales）は11月4日、Joanna Smith判事による<a href="https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf">判決</a>を言い渡した。</p>
-<p>判決では、AI生成画像にGetty Imagesのウォーターマークやロゴが含まれていた点について商標侵害を認定した一方、モデルの訓練過程における著作権侵害の主張は棄却された。判決文では、「モデルが著作物を直接保存または複製している証拠は示されていない」と記されている。</p>
-<p>Getty Imagesは同日付の声明で、
-「Stable Diffusionの出力に含まれる当社商標の使用が侵害にあたることが確認された」と述べ、モデル提供者に商標責任がある点を「知的財産権者にとって重要な判断」とした。</p>
-<p>また、同社は「AIモデル開発における透明性の欠如に懸念を抱いており、政府に対して透明性を高める法制度の整備を求める」とコメントしている。</p>
-<p>Getty Imagesは、今回の英国判決で認定された事実を米国で進行中の関連訴訟に反映させる方針を示した。</p>
-<h2>今後の方針</h2>
-<p>同社は、AI時代における画像利用の正当性とクリエイターの権利保護を両立させるため、ライセンス契約と法的措置の両面から対応を進めている。今後も、AI検索や生成分野における合法的なデータ利用の枠組みを整備し、画像の出典明示や透明性の確保を推進するとしている。</p>
-]]></description>
-      <pubDate>Sat, 08 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/8 [SAT]Google「Project Suncatcher」発表　太陽光×衛星コンステでAI計算を“宇宙へ”</title>
