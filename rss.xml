@@ -5,6 +5,45 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>MIT、テキストからマルチトラックMIDI音楽を生成する言語モデル「MIDI-LLM」を開発──Llama 3.2を拡張し、高速推論と高品質な出力を実現</title>
+      <link>https://ledge.ai/articles/mit_midi_llm_text_to_midi_ai</link>
+      <description><![CDATA[<p>マサチューセッツ工科大学（MIT）の研究チームは2025年11月6日、自然言語の指示からマルチトラックMIDI音楽を生成できる言語モデル「MIDI-LLM」を<a href="https://arxiv.org/abs/2511.03942v1">発表</a>した。ベースとなる大規模言語モデル「Llama 3.2 1B」の語彙を拡張し、MIDIトークンを直接扱えるようにした点が特徴。生成結果は従来モデル「Text2midi」に比べて高品質かつ高速で、編集・再利用が容易なシンボリック音楽データを生成できる。</p>
+<h2>言葉から“楽譜”を生み出すLLM</h2>
+<p>MIDI（Musical Instrument Digital Interface）とは、楽器や音楽ソフトのあいだで「どの音を、いつ、どのくらいの強さで鳴らすか」を指示するためのデータ規格である。実際の音そのものではなく、演奏情報を数値として記録する「デジタル譜面」のような形式で、後から編集や再構成がしやすいのが特徴だ。つまりAIがMIDIデータを生成するというのは、音を出すのではなく、楽曲の構造や演奏指示そのものを自動で書き上げることを意味している。</p>
+<p>近年、テキストからオーディオを生成するAIが登場しているが、音声出力は後編集が難しいという課題があった。MIDIなどのシンボリック音楽データは、楽譜構造を保持したまま再編集できるため、音楽制作やゲーム、映像音楽などの分野で需要が高い。</p>
+<p>MITの研究チームは、こうした編集可能性とテキスト制御性を両立させるため、言語モデルを直接MIDI形式に適応させる「MIDI-LLM」を提案した。研究はNeurIPS 2025 Workshop「AI for Music」で発表され、コード・学習済みモデル・デモサイトが一般公開されている。</p>
+<h2>Llama 3.2をMIDIトークン対応に拡張</h2>
+<p>MIDI-LLMは、Meta社のLlama 3.2 （1 Bパラメータ）を基盤に、音楽用トークンを追加して構築された。音符は「発音時刻（onset time）」「音の長さ（duration）」「楽器と音高（instrument-pitch）」の3つのトークンで表現され、Anticipatory Music Transformer（AMT）の到着時間トークン化手法を採用。これにより、既存のLLM構造を保ちながら音楽表現を学習でき、推論時にはvLLM ライブラリによる最適化がそのまま利用できる。</p>
+<p><strong>図：MIDI-LLMの構造と学習プロセス</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_9_f067c27669/x1_9_f067c27669.png" alt="x1 (9).png" /></p>
+<h2>2段階の訓練でテキスト→MIDIを習得</h2>
+<p>研究では、以下の2段階でモデルを訓練した。</p>
+<h3>1. 継続事前学習（Continued Pretraining）</h3>
+<p>音楽関連テキスト（MusicPile など）とスタンドアロンMIDIデータ（GigaMIDI など）を約30億トークン規模で学習し、音楽構造と文脈理解を強化。</p>
+<h3>2. 教師ありファインチューニング（Supervised Finetuning）</h3>
+<p>テキストとMIDIのペアデータ（MidiCaps ＋ Lakh MIDI Dataset）を使用し、ジャンル・テンポ・ムードなどの言語的指示から対応する音楽を出力できるよう訓練。データ拡張では音楽キャプションモデル「Qwen 2.5 Omni」を活用し、多様なプロンプトで補強した。</p>
+<h2>「Text2midi」を上回る品質と速度</h2>
+<p>評価実験では、MIDI-LLMが従来モデル「Text2midi」（AAAI 2025）を大きく上回る性能を示した。</p>
+<ul>
+<li><strong>FAD（Fréchet Audio Distance）</strong> ： 0.216 （Text2midi 0.818）</li>
+<li><strong>CLAPスコア</strong> （テキストと音楽の一致度）： 21.8 （Text2midi 18.7）</li>
+<li><strong>推論速度（RTF）</strong> ： 約14 倍高速化（FP8量子化使用時）</li>
+</ul>
+<p>なお、評価はMidiCapsテストセットの交差896サンプルで実施され、FAD/CLAP算出のためにMIDIをFluidSynthでレンダリングして音声化した上で指標を計測している。
+vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで、従来の構造より50％以上の推論効率化を実現したという。</p>
+<h2>デモサイトを公開、誰でも体験可能</h2>
+<p>MIDI-LLMの<a href="https://midi-llm-demo.vercel.app/">デモサイト</a>では、「Epic Rock」「Playful Jazz」「Sad &amp; Emotional」などのプリセット、または自由な文章入力から音楽を生成できる。生成結果はMIDIファイルとしてダウンロード可能で、ブラウザ上で再生もできる。</p>
+<p><strong>MIDI-LLMデモサイトの画面</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/midi_llm_1c07755bdd/midi_llm_1c07755bdd.jpg" alt="midi-llm.jpg" /></p>
+<h2>今後の課題と展望</h2>
+<p>論文では、テキスト付きインフィリング（曲の一部を補完する生成）では、テキスト条件の影響が小さいという課題も指摘された。
+また、音楽特化テキストを使わなくても性能差が見られなかったことから、事前学習データ設計の最適化が今後の課題とされている。</p>
+<p>今後は、ユーザーフィードバックを活用したRLHF（人間フィードバックによる好み学習）やDPO（Direct Preference Optimization）を導入し、ユーザーの音楽嗜好に合わせた生成を目指すとしている。
+研究チームは「テキストで音楽を編集・再構成できるAIの実現」を次のステップに掲げている。</p>
+]]></description>
+      <pubDate>Thu, 13 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
       <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
       <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
