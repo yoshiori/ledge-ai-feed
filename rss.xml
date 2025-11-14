@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>菱洋エレクトロ、パーソナルAIコンピューター「NVIDIA DGX Spark」の出荷開始──デスクトップで2000億パラメータ級LLM推論を実現</title>
+      <link>https://ledge.ai/articles/ryoyo_nvidia_dgx_spark_shipping_start</link>
+      <description><![CDATA[<p>エレクトロニクス商社の菱洋エレクトロ株式会社は2025年11月11日、NVIDIAのパーソナルAIコンピューター「NVIDIA DGX Spark」の出荷を開始したことを<a href="https://www.ryoyo.co.jp/info/news/34499/">発表</a>した。同社は7月1日に取り扱い開始を発表しており、今回のリリースにより、日本国内での出荷が具体的にスタートしたかたちとなる。</p>
+<p>NVIDIA DGX Sparkは、デスクに設置可能なコンパクト筐体に、NVIDIA GB10 Grace Blackwell Superchipと128GBの統合メモリを搭載するAIコンピューター。最大2,000億パラメータ規模の大規模言語モデル（LLM）の推論や、プロトタイプ開発・評価をローカル環境で実行できる点が特徴となっている。</p>
+<p>CES 2025の基調講演で、BlackwellアーキテクチャとAIデスクトップ構想を紹介する創業者兼CEOのジェンスン・フアン氏
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_ces2025_digitsproject4_2ef18ffd02/nvidia_ces2025_digitsproject4_2ef18ffd02.jpg" alt="nvidia ces2025 digitsproject4.jpg" /></p>
+<p>Grace BlackwellアーキテクチャによるFP4精度で最大1,000 AI TOPSの性能を備え、2台接続時には4,050億パラメータ規模のモデルにも対応可能。NVIDIA Base OSやNVIDIA AIソフトウェアスタック、JupyterやPyTorchなどの主要ツールがあらかじめ導入されており、開発者はデスクトップ環境からすぐにモデルの実験・検証を始められる構成となっている。</p>
+<p>菱洋エレクトロによると、すでに大学や企業の研究機関から多数の注文が寄せられており、先端的な研究機関に加えて、国内企業のAIプロジェクトに関わる部門への提案も積極的に進めているという。自社データを活用し、オンプレミス環境でLLM（大規模言語モデル）開発を行いたいと考える企業から高い関心が寄せられていると説明している。</p>
+<p>また、NVIDIAの説明では、DGX Sparkで構築したデータやモデルを、NVIDIA AI EnterpriseやNVIDIA DGX Cloudを含むクラウドやデータセンターのAIインフラへシームレスに展開できるとしており、デスクトップでの開発から本番環境へのスケールアップも容易だとされている。</p>
+<p>同社はNVIDIA一次代理店として自社在庫による迅速な納品体制を整えており、製品ページでは「NVIDIA DGX Sparkは、菱洋エレクトロが最終エンドユーザーへ直接販売可能な製品」であり、「個人購入も可能」と案内している。現在は多くの注文を受けており、順次出荷対応を行っているため、出荷までに時間を要する場合がある点にも言及している。</p>
+<p>菱洋エレクトロは、半導体・デバイスとICTソリューションを軸に、AIやIoTなど次世代技術の実装を支援する事業を展開しており、パーソナルAIコンピューターの取り扱い拡大も、その一環として位置づけている。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>MIT、テキストからマルチトラックMIDI音楽を生成する言語モデル「MIDI-LLM」を開発──Llama 3.2を拡張し、高速推論と高品質な出力を実現</title>
       <link>https://ledge.ai/articles/mit_midi_llm_text_to_midi_ai</link>
       <description><![CDATA[<p>マサチューセッツ工科大学（MIT）の研究チームは2025年11月6日、自然言語の指示からマルチトラックMIDI音楽を生成できる言語モデル「MIDI-LLM」を<a href="https://arxiv.org/abs/2511.03942v1">発表</a>した。ベースとなる大規模言語モデル「Llama 3.2 1B」の語彙を拡張し、MIDIトークンを直接扱えるようにした点が特徴。生成結果は従来モデル「Text2midi」に比べて高品質かつ高速で、編集・再利用が容易なシンボリック音楽データを生成できる。</p>
