@@ -5,6 +5,45 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、米国内初の「AIスーパーファクトリー」稼働開始──ウィスコンシンとアトランタを高速AI WANで結ぶ新型Fairwaterデータセンター群</title>
+      <link>https://ledge.ai/articles/microsoft_ai_superfactory_launch</link>
+      <description><![CDATA[<p>Microsoftは2025年11月12日（現地時間）、同社初となる「AIスーパーファクトリー」を米国内で運用開始したと<a href="https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/">発表</a>した。</p>
+<p>10月に稼働したアトランタの新Fairwaterデータセンターに加え、ウィスコンシンのFairwaterサイトなど複数拠点を専用のAI WAN（AI専用広域ネットワーク）で結び、1つの巨大なAI計算インフラとして連携動作させる構想を明らかにした。同社はこの「AIスーパーファクトリー」を、数百兆パラメータ級のAIモデルを訓練するための、新しいクラウドアーキテクチャだと位置づけている。</p>
+<h2>「AIスーパーファクトリー」とは</h2>
+<p>公表されたAIスーパーファクトリーは、従来のデータセンターとは異なり、複数州に点在するAIキャンパスを1つの高性能コンピューターのように扱う設計が特徴だ。</p>
+<p>Microsoftは、米ウィスコンシン州とジョージア州アトランタに構築したFairwaterデータセンターを高速AI WANで結び、GPUクラスタ間のデータ移動をミリ秒単位に短縮。これにより、巨大なAIトレーニングを複数サイトにまたがって同時並行で処理できると説明している。</p>
+<h2>高密度GPUと液冷による次世代AIキャンパス設計</h2>
+<p>Fairwaterデータセンターには、最新の NVIDIA GB200 NVL72（Blackwell世代）をベースにした高密度GPUラックを採用。ケーブル長を極限まで短く抑えた二層構造の建屋と専用ネットワークにより、AIモデルの学習効率を引き上げる設計となっている。</p>
+<p>▼画像：Fairwaterデータセンター内のGPUラック：高密度に配置されたNVIDIA Blackwell世代GPUラック。ケーブル長を短縮し、並列処理性能を最大化する構造が採用されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/345_009_edited_2000_768x512_383b630c28/345_009_edited_2000_768x512_383b630c28.jpg" alt="345-009_edited_2000-768x512.jpg" /></p>
+<p>アトランタのFairwater AIデータセンターは、10月に本格稼働を開始。マルチギガワット級の電力供給、広大な敷地、液冷設備など、AI専用クラスタの増設を前提としたレイアウトとなっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/345_244_2000_912x683_ad4ffa2cbe/345_244_2000_912x683_ad4ffa2cbe.jpg" alt="345-244_2000-912x683.jpg" /></p>
+<h2>高速AI WANが「仮想スーパーコンピューター」を形成</h2>
+<p>Microsoftは、今回のAIスーパーファクトリーを実現する要素として“AI WAN”を強調している。これは、専用光ファイバーを用いた広域ネットワークで、ウィスコンシンとアトランタ間を含む複数サイトを結び、GPU同士を1カ所にあるかのように連携させるための基盤だ。主な特徴は次のとおり。</p>
+<ul>
+<li>数千マイルをまたぐ高速な専用光ネットワークで、データをほぼ光速で伝送</li>
+<li>専用AI WAN向けの光ファイバーを1年で12万マイルまで増設し、マイレージを25%以上拡張</li>
+<li>AIアプリケーション向けに最適化されたネットワークプロトコルとQoSにより、渋滞を避けたトラフィック制御を実現</li>
+</ul>
+<p>これにより、巨大モデルの学習で生じる通信のボトルネックを最小限に抑え、GPUを最大限稼働させるとしている。</p>
+<h2>液冷で“ゼロウォーター運用”を実現</h2>
+<p>Fairwaterでは、閉ループ構造の液冷システムを採用し、初回に一般家庭約20軒分の年間使用量に相当する水を充填したのち、基本的に再利用を続けることで追加の水資源をほとんど必要としない運用を実現している。</p>
+<p><strong>▼画像：AIスーパーファクトリーの構造：Microsoftが公開した「AIスーパーファクトリー」の概念図。AI WAN、液冷、ラックアーキテクチャなど、複数要素が統合されている。</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Infographic_v1_578x578_185454d166/Infographic_v1_578x578_185454d166.png" alt="Infographic-v1-578x578.png" /></p>
+<h2>担うワークロード──OpenAI、AI Superintelligence Team、Copilot</h2>
+<p>同社はこのAIスーパーファクトリーを、以下のワークロード向けに設計したと説明している。</p>
+<ul>
+<li>OpenAIのフロンティアモデルのトレーニング</li>
+<li>Microsoft AI Superintelligence Teamの研究開発</li>
+<li>Copilotを含む商用AIサービス全体の推論・学習基盤</li>
+</ul>
+<p>モデル規模としては「数百兆パラメータ級のモデルを想定」と明言されている。</p>
+<h2>2019年のOpenAIスーパーコンピューターからの進化</h2>
+<p>Microsoftは2019年にOpenAIと共同で初の大規模AIスーパーコンピューターを構築して以来、GPU、ネットワーク、冷却、OS、スケジューラなど、クラウドインフラのあらゆる層を再設計してきた。Fairwaterは、これまでの知見を統合し、AIライフサイクル全体（学習・評価・合成データ生成など）に対応する新しいカテゴリのデータセンターとして位置づけられている。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
       <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
       <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
