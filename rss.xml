@@ -5,6 +5,51 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLMは“悪役ロールプレイ”で性能が急落──Tencentと中山大学が23,191シーンを解析、最大の弱点は“利己的キャラ”の再現性</title>
+      <link>https://ledge.ai/articles/llm_villain_roleplay_too_good_to_be_bad_tencent_analysis</link>
+      <description><![CDATA[<p>TencentのMultimodal Departmentと中山大学の研究チームは2025年11月12日、LLM（大規模言語モデル）が「悪役ロールプレイ」を苦手とすることを大規模に示した論文「Too Good to be Bad: On the Failure of LLMs to Role-Play Villains」を<a href="https://arxiv.org/abs/2511.04962v2">発表</a>した。</p>
+<p>23,191のシーンと54,591のキャラクター注釈を含む独自のMoral RolePlayベンチマークを構築し、最新モデルのロールプレイ性能を4段階のモラル軸で評価したところ、<strong>キャラクターの善悪が下がるほど演技の忠実度が体系的に低下する傾向</strong> が明らかになったという。</p>
+<h2>聖人 → 悪役でスコアが単調減少</h2>
+<p>研究チームは、キャラクターを「Level 1：Moral Paragons（聖人）」「Level 2：Flawed-but-Good」「Level 3：Egoists（利己的）」「Level 4：Villains（悪役）」の4段階に分類し、ゼロショットでロールプレイを生成させて評価した。</p>
+<p>その結果、平均スコアは
+3.21（Level 1） → 3.14（Level 2） → 2.71（Level 3） → 2.62（Level 4）
+と、モラルが低下するほど一貫して減少した。特に、Level 2（善人）からLevel 3（利己的）への転換で最も大きな性能落ち込みが発生しており、研究チームはこれを「LLMにとって最大の弱点」と位置づけている。</p>
+<h2>Negative traits で深刻な崩れ</h2>
+<p>研究では、各キャラクターに77種類の性格特性を付与し、性格ごとの再現性も分析された。とくに Selfish（利己的）や Manipulative（策略的）といった Negative traits に注目した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_907cedc104/x3_907cedc104.png" alt="x3.png" />
+Moral RolePlayベンチマークに含まれる主要特性の出現比率。Negative traits は割合こそ小さいが、悪役キャラクター群で高密度に組み合わさる傾向があり、LLMの再現性を下げる要因になっている。</p>
+<p>これらの特性ごとに、ロールプレイの忠実度スコアから算出した「平均ペナルティ値」を比較したところ、結果は</p>
+<ul>
+<li>Positive traits：ペナルティ 3.16</li>
+<li>Neutral traits：3.23</li>
+<li>Negative traits：3.41（最も高いペナルティ）
+と、悪役に不可欠な負の特性で忠実度が大きく低下した。</li>
+</ul>
+<p>特に「Selfish（利己的）」「Deceitful（欺瞞的）」「Manipulative（策略的）」など、LLMの安全性アラインメントと真っ向から矛盾する特性ほど再現が難しいとされる。論文では、こうした特性を持つキャラクターの演技が「浅い攻撃表現」に置き換わる傾向が複数モデルで確認された。</p>
+<h2>悪役ロールプレイは“一般性能”と相関しない</h2>
+<p>研究チームは、悪役ロールプレイ性能を独立に評価する「Villain RolePlay（VRP）ランキング」も作成した。最上位は glm-4.6（スコア 2.96）で、次いで deepseek-v3.1-thinking（2.82）、kimi-k2（2.79）が続いた。一方で、Arenaランキング上位のモデル（例：Claude-opus 4.1、Claude-sonnet 4.5）は、VRPでは大きく順位を落としている。</p>
+<p>この傾向は、各モデルのモラルレベルごとのスコアを比較した以下の図でも確認できる。
+Level 1（聖人）では多くのモデルが高得点を維持する一方、Level 3（利己的）と Level 4（悪役）では急激にスコアが落ち込むモデルが多い。Claude系は特に落差が大きく、glm系は比較的安定して高い水準を維持している。</p>
+<p><strong>各モデルのモラルレベル別スコア比較</strong> 青（Level1）→緑（Level2）→黄（Level3）→赤（Level4）の順に、モラルが下がるほどスコアが低下する傾向が明確に見える。特に Claude 系モデルは Level3・4 で大きく崩れ、glm 系モデルは比較的安定した性能を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_3_a311e00b70/x4_3_a311e00b70.png" alt="x4 (3).png" /></p>
+<p>画像の出典：<a href="https://arxiv.org/abs/2511.04962v2">Too Good to be Bad: On the Failure of LLMs to Role-Play Villains</a>
+:::</p>
+<p>さらに、VRPランキングと Arena ランキングを直接比較した次の表を見ると、チャット能力の高さと悪役ロールプレイ性能が必ずしも一致しないことがより明確になる。glm-4.6 は VRP1位だが Arena10位、Claude-opus 4.1 は Arena1位相当ながら VRP14位にとどまるなど、両者は大きく乖離している。</p>
+<p><strong>悪役ロールプレイ（VRP）リーダーボード。(アリーナスコアと比較)</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Villain_Role_Play_VRP_leaderboard_d966f1e8f7/Villain_Role_Play_VRP_leaderboard_d966f1e8f7.jpg" alt="Villain RolePlay (VRP) leaderboard.jpg" /></p>
+<p>LLMの“悪役ロールプレイ能力”は、一般チャット性能とはしばしば大きくずれる。glm 系が上位を占める一方、Claude 系は VRP で順位を落としている。</p>
+<p>これらの結果から、研究チームは「悪役ロールプレイ性能は一般的な対話能力とは独立した能力」であり、創作・ゲーム・NPC生成など人格模倣が求められる領域では、VRPのような文脈依存の評価が欠かせないと結論づけている。</p>
+<h2>安全アラインメントとの根本的なトレードオフ</h2>
+<p>研究は、LLMの安全性調整（有害表現の抑制）が悪役ロールプレイ能力と衝突している可能性を指摘している。
+特に、欺瞞的・操作的な行動は安全性ガイドラインによって強く抑制されるため、LLMがフィクション内であってもその振る舞いを再現できず、キャラクターの演技が破綻するケースが多かった。</p>
+<p>研究チームは、「フィクション文脈における悪役表現」と「現実世界の有害表現」を区別できる新たなアラインメント方式が今後必要になると述べている。</p>
+<h2>今後の展望</h2>
+<p>Moral RolePlayベンチマークは、創作・ゲーム開発・対話型エージェントなど、人格再現性が求められる分野でのモデル改善に活用できるとされる。</p>
+<p>研究チームは、悪役ロールプレイを含む「文脈依存の安全性」に対応した学習方法や、用途ごとの「ロールプレイモード切替」の有効性を今後の課題として挙げた。</p>
+]]></description>
+      <pubDate>Sat, 15 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、米国内初の「AIスーパーファクトリー」稼働開始──ウィスコンシンとアトランタを高速AI WANで結ぶ新型Fairwaterデータセンター群</title>
       <link>https://ledge.ai/articles/microsoft_ai_superfactory_launch</link>
       <description><![CDATA[<p>Microsoftは2025年11月12日（現地時間）、同社初となる「AIスーパーファクトリー」を米国内で運用開始したと<a href="https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/">発表</a>した。</p>
@@ -718,35 +763,6 @@ The Atlanticは、出版社の著作物がAIモデルの学習に使われるこ
 <p>今後は、AI企業、出版社、研究機関の間で、データ利用の範囲や削除手続きの明確化をめぐる議論が進むとみられる。</p>
 ]]></description>
       <pubDate>Sun, 09 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>著作権書籍で訓練したAI、創作専攻の大学院生による模倣文より高評価──コロンビア大などの研究</title>
-      <link>https://ledge.ai/articles/ai_trained_on_copyrighted_books_preferred_over_human_writers</link>
-      <description><![CDATA[<p>米コロンビア大学とミシガン大学の研究チームは、著作権のある書籍を用いて訓練したAIモデルが、創作専攻の大学院生（MFA候補者）による文体模倣よりも読者に高く評価される傾向を示したとする研究結果を<a href="https://arxiv.org/abs/2510.13939">発表</a>した。論文は「Readers Prefer Outputs of AI Trained on Copyrighted Books over Expert Human Writers」と題し、2025年10月に論文共有サイトarXivで公開された。</p>
-<h2>実験：AIと人間の「模倣能力」を比較</h2>
-<p>研究では、ノーベル賞やブッカー賞などの受賞作家50名を対象に、各作家の文体を再現した短文（最大450語）をAIと人間の双方で生成した。人間側は創作専攻の大学院生（MFA候補者）が作成し、AI側はChatGPT、Claude、Geminiの3モデルを使用した。</p>
-<p>AIには2つの条件が設定された。1つは作家の作風を指示して生成する「in-context prompting」、もう1つは各作家の著作全集を用いてAIを個別に再訓練（ファインチューニング）する方法である。</p>
-<p>評価は、専門家28名と一般読者131名によるブラインドテスト形式で行われ、「スタイルの忠実性」と「執筆品質」の2項目について比較された。</p>
-<h2>ファインチューニングで逆転</h2>
-<p>結果は、AIの学習方法によって大きな差が見られた。in-context promptingでは、専門家読者はAI出力を低く評価し、スタイル忠実性のオッズ比（OR）は0.16、執筆品質は0.13だった。</p>
-<p>一方、著者全集を用いたファインチューニングでは、専門家の評価が逆転し、スタイル忠実性のORは8.16、執筆品質は1.87となった。
-一般読者も同様の傾向を示した。</p>
-<p>AI検出ツールによる識別では、通常生成の97％が「AIが書いた」と判定されたのに対し、ファインチューニング版では3％にとどまった。</p>
-<p><strong>研究チームによる生成手法の比較図。左はプロンプトのみでの模倣、右は著者全集を用いたファインチューニングによる模倣</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/schematic_crop_fa674379c5/schematic_crop_fa674379c5.jpg" alt="schematic-crop.jpg" /></p>
-<h2>コスト差：人間作家より99.7％低い</h2>
-<p>研究チームは、1人の作家を対象にファインチューニングと生成を行う場合の中央値コストを81ドル（約1万2千円）と算出した。人間作家によるスタイル模倣の平均報酬3万ドル（約460万円）と比較すると、99.7％のコスト削減となる。この数値は、AIが「著者らしさ」を低コストで再現できることを定量的に示すものとなった。</p>
-<h2>著作権法上の含意：市場への影響</h2>
-<p>論文は、米国著作権法におけるフェアユースの第4因子（原著作物の市場や価値に与える影響）に関連づけて、この結果を分析している。AIによる生成物が、原著作物やそれを模倣する人間作家の仕事を経済的に代替し得る点を、重要な法的論点として位置づけた。</p>
-<p>著者らは、AIが特定作家の全集を用いて学習した場合、個別の「作風再現市場」を実質的に置き換える可能性があると指摘。
-また、AIによる大量生成が市場に「希釈効果（market dilution）」をもたらし、読者の関心や購買機会を分散させるリスクにも言及している。</p>
-<p>この考え方は、米連邦裁判所が過去の著作権訴訟で示した「AI生成物が原著作物市場の代替となり得るか」という判断基準と一致する。論文は、こうした代替・希釈が確認される場合、著作権作品を利用したAIの学習がフェアユースに該当しない可能性があると論じている。</p>
-<h2>研究の限界</h2>
-<p>研究チームは、実験が450語の短文を対象としており、長編小説や創作構成のような複雑な要素は評価対象外であると明記した。また、AI訓練に著作権保護作品を使用する行為の法的評価や、商業利用の可否については別途検討が必要と述べている。さらに、今回の結果は「文体再現」に焦点を当てたものであり、創造性や物語構築力といった要素については評価を行っていない。</p>
-<h2>今後の議論へ</h2>
-<p>この研究は、AIが著作権保護作品を用いて訓練されることが、どの程度創作市場に影響を及ぼすかを定量的に示した初の実証研究の一つとなる。読者評価とコスト分析の両面から、AIが人間の文体模倣を現実的に代替し得る可能性を提示しており、今後の著作権政策や創作支援技術の議論に影響を与えるとみられる。</p>
-]]></description>
-      <pubDate>Sun, 09 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
