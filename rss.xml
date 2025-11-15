@@ -5,6 +5,81 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
+      <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
+      <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
+<p>両機関は2024年、AIの危険行動能力を定量化する「Humanity’s Last Exam」を<a href="https://ledge.ai/articles/ai_humanitys_last_exam">共同発表</a>しており、RLIはその“実務版”として、AI能力を経済価値の観点から評価する試みとなる。</p>
+<h2>実務ベースの240プロジェクトで評価</h2>
+<p>RLIは、実在のフリーランスプラットフォームから収集した240件のプロジェクトを対象としている。
+各案件には以下が含まれる：</p>
+<ul>
+<li>クライアントによる依頼文（ブリーフ）</li>
+<li>実際の人間フリーランサーが作成した納品物</li>
+<li>入力ファイル（画像、図面、動画、音声、スクリプトなど）</li>
+<li>作業時間・報酬データ</li>
+</ul>
+<p>アノテーターがAIの成果物を評価し、「現実のクライアントが受け入れられるか」を合否判定する。AI自身による自動採点は使われていない。</p>
+<p><strong>RLIのタスク抽出プロセス</strong> ：550件のタスクを300人以上のフリーランサーから収集し、基準適合性のチェックと改善を経て、最終的に240件のプロジェクトを選定した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_2_dab90e3325/image_2_dab90e3325.png" alt="image (2).png" /></p>
+<h2>Automation Rate：最高でも2.5％</h2>
+<p>RLI公式リーダーボードの主なスコアは以下の通り。</p>
+<ul>
+<li>Manus：2.50％</li>
+<li>Claude 4.5 Sonnet：2.08％</li>
+<li>GPT-5（2025-08-07版）：1.67％</li>
+<li>ChatGPT agent：1.25％</li>
+<li>Gemini 2.5 pro-preview：0.83％</li>
+</ul>
+<p>いずれのモデルも、実務案件の約97〜99％を完了できなかった。公式サイトでも、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」と明記されている。</p>
+<h2>プロジェクト内容：動画、CAD、ゲーム開発など“実務そのもの”</h2>
+<p>240件は、従来の研究ベンチマークに比べて大幅に多様なカテゴリで構成されている。</p>
+<p><strong>RLIのプロジェクトカテゴリ構成</strong> ：RLIは動画制作、CAD、グラフィックデザイン、ゲーム開発、音声編集など23カテゴリで構成され、多様な実務タスクを含む。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/RLI_Project_Categories_c49b93ec58/RLI_Project_Categories_c49b93ec58.jpg" alt="RLI Project Categories.jpg" /></p>
+<ul>
+<li>動画制作（13％）</li>
+<li>CAD（12％）</li>
+<li>グラフィックデザイン（11％）</li>
+<li>ゲーム開発（10％）</li>
+<li>音声編集（10％）</li>
+<li>建築（7％）</li>
+<li>プロダクトデザイン（6％）</li>
+<li>その他（31％）</li>
+</ul>
+<p>さらに、プロジェクトの平均制作時間は28.9時間（中央値11.5時間）、報酬中央値は200ドルと、実務レベルの負荷を持つ。</p>
+<p><strong>RLIのプロジェクト負荷とカテゴリ比較</strong> ：人間の平均作業時間は28.9時間（中央値11.5時間）と高く、プロジェクト種別も一般のフリーランス市場（Upwork）と同等の分布を持つ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Core_Metrics_cf85d22247/Core_Metrics_cf85d22247.jpg" alt="Core Metrics.jpg" /></p>
+<p><strong>RLIで評価されたプロジェクト例</strong> ：データ可視化、3Dプロダクトレンダリング、動画制作、建築設計、ゲーム開発、科学文書作成など、多様な実務タスクが含まれている。</p>
+<h2>主な失敗モード：品質不足・不完全・整合性欠如</h2>
+<p>論文とリーダーボードの分析では、AIがプロジェクトを完了できない理由として以下が挙げられている。</p>
+<ul>
+<li>品質不足（45.6％）：専門水準に達していない</li>
+<li>不完全な納品物（35.7％）：動画が途中で終わる、3Dモデルが欠損</li>
+<li>ファイル破損・形式不備（17.6％）</li>
+<li>整合性欠如（14.8％）：複数ファイル間で仕様が一致しない</li>
+</ul>
+<p>具体例には、以下のようなケースがある：</p>
+<ul>
+<li>8分動画を求められた案件で、AIは8秒動画しか作れない</li>
+<li>3Dレンダリングの視点ごとに造形が変わる</li>
+<li>図面の寸法が実寸と合わない</li>
+<li>Webゲームが起動はするがグラフィックが破綻している</li>
+</ul>
+<h2>成功するタスクの傾向</h2>
+<p>数少ない成功例は、以下のような“閉じた生成タスク”に集中していた。</p>
+<ul>
+<li>ロゴ・バナー制作（画像生成）</li>
+<li>ボイス合成や簡易オーディオ編集</li>
+<li>表形式データの可視化</li>
+<li>簡易レポート作成</li>
+</ul>
+<p>一方、多工程・長尺のタスク、複数ファイルの整合性が必要なタスクではほぼ全滅しているという。</p>
+<h2>今後の展開</h2>
+<p>論文の著者らは、RLIの結果について「AIシステムが現実のフリーランス環境において委託業務として許容可能な水準でプロジェクトを完了できることは、ほとんどない」と記している。また、現在のモデル性能について「能力の下限に近い」と評価し、タスクの大半で“実務的完成度に到達しない”点を指摘した。</p>
+<p>研究チームはさらに、RLIが生成AIの進歩を今後継続的に追跡するための基盤になると位置づけており、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」というリーダーボード上の表現とともに、現時点でのAIエージェントの限界を明確に示した。</p>
+]]></description>
+      <pubDate>Sat, 15 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMは“悪役ロールプレイ”で性能が急落──Tencentと中山大学が23,191シーンを解析、最大の弱点は“利己的キャラ”の再現性</title>
       <link>https://ledge.ai/articles/llm_villain_roleplay_too_good_to_be_bad_tencent_analysis</link>
       <description><![CDATA[<p>TencentのMultimodal Departmentと中山大学の研究チームは2025年11月12日、LLM（大規模言語モデル）が「悪役ロールプレイ」を苦手とすることを大規模に示した論文「Too Good to be Bad: On the Failure of LLMs to Role-Play Villains」を<a href="https://arxiv.org/abs/2511.04962v2">発表</a>した。</p>
