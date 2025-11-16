@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>arXiv、コンピュータサイエンス分野でレビュー論文の投稿ルールを厳格化──AI生成サーベイの“洪水”に対処</title>
+      <link>https://ledge.ai/articles/arxiv_computer_science_review_policy_update_ai_generated_surveys</link>
+      <description><![CDATA[<p>プレプリントサーバーarXivは、コンピュータサイエンス（Computer Science）カテゴリーでレビュー論文・ポジションペーパーの投稿ルールを厳格化すると2025年10月31日付の公式ブログで<a href="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/">発表</a>した。背景には、AIによって大量に生成されたレビュー論文の急増があり、従来のモデレーション運用では処理が追いつかなくなっているという。</p>
+<h2>arXivを覆った「レビュー論文の雪崩」</h2>
+<p>近年のCSカテゴリーでは、レビュー論文・サーベイ論文が毎月数百件規模で流入している。arXivは、この多くが大規模言語モデル（LLM）によって短期間で作成されており、</p>
+<ul>
+<li>文献リストの再構成に近い</li>
+<li>未解決課題や研究動向の深掘りがない</li>
+<li>専門的整理や独自の洞察がほとんど示されていない
+といった特徴が見られると指摘する。</li>
+</ul>
+<p>研究コミュニティでも状況の深刻さが共有されており、arXivにはAI生成サーベイ論文の急増を「研究コミュニティへのDDoS攻撃」と表現するポジションペーパーも投稿されている。量・質の両面で“雪崩”のような状態となり、従来の例外的な受理運用では対応が困難になっていた。</p>
+<h2>「査読済み」の証明が必須に</h2>
+<p>こうした状況を受け、arXivはCSカテゴリーでの投稿運用を明確にした。今後、レビュー論文やポジションペーパーをarXivに投稿するには、以下の条件を満たす必要がある。</p>
+<ul>
+<li>査読付きジャーナルまたは会議で採択されていること</li>
+<li>査読が完了していること</li>
+<li>投稿時に査読完了の証拠（DOI・掲載先・会議名など）をメタデータとして記載すること</li>
+</ul>
+<p>公式ブログでは、これらの情報が不足している投稿は「高い確率でリジェクトされる」と明記されている。また、軽査読が一般的なWorkshop採択は十分な要件とは見なされない。</p>
+<h2>実は“新ポリシー”ではない──長年の例外運用を整理</h2>
+<p>arXivは今回の対応について、「これはポリシー変更ではなく、例外扱いだった論文タイプに対する“運用の明確化”」と説明する。</p>
+<p>arXivのコンテンツポリシーでは、主な受理対象は\</p>
+]]></description>
+      <pubDate>Sun, 16 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
       <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
       <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
