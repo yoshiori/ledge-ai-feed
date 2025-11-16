@@ -468,34 +468,23 @@ vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで
       <pubDate>Thu, 13 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
-      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
-      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
-<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
-<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
-<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
-10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
-Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
-<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
-<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
-<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
-<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
-<h2>公平性を測る「倫理的ベンチマーク」</h2>
-<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
-さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
-<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
-既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
-さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
-<h2>被写体の権利を保護する設計</h2>
-<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
-参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
-この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
-<h2>責任あるAI研究への布石</h2>
-<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
-公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
-Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
-<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
-また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+      <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
+      <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
+      <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
+<h2>会話で完結する“ハンズフリー運転”</h2>
+<p>新機能の一つは、運転中に音声だけで操作できる「会話型ハンズフリー運転体験」だ。ユーザーは「途中でコーヒーショップに寄りたい」など自然な言葉で指示でき、Geminiが最適な経路や立ち寄り先を提案する。走行中でも画面操作を減らし、安全性の高いナビゲーションを実現する狙いがある。</p>
+<p>@<a href="https://youtu.be/WnNZ3QhwE84">YouTube</a></p>
+<h2>「右折はガソリンスタンドの先」──ランドマークで案内</h2>
+<p>従来の「200メートル先を右折」ではなく、「タイ料理店の先を右折」といったランドマーク（目印）を基準にしたターン案内も追加された。ユーザーが視認しやすい建物や店舗を指標にすることで、より直感的に道順を把握できるという。</p>
+<p>@<a href="https://youtu.be/_wJIEgy0uCg">YouTube</a></p>
+<h2>ナビ起動前から渋滞を警告</h2>
+<p>Geminiはまた、ユーザーの通勤や通学など“日常ルート”を学習し、ナビを起動していなくても交通渋滞や事故発生を検知した際に自動で通知を行う。プロアクティブなアラート機能により、出発前のタイミングで回避ルートを確認できるようになった。</p>
+<p>@<a href="https://youtu.be/WJ7E8KTv034">YouTube</a></p>
+<h2>Lens with Geminiで“周囲を質問”</h2>
+<p>さらに、「Lens with Gemini」ではスマートフォンのカメラを向けた建物や店舗を即座に認識。たとえば、カメラを向けて「このレストランは何時まで開いてる？」と尋ねると、営業時間やレビューなどをGeminiが対話形式で返答する。従来の検索型から“会話する地図”への進化がうかがえる。</p>
+<p>@<a href="https://youtu.be/mlhIxJCP9CM">YouTube</a></p>
+<h2>提供開始と対応環境</h2>
+<p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
 ]]></description>
       <pubDate>Thu, 13 Nov 2025 05:50:00 GMT</pubDate>
     </item>
@@ -749,29 +738,6 @@ GitHubは「開発者は自分の選んだAIエージェントを同じワーク
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、広告画像を自動生成する新ツール「Pomelli」を発表──ブランドの“DNA”をAIが理解し、一貫したキャンペーンを提案</title>
-      <link>https://ledge.ai/articles/google_pomelli_ai_ad_generation_tool</link>
-      <description><![CDATA[<p>Googleは2025年10月28日（米国時間）、広告やSNSキャンペーン向けの画像を自動生成できる新ツール「Pomelli（ポメリ）」を<a href="https://blog.google/technology/google-labs/pomelli/">発表</a>した。Google Labsの実験プロジェクトとして公開されており、ユーザーが自社サイトのURLを入力すると、ブランド特性を分析して“Business DNA”を構築し、それに基づいて画像やコピーなどのアセットを提案する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=rsWPISYv6tQ">YouTube</a></p>
-<h2>ブランドの「DNA」をAIが理解して広告素材を生成</h2>
-<p>Pomelliは、企業サイトに含まれる色・言葉・トーンなどをAIが解析し、ブランドの「Business DNA」としてまとめる。この情報をもとに、SNS投稿用の画像、広告用コピー、キャンペーン案などを生成する仕組みだ。DeepMindとの協力のもと開発されたとされ、Googleは「ブランドの一貫性を保ちながら、より迅速にマーケティング素材を作成できる」としている。</p>
-<p><strong>Pomelliは企業サイトを解析し、ブランドカラー・フォント・イメージを自動抽出して「Business DNA」を生成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39/Pomelli_Keyword_Blog_In_line_1_width_1000_format_webp_e223dd6d39.webp" alt="Pomelli_Keyword_Blog_In-line_-_1.width-1000.format-webp.webp" /></p>
-<h2>中小企業でも“オンブランド”の広告を短時間で</h2>
-<p>Pomelliの想定ユーザーは、中小規模の企業（SMB）や個人事業主だ。デザイナーやマーケターが限られた環境でも、ブランドトーンを保った高品質な素材を数分で生成できる。SNSごとのフォーマットや文体に応じた最適化にも対応しており、季節キャンペーンやセールなどの展開を容易にする。</p>
-<p><strong>解析したBusiness DNAをもとに、AIが複数のキャンペーン案を提示する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069/Pomelli_Keyword_Blog_In_line_2_width_1000_format_webp_9469a56069.webp" alt="Pomelli_Keyword_Blog_In-line_-_2.width-1000.format-webp.webp" /></p>
-<h2>生成された広告をその場で編集・修正可能</h2>
-<p>生成された画像やコピーは、フォント・色・キャッチコピーなどをGUI上で細かく調整できる。Googleはこれを「人間の創造力を補助する共同作業ツール」と位置付けており、単なる自動生成ではなく、人の手による最終調整を想定している。</p>
-<p><strong>生成された広告素材は、色やフォント、コピーをその場で編集できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f/Pomelli_Keyword_Blog_In_line_3_width_1000_format_webp_68aa5eaa7f.webp" alt="Pomelli_Keyword_Blog_In-line_-_3.width-1000.format-webp.webp" /></p>
-<h2>提供形態と今後の展開</h2>
-<p>PomelliはGoogle Labsの実験ツールとして提供されており、現在は限定公開の段階にある。公式サイトでは「Easily generate on-brand content for your business（自社ブランドに沿ったコンテンツを簡単に生成）」と説明されている。</p>
-<p>現時点で提供対象は米国、カナダ、オーストラリア、ニュージーランドの英語版ユーザーに限られており、日本国内では未提供。Googleは今後の地域拡大について明らかにしていないが、利用可能国の追加が期待される。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
       <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
       <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
@@ -846,6 +812,38 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
+      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
+      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
+<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
+<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
+<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
+10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
+Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
+<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
+<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
+<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
+<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
+<h2>公平性を測る「倫理的ベンチマーク」</h2>
+<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
+さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
+<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
+既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
+さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
+<h2>被写体の権利を保護する設計</h2>
+<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
+参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
+この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
+<h2>責任あるAI研究への布石</h2>
+<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
+公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
+Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
+<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
+また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+]]></description>
+      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI導入が雇用を直撃　米10月の人員削減15万人超、理由の2位に「AI」──チャレンジャー社調査</title>
       <link>https://ledge.ai/articles/us_job_cuts_october2025_ai_layoffs_report</link>
       <description><![CDATA[<p>米民間の再就職支援会社チャレンジャー・グレイ・アンド・クリスマス（Challenger, Gray &amp; Christmas）は2025年11月6日（米国時間）、2025年10月の米企業による人員削減発表数が15万3074人に達したと<a href="https://www.challengergray.com/blog/october-challenger-report-153074-job-cuts-on-cost-cutting-ai/">発表</a>した。</p>
@@ -866,27 +864,6 @@ AI導入を理由とする人員削減は年初来で4万8414人に上り、前�
 チャレンジャー社は「AI adoption（AIの採用）や自動化による効率化が複数業種でレイオフを誘発している」とし、雇用市場全体が「生成AI時代の再構築フェーズ」に入っていることを示唆している。</p>
 ]]></description>
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
-      <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
-      <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
-<h2>会話で完結する“ハンズフリー運転”</h2>
-<p>新機能の一つは、運転中に音声だけで操作できる「会話型ハンズフリー運転体験」だ。ユーザーは「途中でコーヒーショップに寄りたい」など自然な言葉で指示でき、Geminiが最適な経路や立ち寄り先を提案する。走行中でも画面操作を減らし、安全性の高いナビゲーションを実現する狙いがある。</p>
-<p>@<a href="https://youtu.be/WnNZ3QhwE84">YouTube</a></p>
-<h2>「右折はガソリンスタンドの先」──ランドマークで案内</h2>
-<p>従来の「200メートル先を右折」ではなく、「タイ料理店の先を右折」といったランドマーク（目印）を基準にしたターン案内も追加された。ユーザーが視認しやすい建物や店舗を指標にすることで、より直感的に道順を把握できるという。</p>
-<p>@<a href="https://youtu.be/_wJIEgy0uCg">YouTube</a></p>
-<h2>ナビ起動前から渋滞を警告</h2>
-<p>Geminiはまた、ユーザーの通勤や通学など“日常ルート”を学習し、ナビを起動していなくても交通渋滞や事故発生を検知した際に自動で通知を行う。プロアクティブなアラート機能により、出発前のタイミングで回避ルートを確認できるようになった。</p>
-<p>@<a href="https://youtu.be/WJ7E8KTv034">YouTube</a></p>
-<h2>Lens with Geminiで“周囲を質問”</h2>
-<p>さらに、「Lens with Gemini」ではスマートフォンのカメラを向けた建物や店舗を即座に認識。たとえば、カメラを向けて「このレストランは何時まで開いてる？」と尋ねると、営業時間やレビューなどをGeminiが対話形式で返答する。従来の検索型から“会話する地図”への進化がうかがえる。</p>
-<p>@<a href="https://youtu.be/mlhIxJCP9CM">YouTube</a></p>
-<h2>提供開始と対応環境</h2>
-<p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
-]]></description>
-      <pubDate>Sat, 08 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
