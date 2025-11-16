@@ -5,6 +5,79 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
+      <link>https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release</link>
+      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2025年11月12日（現地時間）テキストや画像、動画、3Dレイアウトなど多様な入力から“永続的な3D世界”を生成できるマルチモーダル世界モデル 「Marble」 を<a href="https://www.worldlabs.ai/blog/marble-world-model">一般公開</a>した。</p>
+<p>創業者には、スタンフォード人工知能研究所（SAIL）の元所長であり、コンピューターサイエンスの世界的権威である Fei-Fei Li氏 が名を連ねる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/feifeili_e32159ea96/feifeili_e32159ea96.jpg" alt="feifeili.jpg" /></p>
+<h2>Marbleの概要──マルチモーダル入力から3D世界を生成</h2>
+<p>Marbleは、文章・画像・映像・簡易3Dレイアウトなどを手がかりに、整合性のある3D空間を構築する世界モデルだ。生成された3D世界はそのまま利用するだけでなく、ユーザーが自然言語で編集したり、別のワールドとつなぎ合わせたり、周囲へ拡張したりといった操作が可能。生成物は 画像・動画・Gaussian Splat・メッシュ といった形式でエクスポートでき、ゲームエンジンや3D制作ソフトとの連携も想定する。</p>
+<p><strong>Marbleのワークフロー。文章・画像・動画・3Dシーンを入力し、生成した3Dワールドを編集・拡張し、画像・動画・Gaussian Splat・メッシュとして出力できる</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Marble_World_Model_b07e2af0e7/The_Marble_World_Model_b07e2af0e7.jpg" alt="The Marble World Model.jpg" /></p>
+<h2>空間知能を中核に据えた世界モデル</h2>
+<p>World LabsはMarbleの位置づけについて「世界を再構築し、生成し、シミュレーションし、AIエージェントの理解の基盤となる“次世代ワールドモデル”」と説明する。人間が視覚・言語・空間認知を統合して“内的な世界モデル”を形成するように、AIにも複雑な空間情報を理解し推論する能力が必要になるという考え方だ。Li氏は過去の論考でも、次のAIの主要テーマを「空間知能」としており、Marbleはその研究思想を具現化した製品と位置づけられる。</p>
+<h2>多様な入力に対応──文章・画像・動画・3Dレイアウト</h2>
+<p>Marbleは、異なる形式の入力から一貫した3D世界を構築する。</p>
+<h3>テキスト</h3>
+<p>文章から空間構造・雰囲気・光源などを推定して3D空間を生成
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_text_prompt_efea484c81/marble_generated_world_by_text_prompt_efea484c81.jpg" alt="marble generated world by text prompt.jpg" /></p>
+<h3>単一画像</h3>
+<p>1枚の画像を手がかりに、写っていない部分まで補完して空間を3D化
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_image_prompt_d34bf3fde7/marble_generated_world_by_image_prompt_d34bf3fde7.jpg" alt="marble generated world by image prompt.jpg" /></p>
+<h3>複数画像・動画</h3>
+<p>複数視点の写真や短い動画から、途切れのない単一の3D環境を再構築
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_multi_image_prompt_e12c253b23/marble_generated_world_by_multi_image_prompt_e12c253b23.jpg" alt="marble generated world by multi-image prompt.jpg" /></p>
+<h3>3Dレイアウト</h3>
+<p>ユーザーが配置したボックスや平面を“構造”として扱い、テキストで見た目だけを変える「構造とスタイルの分離」を実現。
+同じレイアウトをもとに複数のバリエーションの世界を生成できる。</p>
+<h2>編集・拡張・合成──AIネイティブの制作ワークフロー</h2>
+<p>生成後の操作性も特徴だ。</p>
+<h3>局所編集</h3>
+<p>特定オブジェクトの削除・調整といった部分的な修正をAIが補完する</p>
+<p><strong>プロンプト：カメをトラに、緑の草をフライドポテトに変更</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c.jpg" alt="Turn the turtles into tigers and turn the tall green plant into french fries.jpg" /></p>
+<h3>全体編集</h3>
+<p>空間全体のスタイル変更、テーマ統一、質感の変更などを自然言語で指定可能</p>
+<p><strong>プロンプト：床材をヘリンボーン柄のダークマホガニーに交換</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107.jpg" alt="Replace the flooring with dark mahogany in a herringbone pattern.jpg" /></p>
+<h3>拡張（Extend）</h3>
+<p>ワールドを外側へ拡大し、不足部分を整合性を保って自動生成</p>
+<p><strong>初期世界では造られていなかったところまで自動生成している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49.jpg" alt="Marble can expand scenes to create larger traversable areas.jpg" /></p>
+<h3>合成（Composer）</h3>
+<p>複数の3D世界をつなぎ合わせ、より大規模な環境を構築できる。列車の内部や長い回廊など、単一生成では難しいシーン構築を可能にする
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_large_train_composed_with_Marble1_1885f64d75/A_large_train_composed_with_Marble1_1885f64d75.jpg" alt="A large train composed with Marble1.jpg" /></p>
+<h2>Chisel──“構造とスタイルの分離”を可能にする編集モード</h2>
+<p>上級者向けには、新たに「Chisel」モードを提供する。これは、ボックスなどの簡易形状で空間の骨格を作り、テキストで質感や雰囲気を与える制作手法だ。</p>
+<ul>
+<li>レイアウトはユーザーが設計</li>
+<li>見た目はAIが生成</li>
+<li>同じ骨格から複数スタイルの3D世界を派生</li>
+</ul>
+<p>従来の3D制作で分かれていた工程を統合し、試行錯誤の効率を高める仕組みとなっている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582.jpg" alt="A beautiful modern art museum with wooden floor.jpg" /></p>
+<h2>エクスポート──Gaussian Splat・メッシュ・動画に対応</h2>
+<p>生成された3D世界は、以下の形式で取り出せる。</p>
+<h3>Gaussian Splat</h3>
+<p>Marbleが最も高い忠実度で再現する形式。World Labs製のWebレンダラ「Spark」と組み合わせることで、ブラウザ・VRなどで表示できる。</p>
+<h3>三角メッシュ</h3>
+<p>低精度のコライダー用メッシュから、高品質なメッシュまで複数の出力形態を用意。既存のゲームエンジン・3Dツールへの統合を容易にする。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0.jpg" alt="Marble can export generated worlds as Gaussian splats or triangle meshes.jpg" /></p>
+<h3>動画</h3>
+<p>カメラ軌道を細かく設定したレンダリングが可能。炎・煙・光源といった動的要素を追加しながら、カメラ制御情報を保持できる。</p>
+<h2>Marble Labs──利用者コミュニティと事例を公開</h2>
+<p>World Labsは同時に、クリエイター向けのコミュニティ「<a href="https://www.worldlabs.ai/labs">Marble Labs</a>」を立ち上げた。</p>
+<p>ワークフロー共有やケーススタディの公開を通じ、ゲーム開発、VFX制作、デザイン、ロボティクスなど多様な分野での利用を促す。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marblelabs1_680761936f/marblelabs1_680761936f.jpg" alt="marblelabs1.jpg" /></p>
+<h2>空間知能へのロードマップ：次の焦点は「インタラクション」</h2>
+<p>Marbleの登場により、文章や画像から統合的な3D環境を生成する“世界モデル”分野は、研究段階から実用段階へと一歩前進した。近年はGoogle DeepMindのGenieシリーズなど、空間理解を備えたAIの開発が相次いでいるが、Marbleは生成した3D世界を編集・拡張し、既存ツールへ直接エクスポートできる点で、制作ワークフローへの適用可能性を明確に示したかたちだ。
+今後、コンテンツ制作やロボティクス、シミュレーションなどの領域で、こうした汎用的な世界モデルがどこまで浸透していくのかが注目される。</p>
+<p>World LabsはMarbleを「空間知能への旅路の一歩」と表現する。今後の重点は「人間やエージェントが生成された世界と新しい形で相互作用できること」であり、ロボティクスやシミュレーション領域でのユースケース拡大を見込むとしている。
+同社は「<a href="http://marble.worldlabs.ai">marble.worldlabs.ai</a>」での利用開始を呼びかけるとともに、同ビジョンに共感する技術者の参画を求めている。</p>
+]]></description>
+      <pubDate>Sat, 15 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
       <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
       <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
@@ -803,17 +876,6 @@ AI導入を理由とする人員削減は年初来で4万8414人に上り、前�
 :::</p>
 ]]></description>
       <pubDate>Mon, 10 Nov 2025 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンク、AIスタートアップに無償GPU提供を本格化　宮川社長「計算基盤が国力」——決算会見で危機感</title>
-      <link>https://ledge.ai/articles/softbank_ai_foundation_gpu_support_2025q2</link>
-      <description><![CDATA[<p>ソフトバンクは2025年11月5日、2026年3月期第2四半期の決算説明会を開催し、AI分野に取り組むスタートアップ企業への支援強化を<a href="https://www.softbank.jp/corp/ir/documents/presentations/fy2025/#result-20251105">発表</a>した。社長の宮川潤一氏は「半導体の次に来るのはAIの計算基盤のサイズ。すべてがコンピューティングパワーだ」と述べ、AI計算基盤の整備を国家的課題と位置づけた。</p>
-<p>同社は既に、GPU計算資源などを段階的に提供する「AI Foundation for Startups」を10月1日に<a href="https://www.softbank.jp/corp/news/press/sbkk/2025/20250926_01/">開始</a>しており、初期段階の企業にはNVIDIA DGX A100一式を最長60日間無償で提供する枠組みを明示。開発・検証フェーズでは低コスト提供、事業化段階では協業・出資も視野に入れるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aifoundationforstartups_d3538c27d9/aifoundationforstartups_d3538c27d9.jpg" alt="aifoundationforstartups.jpg" /></p>
-<p>会見の中で宮川氏は、海外勢の動きを引き合いに危機感を示した。生成AI時代の競争軸が「計算基盤（コンピューティングパワー）の規模」に移りつつあるとの見立てを述べ、日本の産業競争力を左右する要素として計算資源の確保と活用を位置付けた。</p>
-<p>背景として、海外では大規模なAIインフラ整備が加速していることが挙げられる。NVIDIAは10月31日、韓国の政府・産業界と連携し「25万基超（over a quarter-million）のGPU」を追加配備する構想を<a href="https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-South-Korea-Government-and-Industrial-Giants-Build-AI-Infrastructure-and-Ecosystem-to-Fuel-Korea-Innovation-Industries-and-Jobs/default.aspx">発表</a>。韓国の産業分野全体でAI実装を進める基盤整備を掲げた。国内の計算資源の量・質をめぐる国際的な競争が一段と激しくなる中、ソフトバンクはスタートアップへの無償提供を含む支援スキームを通じて、国内の開発初期ハードルを下げる狙いだ。</p>
-]]></description>
-      <pubDate>Sun, 09 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/9 [SUN]AI訓練データの“源流”Common Crawlに疑惑──The Atlanticが報道、ペイウォール記事含有を指摘</title>
