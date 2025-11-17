@@ -5,6 +5,39 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、NotebookLMをリサーチ基盤に強化──Deep Research＋Drive/Sheets/Word対応でWorkspaceと統合加速</title>
+      <link>https://ledge.ai/articles/notebooklm_deep_research_workspace_integration</link>
+      <description><![CDATA[<p>Googleは2025年11月13日（米国時間）、AIリサーチツール「NotebookLM」にオンライン調査を自動化する新機能「Deep Research」を導入し、あわせてGoogle SheetsやGoogle Drive上のPDF、Microsoft Word（.docx）、画像など複数のファイル形式に対応したと<a href="https://blog.google/technology/google-labs/notebooklm-deep-research-file-types/">発表</a>した。NotebookLMはユーザーの手元資料とウェブ上の情報を横断して扱える“調査エージェント”へと進化する。</p>
+<h2>NotebookLMが“調査を代行するAI”に進化</h2>
+<p>Deep Researchは、NotebookLMがユーザーの代わりに複雑な調査タスクを実行するエージェント機能だ。質問を入力するとNotebookLMがリサーチプランを自動生成し、何百ものウェブサイトを巡回しながら検索内容を絞り込み、数分で構造化レポートを作成する。</p>
+<p>特徴は、レポートを作って終わりではない点にある。
+生成されたレポートと参照したソースは、そのままNotebookLMのノートブックに取り込める。さらに調査はバックグラウンドで進み続け、ユーザーは同時に別の資料を追加してナレッジベースを拡張できる。NotebookLMの音声要約（Audio Overview）や動画要約（Video Overview）機能とも組み合わせられ、調査テーマの理解を深めやすくなる。</p>
+<p>また、Googleは「特定のサイトを指定して検索させる」ことも可能としており、調査対象の精度も調整できる。</p>
+<h2>Fast Research と Deep Research、選べる2つの調査モード</h2>
+<p>オンライン調査は、「Web」をソースとして選んだときに開始できる。
+Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
+<ul>
+<li><strong>Fast Research</strong> ：すぐに情報を把握したいときの高速モード。短時間で情報をスキャンし、必要なソースを素早く取り込める。</li>
+<li><strong>Deep Research</strong> ：詳細なブリーフィングを生成したい場面に向く。高品質な記事・論文を見つけるために深く分析し、処理中もユーザーはNotebookLMで他の作業を続けられる。</li>
+</ul>
+<p>オンライン調査の“強度”を任意にコントロールできる点が従来のNotebookLMから大きく進化したポイントだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/notebooklm_deepresearch_509355bfb0/notebooklm_deepresearch_509355bfb0.jpg" alt="notebooklm deepresearch.jpg" /></p>
+<h2>対応ファイル形式を拡大：Sheets、Drive URL、画像、PDF、.docx</h2>
+<p>Googleは、ユーザーの調査ワークフローが複数の形式に分散している現状に合わせ、NotebookLMが扱えるソースタイプを大幅に拡張した。今回対応したのは以下の5種類。</p>
+<ul>
+<li><strong>Google Sheets</strong> ：スプレッドシートを直接取り込み、統計情報の抽出や表データの要約が可能</li>
+<li><strong>DriveファイルのURL</strong> ：Drive上のファイルをURLとして追加でき、通常のウェブページ同様に複数リンクを一度に貼り付けられる</li>
+<li><strong>画像（Images）</strong> ：手書きノートの写真やパンフレットの画像をアップロードし、内容を解析してテキスト化</li>
+<li><strong>Google Drive上のPDF</strong> ：Driveに保存した論文やレポート、電子書籍などを直接NotebookLMで分析できる</li>
+<li><strong>Microsoft Word（.docx）</strong> ：Word文書をアップロードして、ドラフトやメモをそのまま調査ソースとして扱える</li>
+</ul>
+<p>表データ、文書、PDF、画像メモといった“調査の現場で実際に使われる資料”を統合的に扱えるようになり、NotebookLMはGoogle Workspaceとの連携を強く意識した構造になってきた。</p>
+<h2>来週すべてのユーザーが利用可能に、画像は数週間以内</h2>
+<p>同社は、今回のアップデートは1週間以内に全ユーザーに展開される予定で、画像の取り込みに関しては数週間以内に順次対応するとしている。NotebookLMは、資料整理ツールから、ウェブ検索と手元資料を横断する“AIリサーチ基盤”へと大きく踏み出したかたちだ。</p>
+]]></description>
+      <pubDate>Sun, 16 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>arXiv、コンピュータサイエンス分野でレビュー論文の投稿ルールを厳格化──AI生成サーベイの“洪水”に対処</title>
       <link>https://ledge.ai/articles/arxiv_computer_science_review_policy_update_ai_generated_surveys</link>
       <description><![CDATA[<p>プレプリントサーバーarXivは、コンピュータサイエンス（Computer Science）カテゴリーでレビュー論文・ポジションペーパーの投稿ルールを厳格化すると2025年10月31日付の公式ブログで<a href="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/">発表</a>した。背景には、AIによって大量に生成されたレビュー論文の急増があり、従来のモデレーション運用では処理が追いつかなくなっているという。</p>
