@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>三菱UFJ、ChatGPTに“銀行アプリ”を接続へ──「Apps in ChatGPT」連携で家計管理・資産運用を会話で完結</title>
+      <link>https://ledge.ai/articles/mufg_chatgpt_apps_integration</link>
+      <description><![CDATA[<p>三菱UFJフィナンシャル・グループ（MUFG）と三菱UFJ銀行は2025年11月12日、OpenAIと戦略的コラボレーション契約を締結したと<a href="https://www.mufg.jp/dam/pressrelease/2025/pdf/news-20251112-001_ja.pdf">発表</a>した。両社は、OpenAIが10月に公開した「Apps in ChatGPT」を活用し、MUFGのアプリをChatGPTに接続する取り組みを進める。対話を通じた家計管理や資産運用の相談など、金融関連の行動をChatGPT上で実行可能にする構想を示した。</p>
+<h2>ChatGPT上で家計管理・資産運用の相談を可能に</h2>
+<p>MUFGによると、Apps in ChatGPTとの連携は、リテール領域で推進する4つの施策の一つとして位置づけられる。ChatGPTの対話基盤にMUFG各社のアプリを接続し、ユーザーの状況に応じた家計関連情報の確認や、資産運用に関する相談を行えるようにする。
+アプリを切り替えることなく、ChatGPT上で一連の操作が完結できる仕組みを目指す。</p>
+<p>また、グループのアプリに蓄積されるデータを統合し、利用者ごとの状況に応じた情報提供の高度化も検討している。</p>
+<h2>「エムット」ブランド内で複数施策を展開</h2>
+<p>MUFGはリテールサービスブランド「エムット」の一環として、Apps in ChatGPT連携に加えて以下の施策も進める。</p>
+<ul>
+<li>AIコンシェルジュ：グループ各社のアプリにAIを組み込み、パーソナライズされたサポートを提供。デジタルバンクへの導入も予定。</li>
+<li>エムットクイックスタート：口座開設やサービス申し込みの案内をAIチャットで行う仕組み。</li>
+<li>Agentic Commerce対応：ChatGPT上で検索から決済まで行える仕組みに対応し、MUFGの決済サービスを連携可能とする取り組み。</li>
+</ul>
+<p>これらの施策を組み合わせ、リテール領域におけるAI活用の強化を図る。</p>
+<h2>全行員3.5万人にChatGPT Enterpriseを展開</h2>
+<p>MUFGは2026年1月以降、三菱UFJ銀行の全行員約3.5万人にChatGPT Enterpriseを順次展開する計画を示した。文書作成、調査、顧客対応、分析業務など、行内の幅広い業務で利用する。</p>
+<p>さらに、両社は四半期ごとに戦略やプロダクトのレビューを実施し、OpenAIの最新モデルや機能を早期に導入できる体制を構築する。MUFGが社内外で推進するAI活用施策に、最新技術を反映しやすくする環境を整える。</p>
+<h2>AI活用の全社的取り組みを継続</h2>
+<p>MUFGは、全社員を対象としたAI浸透プログラム「Hello, AI @MUFG」を通じて教育や研修を行い、AIを活用できる人材（AIチャンピオン）の育成を進めている。今回の協業では、こうした社内施策に加え、四半期ごとの戦略レビューによりOpenAIの最新モデルや機能を随時取り込み、行内業務とリテール領域の双方でAI活用の取り組みを拡大していく計画を示した。</p>
+]]></description>
+      <pubDate>Mon, 17 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、NotebookLMをリサーチ基盤に強化──Deep Research＋Drive/Sheets/Word対応でWorkspaceと統合加速</title>
       <link>https://ledge.ai/articles/notebooklm_deep_research_workspace_integration</link>
       <description><![CDATA[<p>Googleは2025年11月13日（米国時間）、AIリサーチツール「NotebookLM」にオンライン調査を自動化する新機能「Deep Research」を導入し、あわせてGoogle SheetsやGoogle Drive上のPDF、Microsoft Word（.docx）、画像など複数のファイル形式に対応したと<a href="https://blog.google/technology/google-labs/notebooklm-deep-research-file-types/">発表</a>した。NotebookLMはユーザーの手元資料とウェブ上の情報を横断して扱える“調査エージェント”へと進化する。</p>
