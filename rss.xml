@@ -396,63 +396,6 @@ Level 1（聖人）では多くのモデルが高得点を維持する一方、L
       <pubDate>Fri, 14 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
-      <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
-<h2>GPT-5.1とは──GPT-5世代の会話性アップデート</h2>
-<p>GPT-5.1は、GPT-5を基盤としつつ、回答の自然さやインタラクションのしやすさを強化した改良モデルである。OpenAIは今回の更新を「GPT-5の進化版」と説明しており、名前に「5.1」を付与した理由として、「同一世代内の意味のあるアップデート」であることを示す意図を挙げている。</p>
-<p>ChatGPTでは、ユーザーの入力の難度に応じて最適なモデルを自動選択する「Auto」ルーティングが継続され、Instant／Thinkingが適宜切り替わる仕組みとなる。</p>
-<h2>GPT-5.1 Instant──より会話的で、指示に忠実な標準モデル</h2>
-<p>GPT-5.1 Instantは、従来のGPT-5 Instantの役割を引き継ぐ標準モデルで、回答スタイルがより自然で“暖かい（warmer）”会話に調整された。プロンプトに対する遵守性も改善され、「6語で答えてほしい」といった制約付き指示への一貫性が向上したとしている。</p>
-<p>また、必要に応じて内部の思考時間をわずかに伸ばす「軽い自動推論（adaptive reasoning）」を採用。AIMEなどの数学ベンチマークやコード解析系タスクにおける性能が向上した例が示されている。</p>
-<p><strong>GPT-5 Instant → GPT-5.1 Instant の比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348590_4bf99b57e6/1762974348590_4bf99b57e6.jpg" alt="1762974348590.jpg" /></p>
-<h2>GPT-5.1 Thinking──思考時間の自動最適化で推論性能を強化</h2>
-<p>GPT-5.1 Thinkingは、推論特化モデル「GPT-5 Thinking」を改良したバージョンで、タスクの難度に応じて思考時間をより細かく最適化するようにアップデートされた。OpenAIは「最も短い思考タスクでは約2倍速く、最も難しいタスクでは約2倍長く考える」と説明しており、簡単な質問への応答速度と、難しい問題への粘り強さを両立させたとしている。</p>
-<p>説明スタイルは平易な英語に統一され、技術・専門用語の使用を抑えたことにより、ビジネス文書や技術解説でも読みやすさが向上している。</p>
-<p><strong>GPT-5 Thinking → GPT-5.1 Thinking の比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348726_437b92d9f8/1762974348726_437b92d9f8.jpg" alt="1762974348726.jpg" /></p>
-<h2>トーン・スタイルのプリセット強化──6種類のパーソナリティ設定</h2>
-<p>GPT-5.1の導入とあわせて、ChatGPTのトーン設定機能も拡張された。
-既存のDefault、Friendly（旧Listener）、Efficient（旧Robot）に加え、新たに次の3スタイルが追加された。</p>
-<ul>
-<li>Professional</li>
-<li>Candid</li>
-<li>Quirky
-さらに、Nerdy（旧Nerd）、Cynical（旧Cynic）も従来どおり利用可能で、合計6スタイルが選べるようになった。
-また、一部ユーザー向けには、文章の簡潔さ、温かさ、見出しや箇条書きの量、絵文字頻度などをスライダーで微調整する実験的機能も提供される。これらの設定変更は進行中のスレッドにも即時反映される仕様に改められた。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974349937_f37e9be75b/1762974349937_f37e9be75b.jpg" alt="1762974349937.jpg" /></p>
-<h2>ChatGPTからAPIへ順次展開</h2>
-<p>GPT-5.1 Instant／Thinkingは、11月12日から有料プラン利用者に順次提供を開始。今後、無料ユーザーやログアウト状態の利用者にも展開される予定だ。
-Enterprise／Educationプランでは7日間の早期アクセス期間が設けられ、期間後はGPT-5.1が標準モデルとして切り替わる。</p>
-<p>APIでは、以下の名称で提供される予定と案内されている。</p>
-<ul>
-<li><strong>GPT-5.1 Instant</strong> ：gpt-5.1-chat-latest</li>
-<li><strong>GPT-5.1 Thinking</strong> ：gpt-5.1</li>
-</ul>
-<p>APIの提供開始は「今週後半」としている。</p>
-<p>従来のGPT-5（Instant／Thinking）は、少なくとも3カ月間は有料ユーザー向けのレガシーモデルとして継続提供される。</p>
-<h2>安全性・システムカード追補──メンタルヘルス領域の評価を拡充</h2>
-<p>同日公開された「GPT-5.1 System Card Addendum」では、安全性評価、メンタルヘルス領域、感情依存（emotional reliance）の指標などが更新された。
-OpenAIは、実運用で発生する難度の高いケースを集約した「Production Benchmarks」を導入し、以下のカテゴリで“not unsafe”スコアを比較している。</p>
-<ul>
-<li>個人情報</li>
-<li>ハラスメント</li>
-<li>憎悪表現・暴力</li>
-<li>自傷行為（意図・手段）</li>
-<li>性的コンテンツ（未成年含む）</li>
-<li>メンタルヘルス</li>
-<li>Emotional reliance など</li>
-</ul>
-<p>GPT-5.1は多くの領域でGPT-5と同等、または改善がみられる一方、一部ではわずかな悪化も記録しており、改善を継続すると記載されている。</p>
-<p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
-<h2>今後の展開</h2>
-<p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Meta、広告向け基盤モデル「GEM」を公開──Instagramコンバージョン5％増の“中央脳”AIを正式解説</title>
       <link>https://ledge.ai/articles/meta_gem_ads_foundation_model_release</link>
       <description><![CDATA[<p>Metaは米国時間2025年11月10日、広告レコメンデーション向けの大規模AIモデル「GEM（Generative Ads Recommendation Model）」の技術詳細を<a href="https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/">発表</a>した。</p>
@@ -860,6 +803,63 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
+      <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
+<h2>GPT-5.1とは──GPT-5世代の会話性アップデート</h2>
+<p>GPT-5.1は、GPT-5を基盤としつつ、回答の自然さやインタラクションのしやすさを強化した改良モデルである。OpenAIは今回の更新を「GPT-5の進化版」と説明しており、名前に「5.1」を付与した理由として、「同一世代内の意味のあるアップデート」であることを示す意図を挙げている。</p>
+<p>ChatGPTでは、ユーザーの入力の難度に応じて最適なモデルを自動選択する「Auto」ルーティングが継続され、Instant／Thinkingが適宜切り替わる仕組みとなる。</p>
+<h2>GPT-5.1 Instant──より会話的で、指示に忠実な標準モデル</h2>
+<p>GPT-5.1 Instantは、従来のGPT-5 Instantの役割を引き継ぐ標準モデルで、回答スタイルがより自然で“暖かい（warmer）”会話に調整された。プロンプトに対する遵守性も改善され、「6語で答えてほしい」といった制約付き指示への一貫性が向上したとしている。</p>
+<p>また、必要に応じて内部の思考時間をわずかに伸ばす「軽い自動推論（adaptive reasoning）」を採用。AIMEなどの数学ベンチマークやコード解析系タスクにおける性能が向上した例が示されている。</p>
+<p><strong>GPT-5 Instant → GPT-5.1 Instant の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348590_4bf99b57e6/1762974348590_4bf99b57e6.jpg" alt="1762974348590.jpg" /></p>
+<h2>GPT-5.1 Thinking──思考時間の自動最適化で推論性能を強化</h2>
+<p>GPT-5.1 Thinkingは、推論特化モデル「GPT-5 Thinking」を改良したバージョンで、タスクの難度に応じて思考時間をより細かく最適化するようにアップデートされた。OpenAIは「最も短い思考タスクでは約2倍速く、最も難しいタスクでは約2倍長く考える」と説明しており、簡単な質問への応答速度と、難しい問題への粘り強さを両立させたとしている。</p>
+<p>説明スタイルは平易な英語に統一され、技術・専門用語の使用を抑えたことにより、ビジネス文書や技術解説でも読みやすさが向上している。</p>
+<p><strong>GPT-5 Thinking → GPT-5.1 Thinking の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348726_437b92d9f8/1762974348726_437b92d9f8.jpg" alt="1762974348726.jpg" /></p>
+<h2>トーン・スタイルのプリセット強化──6種類のパーソナリティ設定</h2>
+<p>GPT-5.1の導入とあわせて、ChatGPTのトーン設定機能も拡張された。
+既存のDefault、Friendly（旧Listener）、Efficient（旧Robot）に加え、新たに次の3スタイルが追加された。</p>
+<ul>
+<li>Professional</li>
+<li>Candid</li>
+<li>Quirky
+さらに、Nerdy（旧Nerd）、Cynical（旧Cynic）も従来どおり利用可能で、合計6スタイルが選べるようになった。
+また、一部ユーザー向けには、文章の簡潔さ、温かさ、見出しや箇条書きの量、絵文字頻度などをスライダーで微調整する実験的機能も提供される。これらの設定変更は進行中のスレッドにも即時反映される仕様に改められた。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974349937_f37e9be75b/1762974349937_f37e9be75b.jpg" alt="1762974349937.jpg" /></p>
+<h2>ChatGPTからAPIへ順次展開</h2>
+<p>GPT-5.1 Instant／Thinkingは、11月12日から有料プラン利用者に順次提供を開始。今後、無料ユーザーやログアウト状態の利用者にも展開される予定だ。
+Enterprise／Educationプランでは7日間の早期アクセス期間が設けられ、期間後はGPT-5.1が標準モデルとして切り替わる。</p>
+<p>APIでは、以下の名称で提供される予定と案内されている。</p>
+<ul>
+<li><strong>GPT-5.1 Instant</strong> ：gpt-5.1-chat-latest</li>
+<li><strong>GPT-5.1 Thinking</strong> ：gpt-5.1</li>
+</ul>
+<p>APIの提供開始は「今週後半」としている。</p>
+<p>従来のGPT-5（Instant／Thinking）は、少なくとも3カ月間は有料ユーザー向けのレガシーモデルとして継続提供される。</p>
+<h2>安全性・システムカード追補──メンタルヘルス領域の評価を拡充</h2>
+<p>同日公開された「GPT-5.1 System Card Addendum」では、安全性評価、メンタルヘルス領域、感情依存（emotional reliance）の指標などが更新された。
+OpenAIは、実運用で発生する難度の高いケースを集約した「Production Benchmarks」を導入し、以下のカテゴリで“not unsafe”スコアを比較している。</p>
+<ul>
+<li>個人情報</li>
+<li>ハラスメント</li>
+<li>憎悪表現・暴力</li>
+<li>自傷行為（意図・手段）</li>
+<li>性的コンテンツ（未成年含む）</li>
+<li>メンタルヘルス</li>
+<li>Emotional reliance など</li>
+</ul>
+<p>GPT-5.1は多くの領域でGPT-5と同等、または改善がみられる一方、一部ではわずかな悪化も記録しており、改善を継続すると記載されている。</p>
+<p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
+<h2>今後の展開</h2>
+<p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
+]]></description>
+      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
       <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
       <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
@@ -888,28 +888,6 @@ Sony AIによると、FHIBEは「consensually-collected, globally diverse fairne
 Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
 <p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
 また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI導入が雇用を直撃　米10月の人員削減15万人超、理由の2位に「AI」──チャレンジャー社調査</title>
-      <link>https://ledge.ai/articles/us_job_cuts_october2025_ai_layoffs_report</link>
-      <description><![CDATA[<p>米民間の再就職支援会社チャレンジャー・グレイ・アンド・クリスマス（Challenger, Gray &amp; Christmas）は2025年11月6日（米国時間）、2025年10月の米企業による人員削減発表数が15万3074人に達したと<a href="https://www.challengergray.com/blog/october-challenger-report-153074-job-cuts-on-cost-cutting-ai/">発表</a>した。</p>
-<p>前年同月（5万5597人）から175％増で、10月としては2003年以来21年ぶりの高水準となった。主な要因は「コスト削減」と「AI（人工知能）」であり、AI関連のレイオフが要因として単月で2位に浮上したという。</p>
-<h2>「AI統合」と自動化が再編の波を拡大</h2>
-<p>同社によると、10月に企業が発表した削減理由のうち最も多かったのはコスト削減（50,437人）、次いでAI（31,039人）だった。
-AI導入を理由とする人員削減は年初来で4万8414人に上り、前年を大幅に上回るペース。報告書では「AI integration（AI統合）」や「automation-driven restructuring（自動化による再編）」が複数業種で主要因として挙げられた。</p>
-<p>テクノロジー産業の削減は10月だけで33,281人と、前月（5,639人）から急増。年初来では14万1159人（前年同期比＋17％）となり、AI活用による業務効率化が雇用の再構成を促している。</p>
-<h2>倉庫・物流で過去最大の削減──自動化が要因</h2>
-<p>倉庫・物流（Warehousing）分野では、10月の削減数が47,878人に達し、業種別で最多となった。前年同月の984人から急増しており、年初来では90,418人（＋378％）。同社は、パンデミック期に拡張した物流網の過剰能力と自動化の進展が要因と分析している。</p>
-<h2>「破壊的技術が再び雇用地図を変える」</h2>
-<p>チャレンジャー社は、「2003年当時も、携帯電話という破壊的技術が雇用地図を変えた。今、同じことがAIによって起きている」とコメント。10月としての削減数は2003年以来の最多であり、第4四半期単月でも2008年以来の高水準と指摘した。</p>
-<p>一方で、SNS時代に入って以降は「ホリデーシーズン前のレイオフを避ける傾向」が強まっていたが、2025年10月は約450件の個別計画が報告され、例年を大きく上回ったという。</p>
-<h2>採用計画は11年ぶりの低水準</h2>
-<p>10月末までの累計では、米雇用主による人員削減数は1,099,500人（前年同期比＋65％）。一方で、新規採用計画は488,077人と前年同期比35％減。同社によると、月間平均は48,808人で、2011年以来の低水準に落ち込んでいる。季節雇用も37万2520人にとどまり、同社が追跡を開始した2012年以降で最少だった。</p>
-<h2>AI時代の雇用構造変化</h2>
-<p>AI導入は生産性向上とコスト削減をもたらす一方、雇用の再編・削減要因として急速に存在感を高めている。
-チャレンジャー社は「AI adoption（AIの採用）や自動化による効率化が複数業種でレイオフを誘発している」とし、雇用市場全体が「生成AI時代の再構築フェーズ」に入っていることを示唆している。</p>
 ]]></description>
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
     </item>
