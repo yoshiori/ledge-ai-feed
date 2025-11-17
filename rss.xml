@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、米AIインフラに500億ドル投資──テキサス＆ニューヨークで専用データセンター建設へ</title>
+      <link>https://ledge.ai/articles/anthropic_us_ai_infrastructure_50b_investment</link>
+      <description><![CDATA[<p>Anthropicは2025年11月12日（現地時間）、米国内のAI計算インフラに総額500億ドル（約7.7兆円）を投資し、テキサス州とニューヨーク州で次世代データセンターを建設すると<a href="https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure">発表</a>した。</p>
+<p>AIインフラ企業である英Fluidstackと共同で進める計画で、2026年を通じて順次稼働を開始する見通しだ。今回の計画は、同社の生成AI「Claude」シリーズとフロンティア研究を支える基盤を強化することを目的とする。</p>
+<p>Anthropicは、データセンター建設により約800名の常勤職と2,400名の建設関連職を創出すると説明。テキサスとニューヨークでの新拠点に加え、今後さらに追加サイトを設ける予定も示した。</p>
+<p>同社CEOのDario Amodei氏は、AIが科学・産業の領域で重要な発見をもたらす段階に近づいているとし、「こうした可能性を実現するためには、フロンティア研究を支える強力な計算インフラが必要だ」と述べた。急速に増加するClaude利用企業の需要に対応し、より高度なモデル開発を継続するための投資であるとしている。</p>
+<p>提携先Fluidstackについては、ギガワット級の電力容量を迅速に提供できる俊敏性を評価したと説明。同社CEOのGary Wu氏は「私たちはこの瞬間のために準備してきた。AnthropicのようなフロンティアAI企業と協力し、大規模インフラを展開できることを誇りに思う」と述べている。</p>
+<p>今回の発表では、米国の「AI Action Plan」にも言及されており、同社の投資が国内テクノロジーインフラの強化に資するとの見解を示した。Anthropicは今後も、費用対効果を重視した形で米国内インフラを拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Mon, 17 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>三菱UFJ、ChatGPTに“銀行アプリ”を接続へ──「Apps in ChatGPT」連携で家計管理・資産運用を会話で完結</title>
       <link>https://ledge.ai/articles/mufg_chatgpt_apps_integration</link>
       <description><![CDATA[<p>三菱UFJフィナンシャル・グループ（MUFG）と三菱UFJ銀行は2025年11月12日、OpenAIと戦略的コラボレーション契約を締結したと<a href="https://www.mufg.jp/dam/pressrelease/2025/pdf/news-20251112-001_ja.pdf">発表</a>した。両社は、OpenAIが10月に公開した「Apps in ChatGPT」を活用し、MUFGのアプリをChatGPTに接続する取り組みを進める。対話を通じた家計管理や資産運用の相談など、金融関連の行動をChatGPT上で実行可能にする構想を示した。</p>
@@ -689,27 +701,6 @@ GTIGは「AIを悪用した攻撃は今後さらに多様化・自動化する�
 <p>Ironwoodは、生成AI、検索、会話型エージェント、RAG（Retrieval-Augmented Generation）など、膨大な推論を伴うワークロードに最適化されている。Googleは、同チップによりAIの開発・提供コストを抑制し、より高速で省エネなAI運用を可能にするとしている。</p>
 ]]></description>
       <pubDate>Tue, 11 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft AI、“ヒューマニスト・スーパーインテリジェンス（HSI）”へ　MAIスーパーインテリジェンスチームを新設</title>
-      <link>https://ledge.ai/articles/microsoft_ai_humanist_superintelligence_team_launch</link>
-      <description><![CDATA[<p>MicrosoftのAI開発研究所「Microsoft AI（MAI）」は2025年11月6日（米国時間）、「人間中心のヒューマニスト・スーパーインテリジェンス（Humanist Superintelligence：HSI）」の実現に向け、「MAI Superintelligence Team」の新設を<a href="https://microsoft.ai/news/towards-humanist-superintelligence/">発表</a>した。MAIのCEOであるMustafa Suleyman氏が、同社公式ブログ「Towards Humanist Superintelligence」で明らかにした。</p>
-<h2>「制御可能な超知能」を目指す</h2>
-<p>Suleyman氏はブログで、「MAI Superintelligence Team」は**「世界で最も優れたAI研究・構築の場」を目指すと説明。開発方針については、「無制限の汎用超知能ではなく、人間の目的に従い制御可能な超知能を構築する」と述べた。
-HSIの定義として、同氏は「人間中心であることを非交渉的前提とする」と強調。超知能は人間の価値や意思決定を補完するものであり、“まず害を避け、そのうえで加速する”**という原則に立つという。</p>
-<h2>3つの重点領域：AIコンパニオン、医療、クリーンエネルギー</h2>
-<p>MAIはHSIの実装に向け、まず3つの領域に注力する。</p>
-<ol>
-<li>AIコンパニオンでは、学習支援やメンタルケア、生産性向上などを通じて「誰もが手頃に持てる知的パートナー」を目指す。教育分野では個別最適化された学習支援を想定している。</li>
-<li>医療スーパーインテリジェンスでは、専門医水準の診断能力を備えたAIを開発。ブログでは、米医学誌『NEJM』の症例チャレンジにおいてMAIの診断モデル「MAI-DxO」が85％の正答率を達成した事例が紹介されている。</li>
-<li>クリーンエネルギー分野では、再生可能エネルギーや蓄電技術の革新を2040年までに実現することを視野に、AIを活用した新素材探索やグリッド最適化、核融合研究への応用を掲げている。</li>
-</ol>
-<h2>永続的な整合と制御を重視</h2>
-<p>Suleyman氏は、HSIの安全性確保について「開発は一度きりではなく、永続的な制御と整合が必要だ」と述べ、政府・企業・学術界の協調を呼びかけた。また、「社会的ルールと監督のもとで、人間が常に主導権を持つ」ことを明示し、AI開発における倫理的責任を強調した。</p>
-<h2>今後の展望</h2>
-<p>MAIは今後、HSIの応用領域を段階的に拡大するとともに、研究者・エンジニアの採用を進める。Suleyman氏は「このプロジェクトは、数十億人の生活に影響を与えるAIの礎になる」とし、Microsoftの既存AI製品群との連携にも意欲を示している。</p>
-]]></description>
-      <pubDate>Tue, 11 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
