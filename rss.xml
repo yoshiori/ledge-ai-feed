@@ -5,6 +5,49 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Sakana AI、シリーズBで総額200億円の資金調達を発表──MUFGなど国内外投資家が出資、企業価値は約4,000億円に</title>
+      <link>https://ledge.ai/articles/sakana_ai_series_b_200oku_fundraising</link>
+      <description><![CDATA[<p>東京を拠点とするAI企業のSakana AIは2025年11月17日、シリーズBラウンドで総額約200億円（1億3,500万米ドル）を調達したと公式ブログで<a href="https://sakana.ai/series-b/">発表</a>した。</p>
+<p>今回の資金調達により、ポストマネー評価額は約4,000億円（26億3,500万米ドル）、累計調達額は約520億円（3億4,700万米ドル）となる。</p>
+<h2>国内外の投資家が参加、金融・エネルギー・政府系機関まで多様な顔ぶれ</h2>
+<p>Sakana AIによれば、本ラウンドには既存・新規の投資家が幅広く参加した。既存投資家では、三菱UFJフィナンシャル・グループ（MUFG）、Khosla Ventures、New Enterprise Associates（NEA）、Lux Capitalなどが追加出資した。</p>
+<p>新規投資家としては、米Factorial Funds、豪Macquarie Capital、スペインのSantander Group（VCファンドMouro Capitalを通じて出資）、米国政府の戦略投資機関In-Q-Tel（IQT）などが名を連ねる。このほか、Fundomo、Geodesic Capital、Ora Global、MPower Partners、日本の四国電力グループのSTNetなども参画し、国内外の多様な領域から支持を得た形だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/group_logo_e1f5e12cc1/group_logo_e1f5e12cc1.jpg" alt="group-logo.jpg" /></p>
+<h2>「計算資源依存ではないAI開発」への問題意識</h2>
+<p>同社はリリースで、世界的なAI開発競争が「大量の計算資源の投入」を前提にしている点に強い問題意識を示した。計算コストやエネルギー消費が増大する中、資源に限りがある日本にとって同じ競争路線を踏むのは現実的ではないと指摘。「自然界では、限られた資源の中で効率性を高めて進化してきた。AI開発も持続可能性を重視すべきだ」との立場を示した。</p>
+<p>そのうえで、Sakana AIは「計算量を前提にした“大規模モデルの総当たり競争”」とは異なるアプローチとして、既存モデルを進化的に組み合わせる技法や、モデルが自ら改善する仕組みの研究に取り組んできたと説明している。</p>
+<h2>R&amp;Dの進捗：自己進化モデルから新アーキテクチャまで</h2>
+<p>設立から約2年で、同社はフロンティア研究と応用の両面で複数の成果を公開してきた。</p>
+<ul>
+<li><strong>Darwin Gödel Machine (DGM)</strong> ：モデルとコードが自己改善するアーキテクチャ</li>
+<li><strong>ShinkaEvolve</strong> ：LLM生成プログラムを進化させるオープンソースシステム</li>
+<li><strong>進化的モデルマージ</strong> ：複数のオープンソースモデルを融合</li>
+<li><strong>AB-MCTS</strong> ：複数モデルが協調して推論するアルゴリズム</li>
+<li><strong>Continuous Thought Machine (CTM)</strong> ：Transformer以降を見据えた新アーキテクチャ</li>
+<li><strong>The AI Scientist</strong> ：仮説生成から論文執筆まで行う自律マルチエージェントシステム</li>
+</ul>
+<p>これらはいずれも「持続可能かつ効率的なAI」の実現を指向した研究群だと説明している。</p>
+<h2>日本企業との社会実装──金融・防衛・製造へ拡大</h2>
+<p>Sakana AIは2025年に、三菱UFJフィナンシャル・グループ（MUFG）、大和証券グループとの戦略的パートナーシップを発表し、金融領域でのカスタムAI開発を進めてきた。</p>
+<p>一方で、実務には一般的な生成AIでは扱いにくい「暗黙知」が多く存在するとして、業務に深く入り込むエンジニアリングが不可欠と指摘。この課題認識のもと、同社は応用領域を金融から、防衛・製造業などの基幹産業へと広げている。</p>
+<p>防衛・インテリジェンス分野では、総務省の「インターネット上の偽・誤情報対策技術の開発・実証事業」（2025年6月採択）などにも参加している。</p>
+<h2>ソブリンAI──日本に特化した「事後学習（Post-training）」への集中</h2>
+<p>同社は、AI開発の主戦場が「事前学習（Pre-training）」から「事後学習（Post-training）」へ移行していると整理。事後学習に注力することで、日本固有の文化・価値観・産業ニーズに即したモデルを構築でき、米中の巨大モデル開発競争とは異なるルートでソブリンAIを実現できると強調した。</p>
+<p>今回調達した資金は、</p>
+<ul>
+<li>フロンティア研究の加速（集合知・自己進化・ソブリンAI向け最適化）</li>
+<li>Applied Teamの体制強化</li>
+<li>金融、防衛、製造領域での社会実装</li>
+<li>技術・事業基盤拡大のための投資やM&amp;A</li>
+</ul>
+<p>などに充てる。</p>
+<h2>「日本発の持続可能なAI」へ</h2>
+<p>Sakana AIは「世界最先端のAI技術を日本で社会実装する」というミッションを掲げており、東京を拠点に研究・ビジネス・コーポレート部門の採用を強化している。</p>
+<p>同社は今回のシリーズBを通じ、効率性・持続可能性・社会実装を軸とした「日本らしいAI開発」をさらに推し進めるとしている。</p>
+]]></description>
+      <pubDate>Mon, 17 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、米AIインフラに500億ドル投資──テキサス＆ニューヨークで専用データセンター建設へ</title>
       <link>https://ledge.ai/articles/anthropic_us_ai_infrastructure_50b_investment</link>
       <description><![CDATA[<p>Anthropicは2025年11月12日（現地時間）、米国内のAI計算インフラに総額500億ドル（約7.7兆円）を投資し、テキサス州とニューヨーク州で次世代データセンターを建設すると<a href="https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure">発表</a>した。</p>
@@ -624,26 +667,6 @@ GTIGは「AIを悪用した攻撃は今後さらに多様化・自動化する�
 <p>noteはこうした環境を踏まえ、NAVERとの提携を通じてAIやテクノロジーを活用したグローバルな創作支援の基盤を強化し、アジア発の創作エコシステムを世界へ広げる考えだ。</p>
 ]]></description>
       <pubDate>Tue, 11 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AI推論時代の第7世代TPU「Ironwood」提供を数週間以内に開始──v5p比10倍・v6e比4倍超の性能を公式発表</title>
-      <link>https://ledge.ai/articles/google_tpu_ironwood_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年11月7日、AIアクセラレータの第7世代テンソル処理ユニット（TPU）「Ironwood（アイアンウッド）」を、今後数週間以内に一般提供（GA）開始すると<a href="https://cloud.google.com/blog/ja/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads/">発表</a>した。</p>
-<p>Ironwoodは2025年4月に初めて<a href="https://ledge.ai/articles/google_tpu_ironwood_agent2agent">公表</a>された第7世代のTPUで、「推論（inference）の時代のために設計された最初のTPU」と位置づけられている。GoogleはIronwoodを「これまでで最もパワフルかつエネルギー効率に優れたTPU」と説明している。</p>
-<h2>第5世代比10倍、第6世代比4倍超の性能</h2>
-<p>Ironwoodは前世代から大幅な性能向上を実現している。
-第5世代TPU「v5p」と比べて最大10倍のピーク性能を発揮し、第6世代TPU（開発コード「Trillium」／v6e）と比べてもチップ当たり（per chip）で学習・推論の双方において4倍超の性能を持つという。同社は、これによりAIモデルのトレーニングと推論の双方で効率を高められると説明している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=aQxcomQDHcw">YouTube</a></p>
-<h2>「推論の時代」に最適化された新設計</h2>
-<p>Googleは、生成AIの利用拡大により「推論の時代（age of inference）」が到来していると強調する。
-モデルの構築に加え、エージェントや会話型AIなど、大規模な推論処理をいかに効率的に行うかが課題となっており、Ironwoodはそのための基盤として開発された。新アーキテクチャの採用により、低レイテンシと高スループットを両立し、これまでのTPUよりも高いエネルギー効率を実現したという。</p>
-<h2>Google Cloudで数週間以内に提供開始</h2>
-<p>Ironwoodは、Google Cloud上で一般提供される予定だ。
-ブログでは「今後数週間以内に提供を開始する」と明言しており、AI推論処理を中心とするクラウドユーザーが早期に利用できる見込みとなっている。
-同発表では、Armベースの新仮想マシン「Axion」VM群（N4A／C4A）も合わせて紹介され、TPUと連携することでクラウド全体の効率化を目指す構想が示された。</p>
-<p>Ironwoodは、生成AI、検索、会話型エージェント、RAG（Retrieval-Augmented Generation）など、膨大な推論を伴うワークロードに最適化されている。Googleは、同チップによりAIの開発・提供コストを抑制し、より高速で省エネなAI運用を可能にするとしている。</p>
-]]></description>
-      <pubDate>Tue, 11 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
