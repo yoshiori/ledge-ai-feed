@@ -5,35 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
-      <link>https://ledge.ai/articles/bear_encounter_ai_prediction_map_sophia_university</link>
-      <description><![CDATA[<p>全国的にクマによる出没や人身被害が相次ぐ中、上智大学・深澤佑介准教授（応用データサイエンス）の研究チームが、クマとの遭遇リスクをAIで予測し、地図上で可視化する「<a href="https://ds.sophia.ac.jp/news/20251024/post-1065">クマ遭遇AI予測マップ</a>」を一般公開している。対象地域は札幌市、東北、北関東、東京都、北陸、中部、京都府など計19地域に広がり、誰でも無料で閲覧できる。</p>
-<p>同大学・応用データサイエンス学位プログラムは2025年10月24日付で、深澤研究室が開発した「クマ遭遇予測マップ」の公開URLを案内しており、秋田県を対象とした予測モデルを基に実装したことを説明している。研究室サイトでは19地域分のマップが一覧化され、各エリアの遭遇確率を確認できる。</p>
-<h2>AIが1kmメッシュで遭遇リスクを推定</h2>
-<p>予測マップでは、AIがクマ遭遇リスクを1km四方のメッシュ単位で推定し、危険度を「非常に高い」「高い」「やや高い」「可能性あり」「低い」の5段階で色分けして表示する。赤系が高リスク、黄色系が中リスクを示す仕組みだ。</p>
-<p>また、各地域ページには、直近6カ月以内のクマ出没・遭遇地点を示す「X印」が別途表示される。マーカーがない場所は、データ不足などの理由で予測が行われていないエリアであることも明記されている。</p>
-<h2>過去の遭遇記録や地形・人口などを活用</h2>
-<p>予測モデルは、各自治体が公開するクマの出没・遭遇記録をはじめ、森林や農地などの土地利用、道路網、人口分布、標高といった環境要因を組み合わせて学習している。
-学習には決定木ベースの機械学習手法が用いられ、秋田県のデータでは「正答率・適合率・再現率がいずれも6割強」という検証結果も得られている。</p>
-<p>これらの情報を統合し、各メッシュの遭遇確率を推定することで、ユーザーが直感的に危険エリアを把握できるよう設計されている。</p>
-<h2>19地域をカバーし、PC・スマホから無料で閲覧可能</h2>
-<p>マップは研究室サイトで公開されており、PCやスマートフォンから無料で利用できる。アクセスに特別なアプリは必要なく、ブラウザ上で地図を閲覧しながら推定リスクを確認できる。</p>
-<p>対象地域は以下の通り（一部抜粋）
-：札幌市・青森県・盛岡市・秋田県・山形県・宮城県・新潟県・栃木県・群馬県・埼玉県・東京都・山梨県・富山県・石川県・長野県・岐阜県・京都府</p>
-<p>研究室サイトには「最終更新日時」も掲示され、最新の予測状況を確認できる。</p>
-<p>また、深澤研究室は X（旧Twitter）公式アカウント（<a href="https://x.com/fukazawa_lab">@fukazawa_lab</a>） でもマップの更新情報や関連アナウンスを随時発信しており、最新の動向を確認できる。</p>
-<h2>「最新の自治体情報を優先してほしい」──研究チームが注意喚起</h2>
-<p>上智大の案内および研究室サイトでは、予測マップの利用にあたって複数の注意点を明示している。</p>
-<ul>
-<li>マップは「注意喚起」を目的とした予測であり、遭遇を確実に防ぐものではない</li>
-<li>クマの行動は環境によって変動するため、最新の状況は反映しきれない場合がある</li>
-<li>登山・農作業・山菜採りなどを行う際は、「自治体が発信する情報や現地の警報・掲示を必ず確認してほしい」</li>
-</ul>
-<p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
-]]></description>
-      <pubDate>Tue, 18 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google DeepMind、「SIMA 2」研究プレビュー公開──Gemini搭載で推論・一般化・自己改善が進化、生成3D世界にも対応</title>
       <link>https://ledge.ai/articles/google_deepmind_sima_2_research_preview</link>
       <description><![CDATA[<p>米Google DeepMindは2025年11月13日（現地時間）、次世代汎用AIエージェント「SIMA 2：An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds」の研究プレビューを<a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/">公開</a>した。</p>
@@ -247,69 +218,6 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
 <p>arXivのコンテンツポリシーでは、主な受理対象は\</p>
 ]]></description>
       <pubDate>Sun, 16 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
-      <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
-      <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
-<p>8カ国・9000人を対象にしたブラインドテストでは、参加者の97％が「完全にAI生成された音楽」と「人間が制作した音楽」を聴き分けることができなかった。一方で多くのユーザーは、この結果に驚きや不安を覚え、AI音楽の明確なラベリングや著作権の公正な扱いを求めていることが明らかになった。</p>
-<h2>8カ国・9000人調査で浮かぶ、AI音楽への“戸惑い”</h2>
-<p>調査は米国、カナダ、ブラジル、英国、フランス、オランダ、ドイツ、日本の8カ国で実施され、18〜65歳の9000人が参加した。参加者は3曲の音源を聴き、どれが完全なAI生成音楽かを判断するよう求められたが、97％が誤答。71％がこの結果に「驚いた」と回答し、52％は「人間とAIの音楽を区別できないことに不快感」を覚えたという。</p>
-<p>AI音楽は一般リスナーにとって、すでに「ほぼ人間と区別がつかない段階」に達していることを示す結果となった。</p>
-<h2>AI音楽への期待と懸念 ― 創造性が失われると感じる人が64％</h2>
-<p>AIに対する一般的な認知は高く、98％が「AIについて聞いたことがある」と回答し、72％は「少なくとも数回はAIを使った経験がある」とした。
-音楽領域でも、</p>
-<ul>
-<li>46％：AIが新しい音楽の発見を助ける</li>
-<li>51％：AIは今後10年で音楽制作に大きな役割を果たす
-といった期待の声がある一方で、</li>
-<li>51％：低品質・画一的な音楽が増える</li>
-<li>64％：AIが音楽制作の創造性を失わせる
-と懸念も強い。</li>
-</ul>
-<p>リスナーはAIへの好奇心と、創作物の質への不安との間で揺れている。</p>
-<h2>「AI音楽は聴くが、区別はしたい」──透明性への強い要望</h2>
-<p>音楽ストリーミングユーザー（n=6791）を対象とした調査では、</p>
-<ul>
-<li>66％：好奇心から100％AI音楽を一度は聴いてみたい</li>
-<li>45％：AI音楽をフィルターで除外したい</li>
-<li>40％：AI音楽と分かればスキップしたい
-と回答。
-興味はある一方で、「AI音楽と人間の音楽を区別したい」という強いニーズが浮き彫りになった。</li>
-</ul>
-<p>透明性に関する項目では、</p>
-<ul>
-<li>80％：100％AI生成音楽は明確にラベル表示すべき</li>
-<li>73％（音楽ストリーミングユーザー）：サービスがAI音楽を推薦しているかどうか知りたい</li>
-<li>52％：AI音楽を人間の楽曲と同じチャートに含めるべきではない
-といった声が寄せられた。</li>
-</ul>
-<p>AI音楽の存在が受容されつつある反面、ユーザーは“知らない間にAI音楽を聴かされる”ことに警戒している。</p>
-<h2>著作権保護への強い危機感 ― 許可なきAI学習は「非倫理的」</h2>
-<p>調査はAIの学習に著作権作品を使うことに対する強い慎重姿勢も示した。</p>
-<ul>
-<li>65％：著作権作品を無断でAI学習に利用すべきではない</li>
-<li>73％：アーティストの許可なく著作権作品を使ってAIが音楽生成するのは非倫理的</li>
-<li>70％：AI音楽は現役・未来のアーティストの生計を脅かす</li>
-<li>69％：AI生成曲への支払いは人間の楽曲より低くすべき
-ユーザーはAI音楽の存在そのものよりも、その背後にある「データの扱い」や「創作者の収益」への影響に敏感だ。</li>
-</ul>
-<h2>Deezerは毎日5万曲のAI音楽を受信──34％がAI</h2>
-<p>Deezerは現在、1日あたり約5万曲の完全AI生成トラックを受け取っており、1日に届く全楽曲の34％を占めているという。同社は2025年初頭からAI検出ツールを運用しており、SunoやUdioなど主要AIモデルで生成された音源を識別できるとのこと。</p>
-<p>また、AI音楽のストリーミングの最大70％が不正再生だったケースも確認しており、該当ストリームはロイヤリティから除外している。</p>
-<h2>AI曲は推薦・プレイリストから除外、チャート混入を回避</h2>
-<p>Deezerは2025年6月、業界で初めて「100％AI生成音楽」をタグ付けしたプラットフォームとなった。
-現在は、</p>
-<ul>
-<li>AI曲をアルゴリズム推薦から自動除外</li>
-<li>編集プレイリストにも掲載しない</li>
-<li>チャート集計でも区別運用を検討</li>
-</ul>
-<p>と、透明性確保とアーティスト保護を重視した対策を進めている。</p>
-<p>DeezerのCEOであるAlexis Lanternier氏は、聴いている音楽がAIなのか人間なのかを知りたいというユーザーの意識を明確に示した。AIがアーティストの活動や著作権を損なうべきではないという点についても広範な支持があると述べた。</p>
-<p>同社は今後、AI検出技術の特許出願など、AI音楽時代における透明性基準の確立を目指しているという。</p>
-]]></description>
-      <pubDate>Sun, 16 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/15 [SAT]AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
@@ -544,6 +452,261 @@ Level 1（聖人）では多くのモデルが高得点を維持する一方、L
       <pubDate>Fri, 14 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
+      <link>https://ledge.ai/articles/1x_neo_home_robot_subscription_launch</link>
+      <description><![CDATA[<p>米1X Technologiesは2025年10月28日（米国時間）、家庭向けヒューマノイドロボット「NEO」を<a href="https://www.1x.tech/neo">公開</a>し、プレオーダーを開始した。提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。家庭内の掃除や片付けなど、日常的な家事を支援する“お手伝いロボット”として設計されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_6_ce91e1cf1e/x1neo_6_ce91e1cf1e.jpg" alt="x1neo-6.jpg" /></p>
+<p>NEOは、1Xが掲げる「人の生活を支える安全なヒューマノイド」構想に基づき開発された。腱（tendon）駆動による柔らかく静かな動作を特徴とし、人と同じ空間で安全に動作できるよう設計されている。公式サイトでは「単調で時間のかかる家事を肩代わりし、人の時間を取り戻す」とコンセプトを掲げる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_5_7ae0e73c6c/x1neo_5_7ae0e73c6c.jpg" alt="x1neo-5.jpg" /></p>
+<p>ユーザーはスマートフォンアプリや音声を通じてタスクを指示でき、NEOは家庭内の環境を学習しながら動作を最適化する。自己充電機能を備えるほか、遠隔からのモニタリングやサポートも可能。1XはNEOを単なるロボットではなく「温かみと個性をもった家庭のパートナー」と位置付けている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_4_dd13229413/x1neo_4_dd13229413.jpg" alt="x1neo-4.jpg" /></p>
+<p>主な仕様は、バッテリー駆動時間約4時間（急速充電対応）、静音性は最大22dB。NVIDIA Jetson Thorをベースとした「1X Cortex」コンピューティングシステムを搭載し、360度集音マイクとステレオスピーカーを内蔵する。</p>
+<h2>サブスク形式で家庭導入のハードルを下げる</h2>
+<p>提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。NEOは注文ページからプレオーダー可能で、出荷は2026年を予定している。</p>
+<p>1Xは公式ページ上で、NEOを「consumer-ready」と表現。2024年の試作版「NEO Beta」発表を経て、今回初めて一般消費者に向けたモデルとして公開された。</p>
+<p>@<a href="https://www.youtube.com/watch?v=LTYMWadOW7c">YouTube</a></p>
+<p>1X Technologiesは、家庭や産業向けのヒューマノイドロボットを開発する企業で、OpenAIが出資するスタートアップの一つでもある。これまでノルウェーを拠点としていたが、2025年には米カリフォルニア州サンフランシスコに本社を移転。研究開発と製造体制の両面で国際展開を進めている。サブスクリプション形式による提供で家庭でも導入しやすい価格体系を整えたNEOは、ヒューマノイドが日常生活に溶け込む時代の到来を感じさせる存在だ。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
+      <link>https://ledge.ai/articles/bear_encounter_ai_prediction_map_sophia_university</link>
+      <description><![CDATA[<p>全国的にクマによる出没や人身被害が相次ぐ中、上智大学・深澤佑介准教授（応用データサイエンス）の研究チームが、クマとの遭遇リスクをAIで予測し、地図上で可視化する「<a href="https://ds.sophia.ac.jp/news/20251024/post-1065">クマ遭遇AI予測マップ</a>」を一般公開している。対象地域は札幌市、東北、北関東、東京都、北陸、中部、京都府など計19地域に広がり、誰でも無料で閲覧できる。</p>
+<p>同大学・応用データサイエンス学位プログラムは2025年10月24日付で、深澤研究室が開発した「クマ遭遇予測マップ」の公開URLを案内しており、秋田県を対象とした予測モデルを基に実装したことを説明している。研究室サイトでは19地域分のマップが一覧化され、各エリアの遭遇確率を確認できる。</p>
+<h2>AIが1kmメッシュで遭遇リスクを推定</h2>
+<p>予測マップでは、AIがクマ遭遇リスクを1km四方のメッシュ単位で推定し、危険度を「非常に高い」「高い」「やや高い」「可能性あり」「低い」の5段階で色分けして表示する。赤系が高リスク、黄色系が中リスクを示す仕組みだ。</p>
+<p>また、各地域ページには、直近6カ月以内のクマ出没・遭遇地点を示す「X印」が別途表示される。マーカーがない場所は、データ不足などの理由で予測が行われていないエリアであることも明記されている。</p>
+<h2>過去の遭遇記録や地形・人口などを活用</h2>
+<p>予測モデルは、各自治体が公開するクマの出没・遭遇記録をはじめ、森林や農地などの土地利用、道路網、人口分布、標高といった環境要因を組み合わせて学習している。
+学習には決定木ベースの機械学習手法が用いられ、秋田県のデータでは「正答率・適合率・再現率がいずれも6割強」という検証結果も得られている。</p>
+<p>これらの情報を統合し、各メッシュの遭遇確率を推定することで、ユーザーが直感的に危険エリアを把握できるよう設計されている。</p>
+<h2>19地域をカバーし、PC・スマホから無料で閲覧可能</h2>
+<p>マップは研究室サイトで公開されており、PCやスマートフォンから無料で利用できる。アクセスに特別なアプリは必要なく、ブラウザ上で地図を閲覧しながら推定リスクを確認できる。</p>
+<p>対象地域は以下の通り（一部抜粋）
+：札幌市・青森県・盛岡市・秋田県・山形県・宮城県・新潟県・栃木県・群馬県・埼玉県・東京都・山梨県・富山県・石川県・長野県・岐阜県・京都府</p>
+<p>研究室サイトには「最終更新日時」も掲示され、最新の予測状況を確認できる。</p>
+<p>また、深澤研究室は X（旧Twitter）公式アカウント（<a href="https://x.com/fukazawa_lab">@fukazawa_lab</a>） でもマップの更新情報や関連アナウンスを随時発信しており、最新の動向を確認できる。</p>
+<h2>「最新の自治体情報を優先してほしい」──研究チームが注意喚起</h2>
+<p>上智大の案内および研究室サイトでは、予測マップの利用にあたって複数の注意点を明示している。</p>
+<ul>
+<li>マップは「注意喚起」を目的とした予測であり、遭遇を確実に防ぐものではない</li>
+<li>クマの行動は環境によって変動するため、最新の状況は反映しきれない場合がある</li>
+<li>登山・農作業・山菜採りなどを行う際は、「自治体が発信する情報や現地の警報・掲示を必ず確認してほしい」</li>
+</ul>
+<p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
+      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
+      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
+<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
+<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
+<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
+この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
+<h2>SNSで広がった「nice filter」論争</h2>
+<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
+<h2>「当たり障りないフィルター」の正体</h2>
+<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
+<h2>“辛口AI”の効用と注意点</h2>
+<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
+      <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
+      <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
+<p>8カ国・9000人を対象にしたブラインドテストでは、参加者の97％が「完全にAI生成された音楽」と「人間が制作した音楽」を聴き分けることができなかった。一方で多くのユーザーは、この結果に驚きや不安を覚え、AI音楽の明確なラベリングや著作権の公正な扱いを求めていることが明らかになった。</p>
+<h2>8カ国・9000人調査で浮かぶ、AI音楽への“戸惑い”</h2>
+<p>調査は米国、カナダ、ブラジル、英国、フランス、オランダ、ドイツ、日本の8カ国で実施され、18〜65歳の9000人が参加した。参加者は3曲の音源を聴き、どれが完全なAI生成音楽かを判断するよう求められたが、97％が誤答。71％がこの結果に「驚いた」と回答し、52％は「人間とAIの音楽を区別できないことに不快感」を覚えたという。</p>
+<p>AI音楽は一般リスナーにとって、すでに「ほぼ人間と区別がつかない段階」に達していることを示す結果となった。</p>
+<h2>AI音楽への期待と懸念 ― 創造性が失われると感じる人が64％</h2>
+<p>AIに対する一般的な認知は高く、98％が「AIについて聞いたことがある」と回答し、72％は「少なくとも数回はAIを使った経験がある」とした。
+音楽領域でも、</p>
+<ul>
+<li>46％：AIが新しい音楽の発見を助ける</li>
+<li>51％：AIは今後10年で音楽制作に大きな役割を果たす
+といった期待の声がある一方で、</li>
+<li>51％：低品質・画一的な音楽が増える</li>
+<li>64％：AIが音楽制作の創造性を失わせる
+と懸念も強い。</li>
+</ul>
+<p>リスナーはAIへの好奇心と、創作物の質への不安との間で揺れている。</p>
+<h2>「AI音楽は聴くが、区別はしたい」──透明性への強い要望</h2>
+<p>音楽ストリーミングユーザー（n=6791）を対象とした調査では、</p>
+<ul>
+<li>66％：好奇心から100％AI音楽を一度は聴いてみたい</li>
+<li>45％：AI音楽をフィルターで除外したい</li>
+<li>40％：AI音楽と分かればスキップしたい
+と回答。
+興味はある一方で、「AI音楽と人間の音楽を区別したい」という強いニーズが浮き彫りになった。</li>
+</ul>
+<p>透明性に関する項目では、</p>
+<ul>
+<li>80％：100％AI生成音楽は明確にラベル表示すべき</li>
+<li>73％（音楽ストリーミングユーザー）：サービスがAI音楽を推薦しているかどうか知りたい</li>
+<li>52％：AI音楽を人間の楽曲と同じチャートに含めるべきではない
+といった声が寄せられた。</li>
+</ul>
+<p>AI音楽の存在が受容されつつある反面、ユーザーは“知らない間にAI音楽を聴かされる”ことに警戒している。</p>
+<h2>著作権保護への強い危機感 ― 許可なきAI学習は「非倫理的」</h2>
+<p>調査はAIの学習に著作権作品を使うことに対する強い慎重姿勢も示した。</p>
+<ul>
+<li>65％：著作権作品を無断でAI学習に利用すべきではない</li>
+<li>73％：アーティストの許可なく著作権作品を使ってAIが音楽生成するのは非倫理的</li>
+<li>70％：AI音楽は現役・未来のアーティストの生計を脅かす</li>
+<li>69％：AI生成曲への支払いは人間の楽曲より低くすべき
+ユーザーはAI音楽の存在そのものよりも、その背後にある「データの扱い」や「創作者の収益」への影響に敏感だ。</li>
+</ul>
+<h2>Deezerは毎日5万曲のAI音楽を受信──34％がAI</h2>
+<p>Deezerは現在、1日あたり約5万曲の完全AI生成トラックを受け取っており、1日に届く全楽曲の34％を占めているという。同社は2025年初頭からAI検出ツールを運用しており、SunoやUdioなど主要AIモデルで生成された音源を識別できるとのこと。</p>
+<p>また、AI音楽のストリーミングの最大70％が不正再生だったケースも確認しており、該当ストリームはロイヤリティから除外している。</p>
+<h2>AI曲は推薦・プレイリストから除外、チャート混入を回避</h2>
+<p>Deezerは2025年6月、業界で初めて「100％AI生成音楽」をタグ付けしたプラットフォームとなった。
+現在は、</p>
+<ul>
+<li>AI曲をアルゴリズム推薦から自動除外</li>
+<li>編集プレイリストにも掲載しない</li>
+<li>チャート集計でも区別運用を検討</li>
+</ul>
+<p>と、透明性確保とアーティスト保護を重視した対策を進めている。</p>
+<p>DeezerのCEOであるAlexis Lanternier氏は、聴いている音楽がAIなのか人間なのかを知りたいというユーザーの意識を明確に示した。AIがアーティストの活動や著作権を損なうべきではないという点についても広範な支持があると述べた。</p>
+<p>同社は今後、AI検出技術の特許出願など、AI音楽時代における透明性基準の確立を目指しているという。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
+      <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
+      <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
+<h2>会話で完結する“ハンズフリー運転”</h2>
+<p>新機能の一つは、運転中に音声だけで操作できる「会話型ハンズフリー運転体験」だ。ユーザーは「途中でコーヒーショップに寄りたい」など自然な言葉で指示でき、Geminiが最適な経路や立ち寄り先を提案する。走行中でも画面操作を減らし、安全性の高いナビゲーションを実現する狙いがある。</p>
+<p>@<a href="https://youtu.be/WnNZ3QhwE84">YouTube</a></p>
+<h2>「右折はガソリンスタンドの先」──ランドマークで案内</h2>
+<p>従来の「200メートル先を右折」ではなく、「タイ料理店の先を右折」といったランドマーク（目印）を基準にしたターン案内も追加された。ユーザーが視認しやすい建物や店舗を指標にすることで、より直感的に道順を把握できるという。</p>
+<p>@<a href="https://youtu.be/_wJIEgy0uCg">YouTube</a></p>
+<h2>ナビ起動前から渋滞を警告</h2>
+<p>Geminiはまた、ユーザーの通勤や通学など“日常ルート”を学習し、ナビを起動していなくても交通渋滞や事故発生を検知した際に自動で通知を行う。プロアクティブなアラート機能により、出発前のタイミングで回避ルートを確認できるようになった。</p>
+<p>@<a href="https://youtu.be/WJ7E8KTv034">YouTube</a></p>
+<h2>Lens with Geminiで“周囲を質問”</h2>
+<p>さらに、「Lens with Gemini」ではスマートフォンのカメラを向けた建物や店舗を即座に認識。たとえば、カメラを向けて「このレストランは何時まで開いてる？」と尋ねると、営業時間やレビューなどをGeminiが対話形式で返答する。従来の検索型から“会話する地図”への進化がうかがえる。</p>
+<p>@<a href="https://youtu.be/mlhIxJCP9CM">YouTube</a></p>
+<h2>提供開始と対応環境</h2>
+<p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
+      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
+      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
+<h2>AI教育の中核を担う新サイト</h2>
+<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
+<h2>3000超のコースと実践的ラボを集約</h2>
+<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
+<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
+<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
+公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
+同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
+      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
+      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
+<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
+<h2>モデル効率の“時間的スケーリング”</h2>
+<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
+<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
+<p><strong>オープンソースベースの LLM の推定機能密度</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
+<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
+<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
+<h2>ChatGPT以降、成長速度が1.5倍に</h2>
+<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
+<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
+<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
+<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
+またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
+<h2>「Mooreの法則」と掛け合わせた未来</h2>
+<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
+<h2>圧縮は万能ではない</h2>
+<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
+<h2>「密度最適訓練」への転換</h2>
+<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
+同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
+      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
+      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
+<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
+<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
+<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
+10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
+Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
+<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
+<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
+<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
+<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
+<h2>公平性を測る「倫理的ベンチマーク」</h2>
+<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
+さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
+<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
+既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
+さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
+<h2>被写体の権利を保護する設計</h2>
+<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
+参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
+この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
+<h2>責任あるAI研究への布石</h2>
+<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
+公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
+Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
+<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
+また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+]]></description>
+      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、広告向け基盤モデル「GEM」を公開──Instagramコンバージョン5％増の“中央脳”AIを正式解説</title>
       <link>https://ledge.ai/articles/meta_gem_ads_foundation_model_release</link>
       <description><![CDATA[<p>Metaは米国時間2025年11月10日、広告レコメンデーション向けの大規模AIモデル「GEM（Generative Ads Recommendation Model）」の技術詳細を<a href="https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/">発表</a>した。</p>
@@ -628,27 +791,6 @@ vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで
       <pubDate>Thu, 13 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
-      <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
-      <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
-<h2>会話で完結する“ハンズフリー運転”</h2>
-<p>新機能の一つは、運転中に音声だけで操作できる「会話型ハンズフリー運転体験」だ。ユーザーは「途中でコーヒーショップに寄りたい」など自然な言葉で指示でき、Geminiが最適な経路や立ち寄り先を提案する。走行中でも画面操作を減らし、安全性の高いナビゲーションを実現する狙いがある。</p>
-<p>@<a href="https://youtu.be/WnNZ3QhwE84">YouTube</a></p>
-<h2>「右折はガソリンスタンドの先」──ランドマークで案内</h2>
-<p>従来の「200メートル先を右折」ではなく、「タイ料理店の先を右折」といったランドマーク（目印）を基準にしたターン案内も追加された。ユーザーが視認しやすい建物や店舗を指標にすることで、より直感的に道順を把握できるという。</p>
-<p>@<a href="https://youtu.be/_wJIEgy0uCg">YouTube</a></p>
-<h2>ナビ起動前から渋滞を警告</h2>
-<p>Geminiはまた、ユーザーの通勤や通学など“日常ルート”を学習し、ナビを起動していなくても交通渋滞や事故発生を検知した際に自動で通知を行う。プロアクティブなアラート機能により、出発前のタイミングで回避ルートを確認できるようになった。</p>
-<p>@<a href="https://youtu.be/WJ7E8KTv034">YouTube</a></p>
-<h2>Lens with Geminiで“周囲を質問”</h2>
-<p>さらに、「Lens with Gemini」ではスマートフォンのカメラを向けた建物や店舗を即座に認識。たとえば、カメラを向けて「このレストランは何時まで開いてる？」と尋ねると、営業時間やレビューなどをGeminiが対話形式で返答する。従来の検索型から“会話する地図”への進化がうかがえる。</p>
-<p>@<a href="https://youtu.be/mlhIxJCP9CM">YouTube</a></p>
-<h2>提供開始と対応環境</h2>
-<p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
-]]></description>
-      <pubDate>Thu, 13 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>楽天と日本HP、AIエージェント「Rakuten AI」デスクトップ版をHP製PCに初導入──オンデバイスAIでオフライン利用にも対応</title>
       <link>https://ledge.ai/articles/rakuten_hp_rakuten_ai_desktop_collaboration</link>
       <description><![CDATA[<p>楽天グループと日本HPは2025年11月11日、HPが日本国内で販売するほぼすべてのPCに、楽天のAIエージェントツール「Rakuten AI」のデスクトップ版を導入する協業を<a href="https://corp.rakuten.co.jp/news/press/2025/1111_01.html">発表</a>した。</p>
@@ -711,163 +853,6 @@ Moonshotは、K2シリーズを通じて「AIの思考能力を民主化する�
       <pubDate>Wed, 12 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
-      <link>https://ledge.ai/articles/1x_neo_home_robot_subscription_launch</link>
-      <description><![CDATA[<p>米1X Technologiesは2025年10月28日（米国時間）、家庭向けヒューマノイドロボット「NEO」を<a href="https://www.1x.tech/neo">公開</a>し、プレオーダーを開始した。提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。家庭内の掃除や片付けなど、日常的な家事を支援する“お手伝いロボット”として設計されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_6_ce91e1cf1e/x1neo_6_ce91e1cf1e.jpg" alt="x1neo-6.jpg" /></p>
-<p>NEOは、1Xが掲げる「人の生活を支える安全なヒューマノイド」構想に基づき開発された。腱（tendon）駆動による柔らかく静かな動作を特徴とし、人と同じ空間で安全に動作できるよう設計されている。公式サイトでは「単調で時間のかかる家事を肩代わりし、人の時間を取り戻す」とコンセプトを掲げる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_5_7ae0e73c6c/x1neo_5_7ae0e73c6c.jpg" alt="x1neo-5.jpg" /></p>
-<p>ユーザーはスマートフォンアプリや音声を通じてタスクを指示でき、NEOは家庭内の環境を学習しながら動作を最適化する。自己充電機能を備えるほか、遠隔からのモニタリングやサポートも可能。1XはNEOを単なるロボットではなく「温かみと個性をもった家庭のパートナー」と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_4_dd13229413/x1neo_4_dd13229413.jpg" alt="x1neo-4.jpg" /></p>
-<p>主な仕様は、バッテリー駆動時間約4時間（急速充電対応）、静音性は最大22dB。NVIDIA Jetson Thorをベースとした「1X Cortex」コンピューティングシステムを搭載し、360度集音マイクとステレオスピーカーを内蔵する。</p>
-<h2>サブスク形式で家庭導入のハードルを下げる</h2>
-<p>提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。NEOは注文ページからプレオーダー可能で、出荷は2026年を予定している。</p>
-<p>1Xは公式ページ上で、NEOを「consumer-ready」と表現。2024年の試作版「NEO Beta」発表を経て、今回初めて一般消費者に向けたモデルとして公開された。</p>
-<p>@<a href="https://www.youtube.com/watch?v=LTYMWadOW7c">YouTube</a></p>
-<p>1X Technologiesは、家庭や産業向けのヒューマノイドロボットを開発する企業で、OpenAIが出資するスタートアップの一つでもある。これまでノルウェーを拠点としていたが、2025年には米カリフォルニア州サンフランシスコに本社を移転。研究開発と製造体制の両面で国際展開を進めている。サブスクリプション形式による提供で家庭でも導入しやすい価格体系を整えたNEOは、ヒューマノイドが日常生活に溶け込む時代の到来を感じさせる存在だ。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Canva、「Creative OS」を発表──デザインAIとVisual Suiteを統合した次世代ビジュアル作業環境</title>
-      <link>https://ledge.ai/articles/canva_creative_operating_system_release</link>
-      <description><![CDATA[<p>Canvaは2025年10月29日（現地時間）、同社史上最大規模のプロダクト刷新として「Creative Operating System（Creative OS）」を<a href="https://www.canva.com/ja_jp/newsroom/news/creative-operating-system/">発表</a>した。</p>
-<p>この新しいプラットフォームは、再設計されたVisual Suiteと、デザイン理解に特化したAIモデル「Canva Design Model」、さらにブランド運用・配信基盤「Canva Grow」などを統合した“次世代のビジュアル作業環境”として位置づけられている。</p>
-<h2>Visual Suite：制作・共有・公開の一体化</h2>
-<p>新しいVisual Suiteでは、動画、フォーム、データ、メールなど、これまで分離していたクリエイティブ作業を統合。「Video 2.0」では、タイムライン編集、トリミング、レイヤー同期などの操作が直感的になり、AI機能「Magic Video」によりプロ仕様の動画を容易に生成できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DROP_25009_Newsroom_PR_New_Timeline_ja_JP_b35e716c1f/DROP_25009_Newsroom_PR_New_Timeline_ja_JP_b35e716c1f.jpg" alt="DROP25009_NewsroomPR_NewTimeline_ja-JP.jpg" /></p>
-<p>「Canva Forms」はドラッグ＆ドロップでフォームを作成でき、回答結果を「Canva Sheets」に自動集約。「Canva Websites」など他の製品と連携して活用できる。さらに「Canva Code」と「Sheets」を接続することで、データ駆動型のインタラクティブな体験をエディタ内で構築可能となった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DROP_25009_Newsroom_PR_Forms_Still_ja_JP_a2b2ed1c7d/DROP_25009_Newsroom_PR_Forms_Still_ja_JP_a2b2ed1c7d.jpg" alt="DROP25009_NewsroomPR_FormsStill_ja-JP.jpg" /></p>
-<p>加えて「Canva Email Design」では、テンプレートやAI支援によりブランドメールを作成し、デスクトップ・モバイル両方でプレビュー、HTMLエクスポートやテスト送信が行える。</p>
-<h2>デザイン特化AI「Canva Design Model」</h2>
-<p>Canvaは同発表で、世界初の“デザインAIモデル”として「Canva Design Model」を公開した。このモデルは、構造・レイヤー・階層・ブランディング・視覚ロジックといった「デザインの複雑性」を理解し、編集可能な形式のコンテンツを生成できる。
-ChatGPTやClaudeなど外部プラットフォームでも利用でき、GoogleのGemini向けは「coming soon」としている。</p>
-<p>また、「AI Powered Designs」や「AI Powered Elements」では、テンプレート、写真、動画、アイコン、3D要素、カスタムコードなどを生成可能。スタイルを自動的に整える「Style Match」や背景生成「Magic Background」も搭載された。「Ask @Canva」を用いれば、コメント欄で“@Canva”を呼び出すことで、AIが即座にデザイン提案を行う。</p>
-<p>さらに「Canva AI ホーム」では、ガイド付きのプレゼンテーション作成や、企業向けのチーム文脈（Team Context）・外部ストレージ連携などを利用できる。</p>
-<h2>Canva GrowとBrand System：ブランド運用を閉ループ化</h2>
-<p>「Canva Grow」は、コンテンツ制作から配信、分析までを一体化したマーケティング支援機能。ユーザーのWebサイトをスキャンしてブランドトーンを学習し、複数の広告バリエーションを自動生成する。
-Meta広告アカウントと連携すれば、配信データに基づいたリアルタイム分析と最適化提案を行う。
-また、新しい「Brand System」では、ロゴ、テンプレート、カラーパレット、ガイドラインを一元管理し、エディタ上にリアルタイムで反映。
-ブランドキットを接続すると、AIが初期生成段階からブランド整合性の取れたデザインを提示する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DROP_25009_Newsroom_PR_Canva_Grow_Publish_ja_JP_3ec52cb61b/DROP_25009_Newsroom_PR_Canva_Grow_Publish_ja_JP_3ec52cb61b.jpg" alt="DROP25009_NewsroomPR_CanvaGrowPublish_ja-JP.jpg" /></p>
-<h2>「All-new Affinity」も無料化</h2>
-<p>同発表では、写真編集、ベクター描画、ページレイアウトを統合したプロ向けスイート「All-new Affinity」も合わせて紹介された。
-これまで有料だった同ソフトを「すべての人に、永続的に無料で提供する」とし、Canva AI Studioとの連携も実現している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DROP_25009_Newsroom_PR_Brand_Kit_1_ja_JP_c1d6115d80/DROP_25009_Newsroom_PR_Brand_Kit_1_ja_JP_c1d6115d80.jpg" alt="DROP25009_NewsroomPR_BrandKit-1_ja-JP.jpg" /></p>
-<p>Canvaは今回の刷新を、「創造性を誰もが扱える“オペレーティングシステム”として再定義するもの」と説明。
-デザイン・AI・ブランド運用をシームレスにつなぐことで、個人から企業まで幅広いユーザーが一貫したワークフローで制作・配信・分析を行える環境を提供するとしている。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
-      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
-      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
-<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
-<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
-<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
-この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
-<h2>SNSで広がった「nice filter」論争</h2>
-<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
-<h2>「当たり障りないフィルター」の正体</h2>
-<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
-<h2>“辛口AI”の効用と注意点</h2>
-<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub、「Agent HQ」を発表──“あらゆるエージェントを、いつでもどこでも”統合管理</title>
-      <link>https://ledge.ai/articles/github_agent_hq_announcement_universe2025</link>
-      <description><![CDATA[<p>GitHubは2025年10月28日（米国時間）、年次イベント「GitHub Universe 2025」で新ビジョン「Agent HQ」を<a href="https://github.blog/news-insights/company-news/welcome-home-agents/">発表</a>した。これは、複数のAIコーディングエージェントを単一の環境で呼び出し、管理・連携できる統合プラットフォームである。</p>
-<p>公式ブログによると、Agent HQは“あらゆるエージェントを、あらゆる開発スタイルで使える”ことを目指した新構想で、Anthropic、OpenAI、Google、Cognition、xAIなど各社のエージェントを有料のGitHub Copilotサブスクリプションの一部として提供するという。提供開始は今後数カ月を予定。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KniyIrpTDE8&amp;t=5s">Youtube</a></p>
-<h2>複数エージェントを一元管理する「Mission Control」</h2>
-<p>Agent HQの中核機能として「Mission Control」が導入される。開発者が複数のエージェントをタスクごとに割り当て、進行状況を可視化できる中枢機能で、GitHub、Visual Studio Code、CLIなど複数の開発環境で同一の体験を提供する。</p>
-<p>また、組織の管理者は各エージェントのアクセス権限や利用ポリシーを制御できる「コントロールプレーン」を通じて、企業やチーム単位でのガバナンスを強化できる仕組みも備える。</p>
-<h2>サードパーティ連携を前提とした“開かれたHQ”</h2>
-<p>Agent HQは、特定モデルに依存しない「オープンなエージェント基盤」として設計されている。
-GitHubは「開発者は自分の選んだAIエージェントを同じワークフローで活用できる」と述べ、今後数か月で各社のエージェントを順次統合していく予定だ。</p>
-<p>この発表は、GitHubが掲げる“開発者が中心にいる未来”という長期ビジョンの延長線上にあり、同社はCopilotを単なる補助ツールから、複数AIが協働する「開発の司令塔」へと進化させようとしている。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
-      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
-      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
-<h2>AI教育の中核を担う新サイト</h2>
-<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
-<h2>3000超のコースと実践的ラボを集約</h2>
-<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
-<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
-<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
-公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
-同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
-      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
-      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
-<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
-<h2>モデル効率の“時間的スケーリング”</h2>
-<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
-<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
-<p><strong>オープンソースベースの LLM の推定機能密度</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
-<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
-<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
-<h2>ChatGPT以降、成長速度が1.5倍に</h2>
-<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
-<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
-<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
-<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
-またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
-<h2>「Mooreの法則」と掛け合わせた未来</h2>
-<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
-<h2>圧縮は万能ではない</h2>
-<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
-<h2>「密度最適訓練」への転換</h2>
-<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
-同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
       <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
       <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
@@ -921,38 +906,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
 <h2>今後の展開</h2>
 <p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
-]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
-      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
-      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
-<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
-<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
-<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
-10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
-Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
-<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
-<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
-<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
-<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
-<h2>公平性を測る「倫理的ベンチマーク」</h2>
-<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
-さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
-<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
-既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
-さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
-<h2>被写体の権利を保護する設計</h2>
-<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
-参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
-この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
-<h2>責任あるAI研究への布石</h2>
-<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
-公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
-Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
-<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
-また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
 ]]></description>
       <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
     </item>
