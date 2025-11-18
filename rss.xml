@@ -5,6 +5,82 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google DeepMind、「SIMA 2」研究プレビュー公開──Gemini搭載で推論・一般化・自己改善が進化、生成3D世界にも対応</title>
+      <link>https://ledge.ai/articles/google_deepmind_sima_2_research_preview</link>
+      <description><![CDATA[<p>米Google DeepMindは2025年11月13日（現地時間）、次世代汎用AIエージェント「SIMA 2：An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds」の研究プレビューを<a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/">公開</a>した。</p>
+<p>2024年に発表されたSIMA1を基盤に、同社の大規模マルチモーダルモデル「Gemini」を中核へ統合することで、指示に従うだけのエージェントから、推論し、対話し、環境に適応し、自己改善する汎用エージェントへと大きく進化した。</p>
+<p>DeepMindは本モデルを「Artificial General Intelligence（AGI）に向けた重要なステップ」と位置づけ、限定的な研究プレビューとして学術機関やゲーム開発者に先行提供する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Zphax4f6Rls">YouTube</a></p>
+<h2>未学習ゲームでもタスクを遂行：一般化性能が大幅に向上</h2>
+<p>Geminiの統合により、SIMA 2の一般化性能は大きく向上した。公式ブログでは、訓練に使用していないゲーム環境での成功例が報告されている。</p>
+<ul>
+<li>ASKA（Vikingサバイバルゲーム）</li>
+<li>MineDojo（Minecraft研究実装）</li>
+</ul>
+<p>これらの未学習ゲームでも、SIMA 2は長く複雑な指示に基づきタスクを遂行。評価タスクでは、SIMA1との性能差が大きく縮まり、人間プレイヤーに近づく結果が示された。</p>
+<p><strong>MineDojoでのタスク比較：</strong> 訓練していないゲーム環境でも、SIMA 2（右）は抽象的指示を解釈し行動に移しタスク達成。一方、SIMA 1（左）はタスク達成に至らなかった。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/comparison_between_sima1_2_on_minedojo_6bec24bce2/comparison_between_sima1_2_on_minedojo_6bec24bce2.jpg" alt="comparison between sima1-2 on minedojo.jpg" /></p>
+<p>また、以下のようなマルチモーダル指示にも対応する。</p>
+<ul>
+<li>スケッチ（ユーザーの手描き図）</li>
+<li>多言語指示</li>
+<li>絵文字のみの指示→ それぞれを正しく解釈し、行動に移すことが可能。</li>
+</ul>
+<p>さらに、ゲームAで学んだ“mining（採掘）”の概念を、ゲームBでの“harvesting（収穫）”に応用するなど、概念レベルでの転移学習も確認された。</p>
+<h2>完全に新しい“生成された3D世界”でも行動可能：Genie 3との連携</h2>
+<p>SIMA 2は、DeepMindの世界生成モデル「Genie 3」と組み合わせた実験でも高い適応力を示した。</p>
+<p>Genie 3は、1枚の画像やテキストからリアルタイムで3D世界を生成するモデルで、SIMA 2は初めて見る環境にもかかわらず、</p>
+<ul>
+<li>方角を把握</li>
+<li>ゴールに向けた行動</li>
+<li>指示の理解とタスク遂行</li>
+</ul>
+<p>を実現した。</p>
+<p>DeepMindはこの試験を「一般化能力の限界を試すもの」として位置づけ、従来の固定されたゲーム環境では確認できない柔軟性が明らかになったとしている。</p>
+<h2>自己改善ループ：人間データに依存しない継続学習へ</h2>
+<p>SIMA 2の大きな特徴の一つが、新たに導入された自己改善（self-improvement）サイクルだ。</p>
+<p>Geminiが生成するタスクと推定報酬をもとにエージェントが試行を行い、その経験データを蓄積。それらのデータは次世代のSIMA 2の訓練に再利用される。</p>
+<p><strong>SIMA 2 の自己改善サイクル：</strong> Gemini がタスクと推定報酬を生成し、エージェントの行動経験が「Self-Generated Experience」として蓄積され、次世代モデルの学習に再利用される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_2_fa5f0652e0/unnamed_2_fa5f0652e0.webp" alt="unnamed (2).webp" /></p>
+<h3>自己改善サイクルの流れ</h3>
+<ul>
+<li>Geminiがタスクと推定報酬を生成</li>
+<li>SIMA 2が試行（行動）</li>
+<li>経験データを「Self-Generated Experience」として蓄積</li>
+<li>次の世代のSIMA 2を再訓練（スキル向上）</li>
+</ul>
+<p>このループにより、人間のデモなしで未学習ゲームの能力が向上し、Genie 3で生成された新規世界でも“自己のみで上達する”ことが確認された。DeepMindはこれを「オープンエンドな学習へ向けたマイルストーン」としている。</p>
+<h2>現時点の課題</h2>
+<p>SIMA 2は研究段階であり、DeepMindは以下の課題を明示している。</p>
+<ul>
+<li>長時間・多段階の推論タスクは依然困難</li>
+<li>コンテキスト保持（メモリウィンドウ）が短い</li>
+<li>精確なキーボード／マウス操作が難しい</li>
+<li>複雑な3Dシーンの視覚理解はまだ不十分</li>
+</ul>
+<p>これらはロボティクスや実世界の応用に向け、今後解決すべき点として挙げられている。</p>
+<h2>ロボティクス・AGIへの展開</h2>
+<p>DeepMindは、SIMA 2が取得する以下の能力を、物理世界のロボットに必要な基礎スキルと位置づける。</p>
+<ul>
+<li>ナビゲーション</li>
+<li>道具操作</li>
+<li>協働タスクの遂行</li>
+</ul>
+<p>3D仮想世界はロボット学習の“安全かつ多様な練習場”として使えることから、SIMA 2の進化はロボティクス領域にも直結する。</p>
+<h2>責任ある開発と限定公開</h2>
+<p>SIMA 2の自己改善能力は強力であるため、DeepMindは開発初期から同社のResponsible Development &amp; Innovation Teamと連携している。</p>
+<ul>
+<li>公開形態は 「限定研究プレビュー」</li>
+<li>対象：少数の学者・ゲームスタジオ</li>
+<li>目的：フィードバック収集とリスク理解の深化</li>
+</ul>
+<p>SIMA 2の技術レポート（SIMA Technical Report）は近日公開予定とされる。</p>
+<p>:::box
+[関連記事：AIの\\</p>
+]]></description>
+      <pubDate>Tue, 18 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sakana AI、シリーズBで総額200億円の資金調達を発表──MUFGなど国内外投資家が出資、企業価値は約4,000億円に</title>
       <link>https://ledge.ai/articles/sakana_ai_series_b_200oku_fundraising</link>
       <description><![CDATA[<p>東京を拠点とするAI企業のSakana AIは2025年11月17日、シリーズBラウンドで総額約200億円（1億3,500万米ドル）を調達したと公式ブログで<a href="https://sakana.ai/series-b/">発表</a>した。</p>
@@ -651,22 +727,6 @@ AIの使われ方：オンホストでインストールされたAI CLIツール
 GTIGは「AIを悪用した攻撃は今後さらに多様化・自動化する可能性がある」とし、産業界全体での検知・対策共有の重要性を強調している。</p>
 ]]></description>
       <pubDate>Wed, 12 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>note、NAVERから20億円調達し資本業務提携──生成AI・プラットフォーム連携・IP共同開発・戦略投資の4領域で協業開始</title>
-      <link>https://ledge.ai/articles/note_naver_alliance_2025</link>
-      <description><![CDATA[<p>note株式会社は2025年11月5日、韓国のNAVER Corporationから総額20億円の出資を受け、資本業務提携を締結したと<a href="https://www.watch.impress.co.jp/docs/news/2060848.html">発表</a>した。両社はAI時代における創作と流通の新しいエコシステムを共に構築し、クリエイターが世界中のファンとつながりながら持続的に活動できる仕組みを目指す。</p>
-<p>協業の柱は、①生成AI技術領域での連携、②両社プラットフォーム間の連携、③IP・コンテンツの共同開発・展開、④戦略的投資の4分野。初動として、note子会社のTales &amp; Co.とNAVER関連会社のLINEマンガが連携し、新しい作家や作品の発掘・育成を進めるプロジェクトを2026年初旬に始動する。</p>
-<h2>4領域の協業内容</h2>
-<p><strong>① 生成AI技術領域での連携</strong> ：クリエイティブ分野におけるAI活用を共同で推進し、両社が持つAI技術を組み合わせて創作支援やデジタルコンテンツの品質向上を目指す。
-<strong>② 両社プラットフォーム間の連携</strong> ：運営するプラットフォーム間でコンテンツやIPの相互利用、クロス配信、グローバル展開の機会を検討。UGC（ユーザー生成コンテンツ）領域の拡大と、クリエイターとファンの関係を深める仕組みづくりを進める。
-<strong>③ IP・コンテンツの共同開発・展開</strong> ：NAVERが運営する「WEBTOON」などの制作基盤と、noteおよびTales &amp; Co.のネットワークを組み合わせ、世界で通用する新しいIPを創出する。
-<strong>④ 戦略的投資</strong> ：両社のノウハウやネットワークを活かし、事業領域の拡大と国際競争力の強化を目的とした投資機会を共同で模索する。</p>
-<h2>今後の展望</h2>
-<p>日本政府は2025年6月に「エンタメ・クリエイティブ産業戦略」を発表し、2033年までにコンテンツ産業の海外売上高を20兆円規模に拡大する目標を掲げた。一方、韓国では文化関連予算やK-コンテンツ戦略基金などを通じて、制作から海外展開までを支援する体制が整備されている。NAVER傘下の「WEBTOON」は150カ国以上で展開され、作品のドラマ化や映画化も進む。</p>
-<p>noteはこうした環境を踏まえ、NAVERとの提携を通じてAIやテクノロジーを活用したグローバルな創作支援の基盤を強化し、アジア発の創作エコシステムを世界へ広げる考えだ。</p>
-]]></description>
-      <pubDate>Tue, 11 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
