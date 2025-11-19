@@ -5,6 +5,67 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
+      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
+      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
+<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
+<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
+<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
+具体的には以下の例を挙げた。</p>
+<ul>
+<li>LMArena：Elo 1501</li>
+<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
+<li>GPQA Diamond：91.9%</li>
+<li>MathArena Apex：23.4%</li>
+</ul>
+<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
+<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
+<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
+<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
+<ul>
+<li>Humanity’s Last Exam：41.0%</li>
+<li>GPQA Diamond：93.8%</li>
+<li>ARC-AGI-2（コード実行あり）：45.1%</li>
+</ul>
+<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
+<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
+<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
+<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
+<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
+<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
+<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
+<ul>
+<li>Google AI Studio（Gemini API）</li>
+<li>Vertex AI</li>
+<li>Gemini CLI</li>
+<li>Google Antigravity（新エージェント指向IDE）</li>
+<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
+</ul>
+<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
+<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
+<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
+<h2>長期計画のタスクでもトップスコアを記録</h2>
+<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
+<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
+<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
+<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
+<ul>
+<li>迎合的な回答（シコファンシー）の抑制</li>
+<li>プロンプトインジェクション耐性の向上</li>
+<li>サイバー攻撃・悪用に対する防御強化</li>
+</ul>
+<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
+<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
+<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>テレビ北海道、AIが放送運行を常時監視・自動対応する「VMO-AIPlus」発表──月額40万円で提供へ</title>
       <link>https://ledge.ai/articles/tvh_vmo_aiplus_ai_master_auto_monitoring</link>
       <description><![CDATA[<p>テレビ北海道（TVh、札幌市）は2025年11月11日、テレビ放送の運行状況を監視・制御するマスター業務をAIで自動化するシステム「VMO-AIPlus（ブイエムオー・エーアイプラス）」を開発したと<a href="https://www.tv-hokkaido.co.jp/company/pr/pr20251111/">発表</a>した。</p>
