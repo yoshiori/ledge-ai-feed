@@ -909,26 +909,6 @@ vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで
       <pubDate>Thu, 13 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/11/12 [WED]Wikipedia、AI企業に「知の還元」を要請──無断スクレイピングから有料API「Wikimedia Enterprise」へ、持続可能な共創を目指す</title>
-      <link>https://ledge.ai/articles/wikipedia_ai_scraping_stop_enterprise_api</link>
-      <description><![CDATA[<p>「Wikipedia」を運営する非営利団体ウィキメディア財団（Wikimedia Foundation）は、米国時間2025年11月10日、AI企業に対し、AIモデルのトレーニングを目的としたデータ収集（スクレイピング）を停止し、同財団が提供する有料API「Wikimedia Enterprise」を利用するよう求める声明を<a href="https://wikimediafoundation.org/news/2025/11/10/in-the-ai-era-wikipedia-has-never-been-more-valuable/">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_261c218f50/wikimedia_261c218f50.jpg" alt="wikimedia.jpg" /></p>
-<p>声明は「AI時代において、ウィキペディアはこれまでになく価値がある」とし、持続可能な知識共有の観点から帰属（アトリビューション）と財政的支援の必要性を明確に示した。出典の明示やデータ更新の正確性、ライセンス遵守をAPI経由で担保できると説明している。</p>
-<p>財団によれば、生成AIの普及によりAI企業による無断スクレイピングとボットアクセスが増加し、サーバー負荷や読者体験への影響が懸念される。一方で、人間によるページビューは2025年上半期に前年比約8％減となったとし、基盤を支える寄付・ボランティア編集への波及を指摘した。</p>
-<p>財団は、AIは人間が記録・検証した知識（例：Wikipedia）に依存していると改めて説明。生成AIは既存知の要約・統合はできても、Wikipediaのボランティア編集者が日々行う議論・検証・合意形成、アーカイブからの発掘、現場写真の提供といった活動を代替できないとした。Wikipediaは300以上の言語版で、しばしばネイティブ執筆者による多言語コーパスを形成しており、包摂的で文化的背景に配慮したAIモデルの発展にも資する、としている。</p>
-<p>透明性も強調された。Wikipediaでは全員が同一の情報を閲覧でき、パーソナライズ配信や行動追跡による出し分けは行われない。記事には出典が付与され、編集履歴や運用プロセスは公開されている。誰でも方針・ガイドラインに従って加筆できる点が「信頼」の源泉であるとし、対照的に生成AIはハルシネーション（もっともらしい誤情報の提示）を起こし得ると説明した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_enterprise_api_20e0f88941/wikimedia_enterprise_api_20e0f88941.jpg" alt="wikimedia enterprise api.jpg" /></p>
-<p>同財団は、Wikipedia自体も人を支える形でAIを活用していると述べる。ボランティアの時間を奪う荒らし検知など単純作業の効率化を狙い、今年公表した編集者向けAI戦略では、人間の知識創造を補助し置き換えない方針を示した。AIツールの利用指針はコミュニティが策定・施行し、責任ある活用を徹底する。</p>
-<p>総括として財団は、AIはWikipedia抜きでは成立しないとし、AI開発者や再利用者に対し次の2点を要請した。</p>
-<ul>
-<li>アトリビューション（出典表示）：人間の貢献にクレジットを付し、元情報源への導線を明確にする。</li>
-<li>財政的支援：大規模利用はWikimedia Enterpriseを通じて行い、サーバー負荷を抑えつつ非営利ミッションを継続可能にする。</li>
-</ul>
-<p>同財団は、Wikipediaが検証可能性・中立性・透明性の標準でインターネット上の情報を支えているとし、「AIがあふれる世界で、人間の知識の価値はかつてなく高い」と述べた。なお、Wikipediaは2026年1月15日に25周年を迎える予定で、今後も無料で正確な人間の知識を提供し続けるとした。</p>
-]]></description>
-      <pubDate>Wed, 12 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
       <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
       <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
@@ -983,7 +963,27 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <h2>今後の展開</h2>
 <p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
 ]]></description>
-      <pubDate>Mon, 10 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Thu, 13 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/11/12 [WED]Wikipedia、AI企業に「知の還元」を要請──無断スクレイピングから有料API「Wikimedia Enterprise」へ、持続可能な共創を目指す</title>
+      <link>https://ledge.ai/articles/wikipedia_ai_scraping_stop_enterprise_api</link>
+      <description><![CDATA[<p>「Wikipedia」を運営する非営利団体ウィキメディア財団（Wikimedia Foundation）は、米国時間2025年11月10日、AI企業に対し、AIモデルのトレーニングを目的としたデータ収集（スクレイピング）を停止し、同財団が提供する有料API「Wikimedia Enterprise」を利用するよう求める声明を<a href="https://wikimediafoundation.org/news/2025/11/10/in-the-ai-era-wikipedia-has-never-been-more-valuable/">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_261c218f50/wikimedia_261c218f50.jpg" alt="wikimedia.jpg" /></p>
+<p>声明は「AI時代において、ウィキペディアはこれまでになく価値がある」とし、持続可能な知識共有の観点から帰属（アトリビューション）と財政的支援の必要性を明確に示した。出典の明示やデータ更新の正確性、ライセンス遵守をAPI経由で担保できると説明している。</p>
+<p>財団によれば、生成AIの普及によりAI企業による無断スクレイピングとボットアクセスが増加し、サーバー負荷や読者体験への影響が懸念される。一方で、人間によるページビューは2025年上半期に前年比約8％減となったとし、基盤を支える寄付・ボランティア編集への波及を指摘した。</p>
+<p>財団は、AIは人間が記録・検証した知識（例：Wikipedia）に依存していると改めて説明。生成AIは既存知の要約・統合はできても、Wikipediaのボランティア編集者が日々行う議論・検証・合意形成、アーカイブからの発掘、現場写真の提供といった活動を代替できないとした。Wikipediaは300以上の言語版で、しばしばネイティブ執筆者による多言語コーパスを形成しており、包摂的で文化的背景に配慮したAIモデルの発展にも資する、としている。</p>
+<p>透明性も強調された。Wikipediaでは全員が同一の情報を閲覧でき、パーソナライズ配信や行動追跡による出し分けは行われない。記事には出典が付与され、編集履歴や運用プロセスは公開されている。誰でも方針・ガイドラインに従って加筆できる点が「信頼」の源泉であるとし、対照的に生成AIはハルシネーション（もっともらしい誤情報の提示）を起こし得ると説明した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wikimedia_enterprise_api_20e0f88941/wikimedia_enterprise_api_20e0f88941.jpg" alt="wikimedia enterprise api.jpg" /></p>
+<p>同財団は、Wikipedia自体も人を支える形でAIを活用していると述べる。ボランティアの時間を奪う荒らし検知など単純作業の効率化を狙い、今年公表した編集者向けAI戦略では、人間の知識創造を補助し置き換えない方針を示した。AIツールの利用指針はコミュニティが策定・施行し、責任ある活用を徹底する。</p>
+<p>総括として財団は、AIはWikipedia抜きでは成立しないとし、AI開発者や再利用者に対し次の2点を要請した。</p>
+<ul>
+<li>アトリビューション（出典表示）：人間の貢献にクレジットを付し、元情報源への導線を明確にする。</li>
+<li>財政的支援：大規模利用はWikimedia Enterpriseを通じて行い、サーバー負荷を抑えつつ非営利ミッションを継続可能にする。</li>
+</ul>
+<p>同財団は、Wikipediaが検証可能性・中立性・透明性の標準でインターネット上の情報を支えているとし、「AIがあふれる世界で、人間の知識の価値はかつてなく高い」と述べた。なお、Wikipediaは2026年1月15日に25周年を迎える予定で、今後も無料で正確な人間の知識を提供し続けるとした。</p>
+]]></description>
+      <pubDate>Wed, 12 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
