@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>PKSHA、AIでプロ人材を即時提案──サーキュレーションと企業向けマッチングプロダクト「PRONAVI now」運用開始</title>
+      <link>https://ledge.ai/articles/pksha_pronavi_now_start</link>
+      <description><![CDATA[<p>PKSHA Technology（パークシャテクノロジー）とグループ会社のサーキュレーションは2025年11月14日、企業向けのプロ人材マッチングを支援するAIプロダクト「PRONAVI now（プロナビ ナウ）」の運用を開始したと<a href="https://www.pkshatech.com/news/20251114/">発表</a>した。</p>
+<p>サーキュレーションが蓄積してきた22,000件以上の案件データとプロ人材の経歴情報を、PKSHAのAIアルゴリズムで解析し、マッチングの精度とスピード向上を図る。</p>
+<h2>商談中に最適人材を即時提案</h2>
+<p>従来の人材マッチングは、担当コンサルタントの経験値に依存し、企業との初回打ち合わせ後に候補者を検討・提示するケースが一般的だった。「PRONAVI now」では、サーキュレーションが保有する体系的なプロ人材データと案件データをAIが解析し、その場でマッチ度や候補人材を即時表示。企業側は、必要なスキル・経験を持つ人材像をその場で確認でき、意思決定までのリードタイム短縮が期待される。</p>
+<p>PKSHAは、採用・配置・スキル可視化などを支援する「PKSHA AI Suite for HR」で得たマッチングノウハウを活用。プロシェアリング領域のデータを扱うサーキュレーションと連携することで、企業の課題解決に必要な人材要件を高精度に抽出する仕組みを整えた。</p>
+<h2>プロシェアリング需要の拡大</h2>
+<p>両社は2024年6月に資本業務提携を締結し、2025年8月にサーキュレーションがPKSHAグループへ正式参画していた。サーキュレーションは31,000名以上のプロ人材と22,000件超のプロジェクトデータを有しており、こうしたアセットにPKSHAのAI技術を組み合わせるかたちで「PRONAVI now」を共同開発した。</p>
+<p>労働人口の減少や働き方の多様化が進むなか、特定領域に深い知見を持つプロ人材が複数企業で経験を生かす「プロシェアリング」は裾野を広げている。一方、ニーズの高度化とスピード感の高まりにより、的確なマッチングの難易度は増していた。</p>
+<p>PKSHAとサーキュレーションは、こうした環境変化に対応するかたちで「PRONAVI now」を共同開発。企業の課題とプロ人材のスキルの最適化を図るマッチングプロセスを、AIによって進化させる狙いがある。</p>
+<h2>新しいプロ人材像「AI Powered Worker」</h2>
+<p>両社は今回の取り組みにあわせて、AI活用を前提とした新しいプロフェッショナル像「AI Powered Worker」という方向性も示した。AIによるナレッジ提供や課題整理の支援を受けることで、プロ人材がこれまで以上に高い成果を発揮できる状態を目指すモデルだ。今後は、プロ人材のAIリスキリング支援や、AIを活用したプロジェクト提案の高度化にも取り組むとしている。</p>
+<h2>今後の展望</h2>
+<p>「PRONAVI now」は、マッチング精度向上や機能追加を継続的に行う方針だ。企業側のニーズ変化に合わせたデータ構造の改善や、プロ人材側のスキルアップ支援を強化し、マッチングの質とスピードの両立を図る。</p>
+<p>PKSHAは「未来のソフトウエアを形にする」、サーキュレーションは「世界中の経験・知見が循環する社会の創造」を掲げており、今回のプロダクトは両社のビジョンを結ぶものとなる。AI Powered Workerと企業が出会うためのプラットフォームとして、企業の高度な課題解決と、プロ人材の活躍機会の拡大の両面から、さらなる機能発展を進める見通しだ。</p>
+]]></description>
+      <pubDate>Tue, 18 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google DeepMind、「SIMA 2」研究プレビュー公開──Gemini搭載で推論・一般化・自己改善が進化、生成3D世界にも対応</title>
       <link>https://ledge.ai/articles/google_deepmind_sima_2_research_preview</link>
       <description><![CDATA[<p>米Google DeepMindは2025年11月13日（現地時間）、次世代汎用AIエージェント「SIMA 2：An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds」の研究プレビューを<a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/">公開</a>した。</p>
@@ -826,31 +846,6 @@ vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで
 <p>同財団は、Wikipediaが検証可能性・中立性・透明性の標準でインターネット上の情報を支えているとし、「AIがあふれる世界で、人間の知識の価値はかつてなく高い」と述べた。なお、Wikipediaは2026年1月15日に25周年を迎える予定で、今後も無料で正確な人間の知識を提供し続けるとした。</p>
 ]]></description>
       <pubDate>Wed, 12 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国Moonshot、1兆パラメータ級『Kimi K2 Thinking』を公開──7月発表のKimi K2を基盤に推論性能とツール連携を強化したオープンソースAI</title>
-      <link>https://ledge.ai/articles/kimi_k2_thinking_open_source_release_2025</link>
-      <description><![CDATA[<p>北京を拠点とするAI企業・Moonshotは2025年11月6日（米国時間）、大規模言語モデル「Kimi K2」を基盤とした推論特化モデル「Kimi K2 Thinking」を<a href="https://moonshotai.github.io/Kimi-K2/">発表</a>した。
-Kimi K2シリーズはオープンウェイトで提供され、最新のInstruct版「Kimi K2-Instruct-0905」はHugging Faceで配布されている。</p>
-<h2>Kimi K2を基盤とした“思考” 指向モデル</h2>
-<p>Kimi K2 Thinkingは7月公開の「Kimi K2」をベースに開発されたという。アーキテクチャは共通で、総パラメータ数は約1.04兆、発火時32BのMoE構成を持つ。学習には15.5兆トークンを使用し、安定学習を実現するために「MuonClip（QK-Clip）」と呼ばれる独自最適化手法を導入。これにより長期的なトークン依存関係を維持しながら、ロススパイクを抑制している。</p>
-<p>思考やマルチステップ推論、ツール呼び出しを重視した訓練データと報酬学習を実施しており、Moonshotは本モデルを「エージェント時代のための思考型LLM」と位置づけている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kimiai_k2thinking_127403b675/kimiai_k2thinking_127403b675.jpg" alt="kimiai k2thinking.jpg" /></p>
-<h2>256Kトークンの文脈ウィンドウを実装</h2>
-<p>最新版の「Kimi K2-Instruct-0905」では、文脈長を256Kトークンに拡張。従来版（128K）から倍増し、長大な文書解析や複雑な会話シナリオへの対応を可能にした。APIはOpenAIやAnthropicの形式に準拠しており、vLLMやSGLangなど主要推論エンジンにも対応する。
-これにより、既存のアプリケーション環境に容易に統合できる点も特徴だ。</p>
-<h2>推論・ツール使用で高評価</h2>
-<p>公式の技術レポートによると、Kimi K2 Thinkingは複数の思考タスクベンチマーク（Tau2、SWE-Benchなど）で高いスコアを記録。特に「non-thinking」設定（思考ステップ制限）と「thinking」設定（自由推論）を分けて評価する手法を採用し、モデル性能の透明性を強調している。これにより、ユーザーが実環境での出力挙動を予測しやすくしている。</p>
-<h2>Modified MITライセンスでオープン提供</h2>
-<p>Moonshotは、Kimi K2シリーズを「Modified MIT License」でオープンソースとして公開している。Hugging Face上でモデルウェイトが一般公開されており、研究・商用利用の両方が可能だ。</p>
-<p>最新モデル「Kimi K2-Instruct-0905」は以下で提供されている。<a href="https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905">https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905</a>
-技術仕様やアーキテクチャの詳細は、公式サイト「<a href="https://moonshotai.github.io/Kimi-K2/">Kimi K2</a>」および公開PDF「Kimi K2 Technical Report」で確認できる。</p>
-<h2>中国発オープンモデルの新潮流</h2>
-<p>Kimi K2 Thinkingは、中国企業によるオープンソースLLMとして国際的にも注目を集めている。
-1兆パラメータ級の思考モデルをライセンス制限なく公開する動きは、AI開発の透明性と研究競争力の双方を高める試みといえる。
-Moonshotは、K2シリーズを通じて「AIの思考能力を民主化する」と掲げ、今後もグローバルな開発者との協働を拡大していくとしている。</p>
-]]></description>
-      <pubDate>Wed, 12 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
