@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、非専門のエンジニアがAIの支援でロボット開発の障壁を下げられるかを実験──Claude活用によりタスク数・速度で優位に</title>
+      <link>https://ledge.ai/articles/anthropic_project_fetch_robot_dog_ai_comparison</link>
+      <description><![CDATA[<p>Anthropicは、自社製AIモデル「Claude」を使う場合と使わない場合で、ロボット犬の開発効率にどのような差が生じるのかを検証する実験「Project Fetch（プロジェクト・フェッチ）」を<a href="https://www.anthropic.com/research/project-fetch-robot-dog">公開</a>した。四足歩行ロボットを用い、非ロボット専門のエンジニアがボール取得タスクに挑む形式で、AI支援の有無による開発速度・タスク達成率・作業体験の違いを測定した。</p>
+<h2>AIありチームはタスク数が多く、作業時間はおよそ半分に</h2>
+<p>今回の実験にはAnthropicのエンジニアや研究者8名が参加し、4名ずつの2チームに分かれてロボット犬の制御ソフト開発に取り組んだ。一方のチームは「Claude」を自由に利用でき、もう一方はClaudeを使わずに進行した。双方ともロボットのドキュメントや一般的なオンライン情報にはアクセス可能で、唯一の違いは「Claudeの利用可否」とされた。</p>
+<p>課題は「ロボット犬にビーチボールを取ってこさせる」もので、ロボットの基本操作、PC接続とセンサー取得、そして自律的なボール検知・回収といった段階的タスクで構成される。</p>
+<p>Anthropicによると、Claudeを活用したチームは、完了したタスクの数が多かったうえ、多くのタスクで同一タスクの完了速度がClaudeなしチームのおよそ半分になったという。</p>
+<p><strong>図：各フェーズ・タスクにおける所要時間の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0801f4a4aa2931c87e5e7ddaef90f5d4653f5ba6_4584x2580_ce0e9d96b5/0801f4a4aa2931c87e5e7ddaef90f5d4653f5ba6_4584x2580_ce0e9d96b5.jpg" alt="0801f4a4aa2931c87e5e7ddaef90f5d4653f5ba6-4584x2580.jpg" /></p>
+<p>特に、ロボットをPCへ接続する手順や、センサー情報の取得方法を見極める工程で差が大きく、Claudeを使うことで誤情報に惑わされにくく、最適な手順を素早く選択できたとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NGOAUJtdk-4">YouTube</a></p>
+<h2>ドキュメント読解・環境構築で差異、開発体験にも違い</h2>
+<p>実験では、チームの発話や作業ログも分析された。Claudeなしチームでは、設定や接続方法の手探りによる混乱、行き詰まりを示す発言が多く見られたという。一方、Claudeを使用したチームでは、APIの読み解きやコードの改善点をAIに逐次確認しながら作業を進められたため、開発の見通しが立てやすかったと報告されている。</p>
+<p>コード生成量に関しては、Claudeチームが大きく上回った。試行パターンが増える一方で、無駄なアプローチも含まれていたものの、短時間で有効な手法を探索できたという。</p>
+<h2>実験は限定的規模、物理世界のタスクでのAI活用を探る初期段階</h2>
+<p>Anthropicは今回の実験について、「非専門のエンジニアがAIの支援を受けることで、ロボット開発の障壁を下げられる可能性を示す初期的な検証」と位置づけている。参加人数・タスク内容は限定的であり、より大規模な開発への一般化には慎重姿勢を示している。</p>
+<p>同社は今後、ロボット制御やハードウェア操作におけるAIの役割、また物理世界に接続されたシステムの安全性確保に関する研究を継続する方針だとしている。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>PKSHA、AIでプロ人材を即時提案──サーキュレーションと企業向けマッチングプロダクト「PRONAVI now」運用開始</title>
       <link>https://ledge.ai/articles/pksha_pronavi_now_start</link>
       <description><![CDATA[<p>PKSHA Technology（パークシャテクノロジー）とグループ会社のサーキュレーションは2025年11月14日、企業向けのプロ人材マッチングを支援するAIプロダクト「PRONAVI now（プロナビ ナウ）」の運用を開始したと<a href="https://www.pkshatech.com/news/20251114/">発表</a>した。</p>
