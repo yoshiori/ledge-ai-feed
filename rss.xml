@@ -5,6 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon創業者のジェフ・ベゾス氏、AI企業「プロジェクト・プロメテウス」の共同CEOに就任── “実世界AI” に本格参入</title>
+      <link>https://ledge.ai/articles/jeff_bezos_project_prometheus_co_ceo_appointment</link>
+      <description><![CDATA[<p>Amazon創業者のジェフ・ベゾス氏が、AIスタートアップ「Project Prometheus（プロジェクト・プロメテウス）」の共同最高経営責任者（CEO）に就任した。2025年11月17日に<a href="https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html">ニューヨークタイムズ</a>
+など複数の海外メディアが報じたもので、2021年のAmazon CEO退任以来、同氏が企業運営の最前線に復帰するのは初めてとなる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bezos_creates_ai_startup_ba276b805d/bezos_creates_ai_startup_ba276b805d.jpg" alt="bezos creates ai startup.jpg" /></p>
+<h2>製造・ロボティクス・航空宇宙…“物理経済”を理解するAIを開発</h2>
+<p>報道によると、Prometheusはこれまでに62億ドル（約6,200億円）規模を調達したAI企業で、生成AIとは異なる領域—工場、ロボット、自動車、航空宇宙など、“物理世界の複雑なシステムを理解し操作できるAI”の開発を目標としている。</p>
+<p>同社が取り組む領域は「physical economy（物理経済）」と呼ばれ、ソフトウェア領域にとどまらず、機械・装置・製造現場の挙動を扱う。そのため、今後の産業インフラや高度製造分野で存在感を高める可能性があるとみられている。</p>
+<h2>共同CEOは元Google X幹部のVik Bajaj氏</h2>
+<p>Prometheusは共同CEO制を採用しており、ベゾス氏とともに経営を担うのは、Google X やVerilyで幹部を務めたVik Bajaj（ヴィク・バジャージ）氏。Bajaj氏は工学・バイオ・ロボティクス領域の研究と事業化に長く携わり、ディープテック企業の経営にも実績を持つという。</p>
+<h2>ベゾス氏の「経営トップ」復帰は4年ぶり</h2>
+<p>ベゾス氏はAmazon CEO退任後、宇宙開発企業Blue Originの運営や複数企業のオーナー業を継続してきたが、実務責任を伴うトップ職に戻るのは約4年ぶり。AI産業の拡大とともに、製造AI・工学AI分野の競争が激化するなかでの復帰として注目が集まっている。</p>
+]]></description>
+      <pubDate>Thu, 20 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>xAI、「Grok 4.1」公開──創造性・感情理解・安全性を強化した新フラッグシップモデル</title>
       <link>https://ledge.ai/articles/grok_4_1_release_xai_nov18</link>
       <description><![CDATA[<p>イーロン・マスク氏率いるAI企業 xAI は2025年11月18日（日本時間）、最新AIモデル「Grok 4.1」の提供を<a href="https://x.ai/news/grok-4-1">発表</a>した。発表によると、Grok 4.1はgrok.com、X、iOS／Androidアプリで利用可能になり、Autoモードで順次展開されるほか、モデルピッカーから明示的に選択できるようになった。同社は今回のアップデートについて、創造性や感情理解、協調性など「実世界での使いやすさ」の向上を重視したと説明している。</p>
@@ -915,21 +931,6 @@ Sony AIは今後、モデル評価ツールやベンチマークスコアの公�
 <p>GEMはすでに広告コンバージョンにおいて実績を上げており、Metaは、同社全体の広告システムを支える基盤として今後も中心的な役割を担うと見込んでいる。</p>
 ]]></description>
       <pubDate>Fri, 14 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>菱洋エレクトロ、パーソナルAIコンピューター「NVIDIA DGX Spark」の出荷開始──デスクトップで2000億パラメータ級LLM推論を実現</title>
-      <link>https://ledge.ai/articles/ryoyo_nvidia_dgx_spark_shipping_start</link>
-      <description><![CDATA[<p>エレクトロニクス商社の菱洋エレクトロ株式会社は2025年11月11日、NVIDIAのパーソナルAIコンピューター「NVIDIA DGX Spark」の出荷を開始したことを<a href="https://www.ryoyo.co.jp/info/news/34499/">発表</a>した。同社は7月1日に取り扱い開始を発表しており、今回のリリースにより、日本国内での出荷が具体的にスタートしたかたちとなる。</p>
-<p>NVIDIA DGX Sparkは、デスクに設置可能なコンパクト筐体に、NVIDIA GB10 Grace Blackwell Superchipと128GBの統合メモリを搭載するAIコンピューター。最大2,000億パラメータ規模の大規模言語モデル（LLM）の推論や、プロトタイプ開発・評価をローカル環境で実行できる点が特徴となっている。</p>
-<p>CES 2025の基調講演で、BlackwellアーキテクチャとAIデスクトップ構想を紹介する創業者兼CEOのジェンスン・フアン氏
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_ces2025_digitsproject4_2ef18ffd02/nvidia_ces2025_digitsproject4_2ef18ffd02.jpg" alt="nvidia ces2025 digitsproject4.jpg" /></p>
-<p>Grace BlackwellアーキテクチャによるFP4精度で最大1,000 AI TOPSの性能を備え、2台接続時には4,050億パラメータ規模のモデルにも対応可能。NVIDIA Base OSやNVIDIA AIソフトウェアスタック、JupyterやPyTorchなどの主要ツールがあらかじめ導入されており、開発者はデスクトップ環境からすぐにモデルの実験・検証を始められる構成となっている。</p>
-<p>菱洋エレクトロによると、すでに大学や企業の研究機関から多数の注文が寄せられており、先端的な研究機関に加えて、国内企業のAIプロジェクトに関わる部門への提案も積極的に進めているという。自社データを活用し、オンプレミス環境でLLM（大規模言語モデル）開発を行いたいと考える企業から高い関心が寄せられていると説明している。</p>
-<p>また、NVIDIAの説明では、DGX Sparkで構築したデータやモデルを、NVIDIA AI EnterpriseやNVIDIA DGX Cloudを含むクラウドやデータセンターのAIインフラへシームレスに展開できるとしており、デスクトップでの開発から本番環境へのスケールアップも容易だとされている。</p>
-<p>同社はNVIDIA一次代理店として自社在庫による迅速な納品体制を整えており、製品ページでは「NVIDIA DGX Sparkは、菱洋エレクトロが最終エンドユーザーへ直接販売可能な製品」であり、「個人購入も可能」と案内している。現在は多くの注文を受けており、順次出荷対応を行っているため、出荷までに時間を要する場合がある点にも言及している。</p>
-<p>菱洋エレクトロは、半導体・デバイスとICTソリューションを軸に、AIやIoTなど次世代技術の実装を支援する事業を展開しており、パーソナルAIコンピューターの取り扱い拡大も、その一環として位置づけている。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
