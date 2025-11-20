@@ -108,63 +108,59 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
-      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
-      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
-<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
-<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
-<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
-具体的には以下の例を挙げた。</p>
+      <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
+      <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
+<h2>GPT-5.1とは──GPT-5世代の会話性アップデート</h2>
+<p>GPT-5.1は、GPT-5を基盤としつつ、回答の自然さやインタラクションのしやすさを強化した改良モデルである。OpenAIは今回の更新を「GPT-5の進化版」と説明しており、名前に「5.1」を付与した理由として、「同一世代内の意味のあるアップデート」であることを示す意図を挙げている。</p>
+<p>ChatGPTでは、ユーザーの入力の難度に応じて最適なモデルを自動選択する「Auto」ルーティングが継続され、Instant／Thinkingが適宜切り替わる仕組みとなる。</p>
+<h2>GPT-5.1 Instant──より会話的で、指示に忠実な標準モデル</h2>
+<p>GPT-5.1 Instantは、従来のGPT-5 Instantの役割を引き継ぐ標準モデルで、回答スタイルがより自然で“暖かい（warmer）”会話に調整された。プロンプトに対する遵守性も改善され、「6語で答えてほしい」といった制約付き指示への一貫性が向上したとしている。</p>
+<p>また、必要に応じて内部の思考時間をわずかに伸ばす「軽い自動推論（adaptive reasoning）」を採用。AIMEなどの数学ベンチマークやコード解析系タスクにおける性能が向上した例が示されている。</p>
+<p><strong>GPT-5 Instant → GPT-5.1 Instant の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348590_4bf99b57e6/1762974348590_4bf99b57e6.jpg" alt="1762974348590.jpg" /></p>
+<h2>GPT-5.1 Thinking──思考時間の自動最適化で推論性能を強化</h2>
+<p>GPT-5.1 Thinkingは、推論特化モデル「GPT-5 Thinking」を改良したバージョンで、タスクの難度に応じて思考時間をより細かく最適化するようにアップデートされた。OpenAIは「最も短い思考タスクでは約2倍速く、最も難しいタスクでは約2倍長く考える」と説明しており、簡単な質問への応答速度と、難しい問題への粘り強さを両立させたとしている。</p>
+<p>説明スタイルは平易な英語に統一され、技術・専門用語の使用を抑えたことにより、ビジネス文書や技術解説でも読みやすさが向上している。</p>
+<p><strong>GPT-5 Thinking → GPT-5.1 Thinking の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348726_437b92d9f8/1762974348726_437b92d9f8.jpg" alt="1762974348726.jpg" /></p>
+<h2>トーン・スタイルのプリセット強化──6種類のパーソナリティ設定</h2>
+<p>GPT-5.1の導入とあわせて、ChatGPTのトーン設定機能も拡張された。
+既存のDefault、Friendly（旧Listener）、Efficient（旧Robot）に加え、新たに次の3スタイルが追加された。</p>
 <ul>
-<li>LMArena：Elo 1501</li>
-<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
-<li>GPQA Diamond：91.9%</li>
-<li>MathArena Apex：23.4%</li>
+<li>Professional</li>
+<li>Candid</li>
+<li>Quirky
+さらに、Nerdy（旧Nerd）、Cynical（旧Cynic）も従来どおり利用可能で、合計6スタイルが選べるようになった。
+また、一部ユーザー向けには、文章の簡潔さ、温かさ、見出しや箇条書きの量、絵文字頻度などをスライダーで微調整する実験的機能も提供される。これらの設定変更は進行中のスレッドにも即時反映される仕様に改められた。</li>
 </ul>
-<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
-<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
-<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
-<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974349937_f37e9be75b/1762974349937_f37e9be75b.jpg" alt="1762974349937.jpg" /></p>
+<h2>ChatGPTからAPIへ順次展開</h2>
+<p>GPT-5.1 Instant／Thinkingは、11月12日から有料プラン利用者に順次提供を開始。今後、無料ユーザーやログアウト状態の利用者にも展開される予定だ。
+Enterprise／Educationプランでは7日間の早期アクセス期間が設けられ、期間後はGPT-5.1が標準モデルとして切り替わる。</p>
+<p>APIでは、以下の名称で提供される予定と案内されている。</p>
 <ul>
-<li>Humanity’s Last Exam：41.0%</li>
-<li>GPQA Diamond：93.8%</li>
-<li>ARC-AGI-2（コード実行あり）：45.1%</li>
+<li><strong>GPT-5.1 Instant</strong> ：gpt-5.1-chat-latest</li>
+<li><strong>GPT-5.1 Thinking</strong> ：gpt-5.1</li>
 </ul>
-<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
-<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
-<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
-<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
-<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
-<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
-<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
+<p>APIの提供開始は「今週後半」としている。</p>
+<p>従来のGPT-5（Instant／Thinking）は、少なくとも3カ月間は有料ユーザー向けのレガシーモデルとして継続提供される。</p>
+<h2>安全性・システムカード追補──メンタルヘルス領域の評価を拡充</h2>
+<p>同日公開された「GPT-5.1 System Card Addendum」では、安全性評価、メンタルヘルス領域、感情依存（emotional reliance）の指標などが更新された。
+OpenAIは、実運用で発生する難度の高いケースを集約した「Production Benchmarks」を導入し、以下のカテゴリで“not unsafe”スコアを比較している。</p>
 <ul>
-<li>Google AI Studio（Gemini API）</li>
-<li>Vertex AI</li>
-<li>Gemini CLI</li>
-<li>Google Antigravity（新エージェント指向IDE）</li>
-<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
+<li>個人情報</li>
+<li>ハラスメント</li>
+<li>憎悪表現・暴力</li>
+<li>自傷行為（意図・手段）</li>
+<li>性的コンテンツ（未成年含む）</li>
+<li>メンタルヘルス</li>
+<li>Emotional reliance など</li>
 </ul>
-<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
-<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
-<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
-<h2>長期計画のタスクでもトップスコアを記録</h2>
-<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
-<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
-<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
-<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
-<ul>
-<li>迎合的な回答（シコファンシー）の抑制</li>
-<li>プロンプトインジェクション耐性の向上</li>
-<li>サイバー攻撃・悪用に対する防御強化</li>
-</ul>
-<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
-<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
-<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
+<p>GPT-5.1は多くの領域でGPT-5と同等、または改善がみられる一方、一部ではわずかな悪化も記録しており、改善を継続すると記載されている。</p>
+<p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
+<h2>今後の展開</h2>
+<p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -439,79 +435,6 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
 <p>arXivのコンテンツポリシーでは、主な受理対象は\</p>
 ]]></description>
       <pubDate>Sun, 16 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/15 [SAT]AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
-      <link>https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release</link>
-      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2025年11月12日（現地時間）テキストや画像、動画、3Dレイアウトなど多様な入力から“永続的な3D世界”を生成できるマルチモーダル世界モデル 「Marble」 を<a href="https://www.worldlabs.ai/blog/marble-world-model">一般公開</a>した。</p>
-<p>創業者には、スタンフォード人工知能研究所（SAIL）の元所長であり、コンピューターサイエンスの世界的権威である Fei-Fei Li氏 が名を連ねる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/feifeili_e32159ea96/feifeili_e32159ea96.jpg" alt="feifeili.jpg" /></p>
-<h2>Marbleの概要──マルチモーダル入力から3D世界を生成</h2>
-<p>Marbleは、文章・画像・映像・簡易3Dレイアウトなどを手がかりに、整合性のある3D空間を構築する世界モデルだ。生成された3D世界はそのまま利用するだけでなく、ユーザーが自然言語で編集したり、別のワールドとつなぎ合わせたり、周囲へ拡張したりといった操作が可能。生成物は 画像・動画・Gaussian Splat・メッシュ といった形式でエクスポートでき、ゲームエンジンや3D制作ソフトとの連携も想定する。</p>
-<p><strong>Marbleのワークフロー。文章・画像・動画・3Dシーンを入力し、生成した3Dワールドを編集・拡張し、画像・動画・Gaussian Splat・メッシュとして出力できる</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Marble_World_Model_b07e2af0e7/The_Marble_World_Model_b07e2af0e7.jpg" alt="The Marble World Model.jpg" /></p>
-<h2>空間知能を中核に据えた世界モデル</h2>
-<p>World LabsはMarbleの位置づけについて「世界を再構築し、生成し、シミュレーションし、AIエージェントの理解の基盤となる“次世代ワールドモデル”」と説明する。人間が視覚・言語・空間認知を統合して“内的な世界モデル”を形成するように、AIにも複雑な空間情報を理解し推論する能力が必要になるという考え方だ。Li氏は過去の論考でも、次のAIの主要テーマを「空間知能」としており、Marbleはその研究思想を具現化した製品と位置づけられる。</p>
-<h2>多様な入力に対応──文章・画像・動画・3Dレイアウト</h2>
-<p>Marbleは、異なる形式の入力から一貫した3D世界を構築する。</p>
-<h3>テキスト</h3>
-<p>文章から空間構造・雰囲気・光源などを推定して3D空間を生成
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_text_prompt_efea484c81/marble_generated_world_by_text_prompt_efea484c81.jpg" alt="marble generated world by text prompt.jpg" /></p>
-<h3>単一画像</h3>
-<p>1枚の画像を手がかりに、写っていない部分まで補完して空間を3D化
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_image_prompt_d34bf3fde7/marble_generated_world_by_image_prompt_d34bf3fde7.jpg" alt="marble generated world by image prompt.jpg" /></p>
-<h3>複数画像・動画</h3>
-<p>複数視点の写真や短い動画から、途切れのない単一の3D環境を再構築
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_multi_image_prompt_e12c253b23/marble_generated_world_by_multi_image_prompt_e12c253b23.jpg" alt="marble generated world by multi-image prompt.jpg" /></p>
-<h3>3Dレイアウト</h3>
-<p>ユーザーが配置したボックスや平面を“構造”として扱い、テキストで見た目だけを変える「構造とスタイルの分離」を実現。
-同じレイアウトをもとに複数のバリエーションの世界を生成できる。</p>
-<h2>編集・拡張・合成──AIネイティブの制作ワークフロー</h2>
-<p>生成後の操作性も特徴だ。</p>
-<h3>局所編集</h3>
-<p>特定オブジェクトの削除・調整といった部分的な修正をAIが補完する</p>
-<p><strong>プロンプト：カメをトラに、緑の草をフライドポテトに変更</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c.jpg" alt="Turn the turtles into tigers and turn the tall green plant into french fries.jpg" /></p>
-<h3>全体編集</h3>
-<p>空間全体のスタイル変更、テーマ統一、質感の変更などを自然言語で指定可能</p>
-<p><strong>プロンプト：床材をヘリンボーン柄のダークマホガニーに交換</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107.jpg" alt="Replace the flooring with dark mahogany in a herringbone pattern.jpg" /></p>
-<h3>拡張（Extend）</h3>
-<p>ワールドを外側へ拡大し、不足部分を整合性を保って自動生成</p>
-<p><strong>初期世界では造られていなかったところまで自動生成している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49.jpg" alt="Marble can expand scenes to create larger traversable areas.jpg" /></p>
-<h3>合成（Composer）</h3>
-<p>複数の3D世界をつなぎ合わせ、より大規模な環境を構築できる。列車の内部や長い回廊など、単一生成では難しいシーン構築を可能にする
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_large_train_composed_with_Marble1_1885f64d75/A_large_train_composed_with_Marble1_1885f64d75.jpg" alt="A large train composed with Marble1.jpg" /></p>
-<h2>Chisel──“構造とスタイルの分離”を可能にする編集モード</h2>
-<p>上級者向けには、新たに「Chisel」モードを提供する。これは、ボックスなどの簡易形状で空間の骨格を作り、テキストで質感や雰囲気を与える制作手法だ。</p>
-<ul>
-<li>レイアウトはユーザーが設計</li>
-<li>見た目はAIが生成</li>
-<li>同じ骨格から複数スタイルの3D世界を派生</li>
-</ul>
-<p>従来の3D制作で分かれていた工程を統合し、試行錯誤の効率を高める仕組みとなっている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582.jpg" alt="A beautiful modern art museum with wooden floor.jpg" /></p>
-<h2>エクスポート──Gaussian Splat・メッシュ・動画に対応</h2>
-<p>生成された3D世界は、以下の形式で取り出せる。</p>
-<h3>Gaussian Splat</h3>
-<p>Marbleが最も高い忠実度で再現する形式。World Labs製のWebレンダラ「Spark」と組み合わせることで、ブラウザ・VRなどで表示できる。</p>
-<h3>三角メッシュ</h3>
-<p>低精度のコライダー用メッシュから、高品質なメッシュまで複数の出力形態を用意。既存のゲームエンジン・3Dツールへの統合を容易にする。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0.jpg" alt="Marble can export generated worlds as Gaussian splats or triangle meshes.jpg" /></p>
-<h3>動画</h3>
-<p>カメラ軌道を細かく設定したレンダリングが可能。炎・煙・光源といった動的要素を追加しながら、カメラ制御情報を保持できる。</p>
-<h2>Marble Labs──利用者コミュニティと事例を公開</h2>
-<p>World Labsは同時に、クリエイター向けのコミュニティ「<a href="https://www.worldlabs.ai/labs">Marble Labs</a>」を立ち上げた。</p>
-<p>ワークフロー共有やケーススタディの公開を通じ、ゲーム開発、VFX制作、デザイン、ロボティクスなど多様な分野での利用を促す。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marblelabs1_680761936f/marblelabs1_680761936f.jpg" alt="marblelabs1.jpg" /></p>
-<h2>空間知能へのロードマップ：次の焦点は「インタラクション」</h2>
-<p>Marbleの登場により、文章や画像から統合的な3D環境を生成する“世界モデル”分野は、研究段階から実用段階へと一歩前進した。近年はGoogle DeepMindのGenieシリーズなど、空間理解を備えたAIの開発が相次いでいるが、Marbleは生成した3D世界を編集・拡張し、既存ツールへ直接エクスポートできる点で、制作ワークフローへの適用可能性を明確に示したかたちだ。
-今後、コンテンツ制作やロボティクス、シミュレーションなどの領域で、こうした汎用的な世界モデルがどこまで浸透していくのかが注目される。</p>
-<p>World LabsはMarbleを「空間知能への旅路の一歩」と表現する。今後の重点は「人間やエージェントが生成された世界と新しい形で相互作用できること」であり、ロボティクスやシミュレーション領域でのユースケース拡大を見込むとしている。
-同社は「<a href="http://marble.worldlabs.ai">marble.worldlabs.ai</a>」での利用開始を呼びかけるとともに、同ビジョンに共感する技術者の参画を求めている。</p>
-]]></description>
-      <pubDate>Sat, 15 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
@@ -801,23 +724,63 @@ Level 1（聖人）では多くのモデルが高得点を維持する一方、L
       <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GoogleマップがGemini対応　「右折はタイ料理店の先」など“ランドマーク案内”を含む4つの新機能を発表</title>
-      <link>https://ledge.ai/articles/google_maps_gemini_landmark_navigation_4_features</link>
-      <description><![CDATA[<p>Googleは2025年11月5日（現地時間）、地図アプリ「Googleマップ」に生成AI「Gemini」を統合し、会話型のナビゲーション体験を強化する4つの新機能を<a href="https://blog.google/products/maps/gemini-navigation-features-landmark-lens/">発表</a>した。Geminiによる音声操作やランドマーク型案内、交通情報の自動通知、カメラを活用した視覚的検索が順次利用可能になる。</p>
-<h2>会話で完結する“ハンズフリー運転”</h2>
-<p>新機能の一つは、運転中に音声だけで操作できる「会話型ハンズフリー運転体験」だ。ユーザーは「途中でコーヒーショップに寄りたい」など自然な言葉で指示でき、Geminiが最適な経路や立ち寄り先を提案する。走行中でも画面操作を減らし、安全性の高いナビゲーションを実現する狙いがある。</p>
-<p>@<a href="https://youtu.be/WnNZ3QhwE84">YouTube</a></p>
-<h2>「右折はガソリンスタンドの先」──ランドマークで案内</h2>
-<p>従来の「200メートル先を右折」ではなく、「タイ料理店の先を右折」といったランドマーク（目印）を基準にしたターン案内も追加された。ユーザーが視認しやすい建物や店舗を指標にすることで、より直感的に道順を把握できるという。</p>
-<p>@<a href="https://youtu.be/_wJIEgy0uCg">YouTube</a></p>
-<h2>ナビ起動前から渋滞を警告</h2>
-<p>Geminiはまた、ユーザーの通勤や通学など“日常ルート”を学習し、ナビを起動していなくても交通渋滞や事故発生を検知した際に自動で通知を行う。プロアクティブなアラート機能により、出発前のタイミングで回避ルートを確認できるようになった。</p>
-<p>@<a href="https://youtu.be/WJ7E8KTv034">YouTube</a></p>
-<h2>Lens with Geminiで“周囲を質問”</h2>
-<p>さらに、「Lens with Gemini」ではスマートフォンのカメラを向けた建物や店舗を即座に認識。たとえば、カメラを向けて「このレストランは何時まで開いてる？」と尋ねると、営業時間やレビューなどをGeminiが対話形式で返答する。従来の検索型から“会話する地図”への進化がうかがえる。</p>
-<p>@<a href="https://youtu.be/mlhIxJCP9CM">YouTube</a></p>
-<h2>提供開始と対応環境</h2>
-<p>これらの機能は「Geminiが利用可能な地域」から順次展開される予定。対象はAndroidとiOSのGoogleマップアプリで、今後はAndroid Autoなど他プラットフォームへの拡張も検討されているという。</p>
+      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
+      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
+      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
+<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
+<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
+<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
+具体的には以下の例を挙げた。</p>
+<ul>
+<li>LMArena：Elo 1501</li>
+<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
+<li>GPQA Diamond：91.9%</li>
+<li>MathArena Apex：23.4%</li>
+</ul>
+<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
+<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
+<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
+<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
+<ul>
+<li>Humanity’s Last Exam：41.0%</li>
+<li>GPQA Diamond：93.8%</li>
+<li>ARC-AGI-2（コード実行あり）：45.1%</li>
+</ul>
+<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
+<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
+<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
+<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
+<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
+<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
+<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
+<ul>
+<li>Google AI Studio（Gemini API）</li>
+<li>Vertex AI</li>
+<li>Gemini CLI</li>
+<li>Google Antigravity（新エージェント指向IDE）</li>
+<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
+</ul>
+<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
+<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
+<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
+<h2>長期計画のタスクでもトップスコアを記録</h2>
+<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
+<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
+<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
+<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
+<ul>
+<li>迎合的な回答（シコファンシー）の抑制</li>
+<li>プロンプトインジェクション耐性の向上</li>
+<li>サイバー攻撃・悪用に対する防御強化</li>
+</ul>
+<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
+<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
+<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
 ]]></description>
       <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -896,93 +859,77 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sony AI、「同意に基づく世界初の人間中心データセット」FHIBEを公開──AIの公平性を評価する新たな国際基準に</title>
-      <link>https://ledge.ai/articles/sony_ai_fair_human_centric_image_benchmark_fhibe_release</link>
-      <description><![CDATA[<p>ソニーグループ傘下のSony AIは2025年11月5日、AIモデルの公平性を評価するための人間中心データセット「Fair Human-Centric Image Benchmark（FHIBE）」<a href="https://ai.sony/articles/Groundbreaking-Fairness-Evaluation-Dataset-From-Sony%20AI%20/">公開</a>した。</p>
-<p>これは、被写体の明示的な同意に基づいて収集された世界初の公開データセットであり、AIの倫理的・公平な運用を支える新たな国際基準となることを目指す。研究論文は同日、科学誌『Nature』に掲載された。</p>
-<h2>81カ国・1981人の被写体、すべて“同意ベース”で収集</h2>
-<p>FHIBEは、顔検出・ポーズ推定・ビジュアル質問応答（VQA）など、AIの人間中心タスクにおける公平性を測定するためのデータセット。
-10,318枚の画像、1,981人の被写体から構成され、81カ国以上の地域的・文化的多様性を反映する。
-Sony AIによると、FHIBEは「consensually-collected, globally diverse fairness evaluation dataset」──すなわち「同意に基づき、世界的多様性を備えた公平性評価用データセット」であり、これまで主流だった“非同意収集データ”の問題を根本から見直す試みだ。</p>
-<p>Sony AIのプレジデント、Michael Spranger氏は次のように述べている。</p>
-<p>\u003E「FHIBEは、公平性と説明責任を備えたAIを支える業界標準を築くものです。AIユーザー、クリエイター、データ提供者を含むすべての関係者を尊重しながら、公平で透明なテクノロジーを実現する道を示しました。」</p>
-<p>また、ソニーグループのAIガバナンス統括責任者であり、Sony AIのAI倫理主任研究員でもあるAlice Xiang氏は次のように強調した。</p>
-<p>\u003E「責任あるデータ収集は可能です。被写体への説明、同意、報酬、プライバシー保護、多様性、安全性を同時に担保したプロセスを実現しました。これはAI開発における倫理的転換点です。」</p>
-<h2>公平性を測る「倫理的ベンチマーク」</h2>
-<p>FHIBEの画像には、被写体自身が申告した性別代名詞、年齢層、肌トーン、髪型などの属性が含まれており、第三者の主観に頼らない“自己申告ベース”のアノテーションが特徴。
-さらに照明条件やカメラ設定、撮影環境なども細かく記録され、AIモデルが属性や環境要因によって出力を偏らせていないかを定量的に検証できる。</p>
-<p>論文「Fair human-centric image dataset for ethical AI benchmarking」（Nature, 2025）では、FHIBEを用いてCLIPやBLIP-2など複数の画像生成・認識モデルを評価。
-既知のバイアス（例：She/Her/Hers 代名詞の被写体に対する精度低下）を再確認しただけでなく、髪型の多様性が精度差の一因であることなど、これまで見落とされていた構造的要因を特定した。
-さらに、「この人の職業は？」といった中立的質問への回答で、特定の属性を犯罪や低賃金職に結びつけるステレオタイプ的出力が確認されるなど、AIの無意識バイアスを明らかにしている。</p>
-<h2>被写体の権利を保護する設計</h2>
-<p>FHIBEの特徴は、データの提供後も被写体が自らの権利を保持している点にある。
-参加者は同意をいつでも撤回でき、撤回しても報酬への影響はない。Sony AIは撤回画像を削除し、可能な範囲で置換・更新することで、データセットの多様性を維持しながら透明性を担保する。
-この仕組みにより、FHIBEは「静的なデータセット」ではなく、継続的に更新される“生きた倫理基盤”として運用される。</p>
-<h2>責任あるAI研究への布石</h2>
-<p>Sony AIによると、FHIBEは法務・プライバシー・IT・品質保証（QA）専門家の協力のもと、3年をかけて構築された。
-公開データは研究・教育目的で無償提供され、誰でも公平性検証に活用できる。
-Sony AIは今後、モデル評価ツールやベンチマークスコアの公開も予定している。</p>
-<p>The Registerは同日、「Sony rolls out a standard way to measure bias in how AI describes what it ‘sees’」と題した記事で、FHIBEを「AI視覚バイアス評価の新標準」と評した。
-また『Nature』のNews &amp; Views欄も、「倫理的に収集された画像データセットがAI研究の公平性を促進する」と高く評価している。</p>
+      <title>ビジネス2025/11/15 [SAT]AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
+      <link>https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release</link>
+      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2025年11月12日（現地時間）テキストや画像、動画、3Dレイアウトなど多様な入力から“永続的な3D世界”を生成できるマルチモーダル世界モデル 「Marble」 を<a href="https://www.worldlabs.ai/blog/marble-world-model">一般公開</a>した。</p>
+<p>創業者には、スタンフォード人工知能研究所（SAIL）の元所長であり、コンピューターサイエンスの世界的権威である Fei-Fei Li氏 が名を連ねる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/feifeili_e32159ea96/feifeili_e32159ea96.jpg" alt="feifeili.jpg" /></p>
+<h2>Marbleの概要──マルチモーダル入力から3D世界を生成</h2>
+<p>Marbleは、文章・画像・映像・簡易3Dレイアウトなどを手がかりに、整合性のある3D空間を構築する世界モデルだ。生成された3D世界はそのまま利用するだけでなく、ユーザーが自然言語で編集したり、別のワールドとつなぎ合わせたり、周囲へ拡張したりといった操作が可能。生成物は 画像・動画・Gaussian Splat・メッシュ といった形式でエクスポートでき、ゲームエンジンや3D制作ソフトとの連携も想定する。</p>
+<p><strong>Marbleのワークフロー。文章・画像・動画・3Dシーンを入力し、生成した3Dワールドを編集・拡張し、画像・動画・Gaussian Splat・メッシュとして出力できる</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Marble_World_Model_b07e2af0e7/The_Marble_World_Model_b07e2af0e7.jpg" alt="The Marble World Model.jpg" /></p>
+<h2>空間知能を中核に据えた世界モデル</h2>
+<p>World LabsはMarbleの位置づけについて「世界を再構築し、生成し、シミュレーションし、AIエージェントの理解の基盤となる“次世代ワールドモデル”」と説明する。人間が視覚・言語・空間認知を統合して“内的な世界モデル”を形成するように、AIにも複雑な空間情報を理解し推論する能力が必要になるという考え方だ。Li氏は過去の論考でも、次のAIの主要テーマを「空間知能」としており、Marbleはその研究思想を具現化した製品と位置づけられる。</p>
+<h2>多様な入力に対応──文章・画像・動画・3Dレイアウト</h2>
+<p>Marbleは、異なる形式の入力から一貫した3D世界を構築する。</p>
+<h3>テキスト</h3>
+<p>文章から空間構造・雰囲気・光源などを推定して3D空間を生成
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_text_prompt_efea484c81/marble_generated_world_by_text_prompt_efea484c81.jpg" alt="marble generated world by text prompt.jpg" /></p>
+<h3>単一画像</h3>
+<p>1枚の画像を手がかりに、写っていない部分まで補完して空間を3D化
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_image_prompt_d34bf3fde7/marble_generated_world_by_image_prompt_d34bf3fde7.jpg" alt="marble generated world by image prompt.jpg" /></p>
+<h3>複数画像・動画</h3>
+<p>複数視点の写真や短い動画から、途切れのない単一の3D環境を再構築
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_multi_image_prompt_e12c253b23/marble_generated_world_by_multi_image_prompt_e12c253b23.jpg" alt="marble generated world by multi-image prompt.jpg" /></p>
+<h3>3Dレイアウト</h3>
+<p>ユーザーが配置したボックスや平面を“構造”として扱い、テキストで見た目だけを変える「構造とスタイルの分離」を実現。
+同じレイアウトをもとに複数のバリエーションの世界を生成できる。</p>
+<h2>編集・拡張・合成──AIネイティブの制作ワークフロー</h2>
+<p>生成後の操作性も特徴だ。</p>
+<h3>局所編集</h3>
+<p>特定オブジェクトの削除・調整といった部分的な修正をAIが補完する</p>
+<p><strong>プロンプト：カメをトラに、緑の草をフライドポテトに変更</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c.jpg" alt="Turn the turtles into tigers and turn the tall green plant into french fries.jpg" /></p>
+<h3>全体編集</h3>
+<p>空間全体のスタイル変更、テーマ統一、質感の変更などを自然言語で指定可能</p>
+<p><strong>プロンプト：床材をヘリンボーン柄のダークマホガニーに交換</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107.jpg" alt="Replace the flooring with dark mahogany in a herringbone pattern.jpg" /></p>
+<h3>拡張（Extend）</h3>
+<p>ワールドを外側へ拡大し、不足部分を整合性を保って自動生成</p>
+<p><strong>初期世界では造られていなかったところまで自動生成している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49.jpg" alt="Marble can expand scenes to create larger traversable areas.jpg" /></p>
+<h3>合成（Composer）</h3>
+<p>複数の3D世界をつなぎ合わせ、より大規模な環境を構築できる。列車の内部や長い回廊など、単一生成では難しいシーン構築を可能にする
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_large_train_composed_with_Marble1_1885f64d75/A_large_train_composed_with_Marble1_1885f64d75.jpg" alt="A large train composed with Marble1.jpg" /></p>
+<h2>Chisel──“構造とスタイルの分離”を可能にする編集モード</h2>
+<p>上級者向けには、新たに「Chisel」モードを提供する。これは、ボックスなどの簡易形状で空間の骨格を作り、テキストで質感や雰囲気を与える制作手法だ。</p>
+<ul>
+<li>レイアウトはユーザーが設計</li>
+<li>見た目はAIが生成</li>
+<li>同じ骨格から複数スタイルの3D世界を派生</li>
+</ul>
+<p>従来の3D制作で分かれていた工程を統合し、試行錯誤の効率を高める仕組みとなっている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582.jpg" alt="A beautiful modern art museum with wooden floor.jpg" /></p>
+<h2>エクスポート──Gaussian Splat・メッシュ・動画に対応</h2>
+<p>生成された3D世界は、以下の形式で取り出せる。</p>
+<h3>Gaussian Splat</h3>
+<p>Marbleが最も高い忠実度で再現する形式。World Labs製のWebレンダラ「Spark」と組み合わせることで、ブラウザ・VRなどで表示できる。</p>
+<h3>三角メッシュ</h3>
+<p>低精度のコライダー用メッシュから、高品質なメッシュまで複数の出力形態を用意。既存のゲームエンジン・3Dツールへの統合を容易にする。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0.jpg" alt="Marble can export generated worlds as Gaussian splats or triangle meshes.jpg" /></p>
+<h3>動画</h3>
+<p>カメラ軌道を細かく設定したレンダリングが可能。炎・煙・光源といった動的要素を追加しながら、カメラ制御情報を保持できる。</p>
+<h2>Marble Labs──利用者コミュニティと事例を公開</h2>
+<p>World Labsは同時に、クリエイター向けのコミュニティ「<a href="https://www.worldlabs.ai/labs">Marble Labs</a>」を立ち上げた。</p>
+<p>ワークフロー共有やケーススタディの公開を通じ、ゲーム開発、VFX制作、デザイン、ロボティクスなど多様な分野での利用を促す。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marblelabs1_680761936f/marblelabs1_680761936f.jpg" alt="marblelabs1.jpg" /></p>
+<h2>空間知能へのロードマップ：次の焦点は「インタラクション」</h2>
+<p>Marbleの登場により、文章や画像から統合的な3D環境を生成する“世界モデル”分野は、研究段階から実用段階へと一歩前進した。近年はGoogle DeepMindのGenieシリーズなど、空間理解を備えたAIの開発が相次いでいるが、Marbleは生成した3D世界を編集・拡張し、既存ツールへ直接エクスポートできる点で、制作ワークフローへの適用可能性を明確に示したかたちだ。
+今後、コンテンツ制作やロボティクス、シミュレーションなどの領域で、こうした汎用的な世界モデルがどこまで浸透していくのかが注目される。</p>
+<p>World LabsはMarbleを「空間知能への旅路の一歩」と表現する。今後の重点は「人間やエージェントが生成された世界と新しい形で相互作用できること」であり、ロボティクスやシミュレーション領域でのユースケース拡大を見込むとしている。
+同社は「<a href="http://marble.worldlabs.ai">marble.worldlabs.ai</a>」での利用開始を呼びかけるとともに、同ビジョンに共感する技術者の参画を求めている。</p>
 ]]></description>
       <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
-      <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
-<h2>GPT-5.1とは──GPT-5世代の会話性アップデート</h2>
-<p>GPT-5.1は、GPT-5を基盤としつつ、回答の自然さやインタラクションのしやすさを強化した改良モデルである。OpenAIは今回の更新を「GPT-5の進化版」と説明しており、名前に「5.1」を付与した理由として、「同一世代内の意味のあるアップデート」であることを示す意図を挙げている。</p>
-<p>ChatGPTでは、ユーザーの入力の難度に応じて最適なモデルを自動選択する「Auto」ルーティングが継続され、Instant／Thinkingが適宜切り替わる仕組みとなる。</p>
-<h2>GPT-5.1 Instant──より会話的で、指示に忠実な標準モデル</h2>
-<p>GPT-5.1 Instantは、従来のGPT-5 Instantの役割を引き継ぐ標準モデルで、回答スタイルがより自然で“暖かい（warmer）”会話に調整された。プロンプトに対する遵守性も改善され、「6語で答えてほしい」といった制約付き指示への一貫性が向上したとしている。</p>
-<p>また、必要に応じて内部の思考時間をわずかに伸ばす「軽い自動推論（adaptive reasoning）」を採用。AIMEなどの数学ベンチマークやコード解析系タスクにおける性能が向上した例が示されている。</p>
-<p><strong>GPT-5 Instant → GPT-5.1 Instant の比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348590_4bf99b57e6/1762974348590_4bf99b57e6.jpg" alt="1762974348590.jpg" /></p>
-<h2>GPT-5.1 Thinking──思考時間の自動最適化で推論性能を強化</h2>
-<p>GPT-5.1 Thinkingは、推論特化モデル「GPT-5 Thinking」を改良したバージョンで、タスクの難度に応じて思考時間をより細かく最適化するようにアップデートされた。OpenAIは「最も短い思考タスクでは約2倍速く、最も難しいタスクでは約2倍長く考える」と説明しており、簡単な質問への応答速度と、難しい問題への粘り強さを両立させたとしている。</p>
-<p>説明スタイルは平易な英語に統一され、技術・専門用語の使用を抑えたことにより、ビジネス文書や技術解説でも読みやすさが向上している。</p>
-<p><strong>GPT-5 Thinking → GPT-5.1 Thinking の比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974348726_437b92d9f8/1762974348726_437b92d9f8.jpg" alt="1762974348726.jpg" /></p>
-<h2>トーン・スタイルのプリセット強化──6種類のパーソナリティ設定</h2>
-<p>GPT-5.1の導入とあわせて、ChatGPTのトーン設定機能も拡張された。
-既存のDefault、Friendly（旧Listener）、Efficient（旧Robot）に加え、新たに次の3スタイルが追加された。</p>
-<ul>
-<li>Professional</li>
-<li>Candid</li>
-<li>Quirky
-さらに、Nerdy（旧Nerd）、Cynical（旧Cynic）も従来どおり利用可能で、合計6スタイルが選べるようになった。
-また、一部ユーザー向けには、文章の簡潔さ、温かさ、見出しや箇条書きの量、絵文字頻度などをスライダーで微調整する実験的機能も提供される。これらの設定変更は進行中のスレッドにも即時反映される仕様に改められた。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1762974349937_f37e9be75b/1762974349937_f37e9be75b.jpg" alt="1762974349937.jpg" /></p>
-<h2>ChatGPTからAPIへ順次展開</h2>
-<p>GPT-5.1 Instant／Thinkingは、11月12日から有料プラン利用者に順次提供を開始。今後、無料ユーザーやログアウト状態の利用者にも展開される予定だ。
-Enterprise／Educationプランでは7日間の早期アクセス期間が設けられ、期間後はGPT-5.1が標準モデルとして切り替わる。</p>
-<p>APIでは、以下の名称で提供される予定と案内されている。</p>
-<ul>
-<li><strong>GPT-5.1 Instant</strong> ：gpt-5.1-chat-latest</li>
-<li><strong>GPT-5.1 Thinking</strong> ：gpt-5.1</li>
-</ul>
-<p>APIの提供開始は「今週後半」としている。</p>
-<p>従来のGPT-5（Instant／Thinking）は、少なくとも3カ月間は有料ユーザー向けのレガシーモデルとして継続提供される。</p>
-<h2>安全性・システムカード追補──メンタルヘルス領域の評価を拡充</h2>
-<p>同日公開された「GPT-5.1 System Card Addendum」では、安全性評価、メンタルヘルス領域、感情依存（emotional reliance）の指標などが更新された。
-OpenAIは、実運用で発生する難度の高いケースを集約した「Production Benchmarks」を導入し、以下のカテゴリで“not unsafe”スコアを比較している。</p>
-<ul>
-<li>個人情報</li>
-<li>ハラスメント</li>
-<li>憎悪表現・暴力</li>
-<li>自傷行為（意図・手段）</li>
-<li>性的コンテンツ（未成年含む）</li>
-<li>メンタルヘルス</li>
-<li>Emotional reliance など</li>
-</ul>
-<p>GPT-5.1は多くの領域でGPT-5と同等、または改善がみられる一方、一部ではわずかな悪化も記録しており、改善を継続すると記載されている。</p>
-<p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
-<h2>今後の展開</h2>
-<p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
-]]></description>
-      <pubDate>Thu, 13 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/12 [WED]Wikipedia、AI企業に「知の還元」を要請──無断スクレイピングから有料API「Wikimedia Enterprise」へ、持続可能な共創を目指す</title>
