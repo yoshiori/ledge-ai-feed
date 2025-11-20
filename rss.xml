@@ -5,6 +5,68 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>xAI、「Grok 4.1」公開──創造性・感情理解・安全性を強化した新フラッグシップモデル</title>
+      <link>https://ledge.ai/articles/grok_4_1_release_xai_nov18</link>
+      <description><![CDATA[<p>イーロン・マスク氏率いるAI企業 xAI は2025年11月18日（日本時間）、最新AIモデル「Grok 4.1」の提供を<a href="https://x.ai/news/grok-4-1">発表</a>した。発表によると、Grok 4.1はgrok.com、X、iOS／Androidアプリで利用可能になり、Autoモードで順次展開されるほか、モデルピッカーから明示的に選択できるようになった。同社は今回のアップデートについて、創造性や感情理解、協調性など「実世界での使いやすさ」の向上を重視したと説明している。</p>
+<h2>創造性・感情理解・協調性をさらに強化</h2>
+<p>xAIによれば、Grok 4.1は従来の推論性能を維持したまま、創造性、感情理解、協調的な対話といった能力を高めたとしている。ユーザーの微妙な意図の読み取り、一貫した人格の維持など、会話体験の質を高める点が今回の特徴だ。</p>
+<p>同社はGrok 4で構築した大規模強化学習インフラを活用し、「スタイル」「人格」「helpfulness」「alignment」といった検証が難しい報酬を最適化した。これを支える仕組みとして、先端的な推論モデルを報酬モデルに用い、応答の生成と評価を大規模に自動反復する新手法を導入したという。</p>
+<h2>2週間のサイレントロールアウトで改善を確認</h2>
+<p>xAIは11月1日〜14日にかけて、Grok 4.1のプレビュー版を本番環境へ段階的に投入。実際のユーザーによる盲検ペアワイズ評価を行った結果、Grok 4.1は従来モデルに対して**64.78％**の勝率となり、ユーザーからより支持されたとしている。</p>
+<h2>LMArenaで1位と2位を獲得</h2>
+<p>公開ベンチマーク「LMArena Text Arena」では、Grok 4.1が上位を独占した。</p>
+<ul>
+<li>Grok 4.1 Thinking（quasarflux）：Elo 1483（全体1位）</li>
+<li>Grok 4.1（Non-Thinking／tensor）：Elo 1465（全体2位）</li>
+</ul>
+<p>非推論モードのGrok 4.1が、他社モデルの推論モードも含めて上回るスコアとなり、従来のGrok 4（33位）から大きな改善が確認された。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LM_Arena_Text_Leaderboard_4abd3ec9a1/LM_Arena_Text_Leaderboard_4abd3ec9a1.jpg" alt="LMArena Text Leaderboard.jpg" /></p>
+<h2>EQ-Bench3：感情知能の大幅な向上</h2>
+<p>感情知能（EQ）を測定するEQ-Bench3では、以下のスコアが示された。</p>
+<ul>
+<li>Grok 4.1 Thinking：1586</li>
+<li>Grok 4.1：1585</li>
+<li>旧Grok 4：1206</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/EQ_Bench_5b0f4863fd/EQ_Bench_5b0f4863fd.jpg" alt="EQ-Bench.jpg" /></p>
+<p>公式発表では、ペットロスのユーザーに対する応答例を提示し、Grok 4.1が具体的な情景や共感表現を含む自然な対話を生成できることを示している。</p>
+<h2>Creative Writing v3でも上位に</h2>
+<p>創作ライティング能力を評価するCreative Writing v3では、以下の順位となった。</p>
+<ul>
+<li>Polaris Alpha（early GPT-5.1）：1756.2</li>
+<li>Grok 4.1 Thinking：1721.9（2位）</li>
+<li>Grok 4.1：1708.6（3位）</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Creative_Writing_v3_868612c18c/Creative_Writing_v3_868612c18c.jpg" alt="Creative Writing v3.jpg" /></p>
+<p>xAIによる評価では、文体や物語表現の豊かさが向上している点が数値として示されている。</p>
+<h2>事実性の向上：ハルシネーション率を大幅削減</h2>
+<p>Grok 4.1は、特に情報探索系のプロンプトで事実誤り（ハルシネーション）を減らすことに重点を置いたという。公式発表の評価では、非推論モードで以下の改善が示された。</p>
+<p><strong>■ ハルシネーション率（低いほど良い）</strong></p>
+<ul>
+<li>Grok 4 Fast（従来）：12.09％</li>
+<li>Grok 4.1：4.22％</li>
+</ul>
+<p><strong>■ FActScore（500問のバイオグラフィ評価）</strong></p>
+<ul>
+<li>Grok 4 Fast：9.89％</li>
+<li>Grok 4.1：2.97％</li>
+</ul>
+<p>非推論モードでも事実性が向上した点が明確に示された。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Hallucination_Rate_200f138e45/Hallucination_Rate_200f138e45.jpg" alt="Hallucination Rate.jpg" /></p>
+<p>非推論モードでも事実性が向上したことが数値で示された。</p>
+<h2>モデルカードで公開された安全性評価</h2>
+<p>添付された「Grok 4.1 Model Card」では、xAIのリスク管理フレームワーク（RMF）に基づき、安全性評価が詳細に示されている。主な評価項目は以下の通り。</p>
+<ul>
+<li>Abuse Potential：有害リクエスト拒否性能、jailbreak耐性</li>
+<li>Deception／Sycophancy：欺瞞的応答や迎合行動の評価</li>
+<li>Dual-Use Capabilities：生物・化学・サイバー領域の二重用途リスク</li>
+<li>Persuasion：MakeMeSayによる操作的応答の傾向</li>
+</ul>
+<p>モデルカードでは、生物・化学領域の知識タスクで高い正答率が見られる一方、実験設計や多段推論では人間エキスパートに及ばないケースがあるなど、能力の強弱が併記されている。また、こうした評価を踏まえて入力フィルタの強化などの安全対策を実施したと説明している。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
       <link>https://ledge.ai/articles/gemini_3_google_launch</link>
       <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
@@ -868,45 +930,6 @@ Sony AIは今後、モデル評価ツールやベンチマークスコアの公�
 <p>菱洋エレクトロは、半導体・デバイスとICTソリューションを軸に、AIやIoTなど次世代技術の実装を支援する事業を展開しており、パーソナルAIコンピューターの取り扱い拡大も、その一環として位置づけている。</p>
 ]]></description>
       <pubDate>Fri, 14 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MIT、テキストからマルチトラックMIDI音楽を生成する言語モデル「MIDI-LLM」を開発──Llama 3.2を拡張し、高速推論と高品質な出力を実現</title>
-      <link>https://ledge.ai/articles/mit_midi_llm_text_to_midi_ai</link>
-      <description><![CDATA[<p>マサチューセッツ工科大学（MIT）の研究チームは2025年11月6日、自然言語の指示からマルチトラックMIDI音楽を生成できる言語モデル「MIDI-LLM」を<a href="https://arxiv.org/abs/2511.03942v1">発表</a>した。ベースとなる大規模言語モデル「Llama 3.2 1B」の語彙を拡張し、MIDIトークンを直接扱えるようにした点が特徴。生成結果は従来モデル「Text2midi」に比べて高品質かつ高速で、編集・再利用が容易なシンボリック音楽データを生成できる。</p>
-<h2>言葉から“楽譜”を生み出すLLM</h2>
-<p>MIDI（Musical Instrument Digital Interface）とは、楽器や音楽ソフトのあいだで「どの音を、いつ、どのくらいの強さで鳴らすか」を指示するためのデータ規格である。実際の音そのものではなく、演奏情報を数値として記録する「デジタル譜面」のような形式で、後から編集や再構成がしやすいのが特徴だ。つまりAIがMIDIデータを生成するというのは、音を出すのではなく、楽曲の構造や演奏指示そのものを自動で書き上げることを意味している。</p>
-<p>近年、テキストからオーディオを生成するAIが登場しているが、音声出力は後編集が難しいという課題があった。MIDIなどのシンボリック音楽データは、楽譜構造を保持したまま再編集できるため、音楽制作やゲーム、映像音楽などの分野で需要が高い。</p>
-<p>MITの研究チームは、こうした編集可能性とテキスト制御性を両立させるため、言語モデルを直接MIDI形式に適応させる「MIDI-LLM」を提案した。研究はNeurIPS 2025 Workshop「AI for Music」で発表され、コード・学習済みモデル・デモサイトが一般公開されている。</p>
-<h2>Llama 3.2をMIDIトークン対応に拡張</h2>
-<p>MIDI-LLMは、Meta社のLlama 3.2 （1 Bパラメータ）を基盤に、音楽用トークンを追加して構築された。音符は「発音時刻（onset time）」「音の長さ（duration）」「楽器と音高（instrument-pitch）」の3つのトークンで表現され、Anticipatory Music Transformer（AMT）の到着時間トークン化手法を採用。これにより、既存のLLM構造を保ちながら音楽表現を学習でき、推論時にはvLLM ライブラリによる最適化がそのまま利用できる。</p>
-<p><strong>図：MIDI-LLMの構造と学習プロセス</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_9_f067c27669/x1_9_f067c27669.png" alt="x1 (9).png" /></p>
-<h2>2段階の訓練でテキスト→MIDIを習得</h2>
-<p>研究では、以下の2段階でモデルを訓練した。</p>
-<h3>1. 継続事前学習（Continued Pretraining）</h3>
-<p>音楽関連テキスト（MusicPile など）とスタンドアロンMIDIデータ（GigaMIDI など）を約30億トークン規模で学習し、音楽構造と文脈理解を強化。</p>
-<h3>2. 教師ありファインチューニング（Supervised Finetuning）</h3>
-<p>テキストとMIDIのペアデータ（MidiCaps ＋ Lakh MIDI Dataset）を使用し、ジャンル・テンポ・ムードなどの言語的指示から対応する音楽を出力できるよう訓練。データ拡張では音楽キャプションモデル「Qwen 2.5 Omni」を活用し、多様なプロンプトで補強した。</p>
-<h2>「Text2midi」を上回る品質と速度</h2>
-<p>評価実験では、MIDI-LLMが従来モデル「Text2midi」（AAAI 2025）を大きく上回る性能を示した。</p>
-<ul>
-<li><strong>FAD（Fréchet Audio Distance）</strong> ： 0.216 （Text2midi 0.818）</li>
-<li><strong>CLAPスコア</strong> （テキストと音楽の一致度）： 21.8 （Text2midi 18.7）</li>
-<li><strong>推論速度（RTF）</strong> ： 約14 倍高速化（FP8量子化使用時）</li>
-</ul>
-<p>なお、評価はMidiCapsテストセットの交差896サンプルで実施され、FAD/CLAP算出のためにMIDIをFluidSynthでレンダリングして音声化した上で指標を計測している。
-vLLMによるCUDA Graph・Paged Attention・FP8量子化を導入したことで、従来の構造より50％以上の推論効率化を実現したという。</p>
-<h2>デモサイトを公開、誰でも体験可能</h2>
-<p>MIDI-LLMの<a href="https://midi-llm-demo.vercel.app/">デモサイト</a>では、「Epic Rock」「Playful Jazz」「Sad &amp; Emotional」などのプリセット、または自由な文章入力から音楽を生成できる。生成結果はMIDIファイルとしてダウンロード可能で、ブラウザ上で再生もできる。</p>
-<p><strong>MIDI-LLMデモサイトの画面</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/midi_llm_1c07755bdd/midi_llm_1c07755bdd.jpg" alt="midi-llm.jpg" /></p>
-<h2>今後の課題と展望</h2>
-<p>論文では、テキスト付きインフィリング（曲の一部を補完する生成）では、テキスト条件の影響が小さいという課題も指摘された。
-また、音楽特化テキストを使わなくても性能差が見られなかったことから、事前学習データ設計の最適化が今後の課題とされている。</p>
-<p>今後は、ユーザーフィードバックを活用したRLHF（人間フィードバックによる好み学習）やDPO（Direct Preference Optimization）を導入し、ユーザーの音楽嗜好に合わせた生成を目指すとしている。
-研究チームは「テキストで音楽を編集・再構成できるAIの実現」を次のステップに掲げている。</p>
-]]></description>
-      <pubDate>Thu, 13 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
