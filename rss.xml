@@ -5,6 +5,37 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、1600言語対応の「Omnilingual ASR」を公開──低リソース言語500超を含む世界最大級の音声認識モデル</title>
+      <link>https://ledge.ai/articles/meta_omnilingual_asr_1600_languages_release</link>
+      <description><![CDATA[<p>MetaのAI研究部門であるMeta FAIRは2025年11月10日（現地時間）、1600以上の言語に対応する自動音声認識システム「Omnilingual ASR」を<a href="https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/">発表</a>した。</p>
+<p>これまでASRが文字起こしできなかった500超の低リソース言語を含む世界規模の音声データを収集し、話し言葉をテキスト化できるモデルとしてGitHubにオープンソース（Apache 2.0）で<a href="https://github.com/facebookresearch/omnilingual-asr">公開</a>する。wav2vec 2.0とテキスト埋め込みを組み合わせ、LLMと共通の“次トークン予測”で学習する新アーキテクチャにより、幅広い言語で高精度な認識を実現。言語アクセス格差の解消を目指す取り組みだ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ab-GIqDQn7k">YouTube</a></p>
+<h2>世界1600言語を対象に構築──“未対応言語”500以上を含む大規模ASR</h2>
+<p>Meta FAIRによると、Omnilingual ASRはこれまで自動音声認識モデルが対応できなかった多数の低リソース言語を含め、1600以上の言語で話し言葉を文字化できるのが特徴だ。対応言語数は、既存の多言語ASRモデルを大きく上回る。</p>
+<p>こうした言語拡張を支えるのが、世界各地での音声データ収集プロジェクトである。同社は論文の中で、地域コミュニティと協働して多様な話者データを収集した事例を紹介している。</p>
+<h2>コミュニティ協働によるデータ収集</h2>
+<p>Pakistan のデータ収集風景：パキスタンでは、現地話者がコーパス作成に参加し、話し言葉の録音作業が進められた。これまでデジタル音声データが十分に存在しなかった言語の可視化につながる取り組みだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pakistan_data_collection_3657e54b1c/pakistan_data_collection_3657e54b1c.jpg" alt="pakistan_data_collection.jpg" /></p>
+<p>Liberia のデータ収集風景：リベリアでも同様に、地域住民が音声収録プロジェクトに参加。Metaは、言語アクセス格差の背景にある「データ不足」を現地と共同で解消するアプローチを強調している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/liberia_data_collection_a713ad6e66/liberia_data_collection_a713ad6e66.jpg" alt="liberia_data_collection.jpg" /></p>
+<p>こうしたプロジェクトは、低リソース言語の話者をデジタル社会に包摂するための基盤になるとして、言語学・AI研究双方から注目されているという。</p>
+<h2>LLMと共通の学習方式を採用──次トークン予測で統一</h2>
+<p>Omnilingual ASR は、音声処理部に wav2vec 2.0 を採用し、テキスト側には埋め込み行列を用いる。さらに、Transformer デコーダが音声入力からテキストを逐次生成する構造を取り、学習には大規模言語モデル（LLM）と同じ 次トークン予測（NTP） を用いる点が特徴だ。</p>
+<p><strong>LLM-ASR の基本構造図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_ASR_e4f4e0436d/LLM_ASR_e4f4e0436d.png" alt="LLM-ASR.png" /></p>
+<p>この構造により、音声認識と自然言語処理の学習方式を統一。LLM の発展に合わせてASRも改善しやすくなるという。</p>
+<h2>文脈（コンテキスト）を与えることで精度向上</h2>
+<p>Omnilingual ASR は、ターゲット音声の前に複数の「文脈音声＋文脈テキスト例」を与えることで精度が向上するという。
+話者の発音や文体、言語固有の特徴をモデルが前もって学習しやすくなる。</p>
+<p><strong>コンテキスト例つきのモデル構造図</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/context_1_f86d2e3ac9/context_1_f86d2e3ac9.jpg" alt="context (1).jpg" /></p>
+<p>この手法は特に低リソース言語で顕著な効果があると報告されており、地域性の強い発音を含むケースでも安定した認識を実現する。</p>
+<h2>研究・教育・文化保全に向けた応用</h2>
+<p>Omnilingual ASRはオープンソースで公開されることで、研究者や開発者が多言語音声認識の仕組みを検証・拡張できるようになる。Metaは教育、医療支援、フィールド調査、文化・言語のアーカイブなど、多様な領域で利用が想定されるとし、低リソース言語を含む幅広い言語の文字化や記録作成を支援する基盤として活用される可能性を示している。</p>
+]]></description>
+      <pubDate>Fri, 21 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTT、人が見た映像や思い浮かべた光景を文章化する「マインド・キャプショニング」開発──脳活動から非言語思考をテキスト化</title>
       <link>https://ledge.ai/articles/ntt_mind_captioning_brain_to_text</link>
       <description><![CDATA[<p>NTTは2025年11月17日、脳活動データをもとに、人が見ている映像や頭の中で思い浮かべた光景を文章として生成する脳解読技術「マインド・キャプショニング（Mind Captioning）」を開発したと<a href="https://group.ntt/jp/newsrelease/2025/11/17/251117a.html">発表</a>した。研究成果は米科学誌 Science Advances に掲載されている。</p>
@@ -601,45 +632,6 @@ Level 1（聖人）では多くのモデルが高得点を維持する一方、L
 <p>研究チームは、悪役ロールプレイを含む「文脈依存の安全性」に対応した学習方法や、用途ごとの「ロールプレイモード切替」の有効性を今後の課題として挙げた。</p>
 ]]></description>
       <pubDate>Sat, 15 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、米国内初の「AIスーパーファクトリー」稼働開始──ウィスコンシンとアトランタを高速AI WANで結ぶ新型Fairwaterデータセンター群</title>
-      <link>https://ledge.ai/articles/microsoft_ai_superfactory_launch</link>
-      <description><![CDATA[<p>Microsoftは2025年11月12日（現地時間）、同社初となる「AIスーパーファクトリー」を米国内で運用開始したと<a href="https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/">発表</a>した。</p>
-<p>10月に稼働したアトランタの新Fairwaterデータセンターに加え、ウィスコンシンのFairwaterサイトなど複数拠点を専用のAI WAN（AI専用広域ネットワーク）で結び、1つの巨大なAI計算インフラとして連携動作させる構想を明らかにした。同社はこの「AIスーパーファクトリー」を、数百兆パラメータ級のAIモデルを訓練するための、新しいクラウドアーキテクチャだと位置づけている。</p>
-<h2>「AIスーパーファクトリー」とは</h2>
-<p>公表されたAIスーパーファクトリーは、従来のデータセンターとは異なり、複数州に点在するAIキャンパスを1つの高性能コンピューターのように扱う設計が特徴だ。</p>
-<p>Microsoftは、米ウィスコンシン州とジョージア州アトランタに構築したFairwaterデータセンターを高速AI WANで結び、GPUクラスタ間のデータ移動をミリ秒単位に短縮。これにより、巨大なAIトレーニングを複数サイトにまたがって同時並行で処理できると説明している。</p>
-<h2>高密度GPUと液冷による次世代AIキャンパス設計</h2>
-<p>Fairwaterデータセンターには、最新の NVIDIA GB200 NVL72（Blackwell世代）をベースにした高密度GPUラックを採用。ケーブル長を極限まで短く抑えた二層構造の建屋と専用ネットワークにより、AIモデルの学習効率を引き上げる設計となっている。</p>
-<p>▼画像：Fairwaterデータセンター内のGPUラック：高密度に配置されたNVIDIA Blackwell世代GPUラック。ケーブル長を短縮し、並列処理性能を最大化する構造が採用されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/345_009_edited_2000_768x512_383b630c28/345_009_edited_2000_768x512_383b630c28.jpg" alt="345-009_edited_2000-768x512.jpg" /></p>
-<p>アトランタのFairwater AIデータセンターは、10月に本格稼働を開始。マルチギガワット級の電力供給、広大な敷地、液冷設備など、AI専用クラスタの増設を前提としたレイアウトとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/345_244_2000_912x683_ad4ffa2cbe/345_244_2000_912x683_ad4ffa2cbe.jpg" alt="345-244_2000-912x683.jpg" /></p>
-<h2>高速AI WANが「仮想スーパーコンピューター」を形成</h2>
-<p>Microsoftは、今回のAIスーパーファクトリーを実現する要素として“AI WAN”を強調している。これは、専用光ファイバーを用いた広域ネットワークで、ウィスコンシンとアトランタ間を含む複数サイトを結び、GPU同士を1カ所にあるかのように連携させるための基盤だ。主な特徴は次のとおり。</p>
-<ul>
-<li>数千マイルをまたぐ高速な専用光ネットワークで、データをほぼ光速で伝送</li>
-<li>専用AI WAN向けの光ファイバーを1年で12万マイルまで増設し、マイレージを25%以上拡張</li>
-<li>AIアプリケーション向けに最適化されたネットワークプロトコルとQoSにより、渋滞を避けたトラフィック制御を実現</li>
-</ul>
-<p>これにより、巨大モデルの学習で生じる通信のボトルネックを最小限に抑え、GPUを最大限稼働させるとしている。</p>
-<h2>液冷で“ゼロウォーター運用”を実現</h2>
-<p>Fairwaterでは、閉ループ構造の液冷システムを採用し、初回に一般家庭約20軒分の年間使用量に相当する水を充填したのち、基本的に再利用を続けることで追加の水資源をほとんど必要としない運用を実現している。</p>
-<p><strong>▼画像：AIスーパーファクトリーの構造：Microsoftが公開した「AIスーパーファクトリー」の概念図。AI WAN、液冷、ラックアーキテクチャなど、複数要素が統合されている。</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Infographic_v1_578x578_185454d166/Infographic_v1_578x578_185454d166.png" alt="Infographic-v1-578x578.png" /></p>
-<h2>担うワークロード──OpenAI、AI Superintelligence Team、Copilot</h2>
-<p>同社はこのAIスーパーファクトリーを、以下のワークロード向けに設計したと説明している。</p>
-<ul>
-<li>OpenAIのフロンティアモデルのトレーニング</li>
-<li>Microsoft AI Superintelligence Teamの研究開発</li>
-<li>Copilotを含む商用AIサービス全体の推論・学習基盤</li>
-</ul>
-<p>モデル規模としては「数百兆パラメータ級のモデルを想定」と明言されている。</p>
-<h2>2019年のOpenAIスーパーコンピューターからの進化</h2>
-<p>Microsoftは2019年にOpenAIと共同で初の大規模AIスーパーコンピューターを構築して以来、GPU、ネットワーク、冷却、OS、スケジューラなど、クラウドインフラのあらゆる層を再設計してきた。Fairwaterは、これまでの知見を統合し、AIライフサイクル全体（学習・評価・合成データ生成など）に対応する新しいカテゴリのデータセンターとして位置づけられている。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
