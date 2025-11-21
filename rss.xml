@@ -5,6 +5,45 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
+      <link>https://ledge.ai/articles/google_nano_banana_pro_release</link>
+      <description><![CDATA[<p>Google は2025年11月20日（米国時間）、画像生成AI「Nano Banana」の最新バージョンとなる 「Nano Banana Pro」 を<a href="https://blog.google/intl/ja-jp/company-news/technology/nano-banana-pro/">発表</a>した。Gemini 3 Pro Image を基盤とした新しい画像生成システムで、、4K解像度の高精細生成や多言語テキスト描画の精度が大幅に向上しているという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=UQsJIo46ZR8&amp;t=3s">YouTube</a></p>
+<h2>4K出力と多言語テキスト生成を強化</h2>
+<p>公式ブログによると、Nano Banana Pro は従来モデルから画質と制御性能が大幅に進化し、最大 4K 解像度の画像生成 に対応した。広告制作、資料作成、スライドデザインなど、高精細なビジュアルを必要とする用途での活用が見込まれる。</p>
+<p>Google は発表の中で、照明や構図のコントロールが可能になった事例を複数紹介している。</p>
+<p><strong>・照明・フォーカス調整の例</strong>
+シーンを昼から夜へと変更し、照明バランスを最適化するデモ（プロンプト：このシーンを夜にしてください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Fox_93f02b0061/WM_Fox_93f02b0061.jpg" alt="WM-Fox.jpg" /></p>
+<p><strong>・ドラマチックな照明効果の付与</strong>
+人物ポートレートに拡散光を加え、印象を変えるデモ（プロンプト：このポートレートの照明を、左からの柔らかな拡散光に変更してください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Studio_Quality2_81a14549aa/WM_Studio_Quality2_81a14549aa.jpg" alt="WM-Studio-Quality2.jpg" /></p>
+<p><strong>・被写界深度の調整</strong>
+焦点を被写体の花に合わせ、構図の要素を際立たせるデモ（プロンプト：花に焦点を合わせてください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Flower_Girl_16a2874c39/WM_Flower_Girl_16a2874c39.jpg" alt="WM---Flower-Girl.jpg" /></p>
+<p>また、日本語・韓国語・アラビア語などの複雑な文字体系にも対応し、多言語の画像内テキスト生成がより自然で正確になった。文字組みや行送りなど、これまで課題となっていたレイアウト要素の精度も改善している。</p>
+<p><strong>・テキストローカライズの例</strong>
+英語で書かれた飲料キャンペーンの文言を韓国語に翻訳し、デザイン要素を保持したまま再描画するデモ（プロンプト：3つの黄色と青の缶に書かれている英語のテキストを韓国語に翻訳し、他の要素は変更しないでください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Final_Nano_Banana_Translate_Can_4ac7f9e843/Final_Nano_Banana_Translate_Can_4ac7f9e843.jpg" alt="Final_NanoBanana_TranslateCan.jpg" /></p>
+<h2>実世界知識の向上と複数画像入力</h2>
+<p>Nano Banana Pro は Google Search の最新情報を参照し、現実世界の文脈を反映した画像生成に対応する。Google は、科学・歴史・文化的トピックを視覚化する例を公式ページで紹介している。</p>
+<p><strong>・科学トピックの視覚化例</strong>
+アイザック・ニュートンの光と色彩の理論を、ミニマルなフラットレイ構図で説明するデモ
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_5_75517229b0/unnamed_5_75517229b0.webp" alt="unnamed (5).webp" /></p>
+<p>また、最大14枚の画像入力に基づき、スタイルやレイアウトの一貫性を保ちながら新たな画像を生成できる。人物の再現についても、最大5人までの整合性を維持可能としている。</p>
+<p><strong>・複数キャラクターの配置例</strong>
+14体のキャラクターを並んで座らせ、一貫したスタイルで描画するデモ
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Fluffy_Monsters_a42f31b8d0/Fluffy_Monsters_a42f31b8d0.jpg" alt="Fluffy-Monsters.jpg" /></p>
+<p>生成画像には AI 生成物識別技術 SynthID の透かしが自動で埋め込まれ、透明性と著作権管理への配慮も進めている。</p>
+<h2>Workspace・NotebookLMなど各サービスで提供開始</h2>
+<p>Nano Banana Pro は、Gemini アプリに加えて Google Slides、Google Vids、NotebookLM など複数の Google サービスで利用可能となる。Google Workspace では、11月20日から最大15日間かけて段階的に展開する。</p>
+<h2>開発者・企業向けの提供も本格化</h2>
+<p>Google は開発者向けブログも公開し、Nano Banana Pro の 2K/4K 出力、複数画像入力、レンダリング精度の向上などを説明した。Vertex AI を通じた API 提供が開始され、Google Cloud 上での画像生成ワークフローへの統合も可能となる。</p>
+<p>Google は Gemini 3 系列を軸にマルチモーダル AI の強化を進めており、Nano Banana Pro をその画像生成技術の中心モデルとして位置づけている。多言語描画と高精細画像への対応について、同社は広告・教育・資料作成など幅広い領域での活用を想定していると説明している。</p>
+]]></description>
+      <pubDate>Fri, 21 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIには「翻訳・予測」、人間には「医療・買い物」──博報堂DYのAI利用調査で浮かぶ“任せたい仕事／任せたくない仕事”の境界線と、生活者が描く望ましい未来像</title>
       <link>https://ledge.ai/articles/ai_job_boundary_future_expectations_hakuhodo_survey</link>
       <description><![CDATA[<p>博報堂DYホールディングス（東京都港区）の研究機関「Human-Centered AI Institute」は11月17日、全国の15～69歳を対象に実施した「AIと暮らす未来の生活調査2025」の結果を<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2025/11/5995.html">発表</a>した。</p>
