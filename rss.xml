@@ -286,6 +286,265 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
+      <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
+      <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
+<p>両機関は2024年、AIの危険行動能力を定量化する「Humanity’s Last Exam」を<a href="https://ledge.ai/articles/ai_humanitys_last_exam">共同発表</a>しており、RLIはその“実務版”として、AI能力を経済価値の観点から評価する試みとなる。</p>
+<h2>実務ベースの240プロジェクトで評価</h2>
+<p>RLIは、実在のフリーランスプラットフォームから収集した240件のプロジェクトを対象としている。
+各案件には以下が含まれる：</p>
+<ul>
+<li>クライアントによる依頼文（ブリーフ）</li>
+<li>実際の人間フリーランサーが作成した納品物</li>
+<li>入力ファイル（画像、図面、動画、音声、スクリプトなど）</li>
+<li>作業時間・報酬データ</li>
+</ul>
+<p>アノテーターがAIの成果物を評価し、「現実のクライアントが受け入れられるか」を合否判定する。AI自身による自動採点は使われていない。</p>
+<p><strong>RLIのタスク抽出プロセス</strong> ：550件のタスクを300人以上のフリーランサーから収集し、基準適合性のチェックと改善を経て、最終的に240件のプロジェクトを選定した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_2_dab90e3325/image_2_dab90e3325.png" alt="image (2).png" /></p>
+<h2>Automation Rate：最高でも2.5％</h2>
+<p>RLI公式リーダーボードの主なスコアは以下の通り。</p>
+<ul>
+<li>Manus：2.50％</li>
+<li>Claude 4.5 Sonnet：2.08％</li>
+<li>GPT-5（2025-08-07版）：1.67％</li>
+<li>ChatGPT agent：1.25％</li>
+<li>Gemini 2.5 pro-preview：0.83％</li>
+</ul>
+<p>いずれのモデルも、実務案件の約97〜99％を完了できなかった。公式サイトでも、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」と明記されている。</p>
+<h2>プロジェクト内容：動画、CAD、ゲーム開発など“実務そのもの”</h2>
+<p>240件は、従来の研究ベンチマークに比べて大幅に多様なカテゴリで構成されている。</p>
+<p><strong>RLIのプロジェクトカテゴリ構成</strong> ：RLIは動画制作、CAD、グラフィックデザイン、ゲーム開発、音声編集など23カテゴリで構成され、多様な実務タスクを含む。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/RLI_Project_Categories_c49b93ec58/RLI_Project_Categories_c49b93ec58.jpg" alt="RLI Project Categories.jpg" /></p>
+<ul>
+<li>動画制作（13％）</li>
+<li>CAD（12％）</li>
+<li>グラフィックデザイン（11％）</li>
+<li>ゲーム開発（10％）</li>
+<li>音声編集（10％）</li>
+<li>建築（7％）</li>
+<li>プロダクトデザイン（6％）</li>
+<li>その他（31％）</li>
+</ul>
+<p>さらに、プロジェクトの平均制作時間は28.9時間（中央値11.5時間）、報酬中央値は200ドルと、実務レベルの負荷を持つ。</p>
+<p><strong>RLIのプロジェクト負荷とカテゴリ比較</strong> ：人間の平均作業時間は28.9時間（中央値11.5時間）と高く、プロジェクト種別も一般のフリーランス市場（Upwork）と同等の分布を持つ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Core_Metrics_cf85d22247/Core_Metrics_cf85d22247.jpg" alt="Core Metrics.jpg" /></p>
+<p><strong>RLIで評価されたプロジェクト例</strong> ：データ可視化、3Dプロダクトレンダリング、動画制作、建築設計、ゲーム開発、科学文書作成など、多様な実務タスクが含まれている。</p>
+<h2>主な失敗モード：品質不足・不完全・整合性欠如</h2>
+<p>論文とリーダーボードの分析では、AIがプロジェクトを完了できない理由として以下が挙げられている。</p>
+<ul>
+<li>品質不足（45.6％）：専門水準に達していない</li>
+<li>不完全な納品物（35.7％）：動画が途中で終わる、3Dモデルが欠損</li>
+<li>ファイル破損・形式不備（17.6％）</li>
+<li>整合性欠如（14.8％）：複数ファイル間で仕様が一致しない</li>
+</ul>
+<p>具体例には、以下のようなケースがある：</p>
+<ul>
+<li>8分動画を求められた案件で、AIは8秒動画しか作れない</li>
+<li>3Dレンダリングの視点ごとに造形が変わる</li>
+<li>図面の寸法が実寸と合わない</li>
+<li>Webゲームが起動はするがグラフィックが破綻している</li>
+</ul>
+<h2>成功するタスクの傾向</h2>
+<p>数少ない成功例は、以下のような“閉じた生成タスク”に集中していた。</p>
+<ul>
+<li>ロゴ・バナー制作（画像生成）</li>
+<li>ボイス合成や簡易オーディオ編集</li>
+<li>表形式データの可視化</li>
+<li>簡易レポート作成</li>
+</ul>
+<p>一方、多工程・長尺のタスク、複数ファイルの整合性が必要なタスクではほぼ全滅しているという。</p>
+<h2>今後の展開</h2>
+<p>論文の著者らは、RLIの結果について「AIシステムが現実のフリーランス環境において委託業務として許容可能な水準でプロジェクトを完了できることは、ほとんどない」と記している。また、現在のモデル性能について「能力の下限に近い」と評価し、タスクの大半で“実務的完成度に到達しない”点を指摘した。</p>
+<p>研究チームはさらに、RLIが生成AIの進歩を今後継続的に追跡するための基盤になると位置づけており、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」というリーダーボード上の表現とともに、現時点でのAIエージェントの限界を明確に示した。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
+      <link>https://ledge.ai/articles/bear_encounter_ai_prediction_map_sophia_university</link>
+      <description><![CDATA[<p>全国的にクマによる出没や人身被害が相次ぐ中、上智大学・深澤佑介准教授（応用データサイエンス）の研究チームが、クマとの遭遇リスクをAIで予測し、地図上で可視化する「<a href="https://ds.sophia.ac.jp/news/20251024/post-1065">クマ遭遇AI予測マップ</a>」を一般公開している。対象地域は札幌市、東北、北関東、東京都、北陸、中部、京都府など計19地域に広がり、誰でも無料で閲覧できる。</p>
+<p>同大学・応用データサイエンス学位プログラムは2025年10月24日付で、深澤研究室が開発した「クマ遭遇予測マップ」の公開URLを案内しており、秋田県を対象とした予測モデルを基に実装したことを説明している。研究室サイトでは19地域分のマップが一覧化され、各エリアの遭遇確率を確認できる。</p>
+<h2>AIが1kmメッシュで遭遇リスクを推定</h2>
+<p>予測マップでは、AIがクマ遭遇リスクを1km四方のメッシュ単位で推定し、危険度を「非常に高い」「高い」「やや高い」「可能性あり」「低い」の5段階で色分けして表示する。赤系が高リスク、黄色系が中リスクを示す仕組みだ。</p>
+<p>また、各地域ページには、直近6カ月以内のクマ出没・遭遇地点を示す「X印」が別途表示される。マーカーがない場所は、データ不足などの理由で予測が行われていないエリアであることも明記されている。</p>
+<h2>過去の遭遇記録や地形・人口などを活用</h2>
+<p>予測モデルは、各自治体が公開するクマの出没・遭遇記録をはじめ、森林や農地などの土地利用、道路網、人口分布、標高といった環境要因を組み合わせて学習している。
+学習には決定木ベースの機械学習手法が用いられ、秋田県のデータでは「正答率・適合率・再現率がいずれも6割強」という検証結果も得られている。</p>
+<p>これらの情報を統合し、各メッシュの遭遇確率を推定することで、ユーザーが直感的に危険エリアを把握できるよう設計されている。</p>
+<h2>19地域をカバーし、PC・スマホから無料で閲覧可能</h2>
+<p>マップは研究室サイトで公開されており、PCやスマートフォンから無料で利用できる。アクセスに特別なアプリは必要なく、ブラウザ上で地図を閲覧しながら推定リスクを確認できる。</p>
+<p>対象地域は以下の通り（一部抜粋）
+：札幌市・青森県・盛岡市・秋田県・山形県・宮城県・新潟県・栃木県・群馬県・埼玉県・東京都・山梨県・富山県・石川県・長野県・岐阜県・京都府</p>
+<p>研究室サイトには「最終更新日時」も掲示され、最新の予測状況を確認できる。</p>
+<p>また、深澤研究室は X（旧Twitter）公式アカウント（<a href="https://x.com/fukazawa_lab">@fukazawa_lab</a>） でもマップの更新情報や関連アナウンスを随時発信しており、最新の動向を確認できる。</p>
+<h2>「最新の自治体情報を優先してほしい」──研究チームが注意喚起</h2>
+<p>上智大の案内および研究室サイトでは、予測マップの利用にあたって複数の注意点を明示している。</p>
+<ul>
+<li>マップは「注意喚起」を目的とした予測であり、遭遇を確実に防ぐものではない</li>
+<li>クマの行動は環境によって変動するため、最新の状況は反映しきれない場合がある</li>
+<li>登山・農作業・山菜採りなどを行う際は、「自治体が発信する情報や現地の警報・掲示を必ず確認してほしい」</li>
+</ul>
+<p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
+      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
+      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
+<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
+<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
+<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
+この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
+<h2>SNSで広がった「nice filter」論争</h2>
+<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
+<h2>「当たり障りないフィルター」の正体</h2>
+<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
+<h2>“辛口AI”の効用と注意点</h2>
+<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
+      <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
+      <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
+<p>8カ国・9000人を対象にしたブラインドテストでは、参加者の97％が「完全にAI生成された音楽」と「人間が制作した音楽」を聴き分けることができなかった。一方で多くのユーザーは、この結果に驚きや不安を覚え、AI音楽の明確なラベリングや著作権の公正な扱いを求めていることが明らかになった。</p>
+<h2>8カ国・9000人調査で浮かぶ、AI音楽への“戸惑い”</h2>
+<p>調査は米国、カナダ、ブラジル、英国、フランス、オランダ、ドイツ、日本の8カ国で実施され、18〜65歳の9000人が参加した。参加者は3曲の音源を聴き、どれが完全なAI生成音楽かを判断するよう求められたが、97％が誤答。71％がこの結果に「驚いた」と回答し、52％は「人間とAIの音楽を区別できないことに不快感」を覚えたという。</p>
+<p>AI音楽は一般リスナーにとって、すでに「ほぼ人間と区別がつかない段階」に達していることを示す結果となった。</p>
+<h2>AI音楽への期待と懸念 ― 創造性が失われると感じる人が64％</h2>
+<p>AIに対する一般的な認知は高く、98％が「AIについて聞いたことがある」と回答し、72％は「少なくとも数回はAIを使った経験がある」とした。
+音楽領域でも、</p>
+<ul>
+<li>46％：AIが新しい音楽の発見を助ける</li>
+<li>51％：AIは今後10年で音楽制作に大きな役割を果たす
+といった期待の声がある一方で、</li>
+<li>51％：低品質・画一的な音楽が増える</li>
+<li>64％：AIが音楽制作の創造性を失わせる
+と懸念も強い。</li>
+</ul>
+<p>リスナーはAIへの好奇心と、創作物の質への不安との間で揺れている。</p>
+<h2>「AI音楽は聴くが、区別はしたい」──透明性への強い要望</h2>
+<p>音楽ストリーミングユーザー（n=6791）を対象とした調査では、</p>
+<ul>
+<li>66％：好奇心から100％AI音楽を一度は聴いてみたい</li>
+<li>45％：AI音楽をフィルターで除外したい</li>
+<li>40％：AI音楽と分かればスキップしたい
+と回答。
+興味はある一方で、「AI音楽と人間の音楽を区別したい」という強いニーズが浮き彫りになった。</li>
+</ul>
+<p>透明性に関する項目では、</p>
+<ul>
+<li>80％：100％AI生成音楽は明確にラベル表示すべき</li>
+<li>73％（音楽ストリーミングユーザー）：サービスがAI音楽を推薦しているかどうか知りたい</li>
+<li>52％：AI音楽を人間の楽曲と同じチャートに含めるべきではない
+といった声が寄せられた。</li>
+</ul>
+<p>AI音楽の存在が受容されつつある反面、ユーザーは“知らない間にAI音楽を聴かされる”ことに警戒している。</p>
+<h2>著作権保護への強い危機感 ― 許可なきAI学習は「非倫理的」</h2>
+<p>調査はAIの学習に著作権作品を使うことに対する強い慎重姿勢も示した。</p>
+<ul>
+<li>65％：著作権作品を無断でAI学習に利用すべきではない</li>
+<li>73％：アーティストの許可なく著作権作品を使ってAIが音楽生成するのは非倫理的</li>
+<li>70％：AI音楽は現役・未来のアーティストの生計を脅かす</li>
+<li>69％：AI生成曲への支払いは人間の楽曲より低くすべき
+ユーザーはAI音楽の存在そのものよりも、その背後にある「データの扱い」や「創作者の収益」への影響に敏感だ。</li>
+</ul>
+<h2>Deezerは毎日5万曲のAI音楽を受信──34％がAI</h2>
+<p>Deezerは現在、1日あたり約5万曲の完全AI生成トラックを受け取っており、1日に届く全楽曲の34％を占めているという。同社は2025年初頭からAI検出ツールを運用しており、SunoやUdioなど主要AIモデルで生成された音源を識別できるとのこと。</p>
+<p>また、AI音楽のストリーミングの最大70％が不正再生だったケースも確認しており、該当ストリームはロイヤリティから除外している。</p>
+<h2>AI曲は推薦・プレイリストから除外、チャート混入を回避</h2>
+<p>Deezerは2025年6月、業界で初めて「100％AI生成音楽」をタグ付けしたプラットフォームとなった。
+現在は、</p>
+<ul>
+<li>AI曲をアルゴリズム推薦から自動除外</li>
+<li>編集プレイリストにも掲載しない</li>
+<li>チャート集計でも区別運用を検討</li>
+</ul>
+<p>と、透明性確保とアーティスト保護を重視した対策を進めている。</p>
+<p>DeezerのCEOであるAlexis Lanternier氏は、聴いている音楽がAIなのか人間なのかを知りたいというユーザーの意識を明確に示した。AIがアーティストの活動や著作権を損なうべきではないという点についても広範な支持があると述べた。</p>
+<p>同社は今後、AI検出技術の特許出願など、AI音楽時代における透明性基準の確立を目指しているという。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
+      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
+      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
+<h2>AI教育の中核を担う新サイト</h2>
+<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
+<h2>3000超のコースと実践的ラボを集約</h2>
+<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
+<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
+<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
+公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
+同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
+      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
+      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
+<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
+<h2>モデル効率の“時間的スケーリング”</h2>
+<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
+<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
+<p><strong>オープンソースベースの LLM の推定機能密度</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
+<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
+<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
+<h2>ChatGPT以降、成長速度が1.5倍に</h2>
+<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
+<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
+<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
+<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
+またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
+<h2>「Mooreの法則」と掛け合わせた未来</h2>
+<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
+<h2>圧縮は万能ではない</h2>
+<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
+<h2>「密度最適訓練」への転換</h2>
+<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
+同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「GPT-5.1」をリリース──会話性とトーン設定を強化したChatGPT最新版</title>
       <link>https://ledge.ai/articles/openai_gpt_5_1_release</link>
       <description><![CDATA[<p>OpenAIは2025年11月12日（米国時間）、大規模言語モデル「GPT-5」のアップデート版となる「GPT-5.1」を<a href="https://openai.com/index/gpt-5-1/">発表</a>した。新たに「GPT-5.1 Instant」と「GPT-5.1 Thinking」の2モデルをChatGPTとAPI向けに展開し、会話性、指示遵守性、トーン設定の柔軟性を向上させたとしている。今回の更新は、GPT-5世代の中で段階的に改良を進める「5.x」シリーズの第一弾と位置づけられる。</p>
@@ -339,6 +598,79 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
 <h2>今後の展開</h2>
 <p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/11/15 [SAT]AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
+      <link>https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release</link>
+      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2025年11月12日（現地時間）テキストや画像、動画、3Dレイアウトなど多様な入力から“永続的な3D世界”を生成できるマルチモーダル世界モデル 「Marble」 を<a href="https://www.worldlabs.ai/blog/marble-world-model">一般公開</a>した。</p>
+<p>創業者には、スタンフォード人工知能研究所（SAIL）の元所長であり、コンピューターサイエンスの世界的権威である Fei-Fei Li氏 が名を連ねる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/feifeili_e32159ea96/feifeili_e32159ea96.jpg" alt="feifeili.jpg" /></p>
+<h2>Marbleの概要──マルチモーダル入力から3D世界を生成</h2>
+<p>Marbleは、文章・画像・映像・簡易3Dレイアウトなどを手がかりに、整合性のある3D空間を構築する世界モデルだ。生成された3D世界はそのまま利用するだけでなく、ユーザーが自然言語で編集したり、別のワールドとつなぎ合わせたり、周囲へ拡張したりといった操作が可能。生成物は 画像・動画・Gaussian Splat・メッシュ といった形式でエクスポートでき、ゲームエンジンや3D制作ソフトとの連携も想定する。</p>
+<p><strong>Marbleのワークフロー。文章・画像・動画・3Dシーンを入力し、生成した3Dワールドを編集・拡張し、画像・動画・Gaussian Splat・メッシュとして出力できる</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Marble_World_Model_b07e2af0e7/The_Marble_World_Model_b07e2af0e7.jpg" alt="The Marble World Model.jpg" /></p>
+<h2>空間知能を中核に据えた世界モデル</h2>
+<p>World LabsはMarbleの位置づけについて「世界を再構築し、生成し、シミュレーションし、AIエージェントの理解の基盤となる“次世代ワールドモデル”」と説明する。人間が視覚・言語・空間認知を統合して“内的な世界モデル”を形成するように、AIにも複雑な空間情報を理解し推論する能力が必要になるという考え方だ。Li氏は過去の論考でも、次のAIの主要テーマを「空間知能」としており、Marbleはその研究思想を具現化した製品と位置づけられる。</p>
+<h2>多様な入力に対応──文章・画像・動画・3Dレイアウト</h2>
+<p>Marbleは、異なる形式の入力から一貫した3D世界を構築する。</p>
+<h3>テキスト</h3>
+<p>文章から空間構造・雰囲気・光源などを推定して3D空間を生成
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_text_prompt_efea484c81/marble_generated_world_by_text_prompt_efea484c81.jpg" alt="marble generated world by text prompt.jpg" /></p>
+<h3>単一画像</h3>
+<p>1枚の画像を手がかりに、写っていない部分まで補完して空間を3D化
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_image_prompt_d34bf3fde7/marble_generated_world_by_image_prompt_d34bf3fde7.jpg" alt="marble generated world by image prompt.jpg" /></p>
+<h3>複数画像・動画</h3>
+<p>複数視点の写真や短い動画から、途切れのない単一の3D環境を再構築
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_multi_image_prompt_e12c253b23/marble_generated_world_by_multi_image_prompt_e12c253b23.jpg" alt="marble generated world by multi-image prompt.jpg" /></p>
+<h3>3Dレイアウト</h3>
+<p>ユーザーが配置したボックスや平面を“構造”として扱い、テキストで見た目だけを変える「構造とスタイルの分離」を実現。
+同じレイアウトをもとに複数のバリエーションの世界を生成できる。</p>
+<h2>編集・拡張・合成──AIネイティブの制作ワークフロー</h2>
+<p>生成後の操作性も特徴だ。</p>
+<h3>局所編集</h3>
+<p>特定オブジェクトの削除・調整といった部分的な修正をAIが補完する</p>
+<p><strong>プロンプト：カメをトラに、緑の草をフライドポテトに変更</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c.jpg" alt="Turn the turtles into tigers and turn the tall green plant into french fries.jpg" /></p>
+<h3>全体編集</h3>
+<p>空間全体のスタイル変更、テーマ統一、質感の変更などを自然言語で指定可能</p>
+<p><strong>プロンプト：床材をヘリンボーン柄のダークマホガニーに交換</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107.jpg" alt="Replace the flooring with dark mahogany in a herringbone pattern.jpg" /></p>
+<h3>拡張（Extend）</h3>
+<p>ワールドを外側へ拡大し、不足部分を整合性を保って自動生成</p>
+<p><strong>初期世界では造られていなかったところまで自動生成している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49.jpg" alt="Marble can expand scenes to create larger traversable areas.jpg" /></p>
+<h3>合成（Composer）</h3>
+<p>複数の3D世界をつなぎ合わせ、より大規模な環境を構築できる。列車の内部や長い回廊など、単一生成では難しいシーン構築を可能にする
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_large_train_composed_with_Marble1_1885f64d75/A_large_train_composed_with_Marble1_1885f64d75.jpg" alt="A large train composed with Marble1.jpg" /></p>
+<h2>Chisel──“構造とスタイルの分離”を可能にする編集モード</h2>
+<p>上級者向けには、新たに「Chisel」モードを提供する。これは、ボックスなどの簡易形状で空間の骨格を作り、テキストで質感や雰囲気を与える制作手法だ。</p>
+<ul>
+<li>レイアウトはユーザーが設計</li>
+<li>見た目はAIが生成</li>
+<li>同じ骨格から複数スタイルの3D世界を派生</li>
+</ul>
+<p>従来の3D制作で分かれていた工程を統合し、試行錯誤の効率を高める仕組みとなっている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582.jpg" alt="A beautiful modern art museum with wooden floor.jpg" /></p>
+<h2>エクスポート──Gaussian Splat・メッシュ・動画に対応</h2>
+<p>生成された3D世界は、以下の形式で取り出せる。</p>
+<h3>Gaussian Splat</h3>
+<p>Marbleが最も高い忠実度で再現する形式。World Labs製のWebレンダラ「Spark」と組み合わせることで、ブラウザ・VRなどで表示できる。</p>
+<h3>三角メッシュ</h3>
+<p>低精度のコライダー用メッシュから、高品質なメッシュまで複数の出力形態を用意。既存のゲームエンジン・3Dツールへの統合を容易にする。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0.jpg" alt="Marble can export generated worlds as Gaussian splats or triangle meshes.jpg" /></p>
+<h3>動画</h3>
+<p>カメラ軌道を細かく設定したレンダリングが可能。炎・煙・光源といった動的要素を追加しながら、カメラ制御情報を保持できる。</p>
+<h2>Marble Labs──利用者コミュニティと事例を公開</h2>
+<p>World Labsは同時に、クリエイター向けのコミュニティ「<a href="https://www.worldlabs.ai/labs">Marble Labs</a>」を立ち上げた。</p>
+<p>ワークフロー共有やケーススタディの公開を通じ、ゲーム開発、VFX制作、デザイン、ロボティクスなど多様な分野での利用を促す。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marblelabs1_680761936f/marblelabs1_680761936f.jpg" alt="marblelabs1.jpg" /></p>
+<h2>空間知能へのロードマップ：次の焦点は「インタラクション」</h2>
+<p>Marbleの登場により、文章や画像から統合的な3D環境を生成する“世界モデル”分野は、研究段階から実用段階へと一歩前進した。近年はGoogle DeepMindのGenieシリーズなど、空間理解を備えたAIの開発が相次いでいるが、Marbleは生成した3D世界を編集・拡張し、既存ツールへ直接エクスポートできる点で、制作ワークフローへの適用可能性を明確に示したかたちだ。
+今後、コンテンツ制作やロボティクス、シミュレーションなどの領域で、こうした汎用的な世界モデルがどこまで浸透していくのかが注目される。</p>
+<p>World LabsはMarbleを「空間知能への旅路の一歩」と表現する。今後の重点は「人間やエージェントが生成された世界と新しい形で相互作用できること」であり、ロボティクスやシミュレーション領域でのユースケース拡大を見込むとしている。
+同社は「<a href="http://marble.worldlabs.ai">marble.worldlabs.ai</a>」での利用開始を呼びかけるとともに、同ビジョンに共感する技術者の参画を求めている。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -615,209 +947,6 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
       <pubDate>Sun, 16 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
-      <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
-      <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
-<p>両機関は2024年、AIの危険行動能力を定量化する「Humanity’s Last Exam」を<a href="https://ledge.ai/articles/ai_humanitys_last_exam">共同発表</a>しており、RLIはその“実務版”として、AI能力を経済価値の観点から評価する試みとなる。</p>
-<h2>実務ベースの240プロジェクトで評価</h2>
-<p>RLIは、実在のフリーランスプラットフォームから収集した240件のプロジェクトを対象としている。
-各案件には以下が含まれる：</p>
-<ul>
-<li>クライアントによる依頼文（ブリーフ）</li>
-<li>実際の人間フリーランサーが作成した納品物</li>
-<li>入力ファイル（画像、図面、動画、音声、スクリプトなど）</li>
-<li>作業時間・報酬データ</li>
-</ul>
-<p>アノテーターがAIの成果物を評価し、「現実のクライアントが受け入れられるか」を合否判定する。AI自身による自動採点は使われていない。</p>
-<p><strong>RLIのタスク抽出プロセス</strong> ：550件のタスクを300人以上のフリーランサーから収集し、基準適合性のチェックと改善を経て、最終的に240件のプロジェクトを選定した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_2_dab90e3325/image_2_dab90e3325.png" alt="image (2).png" /></p>
-<h2>Automation Rate：最高でも2.5％</h2>
-<p>RLI公式リーダーボードの主なスコアは以下の通り。</p>
-<ul>
-<li>Manus：2.50％</li>
-<li>Claude 4.5 Sonnet：2.08％</li>
-<li>GPT-5（2025-08-07版）：1.67％</li>
-<li>ChatGPT agent：1.25％</li>
-<li>Gemini 2.5 pro-preview：0.83％</li>
-</ul>
-<p>いずれのモデルも、実務案件の約97〜99％を完了できなかった。公式サイトでも、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」と明記されている。</p>
-<h2>プロジェクト内容：動画、CAD、ゲーム開発など“実務そのもの”</h2>
-<p>240件は、従来の研究ベンチマークに比べて大幅に多様なカテゴリで構成されている。</p>
-<p><strong>RLIのプロジェクトカテゴリ構成</strong> ：RLIは動画制作、CAD、グラフィックデザイン、ゲーム開発、音声編集など23カテゴリで構成され、多様な実務タスクを含む。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/RLI_Project_Categories_c49b93ec58/RLI_Project_Categories_c49b93ec58.jpg" alt="RLI Project Categories.jpg" /></p>
-<ul>
-<li>動画制作（13％）</li>
-<li>CAD（12％）</li>
-<li>グラフィックデザイン（11％）</li>
-<li>ゲーム開発（10％）</li>
-<li>音声編集（10％）</li>
-<li>建築（7％）</li>
-<li>プロダクトデザイン（6％）</li>
-<li>その他（31％）</li>
-</ul>
-<p>さらに、プロジェクトの平均制作時間は28.9時間（中央値11.5時間）、報酬中央値は200ドルと、実務レベルの負荷を持つ。</p>
-<p><strong>RLIのプロジェクト負荷とカテゴリ比較</strong> ：人間の平均作業時間は28.9時間（中央値11.5時間）と高く、プロジェクト種別も一般のフリーランス市場（Upwork）と同等の分布を持つ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Core_Metrics_cf85d22247/Core_Metrics_cf85d22247.jpg" alt="Core Metrics.jpg" /></p>
-<p><strong>RLIで評価されたプロジェクト例</strong> ：データ可視化、3Dプロダクトレンダリング、動画制作、建築設計、ゲーム開発、科学文書作成など、多様な実務タスクが含まれている。</p>
-<h2>主な失敗モード：品質不足・不完全・整合性欠如</h2>
-<p>論文とリーダーボードの分析では、AIがプロジェクトを完了できない理由として以下が挙げられている。</p>
-<ul>
-<li>品質不足（45.6％）：専門水準に達していない</li>
-<li>不完全な納品物（35.7％）：動画が途中で終わる、3Dモデルが欠損</li>
-<li>ファイル破損・形式不備（17.6％）</li>
-<li>整合性欠如（14.8％）：複数ファイル間で仕様が一致しない</li>
-</ul>
-<p>具体例には、以下のようなケースがある：</p>
-<ul>
-<li>8分動画を求められた案件で、AIは8秒動画しか作れない</li>
-<li>3Dレンダリングの視点ごとに造形が変わる</li>
-<li>図面の寸法が実寸と合わない</li>
-<li>Webゲームが起動はするがグラフィックが破綻している</li>
-</ul>
-<h2>成功するタスクの傾向</h2>
-<p>数少ない成功例は、以下のような“閉じた生成タスク”に集中していた。</p>
-<ul>
-<li>ロゴ・バナー制作（画像生成）</li>
-<li>ボイス合成や簡易オーディオ編集</li>
-<li>表形式データの可視化</li>
-<li>簡易レポート作成</li>
-</ul>
-<p>一方、多工程・長尺のタスク、複数ファイルの整合性が必要なタスクではほぼ全滅しているという。</p>
-<h2>今後の展開</h2>
-<p>論文の著者らは、RLIの結果について「AIシステムが現実のフリーランス環境において委託業務として許容可能な水準でプロジェクトを完了できることは、ほとんどない」と記している。また、現在のモデル性能について「能力の下限に近い」と評価し、タスクの大半で“実務的完成度に到達しない”点を指摘した。</p>
-<p>研究チームはさらに、RLIが生成AIの進歩を今後継続的に追跡するための基盤になると位置づけており、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」というリーダーボード上の表現とともに、現時点でのAIエージェントの限界を明確に示した。</p>
-]]></description>
-      <pubDate>Sat, 15 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
-      <link>https://ledge.ai/articles/1x_neo_home_robot_subscription_launch</link>
-      <description><![CDATA[<p>米1X Technologiesは2025年10月28日（米国時間）、家庭向けヒューマノイドロボット「NEO」を<a href="https://www.1x.tech/neo">公開</a>し、プレオーダーを開始した。提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。家庭内の掃除や片付けなど、日常的な家事を支援する“お手伝いロボット”として設計されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_6_ce91e1cf1e/x1neo_6_ce91e1cf1e.jpg" alt="x1neo-6.jpg" /></p>
-<p>NEOは、1Xが掲げる「人の生活を支える安全なヒューマノイド」構想に基づき開発された。腱（tendon）駆動による柔らかく静かな動作を特徴とし、人と同じ空間で安全に動作できるよう設計されている。公式サイトでは「単調で時間のかかる家事を肩代わりし、人の時間を取り戻す」とコンセプトを掲げる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_5_7ae0e73c6c/x1neo_5_7ae0e73c6c.jpg" alt="x1neo-5.jpg" /></p>
-<p>ユーザーはスマートフォンアプリや音声を通じてタスクを指示でき、NEOは家庭内の環境を学習しながら動作を最適化する。自己充電機能を備えるほか、遠隔からのモニタリングやサポートも可能。1XはNEOを単なるロボットではなく「温かみと個性をもった家庭のパートナー」と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_4_dd13229413/x1neo_4_dd13229413.jpg" alt="x1neo-4.jpg" /></p>
-<p>主な仕様は、バッテリー駆動時間約4時間（急速充電対応）、静音性は最大22dB。NVIDIA Jetson Thorをベースとした「1X Cortex」コンピューティングシステムを搭載し、360度集音マイクとステレオスピーカーを内蔵する。</p>
-<h2>サブスク形式で家庭導入のハードルを下げる</h2>
-<p>提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。NEOは注文ページからプレオーダー可能で、出荷は2026年を予定している。</p>
-<p>1Xは公式ページ上で、NEOを「consumer-ready」と表現。2024年の試作版「NEO Beta」発表を経て、今回初めて一般消費者に向けたモデルとして公開された。</p>
-<p>@<a href="https://www.youtube.com/watch?v=LTYMWadOW7c">YouTube</a></p>
-<p>1X Technologiesは、家庭や産業向けのヒューマノイドロボットを開発する企業で、OpenAIが出資するスタートアップの一つでもある。これまでノルウェーを拠点としていたが、2025年には米カリフォルニア州サンフランシスコに本社を移転。研究開発と製造体制の両面で国際展開を進めている。サブスクリプション形式による提供で家庭でも導入しやすい価格体系を整えたNEOは、ヒューマノイドが日常生活に溶け込む時代の到来を感じさせる存在だ。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
-      <link>https://ledge.ai/articles/bear_encounter_ai_prediction_map_sophia_university</link>
-      <description><![CDATA[<p>全国的にクマによる出没や人身被害が相次ぐ中、上智大学・深澤佑介准教授（応用データサイエンス）の研究チームが、クマとの遭遇リスクをAIで予測し、地図上で可視化する「<a href="https://ds.sophia.ac.jp/news/20251024/post-1065">クマ遭遇AI予測マップ</a>」を一般公開している。対象地域は札幌市、東北、北関東、東京都、北陸、中部、京都府など計19地域に広がり、誰でも無料で閲覧できる。</p>
-<p>同大学・応用データサイエンス学位プログラムは2025年10月24日付で、深澤研究室が開発した「クマ遭遇予測マップ」の公開URLを案内しており、秋田県を対象とした予測モデルを基に実装したことを説明している。研究室サイトでは19地域分のマップが一覧化され、各エリアの遭遇確率を確認できる。</p>
-<h2>AIが1kmメッシュで遭遇リスクを推定</h2>
-<p>予測マップでは、AIがクマ遭遇リスクを1km四方のメッシュ単位で推定し、危険度を「非常に高い」「高い」「やや高い」「可能性あり」「低い」の5段階で色分けして表示する。赤系が高リスク、黄色系が中リスクを示す仕組みだ。</p>
-<p>また、各地域ページには、直近6カ月以内のクマ出没・遭遇地点を示す「X印」が別途表示される。マーカーがない場所は、データ不足などの理由で予測が行われていないエリアであることも明記されている。</p>
-<h2>過去の遭遇記録や地形・人口などを活用</h2>
-<p>予測モデルは、各自治体が公開するクマの出没・遭遇記録をはじめ、森林や農地などの土地利用、道路網、人口分布、標高といった環境要因を組み合わせて学習している。
-学習には決定木ベースの機械学習手法が用いられ、秋田県のデータでは「正答率・適合率・再現率がいずれも6割強」という検証結果も得られている。</p>
-<p>これらの情報を統合し、各メッシュの遭遇確率を推定することで、ユーザーが直感的に危険エリアを把握できるよう設計されている。</p>
-<h2>19地域をカバーし、PC・スマホから無料で閲覧可能</h2>
-<p>マップは研究室サイトで公開されており、PCやスマートフォンから無料で利用できる。アクセスに特別なアプリは必要なく、ブラウザ上で地図を閲覧しながら推定リスクを確認できる。</p>
-<p>対象地域は以下の通り（一部抜粋）
-：札幌市・青森県・盛岡市・秋田県・山形県・宮城県・新潟県・栃木県・群馬県・埼玉県・東京都・山梨県・富山県・石川県・長野県・岐阜県・京都府</p>
-<p>研究室サイトには「最終更新日時」も掲示され、最新の予測状況を確認できる。</p>
-<p>また、深澤研究室は X（旧Twitter）公式アカウント（<a href="https://x.com/fukazawa_lab">@fukazawa_lab</a>） でもマップの更新情報や関連アナウンスを随時発信しており、最新の動向を確認できる。</p>
-<h2>「最新の自治体情報を優先してほしい」──研究チームが注意喚起</h2>
-<p>上智大の案内および研究室サイトでは、予測マップの利用にあたって複数の注意点を明示している。</p>
-<ul>
-<li>マップは「注意喚起」を目的とした予測であり、遭遇を確実に防ぐものではない</li>
-<li>クマの行動は環境によって変動するため、最新の状況は反映しきれない場合がある</li>
-<li>登山・農作業・山菜採りなどを行う際は、「自治体が発信する情報や現地の警報・掲示を必ず確認してほしい」</li>
-</ul>
-<p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTの“当たり障りないフィルター”を外すと、応答が一段と鋭くなった──米国で話題の「辛口プロンプト」現象</title>
-      <link>https://ledge.ai/articles/chatgpt_ii_hito_filter_prompt_trend</link>
-      <description><![CDATA[<p>ChatGPTの「当たり障りのない」応答に物足りなさを感じた海外ユーザーが、あえて“当たり障りないフィルター”を外すプロンプトを公開し、話題を集めている。Redditで拡散したこの手法は、ChatGPTのトーンを「共感的な聞き役」から「論理的で辛口な批評家」へと変えるもので、SNSでは「回答の質が上がった」との声も相次いだ。</p>
-<h2>Reddit発の「辛口プロンプト」が反響呼ぶ</h2>
-<p>発端となったのは、Redditユーザー Wasabi_Open 氏が投稿した「I made ChatGPT stop being nice and it’s the best thing I’ve ever done（ChatGPTに“いい人”をやめさせたら、最高の結果になった）」という<a href="https://www.reddit.com/r/PromptEngineering/comments/1okppqe/i_made_chatgpt_stop_being_nice_and_its_the_best/">スレッド</a>だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/I_made_Chat_GPT_stop_being_nice_375797ac64/I_made_Chat_GPT_stop_being_nice_375797ac64.jpg" alt="I made ChatGPT stop being nice.jpg" /></p>
-<p>同氏はプロンプトの中で、ChatGPTに対し「私の意見を褒めたり慰めたりせず、誤りがあれば明確に指摘してほしい」「論理の矛盾を批判的に分析してほしい」と指示。これにより、ChatGPTが従来よりも率直で的確なフィードバックを返すようになったという。
-この投稿は数千件のいいねを集め、「まるで冷静なメンターと議論しているようだ」とのコメントも寄せられた。</p>
-<h2>SNSで広がった「nice filter」論争</h2>
-<p>この現象を11月3日に<a href="https://x.com/markgadala/status/1985032100672618588">紹介</a>したのが、X（旧Twitter）のユーザー Mark Gadala 氏だ。同氏は「“nice filter”を外したらChatGPTの回答が劇的に改善した」と投稿し、多くのフォロワーが同様のプロンプトを試したと報告している。一方で、「フィルターを解除すると性能が上がる」という表現が拡散したことで、「内部制限を外す行為ではないか」との誤解も広がった。実際には、ChatGPTの内部に“nice filter”と呼ばれる設定は存在せず、プロンプトの指示文によって出力トーンが変わるだけだ。</p>
-<h2>「当たり障りないフィルター」の正体</h2>
-<p>OpenAIの設計方針によれば、ChatGPTは安全性と中立性を重視した“共感的”な初期設定を採用している。ユーザーが感じる「いい人フィルター」とは、この丁寧でポジティブに応答する傾向を指した比喩に過ぎない。つまり、「フィルターを外す」とは内部機能を解除するのではなく、プロンプトによってAIの口調や態度を再設定する行為だといえる。</p>
-<h2>“辛口AI”の効用と注意点</h2>
-<p>ユーザーの反応はおおむね好意的だ。「率直な批評を受けることで思考が整理された」「甘い同意よりも鋭い反論のほうが学びになる」といった意見が目立つ。一方で、「冷たく感じる」「会話がきつくなる」との声もあり、タスクや気分に応じてトーンを使い分ける重要性が指摘されている。専門家の間では、このようなトーン調整を「AIとの協働スキル」や「プロンプトリテラシー」の一環とみなす動きも広がっている。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
-      <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
-      <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
-<p>8カ国・9000人を対象にしたブラインドテストでは、参加者の97％が「完全にAI生成された音楽」と「人間が制作した音楽」を聴き分けることができなかった。一方で多くのユーザーは、この結果に驚きや不安を覚え、AI音楽の明確なラベリングや著作権の公正な扱いを求めていることが明らかになった。</p>
-<h2>8カ国・9000人調査で浮かぶ、AI音楽への“戸惑い”</h2>
-<p>調査は米国、カナダ、ブラジル、英国、フランス、オランダ、ドイツ、日本の8カ国で実施され、18〜65歳の9000人が参加した。参加者は3曲の音源を聴き、どれが完全なAI生成音楽かを判断するよう求められたが、97％が誤答。71％がこの結果に「驚いた」と回答し、52％は「人間とAIの音楽を区別できないことに不快感」を覚えたという。</p>
-<p>AI音楽は一般リスナーにとって、すでに「ほぼ人間と区別がつかない段階」に達していることを示す結果となった。</p>
-<h2>AI音楽への期待と懸念 ― 創造性が失われると感じる人が64％</h2>
-<p>AIに対する一般的な認知は高く、98％が「AIについて聞いたことがある」と回答し、72％は「少なくとも数回はAIを使った経験がある」とした。
-音楽領域でも、</p>
-<ul>
-<li>46％：AIが新しい音楽の発見を助ける</li>
-<li>51％：AIは今後10年で音楽制作に大きな役割を果たす
-といった期待の声がある一方で、</li>
-<li>51％：低品質・画一的な音楽が増える</li>
-<li>64％：AIが音楽制作の創造性を失わせる
-と懸念も強い。</li>
-</ul>
-<p>リスナーはAIへの好奇心と、創作物の質への不安との間で揺れている。</p>
-<h2>「AI音楽は聴くが、区別はしたい」──透明性への強い要望</h2>
-<p>音楽ストリーミングユーザー（n=6791）を対象とした調査では、</p>
-<ul>
-<li>66％：好奇心から100％AI音楽を一度は聴いてみたい</li>
-<li>45％：AI音楽をフィルターで除外したい</li>
-<li>40％：AI音楽と分かればスキップしたい
-と回答。
-興味はある一方で、「AI音楽と人間の音楽を区別したい」という強いニーズが浮き彫りになった。</li>
-</ul>
-<p>透明性に関する項目では、</p>
-<ul>
-<li>80％：100％AI生成音楽は明確にラベル表示すべき</li>
-<li>73％（音楽ストリーミングユーザー）：サービスがAI音楽を推薦しているかどうか知りたい</li>
-<li>52％：AI音楽を人間の楽曲と同じチャートに含めるべきではない
-といった声が寄せられた。</li>
-</ul>
-<p>AI音楽の存在が受容されつつある反面、ユーザーは“知らない間にAI音楽を聴かされる”ことに警戒している。</p>
-<h2>著作権保護への強い危機感 ― 許可なきAI学習は「非倫理的」</h2>
-<p>調査はAIの学習に著作権作品を使うことに対する強い慎重姿勢も示した。</p>
-<ul>
-<li>65％：著作権作品を無断でAI学習に利用すべきではない</li>
-<li>73％：アーティストの許可なく著作権作品を使ってAIが音楽生成するのは非倫理的</li>
-<li>70％：AI音楽は現役・未来のアーティストの生計を脅かす</li>
-<li>69％：AI生成曲への支払いは人間の楽曲より低くすべき
-ユーザーはAI音楽の存在そのものよりも、その背後にある「データの扱い」や「創作者の収益」への影響に敏感だ。</li>
-</ul>
-<h2>Deezerは毎日5万曲のAI音楽を受信──34％がAI</h2>
-<p>Deezerは現在、1日あたり約5万曲の完全AI生成トラックを受け取っており、1日に届く全楽曲の34％を占めているという。同社は2025年初頭からAI検出ツールを運用しており、SunoやUdioなど主要AIモデルで生成された音源を識別できるとのこと。</p>
-<p>また、AI音楽のストリーミングの最大70％が不正再生だったケースも確認しており、該当ストリームはロイヤリティから除外している。</p>
-<h2>AI曲は推薦・プレイリストから除外、チャート混入を回避</h2>
-<p>Deezerは2025年6月、業界で初めて「100％AI生成音楽」をタグ付けしたプラットフォームとなった。
-現在は、</p>
-<ul>
-<li>AI曲をアルゴリズム推薦から自動除外</li>
-<li>編集プレイリストにも掲載しない</li>
-<li>チャート集計でも区別運用を検討</li>
-</ul>
-<p>と、透明性確保とアーティスト保護を重視した対策を進めている。</p>
-<p>DeezerのCEOであるAlexis Lanternier氏は、聴いている音楽がAIなのか人間なのかを知りたいというユーザーの意識を明確に示した。AIがアーティストの活動や著作権を損なうべきではないという点についても広範な支持があると述べた。</p>
-<p>同社は今後、AI検出技術の特許出願など、AI音楽時代における透明性基準の確立を目指しているという。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
       <link>https://ledge.ai/articles/gemini_3_google_launch</link>
       <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
@@ -875,153 +1004,6 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
 <p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
 <h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
 <p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
-      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
-      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
-<h2>AI教育の中核を担う新サイト</h2>
-<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
-<h2>3000超のコースと実践的ラボを集約</h2>
-<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
-<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
-<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
-公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
-同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
-      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
-      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
-<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
-<h2>モデル効率の“時間的スケーリング”</h2>
-<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
-<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
-<p><strong>オープンソースベースの LLM の推定機能密度</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
-<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
-<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
-<h2>ChatGPT以降、成長速度が1.5倍に</h2>
-<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
-<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
-<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
-<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
-またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
-<h2>「Mooreの法則」と掛け合わせた未来</h2>
-<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
-<h2>圧縮は万能ではない</h2>
-<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
-<h2>「密度最適訓練」への転換</h2>
-<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
-同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/15 [SAT]AIの&quot;ゴッド・マザー&quot; Fei-Fei LiのWorld Labs、マルチモーダル世界モデル「Marble」を一般公開──テキスト・画像・動画から“永続3Dワールド”生成</title>
-      <link>https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release</link>
-      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2025年11月12日（現地時間）テキストや画像、動画、3Dレイアウトなど多様な入力から“永続的な3D世界”を生成できるマルチモーダル世界モデル 「Marble」 を<a href="https://www.worldlabs.ai/blog/marble-world-model">一般公開</a>した。</p>
-<p>創業者には、スタンフォード人工知能研究所（SAIL）の元所長であり、コンピューターサイエンスの世界的権威である Fei-Fei Li氏 が名を連ねる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/feifeili_e32159ea96/feifeili_e32159ea96.jpg" alt="feifeili.jpg" /></p>
-<h2>Marbleの概要──マルチモーダル入力から3D世界を生成</h2>
-<p>Marbleは、文章・画像・映像・簡易3Dレイアウトなどを手がかりに、整合性のある3D空間を構築する世界モデルだ。生成された3D世界はそのまま利用するだけでなく、ユーザーが自然言語で編集したり、別のワールドとつなぎ合わせたり、周囲へ拡張したりといった操作が可能。生成物は 画像・動画・Gaussian Splat・メッシュ といった形式でエクスポートでき、ゲームエンジンや3D制作ソフトとの連携も想定する。</p>
-<p><strong>Marbleのワークフロー。文章・画像・動画・3Dシーンを入力し、生成した3Dワールドを編集・拡張し、画像・動画・Gaussian Splat・メッシュとして出力できる</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Marble_World_Model_b07e2af0e7/The_Marble_World_Model_b07e2af0e7.jpg" alt="The Marble World Model.jpg" /></p>
-<h2>空間知能を中核に据えた世界モデル</h2>
-<p>World LabsはMarbleの位置づけについて「世界を再構築し、生成し、シミュレーションし、AIエージェントの理解の基盤となる“次世代ワールドモデル”」と説明する。人間が視覚・言語・空間認知を統合して“内的な世界モデル”を形成するように、AIにも複雑な空間情報を理解し推論する能力が必要になるという考え方だ。Li氏は過去の論考でも、次のAIの主要テーマを「空間知能」としており、Marbleはその研究思想を具現化した製品と位置づけられる。</p>
-<h2>多様な入力に対応──文章・画像・動画・3Dレイアウト</h2>
-<p>Marbleは、異なる形式の入力から一貫した3D世界を構築する。</p>
-<h3>テキスト</h3>
-<p>文章から空間構造・雰囲気・光源などを推定して3D空間を生成
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_text_prompt_efea484c81/marble_generated_world_by_text_prompt_efea484c81.jpg" alt="marble generated world by text prompt.jpg" /></p>
-<h3>単一画像</h3>
-<p>1枚の画像を手がかりに、写っていない部分まで補完して空間を3D化
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_image_prompt_d34bf3fde7/marble_generated_world_by_image_prompt_d34bf3fde7.jpg" alt="marble generated world by image prompt.jpg" /></p>
-<h3>複数画像・動画</h3>
-<p>複数視点の写真や短い動画から、途切れのない単一の3D環境を再構築
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marble_generated_world_by_multi_image_prompt_e12c253b23/marble_generated_world_by_multi_image_prompt_e12c253b23.jpg" alt="marble generated world by multi-image prompt.jpg" /></p>
-<h3>3Dレイアウト</h3>
-<p>ユーザーが配置したボックスや平面を“構造”として扱い、テキストで見た目だけを変える「構造とスタイルの分離」を実現。
-同じレイアウトをもとに複数のバリエーションの世界を生成できる。</p>
-<h2>編集・拡張・合成──AIネイティブの制作ワークフロー</h2>
-<p>生成後の操作性も特徴だ。</p>
-<h3>局所編集</h3>
-<p>特定オブジェクトの削除・調整といった部分的な修正をAIが補完する</p>
-<p><strong>プロンプト：カメをトラに、緑の草をフライドポテトに変更</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c/Turn_the_turtles_into_tigers_and_turn_the_tall_green_plant_into_french_fries_3b36ca497c.jpg" alt="Turn the turtles into tigers and turn the tall green plant into french fries.jpg" /></p>
-<h3>全体編集</h3>
-<p>空間全体のスタイル変更、テーマ統一、質感の変更などを自然言語で指定可能</p>
-<p><strong>プロンプト：床材をヘリンボーン柄のダークマホガニーに交換</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107/Replace_the_flooring_with_dark_mahogany_in_a_herringbone_pattern_ab28c53107.jpg" alt="Replace the flooring with dark mahogany in a herringbone pattern.jpg" /></p>
-<h3>拡張（Extend）</h3>
-<p>ワールドを外側へ拡大し、不足部分を整合性を保って自動生成</p>
-<p><strong>初期世界では造られていなかったところまで自動生成している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49/Marble_can_expand_scenes_to_create_larger_traversable_areas_f4885adf49.jpg" alt="Marble can expand scenes to create larger traversable areas.jpg" /></p>
-<h3>合成（Composer）</h3>
-<p>複数の3D世界をつなぎ合わせ、より大規模な環境を構築できる。列車の内部や長い回廊など、単一生成では難しいシーン構築を可能にする
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_large_train_composed_with_Marble1_1885f64d75/A_large_train_composed_with_Marble1_1885f64d75.jpg" alt="A large train composed with Marble1.jpg" /></p>
-<h2>Chisel──“構造とスタイルの分離”を可能にする編集モード</h2>
-<p>上級者向けには、新たに「Chisel」モードを提供する。これは、ボックスなどの簡易形状で空間の骨格を作り、テキストで質感や雰囲気を与える制作手法だ。</p>
-<ul>
-<li>レイアウトはユーザーが設計</li>
-<li>見た目はAIが生成</li>
-<li>同じ骨格から複数スタイルの3D世界を派生</li>
-</ul>
-<p>従来の3D制作で分かれていた工程を統合し、試行錯誤の効率を高める仕組みとなっている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582/A_beautiful_modern_art_museum_with_wooden_floor_b3d4ad4582.jpg" alt="A beautiful modern art museum with wooden floor.jpg" /></p>
-<h2>エクスポート──Gaussian Splat・メッシュ・動画に対応</h2>
-<p>生成された3D世界は、以下の形式で取り出せる。</p>
-<h3>Gaussian Splat</h3>
-<p>Marbleが最も高い忠実度で再現する形式。World Labs製のWebレンダラ「Spark」と組み合わせることで、ブラウザ・VRなどで表示できる。</p>
-<h3>三角メッシュ</h3>
-<p>低精度のコライダー用メッシュから、高品質なメッシュまで複数の出力形態を用意。既存のゲームエンジン・3Dツールへの統合を容易にする。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0/Marble_can_export_generated_worlds_as_Gaussian_splats_or_triangle_meshes_6af9a28eb0.jpg" alt="Marble can export generated worlds as Gaussian splats or triangle meshes.jpg" /></p>
-<h3>動画</h3>
-<p>カメラ軌道を細かく設定したレンダリングが可能。炎・煙・光源といった動的要素を追加しながら、カメラ制御情報を保持できる。</p>
-<h2>Marble Labs──利用者コミュニティと事例を公開</h2>
-<p>World Labsは同時に、クリエイター向けのコミュニティ「<a href="https://www.worldlabs.ai/labs">Marble Labs</a>」を立ち上げた。</p>
-<p>ワークフロー共有やケーススタディの公開を通じ、ゲーム開発、VFX制作、デザイン、ロボティクスなど多様な分野での利用を促す。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marblelabs1_680761936f/marblelabs1_680761936f.jpg" alt="marblelabs1.jpg" /></p>
-<h2>空間知能へのロードマップ：次の焦点は「インタラクション」</h2>
-<p>Marbleの登場により、文章や画像から統合的な3D環境を生成する“世界モデル”分野は、研究段階から実用段階へと一歩前進した。近年はGoogle DeepMindのGenieシリーズなど、空間理解を備えたAIの開発が相次いでいるが、Marbleは生成した3D世界を編集・拡張し、既存ツールへ直接エクスポートできる点で、制作ワークフローへの適用可能性を明確に示したかたちだ。
-今後、コンテンツ制作やロボティクス、シミュレーションなどの領域で、こうした汎用的な世界モデルがどこまで浸透していくのかが注目される。</p>
-<p>World LabsはMarbleを「空間知能への旅路の一歩」と表現する。今後の重点は「人間やエージェントが生成された世界と新しい形で相互作用できること」であり、ロボティクスやシミュレーション領域でのユースケース拡大を見込むとしている。
-同社は「<a href="http://marble.worldlabs.ai">marble.worldlabs.ai</a>」での利用開始を呼びかけるとともに、同ビジョンに共感する技術者の参画を求めている。</p>
 ]]></description>
       <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
     </item>
