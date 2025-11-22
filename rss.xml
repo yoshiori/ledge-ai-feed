@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
+      <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
+      <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
+<p>ルカン氏は投稿の冒頭で「うわさや最近の報道で耳にした人もいるだろうが、12年間在籍したMetaを離れる計画だ」と述べ、退社を正式に表明した。FAIRの初代ディレクターとして5年、チーフAIサイエンティストとして7年を務めたと振り返り、「FAIRの創設は、自身の“最も誇りに思う非技術的な業績”」と強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/yann_lecun_facebook_3d6a371abb/yann_lecun_facebook_3d6a371abb.jpg" alt="yann lecun facebook.jpg" /></p>
+<h2>Advanced Machine Intelligence（AMI）研究を継続する独立スタートアップを設立</h2>
+<p>投稿によると、ルカン氏は「Advanced Machine Intelligence（AMI）」と名付けた研究プログラムを継続するため、新たなスタートアップを立ち上げる。同プログラムは、近年FAIRやニューヨーク大学（NYU）などの研究者と進めてきたもので、次のような能力を備えたAIシステムを目指すという。</p>
+<ul>
+<li>物理世界を理解する</li>
+<li>持続的な記憶を持つ</li>
+<li>推論できる</li>
+<li>複雑な行動計画を実行できる</li>
+</ul>
+<p>ルカン氏は、これを「次の大きなAI革命」につながる研究領域だと位置づける。スタートアップの詳細は後日公表するとしており、社名や資金調達の状況は明かしていない。</p>
+<h2>Metaは新会社のパートナーに──Zuckerberg氏らへの感謝も明記</h2>
+<p>投稿では、Mark Zuckerberg氏、Andrew Bosworth氏（Boz）、Chris Cox氏、Mike Schroepfer氏の4名に対し、FAIRおよびAMI研究への継続的な支援への謝意を述べている。そのうえで、「Metaは新会社のパートナーとなる」と記し、退社後も協力関係が続くことを示した。</p>
+<p>AMI研究のアプリケーションについては「Metaの商業領域と重なる部分もあれば、重ならない領域もある」とし、独立した組織で取り組むことが「広範なインパクトを最大化する手段」だと説明している。</p>
+<h2>研究者としての役割は継続、年末まではMetaに在籍</h2>
+<p>ルカン氏は現在、MetaのチーフAIサイエンティストとNYUの教授職を兼務している。投稿では、これらの役割に関する変更には触れておらず、研究活動は継続する見通しだ。</p>
+<p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
+]]></description>
+      <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
       <link>https://ledge.ai/articles/gen_ai_image_copyright_case_chiba_police</link>
       <description><![CDATA[<p>千葉県警生活経済課は2025年11月20日、生成AIで作成された画像を無断で複製したとして、神奈川県大和市の無職の男性（27）を著作権法違反（複製権侵害）の疑いで千葉地検に書類送致したと<a href="https://www.police.pref.chiba.jp/kohoka/orders_prefecture_03461.html">発表</a>した。県警によれば、生成AIで作られた画像を著作物として扱い、著作権法違反で摘発するのは全国で初めてとみられる。</p>
@@ -1016,33 +1040,6 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
 <p>同社は、今回のアップデートは1週間以内に全ユーザーに展開される予定で、画像の取り込みに関しては数週間以内に順次対応するとしている。NotebookLMは、資料整理ツールから、ウェブ検索と手元資料を横断する“AIリサーチ基盤”へと大きく踏み出したかたちだ。</p>
 ]]></description>
       <pubDate>Sun, 16 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>arXiv、コンピュータサイエンス分野でレビュー論文の投稿ルールを厳格化──AI生成サーベイの“洪水”に対処</title>
-      <link>https://ledge.ai/articles/arxiv_computer_science_review_policy_update_ai_generated_surveys</link>
-      <description><![CDATA[<p>プレプリントサーバーarXivは、コンピュータサイエンス（Computer Science）カテゴリーでレビュー論文・ポジションペーパーの投稿ルールを厳格化すると2025年10月31日付の公式ブログで<a href="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/">発表</a>した。背景には、AIによって大量に生成されたレビュー論文の急増があり、従来のモデレーション運用では処理が追いつかなくなっているという。</p>
-<h2>arXivを覆った「レビュー論文の雪崩」</h2>
-<p>近年のCSカテゴリーでは、レビュー論文・サーベイ論文が毎月数百件規模で流入している。arXivは、この多くが大規模言語モデル（LLM）によって短期間で作成されており、</p>
-<ul>
-<li>文献リストの再構成に近い</li>
-<li>未解決課題や研究動向の深掘りがない</li>
-<li>専門的整理や独自の洞察がほとんど示されていない
-といった特徴が見られると指摘する。</li>
-</ul>
-<p>研究コミュニティでも状況の深刻さが共有されており、arXivにはAI生成サーベイ論文の急増を「研究コミュニティへのDDoS攻撃」と表現するポジションペーパーも投稿されている。量・質の両面で“雪崩”のような状態となり、従来の例外的な受理運用では対応が困難になっていた。</p>
-<h2>「査読済み」の証明が必須に</h2>
-<p>こうした状況を受け、arXivはCSカテゴリーでの投稿運用を明確にした。今後、レビュー論文やポジションペーパーをarXivに投稿するには、以下の条件を満たす必要がある。</p>
-<ul>
-<li>査読付きジャーナルまたは会議で採択されていること</li>
-<li>査読が完了していること</li>
-<li>投稿時に査読完了の証拠（DOI・掲載先・会議名など）をメタデータとして記載すること</li>
-</ul>
-<p>公式ブログでは、これらの情報が不足している投稿は「高い確率でリジェクトされる」と明記されている。また、軽査読が一般的なWorkshop採択は十分な要件とは見なされない。</p>
-<h2>実は“新ポリシー”ではない──長年の例外運用を整理</h2>
-<p>arXivは今回の対応について、「これはポリシー変更ではなく、例外扱いだった論文タイプに対する“運用の明確化”」と説明する。</p>
-<p>arXivのコンテンツポリシーでは、主な受理対象は\</p>
-]]></description>
-      <pubDate>Sun, 16 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
