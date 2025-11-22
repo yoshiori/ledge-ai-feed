@@ -305,31 +305,6 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
       <pubDate>Thu, 20 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
-      <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
-      <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
-<h2>仕様に基づく開発を強化：プロパティベーステストに対応</h2>
-<p>Kiroの正式版では、仕様と実装の整合性を検証するための「プロパティベーステスト（property-based testing）」が導入された。開発者がEARS形式で記述した仕様から、Kiroがテストすべき“性質（プロパティ）”を自動抽出し、数百〜数千のランダムテストを生成して実装を検証する仕組みだ。反例が見つかった場合は、原因特定のため条件を徐々に単純化する「縮小（shrinking）」も実行される。</p>
-<p>これにより、個別のテストケースでは検出しづらい欠陥を発見しやすくなり、仕様ベースでの正確な実装を支援する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/correctness_f57a485373/correctness_f57a485373.png" alt="correctness.png" />
-Kiro IDEが生成したプロパティベーステストの例。仕様から抽出した“チケットIDが常に一意であること”という性質を可視化し、関連する要件・実装タスク・テスト結果を紐づけて表示する。</p>
-<h2>チェックポイントで開発プロセスを巻き戻し可能に</h2>
-<p>一般提供版では、エージェントが行った操作や変更内容を段階的に保存する「チェックポイント」機能を追加した。エージェントの提案やコード修正を進めた後でも、必要に応じて任意の状態へ戻れるため、実装方針の変更や手戻りが発生した際のコストを抑えられる。</p>
-<p>また、1つのKiroワークスペースで複数のプロジェクトルートを扱える「マルチルート」構成にも対応し、マイクロサービスやモノレポなど複雑な構成の開発にも利用できる。</p>
-<h2>IDEとターミナルを共通化する「Kiro CLI」</h2>
-<p>正式版の大きな追加点として、ターミナルで利用できる「Kiro CLI」が提供された。開発者は、IDE と同じエージェント環境をターミナルでもそのまま利用でき、Claude Sonnet 4.5 や Haiku 4.5 などのモデル、Autoエージェント、MCP（Model Context Protocol）ツールによるローカル操作やAPI呼び出しも実行できる。</p>
-<p>CLIとIDEは同一のステアリングファイルや認証情報、コンテキストを共有するため、開発環境を切り替えても同じワークフローを継続できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cli_5921207104/cli_5921207104.png" alt="cli.png" />
-一般提供版で新たに追加された「Kiro CLI」。IDEと同じエージェント環境をターミナルでも利用でき、AutoエージェントやMCPツールによる操作が可能になる。</p>
-<h2>AWS IAM連携のチーム管理と、スタートアップ向け1年無償プラン</h2>
-<p>Kiroは、AWS IAM Identity Centerと統合され、組織アカウントによるログインや、Pro／Pro+／Powerティアの利用制限、MCP設定、請求管理などをAWS側で一元的に管理できる。</p>
-<p>また、シリーズBまでの対象スタートアップには「Kiro Pro+」を1年間無償提供するオファーを開始した。既存のAWS Activateクレジットと併用可能で、2025年12月31日まで申請を受け付ける。</p>
-<h2>“AI駆動開発”の基盤へ</h2>
-<p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon創業者のジェフ・ベゾス氏、AI企業「プロジェクト・プロメテウス」の共同CEOに就任── “実世界AI” に本格参入</title>
       <link>https://ledge.ai/articles/jeff_bezos_project_prometheus_co_ceo_appointment</link>
       <description><![CDATA[<p>Amazon創業者のジェフ・ベゾス氏が、AIスタートアップ「Project Prometheus（プロジェクト・プロメテウス）」の共同最高経営責任者（CEO）に就任した。2025年11月17日に<a href="https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html">ニューヨークタイムズ</a>
@@ -408,77 +383,27 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
-      <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
-      <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
-<p>両機関は2024年、AIの危険行動能力を定量化する「Humanity’s Last Exam」を<a href="https://ledge.ai/articles/ai_humanitys_last_exam">共同発表</a>しており、RLIはその“実務版”として、AI能力を経済価値の観点から評価する試みとなる。</p>
-<h2>実務ベースの240プロジェクトで評価</h2>
-<p>RLIは、実在のフリーランスプラットフォームから収集した240件のプロジェクトを対象としている。
-各案件には以下が含まれる：</p>
-<ul>
-<li>クライアントによる依頼文（ブリーフ）</li>
-<li>実際の人間フリーランサーが作成した納品物</li>
-<li>入力ファイル（画像、図面、動画、音声、スクリプトなど）</li>
-<li>作業時間・報酬データ</li>
-</ul>
-<p>アノテーターがAIの成果物を評価し、「現実のクライアントが受け入れられるか」を合否判定する。AI自身による自動採点は使われていない。</p>
-<p><strong>RLIのタスク抽出プロセス</strong> ：550件のタスクを300人以上のフリーランサーから収集し、基準適合性のチェックと改善を経て、最終的に240件のプロジェクトを選定した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_2_dab90e3325/image_2_dab90e3325.png" alt="image (2).png" /></p>
-<h2>Automation Rate：最高でも2.5％</h2>
-<p>RLI公式リーダーボードの主なスコアは以下の通り。</p>
-<ul>
-<li>Manus：2.50％</li>
-<li>Claude 4.5 Sonnet：2.08％</li>
-<li>GPT-5（2025-08-07版）：1.67％</li>
-<li>ChatGPT agent：1.25％</li>
-<li>Gemini 2.5 pro-preview：0.83％</li>
-</ul>
-<p>いずれのモデルも、実務案件の約97〜99％を完了できなかった。公式サイトでも、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」と明記されている。</p>
-<h2>プロジェクト内容：動画、CAD、ゲーム開発など“実務そのもの”</h2>
-<p>240件は、従来の研究ベンチマークに比べて大幅に多様なカテゴリで構成されている。</p>
-<p><strong>RLIのプロジェクトカテゴリ構成</strong> ：RLIは動画制作、CAD、グラフィックデザイン、ゲーム開発、音声編集など23カテゴリで構成され、多様な実務タスクを含む。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/RLI_Project_Categories_c49b93ec58/RLI_Project_Categories_c49b93ec58.jpg" alt="RLI Project Categories.jpg" /></p>
-<ul>
-<li>動画制作（13％）</li>
-<li>CAD（12％）</li>
-<li>グラフィックデザイン（11％）</li>
-<li>ゲーム開発（10％）</li>
-<li>音声編集（10％）</li>
-<li>建築（7％）</li>
-<li>プロダクトデザイン（6％）</li>
-<li>その他（31％）</li>
-</ul>
-<p>さらに、プロジェクトの平均制作時間は28.9時間（中央値11.5時間）、報酬中央値は200ドルと、実務レベルの負荷を持つ。</p>
-<p><strong>RLIのプロジェクト負荷とカテゴリ比較</strong> ：人間の平均作業時間は28.9時間（中央値11.5時間）と高く、プロジェクト種別も一般のフリーランス市場（Upwork）と同等の分布を持つ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Core_Metrics_cf85d22247/Core_Metrics_cf85d22247.jpg" alt="Core Metrics.jpg" /></p>
-<p><strong>RLIで評価されたプロジェクト例</strong> ：データ可視化、3Dプロダクトレンダリング、動画制作、建築設計、ゲーム開発、科学文書作成など、多様な実務タスクが含まれている。</p>
-<h2>主な失敗モード：品質不足・不完全・整合性欠如</h2>
-<p>論文とリーダーボードの分析では、AIがプロジェクトを完了できない理由として以下が挙げられている。</p>
-<ul>
-<li>品質不足（45.6％）：専門水準に達していない</li>
-<li>不完全な納品物（35.7％）：動画が途中で終わる、3Dモデルが欠損</li>
-<li>ファイル破損・形式不備（17.6％）</li>
-<li>整合性欠如（14.8％）：複数ファイル間で仕様が一致しない</li>
-</ul>
-<p>具体例には、以下のようなケースがある：</p>
-<ul>
-<li>8分動画を求められた案件で、AIは8秒動画しか作れない</li>
-<li>3Dレンダリングの視点ごとに造形が変わる</li>
-<li>図面の寸法が実寸と合わない</li>
-<li>Webゲームが起動はするがグラフィックが破綻している</li>
-</ul>
-<h2>成功するタスクの傾向</h2>
-<p>数少ない成功例は、以下のような“閉じた生成タスク”に集中していた。</p>
-<ul>
-<li>ロゴ・バナー制作（画像生成）</li>
-<li>ボイス合成や簡易オーディオ編集</li>
-<li>表形式データの可視化</li>
-<li>簡易レポート作成</li>
-</ul>
-<p>一方、多工程・長尺のタスク、複数ファイルの整合性が必要なタスクではほぼ全滅しているという。</p>
-<h2>今後の展開</h2>
-<p>論文の著者らは、RLIの結果について「AIシステムが現実のフリーランス環境において委託業務として許容可能な水準でプロジェクトを完了できることは、ほとんどない」と記している。また、現在のモデル性能について「能力の下限に近い」と評価し、タスクの大半で“実務的完成度に到達しない”点を指摘した。</p>
-<p>研究チームはさらに、RLIが生成AIの進歩を今後継続的に追跡するための基盤になると位置づけており、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」というリーダーボード上の表現とともに、現時点でのAIエージェントの限界を明確に示した。</p>
+      <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
+      <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
+      <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
+<h2>仕様に基づく開発を強化：プロパティベーステストに対応</h2>
+<p>Kiroの正式版では、仕様と実装の整合性を検証するための「プロパティベーステスト（property-based testing）」が導入された。開発者がEARS形式で記述した仕様から、Kiroがテストすべき“性質（プロパティ）”を自動抽出し、数百〜数千のランダムテストを生成して実装を検証する仕組みだ。反例が見つかった場合は、原因特定のため条件を徐々に単純化する「縮小（shrinking）」も実行される。</p>
+<p>これにより、個別のテストケースでは検出しづらい欠陥を発見しやすくなり、仕様ベースでの正確な実装を支援する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/correctness_f57a485373/correctness_f57a485373.png" alt="correctness.png" />
+Kiro IDEが生成したプロパティベーステストの例。仕様から抽出した“チケットIDが常に一意であること”という性質を可視化し、関連する要件・実装タスク・テスト結果を紐づけて表示する。</p>
+<h2>チェックポイントで開発プロセスを巻き戻し可能に</h2>
+<p>一般提供版では、エージェントが行った操作や変更内容を段階的に保存する「チェックポイント」機能を追加した。エージェントの提案やコード修正を進めた後でも、必要に応じて任意の状態へ戻れるため、実装方針の変更や手戻りが発生した際のコストを抑えられる。</p>
+<p>また、1つのKiroワークスペースで複数のプロジェクトルートを扱える「マルチルート」構成にも対応し、マイクロサービスやモノレポなど複雑な構成の開発にも利用できる。</p>
+<h2>IDEとターミナルを共通化する「Kiro CLI」</h2>
+<p>正式版の大きな追加点として、ターミナルで利用できる「Kiro CLI」が提供された。開発者は、IDE と同じエージェント環境をターミナルでもそのまま利用でき、Claude Sonnet 4.5 や Haiku 4.5 などのモデル、Autoエージェント、MCP（Model Context Protocol）ツールによるローカル操作やAPI呼び出しも実行できる。</p>
+<p>CLIとIDEは同一のステアリングファイルや認証情報、コンテキストを共有するため、開発環境を切り替えても同じワークフローを継続できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cli_5921207104/cli_5921207104.png" alt="cli.png" />
+一般提供版で新たに追加された「Kiro CLI」。IDEと同じエージェント環境をターミナルでも利用でき、AutoエージェントやMCPツールによる操作が可能になる。</p>
+<h2>AWS IAM連携のチーム管理と、スタートアップ向け1年無償プラン</h2>
+<p>Kiroは、AWS IAM Identity Centerと統合され、組織アカウントによるログインや、Pro／Pro+／Powerティアの利用制限、MCP設定、請求管理などをAWS側で一元的に管理できる。</p>
+<p>また、シリーズBまでの対象スタートアップには「Kiro Pro+」を1年間無償提供するオファーを開始した。既存のAWS Activateクレジットと併用可能で、2025年12月31日まで申請を受け付ける。</p>
+<h2>“AI駆動開発”の基盤へ</h2>
+<p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -1100,7 +1025,82 @@ Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
 <h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
 <p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
 ]]></description>
-      <pubDate>Fri, 14 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 15 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
+      <link>https://ledge.ai/articles/ai_freelancer_automation_rli_25percent</link>
+      <description><![CDATA[<p>米Scale AIとCenter for AI Safety（CAIS）は、AIエージェントが実際のフリーランス業務をどこまで自動化できるかを測定する新しい評価指標「Remote Labor Index（RLI）」を公開した。2025年10月30日にarXivへ投稿された<a href="https://arxiv.org/abs/2510.26787v1">研究論文</a>および最新<a href="https://scale.com/leaderboard/rli">リーダーボード</a>によると、最先端のAIエージェントでも「委託可能な品質で完了できた案件」は2.5％にとどまったという。</p>
+<p>両機関は2024年、AIの危険行動能力を定量化する「Humanity’s Last Exam」を<a href="https://ledge.ai/articles/ai_humanitys_last_exam">共同発表</a>しており、RLIはその“実務版”として、AI能力を経済価値の観点から評価する試みとなる。</p>
+<h2>実務ベースの240プロジェクトで評価</h2>
+<p>RLIは、実在のフリーランスプラットフォームから収集した240件のプロジェクトを対象としている。
+各案件には以下が含まれる：</p>
+<ul>
+<li>クライアントによる依頼文（ブリーフ）</li>
+<li>実際の人間フリーランサーが作成した納品物</li>
+<li>入力ファイル（画像、図面、動画、音声、スクリプトなど）</li>
+<li>作業時間・報酬データ</li>
+</ul>
+<p>アノテーターがAIの成果物を評価し、「現実のクライアントが受け入れられるか」を合否判定する。AI自身による自動採点は使われていない。</p>
+<p><strong>RLIのタスク抽出プロセス</strong> ：550件のタスクを300人以上のフリーランサーから収集し、基準適合性のチェックと改善を経て、最終的に240件のプロジェクトを選定した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_2_dab90e3325/image_2_dab90e3325.png" alt="image (2).png" /></p>
+<h2>Automation Rate：最高でも2.5％</h2>
+<p>RLI公式リーダーボードの主なスコアは以下の通り。</p>
+<ul>
+<li>Manus：2.50％</li>
+<li>Claude 4.5 Sonnet：2.08％</li>
+<li>GPT-5（2025-08-07版）：1.67％</li>
+<li>ChatGPT agent：1.25％</li>
+<li>Gemini 2.5 pro-preview：0.83％</li>
+</ul>
+<p>いずれのモデルも、実務案件の約97〜99％を完了できなかった。公式サイトでも、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」と明記されている。</p>
+<h2>プロジェクト内容：動画、CAD、ゲーム開発など“実務そのもの”</h2>
+<p>240件は、従来の研究ベンチマークに比べて大幅に多様なカテゴリで構成されている。</p>
+<p><strong>RLIのプロジェクトカテゴリ構成</strong> ：RLIは動画制作、CAD、グラフィックデザイン、ゲーム開発、音声編集など23カテゴリで構成され、多様な実務タスクを含む。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/RLI_Project_Categories_c49b93ec58/RLI_Project_Categories_c49b93ec58.jpg" alt="RLI Project Categories.jpg" /></p>
+<ul>
+<li>動画制作（13％）</li>
+<li>CAD（12％）</li>
+<li>グラフィックデザイン（11％）</li>
+<li>ゲーム開発（10％）</li>
+<li>音声編集（10％）</li>
+<li>建築（7％）</li>
+<li>プロダクトデザイン（6％）</li>
+<li>その他（31％）</li>
+</ul>
+<p>さらに、プロジェクトの平均制作時間は28.9時間（中央値11.5時間）、報酬中央値は200ドルと、実務レベルの負荷を持つ。</p>
+<p><strong>RLIのプロジェクト負荷とカテゴリ比較</strong> ：人間の平均作業時間は28.9時間（中央値11.5時間）と高く、プロジェクト種別も一般のフリーランス市場（Upwork）と同等の分布を持つ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Core_Metrics_cf85d22247/Core_Metrics_cf85d22247.jpg" alt="Core Metrics.jpg" /></p>
+<p><strong>RLIで評価されたプロジェクト例</strong> ：データ可視化、3Dプロダクトレンダリング、動画制作、建築設計、ゲーム開発、科学文書作成など、多様な実務タスクが含まれている。</p>
+<h2>主な失敗モード：品質不足・不完全・整合性欠如</h2>
+<p>論文とリーダーボードの分析では、AIがプロジェクトを完了できない理由として以下が挙げられている。</p>
+<ul>
+<li>品質不足（45.6％）：専門水準に達していない</li>
+<li>不完全な納品物（35.7％）：動画が途中で終わる、3Dモデルが欠損</li>
+<li>ファイル破損・形式不備（17.6％）</li>
+<li>整合性欠如（14.8％）：複数ファイル間で仕様が一致しない</li>
+</ul>
+<p>具体例には、以下のようなケースがある：</p>
+<ul>
+<li>8分動画を求められた案件で、AIは8秒動画しか作れない</li>
+<li>3Dレンダリングの視点ごとに造形が変わる</li>
+<li>図面の寸法が実寸と合わない</li>
+<li>Webゲームが起動はするがグラフィックが破綻している</li>
+</ul>
+<h2>成功するタスクの傾向</h2>
+<p>数少ない成功例は、以下のような“閉じた生成タスク”に集中していた。</p>
+<ul>
+<li>ロゴ・バナー制作（画像生成）</li>
+<li>ボイス合成や簡易オーディオ編集</li>
+<li>表形式データの可視化</li>
+<li>簡易レポート作成</li>
+</ul>
+<p>一方、多工程・長尺のタスク、複数ファイルの整合性が必要なタスクではほぼ全滅しているという。</p>
+<h2>今後の展開</h2>
+<p>論文の著者らは、RLIの結果について「AIシステムが現実のフリーランス環境において委託業務として許容可能な水準でプロジェクトを完了できることは、ほとんどない」と記している。また、現在のモデル性能について「能力の下限に近い」と評価し、タスクの大半で“実務的完成度に到達しない”点を指摘した。</p>
+<p>研究チームはさらに、RLIが生成AIの進歩を今後継続的に追跡するための基盤になると位置づけており、「Absolute Automation is Near Zero（絶対的自動化はほぼゼロに近い）」というリーダーボード上の表現とともに、現時点でのAIエージェントの限界を明確に示した。</p>
+]]></description>
+      <pubDate>Sat, 15 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/12 [WED]Wikipedia、AI企業に「知の還元」を要請──無断スクレイピングから有料API「Wikimedia Enterprise」へ、持続可能な共創を目指す</title>
