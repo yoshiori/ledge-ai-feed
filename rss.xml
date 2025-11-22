@@ -5,6 +5,93 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
+      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
+      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
+<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
+<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
+<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
+これらは</p>
+<ul>
+<li>誤情報</li>
+<li>攻撃的な表現</li>
+<li>情報量の乏しい短文</li>
+</ul>
+<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
+<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
+<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
+<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
+<ul>
+<li>テキストの品質（semantic quality）</li>
+<li>エンゲージメント（人気度）</li>
+</ul>
+<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
+評価には、</p>
+<ul>
+<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
+<li>長文コンテキスト理解（RULER）</li>
+<li>安全性（有害発言誘発テスト）</li>
+<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
+</ul>
+<p>が利用された。</p>
+<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
+<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
+<p>この “劣化の全体像” は、下図のように整理されている。</p>
+<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
+低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
+<p>この図が示すように、</p>
+<ul>
+<li>ARC Challenge</li>
+<li>RULER</li>
+<li>HH-RLHF（安全性関連）</li>
+</ul>
+<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
+<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
+<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
+低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
+<p>この図が表している通り、</p>
+<ul>
+<li>no thinking（思考が全く行われない）</li>
+<li>wrong logic in plan（計画の論理破綻）</li>
+<li>factual error（事実誤認）</li>
+</ul>
+<p>などの“思考の崩壊”が顕著に増加している。</p>
+<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
+<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
+<ul>
+<li>有害な発言を誘発しやすくなる</li>
+<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
+<li>不正確な主張を自信満々に述べるケースが増える</li>
+</ul>
+<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
+<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
+<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
+研究者らはこの仮説も検証した。</p>
+<p>結果は次の通り。</p>
+<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
+ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
+<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
+研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
+<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
+<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
+<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
+<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
+<p>研究チームは、</p>
+<ul>
+<li>データ品質フィルタリングの強化</li>
+<li>SNS由来データの評価と管理</li>
+<li>「Brain Rot」兆候の定期的検査</li>
+</ul>
+<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
+<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
+]]></description>
+      <pubDate>Fri, 21 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
       <link>https://ledge.ai/articles/google_nano_banana_pro_release</link>
       <description><![CDATA[<p>Google は2025年11月20日（米国時間）、画像生成AI「Nano Banana」の最新バージョンとなる 「Nano Banana Pro」 を<a href="https://blog.google/intl/ja-jp/company-news/technology/nano-banana-pro/">発表</a>した。Gemini 3 Pro Image を基盤とした新しい画像生成システムで、、4K解像度の高精細生成や多言語テキスト描画の精度が大幅に向上しているという。</p>
