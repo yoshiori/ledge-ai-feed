@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日本IBMとセガXD、生成AIを学べるカードバトル研修「バトルワーカーズ」──業務内容をAIがカード化し対戦形式で学習</title>
+      <link>https://ledge.ai/articles/generative_ai_card_game_training_battle_workers_ibm_segaxd</link>
+      <description><![CDATA[<p>日本IBMは2025年11月17日、生成AIの基礎やプロンプト設計、リスク理解をカードバトル形式で学べる企業向け研修サービス「Generative AI Card Game Training – バトルワーカーズ」を<a href="https://jp.newsroom.ibm.com/2025-11-17-generative-ai-card-game">発表</a>した。研修設計は、ゲーミフィケーション専門企業である株式会社セガ エックスディー（セガXD）が監修した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Press2_Generated_Cards_0743fa59b7/Press2_Generated_Cards_0743fa59b7.jpg" alt="Press2_GeneratedCards.jpg" /></p>
+<h2>業務内容を入力するとAIがカード化</h2>
+<p>参加者自身の「仕事内容」を入力すると、生成AIがその内容をもとに バトルカード3枚とサポートカード1枚 を自動生成する仕組みを採用。カードには業務内容を反映した特徴や強み、スコアが記載され、研修参加者はこれらのカードを用いて対戦形式のゲームを行う。</p>
+<p>カード生成の結果は入力する文章内容に大きく左右されるため、参加者は自然と「どの情報を、どのように記述すればAIが適切に解釈するか」を体験的に学ぶことができる。プロンプトの書き方による出力の違いを、そのままゲームの手札として実感できる構造だ。</p>
+<h2>プロンプト設計・リスク理解も体験的に学べる</h2>
+<p>研修のねらいとして同社は、生成AIの仕組み理解に加え、AI実務で重要となるプロンプト設計スキルやハルシネーション対策、著作権・情報管理を含むリスク理解の習得を挙げている。</p>
+<p>業務内容の入力時には、どこまで詳細を書けるのか、機密情報は避けるべきか、といった情報マネジメント意識が問われる。また、生成AIが業務を誤解してカード化するケースもあり、ハルシネーション（AIの誤生成）への注意点を議論する導入にもつながるという。</p>
+<h2>生成AIリテラシー格差への対応</h2>
+<p>企業における生成AI活用が急速に広がる一方で、社員間のリテラシー格差は依然として課題とされる。
+日本IBMは、ゲームという直感的な学習形式を取り入れることで、初心者でも無理なく生成AIの特性を掴める研修として位置づけている。参加者が「自分の業務」を題材に学ぶため、通常の座学研修よりも実務への応用をイメージしやすい点も特徴だ。</p>
+<p>セガXDは、ゲームデザインや参加意欲を高める仕組みづくりに強みを持つ企業で、今回の研修ではバトル形式の導入やカード構造の設計に協力した。</p>
+<p>研修を通じて同社は、企業における生成AI活用の基礎力向上を図るとともに、今後もリテラシー教育コンテンツの拡充を進める方針だ。</p>
+]]></description>
+      <pubDate>Sun, 23 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIモデルが“毎分”アナログ時計を描くとどうなる？──9つのAIの“苦手さ”が見える実験サイト『AI World Clocks』</title>
       <link>https://ledge.ai/articles/ai_world_clocks_ai_models_generate_clocks_every_minute</link>
       <description><![CDATA[<p>ロサンゼルス拠点のアーティスト、Brian Moore 氏が、生成AIの“揺れ”を視覚的に楽しめるウェブサイト「<a href="https://clocks.brianmoore.com/">AI World Clocks</a>」を公開した。ページを開くと、毎分更新で9種類のAIモデルが描いたアナログ時計が並ぶ。時間ごとに姿を変える時計群からは、AIが“同じ指示でも同じものを作れない”という現実がよく見えてくる。海外コミュニティでの投稿やメディア報道から、2025年11月中旬に公開されたとみられる。</p>
@@ -972,18 +991,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>同社は今回のシリーズBを通じ、効率性・持続可能性・社会実装を軸とした「日本らしいAI開発」をさらに推し進めるとしている。</p>
 ]]></description>
       <pubDate>Mon, 17 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、米AIインフラに500億ドル投資──テキサス＆ニューヨークで専用データセンター建設へ</title>
-      <link>https://ledge.ai/articles/anthropic_us_ai_infrastructure_50b_investment</link>
-      <description><![CDATA[<p>Anthropicは2025年11月12日（現地時間）、米国内のAI計算インフラに総額500億ドル（約7.7兆円）を投資し、テキサス州とニューヨーク州で次世代データセンターを建設すると<a href="https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure">発表</a>した。</p>
-<p>AIインフラ企業である英Fluidstackと共同で進める計画で、2026年を通じて順次稼働を開始する見通しだ。今回の計画は、同社の生成AI「Claude」シリーズとフロンティア研究を支える基盤を強化することを目的とする。</p>
-<p>Anthropicは、データセンター建設により約800名の常勤職と2,400名の建設関連職を創出すると説明。テキサスとニューヨークでの新拠点に加え、今後さらに追加サイトを設ける予定も示した。</p>
-<p>同社CEOのDario Amodei氏は、AIが科学・産業の領域で重要な発見をもたらす段階に近づいているとし、「こうした可能性を実現するためには、フロンティア研究を支える強力な計算インフラが必要だ」と述べた。急速に増加するClaude利用企業の需要に対応し、より高度なモデル開発を継続するための投資であるとしている。</p>
-<p>提携先Fluidstackについては、ギガワット級の電力容量を迅速に提供できる俊敏性を評価したと説明。同社CEOのGary Wu氏は「私たちはこの瞬間のために準備してきた。AnthropicのようなフロンティアAI企業と協力し、大規模インフラを展開できることを誇りに思う」と述べている。</p>
-<p>今回の発表では、米国の「AI Action Plan」にも言及されており、同社の投資が国内テクノロジーインフラの強化に資するとの見解を示した。Anthropicは今後も、費用対効果を重視した形で米国内インフラを拡張していく方針だ。</p>
-]]></description>
-      <pubDate>Mon, 17 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
