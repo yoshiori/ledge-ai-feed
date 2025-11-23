@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
+      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
+      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
+<h2>気象予報の高速化と高解像度化</h2>
+<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
+<h2>数百のシナリオ生成に対応</h2>
+<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
+<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
+<h2>研究成果の提供範囲を拡大</h2>
+<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
+<ul>
+<li>Earth Engine：気象データ分析向け</li>
+<li>BigQuery：予測データの活用拡大</li>
+<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
+</ul>
+<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
+<h2>Googleサービス全般の天気機能を更新</h2>
+<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
+<ul>
+<li>Google検索</li>
+<li>Gemini</li>
+<li>Pixel Weather</li>
+<li>Google Maps Platform の Weather API</li>
+</ul>
+<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
+<h2>技術基盤：Functional Generative Networks（FGN）</h2>
+<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
+<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
+<h2>従来モデルの補完としての位置づけ</h2>
+<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
+<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
+]]></description>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
       <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
       <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
@@ -932,39 +970,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>MUFGは、全社員を対象としたAI浸透プログラム「Hello, AI @MUFG」を通じて教育や研修を行い、AIを活用できる人材（AIチャンピオン）の育成を進めている。今回の協業では、こうした社内施策に加え、四半期ごとの戦略レビューによりOpenAIの最新モデルや機能を随時取り込み、行内業務とリテール領域の双方でAI活用の取り組みを拡大していく計画を示した。</p>
 ]]></description>
       <pubDate>Mon, 17 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、NotebookLMをリサーチ基盤に強化──Deep Research＋Drive/Sheets/Word対応でWorkspaceと統合加速</title>
-      <link>https://ledge.ai/articles/notebooklm_deep_research_workspace_integration</link>
-      <description><![CDATA[<p>Googleは2025年11月13日（米国時間）、AIリサーチツール「NotebookLM」にオンライン調査を自動化する新機能「Deep Research」を導入し、あわせてGoogle SheetsやGoogle Drive上のPDF、Microsoft Word（.docx）、画像など複数のファイル形式に対応したと<a href="https://blog.google/technology/google-labs/notebooklm-deep-research-file-types/">発表</a>した。NotebookLMはユーザーの手元資料とウェブ上の情報を横断して扱える“調査エージェント”へと進化する。</p>
-<h2>NotebookLMが“調査を代行するAI”に進化</h2>
-<p>Deep Researchは、NotebookLMがユーザーの代わりに複雑な調査タスクを実行するエージェント機能だ。質問を入力するとNotebookLMがリサーチプランを自動生成し、何百ものウェブサイトを巡回しながら検索内容を絞り込み、数分で構造化レポートを作成する。</p>
-<p>特徴は、レポートを作って終わりではない点にある。
-生成されたレポートと参照したソースは、そのままNotebookLMのノートブックに取り込める。さらに調査はバックグラウンドで進み続け、ユーザーは同時に別の資料を追加してナレッジベースを拡張できる。NotebookLMの音声要約（Audio Overview）や動画要約（Video Overview）機能とも組み合わせられ、調査テーマの理解を深めやすくなる。</p>
-<p>また、Googleは「特定のサイトを指定して検索させる」ことも可能としており、調査対象の精度も調整できる。</p>
-<h2>Fast Research と Deep Research、選べる2つの調査モード</h2>
-<p>オンライン調査は、「Web」をソースとして選んだときに開始できる。
-Googleは利用シーンに応じて以下の2スタイルを用意した。</p>
-<ul>
-<li><strong>Fast Research</strong> ：すぐに情報を把握したいときの高速モード。短時間で情報をスキャンし、必要なソースを素早く取り込める。</li>
-<li><strong>Deep Research</strong> ：詳細なブリーフィングを生成したい場面に向く。高品質な記事・論文を見つけるために深く分析し、処理中もユーザーはNotebookLMで他の作業を続けられる。</li>
-</ul>
-<p>オンライン調査の“強度”を任意にコントロールできる点が従来のNotebookLMから大きく進化したポイントだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/notebooklm_deepresearch_509355bfb0/notebooklm_deepresearch_509355bfb0.jpg" alt="notebooklm deepresearch.jpg" /></p>
-<h2>対応ファイル形式を拡大：Sheets、Drive URL、画像、PDF、.docx</h2>
-<p>Googleは、ユーザーの調査ワークフローが複数の形式に分散している現状に合わせ、NotebookLMが扱えるソースタイプを大幅に拡張した。今回対応したのは以下の5種類。</p>
-<ul>
-<li><strong>Google Sheets</strong> ：スプレッドシートを直接取り込み、統計情報の抽出や表データの要約が可能</li>
-<li><strong>DriveファイルのURL</strong> ：Drive上のファイルをURLとして追加でき、通常のウェブページ同様に複数リンクを一度に貼り付けられる</li>
-<li><strong>画像（Images）</strong> ：手書きノートの写真やパンフレットの画像をアップロードし、内容を解析してテキスト化</li>
-<li><strong>Google Drive上のPDF</strong> ：Driveに保存した論文やレポート、電子書籍などを直接NotebookLMで分析できる</li>
-<li><strong>Microsoft Word（.docx）</strong> ：Word文書をアップロードして、ドラフトやメモをそのまま調査ソースとして扱える</li>
-</ul>
-<p>表データ、文書、PDF、画像メモといった“調査の現場で実際に使われる資料”を統合的に扱えるようになり、NotebookLMはGoogle Workspaceとの連携を強く意識した構造になってきた。</p>
-<h2>来週すべてのユーザーが利用可能に、画像は数週間以内</h2>
-<p>同社は、今回のアップデートは1週間以内に全ユーザーに展開される予定で、画像の取り込みに関しては数週間以内に順次対応するとしている。NotebookLMは、資料整理ツールから、ウェブ検索と手元資料を横断する“AIリサーチ基盤”へと大きく踏み出したかたちだ。</p>
-]]></description>
-      <pubDate>Sun, 16 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
