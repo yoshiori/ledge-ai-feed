@@ -62,44 +62,6 @@
       <pubDate>Sun, 23 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
-      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
-      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
-<h2>気象予報の高速化と高解像度化</h2>
-<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
-<h2>数百のシナリオ生成に対応</h2>
-<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
-<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
-<h2>研究成果の提供範囲を拡大</h2>
-<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
-<ul>
-<li>Earth Engine：気象データ分析向け</li>
-<li>BigQuery：予測データの活用拡大</li>
-<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
-</ul>
-<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
-<h2>Googleサービス全般の天気機能を更新</h2>
-<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
-<ul>
-<li>Google検索</li>
-<li>Gemini</li>
-<li>Pixel Weather</li>
-<li>Google Maps Platform の Weather API</li>
-</ul>
-<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
-<h2>技術基盤：Functional Generative Networks（FGN）</h2>
-<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
-<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
-<h2>従来モデルの補完としての位置づけ</h2>
-<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
-<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
       <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
       <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
@@ -400,6 +362,67 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
       <pubDate>Thu, 20 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
+      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
+      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
+<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
+<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
+<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
+具体的には以下の例を挙げた。</p>
+<ul>
+<li>LMArena：Elo 1501</li>
+<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
+<li>GPQA Diamond：91.9%</li>
+<li>MathArena Apex：23.4%</li>
+</ul>
+<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
+<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
+<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
+<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
+<ul>
+<li>Humanity’s Last Exam：41.0%</li>
+<li>GPQA Diamond：93.8%</li>
+<li>ARC-AGI-2（コード実行あり）：45.1%</li>
+</ul>
+<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
+<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
+<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
+<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
+<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
+<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
+<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
+<ul>
+<li>Google AI Studio（Gemini API）</li>
+<li>Vertex AI</li>
+<li>Gemini CLI</li>
+<li>Google Antigravity（新エージェント指向IDE）</li>
+<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
+</ul>
+<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
+<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
+<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
+<h2>長期計画のタスクでもトップスコアを記録</h2>
+<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
+<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
+<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
+<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
+<ul>
+<li>迎合的な回答（シコファンシー）の抑制</li>
+<li>プロンプトインジェクション耐性の向上</li>
+<li>サイバー攻撃・悪用に対する防御強化</li>
+</ul>
+<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
+<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
+<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
+]]></description>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon創業者のジェフ・ベゾス氏、AI企業「プロジェクト・プロメテウス」の共同CEOに就任── “実世界AI” に本格参入</title>
       <link>https://ledge.ai/articles/jeff_bezos_project_prometheus_co_ceo_appointment</link>
       <description><![CDATA[<p>Amazon創業者のジェフ・ベゾス氏が、AIスタートアップ「Project Prometheus（プロジェクト・プロメテウス）」の共同最高経営責任者（CEO）に就任した。2025年11月17日に<a href="https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html">ニューヨークタイムズ</a>
@@ -550,69 +573,6 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI音楽、リスナーの97%が見抜けず──Deezer調査で浮かぶ「ラベリング必須」と「著作権侵害への懸念」</title>
-      <link>https://ledge.ai/articles/deezer_ipsos_ai_music_97percent_survey</link>
-      <description><![CDATA[<p>音楽ストリーミングサービスのDeezerは2025年11月12日、調査会社Ipsosと共同で、AI生成音楽に対するリスナー意識を探る初の国際大規模調査を実施したと<a href="https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/">発表</a>した。</p>
-<p>8カ国・9000人を対象にしたブラインドテストでは、参加者の97％が「完全にAI生成された音楽」と「人間が制作した音楽」を聴き分けることができなかった。一方で多くのユーザーは、この結果に驚きや不安を覚え、AI音楽の明確なラベリングや著作権の公正な扱いを求めていることが明らかになった。</p>
-<h2>8カ国・9000人調査で浮かぶ、AI音楽への“戸惑い”</h2>
-<p>調査は米国、カナダ、ブラジル、英国、フランス、オランダ、ドイツ、日本の8カ国で実施され、18〜65歳の9000人が参加した。参加者は3曲の音源を聴き、どれが完全なAI生成音楽かを判断するよう求められたが、97％が誤答。71％がこの結果に「驚いた」と回答し、52％は「人間とAIの音楽を区別できないことに不快感」を覚えたという。</p>
-<p>AI音楽は一般リスナーにとって、すでに「ほぼ人間と区別がつかない段階」に達していることを示す結果となった。</p>
-<h2>AI音楽への期待と懸念 ― 創造性が失われると感じる人が64％</h2>
-<p>AIに対する一般的な認知は高く、98％が「AIについて聞いたことがある」と回答し、72％は「少なくとも数回はAIを使った経験がある」とした。
-音楽領域でも、</p>
-<ul>
-<li>46％：AIが新しい音楽の発見を助ける</li>
-<li>51％：AIは今後10年で音楽制作に大きな役割を果たす
-といった期待の声がある一方で、</li>
-<li>51％：低品質・画一的な音楽が増える</li>
-<li>64％：AIが音楽制作の創造性を失わせる
-と懸念も強い。</li>
-</ul>
-<p>リスナーはAIへの好奇心と、創作物の質への不安との間で揺れている。</p>
-<h2>「AI音楽は聴くが、区別はしたい」──透明性への強い要望</h2>
-<p>音楽ストリーミングユーザー（n=6791）を対象とした調査では、</p>
-<ul>
-<li>66％：好奇心から100％AI音楽を一度は聴いてみたい</li>
-<li>45％：AI音楽をフィルターで除外したい</li>
-<li>40％：AI音楽と分かればスキップしたい
-と回答。
-興味はある一方で、「AI音楽と人間の音楽を区別したい」という強いニーズが浮き彫りになった。</li>
-</ul>
-<p>透明性に関する項目では、</p>
-<ul>
-<li>80％：100％AI生成音楽は明確にラベル表示すべき</li>
-<li>73％（音楽ストリーミングユーザー）：サービスがAI音楽を推薦しているかどうか知りたい</li>
-<li>52％：AI音楽を人間の楽曲と同じチャートに含めるべきではない
-といった声が寄せられた。</li>
-</ul>
-<p>AI音楽の存在が受容されつつある反面、ユーザーは“知らない間にAI音楽を聴かされる”ことに警戒している。</p>
-<h2>著作権保護への強い危機感 ― 許可なきAI学習は「非倫理的」</h2>
-<p>調査はAIの学習に著作権作品を使うことに対する強い慎重姿勢も示した。</p>
-<ul>
-<li>65％：著作権作品を無断でAI学習に利用すべきではない</li>
-<li>73％：アーティストの許可なく著作権作品を使ってAIが音楽生成するのは非倫理的</li>
-<li>70％：AI音楽は現役・未来のアーティストの生計を脅かす</li>
-<li>69％：AI生成曲への支払いは人間の楽曲より低くすべき
-ユーザーはAI音楽の存在そのものよりも、その背後にある「データの扱い」や「創作者の収益」への影響に敏感だ。</li>
-</ul>
-<h2>Deezerは毎日5万曲のAI音楽を受信──34％がAI</h2>
-<p>Deezerは現在、1日あたり約5万曲の完全AI生成トラックを受け取っており、1日に届く全楽曲の34％を占めているという。同社は2025年初頭からAI検出ツールを運用しており、SunoやUdioなど主要AIモデルで生成された音源を識別できるとのこと。</p>
-<p>また、AI音楽のストリーミングの最大70％が不正再生だったケースも確認しており、該当ストリームはロイヤリティから除外している。</p>
-<h2>AI曲は推薦・プレイリストから除外、チャート混入を回避</h2>
-<p>Deezerは2025年6月、業界で初めて「100％AI生成音楽」をタグ付けしたプラットフォームとなった。
-現在は、</p>
-<ul>
-<li>AI曲をアルゴリズム推薦から自動除外</li>
-<li>編集プレイリストにも掲載しない</li>
-<li>チャート集計でも区別運用を検討</li>
-</ul>
-<p>と、透明性確保とアーティスト保護を重視した対策を進めている。</p>
-<p>DeezerのCEOであるAlexis Lanternier氏は、聴いている音楽がAIなのか人間なのかを知りたいというユーザーの意識を明確に示した。AIがアーティストの活動や著作権を損なうべきではないという点についても広範な支持があると述べた。</p>
-<p>同社は今後、AI検出技術の特許出願など、AI音楽時代における透明性基準の確立を目指しているという。</p>
-]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
       <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
       <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
@@ -740,6 +700,44 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>Preparedness Frameworkによる評価では、GPT-5同様、バイオ・ケミカル分野をHighリスクとして分類し、追加セーフガードを適用。サイバーセキュリティやAI自己改善領域はHighには達していないとしている。</p>
 <h2>今後の展開</h2>
 <p>OpenAIは、GPT-5.1を「GPT-5世代の継続的アップデートの第一段」と位置づけており、今後もユーザー体験とアシスタント性能の向上に向けて改良を続ける方針だ。トーン設定や会話文への即時反映といった今回の追加機能は、今後もさらに拡張される予定である。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
+      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
+      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
+<h2>気象予報の高速化と高解像度化</h2>
+<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
+<h2>数百のシナリオ生成に対応</h2>
+<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
+<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
+<h2>研究成果の提供範囲を拡大</h2>
+<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
+<ul>
+<li>Earth Engine：気象データ分析向け</li>
+<li>BigQuery：予測データの活用拡大</li>
+<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
+</ul>
+<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
+<h2>Googleサービス全般の天気機能を更新</h2>
+<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
+<ul>
+<li>Google検索</li>
+<li>Gemini</li>
+<li>Pixel Weather</li>
+<li>Google Maps Platform の Weather API</li>
+</ul>
+<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
+<h2>技術基盤：Functional Generative Networks（FGN）</h2>
+<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
+<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
+<h2>従来モデルの補完としての位置づけ</h2>
+<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
+<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -991,67 +989,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>同社は今回のシリーズBを通じ、効率性・持続可能性・社会実装を軸とした「日本らしいAI開発」をさらに推し進めるとしている。</p>
 ]]></description>
       <pubDate>Mon, 17 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
-      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
-      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
-<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
-<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
-<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
-具体的には以下の例を挙げた。</p>
-<ul>
-<li>LMArena：Elo 1501</li>
-<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
-<li>GPQA Diamond：91.9%</li>
-<li>MathArena Apex：23.4%</li>
-</ul>
-<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
-<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
-<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
-<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
-<ul>
-<li>Humanity’s Last Exam：41.0%</li>
-<li>GPQA Diamond：93.8%</li>
-<li>ARC-AGI-2（コード実行あり）：45.1%</li>
-</ul>
-<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
-<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
-<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
-<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
-<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
-<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
-<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
-<ul>
-<li>Google AI Studio（Gemini API）</li>
-<li>Vertex AI</li>
-<li>Gemini CLI</li>
-<li>Google Antigravity（新エージェント指向IDE）</li>
-<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
-</ul>
-<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
-<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
-<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
-<h2>長期計画のタスクでもトップスコアを記録</h2>
-<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
-<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
-<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
-<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
-<ul>
-<li>迎合的な回答（シコファンシー）の抑制</li>
-<li>プロンプトインジェクション耐性の向上</li>
-<li>サイバー攻撃・悪用に対する防御強化</li>
-</ul>
-<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
-<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
-<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
-]]></description>
-      <pubDate>Sat, 15 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
