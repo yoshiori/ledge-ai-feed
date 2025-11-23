@@ -5,6 +5,44 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIモデルが“毎分”アナログ時計を描くとどうなる？──9つのAIの“苦手さ”が見える実験サイト『AI World Clocks』</title>
+      <link>https://ledge.ai/articles/ai_world_clocks_ai_models_generate_clocks_every_minute</link>
+      <description><![CDATA[<p>ロサンゼルス拠点のアーティスト、Brian Moore 氏が、生成AIの“揺れ”を視覚的に楽しめるウェブサイト「<a href="https://clocks.brianmoore.com/">AI World Clocks</a>」を公開した。ページを開くと、毎分更新で9種類のAIモデルが描いたアナログ時計が並ぶ。時間ごとに姿を変える時計群からは、AIが“同じ指示でも同じものを作れない”という現実がよく見えてくる。海外コミュニティでの投稿やメディア報道から、2025年11月中旬に公開されたとみられる。</p>
+<p>例：とある日の午後4時22分の表示
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_world_clock_collage_6bc41e0c7f/ai_world_clock_collage_6bc41e0c7f.jpg" alt="ai world clock collage.jpg" /></p>
+<h2>同じプロンプトでも毎回バラバラ　― 9モデルが1分ごとに新しい時計を生成</h2>
+<p>「AI World Clocks」は以下の仕様で動作している。</p>
+<ul>
+<li>９つの異なるAIモデルが、毎分新しい時計を生成して表示</li>
+<li>すべてのモデルに 同じプロンプト を提示（「指定時刻のアナログ時計をHTML/CSSで記述し、マークダウンなしで返す」）</li>
+<li>モデルごとに 2000トークンの制限を設定</li>
+<li>生成されたHTML/CSSをそのままブラウザでレンダリング</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/about_ai_world_cloks_29c55a0f77/about_ai_world_cloks_29c55a0f77.png" alt="about ai world cloks.png" /></p>
+<h2>“完成度は高くない”が想定通り　― 開発者自身が明言</h2>
+<p>同プロジェクトを手がけた Brian Moore 氏は、ロサンゼルスを拠点とするアーティスト／クリエイティブディレクターで、インタラクティブなウェブ作品や“奇妙なインターネット体験”をテーマにした実験的プロジェクトを数多く公開してきた人物だ。</p>
+<p>Moore氏の<a href="https://brianmoore.com/715-999-7483/">サイト</a>には、AIが苦手なことに挑ませたり、不条理なインタラクションを活かしたりするユニークな作品群が並んでおり、同氏自身も「AIが時計を描くのは苦手だ（It sucks at it）」と説明している。AIの不完全さをあえて作品の中心に据えるスタイルを得意としており、「AI World Clocks」もその延長線上にある。</p>
+<h2>現れる時計はモデルごとにまったく違う</h2>
+<p>実際にサイトを見ていると、AIごとの挙動の違いがよく分かる。</p>
+<ul>
+<li>針が欠けているもの</li>
+<li>文字盤が過剰に装飾されるもの</li>
+<li>レイアウトが描画エラーで崩れるもの</li>
+<li>時刻が正しく反映されないもの</li>
+</ul>
+<p>同一プロンプトでもまったく異なる出力が生まれ、HTML/CSSのように構造が厳密に求められるタスクではモデル間の差が顕著になる。</p>
+<h2>開発者が挙げた“モデルの性格”も面白い</h2>
+<p>Moore 氏は Hacker News 上の<a href="https://news.ycombinator.com/item?id=45930151">投稿</a>で、モデルごとの“味”についてこう語っている。</p>
+<ul>
+<li>Kimi K2：「もっとも時間に正確。ただし最も退屈」</li>
+<li>Qwen 2.5：「もっともクレイジーで、一番笑わせてくれる」</li>
+</ul>
+<p>作者本人がこのように“軽妙な温度感”で語っている点からも、同作品がAIの不完全さを楽しむためのプロジェクトであることが理解できる。</p>
+<p>「AI World Clocks」は、AIモデルが同一の構造化タスクに取り組んだ際にどのような差異や揺らぎが生じるかを、逐次的に確認できるプロジェクトである。毎分変化する時計表示は、モデル間の安定性や挙動の違いを視覚的に把握しやすく、AIによるコード生成の現状を観察する素材として活用できる設計になっている。</p>
+]]></description>
+      <pubDate>Sun, 23 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
       <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
       <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
@@ -946,30 +984,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>今回の発表では、米国の「AI Action Plan」にも言及されており、同社の投資が国内テクノロジーインフラの強化に資するとの見解を示した。Anthropicは今後も、費用対効果を重視した形で米国内インフラを拡張していく方針だ。</p>
 ]]></description>
       <pubDate>Mon, 17 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>三菱UFJ、ChatGPTに“銀行アプリ”を接続へ──「Apps in ChatGPT」連携で家計管理・資産運用を会話で完結</title>
-      <link>https://ledge.ai/articles/mufg_chatgpt_apps_integration</link>
-      <description><![CDATA[<p>三菱UFJフィナンシャル・グループ（MUFG）と三菱UFJ銀行は2025年11月12日、OpenAIと戦略的コラボレーション契約を締結したと<a href="https://www.mufg.jp/dam/pressrelease/2025/pdf/news-20251112-001_ja.pdf">発表</a>した。両社は、OpenAIが10月に公開した「Apps in ChatGPT」を活用し、MUFGのアプリをChatGPTに接続する取り組みを進める。対話を通じた家計管理や資産運用の相談など、金融関連の行動をChatGPT上で実行可能にする構想を示した。</p>
-<h2>ChatGPT上で家計管理・資産運用の相談を可能に</h2>
-<p>MUFGによると、Apps in ChatGPTとの連携は、リテール領域で推進する4つの施策の一つとして位置づけられる。ChatGPTの対話基盤にMUFG各社のアプリを接続し、ユーザーの状況に応じた家計関連情報の確認や、資産運用に関する相談を行えるようにする。
-アプリを切り替えることなく、ChatGPT上で一連の操作が完結できる仕組みを目指す。</p>
-<p>また、グループのアプリに蓄積されるデータを統合し、利用者ごとの状況に応じた情報提供の高度化も検討している。</p>
-<h2>「エムット」ブランド内で複数施策を展開</h2>
-<p>MUFGはリテールサービスブランド「エムット」の一環として、Apps in ChatGPT連携に加えて以下の施策も進める。</p>
-<ul>
-<li>AIコンシェルジュ：グループ各社のアプリにAIを組み込み、パーソナライズされたサポートを提供。デジタルバンクへの導入も予定。</li>
-<li>エムットクイックスタート：口座開設やサービス申し込みの案内をAIチャットで行う仕組み。</li>
-<li>Agentic Commerce対応：ChatGPT上で検索から決済まで行える仕組みに対応し、MUFGの決済サービスを連携可能とする取り組み。</li>
-</ul>
-<p>これらの施策を組み合わせ、リテール領域におけるAI活用の強化を図る。</p>
-<h2>全行員3.5万人にChatGPT Enterpriseを展開</h2>
-<p>MUFGは2026年1月以降、三菱UFJ銀行の全行員約3.5万人にChatGPT Enterpriseを順次展開する計画を示した。文書作成、調査、顧客対応、分析業務など、行内の幅広い業務で利用する。</p>
-<p>さらに、両社は四半期ごとに戦略やプロダクトのレビューを実施し、OpenAIの最新モデルや機能を早期に導入できる体制を構築する。MUFGが社内外で推進するAI活用施策に、最新技術を反映しやすくする環境を整える。</p>
-<h2>AI活用の全社的取り組みを継続</h2>
-<p>MUFGは、全社員を対象としたAI浸透プログラム「Hello, AI @MUFG」を通じて教育や研修を行い、AIを活用できる人材（AIチャンピオン）の育成を進めている。今回の協業では、こうした社内施策に加え、四半期ごとの戦略レビューによりOpenAIの最新モデルや機能を随時取り込み、行内業務とリテール領域の双方でAI活用の取り組みを拡大していく計画を示した。</p>
-]]></description>
-      <pubDate>Mon, 17 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
