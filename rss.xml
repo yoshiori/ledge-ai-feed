@@ -5,6 +5,82 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
+      <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
+      <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
+<h2>“自分の分身”を作り、その議論を観察するという新しい構図</h2>
+<p>研究が扱ったのは、次の3つの視点の中間に位置する体験である。</p>
+<ul>
+<li>一次的視点（First-person）：自分が他者と直接対話する</li>
+<li>三人称視点（Third-person）：第三者同士の会話を観察する</li>
+<li>今回の視点（AI-mediated）：自分を反映した「Digital Me」が他人の「Digital You」と議論し、その様子を本人が観察する</li>
+</ul>
+<p>実験では、学生が自ら設計した分身AIが、自律的に討論を展開する。設計者の価値観や思考は反映されるが、議論の流れは完全には制御できない。この「似ているが、完全な自分ではない」という距離感が、客観的な自己観察を可能にするという。</p>
+<p><strong>コミュニケーション構造の比較図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_7_2d4879fc05/x2_7_2d4879fc05.png" alt="x2 (7).png" /></p>
+<h2>Digital Human Debates（DHD）の設計：プロンプトとRAGで“自分”を埋め込む</h2>
+<p>参加したのは中高生9名（3チーム）。それぞれが6か月にわたり、自分の分身AIを次の3要素で設計した。</p>
+<ul>
+<li>system_prompt_template.txt：性格・口調・議論戦略・思考様式</li>
+<li>interview_transcript.txt：個人の価値観・経験・背景</li>
+<li>Documents（RAG 文書）：議論に利用する外部知識（両立場の資料を収集）</li>
+</ul>
+<p>システムは GPT-4o と LangChain を基盤に構築され、音声入力→議論生成→音声合成→Lip-sync 動画生成までを自動化。</p>
+<p><strong>システム構成図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_1_5978703b2d/x4_1_5978703b2d.png" alt="x4 (1).png" /></p>
+<h2>どのように討論したのか</h2>
+<p>議論のトピックは、以下の4種類からルーレットでランダム選択された。</p>
+<ul>
+<li>高齢者の免許返納</li>
+<li>リモートワークの恒久化</li>
+<li>安楽死の合法化</li>
+<li>ベーシックインカムの導入</li>
+</ul>
+<p>討論は約20分。Constructive speech、Cross-examination、Rebuttal など、全国高校ディベート選手権の形式に準じて進行し、勝敗は3名の審査員が判定した。</p>
+<p><strong>討論フロー図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_3_aa3dfafba5/x5_3_aa3dfafba5.png" alt="x5 (3).png" /></p>
+<p>また、実際の議論分析では、分身AIの発話は以下の3層で構成されていたことが確認された。</p>
+<ul>
+<li>Personal Context：学生本人の経験や価値観（例：留学経験）</li>
+<li>RAG-sourced Evidence：外部文書を参照した事実情報</li>
+<li>AI-generated Insight：LLM が独自に構築した新しい主張・質問</li>
+</ul>
+<p><strong>発話構成の三層分析図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_2_ebcfc4cb09/x6_2_ebcfc4cb09.png" alt="x6 (2).png" /></p>
+<h2>発見1：AIが“自分の代わり”ではなく“自分の鏡”として機能する</h2>
+<p>論文で最も強調されている成果は、参加者が 「Reflecting with AI」 と呼ばれる新たな学習体験を得た点である。</p>
+<h3>「自分が話すより冷静に見られる」</h3>
+<p>AIが自分の価値観を用いて議論するものの、その展開は必ずしも本人の想定どおりではない。
+この“半自律性”が、次のような客観視を可能にした。</p>
+<ul>
+<li>「私は衝動的に話しがちだと気づいた」</li>
+<li>「AIの方が論理がブレず、どこが弱いのかがわかった」</li>
+</ul>
+<p>参加者は AI の議論を自分とは別の存在として受け止めつつ、「しかし自分の思考が反映されている」と感じる。この微妙な距離感が、強いメタ認知効果を生んだという。</p>
+<h2>発見2：プロンプト設計の違いが“AIの人格”に明確に表れる</h2>
+<p>3チームのアプローチは大きく異なり、プロンプト設計の個性が発話に直接反映された。</p>
+<ul>
+<li><strong>Team A：徹底したキャラクター設計</strong> 「認知停止を破壊する」というテーマを持つ強烈な人格を設定し、攻撃的な論法を組み込んだ。</li>
+<li><strong>Team B：繰り返し修正する“チューニング型</strong> 芥川龍之介やガンジーなど歴史人物をモチーフに、AIの出力を評価→修正する反復設計を採用。</li>
+<li><strong>Team C：最小限の人格＋大量の論拠データ</strong> キャラ設定は控えめにし、RAGで大量の論理情報を与える“ロジック重視”型。</li>
+</ul>
+<p>いずれも、設計者の価値観や思考癖がそのままAIのふるまいに組み込まれていたという。</p>
+<h2>発見3：AIリテラシー全体をカバーする学習効果</h2>
+<p>研究チームは、今回の取り組みを“ジェネレーティブAIリテラシーの実践的な総合モデル”と位置づけている。
+実際、参加者は以下の能力を幅広く活用していた。</p>
+<ul>
+<li>モデル特性の理解</li>
+<li>論拠の収集と検証</li>
+<li>プロンプト設計</li>
+<li>出力の評価と改善</li>
+<li>自己の思考の客観視（Reflecting with AI）</li>
+</ul>
+<p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
+<p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
+]]></description>
+      <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「普通のメガネ」のようで“静かに非凡”──情報を前面・背面に分離するレイヤードHUDとカメラレス設計、指先操作のR1が示すG2／R1のスマートグラス体験の次章</title>
       <link>https://ledge.ai/articles/quiet_tech_smartglasses_even_g2_r1_launch</link>
       <description><![CDATA[<p>ウェアラブルデバイスを手がける Even Realities は、2025年11月13日（現地時間）、新型スマートグラス「Even G2」とスマートリング「Even R1」を<a href="https://x.com/EvenRealities/status/1988629357036753060">発表</a>した。同社は「Quietly Extraordinary Technology」というコンセプトを掲げ、テクノロジーが生活に干渉しすぎず“静かに寄り添う”デザイン思想を中心に据えたことが説明されている。</p>
@@ -904,82 +980,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 <p>PKSHAは「未来のソフトウエアを形にする」、サーキュレーションは「世界中の経験・知見が循環する社会の創造」を掲げており、今回のプロダクトは両社のビジョンを結ぶものとなる。AI Powered Workerと企業が出会うためのプラットフォームとして、企業の高度な課題解決と、プロ人材の活躍機会の拡大の両面から、さらなる機能発展を進める見通しだ。</p>
 ]]></description>
       <pubDate>Tue, 18 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、「SIMA 2」研究プレビュー公開──Gemini搭載で推論・一般化・自己改善が進化、生成3D世界にも対応</title>
-      <link>https://ledge.ai/articles/google_deepmind_sima_2_research_preview</link>
-      <description><![CDATA[<p>米Google DeepMindは2025年11月13日（現地時間）、次世代汎用AIエージェント「SIMA 2：An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds」の研究プレビューを<a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/">公開</a>した。</p>
-<p>2024年に発表されたSIMA1を基盤に、同社の大規模マルチモーダルモデル「Gemini」を中核へ統合することで、指示に従うだけのエージェントから、推論し、対話し、環境に適応し、自己改善する汎用エージェントへと大きく進化した。</p>
-<p>DeepMindは本モデルを「Artificial General Intelligence（AGI）に向けた重要なステップ」と位置づけ、限定的な研究プレビューとして学術機関やゲーム開発者に先行提供する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Zphax4f6Rls">YouTube</a></p>
-<h2>未学習ゲームでもタスクを遂行：一般化性能が大幅に向上</h2>
-<p>Geminiの統合により、SIMA 2の一般化性能は大きく向上した。公式ブログでは、訓練に使用していないゲーム環境での成功例が報告されている。</p>
-<ul>
-<li>ASKA（Vikingサバイバルゲーム）</li>
-<li>MineDojo（Minecraft研究実装）</li>
-</ul>
-<p>これらの未学習ゲームでも、SIMA 2は長く複雑な指示に基づきタスクを遂行。評価タスクでは、SIMA1との性能差が大きく縮まり、人間プレイヤーに近づく結果が示された。</p>
-<p><strong>MineDojoでのタスク比較：</strong> 訓練していないゲーム環境でも、SIMA 2（右）は抽象的指示を解釈し行動に移しタスク達成。一方、SIMA 1（左）はタスク達成に至らなかった。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/comparison_between_sima1_2_on_minedojo_6bec24bce2/comparison_between_sima1_2_on_minedojo_6bec24bce2.jpg" alt="comparison between sima1-2 on minedojo.jpg" /></p>
-<p>また、以下のようなマルチモーダル指示にも対応する。</p>
-<ul>
-<li>スケッチ（ユーザーの手描き図）</li>
-<li>多言語指示</li>
-<li>絵文字のみの指示→ それぞれを正しく解釈し、行動に移すことが可能。</li>
-</ul>
-<p>さらに、ゲームAで学んだ“mining（採掘）”の概念を、ゲームBでの“harvesting（収穫）”に応用するなど、概念レベルでの転移学習も確認された。</p>
-<h2>完全に新しい“生成された3D世界”でも行動可能：Genie 3との連携</h2>
-<p>SIMA 2は、DeepMindの世界生成モデル「Genie 3」と組み合わせた実験でも高い適応力を示した。</p>
-<p>Genie 3は、1枚の画像やテキストからリアルタイムで3D世界を生成するモデルで、SIMA 2は初めて見る環境にもかかわらず、</p>
-<ul>
-<li>方角を把握</li>
-<li>ゴールに向けた行動</li>
-<li>指示の理解とタスク遂行</li>
-</ul>
-<p>を実現した。</p>
-<p>DeepMindはこの試験を「一般化能力の限界を試すもの」として位置づけ、従来の固定されたゲーム環境では確認できない柔軟性が明らかになったとしている。</p>
-<h2>自己改善ループ：人間データに依存しない継続学習へ</h2>
-<p>SIMA 2の大きな特徴の一つが、新たに導入された自己改善（self-improvement）サイクルだ。</p>
-<p>Geminiが生成するタスクと推定報酬をもとにエージェントが試行を行い、その経験データを蓄積。それらのデータは次世代のSIMA 2の訓練に再利用される。</p>
-<p><strong>SIMA 2 の自己改善サイクル：</strong> Gemini がタスクと推定報酬を生成し、エージェントの行動経験が「Self-Generated Experience」として蓄積され、次世代モデルの学習に再利用される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_2_fa5f0652e0/unnamed_2_fa5f0652e0.webp" alt="unnamed (2).webp" /></p>
-<h3>自己改善サイクルの流れ</h3>
-<ul>
-<li>Geminiがタスクと推定報酬を生成</li>
-<li>SIMA 2が試行（行動）</li>
-<li>経験データを「Self-Generated Experience」として蓄積</li>
-<li>次の世代のSIMA 2を再訓練（スキル向上）</li>
-</ul>
-<p>このループにより、人間のデモなしで未学習ゲームの能力が向上し、Genie 3で生成された新規世界でも“自己のみで上達する”ことが確認された。DeepMindはこれを「オープンエンドな学習へ向けたマイルストーン」としている。</p>
-<h2>現時点の課題</h2>
-<p>SIMA 2は研究段階であり、DeepMindは以下の課題を明示している。</p>
-<ul>
-<li>長時間・多段階の推論タスクは依然困難</li>
-<li>コンテキスト保持（メモリウィンドウ）が短い</li>
-<li>精確なキーボード／マウス操作が難しい</li>
-<li>複雑な3Dシーンの視覚理解はまだ不十分</li>
-</ul>
-<p>これらはロボティクスや実世界の応用に向け、今後解決すべき点として挙げられている。</p>
-<h2>ロボティクス・AGIへの展開</h2>
-<p>DeepMindは、SIMA 2が取得する以下の能力を、物理世界のロボットに必要な基礎スキルと位置づける。</p>
-<ul>
-<li>ナビゲーション</li>
-<li>道具操作</li>
-<li>協働タスクの遂行</li>
-</ul>
-<p>3D仮想世界はロボット学習の“安全かつ多様な練習場”として使えることから、SIMA 2の進化はロボティクス領域にも直結する。</p>
-<h2>責任ある開発と限定公開</h2>
-<p>SIMA 2の自己改善能力は強力であるため、DeepMindは開発初期から同社のResponsible Development &amp; Innovation Teamと連携している。</p>
-<ul>
-<li>公開形態は 「限定研究プレビュー」</li>
-<li>対象：少数の学者・ゲームスタジオ</li>
-<li>目的：フィードバック収集とリスク理解の深化</li>
-</ul>
-<p>SIMA 2の技術レポート（SIMA Technical Report）は近日公開予定とされる。</p>
-<p>:::box
-[関連記事：AIの\\</p>
-]]></description>
-      <pubDate>Tue, 18 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
