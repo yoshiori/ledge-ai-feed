@@ -5,6 +5,40 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「普通のメガネ」のようで“静かに非凡”──情報を前面・背面に分離するレイヤードHUDとカメラレス設計、指先操作のR1が示すG2／R1のスマートグラス体験の次章</title>
+      <link>https://ledge.ai/articles/quiet_tech_smartglasses_even_g2_r1_launch</link>
+      <description><![CDATA[<p>ウェアラブルデバイスを手がける Even Realities は、2025年11月13日（現地時間）、新型スマートグラス「Even G2」とスマートリング「Even R1」を<a href="https://x.com/EvenRealities/status/1988629357036753060">発表</a>した。同社は「Quietly Extraordinary Technology」というコンセプトを掲げ、テクノロジーが生活に干渉しすぎず“静かに寄り添う”デザイン思想を中心に据えたことが説明されている。</p>
+<p>外観は「普通のメガネ」さながらだが、視界の前面と背面に情報を分離して重ねる独自のレイヤードHUDや、カメラを排した設計、指先ジェスチャーで操作できるR1など、同社が掲げる「Quietly Extraordinary Technology」を体現する機能を備える。録画や音声出力を中心に進化してきた従来のスマートグラスとは異なり、G2／R1はユーザー本人の使いやすさと周囲のプライバシーの両立を追求した“静かな次章”を提示している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=tAIhp9hia90&amp;t=4s">YouTube</a></p>
+<h2>カメラレス・スピーカーレスという選択</h2>
+<p>G2 の最大の特徴は、カメラと外向きスピーカーを搭載しない点にある。近年のスマートグラスは録画や配信、音声出力を強化する方向で進化してきたが、同社は「ユーザーと周囲のプライバシーに配慮するため」として、これらをあえて採用していない。
+音声操作や撮影を前提としないことで、外部への音漏れや“撮られているかもしれない”という不安を生まない構造として設計されている。</p>
+<h2>手前と奥に情報を分けて表示する“レイヤードHUD”</h2>
+<p>G2 の光学システムには、独自の「HAO 2.0」ディスプレイが採用された。超小型マイクロLEDプロジェクターと導波管レンズにより、約2メートル先に自然な形で情報が投影される。</p>
+<p>特徴的なのは、表示情報を二層に分離する“レイヤードHUD”だ。</p>
+<ul>
+<li><strong>前面のレイヤー</strong> ：通知など即時性の高い情報</li>
+<li><strong>奥のレイヤー</strong> ：翻訳、ナビゲーションなど継続的な情報</li>
+</ul>
+<p>というように、視界の中で情報の優先度や性質に応じて層を分ける。
+これにより、HUDが“情報過多”になりがちな従来のスマートグラスと異なり、視界のノイズを増やすことなく必要なタイミングで必要な情報のみを提示する設計になっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HUD_9e8b648e77/HUD_9e8b648e77.jpg" alt="レイヤードHUD.jpg" /></p>
+<h2>更新された主要機能と会話アシスト「Conversate」</h2>
+<p>主要機能には、複数ウィジェットを扱うダッシュボード、地磁気センサーによるナビゲーション、リアルタイム双方向翻訳、テレプロンプターなどが含まれる。また、独自LLM「Even AI」の高速化により、音声操作やアプリ起動の応答が向上したという。</p>
+<p>新たに追加された「Conversate」は、会話中に文脈に応じた補助情報を視界に表示する機能で、会議や対話の場面で用語の説明や要点整理などを控えめに提示する。</p>
+<h2>スマートリング「R1」：操作とウェルビーイングを担う指先デバイス</h2>
+<p>G2 の操作体系を補完するのが、スマートリング「Even R1」だ。リング内に静電容量式タッチパッドを内蔵し、タップ、スワイプ、長押しといった指先ジェスチャーでスマートグラスを操作する。素材は医療グレードのセラミックとステンレスを採用し、耐久性と装着性を両立した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/r1_5fbc5fd7f6/r1_5fbc5fd7f6.jpg" alt="r1.jpg" /></p>
+<p>R1 にはウェルビーイング機能も搭載され、心拍数、血中酸素濃度、体温、睡眠、歩数、消費カロリーなどを計測。取得データから「生産性スコア」を算出し、その日の集中力傾向を把握する指標として利用できるという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wellbeing_2d6509b5cf/wellbeing_2d6509b5cf.jpg" alt="wellbeing.jpg" /></p>
+<h2>プライバシーの設計思想</h2>
+<p>Even Realities は、カメラを排除した設計に加え、データはユーザーの明示的な同意なしにクラウドへ保存されないと説明している。必要なデータは暗号化され、個人を特定可能な情報を保持しない方針を示している。</p>
+<p>G2 と R1 は、録画・配信・音声出力を中心に進化してきた他社製スマートグラスとは異なる方向性を示す。
+同社は、情報過多を避け、ユーザー本人の使いやすさと周囲のプライバシーを両立させる「Quiet Tech」アプローチを採用し、視界に重ねる情報をレイヤーで整理し、操作は指先で静かに完結させる設計を打ち出した。こうした設計思想は、スマートグラス市場における一つの選択肢として位置づけられそうだ。</p>
+]]></description>
+      <pubDate>Sun, 23 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本IBMとセガXD、生成AIを学べるカードバトル研修「バトルワーカーズ」──業務内容をAIがカード化し対戦形式で学習</title>
       <link>https://ledge.ai/articles/generative_ai_card_game_training_battle_workers_ibm_segaxd</link>
       <description><![CDATA[<p>日本IBMは2025年11月17日、生成AIの基礎やプロンプト設計、リスク理解をカードバトル形式で学べる企業向け研修サービス「Generative AI Card Game Training – バトルワーカーズ」を<a href="https://jp.newsroom.ibm.com/2025-11-17-generative-ai-card-game">発表</a>した。研修設計は、ゲーミフィケーション専門企業である株式会社セガ エックスディー（セガXD）が監修した。</p>
@@ -946,49 +980,6 @@ OpenAIは、実運用で発生する難度の高いケースを集約した「Pr
 [関連記事：AIの\\</p>
 ]]></description>
       <pubDate>Tue, 18 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sakana AI、シリーズBで総額200億円の資金調達を発表──MUFGなど国内外投資家が出資、企業価値は約4,000億円に</title>
-      <link>https://ledge.ai/articles/sakana_ai_series_b_200oku_fundraising</link>
-      <description><![CDATA[<p>東京を拠点とするAI企業のSakana AIは2025年11月17日、シリーズBラウンドで総額約200億円（1億3,500万米ドル）を調達したと公式ブログで<a href="https://sakana.ai/series-b/">発表</a>した。</p>
-<p>今回の資金調達により、ポストマネー評価額は約4,000億円（26億3,500万米ドル）、累計調達額は約520億円（3億4,700万米ドル）となる。</p>
-<h2>国内外の投資家が参加、金融・エネルギー・政府系機関まで多様な顔ぶれ</h2>
-<p>Sakana AIによれば、本ラウンドには既存・新規の投資家が幅広く参加した。既存投資家では、三菱UFJフィナンシャル・グループ（MUFG）、Khosla Ventures、New Enterprise Associates（NEA）、Lux Capitalなどが追加出資した。</p>
-<p>新規投資家としては、米Factorial Funds、豪Macquarie Capital、スペインのSantander Group（VCファンドMouro Capitalを通じて出資）、米国政府の戦略投資機関In-Q-Tel（IQT）などが名を連ねる。このほか、Fundomo、Geodesic Capital、Ora Global、MPower Partners、日本の四国電力グループのSTNetなども参画し、国内外の多様な領域から支持を得た形だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/group_logo_e1f5e12cc1/group_logo_e1f5e12cc1.jpg" alt="group-logo.jpg" /></p>
-<h2>「計算資源依存ではないAI開発」への問題意識</h2>
-<p>同社はリリースで、世界的なAI開発競争が「大量の計算資源の投入」を前提にしている点に強い問題意識を示した。計算コストやエネルギー消費が増大する中、資源に限りがある日本にとって同じ競争路線を踏むのは現実的ではないと指摘。「自然界では、限られた資源の中で効率性を高めて進化してきた。AI開発も持続可能性を重視すべきだ」との立場を示した。</p>
-<p>そのうえで、Sakana AIは「計算量を前提にした“大規模モデルの総当たり競争”」とは異なるアプローチとして、既存モデルを進化的に組み合わせる技法や、モデルが自ら改善する仕組みの研究に取り組んできたと説明している。</p>
-<h2>R&amp;Dの進捗：自己進化モデルから新アーキテクチャまで</h2>
-<p>設立から約2年で、同社はフロンティア研究と応用の両面で複数の成果を公開してきた。</p>
-<ul>
-<li><strong>Darwin Gödel Machine (DGM)</strong> ：モデルとコードが自己改善するアーキテクチャ</li>
-<li><strong>ShinkaEvolve</strong> ：LLM生成プログラムを進化させるオープンソースシステム</li>
-<li><strong>進化的モデルマージ</strong> ：複数のオープンソースモデルを融合</li>
-<li><strong>AB-MCTS</strong> ：複数モデルが協調して推論するアルゴリズム</li>
-<li><strong>Continuous Thought Machine (CTM)</strong> ：Transformer以降を見据えた新アーキテクチャ</li>
-<li><strong>The AI Scientist</strong> ：仮説生成から論文執筆まで行う自律マルチエージェントシステム</li>
-</ul>
-<p>これらはいずれも「持続可能かつ効率的なAI」の実現を指向した研究群だと説明している。</p>
-<h2>日本企業との社会実装──金融・防衛・製造へ拡大</h2>
-<p>Sakana AIは2025年に、三菱UFJフィナンシャル・グループ（MUFG）、大和証券グループとの戦略的パートナーシップを発表し、金融領域でのカスタムAI開発を進めてきた。</p>
-<p>一方で、実務には一般的な生成AIでは扱いにくい「暗黙知」が多く存在するとして、業務に深く入り込むエンジニアリングが不可欠と指摘。この課題認識のもと、同社は応用領域を金融から、防衛・製造業などの基幹産業へと広げている。</p>
-<p>防衛・インテリジェンス分野では、総務省の「インターネット上の偽・誤情報対策技術の開発・実証事業」（2025年6月採択）などにも参加している。</p>
-<h2>ソブリンAI──日本に特化した「事後学習（Post-training）」への集中</h2>
-<p>同社は、AI開発の主戦場が「事前学習（Pre-training）」から「事後学習（Post-training）」へ移行していると整理。事後学習に注力することで、日本固有の文化・価値観・産業ニーズに即したモデルを構築でき、米中の巨大モデル開発競争とは異なるルートでソブリンAIを実現できると強調した。</p>
-<p>今回調達した資金は、</p>
-<ul>
-<li>フロンティア研究の加速（集合知・自己進化・ソブリンAI向け最適化）</li>
-<li>Applied Teamの体制強化</li>
-<li>金融、防衛、製造領域での社会実装</li>
-<li>技術・事業基盤拡大のための投資やM&amp;A</li>
-</ul>
-<p>などに充てる。</p>
-<h2>「日本発の持続可能なAI」へ</h2>
-<p>Sakana AIは「世界最先端のAI技術を日本で社会実装する」というミッションを掲げており、東京を拠点に研究・ビジネス・コーポレート部門の採用を強化している。</p>
-<p>同社は今回のシリーズBを通じ、効率性・持続可能性・社会実装を軸とした「日本らしいAI開発」をさらに推し進めるとしている。</p>
-]]></description>
-      <pubDate>Mon, 17 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/15 [SAT]「AIはまだフリーランサーになれない」──新指標「Remote Labor Index」が示した自動化率2.5％の現実</title>
