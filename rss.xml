@@ -113,78 +113,63 @@
       <pubDate>Mon, 24 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
-      <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
-      <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
-<h2>“自分の分身”を作り、その議論を観察するという新しい構図</h2>
-<p>研究が扱ったのは、次の3つの視点の中間に位置する体験である。</p>
+      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
+      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
+      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
+<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
+<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
+<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
+具体的には以下の例を挙げた。</p>
 <ul>
-<li>一次的視点（First-person）：自分が他者と直接対話する</li>
-<li>三人称視点（Third-person）：第三者同士の会話を観察する</li>
-<li>今回の視点（AI-mediated）：自分を反映した「Digital Me」が他人の「Digital You」と議論し、その様子を本人が観察する</li>
+<li>LMArena：Elo 1501</li>
+<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
+<li>GPQA Diamond：91.9%</li>
+<li>MathArena Apex：23.4%</li>
 </ul>
-<p>実験では、学生が自ら設計した分身AIが、自律的に討論を展開する。設計者の価値観や思考は反映されるが、議論の流れは完全には制御できない。この「似ているが、完全な自分ではない」という距離感が、客観的な自己観察を可能にするという。</p>
-<p><strong>コミュニケーション構造の比較図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_7_2d4879fc05/x2_7_2d4879fc05.png" alt="x2 (7).png" /></p>
-<h2>Digital Human Debates（DHD）の設計：プロンプトとRAGで“自分”を埋め込む</h2>
-<p>参加したのは中高生9名（3チーム）。それぞれが6か月にわたり、自分の分身AIを次の3要素で設計した。</p>
+<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
+<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
+<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
+<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
 <ul>
-<li>system_prompt_template.txt：性格・口調・議論戦略・思考様式</li>
-<li>interview_transcript.txt：個人の価値観・経験・背景</li>
-<li>Documents（RAG 文書）：議論に利用する外部知識（両立場の資料を収集）</li>
+<li>Humanity’s Last Exam：41.0%</li>
+<li>GPQA Diamond：93.8%</li>
+<li>ARC-AGI-2（コード実行あり）：45.1%</li>
 </ul>
-<p>システムは GPT-4o と LangChain を基盤に構築され、音声入力→議論生成→音声合成→Lip-sync 動画生成までを自動化。</p>
-<p><strong>システム構成図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_1_5978703b2d/x4_1_5978703b2d.png" alt="x4 (1).png" /></p>
-<h2>どのように討論したのか</h2>
-<p>議論のトピックは、以下の4種類からルーレットでランダム選択された。</p>
+<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
+<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
+<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
+<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
+<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
+<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
+<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
 <ul>
-<li>高齢者の免許返納</li>
-<li>リモートワークの恒久化</li>
-<li>安楽死の合法化</li>
-<li>ベーシックインカムの導入</li>
+<li>Google AI Studio（Gemini API）</li>
+<li>Vertex AI</li>
+<li>Gemini CLI</li>
+<li>Google Antigravity（新エージェント指向IDE）</li>
+<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
 </ul>
-<p>討論は約20分。Constructive speech、Cross-examination、Rebuttal など、全国高校ディベート選手権の形式に準じて進行し、勝敗は3名の審査員が判定した。</p>
-<p><strong>討論フロー図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_3_aa3dfafba5/x5_3_aa3dfafba5.png" alt="x5 (3).png" /></p>
-<p>また、実際の議論分析では、分身AIの発話は以下の3層で構成されていたことが確認された。</p>
+<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
+<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
+<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
+<h2>長期計画のタスクでもトップスコアを記録</h2>
+<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
+<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
+<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
+<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
 <ul>
-<li>Personal Context：学生本人の経験や価値観（例：留学経験）</li>
-<li>RAG-sourced Evidence：外部文書を参照した事実情報</li>
-<li>AI-generated Insight：LLM が独自に構築した新しい主張・質問</li>
+<li>迎合的な回答（シコファンシー）の抑制</li>
+<li>プロンプトインジェクション耐性の向上</li>
+<li>サイバー攻撃・悪用に対する防御強化</li>
 </ul>
-<p><strong>発話構成の三層分析図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_2_ebcfc4cb09/x6_2_ebcfc4cb09.png" alt="x6 (2).png" /></p>
-<h2>発見1：AIが“自分の代わり”ではなく“自分の鏡”として機能する</h2>
-<p>論文で最も強調されている成果は、参加者が 「Reflecting with AI」 と呼ばれる新たな学習体験を得た点である。</p>
-<h3>「自分が話すより冷静に見られる」</h3>
-<p>AIが自分の価値観を用いて議論するものの、その展開は必ずしも本人の想定どおりではない。
-この“半自律性”が、次のような客観視を可能にした。</p>
-<ul>
-<li>「私は衝動的に話しがちだと気づいた」</li>
-<li>「AIの方が論理がブレず、どこが弱いのかがわかった」</li>
-</ul>
-<p>参加者は AI の議論を自分とは別の存在として受け止めつつ、「しかし自分の思考が反映されている」と感じる。この微妙な距離感が、強いメタ認知効果を生んだという。</p>
-<h2>発見2：プロンプト設計の違いが“AIの人格”に明確に表れる</h2>
-<p>3チームのアプローチは大きく異なり、プロンプト設計の個性が発話に直接反映された。</p>
-<ul>
-<li><strong>Team A：徹底したキャラクター設計</strong> 「認知停止を破壊する」というテーマを持つ強烈な人格を設定し、攻撃的な論法を組み込んだ。</li>
-<li><strong>Team B：繰り返し修正する“チューニング型</strong> 芥川龍之介やガンジーなど歴史人物をモチーフに、AIの出力を評価→修正する反復設計を採用。</li>
-<li><strong>Team C：最小限の人格＋大量の論拠データ</strong> キャラ設定は控えめにし、RAGで大量の論理情報を与える“ロジック重視”型。</li>
-</ul>
-<p>いずれも、設計者の価値観や思考癖がそのままAIのふるまいに組み込まれていたという。</p>
-<h2>発見3：AIリテラシー全体をカバーする学習効果</h2>
-<p>研究チームは、今回の取り組みを“ジェネレーティブAIリテラシーの実践的な総合モデル”と位置づけている。
-実際、参加者は以下の能力を幅広く活用していた。</p>
-<ul>
-<li>モデル特性の理解</li>
-<li>論拠の収集と検証</li>
-<li>プロンプト設計</li>
-<li>出力の評価と改善</li>
-<li>自己の思考の客観視（Reflecting with AI）</li>
-</ul>
-<p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
-<p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
+<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
+<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
+<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
 ]]></description>
       <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
     </item>
@@ -302,104 +287,6 @@
 <p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
 ]]></description>
       <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
-      <link>https://ledge.ai/articles/gen_ai_image_copyright_case_chiba_police</link>
-      <description><![CDATA[<p>千葉県警生活経済課は2025年11月20日、生成AIで作成された画像を無断で複製したとして、神奈川県大和市の無職の男性（27）を著作権法違反（複製権侵害）の疑いで千葉地検に書類送致したと<a href="https://www.police.pref.chiba.jp/kohoka/orders_prefecture_03461.html">発表</a>した。県警によれば、生成AIで作られた画像を著作物として扱い、著作権法違反で摘発するのは全国で初めてとみられる。</p>
-<p>事件は8月25日昼頃に発生。男性は、千葉県我孫子市の男性が生成AIを用いて制作し、SNSに投稿していたコンピューターグラフィックスを、著作権者の承諾を得ずに外部サーバーへ送信し複製した疑いが持たれている。県警は、被害者が生成過程で入力した多数のプロンプト（指示）や内容、表現に至るまでの過程を確認し、創作性のある表現が認められるとして著作物性を判断した。</p>
-<p>報道によれば、容疑者は複製した画像を自身が販売する電子書籍の表紙として使用していたとされる。容疑者は「作品に合う素材だった」と供述しているという。県警は、被害者が画像生成において具体的な指示を重ね、独自の表現に到達していた点を踏まえ、無断複製が著作権法上の侵害に当たると判断した。</p>
-<p>著作権法では、人の創作的関与によって生まれた表現が保護の対象となる。生成AIが作成した画像については、どの程度の人間による関与が「創作性」として評価されるかが議論されてきた。今回の事案では、AIへの指示内容や生成工程が「人による具体的な創作行為」と認められた点が重要となる。</p>
-<p>生成AIで作成された画像については、人の具体的な指示や制作過程がどの程度関与しているかが著作物性の判断要素とされる。同事案では、プロンプトの内容や生成工程に人の創作的関与が認められた点が、著作権侵害容疑の判断材料となった。SNS上で公開された生成AI画像であっても、創作性が認められる場合には著作権が成立するため、複製や利用には権利者の許諾が必要となる。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
-      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
-      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
-<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
-<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
-<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
-これらは</p>
-<ul>
-<li>誤情報</li>
-<li>攻撃的な表現</li>
-<li>情報量の乏しい短文</li>
-</ul>
-<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
-<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
-<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
-<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
-<ul>
-<li>テキストの品質（semantic quality）</li>
-<li>エンゲージメント（人気度）</li>
-</ul>
-<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
-評価には、</p>
-<ul>
-<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
-<li>長文コンテキスト理解（RULER）</li>
-<li>安全性（有害発言誘発テスト）</li>
-<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
-</ul>
-<p>が利用された。</p>
-<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
-<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
-<p>この “劣化の全体像” は、下図のように整理されている。</p>
-<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
-低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
-<p>この図が示すように、</p>
-<ul>
-<li>ARC Challenge</li>
-<li>RULER</li>
-<li>HH-RLHF（安全性関連）</li>
-</ul>
-<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
-<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
-<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
-低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
-<p>この図が表している通り、</p>
-<ul>
-<li>no thinking（思考が全く行われない）</li>
-<li>wrong logic in plan（計画の論理破綻）</li>
-<li>factual error（事実誤認）</li>
-</ul>
-<p>などの“思考の崩壊”が顕著に増加している。</p>
-<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
-<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
-<ul>
-<li>有害な発言を誘発しやすくなる</li>
-<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
-<li>不正確な主張を自信満々に述べるケースが増える</li>
-</ul>
-<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
-<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
-<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
-研究者らはこの仮説も検証した。</p>
-<p>結果は次の通り。</p>
-<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
-ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
-<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
-研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
-<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
-<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
-<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
-<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
-<p>研究チームは、</p>
-<ul>
-<li>データ品質フィルタリングの強化</li>
-<li>SNS由来データの評価と管理</li>
-<li>「Brain Rot」兆候の定期的検査</li>
-</ul>
-<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
-<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
-]]></description>
-      <pubDate>Fri, 21 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/21 [FRI]Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
@@ -580,67 +467,6 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
       <pubDate>Thu, 20 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
-      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
-      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
-<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
-<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
-<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
-具体的には以下の例を挙げた。</p>
-<ul>
-<li>LMArena：Elo 1501</li>
-<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
-<li>GPQA Diamond：91.9%</li>
-<li>MathArena Apex：23.4%</li>
-</ul>
-<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
-<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
-<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
-<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
-<ul>
-<li>Humanity’s Last Exam：41.0%</li>
-<li>GPQA Diamond：93.8%</li>
-<li>ARC-AGI-2（コード実行あり）：45.1%</li>
-</ul>
-<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
-<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
-<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
-<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
-<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
-<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
-<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
-<ul>
-<li>Google AI Studio（Gemini API）</li>
-<li>Vertex AI</li>
-<li>Gemini CLI</li>
-<li>Google Antigravity（新エージェント指向IDE）</li>
-<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
-</ul>
-<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
-<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
-<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
-<h2>長期計画のタスクでもトップスコアを記録</h2>
-<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
-<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
-<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
-<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
-<ul>
-<li>迎合的な回答（シコファンシー）の抑制</li>
-<li>プロンプトインジェクション耐性の向上</li>
-<li>サイバー攻撃・悪用に対する防御強化</li>
-</ul>
-<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
-<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
-<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon創業者のジェフ・ベゾス氏、AI企業「プロジェクト・プロメテウス」の共同CEOに就任── “実世界AI” に本格参入</title>
       <link>https://ledge.ai/articles/jeff_bezos_project_prometheus_co_ceo_appointment</link>
       <description><![CDATA[<p>Amazon創業者のジェフ・ベゾス氏が、AIスタートアップ「Project Prometheus（プロジェクト・プロメテウス）」の共同最高経営責任者（CEO）に就任した。2025年11月17日に<a href="https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html">ニューヨークタイムズ</a>
@@ -719,24 +545,6 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
       <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>1X、家庭用ヒューマノイド「NEO」を正式公開──月額499ドル（約7万5,000円）のサブスク開始で“家事お手伝いロボ”が現実に</title>
-      <link>https://ledge.ai/articles/1x_neo_home_robot_subscription_launch</link>
-      <description><![CDATA[<p>米1X Technologiesは2025年10月28日（米国時間）、家庭向けヒューマノイドロボット「NEO」を<a href="https://www.1x.tech/neo">公開</a>し、プレオーダーを開始した。提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。家庭内の掃除や片付けなど、日常的な家事を支援する“お手伝いロボット”として設計されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_6_ce91e1cf1e/x1neo_6_ce91e1cf1e.jpg" alt="x1neo-6.jpg" /></p>
-<p>NEOは、1Xが掲げる「人の生活を支える安全なヒューマノイド」構想に基づき開発された。腱（tendon）駆動による柔らかく静かな動作を特徴とし、人と同じ空間で安全に動作できるよう設計されている。公式サイトでは「単調で時間のかかる家事を肩代わりし、人の時間を取り戻す」とコンセプトを掲げる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_5_7ae0e73c6c/x1neo_5_7ae0e73c6c.jpg" alt="x1neo-5.jpg" /></p>
-<p>ユーザーはスマートフォンアプリや音声を通じてタスクを指示でき、NEOは家庭内の環境を学習しながら動作を最適化する。自己充電機能を備えるほか、遠隔からのモニタリングやサポートも可能。1XはNEOを単なるロボットではなく「温かみと個性をもった家庭のパートナー」と位置付けている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1neo_4_dd13229413/x1neo_4_dd13229413.jpg" alt="x1neo-4.jpg" /></p>
-<p>主な仕様は、バッテリー駆動時間約4時間（急速充電対応）、静音性は最大22dB。NVIDIA Jetson Thorをベースとした「1X Cortex」コンピューティングシステムを搭載し、360度集音マイクとステレオスピーカーを内蔵する。</p>
-<h2>サブスク形式で家庭導入のハードルを下げる</h2>
-<p>提供形態は月額499ドル（約7万5,000円）のサブスクリプションまたは一括購入（2万ドル）。NEOは注文ページからプレオーダー可能で、出荷は2026年を予定している。</p>
-<p>1Xは公式ページ上で、NEOを「consumer-ready」と表現。2024年の試作版「NEO Beta」発表を経て、今回初めて一般消費者に向けたモデルとして公開された。</p>
-<p>@<a href="https://www.youtube.com/watch?v=LTYMWadOW7c">YouTube</a></p>
-<p>1X Technologiesは、家庭や産業向けのヒューマノイドロボットを開発する企業で、OpenAIが出資するスタートアップの一つでもある。これまでノルウェーを拠点としていたが、2025年には米カリフォルニア州サンフランシスコに本社を移転。研究開発と製造体制の両面で国際展開を進めている。サブスクリプション形式による提供で家庭でも導入しやすい価格体系を整えたNEOは、ヒューマノイドが日常生活に溶け込む時代の到来を感じさせる存在だ。</p>
-]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
       <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
       <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
@@ -809,78 +617,89 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google DeepMind、「SIMA 2」研究プレビュー公開──Gemini搭載で推論・一般化・自己改善が進化、生成3D世界にも対応</title>
-      <link>https://ledge.ai/articles/google_deepmind_sima_2_research_preview</link>
-      <description><![CDATA[<p>米Google DeepMindは2025年11月13日（現地時間）、次世代汎用AIエージェント「SIMA 2：An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds」の研究プレビューを<a href="https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/">公開</a>した。</p>
-<p>2024年に発表されたSIMA1を基盤に、同社の大規模マルチモーダルモデル「Gemini」を中核へ統合することで、指示に従うだけのエージェントから、推論し、対話し、環境に適応し、自己改善する汎用エージェントへと大きく進化した。</p>
-<p>DeepMindは本モデルを「Artificial General Intelligence（AGI）に向けた重要なステップ」と位置づけ、限定的な研究プレビューとして学術機関やゲーム開発者に先行提供する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Zphax4f6Rls">YouTube</a></p>
-<h2>未学習ゲームでもタスクを遂行：一般化性能が大幅に向上</h2>
-<p>Geminiの統合により、SIMA 2の一般化性能は大きく向上した。公式ブログでは、訓練に使用していないゲーム環境での成功例が報告されている。</p>
+      <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
+      <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
+      <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
+<h2>“自分の分身”を作り、その議論を観察するという新しい構図</h2>
+<p>研究が扱ったのは、次の3つの視点の中間に位置する体験である。</p>
 <ul>
-<li>ASKA（Vikingサバイバルゲーム）</li>
-<li>MineDojo（Minecraft研究実装）</li>
+<li>一次的視点（First-person）：自分が他者と直接対話する</li>
+<li>三人称視点（Third-person）：第三者同士の会話を観察する</li>
+<li>今回の視点（AI-mediated）：自分を反映した「Digital Me」が他人の「Digital You」と議論し、その様子を本人が観察する</li>
 </ul>
-<p>これらの未学習ゲームでも、SIMA 2は長く複雑な指示に基づきタスクを遂行。評価タスクでは、SIMA1との性能差が大きく縮まり、人間プレイヤーに近づく結果が示された。</p>
-<p><strong>MineDojoでのタスク比較：</strong> 訓練していないゲーム環境でも、SIMA 2（右）は抽象的指示を解釈し行動に移しタスク達成。一方、SIMA 1（左）はタスク達成に至らなかった。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/comparison_between_sima1_2_on_minedojo_6bec24bce2/comparison_between_sima1_2_on_minedojo_6bec24bce2.jpg" alt="comparison between sima1-2 on minedojo.jpg" /></p>
-<p>また、以下のようなマルチモーダル指示にも対応する。</p>
+<p>実験では、学生が自ら設計した分身AIが、自律的に討論を展開する。設計者の価値観や思考は反映されるが、議論の流れは完全には制御できない。この「似ているが、完全な自分ではない」という距離感が、客観的な自己観察を可能にするという。</p>
+<p><strong>コミュニケーション構造の比較図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_7_2d4879fc05/x2_7_2d4879fc05.png" alt="x2 (7).png" /></p>
+<h2>Digital Human Debates（DHD）の設計：プロンプトとRAGで“自分”を埋め込む</h2>
+<p>参加したのは中高生9名（3チーム）。それぞれが6か月にわたり、自分の分身AIを次の3要素で設計した。</p>
 <ul>
-<li>スケッチ（ユーザーの手描き図）</li>
-<li>多言語指示</li>
-<li>絵文字のみの指示→ それぞれを正しく解釈し、行動に移すことが可能。</li>
+<li>system_prompt_template.txt：性格・口調・議論戦略・思考様式</li>
+<li>interview_transcript.txt：個人の価値観・経験・背景</li>
+<li>Documents（RAG 文書）：議論に利用する外部知識（両立場の資料を収集）</li>
 </ul>
-<p>さらに、ゲームAで学んだ“mining（採掘）”の概念を、ゲームBでの“harvesting（収穫）”に応用するなど、概念レベルでの転移学習も確認された。</p>
-<h2>完全に新しい“生成された3D世界”でも行動可能：Genie 3との連携</h2>
-<p>SIMA 2は、DeepMindの世界生成モデル「Genie 3」と組み合わせた実験でも高い適応力を示した。</p>
-<p>Genie 3は、1枚の画像やテキストからリアルタイムで3D世界を生成するモデルで、SIMA 2は初めて見る環境にもかかわらず、</p>
+<p>システムは GPT-4o と LangChain を基盤に構築され、音声入力→議論生成→音声合成→Lip-sync 動画生成までを自動化。</p>
+<p><strong>システム構成図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_1_5978703b2d/x4_1_5978703b2d.png" alt="x4 (1).png" /></p>
+<h2>どのように討論したのか</h2>
+<p>議論のトピックは、以下の4種類からルーレットでランダム選択された。</p>
 <ul>
-<li>方角を把握</li>
-<li>ゴールに向けた行動</li>
-<li>指示の理解とタスク遂行</li>
+<li>高齢者の免許返納</li>
+<li>リモートワークの恒久化</li>
+<li>安楽死の合法化</li>
+<li>ベーシックインカムの導入</li>
 </ul>
-<p>を実現した。</p>
-<p>DeepMindはこの試験を「一般化能力の限界を試すもの」として位置づけ、従来の固定されたゲーム環境では確認できない柔軟性が明らかになったとしている。</p>
-<h2>自己改善ループ：人間データに依存しない継続学習へ</h2>
-<p>SIMA 2の大きな特徴の一つが、新たに導入された自己改善（self-improvement）サイクルだ。</p>
-<p>Geminiが生成するタスクと推定報酬をもとにエージェントが試行を行い、その経験データを蓄積。それらのデータは次世代のSIMA 2の訓練に再利用される。</p>
-<p><strong>SIMA 2 の自己改善サイクル：</strong> Gemini がタスクと推定報酬を生成し、エージェントの行動経験が「Self-Generated Experience」として蓄積され、次世代モデルの学習に再利用される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_2_fa5f0652e0/unnamed_2_fa5f0652e0.webp" alt="unnamed (2).webp" /></p>
-<h3>自己改善サイクルの流れ</h3>
+<p>討論は約20分。Constructive speech、Cross-examination、Rebuttal など、全国高校ディベート選手権の形式に準じて進行し、勝敗は3名の審査員が判定した。</p>
+<p><strong>討論フロー図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_3_aa3dfafba5/x5_3_aa3dfafba5.png" alt="x5 (3).png" /></p>
+<p>また、実際の議論分析では、分身AIの発話は以下の3層で構成されていたことが確認された。</p>
 <ul>
-<li>Geminiがタスクと推定報酬を生成</li>
-<li>SIMA 2が試行（行動）</li>
-<li>経験データを「Self-Generated Experience」として蓄積</li>
-<li>次の世代のSIMA 2を再訓練（スキル向上）</li>
+<li>Personal Context：学生本人の経験や価値観（例：留学経験）</li>
+<li>RAG-sourced Evidence：外部文書を参照した事実情報</li>
+<li>AI-generated Insight：LLM が独自に構築した新しい主張・質問</li>
 </ul>
-<p>このループにより、人間のデモなしで未学習ゲームの能力が向上し、Genie 3で生成された新規世界でも“自己のみで上達する”ことが確認された。DeepMindはこれを「オープンエンドな学習へ向けたマイルストーン」としている。</p>
-<h2>現時点の課題</h2>
-<p>SIMA 2は研究段階であり、DeepMindは以下の課題を明示している。</p>
+<p><strong>発話構成の三層分析図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_2_ebcfc4cb09/x6_2_ebcfc4cb09.png" alt="x6 (2).png" /></p>
+<h2>発見1：AIが“自分の代わり”ではなく“自分の鏡”として機能する</h2>
+<p>論文で最も強調されている成果は、参加者が 「Reflecting with AI」 と呼ばれる新たな学習体験を得た点である。</p>
+<h3>「自分が話すより冷静に見られる」</h3>
+<p>AIが自分の価値観を用いて議論するものの、その展開は必ずしも本人の想定どおりではない。
+この“半自律性”が、次のような客観視を可能にした。</p>
 <ul>
-<li>長時間・多段階の推論タスクは依然困難</li>
-<li>コンテキスト保持（メモリウィンドウ）が短い</li>
-<li>精確なキーボード／マウス操作が難しい</li>
-<li>複雑な3Dシーンの視覚理解はまだ不十分</li>
+<li>「私は衝動的に話しがちだと気づいた」</li>
+<li>「AIの方が論理がブレず、どこが弱いのかがわかった」</li>
 </ul>
-<p>これらはロボティクスや実世界の応用に向け、今後解決すべき点として挙げられている。</p>
-<h2>ロボティクス・AGIへの展開</h2>
-<p>DeepMindは、SIMA 2が取得する以下の能力を、物理世界のロボットに必要な基礎スキルと位置づける。</p>
+<p>参加者は AI の議論を自分とは別の存在として受け止めつつ、「しかし自分の思考が反映されている」と感じる。この微妙な距離感が、強いメタ認知効果を生んだという。</p>
+<h2>発見2：プロンプト設計の違いが“AIの人格”に明確に表れる</h2>
+<p>3チームのアプローチは大きく異なり、プロンプト設計の個性が発話に直接反映された。</p>
 <ul>
-<li>ナビゲーション</li>
-<li>道具操作</li>
-<li>協働タスクの遂行</li>
+<li><strong>Team A：徹底したキャラクター設計</strong> 「認知停止を破壊する」というテーマを持つ強烈な人格を設定し、攻撃的な論法を組み込んだ。</li>
+<li><strong>Team B：繰り返し修正する“チューニング型</strong> 芥川龍之介やガンジーなど歴史人物をモチーフに、AIの出力を評価→修正する反復設計を採用。</li>
+<li><strong>Team C：最小限の人格＋大量の論拠データ</strong> キャラ設定は控えめにし、RAGで大量の論理情報を与える“ロジック重視”型。</li>
 </ul>
-<p>3D仮想世界はロボット学習の“安全かつ多様な練習場”として使えることから、SIMA 2の進化はロボティクス領域にも直結する。</p>
-<h2>責任ある開発と限定公開</h2>
-<p>SIMA 2の自己改善能力は強力であるため、DeepMindは開発初期から同社のResponsible Development &amp; Innovation Teamと連携している。</p>
+<p>いずれも、設計者の価値観や思考癖がそのままAIのふるまいに組み込まれていたという。</p>
+<h2>発見3：AIリテラシー全体をカバーする学習効果</h2>
+<p>研究チームは、今回の取り組みを“ジェネレーティブAIリテラシーの実践的な総合モデル”と位置づけている。
+実際、参加者は以下の能力を幅広く活用していた。</p>
 <ul>
-<li>公開形態は 「限定研究プレビュー」</li>
-<li>対象：少数の学者・ゲームスタジオ</li>
-<li>目的：フィードバック収集とリスク理解の深化</li>
+<li>モデル特性の理解</li>
+<li>論拠の収集と検証</li>
+<li>プロンプト設計</li>
+<li>出力の評価と改善</li>
+<li>自己の思考の客観視（Reflecting with AI）</li>
 </ul>
-<p>SIMA 2の技術レポート（SIMA Technical Report）は近日公開予定とされる。</p>
-<p>:::box
-[関連記事：AIの\\</p>
+<p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
+<p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
+]]></description>
+      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
+      <link>https://ledge.ai/articles/gen_ai_image_copyright_case_chiba_police</link>
+      <description><![CDATA[<p>千葉県警生活経済課は2025年11月20日、生成AIで作成された画像を無断で複製したとして、神奈川県大和市の無職の男性（27）を著作権法違反（複製権侵害）の疑いで千葉地検に書類送致したと<a href="https://www.police.pref.chiba.jp/kohoka/orders_prefecture_03461.html">発表</a>した。県警によれば、生成AIで作られた画像を著作物として扱い、著作権法違反で摘発するのは全国で初めてとみられる。</p>
+<p>事件は8月25日昼頃に発生。男性は、千葉県我孫子市の男性が生成AIを用いて制作し、SNSに投稿していたコンピューターグラフィックスを、著作権者の承諾を得ずに外部サーバーへ送信し複製した疑いが持たれている。県警は、被害者が生成過程で入力した多数のプロンプト（指示）や内容、表現に至るまでの過程を確認し、創作性のある表現が認められるとして著作物性を判断した。</p>
+<p>報道によれば、容疑者は複製した画像を自身が販売する電子書籍の表紙として使用していたとされる。容疑者は「作品に合う素材だった」と供述しているという。県警は、被害者が画像生成において具体的な指示を重ね、独自の表現に到達していた点を踏まえ、無断複製が著作権法上の侵害に当たると判断した。</p>
+<p>著作権法では、人の創作的関与によって生まれた表現が保護の対象となる。生成AIが作成した画像については、どの程度の人間による関与が「創作性」として評価されるかが議論されてきた。今回の事案では、AIへの指示内容や生成工程が「人による具体的な創作行為」と認められた点が重要となる。</p>
+<p>生成AIで作成された画像については、人の具体的な指示や制作過程がどの程度関与しているかが著作物性の判断要素とされる。同事案では、プロンプトの内容や生成工程に人の創作的関与が認められた点が、著作権侵害容疑の判断材料となった。SNS上で公開された生成AI画像であっても、創作性が認められる場合には著作権が成立するため、複製や利用には権利者の許諾が必要となる。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
@@ -902,34 +721,89 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLM「密度化の法則」──“ムーアの法則”を凌ぐ速度で進化、同等性能に必要なサイズは3.5か月ごとに半減</title>
-      <link>https://ledge.ai/articles/llm_densing_law_nature_machine_intelligence_2025</link>
-      <description><![CDATA[<p>清華大学とOpenBMBの研究チームは、LLMの性能効率を示す「能力密度（capability density）」が、約3.5か月ごとに倍増する傾向を確認した。この速度は半導体分野で知られる“ムーアの法則”を上回るものであり、研究チームはこの現象を**「密度化の法則（Densing law）」** と名付けた。</p>
-<p>結果は2025年11月6日付で 学術誌 Nature Machine Intelligence に<a href="https://www.nature.com/articles/s42256-025-01137-0">掲載</a>されている。</p>
-<h2>モデル効率の“時間的スケーリング”</h2>
-<p>論文によると、能力密度は「パラメータ単位あたりの能力」として定義され、参照モデルのスケーリング曲線から推定した有効パラメータ数を用いて算出する。</p>
-<p>51種類のオープンソースLLM（Llama、Mistral、Gemma、DeepSeek など）を対象に、MMLU／BBH／MATH／HumanEval／MBPPの5ベンチで評価した結果、最大能力密度は時間とともに指数関数的に増加。回帰の結果、成長係数 A≈0.007、決定係数 R²≈0.93が得られ、倍増周期は ln(2)/A ≈ 約3.5か月と算出された（図参照）</p>
-<p><strong>オープンソースベースの LLM の推定機能密度</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/42256_2025_1137_Fig1_HTML_0033cd1204/42256_2025_1137_Fig1_HTML_0033cd1204.webp" alt="42256_2025_1137_Fig1_HTML.webp" /></p>
-<p>さらに、データ汚染を取り除いたMMLU-CFによる検証でも、A≈0.0066、R²≈0.95と近い結果を示し、データ依存に偏らない傾向であることが裏づけられた（図参照）。</p>
-<p><strong>MMLU-CF による検証（汚染除去ベンチ）</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07/The_estimated_capability_density_on_a_contamination_free_dataset_MMLU_C_54b2763b07.jpg" alt="The estimated capability density on a contamination-free dataset MMLU-C.jpg" /></p>
-<h2>ChatGPT以降、成長速度が1.5倍に</h2>
-<p>研究では、ChatGPT公開（2022年末）を境に密度の成長率が約1.5倍に加速したことも示された。ChatGPT以前はA≈0.0048だったが、その後はA≈0.0073へ上昇している（図参照）。背景として、オープンソースモデルの拡充や効率的学習手法の普及が挙げられている。</p>
-<p><strong>密度化の法則に関する追加観察（圧縮比較／前後比較）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Density_evaluated_using_MMLU_ba863b49af/Density_evaluated_using_MMLU_ba863b49af.jpg" alt="Density evaluated using MMLU.jpg" /></p>
-<h2>「半分のパラメータ」で同等性能、コストも急減</h2>
-<p>密度化の法則が示唆するのは、同等性能に必要なパラメータ数の指数的減少である。実際、後発の小型モデルが、より大きな先行モデルと同等水準に迫るケースが各種ベンチで観測されている。
-またAPI価格の代表例として、GPT-3.5（2022年末）で100万トークンあたり20ドルだったのに対し、Gemini 1.5 Flash（2024年夏）では0.075ドルまで低下しており、推論コストも短い周期で半減している（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/API_prices_of_LL_Ms_d82e75a156/API_prices_of_LL_Ms_d82e75a156.jpg" alt="API prices of LLMs.jpg" /></p>
-<h2>「Mooreの法則」と掛け合わせた未来</h2>
-<p>研究チームは、半導体のMooreの法則（トランジスタ密度の倍増）と密度化の法則を組み合わせると、固定価格のチップ上で実行可能な“有効パラメータ数”は約88日で倍増するとの試算を示す。これにより、エッジデバイスでの高性能推論が加速する可能性が高い。</p>
-<h2>圧縮は万能ではない</h2>
-<p>量子化や蒸留などの圧縮は常に密度向上を保証しない。研究では、Gemma-2-9Bが例外的に密度改善を示した一方、十分な再訓練を伴わない圧縮は密度低下につながるケースも確認された（図参照）。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f/Comparison_between_compressed_models_and_their_larger_counterparts_a7b553377f.jpg" alt="Comparison between compressed models and their larger counterparts.jpg" /></p>
-<h2>「密度最適訓練」への転換</h2>
-<p>著者らは、今後は単なる巨大化ではなく「密度最適訓練（density-optimal training）」へ軸足を移すべきだと提言する。大規模モデルから小規模モデルへの知識移転と、再びそれが大規模側の効率化に寄与するという相互進化が、持続可能な開発の鍵になるという。
-同時に、能力密度の指数成長には理論的上限があるため、将来的には量子計算や神経形態計算など新たな計算パラダイムの検討も必要になると見解を示す。</p>
+      <title>LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
+      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
+      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
+<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
+<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
+<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
+これらは</p>
+<ul>
+<li>誤情報</li>
+<li>攻撃的な表現</li>
+<li>情報量の乏しい短文</li>
+</ul>
+<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
+<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
+<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
+<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
+<ul>
+<li>テキストの品質（semantic quality）</li>
+<li>エンゲージメント（人気度）</li>
+</ul>
+<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
+評価には、</p>
+<ul>
+<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
+<li>長文コンテキスト理解（RULER）</li>
+<li>安全性（有害発言誘発テスト）</li>
+<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
+</ul>
+<p>が利用された。</p>
+<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
+<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
+<p>この “劣化の全体像” は、下図のように整理されている。</p>
+<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
+低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
+<p>この図が示すように、</p>
+<ul>
+<li>ARC Challenge</li>
+<li>RULER</li>
+<li>HH-RLHF（安全性関連）</li>
+</ul>
+<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
+<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
+<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
+低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
+<p>この図が表している通り、</p>
+<ul>
+<li>no thinking（思考が全く行われない）</li>
+<li>wrong logic in plan（計画の論理破綻）</li>
+<li>factual error（事実誤認）</li>
+</ul>
+<p>などの“思考の崩壊”が顕著に増加している。</p>
+<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
+<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
+<ul>
+<li>有害な発言を誘発しやすくなる</li>
+<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
+<li>不正確な主張を自信満々に述べるケースが増える</li>
+</ul>
+<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
+<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
+<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
+研究者らはこの仮説も検証した。</p>
+<p>結果は次の通り。</p>
+<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
+ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
+<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
+研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
+<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
+<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
+<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
+<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
+<p>研究チームは、</p>
+<ul>
+<li>データ品質フィルタリングの強化</li>
+<li>SNS由来データの評価と管理</li>
+<li>「Brain Rot」兆候の定期的検査</li>
+</ul>
+<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
+<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
     </item>
