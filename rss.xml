@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、「SAM 3」を発表──テキストや画像例をプロンプトに、画像・動画内の物体を一括検出・分割・追跡　併せて「SAM 3D」で人物・物体の3D生成にも対応</title>
+      <link>https://ledge.ai/articles/meta_sam3_sam3d_release</link>
+      <description><![CDATA[<p>Metaは2025年11月19日（現地時間）、画像および動画に含まれるオブジェクトを、プロンプトを基点に一括で検出・分割・追跡できる新モデル「Segment Anything Model 3（SAM 3）」を<a href="https://ai.meta.com/blog/segment-anything-model-3/">発表</a>した。同日、2D画像から人物や物体の3Dモデルを生成する「SAM 3D」も<a href="https://ai.meta.com/blog/sam-3d/">公開</a>している。</p>
+<p>Metaの公式Xアカウント（@AIatMeta）は、両モデルを「新しい世代のSegment Anything Models」と<a href="https://x.com/AIatMeta/status/1991178519557046380">紹介</a>し、開発者・研究者向けのメディアワークフローを大きく拡張するとしている。</p>
+<h2>SAM3：プロンプトから“概念”ベースで検出・分割・追跡</h2>
+<p>SAM 3は、短いテキストフレーズ（例：「yellow school bus」）や、画像内のサンプルオブジェクトを示す “example prompt” を入力すると、該当するすべてのオブジェクトを一括して検出・分割し、動画では継続的に追跡できるモデル。Metaはこれを「Promptable Concept Segmentation（PCS）」と定義している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=G4OLPDjwncw">Youtube</a></p>
+<p>アーキテクチャは、DETRベースの画像検出器と、SAM 2を基盤とした動画トラッカーを単一バックボーンに統合したもの。論文(https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/)では、認識と位置特定を切り離す“Presence Head”を新たに採用し、概念ベースの検出精度を向上させたと説明されている。</p>
+<p><strong>SAM 3は、テキストプロンプトを用いた検出と追跡を単一アーキテクチャで統合する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SAM_3_architecture_overview_0af9a61c98/SAM_3_architecture_overview_0af9a61c98.jpg" alt="SAM 3 architecture overview.jpg" /></p>
+<h2>400万概念を含む新データセット「SA-Co」</h2>
+<p>SAM 3の開発にあたり、Metaは大規模データセット「<a href="https://github.com/facebookresearch/sam3/blob/main/README.md#sa-co-dataset">SA-Co（Segment Anything with Concepts）</a>」を新たに構築した。SA-Coは、数百万枚規模の高品質画像と約400万のユニーク概念、数千万のマスク情報を含むもので、モデルが幅広い概念を学習できるよう設計されている。</p>
+<p>論文で示されたベンチマーク「SA-Co/Gold」では20万以上の概念を評価対象とし、SAM 3はLVISのゼロショットMask APで48.8を記録。従来モデル（38.5）を大きく上回った。</p>
+<p><strong>SA-Coは、画像中の多様な物体を高精度にラベル付けする大規模データセット。色ごとに異なる概念カテゴリが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SA_Co_907d839e43/SA_Co_907d839e43.jpg" alt="SA-Co.jpg" /></p>
+<p>SAM 3は、Metaの研究用ウェアラブルデバイス「<a href="https://ledge.ai/articles/meta_aria_gen2_ai_research">Aria Gen 2</a>」で撮影された一人称視点の映像に対しても高い性能を示す。動きの速さや視点の揺れが大きいファーストパーソン映像でも、対象物の分割と追跡を安定して行える点が特徴だ。</p>
+<p>Metaは、Aria Gen 2 Pilot Datasetの一部を<a href="https://www.aidemos.meta.com/segment-anything">Segment Anything Playground</a>上で公開しており、これにより、人間の視点から世界を理解する“コンテクスチュアルAI”や、ロボティクス、機械知覚といった応用領域におけるSAM 3の有用性を示している。</p>
+<h2>SAM 3D：1枚の画像から人物・物体の3Dモデルを生成</h2>
+<p>同時に公開された「SAM 3D」は、人物に特化した「SAM 3D Body」と一般物体向けの「SAM 3D Objects」から構成される。Metaは、単一の2D画像から高精度で3D形状を復元でき、テクスチャとメッシュの情報を従来手法より忠実に再現できる点を強調している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B7PZuM55ayc">Youtube</a></p>
+<h2>2D解析から3D復元までを一貫化</h2>
+<p>Metaは、SAM 3とSAM 3Dをセットで発表することで、画像・動画内のオブジェクト理解（SAM 3）から3D形状復元（SAM 3D）までを一貫して扱える視覚AI基盤を提示した。動画編集、AR/VR、ロボティクス、ECなど、多数の応用領域で利用可能性があるとしている。</p>
+<p>公式Xでは、今回の発表を「新しい世代のSegment Anything Models」と説明し、SAM 3 と SAM 3D が画像・動画・3Dを横断する基盤技術として進化した点を強調している。投稿では、短いテキスト指示や具体例となる画像を用いた物体の検出・分割・追跡（SAM 3）、そして単一画像から人物や物体の3Dモデルを生成する機能（SAM 3D）が紹介され、「開発者と研究者が新しいメディア処理ワークフローを構築するためのツール」と位置づけている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/segment_anything_models_921509ea34/segment_anything_models_921509ea34.jpg" alt="segment anything models.jpg" /></p>
+<p>:::box
+[関連記事：AIの\</p>
+]]></description>
+      <pubDate>Mon, 24 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>英国、動物実験の段階的廃止ロードマップを発表──AIと臓器チップで2030年までに犬・霊長類の薬物試験削減へ</title>
       <link>https://ledge.ai/articles/uk_animal_testing_phaseout_roadmap_2030</link>
       <description><![CDATA[<p>英国政府は2025年11月11日、動物実験を代替法へ置き換えるための包括的戦略「Replacing Animals in Science Strategy」を<a href="https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods">公表</a>した。臓器チップや3D細胞モデル、遺伝子ベースアッセイなど、多様な非動物技術（Non-Animal Technologies：NATs）の活用を体系的に進める内容で、この中にはAIによる毒性予測や計算モデルも含まれる。</p>
@@ -961,26 +991,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>同社は今後、ロボット制御やハードウェア操作におけるAIの役割、また物理世界に接続されたシステムの安全性確保に関する研究を継続する方針だとしている。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PKSHA、AIでプロ人材を即時提案──サーキュレーションと企業向けマッチングプロダクト「PRONAVI now」運用開始</title>
-      <link>https://ledge.ai/articles/pksha_pronavi_now_start</link>
-      <description><![CDATA[<p>PKSHA Technology（パークシャテクノロジー）とグループ会社のサーキュレーションは2025年11月14日、企業向けのプロ人材マッチングを支援するAIプロダクト「PRONAVI now（プロナビ ナウ）」の運用を開始したと<a href="https://www.pkshatech.com/news/20251114/">発表</a>した。</p>
-<p>サーキュレーションが蓄積してきた22,000件以上の案件データとプロ人材の経歴情報を、PKSHAのAIアルゴリズムで解析し、マッチングの精度とスピード向上を図る。</p>
-<h2>商談中に最適人材を即時提案</h2>
-<p>従来の人材マッチングは、担当コンサルタントの経験値に依存し、企業との初回打ち合わせ後に候補者を検討・提示するケースが一般的だった。「PRONAVI now」では、サーキュレーションが保有する体系的なプロ人材データと案件データをAIが解析し、その場でマッチ度や候補人材を即時表示。企業側は、必要なスキル・経験を持つ人材像をその場で確認でき、意思決定までのリードタイム短縮が期待される。</p>
-<p>PKSHAは、採用・配置・スキル可視化などを支援する「PKSHA AI Suite for HR」で得たマッチングノウハウを活用。プロシェアリング領域のデータを扱うサーキュレーションと連携することで、企業の課題解決に必要な人材要件を高精度に抽出する仕組みを整えた。</p>
-<h2>プロシェアリング需要の拡大</h2>
-<p>両社は2024年6月に資本業務提携を締結し、2025年8月にサーキュレーションがPKSHAグループへ正式参画していた。サーキュレーションは31,000名以上のプロ人材と22,000件超のプロジェクトデータを有しており、こうしたアセットにPKSHAのAI技術を組み合わせるかたちで「PRONAVI now」を共同開発した。</p>
-<p>労働人口の減少や働き方の多様化が進むなか、特定領域に深い知見を持つプロ人材が複数企業で経験を生かす「プロシェアリング」は裾野を広げている。一方、ニーズの高度化とスピード感の高まりにより、的確なマッチングの難易度は増していた。</p>
-<p>PKSHAとサーキュレーションは、こうした環境変化に対応するかたちで「PRONAVI now」を共同開発。企業の課題とプロ人材のスキルの最適化を図るマッチングプロセスを、AIによって進化させる狙いがある。</p>
-<h2>新しいプロ人材像「AI Powered Worker」</h2>
-<p>両社は今回の取り組みにあわせて、AI活用を前提とした新しいプロフェッショナル像「AI Powered Worker」という方向性も示した。AIによるナレッジ提供や課題整理の支援を受けることで、プロ人材がこれまで以上に高い成果を発揮できる状態を目指すモデルだ。今後は、プロ人材のAIリスキリング支援や、AIを活用したプロジェクト提案の高度化にも取り組むとしている。</p>
-<h2>今後の展望</h2>
-<p>「PRONAVI now」は、マッチング精度向上や機能追加を継続的に行う方針だ。企業側のニーズ変化に合わせたデータ構造の改善や、プロ人材側のスキルアップ支援を強化し、マッチングの質とスピードの両立を図る。</p>
-<p>PKSHAは「未来のソフトウエアを形にする」、サーキュレーションは「世界中の経験・知見が循環する社会の創造」を掲げており、今回のプロダクトは両社のビジョンを結ぶものとなる。AI Powered Workerと企業が出会うためのプラットフォームとして、企業の高度な課題解決と、プロ人材の活躍機会の拡大の両面から、さらなる機能発展を進める見通しだ。</p>
-]]></description>
-      <pubDate>Tue, 18 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
