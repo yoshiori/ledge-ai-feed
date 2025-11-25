@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>KADOKAWA×はてな「カクヨム」、生成AI利用作品に3種のタグ付けを推奨──“本文50％以上／50％未満／補助利用”を明確化</title>
+      <link>https://ledge.ai/articles/kakuyomu_ai_tag_guideline_update</link>
+      <description><![CDATA[<p>小説投稿サイト「カクヨム」を共同運営するKADOKAWAとはてなは2025年11月19日、生成AIを利用した作品投稿について、利用状況に応じたタグ付けを推奨すると<a href="https://kakuyomu.jp/info/entry/geneai_tag">発表</a>した。対象となるタグは「AI本文利用」「AI本文一部利用」「AI補助利用」の3種類で、本文中のAI生成割合やAIの関与範囲に応じて区分を設ける。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kakuyomu_genai_tag_0e3bbfab95/kakuyomu_genai_tag_0e3bbfab95.jpg" alt="kakuyomu genai tag.jpg" /></p>
+<p>発表によると、「AI本文利用」は本文の大半（目安50％以上）がAIによって生成された場合、または軽微な修正のみを加えて利用した場合に該当する。「AI本文一部利用」は本文の一部（目安50％未満）がAI生成の場合で、こちらも軽微な修正にとどまるケースを想定する。「AI補助利用」は、AIで得たアイデアや資料をもとに作者が本文を書く場合や、作者が書いた文章の校正など、創作の補助的にAIを使用した場合を指す。3つの基準はあくまで目安とし、投稿者は自身の利用実態に合わせて選択する。</p>
+<p>11月21日には、「AI補助利用」の適用範囲に関する問い合わせが多数寄せられたとして、公式サイトに追記を行った。追記では、作品執筆の一環として作者が意識的に生成AIツールを使用した場合を想定していると説明。一方で、検索サービスなど日常的に利用するツールのAI要約機能や、文書ソフトの自動校正機能を用いた作品は該当しないとしている。また、投稿者に対して生成AI利用の具体的内容を示す必要はないとも明記した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kakuyomu_ai_tag2_e153549b82/kakuyomu_ai_tag2_e153549b82.jpg" alt="kakuyomu ai tag2.jpg" /></p>
+<p>なお、KADOKAWAが主催する日本最大級の小説コンテスト「カクヨムコンテスト11」に応募する作品については、生成AIを利用している場合、該当タグの付与が必須とのこと。</p>
+]]></description>
+      <pubDate>Tue, 25 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>xAI、サウジアラビアと500MW超の次世代AIデータセンターを共同開発──Grokを国家規模で展開へ</title>
       <link>https://ledge.ai/articles/xai_humain_saudi_500mw_grok_national_ai_layer</link>
       <description><![CDATA[<p>サウジアラビア政府系AI企業のHUMAINは2025年11月19日、米ワシントンD.C.で開催された U.S.–Saudi Investment Forum 2025 において、米xAIとの大型フレームワーク契約を<a href="https://www.humain.com/en/news/humain-and-xai-partner-to-build-next-generation-ai-compute-power-and-deploy-grok-in-the-kingdom-to-support-the-most-ai-enabled-nation-objectives">発表</a>した。両社はサウジアラビア国内に、500MW超のフラッグシップ施設を核とした複数拠点のGPUデータセンター網を共同で開発し、xAIの大規模言語モデル「Grok」を国家規模で展開する。</p>
@@ -983,22 +995,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
 ]]></description>
       <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テレビ北海道、AIが放送運行を常時監視・自動対応する「VMO-AIPlus」発表──月額40万円で提供へ</title>
-      <link>https://ledge.ai/articles/tvh_vmo_aiplus_ai_master_auto_monitoring</link>
-      <description><![CDATA[<p>テレビ北海道（TVh、札幌市）は2025年11月11日、テレビ放送の運行状況を監視・制御するマスター業務をAIで自動化するシステム「VMO-AIPlus（ブイエムオー・エーアイプラス）」を開発したと<a href="https://www.tv-hokkaido.co.jp/company/pr/pr20251111/">発表</a>した。</p>
-<p>放送が滞りなく実施できているかの監視や、番組・CMの送出など従来オペレーターが担ってきた作業をAIが代行し、マスター業務の省力化を図る。</p>
-<h2>放送マスターの監視・復旧をAIで自動化</h2>
-<p>「VMO-AIPlus」は、マスター業務のリモートオペレーションを可能にしたTVhの独自システム「VMO（バーチャルマスターオペレーター）」をベースに、新たに開発したAIで放送の監視や制御を自動化するシステムだ。映像や音声の状態、信号の有無、管理用の画面情報などを常時監視し、無音・フリーズ・黒味・信号断といった異常を自動で検出する。障害が発生した際には、AIが原因と対策を瞬時に判断し、状況をメールで通知するため、オペレーターは監視室に常駐していなくても状況把握と初動対応が可能になる。</p>
-<p>障害時の復旧制御をAIに任せる構成も選択でき、その場合はバックアップ系への切り替えなど復旧操作をAIが実行し、対応内容や復旧状況をメールで知らせる。既存の設備の種類やメーカーを問わず、マスターで管理している映像信号や管理画面の情報をそのまま活用できる点も特徴とされている。</p>
-<h2>既存マスター設備に追加導入が可能</h2>
-<p>同システムは既存のマスター設備に追加する形で導入でき、大規模な設備更新を必要としない。AIによる監視と通知、そしてオプションの自動制御機能により、夜間帯や少人数での運用が求められる時間帯でも効率的にマスター業務を行えるという。</p>
-<p>また、日々の異常発生履歴や対応内容を一覧できる画面イメージも公開されており、障害ログの可視化や運用改善に活用できると説明している。</p>
-<h2>サブスクリプションで提供、他局展開も視野</h2>
-<p>「VMO-AIPlus」はサブスクリプション型で提供され、自動監視とメール通知のみを行う基本パッケージが月額40万円（税別）となる。自動制御などの機能はオプションとして追加提供される。</p>
-]]></description>
-      <pubDate>Wed, 19 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
