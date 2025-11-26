@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、「ChatGPT for Teachers」を無償提供──米国K-12教員向けに“教育専用ワークスペース”を開放</title>
+      <link>https://ledge.ai/articles/chatgpt_for_teachers_us_k12_free_workspace</link>
+      <description><![CDATA[<p>OpenAIは2025年11月19日、米国のK-12教員・学校スタッフ向けにカスタマイズされた教育用AI「ChatGPT for Teachers」の提供を<a href="https://openai.com/index/chatgpt-for-teachers/">発表</a>した。対象となる教員・関係者は、2027年6月まで無料で利用できる。専用ワークスペースを備え、教材作成から学区単位の協働管理まで、学校現場での利用に特化した機能が特徴だという。</p>
+<p>サービスは、認定された米国のK-12学校に所属する教員・スタッフ・学校リーダー、学区管理者を対象としたもの。利用にはSheerIDによる在職確認が必要で、資格が確認された教育者は専用の「Teachers ワークスペース」を作成できる。学生アカウントについては、今後の提供を見据えて準備中とのこと。</p>
+<h2>教材作成・レッスン設計を支援するフル機能のChatGPT</h2>
+<p>「ChatGPT for Teachers」では、OpenAIのフラッグシップモデルに加え、ファイルアップロード、Google DriveやMicrosoft 365との連携、画像生成、音声モード、データ分析、ブラウジングなど、一般版ChatGPTが提供する主要機能をそのまま利用できる。</p>
+<p><a href="https://openai.com/index/chatgpt-for-teachers/">公式ページ</a>では、単元計画、学習目標に応じたレッスン案、ワークシート生成、生徒向け課題の分岐作成、保護者向け文書の翻訳など、教師の業務を支援する具体的な活用例が示されている。教師が自身のスタイルや生徒情報を入力すれば、回答を継続的にパーソナライズする「メモリ」機能も利用可能だ。</p>
+<h2>学校・学区単位の導入を想定したワークスペースと管理機能</h2>
+<p>教育機関向けに設計された「Teachers ワークスペース」は、教材・指示文・共同プロジェクトなどの共有を前提としたコラボレーション機能を備える。教員同士でテンプレートを共有したり、共同でカスタムGPTを作成したりすることが可能だ。</p>
+<p>管理者向けには、ドメインクレーム（学校ドメインの登録）、ロールベースのアクセス制御（RBAC）、メンバー管理、SAML SSOなどの機能が提供される。学区全体での展開を想定した構成で、大規模な導入を希望する学校・学区向けには追加相談窓口が用意されている。</p>
+<h2>学習データへの不使用と暗号化を含むデータ保護</h2>
+<p>OpenAIは、教育者向けアカウントで共有された内容はデフォルトでAIモデルの訓練に使用しないと説明している。データは保存時・転送時の双方で暗号化され、MFA・SSOなどのアカウント保護機能も利用できる。</p>
+<p>また、米国の教育記録保護法（FERPA）に準拠する形で、学校・学区が必要とするコンプライアンス要件に対応しているとされる。会話データは、不正利用の調査など限定的な目的で権限を持つ担当者がアクセスする場合があるが、範囲は管理されたものだとしている。</p>
+<h2>利用開始の方法</h2>
+<p>利用を希望する教員は、公式ページから資格確認を行うことで、自身のワークスペースを開設できる。学区管理者は、組織全体のワークスペースを立ち上げ、教員を一括管理することも可能だ。</p>
+<p>OpenAIは、無料提供期間終了後（2027年6月以降）について、価格や条件に変更が生じる場合は事前通知するとしており、「教育者にとって手頃な価格を維持することを目指す」と説明している。</p>
+]]></description>
+      <pubDate>Wed, 26 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiに「AI生成画像の検証」機能を導入──目に見えない電子透かし技術「SynthID」を活用</title>
       <link>https://ledge.ai/articles/google_gemini_synthid_image_verification</link>
       <description><![CDATA[<p>Googleは2025年11月20日、Geminiアプリにおいて、画像をアップロードして「この画像はAIで生成または編集されたものか」を判定できる新機能を<a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/">公開</a>した。同社は2023年に、画像の見た目に影響を与えず識別情報を埋め込む電子透かし（Invisible watermark）技術「SynthID」を開発しており、今回のアップデートにより、この電子透かしをGeminiアプリ上で直接検出できるようになる。</p>
@@ -498,68 +518,6 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
 <p>ベゾス氏はAmazon CEO退任後、宇宙開発企業Blue Originの運営や複数企業のオーナー業を継続してきたが、実務責任を伴うトップ職に戻るのは約4年ぶり。AI産業の拡大とともに、製造AI・工学AI分野の競争が激化するなかでの復帰として注目が集まっている。</p>
 ]]></description>
       <pubDate>Thu, 20 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>xAI、「Grok 4.1」公開──創造性・感情理解・安全性を強化した新フラッグシップモデル</title>
-      <link>https://ledge.ai/articles/grok_4_1_release_xai_nov18</link>
-      <description><![CDATA[<p>イーロン・マスク氏率いるAI企業 xAI は2025年11月18日（日本時間）、最新AIモデル「Grok 4.1」の提供を<a href="https://x.ai/news/grok-4-1">発表</a>した。発表によると、Grok 4.1はgrok.com、X、iOS／Androidアプリで利用可能になり、Autoモードで順次展開されるほか、モデルピッカーから明示的に選択できるようになった。同社は今回のアップデートについて、創造性や感情理解、協調性など「実世界での使いやすさ」の向上を重視したと説明している。</p>
-<h2>創造性・感情理解・協調性をさらに強化</h2>
-<p>xAIによれば、Grok 4.1は従来の推論性能を維持したまま、創造性、感情理解、協調的な対話といった能力を高めたとしている。ユーザーの微妙な意図の読み取り、一貫した人格の維持など、会話体験の質を高める点が今回の特徴だ。</p>
-<p>同社はGrok 4で構築した大規模強化学習インフラを活用し、「スタイル」「人格」「helpfulness」「alignment」といった検証が難しい報酬を最適化した。これを支える仕組みとして、先端的な推論モデルを報酬モデルに用い、応答の生成と評価を大規模に自動反復する新手法を導入したという。</p>
-<h2>2週間のサイレントロールアウトで改善を確認</h2>
-<p>xAIは11月1日〜14日にかけて、Grok 4.1のプレビュー版を本番環境へ段階的に投入。実際のユーザーによる盲検ペアワイズ評価を行った結果、Grok 4.1は従来モデルに対して**64.78％**の勝率となり、ユーザーからより支持されたとしている。</p>
-<h2>LMArenaで1位と2位を獲得</h2>
-<p>公開ベンチマーク「LMArena Text Arena」では、Grok 4.1が上位を独占した。</p>
-<ul>
-<li>Grok 4.1 Thinking（quasarflux）：Elo 1483（全体1位）</li>
-<li>Grok 4.1（Non-Thinking／tensor）：Elo 1465（全体2位）</li>
-</ul>
-<p>非推論モードのGrok 4.1が、他社モデルの推論モードも含めて上回るスコアとなり、従来のGrok 4（33位）から大きな改善が確認された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LM_Arena_Text_Leaderboard_4abd3ec9a1/LM_Arena_Text_Leaderboard_4abd3ec9a1.jpg" alt="LMArena Text Leaderboard.jpg" /></p>
-<h2>EQ-Bench3：感情知能の大幅な向上</h2>
-<p>感情知能（EQ）を測定するEQ-Bench3では、以下のスコアが示された。</p>
-<ul>
-<li>Grok 4.1 Thinking：1586</li>
-<li>Grok 4.1：1585</li>
-<li>旧Grok 4：1206</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/EQ_Bench_5b0f4863fd/EQ_Bench_5b0f4863fd.jpg" alt="EQ-Bench.jpg" /></p>
-<p>公式発表では、ペットロスのユーザーに対する応答例を提示し、Grok 4.1が具体的な情景や共感表現を含む自然な対話を生成できることを示している。</p>
-<h2>Creative Writing v3でも上位に</h2>
-<p>創作ライティング能力を評価するCreative Writing v3では、以下の順位となった。</p>
-<ul>
-<li>Polaris Alpha（early GPT-5.1）：1756.2</li>
-<li>Grok 4.1 Thinking：1721.9（2位）</li>
-<li>Grok 4.1：1708.6（3位）</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Creative_Writing_v3_868612c18c/Creative_Writing_v3_868612c18c.jpg" alt="Creative Writing v3.jpg" /></p>
-<p>xAIによる評価では、文体や物語表現の豊かさが向上している点が数値として示されている。</p>
-<h2>事実性の向上：ハルシネーション率を大幅削減</h2>
-<p>Grok 4.1は、特に情報探索系のプロンプトで事実誤り（ハルシネーション）を減らすことに重点を置いたという。公式発表の評価では、非推論モードで以下の改善が示された。</p>
-<p><strong>■ ハルシネーション率（低いほど良い）</strong></p>
-<ul>
-<li>Grok 4 Fast（従来）：12.09％</li>
-<li>Grok 4.1：4.22％</li>
-</ul>
-<p><strong>■ FActScore（500問のバイオグラフィ評価）</strong></p>
-<ul>
-<li>Grok 4 Fast：9.89％</li>
-<li>Grok 4.1：2.97％</li>
-</ul>
-<p>非推論モードでも事実性が向上した点が明確に示された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Hallucination_Rate_200f138e45/Hallucination_Rate_200f138e45.jpg" alt="Hallucination Rate.jpg" /></p>
-<p>非推論モードでも事実性が向上したことが数値で示された。</p>
-<h2>モデルカードで公開された安全性評価</h2>
-<p>添付された「Grok 4.1 Model Card」では、xAIのリスク管理フレームワーク（RMF）に基づき、安全性評価が詳細に示されている。主な評価項目は以下の通り。</p>
-<ul>
-<li>Abuse Potential：有害リクエスト拒否性能、jailbreak耐性</li>
-<li>Deception／Sycophancy：欺瞞的応答や迎合行動の評価</li>
-<li>Dual-Use Capabilities：生物・化学・サイバー領域の二重用途リスク</li>
-<li>Persuasion：MakeMeSayによる操作的応答の傾向</li>
-</ul>
-<p>モデルカードでは、生物・化学領域の知識タスクで高い正答率が見られる一方、実験設計や多段推論では人間エキスパートに及ばないケースがあるなど、能力の強弱が併記されている。また、こうした評価を踏まえて入力フィルタの強化などの安全対策を実施したと説明している。</p>
-]]></description>
-      <pubDate>Wed, 19 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
