@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>DMM傘下Algomatic、「にじボイス」を2026年2月4日に終了──日俳連の削除要請（計53体）受領を経て決断</title>
+      <link>https://ledge.ai/articles/algomatic_nijivoice_service_end_2026_0204</link>
+      <description><![CDATA[<p>DMMグループでAI関連サービスを手がけるAlgomaticは2025年11月21日、AI音声生成プラットフォーム「にじボイス」の提供を2026年2月4日で終了すると<a href="https://algomatic.jp/news/notice_nijivoice_20251121">発表</a>した。同社は「突然のお知らせとなったことをお詫び申し上げる」とし、今後の詳細なスケジュールについては改めて案内するとしている。</p>
+<p>リリースによると、Algomaticは2025年9月29日に日本俳優連合（日俳連）から、同サービスで提供していた33体のキャラクターボイスについて「組合所属の実演家の音声実演に似ている」との指摘と削除要請を受けた。同社が社内で再調査した結果、「法的な権利侵害は確認されなかった」としつつも、懸念を与えることは本意ではないとして33体の提供を終了した。</p>
+<p>その後も運営を継続していたが、11月17日に日俳連から追加で20体のキャラクターボイスへの削除要請を受領。こちらも調査では法的な権利侵害は確認されなかったが、Algomaticは「声の権利を守るためのプラットフォームとして立ち上げた経緯」を踏まえ、本人が不安を感じる状況に対し「主観である」と反論することは適切ではないと判断したとして、サービス全体の終了を決定したと説明している。</p>
+<p>また同社は、「にじボイス」終了について批判が寄せられる可能性を認識しつつも決断は自社の責任であるとし、日俳連への誹謗中傷を控えるよう利用者に呼びかけた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jau_nichihairen_c09e486b33/jau_nichihairen_c09e486b33.jpg" alt="jau nichihairen.jpg" /></p>
+<p>日本俳優連合は11月17日、公式X（旧Twitter）で「にじボイス」に対し、組合員声優に酷似した音声コンテンツ20件の削除要請（第2弾）を提出したと発表。「AI時代だからこそ、声優が安心して演技に向き合える環境づくりを進める」とコメントしている。</p>
+]]></description>
+      <pubDate>Wed, 26 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「ChatGPT for Teachers」を無償提供──米国K-12教員向けに“教育専用ワークスペース”を開放</title>
       <link>https://ledge.ai/articles/chatgpt_for_teachers_us_k12_free_workspace</link>
       <description><![CDATA[<p>OpenAIは2025年11月19日、米国のK-12教員・学校スタッフ向けにカスタマイズされた教育用AI「ChatGPT for Teachers」の提供を<a href="https://openai.com/index/chatgpt-for-teachers/">発表</a>した。対象となる教員・関係者は、2027年6月まで無料で利用できる。専用ワークスペースを備え、教材作成から学区単位の協働管理まで、学校現場での利用に特化した機能が特徴だという。</p>
@@ -502,22 +514,6 @@ Stage 2：脳活動から推定された特徴に合わせて文章を最適化<
 <p>NTTは今回の研究を「脳とAIをより柔軟に結びつけるための基盤研究」と位置づけており、今後は、認知科学・医療・マンマシンインタフェース領域などでの応用を想定している。</p>
 ]]></description>
       <pubDate>Thu, 20 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon創業者のジェフ・ベゾス氏、AI企業「プロジェクト・プロメテウス」の共同CEOに就任── “実世界AI” に本格参入</title>
-      <link>https://ledge.ai/articles/jeff_bezos_project_prometheus_co_ceo_appointment</link>
-      <description><![CDATA[<p>Amazon創業者のジェフ・ベゾス氏が、AIスタートアップ「Project Prometheus（プロジェクト・プロメテウス）」の共同最高経営責任者（CEO）に就任した。2025年11月17日に<a href="https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html">ニューヨークタイムズ</a>
-など複数の海外メディアが報じたもので、2021年のAmazon CEO退任以来、同氏が企業運営の最前線に復帰するのは初めてとなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bezos_creates_ai_startup_ba276b805d/bezos_creates_ai_startup_ba276b805d.jpg" alt="bezos creates ai startup.jpg" /></p>
-<h2>製造・ロボティクス・航空宇宙…“物理経済”を理解するAIを開発</h2>
-<p>報道によると、Prometheusはこれまでに62億ドル（約6,200億円）規模を調達したAI企業で、生成AIとは異なる領域—工場、ロボット、自動車、航空宇宙など、“物理世界の複雑なシステムを理解し操作できるAI”の開発を目標としている。</p>
-<p>同社が取り組む領域は「physical economy（物理経済）」と呼ばれ、ソフトウェア領域にとどまらず、機械・装置・製造現場の挙動を扱う。そのため、今後の産業インフラや高度製造分野で存在感を高める可能性があるとみられている。</p>
-<h2>共同CEOは元Google X幹部のVik Bajaj氏</h2>
-<p>Prometheusは共同CEO制を採用しており、ベゾス氏とともに経営を担うのは、Google X やVerilyで幹部を務めたVik Bajaj（ヴィク・バジャージ）氏。Bajaj氏は工学・バイオ・ロボティクス領域の研究と事業化に長く携わり、ディープテック企業の経営にも実績を持つという。</p>
-<h2>ベゾス氏の「経営トップ」復帰は4年ぶり</h2>
-<p>ベゾス氏はAmazon CEO退任後、宇宙開発企業Blue Originの運営や複数企業のオーナー業を継続してきたが、実務責任を伴うトップ職に戻るのは約4年ぶり。AI産業の拡大とともに、製造AI・工学AI分野の競争が激化するなかでの復帰として注目が集まっている。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
