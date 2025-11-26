@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiに「AI生成画像の検証」機能を導入──目に見えない電子透かし技術「SynthID」を活用</title>
+      <link>https://ledge.ai/articles/google_gemini_synthid_image_verification</link>
+      <description><![CDATA[<p>Googleは2025年11月20日、Geminiアプリにおいて、画像をアップロードして「この画像はAIで生成または編集されたものか」を判定できる新機能を<a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/">公開</a>した。同社は2023年に、画像の見た目に影響を与えず識別情報を埋め込む電子透かし（Invisible watermark）技術「SynthID」を開発しており、今回のアップデートにより、この電子透かしをGeminiアプリ上で直接検出できるようになる。</p>
+<h2>AI生成画像の真偽をアプリ上で判定</h2>
+<p>Geminiアプリでは、ユーザーが画像をアップロードし、「Was this created or edited by Google AI?」といった質問を投げかけることで、画像にSynthIDの電子透かしが含まれているかを判定できる。
+電子透かしが検出された場合は、GoogleのAIによって生成または編集された可能性が高いと返答される。一方で電子透かしが見つからない場合は、「GoogleのAIによるものではない可能性が高い」と示される。ただし、他社のAIモデルによる生成画像まで識別できるわけではなく、あくまでGoogleのAIに適用された電子透かしのみが検知対象となる。</p>
+<h2>利用条件と注意点</h2>
+<p>Googleサポートページによれば、検証は1枚ずつ（100MB以下）の画像に対して実施され、コラージュ画像など複数の画像を含む形式は推奨されない。また、電子透かしが画像全体ではなく一部に適用されている場合、AIで編集された領域が検出されることもある。</p>
+<h2>「SynthID」とは</h2>
+<p>SynthIDは、画像の外観に影響を与えず、機械的に読み取ることができる目に見えない電子透かし（Invisible watermark）技術を採用している。Geminiアプリは、この電子透かしをもとに生成・編集プロセスを判定する仕組みを持つ。
+公式ブログでは、Googleが今後、画像だけでなく動画や音声への対応拡大も計画していることが示されている。</p>
+<h2>Googleの透明性強化の取り組み</h2>
+<p>GoogleはSearchにおけるAI生成画像のラベル表示を拡充しているほか、C2PA（Content Provenance and Authenticity）に準拠したメタデータ対応も進めている。公式ブログによれば、Geminiアプリ・Vertex AI・Google Adsで生成される画像については、今週よりC2PA準拠のメタデータを自動付与する対応を開始するという。対象となるのはNano Banana Pro（Gemini 3 Pro Image）で生成された画像で、生成プロセスに関する追加情報を示すことで透明性を高めるとしている。</p>
+]]></description>
+      <pubDate>Tue, 25 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>KADOKAWA×はてな「カクヨム」、生成AI利用作品に3種のタグ付けを推奨──“本文50％以上／50％未満／補助利用”を明確化</title>
       <link>https://ledge.ai/articles/kakuyomu_ai_tag_guideline_update</link>
       <description><![CDATA[<p>小説投稿サイト「カクヨム」を共同運営するKADOKAWAとはてなは2025年11月19日、生成AIを利用した作品投稿について、利用状況に応じたタグ付けを推奨すると<a href="https://kakuyomu.jp/info/entry/geneai_tag">発表</a>した。対象となるタグは「AI本文利用」「AI本文一部利用」「AI補助利用」の3種類で、本文中のAI生成割合やAIの関与範囲に応じて区分を設ける。</p>
