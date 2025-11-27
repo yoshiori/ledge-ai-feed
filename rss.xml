@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>GoogleのAIモードに広告が出現、海外ユーザーからの報告──Googleは「既存テストの一部」とコメント</title>
+      <link>https://ledge.ai/articles/google_ai_mode_ads_integration_test_expands</link>
+      <description><![CDATA[<p>Google検索の「AI Mode（AIモード）」に、広告（Sponsored）が直接統合されて表示される事例が11月中旬から海外ユーザーにより相次いで報告されている。いずれのスクリーンショットでも、AIが生成した回答の直下に広告ユニットが挿入されており、表示形式が従来の検索広告とは異なる点が確認された。</p>
+<p>こうした事例は主に英語圏の検索業界関係者から報告されており、SEOコンサルタントの Brodie Clark 氏 が2025年11月21日（現地時間）に投稿した事例をはじめ、複数のユーザーが X（旧Twitter）で広告表示のスクリーンショットを共有している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/brodie_the_time_has_come_b63a519136/brodie_the_time_has_come_b63a519136.jpg" alt="brodie the time has come.jpg" /></p>
+<p>Googleは2025年5月21日、<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">公式ブログ</a>でAI Modeにおける広告テスト開始の方針を明らかにしており、今回の報告はそのテストが検索画面上で可視化され始めたものとみられる。</p>
+<h2>AIモードの広告表示、Googleは5月にテスト開始を公式に発表</h2>
+<p>5月21日の公式ブログ「<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">More opportunities for your business on Google Search</a>」では、AI OverviewsおよびAI Modeを新たな検索体験として位置づけるとともに、AI Modeで広告のテストを開始したと明記されている。広告はAI回答の下部に自然に統合され、Performance Max や Shopping Ads を含む既存キャンペーンが表示対象となることも説明されていた。</p>
+<p>また、Google広告製品担当の公式アカウント Ads Liaison（Ginny Marvin 氏） は11月21日、Brodie Clark 氏の投稿に対し「AI Modeの広告は、5月のGoogle Marketing Liveでの発表以降、数カ月にわたりテストを続けている」と<a href="https://x.com/adsliaison/status/1991969383414210845">返信</a>。このコメントから、今回の広告表示は「新規ローンチ」ではなく 既存テストの一環 として位置づけられていることがわかる。</p>
+<p>Clark氏はこれに対し、公式アナウンスから実際の画面で目撃されるまでには時間差があることを指摘し、自身は「新機能が“野生で初めて見つかるタイミング”を重視している」と補足した。</p>
+<h2>最初の報告例：Greg Sterling 氏がHVAC検索で広告表示を確認</h2>
+<p>11月19日、マーケティングアナリスト Greg Sterling 氏（@gsterling） は、AI Modeで「HVAC repair」の検索を行った際に広告が表示されたスクリーンショットをXに投稿した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saw_first_ads_in_aimode_c50debed95/saw_first_ads_in_aimode_c50debed95.jpg" alt="saw first ads in aimode.jpg" /></p>
+<p>スクリーンショットでは、AIの回答直下に「Sponsored」と表示されたローカルサービス広告が2件並んでおり、AI Mode内に広告ユニットが直接組み込まれている様子が確認できる。Sterling 氏の例は「最初に目撃されたケース」として複数の海外メディアで紹介された。</p>
+<h2>Brodie Clark 氏が“通常UI”での広告表示を報告、Labs以外にも拡大か</h2>
+<p>Sterling 氏のケースが「Labsインターフェース（実験機能）」での表示だったのに対し、Brodie Clark 氏は Labsではない通常の検索UI でもAI Mode内に広告が表示されることを確認した点が特徴的だ。</p>
+<p>Clark 氏は複数の検索（ベッドシーツ比較や emergency plumber など）で広告を再現し、表示位置はいずれも AI回答の最下部 だったと説明している。これにより、広告表示が「Labs限定」ではなく、一部環境では一般ユーザーのインターフェース上でも行われていることが判明した。</p>
+<h2>AI Overviewsに続き、広告統合はAI Modeへも拡大か</h2>
+<p>GoogleはAI Overviewsでも広告統合のテストを開始しており、表示形式（回答最下部への自然な挿入）は今回のAI Modeの例と共通している。</p>
+<p>現時点で、GoogleはAI Modeでの広告表示の地域展開や時期に関する追加アナウンスを行っていない。テストは一部ユーザー環境で継続しているとみられる。日本語UI（google.co.jp）や日本のユーザー環境で、AI Mode内に広告が表示された報告は現在のところ確認されていない。</p>
+]]></description>
+      <pubDate>Thu, 27 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、ChatGPTに商品調査・比較を自動化する「ショッピング リサーチ」追加──ホリデーシーズンに向け“ほぼ無制限”で提供、Perplexityも同種機能を発表</title>
       <link>https://ledge.ai/articles/chatgpt_shopping_research_openai_perplexity_launch</link>
       <description><![CDATA[<p>OpenAIは2025年11月24日（現地時間）、ユーザーの購入検討を支援する新機能「shopping research」（日本では「ショッピング リサーチ」）をChatGPTに追加したと<a href="https://openai.com/index/chatgpt-shopping-research/">発表</a>した。</p>
@@ -349,68 +373,6 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
 <p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
 ]]></description>
       <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIには「翻訳・予測」、人間には「医療・買い物」──博報堂DYのAI利用調査で浮かぶ“任せたい仕事／任せたくない仕事”の境界線と、生活者が描く望ましい未来像</title>
-      <link>https://ledge.ai/articles/ai_job_boundary_future_expectations_hakuhodo_survey</link>
-      <description><![CDATA[<p>博報堂DYホールディングス（東京都港区）の研究機関「Human-Centered AI Institute」は11月17日、全国の15～69歳を対象に実施した「AIと暮らす未来の生活調査2025」の結果を<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2025/11/5995.html">発表</a>した。</p>
-<p>生成AIの認知率は85.3％、利用率は33.6％で、利用者の45.3％が「2〜3日に1回以上」AIを使うヘビーユーザーであることが分かった。さらに、AIに任せたい仕事／人が行うべき仕事の線引きや、将来AIに期待する役割など、生活者の価値観が鮮明になった。</p>
-<h2>若年層ほど利用率が高く、10代は62.6％</h2>
-<p>年代別では、10代の利用率が62.6％と際立って高く、AIネイティブとして日常的に生成AIを使いこなす姿が浮かぶ。一方、50代以上でも24.6％が利用しており、「4人に1人」が生成AIを生活に取り入れている。生成AIの利用は特定の世代に限らず幅広く浸透している状況だ。</p>
-<p><strong>■ 生活者全体の85.3%が生成AIを認知し、33.6%が生成AIを利用
-利用者の45.3%が2~3日に1回以上利用するヘビーユーザー</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_0a4eb4f889/AI_reseach_0a4eb4f889.jpg" alt="AI reseach①.jpg" /></p>
-<p><strong>■ AIネイティブである10代の生成AI利用率は62.6%
-50代以上でも「4人に1人」が利用</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_285ca8efe9/AI_reseach_285ca8efe9.jpg" alt="AI reseach②.jpg" /></p>
-<h2>プライベート利用が9割超、身近な生活ツールに</h2>
-<p>生成AI利用者の92.6％がプライベート・学業でAIを活用しており、ビジネスのみの利用（7.4％）を大きく上回った。利用者の多くが、生成AIを身近な生活ツールとして位置づけている。</p>
-<p>利用者が生成AIをどう捉えているかを尋ねた項目では、「便利な道具」（43.6％）が最も多かったものの、10代では「悩みを相談できる存在」「遊び相手」といった情緒的な関係性を持つ回答も目立った。一方、50代以上は「サポート要員」としてより道具的に捉える傾向が強かった。</p>
-<p><strong>■ 10代にとっては「悩みを相談できる相手」「遊び相手」
-50代以上にとっては「サポート要員」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_3c033d9a3c/AI_reseach_3c033d9a3c.jpg" alt="AI reseach③.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_5085c2a869/AI_reseach_5085c2a869.jpg" alt="AI reseach④.jpg" /></p>
-<p><strong>■ 生成AIの利用者は92.6%がプライベートで利用、生活に身近なツールに</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_9360b23539/AI_reseach_9360b23539.jpg" alt="AI reseach⑤.jpg" /></p>
-<p><strong>■ プライベートでは「悩みを相談できる存在」「遊び相手」
-ビジネスでは「仕事をサポートする存在」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_2183b61666/AI_reseach_2183b61666.jpg" alt="AI reseach⑥.jpg" /></p>
-<h2>半数がAI情報を信頼、一方で“AIだけでは不十分”との声も</h2>
-<p>生成AIが提供する情報を「信頼している」と回答したのは55.1％で、過半数がAIを情報源として受容している。一方、「生成AIの情報だけでは不十分。他メディアからの情報も必要」と答えたのは48.3％に上り、多くの生活者がAIを“単独の情報源”としては使わず、従来メディアとの併用を前提としていることも明らかになった。</p>
-<p><strong>■ 「生成AIの提供情報を信頼している」のは、利用者の55.1%で過半数を超える</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_0ab2e39a47/AI_reseach_0ab2e39a47.jpg" alt="AI reseach⑦.jpg" /></p>
-<p><strong>■ 48.3%と約半数が「生成AIの情報だけでは不十分、マスメディアなど他の情報も必要」と考えている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_c365104cbe/AI_reseach_c365104cbe.jpg" alt="AI reseach⑧.jpg" /></p>
-<h2>AIに任せたい仕事は「ルーティン・翻訳・予測分析」</h2>
-<p>AIと人間それぞれに「どんな仕事を任せたいか」を尋ねた項目では、明確な線引きが見えた。</p>
-<h3>AIに任せたい仕事（上位）</h3>
-<ul>
-<li>ルーティンワーク・単純作業（43.4％）</li>
-<li>翻訳（41.2％）</li>
-<li>環境モニタリング（40.7％）</li>
-<li>予測分析（39.2％）</li>
-</ul>
-<h3>人間がやるべき仕事（上位）</h3>
-<ul>
-<li>日々の買い物（38.8％）</li>
-<li>医療処置・手術支援（35.5％）</li>
-<li>教育支援（34.2％）</li>
-<li>医療診断（34.0％）</li>
-</ul>
-<p>AIに任せたい仕事として “機械的・定量的に処理できる”と認識されるカテゴリーが上位に並んだ。一方で人間には「買い物」を人間が行うべきとする声が多く、“楽しみを伴う体験はAIに委ねたくない”という生活意識が表れた。また、医療や教育といった「判断」「共感」「責任」を伴う領域には、AIに任せすぎることへの慎重姿勢も読み取れる。</p>
-<p><strong>■ 人間がやるべき仕事は「医療」「教育」
-AIがやるべき仕事は「ルーティンワーク」「翻訳」、楽しみたい「買い物」は人間のテリトリー</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_d206da2b2b/AI_reseach_d206da2b2b.jpg" alt="AI reseach⑨.jpg" /></p>
-<h2>生活者が期待する未来は「心と体のケアまでAIが担う世界」</h2>
-<p>AIとの“望ましい未来像”に関する質問では、最も多かった回答が「リアルタイム翻訳で、言語の壁がなく国際的な仕事ができる」（20.6％）。次いで「AIのパーソナルドクターが肉体・精神ケアをしてくれる」（17.1％）、「精神的に疲れる業務をAIに任せるようになる」（15.7％）が続き、心身の負荷を軽くする方向でのAI活用に期待が集まった。</p>
-<p>生活者はAIを単なる作業代行者としてではなく、今後は身体的・精神的な支援を行う“パートナー”として位置づけることを望む傾向が見られる。</p>
-<p><strong>■ 望ましい未来：将来的には生成AIに「心と体のサポート」も期待</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_reseach_3910f444e8/AI_reseach_3910f444e8.jpg" alt="AI reseach⑩.jpg" /></p>
-<h2>生成AIが日常の中心に入りつつある一方、人間ならではの領域も明確に</h2>
-<p>今回の調査は、生成AIが急速に生活へ浸透しつつある一方で、「AIに任せたい仕事」と「人が担うべき仕事」の境界線が生活者の中で明確に形成されつつあることを示している。また、AIの情報を信頼しつつも、人間が発信する情報の価値を依然として重視する両面性も明らかになった。</p>
-<p>生活に寄り添うAI活用の広がりと、未来に向けた役割分担の模索は、今後さらに深化していくとみられる。</p>
-]]></description>
-      <pubDate>Fri, 21 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
