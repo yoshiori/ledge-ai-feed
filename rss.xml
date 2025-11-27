@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、ChatGPTに商品調査・比較を自動化する「ショッピング リサーチ」追加──ホリデーシーズンに向け“ほぼ無制限”で提供、Perplexityも同種機能を発表</title>
+      <link>https://ledge.ai/articles/chatgpt_shopping_research_openai_perplexity_launch</link>
+      <description><![CDATA[<p>OpenAIは2025年11月24日（現地時間）、ユーザーの購入検討を支援する新機能「shopping research」（日本では「ショッピング リサーチ」）をChatGPTに追加したと<a href="https://openai.com/index/chatgpt-shopping-research/">発表</a>した。</p>
+<p>自然言語で希望条件を伝えるだけで、AIが商品調査や比較分析を行い、候補を絞り込む仕組みだ。</p>
+<p>同機能は、ユーザーが用途や予算、こだわり条件などを入力すると、ChatGPTが必要に応じて質問を重ねながらニーズを把握し、ネット上の情報をもとに候補を提示する。提示形式は「バイヤーズガイド」としてまとめられ、商品ごとの特徴や検討ポイントも整理される。</p>
+<p>対象プランはChatGPT Free、Go、Plus、Pro。ログイン済みユーザーに対して、モバイルアプリとWeb版を通じて順次提供を開始した。OpenAIは、ホリデーシーズンに向けて「ほぼ無制限で利用可能」としている。</p>
+<p>調査内容には、商品仕様、レビュー、価格、画像などが含まれるが、OpenAIは「価格や在庫情報、レビューの正確性に誤りが生じる可能性がある」と明記しており、最終確認はユーザーが行う必要があると注意喚起している。また今後は、対応するリテーラーにおいてチャット内で購入を完結できる「Instant Checkout」との連携も予定する。</p>
+<p>一方、米Perplexityも11月25日（現地時間）、無料のショッピング機能を米国のすべてのユーザー向けに提供開始したと<a href="https://www.perplexity.ai/ja/hub/blog/shopping-that-puts-you-first">発表</a>した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=3Z6_ogRyyHc">Youtube</a></p>
+<p>商品カテゴリや条件に基づく検索や比較、候補提示を行えるほか、PayPalとの提携により、PayPalに対応する加盟店についてはPerplexity上でそのまま決済まで完了できる。決済処理はPayPalが担い、加盟店は従来どおりマーチャント・オブ・レコードとして顧客との関係や返品対応を保持する。OpenAIの発表から一日後の提供開始となり、主要AI企業が相次いで“商品選び支援”機能を投入した形だ。</p>
+]]></description>
+      <pubDate>Thu, 27 Nov 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米アマゾン、米政府向けAI・スーパーコンピュータ基盤に最大500億ドル（約7.8兆円）投資──AWSの機密クラウド全レベルで1.3GWを増強</title>
       <link>https://ledge.ai/articles/amazon_us_government_ai_supercomputing_50b_investment</link>
       <description><![CDATA[<p>Amazonは202511月24日（米国時間）、米政府機関向けにAIおよびスーパーコンピューティング基盤を拡張するため、米国内のデータセンターに最大500億ドル（約7兆8000億円）を投資すると<a href="https://www.aboutamazon.com/news/company-news/amazon-ai-investment-us-federal-agencies">発表</a>した。
@@ -397,37 +411,6 @@ AIがやるべき仕事は「ルーティンワーク」「翻訳」、楽しみ
 <p>生活に寄り添うAI活用の広がりと、未来に向けた役割分担の模索は、今後さらに深化していくとみられる。</p>
 ]]></description>
       <pubDate>Fri, 21 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、1600言語対応の「Omnilingual ASR」を公開──低リソース言語500超を含む世界最大級の音声認識モデル</title>
-      <link>https://ledge.ai/articles/meta_omnilingual_asr_1600_languages_release</link>
-      <description><![CDATA[<p>MetaのAI研究部門であるMeta FAIRは2025年11月10日（現地時間）、1600以上の言語に対応する自動音声認識システム「Omnilingual ASR」を<a href="https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/">発表</a>した。</p>
-<p>これまでASRが文字起こしできなかった500超の低リソース言語を含む世界規模の音声データを収集し、話し言葉をテキスト化できるモデルとしてGitHubにオープンソース（Apache 2.0）で<a href="https://github.com/facebookresearch/omnilingual-asr">公開</a>する。wav2vec 2.0とテキスト埋め込みを組み合わせ、LLMと共通の“次トークン予測”で学習する新アーキテクチャにより、幅広い言語で高精度な認識を実現。言語アクセス格差の解消を目指す取り組みだ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ab-GIqDQn7k">YouTube</a></p>
-<h2>世界1600言語を対象に構築──“未対応言語”500以上を含む大規模ASR</h2>
-<p>Meta FAIRによると、Omnilingual ASRはこれまで自動音声認識モデルが対応できなかった多数の低リソース言語を含め、1600以上の言語で話し言葉を文字化できるのが特徴だ。対応言語数は、既存の多言語ASRモデルを大きく上回る。</p>
-<p>こうした言語拡張を支えるのが、世界各地での音声データ収集プロジェクトである。同社は論文の中で、地域コミュニティと協働して多様な話者データを収集した事例を紹介している。</p>
-<h2>コミュニティ協働によるデータ収集</h2>
-<p>Pakistan のデータ収集風景：パキスタンでは、現地話者がコーパス作成に参加し、話し言葉の録音作業が進められた。これまでデジタル音声データが十分に存在しなかった言語の可視化につながる取り組みだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pakistan_data_collection_3657e54b1c/pakistan_data_collection_3657e54b1c.jpg" alt="pakistan_data_collection.jpg" /></p>
-<p>Liberia のデータ収集風景：リベリアでも同様に、地域住民が音声収録プロジェクトに参加。Metaは、言語アクセス格差の背景にある「データ不足」を現地と共同で解消するアプローチを強調している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/liberia_data_collection_a713ad6e66/liberia_data_collection_a713ad6e66.jpg" alt="liberia_data_collection.jpg" /></p>
-<p>こうしたプロジェクトは、低リソース言語の話者をデジタル社会に包摂するための基盤になるとして、言語学・AI研究双方から注目されているという。</p>
-<h2>LLMと共通の学習方式を採用──次トークン予測で統一</h2>
-<p>Omnilingual ASR は、音声処理部に wav2vec 2.0 を採用し、テキスト側には埋め込み行列を用いる。さらに、Transformer デコーダが音声入力からテキストを逐次生成する構造を取り、学習には大規模言語モデル（LLM）と同じ 次トークン予測（NTP） を用いる点が特徴だ。</p>
-<p><strong>LLM-ASR の基本構造図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_ASR_e4f4e0436d/LLM_ASR_e4f4e0436d.png" alt="LLM-ASR.png" /></p>
-<p>この構造により、音声認識と自然言語処理の学習方式を統一。LLM の発展に合わせてASRも改善しやすくなるという。</p>
-<h2>文脈（コンテキスト）を与えることで精度向上</h2>
-<p>Omnilingual ASR は、ターゲット音声の前に複数の「文脈音声＋文脈テキスト例」を与えることで精度が向上するという。
-話者の発音や文体、言語固有の特徴をモデルが前もって学習しやすくなる。</p>
-<p><strong>コンテキスト例つきのモデル構造図</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/context_1_f86d2e3ac9/context_1_f86d2e3ac9.jpg" alt="context (1).jpg" /></p>
-<p>この手法は特に低リソース言語で顕著な効果があると報告されており、地域性の強い発音を含むケースでも安定した認識を実現する。</p>
-<h2>研究・教育・文化保全に向けた応用</h2>
-<p>Omnilingual ASRはオープンソースで公開されることで、研究者や開発者が多言語音声認識の仕組みを検証・拡張できるようになる。Metaは教育、医療支援、フィールド調査、文化・言語のアーカイブなど、多様な領域で利用が想定されるとし、低リソース言語を含む幅広い言語の文字化や記録作成を支援する基盤として活用される可能性を示している。</p>
-]]></description>
-      <pubDate>Fri, 21 Nov 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
