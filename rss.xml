@@ -351,91 +351,6 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
       <pubDate>Sun, 23 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/11/22 [SAT]ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
-      <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
-      <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
-<p>ルカン氏は投稿の冒頭で「うわさや最近の報道で耳にした人もいるだろうが、12年間在籍したMetaを離れる計画だ」と述べ、退社を正式に表明した。FAIRの初代ディレクターとして5年、チーフAIサイエンティストとして7年を務めたと振り返り、「FAIRの創設は、自身の“最も誇りに思う非技術的な業績”」と強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/yann_lecun_facebook_3d6a371abb/yann_lecun_facebook_3d6a371abb.jpg" alt="yann lecun facebook.jpg" /></p>
-<h2>Advanced Machine Intelligence（AMI）研究を継続する独立スタートアップを設立</h2>
-<p>投稿によると、ルカン氏は「Advanced Machine Intelligence（AMI）」と名付けた研究プログラムを継続するため、新たなスタートアップを立ち上げる。同プログラムは、近年FAIRやニューヨーク大学（NYU）などの研究者と進めてきたもので、次のような能力を備えたAIシステムを目指すという。</p>
-<ul>
-<li>物理世界を理解する</li>
-<li>持続的な記憶を持つ</li>
-<li>推論できる</li>
-<li>複雑な行動計画を実行できる</li>
-</ul>
-<p>ルカン氏は、これを「次の大きなAI革命」につながる研究領域だと位置づける。スタートアップの詳細は後日公表するとしており、社名や資金調達の状況は明かしていない。</p>
-<h2>Metaは新会社のパートナーに──Zuckerberg氏らへの感謝も明記</h2>
-<p>投稿では、Mark Zuckerberg氏、Andrew Bosworth氏（Boz）、Chris Cox氏、Mike Schroepfer氏の4名に対し、FAIRおよびAMI研究への継続的な支援への謝意を述べている。そのうえで、「Metaは新会社のパートナーとなる」と記し、退社後も協力関係が続くことを示した。</p>
-<p>AMI研究のアプリケーションについては「Metaの商業領域と重なる部分もあれば、重ならない領域もある」とし、独立した組織で取り組むことが「広範なインパクトを最大化する手段」だと説明している。</p>
-<h2>研究者としての役割は継続、年末まではMetaに在籍</h2>
-<p>ルカン氏は現在、MetaのチーフAIサイエンティストとNYUの教授職を兼務している。投稿では、これらの役割に関する変更には触れておらず、研究活動は継続する見通しだ。</p>
-<p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
-      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
-      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
-<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
-<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
-<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
-具体的には以下の例を挙げた。</p>
-<ul>
-<li>LMArena：Elo 1501</li>
-<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
-<li>GPQA Diamond：91.9%</li>
-<li>MathArena Apex：23.4%</li>
-</ul>
-<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
-<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
-<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
-<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
-<ul>
-<li>Humanity’s Last Exam：41.0%</li>
-<li>GPQA Diamond：93.8%</li>
-<li>ARC-AGI-2（コード実行あり）：45.1%</li>
-</ul>
-<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
-<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
-<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
-<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
-<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
-<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
-<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
-<ul>
-<li>Google AI Studio（Gemini API）</li>
-<li>Vertex AI</li>
-<li>Gemini CLI</li>
-<li>Google Antigravity（新エージェント指向IDE）</li>
-<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
-</ul>
-<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
-<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
-<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
-<h2>長期計画のタスクでもトップスコアを記録</h2>
-<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
-<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
-<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
-<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
-<ul>
-<li>迎合的な回答（シコファンシー）の抑制</li>
-<li>プロンプトインジェクション耐性の向上</li>
-<li>サイバー攻撃・悪用に対する防御強化</li>
-</ul>
-<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
-<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
-<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
       <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
       <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
@@ -458,7 +373,31 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <h2>“AI駆動開発”の基盤へ</h2>
 <p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/11/22 [SAT]ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
+      <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
+      <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
+<p>ルカン氏は投稿の冒頭で「うわさや最近の報道で耳にした人もいるだろうが、12年間在籍したMetaを離れる計画だ」と述べ、退社を正式に表明した。FAIRの初代ディレクターとして5年、チーフAIサイエンティストとして7年を務めたと振り返り、「FAIRの創設は、自身の“最も誇りに思う非技術的な業績”」と強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/yann_lecun_facebook_3d6a371abb/yann_lecun_facebook_3d6a371abb.jpg" alt="yann lecun facebook.jpg" /></p>
+<h2>Advanced Machine Intelligence（AMI）研究を継続する独立スタートアップを設立</h2>
+<p>投稿によると、ルカン氏は「Advanced Machine Intelligence（AMI）」と名付けた研究プログラムを継続するため、新たなスタートアップを立ち上げる。同プログラムは、近年FAIRやニューヨーク大学（NYU）などの研究者と進めてきたもので、次のような能力を備えたAIシステムを目指すという。</p>
+<ul>
+<li>物理世界を理解する</li>
+<li>持続的な記憶を持つ</li>
+<li>推論できる</li>
+<li>複雑な行動計画を実行できる</li>
+</ul>
+<p>ルカン氏は、これを「次の大きなAI革命」につながる研究領域だと位置づける。スタートアップの詳細は後日公表するとしており、社名や資金調達の状況は明かしていない。</p>
+<h2>Metaは新会社のパートナーに──Zuckerberg氏らへの感謝も明記</h2>
+<p>投稿では、Mark Zuckerberg氏、Andrew Bosworth氏（Boz）、Chris Cox氏、Mike Schroepfer氏の4名に対し、FAIRおよびAMI研究への継続的な支援への謝意を述べている。そのうえで、「Metaは新会社のパートナーとなる」と記し、退社後も協力関係が続くことを示した。</p>
+<p>AMI研究のアプリケーションについては「Metaの商業領域と重なる部分もあれば、重ならない領域もある」とし、独立した組織で取り組むことが「広範なインパクトを最大化する手段」だと説明している。</p>
+<h2>研究者としての役割は継続、年末まではMetaに在籍</h2>
+<p>ルカン氏は現在、MetaのチーフAIサイエンティストとNYUの教授職を兼務している。投稿では、これらの役割に関する変更には触れておらず、研究活動は継続する見通しだ。</p>
+<p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
+]]></description>
+      <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
@@ -487,7 +426,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 </ul>
 <p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
@@ -563,7 +502,68 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
 <p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
+      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
+      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
+<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
+<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
+<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
+具体的には以下の例を挙げた。</p>
+<ul>
+<li>LMArena：Elo 1501</li>
+<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
+<li>GPQA Diamond：91.9%</li>
+<li>MathArena Apex：23.4%</li>
+</ul>
+<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
+<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
+<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
+<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
+<ul>
+<li>Humanity’s Last Exam：41.0%</li>
+<li>GPQA Diamond：93.8%</li>
+<li>ARC-AGI-2（コード実行あり）：45.1%</li>
+</ul>
+<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
+<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
+<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
+<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
+<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
+<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
+<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
+<ul>
+<li>Google AI Studio（Gemini API）</li>
+<li>Vertex AI</li>
+<li>Gemini CLI</li>
+<li>Google Antigravity（新エージェント指向IDE）</li>
+<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
+</ul>
+<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
+<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
+<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
+<h2>長期計画のタスクでもトップスコアを記録</h2>
+<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
+<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
+<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
+<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
+<ul>
+<li>迎合的な回答（シコファンシー）の抑制</li>
+<li>プロンプトインジェクション耐性の向上</li>
+<li>サイバー攻撃・悪用に対する防御強化</li>
+</ul>
+<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
+<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
+<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
+]]></description>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
@@ -574,7 +574,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>著作権法では、人の創作的関与によって生まれた表現が保護の対象となる。生成AIが作成した画像については、どの程度の人間による関与が「創作性」として評価されるかが議論されてきた。今回の事案では、AIへの指示内容や生成工程が「人による具体的な創作行為」と認められた点が重要となる。</p>
 <p>生成AIで作成された画像については、人の具体的な指示や制作過程がどの程度関与しているかが著作物性の判断要素とされる。同事案では、プロンプトの内容や生成工程に人の創作的関与が認められた点が、著作権侵害容疑の判断材料となった。SNS上で公開された生成AI画像であっても、創作性が認められる場合には著作権が成立するため、複製や利用には権利者の許諾が必要となる。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/21 [FRI]Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
@@ -613,7 +613,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>Google は開発者向けブログも公開し、Nano Banana Pro の 2K/4K 出力、複数画像入力、レンダリング精度の向上などを説明した。Vertex AI を通じた API 提供が開始され、Google Cloud 上での画像生成ワークフローへの統合も可能となる。</p>
 <p>Google は Gemini 3 系列を軸にマルチモーダル AI の強化を進めており、Nano Banana Pro をその画像生成技術の中心モデルとして位置づけている。多言語描画と高精細画像への対応について、同社は広告・教育・資料作成など幅広い領域での活用を想定していると説明している。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
@@ -630,7 +630,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
 同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/21 [FRI]LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
@@ -717,7 +717,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>などを訓練パイプラインに組み込む必要性を訴える。</p>
 <p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -742,7 +742,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
@@ -780,7 +780,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
 <p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
 ]]></description>
-      <pubDate>Wed, 19 Nov 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
