@@ -118,53 +118,6 @@
       <pubDate>Wed, 26 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Opus 4.5」を発表──ソフトウェア開発・エージェント性能・安全性を強化した最新フラッグシップモデル</title>
-      <link>https://ledge.ai/articles/claude_opus_4_5_release</link>
-      <description><![CDATA[<p>Anthropicは2025年11月24日（米国時間）、最新フラッグシップモデル「Claude Opus 4.5」を<a href="https://www.anthropic.com/news/claude-opus-4-5">発表</a>した。同社はOpus 4.5を「コーディング、エージェント、コンピュータ利用において世界最高水準のモデル」と位置付けており、ソフトウェア開発から長時間のリサーチ、マルチツールを用いたエージェントタスクまで幅広い領域で性能が向上したと説明している。</p>
-<h2>ソフトウェアエンジニアリング分野で主要モデルを上回るスコア</h2>
-<p>Opus 4.5はソフトウェアバグ修正タスクのベンチマークである SWE-bench Verified（n=500） で、正答率80.9％を記録した。これは、前世代モデルのOpus 4.1やSonnet 4.5に加え、他社のフラッグシップモデルであるGemini 3 ProやGPT-5.1 Codex-Maxなどを上回るスコアだという。</p>
-<p><strong>SWE-bench VerifiedにおけるOpus 4.5（左端）の正答率は80.9％と主要モデルを上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_1_2c2dfa96a8/opus4_5_1_2c2dfa96a8.jpg" alt="opus4-5_1.jpg" /></p>
-<h2>総合ベンチマークでも全面的に強化</h2>
-<p>ソフトウェアエンジニアリング以外の評価でも幅広くスコアを伸ばしている。Anthropicが公開した比較表では、エージェント的なコーディング、ターミナル操作、ツール利用、PC操作、さらに大学院レベルの推論（GPQA Diamond）や視覚推論（MMMU）、多言語QA（MMMLU）など、多くの項目でOpus 4.1やSonnet 4.5からスコアを更新していることが示されている。</p>
-<p><strong>Opus 4.5は広範な評価指標で前世代を上回り、複数の領域でSOTA（state of the art）を獲得した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_2_4cb9404311/opus4_5_2_4cb9404311.jpg" alt="opus4-5_2.jpg" /></p>
-<h2>多言語コーディングでも広範に改善</h2>
-<p>Opus 4.5は、SWE-bench Multilingual にも対応し、C / C++ / Go / Java / JS/TS / PHP / Ruby / Rust など8言語で前世代を上回るPASS@1を記録した。</p>
-<p><strong>多言語コーディング評価（SWE-bench Multilingual）。Opus 4.5（赤）は8言語の多くで最高スコアを記録した</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_3_cfc4fb910a/opus4_5_3_cfc4fb910a.jpg" alt="opus4-5_3.jpg" /></p>
-<h2>エージェント行動・PC操作・ツール利用能力も大幅向上</h2>
-<p>Opus 4.5は、エージェント行動やマルチツールを扱うタスクでも大幅に性能を向上させている。</p>
-<ul>
-<li>Terminal-bench 2.0（ターミナル操作）で59.3％</li>
-<li>t2-bench（ツール利用）でRetail 88.9％、Telecom 98.2％</li>
-<li>OSWorld（PC操作）で66.3％</li>
-</ul>
-<p>これらのスコアは前世代からの大きな改善で、実務的なエージェントタスクに必要な能力が全体的に底上げされている。</p>
-<p><strong>Sonnet 4.5 vs Opus 4.5 のパズル解法デモ</strong>
-Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet 4.5とOpus 4.5に同じパズルゲームを解かせた」デモ動画も公開している。Opus 4.5は条件制約のある環境でも自律的に手順を探索し、より安定してクリアする様子が示されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=2MJDdzSXL74">YouTube</a></p>
-<h2>安全性評価：「懸念行動」を抑えたモデル設計</h2>
-<p>AnthropicはOpus 4.5を「安全性に最も優れたモデル」と位置付けている。内部評価では、危険行動や望ましくない自律動作につながる可能性を測る Concerning behavior（懸念行動） の指標で、Opus 4.5が最も低い値となった。</p>
-<p><strong>懸念行動の内部評価。Opus 4.5が最も低く、安全性指標で優位性を示す</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_4_b32e228495/opus4_5_4_b32e228495.jpg" alt="opus4-5_4.jpg" /></p>
-<h2>プロンプトインジェクション攻撃への耐性</h2>
-<p>外部評価機関Gray Swanによる強力なプロンプトインジェクション攻撃テストでも、Opus 4.5は攻撃成功率が最も低く抑えられた。Gemini 3 Pro Thinking、GPT-5.1 Thinking、Haiku 4.5 Thinkingなどと比較しても、相対的に高い安全性が確認されている。</p>
-<p><strong>プロンプトインジェクション攻撃への耐性（低いほど安全）。Opus 4.5 Thinkingが最も低い攻撃成功率を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_5_c58f60c1ea/opus4_5_5_c58f60c1ea.webp" alt="opus4-5_5.webp" /></p>
-<h2>長時間タスクとツール連携を支える「advanced tool use」</h2>
-<p>今回の発表では「advanced tool use」についても触れられている。これはDeveloper Platformにおける機能群で</p>
-<ul>
-<li>必要なタイミングでツール定義を検索・読み込む <strong>Tool Search Tool</strong></li>
-<li>Pythonコードの中で複数のツールを連携させる <strong>Programmatic Tool Calling</strong>
-などにより、長時間タスクや複数ツールを扱うエージェントの効率を高める。</li>
-</ul>
-<p>Opus 4.5はこうした基盤を前提に設計されており、企業利用・実務エージェント運用への対応を強化したモデルと位置付けられる。</p>
-<p>AnthropicはOpus 4.5の開発背景や設計思想をまとめた公式動画も公開している。同社が強調する「エージェント運用」「高い安全性」「コーディング性能の向上」といったポイントを視覚的に確認できる。</p>
-]]></description>
-      <pubDate>Wed, 26 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DMM傘下Algomatic、「にじボイス」を2026年2月4日に終了──日俳連の削除要請（計53体）受領を経て決断</title>
       <link>https://ledge.ai/articles/algomatic_nijivoice_service_end_2026_0204</link>
       <description><![CDATA[<p>DMMグループでAI関連サービスを手がけるAlgomaticは2025年11月21日、AI音声生成プラットフォーム「にじボイス」の提供を2026年2月4日で終了すると<a href="https://algomatic.jp/news/notice_nijivoice_20251121">発表</a>した。同社は「突然のお知らせとなったことをお詫び申し上げる」とし、今後の詳細なスケジュールについては改めて案内するとしている。</p>
@@ -253,36 +206,6 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
 <p>500MW超のデータセンター網の詳細仕様や着工時期はまだ公表されていないが、Grokの全国展開とあわせて、サウジアラビアのAI主導型国家戦略を支えるプロジェクトとして、今後はデータセンター網の具体像や運用計画に注目が集まりそうだ。</p>
 ]]></description>
       <pubDate>Tue, 25 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、「SAM 3」を発表──テキストや画像例をプロンプトに、画像・動画内の物体を一括検出・分割・追跡　併せて「SAM 3D」で人物・物体の3D生成にも対応</title>
-      <link>https://ledge.ai/articles/meta_sam3_sam3d_release</link>
-      <description><![CDATA[<p>Metaは2025年11月19日（現地時間）、画像および動画に含まれるオブジェクトを、プロンプトを基点に一括で検出・分割・追跡できる新モデル「Segment Anything Model 3（SAM 3）」を<a href="https://ai.meta.com/blog/segment-anything-model-3/">発表</a>した。同日、2D画像から人物や物体の3Dモデルを生成する「SAM 3D」も<a href="https://ai.meta.com/blog/sam-3d/">公開</a>している。</p>
-<p>Metaの公式Xアカウント（@AIatMeta）は、両モデルを「新しい世代のSegment Anything Models」と<a href="https://x.com/AIatMeta/status/1991178519557046380">紹介</a>し、開発者・研究者向けのメディアワークフローを大きく拡張するとしている。</p>
-<h2>SAM3：プロンプトから“概念”ベースで検出・分割・追跡</h2>
-<p>SAM 3は、短いテキストフレーズ（例：「yellow school bus」）や、画像内のサンプルオブジェクトを示す “example prompt” を入力すると、該当するすべてのオブジェクトを一括して検出・分割し、動画では継続的に追跡できるモデル。Metaはこれを「Promptable Concept Segmentation（PCS）」と定義している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=G4OLPDjwncw">Youtube</a></p>
-<p>アーキテクチャは、DETRベースの画像検出器と、SAM 2を基盤とした動画トラッカーを単一バックボーンに統合したもの。論文(https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/)では、認識と位置特定を切り離す“Presence Head”を新たに採用し、概念ベースの検出精度を向上させたと説明されている。</p>
-<p><strong>SAM 3は、テキストプロンプトを用いた検出と追跡を単一アーキテクチャで統合する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SAM_3_architecture_overview_0af9a61c98/SAM_3_architecture_overview_0af9a61c98.jpg" alt="SAM 3 architecture overview.jpg" /></p>
-<h2>400万概念を含む新データセット「SA-Co」</h2>
-<p>SAM 3の開発にあたり、Metaは大規模データセット「<a href="https://github.com/facebookresearch/sam3/blob/main/README.md#sa-co-dataset">SA-Co（Segment Anything with Concepts）</a>」を新たに構築した。SA-Coは、数百万枚規模の高品質画像と約400万のユニーク概念、数千万のマスク情報を含むもので、モデルが幅広い概念を学習できるよう設計されている。</p>
-<p>論文で示されたベンチマーク「SA-Co/Gold」では20万以上の概念を評価対象とし、SAM 3はLVISのゼロショットMask APで48.8を記録。従来モデル（38.5）を大きく上回った。</p>
-<p><strong>SA-Coは、画像中の多様な物体を高精度にラベル付けする大規模データセット。色ごとに異なる概念カテゴリが示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SA_Co_907d839e43/SA_Co_907d839e43.jpg" alt="SA-Co.jpg" /></p>
-<p>SAM 3は、Metaの研究用ウェアラブルデバイス「<a href="https://ledge.ai/articles/meta_aria_gen2_ai_research">Aria Gen 2</a>」で撮影された一人称視点の映像に対しても高い性能を示す。動きの速さや視点の揺れが大きいファーストパーソン映像でも、対象物の分割と追跡を安定して行える点が特徴だ。</p>
-<p>Metaは、Aria Gen 2 Pilot Datasetの一部を<a href="https://www.aidemos.meta.com/segment-anything">Segment Anything Playground</a>上で公開しており、これにより、人間の視点から世界を理解する“コンテクスチュアルAI”や、ロボティクス、機械知覚といった応用領域におけるSAM 3の有用性を示している。</p>
-<h2>SAM 3D：1枚の画像から人物・物体の3Dモデルを生成</h2>
-<p>同時に公開された「SAM 3D」は、人物に特化した「SAM 3D Body」と一般物体向けの「SAM 3D Objects」から構成される。Metaは、単一の2D画像から高精度で3D形状を復元でき、テクスチャとメッシュの情報を従来手法より忠実に再現できる点を強調している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=B7PZuM55ayc">Youtube</a></p>
-<h2>2D解析から3D復元までを一貫化</h2>
-<p>Metaは、SAM 3とSAM 3Dをセットで発表することで、画像・動画内のオブジェクト理解（SAM 3）から3D形状復元（SAM 3D）までを一貫して扱える視覚AI基盤を提示した。動画編集、AR/VR、ロボティクス、ECなど、多数の応用領域で利用可能性があるとしている。</p>
-<p>公式Xでは、今回の発表を「新しい世代のSegment Anything Models」と説明し、SAM 3 と SAM 3D が画像・動画・3Dを横断する基盤技術として進化した点を強調している。投稿では、短いテキスト指示や具体例となる画像を用いた物体の検出・分割・追跡（SAM 3）、そして単一画像から人物や物体の3Dモデルを生成する機能（SAM 3D）が紹介され、「開発者と研究者が新しいメディア処理ワークフローを構築するためのツール」と位置づけている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/segment_anything_models_921509ea34/segment_anything_models_921509ea34.jpg" alt="segment anything models.jpg" /></p>
-<p>:::box
-[関連記事：AIの\</p>
-]]></description>
-      <pubDate>Mon, 24 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>英国、動物実験の段階的廃止ロードマップを発表──AIと臓器チップで2030年までに犬・霊長類の薬物試験削減へ</title>
@@ -438,57 +361,51 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
       <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/11/22 [SAT]ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
-      <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
-      <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
-<p>ルカン氏は投稿の冒頭で「うわさや最近の報道で耳にした人もいるだろうが、12年間在籍したMetaを離れる計画だ」と述べ、退社を正式に表明した。FAIRの初代ディレクターとして5年、チーフAIサイエンティストとして7年を務めたと振り返り、「FAIRの創設は、自身の“最も誇りに思う非技術的な業績”」と強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/yann_lecun_facebook_3d6a371abb/yann_lecun_facebook_3d6a371abb.jpg" alt="yann lecun facebook.jpg" /></p>
-<h2>Advanced Machine Intelligence（AMI）研究を継続する独立スタートアップを設立</h2>
-<p>投稿によると、ルカン氏は「Advanced Machine Intelligence（AMI）」と名付けた研究プログラムを継続するため、新たなスタートアップを立ち上げる。同プログラムは、近年FAIRやニューヨーク大学（NYU）などの研究者と進めてきたもので、次のような能力を備えたAIシステムを目指すという。</p>
+      <title>Anthropic、「Claude Opus 4.5」を発表──ソフトウェア開発・エージェント性能・安全性を強化した最新フラッグシップモデル</title>
+      <link>https://ledge.ai/articles/claude_opus_4_5_release</link>
+      <description><![CDATA[<p>Anthropicは2025年11月24日（米国時間）、最新フラッグシップモデル「Claude Opus 4.5」を<a href="https://www.anthropic.com/news/claude-opus-4-5">発表</a>した。同社はOpus 4.5を「コーディング、エージェント、コンピュータ利用において世界最高水準のモデル」と位置付けており、ソフトウェア開発から長時間のリサーチ、マルチツールを用いたエージェントタスクまで幅広い領域で性能が向上したと説明している。</p>
+<h2>ソフトウェアエンジニアリング分野で主要モデルを上回るスコア</h2>
+<p>Opus 4.5はソフトウェアバグ修正タスクのベンチマークである SWE-bench Verified（n=500） で、正答率80.9％を記録した。これは、前世代モデルのOpus 4.1やSonnet 4.5に加え、他社のフラッグシップモデルであるGemini 3 ProやGPT-5.1 Codex-Maxなどを上回るスコアだという。</p>
+<p><strong>SWE-bench VerifiedにおけるOpus 4.5（左端）の正答率は80.9％と主要モデルを上回った</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_1_2c2dfa96a8/opus4_5_1_2c2dfa96a8.jpg" alt="opus4-5_1.jpg" /></p>
+<h2>総合ベンチマークでも全面的に強化</h2>
+<p>ソフトウェアエンジニアリング以外の評価でも幅広くスコアを伸ばしている。Anthropicが公開した比較表では、エージェント的なコーディング、ターミナル操作、ツール利用、PC操作、さらに大学院レベルの推論（GPQA Diamond）や視覚推論（MMMU）、多言語QA（MMMLU）など、多くの項目でOpus 4.1やSonnet 4.5からスコアを更新していることが示されている。</p>
+<p><strong>Opus 4.5は広範な評価指標で前世代を上回り、複数の領域でSOTA（state of the art）を獲得した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_2_4cb9404311/opus4_5_2_4cb9404311.jpg" alt="opus4-5_2.jpg" /></p>
+<h2>多言語コーディングでも広範に改善</h2>
+<p>Opus 4.5は、SWE-bench Multilingual にも対応し、C / C++ / Go / Java / JS/TS / PHP / Ruby / Rust など8言語で前世代を上回るPASS@1を記録した。</p>
+<p><strong>多言語コーディング評価（SWE-bench Multilingual）。Opus 4.5（赤）は8言語の多くで最高スコアを記録した</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_3_cfc4fb910a/opus4_5_3_cfc4fb910a.jpg" alt="opus4-5_3.jpg" /></p>
+<h2>エージェント行動・PC操作・ツール利用能力も大幅向上</h2>
+<p>Opus 4.5は、エージェント行動やマルチツールを扱うタスクでも大幅に性能を向上させている。</p>
 <ul>
-<li>物理世界を理解する</li>
-<li>持続的な記憶を持つ</li>
-<li>推論できる</li>
-<li>複雑な行動計画を実行できる</li>
+<li>Terminal-bench 2.0（ターミナル操作）で59.3％</li>
+<li>t2-bench（ツール利用）でRetail 88.9％、Telecom 98.2％</li>
+<li>OSWorld（PC操作）で66.3％</li>
 </ul>
-<p>ルカン氏は、これを「次の大きなAI革命」につながる研究領域だと位置づける。スタートアップの詳細は後日公表するとしており、社名や資金調達の状況は明かしていない。</p>
-<h2>Metaは新会社のパートナーに──Zuckerberg氏らへの感謝も明記</h2>
-<p>投稿では、Mark Zuckerberg氏、Andrew Bosworth氏（Boz）、Chris Cox氏、Mike Schroepfer氏の4名に対し、FAIRおよびAMI研究への継続的な支援への謝意を述べている。そのうえで、「Metaは新会社のパートナーとなる」と記し、退社後も協力関係が続くことを示した。</p>
-<p>AMI研究のアプリケーションについては「Metaの商業領域と重なる部分もあれば、重ならない領域もある」とし、独立した組織で取り組むことが「広範なインパクトを最大化する手段」だと説明している。</p>
-<h2>研究者としての役割は継続、年末まではMetaに在籍</h2>
-<p>ルカン氏は現在、MetaのチーフAIサイエンティストとNYUの教授職を兼務している。投稿では、これらの役割に関する変更には触れておらず、研究活動は継続する見通しだ。</p>
-<p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>クマ被害多発で注目、上智大・深澤研究室が19地域の遭遇リスクをAIで可視化──1kmメッシュで危険度を5段階表示する予測マップ</title>
-      <link>https://ledge.ai/articles/bear_encounter_ai_prediction_map_sophia_university</link>
-      <description><![CDATA[<p>全国的にクマによる出没や人身被害が相次ぐ中、上智大学・深澤佑介准教授（応用データサイエンス）の研究チームが、クマとの遭遇リスクをAIで予測し、地図上で可視化する「<a href="https://ds.sophia.ac.jp/news/20251024/post-1065">クマ遭遇AI予測マップ</a>」を一般公開している。対象地域は札幌市、東北、北関東、東京都、北陸、中部、京都府など計19地域に広がり、誰でも無料で閲覧できる。</p>
-<p>同大学・応用データサイエンス学位プログラムは2025年10月24日付で、深澤研究室が開発した「クマ遭遇予測マップ」の公開URLを案内しており、秋田県を対象とした予測モデルを基に実装したことを説明している。研究室サイトでは19地域分のマップが一覧化され、各エリアの遭遇確率を確認できる。</p>
-<h2>AIが1kmメッシュで遭遇リスクを推定</h2>
-<p>予測マップでは、AIがクマ遭遇リスクを1km四方のメッシュ単位で推定し、危険度を「非常に高い」「高い」「やや高い」「可能性あり」「低い」の5段階で色分けして表示する。赤系が高リスク、黄色系が中リスクを示す仕組みだ。</p>
-<p>また、各地域ページには、直近6カ月以内のクマ出没・遭遇地点を示す「X印」が別途表示される。マーカーがない場所は、データ不足などの理由で予測が行われていないエリアであることも明記されている。</p>
-<h2>過去の遭遇記録や地形・人口などを活用</h2>
-<p>予測モデルは、各自治体が公開するクマの出没・遭遇記録をはじめ、森林や農地などの土地利用、道路網、人口分布、標高といった環境要因を組み合わせて学習している。
-学習には決定木ベースの機械学習手法が用いられ、秋田県のデータでは「正答率・適合率・再現率がいずれも6割強」という検証結果も得られている。</p>
-<p>これらの情報を統合し、各メッシュの遭遇確率を推定することで、ユーザーが直感的に危険エリアを把握できるよう設計されている。</p>
-<h2>19地域をカバーし、PC・スマホから無料で閲覧可能</h2>
-<p>マップは研究室サイトで公開されており、PCやスマートフォンから無料で利用できる。アクセスに特別なアプリは必要なく、ブラウザ上で地図を閲覧しながら推定リスクを確認できる。</p>
-<p>対象地域は以下の通り（一部抜粋）
-：札幌市・青森県・盛岡市・秋田県・山形県・宮城県・新潟県・栃木県・群馬県・埼玉県・東京都・山梨県・富山県・石川県・長野県・岐阜県・京都府</p>
-<p>研究室サイトには「最終更新日時」も掲示され、最新の予測状況を確認できる。</p>
-<p>また、深澤研究室は X（旧Twitter）公式アカウント（<a href="https://x.com/fukazawa_lab">@fukazawa_lab</a>） でもマップの更新情報や関連アナウンスを随時発信しており、最新の動向を確認できる。</p>
-<h2>「最新の自治体情報を優先してほしい」──研究チームが注意喚起</h2>
-<p>上智大の案内および研究室サイトでは、予測マップの利用にあたって複数の注意点を明示している。</p>
+<p>これらのスコアは前世代からの大きな改善で、実務的なエージェントタスクに必要な能力が全体的に底上げされている。</p>
+<p><strong>Sonnet 4.5 vs Opus 4.5 のパズル解法デモ</strong>
+Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet 4.5とOpus 4.5に同じパズルゲームを解かせた」デモ動画も公開している。Opus 4.5は条件制約のある環境でも自律的に手順を探索し、より安定してクリアする様子が示されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=2MJDdzSXL74">YouTube</a></p>
+<h2>安全性評価：「懸念行動」を抑えたモデル設計</h2>
+<p>AnthropicはOpus 4.5を「安全性に最も優れたモデル」と位置付けている。内部評価では、危険行動や望ましくない自律動作につながる可能性を測る Concerning behavior（懸念行動） の指標で、Opus 4.5が最も低い値となった。</p>
+<p><strong>懸念行動の内部評価。Opus 4.5が最も低く、安全性指標で優位性を示す</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_4_b32e228495/opus4_5_4_b32e228495.jpg" alt="opus4-5_4.jpg" /></p>
+<h2>プロンプトインジェクション攻撃への耐性</h2>
+<p>外部評価機関Gray Swanによる強力なプロンプトインジェクション攻撃テストでも、Opus 4.5は攻撃成功率が最も低く抑えられた。Gemini 3 Pro Thinking、GPT-5.1 Thinking、Haiku 4.5 Thinkingなどと比較しても、相対的に高い安全性が確認されている。</p>
+<p><strong>プロンプトインジェクション攻撃への耐性（低いほど安全）。Opus 4.5 Thinkingが最も低い攻撃成功率を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_5_c58f60c1ea/opus4_5_5_c58f60c1ea.webp" alt="opus4-5_5.webp" /></p>
+<h2>長時間タスクとツール連携を支える「advanced tool use」</h2>
+<p>今回の発表では「advanced tool use」についても触れられている。これはDeveloper Platformにおける機能群で</p>
 <ul>
-<li>マップは「注意喚起」を目的とした予測であり、遭遇を確実に防ぐものではない</li>
-<li>クマの行動は環境によって変動するため、最新の状況は反映しきれない場合がある</li>
-<li>登山・農作業・山菜採りなどを行う際は、「自治体が発信する情報や現地の警報・掲示を必ず確認してほしい」</li>
+<li>必要なタイミングでツール定義を検索・読み込む <strong>Tool Search Tool</strong></li>
+<li>Pythonコードの中で複数のツールを連携させる <strong>Programmatic Tool Calling</strong>
+などにより、長時間タスクや複数ツールを扱うエージェントの効率を高める。</li>
 </ul>
-<p>研究チームは今後もデータの蓄積やモデル改良、対象地域の拡大を進め、遭遇リスク低減に資する情報提供を継続する方針を示している。</p>
+<p>Opus 4.5はこうした基盤を前提に設計されており、企業利用・実務エージェント運用への対応を強化したモデルと位置付けられる。</p>
+<p>AnthropicはOpus 4.5の開発背景や設計思想をまとめた公式動画も公開している。同社が強調する「エージェント運用」「高い安全性」「コーディング性能の向上」といったポイントを視覚的に確認できる。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
@@ -564,7 +481,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
 <p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
@@ -625,7 +542,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
 <p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
@@ -636,46 +553,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>著作権法では、人の創作的関与によって生まれた表現が保護の対象となる。生成AIが作成した画像については、どの程度の人間による関与が「創作性」として評価されるかが議論されてきた。今回の事案では、AIへの指示内容や生成工程が「人による具体的な創作行為」と認められた点が重要となる。</p>
 <p>生成AIで作成された画像については、人の具体的な指示や制作過程がどの程度関与しているかが著作物性の判断要素とされる。同事案では、プロンプトの内容や生成工程に人の創作的関与が認められた点が、著作権侵害容疑の判断材料となった。SNS上で公開された生成AI画像であっても、創作性が認められる場合には著作権が成立するため、複製や利用には権利者の許諾が必要となる。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/21 [FRI]Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
-      <link>https://ledge.ai/articles/google_nano_banana_pro_release</link>
-      <description><![CDATA[<p>Google は2025年11月20日（米国時間）、画像生成AI「Nano Banana」の最新バージョンとなる 「Nano Banana Pro」 を<a href="https://blog.google/intl/ja-jp/company-news/technology/nano-banana-pro/">発表</a>した。Gemini 3 Pro Image を基盤とした新しい画像生成システムで、、4K解像度の高精細生成や多言語テキスト描画の精度が大幅に向上しているという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=UQsJIo46ZR8&amp;t=3s">YouTube</a></p>
-<h2>4K出力と多言語テキスト生成を強化</h2>
-<p>公式ブログによると、Nano Banana Pro は従来モデルから画質と制御性能が大幅に進化し、最大 4K 解像度の画像生成 に対応した。広告制作、資料作成、スライドデザインなど、高精細なビジュアルを必要とする用途での活用が見込まれる。</p>
-<p>Google は発表の中で、照明や構図のコントロールが可能になった事例を複数紹介している。</p>
-<p><strong>・照明・フォーカス調整の例</strong>
-シーンを昼から夜へと変更し、照明バランスを最適化するデモ（プロンプト：このシーンを夜にしてください）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Fox_93f02b0061/WM_Fox_93f02b0061.jpg" alt="WM-Fox.jpg" /></p>
-<p><strong>・ドラマチックな照明効果の付与</strong>
-人物ポートレートに拡散光を加え、印象を変えるデモ（プロンプト：このポートレートの照明を、左からの柔らかな拡散光に変更してください）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Studio_Quality2_81a14549aa/WM_Studio_Quality2_81a14549aa.jpg" alt="WM-Studio-Quality2.jpg" /></p>
-<p><strong>・被写界深度の調整</strong>
-焦点を被写体の花に合わせ、構図の要素を際立たせるデモ（プロンプト：花に焦点を合わせてください）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Flower_Girl_16a2874c39/WM_Flower_Girl_16a2874c39.jpg" alt="WM---Flower-Girl.jpg" /></p>
-<p>また、日本語・韓国語・アラビア語などの複雑な文字体系にも対応し、多言語の画像内テキスト生成がより自然で正確になった。文字組みや行送りなど、これまで課題となっていたレイアウト要素の精度も改善している。</p>
-<p><strong>・テキストローカライズの例</strong>
-英語で書かれた飲料キャンペーンの文言を韓国語に翻訳し、デザイン要素を保持したまま再描画するデモ（プロンプト：3つの黄色と青の缶に書かれている英語のテキストを韓国語に翻訳し、他の要素は変更しないでください）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Final_Nano_Banana_Translate_Can_4ac7f9e843/Final_Nano_Banana_Translate_Can_4ac7f9e843.jpg" alt="Final_NanoBanana_TranslateCan.jpg" /></p>
-<h2>実世界知識の向上と複数画像入力</h2>
-<p>Nano Banana Pro は Google Search の最新情報を参照し、現実世界の文脈を反映した画像生成に対応する。Google は、科学・歴史・文化的トピックを視覚化する例を公式ページで紹介している。</p>
-<p><strong>・科学トピックの視覚化例</strong>
-アイザック・ニュートンの光と色彩の理論を、ミニマルなフラットレイ構図で説明するデモ
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_5_75517229b0/unnamed_5_75517229b0.webp" alt="unnamed (5).webp" /></p>
-<p>また、最大14枚の画像入力に基づき、スタイルやレイアウトの一貫性を保ちながら新たな画像を生成できる。人物の再現についても、最大5人までの整合性を維持可能としている。</p>
-<p><strong>・複数キャラクターの配置例</strong>
-14体のキャラクターを並んで座らせ、一貫したスタイルで描画するデモ
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Fluffy_Monsters_a42f31b8d0/Fluffy_Monsters_a42f31b8d0.jpg" alt="Fluffy-Monsters.jpg" /></p>
-<p>生成画像には AI 生成物識別技術 SynthID の透かしが自動で埋め込まれ、透明性と著作権管理への配慮も進めている。</p>
-<h2>Workspace・NotebookLMなど各サービスで提供開始</h2>
-<p>Nano Banana Pro は、Gemini アプリに加えて Google Slides、Google Vids、NotebookLM など複数の Google サービスで利用可能となる。Google Workspace では、11月20日から最大15日間かけて段階的に展開する。</p>
-<h2>開発者・企業向けの提供も本格化</h2>
-<p>Google は開発者向けブログも公開し、Nano Banana Pro の 2K/4K 出力、複数画像入力、レンダリング精度の向上などを説明した。Vertex AI を通じた API 提供が開始され、Google Cloud 上での画像生成ワークフローへの統合も可能となる。</p>
-<p>Google は Gemini 3 系列を軸にマルチモーダル AI の強化を進めており、Nano Banana Pro をその画像生成技術の中心モデルとして位置づけている。多言語描画と高精細画像への対応について、同社は広告・教育・資料作成など幅広い領域での活用を想定していると説明している。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
@@ -692,7 +570,7 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
 同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/11/21 [FRI]LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
@@ -779,7 +657,37 @@ Kiro IDEが生成したプロパティベーステストの例。仕様から抽
 <p>などを訓練パイプラインに組み込む必要性を訴える。</p>
 <p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、「SAM 3」を発表──テキストや画像例をプロンプトに、画像・動画内の物体を一括検出・分割・追跡　併せて「SAM 3D」で人物・物体の3D生成にも対応</title>
+      <link>https://ledge.ai/articles/meta_sam3_sam3d_release</link>
+      <description><![CDATA[<p>Metaは2025年11月19日（現地時間）、画像および動画に含まれるオブジェクトを、プロンプトを基点に一括で検出・分割・追跡できる新モデル「Segment Anything Model 3（SAM 3）」を<a href="https://ai.meta.com/blog/segment-anything-model-3/">発表</a>した。同日、2D画像から人物や物体の3Dモデルを生成する「SAM 3D」も<a href="https://ai.meta.com/blog/sam-3d/">公開</a>している。</p>
+<p>Metaの公式Xアカウント（@AIatMeta）は、両モデルを「新しい世代のSegment Anything Models」と<a href="https://x.com/AIatMeta/status/1991178519557046380">紹介</a>し、開発者・研究者向けのメディアワークフローを大きく拡張するとしている。</p>
+<h2>SAM3：プロンプトから“概念”ベースで検出・分割・追跡</h2>
+<p>SAM 3は、短いテキストフレーズ（例：「yellow school bus」）や、画像内のサンプルオブジェクトを示す “example prompt” を入力すると、該当するすべてのオブジェクトを一括して検出・分割し、動画では継続的に追跡できるモデル。Metaはこれを「Promptable Concept Segmentation（PCS）」と定義している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=G4OLPDjwncw">Youtube</a></p>
+<p>アーキテクチャは、DETRベースの画像検出器と、SAM 2を基盤とした動画トラッカーを単一バックボーンに統合したもの。論文(https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/)では、認識と位置特定を切り離す“Presence Head”を新たに採用し、概念ベースの検出精度を向上させたと説明されている。</p>
+<p><strong>SAM 3は、テキストプロンプトを用いた検出と追跡を単一アーキテクチャで統合する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SAM_3_architecture_overview_0af9a61c98/SAM_3_architecture_overview_0af9a61c98.jpg" alt="SAM 3 architecture overview.jpg" /></p>
+<h2>400万概念を含む新データセット「SA-Co」</h2>
+<p>SAM 3の開発にあたり、Metaは大規模データセット「<a href="https://github.com/facebookresearch/sam3/blob/main/README.md#sa-co-dataset">SA-Co（Segment Anything with Concepts）</a>」を新たに構築した。SA-Coは、数百万枚規模の高品質画像と約400万のユニーク概念、数千万のマスク情報を含むもので、モデルが幅広い概念を学習できるよう設計されている。</p>
+<p>論文で示されたベンチマーク「SA-Co/Gold」では20万以上の概念を評価対象とし、SAM 3はLVISのゼロショットMask APで48.8を記録。従来モデル（38.5）を大きく上回った。</p>
+<p><strong>SA-Coは、画像中の多様な物体を高精度にラベル付けする大規模データセット。色ごとに異なる概念カテゴリが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SA_Co_907d839e43/SA_Co_907d839e43.jpg" alt="SA-Co.jpg" /></p>
+<p>SAM 3は、Metaの研究用ウェアラブルデバイス「<a href="https://ledge.ai/articles/meta_aria_gen2_ai_research">Aria Gen 2</a>」で撮影された一人称視点の映像に対しても高い性能を示す。動きの速さや視点の揺れが大きいファーストパーソン映像でも、対象物の分割と追跡を安定して行える点が特徴だ。</p>
+<p>Metaは、Aria Gen 2 Pilot Datasetの一部を<a href="https://www.aidemos.meta.com/segment-anything">Segment Anything Playground</a>上で公開しており、これにより、人間の視点から世界を理解する“コンテクスチュアルAI”や、ロボティクス、機械知覚といった応用領域におけるSAM 3の有用性を示している。</p>
+<h2>SAM 3D：1枚の画像から人物・物体の3Dモデルを生成</h2>
+<p>同時に公開された「SAM 3D」は、人物に特化した「SAM 3D Body」と一般物体向けの「SAM 3D Objects」から構成される。Metaは、単一の2D画像から高精度で3D形状を復元でき、テクスチャとメッシュの情報を従来手法より忠実に再現できる点を強調している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B7PZuM55ayc">Youtube</a></p>
+<h2>2D解析から3D復元までを一貫化</h2>
+<p>Metaは、SAM 3とSAM 3Dをセットで発表することで、画像・動画内のオブジェクト理解（SAM 3）から3D形状復元（SAM 3D）までを一貫して扱える視覚AI基盤を提示した。動画編集、AR/VR、ロボティクス、ECなど、多数の応用領域で利用可能性があるとしている。</p>
+<p>公式Xでは、今回の発表を「新しい世代のSegment Anything Models」と説明し、SAM 3 と SAM 3D が画像・動画・3Dを横断する基盤技術として進化した点を強調している。投稿では、短いテキスト指示や具体例となる画像を用いた物体の検出・分割・追跡（SAM 3）、そして単一画像から人物や物体の3Dモデルを生成する機能（SAM 3D）が紹介され、「開発者と研究者が新しいメディア処理ワークフローを構築するためのツール」と位置づけている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/segment_anything_models_921509ea34/segment_anything_models_921509ea34.jpg" alt="segment anything models.jpg" /></p>
+<p>:::box
+[関連記事：AIの\</p>
+]]></description>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -804,7 +712,70 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/11/22 [SAT]ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
+      <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
+      <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
+<p>ルカン氏は投稿の冒頭で「うわさや最近の報道で耳にした人もいるだろうが、12年間在籍したMetaを離れる計画だ」と述べ、退社を正式に表明した。FAIRの初代ディレクターとして5年、チーフAIサイエンティストとして7年を務めたと振り返り、「FAIRの創設は、自身の“最も誇りに思う非技術的な業績”」と強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/yann_lecun_facebook_3d6a371abb/yann_lecun_facebook_3d6a371abb.jpg" alt="yann lecun facebook.jpg" /></p>
+<h2>Advanced Machine Intelligence（AMI）研究を継続する独立スタートアップを設立</h2>
+<p>投稿によると、ルカン氏は「Advanced Machine Intelligence（AMI）」と名付けた研究プログラムを継続するため、新たなスタートアップを立ち上げる。同プログラムは、近年FAIRやニューヨーク大学（NYU）などの研究者と進めてきたもので、次のような能力を備えたAIシステムを目指すという。</p>
+<ul>
+<li>物理世界を理解する</li>
+<li>持続的な記憶を持つ</li>
+<li>推論できる</li>
+<li>複雑な行動計画を実行できる</li>
+</ul>
+<p>ルカン氏は、これを「次の大きなAI革命」につながる研究領域だと位置づける。スタートアップの詳細は後日公表するとしており、社名や資金調達の状況は明かしていない。</p>
+<h2>Metaは新会社のパートナーに──Zuckerberg氏らへの感謝も明記</h2>
+<p>投稿では、Mark Zuckerberg氏、Andrew Bosworth氏（Boz）、Chris Cox氏、Mike Schroepfer氏の4名に対し、FAIRおよびAMI研究への継続的な支援への謝意を述べている。そのうえで、「Metaは新会社のパートナーとなる」と記し、退社後も協力関係が続くことを示した。</p>
+<p>AMI研究のアプリケーションについては「Metaの商業領域と重なる部分もあれば、重ならない領域もある」とし、独立した組織で取り組むことが「広範なインパクトを最大化する手段」だと説明している。</p>
+<h2>研究者としての役割は継続、年末まではMetaに在籍</h2>
+<p>ルカン氏は現在、MetaのチーフAIサイエンティストとNYUの教授職を兼務している。投稿では、これらの役割に関する変更には触れておらず、研究活動は継続する見通しだ。</p>
+<p>また、「年末まではMetaにとどまる」とも述べており、移行期間中は同社での業務を続けながら新会社の準備を進めるとしている。</p>
+]]></description>
+      <pubDate>Sat, 22 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/11/21 [FRI]Google、「Nano Banana Pro」を発表──4K対応・多言語テキスト描画を強化した最新画像生成AI</title>
+      <link>https://ledge.ai/articles/google_nano_banana_pro_release</link>
+      <description><![CDATA[<p>Google は2025年11月20日（米国時間）、画像生成AI「Nano Banana」の最新バージョンとなる 「Nano Banana Pro」 を<a href="https://blog.google/intl/ja-jp/company-news/technology/nano-banana-pro/">発表</a>した。Gemini 3 Pro Image を基盤とした新しい画像生成システムで、、4K解像度の高精細生成や多言語テキスト描画の精度が大幅に向上しているという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=UQsJIo46ZR8&amp;t=3s">YouTube</a></p>
+<h2>4K出力と多言語テキスト生成を強化</h2>
+<p>公式ブログによると、Nano Banana Pro は従来モデルから画質と制御性能が大幅に進化し、最大 4K 解像度の画像生成 に対応した。広告制作、資料作成、スライドデザインなど、高精細なビジュアルを必要とする用途での活用が見込まれる。</p>
+<p>Google は発表の中で、照明や構図のコントロールが可能になった事例を複数紹介している。</p>
+<p><strong>・照明・フォーカス調整の例</strong>
+シーンを昼から夜へと変更し、照明バランスを最適化するデモ（プロンプト：このシーンを夜にしてください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Fox_93f02b0061/WM_Fox_93f02b0061.jpg" alt="WM-Fox.jpg" /></p>
+<p><strong>・ドラマチックな照明効果の付与</strong>
+人物ポートレートに拡散光を加え、印象を変えるデモ（プロンプト：このポートレートの照明を、左からの柔らかな拡散光に変更してください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Studio_Quality2_81a14549aa/WM_Studio_Quality2_81a14549aa.jpg" alt="WM-Studio-Quality2.jpg" /></p>
+<p><strong>・被写界深度の調整</strong>
+焦点を被写体の花に合わせ、構図の要素を際立たせるデモ（プロンプト：花に焦点を合わせてください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Flower_Girl_16a2874c39/WM_Flower_Girl_16a2874c39.jpg" alt="WM---Flower-Girl.jpg" /></p>
+<p>また、日本語・韓国語・アラビア語などの複雑な文字体系にも対応し、多言語の画像内テキスト生成がより自然で正確になった。文字組みや行送りなど、これまで課題となっていたレイアウト要素の精度も改善している。</p>
+<p><strong>・テキストローカライズの例</strong>
+英語で書かれた飲料キャンペーンの文言を韓国語に翻訳し、デザイン要素を保持したまま再描画するデモ（プロンプト：3つの黄色と青の缶に書かれている英語のテキストを韓国語に翻訳し、他の要素は変更しないでください）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Final_Nano_Banana_Translate_Can_4ac7f9e843/Final_Nano_Banana_Translate_Can_4ac7f9e843.jpg" alt="Final_NanoBanana_TranslateCan.jpg" /></p>
+<h2>実世界知識の向上と複数画像入力</h2>
+<p>Nano Banana Pro は Google Search の最新情報を参照し、現実世界の文脈を反映した画像生成に対応する。Google は、科学・歴史・文化的トピックを視覚化する例を公式ページで紹介している。</p>
+<p><strong>・科学トピックの視覚化例</strong>
+アイザック・ニュートンの光と色彩の理論を、ミニマルなフラットレイ構図で説明するデモ
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/unnamed_5_75517229b0/unnamed_5_75517229b0.webp" alt="unnamed (5).webp" /></p>
+<p>また、最大14枚の画像入力に基づき、スタイルやレイアウトの一貫性を保ちながら新たな画像を生成できる。人物の再現についても、最大5人までの整合性を維持可能としている。</p>
+<p><strong>・複数キャラクターの配置例</strong>
+14体のキャラクターを並んで座らせ、一貫したスタイルで描画するデモ
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Fluffy_Monsters_a42f31b8d0/Fluffy_Monsters_a42f31b8d0.jpg" alt="Fluffy-Monsters.jpg" /></p>
+<p>生成画像には AI 生成物識別技術 SynthID の透かしが自動で埋め込まれ、透明性と著作権管理への配慮も進めている。</p>
+<h2>Workspace・NotebookLMなど各サービスで提供開始</h2>
+<p>Nano Banana Pro は、Gemini アプリに加えて Google Slides、Google Vids、NotebookLM など複数の Google サービスで利用可能となる。Google Workspace では、11月20日から最大15日間かけて段階的に展開する。</p>
+<h2>開発者・企業向けの提供も本格化</h2>
+<p>Google は開発者向けブログも公開し、Nano Banana Pro の 2K/4K 出力、複数画像入力、レンダリング精度の向上などを説明した。Vertex AI を通じた API 提供が開始され、Google Cloud 上での画像生成ワークフローへの統合も可能となる。</p>
+<p>Google は Gemini 3 系列を軸にマルチモーダル AI の強化を進めており、Nano Banana Pro をその画像生成技術の中心モデルとして位置づけている。多言語描画と高精細画像への対応について、同社は広告・教育・資料作成など幅広い領域での活用を想定していると説明している。</p>
+]]></description>
+      <pubDate>Fri, 21 Nov 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
