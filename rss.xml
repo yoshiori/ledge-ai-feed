@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>18歳未満の自由チャット廃止を受け、自由会話から“物語選択式”へ──Character.AIが新機能「Stories」で未成年向け体験を再構築</title>
+      <link>https://ledge.ai/articles/character_ai_stories_u18_safety_launch</link>
+      <description><![CDATA[<p>AIキャラクターとの自由形式のチャットを18歳未満のユーザーに禁止すると10月に発表したCharacter.AIは11月27日（米国時間）、代替となる新しい対話機能「Stories」を正式に導入したことを<a href="https://blog.character.ai/introducing-stories-a-new-way-to-create-play-and-share-adventures-with-your-favorite-characters/">発表</a>した。</p>
+<p>自由入力によるオープンエンド型の会話とは異なり、選択肢を選んで物語を進める「インタラクティブ・ストーリー形式」を採用する。未成年ユーザーも利用できる仕組みで、同社は「安全性を確保しながら創造的なAI体験を維持するための新しい方法」と位置づけている。</p>
+<p>Storiesでは、AIキャラクターが登場人物やナレーターとして振る舞い、ユーザーは提示される選択肢からストーリーの展開を選ぶ。自由記述のテキスト入力はできず、物語の文脈に沿った応答が行われる点が特徴だ。ユーザーは既存のキャラクターが公開しているStoriesに参加できるほか、自らシナリオを作成して公開することも可能。公開前にはプラットフォーム側の安全性レビューが実施され、他の利用者にはリンク形式で共有できる。</p>
+<p><strong>公式が公開した「Stories」サンプル一覧。ファンタジー、コメディ、ミステリーなど複数ジャンルの物語が用意され、選択肢を通じてストーリーを進める形式になっている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/characterai_data_d662534a06/characterai_data_d662534a06.jpg" alt="characterai data.jpg" /></p>
+<p>今回の実装は、Character.AIが進めてきた未成年ユーザーの安全対策の延長線上にある。同社をめぐっては2024年、AIチャットボットに依存していたとされる14歳の少年が自殺した事件を受けて遺族が訴訟を起こし、対話型AIが若年層のメンタルヘルスに与える影響が議論となった。Ledge.aiでは当時、擬似的な友人関係を結ぶタイプのAIが依存を助長する懸念、そして専門家の指摘を報じていた。Character.AIはその後、利用ガイドラインの強化や未成年向けの利用制限を段階的に導入し、2025年10月には「18歳未満のオープンエンドなチャットを全面廃止する」と発表していた。</p>
+<p>Storiesは、このチャット廃止後に未成年ユーザーへ提供される主要なAI体験として位置づけられる。自由会話の柔軟性はないものの、ストーリー形式によって創造的な没入体験は継続でき、同時に不適切な対話や依存リスクを抑えられる設計になっている。Character.AIは今後、Storiesの提供範囲を段階的に拡大し、コミュニティによる創作コンテンツの増加を見込むとしている。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>民放連「生成AIによる放送コンテンツ酷似映像」を問題視──無許諾学習の停止と削除対応を求める声明</title>
       <link>https://ledge.ai/articles/minporen_ai_learning_statement_20251126</link>
       <description><![CDATA[<p>日本民間放送連盟（民放連）は2025年11月26日、「生成ＡＩの開発・学習に関する声明」を<a href="https://j-ba.or.jp/category/topics/jba106724">公表</a>し、会員各社が権利を保有するコンテンツが無許諾で生成AIに学習されている可能性があるとして、開発事業者に対し明確な対策を求めた。</p>
@@ -341,44 +354,6 @@
 <p>研修を通じて同社は、企業における生成AI活用の基礎力向上を図るとともに、今後もリテラシー教育コンテンツの拡充を進める方針だ。</p>
 ]]></description>
       <pubDate>Sun, 23 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIモデルが“毎分”アナログ時計を描くとどうなる？──9つのAIの“苦手さ”が見える実験サイト『AI World Clocks』</title>
-      <link>https://ledge.ai/articles/ai_world_clocks_ai_models_generate_clocks_every_minute</link>
-      <description><![CDATA[<p>ロサンゼルス拠点のアーティスト、Brian Moore 氏が、生成AIの“揺れ”を視覚的に楽しめるウェブサイト「<a href="https://clocks.brianmoore.com/">AI World Clocks</a>」を公開した。ページを開くと、毎分更新で9種類のAIモデルが描いたアナログ時計が並ぶ。時間ごとに姿を変える時計群からは、AIが“同じ指示でも同じものを作れない”という現実がよく見えてくる。海外コミュニティでの投稿やメディア報道から、2025年11月中旬に公開されたとみられる。</p>
-<p>例：とある日の午後4時22分の表示
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_world_clock_collage_6bc41e0c7f/ai_world_clock_collage_6bc41e0c7f.jpg" alt="ai world clock collage.jpg" /></p>
-<h2>同じプロンプトでも毎回バラバラ　― 9モデルが1分ごとに新しい時計を生成</h2>
-<p>「AI World Clocks」は以下の仕様で動作している。</p>
-<ul>
-<li>９つの異なるAIモデルが、毎分新しい時計を生成して表示</li>
-<li>すべてのモデルに 同じプロンプト を提示（「指定時刻のアナログ時計をHTML/CSSで記述し、マークダウンなしで返す」）</li>
-<li>モデルごとに 2000トークンの制限を設定</li>
-<li>生成されたHTML/CSSをそのままブラウザでレンダリング</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/about_ai_world_cloks_29c55a0f77/about_ai_world_cloks_29c55a0f77.png" alt="about ai world cloks.png" /></p>
-<h2>“完成度は高くない”が想定通り　― 開発者自身が明言</h2>
-<p>同プロジェクトを手がけた Brian Moore 氏は、ロサンゼルスを拠点とするアーティスト／クリエイティブディレクターで、インタラクティブなウェブ作品や“奇妙なインターネット体験”をテーマにした実験的プロジェクトを数多く公開してきた人物だ。</p>
-<p>Moore氏の<a href="https://brianmoore.com/715-999-7483/">サイト</a>には、AIが苦手なことに挑ませたり、不条理なインタラクションを活かしたりするユニークな作品群が並んでおり、同氏自身も「AIが時計を描くのは苦手だ（It sucks at it）」と説明している。AIの不完全さをあえて作品の中心に据えるスタイルを得意としており、「AI World Clocks」もその延長線上にある。</p>
-<h2>現れる時計はモデルごとにまったく違う</h2>
-<p>実際にサイトを見ていると、AIごとの挙動の違いがよく分かる。</p>
-<ul>
-<li>針が欠けているもの</li>
-<li>文字盤が過剰に装飾されるもの</li>
-<li>レイアウトが描画エラーで崩れるもの</li>
-<li>時刻が正しく反映されないもの</li>
-</ul>
-<p>同一プロンプトでもまったく異なる出力が生まれ、HTML/CSSのように構造が厳密に求められるタスクではモデル間の差が顕著になる。</p>
-<h2>開発者が挙げた“モデルの性格”も面白い</h2>
-<p>Moore 氏は Hacker News 上の<a href="https://news.ycombinator.com/item?id=45930151">投稿</a>で、モデルごとの“味”についてこう語っている。</p>
-<ul>
-<li>Kimi K2：「もっとも時間に正確。ただし最も退屈」</li>
-<li>Qwen 2.5：「もっともクレイジーで、一番笑わせてくれる」</li>
-</ul>
-<p>作者本人がこのように“軽妙な温度感”で語っている点からも、同作品がAIの不完全さを楽しむためのプロジェクトであることが理解できる。</p>
-<p>「AI World Clocks」は、AIモデルが同一の構造化タスクに取り組んだ際にどのような差異や揺らぎが生じるかを、逐次的に確認できるプロジェクトである。毎分変化する時計表示は、モデル間の安定性や挙動の違いを視覚的に把握しやすく、AIによるコード生成の現状を観察する素材として活用できる設計になっている。</p>
-]]></description>
-      <pubDate>Sun, 23 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
