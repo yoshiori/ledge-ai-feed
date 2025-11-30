@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>EpicのCEO「AI使用はゲーム制作の基本工程になる。明示ラベルは不要」──生成AI使用の開示を義務化するSteamへの異議に賛同</title>
+      <link>https://ledge.ai/articles/epic_ceo_ai_tag_unnecessary_steam_disclosure_debate</link>
+      <description><![CDATA[<p>2025年11月27日（現地時間）、映像クリエイターであるWorkman氏が、「Steamやすべてのデジタルマーケットは“Made with AI”タグをやめるべきだ。もはや意味をなさない（Steam and all digital marketplaces need to drop the “Made with AI” label. It doesn’t matter any more.）」と投稿した。この意見に、Epic GamesのCEOである Tim Sweeney（ティム・スウィーニー）氏が「Agreed（同意する）」と返信し、ゲーム制作におけるAIタグの必要性について疑問を呈した。</p>
+<h2>「Made with AI」タグは “もはや意味をなさない”</h2>
+<p>Workman 氏はX上で、ゲームストアに“AI製（Made with AI）”と明示することは、現在の制作現場の実態から乖離しつつあると指摘した。その後 <a href="https://www.linkedin.com/posts/mattworkman_epic-games-ceo-argues-marketplaces-dont-activity-7399863685189627904-WZnL">LinkedIn</a>で投稿を補足し、一般的な制作ツールの多くにAI機能が搭載されていることから、「どこからどこまでが “AI使用” に該当するのか」という線引きが難しくなっていると説明。開示の有無によって開発者間に不公平が生じているケースもあると述べ、Valveに対しタグの撤廃を求めた。</p>
+<p>こうした指摘は、Steamが導入したAI使用開示制度の運用上の難しさや、AIが制作ツールとして一般化していく中で、開示が“特殊なもの”として扱われ続けることへの懸念を示すものとなっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tim_Sweeney_ai_tag_e17446f159/Tim_Sweeney_ai_tag_e17446f159.jpg" alt="Tim Sweeney ai tag.jpg" /></p>
+<h2>Epic CEOの賛同──「AIはゲーム制作の基本工程に組み込まれる」</h2>
+<p>Workman 氏の投稿に対し、Epic Games のCEOである Tim Sweeney 氏は「Agreed」と短く賛同したうえで、続くやり取りの中で自身の見解を明らかにした。</p>
+<p>Sweeney 氏は「AIは今後ほぼすべてのゲーム制作プロセスに組み込まれていく」と述べ、AI使用を特別にラベルとして表示する必要性は薄れていくと指摘。著作者表示や権利状態の明確化が求められるアート展示やライセンス販売とは異なり、ゲームストアにおける“AIタグ”は制作実態にそぐわないとする立場を示した。</p>
+<h2>開示を求めるSteam、受け入れるEpic──AIコンテンツをめぐる両社のスタンスの違い</h2>
+<p>Steamを運営する Valve は2024年1月、「AI Content on Steam」の方針を導入し、生成AIを利用したゲームを原則受け入れる一方、開発者にAI使用状況の開示を義務づけている。具体的には、AIで生成したアートやコードなどの「事前生成コンテンツ」、プレイ中にAIが動的に生成する「ライブ生成コンテンツ」について、権利関係や安全性を確認したうえでストアページの「AI Generated Content Disclosure」欄に記載する方式を採用している。</p>
+<p>Steamのスタンスは段階的に形成されてきた。2023年には生成AIアートを含むゲームが権利不備で却下された例が報告され、Valveは後に「権利が確認されたAIコンテンツは受け入れる」と説明。その後2024年に開示義務制度が整備され、AIを使ったゲームの“条件付き受け入れ”という形に落ち着いた。</p>
+<p>一方、Epic Games Store は当初から生成AIを使用したタイトルの配信を認める立場を取り、AI技術そのものを理由に制限しない姿勢を採ってきた。両社はAIコンテンツの扱いにおいて、「透明性の確保を重視するSteam」と「AI使用を特別扱いしないEpic」という対照的な方針を示している。</p>
+<p>AI使用の透明性を求める声と、技術が一般化するなかで特別なタグを付与することへの疑問が併存しており、SteamとEpicの異なる姿勢はその対立軸を象徴している。
+AIが制作の基本工程となる時代に、どのような開示ルールが適切なのか。今後も議論が続くテーマとなりそうだ。</p>
+]]></description>
+      <pubDate>Sun, 30 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
       <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
       <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
@@ -321,40 +341,6 @@
 <p>政府は関係府省・研究機関・製薬企業・動物福祉団体で構成される委員会を設置し、進捗指標（KPI）を設定して透明性を確保する方針だ。英国政府は今回の戦略を「世界で最も詳細なロードマップの一つ」と位置づけ、科学技術と倫理の両面から「動物実験のない研究」への移行を進めていくとしている。</p>
 ]]></description>
       <pubDate>Mon, 24 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「普通のメガネ」のようで“静かに非凡”──情報を前面・背面に分離するレイヤードHUDとカメラレス設計、指先操作のR1が示すG2／R1のスマートグラス体験の次章</title>
-      <link>https://ledge.ai/articles/quiet_tech_smartglasses_even_g2_r1_launch</link>
-      <description><![CDATA[<p>ウェアラブルデバイスを手がける Even Realities は、2025年11月13日（現地時間）、新型スマートグラス「Even G2」とスマートリング「Even R1」を<a href="https://x.com/EvenRealities/status/1988629357036753060">発表</a>した。同社は「Quietly Extraordinary Technology」というコンセプトを掲げ、テクノロジーが生活に干渉しすぎず“静かに寄り添う”デザイン思想を中心に据えたことが説明されている。</p>
-<p>外観は「普通のメガネ」さながらだが、視界の前面と背面に情報を分離して重ねる独自のレイヤードHUDや、カメラを排した設計、指先ジェスチャーで操作できるR1など、同社が掲げる「Quietly Extraordinary Technology」を体現する機能を備える。録画や音声出力を中心に進化してきた従来のスマートグラスとは異なり、G2／R1はユーザー本人の使いやすさと周囲のプライバシーの両立を追求した“静かな次章”を提示している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=tAIhp9hia90&amp;t=4s">YouTube</a></p>
-<h2>カメラレス・スピーカーレスという選択</h2>
-<p>G2 の最大の特徴は、カメラと外向きスピーカーを搭載しない点にある。近年のスマートグラスは録画や配信、音声出力を強化する方向で進化してきたが、同社は「ユーザーと周囲のプライバシーに配慮するため」として、これらをあえて採用していない。
-音声操作や撮影を前提としないことで、外部への音漏れや“撮られているかもしれない”という不安を生まない構造として設計されている。</p>
-<h2>手前と奥に情報を分けて表示する“レイヤードHUD”</h2>
-<p>G2 の光学システムには、独自の「HAO 2.0」ディスプレイが採用された。超小型マイクロLEDプロジェクターと導波管レンズにより、約2メートル先に自然な形で情報が投影される。</p>
-<p>特徴的なのは、表示情報を二層に分離する“レイヤードHUD”だ。</p>
-<ul>
-<li><strong>前面のレイヤー</strong> ：通知など即時性の高い情報</li>
-<li><strong>奥のレイヤー</strong> ：翻訳、ナビゲーションなど継続的な情報</li>
-</ul>
-<p>というように、視界の中で情報の優先度や性質に応じて層を分ける。
-これにより、HUDが“情報過多”になりがちな従来のスマートグラスと異なり、視界のノイズを増やすことなく必要なタイミングで必要な情報のみを提示する設計になっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HUD_9e8b648e77/HUD_9e8b648e77.jpg" alt="レイヤードHUD.jpg" /></p>
-<h2>更新された主要機能と会話アシスト「Conversate」</h2>
-<p>主要機能には、複数ウィジェットを扱うダッシュボード、地磁気センサーによるナビゲーション、リアルタイム双方向翻訳、テレプロンプターなどが含まれる。また、独自LLM「Even AI」の高速化により、音声操作やアプリ起動の応答が向上したという。</p>
-<p>新たに追加された「Conversate」は、会話中に文脈に応じた補助情報を視界に表示する機能で、会議や対話の場面で用語の説明や要点整理などを控えめに提示する。</p>
-<h2>スマートリング「R1」：操作とウェルビーイングを担う指先デバイス</h2>
-<p>G2 の操作体系を補完するのが、スマートリング「Even R1」だ。リング内に静電容量式タッチパッドを内蔵し、タップ、スワイプ、長押しといった指先ジェスチャーでスマートグラスを操作する。素材は医療グレードのセラミックとステンレスを採用し、耐久性と装着性を両立した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/r1_5fbc5fd7f6/r1_5fbc5fd7f6.jpg" alt="r1.jpg" /></p>
-<p>R1 にはウェルビーイング機能も搭載され、心拍数、血中酸素濃度、体温、睡眠、歩数、消費カロリーなどを計測。取得データから「生産性スコア」を算出し、その日の集中力傾向を把握する指標として利用できるという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wellbeing_2d6509b5cf/wellbeing_2d6509b5cf.jpg" alt="wellbeing.jpg" /></p>
-<h2>プライバシーの設計思想</h2>
-<p>Even Realities は、カメラを排除した設計に加え、データはユーザーの明示的な同意なしにクラウドへ保存されないと説明している。必要なデータは暗号化され、個人を特定可能な情報を保持しない方針を示している。</p>
-<p>G2 と R1 は、録画・配信・音声出力を中心に進化してきた他社製スマートグラスとは異なる方向性を示す。
-同社は、情報過多を避け、ユーザー本人の使いやすさと周囲のプライバシーを両立させる「Quiet Tech」アプローチを採用し、視界に重ねる情報をレイヤーで整理し、操作は指先で静かに完結させる設計を打ち出した。こうした設計思想は、スマートグラス市場における一つの選択肢として位置づけられそうだ。</p>
-]]></description>
-      <pubDate>Sun, 23 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
