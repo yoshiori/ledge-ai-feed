@@ -5,14 +5,22 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
-      <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
-      <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
-<p>研究チームは、台湾と同規模の約3.6万平方キロメートルの領域を対象に、1000〜2000機規模の通信妨害装置（ジャマー）を上空に展開することで、Starlinkネットワークを一時的に抑圧できる可能性があると試算している。</p>
-<p>SCMPが確認したのは、中国語の専門誌『系统工程与电子技术（Systems Engineering and Electronics）』に掲載された論文で、中国の軍事工学研究者らが作成したもの。同紙によると、研究者はウクライナ戦争でStarlinkが通信インフラとして軍事作戦を支え続けたことを受け、台湾有事などを想定した電子戦の可能性を分析したという。</p>
-<p>Starlinkは、高度約550kmの低軌道衛星が多数稼働し、自律的に接続先を切り替えるメッシュ型ネットワークを形成している。このため、地上からの単一の妨害では通信を完全に遮断することが難しいとされる。研究チームはそこで、航空機・気球・ドローンなどの空中ジャマー（通信妨害装置）を広範囲に配置する方式を検証し、一定高度で密度の高い妨害グリッドを形成することで、特定エリアのStarlink通信を抑圧できる可能性が示された。</p>
-<p>米技術メディアの<a href="https://www.tomshardware.com/networking/china-simulated-a-starlink-blockade-over-taiwan-ccp-scientists-say-around-1-000-drones-would-be-enough-to-cut-satellite-internet-to-the-island">Tom’s Hardware</a>は、論文のシミュレーション条件を詳細に紹介している。それによれば、ジャマーは高度約20kmに展開し、3〜6マイル間隔で配置することで“電磁シールド”のような妨害グリッドを形成する必要があるとされる。また、高出力装置を搭載した航空機を使う場合は約935ノードで足りる一方、小型ドローンなどの低出力ジャマーでは1000〜2000ノードが必要になるという。</p>
-<p>ただし、数千機規模の空中ジャマーを台湾上空に長時間展開し続けるには、燃料・整備・指揮統制・対空防衛への対応など、多くの運用上の課題が伴う。複数の報道でも、今回の内容はあくまでもシミュレーション研究であり、実際に中国が同規模の演習を行った証拠は確認されていない。</p>
+      <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
+      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
+      <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
+<h2>QwenとQuark Appを統合、音声・視覚を組み合わせたAIアシスタントに対応</h2>
+<p>Quark AI Glassesは、アリババが開発する大規模言語モデル「Qwen」とAIアプリ「Qwen App」を標準搭載し、音声操作や視界上への情報提示を通じて、AIアシスタント機能を直接メガネ型デバイスで利用できる。外出先でのリアルタイム翻訳や、会議・講義内容の文字起こし、リマインダー設定、ナビゲーション、周辺スポット検索、ショッピング支援といった多様な機能に対応する。</p>
+<p>また、アリババグループのサービスとも連携しており、決済のAlipay（支付宝）、地図サービスのAmap（高徳地図）、ECサービスのTaobao（淘宝）、旅行サービスFliggy（飛猪）なども利用できる。中国の音楽ストリーミングサービス（QQ Music、NetEase Cloud Music）にも対応した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55.jpeg" alt="bf1ef6c08mf1fb9c98a8d6dd8bbbe8de.jpeg" /></p>
+<h2>フラグシップモデル「S1」──交換式デュアルバッテリーで最大24時間使用可能</h2>
+<p>S1はデュアルマイクロOLEDディスプレイを搭載し、視界内に情報をオーバーレイ表示できる。骨伝導技術やデュアルチップ構成を採用し、音声入出力やリアルタイム処理性能を強化した。</p>
+<p>特徴的な点として、交換可能なデュアルバッテリーシステムを採用し、最大24時間の利用を可能としている。また、0.6秒で撮影できるインスタントフォト機能や、3K動画撮影およびAIによる4K動画出力、独自技術「Super Raw」による夜間撮影性能の向上など、撮影機能も強化されている。価格は3,799元（約7万8,000円）から。</p>
+<h2>軽量モデル「G1」──約40gで普段使いに最適、コアハードウェアはS1と共通</h2>
+<p>G1は日常の利用を想定した軽量モデルで、重量は約40gに抑えられている。ディスプレイ以外の主要ハードウェア（処理チップ、オーディオ、カメラなど）はS1と共通で、普段使いしやすいデザインと価格帯を重視している。価格は1,899元（約3万9,000円）から。</p>
+<h2>MCP対応で開発者エコシステムも視野に</h2>
+<p>Quark AI Glassesは、外部システムやアプリケーションと双方向に接続するオープン標準「Model Context Protocol（MCP）」に対応する。これにより、開発者がQuark AI Glasses向けのAIアプリやエージェントを拡張しやすくなり、アリババのQwenエコシステムとの連携も強化される。</p>
+<p>市場調査会社<a href="https://www.idc.com/promo/wearablevendor/">IDC</a>の調査によると、2025年第2四半期の世界ウェアラブルデバイス出荷台数は前年同期比9.6％増の1億3,650万台で、このうち約5,000万台が中国を中心とする地域から出荷されている。中国は現在、世界最大のウェアラブル市場であり、AI搭載デバイス分野における競争も激しさを増している。</p>
+<p>Quark AI Glassesシリーズは、アリババのAIモデルQwenとグループのサービス群、そしてMCPによる拡張性を組み合わせることで、同市場における新たな製品ポジションを獲得する構えだ。</p>
 ]]></description>
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
@@ -37,22 +45,359 @@ AIが制作の基本工程となる時代に、どのような開示ルールが
       <pubDate>Sun, 30 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
-      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
-      <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
-<h2>QwenとQuark Appを統合、音声・視覚を組み合わせたAIアシスタントに対応</h2>
-<p>Quark AI Glassesは、アリババが開発する大規模言語モデル「Qwen」とAIアプリ「Qwen App」を標準搭載し、音声操作や視界上への情報提示を通じて、AIアシスタント機能を直接メガネ型デバイスで利用できる。外出先でのリアルタイム翻訳や、会議・講義内容の文字起こし、リマインダー設定、ナビゲーション、周辺スポット検索、ショッピング支援といった多様な機能に対応する。</p>
-<p>また、アリババグループのサービスとも連携しており、決済のAlipay（支付宝）、地図サービスのAmap（高徳地図）、ECサービスのTaobao（淘宝）、旅行サービスFliggy（飛猪）なども利用できる。中国の音楽ストリーミングサービス（QQ Music、NetEase Cloud Music）にも対応した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55.jpeg" alt="bf1ef6c08mf1fb9c98a8d6dd8bbbe8de.jpeg" /></p>
-<h2>フラグシップモデル「S1」──交換式デュアルバッテリーで最大24時間使用可能</h2>
-<p>S1はデュアルマイクロOLEDディスプレイを搭載し、視界内に情報をオーバーレイ表示できる。骨伝導技術やデュアルチップ構成を採用し、音声入出力やリアルタイム処理性能を強化した。</p>
-<p>特徴的な点として、交換可能なデュアルバッテリーシステムを採用し、最大24時間の利用を可能としている。また、0.6秒で撮影できるインスタントフォト機能や、3K動画撮影およびAIによる4K動画出力、独自技術「Super Raw」による夜間撮影性能の向上など、撮影機能も強化されている。価格は3,799元（約7万8,000円）から。</p>
-<h2>軽量モデル「G1」──約40gで普段使いに最適、コアハードウェアはS1と共通</h2>
-<p>G1は日常の利用を想定した軽量モデルで、重量は約40gに抑えられている。ディスプレイ以外の主要ハードウェア（処理チップ、オーディオ、カメラなど）はS1と共通で、普段使いしやすいデザインと価格帯を重視している。価格は1,899元（約3万9,000円）から。</p>
-<h2>MCP対応で開発者エコシステムも視野に</h2>
-<p>Quark AI Glassesは、外部システムやアプリケーションと双方向に接続するオープン標準「Model Context Protocol（MCP）」に対応する。これにより、開発者がQuark AI Glasses向けのAIアプリやエージェントを拡張しやすくなり、アリババのQwenエコシステムとの連携も強化される。</p>
-<p>市場調査会社<a href="https://www.idc.com/promo/wearablevendor/">IDC</a>の調査によると、2025年第2四半期の世界ウェアラブルデバイス出荷台数は前年同期比9.6％増の1億3,650万台で、このうち約5,000万台が中国を中心とする地域から出荷されている。中国は現在、世界最大のウェアラブル市場であり、AI搭載デバイス分野における競争も激しさを増している。</p>
-<p>Quark AI Glassesシリーズは、アリババのAIモデルQwenとグループのサービス群、そしてMCPによる拡張性を組み合わせることで、同市場における新たな製品ポジションを獲得する構えだ。</p>
+      <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
+      <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
+      <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
+<h2>仕様に基づく開発を強化：プロパティベーステストに対応</h2>
+<p>Kiroの正式版では、仕様と実装の整合性を検証するための「プロパティベーステスト（property-based testing）」が導入された。開発者がEARS形式で記述した仕様から、Kiroがテストすべき“性質（プロパティ）”を自動抽出し、数百〜数千のランダムテストを生成して実装を検証する仕組みだ。反例が見つかった場合は、原因特定のため条件を徐々に単純化する「縮小（shrinking）」も実行される。</p>
+<p>これにより、個別のテストケースでは検出しづらい欠陥を発見しやすくなり、仕様ベースでの正確な実装を支援する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/correctness_f57a485373/correctness_f57a485373.png" alt="correctness.png" />
+Kiro IDEが生成したプロパティベーステストの例。仕様から抽出した“チケットIDが常に一意であること”という性質を可視化し、関連する要件・実装タスク・テスト結果を紐づけて表示する。</p>
+<h2>チェックポイントで開発プロセスを巻き戻し可能に</h2>
+<p>一般提供版では、エージェントが行った操作や変更内容を段階的に保存する「チェックポイント」機能を追加した。エージェントの提案やコード修正を進めた後でも、必要に応じて任意の状態へ戻れるため、実装方針の変更や手戻りが発生した際のコストを抑えられる。</p>
+<p>また、1つのKiroワークスペースで複数のプロジェクトルートを扱える「マルチルート」構成にも対応し、マイクロサービスやモノレポなど複雑な構成の開発にも利用できる。</p>
+<h2>IDEとターミナルを共通化する「Kiro CLI」</h2>
+<p>正式版の大きな追加点として、ターミナルで利用できる「Kiro CLI」が提供された。開発者は、IDE と同じエージェント環境をターミナルでもそのまま利用でき、Claude Sonnet 4.5 や Haiku 4.5 などのモデル、Autoエージェント、MCP（Model Context Protocol）ツールによるローカル操作やAPI呼び出しも実行できる。</p>
+<p>CLIとIDEは同一のステアリングファイルや認証情報、コンテキストを共有するため、開発環境を切り替えても同じワークフローを継続できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cli_5921207104/cli_5921207104.png" alt="cli.png" />
+一般提供版で新たに追加された「Kiro CLI」。IDEと同じエージェント環境をターミナルでも利用でき、AutoエージェントやMCPツールによる操作が可能になる。</p>
+<h2>AWS IAM連携のチーム管理と、スタートアップ向け1年無償プラン</h2>
+<p>Kiroは、AWS IAM Identity Centerと統合され、組織アカウントによるログインや、Pro／Pro+／Powerティアの利用制限、MCP設定、請求管理などをAWS側で一元的に管理できる。</p>
+<p>また、シリーズBまでの対象スタートアップには「Kiro Pro+」を1年間無償提供するオファーを開始した。既存のAWS Activateクレジットと併用可能で、2025年12月31日まで申請を受け付ける。</p>
+<h2>“AI駆動開発”の基盤へ</h2>
+<p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
+      <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
+      <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
+<p>研究チームは、台湾と同規模の約3.6万平方キロメートルの領域を対象に、1000〜2000機規模の通信妨害装置（ジャマー）を上空に展開することで、Starlinkネットワークを一時的に抑圧できる可能性があると試算している。</p>
+<p>SCMPが確認したのは、中国語の専門誌『系统工程与电子技术（Systems Engineering and Electronics）』に掲載された論文で、中国の軍事工学研究者らが作成したもの。同紙によると、研究者はウクライナ戦争でStarlinkが通信インフラとして軍事作戦を支え続けたことを受け、台湾有事などを想定した電子戦の可能性を分析したという。</p>
+<p>Starlinkは、高度約550kmの低軌道衛星が多数稼働し、自律的に接続先を切り替えるメッシュ型ネットワークを形成している。このため、地上からの単一の妨害では通信を完全に遮断することが難しいとされる。研究チームはそこで、航空機・気球・ドローンなどの空中ジャマー（通信妨害装置）を広範囲に配置する方式を検証し、一定高度で密度の高い妨害グリッドを形成することで、特定エリアのStarlink通信を抑圧できる可能性が示された。</p>
+<p>米技術メディアの<a href="https://www.tomshardware.com/networking/china-simulated-a-starlink-blockade-over-taiwan-ccp-scientists-say-around-1-000-drones-would-be-enough-to-cut-satellite-internet-to-the-island">Tom’s Hardware</a>は、論文のシミュレーション条件を詳細に紹介している。それによれば、ジャマーは高度約20kmに展開し、3〜6マイル間隔で配置することで“電磁シールド”のような妨害グリッドを形成する必要があるとされる。また、高出力装置を搭載した航空機を使う場合は約935ノードで足りる一方、小型ドローンなどの低出力ジャマーでは1000〜2000ノードが必要になるという。</p>
+<p>ただし、数千機規模の空中ジャマーを台湾上空に長時間展開し続けるには、燃料・整備・指揮統制・対空防衛への対応など、多くの運用上の課題が伴う。複数の報道でも、今回の内容はあくまでもシミュレーション研究であり、実際に中国が同規模の演習を行った証拠は確認されていない。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、「Claude Opus 4.5」を発表──ソフトウェア開発・エージェント性能・安全性を強化した最新フラッグシップモデル</title>
+      <link>https://ledge.ai/articles/claude_opus_4_5_release</link>
+      <description><![CDATA[<p>Anthropicは2025年11月24日（米国時間）、最新フラッグシップモデル「Claude Opus 4.5」を<a href="https://www.anthropic.com/news/claude-opus-4-5">発表</a>した。同社はOpus 4.5を「コーディング、エージェント、コンピュータ利用において世界最高水準のモデル」と位置付けており、ソフトウェア開発から長時間のリサーチ、マルチツールを用いたエージェントタスクまで幅広い領域で性能が向上したと説明している。</p>
+<h2>ソフトウェアエンジニアリング分野で主要モデルを上回るスコア</h2>
+<p>Opus 4.5はソフトウェアバグ修正タスクのベンチマークである SWE-bench Verified（n=500） で、正答率80.9％を記録した。これは、前世代モデルのOpus 4.1やSonnet 4.5に加え、他社のフラッグシップモデルであるGemini 3 ProやGPT-5.1 Codex-Maxなどを上回るスコアだという。</p>
+<p><strong>SWE-bench VerifiedにおけるOpus 4.5（左端）の正答率は80.9％と主要モデルを上回った</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_1_2c2dfa96a8/opus4_5_1_2c2dfa96a8.jpg" alt="opus4-5_1.jpg" /></p>
+<h2>総合ベンチマークでも全面的に強化</h2>
+<p>ソフトウェアエンジニアリング以外の評価でも幅広くスコアを伸ばしている。Anthropicが公開した比較表では、エージェント的なコーディング、ターミナル操作、ツール利用、PC操作、さらに大学院レベルの推論（GPQA Diamond）や視覚推論（MMMU）、多言語QA（MMMLU）など、多くの項目でOpus 4.1やSonnet 4.5からスコアを更新していることが示されている。</p>
+<p><strong>Opus 4.5は広範な評価指標で前世代を上回り、複数の領域でSOTA（state of the art）を獲得した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_2_4cb9404311/opus4_5_2_4cb9404311.jpg" alt="opus4-5_2.jpg" /></p>
+<h2>多言語コーディングでも広範に改善</h2>
+<p>Opus 4.5は、SWE-bench Multilingual にも対応し、C / C++ / Go / Java / JS/TS / PHP / Ruby / Rust など8言語で前世代を上回るPASS@1を記録した。</p>
+<p><strong>多言語コーディング評価（SWE-bench Multilingual）。Opus 4.5（赤）は8言語の多くで最高スコアを記録した</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_3_cfc4fb910a/opus4_5_3_cfc4fb910a.jpg" alt="opus4-5_3.jpg" /></p>
+<h2>エージェント行動・PC操作・ツール利用能力も大幅向上</h2>
+<p>Opus 4.5は、エージェント行動やマルチツールを扱うタスクでも大幅に性能を向上させている。</p>
+<ul>
+<li>Terminal-bench 2.0（ターミナル操作）で59.3％</li>
+<li>t2-bench（ツール利用）でRetail 88.9％、Telecom 98.2％</li>
+<li>OSWorld（PC操作）で66.3％</li>
+</ul>
+<p>これらのスコアは前世代からの大きな改善で、実務的なエージェントタスクに必要な能力が全体的に底上げされている。</p>
+<p><strong>Sonnet 4.5 vs Opus 4.5 のパズル解法デモ</strong>
+Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet 4.5とOpus 4.5に同じパズルゲームを解かせた」デモ動画も公開している。Opus 4.5は条件制約のある環境でも自律的に手順を探索し、より安定してクリアする様子が示されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=2MJDdzSXL74">YouTube</a></p>
+<h2>安全性評価：「懸念行動」を抑えたモデル設計</h2>
+<p>AnthropicはOpus 4.5を「安全性に最も優れたモデル」と位置付けている。内部評価では、危険行動や望ましくない自律動作につながる可能性を測る Concerning behavior（懸念行動） の指標で、Opus 4.5が最も低い値となった。</p>
+<p><strong>懸念行動の内部評価。Opus 4.5が最も低く、安全性指標で優位性を示す</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_4_b32e228495/opus4_5_4_b32e228495.jpg" alt="opus4-5_4.jpg" /></p>
+<h2>プロンプトインジェクション攻撃への耐性</h2>
+<p>外部評価機関Gray Swanによる強力なプロンプトインジェクション攻撃テストでも、Opus 4.5は攻撃成功率が最も低く抑えられた。Gemini 3 Pro Thinking、GPT-5.1 Thinking、Haiku 4.5 Thinkingなどと比較しても、相対的に高い安全性が確認されている。</p>
+<p><strong>プロンプトインジェクション攻撃への耐性（低いほど安全）。Opus 4.5 Thinkingが最も低い攻撃成功率を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_5_c58f60c1ea/opus4_5_5_c58f60c1ea.webp" alt="opus4-5_5.webp" /></p>
+<h2>長時間タスクとツール連携を支える「advanced tool use」</h2>
+<p>今回の発表では「advanced tool use」についても触れられている。これはDeveloper Platformにおける機能群で</p>
+<ul>
+<li>必要なタイミングでツール定義を検索・読み込む <strong>Tool Search Tool</strong></li>
+<li>Pythonコードの中で複数のツールを連携させる <strong>Programmatic Tool Calling</strong>
+などにより、長時間タスクや複数ツールを扱うエージェントの効率を高める。</li>
+</ul>
+<p>Opus 4.5はこうした基盤を前提に設計されており、企業利用・実務エージェント運用への対応を強化したモデルと位置付けられる。</p>
+<p>AnthropicはOpus 4.5の開発背景や設計思想をまとめた公式動画も公開している。同社が強調する「エージェント運用」「高い安全性」「コーディング性能の向上」といったポイントを視覚的に確認できる。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
+      <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
+      <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
+<h2>“自分の分身”を作り、その議論を観察するという新しい構図</h2>
+<p>研究が扱ったのは、次の3つの視点の中間に位置する体験である。</p>
+<ul>
+<li>一次的視点（First-person）：自分が他者と直接対話する</li>
+<li>三人称視点（Third-person）：第三者同士の会話を観察する</li>
+<li>今回の視点（AI-mediated）：自分を反映した「Digital Me」が他人の「Digital You」と議論し、その様子を本人が観察する</li>
+</ul>
+<p>実験では、学生が自ら設計した分身AIが、自律的に討論を展開する。設計者の価値観や思考は反映されるが、議論の流れは完全には制御できない。この「似ているが、完全な自分ではない」という距離感が、客観的な自己観察を可能にするという。</p>
+<p><strong>コミュニケーション構造の比較図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_7_2d4879fc05/x2_7_2d4879fc05.png" alt="x2 (7).png" /></p>
+<h2>Digital Human Debates（DHD）の設計：プロンプトとRAGで“自分”を埋め込む</h2>
+<p>参加したのは中高生9名（3チーム）。それぞれが6か月にわたり、自分の分身AIを次の3要素で設計した。</p>
+<ul>
+<li>system_prompt_template.txt：性格・口調・議論戦略・思考様式</li>
+<li>interview_transcript.txt：個人の価値観・経験・背景</li>
+<li>Documents（RAG 文書）：議論に利用する外部知識（両立場の資料を収集）</li>
+</ul>
+<p>システムは GPT-4o と LangChain を基盤に構築され、音声入力→議論生成→音声合成→Lip-sync 動画生成までを自動化。</p>
+<p><strong>システム構成図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_1_5978703b2d/x4_1_5978703b2d.png" alt="x4 (1).png" /></p>
+<h2>どのように討論したのか</h2>
+<p>議論のトピックは、以下の4種類からルーレットでランダム選択された。</p>
+<ul>
+<li>高齢者の免許返納</li>
+<li>リモートワークの恒久化</li>
+<li>安楽死の合法化</li>
+<li>ベーシックインカムの導入</li>
+</ul>
+<p>討論は約20分。Constructive speech、Cross-examination、Rebuttal など、全国高校ディベート選手権の形式に準じて進行し、勝敗は3名の審査員が判定した。</p>
+<p><strong>討論フロー図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_3_aa3dfafba5/x5_3_aa3dfafba5.png" alt="x5 (3).png" /></p>
+<p>また、実際の議論分析では、分身AIの発話は以下の3層で構成されていたことが確認された。</p>
+<ul>
+<li>Personal Context：学生本人の経験や価値観（例：留学経験）</li>
+<li>RAG-sourced Evidence：外部文書を参照した事実情報</li>
+<li>AI-generated Insight：LLM が独自に構築した新しい主張・質問</li>
+</ul>
+<p><strong>発話構成の三層分析図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_2_ebcfc4cb09/x6_2_ebcfc4cb09.png" alt="x6 (2).png" /></p>
+<h2>発見1：AIが“自分の代わり”ではなく“自分の鏡”として機能する</h2>
+<p>論文で最も強調されている成果は、参加者が 「Reflecting with AI」 と呼ばれる新たな学習体験を得た点である。</p>
+<h3>「自分が話すより冷静に見られる」</h3>
+<p>AIが自分の価値観を用いて議論するものの、その展開は必ずしも本人の想定どおりではない。
+この“半自律性”が、次のような客観視を可能にした。</p>
+<ul>
+<li>「私は衝動的に話しがちだと気づいた」</li>
+<li>「AIの方が論理がブレず、どこが弱いのかがわかった」</li>
+</ul>
+<p>参加者は AI の議論を自分とは別の存在として受け止めつつ、「しかし自分の思考が反映されている」と感じる。この微妙な距離感が、強いメタ認知効果を生んだという。</p>
+<h2>発見2：プロンプト設計の違いが“AIの人格”に明確に表れる</h2>
+<p>3チームのアプローチは大きく異なり、プロンプト設計の個性が発話に直接反映された。</p>
+<ul>
+<li><strong>Team A：徹底したキャラクター設計</strong> 「認知停止を破壊する」というテーマを持つ強烈な人格を設定し、攻撃的な論法を組み込んだ。</li>
+<li><strong>Team B：繰り返し修正する“チューニング型</strong> 芥川龍之介やガンジーなど歴史人物をモチーフに、AIの出力を評価→修正する反復設計を採用。</li>
+<li><strong>Team C：最小限の人格＋大量の論拠データ</strong> キャラ設定は控えめにし、RAGで大量の論理情報を与える“ロジック重視”型。</li>
+</ul>
+<p>いずれも、設計者の価値観や思考癖がそのままAIのふるまいに組み込まれていたという。</p>
+<h2>発見3：AIリテラシー全体をカバーする学習効果</h2>
+<p>研究チームは、今回の取り組みを“ジェネレーティブAIリテラシーの実践的な総合モデル”と位置づけている。
+実際、参加者は以下の能力を幅広く活用していた。</p>
+<ul>
+<li>モデル特性の理解</li>
+<li>論拠の収集と検証</li>
+<li>プロンプト設計</li>
+<li>出力の評価と改善</li>
+<li>自己の思考の客観視（Reflecting with AI）</li>
+</ul>
+<p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
+<p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
+      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
+      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
+<h2>AI教育の中核を担う新サイト</h2>
+<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
+<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
+<h2>3000超のコースと実践的ラボを集約</h2>
+<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
+<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
+<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
+公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
+同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/11/21 [FRI]LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
+      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
+      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
+<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
+<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
+<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
+これらは</p>
+<ul>
+<li>誤情報</li>
+<li>攻撃的な表現</li>
+<li>情報量の乏しい短文</li>
+</ul>
+<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
+<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
+<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
+<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
+<ul>
+<li>テキストの品質（semantic quality）</li>
+<li>エンゲージメント（人気度）</li>
+</ul>
+<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
+評価には、</p>
+<ul>
+<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
+<li>長文コンテキスト理解（RULER）</li>
+<li>安全性（有害発言誘発テスト）</li>
+<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
+</ul>
+<p>が利用された。</p>
+<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
+<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
+<p>この “劣化の全体像” は、下図のように整理されている。</p>
+<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
+低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
+<p>この図が示すように、</p>
+<ul>
+<li>ARC Challenge</li>
+<li>RULER</li>
+<li>HH-RLHF（安全性関連）</li>
+</ul>
+<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
+<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
+<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
+低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
+<p>この図が表している通り、</p>
+<ul>
+<li>no thinking（思考が全く行われない）</li>
+<li>wrong logic in plan（計画の論理破綻）</li>
+<li>factual error（事実誤認）</li>
+</ul>
+<p>などの“思考の崩壊”が顕著に増加している。</p>
+<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
+<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
+<ul>
+<li>有害な発言を誘発しやすくなる</li>
+<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
+<li>不正確な主張を自信満々に述べるケースが増える</li>
+</ul>
+<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
+<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
+<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
+研究者らはこの仮説も検証した。</p>
+<p>結果は次の通り。</p>
+<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
+ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
+<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
+研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
+<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
+<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
+<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
+<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
+<p>研究チームは、</p>
+<ul>
+<li>データ品質フィルタリングの強化</li>
+<li>SNS由来データの評価と管理</li>
+<li>「Brain Rot」兆候の定期的検査</li>
+</ul>
+<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
+<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、「SAM 3」を発表──テキストや画像例をプロンプトに、画像・動画内の物体を一括検出・分割・追跡　併せて「SAM 3D」で人物・物体の3D生成にも対応</title>
+      <link>https://ledge.ai/articles/meta_sam3_sam3d_release</link>
+      <description><![CDATA[<p>Metaは2025年11月19日（現地時間）、画像および動画に含まれるオブジェクトを、プロンプトを基点に一括で検出・分割・追跡できる新モデル「Segment Anything Model 3（SAM 3）」を<a href="https://ai.meta.com/blog/segment-anything-model-3/">発表</a>した。同日、2D画像から人物や物体の3Dモデルを生成する「SAM 3D」も<a href="https://ai.meta.com/blog/sam-3d/">公開</a>している。</p>
+<p>Metaの公式Xアカウント（@AIatMeta）は、両モデルを「新しい世代のSegment Anything Models」と<a href="https://x.com/AIatMeta/status/1991178519557046380">紹介</a>し、開発者・研究者向けのメディアワークフローを大きく拡張するとしている。</p>
+<h2>SAM3：プロンプトから“概念”ベースで検出・分割・追跡</h2>
+<p>SAM 3は、短いテキストフレーズ（例：「yellow school bus」）や、画像内のサンプルオブジェクトを示す “example prompt” を入力すると、該当するすべてのオブジェクトを一括して検出・分割し、動画では継続的に追跡できるモデル。Metaはこれを「Promptable Concept Segmentation（PCS）」と定義している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=G4OLPDjwncw">Youtube</a></p>
+<p>アーキテクチャは、DETRベースの画像検出器と、SAM 2を基盤とした動画トラッカーを単一バックボーンに統合したもの。論文(https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/)では、認識と位置特定を切り離す“Presence Head”を新たに採用し、概念ベースの検出精度を向上させたと説明されている。</p>
+<p><strong>SAM 3は、テキストプロンプトを用いた検出と追跡を単一アーキテクチャで統合する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SAM_3_architecture_overview_0af9a61c98/SAM_3_architecture_overview_0af9a61c98.jpg" alt="SAM 3 architecture overview.jpg" /></p>
+<h2>400万概念を含む新データセット「SA-Co」</h2>
+<p>SAM 3の開発にあたり、Metaは大規模データセット「<a href="https://github.com/facebookresearch/sam3/blob/main/README.md#sa-co-dataset">SA-Co（Segment Anything with Concepts）</a>」を新たに構築した。SA-Coは、数百万枚規模の高品質画像と約400万のユニーク概念、数千万のマスク情報を含むもので、モデルが幅広い概念を学習できるよう設計されている。</p>
+<p>論文で示されたベンチマーク「SA-Co/Gold」では20万以上の概念を評価対象とし、SAM 3はLVISのゼロショットMask APで48.8を記録。従来モデル（38.5）を大きく上回った。</p>
+<p><strong>SA-Coは、画像中の多様な物体を高精度にラベル付けする大規模データセット。色ごとに異なる概念カテゴリが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SA_Co_907d839e43/SA_Co_907d839e43.jpg" alt="SA-Co.jpg" /></p>
+<p>SAM 3は、Metaの研究用ウェアラブルデバイス「<a href="https://ledge.ai/articles/meta_aria_gen2_ai_research">Aria Gen 2</a>」で撮影された一人称視点の映像に対しても高い性能を示す。動きの速さや視点の揺れが大きいファーストパーソン映像でも、対象物の分割と追跡を安定して行える点が特徴だ。</p>
+<p>Metaは、Aria Gen 2 Pilot Datasetの一部を<a href="https://www.aidemos.meta.com/segment-anything">Segment Anything Playground</a>上で公開しており、これにより、人間の視点から世界を理解する“コンテクスチュアルAI”や、ロボティクス、機械知覚といった応用領域におけるSAM 3の有用性を示している。</p>
+<h2>SAM 3D：1枚の画像から人物・物体の3Dモデルを生成</h2>
+<p>同時に公開された「SAM 3D」は、人物に特化した「SAM 3D Body」と一般物体向けの「SAM 3D Objects」から構成される。Metaは、単一の2D画像から高精度で3D形状を復元でき、テクスチャとメッシュの情報を従来手法より忠実に再現できる点を強調している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=B7PZuM55ayc">Youtube</a></p>
+<h2>2D解析から3D復元までを一貫化</h2>
+<p>Metaは、SAM 3とSAM 3Dをセットで発表することで、画像・動画内のオブジェクト理解（SAM 3）から3D形状復元（SAM 3D）までを一貫して扱える視覚AI基盤を提示した。動画編集、AR/VR、ロボティクス、ECなど、多数の応用領域で利用可能性があるとしている。</p>
+<p>公式Xでは、今回の発表を「新しい世代のSegment Anything Models」と説明し、SAM 3 と SAM 3D が画像・動画・3Dを横断する基盤技術として進化した点を強調している。投稿では、短いテキスト指示や具体例となる画像を用いた物体の検出・分割・追跡（SAM 3）、そして単一画像から人物や物体の3Dモデルを生成する機能（SAM 3D）が紹介され、「開発者と研究者が新しいメディア処理ワークフローを構築するためのツール」と位置づけている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/segment_anything_models_921509ea34/segment_anything_models_921509ea34.jpg" alt="segment anything models.jpg" /></p>
+<p>:::box
+[関連記事：AIの\</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
+      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
+した。</p>
+<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
+<h2>安全を優先してきたChatGPTの制限</h2>
+<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
+アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
+「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
+<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
+<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
+GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
+アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
+<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
+<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
+一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
+<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
+<h2>倫理と自由の境界線</h2>
+<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
+<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
+      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
+      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
+<h2>気象予報の高速化と高解像度化</h2>
+<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
+<h2>数百のシナリオ生成に対応</h2>
+<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
+<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
+<h2>研究成果の提供範囲を拡大</h2>
+<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
+<ul>
+<li>Earth Engine：気象データ分析向け</li>
+<li>BigQuery：予測データの活用拡大</li>
+<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
+</ul>
+<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
+<h2>Googleサービス全般の天気機能を更新</h2>
+<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
+<ul>
+<li>Google検索</li>
+<li>Gemini</li>
+<li>Pixel Weather</li>
+<li>Google Maps Platform の Weather API</li>
+</ul>
+<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
+<h2>技術基盤：Functional Generative Networks（FGN）</h2>
+<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
+<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
+<h2>従来モデルの補完としての位置づけ</h2>
+<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
+<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
 ]]></description>
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
@@ -355,385 +700,6 @@ AIが制作の基本工程となる時代に、どのような開示ルールが
       <pubDate>Mon, 24 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
-      <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
-      <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
-<h2>仕様に基づく開発を強化：プロパティベーステストに対応</h2>
-<p>Kiroの正式版では、仕様と実装の整合性を検証するための「プロパティベーステスト（property-based testing）」が導入された。開発者がEARS形式で記述した仕様から、Kiroがテストすべき“性質（プロパティ）”を自動抽出し、数百〜数千のランダムテストを生成して実装を検証する仕組みだ。反例が見つかった場合は、原因特定のため条件を徐々に単純化する「縮小（shrinking）」も実行される。</p>
-<p>これにより、個別のテストケースでは検出しづらい欠陥を発見しやすくなり、仕様ベースでの正確な実装を支援する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/correctness_f57a485373/correctness_f57a485373.png" alt="correctness.png" />
-Kiro IDEが生成したプロパティベーステストの例。仕様から抽出した“チケットIDが常に一意であること”という性質を可視化し、関連する要件・実装タスク・テスト結果を紐づけて表示する。</p>
-<h2>チェックポイントで開発プロセスを巻き戻し可能に</h2>
-<p>一般提供版では、エージェントが行った操作や変更内容を段階的に保存する「チェックポイント」機能を追加した。エージェントの提案やコード修正を進めた後でも、必要に応じて任意の状態へ戻れるため、実装方針の変更や手戻りが発生した際のコストを抑えられる。</p>
-<p>また、1つのKiroワークスペースで複数のプロジェクトルートを扱える「マルチルート」構成にも対応し、マイクロサービスやモノレポなど複雑な構成の開発にも利用できる。</p>
-<h2>IDEとターミナルを共通化する「Kiro CLI」</h2>
-<p>正式版の大きな追加点として、ターミナルで利用できる「Kiro CLI」が提供された。開発者は、IDE と同じエージェント環境をターミナルでもそのまま利用でき、Claude Sonnet 4.5 や Haiku 4.5 などのモデル、Autoエージェント、MCP（Model Context Protocol）ツールによるローカル操作やAPI呼び出しも実行できる。</p>
-<p>CLIとIDEは同一のステアリングファイルや認証情報、コンテキストを共有するため、開発環境を切り替えても同じワークフローを継続できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cli_5921207104/cli_5921207104.png" alt="cli.png" />
-一般提供版で新たに追加された「Kiro CLI」。IDEと同じエージェント環境をターミナルでも利用でき、AutoエージェントやMCPツールによる操作が可能になる。</p>
-<h2>AWS IAM連携のチーム管理と、スタートアップ向け1年無償プラン</h2>
-<p>Kiroは、AWS IAM Identity Centerと統合され、組織アカウントによるログインや、Pro／Pro+／Powerティアの利用制限、MCP設定、請求管理などをAWS側で一元的に管理できる。</p>
-<p>また、シリーズBまでの対象スタートアップには「Kiro Pro+」を1年間無償提供するオファーを開始した。既存のAWS Activateクレジットと併用可能で、2025年12月31日まで申請を受け付ける。</p>
-<h2>“AI駆動開発”の基盤へ</h2>
-<p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、「Claude Opus 4.5」を発表──ソフトウェア開発・エージェント性能・安全性を強化した最新フラッグシップモデル</title>
-      <link>https://ledge.ai/articles/claude_opus_4_5_release</link>
-      <description><![CDATA[<p>Anthropicは2025年11月24日（米国時間）、最新フラッグシップモデル「Claude Opus 4.5」を<a href="https://www.anthropic.com/news/claude-opus-4-5">発表</a>した。同社はOpus 4.5を「コーディング、エージェント、コンピュータ利用において世界最高水準のモデル」と位置付けており、ソフトウェア開発から長時間のリサーチ、マルチツールを用いたエージェントタスクまで幅広い領域で性能が向上したと説明している。</p>
-<h2>ソフトウェアエンジニアリング分野で主要モデルを上回るスコア</h2>
-<p>Opus 4.5はソフトウェアバグ修正タスクのベンチマークである SWE-bench Verified（n=500） で、正答率80.9％を記録した。これは、前世代モデルのOpus 4.1やSonnet 4.5に加え、他社のフラッグシップモデルであるGemini 3 ProやGPT-5.1 Codex-Maxなどを上回るスコアだという。</p>
-<p><strong>SWE-bench VerifiedにおけるOpus 4.5（左端）の正答率は80.9％と主要モデルを上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_1_2c2dfa96a8/opus4_5_1_2c2dfa96a8.jpg" alt="opus4-5_1.jpg" /></p>
-<h2>総合ベンチマークでも全面的に強化</h2>
-<p>ソフトウェアエンジニアリング以外の評価でも幅広くスコアを伸ばしている。Anthropicが公開した比較表では、エージェント的なコーディング、ターミナル操作、ツール利用、PC操作、さらに大学院レベルの推論（GPQA Diamond）や視覚推論（MMMU）、多言語QA（MMMLU）など、多くの項目でOpus 4.1やSonnet 4.5からスコアを更新していることが示されている。</p>
-<p><strong>Opus 4.5は広範な評価指標で前世代を上回り、複数の領域でSOTA（state of the art）を獲得した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_2_4cb9404311/opus4_5_2_4cb9404311.jpg" alt="opus4-5_2.jpg" /></p>
-<h2>多言語コーディングでも広範に改善</h2>
-<p>Opus 4.5は、SWE-bench Multilingual にも対応し、C / C++ / Go / Java / JS/TS / PHP / Ruby / Rust など8言語で前世代を上回るPASS@1を記録した。</p>
-<p><strong>多言語コーディング評価（SWE-bench Multilingual）。Opus 4.5（赤）は8言語の多くで最高スコアを記録した</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_3_cfc4fb910a/opus4_5_3_cfc4fb910a.jpg" alt="opus4-5_3.jpg" /></p>
-<h2>エージェント行動・PC操作・ツール利用能力も大幅向上</h2>
-<p>Opus 4.5は、エージェント行動やマルチツールを扱うタスクでも大幅に性能を向上させている。</p>
-<ul>
-<li>Terminal-bench 2.0（ターミナル操作）で59.3％</li>
-<li>t2-bench（ツール利用）でRetail 88.9％、Telecom 98.2％</li>
-<li>OSWorld（PC操作）で66.3％</li>
-</ul>
-<p>これらのスコアは前世代からの大きな改善で、実務的なエージェントタスクに必要な能力が全体的に底上げされている。</p>
-<p><strong>Sonnet 4.5 vs Opus 4.5 のパズル解法デモ</strong>
-Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet 4.5とOpus 4.5に同じパズルゲームを解かせた」デモ動画も公開している。Opus 4.5は条件制約のある環境でも自律的に手順を探索し、より安定してクリアする様子が示されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=2MJDdzSXL74">YouTube</a></p>
-<h2>安全性評価：「懸念行動」を抑えたモデル設計</h2>
-<p>AnthropicはOpus 4.5を「安全性に最も優れたモデル」と位置付けている。内部評価では、危険行動や望ましくない自律動作につながる可能性を測る Concerning behavior（懸念行動） の指標で、Opus 4.5が最も低い値となった。</p>
-<p><strong>懸念行動の内部評価。Opus 4.5が最も低く、安全性指標で優位性を示す</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_4_b32e228495/opus4_5_4_b32e228495.jpg" alt="opus4-5_4.jpg" /></p>
-<h2>プロンプトインジェクション攻撃への耐性</h2>
-<p>外部評価機関Gray Swanによる強力なプロンプトインジェクション攻撃テストでも、Opus 4.5は攻撃成功率が最も低く抑えられた。Gemini 3 Pro Thinking、GPT-5.1 Thinking、Haiku 4.5 Thinkingなどと比較しても、相対的に高い安全性が確認されている。</p>
-<p><strong>プロンプトインジェクション攻撃への耐性（低いほど安全）。Opus 4.5 Thinkingが最も低い攻撃成功率を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_5_c58f60c1ea/opus4_5_5_c58f60c1ea.webp" alt="opus4-5_5.webp" /></p>
-<h2>長時間タスクとツール連携を支える「advanced tool use」</h2>
-<p>今回の発表では「advanced tool use」についても触れられている。これはDeveloper Platformにおける機能群で</p>
-<ul>
-<li>必要なタイミングでツール定義を検索・読み込む <strong>Tool Search Tool</strong></li>
-<li>Pythonコードの中で複数のツールを連携させる <strong>Programmatic Tool Calling</strong>
-などにより、長時間タスクや複数ツールを扱うエージェントの効率を高める。</li>
-</ul>
-<p>Opus 4.5はこうした基盤を前提に設計されており、企業利用・実務エージェント運用への対応を強化したモデルと位置付けられる。</p>
-<p>AnthropicはOpus 4.5の開発背景や設計思想をまとめた公式動画も公開している。同社が強調する「エージェント運用」「高い安全性」「コーディング性能の向上」といったポイントを視覚的に確認できる。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
-      <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
-      <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
-<h2>“自分の分身”を作り、その議論を観察するという新しい構図</h2>
-<p>研究が扱ったのは、次の3つの視点の中間に位置する体験である。</p>
-<ul>
-<li>一次的視点（First-person）：自分が他者と直接対話する</li>
-<li>三人称視点（Third-person）：第三者同士の会話を観察する</li>
-<li>今回の視点（AI-mediated）：自分を反映した「Digital Me」が他人の「Digital You」と議論し、その様子を本人が観察する</li>
-</ul>
-<p>実験では、学生が自ら設計した分身AIが、自律的に討論を展開する。設計者の価値観や思考は反映されるが、議論の流れは完全には制御できない。この「似ているが、完全な自分ではない」という距離感が、客観的な自己観察を可能にするという。</p>
-<p><strong>コミュニケーション構造の比較図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_7_2d4879fc05/x2_7_2d4879fc05.png" alt="x2 (7).png" /></p>
-<h2>Digital Human Debates（DHD）の設計：プロンプトとRAGで“自分”を埋め込む</h2>
-<p>参加したのは中高生9名（3チーム）。それぞれが6か月にわたり、自分の分身AIを次の3要素で設計した。</p>
-<ul>
-<li>system_prompt_template.txt：性格・口調・議論戦略・思考様式</li>
-<li>interview_transcript.txt：個人の価値観・経験・背景</li>
-<li>Documents（RAG 文書）：議論に利用する外部知識（両立場の資料を収集）</li>
-</ul>
-<p>システムは GPT-4o と LangChain を基盤に構築され、音声入力→議論生成→音声合成→Lip-sync 動画生成までを自動化。</p>
-<p><strong>システム構成図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x4_1_5978703b2d/x4_1_5978703b2d.png" alt="x4 (1).png" /></p>
-<h2>どのように討論したのか</h2>
-<p>議論のトピックは、以下の4種類からルーレットでランダム選択された。</p>
-<ul>
-<li>高齢者の免許返納</li>
-<li>リモートワークの恒久化</li>
-<li>安楽死の合法化</li>
-<li>ベーシックインカムの導入</li>
-</ul>
-<p>討論は約20分。Constructive speech、Cross-examination、Rebuttal など、全国高校ディベート選手権の形式に準じて進行し、勝敗は3名の審査員が判定した。</p>
-<p><strong>討論フロー図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x5_3_aa3dfafba5/x5_3_aa3dfafba5.png" alt="x5 (3).png" /></p>
-<p>また、実際の議論分析では、分身AIの発話は以下の3層で構成されていたことが確認された。</p>
-<ul>
-<li>Personal Context：学生本人の経験や価値観（例：留学経験）</li>
-<li>RAG-sourced Evidence：外部文書を参照した事実情報</li>
-<li>AI-generated Insight：LLM が独自に構築した新しい主張・質問</li>
-</ul>
-<p><strong>発話構成の三層分析図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_2_ebcfc4cb09/x6_2_ebcfc4cb09.png" alt="x6 (2).png" /></p>
-<h2>発見1：AIが“自分の代わり”ではなく“自分の鏡”として機能する</h2>
-<p>論文で最も強調されている成果は、参加者が 「Reflecting with AI」 と呼ばれる新たな学習体験を得た点である。</p>
-<h3>「自分が話すより冷静に見られる」</h3>
-<p>AIが自分の価値観を用いて議論するものの、その展開は必ずしも本人の想定どおりではない。
-この“半自律性”が、次のような客観視を可能にした。</p>
-<ul>
-<li>「私は衝動的に話しがちだと気づいた」</li>
-<li>「AIの方が論理がブレず、どこが弱いのかがわかった」</li>
-</ul>
-<p>参加者は AI の議論を自分とは別の存在として受け止めつつ、「しかし自分の思考が反映されている」と感じる。この微妙な距離感が、強いメタ認知効果を生んだという。</p>
-<h2>発見2：プロンプト設計の違いが“AIの人格”に明確に表れる</h2>
-<p>3チームのアプローチは大きく異なり、プロンプト設計の個性が発話に直接反映された。</p>
-<ul>
-<li><strong>Team A：徹底したキャラクター設計</strong> 「認知停止を破壊する」というテーマを持つ強烈な人格を設定し、攻撃的な論法を組み込んだ。</li>
-<li><strong>Team B：繰り返し修正する“チューニング型</strong> 芥川龍之介やガンジーなど歴史人物をモチーフに、AIの出力を評価→修正する反復設計を採用。</li>
-<li><strong>Team C：最小限の人格＋大量の論拠データ</strong> キャラ設定は控えめにし、RAGで大量の論理情報を与える“ロジック重視”型。</li>
-</ul>
-<p>いずれも、設計者の価値観や思考癖がそのままAIのふるまいに組み込まれていたという。</p>
-<h2>発見3：AIリテラシー全体をカバーする学習効果</h2>
-<p>研究チームは、今回の取り組みを“ジェネレーティブAIリテラシーの実践的な総合モデル”と位置づけている。
-実際、参加者は以下の能力を幅広く活用していた。</p>
-<ul>
-<li>モデル特性の理解</li>
-<li>論拠の収集と検証</li>
-<li>プロンプト設計</li>
-<li>出力の評価と改善</li>
-<li>自己の思考の客観視（Reflecting with AI）</li>
-</ul>
-<p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
-<p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、「Gemini 3」を正式発表──推論・マルチモーダル性能を強化した最新モデル、本日より提供開始</title>
-      <link>https://ledge.ai/articles/gemini_3_google_launch</link>
-      <description><![CDATA[<p>Googleは2025年11月18日（米国時間）、生成AIサービス「Gemini」において最新のAIモデル群「Gemini 3」の中核となる「Gemini 3 Pro」のプレビュー提供を開始したと公式ブログで<a href="https://blog.google/products/gemini/gemini-3/">発表</a>した。</p>
-<p>同モデルを「our most intelligent model yet（これまでで最も知的なモデル）」と位置づけ、推論能力、マルチモーダル理解、コード生成などを大幅に強化。Geminiアプリや開発者向けAPI、Google製品群への展開もあわせて示し、次世代AI基盤として同社の戦略を前進させる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=98DcoXwGX6I">YouTube</a></p>
-<h2>ベンチマークはGemini 2.5 Proを全項目で上回る</h2>
-<p>GoogleはGemini 3 Proが「主要ベンチマークのすべてでGemini 2.5 Proを上回った」と説明している。
-具体的には以下の例を挙げた。</p>
-<ul>
-<li>LMArena：Elo 1501</li>
-<li>Humanity’s Last Exam：ツール非使用で37.5%</li>
-<li>GPQA Diamond：91.9%</li>
-<li>MathArena Apex：23.4%</li>
-</ul>
-<p>マルチモーダル分野でも、MMMU-Proで81%、Video-MMUで87.6%、SimpleQA Verifiedで72.1%など、幅広い領域で高い性能が示されている。Googleはこれらの結果を「科学・数学・事実性など、知識領域をまたぐモデルの信頼性向上の証拠」と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_table_final_HLE_Tools_on_731f6cc1a4/gemini_3_table_final_HLE_Tools_on_731f6cc1a4.jpg" alt="gemini_3_table_final_HLE_Tools_on.jpg" /></p>
-<h2>Deep Thinkモードも発表──高度推論向けに拡張</h2>
-<p>Gemini 3には、新たに「Deep Thinkモード」が追加される。これは高度な推論・意思決定・マルチステップ推論を必要とするタスク向けに最適化した拡張モードで、Gemini 3 Proの上位に位置づけられる。</p>
-<p>Deep Thinkモードは、以下のように通常のGemini 3 Proを上回るスコアを示した。</p>
-<ul>
-<li>Humanity’s Last Exam：41.0%</li>
-<li>GPQA Diamond：93.8%</li>
-<li>ARC-AGI-2（コード実行あり）：45.1%</li>
-</ul>
-<p>提供に先立ち、安全性テストと外部専門家による評価を経て、Google AI Ultra加入者向けに段階的に公開される予定だ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/final_dt_blog_evals_2_33b1154911/final_dt_blog_evals_2_33b1154911.jpg" alt="final_dt_blog_evals_2.jpg" /></p>
-<h2>Searchにも同日から導入──「AI Mode」でGenerative UIを採用</h2>
-<p>Gemini 3は発表当日からGoogle検索の「AI Mode」に採用された。GeminiモデルがSearchに同日から搭載されるのは今回が初となる。</p>
-<p>AI Modeでは、検索クエリに応じて生成される「Generative UI」を導入。地図、一覧表、画像レイアウト、ツールシミュレーションなど、検索内容に合わせたインタラクティブな表示が自動生成される。Googleはこれを「従来の検索を超えて、発見・理解・計画を支援する体験」と説明している。</p>
-<p>Geminiアプリでも、デフォルトモデルがGemini 3 Proとなり、長文コンテキスト（最大100万トークン）やマルチモーダル推論を活かした学習支援・要約・説明などの機能が強化された。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/A_Imode_d2647e4cb3/A_Imode_d2647e4cb3.jpg" alt="AImode.jpg" /></p>
-<h2>開発者向けにはAI Studio・Vertex AI・新IDE「Google Antigravity」を提供</h2>
-<p>Gemini 3 Proは、以下の開発者向けツールで利用可能になる。</p>
-<ul>
-<li>Google AI Studio（Gemini API）</li>
-<li>Vertex AI</li>
-<li>Gemini CLI</li>
-<li>Google Antigravity（新エージェント指向IDE）</li>
-<li>Cursor、GitHub、JetBrains、Replitなど一部のサードパーティ環境</li>
-</ul>
-<p>特に「Google Antigravity」はGemini 3を前提とした“エージェント・ファースト”の開発環境で、エージェントがコードエディタ・ブラウザ・ターミナルに直接アクセスし、タスクを自律的に進める仕組みを採用する。</p>
-<p>@<a href="https://youtu.be/22B5Yu0oVS0">YouTube</a></p>
-<p>企業向けには「Gemini Enterprise」やVertex AIを通じた導入が開始され、Google Cloud顧客にも順次展開される。</p>
-<h2>長期計画のタスクでもトップスコアを記録</h2>
-<p>Googleは、長期計画タスクのベンチマーク「<a href="https://andonlabs.com/evals/vending-bench-arena">Vending-Bench 2</a>」でGemini 3がトップスコアを記録したと説明する。</p>
-<p>また、1年分のシミュレーションで安定した意思決定とツール利用が確認されたとしており、今後予定される「Gemini Agent」機能（例：メール整理、予約手続きなどマルチステップの実行支援）の基盤になるとした。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vending_bench_2_final_width_1000_format_webp_40e02b2245/vending_bench_2_final_width_1000_format_webp_40e02b2245.webp" alt="vending_bench_2_final.width-1000.format-webp.webp" /></p>
-<h2>「最も安全なモデル」として開発──シコファンシー耐性・プロンプトインジェクション対策を強化</h2>
-<p>GoogleはGemini 3を「Google史上最も安全なモデル」と表現し、以下の改善を挙げた。</p>
-<ul>
-<li>迎合的な回答（シコファンシー）の抑制</li>
-<li>プロンプトインジェクション耐性の向上</li>
-<li>サイバー攻撃・悪用に対する防御強化</li>
-</ul>
-<p>また、Frontier Safety Frameworkに基づく内部評価に加え、UK AISIなどの外部機関や独立した専門家によるアセスメントを受けたとしている。「Gemini 3 model card」には詳細な安全性情報がまとめられている。</p>
-<h2>今後はDeep Thinkの段階的提供、追加モデルの投入も</h2>
-<p>Gemini 3 Proは18日から、Search・Geminiアプリ・AI Studio・Antigravity・Vertex AIなど複数のプロダクトで利用可能となった。今後はDeep Thinkモードが安全性評価を経てGoogle AI Ultra加入者に提供されるほか、Gemini 3シリーズとして追加モデルも順次投入される計画だという。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成AI画像に“著作権”成立と判断　千葉県警、無断複製で27歳男を書類送致──全国初の摘発</title>
-      <link>https://ledge.ai/articles/gen_ai_image_copyright_case_chiba_police</link>
-      <description><![CDATA[<p>千葉県警生活経済課は2025年11月20日、生成AIで作成された画像を無断で複製したとして、神奈川県大和市の無職の男性（27）を著作権法違反（複製権侵害）の疑いで千葉地検に書類送致したと<a href="https://www.police.pref.chiba.jp/kohoka/orders_prefecture_03461.html">発表</a>した。県警によれば、生成AIで作られた画像を著作物として扱い、著作権法違反で摘発するのは全国で初めてとみられる。</p>
-<p>事件は8月25日昼頃に発生。男性は、千葉県我孫子市の男性が生成AIを用いて制作し、SNSに投稿していたコンピューターグラフィックスを、著作権者の承諾を得ずに外部サーバーへ送信し複製した疑いが持たれている。県警は、被害者が生成過程で入力した多数のプロンプト（指示）や内容、表現に至るまでの過程を確認し、創作性のある表現が認められるとして著作物性を判断した。</p>
-<p>報道によれば、容疑者は複製した画像を自身が販売する電子書籍の表紙として使用していたとされる。容疑者は「作品に合う素材だった」と供述しているという。県警は、被害者が画像生成において具体的な指示を重ね、独自の表現に到達していた点を踏まえ、無断複製が著作権法上の侵害に当たると判断した。</p>
-<p>著作権法では、人の創作的関与によって生まれた表現が保護の対象となる。生成AIが作成した画像については、どの程度の人間による関与が「創作性」として評価されるかが議論されてきた。今回の事案では、AIへの指示内容や生成工程が「人による具体的な創作行為」と認められた点が重要となる。</p>
-<p>生成AIで作成された画像については、人の具体的な指示や制作過程がどの程度関与しているかが著作物性の判断要素とされる。同事案では、プロンプトの内容や生成工程に人の創作的関与が認められた点が、著作権侵害容疑の判断材料となった。SNS上で公開された生成AI画像であっても、創作性が認められる場合には著作権が成立するため、複製や利用には権利者の許諾が必要となる。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
-      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
-      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
-<h2>AI教育の中核を担う新サイト</h2>
-<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
-<h2>3000超のコースと実践的ラボを集約</h2>
-<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
-<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
-<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
-公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
-同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/11/21 [FRI]LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
-      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
-      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
-<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
-<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
-<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
-これらは</p>
-<ul>
-<li>誤情報</li>
-<li>攻撃的な表現</li>
-<li>情報量の乏しい短文</li>
-</ul>
-<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
-<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
-<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
-<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
-<ul>
-<li>テキストの品質（semantic quality）</li>
-<li>エンゲージメント（人気度）</li>
-</ul>
-<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
-評価には、</p>
-<ul>
-<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
-<li>長文コンテキスト理解（RULER）</li>
-<li>安全性（有害発言誘発テスト）</li>
-<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
-</ul>
-<p>が利用された。</p>
-<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
-<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
-<p>この “劣化の全体像” は、下図のように整理されている。</p>
-<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
-低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
-<p>この図が示すように、</p>
-<ul>
-<li>ARC Challenge</li>
-<li>RULER</li>
-<li>HH-RLHF（安全性関連）</li>
-</ul>
-<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
-<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
-<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
-低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
-<p>この図が表している通り、</p>
-<ul>
-<li>no thinking（思考が全く行われない）</li>
-<li>wrong logic in plan（計画の論理破綻）</li>
-<li>factual error（事実誤認）</li>
-</ul>
-<p>などの“思考の崩壊”が顕著に増加している。</p>
-<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
-<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
-<ul>
-<li>有害な発言を誘発しやすくなる</li>
-<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
-<li>不正確な主張を自信満々に述べるケースが増える</li>
-</ul>
-<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
-<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
-<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
-研究者らはこの仮説も検証した。</p>
-<p>結果は次の通り。</p>
-<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
-ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
-<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
-研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
-<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
-<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
-<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
-<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
-<p>研究チームは、</p>
-<ul>
-<li>データ品質フィルタリングの強化</li>
-<li>SNS由来データの評価と管理</li>
-<li>「Brain Rot」兆候の定期的検査</li>
-</ul>
-<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
-<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、「SAM 3」を発表──テキストや画像例をプロンプトに、画像・動画内の物体を一括検出・分割・追跡　併せて「SAM 3D」で人物・物体の3D生成にも対応</title>
-      <link>https://ledge.ai/articles/meta_sam3_sam3d_release</link>
-      <description><![CDATA[<p>Metaは2025年11月19日（現地時間）、画像および動画に含まれるオブジェクトを、プロンプトを基点に一括で検出・分割・追跡できる新モデル「Segment Anything Model 3（SAM 3）」を<a href="https://ai.meta.com/blog/segment-anything-model-3/">発表</a>した。同日、2D画像から人物や物体の3Dモデルを生成する「SAM 3D」も<a href="https://ai.meta.com/blog/sam-3d/">公開</a>している。</p>
-<p>Metaの公式Xアカウント（@AIatMeta）は、両モデルを「新しい世代のSegment Anything Models」と<a href="https://x.com/AIatMeta/status/1991178519557046380">紹介</a>し、開発者・研究者向けのメディアワークフローを大きく拡張するとしている。</p>
-<h2>SAM3：プロンプトから“概念”ベースで検出・分割・追跡</h2>
-<p>SAM 3は、短いテキストフレーズ（例：「yellow school bus」）や、画像内のサンプルオブジェクトを示す “example prompt” を入力すると、該当するすべてのオブジェクトを一括して検出・分割し、動画では継続的に追跡できるモデル。Metaはこれを「Promptable Concept Segmentation（PCS）」と定義している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=G4OLPDjwncw">Youtube</a></p>
-<p>アーキテクチャは、DETRベースの画像検出器と、SAM 2を基盤とした動画トラッカーを単一バックボーンに統合したもの。論文(https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/)では、認識と位置特定を切り離す“Presence Head”を新たに採用し、概念ベースの検出精度を向上させたと説明されている。</p>
-<p><strong>SAM 3は、テキストプロンプトを用いた検出と追跡を単一アーキテクチャで統合する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SAM_3_architecture_overview_0af9a61c98/SAM_3_architecture_overview_0af9a61c98.jpg" alt="SAM 3 architecture overview.jpg" /></p>
-<h2>400万概念を含む新データセット「SA-Co」</h2>
-<p>SAM 3の開発にあたり、Metaは大規模データセット「<a href="https://github.com/facebookresearch/sam3/blob/main/README.md#sa-co-dataset">SA-Co（Segment Anything with Concepts）</a>」を新たに構築した。SA-Coは、数百万枚規模の高品質画像と約400万のユニーク概念、数千万のマスク情報を含むもので、モデルが幅広い概念を学習できるよう設計されている。</p>
-<p>論文で示されたベンチマーク「SA-Co/Gold」では20万以上の概念を評価対象とし、SAM 3はLVISのゼロショットMask APで48.8を記録。従来モデル（38.5）を大きく上回った。</p>
-<p><strong>SA-Coは、画像中の多様な物体を高精度にラベル付けする大規模データセット。色ごとに異なる概念カテゴリが示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/SA_Co_907d839e43/SA_Co_907d839e43.jpg" alt="SA-Co.jpg" /></p>
-<p>SAM 3は、Metaの研究用ウェアラブルデバイス「<a href="https://ledge.ai/articles/meta_aria_gen2_ai_research">Aria Gen 2</a>」で撮影された一人称視点の映像に対しても高い性能を示す。動きの速さや視点の揺れが大きいファーストパーソン映像でも、対象物の分割と追跡を安定して行える点が特徴だ。</p>
-<p>Metaは、Aria Gen 2 Pilot Datasetの一部を<a href="https://www.aidemos.meta.com/segment-anything">Segment Anything Playground</a>上で公開しており、これにより、人間の視点から世界を理解する“コンテクスチュアルAI”や、ロボティクス、機械知覚といった応用領域におけるSAM 3の有用性を示している。</p>
-<h2>SAM 3D：1枚の画像から人物・物体の3Dモデルを生成</h2>
-<p>同時に公開された「SAM 3D」は、人物に特化した「SAM 3D Body」と一般物体向けの「SAM 3D Objects」から構成される。Metaは、単一の2D画像から高精度で3D形状を復元でき、テクスチャとメッシュの情報を従来手法より忠実に再現できる点を強調している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=B7PZuM55ayc">Youtube</a></p>
-<h2>2D解析から3D復元までを一貫化</h2>
-<p>Metaは、SAM 3とSAM 3Dをセットで発表することで、画像・動画内のオブジェクト理解（SAM 3）から3D形状復元（SAM 3D）までを一貫して扱える視覚AI基盤を提示した。動画編集、AR/VR、ロボティクス、ECなど、多数の応用領域で利用可能性があるとしている。</p>
-<p>公式Xでは、今回の発表を「新しい世代のSegment Anything Models」と説明し、SAM 3 と SAM 3D が画像・動画・3Dを横断する基盤技術として進化した点を強調している。投稿では、短いテキスト指示や具体例となる画像を用いた物体の検出・分割・追跡（SAM 3）、そして単一画像から人物や物体の3Dモデルを生成する機能（SAM 3D）が紹介され、「開発者と研究者が新しいメディア処理ワークフローを構築するためのツール」と位置づけている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/segment_anything_models_921509ea34/segment_anything_models_921509ea34.jpg" alt="segment anything models.jpg" /></p>
-<p>:::box
-[関連記事：AIの\</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 22 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/11/22 [SAT]ヤン・ルカン博士、Metaを年末に退社──「次のAI革命」Advanced Machine Intelligence研究を推進する新会社を設立へ</title>
       <link>https://ledge.ai/articles/yann_lecun_leaves_meta_ami_startup_2025</link>
       <description><![CDATA[<p>米MetaでチーフAIサイエンティストを務め、同社のAI研究組織「FAIR（Facebook AI Research）」の創設者として知られるヤン・ルカン（Yann LeCun）博士が、12年間在籍したMetaを年末に退社する。2025年11月20日（現地時間）、自身の<a href="https://www.facebook.com/yann.lecun/posts/pfbid0iU3ECamGohUvpmKozEq24RGowPoiu3D7J6vHXJxzKGT4hZittF2UK43oZkjSqVexl">Facebookへの投稿</a>で明らかにした。</p>
@@ -795,44 +761,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>Google は Gemini 3 系列を軸にマルチモーダル AI の強化を進めており、Nano Banana Pro をその画像生成技術の中心モデルとして位置づけている。多言語描画と高精細画像への対応について、同社は広告・教育・資料作成など幅広い領域での活用を想定していると説明している。</p>
 ]]></description>
       <pubDate>Fri, 21 Nov 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
-      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
-      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
-<h2>気象予報の高速化と高解像度化</h2>
-<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
-<h2>数百のシナリオ生成に対応</h2>
-<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
-<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
-<h2>研究成果の提供範囲を拡大</h2>
-<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
-<ul>
-<li>Earth Engine：気象データ分析向け</li>
-<li>BigQuery：予測データの活用拡大</li>
-<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
-</ul>
-<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
-<h2>Googleサービス全般の天気機能を更新</h2>
-<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
-<ul>
-<li>Google検索</li>
-<li>Gemini</li>
-<li>Pixel Weather</li>
-<li>Google Maps Platform の Weather API</li>
-</ul>
-<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
-<h2>技術基盤：Functional Generative Networks（FGN）</h2>
-<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
-<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
-<h2>従来モデルの補完としての位置づけ</h2>
-<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
-<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
-]]></description>
-      <pubDate>Thu, 20 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/10/27 [MON]2025年のAIトレンドを総ざらい！Ledge.ai年末年始特集「&apos;25to&apos;26」事前登録スタート</title>
