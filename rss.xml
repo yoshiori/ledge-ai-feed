@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
+      <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
+      <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
+<p>研究チームは、台湾と同規模の約3.6万平方キロメートルの領域を対象に、1000〜2000機規模の通信妨害装置（ジャマー）を上空に展開することで、Starlinkネットワークを一時的に抑圧できる可能性があると試算している。</p>
+<p>SCMPが確認したのは、中国語の専門誌『系统工程与电子技术（Systems Engineering and Electronics）』に掲載された論文で、中国の軍事工学研究者らが作成したもの。同紙によると、研究者はウクライナ戦争でStarlinkが通信インフラとして軍事作戦を支え続けたことを受け、台湾有事などを想定した電子戦の可能性を分析したという。</p>
+<p>Starlinkは、高度約550kmの低軌道衛星が多数稼働し、自律的に接続先を切り替えるメッシュ型ネットワークを形成している。このため、地上からの単一の妨害では通信を完全に遮断することが難しいとされる。研究チームはそこで、航空機・気球・ドローンなどの空中ジャマー（通信妨害装置）を広範囲に配置する方式を検証し、一定高度で密度の高い妨害グリッドを形成することで、特定エリアのStarlink通信を抑圧できる可能性が示された。</p>
+<p>米技術メディアの<a href="https://www.tomshardware.com/networking/china-simulated-a-starlink-blockade-over-taiwan-ccp-scientists-say-around-1-000-drones-would-be-enough-to-cut-satellite-internet-to-the-island">Tom’s Hardware</a>は、論文のシミュレーション条件を詳細に紹介している。それによれば、ジャマーは高度約20kmに展開し、3〜6マイル間隔で配置することで“電磁シールド”のような妨害グリッドを形成する必要があるとされる。また、高出力装置を搭載した航空機を使う場合は約935ノードで足りる一方、小型ドローンなどの低出力ジャマーでは1000〜2000ノードが必要になるという。</p>
+<p>ただし、数千機規模の空中ジャマーを台湾上空に長時間展開し続けるには、燃料・整備・指揮統制・対空防衛への対応など、多くの運用上の課題が伴う。複数の報道でも、今回の内容はあくまでもシミュレーション研究であり、実際に中国が同規模の演習を行った証拠は確認されていない。</p>
+]]></description>
+      <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>EpicのCEO「AI使用はゲーム制作の基本工程になる。明示ラベルは不要」──生成AI使用の開示を義務化するSteamへの異議に賛同</title>
       <link>https://ledge.ai/articles/epic_ceo_ai_tag_unnecessary_steam_disclosure_debate</link>
       <description><![CDATA[<p>2025年11月27日（現地時間）、映像クリエイターであるWorkman氏が、「Steamやすべてのデジタルマーケットは“Made with AI”タグをやめるべきだ。もはや意味をなさない（Steam and all digital marketplaces need to drop the “Made with AI” label. It doesn’t matter any more.）」と投稿した。この意見に、Epic GamesのCEOである Tim Sweeney（ティム・スウィーニー）氏が「Agreed（同意する）」と返信し、ゲーム制作におけるAIタグの必要性について疑問を呈した。</p>
