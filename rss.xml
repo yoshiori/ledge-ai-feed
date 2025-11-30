@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
+      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
+      <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
+<h2>QwenとQuark Appを統合、音声・視覚を組み合わせたAIアシスタントに対応</h2>
+<p>Quark AI Glassesは、アリババが開発する大規模言語モデル「Qwen」とAIアプリ「Qwen App」を標準搭載し、音声操作や視界上への情報提示を通じて、AIアシスタント機能を直接メガネ型デバイスで利用できる。外出先でのリアルタイム翻訳や、会議・講義内容の文字起こし、リマインダー設定、ナビゲーション、周辺スポット検索、ショッピング支援といった多様な機能に対応する。</p>
+<p>また、アリババグループのサービスとも連携しており、決済のAlipay（支付宝）、地図サービスのAmap（高徳地図）、ECサービスのTaobao（淘宝）、旅行サービスFliggy（飛猪）なども利用できる。中国の音楽ストリーミングサービス（QQ Music、NetEase Cloud Music）にも対応した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55.jpeg" alt="bf1ef6c08mf1fb9c98a8d6dd8bbbe8de.jpeg" /></p>
+<h2>フラグシップモデル「S1」──交換式デュアルバッテリーで最大24時間使用可能</h2>
+<p>S1はデュアルマイクロOLEDディスプレイを搭載し、視界内に情報をオーバーレイ表示できる。骨伝導技術やデュアルチップ構成を採用し、音声入出力やリアルタイム処理性能を強化した。</p>
+<p>特徴的な点として、交換可能なデュアルバッテリーシステムを採用し、最大24時間の利用を可能としている。また、0.6秒で撮影できるインスタントフォト機能や、3K動画撮影およびAIによる4K動画出力、独自技術「Super Raw」による夜間撮影性能の向上など、撮影機能も強化されている。価格は3,799元（約7万8,000円）から。</p>
+<h2>軽量モデル「G1」──約40gで普段使いに最適、コアハードウェアはS1と共通</h2>
+<p>G1は日常の利用を想定した軽量モデルで、重量は約40gに抑えられている。ディスプレイ以外の主要ハードウェア（処理チップ、オーディオ、カメラなど）はS1と共通で、普段使いしやすいデザインと価格帯を重視している。価格は1,899元（約3万9,000円）から。</p>
+<h2>MCP対応で開発者エコシステムも視野に</h2>
+<p>Quark AI Glassesは、外部システムやアプリケーションと双方向に接続するオープン標準「Model Context Protocol（MCP）」に対応する。これにより、開発者がQuark AI Glasses向けのAIアプリやエージェントを拡張しやすくなり、アリババのQwenエコシステムとの連携も強化される。</p>
+<p>市場調査会社<a href="https://www.idc.com/promo/wearablevendor/">IDC</a>の調査によると、2025年第2四半期の世界ウェアラブルデバイス出荷台数は前年同期比9.6％増の1億3,650万台で、このうち約5,000万台が中国を中心とする地域から出荷されている。中国は現在、世界最大のウェアラブル市場であり、AI搭載デバイス分野における競争も激しさを増している。</p>
+<p>Quark AI Glassesシリーズは、アリババのAIモデルQwenとグループのサービス群、そしてMCPによる拡張性を組み合わせることで、同市場における新たな製品ポジションを獲得する構えだ。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>18歳未満の自由チャット廃止を受け、自由会話から“物語選択式”へ──Character.AIが新機能「Stories」で未成年向け体験を再構築</title>
       <link>https://ledge.ai/articles/character_ai_stories_u18_safety_launch</link>
       <description><![CDATA[<p>AIキャラクターとの自由形式のチャットを18歳未満のユーザーに禁止すると10月に発表したCharacter.AIは11月27日（米国時間）、代替となる新しい対話機能「Stories」を正式に導入したことを<a href="https://blog.character.ai/introducing-stories-a-new-way-to-create-play-and-share-adventures-with-your-favorite-characters/">発表</a>した。</p>
@@ -335,25 +355,6 @@
 同社は、情報過多を避け、ユーザー本人の使いやすさと周囲のプライバシーを両立させる「Quiet Tech」アプローチを採用し、視界に重ねる情報をレイヤーで整理し、操作は指先で静かに完結させる設計を打ち出した。こうした設計思想は、スマートグラス市場における一つの選択肢として位置づけられそうだ。</p>
 ]]></description>
       <pubDate>Sun, 23 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本IBMとセガXD、生成AIを学べるカードバトル研修「バトルワーカーズ」──業務内容をAIがカード化し対戦形式で学習</title>
-      <link>https://ledge.ai/articles/generative_ai_card_game_training_battle_workers_ibm_segaxd</link>
-      <description><![CDATA[<p>日本IBMは2025年11月17日、生成AIの基礎やプロンプト設計、リスク理解をカードバトル形式で学べる企業向け研修サービス「Generative AI Card Game Training – バトルワーカーズ」を<a href="https://jp.newsroom.ibm.com/2025-11-17-generative-ai-card-game">発表</a>した。研修設計は、ゲーミフィケーション専門企業である株式会社セガ エックスディー（セガXD）が監修した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Press2_Generated_Cards_0743fa59b7/Press2_Generated_Cards_0743fa59b7.jpg" alt="Press2_GeneratedCards.jpg" /></p>
-<h2>業務内容を入力するとAIがカード化</h2>
-<p>参加者自身の「仕事内容」を入力すると、生成AIがその内容をもとに バトルカード3枚とサポートカード1枚 を自動生成する仕組みを採用。カードには業務内容を反映した特徴や強み、スコアが記載され、研修参加者はこれらのカードを用いて対戦形式のゲームを行う。</p>
-<p>カード生成の結果は入力する文章内容に大きく左右されるため、参加者は自然と「どの情報を、どのように記述すればAIが適切に解釈するか」を体験的に学ぶことができる。プロンプトの書き方による出力の違いを、そのままゲームの手札として実感できる構造だ。</p>
-<h2>プロンプト設計・リスク理解も体験的に学べる</h2>
-<p>研修のねらいとして同社は、生成AIの仕組み理解に加え、AI実務で重要となるプロンプト設計スキルやハルシネーション対策、著作権・情報管理を含むリスク理解の習得を挙げている。</p>
-<p>業務内容の入力時には、どこまで詳細を書けるのか、機密情報は避けるべきか、といった情報マネジメント意識が問われる。また、生成AIが業務を誤解してカード化するケースもあり、ハルシネーション（AIの誤生成）への注意点を議論する導入にもつながるという。</p>
-<h2>生成AIリテラシー格差への対応</h2>
-<p>企業における生成AI活用が急速に広がる一方で、社員間のリテラシー格差は依然として課題とされる。
-日本IBMは、ゲームという直感的な学習形式を取り入れることで、初心者でも無理なく生成AIの特性を掴める研修として位置づけている。参加者が「自分の業務」を題材に学ぶため、通常の座学研修よりも実務への応用をイメージしやすい点も特徴だ。</p>
-<p>セガXDは、ゲームデザインや参加意欲を高める仕組みづくりに強みを持つ企業で、今回の研修ではバトル形式の導入やカード構造の設計に協力した。</p>
-<p>研修を通じて同社は、企業における生成AI活用の基礎力向上を図るとともに、今後もリテラシー教育コンテンツの拡充を進める方針だ。</p>
-]]></description>
-      <pubDate>Sun, 23 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
