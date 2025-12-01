@@ -5,6 +5,36 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>DeepSeek、自己検証型数学推論モデル「DeepSeek-Math-V2」を公開──IMO金メダル級の定理証明能力をオープンソースで</title>
+      <link>https://ledge.ai/articles/deepseek_math_v2_release</link>
+      <description><![CDATA[<p>中国のAI開発企業 DeepSeek は、数学的推論に特化した大規模言語モデル「DeepSeek-Math-V2」を2025年11月27日にHugging Face 上の model cardで<a href="https://huggingface.co/deepseek-ai/DeepSeek-Math-V2#deepseekmath-v2-towards-self-verifiable-mathematical-reasoning">公開</a>した。モデルはオープンウェイトで、商用利用も可能な Apache 2.0 ライセンスで提供されている。</p>
+<h2>自己検証フレームワークによる厳密な推論</h2>
+<p>DeepSeek-Math-V2 の最大の特徴は、生成された証明の正しさを検証する「自己検証（self-verification）」アーキテクチャを採用した点にある。証明を生成する generator と、その証明をチェックする verifier を分離し、両者を強化学習ループで相互に高め合うよう設計することで、論理的整合性を備えた定理証明を可能にした。</p>
+<p>この仕組みによって、従来モデルで課題とされてきた「答えは正しくても推論過程が破綻する」問題を抑制し、数学競技形式の問題において高い性能を発揮したという。</p>
+<h2>数学ベンチマークで既存LLMを大幅に上回る</h2>
+<p>DeepSeek は model card で、同モデルが数多くの数学ベンチマークで既存LLMを上回ったと報告している。特に、研究コミュニティで整備されている定理証明ベンチマーク「ProofBench」において高い正答率を記録した。</p>
+<p><strong>ProofBench における各LLMの比較。右端の青は DeepSeek-Math-V2（Heavy）で、Basic と Advanced の双方で既存モデルを大きく上回った</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IMO_Proof_Bench_6ae2f05dc5/IMO_Proof_Bench_6ae2f05dc5.jpg" alt="IMO-ProofBench.jpg" /></p>
+<h2>IMO・CMO・Putnamで “金メダル級” の成績</h2>
+<p>評価は合成ベンチマークだけにとどまらず、国際数学オリンピック（IMO 2025）、中国数学オリンピック（CMO 2024）、米国Putnam Competition（2024）といった実際のコンテスト問題でもスコアが公表されている。</p>
+<p><strong>各数学コンテストにおける問題ごとの達成度。灰色は「完全解答」、下線は「部分点獲得」を示す。Putnam 2024 では 98.3% の得点率を記録</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Competitions_36ac51cf34/Competitions_36ac51cf34.png" alt="Competitions.png" /></p>
+<p>実績の要点は以下のとおり：</p>
+<ul>
+<li>IMO 2025：83.3%（金メダル相当）</li>
+<li>CMO 2024：73.8%</li>
+<li>Putnam 2024：98.3%（120点中118点）</li>
+</ul>
+<p>特に Putnam での高得点は、大学数学レベルの複雑な問題に対しても高い正答率を示したことを意味する。</p>
+<h2>モデル基盤と公開形態</h2>
+<p>モデルは DeepSeek-V3.2-Exp-Base を基盤としており、長い証明文を扱うための拡張コンテキスト、低精度フォーマットによる推論負荷の最適化など、研究用途に配慮した設計となっている。</p>
+<p>Hugging Face 上でウェイトが公開されており、研究者・開発者はそのまま検証や応用に利用できる。</p>
+<h2>今後の展望</h2>
+<p>DeepSeek は、自己検証型LLMが「未解決問題の探索」「形式的証明の自動化」「科学研究の推論支援」などに応用可能であると述べている。一方で、第三者による大規模検証や実際の数学者によるレビューは今後の課題として残る。</p>
+]]></description>
+      <pubDate>Mon, 01 Dec 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>独Black Forest Labs、仏MistralのVLM利用の画像生成AI「FLUX.2」を発表──最大10枚の参照画像、精密な文字生成、4MP編集に対応した“実務特化”モデルファミリー</title>
       <link>https://ledge.ai/articles/bfl_flux2_release_2025</link>
       <description><![CDATA[<p>ドイツのAIスタートアップ Black Forest Labs（BFL） は2025年11月25日、画像生成AIモデルファミリー「FLUX.2」を<a href="https://bfl.ai/blog/flux-2">公開</a>した。</p>
