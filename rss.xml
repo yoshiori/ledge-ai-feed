@@ -360,6 +360,23 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、Geminiに「AI生成画像の検証」機能を導入──目に見えない電子透かし技術「SynthID」を活用</title>
+      <link>https://ledge.ai/articles/google_gemini_synthid_image_verification</link>
+      <description><![CDATA[<p>Googleは2025年11月20日、Geminiアプリにおいて、画像をアップロードして「この画像はAIで生成または編集されたものか」を判定できる新機能を<a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/">公開</a>した。同社は2023年に、画像の見た目に影響を与えず識別情報を埋め込む電子透かし（Invisible watermark）技術「SynthID」を開発しており、今回のアップデートにより、この電子透かしをGeminiアプリ上で直接検出できるようになる。</p>
+<h2>AI生成画像の真偽をアプリ上で判定</h2>
+<p>Geminiアプリでは、ユーザーが画像をアップロードし、「Was this created or edited by Google AI?」といった質問を投げかけることで、画像にSynthIDの電子透かしが含まれているかを判定できる。
+電子透かしが検出された場合は、GoogleのAIによって生成または編集された可能性が高いと返答される。一方で電子透かしが見つからない場合は、「GoogleのAIによるものではない可能性が高い」と示される。ただし、他社のAIモデルによる生成画像まで識別できるわけではなく、あくまでGoogleのAIに適用された電子透かしのみが検知対象となる。</p>
+<h2>利用条件と注意点</h2>
+<p>Googleサポートページによれば、検証は1枚ずつ（100MB以下）の画像に対して実施され、コラージュ画像など複数の画像を含む形式は推奨されない。また、電子透かしが画像全体ではなく一部に適用されている場合、AIで編集された領域が検出されることもある。</p>
+<h2>「SynthID」とは</h2>
+<p>SynthIDは、画像の外観に影響を与えず、機械的に読み取ることができる目に見えない電子透かし（Invisible watermark）技術を採用している。Geminiアプリは、この電子透かしをもとに生成・編集プロセスを判定する仕組みを持つ。
+公式ブログでは、Googleが今後、画像だけでなく動画や音声への対応拡大も計画していることが示されている。</p>
+<h2>Googleの透明性強化の取り組み</h2>
+<p>GoogleはSearchにおけるAI生成画像のラベル表示を拡充しているほか、C2PA（Content Provenance and Authenticity）に準拠したメタデータ対応も進めている。公式ブログによれば、Geminiアプリ・Vertex AI・Google Adsで生成される画像については、今週よりC2PA準拠のメタデータを自動付与する対応を開始するという。対象となるのはNano Banana Pro（Gemini 3 Pro Image）で生成された画像で、生成プロセスに関する追加情報を示すことで透明性を高めるとしている。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
       <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
       <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
@@ -515,44 +532,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>倫理と自由の境界線</h2>
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、気象予報AI「WeatherNext 2」を発表──従来モデルの8倍速で予報を生成し、最大1時間までの解像度を実現</title>
-      <link>https://ledge.ai/articles/weathernext_2_google_ai_weather_forecasting_model_release</link>
-      <description><![CDATA[<p>Googleは2025年11月17日（現地時間）、気象予報向けAIモデル「WeatherNext 2」を<a href="https://blog.google/technology/google-deepmind/weathernext-2/">発表</a>した。天気がサプライチェーンや航空路、日常の移動など幅広い領域の意思決定に影響を与えることを指摘し、近年のAI技術が予報能力を大きく向上させているという。</p>
-<h2>気象予報の高速化と高解像度化</h2>
-<p>WeatherNext 2は、Google DeepMindとGoogle Researchが開発した予報モデルで、従来のWeatherNextモデルと比べ8倍速で予報を生成し、最大1時間解像度の予測に対応する。公式ブログでは、WeatherNext 2を「最も高度で効率的な予報モデル」と位置づけている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=YQwqoEm_xis">YouTube</a></p>
-<h2>数百のシナリオ生成に対応</h2>
-<p>WeatherNext 2は、一つの予報結果だけでなく、数百の可能性（シナリオ）を生成する仕組みを備える。これにより、気象機関が複数のシナリオを比較しながら判断できる環境を提供する。Googleは実験的なサイクロン予測を通じて、この技術が意思決定の支援に使われた例を紹介している。</p>
-<p><strong>WeatherNext 2 によるシナリオ生成の仕組み：</strong> 異なるランダム性を加えて複数の予報をつくり、時間の経過と共に分岐が広がっていく
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043/Weather_Next_2_blog_figure_03_lar_width_1000_format_webp_8aa488b043.webp" alt="WeatherNext_2-blog-figure-03_lar.width-1000.format-webp.webp" /></p>
-<h2>研究成果の提供範囲を拡大</h2>
-<p>GoogleはWeatherNext 2の研究成果を「研究室から実環境へ展開する」として、以下のサービスで利用可能にした。</p>
-<ul>
-<li>Earth Engine：気象データ分析向け</li>
-<li>BigQuery：予測データの活用拡大</li>
-<li>Vertex AI：カスタム推論に使える早期アクセスプログラムを提供</li>
-</ul>
-<p>企業や研究者が独自の予報処理を行える仕組みが整備されつつある。</p>
-<h2>Googleサービス全般の天気機能を更新</h2>
-<p>WeatherNext技術は、Googleの各種サービスでも順次反映されている。</p>
-<ul>
-<li>Google検索</li>
-<li>Gemini</li>
-<li>Pixel Weather</li>
-<li>Google Maps Platform の Weather API</li>
-</ul>
-<p>これらの天気情報は、WeatherNext 2の技術に基づいた内容にアップグレードされた。Googleは「数週間以内にGoogleマップにも反映される」としている。</p>
-<h2>技術基盤：Functional Generative Networks（FGN）</h2>
-<p>WeatherNext 2の基盤となる仕組みは、DeepMindが開発したFunctional Generative Networks（FGN）と呼ばれる技術だ。FGNは「大気の動き方そのものを学習し、時間とともにどのように変化していくかを再現する」点が特徴とされる。これにより、台風の渦の広がり方や降水帯の移動といった複雑で変化の激しい気象現象も、連続した流れとして予測しやすくなる。</p>
-<p><strong>FGNの生成プロセスの概念図</strong> ：複数モデルとノイズ注入を組み合わせ、異なる気象シナリオを生成する
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fgn_df84086054/fgn_df84086054.jpg" alt="fgn.jpg" /></p>
-<h2>従来モデルの補完としての位置づけ</h2>
-<p>Googleは、AIモデルが既存の物理ベースの気象モデルを完全に置き換えるものではないと明記している。気象予測には依然として課題が多く、AIは公式予報を補完する技術として設計されている。</p>
-<p>WeatherNext 2は、予報精度の向上、生成速度の高速化、シナリオ生成機能の拡張など、気象予測に関する複数の要素を強化したモデルとして発表された。Googleは今後、研究機関や産業分野との協力を通じ、予報技術の提供領域を拡大するとしている。</p>
 ]]></description>
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
@@ -758,23 +737,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>OpenAIは、無料提供期間終了後（2027年6月以降）について、価格や条件に変更が生じる場合は事前通知するとしており、「教育者にとって手頃な価格を維持することを目指す」と説明している。</p>
 ]]></description>
       <pubDate>Wed, 26 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiに「AI生成画像の検証」機能を導入──目に見えない電子透かし技術「SynthID」を活用</title>
-      <link>https://ledge.ai/articles/google_gemini_synthid_image_verification</link>
-      <description><![CDATA[<p>Googleは2025年11月20日、Geminiアプリにおいて、画像をアップロードして「この画像はAIで生成または編集されたものか」を判定できる新機能を<a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/">公開</a>した。同社は2023年に、画像の見た目に影響を与えず識別情報を埋め込む電子透かし（Invisible watermark）技術「SynthID」を開発しており、今回のアップデートにより、この電子透かしをGeminiアプリ上で直接検出できるようになる。</p>
-<h2>AI生成画像の真偽をアプリ上で判定</h2>
-<p>Geminiアプリでは、ユーザーが画像をアップロードし、「Was this created or edited by Google AI?」といった質問を投げかけることで、画像にSynthIDの電子透かしが含まれているかを判定できる。
-電子透かしが検出された場合は、GoogleのAIによって生成または編集された可能性が高いと返答される。一方で電子透かしが見つからない場合は、「GoogleのAIによるものではない可能性が高い」と示される。ただし、他社のAIモデルによる生成画像まで識別できるわけではなく、あくまでGoogleのAIに適用された電子透かしのみが検知対象となる。</p>
-<h2>利用条件と注意点</h2>
-<p>Googleサポートページによれば、検証は1枚ずつ（100MB以下）の画像に対して実施され、コラージュ画像など複数の画像を含む形式は推奨されない。また、電子透かしが画像全体ではなく一部に適用されている場合、AIで編集された領域が検出されることもある。</p>
-<h2>「SynthID」とは</h2>
-<p>SynthIDは、画像の外観に影響を与えず、機械的に読み取ることができる目に見えない電子透かし（Invisible watermark）技術を採用している。Geminiアプリは、この電子透かしをもとに生成・編集プロセスを判定する仕組みを持つ。
-公式ブログでは、Googleが今後、画像だけでなく動画や音声への対応拡大も計画していることが示されている。</p>
-<h2>Googleの透明性強化の取り組み</h2>
-<p>GoogleはSearchにおけるAI生成画像のラベル表示を拡充しているほか、C2PA（Content Provenance and Authenticity）に準拠したメタデータ対応も進めている。公式ブログによれば、Geminiアプリ・Vertex AI・Google Adsで生成される画像については、今週よりC2PA準拠のメタデータを自動付与する対応を開始するという。対象となるのはNano Banana Pro（Gemini 3 Pro Image）で生成された画像で、生成プロセスに関する追加情報を示すことで透明性を高めるとしている。</p>
-]]></description>
-      <pubDate>Tue, 25 Nov 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
