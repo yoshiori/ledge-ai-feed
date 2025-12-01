@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>KDDI、人間のチャット応対を学習するAIエージェントを開発──回答精度90％、auサポート窓口で運用開始</title>
+      <link>https://ledge.ai/articles/kddi_human_chat_learning_ai_agent_release</link>
+      <description><![CDATA[<p>KDDIとKDDI総合研究所は2025年11月26日、チャットサポート窓口で人間の応対履歴を学習し、高精度で再現するAIエージェントを開発したと<a href="https://www.kddi-research.jp/newsrelease/2025/112601.html">発表</a>した。</p>
+<p>複数の応対事例を構造化し、追加情報の収集とファクトチェックを組み合わせる世界初の技術により、生成AIにおけるハルシネーションを抑制し、約90％の回答精度を実現したという。すでにauチャットサポート窓口の一部応対拠点で運用が始まっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_nr_850_4231_img_02_9afe639a8d/kddi_nr_850_4231_img_02_9afe639a8d.png" alt="kddi_nr-850_4231_img_02.png" /></p>
+<p>近年、従来のシナリオ型チャットボットでは対応が難しい複雑な問い合わせが増加しており、難易度の高い案件は人手による対応が必要だった。今回開発されたAIエージェントは、過去の適切な応対事例を複数抽出し、応対の流れを構造化したうえで、必要に応じて社内マニュアルから追加情報を収集し、内容の整合性を自動でチェックする仕組みを備える。このプロセスを経て応答文を生成することで、誤情報の生成を抑えつつ、実務に適した応対品質を確保するという。</p>
+<p>KDDIによると、問い合わせ1件あたりの応対時間は従来比で約70％短縮できる見込みで、スタッフ間の応対品質の均一化にもつながると説明している。今回の技術は汎用パッケージとして開発されており、社内でのユースケース拡大やグループ会社への横展開に加え、将来的な商用提供も視野に入れている。</p>
+<p>KDDI総合研究所は、応対の構造化や事例選択手法などに関する特許を10件以上登録済または出願済としており、今後も応対領域の拡大を進める方針を示している。両社は、AI技術の社会実装とお客さま応対の品質向上を通じ、カスタマーサポート体験の改善に取り組んでいくとしている。</p>
+<p>:::box
+<a href="https://ledge.ai/articles/deloitte_global_contact_center_survey2023">関連記事：国内コンタクトセンターすでに半数がAI導入、海外上回るも成果には課題あり</a>
+::</p>
+]]></description>
+      <pubDate>Mon, 01 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>2025年のAIニュース振り返りと、AI提唱70周年となる2026年の展望を知る特設サイトLedge.ai年末年始特集「&apos;25 to &apos;26」を公開</title>
       <link>https://ledge.ai/articles/ledgeai25to26</link>
       <description><![CDATA[<p>AIの社会実装を加速させ、「テクノロジーを社会になめらかに浸透させる」ことをミッションに掲げる、国内最大級のAIメディア「Ledge.ai」を運営する株式会社レッジは、今年も参加費無料の年末特集「Ledge.ai '25to'26」を公開しました。</p>
@@ -760,18 +775,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>GoogleはSearchにおけるAI生成画像のラベル表示を拡充しているほか、C2PA（Content Provenance and Authenticity）に準拠したメタデータ対応も進めている。公式ブログによれば、Geminiアプリ・Vertex AI・Google Adsで生成される画像については、今週よりC2PA準拠のメタデータを自動付与する対応を開始するという。対象となるのはNano Banana Pro（Gemini 3 Pro Image）で生成された画像で、生成プロセスに関する追加情報を示すことで透明性を高めるとしている。</p>
 ]]></description>
       <pubDate>Tue, 25 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>KADOKAWA×はてな「カクヨム」、生成AI利用作品に3種のタグ付けを推奨──“本文50％以上／50％未満／補助利用”を明確化</title>
-      <link>https://ledge.ai/articles/kakuyomu_ai_tag_guideline_update</link>
-      <description><![CDATA[<p>小説投稿サイト「カクヨム」を共同運営するKADOKAWAとはてなは2025年11月19日、生成AIを利用した作品投稿について、利用状況に応じたタグ付けを推奨すると<a href="https://kakuyomu.jp/info/entry/geneai_tag">発表</a>した。対象となるタグは「AI本文利用」「AI本文一部利用」「AI補助利用」の3種類で、本文中のAI生成割合やAIの関与範囲に応じて区分を設ける。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kakuyomu_genai_tag_0e3bbfab95/kakuyomu_genai_tag_0e3bbfab95.jpg" alt="kakuyomu genai tag.jpg" /></p>
-<p>発表によると、「AI本文利用」は本文の大半（目安50％以上）がAIによって生成された場合、または軽微な修正のみを加えて利用した場合に該当する。「AI本文一部利用」は本文の一部（目安50％未満）がAI生成の場合で、こちらも軽微な修正にとどまるケースを想定する。「AI補助利用」は、AIで得たアイデアや資料をもとに作者が本文を書く場合や、作者が書いた文章の校正など、創作の補助的にAIを使用した場合を指す。3つの基準はあくまで目安とし、投稿者は自身の利用実態に合わせて選択する。</p>
-<p>11月21日には、「AI補助利用」の適用範囲に関する問い合わせが多数寄せられたとして、公式サイトに追記を行った。追記では、作品執筆の一環として作者が意識的に生成AIツールを使用した場合を想定していると説明。一方で、検索サービスなど日常的に利用するツールのAI要約機能や、文書ソフトの自動校正機能を用いた作品は該当しないとしている。また、投稿者に対して生成AI利用の具体的内容を示す必要はないとも明記した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kakuyomu_ai_tag2_e153549b82/kakuyomu_ai_tag2_e153549b82.jpg" alt="kakuyomu ai tag2.jpg" /></p>
-<p>なお、KADOKAWAが主催する日本最大級の小説コンテスト「カクヨムコンテスト11」に応募する作品については、生成AIを利用している場合、該当タグの付与が必須とのこと。</p>
-]]></description>
-      <pubDate>Tue, 25 Nov 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
