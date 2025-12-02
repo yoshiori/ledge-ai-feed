@@ -280,31 +280,6 @@ AIが制作の基本工程となる時代に、どのような開示ルールが
       <pubDate>Sun, 30 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AWS、「Kiro」を一般提供──仕様駆動のAIコーディングをIDEとターミナルで一元化</title>
-      <link>https://ledge.ai/articles/aws_kiro_general_availability</link>
-      <description><![CDATA[<p>AWSは2025年11月18日、AIエディター／開発ツール「Kiro（キロ）」の一般提供を<a href="https://aws.amazon.com/jp/blogs/news/introducing-kiro-cli/">発表</a>した。Kiroは、7月の<a href="https://ledge.ai/articles/aws_ai_ide_kiro_release">プレビュー版公開</a>から機能追加を重ねてきたAI開発ツールで、仕様（Spec）を中心にコード生成・検証・リファクタリングを行える点が特徴だ。一般提供に合わせて、プロパティベーステスト、エージェント動作の巻き戻し機能、ターミナル向けの「Kiro CLI」、AWS IAM連携のチーム管理機能を搭載したという。</p>
-<h2>仕様に基づく開発を強化：プロパティベーステストに対応</h2>
-<p>Kiroの正式版では、仕様と実装の整合性を検証するための「プロパティベーステスト（property-based testing）」が導入された。開発者がEARS形式で記述した仕様から、Kiroがテストすべき“性質（プロパティ）”を自動抽出し、数百〜数千のランダムテストを生成して実装を検証する仕組みだ。反例が見つかった場合は、原因特定のため条件を徐々に単純化する「縮小（shrinking）」も実行される。</p>
-<p>これにより、個別のテストケースでは検出しづらい欠陥を発見しやすくなり、仕様ベースでの正確な実装を支援する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/correctness_f57a485373/correctness_f57a485373.png" alt="correctness.png" />
-Kiro IDEが生成したプロパティベーステストの例。仕様から抽出した“チケットIDが常に一意であること”という性質を可視化し、関連する要件・実装タスク・テスト結果を紐づけて表示する。</p>
-<h2>チェックポイントで開発プロセスを巻き戻し可能に</h2>
-<p>一般提供版では、エージェントが行った操作や変更内容を段階的に保存する「チェックポイント」機能を追加した。エージェントの提案やコード修正を進めた後でも、必要に応じて任意の状態へ戻れるため、実装方針の変更や手戻りが発生した際のコストを抑えられる。</p>
-<p>また、1つのKiroワークスペースで複数のプロジェクトルートを扱える「マルチルート」構成にも対応し、マイクロサービスやモノレポなど複雑な構成の開発にも利用できる。</p>
-<h2>IDEとターミナルを共通化する「Kiro CLI」</h2>
-<p>正式版の大きな追加点として、ターミナルで利用できる「Kiro CLI」が提供された。開発者は、IDE と同じエージェント環境をターミナルでもそのまま利用でき、Claude Sonnet 4.5 や Haiku 4.5 などのモデル、Autoエージェント、MCP（Model Context Protocol）ツールによるローカル操作やAPI呼び出しも実行できる。</p>
-<p>CLIとIDEは同一のステアリングファイルや認証情報、コンテキストを共有するため、開発環境を切り替えても同じワークフローを継続できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cli_5921207104/cli_5921207104.png" alt="cli.png" />
-一般提供版で新たに追加された「Kiro CLI」。IDEと同じエージェント環境をターミナルでも利用でき、AutoエージェントやMCPツールによる操作が可能になる。</p>
-<h2>AWS IAM連携のチーム管理と、スタートアップ向け1年無償プラン</h2>
-<p>Kiroは、AWS IAM Identity Centerと統合され、組織アカウントによるログインや、Pro／Pro+／Powerティアの利用制限、MCP設定、請求管理などをAWS側で一元的に管理できる。</p>
-<p>また、シリーズBまでの対象スタートアップには「Kiro Pro+」を1年間無償提供するオファーを開始した。既存のAWS Activateクレジットと併用可能で、2025年12月31日まで申請を受け付ける。</p>
-<h2>“AI駆動開発”の基盤へ</h2>
-<p>Kiroは、仕様駆動の開発、プロパティベーステスト、IDE／CLI共通のAIエージェント環境、IAM連携によるチーム運用など、開発プロセス全体をAIと統合する機能を備えた。Kiro公式ブログでは「This is just the start.」と記されており、今後もアップデートを継続する方針を示している。</p>
-]]></description>
-      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
       <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
       <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
@@ -440,6 +415,30 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>GoogleのAIモードに広告が出現、海外ユーザーからの報告──Googleは「既存テストの一部」とコメント</title>
+      <link>https://ledge.ai/articles/google_ai_mode_ads_integration_test_expands</link>
+      <description><![CDATA[<p>Google検索の「AI Mode（AIモード）」に、広告（Sponsored）が直接統合されて表示される事例が11月中旬から海外ユーザーにより相次いで報告されている。いずれのスクリーンショットでも、AIが生成した回答の直下に広告ユニットが挿入されており、表示形式が従来の検索広告とは異なる点が確認された。</p>
+<p>こうした事例は主に英語圏の検索業界関係者から報告されており、SEOコンサルタントの Brodie Clark 氏 が2025年11月21日（現地時間）に投稿した事例をはじめ、複数のユーザーが X（旧Twitter）で広告表示のスクリーンショットを共有している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/brodie_the_time_has_come_b63a519136/brodie_the_time_has_come_b63a519136.jpg" alt="brodie the time has come.jpg" /></p>
+<p>Googleは2025年5月21日、<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">公式ブログ</a>でAI Modeにおける広告テスト開始の方針を明らかにしており、今回の報告はそのテストが検索画面上で可視化され始めたものとみられる。</p>
+<h2>AIモードの広告表示、Googleは5月にテスト開始を公式に発表</h2>
+<p>5月21日の公式ブログ「<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">More opportunities for your business on Google Search</a>」では、AI OverviewsおよびAI Modeを新たな検索体験として位置づけるとともに、AI Modeで広告のテストを開始したと明記されている。広告はAI回答の下部に自然に統合され、Performance Max や Shopping Ads を含む既存キャンペーンが表示対象となることも説明されていた。</p>
+<p>また、Google広告製品担当の公式アカウント Ads Liaison（Ginny Marvin 氏） は11月21日、Brodie Clark 氏の投稿に対し「AI Modeの広告は、5月のGoogle Marketing Liveでの発表以降、数カ月にわたりテストを続けている」と<a href="https://x.com/adsliaison/status/1991969383414210845">返信</a>。このコメントから、今回の広告表示は「新規ローンチ」ではなく 既存テストの一環 として位置づけられていることがわかる。</p>
+<p>Clark氏はこれに対し、公式アナウンスから実際の画面で目撃されるまでには時間差があることを指摘し、自身は「新機能が“野生で初めて見つかるタイミング”を重視している」と補足した。</p>
+<h2>最初の報告例：Greg Sterling 氏がHVAC検索で広告表示を確認</h2>
+<p>11月19日、マーケティングアナリスト Greg Sterling 氏（@gsterling） は、AI Modeで「HVAC repair」の検索を行った際に広告が表示されたスクリーンショットをXに投稿した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saw_first_ads_in_aimode_c50debed95/saw_first_ads_in_aimode_c50debed95.jpg" alt="saw first ads in aimode.jpg" /></p>
+<p>スクリーンショットでは、AIの回答直下に「Sponsored」と表示されたローカルサービス広告が2件並んでおり、AI Mode内に広告ユニットが直接組み込まれている様子が確認できる。Sterling 氏の例は「最初に目撃されたケース」として複数の海外メディアで紹介された。</p>
+<h2>Brodie Clark 氏が“通常UI”での広告表示を報告、Labs以外にも拡大か</h2>
+<p>Sterling 氏のケースが「Labsインターフェース（実験機能）」での表示だったのに対し、Brodie Clark 氏は Labsではない通常の検索UI でもAI Mode内に広告が表示されることを確認した点が特徴的だ。</p>
+<p>Clark 氏は複数の検索（ベッドシーツ比較や emergency plumber など）で広告を再現し、表示位置はいずれも AI回答の最下部 だったと説明している。これにより、広告表示が「Labs限定」ではなく、一部環境では一般ユーザーのインターフェース上でも行われていることが判明した。</p>
+<h2>AI Overviewsに続き、広告統合はAI Modeへも拡大か</h2>
+<p>GoogleはAI Overviewsでも広告統合のテストを開始しており、表示形式（回答最下部への自然な挿入）は今回のAI Modeの例と共通している。</p>
+<p>現時点で、GoogleはAI Modeでの広告表示の地域展開や時期に関する追加アナウンスを行っていない。テストは一部ユーザー環境で継続しているとみられる。日本語UI（google.co.jp）や日本のユーザー環境で、AI Mode内に広告が表示された報告は現在のところ確認されていない。</p>
+]]></description>
+      <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiに「AI生成画像の検証」機能を導入──目に見えない電子透かし技術「SynthID」を活用</title>
       <link>https://ledge.ai/articles/google_gemini_synthid_image_verification</link>
       <description><![CDATA[<p>Googleは2025年11月20日、Geminiアプリにおいて、画像をアップロードして「この画像はAIで生成または編集されたものか」を判定できる新機能を<a href="https://blog.google/technology/ai/ai-image-verification-gemini-app/">公開</a>した。同社は2023年に、画像の見た目に影響を与えず識別情報を埋め込む電子透かし（Invisible watermark）技術「SynthID」を開発しており、今回のアップデートにより、この電子透かしをGeminiアプリ上で直接検出できるようになる。</p>
@@ -474,89 +473,15 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLMはSNSの“ジャンク投稿”で脳が腐る？──米研究チームが「Brain Rot（脳腐敗）仮説」を提唱、推論力や安全性の劣化を確認</title>
-      <link>https://ledge.ai/articles/llm_brain_rot_hypothesis_ai_junk_data_risk</link>
-      <description><![CDATA[<p>テキサス大学オースティン校、テキサスA&amp;M大学、パデュー大学の研究者チームは2025年10月15日、LLM（大規模言語モデル）がSNSに溢れる “ジャンクデータ” によって徐々に劣化する可能性を示す研究「LLMs Can Get “Brain Rot”!」を<a href="https://llm-brain-rot.github.io/">発表</a>した。</p>
-<p>研究チームは、X（旧Twitter）から収集した投稿データを用いた制御実験を行い、低品質テキストの混入が推論力・長文理解・安全性・人格的特性に一貫して悪影響を与えると報告している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_cad83675ae/teaser_cad83675ae.png" alt="teaser.png" /></p>
-<h2>SNSの“低品質テキスト”がモデル品質を損なう可能性</h2>
-<p>研究チームが着目したのは、Web全体に含まれるユーザー生成コンテンツ、とりわけXに特徴的な「エンゲージメントは高いが内容が浅い投稿」だ。
-これらは</p>
-<ul>
-<li>誤情報</li>
-<li>攻撃的な表現</li>
-<li>情報量の乏しい短文</li>
-</ul>
-<p>などが混在しやすく、AIモデルが大量に取り込むとどうなるかは十分に検証されてこなかった。</p>
-<p>今回の研究では、こうした投稿を「ジャンクデータ」として体系的に扱い、その影響を測定するための仮説を「LLM Brain Rot（脳腐敗）仮説」と名づけた。</p>
-<h2>実験方法：X投稿を「品質」と「人気度」で分類しモデルを再学習</h2>
-<p>研究者らは、Xの投稿を以下の2軸で分類した。</p>
-<ul>
-<li>テキストの品質（semantic quality）</li>
-<li>エンゲージメント（人気度）</li>
-</ul>
-<p>この組み合わせで複数のデータセットを構築し、既存のオープンソースLLMに対して再学習（fine-tuning）を実施。
-評価には、</p>
-<ul>
-<li>推論タスク（ARC Challenge、ARC-Easy など）</li>
-<li>長文コンテキスト理解（RULER）</li>
-<li>安全性（有害発言誘発テスト）</li>
-<li>“人格特性”に関する心理尺度（ナルシシズム、マキャベリズム、サイコパシーなど）</li>
-</ul>
-<p>が利用された。</p>
-<h2>主な結果①：推論・読解能力が段階的に悪化</h2>
-<p>研究では、低品質テキストの割合を増やすほど、推論・長文理解タスクのスコアが段階的に低下することが確認された。研究者らは変化の様子を「dose–response（用量反応）」に似ていると指摘している。</p>
-<p>この “劣化の全体像” は、下図のように整理されている。</p>
-<p><strong>〈図1〉推論タスク・人格特性の変化（Effective Size）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/effective_size_82aa2fbc8f/effective_size_82aa2fbc8f.png" alt="effective_size.png" />
-低品質SNSデータで再学習すると、推論・読解（左）が悪化し、人格特性（右）も望ましくない方向へ変化する傾向が示された。</p>
-<p>この図が示すように、</p>
-<ul>
-<li>ARC Challenge</li>
-<li>RULER</li>
-<li>HH-RLHF（安全性関連）</li>
-</ul>
-<p>ではいずれもスコアが低下。また人格特性に関しても、ナルシシズム・サイコパシー傾向などが上昇する結果となった。</p>
-<p>さらに、モデルがどのように失敗するようになったかも分析されている。</p>
-<p><strong>〈図2〉失敗パターンの増加（Failure Count）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/failure_mode_barplot_count_f4b1cff90d/failure_mode_barplot_count_f4b1cff90d.png" alt="failure_mode_barplot_count.png" />
-低品質データで再学習したモデルほど、思考プロセスの失敗（“考えていない”“誤った論理”“事実誤認”など）が大幅に増加した。</p>
-<p>この図が表している通り、</p>
-<ul>
-<li>no thinking（思考が全く行われない）</li>
-<li>wrong logic in plan（計画の論理破綻）</li>
-<li>factual error（事実誤認）</li>
-</ul>
-<p>などの“思考の崩壊”が顕著に増加している。</p>
-<h2>主な結果②：安全性と“人格特性”にも悪影響</h2>
-<p>推論能力の低下だけでなく、モデルの「振る舞い」や「性格的傾向」にまで変化が現れた。</p>
-<ul>
-<li>有害な発言を誘発しやすくなる</li>
-<li>攻撃的・支配的・自己中心的な回答を返す傾向が強まる</li>
-<li>不正確な主張を自信満々に述べるケースが増える</li>
-</ul>
-<p>研究チームはこれを、SNS特有の“攻撃性・扇動性のある投稿”を多く学習した結果として説明している。</p>
-<h2>“主な結果③：“脳腐敗”は簡単には治らない</h2>
-<p>モデルの性能が落ちたあとに、高品質データで“洗浄（wash-out）”すれば回復するのではないか──
-研究者らはこの仮説も検証した。</p>
-<p>結果は次の通り。</p>
-<p><strong>〈図3〉洗浄（wash-out）実験：完全には回復しない</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wash_out_scaling_1114dafe8f/wash_out_scaling_1114dafe8f.png" alt="wash_out_scaling.png" />
-ジャンクデータで劣化したモデルを高品質データで再学習しても、ARC-CやRULERなど複数タスクで性能が回復しきらず“残留劣化”が確認された。</p>
-<p>グラフが示すように、洗浄後のモデルは“部分的な回復”こそ見られるものの、元の性能には戻らなかった。
-研究者らはこれを「残留ダメージ（residual damage）」と呼び、“悪いデータを食べさせると、後から取り返しがつかない”可能性を指摘している。</p>
-<h2>ChatGPT・Gemini・Claude・Grokにも影響しうる？</h2>
-<p>研究はオープンソースLLMを用いた実験だが、論文は「Webテキストを学習するすべてのLLMに関わる問題」だと指摘している。</p>
-<p>ChatGPT、Gemini、Claude、Grok など商用モデルがどの程度SNSテキストを取り込んでいるかは公開されていないが、Web全体のクロールデータを使う以上、“ジャンク比率”がモデル品質を左右する可能性は避けられないとする。</p>
-<h2>今後の焦点：AIの“健康診断”として利用される可能性</h2>
-<p>研究チームは、</p>
-<ul>
-<li>データ品質フィルタリングの強化</li>
-<li>SNS由来データの評価と管理</li>
-<li>「Brain Rot」兆候の定期的検査</li>
-</ul>
-<p>などを訓練パイプラインに組み込む必要性を訴える。</p>
-<p>また、GitHub上では実験コードが公開されており、企業が自社モデルで同様の検証を再現できるようになっている。研究者らは、「SNS時代のデータ汚染がAIモデルに及ぼす影響を体系的に測定する第一歩になった」としており、今後は 他言語・他SNS・他文化圏データでの再検証が進むと見られる。</p>
+      <title>Meta、AIアシスタント「Meta AI」の日本提供を正式発表──Messenger・Instagram・WhatsAppで順次利用可能に</title>
+      <link>https://ledge.ai/articles/meta_ai_japan_rollout_2025</link>
+      <description><![CDATA[<p>Metaは2025年11月25日、同社のAIアシスタント「Meta AI」を日本で順次提供開始することを<a href="https://about.fb.com/ja/news/2025/11/meta-ai-gradual-rollout-begins-in-japan/">発表</a>した。Meta AIの国内展開が公式に示されるのは今回が初めてで、同社の主要アプリ群に段階的に組み込まれる。</p>
+<p>Meta AIは、Llama 3系モデルを基盤とした対話型アシスタントで、検索補助、質問応答、情報探索、画像生成などの機能を備える。Metaは、自然言語の理解力や推論性能の高さ、応答速度の改善を特徴として挙げている。</p>
+<p>提供対象はMessenger、Instagram、WhatsApp、Facebookアプリ内など。各アプリのチャット入力欄や検索画面から直接呼び出せる設計となっており、コンテンツ探索から日常的なタスク補助まで、サービス横断で利用できる。InstagramやMessengerでは、チャット中にMeta AIへ質問したり、Reelsの発見タブで関連情報を得るといった操作が可能になる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Meta_AI_Gradual_Rollout_ac8a0fc919/Meta_AI_Gradual_Rollout_ac8a0fc919.jpg" alt="Meta-AI-Gradual-Rollout.jpg" /></p>
+<p>画像生成機能も展開される。テキストからの静止画生成に加え、一部ではリアルタイムに変化する生成画像の活用にも対応するという。生成した画像はメッセージ内で共有・編集でき、クリエイティブ用途にも利用可能。</p>
+<p>日本での提供は段階的に行われ、まずは一部ユーザーから導入し、数週間から数カ月かけて利用対象を拡大する。Metaはプライバシーと安全性を重視した運用方針を示すとともに、利用者からのフィードバックを取り入れながら改善を続けるとしている。</p>
+<p>Meta AIはすでに複数地域で展開されており、今回の日本投入は同社のグローバル展開計画の一環となる。</p>
 ]]></description>
       <pubDate>Sat, 29 Nov 2025 23:50:00 GMT</pubDate>
     </item>
@@ -696,19 +621,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Fri, 28 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、AIアシスタント「Meta AI」の日本提供を正式発表──Messenger・Instagram・WhatsAppで順次利用可能に</title>
-      <link>https://ledge.ai/articles/meta_ai_japan_rollout_2025</link>
-      <description><![CDATA[<p>Metaは2025年11月25日、同社のAIアシスタント「Meta AI」を日本で順次提供開始することを<a href="https://about.fb.com/ja/news/2025/11/meta-ai-gradual-rollout-begins-in-japan/">発表</a>した。Meta AIの国内展開が公式に示されるのは今回が初めてで、同社の主要アプリ群に段階的に組み込まれる。</p>
-<p>Meta AIは、Llama 3系モデルを基盤とした対話型アシスタントで、検索補助、質問応答、情報探索、画像生成などの機能を備える。Metaは、自然言語の理解力や推論性能の高さ、応答速度の改善を特徴として挙げている。</p>
-<p>提供対象はMessenger、Instagram、WhatsApp、Facebookアプリ内など。各アプリのチャット入力欄や検索画面から直接呼び出せる設計となっており、コンテンツ探索から日常的なタスク補助まで、サービス横断で利用できる。InstagramやMessengerでは、チャット中にMeta AIへ質問したり、Reelsの発見タブで関連情報を得るといった操作が可能になる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Meta_AI_Gradual_Rollout_ac8a0fc919/Meta_AI_Gradual_Rollout_ac8a0fc919.jpg" alt="Meta-AI-Gradual-Rollout.jpg" /></p>
-<p>画像生成機能も展開される。テキストからの静止画生成に加え、一部ではリアルタイムに変化する生成画像の活用にも対応するという。生成した画像はメッセージ内で共有・編集でき、クリエイティブ用途にも利用可能。</p>
-<p>日本での提供は段階的に行われ、まずは一部ユーザーから導入し、数週間から数カ月かけて利用対象を拡大する。Metaはプライバシーと安全性を重視した運用方針を示すとともに、利用者からのフィードバックを取り入れながら改善を続けるとしている。</p>
-<p>Meta AIはすでに複数地域で展開されており、今回の日本投入は同社のグローバル展開計画の一環となる。</p>
-]]></description>
-      <pubDate>Fri, 28 Nov 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>米政府、AIで科学研究を国家規模で加速へ──トランプ大統領が「Genesis Mission」を創設する大統領令に署名</title>
       <link>https://ledge.ai/articles/genesis_mission_executive_order_launch</link>
       <description><![CDATA[<p>米ホワイトハウスは2025年11月24日（現地時間）、ドナルド・トランプ大統領が、AIを活用して科学研究の発見や開発速度を加速するための国家的取り組み「Genesis Mission（ジェネシス・ミッション）」を創設する大統領令に署名したと<a href="https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/">発表</a>した。同日公開された<a href="https://www.whitehouse.gov/articles/2025/11/president-trump-launches-the-genesis-mission-to-accelerate-ai-for-scientific-discovery/">公式記事</a>では、同ミッションの背景、目的、政府関係者の発言が紹介されており、AIを中核とした新たな科学研究推進体制が明らかになった。</p>
@@ -734,30 +646,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>大統領令に基づき、関連省庁は一定期間内に詳細な行動計画をまとめ、研究データ統合のロードマップや実施体制の整備を進める。政府・大学・国立研究所・民間企業を含む幅広いパートナーシップのもと、AIを活用した科学研究の新たな枠組みが形成されるという。</p>
 ]]></description>
       <pubDate>Thu, 27 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoogleのAIモードに広告が出現、海外ユーザーからの報告──Googleは「既存テストの一部」とコメント</title>
-      <link>https://ledge.ai/articles/google_ai_mode_ads_integration_test_expands</link>
-      <description><![CDATA[<p>Google検索の「AI Mode（AIモード）」に、広告（Sponsored）が直接統合されて表示される事例が11月中旬から海外ユーザーにより相次いで報告されている。いずれのスクリーンショットでも、AIが生成した回答の直下に広告ユニットが挿入されており、表示形式が従来の検索広告とは異なる点が確認された。</p>
-<p>こうした事例は主に英語圏の検索業界関係者から報告されており、SEOコンサルタントの Brodie Clark 氏 が2025年11月21日（現地時間）に投稿した事例をはじめ、複数のユーザーが X（旧Twitter）で広告表示のスクリーンショットを共有している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/brodie_the_time_has_come_b63a519136/brodie_the_time_has_come_b63a519136.jpg" alt="brodie the time has come.jpg" /></p>
-<p>Googleは2025年5月21日、<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">公式ブログ</a>でAI Modeにおける広告テスト開始の方針を明らかにしており、今回の報告はそのテストが検索画面上で可視化され始めたものとみられる。</p>
-<h2>AIモードの広告表示、Googleは5月にテスト開始を公式に発表</h2>
-<p>5月21日の公式ブログ「<a href="https://blog.google/products/ads-commerce/google-search-ai-brand-discovery/">More opportunities for your business on Google Search</a>」では、AI OverviewsおよびAI Modeを新たな検索体験として位置づけるとともに、AI Modeで広告のテストを開始したと明記されている。広告はAI回答の下部に自然に統合され、Performance Max や Shopping Ads を含む既存キャンペーンが表示対象となることも説明されていた。</p>
-<p>また、Google広告製品担当の公式アカウント Ads Liaison（Ginny Marvin 氏） は11月21日、Brodie Clark 氏の投稿に対し「AI Modeの広告は、5月のGoogle Marketing Liveでの発表以降、数カ月にわたりテストを続けている」と<a href="https://x.com/adsliaison/status/1991969383414210845">返信</a>。このコメントから、今回の広告表示は「新規ローンチ」ではなく 既存テストの一環 として位置づけられていることがわかる。</p>
-<p>Clark氏はこれに対し、公式アナウンスから実際の画面で目撃されるまでには時間差があることを指摘し、自身は「新機能が“野生で初めて見つかるタイミング”を重視している」と補足した。</p>
-<h2>最初の報告例：Greg Sterling 氏がHVAC検索で広告表示を確認</h2>
-<p>11月19日、マーケティングアナリスト Greg Sterling 氏（@gsterling） は、AI Modeで「HVAC repair」の検索を行った際に広告が表示されたスクリーンショットをXに投稿した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/saw_first_ads_in_aimode_c50debed95/saw_first_ads_in_aimode_c50debed95.jpg" alt="saw first ads in aimode.jpg" /></p>
-<p>スクリーンショットでは、AIの回答直下に「Sponsored」と表示されたローカルサービス広告が2件並んでおり、AI Mode内に広告ユニットが直接組み込まれている様子が確認できる。Sterling 氏の例は「最初に目撃されたケース」として複数の海外メディアで紹介された。</p>
-<h2>Brodie Clark 氏が“通常UI”での広告表示を報告、Labs以外にも拡大か</h2>
-<p>Sterling 氏のケースが「Labsインターフェース（実験機能）」での表示だったのに対し、Brodie Clark 氏は Labsではない通常の検索UI でもAI Mode内に広告が表示されることを確認した点が特徴的だ。</p>
-<p>Clark 氏は複数の検索（ベッドシーツ比較や emergency plumber など）で広告を再現し、表示位置はいずれも AI回答の最下部 だったと説明している。これにより、広告表示が「Labs限定」ではなく、一部環境では一般ユーザーのインターフェース上でも行われていることが判明した。</p>
-<h2>AI Overviewsに続き、広告統合はAI Modeへも拡大か</h2>
-<p>GoogleはAI Overviewsでも広告統合のテストを開始しており、表示形式（回答最下部への自然な挿入）は今回のAI Modeの例と共通している。</p>
-<p>現時点で、GoogleはAI Modeでの広告表示の地域展開や時期に関する追加アナウンスを行っていない。テストは一部ユーザー環境で継続しているとみられる。日本語UI（google.co.jp）や日本のユーザー環境で、AI Mode内に広告が表示された報告は現在のところ確認されていない。</p>
-]]></description>
-      <pubDate>Thu, 27 Nov 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/27 [THU]OpenAI、ChatGPTに商品調査・比較を自動化する「ショッピング リサーチ」追加──ホリデーシーズンに向け“ほぼ無制限”で提供、Perplexityも同種機能を発表</title>
