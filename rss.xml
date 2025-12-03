@@ -5,6 +5,42 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIが図表や文書を“読めるデータ”に──パナソニックとUCLA、拡散モデルを用いた視覚言語モデル「LaViDa」を発表　生成速度は自己回帰型VLMの約2倍に</title>
+      <link>https://ledge.ai/articles/panasonic_lavida_diffusion_vlm_release</link>
+      <description><![CDATA[<p>パナソニックは2025年11月27日、米カリフォルニア大学ロサンゼルス校（UCLA）の研究者らと共同で、拡散モデルを活用した新しい視覚言語モデル（VLM）「LaViDa」を開発したと<a href="https://news.panasonic.com/jp/press/jn251127-2">発表</a>した。LaViDaは、従来主流だった自己回帰型手法と同等の精度を保ちつつ、文章生成を約2倍に高速化できるという。</p>
+<h2>拡散型言語モデルを採用したLaViDaの仕組み</h2>
+<p>LaViDaは、画像とテキストを同時に扱うマルチモーダルAIで、言語生成に拡散モデルを用いる点に特徴がある。従来の視覚言語モデルは、文章を1語ずつ生成する自己回帰型手法を採用しており、テキストが長くなるほど推論速度が低下する課題があった。</p>
+<p>拡散モデルでは、マスクされた語を“段階的に復元”する形で文章を生成でき、ステップ数を調整することで高速化が可能になる。</p>
+<p><strong>LaViDaの全体構造。複数の画像ビューをエンコードし、拡散型言語モデルが段階的にテキストを復元する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2e3471c0d9/x2_2e3471c0d9.jpg" alt="x2.jpg" /></p>
+<p>LaViDaは、Prefix-DLMと呼ばれる効率化手法も採用し、画像やプロンプトに関連する領域だけを参照することで、計算量を抑えながら推論を行えるようになっている。</p>
+<h2>図表や文書を“構造化データ”へ出力できる LaViDa の特性</h2>
+<p>LaViDaは、文章生成だけでなく、図表・画像の内容を JSON 形式などの「構造化データ」に変換する能力を持つ。これにより、これまで「画像として扱われていた報告書内の図表」などを、AIエージェントが直接処理しやすい形に変換できる。</p>
+<p><strong>LaViDaのフォーマット制約に沿った生成例（左）と画像分類をJSON形式に構造化した例（右）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub5_3368e7e69a/sub5_3368e7e69a.jpg" alt="sub5.jpg" /></p>
+<p>このように LaViDa は、</p>
+<ul>
+<li>指定形式の詩生成</li>
+<li>チャート／画像の要素抽出</li>
+<li>JSON形式での出力</li>
+</ul>
+<p>といった “フォーマット遵守型の生成” に強みを持つという。</p>
+<h2>複数のマルチモーダルタスクで既存VLMを上回る性能</h2>
+<p>発表によれば、LaViDa は MMMU、MathVista、ChartQA、ScienceQA などの多様なデータセットで既存の自己回帰型VLMを上回る結果を示した。さらに、COCO Captioning では</p>
+<ul>
+<li>推論速度：約1.92倍</li>
+<li>精度（CIDErスコア）：既存モデルを上回る</li>
+</ul>
+<p>という結果が報告されている。</p>
+<p><strong>LaViDaのベンチマーク結果。複数タスクで精度が向上し、COCO Captionでは速度と品質の両立（NFE制御）が確認された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_6103b442df/sub4_6103b442df.jpg" alt="sub4.jpg" /></p>
+<h2>現場のドキュメント処理を支える“AIが読める化”技術へ</h2>
+<p>現在パナソニックは、業務現場のAIエージェント活用を推進しており、LaViDa を「多種多様な現場ドキュメントを AI が扱える形式に変換する技術」と位置づける。PDF・画像・写真・報告書など、現場に存在する“非構造データ”を自動的に整理・変換することで、現場のDXを加速する狙いがあるという。</p>
+<p>LaViDa の研究成果は AI 国際会議 NeurIPS 2025 に採択されており、12月3〜5日に米サンディエゴで発表される予定だ。</p>
+]]></description>
+      <pubDate>Tue, 02 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本の大手3社、AI検索「Perplexity」に一斉抗議──共同・毎日・産経が著作権侵害と虚偽表示を指摘、47NEWSに数十万回アクセスも</title>
       <link>https://ledge.ai/articles/perplexity_japan_media_protest_20251201</link>
       <description><![CDATA[<p>2025年12月1日、共同通信社、毎日新聞社、産業経済新聞社（産経新聞）は、米Perplexity AIが提供するAI検索サービス「Perplexity」に対し、それぞれ抗議書を送付したと発表した。いずれの会社も、自社記事が許諾なく収集・複製され、回答生成に利用されていると主張している。3社の発表時点で、Perplexity AIによる今回の抗議書に関する公式コメントは確認されていない。</p>
