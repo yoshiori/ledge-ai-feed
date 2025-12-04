@@ -80,60 +80,6 @@
       <pubDate>Wed, 03 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/3 [WED]OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_code_red_improvement_directive</link>
-      <description><![CDATA[<p>米テック系メディア The Information は2025年12月1日（米国時間）、OpenAIのCEOであるサム・アルトマン氏が社員向けの社内メモで 「code red（非常事態）」を宣言し、ChatGPTの改善を最優先するよう指示した と<a href="https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort">報じた</a>。</p>
-<p>同メディアによると、アルトマン氏はメモで、ChatGPT の 速度、応答品質、信頼性、パーソナライズ性 を中心に改善を加速する必要性を強調。社内リソースの再配分を求め、他のプロジェクトについては一部を延期または凍結する方針を示したという。</p>
-<p>この報道を受け、Reuters は「The Information reported on Monday」として<a href="https://www.reuters.com/business/media-telecom/openai-plans-improve-chatgpt-delay-initiatives-such-advertising-information-2025-12-02/">記事</a>を配信し、広告導入や新規イニシアティブの遅延が検討されている点を伝えた。Bloomberg も同内容を紹介しつつ、OpenAIがChatGPTの改善に社内資源を集中させる状況を説明した。また、Wall Street Journal（WSJ） は独自に社内メモを確認したとし、日次の進捗チェックやチーム再配置など、運用上の詳細を補足している。</p>
-<h2>競争激化で「ChatGPTそのもの」の品質が問われる局面に</h2>
-<p>背景には、競合AIモデルの性能向上がある。とくに Google が開発する最新モデル「Gemini 3」は、複数のベンチマークで高い評価を受けており、AIチャット領域で OpenAI の優位性を揺るがしつつあると報じられている。こうした状況の中で、OpenAI 内部では ChatGPT を巡る競争が一段と厳しくなっているとの見方が、主要メディアの報道で広がっていた。</p>
-<p>OpenAI はここ数ヶ月、広告テストやショッピング支援など新機能の展開を準備していたが、今回の「code red」宣言によって、同社が 短期的な新機能追加よりも、ChatGPTそのものの品質改善を優先課題に据えた ことが示されたかたちだ。
-現時点で、OpenAI は code red 宣言について公式の声明を発表していない。</p>
-]]></description>
-      <pubDate>Wed, 03 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/12/3 [WED]生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
-      <link>https://ledge.ai/articles/nri_it_survey_2025_generative_ai_literacy_gap</link>
-      <description><![CDATA[<p>野村総合研究所（NRI）は2025年11月25日、日本企業517社を対象に実施した「IT活用実態調査（2025年）」の結果を<a href="https://www.nri.com/jp/news/newsrelease/20251125_1.html">公表</a>した。調査では、生成AIの導入が急速に広がる一方、その活用を支えるリテラシーやリスク管理の体制が追いついていない実態が浮き彫りとなったという。</p>
-<h2>IT予算は増加傾向が続くが、前年から伸びが鈍化</h2>
-<p>2025年度のIT予算が「増加した」と回答した企業は49.0％で、前年（59.0％）から10ポイント低下した。2026年度を「増加見込み」とする企業も47.5％と半数近くにのぼり、増加基調は続くものの、勢いはやや落ち着きつつある。</p>
-<p><strong>IT予算の推移（NRI「IT活用実態調査2025」より）。2025年度は増加の勢いが前年より鈍化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054612_822d38fda9/000054612_822d38fda9.png" alt="000054612.png" /></p>
-<h2>生成AIの導入率は57.7％、導入済＋検討中で76％</h2>
-<p>生成AIを「導入済み」と回答した企業は57.7％に達し、前年（44.8％）から一段と普及が進んだ。ChatGPTやGeminiといった汎用サービスの浸透により、「導入検討中」の割合は減少し、導入フェーズが“検討”から“活用強化”へ移行していることがうかがえる。</p>
-<p><strong>新技術の導入状況。生成AIは57.7％が導入済み、ノーコード／ローコードツールも51.0％に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054613_b373ec554c/000054613_b373ec554c.png" alt="000054613.png" /></p>
-<h2>課題のトップは「リテラシー不足」70.3％、次いで「リスク管理の難しさ」48.5％</h2>
-<p>生成AI活用における課題として最も多かったのは「リテラシーやスキルが不足している」（70.3％）で、前年の65.4％から増加した。導入フェーズが進む中で、実業務レベルでの使いこなしや品質管理が要求される場面が増え、教育・トレーニング体制の不足が顕在化した形だ。</p>
-<p><strong>生成AI活用における課題。1位はリテラシー不足（70.3％）、2位はリスク管理（48.5％）</strong>
-続く課題は「リスクを把握し管理することが難しい」（48.5％）。機密データの取り扱いや生成物の品質保証など、ガバナンス面の整備が追いつかない企業が多い。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054614_9cb8e79179/000054614_9cb8e79179.png" alt="000054614.png" /></p>
-<h2>レガシーシステムは依然として約半数に残存</h2>
-<p>企業の情報システムにおけるレガシー環境の残存率は、アプリケーションが47.3％、基盤系が48.2％と、前年から改善はみられるものの依然として高水準だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054615_12b800e0f8/000054615_12b800e0f8.png" alt="000054615.png" /></p>
-<p>懸念点のトップは「ブラックボックス化・有識者不足」（51.6％）。続いて、「ベンダーサポートの終了」（50.1％）が挙げられ、技術負債が経営やIT投資の柔軟性を阻害している状況が明確になった。</p>
-<p><strong>レガシーシステムに関する懸念。ブラックボックス化と人材不足が半数超</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054616_921e943c42/000054616_921e943c42.png" alt="000054616.png" /></p>
-<h2>「必要だが足りない」デジタル人材、ITストラテジストの保有率は29.6％</h2>
-<p>専門人材の確保については、「保有すべき」と回答した企業は多数である一方、社内に「保有している」と答えた割合は大きく下回った。</p>
-<p>特に顕著なのはITストラテジストで、必要性71.9％に対し保有29.6％と大きなギャップがある。また、プロジェクトマネージャーは必要80.1％に対し保有55.0％で、ビジネス・テクノロジー双方の専門家が不足している。</p>
-<p><strong>専門人材の必要性と保有状況。ITストラテジストなど、必要性に対し保有が大きく不足</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054617_5b78391399/000054617_5b78391399.png" alt="000054617.png" /></p>
-<h2>生成AIの普及と同時に浮き彫りになる構造的な課題</h2>
-<p>調査結果からは、</p>
-<ul>
-<li>生成AI導入フェーズの急速な進展</li>
-<li>しかしリテラシー不足・リスク管理不足という基盤整備の遅れ</li>
-<li>レガシーシステムと技術負債の残存</li>
-<li>専門人材の不足</li>
-</ul>
-<p>という「普及と課題のギャップ」が明確に示されている。
-NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し、課題解決を支援するとしている。</p>
-]]></description>
-      <pubDate>Wed, 03 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>生成AIをよく使う人は「活発で外向的」──NTTドコモ モバイル社会研究所、若年層では“心配性ゆえの不安”も</title>
       <link>https://ledge.ai/articles/genai_user_extroversion_docomo_survey_2025</link>
       <description><![CDATA[<p>NTTドコモ モバイル社会研究所は12月1日、2025年2月に実施した「生成AI利用意識・行動調査」をもとに、生成AIの利用頻度と性格特性の関係を分析した結果を<a href="https://www.moba-ken.jp/project/lifestyle/20251201.html">発表</a>した。</p>
@@ -253,6 +199,18 @@ NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し
       <pubDate>Mon, 01 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
+      <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
+      <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
+<p>研究チームは、台湾と同規模の約3.6万平方キロメートルの領域を対象に、1000〜2000機規模の通信妨害装置（ジャマー）を上空に展開することで、Starlinkネットワークを一時的に抑圧できる可能性があると試算している。</p>
+<p>SCMPが確認したのは、中国語の専門誌『系统工程与电子技术（Systems Engineering and Electronics）』に掲載された論文で、中国の軍事工学研究者らが作成したもの。同紙によると、研究者はウクライナ戦争でStarlinkが通信インフラとして軍事作戦を支え続けたことを受け、台湾有事などを想定した電子戦の可能性を分析したという。</p>
+<p>Starlinkは、高度約550kmの低軌道衛星が多数稼働し、自律的に接続先を切り替えるメッシュ型ネットワークを形成している。このため、地上からの単一の妨害では通信を完全に遮断することが難しいとされる。研究チームはそこで、航空機・気球・ドローンなどの空中ジャマー（通信妨害装置）を広範囲に配置する方式を検証し、一定高度で密度の高い妨害グリッドを形成することで、特定エリアのStarlink通信を抑圧できる可能性が示された。</p>
+<p>米技術メディアの<a href="https://www.tomshardware.com/networking/china-simulated-a-starlink-blockade-over-taiwan-ccp-scientists-say-around-1-000-drones-would-be-enough-to-cut-satellite-internet-to-the-island">Tom’s Hardware</a>は、論文のシミュレーション条件を詳細に紹介している。それによれば、ジャマーは高度約20kmに展開し、3〜6マイル間隔で配置することで“電磁シールド”のような妨害グリッドを形成する必要があるとされる。また、高出力装置を搭載した航空機を使う場合は約935ノードで足りる一方、小型ドローンなどの低出力ジャマーでは1000〜2000ノードが必要になるという。</p>
+<p>ただし、数千機規模の空中ジャマーを台湾上空に長時間展開し続けるには、燃料・整備・指揮統制・対空防衛への対応など、多くの運用上の課題が伴う。複数の報道でも、今回の内容はあくまでもシミュレーション研究であり、実際に中国が同規模の演習を行った証拠は確認されていない。</p>
+]]></description>
+      <pubDate>Mon, 01 Dec 2025 03:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DeepSeek、自己検証型数学推論モデル「DeepSeek-Math-V2」を公開──IMO金メダル級の定理証明能力をオープンソースで</title>
       <link>https://ledge.ai/articles/deepseek_math_v2_release</link>
       <description><![CDATA[<p>中国のAI開発企業 DeepSeek は、数学的推論に特化した大規模言語モデル「DeepSeek-Math-V2」を2025年11月27日にHugging Face 上の model cardで<a href="https://huggingface.co/deepseek-ai/DeepSeek-Math-V2#deepseekmath-v2-towards-self-verifiable-mathematical-reasoning">公開</a>した。モデルはオープンウェイトで、商用利用も可能な Apache 2.0 ライセンスで提供されている。</p>
@@ -364,53 +322,6 @@ NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Opus 4.5」を発表──ソフトウェア開発・エージェント性能・安全性を強化した最新フラッグシップモデル</title>
-      <link>https://ledge.ai/articles/claude_opus_4_5_release</link>
-      <description><![CDATA[<p>Anthropicは2025年11月24日（米国時間）、最新フラッグシップモデル「Claude Opus 4.5」を<a href="https://www.anthropic.com/news/claude-opus-4-5">発表</a>した。同社はOpus 4.5を「コーディング、エージェント、コンピュータ利用において世界最高水準のモデル」と位置付けており、ソフトウェア開発から長時間のリサーチ、マルチツールを用いたエージェントタスクまで幅広い領域で性能が向上したと説明している。</p>
-<h2>ソフトウェアエンジニアリング分野で主要モデルを上回るスコア</h2>
-<p>Opus 4.5はソフトウェアバグ修正タスクのベンチマークである SWE-bench Verified（n=500） で、正答率80.9％を記録した。これは、前世代モデルのOpus 4.1やSonnet 4.5に加え、他社のフラッグシップモデルであるGemini 3 ProやGPT-5.1 Codex-Maxなどを上回るスコアだという。</p>
-<p><strong>SWE-bench VerifiedにおけるOpus 4.5（左端）の正答率は80.9％と主要モデルを上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_1_2c2dfa96a8/opus4_5_1_2c2dfa96a8.jpg" alt="opus4-5_1.jpg" /></p>
-<h2>総合ベンチマークでも全面的に強化</h2>
-<p>ソフトウェアエンジニアリング以外の評価でも幅広くスコアを伸ばしている。Anthropicが公開した比較表では、エージェント的なコーディング、ターミナル操作、ツール利用、PC操作、さらに大学院レベルの推論（GPQA Diamond）や視覚推論（MMMU）、多言語QA（MMMLU）など、多くの項目でOpus 4.1やSonnet 4.5からスコアを更新していることが示されている。</p>
-<p><strong>Opus 4.5は広範な評価指標で前世代を上回り、複数の領域でSOTA（state of the art）を獲得した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_2_4cb9404311/opus4_5_2_4cb9404311.jpg" alt="opus4-5_2.jpg" /></p>
-<h2>多言語コーディングでも広範に改善</h2>
-<p>Opus 4.5は、SWE-bench Multilingual にも対応し、C / C++ / Go / Java / JS/TS / PHP / Ruby / Rust など8言語で前世代を上回るPASS@1を記録した。</p>
-<p><strong>多言語コーディング評価（SWE-bench Multilingual）。Opus 4.5（赤）は8言語の多くで最高スコアを記録した</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_3_cfc4fb910a/opus4_5_3_cfc4fb910a.jpg" alt="opus4-5_3.jpg" /></p>
-<h2>エージェント行動・PC操作・ツール利用能力も大幅向上</h2>
-<p>Opus 4.5は、エージェント行動やマルチツールを扱うタスクでも大幅に性能を向上させている。</p>
-<ul>
-<li>Terminal-bench 2.0（ターミナル操作）で59.3％</li>
-<li>t2-bench（ツール利用）でRetail 88.9％、Telecom 98.2％</li>
-<li>OSWorld（PC操作）で66.3％</li>
-</ul>
-<p>これらのスコアは前世代からの大きな改善で、実務的なエージェントタスクに必要な能力が全体的に底上げされている。</p>
-<p><strong>Sonnet 4.5 vs Opus 4.5 のパズル解法デモ</strong>
-Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet 4.5とOpus 4.5に同じパズルゲームを解かせた」デモ動画も公開している。Opus 4.5は条件制約のある環境でも自律的に手順を探索し、より安定してクリアする様子が示されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=2MJDdzSXL74">YouTube</a></p>
-<h2>安全性評価：「懸念行動」を抑えたモデル設計</h2>
-<p>AnthropicはOpus 4.5を「安全性に最も優れたモデル」と位置付けている。内部評価では、危険行動や望ましくない自律動作につながる可能性を測る Concerning behavior（懸念行動） の指標で、Opus 4.5が最も低い値となった。</p>
-<p><strong>懸念行動の内部評価。Opus 4.5が最も低く、安全性指標で優位性を示す</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_4_b32e228495/opus4_5_4_b32e228495.jpg" alt="opus4-5_4.jpg" /></p>
-<h2>プロンプトインジェクション攻撃への耐性</h2>
-<p>外部評価機関Gray Swanによる強力なプロンプトインジェクション攻撃テストでも、Opus 4.5は攻撃成功率が最も低く抑えられた。Gemini 3 Pro Thinking、GPT-5.1 Thinking、Haiku 4.5 Thinkingなどと比較しても、相対的に高い安全性が確認されている。</p>
-<p><strong>プロンプトインジェクション攻撃への耐性（低いほど安全）。Opus 4.5 Thinkingが最も低い攻撃成功率を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_5_5_c58f60c1ea/opus4_5_5_c58f60c1ea.webp" alt="opus4-5_5.webp" /></p>
-<h2>長時間タスクとツール連携を支える「advanced tool use」</h2>
-<p>今回の発表では「advanced tool use」についても触れられている。これはDeveloper Platformにおける機能群で</p>
-<ul>
-<li>必要なタイミングでツール定義を検索・読み込む <strong>Tool Search Tool</strong></li>
-<li>Pythonコードの中で複数のツールを連携させる <strong>Programmatic Tool Calling</strong>
-などにより、長時間タスクや複数ツールを扱うエージェントの効率を高める。</li>
-</ul>
-<p>Opus 4.5はこうした基盤を前提に設計されており、企業利用・実務エージェント運用への対応を強化したモデルと位置付けられる。</p>
-<p>AnthropicはOpus 4.5の開発背景や設計思想をまとめた公式動画も公開している。同社が強調する「エージェント運用」「高い安全性」「コーディング性能の向上」といったポイントを視覚的に確認できる。</p>
-]]></description>
-      <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>“自分の分身AI”同士を討論させると何が起きる？──筑波大学とMicrosoft、AIが媒介する新しい「自己省察」の学びを報告</title>
       <link>https://ledge.ai/articles/digital_human_debates_reflecting_with_ai</link>
       <description><![CDATA[<p>筑波大学とMicrosoftの研究者らは2025年11月17日、利用者自身の価値観や思考パターンを反映した「分身AI（Digital Human）」同士を討論させ、本人がその様子を傍観するという実験の結果をまとめた論文を<a href="https://arxiv.org/abs/2511.13046">公開</a>した。研究チームは、参加者がAIの能力理解を深めただけでなく、「自分ではない自分」を観察することで、自身の思考や価値観を客観的に見つめ直す新たな学習効果を確認したという。</p>
@@ -483,23 +394,6 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
 </ul>
 <p>ただし、倫理や法的側面の深い学習までは含まれておらず、今後の課題とされている。</p>
 <p>研究では、「AIとの協働」ではなく “AIを通して自分を理解する” という新しい可能性を示しており、分身AIが自律的に議論する様子を観察することで、ユーザーは自らの論理構造・思考の癖を外在化し、客観的に省察できるという。研究チームは、この“Reflecting with AI”が今後のAIリテラシーにおける重要な能力になると位置づけている。</p>
-]]></description>
-      <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、誰でも学べるAI学習サイト「Google Skills」を正式公開──Cloud・DeepMind・教育部門を横断する3000講座を展開</title>
-      <link>https://ledge.ai/articles/google_skills_ai_learning_platform_launch</link>
-      <description><![CDATA[<p>Googleは2025年10月21日（米国時間）、新しいAI学習プラットフォーム「Google Skills」を<a href="https://blog.google/outreach-initiatives/education/google-skills/">発表</a>した。同サイトでは、Google Cloud、Google DeepMind、Grow with Google、Google for Educationなど、同社の複数部門が提供してきた教育コンテンツを統合。3000種類を超えるAI関連の講座・体験ラボ・認定プログラムを、一元的に学べる学習拠点として開設された。</p>
-<h2>AI教育の中核を担う新サイト</h2>
-<p>Google公式ブログ「Start learning all things AI on the new Google Skills」によると、Google Skillsは“AI for Everyone（すべての人のためのAI）”をテーマに、誰もがAIスキルを体系的に学べるよう設計されている。初心者、エンジニア、企業リーダーなど幅広い層を対象に、AI、データ分析、クラウド、生成AIなど多様な分野を網羅。各コースはオンデマンド形式で受講でき、学習成果はLinkedInなどの外部プラットフォームで共有できる。提供内容には、Google Cloudの認定資格プログラムやAI Essentials シリーズ、DeepMindのAI倫理教材などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Qbix0BOPcgE">YouTube</a></p>
-<p>今回の正式公開に先立ち、Google Cloudは10月10日付のブログ「Google Skills: Your new home for Google AI learning and more」で、新プラットフォームの構想を公表していた。当時は正式リリース前で、「AIやクラウドに関する学習リソースを一元化し、近日中に詳細を発表する」としていた。Gemini Code Assist（旧Duet AI for Developers）やQwiklabs（現Cloud Labs）と連携し、AIトレーニングの実践環境を統合する方針も示されていた。</p>
-<h2>3000超のコースと実践的ラボを集約</h2>
-<p>Google Skillsでは、Googleがこれまで個別に展開してきた学習リソースを一か所に集約。AIモデル開発、クラウド基盤運用、データ可視化、サイバーセキュリティなど、実践重視の3000超のコースとラボを提供する。一部コンテンツは無料で公開され、修了証や認定資格を取得することでキャリア開発にもつなげられる。また、組織向けにはチーム単位での進捗管理や学習成果の可視化機能も用意されている。</p>
-<h2>今後の展望──教育機関・企業研修にも拡大へ</h2>
-<p>Googleは今後、教育機関や企業研修への展開を進める方針を示しており、AIスキルの標準教育基盤としての活用を目指す。
-公式ブログでは、「AI教育へのアクセスを民主化し、誰もがテクノロジーの未来を形づくる機会を得られるようにする」としている。
-同社は今後もDeepMindやCloud AIチームの最新教材を追加し、AI人材育成をグローバルに推進する考えだ。</p>
 ]]></description>
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
@@ -581,6 +475,47 @@ Opus 4.5のエージェント能力を示す例として、Anthropicは「Sonnet
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ビジネス2025/12/3 [WED]生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
+      <link>https://ledge.ai/articles/nri_it_survey_2025_generative_ai_literacy_gap</link>
+      <description><![CDATA[<p>野村総合研究所（NRI）は2025年11月25日、日本企業517社を対象に実施した「IT活用実態調査（2025年）」の結果を<a href="https://www.nri.com/jp/news/newsrelease/20251125_1.html">公表</a>した。調査では、生成AIの導入が急速に広がる一方、その活用を支えるリテラシーやリスク管理の体制が追いついていない実態が浮き彫りとなったという。</p>
+<h2>IT予算は増加傾向が続くが、前年から伸びが鈍化</h2>
+<p>2025年度のIT予算が「増加した」と回答した企業は49.0％で、前年（59.0％）から10ポイント低下した。2026年度を「増加見込み」とする企業も47.5％と半数近くにのぼり、増加基調は続くものの、勢いはやや落ち着きつつある。</p>
+<p><strong>IT予算の推移（NRI「IT活用実態調査2025」より）。2025年度は増加の勢いが前年より鈍化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054612_822d38fda9/000054612_822d38fda9.png" alt="000054612.png" /></p>
+<h2>生成AIの導入率は57.7％、導入済＋検討中で76％</h2>
+<p>生成AIを「導入済み」と回答した企業は57.7％に達し、前年（44.8％）から一段と普及が進んだ。ChatGPTやGeminiといった汎用サービスの浸透により、「導入検討中」の割合は減少し、導入フェーズが“検討”から“活用強化”へ移行していることがうかがえる。</p>
+<p><strong>新技術の導入状況。生成AIは57.7％が導入済み、ノーコード／ローコードツールも51.0％に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054613_b373ec554c/000054613_b373ec554c.png" alt="000054613.png" /></p>
+<h2>課題のトップは「リテラシー不足」70.3％、次いで「リスク管理の難しさ」48.5％</h2>
+<p>生成AI活用における課題として最も多かったのは「リテラシーやスキルが不足している」（70.3％）で、前年の65.4％から増加した。導入フェーズが進む中で、実業務レベルでの使いこなしや品質管理が要求される場面が増え、教育・トレーニング体制の不足が顕在化した形だ。</p>
+<p><strong>生成AI活用における課題。1位はリテラシー不足（70.3％）、2位はリスク管理（48.5％）</strong>
+続く課題は「リスクを把握し管理することが難しい」（48.5％）。機密データの取り扱いや生成物の品質保証など、ガバナンス面の整備が追いつかない企業が多い。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054614_9cb8e79179/000054614_9cb8e79179.png" alt="000054614.png" /></p>
+<h2>レガシーシステムは依然として約半数に残存</h2>
+<p>企業の情報システムにおけるレガシー環境の残存率は、アプリケーションが47.3％、基盤系が48.2％と、前年から改善はみられるものの依然として高水準だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054615_12b800e0f8/000054615_12b800e0f8.png" alt="000054615.png" /></p>
+<p>懸念点のトップは「ブラックボックス化・有識者不足」（51.6％）。続いて、「ベンダーサポートの終了」（50.1％）が挙げられ、技術負債が経営やIT投資の柔軟性を阻害している状況が明確になった。</p>
+<p><strong>レガシーシステムに関する懸念。ブラックボックス化と人材不足が半数超</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054616_921e943c42/000054616_921e943c42.png" alt="000054616.png" /></p>
+<h2>「必要だが足りない」デジタル人材、ITストラテジストの保有率は29.6％</h2>
+<p>専門人材の確保については、「保有すべき」と回答した企業は多数である一方、社内に「保有している」と答えた割合は大きく下回った。</p>
+<p>特に顕著なのはITストラテジストで、必要性71.9％に対し保有29.6％と大きなギャップがある。また、プロジェクトマネージャーは必要80.1％に対し保有55.0％で、ビジネス・テクノロジー双方の専門家が不足している。</p>
+<p><strong>専門人材の必要性と保有状況。ITストラテジストなど、必要性に対し保有が大きく不足</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054617_5b78391399/000054617_5b78391399.png" alt="000054617.png" /></p>
+<h2>生成AIの普及と同時に浮き彫りになる構造的な課題</h2>
+<p>調査結果からは、</p>
+<ul>
+<li>生成AI導入フェーズの急速な進展</li>
+<li>しかしリテラシー不足・リスク管理不足という基盤整備の遅れ</li>
+<li>レガシーシステムと技術負債の残存</li>
+<li>専門人材の不足</li>
+</ul>
+<p>という「普及と課題のギャップ」が明確に示されている。
+NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し、課題解決を支援するとしている。</p>
+]]></description>
+      <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
       <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
       <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
@@ -602,6 +537,19 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>倫理と自由の境界線</h2>
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
+]]></description>
+      <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ビジネス2025/12/3 [WED]OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_code_red_improvement_directive</link>
+      <description><![CDATA[<p>米テック系メディア The Information は2025年12月1日（米国時間）、OpenAIのCEOであるサム・アルトマン氏が社員向けの社内メモで 「code red（非常事態）」を宣言し、ChatGPTの改善を最優先するよう指示した と<a href="https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort">報じた</a>。</p>
+<p>同メディアによると、アルトマン氏はメモで、ChatGPT の 速度、応答品質、信頼性、パーソナライズ性 を中心に改善を加速する必要性を強調。社内リソースの再配分を求め、他のプロジェクトについては一部を延期または凍結する方針を示したという。</p>
+<p>この報道を受け、Reuters は「The Information reported on Monday」として<a href="https://www.reuters.com/business/media-telecom/openai-plans-improve-chatgpt-delay-initiatives-such-advertising-information-2025-12-02/">記事</a>を配信し、広告導入や新規イニシアティブの遅延が検討されている点を伝えた。Bloomberg も同内容を紹介しつつ、OpenAIがChatGPTの改善に社内資源を集中させる状況を説明した。また、Wall Street Journal（WSJ） は独自に社内メモを確認したとし、日次の進捗チェックやチーム再配置など、運用上の詳細を補足している。</p>
+<h2>競争激化で「ChatGPTそのもの」の品質が問われる局面に</h2>
+<p>背景には、競合AIモデルの性能向上がある。とくに Google が開発する最新モデル「Gemini 3」は、複数のベンチマークで高い評価を受けており、AIチャット領域で OpenAI の優位性を揺るがしつつあると報じられている。こうした状況の中で、OpenAI 内部では ChatGPT を巡る競争が一段と厳しくなっているとの見方が、主要メディアの報道で広がっていた。</p>
+<p>OpenAI はここ数ヶ月、広告テストやショッピング支援など新機能の展開を準備していたが、今回の「code red」宣言によって、同社が 短期的な新機能追加よりも、ChatGPTそのものの品質改善を優先課題に据えた ことが示されたかたちだ。
+現時点で、OpenAI は code red 宣言について公式の声明を発表していない。</p>
 ]]></description>
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
@@ -702,18 +650,6 @@ AIが制作の基本工程となる時代に、どのような開示ルールが
 <p>両社は今後、アーティストの権利を尊重しつつ、ファンやクリエイターに新しい音楽体験を提供する「ライセンス型AI音楽プラットフォーム」の構築を進めるとしている。</p>
 ]]></description>
       <pubDate>Fri, 28 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国研究者、台湾上空でStarlink通信を遮断するシミュレーションを実施──最大2000機のドローンなどによる電子妨害が必要と試算</title>
-      <link>https://ledge.ai/articles/china_starlink_jamming_simulation_taiwan</link>
-      <description><![CDATA[<p>中国と台湾の緊張が続くなか、中国本土の研究者が「台湾上空でStarlink通信網を妨害する」大規模電子戦シミュレーションを実施したと、香港紙<a href="https://www.scmp.com/news/china/science/article/3333523/chinese-researchers-simulate-large-scale-electronic-warfare-against-elon-musks-starlink">サウスチャイナ・モーニング・ポスト（SCMP）</a>が2025年11月23日に報じた。</p>
-<p>研究チームは、台湾と同規模の約3.6万平方キロメートルの領域を対象に、1000〜2000機規模の通信妨害装置（ジャマー）を上空に展開することで、Starlinkネットワークを一時的に抑圧できる可能性があると試算している。</p>
-<p>SCMPが確認したのは、中国語の専門誌『系统工程与电子技术（Systems Engineering and Electronics）』に掲載された論文で、中国の軍事工学研究者らが作成したもの。同紙によると、研究者はウクライナ戦争でStarlinkが通信インフラとして軍事作戦を支え続けたことを受け、台湾有事などを想定した電子戦の可能性を分析したという。</p>
-<p>Starlinkは、高度約550kmの低軌道衛星が多数稼働し、自律的に接続先を切り替えるメッシュ型ネットワークを形成している。このため、地上からの単一の妨害では通信を完全に遮断することが難しいとされる。研究チームはそこで、航空機・気球・ドローンなどの空中ジャマー（通信妨害装置）を広範囲に配置する方式を検証し、一定高度で密度の高い妨害グリッドを形成することで、特定エリアのStarlink通信を抑圧できる可能性が示された。</p>
-<p>米技術メディアの<a href="https://www.tomshardware.com/networking/china-simulated-a-starlink-blockade-over-taiwan-ccp-scientists-say-around-1-000-drones-would-be-enough-to-cut-satellite-internet-to-the-island">Tom’s Hardware</a>は、論文のシミュレーション条件を詳細に紹介している。それによれば、ジャマーは高度約20kmに展開し、3〜6マイル間隔で配置することで“電磁シールド”のような妨害グリッドを形成する必要があるとされる。また、高出力装置を搭載した航空機を使う場合は約935ノードで足りる一方、小型ドローンなどの低出力ジャマーでは1000〜2000ノードが必要になるという。</p>
-<p>ただし、数千機規模の空中ジャマーを台湾上空に長時間展開し続けるには、燃料・整備・指揮統制・対空防衛への対応など、多くの運用上の課題が伴う。複数の報道でも、今回の内容はあくまでもシミュレーション研究であり、実際に中国が同規模の演習を行った証拠は確認されていない。</p>
-]]></description>
-      <pubDate>Wed, 26 Nov 2025 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
