@@ -5,6 +5,16 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ARグラスだけで2D→3D変換を実現　新モデル「XREAL 1S」ーーXREAL、日本先行で予約受付を開始　2026年1月下旬発売へ</title>
+      <link>https://ledge.ai/articles/xreal_1s_2d_to_3d_ar_glasses_launch</link>
+      <description><![CDATA[<p>XREALは12月1日、新型ARグラス「XREAL 1S」を<a href="https://prtimes.jp/main/html/rd/p/000000226.000070978.html">発表</a>し、同日より日本で予約受付を開始した。発売は2026年1月下旬を予定。日本がグローバルで初の発表および予約開始地域となる。価格は6万7,980円（税込）。</p>
+<p>同製品は、ARグラス単体で2D映像を3D映像へリアルタイムに変換し、空間上に大画面として表示できる点が最大の特徴。映画や動画コンテンツを、スマートフォンやPCを接続せずに立体化できる「空間ディスプレイ」として機能するという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/70978_226_48b718eda105e60902793c5b6cd42fec_2475x2475_3ec3f53823/70978_226_48b718eda105e60902793c5b6cd42fec_2475x2475_3ec3f53823.webp" alt="70978-226-48b718eda105e60902793c5b6cd42fec-2475x2475.webp" /></p>
+<p>XREAL 1Sは映像の立体化に加え、高輝度ディスプレイや装着性の向上を図った設計を採用。長時間利用を前提とした軽量化も進められている。XREALの周辺機器やエコシステムとの連携にも対応し、今後の拡張にも備えたモデルとなる。予約はXREAL公式ストアなどで受け付けており、発売は2026年1月下旬を予定している。</p>
+]]></description>
+      <pubDate>Fri, 05 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>デジタル庁、プリファードの国産LLM「PLaMo翻訳」をガバメントAIに導入──12月に庁内利用開始、2026年から他府省へ展開</title>
       <link>https://ledge.ai/articles/digital_agency_plamo_translation_government_ai_launch</link>
       <description><![CDATA[<p>デジタル庁は2025年12月2日、Preferred Networks（PFN）が開発する日本語特化型の国産LLM「PLaMo翻訳」をガバメントAI環境「源内（げんない）」に導入し、政府職員向けに提供すると<a href="https://www.digital.go.jp/news/b27d1af7-c231-4ab3-ad78-fc5408d44504">発表</a>した。2025年12月中にデジタル庁内での利用を開始し、2026年以降は他府省庁への展開を計画する。</p>
@@ -618,19 +628,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 AIが制作の基本工程となる時代に、どのような開示ルールが適切なのか。今後も議論が続くテーマとなりそうだ。</p>
 ]]></description>
       <pubDate>Sun, 30 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>18歳未満の自由チャット廃止を受け、自由会話から“物語選択式”へ──Character.AIが新機能「Stories」で未成年向け体験を再構築</title>
-      <link>https://ledge.ai/articles/character_ai_stories_u18_safety_launch</link>
-      <description><![CDATA[<p>AIキャラクターとの自由形式のチャットを18歳未満のユーザーに禁止すると10月に発表したCharacter.AIは11月27日（米国時間）、代替となる新しい対話機能「Stories」を正式に導入したことを<a href="https://blog.character.ai/introducing-stories-a-new-way-to-create-play-and-share-adventures-with-your-favorite-characters/">発表</a>した。</p>
-<p>自由入力によるオープンエンド型の会話とは異なり、選択肢を選んで物語を進める「インタラクティブ・ストーリー形式」を採用する。未成年ユーザーも利用できる仕組みで、同社は「安全性を確保しながら創造的なAI体験を維持するための新しい方法」と位置づけている。</p>
-<p>Storiesでは、AIキャラクターが登場人物やナレーターとして振る舞い、ユーザーは提示される選択肢からストーリーの展開を選ぶ。自由記述のテキスト入力はできず、物語の文脈に沿った応答が行われる点が特徴だ。ユーザーは既存のキャラクターが公開しているStoriesに参加できるほか、自らシナリオを作成して公開することも可能。公開前にはプラットフォーム側の安全性レビューが実施され、他の利用者にはリンク形式で共有できる。</p>
-<p><strong>公式が公開した「Stories」サンプル一覧。ファンタジー、コメディ、ミステリーなど複数ジャンルの物語が用意され、選択肢を通じてストーリーを進める形式になっている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/characterai_data_d662534a06/characterai_data_d662534a06.jpg" alt="characterai data.jpg" /></p>
-<p>今回の実装は、Character.AIが進めてきた未成年ユーザーの安全対策の延長線上にある。同社をめぐっては2024年、AIチャットボットに依存していたとされる14歳の少年が自殺した事件を受けて遺族が訴訟を起こし、対話型AIが若年層のメンタルヘルスに与える影響が議論となった。Ledge.aiでは当時、擬似的な友人関係を結ぶタイプのAIが依存を助長する懸念、そして専門家の指摘を報じていた。Character.AIはその後、利用ガイドラインの強化や未成年向けの利用制限を段階的に導入し、2025年10月には「18歳未満のオープンエンドなチャットを全面廃止する」と発表していた。</p>
-<p>Storiesは、このチャット廃止後に未成年ユーザーへ提供される主要なAI体験として位置づけられる。自由会話の柔軟性はないものの、ストーリー形式によって創造的な没入体験は継続でき、同時に不適切な対話や依存リスクを抑えられる設計になっている。Character.AIは今後、Storiesの提供範囲を段階的に拡大し、コミュニティによる創作コンテンツの増加を見込むとしている。</p>
-]]></description>
-      <pubDate>Sat, 29 Nov 2025 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
