@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
+      <link>https://ledge.ai/articles/trainium3_ultraserver_ga_announcement</link>
+      <description><![CDATA[<p>米Amazon傘下のAmazon Web Services（AWS）は2025年12月3日（現地時間）、年次イベント「AWS re:Invent 2025」で、自社開発AIチップ「Trainium3」を搭載する大規模AI向け統合システム「Amazon EC2 Trn3 UltraServer（以下、Trainium3 UltraServer）」の一般提供（GA）を開始したと<a href="https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost">発表</a>した。</p>
+<p>システムは3ナノメートルプロセスで製造したTrainium3を最大144基搭載でき、前世代（Trainium2 UltraServer）と比較して計算性能は最大4.4倍、メモリ帯域とエネルギー効率は約4倍に向上したという。</p>
+<h2>最大362 FP8 PFLOPS、最大144チップ構成の新AIサーバー</h2>
+<p>Trainium3 UltraServerはFP8精度で最大362 PFLOPSの演算性能を発揮し、1筐体に最大144基のTrainium3チップを搭載できる。メモリ帯域は合計706 TB/s、HBMメモリ容量は最大20.7 TBとなり、大規模言語モデル（LLM）やマルチモーダルモデルの学習・推論向けに最適化されているという。</p>
+<p>AWSは、OpenAIのオープンウェイトモデル「GPT-OSS」を用いた社内テストでは、1チップあたりのスループットが3倍、推論レイテンシが4倍高速化したと説明している。</p>
+<h2>新ネットワーク基盤「NeuronSwitch-v1」やUltraClusters 3.0で大規模化に対応</h2>
+<p>Trainium3 UltraServerには、AWSが新たに開発したネットワークスイッチ「NeuronSwitch-v1」が搭載され、チップ間の通信帯域は前世代と比較して2倍になった。また、新たな「Neuron Fabric」により、チップ間通信の遅延は10マイクロ秒未満に抑えられるという。</p>
+<p>複数のUltraServerを接続するクラスタ構成「EC2 UltraClusters 3.0」では、最大100万基のTrainiumチップまでスケール可能とされ、大規模データセットを用いたモデル学習や、数百万規模の同時推論リクエストにも対応できるとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=4y3pMGIS6DU">YouTube</a></p>
+<h2>既に複数企業が活用、高速化やコスト削減の事例も</h2>
+<p>AWSは複数の顧客事例を紹介しており、AnthropicやKarakuri、Metagenomi、NetoAI、Ricoh、Splash Musicなどが、Trainiumシリーズを用いてトレーニングコストを最大50％削減したという。また、生成系スタートアップのDecartは、Trainium3を用いたリアルタイム動画生成により、フレーム生成が4倍高速化し、GPU比でコストを半減できたとしている。</p>
+<p>さらに、AWSの生成AI基盤「Amazon Bedrock」では、Trainium3上で既に本番ワークロードが稼働している。</p>
+<h2>次世代「Trainium4」ではNVIDIA NVLink Fusionにも対応予定</h2>
+<p>AWSは、次世代AIチップ「Trainium4」の開発も進めていると公表した。現時点で示されている目標値は、FP4で6倍以上、FP8で3倍の性能向上、メモリ帯域4倍の拡張など。さらに、Trainium4はNVIDIAの新インターコネクト技術「NVLink Fusion」に対応予定で、NVIDIA GPUと共存するラックスケール構成が可能になるとしている。</p>
+<h2>大規模AIインフラの「選択肢」を拡大</h2>
+<p>AWSは、Trainium3 UltraServerの提供開始により、生成AIやエージェント型AI、Mixture-of-Expertsモデルなどの大規模ワークロードに対し、高速・低コストで提供できる選択肢を拡大したと説明した。今後もTrainiumシリーズとGPUの双方をサポートする方針を示しており、用途に応じた柔軟なAIインフラ構成が可能になるという。</p>
+]]></description>
+      <pubDate>Fri, 05 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、「Workspace Studio」を一般提供──Gemini 3世代のAIでGmail・Drive向けエージェントを構築可能に</title>
       <link>https://ledge.ai/articles/google_workspace_studio_general_availability</link>
       <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Google Workspace上でAIエージェントを構築・管理できる新ソリューション「Google Workspace Studio」を一般提供したことを<a href="https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work?hl=en">発表</a>した。同サービスは、アルファ版としてテストされていた「Google Workspace Flows」を発展させたもので、GmailやDrive、Docsなど、日常的に利用されるWorkspaceアプリにAIエージェントを直接組み込める点が特徴となる。</p>
@@ -632,26 +654,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>両社は今後、アーティストの権利を尊重しつつ、ファンやクリエイターに新しい音楽体験を提供する「ライセンス型AI音楽プラットフォーム」の構築を進めるとしている。</p>
 ]]></description>
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>EpicのCEO「AI使用はゲーム制作の基本工程になる。明示ラベルは不要」──生成AI使用の開示を義務化するSteamへの異議に賛同</title>
-      <link>https://ledge.ai/articles/epic_ceo_ai_tag_unnecessary_steam_disclosure_debate</link>
-      <description><![CDATA[<p>2025年11月27日（現地時間）、映像クリエイターであるWorkman氏が、「Steamやすべてのデジタルマーケットは“Made with AI”タグをやめるべきだ。もはや意味をなさない（Steam and all digital marketplaces need to drop the “Made with AI” label. It doesn’t matter any more.）」と投稿した。この意見に、Epic GamesのCEOである Tim Sweeney（ティム・スウィーニー）氏が「Agreed（同意する）」と返信し、ゲーム制作におけるAIタグの必要性について疑問を呈した。</p>
-<h2>「Made with AI」タグは “もはや意味をなさない”</h2>
-<p>Workman 氏はX上で、ゲームストアに“AI製（Made with AI）”と明示することは、現在の制作現場の実態から乖離しつつあると指摘した。その後 <a href="https://www.linkedin.com/posts/mattworkman_epic-games-ceo-argues-marketplaces-dont-activity-7399863685189627904-WZnL">LinkedIn</a>で投稿を補足し、一般的な制作ツールの多くにAI機能が搭載されていることから、「どこからどこまでが “AI使用” に該当するのか」という線引きが難しくなっていると説明。開示の有無によって開発者間に不公平が生じているケースもあると述べ、Valveに対しタグの撤廃を求めた。</p>
-<p>こうした指摘は、Steamが導入したAI使用開示制度の運用上の難しさや、AIが制作ツールとして一般化していく中で、開示が“特殊なもの”として扱われ続けることへの懸念を示すものとなっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Tim_Sweeney_ai_tag_e17446f159/Tim_Sweeney_ai_tag_e17446f159.jpg" alt="Tim Sweeney ai tag.jpg" /></p>
-<h2>Epic CEOの賛同──「AIはゲーム制作の基本工程に組み込まれる」</h2>
-<p>Workman 氏の投稿に対し、Epic Games のCEOである Tim Sweeney 氏は「Agreed」と短く賛同したうえで、続くやり取りの中で自身の見解を明らかにした。</p>
-<p>Sweeney 氏は「AIは今後ほぼすべてのゲーム制作プロセスに組み込まれていく」と述べ、AI使用を特別にラベルとして表示する必要性は薄れていくと指摘。著作者表示や権利状態の明確化が求められるアート展示やライセンス販売とは異なり、ゲームストアにおける“AIタグ”は制作実態にそぐわないとする立場を示した。</p>
-<h2>開示を求めるSteam、受け入れるEpic──AIコンテンツをめぐる両社のスタンスの違い</h2>
-<p>Steamを運営する Valve は2024年1月、「AI Content on Steam」の方針を導入し、生成AIを利用したゲームを原則受け入れる一方、開発者にAI使用状況の開示を義務づけている。具体的には、AIで生成したアートやコードなどの「事前生成コンテンツ」、プレイ中にAIが動的に生成する「ライブ生成コンテンツ」について、権利関係や安全性を確認したうえでストアページの「AI Generated Content Disclosure」欄に記載する方式を採用している。</p>
-<p>Steamのスタンスは段階的に形成されてきた。2023年には生成AIアートを含むゲームが権利不備で却下された例が報告され、Valveは後に「権利が確認されたAIコンテンツは受け入れる」と説明。その後2024年に開示義務制度が整備され、AIを使ったゲームの“条件付き受け入れ”という形に落ち着いた。</p>
-<p>一方、Epic Games Store は当初から生成AIを使用したタイトルの配信を認める立場を取り、AI技術そのものを理由に制限しない姿勢を採ってきた。両社はAIコンテンツの扱いにおいて、「透明性の確保を重視するSteam」と「AI使用を特別扱いしないEpic」という対照的な方針を示している。</p>
-<p>AI使用の透明性を求める声と、技術が一般化するなかで特別なタグを付与することへの疑問が併存しており、SteamとEpicの異なる姿勢はその対立軸を象徴している。
-AIが制作の基本工程となる時代に、どのような開示ルールが適切なのか。今後も議論が続くテーマとなりそうだ。</p>
-]]></description>
-      <pubDate>Sun, 30 Nov 2025 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
