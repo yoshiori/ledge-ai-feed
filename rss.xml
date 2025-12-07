@@ -5,6 +5,50 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Runway、新モデル「Gen-4.5」公開──リアル物理・精密カメラワークを実現　動画AIで世界最高Elo 1247　Veo 3・Sora 2を圧倒</title>
+      <link>https://ledge.ai/articles/runway_gen_4_5_release</link>
+      <description><![CDATA[<p>AI動画生成企業 Runway は12月1日、次世代動画モデル「Runway Gen-4.5」を<a href="https://runwayml.com/research/introducing-runway-gen-4.5">発表</a>した。同社によると、物理挙動の再現精度、プロンプト追従性、カメラワークの精密さが大幅に向上しており、動画生成AIのベンチマーク「Artificial Analysis」Text-to-Video リーダーボードで Elo 1247 を記録。Googleの「Veo 3」やOpenAIの「Sora 2 Pro」など、主要モデルを上回る世界最高スコアとなった。</p>
+<p>Runwayは公式リリースで、Gen-4.5を「動画モデルの新たな基盤（foundation model）」と位置づけている。開発コードネームは「Whisper Thunder（David）」。研究段階から推論まで、すべての工程を NVIDIA GPU 上で実施し、Blackwell/Hopper 世代向けに最適化されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ei2PsDpPbB4">YouTube</a></p>
+<h2>複雑なカメラワーク・構図理解が大幅に向上</h2>
+<p>Gen-4.5は、複雑なカメラの移動、複数要素が連続して発生する構図、シーン内の細かなイベント進行などを単一プロンプトで制御可能となった。
+Runwayは「細かいカメラの振り、構図の変化、時間経過による変化まで正確に理解する」と説明している。</p>
+<h2>物理再現性は「重さ」「質感」「自然な動き」を強化</h2>
+<p>新モデルでは、物体の重量感・慣性・表面反射・素材感などの物理表現が精密化。風・煙・水の挙動など、自然現象の再現精度も向上した。同時に、物理法則を遵守する演出だけでなく、クリエイターが意図的に“非現実的な世界”を作る演出も柔軟に実行できる。</p>
+<h2>世界最高スコア：Elo 1247、他社を大きくリード</h2>
+<p>Runwayが公開したベンチマークでは、Gen-4.5は Elo 1247 を記録し、主要動画生成モデルを上回った。</p>
+<ul>
+<li>Runway Gen-4.5：1247</li>
+<li>Google Veo 3：1226</li>
+<li>Kling 2.5：1225</li>
+<li>Veo 3.1：1223</li>
+<li>OpenAI Sora 2 Pro：1206</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gen_4_5_chart_revised_01_1077109527/gen_4_5_chart_revised_01_1077109527.jpg" alt="gen-4.5-chart-revised-01.jpg" /></p>
+<p>動画生成AIの性能を示す指標として注目されるEloスコアで、Runwayは明確な優位性を示した。</p>
+<h2>NVIDIAと全面協業、最適化された推論パイプライン</h2>
+<p>Gen-4.5は研究・前処理・後処理・推論まで、全工程を NVIDIA GPU 上で構築。NVIDIAのJensen Huang CEOは以下のコメントを寄せている。</p>
+<p>「Runwayが NVIDIA GPU 上で革新的な動画・ワールドモデルを構築したことを誇りに思う。AIの全ライフサイクルを共に前進させるため、協業を続ける」</p>
+<h2>既存のコントロールモードも統合予定</h2>
+<p>Gen-4.5では、Text-to-Videoに加えて以下の機能が順次統合される予定だ。</p>
+<ul>
+<li>Image to Video</li>
+<li>Video to Video</li>
+<li>Keyframes</li>
+<li>その他の既存コントロール機能</li>
+</ul>
+<p>プロ向けの高度なワークフローを支える構造となっている。</p>
+<h2>透明性として「現状の限界」も明示</h2>
+<p>Runwayは、Gen-4.5において依然として課題が残る点も公開している。
+因果関係の理解が不完全
+物体恒常性（object permanence）の失敗ケース</p>
+<p>これらの改善を今後の「world modeling」の重要テーマと位置づけ、継続して研究を進めると説明した。</p>
+<h2>数日以内に全ユーザーへ提供開始</h2>
+<p>Gen-4.5は段階的にロールアウトが始まっており、数日以内にRunwayのユーザー全体へ展開される予定。Gen-1、Gen-2、Gen-3から続く進化の集大成として、Runwayは「新しい動画生成の標準点をつくる」としている。</p>
+]]></description>
+      <pubDate>Sat, 06 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「AIバブルではない」が…IBM CEO、AGI開発への世界全体のコミットメント100ギガワット分のデータセンター投資に「採算が合わない」と警告</title>
       <link>https://ledge.ai/articles/ibm_ceo_ai_datacenter_investment_bubble_warning</link>
       <description><![CDATA[<p>AI企業の間で、生成AIや将来のAGI（汎用人工知能）を見据えた大規模データセンター投資が加速している。だが、こうした巨額投資が現在のコスト構造のままで採算を取れるのかについて、警鐘を鳴らす声が上がった。IBMのCEO兼会長であるアーヴィンド・クリシュナ氏は2025年12月3日、The Vergeのポッドキャスト番組「<a href="https://www.theverge.com/podcast/829868/ibm-arvind-krishna-watson-llms-ai-bubble-quantum-computing">Decoder</a>」に出演し、AI向けデータセンター投資のリターンは「現状では見込めない」と述べた。</p>
@@ -294,36 +338,6 @@
 <p>HPは、2026年度第1四半期のEPS見通しとして、GAAPベースで0.58〜0.66ドル、非GAAPで0.73〜0.81ドルと予測。通期では、GAAP 2.47〜2.77ドル、非GAAP 2.90〜3.20ドルを見込む。フリーキャッシュフローは28〜30億ドルを計画しており、成長投資と株主還元の両立を図る考えを示した。</p>
 ]]></description>
       <pubDate>Mon, 01 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek、自己検証型数学推論モデル「DeepSeek-Math-V2」を公開──IMO金メダル級の定理証明能力をオープンソースで</title>
-      <link>https://ledge.ai/articles/deepseek_math_v2_release</link>
-      <description><![CDATA[<p>中国のAI開発企業 DeepSeek は、数学的推論に特化した大規模言語モデル「DeepSeek-Math-V2」を2025年11月27日にHugging Face 上の model cardで<a href="https://huggingface.co/deepseek-ai/DeepSeek-Math-V2#deepseekmath-v2-towards-self-verifiable-mathematical-reasoning">公開</a>した。モデルはオープンウェイトで、商用利用も可能な Apache 2.0 ライセンスで提供されている。</p>
-<h2>自己検証フレームワークによる厳密な推論</h2>
-<p>DeepSeek-Math-V2 の最大の特徴は、生成された証明の正しさを検証する「自己検証（self-verification）」アーキテクチャを採用した点にある。証明を生成する generator と、その証明をチェックする verifier を分離し、両者を強化学習ループで相互に高め合うよう設計することで、論理的整合性を備えた定理証明を可能にした。</p>
-<p>この仕組みによって、従来モデルで課題とされてきた「答えは正しくても推論過程が破綻する」問題を抑制し、数学競技形式の問題において高い性能を発揮したという。</p>
-<h2>数学ベンチマークで既存LLMを大幅に上回る</h2>
-<p>DeepSeek は model card で、同モデルが数多くの数学ベンチマークで既存LLMを上回ったと報告している。特に、研究コミュニティで整備されている定理証明ベンチマーク「ProofBench」において高い正答率を記録した。</p>
-<p><strong>ProofBench における各LLMの比較。右端の青は DeepSeek-Math-V2（Heavy）で、Basic と Advanced の双方で既存モデルを大きく上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IMO_Proof_Bench_6ae2f05dc5/IMO_Proof_Bench_6ae2f05dc5.jpg" alt="IMO-ProofBench.jpg" /></p>
-<h2>IMO・CMO・Putnamで “金メダル級” の成績</h2>
-<p>評価は合成ベンチマークだけにとどまらず、国際数学オリンピック（IMO 2025）、中国数学オリンピック（CMO 2024）、米国Putnam Competition（2024）といった実際のコンテスト問題でもスコアが公表されている。</p>
-<p><strong>各数学コンテストにおける問題ごとの達成度。灰色は「完全解答」、下線は「部分点獲得」を示す。Putnam 2024 では 98.3% の得点率を記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Competitions_36ac51cf34/Competitions_36ac51cf34.png" alt="Competitions.png" /></p>
-<p>実績の要点は以下のとおり：</p>
-<ul>
-<li>IMO 2025：83.3%（金メダル相当）</li>
-<li>CMO 2024：73.8%</li>
-<li>Putnam 2024：98.3%（120点中118点）</li>
-</ul>
-<p>特に Putnam での高得点は、大学数学レベルの複雑な問題に対しても高い正答率を示したことを意味する。</p>
-<h2>モデル基盤と公開形態</h2>
-<p>モデルは DeepSeek-V3.2-Exp-Base を基盤としており、長い証明文を扱うための拡張コンテキスト、低精度フォーマットによる推論負荷の最適化など、研究用途に配慮した設計となっている。</p>
-<p>Hugging Face 上でウェイトが公開されており、研究者・開発者はそのまま検証や応用に利用できる。</p>
-<h2>今後の展望</h2>
-<p>DeepSeek は、自己検証型LLMが「未解決問題の探索」「形式的証明の自動化」「科学研究の推論支援」などに応用可能であると述べている。一方で、第三者による大規模検証や実際の数学者によるレビューは今後の課題として残る。</p>
-]]></description>
-      <pubDate>Mon, 01 Dec 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/11/30 [SUN]独Black Forest Labs、仏MistralのVLM利用の画像生成AI「FLUX.2」を発表──最大10枚の参照画像、精密な文字生成、4MP編集に対応した“実務特化”モデルファミリー</title>
