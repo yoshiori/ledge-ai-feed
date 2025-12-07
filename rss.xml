@@ -5,6 +5,34 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
+      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
+      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
+<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
+<h2>推論能力とコスト効率を大幅に強化</h2>
+<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
+<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
+<ul>
+<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
+<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
+<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
+<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
+</ul>
+<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
+<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
+<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
+<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
+<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
+<h2>ブラウザ操作を自動化する「Nova Act」</h2>
+<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
+<h2>Bedrock で提供、開発者向けポータルも公開</h2>
+<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
       <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
       <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
