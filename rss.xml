@@ -5,7 +5,7 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
+      <title>ビジネス2025/12/7 [SUN]Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
       <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
       <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
 <p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
@@ -33,7 +33,7 @@
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
+      <title>学術＆研究2025/12/7 [SUN]「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
       <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
       <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
 <p>このシステムは、発声しようとした言葉だけでなく、声を出さずに心の中で唱えた「内なる声（inner speech）」も一定の精度で文章化できることを示した。従来の類似手法と比べ、単語誤り率（WER）を24.69％から10.22％へと半分以下に抑えた点が特徴で、麻痺などによって話すことが難しい人のコミュニケーション支援技術としての応用も期待される。</p>
@@ -126,7 +126,7 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Sat, 06 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「AIバブルではない」が…IBM CEO、AGI開発への世界全体のコミットメント100ギガワット分のデータセンター投資に「採算が合わない」と警告</title>
+      <title>ビジネス2025/12/6 [SAT]「AIバブルではない」が…IBM CEO、AGI開発への世界全体のコミットメント100ギガワット分のデータセンター投資に「採算が合わない」と警告</title>
       <link>https://ledge.ai/articles/ibm_ceo_ai_datacenter_investment_bubble_warning</link>
       <description><![CDATA[<p>AI企業の間で、生成AIや将来のAGI（汎用人工知能）を見据えた大規模データセンター投資が加速している。だが、こうした巨額投資が現在のコスト構造のままで採算を取れるのかについて、警鐘を鳴らす声が上がった。IBMのCEO兼会長であるアーヴィンド・クリシュナ氏は2025年12月3日、The Vergeのポッドキャスト番組「<a href="https://www.theverge.com/podcast/829868/ibm-arvind-krishna-watson-llms-ai-bubble-quantum-computing">Decoder</a>」に出演し、AI向けデータセンター投資のリターンは「現状では見込めない」と述べた。</p>
 <h2>巨額のデータセンター投資「100ギガワット＝8兆ドル」</h2>
@@ -162,7 +162,7 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Sat, 06 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
+      <title>ビジネス2025/12/5 [FRI]AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
       <link>https://ledge.ai/articles/trainium3_ultraserver_ga_announcement</link>
       <description><![CDATA[<p>米Amazon傘下のAmazon Web Services（AWS）は2025年12月3日（現地時間）、年次イベント「AWS re:Invent 2025」で、自社開発AIチップ「Trainium3」を搭載する大規模AI向け統合システム「Amazon EC2 Trn3 UltraServer（以下、Trainium3 UltraServer）」の一般提供（GA）を開始したと<a href="https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost">発表</a>した。</p>
 <p>システムは3ナノメートルプロセスで製造したTrainium3を最大144基搭載でき、前世代（Trainium2 UltraServer）と比較して計算性能は最大4.4倍、メモリ帯域とエネルギー効率は約4倍に向上したという。</p>
@@ -417,68 +417,7 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Mon, 01 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/11/30 [SUN]独Black Forest Labs、仏MistralのVLM利用の画像生成AI「FLUX.2」を発表──最大10枚の参照画像、精密な文字生成、4MP編集に対応した“実務特化”モデルファミリー</title>
-      <link>https://ledge.ai/articles/bfl_flux2_release_2025</link>
-      <description><![CDATA[<p>ドイツのAIスタートアップ Black Forest Labs（BFL） は2025年11月25日、画像生成AIモデルファミリー「FLUX.2」を<a href="https://bfl.ai/blog/flux-2">公開</a>した。</p>
-<p>FLUX.2は、実際の制作現場で使うことを前提に設計された「Frontier Visual Intelligence」と位置づけられており、キャラクターやスタイルの一貫性、複雑なプロンプト解釈、レイアウト・照明・ブランドガイドラインへの忠実な追従などが強化されている。最大4メガピクセルの画像編集にも対応し、細部を保ちながら編集が行える。</p>
-<p>FLUX.2では内部アーキテクチャも刷新され、Mistral社の240億パラメータの視覚言語モデル「Mistral-3」と、rectified flow Transformer を組み合わせた latent flow matching 構成が採用された。視覚と言語の統合理解を担う Mistral-3 VLM と、空間的整合性・質感表現を司るフロー変換が補完し合うことで、現実世界に近い照明や材質表現、精密な構図理解が可能になっている。</p>
-<p>FLUX.2は、複数の参照画像を扱う性能も大幅に向上した。最大10枚の参照画像を統合し、キャラクター、製品、スタイルの特徴を保ちながら高品質な画像を生成できる。テキストレンダリングも強化され、インフォグラフィックスやUIモックアップなど、細かい文字情報を含む画像も安定して描画できるようになった。</p>
-<p>FLUX.2による画像編集・参照画像統合のデモンストレーション。複数の入力画像から構図・照明・スタイルを一貫させながら自然な合成を行う様子が示されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/FLUX_2_eyecatch_c1eca950a4/FLUX_2_eyecatch_c1eca950a4.jpg" alt="FLUX2 eyecatch.jpg" /></p>
-<h2>Open Core戦略の継続</h2>
-<p>BFLは創業以来、「Open Core」戦略を採用してきた。先端モデルを企業向けの商用APIとして提供しながら、研究者や開発者が検証・実験できるオープンウェイトモデルも積極的に公開してきた。2024年に展開したFLUX.1 [dev] は世界で広く普及したオープン画像モデルとなり、FLUX.1 Kontext [pro] はAdobeやMetaなどの企業で利用された。FLUX.2は、この2つの方向性を統合しつつ、さらに拡張された位置づけとなる。</p>
-<h2>FLUX.1から進化した4つの軸</h2>
-<p>FLUX.2では、精度、効率、コントロール性、写実性の4点を重点的に改善した。生成能力の強化により、プロダクト撮影に近い質感表現、安定した光源処理、構図の破綻が少ない空間表現が可能になり、制作現場における生成AIの導入コストを引き下げる狙いが示されている。</p>
-<h2>主な新機能</h2>
-<ul>
-<li><strong>マルチリファレンス対応（最大10枚）</strong> ：キャラクターや製品の特徴を保持しながら、多様な角度・表情・スタイルを統合。</li>
-<li><strong>フォトリアリズムと細部描画の向上</strong> ：テクスチャや照明処理が強化され、写真用途や可視化に適した品質を実現。</li>
-<li><strong>文字生成の精密化</strong> ：UIモック、インフォグラフィックス、複雑なタイポグラフィにも対応。</li>
-<li><strong>複雑なプロンプトの構造理解</strong> ：多段階の指示、構成要素、レイアウトの指定などを正確に反映。</li>
-<li><strong>高解像度編集（最大4メガピクセル）</strong> ：編集時も整合性を保ちながら高解像度データを扱える。</li>
-</ul>
-<p>すべてのFLUX.2モデルで、テキストによる編集と複数参照画像による編集が一つのモデルで利用できる。</p>
-<h2>4モデル構成で用途別に最適化</h2>
-<p>FLUX.2は、用途に応じて4つのバリアントが用意される。</p>
-<h3>FLUX.2 [pro]</h3>
-<ul>
-<li>制作現場向けの最高品質モデル</li>
-<li>プロンプト遵守と画質で他社クローズドモデルと競合</li>
-<li>高速化と低コスト化も両立</li>
-<li>BFL Playground、BFL API、パートナー経由で利用可能</li>
-</ul>
-<h3>FLUX.2 [flex]</h3>
-<ul>
-<li>生成ステップ数やガイダンススケールを調整できる柔軟なモデル</li>
-<li>文字生成や細部描画に強み</li>
-<li>bfl.ai/play、API、パートナーから提供</li>
-</ul>
-<p><strong>FLUX.2 [flex] による“steps”パラメータの調整例。ステップ数を変えることで、タイポグラフィの正確さと生成速度のバランスが変化する（左から6、20、50ステップ）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/FLUX_2_flex1_1393dd7816/FLUX_2_flex1_1393dd7816.jpg" alt="FLUX2 flex1.jpg" /></p>
-<p><strong>FLUX.2 [flex] によるステップ数の変化による画質の違い。ステップを増やすほどディテールが安定し、質感再現が向上する（左から6、20、50ステップ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/FLUX_2_flex2_b6ca2ffb42/FLUX_2_flex2_b6ca2ffb42.jpg" alt="FLUX2 flex2.jpg" /></p>
-<h3>FLUX.2 [dev]（オープンウェイト）</h3>
-<ul>
-<li>32Bのオープンウェイトモデル</li>
-<li>テキスト生成と画像編集を単一チェックポイントで実行</li>
-<li>Hugging Faceでウェイト公開</li>
-<li>NVIDIA/ComfyUIと連携したfp8最適化版も提供</li>
-<li>FAL、Replicate、Runware、Verda、TogetherAIなど複数のAPIサービスで利用可能</li>
-<li>商用ライセンスはBFL公式サイトで提供</li>
-</ul>
-<h3>FLUX.2 [klein]（近日公開）</h3>
-<ul>
-<li>Apache 2.0ライセンスのオープンソースモデル</li>
-<li>FLUX.2を蒸留した小型モデル</li>
-<li>β版登録を受け付け中</li>
-</ul>
-<h2>新VAEも公開</h2>
-<p>FLUX.2シリーズには、新設計の「FLUX.2 - VAE」が採用されている。学習性、品質、圧縮率のバランスを最適化したモデルで、すべてのFLUX.2バックボーンの基礎となる。Apache 2.0で公開され、技術レポートも提供されている。</p>
-]]></description>
-      <pubDate>Sun, 30 Nov 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/11/29 [SAT]アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
+      <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
       <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
       <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
 <h2>QwenとQuark Appを統合、音声・視覚を組み合わせたAIアシスタントに対応</h2>
@@ -658,7 +597,7 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/3 [WED]生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
+      <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
       <link>https://ledge.ai/articles/nri_it_survey_2025_generative_ai_literacy_gap</link>
       <description><![CDATA[<p>野村総合研究所（NRI）は2025年11月25日、日本企業517社を対象に実施した「IT活用実態調査（2025年）」の結果を<a href="https://www.nri.com/jp/news/newsrelease/20251125_1.html">公表</a>した。調査では、生成AIの導入が急速に広がる一方、その活用を支えるリテラシーやリスク管理の体制が追いついていない実態が浮き彫りとなったという。</p>
 <h2>IT予算は増加傾向が続くが、前年から伸びが鈍化</h2>
@@ -724,7 +663,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sun, 30 Nov 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/3 [WED]OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
+      <title>OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
       <link>https://ledge.ai/articles/openai_chatgpt_code_red_improvement_directive</link>
       <description><![CDATA[<p>米テック系メディア The Information は2025年12月1日（米国時間）、OpenAIのCEOであるサム・アルトマン氏が社員向けの社内メモで 「code red（非常事態）」を宣言し、ChatGPTの改善を最優先するよう指示した と<a href="https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort">報じた</a>。</p>
 <p>同メディアによると、アルトマン氏はメモで、ChatGPT の 速度、応答品質、信頼性、パーソナライズ性 を中心に改善を加速する必要性を強調。社内リソースの再配分を求め、他のプロジェクトについては一部を延期または凍結する方針を示したという。</p>
