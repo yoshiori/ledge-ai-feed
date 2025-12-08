@@ -5,6 +5,39 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>仏Mistral、次世代オープンモデル「Mistral 3」発表──3B〜14Bの小型DenseとフラッグシップLarge 3をApache 2.0で公開</title>
+      <link>https://ledge.ai/articles/mistral_3_release_open_weight_models</link>
+      <description><![CDATA[<p>フランスのAIスタートアップ Mistral AI は2025年12月2日（現地時間）、新しいオープンソースモデル群「Mistral 3 」を<a href="https://mistral.ai/news/mistral-3">発表</a>した。小型の「Ministral 3 3B」「Ministral 3 8B」「Ministral 3 14B」に加え、フラッグシップとして Sparse Mixture-of-Experts（MoE）構造を採用した「Mistral Large 3」を公開した。すべてのモデルは オープンウェイト（Apache 2.0ライセンス） で提供される。</p>
+<h2>小型Denseモデル：3B／8B／14Bを新たにラインナップ</h2>
+<p>Mistral 3 ファミリーでは、軽量で推論コストを抑えつつ性能を高めた小型Denseモデルを刷新した。公式リリースで「Ministral 3 シリーズ」と名付けられたモデルは以下の3種類：</p>
+<ul>
+<li>Ministral 3 3B（3B parameters）</li>
+<li>Ministral 3 8B（8B parameters）</li>
+<li>Ministral 3 14B（14B parameters）</li>
+</ul>
+<p>いずれも多言語処理に加え、画像理解を含むマルチモーダル対応 を備え、長いコンテキストを扱えるよう設計されている。Apache 2.0 ライセンスで提供されるため、商用利用を含め企業や開発者が自由に導入できる点が特徴だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_GPQA_Diamond_Accuracy_3e948fdea9/4_GPQA_Diamond_Accuracy_3e948fdea9.jpg" alt="4-GPQA Diamond Accuracy.jpg" /></p>
+<h2>アクティブ41Bの最上位モデル「Mistral Large 3」</h2>
+<p>フラッグシップモデルとして登場した「Mistral Large 3」は、Sparse Mixture-of-Experts（MoE）アーキテクチャを採用した大規模モデルだ。主な特徴は次のとおり：</p>
+<ul>
+<li>Sparse Mixture-of-Experts（MoE）構造を採用</li>
+<li>推論時にアクティブなパラメータ数は約41B</li>
+<li>総計パラメータ規模は 675B スケール</li>
+<li>256K tokens の長大コンテキストに対応</li>
+<li>画像理解を含むマルチモーダル処理に対応</li>
+</ul>
+<p>発表では、Mistral Large 3 は「既存のオープンウェイトモデルと同等以上の性能を示す」と説明されており、多言語対話や高度なタスクに向けて最適化されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chart_base_models_17eaed2794/chart_base_models_17eaed2794.jpg" alt="chart-base-models.jpg" /></p>
+<h2>オープンウェイト戦略の継続</h2>
+<p>Mistral AI は公式リリースで、「AIの恩恵をより多くの人々に届ける」というビジョンをあらためて強調。Mistral 3 ファミリーのすべてを Apache 2.0 ライセンスで公開することで、研究用途から商用利用まで幅広い開発者層への開放を継続している。</p>
+<p>また、モデルは Mistral AI Studio、Amazon Bedrock、Azure Foundry、Hugging Face、IBM watsonx など複数のプラットフォームで利用可能としており、オンデバイスからクラウドまで多様な展開が可能だ。</p>
+<h2>エッジからクラウドまで幅広い利用を想定</h2>
+<p>Mistral 3 はエッジ環境から大規模データセンターまで幅広いユースケースを想定して設計されている。多言語・マルチモーダル対応、長コンテキスト処理能力により、チャットボット、エージェント、検索、画像理解、コード生成など、さまざまなアプリケーションに活用できる。</p>
+<p>Mistralは今回の発表を「次世代モデルの登場」と位置付けており、今後もオープンモデルの開発とエコシステム拡張を続けていく方針だ。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/7 [SUN]Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
       <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
       <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
@@ -558,25 +591,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 などが主要な争点となる見通しだ。</p>
 ]]></description>
       <pubDate>Tue, 02 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HP、AI導入を軸に最大6000人削減へ──2028年度末までに世界で4000〜6000人、年間10億ドルのコスト削減目指す</title>
-      <link>https://ledge.ai/articles/hp_ai_headcount_reduction_2028_plan</link>
-      <description><![CDATA[<p>HPは2025年11月25日（米国時間）、2025年度通期および第4四半期の決算を公表するとともに、AIの活用を軸とした全社的な構造改革「Fiscal 2026 Plan」を<a href="https://www.hp.com/us-en/newsroom/press-releases/2025/hp-inc-reports-fiscal-2025-full-year-and-fourth-quarter-results.html">発表</a>した。</p>
-<p>その一環として、世界で約4000〜6000人の人員削減を2028年度末までに実施する計画を示した。これは、AI導入による生産性向上や事業構造の見直しを進めながら、年間約10億ドルのコスト削減を図る取り組みの一部として位置づけられている。</p>
-<h2>AI活用を柱に全社改革──「Fiscal 2026 Plan」発表</h2>
-<p>HPは、AIを中心としたデジタルトランスフォーメーションを通じ、顧客満足度の向上、プロダクトイノベーションの加速、生産性の改善を図ると説明。同社は「会社全体の取り組み（company-wide initiative）」と呼ぶこのプランにより、2028年度末までに年間約10億ドルのグロス・コスト削減を達成する見込みを示した。</p>
-<p>計画には、組織の簡素化、プラットフォーム統合、業務プロセス改善に加え、AI活用による自動化や効率化が含まれる。これらの施策に伴い、総額約6億5000万ドルのリストラクチャリング費用を見込んでおり、うち約2億5000万ドルを2026年度に計上する予定だ。</p>
-<h2>世界で4000〜6000人削減──2028年度末までに段階的に実施</h2>
-<p>HPは、全社改革の一環として、世界の総人員を約4000〜6000人削減する（gross global headcount reduction）と発表した。リリースでは、対象地域や部門の内訳は明らかにしていないが、「workforce reductions（人員削減）」を主要な施策の一つとして挙げている。</p>
-<p>人員削減は2028年度末までに段階的に実施される予定で、AI活用による業務の効率化や、非中核領域の統合・最適化を通じて構造的なコスト削減を進める。</p>
-<h2>2025年度の業績──通期売上は553億ドル、PC事業は回復傾向</h2>
-<p>決算によると、2025年度通期の売上高は553億ドル（前年比3.2％増）となった。GAAP希薄化後EPSは2.65ドルで、前年（2.81ドル）から減少した。一方、第4四半期売上高は146億ドル（前年比4.2％増）と増収となっている。</p>
-<p>主力のパーソナルシステムズ事業（PC）は、第4四半期で前年比8％増の104億ドルとなり、コンシューマー向け・法人向けともに販売が回復した。プリンティング事業は4％減の43億ドルと低調だった。</p>
-<p>同社CEOであるEnrique Lores氏は、AIを基盤とした製品イノベーションを強調し、「働き方の未来（Future of Work）をリードするため、AI搭載デバイスの開発、生産性向上、顧客価値の最大化を進める」とコメントした。</p>
-<p>HPは、2026年度第1四半期のEPS見通しとして、GAAPベースで0.58〜0.66ドル、非GAAPで0.73〜0.81ドルと予測。通期では、GAAP 2.47〜2.77ドル、非GAAP 2.90〜3.20ドルを見込む。フリーキャッシュフローは28〜30億ドルを計画しており、成長投資と株主還元の両立を図る考えを示した。</p>
-]]></description>
-      <pubDate>Mon, 01 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
