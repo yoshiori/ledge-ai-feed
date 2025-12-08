@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
+      <link>https://ledge.ai/articles/gemini_3_deep_think_google_ai_ultra_launch</link>
+      <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Geminiアプリに新たな推論モード「Gemini 3 Deep Think」を追加したと<a href="https://blog.google/products/gemini/gemini-3-deep-think/">発表</a>した。</p>
+<p>同社はブログで、「Today, we’re rolling out Gemini 3 Deep Think mode to Google AI Ultra subscribers in the Gemini app.」と述べており、最上位サブスクリプションプラン「Google AI Ultra」の加入者を対象に、Geminiアプリで順次ロールアウトしている。利用するには、モデル選択で「Gemini 3 Pro」を選び、プロンプト入力欄から「Deep Think」モードをオンにする。</p>
+<h2>高難度課題向けに推論能力を強化</h2>
+<p>公開された「Gemini 3 Deep Think」は、回答を出力する前に複数の推論ステップを挟むことで、従来よりも深い推論ができるよう設計されたモードだ。Googleはブログで、同モードが「meaningful improvement in reasoning capabilities」を提供し、複雑な数学・科学・論理推論に取り組む場面を想定していると説明している。</p>
+<p>具体的には、高度な並列推論（advanced parallel reasoning）を用いて複数の仮説を同時に探索するアプローチを採用することで、問題解決の過程を強化しているという。これにより、単に次の単語を即座に予測するのではなく、複数の候補を比較しながら解答に至るプロセスを踏めるとしている。</p>
+<p>Googleは、Gemini 3 Deep Thinkが高難度ベンチマークで次のようなスコアを記録したと紹介している。</p>
+<ul>
+<li>Humanity’s Last Exam：ツールなしで 41.0%</li>
+<li>ARC-AGI-2：コード実行ありで 45.1%</li>
+</ul>
+<p>同社は、これらの結果について「industry leading」「unprecedented（前例のない）」と表現しており、深い推論が求められるベンチマークにおいて業界トップレベルの性能を示したと位置づけている。また、今回のGemini 3 Deep Thinkは、国際数学オリンピック（IMO）や国際大学対抗プログラミングコンテスト（ICPC）World Finalsで「gold-medal standard」とされる水準に達した「Gemini 2.5 Deep Think」の系譜にあると説明されている。</p>
+<h2>利用対象は「Google AI Ultra」加入者</h2>
+<p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Oculus創業者の防衛ユニコーン「Anduril」が日本上陸──AIで日本の防空を変革、アジア太平洋での事業拡大を本格化</title>
       <link>https://ledge.ai/articles/anduril_japan_launch_ai_defense_expansion</link>
       <description><![CDATA[<p>米国の防衛テクノロジー企業Anduril Industriesは2025年12月3日、アジア太平洋地域での事業拡大に向け、日本法人「Anduril Industries Japan合同会社」を設立したと<a href="https://www.anduril.com/news/anduril-expands-to-japan-advancing-its-mission-to-transform-allied-defense">発表</a>した。</p>
@@ -547,42 +566,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>同研究所は、生成AIの基礎理解や利用方法を学べる「ドコモスマホ教室」などの取り組みも継続しており、AI活用に関するリテラシー向上施策を進めている。</p>
 ]]></description>
       <pubDate>Wed, 03 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIが図表や文書を“読めるデータ”に──パナソニックとUCLA、拡散モデルを用いた視覚言語モデル「LaViDa」を発表　生成速度は自己回帰型VLMの約2倍に</title>
-      <link>https://ledge.ai/articles/panasonic_lavida_diffusion_vlm_release</link>
-      <description><![CDATA[<p>パナソニックは2025年11月27日、米カリフォルニア大学ロサンゼルス校（UCLA）の研究者らと共同で、拡散モデルを活用した新しい視覚言語モデル（VLM）「LaViDa」を開発したと<a href="https://news.panasonic.com/jp/press/jn251127-2">発表</a>した。LaViDaは、従来主流だった自己回帰型手法と同等の精度を保ちつつ、文章生成を約2倍に高速化できるという。</p>
-<h2>拡散型言語モデルを採用したLaViDaの仕組み</h2>
-<p>LaViDaは、画像とテキストを同時に扱うマルチモーダルAIで、言語生成に拡散モデルを用いる点に特徴がある。従来の視覚言語モデルは、文章を1語ずつ生成する自己回帰型手法を採用しており、テキストが長くなるほど推論速度が低下する課題があった。</p>
-<p>拡散モデルでは、マスクされた語を“段階的に復元”する形で文章を生成でき、ステップ数を調整することで高速化が可能になる。</p>
-<p><strong>LaViDaの全体構造。複数の画像ビューをエンコードし、拡散型言語モデルが段階的にテキストを復元する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_2e3471c0d9/x2_2e3471c0d9.jpg" alt="x2.jpg" /></p>
-<p>LaViDaは、Prefix-DLMと呼ばれる効率化手法も採用し、画像やプロンプトに関連する領域だけを参照することで、計算量を抑えながら推論を行えるようになっている。</p>
-<h2>図表や文書を“構造化データ”へ出力できる LaViDa の特性</h2>
-<p>LaViDaは、文章生成だけでなく、図表・画像の内容を JSON 形式などの「構造化データ」に変換する能力を持つ。これにより、これまで「画像として扱われていた報告書内の図表」などを、AIエージェントが直接処理しやすい形に変換できる。</p>
-<p><strong>LaViDaのフォーマット制約に沿った生成例（左）と画像分類をJSON形式に構造化した例（右）</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub5_3368e7e69a/sub5_3368e7e69a.jpg" alt="sub5.jpg" /></p>
-<p>このように LaViDa は、</p>
-<ul>
-<li>指定形式の詩生成</li>
-<li>チャート／画像の要素抽出</li>
-<li>JSON形式での出力</li>
-</ul>
-<p>といった “フォーマット遵守型の生成” に強みを持つという。</p>
-<h2>複数のマルチモーダルタスクで既存VLMを上回る性能</h2>
-<p>発表によれば、LaViDa は MMMU、MathVista、ChartQA、ScienceQA などの多様なデータセットで既存の自己回帰型VLMを上回る結果を示した。さらに、COCO Captioning では</p>
-<ul>
-<li>推論速度：約1.92倍</li>
-<li>精度（CIDErスコア）：既存モデルを上回る</li>
-</ul>
-<p>という結果が報告されている。</p>
-<p><strong>LaViDaのベンチマーク結果。複数タスクで精度が向上し、COCO Captionでは速度と品質の両立（NFE制御）が確認された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub4_6103b442df/sub4_6103b442df.jpg" alt="sub4.jpg" /></p>
-<h2>現場のドキュメント処理を支える“AIが読める化”技術へ</h2>
-<p>現在パナソニックは、業務現場のAIエージェント活用を推進しており、LaViDa を「多種多様な現場ドキュメントを AI が扱える形式に変換する技術」と位置づける。PDF・画像・写真・報告書など、現場に存在する“非構造データ”を自動的に整理・変換することで、現場のDXを加速する狙いがあるという。</p>
-<p>LaViDa の研究成果は AI 国際会議 NeurIPS 2025 に採択されており、12月3〜5日に米サンディエゴで発表される予定だ。</p>
-]]></description>
-      <pubDate>Tue, 02 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
