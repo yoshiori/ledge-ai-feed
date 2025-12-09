@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Meta、メタバース投資を大幅縮小　Reality Labsの予算を最大3割カットしAIウェアラブルへ集中</title>
+      <link>https://ledge.ai/articles/meta_metaverse_budget_cut_ai_wearables_shift</link>
+      <description><![CDATA[<p>Metaが2026年度に向け、メタバース関連事業の予算を大幅に削減し、AIを活用したウェアラブル端末へ投資を振り向ける方針であることが分かった。2025年12月4日に<a href="https://www.bloomberg.com/news/articles/2025-12-04/meta-s-zuckerberg-plans-deep-cuts-for-metaverse-efforts">Bloomberg</a>をはじめとする複数の主要メディアが、同社内部の協議内容に詳しい関係者の話として報じている。こうした削減案は現時点では協議段階であり、最終決定には至っていないとされる。Metaは報道に対しコメントを控えている。</p>
+<h2>Reality Labsの予算を最大30％削減する案を協議</h2>
+<p>報道によると、Metaはメタバース領域を担うReality Labs部門の年間予算について、最大30％の削減案を検討しているという。2026年度の予算編成をめぐって幹部らが協議を進めており、削減幅によっては2026年1月にもレイオフが行われる可能性が指摘されている。</p>
+<p>Reality Labsは、VRヘッドセット「Quest」シリーズや仮想空間サービス「Horizon Worlds」、ARデバイス開発などを担当しており、2021年以降の累計損失は700億ドル超に達しているとされる。多額の投資が続くReality Labsの採算性は、以前から投資家の懸念材料であったと報じられてきた。</p>
+<h2>投資をAIウェアラブルへ再配分する方針</h2>
+<p>複数メディアの報道では、Metaがメタバース関連プロジェクトへの支出を絞り込む一方、AIを活用したウェアラブル端末を重点領域に据える方針を示している点で一致している。Ray-Banと共同開発する「Ray-Ban Meta」などのAIグラスや、音声・視覚認識を活用する新型AIデバイスが今後の中核になると報じられている。</p>
+<p>Metaは2025年にAI研究組織「Superintelligence」部門を設立するなど、AI研究体制を強化している。生成AIモデルの高度化やAI人材獲得競争が進む中、AIとハードウェアの融合領域にリソースを集中させる狙いがあるとみられる。</p>
+<p>報道後、Meta株は上昇しており、Reality Labsへの巨額投資を抑え、AI関連分野に集中する方向性を投資家が好感したとの見方も伝えられている。</p>
+]]></description>
+      <pubDate>Tue, 09 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA、NeurIPSでオープンAI戦略を拡大──自動運転向け「DRIVE Alpamayo-R1」とAI安全・音声モデルを一挙発表</title>
       <link>https://ledge.ai/articles/nvidia_drive_alpamayo_r1_neurips_2025_open_vla</link>
       <description><![CDATA[<p>NVIDIAは2025年12月1日（米国時間）、アメリカ・サンディエゴで開催中の国際会議「NeurIPS」において、デジタルAIと物理AI（フィジカルAI）の双方を対象としたオープンAIモデル、データセット、開発ツール群の大規模な拡充を<a href="https://blogs.nvidia.com/blog/neurips-open-source-digital-physical-ai/">発表</a>した。</p>
@@ -427,36 +441,6 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
 <p>Appleは今回の発表を「新しい章の始まり」と位置づけ、信頼性が高く、より個別化された体験を提供する次世代AI技術の開発を強化する姿勢を示している。</p>
 ]]></description>
       <pubDate>Thu, 04 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国DeepSeek、GPT-5級「DeepSeek-V3.2」をオープンウェイト公開──エージェント向け“推論ファースト”モデル、Gemini 3.0 Pro並み「Speciale」も</title>
-      <link>https://ledge.ai/articles/deepseek_v3_2_and_speciale_release_agent_reasoning_model</link>
-      <description><![CDATA[<p>中国のAI開発企業 DeepSeek は2025年12月1日、推論モデル「DeepSeek-V3.2」と、高推論版「DeepSeek-V3.2-Speciale」を<a href="https://huggingface.co/deepseek-ai/DeepSeek-V3.2">発表</a>した。</p>
-<p>同社はモデルの重みを公開するオープンウェイト戦略をとっており、今回のV3.2シリーズでは、AIエージェントの自律的なタスク遂行に必要な「思考力」を重視する“推論ファースト（Reasoning-first）”アーキテクチャを採用した。テックレポートによれば、V3.2は米OpenAIの次世代モデル「GPT-5」と同等レベル、V3.2-SpecialeはGoogleの「Gemini 3.0 Pro」と同等レベルの推論性能を示したとしている。</p>
-<h2>エージェントのための「推論ファースト」設計</h2>
-<p>今回発表されたDeepSeek-V3.2シリーズ最大の特徴は、AIエージェント運用への特化だ。単にテキストを生成するだけでなく、外部ツールを使いこなし、複雑な手順を計画（プランニング）する能力を重視して設計されている。</p>
-<p><strong>DeepSeek-V3.2の推論プロセス。ツール呼び出し（Tool call）の前に「思考（Thinking）」フェーズを挟み、エラー修正やプランニングを行ってから外部ツールを実行する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G7_FE_Nmjb_YA_Ak_Er8_2ee1c0d55d/G7_FE_Nmjb_YA_Ak_Er8_2ee1c0d55d.jpg" alt="G7FENmjbYAAkEr8.jpg" /></p>
-<ul>
-<li><strong>DeepSeek-V3.2（GPT-5級の汎用フラッグシップ）</strong> ：従来のLLMが苦手としていた「行動前の深い思考」を推論プロセスとしてモデル内部に組み込んだ。Thinkingモードとツール呼び出しを組み合わせることで、曖昧な指示からでも意図を汲み取り、自己修正を行いながらタスクを遂行できると説明している。</li>
-<li><strong>DeepSeek-V3.2-Speciale（Gemini 3.0 Pro相当の高計算版）</strong> ：同一アーキテクチャをベースに、より長い内部思考トークンを許容することで推論性能を最大化したバリアント。高難度の推論タスクや数学・情報オリンピック級の問題を想定した設計で、API限定（ツール呼び出しなし）で提供される。</li>
-</ul>
-<h2>GPT-5、Gemini 3.0に肉薄するベンチマーク結果</h2>
-<p>DeepSeekが公開した技術レポートによると、両モデルの「推論」および「エージェント挙動」に関する主要指標は以下の通りだ。</p>
-<p><strong>主要モデルとの性能比較。青色がDeepSeek-V3.2シリーズ。推論能力（Reasoning Capabilities）およびエージェント能力（Agentic Capabilities）で、GPT-5 HighやGemini 3.0 Proと同等、あるいは一部で上回るスコアを記録した</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G7_F_Dq18a_MAAW_Wvh_8707e4f698/G7_F_Dq18a_MAAW_Wvh_8707e4f698.jpg" alt="G7FDq18aMAAWWvh.jpg" /></p>
-<p><strong>複雑な推論 (MATH / GPQA)</strong> ： V3.2-Specialeは、数学コンテストAIME 2025やHMMT、国際数学オリンピック（IMO）相当問題、競技プログラミングのCodeforcesレーティングなどで高いスコアを記録した。AIMEではGPT-5 High（94.6）を上回る96.0という結果が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G7_FD_7c_Kb_UA_Au_Ja_A_f096df59f1/G7_FD_7c_Kb_UA_Au_Ja_A_f096df59f1.jpg" alt="G7FD7cKbUAAuJaA.jpg" /></p>
-<p><strong>エージェント性能（τ²-Bench / MCP-Universe / Tool-Decathlonなど）</strong> ： API操作やマルチターンでのタスク解決能力を測る各種ベンチマークでは、V3.2がClaude 4.5 SonnetやGPT-5 Highと比較可能な数値を示した。Thinkingプロセスを導入したことで、ツールの選択ミスや引数の誤りが減少する傾向があるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G7_FECX_Kbc_AA_8stm_0446319143/G7_FECX_Kbc_AA_8stm_0446319143.jpg" alt="G7FECXKbcAA8stm.jpg" /></p>
-<p>一方で、テクニカルレポートは制約や課題についても言及する。DeepSeek は、総学習FLOPsの観点から、V3.2は依然としてGemini 3.0 Proなどのクローズドモデルに比べ世界知識の幅で劣ること、同等の品質を出すためにより多くのトークンを必要とするなど「トークン効率」の面で課題が残ること、複雑なタスクの一部では最先端モデルに及ばないことを挙げ、今後の改善余地があるとまとめている。
-今回の公開により、DeepSeekは「Reasoning-first models built for agents」というコンセプトのもと、GPT-5級の推論性能とエージェント向け設計を兼ね備えたオープンモデルを前面に打ち出したかたちだ。V3.2はコスト効率と汎用性を重視した日常利用向けモデルとして、Specialeは競技レベルの高難度タスクに向けた高計算版として位置付けられている。</p>
-<h2>オープンモデルとコストパフォーマンス</h2>
-<p>DeepSeekは、V3.2およびV3.2-Specialeのモデル重みをHugging Face等でMITライセンスのもと公開しており、ローカル環境やオンプレミスでの構築も可能としている。またAPI価格については、同社の従来モデルからの値下げや、長文入力でもコストを抑えられる設計を打ち出している。</p>
-<p>V3.2-Specialeは、https://api.deepseek.com/v3.2_speciale_expires_on_20251215 という一時的なエンドポイントを通じて提供され、2025年12月15日15時59分（UTC）まで利用可能となる。その後は通常の提供形態に統合される予定だとしており、期間中はV3.2と同一価格で高推論版を試せる。</p>
-<p>高度な推論能力と比較的低い利用コストを両立したオープンモデルとして、今後、AIエージェントの実運用にどの程度採用が進むかが注目される。</p>
-]]></description>
-      <pubDate>Wed, 03 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
