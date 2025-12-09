@@ -5,6 +5,58 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NVIDIA、NeurIPSでオープンAI戦略を拡大──自動運転向け「DRIVE Alpamayo-R1」とAI安全・音声モデルを一挙発表</title>
+      <link>https://ledge.ai/articles/nvidia_drive_alpamayo_r1_neurips_2025_open_vla</link>
+      <description><![CDATA[<p>NVIDIAは2025年12月1日（米国時間）、アメリカ・サンディエゴで開催中の国際会議「NeurIPS」において、デジタルAIと物理AI（フィジカルAI）の双方を対象としたオープンAIモデル、データセット、開発ツール群の大規模な拡充を<a href="https://blogs.nvidia.com/blog/neurips-open-source-digital-physical-ai/">発表</a>した。</p>
+<p>自動運転向けの新モデル「NVIDIA DRIVE Alpamayo-R1（AR1）」をはじめ、音声認識、話者分離、AIセーフティを支える複数の新モデルを同時公開している。</p>
+<h2>NeurIPSで示したオープンAI戦略</h2>
+<p>NeurIPSは世界有数のAI研究者が集まる国際会議で、NVIDIAは今年、オープンモデル、データセット、研究ツールをさらに拡張した。研究者が広く利用できる環境を提供することで、デジタルAI・物理AIの両領域での応用促進を狙う。</p>
+<p>同社はNeurIPSで70件以上の論文・ワークショップ・ポスターを発表。さらに外部機関「Artificial Analysis」による Openness Index では、NVIDIAのNemotronモデルファミリーが、ライセンスの許容度やデータ透明性の点で高い評価を受けた。</p>
+<p><strong>Artificial Analysis Openness Index（モデルのオープン度評価）</strong> ：Artificial Analysis による「Openness Index」の評価結果。NVIDIAのNemotronモデルは高い透明性が評価されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Artificial_Analysis_Openness_Index_960x417_431fac4472/Artificial_Analysis_Openness_Index_960x417_431fac4472.jpg" alt="Artificial-Analysis-Openness-Index-960x417.jpg" /></p>
+<h2>世界初のオープンReasoning VLAモデル「DRIVE Alpamayo-R1」</h2>
+<p>今回の発表の中心となるのは、NVIDIAが「世界初の業界規模のオープンReasoning Vision Language Action（VLA）モデル」と位置づける自動運転研究向けモデル「DRIVE Alpamayo-R1」。Chain-of-Thought推論と経路計画を統合し、歩行者が多い交差点や車線閉鎖、二重駐車といった複雑な状況下で高度な判断を可能にする。</p>
+<p>AR1は、目の前のシナリオを段階的に推論し、複数の軌道候補を比較したうえで文脈に応じた最適な走行パスを選択する。「reasoning trace」により判断の根拠も提示でき、研究用途での安全性評価に役立つ。</p>
+<p>モデルはNVIDIA Cosmos Reasonを基盤としたオープンファウンデーションとして提供され、非商用用途でのカスタマイズに対応。GitHubおよびHugging Faceで公開されており、訓練・評価に使用されたデータの一部も「NVIDIA Physical AI Open Datasets」として提供されている。AR1の評価には新たに公開されたフレームワーク「AlpaSim」も利用できる。</p>
+<h2>Cosmosベースの物理AIツール群も拡充</h2>
+<p>NVIDIAは物理AI向けの「Cosmos」基盤の提供も強化した。Cosmosベースのモデルを活用・改良するための総合ガイド「Cosmos Cookbook」を公開し、データキュレーションから合成データ生成、評価までのワークフローを提示する。</p>
+<p>併せて以下の物理AIモデルも紹介された。</p>
+<ul>
+<li>LidarGen：自動運転シミュレーション向けにLiDARデータを生成する初のワールドモデル</li>
+<li>Omniverse NuRec Fixer：ニューラル再構成データのノイズや欠損を補正</li>
+<li>Cosmos Policy：大規模動画モデルをロボットの行動ポリシーへ転用</li>
+<li>ProtoMotions3：デジタルヒューマンやヒューマノイドロボットの物理シミュレーション用フレームワーク</li>
+</ul>
+<p><strong>LidarGenモデルのサンプル出力</strong> ：Cosmosを基盤とするLidarGenモデルのサンプル出力。上段は入力画像と生成LiDARの重ね合わせ、中段は生成・実データのレンジマップ比較、下段は実点群（左）と生成点群（右）。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Lidar_Gen_960x583_4f169a7347/Lidar_Gen_960x583_4f169a7347.jpg" alt="LidarGen-960x583.jpg" /></p>
+<p>Isaac LabやIsaac Simで生成したデータは、NVIDIAのロボティクスモデル「GR00T N」の学習にも用いることができる。Voxel51や1X、Figure AI、Gatik、Oxa、PlusAI、X-Humanoidなど、多くの研究・産業パートナーがCosmos World Foundation Models（WFMs）を活用しているという。</p>
+<h2>Nemotron/NeMoによる音声AI・AIセーフティ強化</h2>
+<p>デジタルAI領域では、音声処理およびAIセーフティに特化した新しいモデル群が発表された。</p>
+<ul>
+<li>MultiTalker Parakeet：重なり合う複数話者の音声をリアルタイムで認識</li>
+<li>Sortformer：音声ストリームから話者を高精度に分離</li>
+<li>Nemotron Content Safety Reasoning：複数ポリシーを横断適用できる推論型AIセーフティ</li>
+<li>Nemotron Content Safety Audio Dataset：危険音声コンテンツ検出用の合成データ</li>
+<li>NeMo Gym：LLM向け強化学習環境（RLVR対応）</li>
+<li>NeMo Data Designer Library（Apache 2.0）：合成データセット設計ツール</li>
+</ul>
+<p>@<a href="https://www.youtube.com/watch?v=AThOsk2qJbs">YouTube</a>
+MultiTalker Parakeetのリアルタイム複数話者認識デモ</p>
+<h2>NeurIPSでのNVIDIA Researchの発表も多数</h2>
+<p>研究発表面でも、NVIDIAは70件以上の論文・ワークショップ・ポスターを公開した。ブログでは以下の代表的な研究成果が紹介されている。</p>
+<ul>
+<li>Audio Flamingo 3：音声・音・音楽を横断して10分の音声を理解する大規模音声言語モデル</li>
+<li>Minitron-SSM：Nemotron-H 8Bを4Bへ圧縮しつつ高精度を維持するモデル圧縮手法</li>
+<li>Jet-Nemotron：高効率なポストNASパイプラインにより構築された新アーキテクチャ</li>
+<li>Nemotron-Flash：実環境のレイテンシを最適化指標とする小型LLM</li>
+<li>ProRL（Prolonged Reinforcement Learning）：長期強化学習により推論能力を継続的に向上させる手法</li>
+</ul>
+<h2>研究コミュニティに向けたオープンAI基盤の拡大</h2>
+<p>今回のNeurIPSでの発表では、自動運転向けのVLAモデルから音声AI、AIセーフティ、物理AIのためのツール群まで、幅広い研究領域に向けたオープンAI基盤が網羅的に提示された。NVIDIAは、モデル・データセット・評価フレームワークを公開することで、研究者が多様な実験・応用に取り組める環境を拡張していくとしている。</p>
+]]></description>
+      <pubDate>Tue, 09 Dec 2025 01:50:02 GMT</pubDate>
+    </item>
+    <item>
       <title>日本のマンガを世界へ──and factoryが選んだ、AIによる制作工程の革新とグローバル展開を支えるアリババクラウド</title>
       <link>https://ledge.ai/articles/andfactory-alibaba</link>
       <description><![CDATA[<p>and factory株式会社（以下、and factory）は、大手出版社と共同で開発・運営を行っている「マンガUP！」や「ヤンジャン＋」などを手掛けるマンガアプリ事業を中核に、「uraraca（ウララカ）」などの占いコンテンツの提供や「&amp;AND HOSTEL」といったホテルサービスまで、デジタルとリアルを融合させた多様な事業を展開する企業だ。その売上の7割以上を占めるマンガ事業において、同社は今、国内市場の成熟という大きな転換点を迎え、次なる成長の主戦場を「グローバル」に見定めている。この壮大なビジョンを実現するため、制作工程の抜本的な革新とグローバル配信の強固な基盤として、同社が戦略的パートナーに選んだのがアリババクラウドだ。今回は、同社 代表取締役の青木氏と、VPoEの中島氏に、プロダクト開発の最前線におけるアリババクラウドの実力と、AIとの“共創”で描く日本のマンガコンテンツの未来について、詳細に話を聞いた。</p>
