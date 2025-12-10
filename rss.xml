@@ -277,24 +277,37 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Mon, 08 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、初のAIスマートグラス「Quark AI Glasses」発売──S1/G1の2モデルで同社製LLM「Qwen」を直接使える日常デバイスに</title>
-      <link>https://ledge.ai/articles/alibaba_quark_ai_glasses_launch_china</link>
-      <description><![CDATA[<p>アリババは2025年11月27日（現地時間）、同社として初となるAI搭載スマートグラス「Quark AI Glasses」シリーズを<a href="https://www.alizila.com/alibaba-launches-new-quark-ai-glasses-series-in-china-deeply-integrated-with-qwen/">発表</a>した。アリババの大規模言語モデル「Qwen」およびAIアプリ「Qwen App」と深く統合し、音声と視覚を組み合わせたリアルタイムAIアシスタントを提供する。シリーズは、ディスプレイ搭載のフラグシップモデル「S1」と、軽量で普段使いに適した「G1」の2モデル構成となる。</p>
-<h2>QwenとQuark Appを統合、音声・視覚を組み合わせたAIアシスタントに対応</h2>
-<p>Quark AI Glassesは、アリババが開発する大規模言語モデル「Qwen」とAIアプリ「Qwen App」を標準搭載し、音声操作や視界上への情報提示を通じて、AIアシスタント機能を直接メガネ型デバイスで利用できる。外出先でのリアルタイム翻訳や、会議・講義内容の文字起こし、リマインダー設定、ナビゲーション、周辺スポット検索、ショッピング支援といった多様な機能に対応する。</p>
-<p>また、アリババグループのサービスとも連携しており、決済のAlipay（支付宝）、地図サービスのAmap（高徳地図）、ECサービスのTaobao（淘宝）、旅行サービスFliggy（飛猪）なども利用できる。中国の音楽ストリーミングサービス（QQ Music、NetEase Cloud Music）にも対応した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55/bf1ef6c08mf1fb9c98a8d6dd8bbbe8de_342c2a7c55.jpeg" alt="bf1ef6c08mf1fb9c98a8d6dd8bbbe8de.jpeg" /></p>
-<h2>フラグシップモデル「S1」──交換式デュアルバッテリーで最大24時間使用可能</h2>
-<p>S1はデュアルマイクロOLEDディスプレイを搭載し、視界内に情報をオーバーレイ表示できる。骨伝導技術やデュアルチップ構成を採用し、音声入出力やリアルタイム処理性能を強化した。</p>
-<p>特徴的な点として、交換可能なデュアルバッテリーシステムを採用し、最大24時間の利用を可能としている。また、0.6秒で撮影できるインスタントフォト機能や、3K動画撮影およびAIによる4K動画出力、独自技術「Super Raw」による夜間撮影性能の向上など、撮影機能も強化されている。価格は3,799元（約7万8,000円）から。</p>
-<h2>軽量モデル「G1」──約40gで普段使いに最適、コアハードウェアはS1と共通</h2>
-<p>G1は日常の利用を想定した軽量モデルで、重量は約40gに抑えられている。ディスプレイ以外の主要ハードウェア（処理チップ、オーディオ、カメラなど）はS1と共通で、普段使いしやすいデザインと価格帯を重視している。価格は1,899元（約3万9,000円）から。</p>
-<h2>MCP対応で開発者エコシステムも視野に</h2>
-<p>Quark AI Glassesは、外部システムやアプリケーションと双方向に接続するオープン標準「Model Context Protocol（MCP）」に対応する。これにより、開発者がQuark AI Glasses向けのAIアプリやエージェントを拡張しやすくなり、アリババのQwenエコシステムとの連携も強化される。</p>
-<p>市場調査会社<a href="https://www.idc.com/promo/wearablevendor/">IDC</a>の調査によると、2025年第2四半期の世界ウェアラブルデバイス出荷台数は前年同期比9.6％増の1億3,650万台で、このうち約5,000万台が中国を中心とする地域から出荷されている。中国は現在、世界最大のウェアラブル市場であり、AI搭載デバイス分野における競争も激しさを増している。</p>
-<p>Quark AI Glassesシリーズは、アリババのAIモデルQwenとグループのサービス群、そしてMCPによる拡張性を組み合わせることで、同市場における新たな製品ポジションを獲得する構えだ。</p>
+      <title>仏Mistral、次世代オープンモデル「Mistral 3」発表──3B〜14Bの小型DenseとフラッグシップLarge 3をApache 2.0で公開</title>
+      <link>https://ledge.ai/articles/mistral_3_release_open_weight_models</link>
+      <description><![CDATA[<p>フランスのAIスタートアップ Mistral AI は2025年12月2日（現地時間）、新しいオープンソースモデル群「Mistral 3 」を<a href="https://mistral.ai/news/mistral-3">発表</a>した。小型の「Ministral 3 3B」「Ministral 3 8B」「Ministral 3 14B」に加え、フラッグシップとして Sparse Mixture-of-Experts（MoE）構造を採用した「Mistral Large 3」を公開した。すべてのモデルは オープンウェイト（Apache 2.0ライセンス） で提供される。</p>
+<h2>小型Denseモデル：3B／8B／14Bを新たにラインナップ</h2>
+<p>Mistral 3 ファミリーでは、軽量で推論コストを抑えつつ性能を高めた小型Denseモデルを刷新した。公式リリースで「Ministral 3 シリーズ」と名付けられたモデルは以下の3種類：</p>
+<ul>
+<li>Ministral 3 3B（3B parameters）</li>
+<li>Ministral 3 8B（8B parameters）</li>
+<li>Ministral 3 14B（14B parameters）</li>
+</ul>
+<p>いずれも多言語処理に加え、画像理解を含むマルチモーダル対応 を備え、長いコンテキストを扱えるよう設計されている。Apache 2.0 ライセンスで提供されるため、商用利用を含め企業や開発者が自由に導入できる点が特徴だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_GPQA_Diamond_Accuracy_3e948fdea9/4_GPQA_Diamond_Accuracy_3e948fdea9.jpg" alt="4-GPQA Diamond Accuracy.jpg" /></p>
+<h2>アクティブ41Bの最上位モデル「Mistral Large 3」</h2>
+<p>フラッグシップモデルとして登場した「Mistral Large 3」は、Sparse Mixture-of-Experts（MoE）アーキテクチャを採用した大規模モデルだ。主な特徴は次のとおり：</p>
+<ul>
+<li>Sparse Mixture-of-Experts（MoE）構造を採用</li>
+<li>推論時にアクティブなパラメータ数は約41B</li>
+<li>総計パラメータ規模は 675B スケール</li>
+<li>256K tokens の長大コンテキストに対応</li>
+<li>画像理解を含むマルチモーダル処理に対応</li>
+</ul>
+<p>発表では、Mistral Large 3 は「既存のオープンウェイトモデルと同等以上の性能を示す」と説明されており、多言語対話や高度なタスクに向けて最適化されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chart_base_models_17eaed2794/chart_base_models_17eaed2794.jpg" alt="chart-base-models.jpg" /></p>
+<h2>オープンウェイト戦略の継続</h2>
+<p>Mistral AI は公式リリースで、「AIの恩恵をより多くの人々に届ける」というビジョンをあらためて強調。Mistral 3 ファミリーのすべてを Apache 2.0 ライセンスで公開することで、研究用途から商用利用まで幅広い開発者層への開放を継続している。</p>
+<p>また、モデルは Mistral AI Studio、Amazon Bedrock、Azure Foundry、Hugging Face、IBM watsonx など複数のプラットフォームで利用可能としており、オンデバイスからクラウドまで多様な展開が可能だ。</p>
+<h2>エッジからクラウドまで幅広い利用を想定</h2>
+<p>Mistral 3 はエッジ環境から大規模データセンターまで幅広いユースケースを想定して設計されている。多言語・マルチモーダル対応、長コンテキスト処理能力により、チャットボット、エージェント、検索、画像理解、コード生成など、さまざまなアプリケーションに活用できる。</p>
+<p>Mistralは今回の発表を「次世代モデルの登場」と位置付けており、今後もオープンモデルの開発とエコシステム拡張を続けていく方針だ。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/12/7 [SUN]Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
@@ -322,7 +335,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <h2>Bedrock で提供、開発者向けポータルも公開</h2>
 <p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
@@ -337,56 +350,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
 <p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/12/7 [SUN]「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
-      <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
-      <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
-<p>このシステムは、発声しようとした言葉だけでなく、声を出さずに心の中で唱えた「内なる声（inner speech）」も一定の精度で文章化できることを示した。従来の類似手法と比べ、単語誤り率（WER）を24.69％から10.22％へと半分以下に抑えた点が特徴で、麻痺などによって話すことが難しい人のコミュニケーション支援技術としての応用も期待される。</p>
-<p>なお、研究で使用されたのはUtahアレイと呼ばれる脳表面に埋め込む侵襲型電極であり、非侵襲の脳波（EEG）とは異なる。</p>
-<h2>脳波を「音声」と見なしてLLMが解読</h2>
-<p>従来の脳内音声解読システム（BCI）では、多くが「脳活動 → 音素 → 単語 → 言語モデル」という複数段階の“カスケード型”処理を採用していた。この構造では、各工程が独立しているため、システム全体をまとめて最適化できない点が課題とされていた。</p>
-<p>今回発表された「BIT」は、脳活動の特徴を捉えるTransformerエンコーダーと、大規模言語モデル（LLM）を結合させたEnd-to-End型（統合的最適化）フレームワークである。</p>
-<p>ヒトやサルの脳活動データ約367時間分を用いて事前学習を行い、神経活動のパターンから直接テキストを生成する。この仕組みにより、従来必要だった音素への変換ステップを省き、脳活動から直接文章を出力できるようになった。</p>
-<p><strong>図1：BIT（BraIn-to-Text）フレームワークの全体構成</strong>
-脳に埋め込んだ電極から取得した神経活動をAIが処理し、最終的に文章として出力するまでの流れを示す図。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_11_017e439017/x1_11_017e439017.png" alt="x1 (11).png" /></p>
-<h2>単語誤り率を大幅に低減</h2>
-<p>このEnd-to-Endのアプローチによる精度の変化について、論文では以下の数値が報告されている。従来の同様のシステムと比較し、単語の読み取りミスを示す「単語誤り率（WER）」は低下した 。</p>
-<ul>
-<li><strong>従来のEnd-to-End手法</strong> ： 単語誤り率 24.69%</li>
-<li><strong>新技術「BIT」（音声LLM統合版）</strong> ： 単語誤り率 10.22%</li>
-</ul>
-<p>さらに、脳活動エンコーダーを用いて「Brain-to-Text Benchmark」に参加したところ、カスケード型設定を含む全カテゴリで最も低い誤り率を記録した。</p>
-<p>アンサンブル（複数モデル併用）設定でのWERは以下の通りである。</p>
-<ul>
-<li><strong>Brain-to-Text '24 ベンチマーク</strong> ： 単語誤り率 5.10%</li>
-<li><strong>Brain-to-Text '25 ベンチマーク</strong> ： 単語誤り率 2.21%</li>
-</ul>
-<p><strong>図2：BITの性能比較と解読例</strong>
-従来手法と比較した誤り率の低減、および実際に生成された文章の例を示す図。内言においても意味的に近い文章を生成できている点が示されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_8f9b3b00ac/x2_8f9b3b00ac.png" alt="x2.png" /></p>
-<h2>「想像発話」の読み取りにも成功</h2>
-<p>研究では、筋肉を動かして発話しようとする「試行発話（attempted speech）」だけでなく、声を出す動作を伴わずに頭の中で言葉を思い浮かべる「想像発話（imagined speech）」のデータセットを用いた検証も行われた。</p>
-<p>解析の結果、実際に話そうとする時と心の中で話す時の脳内活動には、共通する意味的構造が存在することが示唆された。AIはこの共通性を利用することで、データの少ない想像発話においても文章変換を可能にしている。</p>
-<p><strong>図3：音声LLMとの比較──脳活動の文章化に適したモデル</strong>
-複数の音声LLM・テキストLLMを比較し、どのモデルが脳活動からの文章生成に適しているかをまとめた図。音声を扱う小規模モデルが高い適性を示した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_4_7cc8f5e441/x3_4_7cc8f5e441.png" alt="x3 (4).png" /></p>
-<h2>話せない人のコミュニケーション支援へ</h2>
-<p>発話が困難なALS患者や脳損傷患者にとって、頭の中で言葉を思い浮かべるだけで意思を伝えられる技術は大きな可能性を持つ。</p>
-<p>論文では、将来的な臨床応用を見据えつつ、次のような課題を整理している。</p>
-<ul>
-<li>神経信号の非定常性への適応</li>
-<li>電極の長期安定性</li>
-<li>オンデバイス実行に向けた効率化</li>
-</ul>
-<p>また、特に内言の解読は倫理的に慎重な扱いが求められ、研究チームも「利用者の明確な同意を欠いた読心的用途は許されない」と明記している。</p>
-<h2>今後の展望──神経データ版“基盤モデル”へ</h2>
-<p>BITで用いられたNeural Encoderは、サルを含む多様な神経活動から学習されている。論文では、近年さまざまな分野で「foundation models」と呼ばれる大規模事前学習モデルが提案されていることを紹介し、こうした方向性がBCIの性能向上にも有効である可能性を挙げている。</p>
-<p>研究チームは、今後の課題として、電極の非定常性への適応、長期的な記録の安定性、インターフェースの効率化などを明確にし、改善を重ねることで「ユーザーとシステムが互いに適応しながら利用可能な、より柔軟なBCIの開発につながる」とまとめている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
@@ -405,7 +369,18 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <h2>利用対象は「Google AI Ultra」加入者</h2>
 <p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、「Workspace Studio」を一般提供──Gemini 3世代のAIでGmail・Drive向けエージェントを構築可能に</title>
+      <link>https://ledge.ai/articles/google_workspace_studio_general_availability</link>
+      <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Google Workspace上でAIエージェントを構築・管理できる新ソリューション「Google Workspace Studio」を一般提供したことを<a href="https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work?hl=en">発表</a>した。同サービスは、アルファ版としてテストされていた「Google Workspace Flows」を発展させたもので、GmailやDrive、Docsなど、日常的に利用されるWorkspaceアプリにAIエージェントを直接組み込める点が特徴となる。</p>
+<p>Workspace Studioは、ノーコード／ローコードでエージェントの設計が可能で、繰り返し作業の自動化や文書作成、メール対応の支援、ファイル整理、レポート生成など、多様な業務フローをAIに任せられる。構築したエージェントは組織内で共有でき、管理者はアクセス権限や利用状況を細かくコントロールできる。</p>
+<p>また、StudioはGoogleの最新AI技術と連携しており、Gemini 3世代のモデル群による自然言語処理や推論能力を活用したワークフロー構築が可能になった。公式ブログでは、FlowsからStudioへの進化点として、より柔軟で複雑な業務プロセスを扱えるエージェント設計機能、視覚的に操作できる新UI、管理者向け機能の強化が挙げられている。</p>
+<p>GoogleはWorkspace Studioについて、「日常業務の中にAIエージェントを組み込み、生産性向上を支える基盤」と位置づける。今回の一般提供により、企業は業務プロセスにAIを本格的に統合しやすくなり、Google WorkspaceにおけるAI活用の幅が大きく拡張されることになる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Xy0r5fKwlVo">YouTube</a></p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>note、AIアシスタントに「Gemini 3 Pro」を導入──メモ段階から構成・言い換えまで執筆支援を強化</title>
@@ -425,7 +400,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>AIアシスタントは投稿画面から利用でき、文章やメモを入力することで提案内容が生成される。利用は無料で、今後は品質改善やガイドライン整備などを継続していくとしている。</p>
 <p>noteは今回のモデル刷新により、執筆支援機能を強化し、より多様な創作者が利用しやすい環境づくりを進めている。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
@@ -466,7 +441,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>という「普及と課題のギャップ」が明確に示されている。
 NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し、課題解決を支援するとしている。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -491,7 +466,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
@@ -504,40 +479,29 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>OpenAI はここ数ヶ月、広告テストやショッピング支援など新機能の展開を準備していたが、今回の「code red」宣言によって、同社が 短期的な新機能追加よりも、ChatGPTそのものの品質改善を優先課題に据えた ことが示されたかたちだ。
 現時点で、OpenAI は code red 宣言について公式の声明を発表していない。</p>
 ]]></description>
-      <pubDate>Mon, 08 Dec 2025 01:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>仏Mistral、次世代オープンモデル「Mistral 3」発表──3B〜14Bの小型DenseとフラッグシップLarge 3をApache 2.0で公開</title>
-      <link>https://ledge.ai/articles/mistral_3_release_open_weight_models</link>
-      <description><![CDATA[<p>フランスのAIスタートアップ Mistral AI は2025年12月2日（現地時間）、新しいオープンソースモデル群「Mistral 3 」を<a href="https://mistral.ai/news/mistral-3">発表</a>した。小型の「Ministral 3 3B」「Ministral 3 8B」「Ministral 3 14B」に加え、フラッグシップとして Sparse Mixture-of-Experts（MoE）構造を採用した「Mistral Large 3」を公開した。すべてのモデルは オープンウェイト（Apache 2.0ライセンス） で提供される。</p>
-<h2>小型Denseモデル：3B／8B／14Bを新たにラインナップ</h2>
-<p>Mistral 3 ファミリーでは、軽量で推論コストを抑えつつ性能を高めた小型Denseモデルを刷新した。公式リリースで「Ministral 3 シリーズ」と名付けられたモデルは以下の3種類：</p>
-<ul>
-<li>Ministral 3 3B（3B parameters）</li>
-<li>Ministral 3 8B（8B parameters）</li>
-<li>Ministral 3 14B（14B parameters）</li>
-</ul>
-<p>いずれも多言語処理に加え、画像理解を含むマルチモーダル対応 を備え、長いコンテキストを扱えるよう設計されている。Apache 2.0 ライセンスで提供されるため、商用利用を含め企業や開発者が自由に導入できる点が特徴だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_GPQA_Diamond_Accuracy_3e948fdea9/4_GPQA_Diamond_Accuracy_3e948fdea9.jpg" alt="4-GPQA Diamond Accuracy.jpg" /></p>
-<h2>アクティブ41Bの最上位モデル「Mistral Large 3」</h2>
-<p>フラッグシップモデルとして登場した「Mistral Large 3」は、Sparse Mixture-of-Experts（MoE）アーキテクチャを採用した大規模モデルだ。主な特徴は次のとおり：</p>
-<ul>
-<li>Sparse Mixture-of-Experts（MoE）構造を採用</li>
-<li>推論時にアクティブなパラメータ数は約41B</li>
-<li>総計パラメータ規模は 675B スケール</li>
-<li>256K tokens の長大コンテキストに対応</li>
-<li>画像理解を含むマルチモーダル処理に対応</li>
-</ul>
-<p>発表では、Mistral Large 3 は「既存のオープンウェイトモデルと同等以上の性能を示す」と説明されており、多言語対話や高度なタスクに向けて最適化されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chart_base_models_17eaed2794/chart_base_models_17eaed2794.jpg" alt="chart-base-models.jpg" /></p>
-<h2>オープンウェイト戦略の継続</h2>
-<p>Mistral AI は公式リリースで、「AIの恩恵をより多くの人々に届ける」というビジョンをあらためて強調。Mistral 3 ファミリーのすべてを Apache 2.0 ライセンスで公開することで、研究用途から商用利用まで幅広い開発者層への開放を継続している。</p>
-<p>また、モデルは Mistral AI Studio、Amazon Bedrock、Azure Foundry、Hugging Face、IBM watsonx など複数のプラットフォームで利用可能としており、オンデバイスからクラウドまで多様な展開が可能だ。</p>
-<h2>エッジからクラウドまで幅広い利用を想定</h2>
-<p>Mistral 3 はエッジ環境から大規模データセンターまで幅広いユースケースを想定して設計されている。多言語・マルチモーダル対応、長コンテキスト処理能力により、チャットボット、エージェント、検索、画像理解、コード生成など、さまざまなアプリケーションに活用できる。</p>
-<p>Mistralは今回の発表を「次世代モデルの登場」と位置付けており、今後もオープンモデルの開発とエコシステム拡張を続けていく方針だ。</p>
+      <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
+      <link>https://ledge.ai/articles/turing_tokyo30_full_self_driving_achievement</link>
+      <description><![CDATA[<p>完全自動運転を目指すスタートアップのチューリング株式会社は2025年12月1日、同社の技術カンファレンス「<a href="https://www.youtube.com/watch?v=HhQr0SAZs3Y">Turing AI Day 2025</a>」で、東京都内を人間の操作なしで30分以上走行するプロジェクト「Tokyo30」を達成したと発表した。当日は実際の走行映像も公開され、開発中のEnd-to-End（E2E）自動運転システムの挙動が披露された。</p>
+<p>同社は創業当初より「We Overtake Tesla（テスラを超える）」をミッションとして掲げており、今回の成果を国産の完全自動運転に向けた重要なマイルストーンの一つと位置づけている。</p>
+<h2>「カンブリア爆発」を経て実用域に近づくE2Eモデル</h2>
+<p>AI Day の冒頭で公開された映像では、チューリングの実験車両が、市街地の複雑な交通環境下でハンドル・アクセル・ブレーキのすべてをAIが制御し、30分以上連続して走行する様子が確認できた。信号停止、右左折、歩行者や車両との交錯といった場面でも、安定した挙動を維持していた。</p>
+<p>同社は創業時から「Day 1 から E2E」を掲げ、カメラ映像を入力とし、単一のニューラルネットワークが走行経路（トラジェクトリ）を直接出力する方式を採用している。データ収集から学習までのパイプラインを整備した段階でモデル性能が急激に向上した時期を、社内では「カンブリア爆発」と呼んでおり、Tokyo30 はその延長線にある成果だと説明した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20251_393e19e328/turing_ai_day20251_393e19e328.jpg" alt="turing ai day20251.jpg" /></p>
+<h2>富岳の約40%相当の計算基盤が学習を支える</h2>
+<p>E2Eモデルの性能向上を支えるのが、大規模GPUクラスタである。チューリングは自社専用の「Gaggle Cluster」を中心に、オンプレミスとクラウドを組み合わせて学習基盤を構築しており、2025年12月時点の総演算性能は、スーパーコンピュータ「富岳」のAI演算性能（FP16換算）の約40%に相当すると説明した。</p>
+<p>同社はシリーズAラウンドの1st Closeとして152.7億円（約153億円）を調達しており、多くを計算基盤の拡充やデータ拡張、組織体制の強化に投じる計画だという。AI Day では、今後2年間で計算能力を5〜10倍（最大7 ExaFLOPS規模）へ拡張する方針も示された。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20252_608dfde61a/turing_ai_day20252_608dfde61a.jpg" alt="turing ai day20252.jpg" /></p>
+<h2>VLAモデル・世界モデルへと発展する次世代アプローチ</h2>
+<p>AI Day 2025 では次世代アプローチとして、視覚（Vision）・言語（Language）・行動（Action）を統合する「VLAモデル」や、未知の走行シーンを生成できる「世界モデル（World Model）」の研究状況が紹介された。</p>
+<p>チューリングはこれまでに、日本語VLM「Heron」や運転QAデータセット「Stride-QA」「COBRA」を独自に構築しており、今後はこれらの技術を統合した70B級（700億パラメータ級）規模の「フロンティアモデル」を開発。そのうえで、車載向けに蒸留したE2Eモデルを量産レベルで展開する構想を掲げる。</p>
+<h2>2030年の完全自動運転の商用化を見据える</h2>
+<p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
+<p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Runway、新モデル「Gen-4.5」公開──リアル物理・精密カメラワークを実現　動画AIで世界最高Elo 1247　Veo 3・Sora 2を圧倒</title>
@@ -627,17 +591,6 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Fri, 05 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、「Workspace Studio」を一般提供──Gemini 3世代のAIでGmail・Drive向けエージェントを構築可能に</title>
-      <link>https://ledge.ai/articles/google_workspace_studio_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Google Workspace上でAIエージェントを構築・管理できる新ソリューション「Google Workspace Studio」を一般提供したことを<a href="https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work?hl=en">発表</a>した。同サービスは、アルファ版としてテストされていた「Google Workspace Flows」を発展させたもので、GmailやDrive、Docsなど、日常的に利用されるWorkspaceアプリにAIエージェントを直接組み込める点が特徴となる。</p>
-<p>Workspace Studioは、ノーコード／ローコードでエージェントの設計が可能で、繰り返し作業の自動化や文書作成、メール対応の支援、ファイル整理、レポート生成など、多様な業務フローをAIに任せられる。構築したエージェントは組織内で共有でき、管理者はアクセス権限や利用状況を細かくコントロールできる。</p>
-<p>また、StudioはGoogleの最新AI技術と連携しており、Gemini 3世代のモデル群による自然言語処理や推論能力を活用したワークフロー構築が可能になった。公式ブログでは、FlowsからStudioへの進化点として、より柔軟で複雑な業務プロセスを扱えるエージェント設計機能、視覚的に操作できる新UI、管理者向け機能の強化が挙げられている。</p>
-<p>GoogleはWorkspace Studioについて、「日常業務の中にAIエージェントを組み込み、生産性向上を支える基盤」と位置づける。今回の一般提供により、企業は業務プロセスにAIを本格的に統合しやすくなり、Google WorkspaceにおけるAI活用の幅が大きく拡張されることになる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Xy0r5fKwlVo">YouTube</a></p>
-]]></description>
-      <pubDate>Fri, 05 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ARグラスだけで2D→3D変換を実現　新モデル「XREAL 1S」ーーXREAL、日本先行で予約受付を開始　2026年1月下旬発売へ</title>
       <link>https://ledge.ai/articles/xreal_1s_2d_to_3d_ar_glasses_launch</link>
       <description><![CDATA[<p>XREALは12月1日、新型ARグラス「XREAL 1S」を<a href="https://prtimes.jp/main/html/rd/p/000000226.000070978.html">発表</a>し、同日より日本で予約受付を開始した。発売は2026年1月下旬を予定。日本がグローバルで初の発表および予約開始地域となる。価格は6万7,980円（税込）。</p>
@@ -648,24 +601,51 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
       <pubDate>Fri, 05 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
-      <link>https://ledge.ai/articles/turing_tokyo30_full_self_driving_achievement</link>
-      <description><![CDATA[<p>完全自動運転を目指すスタートアップのチューリング株式会社は2025年12月1日、同社の技術カンファレンス「<a href="https://www.youtube.com/watch?v=HhQr0SAZs3Y">Turing AI Day 2025</a>」で、東京都内を人間の操作なしで30分以上走行するプロジェクト「Tokyo30」を達成したと発表した。当日は実際の走行映像も公開され、開発中のEnd-to-End（E2E）自動運転システムの挙動が披露された。</p>
-<p>同社は創業当初より「We Overtake Tesla（テスラを超える）」をミッションとして掲げており、今回の成果を国産の完全自動運転に向けた重要なマイルストーンの一つと位置づけている。</p>
-<h2>「カンブリア爆発」を経て実用域に近づくE2Eモデル</h2>
-<p>AI Day の冒頭で公開された映像では、チューリングの実験車両が、市街地の複雑な交通環境下でハンドル・アクセル・ブレーキのすべてをAIが制御し、30分以上連続して走行する様子が確認できた。信号停止、右左折、歩行者や車両との交錯といった場面でも、安定した挙動を維持していた。</p>
-<p>同社は創業時から「Day 1 から E2E」を掲げ、カメラ映像を入力とし、単一のニューラルネットワークが走行経路（トラジェクトリ）を直接出力する方式を採用している。データ収集から学習までのパイプラインを整備した段階でモデル性能が急激に向上した時期を、社内では「カンブリア爆発」と呼んでおり、Tokyo30 はその延長線にある成果だと説明した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20251_393e19e328/turing_ai_day20251_393e19e328.jpg" alt="turing ai day20251.jpg" /></p>
-<h2>富岳の約40%相当の計算基盤が学習を支える</h2>
-<p>E2Eモデルの性能向上を支えるのが、大規模GPUクラスタである。チューリングは自社専用の「Gaggle Cluster」を中心に、オンプレミスとクラウドを組み合わせて学習基盤を構築しており、2025年12月時点の総演算性能は、スーパーコンピュータ「富岳」のAI演算性能（FP16換算）の約40%に相当すると説明した。</p>
-<p>同社はシリーズAラウンドの1st Closeとして152.7億円（約153億円）を調達しており、多くを計算基盤の拡充やデータ拡張、組織体制の強化に投じる計画だという。AI Day では、今後2年間で計算能力を5〜10倍（最大7 ExaFLOPS規模）へ拡張する方針も示された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20252_608dfde61a/turing_ai_day20252_608dfde61a.jpg" alt="turing ai day20252.jpg" /></p>
-<h2>VLAモデル・世界モデルへと発展する次世代アプローチ</h2>
-<p>AI Day 2025 では次世代アプローチとして、視覚（Vision）・言語（Language）・行動（Action）を統合する「VLAモデル」や、未知の走行シーンを生成できる「世界モデル（World Model）」の研究状況が紹介された。</p>
-<p>チューリングはこれまでに、日本語VLM「Heron」や運転QAデータセット「Stride-QA」「COBRA」を独自に構築しており、今後はこれらの技術を統合した70B級（700億パラメータ級）規模の「フロンティアモデル」を開発。そのうえで、車載向けに蒸留したE2Eモデルを量産レベルで展開する構想を掲げる。</p>
-<h2>2030年の完全自動運転の商用化を見据える</h2>
-<p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
-<p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
+      <title>学術＆研究2025/12/7 [SUN]「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
+      <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
+      <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
+<p>このシステムは、発声しようとした言葉だけでなく、声を出さずに心の中で唱えた「内なる声（inner speech）」も一定の精度で文章化できることを示した。従来の類似手法と比べ、単語誤り率（WER）を24.69％から10.22％へと半分以下に抑えた点が特徴で、麻痺などによって話すことが難しい人のコミュニケーション支援技術としての応用も期待される。</p>
+<p>なお、研究で使用されたのはUtahアレイと呼ばれる脳表面に埋め込む侵襲型電極であり、非侵襲の脳波（EEG）とは異なる。</p>
+<h2>脳波を「音声」と見なしてLLMが解読</h2>
+<p>従来の脳内音声解読システム（BCI）では、多くが「脳活動 → 音素 → 単語 → 言語モデル」という複数段階の“カスケード型”処理を採用していた。この構造では、各工程が独立しているため、システム全体をまとめて最適化できない点が課題とされていた。</p>
+<p>今回発表された「BIT」は、脳活動の特徴を捉えるTransformerエンコーダーと、大規模言語モデル（LLM）を結合させたEnd-to-End型（統合的最適化）フレームワークである。</p>
+<p>ヒトやサルの脳活動データ約367時間分を用いて事前学習を行い、神経活動のパターンから直接テキストを生成する。この仕組みにより、従来必要だった音素への変換ステップを省き、脳活動から直接文章を出力できるようになった。</p>
+<p><strong>図1：BIT（BraIn-to-Text）フレームワークの全体構成</strong>
+脳に埋め込んだ電極から取得した神経活動をAIが処理し、最終的に文章として出力するまでの流れを示す図。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_11_017e439017/x1_11_017e439017.png" alt="x1 (11).png" /></p>
+<h2>単語誤り率を大幅に低減</h2>
+<p>このEnd-to-Endのアプローチによる精度の変化について、論文では以下の数値が報告されている。従来の同様のシステムと比較し、単語の読み取りミスを示す「単語誤り率（WER）」は低下した 。</p>
+<ul>
+<li><strong>従来のEnd-to-End手法</strong> ： 単語誤り率 24.69%</li>
+<li><strong>新技術「BIT」（音声LLM統合版）</strong> ： 単語誤り率 10.22%</li>
+</ul>
+<p>さらに、脳活動エンコーダーを用いて「Brain-to-Text Benchmark」に参加したところ、カスケード型設定を含む全カテゴリで最も低い誤り率を記録した。</p>
+<p>アンサンブル（複数モデル併用）設定でのWERは以下の通りである。</p>
+<ul>
+<li><strong>Brain-to-Text '24 ベンチマーク</strong> ： 単語誤り率 5.10%</li>
+<li><strong>Brain-to-Text '25 ベンチマーク</strong> ： 単語誤り率 2.21%</li>
+</ul>
+<p><strong>図2：BITの性能比較と解読例</strong>
+従来手法と比較した誤り率の低減、および実際に生成された文章の例を示す図。内言においても意味的に近い文章を生成できている点が示されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_8f9b3b00ac/x2_8f9b3b00ac.png" alt="x2.png" /></p>
+<h2>「想像発話」の読み取りにも成功</h2>
+<p>研究では、筋肉を動かして発話しようとする「試行発話（attempted speech）」だけでなく、声を出す動作を伴わずに頭の中で言葉を思い浮かべる「想像発話（imagined speech）」のデータセットを用いた検証も行われた。</p>
+<p>解析の結果、実際に話そうとする時と心の中で話す時の脳内活動には、共通する意味的構造が存在することが示唆された。AIはこの共通性を利用することで、データの少ない想像発話においても文章変換を可能にしている。</p>
+<p><strong>図3：音声LLMとの比較──脳活動の文章化に適したモデル</strong>
+複数の音声LLM・テキストLLMを比較し、どのモデルが脳活動からの文章生成に適しているかをまとめた図。音声を扱う小規模モデルが高い適性を示した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_4_7cc8f5e441/x3_4_7cc8f5e441.png" alt="x3 (4).png" /></p>
+<h2>話せない人のコミュニケーション支援へ</h2>
+<p>発話が困難なALS患者や脳損傷患者にとって、頭の中で言葉を思い浮かべるだけで意思を伝えられる技術は大きな可能性を持つ。</p>
+<p>論文では、将来的な臨床応用を見据えつつ、次のような課題を整理している。</p>
+<ul>
+<li>神経信号の非定常性への適応</li>
+<li>電極の長期安定性</li>
+<li>オンデバイス実行に向けた効率化</li>
+</ul>
+<p>また、特に内言の解読は倫理的に慎重な扱いが求められ、研究チームも「利用者の明確な同意を欠いた読心的用途は許されない」と明記している。</p>
+<h2>今後の展望──神経データ版“基盤モデル”へ</h2>
+<p>BITで用いられたNeural Encoderは、サルを含む多様な神経活動から学習されている。論文では、近年さまざまな分野で「foundation models」と呼ばれる大規模事前学習モデルが提案されていることを紹介し、こうした方向性がBCIの性能向上にも有効である可能性を挙げている。</p>
+<p>研究チームは、今後の課題として、電極の非定常性への適応、長期的な記録の安定性、インターフェースの効率化などを明確にし、改善を重ねることで「ユーザーとシステムが互いに適応しながら利用可能な、より柔軟なBCIの開発につながる」とまとめている。</p>
 ]]></description>
       <pubDate>Wed, 03 Dec 2025 05:50:00 GMT</pubDate>
     </item>
