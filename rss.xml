@@ -5,6 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NEC、警察・消防の指令室を支援する次世代AI技術を開発──独自のAgentic AIで状況把握から行動提案まで自動化</title>
+      <link>https://ledge.ai/articles/necs_agentic_ai_emergency_command_support</link>
+      <description><![CDATA[<p>NECは2025年12月2日、警察・消防などの緊急通報を受ける指令室業務を高度化する次世代支援技術を開発したと<a href="https://jpn.nec.com/press/202512/20251202_03.html">発表</a>した。独自のAgentic AIを核とし、通話内容の理解、状況分析、行動提案までを一連で支援することで、オペレーターの負担軽減と業務精度の向上を図る。同技術はマルチ言語に対応し、2026年度中の国内外での活用を見込む。</p>
+<p>発表によると、指令室での緊急通報対応は高い専門性が求められ、通報者の説明が曖昧になりやすいなど状況把握が難しいケースも多い。NECはこうした課題に対し、リアルタイム解析で重要情報を抽出し、次にとるべき行動を提案する仕組みを導入することで、迅速かつ正確な判断を支援する。</p>
+<p>新技術では、複雑な会話でも誤情報の混入や途中の状況変化を踏まえて正確に把握できる点が特徴だという。NEC独自のAgentic AIが「会話分析」「情報管理」「行動提案」など複数の専門AIを連携させ、多角的に文脈を解釈。熟練オペレーターに近い安定した精度での応対を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0203_03_d844de8bb6/0203_03_d844de8bb6.jpg" alt="0203-03.jpg" /></p>
+<p>また、説明可能なAI（Explainable AI）を搭載し、AIが提示した判断根拠を確認できる点も特徴とされる。人命に関わる現場での信頼性を確保し、オペレーターが適切な判断を行うための支援を行う。さらに、EUのAI規制法を含む国際基準にも適応できるアーキテクチャを採用し、英語を含むマルチ言語に対応するなど、グローバル展開も可能としている。</p>
+<p>高い汎用性も強みで、Agentic AIを役割ごとに分割した構造により、業務要件に応じたチューニングを低コストかつ短期間で実施可能。警察・消防の指令室業務にとどまらず、企業のコンタクトセンターなど幅広い業務への適用を想定している。</p>
+]]></description>
+      <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
       <link>https://ledge.ai/articles/eyereal_ai_glasses_free_3d_ultrawide_display_nature</link>
       <description><![CDATA[<p>上海人工智能実験室と復旦大学の研究チームは、専用メガネなしで広視野角の3D映像を表示できる新方式「EyeReal」を開発し、科学誌 Nature に<a href="https://www.nature.com/articles/s41586-025-09752-y">発表</a>した。従来のホログラフィック方式や自動立体（autostereoscopic）ディスプレイが抱えていた物理的制約を、AIと多層LCD構造を組み合わせた新たな光場生成手法で克服した点が特徴だ。</p>
@@ -496,50 +508,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Runway、新モデル「Gen-4.5」公開──リアル物理・精密カメラワークを実現　動画AIで世界最高Elo 1247　Veo 3・Sora 2を圧倒</title>
-      <link>https://ledge.ai/articles/runway_gen_4_5_release</link>
-      <description><![CDATA[<p>AI動画生成企業 Runway は12月1日、次世代動画モデル「Runway Gen-4.5」を<a href="https://runwayml.com/research/introducing-runway-gen-4.5">発表</a>した。同社によると、物理挙動の再現精度、プロンプト追従性、カメラワークの精密さが大幅に向上しており、動画生成AIのベンチマーク「Artificial Analysis」Text-to-Video リーダーボードで Elo 1247 を記録。Googleの「Veo 3」やOpenAIの「Sora 2 Pro」など、主要モデルを上回る世界最高スコアとなった。</p>
-<p>Runwayは公式リリースで、Gen-4.5を「動画モデルの新たな基盤（foundation model）」と位置づけている。開発コードネームは「Whisper Thunder（David）」。研究段階から推論まで、すべての工程を NVIDIA GPU 上で実施し、Blackwell/Hopper 世代向けに最適化されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ei2PsDpPbB4">YouTube</a></p>
-<h2>複雑なカメラワーク・構図理解が大幅に向上</h2>
-<p>Gen-4.5は、複雑なカメラの移動、複数要素が連続して発生する構図、シーン内の細かなイベント進行などを単一プロンプトで制御可能となった。
-Runwayは「細かいカメラの振り、構図の変化、時間経過による変化まで正確に理解する」と説明している。</p>
-<h2>物理再現性は「重さ」「質感」「自然な動き」を強化</h2>
-<p>新モデルでは、物体の重量感・慣性・表面反射・素材感などの物理表現が精密化。風・煙・水の挙動など、自然現象の再現精度も向上した。同時に、物理法則を遵守する演出だけでなく、クリエイターが意図的に“非現実的な世界”を作る演出も柔軟に実行できる。</p>
-<h2>世界最高スコア：Elo 1247、他社を大きくリード</h2>
-<p>Runwayが公開したベンチマークでは、Gen-4.5は Elo 1247 を記録し、主要動画生成モデルを上回った。</p>
-<ul>
-<li>Runway Gen-4.5：1247</li>
-<li>Google Veo 3：1226</li>
-<li>Kling 2.5：1225</li>
-<li>Veo 3.1：1223</li>
-<li>OpenAI Sora 2 Pro：1206</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gen_4_5_chart_revised_01_1077109527/gen_4_5_chart_revised_01_1077109527.jpg" alt="gen-4.5-chart-revised-01.jpg" /></p>
-<p>動画生成AIの性能を示す指標として注目されるEloスコアで、Runwayは明確な優位性を示した。</p>
-<h2>NVIDIAと全面協業、最適化された推論パイプライン</h2>
-<p>Gen-4.5は研究・前処理・後処理・推論まで、全工程を NVIDIA GPU 上で構築。NVIDIAのJensen Huang CEOは以下のコメントを寄せている。</p>
-<p>「Runwayが NVIDIA GPU 上で革新的な動画・ワールドモデルを構築したことを誇りに思う。AIの全ライフサイクルを共に前進させるため、協業を続ける」</p>
-<h2>既存のコントロールモードも統合予定</h2>
-<p>Gen-4.5では、Text-to-Videoに加えて以下の機能が順次統合される予定だ。</p>
-<ul>
-<li>Image to Video</li>
-<li>Video to Video</li>
-<li>Keyframes</li>
-<li>その他の既存コントロール機能</li>
-</ul>
-<p>プロ向けの高度なワークフローを支える構造となっている。</p>
-<h2>透明性として「現状の限界」も明示</h2>
-<p>Runwayは、Gen-4.5において依然として課題が残る点も公開している。
-因果関係の理解が不完全
-物体恒常性（object permanence）の失敗ケース</p>
-<p>これらの改善を今後の「world modeling」の重要テーマと位置づけ、継続して研究を進めると説明した。</p>
-<h2>数日以内に全ユーザーへ提供開始</h2>
-<p>Gen-4.5は段階的にロールアウトが始まっており、数日以内にRunwayのユーザー全体へ展開される予定。Gen-1、Gen-2、Gen-3から続く進化の集大成として、Runwayは「新しい動画生成の標準点をつくる」としている。</p>
-]]></description>
-      <pubDate>Sat, 06 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/12/6 [SAT]「AIバブルではない」が…IBM CEO、AGI開発への世界全体のコミットメント100ギガワット分のデータセンター投資に「採算が合わない」と警告</title>
       <link>https://ledge.ai/articles/ibm_ceo_ai_datacenter_investment_bubble_warning</link>
       <description><![CDATA[<p>AI企業の間で、生成AIや将来のAGI（汎用人工知能）を見据えた大規模データセンター投資が加速している。だが、こうした巨額投資が現在のコスト構造のままで採算を取れるのかについて、警鐘を鳴らす声が上がった。IBMのCEO兼会長であるアーヴィンド・クリシュナ氏は2025年12月3日、The Vergeのポッドキャスト番組「<a href="https://www.theverge.com/podcast/829868/ibm-arvind-krishna-watson-llms-ai-bubble-quantum-computing">Decoder</a>」に出演し、AI向けデータセンター投資のリターンは「現状では見込めない」と述べた。</p>
@@ -615,19 +583,6 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
 <p>2026年度には「源内」の他府省庁展開が予定されており、評価結果や各府省庁のニーズを踏まえ、2027年度以降に国内LLMの本格導入が検討される。</p>
 ]]></description>
       <pubDate>Fri, 05 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>国税庁、AI活用で追徴税額3,811億円──法人税・消費税は3,407億円で直近10年最高に</title>
-      <link>https://ledge.ai/articles/nta_ai_tax_audit_2024_3811oku</link>
-      <description><![CDATA[<p>国税庁は2025年12月2日、2024事務年度（令和6事務年度、2024年7月〜2025年6月）の「法人税等の調査事績の概要」を<a href="https://www.nta.go.jp/information/release/kokuzeicho/2025/hojin_chosa/index.htm">発表</a>した。</p>
-<p>法人税・法人消費税の追徴税額は3,407億円となり、直近10年で最高額を記録した。また、源泉所得税の追徴税額404億円と合わせると、3税目の合計は3,811億円となった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_c3345ac9f5/_c3345ac9f5.jpg" alt="追徴税額の推移　法人税消費税.jpg" /></p>
-<p>資料では、調査先の選定にあたり「AIも活用しながら、あらゆる機会を通じて収集した資料情報等や申告書の分析・検討を行う」と明記。調査必要度の高い法人を的確に抽出し、実地調査を実施したとしている。</p>
-<p>実地調査件数は5万4,000件（前年比▲7.4%）と減少した一方、1件当たりの追徴税額は増加した。法人税・消費税の追徴税額は、令和2事務年度の2,157億円から増加基調が続いており、令和6事務年度は3,407億円に達した。</p>
-<p>重点分野として、国税庁は消費税還付申告法人、海外取引法人、無申告法人を挙げている。源泉所得税では、調査件数1万1,700件、追徴税額404億円（前年比＋20.5%）と、給与・報酬などの源泉徴収漏れに関する指摘が増えた。</p>
-<p>国税庁は2023年に示した「税務行政の将来像」において、AIやデータ分析を活用した調査先選定やリスク分析の高度化を掲げている。今回公表された事績では、実地調査件数を抑制しつつ追徴税額を高水準で維持しており、AI活用を含む調査の効率化が進んだ形となった。</p>
-]]></description>
-      <pubDate>Thu, 04 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
