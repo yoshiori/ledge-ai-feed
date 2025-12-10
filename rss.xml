@@ -5,6 +5,41 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
+      <link>https://ledge.ai/articles/eyereal_ai_glasses_free_3d_ultrawide_display_nature</link>
+      <description><![CDATA[<p>上海人工智能実験室と復旦大学の研究チームは、専用メガネなしで広視野角の3D映像を表示できる新方式「EyeReal」を開発し、科学誌 Nature に<a href="https://www.nature.com/articles/s41586-025-09752-y">発表</a>した。従来のホログラフィック方式や自動立体（autostereoscopic）ディスプレイが抱えていた物理的制約を、AIと多層LCD構造を組み合わせた新たな光場生成手法で克服した点が特徴だ。</p>
+<h2>従来の裸眼3D方式の限界を超えるアプローチ</h2>
+<p>過去の裸眼3D技術は、視野角や画面サイズなどのトレードオフが大きな課題だった。ホログラフィック方式は高密度の光学情報を扱える一方、視域が極めて小さく、実用性が限定される。一方、ビューセグメント型・ビューデンス型の自動立体ディスプレイは、視点数や視域が固定され、観察者が自由に動いた際に自然な視差変化を再現することが難しかった。</p>
+<p>EyeReal は、こうした従来方式を図示しつつ、観察者の目の周囲に最適化された光場をリアルタイム生成するというアプローチを採用する。</p>
+<p><strong>従来方式（a〜c）が視野角や表示領域に制約を抱える中、EyeReal（d）は観察者の眼のまわりで光場を最適化し、超広視野角の裸眼3D表示を可能にする</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig1_7a43aeeee1/41586_2025_9752_Fig1_7a43aeeee1.jpg" alt="41586_2025_9752_Fig1.jpg" /></p>
+<h2>EyeReal の構造：多層LCD × AIによる光場最適化</h2>
+<p>研究チームは、市販の液晶パネルを複数枚重ね合わせた構造を採用。光源、偏光板（縦・横）、液晶層の組み合わせにより、各ピクセルからの位相（フェーズ）を精密に制御する。</p>
+<p>RGB-D センサーが観察者の両眼位置と姿勢（6D pose）を取得し、ニューラルネットワークがその位置に最適な「位相パターン」を生成する。これにより、従来の光学系では物理的に困難だった複雑な光場を、液晶ディスプレイのみで再現できる。</p>
+<p><strong>多層LCD、偏光板、RGB-D センサー、ニューラルネットワークで構成される EyeReal の光場生成システム。両眼位置の推定から位相パターン生成までをリアルタイムで行う</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig2_d941741a66/41586_2025_9752_Fig2_d941741a66.jpg" alt="41586_2025_9752_Fig2.jpg" /></p>
+<h2>動きに応じて自然に変化する視差と焦点表現</h2>
+<p>実験では、都市景観や屋内シーンなどを用いて、左右の眼に届く画像を検証した。EyeReal が生成した左右画像は、Ground truth（正解画像）と高い一致率を示し、水平・垂直・前後方向の動きに対して自然なモーションパララックスを維持した。</p>
+<p>さらに、前景・後景の被写界深度（焦点表現）も再現可能で、奥行き感の自然さが向上している。</p>
+<p><strong>EyeReal の再現画像（Prediction）は、Ground truth と高い一致を示し、上下左右・前後の動きに伴う視差変化を自然に再現。前景・後景の焦点表現も維持されている</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig3_c6449eee0f/41586_2025_9752_Fig3_c6449eee0f.jpg" alt="41586_2025_9752_Fig3.jpg" /></p>
+<h2>超広視野角100度超、50Hzリアルタイム処理</h2>
+<p>定量評価では以下の性能が確認された：</p>
+<ul>
+<li><strong>視野角：100度超</strong> ：観察者が大きく移動しても PSNR・SSIM が高値を維持した</li>
+<li><strong>未知視点に対する一般化性能（Generalization）</strong> ：学習データに存在しない視点からでも安定した画質を確保</li>
+<li><strong>動作速度：50.2 Hz</strong> ：多層LCDとAI処理によるシステムとしては高速で、リアルタイム裸眼3Dに求められる水準を満たす</li>
+</ul>
+<p>奥行き層ごとの PSNR 曲線や視野マップも示され、前景から背景まで一貫した再現品質を持つことが確認された。</p>
+<p><strong>EyeReal の定量評価。超広視野角でも高い PSNR/SSIM を維持し、未知視点に対しても一般化。50Hzを超える処理速度によりリアルタイム裸眼3Dとして実用レベルに到達している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig4_e554e7ef93/41586_2025_9752_Fig4_e554e7ef93.jpg" alt="41586_2025_9752_Fig4.jpg" /></p>
+<p>論文では、エンターテインメント用途にとどまらず、医学画像の立体視、建築設計、教育、科学データの立体構造可視化など、多様な分野への応用可能性が示されている。</p>
+<p>今後の課題としては、複数ユーザー同時視聴への拡張、消費電力の最適化、さらなる高速化などが挙げられる。
+研究チームは、本方式が「裸眼3Dディスプレイの物理的限界をAIで超える新しい方向性を提示した」としている。</p>
+]]></description>
+      <pubDate>Wed, 10 Dec 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、LLMが10～15分の自動インタビューを実施する新ツール「Anthropic Interviewer」を公開──1,250人調査データも公開、Hugging Faceでトレンド1位に</title>
       <link>https://ledge.ai/articles/anthropic_interviewer_release_adaptive_interview_tool</link>
       <description><![CDATA[<p>Anthropic は米国時間2025年12月4日、LLM「Claude」を用いた新しい調査ツール「Anthropic Interviewer」を<a href="https://www.anthropic.com/news/anthropic-interviewer">発表</a>した。ユーザーに対して10〜15分のその場の回答に合わせて質問を自動調整するインタビューを行い、AIが生活や仕事にどのように影響しているかを体系的に収集する仕組みだ。同社は1,250人の職業人に対して実施した初期調査の結果をデータセットとして<a href="https://huggingface.co/datasets/Anthropic/AnthropicInterviewer">公開</a>し、Hugging Face の「Trending Datasets」で1位になるなど反響が広がっている。</p>
