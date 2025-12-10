@@ -508,6 +508,50 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Runway、新モデル「Gen-4.5」公開──リアル物理・精密カメラワークを実現　動画AIで世界最高Elo 1247　Veo 3・Sora 2を圧倒</title>
+      <link>https://ledge.ai/articles/runway_gen_4_5_release</link>
+      <description><![CDATA[<p>AI動画生成企業 Runway は12月1日、次世代動画モデル「Runway Gen-4.5」を<a href="https://runwayml.com/research/introducing-runway-gen-4.5">発表</a>した。同社によると、物理挙動の再現精度、プロンプト追従性、カメラワークの精密さが大幅に向上しており、動画生成AIのベンチマーク「Artificial Analysis」Text-to-Video リーダーボードで Elo 1247 を記録。Googleの「Veo 3」やOpenAIの「Sora 2 Pro」など、主要モデルを上回る世界最高スコアとなった。</p>
+<p>Runwayは公式リリースで、Gen-4.5を「動画モデルの新たな基盤（foundation model）」と位置づけている。開発コードネームは「Whisper Thunder（David）」。研究段階から推論まで、すべての工程を NVIDIA GPU 上で実施し、Blackwell/Hopper 世代向けに最適化されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ei2PsDpPbB4">YouTube</a></p>
+<h2>複雑なカメラワーク・構図理解が大幅に向上</h2>
+<p>Gen-4.5は、複雑なカメラの移動、複数要素が連続して発生する構図、シーン内の細かなイベント進行などを単一プロンプトで制御可能となった。
+Runwayは「細かいカメラの振り、構図の変化、時間経過による変化まで正確に理解する」と説明している。</p>
+<h2>物理再現性は「重さ」「質感」「自然な動き」を強化</h2>
+<p>新モデルでは、物体の重量感・慣性・表面反射・素材感などの物理表現が精密化。風・煙・水の挙動など、自然現象の再現精度も向上した。同時に、物理法則を遵守する演出だけでなく、クリエイターが意図的に“非現実的な世界”を作る演出も柔軟に実行できる。</p>
+<h2>世界最高スコア：Elo 1247、他社を大きくリード</h2>
+<p>Runwayが公開したベンチマークでは、Gen-4.5は Elo 1247 を記録し、主要動画生成モデルを上回った。</p>
+<ul>
+<li>Runway Gen-4.5：1247</li>
+<li>Google Veo 3：1226</li>
+<li>Kling 2.5：1225</li>
+<li>Veo 3.1：1223</li>
+<li>OpenAI Sora 2 Pro：1206</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gen_4_5_chart_revised_01_1077109527/gen_4_5_chart_revised_01_1077109527.jpg" alt="gen-4.5-chart-revised-01.jpg" /></p>
+<p>動画生成AIの性能を示す指標として注目されるEloスコアで、Runwayは明確な優位性を示した。</p>
+<h2>NVIDIAと全面協業、最適化された推論パイプライン</h2>
+<p>Gen-4.5は研究・前処理・後処理・推論まで、全工程を NVIDIA GPU 上で構築。NVIDIAのJensen Huang CEOは以下のコメントを寄せている。</p>
+<p>「Runwayが NVIDIA GPU 上で革新的な動画・ワールドモデルを構築したことを誇りに思う。AIの全ライフサイクルを共に前進させるため、協業を続ける」</p>
+<h2>既存のコントロールモードも統合予定</h2>
+<p>Gen-4.5では、Text-to-Videoに加えて以下の機能が順次統合される予定だ。</p>
+<ul>
+<li>Image to Video</li>
+<li>Video to Video</li>
+<li>Keyframes</li>
+<li>その他の既存コントロール機能</li>
+</ul>
+<p>プロ向けの高度なワークフローを支える構造となっている。</p>
+<h2>透明性として「現状の限界」も明示</h2>
+<p>Runwayは、Gen-4.5において依然として課題が残る点も公開している。
+因果関係の理解が不完全
+物体恒常性（object permanence）の失敗ケース</p>
+<p>これらの改善を今後の「world modeling」の重要テーマと位置づけ、継続して研究を進めると説明した。</p>
+<h2>数日以内に全ユーザーへ提供開始</h2>
+<p>Gen-4.5は段階的にロールアウトが始まっており、数日以内にRunwayのユーザー全体へ展開される予定。Gen-1、Gen-2、Gen-3から続く進化の集大成として、Runwayは「新しい動画生成の標準点をつくる」としている。</p>
+]]></description>
+      <pubDate>Sat, 06 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/6 [SAT]「AIバブルではない」が…IBM CEO、AGI開発への世界全体のコミットメント100ギガワット分のデータセンター投資に「採算が合わない」と警告</title>
       <link>https://ledge.ai/articles/ibm_ceo_ai_datacenter_investment_bubble_warning</link>
       <description><![CDATA[<p>AI企業の間で、生成AIや将来のAGI（汎用人工知能）を見据えた大規模データセンター投資が加速している。だが、こうした巨額投資が現在のコスト構造のままで採算を取れるのかについて、警鐘を鳴らす声が上がった。IBMのCEO兼会長であるアーヴィンド・クリシュナ氏は2025年12月3日、The Vergeのポッドキャスト番組「<a href="https://www.theverge.com/podcast/829868/ibm-arvind-krishna-watson-llms-ai-bubble-quantum-computing">Decoder</a>」に出演し、AI向けデータセンター投資のリターンは「現状では見込めない」と述べた。</p>
