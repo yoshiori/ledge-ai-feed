@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、LLMが10～15分の自動インタビューを実施する新ツール「Anthropic Interviewer」を公開──1,250人調査データも公開、Hugging Faceでトレンド1位に</title>
+      <link>https://ledge.ai/articles/anthropic_interviewer_release_adaptive_interview_tool</link>
+      <description><![CDATA[<p>Anthropic は米国時間2025年12月4日、LLM「Claude」を用いた新しい調査ツール「Anthropic Interviewer」を<a href="https://www.anthropic.com/news/anthropic-interviewer">発表</a>した。ユーザーに対して10〜15分のその場の回答に合わせて質問を自動調整するインタビューを行い、AIが生活や仕事にどのように影響しているかを体系的に収集する仕組みだ。同社は1,250人の職業人に対して実施した初期調査の結果をデータセットとして<a href="https://huggingface.co/datasets/Anthropic/AnthropicInterviewer">公開</a>し、Hugging Face の「Trending Datasets」で1位になるなど反響が広がっている。</p>
+<p><strong>Hugging Face CEO のClement Delangue氏が、「Anthropic Interviewer」のデータセットがTrending Datasets 1位になったと報告したX投稿</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Clement_Delangue_X_anthropicinterviewer_10fd09c46a/Clement_Delangue_X_anthropicinterviewer_10fd09c46a.jpg" alt="ClementDelangue X anthropicinterviewer.jpg" /></p>
+<p>Anthropic Interviewer は、Claude をベースにした自動インタビューツールで、研究目的のフィードバック収集を大規模に行うために設計された。ユーザーが Claude.ai にアクセスすると、画面にポップアップ形式でインタビューが表示され、AI が順に質問を行う。所要時間は10〜15分で、声による入力にも対応している。</p>
+<p><strong>「Anthropic Interviewer」のインタビュー画面。ユーザーの体験談や価値観を10〜15分で聞き取る</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aiinterviewer_601e88e925/aiinterviewer_601e88e925.jpg" alt="aiinterviewer.jpg" /></p>
+<h2>1,250人を対象にした初期調査を公開</h2>
+<p>Anthropic は、Interview­erを用いて 1,000人の一般ワーカー、125人のクリエイター、125人の科学者 に調査を実施した。その結果、参加者の多くが「AIは時間を節約してくれる」「業務の補助として役立つ」と回答しており、AIとの付き合い方に対する実態が可視化されつつある。同社はこの調査データをデータセットとして公開し、外部研究者による分析も可能にした。</p>
+<p><strong>ユーザーがAIをどのように活用しているかを示す分析結果。業務補助（Augmentation）が多くを占め、完全な自動化（Automation）は限定的だった</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/percentage_of_conversations_8ad0fc498a/percentage_of_conversations_8ad0fc498a.jpg" alt="percentage of conversations.jpg" /></p>
+<p>調査結果は、AI活用に関する数多くのテーマを分類し、ユーザーがどの領域で期待や懸念を抱いているかを可視化している。たとえば、ビジネス最適化やプロジェクトワークフローでは「楽観的」な回答が多い一方、データプライバシーやシステムトラブルでは慎重な意見もみられた。</p>
+<p><strong>1,250人の回答をテーマ別にクラスタリングした可視化。黄色が「楽観的」、青が「懐疑的」な傾向を示す</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pessimistic_or_optimistc_13e69ad2bc/pessimistic_or_optimistc_13e69ad2bc.jpg" alt="pessimistic or optimistc.jpg" /></p>
+<h2>Anthropic Interviewerの仕組み：Planning／Interviewing／Analysis</h2>
+<p>Anthropic Interviewer のワークフローは以下の3段階で説明されている。
+Planning（計画）：Claude が研究目的に沿ったインタビュールーブリックを生成し、人間の研究者がそれを校正する
+Interviewing（実施）：Claude がユーザーへリアルタイムで質問を投げかけ、内容に応じて深掘りや分岐を行う
+Analysis（分析）：インタビュー記録をもとに、Claude が初期分析を生成し、研究者が最終レポートを作成する</p>
+<p><strong>Anthropic Interviewer の3段階ワークフロー。インタビュー計画の生成から自動インタビュー、分析までをAIが支援する</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cc1e5916d47f4217a69_df29416f61/cc1e5916d47f4217a69_df29416f61.jpg" alt="cc1e5916d47f4217a69.jpg" /></p>
+<h2>プライバシーとデータ利用</h2>
+<p>Anthropic のプライバシー文書によると、インタビュー内容は研究目的にのみ利用され、最大5年間保管される。閲覧できるのは権限を持つAnthropic担当者のみで、回答データは集計形式や匿名化された形で扱われる。また、内容には健康情報や個人を特定する情報を含めないようユーザーに注意喚起が行われる。</p>
+<p>Anthropic は、Interview­er を研究コミュニティ向けの基盤として活用し、AIが職業・社会にどのように影響するかを継続的に調査していく方針を示している。データセットの公開により、外部研究者による再分析や政策研究への活用も期待される。</p>
+]]></description>
+      <pubDate>Tue, 09 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、メタバース投資を大幅縮小　Reality Labsの予算を最大3割カットしAIウェアラブルへ集中</title>
       <link>https://ledge.ai/articles/meta_metaverse_budget_cut_ai_wearables_shift</link>
       <description><![CDATA[<p>Metaが2026年度に向け、メタバース関連事業の予算を大幅に削減し、AIを活用したウェアラブル端末へ投資を振り向ける方針であることが分かった。2025年12月4日に<a href="https://www.bloomberg.com/news/articles/2025-12-04/meta-s-zuckerberg-plans-deep-cuts-for-metaverse-efforts">Bloomberg</a>をはじめとする複数の主要メディアが、同社内部の協議内容に詳しい関係者の話として報じている。こうした削減案は現時点では協議段階であり、最終決定には至っていないとされる。Metaは報道に対しコメントを控えている。</p>
@@ -564,31 +593,6 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
 <p>国税庁は2023年に示した「税務行政の将来像」において、AIやデータ分析を活用した調査先選定やリスク分析の高度化を掲げている。今回公表された事績では、実地調査件数を抑制しつつ追徴税額を高水準で維持しており、AI活用を含む調査の効率化が進んだ形となった。</p>
 ]]></description>
       <pubDate>Thu, 04 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AppleのAI戦略トップ、ジョン・ジャナンドレア氏が退任へ──後任にMicrosoft出身のアマル・スブラマニヤ氏、副社長としてAI部門を統括</title>
-      <link>https://ledge.ai/articles/apple_ai_leadership_change_giannandrea_subramanya</link>
-      <description><![CDATA[<p>Appleは2025年12月1日（現地時間）、機械学習およびAI戦略担当シニアバイスプレジデント（SVP）を務めるジョン・ジャナンドレア氏が職務を退き、2026年春の退職までアドバイザーとして同社に残ると<a href="https://www.apple.com/newsroom/2025/12/john-giannandrea-to-retire-from-apple/">発表</a>した。
-同時に、MicrosoftやGoogleでAI研究を率いてきたアマル・スブラマニヤ氏が「Vice President of AI（AI担当副社長）」としてAppleに加わったことも明らかにした。</p>
-<h2>ジャナンドレア氏は2026年春までアドバイザーに就任</h2>
-<p>発表によると、ジャナンドレア氏はAIおよび機械学習戦略の中核としてAppleの活動を牽引してきたが、今回の人事にともないSVP職を離れ、退職までアドバイザーとして移行する。2018年に同社へ加わって以降、世界規模のAI・MLチームの構築や主要機能の開発を主導してきた人物で、Appleはその貢献を評価している。</p>
-<h2>後任スブラマニヤ氏、Foundation ModelsやAI安全性評価を統括</h2>
-<p>後任としてAppleに参加したアマル・スブラマニヤ氏は、Craig Federighi氏（ソフトウェアエンジニアリング担当シニアバイスプレジデント）の直属となる。同氏は、新役職「Vice President of AI」として、Apple Foundation Models、機械学習研究（ML Research）、AI Safety and Evaluationの3領域を率いる。</p>
-<p>スブラマニヤ氏は、直前までMicrosoftでCorporate Vice President of AIを務め、さらに以前には16年にわたりGoogleに在籍。Google退任時には「Google’s Gemini Assistant」のエンジニアリング責任者を務めるなど、AIの基盤研究と製品統合の双方に実績を持つ。</p>
-<h2>AI組織の一部はKhan氏・Cue氏の管掌へ</h2>
-<p>Appleは今回の人事に合わせ、AI組織の一部を再編する。ジャナンドレア氏が担当していた領域のうち、Foundation Models、ML Research、AI Safety and Evaluationはスブラマニヤ氏が引き継ぎ、それ以外の組織は以下の担当に移る。</p>
-<ul>
-<li>Sabih Khan氏（オペレーション担当シニアバイスプレジデント）</li>
-<li>Eddy Cue氏（サービス担当シニアバイスプレジデント）</li>
-</ul>
-<p>Appleは、この組織再編について「類似する部署とのアラインメントを高めるため」と説明している。</p>
-<h2>Cook氏とFederighi氏「AIはApple戦略の中心」</h2>
-<p>リリースでは、Tim Cook氏（CEO）とCraig Federighi氏によるコメントも紹介された。</p>
-<p>Cook氏は、ジャナンドレア氏の貢献を称えたうえで「AIは長年にわたりAppleの戦略の中心であり続けている」と強調。また、スブラマニヤ氏がAIの専門性をAppleにもたらすことを歓迎すると述べた。</p>
-<p>Federighi氏は、来年提供予定の「よりパーソナライズされたSiri」への取り組みを含め、AI機能の監督範囲が拡大することに触れつつ、スブラマニヤ氏の参加によりAI技術の進展をさらに加速させるとコメントした。</p>
-<p>Appleは今回の発表を「新しい章の始まり」と位置づけ、信頼性が高く、より個別化された体験を提供する次世代AI技術の開発を強化する姿勢を示している。</p>
-]]></description>
-      <pubDate>Thu, 04 Dec 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
