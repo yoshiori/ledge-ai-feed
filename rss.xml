@@ -359,6 +359,55 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>学術＆研究2025/12/7 [SUN]「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
+      <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
+      <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
+<p>このシステムは、発声しようとした言葉だけでなく、声を出さずに心の中で唱えた「内なる声（inner speech）」も一定の精度で文章化できることを示した。従来の類似手法と比べ、単語誤り率（WER）を24.69％から10.22％へと半分以下に抑えた点が特徴で、麻痺などによって話すことが難しい人のコミュニケーション支援技術としての応用も期待される。</p>
+<p>なお、研究で使用されたのはUtahアレイと呼ばれる脳表面に埋め込む侵襲型電極であり、非侵襲の脳波（EEG）とは異なる。</p>
+<h2>脳波を「音声」と見なしてLLMが解読</h2>
+<p>従来の脳内音声解読システム（BCI）では、多くが「脳活動 → 音素 → 単語 → 言語モデル」という複数段階の“カスケード型”処理を採用していた。この構造では、各工程が独立しているため、システム全体をまとめて最適化できない点が課題とされていた。</p>
+<p>今回発表された「BIT」は、脳活動の特徴を捉えるTransformerエンコーダーと、大規模言語モデル（LLM）を結合させたEnd-to-End型（統合的最適化）フレームワークである。</p>
+<p>ヒトやサルの脳活動データ約367時間分を用いて事前学習を行い、神経活動のパターンから直接テキストを生成する。この仕組みにより、従来必要だった音素への変換ステップを省き、脳活動から直接文章を出力できるようになった。</p>
+<p><strong>図1：BIT（BraIn-to-Text）フレームワークの全体構成</strong>
+脳に埋め込んだ電極から取得した神経活動をAIが処理し、最終的に文章として出力するまでの流れを示す図。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_11_017e439017/x1_11_017e439017.png" alt="x1 (11).png" /></p>
+<h2>単語誤り率を大幅に低減</h2>
+<p>このEnd-to-Endのアプローチによる精度の変化について、論文では以下の数値が報告されている。従来の同様のシステムと比較し、単語の読み取りミスを示す「単語誤り率（WER）」は低下した 。</p>
+<ul>
+<li><strong>従来のEnd-to-End手法</strong> ： 単語誤り率 24.69%</li>
+<li><strong>新技術「BIT」（音声LLM統合版）</strong> ： 単語誤り率 10.22%</li>
+</ul>
+<p>さらに、脳活動エンコーダーを用いて「Brain-to-Text Benchmark」に参加したところ、カスケード型設定を含む全カテゴリで最も低い誤り率を記録した。</p>
+<p>アンサンブル（複数モデル併用）設定でのWERは以下の通りである。</p>
+<ul>
+<li><strong>Brain-to-Text '24 ベンチマーク</strong> ： 単語誤り率 5.10%</li>
+<li><strong>Brain-to-Text '25 ベンチマーク</strong> ： 単語誤り率 2.21%</li>
+</ul>
+<p><strong>図2：BITの性能比較と解読例</strong>
+従来手法と比較した誤り率の低減、および実際に生成された文章の例を示す図。内言においても意味的に近い文章を生成できている点が示されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_8f9b3b00ac/x2_8f9b3b00ac.png" alt="x2.png" /></p>
+<h2>「想像発話」の読み取りにも成功</h2>
+<p>研究では、筋肉を動かして発話しようとする「試行発話（attempted speech）」だけでなく、声を出す動作を伴わずに頭の中で言葉を思い浮かべる「想像発話（imagined speech）」のデータセットを用いた検証も行われた。</p>
+<p>解析の結果、実際に話そうとする時と心の中で話す時の脳内活動には、共通する意味的構造が存在することが示唆された。AIはこの共通性を利用することで、データの少ない想像発話においても文章変換を可能にしている。</p>
+<p><strong>図3：音声LLMとの比較──脳活動の文章化に適したモデル</strong>
+複数の音声LLM・テキストLLMを比較し、どのモデルが脳活動からの文章生成に適しているかをまとめた図。音声を扱う小規模モデルが高い適性を示した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_4_7cc8f5e441/x3_4_7cc8f5e441.png" alt="x3 (4).png" /></p>
+<h2>話せない人のコミュニケーション支援へ</h2>
+<p>発話が困難なALS患者や脳損傷患者にとって、頭の中で言葉を思い浮かべるだけで意思を伝えられる技術は大きな可能性を持つ。</p>
+<p>論文では、将来的な臨床応用を見据えつつ、次のような課題を整理している。</p>
+<ul>
+<li>神経信号の非定常性への適応</li>
+<li>電極の長期安定性</li>
+<li>オンデバイス実行に向けた効率化</li>
+</ul>
+<p>また、特に内言の解読は倫理的に慎重な扱いが求められ、研究チームも「利用者の明確な同意を欠いた読心的用途は許されない」と明記している。</p>
+<h2>今後の展望──神経データ版“基盤モデル”へ</h2>
+<p>BITで用いられたNeural Encoderは、サルを含む多様な神経活動から学習されている。論文では、近年さまざまな分野で「foundation models」と呼ばれる大規模事前学習モデルが提案されていることを紹介し、こうした方向性がBCIの性能向上にも有効である可能性を挙げている。</p>
+<p>研究チームは、今後の課題として、電極の非定常性への適応、長期的な記録の安定性、インターフェースの効率化などを明確にし、改善を重ねることで「ユーザーとシステムが互いに適応しながら利用可能な、より柔軟なBCIの開発につながる」とまとめている。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/7 [SUN]Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
       <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
       <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
@@ -518,15 +567,24 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、ChatGPT品質改善に全集中「非常事態（code red）」宣言──CEOサム・アルトマン氏が他社LLMの進化に危機感で社内指示</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_code_red_improvement_directive</link>
-      <description><![CDATA[<p>米テック系メディア The Information は2025年12月1日（米国時間）、OpenAIのCEOであるサム・アルトマン氏が社員向けの社内メモで 「code red（非常事態）」を宣言し、ChatGPTの改善を最優先するよう指示した と<a href="https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort">報じた</a>。</p>
-<p>同メディアによると、アルトマン氏はメモで、ChatGPT の 速度、応答品質、信頼性、パーソナライズ性 を中心に改善を加速する必要性を強調。社内リソースの再配分を求め、他のプロジェクトについては一部を延期または凍結する方針を示したという。</p>
-<p>この報道を受け、Reuters は「The Information reported on Monday」として<a href="https://www.reuters.com/business/media-telecom/openai-plans-improve-chatgpt-delay-initiatives-such-advertising-information-2025-12-02/">記事</a>を配信し、広告導入や新規イニシアティブの遅延が検討されている点を伝えた。Bloomberg も同内容を紹介しつつ、OpenAIがChatGPTの改善に社内資源を集中させる状況を説明した。また、Wall Street Journal（WSJ） は独自に社内メモを確認したとし、日次の進捗チェックやチーム再配置など、運用上の詳細を補足している。</p>
-<h2>競争激化で「ChatGPTそのもの」の品質が問われる局面に</h2>
-<p>背景には、競合AIモデルの性能向上がある。とくに Google が開発する最新モデル「Gemini 3」は、複数のベンチマークで高い評価を受けており、AIチャット領域で OpenAI の優位性を揺るがしつつあると報じられている。こうした状況の中で、OpenAI 内部では ChatGPT を巡る競争が一段と厳しくなっているとの見方が、主要メディアの報道で広がっていた。</p>
-<p>OpenAI はここ数ヶ月、広告テストやショッピング支援など新機能の展開を準備していたが、今回の「code red」宣言によって、同社が 短期的な新機能追加よりも、ChatGPTそのものの品質改善を優先課題に据えた ことが示されたかたちだ。
-現時点で、OpenAI は code red 宣言について公式の声明を発表していない。</p>
+      <title>ビジネス2025/12/5 [FRI]AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
+      <link>https://ledge.ai/articles/trainium3_ultraserver_ga_announcement</link>
+      <description><![CDATA[<p>米Amazon傘下のAmazon Web Services（AWS）は2025年12月3日（現地時間）、年次イベント「AWS re:Invent 2025」で、自社開発AIチップ「Trainium3」を搭載する大規模AI向け統合システム「Amazon EC2 Trn3 UltraServer（以下、Trainium3 UltraServer）」の一般提供（GA）を開始したと<a href="https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost">発表</a>した。</p>
+<p>システムは3ナノメートルプロセスで製造したTrainium3を最大144基搭載でき、前世代（Trainium2 UltraServer）と比較して計算性能は最大4.4倍、メモリ帯域とエネルギー効率は約4倍に向上したという。</p>
+<h2>最大362 FP8 PFLOPS、最大144チップ構成の新AIサーバー</h2>
+<p>Trainium3 UltraServerはFP8精度で最大362 PFLOPSの演算性能を発揮し、1筐体に最大144基のTrainium3チップを搭載できる。メモリ帯域は合計706 TB/s、HBMメモリ容量は最大20.7 TBとなり、大規模言語モデル（LLM）やマルチモーダルモデルの学習・推論向けに最適化されているという。</p>
+<p>AWSは、OpenAIのオープンウェイトモデル「GPT-OSS」を用いた社内テストでは、1チップあたりのスループットが3倍、推論レイテンシが4倍高速化したと説明している。</p>
+<h2>新ネットワーク基盤「NeuronSwitch-v1」やUltraClusters 3.0で大規模化に対応</h2>
+<p>Trainium3 UltraServerには、AWSが新たに開発したネットワークスイッチ「NeuronSwitch-v1」が搭載され、チップ間の通信帯域は前世代と比較して2倍になった。また、新たな「Neuron Fabric」により、チップ間通信の遅延は10マイクロ秒未満に抑えられるという。</p>
+<p>複数のUltraServerを接続するクラスタ構成「EC2 UltraClusters 3.0」では、最大100万基のTrainiumチップまでスケール可能とされ、大規模データセットを用いたモデル学習や、数百万規模の同時推論リクエストにも対応できるとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=4y3pMGIS6DU">YouTube</a></p>
+<h2>既に複数企業が活用、高速化やコスト削減の事例も</h2>
+<p>AWSは複数の顧客事例を紹介しており、AnthropicやKarakuri、Metagenomi、NetoAI、Ricoh、Splash Musicなどが、Trainiumシリーズを用いてトレーニングコストを最大50％削減したという。また、生成系スタートアップのDecartは、Trainium3を用いたリアルタイム動画生成により、フレーム生成が4倍高速化し、GPU比でコストを半減できたとしている。</p>
+<p>さらに、AWSの生成AI基盤「Amazon Bedrock」では、Trainium3上で既に本番ワークロードが稼働している。</p>
+<h2>次世代「Trainium4」ではNVIDIA NVLink Fusionにも対応予定</h2>
+<p>AWSは、次世代AIチップ「Trainium4」の開発も進めていると公表した。現時点で示されている目標値は、FP4で6倍以上、FP8で3倍の性能向上、メモリ帯域4倍の拡張など。さらに、Trainium4はNVIDIAの新インターコネクト技術「NVLink Fusion」に対応予定で、NVIDIA GPUと共存するラックスケール構成が可能になるとしている。</p>
+<h2>大規模AIインフラの「選択肢」を拡大</h2>
+<p>AWSは、Trainium3 UltraServerの提供開始により、生成AIやエージェント型AI、Mixture-of-Expertsモデルなどの大規模ワークロードに対し、高速・低コストで提供できる選択肢を拡大したと説明した。今後もTrainiumシリーズとGPUの双方をサポートする方針を示しており、用途に応じた柔軟なAIインフラ構成が可能になるという。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
@@ -616,77 +674,6 @@ Runwayは「細かいカメラの振り、構図の変化、時間経過によ�
 <p>クリシュナ氏は、IBMが企業向けAIプラットフォーム「watsonx」や量子コンピューティングに長期的な重点を置いていることにも触れた。これらは短期で急拡大するAIインフラ投資とは異なる性質を持ち、企業の生産性向上や高難度計算の領域で継続的な需要が見込まれるという。</p>
 ]]></description>
       <pubDate>Sat, 06 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ビジネス2025/12/5 [FRI]AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
-      <link>https://ledge.ai/articles/trainium3_ultraserver_ga_announcement</link>
-      <description><![CDATA[<p>米Amazon傘下のAmazon Web Services（AWS）は2025年12月3日（現地時間）、年次イベント「AWS re:Invent 2025」で、自社開発AIチップ「Trainium3」を搭載する大規模AI向け統合システム「Amazon EC2 Trn3 UltraServer（以下、Trainium3 UltraServer）」の一般提供（GA）を開始したと<a href="https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost">発表</a>した。</p>
-<p>システムは3ナノメートルプロセスで製造したTrainium3を最大144基搭載でき、前世代（Trainium2 UltraServer）と比較して計算性能は最大4.4倍、メモリ帯域とエネルギー効率は約4倍に向上したという。</p>
-<h2>最大362 FP8 PFLOPS、最大144チップ構成の新AIサーバー</h2>
-<p>Trainium3 UltraServerはFP8精度で最大362 PFLOPSの演算性能を発揮し、1筐体に最大144基のTrainium3チップを搭載できる。メモリ帯域は合計706 TB/s、HBMメモリ容量は最大20.7 TBとなり、大規模言語モデル（LLM）やマルチモーダルモデルの学習・推論向けに最適化されているという。</p>
-<p>AWSは、OpenAIのオープンウェイトモデル「GPT-OSS」を用いた社内テストでは、1チップあたりのスループットが3倍、推論レイテンシが4倍高速化したと説明している。</p>
-<h2>新ネットワーク基盤「NeuronSwitch-v1」やUltraClusters 3.0で大規模化に対応</h2>
-<p>Trainium3 UltraServerには、AWSが新たに開発したネットワークスイッチ「NeuronSwitch-v1」が搭載され、チップ間の通信帯域は前世代と比較して2倍になった。また、新たな「Neuron Fabric」により、チップ間通信の遅延は10マイクロ秒未満に抑えられるという。</p>
-<p>複数のUltraServerを接続するクラスタ構成「EC2 UltraClusters 3.0」では、最大100万基のTrainiumチップまでスケール可能とされ、大規模データセットを用いたモデル学習や、数百万規模の同時推論リクエストにも対応できるとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=4y3pMGIS6DU">YouTube</a></p>
-<h2>既に複数企業が活用、高速化やコスト削減の事例も</h2>
-<p>AWSは複数の顧客事例を紹介しており、AnthropicやKarakuri、Metagenomi、NetoAI、Ricoh、Splash Musicなどが、Trainiumシリーズを用いてトレーニングコストを最大50％削減したという。また、生成系スタートアップのDecartは、Trainium3を用いたリアルタイム動画生成により、フレーム生成が4倍高速化し、GPU比でコストを半減できたとしている。</p>
-<p>さらに、AWSの生成AI基盤「Amazon Bedrock」では、Trainium3上で既に本番ワークロードが稼働している。</p>
-<h2>次世代「Trainium4」ではNVIDIA NVLink Fusionにも対応予定</h2>
-<p>AWSは、次世代AIチップ「Trainium4」の開発も進めていると公表した。現時点で示されている目標値は、FP4で6倍以上、FP8で3倍の性能向上、メモリ帯域4倍の拡張など。さらに、Trainium4はNVIDIAの新インターコネクト技術「NVLink Fusion」に対応予定で、NVIDIA GPUと共存するラックスケール構成が可能になるとしている。</p>
-<h2>大規模AIインフラの「選択肢」を拡大</h2>
-<p>AWSは、Trainium3 UltraServerの提供開始により、生成AIやエージェント型AI、Mixture-of-Expertsモデルなどの大規模ワークロードに対し、高速・低コストで提供できる選択肢を拡大したと説明した。今後もTrainiumシリーズとGPUの双方をサポートする方針を示しており、用途に応じた柔軟なAIインフラ構成が可能になるという。</p>
-]]></description>
-      <pubDate>Fri, 05 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2025/12/7 [SUN]「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
-      <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
-      <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
-<p>このシステムは、発声しようとした言葉だけでなく、声を出さずに心の中で唱えた「内なる声（inner speech）」も一定の精度で文章化できることを示した。従来の類似手法と比べ、単語誤り率（WER）を24.69％から10.22％へと半分以下に抑えた点が特徴で、麻痺などによって話すことが難しい人のコミュニケーション支援技術としての応用も期待される。</p>
-<p>なお、研究で使用されたのはUtahアレイと呼ばれる脳表面に埋め込む侵襲型電極であり、非侵襲の脳波（EEG）とは異なる。</p>
-<h2>脳波を「音声」と見なしてLLMが解読</h2>
-<p>従来の脳内音声解読システム（BCI）では、多くが「脳活動 → 音素 → 単語 → 言語モデル」という複数段階の“カスケード型”処理を採用していた。この構造では、各工程が独立しているため、システム全体をまとめて最適化できない点が課題とされていた。</p>
-<p>今回発表された「BIT」は、脳活動の特徴を捉えるTransformerエンコーダーと、大規模言語モデル（LLM）を結合させたEnd-to-End型（統合的最適化）フレームワークである。</p>
-<p>ヒトやサルの脳活動データ約367時間分を用いて事前学習を行い、神経活動のパターンから直接テキストを生成する。この仕組みにより、従来必要だった音素への変換ステップを省き、脳活動から直接文章を出力できるようになった。</p>
-<p><strong>図1：BIT（BraIn-to-Text）フレームワークの全体構成</strong>
-脳に埋め込んだ電極から取得した神経活動をAIが処理し、最終的に文章として出力するまでの流れを示す図。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_11_017e439017/x1_11_017e439017.png" alt="x1 (11).png" /></p>
-<h2>単語誤り率を大幅に低減</h2>
-<p>このEnd-to-Endのアプローチによる精度の変化について、論文では以下の数値が報告されている。従来の同様のシステムと比較し、単語の読み取りミスを示す「単語誤り率（WER）」は低下した 。</p>
-<ul>
-<li><strong>従来のEnd-to-End手法</strong> ： 単語誤り率 24.69%</li>
-<li><strong>新技術「BIT」（音声LLM統合版）</strong> ： 単語誤り率 10.22%</li>
-</ul>
-<p>さらに、脳活動エンコーダーを用いて「Brain-to-Text Benchmark」に参加したところ、カスケード型設定を含む全カテゴリで最も低い誤り率を記録した。</p>
-<p>アンサンブル（複数モデル併用）設定でのWERは以下の通りである。</p>
-<ul>
-<li><strong>Brain-to-Text '24 ベンチマーク</strong> ： 単語誤り率 5.10%</li>
-<li><strong>Brain-to-Text '25 ベンチマーク</strong> ： 単語誤り率 2.21%</li>
-</ul>
-<p><strong>図2：BITの性能比較と解読例</strong>
-従来手法と比較した誤り率の低減、および実際に生成された文章の例を示す図。内言においても意味的に近い文章を生成できている点が示されている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_8f9b3b00ac/x2_8f9b3b00ac.png" alt="x2.png" /></p>
-<h2>「想像発話」の読み取りにも成功</h2>
-<p>研究では、筋肉を動かして発話しようとする「試行発話（attempted speech）」だけでなく、声を出す動作を伴わずに頭の中で言葉を思い浮かべる「想像発話（imagined speech）」のデータセットを用いた検証も行われた。</p>
-<p>解析の結果、実際に話そうとする時と心の中で話す時の脳内活動には、共通する意味的構造が存在することが示唆された。AIはこの共通性を利用することで、データの少ない想像発話においても文章変換を可能にしている。</p>
-<p><strong>図3：音声LLMとの比較──脳活動の文章化に適したモデル</strong>
-複数の音声LLM・テキストLLMを比較し、どのモデルが脳活動からの文章生成に適しているかをまとめた図。音声を扱う小規模モデルが高い適性を示した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_4_7cc8f5e441/x3_4_7cc8f5e441.png" alt="x3 (4).png" /></p>
-<h2>話せない人のコミュニケーション支援へ</h2>
-<p>発話が困難なALS患者や脳損傷患者にとって、頭の中で言葉を思い浮かべるだけで意思を伝えられる技術は大きな可能性を持つ。</p>
-<p>論文では、将来的な臨床応用を見据えつつ、次のような課題を整理している。</p>
-<ul>
-<li>神経信号の非定常性への適応</li>
-<li>電極の長期安定性</li>
-<li>オンデバイス実行に向けた効率化</li>
-</ul>
-<p>また、特に内言の解読は倫理的に慎重な扱いが求められ、研究チームも「利用者の明確な同意を欠いた読心的用途は許されない」と明記している。</p>
-<h2>今後の展望──神経データ版“基盤モデル”へ</h2>
-<p>BITで用いられたNeural Encoderは、サルを含む多様な神経活動から学習されている。論文では、近年さまざまな分野で「foundation models」と呼ばれる大規模事前学習モデルが提案されていることを紹介し、こうした方向性がBCIの性能向上にも有効である可能性を挙げている。</p>
-<p>研究チームは、今後の課題として、電極の非定常性への適応、長期的な記録の安定性、インターフェースの効率化などを明確にし、改善を重ねることで「ユーザーとシステムが互いに適応しながら利用可能な、より柔軟なBCIの開発につながる」とまとめている。</p>
-]]></description>
-      <pubDate>Wed, 03 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>2025年のAIニュース振り返りと、AI提唱70周年となる2026年の展望を知る特設サイトLedge.ai年末年始特集「&apos;25 to &apos;26」を公開</title>
