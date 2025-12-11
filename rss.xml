@@ -5,6 +5,30 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
+      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
+      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
+<h2>モデルマージと「Chat Vector」で性能を強化</h2>
+<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
+<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
+<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
+<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
+<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
+<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
+<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
+<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
+<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
+<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
+<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
+<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
+<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Helical Fusionとアオキスーパー、日本初のフュージョンエネルギー電力売買契約を締結──ヘリカル型核融合炉「Helix Program」で究極の脱炭素社会を目指す</title>
       <link>https://ledge.ai/articles/helical_fusion_aoki_fusion_power_purchase_agreement</link>
       <description><![CDATA[<p>Helical Fusion（東京都中央区）と、愛知県を中心に食品スーパーを展開するアオキスーパーは2025年12月8日、フュージョン（核融合）エネルギーによる電力の売買契約を締結したと<a href="https://prtimes.jp/main/html/rd/p/000000050.000089262.html">発表</a>した。両社によると、フュージョンエネルギーによる電力売買契約としては、国内初（Helical Fusion調べ）だという。</p>
