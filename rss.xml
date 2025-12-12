@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>トランプ大統領、NVIDIA「H200」の対中輸出を条件付き解禁──25％を米国に支払い、承認顧客に限定、最新鋭Blackwellは対象外</title>
+      <link>https://ledge.ai/articles/trump_h200_conditional_export_approval_blackwell_excluded</link>
+      <description><![CDATA[<p>トランプ米大統領は2025年12月9日（現地時間）、自身のSNS「Truth Social」への投稿で、NVIDIAのAI半導体「H200」について、中国を含む「承認された顧客（approved customers）」への輸出を条件付きで認める方針を<a href="https://truthsocial.com/@realDonaldTrump/posts/115686072737425841">明らかにした</a>。中国向けを含む先端AIチップの輸出を厳格に制限してきたバイデン政権の規制を一部転換する内容となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/donald_trump_truth_74a9d1f98d/donald_trump_truth_74a9d1f98d.jpg" alt="donald trump truth.jpg" /></p>
+<p>投稿によると、H200の輸出解禁にはいくつかの条件が設けられる。最も特徴的なのが、取引額の「25％を米国に支払う」という条項だ。トランプ氏は、この仕組みが「米国の納税者に利益をもたらす」とし、米国の製造業や雇用にプラスになると主張している。ホワイトハウス高官によると、この25％はチップを米国に一度輸入する際に課される税として扱い、その後、安全保障審査を経て中国への再輸出を許可するスキームが検討されている。</p>
+<p>対象となるのは、あくまで米政府が審査した「承認顧客」に限定される。投稿では「国家安全保障を維持する条件下でのみ認める」とも明記されており、商務省（Department of Commerce）が最終的な運用の詳細を詰めている段階だ。</p>
+<p>一方で、NVIDIAが現在米国内で展開している最新世代のGPU「Blackwell」シリーズや、次世代に位置づけられる「Rubin」については、今回のディールの対象外とした。トランプ氏はこれらを「高度で先進的な製品」と位置づけ、米国のAI競争力を維持する観点から、中国向けには提供しない方針を示した。</p>
+<p>今回の政策転換はNVIDIAだけにとどまらず、AMD、Intelなど他の米国半導体企業にも同様の枠組みを適用する方針だという。H200はH100の後継となるHopper世代のAIチップで、大容量メモリを備え、生成AIや大規模言語モデル（LLM）向けの高い性能を持つ。一方で、米国内ではさらに性能の高いBlackwell世代への移行が進んでおり、米政府は「旧世代チップを輸出し、最先端は国内に温存する」という線引きを明確にしている。</p>
+<p>この方針は、米メディア Semafor が前日に「商務省がH200の中国向け輸出を条件付きで認める案を検討している」と<a href="https://www.semafor.com/article/12/09/2025/trump-says-nvidia-can-sell-h200-ai-chips-to-china">独自報道</a>していた。先端チップの供給制限が続いていた中国側が、実際にどの程度H200を受け入れるかは依然不透明であり、25％の支払い方式や承認制の運用が市場に与える影響も注目される。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
       <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
       <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
