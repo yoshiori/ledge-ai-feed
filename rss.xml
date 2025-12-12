@@ -87,14 +87,30 @@
       <pubDate>Thu, 11 Dec 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/10 [WED]ChatGPTが選んだ38銘柄ファンド、2年半で+66.1%に──英国人気投信10本の平均+41.36%を引き離す</title>
-      <link>https://ledge.ai/articles/chatgpt_fund_performance_2025_update</link>
-      <description><![CDATA[<p>英国の金融比較サイト Finder が実施している「<a href="https://www.finder.com/uk/share-trading/share-trading-research/ai-investing">ChatGPTファンド</a>」の概念実験で、2025年10月28日時点の最新パフォーマンスが明らかになった。同ファンドは、生成AI「ChatGPT」が選んだ38銘柄で構成される仮想ポートフォリオで、運用開始から約2年半の累計リターンは +66.1%。ベンチマークとしている英国の人気投資信託トップ10本の平均リターン +41.36% を大きく上回り、開始以来 99% の営業日でアウトパフォーム したという。</p>
-<p>Finderは2023年3月、ChatGPTに「借入が少なく、持続的成長と競争優位性を持つ企業」を条件として提示し、株式ポートフォリオの作成を依頼した。ChatGPTは「概念上の演習」であることを前提に38銘柄を選定。このリストをもとに、同社は等金額の仮想ファンドを組成し、Interactive Investor 上で最も人気のある投資信託10本とパフォーマンスを比較する継続実験を開始した。</p>
-<p>同年5月にFinderが公表したプレスリリースでは、開始8週間時点でChatGPTファンドが +0.48%、人気投信10本の平均が -0.78% となり、初期段階から優位に立っていたことが示されている。</p>
-<p>今回の最新アップデートでは、2年半にわたる追跡期間のうち、ChatGPTファンドが人気投信10本の平均を下回った日はわずか1%。選定銘柄には、Microsoft、Alphabet、Meta、NVIDIA、TSMC、ASML、Johnson &amp; Johnson、PepsiCo など、大型株を中心とした多国籍企業が並ぶ。</p>
-<p>Finderは同実験について「ChatGPTは2021年までの訓練データを持つ言語モデルであり、リアルタイム市場データに基づく投資判断を行っているわけではない」と明記。ChatGPTの回答が投資助言に該当するものではないこと、またこのファンド自体は実在せず、あくまでAIの応答を可視化する概念実験である点を繰り返し注意喚起している。</p>
-<p>同社は、実験の目的を「AIが人間のファンドマネージャーと比較してどのようなポートフォリオを組むかを検証すること」と説明。今回の結果は、2年半の長期観測においても、ChatGPTが選んだポートフォリオが英国の人気投信平均を継続して上回り続けていることを示すものとなった。</p>
+      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
+      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
+      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
+<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
+<h2>推論能力とコスト効率を大幅に強化</h2>
+<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
+<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
+<ul>
+<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
+<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
+<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
+<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
+</ul>
+<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
+<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
+<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
+<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
+<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
+<h2>ブラウザ操作を自動化する「Nova Act」</h2>
+<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
+<h2>Bedrock で提供、開発者向けポータルも公開</h2>
+<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
 ]]></description>
       <pubDate>Wed, 10 Dec 2025 23:50:00 GMT</pubDate>
     </item>
@@ -141,41 +157,6 @@
 <p>高い汎用性も強みで、Agentic AIを役割ごとに分割した構造により、業務要件に応じたチューニングを低コストかつ短期間で実施可能。警察・消防の指令室業務にとどまらず、企業のコンタクトセンターなど幅広い業務への適用を想定している。</p>
 ]]></description>
       <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
-      <link>https://ledge.ai/articles/eyereal_ai_glasses_free_3d_ultrawide_display_nature</link>
-      <description><![CDATA[<p>上海人工智能実験室と復旦大学の研究チームは、専用メガネなしで広視野角の3D映像を表示できる新方式「EyeReal」を開発し、科学誌 Nature に<a href="https://www.nature.com/articles/s41586-025-09752-y">発表</a>した。従来のホログラフィック方式や自動立体（autostereoscopic）ディスプレイが抱えていた物理的制約を、AIと多層LCD構造を組み合わせた新たな光場生成手法で克服した点が特徴だ。</p>
-<h2>従来の裸眼3D方式の限界を超えるアプローチ</h2>
-<p>過去の裸眼3D技術は、視野角や画面サイズなどのトレードオフが大きな課題だった。ホログラフィック方式は高密度の光学情報を扱える一方、視域が極めて小さく、実用性が限定される。一方、ビューセグメント型・ビューデンス型の自動立体ディスプレイは、視点数や視域が固定され、観察者が自由に動いた際に自然な視差変化を再現することが難しかった。</p>
-<p>EyeReal は、こうした従来方式を図示しつつ、観察者の目の周囲に最適化された光場をリアルタイム生成するというアプローチを採用する。</p>
-<p><strong>従来方式（a〜c）が視野角や表示領域に制約を抱える中、EyeReal（d）は観察者の眼のまわりで光場を最適化し、超広視野角の裸眼3D表示を可能にする</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig1_7a43aeeee1/41586_2025_9752_Fig1_7a43aeeee1.jpg" alt="41586_2025_9752_Fig1.jpg" /></p>
-<h2>EyeReal の構造：多層LCD × AIによる光場最適化</h2>
-<p>研究チームは、市販の液晶パネルを複数枚重ね合わせた構造を採用。光源、偏光板（縦・横）、液晶層の組み合わせにより、各ピクセルからの位相（フェーズ）を精密に制御する。</p>
-<p>RGB-D センサーが観察者の両眼位置と姿勢（6D pose）を取得し、ニューラルネットワークがその位置に最適な「位相パターン」を生成する。これにより、従来の光学系では物理的に困難だった複雑な光場を、液晶ディスプレイのみで再現できる。</p>
-<p><strong>多層LCD、偏光板、RGB-D センサー、ニューラルネットワークで構成される EyeReal の光場生成システム。両眼位置の推定から位相パターン生成までをリアルタイムで行う</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig2_d941741a66/41586_2025_9752_Fig2_d941741a66.jpg" alt="41586_2025_9752_Fig2.jpg" /></p>
-<h2>動きに応じて自然に変化する視差と焦点表現</h2>
-<p>実験では、都市景観や屋内シーンなどを用いて、左右の眼に届く画像を検証した。EyeReal が生成した左右画像は、Ground truth（正解画像）と高い一致率を示し、水平・垂直・前後方向の動きに対して自然なモーションパララックスを維持した。</p>
-<p>さらに、前景・後景の被写界深度（焦点表現）も再現可能で、奥行き感の自然さが向上している。</p>
-<p><strong>EyeReal の再現画像（Prediction）は、Ground truth と高い一致を示し、上下左右・前後の動きに伴う視差変化を自然に再現。前景・後景の焦点表現も維持されている</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig3_c6449eee0f/41586_2025_9752_Fig3_c6449eee0f.jpg" alt="41586_2025_9752_Fig3.jpg" /></p>
-<h2>超広視野角100度超、50Hzリアルタイム処理</h2>
-<p>定量評価では以下の性能が確認された：</p>
-<ul>
-<li><strong>視野角：100度超</strong> ：観察者が大きく移動しても PSNR・SSIM が高値を維持した</li>
-<li><strong>未知視点に対する一般化性能（Generalization）</strong> ：学習データに存在しない視点からでも安定した画質を確保</li>
-<li><strong>動作速度：50.2 Hz</strong> ：多層LCDとAI処理によるシステムとしては高速で、リアルタイム裸眼3Dに求められる水準を満たす</li>
-</ul>
-<p>奥行き層ごとの PSNR 曲線や視野マップも示され、前景から背景まで一貫した再現品質を持つことが確認された。</p>
-<p><strong>EyeReal の定量評価。超広視野角でも高い PSNR/SSIM を維持し、未知視点に対しても一般化。50Hzを超える処理速度によりリアルタイム裸眼3Dとして実用レベルに到達している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig4_e554e7ef93/41586_2025_9752_Fig4_e554e7ef93.jpg" alt="41586_2025_9752_Fig4.jpg" /></p>
-<p>論文では、エンターテインメント用途にとどまらず、医学画像の立体視、建築設計、教育、科学データの立体構造可視化など、多様な分野への応用可能性が示されている。</p>
-<p>今後の課題としては、複数ユーザー同時視聴への拡張、消費電力の最適化、さらなる高速化などが挙げられる。
-研究チームは、本方式が「裸眼3Dディスプレイの物理的限界をAIで超える新しい方向性を提示した」としている。</p>
-]]></description>
-      <pubDate>Wed, 10 Dec 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、LLMが10～15分の自動インタビューを実施する新ツール「Anthropic Interviewer」を公開──1,250人調査データも公開、Hugging Faceでトレンド1位に</title>
@@ -404,6 +385,21 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
+      <link>https://ledge.ai/articles/amazon_prime_video_ai_english_dub_end</link>
+      <description><![CDATA[<p>Amazon Prime Videoが、一部アニメ作品で導入していたAI生成吹き替え「AI beta」版を、12月初旬までに相次いで削除していたことが分かった。Anime News Network（ANN）が2025年12月3日に<a href="https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513">報じた</a>もので、削除は段階的に進んだとされる。</p>
+<p>ANNによると、Prime Video上では『BANANA FISH』『No Game, No Life Zero』『Pet』『Journal of the Mysterious Creatures』の英語・ラテンアメリカスペイン語吹き替え、さらに『Vinland Saga』のラテンアメリカスペイン語吹き替えが「AI beta」と表示されていた。『BANANA FISH』と『No Game, No Life Zero』のAI版吹き替えは12月3日までに削除され、『Pet』『Journal of the Mysterious Creatures』のAI英語吹き替えは3日時点で残っていたが4日までに削除された。『Vinland Saga』のラテンアメリカスペイン語版も4日までに削除が確認された。</p>
+<p>Amazonは2025年3月5日付の公式ブログ記事で、英語とラテンアメリカスペイン語を対象とする「AI-aided dubbing（AI支援吹き替え）」パイロットプログラムの開始を<a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish">発表</a>している。同記事はAmazon Staff名義で公開され、Prime VideoおよびAmazon MGM Studiosのテクノロジー担当バイスプレジデントであるRaf Soltanovich氏は、AI支援吹き替えについて「既存の吹き替えが存在しない作品にのみ提供する」と説明していた。</p>
+<p>一方でANNは、『No Game, No Life Zero』にはSentai Filmworksが制作した既存の英語吹き替えがあり、HIDIVEが2024年5月から配信していたことを指摘。ANNはPrime Video版の「AI beta」吹き替えが、同作の既存吹き替えとはキャスト・音声が異なることを確認した。ANNによれば、Prime Video版のエンドクレジットにはSentai Filmworks制作のキャスト・スタッフが記載されたままだった。</p>
+<p>SNS上での反発も大きかった。全米声優協会・NAVA（National Association of Voice Actors）は公式Xアカウント（@NAVAVOICES）で声明を投稿し、Amazonには本来「本物のストーリーテリング」や「感情的なつながり」を持つ吹き替えを制作する機会があったにもかかわらず、『BANANA FISH』『Vinland Saga』『No Game No Life』で「AI slop dubs」を選んだと批判。「侮辱的」「敬意を欠いている」との声が多いと訴えた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NAVA_1_86f4ec1597/NAVA_1_86f4ec1597.jpg" alt="NAVA1.jpg" /></p>
+<p>声優からの抗議も相次いだ。ANNの記事は、Daman Mills氏、Kara Edwards氏、Nick Huber氏、Dawn M. Bennett氏ら複数の声優がSNSで『BANANA FISH』のAI版吹き替えに対し懸念を表明したと伝えている。Mills氏は自身のX投稿を通じ、AI吹き替えによって作品や声優の価値が損なわれるとの立場を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
+<p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
       <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
       <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
@@ -453,6 +449,53 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ビジネス2025/12/10 [WED]ChatGPTが選んだ38銘柄ファンド、2年半で+66.1%に──英国人気投信10本の平均+41.36%を引き離す</title>
+      <link>https://ledge.ai/articles/chatgpt_fund_performance_2025_update</link>
+      <description><![CDATA[<p>英国の金融比較サイト Finder が実施している「<a href="https://www.finder.com/uk/share-trading/share-trading-research/ai-investing">ChatGPTファンド</a>」の概念実験で、2025年10月28日時点の最新パフォーマンスが明らかになった。同ファンドは、生成AI「ChatGPT」が選んだ38銘柄で構成される仮想ポートフォリオで、運用開始から約2年半の累計リターンは +66.1%。ベンチマークとしている英国の人気投資信託トップ10本の平均リターン +41.36% を大きく上回り、開始以来 99% の営業日でアウトパフォーム したという。</p>
+<p>Finderは2023年3月、ChatGPTに「借入が少なく、持続的成長と競争優位性を持つ企業」を条件として提示し、株式ポートフォリオの作成を依頼した。ChatGPTは「概念上の演習」であることを前提に38銘柄を選定。このリストをもとに、同社は等金額の仮想ファンドを組成し、Interactive Investor 上で最も人気のある投資信託10本とパフォーマンスを比較する継続実験を開始した。</p>
+<p>同年5月にFinderが公表したプレスリリースでは、開始8週間時点でChatGPTファンドが +0.48%、人気投信10本の平均が -0.78% となり、初期段階から優位に立っていたことが示されている。</p>
+<p>今回の最新アップデートでは、2年半にわたる追跡期間のうち、ChatGPTファンドが人気投信10本の平均を下回った日はわずか1%。選定銘柄には、Microsoft、Alphabet、Meta、NVIDIA、TSMC、ASML、Johnson &amp; Johnson、PepsiCo など、大型株を中心とした多国籍企業が並ぶ。</p>
+<p>Finderは同実験について「ChatGPTは2021年までの訓練データを持つ言語モデルであり、リアルタイム市場データに基づく投資判断を行っているわけではない」と明記。ChatGPTの回答が投資助言に該当するものではないこと、またこのファンド自体は実在せず、あくまでAIの応答を可視化する概念実験である点を繰り返し注意喚起している。</p>
+<p>同社は、実験の目的を「AIが人間のファンドマネージャーと比較してどのようなポートフォリオを組むかを検証すること」と説明。今回の結果は、2年半の長期観測においても、ChatGPTが選んだポートフォリオが英国の人気投信平均を継続して上回り続けていることを示すものとなった。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
+      <link>https://ledge.ai/articles/eyereal_ai_glasses_free_3d_ultrawide_display_nature</link>
+      <description><![CDATA[<p>上海人工智能実験室と復旦大学の研究チームは、専用メガネなしで広視野角の3D映像を表示できる新方式「EyeReal」を開発し、科学誌 Nature に<a href="https://www.nature.com/articles/s41586-025-09752-y">発表</a>した。従来のホログラフィック方式や自動立体（autostereoscopic）ディスプレイが抱えていた物理的制約を、AIと多層LCD構造を組み合わせた新たな光場生成手法で克服した点が特徴だ。</p>
+<h2>従来の裸眼3D方式の限界を超えるアプローチ</h2>
+<p>過去の裸眼3D技術は、視野角や画面サイズなどのトレードオフが大きな課題だった。ホログラフィック方式は高密度の光学情報を扱える一方、視域が極めて小さく、実用性が限定される。一方、ビューセグメント型・ビューデンス型の自動立体ディスプレイは、視点数や視域が固定され、観察者が自由に動いた際に自然な視差変化を再現することが難しかった。</p>
+<p>EyeReal は、こうした従来方式を図示しつつ、観察者の目の周囲に最適化された光場をリアルタイム生成するというアプローチを採用する。</p>
+<p><strong>従来方式（a〜c）が視野角や表示領域に制約を抱える中、EyeReal（d）は観察者の眼のまわりで光場を最適化し、超広視野角の裸眼3D表示を可能にする</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig1_7a43aeeee1/41586_2025_9752_Fig1_7a43aeeee1.jpg" alt="41586_2025_9752_Fig1.jpg" /></p>
+<h2>EyeReal の構造：多層LCD × AIによる光場最適化</h2>
+<p>研究チームは、市販の液晶パネルを複数枚重ね合わせた構造を採用。光源、偏光板（縦・横）、液晶層の組み合わせにより、各ピクセルからの位相（フェーズ）を精密に制御する。</p>
+<p>RGB-D センサーが観察者の両眼位置と姿勢（6D pose）を取得し、ニューラルネットワークがその位置に最適な「位相パターン」を生成する。これにより、従来の光学系では物理的に困難だった複雑な光場を、液晶ディスプレイのみで再現できる。</p>
+<p><strong>多層LCD、偏光板、RGB-D センサー、ニューラルネットワークで構成される EyeReal の光場生成システム。両眼位置の推定から位相パターン生成までをリアルタイムで行う</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig2_d941741a66/41586_2025_9752_Fig2_d941741a66.jpg" alt="41586_2025_9752_Fig2.jpg" /></p>
+<h2>動きに応じて自然に変化する視差と焦点表現</h2>
+<p>実験では、都市景観や屋内シーンなどを用いて、左右の眼に届く画像を検証した。EyeReal が生成した左右画像は、Ground truth（正解画像）と高い一致率を示し、水平・垂直・前後方向の動きに対して自然なモーションパララックスを維持した。</p>
+<p>さらに、前景・後景の被写界深度（焦点表現）も再現可能で、奥行き感の自然さが向上している。</p>
+<p><strong>EyeReal の再現画像（Prediction）は、Ground truth と高い一致を示し、上下左右・前後の動きに伴う視差変化を自然に再現。前景・後景の焦点表現も維持されている</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig3_c6449eee0f/41586_2025_9752_Fig3_c6449eee0f.jpg" alt="41586_2025_9752_Fig3.jpg" /></p>
+<h2>超広視野角100度超、50Hzリアルタイム処理</h2>
+<p>定量評価では以下の性能が確認された：</p>
+<ul>
+<li><strong>視野角：100度超</strong> ：観察者が大きく移動しても PSNR・SSIM が高値を維持した</li>
+<li><strong>未知視点に対する一般化性能（Generalization）</strong> ：学習データに存在しない視点からでも安定した画質を確保</li>
+<li><strong>動作速度：50.2 Hz</strong> ：多層LCDとAI処理によるシステムとしては高速で、リアルタイム裸眼3Dに求められる水準を満たす</li>
+</ul>
+<p>奥行き層ごとの PSNR 曲線や視野マップも示され、前景から背景まで一貫した再現品質を持つことが確認された。</p>
+<p><strong>EyeReal の定量評価。超広視野角でも高い PSNR/SSIM を維持し、未知視点に対しても一般化。50Hzを超える処理速度によりリアルタイム裸眼3Dとして実用レベルに到達している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig4_e554e7ef93/41586_2025_9752_Fig4_e554e7ef93.jpg" alt="41586_2025_9752_Fig4.jpg" /></p>
+<p>論文では、エンターテインメント用途にとどまらず、医学画像の立体視、建築設計、教育、科学データの立体構造可視化など、多様な分野への応用可能性が示されている。</p>
+<p>今後の課題としては、複数ユーザー同時視聴への拡張、消費電力の最適化、さらなる高速化などが挙げられる。
+研究チームは、本方式が「裸眼3Dディスプレイの物理的限界をAIで超える新しい方向性を提示した」としている。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/8 [MON]月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
       <link>https://ledge.ai/articles/gemini_3_deep_think_google_ai_ultra_launch</link>
       <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Geminiアプリに新たな推論モード「Gemini 3 Deep Think」を追加したと<a href="https://blog.google/products/gemini/gemini-3-deep-think/">発表</a>した。</p>
@@ -468,17 +511,6 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>同社は、これらの結果について「industry leading」「unprecedented（前例のない）」と表現しており、深い推論が求められるベンチマークにおいて業界トップレベルの性能を示したと位置づけている。また、今回のGemini 3 Deep Thinkは、国際数学オリンピック（IMO）や国際大学対抗プログラミングコンテスト（ICPC）World Finalsで「gold-medal standard」とされる水準に達した「Gemini 2.5 Deep Think」の系譜にあると説明されている。</p>
 <h2>利用対象は「Google AI Ultra」加入者</h2>
 <p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、「Workspace Studio」を一般提供──Gemini 3世代のAIでGmail・Drive向けエージェントを構築可能に</title>
-      <link>https://ledge.ai/articles/google_workspace_studio_general_availability</link>
-      <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Google Workspace上でAIエージェントを構築・管理できる新ソリューション「Google Workspace Studio」を一般提供したことを<a href="https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work?hl=en">発表</a>した。同サービスは、アルファ版としてテストされていた「Google Workspace Flows」を発展させたもので、GmailやDrive、Docsなど、日常的に利用されるWorkspaceアプリにAIエージェントを直接組み込める点が特徴となる。</p>
-<p>Workspace Studioは、ノーコード／ローコードでエージェントの設計が可能で、繰り返し作業の自動化や文書作成、メール対応の支援、ファイル整理、レポート生成など、多様な業務フローをAIに任せられる。構築したエージェントは組織内で共有でき、管理者はアクセス権限や利用状況を細かくコントロールできる。</p>
-<p>また、StudioはGoogleの最新AI技術と連携しており、Gemini 3世代のモデル群による自然言語処理や推論能力を活用したワークフロー構築が可能になった。公式ブログでは、FlowsからStudioへの進化点として、より柔軟で複雑な業務プロセスを扱えるエージェント設計機能、視覚的に操作できる新UI、管理者向け機能の強化が挙げられている。</p>
-<p>GoogleはWorkspace Studioについて、「日常業務の中にAIエージェントを組み込み、生産性向上を支える基盤」と位置づける。今回の一般提供により、企業は業務プロセスにAIを本格的に統合しやすくなり、Google WorkspaceにおけるAI活用の幅が大きく拡張されることになる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Xy0r5fKwlVo">YouTube</a></p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
@@ -532,47 +564,6 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>noteは、AIアシスタントを利用することで「書きたいテーマはあるが、何から書けばよいか分からない」といった初期段階の課題に対応できるとしている。「AIが持つアイデア着想力や書き出しのサポートは、執筆に不慣れなユーザーの負担を軽減する」と説明する一方、生成内容への依存を避け、創作の主体はあくまでユーザー自身である点への注意も呼びかけている。</p>
 <p>AIアシスタントは投稿画面から利用でき、文章やメモを入力することで提案内容が生成される。利用は無料で、今後は品質改善やガイドライン整備などを継続していくとしている。</p>
 <p>noteは今回のモデル刷新により、執筆支援機能を強化し、より多様な創作者が利用しやすい環境づくりを進めている。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
-      <link>https://ledge.ai/articles/nri_it_survey_2025_generative_ai_literacy_gap</link>
-      <description><![CDATA[<p>野村総合研究所（NRI）は2025年11月25日、日本企業517社を対象に実施した「IT活用実態調査（2025年）」の結果を<a href="https://www.nri.com/jp/news/newsrelease/20251125_1.html">公表</a>した。調査では、生成AIの導入が急速に広がる一方、その活用を支えるリテラシーやリスク管理の体制が追いついていない実態が浮き彫りとなったという。</p>
-<h2>IT予算は増加傾向が続くが、前年から伸びが鈍化</h2>
-<p>2025年度のIT予算が「増加した」と回答した企業は49.0％で、前年（59.0％）から10ポイント低下した。2026年度を「増加見込み」とする企業も47.5％と半数近くにのぼり、増加基調は続くものの、勢いはやや落ち着きつつある。</p>
-<p><strong>IT予算の推移（NRI「IT活用実態調査2025」より）。2025年度は増加の勢いが前年より鈍化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054612_822d38fda9/000054612_822d38fda9.png" alt="000054612.png" /></p>
-<h2>生成AIの導入率は57.7％、導入済＋検討中で76％</h2>
-<p>生成AIを「導入済み」と回答した企業は57.7％に達し、前年（44.8％）から一段と普及が進んだ。ChatGPTやGeminiといった汎用サービスの浸透により、「導入検討中」の割合は減少し、導入フェーズが“検討”から“活用強化”へ移行していることがうかがえる。</p>
-<p><strong>新技術の導入状況。生成AIは57.7％が導入済み、ノーコード／ローコードツールも51.0％に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054613_b373ec554c/000054613_b373ec554c.png" alt="000054613.png" /></p>
-<h2>課題のトップは「リテラシー不足」70.3％、次いで「リスク管理の難しさ」48.5％</h2>
-<p>生成AI活用における課題として最も多かったのは「リテラシーやスキルが不足している」（70.3％）で、前年の65.4％から増加した。導入フェーズが進む中で、実業務レベルでの使いこなしや品質管理が要求される場面が増え、教育・トレーニング体制の不足が顕在化した形だ。</p>
-<p><strong>生成AI活用における課題。1位はリテラシー不足（70.3％）、2位はリスク管理（48.5％）</strong>
-続く課題は「リスクを把握し管理することが難しい」（48.5％）。機密データの取り扱いや生成物の品質保証など、ガバナンス面の整備が追いつかない企業が多い。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054614_9cb8e79179/000054614_9cb8e79179.png" alt="000054614.png" /></p>
-<h2>レガシーシステムは依然として約半数に残存</h2>
-<p>企業の情報システムにおけるレガシー環境の残存率は、アプリケーションが47.3％、基盤系が48.2％と、前年から改善はみられるものの依然として高水準だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054615_12b800e0f8/000054615_12b800e0f8.png" alt="000054615.png" /></p>
-<p>懸念点のトップは「ブラックボックス化・有識者不足」（51.6％）。続いて、「ベンダーサポートの終了」（50.1％）が挙げられ、技術負債が経営やIT投資の柔軟性を阻害している状況が明確になった。</p>
-<p><strong>レガシーシステムに関する懸念。ブラックボックス化と人材不足が半数超</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054616_921e943c42/000054616_921e943c42.png" alt="000054616.png" /></p>
-<h2>「必要だが足りない」デジタル人材、ITストラテジストの保有率は29.6％</h2>
-<p>専門人材の確保については、「保有すべき」と回答した企業は多数である一方、社内に「保有している」と答えた割合は大きく下回った。</p>
-<p>特に顕著なのはITストラテジストで、必要性71.9％に対し保有29.6％と大きなギャップがある。また、プロジェクトマネージャーは必要80.1％に対し保有55.0％で、ビジネス・テクノロジー双方の専門家が不足している。</p>
-<p><strong>専門人材の必要性と保有状況。ITストラテジストなど、必要性に対し保有が大きく不足</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/000054617_5b78391399/000054617_5b78391399.png" alt="000054617.png" /></p>
-<h2>生成AIの普及と同時に浮き彫りになる構造的な課題</h2>
-<p>調査結果からは、</p>
-<ul>
-<li>生成AI導入フェーズの急速な進展</li>
-<li>しかしリテラシー不足・リスク管理不足という基盤整備の遅れ</li>
-<li>レガシーシステムと技術負債の残存</li>
-<li>専門人材の不足</li>
-</ul>
-<p>という「普及と課題のギャップ」が明確に示されている。
-NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し、課題解決を支援するとしている。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
@@ -644,49 +635,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
-      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
-      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
-<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
-<h2>推論能力とコスト効率を大幅に強化</h2>
-<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
-<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
-<ul>
-<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
-<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
-<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
-<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
-</ul>
-<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
-<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
-<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
-<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
-<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
-<h2>ブラウザ操作を自動化する「Nova Act」</h2>
-<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
-<h2>Bedrock で提供、開発者向けポータルも公開</h2>
-<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
-      <link>https://ledge.ai/articles/amazon_prime_video_ai_english_dub_end</link>
-      <description><![CDATA[<p>Amazon Prime Videoが、一部アニメ作品で導入していたAI生成吹き替え「AI beta」版を、12月初旬までに相次いで削除していたことが分かった。Anime News Network（ANN）が2025年12月3日に<a href="https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513">報じた</a>もので、削除は段階的に進んだとされる。</p>
-<p>ANNによると、Prime Video上では『BANANA FISH』『No Game, No Life Zero』『Pet』『Journal of the Mysterious Creatures』の英語・ラテンアメリカスペイン語吹き替え、さらに『Vinland Saga』のラテンアメリカスペイン語吹き替えが「AI beta」と表示されていた。『BANANA FISH』と『No Game, No Life Zero』のAI版吹き替えは12月3日までに削除され、『Pet』『Journal of the Mysterious Creatures』のAI英語吹き替えは3日時点で残っていたが4日までに削除された。『Vinland Saga』のラテンアメリカスペイン語版も4日までに削除が確認された。</p>
-<p>Amazonは2025年3月5日付の公式ブログ記事で、英語とラテンアメリカスペイン語を対象とする「AI-aided dubbing（AI支援吹き替え）」パイロットプログラムの開始を<a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish">発表</a>している。同記事はAmazon Staff名義で公開され、Prime VideoおよびAmazon MGM Studiosのテクノロジー担当バイスプレジデントであるRaf Soltanovich氏は、AI支援吹き替えについて「既存の吹き替えが存在しない作品にのみ提供する」と説明していた。</p>
-<p>一方でANNは、『No Game, No Life Zero』にはSentai Filmworksが制作した既存の英語吹き替えがあり、HIDIVEが2024年5月から配信していたことを指摘。ANNはPrime Video版の「AI beta」吹き替えが、同作の既存吹き替えとはキャスト・音声が異なることを確認した。ANNによれば、Prime Video版のエンドクレジットにはSentai Filmworks制作のキャスト・スタッフが記載されたままだった。</p>
-<p>SNS上での反発も大きかった。全米声優協会・NAVA（National Association of Voice Actors）は公式Xアカウント（@NAVAVOICES）で声明を投稿し、Amazonには本来「本物のストーリーテリング」や「感情的なつながり」を持つ吹き替えを制作する機会があったにもかかわらず、『BANANA FISH』『Vinland Saga』『No Game No Life』で「AI slop dubs」を選んだと批判。「侮辱的」「敬意を欠いている」との声が多いと訴えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NAVA_1_86f4ec1597/NAVA_1_86f4ec1597.jpg" alt="NAVA1.jpg" /></p>
-<p>声優からの抗議も相次いだ。ANNの記事は、Daman Mills氏、Kara Edwards氏、Nick Huber氏、Dawn M. Bennett氏ら複数の声優がSNSで『BANANA FISH』のAI版吹き替えに対し懸念を表明したと伝えている。Mills氏は自身のX投稿を通じ、AI吹き替えによって作品や声優の価値が損なわれるとの立場を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
-<p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>2025年のAIニュース振り返りと、AI提唱70周年となる2026年の展望を知る特設サイトLedge.ai年末年始特集「&apos;25 to &apos;26」を公開</title>
