@@ -453,49 +453,6 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
-      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
-      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
-<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
-<h2>推論能力とコスト効率を大幅に強化</h2>
-<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
-<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
-<ul>
-<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
-<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
-<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
-<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
-</ul>
-<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
-<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
-<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
-<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
-<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
-<h2>ブラウザ操作を自動化する「Nova Act」</h2>
-<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
-<h2>Bedrock で提供、開発者向けポータルも公開</h2>
-<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
-      <link>https://ledge.ai/articles/amazon_prime_video_ai_english_dub_end</link>
-      <description><![CDATA[<p>Amazon Prime Videoが、一部アニメ作品で導入していたAI生成吹き替え「AI beta」版を、12月初旬までに相次いで削除していたことが分かった。Anime News Network（ANN）が2025年12月3日に<a href="https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513">報じた</a>もので、削除は段階的に進んだとされる。</p>
-<p>ANNによると、Prime Video上では『BANANA FISH』『No Game, No Life Zero』『Pet』『Journal of the Mysterious Creatures』の英語・ラテンアメリカスペイン語吹き替え、さらに『Vinland Saga』のラテンアメリカスペイン語吹き替えが「AI beta」と表示されていた。『BANANA FISH』と『No Game, No Life Zero』のAI版吹き替えは12月3日までに削除され、『Pet』『Journal of the Mysterious Creatures』のAI英語吹き替えは3日時点で残っていたが4日までに削除された。『Vinland Saga』のラテンアメリカスペイン語版も4日までに削除が確認された。</p>
-<p>Amazonは2025年3月5日付の公式ブログ記事で、英語とラテンアメリカスペイン語を対象とする「AI-aided dubbing（AI支援吹き替え）」パイロットプログラムの開始を<a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish">発表</a>している。同記事はAmazon Staff名義で公開され、Prime VideoおよびAmazon MGM Studiosのテクノロジー担当バイスプレジデントであるRaf Soltanovich氏は、AI支援吹き替えについて「既存の吹き替えが存在しない作品にのみ提供する」と説明していた。</p>
-<p>一方でANNは、『No Game, No Life Zero』にはSentai Filmworksが制作した既存の英語吹き替えがあり、HIDIVEが2024年5月から配信していたことを指摘。ANNはPrime Video版の「AI beta」吹き替えが、同作の既存吹き替えとはキャスト・音声が異なることを確認した。ANNによれば、Prime Video版のエンドクレジットにはSentai Filmworks制作のキャスト・スタッフが記載されたままだった。</p>
-<p>SNS上での反発も大きかった。全米声優協会・NAVA（National Association of Voice Actors）は公式Xアカウント（@NAVAVOICES）で声明を投稿し、Amazonには本来「本物のストーリーテリング」や「感情的なつながり」を持つ吹き替えを制作する機会があったにもかかわらず、『BANANA FISH』『Vinland Saga』『No Game No Life』で「AI slop dubs」を選んだと批判。「侮辱的」「敬意を欠いている」との声が多いと訴えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NAVA_1_86f4ec1597/NAVA_1_86f4ec1597.jpg" alt="NAVA1.jpg" /></p>
-<p>声優からの抗議も相次いだ。ANNの記事は、Daman Mills氏、Kara Edwards氏、Nick Huber氏、Dawn M. Bennett氏ら複数の声優がSNSで『BANANA FISH』のAI版吹き替えに対し懸念を表明したと伝えている。Mills氏は自身のX投稿を通じ、AI吹き替えによって作品や声優の価値が損なわれるとの立場を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
-<p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2025/12/8 [MON]月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
       <link>https://ledge.ai/articles/gemini_3_deep_think_google_ai_ultra_launch</link>
       <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Geminiアプリに新たな推論モード「Gemini 3 Deep Think」を追加したと<a href="https://blog.google/products/gemini/gemini-3-deep-think/">発表</a>した。</p>
@@ -512,7 +469,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <h2>利用対象は「Google AI Ultra」加入者</h2>
 <p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、「Workspace Studio」を一般提供──Gemini 3世代のAIでGmail・Drive向けエージェントを構築可能に</title>
@@ -523,7 +480,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>GoogleはWorkspace Studioについて、「日常業務の中にAIエージェントを組み込み、生産性向上を支える基盤」と位置づける。今回の一般提供により、企業は業務プロセスにAIを本格的に統合しやすくなり、Google WorkspaceにおけるAI活用の幅が大きく拡張されることになる。</p>
 <p>@<a href="https://www.youtube.com/watch?v=Xy0r5fKwlVo">YouTube</a></p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/12/12 [FRI]ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
@@ -556,7 +513,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>安全性面では、GPT-5系で用いられてきた既存の安全性フレームワークを引き継ぎつつ、GPT-5.2向けに調整した新版のシステムカードが公開されている。リスク緩和策や評価項目の更新が行われたとしている。</p>
 <p>OpenAIはGPT-5.2を「GPT-5シリーズの中心モデル」と位置づけ、今後のChatGPTおよびAPIの基盤として、継続的な改善を進めていく方針だ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>note、AIアシスタントに「Gemini 3 Pro」を導入──メモ段階から構成・言い換えまで執筆支援を強化</title>
@@ -576,7 +533,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>AIアシスタントは投稿画面から利用でき、文章やメモを入力することで提案内容が生成される。利用は無料で、今後は品質改善やガイドライン整備などを継続していくとしている。</p>
 <p>noteは今回のモデル刷新により、執筆支援機能を強化し、より多様な創作者が利用しやすい環境づくりを進めている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI普及の裏で「リテラシー不足」が深刻化──野村総研「IT活用実態調査2025」、導入率57.7％・課題は人材とリスク管理</title>
@@ -617,7 +574,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>という「普及と課題のギャップ」が明確に示されている。
 NRIは、今後も企業のIT・デジタル化の現状を継続的に観測し、課題解決を支援するとしている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
@@ -642,7 +599,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
 <p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
@@ -664,7 +621,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>大規模AIインフラの「選択肢」を拡大</h2>
 <p>AWSは、Trainium3 UltraServerの提供開始により、生成AIやエージェント型AI、Mixture-of-Expertsモデルなどの大規模ワークロードに対し、高速・低コストで提供できる選択肢を拡大したと説明した。今後もTrainiumシリーズとGPUの双方をサポートする方針を示しており、用途に応じた柔軟なAIインフラ構成が可能になるという。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
@@ -685,6 +642,49 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>2030年の完全自動運転の商用化を見据える</h2>
 <p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
 <p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
+      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
+      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
+<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
+<h2>推論能力とコスト効率を大幅に強化</h2>
+<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
+<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
+<ul>
+<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
+<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
+<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
+<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
+</ul>
+<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
+<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
+<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
+<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
+<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
+<h2>ブラウザ操作を自動化する「Nova Act」</h2>
+<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
+<h2>Bedrock で提供、開発者向けポータルも公開</h2>
+<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
+      <link>https://ledge.ai/articles/amazon_prime_video_ai_english_dub_end</link>
+      <description><![CDATA[<p>Amazon Prime Videoが、一部アニメ作品で導入していたAI生成吹き替え「AI beta」版を、12月初旬までに相次いで削除していたことが分かった。Anime News Network（ANN）が2025年12月3日に<a href="https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513">報じた</a>もので、削除は段階的に進んだとされる。</p>
+<p>ANNによると、Prime Video上では『BANANA FISH』『No Game, No Life Zero』『Pet』『Journal of the Mysterious Creatures』の英語・ラテンアメリカスペイン語吹き替え、さらに『Vinland Saga』のラテンアメリカスペイン語吹き替えが「AI beta」と表示されていた。『BANANA FISH』と『No Game, No Life Zero』のAI版吹き替えは12月3日までに削除され、『Pet』『Journal of the Mysterious Creatures』のAI英語吹き替えは3日時点で残っていたが4日までに削除された。『Vinland Saga』のラテンアメリカスペイン語版も4日までに削除が確認された。</p>
+<p>Amazonは2025年3月5日付の公式ブログ記事で、英語とラテンアメリカスペイン語を対象とする「AI-aided dubbing（AI支援吹き替え）」パイロットプログラムの開始を<a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish">発表</a>している。同記事はAmazon Staff名義で公開され、Prime VideoおよびAmazon MGM Studiosのテクノロジー担当バイスプレジデントであるRaf Soltanovich氏は、AI支援吹き替えについて「既存の吹き替えが存在しない作品にのみ提供する」と説明していた。</p>
+<p>一方でANNは、『No Game, No Life Zero』にはSentai Filmworksが制作した既存の英語吹き替えがあり、HIDIVEが2024年5月から配信していたことを指摘。ANNはPrime Video版の「AI beta」吹き替えが、同作の既存吹き替えとはキャスト・音声が異なることを確認した。ANNによれば、Prime Video版のエンドクレジットにはSentai Filmworks制作のキャスト・スタッフが記載されたままだった。</p>
+<p>SNS上での反発も大きかった。全米声優協会・NAVA（National Association of Voice Actors）は公式Xアカウント（@NAVAVOICES）で声明を投稿し、Amazonには本来「本物のストーリーテリング」や「感情的なつながり」を持つ吹き替えを制作する機会があったにもかかわらず、『BANANA FISH』『Vinland Saga』『No Game No Life』で「AI slop dubs」を選んだと批判。「侮辱的」「敬意を欠いている」との声が多いと訴えた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NAVA_1_86f4ec1597/NAVA_1_86f4ec1597.jpg" alt="NAVA1.jpg" /></p>
+<p>声優からの抗議も相次いだ。ANNの記事は、Daman Mills氏、Kara Edwards氏、Nick Huber氏、Dawn M. Bennett氏ら複数の声優がSNSで『BANANA FISH』のAI版吹き替えに対し懸念を表明したと伝えている。Mills氏は自身のX投稿を通じ、AI吹き替えによって作品や声優の価値が損なわれるとの立場を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
+<p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 02:50:00 GMT</pubDate>
     </item>
