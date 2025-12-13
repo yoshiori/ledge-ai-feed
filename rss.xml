@@ -50,43 +50,6 @@
       <pubDate>Thu, 11 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
-      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
-      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
-<h2>モデルマージと「Chat Vector」で性能を強化</h2>
-<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
-<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
-<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
-<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
-<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
-<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
-<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
-<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
-<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
-<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
-<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
-<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
-<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Helical Fusionとアオキスーパー、日本初のフュージョンエネルギー電力売買契約を締結──ヘリカル型核融合炉「Helix Program」で究極の脱炭素社会を目指す</title>
-      <link>https://ledge.ai/articles/helical_fusion_aoki_fusion_power_purchase_agreement</link>
-      <description><![CDATA[<p>Helical Fusion（東京都中央区）と、愛知県を中心に食品スーパーを展開するアオキスーパーは2025年12月8日、フュージョン（核融合）エネルギーによる電力の売買契約を締結したと<a href="https://prtimes.jp/main/html/rd/p/000000050.000089262.html">発表</a>した。両社によると、フュージョンエネルギーによる電力売買契約としては、国内初（Helical Fusion調べ）だという。</p>
-<p>Helical Fusionが推進するヘリカル型核融合炉の開発計画「Helix Program」に基づき、将来建設される核融合発電所からの電力供給を前提とする取り組みで、次世代クリーンエネルギーの社会実装を見据えた重要な一歩と位置づけられている。</p>
-<p>アオキスーパーは、冷蔵・冷凍設備など多くの電力を必要とする業態特性からエネルギー消費量の削減が課題となっていたほか、温暖化による農産物の栽培適地の変化や漁業資源への影響など、気候変動が事業に与えるリスクを問題視していた。同社は2025年7月、持続可能な社会への貢献を目的にHelical Fusionへ出資しており、今回の契約はその関係を踏まえた「需要家としての参画」となる。</p>
-<p>Helical Fusionは、大学共同利用機関法人 自然科学研究機構 核融合科学研究所の研究成果を基盤に、2021年に設立された日本発の核融合スタートアップ。日本独自の「ヘリカル方式」に基づく核融合炉は、約70年にわたる研究開発の結果、商用炉として必要とされる定常運転・正味発電・メンテナンス性の確保に適した方式として位置づけられている。</p>
-<p>同社が推進する「Helix Program」では、2020年代中に高温超伝導マグネットやブランケット兼ダイバータといった要素技術の個別実証を完了し、2030年代中に最終実証装置「Helix HARUKA」で統合実証を行い、その後、発電初号機「Helix KANATA」による世界初の実用発電の達成を目指すとしている。</p>
-<p><strong>Helical Fusionが2030年代に「実用発電」を計画する発電初号機「Helix KANATA」のイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551.webp" alt="89262-50-4ecca09204adfd851cfb9db7db0e217d-2940x1650.webp" /></p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
       <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
       <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
@@ -112,39 +75,20 @@
 <h2>Bedrock で提供、開発者向けポータルも公開</h2>
 <p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
 ]]></description>
-      <pubDate>Wed, 10 Dec 2025 23:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTT、次世代都市構想「光の街」始動──IOWNを都市に実装し、本社を2031年に日比谷へ移転</title>
-      <link>https://ledge.ai/articles/ntt_iown_hikari_city_hibiya_hq_move_2031</link>
-      <description><![CDATA[<p>NTT株式会社、NTTアーバンソリューションズ株式会社、NTT都市開発株式会社は2025年12月8日、次世代情報通信基盤「IOWN」を都市空間に実装し、街がテクノロジーとともに進化し続ける「光の街 powered by IOWN」構想を開始すると<a href="https://group.ntt/jp/newsrelease/2025/12/08/251208a.html">発表</a>した。本構想の第一弾は、2031年10月末に竣工予定の「NTT日比谷タワー」を中心に展開され、NTT本社も同タワーへの移転を予定している。</p>
-<p>1961年に旧日本電信電話公社が本社を構えた日比谷の地に再び拠点を置くことで、NTTグループが蓄積してきた技術力を結集し、新たな価値創出と超・低消費電力化を実現することを目指すとしている。</p>
-<h2>社会課題の深刻化とIOWNの役割</h2>
-<p>日本では少子高齢化による人手不足、地球温暖化、自然災害の頻発に加え、AI・ロボティクスの普及による電力消費の増大が課題となっている。NTTは、膨大なデータを大容量・低遅延・低消費電力で処理できるIOWNを社会基盤として都市に実装することで、災害予測、インフラ制御、企業業務の効率化など、多領域での課題解決を進めるという。</p>
-<h2>新しいビジネス・イノベーション</h2>
-<p>IOWNが実装されるNTT日比谷タワーでは、世界中の企業とリアルタイムで協働できる環境を整備する。
-通信とデータ処理を統合した基盤を活用することで、臨場感のあるコミュニケーションや高度な遠隔業務が可能になる。</p>
-<p>また、NTTは業務支援の高度化に向けて、NTT版LLM「tsuzumi 2」や、大規模AI連携技術「AIコンステレーション」をIOWNと組み合わせることで情報検索や資料作成支援、国際的なコラボレーションなど、企業活動を支える多様なアプリケーションの展開を想定している。
-将来的には、会議で生まれたアイデアをモデル化したり、必要な情報を即座に提示するなど、働く環境の高度化を支える技術として発展させる方針だ。</p>
-<p>将来的な空間・時間を問わないビジネスシーンイメージ
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ab_3cda72f446/251208ab_3cda72f446.jpg" alt="251208ab.jpg" /></p>
-<h2>新たなライフスタイル・エンターテインメント</h2>
-<p>日比谷タワー低層部に整備される大規模アトリウム「（仮称）Cross Gate」では、壁面・天井一体型の大型LEDビジョンを活用し、世界各地とリアルタイムでつながるイベント空間を形成する。</p>
-<p>商業施設との連動イベントや多拠点同時発表会、ライブビューイングなど、多様な活用が可能。将来的には音響XR技術なども組み合わせ、より深い没入体験を提供する。</p>
-<p>将来的な（仮称）Cross Gateでのエンターテイメントイメージ（左図：バーチャルアクアリウム、右図：他会場と融合したバスケットボール観戦）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ac_72eb58dead/251208ac_72eb58dead.jpg" alt="251208ac.jpg" /></p>
-<h2>超・低消費電力化によるサステナビリティ</h2>
-<p>都市全体の持続可能性に向け、NTTは以下の取り組みを明示している。</p>
-<ul>
-<li>オフィス部分で「ZEB Ready」を実現（従来比50％以上の省エネ）</li>
-<li>光電融合デバイスによる消費電力削減</li>
-<li>IOWN×AIの予測制御「Just Enough Energy」で10〜20％のCO₂削減</li>
-<li>将来は光量子コンピュータや水素エネルギーの活用も検討</li>
-</ul>
-<h2>今後の展開</h2>
-<p>内幸町一丁目街区は、官民連携や研究機関との共創が可能な次世代スマートシティへと整備が進む。NTT日比谷タワーで得られた知見は、周辺エリア、国内、さらには海外へと段階的に展開される予定だ。</p>
+      <title>Helical Fusionとアオキスーパー、日本初のフュージョンエネルギー電力売買契約を締結──ヘリカル型核融合炉「Helix Program」で究極の脱炭素社会を目指す</title>
+      <link>https://ledge.ai/articles/helical_fusion_aoki_fusion_power_purchase_agreement</link>
+      <description><![CDATA[<p>Helical Fusion（東京都中央区）と、愛知県を中心に食品スーパーを展開するアオキスーパーは2025年12月8日、フュージョン（核融合）エネルギーによる電力の売買契約を締結したと<a href="https://prtimes.jp/main/html/rd/p/000000050.000089262.html">発表</a>した。両社によると、フュージョンエネルギーによる電力売買契約としては、国内初（Helical Fusion調べ）だという。</p>
+<p>Helical Fusionが推進するヘリカル型核融合炉の開発計画「Helix Program」に基づき、将来建設される核融合発電所からの電力供給を前提とする取り組みで、次世代クリーンエネルギーの社会実装を見据えた重要な一歩と位置づけられている。</p>
+<p>アオキスーパーは、冷蔵・冷凍設備など多くの電力を必要とする業態特性からエネルギー消費量の削減が課題となっていたほか、温暖化による農産物の栽培適地の変化や漁業資源への影響など、気候変動が事業に与えるリスクを問題視していた。同社は2025年7月、持続可能な社会への貢献を目的にHelical Fusionへ出資しており、今回の契約はその関係を踏まえた「需要家としての参画」となる。</p>
+<p>Helical Fusionは、大学共同利用機関法人 自然科学研究機構 核融合科学研究所の研究成果を基盤に、2021年に設立された日本発の核融合スタートアップ。日本独自の「ヘリカル方式」に基づく核融合炉は、約70年にわたる研究開発の結果、商用炉として必要とされる定常運転・正味発電・メンテナンス性の確保に適した方式として位置づけられている。</p>
+<p>同社が推進する「Helix Program」では、2020年代中に高温超伝導マグネットやブランケット兼ダイバータといった要素技術の個別実証を完了し、2030年代中に最終実証装置「Helix HARUKA」で統合実証を行い、その後、発電初号機「Helix KANATA」による世界初の実用発電の達成を目指すとしている。</p>
+<p><strong>Helical Fusionが2030年代に「実用発電」を計画する発電初号機「Helix KANATA」のイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551.webp" alt="89262-50-4ecca09204adfd851cfb9db7db0e217d-2940x1650.webp" /></p>
 ]]></description>
-      <pubDate>Wed, 10 Dec 2025 07:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NEC、警察・消防の指令室を支援する次世代AI技術を開発──独自のAgentic AIで状況把握から行動提案まで自動化</title>
@@ -414,21 +358,6 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon Prime VideoのAI生成吹き替え「AI beta」版、配信から削除へ──NAVAと声優陣が『BANANA FISH』などのAI版に抗議</title>
-      <link>https://ledge.ai/articles/amazon_prime_video_ai_english_dub_end</link>
-      <description><![CDATA[<p>Amazon Prime Videoが、一部アニメ作品で導入していたAI生成吹き替え「AI beta」版を、12月初旬までに相次いで削除していたことが分かった。Anime News Network（ANN）が2025年12月3日に<a href="https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513">報じた</a>もので、削除は段階的に進んだとされる。</p>
-<p>ANNによると、Prime Video上では『BANANA FISH』『No Game, No Life Zero』『Pet』『Journal of the Mysterious Creatures』の英語・ラテンアメリカスペイン語吹き替え、さらに『Vinland Saga』のラテンアメリカスペイン語吹き替えが「AI beta」と表示されていた。『BANANA FISH』と『No Game, No Life Zero』のAI版吹き替えは12月3日までに削除され、『Pet』『Journal of the Mysterious Creatures』のAI英語吹き替えは3日時点で残っていたが4日までに削除された。『Vinland Saga』のラテンアメリカスペイン語版も4日までに削除が確認された。</p>
-<p>Amazonは2025年3月5日付の公式ブログ記事で、英語とラテンアメリカスペイン語を対象とする「AI-aided dubbing（AI支援吹き替え）」パイロットプログラムの開始を<a href="https://www.aboutamazon.com/news/entertainment/prime-video-ai-dubbing-english-spanish">発表</a>している。同記事はAmazon Staff名義で公開され、Prime VideoおよびAmazon MGM Studiosのテクノロジー担当バイスプレジデントであるRaf Soltanovich氏は、AI支援吹き替えについて「既存の吹き替えが存在しない作品にのみ提供する」と説明していた。</p>
-<p>一方でANNは、『No Game, No Life Zero』にはSentai Filmworksが制作した既存の英語吹き替えがあり、HIDIVEが2024年5月から配信していたことを指摘。ANNはPrime Video版の「AI beta」吹き替えが、同作の既存吹き替えとはキャスト・音声が異なることを確認した。ANNによれば、Prime Video版のエンドクレジットにはSentai Filmworks制作のキャスト・スタッフが記載されたままだった。</p>
-<p>SNS上での反発も大きかった。全米声優協会・NAVA（National Association of Voice Actors）は公式Xアカウント（@NAVAVOICES）で声明を投稿し、Amazonには本来「本物のストーリーテリング」や「感情的なつながり」を持つ吹き替えを制作する機会があったにもかかわらず、『BANANA FISH』『Vinland Saga』『No Game No Life』で「AI slop dubs」を選んだと批判。「侮辱的」「敬意を欠いている」との声が多いと訴えた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NAVA_1_86f4ec1597/NAVA_1_86f4ec1597.jpg" alt="NAVA1.jpg" /></p>
-<p>声優からの抗議も相次いだ。ANNの記事は、Daman Mills氏、Kara Edwards氏、Nick Huber氏、Dawn M. Bennett氏ら複数の声優がSNSで『BANANA FISH』のAI版吹き替えに対し懸念を表明したと伝えている。Mills氏は自身のX投稿を通じ、AI吹き替えによって作品や声優の価値が損なわれるとの立場を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Daman_Mills_x2_ee9a1bd260/Daman_Mills_x2_ee9a1bd260.jpg" alt="Daman Mills x2.jpg" /></p>
-<p>ANNが権利元へ取材したところ、Kadokawaは『No Game, No Life Zero』のAI吹き替えについて「AI吹き替えをいかなる形でも承認していない」と回答。Sentai Filmworks／HIDIVEの関係者は「事前に知らされていなかった」とし、「Amazonと状況を確認している」と述べた。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
       <link>https://ledge.ai/articles/brain_to_text_inner_speech_decoder</link>
       <description><![CDATA[<p>コロンビア大学やスタンフォード大学などの研究者らによるチームは2025年11月21日、脳の活動データを直接テキストに変換する新しいAIフレームワーク「BIT (BraIn-to-Text)」を<a href="https://arxiv.org/abs/2511.21740v1">発表</a>した。</p>
@@ -592,22 +521,34 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>note、AIアシスタントに「Gemini 3 Pro」を導入──メモ段階から構成・言い換えまで執筆支援を強化</title>
-      <link>https://ledge.ai/articles/note_gemini3pro_ai_assistant_update</link>
-      <description><![CDATA[<p>note株式会社は2025年12月2日、同プラットフォームのAIアシスタントに Google の最新生成AIモデル「Gemini 3 Pro（プレビュー版）」を導入したと<a href="https://note.jp/n/n655ea4dcd39a">発表</a>した。アイデアの断片やメモ段階の入力から文章構成の提案、言い換え、表現改善まで、執筆プロセス全体を支援する機能が拡充される。</p>
-<p>noteは「誰もが創作をはじめ、続けられるようにする」ことをミッションに掲げており、AIアシスタント機能はその一部として提供されてきた。従来も文章の書き出しや言い換え提案などが可能だったが、今回のアップデートにより、文章構成や着想の深掘りなど、より幅広い工程をサポートするようになった。</p>
-<p><strong>AIアシスタント利用シーンの一例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1764577930_Zqk8_D_Hr_R_Pma3_Gg_Mf_EY_2_Qxb_Vw_1_88e9b02458/1764577930_Zqk8_D_Hr_R_Pma3_Gg_Mf_EY_2_Qxb_Vw_1_88e9b02458.webp" alt="1764577930-Zqk8DHrRPma3GgMfEY2QxbVw (1).webp" /></p>
-<p>Gemini 3 Pro の導入により以下の機能が強化されたという。</p>
+      <title>NTT、次世代都市構想「光の街」始動──IOWNを都市に実装し、本社を2031年に日比谷へ移転</title>
+      <link>https://ledge.ai/articles/ntt_iown_hikari_city_hibiya_hq_move_2031</link>
+      <description><![CDATA[<p>NTT株式会社、NTTアーバンソリューションズ株式会社、NTT都市開発株式会社は2025年12月8日、次世代情報通信基盤「IOWN」を都市空間に実装し、街がテクノロジーとともに進化し続ける「光の街 powered by IOWN」構想を開始すると<a href="https://group.ntt/jp/newsrelease/2025/12/08/251208a.html">発表</a>した。本構想の第一弾は、2031年10月末に竣工予定の「NTT日比谷タワー」を中心に展開され、NTT本社も同タワーへの移転を予定している。</p>
+<p>1961年に旧日本電信電話公社が本社を構えた日比谷の地に再び拠点を置くことで、NTTグループが蓄積してきた技術力を結集し、新たな価値創出と超・低消費電力化を実現することを目指すとしている。</p>
+<h2>社会課題の深刻化とIOWNの役割</h2>
+<p>日本では少子高齢化による人手不足、地球温暖化、自然災害の頻発に加え、AI・ロボティクスの普及による電力消費の増大が課題となっている。NTTは、膨大なデータを大容量・低遅延・低消費電力で処理できるIOWNを社会基盤として都市に実装することで、災害予測、インフラ制御、企業業務の効率化など、多領域での課題解決を進めるという。</p>
+<h2>新しいビジネス・イノベーション</h2>
+<p>IOWNが実装されるNTT日比谷タワーでは、世界中の企業とリアルタイムで協働できる環境を整備する。
+通信とデータ処理を統合した基盤を活用することで、臨場感のあるコミュニケーションや高度な遠隔業務が可能になる。</p>
+<p>また、NTTは業務支援の高度化に向けて、NTT版LLM「tsuzumi 2」や、大規模AI連携技術「AIコンステレーション」をIOWNと組み合わせることで情報検索や資料作成支援、国際的なコラボレーションなど、企業活動を支える多様なアプリケーションの展開を想定している。
+将来的には、会議で生まれたアイデアをモデル化したり、必要な情報を即座に提示するなど、働く環境の高度化を支える技術として発展させる方針だ。</p>
+<p>将来的な空間・時間を問わないビジネスシーンイメージ
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ab_3cda72f446/251208ab_3cda72f446.jpg" alt="251208ab.jpg" /></p>
+<h2>新たなライフスタイル・エンターテインメント</h2>
+<p>日比谷タワー低層部に整備される大規模アトリウム「（仮称）Cross Gate」では、壁面・天井一体型の大型LEDビジョンを活用し、世界各地とリアルタイムでつながるイベント空間を形成する。</p>
+<p>商業施設との連動イベントや多拠点同時発表会、ライブビューイングなど、多様な活用が可能。将来的には音響XR技術なども組み合わせ、より深い没入体験を提供する。</p>
+<p>将来的な（仮称）Cross Gateでのエンターテイメントイメージ（左図：バーチャルアクアリウム、右図：他会場と融合したバスケットボール観戦）
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ac_72eb58dead/251208ac_72eb58dead.jpg" alt="251208ac.jpg" /></p>
+<h2>超・低消費電力化によるサステナビリティ</h2>
+<p>都市全体の持続可能性に向け、NTTは以下の取り組みを明示している。</p>
 <ul>
-<li>メモやアイデア断片から記事構成案や書き始めを生成</li>
-<li>文章のリライト（言い換え・簡潔化・読みやすさ改善）</li>
-<li>表現の調整や文章の要約</li>
-<li>思考の深掘りや視点の追加提案</li>
+<li>オフィス部分で「ZEB Ready」を実現（従来比50％以上の省エネ）</li>
+<li>光電融合デバイスによる消費電力削減</li>
+<li>IOWN×AIの予測制御「Just Enough Energy」で10〜20％のCO₂削減</li>
+<li>将来は光量子コンピュータや水素エネルギーの活用も検討</li>
 </ul>
-<p>noteは、AIアシスタントを利用することで「書きたいテーマはあるが、何から書けばよいか分からない」といった初期段階の課題に対応できるとしている。「AIが持つアイデア着想力や書き出しのサポートは、執筆に不慣れなユーザーの負担を軽減する」と説明する一方、生成内容への依存を避け、創作の主体はあくまでユーザー自身である点への注意も呼びかけている。</p>
-<p>AIアシスタントは投稿画面から利用でき、文章やメモを入力することで提案内容が生成される。利用は無料で、今後は品質改善やガイドライン整備などを継続していくとしている。</p>
-<p>noteは今回のモデル刷新により、執筆支援機能を強化し、より多様な創作者が利用しやすい環境づくりを進めている。</p>
+<h2>今後の展開</h2>
+<p>内幸町一丁目街区は、官民連携や研究機関との共創が可能な次世代スマートシティへと整備が進む。NTT日比谷タワーで得られた知見は、周辺エリア、国内、さらには海外へと段階的に展開される予定だ。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
@@ -637,6 +578,30 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
+      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
+      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
+<h2>モデルマージと「Chat Vector」で性能を強化</h2>
+<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
+<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
+<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
+<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
+<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
+<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
+<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
+<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
+<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
+<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
+<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
+<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
+<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>サム・アルトマン、OpenAI設立10年を回顧するブログ「Ten years」公開──「想像以上の成果」とAGIへの使命を語る</title>
       <link>https://ledge.ai/articles/sam_altman_openai_ten_years_blog</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は米国時間2025年12月12日、同社設立から10年間を振り返るブログ「Ten years」を公式サイトで<a href="https://openai.com/index/ten-years/">発表</a>した。</p>
@@ -647,28 +612,6 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>そのうえで同氏は、社会全体が持つ「可能性の空間（possibility space）」は大きく広がったと表現する。AIの進化によって、新たに実現可能となった選択肢や未来像が増えたことが、この10年の最も重要な変化の一つだと位置づけている。</p>
 <p>ブログではまた、OpenAIの中核的な使命である「AGIを全人類の利益になるよう実現する」という目標が改めて強調された。アルトマン氏は、技術的な前進だけでなく、その影響力の大きさを踏まえた慎重さと責任が不可欠であるとの認識を示している。</p>
 <p>「Ten years」は、具体的な製品計画や数値目標に踏み込む内容ではなく、これまでの歩みと今後の方向性を整理する回顧録的な位置づけとなっている。アルトマン氏は、次の10年がOpenAIにとって、そしてAI全体にとって、さらに重要な期間になるとの考えをにじませている。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS、自社開発AIチップ「Trainium3 UltraServer」を一般提供開始──3nmプロセス×144チップ構成で大規模AIの学習・推論を高速化</title>
-      <link>https://ledge.ai/articles/trainium3_ultraserver_ga_announcement</link>
-      <description><![CDATA[<p>米Amazon傘下のAmazon Web Services（AWS）は2025年12月3日（現地時間）、年次イベント「AWS re:Invent 2025」で、自社開発AIチップ「Trainium3」を搭載する大規模AI向け統合システム「Amazon EC2 Trn3 UltraServer（以下、Trainium3 UltraServer）」の一般提供（GA）を開始したと<a href="https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost">発表</a>した。</p>
-<p>システムは3ナノメートルプロセスで製造したTrainium3を最大144基搭載でき、前世代（Trainium2 UltraServer）と比較して計算性能は最大4.4倍、メモリ帯域とエネルギー効率は約4倍に向上したという。</p>
-<h2>最大362 FP8 PFLOPS、最大144チップ構成の新AIサーバー</h2>
-<p>Trainium3 UltraServerはFP8精度で最大362 PFLOPSの演算性能を発揮し、1筐体に最大144基のTrainium3チップを搭載できる。メモリ帯域は合計706 TB/s、HBMメモリ容量は最大20.7 TBとなり、大規模言語モデル（LLM）やマルチモーダルモデルの学習・推論向けに最適化されているという。</p>
-<p>AWSは、OpenAIのオープンウェイトモデル「GPT-OSS」を用いた社内テストでは、1チップあたりのスループットが3倍、推論レイテンシが4倍高速化したと説明している。</p>
-<h2>新ネットワーク基盤「NeuronSwitch-v1」やUltraClusters 3.0で大規模化に対応</h2>
-<p>Trainium3 UltraServerには、AWSが新たに開発したネットワークスイッチ「NeuronSwitch-v1」が搭載され、チップ間の通信帯域は前世代と比較して2倍になった。また、新たな「Neuron Fabric」により、チップ間通信の遅延は10マイクロ秒未満に抑えられるという。</p>
-<p>複数のUltraServerを接続するクラスタ構成「EC2 UltraClusters 3.0」では、最大100万基のTrainiumチップまでスケール可能とされ、大規模データセットを用いたモデル学習や、数百万規模の同時推論リクエストにも対応できるとしている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=4y3pMGIS6DU">YouTube</a></p>
-<h2>既に複数企業が活用、高速化やコスト削減の事例も</h2>
-<p>AWSは複数の顧客事例を紹介しており、AnthropicやKarakuri、Metagenomi、NetoAI、Ricoh、Splash Musicなどが、Trainiumシリーズを用いてトレーニングコストを最大50％削減したという。また、生成系スタートアップのDecartは、Trainium3を用いたリアルタイム動画生成により、フレーム生成が4倍高速化し、GPU比でコストを半減できたとしている。</p>
-<p>さらに、AWSの生成AI基盤「Amazon Bedrock」では、Trainium3上で既に本番ワークロードが稼働している。</p>
-<h2>次世代「Trainium4」ではNVIDIA NVLink Fusionにも対応予定</h2>
-<p>AWSは、次世代AIチップ「Trainium4」の開発も進めていると公表した。現時点で示されている目標値は、FP4で6倍以上、FP8で3倍の性能向上、メモリ帯域4倍の拡張など。さらに、Trainium4はNVIDIAの新インターコネクト技術「NVLink Fusion」に対応予定で、NVIDIA GPUと共存するラックスケール構成が可能になるとしている。</p>
-<h2>大規模AIインフラの「選択肢」を拡大</h2>
-<p>AWSは、Trainium3 UltraServerの提供開始により、生成AIやエージェント型AI、Mixture-of-Expertsモデルなどの大規模ワークロードに対し、高速・低コストで提供できる選択肢を拡大したと説明した。今後もTrainiumシリーズとGPUの双方をサポートする方針を示しており、用途に応じた柔軟なAIインフラ構成が可能になるという。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
