@@ -352,39 +352,6 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Mon, 08 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>仏Mistral、次世代オープンモデル「Mistral 3」発表──3B〜14Bの小型DenseとフラッグシップLarge 3をApache 2.0で公開</title>
-      <link>https://ledge.ai/articles/mistral_3_release_open_weight_models</link>
-      <description><![CDATA[<p>フランスのAIスタートアップ Mistral AI は2025年12月2日（現地時間）、新しいオープンソースモデル群「Mistral 3 」を<a href="https://mistral.ai/news/mistral-3">発表</a>した。小型の「Ministral 3 3B」「Ministral 3 8B」「Ministral 3 14B」に加え、フラッグシップとして Sparse Mixture-of-Experts（MoE）構造を採用した「Mistral Large 3」を公開した。すべてのモデルは オープンウェイト（Apache 2.0ライセンス） で提供される。</p>
-<h2>小型Denseモデル：3B／8B／14Bを新たにラインナップ</h2>
-<p>Mistral 3 ファミリーでは、軽量で推論コストを抑えつつ性能を高めた小型Denseモデルを刷新した。公式リリースで「Ministral 3 シリーズ」と名付けられたモデルは以下の3種類：</p>
-<ul>
-<li>Ministral 3 3B（3B parameters）</li>
-<li>Ministral 3 8B（8B parameters）</li>
-<li>Ministral 3 14B（14B parameters）</li>
-</ul>
-<p>いずれも多言語処理に加え、画像理解を含むマルチモーダル対応 を備え、長いコンテキストを扱えるよう設計されている。Apache 2.0 ライセンスで提供されるため、商用利用を含め企業や開発者が自由に導入できる点が特徴だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/4_GPQA_Diamond_Accuracy_3e948fdea9/4_GPQA_Diamond_Accuracy_3e948fdea9.jpg" alt="4-GPQA Diamond Accuracy.jpg" /></p>
-<h2>アクティブ41Bの最上位モデル「Mistral Large 3」</h2>
-<p>フラッグシップモデルとして登場した「Mistral Large 3」は、Sparse Mixture-of-Experts（MoE）アーキテクチャを採用した大規模モデルだ。主な特徴は次のとおり：</p>
-<ul>
-<li>Sparse Mixture-of-Experts（MoE）構造を採用</li>
-<li>推論時にアクティブなパラメータ数は約41B</li>
-<li>総計パラメータ規模は 675B スケール</li>
-<li>256K tokens の長大コンテキストに対応</li>
-<li>画像理解を含むマルチモーダル処理に対応</li>
-</ul>
-<p>発表では、Mistral Large 3 は「既存のオープンウェイトモデルと同等以上の性能を示す」と説明されており、多言語対話や高度なタスクに向けて最適化されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chart_base_models_17eaed2794/chart_base_models_17eaed2794.jpg" alt="chart-base-models.jpg" /></p>
-<h2>オープンウェイト戦略の継続</h2>
-<p>Mistral AI は公式リリースで、「AIの恩恵をより多くの人々に届ける」というビジョンをあらためて強調。Mistral 3 ファミリーのすべてを Apache 2.0 ライセンスで公開することで、研究用途から商用利用まで幅広い開発者層への開放を継続している。</p>
-<p>また、モデルは Mistral AI Studio、Amazon Bedrock、Azure Foundry、Hugging Face、IBM watsonx など複数のプラットフォームで利用可能としており、オンデバイスからクラウドまで多様な展開が可能だ。</p>
-<h2>エッジからクラウドまで幅広い利用を想定</h2>
-<p>Mistral 3 はエッジ環境から大規模データセンターまで幅広いユースケースを想定して設計されている。多言語・マルチモーダル対応、長コンテキスト処理能力により、チャットボット、エージェント、検索、画像理解、コード生成など、さまざまなアプリケーションに活用できる。</p>
-<p>Mistralは今回の発表を「次世代モデルの登場」と位置付けており、今後もオープンモデルの開発とエコシステム拡張を続けていく方針だ。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確に確定、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
       <link>https://ledge.ai/articles/agi_definition_stanford_gpt4_27_gpt5_60</link>
       <description><![CDATA[<p>スタンフォード大学やUCバークレー、MITなどの研究者を含む国際チームは、AIの到達度を測る新しい枠組みを提示した論文「A Definition of AGI」を<a href="https://arxiv.org/abs/2510.18212v3">公開</a>した。これまで曖昧だったAGI（汎用人工知能）の定義について、同チームは「教養ある成人（well-educated adult）の認知の幅と熟達度にマッチするAI」と明確化。加えて、人間の知能研究で広く使われるCHC（Cattell-Horn-Carroll）理論に基づき、10種類の認知ドメインでAIモデルを評価する「AGIスコア」を提案した。</p>
@@ -519,6 +486,21 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>今回の最新アップデートでは、2年半にわたる追跡期間のうち、ChatGPTファンドが人気投信10本の平均を下回った日はわずか1%。選定銘柄には、Microsoft、Alphabet、Meta、NVIDIA、TSMC、ASML、Johnson &amp; Johnson、PepsiCo など、大型株を中心とした多国籍企業が並ぶ。</p>
 <p>Finderは同実験について「ChatGPTは2021年までの訓練データを持つ言語モデルであり、リアルタイム市場データに基づく投資判断を行っているわけではない」と明記。ChatGPTの回答が投資助言に該当するものではないこと、またこのファンド自体は実在せず、あくまでAIの応答を可視化する概念実験である点を繰り返し注意喚起している。</p>
 <p>同社は、実験の目的を「AIが人間のファンドマネージャーと比較してどのようなポートフォリオを組むかを検証すること」と説明。今回の結果は、2年半の長期観測においても、ChatGPTが選んだポートフォリオが英国の人気投信平均を継続して上回り続けていることを示すものとなった。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アシモフもびっくり？ 中国EngineAI、人型ロボット「T800」がCEOを蹴り倒す映像公開──CG疑惑を巡り“体を張った実演”</title>
+      <link>https://ledge.ai/articles/engineai_t800_ceo_kick_video_cg_suspicions</link>
+      <description><![CDATA[<p>中国のロボット企業 EngineAI（众擎机器人） は2025年12月6日、人型ロボット「T800」が同社の創業者で最高経営責任者（CEO）の趙同陽（Zhao Tongyang）氏をキックで倒す様子を収めた映像を<a href="https://www.instagram.com/reel/DR7C3kMEz4b/">公開</a>した。映像はInstagramやXなどの投稿サイトを通じて公開され、SNS上で広がっていた「CGではないか」という疑念に対応するため、CEO自らが実演に臨んだ形だ。</p>
+<p>公開された動画では、防具を着用した趙氏がT800の前に立ち、ロボットが繰り出した前方キックを受けて地面に倒れる様子が確認できる。映像内ではキックの威力の強さが強調されており、公開直後から中国国内外のSNSで急速に拡散した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/enginai_ceo_651eec7e25/enginai_ceo_651eec7e25.jpg" alt="enginai ceo.jpg" /></p>
+<p>この映像が公開される前、EngineAIはT800がキックや宙返りのような動作を見せるデモ動画を複数公開していた。動きの滑らかさやダイナミックさから、SNS上では「実写ではなくCGIではないか」といった指摘や懐疑的な声が相次いでいた。こうした疑念に反論する意図で、CEOが自らロボットのキックを受ける実演映像を公開したと米Business Insider等が報じている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/enginai_no_aigc_nocgi_f4537fb037/enginai_no_aigc_nocgi_f4537fb037.jpg" alt="enginai no aigc nocgi.jpg" /></p>
+<p>映像はInstagramをはじめとする複数の投稿サイトで転載・拡散され、海外メディアが相次いで取り上げた。多くの報道では、ロボット技術の進展そのものに加え、CGや高度な映像編集が一般化した時代において、実機であることをどのように証明するかという点に注目が集まっている。</p>
+<p>近年、人型ロボットの開発を巡っては、各国企業が実機デモ映像を積極的に公開する一方で、その真偽や編集の有無が議論になるケースも増えている。EngineAIの今回の対応は、第三者による検証ではなく、CEO本人が体を張る形で“実在性”を示そうとした点で、興味深い事例といえる。</p>
+<p>人型ロボットが人間に危害を加える映像は、SF作家アイザック・アシモフが提唱した「ロボット工学三原則」で描かれてきた理想像とは対照的だ。三原則では、ロボットは人間に危害を加えてはならないとされてきた。一方、現実のロボット開発では、技術の実在性や性能を示すために、こうした象徴的な実演が行われるケースが現れた。</p>
+<p>技術的な進歩と同時に、安全性や検証方法、情報公開のあり方が問われる人型ロボット。一連の映像は、ロボット技術の進化とともに、社会がどのようにその信頼性を評価していくのかという課題を浮き彫りにしている。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
