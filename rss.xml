@@ -5,26 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>ビジネス2025/12/12 [FRI]OpenAI、「エンタープライズAIの現状 2025」公開──ChatGPT Enterpriseで1日40〜60分短縮、導入企業は100万社超に</title>
-      <link>https://ledge.ai/articles/enterprise_ai_2025_openai_report</link>
-      <description><![CDATA[<p>OpenAIは2025年12月8日、企業におけるAI活用の最新動向をまとめたレポート「The state of enterprise AI 2025」を<a href="https://openai.com/index/the-state-of-enterprise-ai-2025-report/">発表</a>した。調査では、ChatGPT Enterpriseの利用が業務の中心に組み込まれつつあり、従業員が1日あたり平均40〜60分の作業時間を節約していることが確認された。</p>
-<p>同レポートは企業向け利用データと、約100社・9,000人を対象にした調査を基に作成されており、AI導入が「実験段階」から「本格運用」へと移行している現状を示す内容となっている。（詳細なレポートは<a href="https://cdn.openai.com/pdf/7ef17d82-96bf-4dd1-9df2-228f7f377a29/the-state-of-enterprise-ai_2025-report.pdf">こちら</a>のPDFから閲覧可能）</p>
-<p>レポートによれば、OpenAIはすでに100万以上のビジネス顧客を抱え、ChatGPT Enterpriseの席数は700万を超えた。メッセージ数やカスタムGPTの利用も急増しており、特に独自ワークフローの自動化やナレッジ検索など、企業固有の業務に深くAIが統合されているという。</p>
-<p>さらに、AI活用の“深さ”と生産性の向上には明確な相関があることも示された。AIを集中的に利用する従業員ほど、週あたりの時間節約量が大きい傾向が見られた。</p>
-<p><strong>■ AIの利用量が多いほど、週あたりの節約時間が増加する：</strong> 週10時間以上を節約しているグループは、ほとんど節約していない層の約8倍のクレジットを利用
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Productivity_gains_increase_with_intensity_of_AI_use_22bd78f29d/Productivity_gains_increase_with_intensity_of_AI_use_22bd78f29d.jpg" alt="Productivity gains increase with intensity of AI use.jpg" /></p>
-<p>業種別に見ると、AI導入の速度と規模にも大きな差が浮き彫りになった。特にテクノロジー業界が突出しており、利用規模も成長率も最大だった。一方で、ヘルスケアや製造、建設など、従来デジタル化が進みにくいとされていた業界でも急速に導入が進んでいる。</p>
-<p><strong>■ 業種別：AI利用規模と前年比成長率</strong> テクノロジーが規模・成長率とも最大。ヘルスケア・製造が急伸し、金融・プロフェッショナルサービスは高い安定利用を示す
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_adoption_by_industry_b7cdebd753/AI_adoption_by_industry_b7cdebd753.jpg" alt="AI adoption by industry.jpg" /></p>
-<p>企業間でも、AI活用の深度には明確な“格差”が存在する。特に「フロンティアワーカー」と呼ばれる AI 活用上位5％の従業員は、AIへの依存度が全く異なる。フロンティア層は高度な分析や推論タスクを日常的にこなし、中位層との間に大きな使用量の差が生じていることが確認された。</p>
-<p><strong>■ フロンティアワーカーと中央値ユーザーの利用格差</strong> メッセージ量は6倍、データ分析関連のメッセージは16倍と、格差は高度なタスクほど拡大
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Worker_usage_gaps_widen_with_more_advanced_tools_95836d5bc8/Worker_usage_gaps_widen_with_more_advanced_tools_95836d5bc8.jpg" alt="Worker usage gaps widen with more advanced tools.jpg" /></p>
-<p>OpenAIは総括として、AIを幅広い業務で深く活用できる企業ほど、時間短縮だけでなく新しい業務遂行能力を獲得していると指摘する。AIが単なる生産性向上ツールから、企業の競争力を左右する「中心インフラ」へと位置づけが変わりつつあることが、調査により浮き彫りとなった。</p>
-<p>単なる効率化ツールから、企業基盤となるインフラへ──AI導入のフェーズは次の段階へ移り始めている。</p>
-]]></description>
-      <pubDate>Fri, 12 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ゆうちょ銀行、ATM前の「通話」をAIで検知し取引中止も──特殊詐欺被害防止で2026年1月から新措置</title>
       <link>https://ledge.ai/articles/jpbank_atm_ai_call_detection_fraud_prevention_2026</link>
       <description><![CDATA[<p>ゆうちょ銀行は2025年12月8日、ATM利用時の特殊詐欺被害を防止する新たな取り組みとして、ATM前での携帯電話などによる通話動作をAIで検知し、必要に応じて取引を中止する措置を導入すると<a href="https://www.jp-bank.japanpost.jp/news/2025/news_id002346.html">発表</a>した。新措置は2026年1月から、全国のゆうちょATMで順次適用される。</p>
@@ -378,7 +358,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/10 [WED]ChatGPTが選んだ38銘柄ファンド、2年半で+66.1%に──英国人気投信10本の平均+41.36%を引き離す</title>
+      <title>ChatGPTが選んだ38銘柄ファンド、2年半で+66.1%に──英国人気投信10本の平均+41.36%を引き離す</title>
       <link>https://ledge.ai/articles/chatgpt_fund_performance_2025_update</link>
       <description><![CDATA[<p>英国の金融比較サイト Finder が実施している「<a href="https://www.finder.com/uk/share-trading/share-trading-research/ai-investing">ChatGPTファンド</a>」の概念実験で、2025年10月28日時点の最新パフォーマンスが明らかになった。同ファンドは、生成AI「ChatGPT」が選んだ38銘柄で構成される仮想ポートフォリオで、運用開始から約2年半の累計リターンは +66.1%。ベンチマークとしている英国の人気投資信託トップ10本の平均リターン +41.36% を大きく上回り、開始以来 99% の営業日でアウトパフォーム したという。</p>
 <p>Finderは2023年3月、ChatGPTに「借入が少なく、持続的成長と競争優位性を持つ企業」を条件として提示し、株式ポートフォリオの作成を依頼した。ChatGPTは「概念上の演習」であることを前提に38銘柄を選定。このリストをもとに、同社は等金額の仮想ファンドを組成し、Interactive Investor 上で最も人気のある投資信託10本とパフォーマンスを比較する継続実験を開始した。</p>
@@ -487,7 +467,7 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
+      <title>学術＆研究2025/12/14 [SUN]Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
       <link>https://ledge.ai/articles/google_ai_long_term_memory_titans_miras</link>
       <description><![CDATA[<p>Google Researchは2025年12月4日、AIモデルに長期的な記憶能力を持たせるための新たなアーキテクチャ「Titans」と、その設計思想を統一的に説明するフレームワーク「MIRAS」を<a href="https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/">発表</a>した。</p>
 <p>Transformerを中心とする既存の大規模言語モデルが抱えてきた「長い文脈を扱うほど計算コストが増大し、重要な情報を保持しにくい」という課題に対し、推論時に記憶を学習・更新するという新しいアプローチを提示している。</p>
