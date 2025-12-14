@@ -267,24 +267,6 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
       <pubDate>Tue, 09 Dec 2025 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ニューヨーク・タイムズ、Perplexity AIを著作権侵害で提訴──「ペイウォール内の記事をRAG化し、読者にリアルタイム無断配信」と批判</title>
-      <link>https://ledge.ai/articles/nyt_perplexity_ai_lawsuit</link>
-      <description><![CDATA[<p>ニューヨーク・タイムズ（The New York Times、NYT）は米国時間2025年12月5日、生成AI検索サービスを提供するPerplexity AIを著作権侵害などでニューヨーク南部地区連邦地方裁判所に提訴したと<a href="https://www.nytco.com/press/the-times-sues-perplexity-ai/">発表</a>した。NYTは、Perplexityが同社のニュース記事を無断でコピーし、許可や対価を支払うことなく利用者に提供していると主張している。</p>
-<h2>許可なくTimes記事をコピーし配信と主張</h2>
-<p>NYTは、Perplexityが提供する生成AI型検索サービスが、同社のジャーナリズムを「無断でコピーし、顧客へ届けている」と指摘。これまで複数回、同社に対して利用停止を求めてきたが、Perplexityは「不正な利用」を継続しているとして訴訟に踏み切った。</p>
-<p>NYTのスポークスパーソンである Graham James 氏 は声明で、Perplexityが Retrieval-Augmented Generation（RAG）を用いてTimes記事を取得し、ペイウォールの背後にあるコンテンツを含め「リアルタイムに顧客へ配信している」と説明した。James氏は「そのコンテンツにアクセスできるのは本来、NYTの有料購読者だけだ」と強調した。</p>
-<h2>訴状で指摘される具体的行為</h2>
-<p>訴状によると、PerplexityはNYTの記事を「逐語的（verbatim）またはほぼ逐語的（near-verbatim）」に再現するケースがあるとされ、これにより同社の記事がPerplexityの回答の代替物となり、購読やライセンス収入を侵害していると主張している。</p>
-<p>また、Perplexityが同社のロゴや記事タイトルを用いた回答を生成しつつ、内容の一部が不正確な「ハルシネーション」を含む例がある点にも言及。NYT側は、こうした表示が同社ブランドの信用を損ねる可能性を指摘している。</p>
-<p>訴因には、著作権侵害に加え、PerplexityがNYTの出所であるかのように誤認させる形で情報を提示するケースがあるとして、米Lanham法（商標法）に基づく虚偽表示に関する請求も含まれている。</p>
-<h2>NYT「責任あるAIは支持するが、無許諾利用は容認できない」</h2>
-<p>NYTは「倫理的かつ責任あるAIの利用・開発は支持する」とした上で、「PerplexityによるNYTコンテンツの無許諾利用には強く反対する」と強調。「私たちは今後も、自社の仕事の価値を認めようとしない企業に対し、責任を追及していく」と述べた。</p>
-<p>本稿執筆時点で、Perplexity AI側から本件訴訟に対する公式コメントは確認されていない。今後の訴訟手続きで、同社の主張や事実関係の整理が進む見通しだ。</p>
-<p>今回の提訴は、生成AI企業とメディア企業の間で広がる著作権をめぐる争いの一環として位置づけられる。NYTは2023年にもOpenAIとMicrosoftを提訴しており、AIによるコンテンツ利用をめぐる議論はさらに広がりを見せている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確化、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
       <link>https://ledge.ai/articles/agi_definition_stanford_gpt4_27_gpt5_60</link>
       <description><![CDATA[<p>スタンフォード大学やUCバークレー、MITなどの研究者を含む国際チームは、AIの到達度を測る新しい枠組みを提示した論文「A Definition of AGI」を<a href="https://arxiv.org/abs/2510.18212v3">公開</a>した。これまで曖昧だったAGI（汎用人工知能）の定義について、同チームは「教養ある成人（well-educated adult）の認知の幅と熟達度にマッチするAI」と明確化。加えて、人間の知能研究で広く使われるCHC（Cattell-Horn-Carroll）理論に基づき、10種類の認知ドメインでAIモデルを評価する「AGIスコア」を提案した。</p>
@@ -501,6 +483,49 @@ and factoryはサービス拡大に伴い、コスト最適化とシームレス
 <p>同社は、これらの結果について「industry leading」「unprecedented（前例のない）」と表現しており、深い推論が求められるベンチマークにおいて業界トップレベルの性能を示したと位置づけている。また、今回のGemini 3 Deep Thinkは、国際数学オリンピック（IMO）や国際大学対抗プログラミングコンテスト（ICPC）World Finalsで「gold-medal standard」とされる水準に達した「Gemini 2.5 Deep Think」の系譜にあると説明されている。</p>
 <h2>利用対象は「Google AI Ultra」加入者</h2>
 <p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
+      <link>https://ledge.ai/articles/google_ai_long_term_memory_titans_miras</link>
+      <description><![CDATA[<p>Google Researchは2025年12月4日、AIモデルに長期的な記憶能力を持たせるための新たなアーキテクチャ「Titans」と、その設計思想を統一的に説明するフレームワーク「MIRAS」を<a href="https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/">発表</a>した。</p>
+<p>Transformerを中心とする既存の大規模言語モデルが抱えてきた「長い文脈を扱うほど計算コストが増大し、重要な情報を保持しにくい」という課題に対し、推論時に記憶を学習・更新するという新しいアプローチを提示している。</p>
+<h2>Transformerの限界と「記憶」の再定義</h2>
+<p>TransformerはAttention機構によって高精度な依存関係のモデリングを可能にしてきた一方、計算量がコンテキスト長の二乗に比例するという制約を持つ。このため、極端に長い文書や時系列データを扱う際には効率面・性能面の両方で課題があった。</p>
+<p>Google Researchは、Attentionを「短期記憶」、それを補完する仕組みとして「長期記憶」を明確に分離して設計する必要があると位置づけた。</p>
+<h2>推論時に学習する「Titans」の中核</h2>
+<p>Titansの中心となるのは「Neural Long-Term Memory Module」と呼ばれる長期記憶モジュールだ。このモジュールは、再学習を行うことなく、推論時に入力を受け取りながら記憶を更新する。単なるキー・バリューキャッシュとは異なり、過去の情報をモデル内部のパラメータとして蓄積できる点が特徴だ。</p>
+<p><strong>■ Titansの全体構成：</strong> Attentionによる短期記憶に加え、推論時に更新されるNeural Memory（長期記憶）を統合。入力の重要度に応じて記憶を更新しつつ、固定パラメータとは独立して動作する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Titans_1_Overview_width_1250_e2f30e7bc8/Titans_1_Overview_width_1250_e2f30e7bc8.png" alt="Titans-1-Overview.width-1250.png" /></p>
+<p>Titansでは、長期記憶の統合方法として以下の3つの構成を提示している。</p>
+<ul>
+<li><strong>MAC（Memory as a Context）：</strong> 記憶を文脈としてAttentionに渡す方式</li>
+<li><strong>MAG（Memory as a Gate）：</strong> 記憶によってAttention出力を制御する方式</li>
+<li><strong>MAL（Memory as a Layer）：</strong> 記憶を独立したレイヤーとして組み込む方式</li>
+</ul>
+<p>特にMAC構成は、長距離依存関係を扱うタスクで高い性能を示したという。</p>
+<h2>「驚き」に基づく選択的記憶と忘却</h2>
+<p>Titansはすべての情報を無差別に記憶するのではなく、予測誤差が大きい、いわゆる「驚き（surprise）」の高いトークンを優先的に長期記憶へ反映する設計を採用している。
+また、weight decayやモメンタムを用いた更新により、不要になった情報を忘却できる仕組みも備える。これにより、従来の線形RNNやゲート型モデルでは難しかった「完全な記憶の消去」も可能になるという。</p>
+<h2>2Mトークン超でも性能を維持</h2>
+<p>論文では、言語モデリング、常識推論、needle-in-a-haystackタスク、DNA解析、時系列予測など幅広いベンチマークで評価を実施。BABILongやRULERといった長文タスクでは、GPT-4やRAGを併用した大規模モデルを含む既存手法を上回る結果を示した。
+有効なコンテキスト長は200万トークンを超えても性能が維持されることが確認されている。</p>
+<h2>設計理論「MIRAS」が示す統一的枠組み</h2>
+<p>MIRASは、Titansを含むさまざまなシーケンスモデルを「連想記憶システム」として捉え直すためのフレームワークだ。</p>
+<p>設計要素を</p>
+<ol>
+<li>記憶構造</li>
+<li>想起のための目的関数（attentional bias）</li>
+<li>保持・忘却を制御するゲート</li>
+<li>記憶の学習アルゴリズム</li>
+</ol>
+<p>の4点に整理し、Transformerや線形RNN、Titansを同一の理論枠組みで説明できるとしている。</p>
+<p><strong>■ MIRASフレームワークの概念図：</strong> 記憶構造、想起基準（attentional bias）、保持・忘却（retention gate）、学習アルゴリズムの4要素で、TitansやTransformerを含むシーケンスモデルを統一的に説明する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/miras_framework_47bb139255/miras_framework_47bb139255.jpg" alt="miras framework.jpg" /></p>
+<p>MIRASを基に、Moneta、Yaad、Memoraといった新たなモデル群も提案されており、タスク特性に応じた記憶設計の可能性が示された。</p>
+<h2>推論時学習という新たな方向性</h2>
+<p>Google Researchは、TitansをMIRASフレームワークの具体例の一つと位置づけている。外部検索に依存するRAGや、巨大な固定コンテキストを用意する方法とは異なり、「推論時に学習する記憶」を内包したAI設計が、今後の長文・長期推論の重要な方向性となる可能性を示した形だ。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
