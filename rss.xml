@@ -50,59 +50,6 @@
       <pubDate>Thu, 11 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon、次世代LLM「Amazon Nova 2」発表　「思考」するProやマルチモーダルなど4モデル、独自フロンティアモデル構築「Nova Forge」Bedrockで提供開始</title>
-      <link>https://ledge.ai/articles/amazon_nova_2_launch_four_models</link>
-      <description><![CDATA[<p>Amazon Web Services（AWS）は2025年12月3日（現地時間）、米ラスベガスで開催中の年次開発者会議「AWS re:Invent 2025」において、次世代の大規模言語モデル（LLM）ファミリー「Amazon Nova 2」を<a href="https://www.aboutamazon.com/news/aws/aws-agentic-ai-amazon-bedrock-nova-models">発表</a>した。企業が自社専用のフロンティアモデルを構築できる新サービス「Nova Forge」や、ブラウザ操作を自動化する「Nova Act」もあわせて公開された。</p>
-<p>同社が展開する生成AIサービス「Amazon Bedrock」を通じて、即日提供が開始されている。</p>
-<h2>推論能力とコスト効率を大幅に強化</h2>
-<p>「Amazon Nova 2」は、前世代モデルと比較して推論能力、処理速度、コストパフォーマンスのすべてにおいて大幅な進化を遂げている。特に、複雑なタスクを自律的に遂行する「AIエージェント」としての利用を想定し、文脈理解能力や論理的思考能力が強化された点が特徴だ。</p>
-<p>今回発表されたラインナップは、用途に合わせて最適化された以下の4つのモデルで構成されている。</p>
-<ul>
-<li><strong>Amazon Nova 2 Pro</strong>  高度な推論（Reasoning）能力に特化した主力モデル。数学、コーディング、複雑な論理的推論において高い性能を発揮する。「思考プロセス」を強化しており、難解な指示に対しても正確な回答を生成可能だ。</li>
-<li><strong>Amazon Nova 2 Lite</strong>  応答速度とコスト効率を最優先した軽量モデル。リアルタイム性が求められるチャットボットや、大量の文書要約・データ処理タスクに適しており、軽快な動作が特徴である。</li>
-<li><strong>Amazon Nova 2 Omni</strong>  テキスト、画像、音声、ビデオをネイティブに理解・生成できるマルチモーダルモデル。従来のモデルのようにデータをテキストに変換する工程を経ず、複数の異なる入力情報を同時に、かつシームレスに処理することができる。</li>
-<li><strong>Amazon Nova 2 Sonic</strong>  音声対話に特化したモデル。極めて低い遅延（ローレイテンシー）での音声入力・出力が可能で、人間と話しているかのような自然なリアルタイム対話を実現する。</li>
-</ul>
-<h2>ベンチマークでは「同等またはそれ以上」と説明</h2>
-<p>Amazon は、Nova 2 Pro とNova 2 Lite について、Claude、GPT、Gemini 系列の競合モデルと公開ベンチマークで比較し、多くの指標で「equal or better（同等またはそれ以上）」と説明した。対象となったのは、マルチドキュメント分析、動画推論、複雑な指示のフォロー、高度な数学的推論、ソフトウェアエージェントタスクなど。また、Pro はより小型モデルへの知識蒸留にも利用できるとしている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nova2_pro_lite_bench_3863cb81b0/nova2_pro_lite_bench_3863cb81b0.jpg" alt="nova2 pro lite bench.jpg" /></p>
-<h2>企業が自社専用モデルを構築できる「Nova Forge」</h2>
-<p>同日発表された Nova Forge は、企業が自社データを使って Nova ベースの独自フロンティアモデル「Novellas」を構築できる「open training」アプローチを採用したサービス。事前学習・中間学習・事後学習の各段階における Nova のチェックポイントを使い、企業固有のドメイン知識を深く反映したモデルを構築できるとしている。</p>
-<p>Reinforcement Learning（RL）による強化学習環境、責任ある AI のためのツールキット、小型高速モデル生成のための蒸留機能なども提供される。Booking.com、Reddit、Sony などが活用を進めている事例として紹介された。</p>
-<h2>ブラウザ操作を自動化する「Nova Act」</h2>
-<p>もう一つの新サービス Nova Act は、ブラウザ UI 上の操作をエージェントが代行するためのサービスだ。数百のシミュレーション環境で強化学習を行い、CRM 更新や E2E テスト、保険請求フォームの送信などの UI ワークフローを自動化する。早期導入企業では約90％の成功率を達成したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_c39392cc36/1_c39392cc36.gif" alt="ダウンロード (1).gif" /></p>
-<h2>Bedrock で提供、開発者向けポータルも公開</h2>
-<p>Nova 2 の各モデルは Amazon Bedrock で利用可能となり、API 経由でアプリケーションへの統合が行える。Nova Forge で構築した企業専用モデル「Novellas」も同様に Bedrock 上で運用できる。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Helical Fusionとアオキスーパー、日本初のフュージョンエネルギー電力売買契約を締結──ヘリカル型核融合炉「Helix Program」で究極の脱炭素社会を目指す</title>
-      <link>https://ledge.ai/articles/helical_fusion_aoki_fusion_power_purchase_agreement</link>
-      <description><![CDATA[<p>Helical Fusion（東京都中央区）と、愛知県を中心に食品スーパーを展開するアオキスーパーは2025年12月8日、フュージョン（核融合）エネルギーによる電力の売買契約を締結したと<a href="https://prtimes.jp/main/html/rd/p/000000050.000089262.html">発表</a>した。両社によると、フュージョンエネルギーによる電力売買契約としては、国内初（Helical Fusion調べ）だという。</p>
-<p>Helical Fusionが推進するヘリカル型核融合炉の開発計画「Helix Program」に基づき、将来建設される核融合発電所からの電力供給を前提とする取り組みで、次世代クリーンエネルギーの社会実装を見据えた重要な一歩と位置づけられている。</p>
-<p>アオキスーパーは、冷蔵・冷凍設備など多くの電力を必要とする業態特性からエネルギー消費量の削減が課題となっていたほか、温暖化による農産物の栽培適地の変化や漁業資源への影響など、気候変動が事業に与えるリスクを問題視していた。同社は2025年7月、持続可能な社会への貢献を目的にHelical Fusionへ出資しており、今回の契約はその関係を踏まえた「需要家としての参画」となる。</p>
-<p>Helical Fusionは、大学共同利用機関法人 自然科学研究機構 核融合科学研究所の研究成果を基盤に、2021年に設立された日本発の核融合スタートアップ。日本独自の「ヘリカル方式」に基づく核融合炉は、約70年にわたる研究開発の結果、商用炉として必要とされる定常運転・正味発電・メンテナンス性の確保に適した方式として位置づけられている。</p>
-<p>同社が推進する「Helix Program」では、2020年代中に高温超伝導マグネットやブランケット兼ダイバータといった要素技術の個別実証を完了し、2030年代中に最終実証装置「Helix HARUKA」で統合実証を行い、その後、発電初号機「Helix KANATA」による世界初の実用発電の達成を目指すとしている。</p>
-<p><strong>Helical Fusionが2030年代に「実用発電」を計画する発電初号機「Helix KANATA」のイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551.webp" alt="89262-50-4ecca09204adfd851cfb9db7db0e217d-2940x1650.webp" /></p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NEC、警察・消防の指令室を支援する次世代AI技術を開発──独自のAgentic AIで状況把握から行動提案まで自動化</title>
-      <link>https://ledge.ai/articles/necs_agentic_ai_emergency_command_support</link>
-      <description><![CDATA[<p>NECは2025年12月2日、警察・消防などの緊急通報を受ける指令室業務を高度化する次世代支援技術を開発したと<a href="https://jpn.nec.com/press/202512/20251202_03.html">発表</a>した。独自のAgentic AIを核とし、通話内容の理解、状況分析、行動提案までを一連で支援することで、オペレーターの負担軽減と業務精度の向上を図る。同技術はマルチ言語に対応し、2026年度中の国内外での活用を見込む。</p>
-<p>発表によると、指令室での緊急通報対応は高い専門性が求められ、通報者の説明が曖昧になりやすいなど状況把握が難しいケースも多い。NECはこうした課題に対し、リアルタイム解析で重要情報を抽出し、次にとるべき行動を提案する仕組みを導入することで、迅速かつ正確な判断を支援する。</p>
-<p>新技術では、複雑な会話でも誤情報の混入や途中の状況変化を踏まえて正確に把握できる点が特徴だという。NEC独自のAgentic AIが「会話分析」「情報管理」「行動提案」など複数の専門AIを連携させ、多角的に文脈を解釈。熟練オペレーターに近い安定した精度での応対を実現する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0203_03_d844de8bb6/0203_03_d844de8bb6.jpg" alt="0203-03.jpg" /></p>
-<p>また、説明可能なAI（Explainable AI）を搭載し、AIが提示した判断根拠を確認できる点も特徴とされる。人命に関わる現場での信頼性を確保し、オペレーターが適切な判断を行うための支援を行う。さらに、EUのAI規制法を含む国際基準にも適応できるアーキテクチャを採用し、英語を含むマルチ言語に対応するなど、グローバル展開も可能としている。</p>
-<p>高い汎用性も強みで、Agentic AIを役割ごとに分割した構造により、業務要件に応じたチューニングを低コストかつ短期間で実施可能。警察・消防の指令室業務にとどまらず、企業のコンタクトセンターなど幅広い業務への適用を想定している。</p>
-]]></description>
-      <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【AI歴史年表】AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
       <link>https://ledge.ai/articles/70year_history_of_ai_from_the_dartmouth_conference</link>
       <description><![CDATA[<p>:::button
@@ -194,7 +141,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
 :::</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Adobe、ChatGPTでPhotoshop・Express・Acrobatを提供開始──対話だけで画像編集やPDF作業が可能に</title>
@@ -217,7 +164,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>Adobeは本取り組みを、同社が進めるエージェント型AI戦略の一環と位置付けている。Model Context Protocol（MCP）を活用し、ユーザーの意図を理解した上で適切な操作を実行する対話型体験の拡張を進めてきた。2025年には「Acrobat AI Assistant」や「Photoshop AI Assistant」なども発表しており、今回のChatGPT連携はその延長線上にある。</p>
 <p>Adobeのデジタルメディア事業部門プレジデントを務めるデイビッド・ワドワーニ氏は、「世界中のChatGPTユーザーに、PhotoshopやAcrobat、Expressの機能を直接届けられることをうれしく思う。人々が自分の言葉だけで、簡単にアイデアを形にできるようになる」とコメントしている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確化、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
@@ -279,7 +226,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 </ul>
 <p>研究チームは、これらの領域が改善すれば、AGIスコアが急速に伸びる可能性があるとしている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、AIエージェント標準「MCP」をLinux Foundation傘下へ移管──Agentic AIの共通基盤化へ</title>
@@ -293,7 +240,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aaif_social_media_image_e440cd3697/aaif_social_media_image_e440cd3697.webp" alt="aaif_social media image.webp" /></p>
 <p>AIエージェントを巡っては、各社が独自の実装やフレームワークを競う一方で、相互運用性やベンダーロックインへの懸念も指摘されてきた。Anthropicが自社主導で開発してきたMCPをLinux Foundation傘下へ移管したことは、競争領域と共通基盤を切り分け、エコシステム全体の拡大を優先する姿勢を示す動きといえる。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「心の中の声」をAIが文字に変換　米研究チーム、脳活動から直接文章を生成する新技術「BIT (BraIn-to-Text)」発表</title>
@@ -342,7 +289,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>BITで用いられたNeural Encoderは、サルを含む多様な神経活動から学習されている。論文では、近年さまざまな分野で「foundation models」と呼ばれる大規模事前学習モデルが提案されていることを紹介し、こうした方向性がBCIの性能向上にも有効である可能性を挙げている。</p>
 <p>研究チームは、今後の課題として、電極の非定常性への適応、長期的な記録の安定性、インターフェースの効率化などを明確にし、改善を重ねることで「ユーザーとシステムが互いに適応しながら利用可能な、より柔軟なBCIの開発につながる」とまとめている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPTが選んだ38銘柄ファンド、2年半で+66.1%に──英国人気投信10本の平均+41.36%を引き離す</title>
@@ -354,7 +301,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>Finderは同実験について「ChatGPTは2021年までの訓練データを持つ言語モデルであり、リアルタイム市場データに基づく投資判断を行っているわけではない」と明記。ChatGPTの回答が投資助言に該当するものではないこと、またこのファンド自体は実在せず、あくまでAIの応答を可視化する概念実験である点を繰り返し注意喚起している。</p>
 <p>同社は、実験の目的を「AIが人間のファンドマネージャーと比較してどのようなポートフォリオを組むかを検証すること」と説明。今回の結果は、2年半の長期観測においても、ChatGPTが選んだポートフォリオが英国の人気投信平均を継続して上回り続けていることを示すものとなった。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ディズニーとOpenAI、生成AIに公式キャラクターを解禁──「Sora」でミッキーやスター・ウォーズの動画生成が可能に</title>
@@ -382,7 +329,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>ディズニーとOpenAIの契約は、生成AIによるキャラクター表現をめぐり、公式ライセンスの枠組みを示した事例となった。非公式利用や訴訟リスクが先行してきた分野において、権利者とAI開発企業が協調する形での活用モデルが提示された格好だ。</p>
 <p>両社は今後も、著作権やブランド保護を前提としたAI活用を進めるとしており、生成AIがエンターテインメント制作や体験の在り方にどのような変化をもたらすのか、引き続き注目される。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アシモフもびっくり？ 中国EngineAI、人型ロボット「T800」がCEOを蹴り倒す映像公開──CG疑惑を巡り“体を張った実演”</title>
@@ -397,7 +344,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>人型ロボットが人間に危害を加える映像は、SF作家アイザック・アシモフが提唱した「ロボット工学三原則」で描かれてきた理想像とは対照的だ。三原則では、ロボットは人間に危害を加えてはならないとされてきた。一方、現実のロボット開発では、技術の実在性や性能を示すために、こうした象徴的な実演が行われるケースが現れた。</p>
 <p>技術的な進歩と同時に、安全性や検証方法、情報公開のあり方が問われる人型ロボット。一連の映像は、ロボット技術の進化とともに、社会がどのようにその信頼性を評価していくのかという課題を浮き彫りにしている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
@@ -432,7 +379,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>今後の課題としては、複数ユーザー同時視聴への拡張、消費電力の最適化、さらなる高速化などが挙げられる。
 研究チームは、本方式が「裸眼3Dディスプレイの物理的限界をAIで超える新しい方向性を提示した」としている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
@@ -451,7 +398,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <h2>利用対象は「Google AI Ultra」加入者</h2>
 <p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/12/14 [SUN]Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
@@ -494,7 +441,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <h2>推論時学習という新たな方向性</h2>
 <p>Google Researchは、TitansをMIRASフレームワークの具体例の一つと位置づけている。外部検索に依存するRAGや、巨大な固定コンテキストを用意する方法とは異なり、「推論時に学習する記憶」を内包したAI設計が、今後の長文・長期推論の重要な方向性となる可能性を示した形だ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/12/12 [FRI]ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
@@ -527,7 +474,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>安全性面では、GPT-5系で用いられてきた既存の安全性フレームワークを引き継ぎつつ、GPT-5.2向けに調整した新版のシステムカードが公開されている。リスク緩和策や評価項目の更新が行われたとしている。</p>
 <p>OpenAIはGPT-5.2を「GPT-5シリーズの中心モデル」と位置づけ、今後のChatGPTおよびAPIの基盤として、継続的な改善を進めていく方針だ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NTT、次世代都市構想「光の街」始動──IOWNを都市に実装し、本社を2031年に日比谷へ移転</title>
@@ -559,56 +506,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <h2>今後の展開</h2>
 <p>内幸町一丁目街区は、官民連携や研究機関との共創が可能な次世代スマートシティへと整備が進む。NTT日比谷タワーで得られた知見は、周辺エリア、国内、さらには海外へと段階的に展開される予定だ。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アルトマン氏「エロティックばかり注目されたけど」──ChatGPT、成人ユーザーの自由拡大へ</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_adult_mode_update_oct2025</link>
-      <description><![CDATA[<p>OpenAIのサム・アルトマンCEOは10月14日（現地時間）、X（旧Twitter）上で、ChatGPTの安全制限を一部緩和し、成人認証済みユーザーに対してエロティックな会話を許可する方針を<a href="https://x.com/sama/status/1978129344598827128">発表</a>
-した。</p>
-<p>投稿は瞬く間に注目を集め、「エロティック解禁」が大きな話題となったが、アルトマン氏は翌日に「その部分ばかり注目されてしまったが」と<a href="https://x.com/sama/status/1978539332215681076">補足</a>し、実際には“より人間らしいAI体験”を実現するための包括的な方針変更であることを強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gpt5_erotica_7cea863241/gpt5_erotica_7cea863241.jpg" alt="gpt5 erotica.jpg" /></p>
-<h2>安全を優先してきたChatGPTの制限</h2>
-<p>ChatGPTはこれまで、性的表現や親密な会話を含むコンテンツを厳しく制限してきた。
-アルトマン氏は「メンタルヘルス問題に慎重を期すためだった」と説明し、精神的に不安定なユーザーに配慮した措置であったと振り返った。
-「深刻な危機状態にあるユーザーは別扱いとし、他者に害を与える行為は依然として許可しない」と述べ、ポリシーの根幹は維持されるとしたうえで、「リスクのない成人ユーザーにはより多くの自由を与える」と明言した。</p>
-<h2>“4oらしさ”を再導入──人間的なAI体験へ</h2>
-<p>アルトマン氏は同日、「数週間以内に“4oで好まれた振る舞い”に近い人格（パーソナリティ）を選べる新バージョンのChatGPTを提供する」と投稿した。
-GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデルであり、今後はユーザーが望む場合に、フレンドリーな口調や絵文字を多用した“人間らしい”対話スタイルを選べるようになる。
-アルトマン氏は「これは利用時間を増やすためではなく、ユーザーが自分の望む形でAIと関わる自由を得るための設計だ」と述べている。</p>
-<h2>「成人は大人として扱う」──12月に年齢認証を本格導入</h2>
-<p>アルトマン氏は、12月に年齢認証を本格導入し、認証済み成人ユーザーに対してはエロティック会話なども許可する方針を示した。
-一方で、ティーンエイジャーに対しては「安全をプライバシーや自由より優先する」と述べ、メンタルヘルス関連ポリシーは緩めないと強調している。</p>
-<p>アルトマン氏は、「社会がR指定映画で境界を設けるように、AIにも適切な年齢境界を設けたい」と例え、「我々は選挙で選ばれた道徳警察ではない」と付け加えた。</p>
-<h2>倫理と自由の境界線</h2>
-<p>アルトマン氏の発言は、AIにどこまで人間的な自由を与えるかという議論を再燃させた。</p>
-<p>OpenAIは今後、成人向け表現やAIの人格設計に関するガイドラインをさらに明確化するとみられる。今回の方針転換は、「AIをどう設計し、どう育てるか」という人間社会全体のテーマに踏み込む第一歩となりそうだ。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
-      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
-      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
-<h2>モデルマージと「Chat Vector」で性能を強化</h2>
-<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
-<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
-<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
-<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
-<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
-<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
-<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
-<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
-<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
-<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
-<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
-<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
-<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
-]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>サム・アルトマン、OpenAI設立10年を回顧するブログ「Ten years」公開──「想像以上の成果」とAGIへの使命を語る</title>
@@ -622,7 +520,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>ブログではまた、OpenAIの中核的な使命である「AGIを全人類の利益になるよう実現する」という目標が改めて強調された。アルトマン氏は、技術的な前進だけでなく、その影響力の大きさを踏まえた慎重さと責任が不可欠であるとの認識を示している。</p>
 <p>「Ten years」は、具体的な製品計画や数値目標に踏み込む内容ではなく、これまでの歩みと今後の方向性を整理する回顧録的な位置づけとなっている。アルトマン氏は、次の10年がOpenAIにとって、そしてAI全体にとって、さらに重要な期間になるとの考えをにじませている。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>米TIME誌、「Person of the Year 2025」に「The Architects of AI」──世界を動かした8人の“AI設計者たち”</title>
@@ -663,7 +561,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>:::box
 [関連記事：AIの\</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
@@ -685,7 +583,7 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
 <p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google傘下Waymoのロボタクシー、停車中のスクールバス追い越しに関する安全違反で規制当局（NHTSA）調査―—自動運転システムのソフトウェアを自主リコール</title>
@@ -698,7 +596,56 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <p>NHTSAによると、今回の件は予備評価（Preliminary Evaluation）の対象となっており、Waymoは指定された期限までに、問題が発生した具体的な事例数、影響を受けた車両、ソフトウェア修正の内容や実施状況などについて説明する必要がある。調査は継続中で、当局は提出された情報をもとに、追加対応の必要性を判断する。</p>
 <p>Waymoは、ロボタクシーの安全性を最優先事項として掲げており、規制当局と連携しながらソフトウェアの改善を進めるとしている。今回のリコールは強制措置ではなく、Waymo側の判断による自主的な対応だという。</p>
 ]]></description>
-      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Helical Fusionとアオキスーパー、日本初のフュージョンエネルギー電力売買契約を締結──ヘリカル型核融合炉「Helix Program」で究極の脱炭素社会を目指す</title>
+      <link>https://ledge.ai/articles/helical_fusion_aoki_fusion_power_purchase_agreement</link>
+      <description><![CDATA[<p>Helical Fusion（東京都中央区）と、愛知県を中心に食品スーパーを展開するアオキスーパーは2025年12月8日、フュージョン（核融合）エネルギーによる電力の売買契約を締結したと<a href="https://prtimes.jp/main/html/rd/p/000000050.000089262.html">発表</a>した。両社によると、フュージョンエネルギーによる電力売買契約としては、国内初（Helical Fusion調べ）だという。</p>
+<p>Helical Fusionが推進するヘリカル型核融合炉の開発計画「Helix Program」に基づき、将来建設される核融合発電所からの電力供給を前提とする取り組みで、次世代クリーンエネルギーの社会実装を見据えた重要な一歩と位置づけられている。</p>
+<p>アオキスーパーは、冷蔵・冷凍設備など多くの電力を必要とする業態特性からエネルギー消費量の削減が課題となっていたほか、温暖化による農産物の栽培適地の変化や漁業資源への影響など、気候変動が事業に与えるリスクを問題視していた。同社は2025年7月、持続可能な社会への貢献を目的にHelical Fusionへ出資しており、今回の契約はその関係を踏まえた「需要家としての参画」となる。</p>
+<p>Helical Fusionは、大学共同利用機関法人 自然科学研究機構 核融合科学研究所の研究成果を基盤に、2021年に設立された日本発の核融合スタートアップ。日本独自の「ヘリカル方式」に基づく核融合炉は、約70年にわたる研究開発の結果、商用炉として必要とされる定常運転・正味発電・メンテナンス性の確保に適した方式として位置づけられている。</p>
+<p>同社が推進する「Helix Program」では、2020年代中に高温超伝導マグネットやブランケット兼ダイバータといった要素技術の個別実証を完了し、2030年代中に最終実証装置「Helix HARUKA」で統合実証を行い、その後、発電初号機「Helix KANATA」による世界初の実用発電の達成を目指すとしている。</p>
+<p><strong>Helical Fusionが2030年代に「実用発電」を計画する発電初号機「Helix KANATA」のイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551/89262_50_4ecca09204adfd851cfb9db7db0e217d_2940x1650_5c7ddf1551.webp" alt="89262-50-4ecca09204adfd851cfb9db7db0e217d-2940x1650.webp" /></p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
+      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
+      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
+<h2>モデルマージと「Chat Vector」で性能を強化</h2>
+<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
+<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
+<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
+<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
+<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
+<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
+<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
+<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
+<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
+<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
+<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
+<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
+<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
+]]></description>
+      <pubDate>Wed, 10 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEC、警察・消防の指令室を支援する次世代AI技術を開発──独自のAgentic AIで状況把握から行動提案まで自動化</title>
+      <link>https://ledge.ai/articles/necs_agentic_ai_emergency_command_support</link>
+      <description><![CDATA[<p>NECは2025年12月2日、警察・消防などの緊急通報を受ける指令室業務を高度化する次世代支援技術を開発したと<a href="https://jpn.nec.com/press/202512/20251202_03.html">発表</a>した。独自のAgentic AIを核とし、通話内容の理解、状況分析、行動提案までを一連で支援することで、オペレーターの負担軽減と業務精度の向上を図る。同技術はマルチ言語に対応し、2026年度中の国内外での活用を見込む。</p>
+<p>発表によると、指令室での緊急通報対応は高い専門性が求められ、通報者の説明が曖昧になりやすいなど状況把握が難しいケースも多い。NECはこうした課題に対し、リアルタイム解析で重要情報を抽出し、次にとるべき行動を提案する仕組みを導入することで、迅速かつ正確な判断を支援する。</p>
+<p>新技術では、複雑な会話でも誤情報の混入や途中の状況変化を踏まえて正確に把握できる点が特徴だという。NEC独自のAgentic AIが「会話分析」「情報管理」「行動提案」など複数の専門AIを連携させ、多角的に文脈を解釈。熟練オペレーターに近い安定した精度での応対を実現する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0203_03_d844de8bb6/0203_03_d844de8bb6.jpg" alt="0203-03.jpg" /></p>
+<p>また、説明可能なAI（Explainable AI）を搭載し、AIが提示した判断根拠を確認できる点も特徴とされる。人命に関わる現場での信頼性を確保し、オペレーターが適切な判断を行うための支援を行う。さらに、EUのAI規制法を含む国際基準にも適応できるアーキテクチャを採用し、英語を含むマルチ言語に対応するなど、グローバル展開も可能としている。</p>
+<p>高い汎用性も強みで、Agentic AIを役割ごとに分割した構造により、業務要件に応じたチューニングを低コストかつ短期間で実施可能。警察・消防の指令室業務にとどまらず、企業のコンタクトセンターなど幅広い業務への適用を想定している。</p>
+]]></description>
+      <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
