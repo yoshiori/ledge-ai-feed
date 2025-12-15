@@ -132,20 +132,6 @@ Analysis（分析）：インタビュー記録をもとに、Claude が初期�
       <pubDate>Tue, 09 Dec 2025 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、メタバース投資を大幅縮小　Reality Labsの予算を最大3割カットしAIウェアラブルへ集中</title>
-      <link>https://ledge.ai/articles/meta_metaverse_budget_cut_ai_wearables_shift</link>
-      <description><![CDATA[<p>Metaが2026年度に向け、メタバース関連事業の予算を大幅に削減し、AIを活用したウェアラブル端末へ投資を振り向ける方針であることが分かった。2025年12月4日に<a href="https://www.bloomberg.com/news/articles/2025-12-04/meta-s-zuckerberg-plans-deep-cuts-for-metaverse-efforts">Bloomberg</a>をはじめとする複数の主要メディアが、同社内部の協議内容に詳しい関係者の話として報じている。こうした削減案は現時点では協議段階であり、最終決定には至っていないとされる。Metaは報道に対しコメントを控えている。</p>
-<h2>Reality Labsの予算を最大30％削減する案を協議</h2>
-<p>報道によると、Metaはメタバース領域を担うReality Labs部門の年間予算について、最大30％の削減案を検討しているという。2026年度の予算編成をめぐって幹部らが協議を進めており、削減幅によっては2026年1月にもレイオフが行われる可能性が指摘されている。</p>
-<p>Reality Labsは、VRヘッドセット「Quest」シリーズや仮想空間サービス「Horizon Worlds」、ARデバイス開発などを担当しており、2021年以降の累計損失は700億ドル超に達しているとされる。多額の投資が続くReality Labsの採算性は、以前から投資家の懸念材料であったと報じられてきた。</p>
-<h2>投資をAIウェアラブルへ再配分する方針</h2>
-<p>複数メディアの報道では、Metaがメタバース関連プロジェクトへの支出を絞り込む一方、AIを活用したウェアラブル端末を重点領域に据える方針を示している点で一致している。Ray-Banと共同開発する「Ray-Ban Meta」などのAIグラスや、音声・視覚認識を活用する新型AIデバイスが今後の中核になると報じられている。</p>
-<p>Metaは2025年にAI研究組織「Superintelligence」部門を設立するなど、AI研究体制を強化している。生成AIモデルの高度化やAI人材獲得競争が進む中、AIとハードウェアの融合領域にリソースを集中させる狙いがあるとみられる。</p>
-<p>報道後、Meta株は上昇しており、Reality Labsへの巨額投資を抑え、AI関連分野に集中する方向性を投資家が好感したとの見方も伝えられている。</p>
-]]></description>
-      <pubDate>Tue, 09 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
       <link>https://ledge.ai/articles/70year_history_of_ai_from_the_dartmouth_conference</link>
       <description><![CDATA[<p>:::button
@@ -713,6 +699,19 @@ GPT-4oは会話の自然さや表情豊かな応答で人気を集めたモデ�
 <h2>2030年の完全自動運転の商用化を見据える</h2>
 <p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
 <p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google傘下Waymoのロボタクシー、停車中のスクールバス追い越しに関する安全違反で規制当局（NHTSA）調査―—自動運転システムのソフトウェアを自主リコール</title>
+      <link>https://ledge.ai/articles/waymo_robotaxi_school_bus_software_recall</link>
+      <description><![CDATA[<p>Google傘下で自動運転事業を手がけるWaymoのロボタクシーが、停車中のスクールバスを追い越す際に交通安全法規を順守していなかったとして、米運輸省道路交通安全局（NHTSA：The National Highway Traffic Safety Administration）が<a href="https://static.nhtsa.gov/odi/inv/2025/INIM-PE25013-30896.pdf">調査</a>を実施している。これは、2025年12月6日の<a href="https://www.reuters.com/world/waymo-issue-recall-over-self-driving-vehicles-driving-past-stopped-school-buses-2025-12-05/">Reuters</a>などの報道から明らかになった。Waymoは問題となった挙動を認め、対象となる自動運転システムのソフトウェアを自主的にリコールするという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_reuters_2aa02403a1/waymo_reuters_2aa02403a1.jpg" alt="waymo reuters.jpg" /></p>
+<p>NHTSAの調査は、スクールバスの赤色灯や停止アームが作動している状況下で、Waymoのロボタクシーが本来停止すべき場面でも走行を継続したとされる事例を受けて行われている。調査を担当する同局の欠陥調査局（ODI）は、こうした挙動が各州の交通安全法規に抵触する可能性があるとして、Waymoに対して詳細な情報提供を求めている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nhtsa_waymo_odi_ade67f60cb/nhtsa_waymo_odi_ade67f60cb.jpg" alt="nhtsa waymo odi.jpg" /></p>
+<p>調査の過程でWaymoは、特定の条件下において自動運転ソフトウェアがスクールバス周辺の交通ルールを適切に反映できていなかったことを認めた。これを受け、同社は車両の機械的な欠陥ではなく、制御ソフトウェアの問題として是正措置を講じる方針を示し、ソフトウェア更新をリコールとして届け出る対応を取った。</p>
+<p>NHTSAによると、今回の件は予備評価（Preliminary Evaluation）の対象となっており、Waymoは指定された期限までに、問題が発生した具体的な事例数、影響を受けた車両、ソフトウェア修正の内容や実施状況などについて説明する必要がある。調査は継続中で、当局は提出された情報をもとに、追加対応の必要性を判断する。</p>
+<p>Waymoは、ロボタクシーの安全性を最優先事項として掲げており、規制当局と連携しながらソフトウェアの改善を進めるとしている。今回のリコールは強制措置ではなく、Waymo側の判断による自主的な対応だという。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
