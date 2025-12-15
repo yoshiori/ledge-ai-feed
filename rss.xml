@@ -103,35 +103,6 @@
       <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、LLMが10～15分の自動インタビューを実施する新ツール「Anthropic Interviewer」を公開──1,250人調査データも公開、Hugging Faceでトレンド1位に</title>
-      <link>https://ledge.ai/articles/anthropic_interviewer_release_adaptive_interview_tool</link>
-      <description><![CDATA[<p>Anthropic は米国時間2025年12月4日、LLM「Claude」を用いた新しい調査ツール「Anthropic Interviewer」を<a href="https://www.anthropic.com/news/anthropic-interviewer">発表</a>した。ユーザーに対して10〜15分のその場の回答に合わせて質問を自動調整するインタビューを行い、AIが生活や仕事にどのように影響しているかを体系的に収集する仕組みだ。同社は1,250人の職業人に対して実施した初期調査の結果をデータセットとして<a href="https://huggingface.co/datasets/Anthropic/AnthropicInterviewer">公開</a>し、Hugging Face の「Trending Datasets」で1位になるなど反響が広がっている。</p>
-<p><strong>Hugging Face CEO のClement Delangue氏が、「Anthropic Interviewer」のデータセットがTrending Datasets 1位になったと報告したX投稿</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Clement_Delangue_X_anthropicinterviewer_10fd09c46a/Clement_Delangue_X_anthropicinterviewer_10fd09c46a.jpg" alt="ClementDelangue X anthropicinterviewer.jpg" /></p>
-<p>Anthropic Interviewer は、Claude をベースにした自動インタビューツールで、研究目的のフィードバック収集を大規模に行うために設計された。ユーザーが Claude.ai にアクセスすると、画面にポップアップ形式でインタビューが表示され、AI が順に質問を行う。所要時間は10〜15分で、声による入力にも対応している。</p>
-<p><strong>「Anthropic Interviewer」のインタビュー画面。ユーザーの体験談や価値観を10〜15分で聞き取る</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aiinterviewer_601e88e925/aiinterviewer_601e88e925.jpg" alt="aiinterviewer.jpg" /></p>
-<h2>1,250人を対象にした初期調査を公開</h2>
-<p>Anthropic は、Interview­erを用いて 1,000人の一般ワーカー、125人のクリエイター、125人の科学者 に調査を実施した。その結果、参加者の多くが「AIは時間を節約してくれる」「業務の補助として役立つ」と回答しており、AIとの付き合い方に対する実態が可視化されつつある。同社はこの調査データをデータセットとして公開し、外部研究者による分析も可能にした。</p>
-<p><strong>ユーザーがAIをどのように活用しているかを示す分析結果。業務補助（Augmentation）が多くを占め、完全な自動化（Automation）は限定的だった</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/percentage_of_conversations_8ad0fc498a/percentage_of_conversations_8ad0fc498a.jpg" alt="percentage of conversations.jpg" /></p>
-<p>調査結果は、AI活用に関する数多くのテーマを分類し、ユーザーがどの領域で期待や懸念を抱いているかを可視化している。たとえば、ビジネス最適化やプロジェクトワークフローでは「楽観的」な回答が多い一方、データプライバシーやシステムトラブルでは慎重な意見もみられた。</p>
-<p><strong>1,250人の回答をテーマ別にクラスタリングした可視化。黄色が「楽観的」、青が「懐疑的」な傾向を示す</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pessimistic_or_optimistc_13e69ad2bc/pessimistic_or_optimistc_13e69ad2bc.jpg" alt="pessimistic or optimistc.jpg" /></p>
-<h2>Anthropic Interviewerの仕組み：Planning／Interviewing／Analysis</h2>
-<p>Anthropic Interviewer のワークフローは以下の3段階で説明されている。
-Planning（計画）：Claude が研究目的に沿ったインタビュールーブリックを生成し、人間の研究者がそれを校正する
-Interviewing（実施）：Claude がユーザーへリアルタイムで質問を投げかけ、内容に応じて深掘りや分岐を行う
-Analysis（分析）：インタビュー記録をもとに、Claude が初期分析を生成し、研究者が最終レポートを作成する</p>
-<p><strong>Anthropic Interviewer の3段階ワークフロー。インタビュー計画の生成から自動インタビュー、分析までをAIが支援する</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cc1e5916d47f4217a69_df29416f61/cc1e5916d47f4217a69_df29416f61.jpg" alt="cc1e5916d47f4217a69.jpg" /></p>
-<h2>プライバシーとデータ利用</h2>
-<p>Anthropic のプライバシー文書によると、インタビュー内容は研究目的にのみ利用され、最大5年間保管される。閲覧できるのは権限を持つAnthropic担当者のみで、回答データは集計形式や匿名化された形で扱われる。また、内容には健康情報や個人を特定する情報を含めないようユーザーに注意喚起が行われる。</p>
-<p>Anthropic は、Interview­er を研究コミュニティ向けの基盤として活用し、AIが職業・社会にどのように影響するかを継続的に調査していく方針を示している。データセットの公開により、外部研究者による再分析や政策研究への活用も期待される。</p>
-]]></description>
-      <pubDate>Tue, 09 Dec 2025 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
       <link>https://ledge.ai/articles/70year_history_of_ai_from_the_dartmouth_conference</link>
       <description><![CDATA[<p>:::button
@@ -307,6 +278,20 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <li>現実世界での連続的タスク遂行（エージェント的行動）</li>
 </ul>
 <p>研究チームは、これらの領域が改善すれば、AGIスコアが急速に伸びる可能性があるとしている。</p>
+]]></description>
+      <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、AIエージェント標準「MCP」をLinux Foundation傘下へ移管──Agentic AIの共通基盤化へ</title>
+      <link>https://ledge.ai/articles/anthropic_mcp_linux_foundation_aaif_transfer</link>
+      <description><![CDATA[<p>Anthropicは2025年12月10日、同社が開発してきたAIエージェント向けの標準仕様「Model Context Protocol（MCP）」を、Linux Foundation傘下に新設された「Agentic AI Foundation（AAIF）」へ移管すると<a href="https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation">発表</a>した。</p>
+<p>Anthropicはこれまで、対話型AI「Claude」を中心としたエコシステムの中でMCPを提唱・整備してきた。エージェントが自律的にタスクを実行する「Agentic AI」への関心が高まる中、MCPはその基盤技術の一つとして注目されている。</p>
+<p>今回の移管により、MCPの仕様管理や将来の拡張は、Linux Foundation傘下のAAIFが担う。AAIFは、AIエージェント分野における共通基盤の整備と標準化を目的として新設された組織で、複数の企業や開発者コミュニティが参加する中立的な運営体制を採る。</p>
+<p>Linux Foundationによると、AAIFはMCPのほか、Blockが開発したエージェント関連プロジェクト「goose」や、OpenAIが提唱するエージェント仕様「AGENTS.md」などの初期プロジェクトを受け入れ、AIエージェント分野における共通基盤の整備を進めるとしている<a href="https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/">Linux Foundationの発表</a>。</p>
+<p>Anthropicは、MCPの創始者として引き続き技術的な貢献を行う一方、主導権はコミュニティ側に委ねられる。</p>
+<p>Linux Foundationは、LinuxやKubernetesなど、業界横断的なソフトウェア基盤を中立的に運営してきた実績を持つ。AI分野ではすでに「LF AI &amp; Data」を通じてオープンな研究・開発を支援しており、今回のAAIF設立とMCP受け入れは、Agentic AIを巡る標準化の動きを一段進めるものとなる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aaif_social_media_image_e440cd3697/aaif_social_media_image_e440cd3697.webp" alt="aaif_social media image.webp" /></p>
+<p>AIエージェントを巡っては、各社が独自の実装やフレームワークを競う一方で、相互運用性やベンダーロックインへの懸念も指摘されてきた。Anthropicが自社主導で開発してきたMCPをLinux Foundation傘下へ移管したことは、競争領域と共通基盤を切り分け、エコシステム全体の拡大を優先する姿勢を示す動きといえる。</p>
 ]]></description>
       <pubDate>Sun, 07 Dec 2025 04:50:00 GMT</pubDate>
     </item>
