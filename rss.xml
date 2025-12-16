@@ -457,6 +457,19 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、MCPを全サービスに展開──Gemini時代の「AI×クラウド接続」を標準化</title>
+      <link>https://ledge.ai/articles/google_mcp_all_services_gemini_ai_cloud_standardization</link>
+      <description><![CDATA[<p>Googleは2025年12月11日、生成AIモデル「Gemini」などのAIエージェントと、同社のクラウドサービスを接続するための共通基盤として、Model Context Protocol（MCP）の公式サポートを開始したと<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services">発表</a>した。Googleは今後、同社が提供するすべてのサービスにおいて、段階的に接続用のMCPサーバをGoogle側が用意・運用する形で提供していく方針だ。</p>
+<h2>MCP：AIとサービスをつなぐ共通プロトコル</h2>
+<p>MCPは、生成AIやAIエージェントが外部ツールやデータソース、APIと、安全かつ標準化された方法で接続するためのオープンプロトコルである。GoogleはこのMCPを、自社クラウドサービスとAIを結ぶ「共通の接続レイヤー」として公式に採用した。</p>
+<p>今回Googleが提供するMCPサーバは、サーバの構築や運用、スケーリングをすべてGoogleが担う仕組みとなっている。開発者は自らサーバを立ち上げたり管理したりする必要がなく、MCPクライアントを通じてGoogleの各種サービスに直接接続できる。認証や権限制御についても、既存のGoogle Cloudのセキュリティ基盤と連携している。</p>
+<h2>まずはMapsやBigQueryなど主要サービスから対応</h2>
+<p>発表時点でMCPサーバに対応している主なサービスには、Google Maps、BigQuery、Google Compute Engine、Google Kubernetes Engine（GKE）などが含まれる。これらのサービスは、位置情報、データ分析、計算資源、コンテナ管理といった機能を提供しており、AIエージェントが実際の処理や操作を行うための基盤として利用できる。</p>
+<p>Googleは、これらの初期対応サービスにとどまらず、今後すべてのGoogleサービスで同様の仕組みを提供する計画を示している。公式ブログでは、今後数カ月以内にCloud Run、Cloud Storage、Spanner、Looker、Pub/Sub、Cloud Logging、Cloud Monitoring、Security Operations（SecOps）、Android Management APIなどにも対応を広げる予定だとしている。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/12 [FRI]ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
       <link>https://ledge.ai/articles/gpt_5_2_release_openai_chatgpt_update</link>
       <description><![CDATA[<p>OpenAIは2025年12月11日（現地時間）、ChatGPTおよびAPI向けの新モデル「GPT-5.2」を公開したと<a href="https://openai.com/ja-JP/index/introducing-gpt-5-2/">発表</a>した。同社の公式ブログ「Introducing GPT-5.2」では、推論能力や長文コンテキスト処理、コード生成、知識労働タスクなどの幅広い能力が前世代のGPT-5.1から大幅に向上したと説明している。</p>
@@ -647,18 +660,6 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
 ]]></description>
       <pubDate>Wed, 10 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NEC、警察・消防の指令室を支援する次世代AI技術を開発──独自のAgentic AIで状況把握から行動提案まで自動化</title>
-      <link>https://ledge.ai/articles/necs_agentic_ai_emergency_command_support</link>
-      <description><![CDATA[<p>NECは2025年12月2日、警察・消防などの緊急通報を受ける指令室業務を高度化する次世代支援技術を開発したと<a href="https://jpn.nec.com/press/202512/20251202_03.html">発表</a>した。独自のAgentic AIを核とし、通話内容の理解、状況分析、行動提案までを一連で支援することで、オペレーターの負担軽減と業務精度の向上を図る。同技術はマルチ言語に対応し、2026年度中の国内外での活用を見込む。</p>
-<p>発表によると、指令室での緊急通報対応は高い専門性が求められ、通報者の説明が曖昧になりやすいなど状況把握が難しいケースも多い。NECはこうした課題に対し、リアルタイム解析で重要情報を抽出し、次にとるべき行動を提案する仕組みを導入することで、迅速かつ正確な判断を支援する。</p>
-<p>新技術では、複雑な会話でも誤情報の混入や途中の状況変化を踏まえて正確に把握できる点が特徴だという。NEC独自のAgentic AIが「会話分析」「情報管理」「行動提案」など複数の専門AIを連携させ、多角的に文脈を解釈。熟練オペレーターに近い安定した精度での応対を実現する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0203_03_d844de8bb6/0203_03_d844de8bb6.jpg" alt="0203-03.jpg" /></p>
-<p>また、説明可能なAI（Explainable AI）を搭載し、AIが提示した判断根拠を確認できる点も特徴とされる。人命に関わる現場での信頼性を確保し、オペレーターが適切な判断を行うための支援を行う。さらに、EUのAI規制法を含む国際基準にも適応できるアーキテクチャを採用し、英語を含むマルチ言語に対応するなど、グローバル展開も可能としている。</p>
-<p>高い汎用性も強みで、Agentic AIを役割ごとに分割した構造により、業務要件に応じたチューニングを低コストかつ短期間で実施可能。警察・消防の指令室業務にとどまらず、企業のコンタクトセンターなど幅広い業務への適用を想定している。</p>
-]]></description>
-      <pubDate>Wed, 10 Dec 2025 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
