@@ -478,6 +478,37 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
+      <link>https://ledge.ai/articles/google_gemini_3_flash_default_model_release</link>
+      <description><![CDATA[<p>Googleは2025年12月17日（現地時間）同社の生成AIモデル「Gemini 3」ファミリーに新たに「Gemini 3 Flash」を追加し、提供を開始したことを<a href="https://blog.google/products/gemini/gemini-3-flash/">発表</a>した。Gemini 3 Flashは、スピードを重視しながらも高度な推論能力とマルチモーダル機能を維持する点を特徴としており、一般ユーザー向けのGeminiアプリでは既定モデルとして展開される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=rPXBDSf-Hwg">YouTube</a></p>
+<p>Googleによると、Gemini 3 Flashは「高速性、知能、コスト効率のバランス」を重視して設計されたモデルで、日常的な知識労働からソフトウェア開発まで、幅広いユースケースを想定している。同社は、Gemini 3の次世代インテリジェンスをGoogle製品全体に広げる役割を担うモデルだと位置づけている。</p>
+<h2>推論ベンチマークで示された“Pro級”の性能</h2>
+<p>公式ブログでは、Gemini 3 Flashの性能を示す指標として、複数の評価ベンチマークが公開された。高度な専門知識を問う「GPQA Diamond」では90.4％、「Humanity’s Last Exam」ではツール非使用条件で33.7％を記録したとしている。Googleは、これらの結果が、より大規模なフロンティアモデルに匹敵する水準だと説明している。</p>
+<p>また、マルチモーダル理解能力を測る「MMMU Pro」では81.2％に到達し、Gemini 3 Proと同等レベルの性能を示したという。推論能力とマルチモーダル処理を両立している点が、Gemini 3 Flashの重要な特徴とされている。</p>
+<p><strong>■ Gemini 3 Flashと他モデルを比較した公式ベンチマーク。推論、マルチモーダル理解、コーディングなど幅広い指標で、上位モデルに近いスコアを示している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_flash_final_benchmark_t_width_1000_format_webp_1aa4e26a6b/gemini_3_flash_final_benchmark_t_width_1000_format_webp_1aa4e26a6b.webp" alt="gemini-3-flash_final_benchmark-t.width-1000.format-webp.webp" /></p>
+<p>加えて、ソフトウェア開発分野では、コード生成や修正能力を評価する「SWE-bench Verified」で78％を記録し、Gemini 2.5系やGemini 3 Proを上回ったとしている。Googleは、反復的な開発作業やエージェント型ワークフローに適したモデルだと説明している。</p>
+<h2>「2.5 Pro比で3倍高速」、コスト効率も前面に</h2>
+<p>速度面では、外部評価機関Artificial Analysisによる測定結果として、Gemini 3 Flashは「Gemini 2.5 Proと比べて最大で約3倍高速」と説明されている。加えて、同等のタスクを処理する際に必要なトークン数が平均で約30％少なく、コスト効率にも優れるという。</p>
+<p>開発者向けの価格設定は、入力が100万トークンあたり0.50ドル、出力が同3ドル。音声入力は100万トークンあたり1ドルとされている。Googleは、低遅延かつ高頻度での利用を想定した価格体系だとしている。</p>
+<p><strong>■ 性能（スコア）とコストの関係を示した比較グラフ。Gemini 3 Flashは、Gemini 3 Proに近い性能帯を保ちながら、Flash系モデルらしい価格帯に位置づけられている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_flash_pareto_graph_dec1_width_1000_format_webp_cf3f26591a/gemini_3_flash_pareto_graph_dec1_width_1000_format_webp_cf3f26591a.webp" alt="gemini-3-flash_pareto_graph_dec1.width-1000.format-webp.webp" /></p>
+<h2>開発者向けにはAPI・CLI・企業向け基盤で提供</h2>
+<p>Gemini 3 Flashは、Google AI StudioのGemini APIを通じてプレビュー提供されるほか、コマンドラインから利用できる「Gemini CLI」、エージェント開発向けプラットフォーム「Google Antigravity」でも利用可能とされている。企業向けには、Vertex AIおよびGemini Enterpriseを通じた提供が行われる。</p>
+<h2>Geminiアプリでは「追加料金なし」で利用可能</h2>
+<p>Gemini 3 Flashは、一般ユーザー向けのGeminiアプリでは既定モデルとして提供され、追加料金なしで利用可能とされている。また、Google検索の「AI Mode」でも、全ユーザーを対象に段階的な無料提供が始まっている。</p>
+<p>なお、Geminiアプリには使用量の上限があり、ProやUltraといった有料サブスクリプションでは、より大きな利用枠が適用される</p>
+<h2>有料プランや開発用途では従量課金が適用</h2>
+<p>一方、Gemini 3 Flashは開発用途や企業向けサービスでも提供される。Google AI Studioを通じたGemini APIや、Vertex AI、Gemini Enterpriseといった企業向け基盤では、利用量に応じた従量課金が発生する。
+公式ブログでは、Gemini 3 Flashの価格として、入力が100万トークンあたり0.50ドル、出力が同3ドル、音声入力は100万トークンあたり1ドルが提示されている。Googleは、低遅延かつ高頻度での利用を想定した価格体系だとしており、開発者や企業での実運用を意識した設計であることを強調している。</p>
+<h2>検索AIモードにも展開</h2>
+<p>Gemini 3 Flashは、Google検索の「AI Mode」でも既定モデルとして段階的にロールアウトされる。検索AIモードでは、質問の意図を分解して整理した回答や、リアルタイムのローカル情報、関連リンクの提示などを特徴としている。
+Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルラインアップを拡充し、一般ユーザーから開発者、企業利用までをカバーする体制を整えていく方針だ。Gemini 3 Flashは、その中でスピードと実用性を担う中核モデルとして位置づけられている。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、MCPを全サービスに展開──Gemini時代の「AI×クラウド接続」を標準化</title>
       <link>https://ledge.ai/articles/google_mcp_all_services_gemini_ai_cloud_standardization</link>
       <description><![CDATA[<p>Googleは2025年12月11日、生成AIモデル「Gemini」などのAIエージェントと、同社のクラウドサービスを接続するための共通基盤として、Model Context Protocol（MCP）の公式サポートを開始したと<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services">発表</a>した。Googleは今後、同社が提供するすべてのサービスにおいて、段階的に接続用のMCPサーバをGoogle側が用意・運用する形で提供していく方針だ。</p>
