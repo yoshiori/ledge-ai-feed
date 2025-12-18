@@ -25,18 +25,6 @@
       <pubDate>Fri, 12 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ゆうちょ銀行、ATM前の「通話」をAIで検知し取引中止も──特殊詐欺被害防止で2026年1月から新措置</title>
-      <link>https://ledge.ai/articles/jpbank_atm_ai_call_detection_fraud_prevention_2026</link>
-      <description><![CDATA[<p>ゆうちょ銀行は2025年12月8日、ATM利用時の特殊詐欺被害を防止する新たな取り組みとして、ATM前での携帯電話などによる通話動作をAIで検知し、必要に応じて取引を中止する措置を導入すると<a href="https://www.jp-bank.japanpost.jp/news/2025/news_id002346.html">発表</a>した。新措置は2026年1月から、全国のゆうちょATMで順次適用される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_309f19b48d/_309f19b48d.jpg" alt="ゆうちょおしらせ.jpg" /></p>
-<p>同社はこれまでも、ATMコーナーに設置された防犯カメラ画像をAIで分析し、通話している可能性のある動作を検知した場合、デジタルサイネージによる警告表示や警告音で注意喚起を行ってきた。今回の取り組みはこの対策を一段強化したもので、通話動作を検知した際に「取引そのものを中止する場合がある」という点が大きな変更点となる。</p>
-<p>リリースによると、AIが検知するのは「携帯電話等による通話のような動作」。詐欺の指示役が電話越しに被害者へ振り込み操作を促す手口が全国的に増加していることから、ATM操作中の通話はリスク要因として位置付けられている。ゆうちょ銀行は「お客さまの大切な財産を守るための取り組み」であり、利用者に理解と協力を求めている。</p>
-<p>特殊詐欺は国内で依然として深刻な状況が続く。警察庁のまとめでは、2024年の特殊詐欺被害額は約718億円にのぼり、前年から増加した。特に高齢者の預貯金を狙う手口が多く、金融機関による対策強化が求められている。</p>
-<p>ゆうちょ銀行は、AI画像分析による不審動作の検知やATM操作時の注意喚起など、既存の取り組みを継続しながら、今回の取引中止措置を組み合わせることで、さらなる被害防止を図るとしている。今後も特殊詐欺対策を継続的に強化していく方針だ。</p>
-]]></description>
-      <pubDate>Fri, 12 Dec 2025 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【AI歴史年表】AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
       <link>https://ledge.ai/articles/70year_history_of_ai_from_the_dartmouth_conference</link>
       <description><![CDATA[<p>:::button
@@ -553,6 +541,48 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <h2>ユーザーが直面する詐欺リスク</h2>
 <p>偽の電話番号に連絡した利用者は、予約変更や返金手続きを装った詐欺に誘導される恐れがある。具体的には、クレジットカード情報や個人情報の詐取、金銭の送金要求、さらにはリモート操作ツールの導入を求められるといった被害につながる可能性がある。</p>
 <p>Aura Labsは、AIが「信頼できる案内役」として認識されつつある現状において、こうした電話番号汚染攻撃の影響は従来の検索スパムよりも深刻になりうると警告している。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>スマホ単体でLLMをファインチューニング──C++製OSS「MobileFineTuner」、メモリ・電力制約を越える最適化</title>
+      <link>https://ledge.ai/articles/mobilefinetuner_llm_finetuning_on_mobile_phones</link>
+      <description><![CDATA[<p>スマートフォン上で大規模言語モデル（LLM）のファインチューニングをエンドツーエンドで実行できる統合フレームワークが提案された。</p>
+<p>Duke Kunshan University（中国・崑山）およびThe University of Hong Kongの研究チームは、一般的なスマートフォンを対象にLLMを直接ファインチューニング可能にするオープンソースフレームワーク「MobileFineTuner」を開発したと報告した。</p>
+<p>研究成果は2025年12月9日に論文「MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones」としてarXivで<a href="https://arxiv.org/abs/2512.08211">公開</a>。コードは、商用可能なApache-2.0ライセンスでGitHub上に公開された。</p>
+<p>論文では、GPT-2、Gemma 3、Qwen 2.5といったLLMを実際のAndroidスマートフォン上でファインチューニングした実証結果が示されている。</p>
+<h2>公開データ枯渇と「スマホ上の私的データ」</h2>
+<p>研究チームは、LLM開発を支えてきた高品質な公開データが、2026〜2032年に枯渇する可能性が指摘されている点を背景として挙げる一方で、個人のメッセージ履歴、メモ、アプリ操作ログといった価値の高い私的データの多くはスマートフォン上に存在するが、クラウド送信による学習はプライバシーや規制面で課題が大きいとした。</p>
+<p>このギャップを埋める手段として、データを端末外に出さずに学習する「オンデバイス・ファインチューニング」が注目されてきたものの、既存研究の多くはシミュレーション、IoTボード、PC環境に留まり、「一般的なスマートフォン」を実装対象にした枠組みが不足していたと指摘している。</p>
+<h2>Python非依存のC++実装という設計判断</h2>
+<p>MobileFineTunerの最大の特徴は、フレームワーク全体をC++で実装し、Pythonランタイムに依存しない点にある。
+論文では、PyTorchやHugging Face Transformersなどの既存フレームワークがPython前提であり、Androidを含むモバイルOSでは直接利用できないことが、実装上の最大の障壁だったと説明されている。</p>
+<p><strong>■ MobileFineTunerの全体構成：</strong> C++ベースのオンモバイル・ファインチューニング基盤の上に、Full-FT/PEFT、評価機構、メモリ・エネルギー最適化が統合されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/overview2_f098ba40dd/overview2_f098ba40dd.png" alt="overview2.png" /></p>
+<p>MobileFineTunerは、以下の3点を設計原則として掲げる。</p>
+<ul>
+<li><strong>効率性：</strong> 自動微分やバックプロパゲーションを含む学習処理をC++でネイティブ実装</li>
+<li><strong>拡張性：</strong> Full-FT（全パラメータ更新）とPEFT（LoRA）の双方に対応</li>
+<li><strong>実用性：</strong> 高水準APIを備え、モバイル上で完結する学習を可能にする</li>
+</ul>
+<p>これにより、Python仮想環境やVM（例：Termux）を介さずに、スマートフォン上で直接LLMを学習させる構成を実現したとしている。</p>
+<h2>メモリと電力制約に対応するシステム最適化</h2>
+<p>論文では、モバイル端末特有の制約としてRAM容量とバッテリー消費を明確に課題として位置付けている。
+一般に、FP16学習では「10億パラメータあたり約16GBのRAM」が必要とされる一方、2025年時点のスマートフォンのRAMは4〜16GBに留まると指摘する。</p>
+<p><strong>■ スマートフォンの限られたRAM（4–16GB）に対し、学習時に必要なレイヤのみを「アクティブレイヤ」として保持し、他のパラメータはストレージ側に退避する設計</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/memory_parameters_76e1f8a522/memory_parameters_76e1f8a522.png" alt="memory_parameters.png" /></p>
+<p>これに対し、MobileFineTunerは以下の最適化を統合的に実装している。</p>
+<ul>
+<li><strong>ZeRO着想のパラメータシャーディング：</strong> 学習に必要なパラメータのみをRAMに保持し、非アクティブ部分はストレージへ退避する仕組みを採用</li>
+<li><strong>Gradient Accumulation：</strong> マイクロバッチに分割して勾配を蓄積することで、メモリ使用量を抑えつつ学習の安定性を維持</li>
+<li><strong>エネルギー認識型スケジューリング：</strong> バッテリー残量を監視し、閾値を下回ると計算頻度を動的に抑制する仕組みを導入</li>
+</ul>
+<h2>Pixel実機での検証とPyTorchとの比較</h2>
+<p>評価では、Google Pixel 8／7 Pro／8 Proといった市販Androidスマートフォンを用い、GPT-2（124M/355M）、Qwen2.5-0.5B、Gemma3（270M/1B）を対象に検証が行われた。</p>
+<p>PEFT（LoRA）による検証では、WikiText-2およびMMLUタスクにおいて、PyTorch（サーバー実行）とほぼ同等の損失・PPL・精度が得られたと報告されている。論文は、性能優位性を主張するものではなく、「モバイル上での学習結果が標準的な学習挙動と整合している」点を検証の主眼としている。</p>
+<h2>公開形態と今後の焦点</h2>
+<p>MobileFineTunerは、論文とともにオープンソースソフトウェアとして公開されており、Android 10以降の端末で動作するとされている。著者らは今後、異種ハードウェア対応や、フェデレーテッド／協調学習との統合を検討するとしている。</p>
+<p>研究は、オンデバイスLLM学習を「概念」ではなく実装と実機検証で示した点に特徴があり、スマートフォンを前提としたLLM活用の設計空間を広げるものとして位置付けられる。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
