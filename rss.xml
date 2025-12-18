@@ -524,6 +524,24 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>「ルンバ」のiRobotがついに破産手続き開始、中国Picea傘下で事業は継続──アイロボットジャパン「アフターサービスこれまで通り」Chapter 11申請受け声明</title>
+      <link>https://ledge.ai/articles/irobot_chapter11_picea_business_continuity</link>
+      <description><![CDATA[<p>ロボット掃除機「ルンバ」で知られる米iRobot Corporationは2025年12月、連邦破産法第11章（Chapter 11）に基づく再編手続きを開始したと<a href="https://media.irobot.com/2025-12-14-iRobot-Announces-Strategic-Transaction-to-Drive-Long-Term-Growth-Plan">発表</a>した。</p>
+<p>同社は中国の掃除機メーカーPicea Robotics（関連会社Santrum Hong Kongを含む）による買収を受け入れ、債務整理後も事業を継続する方針だ。これを受け、日本法人のアイロボットジャパンは「事業はこれまで通り継続する」との声明を<a href="https://www.irobot-jp.com/press/pdf/20251215_2.pdf">発表</a>している。</p>
+<p>iRobotによると、今回のChapter 11申請は清算を目的としたものではなく、事業継続を前提とした再編手続きとして進められる。あらかじめ主要条件を合意した「プレパッケージ型」の再編で、中国Picea Roboticsとの間で締結した再編支援契約（Restructuring Support Agreement）に基づき、裁判所の監督下で手続きを進めるという。</p>
+<h2>中国Piceaが全株式を取得、iRobotは非公開化へ</h2>
+<p>再編計画では、主要サプライヤーかつ担保権者でもあるPicea Roboticsが、iRobotの普通株式100％を取得する。再編完了後、iRobotはPiceaの完全子会社となり、非公開企業として再スタートを切る見通しだ。再編プロセスの完了は2026年2月上旬を予定している。</p>
+<p>米証券取引委員会（SEC）に提出された開示資料によれば、再編に伴い既存の普通株式は消却され、現在の株主は再編後のiRobotの持ち分を取得しない見込みとされている。</p>
+<h2>日本法人「事業はこれまで通り」</h2>
+<p>iRobotは、Chapter 11手続き中および再編完了後も通常の事業運営を継続すると説明している。これを受け、アイロボットジャパンも公式声明で、製品販売やカスタマーサポート、保証対応、アプリやクラウドサービスについて「事業はこれまで通り」継続すると明らかにした。日本市場のユーザーや販売チャネルへの直接的な影響は限定的とされる。</p>
+<h2>これまでの経緯と今回の位置づけ</h2>
+<p>iRobotは家庭用ロボット掃除機市場の先駆者として「ルンバ」ブランドを展開してきたが、近年は競争の激化やコスト上昇を背景に、厳しい経営環境が続いていた。Ledge.aiではこれまで、Amazonによる買収計画の白紙撤回や、2025年に入って表面化した事業危機について報じてきた。</p>
+<p>今回のChapter 11申請と中国Picea傘下への移行は、そうした流れの延長線上に位置づけられる。iRobotはこの戦略的取引によりバランスシートを立て直し、ロボティクスおよびスマートホーム分野での長期的な成長を目指すとしている。</p>
+<p>今後は、裁判所による再編計画の承認を経て、新体制下での事業運営が本格化する見通しだ。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI検索を汚染する「LLM電話番号ポイズニング」──Aurascape、偽コールセンター誘導の新手法を確認</title>
       <link>https://ledge.ai/articles/llm_phone_number_poisoning_aurascape_fake_call_center</link>
       <description><![CDATA[<p>AIチャットボットやAI検索が参照する公開情報を悪用し、利用者を偽のコールセンターへ誘導する新たなサイバー攻撃キャンペーンが確認されたと、サイバーセキュリティ企業が明らかにした。</p>
@@ -550,7 +568,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <description><![CDATA[<p>スマートフォン上で大規模言語モデル（LLM）のファインチューニングをエンドツーエンドで実行できる統合フレームワークが提案された。</p>
 <p>Duke Kunshan University（中国・崑山）およびThe University of Hong Kongの研究チームは、一般的なスマートフォンを対象にLLMを直接ファインチューニング可能にするオープンソースフレームワーク「MobileFineTuner」を開発したと報告した。</p>
 <p>研究成果は2025年12月9日に論文「MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones」としてarXivで<a href="https://arxiv.org/abs/2512.08211">公開</a>。コードは、商用可能なApache-2.0ライセンスでGitHub上に公開された。</p>
-<p>論文では、GPT-2、Gemma 3、Qwen 2.5といったLLMを実際のAndroidスマートフォン上でファインチューニングした実証結果が示されている。</p>
+<p>論文では、GPT-2、Gemma 3、Qwen 2.5といったLLMを対象に、Androidスマートフォン上でのファインチューニングに関する実証結果が示されている（ただし、端末のメモリ条件によって実行できなかった一部のモデルやタスクについては、論文中では“–”として示されている）。</p>
 <h2>公開データ枯渇と「スマホ上の私的データ」</h2>
 <p>研究チームは、LLM開発を支えてきた高品質な公開データが、2026〜2032年に枯渇する可能性が指摘されている点を背景として挙げる一方で、個人のメッセージ履歴、メモ、アプリ操作ログといった価値の高い私的データの多くはスマートフォン上に存在するが、クラウド送信による学習はプライバシーや規制面で課題が大きいとした。</p>
 <p>このギャップを埋める手段として、データを端末外に出さずに学習する「オンデバイス・ファインチューニング」が注目されてきたものの、既存研究の多くはシミュレーション、IoTボード、PC環境に留まり、「一般的なスマートフォン」を実装対象にした枠組みが不足していたと指摘している。</p>
@@ -565,7 +583,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <li><strong>拡張性：</strong> Full-FT（全パラメータ更新）とPEFT（LoRA）の双方に対応</li>
 <li><strong>実用性：</strong> 高水準APIを備え、モバイル上で完結する学習を可能にする</li>
 </ul>
-<p>これにより、Python仮想環境やVM（例：Termux）を介さずに、スマートフォン上で直接LLMを学習させる構成を実現したとしている。</p>
+<p>これにより、Python仮想環境やVM（例：Termux）に依存せず、モバイルOS上で直接動作する学習基盤として、スマートフォン単体でLLMをファインチューニングできる構成を実現したとしている。</p>
 <h2>メモリと電力制約に対応するシステム最適化</h2>
 <p>論文では、モバイル端末特有の制約としてRAM容量とバッテリー消費を明確に課題として位置付けている。
 一般に、FP16学習では「10億パラメータあたり約16GBのRAM」が必要とされる一方、2025年時点のスマートフォンのRAMは4〜16GBに留まると指摘する。</p>
