@@ -339,41 +339,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIで“裸眼3D”が進化──上海AI研究所らが超広視野角ディスプレイ「EyeReal」を開発、Natureに発表</title>
-      <link>https://ledge.ai/articles/eyereal_ai_glasses_free_3d_ultrawide_display_nature</link>
-      <description><![CDATA[<p>上海人工智能実験室と復旦大学の研究チームは、専用メガネなしで広視野角の3D映像を表示できる新方式「EyeReal」を開発し、科学誌 Nature に<a href="https://www.nature.com/articles/s41586-025-09752-y">発表</a>した。従来のホログラフィック方式や自動立体（autostereoscopic）ディスプレイが抱えていた物理的制約を、AIと多層LCD構造を組み合わせた新たな光場生成手法で克服した点が特徴だ。</p>
-<h2>従来の裸眼3D方式の限界を超えるアプローチ</h2>
-<p>過去の裸眼3D技術は、視野角や画面サイズなどのトレードオフが大きな課題だった。ホログラフィック方式は高密度の光学情報を扱える一方、視域が極めて小さく、実用性が限定される。一方、ビューセグメント型・ビューデンス型の自動立体ディスプレイは、視点数や視域が固定され、観察者が自由に動いた際に自然な視差変化を再現することが難しかった。</p>
-<p>EyeReal は、こうした従来方式を図示しつつ、観察者の目の周囲に最適化された光場をリアルタイム生成するというアプローチを採用する。</p>
-<p><strong>従来方式（a〜c）が視野角や表示領域に制約を抱える中、EyeReal（d）は観察者の眼のまわりで光場を最適化し、超広視野角の裸眼3D表示を可能にする</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig1_7a43aeeee1/41586_2025_9752_Fig1_7a43aeeee1.jpg" alt="41586_2025_9752_Fig1.jpg" /></p>
-<h2>EyeReal の構造：多層LCD × AIによる光場最適化</h2>
-<p>研究チームは、市販の液晶パネルを複数枚重ね合わせた構造を採用。光源、偏光板（縦・横）、液晶層の組み合わせにより、各ピクセルからの位相（フェーズ）を精密に制御する。</p>
-<p>RGB-D センサーが観察者の両眼位置と姿勢（6D pose）を取得し、ニューラルネットワークがその位置に最適な「位相パターン」を生成する。これにより、従来の光学系では物理的に困難だった複雑な光場を、液晶ディスプレイのみで再現できる。</p>
-<p><strong>多層LCD、偏光板、RGB-D センサー、ニューラルネットワークで構成される EyeReal の光場生成システム。両眼位置の推定から位相パターン生成までをリアルタイムで行う</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig2_d941741a66/41586_2025_9752_Fig2_d941741a66.jpg" alt="41586_2025_9752_Fig2.jpg" /></p>
-<h2>動きに応じて自然に変化する視差と焦点表現</h2>
-<p>実験では、都市景観や屋内シーンなどを用いて、左右の眼に届く画像を検証した。EyeReal が生成した左右画像は、Ground truth（正解画像）と高い一致率を示し、水平・垂直・前後方向の動きに対して自然なモーションパララックスを維持した。</p>
-<p>さらに、前景・後景の被写界深度（焦点表現）も再現可能で、奥行き感の自然さが向上している。</p>
-<p><strong>EyeReal の再現画像（Prediction）は、Ground truth と高い一致を示し、上下左右・前後の動きに伴う視差変化を自然に再現。前景・後景の焦点表現も維持されている</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig3_c6449eee0f/41586_2025_9752_Fig3_c6449eee0f.jpg" alt="41586_2025_9752_Fig3.jpg" /></p>
-<h2>超広視野角100度超、50Hzリアルタイム処理</h2>
-<p>定量評価では以下の性能が確認された：</p>
-<ul>
-<li><strong>視野角：100度超</strong> ：観察者が大きく移動しても PSNR・SSIM が高値を維持した</li>
-<li><strong>未知視点に対する一般化性能（Generalization）</strong> ：学習データに存在しない視点からでも安定した画質を確保</li>
-<li><strong>動作速度：50.2 Hz</strong> ：多層LCDとAI処理によるシステムとしては高速で、リアルタイム裸眼3Dに求められる水準を満たす</li>
-</ul>
-<p>奥行き層ごとの PSNR 曲線や視野マップも示され、前景から背景まで一貫した再現品質を持つことが確認された。</p>
-<p><strong>EyeReal の定量評価。超広視野角でも高い PSNR/SSIM を維持し、未知視点に対しても一般化。50Hzを超える処理速度によりリアルタイム裸眼3Dとして実用レベルに到達している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/41586_2025_9752_Fig4_e554e7ef93/41586_2025_9752_Fig4_e554e7ef93.jpg" alt="41586_2025_9752_Fig4.jpg" /></p>
-<p>論文では、エンターテインメント用途にとどまらず、医学画像の立体視、建築設計、教育、科学データの立体構造可視化など、多様な分野への応用可能性が示されている。</p>
-<p>今後の課題としては、複数ユーザー同時視聴への拡張、消費電力の最適化、さらなる高速化などが挙げられる。
-研究チームは、本方式が「裸眼3Dディスプレイの物理的限界をAIで超える新しい方向性を提示した」としている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
       <link>https://ledge.ai/articles/gemini_3_deep_think_google_ai_ultra_launch</link>
       <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Geminiアプリに新たな推論モード「Gemini 3 Deep Think」を追加したと<a href="https://blog.google/products/gemini/gemini-3-deep-think/">発表</a>した。</p>
@@ -774,28 +739,6 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
 <p>TIME誌は今回の選出を通じて、AIの進化が偶然ではなく、数多くの設計上の選択と意思決定の積み重ねによって生まれていることを強調している。AI時代の行方を左右するのは、技術そのものではなく、それを設計し、運用し、社会に組み込む人間であるというメッセージが込められている。</p>
 <p>:::box
 [関連記事：AIの\</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>チューリング、都内30分の完全自動運転「Tokyo30」を達成　テスラ猛追へ「富岳」級の計算基盤も公開</title>
-      <link>https://ledge.ai/articles/turing_tokyo30_full_self_driving_achievement</link>
-      <description><![CDATA[<p>完全自動運転を目指すスタートアップのチューリング株式会社は2025年12月1日、同社の技術カンファレンス「<a href="https://www.youtube.com/watch?v=HhQr0SAZs3Y">Turing AI Day 2025</a>」で、東京都内を人間の操作なしで30分以上走行するプロジェクト「Tokyo30」を達成したと発表した。当日は実際の走行映像も公開され、開発中のEnd-to-End（E2E）自動運転システムの挙動が披露された。</p>
-<p>同社は創業当初より「We Overtake Tesla（テスラを超える）」をミッションとして掲げており、今回の成果を国産の完全自動運転に向けた重要なマイルストーンの一つと位置づけている。</p>
-<h2>「カンブリア爆発」を経て実用域に近づくE2Eモデル</h2>
-<p>AI Day の冒頭で公開された映像では、チューリングの実験車両が、市街地の複雑な交通環境下でハンドル・アクセル・ブレーキのすべてをAIが制御し、30分以上連続して走行する様子が確認できた。信号停止、右左折、歩行者や車両との交錯といった場面でも、安定した挙動を維持していた。</p>
-<p>同社は創業時から「Day 1 から E2E」を掲げ、カメラ映像を入力とし、単一のニューラルネットワークが走行経路（トラジェクトリ）を直接出力する方式を採用している。データ収集から学習までのパイプラインを整備した段階でモデル性能が急激に向上した時期を、社内では「カンブリア爆発」と呼んでおり、Tokyo30 はその延長線にある成果だと説明した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20251_393e19e328/turing_ai_day20251_393e19e328.jpg" alt="turing ai day20251.jpg" /></p>
-<h2>富岳の約40%相当の計算基盤が学習を支える</h2>
-<p>E2Eモデルの性能向上を支えるのが、大規模GPUクラスタである。チューリングは自社専用の「Gaggle Cluster」を中心に、オンプレミスとクラウドを組み合わせて学習基盤を構築しており、2025年12月時点の総演算性能は、スーパーコンピュータ「富岳」のAI演算性能（FP16換算）の約40%に相当すると説明した。</p>
-<p>同社はシリーズAラウンドの1st Closeとして152.7億円（約153億円）を調達しており、多くを計算基盤の拡充やデータ拡張、組織体制の強化に投じる計画だという。AI Day では、今後2年間で計算能力を5〜10倍（最大7 ExaFLOPS規模）へ拡張する方針も示された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/turing_ai_day20252_608dfde61a/turing_ai_day20252_608dfde61a.jpg" alt="turing ai day20252.jpg" /></p>
-<h2>VLAモデル・世界モデルへと発展する次世代アプローチ</h2>
-<p>AI Day 2025 では次世代アプローチとして、視覚（Vision）・言語（Language）・行動（Action）を統合する「VLAモデル」や、未知の走行シーンを生成できる「世界モデル（World Model）」の研究状況が紹介された。</p>
-<p>チューリングはこれまでに、日本語VLM「Heron」や運転QAデータセット「Stride-QA」「COBRA」を独自に構築しており、今後はこれらの技術を統合した70B級（700億パラメータ級）規模の「フロンティアモデル」を開発。そのうえで、車載向けに蒸留したE2Eモデルを量産レベルで展開する構想を掲げる。</p>
-<h2>2030年の完全自動運転の商用化を見据える</h2>
-<p>Q&amp;Aセッションでは、2030年前後にハンドルのない完全自動運転車が市場に登場する可能性が高いとの見通しが示された。チューリングは Tesla や Waymo など先行企業の技術進展を踏まえつつ、高速で追随する「セカンドムーバー・アドバンテージ」を戦略の中核に据えている。</p>
-<p>短期的には、ドライバーが「安心して身を預けられるレベル」の挙動を実現することを目標とし、介入頻度の削減と危険シーンの排除に取り組むとした。安全性評価については、従来のISO規格だけではE2E型システムの特性を十分に捉えられないとして、3D Gaussian Splatting や世界モデルを活用した新たな検証アプローチの重要性が言及された。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
