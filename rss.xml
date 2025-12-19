@@ -5,26 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>ビジネス2025/12/12 [FRI]OpenAI、「エンタープライズAIの現状 2025」公開──ChatGPT Enterpriseで1日40〜60分短縮、導入企業は100万社超に</title>
-      <link>https://ledge.ai/articles/enterprise_ai_2025_openai_report</link>
-      <description><![CDATA[<p>OpenAIは2025年12月8日、企業におけるAI活用の最新動向をまとめたレポート「The state of enterprise AI 2025」を<a href="https://openai.com/index/the-state-of-enterprise-ai-2025-report/">発表</a>した。調査では、ChatGPT Enterpriseの利用が業務の中心に組み込まれつつあり、従業員が1日あたり平均40〜60分の作業時間を節約していることが確認された。</p>
-<p>同レポートは企業向け利用データと、約100社・9,000人を対象にした調査を基に作成されており、AI導入が「実験段階」から「本格運用」へと移行している現状を示す内容となっている。（詳細なレポートは<a href="https://cdn.openai.com/pdf/7ef17d82-96bf-4dd1-9df2-228f7f377a29/the-state-of-enterprise-ai_2025-report.pdf">こちら</a>のPDFから閲覧可能）</p>
-<p>レポートによれば、OpenAIはすでに100万以上のビジネス顧客を抱え、ChatGPT Enterpriseの席数は700万を超えた。メッセージ数やカスタムGPTの利用も急増しており、特に独自ワークフローの自動化やナレッジ検索など、企業固有の業務に深くAIが統合されているという。</p>
-<p>さらに、AI活用の“深さ”と生産性の向上には明確な相関があることも示された。AIを集中的に利用する従業員ほど、週あたりの時間節約量が大きい傾向が見られた。</p>
-<p><strong>■ AIの利用量が多いほど、週あたりの節約時間が増加する：</strong> 週10時間以上を節約しているグループは、ほとんど節約していない層の約8倍のクレジットを利用
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Productivity_gains_increase_with_intensity_of_AI_use_22bd78f29d/Productivity_gains_increase_with_intensity_of_AI_use_22bd78f29d.jpg" alt="Productivity gains increase with intensity of AI use.jpg" /></p>
-<p>業種別に見ると、AI導入の速度と規模にも大きな差が浮き彫りになった。特にテクノロジー業界が突出しており、利用規模も成長率も最大だった。一方で、ヘルスケアや製造、建設など、従来デジタル化が進みにくいとされていた業界でも急速に導入が進んでいる。</p>
-<p><strong>■ 業種別：AI利用規模と前年比成長率</strong> テクノロジーが規模・成長率とも最大。ヘルスケア・製造が急伸し、金融・プロフェッショナルサービスは高い安定利用を示す
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_adoption_by_industry_b7cdebd753/AI_adoption_by_industry_b7cdebd753.jpg" alt="AI adoption by industry.jpg" /></p>
-<p>企業間でも、AI活用の深度には明確な“格差”が存在する。特に「フロンティアワーカー」と呼ばれる AI 活用上位5％の従業員は、AIへの依存度が全く異なる。フロンティア層は高度な分析や推論タスクを日常的にこなし、中位層との間に大きな使用量の差が生じていることが確認された。</p>
-<p><strong>■ フロンティアワーカーと中央値ユーザーの利用格差</strong> メッセージ量は6倍、データ分析関連のメッセージは16倍と、格差は高度なタスクほど拡大
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Worker_usage_gaps_widen_with_more_advanced_tools_95836d5bc8/Worker_usage_gaps_widen_with_more_advanced_tools_95836d5bc8.jpg" alt="Worker usage gaps widen with more advanced tools.jpg" /></p>
-<p>OpenAIは総括として、AIを幅広い業務で深く活用できる企業ほど、時間短縮だけでなく新しい業務遂行能力を獲得していると指摘する。AIが単なる生産性向上ツールから、企業の競争力を左右する「中心インフラ」へと位置づけが変わりつつあることが、調査により浮き彫りとなった。</p>
-<p>単なる効率化ツールから、企業基盤となるインフラへ──AI導入のフェーズは次の段階へ移り始めている。</p>
-]]></description>
-      <pubDate>Fri, 12 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【AI歴史年表】AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
       <link>https://ledge.ai/articles/70year_history_of_ai_from_the_dartmouth_conference</link>
       <description><![CDATA[<p>:::button
@@ -204,7 +184,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
+      <title>エンジニアリング2025/12/16 [TUE]Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
       <link>https://ledge.ai/articles/anthropic_ai_agents_build_skills_paradigm</link>
       <description><![CDATA[<p>Anthropicに所属するBarry Zhang氏とMahesh Murag氏は、2025年11月21日に開催された開発者向けイベント「AI Engineer Code Summit」で<a href="https://www.youtube.com/watch?v=CEvIs9y1uog">講演</a>を行い、AIエージェント開発における新たな設計思想を提示した。講演の模様は、同イベントを主催する開発者コミュニティ「AI Engineer」のYouTubeチャンネルで、12月9日に動画として公開されている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=CEvIs9y1uog&amp;t=183s">YouTube</a></p>
@@ -292,6 +272,34 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>今回の最新アップデートでは、2年半にわたる追跡期間のうち、ChatGPTファンドが人気投信10本の平均を下回った日はわずか1%。選定銘柄には、Microsoft、Alphabet、Meta、NVIDIA、TSMC、ASML、Johnson &amp; Johnson、PepsiCo など、大型株を中心とした多国籍企業が並ぶ。</p>
 <p>Finderは同実験について「ChatGPTは2021年までの訓練データを持つ言語モデルであり、リアルタイム市場データに基づく投資判断を行っているわけではない」と明記。ChatGPTの回答が投資助言に該当するものではないこと、またこのファンド自体は実在せず、あくまでAIの応答を可視化する概念実験である点を繰り返し注意喚起している。</p>
 <p>同社は、実験の目的を「AIが人間のファンドマネージャーと比較してどのようなポートフォリオを組むかを検証すること」と説明。今回の結果は、2年半の長期観測においても、ChatGPTが選んだポートフォリオが英国の人気投信平均を継続して上回り続けていることを示すものとなった。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国、国家級「未来ネットワーク基盤」699日が1.6時間に──ネットワークを“計算機”に変える実験が始まる</title>
+      <link>https://ledge.ai/articles/china_distributed_ai_computing_ceni_launch</link>
+      <description><![CDATA[<p>中国で、全国規模の研究用ネットワーク基盤が正式に稼働した。中国国営メディア「<a href="https://www.stdaily.com/web/gdxw/2025-12/04/content_441822.html">科技日報</a>」は2025年12月4日、「未来网络基础设施（CENI）」が国家検定を通過し、運用段階に入ったと報じた。同基盤は、情報通信分野における国家重大科技基礎施設として整備されてきたものだという。</p>
+<p>科技日報によると、CENIは計算資源を各地に分散配置し、高速ネットワークで接続する構成を採る。単一拠点に計算能力を集約するのではなく、ネットワーク上で計算やデータ処理を行う点が特徴とされている。</p>
+<h2>72TBの天文データ転送で確認された性能差</h2>
+<p>記事では、CENIの性能を示す実証例として、大規模な天文観測データの転送試験が紹介されている。試験は12月3日、江苏省の未来网络创新研究院で実施された。</p>
+<p>対象となったのは、「中国天眼（FAST）」関連の観測データで、データ量は約72TB。贵州师范大学の分センターから、華中科技大学天文系のデータセンターへ転送された。従来の一般的なインターネット環境では、この規模のデータ転送に約699日を要していたという。</p>
+<p>一方、CENIを用いた場合、同じデータは約1.6時間で転送が完了した。科技日報は、この結果をもって、従来方式との間に大きな性能差が確認されたとしている。</p>
+<p><strong>■ 500メートル口径球面電波望遠鏡（FAST、中国天眼）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fast_865bfb86dd/fast_865bfb86dd.jpg" alt="fast.jpg" /></p>
+<h2>確定性ネットワークによる帯域・遅延の保証</h2>
+<p>転送試験では、確定性ネットワーク（中国語では「确定性网络」）と非確定性ネットワークの比較も行われた。いずれも帯域50Gbpsの条件で構築され、同時にデータ転送を実施。さらに、外部から50Gbpsの干渉トラフィックを加える試験が行われた。</p>
+<p>その結果、確定性ネットワークでは転送速度がほぼ維持されたのに対し、非確定性ネットワークでは速度が急激に低下し、1Gbps未満まで落ち込んだとされる。科技日報は、CENIが提供するのは単なる高速通信ではなく、帯域や遅延、パケット損失が事前に制御・保証される通信環境である点を強調している。</p>
+<h2>国家検定を通過、研究用途向けに運用開始</h2>
+<p>CENIは、南京で国家レベルの検定を通過した。検定委員会は、同施設が建設目標を全面的に達成し、情報通信分野における重要な技術成果を生み出したと評価したという。</p>
+<p>科技日報は、CENIを「我国信息通信领域首个国家重大科技基础设施」と位置づけている。商用サービスとしての提供を目的としたものではなく、研究機関や産業界が新たなネットワーク技術や応用を検証するための基盤として整備された点が特徴だ。</p>
+<h2>全国40都市を結ぶ試験ネットワークの構成</h2>
+<p>CENIの構想は2013年に始まり、10年以上をかけて整備が進められてきた。現在は全国40都市を結び、光伝送距離は5万5000キロメートルを超えるという。7×24時間の運用が可能で、複数の異なるネットワークや業務を並行して試験できる構成となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ceni_hefei_c058f2fb27/ceni_hefei_c058f2fb27.jpg" alt="ceni-hefei.jpg" /></p>
+<p>科技日報では、この規模を、全国レベルで新しいネットワーク設計や運用方式を検証できる点に意義があるとしている。</p>
+<h2>AI学習や算力連携に向けた活用例</h2>
+<p>科技日報では、AI分野での活用例にも触れている。千億パラメータ規模の大規模モデルを跨域で協調学習させた場合、確定性ネットワークを利用することで、学習に要する時間を短縮できる可能性が示された。</p>
+<p>一方で、CENIはAI専用の基盤として紹介されているわけではない。科技日報は、同施設を中国全体の計算資源を効率的に連携させる「算力网」構想や、「东数西算」工程に向けた試験基盤の一つとして位置づけている。</p>
+<p>「未来网络基础设施」は、高速通信網や大規模データセンターの代替ではなく、ネットワークと計算を一体として扱う設計を、国家規模で検証するための研究基盤であると科技日報はまとめた。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
@@ -387,7 +395,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/12/14 [SUN]Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
+      <title>Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
       <link>https://ledge.ai/articles/google_ai_long_term_memory_titans_miras</link>
       <description><![CDATA[<p>Google Researchは2025年12月4日、AIモデルに長期的な記憶能力を持たせるための新たなアーキテクチャ「Titans」と、その設計思想を統一的に説明するフレームワーク「MIRAS」を<a href="https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/">発表</a>した。</p>
 <p>Transformerを中心とする既存の大規模言語モデルが抱えてきた「長い文脈を扱うほど計算コストが増大し、重要な情報を保持しにくい」という課題に対し、推論時に記憶を学習・更新するという新しいアプローチを提示している。</p>
@@ -443,7 +451,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
+      <title>ビジネス2025/12/18 [THU]Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
       <link>https://ledge.ai/articles/google_gemini_3_flash_default_model_release</link>
       <description><![CDATA[<p>Googleは2025年12月17日（現地時間）同社の生成AIモデル「Gemini 3」ファミリーに新たに「Gemini 3 Flash」を追加し、提供を開始したことを<a href="https://blog.google/products/gemini/gemini-3-flash/">発表</a>した。Gemini 3 Flashは、スピードを重視しながらも高度な推論能力とマルチモーダル機能を維持する点を特徴としており、一般ユーザー向けのGeminiアプリでは既定モデルとして展開される。</p>
 <p>@<a href="https://www.youtube.com/watch?v=rPXBDSf-Hwg">YouTube</a></p>
@@ -487,7 +495,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/12 [FRI]ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
+      <title>ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
       <link>https://ledge.ai/articles/gpt_5_2_release_openai_chatgpt_update</link>
       <description><![CDATA[<p>OpenAIは2025年12月11日（現地時間）、ChatGPTおよびAPI向けの新モデル「GPT-5.2」を公開したと<a href="https://openai.com/ja-JP/index/introducing-gpt-5-2/">発表</a>した。同社の公式ブログ「Introducing GPT-5.2」では、推論能力や長文コンテキスト処理、コード生成、知識労働タスクなどの幅広い能力が前世代のGPT-5.1から大幅に向上したと説明している。</p>
 <p>GPT-5.2は「 Instant」「Thinking」「Pro」 の3モデルで構成される。Instantは応答速度を重視した軽量モデル、Thinkingは複雑な数学・論理・科学タスクに特化した深い推論モード、Proは拡張コンテキストと高推論能力を備えた上位モデルとして位置付けられる。</p>
@@ -633,7 +641,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、新モデル「GPT Image 1.5」搭載の「ChatGPT Images」を公開──GoogleのNano Banana Proに対抗</title>
+      <title>ビジネス2025/12/17 [WED]OpenAI、新モデル「GPT Image 1.5」搭載の「ChatGPT Images」を公開──GoogleのNano Banana Proに対抗</title>
       <link>https://ledge.ai/articles/openai_chatgpt_images_gpt_image_1_5_release</link>
       <description><![CDATA[<p>OpenAIは2025年12月17日、新しい画像生成モデル「GPT Image 1.5」を搭載した新バージョンの「ChatGPT Images」をリリースしたことを<a href="https://openai.com/index/new-chatgpt-images-is-here/">発表</a>した。新モデルは、ゼロからの画像生成だけでなく、既存画像の編集においてもユーザーの意図をより忠実に反映するよう設計されており、OpenAIはこれを同社の“最も高性能な汎用画像生成モデル”と位置づけている。</p>
 <p>公式ブログによると、GPT Image 1.5は「Precise edits that preserve what matters（重要な要素を保ったまま、正確な編集を行う）」ことを重視して開発された。画像の一部を修正する際にも、照明や構図、人物の外見といった重要な視覚的要素を維持しつつ、指示された変更点のみを反映できるという。</p>
