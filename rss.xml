@@ -99,29 +99,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe、ChatGPTでPhotoshop・Express・Acrobatを提供開始──対話だけで画像編集やPDF作業が可能に</title>
-      <link>https://ledge.ai/articles/adobe_apps_for_chatgpt_photoshop_express_acrobat</link>
-      <description><![CDATA[<p>Adobe、ChatGPTでPhotoshop・Express・Acrobatを提供開始──対話だけで画像編集やPDF作業が可能に</p>
-<p>Adobeは2025年12月10日（米国時間）、ChatGPT上で同社の主要アプリを利用できる「Adobe Apps for ChatGPT」の提供を開始したと<a href="https://news.adobe.com/ja/news/2025/12/20251211-adobe-photosop-express-acrobat-chatgpt">発表</a>した。対象となるのは「Adobe Photoshop」「Adobe Express」「Adobe Acrobat」の3製品で、ChatGPTとの会話を通じて画像編集やデザイン作成、PDF編集などを直接実行できる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=uouNjFuJ3QU">YouTube</a></p>
-<p>同社によると、ChatGPT上で「この画像の背景をぼかしてほしい」「このPDFの文章を修正してほしい」といった自然文で指示するだけで、各アプリの機能が呼び出され、編集が行われる。従来のようにアプリを起動して操作する必要はなく、会話の文脈を理解したうえでタスクを実行する点が特徴だ。</p>
-<p>Photoshopでは、明るさやコントラストの調整、オブジェクトの編集、グリッチやグローといったクリエイティブエフェクトの適用などが可能となる。画質を保ったまま編集でき、スライダーなどの直感的なUIを用いた調整にも対応する。</p>
-<p><strong>■「背景にクリエイティブな効果を追加して」と指示するだけで、Photoshopが編集を実行する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_157c8bf8df2f28f50a647a42c5d3d9ef436a1faa5_168c1e2ea5/media_157c8bf8df2f28f50a647a42c5d3d9ef436a1faa5_168c1e2ea5.jpg" alt="media_157c8bf8df2f28f50a647a42c5d3d9ef436a1faa5.jpg" /></p>
-<p>Adobe Expressでは、テンプレートを活用したデザイン作成やテキスト・画像の差し替え、アニメーションの追加などをChatGPT上で行える。編集内容を対話的に修正しながら仕上げていくことができ、デザイン経験の少ないユーザーでも扱いやすい構成となっている。</p>
-<p><strong>■ Adobe Expressでは、ChatGPTとの対話を通じてテンプレート選択やデザイン作成が可能になる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_15d631a2f2b908e1ebffd15a9cd75d6d591838062_9927f6fc0a/media_15d631a2f2b908e1ebffd15a9cd75d6d591838062_9927f6fc0a.jpg" alt="media_15d631a2f2b908e1ebffd15a9cd75d6d591838062.jpg" /></p>
-<p>Acrobatでは、PDFの編集やテキスト・表の抽出、複数ファイルの統合、圧縮、形式変換などに対応する。レイアウトや体裁を維持したまま編集できるほか、機密情報の修正といった用途にも利用できるという。</p>
-<p><strong>■ ChatGPT上でPDFを直接編集。Adobe Acrobatの編集機能を対話形式で利用できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1fe39d2bd0158dc797544d0d694b43d51bc6bea35_5644bc6742/media_1fe39d2bd0158dc797544d0d694b43d51bc6bea35_5644bc6742.jpg" alt="media_1fe39d2bd0158dc797544d0d694b43d51bc6bea35.jpg" /></p>
-<p>利用環境はChatGPTのWeb版、デスクトップ版、iOS版で、料金は無料。利用にあたってはAdobeアカウントとの連携が必要となるが、無料のAdobe IDで利用できる。Adobe ExpressはAndroidでもすでに利用可能で、PhotoshopとAcrobatのAndroid対応は近日中を予定している。</p>
-<p>なお、ChatGPT上で利用できるのは基本的な編集機能に限られ、高度な編集や最終的な仕上げが必要な場合は、ChatGPTから各Adobeアプリにシームレスに移行して作業を継続できる。</p>
-<p>Adobeは本取り組みを、同社が進めるエージェント型AI戦略の一環と位置付けている。Model Context Protocol（MCP）を活用し、ユーザーの意図を理解した上で適切な操作を実行する対話型体験の拡張を進めてきた。2025年には「Acrobat AI Assistant」や「Photoshop AI Assistant」なども発表しており、今回のChatGPT連携はその延長線上にある。</p>
-<p>Adobeのデジタルメディア事業部門プレジデントを務めるデイビッド・ワドワーニ氏は、「世界中のChatGPTユーザーに、PhotoshopやAcrobat、Expressの機能を直接届けられることをうれしく思う。人々が自分の言葉だけで、簡単にアイデアを形にできるようになる」とコメントしている。</p>
-]]></description>
-      <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確化、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
       <link>https://ledge.ai/articles/agi_definition_stanford_gpt4_27_gpt5_60</link>
       <description><![CDATA[<p>スタンフォード大学やUCバークレー、MITなどの研究者を含む国際チームは、AIの到達度を測る新しい枠組みを提示した論文「A Definition of AGI」を<a href="https://arxiv.org/abs/2510.18212v3">公開</a>した。これまで曖昧だったAGI（汎用人工知能）の定義について、同チームは「教養ある成人（well-educated adult）の認知の幅と熟達度にマッチするAI」と明確化。加えて、人間の知能研究で広く使われるCHC（Cattell-Horn-Carroll）理論に基づき、10種類の認知ドメインでAIモデルを評価する「AGIスコア」を提案した。</p>
@@ -313,6 +290,28 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>科技日報では、AI分野での活用例にも触れている。千億パラメータ規模の大規模モデルを跨域で協調学習させた場合、確定性ネットワークを利用することで、学習に要する時間を短縮できる可能性が示された。</p>
 <p>一方で、CENIはAI専用の基盤として紹介されているわけではない。科技日報は、同施設を中国全体の計算資源を効率的に連携させる「算力网」構想や、「东数西算」工程に向けた試験基盤の一つとして位置づけている。</p>
 <p>「未来网络基础设施」は、高速通信網や大規模データセンターの代替ではなく、ネットワークと計算を一体として扱う設計を、国家規模で検証するための研究基盤であると科技日報はまとめた。</p>
+]]></description>
+      <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare　2025年を振り返って「Radar 2025 Year in Review」公開──AIクローリングと主要サービスへの通信集中が鮮明に</title>
+      <link>https://ledge.ai/articles/cloudflare_2025_ai_crawling_major_services_traffic</link>
+      <description><![CDATA[<p>Cloudflareは、同社ネットワークで観測されたインターネット通信の動向をまとめた年次レポート「Radar 2025 Year in Review」を<a href="https://radar.cloudflare.com/year-in-review/2025#internet-traffic-growth">公開</a>した。2025年のインターネットでは、生成AI関連のクローラーを含む自動化されたアクセスが存在感を増す一方、トラフィックが一部の主要サービスに集中する傾向が改めて浮き彫りになった。</p>
+<p>同レポートは、Cloudflareが世界中で運用するエッジネットワークやDNSリゾルバーなどを通じて得られた観測データをもとに、2025年の通信トラフィック、サービス利用、セキュリティ動向などを多角的に整理したものだ。</p>
+<h2>AI時代のクローリングが示した通信の転換点</h2>
+<p>Radar 2025 Year in Reviewでは、2025年のインターネット通信において、検索エンジン向けの従来型クローラーに加え、生成AIに関連するクローラーの活動が顕著になった点が強調されている。Cloudflareは、こうした動きを単なるトラフィック量の増加ではなく、通信の構造が変化しつつある兆候として捉えている。</p>
+<p><strong>■ 2025年を通じて、生成AI関連を含む各種クローラーのリクエストが継続的に観測された。Cloudflare Radarは、AIボットと従来型クローラーの通信量を並列に可視化している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_bot_c1ac1e0c43/ai_bot_c1ac1e0c43.jpg" alt="ai bot.jpg" /></p>
+<p>生成AI向けクローラーは、Webページを検索結果に反映するための従来のクロールとは異なり、学習や要約、回答生成といった用途を前提に巡回する点が特徴とされる。Radarでは、こうしたAIクローラーの通信が、一定の割合を占めるまでに拡大している実態が示されている。</p>
+<p>Cloudflareはまた、ボットによるアクセスが必ずしも悪意あるものではない点にも言及している。検索やAIサービスの品質向上に寄与する「正当なボット」がある一方で、過剰なクロールや意図しない負荷を生むアクセスも存在しており、Web運営においては人間と自動化された通信を区別して扱う重要性が増しているとする。</p>
+<h2>トラフィックが集まった主要サービス群</h2>
+<p>Radar 2025 Year in Reviewでは、2025年を通じてどのようなサービスにトラフィックが集中したのかについても整理されている。検索、ソーシャルメディア、動画配信、クラウド関連サービスといった分野では、引き続き一部の大規模プラットフォームが高い通信量を維持した。</p>
+<p><strong>■ 2025年はGoogleをはじめとする既存の大規模インターネットサービスが、引き続き高いトラフィックを維持した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/internet_services_2d645b8411/internet_services_2d645b8411.jpg" alt="internet services.jpg" /></p>
+<p>Cloudflareは、こうした傾向をインターネット利用の「重心」が特定のサービス群に集約されつつある状況として示している。特に、日常的に利用されるインフラ的なサービスほど安定したトラフィックを確保しており、利用先の固定化が進んでいる様子がうかがえる。</p>
+<p>また、生成AI関連サービスについても、2025年には一過性の話題ではなく、日常的にアクセスされる存在としてトラフィック上に現れるようになった点が示された。人間による直接利用と、AIクローラーによるアクセスが混在することで、通信の内訳がより複雑化していることも特徴として挙げられている。</p>
+<h2>可視化が示す2025年のインターネット像</h2>
+<p>Cloudflareは、Radarを通じて「どの通信が、誰によって発生しているのか」を可視化する重要性を強調している。2025年のインターネットは、人間の利用だけでなく、AIやボットによる自動化された通信が前提となりつつあり、セキュリティ対策やトラフィック制御においても、こうした前提を踏まえた対応が求められているという。</p>
 ]]></description>
       <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
     </item>
