@@ -800,6 +800,37 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Steamに「100％AI制作」をうたうゲーム登場──コードから音楽まで“全工程AI”と開示</title>
+      <link>https://ledge.ai/articles/steam_100_percent_ai_generated_game_codex_mortis</link>
+      <description><![CDATA[<p>ゲーム開発における生成AI活用が広がる中、制作工程のすべてをAIで生成したと申告するゲームが、PCゲーム配信プラットフォーム「Steam」に登場した。</p>
+<p>対象となるのは、ローグライト系アクションゲーム「CODEX MORTIS」。Steam上で公開されている体験版（Demo）は2025年12月9日付で<a href="https://store.steampowered.com/app/4095390/CODEX_MORTIS_Demo/">配信</a>が始まっており、ストアページの「AI Generated Content Disclosure（AI生成コンテンツの開示）」欄には、コード、アート、サウンド、音楽、テキストのすべてがAI生成であると記載されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=E5Oxs8lPT8s">YouTube</a></p>
+<h2>Steam上に現れた“全工程AI”という記載</h2>
+<p>「CODEX MORTIS」の体験版および本編のSteamストアページでは、いずれもAI生成コンテンツに関する開示が行われている。
+体験版の開示欄には「All code is AI vibe codes, also arts, sounds, music, texts」と記されており、本編ページでも、ゲーム全体がAIによって生成されたことが示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/100_Vibe_Coded_Playable_Game_4fb83b3185/100_Vibe_Coded_Playable_Game_4fb83b3185.jpg" alt="100%VibeCodedPlayableGame.jpg" /></p>
+<p>開発元はGROLAF、パブリッシャーはCRUNCHFESTと表示されており、本編の発売時期については、現時点では「未定」とされている。</p>
+<p>これらの記載は、第三者による検証結果ではなく、開発側がSteam上で申告した内容である。一方で、コードから音楽に至るまで「全工程AI」と明示している点は、Steam上でも目立つ表現となっている。</p>
+<h2>Steamは何を開示させているのか</h2>
+<p>Steamを運営するValveは、開発者向け公式ドキュメント「Steamworks」において、ゲーム公開前に提出する「Content Survey（コンテンツ調査）」の中で、生成AIの利用有無や内容を申告する仕組みを設けている。</p>
+<p>この調査では、</p>
+<ul>
+<li>開発段階で生成されたコンテンツ（Pre-Generated AI）</li>
+<li>実行中に生成されるコンテンツ（Live-Generated AI）</li>
+</ul>
+<p>といった区分を含め、生成AIがどの工程でどのように使われているかを説明することが求められる。
+その回答内容に基づき、Steamストア上では「AI Generated Content Disclosure」として、AI利用に関する情報が表示される。</p>
+<p>「CODEX MORTIS」は、この枠組みの下で、制作工程全体をAI生成とする内容を申告したタイトルの一つとなる。</p>
+<h2>“全工程AI”は例外か、兆しか</h2>
+<p>ゲーム業界では近年、コンセプトアート制作やコード補助、テキスト生成、テスト工程など、さまざまな場面で生成AIの活用が進んでいる。一方で、コード、ビジュアル、音楽までを含めて“すべてAI生成”と明示するケースは、依然として多くはない。</p>
+<p>今回の事例は、作品の完成度や評価とは切り離して、SteamのAI開示制度の下で「全工程AI」という申告が公に確認できる形で示された点に特徴がある。</p>
+<p>生成AIをめぐっては、これまでSteamは取り扱いに慎重な姿勢を見せる一方、Epic Games Storeは比較的早い段階から生成AIの活用を前提としたスタンスを示してきた。
+そうした中で、Steamが生成AIの利用内容を明示的に開示させる制度を整え、その枠組みの中で「全工程AI」を申告するタイトルが登場したことは、同プラットフォームにおける運用の一つの転換点として捉えることもできる。</p>
+<p>今回の事例は、生成AI作品を一律に排除するのではなく、開示と申告を前提に取り扱うという、Steam側の現在地を示すものとも言えそうだ。</p>
+]]></description>
+      <pubDate>Mon, 24 Nov 2025 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google傘下Waymoのロボタクシー、停車中のスクールバス追い越しに関する安全違反で規制当局（NHTSA）調査―—自動運転システムのソフトウェアを自主リコール</title>
       <link>https://ledge.ai/articles/waymo_robotaxi_school_bus_software_recall</link>
       <description><![CDATA[<p>Google傘下で自動運転事業を手がけるWaymoのロボタクシーが、停車中のスクールバスを追い越す際に交通安全法規を順守していなかったとして、米運輸省道路交通安全局（NHTSA：The National Highway Traffic Safety Administration）が<a href="https://static.nhtsa.gov/odi/inv/2025/INIM-PE25013-30896.pdf">調査</a>を実施している。これは、2025年12月6日の<a href="https://www.reuters.com/world/waymo-issue-recall-over-self-driving-vehicles-driving-past-stopped-school-buses-2025-12-05/">Reuters</a>などの報道から明らかになった。Waymoは問題となった挙動を認め、対象となる自動運転システムのソフトウェアを自主的にリコールするという。</p>
