@@ -363,39 +363,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>世界中の建物27.5億棟を3D化──ミュンヘン工科大、初の“完全グローバル”建物3Dデータセットを公開</title>
-      <link>https://ledge.ai/articles/global_building_atlas_tum_global_3d_building_dataset</link>
-      <description><![CDATA[<p>ミュンヘン工科大学（Technical University of Munich：TUM）の研究チームは2025年12月2日、世界中の建物を網羅した高解像度3D建物データセット「GlobalBuildingAtlas」を<a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/all-the-worlds-buildings-available-as-3d-models-for-the-first-time">公開</a>した。建物の形状ポリゴンと高さ情報を統合し、地球上の建物約27.5億棟をLoD1（簡易レベル）の3Dモデルとして再構成したもので、全球規模で一貫した3D建物データセットは初めてだという。</p>
-<p>GlobalBuildingAtlasは、都市構造の把握や人口分布の推定、防災や気候変動対策などへの活用を想定して設計された。TUMは公式発表の中で、同データセットにより「世界中の建物が初めて3Dモデルとして利用可能になる」としている。</p>
-<h2>建物データを「全球」で扱うという試み</h2>
-<p>これまで、建物データは国や地域ごとに整備状況が大きく異なり、全球レベルでは不完全なカバレッジや粗い解像度にとどまっていた。特に建物の高さや体積といった立体情報は、地域限定のLiDAR測量や航空測量に依存するケースが多く、世界全体を同一基準で扱うことは難しかった。</p>
-<p>GlobalBuildingAtlasは、こうした課題に対し、建物単位での一貫した全球カバレッジを目指した取り組みとして位置づけられている。研究チームは、既存のオープン建物データと衛星観測データを統合し、品質を重視した形で再構築したとしている。</p>
-<h2>データセットの規模と構成</h2>
-<p>GlobalBuildingAtlasがカバーする建物数は約27.5億棟にのぼる。各建物について、2Dの建物ポリゴンに加え、推定された高さ情報が付与され、LoD1レベルの3Dモデルが生成されている。論文によると、建物高さの推定が行われた建物は全体の97％以上を占める。</p>
-<p><strong>■ GlobalBuildingAtlasの構築プロセス概要。光学衛星画像から建物高さを推定し、全球規模の3D建物モデルを生成している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Global_Building_Atlas_fig1_82822b2f78/Global_Building_Atlas_fig1_82822b2f78.png" alt="GlobalBuildingAtlas fig1.png" /></p>
-<p>建物高さは、約3メートル四方の空間解像度で推定されており、従来の全球規模の建物高さデータと比べて大幅に高精細だ。これにより、都市全体の立体構造や建物体積を、より細かな粒度で分析できるようになったとしている。</p>
-<h2>高さ推定と3D化のアプローチ</h2>
-<p>GlobalBuildingAtlasの構築には、光学衛星画像と機械学習モデルが用いられている。研究チームは、PlanetScopeの光学衛星画像を入力とし、単眼画像から建物高さを推定するモデルを開発した。</p>
-<p>この手法の特徴は、高価なLiDARデータや航空測量に依存せず、全球で一貫して取得可能な光学衛星データのみを用いている点にある。論文では、複数地域での検証を通じて、高さ推定の精度や誤差特性についても評価が行われている。</p>
-<h2>建物の「体積」を扱えることの意味</h2>
-<p>建物データはこれまで、主に平面積や建物数といった2次元的な指標で扱われてきた。しかし、都市の密度や居住実態を把握する上では、高さを含む立体情報が重要になる。</p>
-<p>GlobalBuildingAtlasでは、建物体積を用いた分析が可能となり、論文中では人口分布や経済指標との関係についても検証が行われている。研究チームは、体積ベースの指標が、都市化の度合いや地域差をより適切に反映する可能性があるとしている。</p>
-<h2>ミュンヘン工科大学が示す活用の方向性</h2>
-<p>TUMは、本データセットを都市計画や防災、インフラ整備、気候変動対策などの基盤データとして位置づけている。特に、統計データや測量インフラが十分に整備されていない地域において、都市構造を把握するための補完的な情報源になると説明している。</p>
-<h2>データ提供と可視化の取り組み</h2>
-<p>GlobalBuildingAtlasは、研究用途を中心としたオープンデータとして公開されている。データセットに加え、ブラウザ上で建物の3D分布を確認できるインタラクティブな3D地図も提供されており、全球規模の建物構造を視覚的に把握することができる。</p>
-<p><strong>■ GlobalBuildingAtlasがカバーする全球の建物分布。約27.5億棟の建物が一貫した基準で収録されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/overview_fig3_d0765fe792/overview_fig3_d0765fe792.jpg" alt="overview fig3.jpg" /></p>
-<h2>精度評価と今後の課題</h2>
-<p>一方で、論文では地域による推定精度の差についても言及されている。高層建築が集中する都市部では高さの過小推定が見られるケースがあり、教師データの不足する地域では誤差が大きくなる傾向があるという。</p>
-<p><strong>■ 地域別に見た建物高さ推定の誤差分布。高層建築が集中する都市部では過小推定が見られるケースがある。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Global_Building_Atlas_fig6_80eb2dea64/Global_Building_Atlas_fig6_80eb2dea64.png" alt="GlobalBuildingAtlas fig6.png" /></p>
-<p>研究チームは今後、学習データの拡充やモデル改良を通じて精度向上を図るとともに、将来的にはより詳細な3D表現への発展も視野に入れている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Googleら、マルチエージェントAIの「スケーリング原理」を定量化──数を増やせば賢くなる、は普遍則ではなかった</title>
       <link>https://ledge.ai/articles/google_agent_scaling_law_science</link>
       <description><![CDATA[<p>Google ResearchおよびGoogle DeepMind、MITの研究チームは2025年12月9日、AIエージェントシステムの性能がどのようにスケールするかを定量的に分析した研究論文「Towards a Science of Scaling Agent Systems」をプレプリントサーバーarXiv上で<a href="https://arxiv.org/abs/2512.08296">発表</a>した。</p>
