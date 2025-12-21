@@ -468,6 +468,19 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、ディズニー要請受けAI生成動画を削除──OpenAIとは対照的な対応に</title>
+      <link>https://ledge.ai/articles/google_disney_ai_generated_videos_removed_variety</link>
+      <description><![CDATA[<p>Googleが、ディズニーからの削除要請を受け、ディズニーキャラクターを描いたAI生成動画を数十本削除していたことが分かった。米<a href="https://variety.com/2025/film/news/google-removes-ai-videos-disney-characters-cease-desist-1236608015/">Variety</a>が2025年12月12日に報じた。</p>
+<p>Varietyによると、削除されたのはYouTube上に投稿されていたAI生成動画で、ミッキーマウスやマーベル作品、スター・ウォーズ、『ザ・シンプソンズ』など、ディズニー傘下のキャラクターが描写されていたという。ディズニーはこれらの動画について、著作権侵害の可能性があるとして、Googleに対し正式な削除要請（cease and desist）を送付したとされる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/variety_disney_google_4a027dbfad/variety_disney_google_4a027dbfad.jpg" alt="variety disney google.jpg" /></p>
+<p>GoogleはVarietyの取材に対し、当該動画を削除した事実を認めている。一方で、削除対象の詳細や、今後の対応方針については明らかにしていない。</p>
+<p>ディズニーは近年、生成AIによる自社キャラクターの無断利用に対して警戒を強めている。Varietyは、今回の削除要請が単発の対応ではなく、AI生成コンテンツ全般に対する管理を強化する動きの一環である可能性を指摘している。</p>
+<p>こうした対応は、ディズニーが生成AIの活用自体を一律に拒否しているわけではない点と対照的だ。ディズニーは2025年12月11日、OpenAIと3年間のライセンス契約を締結し、動画生成AI「Sora」において、ディズニー、マーベル、ピクサー、スター・ウォーズなど200以上の公式キャラクターの利用を<a href="https://ledge.ai/articles/disney_openai_sora_character_license">認めている</a>。</p>
+<p>Varietyが伝える今回のGoogleの事例は、同じ生成AIを巡る動きでありながら、企業ごとに異なる対応が取られている現状を示している。OpenAIとはライセンス契約を結ぶ一方で、Googleに対しては削除要請という形で対処しており、どの企業が、どの条件下でディズニーの知的財産を扱えるのか、その線引きがより明確になりつつあることがうかがえる。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2025/12/18 [THU]Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
       <link>https://ledge.ai/articles/google_gemini_3_flash_default_model_release</link>
       <description><![CDATA[<p>Googleは2025年12月17日（現地時間）同社の生成AIモデル「Gemini 3」ファミリーに新たに「Gemini 3 Flash」を追加し、提供を開始したことを<a href="https://blog.google/products/gemini/gemini-3-flash/">発表</a>した。Gemini 3 Flashは、スピードを重視しながらも高度な推論能力とマルチモーダル機能を維持する点を特徴としており、一般ユーザー向けのGeminiアプリでは既定モデルとして展開される。</p>
@@ -508,39 +521,6 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <h2>まずはMapsやBigQueryなど主要サービスから対応</h2>
 <p>発表時点でMCPサーバに対応している主なサービスには、Google Maps、BigQuery、Google Compute Engine、Google Kubernetes Engine（GKE）などが含まれる。これらのサービスは、位置情報、データ分析、計算資源、コンテナ管理といった機能を提供しており、AIエージェントが実際の処理や操作を行うための基盤として利用できる。</p>
 <p>Googleは、これらの初期対応サービスにとどまらず、今後すべてのGoogleサービスで同様の仕組みを提供する計画を示している。公式ブログでは、今後数カ月以内にCloud Run、Cloud Storage、Spanner、Looker、Pub/Sub、Cloud Logging、Cloud Monitoring、Security Operations（SecOps）、Android Management APIなどにも対応を広げる予定だとしている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT、新モデル「GPT-5.2」公開──アルトマンCEO「最も賢い一般提供モデル」　推論・コード生成が大幅進化</title>
-      <link>https://ledge.ai/articles/gpt_5_2_release_openai_chatgpt_update</link>
-      <description><![CDATA[<p>OpenAIは2025年12月11日（現地時間）、ChatGPTおよびAPI向けの新モデル「GPT-5.2」を公開したと<a href="https://openai.com/ja-JP/index/introducing-gpt-5-2/">発表</a>した。同社の公式ブログ「Introducing GPT-5.2」では、推論能力や長文コンテキスト処理、コード生成、知識労働タスクなどの幅広い能力が前世代のGPT-5.1から大幅に向上したと説明している。</p>
-<p>GPT-5.2は「 Instant」「Thinking」「Pro」 の3モデルで構成される。Instantは応答速度を重視した軽量モデル、Thinkingは複雑な数学・論理・科学タスクに特化した深い推論モード、Proは拡張コンテキストと高推論能力を備えた上位モデルとして位置付けられる。</p>
-<p>ChatGPTでは、新たに「GPT-5.2 Auto」を導入し、InstantとThinkingをタスク内容に応じて自動で切り替える仕様となった。ユーザーは用途に応じてモデルを手動選択する必要がなく、質問の難易度に応じて適切な推論モードが選択される。</p>
-<p>性能面では、GPT-5.2 ThinkingはGPT-5.1 Thinkingと比較して、匿名化されたChatGPTのクエリセットにおける「誤りを含む回答」が相対的に38%減少したとされる。加えて、UIコンポーネントの生成や複数ツールを組み合わせてコードを実行する、いわゆる「エージェント型コーディング」が安定し、問題設定から実装、検証までの一連の開発ワークフローを高精度に遂行できるようになったという。長文処理の安定性も向上した。</p>
-<p><strong>GPT-5.2 Thinking の主要ベンチマーク結果：</strong> （SWE-Bench Pro、GPQA、ARC-AGI、GDPvalなど）。GPT-5.1比で複数指標が大幅に向上した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G76_Fh4_Wag_AAE_Ec_6b6e96de07/G76_Fh4_Wag_AAE_Ec_6b6e96de07.jpg" alt="G76Fh4WagAAE_Ec.jpg" /></p>
-<h3>ARC-AGI-1でSOTAを更新、推論力の“質”を測る指標で高評価</h3>
-<p>GPT-5.2の推論性能を示す指標のひとつが「ARC-AGI-1」だ。
-ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な推論能力を測ることを目的に設計されたベンチマークで、単なる知識量やパターン暗記では解けない問題で構成されている。</p>
-<p>具体的には
-少数の例からルールを推測する
-見慣れない問題に対して柔軟に考え方を切り替える</p>
-<p>といった能力が求められ、「AIが本当に“考えているか”」を測るテストとして知られている。</p>
-<p>このARC-AGI-1（Verified）において、GPT-5.2 Pro（X-High）は90.5%のスコアを記録した。この結果は第三者機関である <a href="https://x.com/arcprize/status/1999182732845547795">ARC Prize</a> によって検証されており、同団体は、1年前に検証された未公開モデルと比較して約390倍の効率改善が達成されたと評価している。</p>
-<p>この結果は、GPT-5.2が単に正解率を積み上げたモデルではなく、未知の問題に対して抽象的に考え、解決策を導く能力が大きく向上していることを示している。</p>
-<p><strong>ARC-AGI-1における各モデルのスコアとタスクあたりのコスト：</strong> GPT-5.2 Pro（X-High）は90.5%を記録し、推論能力とコスト効率の両面で最高水準に達した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G76_GG_Zwag_A_Un7ub_b885ba305c/G76_GG_Zwag_A_Un7ub_b885ba305c.jpg" alt="G76GGZwagAUn7ub.jpg" /></p>
-<p>知識労働タスクにおける性能も強化された。業界専門家の回答と比較評価する「GDPval」では、GPT-5.2 Thinkingが70.9%、GPT-5.2 Proが74.1%を記録し、前世代のGPT-5（38.8%）を大きく上回った。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G76_Fi_Hka_AAE_Dmu_H_0ab7a9b29b/G76_Fi_Hka_AAE_Dmu_H_0ab7a9b29b.png" alt="G76FiHkaAAEDmuH.png" /></p>
-<p>さらにGPT-5.2 Thinkingでは、スプレッドシートやプレゼンテーション資料など、「整形済みのファイル」を直接生成する機能も強化されている。OpenAIは、人員計画（ワークフォースプランニング）を例に、部門別のコスト計算や集計まで含めたスプレッドシートを自動生成する事例を公開した。</p>
-<p><strong>左：GPT-5.2 Thinking が生成した部門別人員計画のスプレッドシート。集計・比較表まで自動生成されている。</strong>
-<strong>右：複数部門のコスト、給与、採用費などが整形済み表として出力される。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G76_Fiaoag_AAH_i8_side_6039c883db/G76_Fiaoag_AAH_i8_side_6039c883db.jpg" alt="G76FiaoagAAH_i8-side.jpg" /></p>
-<p>OpenAI CEOのサム・アルトマン氏は、自身のX（旧Twitter）でGPT-5.2について「現時点で一般提供されている中で最も賢いモデル」と述べ、特に知識労働タスクにおける性能向上を強調した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GPT_5_2_is_here_by_sama_cbe335e446/GPT_5_2_is_here_by_sama_cbe335e446.jpg" alt="GPT-5-2 is here by sama.jpg" /></p>
-<p>安全性面では、GPT-5系で用いられてきた既存の安全性フレームワークを引き継ぎつつ、GPT-5.2向けに調整した新版のシステムカードが公開されている。リスク緩和策や評価項目の更新が行われたとしている。</p>
-<p>OpenAIはGPT-5.2を「GPT-5シリーズの中心モデル」と位置づけ、今後のChatGPTおよびAPIの基盤として、継続的な改善を進めていく方針だ。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
