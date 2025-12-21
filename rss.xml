@@ -689,6 +689,33 @@ ARC-AGI（Abstraction and Reasoning Corpus）は、人間が持つ抽象的な�
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Meta、音声分離AI「SAM Audio」公開──テキスト・映像・時間指定で任意の音を切り出し</title>
+      <link>https://ledge.ai/articles/meta_sam_audio_release</link>
+      <description><![CDATA[<p>米Metaは2025年12月16日、複雑な音声データから特定の音を分離できる音声分離AIモデル「SAM Audio」を<a href="https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/">発表</a>した。テキスト、映像、時間スパンという3種類のプロンプトを用いて音を切り出せる点が特徴で、同社は音声分野における初の統合型（unified）音声分離モデルとして位置付けている。</p>
+<p>SAM Audioは、Metaが展開してきた「Segment Anything」モデル群の最新例となる。動画や音声に含まれる複数の音が混在した状態から、ユーザーが指定した対象音のみを抽出できるよう設計されており、音声編集や動画制作の工程を大きく変える可能性があるとしている。</p>
+<p>Metaは具体例として、バンド演奏を撮影した動画からギターやボーカルだけを分離するケースや、屋外で撮影した映像から交通騒音を除去するケース、ポッドキャスト全体から犬の鳴き声を取り除くといった使い方を挙げている。専門的な音響知識を必要とせず、直感的な操作で音声分離が行える点を強調する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=gPj_cQL_wvg">YouTube</a></p>
+<h2>3種類のプロンプトで音声分離を実現</h2>
+<p>SAM Audioは、以下の3種類のプロンプト方式に対応する。</p>
+<ul>
+<li><strong>テキストプロンプト：</strong> 「dog barking（犬の鳴き声）」や「singing voice（歌声）」といった自然言語を入力することで、該当する音を抽出できる</li>
+<li><strong>ビジュアルプロンプト：</strong> 動画上の人物や物体をクリックすることで、その対象が発している音を分離する</li>
+<li><strong>スパン（時間）プロンプト：</strong> 対象音が含まれる時間区間を指定し、同種の音を音声全体から抽出する。Metaはこの方式を「業界初」としている。</li>
+</ul>
+<p><strong>スパンプロンプト：音声波形上で鳥の鳴き声が含まれる区間を指定すると、その特徴を手がかりに、音声全体から同種の音を検出・分離する。音の名称を言語で指定する必要はなく、「この時間に鳴っている音」を示すだけでよい</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaudio_spanprompting_760d424baa/samaudio_spanprompting_760d424baa.jpg" alt="samaudio spanprompting.jpg" /></p>
+<p>これらのプロンプトは単独でも、組み合わせても使用可能で、ユーザーは目的に応じて柔軟に音声分離の条件を指定できる。</p>
+<h2>断片化していた音声編集を統合モデルでカバー</h2>
+<p>これまでの音声分離や音声編集は、用途ごとに特化した単機能ツールが中心だった。MetaはSAM Audioについて、人が自然に音を捉え、指定する感覚に近い形で操作できる点を特徴とし、従来の断片化した音声編集環境を統合的に扱えるモデルだと説明している。</p>
+<p><a href="https://ai.meta.com/research/publications/sam-audio-segment-anything-in-audio/">研究論文</a>では、多様な実世界の音環境を想定した評価において高い性能を示したとしており、音声分離における汎用的な基盤モデルを目指す取り組みとして位置付けられている。</p>
+<h2>音楽・映像から研究、アクセシビリティまで</h2>
+<p>Metaは、SAM Audioの活用分野として、音楽制作、ポッドキャスト、テレビや映画制作、動画編集、科学研究、アクセシビリティ支援などを挙げている。同社はすでにSAM Audioを次世代のクリエイティブメディアツールの開発に活用しているという。</p>
+<p>SAM Audioは、Metaの「Segment Anything Playground」で試用できる。ユーザーは用意された音声・動画素材を選択するほか、自身のデータをアップロードしてモデルの挙動を確認できる。あわせて、研究・開発用途向けにモデルのダウンロード提供も開始している。</p>
+<p>Metaは、画像分野で広く使われてきた「Segment Anything」の考え方を音声分野に拡張することで、音声編集の在り方を変える可能性があるとし、SAM Audioを「オールラウンドな音声分離モデル」と位置付けている。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>スマホ単体でLLMをファインチューニング──C++製OSS「MobileFineTuner」、メモリ・電力制約を越える最適化</title>
       <link>https://ledge.ai/articles/mobilefinetuner_llm_finetuning_on_mobile_phones</link>
       <description><![CDATA[<p>スマートフォン上で大規模言語モデル（LLM）のファインチューニングをエンドツーエンドで実行できる統合フレームワークが提案された。</p>
