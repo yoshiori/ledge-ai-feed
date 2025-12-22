@@ -344,25 +344,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>月額3万6400円の「Google AI Ultra」に最強推論モード──Geminiアプリに、思考するAI「Deep Think」モードの実装</title>
-      <link>https://ledge.ai/articles/gemini_3_deep_think_google_ai_ultra_launch</link>
-      <description><![CDATA[<p>Googleは2025年12月4日（現地時間）、Geminiアプリに新たな推論モード「Gemini 3 Deep Think」を追加したと<a href="https://blog.google/products/gemini/gemini-3-deep-think/">発表</a>した。</p>
-<p>同社はブログで、「Today, we’re rolling out Gemini 3 Deep Think mode to Google AI Ultra subscribers in the Gemini app.」と述べており、最上位サブスクリプションプラン「Google AI Ultra」の加入者を対象に、Geminiアプリで順次ロールアウトしている。利用するには、モデル選択で「Gemini 3 Pro」を選び、プロンプト入力欄から「Deep Think」モードをオンにする。</p>
-<h2>高難度課題向けに推論能力を強化</h2>
-<p>公開された「Gemini 3 Deep Think」は、回答を出力する前に複数の推論ステップを挟むことで、従来よりも深い推論ができるよう設計されたモードだ。Googleはブログで、同モードが「meaningful improvement in reasoning capabilities」を提供し、複雑な数学・科学・論理推論に取り組む場面を想定していると説明している。</p>
-<p>具体的には、高度な並列推論（advanced parallel reasoning）を用いて複数の仮説を同時に探索するアプローチを採用することで、問題解決の過程を強化しているという。これにより、単に次の単語を即座に予測するのではなく、複数の候補を比較しながら解答に至るプロセスを踏めるとしている。</p>
-<p>Googleは、Gemini 3 Deep Thinkが高難度ベンチマークで次のようなスコアを記録したと紹介している。</p>
-<ul>
-<li>Humanity’s Last Exam：ツールなしで 41.0%</li>
-<li>ARC-AGI-2：コード実行ありで 45.1%</li>
-</ul>
-<p>同社は、これらの結果について「industry leading」「unprecedented（前例のない）」と表現しており、深い推論が求められるベンチマークにおいて業界トップレベルの性能を示したと位置づけている。また、今回のGemini 3 Deep Thinkは、国際数学オリンピック（IMO）や国際大学対抗プログラミングコンテスト（ICPC）World Finalsで「gold-medal standard」とされる水準に達した「Gemini 2.5 Deep Think」の系譜にあると説明されている。</p>
-<h2>利用対象は「Google AI Ultra」加入者</h2>
-<p>日本向けの公式プランページでは、Google AI Ultraの料金は月額3万6400円（税込）と案内されている。現時点（2025年12月8日）では、GeminiアプリでのDeep ThinkおよびGemini Agentについては「米国のみ、英語のみで利用可能」とされており、機能レベルでは提供地域に制限が設けられている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>世界中の建物27.5億棟を3D化──ミュンヘン工科大、初の“完全グローバル”建物3Dデータセットを公開</title>
       <link>https://ledge.ai/articles/global_building_atlas_tum_global_3d_building_dataset</link>
       <description><![CDATA[<p>ミュンヘン工科大学（Technical University of Munich：TUM）の研究チームは2025年12月2日、世界中の建物を網羅した高解像度3D建物データセット「GlobalBuildingAtlas」を<a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/all-the-worlds-buildings-available-as-3d-models-for-the-first-time">公開</a>した。建物の形状ポリゴンと高さ情報を統合し、地球上の建物約27.5億棟をLoD1（簡易レベル）の3Dモデルとして再構成したもので、全球規模で一貫した3D建物データセットは初めてだという。</p>
@@ -724,38 +705,6 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <h2>公開形態と今後の焦点</h2>
 <p>MobileFineTunerは、論文とともにオープンソースソフトウェアとして公開されており、Android 10以降の端末で動作するとされている。著者らは今後、異種ハードウェア対応や、フェデレーテッド／協調学習との統合を検討するとしている。</p>
 <p>研究は、オンデバイスLLM学習を「概念」ではなく実装と実機検証で示した点に特徴があり、スマートフォンを前提としたLLM活用の設計空間を広げるものとして位置付けられる。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTT、次世代都市構想「光の街」始動──IOWNを都市に実装し、本社を2031年に日比谷へ移転</title>
-      <link>https://ledge.ai/articles/ntt_iown_hikari_city_hibiya_hq_move_2031</link>
-      <description><![CDATA[<p>NTT株式会社、NTTアーバンソリューションズ株式会社、NTT都市開発株式会社は2025年12月8日、次世代情報通信基盤「IOWN」を都市空間に実装し、街がテクノロジーとともに進化し続ける「光の街 powered by IOWN」構想を開始すると<a href="https://group.ntt/jp/newsrelease/2025/12/08/251208a.html">発表</a>した。本構想の第一弾は、2031年10月末に竣工予定の「NTT日比谷タワー」を中心に展開され、NTT本社も同タワーへの移転を予定している。</p>
-<p>1961年に旧日本電信電話公社が本社を構えた日比谷の地に再び拠点を置くことで、NTTグループが蓄積してきた技術力を結集し、新たな価値創出と超・低消費電力化を実現することを目指すとしている。</p>
-<h2>社会課題の深刻化とIOWNの役割</h2>
-<p>日本では少子高齢化による人手不足、地球温暖化、自然災害の頻発に加え、AI・ロボティクスの普及による電力消費の増大が課題となっている。NTTは、膨大なデータを大容量・低遅延・低消費電力で処理できるIOWNを社会基盤として都市に実装することで、災害予測、インフラ制御、企業業務の効率化など、多領域での課題解決を進めるという。</p>
-<h2>新しいビジネス・イノベーション</h2>
-<p>IOWNが実装されるNTT日比谷タワーでは、世界中の企業とリアルタイムで協働できる環境を整備する。
-通信とデータ処理を統合した基盤を活用することで、臨場感のあるコミュニケーションや高度な遠隔業務が可能になる。</p>
-<p>また、NTTは業務支援の高度化に向けて、NTT版LLM「tsuzumi 2」や、大規模AI連携技術「AIコンステレーション」をIOWNと組み合わせることで情報検索や資料作成支援、国際的なコラボレーションなど、企業活動を支える多様なアプリケーションの展開を想定している。
-将来的には、会議で生まれたアイデアをモデル化したり、必要な情報を即座に提示するなど、働く環境の高度化を支える技術として発展させる方針だ。</p>
-<p>将来的な空間・時間を問わないビジネスシーンイメージ
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ab_3cda72f446/251208ab_3cda72f446.jpg" alt="251208ab.jpg" /></p>
-<h2>新たなライフスタイル・エンターテインメント</h2>
-<p>日比谷タワー低層部に整備される大規模アトリウム「（仮称）Cross Gate」では、壁面・天井一体型の大型LEDビジョンを活用し、世界各地とリアルタイムでつながるイベント空間を形成する。</p>
-<p>商業施設との連動イベントや多拠点同時発表会、ライブビューイングなど、多様な活用が可能。将来的には音響XR技術なども組み合わせ、より深い没入体験を提供する。</p>
-<p>将来的な（仮称）Cross Gateでのエンターテイメントイメージ（左図：バーチャルアクアリウム、右図：他会場と融合したバスケットボール観戦）
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/251208ac_72eb58dead/251208ac_72eb58dead.jpg" alt="251208ac.jpg" /></p>
-<h2>超・低消費電力化によるサステナビリティ</h2>
-<p>都市全体の持続可能性に向け、NTTは以下の取り組みを明示している。</p>
-<ul>
-<li>オフィス部分で「ZEB Ready」を実現（従来比50％以上の省エネ）</li>
-<li>光電融合デバイスによる消費電力削減</li>
-<li>IOWN×AIの予測制御「Just Enough Energy」で10〜20％のCO₂削減</li>
-<li>将来は光量子コンピュータや水素エネルギーの活用も検討</li>
-</ul>
-<h2>今後の展開</h2>
-<p>内幸町一丁目街区は、官民連携や研究機関との共創が可能な次世代スマートシティへと整備が進む。NTT日比谷タワーで得られた知見は、周辺エリア、国内、さらには海外へと段階的に展開される予定だ。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
