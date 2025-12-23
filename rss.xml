@@ -344,6 +344,30 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>デジタル庁と内閣府、市区町村単位の「Japan Dashboard」を公開──経済・財政・人口・暮らしを横断可視化</title>
+      <link>https://ledge.ai/articles/digital_agency_cabinet_office_japan_dashboard_municipality</link>
+      <description><![CDATA[<p>デジタル庁は2025年12月19日、内閣府と共同で、自治体データを市区町村単位で可視化するJapan Dashboard｜経済・財政・人口と暮らしの市区町村版を<a href="https://www.digital.go.jp/resources/japandashboard/economy-fiscal-living-municipality">発表</a>した。経済、財政、人口、暮らしに関する主要指標を、地図やグラフで比較・分析できる。</p>
+<h2>国・都道府県に続き、市区町村版を新たに公開</h2>
+<p>Japan Dashboardは、政府が整備を進めてきたデータ可視化基盤だ。これまで国・都道府県単位の情報提供が中心だったが、今回新たに市区町村単位のデータが追加された。デジタル庁と内閣府が連携して提供する。</p>
+<h2>人口・財政・経済・暮らしを横断的に把握</h2>
+<p>市区町村版では、次のような領域の指標が収録されている。</p>
+<ul>
+<li>人口（人口増減、高齢化率など）</li>
+<li>経済・雇用関連指標</li>
+<li>地方財政（歳入・歳出、財政力指数など）</li>
+<li>教育、社会保障、社会基盤、暮らしに関する指標
+いずれも政府統計などの公的データを基に構成されている。</li>
+</ul>
+<h2>地図・比較・時系列で直感的に分析</h2>
+<p>ダッシュボードでは、地図表示による地域分布の把握、市区町村間の比較、指標同士の相関表示、時系列での推移確認が可能だ。専門的な分析ツールを使わず、ブラウザ上で操作できる。</p>
+<h2>自治体ニーズを踏まえた整備</h2>
+<p>内閣府の会議資料によると、市区町村版の整備は、自治体からの要望を踏まえて検討された。EBPM（証拠に基づく政策立案）やデータ活用を、現場レベルで支援する狙いがある。</p>
+<h2>自治体職員から民間・市民まで利用を想定</h2>
+<p>想定される利用者は、自治体職員（施策立案や現状把握）に加え、研究者やメディア、民間企業、スタートアップ、市民や学生など幅広い。データは無償で閲覧できる。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>世界中の建物27.5億棟を3D化──ミュンヘン工科大、初の“完全グローバル”建物3Dデータセットを公開</title>
       <link>https://ledge.ai/articles/global_building_atlas_tum_global_3d_building_dataset</link>
       <description><![CDATA[<p>ミュンヘン工科大学（Technical University of Munich：TUM）の研究チームは2025年12月2日、世界中の建物を網羅した高解像度3D建物データセット「GlobalBuildingAtlas」を<a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/all-the-worlds-buildings-available-as-3d-models-for-the-first-time">公開</a>した。建物の形状ポリゴンと高さ情報を統合し、地球上の建物約27.5億棟をLoD1（簡易レベル）の3Dモデルとして再構成したもので、全球規模で一貫した3D建物データセットは初めてだという。</p>
@@ -615,27 +639,6 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>また、エージェント数やシミュレーション回数を増やすことで精度が向上する一方、一定規模を超えると改善効果が頭打ちになることも示され、現実的な運用規模についての知見も提示された。</p>
 <h2>「予測」から「再現」へ</h2>
 <p>研究チームは、PopSimを単なる予測モデルではなく、SNS上での情報拡散や世論形成を理解するための基盤技術と位置づけている。LLMの進化に伴い、より現実に近い社会シミュレーションが可能になることで、SNS分析や社会科学研究への応用が広がる可能性があるとしている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI検索を汚染する「LLM電話番号ポイズニング」──Aurascape、偽コールセンター誘導の新手法を確認</title>
-      <link>https://ledge.ai/articles/llm_phone_number_poisoning_aurascape_fake_call_center</link>
-      <description><![CDATA[<p>AIチャットボットやAI検索が参照する公開情報を悪用し、利用者を偽のコールセンターへ誘導する新たなサイバー攻撃キャンペーンが確認されたと、サイバーセキュリティ企業が明らかにした。</p>
-<p>米国時間2025年12月8日、サイバーセキュリティ企業Aurascapeの研究部門であるAura Labsは、<a href="https://aurascape.ai/llm-search-poisoning-fake-support-numbers/">調査ブログ</a>でこの手法を「LLM Phone-Number Poisoning（LLM電話番号ポイズニング）」と名付け、AI時代特有の詐欺リスクだと警告している。</p>
-<p>Aura Labsによると、この攻撃はAIモデルそのものを侵害するものではない。AIが検索や回答生成の際に参照する公開ウェブ情報の層を意図的に汚染し、AIに誤った電話番号を「正規のサポート番号」として出力させる点が特徴だという。</p>
-<h2>公開情報を狙う「LLM電話番号ポイズニング」</h2>
-<p>LLM電話番号ポイズニングでは、攻撃者が政府機関や大学、企業関連サイトなど、一見すると信頼性が高いドメイン上に、偽のサポート電話番号を含むコンテンツを配置する。これらのページやPDFは、生成AIやAI検索が拾いやすい構造で作られており、いわゆるGEO（Generative Engine Optimization：生成エンジン最適化）やAEO（Answer Engine Optimization：回答エンジン最適化）を意識した設計がなされているという。</p>
-<p>その結果、AIチャットボットやAI検索は、こうした偽情報を複数の情報源から統合し、「もっともらしい公式情報」として利用者に提示してしまう。Aura Labsは、この現象を「検索ポイズニングがAIの回答レイヤーにまで拡張された例」だとしている。</p>
-<h2>偽の航空会社サポート番号を案内する事例も</h2>
-<p>Aura Labsは調査の中で、実際にAI検索や生成AIが航空会社の公式サポート番号として、誤った電話番号を提示する事例を複数確認したとしている。例えば、航空会社名と予約や問い合わせ用の電話番号を検索した場合、AIが公開情報をもとに生成した回答の中に、正規のものと見分けがつきにくい番号が含まれるケースがあったという。</p>
-<p>下の画像は、Google検索におけるAI Overviewの表示例だ。航空会社の予約方法として複数の電話番号が提示されており、AIが「公式情報」として整理している様子が分かる。Aura Labsは、このような表示の背後で、公開ウェブ上に混入した偽情報がAIに取り込まれ、結果として偽のサポート番号が案内されるリスクが生じていると指摘している。</p>
-<p><strong>Google検索のAI Overviewに表示された航空会社の予約電話番号の例</strong> ：Aura Labsは、公開情報の汚染によって、AIが偽のサポート番号を公式情報として提示する事例を確認していると指摘
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Google_AI_Blog_Image_3_24272c21ee/Google_AI_Blog_Image_3_24272c21ee.png" alt="Google-AI-Blog-Image-3.png" /></p>
-<p>こうした挙動は、複数のAI検索・生成AIサービスで確認されており、特定の企業やサービスに限った問題ではないとされる。Aura Labsは、電話番号が一致している点から、組織的なキャンペーンとして実行されている可能性が高いと指摘している。</p>
-<h2>ユーザーが直面する詐欺リスク</h2>
-<p>偽の電話番号に連絡した利用者は、予約変更や返金手続きを装った詐欺に誘導される恐れがある。具体的には、クレジットカード情報や個人情報の詐取、金銭の送金要求、さらにはリモート操作ツールの導入を求められるといった被害につながる可能性がある。</p>
-<p>Aura Labsは、AIが「信頼できる案内役」として認識されつつある現状において、こうした電話番号汚染攻撃の影響は従来の検索スパムよりも深刻になりうると警告している。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
