@@ -21,7 +21,7 @@
 <p>これらの評価には、Metaのオープンソース大規模言語モデル「LLaMA」を基にした処理も含まれているという。</p>
 <p>また、研究チームは、性能面だけでなくエネルギー効率の改善余地についても言及している。データ移動距離を大幅に短縮することで、処理速度と消費電力のバランスを示す指標である「エネルギー遅延積（EDP）」において、将来的に100倍から1,000倍規模の改善につながる可能性があると説明している。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>【AI歴史年表】AIはダートマス会議から数えて来年で70周年！起源から生成AI革命までのAI全史を振り返る──Ledge.ai年末年始特集「&apos;25 to &apos;26」から注目コンテンツを特別公開！</title>
@@ -115,7 +115,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
 :::</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確化、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
@@ -177,7 +177,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 </ul>
 <p>研究チームは、これらの領域が改善すれば、AGIスコアが急速に伸びる可能性があるとしている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Kindleで「本に直接質問」──Amazon、ネタバレを避けて即座に回答するAI機能「Ask this Book」を米国のiOSアプリで提供開始</title>
@@ -190,7 +190,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>Amazonは近年、KindleにおけるAI活用を段階的に拡充している。シリーズ作品の内容を要約し、次巻を読む前に振り返るためのAI機能「Kindle Recaps」もその一例だ。「Ask this Book」は、読書中の疑問をその場で解消する用途に位置付けられており、用途に応じて異なるAI機能を組み合わせる形となる。</p>
 <p>同社は、これらのAI機能について、読書そのものを置き換えるものではなく、読者の理解を補完するための仕組みだと説明している。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>エンジニアリング2025/12/16 [TUE]Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
@@ -256,21 +256,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>さらに講演では、AI自身がスキルを生成する可能性にも言及された。Claudeはすでに「スキルクリエイター」として、ユーザーのためにスキルを作成できるとされており、今後は対話を通じて学んだ手続き的知識をスキルとして保存する方向性が示されている。</p>
 <p>こうした仕組みが実現すれば、AIが学んだ内容は一時的な記憶ではなく、再利用可能な知識資産として蓄積されることになる。Anthropicが掲げる「あなたと30日間働いたClaudeは、初日のClaudeより優れている」という目標に向けて、スキルは重要な役割を果たすと位置づけられている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIエージェント標準「MCP」をLinux Foundation傘下へ移管──Agentic AIの共通基盤化へ</title>
-      <link>https://ledge.ai/articles/anthropic_mcp_linux_foundation_aaif_transfer</link>
-      <description><![CDATA[<p>Anthropicは2025年12月10日、同社が開発してきたAIエージェント向けの標準仕様「Model Context Protocol（MCP）」を、Linux Foundation傘下に新設された「Agentic AI Foundation（AAIF）」へ移管すると<a href="https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation">発表</a>した。</p>
-<p>Anthropicはこれまで、対話型AI「Claude」を中心としたエコシステムの中でMCPを提唱・整備してきた。エージェントが自律的にタスクを実行する「Agentic AI」への関心が高まる中、MCPはその基盤技術の一つとして注目されている。</p>
-<p>今回の移管により、MCPの仕様管理や将来の拡張は、Linux Foundation傘下のAAIFが担う。AAIFは、AIエージェント分野における共通基盤の整備と標準化を目的として新設された組織で、複数の企業や開発者コミュニティが参加する中立的な運営体制を採る。</p>
-<p>Linux Foundationによると、AAIFはMCPのほか、Blockが開発したエージェント関連プロジェクト「goose」や、OpenAIが提唱するエージェント仕様「AGENTS.md」などの初期プロジェクトを受け入れ、AIエージェント分野における共通基盤の整備を進めるとしている<a href="https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/">Linux Foundationの発表</a>。</p>
-<p>Anthropicは、MCPの創始者として引き続き技術的な貢献を行う一方、主導権はコミュニティ側に委ねられる。</p>
-<p>Linux Foundationは、LinuxやKubernetesなど、業界横断的なソフトウェア基盤を中立的に運営してきた実績を持つ。AI分野ではすでに「LF AI &amp; Data」を通じてオープンな研究・開発を支援しており、今回のAAIF設立とMCP受け入れは、Agentic AIを巡る標準化の動きを一段進めるものとなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aaif_social_media_image_e440cd3697/aaif_social_media_image_e440cd3697.webp" alt="aaif_social media image.webp" /></p>
-<p>AIエージェントを巡っては、各社が独自の実装やフレームワークを競う一方で、相互運用性やベンダーロックインへの懸念も指摘されてきた。Anthropicが自社主導で開発してきたMCPをLinux Foundation傘下へ移管したことは、競争領域と共通基盤を切り分け、エコシステム全体の拡大を優先する姿勢を示す動きといえる。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIに自動販売機の経営を任せると何が起きるのか──Anthropic、「Project Vend」フェーズ2の実験結果を公開</title>
@@ -299,7 +285,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>Anthropicは、この実験を通じて「AIにすべてを任せる」未来を即座に描いているわけではない。むしろ、どの部分をAIに委ね、どこに人間の監督や設計が必要なのかを見極めるための材料を集めている段階だと位置付けている。</p>
 <p>同社は今後も段階的な検証を続け、AIエージェントを現実の業務に適用するための知見を積み重ねていくとしている。自動販売機という身近な題材を通じて行われているこの実験は、AIが「現実で働く存在」になるための課題を、分かりやすい形で示すケーススタディとなりそうだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIは駆け出しの開発者を置き換えられない──AWSのガーマンCEO、WIREDのポッドキャストで3つの理由を説明</title>
@@ -320,7 +306,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>その上で、AIによって担当範囲が広がり、より大きな影響を与えられるようになる可能性がある一方、学び方や働き方を柔軟に変えられなければ、変化の速い環境で後れを取ることもあり得るとした。雇用全体への影響については不確実性があるとしながらも、中長期的にはAIが新たな経済的機会を生み、失われる仕事以上に新しい仕事が生まれる可能性が高いとの見方を示している。</p>
 <p>ただし、短期的には職種によって人手が減る局面が起こり得るとも言及し、企業側の役割として、訓練やリスキリングを通じて人材を再配置していく必要があるとの考えも示した。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>中国、国家級「未来ネットワーク基盤」699日が1.6時間に──ネットワークを“計算機”に変える実験が始まる</title>
@@ -348,7 +334,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>一方で、CENIはAI専用の基盤として紹介されているわけではない。科技日報は、同施設を中国全体の計算資源を効率的に連携させる「算力网」構想や、「东数西算」工程に向けた試験基盤の一つとして位置づけている。</p>
 <p>「未来网络基础设施」は、高速通信網や大規模データセンターの代替ではなく、ネットワークと計算を一体として扱う設計を、国家規模で検証するための研究基盤であると科技日報はまとめた。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare　2025年を振り返って「Radar 2025 Year in Review」公開──AIクローリングと主要サービスへの通信集中が鮮明に</title>
@@ -370,7 +356,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <h2>可視化が示す2025年のインターネット像</h2>
 <p>Cloudflareは、Radarを通じて「どの通信が、誰によって発生しているのか」を可視化する重要性を強調している。2025年のインターネットは、人間の利用だけでなく、AIやボットによる自動化された通信が前提となりつつあり、セキュリティ対策やトラフィック制御においても、こうした前提を踏まえた対応が求められているという。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デジタル庁と内閣府、市区町村単位の「Japan Dashboard」を公開──経済・財政・人口・暮らしを横断可視化</title>
@@ -394,7 +380,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <h2>自治体職員から民間・市民まで利用を想定</h2>
 <p>想定される利用者は、自治体職員（施策立案や現状把握）に加え、研究者やメディア、民間企業、スタートアップ、市民や学生など幅広い。データは無償で閲覧できる。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>米エネルギー省、AI国家計画「Genesis Mission」推進で24団体と合意―—OpenAI、Google、Microsoft、NVIDIAなどが参加</title>
@@ -451,7 +437,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 </ul>
 <p>DOEは、こうした官民連携を通じて、AIを中核とした次世代の科学研究・技術開発基盤の構築を進めていく考えだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>世界中の建物27.5億棟を3D化──ミュンヘン工科大、初の“完全グローバル”建物3Dデータセットを公開</title>
@@ -484,7 +470,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Global_Building_Atlas_fig6_80eb2dea64/Global_Building_Atlas_fig6_80eb2dea64.png" alt="GlobalBuildingAtlas fig6.png" /></p>
 <p>研究チームは今後、学習データの拡充やモデル改良を通じて精度向上を図るとともに、将来的にはより詳細な3D表現への発展も視野に入れている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
@@ -527,20 +513,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <h2>推論時学習という新たな方向性</h2>
 <p>Google Researchは、TitansをMIRASフレームワークの具体例の一つと位置づけている。外部検索に依存するRAGや、巨大な固定コンテキストを用意する方法とは異なり、「推論時に学習する記憶」を内包したAI設計が、今後の長文・長期推論の重要な方向性となる可能性を示した形だ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、ディズニー要請受けAI生成動画を削除──OpenAIとは対照的な対応に</title>
-      <link>https://ledge.ai/articles/google_disney_ai_generated_videos_removed_variety</link>
-      <description><![CDATA[<p>Googleが、ディズニーからの削除要請を受け、ディズニーキャラクターを描いたAI生成動画を数十本削除していたことが分かった。米<a href="https://variety.com/2025/film/news/google-removes-ai-videos-disney-characters-cease-desist-1236608015/">Variety</a>が2025年12月12日に報じた。</p>
-<p>Varietyによると、削除されたのはYouTube上に投稿されていたAI生成動画で、ミッキーマウスやマーベル作品、スター・ウォーズ、『ザ・シンプソンズ』など、ディズニー傘下のキャラクターが描写されていたという。ディズニーはこれらの動画について、著作権侵害の可能性があるとして、Googleに対し正式な削除要請（cease and desist）を送付したとされる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/variety_disney_google_4a027dbfad/variety_disney_google_4a027dbfad.jpg" alt="variety disney google.jpg" /></p>
-<p>GoogleはVarietyの取材に対し、当該動画を削除した事実を認めている。一方で、削除対象の詳細や、今後の対応方針については明らかにしていない。</p>
-<p>ディズニーは近年、生成AIによる自社キャラクターの無断利用に対して警戒を強めている。Varietyは、今回の削除要請が単発の対応ではなく、AI生成コンテンツ全般に対する管理を強化する動きの一環である可能性を指摘している。</p>
-<p>こうした対応は、ディズニーが生成AIの活用自体を一律に拒否しているわけではない点と対照的だ。ディズニーは2025年12月11日、OpenAIと3年間のライセンス契約を締結し、動画生成AI「Sora」において、ディズニー、マーベル、ピクサー、スター・ウォーズなど200以上の公式キャラクターの利用を<a href="https://ledge.ai/articles/disney_openai_sora_character_license">認めている</a>。</p>
-<p>Varietyが伝える今回のGoogleの事例は、同じ生成AIを巡る動きでありながら、企業ごとに異なる対応が取られている現状を示している。OpenAIとはライセンス契約を結ぶ一方で、Googleに対しては削除要請という形で対処しており、どの企業が、どの条件下でディズニーの知的財産を扱えるのか、その線引きがより明確になりつつあることがうかがえる。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/12/18 [THU]Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
@@ -571,7 +544,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>Gemini 3 Flashは、Google検索の「AI Mode」でも既定モデルとして段階的にロールアウトされる。検索AIモードでは、質問の意図を分解して整理した回答や、リアルタイムのローカル情報、関連リンクの提示などを特徴としている。
 Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルラインアップを拡充し、一般ユーザーから開発者、企業利用までをカバーする体制を整えていく方針だ。Gemini 3 Flashは、その中でスピードと実用性を担う中核モデルとして位置づけられている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、MCPを全サービスに展開──Gemini時代の「AI×クラウド接続」を標準化</title>
@@ -584,7 +557,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>発表時点でMCPサーバに対応している主なサービスには、Google Maps、BigQuery、Google Compute Engine、Google Kubernetes Engine（GKE）などが含まれる。これらのサービスは、位置情報、データ分析、計算資源、コンテナ管理といった機能を提供しており、AIエージェントが実際の処理や操作を行うための基盤として利用できる。</p>
 <p>Googleは、これらの初期対応サービスにとどまらず、今後すべてのGoogleサービスで同様の仕組みを提供する計画を示している。公式ブログでは、今後数カ月以内にCloud Run、Cloud Storage、Spanner、Looker、Pub/Sub、Cloud Logging、Cloud Monitoring、Security Operations（SecOps）、Android Management APIなどにも対応を広げる予定だとしている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「ルンバ」のiRobotがついに破産手続き開始、中国Picea傘下で事業は継続──アイロボットジャパン「アフターサービスこれまで通り」Chapter 11申請受け声明</title>
@@ -602,7 +575,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>今回のChapter 11申請と中国Picea傘下への移行は、そうした流れの延長線上に位置づけられる。iRobotはこの戦略的取引によりバランスシートを立て直し、ロボティクスおよびスマートホーム分野での長期的な成長を目指すとしている。</p>
 <p>今後は、裁判所による再編計画の承認を経て、新体制下での事業運営が本格化する見通しだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>JCB、日本IBMとAIパートナーシップ──生成AI「watsonx」で基幹システム開発を革新、設計〜テストで約20%効率化も</title>
@@ -621,7 +594,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>今後は、自然言語による要件定義の支援や、コードレビューへの生成AI活用など、より上流工程・高度工程への適用も検討する。両社は、AIを前提とした開発スタイルを通じて、基幹システムの持続的な進化と新たな価値創出につなげていくとしている。</p>
 <p>JCBは、日本発唯一の国際カードブランドとしてグローバルに決済ネットワークを展開しており、安定性と拡張性を両立するシステム基盤の強化が重要な課題となっている。日本IBMは、コンサルティングからシステム構築、運用までを一貫して支援する立場から、今回のパートナーシップを通じて金融分野における生成AI活用をさらに加速させる考えだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>競争優位性の鍵は「全社導入」にあり。JTPが解き明かす、生成AI活用の“3つの壁”を乗り越える「Third AI」という最適解</title>
@@ -695,7 +668,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <a href="https://ai.jtp.co.jp/products/genai-solution/">「Third AI 生成AIソリューション」に関する詳しい情報やお問い合わせはこちら</a>{target=_blank}
 :::</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMエージェントでSNSの「バズ」を再現──投稿人気を高精度に予測する新手法「PopSim」</title>
@@ -726,7 +699,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <h2>「予測」から「再現」へ</h2>
 <p>研究チームは、PopSimを単なる予測モデルではなく、SNS上での情報拡散や世論形成を理解するための基盤技術と位置づけている。LLMの進化に伴い、より現実に近い社会シミュレーションが可能になることで、SNS分析や社会科学研究への応用が広がる可能性があるとしている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、音声分離AI「SAM Audio」公開──テキスト・映像・時間指定で任意の音を切り出し</title>
@@ -753,7 +726,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>SAM Audioは、Metaの「Segment Anything Playground」で試用できる。ユーザーは用意された音声・動画素材を選択するほか、自身のデータをアップロードしてモデルの挙動を確認できる。あわせて、研究・開発用途向けにモデルのダウンロード提供も開始している。</p>
 <p>Metaは、画像分野で広く使われてきた「Segment Anything」の考え方を音声分野に拡張することで、音声編集の在り方を変える可能性があるとし、SAM Audioを「オールラウンドな音声分離モデル」と位置付けている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、ChatGPT向けアプリ提出を解禁──エコシステム拡張と収益化も視野に</title>
@@ -774,7 +747,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>OpenAIは、アプリ提出受付の開始にあわせて、開発者向けの公式リソースも公開した。現在ベータ版として提供されている「Apps SDK」を利用することで、開発者はコンテキストやアクションをChatGPTに直接取り込み、チャットネイティブな体験を構築できる。</p>
 <p>あわせて、優れたChatGPTアプリを設計するためのベストプラクティス、チャット向けインターフェースを想定したオープンソースのUIライブラリ、ステップバイステップ形式のクイックスタートガイドなども提供されている。OpenAIは、DevDay以降に得られた知見をもとに、開発者がユーザーに支持される高品質なアプリを構築できるよう支援するとしている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ビジネス2025/12/17 [WED]OpenAI、新モデル「GPT Image 1.5」搭載の「ChatGPT Images」を公開──GoogleのNano Banana Proに対抗</title>
@@ -803,7 +776,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>GPT Image 1.5は、ChatGPT内の機能としてだけでなく、APIとしても提供される。これにより、開発者は自社のアプリケーションやサービスに画像生成・編集機能を組み込むことが可能になる。OpenAIは、クリエイティブ用途にとどまらず、業務やプロダクト開発での活用も想定している。</p>
 <p>OpenAIは今回のリリースを通じて、テキストと画像を横断するマルチモーダル体験を強化し、ChatGPTを中心とした生成AIの活用領域をさらに広げていく考えだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>楽天、7000億パラメータの日本語LLM「Rakuten AI 3.0」発表──GENIAC支援で開発、国内最大規模</title>
@@ -820,7 +793,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>開発は、GENIACの枠組みに基づく支援の下で行われた。GENIACは、日本国内における生成AIの基盤技術強化と社会実装を目的に、計算資源の提供や研究開発支援を行う国家プロジェクトである。</p>
 <p>楽天グループは、Rakuten AI 3.0について、2026年春を目標にオープンウェイトモデルとして公開する計画も示している。日本語に特化した大規模モデルをオープンに提供することで、国内の生成AI開発や利活用の裾野拡大につなげたい考えだ。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>半導体設計にAIエージェント導入へ──ラピダス、設計企業向けツール群「Raads」の提供を発表</title>
@@ -832,7 +805,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>このほか、設計者のQAやアシスタンスを行う「Raads Navigator」「Raads Indicator」、ML（機械学習）やAIを活用した階層レイアウト設計ツール「Raads Manager」、PPA最適化のためのパラメータ探索を行う「Raads Optimizer」などを、今後順次リリースする計画だ。</p>
 <p>ラピダスは、2nmプロセス対応のPDK整備を進めるとともに、製造基盤の構築と設計環境の整備を並行して進めている。Raadsはこうした取り組みと連動し、顧客が最先端半導体の設計を開始できる環境を支えるツール群として位置付けられている。提供開始は2026年度からを予定している。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AI時代の就活を見直す──ロート製薬、新卒採用で書類選考を廃止し「対話起点」へ</title>
@@ -845,7 +818,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>「Entry Meet採用」は、就職活動が“合格するための対策”に偏り、受験のようになっている現状への危機感から生まれた取り組みだという。採用担当者は、通過しやすいとされるエントリーシートの型だけでは本質的な個性を捉えきれず、学生一人ひとりの可能性を正しく判断できているのか疑問を感じていたと説明する。採用を「未来を共につくる仲間探し」と位置づけ、限られた時間でも直接会い、対話を通じて価値観を確かめ合うことを重視する姿勢を示した。</p>
 <p>制度の概要として、応募開始は2025年12月15日。応募者は採用マイページから必要書類を提出したうえで、Entry Meetの枠を予約する。Entry Meetは人事担当者との15分間の対話形式で、私服での参加を推奨する。開催期間は2026年1月16日から2月8日までで、札幌、仙台、東京、名古屋、金沢、大阪、広島、福岡の全国8拠点で実施する。原則として対面で行うが、海外大学在籍など物理的に参加が難しい場合にはオンライン参加も検討するとしている。</p>
 ]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Steamに「100％AI制作」をうたうゲーム登場──コードから音楽まで“全工程AI”と開示</title>
@@ -875,30 +848,6 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>生成AIをめぐっては、これまでSteamは取り扱いに慎重な姿勢を見せる一方、Epic Games Storeは比較的早い段階から生成AIの活用を前提としたスタンスを示してきた。
 そうした中で、Steamが生成AIの利用内容を明示的に開示させる制度を整え、その枠組みの中で「全工程AI」を申告するタイトルが登場したことは、同プラットフォームにおける運用の一つの転換点として捉えることもできる。</p>
 <p>今回の事例は、生成AI作品を一律に排除するのではなく、開示と申告を前提に取り扱うという、Steam側の現在地を示すものとも言えそうだ。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>リコー、「Gemma 3 27B」基盤の日本語LLMを開発──gpt-oss-20b同等性能を達成しつつ、PCサーバで動くオンプレ向けモデルとして企業提供を開始</title>
-      <link>https://ledge.ai/articles/ricoh_gemma3_27b_japanese_llm_onprem_release</link>
-      <description><![CDATA[<p>リコーは2025年12月8日、Google のオープンモデル「Gemma 3 27B」を基盤に、日本語向けに最適化した大規模言語モデル（LLM）を開発したと<a href="https://jp.ricoh.com/release/2025/1208_1">発表</a>した。同モデルは企業のオンプレミス環境での利用を想定しており、PCサーバ上で動作可能な規模に抑えつつ、日本語ベンチマークで OpenAI の「gpt-oss-20b」と同等スコアを記録したという。</p>
-<h2>モデルマージと「Chat Vector」で性能を強化</h2>
-<p>リコーは今回、独自のモデルマージ技術を活用し、ベースモデルである Gemma 3 27B に対して複数の「Chat Vector」を統合した。Chat Vectorは、約1万5,000件の指示チューニングデータから抽出した“指示追従能力”を表すベクトルで、これを組み合わせることで追加学習を行わずに対話性能を高める仕組みとなっている。</p>
-<p>同社によると、非推論モデルでありながら初期応答性（TTFT）が短く、文書作成などの業務利用に適した特性を持つという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=mKftRMFEZYg">YouTube</a></p>
-<h2>ベンチマークで「gpt-oss-20b」と同等水準</h2>
-<p>評価には「Japanese MT-Bench」と「ELYZA-tasks-100」を使用。Google「gemma-3-27b-it」や Alibaba Cloud「Qwen3-32B」、OpenAI「gpt-oss-20b」などと比較し、リコーのモデルは平均スコアで OpenAI の gpt-oss-20bに近い水準を示した。</p>
-<p>MT-Benchはコーディング、抽出、数学、推論、ライティングなど8分野の質問応答を、ELYZA-tasks-100は要約・意図汲み取り・複雑計算など100種類のタスクを評価対象とする。スコアはそれぞれ MT-Benchが10点満点、ELYZAが5点満点で、リコーは比較のため2倍換算した平均値で評価した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_cfe88d4fc3/LLM_cfe88d4fc3.jpg" alt="ベンチマークテストリコーLLM.jpg" /></p>
-<h2>PCサーバで動作可能な27Bモデル、オンプレ向けに最適化</h2>
-<p>モデル規模は270億パラメータと比較的コンパクトで、GPUリソースを大量に必要とする大規模モデルとは異なり、PCサーバなど既存のオンプレ環境で運用できる点が特徴となる。</p>
-<p>リコーは同モデルを「低コストで導入できる日本語プライベートLLM」と位置づけており、データ主権やセキュリティ要件の高い企業での利用を想定している。</p>
-<h2>PRIMERGYへプリインストール、Difyとともに提供</h2>
-<p>2025年12月下旬から、エフサステクノロジーズの「Private AI Platform on PRIMERGY（Very Smallモデル）」に量子化済みモデルをプリインストールした形で提供を開始する。生成AIアプリをノーコードで構築できる「Dify」も組み込まれ、リコージャパンが環境構築済みの形で企業へ導入支援を行う。</p>
-<p>Difyを利用すれば、FAQ対応、ナレッジ検索、文書要約などの業務アプリケーションを、専門知識なしに構築できるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1208_1_60d9384d72/1208_1_60d9384d72.webp" alt="1208_1.webp" /></p>
-<p>リコーは2021年から自然言語処理を活用した文書分析サービスを提供し、2022年以降は独自LLM開発を本格化。700億パラメータの大規模モデル、指示追従性を高めたInstructモデル、モデルマージによる高速開発手法など、LLM関連の取り組みを継続してきた。</p>
-<p>今回のGemma 3 27Bベースモデルは、その延長線上で「オンプレミスで利用できる高性能日本語LLM」というニーズを反映したものになる。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
