@@ -397,6 +397,63 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>米エネルギー省、AI国家計画「Genesis Mission」推進で24団体と合意―—OpenAI、Google、Microsoft、NVIDIAなどが参加</title>
+      <link>https://ledge.ai/articles/doe_genesis_mission_24_organizations_ai_collaboration</link>
+      <description><![CDATA[<p>アメリカ合衆国エネルギー省（DOE）は2025年12月18日、AIを活用して科学的発見を加速し、国家安全保障の強化とエネルギー分野の技術革新を進める国家的取り組み「Genesis Mission（ジェネシス・ミッション）」の推進に向け、24の組織と協力に関する覚書（MOU）を締結したと<a href="https://www.energy.gov/articles/energy-department-announces-collaboration-agreements-24-organizations-advance-genesis">発表</a>した。</p>
+<p>ジェネシス・ミッションは、AIの力を用いて発見科学（discovery science）を加速し、国家安全保障を強化し、エネルギー分野のイノベーションを推進することを目的とした国家的イニシアチブで、DOEはこれを「歴史的な取り組み」と位置づけている。</p>
+<h2>ホワイトハウスでの会合を通じ、官民連携を始動</h2>
+<p>今回のMOU締結は、ホワイトハウスで行われた会合を通じて公表された。会合には、米エネルギー長官のChris Wright氏、DOE科学担当次官でジェネシス・ミッションのディレクターを務めるDarío Gil氏、ホワイトハウス科学技術政策局（OSTP）局長のMichael Kratsios氏のほか、民間企業の関係者らが出席した。</p>
+<p>DOEは、この会合を通じて、AI技術に関する官民のイノベーション・パートナーシップを立ち上げ、前例のないスピードで科学の限界を押し広げるための、拡張可能な国家インフラの確保を目指すとしている。</p>
+<h2>「関心表明」や既存プロジェクトを背景にMOU締結</h2>
+<p>DOEによれば、今回MOUを締結した24団体は、</p>
+<ul>
+<li>DOEが実施した情報提供依頼（RFI）に応じてジェネシス・ミッションへの関心を表明した組織、</li>
+<li>もしくは、DOEや国立研究所とジェネシス・ミッション関連の活動において、すでに進行中のプロジェクトを持つ組織</li>
+</ul>
+<p>で構成されている。</p>
+<p>また、ジェネシス・ミッション向けに開発・提供される成果物については、特定のアーキテクチャに依存しない（architecture-agnostic）形で設計されるとしている。</p>
+<h2>参加24団体（DOE発表、12月18日時点）</h2>
+<p>DOEが公表したMOU締結先は以下の24団体。</p>
+<ul>
+<li>Accenture</li>
+<li>AMD</li>
+<li>Anthropic</li>
+<li>Armada</li>
+<li>Amazon Web Services</li>
+<li>Cerebras</li>
+<li>CoreWeave</li>
+<li>Dell</li>
+<li>DrivenData</li>
+<li>Google</li>
+<li>Groq</li>
+<li>Hewlett Packard Enterprise</li>
+<li>IBM</li>
+<li>Intel</li>
+<li>Microsoft</li>
+<li>NVIDIA</li>
+<li>OpenAI</li>
+<li>Oracle</li>
+<li>Periodic Labs</li>
+<li>Palantir</li>
+<li>Project Prometheus</li>
+<li>Radical AI</li>
+<li>xAI</li>
+<li>XPRIZE</li>
+</ul>
+<h2>国家AI戦略との位置づけ</h2>
+<p>DOEは今回の発表について、トランプ大統領が署名したAI関連の大統領令および、今年公表された「America’s AI Action Plan」に基づく取り組みの一環であると説明している。これらは、イノベーションの障壁を取り除き、外国の競争相手への依存を減らし、米国の科学技術基盤を最大限に活用することを目的としている。</p>
+<h2>今後の展開と追加募集</h2>
+<p>DOEは今後、民間企業、学術機関、慈善団体などとの協議の場をさらに設け、ジェネシス・ミッションに参加する適格な協力者の拡大を図るとしている。</p>
+<p>あわせて、以下のRFIについて、引き続き提案の提出を受け付けている。</p>
+<ul>
+<li>「Partnerships for Transformational Artificial Intelligence Models」：2026年1月14日締切</li>
+<li>「Transformational AI Capabilities for National Security」：2026年1月23日締切</li>
+</ul>
+<p>DOEは、こうした官民連携を通じて、AIを中核とした次世代の科学研究・技術開発基盤の構築を進めていく考えだ。</p>
+]]></description>
+      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>世界中の建物27.5億棟を3D化──ミュンヘン工科大、初の“完全グローバル”建物3Dデータセットを公開</title>
       <link>https://ledge.ai/articles/global_building_atlas_tum_global_3d_building_dataset</link>
       <description><![CDATA[<p>ミュンヘン工科大学（Technical University of Munich：TUM）の研究チームは2025年12月2日、世界中の建物を網羅した高解像度3D建物データセット「GlobalBuildingAtlas」を<a href="https://www.tum.de/en/news-and-events/all-news/press-releases/details/all-the-worlds-buildings-available-as-3d-models-for-the-first-time">公開</a>した。建物の形状ポリゴンと高さ情報を統合し、地球上の建物約27.5億棟をLoD1（簡易レベル）の3Dモデルとして再構成したもので、全球規模で一貫した3D建物データセットは初めてだという。</p>
@@ -695,48 +752,6 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
 <p>Metaは、SAM Audioの活用分野として、音楽制作、ポッドキャスト、テレビや映画制作、動画編集、科学研究、アクセシビリティ支援などを挙げている。同社はすでにSAM Audioを次世代のクリエイティブメディアツールの開発に活用しているという。</p>
 <p>SAM Audioは、Metaの「Segment Anything Playground」で試用できる。ユーザーは用意された音声・動画素材を選択するほか、自身のデータをアップロードしてモデルの挙動を確認できる。あわせて、研究・開発用途向けにモデルのダウンロード提供も開始している。</p>
 <p>Metaは、画像分野で広く使われてきた「Segment Anything」の考え方を音声分野に拡張することで、音声編集の在り方を変える可能性があるとし、SAM Audioを「オールラウンドな音声分離モデル」と位置付けている。</p>
-]]></description>
-      <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>スマホ単体でLLMをファインチューニング──C++製OSS「MobileFineTuner」、メモリ・電力制約を越える最適化</title>
-      <link>https://ledge.ai/articles/mobilefinetuner_llm_finetuning_on_mobile_phones</link>
-      <description><![CDATA[<p>スマートフォン上で大規模言語モデル（LLM）のファインチューニングをエンドツーエンドで実行できる統合フレームワークが提案された。</p>
-<p>Duke Kunshan University（中国・崑山）およびThe University of Hong Kongの研究チームは、一般的なスマートフォンを対象にLLMを直接ファインチューニング可能にするオープンソースフレームワーク「MobileFineTuner」を開発したと報告した。</p>
-<p>研究成果は2025年12月9日に論文「MobileFineTuner: A Unified End-to-End Framework for Fine-Tuning LLMs on Mobile Phones」としてarXivで<a href="https://arxiv.org/abs/2512.08211">公開</a>。コードは、商用可能なApache-2.0ライセンスでGitHub上に公開された。</p>
-<p>論文では、GPT-2、Gemma 3、Qwen 2.5といったLLMを対象に、Androidスマートフォン上でのファインチューニングに関する実証結果が示されている（ただし、端末のメモリ条件によって実行できなかった一部のモデルやタスクについては、論文中では“–”として示されている）。</p>
-<h2>公開データ枯渇と「スマホ上の私的データ」</h2>
-<p>研究チームは、LLM開発を支えてきた高品質な公開データが、2026〜2032年に枯渇する可能性が指摘されている点を背景として挙げる一方で、個人のメッセージ履歴、メモ、アプリ操作ログといった価値の高い私的データの多くはスマートフォン上に存在するが、クラウド送信による学習はプライバシーや規制面で課題が大きいとした。</p>
-<p>このギャップを埋める手段として、データを端末外に出さずに学習する「オンデバイス・ファインチューニング」が注目されてきたものの、既存研究の多くはシミュレーション、IoTボード、PC環境に留まり、「一般的なスマートフォン」を実装対象にした枠組みが不足していたと指摘している。</p>
-<h2>Python非依存のC++実装という設計判断</h2>
-<p>MobileFineTunerの最大の特徴は、フレームワーク全体をC++で実装し、Pythonランタイムに依存しない点にある。
-論文では、PyTorchやHugging Face Transformersなどの既存フレームワークがPython前提であり、Androidを含むモバイルOSでは直接利用できないことが、実装上の最大の障壁だったと説明されている。</p>
-<p><strong>■ MobileFineTunerの全体構成：</strong> C++ベースのオンモバイル・ファインチューニング基盤の上に、Full-FT/PEFT、評価機構、メモリ・エネルギー最適化が統合されている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/overview2_f098ba40dd/overview2_f098ba40dd.png" alt="overview2.png" /></p>
-<p>MobileFineTunerは、以下の3点を設計原則として掲げる。</p>
-<ul>
-<li><strong>効率性：</strong> 自動微分やバックプロパゲーションを含む学習処理をC++でネイティブ実装</li>
-<li><strong>拡張性：</strong> Full-FT（全パラメータ更新）とPEFT（LoRA）の双方に対応</li>
-<li><strong>実用性：</strong> 高水準APIを備え、モバイル上で完結する学習を可能にする</li>
-</ul>
-<p>これにより、Python仮想環境やVM（例：Termux）に依存せず、モバイルOS上で直接動作する学習基盤として、スマートフォン単体でLLMをファインチューニングできる構成を実現したとしている。</p>
-<h2>メモリと電力制約に対応するシステム最適化</h2>
-<p>論文では、モバイル端末特有の制約としてRAM容量とバッテリー消費を明確に課題として位置付けている。
-一般に、FP16学習では「10億パラメータあたり約16GBのRAM」が必要とされる一方、2025年時点のスマートフォンのRAMは4〜16GBに留まると指摘する。</p>
-<p><strong>■ スマートフォンの限られたRAM（4–16GB）に対し、学習時に必要なレイヤのみを「アクティブレイヤ」として保持し、他のパラメータはストレージ側に退避する設計</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/memory_parameters_76e1f8a522/memory_parameters_76e1f8a522.png" alt="memory_parameters.png" /></p>
-<p>これに対し、MobileFineTunerは以下の最適化を統合的に実装している。</p>
-<ul>
-<li><strong>ZeRO着想のパラメータシャーディング：</strong> 学習に必要なパラメータのみをRAMに保持し、非アクティブ部分はストレージへ退避する仕組みを採用</li>
-<li><strong>Gradient Accumulation：</strong> マイクロバッチに分割して勾配を蓄積することで、メモリ使用量を抑えつつ学習の安定性を維持</li>
-<li><strong>エネルギー認識型スケジューリング：</strong> バッテリー残量を監視し、閾値を下回ると計算頻度を動的に抑制する仕組みを導入</li>
-</ul>
-<h2>Pixel実機での検証とPyTorchとの比較</h2>
-<p>評価では、Google Pixel 8／7 Pro／8 Proといった市販Androidスマートフォンを用い、GPT-2（124M/355M）、Qwen2.5-0.5B、Gemma3（270M/1B）を対象に検証が行われた。</p>
-<p>PEFT（LoRA）による検証では、WikiText-2およびMMLUタスクにおいて、PyTorch（サーバー実行）とほぼ同等の損失・PPL・精度が得られたと報告されている。論文は、性能優位性を主張するものではなく、「モバイル上での学習結果が標準的な学習挙動と整合している」点を検証の主眼としている。</p>
-<h2>公開形態と今後の焦点</h2>
-<p>MobileFineTunerは、論文とともにオープンソースソフトウェアとして公開されており、Android 10以降の端末で動作するとされている。著者らは今後、異種ハードウェア対応や、フェデレーテッド／協調学習との統合を検討するとしている。</p>
-<p>研究は、オンデバイスLLM学習を「概念」ではなく実装と実機検証で示した点に特徴があり、スマートフォンを前提としたLLM活用の設計空間を広げるものとして位置付けられる。</p>
 ]]></description>
       <pubDate>Thu, 11 Dec 2025 05:50:00 GMT</pubDate>
     </item>
