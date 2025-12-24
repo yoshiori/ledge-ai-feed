@@ -729,6 +729,35 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI研究の最高峰「NeurIPS 2025」でアリババQwenチームら、最優秀論文賞を受賞―—Transformerの根幹「Attention」を見直す「Gated Attention」を提案</title>
+      <link>https://ledge.ai/articles/neurips_2025_best_paper_gated_attention</link>
+      <description><![CDATA[<p>2025年12月、AIと機械学習分野で世界最高峰の国際学会として知られるNeurIPS 2025において、大規模言語モデル（LLM）の基盤技術であるTransformerの「Attention」メカニズムを改良する研究が、最優秀論文賞（Best Paper Award）を<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/120216">受賞</a>した。</p>
+<p>受賞した論文は「Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free」。アリババグループのQwenチームを中心に、複数の大学・研究機関が参加した共同研究で、Attentionの計算結果の扱い方を見直すことで、学習の安定性や長文処理性能の改善を示した。</p>
+<h2>LLMの中核を担う「Attention」</h2>
+<p>Transformerモデルは、入力された文章の中で「どの単語が、どの単語と強く関係しているか」を計算するAttention機構によって、高い表現力を実現している。現在のLLMの多くはこの仕組みを前提としており、Attentionの挙動はモデル全体の性能に大きな影響を与える。</p>
+<p>一方で、従来のAttentionには、特定のトークンに注意が過度に集中する現象や、長文条件での性能低下、学習の不安定さといった課題が指摘されてきた。</p>
+<h2>Attentionの「結果」に着目した改良</h2>
+<p>研究が注目したのは、Attentionの計算方法そのものではなく、「Attentionが出力した結果をどのように次の層へ渡しているか」という点だ。</p>
+<p>研究チームは、Scaled Dot-Product Attention（SDPA）の出力直後に、ヘッドごとに独立したシグモイド型の「ゲート」を挿入する手法を提案した。このゲートは、Attentionによって集められた情報を入力ごとに取捨選択する役割を果たす。</p>
+<h2>実験で確認された効果</h2>
+<p>論文では、数十億〜百億規模のパラメータを持つDenseモデルや、混合専門家（MoE）モデルを用いた大規模な実験が行われた。その結果、以下の点が報告されている。</p>
+<ul>
+<li>学習中に発生しやすい損失の急上昇（ロス・スパイク）が抑制され、学習が安定した</li>
+<li>Attention出力に非線形性が加わることで、表現力が向上した</li>
+<li>入力に応じたスパースな情報選択が可能になった</li>
+<li>文頭トークンなどに注意が集中する「Attention Sink」現象が大きく緩和された</li>
+<li>長文条件のベンチマークにおいて、性能低下が抑えられた</li>
+</ul>
+<p>計算コストの増加は小さく、既存のTransformer構成に比較的容易に組み込める点も示されている。</p>
+<h2>長文処理と大規模モデルへの示唆</h2>
+<p>Attention Sinkの抑制により、コンテキスト長を拡張した条件ほど効果が顕在化することも報告された。長文を扱うタスクや、今後さらに大型化が進むLLMにとって、Attentionの出力制御が重要な設計要素になり得ることを示している。</p>
+<h2>実装と今後の展開</h2>
+<p>論文によれば、提案手法はアリババが開発するQwen系列の次世代モデルにも採用されているという。研究チームは関連コードやモデルの公開も進めており、今後のLLM設計への影響が注目される。</p>
+<p>Transformerという既存の枠組みを前提に、Attentionの「使い方」を丁寧に検証し直した本研究は、LLMの基盤技術をめぐる議論に新たな視点を提供するものとして、NeurIPS 2025の最優秀論文に選ばれた。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、ChatGPT向けアプリ提出を解禁──エコシステム拡張と収益化も視野に</title>
       <link>https://ledge.ai/articles/openai_chatgpt_app_submission_app_directory</link>
       <description><![CDATA[<p>OpenAIは米国時間2025年12月17日、開発者がChatGPT向けアプリを提出できるようになったと<a href="https://openai.com/ja-JP/index/developers-can-now-submit-apps-to-chatgpt/">発表</a>した。提出されたアプリは審査を経て公開され、ChatGPT内に新設される「アプリディレクトリ（App Directory、画面左の『アプリ』メニュー）」を通じて、ユーザーが見つけて利用できるようになる。</p>
