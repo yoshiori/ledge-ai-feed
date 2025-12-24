@@ -768,6 +768,28 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Mistral AI、手書き文書も高精度にテキスト化する「Mistral OCR 3」発表──文書AI基盤を強化</title>
+      <link>https://ledge.ai/articles/mistral_ai_mistral_ocr_3_launch</link>
+      <description><![CDATA[<p>Mistral AIは2025年12月19日（現地時間）、スキャンしたドキュメントや手書き文字を認識し、テキストデータへ変換できる新たな光学文字認識（OCR）モデル「Mistral OCR 3」を<a href="https://mistral.ai/news/mistral-ocr-3">発表</a>した。単なる文字抽出にとどまらず、文書構造を保持した出力を特徴とし、同社は企業向けDocument AI基盤を支える中核モデルとして位置付けている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Xwv_elQQJFc">YouTube</a></p>
+<h2>スキャン文書や手書き文字を“構造ごと”理解</h2>
+<p>Mistral OCR 3は、PDFや画像として保存された文書から、印字されたテキストだけでなく、手書き文字、図表、レイアウト情報を含めて解析する。契約書や請求書、申請書類、フォーム文書、歴史的資料など、紙や画像ベースで存在する多様な文書のデジタル化を想定して設計されている。</p>
+<p><strong>■ Mistral AIが公開したOCRベンチマーク比較図。フォーム文書、手書き文字、請求書、複雑な表、歴史的スキャン文書といった複数のデータセットにおける性能を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ocr_3_bb8d412274/ocr_3_bb8d412274.png" alt="ocr-3.png" /></p>
+<p>従来のOCRが文字列抽出に主眼を置いていたのに対し、Mistral OCR 3は文書全体の構造理解を重視している点が特徴だ。</p>
+<h2>MarkdownとHTMLでの出力に対応</h2>
+<p>出力形式として、本文テキストはMarkdown形式で提供され、表についてはHTMLベースで再構築できる。これにより、文書検索、要約、RAG（検索拡張生成）、AIエージェントによる業務処理など、下流のAI処理パイプラインにそのまま組み込める設計となっている。</p>
+<p>Mistral AIは、OCRを単体機能としてではなく、生成AIによる文書理解・活用の前段階を担う要素として位置付けている。</p>
+<h2>API提供と価格設定</h2>
+<p>Mistral OCR 3はAPI経由で提供される。公式ドキュメントによると、価格は通常のAPI利用で1,000ページあたり2ドル、Batch APIを利用した場合は1,000ページあたり1ドルとされている。大量の文書を処理する企業利用を想定したコスト設計となっている。</p>
+<h2>Document AIスタックの中核モデルに</h2>
+<p>Mistral OCR 3は、同社が展開するDocument AI関連機能の基盤モデルとして位置付けられている。紙や画像として存在する情報をAIが扱える構造化データへ変換する役割を担い、大規模言語モデルと組み合わせた業務自動化やデータ活用を支える。</p>
+<p>Mistral AIは今後も、企業向けAI基盤の拡充を進めていくとしている。</p>
+<p>関連記事</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI研究の最高峰「NeurIPS 2025」でアリババQwenチームら、最優秀論文賞を受賞―—Transformerの根幹「Attention」を見直す「Gated Attention」を提案</title>
       <link>https://ledge.ai/articles/neurips_2025_best_paper_gated_attention</link>
       <description><![CDATA[<p>2025年12月、AIと機械学習分野で世界最高峰の国際学会として知られるNeurIPS 2025において、大規模言語モデル（LLM）の基盤技術であるTransformerの「Attention」メカニズムを改良する研究が、最優秀論文賞（Best Paper Award）を<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/120216">受賞</a>した。</p>
