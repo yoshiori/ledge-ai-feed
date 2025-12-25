@@ -180,19 +180,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Kindleで「本に直接質問」──Amazon、ネタバレを避けて即座に回答するAI機能「Ask this Book」を米国のiOSアプリで提供開始</title>
-      <link>https://ledge.ai/articles/amazon_kindle_ask_this_book_ios_us</link>
-      <description><![CDATA[<p>Amazonは米国時間12月11日、電子書籍サービス「Kindle」において、読書中の文章をハイライトするだけで、書籍内容についてAIに質問できる新機能「Ask this Book」を米国で提供開始したことを<a href="https://www.aboutamazon.com/news/books-and-authors/kindle-recaps-feature-ebook-series-refreshers">発表</a>した。まずは米国向けのKindle iOSアプリで利用できる。</p>
-<p>「Ask this Book」は、読者が書籍内の文章を選択すると、その箇所に関連する質問をAIに投げかける機能だ。物語の展開や登場人物の関係、文章の意味などについて、読書体験を中断することなく即座に回答を得られる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_37126bc831/2_37126bc831.gif" alt="ダウンロード (2).gif" /></p>
-<p>AIの回答は読者がその時点までに読み進めた内容に基づいて生成される。これにより、未読部分に触れる「ネタバレ」を避ける設計だ。回答内容はコピーや共有ができず、書籍を購入またはレンタルしているユーザーのみが利用可能。</p>
-<p>提供開始時点では、対応するのは米国のKindle iOSアプリに限られている。Amazonは今後、他のプラットフォームや端末への展開も検討しているとしているが、具体的な時期や対象地域については明らかにしていない。</p>
-<p>Amazonは近年、KindleにおけるAI活用を段階的に拡充している。シリーズ作品の内容を要約し、次巻を読む前に振り返るためのAI機能「Kindle Recaps」もその一例だ。「Ask this Book」は、読書中の疑問をその場で解消する用途に位置付けられており、用途に応じて異なるAI機能を組み合わせる形となる。</p>
-<p>同社は、これらのAI機能について、読書そのものを置き換えるものではなく、読者の理解を補完するための仕組みだと説明している。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>エンジニアリング2025/12/16 [TUE]Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
       <link>https://ledge.ai/articles/anthropic_ai_agents_build_skills_paradigm</link>
       <description><![CDATA[<p>Anthropicに所属するBarry Zhang氏とMahesh Murag氏は、2025年11月21日に開催された開発者向けイベント「AI Engineer Code Summit」で<a href="https://www.youtube.com/watch?v=CEvIs9y1uog">講演</a>を行い、AIエージェント開発における新たな設計思想を提示した。講演の模様は、同イベントを主催する開発者コミュニティ「AI Engineer」のYouTubeチャンネルで、12月9日に動画として公開されている。</p>
@@ -802,6 +789,28 @@ AIは国境を越えて展開される技術であることから、日本国内
 <p>企業における生成AI活用では、実務に価値のあるデータほど個人情報や機密情報を含む非構造化データであることが多く、利活用が進まない要因の一つとされてきた。こうしたデータをどのように安全に扱うかは、生成AIや業務AIの本格導入に向けた課題となっている。</p>
 <p>三菱UFJ銀行のOCEANは、グループ全体のデータを集約・分析する基盤として整備されてきた。今回の発表では、非構造化データを秘匿化したうえで基盤に取り込むことで、横断分析に加え、業務AIや生成AIでの活用を可能にするとしている。</p>
 <p>生成AIをめぐっては、モデル性能の向上と並行して、データの取り扱いやガバナンスの在り方が重要性を増している。金融機関のように要件の厳しい業界において、秘匿化を前提とした非構造化データ活用の事例が示された形だ。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlibabaのQwen、画像をRGBAレイヤーに分解する生成AIを公開──「編集の一貫性」を構造から解決</title>
+      <link>https://ledge.ai/articles/qwen_image_layered_rgba_layer_decomposition</link>
+      <description><![CDATA[<p>Alibabaの研究チームは、単一の画像を複数の意味的に分離されたRGBAレイヤーへ分解する画像生成モデル「Qwen-Image-Layered」を<a href="https://arxiv.org/abs/2512.15603">発表</a>した。単一の画像を前提とする従来の画像生成・編集とは異なり、画像を最初から「編集可能なレイヤー構造」として扱える点が特徴だ。</p>
+<h2>画像を「1枚」ではなく「レイヤーの集合」として扱う</h2>
+<p>Qwen-Image-Layeredは、入力されたRGB画像を、複数の意味的に分離されたRGBAレイヤーへ分解する。
+各レイヤーは色（RGB）と透明度（Alpha）を持ち、重ね合わせることで元の画像を再構成できる。人物や背景、装飾、テキストといった要素を独立した編集単位として分けて扱える点が特徴だ。</p>
+<h2>レイヤー単位での編集を前提に設計</h2>
+<p>分解された各レイヤーは、それぞれ個別に操作できる。
+論文では、色の変更や要素の置き換え、削除、サイズ変更、位置移動といった操作を想定しており、特定の要素のみを編集しても、他の部分に影響が及びにくい設計だとしている。背景を保ったまま人物だけを動かす、といった編集を前提にしたモデルとなっている。</p>
+<p><strong>レイヤー分解により、背景や人物、オブジェクト、テキストを独立して編集できる。色変更や置き換え、削除、サイズ変更、位置移動といった操作を、他の要素に影響を与えずに行える例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/layered_c521d65827/layered_c521d65827.jpg" alt="layered.jpg" /></p>
+<h2>可変枚数のレイヤー分解に対応</h2>
+<p>分解されるレイヤー数は固定されておらず、画像の内容に応じて可変となる。
+シンプルな構成の画像から、多数の要素を含む複雑な画像まで対応できるよう設計されており、レイヤー構造を前提とした柔軟な編集を可能にする狙いがある。</p>
+<h2>編集の一貫性を「画像表現」から確保する発想</h2>
+<p>論文では、従来の画像編集で問題となってきた「一部を修正すると全体が崩れる」「意図しない変形が起きる」といった現象の原因を、画像が1枚のキャンバスとして表現されている点にあると指摘している。
+Qwen-Image-Layeredは、画像を最初からレイヤーの集合として表現することで、編集時の一貫性を構造的に保つことを狙ったモデルだとしている。</p>
+<p>Qwen-Image-Layeredは、画像生成や編集を「完成した画像を出力するAI」から、後から手を加えられる素材を生成するAIへと捉え直す試みとして位置づけられている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
