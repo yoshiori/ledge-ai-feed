@@ -118,69 +118,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/12/12 [FRI]諸説あるAGIの定義をスタンフォード大などが明確化、「教養ある成人」がモデルケース──GPT-4は27%、GPT-5は約6割に到達と試算</title>
-      <link>https://ledge.ai/articles/agi_definition_stanford_gpt4_27_gpt5_60</link>
-      <description><![CDATA[<p>スタンフォード大学やUCバークレー、MITなどの研究者を含む国際チームは、AIの到達度を測る新しい枠組みを提示した論文「A Definition of AGI」を<a href="https://arxiv.org/abs/2510.18212v3">公開</a>した。これまで曖昧だったAGI（汎用人工知能）の定義について、同チームは「教養ある成人（well-educated adult）の認知の幅と熟達度にマッチするAI」と明確化。加えて、人間の知能研究で広く使われるCHC（Cattell-Horn-Carroll）理論に基づき、10種類の認知ドメインでAIモデルを評価する「AGIスコア」を提案した。</p>
-<p>今回の枠組みに基づく試算では、GPT-4は27%、GPT-5は約57〜58%に到達しているとされる（100%が「教養ある成人の平均レベル」に相当）。論文のPDF版では57%、公式サイトや解説資料では58%と表記されており、約6割前後の水準と整理できる。</p>
-<h2>AGIをめぐる“動くゴールポスト”問題を解消へ</h2>
-<p>研究チームが強調するのは、AGIという用語の曖昧さだ。企業・研究者・メディアで異なる意味合いで使われてきた結果、実際にどの能力を満たせばAGIと呼べるのかが明確でなく、「モデルが進化するたびにゴールが後ろにずれる」として批判もあった。</p>
-<p>Center for AI Safety（CAIS）はニュースレターの中で、この曖昧さが研究目標、社会的リスク評価、政策議論を複雑化してきたと指摘している。今回の提案は、こうした状況に対し「包括的でテスト可能な定義」を与える試みと位置づけられる。</p>
-<h2>10の認知ドメインを10%ずつ評価する「AGIスコア」</h2>
-<p>論文が提示する枠組みでは、人間の認知能力を10の中核ドメインに分解し、それぞれを「10%」の重みで評価する。ドメインは以下の通り。</p>
-<ul>
-<li>一般知識</li>
-<li>読解・文章</li>
-<li>数学</li>
-<li>推論（問題解決・抽象化）</li>
-<li>作業記憶・注意制御</li>
-<li>長期記憶の保存と検索</li>
-<li>視覚処理</li>
-<li>聴覚処理</li>
-<li>処理速度</li>
-<li>中央実行系（複数能力の統合）</li>
-</ul>
-<p>研究チームはこれらの領域を、人間の心理測定バッテリー（知能検査など）の形式に合わせて評価タスク化。AIモデルを人間の標準スコアにマッピングしたうえで、各分野を合成して「AGIスコア（0〜100%）」として算出する。</p>
-<p><strong>■ AGIを構成する10の認知ドメイン（CHC理論に基づく）：</strong> 一般知識・読解・数学・推論・記憶・知覚・速度など、人間の認知を広範にカバーし、各領域を10%ずつ評価してAGIスコアを算出する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_8_1eb9f5c414/x2_8_1eb9f5c414.png" alt="x2 (8).png" /></p>
-<p>この枠組みの特徴は、一部の領域だけ優れていてもAGIとは見なされない点にある。たとえば「読解や知識」では人間レベルであっても、「長期記憶」や「視覚処理」が極端に低ければ、スコアは上がらない。</p>
-<h2>GPT-5は約6割──強い領域と“ほぼゼロ”の領域が共存</h2>
-<p>論文および公式サイトのデータによると、GPT-4とGPT-5には以下のような特徴がある。</p>
-<ul>
-<li>GPT-4：AGIスコア27%</li>
-<li>GPT-5：AGIスコア約57〜58%（約6割）</li>
-</ul>
-<p><strong>■ GPT-4 と GPT-5 の10ドメイン能力比較：</strong> GPT-5 は読解・数学・推論などで高スコアを示す一方、長期記憶や視覚・聴覚処理などの基盤能力は依然として低く、“ギザギザ”なプロファイルが特徴となっている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_5c3108a876/x1_5c3108a876.png" alt="x1.png" /></p>
-<p>高いスコアを示すのは「一般知識」「読解・文章」「数学」「推論」といったデータ駆動型の領域で、人間を上回るケースもある。一方で、</p>
-<ul>
-<li>長期記憶の保存・検索</li>
-<li>視覚的推論</li>
-<li>聴覚処理</li>
-<li>処理速度（リアルタイム性）</li>
-</ul>
-<p>といった基盤的能力では、多くのモデルが極めて低いスコアにとどまっており、ほぼゼロに近い領域も存在する。</p>
-<p>研究チームは、現行の大規模言語モデルは「部分的には人間を超えるが、能力の分布がギザギザで、総合的な認知としては成人レベルに達していない」と整理している。</p>
-<h2>政策・規制議論への影響も──共通の“物差し”が登場</h2>
-<p>AGIの定義が明確化されたことで、今後は次のような領域で議論が進む可能性がある。</p>
-<ul>
-<li><strong>米上院で進むAI安全法案の議論：</strong> 規制対象となるAIモデルをどの基準で選定するか、共通の指標が求められていた。</li>
-<li><strong>企業のロードマップ策定：</strong> 「AGIにどれだけ近いか」を定量的に示せることで、開発の透明性や説明責任が高まる可能性。</li>
-<li><strong>研究コミュニティでの基準化：</strong> 進捗を測る複数のベンチマークが乱立してきた中で、総合的な認知評価として採用される可能性。</li>
-</ul>
-<p>ただし研究チームは、今回の枠組みが「最終版の定義」ではなく、今後の議論の叩き台であることも強調している。</p>
-<h2>今後の焦点：長期記憶・知覚・実世界タスク</h2>
-<p>GPT-5が約6割に到達した一方、AGI達成には大きなギャップが残されている。特に論文が指摘するのは、次のような領域だ。</p>
-<ul>
-<li>長期記憶の安定した形成と参照</li>
-<li>視覚・聴覚などマルチモーダル知覚の統合</li>
-<li>現実世界での連続的タスク遂行（エージェント的行動）</li>
-</ul>
-<p>研究チームは、これらの領域が改善すれば、AGIスコアが急速に伸びる可能性があるとしている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>エンジニアリング2025/12/16 [TUE]Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
+      <title>Anthropic、AIエージェント開発における”スキル”重視の新設計思想を提示──「IQ300数学の天才から経験豊富な税務専門家へ」、スキル中心アーキテクチャの全体像を解説</title>
       <link>https://ledge.ai/articles/anthropic_ai_agents_build_skills_paradigm</link>
       <description><![CDATA[<p>Anthropicに所属するBarry Zhang氏とMahesh Murag氏は、2025年11月21日に開催された開発者向けイベント「AI Engineer Code Summit」で<a href="https://www.youtube.com/watch?v=CEvIs9y1uog">講演</a>を行い、AIエージェント開発における新たな設計思想を提示した。講演の模様は、同イベントを主催する開発者コミュニティ「AI Engineer」のYouTubeチャンネルで、12月9日に動画として公開されている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=CEvIs9y1uog&amp;t=183s">YouTube</a></p>
@@ -292,28 +230,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>一方でガーマン氏は、AIエージェントの普及によって仕事の内容や進め方が変わること自体は避けられないとの認識も示した。対談では、自社の従業員に対して「仕事は変わる」と伝えていると語り、数年前に成功していたやり方が来年も同じように通用するとは限らないと述べている。</p>
 <p>その上で、AIによって担当範囲が広がり、より大きな影響を与えられるようになる可能性がある一方、学び方や働き方を柔軟に変えられなければ、変化の速い環境で後れを取ることもあり得るとした。雇用全体への影響については不確実性があるとしながらも、中長期的にはAIが新たな経済的機会を生み、失われる仕事以上に新しい仕事が生まれる可能性が高いとの見方を示している。</p>
 <p>ただし、短期的には職種によって人手が減る局面が起こり得るとも言及し、企業側の役割として、訓練やリスキリングを通じて人材を再配置していく必要があるとの考えも示した。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare　2025年を振り返って「Radar 2025 Year in Review」公開──AIクローリングと主要サービスへの通信集中が鮮明に</title>
-      <link>https://ledge.ai/articles/cloudflare_2025_ai_crawling_major_services_traffic</link>
-      <description><![CDATA[<p>Cloudflareは、同社ネットワークで観測されたインターネット通信の動向をまとめた年次レポート「Radar 2025 Year in Review」を<a href="https://radar.cloudflare.com/year-in-review/2025#internet-traffic-growth">公開</a>した。2025年のインターネットでは、生成AI関連のクローラーを含む自動化されたアクセスが存在感を増す一方、トラフィックが一部の主要サービスに集中する傾向が改めて浮き彫りになった。</p>
-<p>同レポートは、Cloudflareが世界中で運用するエッジネットワークやDNSリゾルバーなどを通じて得られた観測データをもとに、2025年の通信トラフィック、サービス利用、セキュリティ動向などを多角的に整理したものだ。</p>
-<h2>AI時代のクローリングが示した通信の転換点</h2>
-<p>Radar 2025 Year in Reviewでは、2025年のインターネット通信において、検索エンジン向けの従来型クローラーに加え、生成AIに関連するクローラーの活動が顕著になった点が強調されている。Cloudflareは、こうした動きを単なるトラフィック量の増加ではなく、通信の構造が変化しつつある兆候として捉えている。</p>
-<p><strong>■ 2025年を通じて、生成AI関連を含む各種クローラーのリクエストが継続的に観測された。Cloudflare Radarは、AIボットと従来型クローラーの通信量を並列に可視化している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_bot_c1ac1e0c43/ai_bot_c1ac1e0c43.jpg" alt="ai bot.jpg" /></p>
-<p>生成AI向けクローラーは、Webページを検索結果に反映するための従来のクロールとは異なり、学習や要約、回答生成といった用途を前提に巡回する点が特徴とされる。Radarでは、こうしたAIクローラーの通信が、一定の割合を占めるまでに拡大している実態が示されている。</p>
-<p>Cloudflareはまた、ボットによるアクセスが必ずしも悪意あるものではない点にも言及している。検索やAIサービスの品質向上に寄与する「正当なボット」がある一方で、過剰なクロールや意図しない負荷を生むアクセスも存在しており、Web運営においては人間と自動化された通信を区別して扱う重要性が増しているとする。</p>
-<h2>トラフィックが集まった主要サービス群</h2>
-<p>Radar 2025 Year in Reviewでは、2025年を通じてどのようなサービスにトラフィックが集中したのかについても整理されている。検索、ソーシャルメディア、動画配信、クラウド関連サービスといった分野では、引き続き一部の大規模プラットフォームが高い通信量を維持した。</p>
-<p><strong>■ 2025年はGoogleをはじめとする既存の大規模インターネットサービスが、引き続き高いトラフィックを維持した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/internet_services_2d645b8411/internet_services_2d645b8411.jpg" alt="internet services.jpg" /></p>
-<p>Cloudflareは、こうした傾向をインターネット利用の「重心」が特定のサービス群に集約されつつある状況として示している。特に、日常的に利用されるインフラ的なサービスほど安定したトラフィックを確保しており、利用先の固定化が進んでいる様子がうかがえる。</p>
-<p>また、生成AI関連サービスについても、2025年には一過性の話題ではなく、日常的にアクセスされる存在としてトラフィック上に現れるようになった点が示された。人間による直接利用と、AIクローラーによるアクセスが混在することで、通信の内訳がより複雑化していることも特徴として挙げられている。</p>
-<h2>可視化が示す2025年のインターネット像</h2>
-<p>Cloudflareは、Radarを通じて「どの通信が、誰によって発生しているのか」を可視化する重要性を強調している。2025年のインターネットは、人間の利用だけでなく、AIやボットによる自動化された通信が前提となりつつあり、セキュリティ対策やトラフィック制御においても、こうした前提を踏まえた対応が求められているという。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
@@ -442,7 +358,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/18 [THU]Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
+      <title>Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
       <link>https://ledge.ai/articles/google_gemini_3_flash_default_model_release</link>
       <description><![CDATA[<p>Googleは2025年12月17日（現地時間）同社の生成AIモデル「Gemini 3」ファミリーに新たに「Gemini 3 Flash」を追加し、提供を開始したことを<a href="https://blog.google/products/gemini/gemini-3-flash/">発表</a>した。Gemini 3 Flashは、スピードを重視しながらも高度な推論能力とマルチモーダル機能を維持する点を特徴としており、一般ユーザー向けのGeminiアプリでは既定モデルとして展開される。</p>
 <p>@<a href="https://www.youtube.com/watch?v=rPXBDSf-Hwg">YouTube</a></p>
@@ -525,7 +441,7 @@ Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルライン�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>政府、初の「AI基本計画」を閣議決定──「信頼できるAI」を軸に国家戦略を明確化</title>
+      <title>公共2025/12/25 [THU]政府、初の「AI基本計画」を閣議決定──「信頼できるAI」を軸に国家戦略を明確化</title>
       <link>https://ledge.ai/articles/japan_ai_basic_plan_2025_cabinet_decision</link>
       <description><![CDATA[<p>政府は2025年12月23日、人工知能（AI）の研究開発および利活用の方向性を示す国家戦略「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」を閣議決定した。2025年に施行されたAI法に基づく初の基本計画で、「信頼できるAI」を中核に据え、「世界で最もAIを開発・活用しやすい国」の実現を目指すという。
 同計画で政府は、生成AIやAIエージェント、フィジカルAIなどの急速な技術進展により、AIが産業競争力や安全保障に直結する基盤技術となっていると指摘する。一方、日本ではAIの利活用や投資が主要国に比べて遅れており、社会実装の不足が開発力の低下を招いているとの問題意識が示された。人口減少や人手不足、賃金停滞といった構造的課題を背景に、政府はAIを「危機管理投資」と「成長投資」の両面から位置付け、反転攻勢に踏み出す。
@@ -651,7 +567,30 @@ AIは国境を越えて展開される技術であることから、日本国内
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI研究の最高峰「NeurIPS 2025」でアリババQwenチームら、最優秀論文賞を受賞―—Transformerの根幹「Attention」を見直す「Gated Attention」を提案</title>
+      <title>三井不動産、「社長AIエージェント」を開発──ChatGPT Enterprise全社員導入、業務削減10％超を目標に</title>
+      <link>https://ledge.ai/articles/mitsuifudosan_ceo_ai_agent_chatgpt_enterprise</link>
+      <description><![CDATA[<p>三井不動産は2025年12月23日、生成AIのさらなる活用による生産性向上と付加価値向上を目的として、「社長AIエージェント」など独自のAIプロダクトを開発したと<a href="https://www.mitsuifudosan.co.jp/corporate/news/2025/1223/">発表</a>した。あわせて、OpenAIの法人向け生成AIサービス「ChatGPT Enterprise」を約2,000人の全社員に導入しており、現場主導のAI活用を通じて、全社で業務削減時間10％以上の達成を目指すとしている。</p>
+<p>同社では2025年10月1日からChatGPT Enterpriseの全社導入を開始した。業務利用に必要なセキュリティやプライバシーを備えた環境のもと、要約や翻訳、資料・メールの下書き作成、コード生成、データ整理など、日常業務を幅広く支援する。部門や業務ごとのルールやマニュアルを組み込んだ「カスタムGPT」を、プログラミングなしで作成・共有できる点も特徴で、導入から約3か月で約500件のカスタムGPTが運用されているという。</p>
+<h2>全85部門から150人の「AI推進リーダー」、現場起点でAI活用を展開</h2>
+<p>AI活用を現場起点で進めるため、同社は全85部門から約150人の「AI推進リーダー」を選出した。AI推進リーダーは、各部門の実務を理解した上で、カスタムGPTの作成やユースケースの発掘、部門内への展開、効果測定などを担う。</p>
+<p><strong>AI推進リーダーの役割と体制：</strong> 各部門から選出されたAI推進リーダーが、DX部の支援のもとカスタムGPTを活用し、部門内の生産性向上と付加価値創出を担う
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20251223_02_c291e94437/20251223_02_c291e94437.jpg" alt="20251223_02.jpg" /></p>
+<p>Microsoft Teamsでの情報発信や社内研修を通じてノウハウを共有し、業務に即した「使える形」のAI活用を全社に広げていく体制を整えている。</p>
+<h2>内製AI開発環境で「社長AIエージェント」を開発</h2>
+<p>同社は、Microsoft Azure上に独自のAIプロダクトを開発できる内製環境を構築し、複数の生成AIモデルを組み合わせた活用を進めている。この環境で開発されたプロダクトの一つが「社長AIエージェント」だ。</p>
+<p>同エージェントは、同社社長である植田 俊氏の公開情報や過去の経歴・発信内容に加え、キャリアの転機となったプロジェクトやエピソードなどをもとに、社長の「ものの見方・考え方」を立体的に再現することを目的としている。社員が対話形式で利用し、全社戦略や市場環境への理解を深め、日々の判断や行動に活かすことを想定しており、2025年12月から全社トライアル利用を開始した。</p>
+<h2>DX本部長AIや資料自動生成AIなど、業務特化型AIも展開</h2>
+<p>このほか、DX本部長の考え方やミッションを反映した「DX本部長AIエージェント」や、テキスト入力だけでPowerPoint形式の資料を生成できる「資料自動生成AI」など、業務に特化したAIプロダクトも順次展開している。</p>
+<p><strong>資料自動生成AIの画面例：</strong> テキストで指示するだけで、構成されたPowerPoint形式の資料を自動生成。自然言語で修正指示も可能で、資料作成業務の効率化を図る
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20251223_05_cc50bc5ff3/20251223_05_cc50bc5ff3.jpg" alt="20251223_05.jpg" /></p>
+<p>DX本部長AIエージェントでは、説明資料の事前レビューをルール化することで、本部長の意向との不整合による手戻りを減らし、資料作成・修正にかかる時間を平均約30％削減したという。資料自動生成AIでは、レイアウト崩れを抑えた独自方式を採用し、編集可能なPowerPointファイルとして出力できる点を特徴としている。</p>
+<h2>業務削減10％超を目標に、生成AIの適用範囲を拡大へ</h2>
+<p>同社は今後、ChatGPT Enterpriseと内製AIプロダクトの両輪で生成AIの活用範囲を段階的に拡大する方針だ。現場の人手不足解消や社内データの整備・活用、経営の意思決定支援などへの適用を進め、業務効率化と付加価値創出の両立を目指すとしている。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2025/12/23 [TUE]AI研究の最高峰「NeurIPS 2025」でアリババQwenチームら、最優秀論文賞を受賞―—Transformerの根幹「Attention」を見直す「Gated Attention」を提案</title>
       <link>https://ledge.ai/articles/neurips_2025_best_paper_gated_attention</link>
       <description><![CDATA[<p>2025年12月、AIと機械学習分野で世界最高峰の国際学会として知られるNeurIPS 2025において、大規模言語モデル（LLM）の基盤技術であるTransformerの「Attention」メカニズムを改良する研究が、最優秀論文賞（Best Paper Award）を<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/120216">受賞</a>した。</p>
 <p>受賞した論文は「Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free」。アリババグループのQwenチームを中心に、複数の大学・研究機関が参加した共同研究で、Attentionの計算結果の扱い方を見直すことで、学習の安定性や長文処理性能の改善を示した。</p>
@@ -703,35 +642,6 @@ AIは国境を越えて展開される技術であることから、日本国内
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ビジネス2025/12/17 [WED]OpenAI、新モデル「GPT Image 1.5」搭載の「ChatGPT Images」を公開──GoogleのNano Banana Proに対抗</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_images_gpt_image_1_5_release</link>
-      <description><![CDATA[<p>OpenAIは2025年12月17日、新しい画像生成モデル「GPT Image 1.5」を搭載した新バージョンの「ChatGPT Images」をリリースしたことを<a href="https://openai.com/index/new-chatgpt-images-is-here/">発表</a>した。新モデルは、ゼロからの画像生成だけでなく、既存画像の編集においてもユーザーの意図をより忠実に反映するよう設計されており、OpenAIはこれを同社の“最も高性能な汎用画像生成モデル”と位置づけている。</p>
-<p>公式ブログによると、GPT Image 1.5は「Precise edits that preserve what matters（重要な要素を保ったまま、正確な編集を行う）」ことを重視して開発された。画像の一部を修正する際にも、照明や構図、人物の外見といった重要な視覚的要素を維持しつつ、指示された変更点のみを反映できるという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=DPBtd57p5Mg">YouTube</a></p>
-<h2>意図に沿った編集を、細部まで</h2>
-<p>GPT Image 1.5は、テキスト入力から新たな画像を生成する従来型の使い方に加え、既存の画像をアップロードして編集する用途にも対応する。OpenAIによると、被写体の一部を変更したり、要素を追加・削除したりする際にも、元の画像の文脈や視覚的な整合性を保ったまま編集できるという。</p>
-<p>特に、編集時にありがちな意図のずれや不自然な合成を抑え、ユーザーが指示した内容を反映しやすくした点が、今回のアップデートの特徴とされている。</p>
-<p><strong>元の素材</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_images_example_1_input_2_side_10deaf7fff/chatgpt_images_example_1_input_2_side_10deaf7fff.jpg" alt="chatgpt-images-example-1-input-2-side.jpg" />
-<strong>プロンプト：2人の男性と犬を、子供の誕生日パーティーで退屈そうにしている2000年代のフィルムカメラ風の写真に合成します</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_images_example_1_output_1_9a9c4bee33/chatgpt_images_example_1_output_1_9a9c4bee33.webp" alt="chatgpt-images-example-1-output-1.webp" />
-<strong>プロンプト：背景に、物を投げたり叫んだりするカオスな子供たちを追加します。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_images_example_1_output_2_c4825ffe56/chatgpt_images_example_1_output_2_c4825ffe56.webp" alt="chatgpt-images-example-1-output-2.webp" />
-<strong>プロンプト：左側の男性を手描きのレトロアニメスタイルに変更し、犬をぬいぐるみスタイルに変更し、右側の男性と背景の風景はそのままにします。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_save_8e5602dc1a/new_save_8e5602dc1a.webp" alt="new-save.webp" />
-<strong>プロンプト：全員に、こんな感じのOpenAI セーターを着せてみましょう。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Screenshot_2025_12_12_at_10_23_01a_AM_514132aad4/Screenshot_2025_12_12_at_10_23_01a_AM_514132aad4.webp" alt="Screenshot_2025-12-12_at_10.23.01â__AM.webp" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/MIX_1_ea42e6aaef/MIX_1_ea42e6aaef.webp" alt="MIX-1.webp" /></p>
-<h2>ChatGPT内に「Images」専用の制作空間を追加</h2>
-<p>今回のアップデートにあわせて、ChatGPT内には画像生成専用の「Images」体験が導入された。ユーザーはテキストで指示するだけでなく、プリセットのスタイルやトレンドプロンプトを選択することで、簡単に画像生成や編集を試すことができる。</p>
-<p>OpenAIは、この専用スペースによって、アイデア探索や試行錯誤をより直感的かつ高速に行えるようになるとしている。画像生成速度は最大で従来比4倍に向上しており、生成中であっても次の画像を作成できるため、待ち時間を減らしながら創作を進められる。</p>
-<h2>API提供も開始</h2>
-<p>GPT Image 1.5は、ChatGPT内の機能としてだけでなく、APIとしても提供される。これにより、開発者は自社のアプリケーションやサービスに画像生成・編集機能を組み込むことが可能になる。OpenAIは、クリエイティブ用途にとどまらず、業務やプロダクト開発での活用も想定している。</p>
-<p>OpenAIは今回のリリースを通じて、テキストと画像を横断するマルチモーダル体験を強化し、ChatGPTを中心とした生成AIの活用領域をさらに広げていく考えだ。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Private AI、三菱UFJ銀行のデータ基盤「OCEAN」で採用──非構造化データを生成AI活用へ、秘匿化を前提に</title>
       <link>https://ledge.ai/articles/private_ai_mufg_ocean_data_privacy</link>
       <description><![CDATA[<p>カナダを拠点とするAI企業の Private AI は2025年12月18日、同社のデータ秘匿化ソリューションが、三菱UFJ銀行のビッグデータ基盤「OCEAN」において正式に採用されたと<a href="https://prtimes.jp/main/html/rd/p/000000006.000131786.html">発表</a>した。</p>
@@ -744,7 +654,7 @@ AIは国境を越えて展開される技術であることから、日本国内
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AlibabaのQwen、画像をRGBAレイヤーに分解する生成AIを公開──「編集の一貫性」を構造から解決</title>
+      <title>学術＆研究2025/12/25 [THU]AlibabaのQwen、画像をRGBAレイヤーに分解する生成AIを公開──「編集の一貫性」を構造から解決</title>
       <link>https://ledge.ai/articles/qwen_image_layered_rgba_layer_decomposition</link>
       <description><![CDATA[<p>Alibabaの研究チームは、単一の画像を複数の意味的に分離されたRGBAレイヤーへ分解する画像生成モデル「Qwen-Image-Layered」を<a href="https://arxiv.org/abs/2512.15603">発表</a>した。単一の画像を前提とする従来の画像生成・編集とは異なり、画像を最初から「編集可能なレイヤー構造」として扱える点が特徴だ。</p>
 <h2>画像を「1枚」ではなく「レイヤーの集合」として扱う</h2>
@@ -766,7 +676,7 @@ Qwen-Image-Layeredは、画像を最初からレイヤーの集合として表�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>楽天、7000億パラメータの日本語LLM「Rakuten AI 3.0」発表──GENIAC支援で開発、国内最大規模</title>
+      <title>ビジネス2025/12/21 [SUN]楽天、7000億パラメータの日本語LLM「Rakuten AI 3.0」発表──GENIAC支援で開発、国内最大規模</title>
       <link>https://ledge.ai/articles/rakuten_ai_3_0_japanese_llm_700b_geniac</link>
       <description><![CDATA[<p>楽天グループは2025年12月18日、日本語に特化した大規模言語モデル（LLM）「Rakuten AI 3.0」を<a href="https://corp.rakuten.co.jp/news/press/2025/1218_01.html">発表</a>した。同社によると、同モデルは約7000億パラメータ規模で、日本語LLMとして国内最大規模に位置付けられる。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発支援プロジェクト<a href="https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected">「GENIAC（Generative AI Accelerator Challenge）」の支援</a>を受けて開発された。</p>
 <p>Rakuten AI 3.0は、Mixture of Experts（MoE）アーキテクチャを採用する。総パラメータ数は約7000億に達する一方、推論時には入力内容に応じて一部の専門モデルのみを動作させる仕組みとすることで、計算資源の効率化と運用コストの低減を図ったとしている。</p>
