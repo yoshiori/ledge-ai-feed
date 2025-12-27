@@ -519,37 +519,6 @@ AIは国境を越えて展開される技術であることから、日本国内
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>LLMエージェントでSNSの「バズ」を再現──投稿人気を高精度に予測する新手法「PopSim」</title>
-      <link>https://ledge.ai/articles/llm_agent_sns_popularity_simulation_popsim</link>
-      <description><![CDATA[<p>中国科学院情報工程研究所などの研究チームは2025年12月2日、大規模言語モデル（LLM）を用いたマルチエージェント・シミュレーションによって、SNS投稿の人気度を高精度に予測できるとする研究成果を<a href="https://arxiv.org/abs/2512.02533v1">発表</a>した。研究チームは、ソーシャルメディア上の情報拡散を仮想的に再現する新しい人気予測手法「PopSim」を提案し、既存の最先端手法を上回る性能を示したという。</p>
-<h2>静的モデルの限界、動的シミュレーションへ</h2>
-<p>SNS投稿の人気予測（Social Media Popularity Prediction, SMPP）は、推薦システムや広告、トレンド分析などで重要な役割を果たしてきた。従来手法の多くは、過去データから特徴量を抽出し、静的なモデルで将来の人気度を推定する「帰納的アプローチ」を採用してきた。</p>
-<p><strong>■ 従来の静的な人気予測モデル（上）と、LLMエージェントによる動的シミュレーションを用いたPopSim（下）の比較。PopSimは投稿の拡散過程そのものを再現する点が特徴</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_164610177c/x1_164610177c.png" alt="x1.png" /></p>
-<p>しかし研究チームは、投稿の拡散や評価はユーザー同士の相互作用によって時間的に変化する動的なプロセスであり、静的モデルではその本質を捉えきれないと指摘する。PopSimはこの課題に対し、LLMを搭載した多数の仮想エージェントがSNS空間で相互作用する「シミュレーション型アプローチ」を採用したという。</p>
-<h2>LLMエージェントが作る「仮想SNS」</h2>
-<p>PopSimでは、最大1000体規模のLLMベース・エージェントを用いて、SNSユーザーの行動を模倣する。各エージェントは、プロフィール、記憶、行動モジュールを持ち、投稿、リポスト、返信、いいね、沈黙といった行動を選択する。</p>
-<p><strong>■ PopSimの全体構成。LLMベースのエージェントがSNS空間をシミュレーションし、その結果を統合して人気度を予測する二段階構成を採用している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_9_1d92aaac22/x2_9_1d92aaac22.png" alt="x2 (9).png" /></p>
-<p>特徴的なのは「社会平均場（Social Mean Field）」と呼ばれる仕組みだ。
-エージェント全体の状態を、</p>
-<ul>
-<li>投稿に対する言語的反応を要約する「テキスト平均場」</li>
-<li>投稿への評価や関心度を数値化する「数値平均場」</li>
-</ul>
-<p>という2つのチャネルで表現し、個々のエージェントがそれを参照しながら意思決定を行う。これにより、個人と集団の相互作用を効率的にモデル化し、大規模シミュレーションを可能にした。</p>
-<h2>実データで誤差を平均8.82％削減</h2>
-<p>研究チームは、ICIPおよびSMPDという2つの実世界SNSデータセットを用いてPopSimを評価した。その結果、平均絶対誤差（MAE）や平均二乗誤差（MSE）、順位相関（SRC）といった主要指標で、既存の特徴量ベース手法や検索拡張型手法を一貫して上回る性能を示した。</p>
-<p>特にSMPDデータセットでは、最先端モデルと比べて予測誤差を平均8.82％削減したとしている。単純にLLMに人気度を直接予測させる手法と比べても、大幅な改善が確認された。</p>
-<h2>精度だけでなく効率面でも改善</h2>
-<p>PopSimは計算効率の面でも成果を示している。すべてのエージェント同士が直接相互作用する従来型シミュレーションと比べ、社会平均場を用いることでシミュレーション全体の実行時間を約83％削減できたという。</p>
-<p>また、エージェント数やシミュレーション回数を増やすことで精度が向上する一方、一定規模を超えると改善効果が頭打ちになることも示され、現実的な運用規模についての知見も提示された。</p>
-<h2>「予測」から「再現」へ</h2>
-<p>研究チームは、PopSimを単なる予測モデルではなく、SNS上での情報拡散や世論形成を理解するための基盤技術と位置づけている。LLMの進化に伴い、より現実に近い社会シミュレーションが可能になることで、SNS分析や社会科学研究への応用が広がる可能性があるとしている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Meta、音声分離AI「SAM Audio」公開──テキスト・映像・時間指定で任意の音を切り出し</title>
       <link>https://ledge.ai/articles/meta_sam_audio_release</link>
       <description><![CDATA[<p>米Metaは2025年12月16日、複雑な音声データから特定の音を分離できる音声分離AIモデル「SAM Audio」を<a href="https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/">発表</a>した。テキスト、映像、時間スパンという3種類のプロンプトを用いて音を切り出せる点が特徴で、同社は音声分野における初の統合型（unified）音声分離モデルとして位置付けている。</p>
@@ -793,6 +762,40 @@ Qwen-Image-Layeredは、画像を最初からレイヤーの集合として表�
 <p>生成AIをめぐっては、これまでSteamは取り扱いに慎重な姿勢を見せる一方、Epic Games Storeは比較的早い段階から生成AIの活用を前提としたスタンスを示してきた。
 そうした中で、Steamが生成AIの利用内容を明示的に開示させる制度を整え、その枠組みの中で「全工程AI」を申告するタイトルが登場したことは、同プラットフォームにおける運用の一つの転換点として捉えることもできる。</p>
 <p>今回の事例は、生成AI作品を一律に排除するのではなく、開示と申告を前提に取り扱うという、Steam側の現在地を示すものとも言えそうだ。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlphaGoからAlphaFoldまで──Google DeepMindの舞台裏を描く映画「The Thinking Game」、YouTubeで全編無料公開</title>
+      <link>https://ledge.ai/articles/the_thinking_game_deepmind_youtube_free_release</link>
+      <description><![CDATA[<p>AGI（汎用人工知能）の完成を目指すAI開発企業 Google DeepMind と、その創設者である デミス・ハサビス 氏を追ったドキュメンタリー映画「The Thinking Game」が、YouTubeで全編無料公開されている。</p>
+<p>同作は、DeepMindの創設初期から、囲碁AI「AlphaGo」、自己対戦型AI「AlphaZero」、タンパク質構造予測AI「AlphaFold」へと至る研究の歩みを、開発当事者の証言や当時の映像とともに記録した長編ドキュメンタリーである。
+これまで映画祭や限定上映を中心に公開されてきたが、現在はYouTube上で誰でも視聴可能な形で提供されている。</p>
+<p>@<a href="https://youtu.be/d95J8yzvjbQ?si=vIWt4zs9UPAJpNJ6">YouTube</a></p>
+<h2>映画で描かれる、知性をめぐる5つのエピソード</h2>
+<p>本作は単なる技術史ではなく、AI研究の過程で生じた意思決定や挫折、そして人間側の価値観にも焦点を当てている。以下は、ドキュメンタリー内で描かれる主なエピソードである。</p>
+<h3>1. 天才チェス少年がAI研究を志した原点</h3>
+<p>デミス・ハサビス氏は、幼少期にチェスの神童として活躍したが、12歳の国際大会での経験をきっかけに、競技としてのゲームに人生を捧げることに疑問を抱く。</p>
+<p>「多くの優秀な頭脳が、一つのゲームに費やされている」という違和感が、知性そのものを解明し、より大きな課題解決に役立てたいという志につながったことが語られる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_thinking_game9_4e808c2cd7/the_thinking_game9_4e808c2cd7.jpg" alt="the thinking game9.jpg" /></p>
+<h3>2. AIが“トンネル戦略”を発明した瞬間</h3>
+<p>初期の強化学習AI「DQN」は、Atariゲームを通じて学習を進める中で、人間が想定していなかった攻略法を自律的に発見する。
+ブロック崩しゲームでAIが編み出した「トンネルを掘る」戦略は、試行錯誤の末に創発的な解決策が生まれた象徴的な例として紹介されている。</p>
+<h3>3. AlphaGoの「あり得ない一手」</h3>
+<p>2016年のイ・セドル氏との対局で放たれたAlphaGoの37手目は、多くのプロ棋士が「あり得ない」と評した手だった。
+結果的にこの一手は勝利につながり、AIが人類の長い歴史を持つ囲碁に新たな知見をもたらした瞬間として描かれる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_thinking_game6_35068a4891/the_thinking_game6_35068a4891.jpg" alt="the thinking game6.jpg" /></p>
+<h3>4. 人間の知識ゼロから学ぶAlphaZero</h3>
+<p>AlphaZeroは、人間の棋譜データを一切使わず、ルールのみを与えられて自己対戦を繰り返すことで急速に強化された。
+短時間で人間のトップレベルを超える過程は、「知性はどこから生まれるのか」という問いを投げかける事例として位置づけられている。</p>
+<h3>5. AlphaFoldと50年来の科学的難問</h3>
+<p>ゲーム領域を超え、現実世界の科学課題に挑んだのがAlphaFoldだ。
+タンパク質構造予測という長年の難問に対し、試行錯誤と再設計を経て高精度を達成し、その成果を無償公開した決断までが描かれている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_thinking_game3_53da0ee081/the_thinking_game3_53da0ee081.jpg" alt="the thinking game3.jpg" /></p>
+<h2>YouTubeで全編視聴可能</h2>
+<p>同ドキュメンタリーは現在、YouTube上で無料公開されており、アカウント登録や課金なしで全編を視聴できる。
+@<a href="https://www.youtube.com/watch?v=d95J8yzvjbQ">YouTube</a></p>
+<p>AGI研究の歴史や、DeepMindが掲げてきた思想を一次映像で確認できる資料として、研究者・技術者に限らず、生成AIに関心を持つ幅広い層に開かれた公開形態となっている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
