@@ -328,80 +328,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AIに「長期記憶」を与える新アーキテクチャ「Titans」と設計理論のフレームワーク「MIRAS」を発表</title>
-      <link>https://ledge.ai/articles/google_ai_long_term_memory_titans_miras</link>
-      <description><![CDATA[<p>Google Researchは2025年12月4日、AIモデルに長期的な記憶能力を持たせるための新たなアーキテクチャ「Titans」と、その設計思想を統一的に説明するフレームワーク「MIRAS」を<a href="https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/">発表</a>した。</p>
-<p>Transformerを中心とする既存の大規模言語モデルが抱えてきた「長い文脈を扱うほど計算コストが増大し、重要な情報を保持しにくい」という課題に対し、推論時に記憶を学習・更新するという新しいアプローチを提示している。</p>
-<h2>Transformerの限界と「記憶」の再定義</h2>
-<p>TransformerはAttention機構によって高精度な依存関係のモデリングを可能にしてきた一方、計算量がコンテキスト長の二乗に比例するという制約を持つ。このため、極端に長い文書や時系列データを扱う際には効率面・性能面の両方で課題があった。</p>
-<p>Google Researchは、Attentionを「短期記憶」、それを補完する仕組みとして「長期記憶」を明確に分離して設計する必要があると位置づけた。</p>
-<h2>推論時に学習する「Titans」の中核</h2>
-<p>Titansの中心となるのは「Neural Long-Term Memory Module」と呼ばれる長期記憶モジュールだ。このモジュールは、再学習を行うことなく、推論時に入力を受け取りながら記憶を更新する。単なるキー・バリューキャッシュとは異なり、過去の情報をモデル内部のパラメータとして蓄積できる点が特徴だ。</p>
-<p><strong>■ Titansの全体構成：</strong> Attentionによる短期記憶に加え、推論時に更新されるNeural Memory（長期記憶）を統合。入力の重要度に応じて記憶を更新しつつ、固定パラメータとは独立して動作する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Titans_1_Overview_width_1250_e2f30e7bc8/Titans_1_Overview_width_1250_e2f30e7bc8.png" alt="Titans-1-Overview.width-1250.png" /></p>
-<p>Titansでは、長期記憶の統合方法として以下の3つの構成を提示している。</p>
-<ul>
-<li><strong>MAC（Memory as a Context）：</strong> 記憶を文脈としてAttentionに渡す方式</li>
-<li><strong>MAG（Memory as a Gate）：</strong> 記憶によってAttention出力を制御する方式</li>
-<li><strong>MAL（Memory as a Layer）：</strong> 記憶を独立したレイヤーとして組み込む方式</li>
-</ul>
-<p>特にMAC構成は、長距離依存関係を扱うタスクで高い性能を示したという。</p>
-<h2>「驚き」に基づく選択的記憶と忘却</h2>
-<p>Titansはすべての情報を無差別に記憶するのではなく、予測誤差が大きい、いわゆる「驚き（surprise）」の高いトークンを優先的に長期記憶へ反映する設計を採用している。
-また、weight decayやモメンタムを用いた更新により、不要になった情報を忘却できる仕組みも備える。これにより、従来の線形RNNやゲート型モデルでは難しかった「完全な記憶の消去」も可能になるという。</p>
-<h2>2Mトークン超でも性能を維持</h2>
-<p>論文では、言語モデリング、常識推論、needle-in-a-haystackタスク、DNA解析、時系列予測など幅広いベンチマークで評価を実施。BABILongやRULERといった長文タスクでは、GPT-4やRAGを併用した大規模モデルを含む既存手法を上回る結果を示した。
-有効なコンテキスト長は200万トークンを超えても性能が維持されることが確認されている。</p>
-<h2>設計理論「MIRAS」が示す統一的枠組み</h2>
-<p>MIRASは、Titansを含むさまざまなシーケンスモデルを「連想記憶システム」として捉え直すためのフレームワークだ。</p>
-<p>設計要素を</p>
-<ol>
-<li>記憶構造</li>
-<li>想起のための目的関数（attentional bias）</li>
-<li>保持・忘却を制御するゲート</li>
-<li>記憶の学習アルゴリズム</li>
-</ol>
-<p>の4点に整理し、Transformerや線形RNN、Titansを同一の理論枠組みで説明できるとしている。</p>
-<p><strong>■ MIRASフレームワークの概念図：</strong> 記憶構造、想起基準（attentional bias）、保持・忘却（retention gate）、学習アルゴリズムの4要素で、TitansやTransformerを含むシーケンスモデルを統一的に説明する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/miras_framework_47bb139255/miras_framework_47bb139255.jpg" alt="miras framework.jpg" /></p>
-<p>MIRASを基に、Moneta、Yaad、Memoraといった新たなモデル群も提案されており、タスク特性に応じた記憶設計の可能性が示された。</p>
-<h2>推論時学習という新たな方向性</h2>
-<p>Google Researchは、TitansをMIRASフレームワークの具体例の一つと位置づけている。外部検索に依存するRAGや、巨大な固定コンテキストを用意する方法とは異なり、「推論時に学習する記憶」を内包したAI設計が、今後の長文・長期推論の重要な方向性となる可能性を示した形だ。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、「Gemini 3 Flash」公開　“Pro級の推論”を低遅延・低コストで、Geminiアプリの既定モデルに</title>
-      <link>https://ledge.ai/articles/google_gemini_3_flash_default_model_release</link>
-      <description><![CDATA[<p>Googleは2025年12月17日（現地時間）同社の生成AIモデル「Gemini 3」ファミリーに新たに「Gemini 3 Flash」を追加し、提供を開始したことを<a href="https://blog.google/products/gemini/gemini-3-flash/">発表</a>した。Gemini 3 Flashは、スピードを重視しながらも高度な推論能力とマルチモーダル機能を維持する点を特徴としており、一般ユーザー向けのGeminiアプリでは既定モデルとして展開される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=rPXBDSf-Hwg">YouTube</a></p>
-<p>Googleによると、Gemini 3 Flashは「高速性、知能、コスト効率のバランス」を重視して設計されたモデルで、日常的な知識労働からソフトウェア開発まで、幅広いユースケースを想定している。同社は、Gemini 3の次世代インテリジェンスをGoogle製品全体に広げる役割を担うモデルだと位置づけている。</p>
-<h2>推論ベンチマークで示された“Pro級”の性能</h2>
-<p>公式ブログでは、Gemini 3 Flashの性能を示す指標として、複数の評価ベンチマークが公開された。高度な専門知識を問う「GPQA Diamond」では90.4％、「Humanity’s Last Exam」ではツール非使用条件で33.7％を記録したとしている。Googleは、これらの結果が、より大規模なフロンティアモデルに匹敵する水準だと説明している。</p>
-<p>また、マルチモーダル理解能力を測る「MMMU Pro」では81.2％に到達し、Gemini 3 Proと同等レベルの性能を示したという。推論能力とマルチモーダル処理を両立している点が、Gemini 3 Flashの重要な特徴とされている。</p>
-<p><strong>■ Gemini 3 Flashと他モデルを比較した公式ベンチマーク。推論、マルチモーダル理解、コーディングなど幅広い指標で、上位モデルに近いスコアを示している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_flash_final_benchmark_t_width_1000_format_webp_1aa4e26a6b/gemini_3_flash_final_benchmark_t_width_1000_format_webp_1aa4e26a6b.webp" alt="gemini-3-flash_final_benchmark-t.width-1000.format-webp.webp" /></p>
-<p>加えて、ソフトウェア開発分野では、コード生成や修正能力を評価する「SWE-bench Verified」で78％を記録し、Gemini 2.5系やGemini 3 Proを上回ったとしている。Googleは、反復的な開発作業やエージェント型ワークフローに適したモデルだと説明している。</p>
-<h2>「2.5 Pro比で3倍高速」、コスト効率も前面に</h2>
-<p>速度面では、外部評価機関Artificial Analysisによる測定結果として、Gemini 3 Flashは「Gemini 2.5 Proと比べて最大で約3倍高速」と説明されている。加えて、同等のタスクを処理する際に必要なトークン数が平均で約30％少なく、コスト効率にも優れるという。</p>
-<p>開発者向けの価格設定は、入力が100万トークンあたり0.50ドル、出力が同3ドル。音声入力は100万トークンあたり1ドルとされている。Googleは、低遅延かつ高頻度での利用を想定した価格体系だとしている。</p>
-<p><strong>■ 性能（スコア）とコストの関係を示した比較グラフ。Gemini 3 Flashは、Gemini 3 Proに近い性能帯を保ちながら、Flash系モデルらしい価格帯に位置づけられている。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_flash_pareto_graph_dec1_width_1000_format_webp_cf3f26591a/gemini_3_flash_pareto_graph_dec1_width_1000_format_webp_cf3f26591a.webp" alt="gemini-3-flash_pareto_graph_dec1.width-1000.format-webp.webp" /></p>
-<h2>開発者向けにはAPI・CLI・企業向け基盤で提供</h2>
-<p>Gemini 3 Flashは、Google AI StudioのGemini APIを通じてプレビュー提供されるほか、コマンドラインから利用できる「Gemini CLI」、エージェント開発向けプラットフォーム「Google Antigravity」でも利用可能とされている。企業向けには、Vertex AIおよびGemini Enterpriseを通じた提供が行われる。</p>
-<h2>Geminiアプリでは「追加料金なし」で利用可能</h2>
-<p>Gemini 3 Flashは、一般ユーザー向けのGeminiアプリでは既定モデルとして提供され、追加料金なしで利用可能とされている。また、Google検索の「AI Mode」でも、全ユーザーを対象に段階的な無料提供が始まっている。</p>
-<p>なお、Geminiアプリには使用量の上限があり、ProやUltraといった有料サブスクリプションでは、より大きな利用枠が適用される</p>
-<h2>有料プランや開発用途では従量課金が適用</h2>
-<p>一方、Gemini 3 Flashは開発用途や企業向けサービスでも提供される。Google AI Studioを通じたGemini APIや、Vertex AI、Gemini Enterpriseといった企業向け基盤では、利用量に応じた従量課金が発生する。
-公式ブログでは、Gemini 3 Flashの価格として、入力が100万トークンあたり0.50ドル、出力が同3ドル、音声入力は100万トークンあたり1ドルが提示されている。Googleは、低遅延かつ高頻度での利用を想定した価格体系だとしており、開発者や企業での実運用を意識した設計であることを強調している。</p>
-<h2>検索AIモードにも展開</h2>
-<p>Gemini 3 Flashは、Google検索の「AI Mode」でも既定モデルとして段階的にロールアウトされる。検索AIモードでは、質問の意図を分解して整理した回答や、リアルタイムのローカル情報、関連リンクの提示などを特徴としている。
-Googleは、Gemini 3 ProやGemini 3 Deep Thinkとあわせてモデルラインアップを拡充し、一般ユーザーから開発者、企業利用までをカバーする体制を整えていく方針だ。Gemini 3 Flashは、その中でスピードと実用性を担う中核モデルとして位置づけられている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、MCPを全サービスに展開──Gemini時代の「AI×クラウド接続」を標準化</title>
       <link>https://ledge.ai/articles/google_mcp_all_services_gemini_ai_cloud_standardization</link>
       <description><![CDATA[<p>Googleは2025年12月11日、生成AIモデル「Gemini」などのAIエージェントと、同社のクラウドサービスを接続するための共通基盤として、Model Context Protocol（MCP）の公式サポートを開始したと<a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services">発表</a>した。Googleは今後、同社が提供するすべてのサービスにおいて、段階的に接続用のMCPサーバをGoogle側が用意・運用する形で提供していく方針だ。</p>
@@ -739,37 +665,6 @@ Qwen-Image-Layeredは、画像を最初からレイヤーの集合として表�
 <p>:::button
 <a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
 :::</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Steamに「100％AI制作」をうたうゲーム登場──コードから音楽まで“全工程AI”と開示</title>
-      <link>https://ledge.ai/articles/steam_100_percent_ai_generated_game_codex_mortis</link>
-      <description><![CDATA[<p>ゲーム開発における生成AI活用が広がる中、制作工程のすべてをAIで生成したと申告するゲームが、PCゲーム配信プラットフォーム「Steam」に登場した。</p>
-<p>対象となるのは、ローグライト系アクションゲーム「CODEX MORTIS」。Steam上で公開されている体験版（Demo）は2025年12月9日付で<a href="https://store.steampowered.com/app/4095390/CODEX_MORTIS_Demo/">配信</a>が始まっており、ストアページの「AI Generated Content Disclosure（AI生成コンテンツの開示）」欄には、コード、アート、サウンド、音楽、テキストのすべてがAI生成であると記載されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=E5Oxs8lPT8s">YouTube</a></p>
-<h2>Steam上に現れた“全工程AI”という記載</h2>
-<p>「CODEX MORTIS」の体験版および本編のSteamストアページでは、いずれもAI生成コンテンツに関する開示が行われている。
-体験版の開示欄には「All code is AI vibe codes, also arts, sounds, music, texts」と記されており、本編ページでも、ゲーム全体がAIによって生成されたことが示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/100_Vibe_Coded_Playable_Game_4fb83b3185/100_Vibe_Coded_Playable_Game_4fb83b3185.jpg" alt="100%VibeCodedPlayableGame.jpg" /></p>
-<p>開発元はGROLAF、パブリッシャーはCRUNCHFESTと表示されており、本編の発売時期については、現時点では「未定」とされている。</p>
-<p>これらの記載は、第三者による検証結果ではなく、開発側がSteam上で申告した内容である。一方で、コードから音楽に至るまで「全工程AI」と明示している点は、Steam上でも目立つ表現となっている。</p>
-<h2>Steamは何を開示させているのか</h2>
-<p>Steamを運営するValveは、開発者向け公式ドキュメント「Steamworks」において、ゲーム公開前に提出する「Content Survey（コンテンツ調査）」の中で、生成AIの利用有無や内容を申告する仕組みを設けている。</p>
-<p>この調査では、</p>
-<ul>
-<li>開発段階で生成されたコンテンツ（Pre-Generated AI）</li>
-<li>実行中に生成されるコンテンツ（Live-Generated AI）</li>
-</ul>
-<p>といった区分を含め、生成AIがどの工程でどのように使われているかを説明することが求められる。
-その回答内容に基づき、Steamストア上では「AI Generated Content Disclosure」として、AI利用に関する情報が表示される。</p>
-<p>「CODEX MORTIS」は、この枠組みの下で、制作工程全体をAI生成とする内容を申告したタイトルの一つとなる。</p>
-<h2>“全工程AI”は例外か、兆しか</h2>
-<p>ゲーム業界では近年、コンセプトアート制作やコード補助、テキスト生成、テスト工程など、さまざまな場面で生成AIの活用が進んでいる。一方で、コード、ビジュアル、音楽までを含めて“すべてAI生成”と明示するケースは、依然として多くはない。</p>
-<p>今回の事例は、作品の完成度や評価とは切り離して、SteamのAI開示制度の下で「全工程AI」という申告が公に確認できる形で示された点に特徴がある。</p>
-<p>生成AIをめぐっては、これまでSteamは取り扱いに慎重な姿勢を見せる一方、Epic Games Storeは比較的早い段階から生成AIの活用を前提としたスタンスを示してきた。
-そうした中で、Steamが生成AIの利用内容を明示的に開示させる制度を整え、その枠組みの中で「全工程AI」を申告するタイトルが登場したことは、同プラットフォームにおける運用の一つの転換点として捉えることもできる。</p>
-<p>今回の事例は、生成AI作品を一律に排除するのではなく、開示と申告を前提に取り扱うという、Steam側の現在地を示すものとも言えそうだ。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
