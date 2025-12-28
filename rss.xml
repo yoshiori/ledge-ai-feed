@@ -320,6 +320,22 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ヒトラーも第一次世界大戦も知らないAI──チューリッヒ大学ら、1913年以前の知識だけで構築した「Ranke-4B」</title>
+      <link>https://ledge.ai/articles/hitler_unknown_ai_ranke_4b</link>
+      <description><![CDATA[<p>チューリッヒ大学の研究者らは、1913年以前のタイムスタンプ付きテキストのみを用いて学習した大規模言語モデル（LLM）「<a href="https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md">Ranke-4B</a>」をリリースした。</p>
+<p>同モデルは、現代的な知識や価値観を意図的に排除し、100年以上前の社会における知識や見解を表現できるAIの構築を目的とした「History-LLMs」プロジェクトの一環として開発されたという。</p>
+<p>Ranke-4Bの最大の特徴は、学習データを第一次世界大戦前の1913年までに限定している点にある。これにより、同モデルはアドルフ・ヒトラーの登場や第一次世界大戦、その後の20世紀史を原理的に「知らない」状態で設計されている。研究チームは、こうした厳格な知識カットオフによって、現代の視点や後知恵が歴史的文脈に混入する問題を避けられるとしている。</p>
+<p>History-LLMsプロジェクトでは、近年の大規模言語モデルが抱える課題として、過去を扱う際にも現代の知識や価値判断が無自覚に反映されてしまう、いわゆる「後知恵汚染」を指摘してきた。Ranke-4Bは、この問題に対し、特定の時点における社会の知識体系や一般的な見解を再現するための実験的なモデルとして位置づけられている</p>
+<p><strong>19世紀ドイツの歴史学者レオポルト・フォン・ランケの肖像：</strong> Ranke-4Bは、史料に基づき当時の視点を重視する歴史学の方法論にちなんで命名された。画像は、History-LLMsプロジェクトの研究者である Joachim Voth 氏が、モデルの思想を説明する投稿の中で引用したもの
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/leopold_von_ranke_ce38b72b13/leopold_von_ranke_ce38b72b13.jpg" alt="leopold von ranke.jpg" /></p>
+<p>モデル規模は約40億パラメータで、当時の政治体制や社会制度、科学的理解などを前提とした応答が可能だという。一方で、1914年以降の出来事や概念については意図的に情報が欠落しており、現代の利用者から見れば不完全な応答を返す場合もある。研究チームは、こうした制約こそが歴史特化モデルとしての本質だと説明している。</p>
+<p>研究者らは、Ranke-4Bの活用例として、歴史研究や教育分野における思考実験、当時の視点に立った対話の再現などを挙げている。特定の出来事の「正解」を提示するのではなく、その時代の人々がどのような前提や認識のもとで世界を理解していたのかを検証するための道具としての利用が想定されている。</p>
+<p>また、知識を特定の時点に固定したLLMは、モデル評価やAI安全研究においても有用な基盤になり得るという。現代の情報を知らない状態で、どのような推論や誤りが生じるのかを比較することで、言語モデルの振る舞いをより精密に分析できる可能性がある。</p>
+<p>Ranke-4Bは、History-LLMsプロジェクトのGitHubリポジトリを通じて公開されており、研究目的での利用が想定されている。研究チームは今後も、異なる時代設定を持つモデルの開発を進め、時間軸を意識したAI研究を拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「知能爆発」へ“10年以内”の現実味──オックスフォード大の哲学者MacAskill氏らの警告、AIが「数年で1世紀分」の技術進歩を起こし得る</title>
       <link>https://ledge.ai/articles/intelligence_explosion_10_years_warning</link>
       <description><![CDATA[<p>オックスフォード大学の哲学者Will MacAskill氏とFin Moorhouse氏は2025年3月に公開した論文「<a href="https://arxiv.org/abs/2506.14863">Preparing for the Intelligence Explosion（知能爆発への備え）</a>」で、人間よりはるかに賢いAIが今後10年以内に登場する「十分に現実的な可能性（serious chance）」があると指摘した。</p>
