@@ -525,6 +525,22 @@ AIは国境を越えて展開される技術であることから、日本国内
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA、GroqのAI推論技術を非独占ライセンス──創業者ら主要人材も合流</title>
+      <link>https://ledge.ai/articles/nvidia_groq_ai_inference_non_exclusive_license</link>
+      <description><![CDATA[<p>米半導体大手の NVIDIA は、AIアクセラレータを開発する米企業 Groq が保有するAI推論技術について、非独占ライセンス契約を締結した。Groqが2025年12月24日に<a href="https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale">発表</a>した。</p>
+<p>この契約により、NVIDIAはGroqの推論関連技術を活用できる。契約は非独占であり、Groqは引き続き他社に対しても同技術を提供できるという。</p>
+<h2>推論技術を対象とした非独占ライセンス契約</h2>
+<p>発表によると、今回の合意はAIモデルの学習ではなく、実運用時の処理を担う「推論（inference）」に関する技術を対象としている。Groqはこれまで、推論処理に特化したアーキテクチャとソフトウェアスタックを強みとしてきた。非独占契約である点から、NVIDIAによる買収や資本参加ではなく、あくまで技術ライセンスという位置づけとなる。</p>
+<h2>創業者ら主要人材がNVIDIAに参加</h2>
+<p>契約の一環として、Groqの創業者であるJonathan Ross氏、社長のSunny Madra氏ら主要メンバーがNVIDIAに加わることも明らかにされた。両氏は今後、ライセンスされた推論技術の開発およびグローバル展開に関与するという。</p>
+<p>一方でGroqは独立した企業として存続する。新たな経営体制の下で、同社のクラウドサービス「GroqCloud」など既存事業は継続される見通しだ。</p>
+<h2>推論特化を強みとするGroqの立ち位置</h2>
+<p>Groqは、AI推論処理に最適化したアクセラレータとソフトウェアを開発する企業として知られる。大規模言語モデル（LLM）などの推論を低レイテンシかつ高いスループットで実行することを主眼に設計されており、学習用途を主戦場とするGPUとは異なる思想を掲げてきた。</p>
+<p>今回の契約により、Groqの推論技術がNVIDIAのエコシステムに組み込まれる形となる。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIブラウザの「自律行動」が新たな攻撃対象に──OpenAI、ChatGPT Atlasで“攻撃を生み出すAI”を投入</title>
       <link>https://ledge.ai/articles/openai_chatgpt_atlas_prompt_injection_red_team</link>
       <description><![CDATA[<p>OpenAIは2025年12月22日、AIエージェントを組み込んだウェブブラウザ「ChatGPT Atlas」の安全性を強化するため、有害なプロンプトインジェクション攻撃の手法を自動で編み出すAIシステムを構築し、リリースしたことを<a href="https://openai.com/index/hardening-atlas-against-prompt-injection/">明らかにした</a>。</p>
