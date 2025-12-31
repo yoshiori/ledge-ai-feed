@@ -210,7 +210,7 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、研究開発の2025年総括を公開　AIは「ツールからユーティリティへ」──8分野のブレークスルーを整理</title>
+      <title>学術＆研究2025/12/31 [WED]Google、研究開発の2025年総括を公開　AIは「ツールからユーティリティへ」──8分野のブレークスルーを整理</title>
       <link>https://ledge.ai/articles/google_research_2025_ai_research_breakthroughs_review</link>
       <description><![CDATA[<p>Googleは2025年12月23日、同社の研究開発分野における1年間の進展をまとめた年次レビュー記事を公式ブログで<a href="https://blog.google/technology/ai/2025-research-breakthroughs/#ai-products">公開</a>した。記事は、Google ResearchおよびAI担当シニアフェローの Jeff Dean 氏、Demis Hassabis 氏（Google DeepMind CEO）、研究・技術・社会担当シニアヴァイスプレジデントの James Manyika 氏が連名で解説している。</p>
 <p>記事では、2025年を「AIが単なるツールから、実際の仕事を任せられるユーティリティへと移行した年」と位置づけ、基盤モデル、プロダクト、科学研究、計算基盤、社会課題、安全性、そして産官学連携に至るまで、8つの領域にわたる研究開発のブレークスルーを整理している。</p>
@@ -509,7 +509,7 @@ OpenAIは、攻撃と防御の双方を自動化する仕組みが、AIエージ
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2025/12/25 [THU]AlibabaのQwen、画像をRGBAレイヤーに分解する生成AIを公開──「編集の一貫性」を構造から解決</title>
+      <title>AlibabaのQwen、画像をRGBAレイヤーに分解する生成AIを公開──「編集の一貫性」を構造から解決</title>
       <link>https://ledge.ai/articles/qwen_image_layered_rgba_layer_decomposition</link>
       <description><![CDATA[<p>Alibabaの研究チームは、単一の画像を複数の意味的に分離されたRGBAレイヤーへ分解する画像生成モデル「Qwen-Image-Layered」を<a href="https://arxiv.org/abs/2512.15603">発表</a>した。単一の画像を前提とする従来の画像生成・編集とは異なり、画像を最初から「編集可能なレイヤー構造」として扱える点が特徴だ。</p>
 <h2>画像を「1枚」ではなく「レイヤーの集合」として扱う</h2>
