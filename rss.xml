@@ -131,30 +131,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>デジタル庁と内閣府、市区町村単位の「Japan Dashboard」を公開──経済・財政・人口・暮らしを横断可視化</title>
-      <link>https://ledge.ai/articles/digital_agency_cabinet_office_japan_dashboard_municipality</link>
-      <description><![CDATA[<p>デジタル庁は2025年12月19日、内閣府と共同で、自治体データを市区町村単位で可視化するJapan Dashboard｜経済・財政・人口と暮らしの市区町村版を<a href="https://www.digital.go.jp/resources/japandashboard/economy-fiscal-living-municipality">発表</a>した。経済、財政、人口、暮らしに関する主要指標を、地図やグラフで比較・分析できる。</p>
-<h2>国・都道府県に続き、市区町村版を新たに公開</h2>
-<p>Japan Dashboardは、政府が整備を進めてきたデータ可視化基盤だ。これまで国・都道府県単位の情報提供が中心だったが、今回新たに市区町村単位のデータが追加された。デジタル庁と内閣府が連携して提供する。</p>
-<h2>人口・財政・経済・暮らしを横断的に把握</h2>
-<p>市区町村版では、次のような領域の指標が収録されている。</p>
-<ul>
-<li>人口（人口増減、高齢化率など）</li>
-<li>経済・雇用関連指標</li>
-<li>地方財政（歳入・歳出、財政力指数など）</li>
-<li>教育、社会保障、社会基盤、暮らしに関する指標
-いずれも政府統計などの公的データを基に構成されている。</li>
-</ul>
-<h2>地図・比較・時系列で直感的に分析</h2>
-<p>ダッシュボードでは、地図表示による地域分布の把握、市区町村間の比較、指標同士の相関表示、時系列での推移確認が可能だ。専門的な分析ツールを使わず、ブラウザ上で操作できる。</p>
-<h2>自治体ニーズを踏まえた整備</h2>
-<p>内閣府の会議資料によると、市区町村版の整備は、自治体からの要望を踏まえて検討された。EBPM（証拠に基づく政策立案）やデータ活用を、現場レベルで支援する狙いがある。</p>
-<h2>自治体職員から民間・市民まで利用を想定</h2>
-<p>想定される利用者は、自治体職員（施策立案や現状把握）に加え、研究者やメディア、民間企業、スタートアップ、市民や学生など幅広い。データは無償で閲覧できる。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>富士通、NVIDIA技術で「マルチAIエージェント基盤」公開　機密ワークフローの自動化を狙う</title>
       <link>https://ledge.ai/articles/fujitsu_nvidia_multi_ai_agent_framework</link>
       <description><![CDATA[<p>富士通は2025年12月24日、米NVIDIAとの協業の成果として、Physical AI（物理AI）とAIエージェントをシームレスに連携させる技術「Fujitsu Kozuchi Physical AI 1.0」を開発したと<a href="https://global.fujitsu/ja-jp/pr/news/2025/12/24-02">発表</a>した。あわせて、機密性の高い業務ワークフローをセキュアに自動化するため、NVIDIA技術を活用したマルチAIエージェントフレームワークをはじめとするPhysical AI関連技術を公開した。</p>
@@ -717,23 +693,6 @@ AIは国境を越えて展開される技術であることから、日本国内
 <h2>AIエージェント普及を見据えた防御設計</h2>
 <p>今回の取り組みは、ChatGPT Atlasに限らず、今後普及が見込まれるAIエージェント全般を視野に入れたものとされる。
 OpenAIは、攻撃と防御の双方を自動化する仕組みが、AIエージェント時代の基盤セキュリティとして不可欠になるとの立場を示している。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>楽天、7000億パラメータの日本語LLM「Rakuten AI 3.0」発表──GENIAC支援で開発、国内最大規模</title>
-      <link>https://ledge.ai/articles/rakuten_ai_3_0_japanese_llm_700b_geniac</link>
-      <description><![CDATA[<p>楽天グループは2025年12月18日、日本語に特化した大規模言語モデル（LLM）「Rakuten AI 3.0」を<a href="https://corp.rakuten.co.jp/news/press/2025/1218_01.html">発表</a>した。同社によると、同モデルは約7000億パラメータ規模で、日本語LLMとして国内最大規模に位置付けられる。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発支援プロジェクト<a href="https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected">「GENIAC（Generative AI Accelerator Challenge）」の支援</a>を受けて開発された。</p>
-<p>Rakuten AI 3.0は、Mixture of Experts（MoE）アーキテクチャを採用する。総パラメータ数は約7000億に達する一方、推論時には入力内容に応じて一部の専門モデルのみを動作させる仕組みとすることで、計算資源の効率化と運用コストの低減を図ったとしている。</p>
-<p>同社によると、Rakuten AI 3.0は日本語の文脈理解や表現の自然さを重視して設計され、楽天が保有するデータや高品質な日本語・バイリンガルデータを用いて学習および調整が行われた。日本語ベンチマークの一つである日本語版MT-Benchでは8.88のスコアを記録したとしている。</p>
-<p><strong>■ 日本語特化モデルとのベンチマーク比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_82bda693ce/rakuten_ai_3_0_82bda693ce.jpg" alt="rakuten ai 3-0.jpg" /></p>
-<p>また、社内検証では、同規模クラスのモデルと比較して最大90％のコスト削減効果が確認されたという。研究用途にとどまらず、実サービスへの適用を前提としたモデルである点を特徴としている。</p>
-<p><strong>■ 楽天AIシリーズにおける位置付け</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_1_41fbde6837/rakuten_ai_3_0_1_41fbde6837.jpg" alt="rakuten ai 3-0-1.jpg" /></p>
-<p>Rakuten AI 3.0は、楽天の生成AI基盤「Rakuten AI Gateway」に統合され、APIを通じて利用可能となる予定だ。さらに、同社が展開する「Rakuten AI」エージェントプラットフォームを介し、楽天エコシステム内の各種サービスへの順次導入を進めるとしている。</p>
-<p>開発は、GENIACの枠組みに基づく支援の下で行われた。GENIACは、日本国内における生成AIの基盤技術強化と社会実装を目的に、計算資源の提供や研究開発支援を行う国家プロジェクトである。</p>
-<p>楽天グループは、Rakuten AI 3.0について、2026年春を目標にオープンウェイトモデルとして公開する計画も示している。日本語に特化した大規模モデルをオープンに提供することで、国内の生成AI開発や利活用の裾野拡大につなげたい考えだ。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
