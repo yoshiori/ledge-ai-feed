@@ -571,22 +571,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、GroqのAI推論技術を非独占ライセンス──創業者ら主要人材も合流</title>
-      <link>https://ledge.ai/articles/nvidia_groq_ai_inference_non_exclusive_license</link>
-      <description><![CDATA[<p>米半導体大手の NVIDIA は、AIアクセラレータを開発する米企業 Groq が保有するAI推論技術について、非独占ライセンス契約を締結した。Groqが2025年12月24日に<a href="https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale">発表</a>した。</p>
-<p>この契約により、NVIDIAはGroqの推論関連技術を活用できる。契約は非独占であり、Groqは引き続き他社に対しても同技術を提供できるという。</p>
-<h2>推論技術を対象とした非独占ライセンス契約</h2>
-<p>発表によると、今回の合意はAIモデルの学習ではなく、実運用時の処理を担う「推論（inference）」に関する技術を対象としている。Groqはこれまで、推論処理に特化したアーキテクチャとソフトウェアスタックを強みとしてきた。非独占契約である点から、NVIDIAによる買収や資本参加ではなく、あくまで技術ライセンスという位置づけとなる。</p>
-<h2>創業者ら主要人材がNVIDIAに参加</h2>
-<p>契約の一環として、Groqの創業者であるJonathan Ross氏、社長のSunny Madra氏ら主要メンバーがNVIDIAに加わることも明らかにされた。両氏は今後、ライセンスされた推論技術の開発およびグローバル展開に関与するという。</p>
-<p>一方でGroqは独立した企業として存続する。新たな経営体制の下で、同社のクラウドサービス「GroqCloud」など既存事業は継続される見通しだ。</p>
-<h2>推論特化を強みとするGroqの立ち位置</h2>
-<p>Groqは、AI推論処理に最適化したアクセラレータとソフトウェアを開発する企業として知られる。大規模言語モデル（LLM）などの推論を低レイテンシかつ高いスループットで実行することを主眼に設計されており、学習用途を主戦場とするGPUとは異なる思想を掲げてきた。</p>
-<p>今回の契約により、Groqの推論技術がNVIDIAのエコシステムに組み込まれる形となる。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、「Head of Preparedness（準備責任者）」を高額報酬で再募集──アルトマンCEOが「ストレスフル」と明言、超知能研究の先に来る“運用の責任”</title>
       <link>https://ledge.ai/articles/openai_altman_head_of_preparedness_recruitment</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年12月27日（現地時間）、X（旧Twitter）で新たな役職「Head of Preparedness（準備責任者）」の<a href="https://x.com/sama/status/2004939524216910323">募集を告知</a>した。</p>
@@ -780,6 +764,16 @@ Safety Systemsチームの中核ポジションとして、評価結果をもと
 <p>先行展開として、釣りやゴルフといった趣味領域の動画を対象に、AIによる記事化を順次開始する。「釣りよかでしょう。」や「UUUM GOLF-ウーム ゴルフ-」など、UUUM所属の人気クリエイターによる動画を、内容が一目で分かる記事として紹介することで、ユーザーがこれまで接点のなかった動画にも自然に出会える機会を創出する。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Smart_News_UUUM_02_ca55da062a/Smart_News_UUUM_02_ca55da062a.png" alt="SmartNews_UUUM_02.png" /></p>
 <p>先行テストでは、動画紹介記事がチャンネル内の他の記事と同等以上の閲読数を獲得し、記事から元動画の視聴へ進む動きも確認された。動画を「読む」という新たな入り口が、視聴のハードルを下げ、クリエイターとの接点拡大につながる可能性を示している。SmartNewsは今回の取り組みを通じて、より多様な動画の魅力に気軽に触れられるニュース体験の提供を進めていくとしている。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ソフトバンクG、OpenAIに225億ドルの追加出資を完了し発行済み株式11％保有の主要株主に──2025年AI投資を象徴する大型案件</title>
+      <link>https://ledge.ai/articles/softbank_openai_additional_investment_225b_completed</link>
+      <description><![CDATA[<p>ソフトバンクグループは2025年12月31日、米OpenAIへの追加出資225億ドル（約3.52兆円）が、米国時間12月26日に完了したと<a href="https://group.softbank/news/press/20251231">発表</a>した。今回の払い込みは、同社が2025年4月に表明していた最大400億ドル規模の投資コミットメントの一部にあたる。</p>
+<p>同社によると、今回の追加出資を含め、OpenAIに対する外部投資家を含む累計のコミットメント額は約410億ドルに達した。これにより、ソフトバンクグループはOpenAIの発行済み株式の約11％を保有する主要株主となる。</p>
+<p>OpenAIは、ChatGPTなどの大規模言語モデル（LLM）を開発する企業で、生成AI分野を代表するプレイヤーの一つとされる。今回の資金は、研究開発や計算基盤の拡充などに充てられる見通しだ。</p>
+<p>ソフトバンクグループは2025年を通じてAI分野への投資姿勢を明確にしており、会長兼社長である孫正義氏は、AIを成長戦略の中核と位置づけてきた。OpenAI側では、CEOであるサム・アルトマン氏のもとで、汎用的なAIシステムの研究開発が進められている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
