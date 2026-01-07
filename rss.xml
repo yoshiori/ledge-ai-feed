@@ -624,6 +624,29 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA、次世代AI基盤「Rubin」をCESで正式発表──GPU「Rubin」と新CPU「Vera」を含む6チップ構成、推論コストは最大10分の1に</title>
+      <link>https://ledge.ai/articles/nvidia_rubin_vera_ces_2026</link>
+      <description><![CDATA[<p>NVIDIAは2026年1月5日（米国時間）、CESの開催に際し、AIデータセンター向けの次世代プラットフォーム「Rubin」を<a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer">発表</a>した。</p>
+<p>新たに設計したCPU「Vera」とGPU「Rubin」を中核に、6種類の半導体を極めて緊密に統合した構成が特徴で、同社は従来世代「Blackwell」と比べ、AIの学習および推論にかかるコストを大幅に削減できるとしている。</p>
+<p>Rubinプラットフォームは、NVIDIA Vera CPU、NVIDIA Rubin GPU、NVLink 6 Switch、ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6 Ethernet Switchの6つの新チップで構成される。チップ単体の性能向上に依存するのではなく、CPU、GPU、ネットワーク、ストレージ、セキュリティまでを含めた“プラットフォーム全体”を同時に設計する「エクストリーム・コードザイン」を採用した点が特徴だ。</p>
+<p><strong>■ CESの基調講演で、NVIDIAのCEOであるジェンスン・フアン氏が次世代AI基盤「Rubin」を構成する主要コンポーネントを紹介した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jensen_vera_rubin2_467cfbac7b/jensen_vera_rubin2_467cfbac7b.jpg" alt="jensen vera rubin2.jpg" /></p>
+<p>Rubinという名称は、銀河の回転速度を観測し、ダークマターの存在を示した米国の天文学者ヴェラ・ルービン氏に由来する。NVIDIAは、同氏が宇宙観を大きく変えた存在であることになぞらえ、AIコンピューティングの新たな基盤となるプラットフォームにその名を冠したとしている。</p>
+<p><strong>■ CESの基調講演で示された、天文学者ヴェラ・ルービン氏と銀河回転曲線の図。新プラットフォーム「Rubin」は、同氏にちなんで命名された</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vera_rubin2_0fca679ec3/vera_rubin2_0fca679ec3.jpg" alt="vera rubin2.jpg" /></p>
+<p>Rubin GPUは、第3世代のTransformer Engineを搭載し、推論処理に最適化された演算性能を特徴とする。NVIDIAは、演算精度を動的に調整する仕組みにより、推論性能と効率の両立を図っていると説明している。</p>
+<p><strong>■ NVIDIAがCESで示した「Rubin GPU」の主な仕様。推論性能やメモリ帯域などで、Blackwell世代からの大幅な向上が示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_rubin_cpu_a40d212a8b/nvidia_rubin_cpu_a40d212a8b.jpg" alt="nvidia rubin cpu.jpg" /></p>
+<p>一方、新CPU「Vera」は、大規模AIファクトリー向けに設計されたNVIDIA独自のCPUだ。GPUとの高帯域接続を前提とした構成を採用し、従来の汎用CPUとは異なる役割を担うとしている。</p>
+<p><strong>■ NVIDIAが新たに設計した「Vera CPU」の概要。88基のカスタムOlympusコアと、GPUとの高帯域接続を前提とした構成が示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_vera_cpu_c2ba958e3c/nvidia_vera_cpu_c2ba958e3c.jpg" alt="nvidia vera cpu.jpg" /></p>
+<p>システム形態としては、72基のRubin GPUと36基のVera CPUを1ラックに統合した「Vera Rubin NVL72」と、8基のGPUを搭載する「HGX Rubin NVL8」を用意する。いずれもNVLink 6による高帯域接続を特徴とし、ラック単位でAIスーパーコンピューターとして機能する設計だ。</p>
+<p>また、Rubinでは冷却や運用面の刷新も図られている。100％液体冷却を前提とした設計により、高密度化を進めつつ、組み立てや保守作業の効率化を実現したという。加えて、CPU、GPU、相互接続を横断してデータを保護するコンフィデンシャル・コンピューティング機能や、信頼性を高めるRAS（信頼性・可用性・保守性）機構も強化されている。</p>
+<p>Rubinプラットフォームはすでに量産段階にあり、2026年後半からOEMやクラウド事業者を通じて提供される予定だ。Microsoftの次世代AIデータセンターや、CoreWeaveのAIクラウドなどでの採用も計画されており、NVIDIAはRubinを通じて、学習・推論の両面でAIインフラの次の世代を切り開くとしている。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「Head of Preparedness（準備責任者）」を高額報酬で再募集──アルトマンCEOが「ストレスフル」と明言、超知能研究の先に来る“運用の責任”</title>
       <link>https://ledge.ai/articles/openai_altman_head_of_preparedness_recruitment</link>
       <description><![CDATA[<p>OpenAIのCEOであるサム・アルトマン氏は2025年12月27日（現地時間）、X（旧Twitter）で新たな役職「Head of Preparedness（準備責任者）」の<a href="https://x.com/sama/status/2004939524216910323">募集を告知</a>した。</p>
@@ -761,21 +784,6 @@ Safety Systemsチームの中核ポジションとして、評価結果をもと
 <p>:::button
 <a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
 :::</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>スマートニュースとUUUMが業務提携　YouTube動画を生成AIで解析し「動画を読む」ニュース体験へ</title>
-      <link>https://ledge.ai/articles/smartnews_uuum_video_reading_ai_partnership</link>
-      <description><![CDATA[<p>スマートニュースとUUUMは2025年12月24日、業務提携に向けた基本合意を締結したことを<a href="https://about.smartnews.com/ja/news/2524.html">発表</a>した。UUUM所属クリエイターのYouTube動画を生成AIで解析し、テキスト記事としてSmartNewsアプリ上で配信する。動画を「視聴」するのではなく、「読む」形で届けることで、新しいニュース体験の提供を目指す。あわせて、広告領域での協業についても検討を進める。</p>
-<h2>動画視聴のハードルと、発見されにくさという課題</h2>
-<p>近年、ニュースやスポーツ、趣味、生活情報など幅広い分野で動画コンテンツが急増している。一方で、サムネイルや概要欄だけでは内容や魅力が伝わりにくく、視聴には一定の時間を要することから、ユーザーにとって再生までの心理的・時間的ハードルが高いという課題が指摘されてきた。クリエイター側にとっても、初めて触れるユーザーに動画を視聴してもらう導線は限られており、魅力ある動画でも発見されにくい状況が続いていた。</p>
-<p>SmartNewsはこれまで、テキスト主体のニュース記事にとどまらず、グラフィックを用いた記事やニュース動画など、多様な形式のコンテンツを展開してきた。直近では、KADOKAWAとの提携による漫画紹介コンテンツの配信や、生成AIを活用した「スマニューAIまとめ」の提供など、AI技術を活かしたプロダクト刷新とコンテンツ拡充を進めている。今回のUUUMとの取り組みは、こうした方針をクリエイターが制作する動画領域へと広げるものとなる。</p>
-<p>今回の基本合意に基づき、SmartNewsはUUUM所属クリエイターのYouTube動画を生成AIで解析し、内容や見どころを短時間で把握できるテキスト記事としてSmartNewsアプリ上で配信する。動画を視聴しなくても要点を理解できるほか、記事内から該当シーンを短尺で確認できるなど、隙間時間でも楽しめる体験を提供する。コンテンツはSmartNewsのトップ画面や関連チャンネルからアクセス可能で、日常のニュース閲覧の流れの中で自然に動画に触れられる導線を整える。</p>
-<h2>「記事として読む」ことで生まれる、新しい動画との出会い</h2>
-<p>先行展開として、釣りやゴルフといった趣味領域の動画を対象に、AIによる記事化を順次開始する。「釣りよかでしょう。」や「UUUM GOLF-ウーム ゴルフ-」など、UUUM所属の人気クリエイターによる動画を、内容が一目で分かる記事として紹介することで、ユーザーがこれまで接点のなかった動画にも自然に出会える機会を創出する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Smart_News_UUUM_02_ca55da062a/Smart_News_UUUM_02_ca55da062a.png" alt="SmartNews_UUUM_02.png" /></p>
-<p>先行テストでは、動画紹介記事がチャンネル内の他の記事と同等以上の閲読数を獲得し、記事から元動画の視聴へ進む動きも確認された。動画を「読む」という新たな入り口が、視聴のハードルを下げ、クリエイターとの接点拡大につながる可能性を示している。SmartNewsは今回の取り組みを通じて、より多様な動画の魅力に気軽に触れられるニュース体験の提供を進めていくとしている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
