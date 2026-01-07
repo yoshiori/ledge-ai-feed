@@ -527,6 +527,58 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>感情を削ると推論力も落ちる：AIの成績低下が示した「感情」の役割──中国・天津大学、感情を組み込む新世界モデル「LEWM」を提案</title>
+      <link>https://ledge.ai/articles/large_emotional_world_model_emotion_reasoning_ai</link>
+      <description><![CDATA[<p>AIから感情に関する情報を取り除くと、感情理解タスクだけでなく、知識問題や推論問題といった一見無関係に見える課題でも成績が低下することが明らかになった。</p>
+<p>中国・天津大学の研究チームは、感情が人間の行動や意思決定を左右する重要な要素である点に着目し、感情を明示的に扱う新たな世界モデル「<a href="https://arxiv.org/abs/2512.24149">Large Emotional World Model（LEWM）</a>」を提案した。研究成果は2025年12月30日、論文「Large Emotional World Model」としてarXivに公開された。</p>
+<h2>感情を無視すると「合理的だが現実的でない」予測になる</h2>
+<p>研究チームはまず、既存の大規模世界モデルに感情を除去するモジュールを組み込み、モデル性能への影響を検証した。その結果、感情や感情分析タスクでは最大8％の精度低下が確認された一方、常識推論ベンチマーク「HellaSwag」や知識理解ベンチマーク「MMLU」でも1〜3％程度の成績低下が見られた。</p>
+<p>論文では、落ち込んだ気分の人が衝動買いをする例を挙げ、物理法則や合理性だけを前提とした世界モデルでは、人間の実際の行動を正確に予測できないと指摘している。
+感情はノイズではなく、推論全体を調整する「文脈的な信号」として機能していることが示唆された。</p>
+<h2>感情を検出・中和する「感情フィルタリング」実験</h2>
+<p>研究チームは予備実験として、感情表現を検出・除去する「感情フィルタリングモジュール」を設計した。
+このモジュールは、</p>
+<ul>
+<li>文に感情が含まれるかを判定する<strong>Affect Classifier</strong></li>
+<li>感情語を中立表現に置き換える<strong>Affect Adapter</strong></li>
+</ul>
+<p>から構成され、感情認識と感情中和を同時に学習する二段階方式で訓練されている。</p>
+<p>感情を中和したモデルでは、感情タスクの成績が大きく低下するだけでなく、非感情タスクにも影響が及ぶことが確認され、感情情報が広範な認知処理に関与していることが実証されたという。</p>
+<p><strong>■ 感情フィルタリングモジュール（予備実験）</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Large_Emotional_World_Model2_d384c0ddce/Large_Emotional_World_Model2_d384c0ddce.png" alt="Large Emotional World Model2.png" /></p>
+<h2>感情・行動・状態を結ぶEWHデータセット</h2>
+<p>研究では、新たに「Emotion-Why-How（EWH）」と呼ばれるマルチモーダルデータセットも構築された。
+EWHは、以下の要素を1つの因果構造として結び付ける点が特徴だ。</p>
+<ul>
+<li>状態（映像・音声・画像）</li>
+<li>感情状態</li>
+<li>行動</li>
+<li>行動後の状態と感情変化</li>
+</ul>
+<p>例えば、
+「落ち込んだ状態 → 服を買う → 一時的に気分が良くなる」
+といった感情を介した状態遷移を、映像・音声・テキスト情報とともに学習できる構造になっている。</p>
+<p><strong>■ EWH データセットの概要</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Large_Emotional_World_Model3_72a2e46f4c/Large_Emotional_World_Model3_72a2e46f4c.png" alt="Large Emotional World Model3.png" /></p>
+<h2>感情を内包する世界モデル「LEWM」</h2>
+<p>LEWMは、従来の世界モデルに感情状態の予測と遷移を組み込んだ点が特徴だ。現在の状態・行動・感情を同時に入力し、次の世界状態と感情の両方を予測する。</p>
+<p>論文では、</p>
+<ol>
+<li>まず感情がどう変化するかを推定</li>
+<li>その感情を前提に次の世界状態を予測</li>
+</ol>
+<p>という因果順序を明示的に設計している。</p>
+<p><strong>■ LEWMモデルアーキテクチャの図解</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Large_Emotional_World_Model4_4c9f9b4c2e/Large_Emotional_World_Model4_4c9f9b4c2e.png" alt="Large Emotional World Model4.png" /></p>
+<p>実験の結果、LEWMは感情に左右される人間行動の予測精度を向上させつつ、基本的な世界モデルタスクでは従来モデルと同等の性能を維持した。</p>
+<h2>感情は「付加情報」ではなく、世界理解の一部</h2>
+<p>研究チームは、感情を世界モデルに組み込むことで、より人間に近い行動予測や社会的シミュレーションが可能になると結論付けている。感情を排除した合理的なモデルではなく、感情を含めて世界を理解するモデルが、今後のAIに求められる方向性であることを示す研究といえる。</p>
+<p>:::box
+[関連記事：AIの\</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、汎用AIエージェント開発企業「Manus」を買収──Meta AIへの統合を表明</title>
       <link>https://ledge.ai/articles/meta_manus_ai_agent</link>
       <description><![CDATA[<p>米Metaは2025年12月29日、汎用AIエージェントを手がける「Manus」を買収したと<a href="https://www.facebook.com/business/news/manus-joins-meta-accelerating-ai-innovation-for-businesses">発表</a>した。Manusは市場調査やコーディング、データ分析など複雑な業務を自律的に実行できる汎用AIエージェントを開発しており、今後はManusのサービスを継続して運営・販売しながら、Metaの製品群へ統合される。</p>
@@ -734,22 +786,6 @@ Safety Systemsチームの中核ポジションとして、評価結果をもと
 <p>同社によると、今回の追加出資を含め、OpenAIに対する外部投資家を含む累計のコミットメント額は約410億ドルに達した。これにより、ソフトバンクグループはOpenAIの発行済み株式の約11％を保有する主要株主となる。</p>
 <p>OpenAIは、ChatGPTなどの大規模言語モデル（LLM）を開発する企業で、生成AI分野を代表するプレイヤーの一つとされる。今回の資金は、研究開発や計算基盤の拡充などに充てられる見通しだ。</p>
 <p>ソフトバンクグループは2025年を通じてAI分野への投資姿勢を明確にしており、会長兼社長である孫正義氏は、AIを成長戦略の中核と位置づけてきた。OpenAI側では、CEOであるサム・アルトマン氏のもとで、汎用的なAIシステムの研究開発が進められている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SOMPO、3万人の仕事を「AI前提」に再設計──国内グループでAIエージェント導入</title>
-      <link>https://ledge.ai/articles/sompo_ai_agent_work_redesign</link>
-      <description><![CDATA[<p>2025年12月26日、SOMPOホールディングスは2026年1月から、国内グループ会社の社員約3万人を対象に、AIエージェントの助言を前提とした働き方へ移行することを<a href="https://www.sompo-hd.com/-/media/hd/files/news/2025/20251226_1.pdf">発表</a>した。社内業務を「AI前提」で再設計し、業務効率化と生産性向上に加え、ビジネスモデル変革を強力に推進する狙いだ。</p>
-<p>導入する「SOMPO AIエージェント」は、SOMPOホールディングス本体および中核事業会社である損保ジャパンを含む国内グループ会社で活用される。対象は約3万人に上り、単一の企業グループとしては国内最大級の規模となる。</p>
-<p>SOMPOグループは2016年にSOMPO Digital Labを設立して以降、DXとAI活用を進めてきた。グループ専用の汎用型生成AIを展開してきたほか、各事業領域で業務特化型生成AIの実装も進めている。生成AI技術の進化を背景に、同社はこれらの取り組みを次の成長段階につなげる構えだ。</p>
-<p>今回のAIエージェント導入は、個別業務の効率化にとどまらず、業務プロセス全体をAI前提で再構築する取り組みとして位置づけられる。オペレーション全体の変革を視野に入れている点が特徴となる。</p>
-<p><strong>SOMPOグループにおけるAI活用の進化ロードマップ。今回のAIエージェント導入は、オペレーション全体の変革を目指す「AI 2.0」に位置づけられる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sompo_c4be8a4303/sompo_c4be8a4303.jpg" alt="sompo.jpg" /></p>
-<p>「SOMPO AIエージェント」は、社内文書の検索・要約、デスクトップリサーチ、会議の議事録作成支援、データ分析補助などを担う。保険事業を中心とした業務知見や業務プロセスを反映し、業務に特化した形で活用される。</p>
-<p>2026年1月からは実証実験を開始する。Google Cloudの企業向けAIエージェント基盤「Gemini Enterprise」を主に採用し、業務プロセスの自動化や高度化の効果を検証する。あわせて、Microsoftの「Copilot Studio」についても一部で検証を進める予定だ。</p>
-<p>人材面では、管理職以上を対象に「SOMPO AIエージェントリーダーシップ研修」を必須化する。AIを前提とした業務設計を担う人材育成を進める。</p>
-<p>同社は今後、AIエージェント活用の効果を定量的に検証し、創出された時間を顧客への付加価値提供や新規事業創出に振り向けることで、ビジネスモデル変革を加速させるとしている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
