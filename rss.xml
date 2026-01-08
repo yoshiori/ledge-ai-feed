@@ -125,6 +125,32 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AMD、CES 2026で“ヨタ級AI”を見据えた基盤「Helios」公開──次世代GPU「Instinct MI455X」とサーバーCPU「EPYC “Venice”」が中核、PC向けのRyzen AI 400も発表</title>
+      <link>https://ledge.ai/articles/amd_ces2026_yotta_ai_helios_mi455x_ryzen_ai_400</link>
+      <description><![CDATA[<p>米半導体大手のAMDは2026年1月6日（米国時間）、米ラスベガスで開催中のCES 2026の基調講演において、AIデータセンター向けの新たなラックスケール基盤「Helios」と、PC向け新プロセッサ「Ryzen AI 400シリーズ」などの新製品を<a href="https://ir.amd.com/news-events/press-releases/detail/1272/amd-and-its-partners-share-their-vision-for-ai-everywhere-for-everyone-at-ces-2026">発表</a>した。</p>
+<p>基調講演はCEOのLisa Su氏が務め、同社が掲げる「AI Everywhere, for Everyone」のビジョンを軸に、AI計算需要の急拡大を見据えた製品戦略を示した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=UbfAhFxDomE&amp;list=TLGGBbam0h3MCckwNzAxMjAyNg">YouTube</a></p>
+<h2>ラックスケールAI基盤「Helios」を公開</h2>
+<p>AMDが新たに披露した「Helios」は、AIデータセンター向けに設計されたラックスケールの統合プラットフォームだ。次世代GPU「Instinct MI455X」と、サーバーCPU「EPYC “Venice”」を中核に、ネットワークおよびソフトウェアスタック（ROCm）を含めて最適化された構成を採る。</p>
+<p><strong>■ AMDは、AI計算需要がゼタスケールからヨタスケールへ移行すると説明。今後のAI計算量は1万倍規模で増加するとの見通しを示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_yotta_flop_7ac334c034/amd_yotta_flop_7ac334c034.jpg" alt="amd yotta flop.jpg" /></p>
+<p>同社は、AIモデルの大規模化と計算需要の急増を背景に、将来的には“ヨタ級”の計算規模が求められるとの認識を示しており、Heliosはそうした長期的な需要を見据えた設計思想に基づくものだとしている。</p>
+<p>今回の基調講演では、Instinct MI400シリーズの製品ポートフォリオを初めて体系的に提示するとともに、次世代となる「MI500シリーズ」を2027年に投入する計画にも言及した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_instinct_48be29b62a/amd_instinct_48be29b62a.jpg" alt="amd instinct.jpg" /></p>
+<h2>AIデータセンター向けGPU「Instinct MI455X」</h2>
+<p><strong>■ Instinct MI455Xは、前世代MI355X比で最大10倍のAI性能向上をうたう。AMDは世代ごとの性能進化を強調した</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_mi455x_b3f4643fe4/amd_mi455x_b3f4643fe4.jpg" alt="amd mi455x.jpg" /></p>
+<h2>AI PC向け「Ryzen AI 400シリーズ」を発表</h2>
+<p>PC向けでは、新たに「Ryzen AI 400シリーズ」および法人向けの「Ryzen AI PRO 400シリーズ」を発表した。最大60TOPSのAI処理性能を持つNPUを搭載し、クラウドに依存しないローカルAI処理を重視した設計が特徴となる。</p>
+<p>Ryzen AI 400シリーズは2026年1月から出荷が開始され、主要PCメーカーから順次搭載モデルが投入される予定だ。AMDは、生成AIや各種AIアプリケーションをPC上で直接実行するユースケースを想定し、AI PC市場への本格展開を進めるとしている。</p>
+<p><strong>■ Ryzen AI 400シリーズの概要。60TOPSのNPUやRDNA 3.5 GPUを備え、生成AIやコンテンツ制作などのローカルAI処理を想定する</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_ryzen_ai_400series_3c8af1e013/amd_ryzen_ai_400series_3c8af1e013.jpg" alt="amd ryzen ai 400series.jpg" /></p>
+<h2>データセンターからPCまでを貫くAI戦略</h2>
+<p>AMDは今回のCES 2026で、データセンター向けの大規模AI基盤と、エンドユーザーに近いPC向けAIプロセッサの両面で新製品を打ち出した。HeliosとRyzen AI 400シリーズの発表により、同社はAIワークロード全体を視野に入れたエンドツーエンドの製品戦略を改めて明確にした形だ。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DeepSeek、LLMの大規模化による不安定を抑制する新構造「mHC」提案──性能向上への新たな選択肢として期待</title>
       <link>https://ledge.ai/articles/deepseek_mhc_llm_training_stability</link>
       <description><![CDATA[<p>中国のAI企業DeepSeekの研究チームは2025年12月31日、大規模言語モデル（LLM）の訓練を安定化させる新たな構造設計「Manifold-Constrained Hyper-Connections（mHC）」を提案する論文を<a href="https://www.arxiv.org/abs/2512.24880">発表</a>した。</p>
@@ -203,45 +229,6 @@ Ledge.aiでは、このビジョンを、以下のように定式化して考え
 <p>事態の深刻化を受け、フランスでは年始早々、閣僚がGrokによる性的コンテンツ生成を問題視し、検察当局に通報した。Reutersは、欧州連合（EU）のデジタルサービス法（DSA）との関係も含め、AIを組み込んだプラットフォームの責任を問う動きが各国で強まっていると報じている。</p>
 <p>Grokを提供するxAI側は、安全対策に不備があったことを認め、是正措置を進めているとされる。一方、画像編集を含む生成AI機能が急速に一般ユーザーへ開放される中、年末年始に顕在化した今回の問題は、非同意の加工や悪用をどこまで防げるのかという課題を改めて浮き彫りにした。</p>
 <p>こうした海外での一連の報道を受け、日本国内でも年末年始にかけてこの問題が紹介され、生成AIの利便性とリスクをめぐる議論が広がった。年の変わり目に一気に表面化したGrokをめぐる騒動は、生成AIとSNSが結びつくことで生じる影響の大きさを示す事例となっている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>多様なプロンプトでも最終的に「灯台」「大聖堂」へ？──画像生成AIで700件の“自律ループ”が12類型に収束する可能性</title>
-      <link>https://ledge.ai/articles/image_generation_ai_autonomous_loop_converges_12_styles</link>
-      <description><![CDATA[<p>画像生成AIは、多様で自由な表現を生み出せる技術として注目されている。しかし、AI同士が自律的に生成と評価を繰り返す環境では、その多様性が徐々に失われ、最終的に似通った表現へ収束する可能性が示された。</p>
-<p>スウェーデンの研究者らは、画像生成AIと画像説明AIを組み合わせた「自律ループ」を用いた大規模な実験を行い、生成結果が最終的にわずか12種類の視覚スタイル（モチーフ）に集約される傾向を確認した。研究成果は、Cell Pressの学術誌『Patterns』に<a href="https://www.cell.com/patterns/pdf/S2666-3899%2825%2900299-5.pdf">掲載</a>された。</p>
-<h2>画像生成と説明を繰り返す「自律ループ」を構築</h2>
-<p>研究チームが用いたのは、テキストから画像を生成する拡散モデルと、生成された画像を自然言語で説明する視覚言語モデルを組み合わせた閉ループ構成だ。具体的には、テキストプロンプトから画像を生成し、その画像を別のAIが説明文に変換し、その説明文を次の生成プロンプトとして再び画像を生成する、という工程を自律的に繰り返す。</p>
-<p>この「テキスト→画像→テキスト→画像…」という循環は、人間の介入を介さずにAI同士だけで進行する点が特徴で、研究ではこれを“自律ループ”と呼んでいる。</p>
-<h2>初期プロンプトは意図的に多様化</h2>
-<p>実験では、初期条件の偏りを避けるため、埋め込み空間上で互いに離れた位置に配置されるよう設計された100種類の初期プロンプトを用意した。それぞれのプロンプトは1文30語以下に制限され、内容的にも視覚的にも多様性を確保するよう設計されている。</p>
-<p>この初期プロンプトを起点に、温度パラメータを変えながら最大100ステップの自律ループを実行し、合計700件の生成軌跡が分析対象となった。</p>
-<h2>反復の末に見られた「意味の漂流」と収束</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure_2_Example_trajector_75356cd0d4/Figure_2_Example_trajector_75356cd0d4.jpg" alt="Figure 2_Example trajector.jpg" />
-画像生成と説明をAI同士で繰り返すと、内容は初期プロンプトから離れ、豪奢な室内空間など“無難な構図”へと漂流していく（論文Figure 2より）</p>
-<p>分析の結果、すべての条件において、生成内容は初期プロンプトから急速に乖離していく傾向が確認された。この現象について研究チームは、反復生成の過程で意味や構図が変質していく「意味ドリフト（semantic drift）」が生じていると説明している。</p>
-<p>さらに反復を続けると、生成結果は次第に安定し、特定の視覚的特徴を持つ状態へと収束していった。最終段階のプロンプト表現をクラスタリングしたところ、700件すべてを統合すると、最適なクラスタ数は12に集約されることが示された。</p>
-<h2>最終的に現れた12の視覚モチーフ</h2>
-<p>論文によると、収束先として現れた12のモチーフには、以下のような特徴的な題材が含まれている。</p>
-<p>・海辺に立つ灯台
-・ゴシック様式の大聖堂や荘厳な宗教建築の内部
-・宮殿のような豪奢な室内空間
-・夜景を伴う都市風景
-・牧歌的な村や田園の情景
-・劇的な照明で演出された自然や動物
-・家庭的な食卓や生活空間　など</p>
-<p>これらはいずれも、商業画像やストックフォトで頻繁に見られる、視覚的に「無難」で魅力的な構図である点が共通している。</p>
-<p>研究チームはこの現象を、刺激の少ない音楽が繰り返される「エレベーターミュージック」になぞらえ、「visual elevator music（視覚的エレベーターミュージック）」と表現している。</p>
-<h2>モデル構成を変えても同様の傾向</h2>
-<p>研究では、使用するモデルの組み合わせを変えた追加検証も行われた。
-複数の画像生成モデルと複数の画像説明モデルを組み合わせた実験でも、程度の差こそあれ、最終的には似た視覚モチーフへの収束が観察されたという。</p>
-<p>統計分析の結果、意味ドリフトへの影響は画像生成モデルよりも、画像を言語化する側のモデルが大きいことも示されている。</p>
-<h2>自律的なAI運用への示唆</h2>
-<p>研究チームは、本研究の結果が示すのは「画像生成AIの創造性の限界」ではなく、「AI同士が閉じた環境で反復的に生成を行う運用形態のリスク」だと指摘する。</p>
-<p>人間の介入がない自律ループでは、意図せず表現が画一化していく可能性があり、今後、エージェント型AIや自律的コンテンツ生成システムを設計する際には、多様性を維持する仕組みが重要になるとしている。</p>
-<p>研究で用いられた生成プロセスや分析コード、プロンプト設計の方法は、オープンサイエンス基盤を通じて公開されている。
-研究チームは、同様の現象が他のモデル構成や生成タスクでも起きるかどうか、今後の検証を呼びかけている。</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
