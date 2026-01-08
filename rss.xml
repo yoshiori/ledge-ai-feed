@@ -652,6 +652,23 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA、フィジカルAIと自動運転AIを統合展開──ロボットと車両向けに新モデル群</title>
+      <link>https://ledge.ai/articles/nvidia_physical_ai_autonomous_driving_integrated_models</link>
+      <description><![CDATA[<p>NVIDIA は2026年1月5日（現地時間）、米ラスベガスで開催中のCES 2026に際し、現実世界で動作する人工知能「フィジカルAI」に向けた新たなAIモデル群を<a href="https://blogs.nvidia.co.jp/blog/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots/">発表</a>した。</p>
+<p>ロボット向けの基盤モデルに加え、安全な推論に基づく自動運転車両開発を支援するオープンソースAI「<a href="https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development">Alpamayo</a>」ファミリーも同時に公開し、ロボットと車両の双方を対象としたAI基盤の統合展開を進める。</p>
+<h2>フィジカルAIを中核に据えたAI基盤を拡充</h2>
+<p>NVIDIAが掲げるフィジカルAIは、ロボットや車両といった物理的な存在が、周囲の環境を認識し、状況に応じて判断・行動するためのAI技術を指す。今回の発表では、視覚認識、行動生成、推論といった要素を統合した複数の基盤モデルが示され、現実世界での多様なタスクに対応する汎用的なAI基盤の整備を進める姿勢を打ち出した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/physical_ai_models_1280x680_1_960x510_9fb39ada11/physical_ai_models_1280x680_1_960x510_9fb39ada11.jpg" alt="physical-ai-models-1280x680-1-960x510.jpg" /></p>
+<h2>自動運転向けオープンAI「Alpamayo」を公開</h2>
+<p>こうしたフィジカルAIの重要な応用分野として位置づけられるのが自動運転だ。NVIDIAは今回、自動運転車両向けのオープンソースAIモデルとツール群からなる「Alpamayo」ファミリーを<a href="https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development">発表</a>した。Alpamayoは、安全性が強く求められる自動運転開発を想定し、周囲の状況を理解したうえで判断を行う「リーズニング（推論）」能力を重視した設計が特徴とされる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_alpamayo_d1b1006f40/nvidia_alpamayo_d1b1006f40.jpg" alt="nvidia alpamayo.jpg" /></p>
+<p>Alpamayoファミリーには、学習済みモデルに加え、シミュレーション環境やデータセットが含まれており、開発者や企業が共通基盤上で検証や改良を進められるよう設計されている。想定される用途には、レベル4自動運転の研究・開発や、現実の走行環境で発生し得る多様なシナリオへの対応などが含まれる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KGCTwoAlhsM">Youtube</a></p>
+<p>今回の発表は、ロボット向けAIと自動運転向けAIを個別に展開するものではなく、共通するフィジカルAI基盤のもとで横断的に提供する点に特徴がある。NVIDIAは、モデル、ソフトウェア、シミュレーション環境を含む包括的なAI基盤を通じて、ロボットと車両の両分野における開発を同時に支援していく方針を示した。</p>
+]]></description>
+      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NVIDIA、次世代AI基盤「Rubin」をCESで正式発表──GPU「Rubin」と新CPU「Vera」を含む6チップ構成、推論コストは最大10分の1に</title>
       <link>https://ledge.ai/articles/nvidia_rubin_vera_ces_2026</link>
       <description><![CDATA[<p>NVIDIAは2026年1月5日（米国時間）、CESの開催に際し、AIデータセンター向けの次世代プラットフォーム「Rubin」を<a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer">発表</a>した。</p>
@@ -730,45 +747,6 @@ Safety Systemsチームの中核ポジションとして、評価結果をもと
 <p>一方で、入力文が非常に長い場合や、同じ質問を3回以上繰り返す設定では、モデルや条件によっては応答時間が増加する可能性も指摘されている。</p>
 <h2>追加学習なしで性能を引き出す可能性</h2>
 <p>この手法は、追加学習や外部ツールを必要とせず、出力形式も変えないため、既存システムにドロップインで導入可能だとされる。研究チームはこれを「多くのタスクにおけるデフォルト手法の候補」と位置付けている。研究チームは今後の方向性として、反復部分の最適化やKVキャッシュの扱い、非テキストモダリティへの応用などを挙げている。</p>
-]]></description>
-      <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>【2025年のAIトレンドを振り返る】その④：生成だけではないAI関連の進化と、AIを取り巻く広義のリスク</title>
-      <link>https://ledge.ai/articles/reflecting_on_ai_trends_for2025-4</link>
-      <description><![CDATA[<p>:::button
-<a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
-:::</p>
-<h2>生成だけではないAI関連の進化</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_3e3f5e6751/AI_3e3f5e6751.png" alt="生成だけではないAI関連の進化.png" /></p>
-<p>2025年におけるAIの進化は、単にコンテンツを生成する能力を超え、計算基盤の革新、物理的な知能（ロボティクス）の高度化、そしてAIの理論的解釈と実社会への実装基盤の整備という三つの軸で顕著な進展を見せている。</p>
-<p>まず、計算能力の限界を押し広げる次世代コンピューティング分野では、量子コンピュータが飛躍的に進化している。Amazonは、シュレーディンガーの思考実験にちなんだ「猫量子ビット」を活用する新型量子チップ「Ocelot」を発表し、これによりエラー訂正コストを90%削減する見込みである。同様に、Microsoftも世界初方式の量子プロセッサ「Majorana 1」を発表しており、これは1台で全世界の従来型コンピュータの計算能力を合わせたものを凌駕するポテンシャルを持つとされる。また、スーパーコンピューティングの領域でも、理化学研究所（理研）がNVIDIAと共同で「富岳」後継機の開発を進めており、次世代機はAIとシミュレーションの融合を目指すことが発表されている。</p>
-<p>次に、現実世界における複雑なタスク実行を可能にするロボティクス向けの基盤モデルが充実している。Googleは、ロボット操作向けAI基盤モデル「Gemini Robotics 1.5」を公開した。このモデルは、行動を実行する前に思考し、複雑なタスクを処理する能力を備えている。さらにNVIDIAは、汎用的なロボット向けAI基盤モデル「Isaac GR00T N1」と、物理エンジン「Newton」を発表しており、このIsaacは「速い思考と遅い思考」というデュアルモデルの思考を採用している点が特徴である。
-　
-　そして、AIの根源的な理解と実社会での応用基盤の強化も進んでいる。学術面では、京都大学などの研究チームが、「理論がないAI/LLM」に対し、情報幾何学の観点から新たな解釈の可能性を提示した。これは、「曲がった」ニューラルネットワークが引き起こす爆発的記憶や高次相互作用の数理に突破口を開くものとされている。一方、社会実装の面では、トヨタが「Woven City」のPhase 1を9月25日に正式開業した。ロケット企業を含む12社が参画するこの“実証都市”は、AIやモビリティ技術を現実世界で応用し検証するための重要なプラットフォームとなる。</p>
-<h2>AIを取り巻く広義のリスク</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_7f88974b36/AI_7f88974b36.png" alt="AIを取り巻く広義のリスク.png" /></p>
-<p>2025年におけるAIを取り巻く広義のリスクは、技術の急速な社会浸透に伴い、法的責任、社会的安全性、経済構造、そして技術的な信頼性といった多岐にわたる領域で顕在化している。</p>
-<p>特に法的・倫理的な側面では、生成AIの責任問題が具体的に追及される事例が増加している。たとえば、Anthropicは著作権侵害訴訟に関して15億ドルの和解を成立させ、約50万点の作品に対して1作品あたり3,000ドルを分配することで決着した。また、生成AI画像に著作権が成立すると判断され、無断複製を行ったとして千葉県警が27歳男を書類送致する全国初の摘発事例も発生した。さらに、AIが生成した「架空の判例」を裁判所に提出した弁護士に対し、米インディアナ州連邦地裁が1万5,000ドルの制裁金を科すという事態も生じており、これはAIの利用において「実際の知性」が不可欠であることを示唆している。</p>
-<p>社会的・安全保障上のリスクも深刻である。OpenAIは、16歳の自殺訴訟を受けたことに対応するため、数日のうちにChatGPTにペアレンタルコントロールを導入する動きを見せた。また、大規模言語モデル（LLM）の悪用に関する摘発も進んでおり、Anthropicは100超の偽ペルソナを利用し複数の政治キャンペーンに関与した影響力請負ネットワークを摘発した。セキュリティ面では、Google Threat Intelligence Groupのレポートにより、「実行中に書き換える」AIマルウェアが初めて確認されたという新たな脅威が報告されている。</p>
-<p>経済および企業統治の領域でも、AIが直接的なリスク要因となっている。米国の10月の人員削減（15万人超）において、「AI」がその理由の第2位に挙げられており、AIの導入が雇用市場を直撃している実態が明らかになっている。さらに、AIベンチャーのオルツに対し、売上の7割が水増しされた可能性のある粉飾決算疑惑をめぐり、証券取引等監視委員会（SESC）による強制調査が入った。</p>
-<p>技術モデル自体の信頼性低下も重要なリスク要因である。米研究チームは、LLMがSNSの「ジャンク投稿」によって学習され続けることで、推論力や安全性が劣化するという「Brain Rot（脳腐敗）仮説」を提唱しており、これはAIの基盤となるデータの質の低下がモデルの性能と信頼性を損なう可能性を指摘している。</p>
-<p>これらの事例から、2025年のAIを取り巻くリスクは、単なる技術的欠陥ではなく、法規制の不備、社会的な悪用、経済的な混乱、そしてAIモデル自体の持続可能性に関わる広範な課題として捉えられているのである。</p>
-<p>:::button
-<a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
-:::</p>
-<h2>おわりに</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/25to26_thumb_ced6fcf9a3/25to26_thumb_ced6fcf9a3.png" alt="25to26_thumb.png" /></p>
-<p>Ledge.ai年末年始特集では、読者に向けて、2025年のAI関連の重要トレンドを振り返り、また2026年以降のAIの展望について発信している。新しい年へ動き出すための情報が詰まっているので、ぜひ以下ボタンより特集サイトをご覧いただきたい。</p>
-<p><strong>【コンテンツ情報】</strong>
-無料登録を行うと、これらすべての記事を閲覧できるようになる。
-■ 特別インタビュー
-京都賞受賞のAIのパイオニア甘利俊一先生をはじめ、量子コンピュータ/量子機械学習からロボット基盤モデル、話題の”PLURALITY”、NVIDIA、AMDなど、”いま読んでおくべき”インタビューが満載
-■ 2025年のAI動向総ざらい
-■ 厳選注目記事49本</p>
-<p>:::button
-<a href="https://25to26.ledge.ai/">Ledge.ai年末年始特集サイトはこちら</a>
-:::</p>
 ]]></description>
       <pubDate>Mon, 08 Dec 2025 07:50:00 GMT</pubDate>
     </item>
