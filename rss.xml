@@ -142,46 +142,6 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>Google、研究開発の2025年総括を公開　AIは「ツールからユーティリティへ」──8分野のブレークスルーを整理</title>
-      <link>https://ledge.ai/articles/google_research_2025_ai_research_breakthroughs_review</link>
-      <description><![CDATA[<p>Googleは2025年12月23日、同社の研究開発分野における1年間の進展をまとめた年次レビュー記事を公式ブログで<a href="https://blog.google/technology/ai/2025-research-breakthroughs/#ai-products">公開</a>した。記事は、Google ResearchおよびAI担当シニアフェローの Jeff Dean 氏、Demis Hassabis 氏（Google DeepMind CEO）、研究・技術・社会担当シニアヴァイスプレジデントの James Manyika 氏が連名で解説している。</p>
-<p>記事では、2025年を「AIが単なるツールから、実際の仕事を任せられるユーティリティへと移行した年」と位置づけ、基盤モデル、プロダクト、科学研究、計算基盤、社会課題、安全性、そして産官学連携に至るまで、8つの領域にわたる研究開発のブレークスルーを整理している。</p>
-<h2>AIは「考え、行動し、探索する」フェーズへ</h2>
-<p>レビューの冒頭でGoogleは、2024年がマルチモーダルAIの基盤を整えた年だったのに対し、2025年はAIが人間と並んで「考え、行動し、世界を探索する」段階に入った年だったと総括した。AIだけでなく量子コンピューティングの分野でも、実用化を見据えた進展があったと位置づけている。</p>
-<h2>世界トップ級モデルの進展：Gemini 3世代の登場</h2>
-<p>2025年の研究成果の中核をなすのが、基盤モデル「Gemini」シリーズの進化だ。Googleは3月に「Gemini 2.5」を、11月に「Gemini 3」を、さらに12月には高速・高効率モデル「Gemini 3 Flash」を相次いで投入した。</p>
-<p>Gemini 3 Proは、推論能力とマルチモーダル理解を強化した最上位モデルとして設計され、複数の難関ベンチマークで高い性能を示したとされる。続くGemini 3 Flashは、Pro級の推論能力を維持しながら、低遅延・高効率・低コストを実現したモデルとして位置づけられている。Googleはこれを「次世代のFlashモデルが、前世代のProモデルを上回る」という流れの延長線上にあるものと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_flash_final_benchmark_table_light_25_12_17_final_582c2ec55d/gemini_3_flash_final_benchmark_table_light_25_12_17_final_582c2ec55d.gif" alt="gemini-3-flash_final_benchmark-table_light_25-12-17_final.gif" /></p>
-<h2>オープンモデル「Gemma」も拡張</h2>
-<p>クローズドモデルだけでなく、公開・軽量モデルである「Gemma」ファミリーも2025年に大きく進化した。マルチモーダル対応、コンテキストウィンドウの拡張、多言語性能の強化、効率性と性能の向上が進められ、単一のGPUやTPUで実行可能なモデルとしての実用性が高められたという。</p>
-<h2>AIエージェントがプロダクトと開発現場へ浸透</h2>
-<p>Googleは2025年を、AIが「支援ツール」から「協働するエージェント」へと進化した年とも位置づけている。ソフトウェア開発分野では、コーディングを補助する段階を超え、開発者と並んで作業を進めるエージェント型システムを導入。AI開発基盤「Google Antigravity」は、その象徴的な取り組みとされている。</p>
-<p>こうした技術は、Pixel 10のAI機能強化や検索のAI Mode、Geminiアプリ、NotebookLMの「Deep Research」機能など、コンシューマー向けプロダクトにも広く展開された。</p>
-<p>@<a href="https://youtu.be/6QeVnO709r0">YouTube</a></p>
-<h2>生成メディアとGoogle Labsの実験</h2>
-<p>生成AIを活用したクリエイティブ分野も、2025年に大きく前進した。画像生成・編集を担う「Nano Banana」シリーズ、動画生成モデル「Veo 3.1」、画像モデル「Imagen 4」、制作ツール「Flow」や「Music AI Sandbox」などが相次いで更新された。</p>
-<p>またGoogle Labsでは、ブランド向け生成AI「Pomelli」、UI設計を自動化する「Stitch」、非同期型コーディングエージェント「Jules」、3Dビデオ通信基盤「Google Beam」など、実験的な取り組みが公開され、ユーザーからのフィードバックを基に改良が進められている。</p>
-<h2>科学と数学：AIが研究パートナーに</h2>
-<p>科学研究の分野では、AIが研究者を支援する「パートナー」としての役割を強めた。特にたんぱく質構造予測AI「AlphaFold」は公開から5周年を迎え、世界190以上の国・地域で300万人を超える研究者に利用されているという。</p>
-<p>そのほか、理論計算機科学を支援する「AlphaEvolve」、医療・ゲノミクス分野での解析AI、研究仮説の生成を支援する「AI co-scientist」などが紹介されている。Geminiの高度な推論機能「Deep Think」は、国際的な数学・プログラミング競技で金メダル相当の成果を達成したとも言及された。</p>
-<h2>量子・TPU・ロボティクスと「物理世界」への展開</h2>
-<p>計算基盤と物理世界への応用も、2025年の重要なテーマだ。量子コンピューティングでは、実用化を見据えたアルゴリズム「Quantum Echoes」が紹介され、関連研究に携わったGoogleの研究者がノーベル物理学賞を受賞したことにも触れている。</p>
-<p>AIインフラでは、推論時代に最適化した新TPU「Ironwood」を発表。設計にはAIを用いたチップ設計手法「AlphaChip」が活用され、エネルギー効率や環境影響の測定にも取り組んだとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ironwood_superpod_width_1000_format_webp_7a1859d68c/Ironwood_superpod_width_1000_format_webp_7a1859d68c.webp" alt="Ironwood_superpod.width-1000.format-webp.webp" /></p>
-<p>さらに、ロボティクス分野では「Gemini Robotics」や「Gemini Robotics 1.5」、汎用的な世界モデルとして「Genie 3」を発表し、AIエージェントを物理・仮想の両世界に展開する構想を示した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=PDKhUknuQDg">YouTube</a></p>
-<h2>気候・医療・教育など社会課題への適用</h2>
-<p>Googleは、AIを用いた科学的進展が社会課題の解決に直結し始めている点も強調した。洪水予測システムは、150カ国以上・20億人超をカバーする規模に拡大。高速・高精度な気象予測モデル「WeatherNext 2」や、地理空間AI「Google Earth AI」、山火事早期検知システム「FireSat」などが紹介されている。</p>
-<p>医療分野では、診断から治療までを支援するAI、教育分野では「LearnLM」やGeminiを活用した学習支援、翻訳機能の高度化などが進められた。</p>
-<p>@<a href="https://blog.google/technology/ai/2025-research-breakthroughs/#safety-responsibility">YouTube</a></p>
-<h2>産官学連携でフロンティアを前進</h2>
-<p>レビューの終盤では、フロンティアAIの発展には社会全体での連携が不可欠だと強調されている。Googleは、複数のAI研究機関と連携して「Agentic AI Foundation（AAIF）」の形成を支援したほか、Model Context Protocol（MCP）をGoogleの各種サービスに対応させた。</p>
-<p>また、米エネルギー省および国立研究所との共同研究、大学や教育機関との連携、映像制作者や音楽家との協働など、多方面でのパートナーシップが紹介されている。</p>
-<p>Googleはこの年次レビューを通じ、2025年を「研究成果を現実のプロダクトや社会的価値へと転換した年」と総括した。2026年に向けては、安全性と責任を重視しながら、AIと科学のフロンティアをさらに押し広げていく姿勢を示している。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>公共2026/1/5 [MON]「写真が勝手にビキニ化」AI「Grok」画像編集が炎上──未成年を含む生成も焦点に、各国で規制圧力</title>
       <link>https://ledge.ai/articles/grok_image_editing_nonconsensual_sexualized_images</link>
       <description><![CDATA[<p>2025年の年末から2026年の年始にかけ、米実業家イーロン・マスク氏が設立したAI開発企業 xAI が提供するAI「Grok」をめぐり、実在の人物の写真が本人の同意なく加工され、性的に見える画像としてSNS「X（旧Twitter）」上で拡散する事例が相次いだ。年末年始のタイミングで海外メディアが一斉に報じ、国際的な問題として注目を集めた。</p>
