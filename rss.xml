@@ -101,6 +101,20 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、健康分野に特化した「ChatGPT Health」公開──医療情報を安全に整理</title>
+      <link>https://ledge.ai/articles/chatgpt_health_launch</link>
+      <description><![CDATA[<p>OpenAIは2026年1月7日（現地時間）、健康・ウェルネス分野に特化した新機能「ChatGPT Health」を<a href="https://openai.com/ja-JP/index/introducing-chatgpt-health/">発表</a>した。医療記録やウェルネスアプリの情報を活用し、利用者が自身の健康状態を理解しやすくすることを目的とした専用体験を提供する。</p>
+<p>ChatGPT Healthは、健康に関する会話専用に設計された機能で、通常のChatGPTのチャットとは分離された空間で利用できる。OpenAIによると、近年ChatGPTには健康やウェルネスに関する質問が急増しており、こうしたニーズに対応する形で専用機能を開発したという。</p>
+<p>同機能では、検査結果や診療内容といった医療記録を読み解く支援に加え、運動・食事・睡眠などのウェルネスアプリのデータを統合し、情報を整理することが可能とされている。これにより、医師に相談する際の質問を事前にまとめたり、生活習慣を見直すためのヒントを得たりする用途を想定している。</p>
+<p>ChatGPT Healthは、まず少人数の初期ユーザーを対象に提供を開始し、利用状況を踏まえながら改善を続ける。OpenAIは、改善を進めながら数週間以内にウェブ版とiOSのすべてのユーザーへ提供を拡大する予定としている。一方で、電子健康記録（EHR）の連携および一部のアプリは米国のみで利用可能で、Appleヘルスケアの接続にはiOSが必要だとしている。</p>
+<p><strong>ChatGPT Healthの画面イメージ：ChatGPT内の専用スペースとして『ヘルスケア』が用意される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OAI_Chat_GPT_Health_Wayfinding_16_9_444cbb0458/OAI_Chat_GPT_Health_Wayfinding_16_9_444cbb0458.webp" alt="OAI_ChatGPT_Health_Wayfinding_16-9.webp" /></p>
+<p>一方でOpenAIは、ChatGPT Healthが診断や治療を行うものではない点を明確にしている。あくまで医療専門職によるケアを補完する存在であり、最終的な医療判断は医師などの専門家が担うとしている。</p>
+<p>ChatGPT Healthは、まず個人向けの健康・ウェルネス支援を目的として提供される。プライバシー面にも配慮し、健康関連の会話は他のチャット履歴から分離して管理される。OpenAIは、こうしたデータが基盤モデルの学習には使用されないことも明らかにしており、利用者が接続するデータを管理できる仕組みを用意したという。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>DeepSeek、LLMの大規模化による不安定を抑制する新構造「mHC」提案──性能向上への新たな選択肢として期待</title>
       <link>https://ledge.ai/articles/deepseek_mhc_llm_training_stability</link>
       <description><![CDATA[<p>中国のAI企業DeepSeekの研究チームは2025年12月31日、大規模言語モデル（LLM）の訓練を安定化させる新たな構造設計「Manifold-Constrained Hyper-Connections（mHC）」を提案する論文を<a href="https://www.arxiv.org/abs/2512.24880">発表</a>した。</p>
