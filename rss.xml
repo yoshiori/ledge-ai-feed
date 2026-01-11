@@ -197,45 +197,6 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>「知能爆発」へ“10年以内”の現実味──オックスフォード大の哲学者マッカスキル（MacAskill）氏らの警告、AIが「数年で1世紀分」の技術進歩を起こし得る</title>
-      <link>https://ledge.ai/articles/intelligence_explosion_10_years_warning</link>
-      <description><![CDATA[<p>オックスフォード大学の哲学者Will MacAskill氏とFin Moorhouse氏は2025年3月に公開した論文「<a href="https://arxiv.org/abs/2506.14863">Preparing for the Intelligence Explosion（知能爆発への備え）</a>」で、人間よりはるかに賢いAIが今後10年以内に登場する「十分に現実的な可能性（serious chance）」があると指摘した。</p>
-<p>AIが研究開発そのものを加速した場合、技術進歩が「数年で1世紀分（a century in a decade）」に相当する速度で進む可能性がある一方、その過程では社会にとって不可逆で重大な意思決定が短期間に連続して発生し得るとして、今から多面的な準備（AGI Preparedness）を進める必要があると論じている。</p>
-<h2>研究努力の主役が人間からAIへ移りつつある</h2>
-<p>論文は、近年の生成AIと計算資源の拡大により、研究努力（research effort）の成長率が人間の認知的研究努力を大きく上回り始めている点に注目する。AIは単なる作業補助にとどまらず、仮説生成、実験設計、コード作成、評価といった研究工程そのものを担い始めており、研究の“量”と“速度”が同時に拡張される局面が到来しつつあるという。</p>
-<p><strong>■ AIによる研究努力は年率で急拡大し、人間の認知的研究努力の成長率を大きく上回り始めている。論文は、この非対称な成長が技術進歩の時間軸を大幅に圧縮し得ると指摘する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Human_vs_AI_research_wide_2985231073/Human_vs_AI_research_wide_2985231073.jpg" alt="Human_vs_AI_research_wide.jpg" /></p>
-<h2>「研究をするAI」が技術進歩を自己加速させる可能性</h2>
-<p>MacAskill氏らが想定する鍵は、AIが研究を行う主体になることによるフィードバックループだ。研究を自動化・加速するAIが、より高性能なAIの設計や評価に寄与すれば、ソフトウェア中心の自己増幅的な進歩が生じる可能性がある。論文は、こうした条件がそろった場合、物理的制約（人員や時間）に縛られない形で研究能力が拡張され、進歩速度が非連続に跳ね上がり得ると述べる。</p>
-<p><strong>■ 推論用計算資源の拡大と推論効率の改善が重なれば、同時に稼働するAI（AI population）が急増し、研究・開発に投入される総知能が飛躍的に拡大する可能性がある</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_population_wide_2_a387a34cd7/AI_population_wide_2_a387a34cd7.jpg" alt="AI_population_wide_2.jpg" /></p>
-<h2>最大級の学習規模がもたらす非連続な性能向上</h2>
-<p>論文はまた、最大規模の学習（training run）のスケーリングにも言及する。今後、電力やコストなどの制約に直面するまでの間、学習規模の拡大が性能の段差的向上をもたらす局面があり得るとする。これに研究自動化が重なれば、技術的ブレークスルーが短期間に集中する可能性がある。</p>
-<p><strong>■ 過去のモデルと比較した最大規模の学習実行の拡大イメージ。論文は、一定期間は学習規模の拡張余地が残っていると指摘する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/scaling_the_biggest_training_run_21a215692d/scaling_the_biggest_training_run_21a215692d.jpg" alt="scaling the biggest training run.jpg" /></p>
-<h2>「アラインメントだけ」では不十分という問題提起</h2>
-<p>MacAskill氏らは、AIが人間の意図に沿って振る舞うかというアラインメント問題の重要性を認めつつも、それだけに備えを限定することは不十分だと指摘する。理由の一つは、不可逆な意思決定が、完全に整合した超高度AIが確立する前に訪れる可能性があるためだ。</p>
-<p>論文が例示する「grand challenges」には、次のような領域が含まれる。</p>
-<ul>
-<li>新型の破壊的技術や兵器の出現</li>
-<li>AIによる権力集中や権威主義的統治の強化</li>
-<li>宇宙資源など新たなフロンティアをめぐる競争</li>
-<li>道徳的配慮の対象となり得るデジタル存在の扱い</li>
-</ul>
-<p>これらは一度決定されると後戻りが難しく、「将来のより賢いAIに判断を委ねればよい」という対応が取れない局面が生じ得るとされる。</p>
-<h2>論文が示す「今からの備え」</h2>
-<p>こうした前提から、論文はAGI Preparednessとして、技術・制度・社会を横断する準備の必要性を挙げる。具体的には、</p>
-<ul>
-<li>極端な権力集中を防ぐためのインフラや統治構造の設計</li>
-<li>政府や公共部門が高度AIを適切に活用できる体制整備</li>
-<li>集合意思決定を支援するAIツールの開発と運用</li>
-<li>新領域（宇宙資源、デジタル存在など）に関する制度設計</li>
-</ul>
-<p>といった論点を、アラインメント研究と並行して進める必要があると整理している。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>量子コンピュータとAIの「リアルな現在地」から「SF的未来」へ：第一人者・大関真之教授に聞く</title>
       <link>https://ledge.ai/articles/interview_prof_ohzeki</link>
       <description><![CDATA[<p>:::button
