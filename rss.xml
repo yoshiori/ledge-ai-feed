@@ -194,33 +194,6 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>DeepSeek、LLMの大規模化による不安定を抑制する新構造「mHC」提案──性能向上への新たな選択肢として期待</title>
-      <link>https://ledge.ai/articles/deepseek_mhc_llm_training_stability</link>
-      <description><![CDATA[<p>中国のAI企業DeepSeekの研究チームは2025年12月31日、大規模言語モデル（LLM）の訓練を安定化させる新たな構造設計「Manifold-Constrained Hyper-Connections（mHC）」を提案する論文を<a href="https://www.arxiv.org/abs/2512.24880">発表</a>した。</p>
-<p>mHCは、モデルの大規模化に伴って生じやすい学習の不安定化を、残差接続の構造制約によって抑制する手法で、計算コストを抑えながら性能とスケーラビリティの両立を目指す。</p>
-<h2>Hyper-Connectionsが抱える課題</h2>
-<p>近年のLLMでは、学習の安定性を確保するために残差接続（residual connections）が広く用いられてきた。DeepSeekの研究チームは、残差接続を拡張した「Hyper-Connections（HC）」が性能向上に寄与する一方で、モデルの規模が大きくなるにつれて学習が不安定化する問題があると指摘する。</p>
-<p>論文によると、HCでは残差ストリームが無制約に拡張されることで、恒等写像（identity mapping）が持つ安定化の性質が損なわれ、勾配の発散や損失の急激な増大が生じやすくなる。特に数百億パラメータ規模のモデルでは、この問題が顕在化するという。</p>
-<h2>残差接続を「多様体」に制約するmHC</h2>
-<p>mHCは、こうした課題に対し、残差接続の重み行列を特定の多様体（manifold）上に制約するという設計を導入する。具体的には、残差行列を「二重確率行列（doubly stochastic matrix）」の集合であるBirkhoff polytopeに射影することで、各層における残差が入力特徴の凸結合として振る舞うようにする。</p>
-<p>この制約により、残差接続は再び恒等写像に近い性質を保ち、層を重ねても信号や勾配が過度に増幅・減衰しにくくなる。射影にはSinkhorn–Knoppアルゴリズムが用いられ、論文では反復回数を制限することで計算負荷と理論的性質のバランスを取っている。</p>
-<p><strong>残差接続（左）、Hyper-Connections（中央）、mHC（右）の概念比較。mHCはHCのマッピングを多様体（manifold）上に制約することで学習安定性の改善を狙う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_296ef66bec/x1_296ef66bec.png" alt="x1.png" /></p>
-<h2>学習を支える構造設計としての位置づけ</h2>
-<p>mHCは、新しい最適化アルゴリズムや損失関数を導入する「訓練手法」ではなく、学習時の挙動を規定する残差接続の構造設計として位置づけられている。推論時の計算グラフを大きく変えるものではなく、あくまで訓練過程における安定性と拡張性を高める点が特徴だ。</p>
-<p>論文では、残差接続の構造を制御することで、モデルを大規模化しても学習が破綻しにくい状態を維持できると説明している。</p>
-<h2>大規模モデルでの検証結果</h2>
-<p>DeepSeekの研究チームは、同社のLLMアーキテクチャを用い、約30億、90億、270億パラメータ規模のモデルでmHCを検証した。その結果、従来のHCで見られた勾配や損失の不安定な挙動が大幅に抑えられ、学習が安定して進行することを確認したという。</p>
-<p>また、複数のベンチマークにおいて、mHCを用いたモデルはHCや従来の残差接続と同等、あるいはそれを上回る性能を示したと報告している。</p>
-<h2>計算コストを抑えるための工夫</h2>
-<p>mHCは理論的提案にとどまらず、実装面での効率化も重視している。論文では、カーネル融合や再計算手法、通信と計算を重ね合わせるパイプライン最適化などを組み合わせることで、残差ストリームを拡張した場合でも学習時間の増加を限定的に抑えられるとしている。</p>
-<p>これにより、モデルの拡張によって計算コストやメモリ使用量が急増することを防ぎ、実運用に近い条件での検証を可能にした。</p>
-<h2>LLMスケーリングにおける新たな選択肢</h2>
-<p>論文は、LLMの性能向上を「パラメータ数や学習データを増やす」以外の方法で支えるアプローチとして、構造設計の重要性を示している。mHCは、残差接続という基盤的な要素を見直すことで、大規模化に伴う不安定性を抑制する道筋を提示した。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2026/1/11 [SUN]イーロン・マスクのNeuralink、BCI：思考で操作する脳内チップを量産へ　2026年計画を示す</title>
       <link>https://ledge.ai/articles/elon_musk_neuralink_bci_mass_production_2026</link>
       <description><![CDATA[<p>脳と機械を直接つなぐブレイン・コンピューター・インターフェイス（BCI）を開発する米スタートアップ Neuralink が、BCIデバイスの量産を2026年に開始する計画を示した。創業者の イーロン・マスク 氏が2026年1月1日の同氏のXへの<a href="https://x.com/elonmusk/status/2006513491105165411">投稿</a>で明らかにした。</p>
@@ -359,6 +332,45 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <p>研究チームは、感情を世界モデルに組み込むことで、より人間に近い行動予測や社会的シミュレーションが可能になると結論付けている。感情を排除した合理的なモデルではなく、感情を含めて世界を理解するモデルが、今後のAIに求められる方向性であることを示す研究といえる。</p>
 <p>:::box
 [関連記事：AIの\</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、Copilotから直接購入できる「Copilot Checkout」発表　ブランド専用AI接客「Brand Agents」も同時公開</title>
+      <link>https://ledge.ai/articles/microsoft_copilot_checkout_brand_agents</link>
+      <description><![CDATA[<p>Microsoftは2026年1月8日（米国時間）、AIアシスタント「Copilot」上で商品選定から購入・決済までを完結できる新機能「Copilot Checkout」を<a href="https://about.ads.microsoft.com/en/blog/post/january-2026/conversations-that-convert-copilot-checkout-and-brand-agents">発表</a>した。あわせて、ブランドや小売事業者が自社専用のAI接客を構築できる「Brand Agents」も公開した。</p>
+<p>同社は、ユーザーの購買行動において「興味を持つ」段階から「購入を決断する」までの距離が急速に縮まっているとし、検索やサイト遷移を前提としない会話中心の購買体験を提示している。</p>
+<h2>Copilotの会話画面がそのまま購入フローに</h2>
+<p>@<a href="https://www.youtube.com/watch?v=6X6WOP7_U4Q">YouTube</a></p>
+<p>Copilot Checkoutは、Copilotとの自然な対話の中で、商品提案、比較、購入判断、決済までを一貫して行える機能だ。ユーザーは外部のECサイトへ遷移することなく、Copilot上で購入を完了できる。</p>
+<p>Microsoftは、ユーザーが質問を投げかけ、条件を整理し、選択肢を比較しながら意思決定に至る一連のプロセスが、単一のインタラクション内で完結する点を特徴として挙げる。従来であれば複数のタブを開き、比較の途中で購入が中断されることも多かったが、Copilot Checkoutでは会話の流れそのものが購買導線となる。</p>
+<h2>販売者は取引主体を維持、顧客データも保持</h2>
+<p>Copilot Checkoutでは、販売者が引き続き取引主体（merchant of record）となる。Microsoftによると、販売者はトランザクション、顧客データ、顧客との関係性を自社で保持できる。</p>
+<p>決済やチェックアウトは、PayPal、Stripe、Shopifyといった既存のコマース基盤と連携して提供される。Shopifyを利用する販売者は、特別な申請や追加の統合を行うことなく、自動的にCopilot Checkoutに対応する。</p>
+<p>PayPalのエージェンティックコマース担当VP、マイク・エドモンズ氏は、「Copilotの信頼されたコマース基盤を通じて、数千万規模の販売者がAI時代に対応できる」とコメントしている。</p>
+<h2>初期データでは購入率向上を確認</h2>
+<p>Microsoftが示した初期データによると、Copilotが関与した購買導線では、以下の傾向が確認されている。</p>
+<ul>
+<li>Copilotを含む購買体験は、含まない場合と比べ、30分以内の購入数が53％多い</li>
+<li>購入意図があるユーザーでは、Copilotを利用した場合、購入に至る可能性が194％高い</li>
+</ul>
+<p>Copilot Checkoutは、米国においてCopilot.comから段階的に提供が始まっており、BingやMSN、EdgeなどCopilotエコシステム全体への展開も予定されている。</p>
+<h2>ブランド独自の接客をAIで再現する「Brand Agents」</h2>
+<p>Brand Agentsは、ブランドや小売事業者が自社のトーンや商品知識を反映したAIショッピングアシスタントを構築できる仕組みだ。実店舗における販売員の役割をオンライン上で再現することを想定している。</p>
+<p>顧客の質問に対し、ブランドの言葉遣いで応答し、適切なフォローアップ質問を行いながら商品提案や比較を進める。フィルター操作やメニュー選択を強制せず、会話を通じて自然に購買判断へ導く点が特徴とされる。</p>
+<h2>Brand Agents導入による効果測定と分析</h2>
+<p>@<a href="https://www.youtube.com/watch?v=wg2g-KRo5jk">YouTube</a></p>
+<p>Microsoftによると、Brand Agentsを導入した販売者では、エージェントが関与したセッションの方が、関与しない場合と比べて高いエンゲージメントとコンバージョンを示している。</p>
+<p>プレミアムスリープウェアを展開するAlexander Del Rossaでは、Brand Agentsが関与したセッションで、非関与セッションと比べて3倍以上のコンバージョン率を記録したという。</p>
+<p>Brand AgentsはMicrosoftの分析ツール「Microsoft Clarity」と連携し、エージェントが関与したセッションと通常セッションを比較分析できる。ダッシュボードでは、エンゲージメント率、コンバージョン向上、平均注文額などの指標が可視化される。</p>
+<h2>Microsoft Clarityと連携した分析機能</h2>
+<p>Brand Agentsは、Microsoftの分析ツール「Microsoft Clarity」と連携する。Clarityはヒートマップやセッションリプレイを通じてユーザー行動を可視化する無料ツールで、Brand Agents導入後は、エージェントが関与したセッションと通常セッションの比較分析も可能になる。</p>
+<p><strong>Brand Agentsの効果を可視化するMicrosoft Clarityの分析画面。エージェントが関与したセッションにおけるエンゲージメントやコンバージョン指標を確認できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/blog_79982_bodyimage02_833x478_be75122127/blog_79982_bodyimage02_833x478_be75122127.webp" alt="blog-79982-bodyimage02-833x478.webp" /></p>
+<p>ダッシュボードでは、エンゲージメント率、コンバージョン向上、平均注文額などの指標を確認でき、販売戦略の改善に活用できるとしている。</p>
+<h2>導入と今後の展開</h2>
+<p>Copilot Checkoutでは、Microsoft Merchant Centerの活用により、Copilot上での商品露出を最適化できる。Microsoftは、Agentic Commerce Protocol（ACP）といったオープンスタンダードの採用を進め、導入の簡素化とスケーラビリティを図る。</p>
+<p>今後はMastercardやVisaといった決済事業者とも連携し、AIを前提としたコマース基盤の拡張を進めるとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
