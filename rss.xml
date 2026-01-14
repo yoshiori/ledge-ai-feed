@@ -122,32 +122,6 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>AMD、CES 2026で“ヨタ級AI”を見据えた基盤「Helios」公開──次世代GPU「Instinct MI455X」とサーバーCPU「EPYC “Venice”」が中核、PC向けのRyzen AI 400も発表</title>
-      <link>https://ledge.ai/articles/amd_ces2026_yotta_ai_helios_mi455x_ryzen_ai_400</link>
-      <description><![CDATA[<p>米半導体大手のAMDは2026年1月6日（米国時間）、米ラスベガスで開催中のCES 2026の基調講演において、AIデータセンター向けの新たなラックスケール基盤「Helios」と、PC向け新プロセッサ「Ryzen AI 400シリーズ」などの新製品を<a href="https://ir.amd.com/news-events/press-releases/detail/1272/amd-and-its-partners-share-their-vision-for-ai-everywhere-for-everyone-at-ces-2026">発表</a>した。</p>
-<p>基調講演はCEOのLisa Su氏が務め、同社が掲げる「AI Everywhere, for Everyone」のビジョンを軸に、AI計算需要の急拡大を見据えた製品戦略を示した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=UbfAhFxDomE&amp;list=TLGGBbam0h3MCckwNzAxMjAyNg">YouTube</a></p>
-<h2>ラックスケールAI基盤「Helios」を公開</h2>
-<p>AMDが新たに披露した「Helios」は、AIデータセンター向けに設計されたラックスケールの統合プラットフォームだ。次世代GPU「Instinct MI455X」と、サーバーCPU「EPYC “Venice”」を中核に、ネットワークおよびソフトウェアスタック（ROCm）を含めて最適化された構成を採る。</p>
-<p><strong>■ AMDは、AI計算需要がゼタスケールからヨタスケールへ移行すると説明。今後のAI計算量は1万倍規模で増加するとの見通しを示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_yotta_flop_7ac334c034/amd_yotta_flop_7ac334c034.jpg" alt="amd yotta flop.jpg" /></p>
-<p>同社は、AIモデルの大規模化と計算需要の急増を背景に、将来的には“ヨタ級”の計算規模が求められるとの認識を示しており、Heliosはそうした長期的な需要を見据えた設計思想に基づくものだとしている。</p>
-<p>今回の基調講演では、Instinct MI400シリーズの製品ポートフォリオを初めて体系的に提示するとともに、次世代となる「MI500シリーズ」を2027年に投入する計画にも言及した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_instinct_48be29b62a/amd_instinct_48be29b62a.jpg" alt="amd instinct.jpg" /></p>
-<h2>AIデータセンター向けGPU「Instinct MI455X」</h2>
-<p><strong>■ Instinct MI455Xは、前世代MI355X比で最大10倍のAI性能向上をうたう。AMDは世代ごとの性能進化を強調した</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_mi455x_b3f4643fe4/amd_mi455x_b3f4643fe4.jpg" alt="amd mi455x.jpg" /></p>
-<h2>AI PC向け「Ryzen AI 400シリーズ」を発表</h2>
-<p>PC向けでは、新たに「Ryzen AI 400シリーズ」および法人向けの「Ryzen AI PRO 400シリーズ」を発表した。最大60TOPSのAI処理性能を持つNPUを搭載し、クラウドに依存しないローカルAI処理を重視した設計が特徴となる。</p>
-<p>Ryzen AI 400シリーズは2026年1月から出荷が開始され、主要PCメーカーから順次搭載モデルが投入される予定だ。AMDは、生成AIや各種AIアプリケーションをPC上で直接実行するユースケースを想定し、AI PC市場への本格展開を進めるとしている。</p>
-<p><strong>■ Ryzen AI 400シリーズの概要。60TOPSのNPUやRDNA 3.5 GPUを備え、生成AIやコンテンツ制作などのローカルAI処理を想定する</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amd_ryzen_ai_400series_3c8af1e013/amd_ryzen_ai_400series_3c8af1e013.jpg" alt="amd ryzen ai 400series.jpg" /></p>
-<h2>データセンターからPCまでを貫くAI戦略</h2>
-<p>AMDは今回のCES 2026で、データセンター向けの大規模AI基盤と、エンドユーザーに近いPC向けAIプロセッサの両面で新製品を打ち出した。HeliosとRyzen AI 400シリーズの発表により、同社はAIワークロード全体を視野に入れたエンドツーエンドの製品戦略を改めて明確にした形だ。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>Apple、次世代AI基盤にGemini採用──SiriなどApple Intelligenceで活用へ</title>
       <link>https://ledge.ai/articles/apple_nextgen_ai_platform_gemini_adoption</link>
       <description><![CDATA[<p>Apple と Google は2026年1月12日（米国時間）、Apple の次世代基盤 AI「Apple Foundation Models」に、Google の生成 AI モデル Gemini とクラウド技術を採用すると<a href="https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/">発表</a>した。</p>
@@ -523,6 +497,27 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <p>楽天は、AI活用を意味する造語「AI-nization（エーアイナイゼーション）」を掲げ、ビジネスのあらゆる領域でAI活用を推進している。「Rakuten AI」は、楽天エコシステムにおける顧客体験の向上と日常生活のサポートを目的に設計されたエージェント型AIツールだ。</p>
 <p>AIエージェントを通じてユーザーを楽天エコシステム内のさまざまなサービスにつなぎ、よりパーソナルな体験を提供することを目指しており、今回の「楽天市場」アプリへの搭載は、その展開における重要な一歩と位置付けられている。</p>
 <p>楽天は今後も、「楽天市場」におけるAI活用の推進や「Rakuten AI」との連携を通じて、利便性が高く、楽しい買い物体験の提供を目指すとしている。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>リコー、「文書×AI」を現場仕様に──Qwen2.5-VL-32B基盤、視覚データ60万枚でチューニング</title>
+      <link>https://ledge.ai/articles/ricoh_multimodal_llm_qwen25_vl_32b_business_documents</link>
+      <description><![CDATA[<p>リコーは2026年1月8日、中国Alibaba Cloudが開発・提供する大規模言語モデル（LLM）ファミリーの「Qwen2.5-VL-32B-Instruct」をベースに、日本企業の図表を含む業務文書の読み取りに対応したマルチモーダル大規模言語モデル（LMM）を開発したと<a href="https://jp.ricoh.com/release/2026/0108_2">発表</a>した。今後、「RICOH オンプレLLMスターターキット」に搭載し、オンプレミス環境での提供を予定している。</p>
+<p>開発されたLMMは、文字情報に加え、円グラフ、棒グラフ、フローチャートなど、ビジネス文書で一般的に用いられる視覚情報を同時に理解できる点が特徴だ。企業内に蓄積された文書を対象に、検索にとどまらない高度な利活用を実現することを目的としている。</p>
+<h2>顧客フィードバックを反映し、より実務向けの構成に</h2>
+<p>リコーは、経済産業省と国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発力強化プロジェクト「GENIAC（Generative AI Accelerator Challenge）」第2期において、マルチモーダルLLMの開発に取り組み、700億パラメータの基本モデルを無償公開してきた。</p>
+<p>今回のLMMは、そうした取り組みの中で得られた顧客からのフィードバックを踏まえ、サービング環境の構築の容易さや利活用のしやすさを重視し、よりコンパクトで高性能、かつアプリケーションとの親和性が高い構成とした点が特徴となる。あわせて、4bit量子化モデルも提供するとしている。</p>
+<h2>視覚データ約60万枚を用いた独自チューニング</h2>
+<p>同モデルの学習には、リコーが自社で開発したチューニングデータを使用した。文字情報に加え、円グラフ、棒グラフ、フローチャートなど、ビジネス文書で活用される視覚データ約60万枚を用い、LMMに学習させている。</p>
+<p>性能評価には、視覚情報とテキスト情報の双方を参照する日本語質問応答データセット「JDocQA」などのベンチマークツールを用いた。その結果、他モデルと比較しても優れた性能を示すことを確認したとしている。評価は2025年12月17日時点の結果に基づく。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ricoh_qwen2_5vl_b660355681/ricoh_qwen2_5vl_b660355681.jpg" alt="ricoh qwen2-5vl.jpg" /></p>
+<h2>企業内文書活用をめぐる課題に対応</h2>
+<p>企業内には、請求書や領収書といったトランザクションデータ、経営戦略や事業計画などの経営資料、サービスマニュアルや技術標準、品質管理基準といった技術文書など、多様な形式のドキュメントが蓄積されている。これらにはテキスト情報だけでなく、図表や画像といった視覚情報も含まれる。</p>
+<p>一方で、従来の検索手法では意図した情報を十分に引き出せない、検索にとどまった活用に限界があるといった課題が指摘されてきた。加えて、労働力人口の減少、技能・ノウハウ継承、多言語対応といった経営課題が複雑化する中、企業内に蓄積された知識をより高付加価値で活用したいというニーズが高まっている。</p>
+<p>リコーは、こうした背景を踏まえ、既存のLLMやLMMでは課題とされてきた、きめ細かな画像認識を必要とするビジネス文書の読解精度に対応するモデルとして、同LMMを位置づけている。</p>
+<h2>個別提供に対応、オンプレ環境での展開も視野</h2>
+<p>リコーは、同LMMが顧客の要望に応じて個別提供可能としている。今後は「RICOH オンプレLLMスターターキット」に搭載し、リコージャパンから提供する予定だという。同社は画像認識や自然言語処理に加え、音声認識AIの研究開発も進めており、音声対話機能を備えたAIエージェントの提供にも取り組む。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
