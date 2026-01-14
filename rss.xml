@@ -122,6 +122,45 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、非エンジニア向け業務AIエージェント「Cowork」開始──Claude Codeの自律実行を一般業務へ拡張</title>
+      <link>https://ledge.ai/articles/anthropic_cowork_launch_claude_code_agent_general_work</link>
+      <description><![CDATA[<p>Anthropicは2026年1月12日（現地時間）、同社のAIアシスタント「Claude」において、新機能「Cowork（コワーク）」を研究プレビューとして開始したことを<a href="https://claude.com/blog/cowork-research-preview">発表</a>した。</p>
+<p>開発者向けのコーディングエージェント「Claude Code」で培ってきた自律的なタスク実行の仕組みを、文書整理や資料作成といった一般業務にも拡張し、開発者以外でも利用できる業務エージェントとして提供する。</p>
+<h2>「指示に答えるAI」から「作業を進めるAI」へ──Coworkの位置づけ</h2>
+<p>Coworkは、Claudeがユーザーの「同僚（co-worker）」のように振る舞い、単発の質問に答えるだけでなく、目的を理解し、作業計画を立て、複数ステップのタスクを自律的に実行することを想定した機能だ。</p>
+<p>Anthropicは、Claude Codeの提供後、開発者がコーディング以外の用途にも同機能を広く使い始めたことを背景に、よりシンプルで誰でも使える形としてCoworkを開発したとしている。基盤はClaude Codeと共通で、同様の自律実行能力を、非コーディング業務向けに抽象化した形となる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=UAmKyyZ-b9E">YouTube</a></p>
+<h2>ローカルファイルを直接扱う業務エージェント</h2>
+<p>Coworkは、macOS向けのClaude Desktopアプリ上で動作する。ユーザーが許可したフォルダに対して、Claudeが以下の操作を直接行える点が特徴だ。</p>
+<ul>
+<li>ファイルの読み取り</li>
+<li>ファイルの編集・新規作成</li>
+<li>複数ファイルの整理や再構成</li>
+</ul>
+<p>公式ブログでは、ダウンロードフォルダの自動整理、スクリーンショットの束から経費一覧のスプレッドシートを作成する作業、散在するメモからレポートの下書きを作る作業などが例として挙げられている。チャット上の応答にとどまらず、実際の業務ファイルを扱いながら作業を進める点がCoworkの特徴だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=WBNZpAWhw5E">YouTube</a></p>
+<h2>コネクタ、スキル、Chrome連携──業務エージェントとしての拡張性</h2>
+<p>Coworkでは、Claudeが既存のコネクタを利用できる。これにより、外部情報と連携したタスク実行が可能になる。また、Cowork向けに、文書やプレゼンテーション、各種ファイル作成を強化する初期スキル群も追加された。さらに、Chrome上でClaudeを利用する設定と組み合わせることで、ブラウザ操作を伴うタスクにも対応できるとしている。</p>
+<p>Anthropicは、Coworkでは毎回文脈を手動で与えたり、出力結果を別の形式に変換したりする必要がなく、タスクをキューに積んで並列に進められる設計になっている点も特徴だと説明する。やり取りを重ねるというより、「同僚にまとめて指示を残す」感覚に近い体験を目指したという。</p>
+<h2>提供条件と現時点での制約</h2>
+<p>Coworkは研究プレビューとして提供されており、現時点での利用条件は以下の通り。</p>
+<p><strong>■ 提供環境</strong>
+・macOS向けClaude Desktopアプリ
+・有料の「Claude Max」プラン加入者向け</p>
+<p><strong>■ 制約</strong>
+・セッションをまたいだ長期的な記憶は行わない
+・Claudeの「Projects」機能とは未統合</p>
+<p>Claude Max以外のプラン利用者については、将来提供に向けた待機リストが用意されている。
+Anthropicは今後、クロスデバイス同期の追加やWindows対応など、段階的な拡張を進めるとしている。</p>
+<h2>自律型AIの業務利用を前提にした安全設計</h2>
+<p>Coworkでは、Claudeがローカルファイルを操作できるため、安全面での注意も明示されている。ユーザーは、Claudeに見せるフォルダやコネクタを自ら選択でき、明示的に許可していない情報にはアクセスできない。</p>
+<p>また、重要な操作を行う前にはClaudeが確認を求める設計となっている。一方で、削除などの破壊的な操作が行われる可能性もあるため、指示は明確に行う必要があるとしている。</p>
+<p>Anthropicは、インターネット上の内容によってAIの行動計画が変えられる「プロンプトインジェクション」のリスクにも言及し、これは業界全体で対処が続く課題だと説明する。
+詳細な注意点については、Help Centerで<a href="https://support.claude.com/en/articles/13364135-using-cowork-safely">案内</a>している。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple、次世代AI基盤にGemini採用──SiriなどApple Intelligenceで活用へ</title>
       <link>https://ledge.ai/articles/apple_nextgen_ai_platform_gemini_adoption</link>
       <description><![CDATA[<p>Apple と Google は2026年1月12日（米国時間）、Apple の次世代基盤 AI「Apple Foundation Models」に、Google の生成 AI モデル Gemini とクラウド技術を採用すると<a href="https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/">発表</a>した。</p>
@@ -416,23 +455,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <h2>導入と今後の展開</h2>
 <p>Copilot Checkoutでは、Microsoft Merchant Centerの活用により、Copilot上での商品露出を最適化できる。Microsoftは、Agentic Commerce Protocol（ACP）といったオープンスタンダードの採用を進め、導入の簡素化とスケーラビリティを図る。</p>
 <p>今後はMastercardやVisaといった決済事業者とも連携し、AIを前提としたコマース基盤の拡張を進めるとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、フィジカルAIと自動運転AIを統合展開──ロボットと車両向けに新モデル群</title>
-      <link>https://ledge.ai/articles/nvidia_physical_ai_autonomous_driving_integrated_models</link>
-      <description><![CDATA[<p>NVIDIA は2026年1月5日（現地時間）、米ラスベガスで開催中のCES 2026に際し、現実世界で動作する人工知能「フィジカルAI」に向けた新たなAIモデル群を<a href="https://blogs.nvidia.co.jp/blog/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots/">発表</a>した。</p>
-<p>ロボット向けの基盤モデルに加え、安全な推論に基づく自動運転車両開発を支援するオープンソースAI「<a href="https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development">Alpamayo</a>」ファミリーも同時に公開し、ロボットと車両の双方を対象としたAI基盤の統合展開を進める。</p>
-<h2>フィジカルAIを中核に据えたAI基盤を拡充</h2>
-<p>NVIDIAが掲げるフィジカルAIは、ロボットや車両といった物理的な存在が、周囲の環境を認識し、状況に応じて判断・行動するためのAI技術を指す。今回の発表では、視覚認識、行動生成、推論といった要素を統合した複数の基盤モデルが示され、現実世界での多様なタスクに対応する汎用的なAI基盤の整備を進める姿勢を打ち出した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/physical_ai_models_1280x680_1_960x510_9fb39ada11/physical_ai_models_1280x680_1_960x510_9fb39ada11.jpg" alt="physical-ai-models-1280x680-1-960x510.jpg" /></p>
-<h2>自動運転向けオープンAI「Alpamayo」を公開</h2>
-<p>こうしたフィジカルAIの重要な応用分野として位置づけられるのが自動運転だ。NVIDIAは今回、自動運転車両向けのオープンソースAIモデルとツール群からなる「Alpamayo」ファミリーを<a href="https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development">発表</a>した。Alpamayoは、安全性が強く求められる自動運転開発を想定し、周囲の状況を理解したうえで判断を行う「リーズニング（推論）」能力を重視した設計が特徴とされる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_alpamayo_d1b1006f40/nvidia_alpamayo_d1b1006f40.jpg" alt="nvidia alpamayo.jpg" /></p>
-<p>Alpamayoファミリーには、学習済みモデルに加え、シミュレーション環境やデータセットが含まれており、開発者や企業が共通基盤上で検証や改良を進められるよう設計されている。想定される用途には、レベル4自動運転の研究・開発や、現実の走行環境で発生し得る多様なシナリオへの対応などが含まれる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KGCTwoAlhsM">Youtube</a></p>
-<p>今回の発表は、ロボット向けAIと自動運転向けAIを個別に展開するものではなく、共通するフィジカルAI基盤のもとで横断的に提供する点に特徴がある。NVIDIAは、モデル、ソフトウェア、シミュレーション環境を含む包括的なAI基盤を通じて、ロボットと車両の両分野における開発を同時に支援していく方針を示した。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
