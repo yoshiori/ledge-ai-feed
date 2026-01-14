@@ -459,29 +459,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、次世代AI基盤「Rubin」をCESで正式発表──GPU「Rubin」と新CPU「Vera」を含む6チップ構成、推論コストは最大10分の1に</title>
-      <link>https://ledge.ai/articles/nvidia_rubin_vera_ces_2026</link>
-      <description><![CDATA[<p>NVIDIAは2026年1月5日（米国時間）、CESの開催に際し、AIデータセンター向けの次世代プラットフォーム「Rubin」を<a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer">発表</a>した。</p>
-<p>新たに設計したCPU「Vera」とGPU「Rubin」を中核に、6種類の半導体を極めて緊密に統合した構成が特徴で、同社は従来世代「Blackwell」と比べ、AIの学習および推論にかかるコストを大幅に削減できるとしている。</p>
-<p>Rubinプラットフォームは、NVIDIA Vera CPU、NVIDIA Rubin GPU、NVLink 6 Switch、ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6 Ethernet Switchの6つの新チップで構成される。チップ単体の性能向上に依存するのではなく、CPU、GPU、ネットワーク、ストレージ、セキュリティまでを含めた“プラットフォーム全体”を同時に設計する「エクストリーム・コードザイン」を採用した点が特徴だ。</p>
-<p><strong>■ CESの基調講演で、NVIDIAのCEOであるジェンスン・フアン氏が次世代AI基盤「Rubin」を構成する主要コンポーネントを紹介した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jensen_vera_rubin2_467cfbac7b/jensen_vera_rubin2_467cfbac7b.jpg" alt="jensen vera rubin2.jpg" /></p>
-<p>Rubinという名称は、銀河の回転速度を観測し、ダークマターの存在を示した米国の天文学者ヴェラ・ルービン氏に由来する。NVIDIAは、同氏が宇宙観を大きく変えた存在であることになぞらえ、AIコンピューティングの新たな基盤となるプラットフォームにその名を冠したとしている。</p>
-<p><strong>■ CESの基調講演で示された、天文学者ヴェラ・ルービン氏と銀河回転曲線の図。新プラットフォーム「Rubin」は、同氏にちなんで命名された</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/vera_rubin2_0fca679ec3/vera_rubin2_0fca679ec3.jpg" alt="vera rubin2.jpg" /></p>
-<p>Rubin GPUは、第3世代のTransformer Engineを搭載し、推論処理に最適化された演算性能を特徴とする。NVIDIAは、演算精度を動的に調整する仕組みにより、推論性能と効率の両立を図っていると説明している。</p>
-<p><strong>■ NVIDIAがCESで示した「Rubin GPU」の主な仕様。推論性能やメモリ帯域などで、Blackwell世代からの大幅な向上が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_rubin_cpu_a40d212a8b/nvidia_rubin_cpu_a40d212a8b.jpg" alt="nvidia rubin cpu.jpg" /></p>
-<p>一方、新CPU「Vera」は、大規模AIファクトリー向けに設計されたNVIDIA独自のCPUだ。GPUとの高帯域接続を前提とした構成を採用し、従来の汎用CPUとは異なる役割を担うとしている。</p>
-<p><strong>■ NVIDIAが新たに設計した「Vera CPU」の概要。88基のカスタムOlympusコアと、GPUとの高帯域接続を前提とした構成が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_vera_cpu_c2ba958e3c/nvidia_vera_cpu_c2ba958e3c.jpg" alt="nvidia vera cpu.jpg" /></p>
-<p>システム形態としては、72基のRubin GPUと36基のVera CPUを1ラックに統合した「Vera Rubin NVL72」と、8基のGPUを搭載する「HGX Rubin NVL8」を用意する。いずれもNVLink 6による高帯域接続を特徴とし、ラック単位でAIスーパーコンピューターとして機能する設計だ。</p>
-<p>また、Rubinでは冷却や運用面の刷新も図られている。100％液体冷却を前提とした設計により、高密度化を進めつつ、組み立てや保守作業の効率化を実現したという。加えて、CPU、GPU、相互接続を横断してデータを保護するコンフィデンシャル・コンピューティング機能や、信頼性を高めるRAS（信頼性・可用性・保守性）機構も強化されている。</p>
-<p>Rubinプラットフォームはすでに量産段階にあり、2026年後半からOEMやクラウド事業者を通じて提供される予定だ。Microsoftの次世代AIデータセンターや、CoreWeaveのAIクラウドなどでの採用も計画されており、NVIDIAはRubinを通じて、学習・推論の両面でAIインフラの次の世代を切り開くとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>LLMは「同じ質問を2回」入力すると精度が上がる──Google研究者ら、プロンプト反復の効果を短報で報告</title>
       <link>https://ledge.ai/articles/prompt_repetition_improves_llm_accuracy</link>
       <description><![CDATA[<p>Googleの研究者らは、同一の質問文を2回連結して入力するだけで、大規模言語モデル（LLM）の回答精度が向上するとする研究成果を発表した。論文は短報「Prompt Repetition Improves Non-Reasoning LLMs」として2025年12月17日に arXivに<a href="https://arxiv.org/abs/2512.14982v1">公開</a>されており、推論（reasoning）を用いない設定において、主要LLMと複数のベンチマークで広範な改善が観測されたという。</p>
@@ -651,37 +628,6 @@ Samsungは、こうした認識・判断・提案といったAIの役割を、�
 <p>Boston Dynamicsはこれまでも、ロボットの知能に関する研究において、外部の技術や研究機関と協力してきた。例えば、同社の四足歩行ロボット「Spot」は、外部のAI技術と組み合わせた研究・実験のプラットフォームとして活用されてきたほか、2024年には Toyota Research Institute と、Atlasを用いた汎用ヒューマノイド研究での提携を発表している。同社は、ロボットの用途や研究目的に応じて、知能部分を柔軟に組み合わせるアプローチを取ってきた。</p>
 <p>今回のパートナーシップは研究および技術開発を目的としたもので、企業買収や資本関係の変更を伴うものではない。Boston Dynamicsは、引き続き自社のロボット開発を主導しつつ、DeepMindのAI研究成果を取り入れる形で協力を進める。</p>
 <p>ロボット工学とAI研究を統合する動きは近年加速しており、身体を持つAI、いわゆる「Physical AI」への関心も高まっている。Boston DynamicsとGoogle DeepMindは、今回の提携を通じて、現実世界で機能するロボット知能の研究を前進させるとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMは「大きいほど脳に近い」？──Meta研究、脳活動との対応がスケールと文脈長で強まると報告</title>
-      <link>https://ledge.ai/articles/xllm_brain_alignment_scaling_and_context_meta_study</link>
-      <description><![CDATA[<p>Metaの研究チームは、人間が物語を聞いている最中の脳活動と大規模言語モデル（LLM）の内部表現を比較した結果、モデルの規模や入力文脈の長さに応じて、脳の言語処理と対応する計算構造が現れるとする研究成果を<a href="https://arxiv.org/abs/2512.01591">発表</a>した。論文「Scaling and context steer LLMs along the same computational path as the human brain」は、2025年12月にarXivで公開されている。</p>
-<h2>脳活動とモデル内部表現をどう対応づけたのか</h2>
-<p>研究では、被験者3人が約10時間にわたってオーディオブックを聴取する際の脳活動を「脳磁図（MEG）」を用いて計測した。
-取得した脳信号は、単語の出現タイミングに同期させて解析され、言語刺激に対する時間分解能の高い反応として整理された。</p>
-<p>一方、同じテキストを22種類の言語モデルに入力し、各層の内部表現を抽出。脳信号からモデル内部表現を予測する線形写像を学習し、その予測精度をもとに、どのモデル層が、脳のどの時間帯の反応と対応するかを評価した。</p>
-<p><strong>図：脳活動とLLM内部表現の対応付け手法の概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/method_figure_tmax_923f1bc517/method_figure_tmax_923f1bc517.png" alt="method_figure_tmax.png" /></p>
-<h2>層の深さと脳反応の時間順序に見られた対応関係</h2>
-<p>解析の結果、多くのモデルにおいて、浅い層ほど脳の早い反応と、深い層ほど遅い反応と対応する傾向が確認されたという。これは、言語処理における計算の進行順序が、LLMと人間の脳で部分的に一致している可能性を示すものとされる。</p>
-<p>研究では、この層の深さと脳反応のピーク時間との対応を「temporal alignment（時間的整合）」と呼び、単なる相関ではなく、計算の段階構造が揃っているかどうかを捉える指標として位置づけている。</p>
-<h2>モデル構造の違いが示した共通点と相違点</h2>
-<p>こうした時間的整合は、Transformer系モデルだけでなく、状態空間モデル（Mamba）や再帰型モデル（RecurrentGemma）でも観測された。</p>
-<p>一方で、BERTやRoBERTa、wav2vec 2.0といった双方向モデルでは、脳活動との対応自体は一定程度見られるものの、計算の時間順序に関する整合は弱く、統計的に有意ではないケースが多かったという。</p>
-<p>研究チームは、モデルが「未来の単語も参照できる」双方向構造を持つことが、時間順序の対応を弱める可能性を指摘している。</p>
-<h2>モデル規模の拡大で現れた“対応の立ち上がり”</h2>
-<p>モデルサイズの影響については、パラメータ数のみを段階的に変化させたPythiaモデル群を用いて検証された。その結果、最小規模の14Mパラメータモデルでは時間的整合は有意に確認されなかった一方、12Bパラメータモデルでは非常に強い整合が示された。</p>
-<p>この対応の強まりは、モデルサイズの増加に対して対数的に進み、一定規模を超えると伸びが緩やかになる傾向も見られたという。</p>
-<h2>文脈情報が計算対応に与える影響</h2>
-<p>研究では、入力する文脈の長さも重要な要因として検証された。Llama-3.2（3B）を用いた実験では、文脈をほとんど与えない条件では時間的整合は弱く、文脈長を1000語程度まで拡張すると、脳活動との対応が大きく強まった。</p>
-<p>この効果はMambaモデルでも同様に確認されており、文脈情報の蓄積が、脳に近い計算順序を形成する要因になっている可能性が示唆されている。</p>
-<h2>単語予測の容易さだけでは説明できない点</h2>
-<p>研究チームは、こうした対応が単に「次の単語を予測しやすいかどうか」によって生じている可能性も検討した。その結果、予測可能性の高低で単語を分けても、時間的整合の傾向は維持されており、単純な次トークン予測の難易度だけでは説明できないと結論づけている。</p>
-<h2>研究が示唆することと、残された課題</h2>
-<p>研究は、LLMのスケールや文脈処理能力の拡張が、人間の脳における言語処理の計算構造と対応する方向へ作用する可能性を示した。一方で、被験者数が限られている点や、MEGの空間分解能の制約、感覚入力を伴わないテキストモデル中心の分析である点など、今後の検証課題も挙げられている。</p>
-<p>研究チームは、今後さらに多様なモデルや条件での比較を通じて、言語モデルと人間の認知過程の関係を精査していくとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
