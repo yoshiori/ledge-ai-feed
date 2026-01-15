@@ -294,6 +294,34 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>Google、AIエージェント時代の購買基盤「Universal Commerce Protocol（UCP）」を発表──NRF 2026でエージェンティックコマース構想を提示</title>
+      <link>https://ledge.ai/articles/google_nrf2026_universal_commerce_protocol_ucp_agentic_commerce</link>
+      <description><![CDATA[<p>Googleは2026年1月11日（現地時間）、全米小売業協会（NRF）が主催する年次イベントNRF 2026において、AIエージェントが購買プロセスを担う「エージェンティックコマース（agentic commerce）」時代に向けた取り組みを<a href="https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/">発表</a>した。</p>
+<p>同社は、AIエージェントと小売事業者、決済事業者、プラットフォームを横断的につなぐオープン標準として<a href="https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/">「Universal Commerce Protocol（UCP）」</a>を公開し、検索や広告、コマース体験を再編する構想を示した。</p>
+<h2>AIが商品探索から購入までを担う「エージェンティックコマース」</h2>
+<p>Googleが示すエージェンティックコマースは、利用者が検索や比較を行い購入を決定する従来のEC体験とは異なり、AIエージェントが利用者の意図を理解し、商品探索、条件比較、購入判断、決済までを代行することを前提とする。
+NRF 2026での発言において、Googleはこうした購買体験の変化を、小売業界における次の大きな転換点として位置づけた。</p>
+<h2>中核となるオープン標準「Universal Commerce Protocol」</h2>
+<p>UCPは、AIエージェント時代の商取引を支える共通基盤として設計されたオープンプロトコルだ。
+AIエージェント、EC事業者、決済サービス、プラットフォームが個別に連携する従来型の構成ではなく、共通の仕様を介して相互運用できることを目的としている。</p>
+<p><strong>■ Universal Commerce Protocol（UCP）の構成概要</strong> ：消費者向けAIサーフェス（検索やGemini）と、小売・決済などの業務バックエンドを、共通プロトコルで接続する。商品探索、カート、チェックアウト、注文といった機能をモジュール化し、AIエージェント時代の商取引を支える。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/UCP_Diagram_Detailed_1_original_9904d1d1ab/UCP_Diagram_Detailed_1_original_9904d1d1ab.png" alt="UCP_Diagram_Detailed_1.original.png" /></p>
+<p>Googleによると、UCPは既存のモデル連携プロトコルやエージェント間通信の考え方とも親和性を持ち、オープンソースとして公開される。これにより、小売事業者やプラットフォームは、特定のAIやサービスに依存せず、エージェンティックコマースへの対応を進めることが可能になるという。</p>
+<h2>検索とGeminiでの直接購入体験を支える基盤に</h2>
+<p>UCPは、Google検索のAI Modeや、生成AI「Gemini」を通じた新しい購買体験の基盤としても活用される。</p>
+<p><strong>■ Google検索から購入完了までのエージェンティックコマース体験例</strong> : AIエージェントとの対話を通じて商品を確認し、そのままチェックアウトまで完結する。UCPは、こうした検索起点の直接購入体験を支える基盤として機能する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/triptych_alt_original_aa3f1e380e/triptych_alt_original_aa3f1e380e.jpg" alt="triptych-alt.original.jpg" /></p>
+<p>利用者はAIエージェントとの対話を通じて商品を比較・検討し、そのまま購入まで進むことが可能になる設計だ。Googleは、こうした体験を自社サービスに閉じたものではなく、業界全体に開かれた形で展開する姿勢を強調している。</p>
+<h2>小売事業者向けのAIツール群もあわせて提供</h2>
+<p>GoogleはUCPと並行して、小売事業者向けのAIツールも発表した。検索上でブランドと対話できる「Business Agent」をはじめ、AIエージェントが商品情報や条件を正確に理解するためのデータ拡張、Google AdsやCommerce製品との連携機能などが含まれる。</p>
+<p>これらの機能は、まず米国の一部小売事業者から段階的に提供される予定としている。</p>
+<h2>検索・広告・ECを横断する再設計</h2>
+<p>今回の発表は、単一の新製品や機能にとどまらず、検索、広告、コマースをAIエージェント前提で再設計するGoogleの方向性を示すものとなった。</p>
+<p>Googleは、UCPを軸としたオープンなエコシステムを通じて、AIが購買の主体となる時代における小売体験の基盤づくりを進めるとしている。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>ビジネス2026/1/11 [SUN]『女性をビキニに』指示が問題化、XのAI画像生成・編集機能が有料会員限定に</title>
       <link>https://ledge.ai/articles/grok_bikini_image_generation_paid_only</link>
       <description><![CDATA[<p>「@Grok 女性をビキニにして」などの指示による画像生成が物議を醸していた、XのAI画像生成・編集機能について、X上での利用が有料会員に限定されていることが、2026年1月9日ごろから確認されている。この仕様変更は<a href="https://www.reuters.com/sustainability/boards-policy-regulation/musks-ai-bot-grok-limits-image-generation-x-paid-users-after-backlash-2026-01-09/">Reuters</a>など複数の国内外メディアが報じている。</p>
@@ -501,24 +529,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <p>一方で、入力文が非常に長い場合や、同じ質問を3回以上繰り返す設定では、モデルや条件によっては応答時間が増加する可能性も指摘されている。</p>
 <h2>追加学習なしで性能を引き出す可能性</h2>
 <p>この手法は、追加学習や外部ツールを必要とせず、出力形式も変えないため、既存システムにドロップインで導入可能だとされる。研究チームはこれを「多くのタスクにおけるデフォルト手法の候補」と位置付けている。研究チームは今後の方向性として、反復部分の最適化やKVキャッシュの扱い、非テキストモダリティへの応用などを挙げている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>5億点の商品群の楽天市場にAIコンシェルジュ導入　エージェント型AI「Rakuten AI」を提供開始</title>
-      <link>https://ledge.ai/articles/rakuten_ichiba_ai_concierge_rakuten_ai_launch</link>
-      <description><![CDATA[<p>楽天グループは2026年1月5日、同社が運営する楽天市場のスマートフォンアプリに、エージェント型AIツールRakuten AIを搭載したと<a href="https://corp.rakuten.co.jp/news/press/2026/0105_02.html">発表</a>した。ユーザーとの対話を通じてニーズを理解し、商品選びを支援するAIコンシェルジュとして提供する。</p>
-<p>導入により「楽天市場」のAIコンシェルジュがユーザーとの対話を通じてニーズを把握し、商品選定のサポートと新たな商品との出会いを生む「ディスカバリーショッピング体験」を提供するという。</p>
-<h2>テキスト・音声・画像で条件を入力、対話しながら商品を探索</h2>
-<p>ユーザーは、「楽天市場」スマートフォンアプリのホーム画面右下に表示されるアイコンから「Rakuten AI」にアクセスできる。希望予算、購入目的、活用シーンなどを、テキスト、音声、画像を用いて入力することで、欲しい商品を手軽に検索することが可能だ。</p>
-<p>AIコンシェルジュからの質問に答えながら対話を進めることで、潜在的なニーズが明らかになりやすくなり、商品提案の精度が高まるとしている。これにより、「楽天市場」に出品されている約5億点の商品群の中から、条件や目的に合った商品を見つけやすくなる。</p>
-<h2>商品情報に加え、トレンド情報も反映</h2>
-<p>「Rakuten AI」が提案する商品情報には、「楽天市場」内の商品情報や価格比較情報に加え、気候や流行、社会情勢などのトレンドも反映される。これらの情報はウェブの自然検索結果をもとに取り込まれ、ユーザーが買い物をする際に必要な情報を包括的に提示するとしている。</p>
-<p>今後は、楽天が運営するEコマースサービスから得られるマーケティングデータを活用し、ユーザーのニーズにより合致した商品提案を行う予定だ。提案精度の継続的な向上を通じて、一人ひとりにパーソナライズされた買い物体験の提供を目指す。</p>
-<h2>「AI-nization」戦略の一環として位置付け</h2>
-<p>楽天は、AI活用を意味する造語「AI-nization（エーアイナイゼーション）」を掲げ、ビジネスのあらゆる領域でAI活用を推進している。「Rakuten AI」は、楽天エコシステムにおける顧客体験の向上と日常生活のサポートを目的に設計されたエージェント型AIツールだ。</p>
-<p>AIエージェントを通じてユーザーを楽天エコシステム内のさまざまなサービスにつなぎ、よりパーソナルな体験を提供することを目指しており、今回の「楽天市場」アプリへの搭載は、その展開における重要な一歩と位置付けられている。</p>
-<p>楽天は今後も、「楽天市場」におけるAI活用の推進や「Rakuten AI」との連携を通じて、利便性が高く、楽しい買い物体験の提供を目指すとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
