@@ -332,6 +332,29 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>Google検索の「AIによる概要」、健康関連クエリで一部非表示に―—英ガーディアン調査で判明</title>
+      <link>https://ledge.ai/articles/guardian_google_ai_overviews_health_queries_hidden</link>
+      <description><![CDATA[<p>Google検索に表示される「AIによる概要（AI Overviews）」が、健康・医療関連の検索クエリにおいて誤解を招く情報を提供していたことが、2026年1月26日の<a href="https://www.theguardian.com/technology/2026/jan/11/google-ai-overviews-health-guardian-investigation">英紙ガーディアンの調査</a>で明らかになった。これを受け、Googleは一部の検索結果で同機能を非表示にしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian_9ac7ce5634/the_guardian_9ac7ce5634.jpg" alt="the guardian.jpg" /></p>
+<h2>Google検索の「AIによる概要」とは</h2>
+<p>「AIによる概要」は、検索クエリに対してAIが複数の情報源をもとに要点を要約し、検索結果ページの上部に表示する機能だ。通常の検索結果リンクよりも上位に表示されることから、検索体験の効率化を目的として導入されている。</p>
+<p>一方で、表示位置の特性上、内容が利用者の判断に与える影響が大きい点も指摘されてきた。</p>
+<h2>健康関連クエリで指摘された問題</h2>
+<p>調査報道でガーディアンは、Googleの「AIによる概要」が健康・医療分野の検索クエリにおいて、不正確または文脈を欠いた情報を提示している事例があると報じた。</p>
+<p>同紙によると、疾患や検査値に関する説明が一般化されすぎており、年齢や既往歴などの前提条件を十分に考慮していないケースが確認されたという。こうした要約が検索結果の最上部に表示されることで、利用者が内容を過度に信頼し、誤った自己判断につながる可能性がある点が問題視された。</p>
+<p>ガーディアンは、医療情報のように解釈に専門性が求められる分野では、AIによる要約が誤解やリスクを生む恐れがあると伝えている。</p>
+<h2>Googleの対応</h2>
+<p>この報道を受け、米テックメディア The Vergeは、Googleが一部の健康・医療関連検索クエリについて「AIによる概要」の表示を停止していると報じた。</p>
+<p>The Vergeによると、該当する検索では従来どおり検索結果リンクは表示される一方、AIによる要約のみが表示されない状態になっているという。Googleは、医療分野のようなセンシティブな領域では、情報の正確性と安全性を重視した対応を取っているとされる。</p>
+<p>同メディアは、今回の措置がすべての健康関連クエリに一律で適用されているわけではなく、限定的な対応である点にも言及している。</p>
+<h2>背景</h2>
+<p>医療・健康分野は、検索エンジンにおいて利用者の生活や生命に直接影響を与え得る情報を扱う領域とされている。AIによる要約は利便性を高める一方、情報の切り取り方次第で誤解を招くリスクを内包している。</p>
+<h2>今後の焦点</h2>
+<p>今後は、健康・医療といった高リスク分野において、AI要約をどの範囲で表示するのか、また品質管理や表示基準をどのように設計するのかが焦点となる。Google検索におけるAI活用のあり方が、引き続き注目される。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>アイスタイル、「@cosme Copilot」を発表　クチコミをAIで解析するSaaS型分析ツール</title>
       <link>https://ledge.ai/articles/istyle_cosme_copilot_ai_analysis</link>
       <description><![CDATA[<p>美容系総合サイト「@cosme（アットコスメ）」を運営する株式会社アイスタイルは2026年1月7日、@cosmeに投稿されたクチコミデータをAIで解析するSaaS型の次世代分析ツール「@cosme Copilot」を<a href="https://www.istyle.co.jp/news/press/2026/01/0107.html">発表</a>した。</p>
@@ -528,30 +551,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <p>@<a href="https://www.youtube.com/watch?v=SuyBti4YC-Y">YouTube</a></p>
 <p>同社は公式YouTubeチャンネルで、Saros Roverの動作を示すデモ動画も公開した。動画では、本体が階段の段差を認識し、脚部を使って一段ずつ姿勢を調整しながら上り下りする様子が示されている。移動と同時に階段表面を清掃する動作も確認でき、Roborockが想定する利用シーンを視覚的に示す内容となっている。</p>
 <p>RoborockはSaros RoverをCES 2026ではコンセプトモデルとして紹介しており、現時点で発売時期や価格、量産計画などの詳細は明らかにしていない。階段環境での移動と清掃を想定したロボット掃除機として、その技術的方向性を示す展示となった。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Samsung、Gemini連携で家電すべてをAI前提に再設計──CES 2026で「Family Hub」進化を発表</title>
-      <link>https://ledge.ai/articles/samsung_gemini_ai_appliances_family_hub_ces_2026</link>
-      <description><![CDATA[<p>Samsung Electronicsは2026年1月5日（現地時間）、世界最大級の家電見本市CES 2026の関連イベント「The First Look」において、同社のAI家電戦略を<a href="https://news.samsung.com/global/samsung-presents-your-companion-to-ai-living-at-the-first-look-during-ces-2026">発表</a>した。その中で、AI冷蔵庫「Bespoke AI Refrigerator Family Hub（以下、Family Hub）」のアップグレードを明らかにし、生成AI「Gemini」との連携を前面に打ち出した。冷蔵庫にとどまらず、AIを基盤とした家電・サービス全体の再設計を進める方針を示している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=hPdEMp1fOA4">YouTube</a></p>
-<h2>CES 2026で示した「全家電AI前提」戦略</h2>
-<p>SamsungはCES 2026で、「Your Companion to AI Living」というビジョンを掲げ、家庭内のさまざまな家電やサービスをAIを基盤とした形で再定義する構想を示した。家電を個別に高度化するのではなく、生活全体を支援するAI基盤として再設計することを目指す。
-Family Hubは、その戦略を象徴する存在として位置付けられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samsung_your_companion_to_620a47a6ee/samsung_your_companion_to_620a47a6ee.jpg" alt="samsung your companion to.jpg" /></p>
-<h2>Geminiと連携するAI Visionを強化</h2>
-<p>刷新されたFamily Hubでは、Googleの生成AI「Gemini」と連携した「AI Vision（AI Food Manager）」機能を強化した。冷蔵庫内のカメラで食材を認識し、出し入れの状況を自動で把握することで、在庫管理をAIが担う。
-Samsungは、こうした認識・判断・提案といったAIの役割を、冷蔵庫に限らず他の家電にも広げていく考えだ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Vision_build_with_google_gemini_bc2a52f89f/AI_Vision_build_with_google_gemini_bc2a52f89f.jpg" alt="AI Vision build with google gemini.jpg" /></p>
-<h2>食材管理から献立提案までをAIが自動化</h2>
-<p>AI Visionで取得した食材データをもとに、Family Hubは利用可能な食材に応じたレシピや献立を提案する。あわせて、食材の使用傾向や消費状況をまとめる「FoodNote」機能も提供される。
-家電がユーザーの行動を理解し、次の行動を提案するという設計思想が、冷蔵庫にも取り入れられた。</p>
-<h2>家族単位で最適化されるUIと音声操作</h2>
-<p>Family Hubは音声認識による「Voice ID」に対応し、家族それぞれを識別する。これにより、カレンダーやニュース、天気、健康関連情報などを、利用者ごとに最適化して表示できる。
-また、音声アシスタント「Bixby」を用いた操作も強化され、冷蔵庫のドアを音声で開閉するハンズフリー操作にも対応する。</p>
-<h2>冷蔵庫を起点に広がるAI家電の再設計</h2>
-<p>Samsungは、今回のFamily Hubの進化を、全家電をAI前提で再設計する取り組みの一例と位置付けている。冷蔵庫を家庭内の情報と行動の起点とすることで、家電同士やサービスとの連携を拡張し、AIが日常生活を支援する環境の構築を進めるとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
