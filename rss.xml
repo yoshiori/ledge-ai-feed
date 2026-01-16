@@ -122,6 +122,28 @@ Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合し�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、Claudeを医療・ライフサイエンス向けに拡張──診療支援から臨床試験までAI活用を本格化</title>
+      <link>https://ledge.ai/articles/anthropic_claude_healthcare_life_sciences_expansion</link>
+      <description><![CDATA[<p>米AI企業の Anthropic は2026年1月12日（現地時間）、同社の生成AI「Claude」において、医療およびライフサイエンス分野向けの機能拡張を<a href="https://www.anthropic.com/news/healthcare-life-sciences">発表</a>した。医療機関や保険者、研究者、個人利用者を対象に、医療データの要約・解釈から臨床試験、規制業務までを支援する専用機能を提供する。</p>
+<h2>「Claude for Healthcare」を新設、医療業務向けAIを明確に区分</h2>
+<p>同社は医療分野向けの専用機能群として「Claude for Healthcare」を導入した。これは、医療提供者、保険者、消費者が医療用途でClaudeを利用することを想定したプロダクトで、HIPAA（米医療保険の携行性と責任に関する法律）への対応を前提として設計されている。</p>
+<p>想定される活用例としては、診療記録や検査結果の要約・解釈、医療文書の作成支援、保険請求や事前承認（prior authorization）といった事務手続きの効率化などが挙げられている。汎用的なチャット利用とは区別し、医療業務に特化したAIとして提供する点を明確にした。</p>
+<h2>医療データ連携を拡充、CMSやPubMedなどに対応</h2>
+<p>医療・行政データへの対応も拡充された。Claudeは新たに、米国の医療制度や診療報酬に関連するデータベースであるCMS Coverage DatabaseやICD-10、医療機関・医師情報を扱うNPI Registryといったデータソースに接続可能となった。</p>
+<p>また、医学・生命科学分野の文献データベースであるPubMedへのコネクタも追加されている。これに加え、FHIR（Fast Healthcare Interoperability Resources）を用いた開発支援や、事前承認業務に対応するAgent Skillsも拡張され、臨床現場だけでなく医療事務や制度対応を含めた業務全体を視野に入れた設計となっている。</p>
+<h2>個人向けにも健康データ接続を提供、学習利用は行わず</h2>
+<p>個人利用者向けには、米国のClaude ProおよびMax加入者を対象に、健康データをClaudeに接続できる機能をベータ版として提供する。HealthExやFunctionを介した医療記録の接続に加え、Apple HealthやAndroid Health Connectとの連携にも対応する。</p>
+<p>Anthropicは、こうした個人の健康データについて、AIモデルの学習には使用しない方針を明示している。医療・健康情報という機微性の高いデータを扱うにあたり、利用範囲とデータ取り扱いを限定する姿勢を強調した形だ。</p>
+<h2>ライフサイエンス分野も強化、臨床試験・規制業務を支援</h2>
+<p>ライフサイエンス分野向けには、「Claude for Life Sciences」の機能強化も行われた。新たにClinicalTrials.govやMedidata、bioRxivおよびmedRxivといった研究・臨床試験関連のデータソースとの連携が追加されている。</p>
+<p>これにより、臨床試験の設計や進捗管理、研究文献の整理、規制当局向け文書の作成支援など、研究開発から規制対応までの幅広い業務をAIで支援することが可能になるとしている。</p>
+<h2>医療・生命科学分野での実運用を見据えた展開</h2>
+<p>Anthropicは今回の発表について、規制や安全性が強く求められる医療および生命科学分野において、生成AIを実運用に耐える形で導入するための取り組みだとしている。医療向けに用途を明確化し、データ連携や取り扱い方針を整理した上で提供を進めることで、医療現場や研究現場での活用拡大を狙う。</p>
+<p>@<a href="https://www.youtube.com/watch?v=UXyVMGAFLAs&amp;t=1s">YouTube</a></p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、非エンジニア向け業務AIエージェント「Cowork」開始──Claude Codeの自律実行を一般業務へ拡張</title>
       <link>https://ledge.ai/articles/anthropic_cowork_launch_claude_code_agent_general_work</link>
       <description><![CDATA[<p>Anthropicは2026年1月12日（現地時間）、同社のAIアシスタント「Claude」において、新機能「Cowork（コワーク）」を研究プレビューとして開始したことを<a href="https://claude.com/blog/cowork-research-preview">発表</a>した。</p>
@@ -625,19 +647,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <h2>スタジオ資産も活用した研究体制</h2>
 <p>UMGのMusic &amp; Advanced Machine Learning Lab（MAML）は、これまでもNVIDIAのAIインフラを活用してきた。今回の協業では、Abbey Road Studios や Capitol Studios といった世界的スタジオも研究・制作環境として活用し、レーベルや出版社を含む幅広い関係者の知見を反映させる。</p>
 <p>UMGとNVIDIAは、公式音楽カタログを基盤としたAI活用を通じ、音楽産業における技術革新と権利保護の両立を図るとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boston Dynamics、Google DeepMindとAI研究で提携──Atlasを軸にロボット知能を共同開発</title>
-      <link>https://ledge.ai/articles/xboston_dynamics_google_deepmind_ai_partnership_202601</link>
-      <description><![CDATA[<p>米ロボット企業の Boston Dynamics は2026年1月5日（米太平洋時間）、人工知能（AI）研究機関 Google DeepMind と新たなAIパートナーシップを締結したと<a href="https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/">発表</a>した。両社は、ロボットの知覚・判断・動作を統合するAI技術の研究開発を共同で進める。</p>
-<p>今回の提携は、Boston Dynamicsが開発するロボットプラットフォームと、Google DeepMindが長年取り組んできた強化学習やロボティクス向けAI研究を結びつけることを目的とする。発表によると、研究は実世界で動作するロボットを前提に進められ、シミュレーションと実機を往復する形で学習手法の高度化を図るという。</p>
-<p>両社は、電動化された二足歩行ロボット「Atlas」を主要な研究対象の一つとして位置付けている。Atlasは、人間に近い可動域と運動能力を備えたプラットフォームとして、現実環境での動作学習や制御アルゴリズムの検証に用いられる。DeepMindはこれまで、仮想環境を活用したロボット制御や強化学習の研究を進めてきたが、今回の提携では実機ロボットを用いた検証が本格化する形となる。</p>
-<p>発表では、ロボットが周囲の環境を認識し、状況に応じて行動を調整するための知能の実装が重視されている。単一のタスクに特化した制御ではなく、複数の条件や変化に対応できる汎用的な能力の獲得を目指すとしている。</p>
-<p>Boston Dynamicsはこれまでも、ロボットの知能に関する研究において、外部の技術や研究機関と協力してきた。例えば、同社の四足歩行ロボット「Spot」は、外部のAI技術と組み合わせた研究・実験のプラットフォームとして活用されてきたほか、2024年には Toyota Research Institute と、Atlasを用いた汎用ヒューマノイド研究での提携を発表している。同社は、ロボットの用途や研究目的に応じて、知能部分を柔軟に組み合わせるアプローチを取ってきた。</p>
-<p>今回のパートナーシップは研究および技術開発を目的としたもので、企業買収や資本関係の変更を伴うものではない。Boston Dynamicsは、引き続き自社のロボット開発を主導しつつ、DeepMindのAI研究成果を取り入れる形で協力を進める。</p>
-<p>ロボット工学とAI研究を統合する動きは近年加速しており、身体を持つAI、いわゆる「Physical AI」への関心も高まっている。Boston DynamicsとGoogle DeepMindは、今回の提携を通じて、現実世界で機能するロボット知能の研究を前進させるとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
