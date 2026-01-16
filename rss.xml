@@ -275,6 +275,24 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>Googleの開発用プラットフォーム「Antigravity」に“Agent Skills”登場　エージェントに作業手順を配布できるオープン標準</title>
+      <link>https://ledge.ai/articles/google_antigravity_agent_skills_open_standard</link>
+      <description><![CDATA[<p>Google は2026年1月14日（現地時間）、同社の開発用プラットフォームAntigravityにおいて、エージェントの機能を拡張するパッケージ「Skills」のオープン標準を<a href="https://antigravity.google/docs/skills">発表</a>した。Skillsは、特定の作業に必要な手順やベストプラクティス、必要に応じてスクリプトや参考実装などをまとめた再利用可能な知識パッケージで、エージェントは作業時にそれらを参照しながらタスクを進められる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Antigravity_x_ab552c6744/Antigravity_x_ab552c6744.jpg" alt="Antigravity x.jpg" /></p>
+<h2>作業手順を“知識パッケージ”として配布</h2>
+<p>Skillsは、エージェントに対して都度プロンプトで細かな指示を与えるのではなく、あらかじめ整理された作業マニュアル一式を参照させるための仕組みだ。単純な定型作業から、判断を伴う業務フローまでをSkillとして定義でき、同じSkillを複数のエージェントやプロジェクトで再利用できる点が特徴となる。</p>
+<h2>人が書き、エージェントが参照するための共通フォーマット</h2>
+<p>各Skillはフォルダー単位で構成され、その中核となるのがSKILL.mdファイルだ。SKILL.mdには、Skillの名称や概要、前提条件、具体的な手順などをYAML形式のフロントマターとして記載し、本文には作業手順をMarkdownで記述する。
+同じフォルダー内には、スクリプト、テンプレート、参考実装などの追加リソースを含めることができ、Skill全体として一体的に扱われる。</p>
+<h2>単純作業から業務フローまでを扱える設計</h2>
+<p>より複雑なSkillでは、「条件に応じて次の手順を切り替える」といった意思決定の分岐も記述可能だ。Antigravityでは、1つのSkillにつき目的を明確にし、説明文を具体的に書くことを推奨している。これにより、エージェントが必要な情報だけを参照しながら作業を進められる設計となっている。</p>
+<h2>先行するAnthropicの「Agent Skills」という発想</h2>
+<p>このSkillsの設計思想は、Anthropicが先行して提示してきた「Agent Skills」の考え方と重なる。Anthropicは、エージェントに現実的な業務能力を持たせるため、SKILL.mdを中心とした構造を採用し、2025年末には特定のプラットフォームに依存しないオープン標準として公開していた。
+GoogleがAntigravityでSkills対応を打ち出したことで、エージェントに与える作業手順やノウハウをツール横断で共有する流れが、主要プラットフォーム間で具体化しつつある。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIエージェント時代の購買基盤「Universal Commerce Protocol（UCP）」を発表──NRF 2026でエージェンティックコマース構想を提示</title>
       <link>https://ledge.ai/articles/google_nrf2026_universal_commerce_protocol_ucp_agentic_commerce</link>
       <description><![CDATA[<p>Googleは2026年1月11日（現地時間）、全米小売業協会（NRF）が主催する年次イベントNRF 2026において、AIエージェントが購買プロセスを担う「エージェンティックコマース（agentic commerce）」時代に向けた取り組みを<a href="https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/">発表</a>した。</p>
@@ -635,28 +653,6 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <p>また、経済分野では、AIが雇用や生産性に与える影響を職種・タスク単位で可視化する「AI経済ダッシュボード」が登場し、政策立案や企業経営に活用される可能性があるとされている。</p>
 <h2>人間中心のAI設計が問われる段階へ</h2>
 <p>HAIの研究者らは、AIが人間の思考力や判断力、長期的な成長に与える影響にも目を向ける必要があると指摘する。短期的な利便性や満足度ではなく、人間の能力をどのように補完し、育てるのかを前提とした設計思想が、今後のAI開発で重要になると結論づけている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>ユニバーサル・ミュージック、NVIDIAとAI分野で提携──数百万曲の公式カタログを基盤に「責任ある音楽AI」を共同開発</title>
-      <link>https://ledge.ai/articles/umg_nvidia_responsible_music_ai_partnership</link>
-      <description><![CDATA[<p>Universal Music Group（UMG）は2026年1月6日（現地時間）、NVIDIAと、音楽分野における「責任あるAI（Responsible AI）」の開発を目的とした協業を<a href="https://www.universalmusic.com/universal-music-group-to-transform-music-experience-for-billions-of-fans-with-nvidia-ai/">発表</a>した。</p>
-<p>NVIDIAのAIインフラと、数百万曲規模に及ぶUMGの公式音楽カタログを組み合わせ、音楽の発見、創造、ファンエンゲージメントを拡張する。</p>
-<p>UMGによると、今回の協業は、世界中で音楽を楽しむ数十億人のリスナー体験を高度化することを目的とするものだ。両社は共同で研究開発を進め、音楽創作の発展と、権利者への正当な対価還元を両立させることを共通の目標に掲げている。</p>
-<h2>音楽理解AI「Music Flamingo」を拡張</h2>
-<p>協業の中核となるのが、NVIDIAが開発する音楽理解AIモデル Music Flamingo だ。Music Flamingoは、最大15分に及ぶフルトラックを処理でき、ハーモニーや楽曲構造、音色、歌詞、文化的背景、感情の流れといった要素を総合的に理解する。</p>
-<p>UMGとNVIDIAは、このモデルをUMGの膨大な公式カタログに対応させることで、ジャンルやタグといった従来の分類を超え、楽曲の文脈や感情的ナラティブに基づいた新しい音楽発見体験の実現を目指すとしている。</p>
-<h2>ファン体験とアーティスト支援の両立</h2>
-<p>AI技術は、アーティストとファンの関係性を拡張する用途にも活用される。アーティストは自身の楽曲をより深く分析・表現できるツールを活用でき、ファン側は単なる検索やプレイリストを超えた、よりインタラクティブな音楽体験を得られるという。</p>
-<p>また、既存アーティストのエンゲージメント強化に加え、新進アーティストが適切なリスナーに発見される機会を広げる狙いもある。</p>
-<h2>アーティスト主導のAI開発体制</h2>
-<p>両社は、アーティスト、作曲家、プロデューサーが直接関与する専用のAIインキュベーターを設立する。実際の制作現場に即した形でAIツールを共同設計・検証し、独創性や真正性を重視した活用を進めることで、画一的なAI生成物を避ける方針だ。</p>
-<h2>著作権と帰属を重視した「責任あるAI」</h2>
-<p>UMGとNVIDIAは、AIの活用と同時に、著作権保護や楽曲の正確な帰属を重視する姿勢を強調している。AIによる音楽利用において、アーティストの権利を守りつつ、透明性と信頼性を確保することを協業の前提条件と位置付けた。</p>
-<h2>スタジオ資産も活用した研究体制</h2>
-<p>UMGのMusic &amp; Advanced Machine Learning Lab（MAML）は、これまでもNVIDIAのAIインフラを活用してきた。今回の協業では、Abbey Road Studios や Capitol Studios といった世界的スタジオも研究・制作環境として活用し、レーベルや出版社を含む幅広い関係者の知見を反映させる。</p>
-<p>UMGとNVIDIAは、公式音楽カタログを基盤としたAI活用を通じ、音楽産業における技術革新と権利保護の両立を図るとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
