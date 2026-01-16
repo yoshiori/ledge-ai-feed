@@ -78,50 +78,6 @@
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、新世代GUIエージェント「MAI-UI」を発表──AIエージェントによるスマートフォン操作で最高性能を記録</title>
-      <link>https://ledge.ai/articles/alibaba_mai_ui_gui_agent_mobile_operation_benchmark</link>
-      <description><![CDATA[<p>Alibaba GroupのAI研究組織であるTongyi Labは2025年12月26日、GUI（グラフィカル・ユーザー・インターフェース）を直接操作できる新たなAIエージェントモデル群「MAI-UI」を<a href="https://arxiv.org/abs/2512.22047">発表</a>した。</p>
-<p>MAI-UIは、スマートフォンやPCの画面を人間と同様に認識・操作することを目的としたモデル群で、GUI要素の認識（グラウンディング）と操作（ナビゲーション）に関する複数のベンチマークにおいて、最高水準の性能を記録したとしている。</p>
-<h2>GUIエージェントを前提に設計した統一アーキテクチャ</h2>
-<p>MAI-UIの最大の特徴は、GUIエージェントに必要とされる複数の能力を、単一の統一アーキテクチャとして設計している点にある。
-Tongyi Labによると、MAI-UIは以下の要素をネイティブに統合している。</p>
-<ul>
-<li>ユーザーとの対話による指示内容の補完</li>
-<li>MCP（Model Context Protocol）を用いた外部ツール呼び出し</li>
-<li>デバイス（端末）とクラウドの協調実行</li>
-<li>オンライン強化学習による長期タスク対応</li>
-</ul>
-<p><strong>■ MAI-UIの実行フロー例。GUI操作に加え、ユーザー確認（Call User）やMCPツール呼び出しを組み合わせてタスクを完了する構成を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/MAI_UI_x2_9b5d693101/MAI_UI_x2_9b5d693101.png" alt="MAI-UI x2.png" /></p>
-<p>この設計により、画面操作だけに依存する従来のGUIエージェントと比べ、操作回数の削減やタスク成功率の向上を図っているという。</p>
-<h2>デモで示されたスマートフォン操作能力</h2>
-<p>Tongyi Labが公開したデモ動画では、MAI-UIが画面表示を直接認識し、複数のアプリをまたいで操作を行う様子が示されている。</p>
-<p>MAI-UIは、アプリの内部APIに依存せず、画面上のボタンや入力欄を視覚的に把握し、タップ、入力、画面遷移を段階的に実行する。
-条件が不足している場合には、即座に処理を進めるのではなく、ユーザーに確認を求めた上で操作を継続する挙動も確認できる。</p>
-<p><strong>■ スマートフォンの鉄道予約アプリを操作するMAI-UIのデモ画面。左が実際の端末画面、右がエージェントの観測・判断・操作ログを示している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mai_ui2_c1213f283a/mai_ui2_c1213f283a.jpg" alt="mai-ui2.jpg" /></p>
-<p>一部の処理では、MCPツールを併用することで、UI操作をすべて画面経由で行うのではなく、効率的にタスクを進める構成が採られている。</p>
-<h2>デバイスとクラウドの役割分担</h2>
-<p>MAI-UIは、端末側で動作するローカルエージェントと、クラウド側のエージェントが役割分担する構成を採用している。
-基本的なGUI操作や進行管理は端末側で行い、タスク逸脱や高度な判断が必要な場合のみ、クラウド側が介入する設計だという。</p>
-<p><strong>■ 物件情報の比較とメッセージ送信を行うMAI-UIのタスク実行例。GUI操作とMCPツール呼び出しを組み合わせて処理している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x7_2_baee50d765/x7_2_baee50d765.png" alt="x7 (2).png" /></p>
-<p>この構成により、処理遅延の抑制やプライバシーへの配慮を両立させる狙いがあるとしている。</p>
-<h2>ベンチマークと実世界タスクへの対応</h2>
-<p>MAI-UIは、既存のGUI操作ベンチマーク「AndroidWorld」に加え、複数アプリをまたぐ長期・複合タスクを想定した新ベンチマーク「MobileWorld」でも評価が行われた。</p>
-<p><strong>■ MAI-UIのベンチマーク結果。ScreenSpot-Pro、AndroidWorld（SR）、MobileWorld（SR）において、既存モデルとの比較を示している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mai_ui_overview_b3fa56ca6b/mai_ui_overview_b3fa56ca6b.jpg" alt="mai-ui overview.jpg" /></p>
-<p>MobileWorldでは、ユーザーとの対話、MCPツール活用、第三者への情報共有など、実際の利用環境に近いタスクが設定されている。</p>
-<p><strong>■ 物件情報の比較とメッセージ送信を行うMAI-UIのタスク実行例。GUI操作とMCPツール呼び出しを組み合わせて処理している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x8_4e2d87bf9f/x8_4e2d87bf9f.png" alt="x8.png" /></p>
-<h2>公開モデルと今後の展開</h2>
-<p>MAI-UIのモデル群のうち、2B（20億）および8B（80億）パラメータのモデルはオープンソースとして公開されており、公式リポジトリやモデル配布プラットフォームから利用可能となっている。</p>
-<p>Tongyi Labは、MAI-UIを単一アプリ内の自動操作にとどまらない、実世界タスクに対応するGUIエージェントの基盤として位置付けている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KTR18H-kEXU">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claudeを医療・ライフサイエンス向けに拡張──診療支援から臨床試験までAI活用を本格化</title>
       <link>https://ledge.ai/articles/anthropic_claude_healthcare_life_sciences_expansion</link>
       <description><![CDATA[<p>米AI企業の Anthropic は2026年1月12日（現地時間）、同社の生成AI「Claude」において、医療およびライフサイエンス分野向けの機能拡張を<a href="https://www.anthropic.com/news/healthcare-life-sciences">発表</a>した。医療機関や保険者、研究者、個人利用者を対象に、医療データの要約・解釈から臨床試験、規制業務までを支援する専用機能を提供する。</p>
@@ -528,6 +484,17 @@ EWHは、以下の要素を1つの因果構造として結び付ける点が特�
 <h2>導入と今後の展開</h2>
 <p>Copilot Checkoutでは、Microsoft Merchant Centerの活用により、Copilot上での商品露出を最適化できる。Microsoftは、Agentic Commerce Protocol（ACP）といったオープンスタンダードの採用を進め、導入の簡素化とスケーラビリティを図る。</p>
 <p>今後はMastercardやVisaといった決済事業者とも連携し、AIを前提としたコマース基盤の拡張を進めるとしている。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本テレ自社開発のオンデバイスAI「viztrick AiDi」、NBC Sportsでライブ中継への採用が決定</title>
+      <link>https://ledge.ai/articles/ntv_viztrick_aidi_nbc_sports_live_adoption</link>
+      <description><![CDATA[<p>日本テレビ放送網株式会社は、自社開発した直感的オンデバイスAIソリューション「viztrick AiDi」が、米国の大手スポーツ放送ネットワークであるNBC Sportsに採用されたと<a href="https://tech.ntv.co.jp/news/nbc-sports-release/">発表</a>した。2026年以降、NBC Sportsが手がける複数のライブスポーツ中継での利用が予定されている。</p>
+<p>「viztrick AiDi」は、放送現場での実運用を前提に設計されたオンデバイス型AIソリューションで、ネットワーク接続に依存せず、低遅延でリアルタイム処理を行える点を特徴とする。ライブ映像から被写体となる選手を自動で抽出・追従し、スマートフォン視聴を想定した縦型（9:16）映像として即時に切り出すことが可能だ。</p>
+<p>近年、スポーツコンテンツの視聴はテレビ放送に加え、スマートフォンを中心としたデジタル配信が急速に拡大している。NBC Sportsでは、モバイル視聴に最適化された映像を効率的に制作する手法を模索しており、従来は人手によるカメラ操作や編集作業が必要だった。こうした課題に対し、放送現場で即応できる「viztrick AiDi」のオンデバイス処理と直感的な操作性が評価され、採用に至ったとしている。</p>
+<p>NBC Sportsの技術部門シニア・バイスプレジデントであるティム・カナリー氏は、ライブスポーツのストリーミング配信において、アスリートを自動追従しながら縦型映像をリアルタイムで生成できる点を重視したとコメントしている。特に、低遅延で安定した処理が可能な点が、ライブ中継用途に適していると判断したという。</p>
+<p>日本テレビ側は、世界有数のスポーツ放送事業者であるNBC Sportsに技術が採用されたことを、グローバル展開に向けた重要な実績と位置付けている。同社は中期経営計画（2025〜2027）で「グローバルコンテンツ企業への変革」を掲げており、海外戦略センター内に設置したTech事業部門を通じて、放送現場発のAI技術を海外市場へ展開していく方針だ。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
