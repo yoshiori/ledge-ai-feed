@@ -198,37 +198,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>AIは主役から基盤へ──CES 2026で示された「実装段階」に入ったテクノロジーの姿</title>
-      <link>https://ledge.ai/articles/ces2026_ai_design_embedded_devices</link>
-      <description><![CDATA[<p>世界最大級のテクノロジー見本市「CES 2026」は、2026年1月6日から9日まで、米国ネバダ州ラスベガスで<a href="https://www.ces.tech/press-releases/ces-2026-the-future-is-here">開催された</a>。主催するConsumer Technology Association（CTA）は、今回のCESを「The Future Is Here（未来はすでにここにある）」と位置づけ、先端技術が構想や実験段階を越え、現実の製品やサービスとして展開されるフェーズに入ったことを強調した。
-展示会場では、AIが単独の主役として語られるのではなく、PC、デジタルヘルス、モビリティ、日用品など幅広い分野に組み込まれ、生活や仕事のあり方を具体的に変える基盤技術として提示された。</p>
-<p>CES 2026で示されたのは、AIが主役として語られるフェーズを越え、製品や体験の設計思想そのものに組み込まれていく段階に入った姿だった。編集部では、こうした移り変わりを象徴するようなデバイスをいくつかピックアップした。いずれも「AI搭載」を強調するより、計算や推論が製品の内部に溶け込み、使い方そのものを形づくっている点が共通している。これらの製品を通じて、CES 2026で示された“実装段階”の姿を見ていく。</p>
-<h2>キーボード一体型AI PC：HP EliteBoard G1a</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/v2_2026_hpeliteboardg1anextgenaipc_hpeliteboard_primary_826008a117/v2_2026_hpeliteboardg1anextgenaipc_hpeliteboard_primary_826008a117.webp" alt="v2_2026_hpeliteboardg1anextgenaipc-hpeliteboard_primary.webp" /></p>
-<p>HPは、キーボード一体型のAI PC「EliteBoard G1a」を<a href="https://www.ces.tech/ces-innovation-awards/2026/hp-eliteboard-g1a-next-gen-ai-pc/">発表</a>した。外観はフルサイズキーボードに近いが、内部にCPUに加えてNPUを含む演算基盤を搭載し、外付けディスプレイと接続して使用する構成となっている。本製品はローカルでのAI処理を前提に設計されており、クラウドに依存せず、生成AIや要約、分析といったAIタスクを端末側で実行する用途を想定している。画面を本体から切り離すことで、AI処理を担う計算ユニットを机上に集約する設計思想が示された。
-本製品はCES Innovation Awards 2026にも選出されている。</p>
-<p><strong>PC → 生活空間AIへの転換</strong>
-PC領域でのローカルAI処理を前提とした設計が示された一方で、CES 2026では、AIがディスプレイや入力装置の枠を越え、生活空間そのものに組み込まれる例も複数見られた。</p>
-<h2>AIコンパニオン：Lepro Ami</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Lepro_Ami_70cd5a7695/Lepro_Ami_70cd5a7695.jpg" alt="Lepro_Ami.jpg" /></p>
-<p>Leproは、デスクトップ型AIコンパニオン「Lepro Ami」を<a href="https://www.newswire.ca/news-releases/lepro-unveils-lepro-ami-at-ces-2026-a-desktop-ai-companion-that-feels-in-the-room--847670849.html">公開</a>した。公式説明によると、Amiは音声入力や周囲の環境情報をAIが解釈し、利用者との対話や反応を行うことを目的としたデバイスである。画面操作を中心とする従来のAIとは異なり、空間内での存在感や応答性を重視した設計が特徴とされる。AI処理の一部はローカルで行う構成が示されており、プライバシーへの配慮も設計要素として挙げられている。日常空間に常駐するAIの形を提示するデバイスとして位置づけられている。</p>
-<p><strong>空間AI → 個人データ／ライフログ</strong>
-空間に常駐するAIに加え、CES 2026では、個人の行動や状態を継続的に捉えるAIを想定したデバイスも提示された。AIを“使う”存在ではなく、“常にそばにある前提”で設計する動きが浮かび上がる。</p>
-<h2>AIライフログ・ペンダント：Motorola Project Maxwell</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Maxwell_Photo_7_1536x1024_36f46681ba/Maxwell_Photo_7_1536x1024_36f46681ba.jpg" alt="Maxwell-Photo-7-1536x1024.jpg" /></p>
-<p>Motorolaは、AIライフログデバイス「Project Maxwell」を研究プロジェクトとして<a href="https://motorolanews.com/motorola-unveils-new-flagship-devices-and-ai-powered-innovation-at-lenovo-tech-world-2026/">紹介</a>している。ペンダント型デバイスとして構想されており、利用者が見聞きしている情報をAIが理解・整理することを目的とする。公式リリースでは、視覚や音声といった日常環境データをAIが解析し、個人に合わせた体験や支援につなげる構想が示されている。AIは常時稼働するアシスタントとして振る舞うことを想定しており、Motorola 312 Labsによる実験的な取り組みの一環として位置づけられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G_EPFK_2a_MAA_Vy_Iy_216a72ad1f/G_EPFK_2a_MAA_Vy_Iy_216a72ad1f.jpg" alt="G-EPFK2aMAAVyIy.jpg" /></p>
-<p><strong>ライフログ → デジタルヘルス</strong>
-こうした流れは、デジタルヘルス分野でも顕著だった。CES 2026では、ウェアラブルや医療機器に限らず、日常的な動作や映像を起点に健康状態を把握しようとするアプローチが広がりを見せた。</p>
-<h2>ミラー型デバイス：NuraLogix「Longevity Mirror」</h2>
-<p>デジタルヘルス技術企業NuraLogixは、ミラー型デバイス「Longevity Mirror」を<a href="https://www.linkedin.com/posts/nuralogix-corporation_ai-longevity-healthtech-activity-7414349139225788416-Ne-N">公開</a>した。製品では、30秒のセルフィービデオをAIが解析し、血流変化などの映像情報から健康関連指標を推定する。同社によると、AIは映像データをもとに「Longevity Index（LIX）」を算出し、心血管疾患リスクや代謝の健康、精神的ストレスなど5つの生理学的領域を統合的に評価するという。ウェアラブルや物理センサーを用いず、カメラ映像とAI解析のみで健康状態の把握を試みる点が特徴とされている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=dDem2hR4_1E">YouTube</a></p>
-<p>CES 2026には、約14万8,000人が来場し、4,100社以上（うち約1,200社がスタートアップ）が出展した。CTAのGary Shapiro氏は、CESを「世界で最も強力なイノベーションの実証の場」と位置づけ、技術がビジネスや政策、社会と結びつく場であると説明している。また、Kinsey Fabrizio氏は、AIをはじめとする技術がビジョンから実用段階へと移行している点を強調した。
-AIが話題の中心となった過去数年を経て、2026年はAIを含む先端技術が、実体あるプロダクトや産業の中で役割を担い始めた段階を示すCESとなった。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>核融合炉「SPARC」の開発をAIデジタルツインで加速―—Commonwealth Fusion Systems、NVIDIA・シーメンスと連携</title>
       <link>https://ledge.ai/articles/cfs_sparc_ai_digital_twin_nvidia_siemens</link>
       <description><![CDATA[<p>核融合スタートアップの Commonwealth Fusion Systems（CFS） は2026年1月6日、NVIDIA および Siemens と提携し、実証用核融合炉 SPARC の設計・開発をAI主導で加速するデジタルツインを構築すると<a href="https://cfs.energy/news-and-media/commonwealth-fusion-systems-accelerates-commercial-fusion-with-siemens-and-nvidia-leveraging-ai-powered-digital-twins">発表</a>した。AIとシミュレーションを中核に据え、従来は物理試験に大きく依存していた核融合炉開発のプロセスを仮想空間上で統合・高速化する。</p>
