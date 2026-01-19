@@ -171,33 +171,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>英アーム、「フィジカルAI」部門を新設──ロボット市場に照準、CESで組織再編を表明</title>
-      <link>https://ledge.ai/articles/arm_physical_ai_robotics_ces2026</link>
-      <description><![CDATA[<p>英半導体設計大手のArmは、米ラスベガスで開催中のCESの会場で、「Physical AI（フィジカルAI）」部門を新設するため、全社組織を再編したと明らかにした。複数の同社幹部が<a href="https://www.reuters.com/business/autos-transportation/arm-launches-physical-ai-division-expand-robotics-market-2026-01-07/">Reuters</a>の取材に応じた。</p>
-<p>Armは今回の組織再編で、AI戦略の軸足を物理世界へと広げた。新設されるPhysical AI部門は、ロボティクス市場への展開を主眼に据え、自動車分野とあわせて統合的に扱う。</p>
-<h2>組織再編の中身──Cloud、Edge、そしてPhysical AIへ</h2>
-<p>Armは今後、事業を以下の3つの主要部門で運営する。</p>
-<ul>
-<li>Cloud and AI</li>
-<li>Edge（モバイル端末やPC向け製品を含む）</li>
-<li>Physical AI</li>
-</ul>
-<p>Physical AI部門には、従来の自動車事業が組み込まれ、ロボティクスと車載分野を一体で扱う構成とした。ロボット分野への本格展開に向け、専任人員の増員も計画している。</p>
-<h2>ロボットと自動車を一体で捉える、Armの設計思想</h2>
-<p>同社幹部は、ロボットと自動車がPhysical AIの中核をなす理由として、両分野が共通の技術要件を持つ点を挙げた。センサー技術、電力制約、安全性や信頼性といった条件が近く、同一の設計思想で対応できる領域だとしている。</p>
-<h2>「労働を拡張する市場」──新部門責任者が描くロボット像</h2>
-<p>新設されたPhysical AI部門を率いるDrew Henry氏は、Physical AIについて、労働を根本的に補完し、人々の可処分時間を生み出す可能性があると説明した。こうした変化は、結果として国内総生産（GDP）にも影響を与え得るとの認識を示した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=OHQJsiS4onk">Youtube</a></p>
-<p>また、最高マーケティング責任者（CMO）のAmi Badani氏は、ロボティクス分野に人材を重点投入する方針を明らかにしている。</p>
-<h2>壮大なビジョンと足元の一手──Arm公式が描くPhysical AI</h2>
-<p>Armは<a href="https://newsroom.arm.com/blog/the-next-platform-shift-physical-and-edge-ai-powered-by-arm">公式ブログ</a>で、Physical AIをクラウド上のAIが現実世界で行動できる段階へ進む「次のプラットフォーム転換」と位置づけている。ロボットや車両、XR（拡張現実）機器など、物理空間で動作するAI全般を射程に入れる構想だ。一方、Reutersの報道では、その中でも最初の成長市場としてロボット分野を明確に打ち出した点が特徴となっている。</p>
-<p>CES 2026では、多くの企業がヒューマノイドや産業用ロボットを披露した。自動車メーカーやIT大手もロボット分野への関与を強めており、Armの組織再編は、展示の延長ではなく、ロボット市場を見据えた中長期の経営判断として位置づけられる。</p>
-<h2>ロボット市場に照準──Armが選んだPhysical AIの最初の到達点</h2>
-<p>ArmはCES 2026の場で、「フィジカルAI」部門を新設し、ロボット市場に照準を定めた組織再編を初めて明らかにした。生成AIを中心とするクラウドの次の段階として、物理世界で動作するAIを成長ドライバーとする姿勢が浮き彫りとなった。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>独Black Forest Labs、画像生成AI「FLUX.2[klein]」を公開　生成・編集を統合し1秒未満の高速推論を実現</title>
       <link>https://ledge.ai/articles/black_forest_labs_flux2_klein_release</link>
       <description><![CDATA[<p>Black Forest Labsは2026年1月15日、画像生成AIモデルファミリー「FLUX.2」から、高速・統合型モデルFLUX.2[klein]を<a href="https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence">発表</a>した。</p>
@@ -359,6 +332,28 @@ AIエージェント、EC事業者、決済サービス、プラットフォー�
 <h2>検索・広告・ECを横断する再設計</h2>
 <p>今回の発表は、単一の新製品や機能にとどまらず、検索、広告、コマースをAIエージェント前提で再設計するGoogleの方向性を示すものとなった。</p>
 <p>Googleは、UCPを軸としたオープンなエコシステムを通じて、AIが購買の主体となる時代における小売体験の基盤づくりを進めるとしている。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Gemma 3基盤の翻訳モデル群「TranslateGemma」を発表―—55言語対応のオープン翻訳AI、軽量モデルから高精度モデルまで提供</title>
+      <link>https://ledge.ai/articles/google_translategemma_gemma3_open_translation_models</link>
+      <description><![CDATA[<p>Googleは2026年1月15日（現地時間）、同社のオープン基盤モデル「Gemma 3」をベースにした翻訳特化モデル群「TranslateGemma」を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/">発表</a>した。55の言語を対象とし、効率と精度を両立したオープンな機械翻訳モデルとして公開された。研究者や開発者が自由に利用できるオープンウェイトモデルとして公開される。</p>
+<p>Googleによると、TranslateGemmaは大規模言語モデルを汎用的に利用するのではなく、翻訳タスクに特化した学習と最適化を行うことで、精度と計算効率の両立を図った点が特徴だという。</p>
+<p><strong>■ TranslateGemmaは、4B・12B・27Bの3つのパラメータサイズで提供され、デバイスや用途に応じた翻訳モデルの選択が可能とされている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translategemma_9695a89365/translategemma_9695a89365.jpg" alt="translategemma.jpg" /></p>
+<h2>3つのモデルサイズを提供</h2>
+<p>TranslateGemmaは用途に応じて選択可能な複数のモデルサイズで構成されている。
+比較的軽量なモデルはエッジデバイスやローカル環境での利用を想定しており、一方で大規模モデルはGPU環境での高精度翻訳を前提としている。Googleは、中規模クラスのモデルでも高い翻訳品質を実現しているとしている。</p>
+<p><strong>■  言語ファミリー別の翻訳エラー率比較。TranslateGemma 12Bは、多くの言語群でGemma 3 27Bに近い、またはそれを下回るエラー率を示している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_14_Chart_v3_width_1000_format_webp_ca763b5b1b/01_14_Chart_v3_width_1000_format_webp_ca763b5b1b.webp" alt="01-14_Chart_v3.width-1000.format-webp.webp" /></p>
+<h2>日本語を含む55言語に対応</h2>
+<p>対応言語には日本語を含む主要言語に加え、これまで翻訳リソースが限られていた中・低リソース言語も含まれる。Googleは、多言語対応を通じて研究用途や地域特化サービスへの応用を促進したい考えだ。</p>
+<h2>マルチモーダル能力も継承</h2>
+<p>TranslateGemmaは、基盤となるGemma 3の設計を引き継ぎ、テキスト翻訳に加えて画像内テキストの翻訳など、マルチモーダルなユースケースにも対応可能とされている。これにより、文書画像やスクリーンショットを含む翻訳処理にも応用できるという。</p>
+<h2>オープンウェイトとして公開</h2>
+<p>モデルの重みはオープンに提供され、開発者はローカル環境やクローズドなシステム内で翻訳モデルを実行・調整できる。Googleは、クラウド依存を避けたいケースや、特定ドメイン・言語ペア向けのカスタマイズ需要を想定している。</p>
+<p>GoogleはTranslateGemmaについて、研究用途だけでなく、プロダクトや業務システムへの組み込みなど、幅広い活用を見込んでいるとしている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
