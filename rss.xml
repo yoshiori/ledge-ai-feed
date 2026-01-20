@@ -41,32 +41,6 @@
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>現在の生成AI勢力図はどこからどのように生まれたのか？──Google起点の系譜を可視化した「AI Mafia」</title>
-      <link>https://ledge.ai/articles/ai_mafia_google_ai_talent_network</link>
-      <description><![CDATA[<p>生成AIを牽引する研究者や起業家たちは、どこから生まれ、どのようにつながってきたのか。
-個人開発者のDipak Wani氏が公開したインタラクティブ可視化「<a href="https://dipakwani.com/ai-mafia/">AI Mafia</a>」は、Googleを起点とするAI人材の系譜をネットワーク図として可視化した試みとして注目を集めている。</p>
-<p>「AI Mafia」は、人物、企業、研究組織などをノードとして配置し、それらの関係性を線で結んだインタラクティブなネットワーク図だ。閲覧者はノードを操作することで、特定の研究者がどの組織に所属し、どの企業や研究と結びついてきたのかを辿ることができる。生成AI分野を形作ってきた人材の流れを、構造として俯瞰できる点が特徴となっている。</p>
-<h2>Googleに集結したAI人材──2010年代前半の「集中」</h2>
-<p>この可視化の背景にあるのが、米国の人気ビジネス系ポッドキャスト「Acquired」が2025年秋に公開したエピソード「<a href="https://www.youtube.com/watch?v=lCEB7xHer5U">Google: The AI Company</a>」で整理されたAI史だ。同エピソードでは、現在の生成AI革命を担う人材の多くが、2010年代前半に一度Googleへ集結していたことが語られている。</p>
-<p>@<a href="https://https://www.youtube.com/watch?v=lCEB7xHer5U">YouTube</a></p>
-<p>2012年のImageNetコンペティションで勝利し、深層学習の転換点を作ったジェフ・ヒントン教授と、その教え子であるアレックス・クリジェフスキー、イリヤ・サツケヴァーらは、スタートアップ「DNN Research」を通じてGoogleに加わった。ほぼ同時期に、デミス・ハサビスらが創業したDeepMindも2014年にGoogleに買収され、優秀な研究者集団がGoogle傘下に入った。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hinton_dnn_hassabis_deepmind_723429abc4/hinton_dnn_hassabis_deepmind_723429abc4.jpg" alt="hinton dnn hassabis deepmind.jpg" /></p>
-<p>さらに、アンドリュー・ン氏やジェフ・ディーン氏らを中心に、Google内部では「Google Brain」が立ち上げられた。Acquiredではこの時期を、かつてIBMがコンピュータ時代初期にプログラマーを一手に集めていた状況になぞらえ、AI分野の人材と計算資源がGoogleに強く集中していた段階として位置づけている。</p>
-<h2>OpenAIの設立と最初の人材流出</h2>
-<p>こうした集中構造に変化をもたらしたのが、2015年前後のOpenAI設立だ。イーロン・マスク氏やサム・アルトマン氏らは、GoogleがAI研究と計算資源を事実上独占している状況に危機感を示し、対抗的な研究組織としてOpenAIを立ち上げた。
-多くの研究者がGoogleに留まる中で、最初に大きな動きを見せたのがイリヤ・サツケヴァー氏だった。同氏はGoogleを離れ、OpenAIの創業メンバーとして参加し、後に同社の技術的中核を担う存在となった。この動きは、AI人材がGoogleから外部へ流出し始めた象徴的な出来事とされている。</p>
-<h2>Transformer論文が加速させた分岐</h2>
-<p>人材流動を決定的に加速させたのが、2017年にGoogleの研究者らが発表した論文「Attention Is All You Need」、いわゆるTransformer論文だ。現在の生成AIの基盤となるこの技術はGoogle内部で生まれたが、製品化には慎重な姿勢が取られた。</p>
-<p>その結果、論文の共著者たちは数年以内に相次いでGoogleを退職し、スタートアップを創業したり、競合企業へ移籍したりしていった。主要著者の一人であるノーム・シャジール氏は、社内でのチャットボット公開が認められなかったことを背景に退職し、Character.AIを創業した例として知られる。</p>
-<p><strong>Transformer論文著者たちのその後</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/after_transformer_6288345452/after_transformer_6288345452.jpg" alt="after transformer.jpg" /></p>
-<h2>現在の生成AI勢力図へとつながる人材の流れ</h2>
-<p>現在の生成AI業界を代表する企業の多くは、こうした流れの延長線上にある。OpenAIはサツケヴァー氏ら元Google研究者が技術基盤を築き、AnthropicはOpenAIからスピンアウトしたダリオ・アモデイ氏（元Google Brain）らによって設立された。DeepMindの共同創業者であるムスタファ・スレイマン氏はInflection AIを経て、現在はMicrosoftのAI部門を率いている。</p>
-<p>Dipak Wani氏の「AI Mafia」は、これらの人材の集中と分岐の歴史を、一枚のインタラクティブな図として可視化したものだ。2025年10月下旬に<a href="https://news.ycombinator.com/item?id=45715819">Hacker News</a>上で作者本人によって公開され、年末から年始にかけてテック系コミュニティで共有が広がった。研究成果の優劣を示すものではないが、生成AI時代のエコシステムがどのような人材の流れによって形作られてきたのかを理解する手がかりとして参照されている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claudeを医療・ライフサイエンス向けに拡張──診療支援から臨床試験までAI活用を本格化</title>
       <link>https://ledge.ai/articles/anthropic_claude_healthcare_life_sciences_expansion</link>
       <description><![CDATA[<p>米AI企業の Anthropic は2026年1月12日（現地時間）、同社の生成AI「Claude」において、医療およびライフサイエンス分野向けの機能拡張を<a href="https://www.anthropic.com/news/healthcare-life-sciences">発表</a>した。医療機関や保険者、研究者、個人利用者を対象に、医療データの要約・解釈から臨床試験、規制業務までを支援する専用機能を提供する。</p>
@@ -167,37 +141,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
 <h2>量子化と最適化</h2>
 <p>FLUX.2[klein]の蒸留モデルおよびBaseモデルを含む全バリアントは、FP8およびNVFP4量子化に対応しており、NVIDIAのRTX GPU向けに最適化されている。これにより推論速度の向上とVRAM使用量の削減を両立したとしている。</p>
 <p>Black Forest Labsは、FLUX.2[klein]をリアルタイム生成や高頻度処理を前提としたモデルとして位置づけ、より大規模なモデルと使い分けることで、用途に応じたAI画像生成基盤の構築を可能にするとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIは主役から基盤へ──CES 2026で示された「実装段階」に入ったテクノロジーの姿</title>
-      <link>https://ledge.ai/articles/ces2026_ai_design_embedded_devices</link>
-      <description><![CDATA[<p>世界最大級のテクノロジー見本市「CES 2026」は、2026年1月6日から9日まで、米国ネバダ州ラスベガスで<a href="https://www.ces.tech/press-releases/ces-2026-the-future-is-here">開催された</a>。主催するConsumer Technology Association（CTA）は、今回のCESを「The Future Is Here（未来はすでにここにある）」と位置づけ、先端技術が構想や実験段階を越え、現実の製品やサービスとして展開されるフェーズに入ったことを強調した。
-展示会場では、AIが単独の主役として語られるのではなく、PC、デジタルヘルス、モビリティ、日用品など幅広い分野に組み込まれ、生活や仕事のあり方を具体的に変える基盤技術として提示された。</p>
-<p>CES 2026で示されたのは、AIが主役として語られるフェーズを越え、製品や体験の設計思想そのものに組み込まれていく段階に入った姿だった。編集部では、こうした移り変わりを象徴するようなデバイスをいくつかピックアップした。いずれも「AI搭載」を強調するより、計算や推論が製品の内部に溶け込み、使い方そのものを形づくっている点が共通している。これらの製品を通じて、CES 2026で示された“実装段階”の姿を見ていく。</p>
-<h2>キーボード一体型AI PC：HP EliteBoard G1a</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/v2_2026_hpeliteboardg1anextgenaipc_hpeliteboard_primary_826008a117/v2_2026_hpeliteboardg1anextgenaipc_hpeliteboard_primary_826008a117.webp" alt="v2_2026_hpeliteboardg1anextgenaipc-hpeliteboard_primary.webp" /></p>
-<p>HPは、キーボード一体型のAI PC「EliteBoard G1a」を<a href="https://www.ces.tech/ces-innovation-awards/2026/hp-eliteboard-g1a-next-gen-ai-pc/">発表</a>した。外観はフルサイズキーボードに近いが、内部にCPUに加えてNPUを含む演算基盤を搭載し、外付けディスプレイと接続して使用する構成となっている。本製品はローカルでのAI処理を前提に設計されており、クラウドに依存せず、生成AIや要約、分析といったAIタスクを端末側で実行する用途を想定している。画面を本体から切り離すことで、AI処理を担う計算ユニットを机上に集約する設計思想が示された。
-本製品はCES Innovation Awards 2026にも選出されている。</p>
-<p><strong>PC → 生活空間AIへの転換</strong>
-PC領域でのローカルAI処理を前提とした設計が示された一方で、CES 2026では、AIがディスプレイや入力装置の枠を越え、生活空間そのものに組み込まれる例も複数見られた。</p>
-<h2>AIコンパニオン：Lepro Ami</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Lepro_Ami_70cd5a7695/Lepro_Ami_70cd5a7695.jpg" alt="Lepro_Ami.jpg" /></p>
-<p>Leproは、デスクトップ型AIコンパニオン「Lepro Ami」を<a href="https://www.newswire.ca/news-releases/lepro-unveils-lepro-ami-at-ces-2026-a-desktop-ai-companion-that-feels-in-the-room--847670849.html">公開</a>した。公式説明によると、Amiは音声入力や周囲の環境情報をAIが解釈し、利用者との対話や反応を行うことを目的としたデバイスである。画面操作を中心とする従来のAIとは異なり、空間内での存在感や応答性を重視した設計が特徴とされる。AI処理の一部はローカルで行う構成が示されており、プライバシーへの配慮も設計要素として挙げられている。日常空間に常駐するAIの形を提示するデバイスとして位置づけられている。</p>
-<p><strong>空間AI → 個人データ／ライフログ</strong>
-空間に常駐するAIに加え、CES 2026では、個人の行動や状態を継続的に捉えるAIを想定したデバイスも提示された。AIを“使う”存在ではなく、“常にそばにある前提”で設計する動きが浮かび上がる。</p>
-<h2>AIライフログ・ペンダント：Motorola Project Maxwell</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Maxwell_Photo_7_1536x1024_36f46681ba/Maxwell_Photo_7_1536x1024_36f46681ba.jpg" alt="Maxwell-Photo-7-1536x1024.jpg" /></p>
-<p>Motorolaは、AIライフログデバイス「Project Maxwell」を研究プロジェクトとして<a href="https://motorolanews.com/motorola-unveils-new-flagship-devices-and-ai-powered-innovation-at-lenovo-tech-world-2026/">紹介</a>している。ペンダント型デバイスとして構想されており、利用者が見聞きしている情報をAIが理解・整理することを目的とする。公式リリースでは、視覚や音声といった日常環境データをAIが解析し、個人に合わせた体験や支援につなげる構想が示されている。AIは常時稼働するアシスタントとして振る舞うことを想定しており、Motorola 312 Labsによる実験的な取り組みの一環として位置づけられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G_EPFK_2a_MAA_Vy_Iy_216a72ad1f/G_EPFK_2a_MAA_Vy_Iy_216a72ad1f.jpg" alt="G-EPFK2aMAAVyIy.jpg" /></p>
-<p><strong>ライフログ → デジタルヘルス</strong>
-こうした流れは、デジタルヘルス分野でも顕著だった。CES 2026では、ウェアラブルや医療機器に限らず、日常的な動作や映像を起点に健康状態を把握しようとするアプローチが広がりを見せた。</p>
-<h2>ミラー型デバイス：NuraLogix「Longevity Mirror」</h2>
-<p>デジタルヘルス技術企業NuraLogixは、ミラー型デバイス「Longevity Mirror」を<a href="https://www.linkedin.com/posts/nuralogix-corporation_ai-longevity-healthtech-activity-7414349139225788416-Ne-N">公開</a>した。製品では、30秒のセルフィービデオをAIが解析し、血流変化などの映像情報から健康関連指標を推定する。同社によると、AIは映像データをもとに「Longevity Index（LIX）」を算出し、心血管疾患リスクや代謝の健康、精神的ストレスなど5つの生理学的領域を統合的に評価するという。ウェアラブルや物理センサーを用いず、カメラ映像とAI解析のみで健康状態の把握を試みる点が特徴とされている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=dDem2hR4_1E">YouTube</a></p>
-<p>CES 2026には、約14万8,000人が来場し、4,100社以上（うち約1,200社がスタートアップ）が出展した。CTAのGary Shapiro氏は、CESを「世界で最も強力なイノベーションの実証の場」と位置づけ、技術がビジネスや政策、社会と結びつく場であると説明している。また、Kinsey Fabrizio氏は、AIをはじめとする技術がビジョンから実用段階へと移行している点を強調した。
-AIが話題の中心となった過去数年を経て、2026年はAIを含む先端技術が、実体あるプロダクトや産業の中で役割を担い始めた段階を示すCESとなった。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
@@ -619,34 +562,6 @@ A: ぜひ伝えたいのは、「5年前にAMDのGPUを試して『まだ熟成�
 <p>同社はこの取り組みを <strong>「The ChatGPT Moment for Quantum（量子技術のChatGPTモーメント）」</strong> と表現している。これは、生成AIが対話型インターフェースを通じて専門領域から一般ユーザーへと急速に普及した転換点になぞらえたもので、量子技術においても、専門知識を前提としない形で実用的な問題解決に触れられる段階に入ることを意味すると説明している。</p>
 <p>ChatQLMの中核には、同社独自の「Quantum Leveraged Model（QLM）」が採用されている。自然言語で入力された課題を解析し、最適化ソルバー、量子アニーリング方式の量子計算機、ゲート型量子コンピュータ、あるいはNVIDIAベースの古典的スーパーコンピューティングクラスタなど、最適な計算基盤へ自動的にルーティングする仕組みだ。ユーザーは量子物理やプログラミングの専門知識を必要とせず、結果としてデータに基づく意思決定や可視化された最適化結果を得られるとしている。</p>
 <p>同社はChatQLMを「世界初の量子搭載コンシューマーアプリ」とうたっているが、現時点で第三者機関による公式な認定については言及していない。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>AGIは来ない、バブルは続かない──スタンフォード大 HAI研究所が示す2026年のAI、過剰期待の時代は終わり、評価フェーズへ</title>
-      <link>https://ledge.ai/articles/stanford_hai_ai_2026_evaluation_phase</link>
-      <description><![CDATA[<p>巨額投資と急速な技術進展が続いてきたAI分野は、2026年に転機を迎える可能性がある。Stanford Human-Centered AI Institute（HAI）は2025年12月15日（米国時間）、同研究所に所属する研究者らの予測をまとめた記事を<a href="https://hai.stanford.edu/news/stanford-ai-experts-predict-what-will-happen-in-2026">発表</a>し、AIをめぐる議論は「できるかどうか」から「どの程度役に立つのか」を問う評価フェーズへ移行するとの見方を示した。</p>
-<p>同記事では、計算機科学、医学、法学、経済学など複数分野の研究者が共通して、過剰な期待や宣伝が先行してきたAI開発のあり方に転換点が訪れていると指摘している。</p>
-<h2>AGIは2026年にも実現しない、AI主権が主要テーマに</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/James20_Fall202022_aefa4ec674/James20_Fall202022_aefa4ec674.webp" alt="James20Fall202022.webp" /></p>
-<p>HAI共同ディレクターで計算機科学教授のJames Landay氏は、2026年に汎用人工知能（AGI）が実現することはないと明言した。その上で、各国が自国のデータや計算資源を管理する「AI主権（AI Sovereignty）」への関心が急速に高まると予測している。</p>
-<p>AI主権の形は一様ではなく、自国で大規模言語モデル（LLM）を構築するケースもあれば、他国が開発したモデルを自国内のGPU上で運用し、データを国外に出さない方式も含まれる。HAIでは、こうした複数の主権モデルを整理・分析する研究にも取り組んでいるという。</p>
-<p>一方で、世界各地で進む大規模データセンター投資については、投機的な側面も指摘されている。Landay氏は、AI関連投資が無制限に拡大し続けるわけではなく、バブル的な様相が意識される局面に入るとの見解を示した。</p>
-<h2>生産性向上は限定的、失敗するAIプロジェクトが増加</h2>
-<p>2026年には、AIがもたらす生産性向上について、より冷静な評価が広がるとみられている。プログラミング支援やコールセンター業務など一部の領域では効果が確認される一方、多くのAI導入プロジェクトは期待した成果を上げられない可能性があると指摘された。</p>
-<p>その結果、企業や組織は「AIをどこに適用すべきか」という選別を迫られ、成功確率の高い用途に資源を集中させる動きが強まるとみられる。</p>
-<h2>巨大モデルの限界と、高品質データ重視への転換</h2>
-<p>HAIの研究者らは、モデルの巨大化が必ずしも性能向上につながらなくなりつつある点にも言及している。データの量的枯渇や品質低下が課題となる中、より小規模でも高品質なデータセットを用いたモデル開発への関心が高まると予測されている。</p>
-<p>この流れは、計算資源や環境負荷への懸念とも結びつき、AI開発の効率性を重視する方向性を後押しする可能性がある。</p>
-<h2>医療・科学分野で進む「ブラックボックス」の解体</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/russ_altman_1_be03daceca/russ_altman_1_be03daceca.webp" alt="russ_altman_1.webp" /></p>
-<p>科学・医療分野では、AIモデルの予測精度だけでなく、なぜその結論に至ったのかを説明できることが強く求められるようになる。HAI上級フェローのRuss Altman氏は、高性能なニューラルネットワーク内部を解析し、重要な特徴や判断根拠を明らかにする研究が進展すると見ている。</p>
-<p>医療分野では、自己教師あり学習の進展により、大規模かつ高品質な医療データを用いた基盤モデルが登場し、診断精度の向上や希少疾患への応用が広がる可能性も示された。</p>
-<h2>法務、経済分野でも「測るAI」へ</h2>
-<p>法務分野では、「文章を書けるか」ではなく、正確性やリスク、業務効率への寄与といった具体的な成果を評価する指標が重視される見通しだ。複数文書を横断して推論する高度なタスクに対応するAIの評価手法も整備されつつある。</p>
-<p>また、経済分野では、AIが雇用や生産性に与える影響を職種・タスク単位で可視化する「AI経済ダッシュボード」が登場し、政策立案や企業経営に活用される可能性があるとされている。</p>
-<h2>人間中心のAI設計が問われる段階へ</h2>
-<p>HAIの研究者らは、AIが人間の思考力や判断力、長期的な成長に与える影響にも目を向ける必要があると指摘する。短期的な利便性や満足度ではなく、人間の能力をどのように補完し、育てるのかを前提とした設計思想が、今後のAI開発で重要になると結論づけている。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
