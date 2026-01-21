@@ -123,6 +123,32 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
+      <title>核融合炉「SPARC」の開発をAIデジタルツインで加速―—Commonwealth Fusion Systems、NVIDIA・シーメンスと連携</title>
+      <link>https://ledge.ai/articles/cfs_sparc_ai_digital_twin_nvidia_siemens</link>
+      <description><![CDATA[<p>核融合スタートアップの Commonwealth Fusion Systems（CFS） は2026年1月6日、NVIDIA および Siemens と提携し、実証用核融合炉 SPARC の設計・開発をAI主導で加速するデジタルツインを構築すると<a href="https://cfs.energy/news-and-media/commonwealth-fusion-systems-accelerates-commercial-fusion-with-siemens-and-nvidia-leveraging-ai-powered-digital-twins">発表</a>した。AIとシミュレーションを中核に据え、従来は物理試験に大きく依存していた核融合炉開発のプロセスを仮想空間上で統合・高速化する。</p>
+<h2>AIと産業ソフトウェアを統合したデジタルツイン</h2>
+<p>CFSが構築するデジタルツインは、NVIDIAのAIおよび物理シミュレーションライブラリと、Siemensの設計・製造向けソフトウェア群を統合したものとなる。</p>
+<p>SiemensのNXやTeamcenterを中心とする設計・PLM（製品ライフサイクル管理）ツールで作成されたデータを、NVIDIAのシミュレーション基盤と連携させることで、SPARCの構造・磁場・熱挙動などを一体的に再現する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=4PItOlY6_xE">YouTube</a></p>
+<p>この環境では部品単位から炉全体までを単一の仮想モデルで扱うことが可能となり、設計変更や検証を仮想空間上で迅速に繰り返せるという。</p>
+<h2>「動く炉」を再現するデジタルモデル</h2>
+<p>今回のデジタルツインは、静的な3D設計モデルではなく、実際の運転を想定した動的モデルとして構築される。
+電磁場、熱、構造応力といった複数の物理現象を同時に扱い、将来的には実機から得られるデータを反映させることで、仮想モデルと現実の炉の状態を同期させる設計とされている。これにより、実際に装置を製作・試験する前の段階で、設計上の課題や挙動を検証できるようになる。</p>
+<h2>高磁場・小型化を支えるAI活用</h2>
+<p>SPARCは、高温超電導（HTS）磁石を用いることで、従来よりも小型ながら高磁場を実現する設計を採用している。
+CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したことを明らかにしている。この磁石は「空母を持ち上げられるほどの磁力を持つ」と説明されており、高磁場化に伴う構造応力や熱管理が技術的な焦点となっている。</p>
+<p>こうした複雑な物理挙動を事前に解析・検証するため、AIとシミュレーションを組み合わせたデジタルツインが設計プロセスの前提となっている。</p>
+<h2>実機開発と仮想検証を並行</h2>
+<p>CFSは、磁石の製造・据え付けと並行して、デジタルツイン上で炉全体の挙動解析を進める体制を構築している。
+物理的な試作・試験と、仮想空間での検証を同時に進めることで、開発工程全体の効率化を図る狙いだ。</p>
+<p>デジタルツインは、建設段階にとどまらず、将来的な運転や保守、最適化にも活用されることが想定されている。</p>
+<h2>2027年稼働を見据えた基盤整備</h2>
+<p>SPARCは、核融合反応による正味エネルギー獲得を目指す実証炉として開発が進められており、2027年の稼働が計画されている。
+今回のNVIDIAおよびSiemensとの連携は、設計から運転までをデータとAIに基づいて進める開発基盤を整備する取り組みとして位置付けられる。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
       <title>ファミマ、防犯カメラ×AIで売場を「点数化」　首都圏で新システム「AI売場スコアリング」の実証開始、AI発注やロボットとの連携も視野に</title>
       <link>https://ledge.ai/articles/familymart_ai_camera_salesfloor_scoring</link>
       <description><![CDATA[<p>ファミリーマートは2026年01月13日、店舗に設置している防犯カメラの映像を活用し、人工知能（AI）で売場の状態を点数化する新たな店舗運営支援システム「AI売場スコアリング」の実証実験を開始することを<a href="https://www.family.co.jp/company/news_releases/2026/20260113_02.html">発表</a>した。2026年1月中旬から首都圏の一部店舗で導入し、業務効率化や品揃えの最適化につなげる。</p>
