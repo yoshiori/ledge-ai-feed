@@ -1,3 +1,4 @@
+use regex::Regex;
 use scraper::{Html, Selector};
 
 #[derive(Debug, PartialEq)]
@@ -5,6 +6,18 @@ pub struct ArticleInfo {
     pub title: String,
     pub url: String,
     pub date: String,
+}
+
+/// Remove category and date prefix from article title
+/// e.g., "ビジネス2026/1/14 [WED]Actual Title" -> "Actual Title"
+fn clean_article_title(title: &str) -> String {
+    // Pattern matches: optional category name + date in format YYYY/M/D [DAY]
+    // Categories include: ビジネス, エンジニアリング, etc.
+    let pattern = Regex::new(
+        r"^(?:ビジネス|エンジニアリング|テクノロジー|サイエンス|社会|政治|経済|カルチャー|スポーツ|エンタメ|ライフ|その他)??\d{4}/\d{1,2}/\d{1,2}\s*\[[A-Z]{3}\]"
+    ).unwrap();
+
+    pattern.replace(title, "").trim().to_string()
 }
 
 pub fn parse_articles_from_html(
@@ -69,7 +82,7 @@ fn extract_articles_from_any_json(script_text: &str) -> Option<Vec<ArticleInfo>>
                 let url = format!("https://ledge.ai/articles/{slug}");
 
                 articles.push(ArticleInfo {
-                    title: title.to_string(),
+                    title: clean_article_title(title),
                     url,
                     date: "2025/01/14 [MON]".to_string(), // Fallback date
                 });
@@ -121,7 +134,7 @@ fn extract_from_static_html(html: &str) -> Result<Vec<ArticleInfo>, Box<dyn std:
                             };
 
                             articles.push(ArticleInfo {
-                                title,
+                                title: clean_article_title(&title),
                                 url,
                                 date: "2025/01/14 [MON]".to_string(), // Fallback date
                             });
