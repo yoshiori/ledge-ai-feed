@@ -41,28 +41,6 @@
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Claudeを医療・ライフサイエンス向けに拡張──診療支援から臨床試験までAI活用を本格化</title>
-      <link>https://ledge.ai/articles/anthropic_claude_healthcare_life_sciences_expansion</link>
-      <description><![CDATA[<p>米AI企業の Anthropic は2026年1月12日（現地時間）、同社の生成AI「Claude」において、医療およびライフサイエンス分野向けの機能拡張を<a href="https://www.anthropic.com/news/healthcare-life-sciences">発表</a>した。医療機関や保険者、研究者、個人利用者を対象に、医療データの要約・解釈から臨床試験、規制業務までを支援する専用機能を提供する。</p>
-<h2>「Claude for Healthcare」を新設、医療業務向けAIを明確に区分</h2>
-<p>同社は医療分野向けの専用機能群として「Claude for Healthcare」を導入した。これは、医療提供者、保険者、消費者が医療用途でClaudeを利用することを想定したプロダクトで、HIPAA（米医療保険の携行性と責任に関する法律）への対応を前提として設計されている。</p>
-<p>想定される活用例としては、診療記録や検査結果の要約・解釈、医療文書の作成支援、保険請求や事前承認（prior authorization）といった事務手続きの効率化などが挙げられている。汎用的なチャット利用とは区別し、医療業務に特化したAIとして提供する点を明確にした。</p>
-<h2>医療データ連携を拡充、CMSやPubMedなどに対応</h2>
-<p>医療・行政データへの対応も拡充された。Claudeは新たに、米国の医療制度や診療報酬に関連するデータベースであるCMS Coverage DatabaseやICD-10、医療機関・医師情報を扱うNPI Registryといったデータソースに接続可能となった。</p>
-<p>また、医学・生命科学分野の文献データベースであるPubMedへのコネクタも追加されている。これに加え、FHIR（Fast Healthcare Interoperability Resources）を用いた開発支援や、事前承認業務に対応するAgent Skillsも拡張され、臨床現場だけでなく医療事務や制度対応を含めた業務全体を視野に入れた設計となっている。</p>
-<h2>個人向けにも健康データ接続を提供、学習利用は行わず</h2>
-<p>個人利用者向けには、米国のClaude ProおよびMax加入者を対象に、健康データをClaudeに接続できる機能をベータ版として提供する。HealthExやFunctionを介した医療記録の接続に加え、Apple HealthやAndroid Health Connectとの連携にも対応する。</p>
-<p>Anthropicは、こうした個人の健康データについて、AIモデルの学習には使用しない方針を明示している。医療・健康情報という機微性の高いデータを扱うにあたり、利用範囲とデータ取り扱いを限定する姿勢を強調した形だ。</p>
-<h2>ライフサイエンス分野も強化、臨床試験・規制業務を支援</h2>
-<p>ライフサイエンス分野向けには、「Claude for Life Sciences」の機能強化も行われた。新たにClinicalTrials.govやMedidata、bioRxivおよびmedRxivといった研究・臨床試験関連のデータソースとの連携が追加されている。</p>
-<p>これにより、臨床試験の設計や進捗管理、研究文献の整理、規制当局向け文書の作成支援など、研究開発から規制対応までの幅広い業務をAIで支援することが可能になるとしている。</p>
-<h2>医療・生命科学分野での実運用を見据えた展開</h2>
-<p>Anthropicは今回の発表について、規制や安全性が強く求められる医療および生命科学分野において、生成AIを実運用に耐える形で導入するための取り組みだとしている。医療向けに用途を明確化し、データ連携や取り扱い方針を整理した上で提供を進めることで、医療現場や研究現場での活用拡大を狙う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=UXyVMGAFLAs&amp;t=1s">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
       <title>ビジネス2026/1/14 [WED]Anthropic、非エンジニア向け業務AIエージェント「Cowork」開始──Claude Codeの自律実行を一般業務へ拡張</title>
       <link>https://ledge.ai/articles/anthropic_cowork_launch_claude_code_agent_general_work</link>
       <description><![CDATA[<p>Anthropicは2026年1月12日（現地時間）、同社のAIアシスタント「Claude」において、新機能「Cowork（コワーク）」を研究プレビューとして開始したことを<a href="https://claude.com/blog/cowork-research-preview">発表</a>した。</p>
@@ -141,32 +119,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
 <h2>量子化と最適化</h2>
 <p>FLUX.2[klein]の蒸留モデルおよびBaseモデルを含む全バリアントは、FP8およびNVFP4量子化に対応しており、NVIDIAのRTX GPU向けに最適化されている。これにより推論速度の向上とVRAM使用量の削減を両立したとしている。</p>
 <p>Black Forest Labsは、FLUX.2[klein]をリアルタイム生成や高頻度処理を前提としたモデルとして位置づけ、より大規模なモデルと使い分けることで、用途に応じたAI画像生成基盤の構築を可能にするとしている。</p>
-]]></description>
-      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>核融合炉「SPARC」の開発をAIデジタルツインで加速―—Commonwealth Fusion Systems、NVIDIA・シーメンスと連携</title>
-      <link>https://ledge.ai/articles/cfs_sparc_ai_digital_twin_nvidia_siemens</link>
-      <description><![CDATA[<p>核融合スタートアップの Commonwealth Fusion Systems（CFS） は2026年1月6日、NVIDIA および Siemens と提携し、実証用核融合炉 SPARC の設計・開発をAI主導で加速するデジタルツインを構築すると<a href="https://cfs.energy/news-and-media/commonwealth-fusion-systems-accelerates-commercial-fusion-with-siemens-and-nvidia-leveraging-ai-powered-digital-twins">発表</a>した。AIとシミュレーションを中核に据え、従来は物理試験に大きく依存していた核融合炉開発のプロセスを仮想空間上で統合・高速化する。</p>
-<h2>AIと産業ソフトウェアを統合したデジタルツイン</h2>
-<p>CFSが構築するデジタルツインは、NVIDIAのAIおよび物理シミュレーションライブラリと、Siemensの設計・製造向けソフトウェア群を統合したものとなる。</p>
-<p>SiemensのNXやTeamcenterを中心とする設計・PLM（製品ライフサイクル管理）ツールで作成されたデータを、NVIDIAのシミュレーション基盤と連携させることで、SPARCの構造・磁場・熱挙動などを一体的に再現する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=4PItOlY6_xE">YouTube</a></p>
-<p>この環境では部品単位から炉全体までを単一の仮想モデルで扱うことが可能となり、設計変更や検証を仮想空間上で迅速に繰り返せるという。</p>
-<h2>「動く炉」を再現するデジタルモデル</h2>
-<p>今回のデジタルツインは、静的な3D設計モデルではなく、実際の運転を想定した動的モデルとして構築される。
-電磁場、熱、構造応力といった複数の物理現象を同時に扱い、将来的には実機から得られるデータを反映させることで、仮想モデルと現実の炉の状態を同期させる設計とされている。これにより、実際に装置を製作・試験する前の段階で、設計上の課題や挙動を検証できるようになる。</p>
-<h2>高磁場・小型化を支えるAI活用</h2>
-<p>SPARCは、高温超電導（HTS）磁石を用いることで、従来よりも小型ながら高磁場を実現する設計を採用している。
-CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したことを明らかにしている。この磁石は「空母を持ち上げられるほどの磁力を持つ」と説明されており、高磁場化に伴う構造応力や熱管理が技術的な焦点となっている。</p>
-<p>こうした複雑な物理挙動を事前に解析・検証するため、AIとシミュレーションを組み合わせたデジタルツインが設計プロセスの前提となっている。</p>
-<h2>実機開発と仮想検証を並行</h2>
-<p>CFSは、磁石の製造・据え付けと並行して、デジタルツイン上で炉全体の挙動解析を進める体制を構築している。
-物理的な試作・試験と、仮想空間での検証を同時に進めることで、開発工程全体の効率化を図る狙いだ。</p>
-<p>デジタルツインは、建設段階にとどまらず、将来的な運転や保守、最適化にも活用されることが想定されている。</p>
-<h2>2027年稼働を見据えた基盤整備</h2>
-<p>SPARCは、核融合反応による正味エネルギー獲得を目指す実証炉として開発が進められており、2027年の稼働が計画されている。
-今回のNVIDIAおよびSiemensとの連携は、設計から運転までをデータとAIに基づいて進める開発基盤を整備する取り組みとして位置付けられる。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
@@ -630,6 +582,29 @@ Grokを巡っては、規制対応と実利用の判断が異なるレイヤー�
 <h2>人間中心のAI戦略を継続</h2>
 <p>ウィキメディア財団は、AIの活用についても「編集者を支援するための技術」と位置づけており、人間中心のAI戦略を掲げている。編集作業の効率化やアクセシビリティの向上を図りつつ、知識の信頼性を維持することを目的としている。</p>
 <p>財団は今後も2026年を通じて、オンラインイベントや各地のコミュニティによる取り組みなど、25周年を記念した活動を継続する予定だとしている。</p>
+]]></description>
+      <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>画像生成AIの拡散モデル一強に“自己回帰×拡散”で対抗　中国Z.aiが「GLM-Image」発表、文字・知識系の生成に強み</title>
+      <link>https://ledge.ai/articles/zai_glm_image_autoregressive_diffusion_image_generation</link>
+      <description><![CDATA[<p>中国のAI企業 Z.ai は2026年1月14日、離散自己回帰（discrete auto-regressive）方式の画像生成モデル GLM-Image を<a href="https://z.ai/blog/glm-image">発表</a>した。オープンソースとして公開される一方、商用・業務利用を想定した「産業グレード」の性能をうたう。自己回帰モデルと拡散モデルを組み合わせたハイブリッド構成を採用し、文字入り画像や知識集約型の生成で優位性があるとしている。</p>
+<h2>自己回帰と拡散を組み合わせたハイブリッド設計</h2>
+<p>GLM-Imageは、画像生成を連続的なノイズ除去で行う拡散モデルに、画像を離散トークン列として逐次生成する自己回帰（Autoregressive）方式を組み合わせた点が特徴だ。Z.aiによると、自己回帰側が画像の意味構造やレイアウトといった低周波成分を担い、その後に拡散デコーダが高周波のディテールを補完する設計としている。</p>
+<p>モデル構成は、自己回帰生成器に約90億パラメータ、拡散デコーダに約70億パラメータを用いる二段構えとなっている。テキストから画像を生成する一般的な用途に加え、画像編集、スタイル転送、ID保持生成、複数被写体の一貫性維持など、画像から画像へのタスクにも対応すると説明されている。</p>
+<p><strong>■ GLM-Imageの全体アーキテクチャ：</strong> 自己回帰モデル（GLM AR）が低解像度の視覚トークンを生成し、拡散デコーダが高周波のディテールを補完する二段構成。文字情報（Glyph）も独立して埋め込み処理される。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/glm_image_new_5d44984a83/glm_image_new_5d44984a83.jpg" alt="glm-image-new.jpg" /></p>
+<h2>文字・知識集約型生成を重視、ベンチマークで強みを主張</h2>
+<p>Z.aiは、近年の画像生成分野で主流となっている拡散モデルについて、高品質な生成に強みがある一方、文字の正確な描画や複雑な知識表現では課題が残ると整理する。GLM-Imageはその弱点を補う位置づけで、ポスター、プレゼンテーション資料（PPT）、科学図解など、情報量の多い「知識集約型」画像生成を主なターゲットに据えている。</p>
+<p><strong>■ Single-Stream DiTにおけるAttention制御の概念図：</strong> 条件画像、文字（Glyph）、生成対象を単一ストリームで扱いながら、Attention Maskにより相互参照範囲を制御。文字や知識要素を保持したまま画像生成を行う設計を示す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260112_171559_65d0712626/20260112_171559_65d0712626.jpeg" alt="20260112-171559.jpeg" /></p>
+<p>公式ブログによれば、テキストレンダリング性能を測るベンチマーク「CVTG-2K」では、オープンソースモデルとして上位水準のスコアを記録したとされる。文字の正確性を示す指標では0.9を超える値を示し、Z.aiは文字生成の安定性を強みとして挙げている。<a href="https://github.com/zai-org/GLM-Image">GitHub</a>上では、複数の公開ベンチマークにおける他モデルとの比較結果も提示されている。</p>
+<p><strong>■ GLM-Imageによる生成例：</strong> ポスター、教育用図解、文字入りインフォグラフィックなど、知識集約型コンテンツの生成例。文字の可読性やレイアウトの一貫性を重視した出力が示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/glm_image_showcase_poster_8c14d0aded/glm_image_showcase_poster_8c14d0aded.jpg" alt="glm-image-showcase-poster.jpg" /></p>
+<h2>オープン提供と実運用上の条件、残る課題</h2>
+<p>GLM-Imageはオープンウェイトで公開され、APIとしても利用可能とされている。公式ドキュメントではAPI利用料金を1画像あたり0.015ドルとしており、対応解像度は512〜2048ピクセル、幅・高さはいずれも32の倍数であることが条件とされている。</p>
+<p>一方で、実運用上のハードルも明示されている。GitHubの説明によると、現時点では推論最適化が限定的で、1024×1024ピクセルの生成でも大容量GPUを必要とする。80GB超の単一GPU、もしくは複数GPU構成が想定されており、推論コストは依然として高い。Z.aiは今後、自己回帰部分の高速化や推論基盤への対応を進めるとしている。</p>
+<p>ライセンスについては、GitHub上ではApache License 2.0と表記されている一方、<a href="https://huggingface.co/zai-org/GLM-Image">Hugging Face</a>のモデルカードではモデル全体はMITライセンスで、一部コンポーネントにApache 2.0が含まれる旨が記載されている。利用にあたっては、各構成要素のライセンス条件を個別に確認する必要がある。</p>
 ]]></description>
       <pubDate>Wed, 07 May 2025 01:46:44 GMT</pubDate>
     </item>
