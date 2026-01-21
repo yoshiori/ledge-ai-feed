@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、月8ドルの低価格プラン「ChatGPT Go」を世界展開──アクセス拡大を狙い、無料版・Go向け広告テスト方針も公表</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_go_global_launch_ads_test_policy</link>
+      <description><![CDATA[<p>OpenAI は2026年1月16日（現地時間）、対話型AI「ChatGPT」の新たな料金プラン「ChatGPT Go」を、ChatGPTが提供されているすべての地域で利用可能にしたと<a href="https://openai.com/ja-JP/index/introducing-chatgpt-go/">発表</a>した。
+あわせて、無料版およびGoプランを対象に、広告表示のテストを米国で段階的に開始する方針を明らかにした。</p>
+<h2>月8ドルの低価格プラン「ChatGPT Go」を世界提供</h2>
+<p>ChatGPT Goは、より多くのユーザーが高度なAI機能にアクセスできるよう設計された低価格の有料プランで、米国での価格は月額8ドル。OpenAIによると、2025年8月にインドで先行提供した後、約170の国・地域へ段階的に展開してきたが、今回の発表によりChatGPT提供地域すべてで利用可能となった。</p>
+<p>Goプランでは、無料版と比べてメッセージ送信数、ファイルアップロード、画像生成の利用枠が最大10倍に拡張されるほか、より長い会話履歴や文脈を扱えるとしている。OpenAIは、文章作成、学習、問題解決、クリエイティブ用途など、日常的なAI活用を想定したプランだと説明している。</p>
+<h2>無料版・Go向けに広告テストを予告</h2>
+<p>同日、OpenAIは広告導入に関する考え方も公開した。現時点でChatGPT内に広告は表示されていないが、今後数週間以内に米国で、無料版およびChatGPT Go利用者を対象とした広告テストを開始する予定だとしている。</p>
+<p>広告は、ChatGPTの回答下部に明確にラベル付けされた形で表示され、AIの回答（オーガニックな応答）とは明確に分離される。OpenAIは、広告が回答内容に影響を与えることはないと明言している。</p>
+<h2>回答の独立性とプライバシーを重視</h2>
+<p>OpenAIは、広告導入にあたっての原則として、以下の点を強調している。</p>
+<ul>
+<li>広告は18歳以上のログインユーザーにのみ表示</li>
+<li>18歳未満のユーザーや、健康・メンタルヘルス、政治などのセンシティブな話題では広告を表示しない</li>
+<li>ユーザーの会話内容を広告主に共有・販売しない</li>
+<li>広告のパーソナライズ設定はユーザー側で制御可能</li>
+</ul>
+<p>これらの方針は、ChatGPTの信頼性や安全性を維持しつつ、サービスの持続的な運営を図る狙いがあるとしている。</p>
+<h2>上位有料プランは引き続き広告なし</h2>
+<p>広告表示の対象は無料版とChatGPT Goに限定され、ChatGPT Plus、Pro、Business、Enterpriseといった上位有料プランでは、引き続き広告は表示されない。OpenAIは、こうしたプラン構成により、広告を避けたいユーザーには明確な選択肢を提供するとしている。</p>
+<p>OpenAIは今回の取り組みについて、AI開発と運用にかかるコストが増大する中でも、より多くの人にChatGPTへのアクセスを提供するための施策だと位置付けており、広告テストについても利用者からのフィードバックを踏まえながら改善していく方針を示している。</p>
+]]></description>
+      <pubDate>Mon, 19 Jan 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMは日本の司法試験を突破できるのか──慶應義塾大研究、短答式で合格点に到達</title>
       <link>https://ledge.ai/articles/llm_japanese_bar_exam_self_verification</link>
       <description><![CDATA[<p>慶應義塾大学の研究者は2026年1月6日、日本の司法試験（短答式）において、大規模言語モデル（LLM）が実際の出題形式と公式の採点基準を変更せずに、合格水準の得点を記録したとする研究成果を<a href="https://arxiv.org/abs/2601.03144">発表</a>した。出題を簡略化せず、採点ルールも変更しない条件下で合格水準に達した例は、研究チームによると初めてだという。</p>
@@ -71,6 +97,24 @@ Grokを巡っては、規制対応と実利用の判断が異なるレイヤー�
       <pubDate>Fri, 16 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Googleの開発用プラットフォーム「Antigravity」に“Agent Skills”登場　エージェントに作業手順を配布できるオープン標準</title>
+      <link>https://ledge.ai/articles/google_antigravity_agent_skills_open_standard</link>
+      <description><![CDATA[<p>Google は2026年1月14日（現地時間）、同社の開発用プラットフォームAntigravityにおいて、エージェントの機能を拡張するパッケージ「Skills」のオープン標準を<a href="https://antigravity.google/docs/skills">発表</a>した。Skillsは、特定の作業に必要な手順やベストプラクティス、必要に応じてスクリプトや参考実装などをまとめた再利用可能な知識パッケージで、エージェントは作業時にそれらを参照しながらタスクを進められる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Antigravity_x_ab552c6744/Antigravity_x_ab552c6744.jpg" alt="Antigravity x.jpg" /></p>
+<h2>作業手順を“知識パッケージ”として配布</h2>
+<p>Skillsは、エージェントに対して都度プロンプトで細かな指示を与えるのではなく、あらかじめ整理された作業マニュアル一式を参照させるための仕組みだ。単純な定型作業から、判断を伴う業務フローまでをSkillとして定義でき、同じSkillを複数のエージェントやプロジェクトで再利用できる点が特徴となる。</p>
+<h2>人が書き、エージェントが参照するための共通フォーマット</h2>
+<p>各Skillはフォルダー単位で構成され、その中核となるのがSKILL.mdファイルだ。SKILL.mdには、Skillの名称や概要、前提条件、具体的な手順などをYAML形式のフロントマターとして記載し、本文には作業手順をMarkdownで記述する。
+同じフォルダー内には、スクリプト、テンプレート、参考実装などの追加リソースを含めることができ、Skill全体として一体的に扱われる。</p>
+<h2>単純作業から業務フローまでを扱える設計</h2>
+<p>より複雑なSkillでは、「条件に応じて次の手順を切り替える」といった意思決定の分岐も記述可能だ。Antigravityでは、1つのSkillにつき目的を明確にし、説明文を具体的に書くことを推奨している。これにより、エージェントが必要な情報だけを参照しながら作業を進められる設計となっている。</p>
+<h2>先行するAnthropicの「Agent Skills」という発想</h2>
+<p>このSkillsの設計思想は、Anthropicが先行して提示してきた「Agent Skills」の考え方と重なる。Anthropicは、エージェントに現実的な業務能力を持たせるため、SKILL.mdを中心とした構造を採用し、2025年末には特定のプラットフォームに依存しないオープン標準として公開していた。
+GoogleがAntigravityでSkills対応を打ち出したことで、エージェントに与える作業手順やノウハウをツール横断で共有する流れが、主要プラットフォーム間で具体化しつつある。</p>
+]]></description>
+      <pubDate>Fri, 16 Jan 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAIとソフトバンクグループ、SB Energyに10億ドル投資──「Stargate」構想 1.2GW級データセンター建設を加速</title>
       <link>https://ledge.ai/articles/openai_softbank_sb_energy_stargate_data_center_investment</link>
       <description><![CDATA[<p>OpenAIとソフトバンクグループは2026年1月9日（米太平洋時間）、ソフトバンクグループ傘下の米インフラ企業SB Energyと戦略的パートナーシップを締結し、同社に総額10億ドル（各社5億ドル）を投資すると<a href="https://openai.com/ja-JP/index/stargate-sb-energy-partnership/">発表</a>した。今回の提携は、米国における次世代AI・エネルギー基盤の構築を目的とする「Stargate」構想の一環と位置づけられている。</p>
@@ -124,24 +168,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
       <pubDate>Wed, 14 Jan 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Apple、次世代AI基盤にGemini採用──SiriなどApple Intelligenceで活用へ</title>
-      <link>https://ledge.ai/articles/apple_nextgen_ai_platform_gemini_adoption</link>
-      <description><![CDATA[<p>Apple と Google は2026年1月12日（米国時間）、Apple の次世代基盤 AI「Apple Foundation Models」に、Google の生成 AI モデル Gemini とクラウド技術を採用すると<a href="https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/google_apple_x_b32876998f/google_apple_x_b32876998f.jpg" alt="google apple x.jpg" /></p>
-<p>声明によると、この協業は複数年にわたる取り組みで、Siri を含む Apple Intelligence 関連機能の基盤として活用される。今回の発表は、Google が公式ブログ上で Apple との Joint Statement として公開したもの。Apple Foundation Models は、Apple が自社製品やサービスに組み込む AI 機能の基盤となるモデル群で、今後の Apple Intelligence の中核を担う位置づけとされている。</p>
-<h2>Apple Foundation Models の基盤に Gemini と Google Cloud</h2>
-<p>Apple は次世代の Foundation Models において、Gemini のモデル群と Google のクラウド基盤を採用する。Gemini は Google が開発する大規模言語モデルで、テキスト理解や生成をはじめ、幅広い AI タスクに対応する点が特徴とされる。</p>
-<p>Apple はこの技術を、Apple Foundation Models の一部として統合し、Apple Intelligence を構成する各種機能の基盤として利用する。具体的なモデル構成や技術的な役割分担については、今回の声明では詳細は明らかにされていない。</p>
-<h2>Siri を含む Apple Intelligence 機能で活用へ</h2>
-<p>両社は、Gemini を採用した Apple Foundation Models が、Siri を含む Apple Intelligence 関連機能で活用されるとしている。これにより、Gemini とクラウド技術を基盤とする次世代 Foundation Models が、Siri などの Apple Intelligence 機能を支える設計になることが示されている。</p>
-<h2>プライバシーは Apple の基準を維持</h2>
-<p>プライバシーに関しては、共同声明の中で、ユーザーデータの取り扱いは Apple のプライバシー基準に基づいて行われる方針が示されている。Apple は、ユーザーのプライバシー保護を重視した形で AI 機能を提供するとしている。</p>
-<h2>AI 基盤を巡る競争の中で進む協業</h2>
-<p>Apple と Google は、モバイル OS や AI 分野で競合関係にある一方、検索やクラウド分野では協業関係も持つ。今回の発表は、AI 基盤技術を巡る競争が激化する中で、両社がそれぞれの技術的強みを活用する形で合意に至ったことを示すものとなった。</p>
-]]></description>
-      <pubDate>Tue, 13 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>核融合炉「SPARC」の開発をAIデジタルツインで加速―—Commonwealth Fusion Systems、NVIDIA・シーメンスと連携</title>
       <link>https://ledge.ai/articles/cfs_sparc_ai_digital_twin_nvidia_siemens</link>
       <description><![CDATA[<p>核融合スタートアップの Commonwealth Fusion Systems（CFS） は2026年1月6日、NVIDIA および Siemens と提携し、実証用核融合炉 SPARC の設計・開発をAI主導で加速するデジタルツインを構築すると<a href="https://cfs.energy/news-and-media/commonwealth-fusion-systems-accelerates-commercial-fusion-with-siemens-and-nvidia-leveraging-ai-powered-digital-twins">発表</a>した。AIとシミュレーションを中核に据え、従来は物理試験に大きく依存していた核融合炉開発のプロセスを仮想空間上で統合・高速化する。</p>
@@ -166,28 +192,6 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
 今回のNVIDIAおよびSiemensとの連携は、設計から運転までをデータとAIに基づいて進める開発基盤を整備する取り組みとして位置付けられる。</p>
 ]]></description>
       <pubDate>Mon, 12 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「AI 2027」予測を“後ろ倒し”──元OpenAI研究者ココタジロ氏ら、超人的AIの到来見通しを更新</title>
-      <link>https://ledge.ai/articles/ai_2027_timeline_revision_kokotajlo</link>
-      <description><![CDATA[<p>元OpenAIのAI研究者であるDaniel Kokotajlo氏らは2025年12月31日、AIの急速な進展とその潜在的リスクを描いた将来予測シナリオ「AI 2027」に関連する予測を見直し、AIが人間を明確に上回る能力を獲得する時期についての見通しを、従来より後ろ倒しにしたと<a href="https://blog.ai-futures.org/p/ai-futures-model-dec-2025-update">発表</a>した。</p>
-<p>この見直しは、同氏らが運営するAI Futures Projectが2025年12月末に公開した最新の予測モデルによるものだ。公式の説明によると、新モデルでは、AIが人間並み、あるいはそれ以上の能力でコーディングや研究開発を自動化する段階に到達するまでのタイムラインを、従来の想定より数年単位で長く見積もっているという。</p>
-<h2>予測シナリオ「AI 2027」が提示してきたもの</h2>
-<p>「<a href="https://ai-2027.com/">AI 2027</a>」は2025年に公開されたシナリオで、AIの能力向上が加速した場合に、2020年代後半にも人間を超える汎用的な知能が出現する可能性と、それに伴う社会的・安全保障上のリスクを描いたものだ。物語形式のシナリオとともに、能力向上のマイルストーンやタイムライン予測を示し、AI安全性やガバナンスをめぐる議論の中で広く参照されてきた。</p>
-<p>同シナリオは、特定の年を断定するものではなく、複数の前提条件に基づく予測モデルを用いて将来像を提示している点が特徴とされている。</p>
-<h2>最新モデルで示されたタイムラインの修正</h2>
-<p>今回公開された最新モデルでは、AIが「完全なコーディング自動化」に至るまでの期間について、旧モデル（AI 2027で用いられた予測）よりも慎重な見積もりが採用された。AI Futures Projectはその理由として、完全自動化に至る前段階でのAIによる研究開発（R&amp;D）加速の効果を、現実的な制約を踏まえて再評価した点を挙げている。</p>
-<p><strong>AI Futures Projectが公開した最新の予測モデル画面。AI 2027で用いられた従来モデルを更新し、AI研究開発の自動化や計算資源の前提を再評価している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/f2bf7c4b_33b1_4411_acb4_ffe5c2178fa0_1600x906_7bde2dd933/f2bf7c4b_33b1_4411_acb4_ffe5c2178fa0_1600x906_7bde2dd933.png" alt="f2bf7c4b-33b1-4411-acb4-ffe5c2178fa0_1600x906.png" /></p>
-<p>研究開発の自動化が進めばAIの進化は複利的に加速する可能性がある一方、その速度や実用化の範囲については不確実性が大きいとし、前回の想定を修正した形だ。</p>
-<h2>当事者による位置づけと説明</h2>
-<p>ココタジロ氏は<a href="https://x.com/DKokotajlo/status/2006257807721652588">自身のX投稿</a>でも、「AI 2027のシナリオよりも進展はやや遅い可能性が高い」と言及している。あわせて、当初から予測には幅があり、今回の更新は新たなデータや前提条件を反映した結果だと説明している。</p>
-<p><strong>AI Futures Modelに基づく1つの想定トラジェクトリー。完全なコーディング自動化（AC）、超人的AI研究者（SAR）、人工超知能（ASI）に至る時期を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G9dm_El_Oa_YA_Ettaj_2dbcf7c8fd/G9dm_El_Oa_YA_Ettaj_2dbcf7c8fd.jpg" alt="G9dmElOaYAEttaj.jpg" /></p>
-<h2>更新を前提とした予測モデルという位置づけ</h2>
-<p>AI Futures Projectは、今回公開した最新モデルについて、現時点の技術動向や前提条件を反映したものであり、今後の研究開発の進展や実証結果に応じて見直しを行うとしている。AI 2027で提示された予測も、こうした更新の一部として位置づけられており、同プロジェクトは引き続き、モデルの前提や結果を公開しながら予測を更新していく方針を示している。</p>
-]]></description>
-      <pubDate>Mon, 12 Jan 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「写真が勝手にビキニ化」AI「Grok」画像編集が炎上──未成年を含む生成も焦点に、各国で規制圧力</title>
@@ -257,24 +261,6 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
 <h2>ロボットやAI発注との連携も視野</h2>
 <p>同社は将来的に、多機能型床清掃ロボット「ポム」にカメラを搭載し、本システムに活用する構想も示している。さらに、既存のAI発注システムや、人型AIアシスタント「レイチェル」と連携させ、売場分析や発注提案の自動化を進める方針だ。対象売場も順次拡大し、店舗運営全体の効率化を図る。</p>
 <p>なお同社は、本取り組みの目的において、個人情報が含まれる売場画像は利用しないとしている。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Googleの開発用プラットフォーム「Antigravity」に“Agent Skills”登場　エージェントに作業手順を配布できるオープン標準</title>
-      <link>https://ledge.ai/articles/google_antigravity_agent_skills_open_standard</link>
-      <description><![CDATA[<p>Google は2026年1月14日（現地時間）、同社の開発用プラットフォームAntigravityにおいて、エージェントの機能を拡張するパッケージ「Skills」のオープン標準を<a href="https://antigravity.google/docs/skills">発表</a>した。Skillsは、特定の作業に必要な手順やベストプラクティス、必要に応じてスクリプトや参考実装などをまとめた再利用可能な知識パッケージで、エージェントは作業時にそれらを参照しながらタスクを進められる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Antigravity_x_ab552c6744/Antigravity_x_ab552c6744.jpg" alt="Antigravity x.jpg" /></p>
-<h2>作業手順を“知識パッケージ”として配布</h2>
-<p>Skillsは、エージェントに対して都度プロンプトで細かな指示を与えるのではなく、あらかじめ整理された作業マニュアル一式を参照させるための仕組みだ。単純な定型作業から、判断を伴う業務フローまでをSkillとして定義でき、同じSkillを複数のエージェントやプロジェクトで再利用できる点が特徴となる。</p>
-<h2>人が書き、エージェントが参照するための共通フォーマット</h2>
-<p>各Skillはフォルダー単位で構成され、その中核となるのがSKILL.mdファイルだ。SKILL.mdには、Skillの名称や概要、前提条件、具体的な手順などをYAML形式のフロントマターとして記載し、本文には作業手順をMarkdownで記述する。
-同じフォルダー内には、スクリプト、テンプレート、参考実装などの追加リソースを含めることができ、Skill全体として一体的に扱われる。</p>
-<h2>単純作業から業務フローまでを扱える設計</h2>
-<p>より複雑なSkillでは、「条件に応じて次の手順を切り替える」といった意思決定の分岐も記述可能だ。Antigravityでは、1つのSkillにつき目的を明確にし、説明文を具体的に書くことを推奨している。これにより、エージェントが必要な情報だけを参照しながら作業を進められる設計となっている。</p>
-<h2>先行するAnthropicの「Agent Skills」という発想</h2>
-<p>このSkillsの設計思想は、Anthropicが先行して提示してきた「Agent Skills」の考え方と重なる。Anthropicは、エージェントに現実的な業務能力を持たせるため、SKILL.mdを中心とした構造を採用し、2025年末には特定のプラットフォームに依存しないオープン標準として公開していた。
-GoogleがAntigravityでSkills対応を打ち出したことで、エージェントに与える作業手順やノウハウをツール横断で共有する流れが、主要プラットフォーム間で具体化しつつある。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
@@ -456,32 +442,6 @@ A: ぜひ伝えたいのは、「5年前にAMDのGPUを試して『まだ熟成�
 <h2>巨大単一チップで推論のボトルネックを回避</h2>
 <p>Cerebrasのシステムの特徴は、計算資源、メモリ、通信帯域を単一の巨大チップに集約している点にある。従来のGPUクラスタ構成では、推論時にノード間通信がボトルネックとなりやすいが、Cerebrasはこうした制約を構造的に回避できるとする。特に、長いテキスト出力や複雑な推論を伴う処理で効果を発揮するという。</p>
 <p>Cerebrasは、OpenAI向けにこのwafer-scaleシステムを大規模に展開し、低レイテンシ推論を前提としたAI体験を支える基盤として提供する方針だ。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、月8ドルの低価格プラン「ChatGPT Go」を世界展開──アクセス拡大を狙い、無料版・Go向け広告テスト方針も公表</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_go_global_launch_ads_test_policy</link>
-      <description><![CDATA[<p>OpenAI は2026年1月16日（現地時間）、対話型AI「ChatGPT」の新たな料金プラン「ChatGPT Go」を、ChatGPTが提供されているすべての地域で利用可能にしたと<a href="https://openai.com/ja-JP/index/introducing-chatgpt-go/">発表</a>した。
-あわせて、無料版およびGoプランを対象に、広告表示のテストを米国で段階的に開始する方針を明らかにした。</p>
-<h2>月8ドルの低価格プラン「ChatGPT Go」を世界提供</h2>
-<p>ChatGPT Goは、より多くのユーザーが高度なAI機能にアクセスできるよう設計された低価格の有料プランで、米国での価格は月額8ドル。OpenAIによると、2025年8月にインドで先行提供した後、約170の国・地域へ段階的に展開してきたが、今回の発表によりChatGPT提供地域すべてで利用可能となった。</p>
-<p>Goプランでは、無料版と比べてメッセージ送信数、ファイルアップロード、画像生成の利用枠が最大10倍に拡張されるほか、より長い会話履歴や文脈を扱えるとしている。OpenAIは、文章作成、学習、問題解決、クリエイティブ用途など、日常的なAI活用を想定したプランだと説明している。</p>
-<h2>無料版・Go向けに広告テストを予告</h2>
-<p>同日、OpenAIは広告導入に関する考え方も公開した。現時点でChatGPT内に広告は表示されていないが、今後数週間以内に米国で、無料版およびChatGPT Go利用者を対象とした広告テストを開始する予定だとしている。</p>
-<p>広告は、ChatGPTの回答下部に明確にラベル付けされた形で表示され、AIの回答（オーガニックな応答）とは明確に分離される。OpenAIは、広告が回答内容に影響を与えることはないと明言している。</p>
-<h2>回答の独立性とプライバシーを重視</h2>
-<p>OpenAIは、広告導入にあたっての原則として、以下の点を強調している。</p>
-<ul>
-<li>広告は18歳以上のログインユーザーにのみ表示</li>
-<li>18歳未満のユーザーや、健康・メンタルヘルス、政治などのセンシティブな話題では広告を表示しない</li>
-<li>ユーザーの会話内容を広告主に共有・販売しない</li>
-<li>広告のパーソナライズ設定はユーザー側で制御可能</li>
-</ul>
-<p>これらの方針は、ChatGPTの信頼性や安全性を維持しつつ、サービスの持続的な運営を図る狙いがあるとしている。</p>
-<h2>上位有料プランは引き続き広告なし</h2>
-<p>広告表示の対象は無料版とChatGPT Goに限定され、ChatGPT Plus、Pro、Business、Enterpriseといった上位有料プランでは、引き続き広告は表示されない。OpenAIは、こうしたプラン構成により、広告を避けたいユーザーには明確な選択肢を提供するとしている。</p>
-<p>OpenAIは今回の取り組みについて、AI開発と運用にかかるコストが増大する中でも、より多くの人にChatGPTへのアクセスを提供するための施策だと位置付けており、広告テストについても利用者からのフィードバックを踏まえながら改善していく方針を示している。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
