@@ -31,6 +31,20 @@
       <pubDate>Mon, 19 Jan 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>未成年の自殺を巡るAI訴訟に進展──GoogleとCharacter.AI、4州訴訟で和解に合意</title>
+      <link>https://ledge.ai/articles/ai_chatbot_lawsuit_settlement_google_character_ai_four_states</link>
+      <description><![CDATA[<p>AIチャットボットとの会話が未成年の自殺につながったとして提起されていた訴訟をめぐり、GoogleとCharacter.AIが和解に合意した。フロリダ連邦地裁に提出された<a href="https://www.courtlistener.com/docket/69300919/garcia-v-character-technologies-inc/">書類</a>によると、当事者は調停による和解に原則合意し、裁判所は手続きをいったん終了させている。</p>
+<p>訴訟は、2024年に死亡した14歳の少年の母親が提起したもので、少年がCharacter.AIのチャットボットと継続的に会話していたことが問題とされた。裁判所に提出された通知によれば、2026年1月7日付で当事者は調停による和解に原則合意し、最終的な和解文書の作成と締結に向けて手続きを進めるとしている。裁判所は、一定期間内に最終処理が行われることを条件に、事件をいったん却下し、記録を閉じた。</p>
+<p>海外メディアの報道によると、2026年1月14日に裁判所に提出された法廷文書では、今回の和解がフロリダ州、コロラド州、ニューヨーク州、テキサス州で提起されていた訴訟を対象としていることが示されている。</p>
+<p>今回の訴訟では、チャットボットを直接提供していたCharacter.AIに加え、Googleも被告として名を連ねていた。原告側は、会話型AI技術の系譜や計算基盤（クラウド）の提供、事業面での関与などを理由に、Googleがサービスの成立に実質的に関与していたと主張していた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian_megan_garcia_and_son_8a039bc133/the_guardian_megan_garcia_and_son_8a039bc133.jpg" alt="the guardian megan garcia and son.jpg" /></p>
+<p>英紙<a href="https://www.theguardian.com/technology/2026/jan/08/google-character-ai-settlement-teen-suicide">The Guardian</a>は、Googleが2024年にCharacter.AIと約27億ドル規模のライセンス契約を結んでいたことが、同社が本件訴訟に関連付けられた背景の一つだと報じている。</p>
+<p>これに対しGoogleは、Character.AIの運営主体ではなく、クラウドサービスの提供のみで法的責任は生じないとして請求棄却を求めていた。裁判所は、この是非について判断を示さず、却下段階では原告の主張を排除できないとして、審理の余地があるとの姿勢を示していた。</p>
+<p>本件は、会話型AIと未成年をめぐるリスクが司法の場で争点となり得ることを示した一方、AIの法的責任について一般的な基準を確定させるものではなかった。基盤提供者を含む責任の射程については、今後も個別の訴訟や立法の場で検討が続くとみられる。</p>
+]]></description>
+      <pubDate>Sun, 18 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMは日本の司法試験を突破できるのか──慶應義塾大研究、短答式で合格点に到達</title>
       <link>https://ledge.ai/articles/llm_japanese_bar_exam_self_verification</link>
       <description><![CDATA[<p>慶應義塾大学の研究者は2026年1月6日、日本の司法試験（短答式）において、大規模言語モデル（LLM）が実際の出題形式と公式の採点基準を変更せずに、合格水準の得点を記録したとする研究成果を<a href="https://arxiv.org/abs/2601.03144">発表</a>した。出題を簡略化せず、採点ルールも変更しない条件下で合格水準に達した例は、研究チームによると初めてだという。</p>
@@ -168,32 +182,6 @@ Anthropicは今後、クロスデバイス同期の追加やWindows対応など�
       <pubDate>Wed, 14 Jan 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>核融合炉「SPARC」の開発をAIデジタルツインで加速―—Commonwealth Fusion Systems、NVIDIA・シーメンスと連携</title>
-      <link>https://ledge.ai/articles/cfs_sparc_ai_digital_twin_nvidia_siemens</link>
-      <description><![CDATA[<p>核融合スタートアップの Commonwealth Fusion Systems（CFS） は2026年1月6日、NVIDIA および Siemens と提携し、実証用核融合炉 SPARC の設計・開発をAI主導で加速するデジタルツインを構築すると<a href="https://cfs.energy/news-and-media/commonwealth-fusion-systems-accelerates-commercial-fusion-with-siemens-and-nvidia-leveraging-ai-powered-digital-twins">発表</a>した。AIとシミュレーションを中核に据え、従来は物理試験に大きく依存していた核融合炉開発のプロセスを仮想空間上で統合・高速化する。</p>
-<h2>AIと産業ソフトウェアを統合したデジタルツイン</h2>
-<p>CFSが構築するデジタルツインは、NVIDIAのAIおよび物理シミュレーションライブラリと、Siemensの設計・製造向けソフトウェア群を統合したものとなる。</p>
-<p>SiemensのNXやTeamcenterを中心とする設計・PLM（製品ライフサイクル管理）ツールで作成されたデータを、NVIDIAのシミュレーション基盤と連携させることで、SPARCの構造・磁場・熱挙動などを一体的に再現する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=4PItOlY6_xE">YouTube</a></p>
-<p>この環境では部品単位から炉全体までを単一の仮想モデルで扱うことが可能となり、設計変更や検証を仮想空間上で迅速に繰り返せるという。</p>
-<h2>「動く炉」を再現するデジタルモデル</h2>
-<p>今回のデジタルツインは、静的な3D設計モデルではなく、実際の運転を想定した動的モデルとして構築される。
-電磁場、熱、構造応力といった複数の物理現象を同時に扱い、将来的には実機から得られるデータを反映させることで、仮想モデルと現実の炉の状態を同期させる設計とされている。これにより、実際に装置を製作・試験する前の段階で、設計上の課題や挙動を検証できるようになる。</p>
-<h2>高磁場・小型化を支えるAI活用</h2>
-<p>SPARCは、高温超電導（HTS）磁石を用いることで、従来よりも小型ながら高磁場を実現する設計を採用している。
-CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したことを明らかにしている。この磁石は「空母を持ち上げられるほどの磁力を持つ」と説明されており、高磁場化に伴う構造応力や熱管理が技術的な焦点となっている。</p>
-<p>こうした複雑な物理挙動を事前に解析・検証するため、AIとシミュレーションを組み合わせたデジタルツインが設計プロセスの前提となっている。</p>
-<h2>実機開発と仮想検証を並行</h2>
-<p>CFSは、磁石の製造・据え付けと並行して、デジタルツイン上で炉全体の挙動解析を進める体制を構築している。
-物理的な試作・試験と、仮想空間での検証を同時に進めることで、開発工程全体の効率化を図る狙いだ。</p>
-<p>デジタルツインは、建設段階にとどまらず、将来的な運転や保守、最適化にも活用されることが想定されている。</p>
-<h2>2027年稼働を見据えた基盤整備</h2>
-<p>SPARCは、核融合反応による正味エネルギー獲得を目指す実証炉として開発が進められており、2027年の稼働が計画されている。
-今回のNVIDIAおよびSiemensとの連携は、設計から運転までをデータとAIに基づいて進める開発基盤を整備する取り組みとして位置付けられる。</p>
-]]></description>
-      <pubDate>Mon, 12 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「写真が勝手にビキニ化」AI「Grok」画像編集が炎上──未成年を含む生成も焦点に、各国で規制圧力</title>
       <link>https://ledge.ai/articles/grok_image_editing_nonconsensual_sexualized_images</link>
       <description><![CDATA[<p>2025年の年末から2026年の年始にかけ、米実業家イーロン・マスク氏が設立したAI開発企業 xAI が提供するAI「Grok」をめぐり、実在の人物の写真が本人の同意なく加工され、性的に見える画像としてSNS「X（旧Twitter）」上で拡散する事例が相次いだ。年末年始のタイミングで海外メディアが一斉に報じ、国際的な問題として注目を集めた。</p>
@@ -207,20 +195,6 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
 <p>こうした海外での一連の報道を受け、日本国内でも年末年始にかけてこの問題が紹介され、生成AIの利便性とリスクをめぐる議論が広がった。年の変わり目に一気に表面化したGrokをめぐる騒動は、生成AIとSNSが結びつくことで生じる影響の大きさを示す事例となっている。</p>
 ]]></description>
       <pubDate>Mon, 05 Jan 2026 08:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>未成年の自殺を巡るAI訴訟に進展──GoogleとCharacter.AI、4州訴訟で和解に合意</title>
-      <link>https://ledge.ai/articles/ai_chatbot_lawsuit_settlement_google_character_ai_four_states</link>
-      <description><![CDATA[<p>AIチャットボットとの会話が未成年の自殺につながったとして提起されていた訴訟をめぐり、GoogleとCharacter.AIが和解に合意した。フロリダ連邦地裁に提出された<a href="https://www.courtlistener.com/docket/69300919/garcia-v-character-technologies-inc/">書類</a>によると、当事者は調停による和解に原則合意し、裁判所は手続きをいったん終了させている。</p>
-<p>訴訟は、2024年に死亡した14歳の少年の母親が提起したもので、少年がCharacter.AIのチャットボットと継続的に会話していたことが問題とされた。裁判所に提出された通知によれば、2026年1月7日付で当事者は調停による和解に原則合意し、最終的な和解文書の作成と締結に向けて手続きを進めるとしている。裁判所は、一定期間内に最終処理が行われることを条件に、事件をいったん却下し、記録を閉じた。</p>
-<p>海外メディアの報道によると、2026年1月14日に裁判所に提出された法廷文書では、今回の和解がフロリダ州、コロラド州、ニューヨーク州、テキサス州で提起されていた訴訟を対象としていることが示されている。</p>
-<p>今回の訴訟では、チャットボットを直接提供していたCharacter.AIに加え、Googleも被告として名を連ねていた。原告側は、会話型AI技術の系譜や計算基盤（クラウド）の提供、事業面での関与などを理由に、Googleがサービスの成立に実質的に関与していたと主張していた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian_megan_garcia_and_son_8a039bc133/the_guardian_megan_garcia_and_son_8a039bc133.jpg" alt="the guardian megan garcia and son.jpg" /></p>
-<p>英紙<a href="https://www.theguardian.com/technology/2026/jan/08/google-character-ai-settlement-teen-suicide">The Guardian</a>は、Googleが2024年にCharacter.AIと約27億ドル規模のライセンス契約を結んでいたことが、同社が本件訴訟に関連付けられた背景の一つだと報じている。</p>
-<p>これに対しGoogleは、Character.AIの運営主体ではなく、クラウドサービスの提供のみで法的責任は生じないとして請求棄却を求めていた。裁判所は、この是非について判断を示さず、却下段階では原告の主張を排除できないとして、審理の余地があるとの姿勢を示していた。</p>
-<p>本件は、会話型AIと未成年をめぐるリスクが司法の場で争点となり得ることを示した一方、AIの法的責任について一般的な基準を確定させるものではなかった。基盤提供者を含む責任の射程については、今後も個別の訴訟や立法の場で検討が続くとみられる。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>独Black Forest Labs、画像生成AI「FLUX.2[klein]」を公開　生成・編集を統合し1秒未満の高速推論を実現</title>
