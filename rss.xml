@@ -248,7 +248,7 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>共通テスト2026、ChatGPT最新モデルが9科目満点──LifePrompt検証、精度の先で浮かぶ“弱点の質”</title>
+      <title>ラーニング2026/1/22 [THU]共通テスト2026、ChatGPT最新モデルが9科目満点──LifePrompt検証、精度の先で浮かぶ“弱点の質”</title>
       <link>https://ledge.ai/articles/common_test_2026_chatgpt_full_marks_9_subjects_lifeprompt_analysis</link>
       <description><![CDATA[<p>AIベンチャーのライフプロンプトは2026年1月20日、大学入学共通テスト（2026年度）の問題を複数の最新生成AIに解かせた検証結果を公式noteで<a href="https://note.com/lifeprompt/n/nb87edfb2e7ca">公開</a>した。OpenAIのGPT-5.2 Thinkingが、受験させた科目のうち9科目で満点を獲得したという。</p>
 <p>同社は同一条件下で、Gemini 3 Pro、Claude Opus4.5 にも同テストを受験させ、得点だけでなく解答に要した時間や誤答の傾向まで比較した。ライフプロンプトが「AI vs 共通テスト」の年次検証を行うのは2023年からで、今回が4年目となる。</p>
@@ -281,6 +281,44 @@ CFSはすでに、SPARC向けの初号磁石を完成させ、出荷したこと
 <p>AIが「解けるかどうか」ではなく、「どこで、なぜ落とすのか」が具体的に示される段階に入ったことを、今回の検証は示している。</p>
 <p>共通テストで9科目満点という結果は、生成AIの推論能力が標準化試験レベルでは極めて高い水準に到達したことを示す。一方で、図表の読み取りや感情理解といった領域では、人間とは異なるつまずき方をすることも明らかになった。</p>
 <p>今後も同社は同様の検証を続けるとしており、AIが入試問題を通じてどのように進化していくのかは、引き続き注目される。</p>
+]]></description>
+      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Transformerに代わる選択肢──ELYZA、日本語特化の拡散モデルベースのLLM「ELYZA-LLM-Diffusion」を商用利用可能な形で公開</title>
+      <link>https://ledge.ai/articles/elyza_llm_diffusion_japanese_dllm_release</link>
+      <description><![CDATA[<p>東京大学・松尾研究室から発足したAI開発企業の ELYZA は2026年1月16日、日本語に特化した拡散大規模言語モデル（dLLM）「ELYZA-LLM-Diffusion」シリーズを開発し、商用利用可能な形で<a href="https://prtimes.jp/main/html/rd/p/000000066.000047565.html">公開</a>した。</p>
+<p>画像生成AIで発展してきた拡散モデルを言語生成に応用することで、従来主流のTransformerに代表される自己回帰型モデルとは異なる生成方式を採用。日本語の知識力や指示追従能力を高めつつ、効率的な推論を可能にする点を特徴としている。</p>
+<h2>画像生成で培われた「拡散モデル」を言語生成へ</h2>
+<p>拡散大規模言語モデル（Diffusion Large Language Model、dLLM）は、もともと画像生成分野で広く使われてきた拡散モデルを言語生成に応用したものだ。</p>
+<p>自己回帰（Autoregressive）モデルがテキストを左から右へと逐次的に生成するのに対し、dLLMではテキスト全体にノイズを加え、そこから段階的にノイズを除去する「逆拡散過程」を通じて文章を生成する。</p>
+<p>この方式では、設計次第で逐次生成を前提としない推論が可能となる。処理回数を抑えられるため、生成効率の向上や消費電力低減につながる可能性がある点が、dLLMの特徴とされている。一方で、学習コストの高さや推論基盤の成熟度といった課題も指摘されており、実利用はこれまで限定的だった。</p>
+<h2>日本語データで追加学習、dLLMの日本語性能を強化</h2>
+<p>今回ELYZAが開発した「ELYZA-LLM-Diffusion」は、HKU NLP Group が公開しているdLLM「Dream-v0-Instruct-7B」をベースに、日本語データによる追加事前学習と指示学習を施したモデルだ。</p>
+<p>英語データ中心で学習された既存のdLLMが多い中、日本語に特化した知識力や指示追従能力の強化を狙った点が特徴となっている。</p>
+<h2>日本語ベンチマークで既存dLLMと同等以上の性能</h2>
+<p>ELYZAは本モデルの性能評価として、日本語タスクを中心とした複数のベンチマークを実施した。
+一般的な日本語能力を測るタスクや、日本語MTベンチマーク、コーディング能力（JHumanEval）、数学タスク（MATH-500日本語版を含む）などで評価を行い、既存のオープンなdLLMと比較して同等、またはそれを上回る性能を示したとしている。</p>
+<p>評価結果は、自己回帰型モデルとの直接的な優劣を示すものではなく、あくまでdLLMという枠組みの中での位置づけを示すものとされている。</p>
+<p><strong>■ 日本語タスクを中心に実施したベンチマーク評価結果。ELYZA-Diffusion-Instruct-1.0-Dream-7Bは、既存のオープンな拡散言語モデルと比較して同等、またはそれを上回る性能を示したとしている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8.webp" alt="47565-66-26607388b73b1b1ac71b2c88df8faeca-1329x830.webp" /></p>
+<h2>自己回帰と拡散、生成プロセスの違いをデモで可視化</h2>
+<p>ELYZAは、自己回帰モデルと拡散モデルの生成プロセスの違いを示すデモも公開している。
+同一入力に対し、自己回帰モデルではトークンが順に確定していく一方、拡散モデルではテキスト全体が段階的に更新されていく様子を確認できる。
+このデモは生成速度そのものを示すものではなく、生成方式の違いを直感的に理解するための技術的な可視化として位置づけられている。</p>
+<p><strong>■ 自己回帰モデル（AutoRegressive、左）と拡散モデル（Diffusion、右）における文章生成プロセスの比較デモ。拡散モデルでは、テキスト全体が段階的に更新されていく様子を確認できる</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/file_48b854e8ad/file_48b854e8ad.gif" alt="file.gif" /></p>
+<h2>Base／Instructの2モデルを公開、商用利用も想定</h2>
+<p>今回公開されたモデルは以下の2種類だ。</p>
+<ul>
+<li><strong>ELYZA-Diffusion-Base-1.0-Dream-7B：</strong> 日本語データによる追加事前学習を行ったベースモデル</li>
+<li><strong>ELYZA-Diffusion-Instruct-1.0-Dream-7B：</strong> Baseモデルに指示学習を施したモデル</li>
+</ul>
+<p>いずれもHugging Face上で公開されており、chatUI形式のデモも同時に提供されている。商用利用可能な形で公開されている点も、今回の発表の特徴の一つだ。</p>
+<h2>電力消費増大という課題と、dLLM研究の狙い</h2>
+<p>生成AIの利用拡大に伴い、電力消費の増大やAI向けデータセンター不足が国際的な課題となっている。
+ELYZAは、dLLMが持つ「少ない処理回数で文章を生成できる」という特性に着目し、推論時間や電力消費を抑えられる可能性を持つアプローチとして研究を進めてきた。</p>
+<p>今回の「ELYZA-LLM-Diffusion」は、自己回帰型が主流となっている言語モデルの設計に対し、別の選択肢を示す試みとして位置づけられる。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
