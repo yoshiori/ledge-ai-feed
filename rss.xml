@@ -232,6 +232,31 @@ GoogleがAntigravityでSkills対応を打ち出したことで、エージェン
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>GoogleDeepMind、動画から「4D（三次元空間＋時間）」で世界を再構成するAI「D4RT」　動く3D空間を高速・高精度に把握</title>
+      <link>https://ledge.ai/articles/deepmind_d4rt_4d_video_3d_reconstruction</link>
+      <description><![CDATA[<p>Google DeepMindは2026年1月22日、動画をもとに三次元空間を時間軸に沿って再構成・理解できるAIモデル「D4RT（Dynamic 4D Reconstruction and Tracking）」を開発したと<a href="https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/">発表</a>した。D4RTは、物体や人の動きを含む動的なシーンを「3次元＋時間」の4次元表現として捉え、従来手法と比べて高い精度と計算効率を実現したとしている。</p>
+<p>同社は、D4RTが人間と同じように、視覚情報から世界の構造と変化を一貫して理解するAIの実現に向けた基盤技術になると位置付けている。</p>
+<h2>動画から「3D＋時間」を一貫して推定</h2>
+<p>D4RTの特徴は、単一または複数視点の動画を入力として、空間構造とその時間的変化を同時に推定できる点にある。静止画像ごとに処理する従来型の手法とは異なり、動画全体から得られる情報を用いて、物体の位置関係や動きを時系列で整合的に再構成する。</p>
+<p>公式ブログによると、D4RTは人や物体が動く環境でも、遮蔽や視点変化に耐えながら、安定した3次元表現を維持できるという。これにより、現実世界のような複雑で動的なシーンの理解が可能になるとしている。</p>
+<p><strong>■ クエリによる時系列3D推定の例：</strong> 動画内の2D座標、参照時刻・対象時刻、カメラ情報をクエリとして与えることで、対象点の3次元位置を時間軸に沿って推定できる</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time2_c494089fc3/Deep_Mind_D4_RT_at_a_Time2_c494089fc3.jpg" alt="DeepMind D4RT at a Time2.jpg" /></p>
+<h2>クエリベースの単一モデルで複数タスクを統合</h2>
+<p>同社は、従来の動的3D理解が、深度推定や点追跡、カメラ位置推定などを別々のモデルで処理する構成になりがちだった点を課題として挙げる。D4RTでは、動画から生成した「グローバルなシーン表現」を基盤とし、独立したクエリを用いて必要な情報を取り出す仕組みを採用した。</p>
+<p><strong>■ D4RTの全体構成：</strong> 動画をエンコーダで処理し、時間を含むグローバルなシーン表現を生成。独立したクエリを用いてデコーダが任意の点や時刻の3次元位置・軌跡を推定する</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time1_7d397c63e3/Deep_Mind_D4_RT_at_a_Time1_7d397c63e3.jpg" alt="DeepMind D4RT at a Time1.jpg" /></p>
+<p>arXivで公開された論文では、特定の2次元座標や時刻、カメラ条件をクエリとして与えることで、対象点の3次元位置を任意の時点で推定できることが示されている。これにより、点追跡や3D再構成といった複数の処理を、単一のフレームワークで扱えるようになった。</p>
+<h2>既存手法より高速・高効率と主張</h2>
+<p>同社は、D4RTが既存の動的3D再構成手法と比べて、計算効率を大幅に改善したと説明する。公式ブログでは、条件によっては最大300倍の効率向上が得られたとしている。</p>
+<p>論文でも、複数のタスクや評価設定において、処理速度や効率の面で従来モデルを上回る結果が報告されている。これまで計算負荷が大きく、実用化の障壁となっていた動的シーン理解を、より現実的な計算コストで実行できる可能性があるという。</p>
+<h2>ロボティクスやAR/VRへの応用を視野</h2>
+<p>Google DeepMindは、D4RTをロボティクスや自律移動、拡張現実（AR）や仮想現実（VR）といった分野での基盤技術として想定している。現実世界を理解しながら行動するAIにとって、時間とともに変化する空間を正確に把握する能力は不可欠とされる。</p>
+<p>同社は、D4RTが「AIが世界を理解する方法」を一段階引き上げる取り組みだとしており、今後の研究や応用展開が注目される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace.jpg" alt="DeepMind D4RT at a Time3.jpg" /></p>
+]]></description>
+      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Transformerに代わる選択肢──ELYZA、日本語特化の拡散モデルベースのLLM「ELYZA-LLM-Diffusion」を商用利用可能な形で公開</title>
       <link>https://ledge.ai/articles/elyza_llm_diffusion_japanese_dllm_release</link>
       <description><![CDATA[<p>東京大学・松尾研究室から発足したAI開発企業の ELYZA は2026年1月16日、日本語に特化した拡散大規模言語モデル（dLLM）「ELYZA-LLM-Diffusion」シリーズを開発し、商用利用可能な形で<a href="https://prtimes.jp/main/html/rd/p/000000066.000047565.html">公開</a>した。</p>
@@ -283,28 +308,6 @@ ELYZAは、dLLMが持つ「少ない処理回数で文章を生成できる」�
 <p>その後、Google Japanは英語圏では「ジェミナイ」と発音されていることにも触れ、「なのでこれでももちろんOKです」と補足し、呼び方そのものについては柔軟な姿勢を示した。</p>
 <p>X上では、この一連の対応を受けて、「公式が改めて示したことで論争に終止符が打たれた」「対応が柔らかく、好感度が高い」といった声も見られる。公式見解を明確にしつつ、ユーザー側の呼び方も尊重する姿勢が、前向きに受け止められている形だ。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Google_Japan_X_Gemini6_42872f1e0a/Google_Japan_X_Gemini6_42872f1e0a.jpg" alt="GoogleJapanX Gemini6.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Gemma 3基盤の翻訳モデル群「TranslateGemma」を発表―—55言語対応のオープン翻訳AI、軽量モデルから高精度モデルまで提供</title>
-      <link>https://ledge.ai/articles/google_translategemma_gemma3_open_translation_models</link>
-      <description><![CDATA[<p>Googleは2026年1月15日（現地時間）、同社のオープン基盤モデル「Gemma 3」をベースにした翻訳特化モデル群「TranslateGemma」を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/">発表</a>した。55の言語を対象とし、効率と精度を両立したオープンな機械翻訳モデルとして公開された。研究者や開発者が自由に利用できるオープンウェイトモデルとして公開される。</p>
-<p>Googleによると、TranslateGemmaは大規模言語モデルを汎用的に利用するのではなく、翻訳タスクに特化した学習と最適化を行うことで、精度と計算効率の両立を図った点が特徴だという。</p>
-<p><strong>■ TranslateGemmaは、4B・12B・27Bの3つのパラメータサイズで提供され、デバイスや用途に応じた翻訳モデルの選択が可能とされている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translategemma_9695a89365/translategemma_9695a89365.jpg" alt="translategemma.jpg" /></p>
-<h2>3つのモデルサイズを提供</h2>
-<p>TranslateGemmaは用途に応じて選択可能な複数のモデルサイズで構成されている。
-比較的軽量なモデルはエッジデバイスやローカル環境での利用を想定しており、一方で大規模モデルはGPU環境での高精度翻訳を前提としている。Googleは、中規模クラスのモデルでも高い翻訳品質を実現しているとしている。</p>
-<p><strong>■  言語ファミリー別の翻訳エラー率比較。TranslateGemma 12Bは、多くの言語群でGemma 3 27Bに近い、またはそれを下回るエラー率を示している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_14_Chart_v3_width_1000_format_webp_ca763b5b1b/01_14_Chart_v3_width_1000_format_webp_ca763b5b1b.webp" alt="01-14_Chart_v3.width-1000.format-webp.webp" /></p>
-<h2>日本語を含む55言語に対応</h2>
-<p>対応言語には日本語を含む主要言語に加え、これまで翻訳リソースが限られていた中・低リソース言語も含まれる。Googleは、多言語対応を通じて研究用途や地域特化サービスへの応用を促進したい考えだ。</p>
-<h2>マルチモーダル能力も継承</h2>
-<p>TranslateGemmaは、基盤となるGemma 3の設計を引き継ぎ、テキスト翻訳に加えて画像内テキストの翻訳など、マルチモーダルなユースケースにも対応可能とされている。これにより、文書画像やスクリーンショットを含む翻訳処理にも応用できるという。</p>
-<h2>オープンウェイトとして公開</h2>
-<p>モデルの重みはオープンに提供され、開発者はローカル環境やクローズドなシステム内で翻訳モデルを実行・調整できる。Googleは、クラウド依存を避けたいケースや、特定ドメイン・言語ペア向けのカスタマイズ需要を想定している。</p>
-<p>GoogleはTranslateGemmaについて、研究用途だけでなく、プロダクトや業務システムへの組み込みなど、幅広い活用を見込んでいるとしている。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
