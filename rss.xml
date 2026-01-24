@@ -5,6 +5,77 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
+      <link>https://ledge.ai/articles/ai_autonomous_solution_erdos_problem_728</link>
+      <description><![CDATA[<p>AIが数学の未解決問題を「ほぼ自律的に解き切った」と、数学者が評価した。著名な数学者であるテレンス・タオ氏が2026年1月8日、分散型SNS「Mathstodon」への投稿で、エルデシュ問題の一つである #728 が、AIツールによって「more or less autonomously（ほぼ自律的に）」解かれたと<a href="https://mathstodon.xyz/@tao/115855840223258103">述べた</a>。</p>
+<p>この成果についてタオ氏は「私たちの知る限り、既存の文献では再現されていない」としたうえで、近年のAIツールの能力向上を示す「節目（milestone）」だと位置づけた。</p>
+<h2>エルデシュ問題とは</h2>
+<p>エルデシュ問題は、20世紀を代表する数学者ポール・エルデシュが提起した数多くの問題をもとに整理された、数学の未解決問題群を指す。現在も多くの問題が未解決のまま残されており、世界中の数学者が長年にわたって取り組んできた。</p>
+<p>今回タオ氏が言及した エルデシュ問題#728 は、その中の一つで、問題の内容や背景はエルデシュ問題の<a href="https://www.erdosproblems.com/728">公式サイト</a>で公開されている。</p>
+<p>未解決問題は、数学界において特別な位置づけを持つ。解決に至れば理論的に重要な意味を持つだけでなく、長年の研究の蓄積を塗り替える可能性があるためだ。</p>
+<p><strong>■ ポール・エルデシュ（左）と、当時10歳のテレンス・タオ。1985年撮影。</strong> エルデシュ問題は、エルデシュ自身が提起した未解決問題群に由来する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Paul_Erdos_with_Terence_Tao_952867730e/Paul_Erdos_with_Terence_Tao_952867730e.jpg" alt="Paul_Erdos_with_Terence_Tao.jpg" /></p>
+<h2>GPT-5.2 Proと人間の役割分担</h2>
+<p>証明には、OpenAIの大規模言語モデル GPT-5.2 Pro が用いられた。人間側は、計算環境の整備や初期試行へのフィードバック、結果の検証、形式的な証明への整理といった役割を担ったとされる。</p>
+<p>AIが完全に単独で問題を解決したわけではないものの、思考の主導権がどこにあったのかが、今回の評価における重要なポイントとなった。</p>
+<p><strong>■ 「ほぼ自律的に」解いた、という表現</strong>
+従来、AIは数学分野において計算の高速化や文献探索、発想の補助といった役割を担ってきた。一方で今回のケースでは、問題の解釈から解法の構築、証明に至るまでの過程をAIが主導したと評価された。</p>
+<p>タオ氏によれば、AIは初期の試行に対する一定のフィードバックを受けた後、問題の趣旨に沿った形で解決に到達したという。この点が、「ほぼ自律的」という表現につながった。</p>
+<h2>「解決以上に興味深い点」</h2>
+<p>タオ氏は今回の投稿で、解決結果そのものに加え、「それ以上に興味深い点がある」とも述べている。投稿では、</p>
+<p>「より興味深いのは、解法の説明（exposition）を迅速に書き、書き直し、再構成するAI主導の能力が現れつつある点だ」
+と指摘し、証明文書の作成や改稿をめぐるAIの能力向上に言及した。</p>
+<p><strong>■ テレンス・タオ氏がMathstodonに投稿したエルデシュ問題#728に関する発言。AIが「ほぼ自律的に」問題を解いたと評価している。</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/terencetao_mathstodon_b05b8af4d5/terencetao_mathstodon_b05b8af4d5.jpg" alt="terencetao mathstodon.jpg" /></p>
+<p>従来、数学論文の執筆や大幅な改稿には多大な時間と労力が必要だったが、AIによる文章生成と形式証明ツールを組み合わせることで、説明文を用途や読者に応じて柔軟に作り直すことが可能になりつつあるという。</p>
+<h2>他のAI解決事例との位置づけ</h2>
+<p><strong>■ エルデシュ問題を巡るAI活用事例を整理した公式Wikiの一部。#728は、AIによる解決後に類似文献が確認されたケースとして位置づけられている。</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/github_erdos_problem_058007f757/github_erdos_problem_058007f757.jpg" alt="github erdos problem.jpg" /></p>
+<p>タオ氏自身も、AIによるエルデシュ問題の解決例の多くでは、後に類似の結果が既存文献で確認されてきたと説明している。#728についても、問題文の再構成が比較的最近まで行われていなかったことが、先行研究が見当たらなかった理由の一つだとされている。</p>
+<h2>数学とAIの関係に生じた変化</h2>
+<p>今回の発言は、AIが数学者の役割を代替したことを示すものではない。一方で、未解決問題を対象とした成果について、数学者がAIの関与を明示的に評価し、その能力の到達点を具体的に言及した点は確認できる事実である。エルデシュ問題#728をめぐる今回の事例は、AIの活用がどの段階まで進んでいるのかを示す一例として位置づけられ、今後、同様の評価が他の問題や分野でも示されるかどうかが注目される。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Transformerに代わる選択肢──ELYZA、日本語特化の拡散モデルベースのLLM「ELYZA-LLM-Diffusion」を商用利用可能な形で公開</title>
+      <link>https://ledge.ai/articles/elyza_llm_diffusion_japanese_dllm_release</link>
+      <description><![CDATA[<p>東京大学・松尾研究室から発足したAI開発企業の ELYZA は2026年1月16日、日本語に特化した拡散大規模言語モデル（dLLM）「ELYZA-LLM-Diffusion」シリーズを開発し、商用利用可能な形で<a href="https://prtimes.jp/main/html/rd/p/000000066.000047565.html">公開</a>した。</p>
+<p>画像生成AIで発展してきた拡散モデルを言語生成に応用することで、従来主流のTransformerに代表される自己回帰型モデルとは異なる生成方式を採用。日本語の知識力や指示追従能力を高めつつ、効率的な推論を可能にする点を特徴としている。</p>
+<h2>画像生成で培われた「拡散モデル」を言語生成へ</h2>
+<p>拡散大規模言語モデル（Diffusion Large Language Model、dLLM）は、もともと画像生成分野で広く使われてきた拡散モデルを言語生成に応用したものだ。</p>
+<p>自己回帰（Autoregressive）モデルがテキストを左から右へと逐次的に生成するのに対し、dLLMではテキスト全体にノイズを加え、そこから段階的にノイズを除去する「逆拡散過程」を通じて文章を生成する。</p>
+<p>この方式では、設計次第で逐次生成を前提としない推論が可能となる。処理回数を抑えられるため、生成効率の向上や消費電力低減につながる可能性がある点が、dLLMの特徴とされている。一方で、学習コストの高さや推論基盤の成熟度といった課題も指摘されており、実利用はこれまで限定的だった。</p>
+<h2>日本語データで追加学習、dLLMの日本語性能を強化</h2>
+<p>今回ELYZAが開発した「ELYZA-LLM-Diffusion」は、HKU NLP Group が公開しているdLLM「Dream-v0-Instruct-7B」をベースに、日本語データによる追加事前学習と指示学習を施したモデルだ。</p>
+<p>英語データ中心で学習された既存のdLLMが多い中、日本語に特化した知識力や指示追従能力の強化を狙った点が特徴となっている。</p>
+<h2>日本語ベンチマークで既存dLLMと同等以上の性能</h2>
+<p>ELYZAは本モデルの性能評価として、日本語タスクを中心とした複数のベンチマークを実施した。
+一般的な日本語能力を測るタスクや、日本語MTベンチマーク、コーディング能力（JHumanEval）、数学タスク（MATH-500日本語版を含む）などで評価を行い、既存のオープンなdLLMと比較して同等、またはそれを上回る性能を示したとしている。</p>
+<p>評価結果は、自己回帰型モデルとの直接的な優劣を示すものではなく、あくまでdLLMという枠組みの中での位置づけを示すものとされている。</p>
+<p><strong>■ 日本語タスクを中心に実施したベンチマーク評価結果。ELYZA-Diffusion-Instruct-1.0-Dream-7Bは、既存のオープンな拡散言語モデルと比較して同等、またはそれを上回る性能を示したとしている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8.webp" alt="47565-66-26607388b73b1b1ac71b2c88df8faeca-1329x830.webp" /></p>
+<h2>自己回帰と拡散、生成プロセスの違いをデモで可視化</h2>
+<p>ELYZAは、自己回帰モデルと拡散モデルの生成プロセスの違いを示すデモも公開している。
+同一入力に対し、自己回帰モデルではトークンが順に確定していく一方、拡散モデルではテキスト全体が段階的に更新されていく様子を確認できる。
+このデモは生成速度そのものを示すものではなく、生成方式の違いを直感的に理解するための技術的な可視化として位置づけられている。</p>
+<p><strong>■ 自己回帰モデル（AutoRegressive、左）と拡散モデル（Diffusion、右）における文章生成プロセスの比較デモ。拡散モデルでは、テキスト全体が段階的に更新されていく様子を確認できる</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/file_48b854e8ad/file_48b854e8ad.gif" alt="file.gif" /></p>
+<h2>Base／Instructの2モデルを公開、商用利用も想定</h2>
+<p>今回公開されたモデルは以下の2種類だ。</p>
+<ul>
+<li><strong>ELYZA-Diffusion-Base-1.0-Dream-7B：</strong> 日本語データによる追加事前学習を行ったベースモデル</li>
+<li><strong>ELYZA-Diffusion-Instruct-1.0-Dream-7B：</strong> Baseモデルに指示学習を施したモデル</li>
+</ul>
+<p>いずれもHugging Face上で公開されており、chatUI形式のデモも同時に提供されている。商用利用可能な形で公開されている点も、今回の発表の特徴の一つだ。</p>
+<h2>電力消費増大という課題と、dLLM研究の狙い</h2>
+<p>生成AIの利用拡大に伴い、電力消費の増大やAI向けデータセンター不足が国際的な課題となっている。
+ELYZAは、dLLMが持つ「少ない処理回数で文章を生成できる」という特性に着目し、推論時間や電力消費を抑えられる可能性を持つアプローチとして研究を進めてきた。</p>
+<p>今回の「ELYZA-LLM-Diffusion」は、自己回帰型が主流となっている言語モデルの設計に対し、別の選択肢を示す試みとして位置づけられる。</p>
+]]></description>
+      <pubDate>Thu, 22 Jan 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ラーニング2026/1/22 [THU]共通テスト2026、ChatGPT最新モデルが9科目満点──LifePrompt検証、精度の先で浮かぶ“弱点の質”</title>
       <link>https://ledge.ai/articles/common_test_2026_chatgpt_full_marks_9_subjects_lifeprompt_analysis</link>
       <description><![CDATA[<p>AIベンチャーのライフプロンプトは2026年1月20日、大学入学共通テスト（2026年度）の問題を複数の最新生成AIに解かせた検証結果を公式noteで<a href="https://note.com/lifeprompt/n/nb87edfb2e7ca">公開</a>した。OpenAIのGPT-5.2 Thinkingが、受験させた科目のうち9科目で満点を獲得したという。</p>
@@ -42,6 +113,24 @@
       <pubDate>Thu, 22 Jan 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Stack Overflowの質問数が急減、ピーク比で約8割減──生成AI普及で開発者の行動に変化</title>
+      <link>https://ledge.ai/articles/stack_overflow_questions_decline_generative_ai</link>
+      <description><![CDATA[<p>情報技術系コミュニティサイト「Stack Overflow」で、ユーザーから投稿される質問数が大幅に減少していることが、公開データから明らかになった。Stack Exchangeが提供する公開データベース「<a href="https://data.stackexchange.com/stackoverflow/query/1926661#graph">Stack Exchange Data Explorer（SEDE）</a>」を2026年1月時点で集計したところ、Stack Overflowの質問投稿数が長期的に大きく減少していることが分かった。</p>
+<p>月別の質問投稿数を集計すると、最盛期と比べて約8割減の水準にまで落ち込んでおり、開発者が問題解決の手段を変えつつある実態が浮かび上がっている。</p>
+<h2>公開データが示す質問数の急減</h2>
+<p>Stack Exchangeが提供する公開データベース「Stack Exchange Data Explorer（SEDE）」を用いて、Stack Overflow上の質問投稿（PostTypeId＝1）を月別に集計すると、2010年代後半にピークを迎えた後、投稿数は長期的な減少傾向に入っている。特に2023年以降は減少ペースが加速しており、直近の水準はピーク時と比べて約78％減となっている。</p>
+<p>この集計では、削除済みの投稿や集計条件による差異が生じる可能性はあるものの、クエリ条件を変えても「質問数が大きく減少している」という全体傾向は一貫して確認できる。</p>
+<h2>生成AIの普及で変わる開発者の問題解決行動</h2>
+<p>質問投稿数が減った背景として、複数の海外メディアは生成AIの普及を挙げている。開発者は、コードの書き方やエラー内容の解釈といった疑問を、Q&amp;Aサイトに投稿して回答を待つのではなく、ChatGPTなどの対話型AIに直接尋ね、即座に解決するケースが増えているとされる。</p>
+<p>Stack Overflow自身が実施している年次の開発者調査でも、生成AIツールの利用が急速に広がっていることが示されており、問題解決の導線が従来とは異なる形へ移行しつつあることがうかがえる。</p>
+<h2>「質問の場」から「知識基盤」へ移る役割</h2>
+<p>一方で、新規質問の投稿数が減少しているからといって、Stack Overflowの価値が失われたわけではない。これまでに蓄積された膨大なQ&amp;Aコンテンツは、現在も検索経由で参照され続けており、知識ベースとしての役割は維持されている。生成AIが回答を生成する際の参照元として、過去の投稿が利用されるケースも少なくない。</p>
+<p>Stack Overflowは現在、投資会社Prosus傘下の事業として運営が続けられている。質問数の減少と、事業としての継続性や収益構造は必ずしも直結するものではなく、開発者コミュニティの利用形態が変化する中で、サービスの位置づけそのものが転換点を迎えている状況といえる。</p>
+<p>生成AIの普及によって、開発者が「質問を投稿する場」としての利用を減らす一方、「知識を参照する基盤」としての役割が相対的に高まる。Stack Overflowの質問数減少は、開発者の行動変化を映し出す象徴的な事例となっている。</p>
+]]></description>
+      <pubDate>Wed, 21 Jan 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、月8ドルの低価格プラン「ChatGPT Go」を世界展開──アクセス拡大を狙い、無料版・Go向け広告テスト方針も公表</title>
       <link>https://ledge.ai/articles/openai_chatgpt_go_global_launch_ads_test_policy</link>
       <description><![CDATA[<p>OpenAI は2026年1月16日（現地時間）、対話型AI「ChatGPT」の新たな料金プラン「ChatGPT Go」を、ChatGPTが提供されているすべての地域で利用可能にしたと<a href="https://openai.com/ja-JP/index/introducing-chatgpt-go/">発表</a>した。
@@ -66,20 +155,6 @@
 <p>OpenAIは今回の取り組みについて、AI開発と運用にかかるコストが増大する中でも、より多くの人にChatGPTへのアクセスを提供するための施策だと位置付けており、広告テストについても利用者からのフィードバックを踏まえながら改善していく方針を示している。</p>
 ]]></description>
       <pubDate>Mon, 19 Jan 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>未成年の自殺を巡るAI訴訟に進展──GoogleとCharacter.AI、4州訴訟で和解に合意</title>
-      <link>https://ledge.ai/articles/ai_chatbot_lawsuit_settlement_google_character_ai_four_states</link>
-      <description><![CDATA[<p>AIチャットボットとの会話が未成年の自殺につながったとして提起されていた訴訟をめぐり、GoogleとCharacter.AIが和解に合意した。フロリダ連邦地裁に提出された<a href="https://www.courtlistener.com/docket/69300919/garcia-v-character-technologies-inc/">書類</a>によると、当事者は調停による和解に原則合意し、裁判所は手続きをいったん終了させている。</p>
-<p>訴訟は、2024年に死亡した14歳の少年の母親が提起したもので、少年がCharacter.AIのチャットボットと継続的に会話していたことが問題とされた。裁判所に提出された通知によれば、2026年1月7日付で当事者は調停による和解に原則合意し、最終的な和解文書の作成と締結に向けて手続きを進めるとしている。裁判所は、一定期間内に最終処理が行われることを条件に、事件をいったん却下し、記録を閉じた。</p>
-<p>海外メディアの報道によると、2026年1月14日に裁判所に提出された法廷文書では、今回の和解がフロリダ州、コロラド州、ニューヨーク州、テキサス州で提起されていた訴訟を対象としていることが示されている。</p>
-<p>今回の訴訟では、チャットボットを直接提供していたCharacter.AIに加え、Googleも被告として名を連ねていた。原告側は、会話型AI技術の系譜や計算基盤（クラウド）の提供、事業面での関与などを理由に、Googleがサービスの成立に実質的に関与していたと主張していた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian_megan_garcia_and_son_8a039bc133/the_guardian_megan_garcia_and_son_8a039bc133.jpg" alt="the guardian megan garcia and son.jpg" /></p>
-<p>英紙<a href="https://www.theguardian.com/technology/2026/jan/08/google-character-ai-settlement-teen-suicide">The Guardian</a>は、Googleが2024年にCharacter.AIと約27億ドル規模のライセンス契約を結んでいたことが、同社が本件訴訟に関連付けられた背景の一つだと報じている。</p>
-<p>これに対しGoogleは、Character.AIの運営主体ではなく、クラウドサービスの提供のみで法的責任は生じないとして請求棄却を求めていた。裁判所は、この是非について判断を示さず、却下段階では原告の主張を排除できないとして、審理の余地があるとの姿勢を示していた。</p>
-<p>本件は、会話型AIと未成年をめぐるリスクが司法の場で争点となり得ることを示した一方、AIの法的責任について一般的な基準を確定させるものではなかった。基盤提供者を含む責任の射程については、今後も個別の訴訟や立法の場で検討が続くとみられる。</p>
-]]></description>
-      <pubDate>Sun, 18 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>LLMは日本の司法試験を突破できるのか──慶應義塾大研究、短答式で合格点に到達</title>
@@ -148,38 +223,6 @@ Grokを巡っては、規制対応と実利用の判断が異なるレイヤー�
       <pubDate>Fri, 16 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Googleの開発用プラットフォーム「Antigravity」に“Agent Skills”登場　エージェントに作業手順を配布できるオープン標準</title>
-      <link>https://ledge.ai/articles/google_antigravity_agent_skills_open_standard</link>
-      <description><![CDATA[<p>Google は2026年1月14日（現地時間）、同社の開発用プラットフォームAntigravityにおいて、エージェントの機能を拡張するパッケージ「Skills」のオープン標準を<a href="https://antigravity.google/docs/skills">発表</a>した。Skillsは、特定の作業に必要な手順やベストプラクティス、必要に応じてスクリプトや参考実装などをまとめた再利用可能な知識パッケージで、エージェントは作業時にそれらを参照しながらタスクを進められる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Antigravity_x_ab552c6744/Antigravity_x_ab552c6744.jpg" alt="Antigravity x.jpg" /></p>
-<h2>作業手順を“知識パッケージ”として配布</h2>
-<p>Skillsは、エージェントに対して都度プロンプトで細かな指示を与えるのではなく、あらかじめ整理された作業マニュアル一式を参照させるための仕組みだ。単純な定型作業から、判断を伴う業務フローまでをSkillとして定義でき、同じSkillを複数のエージェントやプロジェクトで再利用できる点が特徴となる。</p>
-<h2>人が書き、エージェントが参照するための共通フォーマット</h2>
-<p>各Skillはフォルダー単位で構成され、その中核となるのがSKILL.mdファイルだ。SKILL.mdには、Skillの名称や概要、前提条件、具体的な手順などをYAML形式のフロントマターとして記載し、本文には作業手順をMarkdownで記述する。
-同じフォルダー内には、スクリプト、テンプレート、参考実装などの追加リソースを含めることができ、Skill全体として一体的に扱われる。</p>
-<h2>単純作業から業務フローまでを扱える設計</h2>
-<p>より複雑なSkillでは、「条件に応じて次の手順を切り替える」といった意思決定の分岐も記述可能だ。Antigravityでは、1つのSkillにつき目的を明確にし、説明文を具体的に書くことを推奨している。これにより、エージェントが必要な情報だけを参照しながら作業を進められる設計となっている。</p>
-<h2>先行するAnthropicの「Agent Skills」という発想</h2>
-<p>このSkillsの設計思想は、Anthropicが先行して提示してきた「Agent Skills」の考え方と重なる。Anthropicは、エージェントに現実的な業務能力を持たせるため、SKILL.mdを中心とした構造を採用し、2025年末には特定のプラットフォームに依存しないオープン標準として公開していた。
-GoogleがAntigravityでSkills対応を打ち出したことで、エージェントに与える作業手順やノウハウをツール横断で共有する流れが、主要プラットフォーム間で具体化しつつある。</p>
-]]></description>
-      <pubDate>Fri, 16 Jan 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIとソフトバンクグループ、SB Energyに10億ドル投資──「Stargate」構想 1.2GW級データセンター建設を加速</title>
-      <link>https://ledge.ai/articles/openai_softbank_sb_energy_stargate_data_center_investment</link>
-      <description><![CDATA[<p>OpenAIとソフトバンクグループは2026年1月9日（米太平洋時間）、ソフトバンクグループ傘下の米インフラ企業SB Energyと戦略的パートナーシップを締結し、同社に総額10億ドル（各社5億ドル）を投資すると<a href="https://openai.com/ja-JP/index/stargate-sb-energy-partnership/">発表</a>した。今回の提携は、米国における次世代AI・エネルギー基盤の構築を目的とする「Stargate」構想の一環と位置づけられている。</p>
-<p>OpenAIは同社を、テキサス州ミラム郡に計画されている1.2GW規模のデータセンターサイトの建設・運営パートナーに選定。OpenAIはこの初期データセンター構築に向け、1.2GW分のデータセンターリース契約を締結している。今回の出資は、SB Energyが大規模データセンターキャンパスおよび関連エネルギーインフラの開発・実行パートナーとして成長することを支援する狙いがある。</p>
-<p>SB Energyは現在、複数のマルチギガワット級データセンターキャンパスを開発中で、最初の施設はすでに建設段階にあり、2026年から順次稼働を開始する予定だという。今回の取り組みは、ホワイトハウスで1月に発表された5,000億ドル規模の「Stargate」コミットメントを基盤とするものだ。</p>
-<p>今回の取引の一環として、OpenAI、ソフトバンクグループ、SB Energyの3社は、非独占の優先パートナーシップも締結した。OpenAIの自社設計によるデータセンターと、SB Energyのスピード、コスト管理、統合型エネルギー供給の知見を組み合わせ、AI専用インフラを大規模に構築する新たなモデルの開発を目指すとしている。SB Energyは各プロジェクトを通じて、雇用創出や人材育成、送電網の近代化など、地域社会への投資も行う方針だ。</p>
-<p>またSB Energyは、データセンター事業の成長を支えるため、データセンター建設管理・調達・設計・運用を手がけるStudio 151を買収した。20以上のデータセンターキャンパスで実績を持つ同社を取り込むことで、開発から運用までの内製能力を強化する。</p>
-<p>なお、SB Energyは2025年に、米投資会社Aresから8億ドルの償還可能優先株式による出資を受けており、今回の投資はAresとの長期的な関係をさらに深めるものだとしている。</p>
-<p>今回の投資と提携は、AIモデルの開発競争そのものではなく、大規模な計算資源を支える電力・用地・建設能力を含めた「AIインフラ」を確保する動きとして位置づけられる。</p>
-<p>Stargate構想のもと、OpenAIとソフトバンクグループは、計算基盤の主導権を中長期で握る体制づくりを進めている。</p>
-]]></description>
-      <pubDate>Thu, 15 Jan 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「写真が勝手にビキニ化」AI「Grok」画像編集が炎上──未成年を含む生成も焦点に、各国で規制圧力</title>
       <link>https://ledge.ai/articles/grok_image_editing_nonconsensual_sexualized_images</link>
       <description><![CDATA[<p>2025年の年末から2026年の年始にかけ、米実業家イーロン・マスク氏が設立したAI開発企業 xAI が提供するAI「Grok」をめぐり、実在の人物の写真が本人の同意なく加工され、性的に見える画像としてSNS「X（旧Twitter）」上で拡散する事例が相次いだ。年末年始のタイミングで海外メディアが一斉に報じ、国際的な問題として注目を集めた。</p>
@@ -193,39 +236,6 @@ GoogleがAntigravityでSkills対応を打ち出したことで、エージェン
 <p>こうした海外での一連の報道を受け、日本国内でも年末年始にかけてこの問題が紹介され、生成AIの利便性とリスクをめぐる議論が広がった。年の変わり目に一気に表面化したGrokをめぐる騒動は、生成AIとSNSが結びつくことで生じる影響の大きさを示す事例となっている。</p>
 ]]></description>
       <pubDate>Mon, 05 Jan 2026 08:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
-      <link>https://ledge.ai/articles/ai_autonomous_solution_erdos_problem_728</link>
-      <description><![CDATA[<p>AIが数学の未解決問題を「ほぼ自律的に解き切った」と、数学者が評価した。著名な数学者であるテレンス・タオ氏が2026年1月8日、分散型SNS「Mathstodon」への投稿で、エルデシュ問題の一つである #728 が、AIツールによって「more or less autonomously（ほぼ自律的に）」解かれたと<a href="https://mathstodon.xyz/@tao/115855840223258103">述べた</a>。</p>
-<p>この成果についてタオ氏は「私たちの知る限り、既存の文献では再現されていない」としたうえで、近年のAIツールの能力向上を示す「節目（milestone）」だと位置づけた。</p>
-<h2>エルデシュ問題とは</h2>
-<p>エルデシュ問題は、20世紀を代表する数学者ポール・エルデシュが提起した数多くの問題をもとに整理された、数学の未解決問題群を指す。現在も多くの問題が未解決のまま残されており、世界中の数学者が長年にわたって取り組んできた。</p>
-<p>今回タオ氏が言及した エルデシュ問題#728 は、その中の一つで、問題の内容や背景はエルデシュ問題の<a href="https://www.erdosproblems.com/728">公式サイト</a>で公開されている。</p>
-<p>未解決問題は、数学界において特別な位置づけを持つ。解決に至れば理論的に重要な意味を持つだけでなく、長年の研究の蓄積を塗り替える可能性があるためだ。</p>
-<p><strong>■ ポール・エルデシュ（左）と、当時10歳のテレンス・タオ。1985年撮影。</strong> エルデシュ問題は、エルデシュ自身が提起した未解決問題群に由来する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Paul_Erdos_with_Terence_Tao_952867730e/Paul_Erdos_with_Terence_Tao_952867730e.jpg" alt="Paul_Erdos_with_Terence_Tao.jpg" /></p>
-<h2>GPT-5.2 Proと人間の役割分担</h2>
-<p>証明には、OpenAIの大規模言語モデル GPT-5.2 Pro が用いられた。人間側は、計算環境の整備や初期試行へのフィードバック、結果の検証、形式的な証明への整理といった役割を担ったとされる。</p>
-<p>AIが完全に単独で問題を解決したわけではないものの、思考の主導権がどこにあったのかが、今回の評価における重要なポイントとなった。</p>
-<p><strong>■ 「ほぼ自律的に」解いた、という表現</strong>
-従来、AIは数学分野において計算の高速化や文献探索、発想の補助といった役割を担ってきた。一方で今回のケースでは、問題の解釈から解法の構築、証明に至るまでの過程をAIが主導したと評価された。</p>
-<p>タオ氏によれば、AIは初期の試行に対する一定のフィードバックを受けた後、問題の趣旨に沿った形で解決に到達したという。この点が、「ほぼ自律的」という表現につながった。</p>
-<h2>「解決以上に興味深い点」</h2>
-<p>タオ氏は今回の投稿で、解決結果そのものに加え、「それ以上に興味深い点がある」とも述べている。投稿では、</p>
-<p>「より興味深いのは、解法の説明（exposition）を迅速に書き、書き直し、再構成するAI主導の能力が現れつつある点だ」
-と指摘し、証明文書の作成や改稿をめぐるAIの能力向上に言及した。</p>
-<p><strong>■ テレンス・タオ氏がMathstodonに投稿したエルデシュ問題#728に関する発言。AIが「ほぼ自律的に」問題を解いたと評価している。</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/terencetao_mathstodon_b05b8af4d5/terencetao_mathstodon_b05b8af4d5.jpg" alt="terencetao mathstodon.jpg" /></p>
-<p>従来、数学論文の執筆や大幅な改稿には多大な時間と労力が必要だったが、AIによる文章生成と形式証明ツールを組み合わせることで、説明文を用途や読者に応じて柔軟に作り直すことが可能になりつつあるという。</p>
-<h2>他のAI解決事例との位置づけ</h2>
-<p><strong>■ エルデシュ問題を巡るAI活用事例を整理した公式Wikiの一部。#728は、AIによる解決後に類似文献が確認されたケースとして位置づけられている。</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/github_erdos_problem_058007f757/github_erdos_problem_058007f757.jpg" alt="github erdos problem.jpg" /></p>
-<p>タオ氏自身も、AIによるエルデシュ問題の解決例の多くでは、後に類似の結果が既存文献で確認されてきたと説明している。#728についても、問題文の再構成が比較的最近まで行われていなかったことが、先行研究が見当たらなかった理由の一つだとされている。</p>
-<h2>数学とAIの関係に生じた変化</h2>
-<p>今回の発言は、AIが数学者の役割を代替したことを示すものではない。一方で、未解決問題を対象とした成果について、数学者がAIの関与を明示的に評価し、その能力の到達点を具体的に言及した点は確認できる事実である。エルデシュ問題#728をめぐる今回の事例は、AIの活用がどの段階まで進んでいるのかを示す一例として位置づけられ、今後、同様の評価が他の問題や分野でも示されるかどうかが注目される。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>クマも「顔認識」で個体特定へ──BearID、野生動物管理の新たな手段として注目</title>
@@ -286,44 +296,6 @@ GoogleがAntigravityでSkills対応を打ち出したことで、エージェン
 <p>Google DeepMindは、D4RTをロボティクスや自律移動、拡張現実（AR）や仮想現実（VR）といった分野での基盤技術として想定している。現実世界を理解しながら行動するAIにとって、時間とともに変化する空間を正確に把握する能力は不可欠とされる。</p>
 <p>同社は、D4RTが「AIが世界を理解する方法」を一段階引き上げる取り組みだとしており、今後の研究や応用展開が注目される。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace.jpg" alt="DeepMind D4RT at a Time3.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Transformerに代わる選択肢──ELYZA、日本語特化の拡散モデルベースのLLM「ELYZA-LLM-Diffusion」を商用利用可能な形で公開</title>
-      <link>https://ledge.ai/articles/elyza_llm_diffusion_japanese_dllm_release</link>
-      <description><![CDATA[<p>東京大学・松尾研究室から発足したAI開発企業の ELYZA は2026年1月16日、日本語に特化した拡散大規模言語モデル（dLLM）「ELYZA-LLM-Diffusion」シリーズを開発し、商用利用可能な形で<a href="https://prtimes.jp/main/html/rd/p/000000066.000047565.html">公開</a>した。</p>
-<p>画像生成AIで発展してきた拡散モデルを言語生成に応用することで、従来主流のTransformerに代表される自己回帰型モデルとは異なる生成方式を採用。日本語の知識力や指示追従能力を高めつつ、効率的な推論を可能にする点を特徴としている。</p>
-<h2>画像生成で培われた「拡散モデル」を言語生成へ</h2>
-<p>拡散大規模言語モデル（Diffusion Large Language Model、dLLM）は、もともと画像生成分野で広く使われてきた拡散モデルを言語生成に応用したものだ。</p>
-<p>自己回帰（Autoregressive）モデルがテキストを左から右へと逐次的に生成するのに対し、dLLMではテキスト全体にノイズを加え、そこから段階的にノイズを除去する「逆拡散過程」を通じて文章を生成する。</p>
-<p>この方式では、設計次第で逐次生成を前提としない推論が可能となる。処理回数を抑えられるため、生成効率の向上や消費電力低減につながる可能性がある点が、dLLMの特徴とされている。一方で、学習コストの高さや推論基盤の成熟度といった課題も指摘されており、実利用はこれまで限定的だった。</p>
-<h2>日本語データで追加学習、dLLMの日本語性能を強化</h2>
-<p>今回ELYZAが開発した「ELYZA-LLM-Diffusion」は、HKU NLP Group が公開しているdLLM「Dream-v0-Instruct-7B」をベースに、日本語データによる追加事前学習と指示学習を施したモデルだ。</p>
-<p>英語データ中心で学習された既存のdLLMが多い中、日本語に特化した知識力や指示追従能力の強化を狙った点が特徴となっている。</p>
-<h2>日本語ベンチマークで既存dLLMと同等以上の性能</h2>
-<p>ELYZAは本モデルの性能評価として、日本語タスクを中心とした複数のベンチマークを実施した。
-一般的な日本語能力を測るタスクや、日本語MTベンチマーク、コーディング能力（JHumanEval）、数学タスク（MATH-500日本語版を含む）などで評価を行い、既存のオープンなdLLMと比較して同等、またはそれを上回る性能を示したとしている。</p>
-<p>評価結果は、自己回帰型モデルとの直接的な優劣を示すものではなく、あくまでdLLMという枠組みの中での位置づけを示すものとされている。</p>
-<p><strong>■ 日本語タスクを中心に実施したベンチマーク評価結果。ELYZA-Diffusion-Instruct-1.0-Dream-7Bは、既存のオープンな拡散言語モデルと比較して同等、またはそれを上回る性能を示したとしている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8/47565_66_26607388b73b1b1ac71b2c88df8faeca_1329x830_d1a0a075f8.webp" alt="47565-66-26607388b73b1b1ac71b2c88df8faeca-1329x830.webp" /></p>
-<h2>自己回帰と拡散、生成プロセスの違いをデモで可視化</h2>
-<p>ELYZAは、自己回帰モデルと拡散モデルの生成プロセスの違いを示すデモも公開している。
-同一入力に対し、自己回帰モデルではトークンが順に確定していく一方、拡散モデルではテキスト全体が段階的に更新されていく様子を確認できる。
-このデモは生成速度そのものを示すものではなく、生成方式の違いを直感的に理解するための技術的な可視化として位置づけられている。</p>
-<p><strong>■ 自己回帰モデル（AutoRegressive、左）と拡散モデル（Diffusion、右）における文章生成プロセスの比較デモ。拡散モデルでは、テキスト全体が段階的に更新されていく様子を確認できる</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/file_48b854e8ad/file_48b854e8ad.gif" alt="file.gif" /></p>
-<h2>Base／Instructの2モデルを公開、商用利用も想定</h2>
-<p>今回公開されたモデルは以下の2種類だ。</p>
-<ul>
-<li><strong>ELYZA-Diffusion-Base-1.0-Dream-7B：</strong> 日本語データによる追加事前学習を行ったベースモデル</li>
-<li><strong>ELYZA-Diffusion-Instruct-1.0-Dream-7B：</strong> Baseモデルに指示学習を施したモデル</li>
-</ul>
-<p>いずれもHugging Face上で公開されており、chatUI形式のデモも同時に提供されている。商用利用可能な形で公開されている点も、今回の発表の特徴の一つだ。</p>
-<h2>電力消費増大という課題と、dLLM研究の狙い</h2>
-<p>生成AIの利用拡大に伴い、電力消費の増大やAI向けデータセンター不足が国際的な課題となっている。
-ELYZAは、dLLMが持つ「少ない処理回数で文章を生成できる」という特性に着目し、推論時間や電力消費を抑えられる可能性を持つアプローチとして研究を進めてきた。</p>
-<p>今回の「ELYZA-LLM-Diffusion」は、自己回帰型が主流となっている言語モデルの設計に対し、別の選択肢を示す試みとして位置づけられる。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
@@ -625,24 +597,6 @@ A: ぜひ伝えたいのは、「5年前にAMDのGPUを試して『まだ熟成�
 <p><strong>■ Romi専用ラボで行われる点検・外装交換作業。開発元による公式アフターケア体制を整備した</strong></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/lab01_1024x444_f66c7d779c/lab01_1024x444_f66c7d779c.webp" alt="lab01-1024x444.webp" /></p>
 <p>Romiは、日常会話を通じてユーザーと関係性を築く家庭向けの会話AIロボットとして展開されてきた。今回の公式アフターケアの開始により、AIロボットを「購入して終わり」の製品ではなく、長期的に付き合う存在として支える仕組みが整備された形だ。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stack Overflowの質問数が急減、ピーク比で約8割減──生成AI普及で開発者の行動に変化</title>
-      <link>https://ledge.ai/articles/stack_overflow_questions_decline_generative_ai</link>
-      <description><![CDATA[<p>情報技術系コミュニティサイト「Stack Overflow」で、ユーザーから投稿される質問数が大幅に減少していることが、公開データから明らかになった。Stack Exchangeが提供する公開データベース「<a href="https://data.stackexchange.com/stackoverflow/query/1926661#graph">Stack Exchange Data Explorer（SEDE）</a>」を2026年1月時点で集計したところ、Stack Overflowの質問投稿数が長期的に大きく減少していることが分かった。</p>
-<p>月別の質問投稿数を集計すると、最盛期と比べて約8割減の水準にまで落ち込んでおり、開発者が問題解決の手段を変えつつある実態が浮かび上がっている。</p>
-<h2>公開データが示す質問数の急減</h2>
-<p>Stack Exchangeが提供する公開データベース「Stack Exchange Data Explorer（SEDE）」を用いて、Stack Overflow上の質問投稿（PostTypeId＝1）を月別に集計すると、2010年代後半にピークを迎えた後、投稿数は長期的な減少傾向に入っている。特に2023年以降は減少ペースが加速しており、直近の水準はピーク時と比べて約78％減となっている。</p>
-<p>この集計では、削除済みの投稿や集計条件による差異が生じる可能性はあるものの、クエリ条件を変えても「質問数が大きく減少している」という全体傾向は一貫して確認できる。</p>
-<h2>生成AIの普及で変わる開発者の問題解決行動</h2>
-<p>質問投稿数が減った背景として、複数の海外メディアは生成AIの普及を挙げている。開発者は、コードの書き方やエラー内容の解釈といった疑問を、Q&amp;Aサイトに投稿して回答を待つのではなく、ChatGPTなどの対話型AIに直接尋ね、即座に解決するケースが増えているとされる。</p>
-<p>Stack Overflow自身が実施している年次の開発者調査でも、生成AIツールの利用が急速に広がっていることが示されており、問題解決の導線が従来とは異なる形へ移行しつつあることがうかがえる。</p>
-<h2>「質問の場」から「知識基盤」へ移る役割</h2>
-<p>一方で、新規質問の投稿数が減少しているからといって、Stack Overflowの価値が失われたわけではない。これまでに蓄積された膨大なQ&amp;Aコンテンツは、現在も検索経由で参照され続けており、知識ベースとしての役割は維持されている。生成AIが回答を生成する際の参照元として、過去の投稿が利用されるケースも少なくない。</p>
-<p>Stack Overflowは現在、投資会社Prosus傘下の事業として運営が続けられている。質問数の減少と、事業としての継続性や収益構造は必ずしも直結するものではなく、開発者コミュニティの利用形態が変化する中で、サービスの位置づけそのものが転換点を迎えている状況といえる。</p>
-<p>生成AIの普及によって、開発者が「質問を投稿する場」としての利用を減らす一方、「知識を参照する基盤」としての役割が相対的に高まる。Stack Overflowの質問数減少は、開発者の行動変化を映し出す象徴的な事例となっている。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
