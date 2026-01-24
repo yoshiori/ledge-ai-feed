@@ -195,6 +195,39 @@ GoogleがAntigravityでSkills対応を打ち出したことで、エージェン
       <pubDate>Mon, 05 Jan 2026 08:30:00 GMT</pubDate>
     </item>
     <item>
+      <title>フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
+      <link>https://ledge.ai/articles/ai_autonomous_solution_erdos_problem_728</link>
+      <description><![CDATA[<p>AIが数学の未解決問題を「ほぼ自律的に解き切った」と、数学者が評価した。著名な数学者であるテレンス・タオ氏が2026年1月8日、分散型SNS「Mathstodon」への投稿で、エルデシュ問題の一つである #728 が、AIツールによって「more or less autonomously（ほぼ自律的に）」解かれたと<a href="https://mathstodon.xyz/@tao/115855840223258103">述べた</a>。</p>
+<p>この成果についてタオ氏は「私たちの知る限り、既存の文献では再現されていない」としたうえで、近年のAIツールの能力向上を示す「節目（milestone）」だと位置づけた。</p>
+<h2>エルデシュ問題とは</h2>
+<p>エルデシュ問題は、20世紀を代表する数学者ポール・エルデシュが提起した数多くの問題をもとに整理された、数学の未解決問題群を指す。現在も多くの問題が未解決のまま残されており、世界中の数学者が長年にわたって取り組んできた。</p>
+<p>今回タオ氏が言及した エルデシュ問題#728 は、その中の一つで、問題の内容や背景はエルデシュ問題の<a href="https://www.erdosproblems.com/728">公式サイト</a>で公開されている。</p>
+<p>未解決問題は、数学界において特別な位置づけを持つ。解決に至れば理論的に重要な意味を持つだけでなく、長年の研究の蓄積を塗り替える可能性があるためだ。</p>
+<p><strong>■ ポール・エルデシュ（左）と、当時10歳のテレンス・タオ。1985年撮影。</strong> エルデシュ問題は、エルデシュ自身が提起した未解決問題群に由来する。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Paul_Erdos_with_Terence_Tao_952867730e/Paul_Erdos_with_Terence_Tao_952867730e.jpg" alt="Paul_Erdos_with_Terence_Tao.jpg" /></p>
+<h2>GPT-5.2 Proと人間の役割分担</h2>
+<p>証明には、OpenAIの大規模言語モデル GPT-5.2 Pro が用いられた。人間側は、計算環境の整備や初期試行へのフィードバック、結果の検証、形式的な証明への整理といった役割を担ったとされる。</p>
+<p>AIが完全に単独で問題を解決したわけではないものの、思考の主導権がどこにあったのかが、今回の評価における重要なポイントとなった。</p>
+<p><strong>■ 「ほぼ自律的に」解いた、という表現</strong>
+従来、AIは数学分野において計算の高速化や文献探索、発想の補助といった役割を担ってきた。一方で今回のケースでは、問題の解釈から解法の構築、証明に至るまでの過程をAIが主導したと評価された。</p>
+<p>タオ氏によれば、AIは初期の試行に対する一定のフィードバックを受けた後、問題の趣旨に沿った形で解決に到達したという。この点が、「ほぼ自律的」という表現につながった。</p>
+<h2>「解決以上に興味深い点」</h2>
+<p>タオ氏は今回の投稿で、解決結果そのものに加え、「それ以上に興味深い点がある」とも述べている。投稿では、</p>
+<p>「より興味深いのは、解法の説明（exposition）を迅速に書き、書き直し、再構成するAI主導の能力が現れつつある点だ」
+と指摘し、証明文書の作成や改稿をめぐるAIの能力向上に言及した。</p>
+<p><strong>■ テレンス・タオ氏がMathstodonに投稿したエルデシュ問題#728に関する発言。AIが「ほぼ自律的に」問題を解いたと評価している。</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/terencetao_mathstodon_b05b8af4d5/terencetao_mathstodon_b05b8af4d5.jpg" alt="terencetao mathstodon.jpg" /></p>
+<p>従来、数学論文の執筆や大幅な改稿には多大な時間と労力が必要だったが、AIによる文章生成と形式証明ツールを組み合わせることで、説明文を用途や読者に応じて柔軟に作り直すことが可能になりつつあるという。</p>
+<h2>他のAI解決事例との位置づけ</h2>
+<p><strong>■ エルデシュ問題を巡るAI活用事例を整理した公式Wikiの一部。#728は、AIによる解決後に類似文献が確認されたケースとして位置づけられている。</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/github_erdos_problem_058007f757/github_erdos_problem_058007f757.jpg" alt="github erdos problem.jpg" /></p>
+<p>タオ氏自身も、AIによるエルデシュ問題の解決例の多くでは、後に類似の結果が既存文献で確認されてきたと説明している。#728についても、問題文の再構成が比較的最近まで行われていなかったことが、先行研究が見当たらなかった理由の一つだとされている。</p>
+<h2>数学とAIの関係に生じた変化</h2>
+<p>今回の発言は、AIが数学者の役割を代替したことを示すものではない。一方で、未解決問題を対象とした成果について、数学者がAIの関与を明示的に評価し、その能力の到達点を具体的に言及した点は確認できる事実である。エルデシュ問題#728をめぐる今回の事例は、AIの活用がどの段階まで進んでいるのかを示す一例として位置づけられ、今後、同様の評価が他の問題や分野でも示されるかどうかが注目される。</p>
+]]></description>
+      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>クマも「顔認識」で個体特定へ──BearID、野生動物管理の新たな手段として注目</title>
       <link>https://ledge.ai/articles/bearid_facial_recognition_wildlife_management</link>
       <description><![CDATA[<p>野生のクマによる人身被害が世界各地で問題となる中、クマの顔を認識して個体を識別する技術が、野生動物管理の新たな手段として注目されている。米ピッツバーグ大学の文化人類学者 Emily Wanderer 氏は、2026年1月7日に公開した <a href="https://theconversation.com/how-facial-recognition-for-bears-can-help-ecologists-manage-wildlife-271371">The Conversation</a>の記事で、顔認識技術を用いたクマ個体識別プロジェクト「BearID」の研究内容と、その活用可能性を紹介した。</p>
