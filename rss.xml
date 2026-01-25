@@ -527,6 +527,31 @@ A: ぜひ伝えたいのは、「5年前にAMDのGPUを試して『まだ熟成�
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAIが「Stargate Community」公表、各拠点で地域別コミュニティ計画―—電気代は上げず、電源・送電増強を“自前負担”へ　Microsoftも同種の誓約</title>
+      <link>https://ledge.ai/articles/openai_stargate_community_local_community_plans_energy_self_funded</link>
+      <description><![CDATA[<p>OpenAIは2026年1月20日、大規模AIインフラ計画「Stargate」を補完する新たな取り組みとして「<a href="https://openai.com/ja-JP/index/stargate-community/">Stargate Community</a>」を公表した。全米各地で整備を進めるAIキャンパスについて、拠点ごとに地域住民の意見や懸念を反映したコミュニティ計画を策定し、電力コストを地域に転嫁しない方針を明示した。</p>
+<h2>1年で計画容量の「半分超」へ、Stargateの進捗</h2>
+<p>Stargateは、OpenAIが2025年1月に発表した米国のAIインフラ拡張計画で、2029年までに最大10GW（ギガワット）規模の計算資源を整備することを目標としている。OpenAIによると、発表から1年が経過した現在、計画容量はすでに目標の半分を超えており、テキサス州アビリーンの初号拠点では、最先端AIシステムの学習と提供が始まっている。現在、テキサス、ニューメキシコ、ウィスコンシン、ミシガンなど複数州で新たな拠点の開発が進んでいる。</p>
+<p>AIの需要拡大に伴い、こうした大規模インフラの必要性は高まっている。一方で、データセンター建設をめぐっては、電力や水資源、地域インフラへの影響を懸念する声も各地で強まっている。Stargate Communityは、そうした課題に正面から対応する枠組みとして位置付けられる。</p>
+<h2>「電気代を上げない」──エネルギーは“自前負担”</h2>
+<p>Stargate Communityの共通原則の一つが、エネルギー面で「自分たちの分は自分たちで負担する」という考え方だ。OpenAIは、AIキャンパスの運営によって地域の電気料金が上昇しないよう、必要となる追加の発電設備や送電・系統増強の費用をプロジェクト側が負担するとしている。</p>
+<p>具体的には、地域の電力会社や送電事業者、州の公益事業規制当局、広域系統運用者と早期かつ透明に計画を共有するほか、AIキャンパスを「柔軟な負荷」として運用する方針を示した。需給逼迫や系統への負荷が予測される際には消費を抑制し、需要応答や系統安定化プログラムにも参加するという。</p>
+<h2>州別に異なる設計、ウィスコンシンやミシガンで具体例</h2>
+<p>Stargate Communityでは、地域ごとの事情に応じた設計を重視。ウィスコンシン州では、OpenAIのパートナーであるOracleやVantageが、WEC Energy Groupと連携し、太陽光発電や蓄電池を含む新たな電源と容量の確保を検討している。電力インフラへの投資は、施設向けの専用料金によって賄われ、既存利用者の料金上昇を防ぐ仕組みとする。</p>
+<p>ミシガン州では、OracleとRelated DigitalがDTE Energyと協力し、既存の電源に加え、プロジェクトが全額負担する蓄電池設備を導入する計画だ。既存顧客の電力供給や料金への影響を抑えつつ、系統の固定費負担にも貢献する設計だという。</p>
+<p>テキサス州では、SB Energyがミラム郡で開発中のStargateキャンパス向けに、新たな発電設備と蓄電設備を整備し、必要電力の大部分を供給する計画を進めている。</p>
+<h2>水資源・環境配慮と地域投資、人材育成も柱に</h2>
+<p>エネルギーに加え、水資源や地域投資もStargate Communityの重要な柱だ。OpenAIは、閉ループ型や低水使用の冷却方式を優先し、飲用水や地域の生態系への影響を最小限に抑えるとしている。テキサス州アビリーンの拠点では、年間の水使用量が市全体の1日分の使用量の半分程度にとどまるとの説明も示された。</p>
+<p>また、地域インフラへの投資として、ウィスコンシン州では最低1億7500万ドル規模のインフラ改修や水環境再生プロジェクトへの投資が計画されている。人材面では、各Stargate拠点で地域の雇用と技能育成を支える「OpenAI Academy」を設置し、最初の拠点を2026年春にアビリーンで立ち上げる予定だ。労働組合や地域の人材育成機関と連携し、建設・運用に必要な人材の育成を進める。</p>
+<h2>Microsoftも「コミュニティファースト」方針を表明</h2>
+<p>OpenAIは、主要パートナーの一つであるMicrosoftが、同時期に「コミュニティファースト」を掲げたAIインフラ方針を<a href="https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/">公表</a>した点にも言及した。Microsoftは2026年1月13日、データセンターを建設・運営する地域社会に対し、電気料金の転嫁回避、水使用量の削減と補充、雇用創出、税基盤の強化、AIトレーニングや非営利団体への投資といった複数のコミットメントを打ち出している。</p>
+<p>OpenAIは、Stargateが物理的なインフラ計画であり、地域社会との長期的なパートナーシップが不可欠だと強調する。今後も各拠点ごとにコミュニティ計画を策定し、地域と協調しながらAIインフラの整備を進めていくとしている。</p>
+<p><strong>Stargate Communityの取り組みの一環として行われた、米テキサス州ミラム郡のデータセンター・オープンハウス。OpenAIとパートナー企業、地域関係者が参加した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stargate_community_4b79b8b8f2/stargate_community_4b79b8b8f2.webp" alt="stargate-community.webp" /></p>
+]]></description>
+      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LLMは「同じ質問を2回」入力すると精度が上がる──Google研究者ら、プロンプト反復の効果を短報で報告</title>
       <link>https://ledge.ai/articles/prompt_repetition_improves_llm_accuracy</link>
       <description><![CDATA[<p>Googleの研究者らは、同一の質問文を2回連結して入力するだけで、大規模言語モデル（LLM）の回答精度が向上するとする研究成果を発表した。論文は短報「Prompt Repetition Improves Non-Reasoning LLMs」として2025年12月17日に arXivに<a href="https://arxiv.org/abs/2512.14982v1">公開</a>されており、推論（reasoning）を用いない設定において、主要LLMと複数のベンチマークで広範な改善が観測されたという。</p>
@@ -597,31 +622,6 @@ A: ぜひ伝えたいのは、「5年前にAMDのGPUを試して『まだ熟成�
 <p><strong>■ Romi専用ラボで行われる点検・外装交換作業。開発元による公式アフターケア体制を整備した</strong></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/lab01_1024x444_f66c7d779c/lab01_1024x444_f66c7d779c.webp" alt="lab01-1024x444.webp" /></p>
 <p>Romiは、日常会話を通じてユーザーと関係性を築く家庭向けの会話AIロボットとして展開されてきた。今回の公式アフターケアの開始により、AIロボットを「購入して終わり」の製品ではなく、長期的に付き合う存在として支える仕組みが整備された形だ。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wikipediaが25周年、AI時代の知識基盤に──MicrosoftやMistral AIなどと新たなパートナーシップ</title>
-      <link>https://ledge.ai/articles/wikipedia_25th_anniversary_ai_partnerships</link>
-      <description><![CDATA[<p>Wikimedia Foundationは2026年1月15日、オンライン百科事典「Wikipedia」が創設から25周年を迎えたと<a href="https://wikimediafoundation.org/news/2026/01/15/wikipedia-celebrates-25years/">発表</a>した。</p>
-<p>これにあわせて、記念キャンペーン「Wikipedia 25」を開始し、ボランティア編集者の活動を紹介する動画シリーズの公開や、AI時代におけるWikipediaの価値を示す取り組みを打ち出した。</p>
-<p>Wikipediaは2001年に公開され、誰でも編集に参加できる百科事典として発展してきた。現在では300以上の言語で6500万超の記事を掲載し、月間の閲覧数は約150億回にのぼる。非営利組織によって運営されている点も特徴で、世界で最も利用されているウェブサイトの一つとなっている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=C5rPmv27YzY">YouTube</a></p>
-<h2>編集者に焦点を当てた公式動画シリーズを公開</h2>
-<p>25周年キャンペーンの一環として、ウィキメディア財団は初めて公式の動画ドキュメンタリーシリーズを公開した。世界各地のボランティア編集者8人を取り上げ、Wikipediaの記事がどのように作られ、検証されているのかを紹介している。</p>
-<p>Wikipediaのコンテンツは、約25万人の編集者によって執筆・編集・ファクトチェックが行われており、財団は「AI時代においても、信頼できる知識は人によって支えられている」と強調している。</p>
-<h2>タイムカプセルや参加型企画も展開</h2>
-<p>同日には「<a href="https://wikipedia25.org/ja/">25 Years of Wikipedia</a>」と題したデジタル・タイムカプセルも公開された。創設者のジミー・ウェールズ氏が語る立ち上げ当時のエピソードや、世界的な出来事とWikipediaの関わりを振り返る内容が盛り込まれている。
-このほか、Wikipediaの将来像をテーマにしたインタラクティブなクイズなど、利用者が参加できる企画も用意された。</p>
-<h2>AI時代の知識基盤としてのWikipedia</h2>
-<p>財団は、生成AIの普及が進む中で、Wikipediaの役割が一層重要になっていると位置づける。Wikipediaの記事は、検索エンジンや音声アシスタント、生成AIチャットボットなどで参照・活用されており、高品質な学習データとしても利用されている。公式発表では、Wikipediaが「人間によって作られ、検証された知識の集合体」である点が、AI時代における強みとして示された。</p>
-<h2>MicrosoftやMistral AIなどと新たなパートナーシップ</h2>
-<p>こうした背景のもと、ウィキメディア財団はWikimedia Enterpriseを通じて、テクノロジー企業との連携を拡大している。
-過去1年間で、Microsoft、Mistral AI、Perplexityのほか、Ecosia、Pleias、ProRataといった企業が新たにパートナーに加わった。既存のパートナーにはAmazon、Google、Metaなどが含まれる。
-これらの企業は、Wikipediaのコンテンツを大規模に利用できる一方で、非営利モデルを支える形で財団を支援する仕組みとなっている。</p>
-<h2>人間中心のAI戦略を継続</h2>
-<p>ウィキメディア財団は、AIの活用についても「編集者を支援するための技術」と位置づけており、人間中心のAI戦略を掲げている。編集作業の効率化やアクセシビリティの向上を図りつつ、知識の信頼性を維持することを目的としている。</p>
-<p>財団は今後も2026年を通じて、オンラインイベントや各地のコミュニティによる取り組みなど、25周年を記念した活動を継続する予定だとしている。</p>
 ]]></description>
       <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
