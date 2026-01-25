@@ -113,24 +113,6 @@ ELYZAは、dLLMが持つ「少ない処理回数で文章を生成できる」�
       <pubDate>Thu, 22 Jan 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Stack Overflowの質問数が急減、ピーク比で約8割減──生成AI普及で開発者の行動に変化</title>
-      <link>https://ledge.ai/articles/stack_overflow_questions_decline_generative_ai</link>
-      <description><![CDATA[<p>情報技術系コミュニティサイト「Stack Overflow」で、ユーザーから投稿される質問数が大幅に減少していることが、公開データから明らかになった。Stack Exchangeが提供する公開データベース「<a href="https://data.stackexchange.com/stackoverflow/query/1926661#graph">Stack Exchange Data Explorer（SEDE）</a>」を2026年1月時点で集計したところ、Stack Overflowの質問投稿数が長期的に大きく減少していることが分かった。</p>
-<p>月別の質問投稿数を集計すると、最盛期と比べて約8割減の水準にまで落ち込んでおり、開発者が問題解決の手段を変えつつある実態が浮かび上がっている。</p>
-<h2>公開データが示す質問数の急減</h2>
-<p>Stack Exchangeが提供する公開データベース「Stack Exchange Data Explorer（SEDE）」を用いて、Stack Overflow上の質問投稿（PostTypeId＝1）を月別に集計すると、2010年代後半にピークを迎えた後、投稿数は長期的な減少傾向に入っている。特に2023年以降は減少ペースが加速しており、直近の水準はピーク時と比べて約78％減となっている。</p>
-<p>この集計では、削除済みの投稿や集計条件による差異が生じる可能性はあるものの、クエリ条件を変えても「質問数が大きく減少している」という全体傾向は一貫して確認できる。</p>
-<h2>生成AIの普及で変わる開発者の問題解決行動</h2>
-<p>質問投稿数が減った背景として、複数の海外メディアは生成AIの普及を挙げている。開発者は、コードの書き方やエラー内容の解釈といった疑問を、Q&amp;Aサイトに投稿して回答を待つのではなく、ChatGPTなどの対話型AIに直接尋ね、即座に解決するケースが増えているとされる。</p>
-<p>Stack Overflow自身が実施している年次の開発者調査でも、生成AIツールの利用が急速に広がっていることが示されており、問題解決の導線が従来とは異なる形へ移行しつつあることがうかがえる。</p>
-<h2>「質問の場」から「知識基盤」へ移る役割</h2>
-<p>一方で、新規質問の投稿数が減少しているからといって、Stack Overflowの価値が失われたわけではない。これまでに蓄積された膨大なQ&amp;Aコンテンツは、現在も検索経由で参照され続けており、知識ベースとしての役割は維持されている。生成AIが回答を生成する際の参照元として、過去の投稿が利用されるケースも少なくない。</p>
-<p>Stack Overflowは現在、投資会社Prosus傘下の事業として運営が続けられている。質問数の減少と、事業としての継続性や収益構造は必ずしも直結するものではなく、開発者コミュニティの利用形態が変化する中で、サービスの位置づけそのものが転換点を迎えている状況といえる。</p>
-<p>生成AIの普及によって、開発者が「質問を投稿する場」としての利用を減らす一方、「知識を参照する基盤」としての役割が相対的に高まる。Stack Overflowの質問数減少は、開発者の行動変化を映し出す象徴的な事例となっている。</p>
-]]></description>
-      <pubDate>Wed, 21 Jan 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、月8ドルの低価格プラン「ChatGPT Go」を世界展開──アクセス拡大を狙い、無料版・Go向け広告テスト方針も公表</title>
       <link>https://ledge.ai/articles/openai_chatgpt_go_global_launch_ads_test_policy</link>
       <description><![CDATA[<p>OpenAI は2026年1月16日（現地時間）、対話型AI「ChatGPT」の新たな料金プラン「ChatGPT Go」を、ChatGPTが提供されているすべての地域で利用可能にしたと<a href="https://openai.com/ja-JP/index/introducing-chatgpt-go/">発表</a>した。
