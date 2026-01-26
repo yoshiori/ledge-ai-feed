@@ -264,20 +264,6 @@
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPTの“待ち時間”短縮へ──OpenAIがCerebrasと提携、リアルタイム推論を強化</title>
-      <link>https://ledge.ai/articles/openai_cerebras_low_latency_inference_partnership</link>
-      <description><![CDATA[<p>OpenAIは2026年1月14日（現地時間）、AIチップ企業のCerebrasと提携し、同社の低レイテンシ推論基盤を自社のAI推論スタックに統合すると<a href="https://openai.com/index/cerebras-partnership/">発表</a>した。巨大な単一チップ上に計算・メモリ・帯域を集約するCerebrasのシステムを活用し、長文出力やコード生成、AIエージェント実行といった処理の応答速度を高める。計算能力は段階的に投入され、複数年にわたって拡張される見通しだ。</p>
-<p>今回の取り組みは、OpenAIが進める推論基盤の多層化の一環と位置づけられる。OpenAIによると、AIの利用体験は「質問を送り、モデルが推論し、応答が返る」というループで構成されており、この応答がリアルタイムに近づくほど、ユーザーの利用時間や実行される処理の価値が高まるという。Cerebrasの低遅延システムは、こうした体験を支えるための専用基盤として導入される。</p>
-<h2>低レイテンシ推論を段階的に統合、対応ワークロードを拡大</h2>
-<p>OpenAIはまず、リアルタイム性が特に重要なワークロードからCerebrasの推論キャパシティを組み込み、その後、対象を広げていく計画だ。導入は複数のフェーズに分けて行われ、計算資源は2028年まで段階的にオンライン化される。</p>
-<p>提携の規模について両社は具体的な金額を明らかにしていないが、海外メディアでは、この協業が数年にわたる大規模契約になる可能性があると報じられている。<a href="https://www.reuters.com/technology/openai-buy-compute-capacity-startup-cerebras-around-10-billion-wsj-reports-2026-01-14/">Reuters</a>は関係者の話として、契約規模が約1.5兆円相当になると伝えており、OpenAIが推論インフラの強化に相当な投資を行っていることを示唆する内容となっている。</p>
-<h2>巨大単一チップで推論のボトルネックを回避</h2>
-<p>Cerebrasのシステムの特徴は、計算資源、メモリ、通信帯域を単一の巨大チップに集約している点にある。従来のGPUクラスタ構成では、推論時にノード間通信がボトルネックとなりやすいが、Cerebrasはこうした制約を構造的に回避できるとする。特に、長いテキスト出力や複雑な推論を伴う処理で効果を発揮するという。</p>
-<p>Cerebrasは、OpenAI向けにこのwafer-scaleシステムを大規模に展開し、低レイテンシ推論を前提としたAI体験を支える基盤として提供する方針だ。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAIが「Stargate Community」公表、各拠点で地域別コミュニティ計画―—電気代は上げず、電源・送電増強を“自前負担”へ　Microsoftも同種の誓約</title>
       <link>https://ledge.ai/articles/openai_stargate_community_local_community_plans_energy_self_funded</link>
       <description><![CDATA[<p>OpenAIは2026年1月20日、大規模AIインフラ計画「Stargate」を補完する新たな取り組みとして「<a href="https://openai.com/ja-JP/index/stargate-community/">Stargate Community</a>」を公表した。全米各地で整備を進めるAIキャンパスについて、拠点ごとに地域住民の意見や懸念を反映したコミュニティ計画を策定し、電力コストを地域に転嫁しない方針を明示した。</p>
@@ -350,6 +336,25 @@
 <p><strong>■ Romi専用ラボで行われる点検・外装交換作業。開発元による公式アフターケア体制を整備した</strong></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/lab01_1024x444_f66c7d779c/lab01_1024x444_f66c7d779c.webp" alt="lab01-1024x444.webp" /></p>
 <p>Romiは、日常会話を通じてユーザーと関係性を築く家庭向けの会話AIロボットとして展開されてきた。今回の公式アフターケアの開始により、AIロボットを「購入して終わり」の製品ではなく、長期的に付き合う存在として支える仕組みが整備された形だ。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>800人超の著名クリエイターが「盗みはイノベーションではない（Stealing Isn’t Innovation）」──生成AIの無断学習に抗議キャンペーン</title>
+      <link>https://ledge.ai/articles/stealing_isnt_innovation_campaign_creators_ai_copyright</link>
+      <description><![CDATA[<p>米国の俳優や音楽家、作家などを含む800人を超える著名クリエイターが、生成AI企業による著作物の無断利用に抗議するキャンペーン「Stealing Isn’t Innovation（盗みはイノベーションにあらず）」を開始した。</p>
+<p>Human Artistry Campaign（HAC）は2026年1月22日（現地時間）、ワシントンDCで同キャンペーンの立ち上げを<a href="https://www.humanartistrycampaign.com/it/news">発表</a>した。</p>
+<p>HACは声明で、生成AIの開発競争が激化する中、テック企業が著作権で保護された作品を「許諾や対価なしに大量収集（mass harvesting）」し、AIモデルの学習や生成に利用していると指摘。こうした行為は、米国の雇用や経済成長、文化産業が支えてきた国際的な影響力（ソフトパワー）を損なうと批判した。</p>
+<h2>解決策として「ライセンス」と「オプトアウト」を提示</h2>
+<p>同キャンペーンは、問題の解決策として、著作物の利用条件を明確に定め、権利者に正当な対価を支払うライセンスの枠組みを採用すべきだと主張している。あわせて、クリエイターが生成AIの学習対象から自身の作品を除外できるオプトアウト権の確保も求めた。</p>
+<p>HACは、無断利用が続けば新たな創作のインセンティブが失われ、AIモデルが人間の創作物ではなく低品質な合成データに依存する状態に陥る可能性があると警告。結果として、AIの競争力そのものが低下しかねないとしている。</p>
+<h2>SNSバナーと全面広告でメッセージを発信</h2>
+<p>「キャンペーン開始当日、多数のクリエイターが専用バナーをSNSに投稿した。賛同者にはスカーレット・ヨハンソン氏やケイト・ブランシェット氏、R.E.M.などが名を連ねる。</p>
+<p>HACのシニアアドバイザーである モイヤ・マクティア氏は、「盗用はイノベーションではない」と強調。主要ニュースメディアでも同メッセージを掲げたデジタルおよび紙媒体の全面広告が展開されたと説明した。</p>
+<h2>創作とAIの共存を求める動き</h2>
+<p>HACは、テクノロジー企業とクリエイターの協調は「任意ではなく、既存の法制度に沿った当然の前提」だとし、すでにAI向けのコンテンツライセンス契約が成立している例もあると指摘する。同キャンペーンは、創作活動と生成AIの発展を対立構造ではなく、合法的かつ持続可能な形で両立させる必要性を訴えている。</p>
+<p><strong>「Stealing Isn’t Innovation」キャンペーンの署名ページ。俳優、音楽家、作家など幅広い分野のクリエイターが名を連ねている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CREATOR_SIGNEES_386aba3d01/CREATOR_SIGNEES_386aba3d01.jpg" alt="CREATOR SIGNEES.jpg" /></p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
