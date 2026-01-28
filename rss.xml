@@ -279,6 +279,19 @@
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>判断から実行までをAIが担う──日立ソリューションズ、RPAと連携するAIエージェント業務自動化を提供開始</title>
+      <link>https://ledge.ai/articles/hitachi_solutions_ai_agent_rpa_business_automation</link>
+      <description><![CDATA[<p>日立ソリューションズは2026年1月21日、AIとRPAを連携させ、複数の業務システムを横断して操作しながら、業務プロセスを自律的に判断・遂行する「AIエージェント活用業務自動化ソリューション」の提供を開始したことを<a href="https://www.hitachi-solutions.co.jp/company/press/news/2026/0121_1.html">発表</a>した。業務の判断をAIが担い、実行をRPAが担う構成により、従来は人手が介在していた複雑な業務の自動化を可能にする。</p>
+<p>同ソリューションでは、AIエージェントが業務内容や処理状況を把握し、次に取るべき操作を判断する。判断結果に基づき、RPA（Robotic Process Automation、定型業務を自動化するソフトウエアロボット）が実際のシステム操作を行うことで、業務全体を一連の流れとして自動実行する。単一業務の自動化にとどまらず、業務プロセス全体を対象とする点が特徴だ。</p>
+<p><strong>見積作成業務におけるAIエージェント活用イメージ。業務5ステップ中4ステップを自動化する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hitachi_aiagent_overview_44c100e94b/hitachi_aiagent_overview_44c100e94b.jpg" alt="hitachi aiagent overview.jpg" /></p>
+<p>API連携が難しい既存の業務システムや、画面操作が前提となるレガシーシステムにも対応する。AIによる判断と、RPAによる画面操作を組み合わせることで、複数システムをまたぐ業務を横断的に自動化できるとしている。また、AIエージェントは自律的な判断だけでなく、必要に応じて人への確認を行うなど、柔軟な業務対応も可能だという。</p>
+<p>導入にあたっては、自然言語やノーコード／ローコードによるAIエージェント作成を前提とし、業務部門でも扱いやすい設計を採用した。オープンな標準規格「MCP（Model Context Protocol）」に対応し、複数のAIエージェントを組み合わせた構成も可能としている。AIエージェントの設計からRPAとの連携、運用、改善までを一体で支援する。</p>
+<p>同社は実業務での検証も行っており、見積作成業務を対象に、作業工程の約80％を自動化し、担当者の作業時間を約90％削減したとしている。判断が必要な工程がボトルネックとなっていた業務に対し、AIエージェントが判断を担うことで、自動化の適用範囲を拡大できると説明している。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>専門家AIが“対立して結論を導く”──三菱電機、製造業界初の対立議論型マルチAIエージェント技術を開発</title>
       <link>https://ledge.ai/articles/mitsubishi_electric_adversarial_multi_ai_agents</link>
       <description><![CDATA[<p>三菱電機は2026年1月20日、議論フレームワークを用いて専門家AIエージェント同士の対立議論を自動生成し、根拠を明示したうえで専門家レベルの結論を高速に導き出すマルチAIエージェント技術を開発したと<a href="https://www.mitsubishielectric.co.jp/ja/pr/2026/0120/">発表</a>した。複数の専門的立場を持つAI同士が意図的に対立しながら議論を行い、根拠を明示した結論を導き出す仕組みで、同社は製造業界初の技術としている。</p>
