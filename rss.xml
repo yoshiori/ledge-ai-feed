@@ -95,25 +95,6 @@
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>クマも「顔認識」で個体特定へ──BearID、野生動物管理の新たな手段として注目</title>
-      <link>https://ledge.ai/articles/bearid_facial_recognition_wildlife_management</link>
-      <description><![CDATA[<p>野生のクマによる人身被害が世界各地で問題となる中、クマの顔を認識して個体を識別する技術が、野生動物管理の新たな手段として注目されている。米ピッツバーグ大学の文化人類学者 Emily Wanderer 氏は、2026年1月7日に公開した <a href="https://theconversation.com/how-facial-recognition-for-bears-can-help-ecologists-manage-wildlife-271371">The Conversation</a>の記事で、顔認識技術を用いたクマ個体識別プロジェクト「BearID」の研究内容と、その活用可能性を紹介した。</p>
-<p>記事では、2025年11月にカナダ西部ブリティッシュコロンビア州ベラ・クーラで発生したグリズリーベアによる集団襲撃事例を取り上げている。この事案では、目撃情報から「母グマと2頭の子グマ」が関与した可能性が示唆されたものの、現地当局がDNA鑑定や捕獲調査を行った結果、特定には至らなかった。最終的に捜索は打ち切られ、このケースは「問題となる個体を正確に特定することの難しさ」を浮き彫りにしたとされる。</p>
-<h2>顔認識でクマを識別する「BearID」</h2>
-<p><a href="https://bearresearch.org/">BearID</a>は、クマの顔画像を解析し、個体ごとに識別する技術だ。コンピュータサイエンティストの Ed Miller 氏と Mary Nguyen 氏が中心となり、カナダ・ブリティッシュコロンビア州でグリズリーベアの応用研究に携わる行動生態学者 Melanie Clapham 氏と協力して開発が進められている。</p>
-<p>深層学習を用いて、目や鼻といった顔の特徴点の配置を解析する点が特徴で、季節によって体格が大きく変化するクマであっても、顔の幾何学的構造は比較的安定していることに着目している。画像から自動的にクマの顔を検出し、特徴量を数値化することで、異なる時期に撮影された写真同士を照合できるという。</p>
-<h2>研究的背景と精度</h2>
-<p>Wanderer 氏の記事では、BearIDの技術的基盤として、2020年に発表された査読論文の研究成果が紹介されている。この研究では、カナダと米アラスカで撮影された132個体分、約4,600枚の顔画像を用いて学習と検証を実施。既知個体の識別において、およそ84％の正解率が報告された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ECE_3_10_12883_g001_689b9594a1/ECE_3_10_12883_g001_689b9594a1.jpg" alt="ECE3-10-12883-g001.jpg" /></p>
-<p>DNA鑑定は高精度である一方、物理的なサンプル採取や捕獲を伴うため、コストや動物への負担が大きい。BearIDのような画像ベースの識別技術は、そうした手法を補完する選択肢として位置づけられている。</p>
-<h2>管理・研究への応用と課題</h2>
-<p>BearIDは、人身被害や農作物被害を引き起こす「問題個体」の特定をはじめ、カメラトラップ映像を活用した個体数推定や行動追跡などへの応用が想定されている。捕獲回数を減らすことで、クマへのストレスを軽減できる可能性もあるという。開発チームは、エクアドルでアンデスグマを対象とした識別モデルの開発にも取り組んでいる。</p>
-<p>一方で、顔認識技術が人間社会ではプライバシーや人権の観点から強い批判を受けてきた点にも、記事は触れている。野生動物の場合、倫理的論点は異なるものの、個体識別が安楽死や移送といった管理判断を容易にする側面もあり、慎重な運用が求められるとしている。</p>
-<p>Wanderer 氏は、BearIDのような技術が、クマを単なる「個体数」としてではなく、「個体として理解する」手段になり得ると指摘する一方で、それが人と野生動物の関係にどのような影響を与えるのかは、今後の検討課題になるとまとめている。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ChatGPT、年齢を「申告」ではなく自動推定へ──18歳未満と判断した場合に閲覧制限</title>
       <link>https://ledge.ai/articles/chatgpt_age_estimation_under_18_restrictions</link>
       <description><![CDATA[<p>OpenAIは、生成AI「ChatGPT」において、利用者の年齢を自動的に推定し、18歳未満と判断した場合にセンシティブなコンテンツへの閲覧制限を適用する新機能を導入すると、公式ブログで<a href="https://openai.com/index/our-approach-to-age-prediction/">発表</a>した。未成年者の安全確保を目的とした措置で、機能は順次提供される。</p>
@@ -258,6 +239,20 @@
 <h2>権利管理とマネタイズの仕組みも整備</h2>
 <p>ElevenLabsは、アーティストが制作した楽曲の所有権を保持し、配信による収益はアーティストに帰属すると説明している。また、同社が展開するライセンスプラットフォーム「Iconic Marketplace」を通じ、許諾に基づいたAI活用による新たな収益機会を提供する構想も示した。</p>
 <p>同社はこれまでに、音楽著作権管理を手がけるKobalt MusicやMerlinとの提携を発表しており、音楽業界におけるAI活用と権利保護の両立を図る取り組みの一環として本プロジェクトを位置づけている。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、月額1,200円のAI有料プラン「Google AI Plus」日本展開　Geminiなどの利用枠を拡張</title>
+      <link>https://ledge.ai/articles/google_ai_plus_launch_japan_1200yen</link>
+      <description><![CDATA[<p>Googleは2026年1月28日、AI機能の利用上限を拡大できる有料サブスクリプションプラン「Google AI Plus」を日本で提供開始したことを<a href="https://blog.google/intl/ja-jp/company-news/technology/google-ai-plus/">発表</a>した。月額料金は1,200円。Geminiをはじめとする同社の生成AI機能を、無料プランよりも広い枠で利用できる。</p>
+<p>Google AI Plusは、Google Oneを通じて提供される個人向けAIプランの一つで、生成AIを日常的に活用するユーザーを主な対象とする。新規登録者向けには、最初の2カ月間を月額600円とする半額キャンペーンも用意されている。</p>
+<p>同プランでは、Geminiアプリで高性能モデルである「Gemini 3 Pro」や「Nano Banana Pro」を利用できるほか、AIを活用した映像制作ツール「Flow」、リサーチや執筆を支援する「NotebookLM」など、複数のAI機能が含まれる。GmailやGoogleドキュメント、スプレッドシートといったGoogleの各種サービスに統合されたGemini機能についても、利用枠が拡張される。</p>
+<p>また、Google AI Plusには200GBのクラウドストレージが付帯し、Google Drive、Gmail、Google Photosで共通利用が可能だ。ストレージやAI特典は、最大5人までの家族メンバーと共有できる。既存のGoogle One プレミアム（2TB）ユーザーについては、数日以内にGoogle AI Plus相当のAI特典が利用可能になるとしている。</p>
+<p><strong>GoogleのAIサブスクリプション3プランの比較。AI Plusは月額1,200円で提供される入門プラン</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/JP_aiplus_comparison_width_1000_format_webp_55f4d830ae/JP_aiplus_comparison_width_1000_format_webp_55f4d830ae.jpg" alt="JP_aiplus_comparison.width-1000.format-webp.jpg" /></p>
+<p>一方で、Googleは同プランについて、Google Workspaceのビジネスおよび教育機関向けアカウントでは利用できないとしている。</p>
+<p>Googleは、個人向けに段階的なAIサブスクリプションを用意しており、Google AI Plusはその中でも入門・中核的な位置づけとなる。今後は、より高い利用上限や機能を備えた上位プランと併せて、生成AIの利用拡大を図る。</p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
