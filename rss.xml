@@ -62,7 +62,7 @@
       <pubDate>Sun, 25 Jan 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/1/24 [SAT]フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
+      <title>フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
       <link>https://ledge.ai/articles/ai_autonomous_solution_erdos_problem_728</link>
       <description><![CDATA[<p>AIが数学の未解決問題を「ほぼ自律的に解き切った」と、数学者が評価した。著名な数学者であるテレンス・タオ氏が2026年1月8日、分散型SNS「Mathstodon」への投稿で、エルデシュ問題の一つである #728 が、AIツールによって「more or less autonomously（ほぼ自律的に）」解かれたと<a href="https://mathstodon.xyz/@tao/115855840223258103">述べた</a>。</p>
 <p>この成果についてタオ氏は「私たちの知る限り、既存の文献では再現されていない」としたうえで、近年のAIツールの能力向上を示す「節目（milestone）」だと位置づけた。</p>
@@ -109,6 +109,31 @@
 <p>OpenAIは、年齢推定の仕組みについて、未成年者保護などの安全対策に限定して使用すると説明している。広告配信やマーケティング、利用者のプロファイリングを目的とした利用は行わないと明示し、プライバシーへの配慮を強調している。</p>
 <h2>段階的に提供、地域ごとに展開</h2>
 <p>この年齢推定機能は、すでに段階的な提供が始まっており、地域ごとに<a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">順次展開される予定</a>だとしている。OpenAIは、ChatGPTの利用拡大に伴い、未成年者保護を含む安全対策を強化していくとしている。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国AIテック、オープンソース推論モデルを相次ぎ公開──Alibabaが「Qwen3-Max-Thinking」、Moonshot AIは「Kimi K2.5」発表</title>
+      <link>https://ledge.ai/articles/china_ai_open_source_reasoning_models_qwen3_max_thinking_kimi_k2_5</link>
+      <description><![CDATA[<p>中国のAIテック企業が、推論能力を前面に打ち出したオープンソース大規模言語モデル（LLM）を相次いで公開している。</p>
+<p>Alibabaは2026年1月26日、同社の「Qwen」シリーズにフラッグシップ推論モデル「<a href="https://qwen.ai/blog?id=qwen3-max-thinking">Qwen3-Max-Thinking</a>」を追加した。続く27日には、中国のAIスタートアップであるMoonshot AIが、生成AIサービス「Kimi」の新モデルとして「<a href="https://www.kimi.com/blog/kimi-k2-5.html">Kimi K2.5</a>」を発表した。</p>
+<h2>Alibaba、推論特化のオープンソースLLM「Qwen3-Max-Thinking」を公開</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Qwen3_Max_Thinking_a4f4c3f239/Qwen3_Max_Thinking_a4f4c3f239.jpg" alt="Qwen3-Max-Thinking.jpg" /></p>
+<p>Alibaba傘下のQwen開発チームは2026年1月26日、同社が開発する大規模言語モデル「Qwen」シリーズの新モデルとして、「Qwen3-Max-Thinking」を<a href="https://qwen.ai/blog?id=qwen3-max-thinking">発表</a>した。公開した。</p>
+<p>同モデルは、モデル規模の拡大と大規模な強化学習を組み合わせることで、知識量、複雑な推論能力、指示追従性、人間の嗜好との整合性、エージェント機能など複数の側面で性能を高めたとしている。</p>
+<p>Qwenチームによると、19の既存ベンチマークにおいて、GPT-5.2-ThinkingやClaude Opus 4.5、Gemini 3 Proと同等水準の性能を示したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/score_c57592148d/score_c57592148d.jpg" alt="score.jpg" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qwen3_max_bench_a596df956e/qwen3_max_bench_a596df956e.jpg" alt="qwen3 max bench.jpg" /></p>
+<p>また、必要に応じて検索やコード実行を自律的に呼び出す適応的なツール利用機能を備え、Qwen Chat上で利用可能としている。推論時に追加計算を割り当てるテスト時スケーリング手法も導入し、複数の推論系ベンチマークで性能向上を確認したとしている。</p>
+<p>Qwen3-Max-Thinkingは、Qwen ChatおよびAPIを通じて提供されており、オープンソースモデルとして公開されている。</p>
+<h2>Moonshot AI、オープンソース推論モデル「Kimi K2.5」発表</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kimiai_704db61aa9/Kimiai_704db61aa9.jpg" alt="Kimiai.jpg" /></p>
+<p>Moonshot AIは2026年1月27日、同社が提供する生成AIサービス「Kimi」の新たな基盤モデルとして、「Kimi K2.5」を<a href="https://www.kimi.com/blog/kimi-k2-5.html">発表</a>した。</p>
+<p>同社はKimi K2.5を、視覚理解と推論、エージェント機能を統合した「オープンソースのVisual Agentic Intelligence」と位置づけている。</p>
+<p>同社の公式Xアカウントによると、Kimi K2.5はエージェント関連ベンチマークにおいて、HLE（full set）で50.2%、BrowseCompで74.9%のスコアを記録したという。また、視覚理解やコード生成に関する評価では、MMMU Proで78.5%、VideoMMMUで86.6%、SWE-bench Verifiedで76.8%を示し、オープンソースモデルとして最高水準の性能だとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G_p_Ua_Plao_A_Aa9as_b13b4a4d7f/G_p_Ua_Plao_A_Aa9as_b13b4a4d7f.jpg" alt="G_pUaPlaoAAa9as.jpg" /></p>
+<p>Kimi K2.5の特徴として、最大100のサブエージェントを自律的に生成・統括する「Agent Swarm」機能を挙げている。複数のエージェントが並列に最大1,500回のツール呼び出しを行うことで、単一エージェント構成と比べて処理速度が最大4.5倍向上するとしている。Agent Swarmは現在ベータ版として提供されている。</p>
+<p>Kimi K2.5は、KimiのWeb版およびアプリで利用可能で、チャットモードとエージェントモードをサポートする。APIも提供されており、同社は本番環境でのソフトウェア開発用途として、開発者向けツール「Kimi Code」との併用を推奨している。モデルの重みとコードはHugging Face上で公開されている。</p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
