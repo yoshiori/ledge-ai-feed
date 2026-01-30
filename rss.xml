@@ -392,6 +392,19 @@ CTO Ambassador
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft、推論向けAIアクセラレータ「Maia 200」発表──GPT-5.2を含む最新モデルを支える基盤に</title>
+      <link>https://ledge.ai/articles/microsoft_maia_200_inference_ai_accelerator</link>
+      <description><![CDATA[<p>Microsoftは米国時間2026年1月26日、AI推論に特化した自社設計のカスタムアクセラレータ「Maia 200」を<a href="https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/">発表</a>した。大規模言語モデル（LLM）などの推論処理を想定した設計で、同社はクラウドサービス「Azure」におけるAI基盤を支える中核技術の一つと位置づけている。</p>
+<p>Maia 200は、学習用途ではなく推論ワークロードに最適化したアクセラレータとして設計された。Microsoftによると、トークン生成を中心とする推論処理において、スループットや電力効率、システム全体でのスケーラビリティを重視しているという。製造にはTSMCの3ナノメートルプロセスを採用し、FP8およびFP4演算に対応したテンソル演算機構を備える。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Maia200chip_960x540_c584507414/Maia200chip_960x540_c584507414.png" alt="Maia200chip-960x540.png" /></p>
+<p>メモリ構成ではHBM3eを採用し、大容量かつ高帯域のメモリアクセスを可能にした。Microsoftは、Maia 200が従来世代と比べて性能あたりのコスト効率を向上させたと説明しているが、具体的な比較対象や条件については明らかにしていない。</p>
+<p>同社は、Maia 200をAzureのデータセンターに段階的に導入する方針を示している。Azure AI FoundryやMicrosoft 365 CopilotといったAIサービスの基盤として活用されるほか、OpenAIの最新モデルであるGPT-5.2を含む複数のAIモデルを支えるインフラとして位置づけられている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=bGecvPR2QWo">YouTube</a>
+Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセラレータを活用してきたが、AI利用の急拡大を背景に、自社設計シリコンの開発を進めてきた。Maia 200は、その流れの中で推論処理に特化した最新世代のアクセラレータとなる。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>モスバーガー、AIが音声で注文を受けるドライブスルー実証開始──人と連携する「ハイブリッド応対」</title>
       <link>https://ledge.ai/articles/mos_burger_ai_drivethru_voice_order_test</link>
       <description><![CDATA[<p>モスフードサービスは2026年1月21日、同社が展開する「モスバーガー」店舗のドライブスルーにおいて、人工知能（AI）が来店客の音声を認識して注文を受けるシステムの実証実験を開始したと<a href="https://www.mos.co.jp/company/pr_pdf/pr_260121_1.pdf">発表</a>した。AIと店舗スタッフが連携して応対する「ハイブリッド応対」を採用し、接客品質の向上と人手不足への対応を両立する狙いだ。</p>
@@ -404,31 +417,6 @@ CTO Ambassador
 <p>実証実験は2026年1月21日、埼玉県吉川市の「モスバーガー 吉川美南店」で開始した。今後は2026年度中に合計5カ所程度の店舗で実証実験を行い、そのうち複数店舗での常設運用を目指すとしている。</p>
 <h2>将来はメニュー提案や演出拡張も視野</h2>
 <p>将来的な展開として、来店客から「500キロカロリー以下のセットメニューを紹介して」といった要望があった場合に、AIが即座に提案する機能や、キャンペーン期間中にアニメの人気キャラクターなどが応答する演出も視野に入れる。AIドライブスルーを通じ、顧客体験の拡張可能性を検証していく。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIが「Stargate Community」公表、各拠点で地域別コミュニティ計画―—電気代は上げず、電源・送電増強を“自前負担”へ　Microsoftも同種の誓約</title>
-      <link>https://ledge.ai/articles/openai_stargate_community_local_community_plans_energy_self_funded</link>
-      <description><![CDATA[<p>OpenAIは2026年1月20日、大規模AIインフラ計画「Stargate」を補完する新たな取り組みとして「<a href="https://openai.com/ja-JP/index/stargate-community/">Stargate Community</a>」を公表した。全米各地で整備を進めるAIキャンパスについて、拠点ごとに地域住民の意見や懸念を反映したコミュニティ計画を策定し、電力コストを地域に転嫁しない方針を明示した。</p>
-<h2>1年で計画容量の「半分超」へ、Stargateの進捗</h2>
-<p>Stargateは、OpenAIが2025年1月に発表した米国のAIインフラ拡張計画で、2029年までに最大10GW（ギガワット）規模の計算資源を整備することを目標としている。OpenAIによると、発表から1年が経過した現在、計画容量はすでに目標の半分を超えており、テキサス州アビリーンの初号拠点では、最先端AIシステムの学習と提供が始まっている。現在、テキサス、ニューメキシコ、ウィスコンシン、ミシガンなど複数州で新たな拠点の開発が進んでいる。</p>
-<p>AIの需要拡大に伴い、こうした大規模インフラの必要性は高まっている。一方で、データセンター建設をめぐっては、電力や水資源、地域インフラへの影響を懸念する声も各地で強まっている。Stargate Communityは、そうした課題に正面から対応する枠組みとして位置付けられる。</p>
-<h2>「電気代を上げない」──エネルギーは“自前負担”</h2>
-<p>Stargate Communityの共通原則の一つが、エネルギー面で「自分たちの分は自分たちで負担する」という考え方だ。OpenAIは、AIキャンパスの運営によって地域の電気料金が上昇しないよう、必要となる追加の発電設備や送電・系統増強の費用をプロジェクト側が負担するとしている。</p>
-<p>具体的には、地域の電力会社や送電事業者、州の公益事業規制当局、広域系統運用者と早期かつ透明に計画を共有するほか、AIキャンパスを「柔軟な負荷」として運用する方針を示した。需給逼迫や系統への負荷が予測される際には消費を抑制し、需要応答や系統安定化プログラムにも参加するという。</p>
-<h2>州別に異なる設計、ウィスコンシンやミシガンで具体例</h2>
-<p>Stargate Communityでは、地域ごとの事情に応じた設計を重視。ウィスコンシン州では、OpenAIのパートナーであるOracleやVantageが、WEC Energy Groupと連携し、太陽光発電や蓄電池を含む新たな電源と容量の確保を検討している。電力インフラへの投資は、施設向けの専用料金によって賄われ、既存利用者の料金上昇を防ぐ仕組みとする。</p>
-<p>ミシガン州では、OracleとRelated DigitalがDTE Energyと協力し、既存の電源に加え、プロジェクトが全額負担する蓄電池設備を導入する計画だ。既存顧客の電力供給や料金への影響を抑えつつ、系統の固定費負担にも貢献する設計だという。</p>
-<p>テキサス州では、SB Energyがミラム郡で開発中のStargateキャンパス向けに、新たな発電設備と蓄電設備を整備し、必要電力の大部分を供給する計画を進めている。</p>
-<h2>水資源・環境配慮と地域投資、人材育成も柱に</h2>
-<p>エネルギーに加え、水資源や地域投資もStargate Communityの重要な柱だ。OpenAIは、閉ループ型や低水使用の冷却方式を優先し、飲用水や地域の生態系への影響を最小限に抑えるとしている。テキサス州アビリーンの拠点では、年間の水使用量が市全体の1日分の使用量の半分程度にとどまるとの説明も示された。</p>
-<p>また、地域インフラへの投資として、ウィスコンシン州では最低1億7500万ドル規模のインフラ改修や水環境再生プロジェクトへの投資が計画されている。人材面では、各Stargate拠点で地域の雇用と技能育成を支える「OpenAI Academy」を設置し、最初の拠点を2026年春にアビリーンで立ち上げる予定だ。労働組合や地域の人材育成機関と連携し、建設・運用に必要な人材の育成を進める。</p>
-<h2>Microsoftも「コミュニティファースト」方針を表明</h2>
-<p>OpenAIは、主要パートナーの一つであるMicrosoftが、同時期に「コミュニティファースト」を掲げたAIインフラ方針を<a href="https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/">公表</a>した点にも言及した。Microsoftは2026年1月13日、データセンターを建設・運営する地域社会に対し、電気料金の転嫁回避、水使用量の削減と補充、雇用創出、税基盤の強化、AIトレーニングや非営利団体への投資といった複数のコミットメントを打ち出している。</p>
-<p>OpenAIは、Stargateが物理的なインフラ計画であり、地域社会との長期的なパートナーシップが不可欠だと強調する。今後も各拠点ごとにコミュニティ計画を策定し、地域と協調しながらAIインフラの整備を進めていくとしている。</p>
-<p><strong>Stargate Communityの取り組みの一環として行われた、米テキサス州ミラム郡のデータセンター・オープンハウス。OpenAIとパートナー企業、地域関係者が参加した。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/stargate_community_4b79b8b8f2/stargate_community_4b79b8b8f2.webp" alt="stargate-community.webp" /></p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
