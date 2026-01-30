@@ -631,21 +631,22 @@ Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセ�
       <pubDate>Sat, 24 Jan 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、「Gemini」は「ジェミニ」──再周知にXで「論争に終止符」「好感度が高い」の声</title>
-      <link>https://ledge.ai/articles/google_gemini_japanese_pronunciation_jemini</link>
-      <description><![CDATA[<p>Googleは2026年1月20日、同社の生成AIサービスGeminiについて、日本における正式な読み方は「ジェミニ」であると、Google Japanの公式Xアカウントを通じて改めて<a href="https://x.com/googlejapan/status/2013560887701819533">周知</a>した。国内では「ジェミニ」と「ジェミナイ」という複数の呼称が使われてきたが、公式見解を再確認する形となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Google_Japan_X_Gemini_551af33f81/Google_Japan_X_Gemini_551af33f81.jpg" alt="GoogleJapanX Gemini.jpg" /></p>
-<h2>登場当初から日本語表記は「ジェミニ」</h2>
-<p>Google Japanは2024年2月、対話型AIサービス「Bard」を「Gemini」へ名称変更した際、日本語表記を「Gemini（ジェミニ）」と<a href="https://x.com/googlejapan/status/1755607418103587148">明示</a>していた。今回の投稿は、新たに読み方を定めたものではなく、登場当初から示してきた公式表記を改めて周知したものと位置づけられる。</p>
-<p>一方で、その後もSNSなどでは英語圏での発音に近い「ジェミナイ」という呼び方が広がり、日本国内では複数の読み方が混在する状況が続いていた。</p>
-<h2>呼称の混在を受け、改めて公式見解を提示</h2>
-<p>こうした背景のもと、Google Japanは2026年1月20日の投稿で、「Geminiの日本語表記は『ジェミニ』です」と明言し、「これからもたくさん呼んであげてください」と呼びかけた。この投稿をきっかけに、X（旧Twitter）上では再び読み方が話題となり、関連ワードが日本のトレンドに入るなど、関心の高さがうかがえた。</p>
-<h2>「どちらでもOK」と補足、Xでは好意的な受け止めも</h2>
-<p>その後、Google Japanは英語圏では「ジェミナイ」と発音されていることにも触れ、「なのでこれでももちろんOKです」と補足し、呼び方そのものについては柔軟な姿勢を示した。</p>
-<p>X上では、この一連の対応を受けて、「公式が改めて示したことで論争に終止符が打たれた」「対応が柔らかく、好感度が高い」といった声も見られる。公式見解を明確にしつつ、ユーザー側の呼び方も尊重する姿勢が、前向きに受け止められている形だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Google_Japan_X_Gemini6_42872f1e0a/Google_Japan_X_Gemini6_42872f1e0a.jpg" alt="GoogleJapanX Gemini6.jpg" /></p>
+      <title>ChatGPT、年齢を「申告」ではなく自動推定へ──18歳未満と判断した場合に閲覧制限</title>
+      <link>https://ledge.ai/articles/chatgpt_age_estimation_under_18_restrictions</link>
+      <description><![CDATA[<p>OpenAIは、生成AI「ChatGPT」において、利用者の年齢を自動的に推定し、18歳未満と判断した場合にセンシティブなコンテンツへの閲覧制限を適用する新機能を導入すると、公式ブログで<a href="https://openai.com/index/our-approach-to-age-prediction/">発表</a>した。未成年者の安全確保を目的とした措置で、機能は順次提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openaix_age_prediction_129ac88f43/openaix_age_prediction_129ac88f43.jpg" alt="openaix age prediction.jpg" /></p>
+<h2>利用パターンをもとに年齢を推定する仕組み</h2>
+<p>新機能では、利用者が年齢を入力・申告する方式ではなく、ChatGPTが利用状況などの行動シグナルをもとに年齢を推定する。具体的には、利用時間帯や利用傾向、アカウントの利用期間など複数の要素を総合的に分析し、18歳未満である可能性が高いと判断した場合に追加の安全対策を適用する仕組みだ。すべての利用者に年齢入力や身分証の提出を求めるものではないと<a href="https://help.openai.com/en/articles/12652064-age-prediction-in-chatgpt">説明している</a>。</p>
+<h2>18歳未満と判断された場合の制限内容</h2>
+<p>18歳未満と推定されたアカウントに対しては、センシティブなコンテンツへの制限が自動的に有効になる。対象には、性的表現や暴力的表現、自傷行為や危険行為に関する内容などが含まれ、通常よりも厳格な回答制御が行われる。状況に応じて回答を控える、あるいは表現を抑制した形で応答する。</p>
+<h2>誤判定時の対応と年齢確認</h2>
+<p>成人の利用者が誤って未成年と判断された場合には、制限を解除する手段も用意されている。第三者の本人確認サービスを通じて年齢確認を行うことで、制限の解除が可能となる。OpenAIは、常時の本人確認を求めるのではなく、必要な場合に限って確認を行う設計だとしている。</p>
+<h2>広告やマーケティング用途には使用せず</h2>
+<p>OpenAIは、年齢推定の仕組みについて、未成年者保護などの安全対策に限定して使用すると説明している。広告配信やマーケティング、利用者のプロファイリングを目的とした利用は行わないと明示し、プライバシーへの配慮を強調している。</p>
+<h2>段階的に提供、地域ごとに展開</h2>
+<p>この年齢推定機能は、すでに段階的な提供が始まっており、地域ごとに<a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">順次展開される予定</a>だとしている。OpenAIは、ChatGPTの利用拡大に伴い、未成年者保護を含む安全対策を強化していくとしている。</p>
 ]]></description>
-      <pubDate>Fri, 23 Jan 2026 07:50:00 GMT</pubDate>
+      <pubDate>Fri, 23 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Transformerに代わる選択肢──ELYZA、日本語特化の拡散モデルベースのLLM「ELYZA-LLM-Diffusion」を商用利用可能な形で公開</title>
