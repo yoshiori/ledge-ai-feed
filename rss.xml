@@ -251,31 +251,6 @@
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/1/24 [SAT]GoogleDeepMind、動画から「4D（三次元空間＋時間）」で世界を再構成するAI「D4RT」　動く3D空間を高速・高精度に把握</title>
-      <link>https://ledge.ai/articles/deepmind_d4rt_4d_video_3d_reconstruction</link>
-      <description><![CDATA[<p>Google DeepMindは2026年1月22日、動画をもとに三次元空間を時間軸に沿って再構成・理解できるAIモデル「D4RT（Dynamic 4D Reconstruction and Tracking）」を開発したと<a href="https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/">発表</a>した。D4RTは、物体や人の動きを含む動的なシーンを「3次元＋時間」の4次元表現として捉え、従来手法と比べて高い精度と計算効率を実現したとしている。</p>
-<p>同社は、D4RTが人間と同じように、視覚情報から世界の構造と変化を一貫して理解するAIの実現に向けた基盤技術になると位置付けている。</p>
-<h2>動画から「3D＋時間」を一貫して推定</h2>
-<p>D4RTの特徴は、単一または複数視点の動画を入力として、空間構造とその時間的変化を同時に推定できる点にある。静止画像ごとに処理する従来型の手法とは異なり、動画全体から得られる情報を用いて、物体の位置関係や動きを時系列で整合的に再構成する。</p>
-<p>公式ブログによると、D4RTは人や物体が動く環境でも、遮蔽や視点変化に耐えながら、安定した3次元表現を維持できるという。これにより、現実世界のような複雑で動的なシーンの理解が可能になるとしている。</p>
-<p><strong>■ クエリによる時系列3D推定の例：</strong> 動画内の2D座標、参照時刻・対象時刻、カメラ情報をクエリとして与えることで、対象点の3次元位置を時間軸に沿って推定できる</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time2_c494089fc3/Deep_Mind_D4_RT_at_a_Time2_c494089fc3.jpg" alt="DeepMind D4RT at a Time2.jpg" /></p>
-<h2>クエリベースの単一モデルで複数タスクを統合</h2>
-<p>同社は、従来の動的3D理解が、深度推定や点追跡、カメラ位置推定などを別々のモデルで処理する構成になりがちだった点を課題として挙げる。D4RTでは、動画から生成した「グローバルなシーン表現」を基盤とし、独立したクエリを用いて必要な情報を取り出す仕組みを採用した。</p>
-<p><strong>■ D4RTの全体構成：</strong> 動画をエンコーダで処理し、時間を含むグローバルなシーン表現を生成。独立したクエリを用いてデコーダが任意の点や時刻の3次元位置・軌跡を推定する</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time1_7d397c63e3/Deep_Mind_D4_RT_at_a_Time1_7d397c63e3.jpg" alt="DeepMind D4RT at a Time1.jpg" /></p>
-<p>arXivで公開された論文では、特定の2次元座標や時刻、カメラ条件をクエリとして与えることで、対象点の3次元位置を任意の時点で推定できることが示されている。これにより、点追跡や3D再構成といった複数の処理を、単一のフレームワークで扱えるようになった。</p>
-<h2>既存手法より高速・高効率と主張</h2>
-<p>同社は、D4RTが既存の動的3D再構成手法と比べて、計算効率を大幅に改善したと説明する。公式ブログでは、条件によっては最大300倍の効率向上が得られたとしている。</p>
-<p>論文でも、複数のタスクや評価設定において、処理速度や効率の面で従来モデルを上回る結果が報告されている。これまで計算負荷が大きく、実用化の障壁となっていた動的シーン理解を、より現実的な計算コストで実行できる可能性があるという。</p>
-<h2>ロボティクスやAR/VRへの応用を視野</h2>
-<p>Google DeepMindは、D4RTをロボティクスや自律移動、拡張現実（AR）や仮想現実（VR）といった分野での基盤技術として想定している。現実世界を理解しながら行動するAIにとって、時間とともに変化する空間を正確に把握する能力は不可欠とされる。</p>
-<p>同社は、D4RTが「AIが世界を理解する方法」を一段階引き上げる取り組みだとしており、今後の研究や応用展開が注目される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace/Deep_Mind_D4_RT_at_a_Time3_1f0a72eace.jpg" alt="DeepMind D4RT at a Time3.jpg" /></p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>スマートファクトリーの未来を描く――デロイト トーマツ×NVIDIA×デル・テクノロジーズが語った最新潮流</title>
       <link>https://ledge.ai/articles/deloitte_tohmatsu_innovation_park</link>
       <description><![CDATA[<p>12月3日、丸の内「Deloitte Tohmatsu Innovation Park」にてスマートファクトリー共同セミナーが開催された。当日は主催の合同会社 デロイト トーマツのほか、エヌビディア合同会社（NVIDIA）やデル・テクノロジーズ株式会社、シュナイダーエレクトリックホールディングス株式会社、アルテアエンジニアリング株式会社、パロアルトネットワークス株式会社といった、スマートファクトリー関連企業から担当者が登壇。製造業が抱える課題と、スマートファクトリー化に向けたさまざまな提言を行った。
@@ -557,7 +532,7 @@ Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセ�
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI研究の主要国際会議「NeurIPS 2025」採択論文でハルシネーション多数──GPTZero、「vibe citing（雰囲気引用）」を中心概念として定義し分析を公開</title>
+      <title>学術＆研究2026/1/31 [SAT]AI研究の主要国際会議「NeurIPS 2025」採択論文でハルシネーション多数──GPTZero、「vibe citing（雰囲気引用）」を中心概念として定義し分析を公開</title>
       <link>https://ledge.ai/articles/neurips_2025_hallucinated_citations_gptzero</link>
       <description><![CDATA[<p>AI生成コンテンツの検出を手がけるGPTZeroは2026年1月21日、AI研究の主要国際会議NeurIPS 2025の採択論文を分析した結果、51本の論文にまたがる計100件の「ハルシネーション（幻覚引用）」を確認したと<a href="https://gptzero.me/news/neurips/">発表</a>{target=”_blank”}した。対象は、NeurIPS 2025で採択された論文のうち4,841本で、いずれも既に採択され、会議で発表済みの論文だとしている。</p>
 <h2>採択論文4,841本を分析、51本で「確認済み」100件</h2>
