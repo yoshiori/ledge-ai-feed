@@ -436,6 +436,28 @@ CTO Ambassador
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、ピクサー出身監督と制作した短編アニメをサンダンス映画祭でプレビュー上映へ──AIを制作工程に組み込む新たな表現手法を提示</title>
+      <link>https://ledge.ai/articles/google_sundance_ai_animation_workflow</link>
+      <description><![CDATA[<p>Googleは2026年1月26日（現地時間）、同社が制作した短編アニメ映画を、米国で開催されるサンダンス映画祭のプログラム「Sundance Institute Story Forum」でプレビュー上映すると<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors">発表</a>した。作品は、Google DeepMindの研究チームと、ピクサー出身の監督が協働して制作したもので、AIをアニメーション制作工程に組み込む新たな表現手法を示す事例として紹介される。</p>
+<p>なお、Sundance Film Festivalは、インディペンデント映画を中心に、新しい表現手法や制作アプローチを積極的に紹介してきた国際的な映画祭として知られている。上映作品だけでなく、物語の作り方や制作プロセスを議論する場も設けられており、映画表現の変化をいち早く取り上げる場として注目されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=eCk5VFKKz08">YouTube</a></p>
+<h2>ピクサー出身監督とGoogle DeepMindが共同制作</h2>
+<p>今回プレビュー上映される短編アニメは、ピクサー出身の監督 Connie He 氏と、Google DeepMindの研究者・エンジニアが共同で制作した。同作は、研究成果のデモンストレーションではなく、完成した短編アニメ作品として制作された点が特徴だ。Googleは、AI研究の成果を実際のクリエイティブ制作に適用する試みとして位置づけている。</p>
+<h2>AIを“主役”にしない制作ワークフロー</h2>
+<p>制作では、Google DeepMindが開発する画像生成モデル「Imagen」や動画生成モデル「Veo」などが用いられた。ただし、テキストプロンプトのみを入力して映像を生成する一般的な生成AIの使い方は採られていない。</p>
+<p><strong>Imagenをファインチューニングして生成された主人公「Ada」のビジュアル例。単一のプロンプト生成ではなく、制作者の素材や意図を反映させながら表現の幅を広げたとしている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/WM_Ada_T2_I_1080p_max_1080x1080_format_webp_abc27ecd3f/WM_Ada_T2_I_1080p_max_1080x1080_format_webp_abc27ecd3f.webp" alt="WM_AdaT2I_1080p.max-1080x1080.format-webp.webp" /></p>
+<p>Googleによると、制作工程ではまずアーティストが手描きのスケッチや絵コンテ、ラフアニメーションを作成し、それらのビジュアル素材をもとにAIモデルを調整・活用する手法が取られたという。Veoは既存のアニメーションや映像素材を入力として受け取り、動きや質感を保ったまま表現を拡張する用途で使われ、Imagenはキャラクターや背景のビジュアル表現を補完する役割を担ったとしている。</p>
+<p>このように、AIは制作工程の各段階で補助的に組み込まれており、物語構成や演出、最終的な表現の判断は人間の制作者が担う設計となっている。Googleは、AIを「自動生成の主体」ではなく、アーティストの意図を反映するための制作ツールとして位置づけている。</p>
+<h2>「Story Forum」でのプレビュー上映という位置づけ</h2>
+<p>上映が行われる「Sundance Institute Story Forum」は、完成作品の優劣を競うコンペティションではなく、物語表現や制作手法、創作プロセスそのものを共有・議論することを目的としたプログラムだ。</p>
+<p>今回の短編アニメも、AIを活用した新しい制作工程の事例として紹介され、制作の背景や手法についての説明とあわせて上映される予定となっている。</p>
+<h2>AI研究成果を創作の現場へ</h2>
+<p>Googleは同作品について、AI研究の成果を実験段階にとどめず、映画やアニメーションといった創作の現場でどのように活用できるかを示す試みだとしている。表現の幅を広げることや、制作工程の選択肢を増やすことを目的としており、現時点で商用配信や一般公開の予定については明らかにしていない。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GPT-4oが再び退場へ──OpenAI、ChatGPTで旧モデル整理　2月13日に提供終了、利用の大半はGPT-5.2に移行</title>
       <link>https://ledge.ai/articles/gpt-4o_retirement_chatgpt_feb_13</link>
       <description><![CDATA[<p>OpenAIは2026年1月29日、ChatGPTで提供している「GPT-4o」「GPT-4.1」「GPT-4.1 mini」「OpenAI o4-mini」の4モデルを、2026年2月13日をもって提供終了（retire）すると<a href="https://openai.com/index/retiring-gpt-4o-and-older-models/">発表</a>した。同日には、すでに発表されている「GPT-5（InstantおよびThinking）」のChatGPTでの提供終了も実施される。なお、APIについては現時点で変更はないとしている。ChatGPT上で利用可能な旧世代モデルを整理し、より新しいモデルにリソースを集中させる狙いだ。</p>
