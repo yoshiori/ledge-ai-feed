@@ -416,6 +416,23 @@ CTO Ambassador
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>“プロンプトで歩ける世界”が現実に──Google、世界生成AIの実験プロトタイプ「Project Genie」米国提供　Google DeepMindの世界モデル「Genie 3」を搭載</title>
+      <link>https://ledge.ai/articles/google_project_genie_interactive_virtual_world_us_release</link>
+      <description><![CDATA[<p>Googleは2026年1月29日（現地時間）、テキストや画像から対話型の仮想世界を生成・探索できる実験的なプロトタイプ「Project Genie」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/">公開</a>した。まずは米国の「Google AI Ultra」ユーザーを対象に提供する。</p>
+<h2>テキストや画像から対話型の仮想世界を生成</h2>
+<p>Project Genieは、ユーザーが自然言語の指示や画像を入力すると、AIが仮想空間を生成し、その中を移動・操作しながら探索できる点が特徴だ。生成された世界は静的な3Dモデルではなく、視点移動や操作に応じて周囲の環境がリアルタイムに構築される。</p>
+<p>同プロトタイプでは、体験は三つの中核機能で構成されている。テキストや生成・アップロードした画像を用いて環境を作成する「World sketching」、生成された世界の中を歩行や飛行、乗り物での移動などを通じて体験する「World exploration」、既存の世界を基に新たな解釈を加える「World remixing」だ。
+作成前には世界の見た目をプレビューし、視点を一人称・三人称から選択することもできる。</p>
+<p>@<a href="https://youtu.be/YxkGdX4WIBE">YouTube</a></p>
+<h2>世界モデル「Genie 3」を中核に据えた構成</h2>
+<p>技術面では、Google DeepMindが開発した世界モデル「Genie 3」を中核に据える。ユーザーの行動に応じて進行方向の環境を生成する仕組みを採用し、物理挙動や相互作用を含む動的な世界をシミュレーションする。プロトタイプはGenie 3に加え、画像生成モデル「Nano Banana Pro」や対話型AI「Gemini」を組み合わせたWebアプリとして提供されている。</p>
+<h2>米国のGoogle AI Ultraユーザー向けに限定提供</h2>
+<p>Project GenieはGoogle Labsにおける実験的研究プロトタイプとして提供される。現時点では米国在住の18歳以上で、「Google AI Ultra」に加入しているユーザーに限定されている。生成した世界や探索の様子は動画としてダウンロードすることも可能だ。</p>
+<p>Googleは、現段階では生成結果が必ずしも現実世界の物理や入力内容に完全に一致しない場合があるほか、操作時の遅延や生成時間が最大60秒に制限されている点など、いくつかの制約があるとしている。一部のGenie 3の機能も本プロトタイプには含まれていない。今後はユーザーからのフィードバックを基に改良を進め、提供地域を段階的に拡大していく方針だ。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、ピクサー出身監督と制作した短編アニメをサンダンス映画祭でプレビュー上映へ──AIを制作工程に組み込む新たな表現手法を提示</title>
       <link>https://ledge.ai/articles/google_sundance_ai_animation_workflow</link>
       <description><![CDATA[<p>Googleは2026年1月26日（現地時間）、同社が制作した短編アニメ映画を、米国で開催されるサンダンス映画祭のプログラム「Sundance Institute Story Forum」でプレビュー上映すると<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors">発表</a>した。作品は、Google DeepMindの研究チームと、ピクサー出身の監督が協働して制作したもので、AIをアニメーション制作工程に組み込む新たな表現手法を示す事例として紹介される。</p>
@@ -434,19 +451,6 @@ CTO Ambassador
 <p>今回の短編アニメも、AIを活用した新しい制作工程の事例として紹介され、制作の背景や手法についての説明とあわせて上映される予定となっている。</p>
 <h2>AI研究成果を創作の現場へ</h2>
 <p>Googleは同作品について、AI研究の成果を実験段階にとどめず、映画やアニメーションといった創作の現場でどのように活用できるかを示す試みだとしている。表現の幅を広げることや、制作工程の選択肢を増やすことを目的としており、現時点で商用配信や一般公開の予定については明らかにしていない。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>判断から実行までをAIが担う──日立ソリューションズ、RPAと連携するAIエージェント業務自動化を提供開始</title>
-      <link>https://ledge.ai/articles/hitachi_solutions_ai_agent_rpa_business_automation</link>
-      <description><![CDATA[<p>日立ソリューションズは2026年1月21日、AIとRPAを連携させ、複数の業務システムを横断して操作しながら、業務プロセスを自律的に判断・遂行する「AIエージェント活用業務自動化ソリューション」の提供を開始したことを<a href="https://www.hitachi-solutions.co.jp/company/press/news/2026/0121_1.html">発表</a>した。業務の判断をAIが担い、実行をRPAが担う構成により、従来は人手が介在していた複雑な業務の自動化を可能にする。</p>
-<p>同ソリューションでは、AIエージェントが業務内容や処理状況を把握し、次に取るべき操作を判断する。判断結果に基づき、RPA（Robotic Process Automation、定型業務を自動化するソフトウエアロボット）が実際のシステム操作を行うことで、業務全体を一連の流れとして自動実行する。単一業務の自動化にとどまらず、業務プロセス全体を対象とする点が特徴だ。</p>
-<p><strong>見積作成業務におけるAIエージェント活用イメージ。業務5ステップ中4ステップを自動化する。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hitachi_aiagent_overview_44c100e94b/hitachi_aiagent_overview_44c100e94b.jpg" alt="hitachi aiagent overview.jpg" /></p>
-<p>API連携が難しい既存の業務システムや、画面操作が前提となるレガシーシステムにも対応する。AIによる判断と、RPAによる画面操作を組み合わせることで、複数システムをまたぐ業務を横断的に自動化できるとしている。また、AIエージェントは自律的な判断だけでなく、必要に応じて人への確認を行うなど、柔軟な業務対応も可能だという。</p>
-<p>導入にあたっては、自然言語やノーコード／ローコードによるAIエージェント作成を前提とし、業務部門でも扱いやすい設計を採用した。オープンな標準規格「MCP（Model Context Protocol）」に対応し、複数のAIエージェントを組み合わせた構成も可能としている。AIエージェントの設計からRPAとの連携、運用、改善までを一体で支援する。</p>
-<p>同社は実業務での検証も行っており、見積作成業務を対象に、作業工程の約80％を自動化し、担当者の作業時間を約90％削減したとしている。判断が必要な工程がボトルネックとなっていた業務に対し、AIエージェントが判断を担うことで、自動化の適用範囲を拡大できると説明している。</p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
