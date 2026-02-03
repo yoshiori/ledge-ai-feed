@@ -405,21 +405,6 @@ CTO Ambassador
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Googleカレンダー、Geminiで会議日程調整を自動化──最適な候補提示と“辞退後の再調整”をワンクリックで</title>
-      <link>https://ledge.ai/articles/google_calendar_gemini_meeting_scheduling_update</link>
-      <description><![CDATA[<p>Googleは2026年1月26日、Googleの「Google カレンダー」において、会議のスケジュール設定と再調整を支援する新機能を<a href="https://workspaceupdates.googleblog.com/2026/01/improved-meeting-suggestions-gemini-calendar.html">発表</a>した。生成AI「Gemini」を活用し、参加者の空き状況などを踏まえた候補時間の提示や、招待後の再スケジュールを簡素化する。</p>
-<h2>Geminiが最適な会議時間を自動提案</h2>
-<p>新機能では、イベント作成時に表示される「Suggested times」を選択すると、Geminiが参加者全員の空き状況を分析し、最適な会議時間の候補を提示する。タイムゾーンや勤務時間、既存予定との重複などを考慮したうえで候補が示され、主催者は提示された時間から選ぶだけで会議を設定できる。</p>
-<h2>辞退が出た場合も、ワンクリックで再調整</h2>
-<p>会議招待後に複数の参加者が欠席を選択するなどして成立が難しくなった場合、イベント画面上部に全員が参加可能な代替時間を示すバナーが表示される。主催者はそのバナーをクリックすることで、新しい時間帯への再スケジュールを行える。</p>
-<h2>利用条件と制約</h2>
-<p>Geminiによる時間候補の提示は、主催者が参加者のカレンダー情報にアクセスできることが前提となる。Googleのヘルプページによると、利用環境や会議の条件によっては候補が表示されない場合があるなど、一定の制約も設けられている。</p>
-<h2>提供時期と対象プラン</h2>
-<p>同機能は、Google WorkspaceのBusiness Standard／Plus、Enterprise Standard／Plus、および「Google AI Pro for Education」アドオンのユーザーが利用できる。Rapid Releaseドメインではすでに提供が始まっており、Scheduled Releaseドメインでは2026年2月2日から段階的に展開される予定だ。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>100万文字DNAを一度に解析──Google DeepMind、11種のゲノム過程を統合予測するAI「AlphaGenome」</title>
       <link>https://ledge.ai/articles/google_deepmind_alphagenome_nature_1mb_genome_prediction</link>
       <description><![CDATA[<p>Google DeepMindの研究チームは、最大100万塩基（約100万文字）に及ぶDNA配列を一度に解析し、遺伝子発現やスプライシングなど11種類の主要なゲノムプロセスを高精度で予測できるAIモデル「AlphaGenome」を開発した。研究成果は<a href="https://www.nature.com/articles/s41586-025-10014-0">Nature</a>に2026年1月28日付で掲載され、研究コミュニティ向けにソースコードとモデルの重みも公開されている。</p>
@@ -591,6 +576,18 @@ Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセ�
 <p><strong>2026年以降のAI市場、特に「国産」という文脈でどのような未来を描いていますか？</strong></p>
 <p><strong>石田氏:</strong> 2026年は、AIエージェントの活用が本格化する年になると予測しています。その際、海外の大手ベンダーは、自社の製品群で固めたクローズドな「密結合」のエコシステムを構築してくるでしょう。それに対し、我々は様々なシステムやサービスを繋ぐオープンな「疎結合」のハブとなることを目指します。 また、「国産」という点も重要です。現在、多くの日本企業が高価な海外製ソリューションに依存しており、それがコストを圧迫しています。我々は、そうした高価なシステムから必要な機能だけを切り出す「オフロード」の受け皿となりたい。他の優れた国産ベンダーと連携し、安価で使いやすく、日本の商習慣に合ったソリューションを提供することで、日本企業全体のAI競争力を高めていく。それこそが、国産データインテグレーターとしての我々の使命だと考えています。</p>
 <p>エンタープライズAIの戦場は、もはや最高のアルゴリズムを持つ者が制するのではない。そのアルゴリズムを動かす、混沌としたデータの流れを制する者が勝者となる。セゾンテクノロジーは、システムや部門、さらには企業の壁を越えてデータを「つなぐ」という長年磨き上げてきた技術を武器に、日本企業のデータ駆動型経営を根幹から支える中核的存在へと飛躍しようとしている。</p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX、AI向け「宇宙データセンター」構想をFCC提出──太陽光を直接使う“軌道上AIインフラ”、衛星100万基規模</title>
+      <link>https://ledge.ai/articles/spacex_fcc_orbital_ai_data_center_1m_satellites</link>
+      <description><![CDATA[<p>SpaceXが、AI向け計算基盤の新たな構想を打ち出した。<a href="https://www.reuters.com/business/aerospace-defense/spacex-seeks-fcc-nod-solar-powered-satellite-data-centers-ai-2026-01-31/">Reuters</a>によると、SpaceXは2026年1月30日、米連邦通信委員会（FCC）に対し、将来的に最大100万基規模へ拡大する衛星コンステレーション計画を申請した。これらの衛星は、従来の通信用途にとどまらず、「軌道上データセンター」としてAIの計算・データ処理を担う構想が盛り込まれているという。</p>
+<h2>地上の電力制約を回避する「宇宙」という選択肢</h2>
+<p>Reutersによれば、今回申請された低軌道（LEO）衛星群は、衛星同士をネットワークで接続し、高度な計算機能を担うことを想定している。宇宙空間でほぼ連続的に得られる太陽光を直接電力源として活用することで、地上データセンターが直面する電力供給の制約を回避できる可能性があると報じている。</p>
+<h2>FCCの審査と「Starlink Gen2」の判断例</h2>
+<p>FCCへの申請手続き上、こうした構想を含む衛星システムも通信衛星として扱われ、周波数利用の適格性などが審査対象となる。FCCは2026年1月9日、SpaceXが申請していた次世代通信衛星「Starlink Gen2」を正式に承認しており、公式文書（<a href="https://docs.fcc.gov/public/attachments/DA-26-36A1.pdf">DA-26-36A1</a>）では、大規模な低軌道衛星コンステレーションであっても、既存の通信枠組みに基づき審査・判断が行われることが示されている。</p>
+<p>今回の申請は、提出時点で承認されたものではなく、今後FCCによる審査を経て判断される。</p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
