@@ -377,6 +377,34 @@ CTO Ambassador
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Genspark、日本市場に本格参入──音声操作と自律ワークフローを備えた「AI Workspace 2.0」発表</title>
+      <link>https://ledge.ai/articles/genspark_ai_workspace_2_japan_launch</link>
+      <description><![CDATA[<p>米AIスタートアップの Genspark は2026年1月28日、日本市場での法人展開を本格化すると<a href="https://prtimes.jp/main/html/rd/p/000000002.000176655.html">発表</a>した。あわせて、音声入力アプリ「Speakly」やAI受信トレイのワークフローなどを含む「AI Workspace 2.0」を公開した。</p>
+<h2>日本市場を重要拠点に位置づけ</h2>
+<p>Gensparkは、日本市場を米国やアジアの主要市場と並ぶ重要拠点の一つと位置づけ、業務利用を前提としたAIワークスペースの提供を本格化する。日本語環境での業務利用を想定し、法人向けの導入を進める方針だ。</p>
+<h2>業務全体を担う「AI Workspace 2.0」</h2>
+<p>「Genspark AI Workspace 2.0」は、情報収集、情報処理、成果物作成までを単一の環境で担う業務特化型AIワークスペースとして設計されている。ユーザーの指示をもとに、AIがタスクを分解し、複数の工程を自律的に実行する点が特徴だ。</p>
+<p><strong>Genspark AI Workspace 2.0は、情報収集・処理・成果物作成までを単一環境で担う業務向けAIワークスペースとして設計されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_86e094679d/sub2_86e094679d.png" alt="sub2.png" /></p>
+<h2>音声入力とカスタムワークフローを新搭載</h2>
+<p>新バージョンでは、音声入力による操作に対応した。キーボード操作を介さず、話しかけるだけで指示を出せるため、業務のスピード向上が期待される。
+また、ユーザー自身が業務内容に応じたカスタムワークフローを構築できる機能も追加された。定型業務や複数ステップにまたがる処理をAIに任せることで、業務の自動化を進められる。</p>
+<h2>メール処理を自動化する「AI受信トレイ」</h2>
+<p>AI Workspace 2.0には、メール処理を自動化する「AI受信トレイ」も搭載されている。受信箱のトリアージや転送、優先順位付けなどを自律的に処理する仕組みとしている。</p>
+<h2>複数AIモデルを統合、モデル選択は不要</h2>
+<p>Gensparkは、ChatGPTやGemini、Claudeなど複数の大規模言語モデルを内部で活用している。ユーザーは個別のモデルを意識する必要はなく、タスク内容に応じて最適なモデルが裏側で使い分けられる仕組みだ。
+同社は、ChatGPTやGemini、Claudeなどを含む70以上のAIモデルを統合し、指示をタスクに分解したうえで最適なモデルを選定すると説明している。</p>
+<p><strong>Gensparkは、複数のAIモデル、ツール、データを組み合わせる独自のエージェントエンジンによって業務実行を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_c8285ce386/sub1_c8285ce386.png" alt="sub1.png" /></p>
+<p>こうしたGenspark AI Workspace 2.0の動作イメージについて、同社は以下の公式デモ動画で紹介している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KtOZNvFhV8c">YouTube</a></p>
+<h2>日本企業での導入も進展</h2>
+<p>Gensparkは、日本国内において広告、IT、製造、金融など複数業界の企業で導入が進んでいると説明する。今後は、日本市場向けの機能拡張や導入支援を通じて、業務現場でのAI活用をさらに広げていく考えだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_2ec073c221/sub3_2ec073c221.png" alt="sub3.png" /></p>
+]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Googleカレンダー、Geminiで会議日程調整を自動化──最適な候補提示と“辞退後の再調整”をワンクリックで</title>
       <link>https://ledge.ai/articles/google_calendar_gemini_meeting_scheduling_update</link>
       <description><![CDATA[<p>Googleは2026年1月26日、Googleの「Google カレンダー」において、会議のスケジュール設定と再調整を支援する新機能を<a href="https://workspaceupdates.googleblog.com/2026/01/improved-meeting-suggestions-gemini-calendar.html">発表</a>した。生成AI「Gemini」を活用し、参加者の空き状況などを踏まえた候補時間の提示や、招待後の再スケジュールを簡素化する。</p>
