@@ -222,31 +222,6 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
       <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>中国AIテック、オープンソース推論モデルを相次ぎ公開──Alibabaが「Qwen3-Max-Thinking」、Moonshot AIは「Kimi K2.5」発表</title>
-      <link>https://ledge.ai/articles/china_ai_open_source_reasoning_models_qwen3_max_thinking_kimi_k2_5</link>
-      <description><![CDATA[<p>中国のAIテック企業が、推論能力を前面に打ち出したオープンソース大規模言語モデル（LLM）を相次いで公開している。</p>
-<p>Alibabaは2026年1月26日、同社の「Qwen」シリーズにフラッグシップ推論モデル「<a href="https://qwen.ai/blog?id=qwen3-max-thinking">Qwen3-Max-Thinking</a>」を追加した。続く27日には、中国のAIスタートアップであるMoonshot AIが、生成AIサービス「Kimi」の新モデルとして「<a href="https://www.kimi.com/blog/kimi-k2-5.html">Kimi K2.5</a>」を発表した。</p>
-<h2>Alibaba、推論特化のオープンソースLLM「Qwen3-Max-Thinking」を公開</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Qwen3_Max_Thinking_a4f4c3f239/Qwen3_Max_Thinking_a4f4c3f239.jpg" alt="Qwen3-Max-Thinking.jpg" /></p>
-<p>Alibaba傘下のQwen開発チームは2026年1月26日、同社が開発する大規模言語モデル「Qwen」シリーズの新モデルとして、「Qwen3-Max-Thinking」を<a href="https://qwen.ai/blog?id=qwen3-max-thinking">発表</a>した。公開した。</p>
-<p>同モデルは、モデル規模の拡大と大規模な強化学習を組み合わせることで、知識量、複雑な推論能力、指示追従性、人間の嗜好との整合性、エージェント機能など複数の側面で性能を高めたとしている。</p>
-<p>Qwenチームによると、19の既存ベンチマークにおいて、GPT-5.2-ThinkingやClaude Opus 4.5、Gemini 3 Proと同等水準の性能を示したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/score_c57592148d/score_c57592148d.jpg" alt="score.jpg" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qwen3_max_bench_a596df956e/qwen3_max_bench_a596df956e.jpg" alt="qwen3 max bench.jpg" /></p>
-<p>また、必要に応じて検索やコード実行を自律的に呼び出す適応的なツール利用機能を備え、Qwen Chat上で利用可能としている。推論時に追加計算を割り当てるテスト時スケーリング手法も導入し、複数の推論系ベンチマークで性能向上を確認したとしている。</p>
-<p>Qwen3-Max-Thinkingは、Qwen ChatおよびAPIを通じて提供されており、オープンソースモデルとして公開されている。</p>
-<h2>Moonshot AI、オープンソース推論モデル「Kimi K2.5」発表</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kimiai_704db61aa9/Kimiai_704db61aa9.jpg" alt="Kimiai.jpg" /></p>
-<p>Moonshot AIは2026年1月27日、同社が提供する生成AIサービス「Kimi」の新たな基盤モデルとして、「Kimi K2.5」を<a href="https://www.kimi.com/blog/kimi-k2-5.html">発表</a>した。</p>
-<p>同社はKimi K2.5を、視覚理解と推論、エージェント機能を統合した「オープンソースのVisual Agentic Intelligence」と位置づけている。</p>
-<p>同社の公式Xアカウントによると、Kimi K2.5はエージェント関連ベンチマークにおいて、HLE（full set）で50.2%、BrowseCompで74.9%のスコアを記録したという。また、視覚理解やコード生成に関する評価では、MMMU Proで78.5%、VideoMMMUで86.6%、SWE-bench Verifiedで76.8%を示し、オープンソースモデルとして最高水準の性能だとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/G_p_Ua_Plao_A_Aa9as_b13b4a4d7f/G_p_Ua_Plao_A_Aa9as_b13b4a4d7f.jpg" alt="G_pUaPlaoAAa9as.jpg" /></p>
-<p>Kimi K2.5の特徴として、最大100のサブエージェントを自律的に生成・統括する「Agent Swarm」機能を挙げている。複数のエージェントが並列に最大1,500回のツール呼び出しを行うことで、単一エージェント構成と比べて処理速度が最大4.5倍向上するとしている。Agent Swarmは現在ベータ版として提供されている。</p>
-<p>Kimi K2.5は、KimiのWeb版およびアプリで利用可能で、チャットモードとエージェントモードをサポートする。APIも提供されており、同社は本番環境でのソフトウェア開発用途として、開発者向けツール「Kimi Code」との併用を推奨している。モデルの重みとコードはHugging Face上で公開されている。</p>
-]]></description>
-      <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日本発ヒューマノイド「cinnamon 1」初公開　ドーナッツロボティクス、無言で操作できる特許技術も発表</title>
       <link>https://ledge.ai/articles/donut_robotics_cinnamon1_humanoid_silent_gesture</link>
       <description><![CDATA[<p>ヒューマノイド開発に取り組むスタートアップ、ドーナッツロボティクスは2026年1月21日、日本ブランドのヒューマノイド『cinnamon 1（シナモン ワン）』を<a href="https://prtimes.jp/main/html/rd/p/000000041.000057944.html">発表</a>した。二足歩行が可能な量産型ヒューマノイドとして、同社は2026年内の市場投入を目指す。</p>
@@ -396,6 +371,30 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
 <p>今回の短編アニメも、AIを活用した新しい制作工程の事例として紹介され、制作の背景や手法についての説明とあわせて上映される予定となっている。</p>
 <h2>AI研究成果を創作の現場へ</h2>
 <p>Googleは同作品について、AI研究の成果を実験段階にとどめず、映画やアニメーションといった創作の現場でどのように活用できるかを示す試みだとしている。表現の幅を広げることや、制作工程の選択肢を増やすことを目的としており、現時点で商用配信や一般公開の予定については明らかにしていない。</p>
+]]></description>
+      <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JAXA、地球観測データを「生成AIから呼び出し」可能に──Python API v0.1.5でClaude Desktop向けMCPサンプル追加</title>
+      <link>https://ledge.ai/articles/jaxa_earth_api_claude_mcp</link>
+      <description><![CDATA[<p>宇宙航空研究開発機構（JAXA）は2026年1月27日、地球観測データを生成AIから呼び出せるようになったと、<a href="https://x.com/satellite_jaxa/status/2015981999564198052">公式X</a>{target=”_blank”}（旧Twitter）で明らかにした。あわせて、地球観測データ活用向けの公式ライブラリ「JAXA Earth API for Python」の最新版v0.1.5において、Claude Desktopで動作するMCP（Model Context Protocol）のサンプルコードを追加したことを公表している。</p>
+<p>JAXAは投稿の中で、「ITエンジニアの皆さん、ぜひ遊んでみてください！」と呼びかけており、生成AIと宇宙・地球観測データを組み合わせた実験的な活用を後押しする姿勢を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jaxa_x_2cc93d539e/jaxa_x_2cc93d539e.jpg" alt="jaxa x.jpg" /></p>
+<h2>Claude Desktopから衛星データを直接取得──生成AIがJAXA Earth APIを操作</h2>
+<p>今回のアップデートにより、AnthropicのAIアシスタント「Claude Desktop」から、JAXA Earth APIを外部ツールとして直接呼び出すことが可能になる。具体的には、Claude Desktopが対応するMCP（Model Context Protocol）を介し、ローカル環境で動作するMCPサーバーとしてJAXA Earth APIを接続する構成がサンプルコードとして示されている。</p>
+<p>これにより、ユーザーは会話形式の操作を通じて、JAXAが提供する地球観測データを取得・参照する実験を行えるようになる。</p>
+<h2>JAXA Earth API、生成AI連携を前提に拡張</h2>
+<p>JAXA Earth API for Pythonは、JAXAが保有する各種地球観測データを扱うための公式Pythonライブラリだ。
+衛星やセンサーごとの細かな仕様を意識せずにデータ取得や処理を行える点が特徴で、研究用途だけでなく、教育や試作的なアプリケーション開発にも利用されてきた。</p>
+<p>最新版のv0.1.5では、こうした既存のAPI機能に加え、生成AIとの連携を想定したMCPサンプルが新たに追加された。</p>
+<h2>生成AIが外部データを扱うための仕組み「MCP」</h2>
+<p>MCPは、生成AIが外部のツールやデータソースを安全に利用するためのプロトコルだ。
+Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続することで、AIが外部APIを「ツール」として呼び出す構成を取ることができる。</p>
+<p>JAXA Earth API for Python v0.1.5では、この仕組みを前提とした設定例やサンプルコードが公式ドキュメント上で公開されている。
+<a href="https://data.earth.jaxa.jp/api/python/v0.1.5/en/">https://data.earth.jaxa.jp/api/python/v0.1.5/en/</a>{target=”_blank”}</p>
+<h2>会話で地球観測データを扱う実験環境を公開</h2>
+<p>JAXAによる今回の対応は、地球観測データを単にAPIとして提供するだけでなく、生成AIと組み合わせた新たな利用形態を試せる環境を提示した点が特徴だ。公式ドキュメントでは、仮想環境の構築からClaude Desktop側の設定までが整理されており、個人開発者や研究者が比較的容易に検証を始められる構成となっている。</p>
+<p>生成AIを介した地球観測データの利活用が、今後どのような形で広がっていくのか注目される。</p>
 ]]></description>
       <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
     </item>
