@@ -5,6 +5,50 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
+      <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
+      <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
+<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで提供され、現時点ではGemini 3 Flash専用機能として位置付けられている。</p>
+<h2>画像理解を「一度きりの認識」から「段階的な検証プロセス」へ</h2>
+<p>Agentic Visionの特徴は、画像理解を静的な認識処理ではなく、段階的な検証プロセスとして扱う点にある。
+モデルは画像を見て即座に答えを出すのではなく、</p>
+<ul>
+<li>どの部分を確認すべきかを判断</li>
+<li>必要な操作を実行</li>
+<li>結果を再度観察し、次の行動を決める</li>
+</ul>
+<p>といったループを繰り返しながら推論を進める。Googleはこのアプローチを「Think → Act → Observe」の循環として説明している。</p>
+<h2>視覚推論とPython実行を組み合わせた設計</h2>
+<p>技術的な中核となるのが、視覚推論とPythonコード実行の統合だ。</p>
+<p><strong>図）Agentic Visionの処理フロー</strong> ：ユーザー入力（画像＋テキスト）を受けたAIエージェントが、「Think（計画）→Act（コード実行）→Observe（結果確認）」の循環を回しながら、画像を拡大・切り出し・注釈付けして分析する。Gemini 3 Flashでは、Pythonによる画像操作が推論プロセスに組み込まれている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_z5u5YjZ.webp" /></p>
+<p>Agentic Visionでは、モデルが自律的にPythonコードを生成・実行し、以下のような操作を行う。</p>
+<ul>
+<li>画像の一部を切り出して拡大表示</li>
+<li>特定領域を再解析</li>
+<li>数値データを抽出して計算処理</li>
+</ul>
+<p>こうした処理をコード実行環境で行うことで、推論過程をより厳密にし、誤認識を減らす狙いがある。Googleによると、この仕組みにより多くの視覚系ベンチマークで5〜10%の品質向上が確認されているという。</p>
+<p><strong>図）Agentic Visionによる視覚ベンチマーク性能の変化</strong> ：Gemini 3 Flashにコード実行を組み合わせた構成（with code execution）は、画像理解系ベンチマークの多くで、従来構成を5〜10%上回るスコアを示した。Googleは、画像の再検査や注釈付けを推論過程に組み込んだ点が精度向上につながったとしている</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_COEe0gZ.webp" /></p>
+<h2>ズーム、注釈、可視化──Agentic Visionで可能になる操作</h2>
+<p>Agentic Visionが提供する主な機能は、次の3点に整理できる。</p>
+<ul>
+<li><strong>ズームと再検査：</strong> 小さな文字や遠景の対象など、初回解析では不十分な要素を検知し、拡大・再分析する</li>
+<li><strong>画像への直接注釈：</strong> 境界ボックスやラベルを画像上に描画し、対象物の位置や数を明示することで、回答の根拠を可視化する</li>
+<li><strong>視覚情報の計算とグラフ化：</strong> 画像内の表や数値を読み取り、計算処理を行ったうえでグラフ出力することも可能</li>
+</ul>
+<p>これらはいずれも、モデルが自律的に「必要」と判断した場合に実行される点が特徴となっている。</p>
+<h2>Google AI StudioとVertex AIで提供、Flash専用機能として展開</h2>
+<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで利用できる。開発者は、コード実行機能を有効化することで、画像を対象とした高度な検証プロセスをアプリケーションに組み込める。</p>
+<p>なお、公式ドキュメントでは、本機能はGemini 3 Flashに限定して提供されると明記されており、他のGeminiモデルでは利用できない。</p>
+<h2>業務利用を意識した高精度画像理解へ</h2>
+<p>GoogleはAgentic Visionについて、単なる画像認識精度の向上にとどまらず、業務利用に耐える信頼性の確保を目的とした機能強化だと位置付けている。
+計器の読み取り、画像化された表データの解析、数量確認など、正確性が求められる場面での活用を想定しているという。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/2/2 [MON]“プロンプトで歩ける世界”が現実に──Google、世界生成AIの実験プロトタイプ「Project Genie」米国提供　Google DeepMindの世界モデル「Genie 3」を搭載</title>
       <link>https://ledge.ai/articles/google_project_genie_interactive_virtual_world_us_release</link>
       <description><![CDATA[<p>Googleは2026年1月29日（現地時間）、テキストや画像から対話型の仮想世界を生成・探索できる実験的なプロトタイプ「Project Genie」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/">公開</a>した。まずは米国の「Google AI Ultra」ユーザーを対象に提供する。</p>
@@ -76,50 +120,6 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
 <p>Anthropicは、MCPを通じてClaudeと業務ツールの接続性を高め、開発者や企業が独自のツールを統合できる環境整備も進めている。</p>
 <h2>対象プランと今後の展開</h2>
 <p>今回のインタラクティブツール連携は、Claudeの有料プラン（Pro、Team、Enterpriseなど）を中心に提供される。対応ツールは今後も拡大予定としており、Claudeを業務のハブとして活用するユースケースを広げていく方針だ。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
-      <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
-      <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
-<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで提供され、現時点ではGemini 3 Flash専用機能として位置付けられている。</p>
-<h2>画像理解を「一度きりの認識」から「段階的な検証プロセス」へ</h2>
-<p>Agentic Visionの特徴は、画像理解を静的な認識処理ではなく、段階的な検証プロセスとして扱う点にある。
-モデルは画像を見て即座に答えを出すのではなく、</p>
-<ul>
-<li>どの部分を確認すべきかを判断</li>
-<li>必要な操作を実行</li>
-<li>結果を再度観察し、次の行動を決める</li>
-</ul>
-<p>といったループを繰り返しながら推論を進める。Googleはこのアプローチを「Think → Act → Observe」の循環として説明している。</p>
-<h2>視覚推論とPython実行を組み合わせた設計</h2>
-<p>技術的な中核となるのが、視覚推論とPythonコード実行の統合だ。</p>
-<p><strong>図）Agentic Visionの処理フロー</strong> ：ユーザー入力（画像＋テキスト）を受けたAIエージェントが、「Think（計画）→Act（コード実行）→Observe（結果確認）」の循環を回しながら、画像を拡大・切り出し・注釈付けして分析する。Gemini 3 Flashでは、Pythonによる画像操作が推論プロセスに組み込まれている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_z5u5YjZ.webp" /></p>
-<p>Agentic Visionでは、モデルが自律的にPythonコードを生成・実行し、以下のような操作を行う。</p>
-<ul>
-<li>画像の一部を切り出して拡大表示</li>
-<li>特定領域を再解析</li>
-<li>数値データを抽出して計算処理</li>
-</ul>
-<p>こうした処理をコード実行環境で行うことで、推論過程をより厳密にし、誤認識を減らす狙いがある。Googleによると、この仕組みにより多くの視覚系ベンチマークで5〜10%の品質向上が確認されているという。</p>
-<p><strong>図）Agentic Visionによる視覚ベンチマーク性能の変化</strong> ：Gemini 3 Flashにコード実行を組み合わせた構成（with code execution）は、画像理解系ベンチマークの多くで、従来構成を5〜10%上回るスコアを示した。Googleは、画像の再検査や注釈付けを推論過程に組み込んだ点が精度向上につながったとしている</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_COEe0gZ.webp" /></p>
-<h2>ズーム、注釈、可視化──Agentic Visionで可能になる操作</h2>
-<p>Agentic Visionが提供する主な機能は、次の3点に整理できる。</p>
-<ul>
-<li><strong>ズームと再検査：</strong> 小さな文字や遠景の対象など、初回解析では不十分な要素を検知し、拡大・再分析する</li>
-<li><strong>画像への直接注釈：</strong> 境界ボックスやラベルを画像上に描画し、対象物の位置や数を明示することで、回答の根拠を可視化する</li>
-<li><strong>視覚情報の計算とグラフ化：</strong> 画像内の表や数値を読み取り、計算処理を行ったうえでグラフ出力することも可能</li>
-</ul>
-<p>これらはいずれも、モデルが自律的に「必要」と判断した場合に実行される点が特徴となっている。</p>
-<h2>Google AI StudioとVertex AIで提供、Flash専用機能として展開</h2>
-<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで利用できる。開発者は、コード実行機能を有効化することで、画像を対象とした高度な検証プロセスをアプリケーションに組み込める。</p>
-<p>なお、公式ドキュメントでは、本機能はGemini 3 Flashに限定して提供されると明記されており、他のGeminiモデルでは利用できない。</p>
-<h2>業務利用を意識した高精度画像理解へ</h2>
-<p>GoogleはAgentic Visionについて、単なる画像認識精度の向上にとどまらず、業務利用に耐える信頼性の確保を目的とした機能強化だと位置付けている。
-計器の読み取り、画像化された表データの解析、数量確認など、正確性が求められる場面での活用を想定しているという。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
@@ -439,20 +439,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <p>OpenAIは、GPT-4oの提供終了について「一部のユーザーにとっては不満や不便を感じる決定であることは理解している」としつつ、「モデルの引退は決して容易ではないが、より良いモデルの改善に集中するために必要な判断だ」と説明している。</p>
 ]]></description>
       <pubDate>Fri, 30 Jan 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、月額1,200円のAI有料プラン「Google AI Plus」日本展開　Geminiなどの利用枠を拡張</title>
-      <link>https://ledge.ai/articles/google_ai_plus_launch_japan_1200yen</link>
-      <description><![CDATA[<p>Googleは2026年1月28日、AI機能の利用上限を拡大できる有料サブスクリプションプラン「Google AI Plus」を日本で提供開始したことを<a href="https://blog.google/intl/ja-jp/company-news/technology/google-ai-plus/">発表</a>した。月額料金は1,200円。Geminiをはじめとする同社の生成AI機能を、無料プランよりも広い枠で利用できる。</p>
-<p>Google AI Plusは、Google Oneを通じて提供される個人向けAIプランの一つで、生成AIを日常的に活用するユーザーを主な対象とする。新規登録者向けには、最初の2カ月間を月額600円とする半額キャンペーンも用意されている。</p>
-<p>同プランでは、Geminiアプリで高性能モデルである「Gemini 3 Pro」や「Nano Banana Pro」を利用できるほか、AIを活用した映像制作ツール「Flow」、リサーチや執筆を支援する「NotebookLM」など、複数のAI機能が含まれる。GmailやGoogleドキュメント、スプレッドシートといったGoogleの各種サービスに統合されたGemini機能についても、利用枠が拡張される。</p>
-<p>また、Google AI Plusには200GBのクラウドストレージが付帯し、Google Drive、Gmail、Google Photosで共通利用が可能だ。ストレージやAI特典は、最大5人までの家族メンバーと共有できる。既存のGoogle One プレミアム（2TB）ユーザーについては、数日以内にGoogle AI Plus相当のAI特典が利用可能になるとしている。</p>
-<p><strong>GoogleのAIサブスクリプション3プランの比較。AI Plusは月額1,200円で提供される入門プラン</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/JP_aiplus_comparison_width_1000_format_webp_55f4d830ae/JP_aiplus_comparison_width_1000_format_webp_55f4d830ae.jpg" alt="JP_aiplus_comparison.width-1000.format-webp.jpg" /></p>
-<p>一方で、Googleは同プランについて、Google Workspaceのビジネスおよび教育機関向けアカウントでは利用できないとしている。</p>
-<p>Googleは、個人向けに段階的なAIサブスクリプションを用意しており、Google AI Plusはその中でも入門・中核的な位置づけとなる。今後は、より高い利用上限や機能を備えた上位プランと併せて、生成AIの利用拡大を図る。</p>
-]]></description>
-      <pubDate>Wed, 28 Jan 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本発ヒューマノイド「cinnamon 1」初公開　ドーナッツロボティクス、無言で操作できる特許技術も発表</title>
