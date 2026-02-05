@@ -245,19 +245,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、推論向けAIアクセラレータ「Maia 200」発表──GPT-5.2を含む最新モデルを支える基盤に</title>
-      <link>https://ledge.ai/articles/microsoft_maia_200_inference_ai_accelerator</link>
-      <description><![CDATA[<p>Microsoftは米国時間2026年1月26日、AI推論に特化した自社設計のカスタムアクセラレータ「Maia 200」を<a href="https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/">発表</a>した。大規模言語モデル（LLM）などの推論処理を想定した設計で、同社はクラウドサービス「Azure」におけるAI基盤を支える中核技術の一つと位置づけている。</p>
-<p>Maia 200は、学習用途ではなく推論ワークロードに最適化したアクセラレータとして設計された。Microsoftによると、トークン生成を中心とする推論処理において、スループットや電力効率、システム全体でのスケーラビリティを重視しているという。製造にはTSMCの3ナノメートルプロセスを採用し、FP8およびFP4演算に対応したテンソル演算機構を備える。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Maia200chip_960x540_c584507414/Maia200chip_960x540_c584507414.png" alt="Maia200chip-960x540.png" /></p>
-<p>メモリ構成ではHBM3eを採用し、大容量かつ高帯域のメモリアクセスを可能にした。Microsoftは、Maia 200が従来世代と比べて性能あたりのコスト効率を向上させたと説明しているが、具体的な比較対象や条件については明らかにしていない。</p>
-<p>同社は、Maia 200をAzureのデータセンターに段階的に導入する方針を示している。Azure AI FoundryやMicrosoft 365 CopilotといったAIサービスの基盤として活用されるほか、OpenAIの最新モデルであるGPT-5.2を含む複数のAIモデルを支えるインフラとして位置づけられている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=bGecvPR2QWo">YouTube</a>
-Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセラレータを活用してきたが、AI利用の急拡大を背景に、自社設計シリコンの開発を進めてきた。Maia 200は、その流れの中で推論処理に特化した最新世代のアクセラレータとなる。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、GPT-5.2搭載の研究執筆AI「Prism」を無料で公開──人数制限なしの共同作業ワークスペース</title>
       <link>https://ledge.ai/articles/openai_prism_gpt5_2_research_writing_workspace</link>
       <description><![CDATA[<p>OpenAIは2026年1月27日、科学研究向けのAI執筆・共同作業ワークスペース「Prism」を<a href="https://openai.com/index/introducing-prism/">発表</a>した。GPT-5.2を中核に据えたAIネイティブ設計を採用し、論文執筆や修正、共同編集といった研究の日常業務を単一のクラウド環境に統合する。Prismは無料で利用でき、ChatGPTアカウントを持つユーザーであれば、人数制限なく共同作業を行える。</p>
@@ -354,6 +341,22 @@ Microsoftはこれまで、GPUを中心とした外部ベンダー製アクセ�
 <p>Waymoは公式ブログの中で、同社が参照する査読済みモデルに基づき、「同様の状況下で注意深い人間ドライバーであれば、約14マイル（約22km）程度の速度で接触していた可能性がある」との比較も示した。ただし、同社はこの比較が事故の正当化を目的とするものではなく、安全性能評価の文脈で提示したものだと説明している。</p>
 <h2>調査結果は今後公表へ</h2>
 <p>現時点で事故原因や法的責任についての結論は出ておらず、NHTSAの調査結果が待たれる状況だ。Waymoは「透明性と道路安全への責任」を強調し、調査の進展に応じて追加情報を公開するとしている。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>xAI、動画生成AI「Grok Imagine 1.0」公開──10秒・720p動画と音声品質を大幅強化</title>
+      <link>https://ledge.ai/articles/xai_grok_imagine_1_0_video_generation_release</link>
+      <description><![CDATA[<p>米AI企業のxAIは2026年2月2日、動画生成AIの新モデル「Grok Imagine 1.0」を公開した。公式Xで<a href="https://x.com/xai/status/2018164753810764061">発表</a>した。</p>
+<p>xAIは今回のリリースを「これまでで最大の進化（our biggest leap yet）」と位置づけており、同社の生成AIサービスにおける動画生成機能を本格的に拡張するものとなる。新モデルでは、最大10秒の動画生成や720p解像度への対応に加え、音声品質やプロンプト追従性を大幅に向上させたとしている。</p>
+<h2>最大10秒・720p対応、音声とプロンプト理解を刷新</h2>
+<p>Grok Imagine 1.0では、生成できる動画の長さが最大10秒に拡張され、解像度も720pに対応した。xAIは、映像のディテールがより鮮明になり、モーションも滑らかになったことで、従来よりもシーン全体が自然に展開する映像表現が可能になったと説明している。</p>
+<p>あわせて音声生成も大幅に改善され、キャラクターの発話に感情や表現力を持たせることができるほか、場面に応じた音楽を自動生成し、映像と同期させることも可能だという。プロンプト理解も向上しており、最初の指示だけでなく、フォローアッププロンプトを通じて内容を調整するなど、対話的な動画生成が行える点を特徴として挙げている。</p>
+<h2>直近30日で12億本超を生成、日常用途も想定</h2>
+<p>xAIによると、Grok Imagineは直近30日間で約12.45億本（1.245 billion）の動画を生成したという。具体的なユーザー数や地域別の内訳は明らかにしていないものの、短期間で大量の動画が生成されている点から、同社はサービスの利用が急速に広がっていることを示唆している。用途としては、古い家族写真やペットの写真をアニメーション化するほか、その日のニュースを題材にミームや短編クリップを作成するといった日常的な使い方も想定しており、専門的な映像制作に限らない幅広い利用シーンを見込んでいる。</p>
+<h2>APIモデルは外部ベンチマークで高評価と説明</h2>
+<p>あわせてxAIは、Grok ImagineのAPIモデルが、第三者によるAIモデル評価サイトのArtificial Analysisの動画生成ベンチマークにおいてトップ評価を獲得したと<a href="https://x.ai/news/grok-imagine-api">説明</a>している。同社は、こうした外部評価を、Imagine 1.0を支える基盤モデルの品質を示す材料の一つとして位置づけている。xAIは今後の改善に向けてユーザーからのフィードバックも重視するとしており、生成した作品をX上で共有し、@xaiをタグ付けして投稿するよう呼びかけている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Artificial_Analysis_9de29a7743/Artificial_Analysis_9de29a7743.jpg" alt="Artificial Analysis.jpg" /></p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
