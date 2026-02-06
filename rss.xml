@@ -124,6 +124,51 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>高性能AIの失敗はミスアラインメントだけでなく「Hot Mess（ごちゃごちゃ状態）」にも注意が必要──Anthropicが研究成果を公表</title>
+      <link>https://ledge.ai/articles/anthropic_hot_mess_ai_misalignment_research</link>
+      <description><![CDATA[<p>生成AIの安全性を巡る議論では、AIが人間の意図とは異なる目標を一貫して追求してしまう「ミスアラインメント」が主要なリスクとして語られてきた。しかし、Anthropicが発表した最新研究は、高性能なAIほど、意図の誤解とは異なる「意味のない」「一貫性のない行動」による失敗が増える可能性を示している。</p>
+<p>同社の研究者らは2026年1月30日、論文「The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?」を<a href="https://alignment.anthropic.com/2026/hot-mess-of-ai/">公開</a>した。この研究は、AIの失敗がどのような性質を持ち、モデルの知能やタスクの複雑さとどのように関係するのかを体系的に分析したもので、国際学会<strong>ICLR 2026</strong>への採択も決まっている。</p>
+<h2>研究の概要──「Hot Mess of AI」とは何か</h2>
+<p>研究は、AIの失敗を単なる「正解・不正解」ではなく、失敗の質に着目して分析している。Anthropicは、統計学で用いられるバイアス・分散分解の考え方を応用し、AIの誤りを以下の2種類に分類した。</p>
+<ul>
+<li><strong>バイアス主導の失敗：</strong> 一貫して誤った方針や目標に基づく行動</li>
+<li><strong>分散主導の失敗：</strong> 行動がばらつき、意味的に一貫性を欠く失敗</li>
+</ul>
+<p>研究タイトルにある「Hot Mess（ごちゃごちゃ状態）」とは、後者のように明確な意図や目的を見いだせないまま行動が崩れていく状態を指している。</p>
+<p><strong>■ AIの失敗を「一貫した誤り（バイアス主導）」と「意味のない行動のばらつき（分散主導）」に分けて整理した概念図。Anthropicは後者の失敗が高性能AIで増える可能性を示した。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_ff7edfc31d/x1_ff7edfc31d.png" alt="x1.png" /></p>
+<h2>従来の前提への疑問──失敗は“意図のズレ”だけではない</h2>
+<p>従来のAI安全研究では、AIが誤った目標を持ちながらも合理的に振る舞う、いわば「危険だが首尾一貫した存在」として想定されることが多かった。Anthropicの研究は、この前提に対し、高度なAIほど必ずしも一貫した失敗をするとは限らないことを示している。</p>
+<p>実験では、同じ条件下でもAIの行動が大きく揺れ動き、結果としてどのような方針で失敗しているのか説明できないケースが確認された。これは、意図の誤解や目標設定のミスだけでは説明できない失敗モードだとしている。</p>
+<h2>高性能化と“奇妙な失敗”の関係</h2>
+<p>研究では、モデルの性能とタスクの難易度を変えながら、AIの挙動を比較分析した。その結果、以下の傾向が示された。</p>
+<ul>
+<li>タスクが単純な場合、高性能モデルほど安定した行動を示す</li>
+<li>タスクが複雑になると、高性能モデルほど行動のばらつきが増える</li>
+<li>全体の正答率が向上しても、失敗時の挙動はむしろ不安定になる場合がある</li>
+</ul>
+<p>Anthropicは、AIが長い推論や複雑な意思決定を求められる状況では、一貫した誤りよりも、ランダムで説明困難な失敗が増えると分析している。</p>
+<p><strong>■ モデル性能や推論トークン数の増加に伴い、AIの挙動の不整合（KL Incoherence）が拡大する傾向を示した図</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure3_9b5b81504e/Figure3_9b5b81504e.jpg" alt="Figure3.jpg" /></p>
+<h2>「Hot Mess（ごちゃごちゃ状態）」という失敗観</h2>
+<p>論文では、このような分散主導の失敗を「Hot Mess」と表現している。これは、AIが明確な誤った目的を持って暴走する状態ではなく、その場しのぎの判断を重ねた結果、全体として意味をなさない行動に陥る状態を指す。</p>
+<p>Anthropicは、こうした失敗は意図的な不正行為よりも、事故やシステム不安定性に近い性質を持つと整理しており、従来のミスアラインメント対策だけでは十分に対応できない可能性があると指摘する。</p>
+<h2>安全研究への示唆──重心はどこに移るのか</h2>
+<p>研究を通じてAnthropicは、将来のAI安全研究の焦点が変化する可能性を示唆している。
+具体的には、AIが「危険な目標を一貫して追う存在」になるという想定よりも、予測不能で不安定な挙動を示すこと自体がリスクになる局面が増えるという見方だ。</p>
+<p>そのため同社は、モデルの大型化や性能向上だけでなく、</p>
+<ul>
+<li>推論過程の安定化</li>
+<li>行動の一貫性を評価する指標</li>
+<li>長期タスクにおける挙動検証</li>
+</ul>
+<p>といった観点を、AI設計と評価に組み込む必要があるとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Genspark、日本市場に本格参入──音声操作と自律ワークフローを備えた「AI Workspace 2.0」発表</title>
       <link>https://ledge.ai/articles/genspark_ai_workspace_2_japan_launch</link>
       <description><![CDATA[<p>米AIスタートアップの Genspark は2026年1月28日、日本市場での法人展開を本格化すると<a href="https://prtimes.jp/main/html/rd/p/000000002.000176655.html">発表</a>した。あわせて、音声入力アプリ「Speakly」やAI受信トレイのワークフローなどを含む「AI Workspace 2.0」を公開した。</p>
