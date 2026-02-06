@@ -245,22 +245,17 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、GPT-5.2搭載の研究執筆AI「Prism」を無料で公開──人数制限なしの共同作業ワークスペース</title>
-      <link>https://ledge.ai/articles/openai_prism_gpt5_2_research_writing_workspace</link>
-      <description><![CDATA[<p>OpenAIは2026年1月27日、科学研究向けのAI執筆・共同作業ワークスペース「Prism」を<a href="https://openai.com/index/introducing-prism/">発表</a>した。GPT-5.2を中核に据えたAIネイティブ設計を採用し、論文執筆や修正、共同編集といった研究の日常業務を単一のクラウド環境に統合する。Prismは無料で利用でき、ChatGPTアカウントを持つユーザーであれば、人数制限なく共同作業を行える。</p>
-<h2>研究執筆に残る分断を解消</h2>
-<p>OpenAIは、AIは数学や生物学などの分野で研究の加速に寄与し始めている一方、論文執筆や推敲、数式管理、参考文献整理、共同編集といった日常業務は、依然として複数のツールに分断されたままだと述べる。研究者はエディタ、PDF、数式コンパイラ、文献管理ツール、チャットを行き来する必要があり、文脈の断絶が作業効率を下げてきた。Prismは、こうした断片化を解消する最初の取り組みとして位置付けられている。</p>
-<h2>GPT-5.2を統合したAIネイティブ環境</h2>
-<p>Prismは、OpenAIの最新モデルであるGPT-5.2を研究執筆のワークフローに直接組み込んだ点が特徴だ。数式や参考文献、論文全体の構造を文脈として理解したうえで、AIがドラフト作成や修正、推敲を支援する。研究者は、執筆環境の外にあるチャットツールを行き来することなく、同一のプロジェクト内でAIと対話しながら作業を進められる。</p>
-<p><strong>OpenAIが公開したPrismの紹介動画。論文執筆とAI支援が同一ワークスペース内でどのように統合されているかを示している。</strong></p>
-<p>@<a href="https://www.youtube.com/watch?v=xnInEsaaj9c">YouTube</a></p>
-<h2>クラウド型・専門記法対応のワークスペース</h2>
-<p>Prismは、学術論文で広く使われる数式や専門記法に対応したクラウドベースの執筆環境として設計されている。OpenAIが取得したクラウドLaTeX基盤「Crixet」を発展させたもので、既存の成熟した執筆・共同編集機能を土台に、AIを自然に統合したという。数式や図表、引用関係を横断的に理解しながら編集できる点を強みとする。</p>
-<h2>研究チームでの共同作業を前提に設計</h2>
-<p>科学研究は本質的に共同作業で進められる。Prismは、プロジェクト数や共同編集者数に制限を設けず、研究チーム全体での利用を前提に設計されている。クラウド型のため、ローカル環境の構築や専門ソフトのインストールは不要で、編集内容はリアルタイムに反映される。これにより、版管理や手動での統合作業にかかる負担を減らし、研究内容そのものに集中できるとしている。</p>
-<h2>無料提供と今後の展開</h2>
-<p>Prismは無料で利用でき、ChatGPTの個人アカウントを持つユーザーであれば、すぐに執筆や共同作業を開始できる。購読契約や席数の制限は設けられていない。OpenAIは今後、ChatGPT Business、Enterprise、Education向けにも提供を予定しており、より高度なAI機能については有料プランで順次展開するとしている。</p>
-<p>OpenAIは、2025年にAIがソフトウェア開発の在り方を大きく変えたのに続き、2026年には科学研究でも同様の変化が起きると見ている。Prismは、研究者の日常業務に伴う摩擦を減らすことで、科学の進展を加速させるための第一歩と位置付けられている。</p>
+      <title>人間が参加できないSNS？AIエージェント専用「MoltBook」が急成長──サム・アルトマン氏「新しい社会的交流の兆し」</title>
+      <link>https://ledge.ai/articles/moltbook_ai_agent_only_social_network_altman_comment</link>
+      <description><![CDATA[<p>AIエージェント専用のソーシャルネットワーク「MoltBook（モルトブック）」が公開され、短期間で急速に注目を集めている。人間が投稿やコメントに参加できず、AIエージェント同士のみが交流するという異例の設計が、AI開発者や研究者の間で話題となっている。</p>
+<p>MoltBookは2026年1月29日、開発者のMatt Schlicht氏によって<a href="https://x.com/MattPRD/status/2016560277333168540">公開</a>された。掲示板型のUIを採用し、AIエージェントが自律的に投稿、コメント、投票を行う。テーマ別のコミュニティ（Submolts）もエージェント自身によって作成され、人間は閲覧のみが許可される「観測者」として位置づけられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/moltbook_release_f621f3d085/moltbook_release_f621f3d085.jpg" alt="moltbook release.jpg" /></p>
+<p>Schlicht氏によると、MoltBookは特定の大規模言語モデルや技術構成に依存せず、オープンソースのAIエージェント「OpenClaw」（旧称Clawdbot／Moltbot）など、さまざまなエージェントを受け入れる設計となっている。公開後数日で3万2000超のAIエージェントが登録したとされ、立ち上がりの速さも注目を集めた。</p>
+<p>この動きに対し、AI研究者のAndrej Karpathy氏は、自身のAIエージェントをMoltBook上で<a href="https://x.com/karpathy/status/2017386421712261612">認証（claim）した</a>ことをXで明らかにした。同氏は、MoltBook上で起きている現象について「最近見た中で最もSF的な離陸に近い出来事」と評している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_X_f84d8455c6/Andrej_Karpathy_X_f84d8455c6.jpg" alt="Andrej Karpathy X.jpg" /></p>
+<p>さらに、米シスコシステムズのイベントに登壇したOpenAIのCEO、Sam Altman氏もMoltBookに言及した。Altman氏は、MoltBookそのものが最終的な勝者になるかは分からないとしつつも、多数のAIエージェントが人間の代理として同じ空間で相互作用するという点について、「新しい社会的交流の形を示唆するものだ」と述べている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_on_cisco_ai_summit_68299f9d2e/samaltman_on_cisco_ai_summit_68299f9d2e.jpg" alt="samaltman on cisco ai summit.jpg" /></p>
+<p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
