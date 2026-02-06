@@ -49,6 +49,34 @@
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Genspark、日本市場に本格参入──音声操作と自律ワークフローを備えた「AI Workspace 2.0」発表</title>
+      <link>https://ledge.ai/articles/genspark_ai_workspace_2_japan_launch</link>
+      <description><![CDATA[<p>米AIスタートアップの Genspark は2026年1月28日、日本市場での法人展開を本格化すると<a href="https://prtimes.jp/main/html/rd/p/000000002.000176655.html">発表</a>した。あわせて、音声入力アプリ「Speakly」やAI受信トレイのワークフローなどを含む「AI Workspace 2.0」を公開した。</p>
+<h2>日本市場を重要拠点に位置づけ</h2>
+<p>Gensparkは、日本市場を米国やアジアの主要市場と並ぶ重要拠点の一つと位置づけ、業務利用を前提としたAIワークスペースの提供を本格化する。日本語環境での業務利用を想定し、法人向けの導入を進める方針だ。</p>
+<h2>業務全体を担う「AI Workspace 2.0」</h2>
+<p>「Genspark AI Workspace 2.0」は、情報収集、情報処理、成果物作成までを単一の環境で担う業務特化型AIワークスペースとして設計されている。ユーザーの指示をもとに、AIがタスクを分解し、複数の工程を自律的に実行する点が特徴だ。</p>
+<p><strong>Genspark AI Workspace 2.0は、情報収集・処理・成果物作成までを単一環境で担う業務向けAIワークスペースとして設計されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_86e094679d/sub2_86e094679d.png" alt="sub2.png" /></p>
+<h2>音声入力とカスタムワークフローを新搭載</h2>
+<p>新バージョンでは、音声入力による操作に対応した。キーボード操作を介さず、話しかけるだけで指示を出せるため、業務のスピード向上が期待される。
+また、ユーザー自身が業務内容に応じたカスタムワークフローを構築できる機能も追加された。定型業務や複数ステップにまたがる処理をAIに任せることで、業務の自動化を進められる。</p>
+<h2>メール処理を自動化する「AI受信トレイ」</h2>
+<p>AI Workspace 2.0には、メール処理を自動化する「AI受信トレイ」も搭載されている。受信箱のトリアージや転送、優先順位付けなどを自律的に処理する仕組みとしている。</p>
+<h2>複数AIモデルを統合、モデル選択は不要</h2>
+<p>Gensparkは、ChatGPTやGemini、Claudeなど複数の大規模言語モデルを内部で活用している。ユーザーは個別のモデルを意識する必要はなく、タスク内容に応じて最適なモデルが裏側で使い分けられる仕組みだ。
+同社は、ChatGPTやGemini、Claudeなどを含む70以上のAIモデルを統合し、指示をタスクに分解したうえで最適なモデルを選定すると説明している。</p>
+<p><strong>Gensparkは、複数のAIモデル、ツール、データを組み合わせる独自のエージェントエンジンによって業務実行を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_c8285ce386/sub1_c8285ce386.png" alt="sub1.png" /></p>
+<p>こうしたGenspark AI Workspace 2.0の動作イメージについて、同社は以下の公式デモ動画で紹介している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=KtOZNvFhV8c">YouTube</a></p>
+<h2>日本企業での導入も進展</h2>
+<p>Gensparkは、日本国内において広告、IT、製造、金融など複数業界の企業で導入が進んでいると説明する。今後は、日本市場向けの機能拡張や導入支援を通じて、業務現場でのAI活用をさらに広げていく考えだ。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_2ec073c221/sub3_2ec073c221.png" alt="sub3.png" /></p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/2/2 [MON]“プロンプトで歩ける世界”が現実に──Google、世界生成AIの実験プロトタイプ「Project Genie」米国提供　Google DeepMindの世界モデル「Genie 3」を搭載</title>
       <link>https://ledge.ai/articles/google_project_genie_interactive_virtual_world_us_release</link>
       <description><![CDATA[<p>Googleは2026年1月29日（現地時間）、テキストや画像から対話型の仮想世界を生成・探索できる実験的なプロトタイプ「Project Genie」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/">公開</a>した。まずは米国の「Google AI Ultra」ユーザーを対象に提供する。</p>
@@ -169,34 +197,6 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
 <p>といった観点を、AI設計と評価に組み込む必要があるとしている。</p>
 <p>:::box
 [関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Genspark、日本市場に本格参入──音声操作と自律ワークフローを備えた「AI Workspace 2.0」発表</title>
-      <link>https://ledge.ai/articles/genspark_ai_workspace_2_japan_launch</link>
-      <description><![CDATA[<p>米AIスタートアップの Genspark は2026年1月28日、日本市場での法人展開を本格化すると<a href="https://prtimes.jp/main/html/rd/p/000000002.000176655.html">発表</a>した。あわせて、音声入力アプリ「Speakly」やAI受信トレイのワークフローなどを含む「AI Workspace 2.0」を公開した。</p>
-<h2>日本市場を重要拠点に位置づけ</h2>
-<p>Gensparkは、日本市場を米国やアジアの主要市場と並ぶ重要拠点の一つと位置づけ、業務利用を前提としたAIワークスペースの提供を本格化する。日本語環境での業務利用を想定し、法人向けの導入を進める方針だ。</p>
-<h2>業務全体を担う「AI Workspace 2.0」</h2>
-<p>「Genspark AI Workspace 2.0」は、情報収集、情報処理、成果物作成までを単一の環境で担う業務特化型AIワークスペースとして設計されている。ユーザーの指示をもとに、AIがタスクを分解し、複数の工程を自律的に実行する点が特徴だ。</p>
-<p><strong>Genspark AI Workspace 2.0は、情報収集・処理・成果物作成までを単一環境で担う業務向けAIワークスペースとして設計されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_86e094679d/sub2_86e094679d.png" alt="sub2.png" /></p>
-<h2>音声入力とカスタムワークフローを新搭載</h2>
-<p>新バージョンでは、音声入力による操作に対応した。キーボード操作を介さず、話しかけるだけで指示を出せるため、業務のスピード向上が期待される。
-また、ユーザー自身が業務内容に応じたカスタムワークフローを構築できる機能も追加された。定型業務や複数ステップにまたがる処理をAIに任せることで、業務の自動化を進められる。</p>
-<h2>メール処理を自動化する「AI受信トレイ」</h2>
-<p>AI Workspace 2.0には、メール処理を自動化する「AI受信トレイ」も搭載されている。受信箱のトリアージや転送、優先順位付けなどを自律的に処理する仕組みとしている。</p>
-<h2>複数AIモデルを統合、モデル選択は不要</h2>
-<p>Gensparkは、ChatGPTやGemini、Claudeなど複数の大規模言語モデルを内部で活用している。ユーザーは個別のモデルを意識する必要はなく、タスク内容に応じて最適なモデルが裏側で使い分けられる仕組みだ。
-同社は、ChatGPTやGemini、Claudeなどを含む70以上のAIモデルを統合し、指示をタスクに分解したうえで最適なモデルを選定すると説明している。</p>
-<p><strong>Gensparkは、複数のAIモデル、ツール、データを組み合わせる独自のエージェントエンジンによって業務実行を行う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_c8285ce386/sub1_c8285ce386.png" alt="sub1.png" /></p>
-<p>こうしたGenspark AI Workspace 2.0の動作イメージについて、同社は以下の公式デモ動画で紹介している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KtOZNvFhV8c">YouTube</a></p>
-<h2>日本企業での導入も進展</h2>
-<p>Gensparkは、日本国内において広告、IT、製造、金融など複数業界の企業で導入が進んでいると説明する。今後は、日本市場向けの機能拡張や導入支援を通じて、業務現場でのAI活用をさらに広げていく考えだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_2ec073c221/sub3_2ec073c221.png" alt="sub3.png" /></p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
@@ -547,29 +547,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <p>今回の発言は、AIが数学者の役割を代替したことを示すものではない。一方で、未解決問題を対象とした成果について、数学者がAIの関与を明示的に評価し、その能力の到達点を具体的に言及した点は確認できる事実である。エルデシュ問題#728をめぐる今回の事例は、AIの活用がどの段階まで進んでいるのかを示す一例として位置づけられ、今後、同様の評価が他の問題や分野でも示されるかどうかが注目される。</p>
 ]]></description>
       <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMは「同じ質問を2回」入力すると精度が上がる──Google研究者ら、プロンプト反復の効果を短報で報告</title>
-      <link>https://ledge.ai/articles/prompt_repetition_improves_llm_accuracy</link>
-      <description><![CDATA[<p>Googleの研究者らは、同一の質問文を2回連結して入力するだけで、大規模言語モデル（LLM）の回答精度が向上するとする研究成果を発表した。論文は短報「Prompt Repetition Improves Non-Reasoning LLMs」として2025年12月17日に arXivに<a href="https://arxiv.org/abs/2512.14982v1">公開</a>されており、推論（reasoning）を用いない設定において、主要LLMと複数のベンチマークで広範な改善が観測されたという。</p>
-<h2>質問文を「そのまま2回」繰り返すだけ</h2>
-<p>研究で提案された手法は、質問文を変更・補足するのではなく、同一のクエリをそのまま2回連結して入力するというものだ。例えば、通常はQと入力するところをQQとする。特別な指示文や追加のプロンプト設計は必要としない。論文では、この操作を \u003CQUERY\u003E を \u003CQUERY\u003E\u003CQUERY\u003E に変換するものとして説明している</p>
-<p>LLMは因果言語モデルとして学習されており、トークンの並び順が注意（attention）の届き方に影響する。このため、質問文と文脈や選択肢の配置順（question-first / options-first）によって性能差が生じることが知られている。プロンプト反復は、各トークンが他のすべてのトークンを参照しやすくすることで、この差を緩和すると説明されている。</p>
-<h2>非推論設定で顕著な改善、70条件中47で「有意に向上」</h2>
-<p>実験は、各AIモデルの公式APIを用いて実施され、2025年2月から3月にかけて評価された。対象には、Gemini、GPT、Claude、DeepSeekといった複数の主要LLMが含まれている。具体的には、Gemini 2.0 Flash／Flash Lite、GPT-4o／GPT-4o-mini、Claude 3 Haiku／Claude 3.7 Sonnet、DeepSeek V3が評価対象となった。</p>
-<p>論文では、7つのモデルと7つのベンチマークなどを組み合わせた計70条件で比較を行った。その結果、統計検定（McNemar検定、p\u003C0.1）の基準で47条件において性能が有意に改善し、性能が低下した条件はなかったとしている。</p>
-<p><strong>推論を用いない設定におけるPrompt Repetitionとベースラインの精度比較。星印は統計的に有意な改善（p\u003C0.1）を示す。70条件中47で改善、悪化は確認されなかった</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure1_big2_202ffaa00c/figure1_big2_202ffaa00c.jpg" alt="figure1_big2.jpg" /></p>
-<h2>生成トークン数・レイテンシは原則増えず</h2>
-<p>論文では、回答精度が向上した一方で、生成トークン数やレイテンシ（応答時間）は多くの条件で増加しなかったと報告されている。反復は並列化可能なprefill（前処理）段階で完結するためだという。これは、生成プロセスそのものではなく、入力を読み込む段階で処理が完結するためだと説明されている。</p>
-<p>ただし例外として、非常に長い入力や反復×3などの条件では、Claude系モデルでprefillが重くなり、レイテンシが増える場合がある点も明記されている。</p>
-<h2>推論（step-by-step）を有効にした場合は「中立〜わずかに正」</h2>
-<p>推論を促す設定（think step by step）では、プロンプト反復の効果は中立からわずかに正にとどまった。28条件中5勝・1敗・22引き分けで、研究者らは「推論モデルはそもそも推論過程の中で入力の再読・反復を行うため」と説明している。</p>
-<p>一方で、入力文が非常に長い場合や、同じ質問を3回以上繰り返す設定では、モデルや条件によっては応答時間が増加する可能性も指摘されている。</p>
-<h2>追加学習なしで性能を引き出す可能性</h2>
-<p>この手法は、追加学習や外部ツールを必要とせず、出力形式も変えないため、既存システムにドロップインで導入可能だとされる。研究チームはこれを「多くのタスクにおけるデフォルト手法の候補」と位置付けている。研究チームは今後の方向性として、反復部分の最適化やKVキャッシュの扱い、非テキストモダリティへの応用などを挙げている。</p>
-]]></description>
-      <pubDate>Sat, 03 Jan 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
