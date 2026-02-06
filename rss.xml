@@ -91,21 +91,6 @@
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AmazonがOpenAI出資を検討、最大500億ドル（約7.6兆円）規模と報道　今ラウンドでの資金調達は1000億ドル超も</title>
-      <link>https://ledge.ai/articles/amazon_openai_investment_50b_funding_100b_reported</link>
-      <description><![CDATA[<p>AmazonがOpenAIに対し、最大500億ドル（約7兆6000億円）規模の出資を検討していると、<a href="https://www.reuters.com/business/retail-consumer/amazon-talks-invest-up-50-billion-openai-wsj-reports-2026-01-29/">Reuters</a>や<a href="https://www.cnbc.com/2026/01/29/amazon-openai-investment-jassy-altman.html">CNBC</a>など複数の米メディアが2026年1月29日に報じた。協議は進行中で、最終的な出資額や条件は流動的だとしている。</p>
-<h2>最大500億ドル規模、交渉はなお初期段階</h2>
-<p>関係者の話として伝えられているところによると、AmazonはOpenAIに数百億ドル規模の投資を協議しており、その金額は最大500億ドルに達する可能性がある。ただし、協議はまだ初期段階にあり、最終的な条件や金額は確定していないとされる。Amazonはコメントを控え、OpenAIも現時点で公式な見解を示していない。</p>
-<h2>条件書は数週間以内に署名の可能性も</h2>
-<p>報道では、関係者によると条件書（term sheet）が数週間以内に署名される可能性があるとも伝えられている。今回の資金調達は、Amazonのほか、MicrosoftやNVIDIAといった戦略投資家を先行させ、その後に他の投資家が参加する2段階構成となる可能性があるという。</p>
-<h2>OpenAI、最大1000億ドル調達・評価額8300億ドルの可能性</h2>
-<p>OpenAIは今回のラウンドで、最大1000億ドルの資金調達を目指しているとされ、評価額は約8300億ドルに達する可能性がある。報道では、SoftBankや中東の政府系ファンドなども投資家候補として名前が挙がっている。</p>
-<p>交渉には、AmazonのCEOであるAndy Jassy氏と、OpenAIのCEOのSam Altman氏が直接関与しているとされる。米紙<a href="https://www.wsj.com/tech/ai/amazon-in-talks-to-invest-up-to-50-billion-in-openai-43191ba0">The Wall Street Journal</a>は、この協議について先行して報じていた。</p>
-<p>Amazonは、OpenAIの競合であるAnthropicにもこれまでに巨額投資を行ってきた。今回の動きについては、大手テック企業が複数のAI企業に同時に投資する構図が鮮明になりつつあるとの見方も出ている。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claudeで外部業務ツール連携を拡充　SlackやAsana、Figmaなどを会話内で操作可能に</title>
       <link>https://ledge.ai/articles/anthropic_claude_interactive_tools_slack_asana_figma</link>
       <description><![CDATA[<p>米AI企業の Anthropic は2026年1月26日、同社のAIサービス Claude において、外部業務ツールを会話内でインタラクティブに利用できる機能を拡充したと<a href="https://claude.com/blog/interactive-tools-in-claude">発表</a>した。今回のアップデートにより、Slack、Asana、Figma、Canva、Box などのツールを、Claudeのチャット画面内で直接操作できるようになる。</p>
@@ -120,6 +105,25 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
 <p>Anthropicは、MCPを通じてClaudeと業務ツールの接続性を高め、開発者や企業が独自のツールを統合できる環境整備も進めている。</p>
 <h2>対象プランと今後の展開</h2>
 <p>今回のインタラクティブツール連携は、Claudeの有料プラン（Pro、Team、Enterpriseなど）を中心に提供される。対応ツールは今後も拡大予定としており、Claudeを業務のハブとして活用するユースケースを広げていく方針だ。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
+      <link>https://ledge.ai/articles/anthropic_claude_opus_4_6_cowork_saas_stock_reaction</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月5日（現地時間）、同社の最上位大規模言語モデル（LLM）「Claude Opus 4.6」を<a href="https://www.anthropic.com/news/claude-opus-4-6">発表</a>した。あわせて業務向けAIエージェント「Cowork」の展開を進めており、これら一連の動きを背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落したと<a href="https://www.reuters.com/business/media-telecom/ai-concerns-pummel-european-software-stocks-2026-02-03/">Reuters</a>など各メディアが報じている。</p>
+<h2>最上位モデル「Claude Opus 4.6」を公開、業務・エージェント用途を強化</h2>
+<p>Claude Opus 4.6は前モデルからコーディング能力を中心に改良されており、より慎重な計画立案、長時間にわたるエージェント的タスクの継続、大規模なコードベースでの信頼性向上、コードレビューやデバッグにおける自己修正能力の強化が図られている。あわせて、Opusクラスとしては初めて、最大100万トークンの長文脈処理（ベータ）にも対応した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=dPn3GBI8lII&amp;t=1s">YouTube</a></p>
+<p>Anthropicは、Opus 4.6がこうした改良を通じて、財務分析や調査、文書・表計算・プレゼンテーションの作成といった業務タスクにも適用できるとしている。業務向けAIエージェント「Cowork」では、モデルが複数の作業を自律的に並行処理する場面で、これらの能力が活用される設計とされている。Opus 4.6は、同日からclaude.aiやAPI、主要クラウドプラットフォームで提供が開始され、価格は従来モデルから据え置かれている。</p>
+<p><strong>Anthropicが公開したベンチマーク表より抜粋。エージェント型コーディングやツール利用に関する評価結果を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_6_bench_9957e0e30b/opus4_6_bench_9957e0e30b.jpg" alt="opus4-6 bench.jpg" /></p>
+<h2>業務AIエージェント「Cowork」、段階提供とプラグイン公開の経緯</h2>
+<p>1月16日、同社は業務向けAIエージェント「<a href="https://claude.com/blog/cowork-research-preview">Cowork</a>」をProプラン向けにResearch Previewとして提供開始した。その後、1月23日にはTeamおよびEnterpriseプランにも対象を拡大している。Coworkは、プログラミング用途に限らず、調査、文書作成、タスク整理といった業務を対象とするAIエージェントとして説明されており、Claudeを基盤に複数の作業を横断的に扱うことを想定している。</p>
+<p>1月30日には、外部ツールや業務データ、ワークフローとの連携を可能にする「<a href="https://claude.com/blog/cowork-plugins">Cowork plugins</a>」を公開。プラグインを通じて外部ツールや社内システム、業務データソースと接続できる仕組みが提供されており、AIが単独で応答を生成するだけでなく、外部の情報や機能を参照・活用しながら作業を進める構成が示されている。これにより、AIエージェントが既存の業務ソフトウェアやワークフローと接続される形が明確になった。</p>
+<h2>SaaSはAIエージェントに代替されるのか──市場で「SaaS死亡説」が再燃</h2>
+<p>こうした一連の発表を背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落した。Reutersは、業務AIエージェントの進化によって既存ソフトウェアのビジネスモデルが揺らぐとの見方が投資家の間で強まり、売りが広がったと報じている。</p>
+<p>報道では、特定の製品や単一の発表が株価下落の直接的な原因と断定されているわけではない。一方で、市場の懸念が強まった背景として、1月中旬にCoworkの提供が始まり、1月30日にプラグイン機能が公開されたことで、AIエージェントが外部ツールや業務データと連携し、既存のSaaSと機能単位で接続・競合し得るとの見方が具体的に意識されるようになった点が挙げられている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
@@ -197,7 +201,7 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/2/2 [MON]100万文字DNAを一度に解析──Google DeepMind、11種のゲノム過程を統合予測するAI「AlphaGenome」</title>
+      <title>100万文字DNAを一度に解析──Google DeepMind、11種のゲノム過程を統合予測するAI「AlphaGenome」</title>
       <link>https://ledge.ai/articles/google_deepmind_alphagenome_nature_1mb_genome_prediction</link>
       <description><![CDATA[<p>Google DeepMindの研究チームは、最大100万塩基（約100万文字）に及ぶDNA配列を一度に解析し、遺伝子発現やスプライシングなど11種類の主要なゲノムプロセスを高精度で予測できるAIモデル「AlphaGenome」を開発した。研究成果は<a href="https://www.nature.com/articles/s41586-025-10014-0">Nature</a>に2026年1月28日付で掲載され、研究コミュニティ向けにソースコードとモデルの重みも公開されている。</p>
 <p>Nature掲載とともに「DNA配列の理解と遺伝的変化の分子レベルでの影響予測を支援するモデル」として紹介している。
