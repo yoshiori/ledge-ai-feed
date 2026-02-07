@@ -22,6 +22,30 @@
       <pubDate>Thu, 05 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>JAXA、地球観測データを「生成AIから呼び出し」可能に──Python API v0.1.5でClaude Desktop向けMCPサンプル追加</title>
+      <link>https://ledge.ai/articles/jaxa_earth_api_claude_mcp</link>
+      <description><![CDATA[<p>宇宙航空研究開発機構（JAXA）は2026年1月27日、地球観測データを生成AIから呼び出せるようになったと、<a href="https://x.com/satellite_jaxa/status/2015981999564198052">公式X</a>{target=”_blank”}（旧Twitter）で明らかにした。あわせて、地球観測データ活用向けの公式ライブラリ「JAXA Earth API for Python」の最新版v0.1.5において、Claude Desktopで動作するMCP（Model Context Protocol）のサンプルコードを追加したことを公表している。</p>
+<p>JAXAは投稿の中で、「ITエンジニアの皆さん、ぜひ遊んでみてください！」と呼びかけており、生成AIと宇宙・地球観測データを組み合わせた実験的な活用を後押しする姿勢を示した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jaxa_x_2cc93d539e/jaxa_x_2cc93d539e.jpg" alt="jaxa x.jpg" /></p>
+<h2>Claude Desktopから衛星データを直接取得──生成AIがJAXA Earth APIを操作</h2>
+<p>今回のアップデートにより、AnthropicのAIアシスタント「Claude Desktop」から、JAXA Earth APIを外部ツールとして直接呼び出すことが可能になる。具体的には、Claude Desktopが対応するMCP（Model Context Protocol）を介し、ローカル環境で動作するMCPサーバーとしてJAXA Earth APIを接続する構成がサンプルコードとして示されている。</p>
+<p>これにより、ユーザーは会話形式の操作を通じて、JAXAが提供する地球観測データを取得・参照する実験を行えるようになる。</p>
+<h2>JAXA Earth API、生成AI連携を前提に拡張</h2>
+<p>JAXA Earth API for Pythonは、JAXAが保有する各種地球観測データを扱うための公式Pythonライブラリだ。
+衛星やセンサーごとの細かな仕様を意識せずにデータ取得や処理を行える点が特徴で、研究用途だけでなく、教育や試作的なアプリケーション開発にも利用されてきた。</p>
+<p>最新版のv0.1.5では、こうした既存のAPI機能に加え、生成AIとの連携を想定したMCPサンプルが新たに追加された。</p>
+<h2>生成AIが外部データを扱うための仕組み「MCP」</h2>
+<p>MCPは、生成AIが外部のツールやデータソースを安全に利用するためのプロトコルだ。
+Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続することで、AIが外部APIを「ツール」として呼び出す構成を取ることができる。</p>
+<p>JAXA Earth API for Python v0.1.5では、この仕組みを前提とした設定例やサンプルコードが公式ドキュメント上で公開されている。
+<a href="https://data.earth.jaxa.jp/api/python/v0.1.5/en/">https://data.earth.jaxa.jp/api/python/v0.1.5/en/</a>{target=”_blank”}</p>
+<h2>会話で地球観測データを扱う実験環境を公開</h2>
+<p>JAXAによる今回の対応は、地球観測データを単にAPIとして提供するだけでなく、生成AIと組み合わせた新たな利用形態を試せる環境を提示した点が特徴だ。公式ドキュメントでは、仮想環境の構築からClaude Desktop側の設定までが整理されており、個人開発者や研究者が比較的容易に検証を始められる構成となっている。</p>
+<p>生成AIを介した地球観測データの利活用が、今後どのような形で広がっていくのか注目される。</p>
+]]></description>
+      <pubDate>Wed, 04 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
       <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
       <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
@@ -296,30 +320,6 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>JAXA、地球観測データを「生成AIから呼び出し」可能に──Python API v0.1.5でClaude Desktop向けMCPサンプル追加</title>
-      <link>https://ledge.ai/articles/jaxa_earth_api_claude_mcp</link>
-      <description><![CDATA[<p>宇宙航空研究開発機構（JAXA）は2026年1月27日、地球観測データを生成AIから呼び出せるようになったと、<a href="https://x.com/satellite_jaxa/status/2015981999564198052">公式X</a>{target=”_blank”}（旧Twitter）で明らかにした。あわせて、地球観測データ活用向けの公式ライブラリ「JAXA Earth API for Python」の最新版v0.1.5において、Claude Desktopで動作するMCP（Model Context Protocol）のサンプルコードを追加したことを公表している。</p>
-<p>JAXAは投稿の中で、「ITエンジニアの皆さん、ぜひ遊んでみてください！」と呼びかけており、生成AIと宇宙・地球観測データを組み合わせた実験的な活用を後押しする姿勢を示した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jaxa_x_2cc93d539e/jaxa_x_2cc93d539e.jpg" alt="jaxa x.jpg" /></p>
-<h2>Claude Desktopから衛星データを直接取得──生成AIがJAXA Earth APIを操作</h2>
-<p>今回のアップデートにより、AnthropicのAIアシスタント「Claude Desktop」から、JAXA Earth APIを外部ツールとして直接呼び出すことが可能になる。具体的には、Claude Desktopが対応するMCP（Model Context Protocol）を介し、ローカル環境で動作するMCPサーバーとしてJAXA Earth APIを接続する構成がサンプルコードとして示されている。</p>
-<p>これにより、ユーザーは会話形式の操作を通じて、JAXAが提供する地球観測データを取得・参照する実験を行えるようになる。</p>
-<h2>JAXA Earth API、生成AI連携を前提に拡張</h2>
-<p>JAXA Earth API for Pythonは、JAXAが保有する各種地球観測データを扱うための公式Pythonライブラリだ。
-衛星やセンサーごとの細かな仕様を意識せずにデータ取得や処理を行える点が特徴で、研究用途だけでなく、教育や試作的なアプリケーション開発にも利用されてきた。</p>
-<p>最新版のv0.1.5では、こうした既存のAPI機能に加え、生成AIとの連携を想定したMCPサンプルが新たに追加された。</p>
-<h2>生成AIが外部データを扱うための仕組み「MCP」</h2>
-<p>MCPは、生成AIが外部のツールやデータソースを安全に利用するためのプロトコルだ。
-Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続することで、AIが外部APIを「ツール」として呼び出す構成を取ることができる。</p>
-<p>JAXA Earth API for Python v0.1.5では、この仕組みを前提とした設定例やサンプルコードが公式ドキュメント上で公開されている。
-<a href="https://data.earth.jaxa.jp/api/python/v0.1.5/en/">https://data.earth.jaxa.jp/api/python/v0.1.5/en/</a>{target=”_blank”}</p>
-<h2>会話で地球観測データを扱う実験環境を公開</h2>
-<p>JAXAによる今回の対応は、地球観測データを単にAPIとして提供するだけでなく、生成AIと組み合わせた新たな利用形態を試せる環境を提示した点が特徴だ。公式ドキュメントでは、仮想環境の構築からClaude Desktop側の設定までが整理されており、個人開発者や研究者が比較的容易に検証を始められる構成となっている。</p>
-<p>生成AIを介した地球観測データの利活用が、今後どのような形で広がっていくのか注目される。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>生成AIに個人データは入力できるのか──JDLAが「AI利用」の法的論点を整理した報告書IIを公開</title>
       <link>https://ledge.ai/articles/jdla_ai_usecase_legal_report_2</link>
       <description><![CDATA[<p>一般社団法人日本ディープラーニング協会（日本ディープラーニング協会、JDLA）は2026年2月3日、生成AIの利用局面における法的論点を整理した「法と技術の検討委員会報告書II―AI利用に関するユースケース―」を<a href="https://www.jdla.org/news/20260203001/">公開</a>した。報告書では、生成AIへの個人データ入力は一律に禁止されるものではなく、一定条件下で適法に行いうると整理したほか、AI生成物の著作権侵害リスクについては、生成結果の個別確認よりも「使い方」や運用設計に着目すべきだとする考え方を示している。</p>
@@ -361,25 +361,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <p>さらに、米シスコシステムズのイベントに登壇したOpenAIのCEO、Sam Altman氏もMoltBookに言及した。Altman氏は、MoltBookそのものが最終的な勝者になるかは分からないとしつつも、多数のAIエージェントが人間の代理として同じ空間で相互作用するという点について、「新しい社会的交流の形を示唆するものだ」と述べている。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_on_cisco_ai_summit_68299f9d2e/samaltman_on_cisco_ai_summit_68299f9d2e.jpg" alt="samaltman on cisco ai summit.jpg" /></p>
 <p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI研究の主要国際会議「NeurIPS 2025」採択論文でハルシネーション多数──GPTZero、「vibe citing（雰囲気引用）」を中心概念として定義し分析を公開</title>
-      <link>https://ledge.ai/articles/neurips_2025_hallucinated_citations_gptzero</link>
-      <description><![CDATA[<p>AI生成コンテンツの検出を手がけるGPTZeroは2026年1月21日、AI研究の主要国際会議NeurIPS 2025の採択論文を分析した結果、51本の論文にまたがる計100件の「ハルシネーション（幻覚引用）」を確認したと<a href="https://gptzero.me/news/neurips/">発表</a>{target=”_blank”}した。対象は、NeurIPS 2025で採択された論文のうち4,841本で、いずれも既に採択され、会議で発表済みの論文だとしている。</p>
-<h2>採択論文4,841本を分析、51本で「確認済み」100件</h2>
-<p>GPTZeroによると、今回確認された「幻覚引用」とは、実在しない、または事実と一致しない参考文献が、もっともらしい書誌情報として記載されている状態を指す。具体的には、実在論文に似たタイトルや著者名を組み合わせたもの、存在しないDOIやURL、別論文を指すarXiv IDなどが含まれるという。
-同社は、専用ツール「Hallucination Check」でオンライン照合できない引用を抽出したうえで、人手による確認を経て“幻覚”と判断した例のみを集計したとしている。</p>
-<h2>「vibe citing（雰囲気引用）」と定義、誤検出の可能性にも言及</h2>
-<p>GPTZeroは、生成AIが実在文献を下敷きにしながら、著者名・タイトル・掲載先・年次などを混在させて作る引用を「vibe citing（雰囲気引用）」と呼び、今回の分析の中心概念として定義した。
-一方で、同社は「照合不能＝即ハルシネーションではない」とも説明しており、未公開資料やアーカイブ文献などがオンラインで見つからない場合もあるとして、最終判断には人の確認が必要だと注意を促している。</p>
-<h2>投稿数急増で査読負荷が拡大、公式統計も</h2>
-<p>NeurIPS運営側の公式発表によると、NeurIPS 2025の有効投稿数は21,575本、採択数は5,290本、採択率は24.52％だった。投稿数は近年大きく増加しており、査読体制への負荷が高まっている状況が示されている。</p>
-<p>GPTZeroは、今回の結果について、特定の著者や査読者を批判するものではなく、投稿規模の拡大と生成AIの普及が、従来の査読プロセスに新たな課題を突きつけていると説明している。</p>
-<h2>LLM利用ポリシーでは、問題があれば措置の可能性も</h2>
-<p>NeurIPSは、論文作成における大規模言語モデル（LLM）の利用について<a href="https://neurips.cc/Conferences/2025/LLM">公式ポリシー</a>{target=”_blank”}を設けており、内容の正確性は著者が責任を負うと明記している。科学的整合性に重大な問題が認められた場合、受理後であっても調査や措置の対象となり得るとしている。</p>
-<p>GPTZeroは、引用確認を含むチェック工程を、著者・査読者・編集・運営の各段階で支援するツールの活用が有効だとし、今後も学術出版プロセスの透明性向上を目指すとしている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
@@ -558,39 +539,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 @<a href="https://www.youtube.com/watch?v=1vBI0GYjAKM">YouTube</a></p>
 ]]></description>
       <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>フィールズ賞のテレンス・タオ氏、「GPT-5.2 Proが数学の未解決問題をほぼ自律的に解き切った」と評価──エルデシュ問題#728で示されたAIの新たな到達点</title>
-      <link>https://ledge.ai/articles/ai_autonomous_solution_erdos_problem_728</link>
-      <description><![CDATA[<p>AIが数学の未解決問題を「ほぼ自律的に解き切った」と、数学者が評価した。著名な数学者であるテレンス・タオ氏が2026年1月8日、分散型SNS「Mathstodon」への投稿で、エルデシュ問題の一つである #728 が、AIツールによって「more or less autonomously（ほぼ自律的に）」解かれたと<a href="https://mathstodon.xyz/@tao/115855840223258103">述べた</a>。</p>
-<p>この成果についてタオ氏は「私たちの知る限り、既存の文献では再現されていない」としたうえで、近年のAIツールの能力向上を示す「節目（milestone）」だと位置づけた。</p>
-<h2>エルデシュ問題とは</h2>
-<p>エルデシュ問題は、20世紀を代表する数学者ポール・エルデシュが提起した数多くの問題をもとに整理された、数学の未解決問題群を指す。現在も多くの問題が未解決のまま残されており、世界中の数学者が長年にわたって取り組んできた。</p>
-<p>今回タオ氏が言及した エルデシュ問題#728 は、その中の一つで、問題の内容や背景はエルデシュ問題の<a href="https://www.erdosproblems.com/728">公式サイト</a>で公開されている。</p>
-<p>未解決問題は、数学界において特別な位置づけを持つ。解決に至れば理論的に重要な意味を持つだけでなく、長年の研究の蓄積を塗り替える可能性があるためだ。</p>
-<p><strong>■ ポール・エルデシュ（左）と、当時10歳のテレンス・タオ。1985年撮影。</strong> エルデシュ問題は、エルデシュ自身が提起した未解決問題群に由来する。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Paul_Erdos_with_Terence_Tao_952867730e/Paul_Erdos_with_Terence_Tao_952867730e.jpg" alt="Paul_Erdos_with_Terence_Tao.jpg" /></p>
-<h2>GPT-5.2 Proと人間の役割分担</h2>
-<p>証明には、OpenAIの大規模言語モデル GPT-5.2 Pro が用いられた。人間側は、計算環境の整備や初期試行へのフィードバック、結果の検証、形式的な証明への整理といった役割を担ったとされる。</p>
-<p>AIが完全に単独で問題を解決したわけではないものの、思考の主導権がどこにあったのかが、今回の評価における重要なポイントとなった。</p>
-<p><strong>■ 「ほぼ自律的に」解いた、という表現</strong>
-従来、AIは数学分野において計算の高速化や文献探索、発想の補助といった役割を担ってきた。一方で今回のケースでは、問題の解釈から解法の構築、証明に至るまでの過程をAIが主導したと評価された。</p>
-<p>タオ氏によれば、AIは初期の試行に対する一定のフィードバックを受けた後、問題の趣旨に沿った形で解決に到達したという。この点が、「ほぼ自律的」という表現につながった。</p>
-<h2>「解決以上に興味深い点」</h2>
-<p>タオ氏は今回の投稿で、解決結果そのものに加え、「それ以上に興味深い点がある」とも述べている。投稿では、</p>
-<p>「より興味深いのは、解法の説明（exposition）を迅速に書き、書き直し、再構成するAI主導の能力が現れつつある点だ」
-と指摘し、証明文書の作成や改稿をめぐるAIの能力向上に言及した。</p>
-<p><strong>■ テレンス・タオ氏がMathstodonに投稿したエルデシュ問題#728に関する発言。AIが「ほぼ自律的に」問題を解いたと評価している。</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/terencetao_mathstodon_b05b8af4d5/terencetao_mathstodon_b05b8af4d5.jpg" alt="terencetao mathstodon.jpg" /></p>
-<p>従来、数学論文の執筆や大幅な改稿には多大な時間と労力が必要だったが、AIによる文章生成と形式証明ツールを組み合わせることで、説明文を用途や読者に応じて柔軟に作り直すことが可能になりつつあるという。</p>
-<h2>他のAI解決事例との位置づけ</h2>
-<p><strong>■ エルデシュ問題を巡るAI活用事例を整理した公式Wikiの一部。#728は、AIによる解決後に類似文献が確認されたケースとして位置づけられている。</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/github_erdos_problem_058007f757/github_erdos_problem_058007f757.jpg" alt="github erdos problem.jpg" /></p>
-<p>タオ氏自身も、AIによるエルデシュ問題の解決例の多くでは、後に類似の結果が既存文献で確認されてきたと説明している。#728についても、問題文の再構成が比較的最近まで行われていなかったことが、先行研究が見当たらなかった理由の一つだとされている。</p>
-<h2>数学とAIの関係に生じた変化</h2>
-<p>今回の発言は、AIが数学者の役割を代替したことを示すものではない。一方で、未解決問題を対象とした成果について、数学者がAIの関与を明示的に評価し、その能力の到達点を具体的に言及した点は確認できる事実である。エルデシュ問題#728をめぐる今回の事例は、AIの活用がどの段階まで進んでいるのかを示す一例として位置づけられ、今後、同様の評価が他の問題や分野でも示されるかどうかが注目される。</p>
-]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
