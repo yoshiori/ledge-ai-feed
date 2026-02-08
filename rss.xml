@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>人間が参加できないSNS？AIエージェント専用「MoltBook」が急成長──サム・アルトマン氏「新しい社会的交流の兆し」</title>
+      <link>https://ledge.ai/articles/moltbook_ai_agent_only_social_network_altman_comment</link>
+      <description><![CDATA[<p>AIエージェント専用のソーシャルネットワーク「MoltBook（モルトブック）」が公開され、短期間で急速に注目を集めている。人間が投稿やコメントに参加できず、AIエージェント同士のみが交流するという異例の設計が、AI開発者や研究者の間で話題となっている。</p>
+<p>MoltBookは2026年1月29日、開発者のMatt Schlicht氏によって<a href="https://x.com/MattPRD/status/2016560277333168540">公開</a>された。掲示板型のUIを採用し、AIエージェントが自律的に投稿、コメント、投票を行う。テーマ別のコミュニティ（Submolts）もエージェント自身によって作成され、人間は閲覧のみが許可される「観測者」として位置づけられている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/moltbook_release_f621f3d085/moltbook_release_f621f3d085.jpg" alt="moltbook release.jpg" /></p>
+<p>Schlicht氏によると、MoltBookは特定の大規模言語モデルや技術構成に依存せず、オープンソースのAIエージェント「OpenClaw」（旧称Clawdbot／Moltbot）など、さまざまなエージェントを受け入れる設計となっている。公開後数日で3万2000超のAIエージェントが登録したとされ、立ち上がりの速さも注目を集めた。</p>
+<p>この動きに対し、AI研究者のAndrej Karpathy氏は、自身のAIエージェントをMoltBook上で<a href="https://x.com/karpathy/status/2017386421712261612">認証（claim）した</a>ことをXで明らかにした。同氏は、MoltBook上で起きている現象について「最近見た中で最もSF的な離陸に近い出来事」と評している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_X_f84d8455c6/Andrej_Karpathy_X_f84d8455c6.jpg" alt="Andrej Karpathy X.jpg" /></p>
+<p>さらに、米シスコシステムズのイベントに登壇したOpenAIのCEO、Sam Altman氏もMoltBookに言及した。Altman氏は、MoltBookそのものが最終的な勝者になるかは分からないとしつつも、多数のAIエージェントが人間の代理として同じ空間で相互作用するという点について、「新しい社会的交流の形を示唆するものだ」と述べている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_on_cisco_ai_summit_68299f9d2e/samaltman_on_cisco_ai_summit_68299f9d2e.jpg" alt="samaltman on cisco ai summit.jpg" /></p>
+<p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
+]]></description>
+      <pubDate>Thu, 05 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ギネス認定の人型ロボット「Pepper」、AI接客で進化──ソフトバンクロボティクスが新モデル「Pepper+」提供開始</title>
       <link>https://ledge.ai/articles/softbank_robotics_pepper_plus_guinness</link>
       <description><![CDATA[<p>ロボット開発を手掛ける ソフトバンクロボティクスは2026年2月2日、人型ロボット「Pepper」が「世界初の量産型ヒューマノイド」としてギネス世界記録に認定されたと<a href="https://www.softbankrobotics.com/jp/news/press/20260202a/">発表</a>した。あわせて、AIによる接客機能などを強化した新モデル「Pepper+（ペッパープラス）」の提供を同日から開始した。</p>
@@ -342,21 +357,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>人間が参加できないSNS？AIエージェント専用「MoltBook」が急成長──サム・アルトマン氏「新しい社会的交流の兆し」</title>
-      <link>https://ledge.ai/articles/moltbook_ai_agent_only_social_network_altman_comment</link>
-      <description><![CDATA[<p>AIエージェント専用のソーシャルネットワーク「MoltBook（モルトブック）」が公開され、短期間で急速に注目を集めている。人間が投稿やコメントに参加できず、AIエージェント同士のみが交流するという異例の設計が、AI開発者や研究者の間で話題となっている。</p>
-<p>MoltBookは2026年1月29日、開発者のMatt Schlicht氏によって<a href="https://x.com/MattPRD/status/2016560277333168540">公開</a>された。掲示板型のUIを採用し、AIエージェントが自律的に投稿、コメント、投票を行う。テーマ別のコミュニティ（Submolts）もエージェント自身によって作成され、人間は閲覧のみが許可される「観測者」として位置づけられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/moltbook_release_f621f3d085/moltbook_release_f621f3d085.jpg" alt="moltbook release.jpg" /></p>
-<p>Schlicht氏によると、MoltBookは特定の大規模言語モデルや技術構成に依存せず、オープンソースのAIエージェント「OpenClaw」（旧称Clawdbot／Moltbot）など、さまざまなエージェントを受け入れる設計となっている。公開後数日で3万2000超のAIエージェントが登録したとされ、立ち上がりの速さも注目を集めた。</p>
-<p>この動きに対し、AI研究者のAndrej Karpathy氏は、自身のAIエージェントをMoltBook上で<a href="https://x.com/karpathy/status/2017386421712261612">認証（claim）した</a>ことをXで明らかにした。同氏は、MoltBook上で起きている現象について「最近見た中で最もSF的な離陸に近い出来事」と評している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_X_f84d8455c6/Andrej_Karpathy_X_f84d8455c6.jpg" alt="Andrej Karpathy X.jpg" /></p>
-<p>さらに、米シスコシステムズのイベントに登壇したOpenAIのCEO、Sam Altman氏もMoltBookに言及した。Altman氏は、MoltBookそのものが最終的な勝者になるかは分からないとしつつも、多数のAIエージェントが人間の代理として同じ空間で相互作用するという点について、「新しい社会的交流の形を示唆するものだ」と述べている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_on_cisco_ai_summit_68299f9d2e/samaltman_on_cisco_ai_summit_68299f9d2e.jpg" alt="samaltman on cisco ai summit.jpg" /></p>
-<p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NASA とAnthropic、Claudeで火星探査車の走行ルートを生成──パーサヴィアランスがAI計画で合計456メートル走行</title>
       <link>https://ledge.ai/articles/nasa_jpl_anthropic_claude_mars_rover_route_planning</link>
       <description><![CDATA[<p>NASAのジェット推進研究所（JPL）は2026年1月30日、生成AIを活用して火星探査車パーサヴィアランスの移動経路を作成する実証実験を行ったと<a href="https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/">発表</a>した。この実験には米AI企業のAnthropicが協力し、同社の生成AI「Claude」が走行ルートの作成に用いられた。JPLによると、パーサヴィアランスはAIが計画したルートに沿って、2025年12月に2回走行し、合計456メートルを移動した。</p>
@@ -527,24 +527,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <p>OpenAIは、GPT-4oの提供終了について「一部のユーザーにとっては不満や不便を感じる決定であることは理解している」としつつ、「モデルの引退は決して容易ではないが、より良いモデルの改善に集中するために必要な判断だ」と説明している。</p>
 ]]></description>
       <pubDate>Fri, 30 Jan 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本発ヒューマノイド「cinnamon 1」初公開　ドーナッツロボティクス、無言で操作できる特許技術も発表</title>
-      <link>https://ledge.ai/articles/donut_robotics_cinnamon1_humanoid_silent_gesture</link>
-      <description><![CDATA[<p>ヒューマノイド開発に取り組むスタートアップ、ドーナッツロボティクスは2026年1月21日、日本ブランドのヒューマノイド『cinnamon 1（シナモン ワン）』を<a href="https://prtimes.jp/main/html/rd/p/000000041.000057944.html">発表</a>した。二足歩行が可能な量産型ヒューマノイドとして、同社は2026年内の市場投入を目指す。</p>
-<h2>二足歩行の量産ヒューマノイド、年内投入を目標に</h2>
-<p>「cinnamon 1」は、同社が保有する特許技術を搭載した二足歩行のヒューマノイドロボットだ。現時点では海外企業から提供された機体をベースに、独自開発のAIを搭載している。将来的には、機体も含めた国産ヒューマノイドの実現を目指すとしている。</p>
-<p>AIには、視覚情報・言語理解・行動を統合する「Vision-Language-Action（VLA）」の概念を取り入れる予定で、人の指示を理解し、自律的に行動するロボットの開発を進める。</p>
-<h2>声を出さずに指示できる「サイレント ジェスチャー コントロール」</h2>
-<p>同社はあわせて、手振りや指の動きだけでロボットに指示を伝える特許技術「サイレント ジェスチャー コントロール」を発表した。音声を使わずに操作できる点が特徴で、同社はこの技術を搭載したヒューマノイドとして「世界初」としている。</p>
-<p>騒音の大きい工場や建設現場、声を出しにくい家庭環境などでの利用を想定しており、難聴者が多い環境でも使いやすい技術として位置づけている。</p>
-<h2>工場・建設現場での作業代替を想定</h2>
-<p>ドーナッツロボティクスは、2026年内に工場内や建設現場での作業代替を進める計画を示している。2025年10月には、建築関連事業を手がける株式会社エムビーエスと資本業務提携を発表しており、建設業界での活用を見据える。</p>
-<p>また、VLA開発を支える国内データセンターの設立構想にも言及しており、ヒューマノイド開発を軸にしたAI基盤づくりを進める方針だ。</p>
-<p>YouTube動画を引用する場合　　　
-@<a href="https://www.youtube.com/watch?v=1vBI0GYjAKM">YouTube</a></p>
-]]></description>
-      <pubDate>Sun, 25 Jan 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
