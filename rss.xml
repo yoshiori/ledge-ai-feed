@@ -135,31 +135,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIが高次元幾何学の難問に挑む──中国研究チーム、接吻数問題で複数次元の記録更新</title>
-      <link>https://ledge.ai/articles/ai_kissing_number_problem_game_theoretic_rl</link>
-      <description><![CDATA[<p>中国の北京大学や上海科学智能研究院などの研究グループが2026年1月26日、AIを用いて、高次元幾何学の難問として知られる「接吻数問題」に取り組み、複数の次元で既存の下界を更新する成果を報告した。研究成果は論文「<a href="https://arxiv.org/abs/2511.13391">Finding Kissing Numbers with Game-theoretic Reinforcement Learning</a>」として発表された。</p>
-<p>接吻数問題は、同じ大きさの球が1つの球の周囲に互いに重ならないよう最大でいくつ接触できるかを問う問題で、1694年にアイザック・ニュートンらが議論して以来、長年にわたり研究が続けられてきた。次元が高くなるにつれて幾何構造が複雑化し、解析や探索が極めて困難になることが知られている。</p>
-<h2>球の配置を「行列」として扱うAI手法</h2>
-<p>研究チームは、接吻数問題をGram行列（内積行列）の補完問題として定式化し、ゲーム理論と強化学習を組み合わせたAIシステム「PackingStar」を開発した。従来のように高次元空間上の座標を直接最適化するのではなく、球同士の内積関係のみを行列として扱うことで、数値的不安定性を抑えつつ大規模な並列探索を可能にしたとしている。</p>
-<p>PackingStarでは、2つのAIエージェントが協調的に動作する。一方のエージェントが行列を拡張して配置候補を追加し、もう一方が全体構造を考慮して不適切な要素を削除・修正する。この「追加」と「修正」を繰り返すことで、より大きな配置、すなわちより高い接吻数に対応する構造を探索する仕組みだ。</p>
-<p><strong>【図：PackingStarの3段階（シミュレーション→行列初期化→2プレイヤー行列補完ゲーム）を示した模式図】</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_1_12e03bdc99/x2_1_12e03bdc99.png" alt="x2 (1).png" /></p>
-<h2>25〜31次元で既存の下界を更新</h2>
-<p>論文によると、PackingStarは25次元から31次元までのすべての次元で、これまでに知られていた最良の下界を上回る接吻配置を発見した。特に25次元では、得られた配置が高次元格子として知られるLeech格子の部分構造と対応する明確な幾何パターンを示しており、最適構造である可能性を示唆しているという。ただし、厳密な数学的証明は現時点では示されていない。</p>
-<p>研究チームは、2011年や2016年に提案されていた構成テンプレートを超える配置が得られたとし、高次元における探索能力の拡張を成果として位置づけている。</p>
-<p><strong>【図：次元ごとの接吻数と、本研究による更新点を示したグラフ】</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x1_76eb8d2f20/x1_76eb8d2f20.png" alt="x1.png" /></p>
-<h2>13次元で「合理構造」を刷新</h2>
-<p>また13次元では、1971年以来更新されていなかった「合理構造」と呼ばれる構成を刷新し、接吻数1146の配置を発見した。合理構造とは、球同士の内積がすべて有理数で表される配置を指す。現在知られている13次元での最高記録は非合理構造による1154だが、合理構造は厳密な解析が可能である点から、理論的価値が高いとされる。</p>
-<p>論文では、今回の成果が高次元幾何学や球面符号、情報理論分野での研究に資する可能性にも言及している。</p>
-<h2>一般化接吻数でも新記録</h2>
-<p>さらに、球同士の角度制約を変更した「一般化接吻数」においても成果を報告した。12次元（内積制約1/4）、14次元および17次元（内積制約1/3）で既存記録を更新し、数千件規模の新たな配置を発見したとしている。</p>
-<h2>AIによる数学探索の新たな事例に</h2>
-<p>研究チームは、PackingStarが既存の構造を単に最適化するのではなく、新しい幾何構造を体系的に発見できる点を特徴として挙げている。一方で、得られた配置が真に最適であることを示す証明は今後の課題とした。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claudeで外部業務ツール連携を拡充　SlackやAsana、Figmaなどを会話内で操作可能に</title>
       <link>https://ledge.ai/articles/anthropic_claude_interactive_tools_slack_asana_figma</link>
       <description><![CDATA[<p>米AI企業の Anthropic は2026年1月26日、同社のAIサービス Claude において、外部業務ツールを会話内でインタラクティブに利用できる機能を拡充したと<a href="https://claude.com/blog/interactive-tools-in-claude">発表</a>した。今回のアップデートにより、Slack、Asana、Figma、Canva、Box などのツールを、Claudeのチャット画面内で直接操作できるようになる。</p>
@@ -238,6 +213,26 @@ MCP Appsは、外部ツール側が提供するインターフェースをAIク�
 <p>といった観点を、AI設計と評価に組み込む必要があるとしている。</p>
 <p>:::box
 [関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、スーパーボウルCMで「Claudeに広告は入れない」明言──OpenAIの広告戦略と対照、アルトマンCEOがXで反応</title>
+      <link>https://ledge.ai/articles/anthropic_super_bowl_claude_no_ads_openai_altman_response</link>
+      <description><![CDATA[<p>米AI企業の Anthropic は2026年2月4日、米国最大のスポーツイベントである Super Bowl にテレビCMを出稿し、同社の対話型AI「Claude」には広告を導入しない方針を明確に打ち出した。CMでは「広告に適した場所はたくさんありますが、Claudeとの会話はその中に含まれません」と訴え、AIとの対話空間に広告が入り込むことへの違和感を強調した。</p>
+<p><strong>AnthropicがSuper Bowl向けに公開したCM。「広告に適した場所は多いが、Claudeとの会話は含まれない」とのメッセージを打ち出している</strong></p>
+<p>@<a href="https://www.youtube.com/watch?v=kQRu7DdTTVA">YouTube</a></p>
+<h2>「Claude is a space to think」──公式声明で広告非導入を明文化</h2>
+<p>Anthropicは同日、「<a href="https://www.anthropic.com/news/claude-is-a-space-to-think">Claude is a space to think</a>」と題した公式声明を公開した。声明では、検索エンジンやSNSとは異なり、AIアシスタントとの会話はオープンエンドで、個人的・機微な情報や、深い思考、複雑な業務内容を含む場合が多いと指摘。こうした文脈に広告が表示されることは不適切であり、利用者の信頼やAIの中立性を損なう可能性があるとした。</p>
+<p>同社は、広告モデルが導入されれば「取引機会の創出」といった別のインセンティブがAIの振る舞いに影響を与えかねないとも説明。そのうえで、Claudeは今後も広告なしとし、収益は法人契約や有料サブスクリプションによって得たものをモデル改善に再投資する方針を示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_is_a_space_to_think_eceb6cfc5f/claude_is_a_space_to_think_eceb6cfc5f.jpg" alt="claude is a space to think.jpg" /></p>
+<h2>OpenAIのサム・アルトマンCEOが反応、「明らかに不誠実」と批判</h2>
+<p>このCMに対し、Sam Altman 氏はX（旧Twitter）で<a href="https://x.com/sama/status/2019139174339928189">反応</a>を示した。同氏は「広告は面白く、笑った」としつつも、Anthropicが描いた広告の入り方について「明らかに不誠実だ」と批判。OpenAIとしては、CMが示すような形でAIの対話に広告を挿入することは想定しておらず、ユーザーが拒否することは明らかだと述べた。</p>
+<p>Altman氏はまた、OpenAIが無料アクセスの拡大を重視している点を強調し、より多くの人がAIを利用できる環境を整えることが重要だと主張。Anthropicのビジネスモデルや利用制限のあり方にも言及した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Sam_A_Super_Bowl_ad_is_not_where_I_would_expect_it_5a6e56a658/Sam_A_Super_Bowl_ad_is_not_where_I_would_expect_it_5a6e56a658.jpg" alt="SamA Super Bowl ad is not where I would expect it.jpg" /></p>
+<h2>広告を巡る立場の違いが浮き彫りに</h2>
+<p>OpenAI は2026年1月、ChatGPTの無料版および低価格プラン向けに広告テストを開始する<a href="https://openai.com/ja-JP/index/our-approach-to-advertising-and-expanding-access/">方針</a>を公式ブログで説明している。広告は回答とは分離し、明確にラベル表示するほか、会話データを広告主に販売しないとしており、有料プランでは広告を表示しない。</p>
+<p>Anthropicが「思考と仕事のための空間」として広告非導入を明言したのに対し、OpenAIはアクセス拡大の手段として広告を位置づける。今回のスーパーボウルCMとそれに対する反応は、対話型AIをどのような価値観で提供するのかという、AI企業間の立場の違いを浮き彫りにしている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
