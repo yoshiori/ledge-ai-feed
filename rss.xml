@@ -357,6 +357,20 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NASA とAnthropic、Claudeで火星探査車の走行ルートを生成──パーサヴィアランスがAI計画で合計456メートル走行</title>
+      <link>https://ledge.ai/articles/nasa_jpl_anthropic_claude_mars_rover_route_planning</link>
+      <description><![CDATA[<p>NASAのジェット推進研究所（JPL）は2026年1月30日、生成AIを活用して火星探査車パーサヴィアランスの移動経路を作成する実証実験を行ったと<a href="https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/">発表</a>した。この実験には米AI企業のAnthropicが協力し、同社の生成AI「Claude」が走行ルートの作成に用いられた。JPLによると、パーサヴィアランスはAIが計画したルートに沿って、2025年12月に2回走行し、合計456メートルを移動した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=LO2GluKu4C8">YouTube</a></p>
+<p>今回の実証では、NASA Jet Propulsion Laboratoryが保有する軌道画像や地形データをもとに、視覚情報を扱える生成AIが走行に必要なウェイポイント（経由点）を生成した。通常、火星探査車の走行ルートは、人間のルートプランナーが地形の傾斜や岩の分布などを精査し、安全性を確認しながら設計する。今回の実験では、その計画工程の一部をAIが担い、実際の走行計画として使用された点が特徴とされている。</p>
+<p>火星探査では、地球と火星の間に数分から十数分の通信遅延が生じるため、探査車をリアルタイムで操作することはできない。このため従来は、比較的短い距離ごとに走行計画を立て、段階的に進める運用が行われてきた。JPLは、生成AIを補助的に活用することで、ルート計画にかかる時間や作業負担を軽減し、将来的にはより長距離かつ効率的な探査につなげる狙いがあるとしている。</p>
+<p>この実証実験に協力したAnthropicは、同社の生成AI「Claude」を通じて、視覚データをもとに走行ルート案を作成する役割を担った。JPLによる安全確認や最終判断は引き続き人間が行っており、AIはあくまで補助的な位置づけとされている。とはいえ、生成AIが実際の宇宙探査ミッションにおける計画業務に組み込まれ、実機の走行につながった事例は限られており、今回の取り組みは公共・研究分野における生成AI活用の一例としても注目される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=0QtS85SRnOE">YouTube</a></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923.jpg" alt="Anthropic the first ai-planned drive on another planet.jpg" /></p>
+<p>JPLは今回の成果について、生成AIを探査運用に本格的に委ねる段階には至っていないとしつつも、慎重な検証を重ねることで、将来の探査ミッションにおける活用の可能性を探っていくとしている。AIを人間の判断を補完する技術として段階的に導入する姿勢を示した点も、今回の実証の特徴といえそうだ。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SpaceX、AI企業xAIを買収──イーロン・マスク、AI・ロケット・衛星通信・モバイル通信を一体化した垂直統合型の技術基盤を構築へ</title>
       <link>https://ledge.ai/articles/spacex_acquires_xai_orbital_ai_data_center</link>
       <description><![CDATA[<p>衛星通信「Starlink」などを展開する SpaceX は2026年2月2日（米国時間）、人工知能（AI）開発企業 xAI を買収したと<a href="https://www.spacex.com/updates#xai-joins-spacex">発表</a>した。両社はいずれも起業家の イーロン・マスク 氏が率いており、今回の買収により、AI、ロケット、衛星通信、モバイル通信を一体化した垂直統合型の技術基盤を構築する。</p>
