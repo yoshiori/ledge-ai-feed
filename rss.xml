@@ -135,20 +135,17 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Claudeで外部業務ツール連携を拡充　SlackやAsana、Figmaなどを会話内で操作可能に</title>
-      <link>https://ledge.ai/articles/anthropic_claude_interactive_tools_slack_asana_figma</link>
-      <description><![CDATA[<p>米AI企業の Anthropic は2026年1月26日、同社のAIサービス Claude において、外部業務ツールを会話内でインタラクティブに利用できる機能を拡充したと<a href="https://claude.com/blog/interactive-tools-in-claude">発表</a>した。今回のアップデートにより、Slack、Asana、Figma、Canva、Box などのツールを、Claudeのチャット画面内で直接操作できるようになる。</p>
-<h2>会話の流れでツールを操作、画面切り替え不要に</h2>
-<p>対応したツールでは、単なる情報参照にとどまらず、各サービスの操作をClaudeの会話の流れの中で行える。</p>
-<p>例えばSlackではメッセージの下書きや送信、Asanaではタスクやプロジェクトの更新、FigmaやCanvaではデザインや資料の作成・確認といった作業を、別タブに移動することなく進められるという。</p>
-<p>これにより、複数の業務ツールを行き来しながら作業する従来のワークフローを簡略化し、AIとの対話を起点に業務を進める形を想定している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=bluAmTHoEow">YouTube</a></p>
-<h2>Model Context Protocol（MCP Apps）を活用</h2>
-<p>こうしたインタラクティブな連携は、Anthropicが推進するオープン標準プロトコル「Model Context Protocol（MCP）」の拡張仕様である「MCP Apps」によって実現されている。
-MCP Appsは、外部ツール側が提供するインターフェースをAIクライアント上で扱えるようにする仕組みで、Claudeはこの仕様に対応することで、外部サービスの操作画面を会話の文脈に沿って表示・利用できるようになった。</p>
-<p>Anthropicは、MCPを通じてClaudeと業務ツールの接続性を高め、開発者や企業が独自のツールを統合できる環境整備も進めている。</p>
-<h2>対象プランと今後の展開</h2>
-<p>今回のインタラクティブツール連携は、Claudeの有料プラン（Pro、Team、Enterpriseなど）を中心に提供される。対応ツールは今後も拡大予定としており、Claudeを業務のハブとして活用するユースケースを広げていく方針だ。</p>
+      <title>Amazon、Alexaの基盤をLLMに刷新──生成AI版「Alexa+」を米国で正式提供開始──Primeは追加料金なし、非会員は月額19.99ドル</title>
+      <link>https://ledge.ai/articles/amazon_alexa_llm_refresh_alexa_plus_us_launch</link>
+      <description><![CDATA[<p>Amazonは米国時間2026年2月4日、音声アシスタントAlexaの基盤を大規模言語モデル（LLM）に刷新した生成AI版「Alexa+」を、米国で正式に提供開始したと<a href="https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us">発表</a>した。Alexa+はこれまでEarly Access（早期提供）として一部ユーザー向けに展開されてきたが、今回の発表により米国全体での正式提供へと移行した。</p>
+<h2>Alexaの基盤をLLMに刷新──従来アーキテクチャからの転換</h2>
+<p>Alexa+は、従来のAlexaとは異なる新しいアーキテクチャを採用している。Amazonによると、Alexa+は同社のLLM「Amazon Nova」と、Anthropicのモデルを組み合わせた構成となっており、生成AIを前提とした対話体験を実現する。ルールや定型スキルを中心としていた従来型のAlexaに比べ、文脈を保持した自然な会話や、より複雑な質問・依頼への対応が可能になったという。</p>
+<h2>Early Accessから全米提供へ──生成AI版Alexaを正式アンロック</h2>
+<p>Amazonは、Alexa+を従来のAlexaの単なる拡張ではなく、完全に新しい次世代アシスタントとして位置づけている。2025年に開始したEarly Accessプログラムでは、数百万人規模で利用希望が寄せられ、最終的に数千万人が参加したとしており、その過程で得られたユーザーからのフィードバックを基に機能改善を進めてきたと説明している。</p>
+<p>提供形態も拡張されている。Alexa+はAlexa対応デバイスに加え、AlexaアプリやWeb版のAlexa.comからも利用できる。音声操作に限定されないマルチインタフェース型のAIアシスタントとして、外出先でのチャット利用や、Web上での調査や計画といった用途にも対応する。</p>
+<h2>料金体系──Prime特典としての位置づけを明確化</h2>
+<p>Prime会員は追加料金なしで、世帯内のAlexa対応デバイス、Alexa.com、Alexaアプリを通じてAlexa+を無制限に利用できる。一方、Prime非会員向けには、Alexa.comおよびAlexaアプリ上で利用できる制限付きの無料チャット体験を提供するほか、月額19.99ドルでフル機能を利用できるサブスクリプションも用意した。</p>
+<p>今回の全米での正式提供開始により、Alexaは生成AIを前提としたLLMベースのアシスタントへと再定義された形となる。AmazonはAlexa+を通じて、家庭内アシスタントの中核を担うAI基盤を刷新し、日常利用を想定した本格運用フェーズへ移行させた。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
