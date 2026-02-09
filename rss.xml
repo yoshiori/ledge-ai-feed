@@ -280,6 +280,19 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>三井不動産で全社導入──ENIAQが対話型スライド生成AIの中核技術を提供</title>
+      <link>https://ledge.ai/articles/eniaq_mitsuifudosan_interactive_slide_generation_ai</link>
+      <description><![CDATA[<p>東京大学発スタートアップのENIAQは2月5日、三井不動産と共同で「対話型スライド生成AI」を開発し、そのコアとなる生成技術を研究開発・提供したと<a href="https://www.eniaq.jp/news/20260122-mitsuifudosan/">発表</a>した。三井不動産では同AIを全社導入しており、資料作成時間の大幅な短縮効果が確認されているという。</p>
+<p>発表された「対話型スライド生成AI」は、テキストやPDFなどの既存資料をもとに、PowerPoint形式（.pptx）のスライドを自動生成する。生成後も、自然言語による指示を通じて内容の修正や構成の調整が可能で、資料作成を対話的に進められる点が特徴だ。</p>
+<p><strong>対話型スライド生成AIの画面イメージ。自然言語で指示した内容をもとに、PowerPoint形式のスライドが生成・更新される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/156296_9_57741530119d39a32596fd393_66c5faee77/156296_9_57741530119d39a32596fd393_66c5faee77.jpg" alt="156296-9-57741530119d39a32596fd393.jpg" /></p>
+<p>三井不動産では、同AIを社内業務に導入し、実際の利用データやアンケート結果をもとに効果検証を行った。その結果、1資料あたり平均44分の作成時間短縮が確認されたとしている。企画書や社内報告資料など、日常的な資料作成業務での活用が進められているという。</p>
+<p>ENIAQは東京大学発のスタートアップで、生成AIを活用した業務支援技術の研究開発を手がけている。今回の取り組みでは、対話を通じてスライドを生成・修正できる中核技術を提供し、三井不動産が実際の業務現場での導入・展開を担った。</p>
+<p>両社は、今回の共同開発を通じて、生成AIを活用した業務効率化の可能性を検証してきた。今後も、実務に即した生成AI技術の活用を進めていくとしている。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>車限定だった「Geminiナビ」が徒歩・自転車にも拡大──Google マップで利用可能に</title>
       <link>https://ledge.ai/articles/google_maps_gemini_navigation_walking_cycling</link>
       <description><![CDATA[<p>地図アプリ「Google マップ」のナビゲーション中に利用できるAIアシスタント「Gemini」について、これまで自動車の運転時に限定していた対応を拡大し、徒歩および自転車でのナビゲーション中でも利用可能にした。同社が公式ブログで<a href="https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/">発表</a>した。機能はGemini提供地域において、AndroidおよびiOS向けに順次提供される。</p>
