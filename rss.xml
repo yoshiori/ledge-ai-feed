@@ -346,6 +346,22 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft、「Publisher Content Marketplace」始動──AIの “自由なコンテンツ利用” を転換、出版社が条件提示し対価を得る</title>
+      <link>https://ledge.ai/articles/microsoft_publisher_content_marketplace_pcm_launch</link>
+      <description><![CDATA[<p>Microsoftは2026年2月3日（現地時間）、コンテンツクリエイターやパブリッシャーが自社コンテンツの利用条件を定義し、AI企業に対してライセンスを提供できる仕組み「Publisher Content Marketplace（PCM）」を立ち上げたと<a href="https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web">発表</a>{target=”_blank”}した。AIによるコンテンツ利用が広がる中で、出版社が望む形で条件を設定し、その対価を得られる市場の構築を目指す。</p>
+<h2>検索から会話へ、回答品質を左右する「根拠コンテンツ」</h2>
+<p>Microsoftによると、生成AIは検索結果の提示にとどまらず、会話形式で直接「答え」を返す存在へと変化している。こうした変化に伴い、回答の品質や信頼性を左右する要因は、どのコンテンツを根拠（grounding）として参照できるかに移りつつあるという。従来のように、出版社が記事を公開し、検索エンジンがトラフィックを送るという暗黙の関係は、AIが回答を完結させる世界では成立しにくくなるとの認識を示した。</p>
+<h2>PCMの仕組み：出版社が条件を決め、利用価値に応じて支払う</h2>
+<p>PCMでは、出版社があらかじめコンテンツのライセンス条件や利用範囲を設定し、AI開発者は用途やシナリオに応じてコンテンツを発見・契約する。支払いは「提供された価値（delivered value）」に基づいて行われるとし、どのコンテンツがどのように利用されたかを可視化する利用実績レポート（usage-based reporting）も提供する。Microsoftは、これにより出版社とAI開発者の間に、透明なフィードバックループを構築すると説明している。</p>
+<p>参加は任意で、出版社はコンテンツの所有権や編集上の独立性を常に保持すると明記された。個別の一対一契約を積み重ねる従来の方式ではなく、市場型の仕組みによって規模拡大を可能にする点が特徴だとしている。対象は大手メディアに限らず、独立系パブリッシャーも含む。</p>
+<h2>主要出版社と共同設計、Copilotでの検証も進行</h2>
+<p>Microsoftは、PCMの構想にあたり、米国の主要出版社と数カ月にわたり共同設計（co-design）を進めてきたという。Associated PressやBusiness Insider、Condé Nast、Hearst Magazines、People、USA TODAY、Vox Mediaなどが協力しており、すでにMicrosoft Copilot（企業向け・消費者向け）において、ライセンス済みコンテンツを用いた回答の根拠付けを検証してきたとしている。需要側パートナーとしては、Yahooのオンボーディングも始まっている。</p>
+<p>パブリッシャー側の動きも明らかになっている。Business Insiderは、PCMが「事業として始動した」とし、自社が創設パートナー（founding partner）として参加することを<a href="https://www.businessinsider.com/business-insider-is-powering-the-ai-ecosystem-2026-2">公表</a>{target=”_blank”}した。自社のジャーナリズムがAIエコシステムを支える基盤になると位置づけている。</p>
+<p>Microsoftは、現段階のPCMをパイロットフェーズと位置づけ、価値観を共有する出版社やAI開発者とともに、今後段階的に拡大していく方針を示している。生成AI時代におけるコンテンツ利用と報酬のあり方をめぐり、新たな枠組みとしての定着が注目される。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NASA とAnthropic、Claudeで火星探査車の走行ルートを生成──パーサヴィアランスがAI計画で合計456メートル走行</title>
       <link>https://ledge.ai/articles/nasa_jpl_anthropic_claude_mars_rover_route_planning</link>
       <description><![CDATA[<p>NASAのジェット推進研究所（JPL）は2026年1月30日、生成AIを活用して火星探査車パーサヴィアランスの移動経路を作成する実証実験を行ったと<a href="https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/">発表</a>した。この実験には米AI企業のAnthropicが協力し、同社の生成AI「Claude」が走行ルートの作成に用いられた。JPLによると、パーサヴィアランスはAIが計画したルートに沿って、2025年12月に2回走行し、合計456メートルを移動した。</p>
@@ -395,18 +411,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <h2>月・火星、さらに深宇宙へ</h2>
 <p>今回の構想は地球周回軌道にとどまらない。Starshipの能力により、月面への大量輸送や恒久拠点の構築が可能になるとし、月の資源を活用した衛星製造や、深宇宙への展開にも言及した。これにより、AI計算基盤が月や火星での活動、さらには人類の多惑星文明化を支える中核インフラになると位置づけている。</p>
 <p>SpaceXは、宇宙ベースのAIデータセンターが、科学研究や技術革新を加速させるだけでなく、将来的な月面基地や火星都市の建設を資金面・技術面から支える基盤になるとしている。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX、AI向け「宇宙データセンター」構想をFCC提出──太陽光を直接使う“軌道上AIインフラ”、衛星100万基規模</title>
-      <link>https://ledge.ai/articles/spacex_fcc_orbital_ai_data_center_1m_satellites</link>
-      <description><![CDATA[<p>SpaceXが、AI向け計算基盤の新たな構想を打ち出した。<a href="https://www.reuters.com/business/aerospace-defense/spacex-seeks-fcc-nod-solar-powered-satellite-data-centers-ai-2026-01-31/">Reuters</a>によると、SpaceXは2026年1月30日、米連邦通信委員会（FCC）に対し、将来的に最大100万基規模へ拡大する衛星コンステレーション計画を申請した。これらの衛星は、従来の通信用途にとどまらず、「軌道上データセンター」としてAIの計算・データ処理を担う構想が盛り込まれているという。</p>
-<h2>地上の電力制約を回避する「宇宙」という選択肢</h2>
-<p>Reutersによれば、今回申請された低軌道（LEO）衛星群は、衛星同士をネットワークで接続し、高度な計算機能を担うことを想定している。宇宙空間でほぼ連続的に得られる太陽光を直接電力源として活用することで、地上データセンターが直面する電力供給の制約を回避できる可能性があると報じている。</p>
-<h2>FCCの審査と「Starlink Gen2」の判断例</h2>
-<p>FCCへの申請手続き上、こうした構想を含む衛星システムも通信衛星として扱われ、周波数利用の適格性などが審査対象となる。FCCは2026年1月9日、SpaceXが申請していた次世代通信衛星「Starlink Gen2」を正式に承認しており、公式文書（<a href="https://docs.fcc.gov/public/attachments/DA-26-36A1.pdf">DA-26-36A1</a>）では、大規模な低軌道衛星コンステレーションであっても、既存の通信枠組みに基づき審査・判断が行われることが示されている。</p>
-<p>今回の申請は、提出時点で承認されたものではなく、今後FCCによる審査を経て判断される。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
