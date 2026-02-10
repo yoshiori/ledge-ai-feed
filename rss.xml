@@ -293,6 +293,26 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、冬季五輪代表をAIで支援──撮影した映像を数分で3D解析するスキー・スノーボード向け分析ツールを構築</title>
+      <link>https://ledge.ai/articles/google_ai_3d_video_analysis_ski_snowboard_team_usa</link>
+      <description><![CDATA[<p>Google Cloudは2026年2月5日、米国のスキー・スノーボード競技統括団体である U.S. Ski &amp; Snowboard と共同で、AIを活用した映像分析プラットフォームを構築したと<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/">発表</a>した。撮影した映像から選手の動きを解析し、数分以内にフィードバックを得られる点を特徴とする。</p>
+<p>フリースタイルスキーやスノーボードでは、時速80キロ近いスピードでの滑走中に、わずかな踏切角度や回転の差が成績を左右する。Google Cloudは、こうした競技特性を踏まえ、同団体と連携して「業界初（industry-first）」とするAI映像分析ツールを開発した。スノーボードの Maddie Mastro 選手や、フリースキーの Alex Hall 選手らが活用事例として紹介されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=ELvfX0l6dyQ">YouTube</a></p>
+<h2>専用機材を使わず、映像から人体の動きを3D推定</h2>
+<p>従来、高精度なモーションキャプチャは、専用スーツやセンサーを装着し、管理されたスタジオ環境で行う必要があった。今回のツールはそうした制約を排し、撮影した2D映像のみを用いて、選手の動きを3Dで推定する。Google DeepMindが進めてきた空間知能（spatial intelligence）の研究成果を活用し、厚手のウインターギア越しでも骨格ポイントを推定できる「マーカー不要（markerless）」の手法を採用している。</p>
+<p>解析処理はGoogle Cloud上で行われ、データは数分で生成される。発表によると、分析結果が次のリフトに乗っている間に得られるケースもあるという。</p>
+<h2>Geminiを通じて、データと対話</h2>
+<p>解析後、コーチや選手はGoogleの生成AI「Gemini」を用いて、データを自然言語で照会できる。例えば、「昨日のベストランと踏切角はどう違うか」といった質問に対し、数値に基づいた回答を即座に得られるとしている。</p>
+<p>U.S. Ski &amp; Snowboardで競技全体を統括するアヌーク・パティ氏は、「映像は最も一般的で有効なコーチングツールだが、これまでは分析に時間がかかっていた。AIによって競技レベルの映像をより深く、安全に活用できるようになる」とコメントした。</p>
+<h2>極限環境での共同開発と今後</h2>
+<p>ツールの開発にあたり、Google Cloudのエンジニアは、同団体のフリースキーおよびスノーボードチームとともに、オーストリアや米コロラド州などの極限環境で検証を行った。山の上での主観的な観察と、ラボ内での高精度計測の間にあった長年のギャップを埋めることが狙いだとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dawsy_2023_Europe_Cortina_1_29_03a3b4f2e5/Dawsy_2023_Europe_Cortina_1_29_03a3b4f2e5.jpg" alt="Dawsy_2023_Europe_Cortina-1-29.jpg" /></p>
+<p>Google Cloudで生成AI分野を統括するオリバー・パーカー氏は、「世界最高峰のアスリートを最も過酷な環境で支える技術を確立することで、人の動きの理解と改善の在り方を変える」と述べた。</p>
+<p>このAI映像分析プラットフォームは現時点では実験的な取り組みと位置づけられており、U.S. Ski &amp; Snowboardの選手・コーチ陣による検証が、冬季五輪本番に向けて続けられている。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>車限定だった「Geminiナビ」が徒歩・自転車にも拡大──Google マップで利用可能に</title>
       <link>https://ledge.ai/articles/google_maps_gemini_navigation_walking_cycling</link>
       <description><![CDATA[<p>地図アプリ「Google マップ」のナビゲーション中に利用できるAIアシスタント「Gemini」について、これまで自動車の運転時に限定していた対応を拡大し、徒歩および自転車でのナビゲーション中でも利用可能にした。同社が公式ブログで<a href="https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/">発表</a>した。機能はGemini提供地域において、AndroidおよびiOS向けに順次提供される。</p>
