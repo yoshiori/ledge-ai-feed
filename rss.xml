@@ -5,6 +5,19 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIの新事業「Frontier」：AIエージェント導入は“常駐エンジニア”が伴走し一気通貫支援　日本ではソフトバンクも検証開始</title>
+      <link>https://ledge.ai/articles/openai_frontier_ai_agents_forward_deployed_engineers</link>
+      <description><![CDATA[<p>OpenAIは2026年2月5日、企業が業務を担うAIエージェントを構築・展開・管理するための新事業「<a href="https://openai.com/index/introducing-openai-frontier/">OpenAI Frontier</a>」を開始した。OpenAIが「AI同僚（AI coworkers）」と呼ぶエージェントを、実際の事業に組み込むことを目的とした取り組みで、同社のエンジニアが顧客企業と連携しながら導入を支援する点が特徴だ。</p>
+<p>OpenAIによると、AIエージェントの活用が進まない要因はモデル性能ではなく、組織内での運用や管理にあるという。Frontierでは、複数のエージェントが共通の業務文脈を理解できる「共有コンテキスト」をはじめ、役割や業務内容を学習させるオンボーディング機能、利用結果を反映するフィードバック学習、業務権限や行動範囲を制御する仕組みなどを提供する。これにより、単発の業務自動化にとどまらず、組織横断で機能するAIエージェントの運用を可能にするとしている。</p>
+<p><strong>【OpenAI Frontierのアーキテクチャ概要】</strong> 共有された業務コンテキストの上でAIエージェントを実行し、評価・最適化を通じて改善する構造を示している
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Desktop_Lightmode_1_b2ad1049fb/Desktop_Lightmode_1_b2ad1049fb.jpg" alt="Desktop_Lightmode__1.jpg" /></p>
+<p>あわせてOpenAIは、Enterprise Frontier Programとして「Forward Deployed Engineers（FDE）」と呼ばれるエンジニアによる伴走支援を用意した。FDEは顧客企業のチームと協働し、システム設計やガバナンスの構築、本番環境でのエージェント運用までを一気通貫で支援する役割を担う。AIエージェントを既存の業務プロセスやIT環境に組み込み、実運用に耐える形で定着させることを狙う。</p>
+<p>導入事例としては、HP、Intuit、Oracle、Uberなどに加え、米保険大手のState Farmが「ローンチパートナー」として参加している。State Farmは、従業員や代理店の業務支援を目的にFrontierを活用するとしており、段階的な導入と安全性の確保を重視する姿勢を示している。</p>
+<p>日本では、<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260206_01/?sbpr=info">ソフトバンク</a>とSB OpenAI JapanがFrontierを活用した法人向けAIソリューションの検証を開始した。ソフトバンクは、OpenAIのFDEが顧客企業と並走し、設計から構築、運用までを支援する体制を整えるとしており、日本企業への展開を視野に入れた取り組みとなる。</p>
+]]></description>
+      <pubDate>Mon, 09 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
       <link>https://ledge.ai/articles/anthropic_claude_opus_4_6_cowork_saas_stock_reaction</link>
       <description><![CDATA[<p>米AI企業のAnthropicは2026年2月5日（現地時間）、同社の最上位大規模言語モデル（LLM）「Claude Opus 4.6」を<a href="https://www.anthropic.com/news/claude-opus-4-6">発表</a>した。あわせて業務向けAIエージェント「Cowork」の展開を進めており、これら一連の動きを背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落したと<a href="https://www.reuters.com/business/media-telecom/ai-concerns-pummel-european-software-stocks-2026-02-03/">Reuters</a>など各メディアが報じている。</p>
@@ -167,34 +180,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 計器の読み取り、画像化された表データの解析、数量確認など、正確性が求められる場面での活用を想定しているという。</p>
 ]]></description>
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Genspark、日本市場に本格参入──音声操作と自律ワークフローを備えた「AI Workspace 2.0」発表</title>
-      <link>https://ledge.ai/articles/genspark_ai_workspace_2_japan_launch</link>
-      <description><![CDATA[<p>米AIスタートアップの Genspark は2026年1月28日、日本市場での法人展開を本格化すると<a href="https://prtimes.jp/main/html/rd/p/000000002.000176655.html">発表</a>した。あわせて、音声入力アプリ「Speakly」やAI受信トレイのワークフローなどを含む「AI Workspace 2.0」を公開した。</p>
-<h2>日本市場を重要拠点に位置づけ</h2>
-<p>Gensparkは、日本市場を米国やアジアの主要市場と並ぶ重要拠点の一つと位置づけ、業務利用を前提としたAIワークスペースの提供を本格化する。日本語環境での業務利用を想定し、法人向けの導入を進める方針だ。</p>
-<h2>業務全体を担う「AI Workspace 2.0」</h2>
-<p>「Genspark AI Workspace 2.0」は、情報収集、情報処理、成果物作成までを単一の環境で担う業務特化型AIワークスペースとして設計されている。ユーザーの指示をもとに、AIがタスクを分解し、複数の工程を自律的に実行する点が特徴だ。</p>
-<p><strong>Genspark AI Workspace 2.0は、情報収集・処理・成果物作成までを単一環境で担う業務向けAIワークスペースとして設計されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub2_86e094679d/sub2_86e094679d.png" alt="sub2.png" /></p>
-<h2>音声入力とカスタムワークフローを新搭載</h2>
-<p>新バージョンでは、音声入力による操作に対応した。キーボード操作を介さず、話しかけるだけで指示を出せるため、業務のスピード向上が期待される。
-また、ユーザー自身が業務内容に応じたカスタムワークフローを構築できる機能も追加された。定型業務や複数ステップにまたがる処理をAIに任せることで、業務の自動化を進められる。</p>
-<h2>メール処理を自動化する「AI受信トレイ」</h2>
-<p>AI Workspace 2.0には、メール処理を自動化する「AI受信トレイ」も搭載されている。受信箱のトリアージや転送、優先順位付けなどを自律的に処理する仕組みとしている。</p>
-<h2>複数AIモデルを統合、モデル選択は不要</h2>
-<p>Gensparkは、ChatGPTやGemini、Claudeなど複数の大規模言語モデルを内部で活用している。ユーザーは個別のモデルを意識する必要はなく、タスク内容に応じて最適なモデルが裏側で使い分けられる仕組みだ。
-同社は、ChatGPTやGemini、Claudeなどを含む70以上のAIモデルを統合し、指示をタスクに分解したうえで最適なモデルを選定すると説明している。</p>
-<p><strong>Gensparkは、複数のAIモデル、ツール、データを組み合わせる独自のエージェントエンジンによって業務実行を行う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub1_c8285ce386/sub1_c8285ce386.png" alt="sub1.png" /></p>
-<p>こうしたGenspark AI Workspace 2.0の動作イメージについて、同社は以下の公式デモ動画で紹介している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=KtOZNvFhV8c">YouTube</a></p>
-<h2>日本企業での導入も進展</h2>
-<p>Gensparkは、日本国内において広告、IT、製造、金融など複数業界の企業で導入が進んでいると説明する。今後は、日本市場向けの機能拡張や導入支援を通じて、業務現場でのAI活用をさらに広げていく考えだ。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sub3_2ec073c221/sub3_2ec073c221.png" alt="sub3.png" /></p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2026/2/2 [MON]“プロンプトで歩ける世界”が現実に──Google、世界生成AIの実験プロトタイプ「Project Genie」米国提供　Google DeepMindの世界モデル「Genie 3」を搭載</title>
@@ -392,19 +377,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <p>@<a href="https://www.youtube.com/watch?v=0QtS85SRnOE">YouTube</a></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923.jpg" alt="Anthropic the first ai-planned drive on another planet.jpg" /></p>
 <p>JPLは今回の成果について、生成AIを探査運用に本格的に委ねる段階には至っていないとしつつも、慎重な検証を重ねることで、将来の探査ミッションにおける活用の可能性を探っていくとしている。AIを人間の判断を補完する技術として段階的に導入する姿勢を示した点も、今回の実証の特徴といえそうだ。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIの新事業「Frontier」：AIエージェント導入は“常駐エンジニア”が伴走し一気通貫支援　日本ではソフトバンクも検証開始</title>
-      <link>https://ledge.ai/articles/openai_frontier_ai_agents_forward_deployed_engineers</link>
-      <description><![CDATA[<p>OpenAIは2026年2月5日、企業が業務を担うAIエージェントを構築・展開・管理するための新事業「<a href="https://openai.com/index/introducing-openai-frontier/">OpenAI Frontier</a>」を開始した。OpenAIが「AI同僚（AI coworkers）」と呼ぶエージェントを、実際の事業に組み込むことを目的とした取り組みで、同社のエンジニアが顧客企業と連携しながら導入を支援する点が特徴だ。</p>
-<p>OpenAIによると、AIエージェントの活用が進まない要因はモデル性能ではなく、組織内での運用や管理にあるという。Frontierでは、複数のエージェントが共通の業務文脈を理解できる「共有コンテキスト」をはじめ、役割や業務内容を学習させるオンボーディング機能、利用結果を反映するフィードバック学習、業務権限や行動範囲を制御する仕組みなどを提供する。これにより、単発の業務自動化にとどまらず、組織横断で機能するAIエージェントの運用を可能にするとしている。</p>
-<p><strong>【OpenAI Frontierのアーキテクチャ概要】</strong> 共有された業務コンテキストの上でAIエージェントを実行し、評価・最適化を通じて改善する構造を示している
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Desktop_Lightmode_1_b2ad1049fb/Desktop_Lightmode_1_b2ad1049fb.jpg" alt="Desktop_Lightmode__1.jpg" /></p>
-<p>あわせてOpenAIは、Enterprise Frontier Programとして「Forward Deployed Engineers（FDE）」と呼ばれるエンジニアによる伴走支援を用意した。FDEは顧客企業のチームと協働し、システム設計やガバナンスの構築、本番環境でのエージェント運用までを一気通貫で支援する役割を担う。AIエージェントを既存の業務プロセスやIT環境に組み込み、実運用に耐える形で定着させることを狙う。</p>
-<p>導入事例としては、HP、Intuit、Oracle、Uberなどに加え、米保険大手のState Farmが「ローンチパートナー」として参加している。State Farmは、従業員や代理店の業務支援を目的にFrontierを活用するとしており、段階的な導入と安全性の確保を重視する姿勢を示している。</p>
-<p>日本では、<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260206_01/?sbpr=info">ソフトバンク</a>とSB OpenAI JapanがFrontierを活用した法人向けAIソリューションの検証を開始した。ソフトバンクは、OpenAIのFDEが顧客企業と並走し、設計から構築、運用までを支援する体制を整えるとしており、日本企業への展開を視野に入れた取り組みとなる。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
