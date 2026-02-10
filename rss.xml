@@ -490,6 +490,28 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Waymo、DeepMindの世界モデル「Genie 3」を活用した自動運転向け生成シミュレーション「Waymo World Model」を発表</title>
+      <link>https://ledge.ai/articles/waymo_world_model_genie3_simulation</link>
+      <description><![CDATA[<p>Waymoは2026年2月6日、Google DeepMindが研究を進める汎用世界モデル「Genie 3」の成果を活用し、自動運転向けの生成シミュレーションモデル「Waymo World Model」を<a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation">発表</a>した。現実世界に近い交通環境を生成AIで再現し、学習や安全性検証を高度化する狙いがある。</p>
+<h2>生成AIで“走行世界”を再構築する「Waymo World Model」</h2>
+<p>Waymo World Modelは、自動運転開発のために設計された生成型シミュレーションモデルだ。実走行データを基に、道路構造や周辺環境、交通参加者の挙動を仮想空間上で再構成・生成できる。カメラ映像に加え、LiDARなど複数センサーの出力を含むシーン生成に対応し、開発や検証に用いる走行データを柔軟に拡張できるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_1_7250ba77e1/waymo_1_7250ba77e1.jpg" alt="waymo 1.jpg" /></p>
+<h2>DeepMindの汎用世界モデル「Genie 3」を自動運転に応用</h2>
+<p>同モデルは、DeepMindが研究開発する汎用世界モデル「Genie 3」で培われた技術的成果を基盤としている。Genie 3は、世界の状態を一貫性を保ったまま生成・操作できる点が特徴で、インタラクティブな環境生成を可能にする。Waymoはこのアプローチを自動運転向けに最適化し、交通環境の再現に応用した。</p>
+<h2>実走では再現困難な希少・危険シナリオを仮想生成</h2>
+<p>Waymo World Modelにより、実走では遭遇頻度が低い事象や安全上の理由で再現が難しいケースを仮想空間で生成できる。天候や時間帯、交通量、周囲の行動パターンなどを組み合わせ、多様な走行シナリオを作成することで、検証の網羅性を高めることが可能になるという。</p>
+<p><strong>■ 生成シミュレーションで再現された竜巻遭遇シナリオ。実走行では安全上の理由から検証が困難な極端気象下の走行環境を、仮想空間で生成・検証できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_2_2f41310e98/waymo_2_2f41310e98.jpg" alt="waymo 2.jpg" /></p>
+<p>■ <strong>野生動物が道路を横断するシナリオを生成した例。地域によっては発生し得るものの、実走データとしては取得が難しいケースを仮想的に再現している。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_3_4ffd2847ca/waymo_3_4ffd2847ca.jpg" alt="waymo 3.jpg" /></p>
+<h2>実走データ依存から生成シミュレーション活用へ</h2>
+<p>Waymoはこれまでも、実走データとシミュレーションを組み合わせた開発を進めてきた。今回の発表は、生成AIを用いたシミュレーション活用を強化し、学習や検証の効率化を図る取り組みとして位置づけられる。実世界データへの依存を補完しながら、開発サイクルの高速化を目指す。</p>
+<h2>世界モデル研究の実用化が進展</h2>
+<p>汎用世界モデルの研究は、これまで主に基礎研究の文脈で語られてきた。Waymo World Modelは、そうした研究成果が自動運転という実用分野に組み込まれた事例の一つとなる。Waymoは今後、このモデルを自社の開発パイプラインに統合し、安全性検証と性能向上の両立を進めるとしている。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>xAI、動画生成AI「Grok Imagine 1.0」公開──10秒・720p動画と音声品質を大幅強化</title>
       <link>https://ledge.ai/articles/xai_grok_imagine_1_0_video_generation_release</link>
       <description><![CDATA[<p>米AI企業のxAIは2026年2月2日、動画生成AIの新モデル「Grok Imagine 1.0」を公開した。公式Xで<a href="https://x.com/xai/status/2018164753810764061">発表</a>した。</p>
