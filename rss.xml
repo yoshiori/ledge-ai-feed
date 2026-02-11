@@ -381,6 +381,36 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Roblox、“その場で遊べる世界” を現実に──AI基盤「Cube」で4D生成を発表　機能する3Dオブジェクトを自然言語で生成</title>
+      <link>https://ledge.ai/articles/roblox_cube_4d_generation_playable_world</link>
+      <description><![CDATA[<p>Robloxは2026年2月4日、同社の生成AI基盤「Cube Foundation Model」を活用した新たな制作機能「4D generation（4D生成）」を<a href="https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model">発表</a>した。</p>
+<p>4D生成は、従来の静的な3Dオブジェクト生成を拡張し、振る舞いや機能を備えた3Dオブジェクトを自然言語プロンプトから生成できる点が特徴で、Roblox Studio向けにベータ提供を開始する。</p>
+<h2>静的な3Dから「その場で遊べる」生成へ</h2>
+<p>Robloxによると、4D生成は「インタラクティビティ」という新たな次元を加えることで、生成されたオブジェクトが見た目だけでなく、プレイヤーの期待どおりに機能することを可能にする。例えば、テキストプロンプトで生成した車は、単なる3Dモデルではなく、実際に乗り込み、操作して走らせることができる。</p>
+<p>この仕組みは、「スキーマ（schemas）」と呼ばれるルールセットに基づいている。スキーマは、特定のオブジェクトを構成要素に分解し、それぞれに適切な挙動を割り当てる役割を担う。これにより、形状やサイズが異なるオブジェクトであっても、生成後すぐに一貫した動作を実現できるという。</p>
+<p><strong>4D生成の仕組み：</strong> 入力された3Dメッシュ（左）をスキーマに基づいて構成要素へ分解し、それぞれに機能を付与したオブジェクトとして再生成する（右)
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Roblox_Cube_Foundation_Model_3_676ee1e8ee/Roblox_Cube_Foundation_Model_3_676ee1e8ee.jpg" alt="Roblox Cube Foundation Model 3.jpg" /></p>
+<h2>Roblox Studioでの制作とプレイヤー参加型生成</h2>
+<p>4D生成は、Roblox Studio内で有効化することで、クリエイターだけでなくプレイヤー自身が体験内でオブジェクトを生成できる点も特徴だ。プレイヤーは自然言語による簡単なプロンプトを使い、車や飛行機、ドラゴンなどのオブジェクトをその場で生成し、即座にゲームプレイへ組み込める。</p>
+<p>Robloxは、この仕組みにより、従来は開発者に限定されていた制作行為を、体験の一部としてプレイヤーに開放できるとしている。新たなゲームプレイの形や、プレイヤーエンゲージメントの拡張につながる可能性があるという。</p>
+<h2>実証例「Wish Master」で示された効果</h2>
+<p>公式リリースでは、開発者Laksh氏が手がけるゲーム「Wish Master」での活用事例も紹介された。
+Wish Masterでは、プレイヤーが入力した「願い」に応じてオブジェクトが生成される仕組みを採用しており、4D生成によって、走行可能な車や飛行する飛行機、空を舞うドラゴンなどが体験内に出現する。</p>
+<p><strong>4D生成を用いたゲーム「Wish Master」：</strong> プレイヤーが入力したテキストに応じて、体験内にオブジェクトが生成される。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image3_7954b37919/image3_7954b37919.webp" alt="image3.webp" /></p>
+<p>早期アクセス期間中、4D生成によって16万点以上のオブジェクトが生成され、4D生成を利用したプレイヤーは、平均プレイ時間が64％増加したという。Robloxは、こうしたデータが「その場で遊べる生成」が体験価値を高めることを示していると説明している。</p>
+<h2>Cube Foundation Modelが支える4D生成</h2>
+<p>4D生成を支える「<a href="https://about.roblox.com/newsroom/2025/03/introducing-roblox-cube">Cube Foundation Model</a>」は、Robloxが3Dオブジェクト生成や、将来的にはシーン全体の生成を視野に入れて構築した基盤モデルだ。Robloxは、アセットや環境、コード、アニメーションなどを自然言語プロンプトから生成する制作基盤の実現を目標に掲げている。</p>
+<p>現在のベータでは、限られた種類のオブジェクト生成から提供を開始しているが、同社は今後、現実世界に存在する数千種類のオブジェクトをカバーするオープンなスキーマ体系へと拡張していく方針だ。</p>
+<h2>次段階としての「real-time dreaming」</h2>
+<p>Robloxは今回のリリースの中で、4D生成の先にある取り組みとして、「real-time dreaming」と呼ぶ研究プロジェクトにも言及した。
+これは、世界モデルを活用し、没入型の環境を生成・反復・デバッグしながら、共同制作までを自然言語で行えるようにする構想だという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/roblox_real_time_dreaming_d6a7e2c230/roblox_real_time_dreaming_d6a7e2c230.jpg" alt="roblox real-time dreaming.jpg" /></p>
+<p>生成AIによる仮想世界構築をめぐっては、Google DeepMindの「Project Genie」など、世界モデルを用いた研究も進められている。Robloxは、4D生成によって「その場で遊べる」体験を実装しながら、より包括的な世界生成へと研究領域を広げていく考えだ。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SpaceX、AI企業xAIを買収──イーロン・マスク、AI・ロケット・衛星通信・モバイル通信を一体化した垂直統合型の技術基盤を構築へ</title>
       <link>https://ledge.ai/articles/spacex_acquires_xai_orbital_ai_data_center</link>
       <description><![CDATA[<p>衛星通信「Starlink」などを展開する SpaceX は2026年2月2日（米国時間）、人工知能（AI）開発企業 xAI を買収したと<a href="https://www.spacex.com/updates#xai-joins-spacex">発表</a>した。両社はいずれも起業家の イーロン・マスク 氏が率いており、今回の買収により、AI、ロケット、衛星通信、モバイル通信を一体化した垂直統合型の技術基盤を構築する。</p>
@@ -433,31 +463,6 @@ Claude Desktopでは、ローカル環境で起動したMCPサーバーと接続
 <h2>AI制御の迎撃ドローン「Octopus」、量産段階へ</h2>
 <p>国防省は同日、AIベースの制御システムを搭載した迎撃ドローン「Octopus」の最新型を、英国の代表団に対して公開した。Octopusは、Shahed型ドローンへの対処を想定した迎撃ドローンで、ウクライナ軍内で開発されたという。</p>
 <p>国防省の説明によると、Octopusは戦闘での有効性が確認されており、現在は生産規模の拡大が進められている。生産はウクライナ国内に加え、英国でも行われる予定としている。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Waymoの自動運転車が学校近くで子どもと接触、当局が調査開始──同社「17mph→6mph未満まで減速」</title>
-      <link>https://ledge.ai/articles/waymo_school_zone_child_collision_nhtsa_probe</link>
-      <description><![CDATA[<p>Waymoは2026年1月28日、米カリフォルニア州サンタモニカで自社の自動運転車が若い歩行者と接触した事故について、公式ブログで詳細を<a href="https://waymo.com/blog/2026/01/a-commitment-to-transparency-and-road-safety">公表</a>した。事故は学校から2ブロック以内の場所で発生しており、米運輸省道路交通安全局（NHTSA）は同件について予備調査を開始している。</p>
-<h2>学校近くで発生、登校時間帯の事故</h2>
-<p>Waymoによると、事故が起きたのは1月23日午前8時前後。場所はSanta Monica市内の学校近くで、周囲には路上駐車されたSUVがあり、視界が制限されていたという。
-歩行者の子どもが車両の死角から進路に入ったため、同社の自動運転システムはブレーキ操作を行い、速度を約17マイル（約27km）から6マイル（約10km）未満まで減速したものの、完全には停止できず接触に至ったとしている。</p>
-<h2>接触後は911に通報、車両は現場待機</h2>
-<p>接触後、歩行者は自力で歩道へ移動できる状態だったとされる。Waymoの車両は自動的に911へ通報し、警察が現場に到着するまでその場に待機。警察の許可を得た後に現場を離れたという。
-同社は事故当日にNHTSAへ報告を行い、当局の調査に全面的に協力する姿勢を示している。</p>
-<h2>NHTSAが予備調査を開始</h2>
-<p>NHTSAの事故調査部門（ODI）は、本件について予備調査（Preliminary Evaluation）を開始した。公開文書によると、調査では以下の点が主な焦点とされている。</p>
-<ul>
-<li>学校周辺・登校時間帯における自動運転システムの挙動</li>
-<li>制限速度および注意義務の順守状況</li>
-<li>衝突後の対応や安全手順</li>
-</ul>
-<p>事故が学校ゾーンに近接した環境で発生した点を踏まえ、同様の条件下での安全性が検証対象となる。</p>
-<h2>人間運転との比較も提示</h2>
-<p>Waymoは公式ブログの中で、同社が参照する査読済みモデルに基づき、「同様の状況下で注意深い人間ドライバーであれば、約14マイル（約22km）程度の速度で接触していた可能性がある」との比較も示した。ただし、同社はこの比較が事故の正当化を目的とするものではなく、安全性能評価の文脈で提示したものだと説明している。</p>
-<h2>調査結果は今後公表へ</h2>
-<p>現時点で事故原因や法的責任についての結論は出ておらず、NHTSAの調査結果が待たれる状況だ。Waymoは「透明性と道路安全への責任」を強調し、調査の進展に応じて追加情報を公開するとしている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
