@@ -430,6 +430,41 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ByteDance、動画生成AI「Seedance 2.0」を公開　マルチモーダル入力と参照機能を強化</title>
+      <link>https://ledge.ai/articles/seedance_2_0_bytedance_multimodal_video_generation</link>
+      <description><![CDATA[<p>ByteDance（TikTokの親会社）は、動画生成AI「Seedance 2.0」を正式公開した。同モデルは、同社の生成AIサービス「<a href="https://jimeng.jianying.com/">即梦（Jimeng）</a>」上で提供されている。2026年2月10日更新の<a href="https://bytedance.larkoffice.com/wiki/A5RHwWhoBiOnjukIIw6cu5ybnXQ">公式ユーザーガイド</a>（Lark Wiki）および即梦の公式サイトで案内されている。</p>
+<p>現在は段階的に公開されており、会員・非会員ともに順次利用可能になるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jimeng_f353651d6b/jimeng_f353651d6b.jpg" alt="jimeng.jpg" /></p>
+<h2>画像・動画・音声・テキストの4モダリティに対応</h2>
+<p>Seedance 2.0は、画像・動画・音声・テキストの4種類の入力形式に対応するマルチモーダル動画生成モデルである。</p>
+<p>使用手册によると、主な仕様は以下の通り。</p>
+<ul>
+<li>画像：jpeg、png、webp、bmp、tiff、gif形式に対応（最大9枚、30MB未満）</li>
+<li>動画：mp4、mov形式（最大3本、合計2〜15秒、50MB未満）</li>
+<li>音声：mp3、wav形式（最大3本、合計15秒以内、15MB未満）</li>
+<li>テキスト：自然言語入力</li>
+<li>混合入力の総上限：12ファイル</li>
+<li>生成時間：4〜15秒（最大15秒）</li>
+</ul>
+<p>動画入力には総ピクセル数の上限も設けられている。生成時には効果音や音楽を含めた出力も可能としている。</p>
+<h2>参照機能を強化、映像表現の制御性を向上</h2>
+<p>今回のアップデートでは、参照機能の強化が中核に据えられている。</p>
+<p>参照画像を用いることで構図やキャラクターの細部を保持し、参照動画を利用することでカメラワークや動作のリズム、視覚効果などを指定できる。既存動画の延長や、ユーザーの指示に基づく連続的なショット生成にも対応する。</p>
+<p>さらに、既存動画を入力として、登場人物の差し替えや削除、追加などの編集操作も可能となっている。</p>
+<h2>シンプル生成とマルチモーダル生成の2方式を提供</h2>
+<p>Seedance 2.0は、生成方法として大きく2つのモードを用意している。UI上では「首尾帧」と「全能参考」と表示される。</p>
+<ul>
+<li>首尾帧（シンプル生成）：開始フレームとなる画像とテキストのみで動画を生成するシンプルなモード</li>
+<li>全能参考（マルチモーダル生成）：画像・動画・音声・テキストを組み合わせ、参照素材を指定しながら生成する高度なモード</li>
+</ul>
+<p>複数素材を用いる場合は、「@素材名」の形式で各素材の役割を明示する。たとえば、ある画像を開始フレームとして指定し、別の動画をカメラワークの参照に、音声をBGMとして利用する、といった指定が可能だ。</p>
+<h2>実在人物の写真人顔素材は現在非対応</h2>
+<p>使用手册では、プラットフォームのコンプライアンス上の理由から、実在人物の写真人顔を含む画像や動画素材のアップロードは現在サポートしていないと明記している。該当素材はシステム側で自動的に制限される。</p>
+<p>今後の仕様変更については、文書内で更新するとしている。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本発 AI VTuber「しずく」開発元Shizuku AI、a16z主導でシード調達──「世界で一番愛されるAIキャラクター」目指す</title>
       <link>https://ledge.ai/articles/shizuku_ai_a16z_seed_funding</link>
       <description><![CDATA[<p>日本発のAI VTuber「しずく」を開発するShizuku AIは2026年2月10日、米ベンチャーキャピタル大手のAndreessen Horowitz（a16z）をリード投資家として資金調達を実施したと<a href="https://x.com/cumulo_autumn/status/2021019421385556234">発表</a>した。調達額は公表されていない。</p>
@@ -470,24 +505,6 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
 <p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
 <p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ウクライナ、友好国と戦闘データを活用するAI訓練基盤を構築──実戦データで軍事AIを育成する「Brave1 Dataroom」始動</title>
-      <link>https://ledge.ai/articles/ukraine_brave1_dataroom_ai_training_battlefield_data</link>
-      <description><![CDATA[<p>ウクライナは、ロシアによる侵攻以降に蓄積してきた戦闘データを活用し、軍事用途のAIモデルを訓練・検証できる基盤を構築する。ウクライナ国防省は現地時間の2026年1月21日、軍事AIソリューションの開発を目的とした安全なデータ環境「Brave1 Dataroom」を立ち上げたと<a href="https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions">発表</a>した。同基盤は、軍事AIソリューションの開発を目的とした安全なデータ環境として設計されており、友好国とのデータ活用や共同開発を想定している。</p>
-<h2>実戦データで軍事AIを訓練する「Brave1 Dataroom」</h2>
-<p>国防省によると、<a href="https://digitalstate.gov.ua/news/tech/ukraine-launches-brave1-dataroom-with-palantir-to-train-ai-models-using-battlefield-data">Brave1 Dataroom</a>では、戦場で収集された映像や各種センサーデータなどを用いて、軍事用途AIの訓練やテストを行うことができる。防衛分野のスタートアップや開発企業は、申請手続きを経て同環境にアクセスし、自社のAIモデルを検証できる仕組みとなっている。データの取り扱いについては、安全性と機密性を確保するための管理措置が講じられているとしている。</p>
-<p>同基盤は、米データ分析企業 Palantir の技術を活用して構築された。Brave1は、軍事技術分野の開発を支援する国家主導の枠組みで、Dataroomはその一環として位置づけられている。
-また、Brave1 Dataroomの取り組みは、ウクライナの「デジタル変革省（Ministry of Digital Transformation of Ukraine）」が運営する政府ポータル「Digital State UA」でもプロジェクトとして紹介されている。</p>
-<h2>フェドロフ国防相「real war data」が迎撃AIを高度化</h2>
-<p>ウクライナの ミハイロ・フェドロフ国防相は、X（旧Twitter）への投稿で、Brave1 DataroomをPalantirと共同で開始したことを明らかにした。投稿の中でフェドロフ氏は、「実戦（real war）データに基づくAIが、敵ドローンの迎撃やウクライナの防空を支援する」と述べている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/mykhailo_fedorov_X_152b4a9f50/mykhailo_fedorov_X_152b4a9f50.jpg" alt="mykhailo fedorov氏のX投稿より.jpg" /></p>
-<p>同氏はまた、ウクライナが自律型の防空ソリューションを開発しており、すでに運用実績があることにも言及した。</p>
-<h2>AI制御の迎撃ドローン「Octopus」、量産段階へ</h2>
-<p>国防省は同日、AIベースの制御システムを搭載した迎撃ドローン「Octopus」の最新型を、英国の代表団に対して公開した。Octopusは、Shahed型ドローンへの対処を想定した迎撃ドローンで、ウクライナ軍内で開発されたという。</p>
-<p>国防省の説明によると、Octopusは戦闘での有効性が確認されており、現在は生産規模の拡大が進められている。生産はウクライナ国内に加え、英国でも行われる予定としている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
