@@ -217,22 +217,28 @@
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、スーパーボウルCMで「Claudeに広告は入れない」明言──OpenAIの広告戦略と対照、アルトマンCEOがXで反応</title>
-      <link>https://ledge.ai/articles/anthropic_super_bowl_claude_no_ads_openai_altman_response</link>
-      <description><![CDATA[<p>米AI企業の Anthropic は2026年2月4日、米国最大のスポーツイベントである Super Bowl にテレビCMを出稿し、同社の対話型AI「Claude」には広告を導入しない方針を明確に打ち出した。CMでは「広告に適した場所はたくさんありますが、Claudeとの会話はその中に含まれません」と訴え、AIとの対話空間に広告が入り込むことへの違和感を強調した。</p>
-<p><strong>AnthropicがSuper Bowl向けに公開したCM。「広告に適した場所は多いが、Claudeとの会話は含まれない」とのメッセージを打ち出している</strong></p>
-<p>@<a href="https://www.youtube.com/watch?v=kQRu7DdTTVA">YouTube</a></p>
-<h2>「Claude is a space to think」──公式声明で広告非導入を明文化</h2>
-<p>Anthropicは同日、「<a href="https://www.anthropic.com/news/claude-is-a-space-to-think">Claude is a space to think</a>」と題した公式声明を公開した。声明では、検索エンジンやSNSとは異なり、AIアシスタントとの会話はオープンエンドで、個人的・機微な情報や、深い思考、複雑な業務内容を含む場合が多いと指摘。こうした文脈に広告が表示されることは不適切であり、利用者の信頼やAIの中立性を損なう可能性があるとした。</p>
-<p>同社は、広告モデルが導入されれば「取引機会の創出」といった別のインセンティブがAIの振る舞いに影響を与えかねないとも説明。そのうえで、Claudeは今後も広告なしとし、収益は法人契約や有料サブスクリプションによって得たものをモデル改善に再投資する方針を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_is_a_space_to_think_eceb6cfc5f/claude_is_a_space_to_think_eceb6cfc5f.jpg" alt="claude is a space to think.jpg" /></p>
-<h2>OpenAIのサム・アルトマンCEOが反応、「明らかに不誠実」と批判</h2>
-<p>このCMに対し、Sam Altman 氏はX（旧Twitter）で<a href="https://x.com/sama/status/2019139174339928189">反応</a>を示した。同氏は「広告は面白く、笑った」としつつも、Anthropicが描いた広告の入り方について「明らかに不誠実だ」と批判。OpenAIとしては、CMが示すような形でAIの対話に広告を挿入することは想定しておらず、ユーザーが拒否することは明らかだと述べた。</p>
-<p>Altman氏はまた、OpenAIが無料アクセスの拡大を重視している点を強調し、より多くの人がAIを利用できる環境を整えることが重要だと主張。Anthropicのビジネスモデルや利用制限のあり方にも言及した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Sam_A_Super_Bowl_ad_is_not_where_I_would_expect_it_5a6e56a658/Sam_A_Super_Bowl_ad_is_not_where_I_would_expect_it_5a6e56a658.jpg" alt="SamA Super Bowl ad is not where I would expect it.jpg" /></p>
-<h2>広告を巡る立場の違いが浮き彫りに</h2>
-<p>OpenAI は2026年1月、ChatGPTの無料版および低価格プラン向けに広告テストを開始する<a href="https://openai.com/ja-JP/index/our-approach-to-advertising-and-expanding-access/">方針</a>を公式ブログで説明している。広告は回答とは分離し、明確にラベル表示するほか、会話データを広告主に販売しないとしており、有料プランでは広告を表示しない。</p>
-<p>Anthropicが「思考と仕事のための空間」として広告非導入を明言したのに対し、OpenAIはアクセス拡大の手段として広告を位置づける。今回のスーパーボウルCMとそれに対する反応は、対話型AIをどのような価値観で提供するのかという、AI企業間の立場の違いを浮き彫りにしている。</p>
+      <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
+      <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
+<h2>無料プランで利用可能となった対象機能</h2>
+<p>無料ユーザーに開放されたのは以下の3機能</p>
+<ul>
+<li>ファイル作成・編集（コード実行）</li>
+<li>Connectors（外部ツール連携）</li>
+<li>Skills（スキル機能）</li>
+</ul>
+<p>これらは従来、有料プランを中心に提供されてきた機能である。</p>
+<h2>「ファイル作成・編集（コード実行）」の提供内容</h2>
+<p>ファイル作成機能では、Claudeがコードを実行し、スプレッドシートやプレゼンテーション資料、PDFなどのファイルを生成・編集できる。Anthropicのヘルプセンターによれば、本機能は無料を含む各プランで利用可能と記載されている。Web版のほか、Claude Desktopおよびモバイル環境でも利用できる。</p>
+<p><strong>■ Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347.webp" alt="a7cc545ecf57240d91c97a102246ef6126bdc7f8-1920x1080.webp" /></p>
+<h2>「Connectors」および「Skills」の提供範囲</h2>
+<p>Connectorsは、Claudeを外部ツールやデータソースと連携させる機能である。公式ドキュメントでは、Web connectorsは全ユーザーが利用可能とされている。一方で、カスタムコネクターの作成は有料プラン向けと明記されている。</p>
+<p>Skillsは、あらかじめ用意された機能拡張や、ユーザーが作成したスキルをClaudeに追加できる仕組みである。設定画面から有効化することで利用でき、無料プランも対象に含まれている。</p>
+<p><strong>■ Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agent_skills_7f1c1cf0d3/agent_skills_7f1c1cf0d3.jpg" alt="agent skills.jpg" /></p>
+<h2>無料プランと有料プランの機能差</h2>
+<p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
