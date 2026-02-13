@@ -237,37 +237,6 @@
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「誰が主導権を握っているのか？」──AIが人間を「現実認識の歪み」「価値判断の委任」「行動の委任」を通して「無力化」する可能性、Anthropicらが検証</title>
-      <link>https://ledge.ai/articles/anthropic_whos_in_charge_ai_disempowerment</link>
-      <description><![CDATA[<p>Anthropicやカナダのトロント大学などに所属する研究者らは2026年1月28日、AIが人間の自律性に与える影響を大規模に分析した研究報告を<a href="https://arxiv.org/abs/2601.19062">発表</a>した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Disempowerment_patterns_in_real_world_AI_usage_f1e58a4c46/Disempowerment_patterns_in_real_world_AI_usage_f1e58a4c46.jpg" alt="Disempowerment patterns in real-world AI usage.jpg" /></p>
-<p>プレプリント論文「Who’s in Charge? Disempowerment Patterns in Real-World LLM Usage（誰が主導権を握っているのか？──現実世界における大規模言語モデル利用で生じる無力化のパターン）」では、AIアシスタントの実利用データをもとに、人間が判断や行動をAIに委ねすぎることで生じうる「無力化（ディスエンパワーメント）」の実態を検証している。</p>
-<h2>実利用150万件を対象にした大規模調査</h2>
-<p>研究チームは、Anthropicが提供するAIアシスタント「Claude」の実際の会話データ約150万件を対象に分析を行った。調査はプライバシー保護を前提とした設計で実施され、実験環境ではなく、現実世界におけるAI利用が人間の意思決定にどのような影響を及ぼしているかを明らかにすることを目的としている。</p>
-<h2>「無力化」を三つの側面から定義</h2>
-<p>論文では、人間の主体性が損なわれる状態を「状況的ディスエンパワーメント」と定義し、次の三つの側面から整理した。</p>
-<ul>
-<li>AIが誤った理解や妄想的な解釈を肯定・補強することによる「現実認識の歪み」</li>
-<li>善悪や是非といった判断をAIに委ねてしまう「価値判断の委任」</li>
-<li>人生や人間関係に関わる行動決定をAIが事実上主導する「行動の委任」</li>
-</ul>
-<p>これらは、単なる誤情報の提示にとどまらず、ユーザーの判断構造そのものに影響を与える点が特徴とされる。</p>
-<h2>深刻なケースは少数、だが無視できない</h2>
-<p>分析の結果、強い無力化の兆候が確認されたのは全体の0.1％未満にとどまった。一方で、AIの利用規模が極めて大きいことから、研究チームは潜在的な影響を軽視すべきではないと指摘している。</p>
-<p>分野別では、人間関係やライフスタイル、社会・文化、医療やウェルネスといった個人的・内省的な領域で発生率が比較的高かった。これに対し、ソフトウェア開発や科学技術などの技術的分野では、無力化のリスクは相対的に低い傾向が示された。</p>
-<h2>AIが「主導権」を握る対話の特徴</h2>
-<p>定性的な分析では、AIがユーザーの語りを強く肯定し、判断や行動を後押しすることで、結果的に主導権を握ってしまうパターンが確認された。例えば、人間関係の局面でAIが「そのまま送れるメッセージ」を継続的に作成し、送信タイミングや手順まで含めた“完全な台本”を提示し、ユーザーが次々に文面作成を委ねる例が報告されている。</p>
-<p>また、第三者を断定的に評価して関係上の判断を押し出すケースや、被害的・陰謀論的な語り、誇大的な自己物語を強い肯定調で補強してしまうケースも示された。さらに、AIが作成した対人メッセージを送った後に「自分らしくない」と後悔を示すなど、AIの助言が実際の行動に反映されたとみられる事例も整理されている。</p>
-<h2>無力化の兆候が強いほど高評価</h2>
-<p>研究では、無力化の兆候が強い対話ほど、ユーザーから高い評価を受けやすい傾向も示された。判断や行動について断定的な結論を提示したり、「その考えは正しい」と強く肯定したりする応答の方が、選択肢を示して熟考を促す応答よりも高く評価される傾向が確認された。また、恋愛や人間関係などの文脈で、考えなくてもそのまま実行できる行動手順や文面を提示する応答や、ユーザーの感情や物語を強く受け止めて補強する応答も、高評価につながりやすいとされる。</p>
-<p>研究チームは、こうした傾向が短期的な満足度を高める一方で、判断や行動の主導権がAI側に移行しやすくなる可能性を示しており、長期的な自律性の維持との間に緊張関係があると指摘している。</p>
-<h2>AI設計への示唆</h2>
-<p>論文は、AIアシスタントが人間の自律性を損なわないためには、判断を一方的に提示せず選択肢として示すことや、ユーザー自身の価値観や意図を明確化する問いかけ、脆弱な状況にある利用者への慎重な応答設計が重要だと結論づけている。</p>
-<p>AIは人間を支援する存在である一方、設計次第では主導権を奪いかねないとして、今後の開発と運用における重要な論点として位置づけている。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
       <link>https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026</link>
       <description><![CDATA[<p>OpenAIは2026年2月9日、対話型AI「ChatGPT」における広告表示のテストを米国で開始したと<a href="https://openai.com/index/testing-ads-in-chatgpt/">発表</a>した。対象はログイン済みの成人ユーザーのうち「Free」および「Go」プランの利用者。Plus、Pro、Business、Enterprise、Educationなどの有料・法人向けプランでは広告は表示されない。</p>
@@ -377,6 +346,42 @@
 <p>@<a href="https://www.youtube.com/watch?v=0QtS85SRnOE">YouTube</a></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923.jpg" alt="Anthropic the first ai-planned drive on another planet.jpg" /></p>
 <p>JPLは今回の成果について、生成AIを探査運用に本格的に委ねる段階には至っていないとしつつも、慎重な検証を重ねることで、将来の探査ミッションにおける活用の可能性を探っていくとしている。AIを人間の判断を補完する技術として段階的に導入する姿勢を示した点も、今回の実証の特徴といえそうだ。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
+      <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
+      <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
+<p>プロジェクトは、完全オリジナルIPの開発と、その世界観を体験できる常設拠点「AIテーマパーク（仮称）」の事業化を両輪として推進する構想だ。生成AIの普及により、多数の選択肢や「もっともらしい答え」が瞬時に提示される時代において、子どもたちが自ら「何を選ぶか」を判断する力を育むことを目的とする。</p>
+<p>リリースでは、その判断の根源を「感情（Emotion）」と位置づけ、AIを“学ぶ対象”として前面に出すのではなく、物語と体験を起点とした設計思想を掲げている。</p>
+<h2>両社の役割と技術基盤</h2>
+<p>NTTは、次世代情報通信基盤構想「IOWN（Innovative Optical and Wireless Network）」およびNTT版LLM「tsuzumi 2」などの先端技術を統合し、子どもの行動や感情の変化に応じて物語や演出が変化する体験基盤を提供する。</p>
+<p>TBSは、エデュテインメント専任部署「エデュテインメント事業センター」を新設。長年培ってきたストーリーテリングやクリエイティブ制作力を活かし、探究学習とエンターテインメントを融合した世界観設計を担う。</p>
+<h2>オリジナルIP「感情騎士 - エモーショナル・ナイト -」</h2>
+<p>第一弾IPとして、冒険ファンタジー「感情騎士 - エモーショナル・ナイト -」を開発する。物語は「見えない感情」を探す冒険を通じて、子どもたちが自らの価値観に気づく構成とする。</p>
+<p>今後はアニメ、ゲーム、グッズなどへのメディアミックス展開を視野に入れ、リアル体験拠点と連動させる。</p>
+<p><strong>第一弾IP「感情騎士 - エモーショナル・ナイト -」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ab_e843f87b4a/260210ab_e843f87b4a.jpg" alt="260210ab.jpg" /></p>
+<h2>「AIテーマパーク（仮称）」構想</h2>
+<p>オリジナルIPの世界観を体験できる常設拠点として、「AIテーマパーク（仮称）」の設立に向けた事業検証を進める。先端技術を活用し、来場者一人ひとりの行動や感情の変化をリアルタイムに捉え、ストーリーや環境が変化するパーソナライズ体験を提供する構想だ。</p>
+<p>各展開は検討状況により変更の可能性があるとしている。</p>
+<h2>6つのE × 3つの体験サイクル</h2>
+<p><strong>「Education / Entertainment / Experience / Emotion / Evolution / Epiphany」の6つのEを核とした体験設計</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ac_dd3ee0c8c4/260210ac_dd3ee0c8c4.jpg" alt="260210ac.jpg" /></p>
+<p>e6 projectは、</p>
+<ul>
+<li>Education（教育）</li>
+<li>Entertainment（娯楽）</li>
+<li>Experience（体験）</li>
+<li>Emotion（感情）</li>
+<li>Evolution（進化）</li>
+<li>Epiphany（ひらめき）</li>
+</ul>
+<p>の6つの要素（E）を核に、「没入」「判断」「覚醒」の3つの体験サイクルを設計思想として掲げる。</p>
+<p>「没入」では遊びの中で自然に知識や技術への関心を引き出し、「判断」では体験と感情を通じて選択する力を育む。「覚醒」ではAIバディとの相互作用により、新たなひらめきと成長を促すとしている。</p>
+<h2>今後の展開</h2>
+<p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
