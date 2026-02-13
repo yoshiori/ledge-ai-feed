@@ -5,6 +5,17 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>報ステ「選挙ステーション2026」で高速ロボットアーム「BOLT」導入　人間不可能な超高速カメラワークを披露</title>
+      <link>https://ledge.ai/articles/tv_asahi_election_station_2026_bolt_robot_arm_camera</link>
+      <description><![CDATA[<p>テレビ朝日は2026年2月8日、選挙特別番組『選挙ステーション2026』において、高速ロボットアームカメラ「<a href="https://x.com/hst_tvasahi/status/2020492521940406385">BOLT（ボルト）</a>」を導入した。</p>
+<p>番組内でキャスターは、生放送のスタジオ撮影で活用されるのは同局として初の試みであると説明したという。番組公式Xの投稿では、「人間が操作するカメラでは不可能なスピードと動きで撮影を行っている」としている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
+<p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
+<p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
+]]></description>
+      <pubDate>Thu, 12 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>データセンターにIOWN APNを実装──石狩と大手町を低遅延接続、東急不動産が生成AI・GPU向け基盤を構築</title>
       <link>https://ledge.ai/articles/data_center_iown_ishikari_otemachi</link>
       <description><![CDATA[<p>東急不動産は2026年2月6日、北海道石狩市で建設を進めている「石狩再エネデータセンター第1号」において、NTT東日本が提供する次世代通信基盤「IOWN（Innovative Optical and Wireless Network）」のAll-Photonics Network（APN）を導入すると<a href="https://www.tokyu-land.co.jp/news/2026/001648.html">発表</a>した。石狩市と東京・大手町の間をIOWNで接続するのは初めてで、2026年8月の導入を予定している。データセンターは再生可能エネルギー100％で運用され、2026年3月に竣工する見込みだ。</p>
@@ -26,6 +37,21 @@
 <p>日本では、<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260206_01/?sbpr=info">ソフトバンク</a>とSB OpenAI JapanがFrontierを活用した法人向けAIソリューションの検証を開始した。ソフトバンクは、OpenAIのFDEが顧客企業と並走し、設計から構築、運用までを支援する体制を整えるとしており、日本企業への展開を視野に入れた取り組みとなる。</p>
 ]]></description>
       <pubDate>Mon, 09 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon、Alexaの基盤をLLMに刷新──生成AI版「Alexa+」を米国で正式提供開始──Primeは追加料金なし、非会員は月額19.99ドル</title>
+      <link>https://ledge.ai/articles/amazon_alexa_llm_refresh_alexa_plus_us_launch</link>
+      <description><![CDATA[<p>Amazonは米国時間2026年2月4日、音声アシスタントAlexaの基盤を大規模言語モデル（LLM）に刷新した生成AI版「Alexa+」を、米国で正式に提供開始したと<a href="https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us">発表</a>した。Alexa+はこれまでEarly Access（早期提供）として一部ユーザー向けに展開されてきたが、今回の発表により米国全体での正式提供へと移行した。</p>
+<h2>Alexaの基盤をLLMに刷新──従来アーキテクチャからの転換</h2>
+<p>Alexa+は、従来のAlexaとは異なる新しいアーキテクチャを採用している。Amazonによると、Alexa+は同社のLLM「Amazon Nova」と、Anthropicのモデルを組み合わせた構成となっており、生成AIを前提とした対話体験を実現する。ルールや定型スキルを中心としていた従来型のAlexaに比べ、文脈を保持した自然な会話や、より複雑な質問・依頼への対応が可能になったという。</p>
+<h2>Early Accessから全米提供へ──生成AI版Alexaを正式アンロック</h2>
+<p>Amazonは、Alexa+を従来のAlexaの単なる拡張ではなく、完全に新しい次世代アシスタントとして位置づけている。2025年に開始したEarly Accessプログラムでは、数百万人規模で利用希望が寄せられ、最終的に数千万人が参加したとしており、その過程で得られたユーザーからのフィードバックを基に機能改善を進めてきたと説明している。</p>
+<p>提供形態も拡張されている。Alexa+はAlexa対応デバイスに加え、AlexaアプリやWeb版のAlexa.comからも利用できる。音声操作に限定されないマルチインタフェース型のAIアシスタントとして、外出先でのチャット利用や、Web上での調査や計画といった用途にも対応する。</p>
+<h2>料金体系──Prime特典としての位置づけを明確化</h2>
+<p>Prime会員は追加料金なしで、世帯内のAlexa対応デバイス、Alexa.com、Alexaアプリを通じてAlexa+を無制限に利用できる。一方、Prime非会員向けには、Alexa.comおよびAlexaアプリ上で利用できる制限付きの無料チャット体験を提供するほか、月額19.99ドルでフル機能を利用できるサブスクリプションも用意した。</p>
+<p>今回の全米での正式提供開始により、Alexaは生成AIを前提としたLLMベースのアシスタントへと再定義された形となる。AmazonはAlexa+を通じて、家庭内アシスタントの中核を担うAI基盤を刷新し、日常利用を想定した本格運用フェーズへ移行させた。</p>
+]]></description>
+      <pubDate>Sun, 08 Feb 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>悪意あるAIエージェントの「群れ」が世論を形作る──民主主義を揺るがす新たな情報操作、国際研究チームがScienceで警告</title>
@@ -124,23 +150,6 @@
       <pubDate>Thu, 05 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ギネス認定の人型ロボット「Pepper」、AI接客で進化──ソフトバンクロボティクスが新モデル「Pepper+」提供開始</title>
-      <link>https://ledge.ai/articles/softbank_robotics_pepper_plus_guinness</link>
-      <description><![CDATA[<p>ロボット開発を手掛ける ソフトバンクロボティクスは2026年2月2日、人型ロボット「Pepper」が「世界初の量産型ヒューマノイド」としてギネス世界記録に認定されたと<a href="https://www.softbankrobotics.com/jp/news/press/20260202a/">発表</a>した。あわせて、AIによる接客機能などを強化した新モデル「Pepper+（ペッパープラス）」の提供を同日から開始した。</p>
-<h2>AI接客を軸に刷新した新モデル「Pepper+」</h2>
-<p>Pepper+は、同社が2014年に発表した人型ロボット「Pepper」の後継モデルにあたる。新モデルでは、生成AIを活用した対話機能をはじめとするAIエージェント機能を搭載し、来訪者との自然な会話や状況に応じた案内・接客を可能にした。</p>
-<p>胸部に搭載するタブレットも刷新し、アプリケーション開発や機能拡張の柔軟性を高めている。人物認識や映像解析といった機能と組み合わせることで、小売店や商業施設、イベント会場などでの業務利用を想定した設計とした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pepper_b7bef26d34/pepper_b7bef26d34.jpg" alt="pepper +.jpg" /></p>
-<h2>業務利用を前提にした提供形態</h2>
-<p>Pepper+は、業務用途での利用を前提とした形で提供される。ソフトバンクロボティクスは、AI接客エージェントを中心に、案内業務やエンターテインメント用途など複数のソリューションを用意しており、既存のPepper向けサービスとの統合や移行も進めるとしている。</p>
-<h2>「世界初の量産型ヒューマノイド」──ギネス認定の対象は初代Pepper</h2>
-<p>今回発表されたギネス世界記録は、Pepper+そのものではなく、2014年に誕生した初代Pepperに対するものだ。ギネス世界記録では、Pepperを「世界初の量産型ヒューマノイド（サービスロボット）」として認定している。</p>
-<p>初代Pepperは、研究用途にとどまらず、商用・量産モデルとして実際の現場に導入された点が評価対象となった。今回の発表は、その実績を改めて公式に位置づけるものとなる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=JgHKqOec_Mk">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 05 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
       <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
       <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
@@ -183,38 +192,6 @@
 計器の読み取り、画像化された表データの解析、数量確認など、正確性が求められる場面での活用を想定しているという。</p>
 ]]></description>
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“プロンプトで歩ける世界”が現実に──Google、世界生成AIの実験プロトタイプ「Project Genie」米国提供　Google DeepMindの世界モデル「Genie 3」を搭載</title>
-      <link>https://ledge.ai/articles/google_project_genie_interactive_virtual_world_us_release</link>
-      <description><![CDATA[<p>Googleは2026年1月29日（現地時間）、テキストや画像から対話型の仮想世界を生成・探索できる実験的なプロトタイプ「Project Genie」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/">公開</a>した。まずは米国の「Google AI Ultra」ユーザーを対象に提供する。</p>
-<h2>テキストや画像から対話型の仮想世界を生成</h2>
-<p>Project Genieは、ユーザーが自然言語の指示や画像を入力すると、AIが仮想空間を生成し、その中を移動・操作しながら探索できる点が特徴だ。生成された世界は静的な3Dモデルではなく、視点移動や操作に応じて周囲の環境がリアルタイムに構築される。</p>
-<p>同プロトタイプでは、体験は三つの中核機能で構成されている。テキストや生成・アップロードした画像を用いて環境を作成する「World sketching」、生成された世界の中を歩行や飛行、乗り物での移動などを通じて体験する「World exploration」、既存の世界を基に新たな解釈を加える「World remixing」だ。
-作成前には世界の見た目をプレビューし、視点を一人称・三人称から選択することもできる。</p>
-<p>@<a href="https://youtu.be/YxkGdX4WIBE">YouTube</a></p>
-<h2>世界モデル「Genie 3」を中核に据えた構成</h2>
-<p>技術面では、Google DeepMindが開発した世界モデル「Genie 3」を中核に据える。ユーザーの行動に応じて進行方向の環境を生成する仕組みを採用し、物理挙動や相互作用を含む動的な世界をシミュレーションする。プロトタイプはGenie 3に加え、画像生成モデル「Nano Banana Pro」や対話型AI「Gemini」を組み合わせたWebアプリとして提供されている。</p>
-<h2>米国のGoogle AI Ultraユーザー向けに限定提供</h2>
-<p>Project GenieはGoogle Labsにおける実験的研究プロトタイプとして提供される。現時点では米国在住の18歳以上で、「Google AI Ultra」に加入しているユーザーに限定されている。生成した世界や探索の様子は動画としてダウンロードすることも可能だ。</p>
-<p>Googleは、現段階では生成結果が必ずしも現実世界の物理や入力内容に完全に一致しない場合があるほか、操作時の遅延や生成時間が最大60秒に制限されている点など、いくつかの制約があるとしている。一部のGenie 3の機能も本プロトタイプには含まれていない。今後はユーザーからのフィードバックを基に改良を進め、提供地域を段階的に拡大していく方針だ。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon、Alexaの基盤をLLMに刷新──生成AI版「Alexa+」を米国で正式提供開始──Primeは追加料金なし、非会員は月額19.99ドル</title>
-      <link>https://ledge.ai/articles/amazon_alexa_llm_refresh_alexa_plus_us_launch</link>
-      <description><![CDATA[<p>Amazonは米国時間2026年2月4日、音声アシスタントAlexaの基盤を大規模言語モデル（LLM）に刷新した生成AI版「Alexa+」を、米国で正式に提供開始したと<a href="https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us">発表</a>した。Alexa+はこれまでEarly Access（早期提供）として一部ユーザー向けに展開されてきたが、今回の発表により米国全体での正式提供へと移行した。</p>
-<h2>Alexaの基盤をLLMに刷新──従来アーキテクチャからの転換</h2>
-<p>Alexa+は、従来のAlexaとは異なる新しいアーキテクチャを採用している。Amazonによると、Alexa+は同社のLLM「Amazon Nova」と、Anthropicのモデルを組み合わせた構成となっており、生成AIを前提とした対話体験を実現する。ルールや定型スキルを中心としていた従来型のAlexaに比べ、文脈を保持した自然な会話や、より複雑な質問・依頼への対応が可能になったという。</p>
-<h2>Early Accessから全米提供へ──生成AI版Alexaを正式アンロック</h2>
-<p>Amazonは、Alexa+を従来のAlexaの単なる拡張ではなく、完全に新しい次世代アシスタントとして位置づけている。2025年に開始したEarly Accessプログラムでは、数百万人規模で利用希望が寄せられ、最終的に数千万人が参加したとしており、その過程で得られたユーザーからのフィードバックを基に機能改善を進めてきたと説明している。</p>
-<p>提供形態も拡張されている。Alexa+はAlexa対応デバイスに加え、AlexaアプリやWeb版のAlexa.comからも利用できる。音声操作に限定されないマルチインタフェース型のAIアシスタントとして、外出先でのチャット利用や、Web上での調査や計画といった用途にも対応する。</p>
-<h2>料金体系──Prime特典としての位置づけを明確化</h2>
-<p>Prime会員は追加料金なしで、世帯内のAlexa対応デバイス、Alexa.com、Alexaアプリを通じてAlexa+を無制限に利用できる。一方、Prime非会員向けには、Alexa.comおよびAlexaアプリ上で利用できる制限付きの無料チャット体験を提供するほか、月額19.99ドルでフル機能を利用できるサブスクリプションも用意した。</p>
-<p>今回の全米での正式提供開始により、Alexaは生成AIを前提としたLLMベースのアシスタントへと再定義された形となる。AmazonはAlexa+を通じて、家庭内アシスタントの中核を担うAI基盤を刷新し、日常利用を想定した本格運用フェーズへ移行させた。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
@@ -525,17 +502,6 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p>Reutersなどの報道によると、今回の計画は、日本政府要人との面会の場でTSMC側が伝えたもので、AI向け半導体需要の拡大を背景に、最先端プロセスを日本に展開する動きとして受け止められている。</p>
 <p>熊本ではすでにTSMCの第1工場が稼働しており、関連企業の進出が進むなど、半導体産業の集積が進展している。第2工場が3nmプロセスを担うことになれば、日本国内での先端ロジック半導体生産の体制に変化が生じることになる。</p>
 <p>今後は、3nm生産の開始時期や量産規模、投資額の具体像、日本政府による支援の枠組みなどが焦点となる。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>報ステ「選挙ステーション2026」で高速ロボットアーム「BOLT」導入　人間不可能な超高速カメラワークを披露</title>
-      <link>https://ledge.ai/articles/tv_asahi_election_station_2026_bolt_robot_arm_camera</link>
-      <description><![CDATA[<p>テレビ朝日は2026年2月8日、選挙特別番組『選挙ステーション2026』において、高速ロボットアームカメラ「<a href="https://x.com/hst_tvasahi/status/2020492521940406385">BOLT（ボルト）</a>」を導入した。</p>
-<p>番組内でキャスターは、生放送のスタジオ撮影で活用されるのは同局として初の試みであると説明したという。番組公式Xの投稿では、「人間が操作するカメラでは不可能なスピードと動きで撮影を行っている」としている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
-<p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
-<p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
