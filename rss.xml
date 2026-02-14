@@ -364,20 +364,6 @@
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NASA とAnthropic、Claudeで火星探査車の走行ルートを生成──パーサヴィアランスがAI計画で合計456メートル走行</title>
-      <link>https://ledge.ai/articles/nasa_jpl_anthropic_claude_mars_rover_route_planning</link>
-      <description><![CDATA[<p>NASAのジェット推進研究所（JPL）は2026年1月30日、生成AIを活用して火星探査車パーサヴィアランスの移動経路を作成する実証実験を行ったと<a href="https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/">発表</a>した。この実験には米AI企業のAnthropicが協力し、同社の生成AI「Claude」が走行ルートの作成に用いられた。JPLによると、パーサヴィアランスはAIが計画したルートに沿って、2025年12月に2回走行し、合計456メートルを移動した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=LO2GluKu4C8">YouTube</a></p>
-<p>今回の実証では、NASA Jet Propulsion Laboratoryが保有する軌道画像や地形データをもとに、視覚情報を扱える生成AIが走行に必要なウェイポイント（経由点）を生成した。通常、火星探査車の走行ルートは、人間のルートプランナーが地形の傾斜や岩の分布などを精査し、安全性を確認しながら設計する。今回の実験では、その計画工程の一部をAIが担い、実際の走行計画として使用された点が特徴とされている。</p>
-<p>火星探査では、地球と火星の間に数分から十数分の通信遅延が生じるため、探査車をリアルタイムで操作することはできない。このため従来は、比較的短い距離ごとに走行計画を立て、段階的に進める運用が行われてきた。JPLは、生成AIを補助的に活用することで、ルート計画にかかる時間や作業負担を軽減し、将来的にはより長距離かつ効率的な探査につなげる狙いがあるとしている。</p>
-<p>この実証実験に協力したAnthropicは、同社の生成AI「Claude」を通じて、視覚データをもとに走行ルート案を作成する役割を担った。JPLによる安全確認や最終判断は引き続き人間が行っており、AIはあくまで補助的な位置づけとされている。とはいえ、生成AIが実際の宇宙探査ミッションにおける計画業務に組み込まれ、実機の走行につながった事例は限られており、今回の取り組みは公共・研究分野における生成AI活用の一例としても注目される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=0QtS85SRnOE">YouTube</a></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923/Anthropic_the_first_ai_planned_drive_on_another_planet_daa436f923.jpg" alt="Anthropic the first ai-planned drive on another planet.jpg" /></p>
-<p>JPLは今回の成果について、生成AIを探査運用に本格的に委ねる段階には至っていないとしつつも、慎重な検証を重ねることで、将来の探査ミッションにおける活用の可能性を探っていくとしている。AIを人間の判断を補完する技術として段階的に導入する姿勢を示した点も、今回の実証の特徴といえそうだ。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
       <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
       <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
@@ -515,6 +501,28 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p>創業者は今回の資金調達にあたり、「日本から、世界で一番愛されるAIキャラクター、そして日常に寄り添い支えとなるAIコンパニオンを全力で作っていく」との方針を示している。</p>
 <p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
 <p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
+      <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
+      <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introduce_simile_b002315008/introduce_simile_b002315008.jpg" alt="introduce simile.jpg" /></p>
+<p>あわせて、同社はSeries Aラウンドで1億ドル（約150億円）を調達したことを明らかにした。リード投資家はIndex Venturesが務め、Hanabi、A*、Bain Capital Ventures（BCV）らが参加した。また、個人投資家としてAndrej Karpathy氏、Fei-Fei Li氏、Adam D’Angelo氏、Guillermo Rauch氏、Scott Belsky氏らも出資者に名を連ねている。</p>
+<h2>実在人間に基づくエージェントで社会を再現</h2>
+<p><a href="https://simile.ai/blog/the-simulation-company">Simile</a>は、人間の行動や意思決定を再現する基盤モデルの開発を専門とする企業である。CEOのJoon Sung Park氏は、かつてスタンフォード大学で「生成エージェント（generative agents）」の研究を主導した経歴を持つ。</p>
+<p>同社のシミュレーション基盤は、実在の人間をモデル化したエージェントを多数配置し、それらの相互作用を通じて社会全体の動向を再現する仕組みである。現在は、あらゆる状況や規模において人間行動を予測可能な基盤モデルの開発に注力している。</p>
+<h2>意思決定の「フライトシミュレーター」</h2>
+<p>すでに企業向けの実装も始まっており、Simileは自社プラットフォームを**「重要な意思決定のためのフライトシミュレーター」**と定義している。用途として挙げられているのは以下の例だ。</p>
+<ul>
+<li><strong>IR・経営戦略</strong>： 決算説明会（earnings calls）における投資家の反応予測</li>
+<li><strong>法務・訴訟</strong>： 訴訟結果のモデリングとシミュレーション</li>
+<li><strong>公共政策</strong>： 政策変更が社会に及ぼす影響のテスト</li>
+</ul>
+<h2>開発の加速と世界規模への拡張</h2>
+<p>今回調達した1億ドルは、社会シミュレーション基盤の開発を加速するための資金として充てられる。</p>
+<p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
