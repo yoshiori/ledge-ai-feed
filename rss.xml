@@ -359,22 +359,6 @@
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、「Publisher Content Marketplace」始動──AIの “自由なコンテンツ利用” を転換、出版社が条件提示し対価を得る</title>
-      <link>https://ledge.ai/articles/microsoft_publisher_content_marketplace_pcm_launch</link>
-      <description><![CDATA[<p>Microsoftは2026年2月3日（現地時間）、コンテンツクリエイターやパブリッシャーが自社コンテンツの利用条件を定義し、AI企業に対してライセンスを提供できる仕組み「Publisher Content Marketplace（PCM）」を立ち上げたと<a href="https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web">発表</a>{target=”_blank”}した。AIによるコンテンツ利用が広がる中で、出版社が望む形で条件を設定し、その対価を得られる市場の構築を目指す。</p>
-<h2>検索から会話へ、回答品質を左右する「根拠コンテンツ」</h2>
-<p>Microsoftによると、生成AIは検索結果の提示にとどまらず、会話形式で直接「答え」を返す存在へと変化している。こうした変化に伴い、回答の品質や信頼性を左右する要因は、どのコンテンツを根拠（grounding）として参照できるかに移りつつあるという。従来のように、出版社が記事を公開し、検索エンジンがトラフィックを送るという暗黙の関係は、AIが回答を完結させる世界では成立しにくくなるとの認識を示した。</p>
-<h2>PCMの仕組み：出版社が条件を決め、利用価値に応じて支払う</h2>
-<p>PCMでは、出版社があらかじめコンテンツのライセンス条件や利用範囲を設定し、AI開発者は用途やシナリオに応じてコンテンツを発見・契約する。支払いは「提供された価値（delivered value）」に基づいて行われるとし、どのコンテンツがどのように利用されたかを可視化する利用実績レポート（usage-based reporting）も提供する。Microsoftは、これにより出版社とAI開発者の間に、透明なフィードバックループを構築すると説明している。</p>
-<p>参加は任意で、出版社はコンテンツの所有権や編集上の独立性を常に保持すると明記された。個別の一対一契約を積み重ねる従来の方式ではなく、市場型の仕組みによって規模拡大を可能にする点が特徴だとしている。対象は大手メディアに限らず、独立系パブリッシャーも含む。</p>
-<h2>主要出版社と共同設計、Copilotでの検証も進行</h2>
-<p>Microsoftは、PCMの構想にあたり、米国の主要出版社と数カ月にわたり共同設計（co-design）を進めてきたという。Associated PressやBusiness Insider、Condé Nast、Hearst Magazines、People、USA TODAY、Vox Mediaなどが協力しており、すでにMicrosoft Copilot（企業向け・消費者向け）において、ライセンス済みコンテンツを用いた回答の根拠付けを検証してきたとしている。需要側パートナーとしては、Yahooのオンボーディングも始まっている。</p>
-<p>パブリッシャー側の動きも明らかになっている。Business Insiderは、PCMが「事業として始動した」とし、自社が創設パートナー（founding partner）として参加することを<a href="https://www.businessinsider.com/business-insider-is-powering-the-ai-ecosystem-2026-2">公表</a>{target=”_blank”}した。自社のジャーナリズムがAIエコシステムを支える基盤になると位置づけている。</p>
-<p>Microsoftは、現段階のPCMをパイロットフェーズと位置づけ、価値観を共有する出版社やAI開発者とともに、今後段階的に拡大していく方針を示している。生成AI時代におけるコンテンツ利用と報酬のあり方をめぐり、新たな枠組みとしての定着が注目される。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
       <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
       <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
@@ -445,6 +429,50 @@
 <h2>8億人規模の利用基盤</h2>
 <p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
 <p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
+]]></description>
+      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
+      <link>https://ledge.ai/articles/paperbanana_academic_illustration_ai_scientists</link>
+      <description><![CDATA[<p>北京大学とGoogle Cloud AI Researchに所属する研究者らは、学術論文向けの図表や手法図を自動生成するフレームワーク「PaperBanana」を提案した。論文はarXivに公開されている。<a href="https://dwzhu-pku.github.io/PaperBanana/">発表</a>した。研究は、AI研究者が論文執筆時に作成する手法図や統計プロットなどのイラストを自動化することを目的とする。</p>
+<h2>学術図作成の課題</h2>
+<p>論文では、学術図の作成が依然として手作業中心である点を課題として挙げている。</p>
+<ul>
+<li>手法図やパイプライン図は研究理解に不可欠</li>
+<li>作図には時間と専門的デザインスキルを要する</li>
+<li>既存の画像生成モデルは構造的整合性や論理忠実性の担保が難しい</li>
+</ul>
+<p>研究チームは、単なる画像生成ではなく、論文向け図としての構造整合性と内容忠実性を担保する仕組みの構築を目指した。</p>
+<h2>PaperBananaの構成</h2>
+<p>PaperBananaは、複数モジュールからなるフレームワークとして設計されている。処理は大きく2段階に分かれる。</p>
+<h3>■ Linear Planning Phase</h3>
+<ul>
+<li>Retriever Agent：参考図の取得</li>
+<li>Planner Agent：構造設計</li>
+<li>Stylist Agent：視覚スタイルの調整</li>
+<li>Initial Descriptionの生成</li>
+</ul>
+<h3>■ Iterative Refinement Loop</h3>
+<ul>
+<li>Visualizer Agent：図の生成</li>
+<li>Critic Agent：生成結果の評価</li>
+<li>記述の修正と再生成</li>
+</ul>
+<p><strong>【論文より：PaperBananaの全体フレームワーク】Linear Planning PhaseとIterative Refinement Loopの2段構成で、複数モジュールが反復的に図を生成・改善する。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/method_diagram_744b875ea1/method_diagram_744b875ea1.jpg" alt="method_diagram.jpg" /></p>
+<p>論文では、この反復ループをT=3回実行する構成が示されている。一度生成して終わりではなく、自己批評を通じて改善を重ねる点が特徴だとしている。</p>
+<h2>評価ベンチ「PaperBananaBench」</h2>
+<p>研究チームは評価用データセット「PaperBananaBench」も構築した。</p>
+<ul>
+<li>NeurIPS 2025採択論文から抽出</li>
+<li>手法図生成タスク292件</li>
+<li>評価指標：Faithfulness（内容忠実性）/Clarity（明瞭性）/Conciseness（簡潔性）/Aesthetics（美観）</li>
+</ul>
+<p>論文では、既存のベースライン手法と比較し、これらの指標で優位性を示したと報告している。</p>
+<h2>研究の位置づけと拡張可能性</h2>
+<p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
+<p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
 ]]></description>
       <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
     </item>
