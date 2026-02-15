@@ -5,6 +5,28 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
+      <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
+      <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introduce_simile_b002315008/introduce_simile_b002315008.jpg" alt="introduce simile.jpg" /></p>
+<p>あわせて、同社はSeries Aラウンドで1億ドル（約150億円）を調達したことを明らかにした。リード投資家はIndex Venturesが務め、Hanabi、A*、Bain Capital Ventures（BCV）らが参加した。また、個人投資家としてAndrej Karpathy氏、Fei-Fei Li氏、Adam D’Angelo氏、Guillermo Rauch氏、Scott Belsky氏らも出資者に名を連ねている。</p>
+<h2>実在人間に基づくエージェントで社会を再現</h2>
+<p><a href="https://simile.ai/blog/the-simulation-company">Simile</a>は、人間の行動や意思決定を再現する基盤モデルの開発を専門とする企業である。CEOのJoon Sung Park氏は、かつてスタンフォード大学で「生成エージェント（generative agents）」の研究を主導した経歴を持つ。</p>
+<p>同社のシミュレーション基盤は、実在の人間をモデル化したエージェントを多数配置し、それらの相互作用を通じて社会全体の動向を再現する仕組みである。現在は、あらゆる状況や規模において人間行動を予測可能な基盤モデルの開発に注力している。</p>
+<h2>意思決定の「フライトシミュレーター」</h2>
+<p>すでに企業向けの実装も始まっており、Simileは自社プラットフォームを**「重要な意思決定のためのフライトシミュレーター」**と定義している。用途として挙げられているのは以下の例だ。</p>
+<ul>
+<li><strong>IR・経営戦略</strong>： 決算説明会（earnings calls）における投資家の反応予測</li>
+<li><strong>法務・訴訟</strong>： 訴訟結果のモデリングとシミュレーション</li>
+<li><strong>公共政策</strong>： 政策変更が社会に及ぼす影響のテスト</li>
+</ul>
+<h2>開発の加速と世界規模への拡張</h2>
+<p>今回調達した1億ドルは、社会シミュレーション基盤の開発を加速するための資金として充てられる。</p>
+<p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
+]]></description>
+      <pubDate>Sat, 14 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「見えないAI労働」の代償──インド農村部の女性が暴力・性的虐待コンテンツを大量視聴しAIを訓練する“コンテンツモデレーション”の実態、英紙Guardianが報道</title>
       <link>https://ledge.ai/articles/invisible_ai_labor_india_content_moderation_guardian_report</link>
       <description><![CDATA[<p>英国紙<a href="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai">The Guardian</a>は2026年2月5日、インドの農村部に住む女性労働者が、暴力や性的虐待を含むコンテンツを日常的に視聴・分類することで、グローバルテック企業のAIシステムの訓練を支えている実態を報じた。記事は、現地での取材と当事者の証言をもとに、コンテンツモデレーション業務の具体像と心理的影響、支援体制の現状を伝えている。</p>
@@ -94,19 +116,16 @@
       <pubDate>Mon, 09 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon、Alexaの基盤をLLMに刷新──生成AI版「Alexa+」を米国で正式提供開始──Primeは追加料金なし、非会員は月額19.99ドル</title>
-      <link>https://ledge.ai/articles/amazon_alexa_llm_refresh_alexa_plus_us_launch</link>
-      <description><![CDATA[<p>Amazonは米国時間2026年2月4日、音声アシスタントAlexaの基盤を大規模言語モデル（LLM）に刷新した生成AI版「Alexa+」を、米国で正式に提供開始したと<a href="https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us">発表</a>した。Alexa+はこれまでEarly Access（早期提供）として一部ユーザー向けに展開されてきたが、今回の発表により米国全体での正式提供へと移行した。</p>
-<h2>Alexaの基盤をLLMに刷新──従来アーキテクチャからの転換</h2>
-<p>Alexa+は、従来のAlexaとは異なる新しいアーキテクチャを採用している。Amazonによると、Alexa+は同社のLLM「Amazon Nova」と、Anthropicのモデルを組み合わせた構成となっており、生成AIを前提とした対話体験を実現する。ルールや定型スキルを中心としていた従来型のAlexaに比べ、文脈を保持した自然な会話や、より複雑な質問・依頼への対応が可能になったという。</p>
-<h2>Early Accessから全米提供へ──生成AI版Alexaを正式アンロック</h2>
-<p>Amazonは、Alexa+を従来のAlexaの単なる拡張ではなく、完全に新しい次世代アシスタントとして位置づけている。2025年に開始したEarly Accessプログラムでは、数百万人規模で利用希望が寄せられ、最終的に数千万人が参加したとしており、その過程で得られたユーザーからのフィードバックを基に機能改善を進めてきたと説明している。</p>
-<p>提供形態も拡張されている。Alexa+はAlexa対応デバイスに加え、AlexaアプリやWeb版のAlexa.comからも利用できる。音声操作に限定されないマルチインタフェース型のAIアシスタントとして、外出先でのチャット利用や、Web上での調査や計画といった用途にも対応する。</p>
-<h2>料金体系──Prime特典としての位置づけを明確化</h2>
-<p>Prime会員は追加料金なしで、世帯内のAlexa対応デバイス、Alexa.com、Alexaアプリを通じてAlexa+を無制限に利用できる。一方、Prime非会員向けには、Alexa.comおよびAlexaアプリ上で利用できる制限付きの無料チャット体験を提供するほか、月額19.99ドルでフル機能を利用できるサブスクリプションも用意した。</p>
-<p>今回の全米での正式提供開始により、Alexaは生成AIを前提としたLLMベースのアシスタントへと再定義された形となる。AmazonはAlexa+を通じて、家庭内アシスタントの中核を担うAI基盤を刷新し、日常利用を想定した本格運用フェーズへ移行させた。</p>
+      <title>TSMC熊本第2工場、AI向け3nmへ　最先端ロジック半導体を日本に</title>
+      <link>https://ledge.ai/articles/tsmc_kumamoto_second_fab_ai_3nm_shift</link>
+      <description><![CDATA[<p>半導体受託製造で世界最大手の台湾積体電路製造（TSMC）は2026年2月5日、熊本県で計画中の第2工場について、最先端の3ナノメートル（nm）ロジック半導体を生産する方向へ計画を変更したい意向を示した。<a href="https://x.com/takaichi_sanae/status/2019377402091291014">高市早苗首相</a>が自身のX（旧Twitter）で明らかにした。</p>
+<p>TSMCの会長であるC.C.ウェイ氏はこの日、官邸を訪問し熊本第2工場を3nmロジック半導体の生産拠点とする計画変更と、総投資額の増額について表明したという。3nmロジック半導体は、データセンター向けに加え、AIロボティクスや自動運転といった分野で用いられる最先端の半導体だとしている。</p>
+<p>同件について、<a href="https://x.com/meti_NIPPON/status/2019346900730933740">経済産業省</a>も、TSMC側から熊本第2工場の当初計画である12nmおよび6nmプロセスから、より先端となる3nmプロセスへ変更したい旨の説明を受けたと明らかにしている。政府としては、今後も協議を続けながら協力していく方針だ。</p>
+<p>Reutersなどの報道によると、今回の計画は、日本政府要人との面会の場でTSMC側が伝えたもので、AI向け半導体需要の拡大を背景に、最先端プロセスを日本に展開する動きとして受け止められている。</p>
+<p>熊本ではすでにTSMCの第1工場が稼働しており、関連企業の進出が進むなど、半導体産業の集積が進展している。第2工場が3nmプロセスを担うことになれば、日本国内での先端ロジック半導体生産の体制に変化が生じることになる。</p>
+<p>今後は、3nm生産の開始時期や量産規模、投資額の具体像、日本政府による支援の枠組みなどが焦点となる。</p>
 ]]></description>
-      <pubDate>Sun, 08 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Sun, 08 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
@@ -141,6 +160,94 @@
 <p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
 ]]></description>
       <pubDate>Thu, 05 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
+      <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
+<h2>無料プランで利用可能となった対象機能</h2>
+<p>無料ユーザーに開放されたのは以下の3機能</p>
+<ul>
+<li>ファイル作成・編集（コード実行）</li>
+<li>Connectors（外部ツール連携）</li>
+<li>Skills（スキル機能）</li>
+</ul>
+<p>これらは従来、有料プランを中心に提供されてきた機能である。</p>
+<h2>「ファイル作成・編集（コード実行）」の提供内容</h2>
+<p>ファイル作成機能では、Claudeがコードを実行し、スプレッドシートやプレゼンテーション資料、PDFなどのファイルを生成・編集できる。Anthropicのヘルプセンターによれば、本機能は無料を含む各プランで利用可能と記載されている。Web版のほか、Claude Desktopおよびモバイル環境でも利用できる。</p>
+<p><strong>■ Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347.webp" alt="a7cc545ecf57240d91c97a102246ef6126bdc7f8-1920x1080.webp" /></p>
+<h2>「Connectors」および「Skills」の提供範囲</h2>
+<p>Connectorsは、Claudeを外部ツールやデータソースと連携させる機能である。公式ドキュメントでは、Web connectorsは全ユーザーが利用可能とされている。一方で、カスタムコネクターの作成は有料プラン向けと明記されている。</p>
+<p>Skillsは、あらかじめ用意された機能拡張や、ユーザーが作成したスキルをClaudeに追加できる仕組みである。設定画面から有効化することで利用でき、無料プランも対象に含まれている。</p>
+<p><strong>■ Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agent_skills_7f1c1cf0d3/agent_skills_7f1c1cf0d3.jpg" alt="agent skills.jpg" /></p>
+<h2>無料プランと有料プランの機能差</h2>
+<p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
+      <link>https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026</link>
+      <description><![CDATA[<p>OpenAIは2026年2月9日、対話型AI「ChatGPT」における広告表示のテストを米国で開始したと<a href="https://openai.com/index/testing-ads-in-chatgpt/">発表</a>した。対象はログイン済みの成人ユーザーのうち「Free」および「Go」プランの利用者。Plus、Pro、Business、Enterprise、Educationなどの有料・法人向けプランでは広告は表示されない。</p>
+<p>広告は、ChatGPTの回答下部に「スポンサー」と明記される形で表示される。同社は広告の設計方針として、広告がAIの回答内容に影響を与えることは一切ないと強調している。年齢や利用状況などの情報が広告表示の判断に用いられるが、ユーザーの会話内容が広告主に共有されることはないという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_ads_test_us_free_go_2026_1b4547d6c0/chatgpt_ads_test_us_free_go_2026_1b4547d6c0.webp" alt="chatgpt_ads_test_us_free_go_2026.webp" /></p>
+<p>ユーザー向けには、特定の広告を非表示にする操作や、「なぜこの広告が表示されたのか」を確認する機能のほか、パーソナライズ広告の設定を管理する仕組みが提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12_2d9a500d99/12_2d9a500d99.webp" alt="12.webp" /></p>
+<p>OpenAIは広告導入の背景について、サービスの持続可能性を確保しつつ、より多くの人々に無料アクセスを提供し続けるための「収益モデル多様化の一環」と説明している。現在は米国内に限定されたテスト段階であり、今後の展開については状況を見ながら段階的に判断される見通しだ。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHubコミットの4％がAI生成──Claude Codeは2026年末に20％へ？SemiAnalysisが「エージェント化」の転換点と分析</title>
+      <link>https://ledge.ai/articles/claude_code_4_to_20_percent_github_growth</link>
+      <description><![CDATA[<p>2026年2月6日、半導体やAI産業の調査・分析を行うSemiAnalysisは、「Claude Code is the Inflection Point」と題したニュースレターを<a href="https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point">公開</a>した。同社は、Anthropicが提供するCLI型AIエージェントClaude Codeについて、GitHubの公開コミットの約4％が現在同ツールによって生成されていると指摘。さらに、現在の成長軌道が続けば、2026年末には20％超に達する可能性があると予測している。</p>
+<p>同社はこれを、生成AIによるコーディング支援が「補助」段階から「エージェント」段階へ移行する転換点だと位置づける。</p>
+<h2>IDE補完ではなく、ターミナル常駐型エージェント</h2>
+<p>Claude Codeは、IDEのサイドバーでコード補完を行う従来型ツールとは異なり、ターミナルネイティブのCLI（コマンドラインインターフェース）として動作する。</p>
+<p>SemiAnalysisによれば、その特徴は以下にある。</p>
+<ul>
+<li>コードベース全体を読み込む</li>
+<li>マルチステップの計画を立てる</li>
+<li>タスクを実行する</li>
+<li>検証・修正を繰り返す</li>
+</ul>
+<p>単一の関数や数行単位の補完ではなく、**READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）**の循環を自律的に回す点を重視する。同社は「Claude CodeはCodeではなくComputerに近い」と表現し、単なるコーディング支援を超えた汎用的な情報処理エージェントの実例と位置づけている。</p>
+<h2>「コール＆レスポンス」から「実行主体」へ</h2>
+<p>SemiAnalysisは、AIの価値創出が「トークンの販売」から「トークンのオーケストレーション」へ移行しつつあると分析する。</p>
+<p>従来のLLM APIは、入力に対して応答を返す“call &amp; response”型であり、短時間の処理が中心だった。一方、Claude Codeは長時間にわたりタスクを継続実行する設計を採る。モデル単体のベンチマーク性能よりも、エージェントとしての総合的な成果物が競争軸になるというのが同社の見立てだ。</p>
+<p>また、METRのデータを引用し、自律実行可能な「タスクホライゾン（継続時間）」が4〜7カ月ごとに倍増していると説明する。30分のコード補完から、数時間のモジュール改修、さらに数日単位の監査業務へと拡張可能性が広がっているとする。</p>
+<h2>開発者の役割はどう変わるのか</h2>
+<p>ニュースレターでは、複数の著名エンジニアの発言も紹介されている。</p>
+<ul>
+<li>Node.jsの開発者であるRyan Dahl氏は、「人間がコードを書く時代は終わった」と述べた。</li>
+<li>VercelのCTOであるMalte Ubl氏は、自身の「新しい主業務はAIの誤りを指摘することだ」と投稿。</li>
+<li>Ruby on Railsの開発者であるDavid Heinemeier Hansson氏は、手書きコードへのノスタルジーを語っている。</li>
+<li>Claude Code開発チームのBoris Cherny氏は、チームのコードのほぼ100％がClaude CodeとOpus 4.5によって書かれていると説明した。</li>
+</ul>
+<p>SemiAnalysisは、生成能力（generation）と識別能力（discrimination）が分離しつつあると整理する。実装を担う主体が人間からAIへ移る一方、人間の役割は設計、評価、検証へと重心が移る可能性があると示唆する。</p>
+<p>また、Anthropicが実施した実験では、AIを利用したコーディングは生産性を高める一方で、使い方によっては熟達度の低下が見られたと報告されている。エージェント活用が広がるなかで、開発者のスキル形成との関係も課題として浮上している。</p>
+<h2>コーディングは“出発点”にすぎない</h2>
+<p>SemiAnalysisは、コーディングはあくまでエージェント型AIが浸透する最初の領域にすぎないと指摘する。情報労働の多くは、READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）という共通の工程を持つ。財務分析や法務レビュー、レポート作成なども同様の構造を持ち、コーディングで成立した自律実行型ワークフローは他分野へ拡張可能だと分析する。</p>
+<p>GitHubコミットの4％という現状と、20％超という予測は、単なる開発現場の変化にとどまらない可能性を示している。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crypto.com共同創業者、消費者向け自律AIエージェント「ai.com」設立──7000万ドルでドメイン取得</title>
+      <link>https://ledge.ai/articles/crypto_com_cofounder_launches_ai_com_autonomous_agents_70m_domain</link>
+      <description><![CDATA[<p>仮想通貨取引所Crypto.comの共同創業者でCEOを務めるKris Marszalek（クリス・マルザレク氏）は2026年2月6日、消費者向け自律型AIエージェントプラットフォーム「ai.com」の設立を<a href="https://ai.com/company-news/ai-com-launch">発表</a>した。正式な提供開始は2月8日で、米国で開催されるSuper Bowl LXのCM放映に合わせてローンチする。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kris_Marszalek_x_03379f413b/Kris_Marszalek_x_03379f413b.jpg" alt="Kris Marszalek x.jpg" /></p>
+<p>ai.comは、ユーザーが数クリックで「自分専用のAIエージェント」を作成できるとするプラットフォームだ。単なるチャット型AIではなく、ユーザーの代わりに実際のタスクを実行する“自律型”である点を特徴としている。</p>
+<p>公式発表によると、エージェントは仕事の整理、メッセージ送信、アプリを横断した操作、プロジェクトの構築などを実行可能だという。株式取引、ワークフロー自動化、カレンダー連携による日次タスクの遂行、オンラインプロフィールの更新といった用途例も挙げられている。</p>
+<p>同社は差別化要因として、エージェントがタスク遂行に必要な機能が不足している場合、それを自律的に補完・構築する設計を挙げる。さらに、改善内容はネットワーク上の他のエージェントに共有され、全体として能力が向上すると説明している。</p>
+<p>エージェントは技術的知識なしに約60秒で作成でき、無料で利用開始が可能。追加機能や入力トークンの拡張などは有料サブスクリプションで提供される。各エージェントは専用の安全な環境で稼働し、データは分離・暗号化され、ユーザー固有のキーで管理されるとしている。</p>
+<p>マルザレク氏は「ai.com」ドメインを7000万ドル（約110億円）で取得した。ドメイン仲介会社<a href="https://www.prnewswire.com/news-releases/getyourdomaincom-brokers-the-70-million-sale-of-aicom-the-largest-domain-name-transaction-in-history-302682315.html">GetYourDomain.com</a>は、この取引が公表されているドメイン名売買の中で史上最高額だと発表している。従来の最高額とされていた「voice.com」（3000万ドル）を上回る規模となる。</p>
+<p>マルザレク氏はCrypto.comとai.comの両社でCEOを務める。今回の発表は、暗号資産領域を主軸としてきた同氏が、消費者向けAIエージェント分野へ本格参入する動きとなる。</p>
+<p>ai.comは「AGI（汎用人工知能）の到来を加速する」ことを掲げており、今後は金融サービスとの統合やエージェントのマーケットプレイス構築なども検討しているという。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
@@ -187,94 +294,6 @@
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
-      <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
-<h2>無料プランで利用可能となった対象機能</h2>
-<p>無料ユーザーに開放されたのは以下の3機能</p>
-<ul>
-<li>ファイル作成・編集（コード実行）</li>
-<li>Connectors（外部ツール連携）</li>
-<li>Skills（スキル機能）</li>
-</ul>
-<p>これらは従来、有料プランを中心に提供されてきた機能である。</p>
-<h2>「ファイル作成・編集（コード実行）」の提供内容</h2>
-<p>ファイル作成機能では、Claudeがコードを実行し、スプレッドシートやプレゼンテーション資料、PDFなどのファイルを生成・編集できる。Anthropicのヘルプセンターによれば、本機能は無料を含む各プランで利用可能と記載されている。Web版のほか、Claude Desktopおよびモバイル環境でも利用できる。</p>
-<p><strong>■ Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347.webp" alt="a7cc545ecf57240d91c97a102246ef6126bdc7f8-1920x1080.webp" /></p>
-<h2>「Connectors」および「Skills」の提供範囲</h2>
-<p>Connectorsは、Claudeを外部ツールやデータソースと連携させる機能である。公式ドキュメントでは、Web connectorsは全ユーザーが利用可能とされている。一方で、カスタムコネクターの作成は有料プラン向けと明記されている。</p>
-<p>Skillsは、あらかじめ用意された機能拡張や、ユーザーが作成したスキルをClaudeに追加できる仕組みである。設定画面から有効化することで利用でき、無料プランも対象に含まれている。</p>
-<p><strong>■ Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agent_skills_7f1c1cf0d3/agent_skills_7f1c1cf0d3.jpg" alt="agent skills.jpg" /></p>
-<h2>無料プランと有料プランの機能差</h2>
-<p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
-      <link>https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026</link>
-      <description><![CDATA[<p>OpenAIは2026年2月9日、対話型AI「ChatGPT」における広告表示のテストを米国で開始したと<a href="https://openai.com/index/testing-ads-in-chatgpt/">発表</a>した。対象はログイン済みの成人ユーザーのうち「Free」および「Go」プランの利用者。Plus、Pro、Business、Enterprise、Educationなどの有料・法人向けプランでは広告は表示されない。</p>
-<p>広告は、ChatGPTの回答下部に「スポンサー」と明記される形で表示される。同社は広告の設計方針として、広告がAIの回答内容に影響を与えることは一切ないと強調している。年齢や利用状況などの情報が広告表示の判断に用いられるが、ユーザーの会話内容が広告主に共有されることはないという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_ads_test_us_free_go_2026_1b4547d6c0/chatgpt_ads_test_us_free_go_2026_1b4547d6c0.webp" alt="chatgpt_ads_test_us_free_go_2026.webp" /></p>
-<p>ユーザー向けには、特定の広告を非表示にする操作や、「なぜこの広告が表示されたのか」を確認する機能のほか、パーソナライズ広告の設定を管理する仕組みが提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12_2d9a500d99/12_2d9a500d99.webp" alt="12.webp" /></p>
-<p>OpenAIは広告導入の背景について、サービスの持続可能性を確保しつつ、より多くの人々に無料アクセスを提供し続けるための「収益モデル多様化の一環」と説明している。現在は米国内に限定されたテスト段階であり、今後の展開については状況を見ながら段階的に判断される見通しだ。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHubコミットの4％がAI生成──Claude Codeは2026年末に20％へ？SemiAnalysisが「エージェント化」の転換点と分析</title>
-      <link>https://ledge.ai/articles/claude_code_4_to_20_percent_github_growth</link>
-      <description><![CDATA[<p>2026年2月6日、半導体やAI産業の調査・分析を行うSemiAnalysisは、「Claude Code is the Inflection Point」と題したニュースレターを<a href="https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point">公開</a>した。同社は、Anthropicが提供するCLI型AIエージェントClaude Codeについて、GitHubの公開コミットの約4％が現在同ツールによって生成されていると指摘。さらに、現在の成長軌道が続けば、2026年末には20％超に達する可能性があると予測している。</p>
-<p>同社はこれを、生成AIによるコーディング支援が「補助」段階から「エージェント」段階へ移行する転換点だと位置づける。</p>
-<h2>IDE補完ではなく、ターミナル常駐型エージェント</h2>
-<p>Claude Codeは、IDEのサイドバーでコード補完を行う従来型ツールとは異なり、ターミナルネイティブのCLI（コマンドラインインターフェース）として動作する。</p>
-<p>SemiAnalysisによれば、その特徴は以下にある。</p>
-<ul>
-<li>コードベース全体を読み込む</li>
-<li>マルチステップの計画を立てる</li>
-<li>タスクを実行する</li>
-<li>検証・修正を繰り返す</li>
-</ul>
-<p>単一の関数や数行単位の補完ではなく、**READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）**の循環を自律的に回す点を重視する。同社は「Claude CodeはCodeではなくComputerに近い」と表現し、単なるコーディング支援を超えた汎用的な情報処理エージェントの実例と位置づけている。</p>
-<h2>「コール＆レスポンス」から「実行主体」へ</h2>
-<p>SemiAnalysisは、AIの価値創出が「トークンの販売」から「トークンのオーケストレーション」へ移行しつつあると分析する。</p>
-<p>従来のLLM APIは、入力に対して応答を返す“call &amp; response”型であり、短時間の処理が中心だった。一方、Claude Codeは長時間にわたりタスクを継続実行する設計を採る。モデル単体のベンチマーク性能よりも、エージェントとしての総合的な成果物が競争軸になるというのが同社の見立てだ。</p>
-<p>また、METRのデータを引用し、自律実行可能な「タスクホライゾン（継続時間）」が4〜7カ月ごとに倍増していると説明する。30分のコード補完から、数時間のモジュール改修、さらに数日単位の監査業務へと拡張可能性が広がっているとする。</p>
-<h2>開発者の役割はどう変わるのか</h2>
-<p>ニュースレターでは、複数の著名エンジニアの発言も紹介されている。</p>
-<ul>
-<li>Node.jsの開発者であるRyan Dahl氏は、「人間がコードを書く時代は終わった」と述べた。</li>
-<li>VercelのCTOであるMalte Ubl氏は、自身の「新しい主業務はAIの誤りを指摘することだ」と投稿。</li>
-<li>Ruby on Railsの開発者であるDavid Heinemeier Hansson氏は、手書きコードへのノスタルジーを語っている。</li>
-<li>Claude Code開発チームのBoris Cherny氏は、チームのコードのほぼ100％がClaude CodeとOpus 4.5によって書かれていると説明した。</li>
-</ul>
-<p>SemiAnalysisは、生成能力（generation）と識別能力（discrimination）が分離しつつあると整理する。実装を担う主体が人間からAIへ移る一方、人間の役割は設計、評価、検証へと重心が移る可能性があると示唆する。</p>
-<p>また、Anthropicが実施した実験では、AIを利用したコーディングは生産性を高める一方で、使い方によっては熟達度の低下が見られたと報告されている。エージェント活用が広がるなかで、開発者のスキル形成との関係も課題として浮上している。</p>
-<h2>コーディングは“出発点”にすぎない</h2>
-<p>SemiAnalysisは、コーディングはあくまでエージェント型AIが浸透する最初の領域にすぎないと指摘する。情報労働の多くは、READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）という共通の工程を持つ。財務分析や法務レビュー、レポート作成なども同様の構造を持ち、コーディングで成立した自律実行型ワークフローは他分野へ拡張可能だと分析する。</p>
-<p>GitHubコミットの4％という現状と、20％超という予測は、単なる開発現場の変化にとどまらない可能性を示している。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crypto.com共同創業者、消費者向け自律AIエージェント「ai.com」設立──7000万ドルでドメイン取得</title>
-      <link>https://ledge.ai/articles/crypto_com_cofounder_launches_ai_com_autonomous_agents_70m_domain</link>
-      <description><![CDATA[<p>仮想通貨取引所Crypto.comの共同創業者でCEOを務めるKris Marszalek（クリス・マルザレク氏）は2026年2月6日、消費者向け自律型AIエージェントプラットフォーム「ai.com」の設立を<a href="https://ai.com/company-news/ai-com-launch">発表</a>した。正式な提供開始は2月8日で、米国で開催されるSuper Bowl LXのCM放映に合わせてローンチする。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kris_Marszalek_x_03379f413b/Kris_Marszalek_x_03379f413b.jpg" alt="Kris Marszalek x.jpg" /></p>
-<p>ai.comは、ユーザーが数クリックで「自分専用のAIエージェント」を作成できるとするプラットフォームだ。単なるチャット型AIではなく、ユーザーの代わりに実際のタスクを実行する“自律型”である点を特徴としている。</p>
-<p>公式発表によると、エージェントは仕事の整理、メッセージ送信、アプリを横断した操作、プロジェクトの構築などを実行可能だという。株式取引、ワークフロー自動化、カレンダー連携による日次タスクの遂行、オンラインプロフィールの更新といった用途例も挙げられている。</p>
-<p>同社は差別化要因として、エージェントがタスク遂行に必要な機能が不足している場合、それを自律的に補完・構築する設計を挙げる。さらに、改善内容はネットワーク上の他のエージェントに共有され、全体として能力が向上すると説明している。</p>
-<p>エージェントは技術的知識なしに約60秒で作成でき、無料で利用開始が可能。追加機能や入力トークンの拡張などは有料サブスクリプションで提供される。各エージェントは専用の安全な環境で稼働し、データは分離・暗号化され、ユーザー固有のキーで管理されるとしている。</p>
-<p>マルザレク氏は「ai.com」ドメインを7000万ドル（約110億円）で取得した。ドメイン仲介会社<a href="https://www.prnewswire.com/news-releases/getyourdomaincom-brokers-the-70-million-sale-of-aicom-the-largest-domain-name-transaction-in-history-302682315.html">GetYourDomain.com</a>は、この取引が公表されているドメイン名売買の中で史上最高額だと発表している。従来の最高額とされていた「voice.com」（3000万ドル）を上回る規模となる。</p>
-<p>マルザレク氏はCrypto.comとai.comの両社でCEOを務める。今回の発表は、暗号資産領域を主軸としてきた同氏が、消費者向けAIエージェント分野へ本格参入する動きとなる。</p>
-<p>ai.comは「AGI（汎用人工知能）の到来を加速する」ことを掲げており、今後は金融サービスとの統合やエージェントのマーケットプレイス構築なども検討しているという。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2026/2/13 [FRI]AI時代の科学研究のボトルネックは「アイデア創出」から「検証」へ──査読制度に警鐘、Google・カーネギーメロン大学など16機関がケーススタディを公表</title>
       <link>https://ledge.ai/articles/gemini_science_impending_crisis_peer_review</link>
       <description><![CDATA[<p>2026年2月3日、Google Research、カーネギーメロン大学（Carnegie Mellon University）など16機関の研究者は、Googleの推論強化型モデル「Gemini Deep Think」の高度版を研究に活用したケーススタディをarXivで<a href="https://arxiv.org/abs/2602.03837">公開</a>した。</p>
@@ -297,7 +316,7 @@
 <p>研究者は論文終盤で、AIが論文生成の摩擦を劇的に低下させるほど、科学のボトルネックは「アイデア生成」から「検証」へ移ると述べている。従来の人間中心の査読制度は、AIによって高速かつ大量に生成される高度な論文を十分に精査できるよう設計されていない可能性があるという。</p>
 <p>著者らは、生成に用いられたのと同様のAI技術を、欠陥検出や形式的検証支援に活用するなど、査読・評価側の仕組みを再設計する必要性を示唆している。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、冬季五輪代表をAIで支援──撮影した映像を数分で3D解析するスキー・スノーボード向け分析ツールを構築</title>
@@ -317,30 +336,7 @@
 <p>Google Cloudで生成AI分野を統括するオリバー・パーカー氏は、「世界最高峰のアスリートを最も過酷な環境で支える技術を確立することで、人の動きの理解と改善の在り方を変える」と述べた。</p>
 <p>このAI映像分析プラットフォームは現時点では実験的な取り組みと位置づけられており、U.S. Ski &amp; Snowboardの選手・コーチ陣による検証が、冬季五輪本番に向けて続けられている。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>車限定だった「Geminiナビ」が徒歩・自転車にも拡大──Google マップで利用可能に</title>
-      <link>https://ledge.ai/articles/google_maps_gemini_navigation_walking_cycling</link>
-      <description><![CDATA[<p>地図アプリ「Google マップ」のナビゲーション中に利用できるAIアシスタント「Gemini」について、これまで自動車の運転時に限定していた対応を拡大し、徒歩および自転車でのナビゲーション中でも利用可能にした。同社が公式ブログで<a href="https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/">発表</a>した。機能はGemini提供地域において、AndroidおよびiOS向けに順次提供される。</p>
-<h2>自動車ナビ限定から、徒歩・自転車へ拡大</h2>
-<p>Geminiは、Google マップのナビゲーション中に音声で呼び出し、目的地までの案内を続けながら各種操作や質問に対応するAIアシスタントとして提供されてきた。従来は自動車でのナビゲーション時に限られていたが、今回のアップデートにより、徒歩ナビおよび自転車ナビでも同様の体験が可能となった。</p>
-<h2>ナビ中に使える主な機能</h2>
-<p>ナビゲーション中、ユーザーは音声による自然言語でGeminiに指示を出すことができる。たとえば、</p>
-<ul>
-<li>到着予定時刻（ETA）の確認</li>
-<li>ルート周辺の飲食店や施設の検索</li>
-<li>簡単なメッセージ送信</li>
-</ul>
-<p>などを、ナビを中断せずに行える。Googleは、移動中に画面操作を最小限に抑える設計である点を強調している。
-徒歩・自転車利用での意味合い</p>
-<p>徒歩での移動中には、周辺情報を把握しながら目的地まで案内を受けられる点が特徴となる。また自転車での利用では、走行中に画面へ触れることなく音声で操作できるため、ハンズフリーによる利便性の向上が想定されている。</p>
-<h2>提供条件と対応環境</h2>
-<p>この機能は、Geminiが提供されている地域で利用可能となる。対応端末はAndroidおよびiOSで、最新版のGoogle マップが必要となる。提供は段階的に行われるため、利用可能になる時期はユーザーや地域によって異なる。</p>
-<h2>導入の背景</h2>
-<p>Googleは、ナビゲーション中の音声アシスタントを従来のGoogle アシスタントからGeminiへと順次移行してきた。今回の対応拡大は、自動車以外の移動手段にもAIナビ体験を広げる取り組みの一環と位置づけられる。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
@@ -356,7 +352,7 @@
 <h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
 <p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
@@ -392,7 +388,7 @@
 <h2>今後の展開</h2>
 <p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NY州、大規模データセンター建設を「一時停止」へ──最短3年のモラトリアム法案を提出</title>
@@ -411,7 +407,7 @@
 州としては、一度立ち止まり、環境・エネルギー・料金への影響を精査した上で、持続可能な開発ルールを再定義する狙いだ。</p>
 <p>法案は今後、上下両院での審議に進む。可決されれば、ニューヨーク州におけるAIインフラ投資の在り方に大きな影響を与えることになりそうだ。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>元OpenAI研究者、ChatGPT広告テスト開始の週に辞職　NYTに「OpenAIはFacebookと同じ過ち」と題した寄稿</title>
@@ -430,7 +426,7 @@
 <p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
 <p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
@@ -474,7 +470,7 @@
 <p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
 <p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Roblox、“その場で遊べる世界” を現実に──AI基盤「Cube」で4D生成を発表　機能する3Dオブジェクトを自然言語で生成</title>
@@ -504,7 +500,7 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/roblox_real_time_dreaming_d6a7e2c230/roblox_real_time_dreaming_d6a7e2c230.jpg" alt="roblox real-time dreaming.jpg" /></p>
 <p>生成AIによる仮想世界構築をめぐっては、Google DeepMindの「Project Genie」など、世界モデルを用いた研究も進められている。Robloxは、4D生成によって「その場で遊べる」体験を実装しながら、より包括的な世界生成へと研究領域を広げていく考えだ。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>日本発 AI VTuber「しずく」開発元Shizuku AI、a16z主導でシード調達──「世界で一番愛されるAIキャラクター」目指す</title>
@@ -525,29 +521,7 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
 <p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
-      <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
-      <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introduce_simile_b002315008/introduce_simile_b002315008.jpg" alt="introduce simile.jpg" /></p>
-<p>あわせて、同社はSeries Aラウンドで1億ドル（約150億円）を調達したことを明らかにした。リード投資家はIndex Venturesが務め、Hanabi、A*、Bain Capital Ventures（BCV）らが参加した。また、個人投資家としてAndrej Karpathy氏、Fei-Fei Li氏、Adam D’Angelo氏、Guillermo Rauch氏、Scott Belsky氏らも出資者に名を連ねている。</p>
-<h2>実在人間に基づくエージェントで社会を再現</h2>
-<p><a href="https://simile.ai/blog/the-simulation-company">Simile</a>は、人間の行動や意思決定を再現する基盤モデルの開発を専門とする企業である。CEOのJoon Sung Park氏は、かつてスタンフォード大学で「生成エージェント（generative agents）」の研究を主導した経歴を持つ。</p>
-<p>同社のシミュレーション基盤は、実在の人間をモデル化したエージェントを多数配置し、それらの相互作用を通じて社会全体の動向を再現する仕組みである。現在は、あらゆる状況や規模において人間行動を予測可能な基盤モデルの開発に注力している。</p>
-<h2>意思決定の「フライトシミュレーター」</h2>
-<p>すでに企業向けの実装も始まっており、Simileは自社プラットフォームを**「重要な意思決定のためのフライトシミュレーター」**と定義している。用途として挙げられているのは以下の例だ。</p>
-<ul>
-<li><strong>IR・経営戦略</strong>： 決算説明会（earnings calls）における投資家の反応予測</li>
-<li><strong>法務・訴訟</strong>： 訴訟結果のモデリングとシミュレーション</li>
-<li><strong>公共政策</strong>： 政策変更が社会に及ぼす影響のテスト</li>
-</ul>
-<h2>開発の加速と世界規模への拡張</h2>
-<p>今回調達した1億ドルは、社会シミュレーション基盤の開発を加速するための資金として充てられる。</p>
-<p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
-]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Waymo、DeepMindの世界モデル「Genie 3」を活用した自動運転向け生成シミュレーション「Waymo World Model」を発表</title>
@@ -569,7 +543,7 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <h2>世界モデル研究の実用化が進展</h2>
 <p>汎用世界モデルの研究は、これまで主に基礎研究の文脈で語られてきた。Waymo World Modelは、そうした研究成果が自動運転という実用分野に組み込まれた事例の一つとなる。Waymoは今後、このモデルを自社の開発パイプラインに統合し、安全性検証と性能向上の両立を進めるとしている。</p>
 ]]></description>
-      <pubDate>Mon, 02 Feb 2026 01:50:00 GMT</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
