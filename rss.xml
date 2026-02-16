@@ -5,6 +5,41 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
+      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
+      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
+<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
+<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
+<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
+<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
+<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
+<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
+<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
+<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
+<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
+]]></description>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>元OpenAI研究者、ChatGPT広告テスト開始の週に辞職　NYTに「OpenAIはFacebookと同じ過ち」と題した寄稿</title>
+      <link>https://ledge.ai/articles/openai_ads_test_researcher_quits_nyt_facebook_comparison</link>
+      <description><![CDATA[<p>OpenAIが2026年2月9日に対話型AI「ChatGPT」で広告表示のテストを開始した週に、同社の元研究者であるZoë Hitzig氏が<a href="https://x.com/zhitzig/status/2021590831979778051">辞職を公表</a>した。Hitzig氏は2026年2月11日付の米紙The New York Times(NYT)のオピニオン欄に「OpenAI Is Making the Mistakes Facebook Made. I Quit.（OpenAIはFacebookと同じ過ちを犯している。私は辞めた）」と題したエッセイを<a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html">寄稿</a>し、広告モデル導入に対する懸念を示した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zoe_Hitzig_4e4cb3454d/Zoe_Hitzig_4e4cb3454d.jpg" alt="Zoë Hitzig.jpg" /></p>
+<h2>2年間にわたりモデル構築や価格設計に関与</h2>
+<p>寄稿によると、Hitzig氏はOpenAIに約2年間在籍し、AIモデルの構築や価格設計（pricing）、初期の安全性方針の策定に携わってきたという。同氏は、広告そのものを「不道徳あるいは非倫理的だとは考えていない」と明言する一方で、同社の戦略に「深い懸念」を抱いていると述べた。</p>
+<p>Hitzig氏は、ChatGPTの利用者がこれまでに前例のない規模で個人的な悩みや医療上の不安、信仰観などを打ち明けてきた点に言及。そうした会話アーカイブを基盤とした広告モデルが、ユーザーを操作する可能性を持つと指摘している。</p>
+<h2>OpenAIは広告を明確表示、回答への影響は否定</h2>
+<p>OpenAIは同週、ChatGPTにおける広告表示のテスト開始を<a href="https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026">発表</a>した。広告は回答の下部に表示され、明確にラベル付けされるほか、回答内容には影響しないとしている。</p>
+<p>広告はAI運用コストを賄う収益源の一つとなり得るが、Hitzig氏は、広告導入を巡る議論を「広告か、アクセス制限か」という二者択一として捉えるのは誤りだと主張。企業向け利用からのクロスサブシディや、独立した監督権限を持つガバナンス構造、データを独立的に管理するトラストモデルなど、代替案を提示している。</p>
+<h2>「Facebookの過ち」を引き合いに</h2>
+<p>寄稿では、かつてFacebook（現Meta）が広告モデルのもとでエンゲージメント最適化を進める過程で、当初掲げたデータ管理や利用者の統制に関する原則が徐々に後退した経緯にも言及している。Hitzig氏は、広告モデルが強いインセンティブを生み出す構造にあると指摘し、OpenAIが同様の道をたどる可能性に懸念を示した。</p>
+<h2>8億人規模の利用基盤</h2>
+<p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
+<p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
+]]></description>
+      <pubDate>Sat, 14 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
       <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
       <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
@@ -116,52 +151,6 @@
       <pubDate>Mon, 09 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>TSMC熊本第2工場、AI向け3nmへ　最先端ロジック半導体を日本に</title>
-      <link>https://ledge.ai/articles/tsmc_kumamoto_second_fab_ai_3nm_shift</link>
-      <description><![CDATA[<p>半導体受託製造で世界最大手の台湾積体電路製造（TSMC）は2026年2月5日、熊本県で計画中の第2工場について、最先端の3ナノメートル（nm）ロジック半導体を生産する方向へ計画を変更したい意向を示した。<a href="https://x.com/takaichi_sanae/status/2019377402091291014">高市早苗首相</a>が自身のX（旧Twitter）で明らかにした。</p>
-<p>TSMCの会長であるC.C.ウェイ氏はこの日、官邸を訪問し熊本第2工場を3nmロジック半導体の生産拠点とする計画変更と、総投資額の増額について表明したという。3nmロジック半導体は、データセンター向けに加え、AIロボティクスや自動運転といった分野で用いられる最先端の半導体だとしている。</p>
-<p>同件について、<a href="https://x.com/meti_NIPPON/status/2019346900730933740">経済産業省</a>も、TSMC側から熊本第2工場の当初計画である12nmおよび6nmプロセスから、より先端となる3nmプロセスへ変更したい旨の説明を受けたと明らかにしている。政府としては、今後も協議を続けながら協力していく方針だ。</p>
-<p>Reutersなどの報道によると、今回の計画は、日本政府要人との面会の場でTSMC側が伝えたもので、AI向け半導体需要の拡大を背景に、最先端プロセスを日本に展開する動きとして受け止められている。</p>
-<p>熊本ではすでにTSMCの第1工場が稼働しており、関連企業の進出が進むなど、半導体産業の集積が進展している。第2工場が3nmプロセスを担うことになれば、日本国内での先端ロジック半導体生産の体制に変化が生じることになる。</p>
-<p>今後は、3nm生産の開始時期や量産規模、投資額の具体像、日本政府による支援の枠組みなどが焦点となる。</p>
-]]></description>
-      <pubDate>Sun, 08 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
-      <link>https://ledge.ai/articles/anthropic_claude_opus_4_6_cowork_saas_stock_reaction</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月5日（現地時間）、同社の最上位大規模言語モデル（LLM）「Claude Opus 4.6」を<a href="https://www.anthropic.com/news/claude-opus-4-6">発表</a>した。あわせて業務向けAIエージェント「Cowork」の展開を進めており、これら一連の動きを背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落したと<a href="https://www.reuters.com/business/media-telecom/ai-concerns-pummel-european-software-stocks-2026-02-03/">Reuters</a>など各メディアが報じている。</p>
-<h2>最上位モデル「Claude Opus 4.6」を公開、業務・エージェント用途を強化</h2>
-<p>Claude Opus 4.6は前モデルからコーディング能力を中心に改良されており、より慎重な計画立案、長時間にわたるエージェント的タスクの継続、大規模なコードベースでの信頼性向上、コードレビューやデバッグにおける自己修正能力の強化が図られている。あわせて、Opusクラスとしては初めて、最大100万トークンの長文脈処理（ベータ）にも対応した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=dPn3GBI8lII&amp;t=1s">YouTube</a></p>
-<p>Anthropicは、Opus 4.6がこうした改良を通じて、財務分析や調査、文書・表計算・プレゼンテーションの作成といった業務タスクにも適用できるとしている。業務向けAIエージェント「Cowork」では、モデルが複数の作業を自律的に並行処理する場面で、これらの能力が活用される設計とされている。Opus 4.6は、同日からclaude.aiやAPI、主要クラウドプラットフォームで提供が開始され、価格は従来モデルから据え置かれている。</p>
-<p><strong>Anthropicが公開したベンチマーク表より抜粋。エージェント型コーディングやツール利用に関する評価結果を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_6_bench_9957e0e30b/opus4_6_bench_9957e0e30b.jpg" alt="opus4-6 bench.jpg" /></p>
-<h2>業務AIエージェント「Cowork」、段階提供とプラグイン公開の経緯</h2>
-<p>1月16日、同社は業務向けAIエージェント「<a href="https://claude.com/blog/cowork-research-preview">Cowork</a>」をProプラン向けにResearch Previewとして提供開始した。その後、1月23日にはTeamおよびEnterpriseプランにも対象を拡大している。Coworkは、プログラミング用途に限らず、調査、文書作成、タスク整理といった業務を対象とするAIエージェントとして説明されており、Claudeを基盤に複数の作業を横断的に扱うことを想定している。</p>
-<p>1月30日には、外部ツールや業務データ、ワークフローとの連携を可能にする「<a href="https://claude.com/blog/cowork-plugins">Cowork plugins</a>」を公開。プラグインを通じて外部ツールや社内システム、業務データソースと接続できる仕組みが提供されており、AIが単独で応答を生成するだけでなく、外部の情報や機能を参照・活用しながら作業を進める構成が示されている。これにより、AIエージェントが既存の業務ソフトウェアやワークフローと接続される形が明確になった。</p>
-<h2>SaaSはAIエージェントに代替されるのか──市場で「SaaS死亡説」が再燃</h2>
-<p>こうした一連の発表を背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落した。Reutersは、業務AIエージェントの進化によって既存ソフトウェアのビジネスモデルが揺らぐとの見方が投資家の間で強まり、売りが広がったと報じている。</p>
-<p>報道では、特定の製品や単一の発表が株価下落の直接的な原因と断定されているわけではない。一方で、市場の懸念が強まった背景として、1月中旬にCoworkの提供が始まり、1月30日にプラグイン機能が公開されたことで、AIエージェントが外部ツールや業務データと連携し、既存のSaaSと機能単位で接続・競合し得るとの見方が具体的に意識されるようになった点が挙げられている。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人間が参加できないSNS？AIエージェント専用「MoltBook」が急成長──サム・アルトマン氏「新しい社会的交流の兆し」</title>
-      <link>https://ledge.ai/articles/moltbook_ai_agent_only_social_network_altman_comment</link>
-      <description><![CDATA[<p>AIエージェント専用のソーシャルネットワーク「MoltBook（モルトブック）」が公開され、短期間で急速に注目を集めている。人間が投稿やコメントに参加できず、AIエージェント同士のみが交流するという異例の設計が、AI開発者や研究者の間で話題となっている。</p>
-<p>MoltBookは2026年1月29日、開発者のMatt Schlicht氏によって<a href="https://x.com/MattPRD/status/2016560277333168540">公開</a>された。掲示板型のUIを採用し、AIエージェントが自律的に投稿、コメント、投票を行う。テーマ別のコミュニティ（Submolts）もエージェント自身によって作成され、人間は閲覧のみが許可される「観測者」として位置づけられている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/moltbook_release_f621f3d085/moltbook_release_f621f3d085.jpg" alt="moltbook release.jpg" /></p>
-<p>Schlicht氏によると、MoltBookは特定の大規模言語モデルや技術構成に依存せず、オープンソースのAIエージェント「OpenClaw」（旧称Clawdbot／Moltbot）など、さまざまなエージェントを受け入れる設計となっている。公開後数日で3万2000超のAIエージェントが登録したとされ、立ち上がりの速さも注目を集めた。</p>
-<p>この動きに対し、AI研究者のAndrej Karpathy氏は、自身のAIエージェントをMoltBook上で<a href="https://x.com/karpathy/status/2017386421712261612">認証（claim）した</a>ことをXで明らかにした。同氏は、MoltBook上で起きている現象について「最近見た中で最もSF的な離陸に近い出来事」と評している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_X_f84d8455c6/Andrej_Karpathy_X_f84d8455c6.jpg" alt="Andrej Karpathy X.jpg" /></p>
-<p>さらに、米シスコシステムズのイベントに登壇したOpenAIのCEO、Sam Altman氏もMoltBookに言及した。Altman氏は、MoltBookそのものが最終的な勝者になるかは分からないとしつつも、多数のAIエージェントが人間の代理として同じ空間で相互作用するという点について、「新しい社会的交流の形を示唆するものだ」と述べている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/samaltman_on_cisco_ai_summit_68299f9d2e/samaltman_on_cisco_ai_summit_68299f9d2e.jpg" alt="samaltman on cisco ai summit.jpg" /></p>
-<p>MoltBookは現在ベータ段階にあり、機能やコミュニティは急速に変化している。AIエージェント同士の交流が一過性の実験にとどまるのか、それとも新たなインターネットの形へと発展するのか、今後の動向が注目される。</p>
-]]></description>
-      <pubDate>Thu, 05 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
       <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
       <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
@@ -171,7 +160,7 @@
 <p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
 <p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
@@ -197,7 +186,26 @@
 <h2>無料プランと有料プランの機能差</h2>
 <p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
+      <link>https://ledge.ai/articles/anthropic_claude_opus_4_6_cowork_saas_stock_reaction</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月5日（現地時間）、同社の最上位大規模言語モデル（LLM）「Claude Opus 4.6」を<a href="https://www.anthropic.com/news/claude-opus-4-6">発表</a>した。あわせて業務向けAIエージェント「Cowork」の展開を進めており、これら一連の動きを背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落したと<a href="https://www.reuters.com/business/media-telecom/ai-concerns-pummel-european-software-stocks-2026-02-03/">Reuters</a>など各メディアが報じている。</p>
+<h2>最上位モデル「Claude Opus 4.6」を公開、業務・エージェント用途を強化</h2>
+<p>Claude Opus 4.6は前モデルからコーディング能力を中心に改良されており、より慎重な計画立案、長時間にわたるエージェント的タスクの継続、大規模なコードベースでの信頼性向上、コードレビューやデバッグにおける自己修正能力の強化が図られている。あわせて、Opusクラスとしては初めて、最大100万トークンの長文脈処理（ベータ）にも対応した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=dPn3GBI8lII&amp;t=1s">YouTube</a></p>
+<p>Anthropicは、Opus 4.6がこうした改良を通じて、財務分析や調査、文書・表計算・プレゼンテーションの作成といった業務タスクにも適用できるとしている。業務向けAIエージェント「Cowork」では、モデルが複数の作業を自律的に並行処理する場面で、これらの能力が活用される設計とされている。Opus 4.6は、同日からclaude.aiやAPI、主要クラウドプラットフォームで提供が開始され、価格は従来モデルから据え置かれている。</p>
+<p><strong>Anthropicが公開したベンチマーク表より抜粋。エージェント型コーディングやツール利用に関する評価結果を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_6_bench_9957e0e30b/opus4_6_bench_9957e0e30b.jpg" alt="opus4-6 bench.jpg" /></p>
+<h2>業務AIエージェント「Cowork」、段階提供とプラグイン公開の経緯</h2>
+<p>1月16日、同社は業務向けAIエージェント「<a href="https://claude.com/blog/cowork-research-preview">Cowork</a>」をProプラン向けにResearch Previewとして提供開始した。その後、1月23日にはTeamおよびEnterpriseプランにも対象を拡大している。Coworkは、プログラミング用途に限らず、調査、文書作成、タスク整理といった業務を対象とするAIエージェントとして説明されており、Claudeを基盤に複数の作業を横断的に扱うことを想定している。</p>
+<p>1月30日には、外部ツールや業務データ、ワークフローとの連携を可能にする「<a href="https://claude.com/blog/cowork-plugins">Cowork plugins</a>」を公開。プラグインを通じて外部ツールや社内システム、業務データソースと接続できる仕組みが提供されており、AIが単独で応答を生成するだけでなく、外部の情報や機能を参照・活用しながら作業を進める構成が示されている。これにより、AIエージェントが既存の業務ソフトウェアやワークフローと接続される形が明確になった。</p>
+<h2>SaaSはAIエージェントに代替されるのか──市場で「SaaS死亡説」が再燃</h2>
+<p>こうした一連の発表を背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落した。Reutersは、業務AIエージェントの進化によって既存ソフトウェアのビジネスモデルが揺らぐとの見方が投資家の間で強まり、売りが広がったと報じている。</p>
+<p>報道では、特定の製品や単一の発表が株価下落の直接的な原因と断定されているわけではない。一方で、市場の懸念が強まった背景として、1月中旬にCoworkの提供が始まり、1月30日にプラグイン機能が公開されたことで、AIエージェントが外部ツールや業務データと連携し、既存のSaaSと機能単位で接続・競合し得るとの見方が具体的に意識されるようになった点が挙げられている。</p>
+]]></description>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
@@ -209,7 +217,7 @@
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12_2d9a500d99/12_2d9a500d99.webp" alt="12.webp" /></p>
 <p>OpenAIは広告導入の背景について、サービスの持続可能性を確保しつつ、より多くの人々に無料アクセスを提供し続けるための「収益モデル多様化の一環」と説明している。現在は米国内に限定されたテスト段階であり、今後の展開については状況を見ながら段階的に判断される見通しだ。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>GitHubコミットの4％がAI生成──Claude Codeは2026年末に20％へ？SemiAnalysisが「エージェント化」の転換点と分析</title>
@@ -244,7 +252,7 @@
 <p>SemiAnalysisは、コーディングはあくまでエージェント型AIが浸透する最初の領域にすぎないと指摘する。情報労働の多くは、READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）という共通の工程を持つ。財務分析や法務レビュー、レポート作成なども同様の構造を持ち、コーディングで成立した自律実行型ワークフローは他分野へ拡張可能だと分析する。</p>
 <p>GitHubコミットの4％という現状と、20％超という予測は、単なる開発現場の変化にとどまらない可能性を示している。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>Crypto.com共同創業者、消費者向け自律AIエージェント「ai.com」設立──7000万ドルでドメイン取得</title>
@@ -259,7 +267,7 @@
 <p>マルザレク氏はCrypto.comとai.comの両社でCEOを務める。今回の発表は、暗号資産領域を主軸としてきた同氏が、消費者向けAIエージェント分野へ本格参入する動きとなる。</p>
 <p>ai.comは「AGI（汎用人工知能）の到来を加速する」ことを掲げており、今後は金融サービスとの統合やエージェントのマーケットプレイス構築なども検討しているという。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
@@ -296,51 +304,7 @@
 <p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
 <p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
-      <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
-      <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
-<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで提供され、現時点ではGemini 3 Flash専用機能として位置付けられている。</p>
-<h2>画像理解を「一度きりの認識」から「段階的な検証プロセス」へ</h2>
-<p>Agentic Visionの特徴は、画像理解を静的な認識処理ではなく、段階的な検証プロセスとして扱う点にある。
-モデルは画像を見て即座に答えを出すのではなく、</p>
-<ul>
-<li>どの部分を確認すべきかを判断</li>
-<li>必要な操作を実行</li>
-<li>結果を再度観察し、次の行動を決める</li>
-</ul>
-<p>といったループを繰り返しながら推論を進める。Googleはこのアプローチを「Think → Act → Observe」の循環として説明している。</p>
-<h2>視覚推論とPython実行を組み合わせた設計</h2>
-<p>技術的な中核となるのが、視覚推論とPythonコード実行の統合だ。</p>
-<p><strong>図）Agentic Visionの処理フロー</strong> ：ユーザー入力（画像＋テキスト）を受けたAIエージェントが、「Think（計画）→Act（コード実行）→Observe（結果確認）」の循環を回しながら、画像を拡大・切り出し・注釈付けして分析する。Gemini 3 Flashでは、Pythonによる画像操作が推論プロセスに組み込まれている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_z5u5_Yj_Z_f25520272d.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_z5u5YjZ.webp" /></p>
-<p>Agentic Visionでは、モデルが自律的にPythonコードを生成・実行し、以下のような操作を行う。</p>
-<ul>
-<li>画像の一部を切り出して拡大表示</li>
-<li>特定領域を再解析</li>
-<li>数値データを抽出して計算処理</li>
-</ul>
-<p>こうした処理をコード実行環境で行うことで、推論過程をより厳密にし、誤認識を減らす狙いがある。Googleによると、この仕組みにより多くの視覚系ベンチマークで5〜10%の品質向上が確認されているという。</p>
-<p><strong>図）Agentic Visionによる視覚ベンチマーク性能の変化</strong> ：Gemini 3 Flashにコード実行を組み合わせた構成（with code execution）は、画像理解系ベンチマークの多くで、従来構成を5〜10%上回るスコアを示した。Googleは、画像の再検査や注釈付けを推論過程に組み込んだ点が精度向上につながったとしている</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e/agentic_vision_gemini_3_flash_bl_width_1000_format_webp_CO_Ee0g_Z_9ff68e3d0e.webp" alt="agentic-vision-gemini-3_flash_bl.width-1000.format-webp_COEe0gZ.webp" /></p>
-<h2>ズーム、注釈、可視化──Agentic Visionで可能になる操作</h2>
-<p>Agentic Visionが提供する主な機能は、次の3点に整理できる。</p>
-<ul>
-<li><strong>ズームと再検査：</strong> 小さな文字や遠景の対象など、初回解析では不十分な要素を検知し、拡大・再分析する</li>
-<li><strong>画像への直接注釈：</strong> 境界ボックスやラベルを画像上に描画し、対象物の位置や数を明示することで、回答の根拠を可視化する</li>
-<li><strong>視覚情報の計算とグラフ化：</strong> 画像内の表や数値を読み取り、計算処理を行ったうえでグラフ出力することも可能</li>
-</ul>
-<p>これらはいずれも、モデルが自律的に「必要」と判断した場合に実行される点が特徴となっている。</p>
-<h2>Google AI StudioとVertex AIで提供、Flash専用機能として展開</h2>
-<p>Agentic Visionは、Google AI StudioおよびVertex AIのGemini APIで利用できる。開発者は、コード実行機能を有効化することで、画像を対象とした高度な検証プロセスをアプリケーションに組み込める。</p>
-<p>なお、公式ドキュメントでは、本機能はGemini 3 Flashに限定して提供されると明記されており、他のGeminiモデルでは利用できない。</p>
-<h2>業務利用を意識した高精度画像理解へ</h2>
-<p>GoogleはAgentic Visionについて、単なる画像認識精度の向上にとどまらず、業務利用に耐える信頼性の確保を目的とした機能強化だと位置付けている。
-計器の読み取り、画像化された表データの解析、数量確認など、正確性が求められる場面での活用を想定しているという。</p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2026/2/13 [FRI]AI時代の科学研究のボトルネックは「アイデア創出」から「検証」へ──査読制度に警鐘、Google・カーネギーメロン大学など16機関がケーススタディを公表</title>
@@ -365,7 +329,7 @@
 <p>研究者は論文終盤で、AIが論文生成の摩擦を劇的に低下させるほど、科学のボトルネックは「アイデア生成」から「検証」へ移ると述べている。従来の人間中心の査読制度は、AIによって高速かつ大量に生成される高度な論文を十分に精査できるよう設計されていない可能性があるという。</p>
 <p>著者らは、生成に用いられたのと同様のAI技術を、欠陥検出や形式的検証支援に活用するなど、査読・評価側の仕組みを再設計する必要性を示唆している。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
@@ -391,23 +355,7 @@
 <p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
 <p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
-      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
-      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
-<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
-<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
-<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
-<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
-<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
-<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
-<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
-<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
-<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
@@ -443,7 +391,7 @@
 <h2>今後の展開</h2>
 <p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>NY州、大規模データセンター建設を「一時停止」へ──最短3年のモラトリアム法案を提出</title>
@@ -462,7 +410,7 @@
 州としては、一度立ち止まり、環境・エネルギー・料金への影響を精査した上で、持続可能な開発ルールを再定義する狙いだ。</p>
 <p>法案は今後、上下両院での審議に進む。可決されれば、ニューヨーク州におけるAIインフラ投資の在り方に大きな影響を与えることになりそうだ。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、中国ByteDanceの動画生成AI「Seedance 2.0」問題で調査へ──小野田AI戦略担当相「著作権侵害は看過できない」</title>
@@ -476,26 +424,7 @@
 <p>Seedance 2.0は、ByteDanceが開発した動画生成AIで、テキストや画像、音声、動画など複数の入力情報を組み合わせて映像を生成できるマルチモーダル型のモデルだ。参照素材を指定しながら生成を行う機能も備えており、公開以降、SNSを中心に生成動画が広がっている。</p>
 <p>政府は今後、関係省庁と連携しながら事実関係の確認を進める方針で、生成AIによるコンテンツ制作と知的財産権保護の在り方が改めて問われることになる。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>元OpenAI研究者、ChatGPT広告テスト開始の週に辞職　NYTに「OpenAIはFacebookと同じ過ち」と題した寄稿</title>
-      <link>https://ledge.ai/articles/openai_ads_test_researcher_quits_nyt_facebook_comparison</link>
-      <description><![CDATA[<p>OpenAIが2026年2月9日に対話型AI「ChatGPT」で広告表示のテストを開始した週に、同社の元研究者であるZoë Hitzig氏が<a href="https://x.com/zhitzig/status/2021590831979778051">辞職を公表</a>した。Hitzig氏は2026年2月11日付の米紙The New York Times(NYT)のオピニオン欄に「OpenAI Is Making the Mistakes Facebook Made. I Quit.（OpenAIはFacebookと同じ過ちを犯している。私は辞めた）」と題したエッセイを<a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html">寄稿</a>し、広告モデル導入に対する懸念を示した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zoe_Hitzig_4e4cb3454d/Zoe_Hitzig_4e4cb3454d.jpg" alt="Zoë Hitzig.jpg" /></p>
-<h2>2年間にわたりモデル構築や価格設計に関与</h2>
-<p>寄稿によると、Hitzig氏はOpenAIに約2年間在籍し、AIモデルの構築や価格設計（pricing）、初期の安全性方針の策定に携わってきたという。同氏は、広告そのものを「不道徳あるいは非倫理的だとは考えていない」と明言する一方で、同社の戦略に「深い懸念」を抱いていると述べた。</p>
-<p>Hitzig氏は、ChatGPTの利用者がこれまでに前例のない規模で個人的な悩みや医療上の不安、信仰観などを打ち明けてきた点に言及。そうした会話アーカイブを基盤とした広告モデルが、ユーザーを操作する可能性を持つと指摘している。</p>
-<h2>OpenAIは広告を明確表示、回答への影響は否定</h2>
-<p>OpenAIは同週、ChatGPTにおける広告表示のテスト開始を<a href="https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026">発表</a>した。広告は回答の下部に表示され、明確にラベル付けされるほか、回答内容には影響しないとしている。</p>
-<p>広告はAI運用コストを賄う収益源の一つとなり得るが、Hitzig氏は、広告導入を巡る議論を「広告か、アクセス制限か」という二者択一として捉えるのは誤りだと主張。企業向け利用からのクロスサブシディや、独立した監督権限を持つガバナンス構造、データを独立的に管理するトラストモデルなど、代替案を提示している。</p>
-<h2>「Facebookの過ち」を引き合いに</h2>
-<p>寄稿では、かつてFacebook（現Meta）が広告モデルのもとでエンゲージメント最適化を進める過程で、当初掲げたデータ管理や利用者の統制に関する原則が徐々に後退した経緯にも言及している。Hitzig氏は、広告モデルが強いインセンティブを生み出す構造にあると指摘し、OpenAIが同様の道をたどる可能性に懸念を示した。</p>
-<h2>8億人規模の利用基盤</h2>
-<p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
-<p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
@@ -539,7 +468,7 @@
 <p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
 <p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
       <title>日本発 AI VTuber「しずく」開発元Shizuku AI、a16z主導でシード調達──「世界で一番愛されるAIキャラクター」目指す</title>
@@ -560,7 +489,7 @@
 <p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
 <p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
 ]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
