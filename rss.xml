@@ -162,6 +162,18 @@
       <pubDate>Thu, 05 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
+      <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
+      <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kisei_kaikaku_kisei_AI_fe6f8d8c93/kisei_kaikaku_kisei_AI_fe6f8d8c93.jpg" alt="kisei-kaikaku-kisei AI.jpg" /></p>
+<p>同日行われた記者会見で、規制改革担当大臣である城内実氏は、令和7年12月23日に閣議決定された「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」において、AIの社会実装の実現に向け、国民の声を聴きながら既存の規制や制度の点検および見直しを図る方針が示されていると説明。その方針を受けた具体的な取り組みとして、今回の情報募集を実施すると述べた。</p>
+<p>城内氏は、AI担当大臣である小野田紀美氏と連携し、AIの社会実装において障害となる、または不十分な効果をもたらす規制・制度について、国民に広く情報提供を求めると説明した。内閣府のウェブサイトには特設ページが設けられ、専用フォームから情報を提出できる。</p>
+<p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
+<p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
       <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
       <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
@@ -512,36 +524,6 @@
 <h2>研究の位置づけと拡張可能性</h2>
 <p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
 <p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roblox、“その場で遊べる世界” を現実に──AI基盤「Cube」で4D生成を発表　機能する3Dオブジェクトを自然言語で生成</title>
-      <link>https://ledge.ai/articles/roblox_cube_4d_generation_playable_world</link>
-      <description><![CDATA[<p>Robloxは2026年2月4日、同社の生成AI基盤「Cube Foundation Model」を活用した新たな制作機能「4D generation（4D生成）」を<a href="https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model">発表</a>した。</p>
-<p>4D生成は、従来の静的な3Dオブジェクト生成を拡張し、振る舞いや機能を備えた3Dオブジェクトを自然言語プロンプトから生成できる点が特徴で、Roblox Studio向けにベータ提供を開始する。</p>
-<h2>静的な3Dから「その場で遊べる」生成へ</h2>
-<p>Robloxによると、4D生成は「インタラクティビティ」という新たな次元を加えることで、生成されたオブジェクトが見た目だけでなく、プレイヤーの期待どおりに機能することを可能にする。例えば、テキストプロンプトで生成した車は、単なる3Dモデルではなく、実際に乗り込み、操作して走らせることができる。</p>
-<p>この仕組みは、「スキーマ（schemas）」と呼ばれるルールセットに基づいている。スキーマは、特定のオブジェクトを構成要素に分解し、それぞれに適切な挙動を割り当てる役割を担う。これにより、形状やサイズが異なるオブジェクトであっても、生成後すぐに一貫した動作を実現できるという。</p>
-<p><strong>4D生成の仕組み：</strong> 入力された3Dメッシュ（左）をスキーマに基づいて構成要素へ分解し、それぞれに機能を付与したオブジェクトとして再生成する（右)
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Roblox_Cube_Foundation_Model_3_676ee1e8ee/Roblox_Cube_Foundation_Model_3_676ee1e8ee.jpg" alt="Roblox Cube Foundation Model 3.jpg" /></p>
-<h2>Roblox Studioでの制作とプレイヤー参加型生成</h2>
-<p>4D生成は、Roblox Studio内で有効化することで、クリエイターだけでなくプレイヤー自身が体験内でオブジェクトを生成できる点も特徴だ。プレイヤーは自然言語による簡単なプロンプトを使い、車や飛行機、ドラゴンなどのオブジェクトをその場で生成し、即座にゲームプレイへ組み込める。</p>
-<p>Robloxは、この仕組みにより、従来は開発者に限定されていた制作行為を、体験の一部としてプレイヤーに開放できるとしている。新たなゲームプレイの形や、プレイヤーエンゲージメントの拡張につながる可能性があるという。</p>
-<h2>実証例「Wish Master」で示された効果</h2>
-<p>公式リリースでは、開発者Laksh氏が手がけるゲーム「Wish Master」での活用事例も紹介された。
-Wish Masterでは、プレイヤーが入力した「願い」に応じてオブジェクトが生成される仕組みを採用しており、4D生成によって、走行可能な車や飛行する飛行機、空を舞うドラゴンなどが体験内に出現する。</p>
-<p><strong>4D生成を用いたゲーム「Wish Master」：</strong> プレイヤーが入力したテキストに応じて、体験内にオブジェクトが生成される。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image3_7954b37919/image3_7954b37919.webp" alt="image3.webp" /></p>
-<p>早期アクセス期間中、4D生成によって16万点以上のオブジェクトが生成され、4D生成を利用したプレイヤーは、平均プレイ時間が64％増加したという。Robloxは、こうしたデータが「その場で遊べる生成」が体験価値を高めることを示していると説明している。</p>
-<h2>Cube Foundation Modelが支える4D生成</h2>
-<p>4D生成を支える「<a href="https://about.roblox.com/newsroom/2025/03/introducing-roblox-cube">Cube Foundation Model</a>」は、Robloxが3Dオブジェクト生成や、将来的にはシーン全体の生成を視野に入れて構築した基盤モデルだ。Robloxは、アセットや環境、コード、アニメーションなどを自然言語プロンプトから生成する制作基盤の実現を目標に掲げている。</p>
-<p>現在のベータでは、限られた種類のオブジェクト生成から提供を開始しているが、同社は今後、現実世界に存在する数千種類のオブジェクトをカバーするオープンなスキーマ体系へと拡張していく方針だ。</p>
-<h2>次段階としての「real-time dreaming」</h2>
-<p>Robloxは今回のリリースの中で、4D生成の先にある取り組みとして、「real-time dreaming」と呼ぶ研究プロジェクトにも言及した。
-これは、世界モデルを活用し、没入型の環境を生成・反復・デバッグしながら、共同制作までを自然言語で行えるようにする構想だという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/roblox_real_time_dreaming_d6a7e2c230/roblox_real_time_dreaming_d6a7e2c230.jpg" alt="roblox real-time dreaming.jpg" /></p>
-<p>生成AIによる仮想世界構築をめぐっては、Google DeepMindの「Project Genie」など、世界モデルを用いた研究も進められている。Robloxは、4D生成によって「その場で遊べる」体験を実装しながら、より包括的な世界生成へと研究領域を広げていく考えだ。</p>
 ]]></description>
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
