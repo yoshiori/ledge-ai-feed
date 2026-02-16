@@ -356,6 +356,32 @@
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
+      <link>https://ledge.ai/articles/google_gemini_ai_mode_reinvent_ads_ucp_checkout</link>
+      <description><![CDATA[<p>Googleは2026年2月11日（現地時間）、AIによる検索体験「AI Mode」において、小売業者の購入導線を示す<a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/">新しい広告フォーマット</a>を米国でテストしていると明らかにした。クエリに関連するショッピング推薦をオーガニックに表示した上で、その商品を取り扱う小売業者を「Sponsored」と明記して提示する形式である。あわせて、購入直前の利用者に個別最適化されたオファーを提示する「Direct Offers」を導入した。</p>
+<p>さらに、Universal Commerce Protocol（UCP）に基づくチェックアウト機能が米国でロールアウト中で、EtsyおよびWayfairの商品をAI ModeおよびGeminiアプリ内で購入できるようになっている。</p>
+<h2>AI Modeで“Sponsored”広告をテスト</h2>
+<p>Googleによると、AI Modeではまず、クエリに関連性の高いショッピング推薦をオーガニックに表示する。その上で、該当商品を取り扱う小売業者を「Sponsored」と明記した広告形式で提示する仕組みを、米国でテストしている。対象は小売分野から開始しており、旅行など他のカテゴリへの展開も検証している。</p>
+<p>同社は、検索体験がキーワード中心から会話型へ移行する中で、利用者が複数ブランドや店舗を比較しやすくなることが有用性を高めると説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sponsored_9158c52b69/sponsored_9158c52b69.jpg" alt="sponsored.jpg" /></p>
+<h2>「Direct Offers」：購入直前の利用者に個別提示</h2>
+<p>同社はあわせて、AI Mode向けの新しい収益化体験「<a href="https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/">Direct Offers</a>」を導入した。これは、購入準備が整った利用者に対し、個別最適化されたオファーを提示する仕組みである。</p>
+<p>価格割引だけでなく、ロイヤルティ特典や商品バンドルなど、価値を拡張する提案も含める方針としている。通常価格そのものを変更するものではないとしている。</p>
+<h2>UCP-powered checkoutがロールアウト中</h2>
+<p>Universal Commerce Protocol（UCP）に基づくチェックアウト機能は、現在米国の利用者向けにロールアウト中である。</p>
+<p>Googleによれば、EtsyおよびWayfairの商品をAI Mode（検索）およびGeminiアプリ内で直接購入できるようになっている。今後はShopify、Target、Walmartなども対応予定としている。</p>
+<h2>広告を「再定義」するという位置付け</h2>
+<p>Googleは今回の発表の中で、「検索に広告を持ち込む」のではなく、「広告そのものを再定義する」と説明した。</p>
+<p>同社によれば、AI ModeにおけるSponsored表示やDirect Offers、UCP-powered checkoutの展開は、会話型検索の中に広告、オファー提示、決済機能を組み込む取り組みの一環である。</p>
+<p>同社Ads &amp; Commerce部門のVidhya Srinivasan氏は、Frontier CMO podcastで今回の戦略について語り、これを商取引体験の「再配線（rewiring）」だと表現した。また、AIにより「スピードと確実性を両立できる」と述べた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=acuGQ07PeAU">YouTube</a></p>
+<h2>Gemini 3が広告基盤を支える</h2>
+<p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
+<p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
       <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
       <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
@@ -537,28 +563,6 @@ Wish Masterでは、プレイヤーが入力した「願い」に応じてオブ
 <p>創業者は今回の資金調達にあたり、「日本から、世界で一番愛されるAIキャラクター、そして日常に寄り添い支えとなるAIコンパニオンを全力で作っていく」との方針を示している。</p>
 <p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
 <p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Waymo、DeepMindの世界モデル「Genie 3」を活用した自動運転向け生成シミュレーション「Waymo World Model」を発表</title>
-      <link>https://ledge.ai/articles/waymo_world_model_genie3_simulation</link>
-      <description><![CDATA[<p>Waymoは2026年2月6日、Google DeepMindが研究を進める汎用世界モデル「Genie 3」の成果を活用し、自動運転向けの生成シミュレーションモデル「Waymo World Model」を<a href="https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation">発表</a>した。現実世界に近い交通環境を生成AIで再現し、学習や安全性検証を高度化する狙いがある。</p>
-<h2>生成AIで“走行世界”を再構築する「Waymo World Model」</h2>
-<p>Waymo World Modelは、自動運転開発のために設計された生成型シミュレーションモデルだ。実走行データを基に、道路構造や周辺環境、交通参加者の挙動を仮想空間上で再構成・生成できる。カメラ映像に加え、LiDARなど複数センサーの出力を含むシーン生成に対応し、開発や検証に用いる走行データを柔軟に拡張できるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_1_7250ba77e1/waymo_1_7250ba77e1.jpg" alt="waymo 1.jpg" /></p>
-<h2>DeepMindの汎用世界モデル「Genie 3」を自動運転に応用</h2>
-<p>同モデルは、DeepMindが研究開発する汎用世界モデル「Genie 3」で培われた技術的成果を基盤としている。Genie 3は、世界の状態を一貫性を保ったまま生成・操作できる点が特徴で、インタラクティブな環境生成を可能にする。Waymoはこのアプローチを自動運転向けに最適化し、交通環境の再現に応用した。</p>
-<h2>実走では再現困難な希少・危険シナリオを仮想生成</h2>
-<p>Waymo World Modelにより、実走では遭遇頻度が低い事象や安全上の理由で再現が難しいケースを仮想空間で生成できる。天候や時間帯、交通量、周囲の行動パターンなどを組み合わせ、多様な走行シナリオを作成することで、検証の網羅性を高めることが可能になるという。</p>
-<p><strong>■ 生成シミュレーションで再現された竜巻遭遇シナリオ。実走行では安全上の理由から検証が困難な極端気象下の走行環境を、仮想空間で生成・検証できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_2_2f41310e98/waymo_2_2f41310e98.jpg" alt="waymo 2.jpg" /></p>
-<p>■ <strong>野生動物が道路を横断するシナリオを生成した例。地域によっては発生し得るものの、実走データとしては取得が難しいケースを仮想的に再現している。</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/waymo_3_4ffd2847ca/waymo_3_4ffd2847ca.jpg" alt="waymo 3.jpg" /></p>
-<h2>実走データ依存から生成シミュレーション活用へ</h2>
-<p>Waymoはこれまでも、実走データとシミュレーションを組み合わせた開発を進めてきた。今回の発表は、生成AIを用いたシミュレーション活用を強化し、学習や検証の効率化を図る取り組みとして位置づけられる。実世界データへの依存を補完しながら、開発サイクルの高速化を目指す。</p>
-<h2>世界モデル研究の実用化が進展</h2>
-<p>汎用世界モデルの研究は、これまで主に基礎研究の文脈で語られてきた。Waymo World Modelは、そうした研究成果が自動運転という実用分野に組み込まれた事例の一つとなる。Waymoは今後、このモデルを自社の開発パイプラインに統合し、安全性検証と性能向上の両立を進めるとしている。</p>
 ]]></description>
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
