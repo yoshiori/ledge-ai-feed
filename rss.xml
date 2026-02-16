@@ -250,6 +250,43 @@
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
+      <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
+      <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
+<h2>富士通、国産「ソブリンAIサーバ」を3月から製造開始</h2>
+<p>同社は、経済安全保障の強化やサイバー攻撃リスクの高まりを背景に、データやインフラの主権を確保する「ソブリン性」へのニーズが高まっていると説明する。</p>
+<p>製造を開始する「ソブリンAIサーバ」は、重要インフラや公共領域など、ミッションクリティカルな用途を想定したAI基盤として提供予定。日本国内で設計・製造・検査を行うことで、データ流出リスクの最小化や国内法令への準拠、技術コントロールの確保などを図るとしている。</p>
+<h2>経済安保・サイバー脅威で“ソブリン性”需要が拡大</h2>
+<p>富士通は、ソブリン性（データやAI基盤の管理・統制を自国・自組織内で完結できる状態）を備えたAI基盤に求められる要件として、以下を挙げている。</p>
+<ul>
+<li>データ流出リスクの最小化</li>
+<li>自律的な運用体制の確立</li>
+<li>国内法への準拠</li>
+<li>セキュリティリスクの透明性確保</li>
+<li>テクノロジーのコントロール</li>
+</ul>
+<p>生成AIの普及により、大規模な演算基盤を支えるAIサーバの戦略的重要性が増していることも背景にある。</p>
+<h2>Blackwell世代GPU搭載のAIサーバを国内生産へ</h2>
+<p>3月から製造を開始するソブリンAIサーバには、NVIDIAの最新世代GPUが搭載される。
+具体的には、</p>
+<ul>
+<li>NVIDIA HGX B300</li>
+<li>NVIDIA RTX PRO 6000 Blackwell Server Edition</li>
+</ul>
+<p>を搭載した構成のサーバを、Made in Japan製品として国内で製造する。これにより、生成AIや大規模言語モデル（LLM）の学習・推論用途に対応する高性能AI基盤を国内生産体制で提供する。</p>
+<h2>“国内一貫生産”でトレーサビリティと透明性を強化</h2>
+<p>製造は、富士通グループの笠島工場（石川県かほく市）で行う。同工場は、スーパーコンピュータ「富岳」や高信頼サーバの製造で培った技術を有する拠点だ。</p>
+<p>装置組立は2026年3月に開始し、プリント基板の組立は2026年6月から国内で開始する予定としている。主要部品のトレーサビリティを確保し、基板から装置までの一貫生産体制を構築することで、製造工程の透明性向上とソブリン性の強化を図る。</p>
+<h2>次の一手：FUJITSU-MONAKA搭載サーバを2026年度中に</h2>
+<p>富士通はあわせて、自社開発の省電力プロセッサ「FUJITSU-MONAKA」を搭載したサーバについても、2026年度中にMade in Japan製品として製造開始する予定を示した。</p>
+<p>同サーバにはコンフィデンシャルコンピューティング技術を組み込み、データの機密性を高める設計とする方針だ。</p>
+<h2>日本・欧州へ展開、Supermicro協業も拡大</h2>
+<p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
+<p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
+]]></description>
+      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Gemini 3 Flashに高精度な画像理解「Agentic Vision」追加──Python実行で画像を再検査、品質5〜10%向上</title>
       <link>https://ledge.ai/articles/gemini_3_flash_agentic_vision_image_understanding</link>
       <description><![CDATA[<p>Googleは2026年1月27日、同社のAIモデル「Gemini 3 Flash」に、高精度な画像理解機能「Agentic Vision」を追加したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/">発表</a>{target=”_blank”}した。画像を一度解析して回答を返す従来型の手法とは異なり、モデル自身が処理手順を組み立て、必要に応じて画像を拡大・切り出ししながら検証を重ねることで、視覚的根拠に基づく回答を可能にするという。</p>
@@ -315,26 +352,6 @@
 <h2>生成から検証へ──査読制度への警告</h2>
 <p>研究者は論文終盤で、AIが論文生成の摩擦を劇的に低下させるほど、科学のボトルネックは「アイデア生成」から「検証」へ移ると述べている。従来の人間中心の査読制度は、AIによって高速かつ大量に生成される高度な論文を十分に精査できるよう設計されていない可能性があるという。</p>
 <p>著者らは、生成に用いられたのと同様のAI技術を、欠陥検出や形式的検証支援に活用するなど、査読・評価側の仕組みを再設計する必要性を示唆している。</p>
-]]></description>
-      <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、冬季五輪代表をAIで支援──撮影した映像を数分で3D解析するスキー・スノーボード向け分析ツールを構築</title>
-      <link>https://ledge.ai/articles/google_ai_3d_video_analysis_ski_snowboard_team_usa</link>
-      <description><![CDATA[<p>Google Cloudは2026年2月5日、米国のスキー・スノーボード競技統括団体である U.S. Ski &amp; Snowboard と共同で、AIを活用した映像分析プラットフォームを構築したと<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/">発表</a>した。撮影した映像から選手の動きを解析し、数分以内にフィードバックを得られる点を特徴とする。</p>
-<p>フリースタイルスキーやスノーボードでは、時速80キロ近いスピードでの滑走中に、わずかな踏切角度や回転の差が成績を左右する。Google Cloudは、こうした競技特性を踏まえ、同団体と連携して「業界初（industry-first）」とするAI映像分析ツールを開発した。スノーボードの Maddie Mastro 選手や、フリースキーの Alex Hall 選手らが活用事例として紹介されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=ELvfX0l6dyQ">YouTube</a></p>
-<h2>専用機材を使わず、映像から人体の動きを3D推定</h2>
-<p>従来、高精度なモーションキャプチャは、専用スーツやセンサーを装着し、管理されたスタジオ環境で行う必要があった。今回のツールはそうした制約を排し、撮影した2D映像のみを用いて、選手の動きを3Dで推定する。Google DeepMindが進めてきた空間知能（spatial intelligence）の研究成果を活用し、厚手のウインターギア越しでも骨格ポイントを推定できる「マーカー不要（markerless）」の手法を採用している。</p>
-<p>解析処理はGoogle Cloud上で行われ、データは数分で生成される。発表によると、分析結果が次のリフトに乗っている間に得られるケースもあるという。</p>
-<h2>Geminiを通じて、データと対話</h2>
-<p>解析後、コーチや選手はGoogleの生成AI「Gemini」を用いて、データを自然言語で照会できる。例えば、「昨日のベストランと踏切角はどう違うか」といった質問に対し、数値に基づいた回答を即座に得られるとしている。</p>
-<p>U.S. Ski &amp; Snowboardで競技全体を統括するアヌーク・パティ氏は、「映像は最も一般的で有効なコーチングツールだが、これまでは分析に時間がかかっていた。AIによって競技レベルの映像をより深く、安全に活用できるようになる」とコメントした。</p>
-<h2>極限環境での共同開発と今後</h2>
-<p>ツールの開発にあたり、Google Cloudのエンジニアは、同団体のフリースキーおよびスノーボードチームとともに、オーストリアや米コロラド州などの極限環境で検証を行った。山の上での主観的な観察と、ラボ内での高精度計測の間にあった長年のギャップを埋めることが狙いだとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dawsy_2023_Europe_Cortina_1_29_03a3b4f2e5/Dawsy_2023_Europe_Cortina_1_29_03a3b4f2e5.jpg" alt="Dawsy_2023_Europe_Cortina-1-29.jpg" /></p>
-<p>Google Cloudで生成AI分野を統括するオリバー・パーカー氏は、「世界最高峰のアスリートを最も過酷な環境で支える技術を確立することで、人の動きの理解と改善の在り方を変える」と述べた。</p>
-<p>このAI映像分析プラットフォームは現時点では実験的な取り組みと位置づけられており、U.S. Ski &amp; Snowboardの選手・コーチ陣による検証が、冬季五輪本番に向けて続けられている。</p>
 ]]></description>
       <pubDate>Tue, 03 Feb 2026 23:50:00 GMT</pubDate>
     </item>
