@@ -544,5 +544,27 @@
 ]]></description>
       <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
+    <item>
+      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
+      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
+      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
+<h2>エージェント志向モデルとしての位置づけ</h2>
+<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
+<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
+<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
+<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
+<h2>Vending-Bench 2でのシミュレーション結果</h2>
+<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
+<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
+<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
+<h2>公開形態と提供</h2>
+<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
+同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
+<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
+]]></description>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
