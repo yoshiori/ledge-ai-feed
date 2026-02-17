@@ -307,6 +307,46 @@
       <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
+      <link>https://ledge.ai/articles/gemini_3_deep_think_arc_agi_2_84_6</link>
+      <description><![CDATA[<p>Googleは2026年2月12日、推論特化モード「Gemini 3 Deep Think」の大幅アップデートを<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/">発表</a>した。科学・研究・工学領域の高度な問題解決を主用途として位置づけ、ARC-AGI-2で84.6%を記録したと公表している。</p>
+<p>更新版のGemini 3 Deep Thinkは、Google AI Ultra加入者向けにGeminiアプリで提供を開始。また、Gemini APIでも研究者・企業向けにEarly Access Programとして利用申請の受付を開始した。</p>
+<h2>ARC-AGI-2で84.6%──主要ベンチマーク結果</h2>
+<p><strong>■ Gemini 3 Deep Thinkの主要ベンチマーク結果。ARC-AGI-2、Humanity’s Last Exam、MMMU-Pro、Codeforcesなどで比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_deep_think_evals_charts_1_6b40186942/gemini_3_deep_think_evals_charts_1_6b40186942.jpg" alt="gemini_3_deep-think_evals_charts_1.jpg" /></p>
+<p>Googleが公開した評価資料によると、主な結果は以下の通り。</p>
+<ul>
+<li>ARC-AGI-2：84.6%</li>
+<li>Humanity’s Last Exam：48.4%（no tools）、53.4%（search+code）</li>
+<li>MMMU-Pro：81.5%</li>
+<li>Codeforces：Elo 3455</li>
+</ul>
+<p>ARC-AGI-2は抽象推論能力を測るベンチマークで、ARC Prize Verified（v2 semi-private）に基づく数値としている。Humanity’s Last Examでは、ツール未使用と検索・コード実行併用の双方を公表。CodeforcesではElo 3455を記録した。評価手法は原則pass@1で算出し、一部小規模ベンチマークでは複数試行平均を用いたと説明している。</p>
+<h2>科学分野ベンチでの数値</h2>
+<p><strong>■ Gemini 3 Deep Thinkと他モデルのベンチマーク比較一覧（Feb 2026時点）。IMO、IPhO、IChO、CMT-Benchmarkなどを含む</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_deep_think_evals_table_1_e96eae2c49/gemini_3_deep_think_evals_table_1_e96eae2c49.jpg" alt="gemini_3_deep-think_evals_table_1.jpg" /></p>
+<p>同資料では、科学系競技・専門ベンチマークにおける結果も公開している。</p>
+<ul>
+<li>International Math Olympiad 2025：81.5%</li>
+<li>International Physics Olympiad 2025（theory）：87.7%</li>
+<li>International Chemistry Olympiad 2025（theory）：82.8%</li>
+<li>CMT-Benchmark（凝縮系理論）：50.5%</li>
+</ul>
+<p>IPhOおよびIChOでは、Geminiをjudgeとして使用し、独立専門家による検証を経たと説明している。</p>
+<h2>「Deep Think」の位置づけ</h2>
+<p>GoogleはDeep Thinkを、Gemini 3におけるspecialized reasoning modeと説明している。不完全な情報や複数の解が存在し得る研究課題を対象とし、科学的知識とエンジニアリング実務を統合した推論を行う設計だとしている。</p>
+<p>初期テスター事例として、以下を紹介している。</p>
+<ul>
+<li>Rutgers大学：高エネルギー物理論文の論理的欠陥の指摘</li>
+<li>Duke大学：半導体材料の結晶成長レシピ設計</li>
+<li>Google社内：物理コンポーネント設計支援</li>
+</ul>
+<h2>Ultra提供とAPI早期アクセスへ</h2>
+<p>今回のアップデートでは、GeminiアプリでのUltra向け提供に加え、Gemini APIで初めてDeep Thinkモードの早期アクセスを開始した。研究者や企業が実運用環境で利用できる段階へ移行した形となる。Googleは、科学・研究・工学領域における高度推論用途を主軸に展開していく方針を示している。</p>
+]]></description>
+      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/2/13 [FRI]AI時代の科学研究のボトルネックは「アイデア創出」から「検証」へ──査読制度に警鐘、Google・カーネギーメロン大学など16機関がケーススタディを公表</title>
       <link>https://ledge.ai/articles/gemini_science_impending_crisis_peer_review</link>
       <description><![CDATA[<p>2026年2月3日、Google Research、カーネギーメロン大学（Carnegie Mellon University）など16機関の研究者は、Googleの推論強化型モデル「Gemini Deep Think」の高度版を研究に活用したケーススタディをarXivで<a href="https://arxiv.org/abs/2602.03837">公開</a>した。</p>
