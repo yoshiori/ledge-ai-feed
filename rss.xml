@@ -5,306 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
-      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
-      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
-<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
-<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
-<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
-<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
-<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
-<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
-<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
-<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
-<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
+      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
+      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
+      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
+<h2>エージェント志向モデルとしての位置づけ</h2>
+<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
+<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
+<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
+<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
+<h2>Vending-Bench 2でのシミュレーション結果</h2>
+<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
+<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
+<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
+<h2>公開形態と提供</h2>
+<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
+同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
+<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>元OpenAI研究者、ChatGPT広告テスト開始の週に辞職　NYTに「OpenAIはFacebookと同じ過ち」と題した寄稿</title>
-      <link>https://ledge.ai/articles/openai_ads_test_researcher_quits_nyt_facebook_comparison</link>
-      <description><![CDATA[<p>OpenAIが2026年2月9日に対話型AI「ChatGPT」で広告表示のテストを開始した週に、同社の元研究者であるZoë Hitzig氏が<a href="https://x.com/zhitzig/status/2021590831979778051">辞職を公表</a>した。Hitzig氏は2026年2月11日付の米紙The New York Times(NYT)のオピニオン欄に「OpenAI Is Making the Mistakes Facebook Made. I Quit.（OpenAIはFacebookと同じ過ちを犯している。私は辞めた）」と題したエッセイを<a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html">寄稿</a>し、広告モデル導入に対する懸念を示した。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zoe_Hitzig_4e4cb3454d/Zoe_Hitzig_4e4cb3454d.jpg" alt="Zoë Hitzig.jpg" /></p>
-<h2>2年間にわたりモデル構築や価格設計に関与</h2>
-<p>寄稿によると、Hitzig氏はOpenAIに約2年間在籍し、AIモデルの構築や価格設計（pricing）、初期の安全性方針の策定に携わってきたという。同氏は、広告そのものを「不道徳あるいは非倫理的だとは考えていない」と明言する一方で、同社の戦略に「深い懸念」を抱いていると述べた。</p>
-<p>Hitzig氏は、ChatGPTの利用者がこれまでに前例のない規模で個人的な悩みや医療上の不安、信仰観などを打ち明けてきた点に言及。そうした会話アーカイブを基盤とした広告モデルが、ユーザーを操作する可能性を持つと指摘している。</p>
-<h2>OpenAIは広告を明確表示、回答への影響は否定</h2>
-<p>OpenAIは同週、ChatGPTにおける広告表示のテスト開始を<a href="https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026">発表</a>した。広告は回答の下部に表示され、明確にラベル付けされるほか、回答内容には影響しないとしている。</p>
-<p>広告はAI運用コストを賄う収益源の一つとなり得るが、Hitzig氏は、広告導入を巡る議論を「広告か、アクセス制限か」という二者択一として捉えるのは誤りだと主張。企業向け利用からのクロスサブシディや、独立した監督権限を持つガバナンス構造、データを独立的に管理するトラストモデルなど、代替案を提示している。</p>
-<h2>「Facebookの過ち」を引き合いに</h2>
-<p>寄稿では、かつてFacebook（現Meta）が広告モデルのもとでエンゲージメント最適化を進める過程で、当初掲げたデータ管理や利用者の統制に関する原則が徐々に後退した経緯にも言及している。Hitzig氏は、広告モデルが強いインセンティブを生み出す構造にあると指摘し、OpenAIが同様の道をたどる可能性に懸念を示した。</p>
-<h2>8億人規模の利用基盤</h2>
-<p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
-<p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
-]]></description>
-      <pubDate>Sat, 14 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
-      <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
-      <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introduce_simile_b002315008/introduce_simile_b002315008.jpg" alt="introduce simile.jpg" /></p>
-<p>あわせて、同社はSeries Aラウンドで1億ドル（約150億円）を調達したことを明らかにした。リード投資家はIndex Venturesが務め、Hanabi、A*、Bain Capital Ventures（BCV）らが参加した。また、個人投資家としてAndrej Karpathy氏、Fei-Fei Li氏、Adam D’Angelo氏、Guillermo Rauch氏、Scott Belsky氏らも出資者に名を連ねている。</p>
-<h2>実在人間に基づくエージェントで社会を再現</h2>
-<p><a href="https://simile.ai/blog/the-simulation-company">Simile</a>は、人間の行動や意思決定を再現する基盤モデルの開発を専門とする企業である。CEOのJoon Sung Park氏は、かつてスタンフォード大学で「生成エージェント（generative agents）」の研究を主導した経歴を持つ。</p>
-<p>同社のシミュレーション基盤は、実在の人間をモデル化したエージェントを多数配置し、それらの相互作用を通じて社会全体の動向を再現する仕組みである。現在は、あらゆる状況や規模において人間行動を予測可能な基盤モデルの開発に注力している。</p>
-<h2>意思決定の「フライトシミュレーター」</h2>
-<p>すでに企業向けの実装も始まっており、Simileは自社プラットフォームを**「重要な意思決定のためのフライトシミュレーター」**と定義している。用途として挙げられているのは以下の例だ。</p>
-<ul>
-<li><strong>IR・経営戦略</strong>： 決算説明会（earnings calls）における投資家の反応予測</li>
-<li><strong>法務・訴訟</strong>： 訴訟結果のモデリングとシミュレーション</li>
-<li><strong>公共政策</strong>： 政策変更が社会に及ぼす影響のテスト</li>
-</ul>
-<h2>開発の加速と世界規模への拡張</h2>
-<p>今回調達した1億ドルは、社会シミュレーション基盤の開発を加速するための資金として充てられる。</p>
-<p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
-]]></description>
-      <pubDate>Sat, 14 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「見えないAI労働」の代償──インド農村部の女性が暴力・性的虐待コンテンツを大量視聴しAIを訓練する“コンテンツモデレーション”の実態、英紙Guardianが報道</title>
-      <link>https://ledge.ai/articles/invisible_ai_labor_india_content_moderation_guardian_report</link>
-      <description><![CDATA[<p>英国紙<a href="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai">The Guardian</a>は2026年2月5日、インドの農村部に住む女性労働者が、暴力や性的虐待を含むコンテンツを日常的に視聴・分類することで、グローバルテック企業のAIシステムの訓練を支えている実態を報じた。記事は、現地での取材と当事者の証言をもとに、コンテンツモデレーション業務の具体像と心理的影響、支援体制の現状を伝えている。</p>
-<h2>1日最大800件──AIを支える人間の最終判定</h2>
-<p>報道によると、インド東部ジャールカンド州の農村部に住む26歳の女性は、自宅からリモートでログインし、プラットフォームの自動検知システムによって「違反の可能性あり」と判断された動画や画像、テキストを審査している。平均的な日で最大800件を確認し、暴力、虐待、ポルノグラフィなどに該当するかを分類する。</p>
-<p>こうした判定結果は、アルゴリズムの精度向上や有害コンテンツ検知の高度化に用いられる教師データとなる。記事では、この業務が機械学習の基盤を支える工程の一部であると説明されている。</p>
-<h2>二次的外傷ストレスという職業リスク</h2>
-<p>「最後は無になる」──取材に応じた女性は、長時間にわたり暴力や性的虐待を含む映像を視聴し続けた末に訪れる感覚をそう表現した。</p>
-<p>記事では、不眠や悪夢、侵入思考、感情の麻痺といった症状が紹介されている。社会学者ミラグロス・ミセリ氏が主導する<a href="https://milamiceli.com/inquiry/">Data Workers’ Inquiry</a>では、コンテンツモデレーションが心理的負荷の高い労働であると指摘している。</p>
-<p>また、コンテンツモデレーター311人を18か月にわたり追跡した<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12711784/">研究</a>では、二次的外傷ストレスや燃え尽き、レジリエンスなど複数の心理指標が測定され、長期的な心理的影響が検討されている。企業による介入プログラムが導入されている事例もあるが、記事は依然として心理的リスクが課題であると伝えている。</p>
-<h2>“ゴーストワーカー”と呼ばれる構造</h2>
-<p>インドでは2021年時点で約7万人がデータアノテーション業務に従事していると推計され、市場規模は約2億5000万ドルに達するとされる。多くは農村や準農村地域出身で、女性が半数以上を占める。</p>
-<p>企業は地方都市に拠点を設け、改善されたインターネット接続環境を通じてグローバルなAI供給網と接続している。一方で、業務内容が契約前に十分説明されないケースや、心理的支援体制が限定的であるとの指摘もある。</p>
-<p><strong>記事より引用：視聴していた過激なコンテンツについて懸念を表明したとき、彼女のマネージャーはこう言いました。「これは神の仕事です。あなたは子供たちを安全に守っているのです。」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian260205_cab1dea129/the_guardian260205_cab1dea129.jpg" alt="the guardian260205.jpg" /></p>
-<p>さらに、厳格な秘密保持契約（NDA）により、労働者が家族や友人に業務内容を話すことが難しい状況も報じられている。記事は、生成AIの進展の裏側で、人間の目と判断が果たしている役割に光を当てている。</p>
-]]></description>
-      <pubDate>Fri, 13 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance、動画生成AI「Seedance 2.0」を公開　マルチモーダル入力と参照機能を強化</title>
-      <link>https://ledge.ai/articles/seedance_2_0_bytedance_multimodal_video_generation</link>
-      <description><![CDATA[<p>ByteDance（TikTokの親会社）は、動画生成AI「Seedance 2.0」を正式公開した。同モデルは、同社の生成AIサービス「<a href="https://jimeng.jianying.com/">即梦（Jimeng）</a>」上で提供されている。2026年2月10日更新の<a href="https://bytedance.larkoffice.com/wiki/A5RHwWhoBiOnjukIIw6cu5ybnXQ">公式ユーザーガイド</a>（Lark Wiki）および即梦の公式サイトで案内されている。</p>
-<p>現在は段階的に公開されており、会員・非会員ともに順次利用可能になるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jimeng_f353651d6b/jimeng_f353651d6b.jpg" alt="jimeng.jpg" /></p>
-<h2>画像・動画・音声・テキストの4モダリティに対応</h2>
-<p>Seedance 2.0は、画像・動画・音声・テキストの4種類の入力形式に対応するマルチモーダル動画生成モデルである。</p>
-<p>使用手册によると、主な仕様は以下の通り。</p>
-<ul>
-<li>画像：jpeg、png、webp、bmp、tiff、gif形式に対応（最大9枚、30MB未満）</li>
-<li>動画：mp4、mov形式（最大3本、合計2〜15秒、50MB未満）</li>
-<li>音声：mp3、wav形式（最大3本、合計15秒以内、15MB未満）</li>
-<li>テキスト：自然言語入力</li>
-<li>混合入力の総上限：12ファイル</li>
-<li>生成時間：4〜15秒（最大15秒）</li>
-</ul>
-<p>動画入力には総ピクセル数の上限も設けられている。生成時には効果音や音楽を含めた出力も可能としている。</p>
-<h2>参照機能を強化、映像表現の制御性を向上</h2>
-<p>今回のアップデートでは、参照機能の強化が中核に据えられている。</p>
-<p>参照画像を用いることで構図やキャラクターの細部を保持し、参照動画を利用することでカメラワークや動作のリズム、視覚効果などを指定できる。既存動画の延長や、ユーザーの指示に基づく連続的なショット生成にも対応する。</p>
-<p>さらに、既存動画を入力として、登場人物の差し替えや削除、追加などの編集操作も可能となっている。</p>
-<h2>シンプル生成とマルチモーダル生成の2方式を提供</h2>
-<p>Seedance 2.0は、生成方法として大きく2つのモードを用意している。UI上では「首尾帧」と「全能参考」と表示される。</p>
-<ul>
-<li>首尾帧（シンプル生成）：開始フレームとなる画像とテキストのみで動画を生成するシンプルなモード</li>
-<li>全能参考（マルチモーダル生成）：画像・動画・音声・テキストを組み合わせ、参照素材を指定しながら生成する高度なモード</li>
-</ul>
-<p>複数素材を用いる場合は、「@素材名」の形式で各素材の役割を明示する。たとえば、ある画像を開始フレームとして指定し、別の動画をカメラワークの参照に、音声をBGMとして利用する、といった指定が可能だ。</p>
-<h2>実在人物の写真人顔素材は現在非対応</h2>
-<p>使用手册では、プラットフォームのコンプライアンス上の理由から、実在人物の写真人顔を含む画像や動画素材のアップロードは現在サポートしていないと明記している。該当素材はシステム側で自動的に制限される。</p>
-<p>今後の仕様変更については、文書内で更新するとしている。</p>
-]]></description>
-      <pubDate>Thu, 12 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>報ステ「選挙ステーション2026」で高速ロボットアーム「BOLT」導入　人間不可能な超高速カメラワークを披露</title>
-      <link>https://ledge.ai/articles/tv_asahi_election_station_2026_bolt_robot_arm_camera</link>
-      <description><![CDATA[<p>テレビ朝日は2026年2月8日、選挙特別番組『選挙ステーション2026』において、高速ロボットアームカメラ「<a href="https://x.com/hst_tvasahi/status/2020492521940406385">BOLT（ボルト）</a>」を導入した。</p>
-<p>番組内でキャスターは、生放送のスタジオ撮影で活用されるのは同局として初の試みであると説明したという。番組公式Xの投稿では、「人間が操作するカメラでは不可能なスピードと動きで撮影を行っている」としている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
-<p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
-<p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
-]]></description>
-      <pubDate>Thu, 12 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>データセンターにIOWN APNを実装──石狩と大手町を低遅延接続、東急不動産が生成AI・GPU向け基盤を構築</title>
-      <link>https://ledge.ai/articles/data_center_iown_ishikari_otemachi</link>
-      <description><![CDATA[<p>東急不動産は2026年2月6日、北海道石狩市で建設を進めている「石狩再エネデータセンター第1号」において、NTT東日本が提供する次世代通信基盤「IOWN（Innovative Optical and Wireless Network）」のAll-Photonics Network（APN）を導入すると<a href="https://www.tokyu-land.co.jp/news/2026/001648.html">発表</a>した。石狩市と東京・大手町の間をIOWNで接続するのは初めてで、2026年8月の導入を予定している。データセンターは再生可能エネルギー100％で運用され、2026年3月に竣工する見込みだ。</p>
-<p>デジタル社会の進展やAI需要の高まりを背景に、データセンター（DC）の需要は急速に拡大している。東急不動産によると、2030年度のDC消費電力は2022年度比で2倍以上、2050年度には5倍以上に増加する見通しだという。一方、DCが集積する関東圏・関西圏の特定エリアでは電力不足が指摘されており、国は「データセンターの地方分散」を掲げている。同社はこうした動きを踏まえ、石狩市と連携し、同事業を推進してきた。</p>
-<p>導入するIOWN APNにより、これまで課題とされてきた通信距離や通信遅延を解消し、高速・大容量・低遅延・省電力の通信を可能にする。これにより、石狩再エネデータセンターは、日本のネットワークの中心とされる東京・大手町と、あたかも隣接するデータセンターであるかのように利用できる環境を実現するとしている。同社の調査によると、石狩市と大手町の間でIOWNを実装するのは今回が初めてだという。</p>
-<p>IOWNの導入によって、災害復旧（DR）用途にとどまらず、都市型データセンターの拡張や、GPUを活用した生成AIサービスの提供、点群データの効率的な活用によるデジタルツインコンピューティング、近年被害が多発しているランサムウェア対策など、多様な用途での活用を見込む。さらに、2025年2月に閣議決定された「GX2040ビジョン」で示された、電力と通信を一体で捉える「ワット・ビット連携」の実現にも資する取り組みと位置付けている。</p>
-]]></description>
-      <pubDate>Wed, 11 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIの新事業「Frontier」：AIエージェント導入は“常駐エンジニア”が伴走し一気通貫支援　日本ではソフトバンクも検証開始</title>
-      <link>https://ledge.ai/articles/openai_frontier_ai_agents_forward_deployed_engineers</link>
-      <description><![CDATA[<p>OpenAIは2026年2月5日、企業が業務を担うAIエージェントを構築・展開・管理するための新事業「<a href="https://openai.com/index/introducing-openai-frontier/">OpenAI Frontier</a>」を開始した。OpenAIが「AI同僚（AI coworkers）」と呼ぶエージェントを、実際の事業に組み込むことを目的とした取り組みで、同社のエンジニアが顧客企業と連携しながら導入を支援する点が特徴だ。</p>
-<p>OpenAIによると、AIエージェントの活用が進まない要因はモデル性能ではなく、組織内での運用や管理にあるという。Frontierでは、複数のエージェントが共通の業務文脈を理解できる「共有コンテキスト」をはじめ、役割や業務内容を学習させるオンボーディング機能、利用結果を反映するフィードバック学習、業務権限や行動範囲を制御する仕組みなどを提供する。これにより、単発の業務自動化にとどまらず、組織横断で機能するAIエージェントの運用を可能にするとしている。</p>
-<p><strong>【OpenAI Frontierのアーキテクチャ概要】</strong> 共有された業務コンテキストの上でAIエージェントを実行し、評価・最適化を通じて改善する構造を示している
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Desktop_Lightmode_1_b2ad1049fb/Desktop_Lightmode_1_b2ad1049fb.jpg" alt="Desktop_Lightmode__1.jpg" /></p>
-<p>あわせてOpenAIは、Enterprise Frontier Programとして「Forward Deployed Engineers（FDE）」と呼ばれるエンジニアによる伴走支援を用意した。FDEは顧客企業のチームと協働し、システム設計やガバナンスの構築、本番環境でのエージェント運用までを一気通貫で支援する役割を担う。AIエージェントを既存の業務プロセスやIT環境に組み込み、実運用に耐える形で定着させることを狙う。</p>
-<p>導入事例としては、HP、Intuit、Oracle、Uberなどに加え、米保険大手のState Farmが「ローンチパートナー」として参加している。State Farmは、従業員や代理店の業務支援を目的にFrontierを活用するとしており、段階的な導入と安全性の確保を重視する姿勢を示している。</p>
-<p>日本では、<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260206_01/?sbpr=info">ソフトバンク</a>とSB OpenAI JapanがFrontierを活用した法人向けAIソリューションの検証を開始した。ソフトバンクは、OpenAIのFDEが顧客企業と並走し、設計から構築、運用までを支援する体制を整えるとしており、日本企業への展開を視野に入れた取り組みとなる。</p>
-]]></description>
-      <pubDate>Mon, 09 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
-      <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
-      <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kisei_kaikaku_kisei_AI_fe6f8d8c93/kisei_kaikaku_kisei_AI_fe6f8d8c93.jpg" alt="kisei-kaikaku-kisei AI.jpg" /></p>
-<p>同日行われた記者会見で、規制改革担当大臣である城内実氏は、令和7年12月23日に閣議決定された「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」において、AIの社会実装の実現に向け、国民の声を聴きながら既存の規制や制度の点検および見直しを図る方針が示されていると説明。その方針を受けた具体的な取り組みとして、今回の情報募集を実施すると述べた。</p>
-<p>城内氏は、AI担当大臣である小野田紀美氏と連携し、AIの社会実装において障害となる、または不十分な効果をもたらす規制・制度について、国民に広く情報提供を求めると説明した。内閣府のウェブサイトには特設ページが設けられ、専用フォームから情報を提出できる。</p>
-<p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
-<p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
-      <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
-<h2>無料プランで利用可能となった対象機能</h2>
-<p>無料ユーザーに開放されたのは以下の3機能</p>
-<ul>
-<li>ファイル作成・編集（コード実行）</li>
-<li>Connectors（外部ツール連携）</li>
-<li>Skills（スキル機能）</li>
-</ul>
-<p>これらは従来、有料プランを中心に提供されてきた機能である。</p>
-<h2>「ファイル作成・編集（コード実行）」の提供内容</h2>
-<p>ファイル作成機能では、Claudeがコードを実行し、スプレッドシートやプレゼンテーション資料、PDFなどのファイルを生成・編集できる。Anthropicのヘルプセンターによれば、本機能は無料を含む各プランで利用可能と記載されている。Web版のほか、Claude Desktopおよびモバイル環境でも利用できる。</p>
-<p><strong>■ Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347.webp" alt="a7cc545ecf57240d91c97a102246ef6126bdc7f8-1920x1080.webp" /></p>
-<h2>「Connectors」および「Skills」の提供範囲</h2>
-<p>Connectorsは、Claudeを外部ツールやデータソースと連携させる機能である。公式ドキュメントでは、Web connectorsは全ユーザーが利用可能とされている。一方で、カスタムコネクターの作成は有料プラン向けと明記されている。</p>
-<p>Skillsは、あらかじめ用意された機能拡張や、ユーザーが作成したスキルをClaudeに追加できる仕組みである。設定画面から有効化することで利用でき、無料プランも対象に含まれている。</p>
-<p><strong>■ Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agent_skills_7f1c1cf0d3/agent_skills_7f1c1cf0d3.jpg" alt="agent skills.jpg" /></p>
-<h2>無料プランと有料プランの機能差</h2>
-<p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、最上位LLM「Claude Opus 4.6」公開——業務AIエージェント「Cowork」は大手SaaS各社の株価急落に影響を与える反響</title>
-      <link>https://ledge.ai/articles/anthropic_claude_opus_4_6_cowork_saas_stock_reaction</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月5日（現地時間）、同社の最上位大規模言語モデル（LLM）「Claude Opus 4.6」を<a href="https://www.anthropic.com/news/claude-opus-4-6">発表</a>した。あわせて業務向けAIエージェント「Cowork」の展開を進めており、これら一連の動きを背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落したと<a href="https://www.reuters.com/business/media-telecom/ai-concerns-pummel-european-software-stocks-2026-02-03/">Reuters</a>など各メディアが報じている。</p>
-<h2>最上位モデル「Claude Opus 4.6」を公開、業務・エージェント用途を強化</h2>
-<p>Claude Opus 4.6は前モデルからコーディング能力を中心に改良されており、より慎重な計画立案、長時間にわたるエージェント的タスクの継続、大規模なコードベースでの信頼性向上、コードレビューやデバッグにおける自己修正能力の強化が図られている。あわせて、Opusクラスとしては初めて、最大100万トークンの長文脈処理（ベータ）にも対応した。</p>
-<p>@<a href="https://www.youtube.com/watch?v=dPn3GBI8lII&amp;t=1s">YouTube</a></p>
-<p>Anthropicは、Opus 4.6がこうした改良を通じて、財務分析や調査、文書・表計算・プレゼンテーションの作成といった業務タスクにも適用できるとしている。業務向けAIエージェント「Cowork」では、モデルが複数の作業を自律的に並行処理する場面で、これらの能力が活用される設計とされている。Opus 4.6は、同日からclaude.aiやAPI、主要クラウドプラットフォームで提供が開始され、価格は従来モデルから据え置かれている。</p>
-<p><strong>Anthropicが公開したベンチマーク表より抜粋。エージェント型コーディングやツール利用に関する評価結果を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/opus4_6_bench_9957e0e30b/opus4_6_bench_9957e0e30b.jpg" alt="opus4-6 bench.jpg" /></p>
-<h2>業務AIエージェント「Cowork」、段階提供とプラグイン公開の経緯</h2>
-<p>1月16日、同社は業務向けAIエージェント「<a href="https://claude.com/blog/cowork-research-preview">Cowork</a>」をProプラン向けにResearch Previewとして提供開始した。その後、1月23日にはTeamおよびEnterpriseプランにも対象を拡大している。Coworkは、プログラミング用途に限らず、調査、文書作成、タスク整理といった業務を対象とするAIエージェントとして説明されており、Claudeを基盤に複数の作業を横断的に扱うことを想定している。</p>
-<p>1月30日には、外部ツールや業務データ、ワークフローとの連携を可能にする「<a href="https://claude.com/blog/cowork-plugins">Cowork plugins</a>」を公開。プラグインを通じて外部ツールや社内システム、業務データソースと接続できる仕組みが提供されており、AIが単独で応答を生成するだけでなく、外部の情報や機能を参照・活用しながら作業を進める構成が示されている。これにより、AIエージェントが既存の業務ソフトウェアやワークフローと接続される形が明確になった。</p>
-<h2>SaaSはAIエージェントに代替されるのか──市場で「SaaS死亡説」が再燃</h2>
-<p>こうした一連の発表を背景に、欧州を中心にソフトウェア企業やSaaS関連企業の株価が下落した。Reutersは、業務AIエージェントの進化によって既存ソフトウェアのビジネスモデルが揺らぐとの見方が投資家の間で強まり、売りが広がったと報じている。</p>
-<p>報道では、特定の製品や単一の発表が株価下落の直接的な原因と断定されているわけではない。一方で、市場の懸念が強まった背景として、1月中旬にCoworkの提供が始まり、1月30日にプラグイン機能が公開されたことで、AIエージェントが外部ツールや業務データと連携し、既存のSaaSと機能単位で接続・競合し得るとの見方が具体的に意識されるようになった点が挙げられている。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
-      <link>https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026</link>
-      <description><![CDATA[<p>OpenAIは2026年2月9日、対話型AI「ChatGPT」における広告表示のテストを米国で開始したと<a href="https://openai.com/index/testing-ads-in-chatgpt/">発表</a>した。対象はログイン済みの成人ユーザーのうち「Free」および「Go」プランの利用者。Plus、Pro、Business、Enterprise、Educationなどの有料・法人向けプランでは広告は表示されない。</p>
-<p>広告は、ChatGPTの回答下部に「スポンサー」と明記される形で表示される。同社は広告の設計方針として、広告がAIの回答内容に影響を与えることは一切ないと強調している。年齢や利用状況などの情報が広告表示の判断に用いられるが、ユーザーの会話内容が広告主に共有されることはないという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_ads_test_us_free_go_2026_1b4547d6c0/chatgpt_ads_test_us_free_go_2026_1b4547d6c0.webp" alt="chatgpt_ads_test_us_free_go_2026.webp" /></p>
-<p>ユーザー向けには、特定の広告を非表示にする操作や、「なぜこの広告が表示されたのか」を確認する機能のほか、パーソナライズ広告の設定を管理する仕組みが提供される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12_2d9a500d99/12_2d9a500d99.webp" alt="12.webp" /></p>
-<p>OpenAIは広告導入の背景について、サービスの持続可能性を確保しつつ、より多くの人々に無料アクセスを提供し続けるための「収益モデル多様化の一環」と説明している。現在は米国内に限定されたテスト段階であり、今後の展開については状況を見ながら段階的に判断される見通しだ。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHubコミットの4％がAI生成──Claude Codeは2026年末に20％へ？SemiAnalysisが「エージェント化」の転換点と分析</title>
-      <link>https://ledge.ai/articles/claude_code_4_to_20_percent_github_growth</link>
-      <description><![CDATA[<p>2026年2月6日、半導体やAI産業の調査・分析を行うSemiAnalysisは、「Claude Code is the Inflection Point」と題したニュースレターを<a href="https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point">公開</a>した。同社は、Anthropicが提供するCLI型AIエージェントClaude Codeについて、GitHubの公開コミットの約4％が現在同ツールによって生成されていると指摘。さらに、現在の成長軌道が続けば、2026年末には20％超に達する可能性があると予測している。</p>
-<p>同社はこれを、生成AIによるコーディング支援が「補助」段階から「エージェント」段階へ移行する転換点だと位置づける。</p>
-<h2>IDE補完ではなく、ターミナル常駐型エージェント</h2>
-<p>Claude Codeは、IDEのサイドバーでコード補完を行う従来型ツールとは異なり、ターミナルネイティブのCLI（コマンドラインインターフェース）として動作する。</p>
-<p>SemiAnalysisによれば、その特徴は以下にある。</p>
-<ul>
-<li>コードベース全体を読み込む</li>
-<li>マルチステップの計画を立てる</li>
-<li>タスクを実行する</li>
-<li>検証・修正を繰り返す</li>
-</ul>
-<p>単一の関数や数行単位の補完ではなく、**READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）**の循環を自律的に回す点を重視する。同社は「Claude CodeはCodeではなくComputerに近い」と表現し、単なるコーディング支援を超えた汎用的な情報処理エージェントの実例と位置づけている。</p>
-<h2>「コール＆レスポンス」から「実行主体」へ</h2>
-<p>SemiAnalysisは、AIの価値創出が「トークンの販売」から「トークンのオーケストレーション」へ移行しつつあると分析する。</p>
-<p>従来のLLM APIは、入力に対して応答を返す“call &amp; response”型であり、短時間の処理が中心だった。一方、Claude Codeは長時間にわたりタスクを継続実行する設計を採る。モデル単体のベンチマーク性能よりも、エージェントとしての総合的な成果物が競争軸になるというのが同社の見立てだ。</p>
-<p>また、METRのデータを引用し、自律実行可能な「タスクホライゾン（継続時間）」が4〜7カ月ごとに倍増していると説明する。30分のコード補完から、数時間のモジュール改修、さらに数日単位の監査業務へと拡張可能性が広がっているとする。</p>
-<h2>開発者の役割はどう変わるのか</h2>
-<p>ニュースレターでは、複数の著名エンジニアの発言も紹介されている。</p>
-<ul>
-<li>Node.jsの開発者であるRyan Dahl氏は、「人間がコードを書く時代は終わった」と述べた。</li>
-<li>VercelのCTOであるMalte Ubl氏は、自身の「新しい主業務はAIの誤りを指摘することだ」と投稿。</li>
-<li>Ruby on Railsの開発者であるDavid Heinemeier Hansson氏は、手書きコードへのノスタルジーを語っている。</li>
-<li>Claude Code開発チームのBoris Cherny氏は、チームのコードのほぼ100％がClaude CodeとOpus 4.5によって書かれていると説明した。</li>
-</ul>
-<p>SemiAnalysisは、生成能力（generation）と識別能力（discrimination）が分離しつつあると整理する。実装を担う主体が人間からAIへ移る一方、人間の役割は設計、評価、検証へと重心が移る可能性があると示唆する。</p>
-<p>また、Anthropicが実施した実験では、AIを利用したコーディングは生産性を高める一方で、使い方によっては熟達度の低下が見られたと報告されている。エージェント活用が広がるなかで、開発者のスキル形成との関係も課題として浮上している。</p>
-<h2>コーディングは“出発点”にすぎない</h2>
-<p>SemiAnalysisは、コーディングはあくまでエージェント型AIが浸透する最初の領域にすぎないと指摘する。情報労働の多くは、READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）という共通の工程を持つ。財務分析や法務レビュー、レポート作成なども同様の構造を持ち、コーディングで成立した自律実行型ワークフローは他分野へ拡張可能だと分析する。</p>
-<p>GitHubコミットの4％という現状と、20％超という予測は、単なる開発現場の変化にとどまらない可能性を示している。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crypto.com共同創業者、消費者向け自律AIエージェント「ai.com」設立──7000万ドルでドメイン取得</title>
-      <link>https://ledge.ai/articles/crypto_com_cofounder_launches_ai_com_autonomous_agents_70m_domain</link>
-      <description><![CDATA[<p>仮想通貨取引所Crypto.comの共同創業者でCEOを務めるKris Marszalek（クリス・マルザレク氏）は2026年2月6日、消費者向け自律型AIエージェントプラットフォーム「ai.com」の設立を<a href="https://ai.com/company-news/ai-com-launch">発表</a>した。正式な提供開始は2月8日で、米国で開催されるSuper Bowl LXのCM放映に合わせてローンチする。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kris_Marszalek_x_03379f413b/Kris_Marszalek_x_03379f413b.jpg" alt="Kris Marszalek x.jpg" /></p>
-<p>ai.comは、ユーザーが数クリックで「自分専用のAIエージェント」を作成できるとするプラットフォームだ。単なるチャット型AIではなく、ユーザーの代わりに実際のタスクを実行する“自律型”である点を特徴としている。</p>
-<p>公式発表によると、エージェントは仕事の整理、メッセージ送信、アプリを横断した操作、プロジェクトの構築などを実行可能だという。株式取引、ワークフロー自動化、カレンダー連携による日次タスクの遂行、オンラインプロフィールの更新といった用途例も挙げられている。</p>
-<p>同社は差別化要因として、エージェントがタスク遂行に必要な機能が不足している場合、それを自律的に補完・構築する設計を挙げる。さらに、改善内容はネットワーク上の他のエージェントに共有され、全体として能力が向上すると説明している。</p>
-<p>エージェントは技術的知識なしに約60秒で作成でき、無料で利用開始が可能。追加機能や入力トークンの拡張などは有料サブスクリプションで提供される。各エージェントは専用の安全な環境で稼働し、データは分離・暗号化され、ユーザー固有のキーで管理されるとしている。</p>
-<p>マルザレク氏は「ai.com」ドメインを7000万ドル（約110億円）で取得した。ドメイン仲介会社<a href="https://www.prnewswire.com/news-releases/getyourdomaincom-brokers-the-70-million-sale-of-aicom-the-largest-domain-name-transaction-in-history-302682315.html">GetYourDomain.com</a>は、この取引が公表されているドメイン名売買の中で史上最高額だと発表している。従来の最高額とされていた「voice.com」（3000万ドル）を上回る規模となる。</p>
-<p>マルザレク氏はCrypto.comとai.comの両社でCEOを務める。今回の発表は、暗号資産領域を主軸としてきた同氏が、消費者向けAIエージェント分野へ本格参入する動きとなる。</p>
-<p>ai.comは「AGI（汎用人工知能）の到来を加速する」ことを掲げており、今後は金融サービスとの統合やエージェントのマーケットプレイス構築なども検討しているという。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
-      <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
-      <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
-<h2>富士通、国産「ソブリンAIサーバ」を3月から製造開始</h2>
-<p>同社は、経済安全保障の強化やサイバー攻撃リスクの高まりを背景に、データやインフラの主権を確保する「ソブリン性」へのニーズが高まっていると説明する。</p>
-<p>製造を開始する「ソブリンAIサーバ」は、重要インフラや公共領域など、ミッションクリティカルな用途を想定したAI基盤として提供予定。日本国内で設計・製造・検査を行うことで、データ流出リスクの最小化や国内法令への準拠、技術コントロールの確保などを図るとしている。</p>
-<h2>経済安保・サイバー脅威で“ソブリン性”需要が拡大</h2>
-<p>富士通は、ソブリン性（データやAI基盤の管理・統制を自国・自組織内で完結できる状態）を備えたAI基盤に求められる要件として、以下を挙げている。</p>
-<ul>
-<li>データ流出リスクの最小化</li>
-<li>自律的な運用体制の確立</li>
-<li>国内法への準拠</li>
-<li>セキュリティリスクの透明性確保</li>
-<li>テクノロジーのコントロール</li>
-</ul>
-<p>生成AIの普及により、大規模な演算基盤を支えるAIサーバの戦略的重要性が増していることも背景にある。</p>
-<h2>Blackwell世代GPU搭載のAIサーバを国内生産へ</h2>
-<p>3月から製造を開始するソブリンAIサーバには、NVIDIAの最新世代GPUが搭載される。
-具体的には、</p>
-<ul>
-<li>NVIDIA HGX B300</li>
-<li>NVIDIA RTX PRO 6000 Blackwell Server Edition</li>
-</ul>
-<p>を搭載した構成のサーバを、Made in Japan製品として国内で製造する。これにより、生成AIや大規模言語モデル（LLM）の学習・推論用途に対応する高性能AI基盤を国内生産体制で提供する。</p>
-<h2>“国内一貫生産”でトレーサビリティと透明性を強化</h2>
-<p>製造は、富士通グループの笠島工場（石川県かほく市）で行う。同工場は、スーパーコンピュータ「富岳」や高信頼サーバの製造で培った技術を有する拠点だ。</p>
-<p>装置組立は2026年3月に開始し、プリント基板の組立は2026年6月から国内で開始する予定としている。主要部品のトレーサビリティを確保し、基板から装置までの一貫生産体制を構築することで、製造工程の透明性向上とソブリン性の強化を図る。</p>
-<h2>次の一手：FUJITSU-MONAKA搭載サーバを2026年度中に</h2>
-<p>富士通はあわせて、自社開発の省電力プロセッサ「FUJITSU-MONAKA」を搭載したサーバについても、2026年度中にMade in Japan製品として製造開始する予定を示した。</p>
-<p>同サーバにはコンフィデンシャルコンピューティング技術を組み込み、データの機密性を高める設計とする方針だ。</p>
-<h2>日本・欧州へ展開、Supermicro協業も拡大</h2>
-<p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
-<p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
@@ -344,58 +64,7 @@
 <h2>Ultra提供とAPI早期アクセスへ</h2>
 <p>今回のアップデートでは、GeminiアプリでのUltra向け提供に加え、Gemini APIで初めてDeep Thinkモードの早期アクセスを開始した。研究者や企業が実運用環境で利用できる段階へ移行した形となる。Googleは、科学・研究・工学領域における高度推論用途を主軸に展開していく方針を示している。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/2/13 [FRI]AI時代の科学研究のボトルネックは「アイデア創出」から「検証」へ──査読制度に警鐘、Google・カーネギーメロン大学など16機関がケーススタディを公表</title>
-      <link>https://ledge.ai/articles/gemini_science_impending_crisis_peer_review</link>
-      <description><![CDATA[<p>2026年2月3日、Google Research、カーネギーメロン大学（Carnegie Mellon University）など16機関の研究者は、Googleの推論強化型モデル「Gemini Deep Think」の高度版を研究に活用したケーススタディをarXivで<a href="https://arxiv.org/abs/2602.03837">公開</a>した。</p>
-<p>理論計算機科学、暗号、物理学など複数分野において、長年の予想に対する反例構成や既存論文の重大な欠陥検出、数式とコード実行を往復する解析の高度化などの成果を報告している。</p>
-<p>論文は、AIが専門家レベルの数学的推論において実質的な「共同研究者」として機能し得る可能性を示す一方で、科学のボトルネックが「アイデア創出」から「正しさの検証」へ移行しつつあるとして、「Impending Crisis（差し迫った危機）」と題する節で査読制度への警鐘を鳴らしている。</p>
-<h2>反例構成・欠陥検出・数式検証──具体的成果</h2>
-<p>研究チームは、主に高度版のGemini Deep Thinkを用い、人間研究者との対話的なワークフローの中で成果を導いた。</p>
-<p>まず、オンライン劣モジュラ福祉最大化問題において、2015年に提示され長年有効と考えられてきた予想に対し、AIが最小規模の反例を構成。期待値計算を伴う検証を通じて、予想が成り立たないことを示した。</p>
-<p>また、LWE（Learning With Errors）に基づくSNARGsを扱う暗号学プレプリントを精査した事例では、定義と構成の間の不整合という重大な欠陥を特定。人間研究者による確認の結果、主張の成立に影響する問題であることが判明し、著者側が修正を行ったという。</p>
-<p>物理学分野では、宇宙ひも（Cosmic String）の放射スペクトル解析において、AIが数式提案とPythonによる検証コード実行を繰り返す「ニューロ・シンボリック」ループを活用。実行エラーを踏まえて解法を修正し、閉形式解に到達した例が紹介されている。</p>
-<h2>AIは万能ではない──確認された失敗モード</h2>
-<p>論文は成功例のみを強調していない。AIの限界についても明確に記述している。</p>
-<p>偽の予想を「証明せよ」と与えた場合、もっともらしい推論で論理の飛躍を埋めようとする確証バイアスが観察された。このため、研究者は「prove or refute（証明または反証）」といった中立的指示が重要だとする。</p>
-<p>また、問題の出典論文をそのまま文脈として提示すると、「これは未解決問題である」と判断し、探索を停止するケースも確認された。対策として、論文情報を除外し、問題文と定義のみを提示する手法が紹介されている。</p>
-<p>高度な洞察を示す一方で、符号の誤りや制約の見落としといった単純な代数ミスも発生しており、出力の厳密な検証は不可欠であるとされる。</p>
-<h2>「vibe-proving」──人間が指揮する協働モデル</h2>
-<p>研究者らは、AIを「疲れ知らずで博識、創造性に富む若手共同研究者」のような存在と位置づける。ただし成果はAIの自律性だけで生まれるものではない。</p>
-<p>問題分解、仮説の方向付け、反証的チェック、最終的な検証は人間が担う。著者らはこの協働プロセスを非公式に「vibe-proving」と呼び、強い人間オーケストレーションの重要性を強調している。</p>
-<h2>生成から検証へ──査読制度への警告</h2>
-<p>研究者は論文終盤で、AIが論文生成の摩擦を劇的に低下させるほど、科学のボトルネックは「アイデア生成」から「検証」へ移ると述べている。従来の人間中心の査読制度は、AIによって高速かつ大量に生成される高度な論文を十分に精査できるよう設計されていない可能性があるという。</p>
-<p>著者らは、生成に用いられたのと同様のAI技術を、欠陥検出や形式的検証支援に活用するなど、査読・評価側の仕組みを再設計する必要性を示唆している。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
-      <link>https://ledge.ai/articles/google_gemini_ai_mode_reinvent_ads_ucp_checkout</link>
-      <description><![CDATA[<p>Googleは2026年2月11日（現地時間）、AIによる検索体験「AI Mode」において、小売業者の購入導線を示す<a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/">新しい広告フォーマット</a>を米国でテストしていると明らかにした。クエリに関連するショッピング推薦をオーガニックに表示した上で、その商品を取り扱う小売業者を「Sponsored」と明記して提示する形式である。あわせて、購入直前の利用者に個別最適化されたオファーを提示する「Direct Offers」を導入した。</p>
-<p>さらに、Universal Commerce Protocol（UCP）に基づくチェックアウト機能が米国でロールアウト中で、EtsyおよびWayfairの商品をAI ModeおよびGeminiアプリ内で購入できるようになっている。</p>
-<h2>AI Modeで“Sponsored”広告をテスト</h2>
-<p>Googleによると、AI Modeではまず、クエリに関連性の高いショッピング推薦をオーガニックに表示する。その上で、該当商品を取り扱う小売業者を「Sponsored」と明記した広告形式で提示する仕組みを、米国でテストしている。対象は小売分野から開始しており、旅行など他のカテゴリへの展開も検証している。</p>
-<p>同社は、検索体験がキーワード中心から会話型へ移行する中で、利用者が複数ブランドや店舗を比較しやすくなることが有用性を高めると説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sponsored_9158c52b69/sponsored_9158c52b69.jpg" alt="sponsored.jpg" /></p>
-<h2>「Direct Offers」：購入直前の利用者に個別提示</h2>
-<p>同社はあわせて、AI Mode向けの新しい収益化体験「<a href="https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/">Direct Offers</a>」を導入した。これは、購入準備が整った利用者に対し、個別最適化されたオファーを提示する仕組みである。</p>
-<p>価格割引だけでなく、ロイヤルティ特典や商品バンドルなど、価値を拡張する提案も含める方針としている。通常価格そのものを変更するものではないとしている。</p>
-<h2>UCP-powered checkoutがロールアウト中</h2>
-<p>Universal Commerce Protocol（UCP）に基づくチェックアウト機能は、現在米国の利用者向けにロールアウト中である。</p>
-<p>Googleによれば、EtsyおよびWayfairの商品をAI Mode（検索）およびGeminiアプリ内で直接購入できるようになっている。今後はShopify、Target、Walmartなども対応予定としている。</p>
-<h2>広告を「再定義」するという位置付け</h2>
-<p>Googleは今回の発表の中で、「検索に広告を持ち込む」のではなく、「広告そのものを再定義する」と説明した。</p>
-<p>同社によれば、AI ModeにおけるSponsored表示やDirect Offers、UCP-powered checkoutの展開は、会話型検索の中に広告、オファー提示、決済機能を組み込む取り組みの一環である。</p>
-<p>同社Ads &amp; Commerce部門のVidhya Srinivasan氏は、Frontier CMO podcastで今回の戦略について語り、これを商取引体験の「再配線（rewiring）」だと表現した。また、AIにより「スピードと確実性を両立できる」と述べた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=acuGQ07PeAU">YouTube</a></p>
-<h2>Gemini 3が広告基盤を支える</h2>
-<p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
-<p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
-]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</title>
@@ -427,43 +96,124 @@
 <p>否定的な意見としては、「一律の人間介入はフィジカルAIのリアルタイム性を損なう」「規制が先行すれば実用化のハードルが高まる」といった指摘がテック系アカウントを中心に見られる。一方で、「物理世界に直接作用する以上、ヒューマン・イン・ザ・ループの設計は安全確保の観点から不可欠」とする声もある。また、関連銘柄の株価動向に触れつつ、市場は過度な規制強化を織り込んでいないとの見方を示す投稿も確認できる。</p>
 <p>更新内容は現時点で案の段階にあり、3月末の正式公表までに、例外規定の有無や「リスクに応じた段階的な適用」の考え方がどの程度明確化されるかが注目されている。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Mon, 16 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
-      <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
-      <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
-<p>プロジェクトは、完全オリジナルIPの開発と、その世界観を体験できる常設拠点「AIテーマパーク（仮称）」の事業化を両輪として推進する構想だ。生成AIの普及により、多数の選択肢や「もっともらしい答え」が瞬時に提示される時代において、子どもたちが自ら「何を選ぶか」を判断する力を育むことを目的とする。</p>
-<p>リリースでは、その判断の根源を「感情（Emotion）」と位置づけ、AIを“学ぶ対象”として前面に出すのではなく、物語と体験を起点とした設計思想を掲げている。</p>
-<h2>両社の役割と技術基盤</h2>
-<p>NTTは、次世代情報通信基盤構想「IOWN（Innovative Optical and Wireless Network）」およびNTT版LLM「tsuzumi 2」などの先端技術を統合し、子どもの行動や感情の変化に応じて物語や演出が変化する体験基盤を提供する。</p>
-<p>TBSは、エデュテインメント専任部署「エデュテインメント事業センター」を新設。長年培ってきたストーリーテリングやクリエイティブ制作力を活かし、探究学習とエンターテインメントを融合した世界観設計を担う。</p>
-<h2>オリジナルIP「感情騎士 - エモーショナル・ナイト -」</h2>
-<p>第一弾IPとして、冒険ファンタジー「感情騎士 - エモーショナル・ナイト -」を開発する。物語は「見えない感情」を探す冒険を通じて、子どもたちが自らの価値観に気づく構成とする。</p>
-<p>今後はアニメ、ゲーム、グッズなどへのメディアミックス展開を視野に入れ、リアル体験拠点と連動させる。</p>
-<p><strong>第一弾IP「感情騎士 - エモーショナル・ナイト -」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ab_e843f87b4a/260210ab_e843f87b4a.jpg" alt="260210ab.jpg" /></p>
-<h2>「AIテーマパーク（仮称）」構想</h2>
-<p>オリジナルIPの世界観を体験できる常設拠点として、「AIテーマパーク（仮称）」の設立に向けた事業検証を進める。先端技術を活用し、来場者一人ひとりの行動や感情の変化をリアルタイムに捉え、ストーリーや環境が変化するパーソナライズ体験を提供する構想だ。</p>
-<p>各展開は検討状況により変更の可能性があるとしている。</p>
-<h2>6つのE × 3つの体験サイクル</h2>
-<p><strong>「Education / Entertainment / Experience / Emotion / Evolution / Epiphany」の6つのEを核とした体験設計</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ac_dd3ee0c8c4/260210ac_dd3ee0c8c4.jpg" alt="260210ac.jpg" /></p>
-<p>e6 projectは、</p>
-<ul>
-<li>Education（教育）</li>
-<li>Entertainment（娯楽）</li>
-<li>Experience（体験）</li>
-<li>Emotion（感情）</li>
-<li>Evolution（進化）</li>
-<li>Epiphany（ひらめき）</li>
-</ul>
-<p>の6つの要素（E）を核に、「没入」「判断」「覚醒」の3つの体験サイクルを設計思想として掲げる。</p>
-<p>「没入」では遊びの中で自然に知識や技術への関心を引き出し、「判断」では体験と感情を通じて選択する力を育む。「覚醒」ではAIバディとの相互作用により、新たなひらめきと成長を促すとしている。</p>
-<h2>今後の展開</h2>
-<p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
+      <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
+      <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
+      <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kisei_kaikaku_kisei_AI_fe6f8d8c93/kisei_kaikaku_kisei_AI_fe6f8d8c93.jpg" alt="kisei-kaikaku-kisei AI.jpg" /></p>
+<p>同日行われた記者会見で、規制改革担当大臣である城内実氏は、令和7年12月23日に閣議決定された「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」において、AIの社会実装の実現に向け、国民の声を聴きながら既存の規制や制度の点検および見直しを図る方針が示されていると説明。その方針を受けた具体的な取り組みとして、今回の情報募集を実施すると述べた。</p>
+<p>城内氏は、AI担当大臣である小野田紀美氏と連携し、AIの社会実装において障害となる、または不十分な効果をもたらす規制・制度について、国民に広く情報提供を求めると説明した。内閣府のウェブサイトには特設ページが設けられ、専用フォームから情報を提出できる。</p>
+<p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
+<p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Mon, 16 Feb 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
+      <link>https://ledge.ai/articles/google_gemini_ai_mode_reinvent_ads_ucp_checkout</link>
+      <description><![CDATA[<p>Googleは2026年2月11日（現地時間）、AIによる検索体験「AI Mode」において、小売業者の購入導線を示す<a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/">新しい広告フォーマット</a>を米国でテストしていると明らかにした。クエリに関連するショッピング推薦をオーガニックに表示した上で、その商品を取り扱う小売業者を「Sponsored」と明記して提示する形式である。あわせて、購入直前の利用者に個別最適化されたオファーを提示する「Direct Offers」を導入した。</p>
+<p>さらに、Universal Commerce Protocol（UCP）に基づくチェックアウト機能が米国でロールアウト中で、EtsyおよびWayfairの商品をAI ModeおよびGeminiアプリ内で購入できるようになっている。</p>
+<h2>AI Modeで“Sponsored”広告をテスト</h2>
+<p>Googleによると、AI Modeではまず、クエリに関連性の高いショッピング推薦をオーガニックに表示する。その上で、該当商品を取り扱う小売業者を「Sponsored」と明記した広告形式で提示する仕組みを、米国でテストしている。対象は小売分野から開始しており、旅行など他のカテゴリへの展開も検証している。</p>
+<p>同社は、検索体験がキーワード中心から会話型へ移行する中で、利用者が複数ブランドや店舗を比較しやすくなることが有用性を高めると説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sponsored_9158c52b69/sponsored_9158c52b69.jpg" alt="sponsored.jpg" /></p>
+<h2>「Direct Offers」：購入直前の利用者に個別提示</h2>
+<p>同社はあわせて、AI Mode向けの新しい収益化体験「<a href="https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/">Direct Offers</a>」を導入した。これは、購入準備が整った利用者に対し、個別最適化されたオファーを提示する仕組みである。</p>
+<p>価格割引だけでなく、ロイヤルティ特典や商品バンドルなど、価値を拡張する提案も含める方針としている。通常価格そのものを変更するものではないとしている。</p>
+<h2>UCP-powered checkoutがロールアウト中</h2>
+<p>Universal Commerce Protocol（UCP）に基づくチェックアウト機能は、現在米国の利用者向けにロールアウト中である。</p>
+<p>Googleによれば、EtsyおよびWayfairの商品をAI Mode（検索）およびGeminiアプリ内で直接購入できるようになっている。今後はShopify、Target、Walmartなども対応予定としている。</p>
+<h2>広告を「再定義」するという位置付け</h2>
+<p>Googleは今回の発表の中で、「検索に広告を持ち込む」のではなく、「広告そのものを再定義する」と説明した。</p>
+<p>同社によれば、AI ModeにおけるSponsored表示やDirect Offers、UCP-powered checkoutの展開は、会話型検索の中に広告、オファー提示、決済機能を組み込む取り組みの一環である。</p>
+<p>同社Ads &amp; Commerce部門のVidhya Srinivasan氏は、Frontier CMO podcastで今回の戦略について語り、これを商取引体験の「再配線（rewiring）」だと表現した。また、AIにより「スピードと確実性を両立できる」と述べた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=acuGQ07PeAU">YouTube</a></p>
+<h2>Gemini 3が広告基盤を支える</h2>
+<p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
+<p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
+]]></description>
+      <pubDate>Mon, 16 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
+      <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
+      <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
+<h2>富士通、国産「ソブリンAIサーバ」を3月から製造開始</h2>
+<p>同社は、経済安全保障の強化やサイバー攻撃リスクの高まりを背景に、データやインフラの主権を確保する「ソブリン性」へのニーズが高まっていると説明する。</p>
+<p>製造を開始する「ソブリンAIサーバ」は、重要インフラや公共領域など、ミッションクリティカルな用途を想定したAI基盤として提供予定。日本国内で設計・製造・検査を行うことで、データ流出リスクの最小化や国内法令への準拠、技術コントロールの確保などを図るとしている。</p>
+<h2>経済安保・サイバー脅威で“ソブリン性”需要が拡大</h2>
+<p>富士通は、ソブリン性（データやAI基盤の管理・統制を自国・自組織内で完結できる状態）を備えたAI基盤に求められる要件として、以下を挙げている。</p>
+<ul>
+<li>データ流出リスクの最小化</li>
+<li>自律的な運用体制の確立</li>
+<li>国内法への準拠</li>
+<li>セキュリティリスクの透明性確保</li>
+<li>テクノロジーのコントロール</li>
+</ul>
+<p>生成AIの普及により、大規模な演算基盤を支えるAIサーバの戦略的重要性が増していることも背景にある。</p>
+<h2>Blackwell世代GPU搭載のAIサーバを国内生産へ</h2>
+<p>3月から製造を開始するソブリンAIサーバには、NVIDIAの最新世代GPUが搭載される。
+具体的には、</p>
+<ul>
+<li>NVIDIA HGX B300</li>
+<li>NVIDIA RTX PRO 6000 Blackwell Server Edition</li>
+</ul>
+<p>を搭載した構成のサーバを、Made in Japan製品として国内で製造する。これにより、生成AIや大規模言語モデル（LLM）の学習・推論用途に対応する高性能AI基盤を国内生産体制で提供する。</p>
+<h2>“国内一貫生産”でトレーサビリティと透明性を強化</h2>
+<p>製造は、富士通グループの笠島工場（石川県かほく市）で行う。同工場は、スーパーコンピュータ「富岳」や高信頼サーバの製造で培った技術を有する拠点だ。</p>
+<p>装置組立は2026年3月に開始し、プリント基板の組立は2026年6月から国内で開始する予定としている。主要部品のトレーサビリティを確保し、基板から装置までの一貫生産体制を構築することで、製造工程の透明性向上とソブリン性の強化を図る。</p>
+<h2>次の一手：FUJITSU-MONAKA搭載サーバを2026年度中に</h2>
+<p>富士通はあわせて、自社開発の省電力プロセッサ「FUJITSU-MONAKA」を搭載したサーバについても、2026年度中にMade in Japan製品として製造開始する予定を示した。</p>
+<p>同サーバにはコンフィデンシャルコンピューティング技術を組み込み、データの機密性を高める設計とする方針だ。</p>
+<h2>日本・欧州へ展開、Supermicro協業も拡大</h2>
+<p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
+<p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
+]]></description>
+      <pubDate>Sun, 15 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
+      <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
+<h2>無料プランで利用可能となった対象機能</h2>
+<p>無料ユーザーに開放されたのは以下の3機能</p>
+<ul>
+<li>ファイル作成・編集（コード実行）</li>
+<li>Connectors（外部ツール連携）</li>
+<li>Skills（スキル機能）</li>
+</ul>
+<p>これらは従来、有料プランを中心に提供されてきた機能である。</p>
+<h2>「ファイル作成・編集（コード実行）」の提供内容</h2>
+<p>ファイル作成機能では、Claudeがコードを実行し、スプレッドシートやプレゼンテーション資料、PDFなどのファイルを生成・編集できる。Anthropicのヘルプセンターによれば、本機能は無料を含む各プランで利用可能と記載されている。Web版のほか、Claude Desktopおよびモバイル環境でも利用できる。</p>
+<p><strong>■ Anthropic、ClaudeでExcel・Word・パワポ・PDFなどのファイル作成と編集を可能に</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347/a7cc545ecf57240d91c97a102246ef6126bdc7f8_1920x1080_612181a347.webp" alt="a7cc545ecf57240d91c97a102246ef6126bdc7f8-1920x1080.webp" /></p>
+<h2>「Connectors」および「Skills」の提供範囲</h2>
+<p>Connectorsは、Claudeを外部ツールやデータソースと連携させる機能である。公式ドキュメントでは、Web connectorsは全ユーザーが利用可能とされている。一方で、カスタムコネクターの作成は有料プラン向けと明記されている。</p>
+<p>Skillsは、あらかじめ用意された機能拡張や、ユーザーが作成したスキルをClaudeに追加できる仕組みである。設定画面から有効化することで利用でき、無料プランも対象に含まれている。</p>
+<p><strong>■ Anthropic、「Claude Skills」を発表──資料を読み込み専門ワークを自動化する新機能</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/agent_skills_7f1c1cf0d3/agent_skills_7f1c1cf0d3.jpg" alt="agent skills.jpg" /></p>
+<h2>無料プランと有料プランの機能差</h2>
+<p>今回の拡充により主要機能が無料化された一方で、有料プランでは引き続き利用上限の拡大や優先アクセスなどの特典が設けられている。カスタムコネクターの利用可否など、機能の一部にはプランごとの差異が残る。</p>
+]]></description>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/2/15 [SUN]対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
+      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
+      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
+<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
+<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
+<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
+<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
+<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
+<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
+<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
+<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
+<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
+]]></description>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、中国ByteDanceの動画生成AI「Seedance 2.0」問題で調査へ──小野田AI戦略担当相「著作権侵害は看過できない」</title>
@@ -477,7 +227,7 @@
 <p>Seedance 2.0は、ByteDanceが開発した動画生成AIで、テキストや画像、音声、動画など複数の入力情報を組み合わせて映像を生成できるマルチモーダル型のモデルだ。参照素材を指定しながら生成を行う機能も備えており、公開以降、SNSを中心に生成動画が広がっている。</p>
 <p>政府は今後、関係省庁と連携しながら事実関係の確認を進める方針で、生成AIによるコンテンツ制作と知的財産権保護の在り方が改めて問われることになる。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
@@ -521,7 +271,214 @@
 <p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
 <p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>元OpenAI研究者、ChatGPT広告テスト開始の週に辞職　NYTに「OpenAIはFacebookと同じ過ち」と題した寄稿</title>
+      <link>https://ledge.ai/articles/openai_ads_test_researcher_quits_nyt_facebook_comparison</link>
+      <description><![CDATA[<p>OpenAIが2026年2月9日に対話型AI「ChatGPT」で広告表示のテストを開始した週に、同社の元研究者であるZoë Hitzig氏が<a href="https://x.com/zhitzig/status/2021590831979778051">辞職を公表</a>した。Hitzig氏は2026年2月11日付の米紙The New York Times(NYT)のオピニオン欄に「OpenAI Is Making the Mistakes Facebook Made. I Quit.（OpenAIはFacebookと同じ過ちを犯している。私は辞めた）」と題したエッセイを<a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html">寄稿</a>し、広告モデル導入に対する懸念を示した。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Zoe_Hitzig_4e4cb3454d/Zoe_Hitzig_4e4cb3454d.jpg" alt="Zoë Hitzig.jpg" /></p>
+<h2>2年間にわたりモデル構築や価格設計に関与</h2>
+<p>寄稿によると、Hitzig氏はOpenAIに約2年間在籍し、AIモデルの構築や価格設計（pricing）、初期の安全性方針の策定に携わってきたという。同氏は、広告そのものを「不道徳あるいは非倫理的だとは考えていない」と明言する一方で、同社の戦略に「深い懸念」を抱いていると述べた。</p>
+<p>Hitzig氏は、ChatGPTの利用者がこれまでに前例のない規模で個人的な悩みや医療上の不安、信仰観などを打ち明けてきた点に言及。そうした会話アーカイブを基盤とした広告モデルが、ユーザーを操作する可能性を持つと指摘している。</p>
+<h2>OpenAIは広告を明確表示、回答への影響は否定</h2>
+<p>OpenAIは同週、ChatGPTにおける広告表示のテスト開始を<a href="https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026">発表</a>した。広告は回答の下部に表示され、明確にラベル付けされるほか、回答内容には影響しないとしている。</p>
+<p>広告はAI運用コストを賄う収益源の一つとなり得るが、Hitzig氏は、広告導入を巡る議論を「広告か、アクセス制限か」という二者択一として捉えるのは誤りだと主張。企業向け利用からのクロスサブシディや、独立した監督権限を持つガバナンス構造、データを独立的に管理するトラストモデルなど、代替案を提示している。</p>
+<h2>「Facebookの過ち」を引き合いに</h2>
+<p>寄稿では、かつてFacebook（現Meta）が広告モデルのもとでエンゲージメント最適化を進める過程で、当初掲げたデータ管理や利用者の統制に関する原則が徐々に後退した経緯にも言及している。Hitzig氏は、広告モデルが強いインセンティブを生み出す構造にあると指摘し、OpenAIが同様の道をたどる可能性に懸念を示した。</p>
+<h2>8億人規模の利用基盤</h2>
+<p>ChatGPTの週間利用者は<a href="https://ledge.ai/articles/openai_devday2025_chatgpt_800m_wau">8億人規模</a>に達しているとされる。こうした大規模な利用基盤のもとで広告モデルが導入されることも、今回の議論の背景となっている。</p>
+<p>生成AIの運用コストと広範なアクセス確保をどう両立させるかは、業界全体の課題でもある。ChatGPTへの広告導入をめぐる議論は、今後も続く可能性がある。</p>
+]]></description>
+      <pubDate>Sat, 14 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHubコミットの4％がAI生成──Claude Codeは2026年末に20％へ？SemiAnalysisが「エージェント化」の転換点と分析</title>
+      <link>https://ledge.ai/articles/claude_code_4_to_20_percent_github_growth</link>
+      <description><![CDATA[<p>2026年2月6日、半導体やAI産業の調査・分析を行うSemiAnalysisは、「Claude Code is the Inflection Point」と題したニュースレターを<a href="https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point">公開</a>した。同社は、Anthropicが提供するCLI型AIエージェントClaude Codeについて、GitHubの公開コミットの約4％が現在同ツールによって生成されていると指摘。さらに、現在の成長軌道が続けば、2026年末には20％超に達する可能性があると予測している。</p>
+<p>同社はこれを、生成AIによるコーディング支援が「補助」段階から「エージェント」段階へ移行する転換点だと位置づける。</p>
+<h2>IDE補完ではなく、ターミナル常駐型エージェント</h2>
+<p>Claude Codeは、IDEのサイドバーでコード補完を行う従来型ツールとは異なり、ターミナルネイティブのCLI（コマンドラインインターフェース）として動作する。</p>
+<p>SemiAnalysisによれば、その特徴は以下にある。</p>
+<ul>
+<li>コードベース全体を読み込む</li>
+<li>マルチステップの計画を立てる</li>
+<li>タスクを実行する</li>
+<li>検証・修正を繰り返す</li>
+</ul>
+<p>単一の関数や数行単位の補完ではなく、**READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）**の循環を自律的に回す点を重視する。同社は「Claude CodeはCodeではなくComputerに近い」と表現し、単なるコーディング支援を超えた汎用的な情報処理エージェントの実例と位置づけている。</p>
+<h2>「コール＆レスポンス」から「実行主体」へ</h2>
+<p>SemiAnalysisは、AIの価値創出が「トークンの販売」から「トークンのオーケストレーション」へ移行しつつあると分析する。</p>
+<p>従来のLLM APIは、入力に対して応答を返す“call &amp; response”型であり、短時間の処理が中心だった。一方、Claude Codeは長時間にわたりタスクを継続実行する設計を採る。モデル単体のベンチマーク性能よりも、エージェントとしての総合的な成果物が競争軸になるというのが同社の見立てだ。</p>
+<p>また、METRのデータを引用し、自律実行可能な「タスクホライゾン（継続時間）」が4〜7カ月ごとに倍増していると説明する。30分のコード補完から、数時間のモジュール改修、さらに数日単位の監査業務へと拡張可能性が広がっているとする。</p>
+<h2>開発者の役割はどう変わるのか</h2>
+<p>ニュースレターでは、複数の著名エンジニアの発言も紹介されている。</p>
+<ul>
+<li>Node.jsの開発者であるRyan Dahl氏は、「人間がコードを書く時代は終わった」と述べた。</li>
+<li>VercelのCTOであるMalte Ubl氏は、自身の「新しい主業務はAIの誤りを指摘することだ」と投稿。</li>
+<li>Ruby on Railsの開発者であるDavid Heinemeier Hansson氏は、手書きコードへのノスタルジーを語っている。</li>
+<li>Claude Code開発チームのBoris Cherny氏は、チームのコードのほぼ100％がClaude CodeとOpus 4.5によって書かれていると説明した。</li>
+</ul>
+<p>SemiAnalysisは、生成能力（generation）と識別能力（discrimination）が分離しつつあると整理する。実装を担う主体が人間からAIへ移る一方、人間の役割は設計、評価、検証へと重心が移る可能性があると示唆する。</p>
+<p>また、Anthropicが実施した実験では、AIを利用したコーディングは生産性を高める一方で、使い方によっては熟達度の低下が見られたと報告されている。エージェント活用が広がるなかで、開発者のスキル形成との関係も課題として浮上している。</p>
+<h2>コーディングは“出発点”にすぎない</h2>
+<p>SemiAnalysisは、コーディングはあくまでエージェント型AIが浸透する最初の領域にすぎないと指摘する。情報労働の多くは、READ（読み込み）→ THINK（思考）→ WRITE（出力）→ VERIFY（検証）という共通の工程を持つ。財務分析や法務レビュー、レポート作成なども同様の構造を持ち、コーディングで成立した自律実行型ワークフローは他分野へ拡張可能だと分析する。</p>
+<p>GitHubコミットの4％という現状と、20％超という予測は、単なる開発現場の変化にとどまらない可能性を示している。</p>
+]]></description>
+      <pubDate>Sat, 14 Feb 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>社会をシミュレートするAI「Simile」が1億ドル調達。実在の人間をモデルにした数百万人のエージェントが意思決定を予見</title>
+      <link>https://ledge.ai/articles/simile_social_ai_simulation_series_a_100m</link>
+      <description><![CDATA[<p>AIスタートアップSimileのCEOであるJoon Sung Park氏は2026年2月13日、実在の人間をモデルにしたエージェントで構成される「社会のAIシミュレーション」を構築したと<a href="https://x.com/joon_s_pk/status/2022023097017421874">発表</a>した。製品や政策など、数百万人規模に影響を与える意思決定を事前に再現・検証できる基盤モデルの開発を進めているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/introduce_simile_b002315008/introduce_simile_b002315008.jpg" alt="introduce simile.jpg" /></p>
+<p>あわせて、同社はSeries Aラウンドで1億ドル（約150億円）を調達したことを明らかにした。リード投資家はIndex Venturesが務め、Hanabi、A*、Bain Capital Ventures（BCV）らが参加した。また、個人投資家としてAndrej Karpathy氏、Fei-Fei Li氏、Adam D’Angelo氏、Guillermo Rauch氏、Scott Belsky氏らも出資者に名を連ねている。</p>
+<h2>実在人間に基づくエージェントで社会を再現</h2>
+<p><a href="https://simile.ai/blog/the-simulation-company">Simile</a>は、人間の行動や意思決定を再現する基盤モデルの開発を専門とする企業である。CEOのJoon Sung Park氏は、かつてスタンフォード大学で「生成エージェント（generative agents）」の研究を主導した経歴を持つ。</p>
+<p>同社のシミュレーション基盤は、実在の人間をモデル化したエージェントを多数配置し、それらの相互作用を通じて社会全体の動向を再現する仕組みである。現在は、あらゆる状況や規模において人間行動を予測可能な基盤モデルの開発に注力している。</p>
+<h2>意思決定の「フライトシミュレーター」</h2>
+<p>すでに企業向けの実装も始まっており、Simileは自社プラットフォームを**「重要な意思決定のためのフライトシミュレーター」**と定義している。用途として挙げられているのは以下の例だ。</p>
+<ul>
+<li><strong>IR・経営戦略</strong>： 決算説明会（earnings calls）における投資家の反応予測</li>
+<li><strong>法務・訴訟</strong>： 訴訟結果のモデリングとシミュレーション</li>
+<li><strong>公共政策</strong>： 政策変更が社会に及ぼす影響のテスト</li>
+</ul>
+<h2>開発の加速と世界規模への拡張</h2>
+<p>今回調達した1億ドルは、社会シミュレーション基盤の開発を加速するための資金として充てられる。</p>
+<p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
+]]></description>
+      <pubDate>Sat, 14 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/2/13 [FRI]AI時代の科学研究のボトルネックは「アイデア創出」から「検証」へ──査読制度に警鐘、Google・カーネギーメロン大学など16機関がケーススタディを公表</title>
+      <link>https://ledge.ai/articles/gemini_science_impending_crisis_peer_review</link>
+      <description><![CDATA[<p>2026年2月3日、Google Research、カーネギーメロン大学（Carnegie Mellon University）など16機関の研究者は、Googleの推論強化型モデル「Gemini Deep Think」の高度版を研究に活用したケーススタディをarXivで<a href="https://arxiv.org/abs/2602.03837">公開</a>した。</p>
+<p>理論計算機科学、暗号、物理学など複数分野において、長年の予想に対する反例構成や既存論文の重大な欠陥検出、数式とコード実行を往復する解析の高度化などの成果を報告している。</p>
+<p>論文は、AIが専門家レベルの数学的推論において実質的な「共同研究者」として機能し得る可能性を示す一方で、科学のボトルネックが「アイデア創出」から「正しさの検証」へ移行しつつあるとして、「Impending Crisis（差し迫った危機）」と題する節で査読制度への警鐘を鳴らしている。</p>
+<h2>反例構成・欠陥検出・数式検証──具体的成果</h2>
+<p>研究チームは、主に高度版のGemini Deep Thinkを用い、人間研究者との対話的なワークフローの中で成果を導いた。</p>
+<p>まず、オンライン劣モジュラ福祉最大化問題において、2015年に提示され長年有効と考えられてきた予想に対し、AIが最小規模の反例を構成。期待値計算を伴う検証を通じて、予想が成り立たないことを示した。</p>
+<p>また、LWE（Learning With Errors）に基づくSNARGsを扱う暗号学プレプリントを精査した事例では、定義と構成の間の不整合という重大な欠陥を特定。人間研究者による確認の結果、主張の成立に影響する問題であることが判明し、著者側が修正を行ったという。</p>
+<p>物理学分野では、宇宙ひも（Cosmic String）の放射スペクトル解析において、AIが数式提案とPythonによる検証コード実行を繰り返す「ニューロ・シンボリック」ループを活用。実行エラーを踏まえて解法を修正し、閉形式解に到達した例が紹介されている。</p>
+<h2>AIは万能ではない──確認された失敗モード</h2>
+<p>論文は成功例のみを強調していない。AIの限界についても明確に記述している。</p>
+<p>偽の予想を「証明せよ」と与えた場合、もっともらしい推論で論理の飛躍を埋めようとする確証バイアスが観察された。このため、研究者は「prove or refute（証明または反証）」といった中立的指示が重要だとする。</p>
+<p>また、問題の出典論文をそのまま文脈として提示すると、「これは未解決問題である」と判断し、探索を停止するケースも確認された。対策として、論文情報を除外し、問題文と定義のみを提示する手法が紹介されている。</p>
+<p>高度な洞察を示す一方で、符号の誤りや制約の見落としといった単純な代数ミスも発生しており、出力の厳密な検証は不可欠であるとされる。</p>
+<h2>「vibe-proving」──人間が指揮する協働モデル</h2>
+<p>研究者らは、AIを「疲れ知らずで博識、創造性に富む若手共同研究者」のような存在と位置づける。ただし成果はAIの自律性だけで生まれるものではない。</p>
+<p>問題分解、仮説の方向付け、反証的チェック、最終的な検証は人間が担う。著者らはこの協働プロセスを非公式に「vibe-proving」と呼び、強い人間オーケストレーションの重要性を強調している。</p>
+<h2>生成から検証へ──査読制度への警告</h2>
+<p>研究者は論文終盤で、AIが論文生成の摩擦を劇的に低下させるほど、科学のボトルネックは「アイデア生成」から「検証」へ移ると述べている。従来の人間中心の査読制度は、AIによって高速かつ大量に生成される高度な論文を十分に精査できるよう設計されていない可能性があるという。</p>
+<p>著者らは、生成に用いられたのと同様のAI技術を、欠陥検出や形式的検証支援に活用するなど、査読・評価側の仕組みを再設計する必要性を示唆している。</p>
+]]></description>
+      <pubDate>Fri, 13 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「見えないAI労働」の代償──インド農村部の女性が暴力・性的虐待コンテンツを大量視聴しAIを訓練する“コンテンツモデレーション”の実態、英紙Guardianが報道</title>
+      <link>https://ledge.ai/articles/invisible_ai_labor_india_content_moderation_guardian_report</link>
+      <description><![CDATA[<p>英国紙<a href="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai">The Guardian</a>は2026年2月5日、インドの農村部に住む女性労働者が、暴力や性的虐待を含むコンテンツを日常的に視聴・分類することで、グローバルテック企業のAIシステムの訓練を支えている実態を報じた。記事は、現地での取材と当事者の証言をもとに、コンテンツモデレーション業務の具体像と心理的影響、支援体制の現状を伝えている。</p>
+<h2>1日最大800件──AIを支える人間の最終判定</h2>
+<p>報道によると、インド東部ジャールカンド州の農村部に住む26歳の女性は、自宅からリモートでログインし、プラットフォームの自動検知システムによって「違反の可能性あり」と判断された動画や画像、テキストを審査している。平均的な日で最大800件を確認し、暴力、虐待、ポルノグラフィなどに該当するかを分類する。</p>
+<p>こうした判定結果は、アルゴリズムの精度向上や有害コンテンツ検知の高度化に用いられる教師データとなる。記事では、この業務が機械学習の基盤を支える工程の一部であると説明されている。</p>
+<h2>二次的外傷ストレスという職業リスク</h2>
+<p>「最後は無になる」──取材に応じた女性は、長時間にわたり暴力や性的虐待を含む映像を視聴し続けた末に訪れる感覚をそう表現した。</p>
+<p>記事では、不眠や悪夢、侵入思考、感情の麻痺といった症状が紹介されている。社会学者ミラグロス・ミセリ氏が主導する<a href="https://milamiceli.com/inquiry/">Data Workers’ Inquiry</a>では、コンテンツモデレーションが心理的負荷の高い労働であると指摘している。</p>
+<p>また、コンテンツモデレーター311人を18か月にわたり追跡した<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12711784/">研究</a>では、二次的外傷ストレスや燃え尽き、レジリエンスなど複数の心理指標が測定され、長期的な心理的影響が検討されている。企業による介入プログラムが導入されている事例もあるが、記事は依然として心理的リスクが課題であると伝えている。</p>
+<h2>“ゴーストワーカー”と呼ばれる構造</h2>
+<p>インドでは2021年時点で約7万人がデータアノテーション業務に従事していると推計され、市場規模は約2億5000万ドルに達するとされる。多くは農村や準農村地域出身で、女性が半数以上を占める。</p>
+<p>企業は地方都市に拠点を設け、改善されたインターネット接続環境を通じてグローバルなAI供給網と接続している。一方で、業務内容が契約前に十分説明されないケースや、心理的支援体制が限定的であるとの指摘もある。</p>
+<p><strong>記事より引用：視聴していた過激なコンテンツについて懸念を表明したとき、彼女のマネージャーはこう言いました。「これは神の仕事です。あなたは子供たちを安全に守っているのです。」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian260205_cab1dea129/the_guardian260205_cab1dea129.jpg" alt="the guardian260205.jpg" /></p>
+<p>さらに、厳格な秘密保持契約（NDA）により、労働者が家族や友人に業務内容を話すことが難しい状況も報じられている。記事は、生成AIの進展の裏側で、人間の目と判断が果たしている役割に光を当てている。</p>
+]]></description>
+      <pubDate>Fri, 13 Feb 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
+      <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
+      <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
+<p>プロジェクトは、完全オリジナルIPの開発と、その世界観を体験できる常設拠点「AIテーマパーク（仮称）」の事業化を両輪として推進する構想だ。生成AIの普及により、多数の選択肢や「もっともらしい答え」が瞬時に提示される時代において、子どもたちが自ら「何を選ぶか」を判断する力を育むことを目的とする。</p>
+<p>リリースでは、その判断の根源を「感情（Emotion）」と位置づけ、AIを“学ぶ対象”として前面に出すのではなく、物語と体験を起点とした設計思想を掲げている。</p>
+<h2>両社の役割と技術基盤</h2>
+<p>NTTは、次世代情報通信基盤構想「IOWN（Innovative Optical and Wireless Network）」およびNTT版LLM「tsuzumi 2」などの先端技術を統合し、子どもの行動や感情の変化に応じて物語や演出が変化する体験基盤を提供する。</p>
+<p>TBSは、エデュテインメント専任部署「エデュテインメント事業センター」を新設。長年培ってきたストーリーテリングやクリエイティブ制作力を活かし、探究学習とエンターテインメントを融合した世界観設計を担う。</p>
+<h2>オリジナルIP「感情騎士 - エモーショナル・ナイト -」</h2>
+<p>第一弾IPとして、冒険ファンタジー「感情騎士 - エモーショナル・ナイト -」を開発する。物語は「見えない感情」を探す冒険を通じて、子どもたちが自らの価値観に気づく構成とする。</p>
+<p>今後はアニメ、ゲーム、グッズなどへのメディアミックス展開を視野に入れ、リアル体験拠点と連動させる。</p>
+<p><strong>第一弾IP「感情騎士 - エモーショナル・ナイト -」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ab_e843f87b4a/260210ab_e843f87b4a.jpg" alt="260210ab.jpg" /></p>
+<h2>「AIテーマパーク（仮称）」構想</h2>
+<p>オリジナルIPの世界観を体験できる常設拠点として、「AIテーマパーク（仮称）」の設立に向けた事業検証を進める。先端技術を活用し、来場者一人ひとりの行動や感情の変化をリアルタイムに捉え、ストーリーや環境が変化するパーソナライズ体験を提供する構想だ。</p>
+<p>各展開は検討状況により変更の可能性があるとしている。</p>
+<h2>6つのE × 3つの体験サイクル</h2>
+<p><strong>「Education / Entertainment / Experience / Emotion / Evolution / Epiphany」の6つのEを核とした体験設計</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ac_dd3ee0c8c4/260210ac_dd3ee0c8c4.jpg" alt="260210ac.jpg" /></p>
+<p>e6 projectは、</p>
+<ul>
+<li>Education（教育）</li>
+<li>Entertainment（娯楽）</li>
+<li>Experience（体験）</li>
+<li>Emotion（感情）</li>
+<li>Evolution（進化）</li>
+<li>Epiphany（ひらめき）</li>
+</ul>
+<p>の6つの要素（E）を核に、「没入」「判断」「覚醒」の3つの体験サイクルを設計思想として掲げる。</p>
+<p>「没入」では遊びの中で自然に知識や技術への関心を引き出し、「判断」では体験と感情を通じて選択する力を育む。「覚醒」ではAIバディとの相互作用により、新たなひらめきと成長を促すとしている。</p>
+<h2>今後の展開</h2>
+<p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
+]]></description>
+      <pubDate>Fri, 13 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ByteDance、動画生成AI「Seedance 2.0」を公開　マルチモーダル入力と参照機能を強化</title>
+      <link>https://ledge.ai/articles/seedance_2_0_bytedance_multimodal_video_generation</link>
+      <description><![CDATA[<p>ByteDance（TikTokの親会社）は、動画生成AI「Seedance 2.0」を正式公開した。同モデルは、同社の生成AIサービス「<a href="https://jimeng.jianying.com/">即梦（Jimeng）</a>」上で提供されている。2026年2月10日更新の<a href="https://bytedance.larkoffice.com/wiki/A5RHwWhoBiOnjukIIw6cu5ybnXQ">公式ユーザーガイド</a>（Lark Wiki）および即梦の公式サイトで案内されている。</p>
+<p>現在は段階的に公開されており、会員・非会員ともに順次利用可能になるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jimeng_f353651d6b/jimeng_f353651d6b.jpg" alt="jimeng.jpg" /></p>
+<h2>画像・動画・音声・テキストの4モダリティに対応</h2>
+<p>Seedance 2.0は、画像・動画・音声・テキストの4種類の入力形式に対応するマルチモーダル動画生成モデルである。</p>
+<p>使用手册によると、主な仕様は以下の通り。</p>
+<ul>
+<li>画像：jpeg、png、webp、bmp、tiff、gif形式に対応（最大9枚、30MB未満）</li>
+<li>動画：mp4、mov形式（最大3本、合計2〜15秒、50MB未満）</li>
+<li>音声：mp3、wav形式（最大3本、合計15秒以内、15MB未満）</li>
+<li>テキスト：自然言語入力</li>
+<li>混合入力の総上限：12ファイル</li>
+<li>生成時間：4〜15秒（最大15秒）</li>
+</ul>
+<p>動画入力には総ピクセル数の上限も設けられている。生成時には効果音や音楽を含めた出力も可能としている。</p>
+<h2>参照機能を強化、映像表現の制御性を向上</h2>
+<p>今回のアップデートでは、参照機能の強化が中核に据えられている。</p>
+<p>参照画像を用いることで構図やキャラクターの細部を保持し、参照動画を利用することでカメラワークや動作のリズム、視覚効果などを指定できる。既存動画の延長や、ユーザーの指示に基づく連続的なショット生成にも対応する。</p>
+<p>さらに、既存動画を入力として、登場人物の差し替えや削除、追加などの編集操作も可能となっている。</p>
+<h2>シンプル生成とマルチモーダル生成の2方式を提供</h2>
+<p>Seedance 2.0は、生成方法として大きく2つのモードを用意している。UI上では「首尾帧」と「全能参考」と表示される。</p>
+<ul>
+<li>首尾帧（シンプル生成）：開始フレームとなる画像とテキストのみで動画を生成するシンプルなモード</li>
+<li>全能参考（マルチモーダル生成）：画像・動画・音声・テキストを組み合わせ、参照素材を指定しながら生成する高度なモード</li>
+</ul>
+<p>複数素材を用いる場合は、「@素材名」の形式で各素材の役割を明示する。たとえば、ある画像を開始フレームとして指定し、別の動画をカメラワークの参照に、音声をBGMとして利用する、といった指定が可能だ。</p>
+<h2>実在人物の写真人顔素材は現在非対応</h2>
+<p>使用手册では、プラットフォームのコンプライアンス上の理由から、実在人物の写真人顔を含む画像や動画素材のアップロードは現在サポートしていないと明記している。該当素材はシステム側で自動的に制限される。</p>
+<p>今後の仕様変更については、文書内で更新するとしている。</p>
+]]></description>
+      <pubDate>Thu, 12 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crypto.com共同創業者、消費者向け自律AIエージェント「ai.com」設立──7000万ドルでドメイン取得</title>
+      <link>https://ledge.ai/articles/crypto_com_cofounder_launches_ai_com_autonomous_agents_70m_domain</link>
+      <description><![CDATA[<p>仮想通貨取引所Crypto.comの共同創業者でCEOを務めるKris Marszalek（クリス・マルザレク氏）は2026年2月6日、消費者向け自律型AIエージェントプラットフォーム「ai.com」の設立を<a href="https://ai.com/company-news/ai-com-launch">発表</a>した。正式な提供開始は2月8日で、米国で開催されるSuper Bowl LXのCM放映に合わせてローンチする。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Kris_Marszalek_x_03379f413b/Kris_Marszalek_x_03379f413b.jpg" alt="Kris Marszalek x.jpg" /></p>
+<p>ai.comは、ユーザーが数クリックで「自分専用のAIエージェント」を作成できるとするプラットフォームだ。単なるチャット型AIではなく、ユーザーの代わりに実際のタスクを実行する“自律型”である点を特徴としている。</p>
+<p>公式発表によると、エージェントは仕事の整理、メッセージ送信、アプリを横断した操作、プロジェクトの構築などを実行可能だという。株式取引、ワークフロー自動化、カレンダー連携による日次タスクの遂行、オンラインプロフィールの更新といった用途例も挙げられている。</p>
+<p>同社は差別化要因として、エージェントがタスク遂行に必要な機能が不足している場合、それを自律的に補完・構築する設計を挙げる。さらに、改善内容はネットワーク上の他のエージェントに共有され、全体として能力が向上すると説明している。</p>
+<p>エージェントは技術的知識なしに約60秒で作成でき、無料で利用開始が可能。追加機能や入力トークンの拡張などは有料サブスクリプションで提供される。各エージェントは専用の安全な環境で稼働し、データは分離・暗号化され、ユーザー固有のキーで管理されるとしている。</p>
+<p>マルザレク氏は「ai.com」ドメインを7000万ドル（約110億円）で取得した。ドメイン仲介会社<a href="https://www.prnewswire.com/news-releases/getyourdomaincom-brokers-the-70-million-sale-of-aicom-the-largest-domain-name-transaction-in-history-302682315.html">GetYourDomain.com</a>は、この取引が公表されているドメイン名売買の中で史上最高額だと発表している。従来の最高額とされていた「voice.com」（3000万ドル）を上回る規模となる。</p>
+<p>マルザレク氏はCrypto.comとai.comの両社でCEOを務める。今回の発表は、暗号資産領域を主軸としてきた同氏が、消費者向けAIエージェント分野へ本格参入する動きとなる。</p>
+<p>ai.comは「AGI（汎用人工知能）の到来を加速する」ことを掲げており、今後は金融サービスとの統合やエージェントのマーケットプレイス構築なども検討しているという。</p>
+]]></description>
+      <pubDate>Thu, 12 Feb 2026 08:40:00 GMT</pubDate>
     </item>
     <item>
       <title>日本発 AI VTuber「しずく」開発元Shizuku AI、a16z主導でシード調達──「世界で一番愛されるAIキャラクター」目指す</title>
@@ -542,29 +499,40 @@
 <p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
 <p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
-      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
-      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
-<h2>エージェント志向モデルとしての位置づけ</h2>
-<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
-<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
-<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
-<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
-<h2>Vending-Bench 2でのシミュレーション結果</h2>
-<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
-<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
-<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
-<h2>公開形態と提供</h2>
-<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
-同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
-<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
+      <title>報ステ「選挙ステーション2026」で高速ロボットアーム「BOLT」導入　人間不可能な超高速カメラワークを披露</title>
+      <link>https://ledge.ai/articles/tv_asahi_election_station_2026_bolt_robot_arm_camera</link>
+      <description><![CDATA[<p>テレビ朝日は2026年2月8日、選挙特別番組『選挙ステーション2026』において、高速ロボットアームカメラ「<a href="https://x.com/hst_tvasahi/status/2020492521940406385">BOLT（ボルト）</a>」を導入した。</p>
+<p>番組内でキャスターは、生放送のスタジオ撮影で活用されるのは同局として初の試みであると説明したという。番組公式Xの投稿では、「人間が操作するカメラでは不可能なスピードと動きで撮影を行っている」としている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
+<p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
+<p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
 ]]></description>
-      <pubDate>Fri, 06 Feb 2026 08:15:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT、米国で広告表示テストを正式開始──Free／Goユーザーが対象、Plus以上は非表示</title>
+      <link>https://ledge.ai/articles/chatgpt_ads_test_us_free_go_2026</link>
+      <description><![CDATA[<p>OpenAIは2026年2月9日、対話型AI「ChatGPT」における広告表示のテストを米国で開始したと<a href="https://openai.com/index/testing-ads-in-chatgpt/">発表</a>した。対象はログイン済みの成人ユーザーのうち「Free」および「Go」プランの利用者。Plus、Pro、Business、Enterprise、Educationなどの有料・法人向けプランでは広告は表示されない。</p>
+<p>広告は、ChatGPTの回答下部に「スポンサー」と明記される形で表示される。同社は広告の設計方針として、広告がAIの回答内容に影響を与えることは一切ないと強調している。年齢や利用状況などの情報が広告表示の判断に用いられるが、ユーザーの会話内容が広告主に共有されることはないという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chatgpt_ads_test_us_free_go_2026_1b4547d6c0/chatgpt_ads_test_us_free_go_2026_1b4547d6c0.webp" alt="chatgpt_ads_test_us_free_go_2026.webp" /></p>
+<p>ユーザー向けには、特定の広告を非表示にする操作や、「なぜこの広告が表示されたのか」を確認する機能のほか、パーソナライズ広告の設定を管理する仕組みが提供される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12_2d9a500d99/12_2d9a500d99.webp" alt="12.webp" /></p>
+<p>OpenAIは広告導入の背景について、サービスの持続可能性を確保しつつ、より多くの人々に無料アクセスを提供し続けるための「収益モデル多様化の一環」と説明している。現在は米国内に限定されたテスト段階であり、今後の展開については状況を見ながら段階的に判断される見通しだ。</p>
+]]></description>
+      <pubDate>Wed, 11 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>データセンターにIOWN APNを実装──石狩と大手町を低遅延接続、東急不動産が生成AI・GPU向け基盤を構築</title>
+      <link>https://ledge.ai/articles/data_center_iown_ishikari_otemachi</link>
+      <description><![CDATA[<p>東急不動産は2026年2月6日、北海道石狩市で建設を進めている「石狩再エネデータセンター第1号」において、NTT東日本が提供する次世代通信基盤「IOWN（Innovative Optical and Wireless Network）」のAll-Photonics Network（APN）を導入すると<a href="https://www.tokyu-land.co.jp/news/2026/001648.html">発表</a>した。石狩市と東京・大手町の間をIOWNで接続するのは初めてで、2026年8月の導入を予定している。データセンターは再生可能エネルギー100％で運用され、2026年3月に竣工する見込みだ。</p>
+<p>デジタル社会の進展やAI需要の高まりを背景に、データセンター（DC）の需要は急速に拡大している。東急不動産によると、2030年度のDC消費電力は2022年度比で2倍以上、2050年度には5倍以上に増加する見通しだという。一方、DCが集積する関東圏・関西圏の特定エリアでは電力不足が指摘されており、国は「データセンターの地方分散」を掲げている。同社はこうした動きを踏まえ、石狩市と連携し、同事業を推進してきた。</p>
+<p>導入するIOWN APNにより、これまで課題とされてきた通信距離や通信遅延を解消し、高速・大容量・低遅延・省電力の通信を可能にする。これにより、石狩再エネデータセンターは、日本のネットワークの中心とされる東京・大手町と、あたかも隣接するデータセンターであるかのように利用できる環境を実現するとしている。同社の調査によると、石狩市と大手町の間でIOWNを実装するのは今回が初めてだという。</p>
+<p>IOWNの導入によって、災害復旧（DR）用途にとどまらず、都市型データセンターの拡張や、GPUを活用した生成AIサービスの提供、点群データの効率的な活用によるデジタルツインコンピューティング、近年被害が多発しているランサムウェア対策など、多様な用途での活用を見込む。さらに、2025年2月に閣議決定された「GX2040ビジョン」で示された、電力と通信を一体で捉える「ワット・ビット連携」の実現にも資する取り組みと位置付けている。</p>
+]]></description>
+      <pubDate>Wed, 11 Feb 2026 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
