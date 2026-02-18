@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
+      <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
+      <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
+<p>同じ「distillation」という語が、競争（モデル開発）と防御（抽出攻撃）という異なる文脈で相次いで言及された格好だ。</p>
+<h2>OpenAI、DeepSeekの蒸留を問題視</h2>
+<p>Bloombergが入手した覚書によると、OpenAIはDeepSeekがチャットボット「R1」の開発にあたり、米国の主要AIモデルの出力を抽出する「不公平かつ洗練された手法」を用いていると指摘した。文書は2026年2月12日付で、下院中国問題特別委員会に提出された。</p>
+<p>覚書では、他社モデルの出力を体系的に収集し、それを新たなモデルの訓練に活用する行為が、競争環境や知的財産保護、国家安全保障の観点から懸念を生じさせる可能性があると説明している。DeepSeek側の公式見解は現時点で公表されていない。</p>
+<h2>Google、蒸留攻撃（Model Extraction Attacks）の増加を報告</h2>
+<p>一方、Googleは2026年2月13日、GTIG名義でレポート「GTIG AI Threat Tracker」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use?hl=en">公開</a>した。レポートでは、正規のAPIアクセスを利用してモデルの応答を体系的に収集し、新たなモデルを構築する「モデル抽出攻撃（Model Extraction Attacks）」、いわゆる「蒸留攻撃」が増加していると報告している。</p>
+<p>GTIGは、こうした行為を知的財産の侵害に当たる可能性があるものと位置付け、検知・遮断措置を講じていると説明した。また、2025年中に高度持続的脅威（APT）によるフロンティアモデルへの直接攻撃は確認していないとしつつも、研究者や民間企業による抽出試行を観測し、対策を講じたとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb.jpg" alt="gtig-ai-threat-tracker-feb26-fig1.max-1500x1500.jpg" /></p>
+<p>図は、GTIGが説明するモデル抽出攻撃の一般的構造を示したものだ。正規のAPIを通じて「教師モデル」に問い合わせを行い、その応答を用いて「学生モデル」を訓練する流れが図示されている。</p>
+<h2>蒸留とは何か──正規技術と抽出攻撃の境界</h2>
+<p>蒸留（knowledge distillation）は、既存の高性能モデル（教師モデル）の出力を利用して、より小型または効率的なモデル（学生モデル）を訓練する機械学習手法である。モデル圧縮や推論効率の向上を目的として広く研究・実装されてきた。</p>
+<p>一方で、他社が提供する商用モデルの出力を無断で抽出し、新モデル開発に活用する場合には、利用規約違反や知的財産侵害の問題が生じ得る。GTIGは、こうした行為を「distillation attacks」と定義している。</p>
+<p>OpenAIが議会に提出した覚書と、Googleが報告した抽出攻撃はいずれも「蒸留」という語を含むが、前者は国際競争の文脈、後者はサービス防御の文脈で語られている点が異なる。</p>
+<h2>競争と防御で同時に拡大する蒸留論点</h2>
+<p>今回の動きは、蒸留が単なる効率化技術にとどまらず、競争戦略や知的財産保護、安全保障といった領域に波及していることを示している。</p>
+<p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
       <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
       <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
