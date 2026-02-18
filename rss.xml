@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Waymo、「第6世代Waymo Driver」で完全自律運転を開始──雪・氷点下・豪雨など厳しい気象条件にも対応</title>
+      <link>https://ledge.ai/articles/waymo_6th_gen_waymo_driver_fully_autonomous_severe_weather</link>
+      <description><![CDATA[<p>米自動運転企業のWaymoは2026年2月12日（現地時間）、完全自律運転が可能な「第6世代Waymo Driver」の導入を<a href="https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver">発表</a>した。同社はこれを、ロボタクシー事業の拡大を支える中核システムと位置づける。</p>
+<p>公式ブログによると、第6世代Driverは「fully autonomous operations（完全自律運転オペレーション）」を前提に設計されており、より多くの都市や運用条件への展開を想定している。これまでの運用で蓄積した約2億マイル規模の走行データを背景に、稀に発生する事象（“long tail”）への対応力強化を図ったという。</p>
+<h2>雪・氷点下・豪雨を想定したセンサー刷新</h2>
+<p>第6世代ではセンサー構成を刷新した。</p>
+<p>視覚面では、17メガピクセルの高解像度カメラを採用し、広いダイナミックレンジと熱安定性を確保。カメラ数を最適化しつつ、遠距離物体の検出精度を高めたとしている。</p>
+<p>LiDAR（ライダー）は、短距離および長距離の検知性能を強化し、都市部でのセンチメートル単位の把握や、降雨時の路面水しぶき（roadspray）といった条件下での認識精度向上を図った。レーダーについてもイメージングレーダーを搭載し、雨や雪といった悪天候下での物体追跡能力を高めている。</p>
+<p>さらに、外部音響受信システム（EAR）を備え、緊急車両のサイレンなどを視覚検知より早く把握できる設計とした。</p>
+<p>同社はこれらのセンサー群を独自のアルゴリズムで統合し、状況に応じて各センサーの寄与を動的に最適化すると説明している。極端な冬季条件や氷点下環境、豪雨といった厳しい気象条件下でも運用可能な体制を整えたとしている。</p>
+<h2>「車両」ではなく「Driver」軸で横断展開</h2>
+<p>Waymoは車両単体ではなく、自動運転システムである「Driver」を横断的に展開する戦略を取る。</p>
+<p>第6世代Driverは、新型車両プラットフォーム「Ojai」や、Hyundai Motor Companyの電気自動車「IONIQ 5」など複数の車種への統合を前提としている。これにより、車両ごとにシステムを再設計するのではなく、共通Driverを基盤としたスケール拡大を図る。</p>
+<h2>年数万台規模の生産体制へ</h2>
+<p>同社は米アリゾナ州フェニックス近郊の統合工場において、第6世代Driverを搭載した車両の量産体制を構築。年数万台規模の生産能力を見込むとしている。</p>
+<p>まずは従業員や招待ユーザー向けの運用から開始し、段階的に一般利用者への展開を進める方針だ。</p>
+<p>Waymoは現在、米国複数都市で配車型ロボタクシーサービスを展開している。第6世代Waymo Driverの導入は、より広範な地理的・気象的条件下での商用自律運転を視野に入れた拡大フェーズへの移行を示すものとなる。</p>
+]]></description>
+      <pubDate>Wed, 18 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
       <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
       <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
