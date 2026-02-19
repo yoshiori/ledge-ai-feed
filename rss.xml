@@ -57,6 +57,42 @@
       <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Alibaba、ロボット向けオープンAI基盤モデル「RynnBrain」公開──実世界の空間・時間ダイナミクスに接地し、従来のVLMの弱点克服を目指す</title>
+      <link>https://ledge.ai/articles/alibaba_rynnbrain_robotics_spatiotemporal_grounded_ai</link>
+      <description><![CDATA[<p>中国のテクノロジー企業Alibaba Group傘下のDAMO Academyは2026年2月13日、ロボットや自律機器向けのオープンソース基盤モデル「RynnBrain」を<a href="https://alibaba-damo-academy.github.io/RynnBrain.github.io/">発表</a>した。実世界における空間・時間のダイナミクスに接地し、知覚・推論・計画を統合的に扱う“エンボディドAI”向けの時空間基盤モデルと位置付けられる。</p>
+<h2>物理世界に接地した統合フレームワーク</h2>
+<p>論文によれば、RynnBrainは従来の視覚言語モデル（VLM）が抱えてきた課題――物理ダイナミクスへの内在的な接地の弱さや、時空間整合性を伴う推論の困難さ――に対応することを目的として設計された。</p>
+<p>モデルは、以下の4つの能力軸を統合するフレームワークとして構築されている。</p>
+<ul>
+<li>包括的なエゴセントリック理解</li>
+<li>多様な時空間ローカライゼーション</li>
+<li>物理に接地した推論</li>
+<li>物理制約を踏まえた計画（physics-aware planning）</li>
+</ul>
+<p>実世界の環境下でロボットが「見て、理解し、推論し、行動計画を立てる」一連の処理を、空間情報と時間的変化を前提に統合することを目指す。</p>
+<p><strong>■ RynnBrainの能力構成：認知（Cognition）、位置特定（Localization）、推論（Reasoning）、計画（Planning）を統合し、実世界の空間・時間ダイナミクスに接地した処理を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_b020061610/x3_b020061610.jpg" alt="x3.jpg" /></p>
+<h2>2B〜30B（MoE）まで3スケール展開、用途別派生も</h2>
+<p>RynnBrainは、2B、8B、30B-A3B（Mixture-of-Experts構成）の3スケールで展開される。さらに、用途別にポストトレーニングを施した派生モデルとして、以下の4種が公開されている。</p>
+<ul>
+<li>RynnBrain-CoP（空間接地を挟んだ推論強化型）</li>
+<li>RynnBrain-Nav（ナビゲーション向け）</li>
+<li>RynnBrain-Plan（操作計画向け）</li>
+<li>RynnBrain-VLA（視覚・言語・行動統合）</li>
+</ul>
+<p>基盤にはQwen3-VLが採用されており、大規模な時空間データを用いた学習パイプラインを通じて、2000万超のサンプルにスケールさせたと説明している。</p>
+<h2>28ベンチで評価、新設「RynnBrain-Bench」も公開</h2>
+<p>論文では、エンボディドAI関連20ベンチマークと、一般的な視覚理解8ベンチマークを含む計28評価で性能を検証したと報告している。位置特定や空間参照、操作計画などの項目において、既存のオープンモデルを上回る結果を示したとしている。</p>
+<p>あわせて、長時間のエピソード動画全体にわたる時空間理解を測定する新評価スイート「RynnBrain-Bench」も公開された。同ベンチは3,616本の動画クリップ、577,998フレーム、12,000件の自由記述質問を含む構成とされる。</p>
+<p><strong>■ RynnBrain-Benchの評価設計：空間認知、物体理解、接地推論、アフォーダンス、軌道理解など多層的な能力を横断的に測定する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_4fc0376495/x6_4fc0376495.jpg" alt="x6.jpg" /></p>
+<h2>Apache 2.0で公開、複数プラットフォームから利用可能</h2>
+<p>RynnBrainはApache 2.0ライセンスの下で公開されており、プロジェクトページのほか、GitHub、Hugging Face、ModelScopeなどから利用可能とされる。</p>
+<p>ロボットや自律機器の高度化を支える“頭脳”として、空間・時間ダイナミクスに接地した統合モデルをオープンソースで提示した点が特徴となる。今後は、実機応用やエージェントスタック全体への組み込み事例が注目される。</p>
+]]></description>
+      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claude無料プランを拡充──「ファイル作成」「コネクター」「Skills」をサブスク不要に</title>
       <link>https://ledge.ai/articles/anthropic_claude_free_plan_expansion_2026</link>
       <description><![CDATA[<p>米AI企業のAnthropicは2026年2月11日（現地時間）、対話型AI「Claude」の無料プランを拡充したと<a href="https://x.com/claudeai/status/2021630345964323026">発表</a>した。これまで有料限定だった「ファイル作成・編集（コード実行）」「Connectors」「Skills」が、サブスクリプション契約なしで利用可能となる。</p>
@@ -273,42 +309,6 @@
 <p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
 <h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
 <p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTとTBS、IOWN×LLMで “AIテーマパーク” 構想──「自分で決める力」を育む次世代エデュテインメント「e6 project」始動</title>
-      <link>https://ledge.ai/articles/ntt_tbs_iown_llm_ai_theme_park_e6_project</link>
-      <description><![CDATA[<p>NTTとTBSホールディングスは2026年2月10日、生成AIが普及する社会において、子どもたちが「自分で決める力」を育む次世代エデュテインメント「e6 project（イーシックス・プロジェクト）」を始動すると<a href="https://group.ntt/jp/newsrelease/2026/02/10/260210a.html">発表</a>した。</p>
-<p>プロジェクトは、完全オリジナルIPの開発と、その世界観を体験できる常設拠点「AIテーマパーク（仮称）」の事業化を両輪として推進する構想だ。生成AIの普及により、多数の選択肢や「もっともらしい答え」が瞬時に提示される時代において、子どもたちが自ら「何を選ぶか」を判断する力を育むことを目的とする。</p>
-<p>リリースでは、その判断の根源を「感情（Emotion）」と位置づけ、AIを“学ぶ対象”として前面に出すのではなく、物語と体験を起点とした設計思想を掲げている。</p>
-<h2>両社の役割と技術基盤</h2>
-<p>NTTは、次世代情報通信基盤構想「IOWN（Innovative Optical and Wireless Network）」およびNTT版LLM「tsuzumi 2」などの先端技術を統合し、子どもの行動や感情の変化に応じて物語や演出が変化する体験基盤を提供する。</p>
-<p>TBSは、エデュテインメント専任部署「エデュテインメント事業センター」を新設。長年培ってきたストーリーテリングやクリエイティブ制作力を活かし、探究学習とエンターテインメントを融合した世界観設計を担う。</p>
-<h2>オリジナルIP「感情騎士 - エモーショナル・ナイト -」</h2>
-<p>第一弾IPとして、冒険ファンタジー「感情騎士 - エモーショナル・ナイト -」を開発する。物語は「見えない感情」を探す冒険を通じて、子どもたちが自らの価値観に気づく構成とする。</p>
-<p>今後はアニメ、ゲーム、グッズなどへのメディアミックス展開を視野に入れ、リアル体験拠点と連動させる。</p>
-<p><strong>第一弾IP「感情騎士 - エモーショナル・ナイト -」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ab_e843f87b4a/260210ab_e843f87b4a.jpg" alt="260210ab.jpg" /></p>
-<h2>「AIテーマパーク（仮称）」構想</h2>
-<p>オリジナルIPの世界観を体験できる常設拠点として、「AIテーマパーク（仮称）」の設立に向けた事業検証を進める。先端技術を活用し、来場者一人ひとりの行動や感情の変化をリアルタイムに捉え、ストーリーや環境が変化するパーソナライズ体験を提供する構想だ。</p>
-<p>各展開は検討状況により変更の可能性があるとしている。</p>
-<h2>6つのE × 3つの体験サイクル</h2>
-<p><strong>「Education / Entertainment / Experience / Emotion / Evolution / Epiphany」の6つのEを核とした体験設計</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260210ac_dd3ee0c8c4/260210ac_dd3ee0c8c4.jpg" alt="260210ac.jpg" /></p>
-<p>e6 projectは、</p>
-<ul>
-<li>Education（教育）</li>
-<li>Entertainment（娯楽）</li>
-<li>Experience（体験）</li>
-<li>Emotion（感情）</li>
-<li>Evolution（進化）</li>
-<li>Epiphany（ひらめき）</li>
-</ul>
-<p>の6つの要素（E）を核に、「没入」「判断」「覚醒」の3つの体験サイクルを設計思想として掲げる。</p>
-<p>「没入」では遊びの中で自然に知識や技術への関心を引き出し、「判断」では体験と感情を通じて選択する力を育む。「覚醒」ではAIバディとの相互作用により、新たなひらめきと成長を促すとしている。</p>
-<h2>今後の展開</h2>
-<p>第一弾体験コンテンツの詳細や体験方法については、2026年2月下旬頃に改めて発表予定としている。</p>
 ]]></description>
       <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
