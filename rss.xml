@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
+      <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
+      <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
+<p>同じ「distillation」という語が、競争（モデル開発）と防御（抽出攻撃）という異なる文脈で相次いで言及された格好だ。</p>
+<h2>OpenAI、DeepSeekの蒸留を問題視</h2>
+<p>Bloombergが入手した覚書によると、OpenAIはDeepSeekがチャットボット「R1」の開発にあたり、米国の主要AIモデルの出力を抽出する「不公平かつ洗練された手法」を用いていると指摘した。文書は2026年2月12日付で、下院中国問題特別委員会に提出された。</p>
+<p>覚書では、他社モデルの出力を体系的に収集し、それを新たなモデルの訓練に活用する行為が、競争環境や知的財産保護、国家安全保障の観点から懸念を生じさせる可能性があると説明している。DeepSeek側の公式見解は現時点で公表されていない。</p>
+<h2>Google、蒸留攻撃（Model Extraction Attacks）の増加を報告</h2>
+<p>一方、Googleは2026年2月13日、GTIG名義でレポート「GTIG AI Threat Tracker」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use?hl=en">公開</a>した。レポートでは、正規のAPIアクセスを利用してモデルの応答を体系的に収集し、新たなモデルを構築する「モデル抽出攻撃（Model Extraction Attacks）」、いわゆる「蒸留攻撃」が増加していると報告している。</p>
+<p>GTIGは、こうした行為を知的財産の侵害に当たる可能性があるものと位置付け、検知・遮断措置を講じていると説明した。また、2025年中に高度持続的脅威（APT）によるフロンティアモデルへの直接攻撃は確認していないとしつつも、研究者や民間企業による抽出試行を観測し、対策を講じたとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb.jpg" alt="gtig-ai-threat-tracker-feb26-fig1.max-1500x1500.jpg" /></p>
+<p>図は、GTIGが説明するモデル抽出攻撃の一般的構造を示したものだ。正規のAPIを通じて「教師モデル」に問い合わせを行い、その応答を用いて「学生モデル」を訓練する流れが図示されている。</p>
+<h2>蒸留とは何か──正規技術と抽出攻撃の境界</h2>
+<p>蒸留（knowledge distillation）は、既存の高性能モデル（教師モデル）の出力を利用して、より小型または効率的なモデル（学生モデル）を訓練する機械学習手法である。モデル圧縮や推論効率の向上を目的として広く研究・実装されてきた。</p>
+<p>一方で、他社が提供する商用モデルの出力を無断で抽出し、新モデル開発に活用する場合には、利用規約違反や知的財産侵害の問題が生じ得る。GTIGは、こうした行為を「distillation attacks」と定義している。</p>
+<p>OpenAIが議会に提出した覚書と、Googleが報告した抽出攻撃はいずれも「蒸留」という語を含むが、前者は国際競争の文脈、後者はサービス防御の文脈で語られている点が異なる。</p>
+<h2>競争と防御で同時に拡大する蒸留論点</h2>
+<p>今回の動きは、蒸留が単なる効率化技術にとどまらず、競争戦略や知的財産保護、安全保障といった領域に波及していることを示している。</p>
+<p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
       <link>https://ledge.ai/articles/gemini_3_deep_think_arc_agi_2_84_6</link>
       <description><![CDATA[<p>Googleは2026年2月12日、推論特化モード「Gemini 3 Deep Think」の大幅アップデートを<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/">発表</a>した。科学・研究・工学領域の高度な問題解決を主用途として位置づけ、ARC-AGI-2で84.6%を記録したと公表している。</p>
@@ -43,6 +66,38 @@
 <p>今回のアップデートでは、GeminiアプリでのUltra向け提供に加え、Gemini APIで初めてDeep Thinkモードの早期アクセスを開始した。研究者や企業が実運用環境で利用できる段階へ移行した形となる。Googleは、科学・研究・工学領域における高度推論用途を主軸に展開していく方針を示している。</p>
 ]]></description>
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2026/2/16 [MON]政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</title>
+      <link>https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate</link>
+      <description><![CDATA[<p>総務省と経済産業省が策定した「AI事業者ガイドライン」について、改定案の概要が明らかになった。2026年2月16日に開催された検討会、総務省<a href="https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000136.html">「AIネットワーク社会推進会議 AIガバナンス検討会（第29回）」</a>で配布された資料「AI事業者ガイドラインの令和7年度更新内容（案）」によると、普及が進むAIエージェントや、ロボットなどを制御するフィジカルAIに関する定義や便益、リスク、対策を新たに盛り込む。</p>
+<p>事務局資料では、2026年3月末に第1.2版を公開する予定としている。</p>
+<h2>AIエージェントとフィジカルAIを新たに定義</h2>
+<p>更新案では、AIエージェントを「特定の目標を達成するために、環境を感知し、自律的に行動するAIシステム」と定義する。複数のシステムやサービスと連携しながら自律的に判断・実行を行う点が特徴とされる。</p>
+<p>フィジカルAIについては、センサ等を通じて物理環境の情報を取得し、AIモデルで処理した結果をもとに最適な方策を自律的に推論・判断し、アクチュエータなどを介して物理的な行動につなげるシステムと整理する。サイバー空間内での処理にとどまらず、現実世界へ直接作用する点が特徴とされている。</p>
+<p>便益としては、業務効率化や労働力不足の補完、安全性向上、介護・生活支援などが挙げられている。</p>
+<h2>自律行動に伴うリスクを追記</h2>
+<p>一方で、リスクとしては次の点が追加される。</p>
+<ul>
+<li>自律的な行動による誤動作</li>
+<li>サイバー攻撃や悪用の対象・手法の拡大</li>
+<li>機構の複雑化による保守管理の困難化</li>
+<li>カメラ等との連携によるプライバシー侵害の可能性</li>
+</ul>
+<p>これらを踏まえた留意事項として、更新案では「人間の判断を必須化する仕組み」の構築を明記する。また、セキュリティ確保の観点から権限を最小限に設定することや、ハードウェアに残存するデータの取り扱いへの配慮も求めている。</p>
+<h2>「一般的なリスク」も拡充</h2>
+<p>更新案では、AI全般に関するリスク項目も拡充する。</p>
+<p>具体的には、教育領域における学生の思考力の発展への影響、生成AI活用時のプライバシーリスク、金銭的損失や資格等の侵害といった観点を追記する方向だ。既存のリスク分類の整理や位置付けの見直しも行うとしている。</p>
+<h2>認知81％、活用46％</h2>
+<p>検討会資料に掲載された事業者アンケート結果によると、AI事業者ガイドラインの認知度は81％に達している。一方で「活用している」との回答は46％にとどまる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumusho260216_6c42a9b38e/soumusho260216_6c42a9b38e.jpg" alt="soumusho260216.jpg" /></p>
+<p>地方自治体や小規模事業者への浸透を図るため、内容に関する質問に自動回答するチャットボットなど、専用ツールの開発も検討事項として挙げられている。</p>
+<h2>Xで議論広がる「人間の判断を必須化する仕組み」</h2>
+<p>改定案の公開を受け、Xでは「自律型AIの安全性」と「産業競争力」のバランスをめぐる議論が広がっている。焦点となっているのは、「人間の判断を必須化する仕組み」がどの範囲・条件で適用されるのかという具体性だ。</p>
+<p>否定的な意見としては、「一律の人間介入はフィジカルAIのリアルタイム性を損なう」「規制が先行すれば実用化のハードルが高まる」といった指摘がテック系アカウントを中心に見られる。一方で、「物理世界に直接作用する以上、ヒューマン・イン・ザ・ループの設計は安全確保の観点から不可欠」とする声もある。また、関連銘柄の株価動向に触れつつ、市場は過度な規制強化を織り込んでいないとの見方を示す投稿も確認できる。</p>
+<p>更新内容は現時点で案の段階にあり、3月末の正式公表までに、例外規定の有無や「リスクに応じた段階的な適用」の考え方がどの程度明確化されるかが注目されている。</p>
+]]></description>
+      <pubDate>Mon, 16 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
@@ -168,29 +223,6 @@
       <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
-      <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
-      <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
-<p>同じ「distillation」という語が、競争（モデル開発）と防御（抽出攻撃）という異なる文脈で相次いで言及された格好だ。</p>
-<h2>OpenAI、DeepSeekの蒸留を問題視</h2>
-<p>Bloombergが入手した覚書によると、OpenAIはDeepSeekがチャットボット「R1」の開発にあたり、米国の主要AIモデルの出力を抽出する「不公平かつ洗練された手法」を用いていると指摘した。文書は2026年2月12日付で、下院中国問題特別委員会に提出された。</p>
-<p>覚書では、他社モデルの出力を体系的に収集し、それを新たなモデルの訓練に活用する行為が、競争環境や知的財産保護、国家安全保障の観点から懸念を生じさせる可能性があると説明している。DeepSeek側の公式見解は現時点で公表されていない。</p>
-<h2>Google、蒸留攻撃（Model Extraction Attacks）の増加を報告</h2>
-<p>一方、Googleは2026年2月13日、GTIG名義でレポート「GTIG AI Threat Tracker」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use?hl=en">公開</a>した。レポートでは、正規のAPIアクセスを利用してモデルの応答を体系的に収集し、新たなモデルを構築する「モデル抽出攻撃（Model Extraction Attacks）」、いわゆる「蒸留攻撃」が増加していると報告している。</p>
-<p>GTIGは、こうした行為を知的財産の侵害に当たる可能性があるものと位置付け、検知・遮断措置を講じていると説明した。また、2025年中に高度持続的脅威（APT）によるフロンティアモデルへの直接攻撃は確認していないとしつつも、研究者や民間企業による抽出試行を観測し、対策を講じたとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb.jpg" alt="gtig-ai-threat-tracker-feb26-fig1.max-1500x1500.jpg" /></p>
-<p>図は、GTIGが説明するモデル抽出攻撃の一般的構造を示したものだ。正規のAPIを通じて「教師モデル」に問い合わせを行い、その応答を用いて「学生モデル」を訓練する流れが図示されている。</p>
-<h2>蒸留とは何か──正規技術と抽出攻撃の境界</h2>
-<p>蒸留（knowledge distillation）は、既存の高性能モデル（教師モデル）の出力を利用して、より小型または効率的なモデル（学生モデル）を訓練する機械学習手法である。モデル圧縮や推論効率の向上を目的として広く研究・実装されてきた。</p>
-<p>一方で、他社が提供する商用モデルの出力を無断で抽出し、新モデル開発に活用する場合には、利用規約違反や知的財産侵害の問題が生じ得る。GTIGは、こうした行為を「distillation attacks」と定義している。</p>
-<p>OpenAIが議会に提出した覚書と、Googleが報告した抽出攻撃はいずれも「蒸留」という語を含むが、前者は国際競争の文脈、後者はサービス防御の文脈で語られている点が異なる。</p>
-<h2>競争と防御で同時に拡大する蒸留論点</h2>
-<p>今回の動きは、蒸留が単なる効率化技術にとどまらず、競争戦略や知的財産保護、安全保障といった領域に波及していることを示している。</p>
-<p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
       <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
       <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
@@ -275,38 +307,6 @@
 <h2>Gemini 3が広告基盤を支える</h2>
 <p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
 <p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2026/2/16 [MON]政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</title>
-      <link>https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate</link>
-      <description><![CDATA[<p>総務省と経済産業省が策定した「AI事業者ガイドライン」について、改定案の概要が明らかになった。2026年2月16日に開催された検討会、総務省<a href="https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000136.html">「AIネットワーク社会推進会議 AIガバナンス検討会（第29回）」</a>で配布された資料「AI事業者ガイドラインの令和7年度更新内容（案）」によると、普及が進むAIエージェントや、ロボットなどを制御するフィジカルAIに関する定義や便益、リスク、対策を新たに盛り込む。</p>
-<p>事務局資料では、2026年3月末に第1.2版を公開する予定としている。</p>
-<h2>AIエージェントとフィジカルAIを新たに定義</h2>
-<p>更新案では、AIエージェントを「特定の目標を達成するために、環境を感知し、自律的に行動するAIシステム」と定義する。複数のシステムやサービスと連携しながら自律的に判断・実行を行う点が特徴とされる。</p>
-<p>フィジカルAIについては、センサ等を通じて物理環境の情報を取得し、AIモデルで処理した結果をもとに最適な方策を自律的に推論・判断し、アクチュエータなどを介して物理的な行動につなげるシステムと整理する。サイバー空間内での処理にとどまらず、現実世界へ直接作用する点が特徴とされている。</p>
-<p>便益としては、業務効率化や労働力不足の補完、安全性向上、介護・生活支援などが挙げられている。</p>
-<h2>自律行動に伴うリスクを追記</h2>
-<p>一方で、リスクとしては次の点が追加される。</p>
-<ul>
-<li>自律的な行動による誤動作</li>
-<li>サイバー攻撃や悪用の対象・手法の拡大</li>
-<li>機構の複雑化による保守管理の困難化</li>
-<li>カメラ等との連携によるプライバシー侵害の可能性</li>
-</ul>
-<p>これらを踏まえた留意事項として、更新案では「人間の判断を必須化する仕組み」の構築を明記する。また、セキュリティ確保の観点から権限を最小限に設定することや、ハードウェアに残存するデータの取り扱いへの配慮も求めている。</p>
-<h2>「一般的なリスク」も拡充</h2>
-<p>更新案では、AI全般に関するリスク項目も拡充する。</p>
-<p>具体的には、教育領域における学生の思考力の発展への影響、生成AI活用時のプライバシーリスク、金銭的損失や資格等の侵害といった観点を追記する方向だ。既存のリスク分類の整理や位置付けの見直しも行うとしている。</p>
-<h2>認知81％、活用46％</h2>
-<p>検討会資料に掲載された事業者アンケート結果によると、AI事業者ガイドラインの認知度は81％に達している。一方で「活用している」との回答は46％にとどまる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumusho260216_6c42a9b38e/soumusho260216_6c42a9b38e.jpg" alt="soumusho260216.jpg" /></p>
-<p>地方自治体や小規模事業者への浸透を図るため、内容に関する質問に自動回答するチャットボットなど、専用ツールの開発も検討事項として挙げられている。</p>
-<h2>Xで議論広がる「人間の判断を必須化する仕組み」</h2>
-<p>改定案の公開を受け、Xでは「自律型AIの安全性」と「産業競争力」のバランスをめぐる議論が広がっている。焦点となっているのは、「人間の判断を必須化する仕組み」がどの範囲・条件で適用されるのかという具体性だ。</p>
-<p>否定的な意見としては、「一律の人間介入はフィジカルAIのリアルタイム性を損なう」「規制が先行すれば実用化のハードルが高まる」といった指摘がテック系アカウントを中心に見られる。一方で、「物理世界に直接作用する以上、ヒューマン・イン・ザ・ループの設計は安全確保の観点から不可欠」とする声もある。また、関連銘柄の株価動向に触れつつ、市場は過度な規制強化を織り込んでいないとの見方を示す投稿も確認できる。</p>
-<p>更新内容は現時点で案の段階にあり、3月末の正式公表までに、例外規定の有無や「リスクに応じた段階的な適用」の考え方がどの程度明確化されるかが注目されている。</p>
 ]]></description>
       <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
@@ -597,38 +597,6 @@
 <p>今後の仕様変更については、文書内で更新するとしている。</p>
 ]]></description>
       <pubDate>Thu, 12 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本発 AI VTuber「しずく」開発元Shizuku AI、a16z主導でシード調達──「世界で一番愛されるAIキャラクター」目指す</title>
-      <link>https://ledge.ai/articles/shizuku_ai_a16z_seed_funding</link>
-      <description><![CDATA[<p>日本発のAI VTuber「しずく」を開発するShizuku AIは2026年2月10日、米ベンチャーキャピタル大手のAndreessen Horowitz（a16z）をリード投資家として資金調達を実施したと<a href="https://x.com/cumulo_autumn/status/2021019421385556234">発表</a>した。調達額は公表されていない。</p>
-<p>今回の資金調達はシードラウンドにあたり、<a href="https://www.a16z.news/p/investing-in-shizuku">a16z</a>がこれを主導した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/aki_shizuku_x_9372ba6023/aki_shizuku_x_9372ba6023.jpg" alt="aki shizuku x.jpg" /></p>
-<h2>2023年に始まったAI VTuberプロジェクト</h2>
-<p>Shizuku AIの原点は、創業者のAkio Kodaira氏が2023年1月に開始したAI VTuber「Shizuku」にある。当時は米カリフォルニア大学バークレー校の博士課程在籍中だった。</p>
-<p>Shizukuは、日本語と英語で視聴者と対話し、歌唱機能を備え、Live2Dアバターでリアルタイムに応答する仕組みを持つ。YouTube上で配信を重ね、視聴者コミュニティを形成してきた。この取り組みを発展させる形でShizuku AIが設立された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shizuku_ai_1_cd17d6e3d7/shizuku_ai_1_cd17d6e3d7.jpg" alt="shizuku ai 1.jpg" /></p>
-<h2>リアルタイム生成技術を基盤に</h2>
-<p>Kodaira氏は、リアルタイム画像生成を90fps以上で実現した研究「StreamDiffusion」の筆頭著者。同研究はICCV 2025に採択され、オープンソース実装はGitHubで1万以上のスターを獲得している。</p>
-<p>その後、Metaでリアルタイム動画生成に携わり、Luma AIでも研究職を務めた経歴を持つ。こうしたリアルタイム生成技術の知見が、AIキャラクター開発の技術基盤となっている。</p>
-<p>a16zは、Kodaira氏が日本のキャラクター文化の文脈を背景に持ち、技術とキャラクター設計を横断できる点にも触れている。</p>
-<h2>「日本から、世界で愛されるAIキャラクターへ」</h2>
-<p>創業者は今回の資金調達にあたり、「日本から、世界で一番愛されるAIキャラクター、そして日常に寄り添い支えとなるAIコンパニオンを全力で作っていく」との方針を示している。</p>
-<p>Shizuku AIは、日本にAIラボを設立し、AIコンパニオンおよびキャラクター開発に特化した研究開発を進める計画だ。今後はShizukuの機能拡張を中心に、多言語音声合成の強化や会話能力の高度化、DiscordやYouTube、Xなど複数プラットフォームでの展開を進める。</p>
-<p>@<a href="https://www.youtube.com/watch?v=pk5FnS8Q69M">YouTube</a></p>
-]]></description>
-      <pubDate>Thu, 12 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>報ステ「選挙ステーション2026」で高速ロボットアーム「BOLT」導入　人間不可能な超高速カメラワークを披露</title>
-      <link>https://ledge.ai/articles/tv_asahi_election_station_2026_bolt_robot_arm_camera</link>
-      <description><![CDATA[<p>テレビ朝日は2026年2月8日、選挙特別番組『選挙ステーション2026』において、高速ロボットアームカメラ「<a href="https://x.com/hst_tvasahi/status/2020492521940406385">BOLT（ボルト）</a>」を導入した。</p>
-<p>番組内でキャスターは、生放送のスタジオ撮影で活用されるのは同局として初の試みであると説明したという。番組公式Xの投稿では、「人間が操作するカメラでは不可能なスピードと動きで撮影を行っている」としている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hst_tvasahi_e79c003799/hst_tvasahi_e79c003799.jpg" alt="hst_tvasahi.jpg" /></p>
-<p>「<a href="https://www.mrmoco.com/motion-control/bolt/">BOLT</a>」は、英国のMark Roberts Motion Control（MRMC）が開発したモーションコントロールカメラシステムである。産業用6軸ロボットアームをベースとし、プログラムされた軌道を高精度に再現できる点を特徴とする。急加速・急停止を伴う動作や、ミリ秒単位での制御に対応し、同一動作の反復実行が可能とされる。</p>
-<p>同機材は、映画やCM制作などにおいて高速撮影や視覚演出を目的に活用されてきた。放送分野においては、スタジオ内での移動撮影や演出強化を図る用途で導入が進んでいる。</p>
-]]></description>
-      <pubDate>Thu, 12 Feb 2026 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
