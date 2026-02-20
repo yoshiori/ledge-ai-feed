@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>動画生成AI Seedance 2.0波紋拡大、ByteDanceが実在人物・IP生成を当面制限──ハリウッド・日本政府も問題視</title>
+      <link>https://ledge.ai/articles/seedance2_0_international_backlash_ip_restriction</link>
+      <description><![CDATA[<p>中国IT大手の字節跳動（ByteDance）は、動画生成AI「Seedance 2.0」において、実在人物の顔やアニメ・映画などのIPキャラクターを参照した動画生成を当面制限していることが分かった。複数の中国メディアによると、同社傘下の抖音（Douyin）集団の李亮副総裁が2月15日、中国のSNS「Weibo（微博）」への投稿で、実在人物や既存IPを基にした生成を現在はサポートしていないと明らかにした。</p>
+<p>報道によれば、李氏はSeedance 2.0について「現在、実在人物の顔を参照した生成やIPキャラクターの生成はサポートしていない」と説明。あわせて、デジタル分身の制作には本人認証が必要であることや、権利侵害防止策を強化していく方針を示したという。</p>
+<h2>Seedance 2.0生成動画が拡散</h2>
+<p>Seedance 2.0は、テキストや画像、動画などを入力として映像を生成するモデルとして公開され、SNS上で拡散した。とりわけ、実在のハリウッド俳優を想起させる動画が投稿され、議論が拡大した。</p>
+<p>動画を投稿したRuairi Robinson氏は、アイルランド出身の映画監督・ビジュアルアーティストで、長編映画の監督やコンセプトアート制作などを手がけてきた人物。Robinson氏がXに投稿した生成動画は海外メディアでも取り上げられ、著作権侵害の可能性を指摘する声も上がった。</p>
+<p><strong>RobloxのプロダクトマネージャーPeter Yang氏は、Xで「このモデル（Seedance 2）で見たものはすべて著作権侵害だ」とコメントした</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/peteryang_seedance20_x_6a9b148605/peteryang_seedance20_x_6a9b148605.jpg" alt="peteryang seedance20 x.jpg" /></p>
+<h2>Robinson氏、YouTubeでテスト動画を公開</h2>
+<p>Robinson氏はその後、自身のYouTubeチャンネルでSeedance 2.0のテスト動画をまとめて公開した。概要欄では「2026年2月10日に短時間アクセスできたが、その後モデルは引き下げられた（pulled down）」と説明している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=fbVv0ZPk0fw&amp;t=4s">YouTube</a></p>
+<h2>ハリウッド団体、日本政府も懸念を表明</h2>
+<p>米映画業界団体や俳優組合は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
+<p>米<a href="https://www.motionpictures.org/press/motion-picture-association-calls-for-bytedance-to-cease-seedance-2-0-infringing-activity/">映画業界団体</a>や<a href="https://www.sagaftra.org/sag-aftra-statement-seedance-20">俳優組合</a>は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
+<p>日本国内でも議論は波及していた。小野田紀美AI戦略担当相が閣議後の会見でSeedance 2.0について言及し、<a href="https://ledge.ai/articles/onoda_seedance2_government_investigation_copyright">著作権上の懸念</a>を指摘。政府側が事実関係の調査に乗り出す方針を示していた。</p>
+<p>今回の当面制限は、モデル公開後に拡大した国際的な議論の中で示された対応となる。動画生成AIをめぐっては、実在人物や既存IPの取り扱いをどう設計するかが、引き続き焦点となっている。</p>
+]]></description>
+      <pubDate>Wed, 18 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
       <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
       <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
@@ -26,6 +47,186 @@
 <p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
 ]]></description>
       <pubDate>Tue, 17 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
+      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
+      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
+<h2>エージェント志向モデルとしての位置づけ</h2>
+<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
+<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
+<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
+<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
+<h2>Vending-Bench 2でのシミュレーション結果</h2>
+<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
+<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
+<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
+<h2>公開形態と提供</h2>
+<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
+同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
+<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>インドのアダニ・グループ、AIデータセンターに1000億ドル（約15兆円）を直接投資──2035年までに5GW、総額2500億ドル規模のエコシステム構想</title>
+      <link>https://ledge.ai/articles/adani_group_ai_datacenter_100billion_5gw_2035</link>
+      <description><![CDATA[<p>インドの多角経営コングロマリット、アダニ・グループは2026年2月17日、再生可能エネルギーで稼働するハイパースケールの「AI-ready」データセンター群の整備に、2035年までに1000億ドルを直接投資すると<a href="https://www.adani.com/newsroom/media-releases/adani-commits-usd-100-bn-to-sovereign-ai-infrastructure">発表</a>した。関連分野で追加1500億ドルの投資を誘発し、総額2500億ドル規模のAIインフラ・エコシステム形成を見込む。アダニはこれを「世界最大級の統合型エネルギー×計算コミットメント」の一つと位置付けている。</p>
+<h2>1000億ドル投資、総額2500億ドル規模へ</h2>
+<p>今回の直接投資1000億ドルは、再生可能エネルギーを基盤とするAI対応型データセンターの構築に充てられる。さらに、サーバー製造、先端電力インフラ、主権クラウドなど関連分野で1500億ドルの追加投資を誘発すると見込み、10年間で2500億ドル規模のAIインフラ・エコシステム形成を想定する。</p>
+<p>同社はこの取り組みを、エネルギーと計算資源を統合した国家規模の基盤整備と位置付けている。</p>
+<h2>2GWから5GWへ拡張、Google・Microsoftと展開</h2>
+<p>構想の中核となるのは、同社のデータセンター事業プラットフォーム「AdaniConnex」だ。現在約2ギガワット（GW）の全国データセンター容量を、2035年までに5GWへ拡張する。</p>
+<p>Googleとの戦略的パートナーシップのもと、ビシャカパトナム（Visakhapatnam）でギガワット級AIデータセンターキャンパスを構築するほか、ノイダ（Noida）でも展開する。Microsoftとはハイデラバード（Hyderabad）およびプネー（Pune）での取り組みを進めるとしている。</p>
+<p>また、Flipkartとの提携も深化させ、次世代デジタルコマース、高性能コンピューティング（HPC）、大規模AIワークロードに対応する第2の専用AIデータセンターを開発する方針を示した。</p>
+<h2>再エネ550億ドルとBESS、液冷対応の“AI-ready”設計</h2>
+<p>データセンターの電力基盤として、Adani Green Energyが手がける30GW規模のカブダ（Khavda）再生可能エネルギープロジェクトを中核に据える。同プロジェクトはすでに10GW超が稼働しているという。</p>
+<p>さらに同社は再生可能エネルギー拡大に追加で550億ドルを投じ、世界最大級の蓄電システム（BESS）を含むポートフォリオを構築する計画も明らかにした。</p>
+<p>施設は高密度コンピュートクラスターと次世代AIワークロード向けに最適化され、液冷（liquid cooling）システムや高効率電力アーキテクチャを採用する。再エネ発電、送電インフラ、ハイパースケールAI計算を単一アーキテクチャで並行整備する「統合型モデル」を採る点が特徴だ。</p>
+<h2>主権AIと国内製造サプライチェーン</h2>
+<p>同社は、インド国内の大規模言語モデル（LLM）や国家データ施策を支える専用計算資源を確保し、長期的なデータ主権の確立を図るとしている。GPUキャパシティの一定割合をインドのAIスタートアップや研究機関、ディープテック分野向けに割り当てる方針も示した。</p>
+<p>サプライチェーン面では、変圧器、電力電子機器、送電システム、インバータ、産業用熱管理ソリューションなどの重要部材について、国内製造パートナーシップに共同投資する。これにより、グローバル供給網の変動リスクを低減し、インドをデータハブにとどまらず、次世代インテリジェンス・インフラの生産・輸出拠点へと位置付ける狙いがある。</p>
+<h2>人材育成と国家インフラとの統合</h2>
+<p>人材面では、大学と連携したAIインフラ工学カリキュラムの設置、エネルギーや物流分野に特化した応用AI研究ラボの開設、国家フェローシップ制度の創設に取り組む。</p>
+<p>また、PM Gati Shaktiプログラムと整合させ、物流や港湾、産業回廊にエージェント型AIを導入するほか、既存のAIベース産業クラウドを活用して再エネ資産をリアルタイム管理するなど、重厚長大産業とデジタル基盤の統合を進めるとしている。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
+      <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
+      <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kisei_kaikaku_kisei_AI_fe6f8d8c93/kisei_kaikaku_kisei_AI_fe6f8d8c93.jpg" alt="kisei-kaikaku-kisei AI.jpg" /></p>
+<p>同日行われた記者会見で、規制改革担当大臣である城内実氏は、令和7年12月23日に閣議決定された「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」において、AIの社会実装の実現に向け、国民の声を聴きながら既存の規制や制度の点検および見直しを図る方針が示されていると説明。その方針を受けた具体的な取り組みとして、今回の情報募集を実施すると述べた。</p>
+<p>城内氏は、AI担当大臣である小野田紀美氏と連携し、AIの社会実装において障害となる、または不十分な効果をもたらす規制・制度について、国民に広く情報提供を求めると説明した。内閣府のウェブサイトには特設ページが設けられ、専用フォームから情報を提出できる。</p>
+<p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
+<p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/2/19 [THU]Alibaba、ロボット向けオープンAI基盤モデル「RynnBrain」公開──実世界の空間・時間ダイナミクスに接地し、従来のVLMの弱点克服を目指す</title>
+      <link>https://ledge.ai/articles/alibaba_rynnbrain_robotics_spatiotemporal_grounded_ai</link>
+      <description><![CDATA[<p>中国のテクノロジー企業Alibaba Group傘下のDAMO Academyは2026年2月13日、ロボットや自律機器向けのオープンソース基盤モデル「RynnBrain」を<a href="https://alibaba-damo-academy.github.io/RynnBrain.github.io/">発表</a>した。実世界における空間・時間のダイナミクスに接地し、知覚・推論・計画を統合的に扱う“エンボディドAI”向けの時空間基盤モデルと位置付けられる。</p>
+<h2>物理世界に接地した統合フレームワーク</h2>
+<p>論文によれば、RynnBrainは従来の視覚言語モデル（VLM）が抱えてきた課題――物理ダイナミクスへの内在的な接地の弱さや、時空間整合性を伴う推論の困難さ――に対応することを目的として設計された。</p>
+<p>モデルは、以下の4つの能力軸を統合するフレームワークとして構築されている。</p>
+<ul>
+<li>包括的なエゴセントリック理解</li>
+<li>多様な時空間ローカライゼーション</li>
+<li>物理に接地した推論</li>
+<li>物理制約を踏まえた計画（physics-aware planning）</li>
+</ul>
+<p>実世界の環境下でロボットが「見て、理解し、推論し、行動計画を立てる」一連の処理を、空間情報と時間的変化を前提に統合することを目指す。</p>
+<p><strong>■ RynnBrainの能力構成：認知（Cognition）、位置特定（Localization）、推論（Reasoning）、計画（Planning）を統合し、実世界の空間・時間ダイナミクスに接地した処理を行う</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_b020061610/x3_b020061610.jpg" alt="x3.jpg" /></p>
+<h2>2B〜30B（MoE）まで3スケール展開、用途別派生も</h2>
+<p>RynnBrainは、2B、8B、30B-A3B（Mixture-of-Experts構成）の3スケールで展開される。さらに、用途別にポストトレーニングを施した派生モデルとして、以下の4種が公開されている。</p>
+<ul>
+<li>RynnBrain-CoP（空間接地を挟んだ推論強化型）</li>
+<li>RynnBrain-Nav（ナビゲーション向け）</li>
+<li>RynnBrain-Plan（操作計画向け）</li>
+<li>RynnBrain-VLA（視覚・言語・行動統合）</li>
+</ul>
+<p>基盤にはQwen3-VLが採用されており、大規模な時空間データを用いた学習パイプラインを通じて、2000万超のサンプルにスケールさせたと説明している。</p>
+<h2>28ベンチで評価、新設「RynnBrain-Bench」も公開</h2>
+<p>論文では、エンボディドAI関連20ベンチマークと、一般的な視覚理解8ベンチマークを含む計28評価で性能を検証したと報告している。位置特定や空間参照、操作計画などの項目において、既存のオープンモデルを上回る結果を示したとしている。</p>
+<p>あわせて、長時間のエピソード動画全体にわたる時空間理解を測定する新評価スイート「RynnBrain-Bench」も公開された。同ベンチは3,616本の動画クリップ、577,998フレーム、12,000件の自由記述質問を含む構成とされる。</p>
+<p><strong>■ RynnBrain-Benchの評価設計：空間認知、物体理解、接地推論、アフォーダンス、軌道理解など多層的な能力を横断的に測定する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_4fc0376495/x6_4fc0376495.jpg" alt="x6.jpg" /></p>
+<h2>Apache 2.0で公開、複数プラットフォームから利用可能</h2>
+<p>RynnBrainはApache 2.0ライセンスの下で公開されており、プロジェクトページのほか、GitHub、Hugging Face、ModelScopeなどから利用可能とされる。</p>
+<p>ロボットや自律機器の高度化を支える“頭脳”として、空間・時間ダイナミクスに接地した統合モデルをオープンソースで提示した点が特徴となる。今後は、実機応用やエージェントスタック全体への組み込み事例が注目される。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>米国防総省、Anthropicとの関係解消を検討──「Claude」軍事利用の安全制限めぐり対立</title>
+      <link>https://ledge.ai/articles/anthropic_pentagon_claude_military_safeguards_dispute</link>
+      <description><![CDATA[<p>2026年2月15日、アメリカ国防総省が、生成AI「Claude」を開発するAnthropicとの契約関係の解消を検討していると、米ニュースサイト<a href="https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro">Axios</a>が報じた。両者はAIの軍事利用に関する安全制限を巡って協議を続けてきたが、合意に至っていないという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b.jpg" alt="axios pentagon threatens to cut off anthropic.jpg" /></p>
+<p>Axiosによると、国防総省はAnthropicに対し、「合法的な軍事用途」全般での利用を可能にするよう安全ガードレールの見直しを求めている。一方、Anthropicは自社の利用ポリシーに基づき、完全自律型の致死兵器や大規模監視への利用など一部用途に制限を設けており、この点が交渉の焦点となっている。</p>
+<p>Axiosは、2025年に締結された最大約2億ドル規模の契約にも影響が及ぶ可能性があると伝えた。交渉は数カ月にわたり続いているという。</p>
+<p>その後、<a href="https://www.reuters.com/technology/pentagon-threatens-cut-off-anthropic-ai-safeguards-dispute-axios-reports-2026-02-15/">Reuters</a>もAxiosの報道を引用する形で追随した。Reutersは、国防総省がAnthropicとの関係を断つ可能性を検討していると報じるとともに、OpenAIやGoogleなど他のAI企業にも同様の軍事利用に関する要請が行われていると伝えた点が特徴だ。軍との契約を巡る動きが業界全体に波及する可能性を補足している。</p>
+<p>また、Axiosの<a href="https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth">続報</a>では、国防総省がAnthropicを防衛サプライチェーン上の「リスク」として扱う選択肢を検討しているとも報じられた。この措置が実施された場合、防衛関連企業がAnthropicの技術を利用することに制限がかかる可能性があるという。通常、この枠組みは外国勢力などを対象に適用されるものであり、国内AI企業への適用が検討されるのは異例とされる。</p>
+<p>報道によれば、国防総省側は国家安全保障上の観点からAI技術の幅広い活用を求めている。一方、Anthropicは自社の安全ポリシーに基づく用途制限を維持する姿勢を崩していないとされる。</p>
+<p>現時点で、国防総省およびAnthropicから交渉決裂や契約解除に関する正式発表は出ていない。今後、契約の扱いや他AI企業との関係がどのように整理されるかが焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
+      <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
+      <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
+<h2>富士通、国産「ソブリンAIサーバ」を3月から製造開始</h2>
+<p>同社は、経済安全保障の強化やサイバー攻撃リスクの高まりを背景に、データやインフラの主権を確保する「ソブリン性」へのニーズが高まっていると説明する。</p>
+<p>製造を開始する「ソブリンAIサーバ」は、重要インフラや公共領域など、ミッションクリティカルな用途を想定したAI基盤として提供予定。日本国内で設計・製造・検査を行うことで、データ流出リスクの最小化や国内法令への準拠、技術コントロールの確保などを図るとしている。</p>
+<h2>経済安保・サイバー脅威で“ソブリン性”需要が拡大</h2>
+<p>富士通は、ソブリン性（データやAI基盤の管理・統制を自国・自組織内で完結できる状態）を備えたAI基盤に求められる要件として、以下を挙げている。</p>
+<ul>
+<li>データ流出リスクの最小化</li>
+<li>自律的な運用体制の確立</li>
+<li>国内法への準拠</li>
+<li>セキュリティリスクの透明性確保</li>
+<li>テクノロジーのコントロール</li>
+</ul>
+<p>生成AIの普及により、大規模な演算基盤を支えるAIサーバの戦略的重要性が増していることも背景にある。</p>
+<h2>Blackwell世代GPU搭載のAIサーバを国内生産へ</h2>
+<p>3月から製造を開始するソブリンAIサーバには、NVIDIAの最新世代GPUが搭載される。
+具体的には、</p>
+<ul>
+<li>NVIDIA HGX B300</li>
+<li>NVIDIA RTX PRO 6000 Blackwell Server Edition</li>
+</ul>
+<p>を搭載した構成のサーバを、Made in Japan製品として国内で製造する。これにより、生成AIや大規模言語モデル（LLM）の学習・推論用途に対応する高性能AI基盤を国内生産体制で提供する。</p>
+<h2>“国内一貫生産”でトレーサビリティと透明性を強化</h2>
+<p>製造は、富士通グループの笠島工場（石川県かほく市）で行う。同工場は、スーパーコンピュータ「富岳」や高信頼サーバの製造で培った技術を有する拠点だ。</p>
+<p>装置組立は2026年3月に開始し、プリント基板の組立は2026年6月から国内で開始する予定としている。主要部品のトレーサビリティを確保し、基板から装置までの一貫生産体制を構築することで、製造工程の透明性向上とソブリン性の強化を図る。</p>
+<h2>次の一手：FUJITSU-MONAKA搭載サーバを2026年度中に</h2>
+<p>富士通はあわせて、自社開発の省電力プロセッサ「FUJITSU-MONAKA」を搭載したサーバについても、2026年度中にMade in Japan製品として製造開始する予定を示した。</p>
+<p>同サーバにはコンフィデンシャルコンピューティング技術を組み込み、データの機密性を高める設計とする方針だ。</p>
+<h2>日本・欧州へ展開、Supermicro協業も拡大</h2>
+<p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
+<p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gemini 3.1 Pro、ARC-AGI-2で77.1%──“Deep Think級推論”を一般提供へ</title>
+      <link>https://ledge.ai/articles/gemini_3_1_pro_arc_agi_2_77_1_deep_think_general_release</link>
+      <description><![CDATA[<p>Googleは2026年2月19日（現地時間）、同社の大規模言語モデル「Gemini」シリーズの最新モデル「Gemini 3.1 Pro」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/">発表</a>した。Googleは同モデルを「複雑問題解決の新たなベースライン」と位置づけ、研究モデル「Gemini 3 Deep Think」と同じコア知能を実務用途向けにスケールしたものだと説明している。同日よりコンシューマー向けアプリから開発者向けAPI、エンタープライズ向け基盤まで順次ロールアウトを開始した。</p>
+<h2>「複雑問題解決の新ベースライン」と位置付け</h2>
+<p>発表の中でGoogleは、Gemini 3.1 Proを「<a href="https://x.com/Google/status/2024519460124565987">our new baseline for complex problem-solving</a>（複雑な問題解決の新たな基準）」と表現した。</p>
+<p>同社によれば、Gemini 3.1 ProはGemini 3 Deep Thinkと同じコア知能を備えつつ、より実務的な用途に適したスケールへ最適化されたモデルだという。研究用途に限定されていた推論能力を、より広範な利用層に開放する位置づけとなる。</p>
+<h2>ARC-AGI-2で77.1%──3 Proから2倍超</h2>
+<p>今回の発表で注目されるのは、抽象推論ベンチマーク「ARC-AGI-2」におけるスコアだ。</p>
+<p>DeepMindが公開した評価結果によれば、Gemini 3.1 ProはARC-AGI-2で77.1%を記録した（ARC Prize Verified）。前世代のGemini 3 Pro（31.1%）から大幅に向上している。</p>
+<p>ARC-AGI-2は、未知の論理パターンを解く能力を測定するベンチマークで、単純な知識検索では対応しにくい抽象推論を評価するものとされる。</p>
+<p>比較対象として公表されている数値では、Claude Opus 4.6が68.8%、GPT-5.2が52.9%となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Bi_Fhy_Xs_AA_06bm_051b6fe276/H_Bi_Fhy_Xs_AA_06bm_051b6fe276.jpg" alt="HBiFhy-XsAA06bm.jpg" /></p>
+<h2>Humanity’s Last Examでもトップ帯</h2>
+<p>総合的な知識と推論能力を測るベンチマーク「Humanity’s Last Exam」では、Gemini 3.1 Proは44.4%を記録している。同条件での比較では、Claude Sonnet 4.6が40.0%、GPT-5.2が34.5%となっており、Gemini 3.1 Proはトップ帯に位置している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_1_pro_benchmarks_07e69cf448/gemini_3_1_pro_benchmarks_07e69cf448.jpg" alt="gemini_3-1-pro__benchmarks.jpg" /></p>
+<h2>SWE-bench Verified 80.6%──実務性能は維持</h2>
+<p>ソフトウェア開発能力を測定する「SWE-bench Verified」では、Gemini 3.1 Proは80.6%を記録した。</p>
+<p>Claude Opus 4.6の80.8%とほぼ同水準であり、抽象推論ベンチマークでの大幅な向上と同時に、実務的なコーディング性能も維持していることが示されている。</p>
+<h2>デモ事例：ISS追跡から3D群れシミュレーションまで</h2>
+<p>Googleは、Gemini 3.1 Proのデモ事例を複数紹介している。</p>
+<ul>
+<li>公開APIを用いた国際宇宙ステーション（ISS）のリアルタイム追跡ダッシュボード構築</li>
+<li>テキストプロンプトからのアニメーションSVG生成</li>
+<li>手の動きに反応するインタラクティブ3Dスターリング（ムクドリ）群れシミュレーション</li>
+<li>小説『嵐が丘』の雰囲気を反映したポートフォリオUIの生成</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/animated_SV_Gs_35d6721955/animated_SV_Gs_35d6721955.jpg" alt="animated SVGs.jpg" /></p>
+<p>モデルのコード生成や構造表現の品質を手早く比較する題材として、開発者コミュニティでしばしば用いられてきた「自転車に乗るペリカン」のアニメーションSVG生成も取り上げられている。Googleは「アニメーションSVGで自転車に乗るペリカンを生成せよ」というプロンプトを用い、Gemini 3 ProとGemini 3.1 Proの生成結果を並べて提示した。</p>
+<p>公開された比較画像では、Gemini 3 Proの生成例では自転車のペダルは回転しているものの、ペリカンの脚はペダル動作と連動していない。一方、Gemini 3.1 Proの生成例では、脚がペダルに正しく配置され、動きと連動している様子が確認できる。</p>
+<h2>提供範囲</h2>
+<p>Gemini 3.1 Proは、発表同日より段階的に提供が開始される。コンシューマー向けにはGemini AppおよびNotebookLMで利用可能となる。開発者向けには、Gemini APIのプレビュー版として提供され、Google AI StudioやGemini CLI、Android Studioなどの開発環境からアクセスできる。さらに、企業向けにはVertex AIおよびGemini Enterpriseを通じて導入可能とされている。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
@@ -68,196 +269,6 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</title>
-      <link>https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate</link>
-      <description><![CDATA[<p>総務省と経済産業省が策定した「AI事業者ガイドライン」について、改定案の概要が明らかになった。2026年2月16日に開催された検討会、総務省<a href="https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000136.html">「AIネットワーク社会推進会議 AIガバナンス検討会（第29回）」</a>で配布された資料「AI事業者ガイドラインの令和7年度更新内容（案）」によると、普及が進むAIエージェントや、ロボットなどを制御するフィジカルAIに関する定義や便益、リスク、対策を新たに盛り込む。</p>
-<p>事務局資料では、2026年3月末に第1.2版を公開する予定としている。</p>
-<h2>AIエージェントとフィジカルAIを新たに定義</h2>
-<p>更新案では、AIエージェントを「特定の目標を達成するために、環境を感知し、自律的に行動するAIシステム」と定義する。複数のシステムやサービスと連携しながら自律的に判断・実行を行う点が特徴とされる。</p>
-<p>フィジカルAIについては、センサ等を通じて物理環境の情報を取得し、AIモデルで処理した結果をもとに最適な方策を自律的に推論・判断し、アクチュエータなどを介して物理的な行動につなげるシステムと整理する。サイバー空間内での処理にとどまらず、現実世界へ直接作用する点が特徴とされている。</p>
-<p>便益としては、業務効率化や労働力不足の補完、安全性向上、介護・生活支援などが挙げられている。</p>
-<h2>自律行動に伴うリスクを追記</h2>
-<p>一方で、リスクとしては次の点が追加される。</p>
-<ul>
-<li>自律的な行動による誤動作</li>
-<li>サイバー攻撃や悪用の対象・手法の拡大</li>
-<li>機構の複雑化による保守管理の困難化</li>
-<li>カメラ等との連携によるプライバシー侵害の可能性</li>
-</ul>
-<p>これらを踏まえた留意事項として、更新案では「人間の判断を必須化する仕組み」の構築を明記する。また、セキュリティ確保の観点から権限を最小限に設定することや、ハードウェアに残存するデータの取り扱いへの配慮も求めている。</p>
-<h2>「一般的なリスク」も拡充</h2>
-<p>更新案では、AI全般に関するリスク項目も拡充する。</p>
-<p>具体的には、教育領域における学生の思考力の発展への影響、生成AI活用時のプライバシーリスク、金銭的損失や資格等の侵害といった観点を追記する方向だ。既存のリスク分類の整理や位置付けの見直しも行うとしている。</p>
-<h2>認知81％、活用46％</h2>
-<p>検討会資料に掲載された事業者アンケート結果によると、AI事業者ガイドラインの認知度は81％に達している。一方で「活用している」との回答は46％にとどまる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumusho260216_6c42a9b38e/soumusho260216_6c42a9b38e.jpg" alt="soumusho260216.jpg" /></p>
-<p>地方自治体や小規模事業者への浸透を図るため、内容に関する質問に自動回答するチャットボットなど、専用ツールの開発も検討事項として挙げられている。</p>
-<h2>Xで議論広がる「人間の判断を必須化する仕組み」</h2>
-<p>改定案の公開を受け、Xでは「自律型AIの安全性」と「産業競争力」のバランスをめぐる議論が広がっている。焦点となっているのは、「人間の判断を必須化する仕組み」がどの範囲・条件で適用されるのかという具体性だ。</p>
-<p>否定的な意見としては、「一律の人間介入はフィジカルAIのリアルタイム性を損なう」「規制が先行すれば実用化のハードルが高まる」といった指摘がテック系アカウントを中心に見られる。一方で、「物理世界に直接作用する以上、ヒューマン・イン・ザ・ループの設計は安全確保の観点から不可欠」とする声もある。また、関連銘柄の株価動向に触れつつ、市場は過度な規制強化を織り込んでいないとの見方を示す投稿も確認できる。</p>
-<p>更新内容は現時点で案の段階にあり、3月末の正式公表までに、例外規定の有無や「リスクに応じた段階的な適用」の考え方がどの程度明確化されるかが注目されている。</p>
-]]></description>
-      <pubDate>Mon, 16 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>インドのアダニ・グループ、AIデータセンターに1000億ドル（約15兆円）を直接投資──2035年までに5GW、総額2500億ドル規模のエコシステム構想</title>
-      <link>https://ledge.ai/articles/adani_group_ai_datacenter_100billion_5gw_2035</link>
-      <description><![CDATA[<p>インドの多角経営コングロマリット、アダニ・グループは2026年2月17日、再生可能エネルギーで稼働するハイパースケールの「AI-ready」データセンター群の整備に、2035年までに1000億ドルを直接投資すると<a href="https://www.adani.com/newsroom/media-releases/adani-commits-usd-100-bn-to-sovereign-ai-infrastructure">発表</a>した。関連分野で追加1500億ドルの投資を誘発し、総額2500億ドル規模のAIインフラ・エコシステム形成を見込む。アダニはこれを「世界最大級の統合型エネルギー×計算コミットメント」の一つと位置付けている。</p>
-<h2>1000億ドル投資、総額2500億ドル規模へ</h2>
-<p>今回の直接投資1000億ドルは、再生可能エネルギーを基盤とするAI対応型データセンターの構築に充てられる。さらに、サーバー製造、先端電力インフラ、主権クラウドなど関連分野で1500億ドルの追加投資を誘発すると見込み、10年間で2500億ドル規模のAIインフラ・エコシステム形成を想定する。</p>
-<p>同社はこの取り組みを、エネルギーと計算資源を統合した国家規模の基盤整備と位置付けている。</p>
-<h2>2GWから5GWへ拡張、Google・Microsoftと展開</h2>
-<p>構想の中核となるのは、同社のデータセンター事業プラットフォーム「AdaniConnex」だ。現在約2ギガワット（GW）の全国データセンター容量を、2035年までに5GWへ拡張する。</p>
-<p>Googleとの戦略的パートナーシップのもと、ビシャカパトナム（Visakhapatnam）でギガワット級AIデータセンターキャンパスを構築するほか、ノイダ（Noida）でも展開する。Microsoftとはハイデラバード（Hyderabad）およびプネー（Pune）での取り組みを進めるとしている。</p>
-<p>また、Flipkartとの提携も深化させ、次世代デジタルコマース、高性能コンピューティング（HPC）、大規模AIワークロードに対応する第2の専用AIデータセンターを開発する方針を示した。</p>
-<h2>再エネ550億ドルとBESS、液冷対応の“AI-ready”設計</h2>
-<p>データセンターの電力基盤として、Adani Green Energyが手がける30GW規模のカブダ（Khavda）再生可能エネルギープロジェクトを中核に据える。同プロジェクトはすでに10GW超が稼働しているという。</p>
-<p>さらに同社は再生可能エネルギー拡大に追加で550億ドルを投じ、世界最大級の蓄電システム（BESS）を含むポートフォリオを構築する計画も明らかにした。</p>
-<p>施設は高密度コンピュートクラスターと次世代AIワークロード向けに最適化され、液冷（liquid cooling）システムや高効率電力アーキテクチャを採用する。再エネ発電、送電インフラ、ハイパースケールAI計算を単一アーキテクチャで並行整備する「統合型モデル」を採る点が特徴だ。</p>
-<h2>主権AIと国内製造サプライチェーン</h2>
-<p>同社は、インド国内の大規模言語モデル（LLM）や国家データ施策を支える専用計算資源を確保し、長期的なデータ主権の確立を図るとしている。GPUキャパシティの一定割合をインドのAIスタートアップや研究機関、ディープテック分野向けに割り当てる方針も示した。</p>
-<p>サプライチェーン面では、変圧器、電力電子機器、送電システム、インバータ、産業用熱管理ソリューションなどの重要部材について、国内製造パートナーシップに共同投資する。これにより、グローバル供給網の変動リスクを低減し、インドをデータハブにとどまらず、次世代インテリジェンス・インフラの生産・輸出拠点へと位置付ける狙いがある。</p>
-<h2>人材育成と国家インフラとの統合</h2>
-<p>人材面では、大学と連携したAIインフラ工学カリキュラムの設置、エネルギーや物流分野に特化した応用AI研究ラボの開設、国家フェローシップ制度の創設に取り組む。</p>
-<p>また、PM Gati Shaktiプログラムと整合させ、物流や港湾、産業回廊にエージェント型AIを導入するほか、既存のAIベース産業クラウドを活用して再エネ資産をリアルタイム管理するなど、重厚長大産業とデジタル基盤の統合を進めるとしている。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
-      <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
-      <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kisei_kaikaku_kisei_AI_fe6f8d8c93/kisei_kaikaku_kisei_AI_fe6f8d8c93.jpg" alt="kisei-kaikaku-kisei AI.jpg" /></p>
-<p>同日行われた記者会見で、規制改革担当大臣である城内実氏は、令和7年12月23日に閣議決定された「<a href="https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html">人工知能基本計画</a>」において、AIの社会実装の実現に向け、国民の声を聴きながら既存の規制や制度の点検および見直しを図る方針が示されていると説明。その方針を受けた具体的な取り組みとして、今回の情報募集を実施すると述べた。</p>
-<p>城内氏は、AI担当大臣である小野田紀美氏と連携し、AIの社会実装において障害となる、または不十分な効果をもたらす規制・制度について、国民に広く情報提供を求めると説明した。内閣府のウェブサイトには特設ページが設けられ、専用フォームから情報を提出できる。</p>
-<p>寄せられた情報は、今後の規制改革推進会議における審議や、人工知能基本計画の改定に向けた検討にあたって参考とされる予定だという。詳細については、内閣府規制改革推進室が問い合わせ窓口となる。</p>
-<p>政府は、AIの研究開発に加え、社会実装段階で生じる制度的課題への対応を重要課題として位置付けている。これまでもAI法案の策定過程でパブリックコメントを実施し、国民からの意見を制度設計に反映させてきた。今回の募集は、こうした政策プロセスの一環として実施されるものだ。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/2/19 [THU]Alibaba、ロボット向けオープンAI基盤モデル「RynnBrain」公開──実世界の空間・時間ダイナミクスに接地し、従来のVLMの弱点克服を目指す</title>
-      <link>https://ledge.ai/articles/alibaba_rynnbrain_robotics_spatiotemporal_grounded_ai</link>
-      <description><![CDATA[<p>中国のテクノロジー企業Alibaba Group傘下のDAMO Academyは2026年2月13日、ロボットや自律機器向けのオープンソース基盤モデル「RynnBrain」を<a href="https://alibaba-damo-academy.github.io/RynnBrain.github.io/">発表</a>した。実世界における空間・時間のダイナミクスに接地し、知覚・推論・計画を統合的に扱う“エンボディドAI”向けの時空間基盤モデルと位置付けられる。</p>
-<h2>物理世界に接地した統合フレームワーク</h2>
-<p>論文によれば、RynnBrainは従来の視覚言語モデル（VLM）が抱えてきた課題――物理ダイナミクスへの内在的な接地の弱さや、時空間整合性を伴う推論の困難さ――に対応することを目的として設計された。</p>
-<p>モデルは、以下の4つの能力軸を統合するフレームワークとして構築されている。</p>
-<ul>
-<li>包括的なエゴセントリック理解</li>
-<li>多様な時空間ローカライゼーション</li>
-<li>物理に接地した推論</li>
-<li>物理制約を踏まえた計画（physics-aware planning）</li>
-</ul>
-<p>実世界の環境下でロボットが「見て、理解し、推論し、行動計画を立てる」一連の処理を、空間情報と時間的変化を前提に統合することを目指す。</p>
-<p><strong>■ RynnBrainの能力構成：認知（Cognition）、位置特定（Localization）、推論（Reasoning）、計画（Planning）を統合し、実世界の空間・時間ダイナミクスに接地した処理を行う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_b020061610/x3_b020061610.jpg" alt="x3.jpg" /></p>
-<h2>2B〜30B（MoE）まで3スケール展開、用途別派生も</h2>
-<p>RynnBrainは、2B、8B、30B-A3B（Mixture-of-Experts構成）の3スケールで展開される。さらに、用途別にポストトレーニングを施した派生モデルとして、以下の4種が公開されている。</p>
-<ul>
-<li>RynnBrain-CoP（空間接地を挟んだ推論強化型）</li>
-<li>RynnBrain-Nav（ナビゲーション向け）</li>
-<li>RynnBrain-Plan（操作計画向け）</li>
-<li>RynnBrain-VLA（視覚・言語・行動統合）</li>
-</ul>
-<p>基盤にはQwen3-VLが採用されており、大規模な時空間データを用いた学習パイプラインを通じて、2000万超のサンプルにスケールさせたと説明している。</p>
-<h2>28ベンチで評価、新設「RynnBrain-Bench」も公開</h2>
-<p>論文では、エンボディドAI関連20ベンチマークと、一般的な視覚理解8ベンチマークを含む計28評価で性能を検証したと報告している。位置特定や空間参照、操作計画などの項目において、既存のオープンモデルを上回る結果を示したとしている。</p>
-<p>あわせて、長時間のエピソード動画全体にわたる時空間理解を測定する新評価スイート「RynnBrain-Bench」も公開された。同ベンチは3,616本の動画クリップ、577,998フレーム、12,000件の自由記述質問を含む構成とされる。</p>
-<p><strong>■ RynnBrain-Benchの評価設計：空間認知、物体理解、接地推論、アフォーダンス、軌道理解など多層的な能力を横断的に測定する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_4fc0376495/x6_4fc0376495.jpg" alt="x6.jpg" /></p>
-<h2>Apache 2.0で公開、複数プラットフォームから利用可能</h2>
-<p>RynnBrainはApache 2.0ライセンスの下で公開されており、プロジェクトページのほか、GitHub、Hugging Face、ModelScopeなどから利用可能とされる。</p>
-<p>ロボットや自律機器の高度化を支える“頭脳”として、空間・時間ダイナミクスに接地した統合モデルをオープンソースで提示した点が特徴となる。今後は、実機応用やエージェントスタック全体への組み込み事例が注目される。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米国防総省、Anthropicとの関係解消を検討──「Claude」軍事利用の安全制限めぐり対立</title>
-      <link>https://ledge.ai/articles/anthropic_pentagon_claude_military_safeguards_dispute</link>
-      <description><![CDATA[<p>2026年2月15日、アメリカ国防総省が、生成AI「Claude」を開発するAnthropicとの契約関係の解消を検討していると、米ニュースサイト<a href="https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro">Axios</a>が報じた。両者はAIの軍事利用に関する安全制限を巡って協議を続けてきたが、合意に至っていないという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b.jpg" alt="axios pentagon threatens to cut off anthropic.jpg" /></p>
-<p>Axiosによると、国防総省はAnthropicに対し、「合法的な軍事用途」全般での利用を可能にするよう安全ガードレールの見直しを求めている。一方、Anthropicは自社の利用ポリシーに基づき、完全自律型の致死兵器や大規模監視への利用など一部用途に制限を設けており、この点が交渉の焦点となっている。</p>
-<p>Axiosは、2025年に締結された最大約2億ドル規模の契約にも影響が及ぶ可能性があると伝えた。交渉は数カ月にわたり続いているという。</p>
-<p>その後、<a href="https://www.reuters.com/technology/pentagon-threatens-cut-off-anthropic-ai-safeguards-dispute-axios-reports-2026-02-15/">Reuters</a>もAxiosの報道を引用する形で追随した。Reutersは、国防総省がAnthropicとの関係を断つ可能性を検討していると報じるとともに、OpenAIやGoogleなど他のAI企業にも同様の軍事利用に関する要請が行われていると伝えた点が特徴だ。軍との契約を巡る動きが業界全体に波及する可能性を補足している。</p>
-<p>また、Axiosの<a href="https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth">続報</a>では、国防総省がAnthropicを防衛サプライチェーン上の「リスク」として扱う選択肢を検討しているとも報じられた。この措置が実施された場合、防衛関連企業がAnthropicの技術を利用することに制限がかかる可能性があるという。通常、この枠組みは外国勢力などを対象に適用されるものであり、国内AI企業への適用が検討されるのは異例とされる。</p>
-<p>報道によれば、国防総省側は国家安全保障上の観点からAI技術の幅広い活用を求めている。一方、Anthropicは自社の安全ポリシーに基づく用途制限を維持する姿勢を崩していないとされる。</p>
-<p>現時点で、国防総省およびAnthropicから交渉決裂や契約解除に関する正式発表は出ていない。今後、契約の扱いや他AI企業との関係がどのように整理されるかが焦点となる。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
-      <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
-      <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
-<h2>富士通、国産「ソブリンAIサーバ」を3月から製造開始</h2>
-<p>同社は、経済安全保障の強化やサイバー攻撃リスクの高まりを背景に、データやインフラの主権を確保する「ソブリン性」へのニーズが高まっていると説明する。</p>
-<p>製造を開始する「ソブリンAIサーバ」は、重要インフラや公共領域など、ミッションクリティカルな用途を想定したAI基盤として提供予定。日本国内で設計・製造・検査を行うことで、データ流出リスクの最小化や国内法令への準拠、技術コントロールの確保などを図るとしている。</p>
-<h2>経済安保・サイバー脅威で“ソブリン性”需要が拡大</h2>
-<p>富士通は、ソブリン性（データやAI基盤の管理・統制を自国・自組織内で完結できる状態）を備えたAI基盤に求められる要件として、以下を挙げている。</p>
-<ul>
-<li>データ流出リスクの最小化</li>
-<li>自律的な運用体制の確立</li>
-<li>国内法への準拠</li>
-<li>セキュリティリスクの透明性確保</li>
-<li>テクノロジーのコントロール</li>
-</ul>
-<p>生成AIの普及により、大規模な演算基盤を支えるAIサーバの戦略的重要性が増していることも背景にある。</p>
-<h2>Blackwell世代GPU搭載のAIサーバを国内生産へ</h2>
-<p>3月から製造を開始するソブリンAIサーバには、NVIDIAの最新世代GPUが搭載される。
-具体的には、</p>
-<ul>
-<li>NVIDIA HGX B300</li>
-<li>NVIDIA RTX PRO 6000 Blackwell Server Edition</li>
-</ul>
-<p>を搭載した構成のサーバを、Made in Japan製品として国内で製造する。これにより、生成AIや大規模言語モデル（LLM）の学習・推論用途に対応する高性能AI基盤を国内生産体制で提供する。</p>
-<h2>“国内一貫生産”でトレーサビリティと透明性を強化</h2>
-<p>製造は、富士通グループの笠島工場（石川県かほく市）で行う。同工場は、スーパーコンピュータ「富岳」や高信頼サーバの製造で培った技術を有する拠点だ。</p>
-<p>装置組立は2026年3月に開始し、プリント基板の組立は2026年6月から国内で開始する予定としている。主要部品のトレーサビリティを確保し、基板から装置までの一貫生産体制を構築することで、製造工程の透明性向上とソブリン性の強化を図る。</p>
-<h2>次の一手：FUJITSU-MONAKA搭載サーバを2026年度中に</h2>
-<p>富士通はあわせて、自社開発の省電力プロセッサ「FUJITSU-MONAKA」を搭載したサーバについても、2026年度中にMade in Japan製品として製造開始する予定を示した。</p>
-<p>同サーバにはコンフィデンシャルコンピューティング技術を組み込み、データの機密性を高める設計とする方針だ。</p>
-<h2>日本・欧州へ展開、Supermicro協業も拡大</h2>
-<p>取り組みでは、米Super Micro Computer（Supermicro）との協業を拡大し、企画・開発・製造・販売・保守までを一貫して提供する体制を構築する。</p>
-<p>ソブリンAIサーバは、日本国内市場および欧州市場向けに展開する予定としている。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.1 Pro、ARC-AGI-2で77.1%──“Deep Think級推論”を一般提供へ</title>
-      <link>https://ledge.ai/articles/gemini_3_1_pro_arc_agi_2_77_1_deep_think_general_release</link>
-      <description><![CDATA[<p>Googleは2026年2月19日（現地時間）、同社の大規模言語モデル「Gemini」シリーズの最新モデル「Gemini 3.1 Pro」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/">発表</a>した。Googleは同モデルを「複雑問題解決の新たなベースライン」と位置づけ、研究モデル「Gemini 3 Deep Think」と同じコア知能を実務用途向けにスケールしたものだと説明している。同日よりコンシューマー向けアプリから開発者向けAPI、エンタープライズ向け基盤まで順次ロールアウトを開始した。</p>
-<h2>「複雑問題解決の新ベースライン」と位置付け</h2>
-<p>発表の中でGoogleは、Gemini 3.1 Proを「<a href="https://x.com/Google/status/2024519460124565987">our new baseline for complex problem-solving</a>（複雑な問題解決の新たな基準）」と表現した。</p>
-<p>同社によれば、Gemini 3.1 ProはGemini 3 Deep Thinkと同じコア知能を備えつつ、より実務的な用途に適したスケールへ最適化されたモデルだという。研究用途に限定されていた推論能力を、より広範な利用層に開放する位置づけとなる。</p>
-<h2>ARC-AGI-2で77.1%──3 Proから2倍超</h2>
-<p>今回の発表で注目されるのは、抽象推論ベンチマーク「ARC-AGI-2」におけるスコアだ。</p>
-<p>DeepMindが公開した評価結果によれば、Gemini 3.1 ProはARC-AGI-2で77.1%を記録した（ARC Prize Verified）。前世代のGemini 3 Pro（31.1%）から大幅に向上している。</p>
-<p>ARC-AGI-2は、未知の論理パターンを解く能力を測定するベンチマークで、単純な知識検索では対応しにくい抽象推論を評価するものとされる。</p>
-<p>比較対象として公表されている数値では、Claude Opus 4.6が68.8%、GPT-5.2が52.9%となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Bi_Fhy_Xs_AA_06bm_051b6fe276/H_Bi_Fhy_Xs_AA_06bm_051b6fe276.jpg" alt="HBiFhy-XsAA06bm.jpg" /></p>
-<h2>Humanity’s Last Examでもトップ帯</h2>
-<p>総合的な知識と推論能力を測るベンチマーク「Humanity’s Last Exam」では、Gemini 3.1 Proは44.4%を記録している。同条件での比較では、Claude Sonnet 4.6が40.0%、GPT-5.2が34.5%となっており、Gemini 3.1 Proはトップ帯に位置している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_1_pro_benchmarks_07e69cf448/gemini_3_1_pro_benchmarks_07e69cf448.jpg" alt="gemini_3-1-pro__benchmarks.jpg" /></p>
-<h2>SWE-bench Verified 80.6%──実務性能は維持</h2>
-<p>ソフトウェア開発能力を測定する「SWE-bench Verified」では、Gemini 3.1 Proは80.6%を記録した。</p>
-<p>Claude Opus 4.6の80.8%とほぼ同水準であり、抽象推論ベンチマークでの大幅な向上と同時に、実務的なコーディング性能も維持していることが示されている。</p>
-<h2>デモ事例：ISS追跡から3D群れシミュレーションまで</h2>
-<p>Googleは、Gemini 3.1 Proのデモ事例を複数紹介している。</p>
-<ul>
-<li>公開APIを用いた国際宇宙ステーション（ISS）のリアルタイム追跡ダッシュボード構築</li>
-<li>テキストプロンプトからのアニメーションSVG生成</li>
-<li>手の動きに反応するインタラクティブ3Dスターリング（ムクドリ）群れシミュレーション</li>
-<li>小説『嵐が丘』の雰囲気を反映したポートフォリオUIの生成</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/animated_SV_Gs_35d6721955/animated_SV_Gs_35d6721955.jpg" alt="animated SVGs.jpg" /></p>
-<p>モデルのコード生成や構造表現の品質を手早く比較する題材として、開発者コミュニティでしばしば用いられてきた「自転車に乗るペリカン」のアニメーションSVG生成も取り上げられている。Googleは「アニメーションSVGで自転車に乗るペリカンを生成せよ」というプロンプトを用い、Gemini 3 ProとGemini 3.1 Proの生成結果を並べて提示した。</p>
-<p>公開された比較画像では、Gemini 3 Proの生成例では自転車のペダルは回転しているものの、ペリカンの脚はペダル動作と連動していない。一方、Gemini 3.1 Proの生成例では、脚がペダルに正しく配置され、動きと連動している様子が確認できる。</p>
-<h2>提供範囲</h2>
-<p>Gemini 3.1 Proは、発表同日より段階的に提供が開始される。コンシューマー向けにはGemini AppおよびNotebookLMで利用可能となる。開発者向けには、Gemini APIのプレビュー版として提供され、Google AI StudioやGemini CLI、Android Studioなどの開発環境からアクセスできる。さらに、企業向けにはVertex AIおよびGemini Enterpriseを通じて導入可能とされている。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
       <link>https://ledge.ai/articles/google_gemini_ai_mode_reinvent_ads_ucp_checkout</link>
       <description><![CDATA[<p>Googleは2026年2月11日（現地時間）、AIによる検索体験「AI Mode」において、小売業者の購入導線を示す<a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/">新しい広告フォーマット</a>を米国でテストしていると明らかにした。クエリに関連するショッピング推薦をオーガニックに表示した上で、その商品を取り扱う小売業者を「Sponsored」と明記して提示する形式である。あわせて、購入直前の利用者に個別最適化されたオファーを提示する「Direct Offers」を導入した。</p>
@@ -281,23 +292,7 @@
 <p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
 <p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
-      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
-      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
-<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
-<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
-<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
-<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
-<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
-<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
-<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
-<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
-<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>死後もSNS投稿が続く仕組みを特許化──Meta、“ユーザー代替ボット”構想</title>
@@ -322,7 +317,7 @@
 <p>こうした死後のデジタルアカウントや“デジタルクローン”を巡っては、遺族への心理的影響やプライバシーの取り扱いをめぐり、国内外で倫理的な議論が続いている。また、過去には同種の技術やサービスの検討を停止・縮小した企業の事例も報じられている。</p>
 <p>今回の特許は、ユーザーの不在や死亡の可能性を含む状況下での投稿・応答の継続を技術的に記述したものである。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ニトリ、約1万人の体格データ分析に基づく「AIマットレス」発売へ──エアスプリングを自動調整、製品自体に学習機能はなし</title>
@@ -335,7 +330,7 @@
 <p>2つ目は「ヒーターモード」だ。人が心地よいと感じる温度帯として約30℃を目安に温め、冬でも暖かい寝床環境を実現するとしている。腰・脚を中心に温感を届ける設計で、寒さが気になる季節の快適性向上を図る。</p>
 <p>商品名は「最適な硬さに自動で調整 AIマットレス」。サイズは約幅97×奥行195×高さ26cm。販売チャネルは一部店舗とニトリネットで、一部離島の購入・配送では別途手数料が発生する場合がある。ニトリは、暮らしを便利に快適にする商品開発に取り組むとしている。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>政府、中国ByteDanceの動画生成AI「Seedance 2.0」問題で調査へ──小野田AI戦略担当相「著作権侵害は看過できない」</title>
@@ -349,7 +344,7 @@
 <p>Seedance 2.0は、ByteDanceが開発した動画生成AIで、テキストや画像、音声、動画など複数の入力情報を組み合わせて映像を生成できるマルチモーダル型のモデルだ。参照素材を指定しながら生成を行う機能も備えており、公開以降、SNSを中心に生成動画が広がっている。</p>
 <p>政府は今後、関係省庁と連携しながら事実関係の確認を進める方針で、生成AIによるコンテンツ制作と知的財産権保護の在り方が改めて問われることになる。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
@@ -393,7 +388,7 @@
 <p>PaperBananaは手法図の生成に加え、棒グラフや分布図などの統計プロット生成にも対応可能であると論文で示されている。</p>
 <p>研究チームは同手法を、研究プロセス自動化の一環として位置づけている。近年はコード生成や論文要約、レビュー支援などの分野でAI活用が進んでいるが、同研究はその中で「視覚表現工程」の自動化に焦点を当てた提案となる。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AI時代の認識に階層ギャップ──PwC調査、日本の特に若手・非管理職で影響実感低く</title>
@@ -447,28 +442,7 @@
 <p>調査結果は、AI活用の遅れだけでなく、影響認識や将来楽観性の低さが日本の課題である可能性を示唆する。テクノロジーの影響を強く認識し、それを主体的に扱えるという感覚が高い層ほど、将来に楽観的であり、モチベーションも高い傾向が確認された。</p>
 <p>AI時代の競争力は、単なるツール導入の速度だけでなく、従業員が将来像を描ける組織文化を構築できるかに左右される構造が浮き彫りとなった。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>動画生成AI Seedance 2.0波紋拡大、ByteDanceが実在人物・IP生成を当面制限──ハリウッド・日本政府も問題視</title>
-      <link>https://ledge.ai/articles/seedance2_0_international_backlash_ip_restriction</link>
-      <description><![CDATA[<p>中国IT大手の字節跳動（ByteDance）は、動画生成AI「Seedance 2.0」において、実在人物の顔やアニメ・映画などのIPキャラクターを参照した動画生成を当面制限していることが分かった。複数の中国メディアによると、同社傘下の抖音（Douyin）集団の李亮副総裁が2月15日、中国のSNS「Weibo（微博）」への投稿で、実在人物や既存IPを基にした生成を現在はサポートしていないと明らかにした。</p>
-<p>報道によれば、李氏はSeedance 2.0について「現在、実在人物の顔を参照した生成やIPキャラクターの生成はサポートしていない」と説明。あわせて、デジタル分身の制作には本人認証が必要であることや、権利侵害防止策を強化していく方針を示したという。</p>
-<h2>Seedance 2.0生成動画が拡散</h2>
-<p>Seedance 2.0は、テキストや画像、動画などを入力として映像を生成するモデルとして公開され、SNS上で拡散した。とりわけ、実在のハリウッド俳優を想起させる動画が投稿され、議論が拡大した。</p>
-<p>動画を投稿したRuairi Robinson氏は、アイルランド出身の映画監督・ビジュアルアーティストで、長編映画の監督やコンセプトアート制作などを手がけてきた人物。Robinson氏がXに投稿した生成動画は海外メディアでも取り上げられ、著作権侵害の可能性を指摘する声も上がった。</p>
-<p><strong>RobloxのプロダクトマネージャーPeter Yang氏は、Xで「このモデル（Seedance 2）で見たものはすべて著作権侵害だ」とコメントした</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/peteryang_seedance20_x_6a9b148605/peteryang_seedance20_x_6a9b148605.jpg" alt="peteryang seedance20 x.jpg" /></p>
-<h2>Robinson氏、YouTubeでテスト動画を公開</h2>
-<p>Robinson氏はその後、自身のYouTubeチャンネルでSeedance 2.0のテスト動画をまとめて公開した。概要欄では「2026年2月10日に短時間アクセスできたが、その後モデルは引き下げられた（pulled down）」と説明している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=fbVv0ZPk0fw&amp;t=4s">YouTube</a></p>
-<h2>ハリウッド団体、日本政府も懸念を表明</h2>
-<p>米映画業界団体や俳優組合は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
-<p>米<a href="https://www.motionpictures.org/press/motion-picture-association-calls-for-bytedance-to-cease-seedance-2-0-infringing-activity/">映画業界団体</a>や<a href="https://www.sagaftra.org/sag-aftra-statement-seedance-20">俳優組合</a>は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
-<p>日本国内でも議論は波及していた。小野田紀美AI戦略担当相が閣議後の会見でSeedance 2.0について言及し、<a href="https://ledge.ai/articles/onoda_seedance2_government_investigation_copyright">著作権上の懸念</a>を指摘。政府側が事実関係の調査に乗り出す方針を示していた。</p>
-<p>今回の当面制限は、モデル公開後に拡大した国際的な議論の中で示された対応となる。動画生成AIをめぐっては、実在人物や既存IPの取り扱いをどう設計するかが、引き続き焦点となっている。</p>
-]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Waymo、「第6世代Waymo Driver」で完全自律運転を開始──雪・氷点下・豪雨など厳しい気象条件にも対応</title>
@@ -489,27 +463,53 @@
 <p>まずは従業員や招待ユーザー向けの運用から開始し、段階的に一般利用者への展開を進める方針だ。</p>
 <p>Waymoは現在、米国複数都市で配車型ロボタクシーサービスを展開している。第6世代Waymo Driverの導入は、より広範な地理的・気象的条件下での商用自律運転を視野に入れた拡大フェーズへの移行を示すものとなる。</p>
 ]]></description>
-      <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
-      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
-      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
-<h2>エージェント志向モデルとしての位置づけ</h2>
-<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
-<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
-<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
-<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
-<h2>Vending-Bench 2でのシミュレーション結果</h2>
-<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
-<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
-<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
-<h2>公開形態と提供</h2>
-<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
-同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
-<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
+      <title>政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</title>
+      <link>https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate</link>
+      <description><![CDATA[<p>総務省と経済産業省が策定した「AI事業者ガイドライン」について、改定案の概要が明らかになった。2026年2月16日に開催された検討会、総務省<a href="https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000136.html">「AIネットワーク社会推進会議 AIガバナンス検討会（第29回）」</a>で配布された資料「AI事業者ガイドラインの令和7年度更新内容（案）」によると、普及が進むAIエージェントや、ロボットなどを制御するフィジカルAIに関する定義や便益、リスク、対策を新たに盛り込む。</p>
+<p>事務局資料では、2026年3月末に第1.2版を公開する予定としている。</p>
+<h2>AIエージェントとフィジカルAIを新たに定義</h2>
+<p>更新案では、AIエージェントを「特定の目標を達成するために、環境を感知し、自律的に行動するAIシステム」と定義する。複数のシステムやサービスと連携しながら自律的に判断・実行を行う点が特徴とされる。</p>
+<p>フィジカルAIについては、センサ等を通じて物理環境の情報を取得し、AIモデルで処理した結果をもとに最適な方策を自律的に推論・判断し、アクチュエータなどを介して物理的な行動につなげるシステムと整理する。サイバー空間内での処理にとどまらず、現実世界へ直接作用する点が特徴とされている。</p>
+<p>便益としては、業務効率化や労働力不足の補完、安全性向上、介護・生活支援などが挙げられている。</p>
+<h2>自律行動に伴うリスクを追記</h2>
+<p>一方で、リスクとしては次の点が追加される。</p>
+<ul>
+<li>自律的な行動による誤動作</li>
+<li>サイバー攻撃や悪用の対象・手法の拡大</li>
+<li>機構の複雑化による保守管理の困難化</li>
+<li>カメラ等との連携によるプライバシー侵害の可能性</li>
+</ul>
+<p>これらを踏まえた留意事項として、更新案では「人間の判断を必須化する仕組み」の構築を明記する。また、セキュリティ確保の観点から権限を最小限に設定することや、ハードウェアに残存するデータの取り扱いへの配慮も求めている。</p>
+<h2>「一般的なリスク」も拡充</h2>
+<p>更新案では、AI全般に関するリスク項目も拡充する。</p>
+<p>具体的には、教育領域における学生の思考力の発展への影響、生成AI活用時のプライバシーリスク、金銭的損失や資格等の侵害といった観点を追記する方向だ。既存のリスク分類の整理や位置付けの見直しも行うとしている。</p>
+<h2>認知81％、活用46％</h2>
+<p>検討会資料に掲載された事業者アンケート結果によると、AI事業者ガイドラインの認知度は81％に達している。一方で「活用している」との回答は46％にとどまる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/soumusho260216_6c42a9b38e/soumusho260216_6c42a9b38e.jpg" alt="soumusho260216.jpg" /></p>
+<p>地方自治体や小規模事業者への浸透を図るため、内容に関する質問に自動回答するチャットボットなど、専用ツールの開発も検討事項として挙げられている。</p>
+<h2>Xで議論広がる「人間の判断を必須化する仕組み」</h2>
+<p>改定案の公開を受け、Xでは「自律型AIの安全性」と「産業競争力」のバランスをめぐる議論が広がっている。焦点となっているのは、「人間の判断を必須化する仕組み」がどの範囲・条件で適用されるのかという具体性だ。</p>
+<p>否定的な意見としては、「一律の人間介入はフィジカルAIのリアルタイム性を損なう」「規制が先行すれば実用化のハードルが高まる」といった指摘がテック系アカウントを中心に見られる。一方で、「物理世界に直接作用する以上、ヒューマン・イン・ザ・ループの設計は安全確保の観点から不可欠」とする声もある。また、関連銘柄の株価動向に触れつつ、市場は過度な規制強化を織り込んでいないとの見方を示す投稿も確認できる。</p>
+<p>更新内容は現時点で案の段階にあり、3月末の正式公表までに、例外規定の有無や「リスクに応じた段階的な適用」の考え方がどの程度明確化されるかが注目されている。</p>
+]]></description>
+      <pubDate>Mon, 16 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>対話が続くほど誤りが連鎖する──LLMハルシネーションの新ベンチマーク「HalluHard」、Web検索機能をONにしたフラッグシップモデルでも幻覚率約30%</title>
+      <link>https://ledge.ai/articles/halluhard_multi_turn_hallucination_search_on_30_percent</link>
+      <description><![CDATA[<p>スイス連邦工科大学ローザンヌ校（EPFL）および欧州AI研究組織ELLISの研究チームは、大規模言語モデル（LLM）の事実誤認（ハルシネーション）を測定する新ベンチマーク「HalluHard」を提案した。論文は2026年2月1日arXivに<a href="https://arxiv.org/abs/2602.01031v1">公開</a>され、Web検索機能を有効化したフラッグシップモデルにおいても、対話の最終ターンにおけるハルシネーション率は約30％に達すると報告した。</p>
+<h2>単発QAでは見えない「対話の深化に伴う誤りの連鎖」</h2>
+<p>実運用におけるユーザーとLLMのやり取りは複数ターンにわたることが多いが、従来の評価系は一問一答形式が主流であった。</p>
+<p>研究チームは、対話が継続する過程で「前のターンの誤情報が、次のターンの推論前提として取り込まれる」という構造的リスクを指摘している。HalluHardは、950のseed質問をベースに、平均3ターンの対話形式で文脈が積み重なる設計を採用した。</p>
+<h2>法務・医療・研究・開発の4領域で「根拠との整合性」を厳格に検証</h2>
+<p>対象領域は、Legal Cases、Medical Guidelines、Research Questions、Codingの4分野に渡る。同ベンチマークの評価基準は、単なる回答の正誤判定に留まらず、回答内の事実主張に対する「インライン引用」の義務化を特徴とする。評価パイプラインでは、ウェブ検索やPDF全文解析を通じて証拠を取得し、事実の創作、引用と主張の不一致、根拠の不足を厳密にハルシネーションとして定義している。</p>
+<h2>最新の検索統合型モデルであっても「最終ターンの幻覚率は約30％」に達する</h2>
+<p>論文内の分析によれば、ほぼ全てのモデルにおいて、第1ターンから第3ターンへと対話が進むにつれてハルシネーション率が上昇する傾向が確認された。特に、Web検索ツールを有効化した最新のフラッグシップモデルにおいても、最終ターンでは約30％前後のハルシネーション率が観測されている。これは、外部知識へのアクセスが可能であっても、根拠の選択や解釈の段階で誤りが発生し、それが次ターンの推論に影響を及ぼす構造が確認された。</p>
+<h2>継続更新型のリーダーボードとして「マルチターン対話の信頼性」を定量化</h2>
+<p>HalluHardは評価フレームワークおよびリーダーボードとして公開されており、今後も新たなモデルの追加や更新が予定されている。対話の継続に伴う誤りの連鎖を可視化する同ベンチマークは、生成AIの実運用における信頼性を評価する新たな指標としての役割を担う。</p>
 ]]></description>
       <pubDate>Sun, 15 Feb 2026 02:50:00 GMT</pubDate>
     </item>
@@ -553,61 +553,6 @@
 <p>同社は将来的な展望として、個人、組織、文化、国家などの多層的な相互作用を扱う大規模モデルへと拡張する方針を示している。これにより、世界規模での社会シミュレーションの実現を目指すとしている。</p>
 ]]></description>
       <pubDate>Sat, 14 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「見えないAI労働」の代償──インド農村部の女性が暴力・性的虐待コンテンツを大量視聴しAIを訓練する“コンテンツモデレーション”の実態、英紙Guardianが報道</title>
-      <link>https://ledge.ai/articles/invisible_ai_labor_india_content_moderation_guardian_report</link>
-      <description><![CDATA[<p>英国紙<a href="https://www.theguardian.com/global-development/2026/feb/05/in-the-end-you-feel-blank-indias-female-workers-watching-hours-of-abusive-content-to-train-ai">The Guardian</a>は2026年2月5日、インドの農村部に住む女性労働者が、暴力や性的虐待を含むコンテンツを日常的に視聴・分類することで、グローバルテック企業のAIシステムの訓練を支えている実態を報じた。記事は、現地での取材と当事者の証言をもとに、コンテンツモデレーション業務の具体像と心理的影響、支援体制の現状を伝えている。</p>
-<h2>1日最大800件──AIを支える人間の最終判定</h2>
-<p>報道によると、インド東部ジャールカンド州の農村部に住む26歳の女性は、自宅からリモートでログインし、プラットフォームの自動検知システムによって「違反の可能性あり」と判断された動画や画像、テキストを審査している。平均的な日で最大800件を確認し、暴力、虐待、ポルノグラフィなどに該当するかを分類する。</p>
-<p>こうした判定結果は、アルゴリズムの精度向上や有害コンテンツ検知の高度化に用いられる教師データとなる。記事では、この業務が機械学習の基盤を支える工程の一部であると説明されている。</p>
-<h2>二次的外傷ストレスという職業リスク</h2>
-<p>「最後は無になる」──取材に応じた女性は、長時間にわたり暴力や性的虐待を含む映像を視聴し続けた末に訪れる感覚をそう表現した。</p>
-<p>記事では、不眠や悪夢、侵入思考、感情の麻痺といった症状が紹介されている。社会学者ミラグロス・ミセリ氏が主導する<a href="https://milamiceli.com/inquiry/">Data Workers’ Inquiry</a>では、コンテンツモデレーションが心理的負荷の高い労働であると指摘している。</p>
-<p>また、コンテンツモデレーター311人を18か月にわたり追跡した<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12711784/">研究</a>では、二次的外傷ストレスや燃え尽き、レジリエンスなど複数の心理指標が測定され、長期的な心理的影響が検討されている。企業による介入プログラムが導入されている事例もあるが、記事は依然として心理的リスクが課題であると伝えている。</p>
-<h2>“ゴーストワーカー”と呼ばれる構造</h2>
-<p>インドでは2021年時点で約7万人がデータアノテーション業務に従事していると推計され、市場規模は約2億5000万ドルに達するとされる。多くは農村や準農村地域出身で、女性が半数以上を占める。</p>
-<p>企業は地方都市に拠点を設け、改善されたインターネット接続環境を通じてグローバルなAI供給網と接続している。一方で、業務内容が契約前に十分説明されないケースや、心理的支援体制が限定的であるとの指摘もある。</p>
-<p><strong>記事より引用：視聴していた過激なコンテンツについて懸念を表明したとき、彼女のマネージャーはこう言いました。「これは神の仕事です。あなたは子供たちを安全に守っているのです。」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_guardian260205_cab1dea129/the_guardian260205_cab1dea129.jpg" alt="the guardian260205.jpg" /></p>
-<p>さらに、厳格な秘密保持契約（NDA）により、労働者が家族や友人に業務内容を話すことが難しい状況も報じられている。記事は、生成AIの進展の裏側で、人間の目と判断が果たしている役割に光を当てている。</p>
-]]></description>
-      <pubDate>Fri, 13 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ByteDance、動画生成AI「Seedance 2.0」を公開　マルチモーダル入力と参照機能を強化</title>
-      <link>https://ledge.ai/articles/seedance_2_0_bytedance_multimodal_video_generation</link>
-      <description><![CDATA[<p>ByteDance（TikTokの親会社）は、動画生成AI「Seedance 2.0」を正式公開した。同モデルは、同社の生成AIサービス「<a href="https://jimeng.jianying.com/">即梦（Jimeng）</a>」上で提供されている。2026年2月10日更新の<a href="https://bytedance.larkoffice.com/wiki/A5RHwWhoBiOnjukIIw6cu5ybnXQ">公式ユーザーガイド</a>（Lark Wiki）および即梦の公式サイトで案内されている。</p>
-<p>現在は段階的に公開されており、会員・非会員ともに順次利用可能になるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/jimeng_f353651d6b/jimeng_f353651d6b.jpg" alt="jimeng.jpg" /></p>
-<h2>画像・動画・音声・テキストの4モダリティに対応</h2>
-<p>Seedance 2.0は、画像・動画・音声・テキストの4種類の入力形式に対応するマルチモーダル動画生成モデルである。</p>
-<p>使用手册によると、主な仕様は以下の通り。</p>
-<ul>
-<li>画像：jpeg、png、webp、bmp、tiff、gif形式に対応（最大9枚、30MB未満）</li>
-<li>動画：mp4、mov形式（最大3本、合計2〜15秒、50MB未満）</li>
-<li>音声：mp3、wav形式（最大3本、合計15秒以内、15MB未満）</li>
-<li>テキスト：自然言語入力</li>
-<li>混合入力の総上限：12ファイル</li>
-<li>生成時間：4〜15秒（最大15秒）</li>
-</ul>
-<p>動画入力には総ピクセル数の上限も設けられている。生成時には効果音や音楽を含めた出力も可能としている。</p>
-<h2>参照機能を強化、映像表現の制御性を向上</h2>
-<p>今回のアップデートでは、参照機能の強化が中核に据えられている。</p>
-<p>参照画像を用いることで構図やキャラクターの細部を保持し、参照動画を利用することでカメラワークや動作のリズム、視覚効果などを指定できる。既存動画の延長や、ユーザーの指示に基づく連続的なショット生成にも対応する。</p>
-<p>さらに、既存動画を入力として、登場人物の差し替えや削除、追加などの編集操作も可能となっている。</p>
-<h2>シンプル生成とマルチモーダル生成の2方式を提供</h2>
-<p>Seedance 2.0は、生成方法として大きく2つのモードを用意している。UI上では「首尾帧」と「全能参考」と表示される。</p>
-<ul>
-<li>首尾帧（シンプル生成）：開始フレームとなる画像とテキストのみで動画を生成するシンプルなモード</li>
-<li>全能参考（マルチモーダル生成）：画像・動画・音声・テキストを組み合わせ、参照素材を指定しながら生成する高度なモード</li>
-</ul>
-<p>複数素材を用いる場合は、「@素材名」の形式で各素材の役割を明示する。たとえば、ある画像を開始フレームとして指定し、別の動画をカメラワークの参照に、音声をBGMとして利用する、といった指定が可能だ。</p>
-<h2>実在人物の写真人顔素材は現在非対応</h2>
-<p>使用手册では、プラットフォームのコンプライアンス上の理由から、実在人物の写真人顔を含む画像や動画素材のアップロードは現在サポートしていないと明記している。該当素材はシステム側で自動的に制限される。</p>
-<p>今後の仕様変更については、文書内で更新するとしている。</p>
-]]></description>
-      <pubDate>Thu, 12 Feb 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
