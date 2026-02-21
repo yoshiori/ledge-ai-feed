@@ -295,6 +295,22 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>GPT-5.2が理論物理の新しい公式候補を提案と検証　グルーオンの「single-minusツリー振幅」に関する結果を発表</title>
+      <link>https://ledge.ai/articles/gpt_5_2_supports_theoretical_physics_single_minus_amplitude</link>
+      <description><![CDATA[<p>OpenAIは2026年2月13日、同社のAIモデル「GPT-5.2」が理論物理学の研究において数式の一般化を支援し、公式の候補の提案とその検証が行われたと<a href="https://openai.com/ja-JP/index/new-result-theoretical-physics/">発表</a>した 。対象となったのは、素粒子物理学における散乱振幅（scattering amplitude）の研究で、強い相互作用を媒介する素粒子グルーオン（gluon）の振る舞いに関するものだ。</p>
+<p>プレプリント「Single-minus gluon tree amplitudes are nonzero」によれば、グルーオン同士の運動量が特別な関係を満たす場合に、通常はゼロとされてきた single-minus のツリー振幅（tree-level amplitude）が非ゼロとなる可能性が示されている。</p>
+<h2>single-minus ツリー振幅とは</h2>
+<p>複数のグルーオンが関与する散乱では、それぞれのグルーオンが持つヘリシティ（進行方向に対するスピンの向き）の組み合わせによって振幅の性質が変わる。多数のグルーオンのうち1つだけが負のヘリシティを持つ場合は single-minus と呼ばれ、この場合のツリー振幅は、特別な関係を満たさない運動量のもとではゼロになるとされてきた。</p>
+<p>研究では、グルーオンの運動量が著者らのいう half-collinear と呼ばれる特定の関係を満たす場合に、この結論が必ずしも成り立たない可能性が示されている。</p>
+<h2>AIによる公式候補の提案と検証</h2>
+<p>研究プロセスにおいて、研究チームはまず少数粒子の場合の振幅を計算し、その結果をもとにGPT-5.2が一般の粒子数に対する公式の候補を提案した。その後、Berends-Giele漸化式やソフト定理などの既存の理論的条件と整合することが確認されたと報告している。</p>
+<h2>今後の展望</h2>
+<p>研究はプレプリントとして公開されており、今後コミュニティによる検証が進むとみられる。研究チームは、この結果を他の振幅へ拡張する可能性についても言及している。</p>
+<p>今回の事例は、AIが理論物理学の研究過程において数式の探索を支援した例の一つといえる。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>死後もSNS投稿が続く仕組みを特許化──Meta、“ユーザー代替ボット”構想</title>
       <link>https://ledge.ai/articles/meta_posthumous_sns_user_substitute_bot_patent</link>
       <description><![CDATA[<p>Meta Platformsの関連法人であるMeta Platforms Technologies, LLCが、SNS上のユーザー活動をシミュレートし、ユーザーの不在時にも投稿や応答を継続できるAIシステムに関する特許を取得していたことが分かった。
