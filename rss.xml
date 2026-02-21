@@ -347,6 +347,47 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>自律的すぎるAIエージェント「OpenClaw」急拡大の裏で相次ぐ警告──今後のAI利用を占う分水嶺に</title>
+      <link>https://ledge.ai/articles/openclaw_agentic_ai_watershed_enterprise_security</link>
+      <description><![CDATA[<p>ローカル環境で動作し、チャット経由で端末操作を進めるオープンソースAIエージェント「OpenClaw」が急速に拡大している。GitHubでの急増、関連コミュニティMoltBookでの注目、拡張スキルを巡るセキュリティ警告、そして開発者のPeter Steinberger氏のOpenAI参加。利便性の拡張と同時に、設計上の境界をめぐる問題も顕在化している。</p>
+<h2>“応答するAI”から“行動するエージェント”へ</h2>
+<p>OpenClawは、チャットを入り口としてローカル環境の操作へ接続するエージェント型ソフトウェアである。メール処理、ブラウザ操作、ファイル管理、シェルコマンド実行などを自動化できる構造を持つ。</p>
+<p>特徴は、画面上でテキストを生成するだけでなく、チャットを入口にローカル環境の操作へ接続する構造にある。ユーザーの指示や目標に基づき、端末上で処理を進めるアーキテクチャを採る点が支持を集め、<a href="https://github.com/openclaw/openclaw">GitHub</a>では短期間でスター数が10万件を超える規模に拡大したと<a href="https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/">Reuters</a>が2026年2月15日報じた。</p>
+<p>AIが応答を返す存在から、状態を保持しながら環境に作用するエージェントへと役割を広げる試みとして、OpenClawは象徴的な存在となった。</p>
+<h2>MoltBookでの拡散とコミュニティ主導の拡張</h2>
+<p>利用拡大の背景には、関連するコミュニティの急速な広がりもある。報道によれば、OpenClawに関連するプラットフォーム「<a href="https://moltbook.com/">MoltBook</a>」は短期間で大量の訪問を集めたとされる。個人開発のオープンソースプロジェクトとしては異例のスピードで注目が集まった。</p>
+<p>さらに、拡張スキルを追加できる仕組み（ClawHub）がエコシステム形成を後押しした。ユーザーはスキルを通じて機能を拡張できるため、プロジェクトはコミュニティ主導で能力を増幅させる構造を持つ。</p>
+<p>目標に基づき連続的に処理を進めるエージェントが、外部から機能を追加できる仕組みと結びついたことで、拡張スピードは加速した。</p>
+<h2>相次ぐ警告──拡張経路と脆弱性</h2>
+<p>急拡大と並行してセキュリティ上の懸念も表面化している。</p>
+<p>セキュリティ企業<a href="https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting">Koi Security</a>は、ClawHubに登録された2,857のスキルを監査し、そのうち341件が悪意あるコードを含んでいたと報告した。報告では、同一キャンペーンによるものとみられるスキル群の存在も指摘されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/koi_research_0c413c71e9/koi_research_0c413c71e9.jpg" alt="koi research.jpg" /></p>
+<p>また、OpenClawの特定バージョン以前に関しては、<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-25253">CVE-2026-25253</a>として脆弱性が登録されている。公的データベースによれば、該当する問題は修正済みであり、アップデートが推奨されている。</p>
+<p>拡張可能な設計は柔軟性をもたらす一方、配布経路や設定が攻撃面になり得る構造も抱える。端末上で処理を進めるエージェントである以上、権限管理や更新の遅れは影響を直接受ける。</p>
+<h2>想定外の挙動──外部接続型エージェントの課題</h2>
+<p>技術的な脆弱性とは別に、OpenClawを含むエージェント設計の課題を示す挙動事例も報告されている。</p>
+<h3>（1）メッセージ送信ループの事例</h3>
+<p>ソフトウェアエンジニアのChris Boyd氏は、自身の検証環境でOpenClawを設定した際、iMessage経由で確認メッセージを繰り返し送信する状態に陥ったと<a href="https://chrisboyd.me/blog/openclaw-meltdown/">ブログ</a>で記録している。</p>
+<p>想定外の応答を受け取った後、再試行ロジックが停止条件を持たず、ループが継続したという。最終的には端末を強制停止することで挙動を止めたと説明されている。</p>
+<p>この事例は、外部通信チャネルと再試行処理が連動する構造において、上限設計やエラー処理が重要であることを示している。</p>
+<h3>（2）コード却下後の批判的ブログ公開</h3>
+<p>matplotlibメンテナーのScott Shambaugh氏は、自身のブログで、AIエージェントからのコード提案を却下した後、自身を批判する内容のブログ記事が公開されたと記録している。</p>
+<p>記事によれば、エージェントは却下の事実を受けて外部ブログに投稿を行い、Shambaugh氏の過去活動に言及しながら批判的な内容を展開したという。</p>
+<p>一部メディアではこれを「報復」と表現しているが、技術的には、評価ループと外部公開機能が直結していた結果とみられる。出力内容の適切性を人間が確認する仕組みが介在しない場合、レピュテーションに影響し得る公開行動が実行される可能性がある。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Shamblog_ac56db2fda/The_Shamblog_ac56db2fda.jpg" alt="The Shamblog.jpg" /></p>
+<h3>（3）MoltMatchでのプロフィール作成事例</h3>
+<p>AFPの<a href="https://www.taipeitimes.com/News/world/archives/2026/02/14/2003852326">報道</a>では、OpenClawを試したユーザーが、関連する実験的デーティングサイト「MoltMatch」において、想定していない形でプロフィール作成や探索が進められたと述べている。</p>
+<p>広義の参加指示が、エージェントによってより広範な行動へ解釈された可能性が示唆されている。</p>
+<h2>開発者のOpenAI参加とfoundation化</h2>
+<p>こうしたなか、OpenClawの開発者であるPeter Steinberger氏が2026年2月15日、米OpenAIへの参加を<a href="https://steipete.me/posts/2026/openclaw">発表</a>した。Reutersによれば、同氏は次世代パーソナルエージェント開発に関わるという。</p>
+<p>あわせて、OpenClawは独立した財団（OpenClaw Foundation）へ移行する方針が示された。急速に拡大したエコシステムに対し、ガバナンスと継続的開発の体制を整える段階に入ったとみられる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
+<p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
+<p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>北京大学・Google Cloud AI Researchら、学術図を自動生成する「PaperBanana」発表──NeurIPS論文292件で評価ベンチも構築</title>
       <link>https://ledge.ai/articles/paperbanana_academic_illustration_ai_scientists</link>
       <description><![CDATA[<p>北京大学とGoogle Cloud AI Researchに所属する研究者らは、学術論文向けの図表や手法図を自動生成するフレームワーク「PaperBanana」を提案した。論文はarXivに公開されている。<a href="https://dwzhu-pku.github.io/PaperBanana/">発表</a>した。研究は、AI研究者が論文執筆時に作成する手法図や統計プロットなどのイラストを自動化することを目的とする。</p>
