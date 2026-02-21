@@ -157,6 +157,35 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>「Microsoft 365 Copilot」が社外秘メールを拾う不具合、数週間継続──Microsoftが修正を段階展開</title>
+      <link>https://ledge.ai/articles/copilot_confidential_email_bug_fix_rollout</link>
+      <description><![CDATA[<p>Microsoftが自社AI「Copilot」に関する不具合を認めたことを、米ITメディアの<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/">BleepingComputer</a>が2026年2月18日（現地時間）に報じた。掲載記事のタイトルは「Microsoft says bug causes Copilot to summarize confidential emails」と題した記事で報じた。</p>
+<p>報道によると、Microsoft 365 Copilot Chatが、機密（confidential）ラベル付きメールを誤って要約処理の対象とする不具合が発生していたという。</p>
+<h2>問題の内容──Sent Items／Draftsが対象に</h2>
+<p>Microsoft 365のサービスヘルス通知（Issue ID: CW1226324）では、次のように説明されている。
+・Copilot Chat（work tab）利用時
+・Exchange Onlineの「Sent Items（送信済み）」および「Drafts（下書き）」フォルダ内メール
+・DLP（データ損失防止）ポリシーおよび感度（sensitivity）ラベルが適用されている場合でも
+・Copilotがこれらのアイテムを処理対象として拾い得る状態にあった</p>
+<p>この通知内容は、管理者向けのMicrosoft 365 Service health advisory「CW1226324」の内容（開始時刻、影響範囲、原因、進捗）を、大学のメール運用ページが時系列で転載している<a href="https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html">大学の公式ミラーサイト</a>より明らかになった。</p>
+<p>Microsoftは同通知の中で、根本原因を「コードの問題（code issue）」と説明している。</p>
+<h2>発生時期と継続期間</h2>
+<p>通知によれば、不具合の開始は2026年1月21日（UTC）。その後、数週間にわたり影響が継続していた。</p>
+<p>Microsoftは修正を開発し、段階的（ロールアウト方式）に展開していると説明している。影響を受けたテナントの特定および追加検証も進めているという。</p>
+<h2>本来の設計との関係</h2>
+<p>Microsoftの公式ドキュメントでは、Microsoft Purview DLPを用いてCopilotおよびCopilot Chatが機密ラベル付きコンテンツを処理対象から除外できると<a href="https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about">説明</a>されている。</p>
+<p>また、Copilotのデータ保護・セキュリティ設計についても、感度ラベルや既存のアクセス権限を尊重する仕組みであると<a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing">記載</a>されている。</p>
+<p>今回の事象は、こうした設計意図とは異なる挙動がコード上の不具合により発生したケースとなる。</p>
+<h2>Microsoftの説明と報道の位置づけ</h2>
+<p>BleepingComputerは、Microsoftがこの不具合を認め、修正を展開していると報じた。同記事では、影響がSent ItemsおよびDraftsフォルダに限定されている点や、修正が進行中である点が伝えられている。</p>
+<p>Microsoftはサービス通知内で、問題は特定のフォルダ範囲に限定されると説明しており、全面的なメール露出ではないことを示唆している。</p>
+<h2>現在の状況</h2>
+<p>Microsoftは修正の段階展開を進めているとし、最終的な完了時期や影響規模の詳細は今後の更新を通じて明らかになる見通しだ。</p>
+<p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>富士通、国産「ソブリンAIサーバ」を3月から製造開始──NVIDIA Blackwell世代GPU搭載、国内一貫生産で “主権” 強化</title>
       <link>https://ledge.ai/articles/fujitsu_sovereign_ai_server_made_in_japan_start</link>
       <description><![CDATA[<p>富士通株式会社は2026年2月12日、富士通グループの国内工場において、ミッションクリティカル領域を支える「ソブリンAIサーバ」をMade in Japan製品として2026年3月より製造開始すると<a href="https://global.fujitsu/ja-jp/pr/news/2026/02/12-01">発表</a>した。</p>
