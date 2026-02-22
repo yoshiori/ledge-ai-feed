@@ -95,6 +95,45 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIエージェントはどこまで“自律”しているのか──Anthropicが数百万件データを初公開分析</title>
+      <link>https://ledge.ai/articles/ai_agent_autonomy_real_world_anthropic_analysis_20260218</link>
+      <description><![CDATA[<p>Anthropicは2026年2月18日、公式ブログ「Measuring AI agent autonomy in practice」を公開し、自社のコーディングエージェント「Claude Code」および公開API経由で収集した数百万件規模の人間―AI対話データを分析した結果を<a href="https://www.anthropic.com/research/measuring-agent-autonomy">発表</a>した。</p>
+<p>実社会で稼働するAIエージェントがどの程度の自律性を発揮しているのかを、実運用ログに基づいて定量的に示した初の包括的分析となる。</p>
+<h2>自律稼働時間は3カ月で約2倍に</h2>
+<p>Claude Codeにおける最長稼働セッション（99.9パーセンタイル）のターン時間は、2025年秋時点で25分未満だったが、2026年1月には45分超へと拡大した。約3カ月でほぼ2倍に伸びた計算となる。</p>
+<p>一方、中央値は約45秒で安定しており、大多数の利用は短時間に集中している。自律性の拡張は、長時間稼働の“尾部”で進行している構造が示された。</p>
+<p><strong>■ 99.9パーセンタイルのターン時間推移。2025年秋から2026年初頭にかけて約2倍に拡大</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_long_does_claude_code_work_before_stopping_6705b03e59/how_long_does_claude_code_work_before_stopping_6705b03e59.jpg" alt="how long does claude code work before stopping.jpg" /></p>
+<p>Anthropicは、この増加がモデル更新ごとの急激な跳ね上がりではなく、滑らかな推移を示している点に注目している。これは能力向上のみならず、ユーザー側の信頼形成や利用スタイルの変化も影響している可能性を示唆するものだとしている。</p>
+<h2>経験者ほど「任せるが、割り込む」</h2>
+<p>ユーザーの行動変化も確認された。新規ユーザーでは約20％のセッションがフル自動承認（auto-approve）を利用しているのに対し、750セッション以上利用する経験者では40％超に上昇した。</p>
+<p>一方で、途中でAIの処理を中断する「割り込み率」も、経験者のほうが高い。新規ユーザーの割り込み率が約5％であるのに対し、経験者は約9％だった。</p>
+<p>Anthropicはこれを、監督戦略の変化と説明する。初心者は各ステップを逐次承認する傾向が強いが、経験者は一括で自律実行を許可し、必要な場合のみ介入する「監視型」へと移行していると分析している。</p>
+<h2>AIが自ら停止するケースも増加</h2>
+<p>人間による監督だけでなく、AI自身が不確実性を認識して停止するケースも確認された。複雑度が高いタスクでは、Claude Codeが人間よりも頻繁に処理を停止し、確認や追加情報を求める傾向がみられた。</p>
+<p><strong>■ タスク複雑度が高まるほど、Claudeの自己停止率は上昇。人間の割り込みを上回る</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clarification_and_interruption_rates_by_goal_complexity_bb2a678bd7/clarification_and_interruption_rates_by_goal_complexity_bb2a678bd7.jpg" alt="clarification and interruption rates by goal complexity.jpg" /></p>
+<p>停止理由としては、方針の選択提示（35％）、診断情報の収集（21％）、曖昧な指示の確認（13％）などが挙げられている。Anthropicは、自己不確実性の表出を安全設計上の重要な特性と位置づけ、モデルが自ら確認を求める訓練を行っていると説明している。</p>
+<h2>リスクと自律性の分布</h2>
+<p>公開API経由の約100万件のツール呼び出しについては、リスク（1～10）と自律性（1～10）の2軸で評価を実施した。</p>
+<p>その結果、
+・80％は何らかのセーフガードが存在
+・73％は人間が関与
+・不可逆的行為は0.8％</p>
+<p>という分布が示された。</p>
+<p><strong>■ リスク（縦軸）と自律性（横軸）の分布。高リスク×高自律領域は少数だが存在</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/what_is_the_risk_autonomy_tradeoff_in_practice_2c3342dd20/what_is_the_risk_autonomy_tradeoff_in_practice_2c3342dd20.jpg" alt="what is the risk-autonomy tradeoff in practice.jpg" /></p>
+<p>高リスクかつ高自律性に分類される事例は少数ながら存在し、セキュリティ関連操作、金融取引、医療情報の取得などが含まれていた。ただしAnthropicは、これらの一部は評価やレッドチーム用途である可能性もあると注記している。</p>
+<h2>利用はソフトウェア分野に集中</h2>
+<p>ツール利用の約50％はソフトウェアエンジニアリング分野が占めている。その他、ビジネスインテリジェンス、カスタマーサポート、営業、金融などでの利用も確認されたが、いずれも数％規模にとどまる。Anthropicは、エージェント活用は依然として初期段階にあり、今後高リスク領域での利用拡大が進む可能性があるとしている。</p>
+<p><strong>■ ツール呼び出しの約50％がソフトウェアエンジニアリング用途</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/in_what_domains_are_agents_deployed_418ebfdcdb/in_what_domains_are_agents_deployed_418ebfdcdb.jpg" alt="in what domains are agents deployed.jpg" /></p>
+<p>エージェント型AIの活用は近時、ソフトウェア開発のみならず、業務自動化やセキュリティ領域などへと拡大している。複数のツールを組み合わせて長時間にわたり自律的に動作するエージェント型プロダクトも登場しており、実運用環境での振る舞いを定量的に把握する必要性は高まっている。今回の分析は、こうした動向を背景に、実社会におけるエージェントの自律性と監督構造の実態を示す試みと位置づけられる。</p>
+<p>AIエージェントの自律性が段階的に拡張する中で、実運用データに基づく継続的な測定と監視の枠組み構築が、今後の焦点となりそうだ。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>内閣府、AI社会実装の阻害要因を洗い出しへ──障害となる規制・制度の情報提供を国民から募集</title>
       <link>https://ledge.ai/articles/ai_implementation_regulatory_barriers_public_call_cabinet_office</link>
       <description><![CDATA[<p>内閣府は令和8年2月10日、AI（人工知能）の社会実装を進める上で障害となる、または不十分な効果をもたらす規制・制度について、国民から広く情報提供を募集すると<a href="https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/260210_forms.html">発表</a>した。募集は同日から3月10日午後5時まで。</p>
@@ -318,32 +357,6 @@
 <h2>AI需要拡大を背景にインフラ強化</h2>
 <p>Googleは、デジタルインフラへの投資が経済成長や生産性向上を支えると説明している。特にAIの普及に伴い、大容量かつ低遅延の国際通信基盤の重要性が高まっているとした。同社はインドにおいて今後5年間で150億ドル規模のAI関連インフラ投資を行う計画を明らかにしており、今回の構想はその一環に位置付けられる。</p>
 <p>「America-India Connect」は、アメリカとインドを軸に4大陸を結ぶ新たな通信回廊の形成を目指す取り組みとなる。</p>
-]]></description>
-      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、GeminiとAI検索で「広告を再定義」──米国で “Sponsored” 表示を試験導入、購入機能をロールアウト</title>
-      <link>https://ledge.ai/articles/google_gemini_ai_mode_reinvent_ads_ucp_checkout</link>
-      <description><![CDATA[<p>Googleは2026年2月11日（現地時間）、AIによる検索体験「AI Mode」において、小売業者の購入導線を示す<a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/">新しい広告フォーマット</a>を米国でテストしていると明らかにした。クエリに関連するショッピング推薦をオーガニックに表示した上で、その商品を取り扱う小売業者を「Sponsored」と明記して提示する形式である。あわせて、購入直前の利用者に個別最適化されたオファーを提示する「Direct Offers」を導入した。</p>
-<p>さらに、Universal Commerce Protocol（UCP）に基づくチェックアウト機能が米国でロールアウト中で、EtsyおよびWayfairの商品をAI ModeおよびGeminiアプリ内で購入できるようになっている。</p>
-<h2>AI Modeで“Sponsored”広告をテスト</h2>
-<p>Googleによると、AI Modeではまず、クエリに関連性の高いショッピング推薦をオーガニックに表示する。その上で、該当商品を取り扱う小売業者を「Sponsored」と明記した広告形式で提示する仕組みを、米国でテストしている。対象は小売分野から開始しており、旅行など他のカテゴリへの展開も検証している。</p>
-<p>同社は、検索体験がキーワード中心から会話型へ移行する中で、利用者が複数ブランドや店舗を比較しやすくなることが有用性を高めると説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sponsored_9158c52b69/sponsored_9158c52b69.jpg" alt="sponsored.jpg" /></p>
-<h2>「Direct Offers」：購入直前の利用者に個別提示</h2>
-<p>同社はあわせて、AI Mode向けの新しい収益化体験「<a href="https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/">Direct Offers</a>」を導入した。これは、購入準備が整った利用者に対し、個別最適化されたオファーを提示する仕組みである。</p>
-<p>価格割引だけでなく、ロイヤルティ特典や商品バンドルなど、価値を拡張する提案も含める方針としている。通常価格そのものを変更するものではないとしている。</p>
-<h2>UCP-powered checkoutがロールアウト中</h2>
-<p>Universal Commerce Protocol（UCP）に基づくチェックアウト機能は、現在米国の利用者向けにロールアウト中である。</p>
-<p>Googleによれば、EtsyおよびWayfairの商品をAI Mode（検索）およびGeminiアプリ内で直接購入できるようになっている。今後はShopify、Target、Walmartなども対応予定としている。</p>
-<h2>広告を「再定義」するという位置付け</h2>
-<p>Googleは今回の発表の中で、「検索に広告を持ち込む」のではなく、「広告そのものを再定義する」と説明した。</p>
-<p>同社によれば、AI ModeにおけるSponsored表示やDirect Offers、UCP-powered checkoutの展開は、会話型検索の中に広告、オファー提示、決済機能を組み込む取り組みの一環である。</p>
-<p>同社Ads &amp; Commerce部門のVidhya Srinivasan氏は、Frontier CMO podcastで今回の戦略について語り、これを商取引体験の「再配線（rewiring）」だと表現した。また、AIにより「スピードと確実性を両立できる」と述べた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=acuGQ07PeAU">YouTube</a></p>
-<h2>Gemini 3が広告基盤を支える</h2>
-<p>同社はまた、広告ツール群が最新モデル「Gemini 3」によって支えられていることにも言及した。モデルの高度化に伴い、広告プロダクトも改善される仕組みであると説明している。</p>
-<p>1月のUCP発表に続き、2月の年次レターでは広告フォーマット、Direct Offers、チェックアウト機能のロールアウトまでが示された。AI検索とGeminiを軸とする商取引体験は、構想段階から運用段階へと移行しつつある。</p>
 ]]></description>
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
