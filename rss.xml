@@ -501,6 +501,26 @@
       <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>MetaとNVIDIA、数百万規模のBlackwell/Rubin GPU導入へ──複数世代に及ぶ長期インフラ提携</title>
+      <link>https://ledge.ai/articles/meta_nvidia_multiyear_infrastructure_blackwell_rubin_gpu</link>
+      <description><![CDATA[<p>MetaとNVIDIAは2026年2月17日、複数年にわたる長期的なインフラパートナーシップを<a href="https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia?ncid=so-twit-566885">発表</a>した。MetaはAI最適化データセンターの拡張に向け、数百万規模のNVIDIA BlackwellおよびRubin GPUを導入する方針を明らかにした。契約は複数世代にまたがる枠組みで、CPU、ネットワーク、機密計算まで含むフルスタック連携が特徴となる。</p>
+<h2>「複数世代」まで明示した長期提携</h2>
+<p>両社は今回の枠組みを「multi-year」「multigenerational」と位置付けた。Metaの長期AIインフラロードマップを支える提携として、単一世代のGPU調達にとどまらず、Blackwell世代に加え、その後継となるRubin世代まで視野に入れる。</p>
+<p>NVIDIAの発表によれば、MetaはBlackwellおよびRubin GPUを数百万規模で導入する計画で、さらにArmベースのGrace CPUの大規模展開、将来的には次世代のVera CPUも視野に入れるという。</p>
+<h2>GPUだけではない、フルスタック構成</h2>
+<p>提携はGPU供給契約にとどまらない。両社はCPU、GPU、ネットワーク、ソフトウェアを横断した設計を進める。</p>
+<p>ネットワーク面では、NVIDIAのSpectrum-X EthernetをMetaのインフラに展開。低遅延と高スループットを実現し、大規模AI学習および推論ワークロードの効率化を図る。また、オンプレミスのデータセンターとNVIDIA Cloud Partner環境をまたぐ統一アーキテクチャにも言及した。</p>
+<h2>WhatsAppに「Confidential Computing」採用</h2>
+<p>セキュリティ分野では、MetaはWhatsAppの「private processing」にNVIDIAのConfidential Computing技術を採用する。</p>
+<p>これにより、AI機能を活用しながら、ユーザーデータの機密性と完全性を確保する設計を進める。両社は将来的に他のワークロードへの拡張可能性も示唆している。</p>
+<h2>共同最適化（co-design）を明示</h2>
+<p>両社は、単なるハードウェア導入ではなく、SOTA（最先端）モデルの性能を最大化するための共同設計を進めると説明した。CPU、GPU、ネットワーク、ソフトウェアを含むフルスタックでの最適化が提携の中核となる。</p>
+<p>NVIDIAのCEOであるジェンスン・フアン氏は、Metaのスケールに対応するAI基盤構築に向けた協業の意義を強調。一方MetaのCEOであるマーク・ザッカーバーグ氏は、次世代プラットフォームの活用を通じて、長期的なAI戦略を推進する姿勢を示した。</p>
+<p>契約の金銭的詳細は開示されていない。ただし、Metaは2025年に最大650億ドル（約10兆円）規模のAIインフラ投資計画を掲げており、今回の提携はそのロードマップを支える基盤整備の一環と位置付けられる。Blackwell、Rubin、さらに将来のVera世代まで視野に入れた複数世代の枠組みは、ハードウェアとソフトウェアを統合した長期的なAI基盤戦略を具体化する動きとして注目される。</p>
+]]></description>
+      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>死後もSNS投稿が続く仕組みを特許化──Meta、“ユーザー代替ボット”構想</title>
       <link>https://ledge.ai/articles/meta_posthumous_sns_user_substitute_bot_patent</link>
       <description><![CDATA[<p>Meta Platformsの関連法人であるMeta Platforms Technologies, LLCが、SNS上のユーザー活動をシミュレートし、ユーザーの不在時にも投稿や応答を継続できるAIシステムに関する特許を取得していたことが分かった。
