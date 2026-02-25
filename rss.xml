@@ -127,42 +127,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Alibaba、ロボット向けオープンAI基盤モデル「RynnBrain」公開──実世界の空間・時間ダイナミクスに接地し、従来のVLMの弱点克服を目指す</title>
-      <link>https://ledge.ai/articles/alibaba_rynnbrain_robotics_spatiotemporal_grounded_ai</link>
-      <description><![CDATA[<p>中国のテクノロジー企業Alibaba Group傘下のDAMO Academyは2026年2月13日、ロボットや自律機器向けのオープンソース基盤モデル「RynnBrain」を<a href="https://alibaba-damo-academy.github.io/RynnBrain.github.io/">発表</a>した。実世界における空間・時間のダイナミクスに接地し、知覚・推論・計画を統合的に扱う“エンボディドAI”向けの時空間基盤モデルと位置付けられる。</p>
-<h2>物理世界に接地した統合フレームワーク</h2>
-<p>論文によれば、RynnBrainは従来の視覚言語モデル（VLM）が抱えてきた課題――物理ダイナミクスへの内在的な接地の弱さや、時空間整合性を伴う推論の困難さ――に対応することを目的として設計された。</p>
-<p>モデルは、以下の4つの能力軸を統合するフレームワークとして構築されている。</p>
-<ul>
-<li>包括的なエゴセントリック理解</li>
-<li>多様な時空間ローカライゼーション</li>
-<li>物理に接地した推論</li>
-<li>物理制約を踏まえた計画（physics-aware planning）</li>
-</ul>
-<p>実世界の環境下でロボットが「見て、理解し、推論し、行動計画を立てる」一連の処理を、空間情報と時間的変化を前提に統合することを目指す。</p>
-<p><strong>■ RynnBrainの能力構成：認知（Cognition）、位置特定（Localization）、推論（Reasoning）、計画（Planning）を統合し、実世界の空間・時間ダイナミクスに接地した処理を行う</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x3_b020061610/x3_b020061610.jpg" alt="x3.jpg" /></p>
-<h2>2B〜30B（MoE）まで3スケール展開、用途別派生も</h2>
-<p>RynnBrainは、2B、8B、30B-A3B（Mixture-of-Experts構成）の3スケールで展開される。さらに、用途別にポストトレーニングを施した派生モデルとして、以下の4種が公開されている。</p>
-<ul>
-<li>RynnBrain-CoP（空間接地を挟んだ推論強化型）</li>
-<li>RynnBrain-Nav（ナビゲーション向け）</li>
-<li>RynnBrain-Plan（操作計画向け）</li>
-<li>RynnBrain-VLA（視覚・言語・行動統合）</li>
-</ul>
-<p>基盤にはQwen3-VLが採用されており、大規模な時空間データを用いた学習パイプラインを通じて、2000万超のサンプルにスケールさせたと説明している。</p>
-<h2>28ベンチで評価、新設「RynnBrain-Bench」も公開</h2>
-<p>論文では、エンボディドAI関連20ベンチマークと、一般的な視覚理解8ベンチマークを含む計28評価で性能を検証したと報告している。位置特定や空間参照、操作計画などの項目において、既存のオープンモデルを上回る結果を示したとしている。</p>
-<p>あわせて、長時間のエピソード動画全体にわたる時空間理解を測定する新評価スイート「RynnBrain-Bench」も公開された。同ベンチは3,616本の動画クリップ、577,998フレーム、12,000件の自由記述質問を含む構成とされる。</p>
-<p><strong>■ RynnBrain-Benchの評価設計：空間認知、物体理解、接地推論、アフォーダンス、軌道理解など多層的な能力を横断的に測定する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x6_4fc0376495/x6_4fc0376495.jpg" alt="x6.jpg" /></p>
-<h2>Apache 2.0で公開、複数プラットフォームから利用可能</h2>
-<p>RynnBrainはApache 2.0ライセンスの下で公開されており、プロジェクトページのほか、GitHub、Hugging Face、ModelScopeなどから利用可能とされる。</p>
-<p>ロボットや自律機器の高度化を支える“頭脳”として、空間・時間ダイナミクスに接地した統合モデルをオープンソースで提示した点が特徴となる。今後は、実機応用やエージェントスタック全体への組み込み事例が注目される。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>米国防総省、Anthropicとの関係解消を検討──「Claude」軍事利用の安全制限めぐり対立</title>
       <link>https://ledge.ai/articles/anthropic_pentagon_claude_military_safeguards_dispute</link>
       <description><![CDATA[<p>2026年2月15日、アメリカ国防総省が、生成AI「Claude」を開発するAnthropicとの契約関係の解消を検討していると、米ニュースサイト<a href="https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro">Axios</a>が報じた。両者はAIの軍事利用に関する安全制限を巡って協議を続けてきたが、合意に至っていないという。</p>
@@ -173,6 +137,34 @@
 <p>また、Axiosの<a href="https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth">続報</a>では、国防総省がAnthropicを防衛サプライチェーン上の「リスク」として扱う選択肢を検討しているとも報じられた。この措置が実施された場合、防衛関連企業がAnthropicの技術を利用することに制限がかかる可能性があるという。通常、この枠組みは外国勢力などを対象に適用されるものであり、国内AI企業への適用が検討されるのは異例とされる。</p>
 <p>報道によれば、国防総省側は国家安全保障上の観点からAI技術の幅広い活用を求めている。一方、Anthropicは自社の安全ポリシーに基づく用途制限を維持する姿勢を崩していないとされる。</p>
 <p>現時点で、国防総省およびAnthropicから交渉決裂や契約解除に関する正式発表は出ていない。今後、契約の扱いや他AI企業との関係がどのように整理されるかが焦点となる。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「他人の脳波が読める」？──Kickstarter入手のスマートアイマスクに深刻な通信設計問題</title>
+      <link>https://ledge.ai/articles/brainwave_sleep_mask_vulnerability_kickstarter_mqtt_issue</link>
+      <description><![CDATA[<p>AIエンジニアのAimilios Chatzistamou氏は2026年2月12日、自身がクラウドファンディングサイトのKickstarterで購入した中国製のスマート睡眠マスクにおいて、通信設計上の重大な脆弱性を発見したと報告した。解析の結果、他人の脳波（EEG）データをリアルタイムで受信できる可能性があるほか、理論上は電気刺激機能にコマンドを送信できる構造だったという。</p>
+<p>同氏は自身の技術ブログで、製品名や企業名は公表しないと明言したうえで、アプリケーションのリバースエンジニアリング結果を<a href="https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/">公開</a>している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/My_smart_sleep_mask_broadcasts_users_brainwaves_to_an_open_MQTT_broker_7dae07966f/My_smart_sleep_mask_broadcasts_users_brainwaves_to_an_open_MQTT_broker_7dae07966f.jpg" alt="My smart sleep mask broadcasts users brainwaves to an open MQTT broker.jpg" /></p>
+<h2>アプリ内にハードコードされた認証情報</h2>
+<p>問題の発端は、スマートフォン向け公式アプリの解析だった。同氏によると、アプリ内部にMQTTブローカーへ接続するための高権限認証情報がハードコードされていた。</p>
+<p>MQTTはIoT機器で広く利用される軽量メッセージングプロトコルだが、本来は個別認証や適切なアクセス制御が求められる。同氏は、共通の認証情報を用いてブローカーへ接続できる状態になっていたと説明している。</p>
+<p>この設計により、外部から接続したクライアントが、他ユーザー由来とみられる生体データを購読（subscribe）できる状況が確認されたという。</p>
+<h2>他人のEEGデータをリアルタイム受信</h2>
+<p>当該製品は、睡眠トラッキングやリラクゼーション用途をうたい、EEG（脳波）を計測するセンサーを備えるウェアラブル機器とされる。</p>
+<p>同氏は、MQTTトピックを監視することで、リアルタイムで送信されるEEGデータを受信できたと記している。これが事実であれば、生体情報という極めて機微性の高いデータが適切な分離なく扱われていた可能性がある。</p>
+<p>現時点で、大規模なデータ流出が確認されているわけではないが、設計上の問題として重大だと指摘している。</p>
+<h2>電気刺激機能へのアクセス可能性</h2>
+<p>さらに同氏は、当該機器が軽度の電気刺激（EMS）や振動、加熱、オーディオ機能などを備えている点に言及。解析上、理論的にはこれらの機能に対する制御コマンドを送信できる構造であったと述べている。</p>
+<p>実際に危険な出力が可能かどうか、また安全制御がどの程度実装されているかについては検証していないとしているが、「身体に直接装着するデバイスに外部からアクセス可能な制御経路が存在すること自体が問題だ」との認識を示している。</p>
+<p>同氏は、製品名や企業名を公表しない判断を取っている。一部海外メディアは特定製品との関連を推測しているが、同氏は明示していない。本稿執筆時点で、メーカー側の公式声明や修正アップデートの有無は確認できていない。</p>
+<h2>民生向けニューロテックの設計課題</h2>
+<p>近年、EEG搭載のヘッドバンドやスマートマスクなど、脳活動を扱う民生向けウェアラブル製品は増加している。これらは医療機器ではないケースも多いが、</p>
+<p>・生体データを常時収集する
+・クラウドと接続される
+・身体に直接刺激を与える機能を持つ</p>
+<p>といった特徴を備える。</p>
+<p>今回の事例は、消費者向けニューロテック製品における通信設計とアクセス制御の重要性を改めて示すものとなった。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
