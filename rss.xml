@@ -127,20 +127,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米国防総省、Anthropicとの関係解消を検討──「Claude」軍事利用の安全制限めぐり対立</title>
-      <link>https://ledge.ai/articles/anthropic_pentagon_claude_military_safeguards_dispute</link>
-      <description><![CDATA[<p>2026年2月15日、アメリカ国防総省が、生成AI「Claude」を開発するAnthropicとの契約関係の解消を検討していると、米ニュースサイト<a href="https://www.axios.com/2026/02/15/claude-pentagon-anthropic-contract-maduro">Axios</a>が報じた。両者はAIの軍事利用に関する安全制限を巡って協議を続けてきたが、合意に至っていないという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b/axios_pentagon_threatens_to_cut_off_anthropic_b4ed7f604b.jpg" alt="axios pentagon threatens to cut off anthropic.jpg" /></p>
-<p>Axiosによると、国防総省はAnthropicに対し、「合法的な軍事用途」全般での利用を可能にするよう安全ガードレールの見直しを求めている。一方、Anthropicは自社の利用ポリシーに基づき、完全自律型の致死兵器や大規模監視への利用など一部用途に制限を設けており、この点が交渉の焦点となっている。</p>
-<p>Axiosは、2025年に締結された最大約2億ドル規模の契約にも影響が及ぶ可能性があると伝えた。交渉は数カ月にわたり続いているという。</p>
-<p>その後、<a href="https://www.reuters.com/technology/pentagon-threatens-cut-off-anthropic-ai-safeguards-dispute-axios-reports-2026-02-15/">Reuters</a>もAxiosの報道を引用する形で追随した。Reutersは、国防総省がAnthropicとの関係を断つ可能性を検討していると報じるとともに、OpenAIやGoogleなど他のAI企業にも同様の軍事利用に関する要請が行われていると伝えた点が特徴だ。軍との契約を巡る動きが業界全体に波及する可能性を補足している。</p>
-<p>また、Axiosの<a href="https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth">続報</a>では、国防総省がAnthropicを防衛サプライチェーン上の「リスク」として扱う選択肢を検討しているとも報じられた。この措置が実施された場合、防衛関連企業がAnthropicの技術を利用することに制限がかかる可能性があるという。通常、この枠組みは外国勢力などを対象に適用されるものであり、国内AI企業への適用が検討されるのは異例とされる。</p>
-<p>報道によれば、国防総省側は国家安全保障上の観点からAI技術の幅広い活用を求めている。一方、Anthropicは自社の安全ポリシーに基づく用途制限を維持する姿勢を崩していないとされる。</p>
-<p>現時点で、国防総省およびAnthropicから交渉決裂や契約解除に関する正式発表は出ていない。今後、契約の扱いや他AI企業との関係がどのように整理されるかが焦点となる。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「他人の脳波が読める」？──Kickstarter入手のスマートアイマスクに深刻な通信設計問題</title>
       <link>https://ledge.ai/articles/brainwave_sleep_mask_vulnerability_kickstarter_mqtt_issue</link>
       <description><![CDATA[<p>AIエンジニアのAimilios Chatzistamou氏は2026年2月12日、自身がクラウドファンディングサイトのKickstarterで購入した中国製のスマート睡眠マスクにおいて、通信設計上の重大な脆弱性を発見したと報告した。解析の結果、他人の脳波（EEG）データをリアルタイムで受信できる可能性があるほか、理論上は電気刺激機能にコマンドを送信できる構造だったという。</p>
@@ -416,6 +402,28 @@
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
 <p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
 <p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
+      <link>https://ledge.ai/articles/openclaw_gemini_antigravity_usage_restrictions_202602</link>
+      <description><![CDATA[<p>2026年2月13日以降、Googleの有料AIプラン利用者の間で、オープンフレームワーク「OpenClaw」を経由してGeminiモデルに接続した後、利用制限を受けたとする報告が相次いでいる。Googleの公式開発者フォーラムには、「<a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778">Account Restricted Without WARNING</a>」と題した投稿を含め、同様のアカウント停止や403エラーに関する複数の投稿が掲載されている。</p>
+<h2>フォーラムでの制限報告</h2>
+<p>Google AI Developers Forumの投稿では、OpenClawのOAuth連携を通じてGeminiを利用した後、Google AI Ultraアカウントが制限状態になったとする事例が報告されている。投稿者は、事前警告がなかったことや、制限が数日間継続していることを記している。</p>
+<p>「403 ToS violation」と表示されたケースや、Antigravity／Gemini Code Assistの利用が無効化されたとする投稿もあり、2月中旬以降、類似の報告が複数スレッドで続いている。</p>
+<h2>Antigravity担当者のX投稿：「悪意ある利用が急増」</h2>
+<p>これについて、Googleの「Antigravity」プロダクトに関与する担当者であるVarun Mohan氏は、2026年2月23日から24日にかけてX（旧Twitter）に投稿し、対応の背景を説明した。</p>
+<p>Mohan氏は23日の投稿で、「Antigravityバックエンドにおけるmalicious usage（悪意ある利用）が大幅に増加し、ユーザー体験の品質が著しく低下した」と述べた。そのうえで、「意図した使い方ではない利用者」のアクセスを迅速に遮断する必要があったと説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Varun_Mohan_X_36452aeb3e/Varun_Mohan_X_36452aeb3e.jpg" alt="Varun Mohan X.jpg" /></p>
+<p>同日中の追加投稿では、今回ブロックしたのはAntigravityプロダクトの利用であり、「他のGoogleサービスおよびGoogle AIサービスは影響を受けていない」と明記した。また、「Antigravityバックエンドを他製品のプロキシとして使用することは意図されていない」とし、該当する利用形態が計算資源を圧迫していたと説明した。</p>
+<p>24日の<a href="https://x.com/_mohansolo/status/2026109842948329574">投稿</a>では、「利用の大半（\u003E90%）がAntigravityプロダクトではない用途だったアカウント」に対して措置を取ったとし、「十分な事前警告を行えなかったことを深く後悔している」と記した。あわせて、対象利用者に復帰の道筋を用意するとしている。</p>
+<h2>双方が主張する影響</h2>
+<p>Mohan氏は、Antigravityバックエンドでの「malicious usage」の急増がサービス品質（QoS）を著しく損ない、計算資源が圧迫されたことが今回の措置の背景にあると説明。容量に制約がある中で「実際のユーザーに公平でありたい」と述べた。</p>
+<p>一方、利用者側からは、事前警告なしに利用が停止されたことや、異議申し立て後の対応が不透明であるとする投稿が公式フォーラム上で相次いでいる。OpenClawの開発者で、同月15日にOpenAIへの参加を発表したPeter Steinberger氏は、月額250ドルのUltraプラン加入者へのサポート対応に疑問を呈し、高額プラン契約下でリソースにアクセスできない状況を「draconian（苛烈）」と表現し、運用面のリスクを指摘した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peter_Steinberger_X_97220b6096/Peter_Steinberger_X_97220b6096.jpg" alt="PeterSteinberger X.jpg" /></p>
+<p>Antigravityの<a href="https://antigravity.google/terms">追加利用規約</a>では、サービスの濫用や妨害、意図しない形での利用などを制限する趣旨の条項が設けられている。Mohan氏の投稿は、こうした規約の考え方に沿う形で説明されたものと位置付けられる。ただし、具体的にどの条項に違反したのかは明示されていない。</p>
+<p>現時点で、GoogleがOpenClawを名指しで一律禁止したとする公式声明は確認されていない。Mohan氏はXで、「malicious usage」の急増と、利用の大半（\u003E90%）がAntigravity本来用途ではなかったアカウントへの措置であると説明している。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
