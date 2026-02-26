@@ -5,6 +5,37 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
+      <link>https://ledge.ai/articles/openclaw_gemini_antigravity_usage_restrictions_202602</link>
+      <description><![CDATA[<p>2026年2月13日以降、Googleの有料AIプラン利用者の間で、オープンフレームワーク「OpenClaw」を経由してGeminiモデルに接続した後、利用制限を受けたとする報告が相次いでいる。Googleの公式開発者フォーラムには、「<a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778">Account Restricted Without WARNING</a>」と題した投稿を含め、同様のアカウント停止や403エラーに関する複数の投稿が掲載されている。</p>
+<h2>フォーラムでの制限報告</h2>
+<p>Google AI Developers Forumの投稿では、OpenClawのOAuth連携を通じてGeminiを利用した後、Google AI Ultraアカウントが制限状態になったとする事例が報告されている。投稿者は、事前警告がなかったことや、制限が数日間継続していることを記している。</p>
+<p>「403 ToS violation」と表示されたケースや、Antigravity／Gemini Code Assistの利用が無効化されたとする投稿もあり、2月中旬以降、類似の報告が複数スレッドで続いている。</p>
+<h2>Antigravity担当者のX投稿：「悪意ある利用が急増」</h2>
+<p>これについて、Googleの「Antigravity」プロダクトに関与する担当者であるVarun Mohan氏は、2026年2月23日から24日にかけてX（旧Twitter）に投稿し、対応の背景を説明した。</p>
+<p>Mohan氏は23日の投稿で、「Antigravityバックエンドにおけるmalicious usage（悪意ある利用）が大幅に増加し、ユーザー体験の品質が著しく低下した」と述べた。そのうえで、「意図した使い方ではない利用者」のアクセスを迅速に遮断する必要があったと説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Varun_Mohan_X_36452aeb3e/Varun_Mohan_X_36452aeb3e.jpg" alt="Varun Mohan X.jpg" /></p>
+<p>同日中の追加投稿では、今回ブロックしたのはAntigravityプロダクトの利用であり、「他のGoogleサービスおよびGoogle AIサービスは影響を受けていない」と明記した。また、「Antigravityバックエンドを他製品のプロキシとして使用することは意図されていない」とし、該当する利用形態が計算資源を圧迫していたと説明した。</p>
+<p>24日の<a href="https://x.com/_mohansolo/status/2026109842948329574">投稿</a>では、「利用の大半（\u003E90%）がAntigravityプロダクトではない用途だったアカウント」に対して措置を取ったとし、「十分な事前警告を行えなかったことを深く後悔している」と記した。あわせて、対象利用者に復帰の道筋を用意するとしている。</p>
+<h2>双方が主張する影響</h2>
+<p>Mohan氏は、Antigravityバックエンドでの「malicious usage」の急増がサービス品質（QoS）を著しく損ない、計算資源が圧迫されたことが今回の措置の背景にあると説明。容量に制約がある中で「実際のユーザーに公平でありたい」と述べた。</p>
+<p>一方、利用者側からは、事前警告なしに利用が停止されたことや、異議申し立て後の対応が不透明であるとする投稿が公式フォーラム上で相次いでいる。OpenClawの開発者で、同月15日にOpenAIへの参加を発表したPeter Steinberger氏は、月額250ドルのUltraプラン加入者へのサポート対応に疑問を呈し、高額プラン契約下でリソースにアクセスできない状況を「draconian（苛烈）」と表現し、運用面のリスクを指摘した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peter_Steinberger_X_97220b6096/Peter_Steinberger_X_97220b6096.jpg" alt="PeterSteinberger X.jpg" /></p>
+<p>Antigravityの<a href="https://antigravity.google/terms">追加利用規約</a>では、サービスの濫用や妨害、意図しない形での利用などを制限する趣旨の条項が設けられている。Mohan氏の投稿は、こうした規約の考え方に沿う形で説明されたものと位置付けられる。ただし、具体的にどの条項に違反したのかは明示されていない。</p>
+<p>現時点で、GoogleがOpenClawを名指しで一律禁止したとする公式声明は確認されていない。Mohan氏はXで、「malicious usage」の急増と、利用の大半（\u003E90%）がAntigravity本来用途ではなかったアカウントへの措置であると説明している。</p>
+]]></description>
+      <pubDate>Wed, 25 Feb 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2028年末までに“世界の知的作業の過半がAIへ”──OpenAIサム・アルトマン氏が超知能の到達時期に言及</title>
+      <link>https://ledge.ai/articles/ai_intellectual_work_majority_2028_altman</link>
+      <description><![CDATA[<p>OpenAIのCEOであるSam Altmanは2026年2月19日、インド・ニューデリーで開催された「India AI Impact Summit 2026」に<a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2230370&amp;lang=1&amp;reg=3">登壇</a>{target=”_blank”}し、人工知能が人類の知的能力を大きく上回る「超知能（Super Intelligence）」の到達時期について具体的な見通しを示した。</p>
+<p>同氏は講演の中で、次のように述べている。
+**\</p>
+]]></description>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>電子デバイス内部の廃熱を“計算資源”に転換──MIT、AIなどの基礎となる行列演算を物理現象で実行する新しいアナログ計算を提案</title>
       <link>https://ledge.ai/articles/heat_analog_computing_mit_waste_heat_matrix_computation</link>
       <description><![CDATA[<p>マサチューセッツ工科大学（MIT）の研究者らは、電子デバイス内部で発生する余剰熱を利用し、物理的な熱伝導現象によって計算を実行するシリコン構造体を設計したと<a href="https://journals.aps.org/prapplied/abstract/10.1103/5drp-hrx1">発表</a>した。研究成果は2026年1月29日に、米国物理学会（APS）が発行するPhysical Review Appliedに掲載された。</p>
@@ -121,15 +152,6 @@
 <p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
 ]]></description>
       <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>2028年末までに“世界の知的作業の過半がAIへ”──OpenAIサム・アルトマン氏が超知能の到達時期に言及</title>
-      <link>https://ledge.ai/articles/ai_intellectual_work_majority_2028_altman</link>
-      <description><![CDATA[<p>OpenAIのCEOであるSam Altmanは2026年2月19日、インド・ニューデリーで開催された「India AI Impact Summit 2026」に<a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2230370&amp;lang=1&amp;reg=3">登壇</a>{target=”_blank”}し、人工知能が人類の知的能力を大きく上回る「超知能（Super Intelligence）」の到達時期について具体的な見通しを示した。</p>
-<p>同氏は講演の中で、次のように述べている。
-**\</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「他人の脳波が読める」？──Kickstarter入手のスマートアイマスクに深刻な通信設計問題</title>
@@ -415,28 +437,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
-      <link>https://ledge.ai/articles/openclaw_gemini_antigravity_usage_restrictions_202602</link>
-      <description><![CDATA[<p>2026年2月13日以降、Googleの有料AIプラン利用者の間で、オープンフレームワーク「OpenClaw」を経由してGeminiモデルに接続した後、利用制限を受けたとする報告が相次いでいる。Googleの公式開発者フォーラムには、「<a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778">Account Restricted Without WARNING</a>」と題した投稿を含め、同様のアカウント停止や403エラーに関する複数の投稿が掲載されている。</p>
-<h2>フォーラムでの制限報告</h2>
-<p>Google AI Developers Forumの投稿では、OpenClawのOAuth連携を通じてGeminiを利用した後、Google AI Ultraアカウントが制限状態になったとする事例が報告されている。投稿者は、事前警告がなかったことや、制限が数日間継続していることを記している。</p>
-<p>「403 ToS violation」と表示されたケースや、Antigravity／Gemini Code Assistの利用が無効化されたとする投稿もあり、2月中旬以降、類似の報告が複数スレッドで続いている。</p>
-<h2>Antigravity担当者のX投稿：「悪意ある利用が急増」</h2>
-<p>これについて、Googleの「Antigravity」プロダクトに関与する担当者であるVarun Mohan氏は、2026年2月23日から24日にかけてX（旧Twitter）に投稿し、対応の背景を説明した。</p>
-<p>Mohan氏は23日の投稿で、「Antigravityバックエンドにおけるmalicious usage（悪意ある利用）が大幅に増加し、ユーザー体験の品質が著しく低下した」と述べた。そのうえで、「意図した使い方ではない利用者」のアクセスを迅速に遮断する必要があったと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Varun_Mohan_X_36452aeb3e/Varun_Mohan_X_36452aeb3e.jpg" alt="Varun Mohan X.jpg" /></p>
-<p>同日中の追加投稿では、今回ブロックしたのはAntigravityプロダクトの利用であり、「他のGoogleサービスおよびGoogle AIサービスは影響を受けていない」と明記した。また、「Antigravityバックエンドを他製品のプロキシとして使用することは意図されていない」とし、該当する利用形態が計算資源を圧迫していたと説明した。</p>
-<p>24日の<a href="https://x.com/_mohansolo/status/2026109842948329574">投稿</a>では、「利用の大半（\u003E90%）がAntigravityプロダクトではない用途だったアカウント」に対して措置を取ったとし、「十分な事前警告を行えなかったことを深く後悔している」と記した。あわせて、対象利用者に復帰の道筋を用意するとしている。</p>
-<h2>双方が主張する影響</h2>
-<p>Mohan氏は、Antigravityバックエンドでの「malicious usage」の急増がサービス品質（QoS）を著しく損ない、計算資源が圧迫されたことが今回の措置の背景にあると説明。容量に制約がある中で「実際のユーザーに公平でありたい」と述べた。</p>
-<p>一方、利用者側からは、事前警告なしに利用が停止されたことや、異議申し立て後の対応が不透明であるとする投稿が公式フォーラム上で相次いでいる。OpenClawの開発者で、同月15日にOpenAIへの参加を発表したPeter Steinberger氏は、月額250ドルのUltraプラン加入者へのサポート対応に疑問を呈し、高額プラン契約下でリソースにアクセスできない状況を「draconian（苛烈）」と表現し、運用面のリスクを指摘した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peter_Steinberger_X_97220b6096/Peter_Steinberger_X_97220b6096.jpg" alt="PeterSteinberger X.jpg" /></p>
-<p>Antigravityの<a href="https://antigravity.google/terms">追加利用規約</a>では、サービスの濫用や妨害、意図しない形での利用などを制限する趣旨の条項が設けられている。Mohan氏の投稿は、こうした規約の考え方に沿う形で説明されたものと位置付けられる。ただし、具体的にどの条項に違反したのかは明示されていない。</p>
-<p>現時点で、GoogleがOpenClawを名指しで一律禁止したとする公式声明は確認されていない。Mohan氏はXで、「malicious usage」の急増と、利用の大半（\u003E90%）がAntigravity本来用途ではなかったアカウントへの措置であると説明している。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Perplexity、AI検索の広告を段階廃止──2024年の実験から方針転換、「信頼性」優先へ</title>
       <link>https://ledge.ai/articles/perplexity_ads_phaseout_trust_pivot_2026_ft</link>
       <description><![CDATA[<p>AI検索エンジンを手がけるPerplexityが、導入していた広告の掲載を段階的に廃止していることが分かったと、2026年2月18日（現地時間）に英経済紙<a href="https://www.ft.com/content/6eec07a5-34a8-4f78-a9ed-93ab4263d43c">Financial Times（FT）</a>が報じた。報道によれば、広告がAI回答への信頼を損なう可能性があるとの懸念が背景にあるという。</p>
@@ -530,60 +530,6 @@
       <pubDate>Wed, 18 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI時代の認識に階層ギャップ──PwC調査、日本の特に若手・非管理職で影響実感低く</title>
-      <link>https://ledge.ai/articles/pwc_hopes_and_fears_2025_japan_genai_hierarchy_gap</link>
-      <description><![CDATA[<p>PwCコンサルティングを含むPwC Japanグループは2026年2月2日、グローバル従業員意識調査「Global Workforce Hopes and Fears Survey 2025」の日本版を<a href="https://www.pwc.com/jp/ja/knowledge/thoughtleadership/hopes-and-fears2025.html">公開</a>した。調査は2025年7月7日から8月18日にかけて、48の国と地域・28セクターにわたる49,843人の従業員（日本2,060人を含む）を対象に実施された。</p>
-<p>調査は、AIの進展が従業員の意識やモチベーション構造にどのような影響を与えているかを多角的に分析したものだ。結果は、AI活用の広がりとともに、テクノロジーに対する「認識」や「将来見通し」に職階差が存在することを示している。特に日本では、若手・非管理職層において将来への楽観性や影響実感が低い傾向が顕著となった。</p>
-<h2>AI活用は拡大するも、日本は世界平均を下回る</h2>
-<p>過去1年間に業務でAIを活用したと回答した割合は、グローバルで54％、日本では35％だった。生成AIを毎日使用していると答えた割合は、グローバル14％に対し、日本は6％にとどまる。</p>
-<p>一方で、生成AIを日常的に活用している層の約9割は、生産性や仕事の質の向上を実感していると回答している。AI利用者の間では、仕事に対する前向きな認識が広がっていることがうかがえる。</p>
-<p>しかし、日常利用者は依然として限定的だ。さらに、生成AIの次段階とされる「エージェントAI」を日常的に活用している割合は、グローバルで6％、日本では2％にとどまった。PwCは、日本企業はAI活用の面で世界と比べて遅れがあり、変革の余地が大きいと指摘している。</p>
-<h2>影響の「見通し」と「コントロール感」に差</h2>
-<p>今回の調査で特徴的なのは、AIの利用率だけでなく、テクノロジーが仕事に与える影響に対する認識構造を可視化している点だ。</p>
-<p>今後3年間で技術の変化が仕事に「大きな影響を与える」と予想する割合は、従業員全体では半数未満にとどまる。市場動向や政府規制ほどの影響はないと捉える層も多い。</p>
-<p>ただし、生成AIの日常ユーザー層の70％は「大きな影響がある」と予想している。AIを実際に活用している層と、そうでない層の間で、将来の影響認識に明確な差が存在する。</p>
-<p>さらに、「テクノロジーが仕事に与える影響をどの程度コントロールできるか」という問いでは、グローバルでは約70％が「一定程度コントロールできる」と回答したのに対し、日本では52％にとどまった。影響の大きさに対する見通しだけでなく、それを主体的に扱えるという感覚（コントロール感）にも差が見られる。</p>
-<h2>日本は楽観性が低く、職階差も拡大</h2>
-<p>「自分の役割の将来について強く楽観的」と答えた割合は、グローバル全体で53％だったのに対し、日本は19％と大きく下回った。</p>
-<p>職階別では次の通りだ。</p>
-<ul>
-<li>グローバル経営幹部：72％</li>
-<li>グローバル非管理職：43％</li>
-<li>日本経営幹部：38％</li>
-<li>日本非管理職：15％</li>
-</ul>
-<p>日本では経営幹部と非管理職の間で楽観性の差が開いているだけでなく、全体水準も低い。若手や経験の浅い層ほど、AI時代の将来像に対して慎重な見方をしている構図が浮かび上がる。</p>
-<h2>モチベーションを左右する要因</h2>
-<p>調査では、仕事への誇りや意欲、楽しさなどから「モチベーション指数」を算出し、統計的に影響要因を分析している。</p>
-<p>その結果、以下の要因がモチベーションと強く関連していると推定された。</p>
-<ul>
-<li>将来への楽観性：＋101％</li>
-<li>スキルの将来関連性への期待：＋91％</li>
-<li>雇用安定への自信：＋51％</li>
-<li>生成AIの毎日利用：＋13％</li>
-</ul>
-<p>将来に対して非常に楽観的な従業員は、そうでない層に比べてモチベーションが約2倍（＋101％）高いと推定された。一方、生成AIの毎日利用はプラスに作用するものの、その影響は限定的だった。</p>
-<p>AIの利用そのものよりも、「自分の将来像が描けるか」「スキルが今後も通用すると感じられるか」といった認識の方が、モチベーションに大きく影響している構造が示された。</p>
-<h2>モチベーションを高める6つのアクション</h2>
-<p>調査は、AI時代に従業員の意欲を高める要素として「信頼」「組織風土」「方向の明確性」を挙げた。モチベーションを高めるためのアクションとして、以下の6点を提示している。</p>
-<p><strong>1. 不確実な未来を認識する</strong>
-企業を取り巻く環境変化を率直に認め、特に経験の浅い従業員が抱える将来不安に向き合うことを求めている。現実的な対話が楽観性と信頼の土台になるとする。</p>
-<p><strong>2. 信頼ギャップに対処する</strong>
-経営陣への信頼度は必ずしも高くない。透明性のある意思決定やコミュニケーションを通じて、リーダーシップへの信頼を強化する必要があるとした。</p>
-<p><strong>3. 明確な未来ビジョンで従業員を鼓舞する</strong>
-組織の長期目標と個々の業務との関連を明確に示すことが重要だとする。AI戦略を含む将来像を具体的に提示することが、モチベーション向上につながると分析している。</p>
-<p><strong>4. スキルパスウェイを提示する</strong>
-リスキルやアップスキルの機会を可視化し、将来必要となるスキルと成長経路を明確にすることを提言している。学習環境や実践機会の整備が不可欠だとした。</p>
-<p><strong>5. イノベーションと変革への動機づけを行う</strong>
-心理的安全性を確保し、新しい挑戦や試行を後押しする文化の構築を求めている。失敗を学習機会として扱う姿勢が変革推進の前提になるとしている。</p>
-<p><strong>6. 安心と報酬を安定的基盤として認識する</strong>
-雇用の安定や適切な報酬は、モチベーションの基盤となる要素だと位置付ける。経済的プレッシャーが信頼や意欲に影響を与える点にも言及している。</p>
-<p>調査結果は、AI活用の遅れだけでなく、影響認識や将来楽観性の低さが日本の課題である可能性を示唆する。テクノロジーの影響を強く認識し、それを主体的に扱えるという感覚が高い層ほど、将来に楽観的であり、モチベーションも高い傾向が確認された。</p>
-<p>AI時代の競争力は、単なるツール導入の速度だけでなく、従業員が将来像を描ける組織文化を構築できるかに左右される構造が浮き彫りとなった。</p>
-]]></description>
-      <pubDate>Wed, 18 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
       <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
       <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
@@ -605,28 +551,6 @@
 <p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
 ]]></description>
       <pubDate>Tue, 17 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国Z.ai、新AIモデル「GLM-5」公開──ベンチマークでGemini・Claudeと並走</title>
-      <link>https://ledge.ai/articles/z_ai_glm_5_release_benchmark_competition</link>
-      <description><![CDATA[<p>北京に拠点を置くAI企業Z.aiは2026年2月12日、新たな大規模言語モデル（LLM）「GLM-5」を公式ブログで<a href="https://z.ai/blog/glm-5">発表</a>した。同社は複数の国際ベンチマークにおける評価結果を公開し、Gemini 3 ProやClaude Opus 4.5などの主要モデルと比較した。</p>
-<h2>エージェント志向モデルとしての位置づけ</h2>
-<p>Z.aiはGLM-5を「Agentic Engineering」を掲げるモデルと位置づける。対話応答にとどまらず、推論やコーディング、ツール利用を含むタスク遂行型の挙動を重視した設計であると説明している。</p>
-<p>公式ブログでは、Humanity’s Last Exam、SWE-bench Verified、Terminal-Bench 2.0、BrowseComp、MCP-Atlas、τ²-Bench、Vending Bench 2など、計8種類の評価指標を用いた結果が示された。</p>
-<p><strong>■ GLM-5と主要モデルのベンチマーク比較。推論・コーディング・エージェントタスクなど8指標で評価</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260212_010724_885b0655fb/20260212_010724_885b0655fb.jpg" alt="20260212-010724.jpg" /></p>
-<p>図によれば、GLM-5はSWE-bench VerifiedやBrowseCompなど複数の項目で上位帯に位置している。一部指標ではGemini 3 ProやClaude Opus 4.5が上回る結果も示されているが、全体としては主要モデル群と同水準に並ぶスコアレンジに入っている。</p>
-<h2>Vending-Bench 2でのシミュレーション結果</h2>
-<p>Z.aiは、エージェント型モデルの能力を測るベンチマーク「Vending-Bench 2」におけるシミュレーション結果も公開した。同ベンチは仮想環境内で資金を増やすタスクを課し、日数経過に伴う資金推移を比較する形式を採る。</p>
-<p><strong>■ Vending-Bench 2における資金推移の比較。GLM-5は最終的に上位帯で推移</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4/bf5c97ae6ba5f07ba980ed9bcc116f47_a2243d7ee4.jpg" alt="bf5c97ae6ba5f07ba980ed9bcc116f47.jpg" /></p>
-<p>グラフでは、GLM-5は最終的に4,000ドル超の水準に到達し、Gemini 3 ProおよびClaude Opus 4.5と近いレンジで推移している。一方で、GPT-5.2や他の中国モデルとの間にも差が見られる。この結果は、中国発モデルがエージェント型タスクにおいても国際競争圏内に入っていることを示すデータとして提示されている。</p>
-<h2>公開形態と提供</h2>
-<p>GLM-5はHugging FaceおよびModelScopeを通じて公開されている。API経由での利用も紹介されている。
-同社はこれまでGLMシリーズを継続的にアップデートしてきたが、今回のGLM-5はエージェント志向への明確なシフトを打ち出したモデルとして位置づけられる。</p>
-<p>Z.aiは公式ブログを通じて、推論、コーディング、ツール統合を含む包括的な能力向上を掲げた。GLM-5は、中国AI勢の技術開発がエージェント型モデルの領域へと本格的に移行していることを示す事例の一つといえる。</p>
-]]></description>
-      <pubDate>Tue, 17 Feb 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
