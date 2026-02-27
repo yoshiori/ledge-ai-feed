@@ -402,6 +402,56 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、画像生成AI「Nano Banana 2（Gemini 3.1 Flash Image）」発表──Pro級の品質と“Flash級の速度”の良いとこどり</title>
+      <link>https://ledge.ai/articles/nano_banana_2_gemini_3_1_flash_image_flash_speed_launch</link>
+      <description><![CDATA[<p>Googleは米国時間2026年2月26日、Geminiのネイティブ画像生成の最新モデル「Nano Banana 2（Gemini 3.1 Flash Image）」を<a href="https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/">発表</a>した。Gemini API上では「Gemini 3.1 Flash Image Preview（gemini-3.1-flash-image-preview）」として提供される。</p>
+<p>同社は今回のモデルについて、「Nano Banana Pro」相当の高度な推論能力や世界知識を備えつつ、Gemini Flash系の高速な生成性能を両立させたと説明している。</p>
+<h2>Flash速度で動く高度な“世界知識”</h2>
+<p>Nano Banana 2は、Gemini Flashの高速推論基盤を活用し、迅速な編集と反復生成（iteration）を可能にする。</p>
+<p>Googleは特に次の点を強調している。</p>
+<p>・高度なworld knowledge（実世界知識）の活用
+・リアルタイムWeb検索情報との統合
+・インフォグラフィックやデータ可視化の生成
+・ノートを図解に変換する機能</p>
+<p><strong>■ インフォグラフィック生成例（水循環図）：実世界の知識をもとに構造化された説明図を生成できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f.webp" alt="wm-c2a77d45-6afd-4d2e-ae5b-3f1e.max-768x768.format-webp.webp" /></p>
+<p><strong>■ フグの巣構造を検索情報に基づき図解形式で生成した例。種名や構造ラベルを含め、検索連携された知識を反映している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/16_9_max_1600x1600_format_webp_c10513b48f/16_9_max_1600x1600_format_webp_c10513b48f.webp" alt="16_9.max-1600x1600.format-webp.webp" /></p>
+<h2>正確なテキスト描画と翻訳・ローカライズ</h2>
+<p>Nano Banana 2は、画像内テキストの描画精度を向上させた。</p>
+<p>マーケティング用モックアップやグリーティングカードなどにおいて、可読性の高いテキストを生成できるほか、画像内テキストの翻訳・ローカライズも可能としている。</p>
+<p><strong>■ 同一デザインの看板を異なる言語へ変換</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd.jpg" alt="gemini-image_localisation_1_l.max-1080x1080.format-webp.jpg" /></p>
+<h2>被写体一貫性と複数オブジェクト管理</h2>
+<p>Googleは、Nano Banana 2で速度と視覚的忠実度の差を大幅に縮めたと説明する。</p>
+<p>主な改善点は以下の通り。</p>
+<p>・最大5キャラクターの類似性維持
+・最大14オブジェクトの忠実度維持
+・高度な指示追従
+・512px〜4Kまでの出力制御
+・アスペクト比の柔軟な指定</p>
+<p>これにより、ストーリーボード制作や複数シーンの生成において、外観を維持したまま展開できるという。</p>
+<p><strong>■ 被写体一貫性の生成例</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873.webp" alt="gemini-image__subject-consist.max-1080x1080.format-webp.webp" /></p>
+<p><strong>■ 最大4K出力対応例</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be.webp" alt="wm-b1c3ea8d-6e70-44b2-a53e-a188.max-768x768.format-webp.webp" /></p>
+<h2>提供範囲</h2>
+<p>Nano Banana 2は以下のサービスに展開される。</p>
+<p>・Geminiアプリ（Fast / Thinking / Proモデルに統合）
+・Search（AI ModeおよびLens）
+・AI StudioおよびGemini API（Preview）
+・Google Cloud（Vertex AI）
+・Flow（デフォルト画像生成モデル）
+・Google Ads（キャンペーン生成支援）</p>
+<p>Nano Banana Proは、専門用途向けに引き続き利用可能としている。</p>
+<h1>生成コンテンツの来歴表示</h1>
+<p>Googleは、SynthIDとC2PA Content Credentialsを組み合わせた来歴表示技術を強化している。</p>
+<p>Geminiアプリ内のSynthID検証機能は、2024年11月以降、2,000万回以上利用されたとしている。今後はC2PA検証もアプリに導入予定だ。</p>
+<p>Nano Banana 2は、高精度モデルと高速モデルの統合を図った位置付けとなる。Googleは、用途に応じてNano Banana ProとNano Banana 2を使い分ける選択肢を提示している。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、BCG・マッキンゼーら4社と「Frontier Alliances」始動──企業AI導入の“実装ボトルネック”に踏み込む</title>
       <link>https://ledge.ai/articles/openai_frontier_alliances_bcg_mckinsey_accenture_capgemini</link>
       <description><![CDATA[<p>OpenAIは2026年2月23日、AIが同僚のように自律的に業務を担う「AI coworkers（AI同僚）」の企業展開を加速するための新たなパートナー枠組み「Frontier Alliances」を<a href="https://openai.com/index/frontier-alliance-partners/">発表</a>した。</p>
