@@ -520,6 +520,46 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Uber、自動運転パートナー向け「Uber Autonomous Solutions」提供開始──配車・配送の“商用化レイヤー”を統合</title>
+      <link>https://ledge.ai/articles/uber_autonomous_solutions_launch_commercialization_layer</link>
+      <description><![CDATA[<p>現地時間2026年2月23日、Uber Technologiesは、自動運転パートナー向けの新たな枠組み「Uber Autonomous Solutions」の提供開始を<a href="https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Unveils-Uber-Autonomous-Solutions-to-Accelerate-Autonomous-Mobility--Delivery-Worldwide/default.aspx">発表</a>した。配車サービスのUberやフードデリバリーのUber Eatsを展開する同社が、自動運転モビリティおよび配送の商用化を支援するサービス群を統合して提供する。</p>
+<h2>自動運転の“商用化”を支える3領域</h2>
+<p>「Uber Autonomous Solutions」は、自動運転パートナーがサービスを市場投入する際に必要となる要素を、Uberの既存プラットフォームや運用ノウハウとともに提供する枠組みだ。</p>
+<p>公式発表では、提供内容を以下の3領域に整理している。</p>
+<h3>1. Infrastructure（基盤）</h3>
+<p>商用展開に向けた前提条件を支える領域として、次のような要素が挙げられている。</p>
+<ul>
+<li>AV 2.0 Training Data</li>
+<li>データ拡張マッピング</li>
+<li>規制対応（regulatory access）</li>
+<li>フリート金融（financing） など</li>
+</ul>
+<p>自動運転車両の導入に必要なデータ基盤や資金面、各地域の規制対応までを含む設計となっている。</p>
+<h3>2. User Experience（ユーザー体験）</h3>
+<ul>
+<li>Uberの配車・配送プロダクト上で培われた体験設計を踏まえ、自動運転サービスに適用する。</li>
+<li>予約型サービス（Reserve）など既存機能との連携</li>
+<li>共有型サービス（Share）との組み合わせ</li>
+<li>車内体験設計</li>
+<li>カスタマーサポート対応</li>
+</ul>
+<p>自動運転車両そのものだけでなく、利用者が実際に使う際のアプリ体験やサポート体制を含めた設計が対象となる。</p>
+<h3>3. Fleet Operations（フリート運用）</h3>
+<ul>
+<li>運用面では以下の機能が含まれる。</li>
+<li>AV Mission Control（運行可視化・管制）</li>
+<li>Remote Assistance（遠隔支援）</li>
+<li>保険（insurance）などの運用支援</li>
+</ul>
+<p>実際の走行管理や異常対応、人による支援体制までを含め、商用運用に必要な周辺機能を束ねる構成となっている。</p>
+<h2>自社開発ではなく「パートナー支援」を前面に</h2>
+<p>発表資料では「partners」という語が繰り返し用いられており、Uber自身が自動運転技術を新たに開発するというよりも、パートナー企業の商用化を加速させる立場を明確にしている。</p>
+<p>配車（Uber）と配送（Uber Eats）の両領域を抱える同社が、自動運転モビリティおよび自動配送の導入に必要な基盤・体験・運用を一体化して提供する構図だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=uVDxmbNS2h4">YouTube</a></p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>X、自動返信を“召喚制”にAPI仕様を変更──近年急増のAIスパム対策で</title>
       <link>https://ledge.ai/articles/x_api_reply_restriction_ai_spam_countermeasure</link>
       <description><![CDATA[<p>Xは2026年2月24日（現地時間）、X API v2における返信機能の仕様を変更し、API経由での自動返信（programmatic replies）を制限したと<a href="https://x.com/XDevelopers/status/2026084506822730185">発表</a>した。背景には、大規模言語モデル（LLM）を用いた自動返信スパムの増加があるという。</p>
