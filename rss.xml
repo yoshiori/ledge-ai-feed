@@ -5,6 +5,46 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>日本語性能と推論力を両立した推論型LLM「GPT-OSS Swallow」「Qwen3 Swallow」公開──東京科学大・産総研が開発、オープンライセンスで提供</title>
+      <link>https://ledge.ai/articles/gpt_oss_qwen3_swallow_japanese_reasoning_llm_tokyo_science_aist</link>
+      <description><![CDATA[<p>東京科学大学 情報理工学院の岡崎研究室・横田研究室と、産業技術総合研究所（産総研）の研究チームは2026年2月20日、OpenAIのGPT-OSSをベースに日本語能力と思考力（推論）を強化した推論型大規模言語モデル「GPT-OSS Swallow」と、AlibabaのQwen3をベースに同様の強化を施した「Qwen3 Swallow」を<a href="https://swallow-llm.github.io/gptoss-swallow.ja.html">公開</a>した。両モデルはApache License 2.0で重みが公開され、商用利用を含めて利用可能としている。</p>
+<h2>GPT-OSS／Qwen3をベースに“日本語×推論”を強化</h2>
+<p>公開されたモデルは、既存のオープンモデルを基盤に、日本語性能と推論能力の両立を目指して再学習・強化学習を行った点が特徴だ。</p>
+<p>「GPT-OSS Swallow」は、OpenAIのGPT-OSSを基盤に構築。20Bおよび120Bの2系列を展開する。一方、「Qwen3 Swallow」はAlibabaのQwen3をベースに、8B、30B-A3B、32Bといった複数サイズを提供する。</p>
+<p>いずれもオープンウェイトで公開され、オンプレミス環境での実行や追加チューニングなどが可能だ。</p>
+<h2>継続事前学習＋SFT＋強化学習を再設計</h2>
+<p>岡崎氏は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習のプロセスを「全面刷新」したと説明する。</p>
+<p>公式ページによれば、GPT-OSS Swallowは</p>
+<ul>
+<li>継続事前学習（CPT）</li>
+<li>教師あり学習（SFT）</li>
+<li>検証可能報酬に基づく強化学習（RL）</li>
+</ul>
+<p>という段階を経て構築されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gptoss_123_abeedb325a/gptoss_123_abeedb325a.png" alt="gptoss-123.png" /></p>
+<p>Qwen3 Swallowについても同様にCPT、SFT、強化学習を適用しており、学習プロセスの進行に伴って日本語タスク性能が向上することを確認したとしている。</p>
+<h2>同規模以下のオープンLLMで最高性能と説明</h2>
+<p>公式ページでは、GPT-OSS Swallow 20Bおよび120Bが、総パラメータ数が同規模以下のオープンLLMと比較して、日本語・英語タスクの双方で最高性能を達成したと説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/noname_side_d421a00812/noname_side_d421a00812.jpg" alt="noname-side.jpg" /></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GPT_oss_Swallow_English_b8aa3c4dbe/GPT_oss_Swallow_English_b8aa3c4dbe.jpg" alt="GPT-oss Swallow English.jpg" /></p>
+<p>120Bモデルの日本語MT-Bench平均スコアは0.916に達したとされる。また20Bモデルも日本語タスクで高い平均スコアを示したとしている。</p>
+<p>Qwen3 Swallow 8Bおよび32Bも、同規模以下のオープンLLMと比較して日本語タスクで最高性能を達成したと説明されている。</p>
+<h2>量子化版とデータセットも公開</h2>
+<p>Qwen3 Swallowシリーズでは4bit量子化版も提供する。これにより、より小規模な計算資源での運用が可能となる。
+あわせて、複数のデータセットも公開された。</p>
+<ul>
+<li>Swallow-Nemotron-Post-Training-Dataset-v1</li>
+<li>LMSYS-Chat-1M-Synth（gpt-oss-120b由来の推論過程と応答を追加）</li>
+<li>s1-test-time-scaling-synth（日本語・英語の強化学習データセット）</li>
+</ul>
+<p>これらは推論型モデルの模倣学習や事後学習に活用できるとしている。</p>
+<h2>オープンライセンスでの提供</h2>
+<p>両モデルはApache License 2.0で提供される。研究用途にとどまらず、商用利用や改変・再配布も可能なオープンライセンスである。
+公開ページおよびHugging Face上でモデル重みと関連データセットが配布されており、利用者はそれぞれの環境に応じてダウンロードおよび検証を行うことができる。</p>
+]]></description>
+      <pubDate>Wed, 25 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
       <link>https://ledge.ai/articles/openclaw_gemini_antigravity_usage_restrictions_202602</link>
       <description><![CDATA[<p>2026年2月13日以降、Googleの有料AIプラン利用者の間で、オープンフレームワーク「OpenClaw」を経由してGeminiモデルに接続した後、利用制限を受けたとする報告が相次いでいる。Googleの公式開発者フォーラムには、「<a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778">Account Restricted Without WARNING</a>」と題した投稿を含め、同様のアカウント停止や403エラーに関する複数の投稿が掲載されている。</p>
@@ -259,46 +299,6 @@
 <p>今後は、World Labsの世界モデル技術がどの分野にどのように実装されるのか、またAutodeskの製品群との具体的な連携がどのように進むのかが焦点となる。</p>
 <p>:::box
 [関連記事：AIの\</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本語性能と推論力を両立した推論型LLM「GPT-OSS Swallow」「Qwen3 Swallow」公開──東京科学大・産総研が開発、オープンライセンスで提供</title>
-      <link>https://ledge.ai/articles/gpt_oss_qwen3_swallow_japanese_reasoning_llm_tokyo_science_aist</link>
-      <description><![CDATA[<p>東京科学大学 情報理工学院の岡崎研究室・横田研究室と、産業技術総合研究所（産総研）の研究チームは2026年2月20日、OpenAIのGPT-OSSをベースに日本語能力と思考力（推論）を強化した推論型大規模言語モデル「GPT-OSS Swallow」と、AlibabaのQwen3をベースに同様の強化を施した「Qwen3 Swallow」を<a href="https://swallow-llm.github.io/gptoss-swallow.ja.html">公開</a>した。両モデルはApache License 2.0で重みが公開され、商用利用を含めて利用可能としている。</p>
-<h2>GPT-OSS／Qwen3をベースに“日本語×推論”を強化</h2>
-<p>公開されたモデルは、既存のオープンモデルを基盤に、日本語性能と推論能力の両立を目指して再学習・強化学習を行った点が特徴だ。</p>
-<p>「GPT-OSS Swallow」は、OpenAIのGPT-OSSを基盤に構築。20Bおよび120Bの2系列を展開する。一方、「Qwen3 Swallow」はAlibabaのQwen3をベースに、8B、30B-A3B、32Bといった複数サイズを提供する。</p>
-<p>いずれもオープンウェイトで公開され、オンプレミス環境での実行や追加チューニングなどが可能だ。</p>
-<h2>継続事前学習＋SFT＋強化学習を再設計</h2>
-<p>岡崎氏は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習のプロセスを「全面刷新」したと説明する。</p>
-<p>公式ページによれば、GPT-OSS Swallowは</p>
-<ul>
-<li>継続事前学習（CPT）</li>
-<li>教師あり学習（SFT）</li>
-<li>検証可能報酬に基づく強化学習（RL）</li>
-</ul>
-<p>という段階を経て構築されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gptoss_123_abeedb325a/gptoss_123_abeedb325a.png" alt="gptoss-123.png" /></p>
-<p>Qwen3 Swallowについても同様にCPT、SFT、強化学習を適用しており、学習プロセスの進行に伴って日本語タスク性能が向上することを確認したとしている。</p>
-<h2>同規模以下のオープンLLMで最高性能と説明</h2>
-<p>公式ページでは、GPT-OSS Swallow 20Bおよび120Bが、総パラメータ数が同規模以下のオープンLLMと比較して、日本語・英語タスクの双方で最高性能を達成したと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/noname_side_d421a00812/noname_side_d421a00812.jpg" alt="noname-side.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GPT_oss_Swallow_English_b8aa3c4dbe/GPT_oss_Swallow_English_b8aa3c4dbe.jpg" alt="GPT-oss Swallow English.jpg" /></p>
-<p>120Bモデルの日本語MT-Bench平均スコアは0.916に達したとされる。また20Bモデルも日本語タスクで高い平均スコアを示したとしている。</p>
-<p>Qwen3 Swallow 8Bおよび32Bも、同規模以下のオープンLLMと比較して日本語タスクで最高性能を達成したと説明されている。</p>
-<h2>量子化版とデータセットも公開</h2>
-<p>Qwen3 Swallowシリーズでは4bit量子化版も提供する。これにより、より小規模な計算資源での運用が可能となる。
-あわせて、複数のデータセットも公開された。</p>
-<ul>
-<li>Swallow-Nemotron-Post-Training-Dataset-v1</li>
-<li>LMSYS-Chat-1M-Synth（gpt-oss-120b由来の推論過程と応答を追加）</li>
-<li>s1-test-time-scaling-synth（日本語・英語の強化学習データセット）</li>
-</ul>
-<p>これらは推論型モデルの模倣学習や事後学習に活用できるとしている。</p>
-<h2>オープンライセンスでの提供</h2>
-<p>両モデルはApache License 2.0で提供される。研究用途にとどまらず、商用利用や改変・再配布も可能なオープンライセンスである。
-公開ページおよびHugging Face上でモデル重みと関連データセットが配布されており、利用者はそれぞれの環境に応じてダウンロードおよび検証を行うことができる。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
@@ -648,29 +648,6 @@
 <p>今回の当面制限は、モデル公開後に拡大した国際的な議論の中で示された対応となる。動画生成AIをめぐっては、実在人物や既存IPの取り扱いをどう設計するかが、引き続き焦点となっている。</p>
 ]]></description>
       <pubDate>Wed, 18 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>拡大するLLM学習の「蒸留」論点──OpenAIは米議会に警告、Googleは抽出攻撃を報告</title>
-      <link>https://ledge.ai/articles/expanding_distillation_debate_openai_congress_warning_google_extraction_attacks</link>
-      <description><![CDATA[<p>OpenAIが2026年2月12日、米下院の下院中国問題特別委員会に覚書を提出し、中国のAI企業DeepSeekによる「蒸留（distillation）」手法を問題視していたことが明らかになった。<a href="https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge">Bloomberg</a>が同日報じた。翌13日には、GoogleのGoogle脅威インテリジェンスグループ（GTIG）が、モデル抽出を伴う「蒸留攻撃（distillation attacks）」の増加を報告している。</p>
-<p>同じ「distillation」という語が、競争（モデル開発）と防御（抽出攻撃）という異なる文脈で相次いで言及された格好だ。</p>
-<h2>OpenAI、DeepSeekの蒸留を問題視</h2>
-<p>Bloombergが入手した覚書によると、OpenAIはDeepSeekがチャットボット「R1」の開発にあたり、米国の主要AIモデルの出力を抽出する「不公平かつ洗練された手法」を用いていると指摘した。文書は2026年2月12日付で、下院中国問題特別委員会に提出された。</p>
-<p>覚書では、他社モデルの出力を体系的に収集し、それを新たなモデルの訓練に活用する行為が、競争環境や知的財産保護、国家安全保障の観点から懸念を生じさせる可能性があると説明している。DeepSeek側の公式見解は現時点で公表されていない。</p>
-<h2>Google、蒸留攻撃（Model Extraction Attacks）の増加を報告</h2>
-<p>一方、Googleは2026年2月13日、GTIG名義でレポート「GTIG AI Threat Tracker」を<a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use?hl=en">公開</a>した。レポートでは、正規のAPIアクセスを利用してモデルの応答を体系的に収集し、新たなモデルを構築する「モデル抽出攻撃（Model Extraction Attacks）」、いわゆる「蒸留攻撃」が増加していると報告している。</p>
-<p>GTIGは、こうした行為を知的財産の侵害に当たる可能性があるものと位置付け、検知・遮断措置を講じていると説明した。また、2025年中に高度持続的脅威（APT）によるフロンティアモデルへの直接攻撃は確認していないとしつつも、研究者や民間企業による抽出試行を観測し、対策を講じたとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb/gtig_ai_threat_tracker_feb26_fig1_max_1500x1500_484adc1deb.jpg" alt="gtig-ai-threat-tracker-feb26-fig1.max-1500x1500.jpg" /></p>
-<p>図は、GTIGが説明するモデル抽出攻撃の一般的構造を示したものだ。正規のAPIを通じて「教師モデル」に問い合わせを行い、その応答を用いて「学生モデル」を訓練する流れが図示されている。</p>
-<h2>蒸留とは何か──正規技術と抽出攻撃の境界</h2>
-<p>蒸留（knowledge distillation）は、既存の高性能モデル（教師モデル）の出力を利用して、より小型または効率的なモデル（学生モデル）を訓練する機械学習手法である。モデル圧縮や推論効率の向上を目的として広く研究・実装されてきた。</p>
-<p>一方で、他社が提供する商用モデルの出力を無断で抽出し、新モデル開発に活用する場合には、利用規約違反や知的財産侵害の問題が生じ得る。GTIGは、こうした行為を「distillation attacks」と定義している。</p>
-<p>OpenAIが議会に提出した覚書と、Googleが報告した抽出攻撃はいずれも「蒸留」という語を含むが、前者は国際競争の文脈、後者はサービス防御の文脈で語られている点が異なる。</p>
-<h2>競争と防御で同時に拡大する蒸留論点</h2>
-<p>今回の動きは、蒸留が単なる効率化技術にとどまらず、競争戦略や知的財産保護、安全保障といった領域に波及していることを示している。</p>
-<p>OpenAIの覚書は、モデル間競争の観点から蒸留の問題を提起し、Googleのレポートは、抽出攻撃への対策強化を示した。AIモデルの高度化と普及が進む中で、蒸留を巡る議論は、開発と防御の両面で拡大している。</p>
-]]></description>
-      <pubDate>Tue, 17 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
