@@ -263,41 +263,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Gemini 3.1 Pro、ARC-AGI-2で77.1%──“Deep Think級推論”を一般提供へ</title>
-      <link>https://ledge.ai/articles/gemini_3_1_pro_arc_agi_2_77_1_deep_think_general_release</link>
-      <description><![CDATA[<p>Googleは2026年2月19日（現地時間）、同社の大規模言語モデル「Gemini」シリーズの最新モデル「Gemini 3.1 Pro」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/">発表</a>した。Googleは同モデルを「複雑問題解決の新たなベースライン」と位置づけ、研究モデル「Gemini 3 Deep Think」と同じコア知能を実務用途向けにスケールしたものだと説明している。同日よりコンシューマー向けアプリから開発者向けAPI、エンタープライズ向け基盤まで順次ロールアウトを開始した。</p>
-<h2>「複雑問題解決の新ベースライン」と位置付け</h2>
-<p>発表の中でGoogleは、Gemini 3.1 Proを「<a href="https://x.com/Google/status/2024519460124565987">our new baseline for complex problem-solving</a>（複雑な問題解決の新たな基準）」と表現した。</p>
-<p>同社によれば、Gemini 3.1 ProはGemini 3 Deep Thinkと同じコア知能を備えつつ、より実務的な用途に適したスケールへ最適化されたモデルだという。研究用途に限定されていた推論能力を、より広範な利用層に開放する位置づけとなる。</p>
-<h2>ARC-AGI-2で77.1%──3 Proから2倍超</h2>
-<p>今回の発表で注目されるのは、抽象推論ベンチマーク「ARC-AGI-2」におけるスコアだ。</p>
-<p>DeepMindが公開した評価結果によれば、Gemini 3.1 ProはARC-AGI-2で77.1%を記録した（ARC Prize Verified）。前世代のGemini 3 Pro（31.1%）から大幅に向上している。</p>
-<p>ARC-AGI-2は、未知の論理パターンを解く能力を測定するベンチマークで、単純な知識検索では対応しにくい抽象推論を評価するものとされる。</p>
-<p>比較対象として公表されている数値では、Claude Opus 4.6が68.8%、GPT-5.2が52.9%となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Bi_Fhy_Xs_AA_06bm_051b6fe276/H_Bi_Fhy_Xs_AA_06bm_051b6fe276.jpg" alt="HBiFhy-XsAA06bm.jpg" /></p>
-<h2>Humanity’s Last Examでもトップ帯</h2>
-<p>総合的な知識と推論能力を測るベンチマーク「Humanity’s Last Exam」では、Gemini 3.1 Proは44.4%を記録している。同条件での比較では、Claude Sonnet 4.6が40.0%、GPT-5.2が34.5%となっており、Gemini 3.1 Proはトップ帯に位置している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_1_pro_benchmarks_07e69cf448/gemini_3_1_pro_benchmarks_07e69cf448.jpg" alt="gemini_3-1-pro__benchmarks.jpg" /></p>
-<h2>SWE-bench Verified 80.6%──実務性能は維持</h2>
-<p>ソフトウェア開発能力を測定する「SWE-bench Verified」では、Gemini 3.1 Proは80.6%を記録した。</p>
-<p>Claude Opus 4.6の80.8%とほぼ同水準であり、抽象推論ベンチマークでの大幅な向上と同時に、実務的なコーディング性能も維持していることが示されている。</p>
-<h2>デモ事例：ISS追跡から3D群れシミュレーションまで</h2>
-<p>Googleは、Gemini 3.1 Proのデモ事例を複数紹介している。</p>
-<ul>
-<li>公開APIを用いた国際宇宙ステーション（ISS）のリアルタイム追跡ダッシュボード構築</li>
-<li>テキストプロンプトからのアニメーションSVG生成</li>
-<li>手の動きに反応するインタラクティブ3Dスターリング（ムクドリ）群れシミュレーション</li>
-<li>小説『嵐が丘』の雰囲気を反映したポートフォリオUIの生成</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/animated_SV_Gs_35d6721955/animated_SV_Gs_35d6721955.jpg" alt="animated SVGs.jpg" /></p>
-<p>モデルのコード生成や構造表現の品質を手早く比較する題材として、開発者コミュニティでしばしば用いられてきた「自転車に乗るペリカン」のアニメーションSVG生成も取り上げられている。Googleは「アニメーションSVGで自転車に乗るペリカンを生成せよ」というプロンプトを用い、Gemini 3 ProとGemini 3.1 Proの生成結果を並べて提示した。</p>
-<p>公開された比較画像では、Gemini 3 Proの生成例では自転車のペダルは回転しているものの、ペリカンの脚はペダル動作と連動していない。一方、Gemini 3.1 Proの生成例では、脚がペダルに正しく配置され、動きと連動している様子が確認できる。</p>
-<h2>提供範囲</h2>
-<p>Gemini 3.1 Proは、発表同日より段階的に提供が開始される。コンシューマー向けにはGemini AppおよびNotebookLMで利用可能となる。開発者向けには、Gemini APIのプレビュー版として提供され、Google AI StudioやGemini CLI、Android Studioなどの開発環境からアクセスできる。さらに、企業向けにはVertex AIおよびGemini Enterpriseを通じて導入可能とされている。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日本語性能と推論力を両立した推論型LLM「GPT-OSS Swallow」「Qwen3 Swallow」公開──東京科学大・産総研が開発、オープンライセンスで提供</title>
       <link>https://ledge.ai/articles/gpt_oss_qwen3_swallow_japanese_reasoning_llm_tokyo_science_aist</link>
       <description><![CDATA[<p>東京科学大学 情報理工学院の岡崎研究室・横田研究室と、産業技術総合研究所（産総研）の研究チームは2026年2月20日、OpenAIのGPT-OSSをベースに日本語能力と思考力（推論）を強化した推論型大規模言語モデル「GPT-OSS Swallow」と、AlibabaのQwen3をベースに同様の強化を施した「Qwen3 Swallow」を<a href="https://swallow-llm.github.io/gptoss-swallow.ja.html">公開</a>した。両モデルはApache License 2.0で重みが公開され、商用利用を含めて利用可能としている。</p>
