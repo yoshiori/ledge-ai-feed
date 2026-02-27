@@ -154,6 +154,63 @@
       <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、AIの「使いこなし力」を可視化する指標「AI Fluency Index」を公表──今後は単なる導入率からAI流暢性重視に</title>
+      <link>https://ledge.ai/articles/ai_fluency_index_anthropic_education_report_20260223</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日、「Anthropic Education Report: The AI Fluency Index」を<a href="https://www.anthropic.com/research/AI-fluency-index">公開</a>した。AIの利用拡大が進むなか、単なる“導入率”ではなく、「AIをどれだけ適切に使いこなせているか」を測る新たな指標として「AI Fluency Index（AI流暢性指数）」を提示した。</p>
+<p>同社は、AIの社会実装が急速に進む一方で、「利用が広がること」と「適切に使えること」は別問題だと指摘。AIと協働する際の行動特性を定量化し、今後の変化を追跡するためのベースラインを示した。</p>
+<h2>24の行動指標から“流暢性”を定義</h2>
+<p>AI Fluency Indexは、リック・ダカン氏とジョセフ・フェラー氏が開発し、Anthropicと共同で整理した「4D AI Fluency Framework」に基づくものだ。</p>
+<p>同フレームワークでは、AIとの安全かつ効果的な協働を示す行動を24項目に分類。このうち、Claude.ai上の会話から直接観測可能な11項目を今回の分析対象とした。</p>
+<p>分析対象は、2026年1月の7日間に行われたClaude.ai上の9,830件の複数ターン会話。プライバシー保護型の分析ツールを用い、各会話において11の行動が「見られたか否か」を二値分類で測定した。言語別・曜日別の検証では、大きな偏りは確認されなかったという。</p>
+<p><strong>■ 図1：9,830件のClaude.ai会話におけるAI流暢性行動の出現率。反復・改善が最も多く、事実確認は最少水準</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd.webp" alt="cf98cd90972577bf4dd6457682d9ee82cbf2b858-3840x2160.webp" /></p>
+<h2>反復・改善を伴う対話は“流暢性”が高い</h2>
+<p>分析の結果、最も顕著だったのは「反復と改善（iteration and refinement）」と他の流暢性行動との強い相関だ。調査対象の85.7％の会話が、最初の回答を受け入れて終わるのではなく、やり取りを重ねて内容を洗練させる形式を取っていた。</p>
+<p>こうした反復型の会話では、
+・平均で2.67件の追加的な流暢性行動が確認され、
+・非反復型（平均1.33件）の約2倍となった。</p>
+<p>特に顕著だったのは、
+・AIの推論を問い直す行動（5.6倍）
+・前提や文脈の不足を指摘する行動（4倍）
+など、評価・検証に関わる行動の増加である。Anthropicは、AIを“思考パートナー”として扱う対話形式が、流暢性の最も一般的な形態であると分析している。</p>
+<p><strong>■ 図2：反復・改善を伴う会話と伴わない会話の比較。評価・検証関連行動が大幅に増加している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02.webp" alt="995a58d356ab28738abc3c1313296b298e4b77dc-1920x1080.webp" /></p>
+<h2>成果物生成時は「指示は増えるが、検証は減る」</h2>
+<p>一方で、アプリやコード、文書などの「成果物（artifact）」を生成する会話（全体の12.3％）では、異なる傾向が見られた。</p>
+<p><strong>■ 図3：成果物生成を含む会話では、目標明確化や形式指定は増加する一方、事実確認や推論検証は減少</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139.webp" alt="3aa718781064a7d8638ed684cec97e6903921e3c-1920x1080.webp" /></p>
+<p>これらの会話では、
+・目的の明確化（+14.7pp）
+・形式指定（+14.5pp）
+・具体例提示（+13.4pp）
+・反復（+9.7pp）
+など、AIに対する指示や委任に関わる行動が増加していた。</p>
+<p>しかし同時に、
+・不足文脈の指摘（-5.2pp）
+・事実確認（-3.7pp）
+・推論過程の確認（-3.1pp）
+といった評価・検証行動は低下していた。</p>
+<p>Anthropicは、外見上完成度の高い成果物が生成されると、追加的な検証を行わずに受容される可能性があると指摘。高度化するAIにおいて、成果物の評価能力はむしろ重要性を増すと述べている。</p>
+<h2>今後の研究計画</h2>
+<p>今回の研究はベースライン測定であり、今後は以下の拡張を予定しているという。
+・新規ユーザーと熟練ユーザーの比較（コホート分析）
+・チャット外で行われる倫理・責任関連行動の質的調査
+・反復促進が検証行動を高めるかなどの因果分析
+・開発者向けプラットフォーム「Claude Code」での検証</p>
+<h2>制約と留意点</h2>
+<p>Anthropicは同研究の限界も明示。
+・対象は1週間・Claude.ai利用者に限定
+・24項目中11項目のみ観測
+・行動は「有無」の二値分類
+・対話外での検証行動は把握不可
+・相関関係であり因果関係は不明
+同社は、AI Fluency Indexを「普遍的な評価基準」ではなく、早期利用者層における基準値として位置付けている。</p>
+<h2>AI成熟度の可視化へ</h2>
+<p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「他人の脳波が読める」？──Kickstarter入手のスマートアイマスクに深刻な通信設計問題</title>
       <link>https://ledge.ai/articles/brainwave_sleep_mask_vulnerability_kickstarter_mqtt_issue</link>
       <description><![CDATA[<p>AIエンジニアのAimilios Chatzistamou氏は2026年2月12日、自身がクラウドファンディングサイトのKickstarterで購入した中国製のスマート睡眠マスクにおいて、通信設計上の重大な脆弱性を発見したと報告した。解析の結果、他人の脳波（EEG）データをリアルタイムで受信できる可能性があるほか、理論上は電気刺激機能にコマンドを送信できる構造だったという。</p>
@@ -237,22 +294,6 @@
 <p>公開された比較画像では、Gemini 3 Proの生成例では自転車のペダルは回転しているものの、ペリカンの脚はペダル動作と連動していない。一方、Gemini 3.1 Proの生成例では、脚がペダルに正しく配置され、動きと連動している様子が確認できる。</p>
 <h2>提供範囲</h2>
 <p>Gemini 3.1 Proは、発表同日より段階的に提供が開始される。コンシューマー向けにはGemini AppおよびNotebookLMで利用可能となる。開発者向けには、Gemini APIのプレビュー版として提供され、Google AI StudioやGemini CLI、Android Studioなどの開発環境からアクセスできる。さらに、企業向けにはVertex AIおよびGemini Enterpriseを通じて導入可能とされている。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.2が理論物理の新しい公式候補を提案と検証　グルーオンの「single-minusツリー振幅」に関する結果を発表</title>
-      <link>https://ledge.ai/articles/gpt_5_2_supports_theoretical_physics_single_minus_amplitude</link>
-      <description><![CDATA[<p>OpenAIは2026年2月13日、同社のAIモデル「GPT-5.2」が理論物理学の研究において数式の一般化を支援し、公式の候補の提案とその検証が行われたと<a href="https://openai.com/ja-JP/index/new-result-theoretical-physics/">発表</a>した 。対象となったのは、素粒子物理学における散乱振幅（scattering amplitude）の研究で、強い相互作用を媒介する素粒子グルーオン（gluon）の振る舞いに関するものだ。</p>
-<p>プレプリント「Single-minus gluon tree amplitudes are nonzero」によれば、グルーオン同士の運動量が特別な関係を満たす場合に、通常はゼロとされてきた single-minus のツリー振幅（tree-level amplitude）が非ゼロとなる可能性が示されている。</p>
-<h2>single-minus ツリー振幅とは</h2>
-<p>複数のグルーオンが関与する散乱では、それぞれのグルーオンが持つヘリシティ（進行方向に対するスピンの向き）の組み合わせによって振幅の性質が変わる。多数のグルーオンのうち1つだけが負のヘリシティを持つ場合は single-minus と呼ばれ、この場合のツリー振幅は、特別な関係を満たさない運動量のもとではゼロになるとされてきた。</p>
-<p>研究では、グルーオンの運動量が著者らのいう half-collinear と呼ばれる特定の関係を満たす場合に、この結論が必ずしも成り立たない可能性が示されている。</p>
-<h2>AIによる公式候補の提案と検証</h2>
-<p>研究プロセスにおいて、研究チームはまず少数粒子の場合の振幅を計算し、その結果をもとにGPT-5.2が一般の粒子数に対する公式の候補を提案した。その後、Berends-Giele漸化式やソフト定理などの既存の理論的条件と整合することが確認されたと報告している。</p>
-<h2>今後の展望</h2>
-<p>研究はプレプリントとして公開されており、今後コミュニティによる検証が進むとみられる。研究チームは、この結果を他の振幅へ拡張する可能性についても言及している。</p>
-<p>今回の事例は、AIが理論物理学の研究過程において数式の探索を支援した例の一つといえる。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
