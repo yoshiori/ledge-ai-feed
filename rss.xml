@@ -386,6 +386,23 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Meta、AMDと長期契約でAIインフラ強化──最大6GW相当の「Instinct」GPUを導入</title>
+      <link>https://ledge.ai/articles/meta_amd_longterm_ai_infrastructure_6gw_instinct</link>
+      <description><![CDATA[<p>Metaは2026年2月24日（米国時間）、半導体大手のAdvanced Micro Devices（AMD）と長期のAIインフラ契約を締結し、最大6ギガワット（GW）相当の「AMD Instinct」GPUを導入すると<a href="https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/">発表</a>した。自社のAI基盤を拡張し、大規模モデルの開発およびサービス提供能力を強化するねらいだ。</p>
+<p>Metaの公式発表によれば、今回の契約は同社のAIインフラ拡充の一環であり、AMDのデータセンター向けアクセラレータ「Instinct」シリーズを複数年にわたり導入する。導入規模は最大6GW相当とされ、GPU調達を電力規模で示すかたちとなっている。</p>
+<p>一方、AMDの発表では、両社が「複数年・複数世代（multi-year, multi-generation）」にわたる戦略的パートナーシップで合意したと説明。シリコン、システム、ソフトウェアを横断する形でロードマップを連携し、MetaのAIワークロード拡張を支援するとしている。2026年後半からの立ち上がりが見込まれている。</p>
+<h2>導入対象はInstinctシリーズ</h2>
+<p>AMDの「Instinct」シリーズは、生成AIや大規模言語モデル（LLM）の学習および推論を想定したデータセンター向けGPUアクセラレータ。高帯域幅メモリ（HBM）を搭載し、大規模並列演算に対応する設計が特徴とされる。</p>
+<p><a href="https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html">AMDのリリース</a>では、今後の世代を含めたInstinct GPUの提供に加え、ラックスケール構成やEPYCプロセッサとの組み合わせなど、データセンター全体のアーキテクチャを視野に入れた協業に言及している。</p>
+<h2>ワラントも発行、最大1億6,000万株を付与</h2>
+<p>AMDは公式リリースの中で、Metaに対し、最大1億6,000万株のAMD普通株式を対象とする業績連動型ワラントを発行したと明らかにした。条件達成に応じて権利が確定する構造で、今回の契約が複数年にわたる戦略的パートナーシップであることを示す内容となっている。</p>
+<h2>AIインフラ投資が加速</h2>
+<p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
+<p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>MetaとNVIDIA、数百万規模のBlackwell/Rubin GPU導入へ──複数世代に及ぶ長期インフラ提携</title>
       <link>https://ledge.ai/articles/meta_nvidia_multiyear_infrastructure_blackwell_rubin_gpu</link>
       <description><![CDATA[<p>MetaとNVIDIAは2026年2月17日、複数年にわたる長期的なインフラパートナーシップを<a href="https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia?ncid=so-twit-566885">発表</a>した。MetaはAI最適化データセンターの拡張に向け、数百万規模のNVIDIA BlackwellおよびRubin GPUを導入する方針を明らかにした。契約は複数世代にまたがる枠組みで、CPU、ネットワーク、機密計算まで含むフルスタック連携が特徴となる。</p>
