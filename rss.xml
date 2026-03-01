@@ -326,30 +326,17 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>日本法人アイロボットジャパンが「Roomba Mini」発表──従来比約2分の1、中国企業傘下入り後初の新モデル</title>
-      <link>https://ledge.ai/articles/irobot_japan_roomba_mini_half_size_restructuring</link>
-      <description><![CDATA[<p>アイロボットジャパンは2026年2月19日、体積が従来機の約2分の1となるロボット掃除機「Roomba Mini（ルンバ ミニ）」2モデルを<a href="https://www.irobot-jp.com/press/pdf/20260219.pdf">発表</a>した。発売は、「Roomba Mini 掃除機＆床拭きロボット + AutoEmpty 充電ステーション」が2月27日、「Roomba Mini Slim 掃除機＆床拭きロボット + SlimCharge 充電スタンド」が4月6日より順次開始される。</p>
-<p>米本社であるiRobotはこれまで経営再建のプロセスに入り、中国企業傘下での新体制へ移行している。今回の「Roomba Mini」は、その再建局面において日本法人が打ち出した新モデルとなる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gylzOhHj9WE">YouTube</a>
-　　</p>
-<h2>従来比約2分の1、世界最小クラス</h2>
-<p>発表によれば、「Roomba Mini」は本体サイズが幅24.5cm×奥行24.5cm×高さ9.2cm、重量約2.0kg。従来機「Roomba Combo 105」との体積比較で約2分の1とされる。</p>
-<p>同社は、本製品を“世界最小クラス（国内市場最小）”の水拭き機能付きロボット掃除機と位置づける。日本のコンパクトな住環境を想定して開発され、日本で先行発売される。</p>
-<p>設置面積についても、「AutoEmpty」モデルでは従来比約33％削減、「SlimCharge」モデルでは縦置き設置により約85％削減したとする。</p>
-<p><strong>「Roomba Mini + AutoEmpty 充電ステーション」（左）と、縦置き可能な「Roomba Mini Slim + SlimCharge 充電スタンド」（右）。設置面積の削減が特徴</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/function_point03_image02_side_69017016ee/function_point03_image02_side_69017016ee.jpg" alt="function_point03_image02-side.jpg" /></p>
-<h2>小型でも吸引力は約70倍</h2>
-<p>小型化と同時に清掃性能も強化された。国内累計出荷台数トップの「Roomba 600シリーズ」との比較で、パワーリフト吸引は約70倍に向上したという。</p>
-<p>さらに、ClearView LiDARを搭載し、約10分で室内をマッピング。障害物を検知・回避しながら走行する。使い捨て床拭きシートを装着することで水拭きモードに切り替わり、水拭き中はラグを自動回避する設計となっている。</p>
-<p>Wi-Fi環境がなくても本体ボタンで清掃を開始できる点も特徴として挙げられている。</p>
-<h2>2モデル展開、価格は39,800円から</h2>
-<p>展開は2モデル。
-「Roomba Mini + AutoEmpty 充電ステーション」は税込49,800円。約3か月分のゴミを収集可能な自動ゴミ収集機能を備える。カラーは白、黒、桜、若葉の4色で、桜と若葉は3月13日発売。
-「Roomba Mini Slim + SlimCharge 充電スタンド」は税込39,800円。縦置き可能な充電スタンドを採用し、白と黒の2色展開。発売日は4月6日。</p>
-<p>両モデルとも全国のアイロボット認定販売店および公式オンラインストアで販売される。</p>
-<h2>日本法人主導の開発</h2>
-<p>「Roomba Mini」は日本法人の発案により開発されたモデルで、日本で先行発売される。代表執行役員社長の山田毅氏は、「小さくてもパワフルな一台をきっかけに、より多くの方に掃除をルンバに任せる“時産体験”をしていただきたい」とコメントしている。</p>
-<p>2002年のルンバ発売以来、ロボット掃除機市場を創出してきた同社は、経営再建の局面を経て新体制に移行している。今回発表された「Roomba Mini」は、その中で日本法人が打ち出した小型化モデルとなる。</p>
+      <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
+      <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
+      <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
+<p>同社はブログ記事「Prevention is a losing game. Resilience is the winning play」の中で、メキシコの税務当局を含む少なくとも9つの政府機関が影響を受けたと説明。抽出されたデータには、195 million identities、詳細な税務記録、1550万件の車両登録情報（ナンバープレート、氏名、納税者ID、住所）、360万件の不動産所有者記録、さらに追加の不動産関連記録などが含まれるとしている。</p>
+<h2>1,000超のAIプロンプトを使用、約40分でガードレール回避と説明</h2>
+<p>Gambitによれば、攻撃は国家主体ではなく少人数のグループによって実行されたという。攻撃者は1,000以上のAIプロンプトを用い、脆弱性の探索、データ抽出ツールの構築、防御の回避、権限昇格、バックドア設置、横展開の実行、さらには取得データの分析までを行ったと説明している。</p>
+<p>また、当初はAIのガードレールにより要求が拒否されたものの、約40分で回避し、自身を正規のペネトレーションテスターであるかのように装ったとしている。さらに、収集した情報は別のAIプラットフォームにも渡され、データ分析に利用されたと記載している。</p>
+<p>同社の<a href="https://www.linkedin.com/posts/gambitsecurity_the-recent-mexican-government-breach-one-activity-7433167000480374784-gdvq">LinkedIn</a>でも「Claude was exploited to steal sensitive Mexican data」「150GB」「195M taxpayer records」などと投稿し、今回の事案を「政府分野で最大級の侵害の一つ」と表現している。</p>
+<p>攻撃経路と手法に関する完全な技術レポートは「責任ある情報開示（responsible disclosure）」後に公開するとしており、現時点では概要のみを公表。侵害の詳細については<a href="https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data">Bloomberg</a>が、攻撃者がClaudeを利用して侵入プロセスを効率化したと報じている。</p>
+<h2>メキシコ当局は侵害を否定</h2>
+<p>一方、メキシコの選挙管理当局<a href="https://centralelectoral.ine.mx/2026/02/26/rechaza-ine-vulneracion-a-sus-bases-de-datos/">INE</a>は2月26日、自組織のデータベースが侵害されたとの見方を否定し、技術検証の結果、不正アクセスや情報持ち出しは確認されていないと発表した。また、税務当局<a href="https://www.gob.mx/sat/prensa/tarjeta-informativa-6-420283?idiom=es">SAT</a>も同様に、不正アクセスや異常挙動は確認されていないとの趣旨の情報を公表している。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
