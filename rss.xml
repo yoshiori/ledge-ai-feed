@@ -326,30 +326,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>フェイフェイ・リー氏のWorld Labsが10億ドル調達、「空間知能」構築へ──CAD大手のAutodeskは2億ドル投資、3D世界モデル「Marble」推進</title>
-      <link>https://ledge.ai/articles/fei_fei_li_world_labs_10b_spatial_intelligence_autodesk_2b_marble</link>
-      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2026年2月18日（現地時間）、新たに10億ドル（約1500億円）を調達したと公式ブログで<a href="https://www.worldlabs.ai/blog/funding-2026">発表</a>した。同社は、コンピュータビジョン研究の第一人者であるFei-Fei Li氏が率いる企業として知られる。</p>
-<p>あわせて、米設計ソフト大手のAutodeskは同日、World Labsに2億ドルを戦略投資し、戦略アドバイザーとして参画すると発表した。両社は、3次元空間を理解・生成できるAI基盤の構築に向け、研究・モデルレベルで協業を進める。</p>
-<h2>10億ドル調達、投資家にNVIDIAやAMDなど</h2>
-<p>World Labsの発表によれば、今回の資金調達ラウンドにはAMD、Autodesk、Emerson Collective、Fidelity Management &amp; Research Company、NVIDIA、Seaなどが参加した。調達資金は、同社が掲げる「spatial intelligence（空間知能）」の開発を加速するために用いられる。</p>
-<p>同社は、従来の大規模言語モデル（LLM）が主にテキストを扱うのに対し、物理世界を前提としたAIには「空間」「構造」「物理」「時間」といった要素を理解する能力が不可欠だと位置付けている。World Labsは、こうした能力を備えた「world models（世界モデル）」の構築を目指すと説明している。</p>
-<h2>Autodeskが2億ドルを戦略投資、研究段階から連携</h2>
-<p><a href="https://adsknews.autodesk.com/en/news/autodesk-invests-in-world-labs/">Autodesk</a>はこの日、World Labsへ2億ドルを投資し、戦略アドバイザーとして密接に協業すると明らかにした。同社は、建築・製造・エンジニアリング分野の顧客にとって、3D空間や物理法則を理解するAIの重要性が高まっていると説明している。</p>
-<p>両社の協業は、製品統合の即時発表という形ではなく、研究・モデルレベルでの連携から始まる。Autodeskは、設計・製造のワークフローにおいて、空間的推論が可能なAIの必要性を強調している。</p>
-<h2>3D世界モデル「Marble」とは何か</h2>
-<p>World Labsは、同社の最初のプロダクトとして「<a href="https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release">Marble</a>」を挙げている。発表によれば、Marbleは画像、動画、テキストから「空間的に整合した高精細で永続的な3D世界」を生成できるとされる。</p>
-<p>同社は、このような世界モデルがストーリーテリング、創造活動、ロボティクス、科学的発見など幅広い用途に応用可能だとしている。ただし、今回の発表時点では、具体的な商用展開の時期や統合先製品については明示されていない。</p>
-<p>@<a href="https://www.youtube.com/watch?v=MPUdY6WSapw">YouTube</a></p>
-<h2>「言語」から「世界」へ──物理世界AIへのシフト</h2>
-<p>Autodeskの発表では、AIが言語処理を超えて、幾何学、物理、ダイナミクスといった世界の構造そのものを扱う段階へ進む必要性が示されている。World Labsも、空間知能の実現を次のフロンティアと位置付けている。</p>
-<p>10億ドル規模の資金調達と、設計ソフト大手による2億ドルの戦略投資は、生成AIの潮流がテキスト中心の応用から、3D世界を直接扱う「物理世界AI」へと拡張しつつあることを示す動きとなる。</p>
-<p>今後は、World Labsの世界モデル技術がどの分野にどのように実装されるのか、またAutodeskの製品群との具体的な連携がどのように進むのかが焦点となる。</p>
-<p>:::box
-[関連記事：AIの\</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日本法人アイロボットジャパンが「Roomba Mini」発表──従来比約2分の1、中国企業傘下入り後初の新モデル</title>
       <link>https://ledge.ai/articles/irobot_japan_roomba_mini_half_size_restructuring</link>
       <description><![CDATA[<p>アイロボットジャパンは2026年2月19日、体積が従来機の約2分の1となるロボット掃除機「Roomba Mini（ルンバ ミニ）」2モデルを<a href="https://www.irobot-jp.com/press/pdf/20260219.pdf">発表</a>した。発売は、「Roomba Mini 掃除機＆床拭きロボット + AutoEmpty 充電ステーション」が2月27日、「Roomba Mini Slim 掃除機＆床拭きロボット + SlimCharge 充電スタンド」が4月6日より順次開始される。</p>
@@ -577,6 +553,38 @@
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
 <p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
 <p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
+      <link>https://ledge.ai/articles/perch2_bird_trained_ai_whale_dolphin_high_accuracy</link>
+      <description><![CDATA[<p>Google DeepMindが開発した生物音響基盤モデル「Perch 2.0」が、主に鳥類など陸生生物の鳴き声で事前学習されているにもかかわらず、クジラやイルカといった海洋哺乳類の分類タスクでも高い性能を示したことが分かった。研究成果は未査読論文としてarXivで<a href="https://arxiv.org/abs/2512.03219">公開</a>されている。</p>
+<h2>鳥類中心で事前学習された生物音響基盤モデル</h2>
+<p>Perch 2.0は、Google DeepMindが開発した大規模生物音響基盤モデルだ。主に鳥類を中心とする陸生動物の鳴き声データを用いて事前学習されており、音声波形やスペクトログラムから抽象的な音響特徴を抽出する埋め込み（embedding）を生成する。</p>
+<p>この埋め込みは、線形分類器の適用や少量データによる微調整（ファインチューニング）を通じて、多様な分類タスクに転用できる設計となっている。</p>
+<h2>なぜ“鳥で学習”したAIが“クジラ”に効くのか</h2>
+<p>今回の論文で焦点となるのは「陸上生物中心の事前学習が、なぜ未知のドメインである水中環境のタスクにこれほど有効だったのか」という点だ。</p>
+<p>Perch 2.0は、線形プローブ（linear probing）を前提とした転移性能を重視して設計されている。これは、事前学習済みの埋め込みを固定したまま単純な分類器のみを学習させる手法で、計算資源やラベル付きデータへの要求を大幅に抑えられる。論文は、この設計がクラスタリングや近傍探索、少量データによる迅速なモデル構築を支えていると指摘する。</p>
+<p>陸上中心の学習が海洋哺乳類に転移した理由について、論文は以下の観点から考察している。</p>
+<ul>
+<li><strong>“Bittern Lesson”：</strong>  鳥類の鳴き声のように、種間で極めて微妙な差異を持つ難度の高い分類タスクで大規模学習を行ったことが、結果として汎用性の高い、精緻な音響表現の獲得につながった可能性</li>
+<li><strong>スケーリングの恩恵：</strong>  大規模データとモデル規模の拡張が、ドメイン外のタスクに対するロバスト性を向上させた</li>
+<li><strong>発声メカニズムの共通性：</strong> 鳥類と海洋哺乳類の発声構造に一定の物理的類似性が存在する可能性</li>
+</ul>
+<h2>海洋哺乳類データでの検証結果</h2>
+<p>論文では、Perch 2.0の音響埋め込みを用い、クジラやイルカを含む海洋哺乳類の水中音響データに対する分類性能を評価した。評価指標にはF1スコアや平均適合率（mAP）などが用いられている。</p>
+<p>その結果、複数の海洋哺乳類データセットにおいて、Perch 2.0は既存の専用モデルや他の音響基盤モデルと比較して同等、あるいはそれを上回る数値を記録したと報告されている。特に、事前学習済み埋め込みに対して線形分類器のみを学習させる線形プローブ設定でも高いスコアを示した点が強調されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Table_2_Marine_learning_transfer_tasks_d0dd40fb55/Table_2_Marine_learning_transfer_tasks_d0dd40fb55.jpg" alt="Table 2  Marine learning transfer tasks.jpg" /></p>
+<p><strong>■ 埋め込み空間の可視化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsne_32_combined_853b778423/tsne_32_combined_853b778423.png" alt="tsne_32_combined.png" /></p>
+<p>さらに、少数のラベル例のみを用いたfew-shot条件でも性能低下は限定的で、限られたデータから分類器を構築する場合においても実用的な精度が得られたとしている。論文は、こうした結果を踏まえ、少量データ環境下で海洋哺乳類分類器を構築する用途にPerch 2.0の利用が有効であるとの見解を示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/22193247_m_4ea411c393/22193247_m_4ea411c393.jpg" alt="22193247_m.jpg" /></p>
+<h2>生物多様性モニタリングへの取り組み</h2>
+<p>Google DeepMindの<a href="https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/">公式ブログ</a>
+では、生物音響AIを活用した絶滅危惧種の検出や生態系モニタリングへの取り組みを紹介している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/deepmind_blog_team_perch_03abedd662/deepmind_blog_team_perch_03abedd662.jpg" alt="deepmind blog team perch.jpg" /></p>
+<p>Perchシリーズは、保全団体や研究者と連携し、長時間の録音データから種の存在を自動検出する用途などで活用が進められていると説明している。今回の検証結果は、こうした生物音響研究の一環として位置づけられる。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
