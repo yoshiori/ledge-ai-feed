@@ -5,6 +5,159 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
+      <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
+      <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
+<p>同社はブログ記事「Prevention is a losing game. Resilience is the winning play」の中で、メキシコの税務当局を含む少なくとも9つの政府機関が影響を受けたと説明。抽出されたデータには、195 million identities、詳細な税務記録、1550万件の車両登録情報（ナンバープレート、氏名、納税者ID、住所）、360万件の不動産所有者記録、さらに追加の不動産関連記録などが含まれるとしている。</p>
+<h2>1,000超のAIプロンプトを使用、約40分でガードレール回避と説明</h2>
+<p>Gambitによれば、攻撃は国家主体ではなく少人数のグループによって実行されたという。攻撃者は1,000以上のAIプロンプトを用い、脆弱性の探索、データ抽出ツールの構築、防御の回避、権限昇格、バックドア設置、横展開の実行、さらには取得データの分析までを行ったと説明している。</p>
+<p>また、当初はAIのガードレールにより要求が拒否されたものの、約40分で回避し、自身を正規のペネトレーションテスターであるかのように装ったとしている。さらに、収集した情報は別のAIプラットフォームにも渡され、データ分析に利用されたと記載している。</p>
+<p>同社の<a href="https://www.linkedin.com/posts/gambitsecurity_the-recent-mexican-government-breach-one-activity-7433167000480374784-gdvq">LinkedIn</a>でも「Claude was exploited to steal sensitive Mexican data」「150GB」「195M taxpayer records」などと投稿し、今回の事案を「政府分野で最大級の侵害の一つ」と表現している。</p>
+<p>攻撃経路と手法に関する完全な技術レポートは「責任ある情報開示（responsible disclosure）」後に公開するとしており、現時点では概要のみを公表。侵害の詳細については<a href="https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data">Bloomberg</a>が、攻撃者がClaudeを利用して侵入プロセスを効率化したと報じている。</p>
+<h2>メキシコ当局は侵害を否定</h2>
+<p>一方、メキシコの選挙管理当局<a href="https://centralelectoral.ine.mx/2026/02/26/rechaza-ine-vulneracion-a-sus-bases-de-datos/">INE</a>は2月26日、自組織のデータベースが侵害されたとの見方を否定し、技術検証の結果、不正アクセスや情報持ち出しは確認されていないと発表した。また、税務当局<a href="https://www.gob.mx/sat/prensa/tarjeta-informativa-6-420283?idiom=es">SAT</a>も同様に、不正アクセスや異常挙動は確認されていないとの趣旨の情報を公表している。</p>
+]]></description>
+      <pubDate>Sun, 01 Mar 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、画像生成AI「Nano Banana 2（Gemini 3.1 Flash Image）」発表──Pro級の品質と“Flash級の速度”の良いとこどり</title>
+      <link>https://ledge.ai/articles/nano_banana_2_gemini_3_1_flash_image_flash_speed_launch</link>
+      <description><![CDATA[<p>Googleは米国時間2026年2月26日、Geminiのネイティブ画像生成の最新モデル「Nano Banana 2（Gemini 3.1 Flash Image）」を<a href="https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/">発表</a>した。Gemini API上では「Gemini 3.1 Flash Image Preview（gemini-3.1-flash-image-preview）」として提供される。</p>
+<p>同社は今回のモデルについて、「Nano Banana Pro」相当の高度な推論能力や世界知識を備えつつ、Gemini Flash系の高速な生成性能を両立させたと説明している。</p>
+<h2>Flash速度で動く高度な“世界知識”</h2>
+<p>Nano Banana 2は、Gemini Flashの高速推論基盤を活用し、迅速な編集と反復生成（iteration）を可能にする。</p>
+<p>Googleは特に次の点を強調している。</p>
+<p>・高度なworld knowledge（実世界知識）の活用
+・リアルタイムWeb検索情報との統合
+・インフォグラフィックやデータ可視化の生成
+・ノートを図解に変換する機能</p>
+<p><strong>■ インフォグラフィック生成例（水循環図）：実世界の知識をもとに構造化された説明図を生成できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f.webp" alt="wm-c2a77d45-6afd-4d2e-ae5b-3f1e.max-768x768.format-webp.webp" /></p>
+<p><strong>■ フグの巣構造を検索情報に基づき図解形式で生成した例。種名や構造ラベルを含め、検索連携された知識を反映している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/16_9_max_1600x1600_format_webp_c10513b48f/16_9_max_1600x1600_format_webp_c10513b48f.webp" alt="16_9.max-1600x1600.format-webp.webp" /></p>
+<h2>正確なテキスト描画と翻訳・ローカライズ</h2>
+<p>Nano Banana 2は、画像内テキストの描画精度を向上させた。</p>
+<p>マーケティング用モックアップやグリーティングカードなどにおいて、可読性の高いテキストを生成できるほか、画像内テキストの翻訳・ローカライズも可能としている。</p>
+<p><strong>■ 同一デザインの看板を異なる言語へ変換</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd.jpg" alt="gemini-image_localisation_1_l.max-1080x1080.format-webp.jpg" /></p>
+<h2>被写体一貫性と複数オブジェクト管理</h2>
+<p>Googleは、Nano Banana 2で速度と視覚的忠実度の差を大幅に縮めたと説明する。</p>
+<p>主な改善点は以下の通り。</p>
+<p>・最大5キャラクターの類似性維持
+・最大14オブジェクトの忠実度維持
+・高度な指示追従
+・512px〜4Kまでの出力制御
+・アスペクト比の柔軟な指定</p>
+<p>これにより、ストーリーボード制作や複数シーンの生成において、外観を維持したまま展開できるという。</p>
+<p><strong>■ 被写体一貫性の生成例</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873.webp" alt="gemini-image__subject-consist.max-1080x1080.format-webp.webp" /></p>
+<p><strong>■ 最大4K出力対応例</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be.webp" alt="wm-b1c3ea8d-6e70-44b2-a53e-a188.max-768x768.format-webp.webp" /></p>
+<h2>提供範囲</h2>
+<p>Nano Banana 2は以下のサービスに展開される。</p>
+<p>・Geminiアプリ（Fast / Thinking / Proモデルに統合）
+・Search（AI ModeおよびLens）
+・AI StudioおよびGemini API（Preview）
+・Google Cloud（Vertex AI）
+・Flow（デフォルト画像生成モデル）
+・Google Ads（キャンペーン生成支援）</p>
+<p>Nano Banana Proは、専門用途向けに引き続き利用可能としている。</p>
+<h1>生成コンテンツの来歴表示</h1>
+<p>Googleは、SynthIDとC2PA Content Credentialsを組み合わせた来歴表示技術を強化している。</p>
+<p>Geminiアプリ内のSynthID検証機能は、2024年11月以降、2,000万回以上利用されたとしている。今後はC2PA検証もアプリに導入予定だ。</p>
+<p>Nano Banana 2は、高精度モデルと高速モデルの統合を図った位置付けとなる。Googleは、用途に応じてNano Banana ProとNano Banana 2を使い分ける選択肢を提示している。</p>
+]]></description>
+      <pubDate>Fri, 27 Feb 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、AIの「使いこなし力」を可視化する指標「AI Fluency Index」を公表──今後は単なる導入率からAI流暢性重視に</title>
+      <link>https://ledge.ai/articles/ai_fluency_index_anthropic_education_report_20260223</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日、「Anthropic Education Report: The AI Fluency Index」を<a href="https://www.anthropic.com/research/AI-fluency-index">公開</a>した。AIの利用拡大が進むなか、単なる“導入率”ではなく、「AIをどれだけ適切に使いこなせているか」を測る新たな指標として「AI Fluency Index（AI流暢性指数）」を提示した。</p>
+<p>同社は、AIの社会実装が急速に進む一方で、「利用が広がること」と「適切に使えること」は別問題だと指摘。AIと協働する際の行動特性を定量化し、今後の変化を追跡するためのベースラインを示した。</p>
+<h2>24の行動指標から“流暢性”を定義</h2>
+<p>AI Fluency Indexは、リック・ダカン氏とジョセフ・フェラー氏が開発し、Anthropicと共同で整理した「4D AI Fluency Framework」に基づくものだ。</p>
+<p>同フレームワークでは、AIとの安全かつ効果的な協働を示す行動を24項目に分類。このうち、Claude.ai上の会話から直接観測可能な11項目を今回の分析対象とした。</p>
+<p>分析対象は、2026年1月の7日間に行われたClaude.ai上の9,830件の複数ターン会話。プライバシー保護型の分析ツールを用い、各会話において11の行動が「見られたか否か」を二値分類で測定した。言語別・曜日別の検証では、大きな偏りは確認されなかったという。</p>
+<p><strong>■ 図1：9,830件のClaude.ai会話におけるAI流暢性行動の出現率。反復・改善が最も多く、事実確認は最少水準</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd.webp" alt="cf98cd90972577bf4dd6457682d9ee82cbf2b858-3840x2160.webp" /></p>
+<h2>反復・改善を伴う対話は“流暢性”が高い</h2>
+<p>分析の結果、最も顕著だったのは「反復と改善（iteration and refinement）」と他の流暢性行動との強い相関だ。調査対象の85.7％の会話が、最初の回答を受け入れて終わるのではなく、やり取りを重ねて内容を洗練させる形式を取っていた。</p>
+<p>こうした反復型の会話では、
+・平均で2.67件の追加的な流暢性行動が確認され、
+・非反復型（平均1.33件）の約2倍となった。</p>
+<p>特に顕著だったのは、
+・AIの推論を問い直す行動（5.6倍）
+・前提や文脈の不足を指摘する行動（4倍）
+など、評価・検証に関わる行動の増加である。Anthropicは、AIを“思考パートナー”として扱う対話形式が、流暢性の最も一般的な形態であると分析している。</p>
+<p><strong>■ 図2：反復・改善を伴う会話と伴わない会話の比較。評価・検証関連行動が大幅に増加している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02.webp" alt="995a58d356ab28738abc3c1313296b298e4b77dc-1920x1080.webp" /></p>
+<h2>成果物生成時は「指示は増えるが、検証は減る」</h2>
+<p>一方で、アプリやコード、文書などの「成果物（artifact）」を生成する会話（全体の12.3％）では、異なる傾向が見られた。</p>
+<p><strong>■ 図3：成果物生成を含む会話では、目標明確化や形式指定は増加する一方、事実確認や推論検証は減少</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139.webp" alt="3aa718781064a7d8638ed684cec97e6903921e3c-1920x1080.webp" /></p>
+<p>これらの会話では、
+・目的の明確化（+14.7pp）
+・形式指定（+14.5pp）
+・具体例提示（+13.4pp）
+・反復（+9.7pp）
+など、AIに対する指示や委任に関わる行動が増加していた。</p>
+<p>しかし同時に、
+・不足文脈の指摘（-5.2pp）
+・事実確認（-3.7pp）
+・推論過程の確認（-3.1pp）
+といった評価・検証行動は低下していた。</p>
+<p>Anthropicは、外見上完成度の高い成果物が生成されると、追加的な検証を行わずに受容される可能性があると指摘。高度化するAIにおいて、成果物の評価能力はむしろ重要性を増すと述べている。</p>
+<h2>今後の研究計画</h2>
+<p>今回の研究はベースライン測定であり、今後は以下の拡張を予定しているという。
+・新規ユーザーと熟練ユーザーの比較（コホート分析）
+・チャット外で行われる倫理・責任関連行動の質的調査
+・反復促進が検証行動を高めるかなどの因果分析
+・開発者向けプラットフォーム「Claude Code」での検証</p>
+<h2>制約と留意点</h2>
+<p>Anthropicは同研究の限界も明示。
+・対象は1週間・Claude.ai利用者に限定
+・24項目中11項目のみ観測
+・行動は「有無」の二値分類
+・対話外での検証行動は把握不可
+・相関関係であり因果関係は不明
+同社は、AI Fluency Indexを「普遍的な評価基準」ではなく、早期利用者層における基準値として位置付けている。</p>
+<h2>AI成熟度の可視化へ</h2>
+<p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
+]]></description>
+      <pubDate>Fri, 27 Feb 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「Claw」はチャット型LLM、コード実行型エージェントの上位レイヤーである──OpenAIカーパシー氏がOpenClawで話題の新概念を位置づけ</title>
+      <link>https://ledge.ai/articles/karpathy_chat_code_claw_ai_stack_new_layer</link>
+      <description><![CDATA[<p>OpenAI共同設立者でTeslaの元AI責任者としても知られるAndrej Karpathy（アンドレイ・カーパシー）氏は2026年2月21日、Xへの投稿で「Claws are now a new layer on top of LLM agents」と述べ、ClawをLLMエージェントの上位に位置する“新しいレイヤー”として表現した。</p>
+<p>同氏はさらに「First there was chat, then there was code, now there is claw.Ez（Chatの次はCode、その次はClaw。これが自然な進化だ）」と投稿。チャット型LLMの登場、コード実行型エージェントの普及に続く段階として、Clawという概念を位置付けた形だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_d0dbb8e796/Andrej_Karpathy_d0dbb8e796.jpg" alt="Andrej Karpathy.jpg" /></p>
+<h2>「Claw」──エージェントの“上位レイヤー”</h2>
+<p>Karpathy氏の説明によれば、Clawは単なるエージェントではなく、その上位で</p>
+<ul>
+<li>orchestration（統合制御）</li>
+<li>scheduling（実行管理）</li>
+<li>context（文脈管理）</li>
+<li>tool calls（外部ツール連携）</li>
+<li>persistence（永続的状態保持）</li>
+</ul>
+<p>などを担う層を指す。</p>
+<p>従来のLLMエージェントは、特定のタスクを実行するためにツールを呼び出し、短期的な文脈を保持しながら動作する。一方、Clawはそれら複数のエージェントやタスクを束ね、持続的に管理・実行する基盤層として構想されている。</p>
+<h2>「ワイルドウェストでセキュリティの悪夢」──既存実装への警戒</h2>
+<p>Karpathy氏はClawという概念自体には期待を示しながらも、現時点の実装については強い懸念を表明している。</p>
+<p>同氏は、OpenClawのコード規模が約40万行に及ぶことに触れ、「雰囲気で書かれた巨大な怪物のようなコード」と評し、個人のデータやAPIキーをそのようなシステムに預けることには慎重であるべきだと述べた。さらに、外部からアクセス可能な状態で公開されているインスタンスや、リモートから任意のコードを実行できてしまう脆弱性、依存ライブラリや配布経路を通じたサプライチェーン攻撃の可能性、悪意ある、あるいは侵害された「スキル」が登録されるリスクなどがすでに報告されていると指摘している。</p>
+<p>そのうえで同氏は、現在の状況について「まるで無法地帯であり、セキュリティ上の悪夢のようだ」と形容した。Clawという上位レイヤーの構想には魅力を感じつつも、実装レベルでは安全性や監査可能性の確保が大きな課題であるとの立場を示したかたちだ。</p>
+<h2>小規模実装「NanoClaw」に見る“skills”思想</h2>
+<p>一方でKarpathy氏は、すべてのClaw実装に懐疑的というわけではない。大規模で複雑な実装に警戒感を示す一方、より小規模で構造が把握しやすいプロジェクトには関心を寄せている。</p>
+<p>その一例がNanoClawだ。同氏は、コアエンジンが約4000行と比較的コンパクトに収まっている点に注目し、人間にもAIにも理解・監査しやすい規模であることを評価した。コードベースが小さいことは、挙動を追跡しやすく、脆弱性や不具合の検証もしやすいという利点がある。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanoclaw_logo_a97fceb70a/nanoclaw_logo_a97fceb70a.png" alt="nanoclaw-logo.png" /></p>
+<p>特に関心を示したのが、「skills（スキル）」と呼ばれる拡張方式だ。従来のソフトウェアでは、設定ファイルや条件分岐を積み重ねることで機能を増やしていくことが多いが、NanoClawではスキルを通じてコード自体を変更・拡張する仕組みを採用している。たとえば「/add-telegram」といった命令を与えることで、AIエージェントが自らコードを修正し、Telegramとの連携機能を追加する。このアプローチは、設定の煩雑化や複雑な条件分岐の増殖を避ける設計思想として紹介されている。</p>
+<p>Karpathy氏は、この設計を「最もフォークしやすいリポジトリ」という観点で評価している。最小限の中核コードを用意し、必要に応じてスキルで構成を分岐させることで、多様な用途に適応できる構造を目指すという発想だ。</p>
+<p>また、同氏はNanoClawのほかにも、nanobot、zeroclaw、ironclaw、picoclawといった複数の“claw系”プロジェクトが登場し始めていることに言及している。名称の接頭辞が異なる複数の実装が現れている点からも、Clawという考え方が単一の製品名ではなく、コミュニティ内で広がりつつある概念であることがうかがえる。</p>
+]]></description>
+      <pubDate>Thu, 26 Feb 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>日本語性能と推論力を両立した推論型LLM「GPT-OSS Swallow」「Qwen3 Swallow」公開──東京科学大・産総研が開発、オープンライセンスで提供</title>
       <link>https://ledge.ai/articles/gpt_oss_qwen3_swallow_japanese_reasoning_llm_tokyo_science_aist</link>
       <description><![CDATA[<p>東京科学大学 情報理工学院の岡崎研究室・横田研究室と、産業技術総合研究所（産総研）の研究チームは2026年2月20日、OpenAIのGPT-OSSをベースに日本語能力と思考力（推論）を強化した推論型大規模言語モデル「GPT-OSS Swallow」と、AlibabaのQwen3をベースに同様の強化を施した「Qwen3 Swallow」を<a href="https://swallow-llm.github.io/gptoss-swallow.ja.html">公開</a>した。両モデルはApache License 2.0で重みが公開され、商用利用を含めて利用可能としている。</p>
@@ -76,97 +229,6 @@
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>日本法人アイロボットジャパンが「Roomba Mini」発表──従来比約2分の1、中国企業傘下入り後初の新モデル</title>
-      <link>https://ledge.ai/articles/irobot_japan_roomba_mini_half_size_restructuring</link>
-      <description><![CDATA[<p>アイロボットジャパンは2026年2月19日、体積が従来機の約2分の1となるロボット掃除機「Roomba Mini（ルンバ ミニ）」2モデルを<a href="https://www.irobot-jp.com/press/pdf/20260219.pdf">発表</a>した。発売は、「Roomba Mini 掃除機＆床拭きロボット + AutoEmpty 充電ステーション」が2月27日、「Roomba Mini Slim 掃除機＆床拭きロボット + SlimCharge 充電スタンド」が4月6日より順次開始される。</p>
-<p>米本社であるiRobotはこれまで経営再建のプロセスに入り、中国企業傘下での新体制へ移行している。今回の「Roomba Mini」は、その再建局面において日本法人が打ち出した新モデルとなる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=gylzOhHj9WE">YouTube</a>
-　　</p>
-<h2>従来比約2分の1、世界最小クラス</h2>
-<p>発表によれば、「Roomba Mini」は本体サイズが幅24.5cm×奥行24.5cm×高さ9.2cm、重量約2.0kg。従来機「Roomba Combo 105」との体積比較で約2分の1とされる。</p>
-<p>同社は、本製品を“世界最小クラス（国内市場最小）”の水拭き機能付きロボット掃除機と位置づける。日本のコンパクトな住環境を想定して開発され、日本で先行発売される。</p>
-<p>設置面積についても、「AutoEmpty」モデルでは従来比約33％削減、「SlimCharge」モデルでは縦置き設置により約85％削減したとする。</p>
-<p><strong>「Roomba Mini + AutoEmpty 充電ステーション」（左）と、縦置き可能な「Roomba Mini Slim + SlimCharge 充電スタンド」（右）。設置面積の削減が特徴</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/function_point03_image02_side_69017016ee/function_point03_image02_side_69017016ee.jpg" alt="function_point03_image02-side.jpg" /></p>
-<h2>小型でも吸引力は約70倍</h2>
-<p>小型化と同時に清掃性能も強化された。国内累計出荷台数トップの「Roomba 600シリーズ」との比較で、パワーリフト吸引は約70倍に向上したという。</p>
-<p>さらに、ClearView LiDARを搭載し、約10分で室内をマッピング。障害物を検知・回避しながら走行する。使い捨て床拭きシートを装着することで水拭きモードに切り替わり、水拭き中はラグを自動回避する設計となっている。</p>
-<p>Wi-Fi環境がなくても本体ボタンで清掃を開始できる点も特徴として挙げられている。</p>
-<h2>2モデル展開、価格は39,800円から</h2>
-<p>展開は2モデル。
-「Roomba Mini + AutoEmpty 充電ステーション」は税込49,800円。約3か月分のゴミを収集可能な自動ゴミ収集機能を備える。カラーは白、黒、桜、若葉の4色で、桜と若葉は3月13日発売。
-「Roomba Mini Slim + SlimCharge 充電スタンド」は税込39,800円。縦置き可能な充電スタンドを採用し、白と黒の2色展開。発売日は4月6日。</p>
-<p>両モデルとも全国のアイロボット認定販売店および公式オンラインストアで販売される。</p>
-<h2>日本法人主導の開発</h2>
-<p>「Roomba Mini」は日本法人の発案により開発されたモデルで、日本で先行発売される。代表執行役員社長の山田毅氏は、「小さくてもパワフルな一台をきっかけに、より多くの方に掃除をルンバに任せる“時産体験”をしていただきたい」とコメントしている。</p>
-<p>2002年のルンバ発売以来、ロボット掃除機市場を創出してきた同社は、経営再建の局面を経て新体制に移行している。今回発表された「Roomba Mini」は、その中で日本法人が打ち出した小型化モデルとなる。</p>
-]]></description>
-      <pubDate>Mon, 23 Feb 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>フェイフェイ・リー氏のWorld Labsが10億ドル調達、「空間知能」構築へ──CAD大手のAutodeskは2億ドル投資、3D世界モデル「Marble」推進</title>
-      <link>https://ledge.ai/articles/fei_fei_li_world_labs_10b_spatial_intelligence_autodesk_2b_marble</link>
-      <description><![CDATA[<p>米AIスタートアップのWorld Labsは2026年2月18日（現地時間）、新たに10億ドル（約1500億円）を調達したと公式ブログで<a href="https://www.worldlabs.ai/blog/funding-2026">発表</a>した。同社は、コンピュータビジョン研究の第一人者であるFei-Fei Li氏が率いる企業として知られる。</p>
-<p>あわせて、米設計ソフト大手のAutodeskは同日、World Labsに2億ドルを戦略投資し、戦略アドバイザーとして参画すると発表した。両社は、3次元空間を理解・生成できるAI基盤の構築に向け、研究・モデルレベルで協業を進める。</p>
-<h2>10億ドル調達、投資家にNVIDIAやAMDなど</h2>
-<p>World Labsの発表によれば、今回の資金調達ラウンドにはAMD、Autodesk、Emerson Collective、Fidelity Management &amp; Research Company、NVIDIA、Seaなどが参加した。調達資金は、同社が掲げる「spatial intelligence（空間知能）」の開発を加速するために用いられる。</p>
-<p>同社は、従来の大規模言語モデル（LLM）が主にテキストを扱うのに対し、物理世界を前提としたAIには「空間」「構造」「物理」「時間」といった要素を理解する能力が不可欠だと位置付けている。World Labsは、こうした能力を備えた「world models（世界モデル）」の構築を目指すと説明している。</p>
-<h2>Autodeskが2億ドルを戦略投資、研究段階から連携</h2>
-<p><a href="https://adsknews.autodesk.com/en/news/autodesk-invests-in-world-labs/">Autodesk</a>はこの日、World Labsへ2億ドルを投資し、戦略アドバイザーとして密接に協業すると明らかにした。同社は、建築・製造・エンジニアリング分野の顧客にとって、3D空間や物理法則を理解するAIの重要性が高まっていると説明している。</p>
-<p>両社の協業は、製品統合の即時発表という形ではなく、研究・モデルレベルでの連携から始まる。Autodeskは、設計・製造のワークフローにおいて、空間的推論が可能なAIの必要性を強調している。</p>
-<h2>3D世界モデル「Marble」とは何か</h2>
-<p>World Labsは、同社の最初のプロダクトとして「<a href="https://ledge.ai/articles/world_labs_marble_multimodal_world_model_release">Marble</a>」を挙げている。発表によれば、Marbleは画像、動画、テキストから「空間的に整合した高精細で永続的な3D世界」を生成できるとされる。</p>
-<p>同社は、このような世界モデルがストーリーテリング、創造活動、ロボティクス、科学的発見など幅広い用途に応用可能だとしている。ただし、今回の発表時点では、具体的な商用展開の時期や統合先製品については明示されていない。</p>
-<p>@<a href="https://www.youtube.com/watch?v=MPUdY6WSapw">YouTube</a></p>
-<h2>「言語」から「世界」へ──物理世界AIへのシフト</h2>
-<p>Autodeskの発表では、AIが言語処理を超えて、幾何学、物理、ダイナミクスといった世界の構造そのものを扱う段階へ進む必要性が示されている。World Labsも、空間知能の実現を次のフロンティアと位置付けている。</p>
-<p>10億ドル規模の資金調達と、設計ソフト大手による2億ドルの戦略投資は、生成AIの潮流がテキスト中心の応用から、3D世界を直接扱う「物理世界AI」へと拡張しつつあることを示す動きとなる。</p>
-<p>今後は、World Labsの世界モデル技術がどの分野にどのように実装されるのか、またAutodeskの製品群との具体的な連携がどのように進むのかが焦点となる。</p>
-<p>:::box
-[関連記事：AIの\</p>
-]]></description>
-      <pubDate>Mon, 23 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントはどこまで“自律”しているのか──Anthropicが数百万件データを初公開分析</title>
-      <link>https://ledge.ai/articles/ai_agent_autonomy_real_world_anthropic_analysis_20260218</link>
-      <description><![CDATA[<p>Anthropicは2026年2月18日、公式ブログ「Measuring AI agent autonomy in practice」を公開し、自社のコーディングエージェント「Claude Code」および公開API経由で収集した数百万件規模の人間―AI対話データを分析した結果を<a href="https://www.anthropic.com/research/measuring-agent-autonomy">発表</a>した。</p>
-<p>実社会で稼働するAIエージェントがどの程度の自律性を発揮しているのかを、実運用ログに基づいて定量的に示した初の包括的分析となる。</p>
-<h2>自律稼働時間は3カ月で約2倍に</h2>
-<p>Claude Codeにおける最長稼働セッション（99.9パーセンタイル）のターン時間は、2025年秋時点で25分未満だったが、2026年1月には45分超へと拡大した。約3カ月でほぼ2倍に伸びた計算となる。</p>
-<p>一方、中央値は約45秒で安定しており、大多数の利用は短時間に集中している。自律性の拡張は、長時間稼働の“尾部”で進行している構造が示された。</p>
-<p><strong>■ 99.9パーセンタイルのターン時間推移。2025年秋から2026年初頭にかけて約2倍に拡大</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_long_does_claude_code_work_before_stopping_6705b03e59/how_long_does_claude_code_work_before_stopping_6705b03e59.jpg" alt="how long does claude code work before stopping.jpg" /></p>
-<p>Anthropicは、この増加がモデル更新ごとの急激な跳ね上がりではなく、滑らかな推移を示している点に注目している。これは能力向上のみならず、ユーザー側の信頼形成や利用スタイルの変化も影響している可能性を示唆するものだとしている。</p>
-<h2>経験者ほど「任せるが、割り込む」</h2>
-<p>ユーザーの行動変化も確認された。新規ユーザーでは約20％のセッションがフル自動承認（auto-approve）を利用しているのに対し、750セッション以上利用する経験者では40％超に上昇した。</p>
-<p>一方で、途中でAIの処理を中断する「割り込み率」も、経験者のほうが高い。新規ユーザーの割り込み率が約5％であるのに対し、経験者は約9％だった。</p>
-<p>Anthropicはこれを、監督戦略の変化と説明する。初心者は各ステップを逐次承認する傾向が強いが、経験者は一括で自律実行を許可し、必要な場合のみ介入する「監視型」へと移行していると分析している。</p>
-<h2>AIが自ら停止するケースも増加</h2>
-<p>人間による監督だけでなく、AI自身が不確実性を認識して停止するケースも確認された。複雑度が高いタスクでは、Claude Codeが人間よりも頻繁に処理を停止し、確認や追加情報を求める傾向がみられた。</p>
-<p><strong>■ タスク複雑度が高まるほど、Claudeの自己停止率は上昇。人間の割り込みを上回る</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clarification_and_interruption_rates_by_goal_complexity_bb2a678bd7/clarification_and_interruption_rates_by_goal_complexity_bb2a678bd7.jpg" alt="clarification and interruption rates by goal complexity.jpg" /></p>
-<p>停止理由としては、方針の選択提示（35％）、診断情報の収集（21％）、曖昧な指示の確認（13％）などが挙げられている。Anthropicは、自己不確実性の表出を安全設計上の重要な特性と位置づけ、モデルが自ら確認を求める訓練を行っていると説明している。</p>
-<h2>リスクと自律性の分布</h2>
-<p>公開API経由の約100万件のツール呼び出しについては、リスク（1～10）と自律性（1～10）の2軸で評価を実施した。</p>
-<p>その結果、
-・80％は何らかのセーフガードが存在
-・73％は人間が関与
-・不可逆的行為は0.8％</p>
-<p>という分布が示された。</p>
-<p><strong>■ リスク（縦軸）と自律性（横軸）の分布。高リスク×高自律領域は少数だが存在</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/what_is_the_risk_autonomy_tradeoff_in_practice_2c3342dd20/what_is_the_risk_autonomy_tradeoff_in_practice_2c3342dd20.jpg" alt="what is the risk-autonomy tradeoff in practice.jpg" /></p>
-<p>高リスクかつ高自律性に分類される事例は少数ながら存在し、セキュリティ関連操作、金融取引、医療情報の取得などが含まれていた。ただしAnthropicは、これらの一部は評価やレッドチーム用途である可能性もあると注記している。</p>
-<h2>利用はソフトウェア分野に集中</h2>
-<p>ツール利用の約50％はソフトウェアエンジニアリング分野が占めている。その他、ビジネスインテリジェンス、カスタマーサポート、営業、金融などでの利用も確認されたが、いずれも数％規模にとどまる。Anthropicは、エージェント活用は依然として初期段階にあり、今後高リスク領域での利用拡大が進む可能性があるとしている。</p>
-<p><strong>■ ツール呼び出しの約50％がソフトウェアエンジニアリング用途</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/in_what_domains_are_agents_deployed_418ebfdcdb/in_what_domains_are_agents_deployed_418ebfdcdb.jpg" alt="in what domains are agents deployed.jpg" /></p>
-<p>エージェント型AIの活用は近時、ソフトウェア開発のみならず、業務自動化やセキュリティ領域などへと拡大している。複数のツールを組み合わせて長時間にわたり自律的に動作するエージェント型プロダクトも登場しており、実運用環境での振る舞いを定量的に把握する必要性は高まっている。今回の分析は、こうした動向を背景に、実社会におけるエージェントの自律性と監督構造の実態を示す試みと位置づけられる。</p>
-<p>AIエージェントの自律性が段階的に拡張する中で、実運用データに基づく継続的な測定と監視の枠組み構築が、今後の焦点となりそうだ。</p>
-]]></description>
-      <pubDate>Sun, 22 Feb 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「Microsoft 365 Copilot」が社外秘メールを拾う不具合、数週間継続──Microsoftが修正を段階展開</title>
       <link>https://ledge.ai/articles/copilot_confidential_email_bug_fix_rollout</link>
       <description><![CDATA[<p>Microsoftが自社AI「Copilot」に関する不具合を認めたことを、米ITメディアの<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/">BleepingComputer</a>が2026年2月18日（現地時間）に報じた。掲載記事のタイトルは「Microsoft says bug causes Copilot to summarize confidential emails」と題した記事で報じた。</p>
@@ -194,63 +256,6 @@
 <p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
 ]]></description>
       <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIの「使いこなし力」を可視化する指標「AI Fluency Index」を公表──今後は単なる導入率からAI流暢性重視に</title>
-      <link>https://ledge.ai/articles/ai_fluency_index_anthropic_education_report_20260223</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日、「Anthropic Education Report: The AI Fluency Index」を<a href="https://www.anthropic.com/research/AI-fluency-index">公開</a>した。AIの利用拡大が進むなか、単なる“導入率”ではなく、「AIをどれだけ適切に使いこなせているか」を測る新たな指標として「AI Fluency Index（AI流暢性指数）」を提示した。</p>
-<p>同社は、AIの社会実装が急速に進む一方で、「利用が広がること」と「適切に使えること」は別問題だと指摘。AIと協働する際の行動特性を定量化し、今後の変化を追跡するためのベースラインを示した。</p>
-<h2>24の行動指標から“流暢性”を定義</h2>
-<p>AI Fluency Indexは、リック・ダカン氏とジョセフ・フェラー氏が開発し、Anthropicと共同で整理した「4D AI Fluency Framework」に基づくものだ。</p>
-<p>同フレームワークでは、AIとの安全かつ効果的な協働を示す行動を24項目に分類。このうち、Claude.ai上の会話から直接観測可能な11項目を今回の分析対象とした。</p>
-<p>分析対象は、2026年1月の7日間に行われたClaude.ai上の9,830件の複数ターン会話。プライバシー保護型の分析ツールを用い、各会話において11の行動が「見られたか否か」を二値分類で測定した。言語別・曜日別の検証では、大きな偏りは確認されなかったという。</p>
-<p><strong>■ 図1：9,830件のClaude.ai会話におけるAI流暢性行動の出現率。反復・改善が最も多く、事実確認は最少水準</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd.webp" alt="cf98cd90972577bf4dd6457682d9ee82cbf2b858-3840x2160.webp" /></p>
-<h2>反復・改善を伴う対話は“流暢性”が高い</h2>
-<p>分析の結果、最も顕著だったのは「反復と改善（iteration and refinement）」と他の流暢性行動との強い相関だ。調査対象の85.7％の会話が、最初の回答を受け入れて終わるのではなく、やり取りを重ねて内容を洗練させる形式を取っていた。</p>
-<p>こうした反復型の会話では、
-・平均で2.67件の追加的な流暢性行動が確認され、
-・非反復型（平均1.33件）の約2倍となった。</p>
-<p>特に顕著だったのは、
-・AIの推論を問い直す行動（5.6倍）
-・前提や文脈の不足を指摘する行動（4倍）
-など、評価・検証に関わる行動の増加である。Anthropicは、AIを“思考パートナー”として扱う対話形式が、流暢性の最も一般的な形態であると分析している。</p>
-<p><strong>■ 図2：反復・改善を伴う会話と伴わない会話の比較。評価・検証関連行動が大幅に増加している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02.webp" alt="995a58d356ab28738abc3c1313296b298e4b77dc-1920x1080.webp" /></p>
-<h2>成果物生成時は「指示は増えるが、検証は減る」</h2>
-<p>一方で、アプリやコード、文書などの「成果物（artifact）」を生成する会話（全体の12.3％）では、異なる傾向が見られた。</p>
-<p><strong>■ 図3：成果物生成を含む会話では、目標明確化や形式指定は増加する一方、事実確認や推論検証は減少</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139.webp" alt="3aa718781064a7d8638ed684cec97e6903921e3c-1920x1080.webp" /></p>
-<p>これらの会話では、
-・目的の明確化（+14.7pp）
-・形式指定（+14.5pp）
-・具体例提示（+13.4pp）
-・反復（+9.7pp）
-など、AIに対する指示や委任に関わる行動が増加していた。</p>
-<p>しかし同時に、
-・不足文脈の指摘（-5.2pp）
-・事実確認（-3.7pp）
-・推論過程の確認（-3.1pp）
-といった評価・検証行動は低下していた。</p>
-<p>Anthropicは、外見上完成度の高い成果物が生成されると、追加的な検証を行わずに受容される可能性があると指摘。高度化するAIにおいて、成果物の評価能力はむしろ重要性を増すと述べている。</p>
-<h2>今後の研究計画</h2>
-<p>今回の研究はベースライン測定であり、今後は以下の拡張を予定しているという。
-・新規ユーザーと熟練ユーザーの比較（コホート分析）
-・チャット外で行われる倫理・責任関連行動の質的調査
-・反復促進が検証行動を高めるかなどの因果分析
-・開発者向けプラットフォーム「Claude Code」での検証</p>
-<h2>制約と留意点</h2>
-<p>Anthropicは同研究の限界も明示。
-・対象は1週間・Claude.ai利用者に限定
-・24項目中11項目のみ観測
-・行動は「有無」の二値分類
-・対話外での検証行動は把握不可
-・相関関係であり因果関係は不明
-同社は、AI Fluency Indexを「普遍的な評価基準」ではなく、早期利用者層における基準値として位置付けている。</p>
-<h2>AI成熟度の可視化へ</h2>
-<p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AnthropicがフロンティアAI開発の安全指針を見直し　自社が大きく先行する場合のみ開発遅延を検討、競合が同水準なら遅らせず</title>
@@ -353,52 +358,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
-      <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
-      <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
-<p>同社はブログ記事「Prevention is a losing game. Resilience is the winning play」の中で、メキシコの税務当局を含む少なくとも9つの政府機関が影響を受けたと説明。抽出されたデータには、195 million identities、詳細な税務記録、1550万件の車両登録情報（ナンバープレート、氏名、納税者ID、住所）、360万件の不動産所有者記録、さらに追加の不動産関連記録などが含まれるとしている。</p>
-<h2>1,000超のAIプロンプトを使用、約40分でガードレール回避と説明</h2>
-<p>Gambitによれば、攻撃は国家主体ではなく少人数のグループによって実行されたという。攻撃者は1,000以上のAIプロンプトを用い、脆弱性の探索、データ抽出ツールの構築、防御の回避、権限昇格、バックドア設置、横展開の実行、さらには取得データの分析までを行ったと説明している。</p>
-<p>また、当初はAIのガードレールにより要求が拒否されたものの、約40分で回避し、自身を正規のペネトレーションテスターであるかのように装ったとしている。さらに、収集した情報は別のAIプラットフォームにも渡され、データ分析に利用されたと記載している。</p>
-<p>同社の<a href="https://www.linkedin.com/posts/gambitsecurity_the-recent-mexican-government-breach-one-activity-7433167000480374784-gdvq">LinkedIn</a>でも「Claude was exploited to steal sensitive Mexican data」「150GB」「195M taxpayer records」などと投稿し、今回の事案を「政府分野で最大級の侵害の一つ」と表現している。</p>
-<p>攻撃経路と手法に関する完全な技術レポートは「責任ある情報開示（responsible disclosure）」後に公開するとしており、現時点では概要のみを公表。侵害の詳細については<a href="https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data">Bloomberg</a>が、攻撃者がClaudeを利用して侵入プロセスを効率化したと報じている。</p>
-<h2>メキシコ当局は侵害を否定</h2>
-<p>一方、メキシコの選挙管理当局<a href="https://centralelectoral.ine.mx/2026/02/26/rechaza-ine-vulneracion-a-sus-bases-de-datos/">INE</a>は2月26日、自組織のデータベースが侵害されたとの見方を否定し、技術検証の結果、不正アクセスや情報持ち出しは確認されていないと発表した。また、税務当局<a href="https://www.gob.mx/sat/prensa/tarjeta-informativa-6-420283?idiom=es">SAT</a>も同様に、不正アクセスや異常挙動は確認されていないとの趣旨の情報を公表している。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「Claw」はチャット型LLM、コード実行型エージェントの上位レイヤーである──OpenAIカーパシー氏がOpenClawで話題の新概念を位置づけ</title>
-      <link>https://ledge.ai/articles/karpathy_chat_code_claw_ai_stack_new_layer</link>
-      <description><![CDATA[<p>OpenAI共同設立者でTeslaの元AI責任者としても知られるAndrej Karpathy（アンドレイ・カーパシー）氏は2026年2月21日、Xへの投稿で「Claws are now a new layer on top of LLM agents」と述べ、ClawをLLMエージェントの上位に位置する“新しいレイヤー”として表現した。</p>
-<p>同氏はさらに「First there was chat, then there was code, now there is claw.Ez（Chatの次はCode、その次はClaw。これが自然な進化だ）」と投稿。チャット型LLMの登場、コード実行型エージェントの普及に続く段階として、Clawという概念を位置付けた形だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Andrej_Karpathy_d0dbb8e796/Andrej_Karpathy_d0dbb8e796.jpg" alt="Andrej Karpathy.jpg" /></p>
-<h2>「Claw」──エージェントの“上位レイヤー”</h2>
-<p>Karpathy氏の説明によれば、Clawは単なるエージェントではなく、その上位で</p>
-<ul>
-<li>orchestration（統合制御）</li>
-<li>scheduling（実行管理）</li>
-<li>context（文脈管理）</li>
-<li>tool calls（外部ツール連携）</li>
-<li>persistence（永続的状態保持）</li>
-</ul>
-<p>などを担う層を指す。</p>
-<p>従来のLLMエージェントは、特定のタスクを実行するためにツールを呼び出し、短期的な文脈を保持しながら動作する。一方、Clawはそれら複数のエージェントやタスクを束ね、持続的に管理・実行する基盤層として構想されている。</p>
-<h2>「ワイルドウェストでセキュリティの悪夢」──既存実装への警戒</h2>
-<p>Karpathy氏はClawという概念自体には期待を示しながらも、現時点の実装については強い懸念を表明している。</p>
-<p>同氏は、OpenClawのコード規模が約40万行に及ぶことに触れ、「雰囲気で書かれた巨大な怪物のようなコード」と評し、個人のデータやAPIキーをそのようなシステムに預けることには慎重であるべきだと述べた。さらに、外部からアクセス可能な状態で公開されているインスタンスや、リモートから任意のコードを実行できてしまう脆弱性、依存ライブラリや配布経路を通じたサプライチェーン攻撃の可能性、悪意ある、あるいは侵害された「スキル」が登録されるリスクなどがすでに報告されていると指摘している。</p>
-<p>そのうえで同氏は、現在の状況について「まるで無法地帯であり、セキュリティ上の悪夢のようだ」と形容した。Clawという上位レイヤーの構想には魅力を感じつつも、実装レベルでは安全性や監査可能性の確保が大きな課題であるとの立場を示したかたちだ。</p>
-<h2>小規模実装「NanoClaw」に見る“skills”思想</h2>
-<p>一方でKarpathy氏は、すべてのClaw実装に懐疑的というわけではない。大規模で複雑な実装に警戒感を示す一方、より小規模で構造が把握しやすいプロジェクトには関心を寄せている。</p>
-<p>その一例がNanoClawだ。同氏は、コアエンジンが約4000行と比較的コンパクトに収まっている点に注目し、人間にもAIにも理解・監査しやすい規模であることを評価した。コードベースが小さいことは、挙動を追跡しやすく、脆弱性や不具合の検証もしやすいという利点がある。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nanoclaw_logo_a97fceb70a/nanoclaw_logo_a97fceb70a.png" alt="nanoclaw-logo.png" /></p>
-<p>特に関心を示したのが、「skills（スキル）」と呼ばれる拡張方式だ。従来のソフトウェアでは、設定ファイルや条件分岐を積み重ねることで機能を増やしていくことが多いが、NanoClawではスキルを通じてコード自体を変更・拡張する仕組みを採用している。たとえば「/add-telegram」といった命令を与えることで、AIエージェントが自らコードを修正し、Telegramとの連携機能を追加する。このアプローチは、設定の煩雑化や複雑な条件分岐の増殖を避ける設計思想として紹介されている。</p>
-<p>Karpathy氏は、この設計を「最もフォークしやすいリポジトリ」という観点で評価している。最小限の中核コードを用意し、必要に応じてスキルで構成を分岐させることで、多様な用途に適応できる構造を目指すという発想だ。</p>
-<p>また、同氏はNanoClawのほかにも、nanobot、zeroclaw、ironclaw、picoclawといった複数の“claw系”プロジェクトが登場し始めていることに言及している。名称の接頭辞が異なる複数の実装が現れている点からも、Clawという考え方が単一の製品名ではなく、コミュニティ内で広がりつつある概念であることがうかがえる。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>レッジ、オンライン展示会「Ledge.ai EXPO 2026 Spring」を本日公開</title>
       <link>https://ledge.ai/articles/ledgeai-expo-2026-spring</link>
       <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、2026年3月2日（月）より、最新のAIプロダクトやDXソリューションを一堂に紹介するオンライン展示会「Ledge.ai EXPO 2026 Spring」を公開いたしました。</p>
@@ -438,56 +397,6 @@ https://ledge.ai/contact/ad-form</p>
 <h2>AIインフラ投資が加速</h2>
 <p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
 <p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、画像生成AI「Nano Banana 2（Gemini 3.1 Flash Image）」発表──Pro級の品質と“Flash級の速度”の良いとこどり</title>
-      <link>https://ledge.ai/articles/nano_banana_2_gemini_3_1_flash_image_flash_speed_launch</link>
-      <description><![CDATA[<p>Googleは米国時間2026年2月26日、Geminiのネイティブ画像生成の最新モデル「Nano Banana 2（Gemini 3.1 Flash Image）」を<a href="https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/">発表</a>した。Gemini API上では「Gemini 3.1 Flash Image Preview（gemini-3.1-flash-image-preview）」として提供される。</p>
-<p>同社は今回のモデルについて、「Nano Banana Pro」相当の高度な推論能力や世界知識を備えつつ、Gemini Flash系の高速な生成性能を両立させたと説明している。</p>
-<h2>Flash速度で動く高度な“世界知識”</h2>
-<p>Nano Banana 2は、Gemini Flashの高速推論基盤を活用し、迅速な編集と反復生成（iteration）を可能にする。</p>
-<p>Googleは特に次の点を強調している。</p>
-<p>・高度なworld knowledge（実世界知識）の活用
-・リアルタイムWeb検索情報との統合
-・インフォグラフィックやデータ可視化の生成
-・ノートを図解に変換する機能</p>
-<p><strong>■ インフォグラフィック生成例（水循環図）：実世界の知識をもとに構造化された説明図を生成できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f.webp" alt="wm-c2a77d45-6afd-4d2e-ae5b-3f1e.max-768x768.format-webp.webp" /></p>
-<p><strong>■ フグの巣構造を検索情報に基づき図解形式で生成した例。種名や構造ラベルを含め、検索連携された知識を反映している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/16_9_max_1600x1600_format_webp_c10513b48f/16_9_max_1600x1600_format_webp_c10513b48f.webp" alt="16_9.max-1600x1600.format-webp.webp" /></p>
-<h2>正確なテキスト描画と翻訳・ローカライズ</h2>
-<p>Nano Banana 2は、画像内テキストの描画精度を向上させた。</p>
-<p>マーケティング用モックアップやグリーティングカードなどにおいて、可読性の高いテキストを生成できるほか、画像内テキストの翻訳・ローカライズも可能としている。</p>
-<p><strong>■ 同一デザインの看板を異なる言語へ変換</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd.jpg" alt="gemini-image_localisation_1_l.max-1080x1080.format-webp.jpg" /></p>
-<h2>被写体一貫性と複数オブジェクト管理</h2>
-<p>Googleは、Nano Banana 2で速度と視覚的忠実度の差を大幅に縮めたと説明する。</p>
-<p>主な改善点は以下の通り。</p>
-<p>・最大5キャラクターの類似性維持
-・最大14オブジェクトの忠実度維持
-・高度な指示追従
-・512px〜4Kまでの出力制御
-・アスペクト比の柔軟な指定</p>
-<p>これにより、ストーリーボード制作や複数シーンの生成において、外観を維持したまま展開できるという。</p>
-<p><strong>■ 被写体一貫性の生成例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873.webp" alt="gemini-image__subject-consist.max-1080x1080.format-webp.webp" /></p>
-<p><strong>■ 最大4K出力対応例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be.webp" alt="wm-b1c3ea8d-6e70-44b2-a53e-a188.max-768x768.format-webp.webp" /></p>
-<h2>提供範囲</h2>
-<p>Nano Banana 2は以下のサービスに展開される。</p>
-<p>・Geminiアプリ（Fast / Thinking / Proモデルに統合）
-・Search（AI ModeおよびLens）
-・AI StudioおよびGemini API（Preview）
-・Google Cloud（Vertex AI）
-・Flow（デフォルト画像生成モデル）
-・Google Ads（キャンペーン生成支援）</p>
-<p>Nano Banana Proは、専門用途向けに引き続き利用可能としている。</p>
-<h1>生成コンテンツの来歴表示</h1>
-<p>Googleは、SynthIDとC2PA Content Credentialsを組み合わせた来歴表示技術を強化している。</p>
-<p>Geminiアプリ内のSynthID検証機能は、2024年11月以降、2,000万回以上利用されたとしている。今後はC2PA検証もアプリに導入予定だ。</p>
-<p>Nano Banana 2は、高精度モデルと高速モデルの統合を図った位置付けとなる。Googleは、用途に応じてNano Banana ProとNano Banana 2を使い分ける選択肢を提示している。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
@@ -753,46 +662,6 @@ https://ledge.ai/contact/ad-form</p>
 <p>今回の当面制限は、モデル公開後に拡大した国際的な議論の中で示された対応となる。動画生成AIをめぐっては、実在人物や既存IPの取り扱いをどう設計するかが、引き続き焦点となっている。</p>
 ]]></description>
       <pubDate>Wed, 18 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、推論特化「Gemini 3 Deep Think」アップデート──ARC-AGI-2で84.6%など主要ベンチマークで軒並み高評価、科学・研究・工学領域の高度な問題解決に照準</title>
-      <link>https://ledge.ai/articles/gemini_3_deep_think_arc_agi_2_84_6</link>
-      <description><![CDATA[<p>Googleは2026年2月12日、推論特化モード「Gemini 3 Deep Think」の大幅アップデートを<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/">発表</a>した。科学・研究・工学領域の高度な問題解決を主用途として位置づけ、ARC-AGI-2で84.6%を記録したと公表している。</p>
-<p>更新版のGemini 3 Deep Thinkは、Google AI Ultra加入者向けにGeminiアプリで提供を開始。また、Gemini APIでも研究者・企業向けにEarly Access Programとして利用申請の受付を開始した。</p>
-<h2>ARC-AGI-2で84.6%──主要ベンチマーク結果</h2>
-<p><strong>■ Gemini 3 Deep Thinkの主要ベンチマーク結果。ARC-AGI-2、Humanity’s Last Exam、MMMU-Pro、Codeforcesなどで比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_deep_think_evals_charts_1_6b40186942/gemini_3_deep_think_evals_charts_1_6b40186942.jpg" alt="gemini_3_deep-think_evals_charts_1.jpg" /></p>
-<p>Googleが公開した評価資料によると、主な結果は以下の通り。</p>
-<ul>
-<li>ARC-AGI-2：84.6%</li>
-<li>Humanity’s Last Exam：48.4%（no tools）、53.4%（search+code）</li>
-<li>MMMU-Pro：81.5%</li>
-<li>Codeforces：Elo 3455</li>
-</ul>
-<p>ARC-AGI-2は抽象推論能力を測るベンチマークで、ARC Prize Verified（v2 semi-private）に基づく数値としている。Humanity’s Last Examでは、ツール未使用と検索・コード実行併用の双方を公表。CodeforcesではElo 3455を記録した。評価手法は原則pass@1で算出し、一部小規模ベンチマークでは複数試行平均を用いたと説明している。</p>
-<h2>科学分野ベンチでの数値</h2>
-<p><strong>■ Gemini 3 Deep Thinkと他モデルのベンチマーク比較一覧（Feb 2026時点）。IMO、IPhO、IChO、CMT-Benchmarkなどを含む</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_deep_think_evals_table_1_e96eae2c49/gemini_3_deep_think_evals_table_1_e96eae2c49.jpg" alt="gemini_3_deep-think_evals_table_1.jpg" /></p>
-<p>同資料では、科学系競技・専門ベンチマークにおける結果も公開している。</p>
-<ul>
-<li>International Math Olympiad 2025：81.5%</li>
-<li>International Physics Olympiad 2025（theory）：87.7%</li>
-<li>International Chemistry Olympiad 2025（theory）：82.8%</li>
-<li>CMT-Benchmark（凝縮系理論）：50.5%</li>
-</ul>
-<p>IPhOおよびIChOでは、Geminiをjudgeとして使用し、独立専門家による検証を経たと説明している。</p>
-<h2>「Deep Think」の位置づけ</h2>
-<p>GoogleはDeep Thinkを、Gemini 3におけるspecialized reasoning modeと説明している。不完全な情報や複数の解が存在し得る研究課題を対象とし、科学的知識とエンジニアリング実務を統合した推論を行う設計だとしている。</p>
-<p>初期テスター事例として、以下を紹介している。</p>
-<ul>
-<li>Rutgers大学：高エネルギー物理論文の論理的欠陥の指摘</li>
-<li>Duke大学：半導体材料の結晶成長レシピ設計</li>
-<li>Google社内：物理コンポーネント設計支援</li>
-</ul>
-<h2>Ultra提供とAPI早期アクセスへ</h2>
-<p>今回のアップデートでは、GeminiアプリでのUltra向け提供に加え、Gemini APIで初めてDeep Thinkモードの早期アクセスを開始した。研究者や企業が実運用環境で利用できる段階へ移行した形となる。Googleは、科学・研究・工学領域における高度推論用途を主軸に展開していく方針を示している。</p>
-]]></description>
-      <pubDate>Tue, 17 Feb 2026 01:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
