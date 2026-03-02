@@ -328,6 +328,31 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>文化庁、個人クリエイター向け権利情報登録システム始動　AI活用拡大を背景に基盤整備</title>
+      <link>https://ledge.ai/articles/bunka_cho_creator_rights_registration_system_ai_background</link>
+      <description><![CDATA[<p>文化庁は2026年2月26日、音楽や漫画、ゲームなどの個人クリエイターが自身の作品情報や第三者による利用可否を登録できる「個人クリエイター等権利情報登録システム」の運用を開始したと<a href="https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/94333101.html">発表</a>した。近年のAI活用拡大やデジタル流通の進展を背景に、著作物の権利情報を可視化し、円滑な利用を促す基盤整備を進める。</p>
+<h2>登録できる情報と仕組み</h2>
+<p>「個人クリエイター等権利情報登録システム」は、個人が創作した著作物について、権利者情報や利用条件などをオンラインで登録できる仕組み。対象分野は音楽、漫画、イラスト、文章、映像、ゲームなど幅広い。</p>
+<p>登録はマイナンバーカードを用いた公的個人認証により本人確認を行う。一方で、登録者氏名や生年月日などの本人確認情報は公開対象ではなく、公開項目はシステム上で明示されている。</p>
+<p>公開されるのは、著作者名（著作者等）やそのカナ表記、著作物の利用可否など、創作活動や利用判断に必要な情報が中心となる。利用希望者はこれらの情報を参照し、利用条件を確認したうえで権利者に連絡できる仕組みとなっている。</p>
+<p><strong>登録画面では「必須」と「公開」項目が明示されている。本名や生年月日は公開対象ではないが入力必須。一方で略歴やSNSなどは公開設定が可能となっている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chosakusha_touroku_a6c2cc9684/chosakusha_touroku_a6c2cc9684.jpg" alt="chosakusha touroku.jpg" /></p>
+<h2>「分野横断権利情報検索システム」も同時運用</h2>
+<p>文化庁は同日、分野を横断して権利情報を検索できる「分野横断権利情報検索システム」も運用開始した。個人登録情報に加え、既存の権利管理団体が保有する情報などを横断的に検索できる仕組みとすることで、著作物の権利関係を確認しやすくする。</p>
+<p>両システムは連動し、権利情報の集約と可視化を進める。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kensakusystem_229cbd39fa/kensakusystem_229cbd39fa.jpg" alt="kensakusystem.jpg" /></p>
+<h2>未管理著作物裁定制度に向けた基盤整備</h2>
+<p>今回の取り組みは、令和5年の著作権法改正により創設された「<a href="https://www.bunka.go.jp/prmagazine/rensai/news/news_019.html">未管理著作物裁定制度</a>」の施行（2026年4月予定）を見据えた基盤整備の一環と位置付けられている。</p>
+<p>同制度は、権利者が不明な著作物や集中管理団体に属していない作品について、一定の手続きを経て利用を可能にするもの。制度の円滑な運用には、権利情報の所在や利用条件を把握しやすい環境整備が不可欠とされている。</p>
+<p><strong>未管理著作物裁定制度の手続きの流れ：</strong> 利用希望者はまず権利者情報の調査を行い、それでも所在や意思が確認できない場合に申請手続きへ進む。登録確認機関による裁定要件の確認や補償金額の決定を経て、一定期間内の利用が認められる仕組みとなっている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/img_019_01_d3294ddac2/img_019_01_d3294ddac2.jpg" alt="img-019-01.jpg" /></p>
+<h2>権利処理の円滑化へ</h2>
+<p>近年はデジタル配信や生成AIの普及により、個人による創作活動とその二次利用の機会が拡大している。一方で、権利者の所在が不明確なまま利用を断念するケースや、無断利用によるトラブルも課題となってきた。</p>
+<p>文化庁は、個人クリエイターが自ら利用条件を明示できる環境を整備することで、適正なライセンス利用の促進と、権利処理の円滑化を図るとしている。今後は利用状況を踏まえ、必要に応じて機能の拡充なども検討する。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
       <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
       <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
