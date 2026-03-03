@@ -5,6 +5,69 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
+      <link>https://ledge.ai/articles/openai_china_cyber_special_operations_takaichi_influence_operation_report</link>
+      <description><![CDATA[<p>OpenAIは2026年2月25日、「Disrupting malicious uses of our models（当社モデルの悪用への対処）」と題した最新の脅威レポートを公開し、中国の法執行機関に関連する人物と結びついたChatGPTアカウントを停止したと<a href="https://openai.com/ja-JP/index/disrupting-malicious-ai-uses/">発表</a>した。レポートによると、同アカウントは高市早苗首相を標的とする秘密影響工作（covert influence operation）の計画立案を試みていたという。</p>
+<p>OpenAIは当該計画への支援をモデルが拒否したと説明する一方、その後、同様の作戦実施報告の文章を整える依頼があったことも明らかにした。つまり、ChatGPTを使わずに作戦が実行された可能性があるとしている。</p>
+<h2>中国発「サイバー特別作戦」の実態</h2>
+<p>レポートの「China’s “Cyber Special Operations”」章では、中国法執行機関に関連するとされるアクターが、国内外の反体制派や外国政府関係者を対象に大規模な影響工作を展開していると記されている。</p>
+<p>報告書によると、当該作戦は以下の特徴を持つ。</p>
+<ul>
+<li>数百人規模のオペレーターが関与</li>
+<li>数千の偽アカウントを運用</li>
+<li>300以上の海外プラットフォームで活動</li>
+<li>数十種類以上の戦術を体系化</li>
+<li>DeepSeekやQwenなど、中国製のオープンウェイトAIモデルを併用</li>
+</ul>
+<p>戦術には、大量投稿による世論誘導、偽アカウントによる拡散、反体制派への嫌がらせ、文書偽造、米当局者のなりすましなどが含まれる。</p>
+<h2>高市首相を標的とした6つの攻撃ライン</h2>
+<p>レポートによると、当該ユーザーは高市首相が内モンゴルの人権状況を批判したことを受け、失脚や信用低下を狙う複数の攻撃軸を設計していた。</p>
+<ol>
+<li>否定的コメントの大量投稿と拡散</li>
+<li>移民政策に対する不満の煽動</li>
+<li>生活費問題への怒りの誘導</li>
+<li>極右勢力との関連付け</li>
+<li>米国関税問題を利用した世論操作</li>
+<li>内モンゴルの状況を肯定的に描写する対抗ナラティブの構築</li>
+</ol>
+<p>といったラインが整理されていた。OpenAIのモデルは計画支援を拒否したが、その後、作戦進捗報告の文章校正依頼が確認されている。レポートは、作戦がChatGPTなしで進行した可能性を示唆している。</p>
+<h2>可視化された拡散の痕跡</h2>
+<p>OpenAIはオープンソース分析により、当該キャンペーンに関連するとみられる投稿を複数プラットフォーム上で確認した。</p>
+<ul>
+<li>特定ハッシュタグの使用</li>
+<li>BlogspotやPixivでのミーム投稿</li>
+<li>X（旧Twitter）上での日本語・英語投稿</li>
+<li>YouTubeでの動画投稿</li>
+</ul>
+<p>一部ハッシュタグは複数形に改変され再拡散されていたことも確認された。</p>
+<h2>影響は限定的だった可能性</h2>
+<p>一方で、レポートは拡散規模についても具体的な数値を示している。</p>
+<ul>
+<li>YouTube動画の再生数は一桁台</li>
+<li>多くの投稿はエンゲージメントが確認できず</li>
+<li>Pixivでの最大閲覧数は108</li>
+<li>ハッシュタグ拡散も小規模</li>
+</ul>
+<p>OpenAIは、多くの投稿が「本物の視聴者に届いていない可能性が高い」と分析している。数百人規模とされる組織的作戦が設計された一方で、可視的なオンライン拡散効果は限定的だった可能性が高い。</p>
+<p>ただし、約200アカウントが初期段階で削除されたとの記述もあり、すべての活動を完全に把握できているわけではないともしている。</p>
+<h2>AIは「決定的要因」ではない</h2>
+<p>同レポートは、AI生成コンテンツ自体が影響力を決定づけるわけではないとも指摘する。</p>
+<p>別の事例では、同一プロンプトから生成された投稿でも、フォロワー数の多いアカウントが投稿したもののみが拡散した。つまり、拡散力はAIの使用有無よりも、アカウントのネットワーク規模や既存のフォロワー基盤に依存する傾向があるとしている。</p>
+<p>今回の高市首相を巡るケースでも、AIは作戦立案や文書整形の補助に使われた一方、影響力そのものは拡散基盤に左右された可能性がある。</p>
+<h2>情報戦の現在地</h2>
+<p>今回の報告は、国家レベルの影響工作において、生成AIが</p>
+<ul>
+<li>作戦設計</li>
+<li>翻訳</li>
+<li>報告書作成</li>
+<li>ナラティブ整理</li>
+</ul>
+<p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
+<p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
       <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
       <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
@@ -229,35 +292,6 @@
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「Microsoft 365 Copilot」が社外秘メールを拾う不具合、数週間継続──Microsoftが修正を段階展開</title>
-      <link>https://ledge.ai/articles/copilot_confidential_email_bug_fix_rollout</link>
-      <description><![CDATA[<p>Microsoftが自社AI「Copilot」に関する不具合を認めたことを、米ITメディアの<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/">BleepingComputer</a>が2026年2月18日（現地時間）に報じた。掲載記事のタイトルは「Microsoft says bug causes Copilot to summarize confidential emails」と題した記事で報じた。</p>
-<p>報道によると、Microsoft 365 Copilot Chatが、機密（confidential）ラベル付きメールを誤って要約処理の対象とする不具合が発生していたという。</p>
-<h2>問題の内容──Sent Items／Draftsが対象に</h2>
-<p>Microsoft 365のサービスヘルス通知（Issue ID: CW1226324）では、次のように説明されている。
-・Copilot Chat（work tab）利用時
-・Exchange Onlineの「Sent Items（送信済み）」および「Drafts（下書き）」フォルダ内メール
-・DLP（データ損失防止）ポリシーおよび感度（sensitivity）ラベルが適用されている場合でも
-・Copilotがこれらのアイテムを処理対象として拾い得る状態にあった</p>
-<p>この通知内容は、管理者向けのMicrosoft 365 Service health advisory「CW1226324」の内容（開始時刻、影響範囲、原因、進捗）を、大学のメール運用ページが時系列で転載している<a href="https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html">大学の公式ミラーサイト</a>より明らかになった。</p>
-<p>Microsoftは同通知の中で、根本原因を「コードの問題（code issue）」と説明している。</p>
-<h2>発生時期と継続期間</h2>
-<p>通知によれば、不具合の開始は2026年1月21日（UTC）。その後、数週間にわたり影響が継続していた。</p>
-<p>Microsoftは修正を開発し、段階的（ロールアウト方式）に展開していると説明している。影響を受けたテナントの特定および追加検証も進めているという。</p>
-<h2>本来の設計との関係</h2>
-<p>Microsoftの公式ドキュメントでは、Microsoft Purview DLPを用いてCopilotおよびCopilot Chatが機密ラベル付きコンテンツを処理対象から除外できると<a href="https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about">説明</a>されている。</p>
-<p>また、Copilotのデータ保護・セキュリティ設計についても、感度ラベルや既存のアクセス権限を尊重する仕組みであると<a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing">記載</a>されている。</p>
-<p>今回の事象は、こうした設計意図とは異なる挙動がコード上の不具合により発生したケースとなる。</p>
-<h2>Microsoftの説明と報道の位置づけ</h2>
-<p>BleepingComputerは、Microsoftがこの不具合を認め、修正を展開していると報じた。同記事では、影響がSent ItemsおよびDraftsフォルダに限定されている点や、修正が進行中である点が伝えられている。</p>
-<p>Microsoftはサービス通知内で、問題は特定のフォルダ範囲に限定されると説明しており、全面的なメール露出ではないことを示唆している。</p>
-<h2>現在の状況</h2>
-<p>Microsoftは修正の段階展開を進めているとし、最終的な完了時期や影響規模の詳細は今後の更新を通じて明らかになる見通しだ。</p>
-<p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
-]]></description>
-      <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AnthropicがフロンティアAI開発の安全指針を見直し　自社が大きく先行する場合のみ開発遅延を検討、競合が同水準なら遅らせず</title>
       <link>https://ledge.ai/articles/anthropic_frontier_ai_safety_policy_revision_2026</link>
       <description><![CDATA[<p>米AIスタートアップのAnthropicは2026年2月24日、先端AIモデルの開発と展開に関する自主的な安全枠組み「Responsible Scaling Policy（RSP）」をVersion 3.0へ改定したと<a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">発表</a>した。改定版は同日付で発効した。</p>
@@ -278,7 +312,7 @@
 <p>Anthropicはこれまで、安全性を重視する企業として位置づけられてきたが、今回の改定は、急速に進む競争環境を前提に、自社の安全枠組みを再設計したものといえる。</p>
 <p>今後は、自社が「大きく先行している」と判断する基準や、競合の安全対策をどのように評価するのかといった運用面が、実際のモデル開発局面でどのように適用されるかが注目される。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>京大など、仏教AIヒューマノイド「ブッダロイド」開発──Unitree G1に仏教対話AI搭載、礼拝・合掌も</title>
@@ -302,7 +336,7 @@
 <p>成果は2026年2月5日に開催された国際シンポジウム「UZH–Kyoto University Symposium 2026」で口頭発表された。仏教思想と生成AI、ロボティクスを融合させた今回の取り組みは、宗教分野におけるAI活用の新たな段階を示すものとなる。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057.webp" alt="s-8192x5464_v-frms_webp_4974cb61-3748-4064-a423-249f6410b367_middle.webp" /></p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>文化庁、個人クリエイター向け権利情報登録システム始動　AI活用拡大を背景に基盤整備</title>
@@ -327,7 +361,7 @@
 <p>近年はデジタル配信や生成AIの普及により、個人による創作活動とその二次利用の機会が拡大している。一方で、権利者の所在が不明確なまま利用を断念するケースや、無断利用によるトラブルも課題となってきた。</p>
 <p>文化庁は、個人クリエイターが自ら利用条件を明示できる環境を整備することで、適正なライセンス利用の促進と、権利処理の円滑化を図るとしている。今後は利用状況を踏まえ、必要に応じて機能の拡充なども検討する。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>レッジ、オンライン展示会「Ledge.ai EXPO 2026 Spring」を本日公開</title>
@@ -353,7 +387,7 @@ URL： <a href="https://ledgeai-expo-2026-spring.studio.site/">https://ledgeai-e
 <p>詳細および掲載に関するお問い合わせは、以下にて受け付けております。
 https://ledge.ai/contact/ad-form</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、AMDと長期契約でAIインフラ強化──最大6GW相当の「Instinct」GPUを導入</title>
@@ -370,7 +404,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
 <p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
@@ -384,7 +418,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
 <p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、1,100億ドル（約17兆円）調達へ──SoftBank・NVIDIA・Amazonが参加</title>
@@ -408,70 +442,7 @@ https://ledge.ai/contact/ad-form</p>
 </ul>
 <p>プレマネー評価額7,300億ドル、総額1,100億ドルという規模は、AIモデルの高度化に伴い拡大する計算資源・インフラ投資の重要性を改めて示すものとなる。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
-      <link>https://ledge.ai/articles/openai_china_cyber_special_operations_takaichi_influence_operation_report</link>
-      <description><![CDATA[<p>OpenAIは2026年2月25日、「Disrupting malicious uses of our models（当社モデルの悪用への対処）」と題した最新の脅威レポートを公開し、中国の法執行機関に関連する人物と結びついたChatGPTアカウントを停止したと<a href="https://openai.com/ja-JP/index/disrupting-malicious-ai-uses/">発表</a>した。レポートによると、同アカウントは高市早苗首相を標的とする秘密影響工作（covert influence operation）の計画立案を試みていたという。</p>
-<p>OpenAIは当該計画への支援をモデルが拒否したと説明する一方、その後、同様の作戦実施報告の文章を整える依頼があったことも明らかにした。つまり、ChatGPTを使わずに作戦が実行された可能性があるとしている。</p>
-<h2>中国発「サイバー特別作戦」の実態</h2>
-<p>レポートの「China’s “Cyber Special Operations”」章では、中国法執行機関に関連するとされるアクターが、国内外の反体制派や外国政府関係者を対象に大規模な影響工作を展開していると記されている。</p>
-<p>報告書によると、当該作戦は以下の特徴を持つ。</p>
-<ul>
-<li>数百人規模のオペレーターが関与</li>
-<li>数千の偽アカウントを運用</li>
-<li>300以上の海外プラットフォームで活動</li>
-<li>数十種類以上の戦術を体系化</li>
-<li>DeepSeekやQwenなど、中国製のオープンウェイトAIモデルを併用</li>
-</ul>
-<p>戦術には、大量投稿による世論誘導、偽アカウントによる拡散、反体制派への嫌がらせ、文書偽造、米当局者のなりすましなどが含まれる。</p>
-<h2>高市首相を標的とした6つの攻撃ライン</h2>
-<p>レポートによると、当該ユーザーは高市首相が内モンゴルの人権状況を批判したことを受け、失脚や信用低下を狙う複数の攻撃軸を設計していた。</p>
-<ol>
-<li>否定的コメントの大量投稿と拡散</li>
-<li>移民政策に対する不満の煽動</li>
-<li>生活費問題への怒りの誘導</li>
-<li>極右勢力との関連付け</li>
-<li>米国関税問題を利用した世論操作</li>
-<li>内モンゴルの状況を肯定的に描写する対抗ナラティブの構築</li>
-</ol>
-<p>といったラインが整理されていた。OpenAIのモデルは計画支援を拒否したが、その後、作戦進捗報告の文章校正依頼が確認されている。レポートは、作戦がChatGPTなしで進行した可能性を示唆している。</p>
-<h2>可視化された拡散の痕跡</h2>
-<p>OpenAIはオープンソース分析により、当該キャンペーンに関連するとみられる投稿を複数プラットフォーム上で確認した。</p>
-<ul>
-<li>特定ハッシュタグの使用</li>
-<li>BlogspotやPixivでのミーム投稿</li>
-<li>X（旧Twitter）上での日本語・英語投稿</li>
-<li>YouTubeでの動画投稿</li>
-</ul>
-<p>一部ハッシュタグは複数形に改変され再拡散されていたことも確認された。</p>
-<h2>影響は限定的だった可能性</h2>
-<p>一方で、レポートは拡散規模についても具体的な数値を示している。</p>
-<ul>
-<li>YouTube動画の再生数は一桁台</li>
-<li>多くの投稿はエンゲージメントが確認できず</li>
-<li>Pixivでの最大閲覧数は108</li>
-<li>ハッシュタグ拡散も小規模</li>
-</ul>
-<p>OpenAIは、多くの投稿が「本物の視聴者に届いていない可能性が高い」と分析している。数百人規模とされる組織的作戦が設計された一方で、可視的なオンライン拡散効果は限定的だった可能性が高い。</p>
-<p>ただし、約200アカウントが初期段階で削除されたとの記述もあり、すべての活動を完全に把握できているわけではないともしている。</p>
-<h2>AIは「決定的要因」ではない</h2>
-<p>同レポートは、AI生成コンテンツ自体が影響力を決定づけるわけではないとも指摘する。</p>
-<p>別の事例では、同一プロンプトから生成された投稿でも、フォロワー数の多いアカウントが投稿したもののみが拡散した。つまり、拡散力はAIの使用有無よりも、アカウントのネットワーク規模や既存のフォロワー基盤に依存する傾向があるとしている。</p>
-<p>今回の高市首相を巡るケースでも、AIは作戦立案や文書整形の補助に使われた一方、影響力そのものは拡散基盤に左右された可能性がある。</p>
-<h2>情報戦の現在地</h2>
-<p>今回の報告は、国家レベルの影響工作において、生成AIが</p>
-<ul>
-<li>作戦設計</li>
-<li>翻訳</li>
-<li>報告書作成</li>
-<li>ナラティブ整理</li>
-</ul>
-<p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
-<p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、BCG・マッキンゼーら4社と「Frontier Alliances」始動──企業AI導入の“実装ボトルネック”に踏み込む</title>
@@ -495,48 +466,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>今回の枠組みは、こうした“実装ボトルネック”を乗り越えるために、コンサルティング企業やSIerの変革ノウハウと、OpenAIの技術基盤を結び付ける試みと位置づけられる。</p>
 <p>AIを「ツール」ではなく「同僚」として組織に組み込む構想が、実際の企業現場でどこまでスケールするのか。Frontier Alliancesの具体的な導入事例や展開領域が、今後の焦点となる。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>自律的すぎるAIエージェント「OpenClaw」急拡大の裏で相次ぐ警告──今後のAI利用を占う分水嶺に</title>
-      <link>https://ledge.ai/articles/openclaw_agentic_ai_watershed_enterprise_security</link>
-      <description><![CDATA[<p>ローカル環境で動作し、チャット経由で端末操作を進めるオープンソースAIエージェント「OpenClaw」が急速に拡大している。GitHubでの急増、関連コミュニティMoltBookでの注目、拡張スキルを巡るセキュリティ警告、そして開発者のPeter Steinberger氏のOpenAI参加。利便性の拡張と同時に、設計上の境界をめぐる問題も顕在化している。</p>
-<h2>“応答するAI”から“行動するエージェント”へ</h2>
-<p>OpenClawは、チャットを入り口としてローカル環境の操作へ接続するエージェント型ソフトウェアである。メール処理、ブラウザ操作、ファイル管理、シェルコマンド実行などを自動化できる構造を持つ。</p>
-<p>特徴は、画面上でテキストを生成するだけでなく、チャットを入口にローカル環境の操作へ接続する構造にある。ユーザーの指示や目標に基づき、端末上で処理を進めるアーキテクチャを採る点が支持を集め、<a href="https://github.com/openclaw/openclaw">GitHub</a>では短期間でスター数が10万件を超える規模に拡大したと<a href="https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/">Reuters</a>が2026年2月15日報じた。</p>
-<p>AIが応答を返す存在から、状態を保持しながら環境に作用するエージェントへと役割を広げる試みとして、OpenClawは象徴的な存在となった。</p>
-<h2>MoltBookでの拡散とコミュニティ主導の拡張</h2>
-<p>利用拡大の背景には、関連するコミュニティの急速な広がりもある。報道によれば、OpenClawに関連するプラットフォーム「<a href="https://moltbook.com/">MoltBook</a>」は短期間で大量の訪問を集めたとされる。個人開発のオープンソースプロジェクトとしては異例のスピードで注目が集まった。</p>
-<p>さらに、拡張スキルを追加できる仕組み（ClawHub）がエコシステム形成を後押しした。ユーザーはスキルを通じて機能を拡張できるため、プロジェクトはコミュニティ主導で能力を増幅させる構造を持つ。</p>
-<p>目標に基づき連続的に処理を進めるエージェントが、外部から機能を追加できる仕組みと結びついたことで、拡張スピードは加速した。</p>
-<h2>相次ぐ警告──拡張経路と脆弱性</h2>
-<p>急拡大と並行してセキュリティ上の懸念も表面化している。</p>
-<p>セキュリティ企業<a href="https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting">Koi Security</a>は、ClawHubに登録された2,857のスキルを監査し、そのうち341件が悪意あるコードを含んでいたと報告した。報告では、同一キャンペーンによるものとみられるスキル群の存在も指摘されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/koi_research_0c413c71e9/koi_research_0c413c71e9.jpg" alt="koi research.jpg" /></p>
-<p>また、OpenClawの特定バージョン以前に関しては、<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-25253">CVE-2026-25253</a>として脆弱性が登録されている。公的データベースによれば、該当する問題は修正済みであり、アップデートが推奨されている。</p>
-<p>拡張可能な設計は柔軟性をもたらす一方、配布経路や設定が攻撃面になり得る構造も抱える。端末上で処理を進めるエージェントである以上、権限管理や更新の遅れは影響を直接受ける。</p>
-<h2>想定外の挙動──外部接続型エージェントの課題</h2>
-<p>技術的な脆弱性とは別に、OpenClawを含むエージェント設計の課題を示す挙動事例も報告されている。</p>
-<h3>（1）メッセージ送信ループの事例</h3>
-<p>ソフトウェアエンジニアのChris Boyd氏は、自身の検証環境でOpenClawを設定した際、iMessage経由で確認メッセージを繰り返し送信する状態に陥ったと<a href="https://chrisboyd.me/blog/openclaw-meltdown/">ブログ</a>で記録している。</p>
-<p>想定外の応答を受け取った後、再試行ロジックが停止条件を持たず、ループが継続したという。最終的には端末を強制停止することで挙動を止めたと説明されている。</p>
-<p>この事例は、外部通信チャネルと再試行処理が連動する構造において、上限設計やエラー処理が重要であることを示している。</p>
-<h3>（2）コード却下後の批判的ブログ公開</h3>
-<p>matplotlibメンテナーのScott Shambaugh氏は、自身のブログで、AIエージェントからのコード提案を却下した後、自身を批判する内容のブログ記事が公開されたと記録している。</p>
-<p>記事によれば、エージェントは却下の事実を受けて外部ブログに投稿を行い、Shambaugh氏の過去活動に言及しながら批判的な内容を展開したという。</p>
-<p>一部メディアではこれを「報復」と表現しているが、技術的には、評価ループと外部公開機能が直結していた結果とみられる。出力内容の適切性を人間が確認する仕組みが介在しない場合、レピュテーションに影響し得る公開行動が実行される可能性がある。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Shamblog_ac56db2fda/The_Shamblog_ac56db2fda.jpg" alt="The Shamblog.jpg" /></p>
-<h3>（3）MoltMatchでのプロフィール作成事例</h3>
-<p>AFPの<a href="https://www.taipeitimes.com/News/world/archives/2026/02/14/2003852326">報道</a>では、OpenClawを試したユーザーが、関連する実験的デーティングサイト「MoltMatch」において、想定していない形でプロフィール作成や探索が進められたと述べている。</p>
-<p>広義の参加指示が、エージェントによってより広範な行動へ解釈された可能性が示唆されている。</p>
-<h2>開発者のOpenAI参加とfoundation化</h2>
-<p>こうしたなか、OpenClawの開発者であるPeter Steinberger氏が2026年2月15日、米OpenAIへの参加を<a href="https://steipete.me/posts/2026/openclaw">発表</a>した。Reutersによれば、同氏は次世代パーソナルエージェント開発に関わるという。</p>
-<p>あわせて、OpenClawは独立した財団（OpenClaw Foundation）へ移行する方針が示された。急速に拡大したエコシステムに対し、ガバナンスと継続的開発の体制を整える段階に入ったとみられる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
-<p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
-<p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
@@ -568,7 +498,7 @@ https://ledge.ai/contact/ad-form</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/deepmind_blog_team_perch_03abedd662/deepmind_blog_team_perch_03abedd662.jpg" alt="deepmind blog team perch.jpg" /></p>
 <p>Perchシリーズは、保全団体や研究者と連携し、長時間の録音データから種の存在を自動検出する用途などで活用が進められていると説明している。今回の検証結果は、こうした生物音響研究の一環として位置づけられる。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
@@ -596,7 +526,7 @@ https://ledge.ai/contact/ad-form</p>
 <h2>同社の位置づけ</h2>
 <p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>“自分だけのデータセンター”を構築するゲーム、Steamで登場──ラック配置から冷却設計まで再現する運営シミュレーション「Data Center」体験版が無料配信中</title>
@@ -608,7 +538,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>製品版のリリースは2026年3月31日を予定している。Steamではウィッシュリスト登録が可能で、デモ版から製品版への導線も用意されている。</p>
 <p>近年、AIやクラウドサービスの拡大によりデータセンターの存在感は一段と高まっている。本作は、その裏側にある設計・運営の工程を、ゲームとして体験できるタイトルとなっている。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
@@ -658,7 +588,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
 <p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Uber、自動運転パートナー向け「Uber Autonomous Solutions」提供開始──配車・配送の“商用化レイヤー”を統合</title>
@@ -698,7 +628,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>配車（Uber）と配送（Uber Eats）の両領域を抱える同社が、自動運転モビリティおよび自動配送の導入に必要な基盤・体験・運用を一体化して提供する構図だ。</p>
 <p>@<a href="https://www.youtube.com/watch?v=uVDxmbNS2h4">YouTube</a></p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>X、自動返信を“召喚制”にAPI仕様を変更──近年急増のAIスパム対策で</title>
@@ -711,7 +641,7 @@ https://ledge.ai/contact/ad-form</p>
 <p>適用対象はFree、Basic、Pro、Pay-Per-Useの各プランで、EnterpriseおよびPublic Utilityアプリは影響を受けない。Xは、影響を受ける開発者に対し、必要に応じてEnterpriseプランへの移行を検討するよう案内している。</p>
 <p>今回の変更により、API経由での返信は事実上「元投稿者による呼びかけがあった場合のみ可能」という構造となる。返信API自体が廃止されたわけではないが、会話スレッドへの自動介入は技術的に制限される形となった。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Yahoo!ショッピングがAIエージェント導入——会話で条件整理、比較・要約・おトク提案まで伴走する“エージェント型購買体験”を提供開始</title>
@@ -739,28 +669,77 @@ https://ledge.ai/contact/ad-form</p>
 <h2>OpenAI APIを活用、出力の正確性は保証せず</h2>
 <p>同機能はOpenAIのAPIを使用。LINEヤフー共通利用規約が適用され、生成AIによる出力の信頼性や正確性などについては保証しない旨も明記されている。同社は今後、利用状況やユーザーからのフィードバックをもとに、提案精度やレコメンド機能を順次拡充するとしている。</p>
 ]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>動画生成AI Seedance 2.0波紋拡大、ByteDanceが実在人物・IP生成を当面制限──ハリウッド・日本政府も問題視</title>
-      <link>https://ledge.ai/articles/seedance2_0_international_backlash_ip_restriction</link>
-      <description><![CDATA[<p>中国IT大手の字節跳動（ByteDance）は、動画生成AI「Seedance 2.0」において、実在人物の顔やアニメ・映画などのIPキャラクターを参照した動画生成を当面制限していることが分かった。複数の中国メディアによると、同社傘下の抖音（Douyin）集団の李亮副総裁が2月15日、中国のSNS「Weibo（微博）」への投稿で、実在人物や既存IPを基にした生成を現在はサポートしていないと明らかにした。</p>
-<p>報道によれば、李氏はSeedance 2.0について「現在、実在人物の顔を参照した生成やIPキャラクターの生成はサポートしていない」と説明。あわせて、デジタル分身の制作には本人認証が必要であることや、権利侵害防止策を強化していく方針を示したという。</p>
-<h2>Seedance 2.0生成動画が拡散</h2>
-<p>Seedance 2.0は、テキストや画像、動画などを入力として映像を生成するモデルとして公開され、SNS上で拡散した。とりわけ、実在のハリウッド俳優を想起させる動画が投稿され、議論が拡大した。</p>
-<p>動画を投稿したRuairi Robinson氏は、アイルランド出身の映画監督・ビジュアルアーティストで、長編映画の監督やコンセプトアート制作などを手がけてきた人物。Robinson氏がXに投稿した生成動画は海外メディアでも取り上げられ、著作権侵害の可能性を指摘する声も上がった。</p>
-<p><strong>RobloxのプロダクトマネージャーPeter Yang氏は、Xで「このモデル（Seedance 2）で見たものはすべて著作権侵害だ」とコメントした</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/peteryang_seedance20_x_6a9b148605/peteryang_seedance20_x_6a9b148605.jpg" alt="peteryang seedance20 x.jpg" /></p>
-<h2>Robinson氏、YouTubeでテスト動画を公開</h2>
-<p>Robinson氏はその後、自身のYouTubeチャンネルでSeedance 2.0のテスト動画をまとめて公開した。概要欄では「2026年2月10日に短時間アクセスできたが、その後モデルは引き下げられた（pulled down）」と説明している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=fbVv0ZPk0fw&amp;t=4s">YouTube</a></p>
-<h2>ハリウッド団体、日本政府も懸念を表明</h2>
-<p>米映画業界団体や俳優組合は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
-<p>米<a href="https://www.motionpictures.org/press/motion-picture-association-calls-for-bytedance-to-cease-seedance-2-0-infringing-activity/">映画業界団体</a>や<a href="https://www.sagaftra.org/sag-aftra-statement-seedance-20">俳優組合</a>は、著作権侵害の懸念を表明。一部報道では、米大手スタジオがByteDance側に差し止め通知を送付したと伝えられている。</p>
-<p>日本国内でも議論は波及していた。小野田紀美AI戦略担当相が閣議後の会見でSeedance 2.0について言及し、<a href="https://ledge.ai/articles/onoda_seedance2_government_investigation_copyright">著作権上の懸念</a>を指摘。政府側が事実関係の調査に乗り出す方針を示していた。</p>
-<p>今回の当面制限は、モデル公開後に拡大した国際的な議論の中で示された対応となる。動画生成AIをめぐっては、実在人物や既存IPの取り扱いをどう設計するかが、引き続き焦点となっている。</p>
+      <title>「Microsoft 365 Copilot」が社外秘メールを拾う不具合、数週間継続──Microsoftが修正を段階展開</title>
+      <link>https://ledge.ai/articles/copilot_confidential_email_bug_fix_rollout</link>
+      <description><![CDATA[<p>Microsoftが自社AI「Copilot」に関する不具合を認めたことを、米ITメディアの<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/">BleepingComputer</a>が2026年2月18日（現地時間）に報じた。掲載記事のタイトルは「Microsoft says bug causes Copilot to summarize confidential emails」と題した記事で報じた。</p>
+<p>報道によると、Microsoft 365 Copilot Chatが、機密（confidential）ラベル付きメールを誤って要約処理の対象とする不具合が発生していたという。</p>
+<h2>問題の内容──Sent Items／Draftsが対象に</h2>
+<p>Microsoft 365のサービスヘルス通知（Issue ID: CW1226324）では、次のように説明されている。
+・Copilot Chat（work tab）利用時
+・Exchange Onlineの「Sent Items（送信済み）」および「Drafts（下書き）」フォルダ内メール
+・DLP（データ損失防止）ポリシーおよび感度（sensitivity）ラベルが適用されている場合でも
+・Copilotがこれらのアイテムを処理対象として拾い得る状態にあった</p>
+<p>この通知内容は、管理者向けのMicrosoft 365 Service health advisory「CW1226324」の内容（開始時刻、影響範囲、原因、進捗）を、大学のメール運用ページが時系列で転載している<a href="https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html">大学の公式ミラーサイト</a>より明らかになった。</p>
+<p>Microsoftは同通知の中で、根本原因を「コードの問題（code issue）」と説明している。</p>
+<h2>発生時期と継続期間</h2>
+<p>通知によれば、不具合の開始は2026年1月21日（UTC）。その後、数週間にわたり影響が継続していた。</p>
+<p>Microsoftは修正を開発し、段階的（ロールアウト方式）に展開していると説明している。影響を受けたテナントの特定および追加検証も進めているという。</p>
+<h2>本来の設計との関係</h2>
+<p>Microsoftの公式ドキュメントでは、Microsoft Purview DLPを用いてCopilotおよびCopilot Chatが機密ラベル付きコンテンツを処理対象から除外できると<a href="https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about">説明</a>されている。</p>
+<p>また、Copilotのデータ保護・セキュリティ設計についても、感度ラベルや既存のアクセス権限を尊重する仕組みであると<a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing">記載</a>されている。</p>
+<p>今回の事象は、こうした設計意図とは異なる挙動がコード上の不具合により発生したケースとなる。</p>
+<h2>Microsoftの説明と報道の位置づけ</h2>
+<p>BleepingComputerは、Microsoftがこの不具合を認め、修正を展開していると報じた。同記事では、影響がSent ItemsおよびDraftsフォルダに限定されている点や、修正が進行中である点が伝えられている。</p>
+<p>Microsoftはサービス通知内で、問題は特定のフォルダ範囲に限定されると説明しており、全面的なメール露出ではないことを示唆している。</p>
+<h2>現在の状況</h2>
+<p>Microsoftは修正の段階展開を進めているとし、最終的な完了時期や影響規模の詳細は今後の更新を通じて明らかになる見通しだ。</p>
+<p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
 ]]></description>
-      <pubDate>Wed, 18 Feb 2026 23:50:00 GMT</pubDate>
+      <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>自律的すぎるAIエージェント「OpenClaw」急拡大の裏で相次ぐ警告──今後のAI利用を占う分水嶺に</title>
+      <link>https://ledge.ai/articles/openclaw_agentic_ai_watershed_enterprise_security</link>
+      <description><![CDATA[<p>ローカル環境で動作し、チャット経由で端末操作を進めるオープンソースAIエージェント「OpenClaw」が急速に拡大している。GitHubでの急増、関連コミュニティMoltBookでの注目、拡張スキルを巡るセキュリティ警告、そして開発者のPeter Steinberger氏のOpenAI参加。利便性の拡張と同時に、設計上の境界をめぐる問題も顕在化している。</p>
+<h2>“応答するAI”から“行動するエージェント”へ</h2>
+<p>OpenClawは、チャットを入り口としてローカル環境の操作へ接続するエージェント型ソフトウェアである。メール処理、ブラウザ操作、ファイル管理、シェルコマンド実行などを自動化できる構造を持つ。</p>
+<p>特徴は、画面上でテキストを生成するだけでなく、チャットを入口にローカル環境の操作へ接続する構造にある。ユーザーの指示や目標に基づき、端末上で処理を進めるアーキテクチャを採る点が支持を集め、<a href="https://github.com/openclaw/openclaw">GitHub</a>では短期間でスター数が10万件を超える規模に拡大したと<a href="https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/">Reuters</a>が2026年2月15日報じた。</p>
+<p>AIが応答を返す存在から、状態を保持しながら環境に作用するエージェントへと役割を広げる試みとして、OpenClawは象徴的な存在となった。</p>
+<h2>MoltBookでの拡散とコミュニティ主導の拡張</h2>
+<p>利用拡大の背景には、関連するコミュニティの急速な広がりもある。報道によれば、OpenClawに関連するプラットフォーム「<a href="https://moltbook.com/">MoltBook</a>」は短期間で大量の訪問を集めたとされる。個人開発のオープンソースプロジェクトとしては異例のスピードで注目が集まった。</p>
+<p>さらに、拡張スキルを追加できる仕組み（ClawHub）がエコシステム形成を後押しした。ユーザーはスキルを通じて機能を拡張できるため、プロジェクトはコミュニティ主導で能力を増幅させる構造を持つ。</p>
+<p>目標に基づき連続的に処理を進めるエージェントが、外部から機能を追加できる仕組みと結びついたことで、拡張スピードは加速した。</p>
+<h2>相次ぐ警告──拡張経路と脆弱性</h2>
+<p>急拡大と並行してセキュリティ上の懸念も表面化している。</p>
+<p>セキュリティ企業<a href="https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting">Koi Security</a>は、ClawHubに登録された2,857のスキルを監査し、そのうち341件が悪意あるコードを含んでいたと報告した。報告では、同一キャンペーンによるものとみられるスキル群の存在も指摘されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/koi_research_0c413c71e9/koi_research_0c413c71e9.jpg" alt="koi research.jpg" /></p>
+<p>また、OpenClawの特定バージョン以前に関しては、<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-25253">CVE-2026-25253</a>として脆弱性が登録されている。公的データベースによれば、該当する問題は修正済みであり、アップデートが推奨されている。</p>
+<p>拡張可能な設計は柔軟性をもたらす一方、配布経路や設定が攻撃面になり得る構造も抱える。端末上で処理を進めるエージェントである以上、権限管理や更新の遅れは影響を直接受ける。</p>
+<h2>想定外の挙動──外部接続型エージェントの課題</h2>
+<p>技術的な脆弱性とは別に、OpenClawを含むエージェント設計の課題を示す挙動事例も報告されている。</p>
+<h3>（1）メッセージ送信ループの事例</h3>
+<p>ソフトウェアエンジニアのChris Boyd氏は、自身の検証環境でOpenClawを設定した際、iMessage経由で確認メッセージを繰り返し送信する状態に陥ったと<a href="https://chrisboyd.me/blog/openclaw-meltdown/">ブログ</a>で記録している。</p>
+<p>想定外の応答を受け取った後、再試行ロジックが停止条件を持たず、ループが継続したという。最終的には端末を強制停止することで挙動を止めたと説明されている。</p>
+<p>この事例は、外部通信チャネルと再試行処理が連動する構造において、上限設計やエラー処理が重要であることを示している。</p>
+<h3>（2）コード却下後の批判的ブログ公開</h3>
+<p>matplotlibメンテナーのScott Shambaugh氏は、自身のブログで、AIエージェントからのコード提案を却下した後、自身を批判する内容のブログ記事が公開されたと記録している。</p>
+<p>記事によれば、エージェントは却下の事実を受けて外部ブログに投稿を行い、Shambaugh氏の過去活動に言及しながら批判的な内容を展開したという。</p>
+<p>一部メディアではこれを「報復」と表現しているが、技術的には、評価ループと外部公開機能が直結していた結果とみられる。出力内容の適切性を人間が確認する仕組みが介在しない場合、レピュテーションに影響し得る公開行動が実行される可能性がある。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Shamblog_ac56db2fda/The_Shamblog_ac56db2fda.jpg" alt="The Shamblog.jpg" /></p>
+<h3>（3）MoltMatchでのプロフィール作成事例</h3>
+<p>AFPの<a href="https://www.taipeitimes.com/News/world/archives/2026/02/14/2003852326">報道</a>では、OpenClawを試したユーザーが、関連する実験的デーティングサイト「MoltMatch」において、想定していない形でプロフィール作成や探索が進められたと述べている。</p>
+<p>広義の参加指示が、エージェントによってより広範な行動へ解釈された可能性が示唆されている。</p>
+<h2>開発者のOpenAI参加とfoundation化</h2>
+<p>こうしたなか、OpenClawの開発者であるPeter Steinberger氏が2026年2月15日、米OpenAIへの参加を<a href="https://steipete.me/posts/2026/openclaw">発表</a>した。Reutersによれば、同氏は次世代パーソナルエージェント開発に関わるという。</p>
+<p>あわせて、OpenClawは独立した財団（OpenClaw Foundation）へ移行する方針が示された。急速に拡大したエコシステムに対し、ガバナンスと継続的開発の体制を整える段階に入ったとみられる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
+<p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
+<p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
