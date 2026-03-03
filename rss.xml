@@ -281,34 +281,6 @@
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「他人の脳波が読める」？──Kickstarter入手のスマートアイマスクに深刻な通信設計問題</title>
-      <link>https://ledge.ai/articles/brainwave_sleep_mask_vulnerability_kickstarter_mqtt_issue</link>
-      <description><![CDATA[<p>AIエンジニアのAimilios Chatzistamou氏は2026年2月12日、自身がクラウドファンディングサイトのKickstarterで購入した中国製のスマート睡眠マスクにおいて、通信設計上の重大な脆弱性を発見したと報告した。解析の結果、他人の脳波（EEG）データをリアルタイムで受信できる可能性があるほか、理論上は電気刺激機能にコマンドを送信できる構造だったという。</p>
-<p>同氏は自身の技術ブログで、製品名や企業名は公表しないと明言したうえで、アプリケーションのリバースエンジニアリング結果を<a href="https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/">公開</a>している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/My_smart_sleep_mask_broadcasts_users_brainwaves_to_an_open_MQTT_broker_7dae07966f/My_smart_sleep_mask_broadcasts_users_brainwaves_to_an_open_MQTT_broker_7dae07966f.jpg" alt="My smart sleep mask broadcasts users brainwaves to an open MQTT broker.jpg" /></p>
-<h2>アプリ内にハードコードされた認証情報</h2>
-<p>問題の発端は、スマートフォン向け公式アプリの解析だった。同氏によると、アプリ内部にMQTTブローカーへ接続するための高権限認証情報がハードコードされていた。</p>
-<p>MQTTはIoT機器で広く利用される軽量メッセージングプロトコルだが、本来は個別認証や適切なアクセス制御が求められる。同氏は、共通の認証情報を用いてブローカーへ接続できる状態になっていたと説明している。</p>
-<p>この設計により、外部から接続したクライアントが、他ユーザー由来とみられる生体データを購読（subscribe）できる状況が確認されたという。</p>
-<h2>他人のEEGデータをリアルタイム受信</h2>
-<p>当該製品は、睡眠トラッキングやリラクゼーション用途をうたい、EEG（脳波）を計測するセンサーを備えるウェアラブル機器とされる。</p>
-<p>同氏は、MQTTトピックを監視することで、リアルタイムで送信されるEEGデータを受信できたと記している。これが事実であれば、生体情報という極めて機微性の高いデータが適切な分離なく扱われていた可能性がある。</p>
-<p>現時点で、大規模なデータ流出が確認されているわけではないが、設計上の問題として重大だと指摘している。</p>
-<h2>電気刺激機能へのアクセス可能性</h2>
-<p>さらに同氏は、当該機器が軽度の電気刺激（EMS）や振動、加熱、オーディオ機能などを備えている点に言及。解析上、理論的にはこれらの機能に対する制御コマンドを送信できる構造であったと述べている。</p>
-<p>実際に危険な出力が可能かどうか、また安全制御がどの程度実装されているかについては検証していないとしているが、「身体に直接装着するデバイスに外部からアクセス可能な制御経路が存在すること自体が問題だ」との認識を示している。</p>
-<p>同氏は、製品名や企業名を公表しない判断を取っている。一部海外メディアは特定製品との関連を推測しているが、同氏は明示していない。本稿執筆時点で、メーカー側の公式声明や修正アップデートの有無は確認できていない。</p>
-<h2>民生向けニューロテックの設計課題</h2>
-<p>近年、EEG搭載のヘッドバンドやスマートマスクなど、脳活動を扱う民生向けウェアラブル製品は増加している。これらは医療機器ではないケースも多いが、</p>
-<p>・生体データを常時収集する
-・クラウドと接続される
-・身体に直接刺激を与える機能を持つ</p>
-<p>といった特徴を備える。</p>
-<p>今回の事例は、消費者向けニューロテック製品における通信設計とアクセス制御の重要性を改めて示すものとなった。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>京大など、仏教AIヒューマノイド「ブッダロイド」開発──Unitree G1に仏教対話AI搭載、礼拝・合掌も</title>
       <link>https://ledge.ai/articles/buddharoid_kyoto_university_unitree_g1_shorenin_public_release</link>
       <description><![CDATA[<p>2026年02月25日、京都大学（熊谷誠慈教授ら）とテラバース、XNOVAは、仏教経典を学習した生成AIを搭載するヒューマノイドロボット「ブッダロイド」を共同開発したことを<a href="https://www.kyoto-u.ac.jp/ja/research-news/2026-02-25">発表</a>した。京都市東山区の青蓮院門跡で公開された。</p>
@@ -558,6 +530,56 @@ https://ledge.ai/contact/ad-form</p>
 <p>@<a href="https://www.youtube.com/watch?v=T58hOjwdrHE">YouTube</a></p>
 <p>製品版のリリースは2026年3月31日を予定している。Steamではウィッシュリスト登録が可能で、デモ版から製品版への導線も用意されている。</p>
 <p>近年、AIやクラウドサービスの拡大によりデータセンターの存在感は一段と高まっている。本作は、その裏側にある設計・運営の工程を、ゲームとして体験できるタイトルとなっている。</p>
+]]></description>
+      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
+      <link>https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence</link>
+      <description><![CDATA[<p>トランプ大統領は2026年2月28日、連邦政府機関に対し、米AI企業Anthropicの技術利用を停止するよう指示した。同日、OpenAIは米国防総省（Department of Defense, DoD）との合意を発表し、安全条項を明示したうえで機密環境へのAI展開を進めると明らかにした。</p>
+<p>短期間のうちに、交渉停滞、供給網リスク指定の示唆、大統領による利用停止指示、そして別企業との契約合意が相次いだ。背景には、国防分野でのAI活用を巡る契約条件の解釈をめぐる対立があった。</p>
+<h2>交渉の争点は「合法用途」の範囲</h2>
+<p>米国防総省は近年、生成AIの導入を加速させている。情報分析、作戦計画、データ統合など、国家安全保障領域での活用が拡大している。Anthropicも、機密ネットワーク環境へのモデル提供を進めてきた企業の一つだ。</p>
+<p>しかし交渉の焦点となったのが、「any lawful use（あらゆる合法用途）」という条項だった。</p>
+<p>国防総省は、合法である限り包括的な利用を認める条件を求めた。一方、Anthropicは次の2用途について例外を維持していた。</p>
+<ul>
+<li>米国民に対する大規模国内監視</li>
+<li>完全自律型兵器</li>
+</ul>
+<h2>CEOが立場を公表</h2>
+<p>AnthropicのCEOダリオ・アモデイ氏は2月26日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">声明</a>を発表した。</p>
+<p><em><strong>“today’s frontier AI systems are simply not reliable enough to power fully autonomous weapons.”</strong></em>
+（現在の最先端AIシステムは、完全自律型兵器を動かすには信頼性が不十分である。）
+<em><strong>“we cannot in good conscience accede to their request.”</strong></em>
+（（倫理的・道義的）責任において、彼らの要求には応じられない。）</p>
+<p>同氏は、国家安全保障用途への協力自体を否定していないとしつつも、上記例外の撤廃には応じない姿勢を示した。</p>
+<h2>国防長官が供給網リスク指定を示唆</h2>
+<p>2月28日、ヘグセス国防長官はXに投稿。</p>
+<p><em><strong>“the Department of War must have full, unrestricted access to Anthropic’s models for every LAWFUL purpose”</strong></em>
+（国防総省はあらゆる合法目的でAnthropicのモデルに完全かつ無制限のアクセスを持つべきだ。）
+<em><strong>“I am directing the Department of War to designate Anthropic a Supply-Chain Risk to National Security.”</strong></em>
+（Anthropicを国家安全保障上の供給網リスクに指定するよう指示する。）</p>
+<p>と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pete_hegseth_x_7ff66a71e1/pete_hegseth_x_7ff66a71e1.jpg" alt="pete hegseth x.jpg" /></p>
+<h2>大統領が利用停止を指示</h2>
+<p>同日、トランプ大統領はTruth Socialで次のように<a href="https://truthsocial.com/@realDonaldTrump/116144552969293195">投稿</a>した。</p>
+<p><em><strong>“I am directing EVERY Federal Agency in the United States Government to IMMEDIATELY CEASE all use of Anthropic’s technology.”</strong></em>
+（米国政府のすべての連邦機関に対し、Anthropicの技術の使用を直ちに停止するよう命じる。）</p>
+<p>国防総省などについては6カ月の移行期間を設けるとした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/donald_J_trump_truth_dd6e5dc705/donald_J_trump_truth_dd6e5dc705.png" alt="donaldJ trump truth.png" /></p>
+<h2>Anthropicの反論</h2>
+<p>その後Anthropicは公式声明で、
+<em><strong>“No amount of intimidation or punishment from the Department of War will change our position.”</strong></em>
+（国防総省からのいかなる威圧や処罰も、我々の立場を変えることはない。）</p>
+<p>と述べ、供給網リスク指定の適法性を争う姿勢を示した。</p>
+<h2>OpenAIは「契約設計で担保できる」と説明</h2>
+<p>同28日、OpenAIは国防総省との合意内容を<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">公表</a>した。</p>
+<p>同社は声明の中で、自社も「大規模国内監視」と「自律兵器の指揮」には応じない立場であると明言している。そのうえで、これらの禁止事項は理念として掲げるだけでなく、契約条文と技術設計の双方で担保できると説明した。</p>
+<p>OpenAIはまず、「兵器を開発するのか」「AIが自律的に軍事作戦を遂行するのか」といった想定批判を取り上げ、いずれも否定した。モデルが自律的に戦闘を行うことはなく、兵器の設計・製造に関与するものでもないとした。</p>
+<p>また、国内監視への転用についても、米憲法修正第4条や関連法令を参照し、「無制約な監視（unconstrained monitoring）」を禁じる条項を契約内に組み込んだと説明している。</p>
+<p>技術面では、クラウド限定環境での展開を前提とし、モデルをエッジ配備しない構成を採用したと述べた。さらに、安全スタックの運用裁量を自社が保持し、監査ログや認証体制を通じて契約上の制限を実効的に維持できるとしている。</p>
+<p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
+<p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
 ]]></description>
       <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
