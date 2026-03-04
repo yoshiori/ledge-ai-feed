@@ -649,6 +649,26 @@ https://ledge.ai/contact/ad-form</p>
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>警察庁、生成AI悪用の児童画像加工114件を把握　同級生が約6割、被害の中心は中高生</title>
+      <link>https://ledge.ai/articles/police_agency_ai_child_image_manipulation_114_cases_2025</link>
+      <description><![CDATA[<p>警察庁は2026年2月26日、「令和7年における少年非行及び子供の性被害の状況」を<a href="https://www.npa.go.jp/publications/statistics/safetylife/pdf_r7_syonenkohosiryo.pdf">公表</a>し、児童（18歳未満）の画像を生成AI等で性的に加工し悪用した事案を2025年中に114件把握したと明らかにした。被害児童の約9割を中学生・高校生が占め、行為者の約6割が「同級生・同じ学校」の関係にあるという実態が示された。</p>
+<p>公表資料によると、取扱い事案数は114件で、前年（110件）から微増した。加工手法の内訳は、生成AIの使用が24件、画像加工アプリが2件、不明が88件だった。不明には、関係者の供述や画像の状況から生成や加工に生成AI等が用いられたと推測されるものの、特定に至らなかった事案が含まれる。</p>
+<p>被害児童の学職別内訳は、中学生66人、高校生32人、小学生6人、その他10人。中高生が合計98人となり、全体の約9割を占める。小学生の被害も確認されている。</p>
+<p>行為者と被害児童の関係別では、「同級生・同じ学校」が65件と約6割を占めた。SNS等を通じて知り合った者は10件、面識のある大人は7件、不明は28件、その他は4件だった。学校内の人間関係を背景とした事案が多数を占める構図が浮かび上がる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/keishicho_916363c000/keishicho_916363c000.jpg" alt="keishicho.jpg" /></p>
+<p>資料では、主な取扱い事案として、以下の例が挙げられている。</p>
+<p>・生成AIを使用した性的画像の作成を有料で請け負う成人男性が、男子高校生から女子生徒の画像の加工依頼を受け、作成した画像をSNS上で公開・拡散した事案
+・男子中学生が女子生徒のSNS投稿画像を生成AIで裸体画像に加工し、他の男子生徒に販売した事案
+・高校の男性実習助手が卒業アルバムの女子生徒の画像を第三者に提供し、加工後の画像がSNSで拡散した事案
+・保育施設内で撮影した女児の画像を女性の裸体画像と合成して所持していた事案
+・SNSで知り合った男子中学生の画像を性的に加工し、「拡散する」などと脅して電子マネーを要求した事案</p>
+<p>単なる画像改変にとどまらず、販売や拡散、恐喝にまで発展するケースも確認されている。</p>
+<p>警察庁は、相談者・被害者の心情に配意しつつ、事案の内容に応じて刑法（名誉毀損、わいせつ物頒布等）などでの検挙や指導・警告を実施していると説明。「潜在的な事案も含めて今後も注視すべき状況」としている。</p>
+<p>生成AIの普及に伴い、児童の画像を悪用した新たな被害形態が顕在化している実態が改めて示された。</p>
+]]></description>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>“自分だけのデータセンター”を構築するゲーム、Steamで登場──ラック配置から冷却設計まで再現する運営シミュレーション「Data Center」体験版が無料配信中</title>
       <link>https://ledge.ai/articles/steam_data_center_demo_free_release</link>
       <description><![CDATA[<p>PCゲーム配信プラットフォーム「Steam」で、データセンターの構築・運営をテーマにしたシミュレーションゲーム「Data Center」のデモ版（体験版）が<a href="https://store.steampowered.com/app/4376050/Data_Center_Demo/">無料配信</a>されている。リリース日は2026年1月30日。</p>
@@ -707,46 +727,6 @@ https://ledge.ai/contact/ad-form</p>
 <p>技術面では、クラウド限定環境での展開を前提とし、モデルをエッジ配備しない構成を採用したと述べた。さらに、安全スタックの運用裁量を自社が保持し、監査ログや認証体制を通じて契約上の制限を実効的に維持できるとしている。</p>
 <p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
 <p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Uber、自動運転パートナー向け「Uber Autonomous Solutions」提供開始──配車・配送の“商用化レイヤー”を統合</title>
-      <link>https://ledge.ai/articles/uber_autonomous_solutions_launch_commercialization_layer</link>
-      <description><![CDATA[<p>現地時間2026年2月23日、Uber Technologiesは、自動運転パートナー向けの新たな枠組み「Uber Autonomous Solutions」の提供開始を<a href="https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Unveils-Uber-Autonomous-Solutions-to-Accelerate-Autonomous-Mobility--Delivery-Worldwide/default.aspx">発表</a>した。配車サービスのUberやフードデリバリーのUber Eatsを展開する同社が、自動運転モビリティおよび配送の商用化を支援するサービス群を統合して提供する。</p>
-<h2>自動運転の“商用化”を支える3領域</h2>
-<p>「Uber Autonomous Solutions」は、自動運転パートナーがサービスを市場投入する際に必要となる要素を、Uberの既存プラットフォームや運用ノウハウとともに提供する枠組みだ。</p>
-<p>公式発表では、提供内容を以下の3領域に整理している。</p>
-<h3>1. Infrastructure（基盤）</h3>
-<p>商用展開に向けた前提条件を支える領域として、次のような要素が挙げられている。</p>
-<ul>
-<li>AV 2.0 Training Data</li>
-<li>データ拡張マッピング</li>
-<li>規制対応（regulatory access）</li>
-<li>フリート金融（financing） など</li>
-</ul>
-<p>自動運転車両の導入に必要なデータ基盤や資金面、各地域の規制対応までを含む設計となっている。</p>
-<h3>2. User Experience（ユーザー体験）</h3>
-<ul>
-<li>Uberの配車・配送プロダクト上で培われた体験設計を踏まえ、自動運転サービスに適用する。</li>
-<li>予約型サービス（Reserve）など既存機能との連携</li>
-<li>共有型サービス（Share）との組み合わせ</li>
-<li>車内体験設計</li>
-<li>カスタマーサポート対応</li>
-</ul>
-<p>自動運転車両そのものだけでなく、利用者が実際に使う際のアプリ体験やサポート体制を含めた設計が対象となる。</p>
-<h3>3. Fleet Operations（フリート運用）</h3>
-<ul>
-<li>運用面では以下の機能が含まれる。</li>
-<li>AV Mission Control（運行可視化・管制）</li>
-<li>Remote Assistance（遠隔支援）</li>
-<li>保険（insurance）などの運用支援</li>
-</ul>
-<p>実際の走行管理や異常対応、人による支援体制までを含め、商用運用に必要な周辺機能を束ねる構成となっている。</p>
-<h2>自社開発ではなく「パートナー支援」を前面に</h2>
-<p>発表資料では「partners」という語が繰り返し用いられており、Uber自身が自動運転技術を新たに開発するというよりも、パートナー企業の商用化を加速させる立場を明確にしている。</p>
-<p>配車（Uber）と配送（Uber Eats）の両領域を抱える同社が、自動運転モビリティおよび自動配送の導入に必要な基盤・体験・運用を一体化して提供する構図だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=uVDxmbNS2h4">YouTube</a></p>
 ]]></description>
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
