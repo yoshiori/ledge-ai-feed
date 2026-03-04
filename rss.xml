@@ -364,6 +364,25 @@
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Instagram、ティーンの自殺・自傷関連の「短期間の繰り返し検索」に保護者通知——AI利用拡大を踏まえ対話機能も年内導入へ</title>
+      <link>https://ledge.ai/articles/instagram_teen_selfharm_repeated_search_parental_alert_ai_expansion_2026</link>
+      <description><![CDATA[<p>Meta Platformsは米国時間2026年2月26日、同社が運営するInstagramにおいて、ティーンアカウントが自殺や自傷行為に関連する用語を短期間に繰り返し検索した場合、保護者に通知する新機能を導入すると<a href="https://about.fb.com/news/2026/02/new-meta-alerts-let-parents-know-if-teen-may-need-support/">発表</a>した。同機能は来週から米国、英国、オーストラリア、カナダで展開される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9.webp" alt="01_ADVANCE-NOTIF-FOR-PARENTS-TEENS_Carousel-02.webp" /></p>
+<h2>「短期間の繰り返し検索」が通知条件</h2>
+<p>今回導入される通知機能は、単発の検索ではなく、一定期間内に関連ワードを繰り返し検索した場合を対象とする。対象は、保護者による「Supervision（監督）」機能で連携されたティーンアカウントだ。</p>
+<p>条件を満たした場合、保護者には通知が送信される。通知はメール、SMS、WhatsApp、アプリ内通知など複数のチャネルで行われる。</p>
+<p>Metaはすでに、自殺・自傷関連の検索が行われた場合、支援団体の情報や相談窓口を表示する仕組みを提供している。今回の施策は、それに加えて保護者への情報共有を可能にするものとなる。</p>
+<h2>ティーンのAI利用増加を踏まえた拡張</h2>
+<p>Metaは今回の発表で、まずInstagram検索に対する保護者通知から開始すると説明する一方、ティーンが悩みやメンタルヘルスに関する相談先としてAIを利用する傾向が強まっているとの認識を示した。</p>
+<p>同社によれば、Instagram内で利用可能なAIは、すでにティーンに対して安全に応答するよう設計されており、適切にリソースを提示する仕組みが組み込まれている。</p>
+<p>そのうえでMetaは、特定のAI体験に対しても、検索と同様の保護者通知機能を構築中であることを明らかにした。AI対話向けの通知機能は、2026年内（later this year）に導入される予定で、現時点ではまだ提供されていない。</p>
+<h2>4カ国で先行展開</h2>
+<p>検索に関する保護者通知機能は、まず米国、英国、オーストラリア、カナダで提供開始となる。今後、他地域への拡大も予定している。</p>
+<p>Metaは近年、ティーン向けアカウントに対する安全対策を強化しており、今回の通知機能もその一環として導入される。</p>
+]]></description>
+      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>レッジ、オンライン展示会「Ledge.ai EXPO 2026 Spring」を本日公開</title>
       <link>https://ledge.ai/articles/ledgeai-expo-2026-spring</link>
       <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、2026年3月2日（月）より、最新のAIプロダクトやDXソリューションを一堂に紹介するオンライン展示会「Ledge.ai EXPO 2026 Spring」を公開いたしました。</p>
@@ -627,19 +646,6 @@ https://ledge.ai/contact/ad-form</p>
 <p>発表資料では「partners」という語が繰り返し用いられており、Uber自身が自動運転技術を新たに開発するというよりも、パートナー企業の商用化を加速させる立場を明確にしている。</p>
 <p>配車（Uber）と配送（Uber Eats）の両領域を抱える同社が、自動運転モビリティおよび自動配送の導入に必要な基盤・体験・運用を一体化して提供する構図だ。</p>
 <p>@<a href="https://www.youtube.com/watch?v=uVDxmbNS2h4">YouTube</a></p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>X、自動返信を“召喚制”にAPI仕様を変更──近年急増のAIスパム対策で</title>
-      <link>https://ledge.ai/articles/x_api_reply_restriction_ai_spam_countermeasure</link>
-      <description><![CDATA[<p>Xは2026年2月24日（現地時間）、X API v2における返信機能の仕様を変更し、API経由での自動返信（programmatic replies）を制限したと<a href="https://x.com/XDevelopers/status/2026084506822730185">発表</a>した。背景には、大規模言語モデル（LLM）を用いた自動返信スパムの増加があるという。</p>
-<p>同社の開発者向け公式アカウント「@XDevelopers」によると、対象となるのは POST /2/tweets エンドポイントを通じた返信投稿。今回の変更により、API経由での返信は、元投稿者が返信者を@メンションする、あるいはその投稿を引用（quote）した場合にのみ許可される。条件を満たさない返信は、API上で拒否される。</p>
-<p>従来は、認証されたアプリであれば “in_reply_to_tweet_id” を指定することで任意の投稿に返信することが可能だった。今後は、元投稿者による明示的な関与があった場合に限り返信が可能となる仕組みに改められる。通常の新規投稿（non-replies）については影響しない。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x_developers_0224_b09ec161a6/x_developers_0224_b09ec161a6.jpg" alt="x developers 0224.jpg" /></p>
-<p>開発者向けフォーラム（X Developer Community）で<a href="https://devcommunity.x.com/t/update-to-reply-behavior-in-x-api-v2-restricting-programmatic-replies/257909">公開</a>された説明によると、近年、APIを通じて生成された低品質な自動返信が会話スレッドに大量に挿入される事例が増加していたという。今回の措置は、こうした「automated reply spam」への対策として実施された。</p>
-<p>適用対象はFree、Basic、Pro、Pay-Per-Useの各プランで、EnterpriseおよびPublic Utilityアプリは影響を受けない。Xは、影響を受ける開発者に対し、必要に応じてEnterpriseプランへの移行を検討するよう案内している。</p>
-<p>今回の変更により、API経由での返信は事実上「元投稿者による呼びかけがあった場合のみ可能」という構造となる。返信API自体が廃止されたわけではないが、会話スレッドへの自動介入は技術的に制限される形となった。</p>
 ]]></description>
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
