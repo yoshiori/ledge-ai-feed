@@ -5,6 +5,299 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、Claudeの「大規模蒸留攻撃」を確認──DeepSeek・Moonshot・MiniMaxが不正抽出、約2.4万アカウントで1600万超のやり取り</title>
+      <link>https://ledge.ai/articles/anthropic_claude_industrial_scale_distillation_attack_deepseek_moonshot_minimax</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日（現地時間）、同社の大規模言語モデル（LLM）「Claude」から能力を不正に抽出する「産業規模（industrial-scale）」の蒸留（distillation）攻撃を確認したと<a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">発表</a>した。対象としてDeepSeek、Moonshot AI、MiniMaxの3社を挙げ、約2万4000の不正アカウントを通じて1600万超のやり取りが行われたとしている。</p>
+<h2>不正蒸留を「産業規模」と説明</h2>
+<p>検出された活動は、Claudeの出力を大量に収集し、それを競合モデルの改善や訓練に利用することを目的としたものだった。同社はこれを「illicit distillation（不正蒸留）」と位置付け、利用規約違反および地域アクセス制限違反に該当すると説明している。</p>
+<p>発表では、以下の規模が明らかにされた。</p>
+<ul>
+<li>約24,000の不正アカウント</li>
+<li>1,600万超の対話記録</li>
+<li>中国系AIラボ3社を名指し</li>
+</ul>
+<p>Anthropicは、単発のプロンプト自体は通常利用と見分けがつきにくいが、同種の問い合わせが数万単位で繰り返されることで、蒸留行為が明確になったとしている。</p>
+<h2>3社それぞれの活動内容</h2>
+<p>各社の活動内容についても具体的に言及している。</p>
+<ul>
+<li><strong>DeepSeek</strong> ：約15万件超の対話を実施。推論能力の抽出や採点用途（報酬モデル的活用）、センシティブな質問への応答生成などが観測されたという。また、Chain-of-thought（思考過程）を引き出すプロンプトも確認されたとしている。</li>
+<li><strong>Moonshot AI</strong> ：約340万件超の対話。エージェント型推論、ツール利用、コーディング、コンピュータ利用エージェント、視覚機能などを狙った利用があったと説明。後期には推論トレースの抽出も試みられたとしている。</li>
+<li><strong>MiniMax</strong> ：約1,300万件超の対話。エージェント型コーディングやツール利用、オーケストレーション能力の抽出を目的とした活動が確認された。Anthropicは稼働中に検知し、活動のライフサイクルを追跡できたとしている。また、新モデル公開後24時間以内にトラフィックが切り替えられたとも記している。</li>
+</ul>
+<h2>手口：「hydra cluster」と呼ばれる分散網</h2>
+<p>Anthropicは、中国では商用提供を行っていないと説明する一方、商用プロキシを通じたアクセス再販により、大規模な不正アカウント網が構築されたと指摘。同社はこれを「hydra cluster」と呼称している。</p>
+<p>発表では、単一ネットワークが2万超の不正アカウントを同時運用していた例も示された。トラフィックを分散させることで検知を回避しようとした形だという。</p>
+<h2>安全策の「剥離」リスク</h2>
+<p>Anthropicは、不正蒸留により作られたモデルは、元モデルが備える安全対策や制限が十分に継承されない可能性があると指摘。特に、サイバー悪用や生物兵器関連情報への対策など、高度な安全制御が失われるリスクを強調した。</p>
+<p>さらに、軍事・監視用途への転用や、オープンソース化による拡散の可能性にも言及している。</p>
+<h2>対応策：検知強化と業界連携</h2>
+<p>同社は以下の対応を講じたと説明している。</p>
+<ul>
+<li>分類器や行動指紋（behavioral fingerprinting）による蒸留検知</li>
+<li>chain-of-thought抽出パターンの識別</li>
+<li>不正アカウントの遮断</li>
+<li>他AIラボ、クラウド事業者、当局との情報共有</li>
+<li>本人確認の強化</li>
+<li>不正蒸留の効率を下げるモデル・APIレベルの防御策開発</li>
+</ul>
+<p>Anthropicは「単独企業では解決できない課題」とし、業界横断での対応の必要性を訴えている。</p>
+<h2>輸出規制との関係にも言及</h2>
+<p>発表では、蒸留攻撃が輸出規制の効果を別ルートで弱める可能性にも触れた。高度なチップへのアクセス制限は、直接的な大規模学習だけでなく、不正蒸留活動の抑制にも寄与するとしている。</p>
+<p>今回の公表についてAnthropicは「証拠を共有し、業界全体で対処するため」と説明。今後も監視と対策を継続するとしている。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AnthropicがフロンティアAI開発の安全指針を見直し　自社が大きく先行する場合のみ開発遅延を検討、競合が同水準なら遅らせず</title>
+      <link>https://ledge.ai/articles/anthropic_frontier_ai_safety_policy_revision_2026</link>
+      <description><![CDATA[<p>米AIスタートアップのAnthropicは2026年2月24日、先端AIモデルの開発と展開に関する自主的な安全枠組み「Responsible Scaling Policy（RSP）」をVersion 3.0へ改定したと<a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">発表</a>した。改定版は同日付で発効した。</p>
+<p>今回の見直しでは、自社が業界内で「大きく先行している（significant lead）」と判断される場合に限り、開発や展開の遅延を検討する方針を明文化した。一方で、競合他社が同等水準に達している、または追随していると判断される場合には、自社のみが開発を遅らせる義務は負わないと整理した。</p>
+<h2>「単独で止める」前提を修正</h2>
+<p>RSPは、将来的に「破滅的リスク（catastrophic risks）」をもたらし得る高度AIの管理を目的とする枠組みとして策定されたものだ。これまでも段階的な能力評価やリスク評価、社内外の審査体制を設けてきた。</p>
+<p>Version 3.0では、自社のコミットメントと、業界全体に対する推奨事項を明確に分離した。文書では、AIによるリスク水準は複数の企業の行動によって決まるとの認識を示し、一社のみが開発を停止しても、他社が同様の能力を持つモデルを展開すれば、全体のリスク低減にはつながらない可能性があると指摘している。</p>
+<p>このため、自社が明確に先行している場合には、強い安全性の裏付けが得られるまで開発や展開を遅らせる可能性があるとする一方、その「有意な先行」が解消されたと判断されれば、遅延措置は必ずしも適用されないとした。</p>
+<h2>競合動向を条件にした判断へ</h2>
+<p>改定版の付属文書（Appendix A）では、競合企業の安全対策やモデル能力も判断材料に含めると明示した。競合がより強固なリスク緩和策を導入している場合には、それに見合う水準を満たすまで遅延を検討する可能性がある。一方、競合が同等以上の能力をすでに展開している状況では、自社のみが停止することは前提としない構造となっている。</p>
+<p>こうした整理により、RSPは「自社単独で業界水準を規定する」形から、「競争環境を前提にリスク管理を行う」形へと位置づけを修正した格好だ。</p>
+<p>なお、AnthropicはフロンティアAIの安全管理にあたり、モデルの危険度に応じて安全措置を段階化する「<a href="https://ledge.ai/articles/claude_opus4_asl3_safety_policy">ASL（AI Safety Level）</a>」を運用している。ASLは、能力水準に応じて必要な安全対策の強度を定める枠組みで、同社は過去に最上位区分を適用した事例も公表している。RSP v3.0は、こうしたリスク評価を前提に、開発・展開の意思決定や透明性の在り方を整理したものと位置づけられる。</p>
+<h2>透明性強化へ「Risk Report」新設</h2>
+<p>Version 3.0では新たに、モデルごとのリスク評価をまとめた「Risk Report」を定期的に公開する仕組みを導入する。脅威モデル、緩和策、総合的なリスク判断などを記載し、オンラインで公表する方針だ。公開は3〜6か月ごとを想定している。</p>
+<p>また、「Frontier Safety Roadmap」として、安全・整合性・セキュリティ・政策の各領域における目標と進捗を示す枠組みも新設した。外部から進捗を確認できる形で説明責任を強化する。</p>
+<h2>開発競争の激化が背景</h2>
+<p>生成AIを巡っては、OpenAIやGoogleなどが高性能モデルを相次いで投入しており、性能向上と安全対策の両立が課題となっている。</p>
+<p>Anthropicはこれまで、安全性を重視する企業として位置づけられてきたが、今回の改定は、急速に進む競争環境を前提に、自社の安全枠組みを再設計したものといえる。</p>
+<p>今後は、自社が「大きく先行している」と判断する基準や、競合の安全対策をどのように評価するのかといった運用面が、実際のモデル開発局面でどのように適用されるかが注目される。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple、MacBook Proを刷新　最新チップ「M5 Pro」「M5 Max」搭載　オンデバイスAI処理など高負荷ワークフロー向け</title>
+      <link>https://ledge.ai/articles/apple_macbook_pro_m5_pro_max_ai</link>
+      <description><![CDATA[<p>Appleは2026年3月3日（現地時間）、ノートPC「MacBook Pro」の新モデルを<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/">発表</a>した。新たに同社の最新チップ「M5 Pro」「M5 Max」を搭載し、オンデバイスAI処理を含む高負荷ワークフローの性能を強化した。予約は3月4日に開始し、3月11日に発売する。</p>
+<h2>MacBook Proを刷新、AIワークフローを強化</h2>
+<p>今回発表されたMacBook Proは、Apple Siliconの新世代チップであるM5 ProおよびM5 Maxを搭載する。Appleはこれらのチップにより、動画制作やソフトウェア開発、機械学習処理などのプロフェッショナル用途に加え、オンデバイスAIを活用するアプリケーションの処理能力を向上させたとしている。</p>
+<p>また、新モデルではThunderbolt 5への対応や高速SSDの採用など、プロ用途のワークフローを支える接続性やストレージ性能も強化された。</p>
+<h2>AI処理を想定した新チップ「M5 Pro」「M5 Max」</h2>
+<p>Appleは同日、M5 ProおよびM5 Maxチップの詳細も<a href="https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/">発表</a>した。これらはAI処理や高性能計算を想定して設計されたApple Siliconの最新世代チップで、CPU、GPU、Neural Engine、統合メモリなどの構成が強化されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Apple_M5_Pro_M5_Max_chips_260303_big_jpg_large_2x_3b55f6ca9f/Apple_M5_Pro_M5_Max_chips_260303_big_jpg_large_2x_3b55f6ca9f.jpg" alt="Apple-M5-Pro-M5-Max-chips-260303_big.jpg.large_2x.jpg" /></p>
+<p>特にGPUでは各コアにNeural Acceleratorを組み込む設計が採用されており、AI推論や機械学習処理をGPUレベルで高速化できる構造となっている。</p>
+<p>M5 Maxでは最大40コアGPUや最大128GBのユニファイドメモリに対応し、大規模データ処理やAI推論などの処理性能を高めた。Appleはこれらのチップにより、制作作業やAI処理を含む「最も要求の厳しいワークフロー」を高速化できるとしている。</p>
+<h2>Apple IntelligenceなどAI機能との連携</h2>
+<p>新しいMacBook Proは、Appleが提供するAI機能群「Apple Intelligence」や最新macOSとの連携も想定されている。オンデバイスAI処理能力の向上により、AI機能を利用したアプリケーションや開発環境の処理効率の改善が期待される。</p>
+<h2>同日、MacBook AirもM5で更新</h2>
+<p>Appleは同日、一般向けノートPC「MacBook Air」にも新チップM5を搭載した新モデルを<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/">発表</a>した。これによりMacBook AirとMacBook Proの両シリーズがM5世代のApple Siliconへ移行し、Mac全体でAI処理性能の強化が進む形となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Apple_Mac_Book_Air_hero_260303_big_jpg_large_2x_bccdf012d7/Apple_Mac_Book_Air_hero_260303_big_jpg_large_2x_bccdf012d7.jpg" alt="Apple-MacBook-Air-hero-260303_big.jpg.large_2x.jpg" /></p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>京大など、仏教AIヒューマノイド「ブッダロイド」開発──Unitree G1に仏教対話AI搭載、礼拝・合掌も</title>
+      <link>https://ledge.ai/articles/buddharoid_kyoto_university_unitree_g1_shorenin_public_release</link>
+      <description><![CDATA[<p>2026年02月25日、京都大学（熊谷誠慈教授ら）とテラバース、XNOVAは、仏教経典を学習した生成AIを搭載するヒューマノイドロボット「ブッダロイド」を共同開発したことを<a href="https://www.kyoto-u.ac.jp/ja/research-news/2026-02-25">発表</a>した。京都市東山区の青蓮院門跡で公開された。</p>
+<p>プロジェクトは、テキストベースの仏教対話AIに「身体性」を付与し、対面環境での相互作用を可能にすることを目的とする。ベース機体にはUnitree Robotics製のヒューマノイド「Unitree G1」を採用し、仏教対話AI「ブッダボットプラス」と連携させた。</p>
+<h2>Unitree G1に仏教対話AIを統合</h2>
+<p>開発体制は、京都大学熊谷ラボが宗教思想・仏教AI研究を担い、テラバースが仏教対話AIを開発、XNOVAがヒューマノイド実装を担当する形で構成された。</p>
+<p>ブッダロイドには、仏教経典を学習した対話AIが搭載されている。利用者の音声入力を認識し、仏教的観点に基づく応答文を生成し、音声合成によって発話する。さらに、発話内容や状況に応じて身体動作を制御する仕組みを備える。</p>
+<h2>礼拝・合掌など宗教的所作を実装</h2>
+<p>XNOVAは、宗教空間に適した身体動作の設計・実装を行った。公開された資料によれば、ブッダロイドは以下の所作を行う。
+・ゆるやかな歩行
+・相手に敬意を示す礼拝動作
+・仏教における代表的な所作である合掌</p>
+<p>これらの動作は、単なるロボット動作ではなく、宗教的意味を伴う振る舞いとして設計されている。開発側は、チャットボットやARアバターでは得にくい「身体的存在感」を付与する点を特徴としている。</p>
+<h2>「身体性」を獲得した仏教AI</h2>
+<p>京都大学の資料では、従来のテキスト対話型AIやAR仏教アバターの延長線上に、本プロジェクトを位置付けている。対話AIが物理的身体を持つことで、利用者との関係性や宗教体験の質がどのように変化するかを検証する狙いがある。</p>
+<p>今後は、身体性付与による利点だけでなく、倫理・法・社会的課題（ELSI）についても議論を進めるとしている。</p>
+<h2>宗教儀礼の補助・代替の可能性にも言及</h2>
+<p>公開資料では、将来的に人間の僧侶が担ってきた宗教儀礼の一部を補助、あるいは代替する可能性にも触れている。ただし、現段階では研究開発の一環として位置付けられている。</p>
+<p>成果は2026年2月5日に開催された国際シンポジウム「UZH–Kyoto University Symposium 2026」で口頭発表された。仏教思想と生成AI、ロボティクスを融合させた今回の取り組みは、宗教分野におけるAI活用の新たな段階を示すものとなる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057.webp" alt="s-8192x5464_v-frms_webp_4974cb61-3748-4064-a423-249f6410b367_middle.webp" /></p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>文化庁、個人クリエイター向け権利情報登録システム始動　AI活用拡大を背景に基盤整備</title>
+      <link>https://ledge.ai/articles/bunka_cho_creator_rights_registration_system_ai_background</link>
+      <description><![CDATA[<p>文化庁は2026年2月26日、音楽や漫画、ゲームなどの個人クリエイターが自身の作品情報や第三者による利用可否を登録できる「個人クリエイター等権利情報登録システム」の運用を開始したと<a href="https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/94333101.html">発表</a>した。近年のAI活用拡大やデジタル流通の進展を背景に、著作物の権利情報を可視化し、円滑な利用を促す基盤整備を進める。</p>
+<h2>登録できる情報と仕組み</h2>
+<p>「個人クリエイター等権利情報登録システム」は、個人が創作した著作物について、権利者情報や利用条件などをオンラインで登録できる仕組み。対象分野は音楽、漫画、イラスト、文章、映像、ゲームなど幅広い。</p>
+<p>登録はマイナンバーカードを用いた公的個人認証により本人確認を行う。一方で、登録者氏名や生年月日などの本人確認情報は公開対象ではなく、公開項目はシステム上で明示されている。</p>
+<p>公開されるのは、著作者名（著作者等）やそのカナ表記、著作物の利用可否など、創作活動や利用判断に必要な情報が中心となる。利用希望者はこれらの情報を参照し、利用条件を確認したうえで権利者に連絡できる仕組みとなっている。</p>
+<p><strong>登録画面では「必須」と「公開」項目が明示されている。本名や生年月日は公開対象ではないが入力必須。一方で略歴やSNSなどは公開設定が可能となっている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chosakusha_touroku_a6c2cc9684/chosakusha_touroku_a6c2cc9684.jpg" alt="chosakusha touroku.jpg" /></p>
+<h2>「分野横断権利情報検索システム」も同時運用</h2>
+<p>文化庁は同日、分野を横断して権利情報を検索できる「分野横断権利情報検索システム」も運用開始した。個人登録情報に加え、既存の権利管理団体が保有する情報などを横断的に検索できる仕組みとすることで、著作物の権利関係を確認しやすくする。</p>
+<p>両システムは連動し、権利情報の集約と可視化を進める。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kensakusystem_229cbd39fa/kensakusystem_229cbd39fa.jpg" alt="kensakusystem.jpg" /></p>
+<h2>未管理著作物裁定制度に向けた基盤整備</h2>
+<p>今回の取り組みは、令和5年の著作権法改正により創設された「<a href="https://www.bunka.go.jp/prmagazine/rensai/news/news_019.html">未管理著作物裁定制度</a>」の施行（2026年4月予定）を見据えた基盤整備の一環と位置付けられている。</p>
+<p>同制度は、権利者が不明な著作物や集中管理団体に属していない作品について、一定の手続きを経て利用を可能にするもの。制度の円滑な運用には、権利情報の所在や利用条件を把握しやすい環境整備が不可欠とされている。</p>
+<p><strong>未管理著作物裁定制度の手続きの流れ：</strong> 利用希望者はまず権利者情報の調査を行い、それでも所在や意思が確認できない場合に申請手続きへ進む。登録確認機関による裁定要件の確認や補償金額の決定を経て、一定期間内の利用が認められる仕組みとなっている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/img_019_01_d3294ddac2/img_019_01_d3294ddac2.jpg" alt="img-019-01.jpg" /></p>
+<h2>権利処理の円滑化へ</h2>
+<p>近年はデジタル配信や生成AIの普及により、個人による創作活動とその二次利用の機会が拡大している。一方で、権利者の所在が不明確なまま利用を断念するケースや、無断利用によるトラブルも課題となってきた。</p>
+<p>文化庁は、個人クリエイターが自ら利用条件を明示できる環境を整備することで、適正なライセンス利用の促進と、権利処理の円滑化を図るとしている。今後は利用状況を踏まえ、必要に応じて機能の拡充なども検討する。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>企業のAI戦略を左右するサーバー選びとは―デル・テクノロジーズが語る、オンプレミスAI基盤とソブリンAIの重要性</title>
+      <link>https://ledge.ai/articles/delltechnologies_okano_interview</link>
+      <description><![CDATA[<p>AI活用が概念実証（PoC）の段階を終え、いよいよ本格的なビジネス運用フェーズへと移行しつつある今、AI戦略の成否を分けるインフラ選択の重要性はかつてなく高まっている。多くの企業が「クラウドファースト」で AI基盤を検討する中で、いま改めて「オンプレミス」という選択肢が、コスト、セキュリティ、そして事業継続性の観点から再評価されている。</p>
+<p>本記事では、デル・テクノロジーズ株式会社の岡野家和氏へのインタビューに基づき、具体的な国内事例から見えてくるコストや性能面での優位性に加え、自社のデータとAIモデルに対する「主権」を確保し、企業の競争力を守る「ソブリンAI」という重要な概念についても、専門家の視点から詳しく解説する。</p>
+<h2>オンプレミスAIは「超巨大プロジェクト」だけのもの、ではない</h2>
+<p>AIのためのオンプレミスGPU サーバーと聞くと、多くの企業が国家レベルや数億円規模の巨大な研究開発プロジェクトを想像するかもしれない。しかし、そのイメージはもはや過去のものである。実際には、より具体的で身近なビジネス課題を解決するために、小規模からオンプレミスAI基盤を導入し、着実に成果を上げている国内企業が増えている。本セクションでは、その具体的な事例を紐解く。</p>
+<p><strong>事例1：クラウドとのコスト比較でオンプレを選択したMASSホールディングス様</strong></p>
+<p>美容業界のDXを推進するMASSホールディングス社は、AI活用にあたり、当初は多くの企業と同様にパブリッククラウドのGPUサービスを検討した。しかし、同社はオンプレミスサーバーの導入コストとクラウドの利用料を厳密に比較検討した結果、「NVIDIA H100 搭載サーバーを購入した方が安い」という結論に至り、デル・テクノロジーズのGPUサーバー導入を決定した。</p>
+<p>同社がAIを活用する用途は、「リアルタイムのヘアカラーシミュレーション」による顧客体験の向上や、「サプライチェーンにおける需要予測」の精度向上など、ビジネスに直結するものである 。この事例は、決して超巨大プロジェクトでなくとも、コスト合理性の観点からオンプレミスが有力な選択肢となり得ることを明確に示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/03_dae7d1c7b7/03_dae7d1c7b7.png" alt="03.png" /></p>
+<p><strong>事例2：サーバーとクライアントPCを一括導入したオー・エル・エム・デジタル様</strong></p>
+<p>アニメ制作業界のトップランナーであるオー・エル・エム・デジタル社は、産官学連携プロジェクトの中核を担うAI基盤として、デル・テクノロジーズのGPUサーバーを導入した。この事例で注目すべきは、デル・テクノロジーズがサーバーだけでなく、AI開発に用いる高性能なワークステーション（クライアントPC）も提供している点である。</p>
+<p>AI開発環境をエンドツーエンドで、つまりサーバーからクライアントまで一括で提案・導入できることは、システム全体の整合性やサポートの一元化という点で大きな強みとなる。オー・エル・エム・デジタル社は、この総合力を評価し、デル・テクノロジーズをパートナーとして選択した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/04_57f55e92cb/04_57f55e92cb.png" alt="04.png" /></p>
+<p>これらの公開事例は、より広範で加速しつつあるトレンドの氷山の一角である。岡野氏が指摘するように、デル・テクノロジーズには同様の規模のプロジェクトに関する問い合わせが幅広い企業から著しく増加しており、その多くは公表されていない。この事実は、オンプレミス AI が特定のビジネス課題を解決するための主流の選択肢になりつつあることを証明している。</p>
+<h2>企業の競争優位性を守る「ソブリンAI」という考え方</h2>
+<p>「ソブリンAI」という言葉は、元々、国家や政府が自国のデータやAI技術に対する主権を確保するという文脈で語られてきた。しかし、AI活用がビジネスの中核を担うようになった現代において、この考え方は企業経営にも当てはまる。自社の生命線であるデータ、独自に開発したAIモデル、そしてその運用に対する「主権」を自社の管理下に置くことは、将来の競争優位性を確立するための極めて重要な戦略である。</p>
+<p><strong>ソブリンAIを構成する「3つの主権」</strong></p>
+<p>企業のソブリンAIは、以下の3つの主権によって構成される。</p>
+<ul>
+<li>データの主権： 自社のデータがどこで処理・保管され、誰にアクセスされるか管理する権利</li>
+<li>モデルの主権： 利用するAIモデルの学習・推論環境を自社で制御できるか</li>
+<li>運用の主権： AIの運用（セキュリティ、可用性、コスト）を自社のポリシーで最適化できるか</li>
+</ul>
+<p><strong>なぜオンプレミスが強力な選択肢となるのか</strong></p>
+<p>パブリッククラウドを利用する場合、利便性の高さと引き換えに、ある程度の主権をクラウド事業者に委ねる構造になっている。例えば、ユーザーは自社が望む特定の暗号化アルゴリズムや管理プロトコルを選択できないことが多く、さらには自社のデータが物理的にどこに保管されているかを正確に知ることすらできない場合がある。</p>
+<p>一方でオンプレミスは、これらの主権をすべて自社で保持することが可能である。特に、製造業における設計データのように外部への持ち出しが許されない情報や、取引先から求められる特定の厳格なコンプライアンス要件に応える必要がある場合など、運用を自社で完全にコントロールしたいというニーズに、オンプレミスは直接的に応えることができる。
+主権の確保という戦略的な側面に加え、コストや性能といったより実用的な観点からもオンプレミスのメリットは存在する。</p>
+<h2>最新GPUの性能を最大化する、デル・テクノロジーズの「専用設計」</h2>
+<p>AIインフラ、特にGPUサーバーにおいて、現在最も重要な技術的課題は「冷却」である。NVIDIA社のGPUは世代を重ねるごとに性能が飛躍的に向上しているが、それに伴い消費電力と発熱量も急激に増大している。例えば、最新のBlackwell世代であるB200は1GPU あたり 最大約1200W、B300に至っては約1400Wという膨大な電力を消費し、そのほとんどが熱として放出される。この「熱」をいかに効率的に冷却し、GPUの性能を安定して引き出し続けるかが、サーバーベンダーの技術力、まさに腕の見せ所となっている。</p>
+<p><strong>空冷と水冷、両輪での最適なポートフォリオ</strong></p>
+<p>デル・テクノロジーズは、この冷却という課題に対し、二つのアプローチで対応してる。一つは、多くの企業が持つ従来のデータセンター環境で利用可能な「空冷」システム。もう一つは、最新・最上位GPUの性能を限界まで引き出すための「水冷」システムだ。この両輪を網羅したサーバーラインナップから、顧客はプロジェクトの規模、予算、既存の施設環境に応じて最適な冷却方式を選択できる、幅広いポートフォリオを提供している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/05_d1c459d9c4/05_d1c459d9c4.png" alt="05.png" /></p>
+<p><strong>実測値で見るBlackwell世代の圧倒的性能</strong></p>
+<p>最新世代GPUサーバーの性能は、デル・テクノロジーズのサーバーにおける実測値でも証明されている。水冷の最新サーバーに搭載されたNVIDIA B200 GPUは、NVIDIA H100を搭載した空冷サーバーと比較して、LLMの追加学習で2.47倍、画像生成で2.28倍という圧倒的な性能を記録したベンチマーク結果が出ている。</p>
+<p>また水冷だけでなく従来の空冷環境でも非常に高いパフォーマンスが報告されている。前世代のL40Sと比較してトークン生成速度が4.8倍に達しただけでなく、ハイエンドのH100と比較しても電力効率で1.6倍、対話型AIの応答時間では2.7倍高速という、予想を上回る結果が出てきている。</p>
+<p><strong>冷却効率を極限まで高めるサーバー内部の「専用設計」</strong></p>
+<p>こうした高いパフォーマンスの達成は、デル・テクノロジーズの緻密な「専用設計」思想の直接的な結果だという。</p>
+<p>例えば、4Uサイズの8GPUサーバーでは、CPUを搭載する区画とGPUを搭載する区画で冷却ファンを完全に分離・専用化。サーバー前面に配置された12個の巨大なファンは、その能力のほぼすべてを最も発熱量の大きいGPUの冷却に集中させる構造になっている。さらに、GPUを冷却した後の熱い空気が他のコンポーネントに影響を与えないよう、シュラウド（仕切り板）で空気の流れを厳密に分離するなど、細部にわたるこだわりが極めて高い冷却性能を実現している。</p>
+<p>そして、この優れたハードウェアの状態を正確に把握し、効率的に管理・運用するためのインテリジェンスもまた、AI基盤の価値を大きく左右する重要な要素だという。すべてのPowerEdgeサーバーに標準搭載されている管理プロセッサー「iDRAC」は、GPU 単位での温度と電力消費状況のリアルタイム監視を可能にする。これは安定運用の要であり、実際に導入した企業からも極めて高く評価されているという。</p>
+<h2>ハードウェアだけではない、デル・テクノロジーズが選ばれる理由</h2>
+<p>「どのベンダーのサーバーでも、搭載されている NVIDIA GPU が同じなら性能も同じではないか？」こうした疑問を持つ方もいるかもしれない。しかし、実際の運用効率、システムの信頼性、そして将来にわたるセキュリティにおいて、サーバーベンダー独自の機能やサポート体制が決定的な差を生み出す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/06_a183b106e7/06_a183b106e7.png" alt="06.png" /></p>
+<p>デル・テクノロジーズは、豊富なGPUサーバーラインナップに加え、以下の強みを総動員し、企業のAI戦略を成功へと導く。</p>
+<ul>
+<li>強力な供給力とサプライチェーン：サーバーだけではない圧倒的な取引規模がNVIDIAとの強力なパートナーシップを築き、最新GPUの安定供給を可能にしている。</li>
+<li>手厚い国内サポート：外資系ベンダーとしては珍しく、サーバーのサポートコールを国内の正社員エンジニアが一次対応から行う体制を整え、迅速かつ質の高いサポートを実現している。</li>
+<li>AI専門のコンサルティング：ハードウェア導入前の戦略立案フェーズから顧客と伴走するAI専門のコンサルティングサービスを提供し、技術だけでなくビジネスの成功までを支援する。</li>
+</ul>
+<p>企業のAI活用において、AI インフラの選択はもはや単なるIT調達の一部ではない。それは、自社のデータという最も重要な資産をどう守り、AI という最も強力な武器をどう使いこなすか、ビジネスの未来そのものを左右する「戦略的判断」である。</p>
+<p>デル・テクノロジーズは、最新GPUの性能を最大限に引き出す製品力、導入前から導入後までを支える手厚いサポートとコンサルティング能力、そして強力なパートナーシップに裏打ちされた供給力を総動員し、あらゆる企業のAI戦略を成功へと導くパートナーとなるだろう。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/07_8fed02dfe0/07_8fed02dfe0.png" alt="07.png" /></p>
+<p>:::box
+関連リンク：<a href="https://www.delltechnologies.com/asset/ja-jp/products/servers/industry-market/poweredge-brochure.pdf">AI時代にあらゆる場所でイノベーションを推進「Dell PowerEdge サーバー</a>{ target=\</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Instagram、ティーンの自殺・自傷関連の「短期間の繰り返し検索」に保護者通知——AI利用拡大を踏まえ対話機能も年内導入へ</title>
+      <link>https://ledge.ai/articles/instagram_teen_selfharm_repeated_search_parental_alert_ai_expansion_2026</link>
+      <description><![CDATA[<p>Meta Platformsは米国時間2026年2月26日、同社が運営するInstagramにおいて、ティーンアカウントが自殺や自傷行為に関連する用語を短期間に繰り返し検索した場合、保護者に通知する新機能を導入すると<a href="https://about.fb.com/news/2026/02/new-meta-alerts-let-parents-know-if-teen-may-need-support/">発表</a>した。同機能は来週から米国、英国、オーストラリア、カナダで展開される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9.webp" alt="01_ADVANCE-NOTIF-FOR-PARENTS-TEENS_Carousel-02.webp" /></p>
+<h2>「短期間の繰り返し検索」が通知条件</h2>
+<p>今回導入される通知機能は、単発の検索ではなく、一定期間内に関連ワードを繰り返し検索した場合を対象とする。対象は、保護者による「Supervision（監督）」機能で連携されたティーンアカウントだ。</p>
+<p>条件を満たした場合、保護者には通知が送信される。通知はメール、SMS、WhatsApp、アプリ内通知など複数のチャネルで行われる。</p>
+<p>Metaはすでに、自殺・自傷関連の検索が行われた場合、支援団体の情報や相談窓口を表示する仕組みを提供している。今回の施策は、それに加えて保護者への情報共有を可能にするものとなる。</p>
+<h2>ティーンのAI利用増加を踏まえた拡張</h2>
+<p>Metaは今回の発表で、まずInstagram検索に対する保護者通知から開始すると説明する一方、ティーンが悩みやメンタルヘルスに関する相談先としてAIを利用する傾向が強まっているとの認識を示した。</p>
+<p>同社によれば、Instagram内で利用可能なAIは、すでにティーンに対して安全に応答するよう設計されており、適切にリソースを提示する仕組みが組み込まれている。</p>
+<p>そのうえでMetaは、特定のAI体験に対しても、検索と同様の保護者通知機能を構築中であることを明らかにした。AI対話向けの通知機能は、2026年内（later this year）に導入される予定で、現時点ではまだ提供されていない。</p>
+<h2>4カ国で先行展開</h2>
+<p>検索に関する保護者通知機能は、まず米国、英国、オーストラリア、カナダで提供開始となる。今後、他地域への拡大も予定している。</p>
+<p>Metaは近年、ティーン向けアカウントに対する安全対策を強化しており、今回の通知機能もその一環として導入される。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>レッジ、オンライン展示会「Ledge.ai EXPO 2026 Spring」を本日公開</title>
+      <link>https://ledge.ai/articles/ledgeai-expo-2026-spring</link>
+      <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、2026年3月2日（月）より、最新のAIプロダクトやDXソリューションを一堂に紹介するオンライン展示会「Ledge.ai EXPO 2026 Spring」を公開いたしました。</p>
+<p>本企画は、優れたAIソリューションを持つ「サービス提供企業」と、自社の課題解決を目指す「情報収集者」をLedge.aiが繋ぐ、新たなビジネスマッチングの場として提供いたします。本日をスタートラインとして、3月31日までの会期中、掲載ソリューションを随時拡大していく「成長型」の展示会として運営してまいります。</p>
+<p>また、本イベント終了後は、Ledge.ai内で準備を進めている「常設ソリューションデータベース」への段階的な統合を予定しており、本EXPOはそのプレイベントとしての役割を担っています。</p>
+<p><strong>開催概要</strong>
+名称： Ledge.ai EXPO 2026 Spring
+公開期間： 2026年3月2日（月）〜 2026年3月31日（火）
+URL： <a href="https://ledgeai-expo-2026-spring.studio.site/">https://ledgeai-expo-2026-spring.studio.site/</a>
+展開方針： 会期中に掲載数を順次拡大。将来的なソリューション情報の常設化・リニューアルを見据えた段階的なプラットフォーム展開を予定しています。</p>
+<h2>提供機能と運用の特徴</h2>
+<p><strong>掲載ソリューションへの一括資料請求</strong>
+来場者の皆さまは、掲載されている複数のソリューションに対し、専用フォームから一括で資料請求を行うことが可能です。個別に問い合わせる手間を省き、自社の課題に最適なパートナー選定を効率的に進めていただけます。</p>
+<p><strong>会期中の随時掲載アップデート</strong>
+本展示会は、公開時点のラインナップを固定せず、会期終了まで継続的に新規ソリューションの掲載を受け付けます。これにより、日々新たな解決策（ソリューション）が追加される動的なマッチングプラットフォームとして機能いたします。</p>
+<h2>ソリューション掲載・協賛プランについて</h2>
+<p>「Ledge.ai EXPO 2026 Spring」では、会期中の新規掲載および参画いただける企業様を広く募集しております。
+本EXPOへの掲載は、単なる期間限定の露出に留まらず、今後Ledge.aiが計画している「常設ソリューション掲載枠」への展開を見据えた先行的な取り組みとなります。Ledge.aiは、ニュースを届けるメディアから、ビジネスの具体的な出会いを創出するプラットフォームへと、段階的に進化を続けてまいります。</p>
+<p><strong>提供プラン</strong>
+情報の露出を目的とした無料掲載プランから、リード獲得を最大化する有償の協賛プランまで、貴社のマーケティング目的に応じた複数の選択肢をご用意しております。</p>
+<p>詳細および掲載に関するお問い合わせは、以下にて受け付けております。
+https://ledge.ai/contact/ad-form</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AMDと長期契約でAIインフラ強化──最大6GW相当の「Instinct」GPUを導入</title>
+      <link>https://ledge.ai/articles/meta_amd_longterm_ai_infrastructure_6gw_instinct</link>
+      <description><![CDATA[<p>Metaは2026年2月24日（米国時間）、半導体大手のAdvanced Micro Devices（AMD）と長期のAIインフラ契約を締結し、最大6ギガワット（GW）相当の「AMD Instinct」GPUを導入すると<a href="https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/">発表</a>した。自社のAI基盤を拡張し、大規模モデルの開発およびサービス提供能力を強化するねらいだ。</p>
+<p>Metaの公式発表によれば、今回の契約は同社のAIインフラ拡充の一環であり、AMDのデータセンター向けアクセラレータ「Instinct」シリーズを複数年にわたり導入する。導入規模は最大6GW相当とされ、GPU調達を電力規模で示すかたちとなっている。</p>
+<p>一方、AMDの発表では、両社が「複数年・複数世代（multi-year, multi-generation）」にわたる戦略的パートナーシップで合意したと説明。シリコン、システム、ソフトウェアを横断する形でロードマップを連携し、MetaのAIワークロード拡張を支援するとしている。2026年後半からの立ち上がりが見込まれている。</p>
+<h2>導入対象はInstinctシリーズ</h2>
+<p>AMDの「Instinct」シリーズは、生成AIや大規模言語モデル（LLM）の学習および推論を想定したデータセンター向けGPUアクセラレータ。高帯域幅メモリ（HBM）を搭載し、大規模並列演算に対応する設計が特徴とされる。</p>
+<p><a href="https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html">AMDのリリース</a>では、今後の世代を含めたInstinct GPUの提供に加え、ラックスケール構成やEPYCプロセッサとの組み合わせなど、データセンター全体のアーキテクチャを視野に入れた協業に言及している。</p>
+<h2>ワラントも発行、最大1億6,000万株を付与</h2>
+<p>AMDは公式リリースの中で、Metaに対し、最大1億6,000万株のAMD普通株式を対象とする業績連動型ワラントを発行したと明らかにした。条件達成に応じて権利が確定する構造で、今回の契約が複数年にわたる戦略的パートナーシップであることを示す内容となっている。</p>
+<h2>AIインフラ投資が加速</h2>
+<p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
+<p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
+      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
+      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
+<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
+<h2>推論最適化を強調</h2>
+<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
+<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
+<h2>企業導入が加速</h2>
+<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
+<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、1,100億ドル（約17兆円）調達へ──SoftBank・NVIDIA・Amazonが参加</title>
+      <link>https://ledge.ai/articles/openai_110b_funding_softbank_nvidia_amazon</link>
+      <description><![CDATA[<p>OpenAIは2026年2月27日（現地時間）、プレマネー評価額7,300億ドルに基づき、総額1,100億ドル（約17兆円）を調達する資金調達ラウンドを実施すると<a href="https://openai.com/index/scaling-ai-for-everyone/">発表</a>した。出資内訳は、SoftBank Groupが300億ドル、NVIDIAが300億ドル、Amazonが500億ドル。未上場企業としては異例の評価額となる。</p>
+<p>今回の発表は、OpenAI公式ブログ「<a href="https://openai.com/index/scaling-ai-for-everyone/">Scaling AI for everyone</a>」で明らかにされた。プレマネー評価額7,300億ドルは、AI分野における資本集約型競争の加速を象徴する水準となる。</p>
+<h2>Amazonとの戦略提携</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amazon_open_ai_logos_1_amazon_news_jp_022726_6e31117189/amazon_open_ai_logos_1_amazon_news_jp_022726_6e31117189.jpeg" alt="amazon-open-ai-logos-1-amazon-news-jp-022726.jpeg" /></p>
+<p>Amazonによる500億ドルの投資については、初回150億ドルに加え、条件達成後に350億ドルを追加する構造と説明されている。両社はAmazon Web Services（AWS）上での実行基盤に関する協業を進め、Stateful Runtime Environmentの共同開発や、OpenAIの先端モデル群のクラウド展開を行う。</p>
+<p>資本参加と同時に、クラウド基盤レベルでの連携を含む点が特徴だ。</p>
+<h2>Microsoftとの既存関係は維持</h2>
+<p>OpenAIは同日、Microsoftとの共同声明も<a href="https://openai.com/index/continuing-microsoft-partnership/">公表</a>した。声明では、今回の新規資金調達および新規パートナーの参加は、両社の既存契約関係を変更するものではないと説明している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/joint_statement_openai_microsoft_2a8eb24887/joint_statement_openai_microsoft_2a8eb24887.jpg" alt="joint statement openai microsoft.jpg" /></p>
+<h2>資金の用途</h2>
+<p>OpenAIは、今回の資金を以下の分野に充てるとしている。</p>
+<ul>
+<li>次世代大規模モデルおよびマルチモーダルAIの研究開発</li>
+<li>推論・学習向け計算資源の確保</li>
+<li>データセンターなどAIインフラ投資</li>
+<li>安全性・アライメント研究の強化</li>
+</ul>
+<p>プレマネー評価額7,300億ドル、総額1,100億ドルという規模は、AIモデルの高度化に伴い拡大する計算資源・インフラ投資の重要性を改めて示すものとなる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
       <link>https://ledge.ai/articles/openai_china_cyber_special_operations_takaichi_influence_operation_report</link>
       <description><![CDATA[<p>OpenAIは2026年2月25日、「Disrupting malicious uses of our models（当社モデルの悪用への対処）」と題した最新の脅威レポートを公開し、中国の法執行機関に関連する人物と結びついたChatGPTアカウントを停止したと<a href="https://openai.com/ja-JP/index/disrupting-malicious-ai-uses/">発表</a>した。レポートによると、同アカウントは高市早苗首相を標的とする秘密影響工作（covert influence operation）の計画立案を試みていたという。</p>
@@ -64,6 +357,200 @@
 </ul>
 <p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
 <p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、BCG・マッキンゼーら4社と「Frontier Alliances」始動──企業AI導入の“実装ボトルネック”に踏み込む</title>
+      <link>https://ledge.ai/articles/openai_frontier_alliances_bcg_mckinsey_accenture_capgemini</link>
+      <description><![CDATA[<p>OpenAIは2026年2月23日、AIが同僚のように自律的に業務を担う「AI coworkers（AI同僚）」の企業展開を加速するための新たなパートナー枠組み「Frontier Alliances」を<a href="https://openai.com/index/frontier-alliance-partners/">発表</a>した。</p>
+<p>参画企業として、Boston Consulting Group（BCG）、McKinsey &amp; Company、Accenture、Capgeminiの4社を挙げる。いずれもグローバルに企業変革や大規模IT導入を担ってきたコンサルティング／SIer大手であり、OpenAIはこれらの企業と複数年の枠組みで連携する。</p>
+<h2>「AI同僚」を企業に定着させるための枠組み</h2>
+<p>OpenAIは今回の発表で、企業におけるAI活用が失敗する要因は、モデル性能そのものよりも、既存システムとの統合や業務プロセス設計、オペレーティングモデルの再構築、組織変革にあるとの問題意識を示した。</p>
+<p>「Frontier Alliances」は、こうした“実装”や“全社展開”の段階に焦点を当てる。AIを単なるチャットツールとして導入するのではなく、企業のデータや業務ツールと接続し、継続的にタスクを遂行する「AI coworkers」として運用することを前提にしている。</p>
+<p>OpenAIは、AI coworkersの構築・展開・運用を支える基盤として「Frontier」を位置づけ、パートナー企業とともにその導入を支援するとしている。</p>
+<h2>4社が担う「戦略から統合、再設計まで」</h2>
+<p>各パートナーはAI導入の上流から下流までを支援。
+・経営・事業戦略へのAI組み込み
+・既存ITシステムとの統合
+・業務フローの再設計
+・全社スケールでの展開
+といった領域が想定されている。</p>
+<p><a href="https://www.bcg.com/press/23february2026-bcg-and-openai-partnership-frontier-alliance">BCG</a>、<a href="https://www.mckinsey.com/about-us/new-at-mckinsey-blog/mckinsey-and-openai-scale-ai-driven-transformations-with-new-frontier-alliance">McKinsey</a>、<a href="https://www.capgemini.com/us-en/news/press-releases/capgemini-joins-forces-with-openai-to-accelerate-new-era-of-ai-powered-enterprise-transformation-with-frontier-alliance/">Capgemini</a>はそれぞれ公式発信の中で、OpenAIとの連携を通じた企業変革支援の強化を表明している。</p>
+<h2>「モデル競争」から「実装競争」へ</h2>
+<p>生成AI分野ではこれまで、モデル性能やベンチマークが注目されてきた。一方で、大企業における本格導入では、セキュリティ、ガバナンス、既存業務との整合、責任分界といった課題が顕在化している。</p>
+<p>今回の枠組みは、こうした“実装ボトルネック”を乗り越えるために、コンサルティング企業やSIerの変革ノウハウと、OpenAIの技術基盤を結び付ける試みと位置づけられる。</p>
+<p>AIを「ツール」ではなく「同僚」として組織に組み込む構想が、実際の企業現場でどこまでスケールするのか。Frontier Alliancesの具体的な導入事例や展開領域が、今後の焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
+      <link>https://ledge.ai/articles/perch2_bird_trained_ai_whale_dolphin_high_accuracy</link>
+      <description><![CDATA[<p>Google DeepMindが開発した生物音響基盤モデル「Perch 2.0」が、主に鳥類など陸生生物の鳴き声で事前学習されているにもかかわらず、クジラやイルカといった海洋哺乳類の分類タスクでも高い性能を示したことが分かった。研究成果は未査読論文としてarXivで<a href="https://arxiv.org/abs/2512.03219">公開</a>されている。</p>
+<h2>鳥類中心で事前学習された生物音響基盤モデル</h2>
+<p>Perch 2.0は、Google DeepMindが開発した大規模生物音響基盤モデルだ。主に鳥類を中心とする陸生動物の鳴き声データを用いて事前学習されており、音声波形やスペクトログラムから抽象的な音響特徴を抽出する埋め込み（embedding）を生成する。</p>
+<p>この埋め込みは、線形分類器の適用や少量データによる微調整（ファインチューニング）を通じて、多様な分類タスクに転用できる設計となっている。</p>
+<h2>なぜ“鳥で学習”したAIが“クジラ”に効くのか</h2>
+<p>今回の論文で焦点となるのは「陸上生物中心の事前学習が、なぜ未知のドメインである水中環境のタスクにこれほど有効だったのか」という点だ。</p>
+<p>Perch 2.0は、線形プローブ（linear probing）を前提とした転移性能を重視して設計されている。これは、事前学習済みの埋め込みを固定したまま単純な分類器のみを学習させる手法で、計算資源やラベル付きデータへの要求を大幅に抑えられる。論文は、この設計がクラスタリングや近傍探索、少量データによる迅速なモデル構築を支えていると指摘する。</p>
+<p>陸上中心の学習が海洋哺乳類に転移した理由について、論文は以下の観点から考察している。</p>
+<ul>
+<li><strong>“Bittern Lesson”：</strong>  鳥類の鳴き声のように、種間で極めて微妙な差異を持つ難度の高い分類タスクで大規模学習を行ったことが、結果として汎用性の高い、精緻な音響表現の獲得につながった可能性</li>
+<li><strong>スケーリングの恩恵：</strong>  大規模データとモデル規模の拡張が、ドメイン外のタスクに対するロバスト性を向上させた</li>
+<li><strong>発声メカニズムの共通性：</strong> 鳥類と海洋哺乳類の発声構造に一定の物理的類似性が存在する可能性</li>
+</ul>
+<h2>海洋哺乳類データでの検証結果</h2>
+<p>論文では、Perch 2.0の音響埋め込みを用い、クジラやイルカを含む海洋哺乳類の水中音響データに対する分類性能を評価した。評価指標にはF1スコアや平均適合率（mAP）などが用いられている。</p>
+<p>その結果、複数の海洋哺乳類データセットにおいて、Perch 2.0は既存の専用モデルや他の音響基盤モデルと比較して同等、あるいはそれを上回る数値を記録したと報告されている。特に、事前学習済み埋め込みに対して線形分類器のみを学習させる線形プローブ設定でも高いスコアを示した点が強調されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Table_2_Marine_learning_transfer_tasks_d0dd40fb55/Table_2_Marine_learning_transfer_tasks_d0dd40fb55.jpg" alt="Table 2  Marine learning transfer tasks.jpg" /></p>
+<p><strong>■ 埋め込み空間の可視化</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsne_32_combined_853b778423/tsne_32_combined_853b778423.png" alt="tsne_32_combined.png" /></p>
+<p>さらに、少数のラベル例のみを用いたfew-shot条件でも性能低下は限定的で、限られたデータから分類器を構築する場合においても実用的な精度が得られたとしている。論文は、こうした結果を踏まえ、少量データ環境下で海洋哺乳類分類器を構築する用途にPerch 2.0の利用が有効であるとの見解を示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/22193247_m_4ea411c393/22193247_m_4ea411c393.jpg" alt="22193247_m.jpg" /></p>
+<h2>生物多様性モニタリングへの取り組み</h2>
+<p>Google DeepMindの<a href="https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/">公式ブログ</a>
+では、生物音響AIを活用した絶滅危惧種の検出や生態系モニタリングへの取り組みを紹介している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/deepmind_blog_team_perch_03abedd662/deepmind_blog_team_perch_03abedd662.jpg" alt="deepmind blog team perch.jpg" /></p>
+<p>Perchシリーズは、保全団体や研究者と連携し、長時間の録音データから種の存在を自動検出する用途などで活用が進められていると説明している。今回の検証結果は、こうした生物音響研究の一環として位置づけられる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
+      <link>https://ledge.ai/articles/perplexity_computer_multi_agent_orchestration_19_models</link>
+      <description><![CDATA[<p>Perplexityは米国時間2026年2月25日、マルチエージェント・オーケストレーションシステム「Perplexity Computer」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-computer">発表</a>した。現在利用可能な複数の最先端AIモデルを統合し、タスクの分解から実行までを自律的に行う“デジタルワーカー”として提供するという。</p>
+<h2>単一チャットから“実行基盤”へ</h2>
+<p>これまでの「チャット型AI」が情報提示にとどまっていたのに対し、「Perplexity Computer」はワークフロー全体の作成と実行を担う。ユーザーが成果物を指定すると、システムはタスクを複数のサブタスクに分解。それぞれに対応するサブエージェントを生成し、並列・非同期で処理を進める仕組みだ。</p>
+<p>Web調査、文書生成、データ処理、外部サービスへのAPI呼び出しなどを組み合わせながら、成果物を完成させる。</p>
+<h2>隔離された実行環境で動作</h2>
+<p>Computerは隔離されたコンピューティング環境内で動作する。実ファイルシステム、実ブラウザ、実ツール統合へのアクセスが可能とされ、単なるテキスト生成にとどまらない“実行型”基盤である点を強調している。</p>
+<h2>19モデルをオーケストレーション</h2>
+<p>Perplexityは、単一モデルではなく「モデルの専門化」を前提とした構成を採用している。用途に応じて複数モデルを使い分けると説明しており、日本向け配信では「19のAIモデルをオーケストレーション」と明記された。</p>
+<ul>
+<li>Opus 4.6：コア推論</li>
+<li>Gemini：ディープリサーチ</li>
+<li>Nano Banana：画像生成</li>
+<li>Veo 3.1：動画生成</li>
+<li>Grok：軽量タスク高速処理</li>
+<li>ChatGPT 5.2：長文コンテキスト処理</li>
+</ul>
+<p>これらを用途別に組み合わせることで、複合的なワークフローを構築する。</p>
+<h2>提供形態</h2>
+<p>Perplexity Computerは、Perplexity Max加入者向けに提供を開始。Enterprise Maxも今後提供予定としている。Help Centerによれば、Computerは「独立したデジタルワーカー」と定義され、GmailやSlack、GitHub、Notionなど複数の外部サービスとの連携が可能とされる。</p>
+<p>Maxプランでは月間10,000クレジットが付与され、高計算量タスクに消費される。</p>
+<h2>同社の位置づけ</h2>
+<p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>警察庁、生成AI悪用の児童画像加工114件を把握　同級生が約6割、被害の中心は中高生</title>
+      <link>https://ledge.ai/articles/police_agency_ai_child_image_manipulation_114_cases_2025</link>
+      <description><![CDATA[<p>警察庁は2026年2月26日、「令和7年における少年非行及び子供の性被害の状況」を<a href="https://www.npa.go.jp/publications/statistics/safetylife/pdf_r7_syonenkohosiryo.pdf">公表</a>し、児童（18歳未満）の画像を生成AI等で性的に加工し悪用した事案を2025年中に114件把握したと明らかにした。被害児童の約9割を中学生・高校生が占め、行為者の約6割が「同級生・同じ学校」の関係にあるという実態が示された。</p>
+<p>公表資料によると、取扱い事案数は114件で、前年（110件）から微増した。加工手法の内訳は、生成AIの使用が24件、画像加工アプリが2件、不明が88件だった。不明には、関係者の供述や画像の状況から生成や加工に生成AI等が用いられたと推測されるものの、特定に至らなかった事案が含まれる。</p>
+<p>被害児童の学職別内訳は、中学生66人、高校生32人、小学生6人、その他10人。中高生が合計98人となり、全体の約9割を占める。小学生の被害も確認されている。</p>
+<p>行為者と被害児童の関係別では、「同級生・同じ学校」が65件と約6割を占めた。SNS等を通じて知り合った者は10件、面識のある大人は7件、不明は28件、その他は4件だった。学校内の人間関係を背景とした事案が多数を占める構図が浮かび上がる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/keishicho_916363c000/keishicho_916363c000.jpg" alt="keishicho.jpg" /></p>
+<p>資料では、主な取扱い事案として、以下の例が挙げられている。</p>
+<p>・生成AIを使用した性的画像の作成を有料で請け負う成人男性が、男子高校生から女子生徒の画像の加工依頼を受け、作成した画像をSNS上で公開・拡散した事案
+・男子中学生が女子生徒のSNS投稿画像を生成AIで裸体画像に加工し、他の男子生徒に販売した事案
+・高校の男性実習助手が卒業アルバムの女子生徒の画像を第三者に提供し、加工後の画像がSNSで拡散した事案
+・保育施設内で撮影した女児の画像を女性の裸体画像と合成して所持していた事案
+・SNSで知り合った男子中学生の画像を性的に加工し、「拡散する」などと脅して電子マネーを要求した事案</p>
+<p>単なる画像改変にとどまらず、販売や拡散、恐喝にまで発展するケースも確認されている。</p>
+<p>警察庁は、相談者・被害者の心情に配意しつつ、事案の内容に応じて刑法（名誉毀損、わいせつ物頒布等）などでの検挙や指導・警告を実施していると説明。「潜在的な事案も含めて今後も注視すべき状況」としている。</p>
+<p>生成AIの普及に伴い、児童の画像を悪用した新たな被害形態が顕在化している実態が改めて示された。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>“自分だけのデータセンター”を構築するゲーム、Steamで登場──ラック配置から冷却設計まで再現する運営シミュレーション「Data Center」体験版が無料配信中</title>
+      <link>https://ledge.ai/articles/steam_data_center_demo_free_release</link>
+      <description><![CDATA[<p>PCゲーム配信プラットフォーム「Steam」で、データセンターの構築・運営をテーマにしたシミュレーションゲーム「Data Center」のデモ版（体験版）が<a href="https://store.steampowered.com/app/4376050/Data_Center_Demo/">無料配信</a>されている。リリース日は2026年1月30日。</p>
+<p>同作はサーバーラックの設置や配線、電源管理、冷却設計などを行いながら、自分だけのデータセンターを構築・拡張していくタイトルだ。開発はチェコの開発者であるWaseku氏が手がけている。</p>
+<p>ゲーム内では、ラックの配置やネットワーク接続だけでなく、トラフィックを色付きパケットで可視化する仕組みも実装されている。負荷状況の確認やボトルネックの把握が可能で、効率的な構成を目指す設計が求められる。また、障害対応や冗長化の考慮など、インフラ運営を意識した要素も盛り込まれている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=T58hOjwdrHE">YouTube</a></p>
+<p>製品版のリリースは2026年3月31日を予定している。Steamではウィッシュリスト登録が可能で、デモ版から製品版への導線も用意されている。</p>
+<p>近年、AIやクラウドサービスの拡大によりデータセンターの存在感は一段と高まっている。本作は、その裏側にある設計・運営の工程を、ゲームとして体験できるタイトルとなっている。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
+      <link>https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence</link>
+      <description><![CDATA[<p>トランプ大統領は2026年2月28日、連邦政府機関に対し、米AI企業Anthropicの技術利用を停止するよう指示した。同日、OpenAIは米国防総省（Department of Defense, DoD）との合意を発表し、安全条項を明示したうえで機密環境へのAI展開を進めると明らかにした。</p>
+<p>短期間のうちに、交渉停滞、供給網リスク指定の示唆、大統領による利用停止指示、そして別企業との契約合意が相次いだ。背景には、国防分野でのAI活用を巡る契約条件の解釈をめぐる対立があった。</p>
+<h2>交渉の争点は「合法用途」の範囲</h2>
+<p>米国防総省は近年、生成AIの導入を加速させている。情報分析、作戦計画、データ統合など、国家安全保障領域での活用が拡大している。Anthropicも、機密ネットワーク環境へのモデル提供を進めてきた企業の一つだ。</p>
+<p>しかし交渉の焦点となったのが、「any lawful use（あらゆる合法用途）」という条項だった。</p>
+<p>国防総省は、合法である限り包括的な利用を認める条件を求めた。一方、Anthropicは次の2用途について例外を維持していた。</p>
+<ul>
+<li>米国民に対する大規模国内監視</li>
+<li>完全自律型兵器</li>
+</ul>
+<h2>CEOが立場を公表</h2>
+<p>AnthropicのCEOダリオ・アモデイ氏は2月26日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">声明</a>を発表した。</p>
+<p><em><strong>“today’s frontier AI systems are simply not reliable enough to power fully autonomous weapons.”</strong></em>
+（現在の最先端AIシステムは、完全自律型兵器を動かすには信頼性が不十分である。）
+<em><strong>“we cannot in good conscience accede to their request.”</strong></em>
+（（倫理的・道義的）責任において、彼らの要求には応じられない。）</p>
+<p>同氏は、国家安全保障用途への協力自体を否定していないとしつつも、上記例外の撤廃には応じない姿勢を示した。</p>
+<h2>国防長官が供給網リスク指定を示唆</h2>
+<p>2月28日、ヘグセス国防長官はXに投稿。</p>
+<p><em><strong>“the Department of War must have full, unrestricted access to Anthropic’s models for every LAWFUL purpose”</strong></em>
+（国防総省はあらゆる合法目的でAnthropicのモデルに完全かつ無制限のアクセスを持つべきだ。）
+<em><strong>“I am directing the Department of War to designate Anthropic a Supply-Chain Risk to National Security.”</strong></em>
+（Anthropicを国家安全保障上の供給網リスクに指定するよう指示する。）</p>
+<p>と述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pete_hegseth_x_7ff66a71e1/pete_hegseth_x_7ff66a71e1.jpg" alt="pete hegseth x.jpg" /></p>
+<h2>大統領が利用停止を指示</h2>
+<p>同日、トランプ大統領はTruth Socialで次のように<a href="https://truthsocial.com/@realDonaldTrump/116144552969293195">投稿</a>した。</p>
+<p><em><strong>“I am directing EVERY Federal Agency in the United States Government to IMMEDIATELY CEASE all use of Anthropic’s technology.”</strong></em>
+（米国政府のすべての連邦機関に対し、Anthropicの技術の使用を直ちに停止するよう命じる。）</p>
+<p>国防総省などについては6カ月の移行期間を設けるとした。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/donald_J_trump_truth_dd6e5dc705/donald_J_trump_truth_dd6e5dc705.png" alt="donaldJ trump truth.png" /></p>
+<h2>Anthropicの反論</h2>
+<p>その後Anthropicは公式声明で、
+<em><strong>“No amount of intimidation or punishment from the Department of War will change our position.”</strong></em>
+（国防総省からのいかなる威圧や処罰も、我々の立場を変えることはない。）</p>
+<p>と述べ、供給網リスク指定の適法性を争う姿勢を示した。</p>
+<h2>OpenAIは「契約設計で担保できる」と説明</h2>
+<p>同28日、OpenAIは国防総省との合意内容を<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">公表</a>した。</p>
+<p>同社は声明の中で、自社も「大規模国内監視」と「自律兵器の指揮」には応じない立場であると明言している。そのうえで、これらの禁止事項は理念として掲げるだけでなく、契約条文と技術設計の双方で担保できると説明した。</p>
+<p>OpenAIはまず、「兵器を開発するのか」「AIが自律的に軍事作戦を遂行するのか」といった想定批判を取り上げ、いずれも否定した。モデルが自律的に戦闘を行うことはなく、兵器の設計・製造に関与するものでもないとした。</p>
+<p>また、国内監視への転用についても、米憲法修正第4条や関連法令を参照し、「無制約な監視（unconstrained monitoring）」を禁じる条項を契約内に組み込んだと説明している。</p>
+<p>技術面では、クラウド限定環境での展開を前提とし、モデルをエッジ配備しない構成を採用したと述べた。さらに、安全スタックの運用裁量を自社が保持し、監査ログや認証体制を通じて契約上の制限を実効的に維持できるとしている。</p>
+<p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
+<p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yahoo!ショッピングがAIエージェント導入——会話で条件整理、比較・要約・おトク提案まで伴走する“エージェント型購買体験”を提供開始</title>
+      <link>https://ledge.ai/articles/yahoo_shopping_ai_agent_launch</link>
+      <description><![CDATA[<p>LINEヤフーは2026年2月25日、「Yahoo!ショッピング」において、生成AIが商品探しから購入、購入後のフォローまで買い物全体を支援する新機能「Yahoo!ショッピング エージェント」の提供を開始したことを<a href="https://www.lycorp.co.jp/ja/news/release/020144/">発表</a>した。同社はこれを、検索結果起点の買い物から一歩進んだ「エージェント型の購買体験」と位置付けている。</p>
+<h2>検討から購入後まで、会話で一貫サポート</h2>
+<p>「Yahoo!ショッピング エージェント」は、ユーザーと会話形式でやり取りしながら、ニーズを整理し、商品提案や比較、要約などを行う機能だ。</p>
+<p>ユーザーが曖昧な条件を入力した場合でも、対話を通じて条件を具体化し、関連商品の候補を提示する。商品特長の要約やレビュー比較、類似商品の違いの整理など、意思決定を支援する機能も備える。</p>
+<p>さらに、購入後も会話を通じて配送予定日や注文履歴の確認が可能だ。過去の購入履歴を踏まえ、「以前購入した商品に近いもの」「前回より安い商品」といった相談にも対応し、次の買い物につなげる支援を行う。</p>
+<p><strong>「AIと探す」から起動し、条件入力、商品提案、商品ページでの会話までを一連で支援する利用イメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb_78ae700d53/a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb_78ae700d53.jpg" alt="a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb.jpg" /></p>
+<h2>サービス横断で起動、ページをまたいでも会話継続</h2>
+<p>同機能は、Yahoo!ショッピングのトップページ、検索結果ページ、商品詳細ページなど複数の導線から利用できる。比較検討の途中からでも起動でき、ページをまたいでも会話の流れを保ったまま利用できる点を特徴とする。</p>
+<p><strong>検索結果や商品詳細ページから起動でき、ページをまたいでも会話を継続できるUI設計</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43_7f1241dd59/5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43_7f1241dd59.jpg" alt="5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43.jpg" /></p>
+<p>PCブラウザー版およびiOS・Androidアプリで提供される（端末により表示されない場合がある）。</p>
+<h2>属性・購入履歴データを活用した提案</h2>
+<p>ログイン中のYahoo! JAPAN IDにひもづく属性情報や購入履歴など、同サービスが保有するECデータを活用し、ユーザーに合った商品を提案する。</p>
+<p><strong>過去の購入履歴を踏まえた商品提案や最安値比較など、購入後や再購入時の相談にも対応する画面例</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/84b691d2eb696aaac8c79d7c2a32f7ccf97656d1_a65c9085f8/84b691d2eb696aaac8c79d7c2a32f7ccf97656d1_a65c9085f8.jpg" alt="84b691d2eb696aaac8c79d7c2a32f7ccf97656d1.jpg" /></p>
+<p>また、送料や配送予定日の確認に加え、生成AIが気になった商品を「お気に入り」登録するよう提案し、値下げ時にLINE公式アカウントから通知を受け取れる仕組みも用意した。</p>
+<h2>背景：比較の利便性と“選択の負担”</h2>
+<p>ECは多くの商品を比較検討できる一方、「何を選べばよいかわからない」「比較に時間がかかる」といった課題も指摘されてきた。</p>
+<p>Yahoo!ショッピングではこれまで、生成AIを活用したレビュー要約や商品比較、対話型検索支援機能などを段階的に提供してきた。今回、それらの知見を統合し、購買行動全体を支援するエージェント型機能へと発展させた形だ。</p>
+<h2>OpenAI APIを活用、出力の正確性は保証せず</h2>
+<p>同機能はOpenAIのAPIを使用。LINEヤフー共通利用規約が適用され、生成AIによる出力の信頼性や正確性などについては保証しない旨も明記されている。同社は今後、利用状況やユーザーからのフィードバックをもとに、提案精度やレコメンド機能を順次拡充するとしている。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
@@ -290,522 +777,6 @@
 **\</p>
 ]]></description>
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claudeの「大規模蒸留攻撃」を確認──DeepSeek・Moonshot・MiniMaxが不正抽出、約2.4万アカウントで1600万超のやり取り</title>
-      <link>https://ledge.ai/articles/anthropic_claude_industrial_scale_distillation_attack_deepseek_moonshot_minimax</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日（現地時間）、同社の大規模言語モデル（LLM）「Claude」から能力を不正に抽出する「産業規模（industrial-scale）」の蒸留（distillation）攻撃を確認したと<a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">発表</a>した。対象としてDeepSeek、Moonshot AI、MiniMaxの3社を挙げ、約2万4000の不正アカウントを通じて1600万超のやり取りが行われたとしている。</p>
-<h2>不正蒸留を「産業規模」と説明</h2>
-<p>検出された活動は、Claudeの出力を大量に収集し、それを競合モデルの改善や訓練に利用することを目的としたものだった。同社はこれを「illicit distillation（不正蒸留）」と位置付け、利用規約違反および地域アクセス制限違反に該当すると説明している。</p>
-<p>発表では、以下の規模が明らかにされた。</p>
-<ul>
-<li>約24,000の不正アカウント</li>
-<li>1,600万超の対話記録</li>
-<li>中国系AIラボ3社を名指し</li>
-</ul>
-<p>Anthropicは、単発のプロンプト自体は通常利用と見分けがつきにくいが、同種の問い合わせが数万単位で繰り返されることで、蒸留行為が明確になったとしている。</p>
-<h2>3社それぞれの活動内容</h2>
-<p>各社の活動内容についても具体的に言及している。</p>
-<ul>
-<li><strong>DeepSeek</strong> ：約15万件超の対話を実施。推論能力の抽出や採点用途（報酬モデル的活用）、センシティブな質問への応答生成などが観測されたという。また、Chain-of-thought（思考過程）を引き出すプロンプトも確認されたとしている。</li>
-<li><strong>Moonshot AI</strong> ：約340万件超の対話。エージェント型推論、ツール利用、コーディング、コンピュータ利用エージェント、視覚機能などを狙った利用があったと説明。後期には推論トレースの抽出も試みられたとしている。</li>
-<li><strong>MiniMax</strong> ：約1,300万件超の対話。エージェント型コーディングやツール利用、オーケストレーション能力の抽出を目的とした活動が確認された。Anthropicは稼働中に検知し、活動のライフサイクルを追跡できたとしている。また、新モデル公開後24時間以内にトラフィックが切り替えられたとも記している。</li>
-</ul>
-<h2>手口：「hydra cluster」と呼ばれる分散網</h2>
-<p>Anthropicは、中国では商用提供を行っていないと説明する一方、商用プロキシを通じたアクセス再販により、大規模な不正アカウント網が構築されたと指摘。同社はこれを「hydra cluster」と呼称している。</p>
-<p>発表では、単一ネットワークが2万超の不正アカウントを同時運用していた例も示された。トラフィックを分散させることで検知を回避しようとした形だという。</p>
-<h2>安全策の「剥離」リスク</h2>
-<p>Anthropicは、不正蒸留により作られたモデルは、元モデルが備える安全対策や制限が十分に継承されない可能性があると指摘。特に、サイバー悪用や生物兵器関連情報への対策など、高度な安全制御が失われるリスクを強調した。</p>
-<p>さらに、軍事・監視用途への転用や、オープンソース化による拡散の可能性にも言及している。</p>
-<h2>対応策：検知強化と業界連携</h2>
-<p>同社は以下の対応を講じたと説明している。</p>
-<ul>
-<li>分類器や行動指紋（behavioral fingerprinting）による蒸留検知</li>
-<li>chain-of-thought抽出パターンの識別</li>
-<li>不正アカウントの遮断</li>
-<li>他AIラボ、クラウド事業者、当局との情報共有</li>
-<li>本人確認の強化</li>
-<li>不正蒸留の効率を下げるモデル・APIレベルの防御策開発</li>
-</ul>
-<p>Anthropicは「単独企業では解決できない課題」とし、業界横断での対応の必要性を訴えている。</p>
-<h2>輸出規制との関係にも言及</h2>
-<p>発表では、蒸留攻撃が輸出規制の効果を別ルートで弱める可能性にも触れた。高度なチップへのアクセス制限は、直接的な大規模学習だけでなく、不正蒸留活動の抑制にも寄与するとしている。</p>
-<p>今回の公表についてAnthropicは「証拠を共有し、業界全体で対処するため」と説明。今後も監視と対策を継続するとしている。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AnthropicがフロンティアAI開発の安全指針を見直し　自社が大きく先行する場合のみ開発遅延を検討、競合が同水準なら遅らせず</title>
-      <link>https://ledge.ai/articles/anthropic_frontier_ai_safety_policy_revision_2026</link>
-      <description><![CDATA[<p>米AIスタートアップのAnthropicは2026年2月24日、先端AIモデルの開発と展開に関する自主的な安全枠組み「Responsible Scaling Policy（RSP）」をVersion 3.0へ改定したと<a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">発表</a>した。改定版は同日付で発効した。</p>
-<p>今回の見直しでは、自社が業界内で「大きく先行している（significant lead）」と判断される場合に限り、開発や展開の遅延を検討する方針を明文化した。一方で、競合他社が同等水準に達している、または追随していると判断される場合には、自社のみが開発を遅らせる義務は負わないと整理した。</p>
-<h2>「単独で止める」前提を修正</h2>
-<p>RSPは、将来的に「破滅的リスク（catastrophic risks）」をもたらし得る高度AIの管理を目的とする枠組みとして策定されたものだ。これまでも段階的な能力評価やリスク評価、社内外の審査体制を設けてきた。</p>
-<p>Version 3.0では、自社のコミットメントと、業界全体に対する推奨事項を明確に分離した。文書では、AIによるリスク水準は複数の企業の行動によって決まるとの認識を示し、一社のみが開発を停止しても、他社が同様の能力を持つモデルを展開すれば、全体のリスク低減にはつながらない可能性があると指摘している。</p>
-<p>このため、自社が明確に先行している場合には、強い安全性の裏付けが得られるまで開発や展開を遅らせる可能性があるとする一方、その「有意な先行」が解消されたと判断されれば、遅延措置は必ずしも適用されないとした。</p>
-<h2>競合動向を条件にした判断へ</h2>
-<p>改定版の付属文書（Appendix A）では、競合企業の安全対策やモデル能力も判断材料に含めると明示した。競合がより強固なリスク緩和策を導入している場合には、それに見合う水準を満たすまで遅延を検討する可能性がある。一方、競合が同等以上の能力をすでに展開している状況では、自社のみが停止することは前提としない構造となっている。</p>
-<p>こうした整理により、RSPは「自社単独で業界水準を規定する」形から、「競争環境を前提にリスク管理を行う」形へと位置づけを修正した格好だ。</p>
-<p>なお、AnthropicはフロンティアAIの安全管理にあたり、モデルの危険度に応じて安全措置を段階化する「<a href="https://ledge.ai/articles/claude_opus4_asl3_safety_policy">ASL（AI Safety Level）</a>」を運用している。ASLは、能力水準に応じて必要な安全対策の強度を定める枠組みで、同社は過去に最上位区分を適用した事例も公表している。RSP v3.0は、こうしたリスク評価を前提に、開発・展開の意思決定や透明性の在り方を整理したものと位置づけられる。</p>
-<h2>透明性強化へ「Risk Report」新設</h2>
-<p>Version 3.0では新たに、モデルごとのリスク評価をまとめた「Risk Report」を定期的に公開する仕組みを導入する。脅威モデル、緩和策、総合的なリスク判断などを記載し、オンラインで公表する方針だ。公開は3〜6か月ごとを想定している。</p>
-<p>また、「Frontier Safety Roadmap」として、安全・整合性・セキュリティ・政策の各領域における目標と進捗を示す枠組みも新設した。外部から進捗を確認できる形で説明責任を強化する。</p>
-<h2>開発競争の激化が背景</h2>
-<p>生成AIを巡っては、OpenAIやGoogleなどが高性能モデルを相次いで投入しており、性能向上と安全対策の両立が課題となっている。</p>
-<p>Anthropicはこれまで、安全性を重視する企業として位置づけられてきたが、今回の改定は、急速に進む競争環境を前提に、自社の安全枠組みを再設計したものといえる。</p>
-<p>今後は、自社が「大きく先行している」と判断する基準や、競合の安全対策をどのように評価するのかといった運用面が、実際のモデル開発局面でどのように適用されるかが注目される。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple、MacBook Proを刷新　最新チップ「M5 Pro」「M5 Max」搭載　オンデバイスAI処理など高負荷ワークフロー向け</title>
-      <link>https://ledge.ai/articles/apple_macbook_pro_m5_pro_max_ai</link>
-      <description><![CDATA[<p>Appleは2026年3月3日（現地時間）、ノートPC「MacBook Pro」の新モデルを<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/">発表</a>した。新たに同社の最新チップ「M5 Pro」「M5 Max」を搭載し、オンデバイスAI処理を含む高負荷ワークフローの性能を強化した。予約は3月4日に開始し、3月11日に発売する。</p>
-<h2>MacBook Proを刷新、AIワークフローを強化</h2>
-<p>今回発表されたMacBook Proは、Apple Siliconの新世代チップであるM5 ProおよびM5 Maxを搭載する。Appleはこれらのチップにより、動画制作やソフトウェア開発、機械学習処理などのプロフェッショナル用途に加え、オンデバイスAIを活用するアプリケーションの処理能力を向上させたとしている。</p>
-<p>また、新モデルではThunderbolt 5への対応や高速SSDの採用など、プロ用途のワークフローを支える接続性やストレージ性能も強化された。</p>
-<h2>AI処理を想定した新チップ「M5 Pro」「M5 Max」</h2>
-<p>Appleは同日、M5 ProおよびM5 Maxチップの詳細も<a href="https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/">発表</a>した。これらはAI処理や高性能計算を想定して設計されたApple Siliconの最新世代チップで、CPU、GPU、Neural Engine、統合メモリなどの構成が強化されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Apple_M5_Pro_M5_Max_chips_260303_big_jpg_large_2x_3b55f6ca9f/Apple_M5_Pro_M5_Max_chips_260303_big_jpg_large_2x_3b55f6ca9f.jpg" alt="Apple-M5-Pro-M5-Max-chips-260303_big.jpg.large_2x.jpg" /></p>
-<p>特にGPUでは各コアにNeural Acceleratorを組み込む設計が採用されており、AI推論や機械学習処理をGPUレベルで高速化できる構造となっている。</p>
-<p>M5 Maxでは最大40コアGPUや最大128GBのユニファイドメモリに対応し、大規模データ処理やAI推論などの処理性能を高めた。Appleはこれらのチップにより、制作作業やAI処理を含む「最も要求の厳しいワークフロー」を高速化できるとしている。</p>
-<h2>Apple IntelligenceなどAI機能との連携</h2>
-<p>新しいMacBook Proは、Appleが提供するAI機能群「Apple Intelligence」や最新macOSとの連携も想定されている。オンデバイスAI処理能力の向上により、AI機能を利用したアプリケーションや開発環境の処理効率の改善が期待される。</p>
-<h2>同日、MacBook AirもM5で更新</h2>
-<p>Appleは同日、一般向けノートPC「MacBook Air」にも新チップM5を搭載した新モデルを<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/">発表</a>した。これによりMacBook AirとMacBook Proの両シリーズがM5世代のApple Siliconへ移行し、Mac全体でAI処理性能の強化が進む形となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Apple_Mac_Book_Air_hero_260303_big_jpg_large_2x_bccdf012d7/Apple_Mac_Book_Air_hero_260303_big_jpg_large_2x_bccdf012d7.jpg" alt="Apple-MacBook-Air-hero-260303_big.jpg.large_2x.jpg" /></p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>京大など、仏教AIヒューマノイド「ブッダロイド」開発──Unitree G1に仏教対話AI搭載、礼拝・合掌も</title>
-      <link>https://ledge.ai/articles/buddharoid_kyoto_university_unitree_g1_shorenin_public_release</link>
-      <description><![CDATA[<p>2026年02月25日、京都大学（熊谷誠慈教授ら）とテラバース、XNOVAは、仏教経典を学習した生成AIを搭載するヒューマノイドロボット「ブッダロイド」を共同開発したことを<a href="https://www.kyoto-u.ac.jp/ja/research-news/2026-02-25">発表</a>した。京都市東山区の青蓮院門跡で公開された。</p>
-<p>プロジェクトは、テキストベースの仏教対話AIに「身体性」を付与し、対面環境での相互作用を可能にすることを目的とする。ベース機体にはUnitree Robotics製のヒューマノイド「Unitree G1」を採用し、仏教対話AI「ブッダボットプラス」と連携させた。</p>
-<h2>Unitree G1に仏教対話AIを統合</h2>
-<p>開発体制は、京都大学熊谷ラボが宗教思想・仏教AI研究を担い、テラバースが仏教対話AIを開発、XNOVAがヒューマノイド実装を担当する形で構成された。</p>
-<p>ブッダロイドには、仏教経典を学習した対話AIが搭載されている。利用者の音声入力を認識し、仏教的観点に基づく応答文を生成し、音声合成によって発話する。さらに、発話内容や状況に応じて身体動作を制御する仕組みを備える。</p>
-<h2>礼拝・合掌など宗教的所作を実装</h2>
-<p>XNOVAは、宗教空間に適した身体動作の設計・実装を行った。公開された資料によれば、ブッダロイドは以下の所作を行う。
-・ゆるやかな歩行
-・相手に敬意を示す礼拝動作
-・仏教における代表的な所作である合掌</p>
-<p>これらの動作は、単なるロボット動作ではなく、宗教的意味を伴う振る舞いとして設計されている。開発側は、チャットボットやARアバターでは得にくい「身体的存在感」を付与する点を特徴としている。</p>
-<h2>「身体性」を獲得した仏教AI</h2>
-<p>京都大学の資料では、従来のテキスト対話型AIやAR仏教アバターの延長線上に、本プロジェクトを位置付けている。対話AIが物理的身体を持つことで、利用者との関係性や宗教体験の質がどのように変化するかを検証する狙いがある。</p>
-<p>今後は、身体性付与による利点だけでなく、倫理・法・社会的課題（ELSI）についても議論を進めるとしている。</p>
-<h2>宗教儀礼の補助・代替の可能性にも言及</h2>
-<p>公開資料では、将来的に人間の僧侶が担ってきた宗教儀礼の一部を補助、あるいは代替する可能性にも触れている。ただし、現段階では研究開発の一環として位置付けられている。</p>
-<p>成果は2026年2月5日に開催された国際シンポジウム「UZH–Kyoto University Symposium 2026」で口頭発表された。仏教思想と生成AI、ロボティクスを融合させた今回の取り組みは、宗教分野におけるAI活用の新たな段階を示すものとなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057/s_8192x5464_v_frms_webp_4974cb61_3748_4064_a423_249f6410b367_middle_9464fdc057.webp" alt="s-8192x5464_v-frms_webp_4974cb61-3748-4064-a423-249f6410b367_middle.webp" /></p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>文化庁、個人クリエイター向け権利情報登録システム始動　AI活用拡大を背景に基盤整備</title>
-      <link>https://ledge.ai/articles/bunka_cho_creator_rights_registration_system_ai_background</link>
-      <description><![CDATA[<p>文化庁は2026年2月26日、音楽や漫画、ゲームなどの個人クリエイターが自身の作品情報や第三者による利用可否を登録できる「個人クリエイター等権利情報登録システム」の運用を開始したと<a href="https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/94333101.html">発表</a>した。近年のAI活用拡大やデジタル流通の進展を背景に、著作物の権利情報を可視化し、円滑な利用を促す基盤整備を進める。</p>
-<h2>登録できる情報と仕組み</h2>
-<p>「個人クリエイター等権利情報登録システム」は、個人が創作した著作物について、権利者情報や利用条件などをオンラインで登録できる仕組み。対象分野は音楽、漫画、イラスト、文章、映像、ゲームなど幅広い。</p>
-<p>登録はマイナンバーカードを用いた公的個人認証により本人確認を行う。一方で、登録者氏名や生年月日などの本人確認情報は公開対象ではなく、公開項目はシステム上で明示されている。</p>
-<p>公開されるのは、著作者名（著作者等）やそのカナ表記、著作物の利用可否など、創作活動や利用判断に必要な情報が中心となる。利用希望者はこれらの情報を参照し、利用条件を確認したうえで権利者に連絡できる仕組みとなっている。</p>
-<p><strong>登録画面では「必須」と「公開」項目が明示されている。本名や生年月日は公開対象ではないが入力必須。一方で略歴やSNSなどは公開設定が可能となっている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/chosakusha_touroku_a6c2cc9684/chosakusha_touroku_a6c2cc9684.jpg" alt="chosakusha touroku.jpg" /></p>
-<h2>「分野横断権利情報検索システム」も同時運用</h2>
-<p>文化庁は同日、分野を横断して権利情報を検索できる「分野横断権利情報検索システム」も運用開始した。個人登録情報に加え、既存の権利管理団体が保有する情報などを横断的に検索できる仕組みとすることで、著作物の権利関係を確認しやすくする。</p>
-<p>両システムは連動し、権利情報の集約と可視化を進める。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kensakusystem_229cbd39fa/kensakusystem_229cbd39fa.jpg" alt="kensakusystem.jpg" /></p>
-<h2>未管理著作物裁定制度に向けた基盤整備</h2>
-<p>今回の取り組みは、令和5年の著作権法改正により創設された「<a href="https://www.bunka.go.jp/prmagazine/rensai/news/news_019.html">未管理著作物裁定制度</a>」の施行（2026年4月予定）を見据えた基盤整備の一環と位置付けられている。</p>
-<p>同制度は、権利者が不明な著作物や集中管理団体に属していない作品について、一定の手続きを経て利用を可能にするもの。制度の円滑な運用には、権利情報の所在や利用条件を把握しやすい環境整備が不可欠とされている。</p>
-<p><strong>未管理著作物裁定制度の手続きの流れ：</strong> 利用希望者はまず権利者情報の調査を行い、それでも所在や意思が確認できない場合に申請手続きへ進む。登録確認機関による裁定要件の確認や補償金額の決定を経て、一定期間内の利用が認められる仕組みとなっている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/img_019_01_d3294ddac2/img_019_01_d3294ddac2.jpg" alt="img-019-01.jpg" /></p>
-<h2>権利処理の円滑化へ</h2>
-<p>近年はデジタル配信や生成AIの普及により、個人による創作活動とその二次利用の機会が拡大している。一方で、権利者の所在が不明確なまま利用を断念するケースや、無断利用によるトラブルも課題となってきた。</p>
-<p>文化庁は、個人クリエイターが自ら利用条件を明示できる環境を整備することで、適正なライセンス利用の促進と、権利処理の円滑化を図るとしている。今後は利用状況を踏まえ、必要に応じて機能の拡充なども検討する。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>企業のAI戦略を左右するサーバー選びとは―デル・テクノロジーズが語る、オンプレミスAI基盤とソブリンAIの重要性</title>
-      <link>https://ledge.ai/articles/delltechnologies_okano_interview</link>
-      <description><![CDATA[<p>AI活用が概念実証（PoC）の段階を終え、いよいよ本格的なビジネス運用フェーズへと移行しつつある今、AI戦略の成否を分けるインフラ選択の重要性はかつてなく高まっている。多くの企業が「クラウドファースト」で AI基盤を検討する中で、いま改めて「オンプレミス」という選択肢が、コスト、セキュリティ、そして事業継続性の観点から再評価されている。</p>
-<p>本記事では、デル・テクノロジーズ株式会社の岡野家和氏へのインタビューに基づき、具体的な国内事例から見えてくるコストや性能面での優位性に加え、自社のデータとAIモデルに対する「主権」を確保し、企業の競争力を守る「ソブリンAI」という重要な概念についても、専門家の視点から詳しく解説する。</p>
-<h2>オンプレミスAIは「超巨大プロジェクト」だけのもの、ではない</h2>
-<p>AIのためのオンプレミスGPU サーバーと聞くと、多くの企業が国家レベルや数億円規模の巨大な研究開発プロジェクトを想像するかもしれない。しかし、そのイメージはもはや過去のものである。実際には、より具体的で身近なビジネス課題を解決するために、小規模からオンプレミスAI基盤を導入し、着実に成果を上げている国内企業が増えている。本セクションでは、その具体的な事例を紐解く。</p>
-<p><strong>事例1：クラウドとのコスト比較でオンプレを選択したMASSホールディングス様</strong></p>
-<p>美容業界のDXを推進するMASSホールディングス社は、AI活用にあたり、当初は多くの企業と同様にパブリッククラウドのGPUサービスを検討した。しかし、同社はオンプレミスサーバーの導入コストとクラウドの利用料を厳密に比較検討した結果、「NVIDIA H100 搭載サーバーを購入した方が安い」という結論に至り、デル・テクノロジーズのGPUサーバー導入を決定した。</p>
-<p>同社がAIを活用する用途は、「リアルタイムのヘアカラーシミュレーション」による顧客体験の向上や、「サプライチェーンにおける需要予測」の精度向上など、ビジネスに直結するものである 。この事例は、決して超巨大プロジェクトでなくとも、コスト合理性の観点からオンプレミスが有力な選択肢となり得ることを明確に示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/03_dae7d1c7b7/03_dae7d1c7b7.png" alt="03.png" /></p>
-<p><strong>事例2：サーバーとクライアントPCを一括導入したオー・エル・エム・デジタル様</strong></p>
-<p>アニメ制作業界のトップランナーであるオー・エル・エム・デジタル社は、産官学連携プロジェクトの中核を担うAI基盤として、デル・テクノロジーズのGPUサーバーを導入した。この事例で注目すべきは、デル・テクノロジーズがサーバーだけでなく、AI開発に用いる高性能なワークステーション（クライアントPC）も提供している点である。</p>
-<p>AI開発環境をエンドツーエンドで、つまりサーバーからクライアントまで一括で提案・導入できることは、システム全体の整合性やサポートの一元化という点で大きな強みとなる。オー・エル・エム・デジタル社は、この総合力を評価し、デル・テクノロジーズをパートナーとして選択した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/04_57f55e92cb/04_57f55e92cb.png" alt="04.png" /></p>
-<p>これらの公開事例は、より広範で加速しつつあるトレンドの氷山の一角である。岡野氏が指摘するように、デル・テクノロジーズには同様の規模のプロジェクトに関する問い合わせが幅広い企業から著しく増加しており、その多くは公表されていない。この事実は、オンプレミス AI が特定のビジネス課題を解決するための主流の選択肢になりつつあることを証明している。</p>
-<h2>企業の競争優位性を守る「ソブリンAI」という考え方</h2>
-<p>「ソブリンAI」という言葉は、元々、国家や政府が自国のデータやAI技術に対する主権を確保するという文脈で語られてきた。しかし、AI活用がビジネスの中核を担うようになった現代において、この考え方は企業経営にも当てはまる。自社の生命線であるデータ、独自に開発したAIモデル、そしてその運用に対する「主権」を自社の管理下に置くことは、将来の競争優位性を確立するための極めて重要な戦略である。</p>
-<p><strong>ソブリンAIを構成する「3つの主権」</strong></p>
-<p>企業のソブリンAIは、以下の3つの主権によって構成される。</p>
-<ul>
-<li>データの主権： 自社のデータがどこで処理・保管され、誰にアクセスされるか管理する権利</li>
-<li>モデルの主権： 利用するAIモデルの学習・推論環境を自社で制御できるか</li>
-<li>運用の主権： AIの運用（セキュリティ、可用性、コスト）を自社のポリシーで最適化できるか</li>
-</ul>
-<p><strong>なぜオンプレミスが強力な選択肢となるのか</strong></p>
-<p>パブリッククラウドを利用する場合、利便性の高さと引き換えに、ある程度の主権をクラウド事業者に委ねる構造になっている。例えば、ユーザーは自社が望む特定の暗号化アルゴリズムや管理プロトコルを選択できないことが多く、さらには自社のデータが物理的にどこに保管されているかを正確に知ることすらできない場合がある。</p>
-<p>一方でオンプレミスは、これらの主権をすべて自社で保持することが可能である。特に、製造業における設計データのように外部への持ち出しが許されない情報や、取引先から求められる特定の厳格なコンプライアンス要件に応える必要がある場合など、運用を自社で完全にコントロールしたいというニーズに、オンプレミスは直接的に応えることができる。
-主権の確保という戦略的な側面に加え、コストや性能といったより実用的な観点からもオンプレミスのメリットは存在する。</p>
-<h2>最新GPUの性能を最大化する、デル・テクノロジーズの「専用設計」</h2>
-<p>AIインフラ、特にGPUサーバーにおいて、現在最も重要な技術的課題は「冷却」である。NVIDIA社のGPUは世代を重ねるごとに性能が飛躍的に向上しているが、それに伴い消費電力と発熱量も急激に増大している。例えば、最新のBlackwell世代であるB200は1GPU あたり 最大約1200W、B300に至っては約1400Wという膨大な電力を消費し、そのほとんどが熱として放出される。この「熱」をいかに効率的に冷却し、GPUの性能を安定して引き出し続けるかが、サーバーベンダーの技術力、まさに腕の見せ所となっている。</p>
-<p><strong>空冷と水冷、両輪での最適なポートフォリオ</strong></p>
-<p>デル・テクノロジーズは、この冷却という課題に対し、二つのアプローチで対応してる。一つは、多くの企業が持つ従来のデータセンター環境で利用可能な「空冷」システム。もう一つは、最新・最上位GPUの性能を限界まで引き出すための「水冷」システムだ。この両輪を網羅したサーバーラインナップから、顧客はプロジェクトの規模、予算、既存の施設環境に応じて最適な冷却方式を選択できる、幅広いポートフォリオを提供している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/05_d1c459d9c4/05_d1c459d9c4.png" alt="05.png" /></p>
-<p><strong>実測値で見るBlackwell世代の圧倒的性能</strong></p>
-<p>最新世代GPUサーバーの性能は、デル・テクノロジーズのサーバーにおける実測値でも証明されている。水冷の最新サーバーに搭載されたNVIDIA B200 GPUは、NVIDIA H100を搭載した空冷サーバーと比較して、LLMの追加学習で2.47倍、画像生成で2.28倍という圧倒的な性能を記録したベンチマーク結果が出ている。</p>
-<p>また水冷だけでなく従来の空冷環境でも非常に高いパフォーマンスが報告されている。前世代のL40Sと比較してトークン生成速度が4.8倍に達しただけでなく、ハイエンドのH100と比較しても電力効率で1.6倍、対話型AIの応答時間では2.7倍高速という、予想を上回る結果が出てきている。</p>
-<p><strong>冷却効率を極限まで高めるサーバー内部の「専用設計」</strong></p>
-<p>こうした高いパフォーマンスの達成は、デル・テクノロジーズの緻密な「専用設計」思想の直接的な結果だという。</p>
-<p>例えば、4Uサイズの8GPUサーバーでは、CPUを搭載する区画とGPUを搭載する区画で冷却ファンを完全に分離・専用化。サーバー前面に配置された12個の巨大なファンは、その能力のほぼすべてを最も発熱量の大きいGPUの冷却に集中させる構造になっている。さらに、GPUを冷却した後の熱い空気が他のコンポーネントに影響を与えないよう、シュラウド（仕切り板）で空気の流れを厳密に分離するなど、細部にわたるこだわりが極めて高い冷却性能を実現している。</p>
-<p>そして、この優れたハードウェアの状態を正確に把握し、効率的に管理・運用するためのインテリジェンスもまた、AI基盤の価値を大きく左右する重要な要素だという。すべてのPowerEdgeサーバーに標準搭載されている管理プロセッサー「iDRAC」は、GPU 単位での温度と電力消費状況のリアルタイム監視を可能にする。これは安定運用の要であり、実際に導入した企業からも極めて高く評価されているという。</p>
-<h2>ハードウェアだけではない、デル・テクノロジーズが選ばれる理由</h2>
-<p>「どのベンダーのサーバーでも、搭載されている NVIDIA GPU が同じなら性能も同じではないか？」こうした疑問を持つ方もいるかもしれない。しかし、実際の運用効率、システムの信頼性、そして将来にわたるセキュリティにおいて、サーバーベンダー独自の機能やサポート体制が決定的な差を生み出す。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/06_a183b106e7/06_a183b106e7.png" alt="06.png" /></p>
-<p>デル・テクノロジーズは、豊富なGPUサーバーラインナップに加え、以下の強みを総動員し、企業のAI戦略を成功へと導く。</p>
-<ul>
-<li>強力な供給力とサプライチェーン：サーバーだけではない圧倒的な取引規模がNVIDIAとの強力なパートナーシップを築き、最新GPUの安定供給を可能にしている。</li>
-<li>手厚い国内サポート：外資系ベンダーとしては珍しく、サーバーのサポートコールを国内の正社員エンジニアが一次対応から行う体制を整え、迅速かつ質の高いサポートを実現している。</li>
-<li>AI専門のコンサルティング：ハードウェア導入前の戦略立案フェーズから顧客と伴走するAI専門のコンサルティングサービスを提供し、技術だけでなくビジネスの成功までを支援する。</li>
-</ul>
-<p>企業のAI活用において、AI インフラの選択はもはや単なるIT調達の一部ではない。それは、自社のデータという最も重要な資産をどう守り、AI という最も強力な武器をどう使いこなすか、ビジネスの未来そのものを左右する「戦略的判断」である。</p>
-<p>デル・テクノロジーズは、最新GPUの性能を最大限に引き出す製品力、導入前から導入後までを支える手厚いサポートとコンサルティング能力、そして強力なパートナーシップに裏打ちされた供給力を総動員し、あらゆる企業のAI戦略を成功へと導くパートナーとなるだろう。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/07_8fed02dfe0/07_8fed02dfe0.png" alt="07.png" /></p>
-<p>:::box
-関連リンク：<a href="https://www.delltechnologies.com/asset/ja-jp/products/servers/industry-market/poweredge-brochure.pdf">AI時代にあらゆる場所でイノベーションを推進「Dell PowerEdge サーバー</a>{ target=\</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Instagram、ティーンの自殺・自傷関連の「短期間の繰り返し検索」に保護者通知——AI利用拡大を踏まえ対話機能も年内導入へ</title>
-      <link>https://ledge.ai/articles/instagram_teen_selfharm_repeated_search_parental_alert_ai_expansion_2026</link>
-      <description><![CDATA[<p>Meta Platformsは米国時間2026年2月26日、同社が運営するInstagramにおいて、ティーンアカウントが自殺や自傷行為に関連する用語を短期間に繰り返し検索した場合、保護者に通知する新機能を導入すると<a href="https://about.fb.com/news/2026/02/new-meta-alerts-let-parents-know-if-teen-may-need-support/">発表</a>した。同機能は来週から米国、英国、オーストラリア、カナダで展開される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9/01_ADVANCE_NOTIF_FOR_PARENTS_TEENS_Carousel_02_873a27faa9.webp" alt="01_ADVANCE-NOTIF-FOR-PARENTS-TEENS_Carousel-02.webp" /></p>
-<h2>「短期間の繰り返し検索」が通知条件</h2>
-<p>今回導入される通知機能は、単発の検索ではなく、一定期間内に関連ワードを繰り返し検索した場合を対象とする。対象は、保護者による「Supervision（監督）」機能で連携されたティーンアカウントだ。</p>
-<p>条件を満たした場合、保護者には通知が送信される。通知はメール、SMS、WhatsApp、アプリ内通知など複数のチャネルで行われる。</p>
-<p>Metaはすでに、自殺・自傷関連の検索が行われた場合、支援団体の情報や相談窓口を表示する仕組みを提供している。今回の施策は、それに加えて保護者への情報共有を可能にするものとなる。</p>
-<h2>ティーンのAI利用増加を踏まえた拡張</h2>
-<p>Metaは今回の発表で、まずInstagram検索に対する保護者通知から開始すると説明する一方、ティーンが悩みやメンタルヘルスに関する相談先としてAIを利用する傾向が強まっているとの認識を示した。</p>
-<p>同社によれば、Instagram内で利用可能なAIは、すでにティーンに対して安全に応答するよう設計されており、適切にリソースを提示する仕組みが組み込まれている。</p>
-<p>そのうえでMetaは、特定のAI体験に対しても、検索と同様の保護者通知機能を構築中であることを明らかにした。AI対話向けの通知機能は、2026年内（later this year）に導入される予定で、現時点ではまだ提供されていない。</p>
-<h2>4カ国で先行展開</h2>
-<p>検索に関する保護者通知機能は、まず米国、英国、オーストラリア、カナダで提供開始となる。今後、他地域への拡大も予定している。</p>
-<p>Metaは近年、ティーン向けアカウントに対する安全対策を強化しており、今回の通知機能もその一環として導入される。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>レッジ、オンライン展示会「Ledge.ai EXPO 2026 Spring」を本日公開</title>
-      <link>https://ledge.ai/articles/ledgeai-expo-2026-spring</link>
-      <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、2026年3月2日（月）より、最新のAIプロダクトやDXソリューションを一堂に紹介するオンライン展示会「Ledge.ai EXPO 2026 Spring」を公開いたしました。</p>
-<p>本企画は、優れたAIソリューションを持つ「サービス提供企業」と、自社の課題解決を目指す「情報収集者」をLedge.aiが繋ぐ、新たなビジネスマッチングの場として提供いたします。本日をスタートラインとして、3月31日までの会期中、掲載ソリューションを随時拡大していく「成長型」の展示会として運営してまいります。</p>
-<p>また、本イベント終了後は、Ledge.ai内で準備を進めている「常設ソリューションデータベース」への段階的な統合を予定しており、本EXPOはそのプレイベントとしての役割を担っています。</p>
-<p><strong>開催概要</strong>
-名称： Ledge.ai EXPO 2026 Spring
-公開期間： 2026年3月2日（月）〜 2026年3月31日（火）
-URL： <a href="https://ledgeai-expo-2026-spring.studio.site/">https://ledgeai-expo-2026-spring.studio.site/</a>
-展開方針： 会期中に掲載数を順次拡大。将来的なソリューション情報の常設化・リニューアルを見据えた段階的なプラットフォーム展開を予定しています。</p>
-<h2>提供機能と運用の特徴</h2>
-<p><strong>掲載ソリューションへの一括資料請求</strong>
-来場者の皆さまは、掲載されている複数のソリューションに対し、専用フォームから一括で資料請求を行うことが可能です。個別に問い合わせる手間を省き、自社の課題に最適なパートナー選定を効率的に進めていただけます。</p>
-<p><strong>会期中の随時掲載アップデート</strong>
-本展示会は、公開時点のラインナップを固定せず、会期終了まで継続的に新規ソリューションの掲載を受け付けます。これにより、日々新たな解決策（ソリューション）が追加される動的なマッチングプラットフォームとして機能いたします。</p>
-<h2>ソリューション掲載・協賛プランについて</h2>
-<p>「Ledge.ai EXPO 2026 Spring」では、会期中の新規掲載および参画いただける企業様を広く募集しております。
-本EXPOへの掲載は、単なる期間限定の露出に留まらず、今後Ledge.aiが計画している「常設ソリューション掲載枠」への展開を見据えた先行的な取り組みとなります。Ledge.aiは、ニュースを届けるメディアから、ビジネスの具体的な出会いを創出するプラットフォームへと、段階的に進化を続けてまいります。</p>
-<p><strong>提供プラン</strong>
-情報の露出を目的とした無料掲載プランから、リード獲得を最大化する有償の協賛プランまで、貴社のマーケティング目的に応じた複数の選択肢をご用意しております。</p>
-<p>詳細および掲載に関するお問い合わせは、以下にて受け付けております。
-https://ledge.ai/contact/ad-form</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AMDと長期契約でAIインフラ強化──最大6GW相当の「Instinct」GPUを導入</title>
-      <link>https://ledge.ai/articles/meta_amd_longterm_ai_infrastructure_6gw_instinct</link>
-      <description><![CDATA[<p>Metaは2026年2月24日（米国時間）、半導体大手のAdvanced Micro Devices（AMD）と長期のAIインフラ契約を締結し、最大6ギガワット（GW）相当の「AMD Instinct」GPUを導入すると<a href="https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/">発表</a>した。自社のAI基盤を拡張し、大規模モデルの開発およびサービス提供能力を強化するねらいだ。</p>
-<p>Metaの公式発表によれば、今回の契約は同社のAIインフラ拡充の一環であり、AMDのデータセンター向けアクセラレータ「Instinct」シリーズを複数年にわたり導入する。導入規模は最大6GW相当とされ、GPU調達を電力規模で示すかたちとなっている。</p>
-<p>一方、AMDの発表では、両社が「複数年・複数世代（multi-year, multi-generation）」にわたる戦略的パートナーシップで合意したと説明。シリコン、システム、ソフトウェアを横断する形でロードマップを連携し、MetaのAIワークロード拡張を支援するとしている。2026年後半からの立ち上がりが見込まれている。</p>
-<h2>導入対象はInstinctシリーズ</h2>
-<p>AMDの「Instinct」シリーズは、生成AIや大規模言語モデル（LLM）の学習および推論を想定したデータセンター向けGPUアクセラレータ。高帯域幅メモリ（HBM）を搭載し、大規模並列演算に対応する設計が特徴とされる。</p>
-<p><a href="https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html">AMDのリリース</a>では、今後の世代を含めたInstinct GPUの提供に加え、ラックスケール構成やEPYCプロセッサとの組み合わせなど、データセンター全体のアーキテクチャを視野に入れた協業に言及している。</p>
-<h2>ワラントも発行、最大1億6,000万株を付与</h2>
-<p>AMDは公式リリースの中で、Metaに対し、最大1億6,000万株のAMD普通株式を対象とする業績連動型ワラントを発行したと明らかにした。条件達成に応じて権利が確定する構造で、今回の契約が複数年にわたる戦略的パートナーシップであることを示す内容となっている。</p>
-<h2>AIインフラ投資が加速</h2>
-<p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
-<p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
-      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
-      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
-<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
-<h2>推論最適化を強調</h2>
-<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
-<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
-<h2>企業導入が加速</h2>
-<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
-<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、1,100億ドル（約17兆円）調達へ──SoftBank・NVIDIA・Amazonが参加</title>
-      <link>https://ledge.ai/articles/openai_110b_funding_softbank_nvidia_amazon</link>
-      <description><![CDATA[<p>OpenAIは2026年2月27日（現地時間）、プレマネー評価額7,300億ドルに基づき、総額1,100億ドル（約17兆円）を調達する資金調達ラウンドを実施すると<a href="https://openai.com/index/scaling-ai-for-everyone/">発表</a>した。出資内訳は、SoftBank Groupが300億ドル、NVIDIAが300億ドル、Amazonが500億ドル。未上場企業としては異例の評価額となる。</p>
-<p>今回の発表は、OpenAI公式ブログ「<a href="https://openai.com/index/scaling-ai-for-everyone/">Scaling AI for everyone</a>」で明らかにされた。プレマネー評価額7,300億ドルは、AI分野における資本集約型競争の加速を象徴する水準となる。</p>
-<h2>Amazonとの戦略提携</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/amazon_open_ai_logos_1_amazon_news_jp_022726_6e31117189/amazon_open_ai_logos_1_amazon_news_jp_022726_6e31117189.jpeg" alt="amazon-open-ai-logos-1-amazon-news-jp-022726.jpeg" /></p>
-<p>Amazonによる500億ドルの投資については、初回150億ドルに加え、条件達成後に350億ドルを追加する構造と説明されている。両社はAmazon Web Services（AWS）上での実行基盤に関する協業を進め、Stateful Runtime Environmentの共同開発や、OpenAIの先端モデル群のクラウド展開を行う。</p>
-<p>資本参加と同時に、クラウド基盤レベルでの連携を含む点が特徴だ。</p>
-<h2>Microsoftとの既存関係は維持</h2>
-<p>OpenAIは同日、Microsoftとの共同声明も<a href="https://openai.com/index/continuing-microsoft-partnership/">公表</a>した。声明では、今回の新規資金調達および新規パートナーの参加は、両社の既存契約関係を変更するものではないと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/joint_statement_openai_microsoft_2a8eb24887/joint_statement_openai_microsoft_2a8eb24887.jpg" alt="joint statement openai microsoft.jpg" /></p>
-<h2>資金の用途</h2>
-<p>OpenAIは、今回の資金を以下の分野に充てるとしている。</p>
-<ul>
-<li>次世代大規模モデルおよびマルチモーダルAIの研究開発</li>
-<li>推論・学習向け計算資源の確保</li>
-<li>データセンターなどAIインフラ投資</li>
-<li>安全性・アライメント研究の強化</li>
-</ul>
-<p>プレマネー評価額7,300億ドル、総額1,100億ドルという規模は、AIモデルの高度化に伴い拡大する計算資源・インフラ投資の重要性を改めて示すものとなる。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、BCG・マッキンゼーら4社と「Frontier Alliances」始動──企業AI導入の“実装ボトルネック”に踏み込む</title>
-      <link>https://ledge.ai/articles/openai_frontier_alliances_bcg_mckinsey_accenture_capgemini</link>
-      <description><![CDATA[<p>OpenAIは2026年2月23日、AIが同僚のように自律的に業務を担う「AI coworkers（AI同僚）」の企業展開を加速するための新たなパートナー枠組み「Frontier Alliances」を<a href="https://openai.com/index/frontier-alliance-partners/">発表</a>した。</p>
-<p>参画企業として、Boston Consulting Group（BCG）、McKinsey &amp; Company、Accenture、Capgeminiの4社を挙げる。いずれもグローバルに企業変革や大規模IT導入を担ってきたコンサルティング／SIer大手であり、OpenAIはこれらの企業と複数年の枠組みで連携する。</p>
-<h2>「AI同僚」を企業に定着させるための枠組み</h2>
-<p>OpenAIは今回の発表で、企業におけるAI活用が失敗する要因は、モデル性能そのものよりも、既存システムとの統合や業務プロセス設計、オペレーティングモデルの再構築、組織変革にあるとの問題意識を示した。</p>
-<p>「Frontier Alliances」は、こうした“実装”や“全社展開”の段階に焦点を当てる。AIを単なるチャットツールとして導入するのではなく、企業のデータや業務ツールと接続し、継続的にタスクを遂行する「AI coworkers」として運用することを前提にしている。</p>
-<p>OpenAIは、AI coworkersの構築・展開・運用を支える基盤として「Frontier」を位置づけ、パートナー企業とともにその導入を支援するとしている。</p>
-<h2>4社が担う「戦略から統合、再設計まで」</h2>
-<p>各パートナーはAI導入の上流から下流までを支援。
-・経営・事業戦略へのAI組み込み
-・既存ITシステムとの統合
-・業務フローの再設計
-・全社スケールでの展開
-といった領域が想定されている。</p>
-<p><a href="https://www.bcg.com/press/23february2026-bcg-and-openai-partnership-frontier-alliance">BCG</a>、<a href="https://www.mckinsey.com/about-us/new-at-mckinsey-blog/mckinsey-and-openai-scale-ai-driven-transformations-with-new-frontier-alliance">McKinsey</a>、<a href="https://www.capgemini.com/us-en/news/press-releases/capgemini-joins-forces-with-openai-to-accelerate-new-era-of-ai-powered-enterprise-transformation-with-frontier-alliance/">Capgemini</a>はそれぞれ公式発信の中で、OpenAIとの連携を通じた企業変革支援の強化を表明している。</p>
-<h2>「モデル競争」から「実装競争」へ</h2>
-<p>生成AI分野ではこれまで、モデル性能やベンチマークが注目されてきた。一方で、大企業における本格導入では、セキュリティ、ガバナンス、既存業務との整合、責任分界といった課題が顕在化している。</p>
-<p>今回の枠組みは、こうした“実装ボトルネック”を乗り越えるために、コンサルティング企業やSIerの変革ノウハウと、OpenAIの技術基盤を結び付ける試みと位置づけられる。</p>
-<p>AIを「ツール」ではなく「同僚」として組織に組み込む構想が、実際の企業現場でどこまでスケールするのか。Frontier Alliancesの具体的な導入事例や展開領域が、今後の焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
-      <link>https://ledge.ai/articles/perch2_bird_trained_ai_whale_dolphin_high_accuracy</link>
-      <description><![CDATA[<p>Google DeepMindが開発した生物音響基盤モデル「Perch 2.0」が、主に鳥類など陸生生物の鳴き声で事前学習されているにもかかわらず、クジラやイルカといった海洋哺乳類の分類タスクでも高い性能を示したことが分かった。研究成果は未査読論文としてarXivで<a href="https://arxiv.org/abs/2512.03219">公開</a>されている。</p>
-<h2>鳥類中心で事前学習された生物音響基盤モデル</h2>
-<p>Perch 2.0は、Google DeepMindが開発した大規模生物音響基盤モデルだ。主に鳥類を中心とする陸生動物の鳴き声データを用いて事前学習されており、音声波形やスペクトログラムから抽象的な音響特徴を抽出する埋め込み（embedding）を生成する。</p>
-<p>この埋め込みは、線形分類器の適用や少量データによる微調整（ファインチューニング）を通じて、多様な分類タスクに転用できる設計となっている。</p>
-<h2>なぜ“鳥で学習”したAIが“クジラ”に効くのか</h2>
-<p>今回の論文で焦点となるのは「陸上生物中心の事前学習が、なぜ未知のドメインである水中環境のタスクにこれほど有効だったのか」という点だ。</p>
-<p>Perch 2.0は、線形プローブ（linear probing）を前提とした転移性能を重視して設計されている。これは、事前学習済みの埋め込みを固定したまま単純な分類器のみを学習させる手法で、計算資源やラベル付きデータへの要求を大幅に抑えられる。論文は、この設計がクラスタリングや近傍探索、少量データによる迅速なモデル構築を支えていると指摘する。</p>
-<p>陸上中心の学習が海洋哺乳類に転移した理由について、論文は以下の観点から考察している。</p>
-<ul>
-<li><strong>“Bittern Lesson”：</strong>  鳥類の鳴き声のように、種間で極めて微妙な差異を持つ難度の高い分類タスクで大規模学習を行ったことが、結果として汎用性の高い、精緻な音響表現の獲得につながった可能性</li>
-<li><strong>スケーリングの恩恵：</strong>  大規模データとモデル規模の拡張が、ドメイン外のタスクに対するロバスト性を向上させた</li>
-<li><strong>発声メカニズムの共通性：</strong> 鳥類と海洋哺乳類の発声構造に一定の物理的類似性が存在する可能性</li>
-</ul>
-<h2>海洋哺乳類データでの検証結果</h2>
-<p>論文では、Perch 2.0の音響埋め込みを用い、クジラやイルカを含む海洋哺乳類の水中音響データに対する分類性能を評価した。評価指標にはF1スコアや平均適合率（mAP）などが用いられている。</p>
-<p>その結果、複数の海洋哺乳類データセットにおいて、Perch 2.0は既存の専用モデルや他の音響基盤モデルと比較して同等、あるいはそれを上回る数値を記録したと報告されている。特に、事前学習済み埋め込みに対して線形分類器のみを学習させる線形プローブ設定でも高いスコアを示した点が強調されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Table_2_Marine_learning_transfer_tasks_d0dd40fb55/Table_2_Marine_learning_transfer_tasks_d0dd40fb55.jpg" alt="Table 2  Marine learning transfer tasks.jpg" /></p>
-<p><strong>■ 埋め込み空間の可視化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsne_32_combined_853b778423/tsne_32_combined_853b778423.png" alt="tsne_32_combined.png" /></p>
-<p>さらに、少数のラベル例のみを用いたfew-shot条件でも性能低下は限定的で、限られたデータから分類器を構築する場合においても実用的な精度が得られたとしている。論文は、こうした結果を踏まえ、少量データ環境下で海洋哺乳類分類器を構築する用途にPerch 2.0の利用が有効であるとの見解を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/22193247_m_4ea411c393/22193247_m_4ea411c393.jpg" alt="22193247_m.jpg" /></p>
-<h2>生物多様性モニタリングへの取り組み</h2>
-<p>Google DeepMindの<a href="https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/">公式ブログ</a>
-では、生物音響AIを活用した絶滅危惧種の検出や生態系モニタリングへの取り組みを紹介している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/deepmind_blog_team_perch_03abedd662/deepmind_blog_team_perch_03abedd662.jpg" alt="deepmind blog team perch.jpg" /></p>
-<p>Perchシリーズは、保全団体や研究者と連携し、長時間の録音データから種の存在を自動検出する用途などで活用が進められていると説明している。今回の検証結果は、こうした生物音響研究の一環として位置づけられる。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
-      <link>https://ledge.ai/articles/perplexity_computer_multi_agent_orchestration_19_models</link>
-      <description><![CDATA[<p>Perplexityは米国時間2026年2月25日、マルチエージェント・オーケストレーションシステム「Perplexity Computer」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-computer">発表</a>した。現在利用可能な複数の最先端AIモデルを統合し、タスクの分解から実行までを自律的に行う“デジタルワーカー”として提供するという。</p>
-<h2>単一チャットから“実行基盤”へ</h2>
-<p>これまでの「チャット型AI」が情報提示にとどまっていたのに対し、「Perplexity Computer」はワークフロー全体の作成と実行を担う。ユーザーが成果物を指定すると、システムはタスクを複数のサブタスクに分解。それぞれに対応するサブエージェントを生成し、並列・非同期で処理を進める仕組みだ。</p>
-<p>Web調査、文書生成、データ処理、外部サービスへのAPI呼び出しなどを組み合わせながら、成果物を完成させる。</p>
-<h2>隔離された実行環境で動作</h2>
-<p>Computerは隔離されたコンピューティング環境内で動作する。実ファイルシステム、実ブラウザ、実ツール統合へのアクセスが可能とされ、単なるテキスト生成にとどまらない“実行型”基盤である点を強調している。</p>
-<h2>19モデルをオーケストレーション</h2>
-<p>Perplexityは、単一モデルではなく「モデルの専門化」を前提とした構成を採用している。用途に応じて複数モデルを使い分けると説明しており、日本向け配信では「19のAIモデルをオーケストレーション」と明記された。</p>
-<ul>
-<li>Opus 4.6：コア推論</li>
-<li>Gemini：ディープリサーチ</li>
-<li>Nano Banana：画像生成</li>
-<li>Veo 3.1：動画生成</li>
-<li>Grok：軽量タスク高速処理</li>
-<li>ChatGPT 5.2：長文コンテキスト処理</li>
-</ul>
-<p>これらを用途別に組み合わせることで、複合的なワークフローを構築する。</p>
-<h2>提供形態</h2>
-<p>Perplexity Computerは、Perplexity Max加入者向けに提供を開始。Enterprise Maxも今後提供予定としている。Help Centerによれば、Computerは「独立したデジタルワーカー」と定義され、GmailやSlack、GitHub、Notionなど複数の外部サービスとの連携が可能とされる。</p>
-<p>Maxプランでは月間10,000クレジットが付与され、高計算量タスクに消費される。</p>
-<h2>同社の位置づけ</h2>
-<p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>警察庁、生成AI悪用の児童画像加工114件を把握　同級生が約6割、被害の中心は中高生</title>
-      <link>https://ledge.ai/articles/police_agency_ai_child_image_manipulation_114_cases_2025</link>
-      <description><![CDATA[<p>警察庁は2026年2月26日、「令和7年における少年非行及び子供の性被害の状況」を<a href="https://www.npa.go.jp/publications/statistics/safetylife/pdf_r7_syonenkohosiryo.pdf">公表</a>し、児童（18歳未満）の画像を生成AI等で性的に加工し悪用した事案を2025年中に114件把握したと明らかにした。被害児童の約9割を中学生・高校生が占め、行為者の約6割が「同級生・同じ学校」の関係にあるという実態が示された。</p>
-<p>公表資料によると、取扱い事案数は114件で、前年（110件）から微増した。加工手法の内訳は、生成AIの使用が24件、画像加工アプリが2件、不明が88件だった。不明には、関係者の供述や画像の状況から生成や加工に生成AI等が用いられたと推測されるものの、特定に至らなかった事案が含まれる。</p>
-<p>被害児童の学職別内訳は、中学生66人、高校生32人、小学生6人、その他10人。中高生が合計98人となり、全体の約9割を占める。小学生の被害も確認されている。</p>
-<p>行為者と被害児童の関係別では、「同級生・同じ学校」が65件と約6割を占めた。SNS等を通じて知り合った者は10件、面識のある大人は7件、不明は28件、その他は4件だった。学校内の人間関係を背景とした事案が多数を占める構図が浮かび上がる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/keishicho_916363c000/keishicho_916363c000.jpg" alt="keishicho.jpg" /></p>
-<p>資料では、主な取扱い事案として、以下の例が挙げられている。</p>
-<p>・生成AIを使用した性的画像の作成を有料で請け負う成人男性が、男子高校生から女子生徒の画像の加工依頼を受け、作成した画像をSNS上で公開・拡散した事案
-・男子中学生が女子生徒のSNS投稿画像を生成AIで裸体画像に加工し、他の男子生徒に販売した事案
-・高校の男性実習助手が卒業アルバムの女子生徒の画像を第三者に提供し、加工後の画像がSNSで拡散した事案
-・保育施設内で撮影した女児の画像を女性の裸体画像と合成して所持していた事案
-・SNSで知り合った男子中学生の画像を性的に加工し、「拡散する」などと脅して電子マネーを要求した事案</p>
-<p>単なる画像改変にとどまらず、販売や拡散、恐喝にまで発展するケースも確認されている。</p>
-<p>警察庁は、相談者・被害者の心情に配意しつつ、事案の内容に応じて刑法（名誉毀損、わいせつ物頒布等）などでの検挙や指導・警告を実施していると説明。「潜在的な事案も含めて今後も注視すべき状況」としている。</p>
-<p>生成AIの普及に伴い、児童の画像を悪用した新たな被害形態が顕在化している実態が改めて示された。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“自分だけのデータセンター”を構築するゲーム、Steamで登場──ラック配置から冷却設計まで再現する運営シミュレーション「Data Center」体験版が無料配信中</title>
-      <link>https://ledge.ai/articles/steam_data_center_demo_free_release</link>
-      <description><![CDATA[<p>PCゲーム配信プラットフォーム「Steam」で、データセンターの構築・運営をテーマにしたシミュレーションゲーム「Data Center」のデモ版（体験版）が<a href="https://store.steampowered.com/app/4376050/Data_Center_Demo/">無料配信</a>されている。リリース日は2026年1月30日。</p>
-<p>同作はサーバーラックの設置や配線、電源管理、冷却設計などを行いながら、自分だけのデータセンターを構築・拡張していくタイトルだ。開発はチェコの開発者であるWaseku氏が手がけている。</p>
-<p>ゲーム内では、ラックの配置やネットワーク接続だけでなく、トラフィックを色付きパケットで可視化する仕組みも実装されている。負荷状況の確認やボトルネックの把握が可能で、効率的な構成を目指す設計が求められる。また、障害対応や冗長化の考慮など、インフラ運営を意識した要素も盛り込まれている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=T58hOjwdrHE">YouTube</a></p>
-<p>製品版のリリースは2026年3月31日を予定している。Steamではウィッシュリスト登録が可能で、デモ版から製品版への導線も用意されている。</p>
-<p>近年、AIやクラウドサービスの拡大によりデータセンターの存在感は一段と高まっている。本作は、その裏側にある設計・運営の工程を、ゲームとして体験できるタイトルとなっている。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
-      <link>https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence</link>
-      <description><![CDATA[<p>トランプ大統領は2026年2月28日、連邦政府機関に対し、米AI企業Anthropicの技術利用を停止するよう指示した。同日、OpenAIは米国防総省（Department of Defense, DoD）との合意を発表し、安全条項を明示したうえで機密環境へのAI展開を進めると明らかにした。</p>
-<p>短期間のうちに、交渉停滞、供給網リスク指定の示唆、大統領による利用停止指示、そして別企業との契約合意が相次いだ。背景には、国防分野でのAI活用を巡る契約条件の解釈をめぐる対立があった。</p>
-<h2>交渉の争点は「合法用途」の範囲</h2>
-<p>米国防総省は近年、生成AIの導入を加速させている。情報分析、作戦計画、データ統合など、国家安全保障領域での活用が拡大している。Anthropicも、機密ネットワーク環境へのモデル提供を進めてきた企業の一つだ。</p>
-<p>しかし交渉の焦点となったのが、「any lawful use（あらゆる合法用途）」という条項だった。</p>
-<p>国防総省は、合法である限り包括的な利用を認める条件を求めた。一方、Anthropicは次の2用途について例外を維持していた。</p>
-<ul>
-<li>米国民に対する大規模国内監視</li>
-<li>完全自律型兵器</li>
-</ul>
-<h2>CEOが立場を公表</h2>
-<p>AnthropicのCEOダリオ・アモデイ氏は2月26日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">声明</a>を発表した。</p>
-<p><em><strong>“today’s frontier AI systems are simply not reliable enough to power fully autonomous weapons.”</strong></em>
-（現在の最先端AIシステムは、完全自律型兵器を動かすには信頼性が不十分である。）
-<em><strong>“we cannot in good conscience accede to their request.”</strong></em>
-（（倫理的・道義的）責任において、彼らの要求には応じられない。）</p>
-<p>同氏は、国家安全保障用途への協力自体を否定していないとしつつも、上記例外の撤廃には応じない姿勢を示した。</p>
-<h2>国防長官が供給網リスク指定を示唆</h2>
-<p>2月28日、ヘグセス国防長官はXに投稿。</p>
-<p><em><strong>“the Department of War must have full, unrestricted access to Anthropic’s models for every LAWFUL purpose”</strong></em>
-（国防総省はあらゆる合法目的でAnthropicのモデルに完全かつ無制限のアクセスを持つべきだ。）
-<em><strong>“I am directing the Department of War to designate Anthropic a Supply-Chain Risk to National Security.”</strong></em>
-（Anthropicを国家安全保障上の供給網リスクに指定するよう指示する。）</p>
-<p>と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pete_hegseth_x_7ff66a71e1/pete_hegseth_x_7ff66a71e1.jpg" alt="pete hegseth x.jpg" /></p>
-<h2>大統領が利用停止を指示</h2>
-<p>同日、トランプ大統領はTruth Socialで次のように<a href="https://truthsocial.com/@realDonaldTrump/116144552969293195">投稿</a>した。</p>
-<p><em><strong>“I am directing EVERY Federal Agency in the United States Government to IMMEDIATELY CEASE all use of Anthropic’s technology.”</strong></em>
-（米国政府のすべての連邦機関に対し、Anthropicの技術の使用を直ちに停止するよう命じる。）</p>
-<p>国防総省などについては6カ月の移行期間を設けるとした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/donald_J_trump_truth_dd6e5dc705/donald_J_trump_truth_dd6e5dc705.png" alt="donaldJ trump truth.png" /></p>
-<h2>Anthropicの反論</h2>
-<p>その後Anthropicは公式声明で、
-<em><strong>“No amount of intimidation or punishment from the Department of War will change our position.”</strong></em>
-（国防総省からのいかなる威圧や処罰も、我々の立場を変えることはない。）</p>
-<p>と述べ、供給網リスク指定の適法性を争う姿勢を示した。</p>
-<h2>OpenAIは「契約設計で担保できる」と説明</h2>
-<p>同28日、OpenAIは国防総省との合意内容を<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">公表</a>した。</p>
-<p>同社は声明の中で、自社も「大規模国内監視」と「自律兵器の指揮」には応じない立場であると明言している。そのうえで、これらの禁止事項は理念として掲げるだけでなく、契約条文と技術設計の双方で担保できると説明した。</p>
-<p>OpenAIはまず、「兵器を開発するのか」「AIが自律的に軍事作戦を遂行するのか」といった想定批判を取り上げ、いずれも否定した。モデルが自律的に戦闘を行うことはなく、兵器の設計・製造に関与するものでもないとした。</p>
-<p>また、国内監視への転用についても、米憲法修正第4条や関連法令を参照し、「無制約な監視（unconstrained monitoring）」を禁じる条項を契約内に組み込んだと説明している。</p>
-<p>技術面では、クラウド限定環境での展開を前提とし、モデルをエッジ配備しない構成を採用したと述べた。さらに、安全スタックの運用裁量を自社が保持し、監査ログや認証体制を通じて契約上の制限を実効的に維持できるとしている。</p>
-<p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
-<p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yahoo!ショッピングがAIエージェント導入——会話で条件整理、比較・要約・おトク提案まで伴走する“エージェント型購買体験”を提供開始</title>
-      <link>https://ledge.ai/articles/yahoo_shopping_ai_agent_launch</link>
-      <description><![CDATA[<p>LINEヤフーは2026年2月25日、「Yahoo!ショッピング」において、生成AIが商品探しから購入、購入後のフォローまで買い物全体を支援する新機能「Yahoo!ショッピング エージェント」の提供を開始したことを<a href="https://www.lycorp.co.jp/ja/news/release/020144/">発表</a>した。同社はこれを、検索結果起点の買い物から一歩進んだ「エージェント型の購買体験」と位置付けている。</p>
-<h2>検討から購入後まで、会話で一貫サポート</h2>
-<p>「Yahoo!ショッピング エージェント」は、ユーザーと会話形式でやり取りしながら、ニーズを整理し、商品提案や比較、要約などを行う機能だ。</p>
-<p>ユーザーが曖昧な条件を入力した場合でも、対話を通じて条件を具体化し、関連商品の候補を提示する。商品特長の要約やレビュー比較、類似商品の違いの整理など、意思決定を支援する機能も備える。</p>
-<p>さらに、購入後も会話を通じて配送予定日や注文履歴の確認が可能だ。過去の購入履歴を踏まえ、「以前購入した商品に近いもの」「前回より安い商品」といった相談にも対応し、次の買い物につなげる支援を行う。</p>
-<p><strong>「AIと探す」から起動し、条件入力、商品提案、商品ページでの会話までを一連で支援する利用イメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb_78ae700d53/a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb_78ae700d53.jpg" alt="a5f88e1116aa3735afd0f18f4c8fb71e108ebdbb.jpg" /></p>
-<h2>サービス横断で起動、ページをまたいでも会話継続</h2>
-<p>同機能は、Yahoo!ショッピングのトップページ、検索結果ページ、商品詳細ページなど複数の導線から利用できる。比較検討の途中からでも起動でき、ページをまたいでも会話の流れを保ったまま利用できる点を特徴とする。</p>
-<p><strong>検索結果や商品詳細ページから起動でき、ページをまたいでも会話を継続できるUI設計</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43_7f1241dd59/5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43_7f1241dd59.jpg" alt="5fedbb4dfb8e6a52ff21068c23d5e791b0f2bf43.jpg" /></p>
-<p>PCブラウザー版およびiOS・Androidアプリで提供される（端末により表示されない場合がある）。</p>
-<h2>属性・購入履歴データを活用した提案</h2>
-<p>ログイン中のYahoo! JAPAN IDにひもづく属性情報や購入履歴など、同サービスが保有するECデータを活用し、ユーザーに合った商品を提案する。</p>
-<p><strong>過去の購入履歴を踏まえた商品提案や最安値比較など、購入後や再購入時の相談にも対応する画面例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/84b691d2eb696aaac8c79d7c2a32f7ccf97656d1_a65c9085f8/84b691d2eb696aaac8c79d7c2a32f7ccf97656d1_a65c9085f8.jpg" alt="84b691d2eb696aaac8c79d7c2a32f7ccf97656d1.jpg" /></p>
-<p>また、送料や配送予定日の確認に加え、生成AIが気になった商品を「お気に入り」登録するよう提案し、値下げ時にLINE公式アカウントから通知を受け取れる仕組みも用意した。</p>
-<h2>背景：比較の利便性と“選択の負担”</h2>
-<p>ECは多くの商品を比較検討できる一方、「何を選べばよいかわからない」「比較に時間がかかる」といった課題も指摘されてきた。</p>
-<p>Yahoo!ショッピングではこれまで、生成AIを活用したレビュー要約や商品比較、対話型検索支援機能などを段階的に提供してきた。今回、それらの知見を統合し、購買行動全体を支援するエージェント型機能へと発展させた形だ。</p>
-<h2>OpenAI APIを活用、出力の正確性は保証せず</h2>
-<p>同機能はOpenAIのAPIを使用。LINEヤフー共通利用規約が適用され、生成AIによる出力の信頼性や正確性などについては保証しない旨も明記されている。同社は今後、利用状況やユーザーからのフィードバックをもとに、提案精度やレコメンド機能を順次拡充するとしている。</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「Microsoft 365 Copilot」が社外秘メールを拾う不具合、数週間継続──Microsoftが修正を段階展開</title>
-      <link>https://ledge.ai/articles/copilot_confidential_email_bug_fix_rollout</link>
-      <description><![CDATA[<p>Microsoftが自社AI「Copilot」に関する不具合を認めたことを、米ITメディアの<a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/">BleepingComputer</a>が2026年2月18日（現地時間）に報じた。掲載記事のタイトルは「Microsoft says bug causes Copilot to summarize confidential emails」と題した記事で報じた。</p>
-<p>報道によると、Microsoft 365 Copilot Chatが、機密（confidential）ラベル付きメールを誤って要約処理の対象とする不具合が発生していたという。</p>
-<h2>問題の内容──Sent Items／Draftsが対象に</h2>
-<p>Microsoft 365のサービスヘルス通知（Issue ID: CW1226324）では、次のように説明されている。
-・Copilot Chat（work tab）利用時
-・Exchange Onlineの「Sent Items（送信済み）」および「Drafts（下書き）」フォルダ内メール
-・DLP（データ損失防止）ポリシーおよび感度（sensitivity）ラベルが適用されている場合でも
-・Copilotがこれらのアイテムを処理対象として拾い得る状態にあった</p>
-<p>この通知内容は、管理者向けのMicrosoft 365 Service health advisory「CW1226324」の内容（開始時刻、影響範囲、原因、進捗）を、大学のメール運用ページが時系列で転載している<a href="https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html">大学の公式ミラーサイト</a>より明らかになった。</p>
-<p>Microsoftは同通知の中で、根本原因を「コードの問題（code issue）」と説明している。</p>
-<h2>発生時期と継続期間</h2>
-<p>通知によれば、不具合の開始は2026年1月21日（UTC）。その後、数週間にわたり影響が継続していた。</p>
-<p>Microsoftは修正を開発し、段階的（ロールアウト方式）に展開していると説明している。影響を受けたテナントの特定および追加検証も進めているという。</p>
-<h2>本来の設計との関係</h2>
-<p>Microsoftの公式ドキュメントでは、Microsoft Purview DLPを用いてCopilotおよびCopilot Chatが機密ラベル付きコンテンツを処理対象から除外できると<a href="https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about">説明</a>されている。</p>
-<p>また、Copilotのデータ保護・セキュリティ設計についても、感度ラベルや既存のアクセス権限を尊重する仕組みであると<a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing">記載</a>されている。</p>
-<p>今回の事象は、こうした設計意図とは異なる挙動がコード上の不具合により発生したケースとなる。</p>
-<h2>Microsoftの説明と報道の位置づけ</h2>
-<p>BleepingComputerは、Microsoftがこの不具合を認め、修正を展開していると報じた。同記事では、影響がSent ItemsおよびDraftsフォルダに限定されている点や、修正が進行中である点が伝えられている。</p>
-<p>Microsoftはサービス通知内で、問題は特定のフォルダ範囲に限定されると説明しており、全面的なメール露出ではないことを示唆している。</p>
-<h2>現在の状況</h2>
-<p>Microsoftは修正の段階展開を進めているとし、最終的な完了時期や影響規模の詳細は今後の更新を通じて明らかになる見通しだ。</p>
-<p>生成AIが企業内データへ広範にアクセスする設計が進む中、既存の情報保護ポリシーとの整合性は引き続き重要な論点となる。</p>
-]]></description>
-      <pubDate>Sat, 21 Feb 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>自律的すぎるAIエージェント「OpenClaw」急拡大の裏で相次ぐ警告──今後のAI利用を占う分水嶺に</title>
