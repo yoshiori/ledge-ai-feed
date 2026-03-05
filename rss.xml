@@ -360,30 +360,6 @@ https://ledge.ai/contact/ad-form</p>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、BCG・マッキンゼーら4社と「Frontier Alliances」始動──企業AI導入の“実装ボトルネック”に踏み込む</title>
-      <link>https://ledge.ai/articles/openai_frontier_alliances_bcg_mckinsey_accenture_capgemini</link>
-      <description><![CDATA[<p>OpenAIは2026年2月23日、AIが同僚のように自律的に業務を担う「AI coworkers（AI同僚）」の企業展開を加速するための新たなパートナー枠組み「Frontier Alliances」を<a href="https://openai.com/index/frontier-alliance-partners/">発表</a>した。</p>
-<p>参画企業として、Boston Consulting Group（BCG）、McKinsey &amp; Company、Accenture、Capgeminiの4社を挙げる。いずれもグローバルに企業変革や大規模IT導入を担ってきたコンサルティング／SIer大手であり、OpenAIはこれらの企業と複数年の枠組みで連携する。</p>
-<h2>「AI同僚」を企業に定着させるための枠組み</h2>
-<p>OpenAIは今回の発表で、企業におけるAI活用が失敗する要因は、モデル性能そのものよりも、既存システムとの統合や業務プロセス設計、オペレーティングモデルの再構築、組織変革にあるとの問題意識を示した。</p>
-<p>「Frontier Alliances」は、こうした“実装”や“全社展開”の段階に焦点を当てる。AIを単なるチャットツールとして導入するのではなく、企業のデータや業務ツールと接続し、継続的にタスクを遂行する「AI coworkers」として運用することを前提にしている。</p>
-<p>OpenAIは、AI coworkersの構築・展開・運用を支える基盤として「Frontier」を位置づけ、パートナー企業とともにその導入を支援するとしている。</p>
-<h2>4社が担う「戦略から統合、再設計まで」</h2>
-<p>各パートナーはAI導入の上流から下流までを支援。
-・経営・事業戦略へのAI組み込み
-・既存ITシステムとの統合
-・業務フローの再設計
-・全社スケールでの展開
-といった領域が想定されている。</p>
-<p><a href="https://www.bcg.com/press/23february2026-bcg-and-openai-partnership-frontier-alliance">BCG</a>、<a href="https://www.mckinsey.com/about-us/new-at-mckinsey-blog/mckinsey-and-openai-scale-ai-driven-transformations-with-new-frontier-alliance">McKinsey</a>、<a href="https://www.capgemini.com/us-en/news/press-releases/capgemini-joins-forces-with-openai-to-accelerate-new-era-of-ai-powered-enterprise-transformation-with-frontier-alliance/">Capgemini</a>はそれぞれ公式発信の中で、OpenAIとの連携を通じた企業変革支援の強化を表明している。</p>
-<h2>「モデル競争」から「実装競争」へ</h2>
-<p>生成AI分野ではこれまで、モデル性能やベンチマークが注目されてきた。一方で、大企業における本格導入では、セキュリティ、ガバナンス、既存業務との整合、責任分界といった課題が顕在化している。</p>
-<p>今回の枠組みは、こうした“実装ボトルネック”を乗り越えるために、コンサルティング企業やSIerの変革ノウハウと、OpenAIの技術基盤を結び付ける試みと位置づけられる。</p>
-<p>AIを「ツール」ではなく「同僚」として組織に組み込む構想が、実際の企業現場でどこまでスケールするのか。Frontier Alliancesの具体的な導入事例や展開領域が、今後の焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
       <link>https://ledge.ai/articles/perch2_bird_trained_ai_whale_dolphin_high_accuracy</link>
       <description><![CDATA[<p>Google DeepMindが開発した生物音響基盤モデル「Perch 2.0」が、主に鳥類など陸生生物の鳴き声で事前学習されているにもかかわらず、クジラやイルカといった海洋哺乳類の分類タスクでも高い性能を示したことが分かった。研究成果は未査読論文としてarXivで<a href="https://arxiv.org/abs/2512.03219">公開</a>されている。</p>
@@ -490,7 +466,7 @@ https://ledge.ai/contact/ad-form</p>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
+      <title>公共2026/3/2 [MON]米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
       <link>https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence</link>
       <description><![CDATA[<p>トランプ大統領は2026年2月28日、連邦政府機関に対し、米AI企業Anthropicの技術利用を停止するよう指示した。同日、OpenAIは米国防総省（Department of Defense, DoD）との合意を発表し、安全条項を明示したうえで機密環境へのAI展開を進めると明らかにした。</p>
 <p>短期間のうちに、交渉停滞、供給網リスク指定の示唆、大統領による利用停止指示、そして別企業との契約合意が相次いだ。背景には、国防分野でのAI活用を巡る契約条件の解釈をめぐる対立があった。</p>
