@@ -488,14 +488,15 @@ https://ledge.ai/contact/ad-form</p>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>“自分だけのデータセンター”を構築するゲーム、Steamで登場──ラック配置から冷却設計まで再現する運営シミュレーション「Data Center」体験版が無料配信中</title>
-      <link>https://ledge.ai/articles/steam_data_center_demo_free_release</link>
-      <description><![CDATA[<p>PCゲーム配信プラットフォーム「Steam」で、データセンターの構築・運営をテーマにしたシミュレーションゲーム「Data Center」のデモ版（体験版）が<a href="https://store.steampowered.com/app/4376050/Data_Center_Demo/">無料配信</a>されている。リリース日は2026年1月30日。</p>
-<p>同作はサーバーラックの設置や配線、電源管理、冷却設計などを行いながら、自分だけのデータセンターを構築・拡張していくタイトルだ。開発はチェコの開発者であるWaseku氏が手がけている。</p>
-<p>ゲーム内では、ラックの配置やネットワーク接続だけでなく、トラフィックを色付きパケットで可視化する仕組みも実装されている。負荷状況の確認やボトルネックの把握が可能で、効率的な構成を目指す設計が求められる。また、障害対応や冗長化の考慮など、インフラ運営を意識した要素も盛り込まれている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=T58hOjwdrHE">YouTube</a></p>
-<p>製品版のリリースは2026年3月31日を予定している。Steamではウィッシュリスト登録が可能で、デモ版から製品版への導線も用意されている。</p>
-<p>近年、AIやクラウドサービスの拡大によりデータセンターの存在感は一段と高まっている。本作は、その裏側にある設計・運営の工程を、ゲームとして体験できるタイトルとなっている。</p>
+      <title>Qualcomm、ウェアラブル向けAI SoC「Snapdragon Wear Elite」発表　スマートウォッチなどパーソナルAIデバイス時代に対応</title>
+      <link>https://ledge.ai/articles/qualcomm_snapdragon_wear_elite_personal_ai_wearable_platform</link>
+      <description><![CDATA[<p>Qualcommは2026年3月2日（現地時間）、ウェアラブルデバイス向けの新しいAIプラットフォーム「Snapdragon Wear Elite」を<a href="https://www.qualcomm.com/news/releases/2026/03/qualcomm-powers-the-rise-of-personal-ai-with-new-snapdragon-wear">発表</a>した。</p>
+<p>新プラットフォームはオンデバイスAI処理に対応するNPUを搭載し、スマートウォッチをはじめとする「パーソナルAIデバイス」の普及を見据えた設計となっている。</p>
+<p>Snapdragon Wear Eliteは、ウェアラブル端末上でAI処理を行うことを前提に設計されたプラットフォームで、同社によればウェアラブル向けとしては初となるNPU搭載構成を採用する。NPUには同社のHexagonアーキテクチャを採用し、最大で10億パラメータ規模のAIモデルをエッジ上で実行できるとしている。これにより、音声対話やコンテキスト認識、ライフログの分析などを端末側で処理するパーソナルAI体験を実現する。</p>
+<p>性能面ではCPU性能が従来世代比で約5倍、GPU性能が最大7倍に向上した。電力効率も強化されており、マルチデイのバッテリー駆動に対応するほか、急速充電では約10分で50％まで充電できるとしている。また電力管理の最適化により、1日の使用時間は従来世代と比べて最大30％延長されるという。</p>
+<p>通信機能も強化されており、5G RedCap、Micro-Power Wi-Fi、Bluetooth 6.0、UWB、GNSSに加え、衛星通信規格であるNB-NTNにも対応する。NB-NTNはセルラーやWi-Fiが利用できない環境でも双方向通信を可能にする技術で、同社はエコシステムパートナーであるSkyloと協力して提供する。</p>
+<p>Snapdragon Wear Eliteはスマートウォッチだけでなく、ピン型やペンダント型など多様なウェアラブル形状を想定している。これらのデバイスはユーザーの状況を理解し、提案を行ったりタスクを実行したりするAIエージェントとして機能することが期待されている。</p>
+<p>同プラットフォームには、Google、Samsung、Motorolaなどがパートナーとして参加している。Snapdragon Wear Eliteを搭載した最初の商用デバイスは、今後数か月以内に登場する予定としている。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
