@@ -5,6 +5,29 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Claudeユーザー急増の中、Anthropicが「メモリー移行」機能　他AIからの乗り換えを容易に</title>
+      <link>https://ledge.ai/articles/claude_import_memory_ai_migration_feature</link>
+      <description><![CDATA[<p>Anthropicは2026年3月3日（現地時間）、AIチャットボット「Claude」に、他のAIサービスで蓄積したユーザーの好みや作業スタイルなどの情報を取り込める「メモリー移行（Import Memory）」機能を<a href="https://claude.com/import-memory">公開</a>した。ユーザーが別のAIを使って形成したコンテキストをClaudeにコピー＆ペーストで移行できる仕組みで、他AIからの乗り換えを容易にすることを狙う。</p>
+<p>@<a href="https://www.youtube.com/watch?v=PupmfSttxlc">YouTube</a></p>
+<h2>他AIサービスからメモリーをインポート</h2>
+<p>「Import Memory」は、ユーザーが他のAIサービスで蓄積してきた情報をClaudeのメモリーに取り込む機能だ。</p>
+<p>AIチャットボットは、ユーザーの好みや作業スタイルなどを学習して応答を最適化していく。しかし、別のAIサービスへ移行すると、これまで積み上げた文脈が失われるという課題があった。</p>
+<p>Anthropicはこの問題に対応するため、他AIのチャットからユーザーの設定やコンテキストを抽出し、それをClaudeのメモリーとして登録できる仕組みを提供する。</p>
+<p>同機能は、Claudeの無料プランでもサービスを試すことができ、準備が整った段階でメモリーをインポートできるという。</p>
+<h2>コピー＆ペーストで1分以内に移行</h2>
+<p>移行手順は以下のような流れとなると説明している。</p>
+<p>・Claudeが用意した専用プロンプトを、移行元のAIチャットに貼り付ける
+・そのAIが生成したユーザー設定や文脈のまとめをコピーする
+・Claudeのメモリー設定画面に貼り付ける</p>
+<p>これにより、数カ月かけてAIに教えてきたユーザーの好みや作業方法を「1分以内」にClaudeへ移行できるとしている。</p>
+<p>Claudeのメモリー機能は、ユーザーの好みや情報を保存し、会話をまたいで参照できる仕組みだ。メモリーはユーザーが確認・編集できる設計となっており、不要な情報は削除することも可能だという。</p>
+<h2>AIチャットボット競争の新段階</h2>
+<p>AIサービスでは、ユーザーの好みや作業スタイルといった「パーソナライズされた文脈」が重要な資産となる。Anthropicは、この文脈をClaudeへ移行できる仕組みを用意することで、他AIユーザーの取り込みを図る。</p>
+<p>生成AI市場では、ユーザーが複数のAIサービスを使い分ける動きが広がっている。一方で、AIに教えた個人設定や作業スタイルがサービスごとに分断されることが、乗り換えの障壁となってきた。そのような状況の中で公開された「Import Memory」は、ユーザーが別のAIサービスへ移行する際の障壁を下げる狙いがあるとみられる。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claudeの「大規模蒸留攻撃」を確認──DeepSeek・Moonshot・MiniMaxが不正抽出、約2.4万アカウントで1600万超のやり取り</title>
       <link>https://ledge.ai/articles/anthropic_claude_industrial_scale_distillation_attack_deepseek_moonshot_minimax</link>
       <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日（現地時間）、同社の大規模言語モデル（LLM）「Claude」から能力を不正に抽出する「産業規模（industrial-scale）」の蒸留（distillation）攻撃を確認したと<a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">発表</a>した。対象としてDeepSeek、Moonshot AI、MiniMaxの3社を挙げ、約2万4000の不正アカウントを通じて1600万超のやり取りが行われたとしている。</p>
@@ -133,29 +156,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <h2>権利処理の円滑化へ</h2>
 <p>近年はデジタル配信や生成AIの普及により、個人による創作活動とその二次利用の機会が拡大している。一方で、権利者の所在が不明確なまま利用を断念するケースや、無断利用によるトラブルも課題となってきた。</p>
 <p>文化庁は、個人クリエイターが自ら利用条件を明示できる環境を整備することで、適正なライセンス利用の促進と、権利処理の円滑化を図るとしている。今後は利用状況を踏まえ、必要に応じて機能の拡充なども検討する。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeユーザー急増の中、Anthropicが「メモリー移行」機能　他AIからの乗り換えを容易に</title>
-      <link>https://ledge.ai/articles/claude_import_memory_ai_migration_feature</link>
-      <description><![CDATA[<p>Anthropicは2026年3月3日（現地時間）、AIチャットボット「Claude」に、他のAIサービスで蓄積したユーザーの好みや作業スタイルなどの情報を取り込める「メモリー移行（Import Memory）」機能を<a href="https://claude.com/import-memory">公開</a>した。ユーザーが別のAIを使って形成したコンテキストをClaudeにコピー＆ペーストで移行できる仕組みで、他AIからの乗り換えを容易にすることを狙う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=PupmfSttxlc">YouTube</a></p>
-<h2>他AIサービスからメモリーをインポート</h2>
-<p>「Import Memory」は、ユーザーが他のAIサービスで蓄積してきた情報をClaudeのメモリーに取り込む機能だ。</p>
-<p>AIチャットボットは、ユーザーの好みや作業スタイルなどを学習して応答を最適化していく。しかし、別のAIサービスへ移行すると、これまで積み上げた文脈が失われるという課題があった。</p>
-<p>Anthropicはこの問題に対応するため、他AIのチャットからユーザーの設定やコンテキストを抽出し、それをClaudeのメモリーとして登録できる仕組みを提供する。</p>
-<p>同機能は、Claudeの無料プランでもサービスを試すことができ、準備が整った段階でメモリーをインポートできるという。</p>
-<h2>コピー＆ペーストで1分以内に移行</h2>
-<p>移行手順は以下のような流れとなると説明している。</p>
-<p>・Claudeが用意した専用プロンプトを、移行元のAIチャットに貼り付ける
-・そのAIが生成したユーザー設定や文脈のまとめをコピーする
-・Claudeのメモリー設定画面に貼り付ける</p>
-<p>これにより、数カ月かけてAIに教えてきたユーザーの好みや作業方法を「1分以内」にClaudeへ移行できるとしている。</p>
-<p>Claudeのメモリー機能は、ユーザーの好みや情報を保存し、会話をまたいで参照できる仕組みだ。メモリーはユーザーが確認・編集できる設計となっており、不要な情報は削除することも可能だという。</p>
-<h2>AIチャットボット競争の新段階</h2>
-<p>AIサービスでは、ユーザーの好みや作業スタイルといった「パーソナライズされた文脈」が重要な資産となる。Anthropicは、この文脈をClaudeへ移行できる仕組みを用意することで、他AIユーザーの取り込みを図る。</p>
-<p>生成AI市場では、ユーザーが複数のAIサービスを使い分ける動きが広がっている。一方で、AIに教えた個人設定や作業スタイルがサービスごとに分断されることが、乗り換えの障壁となってきた。そのような状況の中で公開された「Import Memory」は、ユーザーが別のAIサービスへ移行する際の障壁を下げる狙いがあるとみられる。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
@@ -771,47 +771,6 @@ https://ledge.ai/contact/ad-form</p>
 **\</p>
 ]]></description>
       <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>自律的すぎるAIエージェント「OpenClaw」急拡大の裏で相次ぐ警告──今後のAI利用を占う分水嶺に</title>
-      <link>https://ledge.ai/articles/openclaw_agentic_ai_watershed_enterprise_security</link>
-      <description><![CDATA[<p>ローカル環境で動作し、チャット経由で端末操作を進めるオープンソースAIエージェント「OpenClaw」が急速に拡大している。GitHubでの急増、関連コミュニティMoltBookでの注目、拡張スキルを巡るセキュリティ警告、そして開発者のPeter Steinberger氏のOpenAI参加。利便性の拡張と同時に、設計上の境界をめぐる問題も顕在化している。</p>
-<h2>“応答するAI”から“行動するエージェント”へ</h2>
-<p>OpenClawは、チャットを入り口としてローカル環境の操作へ接続するエージェント型ソフトウェアである。メール処理、ブラウザ操作、ファイル管理、シェルコマンド実行などを自動化できる構造を持つ。</p>
-<p>特徴は、画面上でテキストを生成するだけでなく、チャットを入口にローカル環境の操作へ接続する構造にある。ユーザーの指示や目標に基づき、端末上で処理を進めるアーキテクチャを採る点が支持を集め、<a href="https://github.com/openclaw/openclaw">GitHub</a>では短期間でスター数が10万件を超える規模に拡大したと<a href="https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/">Reuters</a>が2026年2月15日報じた。</p>
-<p>AIが応答を返す存在から、状態を保持しながら環境に作用するエージェントへと役割を広げる試みとして、OpenClawは象徴的な存在となった。</p>
-<h2>MoltBookでの拡散とコミュニティ主導の拡張</h2>
-<p>利用拡大の背景には、関連するコミュニティの急速な広がりもある。報道によれば、OpenClawに関連するプラットフォーム「<a href="https://moltbook.com/">MoltBook</a>」は短期間で大量の訪問を集めたとされる。個人開発のオープンソースプロジェクトとしては異例のスピードで注目が集まった。</p>
-<p>さらに、拡張スキルを追加できる仕組み（ClawHub）がエコシステム形成を後押しした。ユーザーはスキルを通じて機能を拡張できるため、プロジェクトはコミュニティ主導で能力を増幅させる構造を持つ。</p>
-<p>目標に基づき連続的に処理を進めるエージェントが、外部から機能を追加できる仕組みと結びついたことで、拡張スピードは加速した。</p>
-<h2>相次ぐ警告──拡張経路と脆弱性</h2>
-<p>急拡大と並行してセキュリティ上の懸念も表面化している。</p>
-<p>セキュリティ企業<a href="https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting">Koi Security</a>は、ClawHubに登録された2,857のスキルを監査し、そのうち341件が悪意あるコードを含んでいたと報告した。報告では、同一キャンペーンによるものとみられるスキル群の存在も指摘されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/koi_research_0c413c71e9/koi_research_0c413c71e9.jpg" alt="koi research.jpg" /></p>
-<p>また、OpenClawの特定バージョン以前に関しては、<a href="https://nvd.nist.gov/vuln/detail/CVE-2026-25253">CVE-2026-25253</a>として脆弱性が登録されている。公的データベースによれば、該当する問題は修正済みであり、アップデートが推奨されている。</p>
-<p>拡張可能な設計は柔軟性をもたらす一方、配布経路や設定が攻撃面になり得る構造も抱える。端末上で処理を進めるエージェントである以上、権限管理や更新の遅れは影響を直接受ける。</p>
-<h2>想定外の挙動──外部接続型エージェントの課題</h2>
-<p>技術的な脆弱性とは別に、OpenClawを含むエージェント設計の課題を示す挙動事例も報告されている。</p>
-<h3>（1）メッセージ送信ループの事例</h3>
-<p>ソフトウェアエンジニアのChris Boyd氏は、自身の検証環境でOpenClawを設定した際、iMessage経由で確認メッセージを繰り返し送信する状態に陥ったと<a href="https://chrisboyd.me/blog/openclaw-meltdown/">ブログ</a>で記録している。</p>
-<p>想定外の応答を受け取った後、再試行ロジックが停止条件を持たず、ループが継続したという。最終的には端末を強制停止することで挙動を止めたと説明されている。</p>
-<p>この事例は、外部通信チャネルと再試行処理が連動する構造において、上限設計やエラー処理が重要であることを示している。</p>
-<h3>（2）コード却下後の批判的ブログ公開</h3>
-<p>matplotlibメンテナーのScott Shambaugh氏は、自身のブログで、AIエージェントからのコード提案を却下した後、自身を批判する内容のブログ記事が公開されたと記録している。</p>
-<p>記事によれば、エージェントは却下の事実を受けて外部ブログに投稿を行い、Shambaugh氏の過去活動に言及しながら批判的な内容を展開したという。</p>
-<p>一部メディアではこれを「報復」と表現しているが、技術的には、評価ループと外部公開機能が直結していた結果とみられる。出力内容の適切性を人間が確認する仕組みが介在しない場合、レピュテーションに影響し得る公開行動が実行される可能性がある。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/The_Shamblog_ac56db2fda/The_Shamblog_ac56db2fda.jpg" alt="The Shamblog.jpg" /></p>
-<h3>（3）MoltMatchでのプロフィール作成事例</h3>
-<p>AFPの<a href="https://www.taipeitimes.com/News/world/archives/2026/02/14/2003852326">報道</a>では、OpenClawを試したユーザーが、関連する実験的デーティングサイト「MoltMatch」において、想定していない形でプロフィール作成や探索が進められたと述べている。</p>
-<p>広義の参加指示が、エージェントによってより広範な行動へ解釈された可能性が示唆されている。</p>
-<h2>開発者のOpenAI参加とfoundation化</h2>
-<p>こうしたなか、OpenClawの開発者であるPeter Steinberger氏が2026年2月15日、米OpenAIへの参加を<a href="https://steipete.me/posts/2026/openclaw">発表</a>した。Reutersによれば、同氏は次世代パーソナルエージェント開発に関わるという。</p>
-<p>あわせて、OpenClawは独立した財団（OpenClaw Foundation）へ移行する方針が示された。急速に拡大したエコシステムに対し、ガバナンスと継続的開発の体制を整える段階に入ったとみられる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clawcon_e31ebc39a7/clawcon_e31ebc39a7.jpg" alt="clawcon.jpg" /></p>
-<p>個人開発のプロジェクトが大手AI企業の開発ラインへ接続されたことは象徴的だ。端末上で行動するエージェントは、実験的な試みから主要な開発テーマへと移行しつつある。OpenClawを巡る急拡大と相次ぐ警告は、その設計と統制の問題がすでに実装段階に入っていることを示した。</p>
-<p>画面上で応答するだけだったAIは、ローカル環境や外部サービスに作用し、状態を保持しながら処理を継続する存在へと拡張した。利便性の拡大と同時に、拡張経路や権限設計の管理が不可欠であることも明らかになった。OpenClawは、その現実を可視化した事例である。</p>
-]]></description>
-      <pubDate>Fri, 20 Feb 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
