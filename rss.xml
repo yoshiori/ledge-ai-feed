@@ -364,6 +364,42 @@ https://ledge.ai/contact/ad-form</p>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
+      <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
+<p>同社は今回のモデルについて、「複雑な実務を正確、効果的、そして効率的に遂行し、より少ないやり取りで要求に応えるモデルが実現した」と説明している。</p>
+<p>今回の発表は、OpenAIの公式ブログ「Introducing GPT-5.4」で明らかにされた。GPT-5.4はChatGPTやAPI、Codexなどで順次提供されるモデルで、ChatGPT上では「GPT-5.4 Thinking」という名称で利用できる。あわせて、より高度なタスク向けの上位版「GPT-5.4 Pro」も公開された。</p>
+<h2>ChatGPTでは「Thinking」、APIでは「gpt-5.4」</h2>
+<p>新モデルは、ChatGPTでは「GPT-5.4 Thinking」として提供され、APIではモデル名「gpt-5.4」として利用できる。上位モデルは「gpt-5.4-pro」として公開されている。</p>
+<p>GPT-5.4 Thinkingは、これまで提供されていた推論モデル「GPT-5.2 Thinking」を置き換える形で提供される。ChatGPTでは主にPlus、Team、Proプラン向けに利用できる。</p>
+<h2>「複雑な実務を正確かつ効率的に遂行」するモデル</h2>
+<p>OpenAIはGPT-5.4を、専門職の業務における生産性向上を意識したモデルとして位置づけている。公式説明では、特に以下の領域での性能改善を挙げている。</p>
+<ul>
+<li>スプレッドシート作成・分析</li>
+<li>プレゼンテーション資料の作成</li>
+<li>フロントエンド開発などのコーディング</li>
+<li>長文文書の理解や作成</li>
+<li>ツールを利用した調査・分析</li>
+</ul>
+<p>従来の生成AIは、チャットや検索代替として利用される場面が多かったが、GPT-5.4では実際の業務作業を支援する用途を重視したモデルとして設計されているという。</p>
+<p><strong>GPT-5.4（左）とGPT-5.2（右）が生成したプレゼンテーション資料の比較。GPT-5.4では複数のコンテンツを整理したスライド構成が生成され、実務用途での品質向上が示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5_4thinking_d81596a682/5_4thinking_d81596a682.jpg" alt="5-4thinking.jpg" /></p>
+<h2>上位版「GPT-5.4 Pro」は長時間タスク向け</h2>
+<p>同時に公開されたGPT-5.4 Proは、より高度で長時間の処理が必要なタスク向けに設計されたモデルだ。APIドキュメントでは、より多くの計算資源を使って推論を行うことで、複雑な問題に対してより高精度な回答を生成できるとしている。</p>
+<p>OpenAIは、GPT-5.4 Proについて「より難しいタスクや長時間ワークフロー向けのモデル」と説明している。処理内容によっては、応答の完了まで数分程度かかる場合もある。</p>
+<h2>ベンチマークでは知識労働タスクで改善</h2>
+<p>OpenAIは、GPT-5.4の性能評価として複数のベンチマーク結果も公開した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Cqogsobg_AA_Ao2_U_9f04dacec0/H_Cqogsobg_AA_Ao2_U_9f04dacec0.png" alt="HCqogsobgAAAo2U.png" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_Knowledge_work_tasks_f5676d2cc0/GD_Pval_Knowledge_work_tasks_f5676d2cc0.png" alt="GDPval_Knowledge work tasks.png" /></p>
+<p>44職種の知識労働タスクを評価する社内ベンチマーク「GDPval」では、GPT-5.4が83.0％のスコアを記録し、前モデルGPT-5.2の70.9％を上回ったとしている。</p>
+<p>また、投資銀行アナリストのスプレッドシート作業を模した評価では平均87.3％の正答率を記録し、GPT-5.2の68.4％を大きく上回ったという。</p>
+<p>プレゼンテーション資料の評価でも、人間の評価者がGPT-5.4の生成物を選好した割合は68.0％だったとしている。</p>
+<h2>API版は100万トークン超のコンテキストに対応</h2>
+<p>API版のGPT-5.4 Proでは、最大約105万トークンのコンテキストウィンドウをサポートする。最大出力は128,000トークンで、知識の更新時点は2025年8月となっている。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
       <link>https://ledge.ai/articles/perplexity_computer_multi_agent_orchestration_19_models</link>
       <description><![CDATA[<p>Perplexityは米国時間2026年2月25日、マルチエージェント・オーケストレーションシステム「Perplexity Computer」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-computer">発表</a>した。現在利用可能な複数の最先端AIモデルを統合し、タスクの分解から実行までを自律的に行う“デジタルワーカー”として提供するという。</p>
