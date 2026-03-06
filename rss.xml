@@ -48,6 +48,30 @@
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>「もしAIチャットが広告だらけになったら？」　99helpersが体験デモ「Ad-Supported AI Chat Demo」を公開</title>
+      <link>https://ledge.ai/articles/99helpers_ad_supported_ai_chat_demo</link>
+      <description><![CDATA[<p>AIエージェントなど生成AIサービスの普及が進む中、AIツールを開発する99helpersは、広告付きAIチャットのユーザー体験を再現したデモンストレーション「Ad-Supported AI Chat Demo」を<a href="https://99helpers.com/tools/ad-supported-chat">公開</a>した。AIの回答の途中に広告が挿入されるなど、「広告で支えられるAIチャット」がどのような体験になるのかを疑似的に試すことができる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_agents_to_help_your_customers_71808ff8df/AI_agents_to_help_your_customers_71808ff8df.jpg" alt="AI agents to help your customers.jpg" /></p>
+<h2>広告付きAIチャットの体験デモを公開</h2>
+<p>このデモはブラウザ上で公開されており、ユーザーが質問を入力すると、AIの回答の途中にスポンサー表示や広告メッセージが挿入される仕組みになっている。通常のチャットAIとは異なり、回答の流れが広告によって中断されたり、商品やサービスをすすめるメッセージが混ざるなど、広告付きAI特有のユーザー体験が再現されている。</p>
+<p>デモページでは、このプロジェクトを「風刺的でありながら完全に機能する（satirical yet fully functional）」AIチャットの実験として紹介している。</p>
+<h2>回答の途中に広告が差し込まれるUI</h2>
+<p>デモ画面では、チャットUIの中にバナー広告が表示されたり、AIの回答にスポンサー付きメッセージが差し込まれるなど、複数の広告表現が組み込まれている。質問内容に関連する商品やサービスが提案されるケースもあり、AIの回答と広告が混在する構造になっている。</p>
+<h2>開発者がSNSでデモを紹介</h2>
+<p>このデモは、開発者の <a href="https://x.com/nickkirt/status/2027810329535595003">Nick Kirt</a>氏がX（旧Twitter）で紹介したことで注目を集めた。同氏は投稿の中で、AIチャットに広告が組み込まれた場合のユーザー体験を体感できるデモとして公開したと説明している。</p>
+<p>投稿では、AIの回答の途中に広告が挿入される様子や、スポンサー付きメッセージが表示される画面も紹介されており、実際にどのようなチャット体験になるのかを確認できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HCQ_6va_AXUAA_Ch9b_17b30ec495/HCQ_6va_AXUAA_Ch9b_17b30ec495.jpg" alt="HCQ6vaAXUAACh9b.jpg" /></p>
+<h2>AIサービスの収益モデルを考えるきっかけに</h2>
+<p>近年、検索AIやAIチャットサービスでは広告モデルの導入可能性が議論されており、AIの回答と広告の関係は新たな論点の一つになっている。</p>
+<p>現在、生成AIサービスの収益モデルは主にサブスクリプションやAPI利用料、企業向けライセンスなどが中心となっている。一方、検索エンジンやSNSのように広告を主な収益源とするモデルがAIチャットに導入された場合、回答の中に広告が入り込む可能性も指摘されている。</p>
+<h3>編集部でも試してみると…</h3>
+<p>編集部でも実際に「Ad-Supported AI Chat Demo」を試してみた。チャット画面にはAIの回答とは別に複数の広告枠が表示され、画面右側には広告カード、下部にはスポンサー付きリンクが並ぶなど、広告が前提となったインターフェースになっている。</p>
+<p>AIの回答の中でも、広告付きの提案やプロモーションが表示される仕組みになっており、通常のチャットAIとは異なるユーザー体験となっていた。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1_5c981033fe/image_1_5c981033fe.jpg" alt="image (1).jpg" /></p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AnthropicがフロンティアAI開発の安全指針を見直し　自社が大きく先行する場合のみ開発遅延を検討、競合が同水準なら遅らせず</title>
       <link>https://ledge.ai/articles/anthropic_frontier_ai_safety_policy_revision_2026</link>
       <description><![CDATA[<p>米AIスタートアップのAnthropicは2026年2月24日、先端AIモデルの開発と展開に関する自主的な安全枠組み「Responsible Scaling Policy（RSP）」をVersion 3.0へ改定したと<a href="https://www.anthropic.com/news/responsible-scaling-policy-v3">発表</a>した。改定版は同日付で発効した。</p>
@@ -238,23 +262,6 @@ URL： <a href="https://ledgeai-expo-2026-spring.studio.site/">https://ledgeai-e
 情報の露出を目的とした無料掲載プランから、リード獲得を最大化する有償の協賛プランまで、貴社のマーケティング目的に応じた複数の選択肢をご用意しております。</p>
 <p>詳細および掲載に関するお問い合わせは、以下にて受け付けております。
 https://ledge.ai/contact/ad-form</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AMDと長期契約でAIインフラ強化──最大6GW相当の「Instinct」GPUを導入</title>
-      <link>https://ledge.ai/articles/meta_amd_longterm_ai_infrastructure_6gw_instinct</link>
-      <description><![CDATA[<p>Metaは2026年2月24日（米国時間）、半導体大手のAdvanced Micro Devices（AMD）と長期のAIインフラ契約を締結し、最大6ギガワット（GW）相当の「AMD Instinct」GPUを導入すると<a href="https://about.fb.com/news/2026/02/meta-amd-partner-longterm-ai-infrastructure-agreement/">発表</a>した。自社のAI基盤を拡張し、大規模モデルの開発およびサービス提供能力を強化するねらいだ。</p>
-<p>Metaの公式発表によれば、今回の契約は同社のAIインフラ拡充の一環であり、AMDのデータセンター向けアクセラレータ「Instinct」シリーズを複数年にわたり導入する。導入規模は最大6GW相当とされ、GPU調達を電力規模で示すかたちとなっている。</p>
-<p>一方、AMDの発表では、両社が「複数年・複数世代（multi-year, multi-generation）」にわたる戦略的パートナーシップで合意したと説明。シリコン、システム、ソフトウェアを横断する形でロードマップを連携し、MetaのAIワークロード拡張を支援するとしている。2026年後半からの立ち上がりが見込まれている。</p>
-<h2>導入対象はInstinctシリーズ</h2>
-<p>AMDの「Instinct」シリーズは、生成AIや大規模言語モデル（LLM）の学習および推論を想定したデータセンター向けGPUアクセラレータ。高帯域幅メモリ（HBM）を搭載し、大規模並列演算に対応する設計が特徴とされる。</p>
-<p><a href="https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html">AMDのリリース</a>では、今後の世代を含めたInstinct GPUの提供に加え、ラックスケール構成やEPYCプロセッサとの組み合わせなど、データセンター全体のアーキテクチャを視野に入れた協業に言及している。</p>
-<h2>ワラントも発行、最大1億6,000万株を付与</h2>
-<p>AMDは公式リリースの中で、Metaに対し、最大1億6,000万株のAMD普通株式を対象とする業績連動型ワラントを発行したと明らかにした。条件達成に応じて権利が確定する構造で、今回の契約が複数年にわたる戦略的パートナーシップであることを示す内容となっている。</p>
-<h2>AIインフラ投資が加速</h2>
-<p>Metaは近年、生成AIや推薦アルゴリズムの高度化を背景に、データセンター投資を拡大してきた。今回の最大6GW規模のGPU導入計画は、同社がAIを中核戦略と位置づけ、計算資源の確保を長期的に進める姿勢を改めて明確にしたものといえる。</p>
-<p>ハイパースケーラー各社によるAI向け半導体の確保競争が続くなか、MetaとAMDの長期契約は、AIインフラの供給構造にどのような影響を与えるかも注目される。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
