@@ -72,6 +72,26 @@
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIが作った画像の著作権は誰のもの？　米最高裁が審理拒否、人間著作者原則維持</title>
+      <link>https://ledge.ai/articles/ai_authorship_supreme_court_cert_denied</link>
+      <description><![CDATA[<p>米最高裁判所（U.S. Supreme Court）は2026年3月2日、AIが生成した作品の著作権を巡る訴訟「Thaler v. Perlmutter」の上告審理を受理しないと<a href="https://www.supremecourt.gov/orders/courtorders/030226zor_2d8f.pdf">決定</a>した。これにより、AI単独で生成された作品は著作権保護の対象にならないとする下級審判断が維持されることになった。</p>
+<h2>AI生成画像の著作権登録を巡る訴訟</h2>
+<p>今回の訴訟は、AI研究者のStephen Thaler氏が、自身のAIシステム「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」の著作権登録を求めたことに端を発する。同氏はこの作品の著作者としてAI自身を登録申請したが、著作権局は「人間が創作に関与していない」として拒否した。</p>
+<p><strong>AI「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」。著作権登録を巡る訴訟の対象となった作品</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_549152e50d/ai_549152e50d.jpg" alt="ai.jpg" /></p>
+<p>Thaler氏はこの判断を不服として訴訟を起こし、2023年には連邦地裁が「AIだけで生成された作品は著作権保護の対象にならない」と判断している。今回の裁判は、この判断をめぐる控訴審・上告審の流れの中で争われてきたものだ。</p>
+<h2>控訴審は「人間著作者」原則を支持</h2>
+<p>訴訟は連邦地裁、控訴審へと進み、いずれも著作権局の判断を支持した。
+Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成された芸術作品について「人間の著作」がなければ米国著作権法による保護は受けられないと判断した。</p>
+<p><a href="https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf">判決</a>を書いたパトリシア・ミレット判事は、著作権制度が著作者の生存期間や死後70年といった人間のライフサイクルを前提に設計されている点などを挙げ、作品を生成した機械を著作者として認めることはできないと指摘した。また、AIを「被雇用者」とみなして著作権を主張する論点についても、AIは契約や雇用関係を結ぶ法的能力を持たないとして退けた。</p>
+<h2>最高裁は審理を受理せず</h2>
+<p>これに対しThaler氏は最高裁に上告したが、U.S. Supreme Courtは2026年3月2日、同訴訟の審理を受理しないと決定した。最高裁は通常どおり理由を示していないが、この決定により控訴審の判断が事実上確定した。</p>
+<h2>生成AI時代の著作権ルール</h2>
+<p>生成AIの普及に伴い、AIが生み出した作品の権利をどのように扱うかは世界各国で議論が続いている。米著作権局は、人間が創作に関与した場合には著作権が認められる可能性があるとする立場を示しており、AIと人間の共同創作の扱いが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple、MacBook Proを刷新　最新チップ「M5 Pro」「M5 Max」搭載　オンデバイスAI処理など高負荷ワークフロー向け</title>
       <link>https://ledge.ai/articles/apple_macbook_pro_m5_pro_max_ai</link>
       <description><![CDATA[<p>Appleは2026年3月3日（現地時間）、ノートPC「MacBook Pro」の新モデルを<a href="https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/">発表</a>した。新たに同社の最新チップ「M5 Pro」「M5 Max」を搭載し、オンデバイスAI処理を含む高負荷ワークフローの性能を強化した。予約は3月4日に開始し、3月11日に発売する。</p>
@@ -340,38 +360,6 @@ https://ledge.ai/contact/ad-form</p>
 </ul>
 <p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
 <p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>鳥類音声で学習したAI、クジラやイルカ分類でも高精度──Google DeepMind「Perch 2.0」</title>
-      <link>https://ledge.ai/articles/perch2_bird_trained_ai_whale_dolphin_high_accuracy</link>
-      <description><![CDATA[<p>Google DeepMindが開発した生物音響基盤モデル「Perch 2.0」が、主に鳥類など陸生生物の鳴き声で事前学習されているにもかかわらず、クジラやイルカといった海洋哺乳類の分類タスクでも高い性能を示したことが分かった。研究成果は未査読論文としてarXivで<a href="https://arxiv.org/abs/2512.03219">公開</a>されている。</p>
-<h2>鳥類中心で事前学習された生物音響基盤モデル</h2>
-<p>Perch 2.0は、Google DeepMindが開発した大規模生物音響基盤モデルだ。主に鳥類を中心とする陸生動物の鳴き声データを用いて事前学習されており、音声波形やスペクトログラムから抽象的な音響特徴を抽出する埋め込み（embedding）を生成する。</p>
-<p>この埋め込みは、線形分類器の適用や少量データによる微調整（ファインチューニング）を通じて、多様な分類タスクに転用できる設計となっている。</p>
-<h2>なぜ“鳥で学習”したAIが“クジラ”に効くのか</h2>
-<p>今回の論文で焦点となるのは「陸上生物中心の事前学習が、なぜ未知のドメインである水中環境のタスクにこれほど有効だったのか」という点だ。</p>
-<p>Perch 2.0は、線形プローブ（linear probing）を前提とした転移性能を重視して設計されている。これは、事前学習済みの埋め込みを固定したまま単純な分類器のみを学習させる手法で、計算資源やラベル付きデータへの要求を大幅に抑えられる。論文は、この設計がクラスタリングや近傍探索、少量データによる迅速なモデル構築を支えていると指摘する。</p>
-<p>陸上中心の学習が海洋哺乳類に転移した理由について、論文は以下の観点から考察している。</p>
-<ul>
-<li><strong>“Bittern Lesson”：</strong>  鳥類の鳴き声のように、種間で極めて微妙な差異を持つ難度の高い分類タスクで大規模学習を行ったことが、結果として汎用性の高い、精緻な音響表現の獲得につながった可能性</li>
-<li><strong>スケーリングの恩恵：</strong>  大規模データとモデル規模の拡張が、ドメイン外のタスクに対するロバスト性を向上させた</li>
-<li><strong>発声メカニズムの共通性：</strong> 鳥類と海洋哺乳類の発声構造に一定の物理的類似性が存在する可能性</li>
-</ul>
-<h2>海洋哺乳類データでの検証結果</h2>
-<p>論文では、Perch 2.0の音響埋め込みを用い、クジラやイルカを含む海洋哺乳類の水中音響データに対する分類性能を評価した。評価指標にはF1スコアや平均適合率（mAP）などが用いられている。</p>
-<p>その結果、複数の海洋哺乳類データセットにおいて、Perch 2.0は既存の専用モデルや他の音響基盤モデルと比較して同等、あるいはそれを上回る数値を記録したと報告されている。特に、事前学習済み埋め込みに対して線形分類器のみを学習させる線形プローブ設定でも高いスコアを示した点が強調されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Table_2_Marine_learning_transfer_tasks_d0dd40fb55/Table_2_Marine_learning_transfer_tasks_d0dd40fb55.jpg" alt="Table 2  Marine learning transfer tasks.jpg" /></p>
-<p><strong>■ 埋め込み空間の可視化</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tsne_32_combined_853b778423/tsne_32_combined_853b778423.png" alt="tsne_32_combined.png" /></p>
-<p>さらに、少数のラベル例のみを用いたfew-shot条件でも性能低下は限定的で、限られたデータから分類器を構築する場合においても実用的な精度が得られたとしている。論文は、こうした結果を踏まえ、少量データ環境下で海洋哺乳類分類器を構築する用途にPerch 2.0の利用が有効であるとの見解を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/22193247_m_4ea411c393/22193247_m_4ea411c393.jpg" alt="22193247_m.jpg" /></p>
-<h2>生物多様性モニタリングへの取り組み</h2>
-<p>Google DeepMindの<a href="https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/">公式ブログ</a>
-では、生物音響AIを活用した絶滅危惧種の検出や生態系モニタリングへの取り組みを紹介している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/deepmind_blog_team_perch_03abedd662/deepmind_blog_team_perch_03abedd662.jpg" alt="deepmind blog team perch.jpg" /></p>
-<p>Perchシリーズは、保全団体や研究者と連携し、長時間の録音データから種の存在を自動検出する用途などで活用が進められていると説明している。今回の検証結果は、こうした生物音響研究の一環として位置づけられる。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
