@@ -71,6 +71,20 @@
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
+      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
+      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
+<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
+<h2>推論最適化を強調</h2>
+<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
+<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
+<h2>企業導入が加速</h2>
+<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
+<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「もしAIチャットが広告だらけになったら？」　99helpersが体験デモ「Ad-Supported AI Chat Demo」を公開</title>
       <link>https://ledge.ai/articles/99helpers_ad_supported_ai_chat_demo</link>
       <description><![CDATA[<p>AIエージェントなど生成AIサービスの普及が進む中、AIツールを開発する99helpersは、広告付きAIチャットのユーザー体験を再現したデモンストレーション「Ad-Supported AI Chat Demo」を<a href="https://99helpers.com/tools/ad-supported-chat">公開</a>した。AIの回答の途中に広告が挿入されるなど、「広告で支えられるAIチャット」がどのような体験になるのかを疑似的に試すことができる。</p>
@@ -293,20 +307,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <h2>4カ国で先行展開</h2>
 <p>検索に関する保護者通知機能は、まず米国、英国、オーストラリア、カナダで提供開始となる。今後、他地域への拡大も予定している。</p>
 <p>Metaは近年、ティーン向けアカウントに対する安全対策を強化しており、今回の通知機能もその一環として導入される。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
-      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
-      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
-<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
-<h2>推論最適化を強調</h2>
-<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
-<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
-<h2>企業導入が加速</h2>
-<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
-<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
@@ -579,6 +579,34 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Mon, 02 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
+      <link>https://ledge.ai/articles/perplexity_computer_multi_agent_orchestration_19_models</link>
+      <description><![CDATA[<p>Perplexityは米国時間2026年2月25日、マルチエージェント・オーケストレーションシステム「Perplexity Computer」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-computer">発表</a>した。現在利用可能な複数の最先端AIモデルを統合し、タスクの分解から実行までを自律的に行う“デジタルワーカー”として提供するという。</p>
+<h2>単一チャットから“実行基盤”へ</h2>
+<p>これまでの「チャット型AI」が情報提示にとどまっていたのに対し、「Perplexity Computer」はワークフロー全体の作成と実行を担う。ユーザーが成果物を指定すると、システムはタスクを複数のサブタスクに分解。それぞれに対応するサブエージェントを生成し、並列・非同期で処理を進める仕組みだ。</p>
+<p>Web調査、文書生成、データ処理、外部サービスへのAPI呼び出しなどを組み合わせながら、成果物を完成させる。</p>
+<h2>隔離された実行環境で動作</h2>
+<p>Computerは隔離されたコンピューティング環境内で動作する。実ファイルシステム、実ブラウザ、実ツール統合へのアクセスが可能とされ、単なるテキスト生成にとどまらない“実行型”基盤である点を強調している。</p>
+<h2>19モデルをオーケストレーション</h2>
+<p>Perplexityは、単一モデルではなく「モデルの専門化」を前提とした構成を採用している。用途に応じて複数モデルを使い分けると説明しており、日本向け配信では「19のAIモデルをオーケストレーション」と明記された。</p>
+<ul>
+<li>Opus 4.6：コア推論</li>
+<li>Gemini：ディープリサーチ</li>
+<li>Nano Banana：画像生成</li>
+<li>Veo 3.1：動画生成</li>
+<li>Grok：軽量タスク高速処理</li>
+<li>ChatGPT 5.2：長文コンテキスト処理</li>
+</ul>
+<p>これらを用途別に組み合わせることで、複合的なワークフローを構築する。</p>
+<h2>提供形態</h2>
+<p>Perplexity Computerは、Perplexity Max加入者向けに提供を開始。Enterprise Maxも今後提供予定としている。Help Centerによれば、Computerは「独立したデジタルワーカー」と定義され、GmailやSlack、GitHub、Notionなど複数の外部サービスとの連携が可能とされる。</p>
+<p>Maxプランでは月間10,000クレジットが付与され、高計算量タスクに消費される。</p>
+<h2>同社の位置づけ</h2>
+<p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
+]]></description>
+      <pubDate>Sun, 01 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude悪用でメキシコ政府から150GB流出、1億9500万件の個人情報に影響とセキュリティ企業が報告　当局は否定</title>
       <link>https://ledge.ai/articles/claude_mexico_150gb_195m_data_breach_report</link>
       <description><![CDATA[<p>米セキュリティ企業のGambit Securityは2026年2月24日付の<a href="https://gambit.security/blog-post/prevention-is-a-losing-game-resilience-is-the-winning-play">公式ブログ</a>およびLinkedIn投稿で、メキシコ政府機関に対する大規模な侵害事案を分析した結果、生成AI「Claude」が悪用され、約150GBのデータが流出し、1億9500万件の個人情報や納税者関連記録に影響が及んだと報告した。</p>
@@ -592,56 +620,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>一方、メキシコの選挙管理当局<a href="https://centralelectoral.ine.mx/2026/02/26/rechaza-ine-vulneracion-a-sus-bases-de-datos/">INE</a>は2月26日、自組織のデータベースが侵害されたとの見方を否定し、技術検証の結果、不正アクセスや情報持ち出しは確認されていないと発表した。また、税務当局<a href="https://www.gob.mx/sat/prensa/tarjeta-informativa-6-420283?idiom=es">SAT</a>も同様に、不正アクセスや異常挙動は確認されていないとの趣旨の情報を公表している。</p>
 ]]></description>
       <pubDate>Sun, 01 Mar 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、画像生成AI「Nano Banana 2（Gemini 3.1 Flash Image）」発表──Pro級の品質と“Flash級の速度”の良いとこどり</title>
-      <link>https://ledge.ai/articles/nano_banana_2_gemini_3_1_flash_image_flash_speed_launch</link>
-      <description><![CDATA[<p>Googleは米国時間2026年2月26日、Geminiのネイティブ画像生成の最新モデル「Nano Banana 2（Gemini 3.1 Flash Image）」を<a href="https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/">発表</a>した。Gemini API上では「Gemini 3.1 Flash Image Preview（gemini-3.1-flash-image-preview）」として提供される。</p>
-<p>同社は今回のモデルについて、「Nano Banana Pro」相当の高度な推論能力や世界知識を備えつつ、Gemini Flash系の高速な生成性能を両立させたと説明している。</p>
-<h2>Flash速度で動く高度な“世界知識”</h2>
-<p>Nano Banana 2は、Gemini Flashの高速推論基盤を活用し、迅速な編集と反復生成（iteration）を可能にする。</p>
-<p>Googleは特に次の点を強調している。</p>
-<p>・高度なworld knowledge（実世界知識）の活用
-・リアルタイムWeb検索情報との統合
-・インフォグラフィックやデータ可視化の生成
-・ノートを図解に変換する機能</p>
-<p><strong>■ インフォグラフィック生成例（水循環図）：実世界の知識をもとに構造化された説明図を生成できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f/wm_c2a77d45_6afd_4d2e_ae5b_3f1e_max_768x768_format_webp_c82026db7f.webp" alt="wm-c2a77d45-6afd-4d2e-ae5b-3f1e.max-768x768.format-webp.webp" /></p>
-<p><strong>■ フグの巣構造を検索情報に基づき図解形式で生成した例。種名や構造ラベルを含め、検索連携された知識を反映している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/16_9_max_1600x1600_format_webp_c10513b48f/16_9_max_1600x1600_format_webp_c10513b48f.webp" alt="16_9.max-1600x1600.format-webp.webp" /></p>
-<h2>正確なテキスト描画と翻訳・ローカライズ</h2>
-<p>Nano Banana 2は、画像内テキストの描画精度を向上させた。</p>
-<p>マーケティング用モックアップやグリーティングカードなどにおいて、可読性の高いテキストを生成できるほか、画像内テキストの翻訳・ローカライズも可能としている。</p>
-<p><strong>■ 同一デザインの看板を異なる言語へ変換</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd/gemini_image_localisation_1_l_max_1080x1080_format_webp_4627d933fd.jpg" alt="gemini-image_localisation_1_l.max-1080x1080.format-webp.jpg" /></p>
-<h2>被写体一貫性と複数オブジェクト管理</h2>
-<p>Googleは、Nano Banana 2で速度と視覚的忠実度の差を大幅に縮めたと説明する。</p>
-<p>主な改善点は以下の通り。</p>
-<p>・最大5キャラクターの類似性維持
-・最大14オブジェクトの忠実度維持
-・高度な指示追従
-・512px〜4Kまでの出力制御
-・アスペクト比の柔軟な指定</p>
-<p>これにより、ストーリーボード制作や複数シーンの生成において、外観を維持したまま展開できるという。</p>
-<p><strong>■ 被写体一貫性の生成例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873/gemini_image_subject_consist_max_1080x1080_format_webp_8227e86873.webp" alt="gemini-image__subject-consist.max-1080x1080.format-webp.webp" /></p>
-<p><strong>■ 最大4K出力対応例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be/wm_b1c3ea8d_6e70_44b2_a53e_a188_max_768x768_format_webp_67bb74d0be.webp" alt="wm-b1c3ea8d-6e70-44b2-a53e-a188.max-768x768.format-webp.webp" /></p>
-<h2>提供範囲</h2>
-<p>Nano Banana 2は以下のサービスに展開される。</p>
-<p>・Geminiアプリ（Fast / Thinking / Proモデルに統合）
-・Search（AI ModeおよびLens）
-・AI StudioおよびGemini API（Preview）
-・Google Cloud（Vertex AI）
-・Flow（デフォルト画像生成モデル）
-・Google Ads（キャンペーン生成支援）</p>
-<p>Nano Banana Proは、専門用途向けに引き続き利用可能としている。</p>
-<h1>生成コンテンツの来歴表示</h1>
-<p>Googleは、SynthIDとC2PA Content Credentialsを組み合わせた来歴表示技術を強化している。</p>
-<p>Geminiアプリ内のSynthID検証機能は、2024年11月以降、2,000万回以上利用されたとしている。今後はC2PA検証もアプリに導入予定だ。</p>
-<p>Nano Banana 2は、高精度モデルと高速モデルの統合を図った位置付けとなる。Googleは、用途に応じてNano Banana ProとNano Banana 2を使い分ける選択肢を提示している。</p>
-]]></description>
-      <pubDate>Fri, 27 Feb 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、AIの「使いこなし力」を可視化する指標「AI Fluency Index」を公表──今後は単なる導入率からAI流暢性重視に</title>
@@ -699,46 +677,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
 ]]></description>
       <pubDate>Fri, 27 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本語性能と推論力を両立した推論型LLM「GPT-OSS Swallow」「Qwen3 Swallow」公開──東京科学大・産総研が開発、オープンライセンスで提供</title>
-      <link>https://ledge.ai/articles/gpt_oss_qwen3_swallow_japanese_reasoning_llm_tokyo_science_aist</link>
-      <description><![CDATA[<p>東京科学大学 情報理工学院の岡崎研究室・横田研究室と、産業技術総合研究所（産総研）の研究チームは2026年2月20日、OpenAIのGPT-OSSをベースに日本語能力と思考力（推論）を強化した推論型大規模言語モデル「GPT-OSS Swallow」と、AlibabaのQwen3をベースに同様の強化を施した「Qwen3 Swallow」を<a href="https://swallow-llm.github.io/gptoss-swallow.ja.html">公開</a>した。両モデルはApache License 2.0で重みが公開され、商用利用を含めて利用可能としている。</p>
-<h2>GPT-OSS／Qwen3をベースに“日本語×推論”を強化</h2>
-<p>公開されたモデルは、既存のオープンモデルを基盤に、日本語性能と推論能力の両立を目指して再学習・強化学習を行った点が特徴だ。</p>
-<p>「GPT-OSS Swallow」は、OpenAIのGPT-OSSを基盤に構築。20Bおよび120Bの2系列を展開する。一方、「Qwen3 Swallow」はAlibabaのQwen3をベースに、8B、30B-A3B、32Bといった複数サイズを提供する。</p>
-<p>いずれもオープンウェイトで公開され、オンプレミス環境での実行や追加チューニングなどが可能だ。</p>
-<h2>継続事前学習＋SFT＋強化学習を再設計</h2>
-<p>岡崎氏は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習のプロセスを「全面刷新」したと説明する。</p>
-<p>公式ページによれば、GPT-OSS Swallowは</p>
-<ul>
-<li>継続事前学習（CPT）</li>
-<li>教師あり学習（SFT）</li>
-<li>検証可能報酬に基づく強化学習（RL）</li>
-</ul>
-<p>という段階を経て構築されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gptoss_123_abeedb325a/gptoss_123_abeedb325a.png" alt="gptoss-123.png" /></p>
-<p>Qwen3 Swallowについても同様にCPT、SFT、強化学習を適用しており、学習プロセスの進行に伴って日本語タスク性能が向上することを確認したとしている。</p>
-<h2>同規模以下のオープンLLMで最高性能と説明</h2>
-<p>公式ページでは、GPT-OSS Swallow 20Bおよび120Bが、総パラメータ数が同規模以下のオープンLLMと比較して、日本語・英語タスクの双方で最高性能を達成したと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/noname_side_d421a00812/noname_side_d421a00812.jpg" alt="noname-side.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GPT_oss_Swallow_English_b8aa3c4dbe/GPT_oss_Swallow_English_b8aa3c4dbe.jpg" alt="GPT-oss Swallow English.jpg" /></p>
-<p>120Bモデルの日本語MT-Bench平均スコアは0.916に達したとされる。また20Bモデルも日本語タスクで高い平均スコアを示したとしている。</p>
-<p>Qwen3 Swallow 8Bおよび32Bも、同規模以下のオープンLLMと比較して日本語タスクで最高性能を達成したと説明されている。</p>
-<h2>量子化版とデータセットも公開</h2>
-<p>Qwen3 Swallowシリーズでは4bit量子化版も提供する。これにより、より小規模な計算資源での運用が可能となる。
-あわせて、複数のデータセットも公開された。</p>
-<ul>
-<li>Swallow-Nemotron-Post-Training-Dataset-v1</li>
-<li>LMSYS-Chat-1M-Synth（gpt-oss-120b由来の推論過程と応答を追加）</li>
-<li>s1-test-time-scaling-synth（日本語・英語の強化学習データセット）</li>
-</ul>
-<p>これらは推論型モデルの模倣学習や事後学習に活用できるとしている。</p>
-<h2>オープンライセンスでの提供</h2>
-<p>両モデルはApache License 2.0で提供される。研究用途にとどまらず、商用利用や改変・再配布も可能なオープンライセンスである。
-公開ページおよびHugging Face上でモデル重みと関連データセットが配布されており、利用者はそれぞれの環境に応じてダウンロードおよび検証を行うことができる。</p>
-]]></description>
-      <pubDate>Wed, 25 Feb 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
