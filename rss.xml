@@ -5,6 +5,42 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
+      <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
+<p>同社は今回のモデルについて、「複雑な実務を正確、効果的、そして効率的に遂行し、より少ないやり取りで要求に応えるモデルが実現した」と説明している。</p>
+<p>今回の発表は、OpenAIの公式ブログ「Introducing GPT-5.4」で明らかにされた。GPT-5.4はChatGPTやAPI、Codexなどで順次提供されるモデルで、ChatGPT上では「GPT-5.4 Thinking」という名称で利用できる。あわせて、より高度なタスク向けの上位版「GPT-5.4 Pro」も公開された。</p>
+<h2>ChatGPTでは「Thinking」、APIでは「gpt-5.4」</h2>
+<p>新モデルは、ChatGPTでは「GPT-5.4 Thinking」として提供され、APIではモデル名「gpt-5.4」として利用できる。上位モデルは「gpt-5.4-pro」として公開されている。</p>
+<p>GPT-5.4 Thinkingは、これまで提供されていた推論モデル「GPT-5.2 Thinking」を置き換える形で提供される。ChatGPTでは主にPlus、Team、Proプラン向けに利用できる。</p>
+<h2>「複雑な実務を正確かつ効率的に遂行」するモデル</h2>
+<p>OpenAIはGPT-5.4を、専門職の業務における生産性向上を意識したモデルとして位置づけている。公式説明では、特に以下の領域での性能改善を挙げている。</p>
+<ul>
+<li>スプレッドシート作成・分析</li>
+<li>プレゼンテーション資料の作成</li>
+<li>フロントエンド開発などのコーディング</li>
+<li>長文文書の理解や作成</li>
+<li>ツールを利用した調査・分析</li>
+</ul>
+<p>従来の生成AIは、チャットや検索代替として利用される場面が多かったが、GPT-5.4では実際の業務作業を支援する用途を重視したモデルとして設計されているという。</p>
+<p><strong>GPT-5.4（左）とGPT-5.2（右）が生成したプレゼンテーション資料の比較。GPT-5.4では複数のコンテンツを整理したスライド構成が生成され、実務用途での品質向上が示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5_4thinking_d81596a682/5_4thinking_d81596a682.jpg" alt="5-4thinking.jpg" /></p>
+<h2>上位版「GPT-5.4 Pro」は長時間タスク向け</h2>
+<p>同時に公開されたGPT-5.4 Proは、より高度で長時間の処理が必要なタスク向けに設計されたモデルだ。APIドキュメントでは、より多くの計算資源を使って推論を行うことで、複雑な問題に対してより高精度な回答を生成できるとしている。</p>
+<p>OpenAIは、GPT-5.4 Proについて「より難しいタスクや長時間ワークフロー向けのモデル」と説明している。処理内容によっては、応答の完了まで数分程度かかる場合もある。</p>
+<h2>ベンチマークでは知識労働タスクで改善</h2>
+<p>OpenAIは、GPT-5.4の性能評価として複数のベンチマーク結果も公開した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Cqogsobg_AA_Ao2_U_9f04dacec0/H_Cqogsobg_AA_Ao2_U_9f04dacec0.png" alt="HCqogsobgAAAo2U.png" />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_Knowledge_work_tasks_f5676d2cc0/GD_Pval_Knowledge_work_tasks_f5676d2cc0.png" alt="GDPval_Knowledge work tasks.png" /></p>
+<p>44職種の知識労働タスクを評価する社内ベンチマーク「GDPval」では、GPT-5.4が83.0％のスコアを記録し、前モデルGPT-5.2の70.9％を上回ったとしている。</p>
+<p>また、投資銀行アナリストのスプレッドシート作業を模した評価では平均87.3％の正答率を記録し、GPT-5.2の68.4％を大きく上回ったという。</p>
+<p>プレゼンテーション資料の評価でも、人間の評価者がGPT-5.4の生成物を選好した割合は68.0％だったとしている。</p>
+<h2>API版は100万トークン超のコンテキストに対応</h2>
+<p>API版のGPT-5.4 Proでは、最大約105万トークンのコンテキストウィンドウをサポートする。最大出力は128,000トークンで、知識の更新時点は2025年8月となっている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claudeユーザー急増の中、Anthropicが「メモリー移行」機能　他AIからの乗り換えを容易に</title>
       <link>https://ledge.ai/articles/claude_import_memory_ai_migration_feature</link>
       <description><![CDATA[<p>Anthropicは2026年3月3日（現地時間）、AIチャットボット「Claude」に、他のAIサービスで蓄積したユーザーの好みや作業スタイルなどの情報を取り込める「メモリー移行（Import Memory）」機能を<a href="https://claude.com/import-memory">公開</a>した。ユーザーが別のAIを使って形成したコンテキストをClaudeにコピー＆ペーストで移行できる仕組みで、他AIからの乗り換えを容易にすることを狙う。</p>
@@ -424,42 +460,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
-      <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
-<p>同社は今回のモデルについて、「複雑な実務を正確、効果的、そして効率的に遂行し、より少ないやり取りで要求に応えるモデルが実現した」と説明している。</p>
-<p>今回の発表は、OpenAIの公式ブログ「Introducing GPT-5.4」で明らかにされた。GPT-5.4はChatGPTやAPI、Codexなどで順次提供されるモデルで、ChatGPT上では「GPT-5.4 Thinking」という名称で利用できる。あわせて、より高度なタスク向けの上位版「GPT-5.4 Pro」も公開された。</p>
-<h2>ChatGPTでは「Thinking」、APIでは「gpt-5.4」</h2>
-<p>新モデルは、ChatGPTでは「GPT-5.4 Thinking」として提供され、APIではモデル名「gpt-5.4」として利用できる。上位モデルは「gpt-5.4-pro」として公開されている。</p>
-<p>GPT-5.4 Thinkingは、これまで提供されていた推論モデル「GPT-5.2 Thinking」を置き換える形で提供される。ChatGPTでは主にPlus、Team、Proプラン向けに利用できる。</p>
-<h2>「複雑な実務を正確かつ効率的に遂行」するモデル</h2>
-<p>OpenAIはGPT-5.4を、専門職の業務における生産性向上を意識したモデルとして位置づけている。公式説明では、特に以下の領域での性能改善を挙げている。</p>
-<ul>
-<li>スプレッドシート作成・分析</li>
-<li>プレゼンテーション資料の作成</li>
-<li>フロントエンド開発などのコーディング</li>
-<li>長文文書の理解や作成</li>
-<li>ツールを利用した調査・分析</li>
-</ul>
-<p>従来の生成AIは、チャットや検索代替として利用される場面が多かったが、GPT-5.4では実際の業務作業を支援する用途を重視したモデルとして設計されているという。</p>
-<p><strong>GPT-5.4（左）とGPT-5.2（右）が生成したプレゼンテーション資料の比較。GPT-5.4では複数のコンテンツを整理したスライド構成が生成され、実務用途での品質向上が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5_4thinking_d81596a682/5_4thinking_d81596a682.jpg" alt="5-4thinking.jpg" /></p>
-<h2>上位版「GPT-5.4 Pro」は長時間タスク向け</h2>
-<p>同時に公開されたGPT-5.4 Proは、より高度で長時間の処理が必要なタスク向けに設計されたモデルだ。APIドキュメントでは、より多くの計算資源を使って推論を行うことで、複雑な問題に対してより高精度な回答を生成できるとしている。</p>
-<p>OpenAIは、GPT-5.4 Proについて「より難しいタスクや長時間ワークフロー向けのモデル」と説明している。処理内容によっては、応答の完了まで数分程度かかる場合もある。</p>
-<h2>ベンチマークでは知識労働タスクで改善</h2>
-<p>OpenAIは、GPT-5.4の性能評価として複数のベンチマーク結果も公開した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Cqogsobg_AA_Ao2_U_9f04dacec0/H_Cqogsobg_AA_Ao2_U_9f04dacec0.png" alt="HCqogsobgAAAo2U.png" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_Knowledge_work_tasks_f5676d2cc0/GD_Pval_Knowledge_work_tasks_f5676d2cc0.png" alt="GDPval_Knowledge work tasks.png" /></p>
-<p>44職種の知識労働タスクを評価する社内ベンチマーク「GDPval」では、GPT-5.4が83.0％のスコアを記録し、前モデルGPT-5.2の70.9％を上回ったとしている。</p>
-<p>また、投資銀行アナリストのスプレッドシート作業を模した評価では平均87.3％の正答率を記録し、GPT-5.2の68.4％を大きく上回ったという。</p>
-<p>プレゼンテーション資料の評価でも、人間の評価者がGPT-5.4の生成物を選好した割合は68.0％だったとしている。</p>
-<h2>API版は100万トークン超のコンテキストに対応</h2>
-<p>API版のGPT-5.4 Proでは、最大約105万トークンのコンテキストウィンドウをサポートする。最大出力は128,000トークンで、知識の更新時点は2025年8月となっている。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>警察庁、生成AI悪用の児童画像加工114件を把握　同級生が約6割、被害の中心は中高生</title>
       <link>https://ledge.ai/articles/police_agency_ai_child_image_manipulation_114_cases_2025</link>
       <description><![CDATA[<p>警察庁は2026年2月26日、「令和7年における少年非行及び子供の性被害の状況」を<a href="https://www.npa.go.jp/publications/statistics/safetylife/pdf_r7_syonenkohosiryo.pdf">公表</a>し、児童（18歳未満）の画像を生成AI等で性的に加工し悪用した事案を2025年中に114件把握したと明らかにした。被害児童の約9割を中学生・高校生が占め、行為者の約6割が「同級生・同じ学校」の関係にあるという実態が示された。</p>
@@ -703,28 +703,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
 ]]></description>
       <pubDate>Fri, 27 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenClaw経由で制限報告相次ぐ──Google Antigravity担当者「悪意ある利用急増、&gt;90%が意図外用途」と説明</title>
-      <link>https://ledge.ai/articles/openclaw_gemini_antigravity_usage_restrictions_202602</link>
-      <description><![CDATA[<p>2026年2月13日以降、Googleの有料AIプラン利用者の間で、オープンフレームワーク「OpenClaw」を経由してGeminiモデルに接続した後、利用制限を受けたとする報告が相次いでいる。Googleの公式開発者フォーラムには、「<a href="https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778">Account Restricted Without WARNING</a>」と題した投稿を含め、同様のアカウント停止や403エラーに関する複数の投稿が掲載されている。</p>
-<h2>フォーラムでの制限報告</h2>
-<p>Google AI Developers Forumの投稿では、OpenClawのOAuth連携を通じてGeminiを利用した後、Google AI Ultraアカウントが制限状態になったとする事例が報告されている。投稿者は、事前警告がなかったことや、制限が数日間継続していることを記している。</p>
-<p>「403 ToS violation」と表示されたケースや、Antigravity／Gemini Code Assistの利用が無効化されたとする投稿もあり、2月中旬以降、類似の報告が複数スレッドで続いている。</p>
-<h2>Antigravity担当者のX投稿：「悪意ある利用が急増」</h2>
-<p>これについて、Googleの「Antigravity」プロダクトに関与する担当者であるVarun Mohan氏は、2026年2月23日から24日にかけてX（旧Twitter）に投稿し、対応の背景を説明した。</p>
-<p>Mohan氏は23日の投稿で、「Antigravityバックエンドにおけるmalicious usage（悪意ある利用）が大幅に増加し、ユーザー体験の品質が著しく低下した」と述べた。そのうえで、「意図した使い方ではない利用者」のアクセスを迅速に遮断する必要があったと説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Varun_Mohan_X_36452aeb3e/Varun_Mohan_X_36452aeb3e.jpg" alt="Varun Mohan X.jpg" /></p>
-<p>同日中の追加投稿では、今回ブロックしたのはAntigravityプロダクトの利用であり、「他のGoogleサービスおよびGoogle AIサービスは影響を受けていない」と明記した。また、「Antigravityバックエンドを他製品のプロキシとして使用することは意図されていない」とし、該当する利用形態が計算資源を圧迫していたと説明した。</p>
-<p>24日の<a href="https://x.com/_mohansolo/status/2026109842948329574">投稿</a>では、「利用の大半（\u003E90%）がAntigravityプロダクトではない用途だったアカウント」に対して措置を取ったとし、「十分な事前警告を行えなかったことを深く後悔している」と記した。あわせて、対象利用者に復帰の道筋を用意するとしている。</p>
-<h2>双方が主張する影響</h2>
-<p>Mohan氏は、Antigravityバックエンドでの「malicious usage」の急増がサービス品質（QoS）を著しく損ない、計算資源が圧迫されたことが今回の措置の背景にあると説明。容量に制約がある中で「実際のユーザーに公平でありたい」と述べた。</p>
-<p>一方、利用者側からは、事前警告なしに利用が停止されたことや、異議申し立て後の対応が不透明であるとする投稿が公式フォーラム上で相次いでいる。OpenClawの開発者で、同月15日にOpenAIへの参加を発表したPeter Steinberger氏は、月額250ドルのUltraプラン加入者へのサポート対応に疑問を呈し、高額プラン契約下でリソースにアクセスできない状況を「draconian（苛烈）」と表現し、運用面のリスクを指摘した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peter_Steinberger_X_97220b6096/Peter_Steinberger_X_97220b6096.jpg" alt="PeterSteinberger X.jpg" /></p>
-<p>Antigravityの<a href="https://antigravity.google/terms">追加利用規約</a>では、サービスの濫用や妨害、意図しない形での利用などを制限する趣旨の条項が設けられている。Mohan氏の投稿は、こうした規約の考え方に沿う形で説明されたものと位置付けられる。ただし、具体的にどの条項に違反したのかは明示されていない。</p>
-<p>現時点で、GoogleがOpenClawを名指しで一律禁止したとする公式声明は確認されていない。Mohan氏はXで、「malicious usage」の急増と、利用の大半（\u003E90%）がAntigravity本来用途ではなかったアカウントへの措置であると説明している。</p>
-]]></description>
-      <pubDate>Wed, 25 Feb 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>2028年末までに“世界の知的作業の過半がAIへ”──OpenAIサム・アルトマン氏が超知能の到達時期に言及</title>
