@@ -165,6 +165,30 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
+      <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
+<h2>Claude Codeは操作前に人間の承認を求める設計</h2>
+<p>Claude Codeでは、AIがコードを書き換えたりコマンドを実行したりする前に、人間がその操作を許可するか確認する仕組みが採用されている。Anthropicの公式ドキュメントによると、通常モードでは各アクションの前にユーザーの許可を求め、変更内容を確認してから実行する。</p>
+<p>同ドキュメントでは、VS Code連携時にAIがファイル編集を行う際、変更案を表示してユーザーが承認する流れが説明されている。こうした承認プロセスにより、AIによる変更を人間が確認できる設計になっている。</p>
+<h2>権限モードを切り替える既存機能</h2>
+<p>Claude Codeには、承認の扱いを切り替える複数の権限モードが用意されている。公式ドキュメントによると、Shift+Tabなどの操作で「Auto-Accept Mode」「Plan Mode」「normal mode」を切り替えることができる。</p>
+<p>Common workflowsの説明では、通常モードからAuto-Accept Modeへ切り替えることで、確認なしで編集を実行できる運用も示されている。Claude Codeでは、こうした仕組みにより承認フローを段階的に調整できる。</p>
+<h2>通知文で浮上した新モード「auto mode」</h2>
+<p>Reddit上に投稿された管理者向け通知文によると、新しいpermissions modeとして「auto mode」が導入される予定とされている。通知文では、auto modeによりClaudeがコーディング中のpermission decisionsを処理し、長時間の作業が手動承認によって中断されにくくなると説明されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a.jpg" alt="new-auto-mode-permissions-coming-v0-bihd494ad3ng1.jpg" /></p>
+<p>同通知文では、この機能が承認を完全に省略する --dangerously-skip-permissions のより安全な代替として設計されたことも明記されている。このフラグは、長時間タスクの途中で承認待ちが発生するのを避けるため開発者の間で利用されてきたが、安全性の懸念が指摘されてきた。auto modeでは、Claudeが承認判断を処理する一方、プロンプトインジェクション対策など追加の安全機能が組み込まれるとされる。</p>
+<h2>研究プレビューとして提供予定</h2>
+<p>通知文によると、auto modeは2026年3月中旬以降にresearch previewとして提供される予定とされる。また、利用方法として claude --enable-auto-mode コマンドで有効化できると説明されている。</p>
+<p>一方で、同モードは「すべてのリスクを防ぐものではない」とされ、隔離された環境での利用を推奨すると記されている。さらに、トークン使用量やコスト、レイテンシがわずかに増える可能性にも言及している。管理者は disableAutoMode 設定を用いて利用を無効化できるとされる。</p>
+<h2>AIの承認設計をめぐる議論</h2>
+<p>AIの操作に人間の判断を介在させる設計は、いわゆる「ヒューマン・イン・ザ・ループ」と呼ばれる考え方と関係する。日本政府が2026年2月16日に公表したAIガイドライン改定案でも、AIの行動に対して「人間の判断を必須化する仕組み」の導入が議論されている。</p>
+<p>今回確認されたauto modeは、AIが承認判断の一部を処理する仕組みとされており、AIシステムにおける人間の関与のあり方をめぐる議論との関係でも注目される。</p>
+<p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、米国防総省とAI軍事利用を再交渉　行き詰まり後も接点探る</title>
       <link>https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart</link>
       <description><![CDATA[<p>米AI企業Anthropicは、同社AIの軍事利用を巡る米国防総省との協議について、一度行き詰まった後も接点を探る交渉が続いていたことを明らかにした。2月下旬に公開した声明で対立の経緯を説明したほか、2026年3月5日付の<a href="https://www.anthropic.com/news/where-stand-department-war">声明</a>では、ここ数日間にわたり同省と「productive conversations（建設的な協議）」を続けていたとしている。</p>
