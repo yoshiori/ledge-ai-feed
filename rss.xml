@@ -318,6 +318,35 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
+      <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
+      <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
+<p>選定されたのは、以下７つのモデル</p>
+<ul>
+<li>NTTデータ：<strong>「tsuzumi 2」</strong></li>
+<li>カスタマークラウド：<strong>「CC Gov-LLM」</strong></li>
+<li>KDDI・ELYZA共同：<strong>「Llama-3.1-ELYZA-JP-70B」</strong></li>
+<li>ソフトバンク：<strong>「Sarashina2 mini」</strong></li>
+<li>NEC：<strong>「cotomi v3」</strong></li>
+<li>富士通：<strong>「Takane 32B」</strong></li>
+<li>Preferred Networks：<strong>「PLaMo 2.0 Prime」</strong></li>
+</ul>
+<p>デジタル庁は、所定の契約締結が完了したモデルから順次「源内」での試用評価を進めるとしている。</p>
+<h2>行政実務で使えるかを政府内で見極める</h2>
+<p>デジタル庁は、行政現場での実用性や課題を評価・検証するために国産LLMを試験的に利用すると説明しており、対話型AIサービスとしての提供だけでなく、行政実務特化型AIアプリへの組み込みも想定している。選定にあたっては、国内開発モデルであることに加え、行政実務で使える性能、海外主要LLMとの比較、安全性への取り組み、学習データに関する法令順守、ガバメントクラウド上で動作できるセキュリティ要件などが条件となった。</p>
+<p>これまでデジタル庁は、全職員が利用できる生成AI利用環境として「源内」を構築・運営してきた。今回の国産LLM試用は、この「源内」を政府全体に拡張する流れの中に位置付けられる。<a href="https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/2d69c287-2897-46d8-a28f-ea5a1fc9bce9/86f43a74/20260306_policies_ai_gennai_mass_deployment.pdf">関連資料</a>では、2026年度に全府省庁39機関の約18万人を対象に大規模実証を行い、その中で採択した国産LLMを試用して実用性や行政実務への適合性を見極める方針が示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai_7b82c05855/shedule_of_gennai_7b82c05855.jpg" alt="shedule of gennai.jpg" /></p>
+<h2>背景に「政府が率先して使う」方針</h2>
+<p>背景には、政府自らがAI活用を先導するという政策方針がある。デジタル庁は、少子高齢化による担い手不足が深刻化する中で公共サービスを維持するにはAI活用が不可避だと説明。あわせて、民間のAI投資を促すには政府が率先して利用し、職員のAI理解と実践力を高めることが重要だとしている。関連資料でも、政府共通基盤の提供やナレッジの集約・共有、国産AIの育成・強化、他府省庁支援を進める方針が示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai2_fa3dd77516/shedule_of_gennai2_fa3dd77516.jpg" alt="shedule of gennai2.jpg" /></p>
+<p>デジタル庁の発表によると、第3回人工知能戦略本部での指示や2025年12月23日閣議決定のAI基本計画を踏まえ、政府職員によるAIの「普段使い」を浸透・定着させる環境整備が進められている。今回の大規模実証は、そうした方針を具体化する取り組みといえる。</p>
+<h2>2027年度以降の政府調達も視野</h2>
+<p>今後のスケジュールでは、2026年3月から契約締結や技術調整を進め、同年5月ごろに政府における「源内」の大規模実証を開始する。国産LLMの試用開始は同年8月ごろを予定し、2027年1月ごろに評価・検証結果の一部を公表する計画だ。そのうえで同年4月から、検証を経て実証された優れたモデルについて、ガバメントAIとして政府調達（有償）を行う予定としている。</p>
+<p>このため今回の発表は、国産LLMの試験導入そのものに加え、政府調達を通じた需要創出の前段階としても位置付けられる。デジタル庁は、行政現場からのフィードバックによる国産AIの性能向上や、政府調達を通じた安定的な需要創出を実現し、国産AIの育成・強化や日本のAI自律性確保につなげる考えを示している。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
       <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
       <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
