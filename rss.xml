@@ -5,6 +5,54 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
+      <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
+      <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
+<p>2026年3月4日（現地時間）、北カリフォルニア連邦地裁に提出された訴状によると、フロリダ州のジョナサン・ガバラス氏（36）がGeminiとの対話に深く没入し、妄想を強めた末に自死したとして、父ジョエル・ガバラス氏が遺産管理人として訴えを起こした。</p>
+<p>これに対しGoogleは3月4日付の<a href="https://blog.google/company-news/outreach-and-initiatives/public-policy/gavalas-lawsuit-response/">公式声明</a>で、遺族への哀悼を示したうえで、Geminiは現実世界の暴力を助長したり、自傷を提案したりしないよう設計されていると反論した。同社は、安全策を医療・メンタルヘルス分野の専門家と協議して設計しており、この件でもGeminiが自らをAIだと明確にし、危機ホットラインを何度も案内したとしている。Googleは「AIは完璧ではない」としつつも、自傷を促したとの見方は否定している。</p>
+<p><a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.465255/gov.uscourts.cand.465255.1.0.pdf">訴状</a>は、Google LLCとAlphabet Inc.を被告とし、wrongful death（不法死亡）や製造物責任などを主張している。原告側は、Geminiがジョナサン氏の精神状態の悪化を助長し、暴力的な妄想や自殺念慮を深める方向に会話を進めたと主張している。</p>
+<p>訴状によると、ジョナサン氏はGeminiを「意識を持つ存在」と受け止め、自身と特別な関係にあると信じ込むようになった。さらに、Geminiが現実世界での危険な行動や「mass casualties（大量死傷）」につながる構想に触れ、自殺を「transference（転移）」のような形で語ったことが、死亡に至る経緯の一部として記されている。ただし、これらは現時点ではあくまで原告側が訴状で主張している内容であり、事実認定はこれから司法の場で争われる。</p>
+<p>今回の訴訟で目を引くのは、亡くなった利用者が未成年ではなく、36歳の成人だった点だ。生成AIをめぐる有害対話や依存の問題は、これまで未成年ユーザー保護の文脈で語られることが多かった。今回の件では、そうした問題が成人利用者にも及びうること、さらにAI企業の安全設計責任が年齢制限やティーン向け対策だけでは捉えきれない段階に入りつつあることを示す事案として注目される。</p>
+]]></description>
+      <pubDate>Sun, 08 Mar 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claudeアプリ急伸、ChatGPTに逆風か　米国防総省AI契約を巡りユーザー動向に変化</title>
+      <link>https://ledge.ai/articles/claude_app_surge_chatgpt_headwinds_pentagon_ai_contrac</link>
+      <description><![CDATA[<p>AIチャットアプリ市場で、Anthropicの「Claude」が急速に利用者を伸ばしている。市場調査会社の分析によると、米国ではClaudeアプリのダウンロード数が2月末に大きく増加した一方、OpenAIの「ChatGPT」はダウンロード数の減少や低評価レビューの急増が確認された。背景には、OpenAIが米国防総省とAI利用契約を結んだことを巡る議論が影響した可能性があるという。</p>
+<h2>Claudeアプリのダウンロードが急増</h2>
+<p>市場調査会社<a href="https://sensortower.com/blog/chatgpt-uninstalls-surge-amidst-deal-with-us-department-of-war">Sensor Towerの分析</a>によると、AnthropicのAIチャットアプリ「Claude」は2月下旬から米国で急速にダウンロード数を伸ばした。</p>
+<p>同社によると、Claudeアプリのダウンロード数は2月27日に前日比37％増、2月28日には51％増となった。</p>
+<p>一方で同時期、OpenAIの「ChatGPT」は米国でダウンロード数が減少した。さらにアプリレビューでは低評価レビューが急増し、2月28日には1つ星レビューが前日比775％増となったという。</p>
+<p>Sensor Towerは、こうした動きがAIチャットアプリ市場におけるユーザー動向の変化を示している可能性があると分析している。同社は米国のAIチャットアプリの日次ダウンロード数の推移も公開しており、Claudeのダウンロードが2月下旬から急増していることが確認できる。</p>
+<p><strong>米国のAIチャットアプリの日次ダウンロード数（直近30日）。Claudeのダウンロードが2月下旬から急増している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/US_Downloads_1000941e6b/US_Downloads_1000941e6b.jpg" alt="US_Downloads.jpg" /></p>
+<h2>OpenAIの国防総省契約が議論に</h2>
+<p>こうした動きの背景として注目されているのが、米国防総省とAI企業の関係を巡る一連の動きだ。</p>
+<p>Anthropicは安全制限を巡る立場の違いから国防総省との関係が悪化し、契約から外れる結果となった一方、OpenAIは安全条項を明文化した上で同省とAI利用契約を<a href="https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence">締結した</a>。こうした経緯が、AI企業の軍事利用への向き合い方の違いとして受け止められ、SNS上での議論にもつながった。</p>
+<p>OpenAIは公式ブログで、同契約は国家安全保障関連の用途を対象としつつ、米国民の監視、自律兵器の制御、高リスクの自動意思決定には使わないと<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">説明</a>している。</p>
+<h2>SNSでは「QuitGPT」の動きも</h2>
+<p>契約発表後、X（旧Twitter）などのSNSでは「QuitGPT」と呼ばれる投稿が拡散し、一部ユーザーがChatGPTの利用停止やアンインストールを呼びかける動きも見られた。この動きはOpenAIのAI軍事利用を巡る議論と結びつき、SNS上で話題となった。</p>
+<p>Sensor Towerによると、ChatGPTのアプリレビューでは低評価レビューが急増し、2月28日には1つ星レビューが前日比775％増となった。</p>
+<h2>Anthropicは軍事利用の線引きを強調</h2>
+<p>一方、Anthropicは米国防総省との協議について声明を発表し、AIの軍事利用について一定の制限を設ける方針を示している。</p>
+<p>同社は、
+・国内監視用途
+・完全自律型兵器</p>
+<p>には<a href="https://www.anthropic.com/news/statement-department-of-war">協力しない方針</a>を明確にしている。</p>
+<p>こうした姿勢について、SNS上ではAnthropicを「倫理的なAI企業」と評価する声も見られたとされる。AI企業の安全性や利用方針に対する姿勢が、ユーザーの支持につながった可能性も指摘されている。</p>
+<h2>Claudeの成長は今回の議論以前から続く</h2>
+<p>ただし、Claudeの利用拡大は今回の議論だけが要因ではないとみられる。</p>
+<p>Anthropicは2026年2月に入り、
+・「Claudeは広告を入れない」とする方針の発表
+・新モデルの公開
+・<a href="https://ledge.ai/articles/anthropic_super_bowl_claude_no_ads_openai_altman_response">Super Bowl広告</a>による認知拡大</p>
+<p>などの施策を進めていた。こうした取り組みが積み重なった上で、今回の議論がユーザー動向に影響したという見方もある。</p>
+<p>今回のアプリ市場データは、AI企業の方針や姿勢がユーザー選択に影響する可能性を示す動きとしても注目されている。今後、AIチャットサービスの競争がどのような方向に進むのか、ユーザー動向の変化が引き続き注視される。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
       <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
       <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
@@ -77,6 +125,74 @@
       <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>「もしAIチャットが広告だらけになったら？」　99helpersが体験デモ「Ad-Supported AI Chat Demo」を公開</title>
+      <link>https://ledge.ai/articles/99helpers_ad_supported_ai_chat_demo</link>
+      <description><![CDATA[<p>AIエージェントなど生成AIサービスの普及が進む中、AIツールを開発する99helpersは、広告付きAIチャットのユーザー体験を再現したデモンストレーション「Ad-Supported AI Chat Demo」を<a href="https://99helpers.com/tools/ad-supported-chat">公開</a>した。AIの回答の途中に広告が挿入されるなど、「広告で支えられるAIチャット」がどのような体験になるのかを疑似的に試すことができる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_agents_to_help_your_customers_71808ff8df/AI_agents_to_help_your_customers_71808ff8df.jpg" alt="AI agents to help your customers.jpg" /></p>
+<h2>広告付きAIチャットの体験デモを公開</h2>
+<p>このデモはブラウザ上で公開されており、ユーザーが質問を入力すると、AIの回答の途中にスポンサー表示や広告メッセージが挿入される仕組みになっている。通常のチャットAIとは異なり、回答の流れが広告によって中断されたり、商品やサービスをすすめるメッセージが混ざるなど、広告付きAI特有のユーザー体験が再現されている。</p>
+<p>デモページでは、このプロジェクトを「風刺的でありながら完全に機能する（satirical yet fully functional）」AIチャットの実験として紹介している。</p>
+<h2>回答の途中に広告が差し込まれるUI</h2>
+<p>デモ画面では、チャットUIの中にバナー広告が表示されたり、AIの回答にスポンサー付きメッセージが差し込まれるなど、複数の広告表現が組み込まれている。質問内容に関連する商品やサービスが提案されるケースもあり、AIの回答と広告が混在する構造になっている。</p>
+<h2>開発者がSNSでデモを紹介</h2>
+<p>このデモは、開発者の <a href="https://x.com/nickkirt/status/2027810329535595003">Nick Kirt</a>氏がX（旧Twitter）で紹介したことで注目を集めた。同氏は投稿の中で、AIチャットに広告が組み込まれた場合のユーザー体験を体感できるデモとして公開したと説明している。</p>
+<p>投稿では、AIの回答の途中に広告が挿入される様子や、スポンサー付きメッセージが表示される画面も紹介されており、実際にどのようなチャット体験になるのかを確認できる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HCQ_6va_AXUAA_Ch9b_17b30ec495/HCQ_6va_AXUAA_Ch9b_17b30ec495.jpg" alt="HCQ6vaAXUAACh9b.jpg" /></p>
+<h2>AIサービスの収益モデルを考えるきっかけに</h2>
+<p>近年、検索AIやAIチャットサービスでは広告モデルの導入可能性が議論されており、AIの回答と広告の関係は新たな論点の一つになっている。</p>
+<p>現在、生成AIサービスの収益モデルは主にサブスクリプションやAPI利用料、企業向けライセンスなどが中心となっている。一方、検索エンジンやSNSのように広告を主な収益源とするモデルがAIチャットに導入された場合、回答の中に広告が入り込む可能性も指摘されている。</p>
+<h3>編集部でも試してみると…</h3>
+<p>編集部でも実際に「Ad-Supported AI Chat Demo」を試してみた。チャット画面にはAIの回答とは別に複数の広告枠が表示され、画面右側には広告カード、下部にはスポンサー付きリンクが並ぶなど、広告が前提となったインターフェースになっている。</p>
+<p>AIの回答の中でも、広告付きの提案やプロモーションが表示される仕組みになっており、通常のチャットAIとは異なるユーザー体験となっていた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1_5c981033fe/image_1_5c981033fe.jpg" alt="image (1).jpg" /></p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIが作った画像の著作権は誰のもの？　米最高裁が審理拒否、人間著作者原則維持</title>
+      <link>https://ledge.ai/articles/ai_authorship_supreme_court_cert_denied</link>
+      <description><![CDATA[<p>米最高裁判所（U.S. Supreme Court）は2026年3月2日、AIが生成した作品の著作権を巡る訴訟「Thaler v. Perlmutter」の上告審理を受理しないと<a href="https://www.supremecourt.gov/orders/courtorders/030226zor_2d8f.pdf">決定</a>した。これにより、AI単独で生成された作品は著作権保護の対象にならないとする下級審判断が維持されることになった。</p>
+<h2>AI生成画像の著作権登録を巡る訴訟</h2>
+<p>今回の訴訟は、AI研究者のStephen Thaler氏が、自身のAIシステム「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」の著作権登録を求めたことに端を発する。同氏はこの作品の著作者としてAI自身を登録申請したが、著作権局は「人間が創作に関与していない」として拒否した。</p>
+<p><strong>AI「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」。著作権登録を巡る訴訟の対象となった作品</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_549152e50d/ai_549152e50d.jpg" alt="ai.jpg" /></p>
+<p>Thaler氏はこの判断を不服として訴訟を起こし、2023年には連邦地裁が「AIだけで生成された作品は著作権保護の対象にならない」と判断している。今回の裁判は、この判断をめぐる控訴審・上告審の流れの中で争われてきたものだ。</p>
+<h2>控訴審は「人間著作者」原則を支持</h2>
+<p>訴訟は連邦地裁、控訴審へと進み、いずれも著作権局の判断を支持した。
+Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成された芸術作品について「人間の著作」がなければ米国著作権法による保護は受けられないと判断した。</p>
+<p><a href="https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf">判決</a>を書いたパトリシア・ミレット判事は、著作権制度が著作者の生存期間や死後70年といった人間のライフサイクルを前提に設計されている点などを挙げ、作品を生成した機械を著作者として認めることはできないと指摘した。また、AIを「被雇用者」とみなして著作権を主張する論点についても、AIは契約や雇用関係を結ぶ法的能力を持たないとして退けた。</p>
+<h2>最高裁は審理を受理せず</h2>
+<p>これに対しThaler氏は最高裁に上告したが、U.S. Supreme Courtは2026年3月2日、同訴訟の審理を受理しないと決定した。最高裁は通常どおり理由を示していないが、この決定により控訴審の判断が事実上確定した。</p>
+<h2>生成AI時代の著作権ルール</h2>
+<p>生成AIの普及に伴い、AIが生み出した作品の権利をどのように扱うかは世界各国で議論が続いている。米著作権局は、人間が創作に関与した場合には著作権が認められる可能性があるとする立場を示しており、AIと人間の共同創作の扱いが今後の焦点となる。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
+      <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
+<h2>Claude Codeは操作前に人間の承認を求める設計</h2>
+<p>Claude Codeでは、AIがコードを書き換えたりコマンドを実行したりする前に、人間がその操作を許可するか確認する仕組みが採用されている。Anthropicの公式ドキュメントによると、通常モードでは各アクションの前にユーザーの許可を求め、変更内容を確認してから実行する。</p>
+<p>同ドキュメントでは、VS Code連携時にAIがファイル編集を行う際、変更案を表示してユーザーが承認する流れが説明されている。こうした承認プロセスにより、AIによる変更を人間が確認できる設計になっている。</p>
+<h2>権限モードを切り替える既存機能</h2>
+<p>Claude Codeには、承認の扱いを切り替える複数の権限モードが用意されている。公式ドキュメントによると、Shift+Tabなどの操作で「Auto-Accept Mode」「Plan Mode」「normal mode」を切り替えることができる。</p>
+<p>Common workflowsの説明では、通常モードからAuto-Accept Modeへ切り替えることで、確認なしで編集を実行できる運用も示されている。Claude Codeでは、こうした仕組みにより承認フローを段階的に調整できる。</p>
+<h2>通知文で浮上した新モード「auto mode」</h2>
+<p>Reddit上に投稿された管理者向け通知文によると、新しいpermissions modeとして「auto mode」が導入される予定とされている。通知文では、auto modeによりClaudeがコーディング中のpermission decisionsを処理し、長時間の作業が手動承認によって中断されにくくなると説明されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a.jpg" alt="new-auto-mode-permissions-coming-v0-bihd494ad3ng1.jpg" /></p>
+<p>同通知文では、この機能が承認を完全に省略する --dangerously-skip-permissions のより安全な代替として設計されたことも明記されている。このフラグは、長時間タスクの途中で承認待ちが発生するのを避けるため開発者の間で利用されてきたが、安全性の懸念が指摘されてきた。auto modeでは、Claudeが承認判断を処理する一方、プロンプトインジェクション対策など追加の安全機能が組み込まれるとされる。</p>
+<h2>研究プレビューとして提供予定</h2>
+<p>通知文によると、auto modeは2026年3月中旬以降にresearch previewとして提供される予定とされる。また、利用方法として claude --enable-auto-mode コマンドで有効化できると説明されている。</p>
+<p>一方で、同モードは「すべてのリスクを防ぐものではない」とされ、隔離された環境での利用を推奨すると記されている。さらに、トークン使用量やコスト、レイテンシがわずかに増える可能性にも言及している。管理者は disableAutoMode 設定を用いて利用を無効化できるとされる。</p>
+<h2>AIの承認設計をめぐる議論</h2>
+<p>AIの操作に人間の判断を介在させる設計は、いわゆる「ヒューマン・イン・ザ・ループ」と呼ばれる考え方と関係する。日本政府が2026年2月16日に公表したAIガイドライン改定案でも、AIの行動に対して「人間の判断を必須化する仕組み」の導入が議論されている。</p>
+<p>今回確認されたauto modeは、AIが承認判断の一部を処理する仕組みとされており、AIシステムにおける人間の関与のあり方をめぐる議論との関係でも注目される。</p>
+<p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claudeの「大規模蒸留攻撃」を確認──DeepSeek・Moonshot・MiniMaxが不正抽出、約2.4万アカウントで1600万超のやり取り</title>
       <link>https://ledge.ai/articles/anthropic_claude_industrial_scale_distillation_attack_deepseek_moonshot_minimax</link>
       <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日（現地時間）、同社の大規模言語モデル（LLM）「Claude」から能力を不正に抽出する「産業規模（industrial-scale）」の蒸留（distillation）攻撃を確認したと<a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">発表</a>した。対象としてDeepSeek、Moonshot AI、MiniMaxの3社を挙げ、約2万4000の不正アカウントを通じて1600万超のやり取りが行われたとしている。</p>
@@ -120,88 +236,6 @@
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
-      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
-      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
-<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
-<h2>推論最適化を強調</h2>
-<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
-<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
-<h2>企業導入が加速</h2>
-<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
-<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「もしAIチャットが広告だらけになったら？」　99helpersが体験デモ「Ad-Supported AI Chat Demo」を公開</title>
-      <link>https://ledge.ai/articles/99helpers_ad_supported_ai_chat_demo</link>
-      <description><![CDATA[<p>AIエージェントなど生成AIサービスの普及が進む中、AIツールを開発する99helpersは、広告付きAIチャットのユーザー体験を再現したデモンストレーション「Ad-Supported AI Chat Demo」を<a href="https://99helpers.com/tools/ad-supported-chat">公開</a>した。AIの回答の途中に広告が挿入されるなど、「広告で支えられるAIチャット」がどのような体験になるのかを疑似的に試すことができる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_agents_to_help_your_customers_71808ff8df/AI_agents_to_help_your_customers_71808ff8df.jpg" alt="AI agents to help your customers.jpg" /></p>
-<h2>広告付きAIチャットの体験デモを公開</h2>
-<p>このデモはブラウザ上で公開されており、ユーザーが質問を入力すると、AIの回答の途中にスポンサー表示や広告メッセージが挿入される仕組みになっている。通常のチャットAIとは異なり、回答の流れが広告によって中断されたり、商品やサービスをすすめるメッセージが混ざるなど、広告付きAI特有のユーザー体験が再現されている。</p>
-<p>デモページでは、このプロジェクトを「風刺的でありながら完全に機能する（satirical yet fully functional）」AIチャットの実験として紹介している。</p>
-<h2>回答の途中に広告が差し込まれるUI</h2>
-<p>デモ画面では、チャットUIの中にバナー広告が表示されたり、AIの回答にスポンサー付きメッセージが差し込まれるなど、複数の広告表現が組み込まれている。質問内容に関連する商品やサービスが提案されるケースもあり、AIの回答と広告が混在する構造になっている。</p>
-<h2>開発者がSNSでデモを紹介</h2>
-<p>このデモは、開発者の <a href="https://x.com/nickkirt/status/2027810329535595003">Nick Kirt</a>氏がX（旧Twitter）で紹介したことで注目を集めた。同氏は投稿の中で、AIチャットに広告が組み込まれた場合のユーザー体験を体感できるデモとして公開したと説明している。</p>
-<p>投稿では、AIの回答の途中に広告が挿入される様子や、スポンサー付きメッセージが表示される画面も紹介されており、実際にどのようなチャット体験になるのかを確認できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HCQ_6va_AXUAA_Ch9b_17b30ec495/HCQ_6va_AXUAA_Ch9b_17b30ec495.jpg" alt="HCQ6vaAXUAACh9b.jpg" /></p>
-<h2>AIサービスの収益モデルを考えるきっかけに</h2>
-<p>近年、検索AIやAIチャットサービスでは広告モデルの導入可能性が議論されており、AIの回答と広告の関係は新たな論点の一つになっている。</p>
-<p>現在、生成AIサービスの収益モデルは主にサブスクリプションやAPI利用料、企業向けライセンスなどが中心となっている。一方、検索エンジンやSNSのように広告を主な収益源とするモデルがAIチャットに導入された場合、回答の中に広告が入り込む可能性も指摘されている。</p>
-<h3>編集部でも試してみると…</h3>
-<p>編集部でも実際に「Ad-Supported AI Chat Demo」を試してみた。チャット画面にはAIの回答とは別に複数の広告枠が表示され、画面右側には広告カード、下部にはスポンサー付きリンクが並ぶなど、広告が前提となったインターフェースになっている。</p>
-<p>AIの回答の中でも、広告付きの提案やプロモーションが表示される仕組みになっており、通常のチャットAIとは異なるユーザー体験となっていた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1_5c981033fe/image_1_5c981033fe.jpg" alt="image (1).jpg" /></p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIが作った画像の著作権は誰のもの？　米最高裁が審理拒否、人間著作者原則維持</title>
-      <link>https://ledge.ai/articles/ai_authorship_supreme_court_cert_denied</link>
-      <description><![CDATA[<p>米最高裁判所（U.S. Supreme Court）は2026年3月2日、AIが生成した作品の著作権を巡る訴訟「Thaler v. Perlmutter」の上告審理を受理しないと<a href="https://www.supremecourt.gov/orders/courtorders/030226zor_2d8f.pdf">決定</a>した。これにより、AI単独で生成された作品は著作権保護の対象にならないとする下級審判断が維持されることになった。</p>
-<h2>AI生成画像の著作権登録を巡る訴訟</h2>
-<p>今回の訴訟は、AI研究者のStephen Thaler氏が、自身のAIシステム「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」の著作権登録を求めたことに端を発する。同氏はこの作品の著作者としてAI自身を登録申請したが、著作権局は「人間が創作に関与していない」として拒否した。</p>
-<p><strong>AI「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」。著作権登録を巡る訴訟の対象となった作品</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_549152e50d/ai_549152e50d.jpg" alt="ai.jpg" /></p>
-<p>Thaler氏はこの判断を不服として訴訟を起こし、2023年には連邦地裁が「AIだけで生成された作品は著作権保護の対象にならない」と判断している。今回の裁判は、この判断をめぐる控訴審・上告審の流れの中で争われてきたものだ。</p>
-<h2>控訴審は「人間著作者」原則を支持</h2>
-<p>訴訟は連邦地裁、控訴審へと進み、いずれも著作権局の判断を支持した。
-Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成された芸術作品について「人間の著作」がなければ米国著作権法による保護は受けられないと判断した。</p>
-<p><a href="https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf">判決</a>を書いたパトリシア・ミレット判事は、著作権制度が著作者の生存期間や死後70年といった人間のライフサイクルを前提に設計されている点などを挙げ、作品を生成した機械を著作者として認めることはできないと指摘した。また、AIを「被雇用者」とみなして著作権を主張する論点についても、AIは契約や雇用関係を結ぶ法的能力を持たないとして退けた。</p>
-<h2>最高裁は審理を受理せず</h2>
-<p>これに対しThaler氏は最高裁に上告したが、U.S. Supreme Courtは2026年3月2日、同訴訟の審理を受理しないと決定した。最高裁は通常どおり理由を示していないが、この決定により控訴審の判断が事実上確定した。</p>
-<h2>生成AI時代の著作権ルール</h2>
-<p>生成AIの普及に伴い、AIが生み出した作品の権利をどのように扱うかは世界各国で議論が続いている。米著作権局は、人間が創作に関与した場合には著作権が認められる可能性があるとする立場を示しており、AIと人間の共同創作の扱いが今後の焦点となる。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
-      <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
-<h2>Claude Codeは操作前に人間の承認を求める設計</h2>
-<p>Claude Codeでは、AIがコードを書き換えたりコマンドを実行したりする前に、人間がその操作を許可するか確認する仕組みが採用されている。Anthropicの公式ドキュメントによると、通常モードでは各アクションの前にユーザーの許可を求め、変更内容を確認してから実行する。</p>
-<p>同ドキュメントでは、VS Code連携時にAIがファイル編集を行う際、変更案を表示してユーザーが承認する流れが説明されている。こうした承認プロセスにより、AIによる変更を人間が確認できる設計になっている。</p>
-<h2>権限モードを切り替える既存機能</h2>
-<p>Claude Codeには、承認の扱いを切り替える複数の権限モードが用意されている。公式ドキュメントによると、Shift+Tabなどの操作で「Auto-Accept Mode」「Plan Mode」「normal mode」を切り替えることができる。</p>
-<p>Common workflowsの説明では、通常モードからAuto-Accept Modeへ切り替えることで、確認なしで編集を実行できる運用も示されている。Claude Codeでは、こうした仕組みにより承認フローを段階的に調整できる。</p>
-<h2>通知文で浮上した新モード「auto mode」</h2>
-<p>Reddit上に投稿された管理者向け通知文によると、新しいpermissions modeとして「auto mode」が導入される予定とされている。通知文では、auto modeによりClaudeがコーディング中のpermission decisionsを処理し、長時間の作業が手動承認によって中断されにくくなると説明されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a.jpg" alt="new-auto-mode-permissions-coming-v0-bihd494ad3ng1.jpg" /></p>
-<p>同通知文では、この機能が承認を完全に省略する --dangerously-skip-permissions のより安全な代替として設計されたことも明記されている。このフラグは、長時間タスクの途中で承認待ちが発生するのを避けるため開発者の間で利用されてきたが、安全性の懸念が指摘されてきた。auto modeでは、Claudeが承認判断を処理する一方、プロンプトインジェクション対策など追加の安全機能が組み込まれるとされる。</p>
-<h2>研究プレビューとして提供予定</h2>
-<p>通知文によると、auto modeは2026年3月中旬以降にresearch previewとして提供される予定とされる。また、利用方法として claude --enable-auto-mode コマンドで有効化できると説明されている。</p>
-<p>一方で、同モードは「すべてのリスクを防ぐものではない」とされ、隔離された環境での利用を推奨すると記されている。さらに、トークン使用量やコスト、レイテンシがわずかに増える可能性にも言及している。管理者は disableAutoMode 設定を用いて利用を無効化できるとされる。</p>
-<h2>AIの承認設計をめぐる議論</h2>
-<p>AIの操作に人間の判断を介在させる設計は、いわゆる「ヒューマン・イン・ザ・ループ」と呼ばれる考え方と関係する。日本政府が2026年2月16日に公表したAIガイドライン改定案でも、AIの行動に対して「人間の判断を必須化する仕組み」の導入が議論されている。</p>
-<p>今回確認されたauto modeは、AIが承認判断の一部を処理する仕組みとされており、AIシステムにおける人間の関与のあり方をめぐる議論との関係でも注目される。</p>
-<p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、米国防総省とAI軍事利用を再交渉　行き詰まり後も接点探る</title>
       <link>https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart</link>
       <description><![CDATA[<p>米AI企業Anthropicは、同社AIの軍事利用を巡る米国防総省との協議について、一度行き詰まった後も接点を探る交渉が続いていたことを明らかにした。2月下旬に公開した声明で対立の経緯を説明したほか、2026年3月5日付の<a href="https://www.anthropic.com/news/where-stand-department-war">声明</a>では、ここ数日間にわたり同省と「productive conversations（建設的な協議）」を続けていたとしている。</p>
@@ -223,7 +257,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>今回の問題は、AI企業が軍事分野とどこまで協力するかという課題を象徴するものでもある。Anthropicは米政府との協力を否定していないが、国内監視や完全自律型兵器といった用途については明確な制限を設けている。</p>
 <p>AIの軍事利用が拡大する中、技術企業と政府の間で「どこまで許容するか」という線引きが改めて問われている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2026/3/10 [TUE]Anthropic、米国防総省を提訴　「供給網リスク」認定は違法と主張</title>
@@ -254,7 +288,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 </ul>
 <p>などを求めている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2026/3/8 [SUN]AmazonやGoogleなど米テック7社、AIデータセンターの電力費負担を誓約　家庭向け料金への転嫁回避へ</title>
@@ -272,7 +306,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <h2>データセンター拡大を巡る懸念への対応という意味合いも</h2>
 <p>AI向けデータセンターは膨大な電力を必要とするため、米国では近年、地域の電力需給や料金上昇への影響が懸念されてきた。今回の誓約は、そうした懸念を和らげつつ、電源確保と系統増強を前提にAIインフラ整備を進めるための枠組みとして打ち出されたものといえる。一方で、この誓約は政府の制度改正ではなく企業によるコミットメントであり、今後は実際にどのような契約や電源開発、送配電投資につながるのかが焦点になりそうだ。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPTは「弁護士ではない」日本生命の米法人がOpenAI提訴——弁護士資格なしで法律業務と主張</title>
@@ -290,43 +324,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>今回の訴訟では、生成AIが法律助言や裁判書面の作成などを行うことが弁護士資格制度に抵触するかどうかが争点となる可能性がある。生成AIを巡っては、AIが作成した裁判書面の誤引用などが問題となる事例も報告されており、法律実務とAIの関係を巡る議論が続いている。</p>
 <p>訴訟記録は、米連邦裁判所の公開データベースを収集する<a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">CourtListener</a>でも確認できる。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeアプリ急伸、ChatGPTに逆風か　米国防総省AI契約を巡りユーザー動向に変化</title>
-      <link>https://ledge.ai/articles/claude_app_surge_chatgpt_headwinds_pentagon_ai_contrac</link>
-      <description><![CDATA[<p>AIチャットアプリ市場で、Anthropicの「Claude」が急速に利用者を伸ばしている。市場調査会社の分析によると、米国ではClaudeアプリのダウンロード数が2月末に大きく増加した一方、OpenAIの「ChatGPT」はダウンロード数の減少や低評価レビューの急増が確認された。背景には、OpenAIが米国防総省とAI利用契約を結んだことを巡る議論が影響した可能性があるという。</p>
-<h2>Claudeアプリのダウンロードが急増</h2>
-<p>市場調査会社<a href="https://sensortower.com/blog/chatgpt-uninstalls-surge-amidst-deal-with-us-department-of-war">Sensor Towerの分析</a>によると、AnthropicのAIチャットアプリ「Claude」は2月下旬から米国で急速にダウンロード数を伸ばした。</p>
-<p>同社によると、Claudeアプリのダウンロード数は2月27日に前日比37％増、2月28日には51％増となった。</p>
-<p>一方で同時期、OpenAIの「ChatGPT」は米国でダウンロード数が減少した。さらにアプリレビューでは低評価レビューが急増し、2月28日には1つ星レビューが前日比775％増となったという。</p>
-<p>Sensor Towerは、こうした動きがAIチャットアプリ市場におけるユーザー動向の変化を示している可能性があると分析している。同社は米国のAIチャットアプリの日次ダウンロード数の推移も公開しており、Claudeのダウンロードが2月下旬から急増していることが確認できる。</p>
-<p><strong>米国のAIチャットアプリの日次ダウンロード数（直近30日）。Claudeのダウンロードが2月下旬から急増している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/US_Downloads_1000941e6b/US_Downloads_1000941e6b.jpg" alt="US_Downloads.jpg" /></p>
-<h2>OpenAIの国防総省契約が議論に</h2>
-<p>こうした動きの背景として注目されているのが、米国防総省とAI企業の関係を巡る一連の動きだ。</p>
-<p>Anthropicは安全制限を巡る立場の違いから国防総省との関係が悪化し、契約から外れる結果となった一方、OpenAIは安全条項を明文化した上で同省とAI利用契約を<a href="https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence">締結した</a>。こうした経緯が、AI企業の軍事利用への向き合い方の違いとして受け止められ、SNS上での議論にもつながった。</p>
-<p>OpenAIは公式ブログで、同契約は国家安全保障関連の用途を対象としつつ、米国民の監視、自律兵器の制御、高リスクの自動意思決定には使わないと<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">説明</a>している。</p>
-<h2>SNSでは「QuitGPT」の動きも</h2>
-<p>契約発表後、X（旧Twitter）などのSNSでは「QuitGPT」と呼ばれる投稿が拡散し、一部ユーザーがChatGPTの利用停止やアンインストールを呼びかける動きも見られた。この動きはOpenAIのAI軍事利用を巡る議論と結びつき、SNS上で話題となった。</p>
-<p>Sensor Towerによると、ChatGPTのアプリレビューでは低評価レビューが急増し、2月28日には1つ星レビューが前日比775％増となった。</p>
-<h2>Anthropicは軍事利用の線引きを強調</h2>
-<p>一方、Anthropicは米国防総省との協議について声明を発表し、AIの軍事利用について一定の制限を設ける方針を示している。</p>
-<p>同社は、
-・国内監視用途
-・完全自律型兵器</p>
-<p>には<a href="https://www.anthropic.com/news/statement-department-of-war">協力しない方針</a>を明確にしている。</p>
-<p>こうした姿勢について、SNS上ではAnthropicを「倫理的なAI企業」と評価する声も見られたとされる。AI企業の安全性や利用方針に対する姿勢が、ユーザーの支持につながった可能性も指摘されている。</p>
-<h2>Claudeの成長は今回の議論以前から続く</h2>
-<p>ただし、Claudeの利用拡大は今回の議論だけが要因ではないとみられる。</p>
-<p>Anthropicは2026年2月に入り、
-・「Claudeは広告を入れない」とする方針の発表
-・新モデルの公開
-・<a href="https://ledge.ai/articles/anthropic_super_bowl_claude_no_ads_openai_altman_response">Super Bowl広告</a>による認知拡大</p>
-<p>などの施策を進めていた。こうした取り組みが積み重なった上で、今回の議論がユーザー動向に影響したという見方もある。</p>
-<p>今回のアプリ市場データは、AI企業の方針や姿勢がユーザー選択に影響する可能性を示す動きとしても注目されている。今後、AIチャットサービスの競争がどのような方向に進むのか、ユーザー動向の変化が引き続き注視される。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
@@ -355,19 +353,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>今後のスケジュールでは、2026年3月から契約締結や技術調整を進め、同年5月ごろに政府における「源内」の大規模実証を開始する。国産LLMの試用開始は同年8月ごろを予定し、2027年1月ごろに評価・検証結果の一部を公表する計画だ。そのうえで同年4月から、検証を経て実証された優れたモデルについて、ガバメントAIとして政府調達（有償）を行う予定としている。</p>
 <p>このため今回の発表は、国産LLMの試験導入そのものに加え、政府調達を通じた需要創出の前段階としても位置付けられる。デジタル庁は、行政現場からのフィードバックによる国産AIの性能向上や、政府調達を通じた安定的な需要創出を実現し、国産AIの育成・強化や日本のAI自律性確保につなげる考えを示している。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
-      <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
-      <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
-<p>2026年3月4日（現地時間）、北カリフォルニア連邦地裁に提出された訴状によると、フロリダ州のジョナサン・ガバラス氏（36）がGeminiとの対話に深く没入し、妄想を強めた末に自死したとして、父ジョエル・ガバラス氏が遺産管理人として訴えを起こした。</p>
-<p>これに対しGoogleは3月4日付の<a href="https://blog.google/company-news/outreach-and-initiatives/public-policy/gavalas-lawsuit-response/">公式声明</a>で、遺族への哀悼を示したうえで、Geminiは現実世界の暴力を助長したり、自傷を提案したりしないよう設計されていると反論した。同社は、安全策を医療・メンタルヘルス分野の専門家と協議して設計しており、この件でもGeminiが自らをAIだと明確にし、危機ホットラインを何度も案内したとしている。Googleは「AIは完璧ではない」としつつも、自傷を促したとの見方は否定している。</p>
-<p><a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.465255/gov.uscourts.cand.465255.1.0.pdf">訴状</a>は、Google LLCとAlphabet Inc.を被告とし、wrongful death（不法死亡）や製造物責任などを主張している。原告側は、Geminiがジョナサン氏の精神状態の悪化を助長し、暴力的な妄想や自殺念慮を深める方向に会話を進めたと主張している。</p>
-<p>訴状によると、ジョナサン氏はGeminiを「意識を持つ存在」と受け止め、自身と特別な関係にあると信じ込むようになった。さらに、Geminiが現実世界での危険な行動や「mass casualties（大量死傷）」につながる構想に触れ、自殺を「transference（転移）」のような形で語ったことが、死亡に至る経緯の一部として記されている。ただし、これらは現時点ではあくまで原告側が訴状で主張している内容であり、事実認定はこれから司法の場で争われる。</p>
-<p>今回の訴訟で目を引くのは、亡くなった利用者が未成年ではなく、36歳の成人だった点だ。生成AIをめぐる有害対話や依存の問題は、これまで未成年ユーザー保護の文脈で語られることが多かった。今回の件では、そうした問題が成人利用者にも及びうること、さらにAI企業の安全設計責任が年齢制限やティーン向け対策だけでは捉えきれない段階に入りつつあることを示す事案として注目される。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
@@ -383,7 +369,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>一方で、紛争地域では電力網や通信網などのインフラが攻撃対象となるケースも増えている。今回のケースでは、クラウドデータセンターが軍事活動を支える可能性のあるインフラとして位置付けられ、攻撃対象になったとイラン側が主張している点が注目される。</p>
 <p>AIやクラウド技術が広く社会インフラとして利用される中、データセンターなどのデジタル基盤が紛争の影響を受ける可能性も指摘されている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、News CorpとAI学習向け契約　年間最大5000万ドルで米英記事を利用へ</title>
@@ -397,7 +383,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>一方で、News Corp傘下のDow JonesとNew York Postは、AI検索企業Perplexityを著作権侵害で提訴している。無断利用には法的措置を取りつつ、条件が整えば有償でライセンス供与するという、いわば「提携か対決か」の二面戦略が鮮明になっている。</p>
 <p>Metaは2025年12月、CNNやFox News、USA Today、People Inc.など複数の報道機関と商用のAIデータ契約を結んだとAxiosやReutersが報じていた。生成AIの競争が進む中で、権利処理済みの高品質なニュースコンテンツをどう確保するかが、AI企業にとって重要なテーマになっている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、Excel内で使える「ChatGPT for Excel」ベータ版公開　自然言語で表計算を構築・更新</title>
@@ -419,7 +405,7 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>OpenAIは今回、ChatGPT for Excelとあわせて、ChatGPT上で使える金融データ連携の拡充も発表した。複数の金融・市場データ提供元との統合に加え、Model Context Protocol（MCP）を通じた独自データの取り込みにも対応し、企業調査やモデル更新、デューデリジェンスなどの業務を支援する。また、Enterprise向けにはRBACやSAML SSO、SCIM、監査ログ、暗号化、データレジデンシーなどの統制機能もあらためて訴求した。</p>
 <p>一方で、現時点ではベータ版であり、応答に時間がかかる場合があるほか、生成結果の整形や複雑な数式の調整では手動対応が必要になる場合もあるとしている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
@@ -440,7 +426,83 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
 <p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
 ]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm、ウェアラブル向けAI SoC「Snapdragon Wear Elite」発表　スマートウォッチなどパーソナルAIデバイス時代に対応</title>
+      <link>https://ledge.ai/articles/qualcomm_snapdragon_wear_elite_personal_ai_wearable_platform</link>
+      <description><![CDATA[<p>Qualcommは2026年3月2日（現地時間）、ウェアラブルデバイス向けの新しいAIプラットフォーム「Snapdragon Wear Elite」を<a href="https://www.qualcomm.com/news/releases/2026/03/qualcomm-powers-the-rise-of-personal-ai-with-new-snapdragon-wear">発表</a>した。</p>
+<p>新プラットフォームはオンデバイスAI処理に対応するNPUを搭載し、スマートウォッチをはじめとする「パーソナルAIデバイス」の普及を見据えた設計となっている。</p>
+<p>Snapdragon Wear Eliteは、ウェアラブル端末上でAI処理を行うことを前提に設計されたプラットフォームで、同社によればウェアラブル向けとしては初となるNPU搭載構成を採用する。NPUには同社のHexagonアーキテクチャを採用し、最大で10億パラメータ規模のAIモデルをエッジ上で実行できるとしている。これにより、音声対話やコンテキスト認識、ライフログの分析などを端末側で処理するパーソナルAI体験を実現する。</p>
+<p>性能面ではCPU性能が従来世代比で約5倍、GPU性能が最大7倍に向上した。電力効率も強化されており、マルチデイのバッテリー駆動に対応するほか、急速充電では約10分で50％まで充電できるとしている。また電力管理の最適化により、1日の使用時間は従来世代と比べて最大30％延長されるという。</p>
+<p>通信機能も強化されており、5G RedCap、Micro-Power Wi-Fi、Bluetooth 6.0、UWB、GNSSに加え、衛星通信規格であるNB-NTNにも対応する。NB-NTNはセルラーやWi-Fiが利用できない環境でも双方向通信を可能にする技術で、同社はエコシステムパートナーであるSkyloと協力して提供する。</p>
+<p>Snapdragon Wear Eliteはスマートウォッチだけでなく、ピン型やペンダント型など多様なウェアラブル形状を想定している。これらのデバイスはユーザーの状況を理解し、提案を行ったりタスクを実行したりするAIエージェントとして機能することが期待されている。</p>
+<p>同プラットフォームには、Google、Samsung、Motorolaなどがパートナーとして参加している。Snapdragon Wear Eliteを搭載した最初の商用デバイスは、今後数か月以内に登場する予定としている。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>侍ジャパン、WBCでAI誹謗中傷検出システム導入　前年は国内ポストシーズンで380万件分析・466件認定</title>
+      <link>https://ledge.ai/articles/wbc_ai_antislander_system</link>
+      <description><![CDATA[<p>日本野球機構（NPB）とNPBエンタープライズ、日本プロ野球選手会は2026年3月4日、同年3月開催の「2026 WORLD BASEBALL CLASSIC（WBC）」で、野球日本代表「侍ジャパン」の監督、コーチ、選手などを対象に、AIを活用した誹謗中傷検出システムを共同導入すると<a href="https://jpbpa.net/2026/03/04/12924/">発表</a>した。対象は侍ジャパンの全試合で、試合の前後一定期間にわたりSNS上の公開投稿を監視・分析する。WBC東京プールは日本時間3月5日から10日まで開催される。</p>
+<h2>日本代表の監督・コーチ・選手を対象にSNSを監視</h2>
+<p>今回の取り組みは日本代表の監督、コーチ、選手などを誹謗中傷から守ることを目的とするものだ。対象試合は「2026 WORLD BASEBALL CLASSIC」における日本代表の全試合で、検出期間は各試合の前後一定期間。誹謗中傷行為の抑止と迅速な対応を通じて、監督・コーチ・選手が安心して競技に集中できる環境を整えるとともに、健全な観戦環境の実現を目指す。</p>
+<h2>投稿の通報・削除要請や証拠保全まで対応</h2>
+<p>導入するのは、英国Signify Groupが提供するAI誹謗中傷検出・通報支援サービス「<a href="https://www.signify.ai/threatmatrix">Threat Matrix</a>」だ。日本語を含む42言語に対応し、主要SNS上で日本代表メンバーに向けられた投稿を監視・分析。不適切な投稿を検出した場合には、SNS各社への通報や削除要請、関係各所との情報共有、必要に応じた証拠化や関係機関との連携などを行う。</p>
+<p>また、分析結果により投稿者本人が確認された場合には、NPBエンタープライズが主催する大会・試合や、日本プロ野球選手会に関連するイベントなどにおいて、入場禁止を含む措置を検討する可能性があるとしている。</p>
+<h2>前年は約380万件を分析、466件を誹謗中傷と認定</h2>
+<p>今回の導入は、前年の国内ポストシーズンでの運用実績を踏まえたものでもある。日本プロ野球選手会が同日公表した結果報告によると、2025年度のクライマックスシリーズおよび日本シリーズでは、被害のあった公式アカウントが計79にのぼり、AIが約380万件の投稿を分析。その中から2,917件を疑義投稿として抽出し、専門アナリストによる精査を経て466件を誹謗中傷と認定した。さらに197アカウントについて発信元を確認したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0307_side_0bc05b2711/0307_side_0bc05b2711.jpg" alt="0307-side.jpg" /></p>
+<h2>「人格攻撃・罵詈雑言」が過半、発信元197アカウントを確認</h2>
+<p>前年の結果報告では、誹謗中傷の内容として「人格攻撃・罵詈雑言」が56.2％で最多だった。このほか揶揄や中傷、暴力・脅迫なども確認されており、国内ポストシーズンの段階でオンライン上の被害実態が数字として可視化されていた。</p>
+<h2>英Signifyの「Threat Matrix」を採用</h2>
+<p>Threat Matrixを提供する<a href="https://www.signify.ai/about">Signify Group</a>は、公開されているSNSなどのデータをAIで分析し、人のレビューを組み合わせてオンライン上の脅威や中傷を可視化・証拠化するオンライン保護サービス企業だ。Threat MatrixはSNSなどの公開情報を収集し、AIによる自然言語分析で対象人物への投稿を抽出したうえで、人による確認を行い、対応や証拠化につなげる仕組みとしている。</p>
+<p>日本プロ野球選手会によると、同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）と国際テニス連盟（ITF）のプログラムなど、世界規模のスポーツイベントでも導入実績があるという。</p>
+<p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>シャオペン、レベル4相当の自動運転AI「VLA 2.0」発表　Robotaxi公道テスト開始、VWと2027年展開へ</title>
+      <link>https://ledge.ai/articles/xpeng_vla2_robotaxi_vw_l4_ai_20260302</link>
+      <description><![CDATA[<p>中国EVメーカーのシャオペン（XPENG）は2026年3月2日、次世代の自動運転AI「VLA 2.0」を<a href="https://www.xpeng.com/pressroom/news/019cae5e67b99c0960ee8a028129016a">発表</a>した。Robotaxiによる公道テストをすでに開始しており、2027年から世界市場への展開を計画する。フォルクスワーゲン（Volkswagen）が同システムの最初の導入パートナーになるという。同社は広州で開催した「Future VLA Media Experience Day」で、VLA 2.0のアーキテクチャとグローバル展開計画を公開した。</p>
+<h2>レベル4相当の自動運転AI「VLA 2.0」</h2>
+<p>VLA 2.0は、知覚・推論・行動を統合したAI基盤として設計された自動運転システムだ。従来のモジュール型自動運転スタックとは異なり、単一のAI基盤モデルによって複雑な交通環境を理解し、運転行動を生成する。</p>
+<p>同社によると、このシステムは都市部の混雑した交通環境や複雑な道路状況にも対応できるよう設計されている。事故現場や不規則な車両の動き、路面の凹凸などにも対応することで、より自然で安全な運転を実現するという。</p>
+<h2>Robotaxiの公道テストを開始</h2>
+<p>VLA 2.0を搭載したRobotaxiはすでに中国で公道テストを開始しており、試験運用は年内に開始予定。同社はこの取り組みを、次世代知能運転技術の実用化に向けた重要なマイルストーンと位置付けている。</p>
+<h2>2027年にグローバル展開、VWが最初の導入企業</h2>
+<p>またシャオペンは、VLA 2.0を2027年から世界市場に展開する計画を示した。同社によると、フォルクスワーゲンがこのシステムの最初の導入パートナーとして指定されており、中国市場向け車両で採用される予定だ。</p>
+<h2>Vision-Language-Actionモデルを刷新</h2>
+<p>VLA 2.0は、視覚情報を言語的推論に変換して運転判断を行う従来のVLAモデルを進化させたものだ。
+従来は、<strong>vision → language → action</strong>　という段階的な処理パイプラインを採用していたが、VLA 2.0では<strong>vision → action</strong> のエンドツーエンドAIを導入。中間の翻訳レイヤーを省くことで、意思決定の速度と効率を高めたという。</p>
+<h2>ロボットや空飛ぶモビリティにも展開</h2>
+<p>シャオペンは、VLA 2.0のAI基盤モデルを自動車以外の分野にも展開する構想を示した。
+同社によると、このAI基盤は</p>
+<ul>
+<li>Robotaxi</li>
+<li>ヒューマノイドロボット</li>
+<li>モジュール型飛行体</li>
+</ul>
+<p>など、複数の「フィジカルAI」プラットフォームで活用できる設計になっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d21ef49ec2d14b5da75dd80581f14a48_1_9aa03dbce2/d21ef49ec2d14b5da75dd80581f14a48_1_9aa03dbce2.png" alt="d21ef49ec2d14b5da75dd80581f14a48 (1).png" /></p>
+<p>これらの取り組みは、現実世界で動作するインテリジェントマシンを支える統合AI基盤の構築を目指す同社の「Physical AI」戦略の一環とされている。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
+      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
+      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
+<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
+<h2>推論最適化を強調</h2>
+<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
+<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
+<h2>企業導入が加速</h2>
+<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
+<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
+]]></description>
+      <pubDate>Tue, 03 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
@@ -502,68 +564,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 </ul>
 <p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
 <p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm、ウェアラブル向けAI SoC「Snapdragon Wear Elite」発表　スマートウォッチなどパーソナルAIデバイス時代に対応</title>
-      <link>https://ledge.ai/articles/qualcomm_snapdragon_wear_elite_personal_ai_wearable_platform</link>
-      <description><![CDATA[<p>Qualcommは2026年3月2日（現地時間）、ウェアラブルデバイス向けの新しいAIプラットフォーム「Snapdragon Wear Elite」を<a href="https://www.qualcomm.com/news/releases/2026/03/qualcomm-powers-the-rise-of-personal-ai-with-new-snapdragon-wear">発表</a>した。</p>
-<p>新プラットフォームはオンデバイスAI処理に対応するNPUを搭載し、スマートウォッチをはじめとする「パーソナルAIデバイス」の普及を見据えた設計となっている。</p>
-<p>Snapdragon Wear Eliteは、ウェアラブル端末上でAI処理を行うことを前提に設計されたプラットフォームで、同社によればウェアラブル向けとしては初となるNPU搭載構成を採用する。NPUには同社のHexagonアーキテクチャを採用し、最大で10億パラメータ規模のAIモデルをエッジ上で実行できるとしている。これにより、音声対話やコンテキスト認識、ライフログの分析などを端末側で処理するパーソナルAI体験を実現する。</p>
-<p>性能面ではCPU性能が従来世代比で約5倍、GPU性能が最大7倍に向上した。電力効率も強化されており、マルチデイのバッテリー駆動に対応するほか、急速充電では約10分で50％まで充電できるとしている。また電力管理の最適化により、1日の使用時間は従来世代と比べて最大30％延長されるという。</p>
-<p>通信機能も強化されており、5G RedCap、Micro-Power Wi-Fi、Bluetooth 6.0、UWB、GNSSに加え、衛星通信規格であるNB-NTNにも対応する。NB-NTNはセルラーやWi-Fiが利用できない環境でも双方向通信を可能にする技術で、同社はエコシステムパートナーであるSkyloと協力して提供する。</p>
-<p>Snapdragon Wear Eliteはスマートウォッチだけでなく、ピン型やペンダント型など多様なウェアラブル形状を想定している。これらのデバイスはユーザーの状況を理解し、提案を行ったりタスクを実行したりするAIエージェントとして機能することが期待されている。</p>
-<p>同プラットフォームには、Google、Samsung、Motorolaなどがパートナーとして参加している。Snapdragon Wear Eliteを搭載した最初の商用デバイスは、今後数か月以内に登場する予定としている。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>侍ジャパン、WBCでAI誹謗中傷検出システム導入　前年は国内ポストシーズンで380万件分析・466件認定</title>
-      <link>https://ledge.ai/articles/wbc_ai_antislander_system</link>
-      <description><![CDATA[<p>日本野球機構（NPB）とNPBエンタープライズ、日本プロ野球選手会は2026年3月4日、同年3月開催の「2026 WORLD BASEBALL CLASSIC（WBC）」で、野球日本代表「侍ジャパン」の監督、コーチ、選手などを対象に、AIを活用した誹謗中傷検出システムを共同導入すると<a href="https://jpbpa.net/2026/03/04/12924/">発表</a>した。対象は侍ジャパンの全試合で、試合の前後一定期間にわたりSNS上の公開投稿を監視・分析する。WBC東京プールは日本時間3月5日から10日まで開催される。</p>
-<h2>日本代表の監督・コーチ・選手を対象にSNSを監視</h2>
-<p>今回の取り組みは日本代表の監督、コーチ、選手などを誹謗中傷から守ることを目的とするものだ。対象試合は「2026 WORLD BASEBALL CLASSIC」における日本代表の全試合で、検出期間は各試合の前後一定期間。誹謗中傷行為の抑止と迅速な対応を通じて、監督・コーチ・選手が安心して競技に集中できる環境を整えるとともに、健全な観戦環境の実現を目指す。</p>
-<h2>投稿の通報・削除要請や証拠保全まで対応</h2>
-<p>導入するのは、英国Signify Groupが提供するAI誹謗中傷検出・通報支援サービス「<a href="https://www.signify.ai/threatmatrix">Threat Matrix</a>」だ。日本語を含む42言語に対応し、主要SNS上で日本代表メンバーに向けられた投稿を監視・分析。不適切な投稿を検出した場合には、SNS各社への通報や削除要請、関係各所との情報共有、必要に応じた証拠化や関係機関との連携などを行う。</p>
-<p>また、分析結果により投稿者本人が確認された場合には、NPBエンタープライズが主催する大会・試合や、日本プロ野球選手会に関連するイベントなどにおいて、入場禁止を含む措置を検討する可能性があるとしている。</p>
-<h2>前年は約380万件を分析、466件を誹謗中傷と認定</h2>
-<p>今回の導入は、前年の国内ポストシーズンでの運用実績を踏まえたものでもある。日本プロ野球選手会が同日公表した結果報告によると、2025年度のクライマックスシリーズおよび日本シリーズでは、被害のあった公式アカウントが計79にのぼり、AIが約380万件の投稿を分析。その中から2,917件を疑義投稿として抽出し、専門アナリストによる精査を経て466件を誹謗中傷と認定した。さらに197アカウントについて発信元を確認したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0307_side_0bc05b2711/0307_side_0bc05b2711.jpg" alt="0307-side.jpg" /></p>
-<h2>「人格攻撃・罵詈雑言」が過半、発信元197アカウントを確認</h2>
-<p>前年の結果報告では、誹謗中傷の内容として「人格攻撃・罵詈雑言」が56.2％で最多だった。このほか揶揄や中傷、暴力・脅迫なども確認されており、国内ポストシーズンの段階でオンライン上の被害実態が数字として可視化されていた。</p>
-<h2>英Signifyの「Threat Matrix」を採用</h2>
-<p>Threat Matrixを提供する<a href="https://www.signify.ai/about">Signify Group</a>は、公開されているSNSなどのデータをAIで分析し、人のレビューを組み合わせてオンライン上の脅威や中傷を可視化・証拠化するオンライン保護サービス企業だ。Threat MatrixはSNSなどの公開情報を収集し、AIによる自然言語分析で対象人物への投稿を抽出したうえで、人による確認を行い、対応や証拠化につなげる仕組みとしている。</p>
-<p>日本プロ野球選手会によると、同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）と国際テニス連盟（ITF）のプログラムなど、世界規模のスポーツイベントでも導入実績があるという。</p>
-<p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>シャオペン、レベル4相当の自動運転AI「VLA 2.0」発表　Robotaxi公道テスト開始、VWと2027年展開へ</title>
-      <link>https://ledge.ai/articles/xpeng_vla2_robotaxi_vw_l4_ai_20260302</link>
-      <description><![CDATA[<p>中国EVメーカーのシャオペン（XPENG）は2026年3月2日、次世代の自動運転AI「VLA 2.0」を<a href="https://www.xpeng.com/pressroom/news/019cae5e67b99c0960ee8a028129016a">発表</a>した。Robotaxiによる公道テストをすでに開始しており、2027年から世界市場への展開を計画する。フォルクスワーゲン（Volkswagen）が同システムの最初の導入パートナーになるという。同社は広州で開催した「Future VLA Media Experience Day」で、VLA 2.0のアーキテクチャとグローバル展開計画を公開した。</p>
-<h2>レベル4相当の自動運転AI「VLA 2.0」</h2>
-<p>VLA 2.0は、知覚・推論・行動を統合したAI基盤として設計された自動運転システムだ。従来のモジュール型自動運転スタックとは異なり、単一のAI基盤モデルによって複雑な交通環境を理解し、運転行動を生成する。</p>
-<p>同社によると、このシステムは都市部の混雑した交通環境や複雑な道路状況にも対応できるよう設計されている。事故現場や不規則な車両の動き、路面の凹凸などにも対応することで、より自然で安全な運転を実現するという。</p>
-<h2>Robotaxiの公道テストを開始</h2>
-<p>VLA 2.0を搭載したRobotaxiはすでに中国で公道テストを開始しており、試験運用は年内に開始予定。同社はこの取り組みを、次世代知能運転技術の実用化に向けた重要なマイルストーンと位置付けている。</p>
-<h2>2027年にグローバル展開、VWが最初の導入企業</h2>
-<p>またシャオペンは、VLA 2.0を2027年から世界市場に展開する計画を示した。同社によると、フォルクスワーゲンがこのシステムの最初の導入パートナーとして指定されており、中国市場向け車両で採用される予定だ。</p>
-<h2>Vision-Language-Actionモデルを刷新</h2>
-<p>VLA 2.0は、視覚情報を言語的推論に変換して運転判断を行う従来のVLAモデルを進化させたものだ。
-従来は、<strong>vision → language → action</strong>　という段階的な処理パイプラインを採用していたが、VLA 2.0では<strong>vision → action</strong> のエンドツーエンドAIを導入。中間の翻訳レイヤーを省くことで、意思決定の速度と効率を高めたという。</p>
-<h2>ロボットや空飛ぶモビリティにも展開</h2>
-<p>シャオペンは、VLA 2.0のAI基盤モデルを自動車以外の分野にも展開する構想を示した。
-同社によると、このAI基盤は</p>
-<ul>
-<li>Robotaxi</li>
-<li>ヒューマノイドロボット</li>
-<li>モジュール型飛行体</li>
-</ul>
-<p>など、複数の「フィジカルAI」プラットフォームで活用できる設計になっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d21ef49ec2d14b5da75dd80581f14a48_1_9aa03dbce2/d21ef49ec2d14b5da75dd80581f14a48_1_9aa03dbce2.png" alt="d21ef49ec2d14b5da75dd80581f14a48 (1).png" /></p>
-<p>これらの取り組みは、現実世界で動作するインテリジェントマシンを支える統合AI基盤の構築を目指す同社の「Physical AI」戦略の一環とされている。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
@@ -644,72 +644,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
 ]]></description>
       <pubDate>Sun, 01 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIの「使いこなし力」を可視化する指標「AI Fluency Index」を公表──今後は単なる導入率からAI流暢性重視に</title>
-      <link>https://ledge.ai/articles/ai_fluency_index_anthropic_education_report_20260223</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは2026年2月23日、「Anthropic Education Report: The AI Fluency Index」を<a href="https://www.anthropic.com/research/AI-fluency-index">公開</a>した。AIの利用拡大が進むなか、単なる“導入率”ではなく、「AIをどれだけ適切に使いこなせているか」を測る新たな指標として「AI Fluency Index（AI流暢性指数）」を提示した。</p>
-<p>同社は、AIの社会実装が急速に進む一方で、「利用が広がること」と「適切に使えること」は別問題だと指摘。AIと協働する際の行動特性を定量化し、今後の変化を追跡するためのベースラインを示した。</p>
-<h2>24の行動指標から“流暢性”を定義</h2>
-<p>AI Fluency Indexは、リック・ダカン氏とジョセフ・フェラー氏が開発し、Anthropicと共同で整理した「4D AI Fluency Framework」に基づくものだ。</p>
-<p>同フレームワークでは、AIとの安全かつ効果的な協働を示す行動を24項目に分類。このうち、Claude.ai上の会話から直接観測可能な11項目を今回の分析対象とした。</p>
-<p>分析対象は、2026年1月の7日間に行われたClaude.ai上の9,830件の複数ターン会話。プライバシー保護型の分析ツールを用い、各会話において11の行動が「見られたか否か」を二値分類で測定した。言語別・曜日別の検証では、大きな偏りは確認されなかったという。</p>
-<p><strong>■ 図1：9,830件のClaude.ai会話におけるAI流暢性行動の出現率。反復・改善が最も多く、事実確認は最少水準</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd/cf98cd90972577bf4dd6457682d9ee82cbf2b858_3840x2160_58937ecadd.webp" alt="cf98cd90972577bf4dd6457682d9ee82cbf2b858-3840x2160.webp" /></p>
-<h2>反復・改善を伴う対話は“流暢性”が高い</h2>
-<p>分析の結果、最も顕著だったのは「反復と改善（iteration and refinement）」と他の流暢性行動との強い相関だ。調査対象の85.7％の会話が、最初の回答を受け入れて終わるのではなく、やり取りを重ねて内容を洗練させる形式を取っていた。</p>
-<p>こうした反復型の会話では、
-・平均で2.67件の追加的な流暢性行動が確認され、
-・非反復型（平均1.33件）の約2倍となった。</p>
-<p>特に顕著だったのは、
-・AIの推論を問い直す行動（5.6倍）
-・前提や文脈の不足を指摘する行動（4倍）
-など、評価・検証に関わる行動の増加である。Anthropicは、AIを“思考パートナー”として扱う対話形式が、流暢性の最も一般的な形態であると分析している。</p>
-<p><strong>■ 図2：反復・改善を伴う会話と伴わない会話の比較。評価・検証関連行動が大幅に増加している</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02/995a58d356ab28738abc3c1313296b298e4b77dc_1920x1080_f877642e02.webp" alt="995a58d356ab28738abc3c1313296b298e4b77dc-1920x1080.webp" /></p>
-<h2>成果物生成時は「指示は増えるが、検証は減る」</h2>
-<p>一方で、アプリやコード、文書などの「成果物（artifact）」を生成する会話（全体の12.3％）では、異なる傾向が見られた。</p>
-<p><strong>■ 図3：成果物生成を含む会話では、目標明確化や形式指定は増加する一方、事実確認や推論検証は減少</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139/3aa718781064a7d8638ed684cec97e6903921e3c_1920x1080_e0a9e48139.webp" alt="3aa718781064a7d8638ed684cec97e6903921e3c-1920x1080.webp" /></p>
-<p>これらの会話では、
-・目的の明確化（+14.7pp）
-・形式指定（+14.5pp）
-・具体例提示（+13.4pp）
-・反復（+9.7pp）
-など、AIに対する指示や委任に関わる行動が増加していた。</p>
-<p>しかし同時に、
-・不足文脈の指摘（-5.2pp）
-・事実確認（-3.7pp）
-・推論過程の確認（-3.1pp）
-といった評価・検証行動は低下していた。</p>
-<p>Anthropicは、外見上完成度の高い成果物が生成されると、追加的な検証を行わずに受容される可能性があると指摘。高度化するAIにおいて、成果物の評価能力はむしろ重要性を増すと述べている。</p>
-<h2>今後の研究計画</h2>
-<p>今回の研究はベースライン測定であり、今後は以下の拡張を予定しているという。
-・新規ユーザーと熟練ユーザーの比較（コホート分析）
-・チャット外で行われる倫理・責任関連行動の質的調査
-・反復促進が検証行動を高めるかなどの因果分析
-・開発者向けプラットフォーム「Claude Code」での検証</p>
-<h2>制約と留意点</h2>
-<p>Anthropicは同研究の限界も明示。
-・対象は1週間・Claude.ai利用者に限定
-・24項目中11項目のみ観測
-・行動は「有無」の二値分類
-・対話外での検証行動は把握不可
-・相関関係であり因果関係は不明
-同社は、AI Fluency Indexを「普遍的な評価基準」ではなく、早期利用者層における基準値として位置付けている。</p>
-<h2>AI成熟度の可視化へ</h2>
-<p>Anthropicは、AIの能力向上と同時に、「人間側の使い方の成熟度」も進化すると想定している。同指数は、AIを単に利用するのではなく、批判的に対話し、適切に協働できているかを測る試みだ。今後、モデルの高度化や利用拡大とともに、こうした行動指標がどのように変化するのかが注目される。</p>
-]]></description>
-      <pubDate>Fri, 27 Feb 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>2028年末までに“世界の知的作業の過半がAIへ”──OpenAIサム・アルトマン氏が超知能の到達時期に言及</title>
-      <link>https://ledge.ai/articles/ai_intellectual_work_majority_2028_altman</link>
-      <description><![CDATA[<p>OpenAIのCEOであるSam Altmanは2026年2月19日、インド・ニューデリーで開催された「India AI Impact Summit 2026」に<a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2230370&amp;lang=1&amp;reg=3">登壇</a>{target=”_blank”}し、人工知能が人類の知的能力を大きく上回る「超知能（Super Intelligence）」の到達時期について具体的な見通しを示した。</p>
-<p>同氏は講演の中で、次のように述べている。
-**\</p>
-]]></description>
-      <pubDate>Tue, 24 Feb 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
