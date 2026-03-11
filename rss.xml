@@ -386,6 +386,22 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>みずほFG、金融特化LLMを独自開発　銀行実務テストで“推論なし”正答率89.0％は汎用LLMと同水準の精度</title>
+      <link>https://ledge.ai/articles/mizuho_finance_specialized_llm_reasoning_free_89_accuracy</link>
+      <description><![CDATA[<p>みずほフィナンシャルグループは2026年3月5日、独自に開発を進めている金融特化の大規模言語モデル（LLM）が、銀行の実務テストにおいて推論に依存しない条件下で正答率89.0％を達成したと<a href="https://prtimes.jp/main/html/rd/p/000000002.000177612.html">発表</a>した。業務利用を想定した評価では平均回答時間1秒未満も確認され、同社は高精度と即答性の両立を実現したとしている。</p>
+<h2>推論なしでも汎用LLMと同水準の精度</h2>
+<p>検証では、預金、融資、外国為替など銀行業務に関する多肢選択式の問題を用いた実務テストを実施した。みずほFGの金融特化LLM（Qwen3-32Bベース）は、推論なし・コンテキスト付与ありの条件で正答率89.0％、平均回答時間1秒未満を記録した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_27ea03f219/LLM_27ea03f219.jpg" alt="金融特化LLM.jpg" /></p>
+<p>発表では比較対象として汎用LLM「GPT-5.2」の検証結果も示された。推論なし条件では同モデルも正答率89.0％、平均回答時間1秒未満だった。一方、推論あり設定では正答率89.7％、平均回答時間67.4秒となり、みずほFGは自社モデルが推論に依存せず同水準の精度を確保できる点を特徴として挙げている。</p>
+<h2>金融業務では応答遅延が課題</h2>
+<p>金融業界では生成AIの活用が広がる一方、複雑な金融商品や社内規定に関する照会では、回答時間の増加や計算コストの上昇が課題となっている。トレーディングや市場分析などでは、応答の遅れが市場機会の損失につながる可能性もある。</p>
+<p>こうした背景からみずほFGは、金融実務の知識や社内ルール、コンプライアンス上の留意点を学習させた金融特化LLMの開発を進めてきた。モデルは銀行内の閉域環境（オンプレミス）で運用でき、機密性の高いデータを外部に送信することなくAI処理を実行できる。</p>
+<h2>将来は専門業務AIへ拡張</h2>
+<p>みずほFGは今後、金融特化LLMを基盤として業務領域ごとの専門モデルを拡張していく計画だ。まず金融基礎や社内手続に対応するモデルを整備し、その後「融資」「法務」「市場」などの専門LLMを構築。最終的には複数のモデルを連携させる協調型エキスパートLLMによる部門横断的な判断支援を目指すとしている。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、Excel内で使える「ChatGPT for Excel」ベータ版公開　自然言語で表計算を構築・更新</title>
       <link>https://ledge.ai/articles/openai_chatgpt_for_excel_beta_release</link>
       <description><![CDATA[<p>OpenAIは2026年3月5日（米国時間）、Microsoft Excel向けアドイン「ChatGPT for Excel」のベータ版を<a href="https://openai.com/index/chatgpt-for-excel/">発表</a>した。Excelのワークブック内にChatGPTを直接組み込み、表計算モデルの構築や更新、分析を自然言語で支援する。あわせて、ChatGPT上で金融データを扱いやすくする新たなデータ連携も発表しており、財務モデリングや調査、分析といった実務ワークフローへの展開を進める姿勢を打ち出した。</p>
