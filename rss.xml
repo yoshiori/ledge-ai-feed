@@ -445,15 +445,24 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Qualcomm、ウェアラブル向けAI SoC「Snapdragon Wear Elite」発表　スマートウォッチなどパーソナルAIデバイス時代に対応</title>
-      <link>https://ledge.ai/articles/qualcomm_snapdragon_wear_elite_personal_ai_wearable_platform</link>
-      <description><![CDATA[<p>Qualcommは2026年3月2日（現地時間）、ウェアラブルデバイス向けの新しいAIプラットフォーム「Snapdragon Wear Elite」を<a href="https://www.qualcomm.com/news/releases/2026/03/qualcomm-powers-the-rise-of-personal-ai-with-new-snapdragon-wear">発表</a>した。</p>
-<p>新プラットフォームはオンデバイスAI処理に対応するNPUを搭載し、スマートウォッチをはじめとする「パーソナルAIデバイス」の普及を見据えた設計となっている。</p>
-<p>Snapdragon Wear Eliteは、ウェアラブル端末上でAI処理を行うことを前提に設計されたプラットフォームで、同社によればウェアラブル向けとしては初となるNPU搭載構成を採用する。NPUには同社のHexagonアーキテクチャを採用し、最大で10億パラメータ規模のAIモデルをエッジ上で実行できるとしている。これにより、音声対話やコンテキスト認識、ライフログの分析などを端末側で処理するパーソナルAI体験を実現する。</p>
-<p>性能面ではCPU性能が従来世代比で約5倍、GPU性能が最大7倍に向上した。電力効率も強化されており、マルチデイのバッテリー駆動に対応するほか、急速充電では約10分で50％まで充電できるとしている。また電力管理の最適化により、1日の使用時間は従来世代と比べて最大30％延長されるという。</p>
-<p>通信機能も強化されており、5G RedCap、Micro-Power Wi-Fi、Bluetooth 6.0、UWB、GNSSに加え、衛星通信規格であるNB-NTNにも対応する。NB-NTNはセルラーやWi-Fiが利用できない環境でも双方向通信を可能にする技術で、同社はエコシステムパートナーであるSkyloと協力して提供する。</p>
-<p>Snapdragon Wear Eliteはスマートウォッチだけでなく、ピン型やペンダント型など多様なウェアラブル形状を想定している。これらのデバイスはユーザーの状況を理解し、提案を行ったりタスクを実行したりするAIエージェントとして機能することが期待されている。</p>
-<p>同プラットフォームには、Google、Samsung、Motorolaなどがパートナーとして参加している。Snapdragon Wear Eliteを搭載した最初の商用デバイスは、今後数か月以内に登場する予定としている。</p>
+      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
+      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
+      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
+<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
+<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
+<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
+<h2>ベータテストで120万コミットをスキャン</h2>
+<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
+<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
+<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
+<h2>修正パッチの提案まで自動化</h2>
+<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
+<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
+<h2>AIエージェントによるセキュリティ監査の可能性</h2>
+<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
+<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
