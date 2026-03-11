@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
+      <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
+      <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
+<p>選定されたのは、以下７つのモデル</p>
+<ul>
+<li>NTTデータ：<strong>「tsuzumi 2」</strong></li>
+<li>カスタマークラウド：<strong>「CC Gov-LLM」</strong></li>
+<li>KDDI・ELYZA共同：<strong>「Llama-3.1-ELYZA-JP-70B」</strong></li>
+<li>ソフトバンク：<strong>「Sarashina2 mini」</strong></li>
+<li>NEC：<strong>「cotomi v3」</strong></li>
+<li>富士通：<strong>「Takane 32B」</strong></li>
+<li>Preferred Networks：<strong>「PLaMo 2.0 Prime」</strong></li>
+</ul>
+<p>デジタル庁は、所定の契約締結が完了したモデルから順次「源内」での試用評価を進めるとしている。</p>
+<h2>行政実務で使えるかを政府内で見極める</h2>
+<p>デジタル庁は、行政現場での実用性や課題を評価・検証するために国産LLMを試験的に利用すると説明しており、対話型AIサービスとしての提供だけでなく、行政実務特化型AIアプリへの組み込みも想定している。選定にあたっては、国内開発モデルであることに加え、行政実務で使える性能、海外主要LLMとの比較、安全性への取り組み、学習データに関する法令順守、ガバメントクラウド上で動作できるセキュリティ要件などが条件となった。</p>
+<p>これまでデジタル庁は、全職員が利用できる生成AI利用環境として「源内」を構築・運営してきた。今回の国産LLM試用は、この「源内」を政府全体に拡張する流れの中に位置付けられる。<a href="https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/2d69c287-2897-46d8-a28f-ea5a1fc9bce9/86f43a74/20260306_policies_ai_gennai_mass_deployment.pdf">関連資料</a>では、2026年度に全府省庁39機関の約18万人を対象に大規模実証を行い、その中で採択した国産LLMを試用して実用性や行政実務への適合性を見極める方針が示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai_7b82c05855/shedule_of_gennai_7b82c05855.jpg" alt="shedule of gennai.jpg" /></p>
+<h2>背景に「政府が率先して使う」方針</h2>
+<p>背景には、政府自らがAI活用を先導するという政策方針がある。デジタル庁は、少子高齢化による担い手不足が深刻化する中で公共サービスを維持するにはAI活用が不可避だと説明。あわせて、民間のAI投資を促すには政府が率先して利用し、職員のAI理解と実践力を高めることが重要だとしている。関連資料でも、政府共通基盤の提供やナレッジの集約・共有、国産AIの育成・強化、他府省庁支援を進める方針が示されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai2_fa3dd77516/shedule_of_gennai2_fa3dd77516.jpg" alt="shedule of gennai2.jpg" /></p>
+<p>デジタル庁の発表によると、第3回人工知能戦略本部での指示や2025年12月23日閣議決定のAI基本計画を踏まえ、政府職員によるAIの「普段使い」を浸透・定着させる環境整備が進められている。今回の大規模実証は、そうした方針を具体化する取り組みといえる。</p>
+<h2>2027年度以降の政府調達も視野</h2>
+<p>今後のスケジュールでは、2026年3月から契約締結や技術調整を進め、同年5月ごろに政府における「源内」の大規模実証を開始する。国産LLMの試用開始は同年8月ごろを予定し、2027年1月ごろに評価・検証結果の一部を公表する計画だ。そのうえで同年4月から、検証を経て実証された優れたモデルについて、ガバメントAIとして政府調達（有償）を行う予定としている。</p>
+<p>このため今回の発表は、国産LLMの試験導入そのものに加え、政府調達を通じた需要創出の前段階としても位置付けられる。デジタル庁は、行政現場からのフィードバックによる国産AIの性能向上や、政府調達を通じた安定的な需要創出を実現し、国産AIの育成・強化や日本のAI自律性確保につなげる考えを示している。</p>
+]]></description>
+      <pubDate>Mon, 09 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
       <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
       <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
@@ -15,6 +44,27 @@
 <p>今回の訴訟で目を引くのは、亡くなった利用者が未成年ではなく、36歳の成人だった点だ。生成AIをめぐる有害対話や依存の問題は、これまで未成年ユーザー保護の文脈で語られることが多かった。今回の件では、そうした問題が成人利用者にも及びうること、さらにAI企業の安全設計責任が年齢制限やティーン向け対策だけでは捉えきれない段階に入りつつあることを示す事案として注目される。</p>
 ]]></description>
       <pubDate>Sun, 08 Mar 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_shooting_case_reporting_policy_canada</link>
+      <description><![CDATA[<p>OpenAIは2026年2月26日、カナダ・ブリティッシュコロンビア州タンブラーリッジで発生した銃撃事件を受け、重大な犯罪につながるおそれのあるポリシー違反を検知した場合の法執行機関への通報基準を見直し、安全対策を強化する方針をカナダ政府に伝えた。事件はカナダ史上最悪級の銃乱射事件の一つとされており、容疑者が事件前にChatGPTを利用していたことが明らかになっている。</p>
+<p>同社がカナダの人工知能・デジタルイノベーション相エバン・ソロモン氏に送った<a href="https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf">書簡</a>によると、容疑者は事件前にChatGPTを利用しており、OpenAIは2025年6月に同アカウントを暴力行為に関連するポリシー違反として停止していた。</p>
+<p>ただし当時は、会話内容から「信頼できる差し迫った暴力計画（credible and imminent planning）」が確認できないと判断し、警察への通報は行われなかったという。</p>
+<h2>事件後、通報基準を見直し</h2>
+<p>OpenAIは書簡の中で、現在の強化された安全プロトコルを当時に適用していれば、当該アカウントを法執行機関に通報していた可能性があると説明した。</p>
+<p>これを受け、同社はカナダ政府に対し、以下の安全対策を進める方針を示した。</p>
+<p>・法執行機関への通報プロトコルの強化
+・カナダ警察との直接連絡窓口の設置
+・地域事情を踏まえた危機対応（デエスカレーション）の支援
+・アカウント停止後の再登録利用者の検知強化</p>
+<p>OpenAIによると、事件後の調査で、容疑者が別のChatGPTアカウントを使用していたことも判明しており、その情報は法執行機関と共有されたとしている。</p>
+<h2>AIサービスと犯罪リスクの対応が焦点に</h2>
+<p>今回の対応は、AIサービスにおける安全対策のあり方を巡る議論を改めて浮き彫りにした。従来は利用規約違反が確認された場合にアカウント停止などの措置が取られることが一般的だったが、今回の見直しでは、重大な犯罪リスクが検知された場合に法執行機関への連絡を行う可能性を明確化した形となる。</p>
+<p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
+<p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
+]]></description>
+      <pubDate>Sat, 07 Mar 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claudeアプリ急伸、ChatGPTに逆風か　米国防総省AI契約を巡りユーザー動向に変化</title>
@@ -346,35 +396,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
-      <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
-      <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
-<p>選定されたのは、以下７つのモデル</p>
-<ul>
-<li>NTTデータ：<strong>「tsuzumi 2」</strong></li>
-<li>カスタマークラウド：<strong>「CC Gov-LLM」</strong></li>
-<li>KDDI・ELYZA共同：<strong>「Llama-3.1-ELYZA-JP-70B」</strong></li>
-<li>ソフトバンク：<strong>「Sarashina2 mini」</strong></li>
-<li>NEC：<strong>「cotomi v3」</strong></li>
-<li>富士通：<strong>「Takane 32B」</strong></li>
-<li>Preferred Networks：<strong>「PLaMo 2.0 Prime」</strong></li>
-</ul>
-<p>デジタル庁は、所定の契約締結が完了したモデルから順次「源内」での試用評価を進めるとしている。</p>
-<h2>行政実務で使えるかを政府内で見極める</h2>
-<p>デジタル庁は、行政現場での実用性や課題を評価・検証するために国産LLMを試験的に利用すると説明しており、対話型AIサービスとしての提供だけでなく、行政実務特化型AIアプリへの組み込みも想定している。選定にあたっては、国内開発モデルであることに加え、行政実務で使える性能、海外主要LLMとの比較、安全性への取り組み、学習データに関する法令順守、ガバメントクラウド上で動作できるセキュリティ要件などが条件となった。</p>
-<p>これまでデジタル庁は、全職員が利用できる生成AI利用環境として「源内」を構築・運営してきた。今回の国産LLM試用は、この「源内」を政府全体に拡張する流れの中に位置付けられる。<a href="https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/2d69c287-2897-46d8-a28f-ea5a1fc9bce9/86f43a74/20260306_policies_ai_gennai_mass_deployment.pdf">関連資料</a>では、2026年度に全府省庁39機関の約18万人を対象に大規模実証を行い、その中で採択した国産LLMを試用して実用性や行政実務への適合性を見極める方針が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai_7b82c05855/shedule_of_gennai_7b82c05855.jpg" alt="shedule of gennai.jpg" /></p>
-<h2>背景に「政府が率先して使う」方針</h2>
-<p>背景には、政府自らがAI活用を先導するという政策方針がある。デジタル庁は、少子高齢化による担い手不足が深刻化する中で公共サービスを維持するにはAI活用が不可避だと説明。あわせて、民間のAI投資を促すには政府が率先して利用し、職員のAI理解と実践力を高めることが重要だとしている。関連資料でも、政府共通基盤の提供やナレッジの集約・共有、国産AIの育成・強化、他府省庁支援を進める方針が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai2_fa3dd77516/shedule_of_gennai2_fa3dd77516.jpg" alt="shedule of gennai2.jpg" /></p>
-<p>デジタル庁の発表によると、第3回人工知能戦略本部での指示や2025年12月23日閣議決定のAI基本計画を踏まえ、政府職員によるAIの「普段使い」を浸透・定着させる環境整備が進められている。今回の大規模実証は、そうした方針を具体化する取り組みといえる。</p>
-<h2>2027年度以降の政府調達も視野</h2>
-<p>今後のスケジュールでは、2026年3月から契約締結や技術調整を進め、同年5月ごろに政府における「源内」の大規模実証を開始する。国産LLMの試用開始は同年8月ごろを予定し、2027年1月ごろに評価・検証結果の一部を公表する計画だ。そのうえで同年4月から、検証を経て実証された優れたモデルについて、ガバメントAIとして政府調達（有償）を行う予定としている。</p>
-<p>このため今回の発表は、国産LLMの試験導入そのものに加え、政府調達を通じた需要創出の前段階としても位置付けられる。デジタル庁は、行政現場からのフィードバックによる国産AIの性能向上や、政府調達を通じた安定的な需要創出を実現し、国産AIの育成・強化や日本のAI自律性確保につなげる考えを示している。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
       <link>https://ledge.ai/articles/iran_attack_amazon_data_center_bahrain</link>
       <description><![CDATA[<p>イスラエルと米国によるイランへの攻撃を受け、中東情勢が緊張を増す中、イランが反撃の一環としてバーレーンにある米Amazonのデータセンターを攻撃したとされる。</p>
@@ -439,27 +460,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <h2>金融データ連携も拡充、Enterprise向け統制機能も訴求</h2>
 <p>OpenAIは今回、ChatGPT for Excelとあわせて、ChatGPT上で使える金融データ連携の拡充も発表した。複数の金融・市場データ提供元との統合に加え、Model Context Protocol（MCP）を通じた独自データの取り込みにも対応し、企業調査やモデル更新、デューデリジェンスなどの業務を支援する。また、Enterprise向けにはRBACやSAML SSO、SCIM、監査ログ、暗号化、データレジデンシーなどの統制機能もあらためて訴求した。</p>
 <p>一方で、現時点ではベータ版であり、応答に時間がかかる場合があるほか、生成結果の整形や複雑な数式の調整では手動対応が必要になる場合もあるとしている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_shooting_case_reporting_policy_canada</link>
-      <description><![CDATA[<p>OpenAIは2026年2月26日、カナダ・ブリティッシュコロンビア州タンブラーリッジで発生した銃撃事件を受け、重大な犯罪につながるおそれのあるポリシー違反を検知した場合の法執行機関への通報基準を見直し、安全対策を強化する方針をカナダ政府に伝えた。事件はカナダ史上最悪級の銃乱射事件の一つとされており、容疑者が事件前にChatGPTを利用していたことが明らかになっている。</p>
-<p>同社がカナダの人工知能・デジタルイノベーション相エバン・ソロモン氏に送った<a href="https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf">書簡</a>によると、容疑者は事件前にChatGPTを利用しており、OpenAIは2025年6月に同アカウントを暴力行為に関連するポリシー違反として停止していた。</p>
-<p>ただし当時は、会話内容から「信頼できる差し迫った暴力計画（credible and imminent planning）」が確認できないと判断し、警察への通報は行われなかったという。</p>
-<h2>事件後、通報基準を見直し</h2>
-<p>OpenAIは書簡の中で、現在の強化された安全プロトコルを当時に適用していれば、当該アカウントを法執行機関に通報していた可能性があると説明した。</p>
-<p>これを受け、同社はカナダ政府に対し、以下の安全対策を進める方針を示した。</p>
-<p>・法執行機関への通報プロトコルの強化
-・カナダ警察との直接連絡窓口の設置
-・地域事情を踏まえた危機対応（デエスカレーション）の支援
-・アカウント停止後の再登録利用者の検知強化</p>
-<p>OpenAIによると、事件後の調査で、容疑者が別のChatGPTアカウントを使用していたことも判明しており、その情報は法執行機関と共有されたとしている。</p>
-<h2>AIサービスと犯罪リスクの対応が焦点に</h2>
-<p>今回の対応は、AIサービスにおける安全対策のあり方を巡る議論を改めて浮き彫りにした。従来は利用規約違反が確認された場合にアカウント停止などの措置が取られることが一般的だったが、今回の見直しでは、重大な犯罪リスクが検知された場合に法執行機関への連絡を行う可能性を明確化した形となる。</p>
-<p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
-<p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
@@ -535,20 +535,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA CEOジェンセン・ファン氏「エージェント型AIの転換点が到来」——推論最適化と企業導入拡大を強調</title>
-      <link>https://ledge.ai/articles/nvidia_jensen_huang_agentic_ai_inflection_point_inference_enterprise_adoption</link>
-      <description><![CDATA[<p>NVIDIAは2026年2月25日（米国時間）、2026年度第4四半期の決算を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">発表</a>し、同社創業者兼CEOのJensen Huang氏がエージェント型AIについて「転換点（inflection point）が到来した」と述べた。</p>
-<p>Huang氏は「Computing demand is growing exponentially — the agentic AI inflection point has arrived（計算需要は指数関数的に拡大しており、エージェント型AIの転換点が到来した）」とコメント。あわせて「Enterprise adoption of agents is skyrocketing（企業でのエージェント導入が急拡大している）」とし、AIエージェントの実用化が本格段階に入りつつあるとの認識を示した。</p>
-<h2>推論最適化を強調</h2>
-<p>Huang氏は、近年のAIワークロードの中心が学習（トレーニング）から推論（inference）へと拡大している点にも言及。現行のGrace BlackwellプラットフォームとNVLinkネットワークを「king of inference」と表現し、推論処理の効率化が進んでいることを強調した。</p>
-<p>また、トークン当たりのコストが桁違いに低減しているとし、推論効率の向上がエージェント型AIの普及を後押ししているとの見方を示した。</p>
-<h2>企業導入が加速</h2>
-<p>エージェント型AIは、単発の応答にとどまらず、目標に基づいて複数の工程を自律的に実行し、外部ツールやシステムと連携しながらタスクを遂行するAIの形態を指す。Huang氏は、こうしたエージェントの企業導入が急拡大していると述べ、実証段階から実運用への移行が進んでいるとの認識を示した。</p>
-<p>今回の発言は、生成AIの次段階として注目されるエージェント型AIが、インフラ面・コスト面の最適化を背景に、企業現場での活用フェーズへと進んでいることを示唆するものといえる。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
       <link>https://ledge.ai/articles/openai_china_cyber_special_operations_takaichi_influence_operation_report</link>
       <description><![CDATA[<p>OpenAIは2026年2月25日、「Disrupting malicious uses of our models（当社モデルの悪用への対処）」と題した最新の脅威レポートを公開し、中国の法執行機関に関連する人物と結びついたChatGPTアカウントを停止したと<a href="https://openai.com/ja-JP/index/disrupting-malicious-ai-uses/">発表</a>した。レポートによると、同アカウントは高市早苗首相を標的とする秘密影響工作（covert influence operation）の計画立案を試みていたという。</p>
@@ -610,56 +596,6 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
 ]]></description>
       <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米国防総省とのAI契約で明暗　Anthropicは決裂、OpenAIは安全条項を条文化し合意</title>
-      <link>https://ledge.ai/articles/trump_anthropic_ban_dod_ai_contract_legal_use_openai_divergence</link>
-      <description><![CDATA[<p>トランプ大統領は2026年2月28日、連邦政府機関に対し、米AI企業Anthropicの技術利用を停止するよう指示した。同日、OpenAIは米国防総省（Department of Defense, DoD）との合意を発表し、安全条項を明示したうえで機密環境へのAI展開を進めると明らかにした。</p>
-<p>短期間のうちに、交渉停滞、供給網リスク指定の示唆、大統領による利用停止指示、そして別企業との契約合意が相次いだ。背景には、国防分野でのAI活用を巡る契約条件の解釈をめぐる対立があった。</p>
-<h2>交渉の争点は「合法用途」の範囲</h2>
-<p>米国防総省は近年、生成AIの導入を加速させている。情報分析、作戦計画、データ統合など、国家安全保障領域での活用が拡大している。Anthropicも、機密ネットワーク環境へのモデル提供を進めてきた企業の一つだ。</p>
-<p>しかし交渉の焦点となったのが、「any lawful use（あらゆる合法用途）」という条項だった。</p>
-<p>国防総省は、合法である限り包括的な利用を認める条件を求めた。一方、Anthropicは次の2用途について例外を維持していた。</p>
-<ul>
-<li>米国民に対する大規模国内監視</li>
-<li>完全自律型兵器</li>
-</ul>
-<h2>CEOが立場を公表</h2>
-<p>AnthropicのCEOダリオ・アモデイ氏は2月26日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">声明</a>を発表した。</p>
-<p><em><strong>“today’s frontier AI systems are simply not reliable enough to power fully autonomous weapons.”</strong></em>
-（現在の最先端AIシステムは、完全自律型兵器を動かすには信頼性が不十分である。）
-<em><strong>“we cannot in good conscience accede to their request.”</strong></em>
-（（倫理的・道義的）責任において、彼らの要求には応じられない。）</p>
-<p>同氏は、国家安全保障用途への協力自体を否定していないとしつつも、上記例外の撤廃には応じない姿勢を示した。</p>
-<h2>国防長官が供給網リスク指定を示唆</h2>
-<p>2月28日、ヘグセス国防長官はXに投稿。</p>
-<p><em><strong>“the Department of War must have full, unrestricted access to Anthropic’s models for every LAWFUL purpose”</strong></em>
-（国防総省はあらゆる合法目的でAnthropicのモデルに完全かつ無制限のアクセスを持つべきだ。）
-<em><strong>“I am directing the Department of War to designate Anthropic a Supply-Chain Risk to National Security.”</strong></em>
-（Anthropicを国家安全保障上の供給網リスクに指定するよう指示する。）</p>
-<p>と述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pete_hegseth_x_7ff66a71e1/pete_hegseth_x_7ff66a71e1.jpg" alt="pete hegseth x.jpg" /></p>
-<h2>大統領が利用停止を指示</h2>
-<p>同日、トランプ大統領はTruth Socialで次のように<a href="https://truthsocial.com/@realDonaldTrump/116144552969293195">投稿</a>した。</p>
-<p><em><strong>“I am directing EVERY Federal Agency in the United States Government to IMMEDIATELY CEASE all use of Anthropic’s technology.”</strong></em>
-（米国政府のすべての連邦機関に対し、Anthropicの技術の使用を直ちに停止するよう命じる。）</p>
-<p>国防総省などについては6カ月の移行期間を設けるとした。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/donald_J_trump_truth_dd6e5dc705/donald_J_trump_truth_dd6e5dc705.png" alt="donaldJ trump truth.png" /></p>
-<h2>Anthropicの反論</h2>
-<p>その後Anthropicは公式声明で、
-<em><strong>“No amount of intimidation or punishment from the Department of War will change our position.”</strong></em>
-（国防総省からのいかなる威圧や処罰も、我々の立場を変えることはない。）</p>
-<p>と述べ、供給網リスク指定の適法性を争う姿勢を示した。</p>
-<h2>OpenAIは「契約設計で担保できる」と説明</h2>
-<p>同28日、OpenAIは国防総省との合意内容を<a href="https://openai.com/index/our-agreement-with-the-department-of-war/">公表</a>した。</p>
-<p>同社は声明の中で、自社も「大規模国内監視」と「自律兵器の指揮」には応じない立場であると明言している。そのうえで、これらの禁止事項は理念として掲げるだけでなく、契約条文と技術設計の双方で担保できると説明した。</p>
-<p>OpenAIはまず、「兵器を開発するのか」「AIが自律的に軍事作戦を遂行するのか」といった想定批判を取り上げ、いずれも否定した。モデルが自律的に戦闘を行うことはなく、兵器の設計・製造に関与するものでもないとした。</p>
-<p>また、国内監視への転用についても、米憲法修正第4条や関連法令を参照し、「無制約な監視（unconstrained monitoring）」を禁じる条項を契約内に組み込んだと説明している。</p>
-<p>技術面では、クラウド限定環境での展開を前提とし、モデルをエッジ配備しない構成を採用したと述べた。さらに、安全スタックの運用裁量を自社が保持し、監査ログや認証体制を通じて契約上の制限を実効的に維持できるとしている。</p>
-<p>そのうえでOpenAIは、今回の合意条件を自社のみの特例とせず、他のAI企業との契約にも同様の基準が適用されることを国防総省に要請したと明らかにした。例外条項の維持を優先したAnthropicとは異なり、OpenAIはレッドラインを契約設計と運用構造に組み込む形で整理したことになる。</p>
-<p>こうした交渉が続く中、ウォール・ストリート・ジャーナル（<a href="https://jp.wsj.com/articles/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-c8d6dff2">WSJ</a>）は3月1日、米国によるイラン攻撃においてAnthropicのAIが使用された可能性があると報じた。</p>
-]]></description>
-      <pubDate>Mon, 02 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
