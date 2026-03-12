@@ -175,30 +175,6 @@
       <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「もしAIチャットが広告だらけになったら？」　99helpersが体験デモ「Ad-Supported AI Chat Demo」を公開</title>
-      <link>https://ledge.ai/articles/99helpers_ad_supported_ai_chat_demo</link>
-      <description><![CDATA[<p>AIエージェントなど生成AIサービスの普及が進む中、AIツールを開発する99helpersは、広告付きAIチャットのユーザー体験を再現したデモンストレーション「Ad-Supported AI Chat Demo」を<a href="https://99helpers.com/tools/ad-supported-chat">公開</a>した。AIの回答の途中に広告が挿入されるなど、「広告で支えられるAIチャット」がどのような体験になるのかを疑似的に試すことができる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_agents_to_help_your_customers_71808ff8df/AI_agents_to_help_your_customers_71808ff8df.jpg" alt="AI agents to help your customers.jpg" /></p>
-<h2>広告付きAIチャットの体験デモを公開</h2>
-<p>このデモはブラウザ上で公開されており、ユーザーが質問を入力すると、AIの回答の途中にスポンサー表示や広告メッセージが挿入される仕組みになっている。通常のチャットAIとは異なり、回答の流れが広告によって中断されたり、商品やサービスをすすめるメッセージが混ざるなど、広告付きAI特有のユーザー体験が再現されている。</p>
-<p>デモページでは、このプロジェクトを「風刺的でありながら完全に機能する（satirical yet fully functional）」AIチャットの実験として紹介している。</p>
-<h2>回答の途中に広告が差し込まれるUI</h2>
-<p>デモ画面では、チャットUIの中にバナー広告が表示されたり、AIの回答にスポンサー付きメッセージが差し込まれるなど、複数の広告表現が組み込まれている。質問内容に関連する商品やサービスが提案されるケースもあり、AIの回答と広告が混在する構造になっている。</p>
-<h2>開発者がSNSでデモを紹介</h2>
-<p>このデモは、開発者の <a href="https://x.com/nickkirt/status/2027810329535595003">Nick Kirt</a>氏がX（旧Twitter）で紹介したことで注目を集めた。同氏は投稿の中で、AIチャットに広告が組み込まれた場合のユーザー体験を体感できるデモとして公開したと説明している。</p>
-<p>投稿では、AIの回答の途中に広告が挿入される様子や、スポンサー付きメッセージが表示される画面も紹介されており、実際にどのようなチャット体験になるのかを確認できる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HCQ_6va_AXUAA_Ch9b_17b30ec495/HCQ_6va_AXUAA_Ch9b_17b30ec495.jpg" alt="HCQ6vaAXUAACh9b.jpg" /></p>
-<h2>AIサービスの収益モデルを考えるきっかけに</h2>
-<p>近年、検索AIやAIチャットサービスでは広告モデルの導入可能性が議論されており、AIの回答と広告の関係は新たな論点の一つになっている。</p>
-<p>現在、生成AIサービスの収益モデルは主にサブスクリプションやAPI利用料、企業向けライセンスなどが中心となっている。一方、検索エンジンやSNSのように広告を主な収益源とするモデルがAIチャットに導入された場合、回答の中に広告が入り込む可能性も指摘されている。</p>
-<h3>編集部でも試してみると…</h3>
-<p>編集部でも実際に「Ad-Supported AI Chat Demo」を試してみた。チャット画面にはAIの回答とは別に複数の広告枠が表示され、画面右側には広告カード、下部にはスポンサー付きリンクが並ぶなど、広告が前提となったインターフェースになっている。</p>
-<p>AIの回答の中でも、広告付きの提案やプロモーションが表示される仕組みになっており、通常のチャットAIとは異なるユーザー体験となっていた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_1_5c981033fe/image_1_5c981033fe.jpg" alt="image (1).jpg" /></p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIが作った画像の著作権は誰のもの？　米最高裁が審理拒否、人間著作者原則維持</title>
       <link>https://ledge.ai/articles/ai_authorship_supreme_court_cert_denied</link>
       <description><![CDATA[<p>米最高裁判所（U.S. Supreme Court）は2026年3月2日、AIが生成した作品の著作権を巡る訴訟「Thaler v. Perlmutter」の上告審理を受理しないと<a href="https://www.supremecourt.gov/orders/courtorders/030226zor_2d8f.pdf">決定</a>した。これにより、AI単独で生成された作品は著作権保護の対象にならないとする下級審判断が維持されることになった。</p>
@@ -408,6 +384,18 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>近年、クラウドインフラはAI分析やデータ処理、情報共有などの基盤として幅広く利用されている。AWSでも生成AI基盤サービス「Amazon Bedrock」などが同リージョンで提供されており、クラウドはデジタルインフラとして重要性を増している。</p>
 <p>一方で、紛争地域では電力網や通信網などのインフラが攻撃対象となるケースも増えている。今回のケースでは、クラウドデータセンターが軍事活動を支える可能性のあるインフラとして位置付けられ、攻撃対象になったとイラン側が主張している点が注目される。</p>
 <p>AIやクラウド技術が広く社会インフラとして利用される中、データセンターなどのデジタル基盤が紛争の影響を受ける可能性も指摘されている。</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AIエージェントSNS「Moltbook」を買収　創業者2人はAI部門へ</title>
+      <link>https://ledge.ai/articles/meta_acquires_moltbook_ai_agent_social_network</link>
+      <description><![CDATA[<p>Metaは2026年3月10日、AIエージェント同士が投稿や交流を行うSNS「Moltbook」を買収した。このニュースは<a href="https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network">Axios</a>のスクープで明らかになり、その後ReutersやTechCrunch、APなどがMeta広報コメントをもとに追随して報じた。買収額は非公表で、共同創業者のMatt Schlicht氏とBen Parr氏はMeta Superintelligence Labs（MSL）に加わる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de.jpg" alt="axios meta hires duo behind moltbook.jpg" /></p>
+<p>Moltbookは、AIエージェント同士が投稿やコメントを通じて交流するために設計されたソーシャルネットワークサービスだ。AIエージェントが自律的に投稿し、能力や活動、タスクなどを共有するコミュニティとして注目を集めていた。人間のSNSを模した形式で、AIエージェント同士が互いの活動を評価したり、情報交換を行う場として機能する点が特徴とされる。</p>
+<p>このサービスは、AIエージェントのオープンな実行環境を目指す「OpenClaw」エコシステムとも関係があるとされる。OpenClawは、AIエージェントが外部ツールやサービスを利用しながらタスクを実行する仕組みを提供するもので、エージェント同士の連携や能力共有を可能にする枠組みとして開発が進められている。企業システムやオンラインサービスとAIエージェントを接続する基盤としても注目されている。</p>
+<p>Moltbookは、こうしたAIエージェントの活動や能力を可視化するコミュニティとして広まり、AIエージェントが互いに投稿する“AIエージェント専用SNS”として話題となった。AIエージェント同士の交流や評価が行われる実験的なコミュニティとして、AI開発者や研究者の間でも注目を集めていた。</p>
+<p>Axiosによると、Moltbookの共同創業者であるMatt Schlicht氏とBen Parr氏は、MetaのAI研究組織であるMeta Superintelligence Labs（MSL）に参加する。MSLはMetaがAI研究開発を強化するために設けた部門で、AI分野の研究者やエンジニアを集め、次世代のAI技術の開発を進めているという。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
