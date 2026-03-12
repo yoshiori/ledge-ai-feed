@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>DeNA、米Cognition AIの自律型AIエンジニア「Devin Enterprise」を全社導入　2,000人超が利用可能に</title>
+      <link>https://ledge.ai/articles/dena_devin_enterprise_companywide_adoption</link>
+      <description><![CDATA[<p>ディー・エヌ・エー（以下DeNA）は2026年3月4日、米AI企業Cognition AIが提供する自律型AIソフトウェアエンジニア「Devin Enterprise」を全社規模で導入したと<a href="https://dena.com/jp/news/5356/">発表</a>した。2025年7月にCognition AIと戦略的パートナーシップを<a href="https://dena.com/jp/news/5269/">締結</a>して以降、段階的に社内展開を進めてきたもので、現在は2,000人以上の社員が利用可能な体制を整えたという。</p>
+<p>Devin Enterpriseはソフトウェア開発のタスクを自律的に実行するAIエージェントで、コード生成やデバッグ、テストなどの開発業務を支援する。DeNAではゲーム、ライブストリーミング、ヘルスケア・メディカル、スポーツ、スマートシティなど多様な事業を展開しており、異なる技術スタックやセキュリティ要件を持つ開発環境に対応する必要があった。そのため、単なるツール導入ではなく、企業全体で安全に運用できる基盤整備を進めたとしている。</p>
+<h2>VPC・SSOを含む全社基盤を整備</h2>
+<p>DeNAはDevin Enterpriseの導入にあたり、自社クラウド環境内で利用できるVPC版を展開し、シングルサインオン（SSO）などの認証基盤と連携させた。これにより、各事業部門が共通の統制下でAIを利用できる体制を構築したという。</p>
+<p>導入は約半年をかけて3段階で進められた。まずα版ではコアユーザーによる技術検証を行い、ガバナンス要件や運用ルールを整理。続くβ版ではSlackを用いた運用フローや組織単位での環境作成の自動化などを整備した。その後、全社展開版として本格導入し、現在は40以上のチームで利用が始まっている。</p>
+<h2>開発効率や業務スピードの改善も</h2>
+<p>DeNAは導入後の成果として、複数の業務領域での効率化を挙げている。</p>
+<p>たとえばレガシーシステムのコードマイグレーションでは、PerlからGoへの移行作業を従来想定の約半年から1カ月弱で完了し、約6倍の効率化を実現したという。また、横浜市で開催されたイベント「ワンダリア横浜」のアプリ開発では、マルチリポジトリ構成のプロジェクトで開発速度が約2倍に向上したとしている。</p>
+<p>さらに、オフショア開発の検収・品質管理では、従来1～2日かかっていた確認作業が、15分程度の入力と約2時間の確認で完了するようになり、待ち時間の大幅な短縮につながったという。</p>
+<p>エンジニア以外の業務にも活用は広がっている。仕様確認では非エンジニアの確認時間を約10分の1に削減したほか、分析業務では作業効率が3倍以上に改善。営業部門では見積もり作成の速度が約8倍に向上したと説明している。</p>
+<h2>国内企業向け導入支援も</h2>
+<p>DeNAは今回の取り組みを社内活用にとどめず、グループ会社を通じて国内企業への導入支援も進める方針だ。DeNA AI Linkでは、企業向けにDevin Enterpriseの導入支援やガバナンス構築、コードマイグレーションの支援などを提供するほか、ハンズオンセミナーなども開催するとしている。</p>
+<p>同社は、自律型AIエージェントの活用が今後のソフトウェア開発の生産性向上に寄与するとみており、社内外での活用拡大を図る考えだ。</p>
+]]></description>
+      <pubDate>Wed, 11 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
       <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
       <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
@@ -34,6 +53,52 @@
       <pubDate>Mon, 09 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、Excel内で使える「ChatGPT for Excel」ベータ版公開　自然言語で表計算を構築・更新</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_for_excel_beta_release</link>
+      <description><![CDATA[<p>OpenAIは2026年3月5日（米国時間）、Microsoft Excel向けアドイン「ChatGPT for Excel」のベータ版を<a href="https://openai.com/index/chatgpt-for-excel/">発表</a>した。Excelのワークブック内にChatGPTを直接組み込み、表計算モデルの構築や更新、分析を自然言語で支援する。あわせて、ChatGPT上で金融データを扱いやすくする新たなデータ連携も発表しており、財務モデリングや調査、分析といった実務ワークフローへの展開を進める姿勢を打ち出した。</p>
+<h2>Excel上で表計算の作成・更新・分析を支援</h2>
+<p>ChatGPT for Excelは、Excelに埋め込まれたベータ版アドインで、利用者が自然言語で指示するだけで、表計算モデルの新規作成や更新、シナリオ分析、セルや数式をもとにした出力生成をワークブック内で進められる。</p>
+<p>OpenAIによると、分析担当者や戦略担当者、研究者、経理担当者などが、数式作成やリンク確認、モデル修正といった手作業を減らし、判断や意思決定により多くの時間を割けるようにすることを狙う。加えて、シート間や数式間のつながりを踏まえてモデルを読み解き、出力が変化した理由の説明やエラーの追跡・修正、前提条件が全体にどう影響するかの確認も支援するという。</p>
+<p>作業中は参照したセルや更新対象のセルを示し、変更前にはユーザーの許可を求めるほか、必要に応じて編集を取り消せる仕組みも備え、既存テンプレートの引き継ぎや複雑なワークブックの把握にも役立つとしている。</p>
+<h2>GPT-5.4を基盤に、財務ワークフロー向け性能を訴求</h2>
+<p>今回の発表では、基盤モデルであるGPT-5.4の性能も前面に押し出された。OpenAIはGPT-5.4 Thinkingについて、財務推論やExcelベースのモデリングに適した同社の最新モデルだと説明している。</p>
+<p>同社によると、金融実務の担当者と連携しながら、財務モデリング、シナリオ分析、データ抽出、長文リサーチといった現実の業務フローをもとに性能改善を進めてきたという。さらに、OpenAIの社内投資銀行ベンチマークでは、適切な書式や引用を含む三表モデルの構築などを評価する指標で、GPT-5の43.7%に対し、GPT-5.4 Thinkingは87.3%だったとしている。</p>
+<p><strong>OpenAI社内投資銀行ベンチマーク</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_internal_investment_banking_benchmark_9a24c0123b/Open_AI_internal_investment_banking_benchmark_9a24c0123b.jpg" alt="OpenAI internal investment banking benchmark.jpg" /></p>
+<h2>ベータ版は米国、カナダ、オーストラリアで提供開始</h2>
+<p>ChatGPT for Excelのベータ版は、ChatGPT Business、Enterprise、Edu、Teachers、Pro、Plusユーザー向けに提供を開始した。対象地域は米国、カナダ、オーストラリアで、Google Sheets向け機能も今後提供予定としている。</p>
+<p>一方で、Enterprise、Edu、Teachersの各ワークスペースでは初期状態でアクセスがオフになっており、管理者がカスタムロールやグループ権限を通じて特定ユーザー向けに有効化する仕組みを採っている。</p>
+<h2>金融データ連携も拡充、Enterprise向け統制機能も訴求</h2>
+<p>OpenAIは今回、ChatGPT for Excelとあわせて、ChatGPT上で使える金融データ連携の拡充も発表した。複数の金融・市場データ提供元との統合に加え、Model Context Protocol（MCP）を通じた独自データの取り込みにも対応し、企業調査やモデル更新、デューデリジェンスなどの業務を支援する。また、Enterprise向けにはRBACやSAML SSO、SCIM、監査ログ、暗号化、データレジデンシーなどの統制機能もあらためて訴求した。</p>
+<p>一方で、現時点ではベータ版であり、応答に時間がかかる場合があるほか、生成結果の整形や複雑な数式の調整では手動対応が必要になる場合もあるとしている。</p>
+]]></description>
+      <pubDate>Mon, 09 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
+      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
+      <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
+<h2>Claude Codeは操作前に人間の承認を求める設計</h2>
+<p>Claude Codeでは、AIがコードを書き換えたりコマンドを実行したりする前に、人間がその操作を許可するか確認する仕組みが採用されている。Anthropicの公式ドキュメントによると、通常モードでは各アクションの前にユーザーの許可を求め、変更内容を確認してから実行する。</p>
+<p>同ドキュメントでは、VS Code連携時にAIがファイル編集を行う際、変更案を表示してユーザーが承認する流れが説明されている。こうした承認プロセスにより、AIによる変更を人間が確認できる設計になっている。</p>
+<h2>権限モードを切り替える既存機能</h2>
+<p>Claude Codeには、承認の扱いを切り替える複数の権限モードが用意されている。公式ドキュメントによると、Shift+Tabなどの操作で「Auto-Accept Mode」「Plan Mode」「normal mode」を切り替えることができる。</p>
+<p>Common workflowsの説明では、通常モードからAuto-Accept Modeへ切り替えることで、確認なしで編集を実行できる運用も示されている。Claude Codeでは、こうした仕組みにより承認フローを段階的に調整できる。</p>
+<h2>通知文で浮上した新モード「auto mode」</h2>
+<p>Reddit上に投稿された管理者向け通知文によると、新しいpermissions modeとして「auto mode」が導入される予定とされている。通知文では、auto modeによりClaudeがコーディング中のpermission decisionsを処理し、長時間の作業が手動承認によって中断されにくくなると説明されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a.jpg" alt="new-auto-mode-permissions-coming-v0-bihd494ad3ng1.jpg" /></p>
+<p>同通知文では、この機能が承認を完全に省略する --dangerously-skip-permissions のより安全な代替として設計されたことも明記されている。このフラグは、長時間タスクの途中で承認待ちが発生するのを避けるため開発者の間で利用されてきたが、安全性の懸念が指摘されてきた。auto modeでは、Claudeが承認判断を処理する一方、プロンプトインジェクション対策など追加の安全機能が組み込まれるとされる。</p>
+<h2>研究プレビューとして提供予定</h2>
+<p>通知文によると、auto modeは2026年3月中旬以降にresearch previewとして提供される予定とされる。また、利用方法として claude --enable-auto-mode コマンドで有効化できると説明されている。</p>
+<p>一方で、同モードは「すべてのリスクを防ぐものではない」とされ、隔離された環境での利用を推奨すると記されている。さらに、トークン使用量やコスト、レイテンシがわずかに増える可能性にも言及している。管理者は disableAutoMode 設定を用いて利用を無効化できるとされる。</p>
+<h2>AIの承認設計をめぐる議論</h2>
+<p>AIの操作に人間の判断を介在させる設計は、いわゆる「ヒューマン・イン・ザ・ループ」と呼ばれる考え方と関係する。日本政府が2026年2月16日に公表したAIガイドライン改定案でも、AIの行動に対して「人間の判断を必須化する仕組み」の導入が議論されている。</p>
+<p>今回確認されたauto modeは、AIが承認判断の一部を処理する仕組みとされており、AIシステムにおける人間の関与のあり方をめぐる議論との関係でも注目される。</p>
+<p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
+]]></description>
+      <pubDate>Mon, 09 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
       <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
       <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
@@ -44,27 +109,6 @@
 <p>今回の訴訟で目を引くのは、亡くなった利用者が未成年ではなく、36歳の成人だった点だ。生成AIをめぐる有害対話や依存の問題は、これまで未成年ユーザー保護の文脈で語られることが多かった。今回の件では、そうした問題が成人利用者にも及びうること、さらにAI企業の安全設計責任が年齢制限やティーン向け対策だけでは捉えきれない段階に入りつつあることを示す事案として注目される。</p>
 ]]></description>
       <pubDate>Sun, 08 Mar 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_shooting_case_reporting_policy_canada</link>
-      <description><![CDATA[<p>OpenAIは2026年2月26日、カナダ・ブリティッシュコロンビア州タンブラーリッジで発生した銃撃事件を受け、重大な犯罪につながるおそれのあるポリシー違反を検知した場合の法執行機関への通報基準を見直し、安全対策を強化する方針をカナダ政府に伝えた。事件はカナダ史上最悪級の銃乱射事件の一つとされており、容疑者が事件前にChatGPTを利用していたことが明らかになっている。</p>
-<p>同社がカナダの人工知能・デジタルイノベーション相エバン・ソロモン氏に送った<a href="https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf">書簡</a>によると、容疑者は事件前にChatGPTを利用しており、OpenAIは2025年6月に同アカウントを暴力行為に関連するポリシー違反として停止していた。</p>
-<p>ただし当時は、会話内容から「信頼できる差し迫った暴力計画（credible and imminent planning）」が確認できないと判断し、警察への通報は行われなかったという。</p>
-<h2>事件後、通報基準を見直し</h2>
-<p>OpenAIは書簡の中で、現在の強化された安全プロトコルを当時に適用していれば、当該アカウントを法執行機関に通報していた可能性があると説明した。</p>
-<p>これを受け、同社はカナダ政府に対し、以下の安全対策を進める方針を示した。</p>
-<p>・法執行機関への通報プロトコルの強化
-・カナダ警察との直接連絡窓口の設置
-・地域事情を踏まえた危機対応（デエスカレーション）の支援
-・アカウント停止後の再登録利用者の検知強化</p>
-<p>OpenAIによると、事件後の調査で、容疑者が別のChatGPTアカウントを使用していたことも判明しており、その情報は法執行機関と共有されたとしている。</p>
-<h2>AIサービスと犯罪リスクの対応が焦点に</h2>
-<p>今回の対応は、AIサービスにおける安全対策のあり方を巡る議論を改めて浮き彫りにした。従来は利用規約違反が確認された場合にアカウント停止などの措置が取られることが一般的だったが、今回の見直しでは、重大な犯罪リスクが検知された場合に法執行機関への連絡を行う可能性を明確化した形となる。</p>
-<p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
-<p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
-]]></description>
-      <pubDate>Sat, 07 Mar 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claudeアプリ急伸、ChatGPTに逆風か　米国防総省AI契約を巡りユーザー動向に変化</title>
@@ -103,6 +147,198 @@
       <pubDate>Fri, 06 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、米国防総省とAI軍事利用を再交渉　行き詰まり後も接点探る</title>
+      <link>https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart</link>
+      <description><![CDATA[<p>米AI企業Anthropicは、同社AIの軍事利用を巡る米国防総省との協議について、一度行き詰まった後も接点を探る交渉が続いていたことを明らかにした。2月下旬に公開した声明で対立の経緯を説明したほか、2026年3月5日付の<a href="https://www.anthropic.com/news/where-stand-department-war">声明</a>では、ここ数日間にわたり同省と「productive conversations（建設的な協議）」を続けていたとしている。</p>
+<h2>協議の争点は「国内監視」と「完全自律型兵器」</h2>
+<p>Anthropicは2026年2月26日、CEOのダリオ・アモデイ氏名義の<a href="https://www.anthropic.com/news/statement-department-of-war">声明</a>を公開し、同社のAIモデルを巡る米国防総省との協議が行き詰まったと説明した。争点となったのは、同社がAIの利用条件として設けている安全上の制限である。</p>
+<p>Anthropicは特に次の2つの用途について、例外を認めない立場を示した。
+・米国内での大規模監視
+・人間の関与なしに作動する完全自律型の殺傷兵器</p>
+<p>同社はこれらをAI安全ポリシーの中核と位置付けており、こうした利用条件を巡って国防総省との議論が行き詰まったとしている。</p>
+<h2>安全条件を維持したまま協力を模索</h2>
+<p>翌2月27日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">公開</a>した別の声明でも、Anthropicは同様の立場を改めて説明した。同社は米国の安全保障分野への協力自体を否定しているわけではないとした上で、AIモデルの利用は同社の安全原則に沿う必要があると強調している。争点は政治的対立ではなく、AIの具体的な利用条件にあるとしている。</p>
+<h2>「建設的な協議」を継続していたと説明</h2>
+<p>その後、3月5日に公開された声明では新たな状況が明らかになった。Anthropicによると、同社はここ数日間にわたり米国防総省と「productive conversations」を続けていたという。</p>
+<p>議論の内容は、同社の安全条件を維持したまま国防総省にどのように貢献できるか、あるいはそれが難しい場合にどのような形で移行を進めるかなどだったとしている。</p>
+<h2>国防総省は「サプライチェーンリスク」に指定</h2>
+<p>一方、Reutersは3月5日、米国防総省がAnthropicを「supply-chain risk（サプライチェーンリスク）」に指定したと報じた。これにより、政府契約企業による同社AIモデル「Claude」の利用に影響が及ぶ可能性があるという。</p>
+<p>またAnthropicと国防総省の対立を巡り、投資家や関係者が両者の緊張緩和を働きかけているとも<a href="https://www.reuters.com/technology/anthropic-investors-push-de-escalate-pentagon-clash-over-ai-safeguards-sources-2026-03-04/">伝えている</a>。</p>
+<h2>軍事AI利用の「線引き」が問われる</h2>
+<p>今回の問題は、AI企業が軍事分野とどこまで協力するかという課題を象徴するものでもある。Anthropicは米政府との協力を否定していないが、国内監視や完全自律型兵器といった用途については明確な制限を設けている。</p>
+<p>AIの軍事利用が拡大する中、技術企業と政府の間で「どこまで許容するか」という線引きが改めて問われている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2026/3/10 [TUE]Anthropic、米国防総省を提訴　「供給網リスク」認定は違法と主張</title>
+      <link>https://ledge.ai/articles/anthropic_sues_us_defense_department_supply_chain_risk_designation</link>
+      <description><![CDATA[<p>米AI企業Anthropicは2026年3月9日（現地時間）、同社を「サプライチェーンリスク（供給網リスク）」と認定した米国防総省などの措置は違法だとして、差し止めなどを求めて提訴した。<a href="https://www.courthousenews.com/wp-content/uploads/2026/03/anthropic-supply-chain-risk-lawsuit.pdf">訴状</a>によると、この認定は同社の契約や企業としての評判に重大な損害を与えていると主張している。Anthropicはこれに先立つ公式声明で、この措置について「法廷で争うほか選択肢がない」との立場を示していた。</p>
+<h2>Anthropicが米国防総省などを相手取り提訴</h2>
+<p>Anthropicが提出した訴状によると、同社は米国防総省などを被告として、米カリフォルニア州の北カリフォルニア連邦地裁に提訴した。訴状の表紙には「COMPLAINT FOR DECLARATORY AND INJUNCTIVE RELIEF（宣言的救済および差止救済を求める訴状）」と記されており、政府による措置の違法確認や差し止めなどを求めている。</p>
+<p>今回の訴訟は、米国防総省がAnthropicの製品やサービスを国家安全保障上の「サプライチェーンリスク」に該当すると認定したことが発端となった。</p>
+<h2>「供給網リスク」認定が争点</h2>
+<p>訴状によると、Anthropicは2026年3月4日、国防総省から正式書簡を受け取り、同社の製品やサービスが国家安全保障上のリスクに該当すると通知された。</p>
+<p>この認定により、政府機関や関連企業がAnthropicのサービス利用を見直す可能性があるとして、同社は事業への重大な影響が生じていると主張している。</p>
+<h2>「違法で前例のない措置」と主張</h2>
+<p>Anthropicは訴状の中で、今回の措置は法的権限を逸脱しており、行政手続きの面でも問題があると主張している。また、この認定によって政府契約や民間契約、企業としての評判などに回復困難な損害が生じていると訴えている。</p>
+<h2>提訴前から「法廷で争う」と表明</h2>
+<p>Anthropicは2026年3月5日に公開した<a href="https://www.anthropic.com/news/where-stand-department-war">公式声明</a>で、国防総省による措置について法的に妥当ではないとの認識を示し、「法廷で争うほか選択肢がない」と述べていた。</p>
+<p>同社はこれ以前の声明でも、</p>
+<ul>
+<li>米国人を対象とした大規模監視</li>
+<li>人間の監督なしに作動する致死的自律兵器</li>
+</ul>
+<p>へのAI利用には応じない立場を説明しており、政府との対立が続いていた。</p>
+<h2>政府措置の差し止めを求める</h2>
+<p>今回の訴訟でAnthropicは、</p>
+<ul>
+<li>「サプライチェーンリスク」認定の無効確認</li>
+<li>政府による実施や執行の差し止め</li>
+<li>関連する命令や通知の撤回</li>
+</ul>
+<p>などを求めている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2026/3/8 [SUN]AmazonやGoogleなど米テック7社、AIデータセンターの電力費負担を誓約　家庭向け料金への転嫁回避へ</title>
+      <link>https://ledge.ai/articles/big_tech_ai_data_center_power_cost_pledge</link>
+      <description><![CDATA[<p>AmazonやGoogle、Meta、Microsoft、OpenAI、Oracle、xAIの米テック大手7社は2026年3月4日、AI用データセンターの新規電源確保や送配電インフラ増強に伴う費用を自ら負担し、一般家庭向け電気料金に転嫁しないとする誓約に署名した。</p>
+<p>ホワイトハウスが同日公表した<a href="https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/">ファクトシート</a>によると、対象は「Ratepayer Protection Pledge」と呼ばれる枠組みで、AIブームに伴うデータセンター需要の拡大と電力コスト増への対応を狙う。</p>
+<h2>AIブームの電力コストを、家庭ではなく企業側が負担</h2>
+<p>今回の誓約のポイントは、AIブームを支える大規模データセンターの電力需要拡大によって生じるコストを、家庭向け料金に広く上乗せしないと明示した点にある。ホワイトハウスは、署名企業がデータセンター向けに必要な新規電源を自ら確保し、関連する費用も負担することで、電力料金の上昇圧力から一般利用者を守る狙いだとしている。</p>
+<h2>新規電源の確保や送配電網の増強費も対象</h2>
+<p>ホワイトハウスが公開した<a href="https://www.whitehouse.gov/articles/2026/03/ratepayer-protection-pledge/">誓約本文</a>では、署名企業はデータセンターに必要な電力を「build, bring, or buy（建設、持ち込み、または購入）」で確保するとされている。加えて、送電線や変電設備など電力インフラの増強費も負担し、電力を実際に使わない場合でも契約に基づく支払い義務を負う。さらに、非常時にはバックアップ電源を系統運用者と連携して活用する考えも盛り込まれた。</p>
+<h2>署名したのはAmazon、Google、Meta、Microsoft、OpenAI、Oracle、xAI</h2>
+<p>7社の顔ぶれは、Amazon、Google、Meta、Microsoft、OpenAI、Oracle、xAIだ。ホワイトハウスのファクトシートは、これらの企業が今回の枠組みに参加し、データセンター向けの電源調達やインフラ負担に関与すると明記している。AIとクラウドの中核を担う企業がそろって名を連ねたことで、データセンターの電力問題が一部地域の課題ではなく、米国のAIインフラ整備全体に関わる論点であることが浮き彫りになった。</p>
+<h2>企業側も「自社で負担」と説明</h2>
+<p>企業側も今回の署名に合わせて補足説明を出している。<a href="https://www.aboutamazon.com/news/policy-news-views/amazon-data-centers-power-costs-white-house-pledge">Amazon</a>は公式ブログで、データセンターの成長に伴う新規発電と送配電網の増強を含む電力コストを自社で負担すると説明した。<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/affordability-pledge-responsible-energy-growth/">Google</a>も、データセンターで使う電力と自社の成長が直接引き起こす新規インフラ費を100％負担する方針を示している。ホワイトハウス文書と合わせてみると、少なくとも今回の7社は、AIインフラ拡張のコストを「広く利用者に回す」のではなく「自社で引き受ける」姿勢を打ち出した形だ。</p>
+<h2>データセンター拡大を巡る懸念への対応という意味合いも</h2>
+<p>AI向けデータセンターは膨大な電力を必要とするため、米国では近年、地域の電力需給や料金上昇への影響が懸念されてきた。今回の誓約は、そうした懸念を和らげつつ、電源確保と系統増強を前提にAIインフラ整備を進めるための枠組みとして打ち出されたものといえる。一方で、この誓約は政府の制度改正ではなく企業によるコミットメントであり、今後は実際にどのような契約や電源開発、送配電投資につながるのかが焦点になりそうだ。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPTは「弁護士ではない」日本生命の米法人がOpenAI提訴——弁護士資格なしで法律業務と主張</title>
+      <link>https://ledge.ai/articles/chatgpt_not_lawyer_openai_lawsuit_nippon_life</link>
+      <description><![CDATA[<p>日本生命保険の米国法人は2026年3月4日、対話型AI「ChatGPT」が弁護士資格を持たないまま法律業務を行い、保険金の元受給者による訴訟を助長したとして、ChatGPTを開発する米OpenAIを米イリノイ州北部地区連邦地裁に提訴した。</p>
+<h2>ChatGPTが裁判書面の作成を支援と主張</h2>
+<p><a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">訴状</a>によると、保険金の元受給者は長期障害保険を巡って日本生命の米法人と訴訟を行い、2024年1月に和解していた。しかしその後、弁護士とのメール内容をChatGPTに入力して助言を求めるようになり、弁護士を解任。ChatGPTを使って裁判所に提出する書面の作成などを行ったとされる。</p>
+<p>女性は和解済みの訴訟の再開を求める申立書など多数の書面を裁判所に提出したが、裁判所はこれを却下した。</p>
+<h2>「ChatGPTは弁護士ではない」非弁行為を主張</h2>
+<p>訴状では、ChatGPTについて「弁護士ではなく、米国のいかなる司法管轄でも弁護士資格を認められていない」と指摘。さらにOpenAIが「法律業務に該当する作業を行うようChatGPTを設計・提供した」と主張している。</p>
+<p>また、ChatGPTが「正当な法的目的を持たない多数の裁判書面の作成を支援した」として、裁判手続きの濫用を助長したとも述べている。</p>
+<h2>約30万ドルの損害と1000万ドルの懲罰的賠償請求</h2>
+<p>日本生命の米法人は、この対応で約30万ドルの損害が生じたとして賠償を求めているほか、懲罰的損害賠償として1000万ドルの支払いも請求している。</p>
+<p>Reutersによると、OpenAIは声明で「この訴えには全く根拠がない」として争う姿勢を示している。</p>
+<p>今回の訴訟では、生成AIが法律助言や裁判書面の作成などを行うことが弁護士資格制度に抵触するかどうかが争点となる可能性がある。生成AIを巡っては、AIが作成した裁判書面の誤引用などが問題となる事例も報告されており、法律実務とAIの関係を巡る議論が続いている。</p>
+<p>訴訟記録は、米連邦裁判所の公開データベースを収集する<a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">CourtListener</a>でも確認できる。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
+      <link>https://ledge.ai/articles/iran_attack_amazon_data_center_bahrain</link>
+      <description><![CDATA[<p>イスラエルと米国によるイランへの攻撃を受け、中東情勢が緊張を増す中、イランが反撃の一環としてバーレーンにある米Amazonのデータセンターを攻撃したとされる。</p>
+<p>Amazon Web Services（AWS）は2026年3月2日（現地時間）に公開した障害情報で、中東地域のデータセンターが攻撃の影響を受けた可能性があると説明した。イランのイスラム革命防衛隊（IRGC）は、この施設について「敵の軍事・諜報活動を支援する役割を果たしていることを特定した上での対応」と説明している。</p>
+<p>Amazon Web Services（AWS）は<a href="https://health.aws.amazon.com/health/status">障害情報</a>のダッシュボードで、中東地域のインフラが攻撃の影響を受けたことを明らかにしている。AWSによると、アラブ首長国連邦（UAE）では2つの施設が直接攻撃を受けたほか、バーレーンではデータセンターの近傍にドローンが落下し、インフラ設備に影響が生じた。電力供給の停止や設備の損傷、消火活動に伴う水損などが発生したとされ、一部サービスの運用に影響が出た可能性があるという。</p>
+<p>イラン側は、この施設を単なる民間インフラではなく、軍事関連の機能を担う拠点とみなしている。イラン国営系メディアFarsが3月5日にTelegramで公開した<a href="https://t.me/farsna/415292">投稿</a>によると、革命防衛隊はバーレーンのAmazonデータセンターについて「敵の軍事・諜報活動を支援する役割を果たしていることを特定した」と説明している。イラン側の主張では、クラウドインフラが軍事・情報活動を支える基盤となっている可能性があるとして、攻撃対象となったとしている。<a href="url">発表</a>した。</p>
+<p><strong>イラン国営系メディアFarsのTelegram投稿。革命防衛隊はAmazonのデータセンターが「軍事・諜報活動を支援している」と主張している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/telegram_fars_42479b1cb9/telegram_fars_42479b1cb9.jpg" alt="telegram fars.jpg" /></p>
+<p>バーレーンには、Amazonの中東地域向けクラウド拠点「AWS Middle East（Bahrain）リージョン」が設置されている。Amazonは2019年にこのリージョンを開設しており、中東地域で利用される主要なクラウド基盤の一つとなっている。複数のAvailability Zoneで構成され、企業や政府機関などが利用するクラウドサービスを提供している。</p>
+<p>近年、クラウドインフラはAI分析やデータ処理、情報共有などの基盤として幅広く利用されている。AWSでも生成AI基盤サービス「Amazon Bedrock」などが同リージョンで提供されており、クラウドはデジタルインフラとして重要性を増している。</p>
+<p>一方で、紛争地域では電力網や通信網などのインフラが攻撃対象となるケースも増えている。今回のケースでは、クラウドデータセンターが軍事活動を支える可能性のあるインフラとして位置付けられ、攻撃対象になったとイラン側が主張している点が注目される。</p>
+<p>AIやクラウド技術が広く社会インフラとして利用される中、データセンターなどのデジタル基盤が紛争の影響を受ける可能性も指摘されている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、AIエージェントSNS「Moltbook」を買収　創業者2人はAI部門へ</title>
+      <link>https://ledge.ai/articles/meta_acquires_moltbook_ai_agent_social_network</link>
+      <description><![CDATA[<p>Metaは2026年3月10日、AIエージェント同士が投稿や交流を行うSNS「Moltbook」を買収した。このニュースは<a href="https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network">Axios</a>のスクープで明らかになり、その後ReutersやTechCrunch、APなどがMeta広報コメントをもとに追随して報じた。買収額は非公表で、共同創業者のMatt Schlicht氏とBen Parr氏はMeta Superintelligence Labs（MSL）に加わる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de.jpg" alt="axios meta hires duo behind moltbook.jpg" /></p>
+<p>Moltbookは、AIエージェント同士が投稿やコメントを通じて交流するために設計されたソーシャルネットワークサービスだ。AIエージェントが自律的に投稿し、能力や活動、タスクなどを共有するコミュニティとして注目を集めていた。人間のSNSを模した形式で、AIエージェント同士が互いの活動を評価したり、情報交換を行う場として機能する点が特徴とされる。</p>
+<p>このサービスは、AIエージェントのオープンな実行環境を目指す「OpenClaw」エコシステムとも関係があるとされる。OpenClawは、AIエージェントが外部ツールやサービスを利用しながらタスクを実行する仕組みを提供するもので、エージェント同士の連携や能力共有を可能にする枠組みとして開発が進められている。企業システムやオンラインサービスとAIエージェントを接続する基盤としても注目されている。</p>
+<p>Moltbookは、こうしたAIエージェントの活動や能力を可視化するコミュニティとして広まり、AIエージェントが互いに投稿する“AIエージェント専用SNS”として話題となった。AIエージェント同士の交流や評価が行われる実験的なコミュニティとして、AI開発者や研究者の間でも注目を集めていた。</p>
+<p>Axiosによると、Moltbookの共同創業者であるMatt Schlicht氏とBen Parr氏は、MetaのAI研究組織であるMeta Superintelligence Labs（MSL）に参加する。MSLはMetaがAI研究開発を強化するために設けた部門で、AI分野の研究者やエンジニアを集め、次世代のAI技術の開発を進めているという。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、News CorpとAI学習向け契約　年間最大5000万ドルで米英記事を利用へ</title>
+      <link>https://ledge.ai/articles/meta_news_corp_ai_content_licensing_50m_per_year</link>
+      <description><![CDATA[<p>米MetaがNews Corpと記事コンテンツをAI製品やAI学習に活用するためのライセンス契約を結んだと、米<a href="https://www.wsj.com/business/media/news-corp-meta-in-ai-content-licensing-deal-worth-up-to-50-million-a-year-d4fbf244">Wall Street Journal（WSJ）</a>が2026年3月3日に報じた。契約は複数年で、Metaは年間最大5000万ドルを支払う見通しだという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wsj_news_corp_and_meta_9c945e8b40/wsj_news_corp_and_meta_9c945e8b40.jpg" alt="wsj news corp and meta.jpg" /></p>
+<p>契約期間は少なくとも3年で、対象となるのはNews Corpの米国および英国のコンテンツだという。Metaは最新の記事をAI製品に組み込んでリアルタイム性の高い情報提供に活用できるほか、記事アーカイブをAI学習にも利用できるとしている。</p>
+<p>News CorpはWall Street Journalのほか、New York Postや英The Sunなどを傘下に持つ。今回の契約により、Metaは報道機関が持つ比較的信頼性の高いニュースコンテンツを、AI製品の回答品質向上や学習データ拡充に生かす構図となる。</p>
+<p>News CorpのCEOであるRobert Thomson氏は、3月2日に開かれたMorgan Stanleyの会議で、同社をAI時代の「input company」と位置づけた。半導体やデータセンター、エネルギーになぞらえながら、ニュースや書籍、不動産情報といった保有コンテンツがAIにとって重要な入力資源になるとの見方を示した。</p>
+<p>今回の動きは、News CorpがAI企業に対して進めてきたライセンス戦略の延長線上にある。News Corpは2024年にOpenAIとも5年総額2億5000万ドル規模の契約を締結しており、SEC文書ではGoogle、Amazon、Metaとの交渉を監督していたことも示されていた。</p>
+<p>一方で、News Corp傘下のDow JonesとNew York Postは、AI検索企業Perplexityを著作権侵害で提訴している。無断利用には法的措置を取りつつ、条件が整えば有償でライセンス供与するという、いわば「提携か対決か」の二面戦略が鮮明になっている。</p>
+<p>Metaは2025年12月、CNNやFox News、USA Today、People Inc.など複数の報道機関と商用のAIデータ契約を結んだとAxiosやReutersが報じていた。生成AIの競争が進む中で、権利処理済みの高品質なニュースコンテンツをどう確保するかが、AI企業にとって重要なテーマになっている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>みずほFG、金融特化LLMを独自開発　銀行実務テストで“推論なし”正答率89.0％は汎用LLMと同水準の精度</title>
+      <link>https://ledge.ai/articles/mizuho_finance_specialized_llm_reasoning_free_89_accuracy</link>
+      <description><![CDATA[<p>みずほフィナンシャルグループは2026年3月5日、独自に開発を進めている金融特化の大規模言語モデル（LLM）が、銀行の実務テストにおいて推論に依存しない条件下で正答率89.0％を達成したと<a href="https://prtimes.jp/main/html/rd/p/000000002.000177612.html">発表</a>した。業務利用を想定した評価では平均回答時間1秒未満も確認され、同社は高精度と即答性の両立を実現したとしている。</p>
+<h2>推論なしでも汎用LLMと同水準の精度</h2>
+<p>検証では、預金、融資、外国為替など銀行業務に関する多肢選択式の問題を用いた実務テストを実施した。みずほFGの金融特化LLM（Qwen3-32Bベース）は、推論なし・コンテキスト付与ありの条件で正答率89.0％、平均回答時間1秒未満を記録した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_27ea03f219/LLM_27ea03f219.jpg" alt="金融特化LLM.jpg" /></p>
+<p>発表では比較対象として汎用LLM「GPT-5.2」の検証結果も示された。推論なし条件では同モデルも正答率89.0％、平均回答時間1秒未満だった。一方、推論あり設定では正答率89.7％、平均回答時間67.4秒となり、みずほFGは自社モデルが推論に依存せず同水準の精度を確保できる点を特徴として挙げている。</p>
+<h2>金融業務では応答遅延が課題</h2>
+<p>金融業界では生成AIの活用が広がる一方、複雑な金融商品や社内規定に関する照会では、回答時間の増加や計算コストの上昇が課題となっている。トレーディングや市場分析などでは、応答の遅れが市場機会の損失につながる可能性もある。</p>
+<p>こうした背景からみずほFGは、金融実務の知識や社内ルール、コンプライアンス上の留意点を学習させた金融特化LLMの開発を進めてきた。モデルは銀行内の閉域環境（オンプレミス）で運用でき、機密性の高いデータを外部に送信することなくAI処理を実行できる。</p>
+<h2>将来は専門業務AIへ拡張</h2>
+<p>みずほFGは今後、金融特化LLMを基盤として業務領域ごとの専門モデルを拡張していく計画だ。まず金融基礎や社内手続に対応するモデルを整備し、その後「融資」「法務」「市場」などの専門LLMを構築。最終的には複数のモデルを連携させる協調型エキスパートLLMによる部門横断的な判断支援を目指すとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_shooting_case_reporting_policy_canada</link>
+      <description><![CDATA[<p>OpenAIは2026年2月26日、カナダ・ブリティッシュコロンビア州タンブラーリッジで発生した銃撃事件を受け、重大な犯罪につながるおそれのあるポリシー違反を検知した場合の法執行機関への通報基準を見直し、安全対策を強化する方針をカナダ政府に伝えた。事件はカナダ史上最悪級の銃乱射事件の一つとされており、容疑者が事件前にChatGPTを利用していたことが明らかになっている。</p>
+<p>同社がカナダの人工知能・デジタルイノベーション相エバン・ソロモン氏に送った<a href="https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf">書簡</a>によると、容疑者は事件前にChatGPTを利用しており、OpenAIは2025年6月に同アカウントを暴力行為に関連するポリシー違反として停止していた。</p>
+<p>ただし当時は、会話内容から「信頼できる差し迫った暴力計画（credible and imminent planning）」が確認できないと判断し、警察への通報は行われなかったという。</p>
+<h2>事件後、通報基準を見直し</h2>
+<p>OpenAIは書簡の中で、現在の強化された安全プロトコルを当時に適用していれば、当該アカウントを法執行機関に通報していた可能性があると説明した。</p>
+<p>これを受け、同社はカナダ政府に対し、以下の安全対策を進める方針を示した。</p>
+<p>・法執行機関への通報プロトコルの強化
+・カナダ警察との直接連絡窓口の設置
+・地域事情を踏まえた危機対応（デエスカレーション）の支援
+・アカウント停止後の再登録利用者の検知強化</p>
+<p>OpenAIによると、事件後の調査で、容疑者が別のChatGPTアカウントを使用していたことも判明しており、その情報は法執行機関と共有されたとしている。</p>
+<h2>AIサービスと犯罪リスクの対応が焦点に</h2>
+<p>今回の対応は、AIサービスにおける安全対策のあり方を巡る議論を改めて浮き彫りにした。従来は利用規約違反が確認された場合にアカウント停止などの措置が取られることが一般的だったが、今回の見直しでは、重大な犯罪リスクが検知された場合に法執行機関への連絡を行う可能性を明確化した形となる。</p>
+<p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
+<p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
+      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
+      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
+<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
+<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
+<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
+<h2>ベータテストで120万コミットをスキャン</h2>
+<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
+<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
+<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
+<h2>修正パッチの提案まで自動化</h2>
+<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
+<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
+<h2>AIエージェントによるセキュリティ監査の可能性</h2>
+<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
+<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
       <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
       <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
@@ -139,17 +375,66 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIが“あなたに寄り添うパートナー”に——ドコモ、パーソナルAIエージェント「SyncMe」パイロット版を2026年春から先行公開</title>
-      <link>https://ledge.ai/articles/syncme_docomo_personal_ai_agent_launch</link>
-      <description><![CDATA[<p>NTTドコモは、パーソナルAIエージェント「SyncMe（シンクミー）」のパイロット版を2026年春ごろからモニター向けに先行公開すると<a href="https://prtimes.jp/main/html/rd/p/000000766.000118641.html">発表</a>した。モニター募集は2026年3月2日に開始され、利用者からのフィードバックをもとに改善を重ね、2026年夏ごろの一般提供開始を目指す。</p>
-<p>SyncMeは、ユーザー一人ひとりの価値観や感性の傾向を理解し、「あなたに寄り添うパートナー」として雑談や相談などの日常コミュニケーションを行うパーソナルAIエージェントとして開発された。利用履歴やユーザーの反応を踏まえながら理解を深め、より個人に適した提案や応答を行うことを目指す。</p>
-<p>サービスの特徴の一つが、dアカウント情報を活用したパーソナライズだ。dアカウントに蓄積された情報を分析し、ユーザーの価値観や性格傾向を推定することで、利用開始時から個人に合わせた体験を提供するという。</p>
-<p>また、ユーザーの感性や好みを把握する機能として「#今のワタシ診断」を搭載する。ユーザーが撮影した20枚の写真を分析し、言語化しにくい価値観や嗜好の傾向を推定する仕組みで、その結果はAIの提案や応答内容に反映される。</p>
-<p>対話インターフェースには2体のキャラクターを採用した。ユーザーと会話する役割の「ワラピィ」と、裏側で情報収集や連携を担う「ヨミドーリ」が組み合わさることで、対話と情報処理を分担する設計となっている。</p>
-<p>安全面では、暴力的・差別的な内容など有害な出力を抑制する独自のガードレールを導入しているほか、既存のセキュリティ基準に基づいた情報管理を行うとしている。</p>
-<p>NTTドコモは今回のモニター提供を通じて、ユーザーの意見を反映しながらサービスの改善を進め、SyncMeを日常生活に寄り添うAIパートナーとして発展させていくとしている。</p>
+      <title>さくらインターネット、AI人材育成へ「さくらのAI検定」設立　AI基礎から実践まで学ぶ資格制度</title>
+      <link>https://ledge.ai/articles/sakura_ai_certification_launch</link>
+      <description><![CDATA[<p>さくらインターネットは2026年3月4日、AI人材育成を目的とした新たな資格制度「さくらのAI検定」を設立したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2026/03/04/1968223791/">発表</a>した。AIの基礎知識から実践的な活用までを体系的に学べる検定で、無料教材も公開する。第1回試験は2026年夏に実施予定としている。</p>
+<h2>AIの基礎から生成AIまでを体系的に学ぶ</h2>
+<p>同検定は、AIの基礎から生成AI技術、AIサービスの実践的な利用方法までを一貫して学べる検定制度として設計された。AIを単なる用語として覚えるのではなく、仕組みや背景を理解した上で、実務で活用できる力を身につけることを目的としている。</p>
+<p>試験範囲には、機械学習や深層学習、強化学習といったAIの基本概念のほか、ニューラルネットワークの構造、教師あり・教師なし学習などの学習手法が含まれる。さらに、テキスト生成や画像生成、音声生成などの生成AI技術、大規模言語モデル（LLM）の仕組みなども対象となる。</p>
+<p>また、生成AIの拡張構造として、RAG（検索拡張生成）やLoRA、MCP、LLMエージェントといった技術も取り上げる。ハルシネーションやデータバイアス、セキュリティ、情報漏えい対策など、生成AI活用における課題についても学習範囲に含まれる。</p>
+<h2>さくらのAIサービスを使った実践学習</h2>
+<p>同検定では、同社が提供するAIサービスを使った実践学習も組み込まれている。対象となるサービスには、「さくらのAI Engine」や「高火力VRT」「高火力DOK」などが含まれる。</p>
+<p>具体的には、チャットAIの構築やドキュメント連携によるRAGの実装、音声文字起こしAPIの活用、画像生成や音声合成などの実践的な内容が用意されている。また、LoRAによる追加学習やマルチモーダルAPIの活用など、実際のAIサービス利用を想定した演習も含まれる。</p>
+<p>同社は、国内で完結するAI実行環境を利用しながら、実際のサービス活用を想定したAIの使い方を体験できる点を特徴としている。</p>
+<h2>教材は無料公開、試験はオンラインで実施</h2>
+<p>学習教材はオンラインで<a href="https://zero2one.jp/news/news_sakura-ai-certification/">無料公開</a>されており、AI学習の入り口として誰でも利用できる。検定に合格するための学習時間の目安は15〜20時間程度としている。</p>
+<p>試験はオンライン形式で実施され、受検資格に制限はない。試験時間や問題数などの詳細は今後決定される予定で、第1回試験は2026年夏に実施される見込みだ。試験プラットフォームには、教育・検定サービスを提供する<a href="https://zero2one.jp/product/sakura-ai-certification/">zero to one</a>のシステムが利用される。</p>
+<p><strong>「さくらのAI検定」 AI基礎の教材イメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_3_1024x578_7229ed3456/image_3_1024x578_7229ed3456.png" alt="image-3-1024x578.png" /></p>
+<p>同検定は、AIの技術的基礎を理解した上で、AIサービスを適切に使いこなせる判断力とスキルを持つ人材であることを証明する資格として位置づけられている。</p>
 ]]></description>
-      <pubDate>Thu, 05 Mar 2026 05:50:00 GMT</pubDate>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>竹中工務店、データセンター特化型の設計支援ツールを開発　設計プランを自動作成、AI普及で拡大する建設需要に対応</title>
+      <link>https://ledge.ai/articles/takenaka_datacenter_design_support_tool</link>
+      <description><![CDATA[<p>竹中工務店は2026年3月5日、データセンターに特化した設計支援ツールを開発したと<a href="https://www.takenaka.co.jp/news/2026/03/02/">発表</a>した。</p>
+<p>土地の条件やサーバーの電力消費量などの基本情報を入力すると、設備仕様や建物ボリューム、3D画像などを自動作成し、事業化検討に必要な設計プランを短期間で作成できる。生成AIの普及などを背景に拡大するデータセンター建設需要への対応を狙う。</p>
+<h2>データセンター設計に特化した支援ツール</h2>
+<p>今回開発されたツールは、データセンターの設計初期段階にあたる「設計基本計画」の検討を支援するものだ。データセンターは、大量のサーバー機器を収容するため、建築構造だけでなく、電源設備や空調設備などのインフラを含めた複合的な設計が必要となる。こうした複雑な設計検討を効率化するため、竹中工務店は過去の設計実績や知見をデータベース化し、標準的な設計手法と最新技術動向を反映した設計支援ツールを構築した。</p>
+<p>ツールは、データセンターの規模や必要電力、敷地条件などの基本情報を入力することで、事業化検討に必要な設計プランを作成できる仕組みとなっている。建設業界において、データセンター設計に特化した支援ツールの開発は初めてだという。</p>
+<h2>設備仕様や建物ボリューム、3D画像を自動作成</h2>
+<p>ツールでは、受変電設備や非常用発電機、無停電電源装置（UPS）、空調設備など、データセンターに必要な主要設備の仕様や容量を自動作成する。また、サーバールームや付帯施設に必要なスペースを算出し、建物全体のボリュームや内部構成を検討する。</p>
+<p>さらに、設備配置や建物構成を可視化した3D画像も自動作成できる。これにより、設計内容を視覚的に確認できるほか、顧客との認識共有にも役立てられるという。</p>
+<h2>設計検討期間を数カ月から2〜3週間に短縮</h2>
+<p>データセンターの設計初期段階では、設備仕様や建物構成を検討するために多くの作業が必要となり、従来は設計プランの作成までに数カ月程度かかるケースもあった。今回のツールを活用することで、設計検討期間を約2〜3週間に短縮できるとしている。</p>
+<p>設計プロセスを標準化し、初期検討を効率化することで、顧客への提案スピードを高めるとともに、3D画像を用いた説明によって合意形成の迅速化も期待できるという。</p>
+<h2>AI普及で拡大するデータセンター建設需要</h2>
+<p>近年、生成AIをはじめとするAI技術の普及に伴い、データセンターの整備需要は世界的に拡大している。大量の計算処理を支えるインフラとして、高性能サーバーや電力・冷却設備を備えた施設の新設や増設が相次いでいる。</p>
+<p>こうした状況の中で、データセンター計画では設計や検討段階の迅速化が重要な課題となっている。竹中工務店は今回の設計支援ツールを活用することで、初期計画段階における検討の効率化と設計品質の向上を図り、デジタル社会を支えるインフラ整備に貢献していくとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>侍ジャパン、WBCでAI誹謗中傷検出システム導入　前年は国内ポストシーズンで380万件分析・466件認定</title>
+      <link>https://ledge.ai/articles/wbc_ai_antislander_system</link>
+      <description><![CDATA[<p>日本野球機構（NPB）とNPBエンタープライズ、日本プロ野球選手会は2026年3月4日、同年3月開催の「2026 WORLD BASEBALL CLASSIC（WBC）」で、野球日本代表「侍ジャパン」の監督、コーチ、選手などを対象に、AIを活用した誹謗中傷検出システムを共同導入すると<a href="https://jpbpa.net/2026/03/04/12924/">発表</a>した。対象は侍ジャパンの全試合で、試合の前後一定期間にわたりSNS上の公開投稿を監視・分析する。WBC東京プールは日本時間3月5日から10日まで開催される。</p>
+<h2>日本代表の監督・コーチ・選手を対象にSNSを監視</h2>
+<p>今回の取り組みは日本代表の監督、コーチ、選手などを誹謗中傷から守ることを目的とするものだ。対象試合は「2026 WORLD BASEBALL CLASSIC」における日本代表の全試合で、検出期間は各試合の前後一定期間。誹謗中傷行為の抑止と迅速な対応を通じて、監督・コーチ・選手が安心して競技に集中できる環境を整えるとともに、健全な観戦環境の実現を目指す。</p>
+<h2>投稿の通報・削除要請や証拠保全まで対応</h2>
+<p>導入するのは、英国Signify Groupが提供するAI誹謗中傷検出・通報支援サービス「<a href="https://www.signify.ai/threatmatrix">Threat Matrix</a>」だ。日本語を含む42言語に対応し、主要SNS上で日本代表メンバーに向けられた投稿を監視・分析。不適切な投稿を検出した場合には、SNS各社への通報や削除要請、関係各所との情報共有、必要に応じた証拠化や関係機関との連携などを行う。</p>
+<p>また、分析結果により投稿者本人が確認された場合には、NPBエンタープライズが主催する大会・試合や、日本プロ野球選手会に関連するイベントなどにおいて、入場禁止を含む措置を検討する可能性があるとしている。</p>
+<h2>前年は約380万件を分析、466件を誹謗中傷と認定</h2>
+<p>今回の導入は、前年の国内ポストシーズンでの運用実績を踏まえたものでもある。日本プロ野球選手会が同日公表した結果報告によると、2025年度のクライマックスシリーズおよび日本シリーズでは、被害のあった公式アカウントが計79にのぼり、AIが約380万件の投稿を分析。その中から2,917件を疑義投稿として抽出し、専門アナリストによる精査を経て466件を誹謗中傷と認定した。さらに197アカウントについて発信元を確認したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0307_side_0bc05b2711/0307_side_0bc05b2711.jpg" alt="0307-side.jpg" /></p>
+<h2>「人格攻撃・罵詈雑言」が過半、発信元197アカウントを確認</h2>
+<p>前年の結果報告では、誹謗中傷の内容として「人格攻撃・罵詈雑言」が56.2％で最多だった。このほか揶揄や中傷、暴力・脅迫なども確認されており、国内ポストシーズンの段階でオンライン上の被害実態が数字として可視化されていた。</p>
+<h2>英Signifyの「Threat Matrix」を採用</h2>
+<p>Threat Matrixを提供する<a href="https://www.signify.ai/about">Signify Group</a>は、公開されているSNSなどのデータをAIで分析し、人のレビューを組み合わせてオンライン上の脅威や中傷を可視化・証拠化するオンライン保護サービス企業だ。Threat MatrixはSNSなどの公開情報を収集し、AIによる自然言語分析で対象人物への投稿を抽出したうえで、人による確認を行い、対応や証拠化につなげる仕組みとしている。</p>
+<p>日本プロ野球選手会によると、同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）と国際テニス連盟（ITF）のプログラムなど、世界規模のスポーツイベントでも導入実績があるという。</p>
+<p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claudeユーザー急増の中、Anthropicが「メモリー移行」機能　他AIからの乗り換えを容易に</title>
@@ -173,30 +458,6 @@
 <p>生成AI市場では、ユーザーが複数のAIサービスを使い分ける動きが広がっている。一方で、AIに教えた個人設定や作業スタイルがサービスごとに分断されることが、乗り換えの障壁となってきた。そのような状況の中で公開された「Import Memory」は、ユーザーが別のAIサービスへ移行する際の障壁を下げる狙いがあるとみられる。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
-      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
-      <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
-<h2>Claude Codeは操作前に人間の承認を求める設計</h2>
-<p>Claude Codeでは、AIがコードを書き換えたりコマンドを実行したりする前に、人間がその操作を許可するか確認する仕組みが採用されている。Anthropicの公式ドキュメントによると、通常モードでは各アクションの前にユーザーの許可を求め、変更内容を確認してから実行する。</p>
-<p>同ドキュメントでは、VS Code連携時にAIがファイル編集を行う際、変更案を表示してユーザーが承認する流れが説明されている。こうした承認プロセスにより、AIによる変更を人間が確認できる設計になっている。</p>
-<h2>権限モードを切り替える既存機能</h2>
-<p>Claude Codeには、承認の扱いを切り替える複数の権限モードが用意されている。公式ドキュメントによると、Shift+Tabなどの操作で「Auto-Accept Mode」「Plan Mode」「normal mode」を切り替えることができる。</p>
-<p>Common workflowsの説明では、通常モードからAuto-Accept Modeへ切り替えることで、確認なしで編集を実行できる運用も示されている。Claude Codeでは、こうした仕組みにより承認フローを段階的に調整できる。</p>
-<h2>通知文で浮上した新モード「auto mode」</h2>
-<p>Reddit上に投稿された管理者向け通知文によると、新しいpermissions modeとして「auto mode」が導入される予定とされている。通知文では、auto modeによりClaudeがコーディング中のpermission decisionsを処理し、長時間の作業が手動承認によって中断されにくくなると説明されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a/new_auto_mode_permissions_coming_v0_bihd494ad3ng1_556424483a.jpg" alt="new-auto-mode-permissions-coming-v0-bihd494ad3ng1.jpg" /></p>
-<p>同通知文では、この機能が承認を完全に省略する --dangerously-skip-permissions のより安全な代替として設計されたことも明記されている。このフラグは、長時間タスクの途中で承認待ちが発生するのを避けるため開発者の間で利用されてきたが、安全性の懸念が指摘されてきた。auto modeでは、Claudeが承認判断を処理する一方、プロンプトインジェクション対策など追加の安全機能が組み込まれるとされる。</p>
-<h2>研究プレビューとして提供予定</h2>
-<p>通知文によると、auto modeは2026年3月中旬以降にresearch previewとして提供される予定とされる。また、利用方法として claude --enable-auto-mode コマンドで有効化できると説明されている。</p>
-<p>一方で、同モードは「すべてのリスクを防ぐものではない」とされ、隔離された環境での利用を推奨すると記されている。さらに、トークン使用量やコスト、レイテンシがわずかに増える可能性にも言及している。管理者は disableAutoMode 設定を用いて利用を無効化できるとされる。</p>
-<h2>AIの承認設計をめぐる議論</h2>
-<p>AIの操作に人間の判断を介在させる設計は、いわゆる「ヒューマン・イン・ザ・ループ」と呼ばれる考え方と関係する。日本政府が2026年2月16日に公表したAIガイドライン改定案でも、AIの行動に対して「人間の判断を必須化する仕組み」の導入が議論されている。</p>
-<p>今回確認されたauto modeは、AIが承認判断の一部を処理する仕組みとされており、AIシステムにおける人間の関与のあり方をめぐる議論との関係でも注目される。</p>
-<p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claudeの「大規模蒸留攻撃」を確認──DeepSeek・Moonshot・MiniMaxが不正抽出、約2.4万アカウントで1600万超のやり取り</title>
@@ -240,343 +501,6 @@
 <p>今回の公表についてAnthropicは「証拠を共有し、業界全体で対処するため」と説明。今後も監視と対策を継続するとしている。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、米国防総省とAI軍事利用を再交渉　行き詰まり後も接点探る</title>
-      <link>https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart</link>
-      <description><![CDATA[<p>米AI企業Anthropicは、同社AIの軍事利用を巡る米国防総省との協議について、一度行き詰まった後も接点を探る交渉が続いていたことを明らかにした。2月下旬に公開した声明で対立の経緯を説明したほか、2026年3月5日付の<a href="https://www.anthropic.com/news/where-stand-department-war">声明</a>では、ここ数日間にわたり同省と「productive conversations（建設的な協議）」を続けていたとしている。</p>
-<h2>協議の争点は「国内監視」と「完全自律型兵器」</h2>
-<p>Anthropicは2026年2月26日、CEOのダリオ・アモデイ氏名義の<a href="https://www.anthropic.com/news/statement-department-of-war">声明</a>を公開し、同社のAIモデルを巡る米国防総省との協議が行き詰まったと説明した。争点となったのは、同社がAIの利用条件として設けている安全上の制限である。</p>
-<p>Anthropicは特に次の2つの用途について、例外を認めない立場を示した。
-・米国内での大規模監視
-・人間の関与なしに作動する完全自律型の殺傷兵器</p>
-<p>同社はこれらをAI安全ポリシーの中核と位置付けており、こうした利用条件を巡って国防総省との議論が行き詰まったとしている。</p>
-<h2>安全条件を維持したまま協力を模索</h2>
-<p>翌2月27日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">公開</a>した別の声明でも、Anthropicは同様の立場を改めて説明した。同社は米国の安全保障分野への協力自体を否定しているわけではないとした上で、AIモデルの利用は同社の安全原則に沿う必要があると強調している。争点は政治的対立ではなく、AIの具体的な利用条件にあるとしている。</p>
-<h2>「建設的な協議」を継続していたと説明</h2>
-<p>その後、3月5日に公開された声明では新たな状況が明らかになった。Anthropicによると、同社はここ数日間にわたり米国防総省と「productive conversations」を続けていたという。</p>
-<p>議論の内容は、同社の安全条件を維持したまま国防総省にどのように貢献できるか、あるいはそれが難しい場合にどのような形で移行を進めるかなどだったとしている。</p>
-<h2>国防総省は「サプライチェーンリスク」に指定</h2>
-<p>一方、Reutersは3月5日、米国防総省がAnthropicを「supply-chain risk（サプライチェーンリスク）」に指定したと報じた。これにより、政府契約企業による同社AIモデル「Claude」の利用に影響が及ぶ可能性があるという。</p>
-<p>またAnthropicと国防総省の対立を巡り、投資家や関係者が両者の緊張緩和を働きかけているとも<a href="https://www.reuters.com/technology/anthropic-investors-push-de-escalate-pentagon-clash-over-ai-safeguards-sources-2026-03-04/">伝えている</a>。</p>
-<h2>軍事AI利用の「線引き」が問われる</h2>
-<p>今回の問題は、AI企業が軍事分野とどこまで協力するかという課題を象徴するものでもある。Anthropicは米政府との協力を否定していないが、国内監視や完全自律型兵器といった用途については明確な制限を設けている。</p>
-<p>AIの軍事利用が拡大する中、技術企業と政府の間で「どこまで許容するか」という線引きが改めて問われている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2026/3/10 [TUE]Anthropic、米国防総省を提訴　「供給網リスク」認定は違法と主張</title>
-      <link>https://ledge.ai/articles/anthropic_sues_us_defense_department_supply_chain_risk_designation</link>
-      <description><![CDATA[<p>米AI企業Anthropicは2026年3月9日（現地時間）、同社を「サプライチェーンリスク（供給網リスク）」と認定した米国防総省などの措置は違法だとして、差し止めなどを求めて提訴した。<a href="https://www.courthousenews.com/wp-content/uploads/2026/03/anthropic-supply-chain-risk-lawsuit.pdf">訴状</a>によると、この認定は同社の契約や企業としての評判に重大な損害を与えていると主張している。Anthropicはこれに先立つ公式声明で、この措置について「法廷で争うほか選択肢がない」との立場を示していた。</p>
-<h2>Anthropicが米国防総省などを相手取り提訴</h2>
-<p>Anthropicが提出した訴状によると、同社は米国防総省などを被告として、米カリフォルニア州の北カリフォルニア連邦地裁に提訴した。訴状の表紙には「COMPLAINT FOR DECLARATORY AND INJUNCTIVE RELIEF（宣言的救済および差止救済を求める訴状）」と記されており、政府による措置の違法確認や差し止めなどを求めている。</p>
-<p>今回の訴訟は、米国防総省がAnthropicの製品やサービスを国家安全保障上の「サプライチェーンリスク」に該当すると認定したことが発端となった。</p>
-<h2>「供給網リスク」認定が争点</h2>
-<p>訴状によると、Anthropicは2026年3月4日、国防総省から正式書簡を受け取り、同社の製品やサービスが国家安全保障上のリスクに該当すると通知された。</p>
-<p>この認定により、政府機関や関連企業がAnthropicのサービス利用を見直す可能性があるとして、同社は事業への重大な影響が生じていると主張している。</p>
-<h2>「違法で前例のない措置」と主張</h2>
-<p>Anthropicは訴状の中で、今回の措置は法的権限を逸脱しており、行政手続きの面でも問題があると主張している。また、この認定によって政府契約や民間契約、企業としての評判などに回復困難な損害が生じていると訴えている。</p>
-<h2>提訴前から「法廷で争う」と表明</h2>
-<p>Anthropicは2026年3月5日に公開した<a href="https://www.anthropic.com/news/where-stand-department-war">公式声明</a>で、国防総省による措置について法的に妥当ではないとの認識を示し、「法廷で争うほか選択肢がない」と述べていた。</p>
-<p>同社はこれ以前の声明でも、</p>
-<ul>
-<li>米国人を対象とした大規模監視</li>
-<li>人間の監督なしに作動する致死的自律兵器</li>
-</ul>
-<p>へのAI利用には応じない立場を説明しており、政府との対立が続いていた。</p>
-<h2>政府措置の差し止めを求める</h2>
-<p>今回の訴訟でAnthropicは、</p>
-<ul>
-<li>「サプライチェーンリスク」認定の無効確認</li>
-<li>政府による実施や執行の差し止め</li>
-<li>関連する命令や通知の撤回</li>
-</ul>
-<p>などを求めている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2026/3/8 [SUN]AmazonやGoogleなど米テック7社、AIデータセンターの電力費負担を誓約　家庭向け料金への転嫁回避へ</title>
-      <link>https://ledge.ai/articles/big_tech_ai_data_center_power_cost_pledge</link>
-      <description><![CDATA[<p>AmazonやGoogle、Meta、Microsoft、OpenAI、Oracle、xAIの米テック大手7社は2026年3月4日、AI用データセンターの新規電源確保や送配電インフラ増強に伴う費用を自ら負担し、一般家庭向け電気料金に転嫁しないとする誓約に署名した。</p>
-<p>ホワイトハウスが同日公表した<a href="https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/">ファクトシート</a>によると、対象は「Ratepayer Protection Pledge」と呼ばれる枠組みで、AIブームに伴うデータセンター需要の拡大と電力コスト増への対応を狙う。</p>
-<h2>AIブームの電力コストを、家庭ではなく企業側が負担</h2>
-<p>今回の誓約のポイントは、AIブームを支える大規模データセンターの電力需要拡大によって生じるコストを、家庭向け料金に広く上乗せしないと明示した点にある。ホワイトハウスは、署名企業がデータセンター向けに必要な新規電源を自ら確保し、関連する費用も負担することで、電力料金の上昇圧力から一般利用者を守る狙いだとしている。</p>
-<h2>新規電源の確保や送配電網の増強費も対象</h2>
-<p>ホワイトハウスが公開した<a href="https://www.whitehouse.gov/articles/2026/03/ratepayer-protection-pledge/">誓約本文</a>では、署名企業はデータセンターに必要な電力を「build, bring, or buy（建設、持ち込み、または購入）」で確保するとされている。加えて、送電線や変電設備など電力インフラの増強費も負担し、電力を実際に使わない場合でも契約に基づく支払い義務を負う。さらに、非常時にはバックアップ電源を系統運用者と連携して活用する考えも盛り込まれた。</p>
-<h2>署名したのはAmazon、Google、Meta、Microsoft、OpenAI、Oracle、xAI</h2>
-<p>7社の顔ぶれは、Amazon、Google、Meta、Microsoft、OpenAI、Oracle、xAIだ。ホワイトハウスのファクトシートは、これらの企業が今回の枠組みに参加し、データセンター向けの電源調達やインフラ負担に関与すると明記している。AIとクラウドの中核を担う企業がそろって名を連ねたことで、データセンターの電力問題が一部地域の課題ではなく、米国のAIインフラ整備全体に関わる論点であることが浮き彫りになった。</p>
-<h2>企業側も「自社で負担」と説明</h2>
-<p>企業側も今回の署名に合わせて補足説明を出している。<a href="https://www.aboutamazon.com/news/policy-news-views/amazon-data-centers-power-costs-white-house-pledge">Amazon</a>は公式ブログで、データセンターの成長に伴う新規発電と送配電網の増強を含む電力コストを自社で負担すると説明した。<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/affordability-pledge-responsible-energy-growth/">Google</a>も、データセンターで使う電力と自社の成長が直接引き起こす新規インフラ費を100％負担する方針を示している。ホワイトハウス文書と合わせてみると、少なくとも今回の7社は、AIインフラ拡張のコストを「広く利用者に回す」のではなく「自社で引き受ける」姿勢を打ち出した形だ。</p>
-<h2>データセンター拡大を巡る懸念への対応という意味合いも</h2>
-<p>AI向けデータセンターは膨大な電力を必要とするため、米国では近年、地域の電力需給や料金上昇への影響が懸念されてきた。今回の誓約は、そうした懸念を和らげつつ、電源確保と系統増強を前提にAIインフラ整備を進めるための枠組みとして打ち出されたものといえる。一方で、この誓約は政府の制度改正ではなく企業によるコミットメントであり、今後は実際にどのような契約や電源開発、送配電投資につながるのかが焦点になりそうだ。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTは「弁護士ではない」日本生命の米法人がOpenAI提訴——弁護士資格なしで法律業務と主張</title>
-      <link>https://ledge.ai/articles/chatgpt_not_lawyer_openai_lawsuit_nippon_life</link>
-      <description><![CDATA[<p>日本生命保険の米国法人は2026年3月4日、対話型AI「ChatGPT」が弁護士資格を持たないまま法律業務を行い、保険金の元受給者による訴訟を助長したとして、ChatGPTを開発する米OpenAIを米イリノイ州北部地区連邦地裁に提訴した。</p>
-<h2>ChatGPTが裁判書面の作成を支援と主張</h2>
-<p><a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">訴状</a>によると、保険金の元受給者は長期障害保険を巡って日本生命の米法人と訴訟を行い、2024年1月に和解していた。しかしその後、弁護士とのメール内容をChatGPTに入力して助言を求めるようになり、弁護士を解任。ChatGPTを使って裁判所に提出する書面の作成などを行ったとされる。</p>
-<p>女性は和解済みの訴訟の再開を求める申立書など多数の書面を裁判所に提出したが、裁判所はこれを却下した。</p>
-<h2>「ChatGPTは弁護士ではない」非弁行為を主張</h2>
-<p>訴状では、ChatGPTについて「弁護士ではなく、米国のいかなる司法管轄でも弁護士資格を認められていない」と指摘。さらにOpenAIが「法律業務に該当する作業を行うようChatGPTを設計・提供した」と主張している。</p>
-<p>また、ChatGPTが「正当な法的目的を持たない多数の裁判書面の作成を支援した」として、裁判手続きの濫用を助長したとも述べている。</p>
-<h2>約30万ドルの損害と1000万ドルの懲罰的賠償請求</h2>
-<p>日本生命の米法人は、この対応で約30万ドルの損害が生じたとして賠償を求めているほか、懲罰的損害賠償として1000万ドルの支払いも請求している。</p>
-<p>Reutersによると、OpenAIは声明で「この訴えには全く根拠がない」として争う姿勢を示している。</p>
-<p>今回の訴訟では、生成AIが法律助言や裁判書面の作成などを行うことが弁護士資格制度に抵触するかどうかが争点となる可能性がある。生成AIを巡っては、AIが作成した裁判書面の誤引用などが問題となる事例も報告されており、法律実務とAIの関係を巡る議論が続いている。</p>
-<p>訴訟記録は、米連邦裁判所の公開データベースを収集する<a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">CourtListener</a>でも確認できる。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeNA、米Cognition AIの自律型AIエンジニア「Devin Enterprise」を全社導入　2,000人超が利用可能に</title>
-      <link>https://ledge.ai/articles/dena_devin_enterprise_companywide_adoption</link>
-      <description><![CDATA[<p>ディー・エヌ・エー（以下DeNA）は2026年3月4日、米AI企業Cognition AIが提供する自律型AIソフトウェアエンジニア「Devin Enterprise」を全社規模で導入したと<a href="https://dena.com/jp/news/5356/">発表</a>した。2025年7月にCognition AIと戦略的パートナーシップを<a href="https://dena.com/jp/news/5269/">締結</a>して以降、段階的に社内展開を進めてきたもので、現在は2,000人以上の社員が利用可能な体制を整えたという。</p>
-<p>Devin Enterpriseはソフトウェア開発のタスクを自律的に実行するAIエージェントで、コード生成やデバッグ、テストなどの開発業務を支援する。DeNAではゲーム、ライブストリーミング、ヘルスケア・メディカル、スポーツ、スマートシティなど多様な事業を展開しており、異なる技術スタックやセキュリティ要件を持つ開発環境に対応する必要があった。そのため、単なるツール導入ではなく、企業全体で安全に運用できる基盤整備を進めたとしている。</p>
-<h2>VPC・SSOを含む全社基盤を整備</h2>
-<p>DeNAはDevin Enterpriseの導入にあたり、自社クラウド環境内で利用できるVPC版を展開し、シングルサインオン（SSO）などの認証基盤と連携させた。これにより、各事業部門が共通の統制下でAIを利用できる体制を構築したという。</p>
-<p>導入は約半年をかけて3段階で進められた。まずα版ではコアユーザーによる技術検証を行い、ガバナンス要件や運用ルールを整理。続くβ版ではSlackを用いた運用フローや組織単位での環境作成の自動化などを整備した。その後、全社展開版として本格導入し、現在は40以上のチームで利用が始まっている。</p>
-<h2>開発効率や業務スピードの改善も</h2>
-<p>DeNAは導入後の成果として、複数の業務領域での効率化を挙げている。</p>
-<p>たとえばレガシーシステムのコードマイグレーションでは、PerlからGoへの移行作業を従来想定の約半年から1カ月弱で完了し、約6倍の効率化を実現したという。また、横浜市で開催されたイベント「ワンダリア横浜」のアプリ開発では、マルチリポジトリ構成のプロジェクトで開発速度が約2倍に向上したとしている。</p>
-<p>さらに、オフショア開発の検収・品質管理では、従来1～2日かかっていた確認作業が、15分程度の入力と約2時間の確認で完了するようになり、待ち時間の大幅な短縮につながったという。</p>
-<p>エンジニア以外の業務にも活用は広がっている。仕様確認では非エンジニアの確認時間を約10分の1に削減したほか、分析業務では作業効率が3倍以上に改善。営業部門では見積もり作成の速度が約8倍に向上したと説明している。</p>
-<h2>国内企業向け導入支援も</h2>
-<p>DeNAは今回の取り組みを社内活用にとどめず、グループ会社を通じて国内企業への導入支援も進める方針だ。DeNA AI Linkでは、企業向けにDevin Enterpriseの導入支援やガバナンス構築、コードマイグレーションの支援などを提供するほか、ハンズオンセミナーなども開催するとしている。</p>
-<p>同社は、自律型AIエージェントの活用が今後のソフトウェア開発の生産性向上に寄与するとみており、社内外での活用拡大を図る考えだ。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
-      <link>https://ledge.ai/articles/iran_attack_amazon_data_center_bahrain</link>
-      <description><![CDATA[<p>イスラエルと米国によるイランへの攻撃を受け、中東情勢が緊張を増す中、イランが反撃の一環としてバーレーンにある米Amazonのデータセンターを攻撃したとされる。</p>
-<p>Amazon Web Services（AWS）は2026年3月2日（現地時間）に公開した障害情報で、中東地域のデータセンターが攻撃の影響を受けた可能性があると説明した。イランのイスラム革命防衛隊（IRGC）は、この施設について「敵の軍事・諜報活動を支援する役割を果たしていることを特定した上での対応」と説明している。</p>
-<p>Amazon Web Services（AWS）は<a href="https://health.aws.amazon.com/health/status">障害情報</a>のダッシュボードで、中東地域のインフラが攻撃の影響を受けたことを明らかにしている。AWSによると、アラブ首長国連邦（UAE）では2つの施設が直接攻撃を受けたほか、バーレーンではデータセンターの近傍にドローンが落下し、インフラ設備に影響が生じた。電力供給の停止や設備の損傷、消火活動に伴う水損などが発生したとされ、一部サービスの運用に影響が出た可能性があるという。</p>
-<p>イラン側は、この施設を単なる民間インフラではなく、軍事関連の機能を担う拠点とみなしている。イラン国営系メディアFarsが3月5日にTelegramで公開した<a href="https://t.me/farsna/415292">投稿</a>によると、革命防衛隊はバーレーンのAmazonデータセンターについて「敵の軍事・諜報活動を支援する役割を果たしていることを特定した」と説明している。イラン側の主張では、クラウドインフラが軍事・情報活動を支える基盤となっている可能性があるとして、攻撃対象となったとしている。<a href="url">発表</a>した。</p>
-<p><strong>イラン国営系メディアFarsのTelegram投稿。革命防衛隊はAmazonのデータセンターが「軍事・諜報活動を支援している」と主張している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/telegram_fars_42479b1cb9/telegram_fars_42479b1cb9.jpg" alt="telegram fars.jpg" /></p>
-<p>バーレーンには、Amazonの中東地域向けクラウド拠点「AWS Middle East（Bahrain）リージョン」が設置されている。Amazonは2019年にこのリージョンを開設しており、中東地域で利用される主要なクラウド基盤の一つとなっている。複数のAvailability Zoneで構成され、企業や政府機関などが利用するクラウドサービスを提供している。</p>
-<p>近年、クラウドインフラはAI分析やデータ処理、情報共有などの基盤として幅広く利用されている。AWSでも生成AI基盤サービス「Amazon Bedrock」などが同リージョンで提供されており、クラウドはデジタルインフラとして重要性を増している。</p>
-<p>一方で、紛争地域では電力網や通信網などのインフラが攻撃対象となるケースも増えている。今回のケースでは、クラウドデータセンターが軍事活動を支える可能性のあるインフラとして位置付けられ、攻撃対象になったとイラン側が主張している点が注目される。</p>
-<p>AIやクラウド技術が広く社会インフラとして利用される中、データセンターなどのデジタル基盤が紛争の影響を受ける可能性も指摘されている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIエージェントSNS「Moltbook」を買収　創業者2人はAI部門へ</title>
-      <link>https://ledge.ai/articles/meta_acquires_moltbook_ai_agent_social_network</link>
-      <description><![CDATA[<p>Metaは2026年3月10日、AIエージェント同士が投稿や交流を行うSNS「Moltbook」を買収した。このニュースは<a href="https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network">Axios</a>のスクープで明らかになり、その後ReutersやTechCrunch、APなどがMeta広報コメントをもとに追随して報じた。買収額は非公表で、共同創業者のMatt Schlicht氏とBen Parr氏はMeta Superintelligence Labs（MSL）に加わる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de/axios_meta_hires_duo_behind_moltbook_4f2c3cc2de.jpg" alt="axios meta hires duo behind moltbook.jpg" /></p>
-<p>Moltbookは、AIエージェント同士が投稿やコメントを通じて交流するために設計されたソーシャルネットワークサービスだ。AIエージェントが自律的に投稿し、能力や活動、タスクなどを共有するコミュニティとして注目を集めていた。人間のSNSを模した形式で、AIエージェント同士が互いの活動を評価したり、情報交換を行う場として機能する点が特徴とされる。</p>
-<p>このサービスは、AIエージェントのオープンな実行環境を目指す「OpenClaw」エコシステムとも関係があるとされる。OpenClawは、AIエージェントが外部ツールやサービスを利用しながらタスクを実行する仕組みを提供するもので、エージェント同士の連携や能力共有を可能にする枠組みとして開発が進められている。企業システムやオンラインサービスとAIエージェントを接続する基盤としても注目されている。</p>
-<p>Moltbookは、こうしたAIエージェントの活動や能力を可視化するコミュニティとして広まり、AIエージェントが互いに投稿する“AIエージェント専用SNS”として話題となった。AIエージェント同士の交流や評価が行われる実験的なコミュニティとして、AI開発者や研究者の間でも注目を集めていた。</p>
-<p>Axiosによると、Moltbookの共同創業者であるMatt Schlicht氏とBen Parr氏は、MetaのAI研究組織であるMeta Superintelligence Labs（MSL）に参加する。MSLはMetaがAI研究開発を強化するために設けた部門で、AI分野の研究者やエンジニアを集め、次世代のAI技術の開発を進めているという。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、News CorpとAI学習向け契約　年間最大5000万ドルで米英記事を利用へ</title>
-      <link>https://ledge.ai/articles/meta_news_corp_ai_content_licensing_50m_per_year</link>
-      <description><![CDATA[<p>米MetaがNews Corpと記事コンテンツをAI製品やAI学習に活用するためのライセンス契約を結んだと、米<a href="https://www.wsj.com/business/media/news-corp-meta-in-ai-content-licensing-deal-worth-up-to-50-million-a-year-d4fbf244">Wall Street Journal（WSJ）</a>が2026年3月3日に報じた。契約は複数年で、Metaは年間最大5000万ドルを支払う見通しだという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wsj_news_corp_and_meta_9c945e8b40/wsj_news_corp_and_meta_9c945e8b40.jpg" alt="wsj news corp and meta.jpg" /></p>
-<p>契約期間は少なくとも3年で、対象となるのはNews Corpの米国および英国のコンテンツだという。Metaは最新の記事をAI製品に組み込んでリアルタイム性の高い情報提供に活用できるほか、記事アーカイブをAI学習にも利用できるとしている。</p>
-<p>News CorpはWall Street Journalのほか、New York Postや英The Sunなどを傘下に持つ。今回の契約により、Metaは報道機関が持つ比較的信頼性の高いニュースコンテンツを、AI製品の回答品質向上や学習データ拡充に生かす構図となる。</p>
-<p>News CorpのCEOであるRobert Thomson氏は、3月2日に開かれたMorgan Stanleyの会議で、同社をAI時代の「input company」と位置づけた。半導体やデータセンター、エネルギーになぞらえながら、ニュースや書籍、不動産情報といった保有コンテンツがAIにとって重要な入力資源になるとの見方を示した。</p>
-<p>今回の動きは、News CorpがAI企業に対して進めてきたライセンス戦略の延長線上にある。News Corpは2024年にOpenAIとも5年総額2億5000万ドル規模の契約を締結しており、SEC文書ではGoogle、Amazon、Metaとの交渉を監督していたことも示されていた。</p>
-<p>一方で、News Corp傘下のDow JonesとNew York Postは、AI検索企業Perplexityを著作権侵害で提訴している。無断利用には法的措置を取りつつ、条件が整えば有償でライセンス供与するという、いわば「提携か対決か」の二面戦略が鮮明になっている。</p>
-<p>Metaは2025年12月、CNNやFox News、USA Today、People Inc.など複数の報道機関と商用のAIデータ契約を結んだとAxiosやReutersが報じていた。生成AIの競争が進む中で、権利処理済みの高品質なニュースコンテンツをどう確保するかが、AI企業にとって重要なテーマになっている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>みずほFG、金融特化LLMを独自開発　銀行実務テストで“推論なし”正答率89.0％は汎用LLMと同水準の精度</title>
-      <link>https://ledge.ai/articles/mizuho_finance_specialized_llm_reasoning_free_89_accuracy</link>
-      <description><![CDATA[<p>みずほフィナンシャルグループは2026年3月5日、独自に開発を進めている金融特化の大規模言語モデル（LLM）が、銀行の実務テストにおいて推論に依存しない条件下で正答率89.0％を達成したと<a href="https://prtimes.jp/main/html/rd/p/000000002.000177612.html">発表</a>した。業務利用を想定した評価では平均回答時間1秒未満も確認され、同社は高精度と即答性の両立を実現したとしている。</p>
-<h2>推論なしでも汎用LLMと同水準の精度</h2>
-<p>検証では、預金、融資、外国為替など銀行業務に関する多肢選択式の問題を用いた実務テストを実施した。みずほFGの金融特化LLM（Qwen3-32Bベース）は、推論なし・コンテキスト付与ありの条件で正答率89.0％、平均回答時間1秒未満を記録した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/LLM_27ea03f219/LLM_27ea03f219.jpg" alt="金融特化LLM.jpg" /></p>
-<p>発表では比較対象として汎用LLM「GPT-5.2」の検証結果も示された。推論なし条件では同モデルも正答率89.0％、平均回答時間1秒未満だった。一方、推論あり設定では正答率89.7％、平均回答時間67.4秒となり、みずほFGは自社モデルが推論に依存せず同水準の精度を確保できる点を特徴として挙げている。</p>
-<h2>金融業務では応答遅延が課題</h2>
-<p>金融業界では生成AIの活用が広がる一方、複雑な金融商品や社内規定に関する照会では、回答時間の増加や計算コストの上昇が課題となっている。トレーディングや市場分析などでは、応答の遅れが市場機会の損失につながる可能性もある。</p>
-<p>こうした背景からみずほFGは、金融実務の知識や社内ルール、コンプライアンス上の留意点を学習させた金融特化LLMの開発を進めてきた。モデルは銀行内の閉域環境（オンプレミス）で運用でき、機密性の高いデータを外部に送信することなくAI処理を実行できる。</p>
-<h2>将来は専門業務AIへ拡張</h2>
-<p>みずほFGは今後、金融特化LLMを基盤として業務領域ごとの専門モデルを拡張していく計画だ。まず金融基礎や社内手続に対応するモデルを整備し、その後「融資」「法務」「市場」などの専門LLMを構築。最終的には複数のモデルを連携させる協調型エキスパートLLMによる部門横断的な判断支援を目指すとしている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Excel内で使える「ChatGPT for Excel」ベータ版公開　自然言語で表計算を構築・更新</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_for_excel_beta_release</link>
-      <description><![CDATA[<p>OpenAIは2026年3月5日（米国時間）、Microsoft Excel向けアドイン「ChatGPT for Excel」のベータ版を<a href="https://openai.com/index/chatgpt-for-excel/">発表</a>した。Excelのワークブック内にChatGPTを直接組み込み、表計算モデルの構築や更新、分析を自然言語で支援する。あわせて、ChatGPT上で金融データを扱いやすくする新たなデータ連携も発表しており、財務モデリングや調査、分析といった実務ワークフローへの展開を進める姿勢を打ち出した。</p>
-<h2>Excel上で表計算の作成・更新・分析を支援</h2>
-<p>ChatGPT for Excelは、Excelに埋め込まれたベータ版アドインで、利用者が自然言語で指示するだけで、表計算モデルの新規作成や更新、シナリオ分析、セルや数式をもとにした出力生成をワークブック内で進められる。</p>
-<p>OpenAIによると、分析担当者や戦略担当者、研究者、経理担当者などが、数式作成やリンク確認、モデル修正といった手作業を減らし、判断や意思決定により多くの時間を割けるようにすることを狙う。加えて、シート間や数式間のつながりを踏まえてモデルを読み解き、出力が変化した理由の説明やエラーの追跡・修正、前提条件が全体にどう影響するかの確認も支援するという。</p>
-<p>作業中は参照したセルや更新対象のセルを示し、変更前にはユーザーの許可を求めるほか、必要に応じて編集を取り消せる仕組みも備え、既存テンプレートの引き継ぎや複雑なワークブックの把握にも役立つとしている。</p>
-<h2>GPT-5.4を基盤に、財務ワークフロー向け性能を訴求</h2>
-<p>今回の発表では、基盤モデルであるGPT-5.4の性能も前面に押し出された。OpenAIはGPT-5.4 Thinkingについて、財務推論やExcelベースのモデリングに適した同社の最新モデルだと説明している。</p>
-<p>同社によると、金融実務の担当者と連携しながら、財務モデリング、シナリオ分析、データ抽出、長文リサーチといった現実の業務フローをもとに性能改善を進めてきたという。さらに、OpenAIの社内投資銀行ベンチマークでは、適切な書式や引用を含む三表モデルの構築などを評価する指標で、GPT-5の43.7%に対し、GPT-5.4 Thinkingは87.3%だったとしている。</p>
-<p><strong>OpenAI社内投資銀行ベンチマーク</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_internal_investment_banking_benchmark_9a24c0123b/Open_AI_internal_investment_banking_benchmark_9a24c0123b.jpg" alt="OpenAI internal investment banking benchmark.jpg" /></p>
-<h2>ベータ版は米国、カナダ、オーストラリアで提供開始</h2>
-<p>ChatGPT for Excelのベータ版は、ChatGPT Business、Enterprise、Edu、Teachers、Pro、Plusユーザー向けに提供を開始した。対象地域は米国、カナダ、オーストラリアで、Google Sheets向け機能も今後提供予定としている。</p>
-<p>一方で、Enterprise、Edu、Teachersの各ワークスペースでは初期状態でアクセスがオフになっており、管理者がカスタムロールやグループ権限を通じて特定ユーザー向けに有効化する仕組みを採っている。</p>
-<h2>金融データ連携も拡充、Enterprise向け統制機能も訴求</h2>
-<p>OpenAIは今回、ChatGPT for Excelとあわせて、ChatGPT上で使える金融データ連携の拡充も発表した。複数の金融・市場データ提供元との統合に加え、Model Context Protocol（MCP）を通じた独自データの取り込みにも対応し、企業調査やモデル更新、デューデリジェンスなどの業務を支援する。また、Enterprise向けにはRBACやSAML SSO、SCIM、監査ログ、暗号化、データレジデンシーなどの統制機能もあらためて訴求した。</p>
-<p>一方で、現時点ではベータ版であり、応答に時間がかかる場合があるほか、生成結果の整形や複雑な数式の調整では手動対応が必要になる場合もあるとしている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
-      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
-      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
-<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
-<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
-<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
-<h2>ベータテストで120万コミットをスキャン</h2>
-<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
-<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
-<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
-<h2>修正パッチの提案まで自動化</h2>
-<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
-<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
-<h2>AIエージェントによるセキュリティ監査の可能性</h2>
-<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
-<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>さくらインターネット、AI人材育成へ「さくらのAI検定」設立　AI基礎から実践まで学ぶ資格制度</title>
-      <link>https://ledge.ai/articles/sakura_ai_certification_launch</link>
-      <description><![CDATA[<p>さくらインターネットは2026年3月4日、AI人材育成を目的とした新たな資格制度「さくらのAI検定」を設立したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2026/03/04/1968223791/">発表</a>した。AIの基礎知識から実践的な活用までを体系的に学べる検定で、無料教材も公開する。第1回試験は2026年夏に実施予定としている。</p>
-<h2>AIの基礎から生成AIまでを体系的に学ぶ</h2>
-<p>同検定は、AIの基礎から生成AI技術、AIサービスの実践的な利用方法までを一貫して学べる検定制度として設計された。AIを単なる用語として覚えるのではなく、仕組みや背景を理解した上で、実務で活用できる力を身につけることを目的としている。</p>
-<p>試験範囲には、機械学習や深層学習、強化学習といったAIの基本概念のほか、ニューラルネットワークの構造、教師あり・教師なし学習などの学習手法が含まれる。さらに、テキスト生成や画像生成、音声生成などの生成AI技術、大規模言語モデル（LLM）の仕組みなども対象となる。</p>
-<p>また、生成AIの拡張構造として、RAG（検索拡張生成）やLoRA、MCP、LLMエージェントといった技術も取り上げる。ハルシネーションやデータバイアス、セキュリティ、情報漏えい対策など、生成AI活用における課題についても学習範囲に含まれる。</p>
-<h2>さくらのAIサービスを使った実践学習</h2>
-<p>同検定では、同社が提供するAIサービスを使った実践学習も組み込まれている。対象となるサービスには、「さくらのAI Engine」や「高火力VRT」「高火力DOK」などが含まれる。</p>
-<p>具体的には、チャットAIの構築やドキュメント連携によるRAGの実装、音声文字起こしAPIの活用、画像生成や音声合成などの実践的な内容が用意されている。また、LoRAによる追加学習やマルチモーダルAPIの活用など、実際のAIサービス利用を想定した演習も含まれる。</p>
-<p>同社は、国内で完結するAI実行環境を利用しながら、実際のサービス活用を想定したAIの使い方を体験できる点を特徴としている。</p>
-<h2>教材は無料公開、試験はオンラインで実施</h2>
-<p>学習教材はオンラインで<a href="https://zero2one.jp/news/news_sakura-ai-certification/">無料公開</a>されており、AI学習の入り口として誰でも利用できる。検定に合格するための学習時間の目安は15〜20時間程度としている。</p>
-<p>試験はオンライン形式で実施され、受検資格に制限はない。試験時間や問題数などの詳細は今後決定される予定で、第1回試験は2026年夏に実施される見込みだ。試験プラットフォームには、教育・検定サービスを提供する<a href="https://zero2one.jp/product/sakura-ai-certification/">zero to one</a>のシステムが利用される。</p>
-<p><strong>「さくらのAI検定」 AI基礎の教材イメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_3_1024x578_7229ed3456/image_3_1024x578_7229ed3456.png" alt="image-3-1024x578.png" /></p>
-<p>同検定は、AIの技術的基礎を理解した上で、AIサービスを適切に使いこなせる判断力とスキルを持つ人材であることを証明する資格として位置づけられている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>竹中工務店、データセンター特化型の設計支援ツールを開発　設計プランを自動作成、AI普及で拡大する建設需要に対応</title>
-      <link>https://ledge.ai/articles/takenaka_datacenter_design_support_tool</link>
-      <description><![CDATA[<p>竹中工務店は2026年3月5日、データセンターに特化した設計支援ツールを開発したと<a href="https://www.takenaka.co.jp/news/2026/03/02/">発表</a>した。</p>
-<p>土地の条件やサーバーの電力消費量などの基本情報を入力すると、設備仕様や建物ボリューム、3D画像などを自動作成し、事業化検討に必要な設計プランを短期間で作成できる。生成AIの普及などを背景に拡大するデータセンター建設需要への対応を狙う。</p>
-<h2>データセンター設計に特化した支援ツール</h2>
-<p>今回開発されたツールは、データセンターの設計初期段階にあたる「設計基本計画」の検討を支援するものだ。データセンターは、大量のサーバー機器を収容するため、建築構造だけでなく、電源設備や空調設備などのインフラを含めた複合的な設計が必要となる。こうした複雑な設計検討を効率化するため、竹中工務店は過去の設計実績や知見をデータベース化し、標準的な設計手法と最新技術動向を反映した設計支援ツールを構築した。</p>
-<p>ツールは、データセンターの規模や必要電力、敷地条件などの基本情報を入力することで、事業化検討に必要な設計プランを作成できる仕組みとなっている。建設業界において、データセンター設計に特化した支援ツールの開発は初めてだという。</p>
-<h2>設備仕様や建物ボリューム、3D画像を自動作成</h2>
-<p>ツールでは、受変電設備や非常用発電機、無停電電源装置（UPS）、空調設備など、データセンターに必要な主要設備の仕様や容量を自動作成する。また、サーバールームや付帯施設に必要なスペースを算出し、建物全体のボリュームや内部構成を検討する。</p>
-<p>さらに、設備配置や建物構成を可視化した3D画像も自動作成できる。これにより、設計内容を視覚的に確認できるほか、顧客との認識共有にも役立てられるという。</p>
-<h2>設計検討期間を数カ月から2〜3週間に短縮</h2>
-<p>データセンターの設計初期段階では、設備仕様や建物構成を検討するために多くの作業が必要となり、従来は設計プランの作成までに数カ月程度かかるケースもあった。今回のツールを活用することで、設計検討期間を約2〜3週間に短縮できるとしている。</p>
-<p>設計プロセスを標準化し、初期検討を効率化することで、顧客への提案スピードを高めるとともに、3D画像を用いた説明によって合意形成の迅速化も期待できるという。</p>
-<h2>AI普及で拡大するデータセンター建設需要</h2>
-<p>近年、生成AIをはじめとするAI技術の普及に伴い、データセンターの整備需要は世界的に拡大している。大量の計算処理を支えるインフラとして、高性能サーバーや電力・冷却設備を備えた施設の新設や増設が相次いでいる。</p>
-<p>こうした状況の中で、データセンター計画では設計や検討段階の迅速化が重要な課題となっている。竹中工務店は今回の設計支援ツールを活用することで、初期計画段階における検討の効率化と設計品質の向上を図り、デジタル社会を支えるインフラ整備に貢献していくとしている。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>侍ジャパン、WBCでAI誹謗中傷検出システム導入　前年は国内ポストシーズンで380万件分析・466件認定</title>
-      <link>https://ledge.ai/articles/wbc_ai_antislander_system</link>
-      <description><![CDATA[<p>日本野球機構（NPB）とNPBエンタープライズ、日本プロ野球選手会は2026年3月4日、同年3月開催の「2026 WORLD BASEBALL CLASSIC（WBC）」で、野球日本代表「侍ジャパン」の監督、コーチ、選手などを対象に、AIを活用した誹謗中傷検出システムを共同導入すると<a href="https://jpbpa.net/2026/03/04/12924/">発表</a>した。対象は侍ジャパンの全試合で、試合の前後一定期間にわたりSNS上の公開投稿を監視・分析する。WBC東京プールは日本時間3月5日から10日まで開催される。</p>
-<h2>日本代表の監督・コーチ・選手を対象にSNSを監視</h2>
-<p>今回の取り組みは日本代表の監督、コーチ、選手などを誹謗中傷から守ることを目的とするものだ。対象試合は「2026 WORLD BASEBALL CLASSIC」における日本代表の全試合で、検出期間は各試合の前後一定期間。誹謗中傷行為の抑止と迅速な対応を通じて、監督・コーチ・選手が安心して競技に集中できる環境を整えるとともに、健全な観戦環境の実現を目指す。</p>
-<h2>投稿の通報・削除要請や証拠保全まで対応</h2>
-<p>導入するのは、英国Signify Groupが提供するAI誹謗中傷検出・通報支援サービス「<a href="https://www.signify.ai/threatmatrix">Threat Matrix</a>」だ。日本語を含む42言語に対応し、主要SNS上で日本代表メンバーに向けられた投稿を監視・分析。不適切な投稿を検出した場合には、SNS各社への通報や削除要請、関係各所との情報共有、必要に応じた証拠化や関係機関との連携などを行う。</p>
-<p>また、分析結果により投稿者本人が確認された場合には、NPBエンタープライズが主催する大会・試合や、日本プロ野球選手会に関連するイベントなどにおいて、入場禁止を含む措置を検討する可能性があるとしている。</p>
-<h2>前年は約380万件を分析、466件を誹謗中傷と認定</h2>
-<p>今回の導入は、前年の国内ポストシーズンでの運用実績を踏まえたものでもある。日本プロ野球選手会が同日公表した結果報告によると、2025年度のクライマックスシリーズおよび日本シリーズでは、被害のあった公式アカウントが計79にのぼり、AIが約380万件の投稿を分析。その中から2,917件を疑義投稿として抽出し、専門アナリストによる精査を経て466件を誹謗中傷と認定した。さらに197アカウントについて発信元を確認したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0307_side_0bc05b2711/0307_side_0bc05b2711.jpg" alt="0307-side.jpg" /></p>
-<h2>「人格攻撃・罵詈雑言」が過半、発信元197アカウントを確認</h2>
-<p>前年の結果報告では、誹謗中傷の内容として「人格攻撃・罵詈雑言」が56.2％で最多だった。このほか揶揄や中傷、暴力・脅迫なども確認されており、国内ポストシーズンの段階でオンライン上の被害実態が数字として可視化されていた。</p>
-<h2>英Signifyの「Threat Matrix」を採用</h2>
-<p>Threat Matrixを提供する<a href="https://www.signify.ai/about">Signify Group</a>は、公開されているSNSなどのデータをAIで分析し、人のレビューを組み合わせてオンライン上の脅威や中傷を可視化・証拠化するオンライン保護サービス企業だ。Threat MatrixはSNSなどの公開情報を収集し、AIによる自然言語分析で対象人物への投稿を抽出したうえで、人による確認を行い、対応や証拠化につなげる仕組みとしている。</p>
-<p>日本プロ野球選手会によると、同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）と国際テニス連盟（ITF）のプログラムなど、世界規模のスポーツイベントでも導入実績があるという。</p>
-<p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、中国当局関係者による対日影響工作を公表──高市首相標的のAI拡散、影響は限定的</title>
-      <link>https://ledge.ai/articles/openai_china_cyber_special_operations_takaichi_influence_operation_report</link>
-      <description><![CDATA[<p>OpenAIは2026年2月25日、「Disrupting malicious uses of our models（当社モデルの悪用への対処）」と題した最新の脅威レポートを公開し、中国の法執行機関に関連する人物と結びついたChatGPTアカウントを停止したと<a href="https://openai.com/ja-JP/index/disrupting-malicious-ai-uses/">発表</a>した。レポートによると、同アカウントは高市早苗首相を標的とする秘密影響工作（covert influence operation）の計画立案を試みていたという。</p>
-<p>OpenAIは当該計画への支援をモデルが拒否したと説明する一方、その後、同様の作戦実施報告の文章を整える依頼があったことも明らかにした。つまり、ChatGPTを使わずに作戦が実行された可能性があるとしている。</p>
-<h2>中国発「サイバー特別作戦」の実態</h2>
-<p>レポートの「China’s “Cyber Special Operations”」章では、中国法執行機関に関連するとされるアクターが、国内外の反体制派や外国政府関係者を対象に大規模な影響工作を展開していると記されている。</p>
-<p>報告書によると、当該作戦は以下の特徴を持つ。</p>
-<ul>
-<li>数百人規模のオペレーターが関与</li>
-<li>数千の偽アカウントを運用</li>
-<li>300以上の海外プラットフォームで活動</li>
-<li>数十種類以上の戦術を体系化</li>
-<li>DeepSeekやQwenなど、中国製のオープンウェイトAIモデルを併用</li>
-</ul>
-<p>戦術には、大量投稿による世論誘導、偽アカウントによる拡散、反体制派への嫌がらせ、文書偽造、米当局者のなりすましなどが含まれる。</p>
-<h2>高市首相を標的とした6つの攻撃ライン</h2>
-<p>レポートによると、当該ユーザーは高市首相が内モンゴルの人権状況を批判したことを受け、失脚や信用低下を狙う複数の攻撃軸を設計していた。</p>
-<ol>
-<li>否定的コメントの大量投稿と拡散</li>
-<li>移民政策に対する不満の煽動</li>
-<li>生活費問題への怒りの誘導</li>
-<li>極右勢力との関連付け</li>
-<li>米国関税問題を利用した世論操作</li>
-<li>内モンゴルの状況を肯定的に描写する対抗ナラティブの構築</li>
-</ol>
-<p>といったラインが整理されていた。OpenAIのモデルは計画支援を拒否したが、その後、作戦進捗報告の文章校正依頼が確認されている。レポートは、作戦がChatGPTなしで進行した可能性を示唆している。</p>
-<h2>可視化された拡散の痕跡</h2>
-<p>OpenAIはオープンソース分析により、当該キャンペーンに関連するとみられる投稿を複数プラットフォーム上で確認した。</p>
-<ul>
-<li>特定ハッシュタグの使用</li>
-<li>BlogspotやPixivでのミーム投稿</li>
-<li>X（旧Twitter）上での日本語・英語投稿</li>
-<li>YouTubeでの動画投稿</li>
-</ul>
-<p>一部ハッシュタグは複数形に改変され再拡散されていたことも確認された。</p>
-<h2>影響は限定的だった可能性</h2>
-<p>一方で、レポートは拡散規模についても具体的な数値を示している。</p>
-<ul>
-<li>YouTube動画の再生数は一桁台</li>
-<li>多くの投稿はエンゲージメントが確認できず</li>
-<li>Pixivでの最大閲覧数は108</li>
-<li>ハッシュタグ拡散も小規模</li>
-</ul>
-<p>OpenAIは、多くの投稿が「本物の視聴者に届いていない可能性が高い」と分析している。数百人規模とされる組織的作戦が設計された一方で、可視的なオンライン拡散効果は限定的だった可能性が高い。</p>
-<p>ただし、約200アカウントが初期段階で削除されたとの記述もあり、すべての活動を完全に把握できているわけではないともしている。</p>
-<h2>AIは「決定的要因」ではない</h2>
-<p>同レポートは、AI生成コンテンツ自体が影響力を決定づけるわけではないとも指摘する。</p>
-<p>別の事例では、同一プロンプトから生成された投稿でも、フォロワー数の多いアカウントが投稿したもののみが拡散した。つまり、拡散力はAIの使用有無よりも、アカウントのネットワーク規模や既存のフォロワー基盤に依存する傾向があるとしている。</p>
-<p>今回の高市首相を巡るケースでも、AIは作戦立案や文書整形の補助に使われた一方、影響力そのものは拡散基盤に左右された可能性がある。</p>
-<h2>情報戦の現在地</h2>
-<p>今回の報告は、国家レベルの影響工作において、生成AIが</p>
-<ul>
-<li>作戦設計</li>
-<li>翻訳</li>
-<li>報告書作成</li>
-<li>ナラティブ整理</li>
-</ul>
-<p>といった工程に組み込まれている実態を示した。同時に、AI生成コンテンツが必ずしも広範な世論形成につながるわけではないことも浮き彫りにした。</p>
-<p>OpenAIは、不正利用を検知したアカウントの停止や業界との情報共有を継続するとしている。生成AIと情報戦の関係は、技術そのものよりも、組織的運用体制と拡散ネットワークの構造に左右される局面に入りつつある。</p>
-]]></description>
-      <pubDate>Tue, 03 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
