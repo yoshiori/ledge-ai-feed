@@ -175,26 +175,6 @@
       <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AIが作った画像の著作権は誰のもの？　米最高裁が審理拒否、人間著作者原則維持</title>
-      <link>https://ledge.ai/articles/ai_authorship_supreme_court_cert_denied</link>
-      <description><![CDATA[<p>米最高裁判所（U.S. Supreme Court）は2026年3月2日、AIが生成した作品の著作権を巡る訴訟「Thaler v. Perlmutter」の上告審理を受理しないと<a href="https://www.supremecourt.gov/orders/courtorders/030226zor_2d8f.pdf">決定</a>した。これにより、AI単独で生成された作品は著作権保護の対象にならないとする下級審判断が維持されることになった。</p>
-<h2>AI生成画像の著作権登録を巡る訴訟</h2>
-<p>今回の訴訟は、AI研究者のStephen Thaler氏が、自身のAIシステム「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」の著作権登録を求めたことに端を発する。同氏はこの作品の著作者としてAI自身を登録申請したが、著作権局は「人間が創作に関与していない」として拒否した。</p>
-<p><strong>AI「Creativity Machine（通称DABUS）」が生成した画像「A Recent Entrance to Paradise」。著作権登録を巡る訴訟の対象となった作品</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ai_549152e50d/ai_549152e50d.jpg" alt="ai.jpg" /></p>
-<p>Thaler氏はこの判断を不服として訴訟を起こし、2023年には連邦地裁が「AIだけで生成された作品は著作権保護の対象にならない」と判断している。今回の裁判は、この判断をめぐる控訴審・上告審の流れの中で争われてきたものだ。</p>
-<h2>控訴審は「人間著作者」原則を支持</h2>
-<p>訴訟は連邦地裁、控訴審へと進み、いずれも著作権局の判断を支持した。
-Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成された芸術作品について「人間の著作」がなければ米国著作権法による保護は受けられないと判断した。</p>
-<p><a href="https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf">判決</a>を書いたパトリシア・ミレット判事は、著作権制度が著作者の生存期間や死後70年といった人間のライフサイクルを前提に設計されている点などを挙げ、作品を生成した機械を著作者として認めることはできないと指摘した。また、AIを「被雇用者」とみなして著作権を主張する論点についても、AIは契約や雇用関係を結ぶ法的能力を持たないとして退けた。</p>
-<h2>最高裁は審理を受理せず</h2>
-<p>これに対しThaler氏は最高裁に上告したが、U.S. Supreme Courtは2026年3月2日、同訴訟の審理を受理しないと決定した。最高裁は通常どおり理由を示していないが、この決定により控訴審の判断が事実上確定した。</p>
-<h2>生成AI時代の著作権ルール</h2>
-<p>生成AIの普及に伴い、AIが生み出した作品の権利をどのように扱うかは世界各国で議論が続いている。米著作権局は、人間が創作に関与した場合には著作権が認められる可能性があるとする立場を示しており、AIと人間の共同創作の扱いが今後の焦点となる。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
       <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
       <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
@@ -470,6 +450,27 @@ Thaler v. Perlmutterで控訴審は2025年3月18日、AIによって生成され
 <p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
 <p>:::box
 [関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>さくらインターネット、AI人材育成へ「さくらのAI検定」設立　AI基礎から実践まで学ぶ資格制度</title>
+      <link>https://ledge.ai/articles/sakura_ai_certification_launch</link>
+      <description><![CDATA[<p>さくらインターネットは2026年3月4日、AI人材育成を目的とした新たな資格制度「さくらのAI検定」を設立したと<a href="https://www.sakura.ad.jp/corporate/information/newsreleases/2026/03/04/1968223791/">発表</a>した。AIの基礎知識から実践的な活用までを体系的に学べる検定で、無料教材も公開する。第1回試験は2026年夏に実施予定としている。</p>
+<h2>AIの基礎から生成AIまでを体系的に学ぶ</h2>
+<p>同検定は、AIの基礎から生成AI技術、AIサービスの実践的な利用方法までを一貫して学べる検定制度として設計された。AIを単なる用語として覚えるのではなく、仕組みや背景を理解した上で、実務で活用できる力を身につけることを目的としている。</p>
+<p>試験範囲には、機械学習や深層学習、強化学習といったAIの基本概念のほか、ニューラルネットワークの構造、教師あり・教師なし学習などの学習手法が含まれる。さらに、テキスト生成や画像生成、音声生成などの生成AI技術、大規模言語モデル（LLM）の仕組みなども対象となる。</p>
+<p>また、生成AIの拡張構造として、RAG（検索拡張生成）やLoRA、MCP、LLMエージェントといった技術も取り上げる。ハルシネーションやデータバイアス、セキュリティ、情報漏えい対策など、生成AI活用における課題についても学習範囲に含まれる。</p>
+<h2>さくらのAIサービスを使った実践学習</h2>
+<p>同検定では、同社が提供するAIサービスを使った実践学習も組み込まれている。対象となるサービスには、「さくらのAI Engine」や「高火力VRT」「高火力DOK」などが含まれる。</p>
+<p>具体的には、チャットAIの構築やドキュメント連携によるRAGの実装、音声文字起こしAPIの活用、画像生成や音声合成などの実践的な内容が用意されている。また、LoRAによる追加学習やマルチモーダルAPIの活用など、実際のAIサービス利用を想定した演習も含まれる。</p>
+<p>同社は、国内で完結するAI実行環境を利用しながら、実際のサービス活用を想定したAIの使い方を体験できる点を特徴としている。</p>
+<h2>教材は無料公開、試験はオンラインで実施</h2>
+<p>学習教材はオンラインで<a href="https://zero2one.jp/news/news_sakura-ai-certification/">無料公開</a>されており、AI学習の入り口として誰でも利用できる。検定に合格するための学習時間の目安は15〜20時間程度としている。</p>
+<p>試験はオンライン形式で実施され、受検資格に制限はない。試験時間や問題数などの詳細は今後決定される予定で、第1回試験は2026年夏に実施される見込みだ。試験プラットフォームには、教育・検定サービスを提供する<a href="https://zero2one.jp/product/sakura-ai-certification/">zero to one</a>のシステムが利用される。</p>
+<p><strong>「さくらのAI検定」 AI基礎の教材イメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_3_1024x578_7229ed3456/image_3_1024x578_7229ed3456.png" alt="image-3-1024x578.png" /></p>
+<p>同検定は、AIの技術的基礎を理解した上で、AIサービスを適切に使いこなせる判断力とスキルを持つ人材であることを証明する資格として位置づけられている。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 01:50:00 GMT</pubDate>
     </item>
