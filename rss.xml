@@ -179,26 +179,45 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、米国防総省とAI軍事利用を再交渉　行き詰まり後も接点探る</title>
-      <link>https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart</link>
-      <description><![CDATA[<p>米AI企業Anthropicは、同社AIの軍事利用を巡る米国防総省との協議について、一度行き詰まった後も接点を探る交渉が続いていたことを明らかにした。2月下旬に公開した声明で対立の経緯を説明したほか、2026年3月5日付の<a href="https://www.anthropic.com/news/where-stand-department-war">声明</a>では、ここ数日間にわたり同省と「productive conversations（建設的な協議）」を続けていたとしている。</p>
-<h2>協議の争点は「国内監視」と「完全自律型兵器」</h2>
-<p>Anthropicは2026年2月26日、CEOのダリオ・アモデイ氏名義の<a href="https://www.anthropic.com/news/statement-department-of-war">声明</a>を公開し、同社のAIモデルを巡る米国防総省との協議が行き詰まったと説明した。争点となったのは、同社がAIの利用条件として設けている安全上の制限である。</p>
-<p>Anthropicは特に次の2つの用途について、例外を認めない立場を示した。
-・米国内での大規模監視
-・人間の関与なしに作動する完全自律型の殺傷兵器</p>
-<p>同社はこれらをAI安全ポリシーの中核と位置付けており、こうした利用条件を巡って国防総省との議論が行き詰まったとしている。</p>
-<h2>安全条件を維持したまま協力を模索</h2>
-<p>翌2月27日に<a href="https://www.anthropic.com/news/statement-comments-secretary-war">公開</a>した別の声明でも、Anthropicは同様の立場を改めて説明した。同社は米国の安全保障分野への協力自体を否定しているわけではないとした上で、AIモデルの利用は同社の安全原則に沿う必要があると強調している。争点は政治的対立ではなく、AIの具体的な利用条件にあるとしている。</p>
-<h2>「建設的な協議」を継続していたと説明</h2>
-<p>その後、3月5日に公開された声明では新たな状況が明らかになった。Anthropicによると、同社はここ数日間にわたり米国防総省と「productive conversations」を続けていたという。</p>
-<p>議論の内容は、同社の安全条件を維持したまま国防総省にどのように貢献できるか、あるいはそれが難しい場合にどのような形で移行を進めるかなどだったとしている。</p>
-<h2>国防総省は「サプライチェーンリスク」に指定</h2>
-<p>一方、Reutersは3月5日、米国防総省がAnthropicを「supply-chain risk（サプライチェーンリスク）」に指定したと報じた。これにより、政府契約企業による同社AIモデル「Claude」の利用に影響が及ぶ可能性があるという。</p>
-<p>またAnthropicと国防総省の対立を巡り、投資家や関係者が両者の緊張緩和を働きかけているとも<a href="https://www.reuters.com/technology/anthropic-investors-push-de-escalate-pentagon-clash-over-ai-safeguards-sources-2026-03-04/">伝えている</a>。</p>
-<h2>軍事AI利用の「線引き」が問われる</h2>
-<p>今回の問題は、AI企業が軍事分野とどこまで協力するかという課題を象徴するものでもある。Anthropicは米政府との協力を否定していないが、国内監視や完全自律型兵器といった用途については明確な制限を設けている。</p>
-<p>AIの軍事利用が拡大する中、技術企業と政府の間で「どこまで許容するか」という線引きが改めて問われている。</p>
+      <title>Anthropic、AIが労働市場に与える影響を分析　Claude利用データから「職業ではなくタスク単位で変化」と指摘</title>
+      <link>https://ledge.ai/articles/anthropic_ai_labor_market_impacts_task_level_change_claude_data</link>
+      <description><![CDATA[<p>Anthropicは2026年3月5日、AIが労働市場に与える影響を分析した研究レポート
+<a href="https://www.anthropic.com/research/labor-market-impacts">「Labor Market Impacts of AI: A New Measure and Early Evidence」</a>した。を公開した。AIアシスタント「Claude」の実際の利用データを分析した結果、AIが理論的に対応可能な業務の範囲に比べ、実際にAIが使われている範囲はまだ限定的であることが明らかになった。</p>
+<p>同社は今回、AIが仕事に与える影響を測る新しい指標「Observed Exposure（観測されたAI曝露）」を提案し、職業ではなく業務タスク単位でAIの影響を分析している。</p>
+<h2>AIの影響は「職業」ではなく「タスク」に現れる</h2>
+<p>研究では、AIが特定の職業を丸ごと置き換えるケースは少なく、職務の中に含まれる個々の業務タスクの一部がAIの影響を受ける傾向があると分析している。</p>
+<p>多くの職種は複数のタスクから構成されており、AIはその一部を自動化または支援する形で利用される。このため、AIの普及は職業の消失というよりも、業務内容の再構成や働き方の変化として現れる可能性が高いとしている。</p>
+<h2>「Observed Exposure」指標でAIの影響を測定</h2>
+<p>レポートでは、AIが労働市場に与える影響を測る新しい指標として「Observed Exposure」を導入した。</p>
+<p>この指標は
+・大規模言語モデル（LLM）が理論上実行できるタスク
+・実際のAI利用データ
+・自動化用途か補助用途か
+・業務関連の利用かどうか</p>
+<p>といった要素を組み合わせて算出される。</p>
+<p><strong>■ 図：AI曝露指標（Eloundou β）とClaude利用割合の関係。AI曝露が高い職種ほど、実際のClaude利用割合も高い傾向が見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9d205667455ef8b78e8cbb407b6bd76556a7d859_4584x2579_430a81ec38/9d205667455ef8b78e8cbb407b6bd76556a7d859_4584x2579_430a81ec38.jpg" alt="9d205667455ef8b78e8cbb407b6bd76556a7d859-4584x2579.jpg" /></p>
+<p>従来の研究はAIの「理論的能力」に基づく推定が多かったが、今回の分析では実際の利用データを重視している点が特徴だとしている。</p>
+<h2>AIの実利用は理論能力の一部にとどまる</h2>
+<p>分析の結果、AIが理論的に対応可能と考えられるタスクの範囲に対して、実際にAIが使われている範囲はまだその一部にとどまることが確認された。</p>
+<p><strong>■ 図：職業カテゴリー別に見たAIの理論的対応可能範囲と実際の利用状況。青はAIが理論的に対応可能と推定される範囲、赤はClaudeの実利用データに基づくAI利用範囲を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c1952c81bca02a7c8cc05ef7801e67ca60831c55_4096x4096_1223f45a0d/c1952c81bca02a7c8cc05ef7801e67ca60831c55_4096x4096_1223f45a0d.jpg" alt="c1952c81bca02a7c8cc05ef7801e67ca60831c55-4096x4096.jpg" /></p>
+<p>レポートでは、AIの能力と実際の利用の間には依然として大きな差があり、AIが労働市場に与える影響は今後も変化していく可能性があると指摘している。</p>
+<h2>AI曝露が高い職業は将来の雇用成長が低い傾向</h2>
+<p>また、AI曝露が高い職業ほど、米労働省労働統計局（BLS）が予測する将来の雇用成長率が低い傾向があることも確認された。</p>
+<p>ただし、この結果はAIが直接雇用を減らしていることを示すものではなく、AIの影響を受けやすい職種がもともと成長率の低い職業である可能性もあるとしている。</p>
+<h2>高いAI曝露の職業は「高学歴・高所得」</h2>
+<p>レポートによると、AI曝露が高い職業には次のような特徴が見られた。
+・高学歴
+・高所得
+・女性比率が比較的高い
+・年齢層が高め</p>
+<p>つまりAIの影響は、これまで自動化の対象とされることが少なかったホワイトカラー職種にも広がりつつある可能性がある。</p>
+<p><strong>■ AI曝露が高い職業の上位例。プログラマー、カスタマーサービス、データ入力など、情報処理や文章生成を伴う業務が多く含まれる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a16a5b9ba4a5280ef41e058dff6964a3f116c854_4584x2579_9323805935/a16a5b9ba4a5280ef41e058dff6964a3f116c854_4584x2579_9323805935.jpg" alt="a16a5b9ba4a5280ef41e058dff6964a3f116c854-4584x2579.jpg" /></p>
+<h2>失業増加の証拠は現時点では確認されず</h2>
+<p>一方で、AI曝露の高い職種において、2022年以降に失業率が体系的に上昇したという証拠は確認されなかった。ただし、AIの影響を受けやすい職種では、若年層の採用がやや減速している可能性を示唆するデータも見られたとしている。</p>
+<p>Anthropicは、AIの社会的影響を理解するため、今後もAIの利用データを基に労働市場への影響を継続的に分析していくとしている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
