@@ -222,6 +222,22 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、AIの社会影響を研究する新組織「Anthropic Institute」設立——強力なAIがもたらす課題を分析</title>
+      <link>https://ledge.ai/articles/anthropic_launches_anthropic_institute_ai_societal_impact</link>
+      <description><![CDATA[<p>Anthropicは2026年3月11日、強力なAIが社会にもたらす影響や課題を研究する新組織「Anthropic Institute」を設立すると<a href="https://www.anthropic.com/news/the-anthropic-institute">発表</a>した。AIの進化が経済や社会制度、政策に与える影響を分析し、研究成果を公開することで、政府や企業、研究者などがAI時代に備えるための知見の提供を目的としている。</p>
+<p>発表の中で同社は、AIの進歩が急速に進んでおり、今後数年でさらに大きな変化が起こる可能性があるとの見方を示した。また、AI開発の進展は時間とともに加速する「複利的な改善」によって進むと考えており、非常に強力なAIが予想よりも早く登場する可能性があるとしている。</p>
+<h2>AIの社会的課題を研究</h2>
+<p>Anthropic Instituteは、AIの能力が向上することで社会に生じる課題を研究するための組織として設立された。</p>
+<p>研究テーマには、AIが雇用や経済活動に与える影響、社会のレジリエンスを高める可能性、AIが新たに生み出すリスクや脅威、AIシステムが持つ価値観の問題などが含まれる。また、AIが自己改善を繰り返すような高度なシステムが登場した場合、どのように情報共有やガバナンスを行うべきかといった課題も研究対象になるとしている。</p>
+<p>同研究所はAnthropicの共同創業者であるJack Clark氏が率いる。研究所には機械学習エンジニアに加え、経済学者や社会科学者などの研究者が参加し、AIの社会的影響を多角的に研究する体制を構築する。</p>
+<h2>既存のAI研究チームを統合</h2>
+<p>Anthropic Instituteは、同社の既存研究チームを統合する形で構成される。</p>
+<p>AIの能力の限界や潜在的リスクを検証する「Frontier Red Team」、AIの実社会での利用状況を分析する「Societal Impacts」、AIが雇用や経済に与える影響を研究する「Economic Research」の3チームを基盤とし、今後新たな研究チームも設立する予定としている。</p>
+<p>現在は、AIの進歩の予測や、強力なAIが法律制度にどのような影響を与えるかといったテーマにも取り組んでいるという。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>公共2026/3/10 [TUE]Anthropic、米国防総省を提訴　「供給網リスク」認定は違法と主張</title>
       <link>https://ledge.ai/articles/anthropic_sues_us_defense_department_supply_chain_risk_designation</link>
       <description><![CDATA[<p>米AI企業Anthropicは2026年3月9日（現地時間）、同社を「サプライチェーンリスク（供給網リスク）」と認定した米国防総省などの措置は違法だとして、差し止めなどを求めて提訴した。<a href="https://www.courthousenews.com/wp-content/uploads/2026/03/anthropic-supply-chain-risk-lawsuit.pdf">訴状</a>によると、この認定は同社の契約や企業としての評判に重大な損害を与えていると主張している。Anthropicはこれに先立つ公式声明で、この措置について「法廷で争うほか選択肢がない」との立場を示していた。</p>
@@ -373,27 +389,6 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote9_088034bef5/ntt_prs_akirashimada_mwc_keynote9_088034bef5.jpg" alt="ntt prs.akirashimada mwc keynote9.jpg" /></p>
 <p>NTTは光量子コンピューティングにより、2030年までに100万量子ビット規模のシステム実現を目標としている。将来的には1億量子ビット規模の計算能力を目指し、創薬や新エネルギー開発などの分野への応用を視野に入れている。</p>
 <p>AIインフラの拡大に伴い、計算性能だけでなく電力効率の改善が重要な課題となる中、NTTはIOWN構想を通じて通信から計算までを光技術でつなぐ次世代インフラの構築を進める方針だ。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、銃撃事件の容疑者がChatGPT利用　警察通報の基準を見直しカナダ当局に安全対策強化を約束</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_shooting_case_reporting_policy_canada</link>
-      <description><![CDATA[<p>OpenAIは2026年2月26日、カナダ・ブリティッシュコロンビア州タンブラーリッジで発生した銃撃事件を受け、重大な犯罪につながるおそれのあるポリシー違反を検知した場合の法執行機関への通報基準を見直し、安全対策を強化する方針をカナダ政府に伝えた。事件はカナダ史上最悪級の銃乱射事件の一つとされており、容疑者が事件前にChatGPTを利用していたことが明らかになっている。</p>
-<p>同社がカナダの人工知能・デジタルイノベーション相エバン・ソロモン氏に送った<a href="https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf">書簡</a>によると、容疑者は事件前にChatGPTを利用しており、OpenAIは2025年6月に同アカウントを暴力行為に関連するポリシー違反として停止していた。</p>
-<p>ただし当時は、会話内容から「信頼できる差し迫った暴力計画（credible and imminent planning）」が確認できないと判断し、警察への通報は行われなかったという。</p>
-<h2>事件後、通報基準を見直し</h2>
-<p>OpenAIは書簡の中で、現在の強化された安全プロトコルを当時に適用していれば、当該アカウントを法執行機関に通報していた可能性があると説明した。</p>
-<p>これを受け、同社はカナダ政府に対し、以下の安全対策を進める方針を示した。</p>
-<p>・法執行機関への通報プロトコルの強化
-・カナダ警察との直接連絡窓口の設置
-・地域事情を踏まえた危機対応（デエスカレーション）の支援
-・アカウント停止後の再登録利用者の検知強化</p>
-<p>OpenAIによると、事件後の調査で、容疑者が別のChatGPTアカウントを使用していたことも判明しており、その情報は法執行機関と共有されたとしている。</p>
-<h2>AIサービスと犯罪リスクの対応が焦点に</h2>
-<p>今回の対応は、AIサービスにおける安全対策のあり方を巡る議論を改めて浮き彫りにした。従来は利用規約違反が確認された場合にアカウント停止などの措置が取られることが一般的だったが、今回の見直しでは、重大な犯罪リスクが検知された場合に法執行機関への連絡を行う可能性を明確化した形となる。</p>
-<p>カナダ政府は事件後、OpenAI側と協議を行い、安全対策の強化を求めていた。報道によると、政府はAIサービスによる危険な利用の検知や通報のあり方について、必要に応じて制度面での対応も検討する姿勢を示している。</p>
-<p>OpenAIは書簡の中で、政府や地域社会、専門家と連携しながら、AIサービスの安全な利用を確保するための取り組みを継続するとしている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
