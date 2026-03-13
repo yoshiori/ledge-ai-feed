@@ -234,7 +234,7 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>公共2026/3/8 [SUN]AmazonやGoogleなど米テック7社、AIデータセンターの電力費負担を誓約　家庭向け料金への転嫁回避へ</title>
+      <title>AmazonやGoogleなど米テック7社、AIデータセンターの電力費負担を誓約　家庭向け料金への転嫁回避へ</title>
       <link>https://ledge.ai/articles/big_tech_ai_data_center_power_cost_pledge</link>
       <description><![CDATA[<p>AmazonやGoogle、Meta、Microsoft、OpenAI、Oracle、xAIの米テック大手7社は2026年3月4日、AI用データセンターの新規電源確保や送配電インフラ増強に伴う費用を自ら負担し、一般家庭向け電気料金に転嫁しないとする誓約に署名した。</p>
 <p>ホワイトハウスが同日公表した<a href="https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/">ファクトシート</a>によると、対象は「Ratepayer Protection Pledge」と呼ばれる枠組みで、AIブームに伴うデータセンター需要の拡大と電力コスト増への対応を狙う。</p>
@@ -324,6 +324,36 @@
 <p>こうした背景からみずほFGは、金融実務の知識や社内ルール、コンプライアンス上の留意点を学習させた金融特化LLMの開発を進めてきた。モデルは銀行内の閉域環境（オンプレミス）で運用でき、機密性の高いデータを外部に送信することなくAI処理を実行できる。</p>
 <h2>将来は専門業務AIへ拡張</h2>
 <p>みずほFGは今後、金融特化LLMを基盤として業務領域ごとの専門モデルを拡張していく計画だ。まず金融基礎や社内手続に対応するモデルを整備し、その後「融資」「法務」「市場」などの専門LLMを構築。最終的には複数のモデルを連携させる協調型エキスパートLLMによる部門横断的な判断支援を目指すとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTT、MWC26でIOWN構想を提示　光電融合デバイスでAIインフラの電力効率100倍へ</title>
+      <link>https://ledge.ai/articles/ntt_iown_photonics_ai_infrastructure_mwc26</link>
+      <description><![CDATA[<p>NTTは2026年3月4日（現地時間）、スペイン・バルセロナで開催されたモバイル関連展示会 MWC Barcelona 2026 の<a href="https://www.mwcbarcelona.com/agenda/sessions/6092-keynote-11-rewriting-the-playbook">基調講演</a>で、次世代通信基盤 IOWN 構想の進展を紹介した。NTT代表取締役社長の 島田明 氏が登壇し、AI時代のインフラ需要の拡大に伴う電力消費の課題に対し、光技術を活用した低消費電力インフラの構築を進めていると説明した。
+した。</p>
+<h2>AI市場拡大で高まる電力需要</h2>
+<p>講演で島田氏は、AI市場が急速に拡大する中で、データセンターや計算サーバーの増設、計算能力の拡張が加速していると指摘した。AI市場は過去10年で約24倍に拡大しており、生成AIの分野では最大40倍の成長が見込まれるという。</p>
+<p><strong>■ AI市場の急拡大により、AIインフラ需要が大きく伸びるとの見通しを示した。スライドでは2030年時点の市場成長率として、AI市場20倍、生成AI市場40倍を掲げた</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote4_3b543a167e/ntt_prs_akirashimada_mwc_keynote4_3b543a167e.jpg" alt="ntt prs.akirashimada mwc keynote4.jpg" /></p>
+<p>こうした拡大に伴い、AIインフラを支える電力需要も急増している。現在のAIインフラは主に電気配線を中心とした構成となっており、計算規模の拡大に比例して消費電力も増加する傾向にある。NTTはこの課題に対し、電気配線を光技術に置き換えることで性能を維持しながら電力消費を大幅に削減するインフラの実現を目指すとしている。</p>
+<h2>光電融合デバイスでデータセンターを低消費電力化</h2>
+<p>その中核技術として紹介されたのが、光と電子を組み合わせた Photonic-Electronic Convergence（PEC）デバイスだ。光通信はデータ量が増えても電力消費が増えにくいという特性があり、超高速通信が求められるAIインフラでも高いエネルギー効率を実現できるという。</p>
+<p>NTTは2032年までに、従来の電気配線中心のシステムと比較して最大100倍の電力効率を実現することを目標に掲げている。</p>
+<p><strong>■ 光電融合デバイス（PEC）のロードマップ。データセンター間接続からボード間、パッケージ間、ダイ間へと光接続を広げていく構想を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote8_0a34ba42fe/ntt_prs_akirashimada_mwc_keynote8_0a34ba42fe.jpg" alt="ntt prs.akirashimada mwc keynote8.jpg" /></p>
+<p>すでにデータセンター間接続向けの第1世代デバイス「PEC-1」は商用化されており、現在はデータセンター内部の計算システムに光接続を導入する第2世代「PEC-2」の開発を進めている。PEC-2はラック間やサーバーボード間の接続を光化するもので、2026年度の商用化を予定している。</p>
+<h2>AIスーパーコンピュータ向け接続にも応用</h2>
+<p>PEC-2デバイスは、米 Broadcom のスイッチ用データ処理チップと組み合わせ、台湾のネットワーク機器メーカー Accton Technology が製造するシャーシに統合する構成が計画されている。これにより、大規模AIスーパーコンピュータ向けの高速・低消費電力接続を実現するという。デバイスはモジュール単位で交換できる設計となっており、実運用環境での信頼性や保守性にも配慮している。</p>
+<p><strong>■ 光量子コンピューティングのロードマップ。2027年に1万量子ビット、2030年に100万量子ビット、将来的に1億量子ビットを目指す方針を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote11_b02ad45566/ntt_prs_akirashimada_mwc_keynote11_b02ad45566.jpg" alt="ntt prs.akirashimada mwc keynote11.jpg" /></p>
+<p>NTTはさらに研究開発を進め、将来的には半導体内部の接続にも光技術を導入することを目指す。チップ間やパッケージ間の配線を光リンクに置き換えることで、フォトニクス半導体の実現につながる可能性があるとしている。</p>
+<h2>光量子コンピュータの研究も進展</h2>
+<p>講演では、光技術を量子コンピューティングに応用する取り組みにも触れた。現在主流となっている超伝導方式の量子コンピュータは極低温環境や真空環境を必要とするが、光量子コンピューティングは常温・常圧で動作可能で、電力効率や拡張性の面で優位性があるという。</p>
+<p><strong>■ 光量子コンピューティングは常温・常圧での動作と単一ラックサイズでの実装を目指すと説明した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote9_088034bef5/ntt_prs_akirashimada_mwc_keynote9_088034bef5.jpg" alt="ntt prs.akirashimada mwc keynote9.jpg" /></p>
+<p>NTTは光量子コンピューティングにより、2030年までに100万量子ビット規模のシステム実現を目標としている。将来的には1億量子ビット規模の計算能力を目指し、創薬や新エネルギー開発などの分野への応用を視野に入れている。</p>
+<p>AIインフラの拡大に伴い、計算性能だけでなく電力効率の改善が重要な課題となる中、NTTはIOWN構想を通じて通信から計算までを光技術でつなぐ次世代インフラの構築を進める方針だ。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
