@@ -307,20 +307,14 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPTは「弁護士ではない」日本生命の米法人がOpenAI提訴——弁護士資格なしで法律業務と主張</title>
-      <link>https://ledge.ai/articles/chatgpt_not_lawyer_openai_lawsuit_nippon_life</link>
-      <description><![CDATA[<p>日本生命保険の米国法人は2026年3月4日、対話型AI「ChatGPT」が弁護士資格を持たないまま法律業務を行い、保険金の元受給者による訴訟を助長したとして、ChatGPTを開発する米OpenAIを米イリノイ州北部地区連邦地裁に提訴した。</p>
-<h2>ChatGPTが裁判書面の作成を支援と主張</h2>
-<p><a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">訴状</a>によると、保険金の元受給者は長期障害保険を巡って日本生命の米法人と訴訟を行い、2024年1月に和解していた。しかしその後、弁護士とのメール内容をChatGPTに入力して助言を求めるようになり、弁護士を解任。ChatGPTを使って裁判所に提出する書面の作成などを行ったとされる。</p>
-<p>女性は和解済みの訴訟の再開を求める申立書など多数の書面を裁判所に提出したが、裁判所はこれを却下した。</p>
-<h2>「ChatGPTは弁護士ではない」非弁行為を主張</h2>
-<p>訴状では、ChatGPTについて「弁護士ではなく、米国のいかなる司法管轄でも弁護士資格を認められていない」と指摘。さらにOpenAIが「法律業務に該当する作業を行うようChatGPTを設計・提供した」と主張している。</p>
-<p>また、ChatGPTが「正当な法的目的を持たない多数の裁判書面の作成を支援した」として、裁判手続きの濫用を助長したとも述べている。</p>
-<h2>約30万ドルの損害と1000万ドルの懲罰的賠償請求</h2>
-<p>日本生命の米法人は、この対応で約30万ドルの損害が生じたとして賠償を求めているほか、懲罰的損害賠償として1000万ドルの支払いも請求している。</p>
-<p>Reutersによると、OpenAIは声明で「この訴えには全く根拠がない」として争う姿勢を示している。</p>
-<p>今回の訴訟では、生成AIが法律助言や裁判書面の作成などを行うことが弁護士資格制度に抵触するかどうかが争点となる可能性がある。生成AIを巡っては、AIが作成した裁判書面の誤引用などが問題となる事例も報告されており、法律実務とAIの関係を巡る議論が続いている。</p>
-<p>訴訟記録は、米連邦裁判所の公開データベースを収集する<a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">CourtListener</a>でも確認できる。</p>
+      <title>ChatGPT、数式やグラフの変化を見ながら学べる新機能　数学・科学向けのインタラクティブなビジュアル解説を提供開始</title>
+      <link>https://ledge.ai/articles/chatgpt_interactive_visual_math_science_learning</link>
+      <description><![CDATA[<p>OpenAIは2026年3月10日、対話型AI「ChatGPT」で数学や科学を学ぶための新機能として、「<a href="https://openai.com/ja-JP/index/new-ways-to-learn-math-and-science-in-chatgpt/">インタラクティブなビジュアル解説</a>」の提供を始めた。数式や変数、概念同士の関係をリアルタイムで視覚的に示し、利用者が変化を見ながら理解を深められるようにする。対象はログイン中のChatGPTユーザーで、無料プランを含む全プランで世界展開する。</p>
+<p>ChatGPTはすでに学習用途でも広く使われており、同社によると毎週1億4,000万人が数学や科学の概念理解に活用しているという。今回の新機能では、まず主に高校生や大学生の学習者を対象とした70以上の数学・科学のトピックについて、数式や変数を動かした際にグラフや関係性がどう変わるかをその場で確認できるようにした。抽象的になりやすい内容を、静的な説明文だけでなく、操作可能なビジュアルとともに示すのが特徴だ。</p>
+<p>公式サイトでは、理想気体の法則やレンズの方程式、ピタゴラスの定理、円の面積といった題材が例として示されている。新しいトピックの調査や宿題、試験準備などの場面で、数式や概念の関係を視覚的に確かめながら理解を深められる設計だ。</p>
+<p><strong>ChatGPTのインタラクティブなビジュアル解説の表示例。理想気体の法則を題材に、変数を動かしながら関係性を視覚的に学べる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ideal_gas_law_43a290d901/ideal_gas_law_43a290d901.jpg" alt="ideal gas law.jpg" /></p>
+<p>OpenAIは、数学や科学の概念は抽象的で理解しにくいことが多いとしたうえで、視覚的かつ操作可能な学習体験によって、公式や変数の背後にある関係性をつかみやすくなるとしている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
