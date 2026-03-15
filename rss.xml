@@ -195,6 +195,28 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AmazonとMicrosoft、個人向けヘルスAIを相次ぎ発表　受診導線と健康データ統合で競争本格化</title>
+      <link>https://ledge.ai/articles/amazon_microsoft_personal_health_ai</link>
+      <description><![CDATA[<p>AmazonとMicrosoftが、個人向けヘルスAIの新機能を相次いで発表した。</p>
+<p>Amazonは2026年3月10日、米国でAmazonサイトとアプリ上で利用できる「<a href="https://www.aboutamazon.com/news/retail/amazon-health-ai-agent-one-medical">Health AI</a>{target=”_blank”}」を投入し、健康に関する質問への回答に加え、One MedicalやAmazon Pharmacyと連携した受診・処方関連の導線を打ち出した。Microsoftは12日、Microsoft AI（MAI）の取り組みとして、まず米国の18歳以上の英語利用者向けに「<a href="https://microsoft.ai/news/introducing-copilot-health/">Copilot Health</a>」を発表し、Copilotを通じた個人向けの健康支援に乗り出した。</p>
+<h2>Amazon、サイトとアプリで「Health AI」を展開</h2>
+<p>Amazonが発表したHealth AIは、Amazonのサイトやアプリから利用できるヘルスAI機能だ。一般的な健康に関する質問への回答に加え、利用者の同意に基づいて健康情報を参照し、より個別化した案内を行う。必要に応じて、Amazon傘下のOne Medicalにつなぎ、受診や継続的なケアにつなげる設計を採る。</p>
+<p>今回の発表では、Prime会員向けの施策も盛り込まれた。Amazonは、Prime会員に対して24時間365日利用できるバーチャルケアへの無料アクセスを提供するとしており、Health AIを入り口としてオンライン診療や医療相談へ進みやすい構成を示した。あわせて、Amazon Pharmacyとも連携し、処方薬に関する導線も整える。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NoxBqhgCfXI">YouTube</a></p>
+<h2>Prime会員向け特典も用意、One Medicalや薬局導線と接続</h2>
+<p>Amazonの発表内容からは、Health AIを単なる健康情報の検索補助ではなく、相談から受診、処方関連の手続きまでを含む一連の行動支援の窓口として位置づける方針が読み取れる。既存のEC基盤、Prime会員基盤、One Medical、Amazon Pharmacyを接続し、医療・健康領域での利用接点を広げる構えだ。</p>
+<h2>Microsoft、「Copilot Health」を発表</h2>
+<p>一方、Microsoftが発表したCopilot Healthは、個人の健康情報をAIで整理・活用することを前面に打ち出したサービスだ。健康記録やウェアラブル機器のデータ、過去の健康履歴などを統合し、利用者が自らの健康状態を把握しやすくすることを狙う。Copilotの中でも、健康情報を扱うための専用領域として提供する方針を示している。</p>
+<h2>健康データ統合を前面に、段階的に提供へ</h2>
+<p>Microsoftは、Copilot Healthを医療専門家による診断や治療の代替ではないと位置づけている。その上で、利用者が自分の健康データを確認し、医療機関との対話や日常的な健康管理に役立てるための支援機能として展開する考えだ。まずは段階的に提供を始めるとしており、個人向けヘルスAIを慎重に立ち上げる姿勢もうかがえる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=61JHf0K1zKc">YouTube</a></p>
+<h2>両社とも個人データを踏まえた支援を志向</h2>
+<p>両社の発表には共通点もある。いずれも、生成AIを健康関連の一般的な質問応答にとどめず、個人データを踏まえた支援へ拡張しようとしている点だ。その一方で、打ち出し方には違いがある。Amazonは、受診や処方更新といった実際の医療行動への接続を重視しているのに対し、Microsoftは、分散しがちな健康データを統合し、利用者の理解を助ける基盤づくりを前面に出している。</p>
+<p>ヘルスAIを巡っては、安全性やプライバシー、医療情報の取り扱いが重要な論点となる。今回の発表でも、両社は医療行為そのものを代替するものではないことや、利用者の同意や保護を前提とする姿勢を示している。今後は、こうした機能が実際にどこまで利用者に浸透するかに加え、既存の医療サービスや保険、薬局との連携がどのように広がるかも焦点になりそうだ。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、AIが労働市場に与える影響を分析　Claude利用データから「職業ではなくタスク単位で変化」と指摘</title>
       <link>https://ledge.ai/articles/anthropic_ai_labor_market_impacts_task_level_change_claude_data</link>
       <description><![CDATA[<p>Anthropicは2026年3月5日、AIが労働市場に与える影響を分析した研究レポート
@@ -362,20 +384,6 @@
 <p>このサービスは、AIエージェントのオープンな実行環境を目指す「OpenClaw」エコシステムとも関係があるとされる。OpenClawは、AIエージェントが外部ツールやサービスを利用しながらタスクを実行する仕組みを提供するもので、エージェント同士の連携や能力共有を可能にする枠組みとして開発が進められている。企業システムやオンラインサービスとAIエージェントを接続する基盤としても注目されている。</p>
 <p>Moltbookは、こうしたAIエージェントの活動や能力を可視化するコミュニティとして広まり、AIエージェントが互いに投稿する“AIエージェント専用SNS”として話題となった。AIエージェント同士の交流や評価が行われる実験的なコミュニティとして、AI開発者や研究者の間でも注目を集めていた。</p>
 <p>Axiosによると、Moltbookの共同創業者であるMatt Schlicht氏とBen Parr氏は、MetaのAI研究組織であるMeta Superintelligence Labs（MSL）に参加する。MSLはMetaがAI研究開発を強化するために設けた部門で、AI分野の研究者やエンジニアを集め、次世代のAI技術の開発を進めているという。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、News CorpとAI学習向け契約　年間最大5000万ドルで米英記事を利用へ</title>
-      <link>https://ledge.ai/articles/meta_news_corp_ai_content_licensing_50m_per_year</link>
-      <description><![CDATA[<p>米MetaがNews Corpと記事コンテンツをAI製品やAI学習に活用するためのライセンス契約を結んだと、米<a href="https://www.wsj.com/business/media/news-corp-meta-in-ai-content-licensing-deal-worth-up-to-50-million-a-year-d4fbf244">Wall Street Journal（WSJ）</a>が2026年3月3日に報じた。契約は複数年で、Metaは年間最大5000万ドルを支払う見通しだという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/wsj_news_corp_and_meta_9c945e8b40/wsj_news_corp_and_meta_9c945e8b40.jpg" alt="wsj news corp and meta.jpg" /></p>
-<p>契約期間は少なくとも3年で、対象となるのはNews Corpの米国および英国のコンテンツだという。Metaは最新の記事をAI製品に組み込んでリアルタイム性の高い情報提供に活用できるほか、記事アーカイブをAI学習にも利用できるとしている。</p>
-<p>News CorpはWall Street Journalのほか、New York Postや英The Sunなどを傘下に持つ。今回の契約により、Metaは報道機関が持つ比較的信頼性の高いニュースコンテンツを、AI製品の回答品質向上や学習データ拡充に生かす構図となる。</p>
-<p>News CorpのCEOであるRobert Thomson氏は、3月2日に開かれたMorgan Stanleyの会議で、同社をAI時代の「input company」と位置づけた。半導体やデータセンター、エネルギーになぞらえながら、ニュースや書籍、不動産情報といった保有コンテンツがAIにとって重要な入力資源になるとの見方を示した。</p>
-<p>今回の動きは、News CorpがAI企業に対して進めてきたライセンス戦略の延長線上にある。News Corpは2024年にOpenAIとも5年総額2億5000万ドル規模の契約を締結しており、SEC文書ではGoogle、Amazon、Metaとの交渉を監督していたことも示されていた。</p>
-<p>一方で、News Corp傘下のDow JonesとNew York Postは、AI検索企業Perplexityを著作権侵害で提訴している。無断利用には法的措置を取りつつ、条件が整えば有償でライセンス供与するという、いわば「提携か対決か」の二面戦略が鮮明になっている。</p>
-<p>Metaは2025年12月、CNNやFox News、USA Today、People Inc.など複数の報道機関と商用のAIデータ契約を結んだとAxiosやReutersが報じていた。生成AIの競争が進む中で、権利処理済みの高品質なニュースコンテンツをどう確保するかが、AI企業にとって重要なテーマになっている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
