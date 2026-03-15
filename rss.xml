@@ -376,6 +376,38 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>米Luma AI、次世代型画像生成モデル「Uni-1」発表　理解と生成を統合、推論性能でもNano Banana 2など上回る</title>
+      <link>https://ledge.ai/articles/luma_uni_1_unified_image_generation_model</link>
+      <description><![CDATA[<p>Luma AIは2026年3月6日（現地時間）、理解能力と生成能力を単一モデルに統合した次世代型画像生成モデル「Uni-1」を<a href="https://lumalabs.ai/uni-1">発表</a>した。Uni-1は、画像を生成するだけでなく、指示内容の理解や推論を同じモデルの中で扱う設計を採用している点が特徴だ。同社は、理解と生成を統合する「Unified Intelligence（統合知能）」への第一歩と位置づけている。</p>
+<h2>理解と生成を一体で扱う新モデル</h2>
+<p>Uni-1は、自己回帰型Transformer（文脈を踏まえながら順番に出力を組み立てる方式）を採用し、文章と画像を単一の系列として処理する。これにより、指示内容を理解して推論する処理と画像生成を一体で進められるという。</p>
+<p>Luma AIは、こうした構造によって、AIが単に見栄えのよい画像を作るだけでなく、指示に含まれる要素同士の関係や場面の流れを踏まえながら画像を生成できるとしている。発表では、時間的な前後関係や空間的な配置、論理的な整合性といった要素を同時に扱える点を訴求した。</p>
+<h2>推論性能を測る比較で既存モデルを上回る結果</h2>
+<p>Luma AIは、画像生成モデルの推論能力を測るベンチマーク「RISEBench」の結果も公開した。これは、因果関係、空間理解、時間理解、論理推論などを評価するもので、複雑な指示にどこまで整合的に応えられるかを見る指標として使われている。</p>
+<p><strong>■ 図：画像生成モデルの推論性能を比較したRISEBench。Uni-1はNano Banana 2やGPT Image 1.5などを総合スコアで上回る結果を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rise_bench_chart_1600_98bcf32d80/rise_bench_chart_1600_98bcf32d80.jpg" alt="rise-bench-chart-1600.jpg" /></p>
+<p>公開されたグラフでは、Uni-1の総合スコアは0.51となり、Nano Banana 2やGPT Image 1.5などを上回った。項目別では、因果理解や空間理解でも高い値を示しており、Luma AIは、画像生成の品質だけでなく、指示内容を踏まえて場面を組み立てる力でも優位性があるとアピールしている。</p>
+<h2>同一条件での生成比較も公開</h2>
+<p>Luma AIは、複数の画像生成モデルに同じ条件で指示を与えた比較例も公開した。会議室の中で猫がスライドを使って発表し、それを別の猫と人間が見ている場面など、複数の主体と役割を含むプロンプトで比較したもので、構図の整合性や場面理解の違いが分かる内容になっている。</p>
+<p><strong>■ 図：同一プロンプトで生成した画像の比較。Uni-1、Nano Bananaシリーズ、GPT Image 1.5などの出力を並べた例</strong></p>
+<p><strong>左）プロンプト：参照画像の２匹の猫を、会議室の場面に合成。１匹がLumaAIのスライドを発表し、もう１匹が観察する。参照画像の２名の男性も座ってプレゼンに反応している／右）Uni-1の出力結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odai_side_04b39b7159/odai_side_04b39b7159.jpg" alt="odai-side.jpg" />
+<strong>左）NanoBanana／右）NanoBanana2</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NB_side_34f0efce00/NB_side_34f0efce00.jpg" alt="NB-side.jpg" />
+<strong>左）NanoBanana Pro／右）GPT Image1.5</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NBP_side_cc1367e4c9/NBP_side_cc1367e4c9.jpg" alt="NBP-side.jpg" /></p>
+<p>こうした比較例では、Uni-1は登場人物や動物の配置、発表と観察という役割の違い、室内の構図などを比較的自然に表現している。Luma AIは、こうした結果を、理解と生成を一体で扱う設計の成果として位置づけている。</p>
+<h2>生成能力が視覚理解の向上にもつながると説明</h2>
+<p>同社はさらに、画像生成の能力を持つことが、視覚理解そのものの向上にもつながるとの考えを示している。これを示す例として、物体検出ベンチマーク「ODinW Dense Detection」の結果も公開した。</p>
+<p><strong>■ 図：ODinW Dense Detection Accuracy。Uni-1のフルモデルは、理解専用モデルを上回る精度を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odinw_chart_1600_37f37799a7/odinw_chart_1600_37f37799a7.jpg" alt="odinw-chart-1600.jpg" /></p>
+<p>公開資料では、理解専用モデルのスコアが43.9だったのに対し、Uni-1のフルモデルは46.2を記録した。Luma AIはこの結果について、画像を生成するための学習が、物体や配置、場面を細かく見分ける力の向上にも寄与している可能性があるとしている。</p>
+<h2>「Unified Intelligence」への第一歩</h2>
+<p>Luma AIは、Uni-1を単なる新しい画像生成モデルではなく、理解と生成の境界をまたぐモデルとして打ち出している。発表では、画像生成に加えて、世界知識や文化的文脈、複数ターンでの調整といった要素にも言及しており、より広いマルチモーダルAIへつながる基盤として位置づけた。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、AIエージェントSNS「Moltbook」を買収　創業者2人はAI部門へ</title>
       <link>https://ledge.ai/articles/meta_acquires_moltbook_ai_agent_social_network</link>
       <description><![CDATA[<p>Metaは2026年3月10日、AIエージェント同士が投稿や交流を行うSNS「Moltbook」を買収した。このニュースは<a href="https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network">Axios</a>のスクープで明らかになり、その後ReutersやTechCrunch、APなどがMeta広報コメントをもとに追随して報じた。買収額は非公表で、共同創業者のMatt Schlicht氏とBen Parr氏はMeta Superintelligence Labs（MSL）に加わる。</p>
