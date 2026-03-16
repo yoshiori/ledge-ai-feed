@@ -447,6 +447,27 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
+      <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
+      <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
+<h2>「Copilot Cowork」研究プレビュー公開</h2>
+<p>Copilot Coworkは、Microsoft 365 Copilotの新機能として提供されるAIエージェント機能で、AIが単発の質問応答にとどまらず、複数のアプリやデータを横断しながら長時間のタスクを継続的に実行することを目的としている。</p>
+<p>Microsoftは、これまでのCopilotが文書作成や情報整理などを支援するAIアシスタントとして機能してきたのに対し、Copilot Coworkではタスクを段階的に進めるAIエージェントとして業務を遂行できるようになると説明している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=j8rHJsM3fxQ">YouTube</a></p>
+<h2>Anthropicと共同開発、Claude Coworkの技術を採用</h2>
+<p>Copilot Coworkは、AI企業Anthropicと共同で開発された。Microsoftによると、AnthropicのAIシステム「Claude Cowork」の技術を取り入れており、AIが複数のステップを伴う作業を継続的に進める仕組みを実現したという。</p>
+<p>MicrosoftとAnthropicは近年AI分野での連携を強化しており、今回の取り組みはその協力関係の一環として位置付けられる。</p>
+<h2>会議準備や企業調査など複数ステップの業務に対応</h2>
+<p>MicrosoftはCopilot Coworkの利用例として、会議の準備や企業調査、プロジェクト計画の作成、製品ローンチの準備などを挙げている。</p>
+<p>例えば会議準備では、カレンダーやメール、過去の会議資料などの情報を参照しながら関連資料を整理し、議題やメモをまとめる作業をAIが段階的に進めることができるとしている。また企業リサーチでは、公開情報や社内データを横断的に分析し、調査結果をまとめる作業などにも活用できるという。</p>
+<p>このようにCopilot Coworkは、複数の情報源を横断しながらタスクを継続的に処理することで、従来のAIアシスタントよりも広い範囲の業務を支援できるとされる。</p>
+<h2>Frontier programで段階的に提供</h2>
+<p>Copilot Coworkは現在、研究プレビューとして一部のユーザー向けに提供されている。Microsoftは、2026年3月下旬から「Microsoft 365 Frontier program」を通じて、より広いユーザーに提供を拡大する予定としている。</p>
+<p>同社は、Microsoft 365 Copilotを単なるAIチャットから業務を実行するAIへと進化させる取り組みを進めており、Copilot Coworkはその方向性を示す機能の一つと位置付けられている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>みずほFG、金融特化LLMを独自開発　銀行実務テストで“推論なし”正答率89.0％は汎用LLMと同水準の精度</title>
       <link>https://ledge.ai/articles/mizuho_finance_specialized_llm_reasoning_free_89_accuracy</link>
       <description><![CDATA[<p>みずほフィナンシャルグループは2026年3月5日、独自に開発を進めている金融特化の大規模言語モデル（LLM）が、銀行の実務テストにおいて推論に依存しない条件下で正答率89.0％を達成したと<a href="https://prtimes.jp/main/html/rd/p/000000002.000177612.html">発表</a>した。業務利用を想定した評価では平均回答時間1秒未満も確認され、同社は高精度と即答性の両立を実現したとしている。</p>
