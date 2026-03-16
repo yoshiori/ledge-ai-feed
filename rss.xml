@@ -352,6 +352,30 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google MapsにGemini統合「Ask Maps」発表——10年以上ぶりの大規模刷新、会話で店や場所を探すAI地図検索</title>
+      <link>https://ledge.ai/articles/google_maps_gemini_ask_maps_update</link>
+      <description><![CDATA[<p>Googleは2026年3月12日（現地時間）、地図サービス「Google Maps」の大規模アップデートを<a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/">発表</a>した。生成AI「Gemini」を活用した新機能「Ask Maps」を導入し、会話形式で店や場所を探せるようにする。あわせて、ナビゲーション機能を刷新する「Immersive Navigation」も公開した。Ask Mapsは米国とインドで提供を開始し、Immersive Navigationは米国で順次展開する。</p>
+<h2>会話で場所を探す「Ask Maps」</h2>
+<p>Ask Mapsは、Geminiを活用した対話型の場所検索機能だ。ユーザーは自然言語で質問するだけで、条件に合った場所や立ち寄り先の候補を地図上で提案してもらえる。</p>
+<p>例えば
+・「コーヒーの行列に並ばずスマホを充電できる場所は？」
+・「今夜プレーできる照明付きの公共テニスコートは？」
+・「グランドキャニオンへ向かう途中のおすすめの立ち寄り先は？」</p>
+<p>といった、従来のキーワード検索では探しにくかった質問にも対応する。検索結果は候補の一覧だけでなく、レビューや特徴を踏まえた説明とともに表示される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi1_side_1b10422d78/immersive_navi1_side_1b10422d78.jpg" alt="immersive navi1-side.jpg" /></p>
+<p>Googleによると、Ask Mapsは3億以上の場所のデータと、5億人以上の投稿者コミュニティによるレビューなどをもとに回答を生成する。まず米国とインドでAndroidおよびiOS向けに提供され、デスクトップ版は今後対応予定としている。</p>
+<h2>ユーザーの好みを反映したパーソナライズ提案</h2>
+<p>Ask Mapsでは、ユーザーの履歴をもとにしたパーソナライズ提案も行われる。</p>
+<p>保存した場所や検索履歴などを参考に、利用者の嗜好に近い候補を提示する仕組みで、例えばビーガン料理を好むユーザーには、それに合ったレストランを優先して提案することがある。提案された場所は、そのまま保存や共有、ルート案内へとつなげることができる。</p>
+<h2>3D表示を強化した「Immersive Navigation」</h2>
+<p>今回のアップデートでは、ナビゲーション機能も刷新された。新しい「Immersive Navigation」では、建物や高架、地形を反映した鮮明な3D表示を行い、車線、横断歩道、信号などの道路情報を分かりやすく示す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi_84c1f57257/immersive_navi_84c1f57257.jpg" alt="immersive navi.jpg" /></p>
+<p>Googleによると、この表示はStreet Viewや航空写真などの実世界画像をGeminiが解析することで実現している。運転中は、ルートの先の状況を広く確認できるほか、駐車場所や入口情報なども案内される。</p>
+<p>Immersive Navigationはまず米国で提供が始まり、今後数か月で対応するiOS・Android端末のほか、CarPlayやAndroid Auto、Google built-in搭載車にも拡大する予定だ。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米Luma AI、次世代型画像生成モデル「Uni-1」発表　理解と生成を統合、推論性能でもNano Banana 2など上回る</title>
       <link>https://ledge.ai/articles/luma_uni_1_unified_image_generation_model</link>
       <description><![CDATA[<p>Luma AIは2026年3月6日（現地時間）、理解能力と生成能力を単一モデルに統合した次世代型画像生成モデル「Uni-1」を<a href="https://lumalabs.ai/uni-1">発表</a>した。Uni-1は、画像を生成するだけでなく、指示内容の理解や推論を同じモデルの中で扱う設計を採用している点が特徴だ。同社は、理解と生成を統合する「Unified Intelligence（統合知能）」への第一歩と位置づけている。</p>
