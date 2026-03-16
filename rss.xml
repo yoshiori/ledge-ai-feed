@@ -269,6 +269,24 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
+      <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
+<h2>日本の顧客向けサービスに消費税を適用</h2>
+<p>Anthropicは公式サポートページで、日本の顧客に提供するサービスについて、4月1日以降の請求から消費税10%を別途徴収すると通知した。</p>
+<p>対象となるのはClaudeなど同社のAIサービスで、既存の料金プランそのものは変更されない。4月1日以降の請求では、これまでの利用料金に加えて日本の消費税が加算される形となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_support_bff3ae2af4/claude_support_bff3ae2af4.jpg" alt="claude support.jpg" /></p>
+<p>日本では、海外企業が日本の利用者に対して電子サービスを提供する場合でも、消費税の課税対象となる制度が整備されており、Anthropicの今回の措置はこの制度に対応するものとみられる。</p>
+<h2>インボイス制度にも対応</h2>
+<p>Anthropicはまた、日本のインボイス制度に対応するため、適格請求書発行事業者として登録済みであることも明らかにした。企業ユーザーは、Anthropicが発行する適格請求書を利用することで、消費税の仕入税額控除を受けることができる。一方、個人利用者の場合は控除の対象とはならない。</p>
+<p>同社は、4月1日以降に発行される請求書について、日本円で消費税額を明示した形で発行するとしている。</p>
+<h2>海外AIサービスでも税務対応が進む</h2>
+<p>近年、日本では海外企業が提供するクラウドサービスやSaaS、デジタルコンテンツなどについても消費税を課す制度が整備されている。</p>
+<p>海外AIサービスでは、日本の消費税制度への対応がすでに進んでいる。対話型AI「ChatGPT」を提供するOpenAIは、2025年1月から日本の顧客向け請求に消費税10%を適用している。Googleも、Google CloudやGoogle Workspace、Google Adsなど主要サービスで日本の消費税を課す仕組みを整えており、Anthropicの今回の措置も、海外AI事業者による日本市場向け税務対応の流れの一環とみられる。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、AIの社会影響を研究する新組織「Anthropic Institute」設立——強力なAIがもたらす課題を分析</title>
       <link>https://ledge.ai/articles/anthropic_launches_anthropic_institute_ai_societal_impact</link>
       <description><![CDATA[<p>Anthropicは2026年3月11日、強力なAIが社会にもたらす影響や課題を研究する新組織「Anthropic Institute」を設立すると<a href="https://www.anthropic.com/news/the-anthropic-institute">発表</a>した。AIの進化が経済や社会制度、政策に与える影響を分析し、研究成果を公開することで、政府や企業、研究者などがAI時代に備えるための知見の提供を目的としている。</p>
@@ -281,37 +299,6 @@
 <p>Anthropic Instituteは、同社の既存研究チームを統合する形で構成される。</p>
 <p>AIの能力の限界や潜在的リスクを検証する「Frontier Red Team」、AIの実社会での利用状況を分析する「Societal Impacts」、AIが雇用や経済に与える影響を研究する「Economic Research」の3チームを基盤とし、今後新たな研究チームも設立する予定としている。</p>
 <p>現在は、AIの進歩の予測や、強力なAIが法律制度にどのような影響を与えるかといったテーマにも取り組んでいるという。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、米国防総省を提訴　「供給網リスク」認定は違法と主張</title>
-      <link>https://ledge.ai/articles/anthropic_sues_us_defense_department_supply_chain_risk_designation</link>
-      <description><![CDATA[<p>米AI企業Anthropicは2026年3月9日（現地時間）、同社を「サプライチェーンリスク（供給網リスク）」と認定した米国防総省などの措置は違法だとして、差し止めなどを求めて提訴した。<a href="https://www.courthousenews.com/wp-content/uploads/2026/03/anthropic-supply-chain-risk-lawsuit.pdf">訴状</a>によると、この認定は同社の契約や企業としての評判に重大な損害を与えていると主張している。Anthropicはこれに先立つ公式声明で、この措置について「法廷で争うほか選択肢がない」との立場を示していた。</p>
-<h2>Anthropicが米国防総省などを相手取り提訴</h2>
-<p>Anthropicが提出した訴状によると、同社は米国防総省などを被告として、米カリフォルニア州の北カリフォルニア連邦地裁に提訴した。訴状の表紙には「COMPLAINT FOR DECLARATORY AND INJUNCTIVE RELIEF（宣言的救済および差止救済を求める訴状）」と記されており、政府による措置の違法確認や差し止めなどを求めている。</p>
-<p>今回の訴訟は、米国防総省がAnthropicの製品やサービスを国家安全保障上の「サプライチェーンリスク」に該当すると認定したことが発端となった。</p>
-<h2>「供給網リスク」認定が争点</h2>
-<p>訴状によると、Anthropicは2026年3月4日、国防総省から正式書簡を受け取り、同社の製品やサービスが国家安全保障上のリスクに該当すると通知された。</p>
-<p>この認定により、政府機関や関連企業がAnthropicのサービス利用を見直す可能性があるとして、同社は事業への重大な影響が生じていると主張している。</p>
-<h2>「違法で前例のない措置」と主張</h2>
-<p>Anthropicは訴状の中で、今回の措置は法的権限を逸脱しており、行政手続きの面でも問題があると主張している。また、この認定によって政府契約や民間契約、企業としての評判などに回復困難な損害が生じていると訴えている。</p>
-<h2>提訴前から「法廷で争う」と表明</h2>
-<p>Anthropicは2026年3月5日に公開した<a href="https://www.anthropic.com/news/where-stand-department-war">公式声明</a>で、国防総省による措置について法的に妥当ではないとの認識を示し、「法廷で争うほか選択肢がない」と述べていた。</p>
-<p>同社はこれ以前の声明でも、</p>
-<ul>
-<li>米国人を対象とした大規模監視</li>
-<li>人間の監督なしに作動する致死的自律兵器</li>
-</ul>
-<p>へのAI利用には応じない立場を説明しており、政府との対立が続いていた。</p>
-<h2>政府措置の差し止めを求める</h2>
-<p>今回の訴訟でAnthropicは、</p>
-<ul>
-<li>「サプライチェーンリスク」認定の無効確認</li>
-<li>政府による実施や執行の差し止め</li>
-<li>関連する命令や通知の撤回</li>
-</ul>
-<p>などを求めている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
