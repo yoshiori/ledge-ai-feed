@@ -145,6 +145,33 @@
       <pubDate>Sun, 08 Mar 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
+      <link>https://ledge.ai/articles/adobe_photoshop_ai_assistant_firefly_image_editing</link>
+      <description><![CDATA[<p>Adobeは2026年3月10日（米国時間）、画像編集ソフト「Photoshop」のWeb版およびモバイル版に新機能「AI Assistant」を導入し、パブリックβ版として<a href="https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly">発表</a>した。ユーザーが自然言語や音声で編集内容を指示できる機能で、同社の生成AI「Firefly」を基盤としている。あわせてFirefly Image Editorでも複数のAI編集機能を追加し、画像生成から編集までをAIで支援する機能強化を打ち出した。</p>
+<h2>自然言語で画像編集を指示できる「AI Assistant」</h2>
+<p>AI Assistantは、Photoshopの操作をAIが支援する機能だ。ユーザーは「不要な人物を削除する」「背景を別の風景に変更する」「明るさを調整する」といった編集内容をテキストや音声で指示でき、AIがそれに応じた操作を実行する。</p>
+<p>AI Assistantは編集を自動で適用するだけでなく、必要な手順を提示してユーザーの操作をサポートすることもできる。Adobeは、学生やデザイナー、マーケティング担当者など幅広いユーザーが、より直感的に画像編集を行えるようになるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Assistant_in_Photoshop_7d945cb33e/AI_Assistant_in_Photoshop_7d945cb33e.jpg" alt="AI Assistant in Photoshop.jpg" /></p>
+<h2>画像上に直接指示を書き込める「AI Markup」</h2>
+<p>Photoshop Web版には、AI Assistantを活用した新機能「AI Markup」も追加された。これは画像上の特定の領域を囲ったり描き込んだりしたうえで、テキストによって編集内容を指示できる機能だ。</p>
+<p>例えば画像の一部を指定し、「ここに花を追加する」「背景を山に変更する」といった指示を与えることで、AIが指定部分の編集を実行する。Adobeは、編集箇所を視覚的に指定できることで、より直感的な画像編集が可能になるとしている。</p>
+<h2>Firefly Image EditorにもAI編集機能を追加</h2>
+<p>今回の発表では、Adobeの生成AIツール「Firefly Image Editor」にも複数の編集機能が追加された。</p>
+<p>追加された主な機能は次の通り。
+・Generative Fill（生成塗りつぶし）
+・Generative Remove（不要物削除）
+・Generative Expand（画像拡張）
+・Generative Upscale（高解像度化）
+・Remove Background（背景削除）</p>
+<p>これらの機能は、AIで生成した画像だけでなく、ユーザーがアップロードした画像の編集にも利用できる。Adobeは、構図の調整やスタイル変更、細部の修正までを一つの編集環境で行えるようにしたとしている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710.webp" alt="media_10246d176abc34295bac92c4648c3ab9bb740ee6f.webp" /></p>
+<h2>クリエイティブツールの「対話型AI化」を推進</h2>
+<p>Adobeは近年、同社の生成AI「Firefly」をCreative Cloud製品に統合する取り組みを進めている。今回のPhotoshopへのAI Assistant導入は、AcrobatやAdobe Expressなどに続くAI機能の拡張の一環となる。</p>
+<p>同社は、クリエイティブツールにおいてもチャット型インターフェースを取り入れ、ユーザーが対話形式で制作や編集を進められる環境の構築を目指しているとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Metaけん引でAIスマートグラス市場が急伸　2025年下期の世界出荷は139%増、AIモデル比率は88%</title>
       <link>https://ledge.ai/articles/ai_smart_glasses_market_growth_139_percent_meta_82_share</link>
       <description><![CDATA[<p>市場調査会社Counterpoint Researchは2026年2月27日（現地時間）、スマートグラス市場に関する調査結果を公表し、2025年下期の世界スマートグラス出荷が前年同期比139%増となったと<a href="https://japan.counterpointresearch.com/insights/global-smart-glasses-shipments-grew-139-percent-yoy-in-h2-2025/">発表</a>した。それによると、2025年下期の世界スマートグラス出荷は前年同期比139%増となった。なかでもAI機能を搭載したスマートグラスの普及が市場拡大をけん引しており、総出荷に占めるAIスマートグラスの比率は88%に達したという。</p>
