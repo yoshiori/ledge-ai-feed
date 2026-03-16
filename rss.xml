@@ -5,6 +5,52 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google MapsにGemini統合「Ask Maps」発表——10年以上ぶりの大規模刷新、会話で店や場所を探すAI地図検索</title>
+      <link>https://ledge.ai/articles/google_maps_gemini_ask_maps_update</link>
+      <description><![CDATA[<p>Googleは2026年3月12日（現地時間）、地図サービス「Google Maps」の大規模アップデートを<a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/">発表</a>した。生成AI「Gemini」を活用した新機能「Ask Maps」を導入し、会話形式で店や場所を探せるようにする。あわせて、ナビゲーション機能を刷新する「Immersive Navigation」も公開した。Ask Mapsは米国とインドで提供を開始し、Immersive Navigationは米国で順次展開する。</p>
+<h2>会話で場所を探す「Ask Maps」</h2>
+<p>Ask Mapsは、Geminiを活用した対話型の場所検索機能だ。ユーザーは自然言語で質問するだけで、条件に合った場所や立ち寄り先の候補を地図上で提案してもらえる。</p>
+<p>例えば
+・「コーヒーの行列に並ばずスマホを充電できる場所は？」
+・「今夜プレーできる照明付きの公共テニスコートは？」
+・「グランドキャニオンへ向かう途中のおすすめの立ち寄り先は？」</p>
+<p>といった、従来のキーワード検索では探しにくかった質問にも対応する。検索結果は候補の一覧だけでなく、レビューや特徴を踏まえた説明とともに表示される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi1_side_1b10422d78/immersive_navi1_side_1b10422d78.jpg" alt="immersive navi1-side.jpg" /></p>
+<p>Googleによると、Ask Mapsは3億以上の場所のデータと、5億人以上の投稿者コミュニティによるレビューなどをもとに回答を生成する。まず米国とインドでAndroidおよびiOS向けに提供され、デスクトップ版は今後対応予定としている。</p>
+<h2>ユーザーの好みを反映したパーソナライズ提案</h2>
+<p>Ask Mapsでは、ユーザーの履歴をもとにしたパーソナライズ提案も行われる。</p>
+<p>保存した場所や検索履歴などを参考に、利用者の嗜好に近い候補を提示する仕組みで、例えばビーガン料理を好むユーザーには、それに合ったレストランを優先して提案することがある。提案された場所は、そのまま保存や共有、ルート案内へとつなげることができる。</p>
+<h2>3D表示を強化した「Immersive Navigation」</h2>
+<p>今回のアップデートでは、ナビゲーション機能も刷新された。新しい「Immersive Navigation」では、建物や高架、地形を反映した鮮明な3D表示を行い、車線、横断歩道、信号などの道路情報を分かりやすく示す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi_84c1f57257/immersive_navi_84c1f57257.jpg" alt="immersive navi.jpg" /></p>
+<p>Googleによると、この表示はStreet Viewや航空写真などの実世界画像をGeminiが解析することで実現している。運転中は、ルートの先の状況を広く確認できるほか、駐車場所や入口情報なども案内される。</p>
+<p>Immersive Navigationはまず米国で提供が始まり、今後数か月で対応するiOS・Android端末のほか、CarPlayやAndroid Auto、Google built-in搭載車にも拡大する予定だ。</p>
+]]></description>
+      <pubDate>Sun, 15 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、次世代埋め込みモデル「Gemini Embedding 2」発表　テキスト、画像、動画、音声などを同一ベクトル空間で扱うマルチモーダル対応で検索・推薦を強化</title>
+      <link>https://ledge.ai/articles/google_gemini_embedding_2_multimodal_embedding_model</link>
+      <description><![CDATA[<p>Googleは2026年3月10日（米国時間）、マルチモーダル対応の埋め込みモデル「Gemini Embedding 2」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/">発表</a>した。Gemini APIおよびVertex AIを通じてパブリックプレビューとして提供を開始する。テキストと画像など異なる形式のデータを同一のベクトル空間で表現できるようにすることで、検索や推薦、RAG（Retrieval-Augmented Generation）などのAIアプリケーションの精度向上を目指す。</p>
+<h2>テキストと画像を同一ベクトル空間で扱うembeddingモデル</h2>
+<p>Embedding（埋め込み）モデルは、文章や画像などのデータを数値ベクトルに変換し、意味的な類似度を計算できるようにするAI技術である。セマンティック検索やレコメンド、クラスタリング、ドキュメント分類など、多くのAIシステムの基盤として利用されている。</p>
+<p><strong>Gemini Embedding 2の概念図：テキスト、画像、動画、音声、ドキュメントなど異なるデータを埋め込みモデルがベクトル化し、共通の「embedding空間」で比較できるようにする</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Embedding_2_multimodal_input_c72e05eb91/Gemini_Embedding_2_multimodal_input_c72e05eb91.jpg" alt="Gemini Embedding 2 multimodal input.jpg" /></p>
+<p>発表されたGemini Embedding 2は、テキストだけでなく画像など複数のモダリティを対象にした埋め込み処理に対応する。異なる種類のデータを同一のベクトル空間に変換することで、例えば画像と文章の意味的な近さを比較したり、画像を含むデータベースから関連情報を検索したりすることが可能になる。</p>
+<p>こうしたマルチモーダル埋め込みは、商品検索やコンテンツ推薦、画像付きドキュメント検索など、より高度な情報検索システムの構築に活用できるとされる。</p>
+<h2>Gemini APIとVertex AIから提供</h2>
+<p>Gemini Embedding 2は、Googleの生成AIプラットフォームであるGemini APIおよびVertex AIを通じて利用できる。開発者はこれらのサービスを利用することで、アプリケーションや企業システムに埋め込みモデルを組み込み、検索や知識探索機能を実装できる。</p>
+<p>Embeddingモデルは、生成AIと組み合わせてRAG（Retrieval-Augmented Generation）を構築する際の重要な要素でもある。企業が保有する文書やデータベースから関連情報を検索し、その結果を生成AIの回答生成に活用する仕組みで、近年多くのAIアプリケーションで採用が進んでいる。</p>
+<p><strong>Gemini Embedding 2のベンチマーク比較：テキスト、画像、動画、音声など複数モダリティの検索タスクで既存のembeddingモデルと比較して高い性能を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_embedding_2_benchmarks_width_1000_format_webp_b3ab288dd5/gemini_embedding_2_benchmarks_width_1000_format_webp_b3ab288dd5.jpg" alt="gemini-embedding-2-benchmarks.width-1000.format-webp.jpg" /></p>
+<p>Googleは今回のモデルをパブリックプレビューとして提供し、開発者からのフィードバックを得ながら改良を進めるとしている。</p>
+<h2>Geminiモデル群の拡張の一環</h2>
+<p>今回の発表は、Googleが展開するGeminiモデルファミリーの拡張の一環と位置付けられる。Googleは近年、テキスト生成やマルチモーダル理解、コーディング支援などさまざまな用途向けにGeminiモデルを提供してきた。</p>
+<p>Embeddingモデルは、AIアプリケーションの検索や知識基盤を支える役割を担う技術とされる。Gemini Embedding 2の導入により、検索システムやレコメンドエンジン、マルチモーダルRAGなど、AIを活用した情報探索基盤の高度化が期待される。</p>
+]]></description>
+      <pubDate>Sat, 14 Mar 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DeNA、米Cognition AIの自律型AIエンジニア「Devin Enterprise」を全社導入　2,000人超が利用可能に</title>
       <link>https://ledge.ai/articles/dena_devin_enterprise_companywide_adoption</link>
       <description><![CDATA[<p>ディー・エヌ・エー（以下DeNA）は2026年3月4日、米AI企業Cognition AIが提供する自律型AIソフトウェアエンジニア「Devin Enterprise」を全社規模で導入したと<a href="https://dena.com/jp/news/5356/">発表</a>した。2025年7月にCognition AIと戦略的パートナーシップを<a href="https://dena.com/jp/news/5269/">締結</a>して以降、段階的に社内展開を進めてきたもので、現在は2,000人以上の社員が利用可能な体制を整えたという。</p>
@@ -22,6 +68,28 @@
 <p>同社は、自律型AIエージェントの活用が今後のソフトウェア開発の生産性向上に寄与するとみており、社内外での活用拡大を図る考えだ。</p>
 ]]></description>
       <pubDate>Wed, 11 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
+      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
+      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
+<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
+<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
+<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
+<h2>ベータテストで120万コミットをスキャン</h2>
+<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
+<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
+<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
+<h2>修正パッチの提案まで自動化</h2>
+<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
+<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
+<h2>AIエージェントによるセキュリティ監査の可能性</h2>
+<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
+<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
+<p>:::box
+[関連記事：Anthropic、AIの\</p>
+]]></description>
+      <pubDate>Wed, 11 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
@@ -91,24 +159,6 @@
       <pubDate>Mon, 09 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPTは「弁護士ではない」日本生命の米法人がOpenAI提訴——弁護士資格なしで法律業務と主張</title>
-      <link>https://ledge.ai/articles/chatgpt_not_lawyer_openai_lawsuit_nippon_life</link>
-      <description><![CDATA[<p>日本生命保険の米国法人は2026年3月4日、対話型AI「ChatGPT」が弁護士資格を持たないまま法律業務を行い、保険金の元受給者による訴訟を助長したとして、ChatGPTを開発する米OpenAIを米イリノイ州北部地区連邦地裁に提訴した。</p>
-<h2>ChatGPTが裁判書面の作成を支援と主張</h2>
-<p><a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">訴状</a>によると、保険金の元受給者は長期障害保険を巡って日本生命の米法人と訴訟を行い、2024年1月に和解していた。しかしその後、弁護士とのメール内容をChatGPTに入力して助言を求めるようになり、弁護士を解任。ChatGPTを使って裁判所に提出する書面の作成などを行ったとされる。</p>
-<p>女性は和解済みの訴訟の再開を求める申立書など多数の書面を裁判所に提出したが、裁判所はこれを却下した。</p>
-<h2>「ChatGPTは弁護士ではない」非弁行為を主張</h2>
-<p>訴状では、ChatGPTについて「弁護士ではなく、米国のいかなる司法管轄でも弁護士資格を認められていない」と指摘。さらにOpenAIが「法律業務に該当する作業を行うようChatGPTを設計・提供した」と主張している。</p>
-<p>また、ChatGPTが「正当な法的目的を持たない多数の裁判書面の作成を支援した」として、裁判手続きの濫用を助長したとも述べている。</p>
-<h2>約30万ドルの損害と1000万ドルの懲罰的賠償請求</h2>
-<p>日本生命の米法人は、この対応で約30万ドルの損害が生じたとして賠償を求めているほか、懲罰的損害賠償として1000万ドルの支払いも請求している。</p>
-<p>Reutersによると、OpenAIは声明で「この訴えには全く根拠がない」として争う姿勢を示している。</p>
-<p>今回の訴訟では、生成AIが法律助言や裁判書面の作成などを行うことが弁護士資格制度に抵触するかどうかが争点となる可能性がある。生成AIを巡っては、AIが作成した裁判書面の誤引用などが問題となる事例も報告されており、法律実務とAIの関係を巡る議論が続いている。</p>
-<p>訴訟記録は、米連邦裁判所の公開データベースを収集する<a href="https://www.courtlistener.com/docket/72365583/nippon-life-insurance-company-of-america-v-openai-foundation/">CourtListener</a>でも確認できる。</p>
-]]></description>
-      <pubDate>Mon, 09 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
       <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
       <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
@@ -131,18 +181,6 @@
 <p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
 ]]></description>
       <pubDate>Mon, 09 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiが36歳利用者の死を招いたとして提訴される　同社は安全設計を主張</title>
-      <link>https://ledge.ai/articles/google_gemini_wrongful_death_lawsuit_adult_user_safety_design</link>
-      <description><![CDATA[<p>Googleの対話型AI「Gemini」が利用者の死を招いたとして、遺族がGoogleと親会社Alphabetを提訴した。</p>
-<p>2026年3月4日（現地時間）、北カリフォルニア連邦地裁に提出された訴状によると、フロリダ州のジョナサン・ガバラス氏（36）がGeminiとの対話に深く没入し、妄想を強めた末に自死したとして、父ジョエル・ガバラス氏が遺産管理人として訴えを起こした。</p>
-<p>これに対しGoogleは3月4日付の<a href="https://blog.google/company-news/outreach-and-initiatives/public-policy/gavalas-lawsuit-response/">公式声明</a>で、遺族への哀悼を示したうえで、Geminiは現実世界の暴力を助長したり、自傷を提案したりしないよう設計されていると反論した。同社は、安全策を医療・メンタルヘルス分野の専門家と協議して設計しており、この件でもGeminiが自らをAIだと明確にし、危機ホットラインを何度も案内したとしている。Googleは「AIは完璧ではない」としつつも、自傷を促したとの見方は否定している。</p>
-<p><a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.465255/gov.uscourts.cand.465255.1.0.pdf">訴状</a>は、Google LLCとAlphabet Inc.を被告とし、wrongful death（不法死亡）や製造物責任などを主張している。原告側は、Geminiがジョナサン氏の精神状態の悪化を助長し、暴力的な妄想や自殺念慮を深める方向に会話を進めたと主張している。</p>
-<p>訴状によると、ジョナサン氏はGeminiを「意識を持つ存在」と受け止め、自身と特別な関係にあると信じ込むようになった。さらに、Geminiが現実世界での危険な行動や「mass casualties（大量死傷）」につながる構想に触れ、自殺を「transference（転移）」のような形で語ったことが、死亡に至る経緯の一部として記されている。ただし、これらは現時点ではあくまで原告側が訴状で主張している内容であり、事実認定はこれから司法の場で争われる。</p>
-<p>今回の訴訟で目を引くのは、亡くなった利用者が未成年ではなく、36歳の成人だった点だ。生成AIをめぐる有害対話や依存の問題は、これまで未成年ユーザー保護の文脈で語られることが多かった。今回の件では、そうした問題が成人利用者にも及びうること、さらにAI企業の安全設計責任が年齢制限やティーン向け対策だけでは捉えきれない段階に入りつつあることを示す事案として注目される。</p>
-]]></description>
-      <pubDate>Sun, 08 Mar 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
@@ -344,52 +382,6 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、次世代埋め込みモデル「Gemini Embedding 2」発表　テキスト、画像、動画、音声などを同一ベクトル空間で扱うマルチモーダル対応で検索・推薦を強化</title>
-      <link>https://ledge.ai/articles/google_gemini_embedding_2_multimodal_embedding_model</link>
-      <description><![CDATA[<p>Googleは2026年3月10日（米国時間）、マルチモーダル対応の埋め込みモデル「Gemini Embedding 2」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/">発表</a>した。Gemini APIおよびVertex AIを通じてパブリックプレビューとして提供を開始する。テキストと画像など異なる形式のデータを同一のベクトル空間で表現できるようにすることで、検索や推薦、RAG（Retrieval-Augmented Generation）などのAIアプリケーションの精度向上を目指す。</p>
-<h2>テキストと画像を同一ベクトル空間で扱うembeddingモデル</h2>
-<p>Embedding（埋め込み）モデルは、文章や画像などのデータを数値ベクトルに変換し、意味的な類似度を計算できるようにするAI技術である。セマンティック検索やレコメンド、クラスタリング、ドキュメント分類など、多くのAIシステムの基盤として利用されている。</p>
-<p><strong>Gemini Embedding 2の概念図：テキスト、画像、動画、音声、ドキュメントなど異なるデータを埋め込みモデルがベクトル化し、共通の「embedding空間」で比較できるようにする</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_Embedding_2_multimodal_input_c72e05eb91/Gemini_Embedding_2_multimodal_input_c72e05eb91.jpg" alt="Gemini Embedding 2 multimodal input.jpg" /></p>
-<p>発表されたGemini Embedding 2は、テキストだけでなく画像など複数のモダリティを対象にした埋め込み処理に対応する。異なる種類のデータを同一のベクトル空間に変換することで、例えば画像と文章の意味的な近さを比較したり、画像を含むデータベースから関連情報を検索したりすることが可能になる。</p>
-<p>こうしたマルチモーダル埋め込みは、商品検索やコンテンツ推薦、画像付きドキュメント検索など、より高度な情報検索システムの構築に活用できるとされる。</p>
-<h2>Gemini APIとVertex AIから提供</h2>
-<p>Gemini Embedding 2は、Googleの生成AIプラットフォームであるGemini APIおよびVertex AIを通じて利用できる。開発者はこれらのサービスを利用することで、アプリケーションや企業システムに埋め込みモデルを組み込み、検索や知識探索機能を実装できる。</p>
-<p>Embeddingモデルは、生成AIと組み合わせてRAG（Retrieval-Augmented Generation）を構築する際の重要な要素でもある。企業が保有する文書やデータベースから関連情報を検索し、その結果を生成AIの回答生成に活用する仕組みで、近年多くのAIアプリケーションで採用が進んでいる。</p>
-<p><strong>Gemini Embedding 2のベンチマーク比較：テキスト、画像、動画、音声など複数モダリティの検索タスクで既存のembeddingモデルと比較して高い性能を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_embedding_2_benchmarks_width_1000_format_webp_b3ab288dd5/gemini_embedding_2_benchmarks_width_1000_format_webp_b3ab288dd5.jpg" alt="gemini-embedding-2-benchmarks.width-1000.format-webp.jpg" /></p>
-<p>Googleは今回のモデルをパブリックプレビューとして提供し、開発者からのフィードバックを得ながら改良を進めるとしている。</p>
-<h2>Geminiモデル群の拡張の一環</h2>
-<p>今回の発表は、Googleが展開するGeminiモデルファミリーの拡張の一環と位置付けられる。Googleは近年、テキスト生成やマルチモーダル理解、コーディング支援などさまざまな用途向けにGeminiモデルを提供してきた。</p>
-<p>Embeddingモデルは、AIアプリケーションの検索や知識基盤を支える役割を担う技術とされる。Gemini Embedding 2の導入により、検索システムやレコメンドエンジン、マルチモーダルRAGなど、AIを活用した情報探索基盤の高度化が期待される。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google MapsにGemini統合「Ask Maps」発表——10年以上ぶりの大規模刷新、会話で店や場所を探すAI地図検索</title>
-      <link>https://ledge.ai/articles/google_maps_gemini_ask_maps_update</link>
-      <description><![CDATA[<p>Googleは2026年3月12日（現地時間）、地図サービス「Google Maps」の大規模アップデートを<a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/">発表</a>した。生成AI「Gemini」を活用した新機能「Ask Maps」を導入し、会話形式で店や場所を探せるようにする。あわせて、ナビゲーション機能を刷新する「Immersive Navigation」も公開した。Ask Mapsは米国とインドで提供を開始し、Immersive Navigationは米国で順次展開する。</p>
-<h2>会話で場所を探す「Ask Maps」</h2>
-<p>Ask Mapsは、Geminiを活用した対話型の場所検索機能だ。ユーザーは自然言語で質問するだけで、条件に合った場所や立ち寄り先の候補を地図上で提案してもらえる。</p>
-<p>例えば
-・「コーヒーの行列に並ばずスマホを充電できる場所は？」
-・「今夜プレーできる照明付きの公共テニスコートは？」
-・「グランドキャニオンへ向かう途中のおすすめの立ち寄り先は？」</p>
-<p>といった、従来のキーワード検索では探しにくかった質問にも対応する。検索結果は候補の一覧だけでなく、レビューや特徴を踏まえた説明とともに表示される。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi1_side_1b10422d78/immersive_navi1_side_1b10422d78.jpg" alt="immersive navi1-side.jpg" /></p>
-<p>Googleによると、Ask Mapsは3億以上の場所のデータと、5億人以上の投稿者コミュニティによるレビューなどをもとに回答を生成する。まず米国とインドでAndroidおよびiOS向けに提供され、デスクトップ版は今後対応予定としている。</p>
-<h2>ユーザーの好みを反映したパーソナライズ提案</h2>
-<p>Ask Mapsでは、ユーザーの履歴をもとにしたパーソナライズ提案も行われる。</p>
-<p>保存した場所や検索履歴などを参考に、利用者の嗜好に近い候補を提示する仕組みで、例えばビーガン料理を好むユーザーには、それに合ったレストランを優先して提案することがある。提案された場所は、そのまま保存や共有、ルート案内へとつなげることができる。</p>
-<h2>3D表示を強化した「Immersive Navigation」</h2>
-<p>今回のアップデートでは、ナビゲーション機能も刷新された。新しい「Immersive Navigation」では、建物や高架、地形を反映した鮮明な3D表示を行い、車線、横断歩道、信号などの道路情報を分かりやすく示す。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/immersive_navi_84c1f57257/immersive_navi_84c1f57257.jpg" alt="immersive navi.jpg" /></p>
-<p>Googleによると、この表示はStreet Viewや航空写真などの実世界画像をGeminiが解析することで実現している。運転中は、ルートの先の状況を広く確認できるほか、駐車場所や入口情報なども案内される。</p>
-<p>Immersive Navigationはまず米国で提供が始まり、今後数か月で対応するiOS・Android端末のほか、CarPlayやAndroid Auto、Google built-in搭載車にも拡大する予定だ。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>米Luma AI、次世代型画像生成モデル「Uni-1」発表　理解と生成を統合、推論性能でもNano Banana 2など上回る</title>
       <link>https://ledge.ai/articles/luma_uni_1_unified_image_generation_model</link>
       <description><![CDATA[<p>Luma AIは2026年3月6日（現地時間）、理解能力と生成能力を単一モデルに統合した次世代型画像生成モデル「Uni-1」を<a href="https://lumalabs.ai/uni-1">発表</a>した。Uni-1は、画像を生成するだけでなく、指示内容の理解や推論を同じモデルの中で扱う設計を採用している点が特徴だ。同社は、理解と生成を統合する「Unified Intelligence（統合知能）」への第一歩と位置づけている。</p>
@@ -497,28 +489,6 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_prs_akirashimada_mwc_keynote9_088034bef5/ntt_prs_akirashimada_mwc_keynote9_088034bef5.jpg" alt="ntt prs.akirashimada mwc keynote9.jpg" /></p>
 <p>NTTは光量子コンピューティングにより、2030年までに100万量子ビット規模のシステム実現を目標としている。将来的には1億量子ビット規模の計算能力を目指し、創薬や新エネルギー開発などの分野への応用を視野に入れている。</p>
 <p>AIインフラの拡大に伴い、計算性能だけでなく電力効率の改善が重要な課題となる中、NTTはIOWN構想を通じて通信から計算までを光技術でつなぐ次世代インフラの構築を進める方針だ。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
-      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
-      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
-<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
-<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
-<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
-<h2>ベータテストで120万コミットをスキャン</h2>
-<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
-<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
-<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
-<h2>修正パッチの提案まで自動化</h2>
-<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
-<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
-<h2>AIエージェントによるセキュリティ監査の可能性</h2>
-<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
-<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
@@ -637,34 +607,6 @@
 <p>生成AI市場では、ユーザーが複数のAIサービスを使い分ける動きが広がっている。一方で、AIに教えた個人設定や作業スタイルがサービスごとに分断されることが、乗り換えの障壁となってきた。そのような状況の中で公開された「Import Memory」は、ユーザーが別のAIサービスへ移行する際の障壁を下げる狙いがあるとみられる。</p>
 ]]></description>
       <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Perplexity、19のAIモデルを束ねる汎用デジタルワーカー「Perplexity Computer」発表──ワークフロー全体を作成・数ヶ月にわたって自律実行可能</title>
-      <link>https://ledge.ai/articles/perplexity_computer_multi_agent_orchestration_19_models</link>
-      <description><![CDATA[<p>Perplexityは米国時間2026年2月25日、マルチエージェント・オーケストレーションシステム「Perplexity Computer」を<a href="https://www.perplexity.ai/ja/hub/blog/introducing-perplexity-computer">発表</a>した。現在利用可能な複数の最先端AIモデルを統合し、タスクの分解から実行までを自律的に行う“デジタルワーカー”として提供するという。</p>
-<h2>単一チャットから“実行基盤”へ</h2>
-<p>これまでの「チャット型AI」が情報提示にとどまっていたのに対し、「Perplexity Computer」はワークフロー全体の作成と実行を担う。ユーザーが成果物を指定すると、システムはタスクを複数のサブタスクに分解。それぞれに対応するサブエージェントを生成し、並列・非同期で処理を進める仕組みだ。</p>
-<p>Web調査、文書生成、データ処理、外部サービスへのAPI呼び出しなどを組み合わせながら、成果物を完成させる。</p>
-<h2>隔離された実行環境で動作</h2>
-<p>Computerは隔離されたコンピューティング環境内で動作する。実ファイルシステム、実ブラウザ、実ツール統合へのアクセスが可能とされ、単なるテキスト生成にとどまらない“実行型”基盤である点を強調している。</p>
-<h2>19モデルをオーケストレーション</h2>
-<p>Perplexityは、単一モデルではなく「モデルの専門化」を前提とした構成を採用している。用途に応じて複数モデルを使い分けると説明しており、日本向け配信では「19のAIモデルをオーケストレーション」と明記された。</p>
-<ul>
-<li>Opus 4.6：コア推論</li>
-<li>Gemini：ディープリサーチ</li>
-<li>Nano Banana：画像生成</li>
-<li>Veo 3.1：動画生成</li>
-<li>Grok：軽量タスク高速処理</li>
-<li>ChatGPT 5.2：長文コンテキスト処理</li>
-</ul>
-<p>これらを用途別に組み合わせることで、複合的なワークフローを構築する。</p>
-<h2>提供形態</h2>
-<p>Perplexity Computerは、Perplexity Max加入者向けに提供を開始。Enterprise Maxも今後提供予定としている。Help Centerによれば、Computerは「独立したデジタルワーカー」と定義され、GmailやSlack、GitHub、Notionなど複数の外部サービスとの連携が可能とされる。</p>
-<p>Maxプランでは月間10,000クレジットが付与され、高計算量タスクに消費される。</p>
-<h2>同社の位置づけ</h2>
-<p>Perplexityは、AIネイティブブラウザ「Comet」や永続メモリー機能などを展開してきたが、Computerはそれらを統合する実行基盤にあたると説明する。チャット、検索、エージェントを経た次の段階として、AIがユーザーの代わりにワークフローを完遂する環境を提示した。</p>
-]]></description>
-      <pubDate>Sun, 01 Mar 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
