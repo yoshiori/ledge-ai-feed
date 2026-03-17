@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
+      <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
+      <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
+<h2>「Copilot Cowork」研究プレビュー公開</h2>
+<p>Copilot Coworkは、Microsoft 365 Copilotの新機能として提供されるAIエージェント機能で、AIが単発の質問応答にとどまらず、複数のアプリやデータを横断しながら長時間のタスクを継続的に実行することを目的としている。</p>
+<p>Microsoftは、これまでのCopilotが文書作成や情報整理などを支援するAIアシスタントとして機能してきたのに対し、Copilot Coworkではタスクを段階的に進めるAIエージェントとして業務を遂行できるようになると説明している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=j8rHJsM3fxQ">YouTube</a></p>
+<h2>Anthropicと共同開発、Claude Coworkの技術を採用</h2>
+<p>Copilot Coworkは、AI企業Anthropicと共同で開発された。Microsoftによると、AnthropicのAIシステム「Claude Cowork」の技術を取り入れており、AIが複数のステップを伴う作業を継続的に進める仕組みを実現したという。</p>
+<p>MicrosoftとAnthropicは近年AI分野での連携を強化しており、今回の取り組みはその協力関係の一環として位置付けられる。</p>
+<h2>会議準備や企業調査など複数ステップの業務に対応</h2>
+<p>MicrosoftはCopilot Coworkの利用例として、会議の準備や企業調査、プロジェクト計画の作成、製品ローンチの準備などを挙げている。</p>
+<p>例えば会議準備では、カレンダーやメール、過去の会議資料などの情報を参照しながら関連資料を整理し、議題やメモをまとめる作業をAIが段階的に進めることができるとしている。また企業リサーチでは、公開情報や社内データを横断的に分析し、調査結果をまとめる作業などにも活用できるという。</p>
+<p>このようにCopilot Coworkは、複数の情報源を横断しながらタスクを継続的に処理することで、従来のAIアシスタントよりも広い範囲の業務を支援できるとされる。</p>
+<h2>Frontier programで段階的に提供</h2>
+<p>Copilot Coworkは現在、研究プレビューとして一部のユーザー向けに提供されている。Microsoftは、2026年3月下旬から「Microsoft 365 Frontier program」を通じて、より広いユーザーに提供を拡大する予定としている。</p>
+<p>同社は、Microsoft 365 Copilotを単なるAIチャットから業務を実行するAIへと進化させる取り組みを進めており、Copilot Coworkはその方向性を示す機能の一つと位置付けられている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google MapsにGemini統合「Ask Maps」発表——10年以上ぶりの大規模刷新、会話で店や場所を探すAI地図検索</title>
       <link>https://ledge.ai/articles/google_maps_gemini_ask_maps_update</link>
       <description><![CDATA[<p>Googleは2026年3月12日（現地時間）、地図サービス「Google Maps」の大規模アップデートを<a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/">発表</a>した。生成AI「Gemini」を活用した新機能「Ask Maps」を導入し、会話形式で店や場所を探せるようにする。あわせて、ナビゲーション機能を刷新する「Immersive Navigation」も公開した。Ask Mapsは米国とインドで提供を開始し、Immersive Navigationは米国で順次展開する。</p>
@@ -27,6 +48,18 @@
 <p>Immersive Navigationはまず米国で提供が始まり、今後数か月で対応するiOS・Android端末のほか、CarPlayやAndroid Auto、Google built-in搭載車にも拡大する予定だ。</p>
 ]]></description>
       <pubDate>Sun, 15 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT、数式やグラフの変化を見ながら学べる新機能　数学・科学向けのインタラクティブなビジュアル解説を提供開始</title>
+      <link>https://ledge.ai/articles/chatgpt_interactive_visual_math_science_learning</link>
+      <description><![CDATA[<p>OpenAIは2026年3月10日、対話型AI「ChatGPT」で数学や科学を学ぶための新機能として、「<a href="https://openai.com/ja-JP/index/new-ways-to-learn-math-and-science-in-chatgpt/">インタラクティブなビジュアル解説</a>」の提供を始めた。数式や変数、概念同士の関係をリアルタイムで視覚的に示し、利用者が変化を見ながら理解を深められるようにする。対象はログイン中のChatGPTユーザーで、無料プランを含む全プランで世界展開する。</p>
+<p>ChatGPTはすでに学習用途でも広く使われており、同社によると毎週1億4,000万人が数学や科学の概念理解に活用しているという。今回の新機能では、まず主に高校生や大学生の学習者を対象とした70以上の数学・科学のトピックについて、数式や変数を動かした際にグラフや関係性がどう変わるかをその場で確認できるようにした。抽象的になりやすい内容を、静的な説明文だけでなく、操作可能なビジュアルとともに示すのが特徴だ。</p>
+<p>公式サイトでは、理想気体の法則やレンズの方程式、ピタゴラスの定理、円の面積といった題材が例として示されている。新しいトピックの調査や宿題、試験準備などの場面で、数式や概念の関係を視覚的に確かめながら理解を深められる設計だ。</p>
+<p><strong>ChatGPTのインタラクティブなビジュアル解説の表示例。理想気体の法則を題材に、変数を動かしながら関係性を視覚的に学べる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ideal_gas_law_43a290d901/ideal_gas_law_43a290d901.jpg" alt="ideal gas law.jpg" /></p>
+<p>OpenAIは、数学や科学の概念は抽象的で理解しにくいことが多いとしたうえで、視覚的かつ操作可能な学習体験によって、公式や変数の背後にある関係性をつかみやすくなるとしている。</p>
+]]></description>
+      <pubDate>Sun, 15 Mar 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、次世代埋め込みモデル「Gemini Embedding 2」発表　テキスト、画像、動画、音声などを同一ベクトル空間で扱うマルチモーダル対応で検索・推薦を強化</title>
@@ -92,22 +125,6 @@
       <pubDate>Wed, 11 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>イラン、Amazonの中東データセンターを攻撃　「軍事・諜報活動を支援」と主張</title>
-      <link>https://ledge.ai/articles/iran_attack_amazon_data_center_bahrain</link>
-      <description><![CDATA[<p>イスラエルと米国によるイランへの攻撃を受け、中東情勢が緊張を増す中、イランが反撃の一環としてバーレーンにある米Amazonのデータセンターを攻撃したとされる。</p>
-<p>Amazon Web Services（AWS）は2026年3月2日（現地時間）に公開した障害情報で、中東地域のデータセンターが攻撃の影響を受けた可能性があると説明した。イランのイスラム革命防衛隊（IRGC）は、この施設について「敵の軍事・諜報活動を支援する役割を果たしていることを特定した上での対応」と説明している。</p>
-<p>Amazon Web Services（AWS）は<a href="https://health.aws.amazon.com/health/status">障害情報</a>のダッシュボードで、中東地域のインフラが攻撃の影響を受けたことを明らかにしている。AWSによると、アラブ首長国連邦（UAE）では2つの施設が直接攻撃を受けたほか、バーレーンではデータセンターの近傍にドローンが落下し、インフラ設備に影響が生じた。電力供給の停止や設備の損傷、消火活動に伴う水損などが発生したとされ、一部サービスの運用に影響が出た可能性があるという。</p>
-<p>イラン側は、この施設を単なる民間インフラではなく、軍事関連の機能を担う拠点とみなしている。イラン国営系メディアFarsが3月5日にTelegramで公開した<a href="https://t.me/farsna/415292">投稿</a>によると、革命防衛隊はバーレーンのAmazonデータセンターについて「敵の軍事・諜報活動を支援する役割を果たしていることを特定した」と説明している。イラン側の主張では、クラウドインフラが軍事・情報活動を支える基盤となっている可能性があるとして、攻撃対象となったとしている。<a href="url">発表</a>した。</p>
-<p><strong>イラン国営系メディアFarsのTelegram投稿。革命防衛隊はAmazonのデータセンターが「軍事・諜報活動を支援している」と主張している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/telegram_fars_42479b1cb9/telegram_fars_42479b1cb9.jpg" alt="telegram fars.jpg" /></p>
-<p>バーレーンには、Amazonの中東地域向けクラウド拠点「AWS Middle East（Bahrain）リージョン」が設置されている。Amazonは2019年にこのリージョンを開設しており、中東地域で利用される主要なクラウド基盤の一つとなっている。複数のAvailability Zoneで構成され、企業や政府機関などが利用するクラウドサービスを提供している。</p>
-<p>近年、クラウドインフラはAI分析やデータ処理、情報共有などの基盤として幅広く利用されている。AWSでも生成AI基盤サービス「Amazon Bedrock」などが同リージョンで提供されており、クラウドはデジタルインフラとして重要性を増している。</p>
-<p>一方で、紛争地域では電力網や通信網などのインフラが攻撃対象となるケースも増えている。今回のケースでは、クラウドデータセンターが軍事活動を支える可能性のあるインフラとして位置付けられ、攻撃対象になったとイラン側が主張している点が注目される。</p>
-<p>AIやクラウド技術が広く社会インフラとして利用される中、データセンターなどのデジタル基盤が紛争の影響を受ける可能性も指摘されている。</p>
-]]></description>
-      <pubDate>Tue, 10 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
       <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
       <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
@@ -137,28 +154,6 @@
       <pubDate>Mon, 09 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、Excel内で使える「ChatGPT for Excel」ベータ版公開　自然言語で表計算を構築・更新</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_for_excel_beta_release</link>
-      <description><![CDATA[<p>OpenAIは2026年3月5日（米国時間）、Microsoft Excel向けアドイン「ChatGPT for Excel」のベータ版を<a href="https://openai.com/index/chatgpt-for-excel/">発表</a>した。Excelのワークブック内にChatGPTを直接組み込み、表計算モデルの構築や更新、分析を自然言語で支援する。あわせて、ChatGPT上で金融データを扱いやすくする新たなデータ連携も発表しており、財務モデリングや調査、分析といった実務ワークフローへの展開を進める姿勢を打ち出した。</p>
-<h2>Excel上で表計算の作成・更新・分析を支援</h2>
-<p>ChatGPT for Excelは、Excelに埋め込まれたベータ版アドインで、利用者が自然言語で指示するだけで、表計算モデルの新規作成や更新、シナリオ分析、セルや数式をもとにした出力生成をワークブック内で進められる。</p>
-<p>OpenAIによると、分析担当者や戦略担当者、研究者、経理担当者などが、数式作成やリンク確認、モデル修正といった手作業を減らし、判断や意思決定により多くの時間を割けるようにすることを狙う。加えて、シート間や数式間のつながりを踏まえてモデルを読み解き、出力が変化した理由の説明やエラーの追跡・修正、前提条件が全体にどう影響するかの確認も支援するという。</p>
-<p>作業中は参照したセルや更新対象のセルを示し、変更前にはユーザーの許可を求めるほか、必要に応じて編集を取り消せる仕組みも備え、既存テンプレートの引き継ぎや複雑なワークブックの把握にも役立つとしている。</p>
-<h2>GPT-5.4を基盤に、財務ワークフロー向け性能を訴求</h2>
-<p>今回の発表では、基盤モデルであるGPT-5.4の性能も前面に押し出された。OpenAIはGPT-5.4 Thinkingについて、財務推論やExcelベースのモデリングに適した同社の最新モデルだと説明している。</p>
-<p>同社によると、金融実務の担当者と連携しながら、財務モデリング、シナリオ分析、データ抽出、長文リサーチといった現実の業務フローをもとに性能改善を進めてきたという。さらに、OpenAIの社内投資銀行ベンチマークでは、適切な書式や引用を含む三表モデルの構築などを評価する指標で、GPT-5の43.7%に対し、GPT-5.4 Thinkingは87.3%だったとしている。</p>
-<p><strong>OpenAI社内投資銀行ベンチマーク</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_AI_internal_investment_banking_benchmark_9a24c0123b/Open_AI_internal_investment_banking_benchmark_9a24c0123b.jpg" alt="OpenAI internal investment banking benchmark.jpg" /></p>
-<h2>ベータ版は米国、カナダ、オーストラリアで提供開始</h2>
-<p>ChatGPT for Excelのベータ版は、ChatGPT Business、Enterprise、Edu、Teachers、Pro、Plusユーザー向けに提供を開始した。対象地域は米国、カナダ、オーストラリアで、Google Sheets向け機能も今後提供予定としている。</p>
-<p>一方で、Enterprise、Edu、Teachersの各ワークスペースでは初期状態でアクセスがオフになっており、管理者がカスタムロールやグループ権限を通じて特定ユーザー向けに有効化する仕組みを採っている。</p>
-<h2>金融データ連携も拡充、Enterprise向け統制機能も訴求</h2>
-<p>OpenAIは今回、ChatGPT for Excelとあわせて、ChatGPT上で使える金融データ連携の拡充も発表した。複数の金融・市場データ提供元との統合に加え、Model Context Protocol（MCP）を通じた独自データの取り込みにも対応し、企業調査やモデル更新、デューデリジェンスなどの業務を支援する。また、Enterprise向けにはRBACやSAML SSO、SCIM、監査ログ、暗号化、データレジデンシーなどの統制機能もあらためて訴求した。</p>
-<p>一方で、現時点ではベータ版であり、応答に時間がかかる場合があるほか、生成結果の整形や複雑な数式の調整では手動対応が必要になる場合もあるとしている。</p>
-]]></description>
-      <pubDate>Mon, 09 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
       <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_research_preview</link>
       <description><![CDATA[<p>2026年03月05日、AnthropicがAIコーディング支援ツール「Claude Code」で、承認作業の自動化をさらに進める可能性が明らかになった。Claude Codeの新しい権限モード「auto mode」が、リサーチプレビューとしてリリースされる旨を伝えるユーザー向けの通知文がテックメディアや<a href="https://www.reddit.com/r/claude/comments/1rkx77h/new_auto_mode_permissions_coming/">Reddit</a>{target=”_blank”}上に転載され、2026年3月中旬以降に提供される見通しが浮上している。本記事公開時点ではAnthropicの公開リリースは確認できていない。</p>
@@ -181,6 +176,27 @@
 <p>なお、auto modeに関する情報は現時点で通知文の転載などを通じて確認されたものであり、Anthropicからの正式発表や専用ドキュメントは公開されていない。</p>
 ]]></description>
       <pubDate>Mon, 09 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>侍ジャパン、WBCでAI誹謗中傷検出システム導入　前年は国内ポストシーズンで380万件分析・466件認定</title>
+      <link>https://ledge.ai/articles/wbc_ai_antislander_system</link>
+      <description><![CDATA[<p>日本野球機構（NPB）とNPBエンタープライズ、日本プロ野球選手会は2026年3月4日、同年3月開催の「2026 WORLD BASEBALL CLASSIC（WBC）」で、野球日本代表「侍ジャパン」の監督、コーチ、選手などを対象に、AIを活用した誹謗中傷検出システムを共同導入すると<a href="https://jpbpa.net/2026/03/04/12924/">発表</a>した。対象は侍ジャパンの全試合で、試合の前後一定期間にわたりSNS上の公開投稿を監視・分析する。WBC東京プールは日本時間3月5日から10日まで開催される。</p>
+<h2>日本代表の監督・コーチ・選手を対象にSNSを監視</h2>
+<p>今回の取り組みは日本代表の監督、コーチ、選手などを誹謗中傷から守ることを目的とするものだ。対象試合は「2026 WORLD BASEBALL CLASSIC」における日本代表の全試合で、検出期間は各試合の前後一定期間。誹謗中傷行為の抑止と迅速な対応を通じて、監督・コーチ・選手が安心して競技に集中できる環境を整えるとともに、健全な観戦環境の実現を目指す。</p>
+<h2>投稿の通報・削除要請や証拠保全まで対応</h2>
+<p>導入するのは、英国Signify Groupが提供するAI誹謗中傷検出・通報支援サービス「<a href="https://www.signify.ai/threatmatrix">Threat Matrix</a>」だ。日本語を含む42言語に対応し、主要SNS上で日本代表メンバーに向けられた投稿を監視・分析。不適切な投稿を検出した場合には、SNS各社への通報や削除要請、関係各所との情報共有、必要に応じた証拠化や関係機関との連携などを行う。</p>
+<p>また、分析結果により投稿者本人が確認された場合には、NPBエンタープライズが主催する大会・試合や、日本プロ野球選手会に関連するイベントなどにおいて、入場禁止を含む措置を検討する可能性があるとしている。</p>
+<h2>前年は約380万件を分析、466件を誹謗中傷と認定</h2>
+<p>今回の導入は、前年の国内ポストシーズンでの運用実績を踏まえたものでもある。日本プロ野球選手会が同日公表した結果報告によると、2025年度のクライマックスシリーズおよび日本シリーズでは、被害のあった公式アカウントが計79にのぼり、AIが約380万件の投稿を分析。その中から2,917件を疑義投稿として抽出し、専門アナリストによる精査を経て466件を誹謗中傷と認定した。さらに197アカウントについて発信元を確認したという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/0307_side_0bc05b2711/0307_side_0bc05b2711.jpg" alt="0307-side.jpg" /></p>
+<h2>「人格攻撃・罵詈雑言」が過半、発信元197アカウントを確認</h2>
+<p>前年の結果報告では、誹謗中傷の内容として「人格攻撃・罵詈雑言」が56.2％で最多だった。このほか揶揄や中傷、暴力・脅迫なども確認されており、国内ポストシーズンの段階でオンライン上の被害実態が数字として可視化されていた。</p>
+<h2>英Signifyの「Threat Matrix」を採用</h2>
+<p>Threat Matrixを提供する<a href="https://www.signify.ai/about">Signify Group</a>は、公開されているSNSなどのデータをAIで分析し、人のレビューを組み合わせてオンライン上の脅威や中傷を可視化・証拠化するオンライン保護サービス企業だ。Threat MatrixはSNSなどの公開情報を収集し、AIによる自然言語分析で対象人物への投稿を抽出したうえで、人による確認を行い、対応や証拠化につなげる仕組みとしている。</p>
+<p>日本プロ野球選手会によると、同システムは「FIFAワールドカップカタール2022」や「ラグビーワールドカップフランス2023」、女子テニス協会（WTA）と国際テニス連盟（ITF）のプログラムなど、世界規模のスポーツイベントでも導入実績があるという。</p>
+<p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
+]]></description>
+      <pubDate>Sat, 07 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
@@ -341,18 +357,6 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT、数式やグラフの変化を見ながら学べる新機能　数学・科学向けのインタラクティブなビジュアル解説を提供開始</title>
-      <link>https://ledge.ai/articles/chatgpt_interactive_visual_math_science_learning</link>
-      <description><![CDATA[<p>OpenAIは2026年3月10日、対話型AI「ChatGPT」で数学や科学を学ぶための新機能として、「<a href="https://openai.com/ja-JP/index/new-ways-to-learn-math-and-science-in-chatgpt/">インタラクティブなビジュアル解説</a>」の提供を始めた。数式や変数、概念同士の関係をリアルタイムで視覚的に示し、利用者が変化を見ながら理解を深められるようにする。対象はログイン中のChatGPTユーザーで、無料プランを含む全プランで世界展開する。</p>
-<p>ChatGPTはすでに学習用途でも広く使われており、同社によると毎週1億4,000万人が数学や科学の概念理解に活用しているという。今回の新機能では、まず主に高校生や大学生の学習者を対象とした70以上の数学・科学のトピックについて、数式や変数を動かした際にグラフや関係性がどう変わるかをその場で確認できるようにした。抽象的になりやすい内容を、静的な説明文だけでなく、操作可能なビジュアルとともに示すのが特徴だ。</p>
-<p>公式サイトでは、理想気体の法則やレンズの方程式、ピタゴラスの定理、円の面積といった題材が例として示されている。新しいトピックの調査や宿題、試験準備などの場面で、数式や概念の関係を視覚的に確かめながら理解を深められる設計だ。</p>
-<p><strong>ChatGPTのインタラクティブなビジュアル解説の表示例。理想気体の法則を題材に、変数を動かしながら関係性を視覚的に学べる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ideal_gas_law_43a290d901/ideal_gas_law_43a290d901.jpg" alt="ideal gas law.jpg" /></p>
-<p>OpenAIは、数学や科学の概念は抽象的で理解しにくいことが多いとしたうえで、視覚的かつ操作可能な学習体験によって、公式や変数の背後にある関係性をつかみやすくなるとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
       <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
       <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
@@ -451,27 +455,6 @@
 <p>このサービスは、AIエージェントのオープンな実行環境を目指す「OpenClaw」エコシステムとも関係があるとされる。OpenClawは、AIエージェントが外部ツールやサービスを利用しながらタスクを実行する仕組みを提供するもので、エージェント同士の連携や能力共有を可能にする枠組みとして開発が進められている。企業システムやオンラインサービスとAIエージェントを接続する基盤としても注目されている。</p>
 <p>Moltbookは、こうしたAIエージェントの活動や能力を可視化するコミュニティとして広まり、AIエージェントが互いに投稿する“AIエージェント専用SNS”として話題となった。AIエージェント同士の交流や評価が行われる実験的なコミュニティとして、AI開発者や研究者の間でも注目を集めていた。</p>
 <p>Axiosによると、Moltbookの共同創業者であるMatt Schlicht氏とBen Parr氏は、MetaのAI研究組織であるMeta Superintelligence Labs（MSL）に参加する。MSLはMetaがAI研究開発を強化するために設けた部門で、AI分野の研究者やエンジニアを集め、次世代のAI技術の開発を進めているという。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
-      <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
-      <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
-<h2>「Copilot Cowork」研究プレビュー公開</h2>
-<p>Copilot Coworkは、Microsoft 365 Copilotの新機能として提供されるAIエージェント機能で、AIが単発の質問応答にとどまらず、複数のアプリやデータを横断しながら長時間のタスクを継続的に実行することを目的としている。</p>
-<p>Microsoftは、これまでのCopilotが文書作成や情報整理などを支援するAIアシスタントとして機能してきたのに対し、Copilot Coworkではタスクを段階的に進めるAIエージェントとして業務を遂行できるようになると説明している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=j8rHJsM3fxQ">YouTube</a></p>
-<h2>Anthropicと共同開発、Claude Coworkの技術を採用</h2>
-<p>Copilot Coworkは、AI企業Anthropicと共同で開発された。Microsoftによると、AnthropicのAIシステム「Claude Cowork」の技術を取り入れており、AIが複数のステップを伴う作業を継続的に進める仕組みを実現したという。</p>
-<p>MicrosoftとAnthropicは近年AI分野での連携を強化しており、今回の取り組みはその協力関係の一環として位置付けられる。</p>
-<h2>会議準備や企業調査など複数ステップの業務に対応</h2>
-<p>MicrosoftはCopilot Coworkの利用例として、会議の準備や企業調査、プロジェクト計画の作成、製品ローンチの準備などを挙げている。</p>
-<p>例えば会議準備では、カレンダーやメール、過去の会議資料などの情報を参照しながら関連資料を整理し、議題やメモをまとめる作業をAIが段階的に進めることができるとしている。また企業リサーチでは、公開情報や社内データを横断的に分析し、調査結果をまとめる作業などにも活用できるという。</p>
-<p>このようにCopilot Coworkは、複数の情報源を横断しながらタスクを継続的に処理することで、従来のAIアシスタントよりも広い範囲の業務を支援できるとされる。</p>
-<h2>Frontier programで段階的に提供</h2>
-<p>Copilot Coworkは現在、研究プレビューとして一部のユーザー向けに提供されている。Microsoftは、2026年3月下旬から「Microsoft 365 Frontier program」を通じて、より広いユーザーに提供を拡大する予定としている。</p>
-<p>同社は、Microsoft 365 Copilotを単なるAIチャットから業務を実行するAIへと進化させる取り組みを進めており、Copilot Coworkはその方向性を示す機能の一つと位置付けられている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
@@ -657,29 +640,6 @@
 <p>こうした状況の中で、データセンター計画では設計や検討段階の迅速化が重要な課題となっている。竹中工務店は今回の設計支援ツールを活用することで、初期計画段階における検討の効率化と設計品質の向上を図り、デジタル社会を支えるインフラ整備に貢献していくとしている。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeユーザー急増の中、Anthropicが「メモリー移行」機能　他AIからの乗り換えを容易に</title>
-      <link>https://ledge.ai/articles/claude_import_memory_ai_migration_feature</link>
-      <description><![CDATA[<p>Anthropicは2026年3月3日（現地時間）、AIチャットボット「Claude」に、他のAIサービスで蓄積したユーザーの好みや作業スタイルなどの情報を取り込める「メモリー移行（Import Memory）」機能を<a href="https://claude.com/import-memory">公開</a>した。ユーザーが別のAIを使って形成したコンテキストをClaudeにコピー＆ペーストで移行できる仕組みで、他AIからの乗り換えを容易にすることを狙う。</p>
-<p>@<a href="https://www.youtube.com/watch?v=PupmfSttxlc">YouTube</a></p>
-<h2>他AIサービスからメモリーをインポート</h2>
-<p>「Import Memory」は、ユーザーが他のAIサービスで蓄積してきた情報をClaudeのメモリーに取り込む機能だ。</p>
-<p>AIチャットボットは、ユーザーの好みや作業スタイルなどを学習して応答を最適化していく。しかし、別のAIサービスへ移行すると、これまで積み上げた文脈が失われるという課題があった。</p>
-<p>Anthropicはこの問題に対応するため、他AIのチャットからユーザーの設定やコンテキストを抽出し、それをClaudeのメモリーとして登録できる仕組みを提供する。</p>
-<p>同機能は、Claudeの無料プランでもサービスを試すことができ、準備が整った段階でメモリーをインポートできるという。</p>
-<h2>コピー＆ペーストで1分以内に移行</h2>
-<p>移行手順は以下のような流れとなると説明している。</p>
-<p>・Claudeが用意した専用プロンプトを、移行元のAIチャットに貼り付ける
-・そのAIが生成したユーザー設定や文脈のまとめをコピーする
-・Claudeのメモリー設定画面に貼り付ける</p>
-<p>これにより、数カ月かけてAIに教えてきたユーザーの好みや作業方法を「1分以内」にClaudeへ移行できるとしている。</p>
-<p>Claudeのメモリー機能は、ユーザーの好みや情報を保存し、会話をまたいで参照できる仕組みだ。メモリーはユーザーが確認・編集できる設計となっており、不要な情報は削除することも可能だという。</p>
-<h2>AIチャットボット競争の新段階</h2>
-<p>AIサービスでは、ユーザーの好みや作業スタイルといった「パーソナライズされた文脈」が重要な資産となる。Anthropicは、この文脈をClaudeへ移行できる仕組みを用意することで、他AIユーザーの取り込みを図る。</p>
-<p>生成AI市場では、ユーザーが複数のAIサービスを使い分ける動きが広がっている。一方で、AIに教えた個人設定や作業スタイルがサービスごとに分断されることが、乗り換えの障壁となってきた。そのような状況の中で公開された「Import Memory」は、ユーザーが別のAIサービスへ移行する際の障壁を下げる狙いがあるとみられる。</p>
-]]></description>
-      <pubDate>Wed, 04 Mar 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
