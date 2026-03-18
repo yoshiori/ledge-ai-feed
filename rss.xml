@@ -5,6 +5,31 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>「ポケモンGO」のNiantic Spatial、配送ロボット企業Cocoと提携　地理空間AIをロボット配送に提供</title>
+      <link>https://ledge.ai/articles/niantic_spatial_coco_robotics_geospatial_ai_delivery_robot</link>
+      <description><![CDATA[<p>スマートフォン向けARゲーム「ポケモンGO」を開発したNianticの空間AI企業であるNiantic Spatialは3月10日（現地時間）、配送ロボットを開発するCoco Roboticsと戦略的パートナーシップを結んだと<a href="https://www.nianticspatial.com/blog/coco-robotics">発表</a>した。</p>
+<p>Niantic Spatialが開発する地理空間AIと位置測位技術「Visual Positioning System（VPS）」をCocoの配送ロボットに組み込み、都市環境での自律ナビゲーション精度を高める。建物が密集してGPSが不安定になりやすい都市部でも、ロボットが周囲の環境を認識しながら自ら位置を把握して移動できるようにすることで、食品や日用品などの「ラストワンマイル配送」の実用性向上を目指す。</p>
+<h2>地理空間AIを配送ロボットの基盤に</h2>
+<p>Niantic Spatialは、現実世界の空間情報をAIで理解・解析する「地理空間AI（Geospatial AI）」の開発を進めている。</p>
+<p>今回の提携では、Niantic SpatialがコアインフラパートナーとしてCoco Roboticsの配送ロボットフリートにこの技術を組み込み、都市部でのロボット配送の精度と安全性を高める。</p>
+<p>配送ロボットが歩道や街区を自律的に移動するには、建物や歩行者、道路の段差など複雑な都市環境を理解する必要がある。Niantic Spatialは、こうした課題に対して地理空間AIを活用することで、より正確な位置認識とナビゲーションを実現するとしている。</p>
+<h2>GPSが届かない場所でも位置を特定</h2>
+<p>Niantic Spatialの中核技術が、Visual Positioning System（VPS）である。これはカメラ映像と地図データを照合することで、周囲の景観から現在位置を推定する技術だ。</p>
+<p><strong>Niantic SpatialのVisual Positioning System（VPS）の概念図。カメラ映像を3D地図データと照合し、都市環境でも高精度に位置を特定する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_Niantic_Spatial1_8ff1e4fc84/2_Niantic_Spatial1_8ff1e4fc84.jpg" alt="2Niantic Spatial1.jpg" /></p>
+<p>都市部では高層ビルなどによってGPS信号が遮られ、位置情報が不安定になるケースがある。VPSはこうした環境でも、建物や道路の特徴を認識することで位置を高精度に特定できる。</p>
+<p>Niantic Spatialによると、新しいVPSは信頼性や一貫性を高めたほか、2Dおよび3Dデータソースを柔軟に取り込める設計となっている。また、事前に現地をスキャンしなくても利用できるグローバルカバレッジを備え、人通りの多い場所や複雑な都市環境でも正確なナビゲーションが可能になるという。</p>
+<h2>両社CEOがコメント</h2>
+<p>Niantic SpatialのCEOのJohn Hanke氏は、配送ロボットのラストワンマイル配送には大きな可能性がある一方、複雑な都市環境でのナビゲーションはエンジニアリング上の難題の一つだと指摘し、Coco Roboticsとの協力によって地理空間AIでこの課題に取り組んでいくと述べた。</p>
+<p>一方、Coco Roboticsの共同創業者兼CEOのZach Rash氏は、Niantic Spatialとの提携によりロボットのナビゲーション精度をさらに向上できるとし、都市環境でより安全かつ自律的にロボットを運用する新しい方法を模索していくと述べた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Niantic_Spatial1_b6ad0e6ff7/Niantic_Spatial1_b6ad0e6ff7.jpg" alt="Niantic Spatial1.jpg" /></p>
+<h2>ロボット時代の基盤となる地理空間モデル</h2>
+<p>Niantic Spatialは今回の提携について、現実世界を移動するロボットにとって地理空間AIやLarge Geospatial Model（LGM）が重要なインフラになることを示す取り組みだとしている。</p>
+<p>配送ロボットや自動運転車など、現実空間を移動するシステムでは、AIが周囲の空間を理解しながら動く能力が不可欠になる。Niantic Spatialは、こうした空間理解AIの基盤技術を今後も拡張していく方針だ。</p>
+]]></description>
+      <pubDate>Tue, 17 Mar 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
       <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
       <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
@@ -101,28 +126,6 @@
 <p>同社は、自律型AIエージェントの活用が今後のソフトウェア開発の生産性向上に寄与するとみており、社内外での活用拡大を図る考えだ。</p>
 ]]></description>
       <pubDate>Wed, 11 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、コードの脆弱性を発見し修正パッチまで提案するAIエージェント「Codex Security」公開</title>
-      <link>https://ledge.ai/articles/openai_codex_security_ai_agent_vulnerability_detection</link>
-      <description><![CDATA[<p>OpenAIは2026年3月6日、ソフトウェアのコードを分析して脆弱性を検出し、修正パッチまで提案するAIエージェント「Codex Security」を研究プレビューとして<a href="https://openai.com/ja-JP/index/codex-security-now-in-research-preview/">発表</a>した。GitHubリポジトリを対象にしたベータテストでは、120万コミット以上をスキャンし、792件の重大な脆弱性を発見したという。</p>
-<h2>AIがコードを解析し、脆弱性を発見・検証</h2>
-<p>Codex Securityは、ソフトウェアのコードベースを分析し、セキュリティ上の問題となる可能性のある箇所を検出するAIエージェント。単に静的解析を行うだけでなく、脆弱性が実際に悪用可能かどうかを検証し、その結果をもとに修正案を提示する。</p>
-<p>OpenAIによると、AIエージェントはコードの変更履歴や依存関係などを含めてリポジトリ全体を解析し、脆弱性の候補を抽出。その後、攻撃シナリオを想定したテストを実行することで、実際に問題となる可能性が高いケースを特定する仕組みだという。</p>
-<h2>ベータテストで120万コミットをスキャン</h2>
-<p>OpenAIは今回の研究プレビューに先立ち、GitHub上の複数のオープンソースプロジェクトを対象にベータテストを実施した。</p>
-<p>その結果、120万コミット以上を分析し、792件の重大な脆弱性を発見したとしている。また、従来の自動解析ツールと比べて偽陽性（false positive）を50%以上削減できたという。</p>
-<p>ソフトウェア開発では、脆弱性検出ツールが大量の誤検知を出すことが課題とされており、開発者の確認作業の負担が大きいと指摘されてきた。OpenAIは、AIエージェントによる検証プロセスによってこの問題の軽減を目指すとしている。</p>
-<h2>修正パッチの提案まで自動化</h2>
-<p>Codex Securityは、脆弱性の検出にとどまらず、修正パッチの提案まで行う点が特徴だ。</p>
-<p>AIエージェントは問題の原因となるコードを特定したうえで、修正案となるコードを生成し、開発者に提示する。これにより、脆弱性の発見から修正までの作業を大幅に効率化できる可能性があるとしている。</p>
-<h2>AIエージェントによるセキュリティ監査の可能性</h2>
-<p>近年、ソフトウェア開発ではAIを活用したコード生成やレビューの導入が進んでいる。一方で、セキュリティ上の問題を早期に発見する仕組みの重要性も高まっている。</p>
-<p>OpenAIは、Codex Securityの研究プレビューを通じて、AIエージェントが大規模なコードベースを継続的に監査する新しいセキュリティ手法の可能性を探るとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Wed, 11 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
@@ -456,31 +459,6 @@
 <p>公開資料では、理解専用モデルのスコアが43.9だったのに対し、Uni-1のフルモデルは46.2を記録した。Luma AIはこの結果について、画像を生成するための学習が、物体や配置、場面を細かく見分ける力の向上にも寄与している可能性があるとしている。</p>
 <h2>「Unified Intelligence」への第一歩</h2>
 <p>Luma AIは、Uni-1を単なる新しい画像生成モデルではなく、理解と生成の境界をまたぐモデルとして打ち出している。発表では、画像生成に加えて、世界知識や文化的文脈、複数ターンでの調整といった要素にも言及しており、より広いマルチモーダルAIへつながる基盤として位置づけた。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「ポケモンGO」のNiantic Spatial、配送ロボット企業Cocoと提携　地理空間AIをロボット配送に提供</title>
-      <link>https://ledge.ai/articles/niantic_spatial_coco_robotics_geospatial_ai_delivery_robot</link>
-      <description><![CDATA[<p>スマートフォン向けARゲーム「ポケモンGO」を開発したNianticの空間AI企業であるNiantic Spatialは3月10日（現地時間）、配送ロボットを開発するCoco Roboticsと戦略的パートナーシップを結んだと<a href="https://www.nianticspatial.com/blog/coco-robotics">発表</a>した。</p>
-<p>Niantic Spatialが開発する地理空間AIと位置測位技術「Visual Positioning System（VPS）」をCocoの配送ロボットに組み込み、都市環境での自律ナビゲーション精度を高める。建物が密集してGPSが不安定になりやすい都市部でも、ロボットが周囲の環境を認識しながら自ら位置を把握して移動できるようにすることで、食品や日用品などの「ラストワンマイル配送」の実用性向上を目指す。</p>
-<h2>地理空間AIを配送ロボットの基盤に</h2>
-<p>Niantic Spatialは、現実世界の空間情報をAIで理解・解析する「地理空間AI（Geospatial AI）」の開発を進めている。</p>
-<p>今回の提携では、Niantic SpatialがコアインフラパートナーとしてCoco Roboticsの配送ロボットフリートにこの技術を組み込み、都市部でのロボット配送の精度と安全性を高める。</p>
-<p>配送ロボットが歩道や街区を自律的に移動するには、建物や歩行者、道路の段差など複雑な都市環境を理解する必要がある。Niantic Spatialは、こうした課題に対して地理空間AIを活用することで、より正確な位置認識とナビゲーションを実現するとしている。</p>
-<h2>GPSが届かない場所でも位置を特定</h2>
-<p>Niantic Spatialの中核技術が、Visual Positioning System（VPS）である。これはカメラ映像と地図データを照合することで、周囲の景観から現在位置を推定する技術だ。</p>
-<p><strong>Niantic SpatialのVisual Positioning System（VPS）の概念図。カメラ映像を3D地図データと照合し、都市環境でも高精度に位置を特定する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2_Niantic_Spatial1_8ff1e4fc84/2_Niantic_Spatial1_8ff1e4fc84.jpg" alt="2Niantic Spatial1.jpg" /></p>
-<p>都市部では高層ビルなどによってGPS信号が遮られ、位置情報が不安定になるケースがある。VPSはこうした環境でも、建物や道路の特徴を認識することで位置を高精度に特定できる。</p>
-<p>Niantic Spatialによると、新しいVPSは信頼性や一貫性を高めたほか、2Dおよび3Dデータソースを柔軟に取り込める設計となっている。また、事前に現地をスキャンしなくても利用できるグローバルカバレッジを備え、人通りの多い場所や複雑な都市環境でも正確なナビゲーションが可能になるという。</p>
-<h2>両社CEOがコメント</h2>
-<p>Niantic SpatialのCEOのJohn Hanke氏は、配送ロボットのラストワンマイル配送には大きな可能性がある一方、複雑な都市環境でのナビゲーションはエンジニアリング上の難題の一つだと指摘し、Coco Roboticsとの協力によって地理空間AIでこの課題に取り組んでいくと述べた。</p>
-<p>一方、Coco Roboticsの共同創業者兼CEOのZach Rash氏は、Niantic Spatialとの提携によりロボットのナビゲーション精度をさらに向上できるとし、都市環境でより安全かつ自律的にロボットを運用する新しい方法を模索していくと述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Niantic_Spatial1_b6ad0e6ff7/Niantic_Spatial1_b6ad0e6ff7.jpg" alt="Niantic Spatial1.jpg" /></p>
-<h2>ロボット時代の基盤となる地理空間モデル</h2>
-<p>Niantic Spatialは今回の提携について、現実世界を移動するロボットにとって地理空間AIやLarge Geospatial Model（LGM）が重要なインフラになることを示す取り組みだとしている。</p>
-<p>配送ロボットや自動運転車など、現実空間を移動するシステムでは、AIが周囲の空間を理解しながら動く能力が不可欠になる。Niantic Spatialは、こうした空間理解AIの基盤技術を今後も拡張していく方針だ。</p>
 ]]></description>
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
