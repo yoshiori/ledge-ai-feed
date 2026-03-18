@@ -579,6 +579,23 @@
       <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>楽天、「Rakuten AI 3.0」を提供開始　GENIAC発の7000億パラメータ日本語LLMをオープン公開</title>
+      <link>https://ledge.ai/articles/rakuten_ai_3_0_llm_open_release_geniac</link>
+      <description><![CDATA[<p>楽天グループは2026年3月17日、日本語に最適化した大規模言語モデル「Rakuten AI 3.0」の提供を開始したことを<a href="https://corp.rakuten.co.jp/news/press/2026/0317_01.html">発表</a>した。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発プロジェクト「GENIAC」の一環として開発されたモデルで、約7000億パラメータの規模を持つ。</p>
+<h2>国内最大級の日本語LLM、ベンチマークでも高性能を確認</h2>
+<p>同モデルは、2025年12月の発表以降にファインチューニングを行い改良されたもので、複数の日本語ベンチマークにおいて高いスコアを記録した。日本固有の文化や歴史に関する知識、大学院レベルの推論、競技数学、指示追従能力といった指標で評価され、主要な既存モデルとの比較結果も公表されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_bench_83888f0791/rakuten_ai_3_0_bench_83888f0791.jpg" alt="rakuten ai 3-0 bench.jpg" /></p>
+<p>「Rakuten AI 3.0」は、Mixture of Experts（MoE）アーキテクチャを採用した日本語特化モデルで、オープンソースコミュニティ上のモデルをベースに、楽天独自のバイリンガルデータや技術を組み合わせて開発された。文章生成やコード生成、文書解析など幅広い用途に対応し、従来モデルと比べて複雑なタスクへの対応精度が向上している。</p>
+<h2>Apache 2.0で無償公開、開発者・企業が利用可能に</h2>
+<p>提供形態はApache 2.0ライセンスに基づくオープンモデルで、楽天の公式リポジトリを通じて無償でダウンロード可能。企業や開発者がAIアプリケーション開発に活用できる環境を整備する。</p>
+<p>楽天グループのChief AI &amp; Data Office（r CAIDO）であるティン・ツァイ氏は、高品質かつ費用対効果の高いLLMの開発に注力しているとしたうえで、オープンモデルの共有を通じて国内のAI開発の加速とコミュニティの構築を目指すとコメントしている。</p>
+<h2>GENIACプロジェクトの一環として開発、計算資源支援も活用</h2>
+<p>同社は2025年7月にGENIAC第3期に採択されており、本モデルの学習には同プロジェクトによる計算資源支援の一部が活用されている。</p>
+<p>楽天は、AI活用を全社的に推進する取り組み「AI-nization」を掲げており、本モデルの公開を通じて、国内におけるAIアプリケーション開発やオープンコミュニティの発展を後押しするとしている。</p>
+]]></description>
+      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sakana AI、防衛装備庁のAI研究を受託　複数AIを組み合わせ意思決定プロセスを高速化</title>
       <link>https://ledge.ai/articles/sakana_ai_atla_multi_ai_decision_research</link>
       <description><![CDATA[<p>AI研究開発企業のSakana AIは2026年3月、防衛装備庁の研究機関である防衛イノベーション科学技術研究所（DISI）から、「複数AI技術の組み合わせによる観測・報告・情報統合・資源配分 高速化の研究」を受託したと<a href="https://sakana.ai/atla-contract-2026/">発表</a>した。複数のAI技術を組み合わせることで、観測から意思決定に至るまでの情報処理プロセスの高速化を目指す。</p>
