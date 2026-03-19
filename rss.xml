@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>楽天、「Rakuten AI 3.0」を提供開始　GENIAC発の7000億パラメータ日本語LLMをオープン公開</title>
+      <link>https://ledge.ai/articles/rakuten_ai_3_0_llm_open_release_geniac</link>
+      <description><![CDATA[<p>楽天グループは2026年3月17日、日本語に最適化した大規模言語モデル「Rakuten AI 3.0」の提供を開始したことを<a href="https://corp.rakuten.co.jp/news/press/2026/0317_01.html">発表</a>した。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発プロジェクト「GENIAC」の一環として開発されたモデルで、約7000億パラメータの規模を持つ。</p>
+<h2>国内最大級の日本語LLM、ベンチマークでも高性能を確認</h2>
+<p>同モデルは、2025年12月の発表以降にファインチューニングを行い改良されたもので、複数の日本語ベンチマークにおいて高いスコアを記録した。日本固有の文化や歴史に関する知識、大学院レベルの推論、競技数学、指示追従能力といった指標で評価され、主要な既存モデルとの比較結果も公表されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_bench_83888f0791/rakuten_ai_3_0_bench_83888f0791.jpg" alt="rakuten ai 3-0 bench.jpg" /></p>
+<p>「Rakuten AI 3.0」は、Mixture of Experts（MoE）アーキテクチャを採用した日本語特化モデルで、オープンソースコミュニティ上のモデルをベースに、楽天独自のバイリンガルデータや技術を組み合わせて開発された。文章生成やコード生成、文書解析など幅広い用途に対応し、従来モデルと比べて複雑なタスクへの対応精度が向上している。</p>
+<h2>Apache 2.0で無償公開、開発者・企業が利用可能に</h2>
+<p>提供形態はApache 2.0ライセンスに基づくオープンモデルで、楽天の公式リポジトリを通じて無償でダウンロード可能。企業や開発者がAIアプリケーション開発に活用できる環境を整備する。</p>
+<p>楽天グループのChief AI &amp; Data Office（r CAIDO）であるティン・ツァイ氏は、高品質かつ費用対効果の高いLLMの開発に注力しているとしたうえで、オープンモデルの共有を通じて国内のAI開発の加速とコミュニティの構築を目指すとコメントしている。</p>
+<h2>GENIACプロジェクトの一環として開発、計算資源支援も活用</h2>
+<p>同社は2025年7月にGENIAC第3期に採択されており、本モデルの学習には同プロジェクトによる計算資源支援の一部が活用されている。</p>
+<p>楽天は、AI活用を全社的に推進する取り組み「AI-nization」を掲げており、本モデルの公開を通じて、国内におけるAIアプリケーション開発やオープンコミュニティの発展を後押しするとしている。</p>
+]]></description>
+      <pubDate>Wed, 18 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「ポケモンGO」のNiantic Spatial、配送ロボット企業Cocoと提携　地理空間AIをロボット配送に提供</title>
       <link>https://ledge.ai/articles/niantic_spatial_coco_robotics_geospatial_ai_delivery_robot</link>
       <description><![CDATA[<p>スマートフォン向けARゲーム「ポケモンGO」を開発したNianticの空間AI企業であるNiantic Spatialは3月10日（現地時間）、配送ロボットを開発するCoco Roboticsと戦略的パートナーシップを結んだと<a href="https://www.nianticspatial.com/blog/coco-robotics">発表</a>した。</p>
@@ -30,6 +47,253 @@
       <pubDate>Tue, 17 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
+      <link>https://ledge.ai/articles/adobe_photoshop_ai_assistant_firefly_image_editing</link>
+      <description><![CDATA[<p>Adobeは2026年3月10日（米国時間）、画像編集ソフト「Photoshop」のWeb版およびモバイル版に新機能「AI Assistant」を導入し、パブリックβ版として<a href="https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly">発表</a>した。ユーザーが自然言語や音声で編集内容を指示できる機能で、同社の生成AI「Firefly」を基盤としている。あわせてFirefly Image Editorでも複数のAI編集機能を追加し、画像生成から編集までをAIで支援する機能強化を打ち出した。</p>
+<h2>自然言語で画像編集を指示できる「AI Assistant」</h2>
+<p>AI Assistantは、Photoshopの操作をAIが支援する機能だ。ユーザーは「不要な人物を削除する」「背景を別の風景に変更する」「明るさを調整する」といった編集内容をテキストや音声で指示でき、AIがそれに応じた操作を実行する。</p>
+<p>AI Assistantは編集を自動で適用するだけでなく、必要な手順を提示してユーザーの操作をサポートすることもできる。Adobeは、学生やデザイナー、マーケティング担当者など幅広いユーザーが、より直感的に画像編集を行えるようになるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Assistant_in_Photoshop_7d945cb33e/AI_Assistant_in_Photoshop_7d945cb33e.jpg" alt="AI Assistant in Photoshop.jpg" /></p>
+<h2>画像上に直接指示を書き込める「AI Markup」</h2>
+<p>Photoshop Web版には、AI Assistantを活用した新機能「AI Markup」も追加された。これは画像上の特定の領域を囲ったり描き込んだりしたうえで、テキストによって編集内容を指示できる機能だ。</p>
+<p>例えば画像の一部を指定し、「ここに花を追加する」「背景を山に変更する」といった指示を与えることで、AIが指定部分の編集を実行する。Adobeは、編集箇所を視覚的に指定できることで、より直感的な画像編集が可能になるとしている。</p>
+<h2>Firefly Image EditorにもAI編集機能を追加</h2>
+<p>今回の発表では、Adobeの生成AIツール「Firefly Image Editor」にも複数の編集機能が追加された。</p>
+<p>追加された主な機能は次の通り。
+・Generative Fill（生成塗りつぶし）
+・Generative Remove（不要物削除）
+・Generative Expand（画像拡張）
+・Generative Upscale（高解像度化）
+・Remove Background（背景削除）</p>
+<p>これらの機能は、AIで生成した画像だけでなく、ユーザーがアップロードした画像の編集にも利用できる。Adobeは、構図の調整やスタイル変更、細部の修正までを一つの編集環境で行えるようにしたとしている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710.webp" alt="media_10246d176abc34295bac92c4648c3ab9bb740ee6f.webp" /></p>
+<h2>クリエイティブツールの「対話型AI化」を推進</h2>
+<p>Adobeは近年、同社の生成AI「Firefly」をCreative Cloud製品に統合する取り組みを進めている。今回のPhotoshopへのAI Assistant導入は、AcrobatやAdobe Expressなどに続くAI機能の拡張の一環となる。</p>
+<p>同社は、クリエイティブツールにおいてもチャット型インターフェースを取り入れ、ユーザーが対話形式で制作や編集を進められる環境の構築を目指しているとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AmazonとMicrosoft、個人向けヘルスAIを相次ぎ発表　受診導線と健康データ統合で競争本格化</title>
+      <link>https://ledge.ai/articles/amazon_microsoft_personal_health_ai</link>
+      <description><![CDATA[<p>AmazonとMicrosoftが、個人向けヘルスAIの新機能を相次いで発表した。</p>
+<p>Amazonは2026年3月10日、米国でAmazonサイトとアプリ上で利用できる「<a href="https://www.aboutamazon.com/news/retail/amazon-health-ai-agent-one-medical">Health AI</a>{target=”_blank”}」を投入し、健康に関する質問への回答に加え、One MedicalやAmazon Pharmacyと連携した受診・処方関連の導線を打ち出した。Microsoftは12日、Microsoft AI（MAI）の取り組みとして、まず米国の18歳以上の英語利用者向けに「<a href="https://microsoft.ai/news/introducing-copilot-health/">Copilot Health</a>」を発表し、Copilotを通じた個人向けの健康支援に乗り出した。</p>
+<h2>Amazon、サイトとアプリで「Health AI」を展開</h2>
+<p>Amazonが発表したHealth AIは、Amazonのサイトやアプリから利用できるヘルスAI機能だ。一般的な健康に関する質問への回答に加え、利用者の同意に基づいて健康情報を参照し、より個別化した案内を行う。必要に応じて、Amazon傘下のOne Medicalにつなぎ、受診や継続的なケアにつなげる設計を採る。</p>
+<p>今回の発表では、Prime会員向けの施策も盛り込まれた。Amazonは、Prime会員に対して24時間365日利用できるバーチャルケアへの無料アクセスを提供するとしており、Health AIを入り口としてオンライン診療や医療相談へ進みやすい構成を示した。あわせて、Amazon Pharmacyとも連携し、処方薬に関する導線も整える。</p>
+<p>@<a href="https://www.youtube.com/watch?v=NoxBqhgCfXI">YouTube</a></p>
+<h2>Prime会員向け特典も用意、One Medicalや薬局導線と接続</h2>
+<p>Amazonの発表内容からは、Health AIを単なる健康情報の検索補助ではなく、相談から受診、処方関連の手続きまでを含む一連の行動支援の窓口として位置づける方針が読み取れる。既存のEC基盤、Prime会員基盤、One Medical、Amazon Pharmacyを接続し、医療・健康領域での利用接点を広げる構えだ。</p>
+<h2>Microsoft、「Copilot Health」を発表</h2>
+<p>一方、Microsoftが発表したCopilot Healthは、個人の健康情報をAIで整理・活用することを前面に打ち出したサービスだ。健康記録やウェアラブル機器のデータ、過去の健康履歴などを統合し、利用者が自らの健康状態を把握しやすくすることを狙う。Copilotの中でも、健康情報を扱うための専用領域として提供する方針を示している。</p>
+<h2>健康データ統合を前面に、段階的に提供へ</h2>
+<p>Microsoftは、Copilot Healthを医療専門家による診断や治療の代替ではないと位置づけている。その上で、利用者が自分の健康データを確認し、医療機関との対話や日常的な健康管理に役立てるための支援機能として展開する考えだ。まずは段階的に提供を始めるとしており、個人向けヘルスAIを慎重に立ち上げる姿勢もうかがえる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=61JHf0K1zKc">YouTube</a></p>
+<h2>両社とも個人データを踏まえた支援を志向</h2>
+<p>両社の発表には共通点もある。いずれも、生成AIを健康関連の一般的な質問応答にとどめず、個人データを踏まえた支援へ拡張しようとしている点だ。その一方で、打ち出し方には違いがある。Amazonは、受診や処方更新といった実際の医療行動への接続を重視しているのに対し、Microsoftは、分散しがちな健康データを統合し、利用者の理解を助ける基盤づくりを前面に出している。</p>
+<p>ヘルスAIを巡っては、安全性やプライバシー、医療情報の取り扱いが重要な論点となる。今回の発表でも、両社は医療行為そのものを代替するものではないことや、利用者の同意や保護を前提とする姿勢を示している。今後は、こうした機能が実際にどこまで利用者に浸透するかに加え、既存の医療サービスや保険、薬局との連携がどのように広がるかも焦点になりそうだ。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
+      <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
+<h2>日本の顧客向けサービスに消費税を適用</h2>
+<p>Anthropicは公式サポートページで、日本の顧客に提供するサービスについて、4月1日以降の請求から消費税10%を別途徴収すると通知した。</p>
+<p>対象となるのはClaudeなど同社のAIサービスで、既存の料金プランそのものは変更されない。4月1日以降の請求では、これまでの利用料金に加えて日本の消費税が加算される形となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_support_bff3ae2af4/claude_support_bff3ae2af4.jpg" alt="claude support.jpg" /></p>
+<p>日本では、海外企業が日本の利用者に対して電子サービスを提供する場合でも、消費税の課税対象となる制度が整備されており、Anthropicの今回の措置はこの制度に対応するものとみられる。</p>
+<h2>インボイス制度にも対応</h2>
+<p>Anthropicはまた、日本のインボイス制度に対応するため、適格請求書発行事業者として登録済みであることも明らかにした。企業ユーザーは、Anthropicが発行する適格請求書を利用することで、消費税の仕入税額控除を受けることができる。一方、個人利用者の場合は控除の対象とはならない。</p>
+<p>同社は、4月1日以降に発行される請求書について、日本円で消費税額を明示した形で発行するとしている。</p>
+<h2>海外AIサービスでも税務対応が進む</h2>
+<p>近年、日本では海外企業が提供するクラウドサービスやSaaS、デジタルコンテンツなどについても消費税を課す制度が整備されている。</p>
+<p>海外AIサービスでは、日本の消費税制度への対応がすでに進んでいる。対話型AI「ChatGPT」を提供するOpenAIは、2025年1月から日本の顧客向け請求に消費税10%を適用している。Googleも、Google CloudやGoogle Workspace、Google Adsなど主要サービスで日本の消費税を課す仕組みを整えており、Anthropicの今回の措置も、海外AI事業者による日本市場向け税務対応の流れの一環とみられる。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
+      <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
+      <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
+<p>中国の開発者コミュニティでは、OpenClawでAIエージェントを育てることを「养虾（エビを育てる）」と呼ぶミームが広がっており、SNSなどでも話題になっている。</p>
+<h2>地方政府がOpenClaw導入を補助金で支援</h2>
+<p>地方政府はOpenClaw関連の産業育成を進めている。</p>
+<p>深圳市龍崗区は2026年3月7日、OpenClawを活用したアプリケーションなどの導入支援として、プロジェクト総投資額の40％以内、年間最大200万元の補助制度を提示したことを<a href="https://www.sznews.com/news/content/2026-03/09/content_31969411.htm">深セン新聞</a>などが報じた。また、国内大規模モデルの利用費については実費の30％、年間最大100万元を補助する制度も設けているという。</p>
+<p>江蘇省無錫市でも同月、AI関連の研究開発を支援する政策を<a href="https://www.wuxi.gov.cn/doc/2026/03/10/4742903.shtml">発表</a>した。OpenClawなどのオープンソースツールを活用したAI技術の研究開発について最大500万元を補助するほか、AIオープンソース実験室の設立には最大100万元、AI応用の実証プロジェクトには調達額の20％、上限200万元の補助を行うとしている。</p>
+<p>こうした政策の狙いは、AIエージェントやAIアプリケーションの産業集積を促進することにあるという。</p>
+<h2>市場も反応、関連銘柄が上昇</h2>
+<p>政策支援への期待を背景に、中国の株式市場でも関連銘柄が動いた。</p>
+<p>UCloud Technology、QingCloud Technologies、Hangzhou Shunwang TechnologyなどのAI関連企業の株価が上昇し、OpenClaw関連銘柄として注目を集めている。</p>
+<p>また、中国のクラウド企業もOpenClawの導入環境を整備している。Tencent Cloud、Alibaba Cloud、Baidu AI Cloudなどがクラウド上でOpenClawを簡単に展開できるサービスを提供している。</p>
+<p>深圳では2026年3月上旬、テンセント本社周辺でテンセントクラウドのエンジニアがOpenClaw導入を支援するブースが設けられ、ノートPCを持った開発者やAI愛好家が導入のため列を作る様子も報じられている。</p>
+<p><strong>■ TencentのOpenClaw導入支援イベントの様子</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tencent_ai_openclaw_x_97acadefbe/tencent_ai_openclaw_x_97acadefbe.jpg" alt="tencent ai openclaw x.jpg" /></p>
+<h2>中国当局はセキュリティリスクに警戒</h2>
+<p>一方で中国当局はOpenClawの安全面について警戒を強めている。</p>
+<p>中国国家インターネット応急センター（CNCERT）は2026年3月10日、OpenClawの利用に関するセキュリティ警告を<a href="https://www.news.cn/tech/20260311/6bdfd2fffddf4a7397017d76c6d8306a/c.html">発表</a>し、秘密情報の漏えいや重要データの削除、悪性プラグインの利用、高・中危険度の脆弱性などのリスクを指摘した。</p>
+<p><a href="https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/">Reuters</a>は11日、こうした懸念を背景に、一部の国有企業や政府機関では業務用PCや社内ネットワークに接続された端末へのOpenClaw導入を制限し、既存環境の停止や削除を求める動きが出ていると報じている。</p>
+<h2>テンセント、AIエージェント「WorkBuddy」投入</h2>
+<p>テンセントはAIエージェントツール「<a href="https://www.codebuddy.cn/work/">WorkBuddy</a>」を展開している。</p>
+<p><strong>■ TencentのAIエージェントツール「WorkBuddy」。公式サイトでは「Work Smart, Not Hard」というコンセプトを掲げている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Work_Buddy_fc410060e6/Work_Buddy_fc410060e6.jpg" alt="WorkBuddy.jpg" /></p>
+<p>WorkBuddyは企業向けコミュニケーションツール「企業微信」と連携し、ユーザーの指示に基づいてローカルPC上での資料検索やファイル送信などの作業を実行できるAIツールだ。公式サイトでは「Work Smart, Not Hard（賢く働こう、無理に働くのではなく）」というコンセプトを掲げ、「ダウンロードしてすぐ使える」「設定不要」といった導入の容易さを特徴としている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ラーニング2026/3/18 [WED]NTTドコモソリューションズ、全社員対象の「AI実践レベル判定」開始　AI活用実績を4段階で認定</title>
+      <link>https://ledge.ai/articles/docomo_solutions_ai_practical_level_assessment_launch</link>
+      <description><![CDATA[<p>NTTドコモソリューションズは2026年03月05日、社員のAI活用実績を評価する人材制度「AI実践レベル判定」を1日に開始したと<a href="https://www.nttcom.co.jp/news/pr26030501.html">発表</a>した。対象は全社員で、業務におけるAI活用の成果をもとに4段階で認定する。</p>
+<p>同制度は、AI人材育成の加速と、実務に基づくスキルの可視化を目的として導入された。従来の研修受講や資格取得の有無ではなく、業務やプロジェクトにおいてAIをどのように活用し、どのような成果を上げたかを評価対象とする点が特徴だ。</p>
+<p>認定は4段階で構成される。WhiteBeltは、手順やルールに従ってAIを活用できる基礎レベル、YellowBeltは日常業務で自律的にAIを使いこなす層、GreenBeltは自担当業務においてAI活用による効率化や価値向上を実現し、環境整備やモデル実装にも関与できる層とされる。最上位のBlackBeltは、全社的な業務変革を牽引し、知見の展開や人材育成も担う指導的な役割を担う。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pr26030301_1_d2c4edd318/pr26030301_1_d2c4edd318.jpg" alt="pr26030301_1.jpg" /></p>
+<p>評価のプロセスでは、社員が自身の実績やスキルを申請し、AIエージェントが業務データをもとに書類審査を行う。その後、認定レベルを判定し、認定証を付与するとともに社内で可視化する仕組みとなっている。申請から判定までは約2週間としている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pr26030301_2_bc4a2671fc/pr26030301_2_bc4a2671fc.jpg" alt="pr26030301_2.jpg" /></p>
+<p>同社は、2027年度末までにGreenBelt以上の認定者を400人規模に拡大することを目標に掲げる。AIの活用が業務の前提となる中で、実務において価値を生み出せる人材を組織的に育成・評価する体制の構築を進める。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>富士通、日本初の防衛テックアクセラレータ開始　防衛用マルチAIエージェント開発で共創パートナー募集</title>
+      <link>https://ledge.ai/articles/fujitsu_defense_tech_accelerator_multi_ai_agent_program_launch</link>
+      <description><![CDATA[<p>富士通は3月10日、日本初の防衛テック・オープンイノベーションプログラム「Fujitsu Accelerator Program for Defense Tech」を開始したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/03/10-01">発表</a>した。防衛装備庁から受注した委託研究を背景に、防衛用マルチAIエージェントの開発を加速するため、スタートアップなど外部パートナーの募集を始めた。募集期間は3月10日から4月10日まで。</p>
+<h2>日本初の防衛テックアクセラレータを開始</h2>
+<p>今回開始された「Fujitsu Accelerator Program for Defense Tech」は、防衛分野に特化した日本初のアクセラレータプログラムと位置付けられる。富士通は、スタートアップやベンチャー企業などと共創することで、防衛領域における技術開発の高度化とスピード向上を図る。</p>
+<p>同プログラムでは、外部の技術やアイデアを取り込みながら、従来の企業単独では難しい革新的な技術開発を目指す。防衛分野においてもオープンイノベーションの手法を取り入れることで、新たな価値創出につなげる狙いがある。</p>
+<h2>防衛用マルチAIエージェントの開発を推進</h2>
+<p>プログラムの背景には、防衛装備庁 防衛イノベーション科学技術研究所から受注した委託研究がある。富士通は、防衛用途におけるマルチAIエージェント技術の研究開発を進めている。</p>
+<p>マルチAIエージェントは、複数のAIが連携して情報収集や分析を行い、意思決定を支援する技術である。これにより、指揮官の判断を支援するとともに、現場における隊員の負担軽減や省力化を実現することが期待されている。</p>
+<p>富士通はこうした技術を通じて、防衛分野における「AI幕僚能力」の実現を目指すとしている。</p>
+<h2>4月10日までパートナーを募集</h2>
+<p>プログラムの募集期間は3月10日から4月10日まで。応募企業を対象に5月下旬にピッチイベントを実施し、6月下旬に採択企業を決定する予定だ。</p>
+<p>採択された企業には、マルチAIエージェントの開発に関する費用が提供されるほか、富士通との共同開発を通じて、防衛分野への技術適用の機会が与えられる。</p>
+<p>富士通は、防衛と民生の両方に活用可能な「デュアルユース」の考え方も踏まえ、民間の先端技術を防衛領域に取り込むことで、技術革新の加速を図るとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>人とロボットが共創する次世代産業のリアル ー 「GENEX #2」開催レポート</title>
+      <link>https://ledge.ai/articles/genex_robotics_report</link>
+      <description><![CDATA[<p>現在、日本の産業界は物流、警備、点検、施設管理といった主要セクターにおいて、未曾有の人手不足という構造的欠陥に直面している。この危機を回避するための戦略的切り札として、現場の「ロボティクスによる自律化」が加速している。かつてロボットは、単純作業を繰り返すだけの「自動化ツール」に過ぎなかった。しかし、生成AIと物理世界の高度な融合により、ロボットは今、自ら環境を理解し、判断し、行動する知能体へと進化を遂げている。
+本イベント「GENEX - Robotics」の核心は、このフィジカルなテクノロジーがいかにして現場の制約を突破し、次世代の創造性を引き出すかという点にある。本記事では、当日の各セッションの内容を紹介する。
+なお、本イベントの模様は期間限定でアーカイブ配信を実施している。
+セッションをご覧になりたい方は、以下より視聴が可能だ。</p>
+<p>:::button
+<a href="https://forms.zohopublic.com/ledgeai/form/GENEX21/formperma/2WyVfHvwQgyKjFfVWZOt8_P8qT_o9sScoaO3-zT_sjA">アーカイブ動画を視聴する</a>{target=_blank}
+:::</p>
+<h2>物理世界を理解し自律する知能の誕生（ｕｇｏ株式会社）</h2>
+<p>AIトレンドは、統計的予測のデジタル世界から、現実世界を直接理解して行動へと昇華させる「フィジカルAI」へとシフトしている。ｕｇｏ株式会社 代表取締役CEOの松井健氏が提唱するように、従来の生成AIが情報の海から「次の言葉」を導き出すのに対し、フィジカルAIは画像や身体の動き、触覚といったマルチモーダルな情報を学習し、物理空間における「次の行動」を自律的に生成する。</p>
+<h3>技術的パラダイムシフト：二層の知能モデル</h3>
+<p>フィジカルAIのアーキテクチャは、人間の脳になぞらえた二つの計算系に集約される。</p>
+<ul>
+<li><strong>システム1（小脳/直感的制御）：</strong> VLA（Vision Language Action）モデルを用い、リアルタイムでの身体制御や高速な反応を司る。</li>
+<li><strong>システム2（大脳/論理的推論）：</strong> 大規模言語モデル（LLM）やVLM（Vision Language Model）をベースに、状況の文脈（コンテキスト）を深く理解し、長期的な行動計画（Long-horizon tasks）を立案する。さらに、物理法則や因果関係をシミュレートする「ワールドモデル（世界モデル）」の進化が、現実世界でのデータ収集の困難さを克服する。仮想空間で生成された膨大な学習データを活用することで、Sim-to-Real Gap（シミュレーションと現実の乖離）を埋めるアプローチが加速している。特筆すべきは、ロボティクスにおいても「学習量と性能が相関する」というスケーリング則が適用され始めている点だ。推論コストがこの2年間で30分の1から50分の1へと低下したという事実は、高機能な自律知能の社会実装を経済的に正当化する強力な根拠となる。</li>
+</ul>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ugo_5f5c57501b/ugo_5f5c57501b.png" alt="ugo.png" /></p>
+<p>ugo Pro（警備）やugo mini（点検）の事例は、フィジカルAIが単なる労働代替を超えた価値を生むことを証明している。</p>
+<ul>
+<li><strong>経済的インパクト：</strong> 国内で年間8,000億円に達する万引き被害に対し、ugoを商業施設に導入した結果、前月比80%もの被害削減に成功した事例がある。これはAIによる監視・抑止能力が直接的な利益貢献に直結することを示唆している。</li>
+<li><strong>多能工化の実現：</strong> 文脈を理解するAIにより、1台のロボットが警備、案内、軽作業を時間帯ごとに使い分けることが可能となった。この「多能工化」は、特定の用途に縛られない資産運用効率をもたらし、投資対効果（ROI）を劇的に向上させる。技術がロボットに「脳」を与える一方で、それを現場で真の「戦力」として定着させるためには、ハードウェアの枠組みを超えた「運用の型」が不可欠となる。</li>
+</ul>
+<h2>ROIを最大化させる「現場・本部・ベンダー」三位一体の運用論（株式会社DFA Robotics）</h2>
+<p>ロボティクス導入の成否を分けるのは、もはや「どのハードウェアを選ぶか」という選択ではない。ハードウェアのコモディティ化（標準化）が進む中で、差別化の源泉は「運用の知能化」へと移行している。株式会社DFA Roboticsが指摘するように、B2B領域で求められるのは\</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Wiz買収を完了　過去最大の320億ドル買収でクラウド・AIセキュリティ強化</title>
+      <link>https://ledge.ai/articles/google_wiz_acquisition_completed_cloud_ai_security</link>
+      <description><![CDATA[<p>Googleは2026年3月11日（米国時間）、クラウドセキュリティ企業Wizの買収を完了したと<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/">発表</a>した。Googleが2025年3月に発表していた320億ドル（約4.7兆円）規模の買収で、同社にとって過去最大の買収案件となる。Wizは今後Google Cloudに参加するが、ブランドは維持され、AWSやMicrosoft Azureなど他クラウド環境でも引き続き利用可能となる。</p>
+<h2>Google、Wiz買収を正式完了</h2>
+<p>今回の買収は、Googleが2025年3月に合意を発表していたもの。約1年にわたる手続きを経て、2026年3月11日に取引が正式に完了した。</p>
+<p>Wizはイスラエル発のクラウドセキュリティ企業で、マルチクラウド環境の脆弱性を横断的に可視化し、リスクを検出するプラットフォームを提供している。企業がAWS、Microsoft Azure、Google Cloudなど複数のクラウドサービスを同時に利用するケースが増える中、セキュリティ管理を一元化できるツールとして急成長してきた。</p>
+<p>Googleによると、Wizは今後Google Cloudの一部として運営されるが、既存の顧客やパートナーとの関係は維持される。AWS、Azure、Oracle Cloudなど他のクラウド環境への対応も継続するという。</p>
+<h2>AI時代のクラウド利用拡大に対応</h2>
+<p>Googleは、AIの普及によってクラウドインフラの利用が急速に拡大し、セキュリティの重要性も高まっていると説明している。Googleによると、統合後のプラットフォームでは、AIを用いた新たな攻撃の検知、AIモデル自体の保護、さらにAIを活用した脅威分析などを通じて、企業がクラウド環境でのサイバー脅威により迅速に対応できるようにするという。</p>
+<p>企業は複数のクラウドや開発環境を横断してAIシステムを運用するようになり、脆弱性管理や設定ミスの検知などのセキュリティ対策がより複雑になっている。</p>
+<p>こうした状況を背景に、GoogleはWizの技術を取り込み、クラウド環境全体を対象としたセキュリティ機能を強化する方針だ。Google CloudのセキュリティサービスとWizのプラットフォームを組み合わせることで、AIを含むクラウドワークロードの保護を強化する狙いがある。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>日立、日本企業初で「Agentic AI標準化」に参画　AAIFにゴールドメンバーとして加入</title>
+      <link>https://ledge.ai/articles/hitachi_agentic_ai_standardization_aaif_gold_member_join</link>
+      <description><![CDATA[<p>日立製作所は2026年3月10日、日本企業として初めて、The Linux Foundation傘下の「Agentic AI Foundation（AAIF）」にゴールドメンバーとして加入したと<a href="https://www.hitachi.co.jp/products/it/oss/news/20260310.pdf">発表</a>した。AIエージェントの活用が広がる中、データやアプリケーションへのアクセス権限管理の標準化と実用化を推進する。</p>
+<h2>AIエージェント時代の課題、権限管理の標準化へ</h2>
+<p>AAIFは、AIエージェントの透明性や相互運用性、安全性の確保を目的とした国際的な団体で、オープンな標準の策定を進めている。日立はゴールドメンバーとして、同団体の中核プロジェクトに参画し、標準化活動に関与する立場となる。</p>
+<p>今回の参画において日立は、AIエージェントがデータやアプリケーションへアクセスする際の認証・認可の仕組みに着目する。AAIFの中核プロジェクトであるMCP（Model Context Protocol）などを通じて、アクセス権限管理の標準化および実用化を支援する方針だ。</p>
+<p>AIエージェントの活用が進むにつれ、複数のシステムやデータを横断的に扱うケースが増加している。一方で、意図しないデータ流出や認証情報の改ざんといったリスクも指摘されており、アクセス権限の適切な制御が重要な課題となっている。</p>
+<h2>標準化の成果を「HMAX」に展開、社会インフラへ接続</h2>
+<p>日立はこれまでにも、認証基盤ソフトウェア「Keycloak」などのオープンソースプロジェクトに参画し、ID管理やアクセス制御の分野で技術開発を進めてきた。今回のAAIFへの参画は、これらの取り組みをAIエージェント領域へ拡張する位置づけとなる。</p>
+<p>同社は、今回の標準化活動の成果を、フィジカルAIやAgentic AIを活用した次世代ソリューション群「HMAX by Hitachi」にも適用する方針を示した。社会インフラ分野では、現場から経営レベルまでの意思決定をAIが支援するユースケースが拡大しており、その前提として安全なデータアクセスと権限管理の確立が不可欠となる。</p>
+<p>日立は、AAIFでの活動を通じてAIエージェントの安全な活用基盤の構築を進めるとともに、社会インフラの効率化と高度化への貢献を目指すとしている。</p>
+<p>:::box
+<a href="https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate">関連記事：政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</a></p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>米Luma AI、次世代型画像生成モデル「Uni-1」発表　理解と生成を統合、推論性能でもNano Banana 2など上回る</title>
+      <link>https://ledge.ai/articles/luma_uni_1_unified_image_generation_model</link>
+      <description><![CDATA[<p>Luma AIは2026年3月6日（現地時間）、理解能力と生成能力を単一モデルに統合した次世代型画像生成モデル「Uni-1」を<a href="https://lumalabs.ai/uni-1">発表</a>した。Uni-1は、画像を生成するだけでなく、指示内容の理解や推論を同じモデルの中で扱う設計を採用している点が特徴だ。同社は、理解と生成を統合する「Unified Intelligence（統合知能）」への第一歩と位置づけている。</p>
+<h2>理解と生成を一体で扱う新モデル</h2>
+<p>Uni-1は、自己回帰型Transformer（文脈を踏まえながら順番に出力を組み立てる方式）を採用し、文章と画像を単一の系列として処理する。これにより、指示内容を理解して推論する処理と画像生成を一体で進められるという。</p>
+<p>Luma AIは、こうした構造によって、AIが単に見栄えのよい画像を作るだけでなく、指示に含まれる要素同士の関係や場面の流れを踏まえながら画像を生成できるとしている。発表では、時間的な前後関係や空間的な配置、論理的な整合性といった要素を同時に扱える点を訴求した。</p>
+<h2>推論性能を測る比較で既存モデルを上回る結果</h2>
+<p>Luma AIは、画像生成モデルの推論能力を測るベンチマーク「RISEBench」の結果も公開した。これは、因果関係、空間理解、時間理解、論理推論などを評価するもので、複雑な指示にどこまで整合的に応えられるかを見る指標として使われている。</p>
+<p><strong>■ 図：画像生成モデルの推論性能を比較したRISEBench。Uni-1はNano Banana 2やGPT Image 1.5などを総合スコアで上回る結果を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rise_bench_chart_1600_98bcf32d80/rise_bench_chart_1600_98bcf32d80.jpg" alt="rise-bench-chart-1600.jpg" /></p>
+<p>公開されたグラフでは、Uni-1の総合スコアは0.51となり、Nano Banana 2やGPT Image 1.5などを上回った。項目別では、因果理解や空間理解でも高い値を示しており、Luma AIは、画像生成の品質だけでなく、指示内容を踏まえて場面を組み立てる力でも優位性があるとアピールしている。</p>
+<h2>同一条件での生成比較も公開</h2>
+<p>Luma AIは、複数の画像生成モデルに同じ条件で指示を与えた比較例も公開した。会議室の中で猫がスライドを使って発表し、それを別の猫と人間が見ている場面など、複数の主体と役割を含むプロンプトで比較したもので、構図の整合性や場面理解の違いが分かる内容になっている。</p>
+<p><strong>■ 図：同一プロンプトで生成した画像の比較。Uni-1、Nano Bananaシリーズ、GPT Image 1.5などの出力を並べた例</strong></p>
+<p><strong>左）プロンプト：参照画像の２匹の猫を、会議室の場面に合成。１匹がLumaAIのスライドを発表し、もう１匹が観察する。参照画像の２名の男性も座ってプレゼンに反応している／右）Uni-1の出力結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odai_side_04b39b7159/odai_side_04b39b7159.jpg" alt="odai-side.jpg" />
+<strong>左）NanoBanana／右）NanoBanana2</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NB_side_34f0efce00/NB_side_34f0efce00.jpg" alt="NB-side.jpg" />
+<strong>左）NanoBanana Pro／右）GPT Image1.5</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NBP_side_cc1367e4c9/NBP_side_cc1367e4c9.jpg" alt="NBP-side.jpg" /></p>
+<p>こうした比較例では、Uni-1は登場人物や動物の配置、発表と観察という役割の違い、室内の構図などを比較的自然に表現している。Luma AIは、こうした結果を、理解と生成を一体で扱う設計の成果として位置づけている。</p>
+<h2>生成能力が視覚理解の向上にもつながると説明</h2>
+<p>同社はさらに、画像生成の能力を持つことが、視覚理解そのものの向上にもつながるとの考えを示している。これを示す例として、物体検出ベンチマーク「ODinW Dense Detection」の結果も公開した。</p>
+<p><strong>■ 図：ODinW Dense Detection Accuracy。Uni-1のフルモデルは、理解専用モデルを上回る精度を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odinw_chart_1600_37f37799a7/odinw_chart_1600_37f37799a7.jpg" alt="odinw-chart-1600.jpg" /></p>
+<p>公開資料では、理解専用モデルのスコアが43.9だったのに対し、Uni-1のフルモデルは46.2を記録した。Luma AIはこの結果について、画像を生成するための学習が、物体や配置、場面を細かく見分ける力の向上にも寄与している可能性があるとしている。</p>
+<h2>「Unified Intelligence」への第一歩</h2>
+<p>Luma AIは、Uni-1を単なる新しい画像生成モデルではなく、理解と生成の境界をまたぐモデルとして打ち出している。発表では、画像生成に加えて、世界知識や文化的文脈、複数ターンでの調整といった要素にも言及しており、より広いマルチモーダルAIへつながる基盤として位置づけた。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Manus、AIエージェントをデスクトップ化　ローカルPC上でファイルやアプリを直接操作可能に</title>
+      <link>https://ledge.ai/articles/manus_ai_agent_desktop_local_execution_release</link>
+      <description><![CDATA[<p>Meta傘下のAIスタートアップManusは2026年3月16日、AIエージェント「Manus」をローカル環境で動作させる新機能「My Computer」を<a href="https://manus.im/ja/blog/manus-my-computer-desktop">発表</a>した。これにより、従来はクラウド上で動作していたManusが、ユーザーのPC上のファイルやアプリケーションに直接アクセスし、操作できるようになった。対応OSはmacOSおよびWindowsで、同日から提供を開始している。</p>
+<h2>クラウドからローカルへ、AIエージェントの動作領域を拡張</h2>
+<p>これまでManusは、クラウド上のサンドボックス環境で動作するAIエージェントとして提供されてきた。ネットワーク、コマンドライン、ファイルシステム、ブラウザといった機能を備え、常時オンラインでタスクを実行できる点が特徴だった。</p>
+<p>一方で、実際の業務において重要なファイルや開発環境はローカルPC上に存在するという制約があった。今回の「My Computer」はこのギャップを埋めるもので、Manusをユーザーのコンピュータ上に拡張し、ローカルファイルやツール、アプリケーションと直接連携できるようにする。</p>
+<p>Desktopアプリを通じて、ManusはPCのターミナル上でコマンドライン（CLI）を実行し、ファイルの読み取り、分析、編集、さらにはローカルアプリの起動や制御まで行うことが可能となる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=xtjbiY-tJKk">YouTube</a></p>
+<h2>ファイル整理からアプリ開発まで、ローカル作業を自動化</h2>
+<p>公式ブログでは、具体的な活用例として、ローカル作業の自動化が示されている。</p>
+<p>例えば、大量の写真が未整理のまま保存されている場合、「写真を整理して」と指示するだけで、Manusが画像内容を解析し、カテゴリごとにフォルダを作成して自動分類する。また、請求書ファイルのリネームといった反復的な作業も、コマンドライン操作によって短時間で完了できるとしている。</p>
+<p><strong>■ 写真フォルダを自動分類する例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065.webp" alt="9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69.webp" /></p>
+<p>さらに、PythonやNode.js、Swift、Xcodeといった開発ツールを活用することで、アプリケーション開発にも対応する。実際の事例として、Mac上でSwiftを用いたリアルタイム会議翻訳・字幕アプリを構築したケースが紹介されており、プロジェクト作成からコーディング、デバッグ、パッケージ化までをすべてManusが処理したという。</p>
+<p>このように、ローカル環境へのアクセスにより、ファイル管理にとどまらず、ソフトウェア開発やスクリプト作成、Webサイト構築など、より高度なワークフローの自動化が可能になるとしている。</p>
+<h2>ローカルGPU活用や遠隔操作も可能に、ユーザー承認で制御</h2>
+<p>「My Computer」は、ローカルの計算資源の活用も想定している。PCに搭載されたGPUを用いた機械学習モデルのトレーニングや、大規模言語モデルの推論処理をローカルで実行できるほか、常時稼働しているPCを遠隔から操作するAIエージェントとして利用することも可能とされている。</p>
+<p>例えば、外出先からスマートフォンで指示を出し、自宅のPC上でManusがタスクを実行する、といった使い方が想定されている。クラウドとローカルを横断して処理を行うことで、両者を組み合わせた新しいワークフローを実現する。</p>
+<p>また、Google CalendarやGmailなどのクラウドサービスとの連携機能も既に備えており、ローカルファイルを取得してメール送信するといった処理も一貫して実行できる。</p>
+<p>一方で、ローカル環境へのアクセスに伴う安全性にも配慮している。すべてのコマンド実行にはユーザーの明示的な承認が必要で、「常に許可」または「一度だけ許可」を選択できる仕組みを採用。ユーザーが主導権を持ち、Manusが実行するという関係を維持する設計としている。</p>
+<p><strong>■ ローカルフォルダの選択と権限付与の流れ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730.webp" alt="c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287.webp" /></p>
+<p>Manusは、AIエージェントを単なるチャットツールではなく「行動エンジン」と位置付けており、今回のデスクトップ対応により、クラウドとローカルを統合した実行基盤としての機能強化を図るとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
       <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
       <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
@@ -47,6 +311,68 @@
 <h2>Frontier programで段階的に提供</h2>
 <p>Copilot Coworkは現在、研究プレビューとして一部のユーザー向けに提供されている。Microsoftは、2026年3月下旬から「Microsoft 365 Frontier program」を通じて、より広いユーザーに提供を拡大する予定としている。</p>
 <p>同社は、Microsoft 365 Copilotを単なるAIチャットから業務を実行するAIへと進化させる取り組みを進めており、Copilot Coworkはその方向性を示す機能の一つと位置付けられている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、AIセキュリティ企業「Promptfoo」を買収　Fortune 500の25％以上が利用するLLMテストツール</title>
+      <link>https://ledge.ai/articles/openai_promptfoo_acquisition_ai_security_llm_testing</link>
+      <description><![CDATA[<p>OpenAIは2026年3月9日、AIセキュリティスタートアップのPromptfooを買収すると<a href="https://openai.com/index/openai-to-acquire-promptfoo/">発表</a>した。Promptfooは2024年創業の企業で、大規模言語モデル（LLM）を使ったアプリケーションの評価やセキュリティテストを行うツールを提供している。買収額などの条件は公表されていない。</p>
+<h2>LLMアプリの評価・セキュリティテストツールを開発</h2>
+<p>Promptfooは、LLMを利用したアプリケーションの品質評価や安全性検証を行うツールを開発している企業。企業が生成AIシステムを導入する際のテストや監査に利用されている。</p>
+<p>主な機能として、AIの回答品質を評価する「LLM evaluation」、プロンプト攻撃やデータ漏えいのリスクを検出するセキュリティテスト、AIシステムの脆弱性を調べるレッドチーミングなどを備える。</p>
+<p>同社はCLIツールやライブラリをオープンソースとして公開しており、開発者が自社のAIアプリケーションを自動テストできる環境を提供している。生成AIの企業利用が広がるなか、AIの出力品質や安全性を検証するツールとして利用が拡大している。</p>
+<p>Promptfooによると、同社のツールは35万人以上の開発者に利用されており、月間アクティブユーザーは13万人以上にのぼる。また、Fortune 500企業の25％以上のチームが同ツールを導入しているという。</p>
+<h2>OpenAIの企業向けAI基盤に統合へ</h2>
+<p>OpenAIは今回の買収により、Promptfooの評価およびセキュリティテスト技術を、同社の企業向けAI基盤に統合する方針を示している。企業が生成AIを業務に導入する際、モデルの性能評価や安全性検証を自動化する仕組みを強化する狙いがある。</p>
+<p>PromptfooのチームはOpenAIに加わる予定だが、同社が公開しているオープンソースプロジェクトは継続される予定だという。Promptfooは<a href="https://www.promptfoo.dev/blog/promptfoo-joining-openai/">公式ブログ</a>で「OpenAIの一員となることで、AIの安全性評価とテストをさらに前進させる」とコメントしている。</p>
+<p>生成AIの企業導入が進むなか、AIの能力そのものだけでなく、安全性や信頼性を検証するためのツールや基盤の重要性も高まっている。今回の買収は、企業向けAIの運用やガバナンスを支える技術基盤の強化を目的とした動きとみられる。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>パナソニックHD、シンガポール開発拠点の視覚検査向けAIプラットフォームをグローバル展開　初のライセンス提供</title>
+      <link>https://ledge.ai/articles/panasonic_visual_inspection_ai_global_licensing</link>
+      <description><![CDATA[<p>パナソニック ホールディングスは2026年3月13日、シンガポールの研究開発拠点であるパナソニックR&amp;Dセンターシンガポールが開発した視覚検査向けAIプラットフォームについて、グローバルでのライセンス提供を開始すると<a href="https://news.panasonic.com/jp/press/jn260313-1">発表</a>した。同社が同拠点発の技術・ソリューションを外部にライセンス提供するのは初めてとなる。</p>
+<p>同プラットフォームは、AIによる画像解析を活用し、インフラ点検や建設工事の品質検査、工場・プラントの安全管理、生産ラインの品質検査など、現場における視覚検査業務の高度化・効率化を支援するもの。データの収集・管理から、AIモデルの学習、検証、導入、レポート生成、運用監視までを一体的に提供し、検査業務のデジタル化を包括的に支える。</p>
+<p>また、クラウド、オンプレミス、ハイブリッドといった複数の環境に対応し、機密性の高いデータを扱う現場でも柔軟に導入できる設計としている。ドローンや監視カメラ（CCTV）、ロボット、産業用PCなど多様なデバイスと連携可能で、建設、インフラ、製造、スマートシティ分野など幅広い用途での活用を想定する。</p>
+<p>同プラットフォームは、実運用を通じて開発・改善が進められてきた点も特徴の一つだ。シンガポールでは、ドローンを用いた建築物の外壁点検ソリューションなどに採用されており、1000棟以上の建物検査に活用された実績がある。検査データの信頼性確保のため、ブロックチェーン技術を活用したデータ管理にも対応している。</p>
+<p>今後は、建設・インフラ、製造、公共、物流などの分野において、国内外のパートナー企業との連携を通じて展開を拡大する方針。パナソニックHDは、現場の省人化や安全性向上、品質と生産性の両立に貢献するとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共2026/3/17 [TUE]Sakana AI、防衛装備庁のAI研究を受託　複数AIを組み合わせ意思決定プロセスを高速化</title>
+      <link>https://ledge.ai/articles/sakana_ai_atla_multi_ai_decision_research</link>
+      <description><![CDATA[<p>AI研究開発企業のSakana AIは2026年3月、防衛装備庁の研究機関である防衛イノベーション科学技術研究所（DISI）から、「複数AI技術の組み合わせによる観測・報告・情報統合・資源配分 高速化の研究」を受託したと<a href="https://sakana.ai/atla-contract-2026/">発表</a>した。複数のAI技術を組み合わせることで、観測から意思決定に至るまでの情報処理プロセスの高速化を目指す。</p>
+<h2>観測から資源配分までの情報処理をAIで高速化</h2>
+<p>今回の研究は、観測・報告・情報統合・資源配分といった一連のプロセスをAIによって効率化することを目的としている。</p>
+<p>防衛分野では、センサーや各種システムから収集される大量の情報を整理し、状況を把握したうえで意思決定を行う必要がある。しかし、複数の情報源から得られるデータの整理や分析、報告書の作成、資源配分の判断などには時間を要する場合もある。</p>
+<p>Sakana AIは、複数のAI技術を組み合わせることで、こうした情報処理の流れを効率化し、意思決定までのプロセスを高速化することを目指すとしている。</p>
+<h2>複数のAIシステムを組み合わせて高度な分析を実現</h2>
+<p>研究テーマに含まれる主なプロセスは、次の4つである。</p>
+<p>・観測（Observation）
+・報告（Reporting）
+・情報統合（Information Integration）
+・資源配分（Resource Allocation）</p>
+<p>これらのプロセスは、状況認識や意思決定の基盤となる重要な要素であり、AIによるデータ整理や分析、レポート生成などの自動化・効率化が期待される。</p>
+<p>Sakana AIは、複数のAIシステムを組み合わせることで高度な問題解決を行う研究を進めており、今回のプロジェクトでもこうした技術を活用する。AIを組み合わせた情報処理によって、複雑なデータの分析や状況理解を支援する仕組みの開発を進めるとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>桜のつぼみ写真から開花日を予測　ウェザーニューズ、AIで満開日も算出する「桜AI開花予想」</title>
+      <link>https://ledge.ai/articles/sakura_ai_bloom_forecast_weathernews</link>
+      <description><![CDATA[<p>ウェザーニューズは2026年3月10日、桜のつぼみの写真から開花日と満開日を予測するサービス「桜AI開花予想」の提供を開始したことを<a href="https://jp.weathernews.com/news/55258/">発表</a>した。スマートフォンで撮影したつぼみの画像をAIが解析し、桜の成長段階を判定。気象予測データと組み合わせることで、地点ごとの開花日や満開日を推定する。</p>
+<h2>AIがつぼみの状態を解析、開花日を予測</h2>
+<p>「桜AI開花予想」は、スマートフォンで撮影した桜のつぼみの写真をAIが解析し、開花時期を予測するサービスだ。AIはつぼみの状態を解析して成長段階を判定し、気温などの気象予測データと組み合わせることで、開花日と満開日を推定する。</p>
+<p>従来の桜の開花予想は、主に過去の気温データや今後の気象予測をもとに算出されることが多いが、このサービスでは実際のつぼみの状態を画像から読み取ることで、より地点に近い状況を反映した予測が可能になるとしている。</p>
+<p><strong>ウェザーニューズの「桜AI開花予想」画面。つぼみの写真を送信するとAIが解析し、開花日と満開日を予測する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260306_sakura_ai1_side_47e3a34ea5/20260306_sakura_ai1_side_47e3a34ea5.jpg" alt="20260306_sakura_ai1-side.jpg" /></p>
+<h2>全国1400以上の花見スポットに対応</h2>
+<p>このサービスでは、全国1400以上の花見スポットについて開花予想を確認できる。利用者はアプリ上でつぼみの写真を投稿し、その解析結果をもとに開花時期の目安を知ることができる。</p>
+<p>ウェザーニューズはこれまで、利用者から寄せられる桜の観測情報を活用した「さくらプロジェクト」を展開してきた。今回の「桜AI開花予想」では、こうした市民参加型の観測データとAIによる画像解析を組み合わせることで、開花予測の精度向上を目指すとしている。</p>
+<p>同社は今後も、利用者から投稿される桜のつぼみ写真や観測データを活用し、AIモデルの改善や予測精度の向上につなげていく方針としている。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
@@ -200,368 +526,6 @@
 <p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
 ]]></description>
       <pubDate>Sat, 07 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
-      <link>https://ledge.ai/articles/adobe_photoshop_ai_assistant_firefly_image_editing</link>
-      <description><![CDATA[<p>Adobeは2026年3月10日（米国時間）、画像編集ソフト「Photoshop」のWeb版およびモバイル版に新機能「AI Assistant」を導入し、パブリックβ版として<a href="https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly">発表</a>した。ユーザーが自然言語や音声で編集内容を指示できる機能で、同社の生成AI「Firefly」を基盤としている。あわせてFirefly Image Editorでも複数のAI編集機能を追加し、画像生成から編集までをAIで支援する機能強化を打ち出した。</p>
-<h2>自然言語で画像編集を指示できる「AI Assistant」</h2>
-<p>AI Assistantは、Photoshopの操作をAIが支援する機能だ。ユーザーは「不要な人物を削除する」「背景を別の風景に変更する」「明るさを調整する」といった編集内容をテキストや音声で指示でき、AIがそれに応じた操作を実行する。</p>
-<p>AI Assistantは編集を自動で適用するだけでなく、必要な手順を提示してユーザーの操作をサポートすることもできる。Adobeは、学生やデザイナー、マーケティング担当者など幅広いユーザーが、より直感的に画像編集を行えるようになるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Assistant_in_Photoshop_7d945cb33e/AI_Assistant_in_Photoshop_7d945cb33e.jpg" alt="AI Assistant in Photoshop.jpg" /></p>
-<h2>画像上に直接指示を書き込める「AI Markup」</h2>
-<p>Photoshop Web版には、AI Assistantを活用した新機能「AI Markup」も追加された。これは画像上の特定の領域を囲ったり描き込んだりしたうえで、テキストによって編集内容を指示できる機能だ。</p>
-<p>例えば画像の一部を指定し、「ここに花を追加する」「背景を山に変更する」といった指示を与えることで、AIが指定部分の編集を実行する。Adobeは、編集箇所を視覚的に指定できることで、より直感的な画像編集が可能になるとしている。</p>
-<h2>Firefly Image EditorにもAI編集機能を追加</h2>
-<p>今回の発表では、Adobeの生成AIツール「Firefly Image Editor」にも複数の編集機能が追加された。</p>
-<p>追加された主な機能は次の通り。
-・Generative Fill（生成塗りつぶし）
-・Generative Remove（不要物削除）
-・Generative Expand（画像拡張）
-・Generative Upscale（高解像度化）
-・Remove Background（背景削除）</p>
-<p>これらの機能は、AIで生成した画像だけでなく、ユーザーがアップロードした画像の編集にも利用できる。Adobeは、構図の調整やスタイル変更、細部の修正までを一つの編集環境で行えるようにしたとしている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710.webp" alt="media_10246d176abc34295bac92c4648c3ab9bb740ee6f.webp" /></p>
-<h2>クリエイティブツールの「対話型AI化」を推進</h2>
-<p>Adobeは近年、同社の生成AI「Firefly」をCreative Cloud製品に統合する取り組みを進めている。今回のPhotoshopへのAI Assistant導入は、AcrobatやAdobe Expressなどに続くAI機能の拡張の一環となる。</p>
-<p>同社は、クリエイティブツールにおいてもチャット型インターフェースを取り入れ、ユーザーが対話形式で制作や編集を進められる環境の構築を目指しているとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AmazonとMicrosoft、個人向けヘルスAIを相次ぎ発表　受診導線と健康データ統合で競争本格化</title>
-      <link>https://ledge.ai/articles/amazon_microsoft_personal_health_ai</link>
-      <description><![CDATA[<p>AmazonとMicrosoftが、個人向けヘルスAIの新機能を相次いで発表した。</p>
-<p>Amazonは2026年3月10日、米国でAmazonサイトとアプリ上で利用できる「<a href="https://www.aboutamazon.com/news/retail/amazon-health-ai-agent-one-medical">Health AI</a>{target=”_blank”}」を投入し、健康に関する質問への回答に加え、One MedicalやAmazon Pharmacyと連携した受診・処方関連の導線を打ち出した。Microsoftは12日、Microsoft AI（MAI）の取り組みとして、まず米国の18歳以上の英語利用者向けに「<a href="https://microsoft.ai/news/introducing-copilot-health/">Copilot Health</a>」を発表し、Copilotを通じた個人向けの健康支援に乗り出した。</p>
-<h2>Amazon、サイトとアプリで「Health AI」を展開</h2>
-<p>Amazonが発表したHealth AIは、Amazonのサイトやアプリから利用できるヘルスAI機能だ。一般的な健康に関する質問への回答に加え、利用者の同意に基づいて健康情報を参照し、より個別化した案内を行う。必要に応じて、Amazon傘下のOne Medicalにつなぎ、受診や継続的なケアにつなげる設計を採る。</p>
-<p>今回の発表では、Prime会員向けの施策も盛り込まれた。Amazonは、Prime会員に対して24時間365日利用できるバーチャルケアへの無料アクセスを提供するとしており、Health AIを入り口としてオンライン診療や医療相談へ進みやすい構成を示した。あわせて、Amazon Pharmacyとも連携し、処方薬に関する導線も整える。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NoxBqhgCfXI">YouTube</a></p>
-<h2>Prime会員向け特典も用意、One Medicalや薬局導線と接続</h2>
-<p>Amazonの発表内容からは、Health AIを単なる健康情報の検索補助ではなく、相談から受診、処方関連の手続きまでを含む一連の行動支援の窓口として位置づける方針が読み取れる。既存のEC基盤、Prime会員基盤、One Medical、Amazon Pharmacyを接続し、医療・健康領域での利用接点を広げる構えだ。</p>
-<h2>Microsoft、「Copilot Health」を発表</h2>
-<p>一方、Microsoftが発表したCopilot Healthは、個人の健康情報をAIで整理・活用することを前面に打ち出したサービスだ。健康記録やウェアラブル機器のデータ、過去の健康履歴などを統合し、利用者が自らの健康状態を把握しやすくすることを狙う。Copilotの中でも、健康情報を扱うための専用領域として提供する方針を示している。</p>
-<h2>健康データ統合を前面に、段階的に提供へ</h2>
-<p>Microsoftは、Copilot Healthを医療専門家による診断や治療の代替ではないと位置づけている。その上で、利用者が自分の健康データを確認し、医療機関との対話や日常的な健康管理に役立てるための支援機能として展開する考えだ。まずは段階的に提供を始めるとしており、個人向けヘルスAIを慎重に立ち上げる姿勢もうかがえる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=61JHf0K1zKc">YouTube</a></p>
-<h2>両社とも個人データを踏まえた支援を志向</h2>
-<p>両社の発表には共通点もある。いずれも、生成AIを健康関連の一般的な質問応答にとどめず、個人データを踏まえた支援へ拡張しようとしている点だ。その一方で、打ち出し方には違いがある。Amazonは、受診や処方更新といった実際の医療行動への接続を重視しているのに対し、Microsoftは、分散しがちな健康データを統合し、利用者の理解を助ける基盤づくりを前面に出している。</p>
-<p>ヘルスAIを巡っては、安全性やプライバシー、医療情報の取り扱いが重要な論点となる。今回の発表でも、両社は医療行為そのものを代替するものではないことや、利用者の同意や保護を前提とする姿勢を示している。今後は、こうした機能が実際にどこまで利用者に浸透するかに加え、既存の医療サービスや保険、薬局との連携がどのように広がるかも焦点になりそうだ。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
-      <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
-<h2>日本の顧客向けサービスに消費税を適用</h2>
-<p>Anthropicは公式サポートページで、日本の顧客に提供するサービスについて、4月1日以降の請求から消費税10%を別途徴収すると通知した。</p>
-<p>対象となるのはClaudeなど同社のAIサービスで、既存の料金プランそのものは変更されない。4月1日以降の請求では、これまでの利用料金に加えて日本の消費税が加算される形となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_support_bff3ae2af4/claude_support_bff3ae2af4.jpg" alt="claude support.jpg" /></p>
-<p>日本では、海外企業が日本の利用者に対して電子サービスを提供する場合でも、消費税の課税対象となる制度が整備されており、Anthropicの今回の措置はこの制度に対応するものとみられる。</p>
-<h2>インボイス制度にも対応</h2>
-<p>Anthropicはまた、日本のインボイス制度に対応するため、適格請求書発行事業者として登録済みであることも明らかにした。企業ユーザーは、Anthropicが発行する適格請求書を利用することで、消費税の仕入税額控除を受けることができる。一方、個人利用者の場合は控除の対象とはならない。</p>
-<p>同社は、4月1日以降に発行される請求書について、日本円で消費税額を明示した形で発行するとしている。</p>
-<h2>海外AIサービスでも税務対応が進む</h2>
-<p>近年、日本では海外企業が提供するクラウドサービスやSaaS、デジタルコンテンツなどについても消費税を課す制度が整備されている。</p>
-<p>海外AIサービスでは、日本の消費税制度への対応がすでに進んでいる。対話型AI「ChatGPT」を提供するOpenAIは、2025年1月から日本の顧客向け請求に消費税10%を適用している。Googleも、Google CloudやGoogle Workspace、Google Adsなど主要サービスで日本の消費税を課す仕組みを整えており、Anthropicの今回の措置も、海外AI事業者による日本市場向け税務対応の流れの一環とみられる。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
-      <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
-      <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
-<p>中国の開発者コミュニティでは、OpenClawでAIエージェントを育てることを「养虾（エビを育てる）」と呼ぶミームが広がっており、SNSなどでも話題になっている。</p>
-<h2>地方政府がOpenClaw導入を補助金で支援</h2>
-<p>地方政府はOpenClaw関連の産業育成を進めている。</p>
-<p>深圳市龍崗区は2026年3月7日、OpenClawを活用したアプリケーションなどの導入支援として、プロジェクト総投資額の40％以内、年間最大200万元の補助制度を提示したことを<a href="https://www.sznews.com/news/content/2026-03/09/content_31969411.htm">深セン新聞</a>などが報じた。また、国内大規模モデルの利用費については実費の30％、年間最大100万元を補助する制度も設けているという。</p>
-<p>江蘇省無錫市でも同月、AI関連の研究開発を支援する政策を<a href="https://www.wuxi.gov.cn/doc/2026/03/10/4742903.shtml">発表</a>した。OpenClawなどのオープンソースツールを活用したAI技術の研究開発について最大500万元を補助するほか、AIオープンソース実験室の設立には最大100万元、AI応用の実証プロジェクトには調達額の20％、上限200万元の補助を行うとしている。</p>
-<p>こうした政策の狙いは、AIエージェントやAIアプリケーションの産業集積を促進することにあるという。</p>
-<h2>市場も反応、関連銘柄が上昇</h2>
-<p>政策支援への期待を背景に、中国の株式市場でも関連銘柄が動いた。</p>
-<p>UCloud Technology、QingCloud Technologies、Hangzhou Shunwang TechnologyなどのAI関連企業の株価が上昇し、OpenClaw関連銘柄として注目を集めている。</p>
-<p>また、中国のクラウド企業もOpenClawの導入環境を整備している。Tencent Cloud、Alibaba Cloud、Baidu AI Cloudなどがクラウド上でOpenClawを簡単に展開できるサービスを提供している。</p>
-<p>深圳では2026年3月上旬、テンセント本社周辺でテンセントクラウドのエンジニアがOpenClaw導入を支援するブースが設けられ、ノートPCを持った開発者やAI愛好家が導入のため列を作る様子も報じられている。</p>
-<p><strong>■ TencentのOpenClaw導入支援イベントの様子</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tencent_ai_openclaw_x_97acadefbe/tencent_ai_openclaw_x_97acadefbe.jpg" alt="tencent ai openclaw x.jpg" /></p>
-<h2>中国当局はセキュリティリスクに警戒</h2>
-<p>一方で中国当局はOpenClawの安全面について警戒を強めている。</p>
-<p>中国国家インターネット応急センター（CNCERT）は2026年3月10日、OpenClawの利用に関するセキュリティ警告を<a href="https://www.news.cn/tech/20260311/6bdfd2fffddf4a7397017d76c6d8306a/c.html">発表</a>し、秘密情報の漏えいや重要データの削除、悪性プラグインの利用、高・中危険度の脆弱性などのリスクを指摘した。</p>
-<p><a href="https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/">Reuters</a>は11日、こうした懸念を背景に、一部の国有企業や政府機関では業務用PCや社内ネットワークに接続された端末へのOpenClaw導入を制限し、既存環境の停止や削除を求める動きが出ていると報じている。</p>
-<h2>テンセント、AIエージェント「WorkBuddy」投入</h2>
-<p>テンセントはAIエージェントツール「<a href="https://www.codebuddy.cn/work/">WorkBuddy</a>」を展開している。</p>
-<p><strong>■ TencentのAIエージェントツール「WorkBuddy」。公式サイトでは「Work Smart, Not Hard」というコンセプトを掲げている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Work_Buddy_fc410060e6/Work_Buddy_fc410060e6.jpg" alt="WorkBuddy.jpg" /></p>
-<p>WorkBuddyは企業向けコミュニケーションツール「企業微信」と連携し、ユーザーの指示に基づいてローカルPC上での資料検索やファイル送信などの作業を実行できるAIツールだ。公式サイトでは「Work Smart, Not Hard（賢く働こう、無理に働くのではなく）」というコンセプトを掲げ、「ダウンロードしてすぐ使える」「設定不要」といった導入の容易さを特徴としている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ラーニング2026/3/18 [WED]NTTドコモソリューションズ、全社員対象の「AI実践レベル判定」開始　AI活用実績を4段階で認定</title>
-      <link>https://ledge.ai/articles/docomo_solutions_ai_practical_level_assessment_launch</link>
-      <description><![CDATA[<p>NTTドコモソリューションズは2026年03月05日、社員のAI活用実績を評価する人材制度「AI実践レベル判定」を1日に開始したと<a href="https://www.nttcom.co.jp/news/pr26030501.html">発表</a>した。対象は全社員で、業務におけるAI活用の成果をもとに4段階で認定する。</p>
-<p>同制度は、AI人材育成の加速と、実務に基づくスキルの可視化を目的として導入された。従来の研修受講や資格取得の有無ではなく、業務やプロジェクトにおいてAIをどのように活用し、どのような成果を上げたかを評価対象とする点が特徴だ。</p>
-<p>認定は4段階で構成される。WhiteBeltは、手順やルールに従ってAIを活用できる基礎レベル、YellowBeltは日常業務で自律的にAIを使いこなす層、GreenBeltは自担当業務においてAI活用による効率化や価値向上を実現し、環境整備やモデル実装にも関与できる層とされる。最上位のBlackBeltは、全社的な業務変革を牽引し、知見の展開や人材育成も担う指導的な役割を担う。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pr26030301_1_d2c4edd318/pr26030301_1_d2c4edd318.jpg" alt="pr26030301_1.jpg" /></p>
-<p>評価のプロセスでは、社員が自身の実績やスキルを申請し、AIエージェントが業務データをもとに書類審査を行う。その後、認定レベルを判定し、認定証を付与するとともに社内で可視化する仕組みとなっている。申請から判定までは約2週間としている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/pr26030301_2_bc4a2671fc/pr26030301_2_bc4a2671fc.jpg" alt="pr26030301_2.jpg" /></p>
-<p>同社は、2027年度末までにGreenBelt以上の認定者を400人規模に拡大することを目標に掲げる。AIの活用が業務の前提となる中で、実務において価値を生み出せる人材を組織的に育成・評価する体制の構築を進める。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>富士通、日本初の防衛テックアクセラレータ開始　防衛用マルチAIエージェント開発で共創パートナー募集</title>
-      <link>https://ledge.ai/articles/fujitsu_defense_tech_accelerator_multi_ai_agent_program_launch</link>
-      <description><![CDATA[<p>富士通は3月10日、日本初の防衛テック・オープンイノベーションプログラム「Fujitsu Accelerator Program for Defense Tech」を開始したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/03/10-01">発表</a>した。防衛装備庁から受注した委託研究を背景に、防衛用マルチAIエージェントの開発を加速するため、スタートアップなど外部パートナーの募集を始めた。募集期間は3月10日から4月10日まで。</p>
-<h2>日本初の防衛テックアクセラレータを開始</h2>
-<p>今回開始された「Fujitsu Accelerator Program for Defense Tech」は、防衛分野に特化した日本初のアクセラレータプログラムと位置付けられる。富士通は、スタートアップやベンチャー企業などと共創することで、防衛領域における技術開発の高度化とスピード向上を図る。</p>
-<p>同プログラムでは、外部の技術やアイデアを取り込みながら、従来の企業単独では難しい革新的な技術開発を目指す。防衛分野においてもオープンイノベーションの手法を取り入れることで、新たな価値創出につなげる狙いがある。</p>
-<h2>防衛用マルチAIエージェントの開発を推進</h2>
-<p>プログラムの背景には、防衛装備庁 防衛イノベーション科学技術研究所から受注した委託研究がある。富士通は、防衛用途におけるマルチAIエージェント技術の研究開発を進めている。</p>
-<p>マルチAIエージェントは、複数のAIが連携して情報収集や分析を行い、意思決定を支援する技術である。これにより、指揮官の判断を支援するとともに、現場における隊員の負担軽減や省力化を実現することが期待されている。</p>
-<p>富士通はこうした技術を通じて、防衛分野における「AI幕僚能力」の実現を目指すとしている。</p>
-<h2>4月10日までパートナーを募集</h2>
-<p>プログラムの募集期間は3月10日から4月10日まで。応募企業を対象に5月下旬にピッチイベントを実施し、6月下旬に採択企業を決定する予定だ。</p>
-<p>採択された企業には、マルチAIエージェントの開発に関する費用が提供されるほか、富士通との共同開発を通じて、防衛分野への技術適用の機会が与えられる。</p>
-<p>富士通は、防衛と民生の両方に活用可能な「デュアルユース」の考え方も踏まえ、民間の先端技術を防衛領域に取り込むことで、技術革新の加速を図るとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人とロボットが共創する次世代産業のリアル ー 「GENEX #2」開催レポート</title>
-      <link>https://ledge.ai/articles/genex_robotics_report</link>
-      <description><![CDATA[<p>現在、日本の産業界は物流、警備、点検、施設管理といった主要セクターにおいて、未曾有の人手不足という構造的欠陥に直面している。この危機を回避するための戦略的切り札として、現場の「ロボティクスによる自律化」が加速している。かつてロボットは、単純作業を繰り返すだけの「自動化ツール」に過ぎなかった。しかし、生成AIと物理世界の高度な融合により、ロボットは今、自ら環境を理解し、判断し、行動する知能体へと進化を遂げている。
-本イベント「GENEX - Robotics」の核心は、このフィジカルなテクノロジーがいかにして現場の制約を突破し、次世代の創造性を引き出すかという点にある。本記事では、当日の各セッションの内容を紹介する。
-なお、本イベントの模様は期間限定でアーカイブ配信を実施している。
-セッションをご覧になりたい方は、以下より視聴が可能だ。</p>
-<p>:::button
-<a href="https://forms.zohopublic.com/ledgeai/form/GENEX21/formperma/2WyVfHvwQgyKjFfVWZOt8_P8qT_o9sScoaO3-zT_sjA">アーカイブ動画を視聴する</a>{target=_blank}
-:::</p>
-<h2>物理世界を理解し自律する知能の誕生（ｕｇｏ株式会社）</h2>
-<p>AIトレンドは、統計的予測のデジタル世界から、現実世界を直接理解して行動へと昇華させる「フィジカルAI」へとシフトしている。ｕｇｏ株式会社 代表取締役CEOの松井健氏が提唱するように、従来の生成AIが情報の海から「次の言葉」を導き出すのに対し、フィジカルAIは画像や身体の動き、触覚といったマルチモーダルな情報を学習し、物理空間における「次の行動」を自律的に生成する。</p>
-<h3>技術的パラダイムシフト：二層の知能モデル</h3>
-<p>フィジカルAIのアーキテクチャは、人間の脳になぞらえた二つの計算系に集約される。</p>
-<ul>
-<li><strong>システム1（小脳/直感的制御）：</strong> VLA（Vision Language Action）モデルを用い、リアルタイムでの身体制御や高速な反応を司る。</li>
-<li><strong>システム2（大脳/論理的推論）：</strong> 大規模言語モデル（LLM）やVLM（Vision Language Model）をベースに、状況の文脈（コンテキスト）を深く理解し、長期的な行動計画（Long-horizon tasks）を立案する。さらに、物理法則や因果関係をシミュレートする「ワールドモデル（世界モデル）」の進化が、現実世界でのデータ収集の困難さを克服する。仮想空間で生成された膨大な学習データを活用することで、Sim-to-Real Gap（シミュレーションと現実の乖離）を埋めるアプローチが加速している。特筆すべきは、ロボティクスにおいても「学習量と性能が相関する」というスケーリング則が適用され始めている点だ。推論コストがこの2年間で30分の1から50分の1へと低下したという事実は、高機能な自律知能の社会実装を経済的に正当化する強力な根拠となる。</li>
-</ul>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ugo_5f5c57501b/ugo_5f5c57501b.png" alt="ugo.png" /></p>
-<p>ugo Pro（警備）やugo mini（点検）の事例は、フィジカルAIが単なる労働代替を超えた価値を生むことを証明している。</p>
-<ul>
-<li><strong>経済的インパクト：</strong> 国内で年間8,000億円に達する万引き被害に対し、ugoを商業施設に導入した結果、前月比80%もの被害削減に成功した事例がある。これはAIによる監視・抑止能力が直接的な利益貢献に直結することを示唆している。</li>
-<li><strong>多能工化の実現：</strong> 文脈を理解するAIにより、1台のロボットが警備、案内、軽作業を時間帯ごとに使い分けることが可能となった。この「多能工化」は、特定の用途に縛られない資産運用効率をもたらし、投資対効果（ROI）を劇的に向上させる。技術がロボットに「脳」を与える一方で、それを現場で真の「戦力」として定着させるためには、ハードウェアの枠組みを超えた「運用の型」が不可欠となる。</li>
-</ul>
-<h2>ROIを最大化させる「現場・本部・ベンダー」三位一体の運用論（株式会社DFA Robotics）</h2>
-<p>ロボティクス導入の成否を分けるのは、もはや「どのハードウェアを選ぶか」という選択ではない。ハードウェアのコモディティ化（標準化）が進む中で、差別化の源泉は「運用の知能化」へと移行している。株式会社DFA Roboticsが指摘するように、B2B領域で求められるのは\</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Wiz買収を完了　過去最大の320億ドル買収でクラウド・AIセキュリティ強化</title>
-      <link>https://ledge.ai/articles/google_wiz_acquisition_completed_cloud_ai_security</link>
-      <description><![CDATA[<p>Googleは2026年3月11日（米国時間）、クラウドセキュリティ企業Wizの買収を完了したと<a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/wiz-acquisition/">発表</a>した。Googleが2025年3月に発表していた320億ドル（約4.7兆円）規模の買収で、同社にとって過去最大の買収案件となる。Wizは今後Google Cloudに参加するが、ブランドは維持され、AWSやMicrosoft Azureなど他クラウド環境でも引き続き利用可能となる。</p>
-<h2>Google、Wiz買収を正式完了</h2>
-<p>今回の買収は、Googleが2025年3月に合意を発表していたもの。約1年にわたる手続きを経て、2026年3月11日に取引が正式に完了した。</p>
-<p>Wizはイスラエル発のクラウドセキュリティ企業で、マルチクラウド環境の脆弱性を横断的に可視化し、リスクを検出するプラットフォームを提供している。企業がAWS、Microsoft Azure、Google Cloudなど複数のクラウドサービスを同時に利用するケースが増える中、セキュリティ管理を一元化できるツールとして急成長してきた。</p>
-<p>Googleによると、Wizは今後Google Cloudの一部として運営されるが、既存の顧客やパートナーとの関係は維持される。AWS、Azure、Oracle Cloudなど他のクラウド環境への対応も継続するという。</p>
-<h2>AI時代のクラウド利用拡大に対応</h2>
-<p>Googleは、AIの普及によってクラウドインフラの利用が急速に拡大し、セキュリティの重要性も高まっていると説明している。Googleによると、統合後のプラットフォームでは、AIを用いた新たな攻撃の検知、AIモデル自体の保護、さらにAIを活用した脅威分析などを通じて、企業がクラウド環境でのサイバー脅威により迅速に対応できるようにするという。</p>
-<p>企業は複数のクラウドや開発環境を横断してAIシステムを運用するようになり、脆弱性管理や設定ミスの検知などのセキュリティ対策がより複雑になっている。</p>
-<p>こうした状況を背景に、GoogleはWizの技術を取り込み、クラウド環境全体を対象としたセキュリティ機能を強化する方針だ。Google CloudのセキュリティサービスとWizのプラットフォームを組み合わせることで、AIを含むクラウドワークロードの保護を強化する狙いがある。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日立、日本企業初で「Agentic AI標準化」に参画　AAIFにゴールドメンバーとして加入</title>
-      <link>https://ledge.ai/articles/hitachi_agentic_ai_standardization_aaif_gold_member_join</link>
-      <description><![CDATA[<p>日立製作所は2026年3月10日、日本企業として初めて、The Linux Foundation傘下の「Agentic AI Foundation（AAIF）」にゴールドメンバーとして加入したと<a href="https://www.hitachi.co.jp/products/it/oss/news/20260310.pdf">発表</a>した。AIエージェントの活用が広がる中、データやアプリケーションへのアクセス権限管理の標準化と実用化を推進する。</p>
-<h2>AIエージェント時代の課題、権限管理の標準化へ</h2>
-<p>AAIFは、AIエージェントの透明性や相互運用性、安全性の確保を目的とした国際的な団体で、オープンな標準の策定を進めている。日立はゴールドメンバーとして、同団体の中核プロジェクトに参画し、標準化活動に関与する立場となる。</p>
-<p>今回の参画において日立は、AIエージェントがデータやアプリケーションへアクセスする際の認証・認可の仕組みに着目する。AAIFの中核プロジェクトであるMCP（Model Context Protocol）などを通じて、アクセス権限管理の標準化および実用化を支援する方針だ。</p>
-<p>AIエージェントの活用が進むにつれ、複数のシステムやデータを横断的に扱うケースが増加している。一方で、意図しないデータ流出や認証情報の改ざんといったリスクも指摘されており、アクセス権限の適切な制御が重要な課題となっている。</p>
-<h2>標準化の成果を「HMAX」に展開、社会インフラへ接続</h2>
-<p>日立はこれまでにも、認証基盤ソフトウェア「Keycloak」などのオープンソースプロジェクトに参画し、ID管理やアクセス制御の分野で技術開発を進めてきた。今回のAAIFへの参画は、これらの取り組みをAIエージェント領域へ拡張する位置づけとなる。</p>
-<p>同社は、今回の標準化活動の成果を、フィジカルAIやAgentic AIを活用した次世代ソリューション群「HMAX by Hitachi」にも適用する方針を示した。社会インフラ分野では、現場から経営レベルまでの意思決定をAIが支援するユースケースが拡大しており、その前提として安全なデータアクセスと権限管理の確立が不可欠となる。</p>
-<p>日立は、AAIFでの活動を通じてAIエージェントの安全な活用基盤の構築を進めるとともに、社会インフラの効率化と高度化への貢献を目指すとしている。</p>
-<p>:::box
-<a href="https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate">関連記事：政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</a></p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米Luma AI、次世代型画像生成モデル「Uni-1」発表　理解と生成を統合、推論性能でもNano Banana 2など上回る</title>
-      <link>https://ledge.ai/articles/luma_uni_1_unified_image_generation_model</link>
-      <description><![CDATA[<p>Luma AIは2026年3月6日（現地時間）、理解能力と生成能力を単一モデルに統合した次世代型画像生成モデル「Uni-1」を<a href="https://lumalabs.ai/uni-1">発表</a>した。Uni-1は、画像を生成するだけでなく、指示内容の理解や推論を同じモデルの中で扱う設計を採用している点が特徴だ。同社は、理解と生成を統合する「Unified Intelligence（統合知能）」への第一歩と位置づけている。</p>
-<h2>理解と生成を一体で扱う新モデル</h2>
-<p>Uni-1は、自己回帰型Transformer（文脈を踏まえながら順番に出力を組み立てる方式）を採用し、文章と画像を単一の系列として処理する。これにより、指示内容を理解して推論する処理と画像生成を一体で進められるという。</p>
-<p>Luma AIは、こうした構造によって、AIが単に見栄えのよい画像を作るだけでなく、指示に含まれる要素同士の関係や場面の流れを踏まえながら画像を生成できるとしている。発表では、時間的な前後関係や空間的な配置、論理的な整合性といった要素を同時に扱える点を訴求した。</p>
-<h2>推論性能を測る比較で既存モデルを上回る結果</h2>
-<p>Luma AIは、画像生成モデルの推論能力を測るベンチマーク「RISEBench」の結果も公開した。これは、因果関係、空間理解、時間理解、論理推論などを評価するもので、複雑な指示にどこまで整合的に応えられるかを見る指標として使われている。</p>
-<p><strong>■ 図：画像生成モデルの推論性能を比較したRISEBench。Uni-1はNano Banana 2やGPT Image 1.5などを総合スコアで上回る結果を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rise_bench_chart_1600_98bcf32d80/rise_bench_chart_1600_98bcf32d80.jpg" alt="rise-bench-chart-1600.jpg" /></p>
-<p>公開されたグラフでは、Uni-1の総合スコアは0.51となり、Nano Banana 2やGPT Image 1.5などを上回った。項目別では、因果理解や空間理解でも高い値を示しており、Luma AIは、画像生成の品質だけでなく、指示内容を踏まえて場面を組み立てる力でも優位性があるとアピールしている。</p>
-<h2>同一条件での生成比較も公開</h2>
-<p>Luma AIは、複数の画像生成モデルに同じ条件で指示を与えた比較例も公開した。会議室の中で猫がスライドを使って発表し、それを別の猫と人間が見ている場面など、複数の主体と役割を含むプロンプトで比較したもので、構図の整合性や場面理解の違いが分かる内容になっている。</p>
-<p><strong>■ 図：同一プロンプトで生成した画像の比較。Uni-1、Nano Bananaシリーズ、GPT Image 1.5などの出力を並べた例</strong></p>
-<p><strong>左）プロンプト：参照画像の２匹の猫を、会議室の場面に合成。１匹がLumaAIのスライドを発表し、もう１匹が観察する。参照画像の２名の男性も座ってプレゼンに反応している／右）Uni-1の出力結果</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odai_side_04b39b7159/odai_side_04b39b7159.jpg" alt="odai-side.jpg" />
-<strong>左）NanoBanana／右）NanoBanana2</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NB_side_34f0efce00/NB_side_34f0efce00.jpg" alt="NB-side.jpg" />
-<strong>左）NanoBanana Pro／右）GPT Image1.5</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/NBP_side_cc1367e4c9/NBP_side_cc1367e4c9.jpg" alt="NBP-side.jpg" /></p>
-<p>こうした比較例では、Uni-1は登場人物や動物の配置、発表と観察という役割の違い、室内の構図などを比較的自然に表現している。Luma AIは、こうした結果を、理解と生成を一体で扱う設計の成果として位置づけている。</p>
-<h2>生成能力が視覚理解の向上にもつながると説明</h2>
-<p>同社はさらに、画像生成の能力を持つことが、視覚理解そのものの向上にもつながるとの考えを示している。これを示す例として、物体検出ベンチマーク「ODinW Dense Detection」の結果も公開した。</p>
-<p><strong>■ 図：ODinW Dense Detection Accuracy。Uni-1のフルモデルは、理解専用モデルを上回る精度を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/odinw_chart_1600_37f37799a7/odinw_chart_1600_37f37799a7.jpg" alt="odinw-chart-1600.jpg" /></p>
-<p>公開資料では、理解専用モデルのスコアが43.9だったのに対し、Uni-1のフルモデルは46.2を記録した。Luma AIはこの結果について、画像を生成するための学習が、物体や配置、場面を細かく見分ける力の向上にも寄与している可能性があるとしている。</p>
-<h2>「Unified Intelligence」への第一歩</h2>
-<p>Luma AIは、Uni-1を単なる新しい画像生成モデルではなく、理解と生成の境界をまたぐモデルとして打ち出している。発表では、画像生成に加えて、世界知識や文化的文脈、複数ターンでの調整といった要素にも言及しており、より広いマルチモーダルAIへつながる基盤として位置づけた。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Manus、AIエージェントをデスクトップ化　ローカルPC上でファイルやアプリを直接操作可能に</title>
-      <link>https://ledge.ai/articles/manus_ai_agent_desktop_local_execution_release</link>
-      <description><![CDATA[<p>Meta傘下のAIスタートアップManusは2026年3月16日、AIエージェント「Manus」をローカル環境で動作させる新機能「My Computer」を<a href="https://manus.im/ja/blog/manus-my-computer-desktop">発表</a>した。これにより、従来はクラウド上で動作していたManusが、ユーザーのPC上のファイルやアプリケーションに直接アクセスし、操作できるようになった。対応OSはmacOSおよびWindowsで、同日から提供を開始している。</p>
-<h2>クラウドからローカルへ、AIエージェントの動作領域を拡張</h2>
-<p>これまでManusは、クラウド上のサンドボックス環境で動作するAIエージェントとして提供されてきた。ネットワーク、コマンドライン、ファイルシステム、ブラウザといった機能を備え、常時オンラインでタスクを実行できる点が特徴だった。</p>
-<p>一方で、実際の業務において重要なファイルや開発環境はローカルPC上に存在するという制約があった。今回の「My Computer」はこのギャップを埋めるもので、Manusをユーザーのコンピュータ上に拡張し、ローカルファイルやツール、アプリケーションと直接連携できるようにする。</p>
-<p>Desktopアプリを通じて、ManusはPCのターミナル上でコマンドライン（CLI）を実行し、ファイルの読み取り、分析、編集、さらにはローカルアプリの起動や制御まで行うことが可能となる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=xtjbiY-tJKk">YouTube</a></p>
-<h2>ファイル整理からアプリ開発まで、ローカル作業を自動化</h2>
-<p>公式ブログでは、具体的な活用例として、ローカル作業の自動化が示されている。</p>
-<p>例えば、大量の写真が未整理のまま保存されている場合、「写真を整理して」と指示するだけで、Manusが画像内容を解析し、カテゴリごとにフォルダを作成して自動分類する。また、請求書ファイルのリネームといった反復的な作業も、コマンドライン操作によって短時間で完了できるとしている。</p>
-<p><strong>■ 写真フォルダを自動分類する例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065.webp" alt="9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69.webp" /></p>
-<p>さらに、PythonやNode.js、Swift、Xcodeといった開発ツールを活用することで、アプリケーション開発にも対応する。実際の事例として、Mac上でSwiftを用いたリアルタイム会議翻訳・字幕アプリを構築したケースが紹介されており、プロジェクト作成からコーディング、デバッグ、パッケージ化までをすべてManusが処理したという。</p>
-<p>このように、ローカル環境へのアクセスにより、ファイル管理にとどまらず、ソフトウェア開発やスクリプト作成、Webサイト構築など、より高度なワークフローの自動化が可能になるとしている。</p>
-<h2>ローカルGPU活用や遠隔操作も可能に、ユーザー承認で制御</h2>
-<p>「My Computer」は、ローカルの計算資源の活用も想定している。PCに搭載されたGPUを用いた機械学習モデルのトレーニングや、大規模言語モデルの推論処理をローカルで実行できるほか、常時稼働しているPCを遠隔から操作するAIエージェントとして利用することも可能とされている。</p>
-<p>例えば、外出先からスマートフォンで指示を出し、自宅のPC上でManusがタスクを実行する、といった使い方が想定されている。クラウドとローカルを横断して処理を行うことで、両者を組み合わせた新しいワークフローを実現する。</p>
-<p>また、Google CalendarやGmailなどのクラウドサービスとの連携機能も既に備えており、ローカルファイルを取得してメール送信するといった処理も一貫して実行できる。</p>
-<p>一方で、ローカル環境へのアクセスに伴う安全性にも配慮している。すべてのコマンド実行にはユーザーの明示的な承認が必要で、「常に許可」または「一度だけ許可」を選択できる仕組みを採用。ユーザーが主導権を持ち、Manusが実行するという関係を維持する設計としている。</p>
-<p><strong>■ ローカルフォルダの選択と権限付与の流れ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730.webp" alt="c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287.webp" /></p>
-<p>Manusは、AIエージェントを単なるチャットツールではなく「行動エンジン」と位置付けており、今回のデスクトップ対応により、クラウドとローカルを統合した実行基盤としての機能強化を図るとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、「GPT-5.4 Thinking」「GPT-5.4 Pro」発表　スプレッドシート・資料作成・コーディングなど実務性能を強化</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_4_thinking_pro_release</link>
-      <description><![CDATA[<p>OpenAIは2026年3月5日（現地時間）、新しいAIモデル「GPT-5.4 Thinking」および「GPT-5.4 Pro」を<a href="https://openai.com/index/introducing-gpt-5-4/">発表</a>した。新モデルはOpenAIのChatGPTやAPIなどで提供され、スプレッドシート作成、プレゼンテーション資料の作成、コーディングなど、専門職の実務タスクにおける性能を強化したとしている。</p>
-<p>同社は今回のモデルについて、「複雑な実務を正確、効果的、そして効率的に遂行し、より少ないやり取りで要求に応えるモデルが実現した」と説明している。</p>
-<p>今回の発表は、OpenAIの公式ブログ「Introducing GPT-5.4」で明らかにされた。GPT-5.4はChatGPTやAPI、Codexなどで順次提供されるモデルで、ChatGPT上では「GPT-5.4 Thinking」という名称で利用できる。あわせて、より高度なタスク向けの上位版「GPT-5.4 Pro」も公開された。</p>
-<h2>ChatGPTでは「Thinking」、APIでは「gpt-5.4」</h2>
-<p>新モデルは、ChatGPTでは「GPT-5.4 Thinking」として提供され、APIではモデル名「gpt-5.4」として利用できる。上位モデルは「gpt-5.4-pro」として公開されている。</p>
-<p>GPT-5.4 Thinkingは、これまで提供されていた推論モデル「GPT-5.2 Thinking」を置き換える形で提供される。ChatGPTでは主にPlus、Team、Proプラン向けに利用できる。</p>
-<h2>「複雑な実務を正確かつ効率的に遂行」するモデル</h2>
-<p>OpenAIはGPT-5.4を、専門職の業務における生産性向上を意識したモデルとして位置づけている。公式説明では、特に以下の領域での性能改善を挙げている。</p>
-<ul>
-<li>スプレッドシート作成・分析</li>
-<li>プレゼンテーション資料の作成</li>
-<li>フロントエンド開発などのコーディング</li>
-<li>長文文書の理解や作成</li>
-<li>ツールを利用した調査・分析</li>
-</ul>
-<p>従来の生成AIは、チャットや検索代替として利用される場面が多かったが、GPT-5.4では実際の業務作業を支援する用途を重視したモデルとして設計されているという。</p>
-<p><strong>GPT-5.4（左）とGPT-5.2（右）が生成したプレゼンテーション資料の比較。GPT-5.4では複数のコンテンツを整理したスライド構成が生成され、実務用途での品質向上が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5_4thinking_d81596a682/5_4thinking_d81596a682.jpg" alt="5-4thinking.jpg" /></p>
-<h2>上位版「GPT-5.4 Pro」は長時間タスク向け</h2>
-<p>同時に公開されたGPT-5.4 Proは、より高度で長時間の処理が必要なタスク向けに設計されたモデルだ。APIドキュメントでは、より多くの計算資源を使って推論を行うことで、複雑な問題に対してより高精度な回答を生成できるとしている。</p>
-<p>OpenAIは、GPT-5.4 Proについて「より難しいタスクや長時間ワークフロー向けのモデル」と説明している。処理内容によっては、応答の完了まで数分程度かかる場合もある。</p>
-<h2>ベンチマークでは知識労働タスクで改善</h2>
-<p>OpenAIは、GPT-5.4の性能評価として複数のベンチマーク結果も公開した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Cqogsobg_AA_Ao2_U_9f04dacec0/H_Cqogsobg_AA_Ao2_U_9f04dacec0.png" alt="HCqogsobgAAAo2U.png" />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/GD_Pval_Knowledge_work_tasks_f5676d2cc0/GD_Pval_Knowledge_work_tasks_f5676d2cc0.png" alt="GDPval_Knowledge work tasks.png" /></p>
-<p>44職種の知識労働タスクを評価する社内ベンチマーク「GDPval」では、GPT-5.4が83.0％のスコアを記録し、前モデルGPT-5.2の70.9％を上回ったとしている。</p>
-<p>また、投資銀行アナリストのスプレッドシート作業を模した評価では平均87.3％の正答率を記録し、GPT-5.2の68.4％を大きく上回ったという。</p>
-<p>プレゼンテーション資料の評価でも、人間の評価者がGPT-5.4の生成物を選好した割合は68.0％だったとしている。</p>
-<h2>API版は100万トークン超のコンテキストに対応</h2>
-<p>API版のGPT-5.4 Proでは、最大約105万トークンのコンテキストウィンドウをサポートする。最大出力は128,000トークンで、知識の更新時点は2025年8月となっている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、AIセキュリティ企業「Promptfoo」を買収　Fortune 500の25％以上が利用するLLMテストツール</title>
-      <link>https://ledge.ai/articles/openai_promptfoo_acquisition_ai_security_llm_testing</link>
-      <description><![CDATA[<p>OpenAIは2026年3月9日、AIセキュリティスタートアップのPromptfooを買収すると<a href="https://openai.com/index/openai-to-acquire-promptfoo/">発表</a>した。Promptfooは2024年創業の企業で、大規模言語モデル（LLM）を使ったアプリケーションの評価やセキュリティテストを行うツールを提供している。買収額などの条件は公表されていない。</p>
-<h2>LLMアプリの評価・セキュリティテストツールを開発</h2>
-<p>Promptfooは、LLMを利用したアプリケーションの品質評価や安全性検証を行うツールを開発している企業。企業が生成AIシステムを導入する際のテストや監査に利用されている。</p>
-<p>主な機能として、AIの回答品質を評価する「LLM evaluation」、プロンプト攻撃やデータ漏えいのリスクを検出するセキュリティテスト、AIシステムの脆弱性を調べるレッドチーミングなどを備える。</p>
-<p>同社はCLIツールやライブラリをオープンソースとして公開しており、開発者が自社のAIアプリケーションを自動テストできる環境を提供している。生成AIの企業利用が広がるなか、AIの出力品質や安全性を検証するツールとして利用が拡大している。</p>
-<p>Promptfooによると、同社のツールは35万人以上の開発者に利用されており、月間アクティブユーザーは13万人以上にのぼる。また、Fortune 500企業の25％以上のチームが同ツールを導入しているという。</p>
-<h2>OpenAIの企業向けAI基盤に統合へ</h2>
-<p>OpenAIは今回の買収により、Promptfooの評価およびセキュリティテスト技術を、同社の企業向けAI基盤に統合する方針を示している。企業が生成AIを業務に導入する際、モデルの性能評価や安全性検証を自動化する仕組みを強化する狙いがある。</p>
-<p>PromptfooのチームはOpenAIに加わる予定だが、同社が公開しているオープンソースプロジェクトは継続される予定だという。Promptfooは<a href="https://www.promptfoo.dev/blog/promptfoo-joining-openai/">公式ブログ</a>で「OpenAIの一員となることで、AIの安全性評価とテストをさらに前進させる」とコメントしている。</p>
-<p>生成AIの企業導入が進むなか、AIの能力そのものだけでなく、安全性や信頼性を検証するためのツールや基盤の重要性も高まっている。今回の買収は、企業向けAIの運用やガバナンスを支える技術基盤の強化を目的とした動きとみられる。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>パナソニックHD、シンガポール開発拠点の視覚検査向けAIプラットフォームをグローバル展開　初のライセンス提供</title>
-      <link>https://ledge.ai/articles/panasonic_visual_inspection_ai_global_licensing</link>
-      <description><![CDATA[<p>パナソニック ホールディングスは2026年3月13日、シンガポールの研究開発拠点であるパナソニックR&amp;Dセンターシンガポールが開発した視覚検査向けAIプラットフォームについて、グローバルでのライセンス提供を開始すると<a href="https://news.panasonic.com/jp/press/jn260313-1">発表</a>した。同社が同拠点発の技術・ソリューションを外部にライセンス提供するのは初めてとなる。</p>
-<p>同プラットフォームは、AIによる画像解析を活用し、インフラ点検や建設工事の品質検査、工場・プラントの安全管理、生産ラインの品質検査など、現場における視覚検査業務の高度化・効率化を支援するもの。データの収集・管理から、AIモデルの学習、検証、導入、レポート生成、運用監視までを一体的に提供し、検査業務のデジタル化を包括的に支える。</p>
-<p>また、クラウド、オンプレミス、ハイブリッドといった複数の環境に対応し、機密性の高いデータを扱う現場でも柔軟に導入できる設計としている。ドローンや監視カメラ（CCTV）、ロボット、産業用PCなど多様なデバイスと連携可能で、建設、インフラ、製造、スマートシティ分野など幅広い用途での活用を想定する。</p>
-<p>同プラットフォームは、実運用を通じて開発・改善が進められてきた点も特徴の一つだ。シンガポールでは、ドローンを用いた建築物の外壁点検ソリューションなどに採用されており、1000棟以上の建物検査に活用された実績がある。検査データの信頼性確保のため、ブロックチェーン技術を活用したデータ管理にも対応している。</p>
-<p>今後は、建設・インフラ、製造、公共、物流などの分野において、国内外のパートナー企業との連携を通じて展開を拡大する方針。パナソニックHDは、現場の省人化や安全性向上、品質と生産性の両立に貢献するとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>楽天、「Rakuten AI 3.0」を提供開始　GENIAC発の7000億パラメータ日本語LLMをオープン公開</title>
-      <link>https://ledge.ai/articles/rakuten_ai_3_0_llm_open_release_geniac</link>
-      <description><![CDATA[<p>楽天グループは2026年3月17日、日本語に最適化した大規模言語モデル「Rakuten AI 3.0」の提供を開始したことを<a href="https://corp.rakuten.co.jp/news/press/2026/0317_01.html">発表</a>した。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発プロジェクト「GENIAC」の一環として開発されたモデルで、約7000億パラメータの規模を持つ。</p>
-<h2>国内最大級の日本語LLM、ベンチマークでも高性能を確認</h2>
-<p>同モデルは、2025年12月の発表以降にファインチューニングを行い改良されたもので、複数の日本語ベンチマークにおいて高いスコアを記録した。日本固有の文化や歴史に関する知識、大学院レベルの推論、競技数学、指示追従能力といった指標で評価され、主要な既存モデルとの比較結果も公表されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_bench_83888f0791/rakuten_ai_3_0_bench_83888f0791.jpg" alt="rakuten ai 3-0 bench.jpg" /></p>
-<p>「Rakuten AI 3.0」は、Mixture of Experts（MoE）アーキテクチャを採用した日本語特化モデルで、オープンソースコミュニティ上のモデルをベースに、楽天独自のバイリンガルデータや技術を組み合わせて開発された。文章生成やコード生成、文書解析など幅広い用途に対応し、従来モデルと比べて複雑なタスクへの対応精度が向上している。</p>
-<h2>Apache 2.0で無償公開、開発者・企業が利用可能に</h2>
-<p>提供形態はApache 2.0ライセンスに基づくオープンモデルで、楽天の公式リポジトリを通じて無償でダウンロード可能。企業や開発者がAIアプリケーション開発に活用できる環境を整備する。</p>
-<p>楽天グループのChief AI &amp; Data Office（r CAIDO）であるティン・ツァイ氏は、高品質かつ費用対効果の高いLLMの開発に注力しているとしたうえで、オープンモデルの共有を通じて国内のAI開発の加速とコミュニティの構築を目指すとコメントしている。</p>
-<h2>GENIACプロジェクトの一環として開発、計算資源支援も活用</h2>
-<p>同社は2025年7月にGENIAC第3期に採択されており、本モデルの学習には同プロジェクトによる計算資源支援の一部が活用されている。</p>
-<p>楽天は、AI活用を全社的に推進する取り組み「AI-nization」を掲げており、本モデルの公開を通じて、国内におけるAIアプリケーション開発やオープンコミュニティの発展を後押しするとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2026/3/17 [TUE]Sakana AI、防衛装備庁のAI研究を受託　複数AIを組み合わせ意思決定プロセスを高速化</title>
-      <link>https://ledge.ai/articles/sakana_ai_atla_multi_ai_decision_research</link>
-      <description><![CDATA[<p>AI研究開発企業のSakana AIは2026年3月、防衛装備庁の研究機関である防衛イノベーション科学技術研究所（DISI）から、「複数AI技術の組み合わせによる観測・報告・情報統合・資源配分 高速化の研究」を受託したと<a href="https://sakana.ai/atla-contract-2026/">発表</a>した。複数のAI技術を組み合わせることで、観測から意思決定に至るまでの情報処理プロセスの高速化を目指す。</p>
-<h2>観測から資源配分までの情報処理をAIで高速化</h2>
-<p>今回の研究は、観測・報告・情報統合・資源配分といった一連のプロセスをAIによって効率化することを目的としている。</p>
-<p>防衛分野では、センサーや各種システムから収集される大量の情報を整理し、状況を把握したうえで意思決定を行う必要がある。しかし、複数の情報源から得られるデータの整理や分析、報告書の作成、資源配分の判断などには時間を要する場合もある。</p>
-<p>Sakana AIは、複数のAI技術を組み合わせることで、こうした情報処理の流れを効率化し、意思決定までのプロセスを高速化することを目指すとしている。</p>
-<h2>複数のAIシステムを組み合わせて高度な分析を実現</h2>
-<p>研究テーマに含まれる主なプロセスは、次の4つである。</p>
-<p>・観測（Observation）
-・報告（Reporting）
-・情報統合（Information Integration）
-・資源配分（Resource Allocation）</p>
-<p>これらのプロセスは、状況認識や意思決定の基盤となる重要な要素であり、AIによるデータ整理や分析、レポート生成などの自動化・効率化が期待される。</p>
-<p>Sakana AIは、複数のAIシステムを組み合わせることで高度な問題解決を行う研究を進めており、今回のプロジェクトでもこうした技術を活用する。AIを組み合わせた情報処理によって、複雑なデータの分析や状況理解を支援する仕組みの開発を進めるとしている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>桜のつぼみ写真から開花日を予測　ウェザーニューズ、AIで満開日も算出する「桜AI開花予想」</title>
-      <link>https://ledge.ai/articles/sakura_ai_bloom_forecast_weathernews</link>
-      <description><![CDATA[<p>ウェザーニューズは2026年3月10日、桜のつぼみの写真から開花日と満開日を予測するサービス「桜AI開花予想」の提供を開始したことを<a href="https://jp.weathernews.com/news/55258/">発表</a>した。スマートフォンで撮影したつぼみの画像をAIが解析し、桜の成長段階を判定。気象予測データと組み合わせることで、地点ごとの開花日や満開日を推定する。</p>
-<h2>AIがつぼみの状態を解析、開花日を予測</h2>
-<p>「桜AI開花予想」は、スマートフォンで撮影した桜のつぼみの写真をAIが解析し、開花時期を予測するサービスだ。AIはつぼみの状態を解析して成長段階を判定し、気温などの気象予測データと組み合わせることで、開花日と満開日を推定する。</p>
-<p>従来の桜の開花予想は、主に過去の気温データや今後の気象予測をもとに算出されることが多いが、このサービスでは実際のつぼみの状態を画像から読み取ることで、より地点に近い状況を反映した予測が可能になるとしている。</p>
-<p><strong>ウェザーニューズの「桜AI開花予想」画面。つぼみの写真を送信するとAIが解析し、開花日と満開日を予測する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260306_sakura_ai1_side_47e3a34ea5/20260306_sakura_ai1_side_47e3a34ea5.jpg" alt="20260306_sakura_ai1-side.jpg" /></p>
-<h2>全国1400以上の花見スポットに対応</h2>
-<p>このサービスでは、全国1400以上の花見スポットについて開花予想を確認できる。利用者はアプリ上でつぼみの写真を投稿し、その解析結果をもとに開花時期の目安を知ることができる。</p>
-<p>ウェザーニューズはこれまで、利用者から寄せられる桜の観測情報を活用した「さくらプロジェクト」を展開してきた。今回の「桜AI開花予想」では、こうした市民参加型の観測データとAIによる画像解析を組み合わせることで、開花予測の精度向上を目指すとしている。</p>
-<p>同社は今後も、利用者から投稿される桜のつぼみ写真や観測データを活用し、AIモデルの改善や予測精度の向上につなげていく方針としている。</p>
-]]></description>
-      <pubDate>Fri, 06 Mar 2026 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
