@@ -47,6 +47,24 @@
       <pubDate>Tue, 17 Mar 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
+      <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
+      <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
+<h2>日本の顧客向けサービスに消費税を適用</h2>
+<p>Anthropicは公式サポートページで、日本の顧客に提供するサービスについて、4月1日以降の請求から消費税10%を別途徴収すると通知した。</p>
+<p>対象となるのはClaudeなど同社のAIサービスで、既存の料金プランそのものは変更されない。4月1日以降の請求では、これまでの利用料金に加えて日本の消費税が加算される形となる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_support_bff3ae2af4/claude_support_bff3ae2af4.jpg" alt="claude support.jpg" /></p>
+<p>日本では、海外企業が日本の利用者に対して電子サービスを提供する場合でも、消費税の課税対象となる制度が整備されており、Anthropicの今回の措置はこの制度に対応するものとみられる。</p>
+<h2>インボイス制度にも対応</h2>
+<p>Anthropicはまた、日本のインボイス制度に対応するため、適格請求書発行事業者として登録済みであることも明らかにした。企業ユーザーは、Anthropicが発行する適格請求書を利用することで、消費税の仕入税額控除を受けることができる。一方、個人利用者の場合は控除の対象とはならない。</p>
+<p>同社は、4月1日以降に発行される請求書について、日本円で消費税額を明示した形で発行するとしている。</p>
+<h2>海外AIサービスでも税務対応が進む</h2>
+<p>近年、日本では海外企業が提供するクラウドサービスやSaaS、デジタルコンテンツなどについても消費税を課す制度が整備されている。</p>
+<p>海外AIサービスでは、日本の消費税制度への対応がすでに進んでいる。対話型AI「ChatGPT」を提供するOpenAIは、2025年1月から日本の顧客向け請求に消費税10%を適用している。Googleも、Google CloudやGoogle Workspace、Google Adsなど主要サービスで日本の消費税を課す仕組みを整えており、Anthropicの今回の措置も、海外AI事業者による日本市場向け税務対応の流れの一環とみられる。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>1Password、AIエージェントのアクセス制御を統合管理する「Unified Access」発表　人間・マシン・AIの資格情報を一元統制</title>
       <link>https://ledge.ai/articles/1password_unified_access_ai_agent_security_platform_launch</link>
       <description><![CDATA[<p>1Passwordは米国時間2026年3月17日、AIエージェントや自動化ワークフローの普及に伴って複雑化する認証・アクセス管理の課題に対応する新たなプラットフォーム「Unified Access」を<a href="https://1password.com/press/2026/mar/1password-unified-access">発表</a>した。人間、マシン、AIエージェントといった異なる主体の資格情報を横断的に可視化・保護・監査する仕組みを提供し、安全なAI活用の基盤構築を狙う。上位版の「Unified Access Pro」は同日から一般提供を開始した。</p>
@@ -98,53 +116,6 @@
 <h2>クリエイティブツールの「対話型AI化」を推進</h2>
 <p>Adobeは近年、同社の生成AI「Firefly」をCreative Cloud製品に統合する取り組みを進めている。今回のPhotoshopへのAI Assistant導入は、AcrobatやAdobe Expressなどに続くAI機能の拡張の一環となる。</p>
 <p>同社は、クリエイティブツールにおいてもチャット型インターフェースを取り入れ、ユーザーが対話形式で制作や編集を進められる環境の構築を目指しているとしている。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
-      <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
-      <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
-<h2>日本の顧客向けサービスに消費税を適用</h2>
-<p>Anthropicは公式サポートページで、日本の顧客に提供するサービスについて、4月1日以降の請求から消費税10%を別途徴収すると通知した。</p>
-<p>対象となるのはClaudeなど同社のAIサービスで、既存の料金プランそのものは変更されない。4月1日以降の請求では、これまでの利用料金に加えて日本の消費税が加算される形となる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_support_bff3ae2af4/claude_support_bff3ae2af4.jpg" alt="claude support.jpg" /></p>
-<p>日本では、海外企業が日本の利用者に対して電子サービスを提供する場合でも、消費税の課税対象となる制度が整備されており、Anthropicの今回の措置はこの制度に対応するものとみられる。</p>
-<h2>インボイス制度にも対応</h2>
-<p>Anthropicはまた、日本のインボイス制度に対応するため、適格請求書発行事業者として登録済みであることも明らかにした。企業ユーザーは、Anthropicが発行する適格請求書を利用することで、消費税の仕入税額控除を受けることができる。一方、個人利用者の場合は控除の対象とはならない。</p>
-<p>同社は、4月1日以降に発行される請求書について、日本円で消費税額を明示した形で発行するとしている。</p>
-<h2>海外AIサービスでも税務対応が進む</h2>
-<p>近年、日本では海外企業が提供するクラウドサービスやSaaS、デジタルコンテンツなどについても消費税を課す制度が整備されている。</p>
-<p>海外AIサービスでは、日本の消費税制度への対応がすでに進んでいる。対話型AI「ChatGPT」を提供するOpenAIは、2025年1月から日本の顧客向け請求に消費税10%を適用している。Googleも、Google CloudやGoogle Workspace、Google Adsなど主要サービスで日本の消費税を課す仕組みを整えており、Anthropicの今回の措置も、海外AI事業者による日本市場向け税務対応の流れの一環とみられる。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
-      <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
-      <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
-<p>中国の開発者コミュニティでは、OpenClawでAIエージェントを育てることを「养虾（エビを育てる）」と呼ぶミームが広がっており、SNSなどでも話題になっている。</p>
-<h2>地方政府がOpenClaw導入を補助金で支援</h2>
-<p>地方政府はOpenClaw関連の産業育成を進めている。</p>
-<p>深圳市龍崗区は2026年3月7日、OpenClawを活用したアプリケーションなどの導入支援として、プロジェクト総投資額の40％以内、年間最大200万元の補助制度を提示したことを<a href="https://www.sznews.com/news/content/2026-03/09/content_31969411.htm">深セン新聞</a>などが報じた。また、国内大規模モデルの利用費については実費の30％、年間最大100万元を補助する制度も設けているという。</p>
-<p>江蘇省無錫市でも同月、AI関連の研究開発を支援する政策を<a href="https://www.wuxi.gov.cn/doc/2026/03/10/4742903.shtml">発表</a>した。OpenClawなどのオープンソースツールを活用したAI技術の研究開発について最大500万元を補助するほか、AIオープンソース実験室の設立には最大100万元、AI応用の実証プロジェクトには調達額の20％、上限200万元の補助を行うとしている。</p>
-<p>こうした政策の狙いは、AIエージェントやAIアプリケーションの産業集積を促進することにあるという。</p>
-<h2>市場も反応、関連銘柄が上昇</h2>
-<p>政策支援への期待を背景に、中国の株式市場でも関連銘柄が動いた。</p>
-<p>UCloud Technology、QingCloud Technologies、Hangzhou Shunwang TechnologyなどのAI関連企業の株価が上昇し、OpenClaw関連銘柄として注目を集めている。</p>
-<p>また、中国のクラウド企業もOpenClawの導入環境を整備している。Tencent Cloud、Alibaba Cloud、Baidu AI Cloudなどがクラウド上でOpenClawを簡単に展開できるサービスを提供している。</p>
-<p>深圳では2026年3月上旬、テンセント本社周辺でテンセントクラウドのエンジニアがOpenClaw導入を支援するブースが設けられ、ノートPCを持った開発者やAI愛好家が導入のため列を作る様子も報じられている。</p>
-<p><strong>■ TencentのOpenClaw導入支援イベントの様子</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tencent_ai_openclaw_x_97acadefbe/tencent_ai_openclaw_x_97acadefbe.jpg" alt="tencent ai openclaw x.jpg" /></p>
-<h2>中国当局はセキュリティリスクに警戒</h2>
-<p>一方で中国当局はOpenClawの安全面について警戒を強めている。</p>
-<p>中国国家インターネット応急センター（CNCERT）は2026年3月10日、OpenClawの利用に関するセキュリティ警告を<a href="https://www.news.cn/tech/20260311/6bdfd2fffddf4a7397017d76c6d8306a/c.html">発表</a>し、秘密情報の漏えいや重要データの削除、悪性プラグインの利用、高・中危険度の脆弱性などのリスクを指摘した。</p>
-<p><a href="https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/">Reuters</a>は11日、こうした懸念を背景に、一部の国有企業や政府機関では業務用PCや社内ネットワークに接続された端末へのOpenClaw導入を制限し、既存環境の停止や削除を求める動きが出ていると報じている。</p>
-<h2>テンセント、AIエージェント「WorkBuddy」投入</h2>
-<p>テンセントはAIエージェントツール「<a href="https://www.codebuddy.cn/work/">WorkBuddy</a>」を展開している。</p>
-<p><strong>■ TencentのAIエージェントツール「WorkBuddy」。公式サイトでは「Work Smart, Not Hard」というコンセプトを掲げている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Work_Buddy_fc410060e6/Work_Buddy_fc410060e6.jpg" alt="WorkBuddy.jpg" /></p>
-<p>WorkBuddyは企業向けコミュニケーションツール「企業微信」と連携し、ユーザーの指示に基づいてローカルPC上での資料検索やファイル送信などの作業を実行できるAIツールだ。公式サイトでは「Work Smart, Not Hard（賢く働こう、無理に働くのではなく）」というコンセプトを掲げ、「ダウンロードしてすぐ使える」「設定不要」といった導入の容易さを特徴としている。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
@@ -478,52 +449,33 @@
       <pubDate>Sat, 14 Mar 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>DeNA、米Cognition AIの自律型AIエンジニア「Devin Enterprise」を全社導入　2,000人超が利用可能に</title>
-      <link>https://ledge.ai/articles/dena_devin_enterprise_companywide_adoption</link>
-      <description><![CDATA[<p>ディー・エヌ・エー（以下DeNA）は2026年3月4日、米AI企業Cognition AIが提供する自律型AIソフトウェアエンジニア「Devin Enterprise」を全社規模で導入したと<a href="https://dena.com/jp/news/5356/">発表</a>した。2025年7月にCognition AIと戦略的パートナーシップを<a href="https://dena.com/jp/news/5269/">締結</a>して以降、段階的に社内展開を進めてきたもので、現在は2,000人以上の社員が利用可能な体制を整えたという。</p>
-<p>Devin Enterpriseはソフトウェア開発のタスクを自律的に実行するAIエージェントで、コード生成やデバッグ、テストなどの開発業務を支援する。DeNAではゲーム、ライブストリーミング、ヘルスケア・メディカル、スポーツ、スマートシティなど多様な事業を展開しており、異なる技術スタックやセキュリティ要件を持つ開発環境に対応する必要があった。そのため、単なるツール導入ではなく、企業全体で安全に運用できる基盤整備を進めたとしている。</p>
-<h2>VPC・SSOを含む全社基盤を整備</h2>
-<p>DeNAはDevin Enterpriseの導入にあたり、自社クラウド環境内で利用できるVPC版を展開し、シングルサインオン（SSO）などの認証基盤と連携させた。これにより、各事業部門が共通の統制下でAIを利用できる体制を構築したという。</p>
-<p>導入は約半年をかけて3段階で進められた。まずα版ではコアユーザーによる技術検証を行い、ガバナンス要件や運用ルールを整理。続くβ版ではSlackを用いた運用フローや組織単位での環境作成の自動化などを整備した。その後、全社展開版として本格導入し、現在は40以上のチームで利用が始まっている。</p>
-<h2>開発効率や業務スピードの改善も</h2>
-<p>DeNAは導入後の成果として、複数の業務領域での効率化を挙げている。</p>
-<p>たとえばレガシーシステムのコードマイグレーションでは、PerlからGoへの移行作業を従来想定の約半年から1カ月弱で完了し、約6倍の効率化を実現したという。また、横浜市で開催されたイベント「ワンダリア横浜」のアプリ開発では、マルチリポジトリ構成のプロジェクトで開発速度が約2倍に向上したとしている。</p>
-<p>さらに、オフショア開発の検収・品質管理では、従来1～2日かかっていた確認作業が、15分程度の入力と約2時間の確認で完了するようになり、待ち時間の大幅な短縮につながったという。</p>
-<p>エンジニア以外の業務にも活用は広がっている。仕様確認では非エンジニアの確認時間を約10分の1に削減したほか、分析業務では作業効率が3倍以上に改善。営業部門では見積もり作成の速度が約8倍に向上したと説明している。</p>
-<h2>国内企業向け導入支援も</h2>
-<p>DeNAは今回の取り組みを社内活用にとどめず、グループ会社を通じて国内企業への導入支援も進める方針だ。DeNA AI Linkでは、企業向けにDevin Enterpriseの導入支援やガバナンス構築、コードマイグレーションの支援などを提供するほか、ハンズオンセミナーなども開催するとしている。</p>
-<p>同社は、自律型AIエージェントの活用が今後のソフトウェア開発の生産性向上に寄与するとみており、社内外での活用拡大を図る考えだ。</p>
+      <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
+      <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
+      <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
+<p>中国の開発者コミュニティでは、OpenClawでAIエージェントを育てることを「养虾（エビを育てる）」と呼ぶミームが広がっており、SNSなどでも話題になっている。</p>
+<h2>地方政府がOpenClaw導入を補助金で支援</h2>
+<p>地方政府はOpenClaw関連の産業育成を進めている。</p>
+<p>深圳市龍崗区は2026年3月7日、OpenClawを活用したアプリケーションなどの導入支援として、プロジェクト総投資額の40％以内、年間最大200万元の補助制度を提示したことを<a href="https://www.sznews.com/news/content/2026-03/09/content_31969411.htm">深セン新聞</a>などが報じた。また、国内大規模モデルの利用費については実費の30％、年間最大100万元を補助する制度も設けているという。</p>
+<p>江蘇省無錫市でも同月、AI関連の研究開発を支援する政策を<a href="https://www.wuxi.gov.cn/doc/2026/03/10/4742903.shtml">発表</a>した。OpenClawなどのオープンソースツールを活用したAI技術の研究開発について最大500万元を補助するほか、AIオープンソース実験室の設立には最大100万元、AI応用の実証プロジェクトには調達額の20％、上限200万元の補助を行うとしている。</p>
+<p>こうした政策の狙いは、AIエージェントやAIアプリケーションの産業集積を促進することにあるという。</p>
+<h2>市場も反応、関連銘柄が上昇</h2>
+<p>政策支援への期待を背景に、中国の株式市場でも関連銘柄が動いた。</p>
+<p>UCloud Technology、QingCloud Technologies、Hangzhou Shunwang TechnologyなどのAI関連企業の株価が上昇し、OpenClaw関連銘柄として注目を集めている。</p>
+<p>また、中国のクラウド企業もOpenClawの導入環境を整備している。Tencent Cloud、Alibaba Cloud、Baidu AI Cloudなどがクラウド上でOpenClawを簡単に展開できるサービスを提供している。</p>
+<p>深圳では2026年3月上旬、テンセント本社周辺でテンセントクラウドのエンジニアがOpenClaw導入を支援するブースが設けられ、ノートPCを持った開発者やAI愛好家が導入のため列を作る様子も報じられている。</p>
+<p><strong>■ TencentのOpenClaw導入支援イベントの様子</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tencent_ai_openclaw_x_97acadefbe/tencent_ai_openclaw_x_97acadefbe.jpg" alt="tencent ai openclaw x.jpg" /></p>
+<h2>中国当局はセキュリティリスクに警戒</h2>
+<p>一方で中国当局はOpenClawの安全面について警戒を強めている。</p>
+<p>中国国家インターネット応急センター（CNCERT）は2026年3月10日、OpenClawの利用に関するセキュリティ警告を<a href="https://www.news.cn/tech/20260311/6bdfd2fffddf4a7397017d76c6d8306a/c.html">発表</a>し、秘密情報の漏えいや重要データの削除、悪性プラグインの利用、高・中危険度の脆弱性などのリスクを指摘した。</p>
+<p><a href="https://www.reuters.com/technology/china-moves-curb-use-openclaw-ai-banks-state-agencies-bloomberg-news-reports-2026-03-11/">Reuters</a>は11日、こうした懸念を背景に、一部の国有企業や政府機関では業務用PCや社内ネットワークに接続された端末へのOpenClaw導入を制限し、既存環境の停止や削除を求める動きが出ていると報じている。</p>
+<h2>テンセント、AIエージェント「WorkBuddy」投入</h2>
+<p>テンセントはAIエージェントツール「<a href="https://www.codebuddy.cn/work/">WorkBuddy</a>」を展開している。</p>
+<p><strong>■ TencentのAIエージェントツール「WorkBuddy」。公式サイトでは「Work Smart, Not Hard」というコンセプトを掲げている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Work_Buddy_fc410060e6/Work_Buddy_fc410060e6.jpg" alt="WorkBuddy.jpg" /></p>
+<p>WorkBuddyは企業向けコミュニケーションツール「企業微信」と連携し、ユーザーの指示に基づいてローカルPC上での資料検索やファイル送信などの作業を実行できるAIツールだ。公式サイトでは「Work Smart, Not Hard（賢く働こう、無理に働くのではなく）」というコンセプトを掲げ、「ダウンロードしてすぐ使える」「設定不要」といった導入の容易さを特徴としている。</p>
 ]]></description>
-      <pubDate>Wed, 11 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>デジタル庁、政府AI基盤「源内」で国産LLMを試用へ　7モデルを選定、全府省庁39機関・約18万人規模で実証</title>
-      <link>https://ledge.ai/articles/digital_agency_gennai_domestic_llm_selection_government_trial</link>
-      <description><![CDATA[<p>デジタル庁は2026年3月6日、政府向け生成AI利用環境「源内（げんない）」で試用する国産の大規模言語モデル（LLM）として7モデルを選定したと<a href="https://www.digital.go.jp/news/2d69c287-2897-46d8-a28f-ea5a1fc9bce9">発表</a>した。応募総数15件の中から書類審査と評価テストを経て選ばれたもので、2026年度に始まる全府省庁39機関・約18万人規模の大規模実証の中で、実用性や行政実務への適合性を見極める。</p>
-<p>選定されたのは、以下７つのモデル</p>
-<ul>
-<li>NTTデータ：<strong>「tsuzumi 2」</strong></li>
-<li>カスタマークラウド：<strong>「CC Gov-LLM」</strong></li>
-<li>KDDI・ELYZA共同：<strong>「Llama-3.1-ELYZA-JP-70B」</strong></li>
-<li>ソフトバンク：<strong>「Sarashina2 mini」</strong></li>
-<li>NEC：<strong>「cotomi v3」</strong></li>
-<li>富士通：<strong>「Takane 32B」</strong></li>
-<li>Preferred Networks：<strong>「PLaMo 2.0 Prime」</strong></li>
-</ul>
-<p>デジタル庁は、所定の契約締結が完了したモデルから順次「源内」での試用評価を進めるとしている。</p>
-<h2>行政実務で使えるかを政府内で見極める</h2>
-<p>デジタル庁は、行政現場での実用性や課題を評価・検証するために国産LLMを試験的に利用すると説明しており、対話型AIサービスとしての提供だけでなく、行政実務特化型AIアプリへの組み込みも想定している。選定にあたっては、国内開発モデルであることに加え、行政実務で使える性能、海外主要LLMとの比較、安全性への取り組み、学習データに関する法令順守、ガバメントクラウド上で動作できるセキュリティ要件などが条件となった。</p>
-<p>これまでデジタル庁は、全職員が利用できる生成AI利用環境として「源内」を構築・運営してきた。今回の国産LLM試用は、この「源内」を政府全体に拡張する流れの中に位置付けられる。<a href="https://www.digital.go.jp/assets/contents/node/information/field_ref_resources/2d69c287-2897-46d8-a28f-ea5a1fc9bce9/86f43a74/20260306_policies_ai_gennai_mass_deployment.pdf">関連資料</a>では、2026年度に全府省庁39機関の約18万人を対象に大規模実証を行い、その中で採択した国産LLMを試用して実用性や行政実務への適合性を見極める方針が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai_7b82c05855/shedule_of_gennai_7b82c05855.jpg" alt="shedule of gennai.jpg" /></p>
-<h2>背景に「政府が率先して使う」方針</h2>
-<p>背景には、政府自らがAI活用を先導するという政策方針がある。デジタル庁は、少子高齢化による担い手不足が深刻化する中で公共サービスを維持するにはAI活用が不可避だと説明。あわせて、民間のAI投資を促すには政府が率先して利用し、職員のAI理解と実践力を高めることが重要だとしている。関連資料でも、政府共通基盤の提供やナレッジの集約・共有、国産AIの育成・強化、他府省庁支援を進める方針が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/shedule_of_gennai2_fa3dd77516/shedule_of_gennai2_fa3dd77516.jpg" alt="shedule of gennai2.jpg" /></p>
-<p>デジタル庁の発表によると、第3回人工知能戦略本部での指示や2025年12月23日閣議決定のAI基本計画を踏まえ、政府職員によるAIの「普段使い」を浸透・定着させる環境整備が進められている。今回の大規模実証は、そうした方針を具体化する取り組みといえる。</p>
-<h2>2027年度以降の政府調達も視野</h2>
-<p>今後のスケジュールでは、2026年3月から契約締結や技術調整を進め、同年5月ごろに政府における「源内」の大規模実証を開始する。国産LLMの試用開始は同年8月ごろを予定し、2027年1月ごろに評価・検証結果の一部を公表する計画だ。そのうえで同年4月から、検証を経て実証された優れたモデルについて、ガバメントAIとして政府調達（有償）を行う予定としている。</p>
-<p>このため今回の発表は、国産LLMの試験導入そのものに加え、政府調達を通じた需要創出の前段階としても位置付けられる。デジタル庁は、行政現場からのフィードバックによる国産AIの性能向上や、政府調達を通じた安定的な需要創出を実現し、国産AIの育成・強化や日本のAI自律性確保につなげる考えを示している。</p>
-]]></description>
-      <pubDate>Mon, 09 Mar 2026 23:50:00 GMT</pubDate>
+      <pubDate>Fri, 13 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claude Codeの承認自動化を拡張へ　新モード「auto mode」をリサーチプレビュー提供か</title>
