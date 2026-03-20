@@ -102,28 +102,6 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AmazonとMicrosoft、個人向けヘルスAIを相次ぎ発表　受診導線と健康データ統合で競争本格化</title>
-      <link>https://ledge.ai/articles/amazon_microsoft_personal_health_ai</link>
-      <description><![CDATA[<p>AmazonとMicrosoftが、個人向けヘルスAIの新機能を相次いで発表した。</p>
-<p>Amazonは2026年3月10日、米国でAmazonサイトとアプリ上で利用できる「<a href="https://www.aboutamazon.com/news/retail/amazon-health-ai-agent-one-medical">Health AI</a>{target=”_blank”}」を投入し、健康に関する質問への回答に加え、One MedicalやAmazon Pharmacyと連携した受診・処方関連の導線を打ち出した。Microsoftは12日、Microsoft AI（MAI）の取り組みとして、まず米国の18歳以上の英語利用者向けに「<a href="https://microsoft.ai/news/introducing-copilot-health/">Copilot Health</a>」を発表し、Copilotを通じた個人向けの健康支援に乗り出した。</p>
-<h2>Amazon、サイトとアプリで「Health AI」を展開</h2>
-<p>Amazonが発表したHealth AIは、Amazonのサイトやアプリから利用できるヘルスAI機能だ。一般的な健康に関する質問への回答に加え、利用者の同意に基づいて健康情報を参照し、より個別化した案内を行う。必要に応じて、Amazon傘下のOne Medicalにつなぎ、受診や継続的なケアにつなげる設計を採る。</p>
-<p>今回の発表では、Prime会員向けの施策も盛り込まれた。Amazonは、Prime会員に対して24時間365日利用できるバーチャルケアへの無料アクセスを提供するとしており、Health AIを入り口としてオンライン診療や医療相談へ進みやすい構成を示した。あわせて、Amazon Pharmacyとも連携し、処方薬に関する導線も整える。</p>
-<p>@<a href="https://www.youtube.com/watch?v=NoxBqhgCfXI">YouTube</a></p>
-<h2>Prime会員向け特典も用意、One Medicalや薬局導線と接続</h2>
-<p>Amazonの発表内容からは、Health AIを単なる健康情報の検索補助ではなく、相談から受診、処方関連の手続きまでを含む一連の行動支援の窓口として位置づける方針が読み取れる。既存のEC基盤、Prime会員基盤、One Medical、Amazon Pharmacyを接続し、医療・健康領域での利用接点を広げる構えだ。</p>
-<h2>Microsoft、「Copilot Health」を発表</h2>
-<p>一方、Microsoftが発表したCopilot Healthは、個人の健康情報をAIで整理・活用することを前面に打ち出したサービスだ。健康記録やウェアラブル機器のデータ、過去の健康履歴などを統合し、利用者が自らの健康状態を把握しやすくすることを狙う。Copilotの中でも、健康情報を扱うための専用領域として提供する方針を示している。</p>
-<h2>健康データ統合を前面に、段階的に提供へ</h2>
-<p>Microsoftは、Copilot Healthを医療専門家による診断や治療の代替ではないと位置づけている。その上で、利用者が自分の健康データを確認し、医療機関との対話や日常的な健康管理に役立てるための支援機能として展開する考えだ。まずは段階的に提供を始めるとしており、個人向けヘルスAIを慎重に立ち上げる姿勢もうかがえる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=61JHf0K1zKc">YouTube</a></p>
-<h2>両社とも個人データを踏まえた支援を志向</h2>
-<p>両社の発表には共通点もある。いずれも、生成AIを健康関連の一般的な質問応答にとどめず、個人データを踏まえた支援へ拡張しようとしている点だ。その一方で、打ち出し方には違いがある。Amazonは、受診や処方更新といった実際の医療行動への接続を重視しているのに対し、Microsoftは、分散しがちな健康データを統合し、利用者の理解を助ける基盤づくりを前面に出している。</p>
-<p>ヘルスAIを巡っては、安全性やプライバシー、医療情報の取り扱いが重要な論点となる。今回の発表でも、両社は医療行為そのものを代替するものではないことや、利用者の同意や保護を前提とする姿勢を示している。今後は、こうした機能が実際にどこまで利用者に浸透するかに加え、既存の医療サービスや保険、薬局との連携がどのように広がるかも焦点になりそうだ。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、日本市場向け課税対応　4月1日からClaudeなどに消費税10%</title>
       <link>https://ledge.ai/articles/anthropic_japan_consumption_tax_claude_services</link>
       <description><![CDATA[<p>米AI企業のAnthropicは、日本の顧客に提供するサービスについて、2026年4月1日以降の請求から10%の消費税（JCT）を徴収すると<a href="https://support.claude.com/en/articles/14051822-notice-regarding-consumption-tax-jct-for-japanese-customers">発表</a>した。対象は同社の生成AIサービス「Claude」などで、日本の消費税制度に基づく対応として、請求額に税額が追加される。</p>
@@ -259,6 +237,25 @@
 <p>日立は、AAIFでの活動を通じてAIエージェントの安全な活用基盤の構築を進めるとともに、社会インフラの効率化と高度化への貢献を目指すとしている。</p>
 <p>:::box
 <a href="https://ledge.ai/articles/government_ai_guideline_revision_human_judgment_required_x_debate">関連記事：政府、AI事業者ガイドライン改定案でAIエージェントとフィジカルAIを追加──「人間の判断必須の仕組み」明記、Xで議論広がる</a></p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ホンダ、慶應大・大阪大とAI連携開始　人材育成と研究開発を一体化した「BRIDGE」構想——連携講座の開設、協働研究所の設置など</title>
+      <link>https://ledge.ai/articles/honda_keio_osaka_ai_bridge_industry_academia_collaboration</link>
+      <description><![CDATA[<p>ホンダは2026年3月13日、慶應義塾大学および大阪大学と連携し、AIの技術開発と人材育成を一体で進める産学連携プロジェクトを開始すると<a href="https://global.honda/jp/topics/2026/c_2026-03-13.html">発表</a>した。2026年4月から連携講座の開設と協働研究所の設置を行い、研究から社会実装までを一体で推進する。</p>
+<h2>連携講座を開設　大学院生と企業技術者が共に学ぶ</h2>
+<p>3者は2026年4月より、高度AI人材の育成を目的とした連携講座を開設する。対象は慶應義塾大学および大阪大学の大学院生に加え、Hondaの技術者で、大学の研究者と企業エンジニアが教育に共同で参画する点が特徴だ。</p>
+<p>講座は理論と実践を往還する設計となっており、「今、世界で通用するAI技術」を学べる環境を構築する。学術と産業の双方を理解し、将来のAI研究・開発・社会実装を牽引できる人材の育成を狙う。</p>
+<p>また、本講座では日本でも例の少ない取り組みとして、慶應義塾大学と大阪大学が1つの講義を共同で開講する。授業は同一の曜日・時限に東西のキャンパスで同時実施され、両大学の教員に加え、Hondaの従業員も講義を担当する。</p>
+<h2>協働研究所を設置　研究と社会実装を循環させる</h2>
+<p>連携講座と並行して、最先端AI技術の研究開発を行う協働研究所も設置する。Hondaが保有するモビリティなど実世界（リアル）から得られるデータと、両大学のAI理論やデータ解析技術を融合し、信頼性や説明可能性を備えたAIの創出に取り組む。</p>
+<p>研究は論文発表にとどまらず、社会実装を前提とした開発と検証まで踏み込む。研究と実装が循環する新たな研究モデルの確立を目指す点が特徴だ。</p>
+<p>個別テーマとして、慶應義塾大学との研究では、人の意図や感情を理解し寄り添う「自我を持つAI（BuddyAI）」の開発を推進する。一方、大阪大学との研究では、モビリティデータとマルチモーダル深層学習、知識構造化技術を組み合わせ、説明可能性を備えた信頼性の高いAIの実現を目指す。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c_2026_03_13_02_2fdbcd177e/c_2026_03_13_02_2fdbcd177e.jpg" alt="c_2026-03-13_02.jpg" /></p>
+<h2>「BRIDGE」構想　人材育成と実装をつなぐ枠組み</h2>
+<p>今回の産学連携プロジェクトは「BRIDGE（ブリッジ）」と名付けられた。学術と産業、そして理論と実装をつなぐ“橋”としての役割を担う。</p>
+<p>連携講座で先端AI論文を実装できる人材を育成し、協働研究所での研究開発につなげることで、基礎から社会実装までを一貫して担う人材の育成を目指す。こうした枠組みにより、日本発のAI価値創出モデルの確立を図る。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
