@@ -315,6 +315,40 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NVIDIA、GTC 2026で次世代AI基盤を発表　「Vera Rubin」を軸にエージェント・ゲーム・宇宙領域へ展開</title>
+      <link>https://ledge.ai/articles/nvidia_gtc_2026_vera_rubin_ai_infrastructure_nemoclaw_dlss5_space_module</link>
+      <description><![CDATA[<p>NVIDIAは現地時間2026年3月16日、同社が主催するAIカンファレンス「GTC 2026」の基調講演において、次世代AI処理基盤「Vera Rubin」を<a href="https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform">発表</a>した。あわせて、AIエージェント基盤、ゲーム向けAI描画技術、宇宙環境でのAI処理モジュールなども公開し、AIインフラから応用領域までの広範な展開を示した。</p>
+<h2>中核は次世代AI基盤「Vera Rubin」　ラック単位で構成する“AIファクトリー”</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_vera_rubin_family_a51ffcf67e/nvidia_vera_rubin_family_a51ffcf67e.jpeg" alt="nvidia-vera-rubin-family.jpeg" /></p>
+<p>発表の中核となるのが、次世代AI処理プラットフォーム「<a href="https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform">Vera Rubin</a>」だ。NVIDIAはこれを、AIの事前学習や事後学習に加え、推論、テスト時スケーリング、さらにはAIエージェントの実行までを一体的に支える基盤として位置づけている。</p>
+<p>Vera Rubinは、Vera CPUとRubin GPUを中心に、NVLink 6、ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6 Ethernetスイッチなど複数のコンポーネントで構成される。これらを単体のチップとしてではなく、ラック単位で統合したシステムとして提供する点が特徴だ。</p>
+<p>CEOであるジェンスン・ファン氏は基調講演で、「7つのチップ、5つのラックスケールシステム、そして1つの巨大なスーパーコンピュータ」と表現し、従来のGPU中心の設計から、データセンター全体を1つの計算単位とする方向へ進んでいることを強調した。</p>
+<p>具体的には、72基のRubin GPUと36基のVera CPUを統合する「NVL72」構成などが示されており、AI開発・運用を工場のように行う“AIファクトリー”の中核インフラとしての役割が打ち出されている。</p>
+<h2>エージェント基盤からゲーム、宇宙まで　同時発表で示したAIの広がり</h2>
+<p>基調講演では、Vera Rubinに加えて、その上で動作するソフトウェアや応用領域に関する発表も相次いだ。</p>
+<h3>NemoClaw：AIエージェントを常時稼働させる実行基盤</h3>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemoclaw_1574a087ac/nemoclaw_1574a087ac.jpg" alt="nemoclaw.jpg" /></p>
+<p>オープンソースのAIエージェントプラットフォーム「<a href="https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw">NemoClaw</a>」が発表された。これは、OpenClaw向けに最適化されたソフトウェアスタックで、NVIDIAのNemotronモデルや新たに発表されたOpenShellランタイムを、単一コマンドで導入できる仕組みを備える。</p>
+<p>NemoClawは、NVIDIA Agent Toolkitを用いてエージェント環境を構築し、ローカル実行とクラウドモデルの併用を前提とした設計となっている。ローカルでは専用の計算環境上でオープンモデルを動作させつつ、必要に応じてクラウド上の最先端モデルを呼び出す構成により、柔軟なエージェント運用を可能にする。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nemoclaw_200abf42a9/nemoclaw_200abf42a9.jpg" alt="nemoclaw.jpg" /></p>
+<p>また、プライバシー制御やネットワーク制御などのガードレール機能を備えており、自律的に動作する「常時稼働型エージェント」を安全に運用できる点も特徴だ。NVIDIAは、GeForce RTX搭載PCやRTX PROワークステーション、DGX Station、DGX Sparkといった幅広いハードウェア上での動作を想定しており、個人から企業までエージェント活用の裾野を広げる基盤として位置づけている。</p>
+<h3>DLSS 5：生成AIを取り込んだリアルタイム描画技術</h3>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/dlss5_88de0259b2/dlss5_88de0259b2.jpg" alt="dlss5.jpg" /></p>
+<p>ゲーム分野では、AIを活用した描画技術「DLSS 5」が発表された。従来のアップスケーリングやフレーム生成を超え、リアルタイムのニューラルレンダリングモデルによって、光や素材の表現そのものをAIで補完する技術へと進化している。</p>
+<p>DLSS 5は、各フレームの色情報やモーションベクトルを入力として、フォトリアルなライティングやマテリアル表現を生成する。特徴的なのは、ゲーム用途に求められる「決定論的な生成」を実現している点で、フレームごとに一貫した結果を維持しつつ、リアルタイムでの描画を可能にしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_nvidia_dlss_5_works_377970036a/how_nvidia_dlss_5_works_377970036a.jpg" alt="how-nvidia-dlss-5-works.jpg" /></p>
+<p>このモデルはキャラクターの髪や布、皮膚の質感、さらには光の当たり方など、シーン全体の意味理解をもとに画像を生成するよう設計されており、従来の物理ベースレンダリングでは難しかった表現を補完する。ジェンスン氏はこれを「グラフィックスにおけるGPT moment」と表現し、生成AIの概念がリアルタイムCGの領域にも本格的に入り込んだことを示した。</p>
+<p>@<a href="https://www.youtube.com/watch?v=dJACkKbN-Eo">YouTube</a></p>
+<h3>Space-1 Vera Rubin Module：宇宙に拡張されるAIインフラ</h3>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nvidia_space1_087958cb6b/nvidia_space1_087958cb6b.jpg" alt="nvidia space1.jpg" /></p>
+<p>宇宙空間におけるAI処理を前提に設計された「Space-1 Vera Rubin Module」も<a href="https://nvidianews.nvidia.com/news/space-computing">公開</a>された。サイズ・重量・消費電力（SWaP）の制約下でも、データセンター級の演算性能を発揮することを目的としている。</p>
+<p>同モジュールに搭載されるRubin GPUは、従来のH100 GPUと比較して最大25倍のAI推論性能を実現するとされており、軌道上データセンターや地理空間解析、自律的な宇宙運用といった用途での活用が想定されている。</p>
+<p>また、IGX ThorやJetson Orinといったエッジ向けAIプラットフォームと組み合わせることで、宇宙空間と地上をまたいだ分散型AI処理も可能になる。NVIDIAは、衛星コンステレーションや宇宙インフラの高度化が進む中で、データが生成される場所で直接処理を行う「オンオービットAI」の重要性が高まっているとし、AIインフラの適用範囲を地球外へと拡張する構想を示した。</p>
+<p>ジェンスン氏は「宇宙コンピューティングという“最後のフロンティア”が到来した」と述べ、衛星コンステレーションの展開や深宇宙探査が進む中で、「データが生成される場所に知能を配置する必要がある」と強調した。さらに、宇宙と地上をまたいだAI処理によってリアルタイムの認識や意思決定、自律動作が可能になり、軌道上データセンターや宇宙機の役割が大きく変化していくとの見方を示した。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、AIセキュリティ企業「Promptfoo」を買収　Fortune 500の25％以上が利用するLLMテストツール</title>
       <link>https://ledge.ai/articles/openai_promptfoo_acquisition_ai_security_llm_testing</link>
       <description><![CDATA[<p>OpenAIは2026年3月9日、AIセキュリティスタートアップのPromptfooを買収すると<a href="https://openai.com/index/openai-to-acquire-promptfoo/">発表</a>した。Promptfooは2024年創業の企業で、大規模言語モデル（LLM）を使ったアプリケーションの評価やセキュリティテストを行うツールを提供している。買収額などの条件は公表されていない。</p>
@@ -357,22 +391,6 @@
 ・資源配分（Resource Allocation）</p>
 <p>これらのプロセスは、状況認識や意思決定の基盤となる重要な要素であり、AIによるデータ整理や分析、レポート生成などの自動化・効率化が期待される。</p>
 <p>Sakana AIは、複数のAIシステムを組み合わせることで高度な問題解決を行う研究を進めており、今回のプロジェクトでもこうした技術を活用する。AIを組み合わせた情報処理によって、複雑なデータの分析や状況理解を支援する仕組みの開発を進めるとしている。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>桜のつぼみ写真から開花日を予測　ウェザーニューズ、AIで満開日も算出する「桜AI開花予想」</title>
-      <link>https://ledge.ai/articles/sakura_ai_bloom_forecast_weathernews</link>
-      <description><![CDATA[<p>ウェザーニューズは2026年3月10日、桜のつぼみの写真から開花日と満開日を予測するサービス「桜AI開花予想」の提供を開始したことを<a href="https://jp.weathernews.com/news/55258/">発表</a>した。スマートフォンで撮影したつぼみの画像をAIが解析し、桜の成長段階を判定。気象予測データと組み合わせることで、地点ごとの開花日や満開日を推定する。</p>
-<h2>AIがつぼみの状態を解析、開花日を予測</h2>
-<p>「桜AI開花予想」は、スマートフォンで撮影した桜のつぼみの写真をAIが解析し、開花時期を予測するサービスだ。AIはつぼみの状態を解析して成長段階を判定し、気温などの気象予測データと組み合わせることで、開花日と満開日を推定する。</p>
-<p>従来の桜の開花予想は、主に過去の気温データや今後の気象予測をもとに算出されることが多いが、このサービスでは実際のつぼみの状態を画像から読み取ることで、より地点に近い状況を反映した予測が可能になるとしている。</p>
-<p><strong>ウェザーニューズの「桜AI開花予想」画面。つぼみの写真を送信するとAIが解析し、開花日と満開日を予測する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260306_sakura_ai1_side_47e3a34ea5/20260306_sakura_ai1_side_47e3a34ea5.jpg" alt="20260306_sakura_ai1-side.jpg" /></p>
-<h2>全国1400以上の花見スポットに対応</h2>
-<p>このサービスでは、全国1400以上の花見スポットについて開花予想を確認できる。利用者はアプリ上でつぼみの写真を投稿し、その解析結果をもとに開花時期の目安を知ることができる。</p>
-<p>ウェザーニューズはこれまで、利用者から寄せられる桜の観測情報を活用した「さくらプロジェクト」を展開してきた。今回の「桜AI開花予想」では、こうした市民参加型の観測データとAIによる画像解析を組み合わせることで、開花予測の精度向上を目指すとしている。</p>
-<p>同社は今後も、利用者から投稿される桜のつぼみ写真や観測データを活用し、AIモデルの改善や予測精度の向上につなげていく方針としている。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
