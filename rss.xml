@@ -151,6 +151,30 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>GDELT、100以上の言語で世界のニュースを収集する情報基盤　1979年以降のデータを基にAIで報道動向を可視化</title>
+      <link>https://ledge.ai/articles/gdelt_global_news_dataset_ai_visualization_1979_multilingual_analysis</link>
+      <description><![CDATA[<p>世界中のニュースをリアルタイムで収集・分析するプロジェクト「<a href="https://blog.gdeltproject.org/">GDELT</a>」が、最新のブログ投稿で、Googleの生成AI「Gemini」を活用したグローバル報道の可視化手法を公開した。1979年以降のニュースデータを蓄積してきた同プロジェクトの基盤をもとに、世界の報道動向をAIで読み解く取り組みが進んでいる。</p>
+<h2>半月分の世界報道を1枚に集約　Geminiで“グローバルな関心”を可視化</h2>
+<p>2026年3月18日<a href="https://blog.gdeltproject.org/a-montage-of-half-a-month-of-global-media-trends-using-gemini-3-1-imagemagick/">公開</a>のブログ投稿では、世界各国のテレビニュースを対象に、3月1日から16日までの約半月分の報道内容を統合し、1枚のビジュアルとして表現する試みを紹介した。</p>
+<p>この手法では、各国のニュース映像や報道内容をもとに、その期間に世界でどのようなテーマが扱われていたかを抽出し、視覚的に再構成する。結果として生成されたモンタージュ画像には、各地域で繰り返し取り上げられた話題や、報道のトーンの違いが反映され、国ごとの関心の偏りや共通点を一望できる形となっている。</p>
+<p><strong>■ 世界各国の報道をもとに生成されたモンタージュの一部</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gdelt_project_montage_bb053f6a84/gdelt_project_montage_bb053f6a84.jpg" alt="gdelt project montage.jpg" /></p>
+<p>処理には、Googleの生成AI「Gemini 3.1」が用いられ、報道内容の整理や要約に活用されている。また、画像生成・合成にはImageMagickなどのツールが組み合わされており、テキストとビジュアルを横断したデータ処理が行われている。</p>
+<p>GDELTが蓄積する膨大なニュースデータを、単なるアーカイブとしてではなく、「世界の情報の流れを俯瞰するための可視化レイヤー」として活用した事例といえる。</p>
+<h2>「GDELT」とは——1979年以降の報道を蓄積するグローバルデータ基盤</h2>
+<p>GDELT（Global Database of Events, Language, and Tone）は、世界各国の放送・新聞・ウェブニュースを対象に、100以上の言語で情報を収集・記録するプロジェクトである。ニュースはほぼリアルタイムで収集されるとともに、1979年以降のデータが蓄積されており、長期的な視点で世界の報道動向を分析できる。</p>
+<p>同プロジェクトは単なるニュースの収集にとどまらず、記事内容から出来事やテーマ、登場する人物・組織、報道のトーンなどを抽出し、データセットとして構造化している。GDELTの<a href="https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/">公式ブログ</a>でも、世界の出来事とそれに対する反応をリアルタイムで捉える仕組みとして説明されており、各国の報道を横断的に比較・分析できる点に特徴がある。</p>
+<h2>1日・1週間単位の分析も　報道データを多層的に読み解く試み</h2>
+<p>GDELTは今回の半月単位の分析に加え、異なる時間スケールでの可視化・分析も進めている。</p>
+<p>2026年3月17日の<a href="https://blog.gdeltproject.org/using-gemini-3-1-to-turn-a-directory-of-infographics-into-a-global-montage-of-a-day-of-media-trends-around-the-world/">投稿</a>では、1日分の世界のニュースを対象に、各種インフォグラフィックをもとに再構成したビジュアルを生成。短期間における報道の集中テーマや、地域ごとのトピックの違いをコンパクトに把握できる形に整理している。日単位での分析は、速報性の高いニュースの流れを把握する用途に適している。</p>
+<p><strong>■ GDELTが収集した世界のニュースをもとに、1日分の報道トピックをインフォグラフィックとして再構成した例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gdelt_project_infographics2_2a85a28932/gdelt_project_infographics2_2a85a28932.jpg" alt="gdelt project infographics2.jpg" /></p>
+<p>2月23日の<a href="https://blog.gdeltproject.org/an-experiment-in-deeply-analyzing-the-trends-themes-of-one-week-of-global-television-news/">投稿</a>では、41のグローバルテレビニュースチャンネルを対象に、1週間分の報道を分析する実験が行われた。この取り組みでは、各チャンネルの報道内容を横断的に比較し、共通して取り上げられているテーマや、地域ごとの関心の差異を抽出している。週単位での分析により、短期的なニュースのノイズをならしつつ、より構造的なトレンドを把握することが可能となる。なお、この分析ではGeminiのAPIを用いた推論のみが行われており、データがモデルの学習や調整に使用されていない点も明記されている。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/2026_02_13_todaystrendscaphill_1024x395_81f522fc9f/2026_02_13_todaystrendscaphill_1024x395_81f522fc9f.png" alt="2026-02-13-todaystrendscaphill-1024x395.png" /></p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>人とロボットが共創する次世代産業のリアル ー 「GENEX #2」開催レポート</title>
       <link>https://ledge.ai/articles/genex_robotics_report</link>
       <description><![CDATA[<p>現在、日本の産業界は物流、警備、点検、施設管理といった主要セクターにおいて、未曾有の人手不足という構造的欠陥に直面している。この危機を回避するための戦略的切り札として、現場の「ロボティクスによる自律化」が加速している。かつてロボットは、単純作業を繰り返すだけの「自動化ツール」に過ぎなかった。しかし、生成AIと物理世界の高度な融合により、ロボットは今、自ら環境を理解し、判断し、行動する知能体へと進化を遂げている。
