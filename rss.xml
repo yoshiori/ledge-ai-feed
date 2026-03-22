@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Manus、AIエージェントをデスクトップ化　ローカルPC上でファイルやアプリを直接操作可能に</title>
+      <link>https://ledge.ai/articles/manus_ai_agent_desktop_local_execution_release</link>
+      <description><![CDATA[<p>Meta傘下のAIスタートアップManusは2026年3月16日、AIエージェント「Manus」をローカル環境で動作させる新機能「My Computer」を<a href="https://manus.im/ja/blog/manus-my-computer-desktop">発表</a>した。これにより、従来はクラウド上で動作していたManusが、ユーザーのPC上のファイルやアプリケーションに直接アクセスし、操作できるようになった。対応OSはmacOSおよびWindowsで、同日から提供を開始している。</p>
+<h2>クラウドからローカルへ、AIエージェントの動作領域を拡張</h2>
+<p>これまでManusは、クラウド上のサンドボックス環境で動作するAIエージェントとして提供されてきた。ネットワーク、コマンドライン、ファイルシステム、ブラウザといった機能を備え、常時オンラインでタスクを実行できる点が特徴だった。</p>
+<p>一方で、実際の業務において重要なファイルや開発環境はローカルPC上に存在するという制約があった。今回の「My Computer」はこのギャップを埋めるもので、Manusをユーザーのコンピュータ上に拡張し、ローカルファイルやツール、アプリケーションと直接連携できるようにする。</p>
+<p>Desktopアプリを通じて、ManusはPCのターミナル上でコマンドライン（CLI）を実行し、ファイルの読み取り、分析、編集、さらにはローカルアプリの起動や制御まで行うことが可能となる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=xtjbiY-tJKk">YouTube</a></p>
+<h2>ファイル整理からアプリ開発まで、ローカル作業を自動化</h2>
+<p>公式ブログでは、具体的な活用例として、ローカル作業の自動化が示されている。</p>
+<p>例えば、大量の写真が未整理のまま保存されている場合、「写真を整理して」と指示するだけで、Manusが画像内容を解析し、カテゴリごとにフォルダを作成して自動分類する。また、請求書ファイルのリネームといった反復的な作業も、コマンドライン操作によって短時間で完了できるとしている。</p>
+<p><strong>■ 写真フォルダを自動分類する例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065.webp" alt="9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69.webp" /></p>
+<p>さらに、PythonやNode.js、Swift、Xcodeといった開発ツールを活用することで、アプリケーション開発にも対応する。実際の事例として、Mac上でSwiftを用いたリアルタイム会議翻訳・字幕アプリを構築したケースが紹介されており、プロジェクト作成からコーディング、デバッグ、パッケージ化までをすべてManusが処理したという。</p>
+<p>このように、ローカル環境へのアクセスにより、ファイル管理にとどまらず、ソフトウェア開発やスクリプト作成、Webサイト構築など、より高度なワークフローの自動化が可能になるとしている。</p>
+<h2>ローカルGPU活用や遠隔操作も可能に、ユーザー承認で制御</h2>
+<p>「My Computer」は、ローカルの計算資源の活用も想定している。PCに搭載されたGPUを用いた機械学習モデルのトレーニングや、大規模言語モデルの推論処理をローカルで実行できるほか、常時稼働しているPCを遠隔から操作するAIエージェントとして利用することも可能とされている。</p>
+<p>例えば、外出先からスマートフォンで指示を出し、自宅のPC上でManusがタスクを実行する、といった使い方が想定されている。クラウドとローカルを横断して処理を行うことで、両者を組み合わせた新しいワークフローを実現する。</p>
+<p>また、Google CalendarやGmailなどのクラウドサービスとの連携機能も既に備えており、ローカルファイルを取得してメール送信するといった処理も一貫して実行できる。</p>
+<p>一方で、ローカル環境へのアクセスに伴う安全性にも配慮している。すべてのコマンド実行にはユーザーの明示的な承認が必要で、「常に許可」または「一度だけ許可」を選択できる仕組みを採用。ユーザーが主導権を持ち、Manusが実行するという関係を維持する設計としている。</p>
+<p><strong>■ ローカルフォルダの選択と権限付与の流れ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730.webp" alt="c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287.webp" /></p>
+<p>Manusは、AIエージェントを単なるチャットツールではなく「行動エンジン」と位置付けており、今回のデスクトップ対応により、クラウドとローカルを統合した実行基盤としての機能強化を図るとしている。</p>
+]]></description>
+      <pubDate>Thu, 19 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>楽天、「Rakuten AI 3.0」を提供開始　GENIAC発の7000億パラメータ日本語LLMをオープン公開</title>
       <link>https://ledge.ai/articles/rakuten_ai_3_0_llm_open_release_geniac</link>
       <description><![CDATA[<p>楽天グループは2026年3月17日、日本語に最適化した大規模言語モデル「Rakuten AI 3.0」の提供を開始したことを<a href="https://corp.rakuten.co.jp/news/press/2026/0317_01.html">発表</a>した。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発プロジェクト「GENIAC」の一環として開発されたモデルで、約7000億パラメータの規模を持つ。</p>
@@ -296,33 +323,6 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Manus、AIエージェントをデスクトップ化　ローカルPC上でファイルやアプリを直接操作可能に</title>
-      <link>https://ledge.ai/articles/manus_ai_agent_desktop_local_execution_release</link>
-      <description><![CDATA[<p>Meta傘下のAIスタートアップManusは2026年3月16日、AIエージェント「Manus」をローカル環境で動作させる新機能「My Computer」を<a href="https://manus.im/ja/blog/manus-my-computer-desktop">発表</a>した。これにより、従来はクラウド上で動作していたManusが、ユーザーのPC上のファイルやアプリケーションに直接アクセスし、操作できるようになった。対応OSはmacOSおよびWindowsで、同日から提供を開始している。</p>
-<h2>クラウドからローカルへ、AIエージェントの動作領域を拡張</h2>
-<p>これまでManusは、クラウド上のサンドボックス環境で動作するAIエージェントとして提供されてきた。ネットワーク、コマンドライン、ファイルシステム、ブラウザといった機能を備え、常時オンラインでタスクを実行できる点が特徴だった。</p>
-<p>一方で、実際の業務において重要なファイルや開発環境はローカルPC上に存在するという制約があった。今回の「My Computer」はこのギャップを埋めるもので、Manusをユーザーのコンピュータ上に拡張し、ローカルファイルやツール、アプリケーションと直接連携できるようにする。</p>
-<p>Desktopアプリを通じて、ManusはPCのターミナル上でコマンドライン（CLI）を実行し、ファイルの読み取り、分析、編集、さらにはローカルアプリの起動や制御まで行うことが可能となる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=xtjbiY-tJKk">YouTube</a></p>
-<h2>ファイル整理からアプリ開発まで、ローカル作業を自動化</h2>
-<p>公式ブログでは、具体的な活用例として、ローカル作業の自動化が示されている。</p>
-<p>例えば、大量の写真が未整理のまま保存されている場合、「写真を整理して」と指示するだけで、Manusが画像内容を解析し、カテゴリごとにフォルダを作成して自動分類する。また、請求書ファイルのリネームといった反復的な作業も、コマンドライン操作によって短時間で完了できるとしている。</p>
-<p><strong>■ 写真フォルダを自動分類する例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065/9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69_242ca42065.webp" alt="9df4d458bc665ac8718bc41f468bb3e7132535d5dcfc2b5e74d22bd088568e69.webp" /></p>
-<p>さらに、PythonやNode.js、Swift、Xcodeといった開発ツールを活用することで、アプリケーション開発にも対応する。実際の事例として、Mac上でSwiftを用いたリアルタイム会議翻訳・字幕アプリを構築したケースが紹介されており、プロジェクト作成からコーディング、デバッグ、パッケージ化までをすべてManusが処理したという。</p>
-<p>このように、ローカル環境へのアクセスにより、ファイル管理にとどまらず、ソフトウェア開発やスクリプト作成、Webサイト構築など、より高度なワークフローの自動化が可能になるとしている。</p>
-<h2>ローカルGPU活用や遠隔操作も可能に、ユーザー承認で制御</h2>
-<p>「My Computer」は、ローカルの計算資源の活用も想定している。PCに搭載されたGPUを用いた機械学習モデルのトレーニングや、大規模言語モデルの推論処理をローカルで実行できるほか、常時稼働しているPCを遠隔から操作するAIエージェントとして利用することも可能とされている。</p>
-<p>例えば、外出先からスマートフォンで指示を出し、自宅のPC上でManusがタスクを実行する、といった使い方が想定されている。クラウドとローカルを横断して処理を行うことで、両者を組み合わせた新しいワークフローを実現する。</p>
-<p>また、Google CalendarやGmailなどのクラウドサービスとの連携機能も既に備えており、ローカルファイルを取得してメール送信するといった処理も一貫して実行できる。</p>
-<p>一方で、ローカル環境へのアクセスに伴う安全性にも配慮している。すべてのコマンド実行にはユーザーの明示的な承認が必要で、「常に許可」または「一度だけ許可」を選択できる仕組みを採用。ユーザーが主導権を持ち、Manusが実行するという関係を維持する設計としている。</p>
-<p><strong>■ ローカルフォルダの選択と権限付与の流れ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730/c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287_2eec3f0730.webp" alt="c5e3346889a006e983ed60b9789523b7e4c528b0ea03c26e85d1b13731378287.webp" /></p>
-<p>Manusは、AIエージェントを単なるチャットツールではなく「行動エンジン」と位置付けており、今回のデスクトップ対応により、クラウドとローカルを統合した実行基盤としての機能強化を図るとしている。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft、長時間タスクを実行する「Copilot Cowork」を研究プレビュー公開——Anthropicと連携し“実行するCopilot”へ</title>
       <link>https://ledge.ai/articles/microsoft_365_copilot_agent_365_launch</link>
       <description><![CDATA[<p>Microsoftは2026年3月9日（米国時間）、同社のAI機能「Microsoft 365 Copilot」において、長時間にわたる業務タスクを自律的に実行する機能「Copilot Cowork」を研究プレビューとして<a href="https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/">公開</a>した。Anthropicと共同開発したもので、AIが複数のステップにわたる業務を継続的に処理する“実行型Copilot”の実現を目指す。</p>
@@ -603,23 +603,6 @@
 <p>NPB、NPBエンタープライズ、日本プロ野球選手会は、日本代表の監督・コーチ・選手、そして必要に応じてその家族を誹謗中傷から守ることで、選手が安心して競技に集中できる環境づくりを進めるとしている。前年の国内大会で被害実態が明らかになったことを受け、AIを活用した対策の舞台はWBCという国際大会へと広がることになった。</p>
 ]]></description>
       <pubDate>Sat, 07 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>楽天、7000億パラメータの日本語LLM「Rakuten AI 3.0」発表──GENIAC支援で開発、国内最大規模</title>
-      <link>https://ledge.ai/articles/rakuten_ai_3_0_japanese_llm_700b_geniac</link>
-      <description><![CDATA[<p>楽天グループは2025年12月18日、日本語に特化した大規模言語モデル（LLM）「Rakuten AI 3.0」を<a href="https://corp.rakuten.co.jp/news/press/2025/1218_01.html">発表</a>した。同社によると、同モデルは約7000億パラメータ規模で、日本語LLMとして国内最大規模に位置付けられる。経済産業省および新エネルギー・産業技術総合開発機構（NEDO）が推進する生成AI開発支援プロジェクト<a href="https://ledge.ai/articles/geniac_third_round_rakuten_nri_selected">「GENIAC（Generative AI Accelerator Challenge）」の支援</a>を受けて開発された。</p>
-<p>Rakuten AI 3.0は、Mixture of Experts（MoE）アーキテクチャを採用する。総パラメータ数は約7000億に達する一方、推論時には入力内容に応じて一部の専門モデルのみを動作させる仕組みとすることで、計算資源の効率化と運用コストの低減を図ったとしている。</p>
-<p>同社によると、Rakuten AI 3.0は日本語の文脈理解や表現の自然さを重視して設計され、楽天が保有するデータや高品質な日本語・バイリンガルデータを用いて学習および調整が行われた。日本語ベンチマークの一つである日本語版MT-Benchでは8.88のスコアを記録したとしている。</p>
-<p><strong>■ 日本語特化モデルとのベンチマーク比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_82bda693ce/rakuten_ai_3_0_82bda693ce.jpg" alt="rakuten ai 3-0.jpg" /></p>
-<p>また、社内検証では、同規模クラスのモデルと比較して最大90％のコスト削減効果が確認されたという。研究用途にとどまらず、実サービスへの適用を前提としたモデルである点を特徴としている。</p>
-<p><strong>■ 楽天AIシリーズにおける位置付け</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rakuten_ai_3_0_1_41fbde6837/rakuten_ai_3_0_1_41fbde6837.jpg" alt="rakuten ai 3-0-1.jpg" /></p>
-<p>Rakuten AI 3.0は、楽天の生成AI基盤「Rakuten AI Gateway」に統合され、APIを通じて利用可能となる予定だ。さらに、同社が展開する「Rakuten AI」エージェントプラットフォームを介し、楽天エコシステム内の各種サービスへの順次導入を進めるとしている。</p>
-<p>開発は、GENIACの枠組みに基づく支援の下で行われた。GENIACは、日本国内における生成AIの基盤技術強化と社会実装を目的に、計算資源の提供や研究開発支援を行う国家プロジェクトである。</p>
-<p>楽天グループは、Rakuten AI 3.0について、2026年春を目標にオープンウェイトモデルとして公開する計画も示している。日本語に特化した大規模モデルをオープンに提供することで、国内の生成AI開発や利活用の裾野拡大につなげたい考えだ。</p>
-]]></description>
-      <pubDate>Sun, 21 Dec 2025 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
