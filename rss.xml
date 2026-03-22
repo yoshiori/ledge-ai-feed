@@ -93,33 +93,6 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe、PhotoshopのAI編集支援を強化　自然言語で指示できる「AI Assistant」公開</title>
-      <link>https://ledge.ai/articles/adobe_photoshop_ai_assistant_firefly_image_editing</link>
-      <description><![CDATA[<p>Adobeは2026年3月10日（米国時間）、画像編集ソフト「Photoshop」のWeb版およびモバイル版に新機能「AI Assistant」を導入し、パブリックβ版として<a href="https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly">発表</a>した。ユーザーが自然言語や音声で編集内容を指示できる機能で、同社の生成AI「Firefly」を基盤としている。あわせてFirefly Image Editorでも複数のAI編集機能を追加し、画像生成から編集までをAIで支援する機能強化を打ち出した。</p>
-<h2>自然言語で画像編集を指示できる「AI Assistant」</h2>
-<p>AI Assistantは、Photoshopの操作をAIが支援する機能だ。ユーザーは「不要な人物を削除する」「背景を別の風景に変更する」「明るさを調整する」といった編集内容をテキストや音声で指示でき、AIがそれに応じた操作を実行する。</p>
-<p>AI Assistantは編集を自動で適用するだけでなく、必要な手順を提示してユーザーの操作をサポートすることもできる。Adobeは、学生やデザイナー、マーケティング担当者など幅広いユーザーが、より直感的に画像編集を行えるようになるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/AI_Assistant_in_Photoshop_7d945cb33e/AI_Assistant_in_Photoshop_7d945cb33e.jpg" alt="AI Assistant in Photoshop.jpg" /></p>
-<h2>画像上に直接指示を書き込める「AI Markup」</h2>
-<p>Photoshop Web版には、AI Assistantを活用した新機能「AI Markup」も追加された。これは画像上の特定の領域を囲ったり描き込んだりしたうえで、テキストによって編集内容を指示できる機能だ。</p>
-<p>例えば画像の一部を指定し、「ここに花を追加する」「背景を山に変更する」といった指示を与えることで、AIが指定部分の編集を実行する。Adobeは、編集箇所を視覚的に指定できることで、より直感的な画像編集が可能になるとしている。</p>
-<h2>Firefly Image EditorにもAI編集機能を追加</h2>
-<p>今回の発表では、Adobeの生成AIツール「Firefly Image Editor」にも複数の編集機能が追加された。</p>
-<p>追加された主な機能は次の通り。
-・Generative Fill（生成塗りつぶし）
-・Generative Remove（不要物削除）
-・Generative Expand（画像拡張）
-・Generative Upscale（高解像度化）
-・Remove Background（背景削除）</p>
-<p>これらの機能は、AIで生成した画像だけでなく、ユーザーがアップロードした画像の編集にも利用できる。Adobeは、構図の調整やスタイル変更、細部の修正までを一つの編集環境で行えるようにしたとしている。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710/media_10246d176abc34295bac92c4648c3ab9bb740ee6f_b126917710.webp" alt="media_10246d176abc34295bac92c4648c3ab9bb740ee6f.webp" /></p>
-<h2>クリエイティブツールの「対話型AI化」を推進</h2>
-<p>Adobeは近年、同社の生成AI「Firefly」をCreative Cloud製品に統合する取り組みを進めている。今回のPhotoshopへのAI Assistant導入は、AcrobatやAdobe Expressなどに続くAI機能の拡張の一環となる。</p>
-<p>同社は、クリエイティブツールにおいてもチャット型インターフェースを取り入れ、ユーザーが対話形式で制作や編集を進められる環境の構築を目指しているとしている。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenClawが、中国でAIエージェントブームに火をつけた——地方政府が最大500万元補助、テンセントは業務AI「WorkBuddy」投入でミームも広がる「エビを育てる＝AIエージェントを育てる」</title>
       <link>https://ledge.ai/articles/china_openclaw_ai_shrimp_boom_subsidy_workbuddy</link>
       <description><![CDATA[<p>中国でAIエージェント「OpenClaw」をめぐる動きが広がっている。2026年3月に入り、地方政府が補助金制度で導入を後押しし、市場では関連銘柄の株価が上昇。中国の大手クラウド企業も導入支援を進めている。一方で当局はセキュリティリスクへの警戒を示しており、政府機関や国有企業では業務端末への導入を制限する動きも出ている。</p>
@@ -343,6 +316,38 @@
 <h2>Frontier programで段階的に提供</h2>
 <p>Copilot Coworkは現在、研究プレビューとして一部のユーザー向けに提供されている。Microsoftは、2026年3月下旬から「Microsoft 365 Frontier program」を通じて、より広いユーザーに提供を拡大する予定としている。</p>
 <p>同社は、Microsoft 365 Copilotを単なるAIチャットから業務を実行するAIへと進化させる取り組みを進めており、Copilot Coworkはその方向性を示す機能の一つと位置付けられている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>核危機を想定したシミュレーションでAIの意思決定を分析　核の威嚇を高頻度で選択——英キングス・カレッジ研究</title>
+      <link>https://ledge.ai/articles/nuclear_crisis_ai_decision_simulation_kings_college</link>
+      <description><![CDATA[<p>英キングス・カレッジ・ロンドンの戦略研究を専門とする教授 Kenneth Payne氏は2026年2月16日、核危機を想定したシミュレーションでAIの意思決定を分析した論文を<a href="https://arxiv.org/abs/2602.14740v1">発表</a>した。複数の大規模言語モデル（LLM）を対戦させた結果、AIは高度な戦略推論を示す一方、核による威嚇を高い頻度で選択する傾向を示したという。</p>
+<h2>核危機を想定したシミュレーションで意思決定を検証</h2>
+<p>論文「AI Arms and Influence: Frontier Models Exhibit Sophisticated Reasoning in Simulated Nuclear Crises（AI兵器と影響力：最先端モデルが核危機シミュレーションにおいて高度な推論能力を発揮）」では、GPT-5.2、Claude Sonnet 4、Gemini 3 Flashの3モデルを対象に実験を行った。研究では、核危機を想定した21のシナリオを用意し、各モデルを対戦させながら意思決定の過程を分析した。</p>
+<p><strong>■ 図：AIは「状況整理→予測→意思決定」の3段階で行動を選択する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig_cognitive_architecture_c5dc28eb48/fig_cognitive_architecture_c5dc28eb48.jpg" alt="fig_cognitive_architecture.jpg" /></p>
+<p>シミュレーションはターン制で進む。各モデルは毎ターン、</p>
+<ul>
+<li>状況を整理する</li>
+<li>相手の行動を予測する</li>
+<li>最終的な判断を下す</li>
+</ul>
+<p>という3段階を踏んで行動を決める。この設計により、出力結果だけでなく「どのように考えたか」という推論過程も記録できる。
+同研究ではトーナメント形式で実験を進め、329ターンにわたり、合計約78万語の推論ログを収集した。</p>
+<h2>核の威嚇はほぼ常態　譲歩は一度も選ばれず</h2>
+<p>研究では、すべてのシナリオで少なくとも一方のモデルが核による威嚇（シグナリング）を行った。さらに約95％のケースで、双方が核威嚇を選択した。</p>
+<p><strong>■ 図：各モデルの勝率。条件によって性能差が見られる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig1_win_rates_beacad7974/fig1_win_rates_beacad7974.jpg" alt="fig1_win_rates.jpg" /></p>
+<p>核攻撃に至るケースは多くなかったが、モデルは核兵器を「最後の手段」としてではなく、状況に応じて選択する戦略の一部として扱った。</p>
+<p>モデルごとの差も見られた。ClaudeとGeminiは比較的積極的に核を選択した。一方、GPT-5.2は「限定的」「一度きり」といった条件を付ける場面が多く、一定の抑制を示した。ただし、核の使用自体を避ける傾向が強いわけではなかった。</p>
+<p>また、3モデルはいずれも、譲歩や降伏といった選択肢を一度も選ばなかった。核による威嚇は相手の譲歩を引き出すというよりも、相互のエスカレーションを招くケースが多かった。</p>
+<p><strong>■ 図：核関連行動の選択割合。威嚇（シグナリング）が突出して多い</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fig5_nuclear_thresholds_9b492ca023/fig5_nuclear_thresholds_9b492ca023.jpg" alt="fig5_nuclear_thresholds.jpg" /></p>
+<h2>AIは必ずしも安全側の判断を選ばない</h2>
+<p>この研究は、AIが高度な戦略的推論能力を持つことを示す一方で、危機状況では必ずしも協調的・安全志向の判断を選ばない可能性も示した。</p>
+<p>論文では、このようなシミュレーションが安全保障分野の分析にも応用できる可能性に言及している。その一方で、研究では人間の意思決定との整合性や妥当性を慎重に検証する必要があるとも指摘している。</p>
+<p>キングス・カレッジ・ロンドンも、この研究について「AIは常に安全で協調的な選択をする」という前提に疑問を投げかけるものだと位置付けている。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
