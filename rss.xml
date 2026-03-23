@@ -428,22 +428,6 @@
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、AIセキュリティ企業「Promptfoo」を買収　Fortune 500の25％以上が利用するLLMテストツール</title>
-      <link>https://ledge.ai/articles/openai_promptfoo_acquisition_ai_security_llm_testing</link>
-      <description><![CDATA[<p>OpenAIは2026年3月9日、AIセキュリティスタートアップのPromptfooを買収すると<a href="https://openai.com/index/openai-to-acquire-promptfoo/">発表</a>した。Promptfooは2024年創業の企業で、大規模言語モデル（LLM）を使ったアプリケーションの評価やセキュリティテストを行うツールを提供している。買収額などの条件は公表されていない。</p>
-<h2>LLMアプリの評価・セキュリティテストツールを開発</h2>
-<p>Promptfooは、LLMを利用したアプリケーションの品質評価や安全性検証を行うツールを開発している企業。企業が生成AIシステムを導入する際のテストや監査に利用されている。</p>
-<p>主な機能として、AIの回答品質を評価する「LLM evaluation」、プロンプト攻撃やデータ漏えいのリスクを検出するセキュリティテスト、AIシステムの脆弱性を調べるレッドチーミングなどを備える。</p>
-<p>同社はCLIツールやライブラリをオープンソースとして公開しており、開発者が自社のAIアプリケーションを自動テストできる環境を提供している。生成AIの企業利用が広がるなか、AIの出力品質や安全性を検証するツールとして利用が拡大している。</p>
-<p>Promptfooによると、同社のツールは35万人以上の開発者に利用されており、月間アクティブユーザーは13万人以上にのぼる。また、Fortune 500企業の25％以上のチームが同ツールを導入しているという。</p>
-<h2>OpenAIの企業向けAI基盤に統合へ</h2>
-<p>OpenAIは今回の買収により、Promptfooの評価およびセキュリティテスト技術を、同社の企業向けAI基盤に統合する方針を示している。企業が生成AIを業務に導入する際、モデルの性能評価や安全性検証を自動化する仕組みを強化する狙いがある。</p>
-<p>PromptfooのチームはOpenAIに加わる予定だが、同社が公開しているオープンソースプロジェクトは継続される予定だという。Promptfooは<a href="https://www.promptfoo.dev/blog/promptfoo-joining-openai/">公式ブログ</a>で「OpenAIの一員となることで、AIの安全性評価とテストをさらに前進させる」とコメントしている。</p>
-<p>生成AIの企業導入が進むなか、AIの能力そのものだけでなく、安全性や信頼性を検証するためのツールや基盤の重要性も高まっている。今回の買収は、企業向けAIの運用やガバナンスを支える技術基盤の強化を目的とした動きとみられる。</p>
-]]></description>
-      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>パナソニックHD、シンガポール開発拠点の視覚検査向けAIプラットフォームをグローバル展開　初のライセンス提供</title>
       <link>https://ledge.ai/articles/panasonic_visual_inspection_ai_global_licensing</link>
       <description><![CDATA[<p>パナソニック ホールディングスは2026年3月13日、シンガポールの研究開発拠点であるパナソニックR&amp;Dセンターシンガポールが開発した視覚検査向けAIプラットフォームについて、グローバルでのライセンス提供を開始すると<a href="https://news.panasonic.com/jp/press/jn260313-1">発表</a>した。同社が同拠点発の技術・ソリューションを外部にライセンス提供するのは初めてとなる。</p>
@@ -470,6 +454,28 @@
 ・資源配分（Resource Allocation）</p>
 <p>これらのプロセスは、状況認識や意思決定の基盤となる重要な要素であり、AIによるデータ整理や分析、レポート生成などの自動化・効率化が期待される。</p>
 <p>Sakana AIは、複数のAIシステムを組み合わせることで高度な問題解決を行う研究を進めており、今回のプロジェクトでもこうした技術を活用する。AIを組み合わせた情報処理によって、複雑なデータの分析や状況理解を支援する仕組みの開発を進めるとしている。</p>
+]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テレビ朝日、Google Cloudの動画生成AI「Veo」活用を本格化　地上波番組での利用を具体検討</title>
+      <link>https://ledge.ai/articles/tv_asahi_veo_ai_video_production_google_cloud</link>
+      <description><![CDATA[<p>テレビ朝日が、Google Cloudの動画生成AI「Veo」を活用した映像制作の取り組みを進めていることが分かった。Google Cloudが2026年3月9日に公開した<a href="https://cloud.google.com/blog/ja/topics/customers/tv-asahi-begins-full-scale-utilization-of-veo">顧客事例</a>によると、2025年夏に設立されたAI推進部が中心となり、社内コンテストを通じて活用ノウハウを蓄積。現在は、地上波番組での実運用を視野に入れた検討が進められているという。</p>
+<h2>社内コンテストで生成AI動画の実践とリテラシー向上を推進</h2>
+<p>テレビ朝日は2025年夏、全社横断でAI活用を推進する専門組織「AI推進部」を設立した。同部は、生成AIの実践的な理解を促す取り組みとして、Google Cloudの動画生成AI「Veo」を活用した「生成AI動画コンテスト」を実施した。</p>
+<p>コンテストは2025年6月から8月にかけて行われ、応募対象は全社員。制作現場に限らず、バックオフィス部門も含めて50件以上の応募が集まった。</p>
+<p><strong>■ テレビ朝日の社屋をベースに生成されたコンテスト作品の一例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image4_HM_7pq_Ir_max_800x800_6977f7c688/image4_HM_7pq_Ir_max_800x800_6977f7c688.jpg" alt="image4_HM7pqIr.max-800x800.jpg" /></p>
+<p>この取り組みの背景には、AIが実際のコンテンツ制作にどのように役立つのか具体的なイメージを持ちにくいという課題と、著作権やガイドラインなどAI活用に伴うリスクへの理解を深める必要性があった。座学ではなく参加型のコンテスト形式とすることで、コンテンツ制作を通じてAIの活用スキルと安全な利用方法の習得を促したとしている。</p>
+<h2>Veo採用の背景に「品質」と「権利関係の明確さ」</h2>
+<p>コンテストの中核ツールとして採用されたのが、Google Cloudの動画生成AI「Veo」である。採用の決め手としては、生成される映像の品質の高さに加え、商用利用における権利関係がクリアである点が挙げられている。</p>
+<p><strong>■ Googleの動画生成AI「Veo」のデモ動画</strong></p>
+<p>@<a href="https://youtu.be/I06Ef8alr2Y?si=5EnvgyrSMcRhtxTf">YouTube</a></p>
+<p>担当者は、プロンプトを入力することで頭の中のイメージを短時間で映像として出力できる点に言及し、従来であれば海外ロケや大規模なCG制作が必要となる映像表現についても、PC1台で生成できる可能性があるとしている。</p>
+<p>一方で、放送用途での活用にあたっては、意図通りに生成映像をコントロールすることや、放送局としてのガバナンス担保といった課題もある。これに対応するため、社内ではプロンプトの構造化や生成ログの管理機能を備えたツールを開発し、著作権保護やコスト管理を行える仕組みの整備を進めている。</p>
+<h2>ドラマやバラエティーでの活用を視野に具体検討</h2>
+<p>コンテストの実施を通じて、社内では生成AIへの理解が進み、「Veo」という名称が日常的に使われるようになるなど、AI活用に対する心理的ハードルの低下も見られたという。</p>
+<p>現在は、ドラマの背景映像の補完や、バラエティー番組のネタ映像、再現VTRの制作など、実際の地上波放送での活用に向けた具体的な検討が進められている。</p>
 ]]></description>
       <pubDate>Mon, 16 Mar 2026 05:50:00 GMT</pubDate>
     </item>
