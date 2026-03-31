@@ -830,6 +830,43 @@ HyeongJun Hwang氏</p>
       <pubDate>Mon, 23 Mar 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>英語版Wikipedia、LLMによる記事本文生成を原則禁止　コミュニティ投票でガイドライン採択</title>
+      <link>https://ledge.ai/articles/wikipedia_bans_llm_generated_article_content</link>
+      <description><![CDATA[<p>英語版Wikipediaで、ChatGPTなどの大規模言語モデル（LLM）を使って記事本文を生成したり書き換えたりすることを原則禁じる<a href="https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models">ガイドライン</a>が整備された。2026年3月に実施された<a href="https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC">コミュニティ議論</a>Request for Comment、RfC）で支持多数により採択され、記事本文の生成用途は認めない方針が明文化された。</p>
+<h2>英語版Wikipediaで「LLMによる記事生成禁止」を明文化</h2>
+<p>英語版Wikipediaでは、新しいガイドライン「Writing articles with large language models」を公開し、LLMを使って記事本文を生成することを原則禁止した。</p>
+<p>ガイドラインの要旨では、次の方針が明確に示されている。</p>
+<ul>
+<li>LLMを使って記事本文を生成することは禁止</li>
+<li>LLMによる記事本文の書き換えも禁止</li>
+</ul>
+<p>理由として、幻覚（hallucination）、架空の出典、検証不能な内容などのリスクが挙げられている。</p>
+<p>Wikipediaは百科事典としての信頼性を維持するため、出典確認を含めた編集プロセスを人間の編集者が担うことを重視している。生成AIが作成した文章をそのまま記事内容として使用することは、この編集原則と相容れないとされる。</p>
+<h2>2026年3月のコミュニティ投票で採択</h2>
+<p>この方針は、英語版Wikipediaのコミュニティで実施されたRfCによって議論された。</p>
+<p>RfCの結果は</p>
+<ul>
+<li>賛成：44</li>
+<li>反対：2</li>
+</ul>
+<p>となり、ガイドラインの改定は圧倒的多数の支持で採択された。議論の総括では、LLMの利用を全面禁止するのではなく、問題となりやすい記事生成用途を抑制しつつ、適切な利用範囲を明確化する必要があると結論付けられている。</p>
+<h2>例外として認められる利用</h2>
+<p>一方で、LLMの利用が全面的に禁止されたわけではない。ガイドラインでは主に次の用途が例外として認められている。</p>
+<ul>
+<li>コピーエディットの補助</li>
+<li>文法修正や文章の改善提案など</li>
+<li>翻訳補助</li>
+<li>他言語版Wikipediaの記事を翻訳する場合（ただし最終的な内容確認は人間の編集者が行う必要がある）</li>
+</ul>
+<p>つまり、LLMは編集補助ツールとしての利用は可能だが、記事内容そのものの生成には使えないという位置づけになる。</p>
+<h2>LLM利用拡大を受けたルール整備</h2>
+<p>近年、ChatGPTなどの生成AIを使った文章生成が急速に普及している。WikipediaでもAIを使った編集が増えており、誤情報や架空の出典が含まれるケースが問題視されてきた。</p>
+<p>今回のガイドラインは、こうした状況を受けてLLM利用の許容範囲を明確化する目的で整備されたものだ。生成AIを完全に排除するのではなく、百科事典の信頼性を維持するための編集ルールを明確にする狙いがある。</p>
+<p>英語版Wikipediaでは今後、LLMを補助ツールとして活用しつつも、記事本文の作成については人間の編集者が主体となる編集体制を維持する方針となる。</p>
+]]></description>
+      <pubDate>Mon, 23 Mar 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>思考整理から業務フロー共有まで
 EdrawMind／EdrawMaxを使った実務検証レビュー</title>
       <link>https://ledge.ai/articles/wondershare_edraw</link>
