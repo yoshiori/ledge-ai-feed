@@ -788,6 +788,31 @@ HyeongJun Hwang氏</p>
       <pubDate>Mon, 23 Mar 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ByteDance、著作権問題で物議の動画生成AI「Seedance 2.0」をCapCutで提供開始——実在人物の顔・無断IP生成を制限</title>
+      <link>https://ledge.ai/articles/seedance2_capcut_integration_ip_restrictions</link>
+      <description><![CDATA[<p>動画編集ツール「CapCut」は2026年3月26日、ByteDanceが開発した動画生成AI「Seedance 2.0」を活用した生成機能の提供を開始したと<a href="https://www.capcut.com/newsroom/dreamina-seedance-2">発表</a>した。AI生成ツール「Dreamina」の機能として段階的に展開され、テキストや画像などから短い動画を生成できる。著作権問題などで議論を呼んだ動画生成AIが、動画編集ツールの制作フローの中で利用される形となる。</p>
+<h2>CapCutのAI生成機能「Dreamina」に統合</h2>
+<p>CapCutの公式発表によると、Seedance 2.0はAI生成機能「Dreamina」の一部として提供される。ユーザーはテキストや画像などを入力することで短い動画を生成でき、動画編集のワークフローの中でAI生成機能を利用できる。</p>
+<p>生成された動画は最大15秒で、縦型・横型など複数のアスペクト比に対応する。CapCut上での動画編集と組み合わせることで、生成から編集、書き出しまでを同一ツール内で完結できる。</p>
+<p>Dreaminaでは、複数の素材を参照した動画生成や複数クリップの生成など、動画制作を支援する機能も提供される。SNS向け動画やブランド向け動画、映像制作のプレビズ（事前検証）などへの活用が想定されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/283eea6929d448339c1974b1ece2902d_tplv_2zwwjm3azk_image_78961c6375/283eea6929d448339c1974b1ece2902d_tplv_2zwwjm3azk_image_78961c6375.jpg" alt="283eea6929d448339c1974b1ece2902d~tplv-2zwwjm3azk-image.jpg" /></p>
+<h2>実在人物の顔やIP生成には制限</h2>
+<p>CapCutの発表では、Seedance 2.0の生成機能に安全対策が導入されている。
+主な制限として</p>
+<ul>
+<li>実在人物の顔を含む素材からの生成を禁止</li>
+<li>無断の知的財産（IP）生成を制限</li>
+<li>AI生成コンテンツへの不可視ウォーターマークの付与</li>
+</ul>
+<p>などが挙げられている。動画生成AIを巡っては、著作権や肖像権に関する議論が各国で広がっており、こうしたガードレールの整備が進んでいる。</p>
+<h2>Seedance 2.0をめぐるこれまでの議論</h2>
+<p>Seedance 2.0は2026年2月にByteDanceが発表した動画生成AIで、音声と映像を同時に生成するマルチモーダルモデルとして注目を集めた。一方で、生成動画の著作権や知的財産権を巡る問題が指摘され、各国で議論が広がっている。</p>
+<p>動画生成AIを巡っては、OpenAIの「Sora」やGoogleの「Veo」などが登場し、技術開発競争が激化している。</p>
+<p>今回のCapCutへの統合は、動画生成AIを単体の生成サービスとして提供するのではなく、動画編集ツールの制作フローに組み込む動きといえる。AIによる動画生成が、クリエイター向け制作環境の中で利用されるケースが広がりつつある。</p>
+]]></description>
+      <pubDate>Mon, 23 Mar 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国Tencent、OpenClaw連携「微信ClawBot」公開——13億人超のWeChatからAIエージェント操作</title>
       <link>https://ledge.ai/articles/tencent_wechat_clawbot_openclaw_ai_agent_13b_users</link>
       <description><![CDATA[<p>中国Tencentは2026年3月22日、同社のメッセージングアプリWeChat（微信）からAIエージェントに接続できる新ツール「微信ClawBot」を<a href="https://x.com/TencentAI_News/status/2035539458469277802">公開</a>した。WeChatは月間アクティブユーザー約13億人を抱える世界最大級のメッセージプラットフォームで、ユーザーはチャット画面からAIエージェントに指示を送れるようになる。<a href="https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/">Reuters</a>など複数の海外メディアがこの動きを報じている。</p>
