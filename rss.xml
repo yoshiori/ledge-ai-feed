@@ -57,6 +57,36 @@
       <pubDate>Sun, 29 Mar 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google研究者、AIの「次の知能爆発」を提唱　AIの進化は単一の超知能が出現するシンギュラリティではなく“社会的知能”へ</title>
+      <link>https://ledge.ai/articles/agentic_ai_next_intelligence_explosion_science</link>
+      <description><![CDATA[<p>Googleの研究者らは、AIの進化は「単一の超知能が出現するシンギュラリティ」ではなく、人間とAI、さらにAI同士が関わり合う社会的なシステムとして進む可能性が高いとする論文「Agentic AI and the next intelligence explosion」を科学誌『Science』に<a href="https://www.science.org/doi/10.1126/science.aeg1895">発表</a>した。論文は、推論モデル内部で複数の視点が議論する「思考の社会（society of thought）」や、人間とAIが協働する「ケンタウロス型知能」を例に、知能の爆発的進化は社会的な相互作用から生まれると指摘している。</p>
+<h2>従来の「シンギュラリティ」観を再考</h2>
+<p>AI研究では長年、AIが自己改良を繰り返し、人間の知能を大きく超える単一の超知能が出現するという「シンギュラリティ」のシナリオが語られてきた。</p>
+<p>しかし論文は、この前提自体が誤っている可能性が高いと指摘する。知能は単一の尺度で測れるものではなく、多次元的で関係性の中で成立する性質を持つという。さらに、人間の知能そのものも個人単位ではなく社会的な集合体として成立していると説明する。</p>
+<h2>推論モデル内部で生まれる「思考の社会」</h2>
+<p>論文では、最新の推論モデルの挙動として興味深い現象が紹介されている。</p>
+<p>DeepSeek-R1やQwQ-32Bなどの推論モデルでは、単に長く推論することで性能が向上するわけではなく、内部で複数の視点が議論するような構造が生成されることが確認されたという。</p>
+<p>この内部プロセスでは、異なる仮説や視点が互いに議論し、質問し、検証しながら結論へと収束していく。研究チームはこの構造を「society of thought（思考の社会）」と呼び、推論性能の向上に寄与していると説明する。</p>
+<h2>知能の進化は「社会的プロセス」</h2>
+<p>論文はさらに、知能の進化は歴史的にも社会的なプロセスとして起きてきたと指摘する。</p>
+<p>例えば、言語の発明は知識の共有を可能にし、文字や法律、官僚制度などは社会の知能を個人の能力の限界を超えて拡張してきた。こうした制度や文化は、人間の社会全体を一種の認知システムとして機能させてきたとされる。</p>
+<p>つまり過去の「知能爆発」は、個体の脳の能力が突然高まったのではなく、社会的に共有された知識や制度によって知能の単位が拡張された結果として起きてきたという。</p>
+<h2>人間とAIが融合する「ケンタウロス型知能」</h2>
+<p>論文は、今後の知能の形として「human-AI centaurs（ケンタウロス型知能）」という概念を提示する。</p>
+<p>これは、人間とAIが混在する複合的な知能システムを指す。例えば、人間が複数のAIエージェントを指揮する形や、AIが多くの人間を支援する形など、さまざまな構成が考えられる。</p>
+<p>研究者らは、将来的には数十億の人間と数百億、あるいはそれ以上のAIエージェントが相互作用する巨大な知能ネットワークが形成される可能性があると指摘している。</p>
+<h2>AI社会では「制度設計」が重要に</h2>
+<p>論文はまた、AI社会の運用には制度設計が不可欠になると指摘する。</p>
+<p>現在のAI整合手法として広く用いられている「RLHF（人間のフィードバックによる強化学習）」は、人間とAIの1対1関係を前提としているため、数十億のAIエージェントが存在する社会には適用が難しい可能性がある。</p>
+<p>そのため、役割や規範、監視構造などを持つ社会制度としてAIを設計する「institutional alignment（制度的整合）」が重要になると論文は述べている。</p>
+<h2>「知能爆発」はすでに始まっている</h2>
+<p>論文は最後に、知能の爆発的進化は未来の出来事ではなく、すでに始まりつつある可能性があると述べている。</p>
+<p>推論モデル内部の「思考の社会」、人間とAIの協働による知識労働、そしてAIエージェント同士の協働などは、その初期的な兆候とみなすことができるという。</p>
+<p>研究者らは、今後の課題は単一の超知能を制御することではなく、人間とAIが共存する社会システムをどのように設計するかにあると結論づけている。</p>
+]]></description>
+      <pubDate>Sun, 29 Mar 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ケンブリッジ大学の研究、AI搭載おもちゃは子どもの遊びを理解できない？——「遊び」を支える力に課題</title>
       <link>https://ledge.ai/articles/cambridge_ai_toys_children_play_study</link>
       <description><![CDATA[<p>英ケンブリッジ大学の研究チームは2026年3月13日、幼い子ども向けの生成AI搭載おもちゃが、子どもの感情の合図を誤解する場合があることを示した研究結果を<a href="https://www.cam.ac.uk/stories/ai-toys-study-play">公表</a>した。研究では、こうした玩具が発達に重要とされる「遊び」を十分に支える設計になっていない可能性も指摘されている。</p>
@@ -85,59 +115,6 @@
 <li><strong>政策面：</strong> 子どもがAIを「親友」と誤認しすぎるような過度な感情的アピールを制限することや、発達適合性やプライバシー情報を示す製品ラベル制度の検討なども提案</li>
 </ul>
 <p>研究チームは、生成AI玩具が子どもの遊びを代替するのではなく、人間同士の遊びや学習を補助する形で活用されることが望ましいとしている。</p>
-]]></description>
-      <pubDate>Sun, 29 Mar 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏、AI半導体工場「Terafab」構想を発表——宇宙AIインフラ構築へTesla・xAI・SpaceXが連携</title>
-      <link>https://ledge.ai/articles/elon_musk_terafab_space_ai_infrastructure</link>
-      <description><![CDATA[<p>テスラのCEOであるイーロン・マスク氏は2026年3月21日、AI半導体を大量生産する新工場「Terafab」構想を<a href="https://x.com/SpaceX/status/2035519125284380672">発表</a>した。Tesla、xAI、SpaceXの3社が連携し、将来的にテラワット級のAI計算能力を実現することを目指す。マスク氏は、AI計算の中心は将来的に地上から宇宙へ移るとの見方を示し、宇宙AIインフラの構築に向けた長期構想を明らかにした。</p>
-<h2>AIチップ不足を解決する「Terafab」</h2>
-<p>マスク氏は発表の中で、AIの急速な発展に対して半導体供給が追いついていない現状を指摘した。</p>
-<p><em><strong>「Terafabを建設しなければ、必要なチップを確保できない」</strong></em></p>
-<p>現在、世界のAI半導体の年間生産能力は約20ギガワット規模とされるが、Terafabではその約50倍に相当するテラワット級のAI計算能力を支える半導体生産を目標とする。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/needing_tw_chip_supply_5c54821ffb/needing_tw_chip_supply_5c54821ffb.jpg" alt="needing tw chip supply.jpg" /></p>
-<p>施設は米テキサス州オースティンに建設される計画で、ロジック、メモリ、パッケージング、テスト、フォトマスク製造までを単一施設に統合する設計となる。チップの設計から試作、改良までを高速に繰り返す「再帰的な開発ループ」を構築することで、従来よりも大幅に速い技術改善を可能にするという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/terafab_1c292d370a/terafab_1c292d370a.jpg" alt="terafab.jpg" /></p>
-<h2>Tesla・xAI・SpaceXの共同プロジェクト</h2>
-<p>Terafabは単独企業のプロジェクトではなく、Tesla、xAI、SpaceXの3社が連携して進める計画だ。マスク氏は、3社の技術を統合することで計画を実現すると説明した。</p>
-<p><em><strong>「SpaceX、xAI、Teslaが協力してTerafabプロジェクトを実現する」</strong></em></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/we_have_done_the_impossible_before_e114816f02/we_have_done_the_impossible_before_e114816f02.jpg" alt="we have done the impossible before.jpg" /></p>
-<p>Teslaは自動運転やロボット向けAI、xAIはAIモデル開発、SpaceXは宇宙輸送や衛星インフラを担う。こうした技術を統合することで、大規模AIインフラの構築を目指すとしている。</p>
-<h2>AI計算の中心は「宇宙」に移る</h2>
-<p>マスク氏は、AI計算インフラは将来的に宇宙へ拡張される可能性が高いと述べた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/its_always_sunny_325b68b7bc/its_always_sunny_325b68b7bc.jpg" alt="its always sunny.jpg" /></p>
-<p>宇宙では</p>
-<ul>
-<li>太陽光を常時利用できる</li>
-<li>地上よりも高い発電効率が得られる</li>
-<li>電力制約が小さい</li>
-</ul>
-<p>といった利点がある。</p>
-<p>そのため、</p>
-<p><em><strong>「AIを宇宙で運用するコストは、地上よりも安くなる可能性がある」</strong></em></p>
-<p>と説明した。
-この構想では、AI計算を担う衛星を軌道上に配置し、宇宙空間で電力を確保しながらAIを運用するインフラを構築する。</p>
-<h2>Optimusロボットと宇宙AI向けチップ</h2>
-<p>Terafabでは主に2種類の半導体の開発が想定されている。</p>
-<p>一つは、エッジAI向けのチップで、Teslaの自動運転システムやヒューマノイドロボット「Optimus」での利用を想定する。</p>
-<p>もう一つは、宇宙環境での運用を前提とした高性能AIチップだ。宇宙では高エネルギー粒子や放射線、電子蓄積などの影響があるため、地上とは異なる設計が必要になるという。</p>
-<p><strong>Tesla・xAI・SpaceXで利用されるAIチップ構想</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/more_than_one_kind_of_chip_6975a018fe/more_than_one_kind_of_chip_6975a018fe.jpg" alt="more than one kind of chip.jpg" /></p>
-<p>マスク氏は特にヒューマノイドロボット市場について、将来的には年間生産数が車を大きく上回る可能性があるとの見方を示した。</p>
-<p>現在、世界の自動車生産は年間約1億台規模だが、将来的にはヒューマノイドロボットが年間10億〜100億台規模で生産される可能性があると述べている。</p>
-<h2>Starshipが宇宙AIインフラを支える</h2>
-<p>宇宙AIインフラの実現には、SpaceXの大型ロケット「Starship」が重要な役割を果たす。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/scaling_for_massive_capacity_0f17cf3a0b/scaling_for_massive_capacity_0f17cf3a0b.jpg" alt="scaling for massive capacity.jpg" /></p>
-<p>マスク氏は、テラワット級のAI計算能力を実現するためには、年間1000万トン規模のペイロードを軌道に投入する必要があると説明した。</p>
-<p>Starshipによって</p>
-<ul>
-<li>AI計算衛星</li>
-<li>太陽光発電設備</li>
-</ul>
-<p>を大量に宇宙へ打ち上げることで、宇宙空間でAI計算インフラを構築できるという。</p>
-<p>Terafab構想は単なる半導体工場の建設にとどまらず、AI、ロボティクス、宇宙インフラを統合する長期戦略の一部と位置付けられる。マスク氏は、AIとロボットによって大規模な生産力が実現すれば、人類は宇宙規模で資源を利用できる社会へと進む可能性があると述べ、宇宙AIインフラの実現に向けた取り組みへの参加を呼びかけた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=HcxEGykMZc4">YouTube</a></p>
 ]]></description>
       <pubDate>Sun, 29 Mar 2026 02:50:00 GMT</pubDate>
     </item>
