@@ -62,6 +62,36 @@
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、次世代AIモデルを一部顧客とテスト中と認める　「Claude Mythos」存在はデータ漏洩で判明とFortune報道</title>
+      <link>https://ledge.ai/articles/anthropic_claude_mythos_data_leak_test</link>
+      <description><![CDATA[<p>Anthropicが、これまでに公開したどのモデルよりも高性能な次世代AIモデルを開発しており、一部顧客とのテストを開始していることが明らかになった。米Fortuneが2026年3月26日に<a href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/">報じた</a>。
+同モデルの存在は、同社の未公開ブログ草稿が公開キャッシュに保存されていたことで偶発的に判明したという。</p>
+<h2>Fortuneが独占報道、未公開モデルの存在が偶発的に判明</h2>
+<p>Fortuneによると、Anthropicの未公開コンテンツがセキュリティ保護のない公開ストレージに保存されており、誰でもアクセス可能な状態になっていた。この公開キャッシュには、同社の内部ブログ草稿やイベント関連情報などが含まれていた。</p>
+<p>Fortuneが確認した草稿には、Anthropicが開発中の未発表AIモデルに関する説明が記載されていた。同誌の取材に対し、Anthropicの広報担当者は、この新モデルの開発と一部顧客とのテストが行われていることを認めたという。</p>
+<p>公開状態だったデータは2026年3月26日夕方までインターネット上に残っていたとされる。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_mythos_side_c9dbccf71e/claude_mythos_side_c9dbccf71e.jpg" alt="claude mythos-side.jpg" /></p>
+<h2>モデル名は「Claude Mythos」</h2>
+<p>漏洩したブログ草稿によると、この次世代AIモデルの名称は「Claude Mythos（クロード・ミュトス）」とされている。
+Anthropicの広報担当者はFortuneに対し、このモデルについて次のように説明した。</p>
+<p><strong>「AI性能における非連続的な飛躍（step change）を象徴するもので、当社がこれまでに構築した中で最も高性能なモデルだ」</strong></p>
+<p>AnthropicはこれまでClaudeシリーズのモデルを段階的に改良してきており、現在公開されている上位モデルには「Claude Opus 4.6」などがある。今回言及されたMythosは、それらを上回る能力を持つ可能性があるとみられる。</p>
+<h2>サイバーセキュリティ上の新たなリスクにも言及</h2>
+<p>Fortuneが確認した草稿には、この新モデルが「前例のないサイバーセキュリティ上のリスク」をもたらす可能性についても言及があったという。</p>
+<p>Anthropicは、AIモデルの能力向上に伴う安全性の問題について、Responsible Scaling Policy（責任あるスケーリング方針）と呼ばれる安全管理フレームワークを公開している。同社は、モデル能力が特定の閾値を超える場合には、安全対策や公開範囲を段階的に強化する方針を示している。</p>
+<p>今回の未発表モデルについても、こうした安全性評価の枠組みの中で慎重にテストが進められている可能性がある。</p>
+<p>Fortuneによると、公開状態だったデータには以下のような内部情報が含まれていた。</p>
+<ul>
+<li>未発表AIモデルに関するブログ草稿</li>
+<li>招待制のCEO向けイベント情報</li>
+<li>その他の内部資料</li>
+</ul>
+<p>これらは本来外部に公開されるべきものではなく、同誌は今回の事案を「重大なセキュリティ不備」と指摘している。</p>
+<p>Anthropicは次世代モデルの存在とテストを認めたものの、具体的な仕様や公開計画については明らかにしていない。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/3/28 [SAT]ケンブリッジ大学の研究、AI搭載おもちゃは子どもの遊びを理解できない？——「遊び」を支える力に課題</title>
       <link>https://ledge.ai/articles/cambridge_ai_toys_children_play_study</link>
       <description><![CDATA[<p>英ケンブリッジ大学の研究チームは2026年3月13日、幼い子ども向けの生成AI搭載おもちゃが、子どもの感情の合図を誤解する場合があることを示した研究結果を<a href="https://www.cam.ac.uk/stories/ai-toys-study-play">公表</a>した。研究では、こうした玩具が発達に重要とされる「遊び」を十分に支える設計になっていない可能性も指摘されている。</p>
