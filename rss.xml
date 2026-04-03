@@ -120,6 +120,48 @@
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIは50m先の洗車場に歩いて行く？　話題の「洗車テスト」から生まれた複数のAIモデルの回答を比較・議論できるツール「AI Roundtable」</title>
+      <link>https://ledge.ai/articles/ai_roundtable_car_wash_test_opper_ai</link>
+      <description><![CDATA[<p>「車を洗いたい。洗車場は50メートル先にある。歩いて行くべきか、車で行くべきか？」</p>
+<p>一見すると簡単に思えるこの質問だが、AIモデルの多くが誤った答えを出すことが分かり、「洗車テスト」として話題になった。スウェーデンのAI企業 Opper AI は、この実験を発展させ、複数のAIモデルの回答を比較・議論できるツール 「AI Roundtable」を2026年2月19日に<a href="https://opper.ai/blog/car-wash-test">公開</a>した。</p>
+<h2>53モデルで実験、42モデルが誤答</h2>
+<p>Opper AIは、この問いをAIモデルの推論能力を検証する簡易ベンチマークとして使用した。実験では53のAIモデルに対し、同一の質問を提示し、「walk（歩く）」か「drive（車で行く）」のどちらかを選ばせる形でテストを実施した。</p>
+<p>その結果、53モデルのうち42モデルが「walk」と回答し、正解したのは11モデルにとどまった。</p>
+<p>多くのモデルは「50メートルは短い距離なので歩くべき」といった理由を挙げたが、実際には車を洗うためには車を洗車場に持っていく必要がある。AIは距離に関する一般的な判断に引きずられ、問題の文脈を見落としてしまうケースが多かったという。</p>
+<h2>同じモデルを10回テストすると結果はさらに厳しく</h2>
+<p>研究チームはさらに、同じモデルを10回ずつ再テストし、回答の一貫性も検証した。合計530回のAPI呼び出しを行った結果、10回すべて正解したモデルは5つだけだった。</p>
+<p>具体的には</p>
+<ul>
+<li>Claude Opus 4.6</li>
+<li>Gemini 2.0 Flash Lite</li>
+<li>Gemini 3 Flash</li>
+<li>Gemini 3 Pro</li>
+<li>Grok-4</li>
+</ul>
+<p>の5モデルのみが、毎回正しい回答を返したという。OpenAIのGPT-5は7回正解、3回誤答という結果で、単純な問題でも回答が安定しないケースが確認された。</p>
+<h2>人間1万人との比較</h2>
+<p>同じ質問を人間にも提示したところ、1万人の回答のうち71.5%が「drive」と回答した。この結果は、多くのAIモデルが人間の平均的な判断よりも低い正答率だったことを示している。</p>
+<h2>複数AIで判断を比較する「AI Roundtable」</h2>
+<p>Opper AIは、こうした結果を受けて、複数のAIモデルを同時に比較・検証できるツール AI Roundtable を公開した。
+AI Roundtableでは</p>
+<ul>
+<li>200以上のAIモデルから選択</li>
+<li>最大50モデルに同じ質問を提示</li>
+<li>回答結果を一覧表示</li>
+<li>全体の意見を要約</li>
+</ul>
+<p>といった機能を利用できる。
+これにより、AIモデルごとの判断の違いや推論の傾向を同じ条件で比較できる。</p>
+<h2>AI同士が議論する「Debate」モード</h2>
+<p>AI Roundtableには、AI同士が互いの回答を踏まえて議論する 「Debate」モード も用意されている。</p>
+<p>このモードでは複数のAIがラウンド形式で意見を交換し、他のAIの主張を参照しながら回答を更新する。最終的には議論全体をまとめた要約が生成される仕組みだ。</p>
+<h2>AIの判断を「集合知」で検証</h2>
+<p>AIモデルは高度な計算や自然な会話が可能になっている一方で、今回の洗車テストのような単純な問題でも誤った判断をすることがある。</p>
+<p>AI Roundtableは、単一のAIの回答だけに依存するのではなく、複数のAIモデルの判断を比較しながら結論を導くためのツールとして設計されている。AIの推論能力だけでなく、AIの判断の信頼性（reliability）を検証するための実験基盤としての活用も期待されている。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、次世代AIモデルを一部顧客とテスト中と認める　「Claude Mythos」存在はデータ漏洩で判明とFortune報道</title>
       <link>https://ledge.ai/articles/anthropic_claude_mythos_data_leak_test</link>
       <description><![CDATA[<p>Anthropicが、これまでに公開したどのモデルよりも高性能な次世代AIモデルを開発しており、一部顧客とのテストを開始していることが明らかになった。米Fortuneが2026年3月26日に<a href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/">報じた</a>。
