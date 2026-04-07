@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Geminiで作成したGoogleスライドを編集可能に　従来の「固定スライド」問題を解消 まずは英語で提供</title>
+      <link>https://ledge.ai/articles/google_slides_gemini_editable_slides_update</link>
+      <description><![CDATA[<p>Googleは2026年4月1日（米国時間）、生成AI「Gemini」を使って作成したGoogleスライドをユーザーが直接編集できる新機能の提供を順次開始すると<a href="https://workspaceupdates.googleblog.com/2026/04/enerate-beautiful-and-editable-slides-with-ease-in-Google-Slides.html">発表</a>した。これまでGeminiで作成したスライドは内容の修正やレイアウト変更が難しい場合があったが、新機能では通常のスライドと同様に編集できるようになる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=k4xF-TMLBJc">YouTube</a></p>
+<h2>Gemini生成スライドをそのまま編集可能に</h2>
+<p>新機能ではGeminiが生成したスライドをユーザーが自由に編集できるようになる。テキストの修正や図表の変更、レイアウトの調整などを行い、プレゼンテーションを自分のイメージに合わせて仕上げることが可能だ。</p>
+<p>GeminiはこれまでもGoogleスライドの作成を支援してきたが、生成されたスライドが固定レイアウトとなり、細かな編集が難しいケースがあった。今回のアップデートにより、AIが作成したスライドも通常のスライドと同じように編集・再配置できるようになり、AIによる下書きをベースにプレゼン資料を仕上げる作業が容易になる。</p>
+<h2>まずは英語→多言語で順次展開</h2>
+<p>Googleのサポートページによると、この機能は英語をはじめとする複数の言語で順次展開される<a href="https://support.google.com/docs/answer/16961475">予定</a>だ。Geminiのプロンプトからプレゼンテーションを生成し、その内容を編集して仕上げるワークフローが想定されている。</p>
+<p>Google Workspaceでは、DocsやSheets、Slidesなどの各アプリにGeminiを統合する取り組みが進められており、文書作成や分析、プレゼンテーション作成などの作業をAIが支援する機能が拡充されている。今回のアップデートは、AIが作成した成果物を人間が仕上げるという形での共同作業をより実用的なものにする機能といえる。</p>
+]]></description>
+      <pubDate>Sun, 05 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIエージェントに「寿命」を与えると文化が生まれる？　テキサス大学など、知識が世代を超えて蓄積する現象を確認</title>
       <link>https://ledge.ai/articles/ai_agents_cumulative_culture_terralingua</link>
       <description><![CDATA[<p>テキサス大学オースティン校とCognizant AI Labの研究チームは、AIエージェントが生活する仮想社会環境「TerraLingua」を開発し、エージェントに資源制約と有限寿命を与えると、知識や慣習が世代を超えて蓄積する「累積文化」に似た現象が生じることを確認した。研究成果は2026年3月に論文として<a href="https://arxiv.org/abs/2603.16910">公開</a>された。</p>
@@ -537,20 +551,6 @@ AI Roundtableでは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Geminiで作成したGoogleスライドを編集可能に　従来の「固定スライド」問題を解消 まずは英語で提供</title>
-      <link>https://ledge.ai/articles/google_slides_gemini_editable_slides_update</link>
-      <description><![CDATA[<p>Googleは2026年4月1日（米国時間）、生成AI「Gemini」を使って作成したGoogleスライドをユーザーが直接編集できる新機能の提供を順次開始すると<a href="https://workspaceupdates.googleblog.com/2026/04/enerate-beautiful-and-editable-slides-with-ease-in-Google-Slides.html">発表</a>した。これまでGeminiで作成したスライドは内容の修正やレイアウト変更が難しい場合があったが、新機能では通常のスライドと同様に編集できるようになる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=k4xF-TMLBJc">YouTube</a></p>
-<h2>Gemini生成スライドをそのまま編集可能に</h2>
-<p>新機能ではGeminiが生成したスライドをユーザーが自由に編集できるようになる。テキストの修正や図表の変更、レイアウトの調整などを行い、プレゼンテーションを自分のイメージに合わせて仕上げることが可能だ。</p>
-<p>GeminiはこれまでもGoogleスライドの作成を支援してきたが、生成されたスライドが固定レイアウトとなり、細かな編集が難しいケースがあった。今回のアップデートにより、AIが作成したスライドも通常のスライドと同じように編集・再配置できるようになり、AIによる下書きをベースにプレゼン資料を仕上げる作業が容易になる。</p>
-<h2>まずは英語→多言語で順次展開</h2>
-<p>Googleのサポートページによると、この機能は英語をはじめとする複数の言語で順次展開される<a href="https://support.google.com/docs/answer/16961475">予定</a>だ。Geminiのプロンプトからプレゼンテーションを生成し、その内容を編集して仕上げるワークフローが想定されている。</p>
-<p>Google Workspaceでは、DocsやSheets、Slidesなどの各アプリにGeminiを統合する取り組みが進められており、文書作成や分析、プレゼンテーション作成などの作業をAIが支援する機能が拡充されている。今回のアップデートは、AIが作成した成果物を人間が仕上げるという形での共同作業をより実用的なものにする機能といえる。</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft、日本の「AI主導型成長」に1兆6000億円投資　さくらインターネット・ソフトバンクとAIインフラ連携</title>
       <link>https://ledge.ai/articles/microsoft_japan_ai_growth_1_6_trillion_investment_sakura_softbank_ai_infrastructure</link>
       <description><![CDATA[<p>米Microsoftは2026年4月3日、日本の「AI主導型成長」を支援するため、2026年から2029年にかけて総額100億ドル（約1兆6000億円）を投資する計画を<a href="https://news.microsoft.com/source/asia/features/microsoft-commitment-to-japan10-billion-investment-in-ai-infrastructure-cybersecurity-and-workforce-in-japan/?lang=ja">発表</a>した。投資は「技術」「信頼」「人材」の3つの柱で構成され、日本国内のAIインフラ整備やサイバーセキュリティ強化、人材育成を通じて、日本のAI活用と産業競争力の強化を支援する。</p>
@@ -814,15 +814,6 @@ PrismMLによると</p>
 <p>今回のCapCutへの統合は、動画生成AIを単体の生成サービスとして提供するのではなく、動画編集ツールの制作フローに組み込む動きといえる。AIによる動画生成が、クリエイター向け制作環境の中で利用されるケースが広がりつつある。</p>
 ]]></description>
       <pubDate>Tue, 31 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PDF業務の「地味な手間」をAIで解消できるか？多機能PDF編集ソフト「PDFelement」の実力を検証</title>
-      <link>https://ledge.ai/articles/wondershare_pdfelement</link>
-      <description><![CDATA[<p>業務においてPDFを扱う場面は多い。提案書、報告書、仕様書、契約関連の資料など、社内外とのやりとりがPDF前提というケースも少なくないだろう。</p>
-<p>一つひとつの作業は些細なものでも、「内容を読む」「要点を把握する」「少し修正する」「共有する」といった工程がいくつも積み重なると、思いのほか多くの時間を取られがちだ。</p>
-<p>今回は、AI機能を実装したPDF編集ツール「<a href="https://pdf.wondershare.jp/?utm_source=other_media_sites&amp;utm_medium=referral&amp;utm_campaign=legai&amp;utm_content=link_25156506_2026-01-29">PDFelement</a>{ target=\</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>人間の脳細胞で動く「生物学的データセンター」建設へ　豪Cortical Labs、脳細胞コンピューターは電卓以下の消費電力</title>
