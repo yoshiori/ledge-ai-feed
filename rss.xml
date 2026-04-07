@@ -389,6 +389,35 @@ AI Roundtableでは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、ClaudeサブスクでOpenClawなどサードパーティツール利用を対象外に　需要増で容量管理を強化</title>
+      <link>https://ledge.ai/articles/anthropic_claude_subscription_third_party_tools_openclaw</link>
+      <description><![CDATA[<p>米AI企業のAnthropicで「Claude Code」を統括するボリス・チェルニー氏は2026年4月3日（現地時間）、自身のX（旧Twitter）への投稿で、AIアシスタント「Claude」のサブスクリプションについて、OpenClawなどのサードパーティツールによる利用をカバーしなくなると<a href="https://x.com/bcherny/status/2040206440556826908">発表</a>した。変更は翌日正午（米太平洋時間）から適用された。ユーザーにはメールでも通知しているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/borischerny_9def78449b/borischerny_9def78449b.jpg" alt="borischerny.jpg" /></p>
+<h2>Claudeサブスクの対象から外部ツール利用を除外</h2>
+<p>チェルニー氏は投稿で、「明日正午（PT）から、ClaudeのサブスクリプションはOpenClawなどのサードパーティツールの使用をカバーしなくなる」と説明した。</p>
+<p>これまでClaudeのサブスクリプションを利用することで、OpenClawなどの外部ツールを通じてClaudeを利用するケースも存在していたが、今回の変更により、サブスクリプションの適用範囲からこうした利用が除外される。</p>
+<h2>外部ツールはAPIキーまたは追加利用バンドルで使用可能</h2>
+<p>サードパーティツール自体が利用できなくなるわけではない。OpenClawなどのツールは、今後も次の方法で利用できる。</p>
+<ul>
+<li>Claude APIキーを使用する方法</li>
+<li>Claudeログインを使った追加の利用量バンドルを購入する方法</li>
+</ul>
+<p>チェルニー氏によると、追加の利用量バンドルは現在割引価格で提供されている。</p>
+<h2>背景はClaudeの需要急増</h2>
+<p>今回の変更の背景について、同氏はClaudeの需要が急速に増加していることを挙げた。</p>
+<p>「Claudeの需要増加に対応するため、懸命に取り組んできたが、当社のサブスクリプションは、これらのサードパーティツールの使用パターンに対応するよう設計されていなかった」と述べている。</p>
+<p>また、「容量は慎重に管理する必要のあるリソースであり、当社の製品やAPIを利用する顧客を優先している」とも説明した。</p>
+<h2>既存ユーザーにはクレジット付与と返金対応</h2>
+<p>Anthropicは既存のサブスクユーザーへの対応として、月額プラン料金と同額のワンタイムクレジットを付与するとしている。
+さらに、追加の利用量が必要な場合には割引された利用量バンドルを購入できるほか、完全な返金を希望する場合にはメール内のリンクから申請できる。</p>
+<p>同氏は「長期的に持続可能な形で顧客にサービスを提供し続けるため、成長を意図的に管理していく」と述べ、今回の変更はその一環であると説明した。</p>
+<h2>AIエージェントツールへの影響も</h2>
+<p>OpenClawのようなツールは、Claudeなどの大規模言語モデル（LLM）を活用してコード生成や開発支援などを行うサードパーティ製ツールとして利用されている。</p>
+<p>今回の変更により、これらのツールを通じたClaude利用は、サブスクリプションではなくAPI課金や追加利用量バンドルを前提とした形に移行する可能性がある。Claudeを基盤としたAI開発ツールの利用形態にも影響が出るとみられる。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIで故人と会話する「デジタルゴースト」は慰めか、危険な錯覚か——チューリッヒ大研究、倫理的条件を提案</title>
       <link>https://ledge.ai/articles/digital_ghosts_ai_ethics</link>
       <description><![CDATA[<p>AIを使って亡くなった人を再現する「デジタルゴースト（digital ghosts）」と呼ばれる技術について、チューリッヒ大学の研究者らが倫理的課題を整理し、許容される条件を提示した。故人のデータをもとに会話できるAIは、悲しみを抱える人に慰めを与える可能性がある一方で、現実を曖昧にする危険な錯覚や、故人の尊厳・プライバシーを損なうリスクもあると指摘している。</p>
@@ -518,50 +547,6 @@ AI Roundtableでは</p>
 <h2>まずは英語→多言語で順次展開</h2>
 <p>Googleのサポートページによると、この機能は英語をはじめとする複数の言語で順次展開される<a href="https://support.google.com/docs/answer/16961475">予定</a>だ。Geminiのプロンプトからプレゼンテーションを生成し、その内容を編集して仕上げるワークフローが想定されている。</p>
 <p>Google Workspaceでは、DocsやSheets、Slidesなどの各アプリにGeminiを統合する取り組みが進められており、文書作成や分析、プレゼンテーション作成などの作業をAIが支援する機能が拡充されている。今回のアップデートは、AIが作成した成果物を人間が仕上げるという形での共同作業をより実用的なものにする機能といえる。</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、CopilotのリサーチAIにマルチモデル機能　OpenAIとAnthropicを同時実行してレポート生成</title>
-      <link>https://ledge.ai/articles/microsoft_copilot_researcher_openai_anthropic_multi_model</link>
-      <description><![CDATA[<p>Microsoftは2026年3月30日、Microsoft 365 Copilotのリサーチ機能「Researcher」に、複数のAIモデルを組み合わせてレポートを作成する新機能を導入したと<a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011">発表</a>した。新機能では、OpenAIとAnthropicのAIモデルを組み合わせて利用し、調査レポートの精度や分析の深さを高めるとしている。</p>
-<p>Researcherは、Microsoft 365 Copilotに搭載された<strong>深い調査（deep research）を行うAIエージェント</strong>で、複雑な調査やレポート作成を自動化する機能だ。今回の更新では、単一のAIモデルに依存するのではなく、複数のAIモデルを役割分担させる「マルチモデル」アーキテクチャが導入された。</p>
-<h2>2つのAIで生成とレビューを分担する「Critique」</h2>
-<p>新機能の1つ「Critique」は、2つのAIモデルがそれぞれ異なる役割を担う仕組みだ。</p>
-<p>1つのモデルが調査の計画、情報収集、レポートの初期生成を担当する。一方で別のモデルがレビュー担当として、内容の検証や構成の改善、論理の整理を行う。</p>
-<p>Microsoftによれば、この設計は生成と評価を分離することでレポート品質を高めるアーキテクチャであり、研究論文の査読プロセスに近い構造になっているという。</p>
-<p>レビューAIは主に以下の観点からレポートを評価する。</p>
-<ul>
-<li>情報源の信頼性</li>
-<li>レポートの網羅性</li>
-<li>証拠や引用の妥当性</li>
-</ul>
-<p>これにより、事実の正確性や分析の深さ、文章構成などを改善したレポートを生成できるとしている。</p>
-<h2>DRACOベンチマークで性能向上</h2>
-<p>Microsoftは、新しいCritiqueアーキテクチャをDRACO（Deep Research Accuracy, Completeness, and Objectivity）ベンチマークで評価した。
-このベンチマークは、医療や技術、法律など10分野にわたる100件の複雑な調査タスクを対象に、</p>
-<ul>
-<li>事実の正確性</li>
-<li>分析の深さ</li>
-<li>プレゼンテーション品質</li>
-<li>引用の品質</li>
-<li></li>
-</ul>
-<p>といった観点でAIの調査能力を評価するものだ。</p>
-<p>評価の結果、Critiqueを用いたResearcherは従来の単一モデル方式を上回る結果を示したとされる。特に、分析の広さや深さ、文章構成、事実の正確性といった指標で改善が確認されたという。</p>
-<p><strong>■ DRACOベンチマークにおける各種AIリサーチシステムの比較。Researcher with Critiqueが最も高いスコアを記録</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Chart_1_065ef8cae8/Chart_1_065ef8cae8.png" alt="Chart 1.png" /></p>
-<h2>複数AIの結果を比較する「Council」</h2>
-<p>もう1つの新機能「Council」では、複数のAIモデルを同時に実行し、それぞれの結果を比較できる。このモードでは、OpenAIのモデルとAnthropicのモデルがそれぞれ独立したレポートを生成する。その後、専用の判定モデルが両者の結果を評価し、</p>
-<ul>
-<li>共通点</li>
-<li>意見の相違</li>
-<li>各モデルの独自の視点</li>
-</ul>
-<p>などを整理したサマリーを作成する。これにより、AIごとの分析の違いや解釈の差を把握できる仕組みになっている。</p>
-<h2>Frontierプログラムで提供開始</h2>
-<p>Microsoftによると、「Critique」と「Council」は現在、同社のFrontierプログラムで提供が開始されている。
-ResearcherはMicrosoft 365 Copilotの中核的なリサーチエージェントとして位置付けられており、今回のマルチモデル機能によって、企業の調査業務や分析レポート作成の精度向上が期待されるとしている。</p>
 ]]></description>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
