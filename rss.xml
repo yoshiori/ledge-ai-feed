@@ -696,6 +696,57 @@ Microsoftは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>約80億パラメータのモデルがわずか1.15GBのメモリで動く──PrismML、1ビットLLM「Bonsai-8B」を公開　エッジAI向け設計</title>
+      <link>https://ledge.ai/articles/prismml_bonsai_8b_1bit_llm_1_15gb_edge_ai</link>
+      <description><![CDATA[<p>カリフォルニア工科大学（Caltech）発のAIスタートアップPrismMLは、大規模言語モデル（LLM）「1-bit Bonsai」を<a href="https://prismml.com/news/prismml-launches-worlds-first-1-bit-ai-model">発表</a>した。約80億パラメータのモデルでありながら、メモリ使用量を約1.15GBまで抑えたことが特徴で、スマートフォンなどのエッジ環境でも動作するサイズだという。</p>
+<p>一般的に、8BクラスのLLMは十数GBのメモリを必要とする。PrismMLはモデル設計と学習手法を工夫することで、モデルサイズを大幅に削減しつつ、同クラスのモデルと競争できる性能を維持したとしている。</p>
+<h2>従来の量子化とは異なる「1ビット設計」</h2>
+<p>LLMのサイズを小さくする方法としては、学習済みモデルの重みを低ビット精度に変換する「量子化」がよく用いられる。しかしビット数を極端に下げると、精度が大きく低下するという課題がある。</p>
+<p>PrismMLのアプローチはこれとは異なり、モデル全体を最初から1ビットで動作するよう設計している。</p>
+<p>具体的には</p>
+<ul>
+<li>入力テキストを数値に変換する埋め込み層</li>
+<li>文脈を処理するアテンション層</li>
+<li>出力を生成するLMヘッド</li>
+</ul>
+<p>といった主要コンポーネントを含め、モデル全体を1ビット前提で学習している。</p>
+<p>後から圧縮するのではなく、最初から低ビット環境で性能を出すことを前提に学習を行うことで、精度低下を抑えているという。</p>
+<h2>モデルサイズと性能の関係</h2>
+<p>PrismMLが公開した比較では、1-bit Bonsaiシリーズは小さなモデルサイズながら競争力のあるベンチマークスコアを維持している。</p>
+<p><strong>■ モデルサイズと性能の関係を示した比較。1-bit Bonsaiシリーズは小型モデルでありながら競争力のあるベンチマークスコアを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Ew_Q2_O0b_MAEQ_Eqg_6ea05830c3/H_Ew_Q2_O0b_MAEQ_Eqg_6ea05830c3.jpg" alt="HEwQ2O0bMAEQEqg.jpg" /></p>
+<h2>同クラスモデルとのベンチマーク比較</h2>
+<p>同社が公開したベンチマーク比較では、1-bit Bonsai 8Bはモデルサイズが1.15GBと大幅に小さいにもかかわらず、8BクラスのLLMと近いスコアを示している。</p>
+<p><strong>■ 8BクラスのLLMとのベンチマーク比較。1-bit Bonsai 8Bはモデルサイズが1.15GBと大幅に小さいにもかかわらず、同クラスモデルに近いスコアを維持している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/benchmark_comparison_4f9c9ba69f/benchmark_comparison_4f9c9ba69f.jpg" alt="benchmark comparison.jpg" /></p>
+<h2>「インテリジェンス密度」で効率を評価</h2>
+<p>PrismMLは、モデル効率を示す指標として「インテリジェンス密度（Intelligence Density）」という概念を提案している。これは、ベンチマークの平均エラー率の負の対数をモデルサイズで割った値で、モデル容量あたりの知能の密度を示す指標だ。</p>
+<p>同社の評価では</p>
+<ul>
+<li>1-bit Bonsai 8B：1.06 / GB</li>
+<li>Qwen3 8B：0.10 / GB</li>
+</ul>
+<p>となり、同パラメータクラスのモデルより大幅に高い効率を示したとしている。</p>
+<p><strong>■ 「インテリジェンス密度」の比較。1-bit Bonsai 8Bは同クラスのモデルより大幅に高い値を示している</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Ew_P9l_Pac_AA_Yzu5_410e8ec221/H_Ew_P9l_Pac_AA_Yzu5_410e8ec221.jpg" alt="HEwP9lPacAAYzu5.jpg" /></p>
+<h2>ローカルAIを想定したモデル</h2>
+<p>1-bit Bonsaiのモデル重みはApache 2.0ライセンスで公開されている。
+PrismMLによると</p>
+<ul>
+<li>Appleデバイスでは MLX</li>
+<li>NVIDIA GPUでは llama.cpp CUDA</li>
+</ul>
+<p>などを通じて動作させることができるという。</p>
+<p>これまでLLMはクラウド環境での実行が前提となるケースが多かったが、こうした軽量モデルが普及すれば、PCやモバイル端末で直接AIを実行する用途が広がる可能性がある。</p>
+<h2>「AIは巨大化だけではない」</h2>
+<p>PrismMLの共同創業者でありカリフォルニア工科大学教授のババク・ハッシビ氏は、X（旧Twitter）への<a href="https://x.com/BabakHassibi/status/2039050259654136063">投稿</a>で、同社の考え方について次のように説明している。</p>
+<p><strong>「AIの未来は、単にモデルが巨大化することだけで決まるわけではない。重要なのは“インテリジェンス密度”だ。計算資源、メモリ、エネルギーあたりでどれだけ有用な知能を提供できるかである」</strong></p>
+<p>同氏は、1-bit Bonsaiをその最初の実例と位置付けている。</p>
+<p><strong>「これは終着点ではなく、新しいAIパラダイムの始まりだ。知能はデバイス上、エッジ、クラウド、そして新しい製品やシステムへと広がっていく」</strong></p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>リコー、図表を含む企業文書を読み解くマルチモーダルAI「リーズニングLMM」を開発　多段推論で複雑文書を理解</title>
       <link>https://ledge.ai/articles/ricoh_reasoning_multimodal_llm_document_understanding</link>
       <description><![CDATA[<p>リコーは2026年3月30日、図表を含む多様なドキュメントを高精度に読み取る推論能力を備えたマルチモーダル大規模言語モデル（LMM）「Qwen3-VL-Ricoh-32B-20260227」の開発を完了したと<a href="https://jp.ricoh.com/release/2026/0330_1">発表</a>{target=”_blank”}した。同社はこのモデルを「リーズニングLMM」と位置付けており、多段推論を通じて複雑な企業文書を理解できる点を特徴としている。</p>
