@@ -663,6 +663,40 @@ Microsoftは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>国立情報学研究所、フルスクラッチ学習の国産LLM「LLM-jp-4」公開　8B・32Bモデルをオープンソースで提供</title>
+      <link>https://ledge.ai/articles/nii_llm_jp_4_open_source</link>
+      <description><![CDATA[<p>国立情報学研究所（NII）は2026年4月3日、日本語に強い国産大規模言語モデル（LLM）「LLM-jp-4」シリーズとして、「LLM-jp-4 8Bモデル」と「LLM-jp-4 32B-A3Bモデル」をオープンソースライセンスで<a href="https://www.nii.ac.jp/news/release/2026/0403.html">公開</a>した。約12兆トークンのコーパスでフルスクラッチ学習された国産LLMで、一部ベンチマークではGPT-4oやQwen3-8Bを上回る性能を示したという。</p>
+<p>今回公開されたモデルは、日本語性能の強化を目的としてNIIを中心に開発されたLLMプロジェクト「LLM-jp」による最新モデルだ。研究コミュニティや企業、開発者が利用できるようオープンソースとして提供される。</p>
+<h2>約12兆トークンのコーパスでフルスクラッチ学習</h2>
+<p>LLM-jp-4シリーズは、既存モデルを微調整する方式ではなく、ゼロから学習を行うフルスクラッチ学習によって開発された。</p>
+<p>事前学習では、日本語・英語・コードなどを含む大規模コーパスを使用し、合計で約10.5兆トークンを学習。指示学習などを含めると総量は約12兆トークン規模に達するという。</p>
+<p>使用されたデータには、日本語Webデータや英語データ、プログラムコードなどが含まれている。</p>
+<p>公開された主なモデルは以下の2種類。</p>
+<p><strong>■ LLM-jp-4 8Bモデル</strong>
+・約86億パラメータ
+・Llama系アーキテクチャをベース</p>
+<p><strong>■ LLM-jp-4 32B-A3Bモデル</strong>
+・約320億パラメータ
+・MoE（Mixture of Experts）構造
+・128エキスパートのうち3.8Bパラメータが動的に使用される設計</p>
+<p>MoE構造を採用することで、大規模モデルの性能を維持しながら計算効率を高めることを狙っている。</p>
+<h2>日本語ベンチマークで高い性能</h2>
+<p>NIIが公開した評価結果では、日本語評価ベンチマーク「llm-jp-eval v2.1.3」において、LLM-jp-4シリーズは複数のタスクで高い性能を示した。</p>
+<p><strong>LLM-jp-eval v2.1.3による日本語ベンチマーク評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/release_20260403_fig1_thumb_600xauto_16288_98a2113d45/release_20260403_fig1_thumb_600xauto_16288_98a2113d45.png" alt="release_20260403_fig1-thumb-600xauto-16288.png" /></p>
+<p>特に32B-A3Bモデルは、対話能力を評価するMT-Benchなどの指標において、GPT-4oやQwen3-8Bを上回るスコアを記録したという。</p>
+<h2>今後はさらに大規模モデルも</h2>
+<p>NIIによると、今後はさらに大規模なモデルとして</p>
+<ul>
+<li>LLM-jp-4 32B</li>
+<li>LLM-jp-4 332B-A31B</li>
+</ul>
+<p>などの開発も進めており、2026年の公開を予定している。</p>
+<p>日本語LLMの研究開発は近年、企業や大学を中心に活発化している。今回のLLM-jp-4の公開は、日本語に特化した大規模言語モデルの研究基盤を広げる取り組みの一つとなる。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、テック業界トーク番組TBPNを買収　AIを巡る議論の「対話の場」を拡張</title>
       <link>https://ledge.ai/articles/openai_tbpn_acquisition_ai_dialogue</link>
       <description><![CDATA[<p>OpenAIは2026年4月2日（現地時間）、テック業界向けトーク番組を運営する米メディア企業TBPN（Technology Business Programming Network）を買収したと<a href="https://openai.com/index/openai-acquires-tbpn/">発表</a>した。買収額は非公開。TBPNはシリコンバレーの起業家や投資家などを招いたライブ番組で知られており、OpenAIは今回の買収を通じて、AIを巡る議論や対話の場を広げる狙いがあるとみられる。</p>
