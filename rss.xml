@@ -651,6 +651,36 @@ Microsoftは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>MLCommons、AIサーバの推論性能ベンチマーク「MLPerf Inference v6.0」公開　NVIDIA・AMDなど24組織のAIサーバー性能を比較</title>
+      <link>https://ledge.ai/articles/mlperf_inference_v6_ai_server_benchmark_nvidia_amd</link>
+      <description><![CDATA[<p>AIサーバーの性能評価を行う業界コンソーシアム MLCommons は2026年4月1日、推論性能ベンチマーク「MLPerf Inference v6.0」の結果を<a href="https://mlcommons.org/2026/04/mlperf-inference-v6-0-results">公開</a>した。大規模言語モデル（LLM）など生成AIワークロードを含む推論処理の性能を測定するもので、NVIDIA や AMD など24の組織がシステム結果を提出し、AIサーバーの処理性能を比較できる。</p>
+<p>今回のベンチマークでは、生成AIの普及を背景に評価対象が拡張され、動画生成AIの推論性能を測る「Text-to-Video」テストも新たに追加された。</p>
+<h2>AI推論性能を測る業界標準ベンチマーク</h2>
+<p>MLPerf Inferenceは、機械学習モデルを実運用環境で実行する際の推論処理速度や処理能力を測定するベンチマークスイートだ。データセンターやクラウド、エッジ機器などさまざまな環境でのAI処理性能を比較することを目的としており、GPUやAIアクセラレーターを搭載したサーバーの評価指標として広く利用されている。</p>
+<p>公開されたv6.0では、AIインフラの進化に対応するためテスト内容を更新、データセンター向け11テストのうち5件が新規または更新された。</p>
+<h2>NVIDIAとAMDのAIサーバー構成が上位に</h2>
+<p><strong>MLPerf Inference v6.0「Llama2-70B Interactive」ベンチマーク結果</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/newplot_9f5f832568/newplot_9f5f832568.png" alt="newplot.png" /></p>
+<p>今回の結果では、NVIDIAやAMDのAIアクセラレーターを搭載したサーバー構成が上位を占めた。Llama2-70Bモデルを用いたインタラクティブ推論テストでは、NVIDIAのGB300 GPUを用いたシステムとAMDのMI355X GPUクラスタが高い性能を示している。</p>
+<p>こうしたベンチマーク結果は、AIデータセンター向けインフラの処理能力や各社システム構成の違いを比較する指標として利用されている。</p>
+<h2>大規模AIモデルの推論性能も測定</h2>
+<p><strong>GPT-OSS-120Bモデルのオフライン推論性能比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/newplot_1_09157c90b8/newplot_1_09157c90b8.png" alt="newplot (1).png" /></p>
+<p>LLMの推論性能を測定するテストでは、数十から数百のGPUを用いた大規模サーバー構成が提出されている。GPT-OSS-120Bモデルを使ったオフライン推論では、システムによっては100万トークン/秒を超える処理性能が報告されており、AIインフラの処理能力の拡大が示された。</p>
+<h2>動画生成AIのベンチマークを初めて導入</h2>
+<p><strong>MLPerf Inference v6.0で新たに追加された「Text-to-Video」ベンチマーク</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/newplot_2_004daa433d/newplot_2_004daa433d.png" alt="newplot (2).png" /></p>
+<p>v6.0では、生成AIの進化に対応するため、動画生成AIの推論性能を評価する「Text-to-Video」ベンチマークが初めて導入された。これはテキスト入力から動画を生成するAIモデルの処理性能を測定するもので、Alibabaの動画生成モデルをベースとしたワークロードが採用されている。</p>
+<p>結果では、NVIDIAのB300やB200 GPUを用いたシステムが上位に入り、動画生成AIでも大規模GPUサーバーが重要な役割を果たしていることが示された。</p>
+<h2>結果はオンラインダッシュボードで公開</h2>
+<p>MLCommonsは、ベンチマーク結果を閲覧できる<a href="https://mlperf-dashboard-final-50577619532.us-west1.run.app/">オンラインダッシュボード</a>を公開している。ユーザーはダッシュボードで、提出システムやモデル、ワークロードなどの条件を指定し、各システムの推論性能を比較できる。</p>
+<h2>AIインフラ競争の指標として注目</h2>
+<p>MLPerfはAIシステムの性能を比較する業界標準ベンチマークとして位置付けられており、GPUやAIアクセラレーターを開発する企業の競争力を測る指標の一つとされている。</p>
+<p>近年は生成AIの普及に伴い、LLMや動画生成モデルなど新しいワークロードが追加されており、AIサーバーやデータセンター向けインフラの性能競争を示すデータとしても注目されている。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>国立情報学研究所、フルスクラッチ学習の国産LLM「LLM-jp-4」公開　8B・32Bモデルをオープンソースで提供</title>
       <link>https://ledge.ai/articles/nii_llm_jp_4_open_source</link>
       <description><![CDATA[<p>国立情報学研究所（NII）は2026年4月3日、日本語に強い国産大規模言語モデル（LLM）「LLM-jp-4」シリーズとして、「LLM-jp-4 8Bモデル」と「LLM-jp-4 32B-A3Bモデル」をオープンソースライセンスで<a href="https://www.nii.ac.jp/news/release/2026/0403.html">公開</a>した。約12兆トークンのコーパスでフルスクラッチ学習された国産LLMで、一部ベンチマークではGPT-4oやQwen3-8Bを上回る性能を示したという。</p>
