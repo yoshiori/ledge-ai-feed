@@ -5,6 +5,57 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google研究チーム、量子コンピューターで仮想通貨暗号を破る資源見積もりを更新　必要量子ビットは従来想定の約20分の1</title>
+      <link>https://ledge.ai/articles/google_quantum_crypto_ecdlp</link>
+      <description><![CDATA[<p>Googleの量子コンピューター研究チームは2026年3月31日、仮想通貨で広く利用されている楕円曲線暗号について、将来の量子コンピューターが従来想定より大幅に少ない計算資源で解読できる可能性を示した研究論文を<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/">公開</a>した。</p>
+<p>論文では、ビットコインなどで使われる楕円曲線「secp256k1」の離散対数問題を解くための量子計算資源を再評価。従来研究と比較して必要資源が大幅に削減される可能性を示した。研究はGoogle Quantum AIの研究者を中心に、Ethereum FoundationやStanford Universityの研究者らが参加している。</p>
+<h2>仮想通貨の基盤暗号「secp256k1」を対象</h2>
+<p>今回の研究は、仮想通貨の署名に使われる楕円曲線暗号（ECDSA）の安全性に焦点を当てたものだ。
+対象となる「secp256k1」は、</p>
+<ul>
+<li>Bitcoin</li>
+<li>Ethereum</li>
+</ul>
+<p>など主要なブロックチェーンで使用されている暗号方式である。</p>
+<p>この暗号は現在の古典コンピューターでは事実上解読不可能とされているが、量子コンピューターではShorのアルゴリズムを使うことで理論上解読できると知られている。</p>
+<p>今回の研究では、この量子アルゴリズムを実行するために必要な量子計算資源の見積もりを再評価した。</p>
+<h2>必要な量子計算資源を大幅削減</h2>
+<p>研究チームは量子回路の設計を最適化することで、256ビット楕円曲線暗号を破るための計算資源として次の2つの設計を提示した。</p>
+<ul>
+<li>約 1200論理量子ビット + 9000万Toffoliゲート</li>
+<li>約 1450論理量子ビット + 7000万Toffoliゲート</li>
+</ul>
+<p>これは従来研究と比較して、量子計算資源の効率が大幅に改善されたことを示している。</p>
+<p><strong>■ 256ビット楕円曲線暗号を破るための論理量子ビット数と量子ゲート数の比較。今回の研究では、従来研究と比べて必要資源が大きく削減されていることが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure1_Comparison_of_logical_quantum_resources_bc0d049609/Figure1_Comparison_of_logical_quantum_resources_bc0d049609.jpg" alt="Figure1_Comparison of logical quantum resources.jpg" /></p>
+<h2>50万未満の量子ビットで実行可能との試算</h2>
+<p>研究では、誤り訂正を含めた物理量子ビット数も試算している。その結果、条件によっては”50万未満の物理量子ビット”で暗号解読が可能になる可能性があるとした。また、超伝導量子ビット型の量子コンピューターを前提にすると、”約20分程度”で秘密鍵を導出できる可能性があるという。</p>
+<h2>ビットコイン取引への影響の可能性</h2>
+<p>量子コンピューターがこの規模に到達した場合、ブロックチェーンの安全性に影響が出る可能性もあるという。論文では、量子攻撃の処理時間とブロック生成時間の関係を分析している。</p>
+<p><strong>■ 量子コンピューターによる秘密鍵導出の時間と、ブロックチェーンのブロック生成時間の関係を示した図。攻撃時間が短い場合、取引がブロックに取り込まれる前に秘密鍵が導出されるリスクが高まる可能性がある</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure6_Risk_that_an_on_spend_quantum_attack_408481637b/Figure6_Risk_that_an_on_spend_quantum_attack_408481637b.jpg" alt="Figure6_Risk that an on-spend quantum attack.jpg" /></p>
+<p>研究では、ビットコインの平均ブロック生成時間（約10分）と比較した場合、攻撃が成功する可能性が一定程度存在することを示唆している。</p>
+<h2>攻撃手法の詳細は公開せず</h2>
+<p>研究チームは今回の研究について「責任ある公開」を重視している。
+攻撃回路の詳細を公開すると悪用される可能性があるため、</p>
+<ul>
+<li>回路設計の詳細は非公開</li>
+<li>代わりにゼロ知識証明を使用</li>
+</ul>
+<p>とすることで、研究の正当性を検証できる仕組みを提示した。</p>
+<h2>量子耐性暗号への移行が課題に</h2>
+<p>研究者らは、この研究が「仮想通貨がすぐに危険になる」ことを意味するわけではないと説明している。
+現在の量子コンピューターは、この規模の計算を実行できる段階には到達していない。しかし将来的には、</p>
+<ul>
+<li>仮想通貨</li>
+<li>デジタル署名</li>
+<li>公開鍵暗号</li>
+</ul>
+<p>など多くのシステムが量子計算の影響を受ける可能性がある。研究チームは、長期的にはポスト量子暗号（PQC）への移行が重要になると指摘している。</p>
+]]></description>
+      <pubDate>Mon, 06 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、Geminiで作成したGoogleスライドを編集可能に　従来の「固定スライド」問題を解消 まずは英語で提供</title>
       <link>https://ledge.ai/articles/google_slides_gemini_editable_slides_update</link>
       <description><![CDATA[<p>Googleは2026年4月1日（米国時間）、生成AI「Gemini」を使って作成したGoogleスライドをユーザーが直接編集できる新機能の提供を順次開始すると<a href="https://workspaceupdates.googleblog.com/2026/04/enerate-beautiful-and-editable-slides-with-ease-in-Google-Slides.html">発表</a>した。これまでGeminiで作成したスライドは内容の修正やレイアウト変更が難しい場合があったが、新機能では通常のスライドと同様に編集できるようになる。</p>
@@ -502,57 +553,6 @@ AI Roundtableでは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google研究チーム、量子コンピューターで仮想通貨暗号を破る資源見積もりを更新　必要量子ビットは従来想定の約20分の1</title>
-      <link>https://ledge.ai/articles/google_quantum_crypto_ecdlp</link>
-      <description><![CDATA[<p>Googleの量子コンピューター研究チームは2026年3月31日、仮想通貨で広く利用されている楕円曲線暗号について、将来の量子コンピューターが従来想定より大幅に少ない計算資源で解読できる可能性を示した研究論文を<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/">公開</a>した。</p>
-<p>論文では、ビットコインなどで使われる楕円曲線「secp256k1」の離散対数問題を解くための量子計算資源を再評価。従来研究と比較して必要資源が大幅に削減される可能性を示した。研究はGoogle Quantum AIの研究者を中心に、Ethereum FoundationやStanford Universityの研究者らが参加している。</p>
-<h2>仮想通貨の基盤暗号「secp256k1」を対象</h2>
-<p>今回の研究は、仮想通貨の署名に使われる楕円曲線暗号（ECDSA）の安全性に焦点を当てたものだ。
-対象となる「secp256k1」は、</p>
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-</ul>
-<p>など主要なブロックチェーンで使用されている暗号方式である。</p>
-<p>この暗号は現在の古典コンピューターでは事実上解読不可能とされているが、量子コンピューターではShorのアルゴリズムを使うことで理論上解読できると知られている。</p>
-<p>今回の研究では、この量子アルゴリズムを実行するために必要な量子計算資源の見積もりを再評価した。</p>
-<h2>必要な量子計算資源を大幅削減</h2>
-<p>研究チームは量子回路の設計を最適化することで、256ビット楕円曲線暗号を破るための計算資源として次の2つの設計を提示した。</p>
-<ul>
-<li>約 1200論理量子ビット + 9000万Toffoliゲート</li>
-<li>約 1450論理量子ビット + 7000万Toffoliゲート</li>
-</ul>
-<p>これは従来研究と比較して、量子計算資源の効率が大幅に改善されたことを示している。</p>
-<p><strong>■ 256ビット楕円曲線暗号を破るための論理量子ビット数と量子ゲート数の比較。今回の研究では、従来研究と比べて必要資源が大きく削減されていることが示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure1_Comparison_of_logical_quantum_resources_bc0d049609/Figure1_Comparison_of_logical_quantum_resources_bc0d049609.jpg" alt="Figure1_Comparison of logical quantum resources.jpg" /></p>
-<h2>50万未満の量子ビットで実行可能との試算</h2>
-<p>研究では、誤り訂正を含めた物理量子ビット数も試算している。その結果、条件によっては”50万未満の物理量子ビット”で暗号解読が可能になる可能性があるとした。また、超伝導量子ビット型の量子コンピューターを前提にすると、”約20分程度”で秘密鍵を導出できる可能性があるという。</p>
-<h2>ビットコイン取引への影響の可能性</h2>
-<p>量子コンピューターがこの規模に到達した場合、ブロックチェーンの安全性に影響が出る可能性もあるという。論文では、量子攻撃の処理時間とブロック生成時間の関係を分析している。</p>
-<p><strong>■ 量子コンピューターによる秘密鍵導出の時間と、ブロックチェーンのブロック生成時間の関係を示した図。攻撃時間が短い場合、取引がブロックに取り込まれる前に秘密鍵が導出されるリスクが高まる可能性がある</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Figure6_Risk_that_an_on_spend_quantum_attack_408481637b/Figure6_Risk_that_an_on_spend_quantum_attack_408481637b.jpg" alt="Figure6_Risk that an on-spend quantum attack.jpg" /></p>
-<p>研究では、ビットコインの平均ブロック生成時間（約10分）と比較した場合、攻撃が成功する可能性が一定程度存在することを示唆している。</p>
-<h2>攻撃手法の詳細は公開せず</h2>
-<p>研究チームは今回の研究について「責任ある公開」を重視している。
-攻撃回路の詳細を公開すると悪用される可能性があるため、</p>
-<ul>
-<li>回路設計の詳細は非公開</li>
-<li>代わりにゼロ知識証明を使用</li>
-</ul>
-<p>とすることで、研究の正当性を検証できる仕組みを提示した。</p>
-<h2>量子耐性暗号への移行が課題に</h2>
-<p>研究者らは、この研究が「仮想通貨がすぐに危険になる」ことを意味するわけではないと説明している。
-現在の量子コンピューターは、この規模の計算を実行できる段階には到達していない。しかし将来的には、</p>
-<ul>
-<li>仮想通貨</li>
-<li>デジタル署名</li>
-<li>公開鍵暗号</li>
-</ul>
-<p>など多くのシステムが量子計算の影響を受ける可能性がある。研究チームは、長期的にはポスト量子暗号（PQC）への移行が重要になると指摘している。</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Microsoft、日本の「AI主導型成長」に1兆6000億円投資　さくらインターネット・ソフトバンクとAIインフラ連携</title>
       <link>https://ledge.ai/articles/microsoft_japan_ai_growth_1_6_trillion_investment_sakura_softbank_ai_infrastructure</link>
       <description><![CDATA[<p>米Microsoftは2026年4月3日、日本の「AI主導型成長」を支援するため、2026年から2029年にかけて総額100億ドル（約1兆6000億円）を投資する計画を<a href="https://news.microsoft.com/source/asia/features/microsoft-commitment-to-japan10-billion-investment-in-ai-infrastructure-cybersecurity-and-workforce-in-japan/?lang=ja">発表</a>した。投資は「技術」「信頼」「人材」の3つの柱で構成され、日本国内のAIインフラ整備やサイバーセキュリティ強化、人材育成を通じて、日本のAI活用と産業競争力の強化を支援する。</p>
@@ -915,31 +915,6 @@ PrismMLによると</p>
 <p>今回のCapCutへの統合は、動画生成AIを単体の生成サービスとして提供するのではなく、動画編集ツールの制作フローに組み込む動きといえる。AIによる動画生成が、クリエイター向け制作環境の中で利用されるケースが広がりつつある。</p>
 ]]></description>
       <pubDate>Tue, 31 Mar 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人間の脳細胞で動く「生物学的データセンター」建設へ　豪Cortical Labs、脳細胞コンピューターは電卓以下の消費電力</title>
-      <link>https://ledge.ai/articles/human_brain_cells_biological_data_center_cortical_labs</link>
-      <description><![CDATA[<p>人間の脳神経細胞を計算資源として利用する「生物学的データセンター」の構想が動き出している。
-2026年3月10日（日本時間）に米<a href="https://www.bloomberg.com/news/articles/2026-03-09/human-brain-cells-run-new-data-centers-in-singapore-melbourne">Bloomberg</a>が報じたところによると、オーストラリアのバイオテクノロジー系スタートアップ Cortical Labs は、人間の脳細胞を動力源とするバイオコンピューターを集約したデータセンターを、オーストラリア・メルボルンとシンガポールで建設している。</p>
-<p>同社のシステムは、培養した人間の神経細胞をシリコンチップ上に配置し、電気信号を通じて入力と出力を行う「生物学的コンピューティング」を基盤とする。従来の半導体プロセッサとは異なり、生きた神経細胞そのものを計算資源として利用する点が特徴だ。</p>
-<h2>人間の脳細胞を使った「生物コンピューター」</h2>
-<p>Cortical Labsが開発する装置は「CL1」と呼ばれるバイオコンピューターで、ヒト由来の神経細胞をシリコン基板上で培養して構成される。これらの細胞は電極付きチップと接続され、電気刺激を受け取ると同時に神経活動（スパイク）を信号として出力する。</p>
-<p>神経細胞はヒトの血液細胞から誘導された細胞を利用して作られており、チップ上でネットワークを形成する。ソフトウェアは細胞に刺激を与え、その反応を計算結果として読み取ることができる仕組みだ。</p>
-<h2>脳細胞がゲームを学習</h2>
-<p>同社はこれまで、培養した神経細胞にコンピューターゲームをプレイさせる実験を進めてきた。2022年には、神経細胞がシンプルなゲーム「Pong」を学習する実験結果を発表。さらに2026年2月には、3Dゲーム「Doom」をプレイする実験成果を公開した。</p>
-<p>これらの実験では、ゲーム画面の情報を電気刺激として神経細胞に入力し、その反応を操作コマンドとして解釈することで、細胞がゲーム内で行動する仕組みが構築されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=yRV8fSw6HaE">YouTube</a></p>
-<h2>メルボルンとシンガポールに施設</h2>
-<p>Bloombergによると、Cortical Labsはこうしたバイオコンピューターを集約したデータセンターの構築を進めている。メルボルンの施設には約120台のユニットを設置予定で、シンガポールではデータセンター事業者の DayOne Data Centers と連携し、最大1000台規模のユニット導入を段階的に計画している。</p>
-<p>シンガポールでは、National University of Singapore Yong Loo Lin School of Medicine において初期展開が予定されている。</p>
-<p>Cortical Labsのクラウドサーバーラック
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1632x2688_ff1c55fb2b/1632x2688_ff1c55fb2b.jpg" alt="1632x2688.jpg" /></p>
-<h2>電卓以下の消費電力</h2>
-<p>この技術の特徴の一つがエネルギー効率だ。Cortical Labsによると、同社の脳細胞コンピューターは従来のAIプロセッサと比べて消費電力が大幅に少なく、1ユニットあたりの電力は手持ちの電卓より少ない水準だという。</p>
-<p>AIの普及に伴い、世界各地でデータセンターの電力需要が急増している。こうした背景から、神経細胞を利用する生物学的コンピューティングは、将来的に新しい計算アーキテクチャの候補として研究が進められている。</p>
-<p>Cortical Labsの取り組みはまだ研究段階にあるものの、AI時代の計算資源のあり方を再考する試みとして注目されている。</p>
-]]></description>
-      <pubDate>Sun, 29 Mar 2026 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
