@@ -553,6 +553,29 @@ AI Roundtableでは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Generalist、実世界ロボットの動作を最適化するAI基盤モデル「GEN-1」発表　成功率99%、従来比最大3倍高速</title>
+      <link>https://ledge.ai/articles/generalist_gen1_real_world_robot_motion_foundation_model</link>
+      <description><![CDATA[<p>AI研究・開発企業のGeneralistは2026年4月2日、実世界のロボット動作を最適化するAI基盤モデル「GEN-1」を<a href="https://generalistai.com/blog/apr-02-2026-GEN-1">発表</a>した。約50万時間の実世界ロボットデータで学習されたモデルで、平均成功率99%を達成し、従来の最先端手法と比べて最大約3倍高速にタスクを実行できるとしている。</p>
+<h2>実世界ロボット向け基盤モデル「GEN-1」</h2>
+<p>GEN-1は、ロボットが実世界で作業を行う際の行動をリアルタイムに生成するAIモデルだ。視覚情報など複数のモダリティを統合し、ロボットの行動を直接生成する「embodied foundation model（身体性を持つ基盤モデル）」として設計されている。同社は、物理世界で動作するAIの汎用化を目標に掲げており、GEN-1はその実現に向けた最新モデルに位置づけられる。</p>
+<h2>成功率99%、従来手法の約3倍の速度</h2>
+<p>発表によると、GEN-1はロボットタスクの成功率で平均99%を達成した。従来の最先端手法では成功率が約64%だったとされており、大幅な改善が見られたという。また、タスクの実行速度についても、従来の手法と比較して最大約3倍高速化したと説明している。</p>
+<p>さらに、新しいロボットタスクの学習に必要なデータ量も少なく、約1時間分のロボットデータで新しい作業を習得できる高いデータ効率を備えるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/99_successrates_04d394bfc6/99_successrates_04d394bfc6.jpg" alt="99%successrates.jpg" /></p>
+<h2>約50万時間のロボットデータで学習</h2>
+<p>GEN-1は、約50万時間の実世界ロボットデータを用いて事前学習されたモデルだ。Generalistは、このような大規模データを用いたスケーリングにより、ロボットAIの能力向上が可能になると説明している。</p>
+<p>近年、大規模言語モデル（LLM）の分野では、モデル規模やデータ量を拡大することで性能が向上する「スケーリング則」が広く知られている。Generalistは同様のアプローチをロボットAIにも適用し、性能向上を図っている。</p>
+<h2>予期しない状況への対応能力も</h2>
+<p>GEN-1では想定外の状況に対して柔軟に対応する「即興的な行動（improvisation）」と呼ばれる能力も確認されたという。こうした能力は、モデル規模の拡大によって現れる「創発的能力（emergent capability）」の一例として説明されている。</p>
+<p>公開された動画では、ロボットが物体操作などのタスクを実行する様子が紹介されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=SY2xyrmV44Y">YouTube</a></p>
+<h2>ロボットAIの「スケーリング」に挑戦</h2>
+<p>ロボットAIの研究では、現実世界でのデータ収集の難しさなどから、大規模言語モデルのようなスケーリングによる性能向上が難しいとされてきた。</p>
+<p>Generalistは今回、実世界ロボットデータを大規模に収集・学習させることで、この課題に取り組んでいる。同社は、物理世界で動作する汎用知能の実現を目指す研究を進めているとしている。</p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、日本の「AI主導型成長」に1兆6000億円投資　さくらインターネット・ソフトバンクとAIインフラ連携</title>
       <link>https://ledge.ai/articles/microsoft_japan_ai_growth_1_6_trillion_investment_sakura_softbank_ai_infrastructure</link>
       <description><![CDATA[<p>米Microsoftは2026年4月3日、日本の「AI主導型成長」を支援するため、2026年から2029年にかけて総額100億ドル（約1兆6000億円）を投資する計画を<a href="https://news.microsoft.com/source/asia/features/microsoft-commitment-to-japan10-billion-investment-in-ai-infrastructure-cybersecurity-and-workforce-in-japan/?lang=ja">発表</a>した。投資は「技術」「信頼」「人材」の3つの柱で構成され、日本国内のAIインフラ整備やサイバーセキュリティ強化、人材育成を通じて、日本のAI活用と産業競争力の強化を支援する。</p>
@@ -635,32 +658,6 @@ Microsoftは</p>
 <h2>Azure AI Foundryで提供</h2>
 <p>これら3モデルは、MicrosoftのAI開発基盤「Azure AI Foundry」から利用できる。FoundryはAIモデルの利用、アプリケーション開発、モデル管理などを統合した開発環境で、企業や開発者がAIサービスを構築するためのプラットフォームとして提供されている。</p>
 <p>MicrosoftはOpenAIとの提携を継続する一方、自社開発のAIモデル群「MAI」の拡充も進めており、Azure AI Foundryを通じて開発者が利用できるモデルのラインアップを強化している。</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>仏Mistral AI、パリ近郊データセンター向けに8億3000万ドル融資調達　NVIDIA GB300 GPUを1万3800基導入</title>
-      <link>https://ledge.ai/articles/mistral_europe_ai_datacenter_strategy</link>
-      <description><![CDATA[<p>フランスのAI企業Mistral AIは2026年3月30日（現地時間）、パリ近郊のBruyères-le-Châtelにあるデータセンターの運営に向けて、8億3000万ドルの融資を調達したと<a href="https://www.linkedin.com/posts/mistralai_weve-announced-today-our-first-debt-financing-activity-7444301546013622272-we3w/">発表</a>した。資金はNVIDIAのAIインフラ「Grace Blackwell」基盤の導入に充てられ、1万3800基のNVIDIA GB300 GPUを設置する計画だ。</p>
-<p>同社によると、このデータセンターのAI計算インフラは電力容量44MWに達する見込みで、政府機関や企業がAIを構築・運用する需要に対応する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mistral_AI_data_center_186e4b1515/Mistral_AI_data_center_186e4b1515.jpg" alt="MistralAI data center.jpg" /></p>
-<h2>初のデットファイナンスで8億3000万ドル調達</h2>
-<p>Mistral AIは今回、同社にとって初となるデットファイナンス（融資による資金調達）を実施した。</p>
-<p>融資には以下の銀行コンソーシアムが参加している。
-・Bpifrance
-・BNP Paribas
-・Crédit Agricole CIB
-・HSBC
-・La Banque Postale
-・MUFG（三菱UFJ銀行）
-・Natixis Corporate &amp; Investment Banking</p>
-<p>これらの金融機関が、パリ南部のBruyères-le-ChâtelにあるデータセンターのAIインフラ整備を支援する。</p>
-<h2>NVIDIA GB300 GPUを1万3800基導入</h2>
-<p>今回のデータセンターでは、NVIDIAのGrace Blackwellアーキテクチャを基盤としたAI計算インフラを構築する。導入されるGPUは1万3800基のNVIDIA GB300で、同施設の電力容量は44MWとなる予定だ。</p>
-<p>NVIDIAのGrace Blackwellは、大規模AIモデルのトレーニングや推論に最適化された最新世代のAI計算基盤として知られている。</p>
-<h2>欧州で200MWのAI計算基盤構築へ</h2>
-<p>Mistral AIは今回のデータセンターを、欧州でのAIインフラ拡張戦略の一環と位置づけている。同社は2027年末までに、欧州全体で200MW規模のAI計算能力を構築する計画を掲げている。</p>
-<p>LinkedInの投稿では、政府機関や企業が自らAIを構築・運用する需要が高まっているとし、「欧州には野心的なAIクラウドインフラと独立したAIスタックが必要だ」と述べ、欧州独自のAI基盤整備の必要性を強調した。</p>
 ]]></description>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
