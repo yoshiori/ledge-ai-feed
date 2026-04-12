@@ -711,35 +711,6 @@ Microsoftは</p>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、自社AI基盤モデル「MAI」3種を発表　音声認識「MAI-Transcribe-1」・音声生成「MAI-Voice-1」・画像生成「MAI-Image-2」を「Azure AI Foundry」で開発者に提供</title>
-      <link>https://ledge.ai/articles/microsoft_mai_models_transcribe_voice_image_foundry</link>
-      <description><![CDATA[<p>Microsoftは2026年4月2日（現地時間）、自社開発のAI基盤モデルとして、音声認識モデル「MAI-Transcribe-1」、音声生成モデル「MAI-Voice-1」、画像生成モデル「MAI-Image-2」を<a href="https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/">発表</a>した。これらのモデルは同社のAI開発プラットフォーム「Azure AI Foundry」を通じて開発者向けに提供される。</p>
-<h2>音声認識・音声生成・画像生成の3モデルを公開</h2>
-<p>今回発表された3つのモデルはいずれも、Microsoftが自社開発するAIモデル群「MAI（Microsoft AI）」ファミリーの一部として位置づけられる。Azure AI Foundryを通じて利用可能となり、開発者はこれらのモデルをアプリケーション開発などに組み込むことができる。</p>
-<p>MicrosoftのCEOであるサティア・ナデラ氏は自身のX（旧Twitter）で、「MAIモデルファミリーをFoundryを通じてすべての開発者に提供する」と説明。新モデルとして、文字起こしモデル「MAI-Transcribe-1」、音声生成モデル「MAI-Voice-1」、画像生成モデル「MAI-Image-2」を挙げた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Satya_Nadella_91c26f34d7/Satya_Nadella_91c26f34d7.jpg" alt="Satya Nadella.jpg" /></p>
-<h2>MAI-Transcribe-1：25言語対応の音声認識モデル</h2>
-<p>「MAI-Transcribe-1」は音声をテキストに変換する音声認識（speech-to-text）モデルで、25言語に対応する。Microsoftによると、複数のベンチマークで高い精度を示し、文字起こし用途で高性能を実現しているという。</p>
-<p>会議の議事録作成や音声データの分析、AIアシスタントなど、さまざまな音声処理アプリケーションへの利用を想定している。</p>
-<p><strong>■ MAI-Transcribe-1の平均WER（Word Error Rate）比較。数値が低いほど精度が高い</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/MAI_Transcribe_1_bench_83493f2103/MAI_Transcribe_1_bench_83493f2103.jpg" alt="MAI-Transcribe-1 bench.jpg" /></p>
-<h2>MAI-Voice-1：自然で表現力のある音声生成</h2>
-<p>「MAI-Voice-1」はテキストから音声を生成する音声合成（text-to-speech）モデルだ。感情やトーンの制御が可能で、自然で表現力のある音声生成を特徴とする。</p>
-<p>短い音声サンプルをもとに音声スタイルを指定することも可能で、音声インターフェースやAIアシスタント、音声コンテンツ生成などへの応用が想定されている。</p>
-<p><strong>■ 音声生成モデル「MAI-Voice-1」は25言語に対応する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/MAI_Voice_1_25languages_5445d42d24/MAI_Voice_1_25languages_5445d42d24.jpg" alt="MAI-Voice-1 25languages.jpg" /></p>
-<h2>MAI-Image-2：Microsoftの最新画像生成モデル</h2>
-<p>画像生成モデル「MAI-Image-2」は拡散モデルをベースとしたテキスト画像生成AIで、最大1024×1024ピクセルの画像生成に対応する。Microsoftによると、画像生成AIの評価ランキングでも上位に入る性能を持つという。</p>
-<p>デザイン生成やコンテンツ制作、AIアプリケーションの画像生成機能などでの活用が想定される。</p>
-<p><strong>■ 画像生成モデル「MAI-Image-2」による生成例</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mai_image2_2222c0003c/Mai_image2_2222c0003c.jpg" alt="Mai-image2.jpg" /></p>
-<h2>Azure AI Foundryで提供</h2>
-<p>これら3モデルは、MicrosoftのAI開発基盤「Azure AI Foundry」から利用できる。FoundryはAIモデルの利用、アプリケーション開発、モデル管理などを統合した開発環境で、企業や開発者がAIサービスを構築するためのプラットフォームとして提供されている。</p>
-<p>MicrosoftはOpenAIとの提携を継続する一方、自社開発のAIモデル群「MAI」の拡充も進めており、Azure AI Foundryを通じて開発者が利用できるモデルのラインアップを強化している。</p>
-]]></description>
-      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>MLCommons、AIサーバの推論性能ベンチマーク「MLPerf Inference v6.0」公開　NVIDIA・AMDなど24組織のAIサーバー性能を比較</title>
       <link>https://ledge.ai/articles/mlperf_inference_v6_ai_server_benchmark_nvidia_amd</link>
       <description><![CDATA[<p>AIサーバーの性能評価を行う業界コンソーシアム MLCommons は2026年4月1日、推論性能ベンチマーク「MLPerf Inference v6.0」の結果を<a href="https://mlcommons.org/2026/04/mlperf-inference-v6-0-results">公開</a>した。大規模言語モデル（LLM）など生成AIワークロードを含む推論処理の性能を測定するもので、NVIDIA や AMD など24の組織がシステム結果を提出し、AIサーバーの処理性能を比較できる。</p>
@@ -904,6 +875,34 @@ Microsoftは</p>
 <p>組み合わせ最適化問題は、さまざまな産業分野で発生する。例えば物流では配送ルートの最適化、製造では生産スケジュールの最適化、金融ではポートフォリオの組み合わせなどが挙げられる。</p>
 <p>東芝は、今回開発したアルゴリズムを量子インスパイアード計算機の性能向上に活用し、こうした実社会の最適化問題への応用を進めていくとしている。</p>
 <p>@<a href="https://www.youtube.com/watch?v=nABlpioUBiM">YouTube</a></p>
+]]></description>
+      <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中等学校教師の66％、AIで生徒の思考力低下を実感　英国の教育組合による調査</title>
+      <link>https://ledge.ai/articles/uk_teachers_ai_decline_critical_thinking_neu_survey</link>
+      <description><![CDATA[<p>英国の教育組合 National Education Union（NEU）は2026年4月2日、教育現場におけるAI利用に関する調査結果を<a href="https://neu.org.uk/latest/press-releases/state-education-2026-ai">公表</a>した。イングランドの州立学校に勤める教員会員9408人の回答を集計したもので、中等学校教師の66％が「生徒の批判的思考力はAI利用によって低下した」と感じていると答えた。</p>
+<p>教師自身のAI利用は急速に広がっている一方で、生徒の思考力や文章作成能力などへの影響を懸念する声が教育現場で強まっていることが明らかになった。</p>
+<h2>AIで思考力が低下したと感じる教師は中等教育で66％</h2>
+<p>調査によると、「AIの利用によって生徒の批判的思考力が低下したと感じるか」という質問に対し、中等学校教師の66％が「そう思う」と回答した。初等教育では同様の回答は28％にとどまり、中等教育の現場でより強い懸念が示されている。</p>
+<p><strong>■ AI利用による生徒の批判的思考力低下を感じる教師の割合。中等学校では66％が「そう思う」と回答</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/So_E_AI_4_505583dc51/So_E_AI_4_505583dc51.jpg" alt="SoE AI 4.jpg" /></p>
+<p>NEUの発表では、教師の自由記述として、批判的思考だけでなく、創造性、ライティング能力、問題解決能力などへの影響を懸念する声も寄せられている。生成AIの普及により、課題レポートや作文などをAIで作成するケースが増えていることが背景にあるとみられている。</p>
+<h2>教師自身のAI利用は急拡大</h2>
+<p>一方で、教師側の業務ではAIの活用が急速に広がっている。</p>
+<p>調査によると、日常業務でAIを利用している教師は76％に達し、前年の53％から大きく増加した。用途として最も多かったのは教材作成（61％）で、授業計画の作成（41％）、事務作業（38％）が続いた。採点への利用は7％にとどまった。</p>
+<p><strong>■ 教師がAIを利用する主な用途。教材作成や授業計画など、授業準備の支援としての利用が多い</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/So_E_AI_png_fb9881fa7f/So_E_AI_png_fb9881fa7f.webp" alt="SoE AI.png.webp" /></p>
+<h2>学校のAI利用ルールは整備が遅れ</h2>
+<p>AI利用に関する学校の方針整備は、まだ十分とは言えない状況だ。
+調査では、教職員または生徒のAI利用に関する明確なポリシーを持たない学校が49％に上った。生徒の利用に限ると、66％の学校でAI利用の方針が定められていない。</p>
+<p>AI利用が急速に広がる一方、教育現場のルール整備が追いついていない実態が浮き彫りになった。</p>
+<p><strong>■ 学校のAI利用ポリシーの整備状況。約半数の学校でAI利用を包括的に定めたルールが存在しない</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/So_E_AI_2_png_af809ccfcf/So_E_AI_2_png_af809ccfcf.webp" alt="SoE AI 2.png.webp" /></p>
+<h2>政府のAIチューター政策への支持は限定的</h2>
+<p>英国政府は、恵まれない家庭の子どもを対象にAIチューターを導入する計画を進めており、2027年9月からの導入を目指している。しかしNEUの調査では、この政策に「強く賛成」または「賛成」と答えた教師は合わせて14％にとどまり、「反対」「強く反対」は49％に達した。回答の最多は「どちらとも言えない」の36％で、教育現場ではAIの教育利用に対して慎重な見方が広がっていることがうかがえる。</p>
+<p><strong>■ 英国政府が計画するAIチューター導入政策への教師の意見。賛成は14％にとどまり、慎重または否定的な見方が多数を占めた</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/So_E_AI_3_png_9973aeca1d/So_E_AI_3_png_9973aeca1d.webp" alt="SoE AI 3.png.webp" /></p>
 ]]></description>
       <pubDate>Tue, 31 Mar 2026 23:50:00 GMT</pubDate>
     </item>
