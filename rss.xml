@@ -229,6 +229,44 @@ PrismMLによると</p>
       <pubDate>Mon, 06 Apr 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、クラウド型エージェント基盤「Claude Managed Agents」公開　インフラ管理を自動化しAIエージェントを“10倍速”で本番投入へ</title>
+      <link>https://ledge.ai/articles/anthropic_claude_managed_agents_release</link>
+      <description><![CDATA[<p>米AI企業Anthropicは2026年4月8日、クラウド上でAIエージェントを構築・運用するためのツール群「Claude Managed Agents」を<a href="https://claude.com/blog/claude-managed-agents">発表</a>した。エージェントの実行環境や権限管理などのインフラをClaude Platform側が管理することで、開発者はユーザー体験やアプリケーション設計に集中できるようになる。エージェントをプロトタイプから本番環境へ導入するまでの期間を、従来の数カ月から数日へ短縮できるとしている。</p>
+<h2>クラウド上でAIエージェントを構築・運用</h2>
+<p>Claude Managed Agentsは、クラウドホスト型のAIエージェントを大規模に構築・展開するためのAPI群だ。Anthropicによると、これまでエージェントを本番環境で運用するには、セキュアな実行環境や状態管理、権限管理などの基盤を個別に構築する必要があり、開発の大きな負担となっていた。</p>
+<p>Managed Agentsでは、こうしたインフラをClaude Platform側が提供する。開発者はエージェントが行うタスクや使用するツール、ガードレールなどを定義するだけで、Anthropicのクラウド環境上でエージェントを実行できる。これにより、プロトタイプから本番環境までの導入期間を「数カ月から数日へ短縮できる」としている。</p>
+<p>Claude Managed Agentsは現在、Claude Platform上でパブリックベータとして提供されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=I1BvAHOsjBU">YouTube</a></p>
+<h2>エージェント実行のアーキテクチャ</h2>
+<p><strong>Claude Managed Agentsのアーキテクチャ図。中央の「Harness」がエージェント実行の中核となり、セッション管理、ツール呼び出し、サンドボックス実行、ワークフローのオーケストレーションなどを統合する</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/69d53a1b570fa207204f0111_Claude_Blog_Managed_Agents_Diagram_No_Border_274756e8b3/69d53a1b570fa207204f0111_Claude_Blog_Managed_Agents_Diagram_No_Border_274756e8b3.jpg" alt="69d53a1b570fa207204f0111_Claude-Blog-Managed-Agents-Diagram-NoBorder.jpg" /></p>
+<p>図では、エージェントの実行を制御する中核コンポーネントとしてHarnessが配置されている。Harnessはセッション管理やツール呼び出し、コード実行などを統合的に制御し、エージェントが必要に応じて外部ツールやサンドボックス環境を利用できるようにする。</p>
+<p>上部の「Tools + Resources / MCP」は、エージェントがアクセスする外部ツールやリソースを示している。右側の「Sandbox」はコード実行環境、左側の「Session」はエージェントの状態やタスク進行を管理するセッション情報を表す。また下部の「Orchestration」は複数のエージェントや処理フローを調整する役割を担う。</p>
+<p>このようにManaged Agentsでは、エージェントの推論だけでなく、ツール呼び出しやワークフロー管理などの運用基盤を一体化して提供する構成になっている。</p>
+<h2>セキュアな実行環境や長時間動作などを提供</h2>
+<p>Claude Managed Agentsには、エージェント運用に必要な機能があらかじめ組み込まれている。</p>
+<p>主な機能として、以下が挙げられている。</p>
+<ul>
+<li>セキュアなサンドボックス環境：認証やツール実行を含む安全な実行基盤</li>
+<li>長時間セッション：数時間にわたり自律的に処理を継続し、接続が途切れても進行状況を保持</li>
+<li>マルチエージェント連携：エージェントが他のエージェントを起動し、複雑なタスクを並列処理（研究プレビュー）</li>
+<li>ガバナンス機能：権限スコープ管理、ID管理、実行トレースなど</li>
+</ul>
+<p>これらの機能により、企業システムや外部ツールと接続するエージェントを安全に運用できるようになるという。</p>
+<h2>Claude向けに最適化されたエージェント基盤</h2>
+<p>Anthropicは、Claudeモデルがエージェント型のワークフローに適していると説明している。Claude Managed AgentsはClaudeの能力を最大限に活用できるよう設計されており、開発者はエージェントの目的や成功条件を定義することで、Claudeが結果を評価しながらタスクを反復実行する仕組みも利用できる。</p>
+<p>Anthropicの社内テストでは、構造化ファイル生成タスクにおいて、Managed Agentsを使用した場合、従来のプロンプトベースのワークフローと比べてタスク成功率が最大10ポイント改善したという。</p>
+<p>また、Claude Consoleにはセッションのトレース機能や統合分析機能が組み込まれており、開発者はツール呼び出しやエージェントの判断、エラー発生の状況などを詳細に確認できる。</p>
+<h2>Notionや楽天など企業利用も進む</h2>
+<p>Anthropicによると、すでに複数の企業がManaged Agentsを活用したエージェント開発を進めている。</p>
+<p>例えばNotionでは、ワークスペース内でClaudeに作業を委任できる機能を開発しており、エンジニアはコード作成を、ナレッジワーカーはWebサイトやプレゼンテーション作成をClaudeに任せられるという。</p>
+<p>また楽天では、製品、営業、マーケティング、財務などの業務向けエージェントを導入し、SlackやMicrosoft Teamsからタスクを依頼できる仕組みを構築した。社員はスプレッドシートやプレゼン資料、アプリケーションなどの成果物をエージェントから受け取ることができるとしている。</p>
+<p>このほか、Asanaはプロジェクト内で人間と協働する「AI Teammates」を開発し、Sentryはバグ検出から修正コード生成、プルリクエスト作成までを自動化するデバッグエージェントを構築したという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=45hPRdfDEsI">YouTube</a></p>
+]]></description>
+      <pubDate>Mon, 06 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>米Arcee AI、3990億パラメータのオープンウェイト推論モデル「Trinity-Large-Thinking」公開　Apache 2.0で改変・商用利用可能</title>
       <link>https://ledge.ai/articles/arcee_ai_trinity_large_thinking_open_weights_release</link>
       <description><![CDATA[<p>サンフランシスコに拠点を置くAIスタートアップのArcee AIは2026年4月1日、3990億パラメータの大規模言語モデル「Trinity-Large-Thinking」を<a href="https://www.arcee.ai/blog/trinity-large-thinking">公開</a>した。同モデルはオープンウェイトとして公開され、Apache 2.0ライセンスの下で改変や商用利用が可能となっている。企業や研究者が自社環境で再学習や運用を行えることから、オープンAIモデルの活用を広げる可能性がある。</p>
