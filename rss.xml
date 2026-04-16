@@ -84,6 +84,29 @@
       <pubDate>Mon, 13 Apr 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、Geminiに「Notebooks」追加　Geminiから直接NotebookLMを利用可能に、チャットと資料をまとめて管理</title>
+      <link>https://ledge.ai/articles/gemini_notebooks_notebooklm_integration</link>
+      <description><![CDATA[<p>Googleは2026年4月8日（現地時間）、生成AIアプリ「Gemini」に新機能「Notebooks」を追加したと<a href="https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/">発表</a>した。チャットや資料をテーマごとに整理できる機能で、AIリサーチツール「NotebookLM」と同期する。これにより、Geminiから直接NotebookLMの機能を活用しながら、資料を基にしたAI対話やリサーチ作業が可能になるという。</p>
+<h2>Geminiアプリに「Notebooks」機能を追加</h2>
+<p>Notebooksは、Geminiアプリ内で会話や資料をテーマごとにまとめて管理できる機能だ。ユーザーはサイドパネルの「New notebook」からノートブックを作成でき、既存のチャットを移動させて整理することもできる。</p>
+<p>ノートブックには、PDFやドキュメントなどのファイルを追加してGeminiの回答の参考資料として利用できる。ユーザーが整理した資料をGeminiが参照しながら回答するため、特定のテーマに基づいた対話や分析を行いやすくなるという。</p>
+<p><strong>■ NotebooksではPDFやGoogle Driveのファイル、Webページなどを資料として追加できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_notebooklm2_34caa2208f/gemini_notebooklm2_34caa2208f.jpg" alt="gemini notebooklm2.jpg" /></p>
+<h2>Geminiから直接NotebookLMを利用可能に</h2>
+<p>今回のNotebooksは、GoogleのAIリサーチツール「NotebookLM」と同期する仕組みになっている。</p>
+<p>Geminiで追加した資料はNotebookLMにも反映され、逆にNotebookLMで追加した資料もGeminiから参照できる。この連携により、ユーザーは同じノートブックを使って2つのAIツールの機能を組み合わせて利用できる。</p>
+<p>たとえば、NotebookLMでは資料の内容を基にした動画解説（Video Overview）やインフォグラフィックを生成できる。一方でGeminiでは、同じ資料を基に質問したり、レポートの構成案を作成したりすることが可能になる。</p>
+<p><strong>■ ノートブック内ではチャットと資料をまとめて管理できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_notebooklm3_4c8e570149/gemini_notebooklm3_4c8e570149.jpg" alt="gemini notebooklm3.jpg" /></p>
+<h2>AIチャットと資料管理をまとめた作業スペース</h2>
+<p>GoogleはNotebooksを、Google製品をまたいで共有される「個人のナレッジベース」として位置づけている。ユーザーはノートブックに関連資料や会話をまとめることで、AIがそれらを参照しながら回答する環境を構築できる。</p>
+<p>同社は、学生が授業ノートをまとめてAIに質問したり、趣味や研究テーマに関する資料を整理してリサーチを進めたりする用途を例として挙げている。</p>
+<h2>まずは有料ユーザーから提供</h2>
+<p>Notebooksはまず、GeminiのWeb版で提供が開始される。対象は「Google AI Ultra」「Google AI Pro」「Google AI Plus」の加入者で、今後数週間のうちにモバイル版や欧州などの地域、さらに無料ユーザーにも提供範囲を拡大する予定としている。</p>
+]]></description>
+      <pubDate>Sun, 12 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東芝、量子コンピューターの原理を模倣した「量子インスパイアード計算機」を改良　新アルゴリズムで計算速度最大100倍・精度ほぼ100%</title>
       <link>https://ledge.ai/articles/toshiba_quantum_inspired_computer_100x_algorithm</link>
       <description><![CDATA[<p>東芝は2026年4月7日、量子コンピューターの原理を模倣した「量子インスパイアード計算機」に用いる新しいアルゴリズムを開発したと<a href="https://www.global.toshiba/jp/technology/corporate/rdc/rd/topics/26/2604-01.html">発表</a>した。従来手法と比べて計算速度を最大100倍に高めるとともに、解の精度もほぼ100%に向上したとしている。</p>
@@ -168,6 +191,27 @@
 <p>日本語LLMの研究開発は近年、企業や大学を中心に活発化している。今回のLLM-jp-4の公開は、日本語に特化した大規模言語モデルの研究基盤を広げる取り組みの一つとなる。</p>
 ]]></description>
       <pubDate>Tue, 07 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>音から広がるイメージを生成AIでミュージックビデオに　全盲クリエイターが監督する映像表現プロジェクトを公開</title>
+      <link>https://ledge.ai/articles/ai_music_video_blind_creators</link>
+      <description><![CDATA[<p>バリアフリーeスポーツの企画・運営や障害者の就労支援を手掛けるePARAは2026年4月8日、視覚障害者（全盲）4人が映像監督を務める映像表現プロジェクトの初作品として、ミュージックビデオ（MV）「CROWN（Water Remix）」を公開したことを<a href="https://prtimes.jp/main/html/rd/p/000000072.000056567.html">発表</a>した。音から広がるイメージを生成AIで映像化することで、視覚に依存しない感覚を起点とした新しい映像表現を試みたという。</p>
+<h2>視覚以外の知覚からミュージックビデオを制作</h2>
+<p>同プロジェクトでは、視覚障害のあるクリエイターが楽曲を聴き、音や触覚、状況的なイメージなど、視覚以外の知覚や感性をもとに作品の世界観やストーリーを構想する。その内容を言語化し、生成AIを活用して映像として具現化することで、ミュージックビデオを制作する仕組みだ。</p>
+<h2>初作品はSARUKANIの楽曲「CROWN」をもとに制作</h2>
+<p>公開された「CROWN（Water Remix）」は、ヒューマンビートボックスクルーSARUKANIの楽曲をもとに制作されたミュージックビデオだ。音から広がるイメージをもとに映像のストーリーラインを設計し、生成AIで映像化。その世界観や物語に合わせて楽曲を新たにアレンジして完成させた。</p>
+<p><strong>SARUKANI『CROWN（Water Remix）』のサムネイル画像</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/56567_72_b3283b558f4e576ffb26285ece0985b7_1280x720_0a7229cf36/56567_72_b3283b558f4e576ffb26285ece0985b7_1280x720_0a7229cf36.webp" alt="56567-72-b3283b558f4e576ffb26285ece0985b7-1280x720.webp" /></p>
+<p>制作の過程では、視覚障害のある監督が楽曲をもとに想起した感覚や情景を言葉として表現し、それを生成AIへのプロンプトとして映像生成に反映させる。AIは、見えない人の世界観や感覚を視覚的な映像として表現するための橋渡し役として機能する。</p>
+<p>映像の着想には、新幹線に乗っている時の疾走感や、水中で歓声が聞こえない状況から生まれる孤独の感覚、太鼓の音から想起される闘争心など、聴覚や触覚に基づくイメージが取り入れられているという。こうした非視覚的な知覚を起点とした発想を、生成AIを通じて映像化するユニークな取り組みとなった。</p>
+<p>@<a href="https://www.youtube.com/watch?v=3EY8uuF5WVo">YouTube</a></p>
+<h2>視覚中心の映像制作を問い直す試み</h2>
+<p>人間は情報の多くを視覚から得ているとされるが、同プロジェクトはその前提を問い直す試みだ。視覚に依存しない知覚や感覚を出発点とした映像表現を通じて、従来の映像制作とは異なるアプローチを提示している。</p>
+<p>ePARAはこれまで、バリアフリーeスポーツの普及や障害者の就労支援などを進めてきた。今回の取り組みは、障害の有無にかかわらずクリエイティブ活動に参加できる環境づくりを目指す同社の活動の一環として実施されたものだ。</p>
+<p>公開されたミュージックビデオはYouTubeで視聴できる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=PtCzVhUE57s">YouTube</a></p>
+]]></description>
+      <pubDate>Tue, 07 Apr 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>桑名市で開校の多度学園、日本初の「AI校歌」公開　理研AIPの作曲支援AI「超校歌プロジェクト」でメロディ生成、生徒が選んで完成</title>
