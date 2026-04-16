@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>YouTube、クリエイターが自身に似たAIアバターを作成できる機能を提供開始　顔と声から生成しShortsに登場可能</title>
+      <link>https://ledge.ai/articles/youtube_ai_avatar_creators_shorts</link>
+      <description><![CDATA[<p>Googleは動画共有サービス「YouTube」で、クリエイターが自分に似たAIアバターを作成できる機能の提供を開始した。顔と声をもとに生成したアバターを、カメラの前に立つことなくショート動画（YouTube Shorts）に登場させることができる。
+YouTubeが公開している<a href="https://support.google.com/youtube/answer/16985237">公式ヘルプページ</a>（2026年4月確認）によると、このアバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能になる。4月8日より海外メディアが、同機能の段階的な提供開始を報じた。</p>
+<h2>クリエイターの「分身」を動画に登場させるAIアバター</h2>
+<p>YouTubeは、クリエイターが自身に似たAIアバターを作成できる機能を提供した。アバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能だ。このアバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能だ。</p>
+<p>特に、ショート動画フォーマット「YouTube Shorts」での利用が想定されている。</p>
+<h2>顔と声を収録してアバターを生成</h2>
+<p>アバター作成では、スマートフォンを使って顔や声を収録する「Live Selfie（ライブセルフィー）」と呼ばれるプロセスを行う。18歳以上で既存のYouTubeチャンネルを持つユーザーが対象で、機能は段階的に展開される。</p>
+<p>このプロセスを通じて、クリエイターの外見や声を反映したデジタルアバターが生成される。作成されたアバターは本人のみが利用でき、不要になれば削除することもできる。</p>
+<p>生成されたアバターはYouTube Shortsの動画に挿入でき、実際にカメラの前で撮影する代わりにアバターを動画に登場させることが可能だ。</p>
+<h2>AI生成コンテンツであることをラベル表示</h2>
+<p>YouTubeは、この機能で作成された動画について、AI生成コンテンツであることを示す仕組みも導入している。動画にはAI生成であることを示す可視ラベルが付くほか、Googleの透かし技術「SynthID」やC2PAにより、AI生成コンテンツであることが識別できるようになっている。</p>
+<h2>1月の年次レターで予告していた機能が具体化</h2>
+<p>この機能の方向性自体は、YouTube CEOのNeal Mohan氏が2026年1月21日に公開した年次レターで示されていた。同氏は2026年の重点施策としてAIツールの拡充を挙げ、その一例として「自分の肖像（likeness）を使ってShortsを作成する」機能に言及していた。今回のAIアバター機能は、その内容が具体化したものとみられる。</p>
+]]></description>
+      <pubDate>Tue, 14 Apr 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、AIエージェント機能「Claude Cowork」を全有料プランで一般提供　企業向けに権限制御や利用分析など管理機能を追加</title>
       <link>https://ledge.ai/articles/anthropic_claude_cowork_enterprise_management_features</link>
       <description><![CDATA[<p>Anthropicは2026年4月9日（現地時間）、AIエージェント機能「Claude Cowork」を全ての有料プランで一般提供すると<a href="https://www.anthropic.com/research/trustworthy-agents">発表</a>した。あわせて、Enterprise向けのロールベースアクセス制御、グループ単位の利用上限、利用分析、OpenTelemetry対応の監視機能など、企業内で安全かつ効率的に展開するための管理機能群を導入した。早期導入企業で利用が広がる中、アクセス権限やコスト管理、組織横断での可視化といった運用面の課題に対応する狙いがある。</p>
@@ -128,35 +147,6 @@
 <p>@<a href="https://www.youtube.com/watch?v=nABlpioUBiM">YouTube</a></p>
 ]]></description>
       <pubDate>Sat, 11 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、新AI基盤モデル「Claude Mythos Preview」を発表　脆弱性発見能力の高さから一般公開は見送り</title>
-      <link>https://ledge.ai/articles/anthropic_claude_mythos_preview_security_vulnerability_glasswing</link>
-      <description><![CDATA[<p>Anthropicは2026年4月7日（現地時間）、<a href="https://red.anthropic.com/2026/mythos-preview/">Red Teamブログ</a>で、フロンティアAIモデル 「Claude Mythos Preview」 に関する技術情報を公開した。Mythos Previewはソフトウェアの脆弱性を発見し、攻撃に悪用する能力が極めて高いことが確認されており、同社は安全上の理由からこのモデルを一般公開しない方針を明らかにした。</p>
-<p>同時にAnthropicは、AIによるサイバー攻撃リスクに対応するための新たな取り組み 「Project Glasswing」 を開始した。これは、Mythos Previewのような高度なAIを防御側のセキュリティ研究に活用することを目的としたプロジェクトだ。</p>
-<h2>AIが脆弱性を自律的に発見・悪用</h2>
-<p>Anthropicの研究チームによる検証では、Mythos Previewはソフトウェアの脆弱性を自律的に発見し、それを悪用するエクスプロイトを生成できる能力を示した。</p>
-<p><strong>Claude Mythos Previewは、Firefoxの脆弱性を利用したエクスプロイト生成の成功率で既存モデルを大きく上回った</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/FRT_Blog_Chart_CMP_Firefox_exploit_2x_8d353c4934/FRT_Blog_Chart_CMP_Firefox_exploit_2x_8d353c4934.png" alt="FRT-Blog-Chart-CMP-Firefox-exploit@2x.png" /></p>
-<p>たとえばFreeBSDでは、17年前から存在していたリモートコード実行（RCE）脆弱性を完全に自律的に発見し、実際に攻撃を成立させることに成功したという。</p>
-<p>この脆弱性は、ネットワーク経由で認証なしにサーバーの完全な制御を奪える重大な欠陥であり、長年にわたり人間の研究者や自動テストツールによって発見されていなかった。</p>
-<p>Anthropicによると、Mythos Previewはこうした脆弱性を発見する能力が「ごく一部の専門家を除く人間を上回るレベル」に達しているという。</p>
-<h2>一般公開はせず、限定的に提供</h2>
-<p>こうした能力はセキュリティ研究にとって強力なツールとなる一方、悪用されれば大規模なサイバー攻撃につながる可能性もある。そのためAnthropicは、Mythos Previewを一般公開せず、信頼できる組織や研究者に限定して提供する方針を取った。</p>
-<p>同社は、AIの能力向上によって「ソフトウェアの脆弱性を発見する速度が急激に高まる」可能性を指摘しており、防御側が攻撃者より先に問題を発見する体制が重要になるとしている。</p>
-<h2>AI時代のセキュリティ研究「Project Glasswing」</h2>
-<p>Anthropicは、こうした状況に対応するため 「<a href="https://www.anthropic.com/glasswing">Project Glasswing</a>」 を立ち上げた。</p>
-<p>このプロジェクトには、Amazon Web Services、Apple、Google、Microsoft、NVIDIA、Linux Foundationなどの企業や団体が参加し、AIを活用して重要なソフトウェアの脆弱性を発見・修正する取り組みを進める。</p>
-<p>@<a href="https://www.youtube.com/watch?v=INGOC6-LLv0">YouTube</a></p>
-<p>Anthropicは、Mythos Previewの能力が示すように、AIはすでに 高度なサイバーセキュリティ研究者に匹敵するレベルで脆弱性を発見・悪用できる段階に到達している と指摘する。</p>
-<p>AIが攻撃者に利用される可能性もあることから、同社は防御側の能力を強化する研究を急ぐ必要があるとしている。</p>
-<h2>能力とリスクを公開した「System Card」</h2>
-<p>Anthropicは今回、Mythos Previewの詳細な能力評価や安全性の検証結果をまとめた System Card（システムカード） も<a href="https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf">公開</a>した。</p>
-<p>System CardはAIモデルの性能、リスク、安全対策などを説明する技術文書で、近年はフロンティアAIの透明性を確保するためにAI企業が公開するケースが増えている。</p>
-<p>Mythos Previewの場合、モデル自体は一般公開されていないが、Anthropicは透明性確保の観点からSystem Cardを公開し、能力や潜在的リスクについて研究コミュニティと共有することにした。</p>
-<p>Anthropicは将来的に、Mythos Previewのような高能力AIを 安全に大規模展開できる仕組みを整えることを目標としており、サイバーセキュリティ研究などを通じて安全な運用方法を模索していくとしている。</p>
-]]></description>
-      <pubDate>Wed, 08 Apr 2026 08:50:00 GMT</pubDate>
     </item>
     <item>
       <title>国立情報学研究所、フルスクラッチ学習の国産LLM「LLM-jp-4」公開　8B・32Bモデルをオープンソースで提供</title>
@@ -675,25 +665,6 @@ PrismMLによると</p>
 <p>AIの高度化によるサイバーリスクは米国だけでなく、各国の金融規制当局でも議論が進んでいる。
 報道によると、英国の金融規制当局やカナダ政府も、AnthropicのAIモデルを巡るリスクについて評価を進めているとされる。</p>
 <p>AIがソフトウェアの脆弱性を高速で発見できるようになることで、防御側のセキュリティ対策が強化される可能性がある一方、攻撃側によるサイバー攻撃の自動化が進むという「デュアルユース」の問題が指摘されている。</p>
-]]></description>
-      <pubDate>Tue, 07 Apr 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>YouTube、クリエイターが自身に似たAIアバターを作成できる機能を提供開始　顔と声から生成しShortsに登場可能</title>
-      <link>https://ledge.ai/articles/youtube_ai_avatar_creators_shorts</link>
-      <description><![CDATA[<p>Googleは動画共有サービス「YouTube」で、クリエイターが自分に似たAIアバターを作成できる機能の提供を開始した。顔と声をもとに生成したアバターを、カメラの前に立つことなくショート動画（YouTube Shorts）に登場させることができる。
-YouTubeが公開している<a href="https://support.google.com/youtube/answer/16985237">公式ヘルプページ</a>（2026年4月確認）によると、このアバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能になる。4月8日より海外メディアが、同機能の段階的な提供開始を報じた。</p>
-<h2>クリエイターの「分身」を動画に登場させるAIアバター</h2>
-<p>YouTubeは、クリエイターが自身に似たAIアバターを作成できる機能を提供した。アバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能だ。このアバターはクリエイター本人の顔や声をもとに生成される。作成したアバターは動画コンテンツに登場させることができ、実際に撮影を行わなくても視聴者にメッセージを届けることが可能だ。</p>
-<p>特に、ショート動画フォーマット「YouTube Shorts」での利用が想定されている。</p>
-<h2>顔と声を収録してアバターを生成</h2>
-<p>アバター作成では、スマートフォンを使って顔や声を収録する「Live Selfie（ライブセルフィー）」と呼ばれるプロセスを行う。18歳以上で既存のYouTubeチャンネルを持つユーザーが対象で、機能は段階的に展開される。</p>
-<p>このプロセスを通じて、クリエイターの外見や声を反映したデジタルアバターが生成される。作成されたアバターは本人のみが利用でき、不要になれば削除することもできる。</p>
-<p>生成されたアバターはYouTube Shortsの動画に挿入でき、実際にカメラの前で撮影する代わりにアバターを動画に登場させることが可能だ。</p>
-<h2>AI生成コンテンツであることをラベル表示</h2>
-<p>YouTubeは、この機能で作成された動画について、AI生成コンテンツであることを示す仕組みも導入している。動画にはAI生成であることを示す可視ラベルが付くほか、Googleの透かし技術「SynthID」やC2PAにより、AI生成コンテンツであることが識別できるようになっている。</p>
-<h2>1月の年次レターで予告していた機能が具体化</h2>
-<p>この機能の方向性自体は、YouTube CEOのNeal Mohan氏が2026年1月21日に公開した年次レターで示されていた。同氏は2026年の重点施策としてAIツールの拡充を挙げ、その一例として「自分の肖像（likeness）を使ってShortsを作成する」機能に言及していた。今回のAIアバター機能は、その内容が具体化したものとみられる。</p>
 ]]></description>
       <pubDate>Tue, 07 Apr 2026 01:50:00 GMT</pubDate>
     </item>
