@@ -204,6 +204,45 @@ YouTubeが公開している<a href="https://support.google.com/youtube/answer/1
       <pubDate>Tue, 07 Apr 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、最上位モデル「Claude Opus 4.7」公開　難易度の高いソフトウェア開発タスクへの対応力を強化</title>
+      <link>https://ledge.ai/articles/anthropic_claude_opus_4_7_release_software_engineering_enhancement</link>
+      <description><![CDATA[<p>Anthropicは2026年4月16日（現地時間）、最新のAIモデル「Claude Opus 4.7」を<a href="https://www.anthropic.com/news/claude-opus-4-7">公開</a>した。Claudeシリーズにおける最上位モデルの最新版にあたり、特にソフトウェアエンジニアリング領域における性能向上が主軸となっている。</p>
+<p>同モデルは前バージョン「Opus 4.6」を直接的に強化した位置づけで、難易度の高いコーディングタスクや長時間にわたる複雑な処理への対応力を高めた。指示への忠実な追従に加え、出力前に自身の結果を検証する挙動なども特徴とされる。</p>
+<h2>高難度コーディングと長時間タスク処理を強化</h2>
+<p>Claude Opus 4.7は、特に高度なソフトウェア開発タスクにおいて顕著な改善が見られる。公式リリースでは、従来は人間による継続的な監督が必要だった複雑な作業についても、モデル単独で任せられるケースが増えたとされる。</p>
+<p>また、長時間にわたるタスクにおいても一貫性を維持しながら処理を進める能力が向上し、途中段階での検証や修正を含む「自己完結型」の処理が強化された。</p>
+<h2>ベンチマーク性能：複数領域でOpus 4.6を上回る</h2>
+<p>公開された評価では、Opus 4.7は複数のベンチマークにおいてOpus 4.6を上回る結果を示した。</p>
+<p>たとえばソフトウェア開発能力を測る「SWE-bench Pro」では64.3%（Opus 4.6は53.4%）に向上。ツール活用能力（MCP-Atlas）でも77.3%（同75.8%）を記録した。</p>
+<p>さらに金融分析タスク（Finance Agent）などでも改善が見られ、単一分野にとどまらず広範な実務領域で性能が引き上げられている。</p>
+<p><strong>■ Opus 4.7はコーディングやツール利用など複数の指標でOpus 4.6を上回る結果を示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/d434d15757c6abac1122af483617741776d5a114_2600x2638_c84e4985de/d434d15757c6abac1122af483617741776d5a114_2600x2638_c84e4985de.jpg" alt="d434d15757c6abac1122af483617741776d5a114-2600x2638.jpg" /></p>
+<h2>実務能力の強化：金融分析やドキュメント生成でも改善</h2>
+<p>Opus 4.7はコーディングに加え、実務的なタスクにおいても性能向上が確認されている。内部評価では、金融分析においてより厳密な分析やモデル構築が可能になったほか、プレゼンテーション資料やドキュメントの品質向上も報告されている。</p>
+<p>第三者評価であるGDPval-AA（金融・法務などの知的業務を対象とした評価）でも、Opus 4.7はOpus 4.6を上回るスコアを示しており、実務領域での有用性が強化されている。</p>
+<p>また、ファイルシステムを活用した長期メモリの扱いも改善され、複数セッションにまたがる作業の継続性が向上した。</p>
+<p><strong>■ 経済価値のある知的業務を測るGDPval-AAでも、Opus 4.7はOpus 4.6を上回るスコアを示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9299f8b86c69359c31d15dbece4545e628bddc34_1920x1080_fab027f7e4/9299f8b86c69359c31d15dbece4545e628bddc34_1920x1080_fab027f7e4.jpg" alt="9299f8b86c69359c31d15dbece4545e628bddc34-1920x1080.jpg" /></p>
+<h2>視覚能力の強化とマルチモーダル対応</h2>
+<p>マルチモーダル性能も強化されており、最大で長辺2,576ピクセル（約3.75メガピクセル）の画像入力に対応する。これにより、複雑な図表や高密度なスクリーンショットの解析といった用途での精度向上が見込まれる。</p>
+<p>この変更はAPIの設定ではなくモデルレベルで適用されるため、ユーザーは特別な指定を行わずに高精細な画像処理を利用できる。</p>
+<h2>安全性とMythosとの関係</h2>
+<p>安全性の観点では、Opus 4.7はOpus 4.6と同程度の安全性プロファイルを維持しつつ、一部指標では改善が見られるとされる。</p>
+<p>一方で、より高性能なモデルとして開発が進められている「Mythos Preview」と比較すると、サイバー領域など一部能力は意図的に制御されている。これは、安全対策を段階的に検証するための措置とされる。</p>
+<p>また、不正利用の兆候を検知して自動的にブロックする仕組みも導入されており、正当な用途向けには「Cyber Verification Program」が提供される。</p>
+<p><strong>■ 不適切行動の発生率はOpus 4.6と同程度かやや改善しつつ、Mythos Previewが最も低い結果となっている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8_1920x1080_3e6c3ddad3/3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8_1920x1080_3e6c3ddad3.jpg" alt="3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8-1920x1080.jpg" /></p>
+<h2>提供形態と価格</h2>
+<p>Claude Opus 4.7は、Claudeの各種プロダクトおよびAPIで利用可能となっている。加えて、Amazon Bedrock、Google CloudのVertex AI、Microsoft Foundryにも対応する。</p>
+<p>価格はOpus 4.6から据え置きで、入力が100万トークンあたり5ドル、出力が25ドルとなる</p>
+<h2>開発者向け機能の拡張</h2>
+<p>今回のリリースでは、開発者向けの機能拡張も行われた。推論の強度と応答速度のバランスを調整する「effort」パラメータには、新たに「xhigh（extra high）」が追加されている。</p>
+<p>また、トークン消費を制御する「task budgets」（ベータ版）や、コードレビュー機能「/ultrareview」、自動実行機能「auto mode」なども提供される。</p>
+<p>Claude Opus 4.7は、Opus 4.6の正統な後継として、特に高難度なコーディングと実務タスクにおける性能を強化したモデルとなる。より高性能なMythos系モデルの一般公開に向けた段階的な展開の一環として位置づけられる。</p>
+]]></description>
+      <pubDate>Tue, 07 Apr 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/4/17 [FRI]Anthropic、AIがAIの安全性研究を自律して進める「Automated Alignment Researchers」公開　人間研究者の手法を大幅に上回る成果</title>
       <link>https://ledge.ai/articles/automated_alignment_researchers_anthropic_ai_alignment_study</link>
       <description><![CDATA[<p>Anthropicは2026年4月14日、AIがAIの安全性（アライメント）研究を自律的に進める仕組み「Automated Alignment Researchers（AARs）」に関する研究を<a href="https://www.anthropic.com/research/automated-alignment-researchers">公開</a>した。</p>
