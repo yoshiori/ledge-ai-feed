@@ -115,6 +115,31 @@ YouTubeが公開している<a href="https://support.google.com/youtube/answer/1
       <pubDate>Mon, 13 Apr 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Adobe、「Firefly AI Assistant」発表　対話型UIで制作工程を自動化、Claude連携も開始予定</title>
+      <link>https://ledge.ai/articles/adobe_firefly_ai_assistant_claude_integration_creative_agent</link>
+      <description><![CDATA[<p>Adobeは2026年4月15日、生成AI「Firefly」を基盤とした新機能「Firefly AI Assistant」を<a href="https://news.adobe.com/news/2026/04/adobe-new-creative-agent">発表</a>した。単一の対話型インターフェイスから、複数のクリエイティブツールにまたがる制作工程をAIが実行する仕組みで、AnthropicのClaudeを含む外部AIモデルへの展開も計画しているという。</p>
+<h2>対話だけで制作を完結する「AIアシスタント」</h2>
+<p>Firefly AI Assistantは、Adobeが「creative agent」と位置づける新しい制作支援機能だ。ユーザーは自然言語で指示を出すだけで、AIがその意図を理解し、必要な工程を組み立てて実行する。</p>
+<p>従来のように個別のツールを操作するのではなく、対話を起点として制作が進む点が特徴で、Photoshop、Illustrator、Premiere Pro、Lightroom、Adobe Expressなど、複数のアプリケーションを横断して処理が行われる。</p>
+<p><strong>AIアシスタントは、同一素材からSNS向けの複数バリエーションを自動生成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f_22301d30af/media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f_22301d30af.jpg" alt="media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f.jpg" /></p>
+<h2>複数ツールをまたぐワークフローを自動化</h2>
+<p>従来の制作フローでは、素材生成、画像編集、動画化といった工程ごとにツールを切り替える必要があった。Firefly AI Assistantでは、こうした複数ステップの作業を「multi-step workflows」として一括で処理する。</p>
+<p>たとえば、アイデアをテキストで入力すると、AIが画像生成、編集、レイアウト調整、動画化といった一連の工程を裏側で連携させて実行する。ユーザーは個々の操作を意識することなく、成果物の方向性を指示するだけで制作を進められる。</p>
+<p><strong>画像補正などの複数工程も、AIが自動で連携して実行する</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8_e0122e183b/media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8_e0122e183b.jpg" alt="media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8.jpg" /></p>
+<h2>Fireflyを中核にしたAdobeのAI戦略</h2>
+<p>今回の発表は単一機能の追加ではなく、Adobe全体のAI戦略の延長線上にある。Fireflyは同社の生成AI基盤として位置づけられており、Creative Cloud全体への統合が進められてきた。</p>
+<p>Adobeは2025年時点から「agentic AI（エージェント型AI）」の導入を掲げており、今回のFirefly AI Assistantはその具体化といえる。制作工程そのものをAIが担う「creative agent」への移行を進める狙いがある。</p>
+<h2>Claudeなど外部AIとの連携へ</h2>
+<p>Adobeはさらに、この制作体験を自社アプリ内にとどめず、外部のAIモデルにも拡張する方針を示した。具体的には、AnthropicのClaudeを含むサードパーティのAIから、Adobeの機能にアクセスできるようにする構想だ。</p>
+<p>これにより、Claude上でアイデア出しや企画を行い、そのままAdobe Fireflyを通じて制作を実行する、といったワークフローが可能になる見通しである。Adobeの発表では、こうした連携を通じて「会話から制作まで」を一貫してつなぐ体験の実現を目指すとしている。</p>
+<h2>提供は数週間以内、詳細は今後発表</h2>
+<p>Firefly AI Assistantは、今後数週間以内に公開ベータとして提供される予定だ。一方で、Claudeを含む外部AIとの連携については、「詳細は近く発表する（More on that soon）」としており、具体的な提供時期や仕様は現時点では明らかになっていない。</p>
+]]></description>
+      <pubDate>Sun, 12 Apr 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、最上位モデル「Claude Opus 4.7」公開　難易度の高いソフトウェア開発タスクへの対応力を強化</title>
       <link>https://ledge.ai/articles/anthropic_claude_opus_4_7_release_software_engineering_enhancement</link>
       <description><![CDATA[<p>Anthropicは2026年4月16日（現地時間）、最新のAIモデル「Claude Opus 4.7」を<a href="https://www.anthropic.com/news/claude-opus-4-7">公開</a>した。Claudeシリーズにおける最上位モデルの最新版にあたり、特にソフトウェアエンジニアリング領域における性能向上が主軸となっている。</p>
