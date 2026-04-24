@@ -299,58 +299,6 @@ AI市場は急速に成長している一方で、未利用層が依然として
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/4/18 [SAT]OpenAI、バイオ研究特化の推論モデル「GPT-Rosalind」公開　Codex連携で研究支援機能も提供</title>
-      <link>https://ledge.ai/articles/gpt_rosalind_life_sciences_reasoning_model_openai</link>
-      <description><![CDATA[<p>OpenAIは2026年4月16日（現地時間）、生命科学分野に特化した推論モデル「GPT-Rosalind」を<a href="https://openai.com/index/introducing-gpt-rosalind/">発表</a>した。生物学、創薬、トランスレーショナル・メディシンといった研究領域での活用を想定したモデルで、研究機関などを対象に限定的なアクセスで提供される。</p>
-<h2>生命科学研究に特化した推論モデル</h2>
-<p>GPT-Rosalindは、OpenAIが「frontier reasoning model」と位置づけるモデルで、汎用的な対話用途ではなく、生命科学領域における研究支援に最適化されている点が特徴だ。</p>
-<p>対象領域としては、生物学や化学、創薬プロセス、臨床研究などが挙げられており、実験設計やデータ解釈、文献分析といった科学的ワークフローへの組み込みが前提となっている。</p>
-<h2>コアベンチマークで性能向上</h2>
-<p>グラフは、生物学・化学領域の各種ベンチマークにおいて、GPT-Rosalindが従来モデル（GPT-5系）と比較して性能向上を示した結果である。</p>
-<p><strong>GPT-Rosalindと従来モデルのベンチマーク比較。生物学・化学領域の複数タスクで性能向上を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HGD_Ov_L_Fb_QA_Ax_U7_c7f37b1973/HGD_Ov_L_Fb_QA_Ax_U7_c7f37b1973.jpg" alt="HGDOvLFbQAAxU7_.jpg" /></p>
-<p>生化学理解、化学、実験設計・分析、系統解析、ツール利用といった複数のタスクで、GPT-Rosalindが一貫して高いスコアを記録している。特に「実験設計・分析」領域での伸びが大きく、研究プロセスの中核部分への適用を強く意識した設計とみられる。</p>
-<h2>研究用途に限定したアクセス制御型提供</h2>
-<p>GPT-Rosalindは一般公開モデルではなく、「research preview」として提供される。</p>
-<p>利用には申請が必要で、以下のような条件が設けられている。</p>
-<ul>
-<li>適格な研究機関・組織であること</li>
-<li>利用目的が社会的に有益（beneficial use）であること</li>
-<li>ガバナンスや安全性の確保が可能であること</li>
-<li></li>
-</ul>
-<p>このように、用途と利用者を制限する形での提供となっており、生命科学領域におけるリスク管理を前提とした設計であることがモデルは、OpenAIの開発者向け環境「Codex」との連携を前提に設計されている。</p>
-<p>あわせて公開された「Life Sciences Research Plugin」では、以下のような専門領域をカバーする約50の機能が提供される。</p>
-<ul>
-<li>ヒト遺伝学</li>
-<li>機能ゲノミクス</li>
-<li>タンパク質構造解析</li>
-<li>化学・分子設計</li>
-<li>臨床データ分析</li>
-<li>学術文献探索</li>
-</ul>
-<p>単なるテキスト生成ではなく、研究作業そのものを支援する「実務レイヤー」としての役割を担う構成となっている。</p>
-<p><strong>GPT-RosalindとCodexを用いた生命科学研究支援の画面例。データ解析、可視化、実験設計を一体的に実行できる</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rosalind_5e7beb26da/rosalind_5e7beb26da.jpg" alt="rosalind.jpg" /></p>
-<h2>ChatGPT・APIでの提供と想定ユースケース</h2>
-<p>GPT-Rosalindは以下のチャネルで提供される。</p>
-<ul>
-<li>ChatGPT</li>
-<li>Codex</li>
-<li>API</li>
-</ul>
-<p>想定されるユースケースとしては、</p>
-<ul>
-<li>研究仮説の生成</li>
-<li>文献レビューの効率化</li>
-<li>実験設計の補助</li>
-<li>データ解釈支援</li>
-</ul>
-<p>などが挙げられており、研究プロセス全体への統合が意図されているという。</p>
-]]></description>
-      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>中国Moonshot、「Kimi K2.6」公開　オープンソースで視覚情報対応、長時間コーディングとAgent性能を強化</title>
       <link>https://ledge.ai/articles/kimi_k2_6_open_source_coding_agent_model</link>
       <description><![CDATA[<p>中国のAI企業Moonshot AIは2026年4月20日、AIモデル「Kimi K2.6」を<a href="https://www.kimi.com/blog/kimi-k2-6">公開</a>した。オープンソースとして提供される最新モデルで、長時間にわたるコーディング性能の強化に加え、Agentタスクへの対応やマルチモーダル入力の拡張が特徴となる。公式ブログおよびAPIドキュメントを通じて詳細が公開されている。</p>
@@ -395,26 +343,6 @@ AI市場は急速に成長している一方で、未利用層が依然として
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、世界初の実用的な量子コンピュータ開発を加速するオープンなAIモデル「Ising」公開</title>
-      <link>https://ledge.ai/articles/nvidia_ising_quantum_ai_models_open_release</link>
-      <description><![CDATA[<p>NVIDIAは2026年4月14日（現地時間）、量子コンピュータ開発を支援するオープンソースのAIモデルファミリー「NVIDIA Ising」を<a href="https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers">発表</a>した。量子プロセッサのキャリブレーションや量子誤り訂正といった工程をAIで支援し、実用的な量子コンピュータの実現を加速することを目的とする。</p>
-<h2>量子コンピュータの実用化を阻む調整と誤り訂正</h2>
-<p>量子コンピュータは、量子ビットの不安定性やノイズの影響を受けやすく、実用的なアプリケーションの実行には多くの課題が残されている。</p>
-<p>中でも重要とされるのが、量子プロセッサの動作を最適化するキャリブレーション（調整）と、ノイズによる誤りを補正する量子誤り訂正（QEC）である。これらの工程は、実験データの解釈やパラメータ調整を伴う高度な作業であり、従来は専門知識に依存した手動プロセスが中心となっていた。</p>
-<h2>AIで量子開発プロセスを支援する「NVIDIA Ising」</h2>
-<p>今回発表された「NVIDIA Ising」は、こうした量子開発のボトルネックとなる工程に対し、AIを用いて支援を行うモデル群で構成される。</p>
-<p>NVIDIAは同モデルを、研究者や企業がAIを活用したワークフローにより、スケーラブルで高性能な量子システムを構築するための基盤として位置づけている。公式発表では、量子プロセッサのキャリブレーション機能と量子誤り訂正デコーディングを備える点が強調されている。</p>
-<h2>キャリブレーションと誤り訂正を担う2系統のモデル</h2>
-<p>「NVIDIA Ising」は主に2つの用途に対応するモデルで構成される。</p>
-<p>ひとつは、量子キャリブレーションを支援するモデルである。量子実験から得られるプロットや測定データを解析し、最適な調整パラメータの選定を支援する。これにより、従来は試行錯誤に依存していた調整作業の効率化が図られる。</p>
-<p>もうひとつは、量子誤り訂正のためのデコーディングモデルである。量子ビットに発生する誤りをリアルタイムで推定し、補正に必要な処理を支援することで、量子計算の信頼性向上に寄与する。</p>
-<h2>オープンモデルとして公開、研究・産業利用を想定</h2>
-<p>「NVIDIA Ising」はオープンモデルとして公開され、研究者や企業が自由に利用・改良できる形で提供される。</p>
-<p>公式ページでは、AIによる量子開発ワークフローの構築を前提とし、量子システムの設計・調整・運用に至る一連のプロセスを支援する技術として位置づけられている。GPU上での実行を前提とした設計も特徴の一つとされる。</p>
-]]></description>
-      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AlibabaのAI研究チーム「Qwen3.6」発表と同時にオープンモデル公開　Gemma 4を上回るスコアを提示、コーディング・エージェント性能で競争激化</title>
       <link>https://ledge.ai/articles/qwen3_6_open_model_gemma4_outperform_agent_coding</link>
       <description><![CDATA[<p>中国AlibabaのAI研究チームであるTongyi Labは、最新の大規模言語モデルシリーズ「Qwen3.6」を発表するとともに、その中核モデルの一つである<a href="https://qwen.ai/blog?id=qwen3.6-35b-a3b">「Qwen3.6-35B-A3B」</a>をオープンモデルとして公開した。Mixture-of-Experts（MoE）構造による高効率設計と、エージェント用途やコーディング性能における高いスコアを特徴としており、Googleのオープンモデル「Gemma 4」を上回る性能を示したとアピールしている。</p>
@@ -438,22 +366,6 @@ AI市場は急速に成長している一方で、未利用層が依然として
 <p>また、Denseモデルとの比較も併記されており、MoE構造でありながら同等以上の性能を達成している点が強調されている。</p>
 <h2>オープンモデルとして公開、開発者が即利用可能に</h2>
 <p>Qwen3.6-35B-A3BはHugging Face上で公開されており、開発者はダウンロードして利用可能だ。商用利用を含むライセンスが適用されており、各種アプリケーションや開発用途での利用が想定されている。</p>
-]]></description>
-      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SB Intuitions、2本アームでTシャツを折りたたむロボットのデモ公開　Roboticsチーム初成果</title>
-      <link>https://ledge.ai/articles/sb_intuitions_robot_tshirt_folding_demo</link>
-      <description><![CDATA[<p>ソフトバンク傘下でAIの研究開発を行うSB Intuitions（東京都港区）は4月14日、2本のロボットアームによってTシャツを自律的に折りたたむデモ映像を公式Xで公開した。同社Roboticsチームによる初の成果として位置づけられている。<a href="https://x.com/sbintuitions/status/2043962639135715824">公開</a>した。Roboticsチーム初のデモとして動画公開</p>
-<p>今回公開された映像では、2本のロボットアームがテーブル上のTシャツを持ち上げ、折り目を整えながら畳んでいく一連の動作が確認できる。人の手による操作は介在せず、自律的に折りたたみを行う様子が示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3x_autonomous_SB_Intuitions_3490b54daa/3x_autonomous_SB_Intuitions_3490b54daa.jpg" alt="3x autonomous SB Intuitions.jpg" /></p>
-<p>同社によると、このデモは2025年12月に新設されたRoboticsチームによる初の取り組みだという。</p>
-<h2>OpenArm8台でデータ収集、E2Eモデルで学習</h2>
-<p>投稿では、今回のモデル構築にあたり、自社でカスタマイズしたOpenArmを8台用いてデータ収集を行い、そのデータをもとにE2E（End-to-End）モデルを訓練したと説明している。</p>
-<p>E2Eモデルは、個別の工程ごとに処理を分割するのではなく、入力から出力までを一体として学習する手法で、ロボットのような連続動作を扱うタスクにも適用されるという。</p>
-<h2>「自律での基本動作」を実現</h2>
-<p>今回の成果について同社は、「まずは目標としていた自律でのTシャツ折りたたみの基本動作を実現した」としている。動作の成功率や処理時間、異なる衣類への対応など、詳細な性能指標については明らかにされていない。</p>
-<p>SB Intuitionsはこれまで、大規模言語モデルなどを中心としたAI開発を進めてきた企業だが、今回の発表はロボティクス領域での取り組みを示すものとなる。過去には対話ロボット関連のコンペティションで受賞歴もあり、今後の展開が注目される。</p>
 ]]></description>
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
