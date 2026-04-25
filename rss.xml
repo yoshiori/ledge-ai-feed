@@ -143,31 +143,6 @@ campaign-level broad match設定</p>
       <pubDate>Mon, 20 Apr 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Adobe、「Firefly AI Assistant」発表　対話型UIで制作工程を自動化、Claude連携も開始予定</title>
-      <link>https://ledge.ai/articles/adobe_firefly_ai_assistant_claude_integration_creative_agent</link>
-      <description><![CDATA[<p>Adobeは2026年4月15日、生成AI「Firefly」を基盤とした新機能「Firefly AI Assistant」を<a href="https://news.adobe.com/news/2026/04/adobe-new-creative-agent">発表</a>した。単一の対話型インターフェイスから、複数のクリエイティブツールにまたがる制作工程をAIが実行する仕組みで、AnthropicのClaudeを含む外部AIモデルへの展開も計画しているという。</p>
-<h2>対話だけで制作を完結する「AIアシスタント」</h2>
-<p>Firefly AI Assistantは、Adobeが「creative agent」と位置づける新しい制作支援機能だ。ユーザーは自然言語で指示を出すだけで、AIがその意図を理解し、必要な工程を組み立てて実行する。</p>
-<p>従来のように個別のツールを操作するのではなく、対話を起点として制作が進む点が特徴で、Photoshop、Illustrator、Premiere Pro、Lightroom、Adobe Expressなど、複数のアプリケーションを横断して処理が行われる。</p>
-<p><strong>AIアシスタントは、同一素材からSNS向けの複数バリエーションを自動生成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f_22301d30af/media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f_22301d30af.jpg" alt="media_1c9a9f152b648bfecde2daaeaba991ea9d2ee107f.jpg" /></p>
-<h2>複数ツールをまたぐワークフローを自動化</h2>
-<p>従来の制作フローでは、素材生成、画像編集、動画化といった工程ごとにツールを切り替える必要があった。Firefly AI Assistantでは、こうした複数ステップの作業を「multi-step workflows」として一括で処理する。</p>
-<p>たとえば、アイデアをテキストで入力すると、AIが画像生成、編集、レイアウト調整、動画化といった一連の工程を裏側で連携させて実行する。ユーザーは個々の操作を意識することなく、成果物の方向性を指示するだけで制作を進められる。</p>
-<p><strong>画像補正などの複数工程も、AIが自動で連携して実行する</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8_e0122e183b/media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8_e0122e183b.jpg" alt="media_1c50c833f9a9ea7d9952feb4e372a4c300092f3a8.jpg" /></p>
-<h2>Fireflyを中核にしたAdobeのAI戦略</h2>
-<p>今回の発表は単一機能の追加ではなく、Adobe全体のAI戦略の延長線上にある。Fireflyは同社の生成AI基盤として位置づけられており、Creative Cloud全体への統合が進められてきた。</p>
-<p>Adobeは2025年時点から「agentic AI（エージェント型AI）」の導入を掲げており、今回のFirefly AI Assistantはその具体化といえる。制作工程そのものをAIが担う「creative agent」への移行を進める狙いがある。</p>
-<h2>Claudeなど外部AIとの連携へ</h2>
-<p>Adobeはさらに、この制作体験を自社アプリ内にとどめず、外部のAIモデルにも拡張する方針を示した。具体的には、AnthropicのClaudeを含むサードパーティのAIから、Adobeの機能にアクセスできるようにする構想だ。</p>
-<p>これにより、Claude上でアイデア出しや企画を行い、そのままAdobe Fireflyを通じて制作を実行する、といったワークフローが可能になる見通しである。Adobeの発表では、こうした連携を通じて「会話から制作まで」を一貫してつなぐ体験の実現を目指すとしている。</p>
-<h2>提供は数週間以内、詳細は今後発表</h2>
-<p>Firefly AI Assistantは、今後数週間以内に公開ベータとして提供される予定だ。一方で、Claudeを含む外部AIとの連携については、「詳細は近く発表する（More on that soon）」としており、具体的な提供時期や仕様は現時点では明らかになっていない。</p>
-]]></description>
-      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Amazon、Anthropicに50億ドル出資　将来最大200億ドル追加へ──5GW規模のAI計算基盤で協業拡大</title>
       <link>https://ledge.ai/articles/amazon_anthropic_investment_5b_20b_aws_compute_expansion</link>
       <description><![CDATA[<p>AmazonとAnthropicは2026年4月20日、AI開発基盤を中心とした提携の大幅拡大を<a href="https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai">発表</a>した。この中でAmazonは、Anthropicに50億ドルを出資し、将来的に最大200億ドルを追加出資する方針を示した。両社はあわせて、最大5ギガワット（GW）規模のAI計算インフラを確保する長期契約を締結したという。</p>
@@ -295,6 +270,22 @@ campaign-level broad match設定</p>
 <p>AIモードには、タブだけでなく画像やPDFなどのファイルも追加できる。これにより、Webページに加えて手元の資料や視覚情報も含めた形で、AIに対して質問や分析を依頼できる。
 検索の対象は従来のキーワード中心から、ユーザーが保持する複数形式の情報全体へと広がりつつある。</p>
 <p>@<a href="https://www.youtube.com/watch?v=HuZUmhGcg-I">YouTube</a></p>
+]]></description>
+      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GWにお薦めのAIをめぐる議論の”幅の広さ”を知る新刊2冊　パランティアCEOとAIの奇才ユドコウスキーの渾身の著書が翻訳出版</title>
+      <link>https://ledge.ai/articles/gw_ai_books_yudkowsky_karp_translation_2026</link>
+      <description><![CDATA[<p>ゴールデンウィークを前に、AIの将来をめぐる議論を異なる角度から提示する新刊が相次いで日本語で刊行された。ひとつは、超知能のリスクを中心に据えたエリーザー・ユドコウスキーの『超知能AIをつくれば人類は絶滅する』、もうひとつは、テクノロジーと国家の関係を論じたPalantir TechnologiesCEOのアレックス・カープによる『テクノロジカル・リパブリック 国家、軍事力、テクノロジーの未来』だ。いずれもAIを主題としながら、その捉え方と問題設定には大きな違いが見られる。</p>
+<h2>『超知能AIをつくれば人類は絶滅する』——「人類を超える知性」は制御できるのか</h2>
+<p>同書は、機械知能研究所（MIRI）の共同創設者であるユドコウスキー氏らが、超知能AIの開発がもたらすリスクを体系的に論じている。序章では、AIによる人類絶滅リスクがパンデミックや核戦争と並ぶ世界的課題と位置づけられている現状に触れ、現在のAI開発が「人間を上回る知性」へと向かっていることへの強い危機感を提示する。AIは人間に敵意を持つから危険なのではなく、人間とは異なる目的を極端に追求する存在になり得るという前提に立ち、その振る舞いが人類にとって破滅的な結果をもたらす可能性を指摘する。</p>
+<p>作中では、「現在主流のAIの理解や技術に少しでも似た方法で人工超知能がつくられた場合、地球上のすべての人が死ぬ可能性がある」といった強い表現も用いられ、問題の深刻さが繰り返し強調される。こうしたAI安全性（alignment）をめぐる議論は、サム・アルトマン氏をはじめとする現在のAI開発の中心人物にも影響を与えてきたとされる。</p>
+<p>構成は「非人間的な知性」「ある絶滅シナリオ」「困難に立ち向かう」の三部からなり、AIの能力の本質、制御不能に至るプロセス、そして開発を止めることの難しさまでを段階的に整理している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5210513_dc7b8910da/5210513_dc7b8910da.jpg" alt="5210513.jpg" /></p>
+<h2>『テクノロジカル・リパブリック　国家、軍事力、テクノロジーの未来』——テクノロジーは誰のために使われるべきか</h2>
+<p>Palantir TechnologiesのCEOであるアレックス・カープ氏らが、テクノロジーと国家の関係の再構築を訴える一冊だ。シリコンバレーが消費者向けサービスに最適化され、国家安全保障や社会基盤に関わる技術開発から距離を置いてきた現状を批判し、その結果として自由主義世界のイノベーション力や地政学的優位が揺らいでいると指摘する。</p>
+<p>AIの登場は、人類の優位性そのものに初めて実質的な挑戦を突きつけるものであり、技術開発を市場任せにするのではなく、国家と連携して推進すべき段階に入ったと位置づける。全体は、シリコンバレーの形成史、アメリカ社会とテックの関係の歪み、そしてエンジニアリング文化を基盤にした「技術立国」の再建という流れで構成され、テクノロジーを国家戦略の中核に据えるべきだという主張を展開している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/9784296124862_01721eda28/9784296124862_01721eda28.jpg" alt="9784296124862.jpg" /></p>
 ]]></description>
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
