@@ -64,6 +64,35 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google Cloud、企業向けAIエージェント開発基盤「Gemini Enterprise Agent Platform」発表　構築から管理まで一元化</title>
+      <link>https://ledge.ai/articles/gemini_enterprise_agent_platform_google_cloud_launch</link>
+      <description><![CDATA[<p>Google Cloudは2026年4月22日（現地時間）、企業向けにAIエージェントを構築・運用するための開発基盤「Gemini Enterprise Agent Platform」を<a href="https://cloud.google.com/blog/topics/google-cloud-next/welcome-to-google-cloud-next26/?hl=en">発表</a>した。複数のAIエージェントを組み合わせて業務を実行する仕組みを、1つの環境で開発から運用まで管理できる点が特徴だ。</p>
+<h2>エージェント開発の全工程を一元化</h2>
+<p>Gemini Enterprise Agent Platformは、単にAIが回答するだけでなく、業務の処理そのものを実行する「AIエージェント」を開発するための基盤として設計されている。</p>
+<p>従来は、LLMの利用やアプリケーション実装、運用管理が分断されがちだったが、同プラットフォームではこれらを統合。企業が業務に応じたエージェントを構築し、そのまま運用まで移行できる構成となっている。</p>
+<p>ベースにはGoogle CloudのAI基盤「Vertex AI」があり、その機能を拡張した形で提供される。</p>
+<h2>開発から運用までを支える主要機能</h2>
+<p>同プラットフォームは、複数のコンポーネントで構成される。</p>
+<p>エージェントの設計や構築には「Agent Studio」、プログラムベースの開発には「Agent Development Kit（ADK）」を提供する。構築したエージェントは「Agent Runtime」により実行・スケーリングされ、本番環境での運用が可能となる。</p>
+<p>さらに「Agent Evaluation」により、エージェントの応答品質やパフォーマンスの評価・改善も行える。</p>
+<p>これにより、開発から評価、運用までの一連の工程を同一基盤上で完結できる構成となっている。</p>
+<p><strong>Gemini Enterprise Agent Platform：開発から運用、ガバナンス、最適化までを統合</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_gemini_enterprise_agent_platform_7_Yj4_Nj_K_max_2200x2200_a22a3fb062/1_gemini_enterprise_agent_platform_7_Yj4_Nj_K_max_2200x2200_a22a3fb062.jpg" alt="1_gemini_enterprise_agent_platform_7Yj4NjK.max-2200x2200.jpg" /></p>
+<h2>複数のAIが連携して業務を処理</h2>
+<p>このプラットフォームは、1つのAIだけでなく、複数のエージェントが連携して動くことを前提としている。</p>
+<p>いわゆるAgent-to-Agent（A2A）のオーケストレーション機能により、役割の異なるエージェント同士が協力しながら処理を進めることができる。これにより、複数のシステムをまたぐ業務や複雑なワークフローの自動化に対応する。</p>
+<h2>エージェントの「身元」と「アクセス」を管理</h2>
+<p>企業での利用を想定し、管理やセキュリティの機能も組み込まれている。</p>
+<p>「Agent Identity」は、エージェントごとに固有のIDを付与し、IAM（Identity and Access Management）や監査ログと統合する仕組み。どのエージェントがどの操作を行ったかを追跡できる。</p>
+<p>また「Agent Gateway」は、エージェントへのアクセスや通信経路を制御する機能で、ユーザーからエージェントへのリクエスト（Client-to-Agent）や、エージェントから外部サービスへのアクセス（Agent-to-Anywhere）を管理する。</p>
+<p>これらにより、セキュリティやコンプライアンスを確保しながらエージェントを運用できる構成となっている。</p>
+<h2>Gemini Enterpriseの中核機能として展開</h2>
+<p>今回のAgent Platformは、Google Cloudが提示する「Gemini Enterprise」の中核機能の1つとして位置づけられている。</p>
+<p>Gemini Enterpriseでは、エージェント開発基盤に加え、ユーザーが直接利用するアプリや、外部サービスとの連携機能を含め、企業がAIを業務に組み込むための環境を一体で提供する。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GoogleはこうしてAIを防御する──“攻撃者視点”のレッドチーム構築と運用の実際を公開、安全性評価の手法を詳説</title>
       <link>https://ledge.ai/articles/google_ai_red_team_how_google_does_it</link>
       <description><![CDATA[<p>Googleは2026年4月17日、AIシステムの安全性評価に関する取り組みを解説する日本語公式記事「How Google Does It: 効果的な AI レッドチームの構築」を<a href="https://cloud.google.com/transform/ja/how-google-does-it-building-an-effective-ai-red-team">公開</a>した。記事では、攻撃者の視点からAIの脆弱性や想定外の挙動を検証する「レッドチーム」の構築と運用について、実務的な手法を整理している。</p>
@@ -155,24 +184,6 @@
 <p>今回の取り組みは、同社が進めるAI戦略の一環と位置づけられる。社内では「AI for Work」構想（後に「Agent Transformation Accelerator（ATA）」へ改称）が進められており、AIエージェントが業務の大部分を担う体制への移行が検討されているという。</p>
 <p>一方で、こうした従業員の操作ログ収集は、プライバシーや労務管理の観点からも議論を呼ぶ可能性がある。Reutersは、キーストロークの記録がホワイトカラー労働者に対するリアルタイム監視の強化につながる可能性を指摘している。</p>
 <p>さらに専門家は、こうした監視が職場における力関係に影響を与える可能性にも言及している。米国では従業員監視に対する法的制限は限定的である一方、欧州では同様の取り組みが規制に抵触する可能性があるとされる。</p>
-]]></description>
-      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンク、AIが操作を担うスマートフォン「Natural AI Phone」発表　1年間の国内独占販売</title>
-      <link>https://ledge.ai/articles/natural_ai_phone_softbank_brain_technologies_japan_launch</link>
-      <description><![CDATA[<p>ソフトバンクは2026年4月17日、米国のAIスタートアップであるBrain Technologiesが開発したAI機能搭載スマートフォン「Natural AI Phone」を日本国内で販売すると<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260417_03/">発表</a>した。予約受付は同日から開始し、発売日は4月24日。発売から1年間はソフトバンクによる国内独占販売となる。</p>
-<h2>AIが操作を担う「Natural OS」を搭載</h2>
-<p>Natural AI Phoneは、独自のAI基盤「Natural OS」を搭載したスマートフォンで、従来のアプリ操作を前提とした設計とは異なり、AIがユーザーの意図を理解して操作を代行する点を特徴とする。ユーザーは個別のアプリを起動して操作するのではなく、AIに対して指示や要望を伝えることで、複数のアプリやサービスを横断した処理が実行される。</p>
-<h2>AIエージェントがタスクを一括処理</h2>
-<p>端末には専用のAIボタンが用意されており、これを起点にAIエージェントが起動する。メッセージのやり取りやWeb検索、スケジュール情報などを統合的に扱い、例えば受信したメッセージの内容をもとに予定を調整し、必要に応じて店舗の検索や予約、返信文の作成までを一連の流れとして実行することが可能とされている。また、「FocusSpace」と呼ばれるユーザーインターフェース機能も搭載され、AIによるタスク処理を前提とした画面構成が採用されている。</p>
-<h2>アプリ中心から「意図中心」へ</h2>
-<p>こうした設計により、Natural AI Phoneは従来のスマートフォンにおける「アプリごとに操作する」という利用モデルから、「目的や意図に応じてAIが処理を組み立てる」というモデルへの転換を志向している。複数のサービスをまたいだ操作をユーザーが個別に行う必要がなくなる点が特徴となる。</p>
-<h2>Brain Technologiesの初の大規模商用展開</h2>
-<p>開発を手がけたBrain Technologiesは、AIを中心に据えた新しいコンピューティング体験の構築を掲げる米国のスタートアップで、Natural OSを通じてアプリケーション中心のUIからの転換を図っている。今回の日本展開は、同社にとって初の大規模な商用展開の一つと位置づけられている。</p>
-<h2>ソフトバンク、AIネイティブ端末で差別化へ</h2>
-<p>ソフトバンクは本端末の投入により、AIを前提とした新しいスマートフォンの利用形態を国内市場に導入する。通信キャリアとして端末とAI機能を組み合わせた提供を行うことで、従来のスマートフォンとの差別化を図る狙いとみられる。</p>
-<p>@<a href="https://www.youtube.com/watch?v=wDv8uBgYIbo">YouTube</a></p>
 ]]></description>
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
