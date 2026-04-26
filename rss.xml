@@ -234,25 +234,6 @@ campaign-level broad match設定</p>
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、ChromeのAIモード更新　表示中ページと複数タブを横断した対話型検索が可能に</title>
-      <link>https://ledge.ai/articles/google_chrome_ai_mode_update_cross_tab_search</link>
-      <description><![CDATA[<p>Googleは2026年4月16日（米国時間）、Webブラウザ「Chrome」におけるAI機能「AIモード」のアップデートを<a href="https://blog.google/products-and-platforms/products/search/ai-mode-chrome/">発表</a>した。閲覧中のWebページの内容をもとに追加の質問や比較が可能になったほか、複数のタブを横断した検索にも対応し、ブラウザ上での情報収集体験を強化した。</p>
-<h2>閲覧中のWebページを文脈としてAIに質問可能に</h2>
-<p>今回のアップデートでは、AIモードにおいて現在表示しているWebページの内容を踏まえた質問が可能になった。ユーザーはページを読みながら、その内容について補足説明を求めたり、他の情報との違いを比較したりといった操作を、対話形式で行える。</p>
-<p>従来は検索結果から個別のページへ遷移し、それぞれの情報を個別に読み解く必要があったが、AIモードを介することで、閲覧中の情報を起点に理解を深める使い方が可能になる。</p>
-<p>@<a href="https://youtu.be/HuZUmhGcg-I">YouTube</a></p>
-<h2>複数タブを横断した検索・比較に対応</h2>
-<p>新たに、複数の開いているタブ（recent tabs）をAIモードに取り込み、横断的に分析する機能も追加された。異なるページに掲載された情報をまとめて扱うことができ、複数の製品比較やレビューの整理といった用途に対応する。</p>
-<p>ユーザーが個別に内容を見比べるのではなく、AIが複数ページの情報を整理・要約することで、比較作業の効率化が図られる。</p>
-<p>@<a href="https://youtu.be/7a9o1k0F98E">YouTube</a></p>
-<h2>画像・PDFなども含めた複合的な文脈検索へ</h2>
-<p>AIモードには、タブだけでなく画像やPDFなどのファイルも追加できる。これにより、Webページに加えて手元の資料や視覚情報も含めた形で、AIに対して質問や分析を依頼できる。
-検索の対象は従来のキーワード中心から、ユーザーが保持する複数形式の情報全体へと広がりつつある。</p>
-<p>@<a href="https://www.youtube.com/watch?v=HuZUmhGcg-I">YouTube</a></p>
-]]></description>
-      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google Cloud、第8世代TPU「TPU 8t／8i」発表　NVIDIA連携も拡大し、AI Hypercomputerを強化</title>
       <link>https://ledge.ai/articles/google_tpu8_nvidia_ai_hypercomputer_cloud_next_2026</link>
       <description><![CDATA[<p>Google Cloudは2026年4月22日（現地時間）、年次イベント「Google Cloud Next」において、AIインフラ基盤「AI Hypercomputer」の拡張を<a href="https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26?hl=en">発表</a>{target=\</p>
@@ -298,6 +279,20 @@ campaign-level broad match設定</p>
 <p>Kimi K2.6は、Kimi API Platform上で提供されており、開発者向けに利用可能となっている。また、コーディング用途向けサービス「Kimi Code」にも反映されている。</p>
 <p><strong>ローカル環境（M3 Max）における推論性能の推移</strong></p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1d7j1727f2ena623likig_ded21594f5/1d7j1727f2ena623likig_ded21594f5.jpg" alt="1d7j1727f2ena623likig.jpg" /></p>
+]]></description>
+      <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、従業員のマウス操作・キーストロークをAI学習に活用へ　社内PCに追跡ソフト導入か</title>
+      <link>https://ledge.ai/articles/meta_employee_tracking_ai_training_data</link>
+      <description><![CDATA[<p>米Metaが米国在住の従業員の業務用コンピューターに新たな追跡ソフトウェアを導入し、マウス操作やクリック、キーストロークなどのデータを収集してAIモデルの学習に活用する計画だと2026年4月21日に<a href="https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/">Reuters</a>などが報じた。</p>
+<p>対象となるのは主に米国内の従業員とされる。導入されるツールは「Model Capability Initiative（MCI）」と呼ばれ、業務アプリケーションやウェブサイト上での操作ログを取得するほか、画面内容のスナップショットを断続的に記録する機能も備えるとされる。</p>
+<p>収集の目的は、AIモデルが人間のコンピューター操作をより正確に再現できるようにすることにある。具体的には、ドロップダウンメニューの選択やキーボードショートカットの使用など、人間特有の操作プロセスを学習させる狙いだという。</p>
+<p><a href="https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/">TechCrunch</a>によると、Metaはこの取り組みについて「日常的なコンピューター操作を支援するAIエージェントを構築するには、人間がどのように操作しているかの実例が必要だ」と説明している。マウスの動きやクリック、メニュー操作といった入力情報を収集する内部ツールを導入し、モデル訓練に活用する方針であるとした。</p>
+<p>またMetaは、収集されるデータはAIのトレーニング以外の目的には使用せず、機密性の高い情報を保護するための安全対策も講じるとしている。Reutersに対しても、同社は同様に「データはパフォーマンス評価などには使用しない」と説明している。</p>
+<p>今回の取り組みは、同社が進めるAI戦略の一環と位置づけられる。社内では「AI for Work」構想（後に「Agent Transformation Accelerator（ATA）」へ改称）が進められており、AIエージェントが業務の大部分を担う体制への移行が検討されているという。</p>
+<p>一方で、こうした従業員の操作ログ収集は、プライバシーや労務管理の観点からも議論を呼ぶ可能性がある。Reutersは、キーストロークの記録がホワイトカラー労働者に対するリアルタイム監視の強化につながる可能性を指摘している。</p>
+<p>さらに専門家は、こうした監視が職場における力関係に影響を与える可能性にも言及している。米国では従業員監視に対する法的制限は限定的である一方、欧州では同様の取り組みが規制に抵触する可能性があるとされる。</p>
 ]]></description>
       <pubDate>Sun, 19 Apr 2026 04:50:00 GMT</pubDate>
     </item>
