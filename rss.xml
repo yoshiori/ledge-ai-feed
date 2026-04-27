@@ -45,6 +45,43 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>DeepSeek、「DeepSeek-V4」公開　オープンながらトップクラス性能を主張、1Mコンテキスト対応</title>
+      <link>https://ledge.ai/articles/deepseek_v4_open_model_benchmark_sota_1m_context</link>
+      <description><![CDATA[<p>中国のAI企業DeepSeekは2026年4月24日（日本時間）、オープンなAIモデル「DeepSeek-V4」プレビュー版を<a href="https://x.com/deepseek_ai/status/2047516922263285776">公開</a>した。高性能モデル「DeepSeek-V4-Pro」と軽量高速モデル「DeepSeek-V4-Flash」の2系統で展開し、いずれも100万トークンの長文コンテキストに対応する。モデルはオープンウェイトとして公開され、APIおよびWebアプリでも利用可能となった。</p>
+<h2>Proは1.6兆、Flashは2840億パラメータのMoE構成</h2>
+<p>DeepSeek-V4-Proは総パラメータ数1.6兆、アクティブパラメータ49BのMixture of Experts（MoE）モデル。DeepSeek-V4-Flashは総パラメータ数284B、アクティブパラメータ13Bの軽量版となる。</p>
+<p>両モデルとも100万トークンのコンテキスト長を標準でサポートし、Proは「Expert Mode」、Flashは「Instant Mode」として提供される。APIも同日より利用可能となり、OpenAI互換およびAnthropic互換のインターフェースをサポートする。</p>
+<p><strong>■ DeepSeek-V4-ProとDeepSeek-V4-Flashの主要仕様</strong> ：Proは1.6兆パラメータのMoE構成、Flashは軽量・高速モデルとして設計されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Go9ronb_UAA_Kl_Rk_a96ec30cb1/H_Go9ronb_UAA_Kl_Rk_a96ec30cb1.jpg" alt="HGo9ronbUAAKlRk.jpg" /></p>
+<h2>1Mコンテキストを標準化、長文処理の効率も改善</h2>
+<p>DeepSeekは今回、100万トークンの長文処理を「標準仕様」として位置づけた。技術的には、トークン単位圧縮とスパース化を組み合わせた独自の注意機構（DeepSeek Sparse Attention）を採用している。</p>
+<p>これにより、従来モデルと比較して長文処理時の計算量およびメモリ使用量を大幅に削減したと説明しており、長大なドキュメント処理やエージェントタスクにおける実用性を高めたとしている。</p>
+<p><strong>■ DeepSeek-V4は長文コンテキスト処理において、従来モデル比で計算量（FLOPs）とKVキャッシュ使用量の削減を実現したとされる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Go4dw_Sag_A_Ei_V_Vx_691b167f0a/H_Go4dw_Sag_A_Ei_V_Vx_691b167f0a.jpg" alt="HGo4dwSagAEiVVx.jpg" /></p>
+<h2>ベンチマークでオープンモデル最上位を主張</h2>
+<p>DeepSeekは、DeepSeek-V4-Pro-Maxの評価として、複数のベンチマークで既存のオープンモデルを上回る性能を示したと発表している。</p>
+<p>知識・推論領域では、SimpleQA VerifiedやApex Shortlist、Codeforcesなどで高スコアを記録。特にCodeforcesでは3206のレーティングを示し、GPT-5.4（3168）やGemini-3.1-Pro（3052）と同等以上の水準に達したとしている。</p>
+<p>一方、エージェント性能を測るSWE VerifiedやToolathlonでも競争力のある結果を示し、コーディングやツール利用を含む実行能力の向上を強調した。</p>
+<p><strong>■ DeepSeek-V4-Pro-Maxと主要モデルのベンチマーク比較。知識・推論およびAgent能力の両面で高いスコアを示したとされる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_source_SOTA_in_Agentic_Coding_benchmarks_bdc1ca978e/Open_source_SOTA_in_Agentic_Coding_benchmarks_bdc1ca978e.jpg" alt="Open-source SOTA in Agentic Coding benchmarks.jpg" /></p>
+<h2>詳細ベンチマークでも広範なタスクで高水準</h2>
+<p>公開された詳細テーブルでは、MMLU-Pro、GPQA、HLE、LiveCodeBench、SWE系ベンチマークなど幅広い指標で評価が示されている。特にコーディングおよび推論系タスクにおいて、オープンモデルとしては高い水準に位置づけられている。</p>
+<p><strong>■ DeepSeek-V4の詳細ベンチマーク一覧。知識・長文・エージェントの各領域で幅広く評価されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Go4_Y_Mzag_AA_1e_Md_593b9ef151/H_Go4_Y_Mzag_AA_1e_Md_593b9ef151.jpg" alt="HGo4YMzagAA1eMd.jpg" /></p>
+<h2>Agent統合を前提に設計、コーディング用途も強化</h2>
+<p>DeepSeekは、DeepSeek-V4がClaude CodeやOpenClaw、OpenCodeなどのAIエージェントと統合可能であると説明している。社内でもエージェント型コーディングにすでに活用しているという。</p>
+<p>また、ポストトレーニングでは数学・コーディング・エージェントタスクなど複数領域に特化したモデルを構築し、それらを統合する手法を採用。推論能力と実行能力の両立を図った設計となっている。</p>
+<h2>API提供を開始、旧モデルは7月で廃止へ</h2>
+<p>APIは公開と同時に提供開始され、既存ユーザーはモデル名を切り替えることで利用可能となる。ThinkingモードとNon-Thinkingモードの両方に対応する。</p>
+<p>料金は、DeepSeek-V4-Proが入力0.145ドル（キャッシュヒット時）／1.74ドル（ミス時）、出力3.48ドル、DeepSeek-V4-Flashが入力0.028ドル／0.14ドル、出力0.28ドルとされており、Flashはコスト効率を重視した設計となっている。</p>
+<p><strong>■ DeepSeek-V4のAPI料金。Flashは低価格・高速性を重視した設計となっている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/H_Go4pxoa_IAALI_Vc_bcc9c942db/H_Go4pxoa_IAALI_Vc_bcc9c942db.jpg" alt="HGo4pxoaIAALIVc.jpg" /></p>
+<p>なお、従来の「deepseek-chat」「deepseek-reasoner」は2026年7月24日（UTC）をもって提供終了予定であり、DeepSeek-V4への移行が進められる。</p>
+<p>DeepSeek-V4は、長文処理・推論・エージェント能力を統合したオープンモデルとして公開された。オープンモデルの性能水準が、クローズドモデルにどこまで迫れるかを示す動きとして注目される。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>イーロン・マスク氏、AIとロボットによる失業対策に「ユニバーサル・ハイインカム」Xで提唱　専門家から批判も</title>
       <link>https://ledge.ai/articles/elon_musk_universal_high_income_ai_unemployment_x_reaction</link>
       <description><![CDATA[<p>Elon Musk氏は2026年4月17日、AIとロボットによる雇用喪失への対応策として、「Universal High Income（ユニバーサル・ハイインカム、普遍的高所得）」の考え方を<a href="https://x.com/elonmusk/status/2044990537145753894">X上</a>で示した。AIとロボット工学の進展によって産業の生産性が大幅に向上することを前提に、政府が高水準の所得を広く給付するモデルを想定している。</p>
