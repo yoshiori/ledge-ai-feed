@@ -282,6 +282,47 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>トヨタ、街の映像を言語化して理解する独自AI「Woven City AI Vision Engine」を発表　Woven Cityで実証、交通安全支援にも活用</title>
+      <link>https://ledge.ai/articles/toyota_woven_city_ai_vision_engine_announced</link>
+      <description><![CDATA[<p>トヨタ自動車とウーブン・バイ・トヨタは2026年4月22日、実証都市「Toyota Woven City」において、産業を超えた連携による価値創出「カケザン」を加速するAI技術として、「Woven City AI Vision Engine」を<a href="https://global.toyota/jp/newsroom/corporate/44256133.html">公開</a>した。カメラ映像などの視覚情報から、街や空間で起きている事象を言語化して理解し、判断や行動につなげる大規模基盤AIモデルと位置づける。</p>
+<h2>映像から街の状態を理解する「AI Vision Engine」</h2>
+<p>Woven City AI Vision Engineは、カメラ映像を起点に、人やモビリティの挙動、街や空間の状態といった環境情報を組み合わせて理解するAIである。実世界で発生している事象を言語として表現し、理解・判断・行動へとつなげることが可能なモデルとされる。</p>
+<p>視覚情報と自然言語を統合的に扱うVision Language Model（VLM）として設計されており、動画理解AIの性能評価「<a href="https://huggingface.co/spaces/OpenGVLab/MVBench_Leaderboard">MVBench Leaderboard</a>」調べで世界トップレベルの性能を有するとしている。</p>
+<p>また同AIは、Woven City内での実証の一例として、UCCジャパンによる取り組みを支援している。今後は都市外での活用も視野に入れ、展開を進める方針だ。</p>
+<h2>人とモビリティを支える安全システムにも活用</h2>
+<p>同AIは、人・モビリティ・インフラが一体となって安全を支える「Woven City Integrated ANZEN System」にも活用される。車両や信号機のカメラ映像を分析し、人やモビリティの動きから行動を予測、歩行者やドライバーに情報を知らせることで運転支援につなげる。</p>
+<p>トヨタはAIを「人の代替」ではなく、「人の力を引き出し、可能性を広げるもの」と位置づけており、ヒト中心の思想のもとで開発・実証を進めている。</p>
+<h2>Woven Cityで実証、街全体をAI基盤として活用</h2>
+<p>Woven Cityは「未来の当たり前」となるプロダクトやサービスの開発・実証を行う都市であり、AI Vision Engineはその中核技術として位置づけられる。</p>
+<p>同都市では、個人の行動特性を分析する「Behavior AI」、運転支援技術「Drive Sync Assist」、都市データを統合する「Infra Hub」、プライバシーに配慮したデータ活用基盤「Data Fabric」などと連携し、都市全体をAI基盤として活用する構想が示されている。</p>
+<h2>開発拠点「Inventor Garage」が稼働開始</h2>
+<p>2026年4月からは、開発拠点「Woven City Inventor Garage」が稼働を開始した。トヨタ自動車東日本の東富士工場のプレス建屋をリノベーションした施設で、プロトタイプ開発や実証実験を支援する。</p>
+<p>施設内にはモノづくりスペースや実証スペースに加え、宿泊施設や交流スペースも整備され、開発者が滞在しながら開発に取り組める環境を備える。</p>
+<p><strong>東富士工場のプレス建屋を改修した「Woven City Inventor Garage」内部</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/002_2bd94d375d/002_2bd94d375d.jpg" alt="002.jpg" /></p>
+<h2>実証プロセスを支える3つの環境</h2>
+<p>Woven Cityでは、以下の3段階で開発と実証を進める仕組みを構築している。</p>
+<ul>
+<li>Inventor Garage：開発・試作</li>
+<li>Inventor Field：性能・安全性テスト</li>
+<li>Phase 1：実際の生活環境での実証
+リアルな街環境でのフィードバックを得ながら、プロダクトの改善を進める設計となっている。</li>
+</ul>
+<p><strong>Inventor Garage・Field・居住エリアで構成される実証フロー</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/003_jp_bddb6ef3d9/003_jp_bddb6ef3d9.jpg" alt="003_jp.jpg" /></p>
+<h2>新たに4社が参画、連携を拡大</h2>
+<p>Woven Cityの参画企業（Inventors）には新たに4社が加わった。</p>
+<ul>
+<li>AIロボット協会</li>
+<li>第一興商</li>
+<li>Joby Aviation</li>
+<li>トヨタファイナンシャルサービス</li>
+</ul>
+<p>これによりInventorsは計24となり、モビリティやロボティクス、金融など異分野の技術を掛け合わせた「カケザン」による価値創出を加速するという。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>HTC NIPPON、AIグラス「VIVE Eagle」を日本発売　スマホ不要で情報アクセス、“メガネがAIの入口に”</title>
       <link>https://ledge.ai/articles/vive_eagle_ai_smart_glasses_japan_launch</link>
       <description><![CDATA[<p>HTC NIPPONは2026年4月21日、AIグラス「VIVE Eagle」を4月24日より日本で発売すると<a href="https://prtimes.jp/main/html/rd/p/000000237.000033579.html">発表</a>した。スマートフォンを取り出さずに必要な情報へアクセスできるハンズフリー体験を特徴とし、日常的に装着するメガネをAIの入口とする新たなデバイスとして展開する。</p>
