@@ -45,30 +45,6 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、対話型デザインツール「Claude Design」発表　チャットからスライドやプロトタイプ生成</title>
-      <link>https://ledge.ai/articles/claude_design_anthropic_chat_based_visual_creation_tool_launch_20260417</link>
-      <description><![CDATA[<p>Anthropicは2026年4月17日（現地時間）、デザインツール「Claude Design」を<a href="https://www.anthropic.com/news/claude-design-anthropic-labsl">発表</a>した。Claudeとの対話を通じて、スライドやドキュメント、プロトタイプなどの視覚的成果物を生成・編集できる機能で、Anthropic Labsのresearch previewとして提供される。</p>
-<h2>Claude内で「デザインまで完結」する新機能</h2>
-<p>Claude Designは、同社のAIアシスタント「Claude」に新たに追加された制作機能で、テキスト生成にとどまらず、視覚的なアウトプットまでを一体的に扱える点が特徴だ。インターフェースは、左側にチャット、右側にキャンバスを配置する構成となっており、対話を行いながら成果物をリアルタイムで生成・編集できる。</p>
-<p>ユーザーは指示を入力するだけで、アウトプットを作成し、その内容に対して追加の指示や修正を重ねることで、反復的にブラッシュアップしていくことが可能となっている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=t_LBECIQQqs">YouTube</a></p>
-<h2>スライド・ドキュメント・UIプロトタイプを生成</h2>
-<p>Claude Designでは、スライド資料やワンペーパー、UIプロトタイプ、各種ドキュメントなど、複数の形式の視覚成果物を生成できる。従来のように文章を生成して別のツールに移行するのではなく、Claude上で直接アウトプットを完成させるワークフローが想定されている。</p>
-<p>生成した成果物は、PDFやPPTX、HTML形式などでエクスポートできるほか、外部ツールへの連携にも対応する。</p>
-<h2>デザインシステムを読み込み、一貫性を維持</h2>
-<p>Claude Designは、組織内のデザイン資産を取り込み、成果物に反映する機能も備える。ブランドガイドラインや既存の資料、コードベースなどから、カラー、タイポグラフィ、コンポーネント、レイアウトパターンといった要素を抽出し、統一されたデザインを維持したまま生成を行うことができる。</p>
-<p>これにより、企業内での資料作成やプロトタイプ設計において、個々の作業者によるばらつきを抑えつつ、生成AIを活用した制作が可能になるとしている。</p>
-<h2>Claude Codeとの連携も視野に</h2>
-<p>生成したデザインは、同社の開発支援機能「Claude Code」との連携も想定されている。設計したUIや構造をそのまま実装工程へ引き渡すことで、デザインから開発までのプロセスを一体化する流れが意識されている。</p>
-<h2>提供はresearch preview、対象プランは限定</h2>
-<p>Claude Designは、Anthropic Labsによる実験的機能として提供されるresearch previewであり、Claudeの有料プランであるPro、Max、Team、Enterprise向けに段階的に展開される。Enterprise環境では初期状態では無効化されており、管理者による有効化が必要となる。</p>
-<p>また、利用は通常のClaudeとは別の使用量として管理され、週次の利用枠が設定されるなど、独立した運用形態が採られている。</p>
-<h2>Anthropic Labs発の新プロダクト</h2>
-<p>Claude Designは、Anthropicが展開する実験的プロダクト群「Anthropic Labs」から生まれた機能の一つと位置づけられている。Labsでは、Claudeの新しい活用領域を探る機能を段階的に公開しており、今回のClaude Designもその一環として提供される。</p>
-]]></description>
-      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DeepSeek、「DeepSeek-V4」公開　オープンながらトップクラス性能を主張、1Mコンテキスト対応</title>
       <link>https://ledge.ai/articles/deepseek_v4_open_model_benchmark_sota_1m_context</link>
       <description><![CDATA[<p>中国のAI企業DeepSeekは2026年4月24日（日本時間）、オープンなAIモデル「DeepSeek-V4」プレビュー版を<a href="https://x.com/deepseek_ai/status/2047516922263285776">公開</a>した。高性能モデル「DeepSeek-V4-Pro」と軽量高速モデル「DeepSeek-V4-Flash」の2系統で展開し、いずれも100万トークンの長文コンテキストに対応する。モデルはオープンウェイトとして公開され、APIおよびWebアプリでも利用可能となった。</p>
@@ -245,6 +221,37 @@
 <p>今回の取り組みは、同社が進めるAI戦略の一環と位置づけられる。社内では「AI for Work」構想（後に「Agent Transformation Accelerator（ATA）」へ改称）が進められており、AIエージェントが業務の大部分を担う体制への移行が検討されているという。</p>
 <p>一方で、こうした従業員の操作ログ収集は、プライバシーや労務管理の観点からも議論を呼ぶ可能性がある。Reutersは、キーストロークの記録がホワイトカラー労働者に対するリアルタイム監視の強化につながる可能性を指摘している。</p>
 <p>さらに専門家は、こうした監視が職場における力関係に影響を与える可能性にも言及している。米国では従業員監視に対する法的制限は限定的である一方、欧州では同様の取り組みが規制に抵触する可能性があるとされる。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEC、Anthropicと戦略協業　「Claude Code」をグループ3万人へ展開、日本企業向けAI開発とBluStellar統合を加速</title>
+      <link>https://ledge.ai/articles/nec_anthropic_claude_code_blu_stellar_partnership_2026</link>
+      <description><![CDATA[<p>NECは2026年4月23日、米Anthropicと日本のエンタープライズ領域におけるAI活用の加速に向けた戦略的協業を開始すると<a href="https://jpn.nec.com/press/202604/20260423_01.html">発表</a>した。NECは日本企業として初めてAnthropicのグローバルパートナーとなり、同社のAI「Claude」をNECグループ約3万人に展開する。両社は業種特化型AIソリューションの共同開発や、NECのデジタル変革基盤「BluStellar」への統合を進める。</p>
+<h2>日本企業初、Anthropicのグローバルパートナーに</h2>
+<p>協業により、NECは日本企業として初めてAnthropicのグローバルパートナーとなる。単なるAI導入にとどまらず、日本市場向けのAI活用を前提とした戦略的な連携と位置づけられる。</p>
+<p>両社は、日本におけるAIの本格的な普及と実装を支える取り組みとして、本協業を開始したとしている。</p>
+<h2>金融・製造・自治体向けに業種特化AIを共同開発</h2>
+<p>両社は、デスクトップ向けAIエージェント「Claude Cowork」を活用し、日本市場向けの業種別AIソリューションの共同開発を進める。対象は金融、製造、自治体など、高いセキュリティや法規制対応が求められる領域となる。</p>
+<p>これらの分野では、IT人材不足や運用ノウハウの不足に加え、日本特有の規制への対応が課題とされており、現場業務に適合したセキュアなAI基盤の整備が求められている。</p>
+<p>また、サイバーセキュリティ領域では、NECはすでにAnthropicのAI技術をSOC（Security Operations Center）サービスに活用しており、今後は次世代サイバーセキュリティサービスの高度化にもつなげる。</p>
+<h2>BluStellarにClaudeを統合、DX基盤として活用</h2>
+<p>NECは、自社の価値創造モデル「BluStellar」を支える「BluStellar Scenario」にClaudeを組み込み、顧客企業のDXを支援する。</p>
+<p>具体的には、以下の領域から適用を開始する。
+データ起点の意思決定高度化による経営・事業管理の高度化
+顧客理解の深化による新たなカスタマーサービス創出</p>
+<p>今後は、他のシナリオにも順次適用を拡大していく方針だ。</p>
+<h2>NECグループ3万人にClaude展開、AI人材育成を加速</h2>
+<p>NECは、AIソリューションの開発と展開を加速するため、NECグループ約3万人の従業員を対象にClaudeを導入する。これにより、国内企業最大規模となるAIネイティブエンジニア体制の構築を目指す。</p>
+<p>NECの説明資料では、今回の協業を「BluStellarへの統合」「業種特化AI開発」「3万人規模のAI人材化」の3点で整理している。</p>
+<p><strong>NECとAnthropicの協業内容。BluStellarへの統合、業種特化AI開発、3万人規模のAIエンジニア体制構築を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nec_anthropic1_b928ae2fa9/nec_anthropic1_b928ae2fa9.jpg" alt="nec anthropic1.jpg" /></p>
+<p>社内では、AI高度人材の育成を目的としたCoE（Center of Excellence）を設立し、Anthropicからの技術支援やトレーニング提供を受ける。また、コーディングエージェント「Claude Code」を活用し、開発業務の効率化を進める。
+NECはこれまでも、自社を最初の顧客とする「クライアントゼロ」の取り組みの中でAI活用を進めており、今回の協業はその延長線上に位置づけられる。</p>
+<h2>日本市場に特化したAI実装を加速</h2>
+<p>両社は今回の協業を通じて、安全性・信頼性に優れたAI技術の社会実装を加速させ、日本企業や行政の業務変革と競争力強化に貢献するとしている。</p>
+<p>Anthropicの最高事業責任者（CCO）であるPaul Smith氏は、「両社の強みを結集し、日本企業が安心して活用できる高い安全性を備えたAIエージェントを提供する」とコメントしている。</p>
+<p>また、NECの執行役副社長兼COOである吉崎敏文氏は、「日本市場におけるAIの可能性を最大限に引き出し、AIおよびAIエージェントの実装力を強化する」としている。</p>
 ]]></description>
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
