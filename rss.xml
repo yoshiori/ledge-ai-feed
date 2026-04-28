@@ -21,6 +21,30 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Arm、「Arm AGI CPU」発表　設立35年超で初の自社シリコン製品、複雑なエージェント型AIワークロードに対応</title>
+      <link>https://ledge.ai/articles/arm_agi_cpu_agent_ai_datacenter_launch</link>
+      <description><![CDATA[<p>Armは2026年3月24日（現地時間）、AIデータセンター向けに設計した新プロセッサー「Arm AGI CPU」を<a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu">発表</a>した。エージェント型AIの普及に伴い増加する複雑なワークロードへの対応を目的としており、同CPUを起点にAIインフラ領域での展開を本格化する。35年以上にわたりCPU設計IPを提供してきた同社が、自社製シリコン製品を投入するのは初めて。</p>
+<h2>Neoverse基盤で設計されたAI向けCPU</h2>
+<p>Arm AGI CPUは、同社のデータセンター向けプラットフォーム「Neoverse」を基盤に設計された。最大136コアの「Neoverse V3」を搭載し、高密度な並列処理を前提とした構成となっている。</p>
+<p>AI推論やデータ処理、分散システムの制御といった用途を想定し、従来のクラウドワークロードに加えて、エージェント型AIの実行環境としての利用を視野に入れる。AIエージェントが複数のタスクを連続的に処理する中で、CPU側の処理能力とスケーラビリティが重要になる点を踏まえた設計だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image_6_1024x576_8741f73e56/image_6_1024x576_8741f73e56.jpg" alt="image-6-1024x576.jpg" /></p>
+<h2>ラック単位でのスケールを前提に設計</h2>
+<p>同CPUは単体性能だけでなく、データセンター全体でのスケール効率を重視している。Armはリファレンス構成として、1OUのデュアルノードサーバーを提示しており、ラック単位では最大8,160コアまで拡張可能としている。</p>
+<p>また、コアあたり最大6GB/sのメモリ帯域を確保することで、大規模データ処理やAI推論におけるボトルネックの軽減を図る。こうした設計により、高密度かつ高効率なAIインフラ構築を可能にする。</p>
+<h2>Metaなどと連携、AIインフラの中核へ</h2>
+<p>Arm AGI CPUは、Metaをはじめとするハイパースケーラーとの連携のもと開発が進められている。MetaはArmと共同でデータセンター向けCPUを複数世代にわたり開発する計画を明らかにしており、同CPUもその一環として位置づけられる。</p>
+<p>このほか、OpenAIやCloudflareなどもエコシステムパートナーとして名を連ねており、AIサービス事業者との連携を前提とした展開が想定されている。</p>
+<h2>IP提供からプロダクションシリコンへ</h2>
+<p>今回の発表は、Armの事業戦略における転換点とも位置づけられる。これまで同社はCPU設計のIPを提供し、パートナー企業が製品化するモデルを採ってきたが、Arm AGI CPUでは設計主導のプロセッサーとして「プロダクションシリコン」への展開を打ち出した。</p>
+<p>AIインフラの需要拡大を背景に、より直接的に市場へ関与する形へと踏み込んだ格好だ。</p>
+<h2>エージェント型AI時代に向けたCPUの再定義</h2>
+<p>生成AIの進化により、単発の推論処理だけでなく、複数のツールやプロセスを連携させる「エージェント型AI」の利用が広がりつつある。こうした環境では、GPUなどのアクセラレータに加え、CPUが担う制御・データ処理の役割が重要性を増す。</p>
+<p>Arm AGI CPUは、こうした新しいAIワークロードに対応する基盤として設計されており、今後のAIデータセンターにおける構成要素の一つとして位置づけられる。</p>
+<p>@<a href="https://www.youtube.com/watch?v=sqJancqeVbk">YouTube</a></p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、対話型デザインツール「Claude Design」発表　チャットからスライドやプロトタイプ生成</title>
       <link>https://ledge.ai/articles/claude_design_anthropic_chat_based_visual_creation_tool_launch_20260417</link>
       <description><![CDATA[<p>Anthropicは2026年4月17日（現地時間）、デザインツール「Claude Design」を<a href="https://www.anthropic.com/news/claude-design-anthropic-labsl">発表</a>した。Claudeとの対話を通じて、スライドやドキュメント、プロトタイプなどの視覚的成果物を生成・編集できる機能で、Anthropic Labsのresearch previewとして提供される。</p>
