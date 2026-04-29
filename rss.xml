@@ -169,28 +169,26 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>中国Moonshot、「Kimi K2.6」公開　オープンソースで視覚情報対応、長時間コーディングとAgent性能を強化</title>
-      <link>https://ledge.ai/articles/kimi_k2_6_open_source_coding_agent_model</link>
-      <description><![CDATA[<p>中国のAI企業Moonshot AIは2026年4月20日、AIモデル「Kimi K2.6」を<a href="https://www.kimi.com/blog/kimi-k2-6">公開</a>した。オープンソースとして提供される最新モデルで、長時間にわたるコーディング性能の強化に加え、Agentタスクへの対応やマルチモーダル入力の拡張が特徴となる。公式ブログおよびAPIドキュメントを通じて詳細が公開されている。</p>
-<h2>長時間コーディング性能を重点強化</h2>
-<p>Kimi K2.6は、長時間にわたるコード生成や修正といったタスクにおける安定性を強化したモデルとして設計されている。従来モデルから、命令追従性や自己修正能力が改善されており、複雑な開発タスクを継続的に処理する能力が向上した。</p>
-<p>コーディング関連のベンチマークでも性能向上が示されており、SWE系やTerminal系の評価指標で高いスコアを記録している。</p>
-<p><strong>Kimi K2.6のベンチマーク結果。Claudeなど主要モデルと同一指標で比較されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kimi_k2_6_87e49f972e/kimi_k2_6_87e49f972e.jpg" alt="kimi k2-6.jpg" /></p>
-<p>ベンチマークでは、AnthropicのClaudeシリーズなど主要モデルと同一レンジで比較されており、コーディング性能を巡る競争領域に位置づけられていることが分かる。</p>
-<h2>Agentタスクと自律実行能力の強化</h2>
-<p>Kimi K2.6は、単なる応答生成にとどまらず、タスクを分解しながら実行・修正を繰り返すAgent用途を前提に設計されている。長期的な処理フローを維持しながら複数のステップを実行する能力が強化されている。</p>
-<p>モデル仕様では、自律的に処理を進める「proactive autonomous execution」や、複数タスクを並列的に扱う「task orchestration」への対応が明示されている。</p>
-<h2>マルチモーダル対応の拡張</h2>
-<p>入力形式はテキストに加え、画像や動画にも対応する。Kimi K2.6は「natively multimodal」モデルとして設計されており、視覚情報を含むタスクにも適用可能となっている。</p>
-<p>これにより、コード生成にとどまらず、ドキュメント理解や複合的な情報処理への応用が想定される。</p>
-<h2>thinkingモードによる推論制御</h2>
-<p>Kimi K2.6では、thinkingモードとnon-thinkingモードの2種類が用意されている。推論過程を重視するか、応答速度を優先するかを用途に応じて切り替えることが可能だ。</p>
-<p>特にAgentタスクにおいては、複雑な判断を伴う処理に対してthinkingモードが有効とされる。</p>
-<h2>API提供と実装状況</h2>
-<p>Kimi K2.6は、Kimi API Platform上で提供されており、開発者向けに利用可能となっている。また、コーディング用途向けサービス「Kimi Code」にも反映されている。</p>
-<p><strong>ローカル環境（M3 Max）における推論性能の推移</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1d7j1727f2ena623likig_ded21594f5/1d7j1727f2ena623likig_ded21594f5.jpg" alt="1d7j1727f2ena623likig.jpg" /></p>
+      <title>GWに学ぶAI活用——Google、AIエージェントを活用したAndroidアプリ開発ツール公開とAI資格講座の無料提供を開始</title>
+      <link>https://ledge.ai/articles/gw_ai_learning_google_android_ai_tools_free_certification</link>
+      <description><![CDATA[<p>Googleは2026年4月、Androidアプリ開発をAIで効率化する新たな開発ツール群を公開するとともに、日本ではAI人材育成を目的としたオンライン講座の無償提供を開始した。開発環境と学習機会の両面でAI活用を後押しする動きとなる。</p>
+<h2>Android開発はAIエージェント前提へ、最大3倍の高速化</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/hours_CLI_Dark_Blogger_2x_f855b0be67/hours_CLI_Dark_Blogger_2x_f855b0be67.jpg" alt="hours-CLI_Dark-Blogger@2x.jpg" /></p>
+<p>GoogleはAndroid Developers公式ブログで、AIエージェントを活用したアプリ開発を加速するためのツールとして「Android CLI」「Android skills」「<a href="https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html">Android Knowledge Base</a>」を公開した。</p>
+<p>これらは、従来のIDE中心の開発スタイルに加え、LLMやAIエージェントから直接Android開発を行えるようにするための仕組みである。Android CLIを通じて任意のエージェントや開発環境から操作できるほか、Android skillsでは、Composeへの移行やNavigation対応、ビルド設定などの開発ノウハウをモジュール化し、AIが扱いやすい形で提供する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=AhrXPjk22OE">YouTube</a></p>
+<p>Googleによる内部検証では、これらの仕組みにより、トークン使用量を70％以上削減し、タスク完了までの時間を最大で3倍高速化できたとしている。</p>
+<p>Android skillsはGitHub上でApache License 2.0として公開されており、開発者は自ら拡張・カスタマイズすることも可能だ。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Workout_app_c623d78ad9/Workout_app_c623d78ad9.gif" alt="Workout-app.gif" /></p>
+<h2>日本ではAI資格講座を無料提供、先着1万人</h2>
+<p>一方、日本では一般社団法人日本リスキリングコンソーシアムが、オンライン講座「Google AI プロフェッショナル認定証」（日本語版）の無料受講アカウントの提供を開始した。</p>
+<p>同講座は通常約7,700円相当で、新規・既存会員を問わず先着1万人に無償で提供される。修了者にはGoogle発行の認定証が授与され、履歴書やビジネスSNSのプロフィールなどに記載することで、スキルの証明として活用できる。</p>
+<p>学習時間は7〜10時間程度で、自分のペースで進められる設計となっており、AIツールの利用経験を問わず受講可能だ。</p>
+<p>講座では、「Gemini」「NotebookLM」「Google AI Studio」といったAIツールを活用しながら、コンテンツ作成やデータ分析、リサーチなど、実務に直結するスキルを学ぶ。加えて、コードを書かずに業務を効率化するアプリを構築する「バイブコーディング」もカリキュラムに含まれる。</p>
+<p>さらに、受講者にはGoogleのAI機能を拡張した有料プラン「Google AI Pro」（通常月額2,900円）の3カ月間無料アクセス権も付与される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/reskilling_consortium_f6084ec9e6/reskilling_consortium_f6084ec9e6.jpg" alt="reskilling-consortium.jpg" /></p>
+<p>この講座は、AIスキルの重要性が高まる中で、実践レベルのスキル習得を促進する目的で開発された。調査会社IpsosとGoogleの調査によると、米国の管理職の70%がAIトレーニングを受けた人材を重要視している一方、実際に機会を提供されている労働者は14%にとどまるなど、スキルギャップが課題となっている。</p>
+<p>海外では、WalmartやDeloitte、Verizonなどの企業が、従業員向けのAIトレーニングとして同講座の活用を予定しているという。</p>
 ]]></description>
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
