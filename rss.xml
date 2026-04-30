@@ -85,22 +85,6 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon、Anthropicに50億ドル出資　将来最大200億ドル追加へ──5GW規模のAI計算基盤で協業拡大</title>
-      <link>https://ledge.ai/articles/amazon_anthropic_investment_5b_20b_aws_compute_expansion</link>
-      <description><![CDATA[<p>AmazonとAnthropicは2026年4月20日、AI開発基盤を中心とした提携の大幅拡大を<a href="https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai">発表</a>した。この中でAmazonは、Anthropicに50億ドルを出資し、将来的に最大200億ドルを追加出資する方針を示した。両社はあわせて、最大5ギガワット（GW）規模のAI計算インフラを確保する長期契約を締結したという。</p>
-<h2>最大5GWの計算資源を長期確保</h2>
-<p>提携の中核は、AI開発に必要な計算資源の確保だ。Anthropicは今後10年間で1000億ドル超をAWS技術に投じ、最大5GW規模の計算容量を確保する。対象には、AmazonのAIチップ「Trainium2」から将来世代までが含まれる。</p>
-<p>2026年中には約1GW規模の計算能力が稼働する見通しで、同社はすでに100万個以上のTrainium2チップを用いてClaudeの学習・推論を行っている。契約にはアジア・欧州での推論インフラ拡張も含まれる。</p>
-<h2>Amazonは50億ドル出資、最大200億ドル追加へ</h2>
-<p>資本面では、Amazonが当日中に50億ドルを出資し、将来的に最大200億ドルを追加出資する。これまでの累計投資額は80億ドルに達しており、今回の枠組みはそれを大きく上回る規模となる。</p>
-<p>Anthropicは引き続きAWSを主要クラウドとして利用し、TrainiumやGravitonを含むインフラを基盤にモデル開発を進める。AmazonのCEOであるアンディ・ジャシー氏は、同社のAI向け半導体について高いコスト効率と需要の強さを強調している。</p>
-<h2>ClaudeをAWS内で提供、需要急増に対応</h2>
-<p>Anthropicの「Claude Platform」は、AWS内から直接利用できる形で提供される予定だ。既存のAWSアカウントで利用でき、認証や請求、ガバナンスも統合される。</p>
-<p>背景にはClaudeの急速な利用拡大がある。2026年時点で年間売上のランレートは300億ドルを超え、2025年末から大きく伸長した。一方で利用増加はインフラ負荷も高めており、今回の契約により数カ月以内に計算能力を拡張し、2026年末までに約1GW規模の追加インフラを確保する見通しとしている。</p>
-]]></description>
-      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>DeepSeek、「DeepSeek-V4」公開　オープンながらトップクラス性能を主張、1Mコンテキスト対応</title>
       <link>https://ledge.ai/articles/deepseek_v4_open_model_benchmark_sota_1m_context</link>
       <description><![CDATA[<p>中国のAI企業DeepSeekは2026年4月24日（日本時間）、オープンなAIモデル「DeepSeek-V4」プレビュー版を<a href="https://x.com/deepseek_ai/status/2047516922263285776">公開</a>した。高性能モデル「DeepSeek-V4-Pro」と軽量高速モデル「DeepSeek-V4-Flash」の2系統で展開し、いずれも100万トークンの長文コンテキストに対応する。モデルはオープンウェイトとして公開され、APIおよびWebアプリでも利用可能となった。</p>
@@ -259,6 +243,20 @@
 <p>今回の取り組みは、同社が進めるAI戦略の一環と位置づけられる。社内では「AI for Work」構想（後に「Agent Transformation Accelerator（ATA）」へ改称）が進められており、AIエージェントが業務の大部分を担う体制への移行が検討されているという。</p>
 <p>一方で、こうした従業員の操作ログ収集は、プライバシーや労務管理の観点からも議論を呼ぶ可能性がある。Reutersは、キーストロークの記録がホワイトカラー労働者に対するリアルタイム監視の強化につながる可能性を指摘している。</p>
 <p>さらに専門家は、こうした監視が職場における力関係に影響を与える可能性にも言及している。米国では従業員監視に対する法的制限は限定的である一方、欧州では同様の取り組みが規制に抵触する可能性があるとされる。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国当局、MetaのAIスタートアップ「Manus」買収を差し止め　安全審査で禁止決定</title>
+      <link>https://ledge.ai/articles/meta_manus_china_blocked_acquisition</link>
+      <description><![CDATA[<p>中国国家発展改革委員会は2026年4月27日、AIスタートアップ「Manus」を巡る外国企業による買収について、安全審査の結果として<a href="https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623">禁止決定を下した</a>。これにより、当該買収は撤回を求められた。</p>
+<p>同委員会の政府情報公開によれば、外商投資安全審査工作机制办公室（外国投資安全保障審査メカニズム事務局）が、Manusに関する外国企業による買収案件について審査を実施し、「禁止投資決定」を行ったとする。決定に基づき、関係当事者には当該取引の撤回が求められている。</p>
+<h2>ManusはMeta傘下入りを発表していた</h2>
+<p>一方、Manusはこれに先立ち、Metaの一部となることを<a href="https://ledge.ai/articles/meta_manus_ai_agent">発表</a>していた。同社は、Meta傘下に入った後もサービスの提供を継続し、シンガポールを拠点とした運営体制を維持すると説明している。</p>
+<p>Manusは、ユーザーの指示に応じてタスクを実行し、ワークフローを自動化するAIエージェントを展開するスタートアップであり、単なる応答型AIにとどまらない「アクション実行型AI」を特徴とする。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/manus_joins_meta_18179598ba/manus_joins_meta_18179598ba.jpg" alt="manus joins meta.jpg" /></p>
+<p>今回の買収を巡っては、MetaがManusを約20億ドル（約3200億円）で買収する計画だったと、ReutersやCNBC、AP通信など複数の海外メディアが報じている。</p>
+<p>これらの報道によれば、中国当局は本件を国家安全保障の観点から審査対象とし、最終的に買収を認めない判断に至ったとされる。AI分野におけるデータや技術の国外流出に対する懸念が背景にある可能性も指摘されている。</p>
 ]]></description>
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
