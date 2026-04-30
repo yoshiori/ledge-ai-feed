@@ -5,6 +5,37 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>NEC、Anthropicと戦略協業　「Claude Code」をグループ3万人へ展開、日本企業向けAI開発とBluStellar統合を加速</title>
+      <link>https://ledge.ai/articles/nec_anthropic_claude_code_blu_stellar_partnership_2026</link>
+      <description><![CDATA[<p>NECは2026年4月23日、米Anthropicと日本のエンタープライズ領域におけるAI活用の加速に向けた戦略的協業を開始すると<a href="https://jpn.nec.com/press/202604/20260423_01.html">発表</a>した。NECは日本企業として初めてAnthropicのグローバルパートナーとなり、同社のAI「Claude」をNECグループ約3万人に展開する。両社は業種特化型AIソリューションの共同開発や、NECのデジタル変革基盤「BluStellar」への統合を進める。</p>
+<h2>日本企業初、Anthropicのグローバルパートナーに</h2>
+<p>協業により、NECは日本企業として初めてAnthropicのグローバルパートナーとなる。単なるAI導入にとどまらず、日本市場向けのAI活用を前提とした戦略的な連携と位置づけられる。</p>
+<p>両社は、日本におけるAIの本格的な普及と実装を支える取り組みとして、本協業を開始したとしている。</p>
+<h2>金融・製造・自治体向けに業種特化AIを共同開発</h2>
+<p>両社は、デスクトップ向けAIエージェント「Claude Cowork」を活用し、日本市場向けの業種別AIソリューションの共同開発を進める。対象は金融、製造、自治体など、高いセキュリティや法規制対応が求められる領域となる。</p>
+<p>これらの分野では、IT人材不足や運用ノウハウの不足に加え、日本特有の規制への対応が課題とされており、現場業務に適合したセキュアなAI基盤の整備が求められている。</p>
+<p>また、サイバーセキュリティ領域では、NECはすでにAnthropicのAI技術をSOC（Security Operations Center）サービスに活用しており、今後は次世代サイバーセキュリティサービスの高度化にもつなげる。</p>
+<h2>BluStellarにClaudeを統合、DX基盤として活用</h2>
+<p>NECは、自社の価値創造モデル「BluStellar」を支える「BluStellar Scenario」にClaudeを組み込み、顧客企業のDXを支援する。</p>
+<p>具体的には、以下の領域から適用を開始する。
+データ起点の意思決定高度化による経営・事業管理の高度化
+顧客理解の深化による新たなカスタマーサービス創出</p>
+<p>今後は、他のシナリオにも順次適用を拡大していく方針だ。</p>
+<h2>NECグループ3万人にClaude展開、AI人材育成を加速</h2>
+<p>NECは、AIソリューションの開発と展開を加速するため、NECグループ約3万人の従業員を対象にClaudeを導入する。これにより、国内企業最大規模となるAIネイティブエンジニア体制の構築を目指す。</p>
+<p>NECの説明資料では、今回の協業を「BluStellarへの統合」「業種特化AI開発」「3万人規模のAI人材化」の3点で整理している。</p>
+<p><strong>NECとAnthropicの協業内容。BluStellarへの統合、業種特化AI開発、3万人規模のAIエンジニア体制構築を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nec_anthropic1_b928ae2fa9/nec_anthropic1_b928ae2fa9.jpg" alt="nec anthropic1.jpg" /></p>
+<p>社内では、AI高度人材の育成を目的としたCoE（Center of Excellence）を設立し、Anthropicからの技術支援やトレーニング提供を受ける。また、コーディングエージェント「Claude Code」を活用し、開発業務の効率化を進める。
+NECはこれまでも、自社を最初の顧客とする「クライアントゼロ」の取り組みの中でAI活用を進めており、今回の協業はその延長線上に位置づけられる。</p>
+<h2>日本市場に特化したAI実装を加速</h2>
+<p>両社は今回の協業を通じて、安全性・信頼性に優れたAI技術の社会実装を加速させ、日本企業や行政の業務変革と競争力強化に貢献するとしている。</p>
+<p>Anthropicの最高事業責任者（CCO）であるPaul Smith氏は、「両社の強みを結集し、日本企業が安心して活用できる高い安全性を備えたAIエージェントを提供する」とコメントしている。</p>
+<p>また、NECの執行役副社長兼COOである吉崎敏文氏は、「日本市場におけるAIの可能性を最大限に引き出し、AIおよびAIエージェントの実装力を強化する」としている。</p>
+]]></description>
+      <pubDate>Tue, 28 Apr 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Arm、「Arm AGI CPU」発表　設立35年超で初の自社シリコン製品、複雑なエージェント型AIワークロードに対応</title>
       <link>https://ledge.ai/articles/arm_agi_cpu_agent_ai_datacenter_launch</link>
       <description><![CDATA[<p>Armは2026年3月24日（現地時間）、AIデータセンター向けに設計した新プロセッサー「Arm AGI CPU」を<a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu">発表</a>した。エージェント型AIの普及に伴い増加する複雑なワークロードへの対応を目的としており、同CPUを起点にAIインフラ領域での展開を本格化する。35年以上にわたりCPU設計IPを提供してきた同社が、自社製シリコン製品を投入するのは初めて。</p>
@@ -276,37 +307,6 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NEC、Anthropicと戦略協業　「Claude Code」をグループ3万人へ展開、日本企業向けAI開発とBluStellar統合を加速</title>
-      <link>https://ledge.ai/articles/nec_anthropic_claude_code_blu_stellar_partnership_2026</link>
-      <description><![CDATA[<p>NECは2026年4月23日、米Anthropicと日本のエンタープライズ領域におけるAI活用の加速に向けた戦略的協業を開始すると<a href="https://jpn.nec.com/press/202604/20260423_01.html">発表</a>した。NECは日本企業として初めてAnthropicのグローバルパートナーとなり、同社のAI「Claude」をNECグループ約3万人に展開する。両社は業種特化型AIソリューションの共同開発や、NECのデジタル変革基盤「BluStellar」への統合を進める。</p>
-<h2>日本企業初、Anthropicのグローバルパートナーに</h2>
-<p>協業により、NECは日本企業として初めてAnthropicのグローバルパートナーとなる。単なるAI導入にとどまらず、日本市場向けのAI活用を前提とした戦略的な連携と位置づけられる。</p>
-<p>両社は、日本におけるAIの本格的な普及と実装を支える取り組みとして、本協業を開始したとしている。</p>
-<h2>金融・製造・自治体向けに業種特化AIを共同開発</h2>
-<p>両社は、デスクトップ向けAIエージェント「Claude Cowork」を活用し、日本市場向けの業種別AIソリューションの共同開発を進める。対象は金融、製造、自治体など、高いセキュリティや法規制対応が求められる領域となる。</p>
-<p>これらの分野では、IT人材不足や運用ノウハウの不足に加え、日本特有の規制への対応が課題とされており、現場業務に適合したセキュアなAI基盤の整備が求められている。</p>
-<p>また、サイバーセキュリティ領域では、NECはすでにAnthropicのAI技術をSOC（Security Operations Center）サービスに活用しており、今後は次世代サイバーセキュリティサービスの高度化にもつなげる。</p>
-<h2>BluStellarにClaudeを統合、DX基盤として活用</h2>
-<p>NECは、自社の価値創造モデル「BluStellar」を支える「BluStellar Scenario」にClaudeを組み込み、顧客企業のDXを支援する。</p>
-<p>具体的には、以下の領域から適用を開始する。
-データ起点の意思決定高度化による経営・事業管理の高度化
-顧客理解の深化による新たなカスタマーサービス創出</p>
-<p>今後は、他のシナリオにも順次適用を拡大していく方針だ。</p>
-<h2>NECグループ3万人にClaude展開、AI人材育成を加速</h2>
-<p>NECは、AIソリューションの開発と展開を加速するため、NECグループ約3万人の従業員を対象にClaudeを導入する。これにより、国内企業最大規模となるAIネイティブエンジニア体制の構築を目指す。</p>
-<p>NECの説明資料では、今回の協業を「BluStellarへの統合」「業種特化AI開発」「3万人規模のAI人材化」の3点で整理している。</p>
-<p><strong>NECとAnthropicの協業内容。BluStellarへの統合、業種特化AI開発、3万人規模のAIエンジニア体制構築を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nec_anthropic1_b928ae2fa9/nec_anthropic1_b928ae2fa9.jpg" alt="nec anthropic1.jpg" /></p>
-<p>社内では、AI高度人材の育成を目的としたCoE（Center of Excellence）を設立し、Anthropicからの技術支援やトレーニング提供を受ける。また、コーディングエージェント「Claude Code」を活用し、開発業務の効率化を進める。
-NECはこれまでも、自社を最初の顧客とする「クライアントゼロ」の取り組みの中でAI活用を進めており、今回の協業はその延長線上に位置づけられる。</p>
-<h2>日本市場に特化したAI実装を加速</h2>
-<p>両社は今回の協業を通じて、安全性・信頼性に優れたAI技術の社会実装を加速させ、日本企業や行政の業務変革と競争力強化に貢献するとしている。</p>
-<p>Anthropicの最高事業責任者（CCO）であるPaul Smith氏は、「両社の強みを結集し、日本企業が安心して活用できる高い安全性を備えたAIエージェントを提供する」とコメントしている。</p>
-<p>また、NECの執行役副社長兼COOである吉崎敏文氏は、「日本市場におけるAIの可能性を最大限に引き出し、AIおよびAIエージェントの実装力を強化する」としている。</p>
-]]></description>
-      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>note、自動翻訳を全クリエイターに展開　日本語コンテンツを世界へ、AI経由流入も拡大</title>
       <link>https://ledge.ai/articles/note_multilingual_auto_translation_global_expansion</link>
       <description><![CDATA[<p>noteは2026年4月22日、日本語で書かれたコンテンツを世界中の読者に届ける「自動での多言語対応」を全クリエイター向けに開始すると<a href="https://note.jp/n/n7422a5bd3191">発表</a>した。公開済み記事のうち一定の基準を満たすテキスト形式の記事を対象に、まず英語から順次翻訳し、段階的に公開していく。法人向け高機能プラン「note pro」で公開された記事も対象となる。2026年5月27日より全クリエイターを対象に多言語対応を開始する。</p>
@@ -496,30 +496,6 @@ NTTグループは、AIの用途に応じて必要な計算リソースやネッ
 <p>光学技術、装着性、ソフトウェア設計を組み合わせ、日常利用を前提としたARグラスとして開発が進められている。</p>
 ]]></description>
       <pubDate>Wed, 22 Apr 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、検索広告をAIに全面移行へ　「AI Max」正式化、DSAなど既存機能は2026年9月から自動アップグレード</title>
-      <link>https://ledge.ai/articles/google_search_ads_ai_max_migration_2026</link>
-      <description><![CDATA[<p>Googleは2026年4月15日、検索広告向けのAI機能「AI Max for Search campaigns」がベータ版を終了し正式化すると<a href="https://blog.google/products/ads-commerce/dsa-upgrade-to-ai-max-2026/">発表</a>した。あわせて同社は、動的検索広告（DSA）や自動作成アセット（ACA）、ブロードマッチ設定などの既存機能を、2026年9月からAI Maxへ自動的にアップグレードする方針を明らかにした。</p>
-<h2>「AI Max」正式化、検索広告の中核機能へ</h2>
-<p>AI Maxは、検索広告におけるターゲティング、クリエイティブ生成、配信最適化をAIで統合する機能として、2025年5月にベータ版の提供が開始された。ユーザーの検索意図やリアルタイムのシグナルをもとに、広告配信を動的に最適化する設計となっている。従来は、動的検索広告（DSA）や自動作成アセット（ACA）など、複数の自動化機能が個別に提供されていたが、AI Maxではこれらを単一のフレームワークに統合する。これにより、広告運用における各機能の役割は再定義されることになる。</p>
-<h2>DSA・ACA・ブロードマッチをAI Maxへ統合</h2>
-<p>今回の発表では、以下の既存機能がAI Maxへ統合される対象として示された。
-動的検索広告（DSA）
-自動作成アセット（ACA、現：text customization）
-campaign-level broad match設定</p>
-<p>これらは従来、広告主が個別に設定・管理する必要があったが、今後はAI Maxの中で一体的に処理される構成となる。検索語句の解釈、広告文の生成、配信最適化といった一連のプロセスが、AIによって統合的に制御される形になる。</p>
-<p><strong>従来のDSAとAI Maxの違い。AI Maxではターゲティング、クリエイティブ、制御、レポートが統合される</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/In_Line_Carousels_Table_BQD_Bues_width_1000_format_webp_1_d71afa948e/In_Line_Carousels_Table_BQD_Bues_width_1000_format_webp_1_d71afa948e.webp" alt="In-Line_Carousels__Table_BQDBues.width-1000.format-webp (1).webp" /></p>
-<h2>2026年9月から自動アップグレード開始</h2>
-<p>Googleは、AI Maxへの移行を段階的に進めるスケジュールも明らかにしている。</p>
-<p>現在は、広告主が任意でAI Maxへアップグレードできる状態にあるが、2026年9月からは自動アップグレードが開始される。同時に、動的検索広告（DSA）の新規作成は終了する。さらに、2026年9月末までには、対象となるすべてのキャンペーンの移行が完了する予定だ。</p>
-<p><strong>AI Maxへの移行スケジュール。2026年9月に自動アップグレードが開始され、同月末までに完了する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/In_Line_Carousels_Timeline_67_KD_4_width_1000_format_webp_55ee3289f4/In_Line_Carousels_Timeline_67_KD_4_width_1000_format_webp_55ee3289f4.webp" alt="In-Line_Carousels_Timeline_67KD4.width-1000.format-webp.webp" /></p>
-<h2>検索広告の運用モデルがAI Max前提に移行</h2>
-<p>今回の移行により、検索広告の運用はAIによる自動最適化を前提とした構成へと変わる。従来のように機能ごとに個別設定を行う運用は縮小し、AI Maxを中心とした統合的な管理が求められる。既存のキャンペーンは自動的に移行されるため、広告主はAI Maxに対応した構成や運用方針への見直しが必要となる。</p>
-]]></description>
-      <pubDate>Mon, 20 Apr 2026 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
