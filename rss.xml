@@ -85,6 +85,23 @@
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Alibaba、動画生成AI「HappyHorse 1.0」公開　限定ベータで一般試用可能、1080p生成とAPI提供に対応</title>
+      <link>https://ledge.ai/articles/alibaba_happyhorse_1_video_ai_limited_beta_release</link>
+      <description><![CDATA[<p>Alibaba Cloudは2026年4月28日、動画生成AI「HappyHorse 1.0」を限定ベータとして公開したと<a href="https://www.alibabacloud.com/blog/alibaba-rolls-out-happyhorse-1-0-in-limited-beta_603068?spm=a2c65.11461478.0.0.3a8d5355LiZ0q3">発表</a>した。公式サイトから一般ユーザーでも試用可能な形で提供されるほか、Alibaba CloudのAI開発基盤「Model Studio」を通じたAPI利用にも対応する。</p>
+<h2>最大1080p対応、生成と編集を一体化</h2>
+<p>HappyHorse 1.0は、テキストから動画を生成する機能に加え、動画編集にも対応するモデルとして設計されている。API仕様では「happyhorse-1.0-video-edit」といったモデル名が確認されており、生成と編集を一体化した構成となる。</p>
+<p>解像度は720pから1080pに対応し、秒単位の課金体系が採用されている。短尺動画の生成から編集までを一連の処理として扱うことが可能だ。</p>
+<p>公開されているデモ動画では、短尺動画を中心に複数の生成結果が示されている。構図や動きの一貫性を保った生成が確認でき、コンテンツ制作やマーケティング用途での活用が想定される。</p>
+<p>@<a href="https://www.youtube.com/watch?v=dnpc1SrMFVU&amp;list=PLSs7f2cJ9zZAgMdHNbN8OvS6v8d4Sac82">YouTube</a></p>
+<h2>API公開で開発者利用を前提に設計</h2>
+<p>Alibaba Cloudは、HappyHorse 1.0のAPIドキュメントも公開している。入力条件や出力形式、動画長などの仕様が明示されており、開発者が自社サービスに組み込むことを想定した設計となっている。</p>
+<h2>正式発表前から高評価、注目集める</h2>
+<p>HappyHorse 1.0は、正式発表に先立ち、第三者評価サイトの<a href="https://artificialanalysis.ai/video/leaderboard/text-to-video">動画生成ベンチマーク</a>において高いスコアを記録し、注目を集めていた。これらの評価は、同一プロンプトから生成された動画をユーザーがブラインドで比較し、投票によって順位を決定する形式で行われる。</p>
+<p>こうした経緯から、発表前の段階では開発元が明確でないまま話題が先行する状況も見られたが、4月下旬の発表によりAlibaba Cloudによるモデルであることが明らかになった。</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>DeepSeek、「DeepSeek-V4」公開　オープンながらトップクラス性能を主張、1Mコンテキスト対応</title>
       <link>https://ledge.ai/articles/deepseek_v4_open_model_benchmark_sota_1m_context</link>
       <description><![CDATA[<p>中国のAI企業DeepSeekは2026年4月24日（日本時間）、オープンなAIモデル「DeepSeek-V4」プレビュー版を<a href="https://x.com/deepseek_ai/status/2047516922263285776">公開</a>した。高性能モデル「DeepSeek-V4-Pro」と軽量高速モデル「DeepSeek-V4-Flash」の2系統で展開し、いずれも100万トークンの長文コンテキストに対応する。モデルはオープンウェイトとして公開され、APIおよびWebアプリでも利用可能となった。</p>
