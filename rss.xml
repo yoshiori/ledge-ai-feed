@@ -461,6 +461,20 @@ NTTグループは、AIの用途に応じて必要な計算リソースやネッ
       <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAIとMicrosoftの提携更新直後、AWSがOpenAIモデルをBedrockに導入　Codexも限定プレビュー提供</title>
+      <link>https://ledge.ai/articles/openai_microsoft_partnership_update_aws_bedrock_codex</link>
+      <description><![CDATA[<p>MicrosoftとOpenAIは2026年4月27日（米国時間）、両社のパートナーシップ更新を <a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/">発表</a>した。Microsoftは引き続きOpenAIの主要なクラウドパートナーとなる一方、OpenAIは自社製品をあらゆるクラウドプロバイダー上で顧客に提供できるようになった。</p>
+<p>その翌日となる4月28日（米国時間）、AWSとOpenAIは、Amazon Bedrock上でOpenAIの最新モデル、コーディングエージェント「Codex」、OpenAIを搭載した「Amazon Bedrock Managed Agents」の限定プレビュー提供を開始したと <a href="https://www.aboutamazon.com/news/aws/bedrock-openai-models">発表</a>した。OpenAIの提供経路が、Microsoft Azure中心の体制から、AWSを含む複数クラウドへ広がる動きとなる。</p>
+<h2>Microsoftは主要クラウドパートナーを継続、OpenAIは他クラウドにも展開可能に</h2>
+<p>Microsoftの発表によると、今回の契約更新後も、MicrosoftはOpenAIの主要なクラウドパートナーであり続けるという。OpenAIの製品は原則としてMicrosoft Azureで先行提供される。</p>
+<p>一方で、OpenAIは自社製品を顧客に提供する際、あらゆるクラウドプロバイダーを利用できるようになった。MicrosoftによるOpenAIのモデルや製品に関するIPライセンスは2032年まで継続するが、ライセンスは非独占となる。</p>
+<p>Microsoftは、今回の契約更新について、両社の提携を簡素化し、AIプラットフォームを大規模に構築・運用するための予見可能性を高めるものだと説明している。データセンター容量の拡大、次世代シリコンの共同開発、サイバーセキュリティ分野でのAI活用など、OpenAIとの協力は継続するとのこと。</p>
+<h2>AWS、Amazon BedrockでOpenAIモデルを提供へ</h2>
+<p>AWSは4月28日、Amazon Bedrock上でOpenAIの最新モデル、Codex、Amazon Bedrock Managed Agents powered by OpenAIを限定プレビューとして提供すると<a href="https://aws.amazon.com/jp/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 25 Apr 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>トヨタ、街の映像を言語化して理解する独自AI「Woven City AI Vision Engine」を発表　Woven Cityで実証、交通安全支援にも活用</title>
       <link>https://ledge.ai/articles/toyota_woven_city_ai_vision_engine_announced</link>
       <description><![CDATA[<p>トヨタ自動車とウーブン・バイ・トヨタは2026年4月22日、実証都市「Toyota Woven City」において、産業を超えた連携による価値創出「カケザン」を加速するAI技術として、「Woven City AI Vision Engine」を<a href="https://global.toyota/jp/newsroom/corporate/44256133.html">公開</a>した。カメラ映像などの視覚情報から、街や空間で起きている事象を言語化して理解し、判断や行動につなげる大規模基盤AIモデルと位置づける。</p>
