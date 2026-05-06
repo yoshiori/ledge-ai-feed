@@ -33,23 +33,6 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Alibaba、動画生成AI「HappyHorse 1.0」公開　限定ベータで一般試用可能、1080p生成とAPI提供に対応</title>
-      <link>https://ledge.ai/articles/alibaba_happyhorse_1_video_ai_limited_beta_release</link>
-      <description><![CDATA[<p>Alibaba Cloudは2026年4月28日、動画生成AI「HappyHorse 1.0」を限定ベータとして公開したと<a href="https://www.alibabacloud.com/blog/alibaba-rolls-out-happyhorse-1-0-in-limited-beta_603068?spm=a2c65.11461478.0.0.3a8d5355LiZ0q3">発表</a>した。公式サイトから一般ユーザーでも試用可能な形で提供されるほか、Alibaba CloudのAI開発基盤「Model Studio」を通じたAPI利用にも対応する。</p>
-<h2>最大1080p対応、生成と編集を一体化</h2>
-<p>HappyHorse 1.0は、テキストから動画を生成する機能に加え、動画編集にも対応するモデルとして設計されている。API仕様では「happyhorse-1.0-video-edit」といったモデル名が確認されており、生成と編集を一体化した構成となる。</p>
-<p>解像度は720pから1080pに対応し、秒単位の課金体系が採用されている。短尺動画の生成から編集までを一連の処理として扱うことが可能だ。</p>
-<p>公開されているデモ動画では、短尺動画を中心に複数の生成結果が示されている。構図や動きの一貫性を保った生成が確認でき、コンテンツ制作やマーケティング用途での活用が想定される。</p>
-<p>@<a href="https://www.youtube.com/watch?v=dnpc1SrMFVU&amp;list=PLSs7f2cJ9zZAgMdHNbN8OvS6v8d4Sac82">YouTube</a></p>
-<h2>API公開で開発者利用を前提に設計</h2>
-<p>Alibaba Cloudは、HappyHorse 1.0のAPIドキュメントも公開している。入力条件や出力形式、動画長などの仕様が明示されており、開発者が自社サービスに組み込むことを想定した設計となっている。</p>
-<h2>正式発表前から高評価、注目集める</h2>
-<p>HappyHorse 1.0は、正式発表に先立ち、第三者評価サイトの<a href="https://artificialanalysis.ai/video/leaderboard/text-to-video">動画生成ベンチマーク</a>において高いスコアを記録し、注目を集めていた。これらの評価は、同一プロンプトから生成された動画をユーザーがブラインドで比較し、投票によって順位を決定する形式で行われる。</p>
-<p>こうした経緯から、発表前の段階では開発元が明確でないまま話題が先行する状況も見られたが、4月下旬の発表によりAlibaba Cloudによるモデルであることが明らかになった。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、セキュリティ特化AI「Claude Security」パブリックβ版を公開　Claude Enterprise向けに脆弱性スキャンを提供</title>
       <link>https://ledge.ai/articles/anthropic_claude_security_public_beta_vulnerability_scan</link>
       <description><![CDATA[<p>Anthropicは2026年4月30日（米国時間）、セキュリティに特化したAIツール「Claude Security」のパブリックβ版を<a href="https://claude.com/blog/claude-security-public-beta">公開</a>した。Claude Enterpriseの顧客向けに提供され、コードベースをスキャンして脆弱性を検出し、修正案を生成できる。Anthropicによると、同ツールは、同社の一般提供モデルの中で最も強力な「Claude Opus 4.7」を活用するという。</p>
@@ -388,6 +371,27 @@
 <p>音声商標は、言葉そのものだけでなく、特定の音声表現や話し方を商標として保護する仕組みだ。今回の出願では、スウィフト氏本人の声やあいさつを想起させる表現を、商標として保護しようとしているとみられる。</p>
 <p><a href="https://www.reuters.com/legal/litigation/taylor-swift-files-trademark-her-voice-likeness-ward-off-ai-deepfakes-2026-04-27/">Reuters</a>は、今回の出願について、スウィフト氏の音声クリップ2件と画像1件を対象とするものだと報じた。同記事では、商標専門家の見解として、AIで作成されたディープフェイク動画や音声から本人の声や肖像を守るための試みと説明している。</p>
 <p>また、商標専門家の見解として、既存の権利だけではAIによって新たに生成された声や画像の模倣に十分対応できない可能性があり、商標出願が追加的な保護手段になり得ると報じている。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>東京大学 松尾・岩澤研究室、Worldの分散型「人間証明」ネットワークに参画　AI時代の本人性確認を支える独立ノードを運用</title>
+      <link>https://ledge.ai/articles/tokyo_university_matsuo_iwasawa_lab_world_id_ampc_node</link>
+      <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2026年4月30日、Worldが推進する分散型人間証明プロトコル「World ID」を支えるAMPC（匿名化マルチパーティ計算）ネットワークの独立ノードとして参画すると<a href="https://weblab.t.u-tokyo.ac.jp/news/2026-04-30/">発表</a>した。</p>
+<p>World IDは、個人がオンライン上で「AIやボットではない一人の人間」であることを証明するための仕組み。生成AIやAIエージェントの進化により、オンライン上で人間とAIを判別することが難しくなるなか、プライバシーを保護しながら本人性や一意性を確認する基盤として位置付けられている。</p>
+<h2>World IDを支える独立ノードを運用</h2>
+<p>今回の参画により、松尾・岩澤研究室は、WorldのグローバルなAMPCネットワークを支える独立ノードインフラの運用を担う。</p>
+<p>AMPCネットワークは、特定の企業や政府に依存しない分散型の設計を特徴とする。東京大学 松尾・岩澤研究室は、UCバークレーのCenter for Responsible Decentralized Intelligence（RDI）、フリードリヒ・アレクサンダー大学エアランゲン＝ニュルンベルク（FAU）、KAISTなどとともに、Worldのグローバルネットワークに参加する。</p>
+<p>WorldおよびTools for Humanityはいずれも計算プロセスに関与しない設計となっており、学術機関が中立的な立場でノードを運営することで、ネットワークの信頼性や透明性を支える狙いがあるという。</p>
+<h2>AMPCで「人間であること」を分散的に確認</h2>
+<p>AMPCは、World IDにおける一意性確認をプライバシー保護型で行うための技術だ。</p>
+<p>Tools for Humanityの発表によると、AMPCはWorld財団が開発・ガバナンスを行う、オープンソースかつ量子耐性のある次世代プロトコルであり、毎秒最大5000万回のペアワイズ一意性比較を実行できるという。</p>
+<p>World側は、World IDについて、個人がオンライン上で「AIやボットではない一人の人間」であることを証明できる、プライバシーを保護したデジタル人間証明だと説明している。認証済みユーザーは約1800万人に上り、Tinder、Docusign、Zoomなどで導入が進んでいるとしている。</p>
+<h2>生成AI時代に高まる「人間証明」の必要性</h2>
+<p>松尾・岩澤研究室は、生成AIやAIエージェントの進化により、オンライン上のやり取りで「相手が人間かAIか」を判別することが従来の技術では困難になりつつあると説明している。</p>
+<p>キャプチャ認証やチューリングテストの有効性が低下し、人間を対象とした制度がAIによって悪用されるリスク、ディープフェイクを用いた詐欺被害、AI生成の偽情報拡散などが課題になっているという。</p>
+<p>同研究室は、こうした状況に対し、「AIを制限するのではなく、人間側に一意性を持たせる」という発想から生まれた仕組みが、Worldの提供する「人間証明（Proof of Humanity）」だとしている。</p>
+<p>東京大学 松尾・岩澤研究室は、ディープラーニングや大規模言語モデル、ロボット研究などに取り組むAI研究拠点。今回の参画は、AI研究機関が分散型の人間証明基盤の運用に関わる国内事例となる。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
