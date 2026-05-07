@@ -124,17 +124,6 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、米国の臨床医向け「ChatGPT for Clinicians」公開　診療時のエビデンス確認や文書作成を支援</title>
-      <link>https://ledge.ai/articles/chatgpt_for_clinicians_healthbench_professional</link>
-      <description><![CDATA[<p>OpenAIは2026年4月22日、臨床業務に特化して設計した「ChatGPT for Clinicians」を<a href="https://openai.com/ja-JP/index/making-chatgpt-better-for-clinicians/">発表</a>した。米国の認証済み医療従事者個人向けに無料で提供する。まずは医師、ナースプラクティショナー（NP）、フィジシャンアシスタント（PA）、薬剤師が対象となる。</p>
-<p>同ツールは、診療時のエビデンス確認、文書作成、医学研究などの臨床業務を支援することを目的としている。OpenAIは、医療従事者が記録業務や急速に増え続ける医学研究への対応に追われるなか、質の高い患者ケアに集中できるよう支援すると説明している。</p>
-<h2>米国の認証済み医療従事者に無料提供</h2>
-<p>ChatGPT for Cliniciansは、臨床現場での利用を想定して設計されたChatGPTの新しいワークスペースである。OpenAIによると、米国の認証済みの医師、NP、PA、薬剤師が無料で利用できる。今後は、現地規制に応じて対象国や対象職種を拡大する方針だという。</p>
-<p>OpenAIは2026年1月、医療機関向けに「OpenAI for Healthcare」を<a href="https://openai.com/ja-JP/index/openai-for-healthcare">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
       <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
       <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
@@ -297,6 +286,38 @@
 <p>NTTは今後、本技術をアンサンブルやポータブルチューニングなどの連携技術に適用することで、より多様な異種LLM間で知識の統合・転移を実現できるようになるとしている。</p>
 <p>ポータブルチューニングは、NTTが提案する独自技術で、あらかじめ学習させた報酬モデルを基盤モデルと連携させることで、新たな基盤モデルに対しても再学習を行わずに特化学習の効果を付与できるものだ。NTTは2025年7月、生成AIのカスタマイズコストを低減し、tsuzumiなどさまざまな基盤モデル間で学習結果を再利用可能にする技術として発表していた。</p>
 <p>今回のトークン共通化技術は、LLMごとに異なるトークン語彙の制約を緩和し、異なるAIモデル同士の連携を進めるための基盤技術として位置づけられる。NTTは、本技術により、異種LLM間での知識統合・転移を進める方針だ。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、ChatGPT向け「高度なアカウントセキュリティ」を発表　パスワードログインを無効化し、フィッシング耐性を強化</title>
+      <link>https://ledge.ai/articles/openai_advanced_account_security_chatgpt_account_protection</link>
+      <description><![CDATA[<p>OpenAIは2026年4月30日（現地時間）、ChatGPTアカウントを高リスクのデジタル攻撃から保護するための新しいオプトイン設定「Advanced Account Security（高度なアカウントセキュリティ）」を<a href="https://openai.com/index/advanced-account-security/">発表</a>した。</p>
+<p>ジャーナリスト、選挙で選ばれた公職者、政治的反体制派、研究者、セキュリティ意識の高いユーザーなど、デジタル攻撃のリスクが高い人や、最も強力なアカウント保護を求める人を対象としている。設定を有効にすると、同じログインで利用するCodexにも保護が適用されるという。</p>
+<p>OpenAIは、AIが個人的な相談や高リスクな業務に使われるようになり、ChatGPTアカウントに個人・職業上の機微な文脈が蓄積される可能性があると説明。さらに、ChatGPTアカウントは連携ツールやワークフローの中心にもなり得るとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_Advanced_Account_Security_x_a9f68be2bb/openai_Advanced_Account_Security_x_a9f68be2bb.jpg" alt="openai Advanced Account Security x.jpg" /></p>
+<h2>ChatGPTとCodexを対象に、強化された保護を一括適用</h2>
+<p>Advanced Account Securityは、ChatGPTアカウント向けの新しいセキュリティ設定で、アカウント設定内にある「Security」セクションから有効化できる。ここでは、サインイン保護の強化、アカウント復旧の厳格化、侵害されたセッションからの露出低減、アカウント活動の可視性向上をまとめて提供する。保護はChatGPTだけでなく、同じログインでアクセスするCodexアカウントにも適用される。</p>
+<p>OpenAIは、この取り組みについて、コミュニティ、重要システム、国家安全保障を保護する技術へのアクセスを広げるためのサイバーセキュリティ行動計画の一環だと位置付けている。一方で、高度な保護には、アカウント復旧に関するユーザー側の責任が増すことも説明している。</p>
+<h2>パスワードログインを無効化、パスキーや物理セキュリティキーを必須に</h2>
+<p>Advanced Account Securityを有効化すると、パスワードベースのログインが無効化される。代わりに、パスキーまたは物理セキュリティキーが必要になる。これにより、フィッシング耐性のあるサインインを、特に必要とするユーザーにとっての標準にすると同社は説明している。</p>
+<p>メールアカウントや電話番号が侵害された場合、攻撃者がメールやSMSベースの復旧機能を使ってChatGPTアカウントにアクセスしようとする可能性がある。こうしたリスクを下げるため、Advanced Account Securityでは、メールとSMSによるアカウント復旧も無効化される。</p>
+<p>その代わりに、バックアップ用のパスキー、セキュリティキー、リカバリーキーといった、より強固な復旧方法を使う。復旧方法がこれらに限定されるため、Advanced Account Securityを有効化したユーザーについては、OpenAI Supportによるアカウント復旧支援はできないという。</p>
+<h2>セッション短縮、ログイン通知、学習利用の自動除外も</h2>
+<p>Advanced Account Securityでは、サインインセッションの有効期間も短縮される。デバイスや有効なセッションが侵害された場合に、露出する時間を短くするためだ。</p>
+<p>ユーザーは、アカウントへのログインがあった際に通知を受け取れるほか、複数のデバイスで有効になっているセッションを確認・管理できる。</p>
+<p>さらに、Advanced Account Securityを有効化したアカウントの会話は、OpenAIのモデル学習には使用されない。OpenAIは、特に機微な情報を扱うユーザーが、会話をモデル学習に使われないようにしたい場合があるとし、この設定ではその選好が自動的に適用されるとしている。</p>
+<h2>Yubicoと提携、YubiKeyの優待価格も提供</h2>
+<p>OpenAIは、物理セキュリティキーの利用を広げるため、ハードウェア認証を手がけるYubicoと提携した。YubiKeyなどの物理セキュリティキーは、フィッシングに対する強力な防御策の1つだとしている。</p>
+<p>同社は、対象ユーザー向けに、YubiKey C NanoとYubiKey C NFCを組み合わせたカスタムバンドルを優待価格で提供する。YubiKey C NanoはノートPCに挿したまま日常的に使うことを想定し、YubiKey C NFCはバックアップや、ノートPC・モバイル端末をまたいだ利用を想定している。</p>
+<p>ただし、OpenAIはYubiKeyの利用に限定しているわけではない。ユーザーは他のFIDO準拠セキュリティキーや、ソフトウェアベースのパスキーも使用できる。</p>
+<h2>Trusted Access for Cyberでは6月1日から必須に</h2>
+<p>OpenAIは、検証済みのサイバー防衛者に対し、より高性能で許容範囲の広いモデルへのアクセスを提供するプログラムを拡大している。これに関連し、「Trusted Access for Cyber」の個人メンバーが、最もサイバー能力の高いモデルへアクセスする場合、2026年6月1日からAdvanced Account Securityの有効化が必要になる。</p>
+<p>一方、Trusted Accessを持つ組織については、シングルサインオンのワークフローにフィッシング耐性のある認証が含まれていることを証明する方法も認められる。</p>
+<h2>OpenAIは「追加の対象にも拡大」と説明</h2>
+<p>OpenAIは、同社がAIの中核的なインフラになりつつあり、世界中の人々や大小の企業がものづくりを進められるようにしていると説明している。</p>
+<p>同社によると、ChatGPTの幅広い消費者リーチは、職場への強い流通経路にもなっている。企業の需要は、単なるモデルアクセスから、業務の進め方を変えるインテリジェントなシステムへと急速に移りつつあるという。</p>
+<p>AIが生活に深く組み込まれるなか、OpenAIは、ユーザーがプライバシーとセキュリティを守るための管理機能を持つことが重要だとしている。今後は、エンタープライズ環境を含む追加の対象にも、この取り組みを広げる予定だという。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
