@@ -33,6 +33,32 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、ClaudeとBlenderなど複数のクリエイティブツールのコネクタを公開　Blender基金参加と発表も、一回限りの寄付に変更</title>
+      <link>https://ledge.ai/articles/anthropic_claude_creative_connectors_blender_donation_changed</link>
+      <description><![CDATA[<p>Anthropicは2026年4月28日（現地時間）、AIアシスタント「Claude」をクリエイティブ制作ツールと連携させるための各種コネクタを<a href="https://www.anthropic.com/news/claude-for-creative-work">発表</a>した。対象には、Blender、Adobe、Affinity by Canva、Autodesk Fusion、SketchUp、Spliceなどが含まれる。</p>
+<p>同社はあわせて、オープンソースの3D制作ソフト「Blender」を支援する寄付を行った。Blender Foundationは当初、AnthropicがBlender Development FundにCorporate Patronとして参加すると発表したが、その後、コミュニティからAI企業との関係をめぐる懸念が寄せられたことを受け、5月1日に一回限りの寄付として受け取る形に変更したと明らかにした。</p>
+<h2>Claudeを制作ツールと連携、反復作業の削減を支援</h2>
+<p>Anthropicは、クリエイティブ分野の専門家が日常的に使うソフトウェアとClaudeを連携させるため、新たなコネクタ群を公開した。</p>
+<p>同社は、Claudeが「創造性」そのものを置き換えるものではなく、アイデア出しの高速化、制作スキルの拡張、大規模プロジェクトへの対応、反復作業の削減を支援するものだと説明している。今回のコネクタは、Claudeを制作現場で使われる既存ツールに統合することを狙うものだ。</p>
+<p>対象には、Ableton、Adobe、Affinity by Canva、Autodesk Fusion、Blender、Resolume Arena／Resolume Wire、SketchUp、Spliceなどが含まれる。たとえばAdobe関連では、Photoshop、Premiere、ExpressなどCreative Cloudの50以上のツールを活用できるとしている。</p>
+<h2>BlenderではPython APIを自然言語で操作</h2>
+<p>Blender向けには、Blender開発者が作成したMCPコネクタがClaudeで正式に利用可能になった。</p>
+<p>Anthropicによると、このコネクタにより、3DアーティストはBlenderのシーン全体を解析・デバッグしたり、オブジェクトに一括変更を加えるカスタムスクリプトを作成したりできる。また、BlenderのPython APIを使い、ClaudeがBlenderのインターフェースに新しいツールを直接追加することも可能になるという。</p>
+<p>Blender側の4月28日の<a href="https://www.blender.org/archive/anthropic-joins-the-blender-development-fund-as-corporate-patron/">発表</a>でも、Anthropicによる支援はBlenderのコア開発、特にBlender Python APIの維持・改善に充てられると説明していた。Blender Python APIは、開発者やアーティストがBlenderを拡張し、独自の制作ワークフローに合わせて改良するための基盤となる。</p>
+<p>Anthropicは、BlenderコネクタがMCPを基盤としているため、Claudeだけでなく他のLLMからも利用可能だとしている。これは、Blenderが重視するオープンソース性や相互運用性を反映したものだという。</p>
+<h2>Blender支援は一回限りの寄付に変更</h2>
+<p>一方で、Blender Foundationは5月1日、Anthropicからの資金をDevelopment Fundのメンバーシップではなく、一回限りの寄付として受け取る形に変更したと<a href="https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/">発表</a>した。</p>
+<p>Blender Foundationによると、AnthropicがCorporate Patronとして参加すると発表した後、AI企業との関わり方についてコミュニティから懸念が寄せられたという。同財団は、決定前により多くの議論や視点を取り入れるべきだったとして謝意を示し、チームや複数のコミュニティ貢献者との議論を経て、寄付として受け取る形に変更したと説明している。Anthropicにもこの決定を伝えており、Anthropicは支持しているという。</p>
+<p>Anthropicのブログも5月1日に更新され、BlenderがAnthropicの支援をBlender Development Fund経由ではなく、一回限りの寄付として受け取ることを選んだため、投稿内容を修正したと説明している。</p>
+<p>Blender Foundationは、今回の寄付は他の寄付と同様に、Blenderプロジェクトの中核活動、人間主導の開発、アート、創造性を支えるために使われるとしている。また、今後は既存のFunding Policyに沿って寄付の受け入れプロセスを強化し、生成AI技術に対してBlenderがどのような立場を取るのか、製品、ソフトウェア開発、ドキュメントなどの観点から明確にしていく方針を示した。</p>
+<p>同財団は、Blenderについて「アーティストとクリエイターのためのツールであり、人間によって人間のために作られている」と説明。現時点でBlenderに生成AI機能は提供されておらず、統合する予定もないと強調した。</p>
+<h2>教育機関とも連携</h2>
+<p>Anthropicは、アートやデザイン分野の教育プログラムとも連携する。</p>
+<p>最初の対象として、Rhode Island School of Designの「Art and Computation」、Ringling College of Art and Designの「Fundamentals of AI for Creatives」、Goldsmiths, University of LondonのMA/MFA Computational Artsプログラムを挙げている。学生や教員はClaudeと新コネクタを利用でき、Anthropicはフィードバックを通じて、クリエイティブ分野の実務者がこうしたツールに何を求めるかを把握するとしている。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、セキュリティ特化AI「Claude Security」パブリックβ版を公開　Claude Enterprise向けに脆弱性スキャンを提供</title>
       <link>https://ledge.ai/articles/anthropic_claude_security_public_beta_vulnerability_scan</link>
       <description><![CDATA[<p>Anthropicは2026年4月30日（米国時間）、セキュリティに特化したAIツール「Claude Security」のパブリックβ版を<a href="https://claude.com/blog/claude-security-public-beta">公開</a>した。Claude Enterpriseの顧客向けに提供され、コードベースをスキャンして脆弱性を検出し、修正案を生成できる。Anthropicによると、同ツールは、同社の一般提供モデルの中で最も強力な「Claude Opus 4.7」を活用するという。</p>
