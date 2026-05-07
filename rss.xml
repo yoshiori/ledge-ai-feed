@@ -5,6 +5,62 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、AIエージェントによる物品売買実験「Project Deal」を発表　Claude OpusとHaikuで成約数・価格に差</title>
+      <link>https://ledge.ai/articles/anthropic_project_deal_ai_agent_marketplace_experiment</link>
+      <description><![CDATA[<p>Anthropicは4月24日（現地時間）、同社のAIモデル「Claude」を用いた物品売買実験「Project Deal」の結果を<a href="https://www.anthropic.com/features/project-deal">発表</a>した。同社のサンフランシスコオフィス内に、従業員同士が私物を売買するマーケットプレイスを作り、Claudeエージェントが人間の代理として出品、価格交渉、成約までを担った。</p>
+<p>Anthropicの付録PDFによると、実際に物品交換まで行われたRun Aでは、69体のAIエージェントが575点の商品を対象に取引を行い、206件の取引を成立させた。総取引額は4010ドルだった。</p>
+<h2>ClaudeエージェントがSlack上で売買交渉</h2>
+<p>Project Dealでは、参加者がClaudeとのインタビューを通じて、売りたい私物、希望価格、買いたいもの、支払ってもよい金額、交渉スタイルなどを伝えた。その情報をもとに、各参加者専用のClaudeエージェントが作成された。</p>
+<p>実験はAnthropic社内のSlackチャンネル上で行われた。各エージェントは、商品の出品、購入希望の提示、価格交渉、成約までを自律的に実施した。実験開始後、エージェントは人間に確認を取らずに取引を進めたという。</p>
+<p><strong>Claudeエージェント同士が卓球ボールの売買についてやり取りする例。Anthropicは、Project DealでAIエージェントが人間の代理として商品説明や価格交渉を行ったと説明している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/project_deal_anthropic3_ce5c9a4c96/project_deal_anthropic3_ce5c9a4c96.jpg" alt="project deal anthropic3.jpg" /></p>
+<p>実験は4つの並行した市場で行われた。うち2つはすべてClaude Opus 4.5、残り2つはClaude Opus 4.5とClaude Haiku 4.5が混在する市場だった。最終的に、参加者にはどの市場が実際の取引対象だったかが明かされ、成立した取引については人間同士が実際に物品を交換した。</p>
+<h2>69体のエージェントが206件を成約</h2>
+<p>Project Dealは、AIエージェントが人間の代理として商取引を行えるかを検証する実験だ。</p>
+<p>実際に物品交換まで行われたRun Aでは、69体のClaudeエージェントが575点の商品を対象に取引を行い、206件を成約させた。総取引額は4010ドルだった。取引対象には、スノーボードや卓球ボールなど、実在する従業員の私物が含まれていた。</p>
+<p>4つの市場全体では延べ2300点の商品が出品され、782件の取引が成立した。総取引額は1万5676ドル、平均価格は20.05ドル、中央値は12ドルだった。Anthropicは、架空の商品や合成データではなく、実際の人間と物品を扱った点を特徴として挙げている。</p>
+<h2>OpusはHaikuより多く成約、価格面でも優位</h2>
+<p>Anthropicは、Claude Opus 4.5とClaude Haiku 4.5の違いが取引結果に与える影響も分析した。</p>
+<p>OpusとHaikuが混在する市場では、Opusのエージェントを使った参加者の方が、平均でHaikuより約2件多く取引を成立させた。商品販売に限っても、Opusが売り手だった場合、Haikuより販売率が高い傾向が示された。</p>
+<p>価格面でもOpusは優位だった。同じ商品がHaikuとOpusの両方によって売れたケースでは、Opusが売り手だった場合、平均で3.64ドル高く売れた。さらに、4つの市場で少なくとも2回売れた161点の商品を対象に分析したところ、Opusは売り手として平均2.68ドル高く売り、買い手として平均2.45ドル安く買ったという。</p>
+<p>Anthropicは、売る場合でも買う場合でも、より小型のHaikuを使う参加者は交渉上不利だったと指摘している。全ランを通じた商品の中央値は12ドル、平均価格は20.05ドルであり、数ドルの差は小さくない。</p>
+<h2>参加者は性能差による不利に気づきにくい</h2>
+<p>一方で、参加者はモデル性能差による取引上の不利をほとんど認識していなかった。</p>
+<p>付録PDFでは、公平性評価の平均はOpusが4.053、Haikuが4.045で、ほぼ差がなかった。Haikuを割り当てられた買い手は実際には高く支払い、売り手は安く受け取っていたにもかかわらず、参加者はHaikuの取引を体系的に不公平とは認識していなかったという。</p>
+<p>Anthropicは、AIエージェントが市場に参加する場合、高品質なエージェントへのアクセスが定量的な市場優位をもたらす可能性があるとしている。</p>
+<h2>「攻撃的に交渉して」と指示しても効果は限定的</h2>
+<p>Project Dealでは、参加者がエージェントに与えた交渉スタイルの指示が、取引結果に影響するかも検証された。</p>
+<p>参加者69人のうち28人、40.6％は「攻撃的」な交渉指示に分類された。しかし分析の結果、攻撃的な交渉を求める指示については、販売率や購入価格に明確な効果は見られなかった。</p>
+<p>売り手側では販売価格が高くなる傾向も見られたが、付録PDFでは、その大半は交渉そのものではなく、参加者が当初から高い希望価格を設定していたことに由来すると説明している。今回の実験では、交渉方針のプロンプトよりもモデル自体の品質の方が重要だったとみられる。</p>
+<h2>Project Vendに続く、AIエージェントの経済活動検証</h2>
+<p>Anthropicはこれまでにも、Claudeに小規模店舗を運営させる「Project Vend」を実施してきた。Project Vendでは、Claudeが在庫管理や価格設定、仕入れなどを担い、AIエージェントが現実に近い経済活動をどこまで遂行できるかを検証した。</p>
+<p>今回のProject Dealは、店舗運営ではなく、複数のAIエージェントが人間の代理として売買交渉を行う点に焦点を当てている。Anthropicは、AIエージェントが人間の代わりに商取引を行う世界は十分にあり得るとしたうえで、モデル性能差が市場での不平等につながる可能性や、プロンプトインジェクション、脱獄、法制度上の未整備といった課題にも言及している。</p>
+<p>Project Dealは小規模な社内実験だが、AIエージェントが商取引に参加する可能性と、その際に生じうる課題を示す検証となった。</p>
+]]></description>
+      <pubDate>Wed, 06 May 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>グッチからGoogle搭載スマートグラス、2027年にも発売か　KeringがAIアイウェア領域を強化</title>
+      <link>https://ledge.ai/articles/gucci_google_smartglasses_kering_ai_eyewear</link>
+      <description><![CDATA[<p>グッチを傘下に持つ仏Keringが、Googleと提携したGucciブランドのスマートグラスを2027年にも発売する考えを示したと<a href="https://www.reuters.com/business/gucci-owner-kering-aims-launch-luxury-google-glasses-next-year-ceo-says-2026-04-16/">Reuters</a>が報じた。同社CEOであるLuca de Meo氏が、2026年4月16日にイタリア・フィレンツェで開かれたCapital Markets Dayの場で語ったという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gucci_aims_to_launch_Google_glasses_5d0ebb3f2a/Gucci_aims_to_launch_Google_glasses_5d0ebb3f2a.jpg" alt="Gucci aims to launch Google glasses.jpg" /></p>
+<p>Kering Eyewearは2025年5月、GoogleとAI搭載スマートグラスの開発で提携すると発表している。Googleも、Android XRを搭載するスマートグラスにGeminiを組み込む構想を示しており、Kering Eyewearとの連携に言及している。</p>
+<h2>Gucciブランドで2027年にも投入か</h2>
+<p>Reutersによると、Meo氏はGoogleと提携したGucciブランドのスマートグラスの発売時期について問われ、「おそらく来年、2027年」と述べた。Reutersは、Gucciブランドでの投入が実現すれば、主要ラグジュアリーブランドによるAI搭載アイウェア分野への参入になる可能性があると伝えている。</p>
+<p>同氏は、Keringのアイウェア事業とジュエリー事業を拡大し、Gucciを中心とする同社の事業再建を進める戦略を示している。Reutersは、Gucciブランドのスマートグラスが、MetaとEssilorLuxotticaが展開するRay-Banスマートグラスに対抗する動きになるとも報じている。</p>
+<h2>Kering EyewearとGoogleはAndroid XR搭載スマートグラスで提携済み</h2>
+<p>Kering Eyewearは2025年5月20日、Googleとスマートグラスの開発で提携すると<a href="https://www.keringeyewear.com/newsroom/2025/Kering-Eyewear-partners-with-Google-to-develop-smart-glasses">発表</a> した。両社はAndroid XRを搭載するAIスマートグラスを開発し、GoogleのXR技術と、Kering Eyewearが持つラグジュアリーアイウェア領域での知見を組み合わせる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/KE_Android_Google_color_16_9_testo_A_bebe411bae/KE_Android_Google_color_16_9_testo_A_bebe411bae.jpg" alt="KE_Android_Google_color_16-9_testoA.jpg" /></p>
+<p>Googleは公式ブログで、Android XR搭載スマートグラスについて、Geminiを活用したリアルタイム翻訳、メッセージ送信、予定作成、経路案内、写真撮影などのユースケースを示している。同社は、Gentle MonsterやWarby Parkerとの提携に加え、Kering Eyewearとも連携して選択肢を広げる方針を説明している。</p>
+<h2>Kering、スマートアイウェアを「次のラグジュアリー」に位置付け</h2>
+<p>Keringは同日に発表した新戦略「ReconKering」で、ラグジュアリー市場の次の成長領域として、アイウェアやジュエリーなどのカテゴリー拡大を掲げている。同社はKering Eyewearについて、15ブランドからなるポートフォリオとデザイン・産業面での能力を基盤に、ラグジュアリー・スマートアイウェア領域で主導的地位を目指すとしている。</p>
+<p>同社はまた、Googleとの提携により、接続型アイウェアを「真のラグジュアリー体験」に高めるとしている。スマートグラスは、カメラや音声AI、翻訳、ナビゲーション、通知といった機能を、日常的に身に着けるファッションアイテムに統合するデバイスとして注目されている。</p>
+<h2>GucciをAI活用の実験場に</h2>
+<p>KeringはCapital Markets Dayで、Gucciの再建についても説明した。ユーザー提供の公式イベント文字起こしによると、同社はGucciをグループにおける「AIと顧客インテリジェンスに関するイノベーションの最初の実験場」と位置付け、新しいツールをGucciでテスト・改良したうえで、Kering全体に展開していく考えを示している。</p>
+]]></description>
+      <pubDate>Tue, 05 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AIが顎化石から解き明かした「最古の巨大タコ」　白亜紀の海で最大19mの頂点捕食者だった可能性</title>
       <link>https://ledge.ai/articles/ai_fossil_mining_giant_octopus_cretaceous_ocean</link>
       <description><![CDATA[<p>北海道大学などの研究チームは2026年4月24日、約1億～7200万年前の白亜紀後期の海に、最大全長19mに達する巨大なタコ類が生息していたことを明らかにしたと<a href="https://www.hokudai.ac.jp/news/2026/04/ai-9.html">発表</a>した。</p>
@@ -89,41 +145,6 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、AIエージェントによる物品売買実験「Project Deal」を発表　Claude OpusとHaikuで成約数・価格に差</title>
-      <link>https://ledge.ai/articles/anthropic_project_deal_ai_agent_marketplace_experiment</link>
-      <description><![CDATA[<p>Anthropicは4月24日（現地時間）、同社のAIモデル「Claude」を用いた物品売買実験「Project Deal」の結果を<a href="https://www.anthropic.com/features/project-deal">発表</a>した。同社のサンフランシスコオフィス内に、従業員同士が私物を売買するマーケットプレイスを作り、Claudeエージェントが人間の代理として出品、価格交渉、成約までを担った。</p>
-<p>Anthropicの付録PDFによると、実際に物品交換まで行われたRun Aでは、69体のAIエージェントが575点の商品を対象に取引を行い、206件の取引を成立させた。総取引額は4010ドルだった。</p>
-<h2>ClaudeエージェントがSlack上で売買交渉</h2>
-<p>Project Dealでは、参加者がClaudeとのインタビューを通じて、売りたい私物、希望価格、買いたいもの、支払ってもよい金額、交渉スタイルなどを伝えた。その情報をもとに、各参加者専用のClaudeエージェントが作成された。</p>
-<p>実験はAnthropic社内のSlackチャンネル上で行われた。各エージェントは、商品の出品、購入希望の提示、価格交渉、成約までを自律的に実施した。実験開始後、エージェントは人間に確認を取らずに取引を進めたという。</p>
-<p><strong>Claudeエージェント同士が卓球ボールの売買についてやり取りする例。Anthropicは、Project DealでAIエージェントが人間の代理として商品説明や価格交渉を行ったと説明している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/project_deal_anthropic3_ce5c9a4c96/project_deal_anthropic3_ce5c9a4c96.jpg" alt="project deal anthropic3.jpg" /></p>
-<p>実験は4つの並行した市場で行われた。うち2つはすべてClaude Opus 4.5、残り2つはClaude Opus 4.5とClaude Haiku 4.5が混在する市場だった。最終的に、参加者にはどの市場が実際の取引対象だったかが明かされ、成立した取引については人間同士が実際に物品を交換した。</p>
-<h2>69体のエージェントが206件を成約</h2>
-<p>Project Dealは、AIエージェントが人間の代理として商取引を行えるかを検証する実験だ。</p>
-<p>実際に物品交換まで行われたRun Aでは、69体のClaudeエージェントが575点の商品を対象に取引を行い、206件を成約させた。総取引額は4010ドルだった。取引対象には、スノーボードや卓球ボールなど、実在する従業員の私物が含まれていた。</p>
-<p>4つの市場全体では延べ2300点の商品が出品され、782件の取引が成立した。総取引額は1万5676ドル、平均価格は20.05ドル、中央値は12ドルだった。Anthropicは、架空の商品や合成データではなく、実際の人間と物品を扱った点を特徴として挙げている。</p>
-<h2>OpusはHaikuより多く成約、価格面でも優位</h2>
-<p>Anthropicは、Claude Opus 4.5とClaude Haiku 4.5の違いが取引結果に与える影響も分析した。</p>
-<p>OpusとHaikuが混在する市場では、Opusのエージェントを使った参加者の方が、平均でHaikuより約2件多く取引を成立させた。商品販売に限っても、Opusが売り手だった場合、Haikuより販売率が高い傾向が示された。</p>
-<p>価格面でもOpusは優位だった。同じ商品がHaikuとOpusの両方によって売れたケースでは、Opusが売り手だった場合、平均で3.64ドル高く売れた。さらに、4つの市場で少なくとも2回売れた161点の商品を対象に分析したところ、Opusは売り手として平均2.68ドル高く売り、買い手として平均2.45ドル安く買ったという。</p>
-<p>Anthropicは、売る場合でも買う場合でも、より小型のHaikuを使う参加者は交渉上不利だったと指摘している。全ランを通じた商品の中央値は12ドル、平均価格は20.05ドルであり、数ドルの差は小さくない。</p>
-<h2>参加者は性能差による不利に気づきにくい</h2>
-<p>一方で、参加者はモデル性能差による取引上の不利をほとんど認識していなかった。</p>
-<p>付録PDFでは、公平性評価の平均はOpusが4.053、Haikuが4.045で、ほぼ差がなかった。Haikuを割り当てられた買い手は実際には高く支払い、売り手は安く受け取っていたにもかかわらず、参加者はHaikuの取引を体系的に不公平とは認識していなかったという。</p>
-<p>Anthropicは、AIエージェントが市場に参加する場合、高品質なエージェントへのアクセスが定量的な市場優位をもたらす可能性があるとしている。</p>
-<h2>「攻撃的に交渉して」と指示しても効果は限定的</h2>
-<p>Project Dealでは、参加者がエージェントに与えた交渉スタイルの指示が、取引結果に影響するかも検証された。</p>
-<p>参加者69人のうち28人、40.6％は「攻撃的」な交渉指示に分類された。しかし分析の結果、攻撃的な交渉を求める指示については、販売率や購入価格に明確な効果は見られなかった。</p>
-<p>売り手側では販売価格が高くなる傾向も見られたが、付録PDFでは、その大半は交渉そのものではなく、参加者が当初から高い希望価格を設定していたことに由来すると説明している。今回の実験では、交渉方針のプロンプトよりもモデル自体の品質の方が重要だったとみられる。</p>
-<h2>Project Vendに続く、AIエージェントの経済活動検証</h2>
-<p>Anthropicはこれまでにも、Claudeに小規模店舗を運営させる「Project Vend」を実施してきた。Project Vendでは、Claudeが在庫管理や価格設定、仕入れなどを担い、AIエージェントが現実に近い経済活動をどこまで遂行できるかを検証した。</p>
-<p>今回のProject Dealは、店舗運営ではなく、複数のAIエージェントが人間の代理として売買交渉を行う点に焦点を当てている。Anthropicは、AIエージェントが人間の代わりに商取引を行う世界は十分にあり得るとしたうえで、モデル性能差が市場での不平等につながる可能性や、プロンプトインジェクション、脱獄、法制度上の未整備といった課題にも言及している。</p>
-<p>Project Dealは小規模な社内実験だが、AIエージェントが商取引に参加する可能性と、その際に生じうる課題を示す検証となった。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
       <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
       <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
@@ -153,27 +174,6 @@
 <h2>音声AIを業務実行型エージェントへ</h2>
 <p>Grok Voice Think Fast 1.0は、単なる音声会話モデルではなく、電話業務の中で情報を聞き取り、確認し、ツールを呼び出しながら処理を進める音声エージェントとして設計されている。</p>
 <p>生成AIの活用領域は、テキストチャットからリアルタイム音声対話、さらに顧客対応や販売などの業務実行へ広がっている。xAIの今回の発表は、Grokを会話型AIとしてだけでなく、企業の電話業務に組み込む動きといえる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>グッチからGoogle搭載スマートグラス、2027年にも発売か　KeringがAIアイウェア領域を強化</title>
-      <link>https://ledge.ai/articles/gucci_google_smartglasses_kering_ai_eyewear</link>
-      <description><![CDATA[<p>グッチを傘下に持つ仏Keringが、Googleと提携したGucciブランドのスマートグラスを2027年にも発売する考えを示したと<a href="https://www.reuters.com/business/gucci-owner-kering-aims-launch-luxury-google-glasses-next-year-ceo-says-2026-04-16/">Reuters</a>が報じた。同社CEOであるLuca de Meo氏が、2026年4月16日にイタリア・フィレンツェで開かれたCapital Markets Dayの場で語ったという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gucci_aims_to_launch_Google_glasses_5d0ebb3f2a/Gucci_aims_to_launch_Google_glasses_5d0ebb3f2a.jpg" alt="Gucci aims to launch Google glasses.jpg" /></p>
-<p>Kering Eyewearは2025年5月、GoogleとAI搭載スマートグラスの開発で提携すると発表している。Googleも、Android XRを搭載するスマートグラスにGeminiを組み込む構想を示しており、Kering Eyewearとの連携に言及している。</p>
-<h2>Gucciブランドで2027年にも投入か</h2>
-<p>Reutersによると、Meo氏はGoogleと提携したGucciブランドのスマートグラスの発売時期について問われ、「おそらく来年、2027年」と述べた。Reutersは、Gucciブランドでの投入が実現すれば、主要ラグジュアリーブランドによるAI搭載アイウェア分野への参入になる可能性があると伝えている。</p>
-<p>同氏は、Keringのアイウェア事業とジュエリー事業を拡大し、Gucciを中心とする同社の事業再建を進める戦略を示している。Reutersは、Gucciブランドのスマートグラスが、MetaとEssilorLuxotticaが展開するRay-Banスマートグラスに対抗する動きになるとも報じている。</p>
-<h2>Kering EyewearとGoogleはAndroid XR搭載スマートグラスで提携済み</h2>
-<p>Kering Eyewearは2025年5月20日、Googleとスマートグラスの開発で提携すると<a href="https://www.keringeyewear.com/newsroom/2025/Kering-Eyewear-partners-with-Google-to-develop-smart-glasses">発表</a> した。両社はAndroid XRを搭載するAIスマートグラスを開発し、GoogleのXR技術と、Kering Eyewearが持つラグジュアリーアイウェア領域での知見を組み合わせる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/KE_Android_Google_color_16_9_testo_A_bebe411bae/KE_Android_Google_color_16_9_testo_A_bebe411bae.jpg" alt="KE_Android_Google_color_16-9_testoA.jpg" /></p>
-<p>Googleは公式ブログで、Android XR搭載スマートグラスについて、Geminiを活用したリアルタイム翻訳、メッセージ送信、予定作成、経路案内、写真撮影などのユースケースを示している。同社は、Gentle MonsterやWarby Parkerとの提携に加え、Kering Eyewearとも連携して選択肢を広げる方針を説明している。</p>
-<h2>Kering、スマートアイウェアを「次のラグジュアリー」に位置付け</h2>
-<p>Keringは同日に発表した新戦略「ReconKering」で、ラグジュアリー市場の次の成長領域として、アイウェアやジュエリーなどのカテゴリー拡大を掲げている。同社はKering Eyewearについて、15ブランドからなるポートフォリオとデザイン・産業面での能力を基盤に、ラグジュアリー・スマートアイウェア領域で主導的地位を目指すとしている。</p>
-<p>同社はまた、Googleとの提携により、接続型アイウェアを「真のラグジュアリー体験」に高めるとしている。スマートグラスは、カメラや音声AI、翻訳、ナビゲーション、通知といった機能を、日常的に身に着けるファッションアイテムに統合するデバイスとして注目されている。</p>
-<h2>GucciをAI活用の実験場に</h2>
-<p>KeringはCapital Markets Dayで、Gucciの再建についても説明した。ユーザー提供の公式イベント文字起こしによると、同社はGucciをグループにおける「AIと顧客インテリジェンスに関するイノベーションの最初の実験場」と位置付け、新しいツールをGucciでテスト・改良したうえで、Kering全体に展開していく考えを示している。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
@@ -594,50 +594,6 @@
 <p>一方で、脆弱性対応などのため当面は更新・修正を継続するものの、永続的なメンテナンスを保証するものではなく、将来的に公開を終了する可能性もあるとしている。</p>
 ]]></description>
       <pubDate>Thu, 30 Apr 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTT、AIネイティブインフラ「AIOWN」展開へ　AI推論需要の拡大に対応、国内DC容量を2033年度に3倍超へ</title>
-      <link>https://ledge.ai/articles/ntt_ai_native_infrastructure_aiown_launch_2026</link>
-      <description><![CDATA[<p>NTT、NTTデータグループ、NTTドコモビジネスの3社は2026年4月27日、AIネイティブインフラ「AIOWN（エーアイオン）」を展開すると<a href="https://group.ntt/jp/newsrelease/2026/04/27/pdf/260427aa.pdf">発表</a>した。生成AIの普及を背景に拡大するAI活用に対応し、GPU、ネットワーク、電力、エッジを統合的に最適化するインフラとして提供する。</p>
-<h2>AI活用は「推論中心」へ、フィジカル領域まで拡大</h2>
-<p>生成AIの普及に伴い、AIの活用領域は従来の業務効率化から、企業のコア業務や専門業務、さらに車やロボットと連携するフィジカル領域へと拡大している。NTTは今回の発表で、こうした変化を背景にAIワークロードが学習中心から推論中心へ移行していると説明した。</p>
-<p>同社によると、今後はAIが企業活動や社会インフラに組み込まれる形で活用されるようになり、推論需要の大幅な拡大が見込まれるという。</p>
-<p>また、このような変化により、AIインフラには高密度GPUによる発熱への対応や、データセンター間の低遅延ネットワーク、機微データの保護、エッジまで含めた分散構成など、従来以上に高度な要件が求められるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_aiown2026_8_3c2b7cee11/ntt_aiown2026_8_3c2b7cee11.jpg" alt="ntt aiown2026-8.jpg" /></p>
-<h2>GPU・ネットワーク・電力・エッジを統合する「AIOWN」</h2>
-<p>AIOWNは、GPUやネットワーク、電力といったリソースを最適化し、エッジまで含めた統合オペレーションを実現するAIネイティブインフラとして位置付けられる。
-NTTグループは、AIの用途に応じて必要な計算リソースやネットワーク、電力を柔軟に組み合わせ、セキュアな利用環境と統合的な運用を提供するとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_aiown2026_9_3f10f01550/ntt_aiown2026_9_3f10f01550.jpg" alt="ntt aiown2026-9.jpg" /></p>
-<h2>全国160拠点のデータセンター基盤を活用</h2>
-<p>NTTグループは国内47都道府県に160拠点以上のデータセンターを展開しており、安定した電力供給と低遅延・高信頼な環境を提供している。こうした既存基盤を活用し、AIネイティブインフラの展開を進める。
-また、AI向けGPUの高性能化に伴う電力消費増大に対応するため、液冷方式の導入を進めており、空冷方式と比べて冷却用電力を最大60％削減できるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_aiown2026_2_7498d4224d/ntt_aiown2026_2_7498d4224d.jpg" alt="ntt aiown2026-2.jpg" /></p>
-<h2>国内データセンター容量を約1GWへ拡張</h2>
-<p>今後の計画として、NTTは国内データセンターのIT電力容量を、現状の約300MWから2033年度に約1GWへと3倍超に拡張する方針を示した。
-東京都心では液冷標準のAI対応型データセンターを建設し、2029年度下半期の提供開始を予定する。さらに栃木や千葉県印西・白井エリアでも大規模データセンターの整備を進め、AI需要の拡大に対応する。
-これらの取り組みにより、AIの学習から推論、企業システムや社会インフラでの活用まで、幅広い用途を支える基盤の構築を加速するとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ntt_aiown2026_4_92bdcdb232/ntt_aiown2026_4_92bdcdb232.jpg" alt="ntt aiown2026-4.jpg" /></p>
-]]></description>
-      <pubDate>Wed, 29 Apr 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米のAIイノベーション力に危険信号　AI人材流入80%減、Stanford大の「AI Index Report 2026」が示す“新規流入の失速”とグローバル分散の兆し</title>
-      <link>https://ledge.ai/articles/ai_talent_us_decline_global_shift_ai_index_2026</link>
-      <description><![CDATA[<p>Stanford大学のHuman-Centered AI研究所（HAI）は2026年4月4日、「AI Index Report 2026」を<a href="https://hai.stanford.edu/ai-index/2026-ai-index-report">公開</a>した。レポートによると、米国に移住するAI研究者・開発者の数は直近1年間で約80%減少し、2017年比では89%減となった。AI人材の国際的な流動に大きな変化が生じている可能性がある。</p>
-<h2>米国へのAI人材流入、急減が加速</h2>
-<p>AI Index Report 2026は、AI人材の国際移動について、LinkedInのデータをもとに分析している。それによると、米国に移住するAI研究者・開発者の流入は近年大きく減少しており、特に直近1年間では約80%の急減となった。2017年と比較すると減少幅は89%に達しており、流入の落ち込みが加速している状況が確認された。</p>
-<p>同レポートは、米国が依然として世界で最も多くのAI人材を抱える国であるとしつつも、新規人材の誘致率は過去10年以上で最低水準にあると指摘している。</p>
-<h2>「集まる国」から「既存人材の国」へ</h2>
-<p>こうした動きは、米国のAI人材構造の変化を示唆する。これまで米国は海外から優秀な研究者やエンジニアを引きつけることで優位性を維持してきたが、現在は新規流入が減少し、既存の人材基盤に依存する構造へと移行しつつある可能性がある。</p>
-<p>人材流入の減少は、研究開発力や企業の採用戦略にも影響を与える可能性があり、長期的にはAI分野における競争力の変化につながることも考えられる。</p>
-<h2>背景に移民政策の影響との指摘も</h2>
-<p>今回のレポートは流入減少の要因を特定していないが、<a href="https://www.nikkei.com/article/DGXZQOUC15BU50V10C26A4000000/">日本経済新聞</a>は、この背景について米国の移民抑制政策の影響を指摘している。トランプ政権は2025年9月、高度外国人材向け就労ビザ「H-1B」に高額な手数料を課す措置を打ち出しており、企業による海外人材の採用環境に変化が生じている可能性があるという。</p>
-<p>米テクノロジー企業はこれまでH-1Bを通じて海外のエンジニアを採用してきた経緯があり、こうした制度の変更が人材流動に影響を与えているとの見方もある。</p>
-<h2>AI人材は多極化へ、各国への分散進む</h2>
-<p>AI人材の流れは、米国一極集中から変化しつつある。レポートに掲載されたデータによると、純流入の面ではスイスやカナダ、シンガポールなどの国々の存在感が高まっている。</p>
-<p>企業側の動きにも変化が見られる。AI企業による研究拠点の設置や買収を通じて、欧州やアジアにおける人材確保を進める動きが報告されており、人材獲得競争はグローバルに分散しつつある。</p>
-]]></description>
-      <pubDate>Wed, 29 Apr 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NEC、Anthropicと戦略協業　「Claude Code」をグループ3万人へ展開、日本企業向けAI開発とBluStellar統合を加速</title>
