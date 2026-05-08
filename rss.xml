@@ -164,35 +164,29 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
-      <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
-      <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
-<p>これに関連し、Business Insiderは同日、GoogleのDeepMind部門やCloud部門の社員を含む約600人が、スンダー・ピチャイCEOに対し、GoogleのAIシステムを米軍の機密業務に提供しないよう求める書簡を送ったと<a href="https://www.businessinsider.com/google-employees-ceo-block-classified-military-ai-projects-2026-4">報じた</a>{target=\</p>
+      <title>Google Cloud、「Gemini Enterprise」と「NotebookLM Enterprise」のISMAP本登録を完了　政府・自治体でのAI利用検討を後押し</title>
+      <link>https://ledge.ai/articles/gemini_enterprise_notebooklm_enterprise_ismap_registration</link>
+      <description><![CDATA[<p>Google Cloudは2026年4月28日、生成AIサービス「Gemini Enterprise」と「NotebookLM Enterprise」が、「政府情報システムのためのセキュリティ評価制度（ISMAP）」の基準を満たし、本登録を完了したと<a href="https://cloud.google.com/blog/ja/products/gcp/completed-ismap-registration-for-gemini-enterprise-and-notebooklm-enterprise">発表</a>した。</p>
+<p>同社によると、Google Cloud（旧称 Google Cloud Platform）、Google Workspace、AppSheet、Bare Metal Solution（BMS）、Firebase、Looker Data PlatformはすでにISMAP登録済みであり、今回新たにGemini EnterpriseとNotebookLM Enterpriseが登録された。登録内容は、ISMAPポータルサイトで確認できるとしている。</p>
+<h2>Gemini EnterpriseとNotebookLM Enterpriseが新たに登録</h2>
+<p>今回ISMAPに本登録されたGemini Enterpriseは、企業向けに提供される生成AIサービスだ。Google Cloudは、NotebookLM Enterpriseとあわせて「AIサービス」と位置づけている。</p>
+<p>NotebookLM Enterpriseは、組織内の情報をもとにした調査・要約・整理などを支援する企業向けサービスである。今回の登録により、Google CloudがすでにISMAP登録を完了しているクラウド基盤や業務アプリケーションに加え、生成AI関連サービスも登録対象に加わった形となる。</p>
+<p>Google Cloudは、中央省庁、地方自治体、政府関連機関を含む公共部門の顧客に向けて、さらに安心して同社サービスを利用できるようになったとしている。</p>
+<h2>ISMAPは政府のクラウド調達に関わる評価制度</h2>
+<p>ISMAPは、政府情報システムのためのセキュリティ評価制度である。政府機関などがクラウドサービスを導入する際、情報セキュリティ対策が十分に行われているサービスを効率的に調達できるようにするための制度として、2020年6月に運用が開始された。</p>
+<p>Google Cloudの発表によると、ISMAPは国家サイバー統括室（NCO）、デジタル庁、総務省、経済産業省が共同で運営している。また、クラウドサービスプロバイダーのアプリケーションの評価と登録を目的として、ISMAP運営委員会がNCO内に設置されている。</p>
+<p>実務面では、経済産業省傘下の独立行政法人である情報処理推進機構（IPA）が、ISMAPの実務と評価にかかる技術支援を担当している。</p>
+<h2>Google Cloudのコンプライアンス対応の一環</h2>
+<p>Google Cloudは同社のインフラストラクチャについて、増え続けるコンプライアンス規格や規制の認証を受けているほか、独立第三者機関によるデータの安全性、プライバシー、セキュリティに関する監査試験においても、グローバルレベルで認定されていると説明している。</p>
+<p>今回のISMAP本登録は、Google Cloudが日本の公共部門向けに進めるコンプライアンス対応の一環といえる。生成AIサービスの業務利用が広がるなか、政府機関や自治体などでの導入検討において、セキュリティ評価制度への登録は重要な判断材料となる。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>xAI、音声AIエージェント「Grok Voice Think Fast 1.0」発表　低遅延で複雑な電話業務に対応</title>
-      <link>https://ledge.ai/articles/grok_voice_think_fast_1_0_phone_agent</link>
-      <description><![CDATA[<p>xAIは2026年4月23日、フラッグシップ音声モデル「Grok Voice Think Fast 1.0」を<a href="https://x.ai/news/grok-voice-think-fast-1">発表</a>した。同モデルは、顧客サポートや電話販売、企業向けアプリケーションなど、複雑であいまいな多段階ワークフローに対応する音声AIモデルとして位置付けられている。</p>
-<p>xAIは公式Xでも、同モデルについて「複雑なマルチステップ業務向けに構築された最先端の音声モデル」と説明している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Grok_Voice_Think_Fast_1_0_86117c5e75/Grok_Voice_Think_Fast_1_0_86117c5e75.jpg" alt="Grok Voice Think Fast 1-0.jpg" /></p>
-<h2>現実の電話環境を想定、25以上の言語に対応</h2>
-<p>Grok Voice Think Fast 1.0は、Starlinkなどのパートナーとの協力を通じて開発された。xAIによると、同モデルは高い知能、低い応答遅延、自然な会話能力を組み合わせることを目指している。</p>
-<p>同社は、Grok Voice Think Fast 1.0について、電話音声、背景ノイズ、強いアクセント、頻繁な割り込みといった現実の利用環境でテストされていると説明している。25以上の言語をネイティブにサポートしており、グローバル展開にも適しているという。</p>
-<p>また、同モデルは顧客情報の聞き取りや確認にも対応する。メールアドレス、住所、電話番号、氏名、アカウント番号などの構造化データを、話し言葉から収集し、必要に応じて読み上げ確認できるとしている。</p>
-<h2>推論を裏側で実行、応答遅延を増やさず会話を継続</h2>
-<p>xAIは、Grok Voice Think Fast 1.0の特徴として「リアルタイム推論」を挙げている。同モデルは、難しい問い合わせやワークフローを処理する際、応答遅延に影響を与えず、裏側で推論を進めるという。</p>
-<p>これにより、音声対話としての自然さを保ちながら、複雑な問い合わせにも対応できるとしている。xAIは例として、「1年の月名のうち、Xの文字を含むものはどれか」という質問に対し、他モデルが誤答するケースと比較し、Grok Voice Think Fast 1.0が正しく「該当する月はない」と回答する例を示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/harder_to_fool_6f2b37ea86/harder_to_fool_6f2b37ea86.jpg" alt="harder to fool.jpg" /></p>
-<p>xAIは、業務向け音声モデルの評価指標「τ-voice Leaderboard」において、Grok Voice Think Fast 1.0が67.3％を記録し、Gemini 3.1 Flash Liveの43.8％、Grok Voice Fast 1.0の38.3％、GPT Realtime 1.5の35.3％を上回ったとしている。小売、航空、通信の各領域別評価でも、Grok Voice Think Fast 1.0が最も高いスコアを示したという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/voice_leaderboard_grok_voice_543a64f9d8/voice_leaderboard_grok_voice_543a64f9d8.jpg" alt="voice leaderboard-grok voice.jpg" /></p>
-<h2>Starlinkの電話販売・顧客対応で活用</h2>
-<p>xAIによると、Grok VoiceはStarlinkの電話販売およびカスタマーサポートでも利用されている。電話番号「+1 (888) GO STARLINK」を通じた問い合わせ対応に使われ、販売、サポート、多言語対応、新規顧客のオンボーディングなどを担っているという。同社は、Starlinkでの活用実績として、販売問い合わせの20％で、顧客が通話中にStarlinkサービスを購入していると説明している。また、カスタマーサポート問い合わせの70％を、人間を介さずGrok Voiceエージェントが自律的に解決しているという。</p>
-<p>この単一のエージェントは、サポートと販売にまたがる数百種類のワークフローで、28種類のツールを使用する。xAIは、Grok Voiceがハードウェアのトラブルシューティング、機器交換、サービスクレジット付与など、正確性が重要な判断も担っているとしている。</p>
-<h2>音声AIを業務実行型エージェントへ</h2>
-<p>Grok Voice Think Fast 1.0は、単なる音声会話モデルではなく、電話業務の中で情報を聞き取り、確認し、ツールを呼び出しながら処理を進める音声エージェントとして設計されている。</p>
-<p>生成AIの活用領域は、テキストチャットからリアルタイム音声対話、さらに顧客対応や販売などの業務実行へ広がっている。xAIの今回の発表は、Grokを会話型AIとしてだけでなく、企業の電話業務に組み込む動きといえる。</p>
+      <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
+      <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
+      <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
+<p>これに関連し、Business Insiderは同日、GoogleのDeepMind部門やCloud部門の社員を含む約600人が、スンダー・ピチャイCEOに対し、GoogleのAIシステムを米軍の機密業務に提供しないよう求める書簡を送ったと<a href="https://www.businessinsider.com/google-employees-ceo-block-classified-military-ai-projects-2026-4">報じた</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
