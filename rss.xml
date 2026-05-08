@@ -359,6 +359,49 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、Realtime API向け新音声モデル3種を発表　音声AIが推論・翻訳・文字起こしをリアルタイム処理</title>
+      <link>https://ledge.ai/articles/openai_realtime_api_new_voice_models</link>
+      <description><![CDATA[<p>OpenAIは2026年5月7日（現地時間）、Realtime API向けの次世代音声モデル群を<a href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/">発表</a>した。新たに提供するのは、音声で推論しながら会話を進める「GPT-Realtime-2」、ライブ翻訳モデル「GPT-Realtime-Translate」、リアルタイム文字起こしモデル「GPT-Realtime-Whisper」の3種類。</p>
+<p>OpenAIは、これらのモデルにより、リアルタイム音声が単純な応答から、会話の流れの中で「聞く、推論する、翻訳する、文字起こしする、行動する」インターフェースへ進むとしている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=JOu8v6CBjkE">YouTube</a></p>
+<h2>音声で推論・翻訳・文字起こしする3モデル</h2>
+<p>今回発表された3モデルは、それぞれ異なる用途を担う。</p>
+<p><strong>■ GPT-Realtime-2：</strong> GPT-5クラスの推論能力を備えた音声モデル。より難しいリクエストに対応し、会話を自然に継続する
+<strong>■ GPT-Realtime-Translate：</strong> 70以上の入力言語から13の出力言語へ、話者の発話に追いつきながら翻訳するライブ翻訳モデル
+<strong>■ GPT-Realtime-Whisper：</strong> 話者が話している最中に文字起こしする、ストリーミング音声認識モデル</p>
+<p>OpenAIは、音声がソフトウェアを使ううえで自然な手段になりつつあると説明している。たとえば、運転中に支援を求める、空港を歩きながら旅行計画を変更する、好みの言語でサポートを受けるといった場面を想定している。</p>
+<h2>音声AIは「会話するだけ」から「行動する」段階へ</h2>
+<p>OpenAIは、音声AIの利用パターンとして「Voice-to-action」「Systems-to-voice」「Voice-to-voice」の3つを挙げている。</p>
+<p><strong>■ Voice-to-action：</strong> ユーザーが音声で要望を伝え、システムが内容を推論し、ツールを使ってタスクを完了する使い方。OpenAIは例として、Zillowが「自分の購入可能額の範囲内で、交通量の多い道路を避け、土曜日に内見を予約する」といったリクエストに対応するアシスタントを構築していると説明している。</p>
+<p><strong>■ Systems-to-voice：</strong>  ソフトウェア内の情報をライブ音声案内に変換する使い方。旅行アプリが、フライト遅延や乗り継ぎ、ゲート、空港内の移動経路などを音声で伝える例が示されている。</p>
+<p><strong>■ Voice-to-voice：</strong> 異なる言語や変化する文脈をまたいで、音声会話を継続する使い方。OpenAIによると、Deutsche Telekomは、顧客が最も話しやすい言語で話し、モデルが会話をリアルタイムに翻訳する音声サポート体験を構築しているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/three_ways_to_build_with_voice_AI_adacebfb82/three_ways_to_build_with_voice_AI_adacebfb82.jpg" alt="three ways to build with voice AI.jpg" /></p>
+<h2>GPT-Realtime-2、会話中にツールを呼び出し</h2>
+<p>GPT-Realtime-2は、ライブ音声対話向けに設計されたモデルだ。会話を進めながらリクエストを推論し、ツールを呼び出し、訂正や割り込みに対応し、状況に合った応答を返す。</p>
+<p>たとえば開発者は、モデルが本格的な応答を返す前に「確認します」「少々お待ちください」といった短い前置きを挟むよう設定できる。ユーザーに、エージェントが処理中であることを自然に伝えるためだ。</p>
+<p>また、モデルは複数のツールを並列に呼び出せる。「カレンダーを確認しています」「いま調べています」といった表現で、どのような処理をしているかを音声で示すこともできる。</p>
+<p>エージェント型ワークフロー向けには、コンテキストウィンドウを32Kから128Kへ拡大した。長い会話や複雑なタスクフローを支えるためだ。専門用語、固有名詞、医療用語などの保持能力も向上したとしている。</p>
+<p>このほか、ユーザーが困っているときは落ち着いた口調で話す、成功を確認するときは明るい口調にするなど、トーンや話し方の制御も強化した。推論の強度は、minimal、low、medium、high、xhighから選択できる。</p>
+<h2>音声評価でGPT-Realtime-1.5を上回る</h2>
+<p>OpenAIによると、GPT-Realtime-2は音声評価でも従来モデルを上回った。</p>
+<p>音声入力に対応する言語モデルの推論能力を評価する「Big Bench Audio」では、GPT-Realtime-2（high）が96.6％、GPT-Realtime-1.5が81.4％だった。また、音声対話システムにおける複数ターンの会話知能や指示追従などを評価する「Audio MultiChallenge」では、GPT-Realtime-2（xhigh）が48.5％、GPT-Realtime-1.5が34.7％だった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Big_Bench_Audio_Intelligence_side_f1b3f95708/Big_Bench_Audio_Intelligence_side_f1b3f95708.jpg" alt="Big Bench Audio_Intelligence-side.jpg" /></p>
+<h2>ライブ翻訳モデルは70以上の入力言語に対応</h2>
+<p>GPT-Realtime-Translateは、ライブ多言語音声体験を構築するためのモデルだ。ユーザーは好みの言語で話し、会話をリアルタイムに翻訳音声として聞き、同時に文字起こしも読める。</p>
+<p>対応する入力言語は70以上、出力言語は13。OpenAIは、カスタマーサポート、越境営業、教育、イベント、メディア、クリエイタープラットフォームなどでの利用を想定している。</p>
+<p>ライブ翻訳では、話者の自然な発話、文脈の変化、地域ごとの発音、専門用語などに対応しながら、意味を保ち、発話に追いつく必要がある。OpenAIによると、Deutsche Telekomは、多言語音声インタラクションで同モデルをテストしている。</p>
+<p>また、Vimeoは、製品教育動画を再生しながらライブ翻訳するデモを示している。これにより、世界中の顧客が、別途翻訳版の動画を待たずに、好みの言語で更新内容を聞けるようになるという。</p>
+<h2>GPT-Realtime-Whisper、発話中に文字起こし</h2>
+<p>GPT-Realtime-Whisperは、低遅延の音声テキスト変換を目的としたストリーミング文字起こしモデルだ。人が話している最中に音声を文字起こしするため、ライブ製品の応答性を高められる。</p>
+<p>OpenAIは、リアルタイム字幕、会議メモ、授業、放送、イベント、顧客対応、医療、営業、採用などでの利用を想定している。会話が進行している間に文字起こしや要約、後続処理を行うことで、音声をビジネスワークフローの中で即時に扱えるようにする狙いだ。</p>
+<h2>3モデルはRealtime APIで利用可能</h2>
+<p>3モデルはいずれもRealtime APIで利用できる。OpenAIは、Realtime APIに複数層の安全対策を組み込んでいるとしている。Realtime APIのセッションにはアクティブ分類器が使われ、有害コンテンツのガイドラインに違反する会話が検出された場合、一部の会話を停止できるという。</p>
+<p>価格は、GPT-Realtime-2が音声入力100万トークンあたり32ドル、キャッシュ入力100万トークンあたり0.40ドル、音声出力100万トークンあたり64ドル。GPT-Realtime-Translateは1分あたり0.034ドル、GPT-Realtime-Whisperは1分あたり0.017ドルとなっている。</p>
+<p>OpenAIは、これらの新モデルをPlaygroundで試せるとしている。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、2018年の「OpenAI Charter」以来となる新原則を公表　サム・アルトマンCEOがAIの民主化、繁栄、リスク対応を提示</title>
       <link>https://ledge.ai/articles/openai_sam_altman_principles_charter_2026</link>
       <description><![CDATA[<p>OpenAIのCEOであるSam Altman氏は2026年4月26日（現地時間）、最先端のAIモデルを開発するラボのあり方に関する5つの原則を<a href="https://openai.com/index/our-principles/">発表</a>した。</p>
@@ -391,23 +434,6 @@
 <p>OpenAIは2018年に公開した「OpenAI Charter」で、AGIを「ほとんどの経済的価値のある仕事で人間を上回る高度に自律的なシステム」と定義し、AGIが全人類に利益をもたらすことを使命として掲げていた。</p>
 <p>同Charterでは、「Broadly distributed benefits（広く分配される利益）」「Long-term safety（長期的安全性）」「Technical leadership（技術的リーダーシップ）」「Cooperative orientation（協調志向）」の4項目が示されている。OpenAIは、AGIの展開に対して同社が得る影響力を全人類の利益のために使い、AIやAGIが人類に害を及ぼしたり、権力を不当に集中させたりする用途を避けると述べていた。([OpenAI][3])</p>
 <p>2018年のOpenAI Charterが、AGI開発に向けた研究組織としての使命を示す文書だったとすれば、今回の5原則は、AIモデル、計算資源、製品提供、安全性対応を含む巨大AI企業としての行動原則を示す文書に近い。OpenAIは現在、最先端モデルを開発する研究機関であると同時に、ChatGPTやAPI、企業向けAI、AIインフラを展開する事業者でもある。今回の発表は、AI開発競争が激化するなかで、OpenAIが自らの物語を「AGI研究ラボ」から「社会にAIを実装する基盤企業」へと更新する動きとしても位置付けられる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テイラー・スウィフト氏、声と画像を商標出願　AI悪用への対抗策か</title>
-      <link>https://ledge.ai/articles/taylor_swift_voice_image_trademark_ai_misuse</link>
-      <description><![CDATA[<p>米歌手のテイラー・スウィフト氏の会社が、同氏の声や画像に関する商標を米国特許商標庁（USPTO）に出願したことが明らかになった。USPTOの記録によると、出願日は2026年4月24日で、音声に関する商標2件と画像に関する商標1件が確認できる。Varietyなど複数メディアは、AIによる声や肖像の無断利用に対抗する動きと報じている。</p>
-<h2>USPTOで3件の商標出願を確認、音声2件と画像1件</h2>
-<p>米国特許商標庁（USPTO）の商標出願データベースでは、スウィフト氏関連の権利管理会社であるTAS Rights Management, LLCによる3件の出願が確認できる。出願日は2026年4月24日で、2件は音声に関する商標、1件は画像に関する商標とされている。</p>
-<p>音声商標の一つは「HEY, IT'S TAYLOR SWIFT」と記載されている。AP通信によると、もう一つの音声商標は「Hey, it’s Taylor」で、画像商標は、ピンクのギターを持ち、ステージ上に立つスウィフト氏の写真に関するものだという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Trademark_Sound_mark_of_Taylor_Swift1_1b7d9e84b3/Trademark_Sound_mark_of_Taylor_Swift1_1b7d9e84b3.jpg" alt="Trademark Sound mark of Taylor Swift1.jpg" /></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Trademark_Sound_mark_of_Taylor_Swift2_67589988ee/Trademark_Sound_mark_of_Taylor_Swift2_67589988ee.jpg" alt="Trademark Sound mark of Taylor Swift2.jpg" /></p>
-<p>ただし、現時点ではあくまで出願段階であり、商標登録が完了したわけではない。AP通信は、これらの出願について、審査官による審査待ちの状態だと報じている。</p>
-<h2>「Hey, it’s Taylor Swift」など本人の声を商標保護へ</h2>
-<p>音声商標は、言葉そのものだけでなく、特定の音声表現や話し方を商標として保護する仕組みだ。今回の出願では、スウィフト氏本人の声やあいさつを想起させる表現を、商標として保護しようとしているとみられる。</p>
-<p><a href="https://www.reuters.com/legal/litigation/taylor-swift-files-trademark-her-voice-likeness-ward-off-ai-deepfakes-2026-04-27/">Reuters</a>は、今回の出願について、スウィフト氏の音声クリップ2件と画像1件を対象とするものだと報じた。同記事では、商標専門家の見解として、AIで作成されたディープフェイク動画や音声から本人の声や肖像を守るための試みと説明している。</p>
-<p>また、商標専門家の見解として、既存の権利だけではAIによって新たに生成された声や画像の模倣に十分対応できない可能性があり、商標出願が追加的な保護手段になり得ると報じている。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
