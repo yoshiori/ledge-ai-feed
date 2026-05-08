@@ -89,6 +89,23 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、オルタナティブ投資運用のBlackstoneなどと新AIサービス企業を設立　中堅企業のClaude導入を支援</title>
+      <link>https://ledge.ai/articles/anthropic_blackstone_enterprise_ai_services_claude</link>
+      <description><![CDATA[<p>米Anthropicは2026年5月4日（現地時間）、Blackstone、Hellman &amp; Friedman、Goldman Sachsと共同で、新たなAIサービス企業を設立したと<a href="https://www.anthropic.com/news/enterprise-ai-services-company">発表</a>した。新会社は、中堅企業の中核業務に、AnthropicのAIモデル「Claude」を導入することを支援する。</p>
+<p>Anthropicによると、同社のApplied AIエンジニアが新会社のエンジニアリングチームと連携し、Claudeが最も大きな効果を発揮できる業務領域の特定、カスタムソリューションの構築、長期的な顧客支援を行う。新会社には、創設パートナーに加え、General Atlantic、Leonard Green、Apollo Global Management、GIC、Sequoia Capitalなどの代替資産運用会社も参加する。</p>
+<h2>投資会社の企業網を活用し、中堅企業のAI導入を支援</h2>
+<p><a href="https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/">Blackstone</a>の公式リリースでは、新会社を「AI-native enterprise services firm」と表現している。新会社は独立した組織であり、Anthropicのエンジニアリングおよびパートナーシップのリソースがチーム内に直接組み込まれるという。</p>
+<p>また、創設パートナーや出資企業が持つ数百社規模の企業ネットワークを活用し、エンタープライズAIの導入設計、構築、維持を行うとしている。初期の顧客には、投資会社のポートフォリオ企業と、それ以外の独立した中堅企業の双方が含まれる。</p>
+<p>Anthropicは、地域銀行、中堅メーカー、地域医療システムなどの企業はAIの恩恵を受けられる一方、最先端AIの導入や運用に必要な社内リソースが不足していると説明している。今回の新会社は、こうした企業にClaudeを組み込むための実装能力を提供する位置づけだ。</p>
+<p>Blackstoneのリリースでは、AI活用の機会が大きい分野として、医療、製造、金融サービス、小売、不動産、インフラなどを挙げている。新会社は、Anthropicの「Claude Partner Network」にも参加し、中堅企業向けの実装能力を広げる役割を担う。</p>
+<h2>業務に合わせたClaudeシステムを開発</h2>
+<p>Anthropicは、典型的な支援の流れとして、少人数のチームが顧客企業と密接に連携し、Claudeが最も効果を発揮できる領域を把握するところから始めるとしている。その後、新会社のエンジニアがAnthropicのApplied AIスタッフとともに、各社の業務に合わせたClaude活用システムを開発する。</p>
+<p>例として挙げられているのが、複数拠点を持つ医療サービスグループだ。医師や医療スタッフは、診療記録の作成、医療コーディング、事前承認、コンプライアンス確認などに多くの時間を費やしている。新会社のエンジニアは、臨床医やIT担当者と連携し、既存のワークフローに合うツールを構築することで、医療従事者が患者ケアにより多くの時間を使えるようにすることを想定している。</p>
+<p>なお、<a href="https://www.reuters.com/legal/transactional/anthropic-nears-15-billion-ai-joint-venture-with-wall-street-firms-wsj-reports-2026-05-04/">Reuters</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、ClaudeとBlenderなど複数のクリエイティブツールのコネクタを公開　Blender基金参加と発表も、一回限りの寄付に変更</title>
       <link>https://ledge.ai/articles/anthropic_claude_creative_connectors_blender_donation_changed</link>
       <description><![CDATA[<p>Anthropicは2026年4月28日（現地時間）、AIアシスタント「Claude」をクリエイティブ制作ツールと連携させるための各種コネクタを<a href="https://www.anthropic.com/news/claude-for-creative-work">発表</a>した。対象には、Blender、Adobe、Affinity by Canva、Autodesk Fusion、SketchUp、Spliceなどが含まれる。</p>
@@ -338,20 +355,6 @@
 <p>OpenAIは、Symphonyがすべての作業に適しているわけではないとも説明している。チケット単位で作業を割り当てる方式では、対話型セッションのように途中で細かく軌道修正し続けることは難しい。エージェントが的外れな成果物を出すこともあるという。</p>
 <p>一方で同社は、こうした失敗をガードレールやスキル、ドキュメントの改善につなげたとしている。たとえば、エンドツーエンドテストの実行、Chrome DevToolsを使ったアプリ操作、QAスモークテスト管理などの機能を追加してきたという。</p>
 <p>OpenAIは、強い判断や専門性が必要な曖昧な問題では、今後もエンジニアが対話型Codexセッションを直接使う場面が残るとしている。Symphonyは、コーディングエージェントを単発の補助ツールとしてではなく、チケット管理システムに接続された継続的な開発ワークフローとして扱う試みといえる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIとMicrosoftの提携更新直後、AWSがOpenAIモデルをBedrockに導入　Codexも限定プレビュー提供</title>
-      <link>https://ledge.ai/articles/openai_microsoft_partnership_update_aws_bedrock_codex</link>
-      <description><![CDATA[<p>MicrosoftとOpenAIは2026年4月27日（米国時間）、両社のパートナーシップ更新を <a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/">発表</a>した。Microsoftは引き続きOpenAIの主要なクラウドパートナーとなる一方、OpenAIは自社製品をあらゆるクラウドプロバイダー上で顧客に提供できるようになった。</p>
-<p>その翌日となる4月28日（米国時間）、AWSとOpenAIは、Amazon Bedrock上でOpenAIの最新モデル、コーディングエージェント「Codex」、OpenAIを搭載した「Amazon Bedrock Managed Agents」の限定プレビュー提供を開始したと <a href="https://www.aboutamazon.com/news/aws/bedrock-openai-models">発表</a>した。OpenAIの提供経路が、Microsoft Azure中心の体制から、AWSを含む複数クラウドへ広がる動きとなる。</p>
-<h2>Microsoftは主要クラウドパートナーを継続、OpenAIは他クラウドにも展開可能に</h2>
-<p>Microsoftの発表によると、今回の契約更新後も、MicrosoftはOpenAIの主要なクラウドパートナーであり続けるという。OpenAIの製品は原則としてMicrosoft Azureで先行提供される。</p>
-<p>一方で、OpenAIは自社製品を顧客に提供する際、あらゆるクラウドプロバイダーを利用できるようになった。MicrosoftによるOpenAIのモデルや製品に関するIPライセンスは2032年まで継続するが、ライセンスは非独占となる。</p>
-<p>Microsoftは、今回の契約更新について、両社の提携を簡素化し、AIプラットフォームを大規模に構築・運用するための予見可能性を高めるものだと説明している。データセンター容量の拡大、次世代シリコンの共同開発、サイバーセキュリティ分野でのAI活用など、OpenAIとの協力は継続するとのこと。</p>
-<h2>AWS、Amazon BedrockでOpenAIモデルを提供へ</h2>
-<p>AWSは4月28日、Amazon Bedrock上でOpenAIの最新モデル、Codex、Amazon Bedrock Managed Agents powered by OpenAIを限定プレビューとして提供すると<a href="https://aws.amazon.com/jp/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
