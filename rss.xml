@@ -469,6 +469,27 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>南アフリカ政府、AI政策草案を撤回　参考文献に架空情報源、担当相が「信頼性を損なった」と説明</title>
+      <link>https://ledge.ai/articles/south_africa_ai_policy_fake_sources_withdrawal</link>
+      <description><![CDATA[<p>南アフリカの通信・デジタル技術相であるSolly Malatsi氏は2026年4月26日（現地時間）、意見募集中だった「Draft National Artificial Intelligence Policy（国家AI政策草案）」を撤回すると<a href="https://www.sanews.gov.za/south-africa/minister-announces-withdrawal-draft-ai-policy">発表</a>した。</p>
+<p>同氏は、草案の参考文献リストに複数の架空情報源が含まれていることが内部確認されたと説明した。SAnewsによると、Malatsi氏はこの問題について「単なる技術的な問題ではなく、草案の完全性と信頼性を損なった」と述べている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sa_news_698ccf2fc3/sa_news_698ccf2fc3.jpg" alt="sa news.jpg" /></p>
+<h2>6月10日まで意見募集の予定だったAI政策草案</h2>
+<p>撤回された草案は、南アフリカ政府がAIの普及促進と規制の方向性を示すために公表した政策文書だ。</p>
+<p>南アフリカ政府の<a href="https://www.gov.za/sites/default/files/gcis_document/202604/54477gen3880.pdf">官報</a>によると、草案は2026年3月25日の閣議と4月1日の特別閣議で承認され、4月10日に公表された。市民や関係者は、2026年6月10日16時まで意見を提出できる予定だった。</p>
+<p>草案は、2024年8月の「South Africa National Artificial Intelligence Policy Framework」や、同フレームワークに寄せられた32件の意見、政府内協議を踏まえたものとされていた。AIの急速な発展を受け、南アフリカとしての基本原則や分野別の対応方針を示すことを目的としていた。</p>
+<h2>AI生成引用が検証されず含まれた可能性</h2>
+<p>Malatsi氏は、架空情報源が混入した経緯について、「最もあり得る説明は、AIによって生成された引用が適切な検証なしに含まれたことだ」と述べた。同氏は、今回の問題について「起きてはならないことだった」とし、AIの利用には人間による慎重な監督が不可欠だと指摘した。草案の作成と品質保証に関わった責任者についても、必要な対応を取る考えを示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Solly_Malatsi_X_fc3f368363/Solly_Malatsi_X_fc3f368363.jpg" alt="SollyMalatsi氏のX.jpg" /></p>
+<p><a href="https://www.reuters.com/world/africa/south-africa-withdraws-ai-policy-due-fake-ai-generated-sources-2026-04-27/">Reuters</a>も4月27日、南アフリカ政府がAI生成とみられる偽の情報源を理由にAI政策草案を撤回したと報じた。</p>
+<h2>AIの恩恵とリスクを扱う政策文書だった</h2>
+<p>南アフリカ政府の<a href="https://www.gcis.gov.za/statement-on-the-cabinet-meeting-of-25-march-2026-and-special-cabinet-meeting-of-1-april-2026">閣議声明</a>によると、同草案はAIの恩恵とリスクを社会全体で公平に分配し、政府の規制能力や責任あるAI導入能力を高めることを目的としていた。</p>
+<p>また、国内のイノベーションや雇用創出を促進し、AIスキルへのアクセスを広げる狙いも掲げていた。草案では、AIの倫理的ガバナンス、公平性、バイアス低減、データ主権、人権の保護なども論点として扱われていた。</p>
+<p>今回の撤回は、AI政策を整備するための文書そのものに、AI生成とみられる未検証の引用が混入した事例となる。公共政策文書にAIを活用する際のファクトチェック体制や、人間による監督の重要性が改めて問われている。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東京大学 松尾・岩澤研究室、Worldの分散型「人間証明」ネットワークに参画　AI時代の本人性確認を支える独立ノードを運用</title>
       <link>https://ledge.ai/articles/tokyo_university_matsuo_iwasawa_lab_world_id_ampc_node</link>
       <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2026年4月30日、Worldが推進する分散型人間証明プロトコル「World ID」を支えるAMPC（匿名化マルチパーティ計算）ネットワークの独立ノードとして参画すると<a href="https://weblab.t.u-tokyo.ac.jp/news/2026-04-30/">発表</a>した。</p>
@@ -486,36 +507,6 @@
 <p>キャプチャ認証やチューリングテストの有効性が低下し、人間を対象とした制度がAIによって悪用されるリスク、ディープフェイクを用いた詐欺被害、AI生成の偽情報拡散などが課題になっているという。</p>
 <p>同研究室は、こうした状況に対し、「AIを制限するのではなく、人間側に一意性を持たせる」という発想から生まれた仕組みが、Worldの提供する「人間証明（Proof of Humanity）」だとしている。</p>
 <p>東京大学 松尾・岩澤研究室は、ディープラーニングや大規模言語モデル、ロボット研究などに取り組むAI研究拠点。今回の参画は、AI研究機関が分散型の人間証明基盤の運用に関わる国内事例となる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>米国務省、中国AI企業の「技術窃取」に警戒呼びかけか　DeepSeekなど名指し、米AIモデルの大規模蒸留を問題視</title>
-      <link>https://ledge.ai/articles/us_state_dept_china_ai_technology_theft_warning_deepseek_distillation</link>
-      <description><![CDATA[<p>米国務省が、DeepSeekなど中国AI企業による米国AI技術の不正取得に警戒を呼びかける外交指示を、各国の米大使館などに出したと <a href="https://www.reuters.com/world/china/us-state-dept-orders-global-warning-about-alleged-china-ai-thefts-by-deepseek-2026-04-24/">Reuters</a>が2026年4月24日（現地時間）に報じた。</p>
-<p>対象にはDeepSeekのほか、Moonshot AI、MiniMaxが含まれるという。米政府は、中国を中心とする外国主体が、米国のフロンティアAIモデルの能力を「産業規模」で抽出しているとみている。</p>
-<p>米ホワイトハウスの科学技術政策局（OSTP）も4月23日付の<a href="https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf">メモ</a>で、中国を中心とする外国主体が、米国AIモデルを対象に大規模な蒸留活動を行っているとの情報を有していると記している。</p>
-<h2>国務省の非公開外交公電を報道</h2>
-<p>Reutersによると、米国務省は各国の米大使館などに対し、中国AI企業による米国AI技術の不正取得疑惑について、現地政府に警戒を促すよう指示した。</p>
-<p>Reutersが確認したとする外交公電では、DeepSeek、Moonshot AI、MiniMaxの3社が名指しされているという。米国務省は、これらの企業が米国の独自AIモデルを無断で利用し、モデルの能力を抽出した疑いがあるとみている。</p>
-<h2>ホワイトハウスOSTPも「産業規模の蒸留」を問題視</h2>
-<p>今回の報道に先立ち、ホワイトハウスOSTPは4月23日付で、「Adversarial Distillation of American AI Models」と題するメモを公開した。</p>
-<p>同メモは、米政府が「中国を中心とする外国主体」による大規模な蒸留活動の情報を有していると記している。具体的には、数万のプロキシアカウントを使って検知を回避し、ジェイルブレイク手法で独自情報を引き出しながら、米国のフロンティアAIモデルの能力を系統的に抽出していると説明している。</p>
-<p>AIにおける「蒸留」とは、高性能な大規模モデルの出力を使い、より小型で低コストなモデルを訓練する手法を指す。OSTPのメモは、蒸留そのものを否定しているわけではない。高度なモデルから軽量モデルを作る正当な蒸留は、AIエコシステムの重要な一部だと位置付けている。</p>
-<p>一方で、米国の研究開発や独自情報へのアクセスを損なう「産業規模」の蒸留は容認できないとしている。メモは、こうした手法で作られたモデルについて、元のモデルと同等の性能を完全に再現するものではないものの、特定のベンチマークでは低コストで同等に見える性能を示す可能性があると指摘している。</p>
-<h2>OpenAIとAnthropicもDeepSeekなどを名指し</h2>
-<p>米AI企業側からも、同様の主張が出ている。</p>
-<p>OpenAIは2月12日付の米下院特別委員会向け文書で、DeepSeekがOpenAIや他の米フロンティアAI研究所を標的に、モデル蒸留に関連する活動を続けていると主張した。文書では、DeepSeek従業員に関連するアカウントがアクセス制限の回避や第三者ルーター経由でのアクセスを試みたとしている。</p>
-<p>Anthropicも2月23日の公式ブログで、DeepSeek、Moonshot AI、MiniMaxによるClaudeの能力の不正抽出を確認したと発表した。同社によると、この活動では約2万4000の不正アカウントが使われ、1600万件を超えるClaudeとのやり取りが生成されたという。</p>
-<p>OSTPのメモも、外国主体による蒸留活動について、民間企業と連携して検知、緩和、対処のベストプラクティスを構築するとしている。また、外国主体に責任を負わせるための措置も検討すると記している。</p>
-<h2>DeepSeekは同時期にV4 Previewを公開</h2>
-<p>DeepSeekは4月24日、「DeepSeek-V4 Preview」を公開した。</p>
-<p>DeepSeek-V4 Previewには、高性能モデルの「DeepSeek-V4-Pro」と、軽量・低コストを重視した「DeepSeek-V4-Flash」が含まれる。DeepSeekによると、DeepSeek-V4-Proは総パラメータ数1.6兆、アクティブパラメータ数490億のMoEモデルで、DeepSeek-V4-Flashは総パラメータ数2840億、アクティブパラメータ数130億のモデルだ。いずれも100万トークンのコンテキスト長に対応する。</p>
-<p>DeepSeekは、V4 Previewについて、推論、コーディング、エージェント用途を想定したモデルとして訴求している。Reutersの報道と同日にDeepSeekが新モデルを公開したことで、中国AI企業の高性能モデル開発と、米国側の技術流出懸念が改めて注目される形となった。</p>
-<h2>米政府、「オープンなAI」と「不正な抽出」を区別</h2>
-<p>OSTPのメモは、米国がフロンティアモデルから応用モデル、オープンソースフレームワーク、オープンウェイトモデルまでを含む競争的なAIエコシステムを支持するとしている。</p>
-<p>そのうえで、米国の研究開発や独自情報へのアクセスを損なう大規模な蒸留活動は受け入れられないと強調している。メモは、米国企業のイノベーションを系統的に抽出し、コピーする行為には「革新性はない」と記している。</p>
-<p>米政府は今後、米国のAI行動計画に沿って、基盤の強いオープンソースエコシステムを育成しつつ、米国産業によるフロンティアAIの国際展開を支援するとしている。同時に、AI技術の自由で公正な市場競争を守る方針も示している。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
