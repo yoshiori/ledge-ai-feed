@@ -196,36 +196,6 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、セキュリティ特化AI「Claude Security」パブリックβ版を公開　Claude Enterprise向けに脆弱性スキャンを提供</title>
-      <link>https://ledge.ai/articles/anthropic_claude_security_public_beta_vulnerability_scan</link>
-      <description><![CDATA[<p>Anthropicは2026年4月30日（米国時間）、セキュリティに特化したAIツール「Claude Security」のパブリックβ版を<a href="https://claude.com/blog/claude-security-public-beta">公開</a>した。Claude Enterpriseの顧客向けに提供され、コードベースをスキャンして脆弱性を検出し、修正案を生成できる。Anthropicによると、同ツールは、同社の一般提供モデルの中で最も強力な「Claude Opus 4.7」を活用するという。</p>
-<p>今回の発表は、単なるコードスキャン機能の追加にとどまらない。Anthropicは、AIによって脆弱性の発見から悪用までの時間が短くなりつつあると指摘している。今後、実際に動作する攻撃コードを見つけることが容易になる世界に備え、企業側の防御能力を高める必要があるという立場だ。</p>
-<h2>AIによる脆弱性発見が進むなか、防御側にも高度な能力を提供</h2>
-<p>同社はソフトウェア脆弱性の発見と悪用の両方で、人間の上級専門家に匹敵、または上回る能力を持つとする「Claude Mythos Preview」を、一部パートナーに提供している。これは、同社のサイバーセキュリティプロジェクト「Project Glasswing」の一環だ。</p>
-<p>一方で、同社はClaude Securityについて、Project Glasswingに限定されない、より広いサイバーセキュリティ施策の一部と位置付けている。Claude Mythos Previewのような先端モデルを一部パートナーに提供するだけでなく、一般提供モデルのClaude Opus 4.7を使い、より多くの企業が自社のコードベースにAIを適用できるようにする狙いがある。</p>
-<h2>コードを読み、脆弱性を検出　修正案まで提示</h2>
-<p>Claude Securityは、Claude.aiのサイドバーまたは「claude.ai/security」から利用できる。ユーザーはリポジトリを選択し、必要に応じて特定のディレクトリやブランチに対象を絞ってスキャンを開始する。API連携やカスタムエージェントの構築は不要で、Claude Enterpriseを利用する組織であれば、管理者が管理コンソールから有効化できる。</p>
-<p>Anthropicは、Claude Securityについて、既知の脆弱性パターンを検索するだけではなく、セキュリティ研究者のようにコードを読むと説明している。複数のファイルやモジュールをまたいでコンポーネント間の関係を把握し、データフローを追跡しながら、ソースコード上の問題を探すという。</p>
-<p>スキャンが完了すると、Claudeは検出した項目ごとに、脆弱性が実在する確信度、深刻度、想定される影響、再現方法などを提示する。さらに、対象を絞った修正指示を生成し、ユーザーはClaude Code on the Web上で修正作業に進める。</p>
-<h2>重要なのは「検出数」ではなく「スキャンから修正までの時間」</h2>
-<p>Claude Securityは、以前「Claude Code Security」として限定リサーチプレビューで提供されていた。Anthropicによると、過去2カ月間、数百の企業が本番環境でClaude Securityを利用し、そのフィードバックをもとに、今回のパブリックβ版が設計された。</p>
-<p>同社が重視したのは、検出品質、スキャンから修正までの時間、継続的なカバレッジの3点だ。特に検出品質については、セキュリティチームに届く情報が実際に対応する価値のあるものかどうかが重要だとしている。</p>
-<p>Claude Securityでは、検出結果がアナリストに届く前に、多段階の検証パイプラインで各項目を確認する。これにより誤検出を減らし、各検出結果には確信度も付与される。</p>
-<p>また、初期利用企業からは、従来であればセキュリティチームとエンジニアリングチームの間で数日間やり取りしていた作業が、スキャンからパッチ適用まで1回の作業時間で進むケースもあったという。Anthropicは、セキュリティ業務で重要な指標は、単なる検出数ではなく「スキャンから修正までの時間」だと説明している。</p>
-<h2>継続的なセキュリティ運用に組み込む機能も追加</h2>
-<p>今回のパブリックβ版では、単発のスキャンだけでなく、継続的なセキュリティ運用に組み込むための機能も追加された。</p>
-<p>具体的には、定期スキャン、特定ディレクトリを対象としたスキャン、理由を記録した上での検出結果の却下、CSVやMarkdown形式でのエクスポート、SlackやJiraなどへの通知に対応する。既存の追跡システムや監査システムに検出結果を取り込みやすくすることで、セキュリティチームの日常業務に組み込むことを想定している。</p>
-<p>この点は、Claude Securityが単なるデモ的なAI機能ではなく、企業の脆弱性管理や安全なコードレビューのプロセスに組み込まれることを目指していることを示している。</p>
-<h2>パートナー経由でも展開、既存のセキュリティ基盤にClaudeを組み込む</h2>
-<p>Anthropicは、Claude SecurityをClaude Platform上で直接提供するだけでなく、企業がすでに利用しているセキュリティ製品やサービスを通じた展開も進める。</p>
-<p>テクノロジーパートナーとして、CrowdStrike、Microsoft Security、Palo Alto Networks、SentinelOne、TrendAI、WizがOpus 4.7の機能を自社ツールに組み込む。また、Accenture、BCG、Deloitte、Infosys、PwCなどのサービスパートナーも、脆弱性管理、安全なコードレビュー、インシデント対応プログラム向けに、Claudeを統合したセキュリティソリューションの導入を支援する。</p>
-<p>これにより、企業はClaude Securityを直接利用するだけでなく、既存のセキュリティプラットフォームやサービスパートナーを通じてClaudeの機能を導入できる。Anthropicは、防御側がすでに使っている業務環境に、フロンティアモデルの能力を届ける方針を示している。</p>
-<h2>Claude TeamとMax向けにも今後提供予定</h2>
-<p>Claude Securityは、パブリックβ版としてClaude Enterprise顧客向けに提供が始まった。Claude TeamとClaude Maxの顧客向けアクセスは、今後提供予定としている。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>富士通とカーネギーメロン大学、フィジカルAI共同研究センターを設立　ロボット・センサー・空間を統合する開発中の「Kozuchi Physical OS」に2026年度から成果反映</title>
       <link>https://ledge.ai/articles/fujitsu_cmu_physical_ai_research_center</link>
       <description><![CDATA[<p>富士通と米カーネギーメロン大学（CMU）は2026年4月23日、フィジカルAI領域の共同研究センター「Fujitsu-Carnegie Mellon Physical AI Research Center」を設立したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/04/23-01">発表</a>した。フィジカルAIの機能性や拡張性を高める中核技術を共同で研究開発し、社会実装につなげる研究拠点を目指す。</p>
@@ -386,6 +356,35 @@
 <p>OpenAIは、同社がAIの中核的なインフラになりつつあり、世界中の人々や大小の企業がものづくりを進められるようにしていると説明している。</p>
 <p>同社によると、ChatGPTの幅広い消費者リーチは、職場への強い流通経路にもなっている。企業の需要は、単なるモデルアクセスから、業務の進め方を変えるインテリジェントなシステムへと急速に移りつつあるという。</p>
 <p>AIが生活に深く組み込まれるなか、OpenAIは、ユーザーがプライバシーとセキュリティを守るための管理機能を持つことが重要だとしている。今後は、エンタープライズ環境を含む追加の対象にも、この取り組みを広げる予定だという。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、ChatGPTに「Trusted Contact」追加　自傷リスクを検知した場合に事前登録した「信頼できる連絡先」へ通知</title>
+      <link>https://ledge.ai/articles/openai_chatgpt_trusted_contact_self_harm_safety</link>
+      <description><![CDATA[<p>OpenAIは2026年5月7日（現地時間）、ChatGPTにオプションの安全機能「Trusted Contact」を追加すると<a href="https://openai.com/index/introducing-trusted-contact-in-chatgpt/">発表</a>した。</p>
+<p>Trusted Contactは、成人ユーザーが友人、家族、介護者など、信頼できる人物を事前に登録できる機能だ。OpenAIの自動システムと訓練を受けたレビュー担当者が、登録したユーザーが自傷について深刻な安全上の懸念を示す形で話している可能性があると判断した場合、その連絡先に通知する可能性がある。</p>
+<p>OpenAIは、同機能について、ChatGPTですでに提供している地域別のヘルプライン案内に加え、ユーザーが危機的状況にある場合に、現実世界で信頼できる人物とつながるための追加的な支援策だと説明している。同機能は専門的なケアや危機対応サービスを代替するものではなく、複数の安全策の一部として位置づけられている。</p>
+<h2>成人ユーザーが信頼できる連絡先を1人登録</h2>
+<p>Trusted Contactでは、ユーザーがChatGPTの設定から、信頼できる成人を1人登録できる。OpenAIによると、対象は18歳以上のユーザーで、韓国では19歳以上となる。</p>
+<p>OpenAIの<a href="https://help.openai.com/ja-jp/articles/20001105-trusted-contacts-in-chatgpt">ヘルプセンター</a>によると、同機能は個人のChatGPTアカウントで利用でき、ChatGPT BusinessやEnterpriseなどの共有ワークスペースでは有効になっていない。</p>
+<p>登録された連絡先には、役割を説明する招待が送られる。連絡先が1週間以内に招待を承諾すると、この機能が有効になる。辞退された場合、ユーザーは別の成人を登録できる。</p>
+<p>対象となるアカウントごとに設定できる信頼できる連絡先は1件。ヘルプセンターでは、同機能を順次提供しており、設定やChatGPTの会話内に表示されない場合は、まだ利用できない可能性があるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Safety_2aa10b400b/Safety_2aa10b400b.webp" alt="Safety.webp" /></p>
+<h2>自動検知後、人間のレビューを経て通知</h2>
+<p>ChatGPTの自動監視システムが、ユーザーが自傷について深刻な安全上の懸念を示す形で話している可能性を検知した場合、ChatGPTはまずユーザーに対し、Trusted Contactに通知する可能性があることを知らせる。そのうえで、ユーザー自身が連絡先に連絡できるよう、会話のきっかけとなる文案も提示する。</p>
+<p>その後、専門的な訓練を受けた少人数の担当者が状況を確認する。レビュー担当者が、会話が深刻な安全上の懸念を示している可能性があると判断した場合、ChatGPTはTrusted Contactに通知を送る。</p>
+<p>通知方法は、メール、テキストメッセージ、または連絡先がChatGPTアカウントを持っている場合のアプリ内通知となる。OpenAIは、こうした安全通知について、1時間以内のレビューを目指すとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/tc_being_notified_in_a_crisis_2d627c53ef/tc_being_notified_in_a_crisis_2d627c53ef.jpg" alt="tc-being-notified-in-a-crisis.jpg" /></p>
+<h2>チャットの詳細や全文は共有しない</h2>
+<p>OpenAIは、Trusted Contactへの通知内容を意図的に限定している。通知では、自傷に関する話題が深刻な安全上の懸念を示す形で出た可能性があることを伝え、登録された連絡先にユーザーの様子を確認するよう促す。</p>
+<p>一方で、チャットの詳細や文字起こしは共有しない。OpenAIは、ユーザーのプライバシーを保護するためだと説明している。</p>
+<p>また、同社は、こうした通知がユーザーの実際の状態を必ずしも正確に反映しない場合があるとも説明している。すべての通知は、送信前に訓練を受けた人間によるレビューを経るという。</p>
+<h2>臨床家や安全専門家の助言を受けて開発</h2>
+<p>OpenAIは、Trusted Contactを、メンタルヘルスや自殺予防を専門とする臨床家、研究者、外部組織の助言を受けて開発したとしている。</p>
+<p>具体的には、60カ国以上の260人超の認可医師からなる「Global Physicians Network」や、「Expert Council on Well-Being and AI」の知見を反映したという。また、米国心理学会（APA）などの外部組織とも協力したとしている。</p>
+<p>OpenAIは、ChatGPTにおける安全対策として、危機対応ヘルプラインや緊急サービスへの案内、メンタルヘルス専門家との協力による応答改善、自殺や自傷に関する有害な指示への拒否などにも取り組んでいる。</p>
+<p>Trusted Contactは、AIが単独で危機対応を担うための機能ではなく、ユーザーが事前に選んだ現実世界の支援者につなぐための仕組みだ。OpenAIは、AIシステムが孤立して存在するのではなく、必要な場面で現実世界のケアや人間関係、支援資源につながることを目指すとしている。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
