@@ -139,6 +139,37 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic CEO、中国AIモデルが「6〜12カ月」でMythosに追いつく可能性に言及　未修正の脆弱性への対応急ぐ必要性を強調</title>
+      <link>https://ledge.ai/articles/anthropic_ceo_mythos_china_models_cybersecurity</link>
+      <description><![CDATA[<p>米AnthropicのCEOであるダリオ・アモデイ氏は2026年5月5日（現地時間）、金融業界向けイベント「<a href="https://www.youtube.com/watch?v=L1hB6Nz16Fw">The Briefing: Financial Services</a>」で、同社のAIモデル「Claude Mythos Preview」が示したサイバーセキュリティ能力について語った。</p>
+<p>アモデイ氏は、米国の主要AIラボが1〜3カ月、中国のAIモデルが6〜12カ月程度で同様の能力に追いつく可能性があるとの見方を示し、その間に同モデルが特定した脆弱性を修正する必要があると述べた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=L1hB6Nz16Fw">YouTube</a></p>
+<h2>中国モデルは「6〜12カ月遅れ」未修正脆弱性への対応を急ぐ必要性</h2>
+<p>イベントでは、Mythosをめぐるサイバーセキュリティリスクについて議論が交わされた。司会者は、脆弱性を特定すること自体が攻撃者に入口を与えるのではないかと質問した。</p>
+<p>これに対し、アモデイ氏は、他社や将来的なオープンソースモデルが同様の能力に追いつく可能性に言及したうえで、米国の主要AIラボは1〜3カ月、中国のAIモデルは6〜12カ月遅れているとの見方を示した。そのうえで、Anthropicが特定した多数の脆弱性について、この期間内に修正する必要があると説明した。</p>
+<p>アモデイ氏は、Anthropicが「数万件」の脆弱性を特定していると述べた。一方で、その多くはまだ修正されておらず、未修正のまま詳細を公表すれば攻撃者に悪用されるため、公表を控えているという。Firefoxについては、約300件の脆弱性を修正したと説明した。</p>
+<p>同氏は、6〜12カ月以内に適切に対応できれば、発見されたバグを修正し、より安全な状態に移行できる可能性があるとも述べた。Mythosのようなモデルを使えば、より安全なコードを設計段階から書けるようになるとの見方も示している。</p>
+<h2>Mythosは主要OS・ブラウザーのゼロデイ脆弱性を発見・悪用可能とAnthropicが説明</h2>
+<p>Anthropic Red Teamは2026年4月7日、Claude Mythos Previewについて、汎用言語モデルでありながら、コンピューターセキュリティタスクで非常に高い能力を示したと<a href="https://red.anthropic.com/2026/mythos-preview/">発表</a>した。</p>
+<p>同社によると、Claude Mythos Previewは、主要OSや主要Webブラウザーのゼロデイ脆弱性を特定し、悪用する能力を示したという。発見された脆弱性の99％超はまだ修正されていないため、Anthropicは詳細を公開していない。</p>
+<p>公開された事例では、Claude Mythos Previewが、FreeBSDのNFSサーバーに存在したリモートコード実行脆弱性を自律的に特定し、悪用したことが示されている。この脆弱性は17年前から存在していたものだという。</p>
+<p>Anthropicは、こうした能力を防御側で活用するため、<a href="https://ledge.ai/articles/anthropic_claude_mythos_preview_security_vulnerability_glasswing">Project Glasswing</a>を開始している。同プロジェクトは、重要ソフトウェアの脆弱性を発見・修正する取り組みで、参加パートナーにはClaude Mythos Previewへのアクセスが提供される。</p>
+<h2>Project Glasswingで限定提供、防御側の修正を先行させる狙い</h2>
+<p>Anthropicは、Claude Mythos Previewを一般公開するのではなく、Project Glasswingを通じて限定的に提供している。同社は、類似する能力を持つモデルが広く利用可能になる前に、防御側が重要システムを保護できるようにする狙いだと説明している。</p>
+<p>アモデイ氏もイベントで、Mythosをどの範囲まで提供するかについては慎重に扱う必要があると述べた。多数の組織に一気に開放すればリスクが高まる一方、提供を遅くしすぎれば脆弱性修正が間に合わない可能性がある。</p>
+<p>同氏は、将来的には安全対策を整えたうえで、Mythosをより広く提供できる状態を目指していると説明した。政府とも協議しながら、段階的な公開プロセスやガードレールのあり方を検討しているという。</p>
+<h2>金融業界向けイベントではAIエージェント活用も発表</h2>
+<p>今回のイベントでは、金融サービス向けのAIエージェント活用も紹介された。冒頭では、Anthropicの金融サービス責任者であるジョナサン・ペロシ氏が登壇し、会場には世界の主要金融サービス企業のCEO、CTO、CIOらが参加していると説明した。</p>
+<p>Anthropicは同日、金融サービス向けに10種類のAIエージェントテンプレートを発表した。ピッチ作成、会議準備、バリュエーションレビュー、DCFモデリングなど、金融業務で時間を要する作業に対応する。</p>
+<p>イベント内では、ClaudeがExcel、PowerPoint、Wordで一般提供され、Outlook向けにはベータ版として提供されることも説明された。これにより、同じClaudeが金融機関のワークフロー全体で動作できるとしている。</p>
+<p>Anthropicは公式発表で、これらのエージェントテンプレートがClaude Cowork、Claude Code、Claude Managed Agentsで利用できると説明している。金融データプロバイダーや業務アプリケーションとの連携も進めているという。</p>
+<h2>「危険の瞬間」を乗り越えれば、より安全なソフトウェア環境に</h2>
+<p>アモデイ氏は、今回の状況を「危険の瞬間」と表現した。一方で、適切に対応すれば、発見されたバグを修正し、より安全な状態に移行できるとの見方も示した。</p>
+<p>Anthropic Red Teamも、短期的には移行期のリスクがあるとしつつ、長期的には防御側がこうしたモデルを活用し、新しいコードが出荷される前にバグを修正できるようになると説明している。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、ClaudeとBlenderなど複数のクリエイティブツールのコネクタを公開　Blender基金参加と発表も、一回限りの寄付に変更</title>
       <link>https://ledge.ai/articles/anthropic_claude_creative_connectors_blender_donation_changed</link>
       <description><![CDATA[<p>Anthropicは2026年4月28日（現地時間）、AIアシスタント「Claude」をクリエイティブ制作ツールと連携させるための各種コネクタを<a href="https://www.anthropic.com/news/claude-for-creative-work">発表</a>した。対象には、Blender、Adobe、Affinity by Canva、Autodesk Fusion、SketchUp、Spliceなどが含まれる。</p>
