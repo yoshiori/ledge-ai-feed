@@ -250,6 +250,26 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Apple、iPhoneのAI機能めぐる集団訴訟で2.5億ドル（約390億円）の和解に合意　Siri強化機能の広告が消費者を誤認させたかが争点に</title>
+      <link>https://ledge.ai/articles/apple_iphone_ai_features_settlement_siri_ads</link>
+      <description><![CDATA[<p>Appleが、AI機能「Apple Intelligence」のSiri関連機能をめぐる米国の集団訴訟で、総額2億5000万ドルの和解に合意したことが、2026年5月5日（現地時間）に提出された裁判所文書で明らかになった。原告側法律事務所のClarkson Law Firmも同日、和解を<a href="https://clarksonlawfirm.com/clarkson-law-firm-secures-250-million-settlement-in-landmark-ai-focused-false-advertising-class-action-against-apple/">発表</a>した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/clarkson_apple_50969f352f/clarkson_apple_50969f352f.jpg" alt="clarkson apple.jpg" /></p>
+<p>和解の対象は、一定期間内に米国で「iPhone 16」シリーズや「iPhone 15 Pro」シリーズを購入したユーザー。裁判所文書によると、対象者には1台あたり25ドルを基準に、請求状況に応じて最大95ドルが支払われる可能性がある。Appleは不正行為や法的責任を認めていない。</p>
+<h2>Apple IntelligenceのSiri機能が争点に</h2>
+<p>Appleは2024年6月、iPhone、iPad、Mac向けのAI機能群「Apple Intelligence」を<a href="https://ledge.ai/articles/apple_wwdc2024">発表</a>した。生成モデルとユーザーの個人コンテキストを組み合わせ、文章作成、画像生成、通知整理、Siriの高度化などを実現すると説明していた。</p>
+<p>同社は同年9月に発表した「iPhone 16」シリーズでも、Apple Intelligenceを主要機能として打ち出した。Siriについては、より自然で柔軟な会話、文脈の理解、画面上の内容の認識、アプリを横断した操作などを紹介していた。</p>
+<p>今回の訴訟では、こうした広告や製品訴求が、購入時点で利用できるAI機能について消費者を誤認させたかどうかが争点となった。</p>
+<h2>対象はiPhone 16シリーズとiPhone 15 Proシリーズの購入者</h2>
+<p>裁判所文書によると、和解基金の総額は2億5000万ドル。対象となるのは、対象期間中に米国でiPhone 16、iPhone 16 Plus、iPhone 16 Pro、iPhone 16 Pro Max、iPhone 15 Pro、iPhone 15 Pro Maxを購入したユーザーとされる。</p>
+<p>支払い額は、対象端末1台あたり25ドルを基準に算定される。ただし、実際の支払い額は請求件数などによって変動し、最大95ドルになる可能性がある。Appleは今回の和解について、不正行為や法的責任を認めるものではないとしている。</p>
+<h2>AppleはSiriの一部機能提供を延期していた</h2>
+<p>Apple Intelligenceは2024年から段階的に提供されてきたが、発表当初に説明されたSiriの一部機能は、当初予定より遅れていた。
+Appleは2024年12月時点でも、Siriがユーザーの個人コンテキストを理解する機能や、画面上の内容を認識する機能、アプリを横断して操作する機能について、今後数カ月で提供される追加機能として説明していた。</p>
+<p>今回の訴訟は、AI機能を製品の主要な訴求点として打ち出す際、実際の提供時期や購入時点で利用できる機能をどこまで明確に示すべきかという問題を浮き彫りにした。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>富士通とカーネギーメロン大学、フィジカルAI共同研究センターを設立　ロボット・センサー・空間を統合する開発中の「Kozuchi Physical OS」に2026年度から成果反映</title>
       <link>https://ledge.ai/articles/fujitsu_cmu_physical_ai_research_center</link>
       <description><![CDATA[<p>富士通と米カーネギーメロン大学（CMU）は2026年4月23日、フィジカルAI領域の共同研究センター「Fujitsu-Carnegie Mellon Physical AI Research Center」を設立したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/04/23-01">発表</a>した。フィジカルAIの機能性や拡張性を高める中核技術を共同で研究開発し、社会実装につなげる研究拠点を目指す。</p>
@@ -443,42 +463,6 @@
 <p>3モデルはいずれもRealtime APIで利用できる。OpenAIは、Realtime APIに複数層の安全対策を組み込んでいるとしている。Realtime APIのセッションにはアクティブ分類器が使われ、有害コンテンツのガイドラインに違反する会話が検出された場合、一部の会話を停止できるという。</p>
 <p>価格は、GPT-Realtime-2が音声入力100万トークンあたり32ドル、キャッシュ入力100万トークンあたり0.40ドル、音声出力100万トークンあたり64ドル。GPT-Realtime-Translateは1分あたり0.034ドル、GPT-Realtime-Whisperは1分あたり0.017ドルとなっている。</p>
 <p>OpenAIは、これらの新モデルをPlaygroundで試せるとしている。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、2018年の「OpenAI Charter」以来となる新原則を公表　サム・アルトマンCEOがAIの民主化、繁栄、リスク対応を提示</title>
-      <link>https://ledge.ai/articles/openai_sam_altman_principles_charter_2026</link>
-      <description><![CDATA[<p>OpenAIのCEOであるSam Altman氏は2026年4月26日（現地時間）、最先端のAIモデルを開発するラボのあり方に関する5つの原則を<a href="https://openai.com/index/our-principles/">発表</a>した。</p>
-<p>同氏は、AIの力が少数の企業に集中する未来ではなく、人々に分散される未来を目指すとし、「Democratization（民主化）」「Empowerment（エンパワーメント）」「Universal prosperity（普遍的繁栄）」「Resilience（レジリエンス）」「Adaptability（適応性）」の5項目を提示した。OpenAIは2018年に「<a href="https://openai.com/charter/">OpenAI Charter（OpenAI憲章）</a>」を公開しており、今回の発表は、同社の使命や運営方針を改めて示すものとなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sama_ourprinciples_395353d1b3/sama_ourprinciples_395353d1b3.jpg" alt="sama ourprinciples.jpg" /></p>
-<h2>AIの力を「少数の企業」ではなく人々の手に</h2>
-<p>Altman氏は今回の発表で、AIは社会の多くの側面を大きく改善する可能性があると述べた。一方で、その未来は保証されていないとも指摘している。</p>
-<p>同氏は、将来の力が、超知能を利用・管理する少数の企業に集中する可能性もあれば、人々に分散される可能性もあると説明。OpenAIは後者の方が望ましいと考えており、「真に汎用的なAIをできるだけ多くの人々の手に届けること」を目標にしているという。</p>
-<p>OpenAIは同社の使命について、「AGIが全人類に利益をもたらすようにすること」と改めて説明した。そのうえで、同社の取り組みを導く原則として、5つの項目を示した。</p>
-<h2>民主化、エンパワーメント、普遍的繁栄を掲げる</h2>
-<p>1つ目の原則は「Democratization（民主化）」だ。Altman氏は、AI技術が少数に権力を集中させる可能性に抵抗すると述べている。</p>
-<p>同氏によれば、これは単にすべての人にAIへのアクセスを提供するだけではない。AIに関する重要な意思決定が、AIラボだけでなく、民主的なプロセスと平等主義的な原則に基づいて行われる必要があるとしている。([OpenAI][1])</p>
-<p>2つ目は「Empowerment（エンパワーメント）」である。OpenAIは、AIが人々の目標達成や学習、幸福、夢の追求を支援し、社会全体にも利益をもたらすと考えているという。</p>
-<p>一方で、同社は利用者に幅広い自由を認めたいとしつつ、AIを構築・展開する際には被害を最小化する責任があるとも述べている。対象には、破滅的な被害だけでなく、地域的な被害や社会に悪影響を及ぼす可能性も含まれる。</p>
-<p>3つ目は「Universal prosperity（普遍的繁栄）」だ。OpenAIは、使いやすく大きな計算能力を備えたAIシステムを広く提供することで、人々が新たな価値を生み出し、生活の質を大きく改善できると説明している。特に、科学的発見の促進に期待を示した。</p>
-<p>Altman氏は、普遍的繁栄を実現し広く共有するためには、政府が新たな経済モデルを検討する必要がある可能性に言及した。また、AIインフラを大量に構築し、AIインフラのコストを大きく引き下げる新技術を開発する必要があるとも述べている。</p>
-<p>同氏は、OpenAIが収益規模に比べて大量の計算資源を確保したり、コスト低減や使いやすさ向上のために垂直統合を進めたり、世界各地でデータセンター建設を推進したりしている背景には、普遍的繁栄の未来への信念があるとしている。</p>
-<h2>病原体やサイバーリスクにも言及</h2>
-<p>4つ目の原則は「Resilience（レジリエンス）」である。Altman氏は、AIが新たなリスクをもたらすとしたうえで、他企業、エコシステム、政府、社会と協力してそれらに対処すると述べた。OpenAI Foundationのリソースも、この取り組みに活用するという。</p>
-<p>同氏は例として、非常に高性能なモデルが新たな病原体の作成を容易にする可能性を挙げた。このようなリスクに対しては、特定の病原体に依存しない対策を含む、社会全体でのアプローチが必要になるとしている。</p>
-<p>また、AIモデルのサイバーセキュリティ能力が高まるにつれ、オープンソースソフトウェアや重要インフラの保護にこれらのモデルを活用する必要があるとも述べた。同時に、誰もがより安全なソフトウェアを作成できるよう、モデルを訓練する必要があるとしている。</p>
-<p>OpenAIは、こうした考え方を同社が長く採用してきた「反復的デプロイ」の戦略の拡張と位置付けている。社会はAIの能力が段階的に高まるたびに、それを理解し、取り込み、最善の進め方を共に見いだす必要があるという。</p>
-<p>OpenAIは安全性とアライメントに関する公式ページでも、AGIを一度に到来するものではなく、有用性が段階的に高まるシステムの連続として捉える考え方を示している。同社は、現在のシステムから学びながら次のシステムを安全で有益なものにするため、「反復的デプロイ」を採用していると説明している。</p>
-<h2>方針を更新し続ける「適応性」</h2>
-<p>5つ目の原則は「Adaptability（適応性）」である。Altman氏は、予測困難な未来に対応する唯一の方法は、学びに応じて自らの立場を更新する準備をしておくことだと述べた。</p>
-<p>同氏は、OpenAIが数年前よりも世界に対してはるかに大きな影響力を持つ存在になったことを認めている。そのうえで、同社の運営原則が変わる場合には、いつ、どのように、なぜ変更するのかを透明に示すとした。</p>
-<p>Altman氏は具体例として、普遍的繁栄は今後も重要であり続けると考えている一方、将来的には、より強いレジリエンスのために、エンパワーメントの一部を制限する必要が出てくる時期も想定できると述べている。</p>
-<p>同氏は、AI開発はこれまで多くの予想外の展開をもたらしてきたと指摘した。今後も技術が進展するにつれ、創発的な振る舞いの予測はますます難しくなるとしている。</p>
-<h2>2018年の「OpenAI Charter」から、巨大AI企業としての原則へ</h2>
-<p>OpenAIは2018年に公開した「OpenAI Charter」で、AGIを「ほとんどの経済的価値のある仕事で人間を上回る高度に自律的なシステム」と定義し、AGIが全人類に利益をもたらすことを使命として掲げていた。</p>
-<p>同Charterでは、「Broadly distributed benefits（広く分配される利益）」「Long-term safety（長期的安全性）」「Technical leadership（技術的リーダーシップ）」「Cooperative orientation（協調志向）」の4項目が示されている。OpenAIは、AGIの展開に対して同社が得る影響力を全人類の利益のために使い、AIやAGIが人類に害を及ぼしたり、権力を不当に集中させたりする用途を避けると述べていた。([OpenAI][3])</p>
-<p>2018年のOpenAI Charterが、AGI開発に向けた研究組織としての使命を示す文書だったとすれば、今回の5原則は、AIモデル、計算資源、製品提供、安全性対応を含む巨大AI企業としての行動原則を示す文書に近い。OpenAIは現在、最先端モデルを開発する研究機関であると同時に、ChatGPTやAPI、企業向けAI、AIインフラを展開する事業者でもある。今回の発表は、AI開発競争が激化するなかで、OpenAIが自らの物語を「AGI研究ラボ」から「社会にAIを実装する基盤企業」へと更新する動きとしても位置付けられる。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
