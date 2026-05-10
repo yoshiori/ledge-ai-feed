@@ -532,6 +532,17 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>米Subquadratic、ポストTransformerの長文脈AIモデル「SubQ」発表　1200万トークン対応をうたう“完全subquadratic”LLM</title>
+      <link>https://ledge.ai/articles/subquadratic_subq_long_context_llm</link>
+      <description><![CDATA[<p>米AI開発企業のSubquadraticは2026年5月5日（現地時間）、同社初のAIモデル「SubQ 1M-Preview」を<a href="https://subq.ai/introducing-subq">発表</a>した。SubQは、同社が「完全なsubquadraticアーキテクチャ」と説明する構造を採用した大規模言語モデル（LLM）で、コンテキスト長に対して計算量が線形に増えるとしている。</p>
+<p>同社によると、SubQの研究モデルは最大1200万トークンで動作し、他のフロンティアモデルと比べてアテンション計算量を約1000分の1に削減するという。Subquadraticは、SubQを「長文脈タスク向けに構築した最初のモデル」と位置付けている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/12m_150_50percent_73d6278a59/12m_150_50percent_73d6278a59.jpg" alt="12m 150 50percent.jpg" />
+:::small
+画像の出典：<a href="https://subq.ai/">Subquadratic</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東京大学 松尾・岩澤研究室、Worldの分散型「人間証明」ネットワークに参画　AI時代の本人性確認を支える独立ノードを運用</title>
       <link>https://ledge.ai/articles/tokyo_university_matsuo_iwasawa_lab_world_id_ampc_node</link>
       <description><![CDATA[<p>東京大学 松尾・岩澤研究室は2026年4月30日、Worldが推進する分散型人間証明プロトコル「World ID」を支えるAMPC（匿名化マルチパーティ計算）ネットワークの独立ノードとして参画すると<a href="https://weblab.t.u-tokyo.ac.jp/news/2026-04-30/">発表</a>した。</p>
