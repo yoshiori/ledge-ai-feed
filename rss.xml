@@ -196,6 +196,28 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic共同創業者、AIが次世代AIを自ら開発する時代に言及　2028年末までに「60％超」の可能性</title>
+      <link>https://ledge.ai/articles/anthropic_jack_clark_automated_ai_r_and_d_2028</link>
+      <description><![CDATA[<p>Anthropic共同創業者のジャック・クラーク氏は2026年5月4日付のニュースレター「<a href="https://importai.substack.com/p/import-ai-455-automating-ai-research">Import AI</a>」で、2028年末までに、フロンティアAIモデルが自らの後継版を自律的に構築できる「人間が関与しないAI R&amp;D」が起きる可能性について、60％超との見方を示した。
+クラーク氏は、この状態を「AIシステムが自らの後継版を自律的に構築できるほど強力になること」と説明している。同氏は、これは大きな出来事であり、自分でもどう受け止めればよいかわからないと述べた。AI研究がエンドツーエンドで自動化されれば、予測が極めて難しい未来に踏み込むことになるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Import_AI_455_74742dcd79/Import_AI_455_74742dcd79.jpg" alt="Import AI 455.jpg" /></p>
+<h2>「後継AIを自律的に構築」、2028年末までに60％超と予測</h2>
+<p>クラーク氏は、完全に自動化されたAI研究開発が2026年中に起きるとは考えていない。一方で、今後1〜2年のうちに、モデルが後継モデルをエンドツーエンドで訓練する事例が出る可能性はあるとした。特に、非フロンティアモデルの段階では概念実証が現れる可能性があるという。</p>
+<p>同氏は、この見方は主に公開情報に基づくものだと説明している。arXiv、bioRxiv、NBERの論文や、フロンティアAI企業が実際に展開している製品を見たうえで、現在のAIシステムを作るために必要な工学的要素は、自動化に向けた部品がそろいつつあると判断している。</p>
+<p>ただし、AI研究には創造性や異端的な洞察も必要だとし、現在のAIシステムがそれを変革的な規模で示したとはまだ言えないとも述べている。そのため、2027年中に自動化されたAI R&amp;Dが実現する可能性については30％との見方を示した。</p>
+<h2>背景にあるコーディング能力と長時間タスク遂行能力</h2>
+<p>クラーク氏は、AI研究開発の自動化が近づいている根拠として、AIシステムのコーディング能力と、長時間にわたって作業を続ける能力の伸長を挙げている。</p>
+<p>実際のGitHub上の課題をAIがどれだけ解決できるかを測る「SWE-Bench」では、2023年後半の開始時点でClaude 2の成功率は約2％だったが、Claude Mythos Previewは93.9％を記録し、ベンチマークがほぼ飽和する水準に達したという。</p>
+<p>また、AIエージェントがどの程度長いタスクをこなせるかを測るMETRの「time horizon」についても、AIシステムが50％の信頼性でこなせるタスクの長さが伸びていると指摘した。クラーク氏によると、2022年のGPT-3.5では約30秒だったが、2026年のOpus 4.6では約12時間に達している。</p>
+<p>さらにMETRは2026年5月8日、Claude Mythos Previewの初期版を評価に追加した。METRによると、同モデルは50％ time horizonで少なくとも16時間に達した可能性を示しているが、その一方で、現行のタスクスイートでは16時間を超える測定の信頼性が低いとも注記している。</p>
+<p><strong>■ Claude Mythos Preview（early）の50％ time horizonが少なくとも16時間に達した可能性を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d.jpg" alt="HH1ZeYvbYAAg36u.jpg" /></p>
+<h2>Anthropic公式アジェンダも「AI-driven R&amp;D」を重点領域に</h2>
+<p>クラーク氏は、2026年3月に設立が発表された「The Anthropic Institute」を率いている。Anthropicは2026年5月7日に<a href="https://www.anthropic.com/research/anthropic-institute-agenda">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>富士通とカーネギーメロン大学、フィジカルAI共同研究センターを設立　ロボット・センサー・空間を統合する開発中の「Kozuchi Physical OS」に2026年度から成果反映</title>
       <link>https://ledge.ai/articles/fujitsu_cmu_physical_ai_research_center</link>
       <description><![CDATA[<p>富士通と米カーネギーメロン大学（CMU）は2026年4月23日、フィジカルAI領域の共同研究センター「Fujitsu-Carnegie Mellon Physical AI Research Center」を設立したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/04/23-01">発表</a>した。フィジカルAIの機能性や拡張性を高める中核技術を共同で研究開発し、社会実装につなげる研究拠点を目指す。</p>
