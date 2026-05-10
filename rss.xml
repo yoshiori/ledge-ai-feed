@@ -282,45 +282,6 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
-      <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
-      <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
-<p>これに関連し、Business Insiderは同日、GoogleのDeepMind部門やCloud部門の社員を含む約600人が、スンダー・ピチャイCEOに対し、GoogleのAIシステムを米軍の機密業務に提供しないよう求める書簡を送ったと<a href="https://www.businessinsider.com/google-employees-ceo-block-classified-military-ai-projects-2026-4">報じた</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.5、Claude Mythos Previewに続き企業ネットワーク攻撃シミュレーションを完遂　英AISIがサイバー攻撃性能を検証</title>
-      <link>https://ledge.ai/articles/gpt_5_5_aisi_cyber_attack_simulation_mythos_preview</link>
-      <description><![CDATA[<p>英AI Security Institute（AISI）は2026年4月30日（現地時間）、OpenAIの最新モデル「GPT-5.5」に対するサイバー能力評価の結果を<a href="https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities">発表</a>した。GPT-5.5は、AISIが用意した32段階の企業ネットワーク攻撃シミュレーション「The Last Ones」を、10回中2回、エンドツーエンドで完了したという。AISIによると、同シミュレーションを完了したモデルは、Anthropicの「Claude Mythos Preview」に続き2例目となる。</p>
-<h2>GPT-5.5、AISI評価で「最強クラス」のサイバー能力</h2>
-<p>AISIは、GPT-5.5について「これまでにテストした中で最も強力なモデルの一つ」と説明している。評価は、CTF形式の短いサイバータスクと、複数ステップのサイバー攻撃を模擬するサイバーレンジで構成された。</p>
-<p>CTF形式の評価では、リバースエンジニアリング、Web exploitation、暗号解析などを含む95件のタスクを用いた。AISIによると、ExpertレベルのタスクにおけるGPT-5.5の平均成功率は71.4％だった。Claude Mythos Previewは68.6％、GPT-5.4は52.4％、Opus 4.7は48.6％であり、AISIはこの指標ではGPT-5.5が同機関のテストした中で最も強力なモデルである可能性があるとしている。</p>
-<p><strong>AISIの高度CTF評価における各モデルの平均成功率：GPT-5.5はExpertレベルのタスクで、比較対象モデルの中でも高い成功率を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/69f3620178b514e84c223b9a_CTF_Advanced_Blogpost2_Final_f28dabeb61/69f3620178b514e84c223b9a_CTF_Advanced_Blogpost2_Final_f28dabeb61.jpg" alt="69f3620178b514e84c223b9a_CTF Advanced Blogpost2 Final.jpg" /></p>
-<h2>Claude Mythos Previewに続き、32段階の企業ネットワーク攻撃を完了</h2>
-<p>AISIは、実世界のサイバー攻撃では複数の手順を連鎖させる必要があるとして、AIエージェントのエンドツーエンドの能力を測るためにサイバーレンジを使用している。</p>
-<p>今回の中核となる「The Last Ones」は、SpecterOpsと構築した32ステップの企業ネットワーク攻撃シミュレーションだ。4つのサブネットと約20台のホストにまたがる環境で、エージェントは認証情報を持たない低権限の攻撃用マシンから開始する。</p>
-<p>シナリオには、偵察、認証情報窃取、複数のActive Directoryフォレスト間での横展開、CI/CDサプライチェーンを経由したピボット、保護された内部データベースの持ち出しまでが含まれる。AISIは、人間の専門家なら全体の完了に約20時間かかると見積もっている。</p>
-<p>GPT-5.5は、この「The Last Ones」を10回中2回、エンドツーエンドで完了した。先に同シミュレーションを完了していたClaude Mythos Previewは、10回中3回完了していたという。AISIは、GPT-5.5を同レンジを完了した2つ目のモデルと位置付けている。</p>
-<p><strong>「The Last Ones」における各モデルの進行状況：GPT-5.5とClaude Mythos Previewは、最良試行で32ステップを完了し、「Full network takeover」に到達した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/69f37db9acecc5b36ff20b55_TLO_Blogpost2_final_cfcffbd5cd/69f37db9acecc5b36ff20b55_TLO_Blogpost2_final_cfcffbd5cd.jpg" alt="69f37db9acecc5b36ff20b55_TLO Blogpost2 final.jpg" /></p>
-<p>AISIは、今回の結果について、推論時に投入する計算量が増えるほど「The Last Ones」での性能が向上し続けており、最良のモデルではまだ頭打ちが観測されていないとも説明している。モデル世代が進むにつれて、同じトークン予算でも性能が概ね改善しているという。</p>
-<h2>産業制御システム攻撃のシミュレーションは未完了</h2>
-<p>AISIは、もう一つのサイバーレンジとして「Cooling Tower」も評価した。これはHack The Boxと構築した7ステップの産業制御システム（ICS）攻撃シミュレーションで、模擬発電所環境を対象とする。</p>
-<p>このシナリオでは、Web公開されたHMI（Human-Machine Interface）への侵入、独自制御プロトコルと暗号認証の解析、PLC（Programmable Logic Controller）操作による物理プロセスの妨害までを想定している。AISIは、人間の専門家なら完了に約15時間かかると見積もっている。</p>
-<p>ただし、GPT-5.5は「Cooling Tower」を完了できなかった。AISIによると、現時点でこのレンジを完了したモデルはない。またGPT-5.5は、OT固有の段階ではなくIT側の段階で行き詰まったため、この結果だけでは産業制御システム攻撃能力そのものを判断できないとしている。</p>
-<h2>実環境での攻撃成功を示すものではない</h2>
-<p>AISIは、今回の評価が制御された研究環境での能力評価であり、一般公開されているGPT-5.5のユーザーが同じ能力にアクセスできることを示すものではないと説明している。公開環境には追加の安全対策、監視、アクセス制御が含まれるためだ。</p>
-<p>また、AISIは、現在の2つのレンジには実環境に通常存在する能動的な防御者、防御ツール、検知アラートに対するペナルティが含まれていないとも指摘している。そのため、今回の結果からGPT-5.5が十分に防御された標的に成功できるかは判断できないとしている。評価の対象は、すでにネットワークアクセスがあり、特定の脆弱な標的に向けられた場合に、AIエージェントが何をできるかに限定される。</p>
-<p>なおAISIは、OpenAIのGPT-5.5 System Cardで当初「The Last Ones」の完了回数が10回中1回と記載されていた点について、採点上の問題を後から特定したと説明している。手動レビューの結果、モデルは最終ステップを完了していたと判断し、結果を10回中2回に更新したという。</p>
-<h2>AISI、複数モデルでサイバー能力の上昇を確認</h2>
-<p>AISIは、GPT-5.5の結果について、サイバー能力の急速な向上が単一モデルに固有の突破ではなく、より一般的な傾向である可能性を示すものだとしている。長期的な自律性、推論、コーディング能力の向上に伴い、攻撃的サイバー能力も副次的に高まっている可能性があるという。</p>
-<p>一方でAISIは、GPT-5.5のようなモデルがより広く利用可能になることで、防御側も同じ能力を自組織のシステム防御に活用できる可能性があるとしている。同機関は、英国のNational Cyber Security Centre（NCSC）などと連携し、組織がフロンティアAIに備えるための情報提供も進めている。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ASIMOの前身「P2」がIEEEマイルストーンに　Hondaの1996年の自立二足歩行技術を歴史的業績として評価</title>
       <link>https://ledge.ai/articles/honda_p2_ieee_milestone_humanoid_robot</link>
       <description><![CDATA[<p>Hondaは2026年4月28日、ヒューマノイドロボット 「P2」が、米電気電子学会（IEEE）から「IEEEマイルストーン」に認定されたと<a href="https://global.honda/jp/topics/2026/c_2026-04-28a.htm">発表</a>した。</p>
@@ -378,31 +339,6 @@
 <p>Leanは、数学の証明をコンピュータが確認できる形で書き直し、論理的に正しいかどうかをチェックするためのシステムだ。通常の数学の論文では、人間の数学者が文章を読んで正しさを確認する。一方、Leanでは、証明の手順をより厳密な形で記述し、コンピュータに確認させる。</p>
 <p>Erdős Problems公式ページでは、Erdős Problem #1196について「証明がLeanで検証された」と説明している。GitHub上には、同問題に関連するLean形式化コードも公開されている。</p>
 <p>生成AIは、もっともらしいが誤った説明を出すことがあるため、今回のように、AIが証明の案を出し、人間の数学者が内容を検討し、さらにLeanで機械的に検証する流れは、AIを数学研究に使ううえで重要な確認手段となる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIデータセンター向け電力確保で宇宙太陽光と長時間蓄電に投資　Overview Energy、Noon Energyと提携</title>
-      <link>https://ledge.ai/articles/meta_space_solar_long_duration_storage_ai_datacenter_power</link>
-      <description><![CDATA[<p>Metaは米国時間4月27日、AIインフラとデータセンター向けの安定した電力確保に向け、Overview EnergyおよびNoon Energyと提携したと<a href="https://about.fb.com/news/2026/04/powering-ai-strengthening-the-grid-space-solar-energy-and-long-duration-storage/">発表</a>した。</p>
-<p>Overview Energyとは、宇宙空間で取得した太陽光エネルギーを地上の太陽光発電施設に送る技術で、最大1GWの容量を確保する。Noon Energyとは、最大1GW／100GWhの超長時間エネルギー貯蔵容量を確保する計画だ。</p>
-<p>いずれも2028年の実証を予定しており、MetaはAIデータセンターの電力需要拡大に対応する取り組みと位置付けている。</p>
-<h2>AIデータセンター向けに、発電と蓄電の両面で新技術を活用</h2>
-<p>Metaは今回の発表で、AI開発を現在の速度と規模で進めるには、より多くのエネルギーが必要になると説明している。一方で、太陽光は日照時間、風力は天候に左右されるため、クリーンエネルギーを安定的に使うには、発電と蓄電の両面で新たな技術が必要になるとしている。</p>
-<p>今回の提携先は、宇宙太陽光エネルギーに取り組むOverview Energyと、超長時間蓄電技術を開発するNoon Energyの2社だ。Metaは、これらの技術をAIインフラとデータセンター運用を支える電力ソリューションとして活用する方針を示している。</p>
-<h2>Overview Energyとは最大1GWの宇宙太陽光エネルギーを確保</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Powering_Earthfrom_Space_Asset_1_001e7f87fb/Powering_Earthfrom_Space_Asset_1_001e7f87fb.webp" alt="PoweringEarthfromSpaceAsset-1.webp" /></p>
-<p>Overview Energyは、静止軌道上の衛星で太陽光を集め、低強度の近赤外光として地上の既存の太陽光発電施設に送る技術を開発している。地上側では、この光を電力に変換することで、通常は発電できない時間帯にも太陽光発電施設の稼働時間を延ばすことを目指す。</p>
-<p>MetaはOverview Energyとの提携により、同社の宇宙太陽光システムから最大1GWの容量に早期アクセスする権利を確保する。Overview Energyは、同システムについて、新たな土地や燃料、長期にわたる系統接続プロセスを必要とせず、既存の太陽光発電設備の出力を高められる設計だと<a href="https://www.overviewenergy.com/updates/overview-and-meta">説明</a>している。</p>
-<p>同社によると、衛星から地上へ送るビームは不可視で、太陽光よりも低強度であり、人や動物、航空機に対して受動的に安全な設計だという。Overview Energyの軌道上実証は2028年に予定されており、商用電力供給は2030年に見込まれている。ただし、現時点では商用運用中ではなく、実証前の技術である。</p>
-<h2>Noon Energyとは最大1GW／100GWhの長時間蓄電容量を確保</h2>
-<p>Noon Energyは、モジュール式の可逆固体酸化物燃料電池を使い、100時間超のエネルギー貯蔵を可能にする超長時間蓄電技術を開発している。同社によると、この技術はリチウムのような比較的希少な金属ではなく、炭素や酸素など豊富に存在する元素を使ってエネルギーを貯蔵する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/fc78e1_5fb41f3857c14fbd815c3f4e2e4a2762_mv2_3dcce523b8/fc78e1_5fb41f3857c14fbd815c3f4e2e4a2762_mv2_3dcce523b8.webp" alt="fc78e1_5fb41f3857c14fbd815c3f4e2e4a2762~mv2.webp" /></p>
-<p>Noon Energyは4月21日、Metaとの契約により、最大1GW／100GWhのエネルギー貯蔵容量を確保すると<a href="https://www.noon.energy/post/noonenergyandmetapartnership">発表</a>していた。初期段階として、25MW／2.5GWhのプロジェクトを2028年までに完了する予定だ。その成功後、Noon Energyは1GW／100GWhの供給契約に基づくシステム提供を始めるとしている。</p>
-<p>この蓄電技術は、再生可能エネルギーの発電量が低い期間にも、複数日にわたって電力を貯蔵・放電できるようにするものだ。Metaは、データセンターをより早く稼働させるには、信頼性の高いエネルギー源の迅速な導入が必要だとしており、Noon Energyとの契約は送電網のレジリエンスと安定電力の確保につながると説明している。</p>
-<h2>原子力や地熱も含め、電力ポートフォリオを拡大</h2>
-<p>Metaは今回の発表で、これまでに30GW超のクリーン・再生可能エネルギー契約を結んできたと説明している。さらに、次世代地熱発電に取り組むSage GeosystemsやXGS Energyとの提携、原子力関連ではVistra、TerraPower、Oklo、Constellation Energyとの契約にも言及している。</p>
-<p>同社は2026年1月にも、AIインフラを支える電力確保に向け、Vistra、TerraPower、Okloとの原子力関連プロジェクトを<a href="https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/">発表</a>していた。今回の宇宙太陽光と長時間蓄電の提携は、AIデータセンター向けに発電源と蓄電手段を多様化する取り組みの一部といえる。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
@@ -532,7 +468,7 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米Subquadratic、ポストTransformerの長文脈AIモデル「SubQ」発表　1200万トークン対応をうたう“完全subquadratic”LLM</title>
+      <title>学術＆研究2026/5/10 [SUN]米Subquadratic、ポストTransformerの長文脈AIモデル「SubQ」発表　1200万トークン対応をうたう“完全subquadratic”LLM</title>
       <link>https://ledge.ai/articles/subquadratic_subq_long_context_llm</link>
       <description><![CDATA[<p>米AI開発企業のSubquadraticは2026年5月5日（現地時間）、同社初のAIモデル「SubQ 1M-Preview」を<a href="https://subq.ai/introducing-subq">発表</a>した。SubQは、同社が「完全なsubquadraticアーキテクチャ」と説明する構造を採用した大規模言語モデル（LLM）で、コンテキスト長に対して計算量が線形に増えるとしている。</p>
 <p>同社によると、SubQの研究モデルは最大1200万トークンで動作し、他のフロンティアモデルと比べてアテンション計算量を約1000分の1に削減するという。Subquadraticは、SubQを「長文脈タスク向けに構築した最初のモデル」と位置付けている。</p>
@@ -600,7 +536,7 @@
       <pubDate>Mon, 04 May 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/5/3 [SUN]Google DeepMind、AGIへの進捗を測る認知フレームワークを発表　「知性」を「知覚・生成・注意・学習・記憶・推論・メタ認知・実行機能・問題解決・社会的認知」の10の能力に分解して評価</title>
+      <title>Google DeepMind、AGIへの進捗を測る認知フレームワークを発表　「知性」を「知覚・生成・注意・学習・記憶・推論・メタ認知・実行機能・問題解決・社会的認知」の10の能力に分解して評価</title>
       <link>https://ledge.ai/articles/google_deepmind_agi_cognitive_framework</link>
       <description><![CDATA[<p>Google DeepMindは2026年3月17日、AGI（汎用人工知能）への進捗を測定するための認知フレームワークを<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/">発表</a>した。AIシステムの「知性」を評価する実証的なツールが不足しているとして、認知科学を基盤に、AIの能力を複数の認知能力に分解して測定する方法を提案している。</p>
 <p>同社はあわせて、Kaggle上で関連する評価手法を募るハッカソン「<a href="https://www.kaggle.com/competitions/kaggle-measuring-agi">Measuring progress toward AGI: Cognitive abilities</a>」も開始した。研究コミュニティに対し、このフレームワークを実践に移すための評価手法の構築を呼びかけている。</p>
