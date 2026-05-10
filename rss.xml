@@ -234,6 +234,32 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、Gemma 4の推論を最大3倍高速化する「Multi-Token Prediction」公開　軽量ドラフトモデルが先読み、大型モデルが並列検証</title>
+      <link>https://ledge.ai/articles/google_gemma4_multi_token_prediction</link>
+      <description><![CDATA[<p>Googleは2026年5月5日（現地時間）、オープンモデル「Gemma 4」ファミリー向けに、推論を高速化する「Multi-Token Prediction（MTP）drafters」を公開したと<a href="https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/">発表</a>した。軽量なドラフトモデルが複数の将来トークンを先に予測し、大型のターゲットモデルがそれらを並列に検証する仕組みで、Googleによると、出力品質や推論ロジックを損なわずに最大3倍の高速化を実現するという。</p>
+<p><strong>■ Googleは、Gemma 4の各モデル・実行環境でMTP drafterによる高速化を確認したとしている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Chart_Blog_Updated_width_1000_format_webp_930dada805/Chart_Blog_Updated_width_1000_format_webp_930dada805.webp" alt="Chart_Blog_Updated.width-1000.format-webp.webp" /></p>
+<p>MTP draftersは、Googleが同年3月に発表したGemma 4ファミリーに対応する。Gemma 4は、E2B、E4B、31B、26B A4Bの4サイズで展開されており、Google AI for Developersのリリース履歴では、4月16日にこれらのモデル向けMTPがリリースされたと記載されている。</p>
+<h2>軽量モデルが先読みし、大型モデルが検証</h2>
+<p>Googleは、標準的な大規模言語モデル（LLM）の推論では、トークンを1つ生成するたびに大量のパラメータをメモリから計算ユニットへ移動する必要があり、メモリ帯域が遅延のボトルネックになりやすいと説明している。</p>
+<p>MTP draftersでは、Gemma 4本体のような重いターゲットモデルに加え、軽量なドラフトモデルを組み合わせる。ドラフトモデルが複数の候補トークンを先に生成し、ターゲットモデルがそれらを並列に検証する。候補が受け入れられた場合、通常なら1トークンを生成する時間で、複数トークンをまとめて出力できる。</p>
+<p>この手法は「Speculative Decoding（投機的デコーディング）」とも呼ばれる。Google AI for Developersの技術ドキュメントでは、Gemma 4におけるMTPは、高効率なSpeculative Decodingを可能にするための具体的なアーキテクチャだと説明されている。</p>
+<h2>ターゲットモデルの情報を利用し、品質を維持</h2>
+<p>Gemma 4のMTP drafterは、完全に独立した別モデルではない。Googleの技術ドキュメントによると、ドラフトモデルはターゲットモデルと入力埋め込みを共有し、ターゲットモデルの最終層のアクティベーションを利用する。これにより、ドラフトモデルはターゲットモデルがすでに処理した文脈を活用しながら、次の候補トークンを予測できる。</p>
+<p>Googleは、こうした設計により、標準的な自己回帰生成と同等の品質を維持しながら、デコード速度を高められるとしている。Hugging Face Transformers向けの公式ドキュメントでは、ターゲットモデルと、軽量な4層のMTP drafterを読み込み、drafterをassistant modelとして指定する利用方法が示されている。</p>
+<h2>低遅延チャット、音声アプリ、エージェント用途を想定</h2>
+<p>Googleは、推論速度が本番環境への展開で主要なボトルネックになりやすいとし、MTP draftersにより、低遅延のチャット、音声アプリ、エージェント型ワークフロー、オンデバイスで動くモバイルアプリなどの応答性を高められるとしている。</p>
+<p>Gemma 4本体と対応するdrafterを組み合わせることで、E2BやE4Bモデルのオンデバイス性能を高めたり、26B MoEや31B DenseモデルをPCやコンシューマーGPU上でより高速に動かしたりできるという。Google AI Edgeのページでも、MTPはCPUおよびGPUバックエンドのデコード速度を大きく高速化する性能最適化だと説明されている。</p>
+<h2>Hugging FaceやKaggleでモデル重みを公開</h2>
+<p>Gemma 4ファミリー向けのMTP draftersは、Gemma 4と同じApache 2.0ライセンスで提供される。Googleによると、モデル重みはHugging FaceやKaggleで公開されており、Hugging Face Transformers、MLX、vLLM、SGLang、Ollamaなどで試せる。</p>
+<p>Hugging Face上のGoogle公式モデルカードでも、MTP drafterはGemma 4モデル向けのものであり、小さく高速なドラフトモデルを拡張する形で実装されると説明されている。同カードでは、MTPをSpeculative Decodingのパイプラインで使うと、ドラフトモデルが数トークン先を予測し、ターゲットモデルがそれらを並列に検証するとしている。</p>
+<h2>モデルや実行環境により効果は異なる</h2>
+<p>一方で、MTPによる高速化の効果はモデルや実行環境によって異なる。Google公式ブログでは、Gemma 4 26B A4BのようなMixture of Experts（MoE）モデルについて、Apple Silicon上のバッチサイズ1では独自のルーティング課題がある一方、複数リクエストを同時に処理するバッチサイズ4〜8では、ローカルで最大約2.2倍の高速化が得られるとしている。</p>
+<p>Googleは、MTP draftersにより、Gemma 4のようなオープンモデルを、より低遅延で実用アプリケーションに組み込みやすくなると位置づけている。大型モデルの性能を維持したまま、軽量な補助モデルに先読みさせる今回の仕組みは、オンデバイスAIやエージェント、リアルタイム対話型アプリケーションの実装に向けた推論高速化の一手となる。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、米国防総省の機密AI利用契約に合意か　DeepMind・Cloud部門含む社員約600人がCEOに抗議書簡</title>
       <link>https://ledge.ai/articles/google_pentagon_classified_ai_employee_letter</link>
       <description><![CDATA[<p>米メディアのThe Informationは現地時間の2026年4月28日、Googleが米国防総省と、同社のAIモデルを機密扱いの業務で利用できるようにする契約に合意したと<a href="https://www.theinformation.com/articles/google-signs-classified-ai-deal-pentagon-amid-employee-opposition">報じた</a>。契約により、米国防総省はGoogleのAIを「あらゆる合法的な政府目的」で利用できるようになるとされる。</p>
@@ -501,37 +527,6 @@
 <p>キャプチャ認証やチューリングテストの有効性が低下し、人間を対象とした制度がAIによって悪用されるリスク、ディープフェイクを用いた詐欺被害、AI生成の偽情報拡散などが課題になっているという。</p>
 <p>同研究室は、こうした状況に対し、「AIを制限するのではなく、人間側に一意性を持たせる」という発想から生まれた仕組みが、Worldの提供する「人間証明（Proof of Humanity）」だとしている。</p>
 <p>東京大学 松尾・岩澤研究室は、ディープラーニングや大規模言語モデル、ロボット研究などに取り組むAI研究拠点。今回の参画は、AI研究機関が分散型の人間証明基盤の運用に関わる国内事例となる。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Xiaomi、1兆パラメータ級AIモデル「MiMo-V2.5-Pro」をオープンソース公開　長期エージェントタスクでClaude Opus 4.6に迫ると主張</title>
-      <link>https://ledge.ai/articles/xiaomi_mimo_v2_5_pro_open_source_agent_model</link>
-      <description><![CDATA[<p>中国XiaomiのAI研究開発部門「Xiaomi MiMo」は2026年4月27日、AIモデル「MiMo-V2.5-Pro」をオープンソースとして<a href="https://mimo.xiaomi.com/mimo-v2-5-pro">公開</a>した。MiMo-V2.5-Proは、1.02兆パラメータ、42BアクティブパラメータのMixture-of-Experts（MoE）モデルで、1Mトークンのコンテキストウィンドウに対応する。Xiaomiは、エージェント能力や複雑なソフトウェアエンジニアリング、長期タスクで、前身モデルのMiMo-V2-Proから大きく性能を向上させたとしている。</p>
-<h2>1.02兆パラメータのMoEモデル、1Mトークンに対応</h2>
-<p>MiMo-V2.5-Proは、Xiaomi MiMoが「同社で最も高性能なモデル」と位置付けるAIモデルだ。1.02兆の総パラメータを持ち、そのうち推論時に有効化されるアクティブパラメータは42B。ハイブリッドアテンションアーキテクチャを採用し、1Mトークンの長文コンテキストを扱える。</p>
-<p>同社によると、MiMo-V2.5-Proは、適切な実行環境と組み合わせることで、1000回を超えるツール呼び出しにまたがる複雑な長期タスクを維持できるという。エージェント用途では、文脈内に含まれる細かな要求への追従や、超長文コンテキスト全体での一貫性も改善したとしている。</p>
-<p>Hugging Faceのモデルカードでは、MiMo-V2.5-Proについて、MiMo-V2-Flashで導入されたハイブリッドアテンションと3層のMulti-Token Prediction（MTP）を利用し、最大1Mトークンのコンテキスト長に対応するオープンソースのMoE言語モデルと説明している。ライセンスはMITと記載されている。</p>
-<h2>コーディングや長期タスクでの性能を訴求</h2>
-<p>Xiaomiは、MiMo-V2.5-Proの能力を示す事例として、北京大学の「Compiler Principles」コースプロジェクトをもとにしたSysYコンパイラ実装タスクを挙げている。このタスクでは、Rustでレキサー、パーサー、AST、Koopa IRコード生成、RISC-Vアセンブリバックエンド、性能最適化までを実装する必要がある。</p>
-<p><strong>SysYコンパイラ実装タスクにおけるMiMo-V2.5-Proの進捗。Xiaomiは、4.3時間で233問中233問に合格したとしている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Building_a_complete_Sys_Y_compiler_2af8b757dd/Building_a_complete_Sys_Y_compiler_2af8b757dd.jpg" alt="Building a complete SysY compiler.jpg" /></p>
-<p>MiMo-V2.5-Proはこの課題を4.3時間、672回のツール呼び出しで完了し、隠しテストスイートで233問中233問に合格したという。また、動画編集アプリの生成では、マルチトラックタイムライン、クリップトリミング、クロスフェード、音声ミキシング、エクスポート機能を備えたデスクトップアプリを生成し、最終ビルドは8192行のコードになったとしている。</p>
-<p>Xiaomiはさらに、アナログ回路設計タスクの例も示している。TSMC 180nm CMOSプロセスにおけるFVF-LDO（Flipped-Voltage-Follower low-dropout regulator）の設計・最適化タスクで、ngspiceによるシミュレーションループにMiMo-V2.5-Proを組み込み、約1時間の反復で目標指標を満たす設計を生成したとしている。</p>
-<h2>Claude Opus 4.6、Gemini 3.1 Proとの比較も提示</h2>
-<p>Xiaomiは、MiMo-V2.5-Proのコーディング能力について、同社の内部評価スイート「MiMo Coding Bench」を用いた比較を示している。同ベンチマークは、Claude Codeなどのエージェントフレームワーク上で、リポジトリ理解、プロジェクト構築、コードレビュー、構造化成果物の生成、計画、ソフトウェアエンジニアリングなどを評価するものだという。</p>
-<p><strong>Xiaomiが公式ページで示したベンチマーク比較。MiMo-V2.5-Proの性能訴求は、同社が提示した評価結果に基づく</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/full_benchmark_results_28975f3215/full_benchmark_results_28975f3215.jpg" alt="full benchmark results.jpg" /></p>
-<p>公式ページでは、「MiMo Coding Bench — closing the gap to Opus 4.6」として、Claude Opus 4.6との差を縮めたとアピールしている。また、ClawEvalでは、MiMo-V2.5-Proが64% Pass^3を記録し、1軌跡あたり約7万トークンを使用したとしている。同社は、同等の能力水準において、Claude Opus 4.6、Gemini 3.1 Pro、GPT-5.4よりもトークン使用量が約40〜60%少ないと説明している。</p>
-<p>ただし、これらはXiaomiが提示した内部評価やベンチマーク結果に基づくものだ。記事上では、MiMo-V2.5-ProがClaude Opus 4.6やGemini 3.1 Proを客観的に上回ったと断定するのではなく、Xiaomi側の性能訴求として扱う必要がある。</p>
-<h2>MiMo-V2.5はマルチモーダル理解を強化</h2>
-<p>Xiaomi MiMoは、MiMo-V2.5-Proに先立ち、2026年4月22日に「MiMo-V2.5」も公開している。MiMo-V2.5は、エージェント能力とマルチモーダル理解を強化したモデルで、画像・音声をネイティブに理解し、最大1Mトークンのコンテキストに対応する。</p>
-<p>MiMo-V2.5は、310Bパラメータ、15BアクティブパラメータのSparse MoEモデルで、48Tトークンで学習された。言語バックボーンはMiMo-V2-Flashのハイブリッド・スライディングウィンドウ・アテンションアーキテクチャを継承し、専用の視覚エンコーダーと音声エンコーダーを組み合わせている。</p>
-<p>同社はMiMo-V2.5について、画像、動画、マルチモーダルエージェントタスクにおいて、フロンティア級のクローズドモデルと同等水準にあると説明している。具体的には、動画ではGemini 3 Pro、マルチモーダルエージェントワークではClaude Sonnet 4.6と並ぶ性能を示したとしている。</p>
-<h2>API、AI Studio、Hugging Faceで利用可能に</h2>
-<p>MiMo-V2.5-Proは、Xiaomi MiMoのAPI Platform、AI Studioなどで提供されている。Xiaomiは、既存の利用者に対し、モデルタグを「mimo-v2.5-pro」に置き換えるだけで利用できると説明している。</p>
-<p>また、MiMo-V2.5-ProとMiMo-V2.5はいずれもHugging Face上でモデルカードが公開されている。MiMo-V2.5-Proのモデルカードには、モデルのダウンロード先、評価結果、アーキテクチャ、学習プロセス、SGLangやvLLMでのデプロイ手順が掲載されている。</p>
-<p>XiaomiはMiMo-V2.5シリーズについて、Claude Code、OpenCode、Kiloなどの開発用フレームワークに統合できるとしている。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
