@@ -250,6 +250,30 @@
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、SpaceXと提携　「Claude Code」の利用上限を倍増、22万基超のNVIDIA GPUを確保</title>
+      <link>https://ledge.ai/articles/anthropic_spacex_claude_code_compute_capacity</link>
+      <description><![CDATA[<p>米Anthropicは2026年5月6日（現地時間）、SpaceXとのパートナーシップを締結し、同社のAIモデル「Claude」向けのコンピューティング容量を大幅に増強すると<a href="https://www.anthropic.com/news/higher-limits-spacex">発表</a>した。これに伴い、AIコーディングツール「Claude Code」とClaude APIの利用上限も引き上げるという。</p>
+<p>今回の契約により、同社はSpaceXの「Colossus 1」データセンターの全コンピュート容量を利用する。1カ月以内に300MW超の新たな容量、22万基超のNVIDIA GPUにアクセスできるようになるという。</p>
+<h2>Claude Codeの5時間レート制限を2倍に</h2>
+<p>今回の変更は同日から有効となる。Anthropicは、Pro、Max、Team、座席ベースのEnterpriseプランを対象に、Claude Codeの5時間あたりのレート制限を2倍にする。</p>
+<p>また、ProおよびMaxアカウントについては、ピーク時間帯に利用上限を引き下げる制限も撤廃。さらに、Claude OpusモデルのAPIレートリミットも大幅に引き上げるとしている。</p>
+<p>Claude Codeは、Anthropicが提供するAIコーディングツール。開発者がターミナルなどからClaudeを利用し、コードの生成や修正、リファクタリング、デバッグ支援などに使える。</p>
+<h2>SpaceXの「Colossus 1」全容量を利用</h2>
+<p>Anthropicは、今回のSpaceXとの契約について、Claudeの利用拡大に対応するためのものだと説明している。追加される容量は、Claude ProおよびClaude Max加入者向けの容量改善に直接つながるという。</p>
+<p>同社は、Claudeの需要が増加し続けているとしている。とくにClaude Codeのような開発者向け用途では、長時間の利用や高頻度のリクエストが発生しやすく、利用上限の緩和は実務上の使いやすさに直結する。</p>
+<p>今回の発表では、SpaceX側の個別発表は確認できていないため、Anthropicの公式発表に基づく内容となる。</p>
+<h2>AmazonやGoogleに続く計算資源確保</h2>
+<p>Anthropicは近年、Claudeの学習・推論に必要な計算資源を拡大している。</p>
+<p>同社は2026年4月、Amazonとの提携拡大により、Claudeの学習・運用向けに最大5GWの容量を確保すると発表した。また、GoogleおよびBroadcomとの提携では、2027年以降に稼働予定の次世代TPU容量を複数GW規模で確保すると発表している。</p>
+<p>2025年11月には、Microsoft、NVIDIAとの戦略的提携も発表していた。Azure上でClaudeを拡大し、300億ドルのAzureコンピュート容量購入を約束したほか、追加で最大1GWのコンピュート容量を契約するとしていた。
+の大型コンピュート確保の流れに続くものといえる。</p>
+<h2>AI企業の競争軸に「計算資源」</h2>
+<p>生成AIサービスの利用拡大に伴い、AI企業にとって計算資源の確保は重要な課題になっている。モデル性能だけでなく、大量のユーザーに安定してサービスを提供できるかどうかも、競争力を左右する。</p>
+<p>Anthropicは今回、SpaceXのデータセンター容量を活用することで、Claude CodeやClaude APIの利用上限引き上げにつなげる。AIコーディングやAIエージェント用途の広がりを背景に、主要AI企業の間では、モデル開発と並行してインフラ確保の動きも加速している。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple、iPhoneのAI機能めぐる集団訴訟で2.5億ドル（約390億円）の和解に合意　Siri強化機能の広告が消費者を誤認させたかが争点に</title>
       <link>https://ledge.ai/articles/apple_iphone_ai_features_settlement_siri_ads</link>
       <description><![CDATA[<p>Appleが、AI機能「Apple Intelligence」のSiri関連機能をめぐる米国の集団訴訟で、総額2億5000万ドルの和解に合意したことが、2026年5月5日（現地時間）に提出された裁判所文書で明らかになった。原告側法律事務所のClarkson Law Firmも同日、和解を<a href="https://clarksonlawfirm.com/clarkson-law-firm-secures-250-million-settlement-in-landmark-ai-focused-false-advertising-class-action-against-apple/">発表</a>した。</p>
