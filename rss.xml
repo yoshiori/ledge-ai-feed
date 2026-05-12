@@ -5,6 +5,46 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、Claude for Microsoft 365を一般提供　Excel・Word・PowerPointで文脈を引き継ぐAI作業支援</title>
+      <link>https://ledge.ai/articles/claude_for_microsoft_365_general_availability</link>
+      <description><![CDATA[<p>Anthropicは2026年5月7日（現地時間）、Microsoft 365アプリ内でClaudeを利用できる「Claude for Microsoft 365」の提供範囲を拡大したと<a href="https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook">発表</a>した。Claude for Excel、PowerPoint、Wordを全有料プラン向けに一般提供し、Claude for Outlookをパブリックベータとして提供開始した。</p>
+<p>Claude for Microsoft 365は、Excel、PowerPoint、Word、Outlookの各アプリ内でClaudeを利用できるアドインだ。Anthropicによると、Claudeは複数のMicrosoft 365アプリをまたいで会話の文脈を保持できる。たとえば、Excel上の分析結果をWord文書に反映したり、PowerPointのグラフをExcelの最新数値に基づいて更新したりできるという。</p>
+<p>@<a href="https://www.youtube.com/watch?v=F6dzjaBCBtU">YouTube</a></p>
+<h2>Excel・Word・PowerPoint間で文脈を保持</h2>
+<p>Claude for Microsoft 365は、Excel、PowerPoint、Word、Outlookを横断して作業の文脈を保持できる。表計算、文書作成、スライド作成、メール対応を同じ会話の流れで扱える点が特徴だ。。Microsoft Marketplace上でも、Claude for Microsoft 365はExcel、PowerPoint、Word向けのアドインとして掲載されている。</p>
+<p>Claudeは、開いているExcelブック、PowerPointプレゼンテーション、Word文書、Outlookメールの内容を参照し、必要に応じて編集も支援する。たとえば、Excelモデルの数値をPowerPointスライドやWordメモに反映する、Excelの最新数値でPowerPointのグラフを更新する、Word文書をPowerPointスライドに要約するといった作業に対応する。</p>
+<p>従来、表計算、文書作成、スライド作成をまたぐ作業では、ユーザーが各アプリ間で情報をコピーしたり、AIに同じ前提を説明し直したりする必要があった。Anthropicは、Claudeが同じ会話の流れを保ちながら複数アプリを扱うことで、こうした作業の分断を減らせるとしている。</p>
+<h2>Outlookはパブリックベータで提供</h2>
+<p>今回の発表では、Claude for Excel、PowerPoint、Wordが一般提供された一方、Claude for Outlookはパブリックベータとして提供される。Outlook向けアドインは、メールの整理、返信下書き、会議日程の調整などを支援する。</p>
+<p>Outlookでは、メールのスレッドや添付ファイルを踏まえた返信案の作成にも対応する。返信案はOutlookの作成画面に未送信の下書きとして挿入され、ユーザーが確認したうえで送信する。宛先、件名、本文を含めて下書きを作成するが、送信はユーザーが確認したうえで行う設計となっている。</p>
+<p>また、Claudeは参加者の空き時間を確認して会議日程を調整したり、未読メールを整理して対応が必要なものを把握したりする用途にも対応するとしている。</p>
+<h2>企業導入向けの管理機能も用意</h2>
+<p>企業向けには、IT管理者がMicrosoft管理センターからアドインを展開できる仕組みや、ログ取得、利用状況の確認機能も用意されている。Claudeアカウントでの利用に加え、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Foundry上のClaudeモデルに既存のLLMゲートウェイ経由で接続する構成も示されている。</p>
+<p>Microsoft 365は、表計算、文書作成、プレゼンテーション、メールといった企業の日常業務に広く使われている。今回の一般提供により、Claudeは単体のチャットサービスにとどまらず、業務アプリ内で作業を支援するAIとして利用範囲を広げることになる。ただし、Outlookは現時点でパブリックベータであり、企業で本格利用する場合は提供範囲や管理者設定の確認が必要となる。</p>
+]]></description>
+      <pubDate>Mon, 11 May 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「セーラームーン」に酷似と批判されたAI制作広告、化粧品メーカーのウテナが謝罪　動画削除・交通広告撤去へ</title>
+      <link>https://ledge.ai/articles/ai_ad_sailor_moon_utena_apology</link>
+      <description><![CDATA[<p>化粧品やスキンケア商品を手掛けるウテナは2026年5月6日、スキンケアブランド「ウテナ モイスチャー」の広告に関して謝罪し、公式YouTube動画の削除および交通広告の撤去を<a href="https://www.utena.co.jp/pdf/20260506_moisture_2.pdf">発表</a>した。同広告をめぐっては、生成AIを用いた広告制作や、特定の既存作品との類似性について多くの意見が寄せられていた。</p>
+<p>SNS上では、同広告がアニメ「美少女戦士セーラームーン」を想起させるとの批判が出ていた。ウテナは発表の中で作品名を明示していないが、既存作品への敬意やファンへの配慮が不足していたとしている。</p>
+<h2>AIで制作した「変身ヒロイン風アニメ」広告</h2>
+<p>問題となった広告は、同社のスキンケアブランド「ウテナ モイスチャー」のプロモーションとして制作されたものだ。ウテナは2026年4月27日から東京のJR山手線28駅で交通広告を掲出し、5月1日からは大阪のOsaka Metro4駅でも広告掲出を始めた。あわせて、公式YouTubeでPRアニメ動画「潤い戦士 モイスチャー」を公開していた。</p>
+<p>ウテナは当初の発表で、同広告を「変身ヒロイン風アニメ」と説明していた。動画については「全編AIを活用して映像化した本格アニメーション動画」としており、企画・構成などの中核部分は人間が担い、映像化のプロセスにAIを活用したとしていた。</p>
+<p>また、同社は当初の発表で、同作について「特定の既存作品やキャラクターをAIに学習させたものではない」と説明していた。制作後も人の監修のもと、類似性の確認を行いながら仕上げたとしていた。</p>
+<h2>公式動画とSNS投稿を削除、交通広告も撤去</h2>
+<p>ウテナは5月6日付の発表で、生成AIを用いた広告制作や特定の既存作品との類似性に関して、多くの意見が寄せられたと説明した。</p>
+<p>同社は、公式YouTubeの該当動画と関連するSNS投稿を削除すると発表。掲出中の交通広告についても順次撤去するとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/utena_letter_108ba15a2f/utena_letter_108ba15a2f.jpg" alt="utena letter.jpg" /></p>
+<h2>リーガルチェック済みでも問題化</h2>
+<p>ウテナによると、今回の広告は外部専門家を交えてリーガルチェックを重ねたうえで公開していた。今後は、改めて専門家など第三者の指導を受けながら、関連する法規制上の問題がないか確認するという。</p>
+<p>また、同社は、法的ルールの遵守だけでなく、広告を見る人への配慮を含めた表現チェック体制を全面的に見直し、再発防止に努めるとしている。</p>
+<p>生成AIを活用した広告制作では、制作時間の短縮や表現の幅の拡大が期待される一方で、既存作品との類似性や文化的文脈への配慮が課題となる。今回の事例は、AI活用の有無にとどまらず、公開前の表現確認や第三者チェックのあり方が問われるケースとなった。</p>
+]]></description>
+      <pubDate>Mon, 11 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>大型AIカンファレンス「THE AI 2026」6月5日オンライン開催決定、本日より参加申込受付開始</title>
       <link>https://ledge.ai/articles/the-ai-2026_announce</link>
       <description><![CDATA[<p>「AIをはじめとする最先端テクノロジーを社会になめらかに浸透させる」をミッションに掲げ、国内最大級のAI（人工知能）関連メディア「Ledge.ai」を運営するほか、AIソリューションの企画・開発を行う株式会社レッジは、大型AIカンファレンス「THE AI 2026」を2026年6月5日（金）にオンラインで開催します。本日、イベントサイトをオープンし、あわせて参加申込（無料）の受付を開始しました。
@@ -12,28 +52,6 @@
 <p>イベントサイト：<a href="https://ledge-the-ai-2026.studio.site">https://ledge-the-ai-2026.studio.site</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 10 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/5/10 [SUN]Anthropic共同創業者、AIが次世代AIを自ら開発する時代に言及　2028年末までに「60％超」の可能性</title>
-      <link>https://ledge.ai/articles/anthropic_jack_clark_automated_ai_r_and_d_2028</link>
-      <description><![CDATA[<p>Anthropic共同創業者のジャック・クラーク氏は2026年5月4日付のニュースレター「<a href="https://importai.substack.com/p/import-ai-455-automating-ai-research">Import AI</a>」で、2028年末までに、フロンティアAIモデルが自らの後継版を自律的に構築できる「人間が関与しないAI R&amp;D」が起きる可能性について、60％超との見方を示した。
-クラーク氏は、この状態を「AIシステムが自らの後継版を自律的に構築できるほど強力になること」と説明している。同氏は、これは大きな出来事であり、自分でもどう受け止めればよいかわからないと述べた。AI研究がエンドツーエンドで自動化されれば、予測が極めて難しい未来に踏み込むことになるとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Import_AI_455_74742dcd79/Import_AI_455_74742dcd79.jpg" alt="Import AI 455.jpg" /></p>
-<h2>「後継AIを自律的に構築」、2028年末までに60％超と予測</h2>
-<p>クラーク氏は、完全に自動化されたAI研究開発が2026年中に起きるとは考えていない。一方で、今後1〜2年のうちに、モデルが後継モデルをエンドツーエンドで訓練する事例が出る可能性はあるとした。特に、非フロンティアモデルの段階では概念実証が現れる可能性があるという。</p>
-<p>同氏は、この見方は主に公開情報に基づくものだと説明している。arXiv、bioRxiv、NBERの論文や、フロンティアAI企業が実際に展開している製品を見たうえで、現在のAIシステムを作るために必要な工学的要素は、自動化に向けた部品がそろいつつあると判断している。</p>
-<p>ただし、AI研究には創造性や異端的な洞察も必要だとし、現在のAIシステムがそれを変革的な規模で示したとはまだ言えないとも述べている。そのため、2027年中に自動化されたAI R&amp;Dが実現する可能性については30％との見方を示した。</p>
-<h2>背景にあるコーディング能力と長時間タスク遂行能力</h2>
-<p>クラーク氏は、AI研究開発の自動化が近づいている根拠として、AIシステムのコーディング能力と、長時間にわたって作業を続ける能力の伸長を挙げている。</p>
-<p>実際のGitHub上の課題をAIがどれだけ解決できるかを測る「SWE-Bench」では、2023年後半の開始時点でClaude 2の成功率は約2％だったが、Claude Mythos Previewは93.9％を記録し、ベンチマークがほぼ飽和する水準に達したという。</p>
-<p>また、AIエージェントがどの程度長いタスクをこなせるかを測るMETRの「time horizon」についても、AIシステムが50％の信頼性でこなせるタスクの長さが伸びていると指摘した。クラーク氏によると、2022年のGPT-3.5では約30秒だったが、2026年のOpus 4.6では約12時間に達している。</p>
-<p>さらにMETRは2026年5月8日、Claude Mythos Previewの初期版を評価に追加した。METRによると、同モデルは50％ time horizonで少なくとも16時間に達した可能性を示しているが、その一方で、現行のタスクスイートでは16時間を超える測定の信頼性が低いとも注記している。</p>
-<p><strong>■ Claude Mythos Preview（early）の50％ time horizonが少なくとも16時間に達した可能性を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d.jpg" alt="HH1ZeYvbYAAg36u.jpg" /></p>
-<h2>Anthropic公式アジェンダも「AI-driven R&amp;D」を重点領域に</h2>
-<p>クラーク氏は、2026年3月に設立が発表された「The Anthropic Institute」を率いている。Anthropicは2026年5月7日に<a href="https://www.anthropic.com/research/anthropic-institute-agenda">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 10 May 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、Gemma 4の推論を最大3倍高速化する「Multi-Token Prediction」公開　軽量ドラフトモデルが先読み、大型モデルが並列検証</title>
@@ -126,41 +144,6 @@
       <pubDate>Wed, 06 May 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、AIエージェントによる物品売買実験「Project Deal」を発表　Claude OpusとHaikuで成約数・価格に差</title>
-      <link>https://ledge.ai/articles/anthropic_project_deal_ai_agent_marketplace_experiment</link>
-      <description><![CDATA[<p>Anthropicは4月24日（現地時間）、同社のAIモデル「Claude」を用いた物品売買実験「Project Deal」の結果を<a href="https://www.anthropic.com/features/project-deal">発表</a>した。同社のサンフランシスコオフィス内に、従業員同士が私物を売買するマーケットプレイスを作り、Claudeエージェントが人間の代理として出品、価格交渉、成約までを担った。</p>
-<p>Anthropicの付録PDFによると、実際に物品交換まで行われたRun Aでは、69体のAIエージェントが575点の商品を対象に取引を行い、206件の取引を成立させた。総取引額は4010ドルだった。</p>
-<h2>ClaudeエージェントがSlack上で売買交渉</h2>
-<p>Project Dealでは、参加者がClaudeとのインタビューを通じて、売りたい私物、希望価格、買いたいもの、支払ってもよい金額、交渉スタイルなどを伝えた。その情報をもとに、各参加者専用のClaudeエージェントが作成された。</p>
-<p>実験はAnthropic社内のSlackチャンネル上で行われた。各エージェントは、商品の出品、購入希望の提示、価格交渉、成約までを自律的に実施した。実験開始後、エージェントは人間に確認を取らずに取引を進めたという。</p>
-<p><strong>Claudeエージェント同士が卓球ボールの売買についてやり取りする例。Anthropicは、Project DealでAIエージェントが人間の代理として商品説明や価格交渉を行ったと説明している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/project_deal_anthropic3_ce5c9a4c96/project_deal_anthropic3_ce5c9a4c96.jpg" alt="project deal anthropic3.jpg" /></p>
-<p>実験は4つの並行した市場で行われた。うち2つはすべてClaude Opus 4.5、残り2つはClaude Opus 4.5とClaude Haiku 4.5が混在する市場だった。最終的に、参加者にはどの市場が実際の取引対象だったかが明かされ、成立した取引については人間同士が実際に物品を交換した。</p>
-<h2>69体のエージェントが206件を成約</h2>
-<p>Project Dealは、AIエージェントが人間の代理として商取引を行えるかを検証する実験だ。</p>
-<p>実際に物品交換まで行われたRun Aでは、69体のClaudeエージェントが575点の商品を対象に取引を行い、206件を成約させた。総取引額は4010ドルだった。取引対象には、スノーボードや卓球ボールなど、実在する従業員の私物が含まれていた。</p>
-<p>4つの市場全体では延べ2300点の商品が出品され、782件の取引が成立した。総取引額は1万5676ドル、平均価格は20.05ドル、中央値は12ドルだった。Anthropicは、架空の商品や合成データではなく、実際の人間と物品を扱った点を特徴として挙げている。</p>
-<h2>OpusはHaikuより多く成約、価格面でも優位</h2>
-<p>Anthropicは、Claude Opus 4.5とClaude Haiku 4.5の違いが取引結果に与える影響も分析した。</p>
-<p>OpusとHaikuが混在する市場では、Opusのエージェントを使った参加者の方が、平均でHaikuより約2件多く取引を成立させた。商品販売に限っても、Opusが売り手だった場合、Haikuより販売率が高い傾向が示された。</p>
-<p>価格面でもOpusは優位だった。同じ商品がHaikuとOpusの両方によって売れたケースでは、Opusが売り手だった場合、平均で3.64ドル高く売れた。さらに、4つの市場で少なくとも2回売れた161点の商品を対象に分析したところ、Opusは売り手として平均2.68ドル高く売り、買い手として平均2.45ドル安く買ったという。</p>
-<p>Anthropicは、売る場合でも買う場合でも、より小型のHaikuを使う参加者は交渉上不利だったと指摘している。全ランを通じた商品の中央値は12ドル、平均価格は20.05ドルであり、数ドルの差は小さくない。</p>
-<h2>参加者は性能差による不利に気づきにくい</h2>
-<p>一方で、参加者はモデル性能差による取引上の不利をほとんど認識していなかった。</p>
-<p>付録PDFでは、公平性評価の平均はOpusが4.053、Haikuが4.045で、ほぼ差がなかった。Haikuを割り当てられた買い手は実際には高く支払い、売り手は安く受け取っていたにもかかわらず、参加者はHaikuの取引を体系的に不公平とは認識していなかったという。</p>
-<p>Anthropicは、AIエージェントが市場に参加する場合、高品質なエージェントへのアクセスが定量的な市場優位をもたらす可能性があるとしている。</p>
-<h2>「攻撃的に交渉して」と指示しても効果は限定的</h2>
-<p>Project Dealでは、参加者がエージェントに与えた交渉スタイルの指示が、取引結果に影響するかも検証された。</p>
-<p>参加者69人のうち28人、40.6％は「攻撃的」な交渉指示に分類された。しかし分析の結果、攻撃的な交渉を求める指示については、販売率や購入価格に明確な効果は見られなかった。</p>
-<p>売り手側では販売価格が高くなる傾向も見られたが、付録PDFでは、その大半は交渉そのものではなく、参加者が当初から高い希望価格を設定していたことに由来すると説明している。今回の実験では、交渉方針のプロンプトよりもモデル自体の品質の方が重要だったとみられる。</p>
-<h2>Project Vendに続く、AIエージェントの経済活動検証</h2>
-<p>Anthropicはこれまでにも、Claudeに小規模店舗を運営させる「Project Vend」を実施してきた。Project Vendでは、Claudeが在庫管理や価格設定、仕入れなどを担い、AIエージェントが現実に近い経済活動をどこまで遂行できるかを検証した。</p>
-<p>今回のProject Dealは、店舗運営ではなく、複数のAIエージェントが人間の代理として売買交渉を行う点に焦点を当てている。Anthropicは、AIエージェントが人間の代わりに商取引を行う世界は十分にあり得るとしたうえで、モデル性能差が市場での不平等につながる可能性や、プロンプトインジェクション、脱獄、法制度上の未整備といった課題にも言及している。</p>
-<p>Project Dealは小規模な社内実験だが、AIエージェントが商取引に参加する可能性と、その際に生じうる課題を示す検証となった。</p>
-]]></description>
-      <pubDate>Wed, 06 May 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>グッチからGoogle搭載スマートグラス、2027年にも発売か　KeringがAIアイウェア領域を強化</title>
       <link>https://ledge.ai/articles/gucci_google_smartglasses_kering_ai_eyewear</link>
       <description><![CDATA[<p>グッチを傘下に持つ仏Keringが、Googleと提携したGucciブランドのスマートグラスを2027年にも発売する考えを示したと<a href="https://www.reuters.com/business/gucci-owner-kering-aims-launch-luxury-google-glasses-next-year-ceo-says-2026-04-16/">Reuters</a>が報じた。同社CEOであるLuca de Meo氏が、2026年4月16日にイタリア・フィレンツェで開かれたCapital Markets Dayの場で語ったという。</p>
@@ -210,26 +193,6 @@
       <pubDate>Tue, 05 May 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>「セーラームーン」に酷似と批判されたAI制作広告、化粧品メーカーのウテナが謝罪　動画削除・交通広告撤去へ</title>
-      <link>https://ledge.ai/articles/ai_ad_sailor_moon_utena_apology</link>
-      <description><![CDATA[<p>化粧品やスキンケア商品を手掛けるウテナは2026年5月6日、スキンケアブランド「ウテナ モイスチャー」の広告に関して謝罪し、公式YouTube動画の削除および交通広告の撤去を<a href="https://www.utena.co.jp/pdf/20260506_moisture_2.pdf">発表</a>した。同広告をめぐっては、生成AIを用いた広告制作や、特定の既存作品との類似性について多くの意見が寄せられていた。</p>
-<p>SNS上では、同広告がアニメ「美少女戦士セーラームーン」を想起させるとの批判が出ていた。ウテナは発表の中で作品名を明示していないが、既存作品への敬意やファンへの配慮が不足していたとしている。</p>
-<h2>AIで制作した「変身ヒロイン風アニメ」広告</h2>
-<p>問題となった広告は、同社のスキンケアブランド「ウテナ モイスチャー」のプロモーションとして制作されたものだ。ウテナは2026年4月27日から東京のJR山手線28駅で交通広告を掲出し、5月1日からは大阪のOsaka Metro4駅でも広告掲出を始めた。あわせて、公式YouTubeでPRアニメ動画「潤い戦士 モイスチャー」を公開していた。</p>
-<p>ウテナは当初の発表で、同広告を「変身ヒロイン風アニメ」と説明していた。動画については「全編AIを活用して映像化した本格アニメーション動画」としており、企画・構成などの中核部分は人間が担い、映像化のプロセスにAIを活用したとしていた。</p>
-<p>また、同社は当初の発表で、同作について「特定の既存作品やキャラクターをAIに学習させたものではない」と説明していた。制作後も人の監修のもと、類似性の確認を行いながら仕上げたとしていた。</p>
-<h2>公式動画とSNS投稿を削除、交通広告も撤去</h2>
-<p>ウテナは5月6日付の発表で、生成AIを用いた広告制作や特定の既存作品との類似性に関して、多くの意見が寄せられたと説明した。</p>
-<p>同社は、公式YouTubeの該当動画と関連するSNS投稿を削除すると発表。掲出中の交通広告についても順次撤去するとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/utena_letter_108ba15a2f/utena_letter_108ba15a2f.jpg" alt="utena letter.jpg" /></p>
-<h2>リーガルチェック済みでも問題化</h2>
-<p>ウテナによると、今回の広告は外部専門家を交えてリーガルチェックを重ねたうえで公開していた。今後は、改めて専門家など第三者の指導を受けながら、関連する法規制上の問題がないか確認するという。</p>
-<p>また、同社は、法的ルールの遵守だけでなく、広告を見る人への配慮を含めた表現チェック体制を全面的に見直し、再発防止に努めるとしている。</p>
-<p>生成AIを活用した広告制作では、制作時間の短縮や表現の幅の拡大が期待される一方で、既存作品との類似性や文化的文脈への配慮が課題となる。今回の事例は、AI活用の有無にとどまらず、公開前の表現確認や第三者チェックのあり方が問われるケースとなった。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、オルタナティブ投資運用のBlackstoneなどと新AIサービス企業を設立　中堅企業のClaude導入を支援</title>
       <link>https://ledge.ai/articles/anthropic_blackstone_enterprise_ai_services_claude</link>
       <description><![CDATA[<p>米Anthropicは2026年5月4日（現地時間）、Blackstone、Hellman &amp; Friedman、Goldman Sachsと共同で、新たなAIサービス企業を設立したと<a href="https://www.anthropic.com/news/enterprise-ai-services-company">発表</a>した。新会社は、中堅企業の中核業務に、AnthropicのAIモデル「Claude」を導入することを支援する。</p>
@@ -269,6 +232,28 @@
 <h2>教育機関とも連携</h2>
 <p>Anthropicは、アートやデザイン分野の教育プログラムとも連携する。</p>
 <p>最初の対象として、Rhode Island School of Designの「Art and Computation」、Ringling College of Art and Designの「Fundamentals of AI for Creatives」、Goldsmiths, University of LondonのMA/MFA Computational Artsプログラムを挙げている。学生や教員はClaudeと新コネクタを利用でき、Anthropicはフィードバックを通じて、クリエイティブ分野の実務者がこうしたツールに何を求めるかを把握するとしている。</p>
+]]></description>
+      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/5/10 [SUN]Anthropic共同創業者、AIが次世代AIを自ら開発する時代に言及　2028年末までに「60％超」の可能性</title>
+      <link>https://ledge.ai/articles/anthropic_jack_clark_automated_ai_r_and_d_2028</link>
+      <description><![CDATA[<p>Anthropic共同創業者のジャック・クラーク氏は2026年5月4日付のニュースレター「<a href="https://importai.substack.com/p/import-ai-455-automating-ai-research">Import AI</a>」で、2028年末までに、フロンティアAIモデルが自らの後継版を自律的に構築できる「人間が関与しないAI R&amp;D」が起きる可能性について、60％超との見方を示した。
+クラーク氏は、この状態を「AIシステムが自らの後継版を自律的に構築できるほど強力になること」と説明している。同氏は、これは大きな出来事であり、自分でもどう受け止めればよいかわからないと述べた。AI研究がエンドツーエンドで自動化されれば、予測が極めて難しい未来に踏み込むことになるとしている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Import_AI_455_74742dcd79/Import_AI_455_74742dcd79.jpg" alt="Import AI 455.jpg" /></p>
+<h2>「後継AIを自律的に構築」、2028年末までに60％超と予測</h2>
+<p>クラーク氏は、完全に自動化されたAI研究開発が2026年中に起きるとは考えていない。一方で、今後1〜2年のうちに、モデルが後継モデルをエンドツーエンドで訓練する事例が出る可能性はあるとした。特に、非フロンティアモデルの段階では概念実証が現れる可能性があるという。</p>
+<p>同氏は、この見方は主に公開情報に基づくものだと説明している。arXiv、bioRxiv、NBERの論文や、フロンティアAI企業が実際に展開している製品を見たうえで、現在のAIシステムを作るために必要な工学的要素は、自動化に向けた部品がそろいつつあると判断している。</p>
+<p>ただし、AI研究には創造性や異端的な洞察も必要だとし、現在のAIシステムがそれを変革的な規模で示したとはまだ言えないとも述べている。そのため、2027年中に自動化されたAI R&amp;Dが実現する可能性については30％との見方を示した。</p>
+<h2>背景にあるコーディング能力と長時間タスク遂行能力</h2>
+<p>クラーク氏は、AI研究開発の自動化が近づいている根拠として、AIシステムのコーディング能力と、長時間にわたって作業を続ける能力の伸長を挙げている。</p>
+<p>実際のGitHub上の課題をAIがどれだけ解決できるかを測る「SWE-Bench」では、2023年後半の開始時点でClaude 2の成功率は約2％だったが、Claude Mythos Previewは93.9％を記録し、ベンチマークがほぼ飽和する水準に達したという。</p>
+<p>また、AIエージェントがどの程度長いタスクをこなせるかを測るMETRの「time horizon」についても、AIシステムが50％の信頼性でこなせるタスクの長さが伸びていると指摘した。クラーク氏によると、2022年のGPT-3.5では約30秒だったが、2026年のOpus 4.6では約12時間に達している。</p>
+<p>さらにMETRは2026年5月8日、Claude Mythos Previewの初期版を評価に追加した。METRによると、同モデルは50％ time horizonで少なくとも16時間に達した可能性を示しているが、その一方で、現行のタスクスイートでは16時間を超える測定の信頼性が低いとも注記している。</p>
+<p><strong>■ Claude Mythos Preview（early）の50％ time horizonが少なくとも16時間に達した可能性を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d/HH_1_Ze_Yvb_YA_Ag36u_04c8dd369d.jpg" alt="HH1ZeYvbYAAg36u.jpg" /></p>
+<h2>Anthropic公式アジェンダも「AI-driven R&amp;D」を重点領域に</h2>
+<p>クラーク氏は、2026年3月に設立が発表された「The Anthropic Institute」を率いている。Anthropicは2026年5月7日に<a href="https://www.anthropic.com/research/anthropic-institute-agenda">公開</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
@@ -313,26 +298,6 @@
 <p>Apple Intelligenceは2024年から段階的に提供されてきたが、発表当初に説明されたSiriの一部機能は、当初予定より遅れていた。
 Appleは2024年12月時点でも、Siriがユーザーの個人コンテキストを理解する機能や、画面上の内容を認識する機能、アプリを横断して操作する機能について、今後数カ月で提供される追加機能として説明していた。</p>
 <p>今回の訴訟は、AI機能を製品の主要な訴求点として打ち出す際、実際の提供時期や購入時点で利用できる機能をどこまで明確に示すべきかという問題を浮き彫りにした。</p>
-]]></description>
-      <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude for Microsoft 365を一般提供　Excel・Word・PowerPointで文脈を引き継ぐAI作業支援</title>
-      <link>https://ledge.ai/articles/claude_for_microsoft_365_general_availability</link>
-      <description><![CDATA[<p>Anthropicは2026年5月7日（現地時間）、Microsoft 365アプリ内でClaudeを利用できる「Claude for Microsoft 365」の提供範囲を拡大したと<a href="https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook">発表</a>した。Claude for Excel、PowerPoint、Wordを全有料プラン向けに一般提供し、Claude for Outlookをパブリックベータとして提供開始した。</p>
-<p>Claude for Microsoft 365は、Excel、PowerPoint、Word、Outlookの各アプリ内でClaudeを利用できるアドインだ。Anthropicによると、Claudeは複数のMicrosoft 365アプリをまたいで会話の文脈を保持できる。たとえば、Excel上の分析結果をWord文書に反映したり、PowerPointのグラフをExcelの最新数値に基づいて更新したりできるという。</p>
-<p>@<a href="https://www.youtube.com/watch?v=F6dzjaBCBtU">YouTube</a></p>
-<h2>Excel・Word・PowerPoint間で文脈を保持</h2>
-<p>Claude for Microsoft 365は、Excel、PowerPoint、Word、Outlookを横断して作業の文脈を保持できる。表計算、文書作成、スライド作成、メール対応を同じ会話の流れで扱える点が特徴だ。。Microsoft Marketplace上でも、Claude for Microsoft 365はExcel、PowerPoint、Word向けのアドインとして掲載されている。</p>
-<p>Claudeは、開いているExcelブック、PowerPointプレゼンテーション、Word文書、Outlookメールの内容を参照し、必要に応じて編集も支援する。たとえば、Excelモデルの数値をPowerPointスライドやWordメモに反映する、Excelの最新数値でPowerPointのグラフを更新する、Word文書をPowerPointスライドに要約するといった作業に対応する。</p>
-<p>従来、表計算、文書作成、スライド作成をまたぐ作業では、ユーザーが各アプリ間で情報をコピーしたり、AIに同じ前提を説明し直したりする必要があった。Anthropicは、Claudeが同じ会話の流れを保ちながら複数アプリを扱うことで、こうした作業の分断を減らせるとしている。</p>
-<h2>Outlookはパブリックベータで提供</h2>
-<p>今回の発表では、Claude for Excel、PowerPoint、Wordが一般提供された一方、Claude for Outlookはパブリックベータとして提供される。Outlook向けアドインは、メールの整理、返信下書き、会議日程の調整などを支援する。</p>
-<p>Outlookでは、メールのスレッドや添付ファイルを踏まえた返信案の作成にも対応する。返信案はOutlookの作成画面に未送信の下書きとして挿入され、ユーザーが確認したうえで送信する。宛先、件名、本文を含めて下書きを作成するが、送信はユーザーが確認したうえで行う設計となっている。</p>
-<p>また、Claudeは参加者の空き時間を確認して会議日程を調整したり、未読メールを整理して対応が必要なものを把握したりする用途にも対応するとしている。</p>
-<h2>企業導入向けの管理機能も用意</h2>
-<p>企業向けには、IT管理者がMicrosoft管理センターからアドインを展開できる仕組みや、ログ取得、利用状況の確認機能も用意されている。Claudeアカウントでの利用に加え、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Foundry上のClaudeモデルに既存のLLMゲートウェイ経由で接続する構成も示されている。</p>
-<p>Microsoft 365は、表計算、文書作成、プレゼンテーション、メールといった企業の日常業務に広く使われている。今回の一般提供により、Claudeは単体のチャットサービスにとどまらず、業務アプリ内で作業を支援するAIとして利用範囲を広げることになる。ただし、Outlookは現時点でパブリックベータであり、企業で本格利用する場合は提供範囲や管理者設定の確認が必要となる。</p>
 ]]></description>
       <pubDate>Mon, 04 May 2026 23:50:00 GMT</pubDate>
     </item>
