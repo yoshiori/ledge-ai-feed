@@ -64,6 +64,24 @@
       <pubDate>Mon, 11 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropicの脆弱性発見AI「Claude Mythos」にcurl開発者が異議　「誇大宣伝でマーケティング戦略」と指摘</title>
+      <link>https://ledge.ai/articles/anthropic_claude_mythos_curl_vulnerability_marketing_hype</link>
+      <description><![CDATA[<p>米Anthropicが高い脆弱性発見能力を持つAIモデルとして発表した「Claude Mythos Preview」をめぐり、コマンドラインツールなどで使われるオープンソースソフトウェア「curl」の開発者であるDaniel Stenberg氏が、同モデルの実力に疑義を呈した。</p>
+<p>Stenberg氏は2026年5月11日（現地時間）、自身の<a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">ブログ</a>で、Claude Mythosがcurlについて5件を「確認済みのセキュリティ脆弱性」と報告したものの、curl側で実際に脆弱性と判断したのは1件にとどまったと説明した。同氏は、Claude Mythosをめぐる大きな注目について「主にマーケティングだった」と受け止めている。</p>
+<h2>Anthropic、脆弱性発見AI「Claude Mythos」を限定提供</h2>
+<p>Anthropicは2026年4月7日、重要ソフトウェアの脆弱性発見や修正を支援する取り組み「Project Glasswing
+」を<a href="https://ledge.ai/articles/anthropic_claude_mythos_preview_security_vulnerability_glasswing">発表</a> した。AWS、Apple、Cisco、CrowdStrike、Google、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networksなどがローンチパートナーとして参加している。</p>
+<p>同プロジェクトでは、Anthropicの新しいフロンティアモデル「Claude Mythos Preview」を、防御目的のセキュリティ業務に活用する。Anthropicは同モデルについて、ソフトウェアの脆弱性を発見・悪用する能力で一部の熟練者を上回る水準に達していると説明。主要OSや主要Webブラウザを含む重要インフラ全体で、数千件のゼロデイ脆弱性を特定したとしている。</p>
+<p>Claude Mythos Previewは一般公開されず、Project Glasswingの参加者向けに限定提供される。Anthropicは、AIによる攻撃能力が広がる前に、防御側が先に脆弱性を見つけて修正することを狙いとしている。</p>
+<h2>curl開発者がClaude Mythosの解析結果を検証</h2>
+<p>curlの開発者であるDaniel Stenberg氏は、Project Glasswingの一環として、Claude Mythos Previewによるcurlの解析を受けた。当初は同氏自身がモデルへのアクセスを得る予定だったが、最終的にはアクセス権を持つ別の人物がcurlのスキャンと解析を実行し、Stenberg氏にレポートを送る形になったという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/curl_secured_for_the_billions3_1eb7ff96fd/curl_secured_for_the_billions3_1eb7ff96fd.jpg" alt="curl-secured-for-the-billions3.jpg" />
+:::small
+画像の出典：<a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">Daniel Stenberg氏のブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 11 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/5/12 [TUE]Anthropic、LLMの活性化値を自然言語に変換する新手法「NLA」発表　Claudeの内部状態を可視化し安全性監査に応用</title>
       <link>https://ledge.ai/articles/anthropic_natural_language_autoencoders_ai_activation_auditing</link>
       <description><![CDATA[<p>Anthropicは2026年5月7日（現地時間）、大規模言語モデル（LLM）の内部状態を自然言語で説明する新手法「Natural Language Autoencoders（NLA）」を<a href="https://transformer-circuits.pub/2026/nla/index.html">発表</a>した。
