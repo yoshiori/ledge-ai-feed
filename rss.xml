@@ -259,34 +259,6 @@
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、中小企業向け「Claude for Small Business」発表　会計・請求・営業など15種類の業務ワークフローを提供</title>
-      <link>https://ledge.ai/articles/claude_for_small_business_workflows</link>
-      <description><![CDATA[<p>米Anthropicは2026年5月13日（現地時間）、中小企業向けの新サービス「Claude for Small Business」を<a href="https://www.anthropic.com/news/claude-for-small-business">発表</a>した。会計、請求、営業、マーケティング、契約管理などの業務にClaudeを組み込み、QuickBooks、PayPal、HubSpot、Canva、DocuSign、Google Workspace、Microsoft 365などのツールと連携して利用できる。</p>
-<p>同サービスでは、給与計画、キャッシュフロー予測、月次決算、請求書対応、顧客フォロー、営業キャンペーンなどに対応する15種類のエージェント型ワークフローと、15種類のスキルを用意する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=lserpKbUDjc">YouTube</a></p>
-<h2>中小企業の日常業務にClaudeを組み込む</h2>
-<p>Claude for Small Businessは、中小企業が日常的に使う業務ツールの中でClaudeを利用できるようにするサービスだ。Claude Cowork内でClaude for Small Businessを有効にし、既存のツールを接続したうえで、実行したい業務を選択する仕組みとなる。</p>
-<p>Anthropicは、中小企業ではAIの利用がチャット画面にとどまりやすいと説明している。Claude for Small Businessでは、会計ソフトや決済サービス、CRM、デザインツール、契約管理ツールなどを横断し、実際の業務フローに沿ってClaudeを動かせるようにする。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/connect_your_tools_b41d46bdfa/connect_your_tools_b41d46bdfa.jpg" alt="connect your tools.jpg" /></p>
-<p>たとえば、QuickBooksやPayPalと接続して給与計画やキャッシュフロー予測を行ったり、HubSpotの情報をもとに営業キャンペーンを作成したり、Canvaで販促用のデザイン素材を生成したりできる。DocuSignとの連携では、契約書の送信や署名状況の確認、締結済み文書の整理などを支援する。</p>
-<h2>15種類のワークフローと15種類のスキルを用意</h2>
-<p>Claude for Small Businessには、財務、業務管理、営業、マーケティング、人事、カスタマーサービスなどに対応する15種類のエージェント型ワークフローが含まれる。</p>
-<p>具体例として、QuickBooks上の資金状況とPayPalの入金予定を照合し、30日間の予測を作成する給与計画、入金や決済データと帳簿を照合して月次決算用の資料を作成するワークフロー、売上の落ち込みやキャンペーン実績を分析し、HubSpotとCanvaを使って次の販促施策を準備するワークフローなどがある。</p>
-<p>このほか、請求書の督促、利益率分析、税務シーズンの準備、契約書レビュー、リードの振り分け、コンテンツ戦略作成などにも対応する。Claudeの公式プラグインページでは、営業パイプラインの整理、顧客メールへの返信準備、販促素材の作成など、中小企業の反復業務を想定した利用例が示されている。</p>
-<h2>PayPalやQuickBooksと連携、送信・支払い前には承認を要求</h2>
-<p>PayPalは同日、Anthropicとの提携により、中小企業向けにClaude for Small Businessを支援すると<a href="https://newsroom.paypal-corp.com/2026-05-PayPal-partners-with-Anthropic-to-Close-the-AI-Gap-for-Small-Businesses">発表</a>した。PayPalとの連携では、Claudeが請求書、決済、返金、異議申し立てなどの業務を支援する。</p>
-<p>ただし、送信、投稿、支払いなどの操作はClaudeが自動で完了するのではなく、ユーザーの承認を挟む。Anthropicは、Claude for Small Businessで実行するタスクやワークフローはユーザーが開始し、送信・投稿・支払いの前に承認する設計だとしている。</p>
-<p>権限管理についても、既存ツール側のアクセス権限を引き継ぐ。たとえば、従業員がQuickBooksやGoogle Drive上で閲覧できない情報は、Claude経由でも閲覧できない。また、AnthropicはTeamプランとEnterpriseプランについて、デフォルトでは顧客データをモデルの学習に使用しないとしている。</p>
-<h2>中小企業のAI導入格差を埋める狙い</h2>
-<p>Anthropicは、中小企業が米国GDPの44％を占め、民間部門の労働者の約半数を雇用している一方で、AI導入では大企業に比べて遅れがあると説明している。専任のAI導入チームや大規模な予算を持ちにくい中小企業に向け、既存の業務ツールにAIを組み込むことで、導入のハードルを下げる狙いだ。</p>
-<p>Intuitとの連携では、QuickBooksやIntuit Enterprise Suiteの金融・会計機能をClaudeから利用できるようにする。Intuitは、QuickBooksのエージェント型AI機能をClaude for Small Businessに統合することで、財務管理の複雑さを減らし、給与計算やデータに基づく意思決定を支援するとしている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/69c5791deeb13047c45a0d48_Banner_Image_V2_p_1080_85c7483ea4/69c5791deeb13047c45a0d48_Banner_Image_V2_p_1080_85c7483ea4.png" alt="69c5791deeb13047c45a0d48_Banner Image V2-p-1080.png" /></p>
-<p>AnthropicとPayPalは、中小企業向けの無料オンライン講座「<a href="https://anthropic.skilljar.com/ai-fluency-for-small-businesses">AI Fluency for Small Business</a>{target=”_blank”}」も提供する。あわせて、米国各地で中小企業のリーダーを対象にした無料の半日ワークショップ「Claude SMB Tour」も実施する予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=42zQaA-j9b0&amp;t=10s">YouTube</a></p>
-]]></description>
-      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google I/O 2026開催——最新基盤モデルGemini 3.5 Flash発表　24時間動く個人AIエージェント「Gemini Spark」とマルチモーダルモデルGemini Omniなども公開</title>
       <link>https://ledge.ai/articles/google_io_2026_gemini_spark_3_5_flash_omni</link>
       <description><![CDATA[<p>Googleは5月19日（現地時間）、年次開発者会議「Google I/O 2026」を開催し、生成AI「Gemini」を軸にした新機能群を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/">発表</a>した。最大の焦点は、Geminiをユーザーの指示に応じて実際の作業を進める「エージェント」へ発展させることだ。</p>
@@ -353,6 +325,32 @@
 <h2>Plaid経由で金融機関と接続</h2>
 <p>金融口座の接続には、金融データ連携サービスのPlaidを使用する。Plaidは、銀行口座や投資口座、クレジットカードなどの金融データをアプリケーションに接続するためのプラットフォームを提供している。</p>
 <p>Plaidも同日、OpenAIとの連携について<a href="https://plaid.com/blog/chatgpt-personal-finance-plaid/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIとマルタ政府、ChatGPT Plusを全国民規模で1年間無償提供へ　世界初のAIリテラシー施策</title>
+      <link>https://ledge.ai/articles/openai_malta_chatgpt_plus_ai_literacy</link>
+      <description><![CDATA[<p>OpenAIとマルタ政府は2026年5月16日、マルタの市民・居住者を対象に、AIリテラシー講座と有料AIサービスの利用権を提供する国家規模のパートナーシップを<a href="https://openai.com/index/malta-chatgpt-plus-partnership/">発表</a>した。OpenAIは、マルタ国民にChatGPT Plusを展開する「世界初」の取り組みと位置づけている。</p>
+<p>対象は、マルタとゴゾの14歳以上の市民・居住者。無料のオンライン講座を修了すると、ChatGPT PlusまたはMicrosoft 365 Personal Copilotの1年間無料サブスクリプションを受け取れる。</p>
+<h2>AI講座修了者にChatGPT Plusなどを1年間提供</h2>
+<p>OpenAIは今回の提携を、マルタ国民にChatGPT Plusを提供する世界初のパートナーシップと位置づける。同社は、AIを電気のように人々や企業、機関が必要な時に利用できる「グローバルな公共インフラ」にしていく考えを示している。</p>
+<p>マルタ政府は同日、国家オンラインAIリテラシー講座「AI for Everyone」を正式に開始した。講座はMalta Digital Innovation Authority（<a href="https://mdia.gov.mt/services/ai-for-all-ai-ghal-kulhadd/">MDIA</a>）とマルタ大学が共同で開発したもので、AIの基礎、日常生活での活用、学習での活用などを扱う。</p>
+<p>同講座は無料で、技術的な前提知識は不要だ。学生、保護者、教育関係者、求職者、起業家、専門職、高齢者など、幅広い層がAIを安全かつ責任ある形で使えるようにすることを目指す。</p>
+<h2>14歳以上の市民・居住者が対象</h2>
+<p>対象となるのは、マルタとゴゾの14歳以上の市民・居住者。登録には、有効なeIDアカウントが必要となる。</p>
+<p>参加者は、3つの基本モジュールを修了すると修了証を受け取る。さらに、希望に応じて「専門職向けAI」「求職者向けAI」「起業家向けAI」「アクセシビリティと自立生活のためのAI」「学校教育におけるAI」などの追加モジュールも受講できる。</p>
+<p>ChatGPT Plusなどの無料サブスクリプションは、3つの基本モジュールを修了した後に提供される。講座を修了しなければ無料サブスクリプションは受け取れず、AIツールの利用に先立って基本的なAIリテラシーを身につける設計になっている。</p>
+<h2>Microsoftも参加、Copilotも選択肢に</h2>
+<p>今回の施策にはOpenAIに加え、Microsoftも参加している。約2時間の講座を修了した参加者は、ChatGPT PlusまたはMicrosoft 365 Personal Copilotの1年間無料サブスクリプションを受け取れる。</p>
+<p>マルタ政府は、AI教育と高度なデジタルツールへのアクセスを組み合わせることで、家族、学生、労働者が日常生活や仕事でAIを活用できるようにする狙いを示している。</p>
+<p>Microsoftは、マルタが前年から公共サービスへのMicrosoft Copilot導入を進めてきたことにも触れている。今回の国家プログラムは、AIへのアクセスを提供するだけでなく、人々の能力開発を重視するものだとしている。</p>
+<h2>「AI for All」で国家規模のAI活用を後押し</h2>
+<p>マルタは2019年、AIに関する戦略的・倫理的枠組みの整備に早くから取り組んだ国の一つとされる。現在は、この戦略を最新動向に合わせて更新している。</p>
+<p>2026年度予算では、AI、IoT、サイバーセキュリティ、AR／VR、ブロックチェーン、ロボティクスなどのデジタル化と技術導入に1億ユーロを投じる方針も示している。今回の「AI for Everyone」は、こうしたデジタル政策の一環に位置づけられる。</p>
+<p>初期段階は2026年5月に始まり、MDIAが対象者への提供を管理する。プログラムは、講座を修了するマルタの居住者や国外在住のマルタ国民が増えるにつれて拡大する。</p>
+<p>無料サブスクリプションの有効期間は、有効化から12カ月間。更新や延長、次年度以降の資金提供は保証されていない。ライセンスは個人向けで、譲渡や再販売などは禁じられている。</p>
+<p>今回の提携は、有料AIサービスの利用権を国家規模で提供するだけでなく、AIリテラシー教育を条件として組み合わせた点に特徴がある。生成AIの普及が進むなか、マルタは市民・居住者にAIを安全かつ実用的に使うための基礎教育とアクセス手段を同時に提供する。</p>
 ]]></description>
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
