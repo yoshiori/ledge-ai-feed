@@ -194,31 +194,6 @@
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic排除へ動く米国防総省、それでも「Mythos」は採用　政府横断で脆弱性発見・修正へ</title>
-      <link>https://ledge.ai/articles/anthropic_pentagon_mythos_cyber_vulnerability_government</link>
-      <description><![CDATA[<p>米国防総省は、Anthropic製品を業務から外す計画を進める一方で、同社のサイバーセキュリティモデル「Claude Mythos Preview」（以下、Mythos）を、米政府全体のソフトウェア脆弱性の発見と修正に導入しているという。2026年5月12日（現地時間）に<a href="https://www.reuters.com/technology/pentagon-deploys-anthropics-mythos-patch-cyber-gaps-while-planning-ditch-firm-2026-05-12/">Reuters</a>が報じた。</p>
-<p>米国防総省の最高技術責任者（CTO）で研究工学担当次官のEmil Michael氏は、Mythosについて「国家安全保障上の局面」と位置づけ、サイバー脆弱性の発見と修正に特有の能力を持つと説明している。</p>
-<h2>Anthropic排除方針の一方で、Mythosは活用</h2>
-<p>報道によると、Michael氏はワシントンD.C.で開かれた会議で、米国防総省が今後数カ月でAnthropic製品を業務から外す計画を引き続き進めていると述べた。一方で、Mythosについては、米政府全体のネットワークを強化するために使っているという。</p>
-<p>米国防総省とAnthropicをめぐっては、Claudeの軍事利用や安全策をめぐる条件交渉が焦点となり、<a href="https://ledge.ai/articles/anthropic_pentagon_claude_military_safeguards_dispute">関係解消の可能性</a>が報じられていた。その後も、両者は<a href="https://ledge.ai/articles/anthropic_pentagon_ai_military_negotiation_restart">AI軍事利用をめぐる再交渉</a>を続けていた。</p>
-<p>今回の報道は、同省がAnthropic製品から距離を置く方針を維持しながらも、Mythosについては国家安全保障上の必要性から例外的に活用している構図を示すものだ。</p>
-<h2>MythosはProject Glasswingの一環で提供</h2>
-<p>Mythosは、Anthropicが4月7日に発表した「Project Glasswing」の一環で提供される未公開モデルだ。Project Glasswingは、選定された組織がClaude Mythos Previewを防御的サイバーセキュリティ目的で利用し、重要ソフトウェアの脆弱性や弱点を発見・修正する取り組みである。</p>
-<p>Claude Mythos Previewは、脆弱性発見能力の高さから<a href="https://ledge.ai/articles/anthropic_claude_mythos_preview_security_vulnerability_glasswing">一般公開が見送られ</a>、選定された組織向けに限定提供されている。AnthropicはMythosについて、Webブラウザやインフラ、ソフトウェアに存在する数十年前の脆弱性も検出できるとしている。</p>
-<h2>脆弱性の発見・修正も、悪用も速くなる</h2>
-<p>Michael氏は、脆弱性そのものは以前から存在していたものの、MythosのようなAIツールによって、発見と修正が速くなる一方、悪用も速くなる可能性があると述べた。</p>
-<p>サイバーセキュリティ領域では、AIが防御側の対応を高速化する一方で、攻撃側にも同様の能力を与える可能性がある。Mythosをめぐる米国防総省の判断は、AIモデルの利用を制限するリスク管理と、脆弱性対策における実務上の必要性が衝突していることを示している。</p>
-<h2>サプライチェーンリスク指定をめぐる対立も背景に</h2>
-<p>背景には、Anthropicと米国防総省の対立もある。Reutersによると、国防総省は、Anthropicモデルの利用方法をめぐって同社と合意できなかったことを受け、Anthropicをサプライチェーンリスクと判断した。</p>
-<p>Anthropicは3月、この指定の撤回を求めてトランプ政権を提訴している。Anthropicは3月、米国防総省による「供給網リスク」認定は違法だとして<a href="https://ledge.ai/articles/anthropic_sues_us_defense_department_supply_chain_risk_designation">提訴</a>した。今回のMythos導入は、こうした対立が続く中でも、サイバー防御に特化した能力については米政府が活用を進めていることを示す。</p>
-<h2>Anthropicの優位性は一時的との見方も</h2>
-<p>Michael氏は、Anthropicの優位性は一時的だとも述べ、OpenAI、xAI、Googleのモデルも近く登場するとの見方を示した。</p>
-<p>Anthropicのダリオ・アモデイCEOは、中国AIモデルが「6〜12カ月」でMythosに追いつく可能性に<a href="https://ledge.ai/articles/anthropic_ceo_mythos_china_models_cybersecurity">言及</a> し、未修正の脆弱性への対応を急ぐ必要性を強調していた。また、英AI Security Institute（AISI）は、Claude Mythos PreviewやGPT-5.5のサイバー攻撃性能を検証している。</p>
-<p>AIによる脆弱性発見・修正の能力は、Anthropicだけにとどまらず、主要AI企業の競争領域になりつつある。今回の報道は、米政府がAIモデルの調達リスクを警戒しながらも、サイバー防御上の必要性から高度なAIモデルを活用せざるを得ない状況を浮き彫りにしている。</p>
-]]></description>
-      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>米・政府効率化省(DOGE)、ChatGPTで助成金が「DEI」関連か判定　人文科学基金の助成金1400件、1億ドル超の打ち切りを違法とする地裁判決</title>
       <link>https://ledge.ai/articles/chatgpt_dei_grants_doge_illegal_ruling</link>
       <description><![CDATA[<p>米ニューヨーク南部地区連邦地方裁判所は2026年5月7日（現地時間）、米National Endowment for the Humanities（NEH、人文科学基金）の助成金1400件超、1億ドル超の打ち切りについて、違法・違憲であり、法的効力を持たないとする<a href="https://www.nysd.uscourts.gov/sites/default/files/2026-05/NEH.sj_.pdf">判決</a>を下した。</p>
