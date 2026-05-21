@@ -194,24 +194,6 @@
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropicの脆弱性発見AI「Claude Mythos」にcurl開発者が異議　「誇大宣伝でマーケティング戦略」と指摘</title>
-      <link>https://ledge.ai/articles/anthropic_claude_mythos_curl_vulnerability_marketing_hype</link>
-      <description><![CDATA[<p>米Anthropicが高い脆弱性発見能力を持つAIモデルとして発表した「Claude Mythos Preview」をめぐり、コマンドラインツールなどで使われるオープンソースソフトウェア「curl」の開発者であるDaniel Stenberg氏が、同モデルの実力に疑義を呈した。</p>
-<p>Stenberg氏は2026年5月11日（現地時間）、自身の<a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">ブログ</a>で、Claude Mythosがcurlについて5件を「確認済みのセキュリティ脆弱性」と報告したものの、curl側で実際に脆弱性と判断したのは1件にとどまったと説明した。同氏は、Claude Mythosをめぐる大きな注目について「主にマーケティングだった」と受け止めている。</p>
-<h2>Anthropic、脆弱性発見AI「Claude Mythos」を限定提供</h2>
-<p>Anthropicは2026年4月7日、重要ソフトウェアの脆弱性発見や修正を支援する取り組み「Project Glasswing
-」を<a href="https://ledge.ai/articles/anthropic_claude_mythos_preview_security_vulnerability_glasswing">発表</a> した。AWS、Apple、Cisco、CrowdStrike、Google、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networksなどがローンチパートナーとして参加している。</p>
-<p>同プロジェクトでは、Anthropicの新しいフロンティアモデル「Claude Mythos Preview」を、防御目的のセキュリティ業務に活用する。Anthropicは同モデルについて、ソフトウェアの脆弱性を発見・悪用する能力で一部の熟練者を上回る水準に達していると説明。主要OSや主要Webブラウザを含む重要インフラ全体で、数千件のゼロデイ脆弱性を特定したとしている。</p>
-<p>Claude Mythos Previewは一般公開されず、Project Glasswingの参加者向けに限定提供される。Anthropicは、AIによる攻撃能力が広がる前に、防御側が先に脆弱性を見つけて修正することを狙いとしている。</p>
-<h2>curl開発者がClaude Mythosの解析結果を検証</h2>
-<p>curlの開発者であるDaniel Stenberg氏は、Project Glasswingの一環として、Claude Mythos Previewによるcurlの解析を受けた。当初は同氏自身がモデルへのアクセスを得る予定だったが、最終的にはアクセス権を持つ別の人物がcurlのスキャンと解析を実行し、Stenberg氏にレポートを送る形になったという。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/curl_secured_for_the_billions3_1eb7ff96fd/curl_secured_for_the_billions3_1eb7ff96fd.jpg" alt="curl-secured-for-the-billions3.jpg" />
-:::small
-画像の出典：<a href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">Daniel Stenberg氏のブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic排除へ動く米国防総省、それでも「Mythos」は採用　政府横断で脆弱性発見・修正へ</title>
       <link>https://ledge.ai/articles/anthropic_pentagon_mythos_cyber_vulnerability_government</link>
       <description><![CDATA[<p>米国防総省は、Anthropic製品を業務から外す計画を進める一方で、同社のサイバーセキュリティモデル「Claude Mythos Preview」（以下、Mythos）を、米政府全体のソフトウェア脆弱性の発見と修正に導入しているという。2026年5月12日（現地時間）に<a href="https://www.reuters.com/technology/pentagon-deploys-anthropics-mythos-patch-cyber-gaps-while-planning-ditch-firm-2026-05-12/">Reuters</a>が報じた。</p>
@@ -475,6 +457,23 @@
       <description><![CDATA[<p>「AIをはじめとする最先端テクノロジーを社会になめらかに浸透させる」をミッションに掲げ、国内最大級のAI（人工知能）関連メディア「Ledge.ai」を運営するほか、AIソリューションの企画・開発を行う株式会社レッジは、大型AIカンファレンス「THE AI 2026」を2026年6月5日（金）にオンラインで開催します。本日、イベントサイトをオープンし、あわせて参加申込（無料）の受付を開始しました。
 今回のテーマは「AI誕生70年の現在地──技術融合と領域拡張で未来を演算する」。1956年のダートマス会議から70年というメモリアルな節目に、これまでとこれからのAIを業界の第一線とともに見据える一日となります。</p>
 <p>イベントサイト：<a href="https://ledge-the-ai-2026.studio.site">https://ledge-the-ai-2026.studio.site</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「業務の分断」をどう解くか──新生Slackbotの全貌、Salesforceが「THE AI 2026」で公開</title>
+      <link>https://ledge.ai/articles/the-ai-2026_salesforce</link>
+      <description><![CDATA[<p>「結局、どのAIを、どの業務に使えばいいのか分からない」「個人で得た成果が、組織には広がっていかない」──生成AIの企業導入が一巡したいま、現場には新しい混乱が立ち上がっている。ツールは増え、AIも入った。それでも仕事の体験は、本質的には変わっていないと感じる人もまだ多いのではないか。
+2026年6月5日に開催されるオンラインカンファレンス「THE AI 2026 ─ AI誕生70年の現在地」では、株式会社セールスフォース・ジャパンが登壇する。そこで明かされるのは、生成AI普及後にこそ顕在化する「業務の分断」という課題と、それに対するSalesforceの解──「パーソナルAIエージェント」としての新生Slackbotだ。本稿では、Salesforceが描く問題意識の輪郭を紹介する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/the_ai_sf2_ef1958ff9b/the_ai_sf2_ef1958ff9b.png" alt="the ai _sf2.png" /></p>
+<h2>「AIを入れたのに、なぜラクにならないのか」</h2>
+<p>Salesforceが今回のセッションで投げかける問いは、シンプルかつ核心的だ。
+各種エンタープライズAIエージェントが業務に取り入れられて数年。便利になったはずだが、現場の体感はそれと逆行している。ツールが増えるほど、業務はむしろ分断されているのではないか──これが、Salesforceが提起する問題意識である。
+メールで進む案件、会議室で交わされる意思決定、ドキュメントに残る情報、チケットに分散したタスク。仕事はいまもこれらに分かれたまま動いており、AIはその「外側」に貼り付けられているにすぎない。会議で決まった結論に至るプロセスは可視化されず、個人がAIで得たアウトプットも、組織として共有・実行に移す基盤を欠いている。
+問題は「AIを入れたかどうか」ではなく、AIが組織の文脈と接続されているかどうかにある。生成AIの本格普及から数年が経った今、多くの企業が言語化できずにいる違和感に、Salesforceは「業務の分断」という名前を与えようとしている。</p>
+<h2>「個人で完結するAI」から「組織と接続されるAI」へ</h2>
+<p>なぜこの分断が起きるのか。
+論点は明確だ。これまでのAIは、Web検索を土台にした\</p>
 ]]></description>
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
