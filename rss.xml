@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>アニメ・イラスト向け画像生成AI「Anima-Base」公開　CircleStone LabsがComfyUI開発元と共同開発</title>
+      <link>https://ledge.ai/articles/anima_base_image_generation_ai_comfyui_development</link>
+      <description><![CDATA[<p>画像生成AIモデルを開発するCircleStone Labsは2026年5月15日、アニメ・イラスト向け画像生成AIモデル「Anima-Base」をHugging Face上で<a href="https://huggingface.co/circlestone-labs/Anima">公開</a>した。</p>
+<p>Anima-Baseは、画像生成AI向けワークフロー環境「ComfyUI」を手がけるComfy Orgとの協業で開発された20億パラメータのtext-to-imageモデルだ。アニメのコンセプト、キャラクター、スタイルを主な対象としつつ、非写実系のイラストやアート画像の生成にも対応する。</p>
+<p>同モデルは、写実表現ではなく、イラストやアート画像の生成に重点を置いている。Hugging Face上では、モデル本体として「anima-base-v1.0.safetensors」などのファイルが<a href="https://huggingface.co/circlestone-labs/Anima/tree/main/split_files/diffusion_models">公開</a>されている。</p>
+<h2>数百万枚のアニメ画像と約80万枚のアート画像で学習</h2>
+<p>Anima-Baseは、数百万枚のアニメ画像と約80万枚の非アニメ系アート画像で学習された。学習には合成データを使っておらず、アニメ学習データの知識カットオフは2025年9月とされている。</p>
+<p>モデルは、Danbooru-style tags、自然言語キャプション、タグとキャプションを組み合わせたデータで学習されており、タグと自然言語を混在させたプロンプトに対応する。</p>
+<p>たとえば、キャラクターや構図、服装などをタグで指定しつつ、自然言語で場面や雰囲気を補うといった使い方が想定される。自然言語のみで指示する場合は、短い一文ではなく、2文以上で詳しく説明することが推奨されている。</p>
+<h2>ComfyUIにネイティブ対応、ローカルでの利用を想定</h2>
+<p>Anima-Baseは、ComfyUIにネイティブ対応している。利用するには、モデル本体の「anima-base-v1.0.safetensors」に加え、テキストエンコーダーやVAEのファイルをComfyUIの所定フォルダに配置する。</p>
+<p>生成設定としては、512×512ピクセルから1536×1536ピクセル相当の解像度、30〜50ステップ、CFG 4〜5などが案内されている。</p>
+<p>また、Anima-Baseは「pretrained, unrefined base model」と位置づけられており、完成済みの調整モデルというより、柔軟性や多様性、スタイル追従性を重視したベースモデルとして提供されている。LoRAなどを用いた追加学習や派生モデルの作成も想定されている。</p>
+<h2>非商用ライセンスで提供、商用利用には別途ライセンスが必要</h2>
+<p>Anima-Baseは「CircleStone Labs Non-Commercial License v1.0」で提供される。モデルと派生物の利用は、研究、教育、個人利用、非営利プロジェクトなどの非商用・非本番用途に限定される。</p>
+<p>商用利用には、CircleStone Labsから別途ライセンスを取得する必要がある。ライセンス文書では、モデルの出力物についてCircleStone Labsは所有権を主張しないとしている一方、出力物を競合モデルの学習、微調整、蒸留に使うことは禁止している。</p>
+<p>Anima-Baseは、アニメやイラストの表現に焦点を当てた画像生成モデルとして、ComfyUIを使うクリエイターや開発者に新たな選択肢を提供する。ただし、現時点では非商用利用を前提としたライセンスであり、商用制作や本番環境で利用する場合は、ライセンス条件の確認が必要となる。</p>
+]]></description>
+      <pubDate>Wed, 20 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta Ray-Ban Display、指の動きで文字入力可能に　ニューラル手書き入力を全ユーザーへ展開</title>
       <link>https://ledge.ai/articles/meta_rayban_display_neural_handwriting_input</link>
       <description><![CDATA[<p>Metaは2026年5月14日（現地時間）、ディスプレイ内蔵型スマートグラス Meta Ray-Ban Display 向けの新機能を<a href="https://www.meta.com/ja-jp/blog/six-months-of-meta-ray-ban-display/">発表</a>した。指の動きで文字を入力できる「ニューラル手書き入力」を全ユーザーに展開するほか、グラス内ディスプレイの表示内容を録画できる機能などを追加する。</p>
@@ -169,27 +190,6 @@
 <p>Andurilは同日、米国防省とSurface-Launched Barracuda-500Mの生産契約を締結した。Barracuda-500Mは、長距離精密打撃向けに設計された地上発射型の巡航ミサイルだ。</p>
 <p>契約に基づき、Andurilは3年間にわたって年1000発以上のBarracuda-500Mを供給する。初回分の納入は2027年前半に始まる予定だ。</p>
 <p>Barracuda-500Mは、低コストで大量生産しやすい兵器システムとして位置づけられている。Andurilは、既存の高価で複雑な兵器体系だけでは、大規模な需要に対応しにくいとみており、より安価で迅速に製造できる精密打撃システムの供給を目指す。</p>
-]]></description>
-      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アニメ・イラスト向け画像生成AI「Anima-Base」公開　CircleStone LabsがComfyUI開発元と共同開発</title>
-      <link>https://ledge.ai/articles/anima_base_image_generation_ai_comfyui_development</link>
-      <description><![CDATA[<p>画像生成AIモデルを開発するCircleStone Labsは2026年5月15日、アニメ・イラスト向け画像生成AIモデル「Anima-Base」をHugging Face上で<a href="https://huggingface.co/circlestone-labs/Anima">公開</a>した。</p>
-<p>Anima-Baseは、画像生成AI向けワークフロー環境「ComfyUI」を手がけるComfy Orgとの協業で開発された20億パラメータのtext-to-imageモデルだ。アニメのコンセプト、キャラクター、スタイルを主な対象としつつ、非写実系のイラストやアート画像の生成にも対応する。</p>
-<p>同モデルは、写実表現ではなく、イラストやアート画像の生成に重点を置いている。Hugging Face上では、モデル本体として「anima-base-v1.0.safetensors」などのファイルが<a href="https://huggingface.co/circlestone-labs/Anima/tree/main/split_files/diffusion_models">公開</a>されている。</p>
-<h2>数百万枚のアニメ画像と約80万枚のアート画像で学習</h2>
-<p>Anima-Baseは、数百万枚のアニメ画像と約80万枚の非アニメ系アート画像で学習された。学習には合成データを使っておらず、アニメ学習データの知識カットオフは2025年9月とされている。</p>
-<p>モデルは、Danbooru-style tags、自然言語キャプション、タグとキャプションを組み合わせたデータで学習されており、タグと自然言語を混在させたプロンプトに対応する。</p>
-<p>たとえば、キャラクターや構図、服装などをタグで指定しつつ、自然言語で場面や雰囲気を補うといった使い方が想定される。自然言語のみで指示する場合は、短い一文ではなく、2文以上で詳しく説明することが推奨されている。</p>
-<h2>ComfyUIにネイティブ対応、ローカルでの利用を想定</h2>
-<p>Anima-Baseは、ComfyUIにネイティブ対応している。利用するには、モデル本体の「anima-base-v1.0.safetensors」に加え、テキストエンコーダーやVAEのファイルをComfyUIの所定フォルダに配置する。</p>
-<p>生成設定としては、512×512ピクセルから1536×1536ピクセル相当の解像度、30〜50ステップ、CFG 4〜5などが案内されている。</p>
-<p>また、Anima-Baseは「pretrained, unrefined base model」と位置づけられており、完成済みの調整モデルというより、柔軟性や多様性、スタイル追従性を重視したベースモデルとして提供されている。LoRAなどを用いた追加学習や派生モデルの作成も想定されている。</p>
-<h2>非商用ライセンスで提供、商用利用には別途ライセンスが必要</h2>
-<p>Anima-Baseは「CircleStone Labs Non-Commercial License v1.0」で提供される。モデルと派生物の利用は、研究、教育、個人利用、非営利プロジェクトなどの非商用・非本番用途に限定される。</p>
-<p>商用利用には、CircleStone Labsから別途ライセンスを取得する必要がある。ライセンス文書では、モデルの出力物についてCircleStone Labsは所有権を主張しないとしている一方、出力物を競合モデルの学習、微調整、蒸留に使うことは禁止している。</p>
-<p>Anima-Baseは、アニメやイラストの表現に焦点を当てた画像生成モデルとして、ComfyUIを使うクリエイターや開発者に新たな選択肢を提供する。ただし、現時点では非商用利用を前提としたライセンスであり、商用制作や本番環境で利用する場合は、ライセンス条件の確認が必要となる。</p>
 ]]></description>
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
     </item>
@@ -437,28 +437,6 @@
 <p>現時点で確認できる情報は、価格、外観、変形動作のデモに限られている。今後は、走行可能な環境、操作方法、安全機能、販売時期、保守体制などの追加情報が焦点となる。UnitreeにとってGD01は、四足歩行ロボットやヒューマノイドに続き、人が搭乗する大型ロボットを製品ラインアップに加える発表となった。</p>
 ]]></description>
       <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、LLMの活性化値を自然言語に変換する新手法「NLA」発表　Claudeの内部状態を可視化し安全性監査に応用</title>
-      <link>https://ledge.ai/articles/anthropic_natural_language_autoencoders_ai_activation_auditing</link>
-      <description><![CDATA[<p>Anthropicは2026年5月7日（現地時間）、大規模言語モデル（LLM）の内部状態を自然言語で説明する新手法「Natural Language Autoencoders（NLA）」を<a href="https://transformer-circuits.pub/2026/nla/index.html">発表</a>した。
-NLAは、モデル内部の「活性化値」を人間が読めるテキストに変換し、その説明から元の活性化値を再構成する手法だ。</p>
-<p>同社は、NLAをClaude Opus 4.6やClaude Mythos Previewの安全性テストに活用した。Anthropicによると、NLAは、モデルが明示的には語らない「評価されているという認識」や、隠れた動機の調査に役立ったという。</p>
-<h2>活性化値を自然言語で説明するNLA</h2>
-<p>LLMは、入力されたテキストを処理し、次に出力する単語を予測する過程で、内部に多数の数値表現を生成する。Anthropicは、この内部表現である活性化値を、モデルの「思考」に相当するものとして説明している。</p>
-<p>Anthropicはこれまで、活性化値を理解するために、スパースオートエンコーダー（SAE）やアトリビューショングラフなどのツールを開発してきた。ただし、従来の手法は出力の解釈に専門知識が必要で、研究者が複雑なグラフや数値を読み解く必要があった。</p>
-<p>今回発表したNLAは、活性化値を直接、自然言語の説明に変換することを目指す。Anthropicは、NLAに関する研究論文やコードを公開したほか、AIモデル内部のニューロンや特徴を可視化・共有するプラットフォーム「Neuronpedia」と連携し、複数のオープンモデルでNLAを試せるインタラクティブデモも公開している。</p>
-<p>@<a href="https://www.youtube.com/watch?v=j2knrqAzYVY">YouTube</a></p>
-<h2>説明文から元の活性化値を再構成</h2>
-<p>NLAは、活性化値を自然言語の説明に変換する「Activation Verbalizer（AV）」と、その説明から元の活性化値を再構成する「Activation Reconstructor（AR）」で構成される。</p>
-<p>AVは、対象モデルから取り出した活性化値を、人間が読める説明文に変換する。ARは、その説明文をもとに、元の活性化値を再構成する。Anthropicは、元の活性化値と再構成された活性化値の差を小さくするようにNLAを訓練する。</p>
-<p>この「活性化値から説明文へ、説明文から活性化値へ」という往復構造により、NLAの説明文は単なる要約ではなく、元の内部状態に対応した情報を含むように設計されている。</p>
-<p><strong>NLAの仕組み図</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/b71d759a5e7b578551ca83939949b539b2e5799e_4620x1410_27bf9983e6/b71d759a5e7b578551ca83939949b539b2e5799e_4620x1410_27bf9983e6.png" alt="b71d759a5e7b578551ca83939949b539b2e5799e-4620x1410.png" />
-:::small
-画像の出典：<a href="https://www.anthropic.com/research/natural-language-autoencoders">Anthropic</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 12 May 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claude for Microsoft 365を一般提供　Excel・Word・PowerPointで文脈を引き継ぐAI作業支援</title>
