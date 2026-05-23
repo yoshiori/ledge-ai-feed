@@ -142,6 +142,20 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAIの内部AIモデル、エルデシュの「単位距離予想」を反証　外部数学者が検証</title>
+      <link>https://ledge.ai/articles/openai_erdos_unit_distance_problem_disproof</link>
+      <description><![CDATA[<p>OpenAIは2026年5月20日、同社の内部AIモデルが、80年近く研究されてきた離散幾何の予想を反証したと<a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">発表</a>した。</p>
+<p>対象となったのは、平面上に置いた点のうち、距離がちょうど1になる点のペアを最大でどれだけ作れるかを問う「単位距離問題」だ。OpenAIは、この問題をポール・エルデシュ氏が1946年に提示した平面単位距離問題として説明している。</p>
+<p>同社によると、内部の汎用推論モデルが新しい点配置の構成を見つけ、人間の数学者らによる検証を経て、従来の有力な予想が成り立たないことが示されたという。</p>
+<h2>エルデシュが1946年に提示した「単位距離問題」</h2>
+<p>ポール・エルデシュ氏は、数論や組合せ論、グラフ理論など幅広い分野で多くの問題を残した、20世紀を代表する数学者の一人だ。現在も、同氏が提起した問題や予想を整理した「Erdős Problems」では、数学者らが未解決問題の進展を追っている。今回の単位距離問題は、同サイトでは「Problem 90」として整理されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/openai_erdos_problem90_db4dd13899/openai_erdos_problem90_db4dd13899.jpg" alt="openai erdos problem90.jpg" />
+:::small
+画像の出典：<a href="https://www.erdosproblems.com/forum/thread/90">Erdős Problems - Problem 90</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>公共2026/5/22 [FRI]OpenAI、サイバー防御特化AI「GPT-5.5-Cyber」を日本提供へ　政府・重要インフラ分野と連携</title>
       <link>https://ledge.ai/articles/openai_gpt_5_5_cyber_japan_government_critical_infrastructure</link>
       <description><![CDATA[<p>米OpenAIが、サイバーセキュリティに特化したAIモデル「GPT-5.5-Cyber」を、日本の政府機関や一部企業に提供する方針であることが分かった。2026年5月21日に東京都内で開催された記者発表会で、OpenAI取締役のポール・ナカソネ氏らが明かしたと、複数の国内メディアが報じた。</p>
