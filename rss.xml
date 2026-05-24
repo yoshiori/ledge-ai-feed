@@ -5,27 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>「Oculus」創業者パーマー・ラッキー氏ら設立のAI防衛テックAnduril、50億ドル調達で評価額610億ドルに　米国防省とミサイル量産契約も</title>
-      <link>https://ledge.ai/articles/anduril_ai_defense_5b_funding_missile_production</link>
-      <description><![CDATA[<p>AI搭載兵器や自律型防衛システムを開発する米Anduril Industriesは2026年5月13日（現地時間）、Series Hラウンドで50億ドル（約7800億円）を調達したと<a href="https://www.anduril.com/news/anduril-announces-usd5b-series-h-raise">発表</a>した。今回の調達により、同社の評価額は610億ドルとなった。Andurilは、VRヘッドセット「Oculus」の創業者であるPalmer Luckey氏らが2017年に設立した防衛技術企業だ。</p>
-<p>ラウンドはThrive CapitalとAndreessen Horowitzが主導した。Andurilは、調達した資金を製造能力の拡大、研究開発、先進防衛システムを大規模に配備するためのインフラ整備に投じるとしている。</p>
-<p>同社は同日、米国防省（United States Department of War）と地上発射型ミサイル「Surface-Launched Barracuda-500M」の生産契約を締結したことも<a href="https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m">発表</a>した。AI防衛テック企業が、ソフトウェアや自律システムの開発にとどまらず、兵器の量産体制へ踏み込む動きとして注目される。</p>
-<h2>Anduril、50億ドル調達　評価額は610億ドルに</h2>
-<p>Andurilは、VRヘッドセット「Oculus」の創業者として知られるPalmer Luckey氏らが2017年に設立した防衛技術企業で、自律システム、センサー、ソフトウェア、兵器プラットフォームなどを組み合わせた防衛システムを手がけている。</p>
-<p>同社CEO兼共同創業者のBrian Schimpf氏は、創業当時の防衛分野はベンチャー投資を集める主要カテゴリではなかったとしたうえで、米国と同盟国が直面する技術的・産業的課題の規模に、投資家が注目するようになったとの見方を示している。</p>
-<p>今回の資金調達でAndurilは、兵器や防衛システムを試作・開発する段階にとどまらず、大規模に製造し、配備する体制を強化する。AIや自律システムを組み込んだ防衛技術は、アルゴリズムやソフトウェアの性能だけでなく、量産能力や供給網の構築まで含めた競争領域になりつつある。</p>
-<h2>製造能力と研究開発に投資、防衛システムの量産を加速</h2>
-<p>Andurilは、今回の資金を製造能力、研究開発、先進防衛システムの配備インフラに充てる。防衛分野では、ドローン、自律型兵器、センサー統合、AIによる認識・判断支援など、ソフトウェアを中核にした技術開発が進んでいる。</p>
-<p>一方で、これらを実際の防衛力として機能させるには、低コストで大量に製造し、短期間で配備できる体制が必要になる。Andurilは、AIや自律システムを前提とした防衛技術を、量産可能な製品として展開する方向を強めている。</p>
-<p>同社はこれまでも、オハイオ州で大規模製造施設「Arsenal-1」の建設を進めるなど、製造能力の拡大を打ち出してきた。今回の50億ドル調達は、こうした製造インフラへの投資をさらに加速させるものとなる。</p>
-<h2>米国防省とBarracuda-500Mの量産契約</h2>
-<p>Andurilは同日、米国防省とSurface-Launched Barracuda-500Mの生産契約を締結した。Barracuda-500Mは、長距離精密打撃向けに設計された地上発射型の巡航ミサイルだ。</p>
-<p>契約に基づき、Andurilは3年間にわたって年1000発以上のBarracuda-500Mを供給する。初回分の納入は2027年前半に始まる予定だ。</p>
-<p>Barracuda-500Mは、低コストで大量生産しやすい兵器システムとして位置づけられている。Andurilは、既存の高価で複雑な兵器体系だけでは、大規模な需要に対応しにくいとみており、より安価で迅速に製造できる精密打撃システムの供給を目指す。</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Cloudflare、「Project Glasswing」の一環で「Mythos Preview」を検証　複数の小さなバグをつなぎ実用的な攻撃経路を推論可能、防御活用の課題も浮彫りに</title>
       <link>https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test</link>
       <description><![CDATA[<p>米CDN大手のCloudflareは5月18日（現地時間）、Anthropicのプレビュー版AIモデル「Mythos Preview」を、自社の50以上のリポジトリで検証した結果を<a href="https://blog.cloudflare.com/cyber-frontier-models/">公開</a>した。Anthropicが進めるサイバー防衛プロジェクト「Project Glasswing」の一環として同モデルの利用機会を得たもので、Cloudflareは自社のインフラやコードベースに対し、セキュリティ特化型LLMがどのように機能するかを検証した。</p>
@@ -174,6 +153,17 @@
 <h2>クリエイティブ産業から製造、ロボティクス、ゲームへ</h2>
 <p>Runwayの共同創業者兼共同CEOであるクリスバル・バレンズエラ氏は、日本について「世界で最も洗練されたクリエイティブ産業を持つ国の一つ」と位置づけている。</p>
 <p>同氏は、日本を含むアジアの主要市場が、ロボティクス、製造業、ゲーム産業でも世界をリードしていると指摘。Runwayが取り組む「world models」は、こうした産業で重要な役割を果たすとの見方を示した。</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>セールスフォース・ジャパン、Slackbotを業務AIエージェントへ　「AIスキル」や「ディープリサーチ」を国内提供開始</title>
+      <link>https://ledge.ai/articles/salesforce_japan_slackbot_ai_agent</link>
+      <description><![CDATA[<p>セールスフォース・ジャパンは2026年5月20日、ビジネス向けコラボレーションツール「Slack」の新機能として、「AIスキル」「ディープリサーチ」「Salesforce Actions」「メモリ機能」の日本での一般提供を開始したと<a href="https://www.salesforce.com/jp/news/press-releases/2026/05/20/slackbotorchestration/">発表</a>した。</p>
+<p>Slackbotが定型業務の効率化、高度な調査、SalesforceのCRMデータ連携、ユーザーごとの文脈を踏まえた対応までを一貫して支援する。Salesforceは、Slackにおける企業のAIエージェント活用を実務レベルで本格化させる機能群と位置付けている。</p>
+<h2>Slackbotを業務AIエージェントへ拡張</h2>
+<p>今回提供が始まった4つの機能は、人とAIエージェント、企業アプリケーションをひとつの基盤でつなぐというSalesforceの方針に沿ったものだ。Slackbotは、会話への回答だけでなく、業務テンプレートの実行、複数情報源を横断した調査、CRMデータの操作、ユーザーごとのパーソナライズされた対応を担う。</p>
+<p>Slackの<a href="https://slack.com/intl/ja-jp/blog/news/agent-orchestration">公式ブログ</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
