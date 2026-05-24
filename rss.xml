@@ -116,22 +116,6 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、ChatGPTに個人向け資産管理機能　金融口座と連携し支出・投資・負債を可視化、米Proユーザー向けに提供</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_personal_finance_pro_us</link>
-      <description><![CDATA[<p>OpenAIは2026年5月15日（現地時間）、「ChatGPT」の新機能として、個人向け資産管理機能「Finances」のプレビュー版を<a href="https://openai.com/index/personal-finance-chatgpt/">発表</a>した。米国のProプランユーザー向けに、Web版とiOS版で提供を開始している。</p>
-<p>同機能では、ユーザーが金融データ連携サービスのPlaidを通じて金融口座をChatGPTに接続できる。対応する金融機関は1万2000以上で、支出、請求、サブスクリプション、純資産、投資情報などをChatGPT上で確認できるという。OpenAIはまず小規模なプレビューとして提供し、今後Plusユーザーへ拡大したうえで、最終的には全ユーザーへの提供を目指すとしている。</p>
-<h2>支出や投資、負債をChatGPT上で確認</h2>
-<p>Financesでは、接続した金融口座の情報をもとに、ユーザーの支出状況や今後の支払い予定、継続課金、予算、貯蓄目標、債務返済などを確認できる。純資産や投資情報も扱えるため、単なる家計簿ではなく、個人の金融状況をChatGPT上で横断的に把握する機能といえる。</p>
-<p>ユーザーは通常のチャット画面から、自分の金融状況に基づいた質問もできる。たとえば、住宅購入に向けた計画、支出の見直し、サブスクリプションの整理、貯蓄目標の達成状況などについて、接続済みの金融データを前提に相談できるという。</p>
-<p><strong>ChatGPT上で金融データをもとに住宅購入計画を相談する例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_OAI_Chat_GPT_Personal_Finances_Goal_Planning_38a7b091ad/1_OAI_Chat_GPT_Personal_Finances_Goal_Planning_38a7b091ad.jpg" alt="1-OAI-ChatGPT-Personal-Finances-GoalPlanning.jpg" /></p>
-<h2>Plaid経由で金融機関と接続</h2>
-<p>金融口座の接続には、金融データ連携サービスのPlaidを使用する。Plaidは、銀行口座や投資口座、クレジットカードなどの金融データをアプリケーションに接続するためのプラットフォームを提供している。</p>
-<p>Plaidも同日、OpenAIとの連携について<a href="https://plaid.com/blog/chatgpt-personal-finance-plaid/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAIの内部AIモデル、エルデシュの「単位距離予想」を反証　外部数学者が検証</title>
       <link>https://ledge.ai/articles/openai_erdos_unit_distance_problem_disproof</link>
       <description><![CDATA[<p>OpenAIは2026年5月20日、同社の内部AIモデルが、80年近く研究されてきた離散幾何の予想を反証したと<a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">発表</a>した。</p>
