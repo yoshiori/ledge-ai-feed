@@ -51,6 +51,16 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、科学研究向けAIツール群「Gemini for Science」発表　仮説生成・文献分析・計算科学的発見・生命科学DBとの連携を支援</title>
+      <link>https://ledge.ai/articles/gemini_for_science_ai_research_tools</link>
+      <description><![CDATA[<p>Googleは2026年5月20日、科学研究向けAIツール群「Gemini for Science」を<a href="https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/">発表</a>した。科学的な探求の規模と精度を高めることを目的に設計されたもので、仮説生成、文献分析、計算科学的発見、生命科学データベースとの連携など、研究プロセスの複数段階を支援する。</p>
+<p>Gemini for Scienceは、Google I/O 2026に合わせて発表されたAI for Science関連の取り組みだ。Google Labsで展開する実験ツールと、Google Antigravity上で利用できる専門スキル群「Science Skills」を組み合わせ、研究者が日常的に行う文献調査や仮説検討、計算実験の作業をAIで支援する。</p>
+<h2>Google Labsで3つの実験ツールを展開</h2>
+<p>Google Labsでは、Gemini for Scienceの一部として3つの<a href="https://labs.google/science/">実験ツール</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google I/O 2026開催——最新基盤モデルGemini 3.5 Flash発表　24時間動く個人AIエージェント「Gemini Spark」とマルチモーダルモデルGemini Omniなども公開</title>
       <link>https://ledge.ai/articles/google_io_2026_gemini_spark_3_5_flash_omni</link>
       <description><![CDATA[<p>Googleは5月19日（現地時間）、年次開発者会議「Google I/O 2026」を開催し、生成AI「Gemini」を軸にした新機能群を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/">発表</a>した。最大の焦点は、Geminiをユーザーの指示に応じて実際の作業を進める「エージェント」へ発展させることだ。</p>
@@ -102,26 +112,6 @@
 <h2>ウェブ保存からAI時代の記録保存へ</h2>
 <p>Internet Archiveは、1996年からウェブの保存に取り組み、Wayback Machineを通じてインターネット上の情報を後世に残してきた。今回の新財団設立では、その保存対象に生成AIモデルや危機にある文化記録が加わる。</p>
 <p>AIモデルは、現在の社会や情報環境に大きな影響を与えつつある一方で、サービスの更新や終了によって過去の状態が失われやすい。Internet Archive Switzerlandは、そうしたAI時代の記録を保存するための新たな拠点となる。</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIとの会話を「完全プライベート」に　WhatsApp向け新機能「Incognito Chat」発表</title>
-      <link>https://ledge.ai/articles/meta_ai_incognito_chat_private_whatsapp</link>
-      <description><![CDATA[<p>Metaは2026年5月13日（現地時間）、WhatsAppとMeta AIアプリ向けに、AIとの会話を完全にプライベートに行える新機能「Incognito Chat with Meta AI」を<a href="https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/">発表</a>した。今後数カ月以内に順次展開する。</p>
-<p>Incognito Chatは、Meta AIとの会話を、Metaにも見えない安全な環境で処理する機能だ。会話は保存されず、メッセージはデフォルトで消えるという。Metaは、AIとの会話が情報収集や相談の手段として広がるなか、健康、ローン、キャリア相談など、個人的で機微性の高い内容が含まれる可能性があるとしている。</p>
-<h2>Metaにも読めない一時的なAI会話</h2>
-<p>Incognito Chat with Meta AIは、WhatsAppとMeta AIアプリで利用できる新しい会話モードだ。WhatsAppでIncognito Chatを開始すると、ユーザーだけが見ることができる、プライベートで一時的な会話が作成される。Metaが公開した画面例では、会話がMetaとWhatsAppからアクセスできず、チャット履歴にも保存されないことが示されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/meta_AI_chat1_0bff95ae03/meta_AI_chat1_0bff95ae03.jpg" alt="meta AI chat1.jpg" /></p>
-<p>Metaは、他のアプリにもシークレットモード風の機能はあるものの、サービス側が入力された質問や出力された回答を確認できる場合があると説明する。一方、Incognito Chatでは、Meta AIとの会話をMetaにも読めない形で処理する。</p>
-<p>会話は安全な環境で処理され、Metaはその内容にアクセスできない。会話内容は保存されず、メッセージはデフォルトで消えるため、ユーザーは他者に見られることを前提にせず、質問やアイデアの検討ができるとしている。</p>
-<h2>WhatsAppの「Private Processing」を基盤に構築</h2>
-<p>Incognito Chatは、WhatsAppの「Private Processing」技術を基盤としている。Private Processingは、WhatsApp上でAI機能を利用する際に、ユーザーのメッセージをMetaやWhatsAppから見えない形で処理するための仕組みとして発表されていた。</p>
-<p>今回のIncognito Chatは、この技術をMeta AIとの会話に適用するものだ。Metaは、AIチャットの利便性を保ちながら、会話内容を第三者に見せないプライベートな利用環境を提供すると位置づけている。</p>
-<h2>WhatsApp上の会話を補助する「Side Chat」も予定</h2>
-<p>Metaは、今後数カ月以内にWhatsApp向けの「Side Chat with Meta AI」も導入する予定だ。Side Chatは、WhatsApp上のメイン会話を中断せず、話題の文脈を踏まえてMeta AIからプライベートな支援を受けられる機能とされる。</p>
-<p>このSide ChatもPrivate Processingで保護される。たとえば、会話の流れを保ったままAIに相談する用途を想定しつつ、メインのチャット相手にその相談内容を見せずに使える機能として位置づけられる。</p>
-<p>Incognito Chat with Meta AIは、WhatsAppとMeta AIアプリで今後数カ月以内に展開される。日本での具体的な提供時期は明らかにされていない。</p>
 ]]></description>
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
