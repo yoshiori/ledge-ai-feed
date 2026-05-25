@@ -57,6 +57,19 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、PowerPoint内で使える「ChatGPT for PowerPoint」ベータ公開　スライド作成や既存のプレゼン資料の編集を支援</title>
+      <link>https://ledge.ai/articles/chatgpt_for_powerpoint_beta_release</link>
+      <description><![CDATA[<p>OpenAIは2026年5月22日（現地時間）、Microsoft PowerPoint内でChatGPTを利用できる「ChatGPT for PowerPoint」のベータ版を<a href="https://chatgpt.com/apps/powerpoint/">公開</a>した。PowerPointのサイドバーからChatGPTを開き、自然言語による指示で新しいスライドの作成、既存のプレゼン資料の更新、資料からプレゼン向けコンテンツへの変換、スライドの改善などを行える。</p>
+<p>この機能は、ChatGPT Business、Enterprise、Edu、Teachers、K-12ユーザーに加え、ChatGPT Free、Go、Pro、Plusユーザー向けにグローバルで提供されるという。</p>
+<h2>PowerPoint内のサイドバーからChatGPTを利用</h2>
+<p>ChatGPT for PowerPointは、PowerPoint内のサイドバーで動作するAI機能だ。プレゼン資料の作成、編集、理解、仕上げを支援し、編集可能なスライド構造を保ちながら作業できるという。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_to_install_add_ins_3724379560/how_to_install_add_ins_3724379560.jpg" alt="how to install add ins.jpg" />
+:::small
+画像の出典：<a href="https://chatgpt.com/apps/powerpoint/">OpenAI</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、「Project Glasswing」の一環で「Mythos Preview」を検証　複数の小さなバグをつなぎ実用的な攻撃経路を推論可能、防御活用の課題も浮彫りに</title>
       <link>https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test</link>
       <description><![CDATA[<p>米CDN大手のCloudflareは5月18日（現地時間）、Anthropicのプレビュー版AIモデル「Mythos Preview」を、自社の50以上のリポジトリで検証した結果を<a href="https://blog.cloudflare.com/cyber-frontier-models/">公開</a>した。Anthropicが進めるサイバー防衛プロジェクト「Project Glasswing」の一環として同モデルの利用機会を得たもので、Cloudflareは自社のインフラやコードベースに対し、セキュリティ特化型LLMがどのように機能するかを検証した。</p>
