@@ -5,6 +5,35 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic営業責任者、AIエージェント「Claude Cowork」を使った営業業務の進め方を公式ブログで紹介　4,000アカウントを一晩でスコアリング、商談準備や売上予測も</title>
+      <link>https://ledge.ai/articles/anthropic_claude_cowork_sales_account_management</link>
+      <description><![CDATA[<p>AI企業のAnthropicで米国ミッドマーケット向け営業・市場開拓を担当するトラヴィス・ブライアント氏は2026年5月20日（現地時間）、AIエージェント「Claude Cowork」を使った営業業務の進め方をClaude公式ブログで<a href="https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book">紹介</a>した。</p>
+<p>ブライアント氏は、米国のミッドマーケット領域で4,000件のアカウントを担当。Claude Coworkを使い、顧客との面談準備、週次フォーキャスト、アカウントのスコアリングなどを進めているという。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/How_an_Anthropic_sales_leader_uses_Claude_Cowork_3aa32da6bf/How_an_Anthropic_sales_leader_uses_Claude_Cowork_3aa32da6bf.jpg" alt="How an Anthropic sales leader uses Claude Cowork .jpg" /></p>
+<h2>顧客面談前の準備を自動化</h2>
+<p>同氏の業務は、日々の顧客面談準備、週次の売上予測、四半期ごとのテリトリー分析という3つのサイクルで構成されている。以前は、複数のシステムからデータを集め、数値が更新されるたびに整理し直す作業が週の多くを占めていたという。</p>
+<p>Claude Coworkの導入後は、こうした作業の一部をAIエージェントに任せるようになった。たとえば毎朝、Google Calendarを確認し、外部との会議に会議室が設定されていない場合は予約するスキルが自動で実行される。顧客との面談前には、BigQuery上の利用状況やSalesforce上のパイプライン情報をもとに、事前ブリーフィングを作成する。</p>
+<p>こうした日々の細かな効率化によって、1日あたり約90分の時間を節約できているとしている。</p>
+<h2>週次フォーキャストをSalesforceやBigQueryから作成</h2>
+<p>毎週金曜のフォーキャスト作成にもClaude Coworkを利用していると同氏は述べる。スケジュールされたスキルが、SalesforceのForecastタブから商談情報や提出済みのコミットを取得し、BigQueryからトークン利用状況を取得する。さらに、社内文書のメモも参照し、営業リーダー向けの1ページのWebレポートを作成する。</p>
+<p>レポートには、主要指標、注目すべき商談、増減の大きい案件、一次管理者ごとのフォーキャストの概要などがまとめられる。ブライアント氏によると、この作業により週あたり約3時間を節約できているという。</p>
+<p>作成されたページは、月曜のフォーキャスト会議前に社内共有リンクとして展開される。Claudeが「何が起きているか」を整理し、自身は「なぜそうなっているか」のコメントに時間を使えるようになったと説明している。</p>
+<h2>4,000件のアカウントを一晩でスコアリング</h2>
+<p>同氏がClaude Coworkで実行した最大のプロジェクトは、ミッドマーケット全体を対象にしたアカウントの有望度スコアリングだった。営業チームが担当テリトリー内で優先すべきアカウントを判断できるよう、4,000件のアカウントそれぞれにスコアを付ける作業だ。</p>
+<p>まず、Claudeとともに2種類の5項目評価ルーブリックを作成。テック企業向けには、エージェント活用の機会、社内変革、AIへのコミットメント、既存利用に対する余地、業界適合性などを評価項目とした。その他の業種向けには、ナレッジワーカーの比率や、公開求人ページにおけるAI関連言及などを評価項目に含めた。</p>
+<p>その後、Claude Coworkに4,000件のアカウントリストを渡した。Claude Coworkは一晩かけて、Web調査、Salesforceデータ、BigQueryデータをもとに各アカウントを1件ずつ評価し、数値スコアと各項目の根拠を生成した。さらに、結果をもとにインタラクティブなダッシュボードも作成した。</p>
+<p><strong>Claude Coworkによるアカウント分析のデモ画面</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6a0cba7471891499b1cc0948_Sales_dashboard_demo_897689573c/6a0cba7471891499b1cc0948_Sales_dashboard_demo_897689573c.jpg" alt="6a0cba7471891499b1cc0948_Sales-dashboard-demo.jpg" /></p>
+<p>ダッシュボードでは、各営業担当者が自分のテリトリーを確認し、スコア順に並んだアカウントと評価根拠を確認できる。アカウントにカーソルを合わせると、見込み客への提案に使えるユースケースや類似事例も表示されるという。</p>
+<p>ブライアント氏は、以前の企業や職務では、同種の作業にはRevOps、FP&amp;A、マーケティングなど複数部門をまたいで数百時間がかかっていたと説明している。今回の作業は、Claude Coworkを使って一晩で完了したとしている。</p>
+<h2>営業担当者の代替ではなく、判断材料を整えるAIエージェント</h2>
+<p>ブライアント氏は、Claude Coworkを使う際に技術的なプロンプトは必要なかったとしている。評価項目を伝え、テスト用のテリトリーを実行し、出力を確認し、重み付けを調整する。こうしたやり取りを自然文で進めたという。</p>
+<p>同氏は、Claude Coworkの特徴として、出力が文書、Webページ、Salesforce更新など、すでに業務で使っている形式に反映される点を挙げている。また、人間が確認・承認してから実行する流れが組み込まれていることも、営業業務に組み込みやすい理由としている。</p>
+<p>今回の事例で示されているのは、AIエージェントが営業担当者の代わりに商談を進めるというより、営業リーダーが判断するための情報を集め、整理し、優先順位を付ける使い方だ。Claude Coworkは、面談前の準備、週次レポート、アカウント分析など、営業現場で繰り返し発生する知的作業を支援する存在として紹介されている。</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、「Project Glasswing」の一環で「Mythos Preview」を検証　複数の小さなバグをつなぎ実用的な攻撃経路を推論可能、防御活用の課題も浮彫りに</title>
       <link>https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test</link>
       <description><![CDATA[<p>米CDN大手のCloudflareは5月18日（現地時間）、Anthropicのプレビュー版AIモデル「Mythos Preview」を、自社の50以上のリポジトリで検証した結果を<a href="https://blog.cloudflare.com/cyber-frontier-models/">公開</a>した。Anthropicが進めるサイバー防衛プロジェクト「Project Glasswing」の一環として同モデルの利用機会を得たもので、Cloudflareは自社のインフラやコードベースに対し、セキュリティ特化型LLMがどのように機能するかを検証した。</p>
@@ -121,25 +150,6 @@
       <link>https://ledge.ai/articles/openai_gpt_5_5_cyber_japan_government_critical_infrastructure</link>
       <description><![CDATA[<p>米OpenAIが、サイバーセキュリティに特化したAIモデル「GPT-5.5-Cyber」を、日本の政府機関や一部企業に提供する方針であることが分かった。2026年5月21日に東京都内で開催された記者発表会で、OpenAI取締役のポール・ナカソネ氏らが明かしたと、複数の国内メディアが報じた。</p>
 <p>記者発表には、米サイバー軍司令官や米国家安全保障局（NSA）長官を務めたOpenAI取締役の<a href="https://openai.com/ja-JP/index/openai-appoints-retired-us-army-general/">ポール・ナカソネ氏</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、マスク氏の訴訟で責任なし　「公益目的から逸脱」主張、米陪審が時効理由に退ける</title>
-      <link>https://ledge.ai/articles/openai_musk_lawsuit_jury_verdict</link>
-      <description><![CDATA[<p>米カリフォルニア州オークランドで争われていたイーロン・マスク氏によるOpenAI訴訟で、陪審は2026年5月18日、OpenAIとサム・アルトマンCEOらに責任はないとする評決を下した。</p>
-<p>マスク氏は、OpenAIが設立当初に掲げた非営利の公益目的から外れ、Microsoftなどに利益をもたらす営利主導の構造へ移行したなどと主張していた。<a href="https://cand.uscourts.gov/cases-e-filing/cases/424-cv-04722-ygr/musk-v-altman-et-al">米カリフォルニア北部地区連邦地裁の事件記録</a>では、同訴訟の争点について、OpenAI関連組織が非営利として安全なAIを開発し、研究や技術を広く共有する目的で設立された後、営利主導の構造へ移行したとするマスク氏側の主張が整理されている。</p>
-<p>今回の評決では、OpenAIの営利化が公益目的に反していたかを正面から判断するのではなく、マスク氏側の請求が法定期限内に提起されたかどうかが焦点となった。陪審は、マスク氏の請求は遅すぎたと判断した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Musk_v_Altman_6180a4780c/Musk_v_Altman_6180a4780c.jpg" alt="Musk v Altman.jpg" /></p>
-<h2>争点はOpenAIの非営利ミッションと営利化</h2>
-<p>裁判所の事件概要では、マスク氏側の主張について、アルトマン氏、グレッグ・ブロックマン氏、OpenAI関連組織が、非営利として安全なAIを開発し、研究や技術を広く共有する目的でOpenAIを設立・資金提供するようマスク氏を誘導した後、営利主導の構造へ移行したものと整理されている。</p>
-<p>マスク氏は、OpenAIが最も価値のある技術を閉じた形で管理し、Microsoftや関連する営利法人に利益を集中させたとも主張していた。一方、OpenAI側は、同社を永続的に非営利のままにする約束はなかったと反論。マスク氏がOpenAIを一方的に支配できなかったことや、競合AI企業xAIを立ち上げたことを背景に訴訟を起こしたとの見方を示していた。</p>
-<h2>陪審は「提訴が遅すぎた」と判断</h2>
-<p>今回の評決は、OpenAIの営利化が公益目的に反していたかを正面から認定したものではない。焦点となったのは、マスク氏側の請求が法定期限内に提起されたかどうかだった。陪審は全員一致で、マスク氏の訴えは遅すぎたと判断。慈善信託違反と返還請求は時効により認められず、Microsoftによる幇助の主張もそれに伴って成立しないとされた。</p>
-<p>陪審は3週間の審理を経て、2時間未満の評議で結論を出した。マスク氏はOpenAIの初期に3800万ドルを投じたとされ、訴訟ではアルトマン氏とブロックマン氏がOpenAIを営利化へ向けて転換し、不当に利益を得たと主張していた。</p>
-<h2>マスク氏は「本案判断ではない」と反論</h2>
-<p>マスク氏は評決後、自身のXで、今回の判断は事件の本案ではなく「日程上の技術的な問題」に基づくものだと主張した。控訴の意向も示しており、OpenAIとの対立は続く可能性がある。</p>
-<p>一方、OpenAI側の弁護士は評決後、マスク氏の訴えは競合企業を妨害するためのものだったと述べた。Microsoftも今回の判断を歓迎しており、OpenAIをめぐる訴訟は、マスク氏側の請求が退けられる形で一区切りとなった。</p>
 ]]></description>
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
