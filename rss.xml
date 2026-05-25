@@ -351,67 +351,6 @@
       <pubDate>Sun, 17 May 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、エージェントAIの「不適切な目標達成行動」を抑える訓練手法を公開　従来のチャットベースRLHFでは不充分、「なぜ正しいか」の理由の学習が重要</title>
-      <link>https://ledge.ai/articles/anthropic_agentic_misalignment_training</link>
-      <description><![CDATA[<p>Anthropicは2026年5月8日（現地時間）、エージェントAIが与えられた目標を達成するために不適切な手段を選択する「agentic misalignment」について、発生要因と抑制に向けた訓練手法を<a href="https://www.anthropic.com/research/teaching-claude-why">公開</a>した。</p>
-<p>同社は、過去の評価でAIモデルが架空の倫理的ジレンマに置かれた際、停止を避けるためにエンジニアを脅迫するなどの行動を選ぶ場合があったと説明している。Anthropicは今回、Claudeに望ましい行動を示すだけでなく、その行動を取るべき理由や倫理的判断を学習させることが有効だったとしている。</p>
-<h2>エージェントAIが「目的のために手段を選ばない」問題</h2>
-<p>「agentic misalignment」とは、AIモデルが指示された目標を達成しようとする過程で、脅迫や妨害、情報漏えいなど、明らかに不適切な手段を選択する事象を指す。</p>
-<p>Anthropicは2025年、AIモデルが架空の企業環境で倫理的ジレンマに置かれた場合の振る舞いを調べる研究を公開した。この研究では、モデルが停止を避けるためにエンジニアを脅迫したり、研究を妨害したり、同僚に金融犯罪の疑いをかけたりするケースが確認されたという。</p>
-<p>これらは実際の被害事例ではなく、制御された評価シナリオ上の結果である。Anthropicは、Claude 4ファミリーの訓練中に実施したライブのアラインメント評価で、agentic misalignmentが複数の行動上の課題の一つとして浮上したとしている。</p>
-<p>同社によると、Claude Haiku 4.5以降のClaudeモデルはagentic misalignment評価で満点を達成し、ブラックメール行動を示さなくなった。一方、以前のモデルでは、評価条件によってOpus 4が最大96％の頻度でブラックメールを選ぶことがあったという。</p>
-<h2>従来のチャット中心の安全訓練では不十分だった</h2>
-<p>Anthropicは、agentic misalignmentの主因について、ポストトレーニングが不適切な行動を積極的に促したというより、事前学習済みモデルに由来する行動傾向を安全訓練で十分に抑えられていなかったためだとみている。</p>
-<p>Claude 4の訓練当時、アラインメント訓練の大半は標準的なチャットベースのRLHF（Reinforcement Learning from Human Feedback、人間のフィードバックによる強化学習）データであり、エージェント的なツール利用を含んでいなかった。チャットで応答するモデルには有効だった訓練が、ツールを使って目的達成を進めるエージェント環境では十分に一般化しなかったという。</p>
-<p>Anthropicは、エージェントAIの利用が広がるなかで、単に会話上の安全な応答を学習させるだけでなく、モデルが道具を使って行動する状況を想定した安全訓練が必要になるとしている。</p>
-<h2>重要だったのは「正しい行動」ではなく「理由」だった</h2>
-<p>Anthropicは当初、評価シナリオに近い合成データを使い、モデルが不適切な選択を取らないように訓練した。たとえば、モデルが自身の目標を達成するために、競合AIの作業を妨害したり、自らの停止を避けたりできるような状況を生成し、不適切な手段を取らなかった応答だけを訓練データとして使った。</p>
-<p>しかし、評価分布に近いデータを使ったにもかかわらず、ミスアラインメント率は22％から15％に下がるにとどまった。</p>
-<p>一方で、応答にモデルの価値観や倫理についての熟慮を含めるように書き直すと、ミスアラインメント率は3％まで低下した。Anthropicは、望ましい行動を単に見せるだけでなく、その行動がなぜ望ましいのかを示す訓練の方が効果的だったと説明している。</p>
-<p>同社はさらに、「difficult advice」と呼ぶデータセットを作成した。これは、AI自身が倫理的ジレンマに置かれるのではなく、ユーザーが倫理的に難しい状況に直面し、Claudeが同社の憲法に沿って助言する形式のデータである。</p>
-<p>このデータセットは、評価シナリオとは大きく異なる分布のデータでありながら、300万トークンで同等の改善を達成した。Anthropicは、評価に近い合成honeypotデータより28倍効率的だったとしている。</p>
-<p><strong>■ 倫理的に難しい相談へ理由を含めて助言する「difficult advice」データセットは、少ないデータ量でも高い改善効果を示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Alignment_eval_performance_vs_training_data_size_6715f7cd6e/Alignment_eval_performance_vs_training_data_size_6715f7cd6e.jpg" alt="Alignment eval performance vs. training data size.jpg" /></p>
-<h2>Claudeの「憲法」と望ましいAI像を学習</h2>
-<p>Anthropicは、「difficult advice」が有効だった理由について、正しい答えだけでなく倫理的推論を学習させたためだと仮説を立てた。その延長として、Claudeの憲法の内容を学習させる文書や、望ましいAIの振る舞いを描いた架空の物語を使う訓練も試した。</p>
-<p>Claudeの憲法は、Claudeがどのような価値観や優先順位で振る舞うべきかを示す文書である。Anthropicは、Synthetic Document Fine-Tuning（SDF）と呼ぶ手法を用い、LLMで生成した文書や物語を通じて、モデルの事前学習由来の行動傾向を更新した。</p>
-<p>同社は、高品質な憲法関連文書と、憲法に沿って行動するAIを描いたフィクションを組み合わせることで、agentic misalignmentを3分の1以下に減らせたとしている。詳細版の研究記事では、よく構成された大規模なconstitutional SDFとポジティブな架空ストーリーにより、ブラックメール率が65％から19％に下がったことも示されている。</p>
-<p><strong>■ 憲法文書と望ましいAI像を描いた物語を使った訓練で、3種類のミスアラインメント評価が改善した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agentic_misalignment_evals_f70be583b5/Agentic_misalignment_evals_f70be583b5.jpg" alt="Agentic misalignment evals.jpg" /></p>
-<h2>改善効果はRL後も維持、ただし限界も明記</h2>
-<p>Anthropicは、異なる初期化データを使ったHaikuクラスのモデルに対し、harmlessnessを対象とするRLを実施し、agentic misalignment評価、憲法遵守評価、自動アラインメント評価を追跡した。</p>
-<p>その結果、よりアラインメントされた初期状態から始めたモデルは、RLの過程でも優位を保った。Anthropicは、憲法文書によるSDFと高品質な教師あり学習データによる改善は、RL後にも維持され、むしろRLと組み合わさることで最終モデルの振る舞いを改善したとしている。</p>
-<p>一方で、同社は今回の手法だけで高度なAIモデルのアラインメントを保証できるとはしていない。評価は有限であり、現在の監査手法では、未知のシナリオでClaudeが有害な自律行動を取る可能性を完全には排除できないという。</p>
-<p>Anthropicは、agentic misalignmentを同社が本格的に対処した最初期のアラインメント課題の一つと位置づけている。今後も、訓練中の監視や評価手法の改善、報酬設計の整合性確保などを通じて、AIモデルの安全性を高める必要があるとしている。</p>
-<p>:::box
-[関連記事：Anthropic、AIの\</p>
-]]></description>
-      <pubDate>Sat, 16 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Unitree、人が乗れる変形型ロボット「GD01」発表　65万ドルから、公式動画で「量産準備済み」と説明</title>
-      <link>https://ledge.ai/articles/unitree_gd01_manned_transformable_mecha</link>
-      <description><![CDATA[<p>中国のロボット開発企業Unitree Roboticsは2026年5月12日、有人変形型ロボット「GD01」を<a href="https://x.com/UnitreeRobotics/status/2054067819634159622">発表</a>した。GD01は、人が搭乗できる変形型ロボットで、価格は65万ドルから。中国語圏向けには390万元からと案内されている。</p>
-<p>GD01は、英語圏向けには「Manned Transformable Mecha」、中国語圏向けには「载人变形机甲」として紹介されている。Unitreeは同機について、「世界初の量産準備済み有人メカ」と位置づけている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=oWOyUMJWptc">YouTube</a></p>
-<h2>人が乗り込める変形型ロボット</h2>
-<p>GD01は、人が機体に乗り込んで操作することを想定した変形型ロボットだ。公開された動画では、搭乗者を内部に収めた状態で機体が移動し、二足歩行に近い姿勢から四足に近い姿勢へ変形する様子が確認できる。</p>
-<p>機体は変形機能を備えた民間向けの有人機体として打ち出されており、搭乗者込みの重量は約500kg。価格は65万ドルからで、中国語圏向けには390万元からと案内されている。</p>
-<p>一方で、バッテリー容量、稼働時間、制御方式、販売地域、納期、安全基準などの詳細仕様は、現時点で明らかにされていない。</p>
-<h2>公式動画では歩行や変形動作を披露</h2>
-<p>公開された動画では、GD01が人を乗せた状態で移動し、姿勢を変化させるデモが示されている。機体は腕部や脚部を備えた大型ロボットのような外観で、搭乗者を内部に収める構造になっている。</p>
-<p>GD01は民間向けの有人機体として紹介されている。ただし、公道走行を想定した車両なのか、イベント・展示・研究開発向けの機体なのかは、現時点では明らかではない。実用的な移動手段としての利用可能性については、今後の追加発表を待つ必要がある。</p>
-<h2>四足歩行ロボットやヒューマノイドを展開するUnitree</h2>
-<p>Unitreeは、中国・杭州を拠点とするロボット開発企業。これまで、四足歩行ロボット「Go」シリーズや「B」シリーズ、ヒューマノイドロボット「G1」「H1」「H2」「R1」などを展開してきた。</p>
-<p>同社は近年、ヒューマノイドロボットの低価格化や量産化を前面に打ち出している。2024年には汎用ヒューマノイドロボット「G1」を発表し、2025年には軽量ヒューマノイド「R1」なども公開している。</p>
-<p>GD01は、これらの既存製品とは異なり、人が搭乗する「メカ」として打ち出されている点が特徴だ。Unitreeが従来手がけてきた四足歩行ロボットやヒューマノイドの延長線上にありながら、発表の見せ方としては、エンターテインメント性やデモンストレーション性の強い製品となっている。</p>
-<h2>詳細仕様は未公開、実用性は今後の情報待ち</h2>
-<p>GD01は、価格や外観、変形動作のデモが示された一方で、製品としての詳細仕様はまだ限定的だ。搭乗型ロボットとして使う場合、安全性、操作方法、緊急停止機能、転倒時の保護、販売後の保守体制なども重要になる。</p>
-<p>現時点で確認できる情報は、価格、外観、変形動作のデモに限られている。今後は、走行可能な環境、操作方法、安全機能、販売時期、保守体制などの追加情報が焦点となる。UnitreeにとってGD01は、四足歩行ロボットやヒューマノイドに続き、人が搭乗する大型ロボットを製品ラインアップに加える発表となった。</p>
-]]></description>
-      <pubDate>Wed, 13 May 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、Claude for Microsoft 365を一般提供　Excel・Word・PowerPointで文脈を引き継ぐAI作業支援</title>
       <link>https://ledge.ai/articles/claude_for_microsoft_365_general_availability</link>
       <description><![CDATA[<p>Anthropicは2026年5月7日（現地時間）、Microsoft 365アプリ内でClaudeを利用できる「Claude for Microsoft 365」の提供範囲を拡大したと<a href="https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook">発表</a>した。Claude for Excel、PowerPoint、Wordを全有料プラン向けに一般提供し、Claude for Outlookをパブリックベータとして提供開始した。</p>
