@@ -34,6 +34,29 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、未公開AI「Claude Mythos Preview」で1万件超の脆弱性を発見　Project Glasswing初期報告</title>
+      <link>https://ledge.ai/articles/anthropic_claude_mythos_preview_project_glasswing_vulnerabilities</link>
+      <description><![CDATA[<p>Anthropicは2026年5月22日、同社が4月に立ち上げたサイバーセキュリティプロジェクト「Project Glasswing」の初期状況を<a href="https://www.anthropic.com/research/glasswing-initial-update">公開</a>した。未公開AIモデル「Claude Mythos Preview」を活用し、世界的に重要なソフトウェア群から1万件超の高・重大度脆弱性を発見したという。</p>
+<p>Project Glasswingは、AIモデルのサイバー能力が高まるなか、攻撃者に悪用される前に重要ソフトウェアの脆弱性を見つけ、修正につなげることを目的とした取り組みだ。Anthropicは、Amazon Web Services、Apple、Broadcom、Cisco、CrowdStrike、Google、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networksなどと連携し、Claude Mythos Previewを防御目的で限定的に提供している。</p>
+<h2>約50のパートナーが参加、Cloudflareでは2000件のバグを発見</h2>
+<p>Anthropicによると、Project Glasswingには約50のパートナーが参加しており、開始から約1カ月で、多くのパートナーがそれぞれ数百件規模の高・重大度脆弱性を発見した。複数のパートナーは、バグ発見の速度が10倍以上になったと報告している。</p>
+<p>インターネットの高速化やセキュリティサービスを提供する米Cloudflareでは、重要システム群から2000件のバグが見つかり、そのうち400件が高・重大度だった。同社は、50以上のリポジトリにClaude Mythos Previewを適用し、コードレビューや脆弱性検出の工程に組み込んだ検証内容を<a href="https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test">説明</a>している。</p>
+<p>Claude Mythos Previewは、単にコード内の不具合らしき箇所を指摘するだけでなく、複数の脆弱性を組み合わせた攻撃経路の構築や、実際に悪用可能かを示す検証にも使われている。Anthropicは、こうした能力が防御側に大きな利点をもたらす一方で、悪用された場合のリスクも大きいとしている。</p>
+<h2>オープンソース1000件超をスキャン、脆弱性対応の負荷が課題に</h2>
+<p>Anthropicは、ここ数カ月にわたり、インターネットの基盤を支える1000件超のオープンソースプロジェクトもClaude Mythos Previewでスキャンしてきた。モデルはこれまでに、合計2万3019件の候補を発見し、そのうち高・重大度と推定される脆弱性は6202件にのぼる。</p>
+<p>独立したセキュリティ企業などによる確認も進められている。Anthropicは、脆弱性の再現、深刻度の再評価、既存の修正有無の確認、メンテナーへの詳細レポート作成といった工程を経て、ソフトウェアの保守者に報告している。</p>
+<p>Anthropicが公開したダッシュボードでは、候補の発見から、外部セキュリティ企業などによる確認、メンテナーへの報告、修正、セキュリティアドバイザリ公開までの流れが示されている。2026年5月22日時点で、2万3019件の候補のうち、1596件がメンテナーに報告され、1451件がメンテナーに確認された。修正済みは97件、公開されたセキュリティアドバイザリは88件だった。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/7af1880d305b982764cfefc7dce87c677f1b0254_1634x1008_f1752280c2/7af1880d305b982764cfefc7dce87c677f1b0254_1634x1008_f1752280c2.jpg" alt="7af1880d305b982764cfefc7dce87c677f1b0254-1634x1008.jpg" /></p>
+<p>この落差は、AIによる脆弱性発見が容易になった一方で、人間による確認や修正、開示の工程が大きな負荷になっていることを示している。Anthropicは、複数のメンテナーから、修正に時間が必要なため開示ペースを落としてほしいと求められたことも明らかにしている。高・重大度のバグが修正されるまでには、平均で2週間かかるという。</p>
+<p>Anthropicは、Claude Mythos Previewがオープンソースの暗号ライブラリ「wolfSSL」の脆弱性を検出し、すでに修正とCVE登録につながった例も紹介している。詳細な技術分析は、修正が広く適用された後に公開する予定だという。</p>
+<h2>Claude Mythos Previewは一般提供せず</h2>
+<p>Claude Mythos Previewは、Anthropicが一般提供していない未公開のフロンティアモデルだ。同社はProject Glasswingの開始時点で、同モデルがソフトウェア脆弱性の発見や悪用可能性の検証において、熟練した人間の多くを上回る水準に達していると説明していた。</p>
+<p>英国AI Security Instituteは、Claude Mythos Previewについて、複数段階のサイバー攻撃を想定したサイバーレンジをエンドツーエンドで解いた初のモデルだと評価している。Anthropicは、同等の能力を持つモデルが今後より広く登場する可能性が高い一方、悪用を十分に防ぐ安全対策はまだ確立されていないとして、Mythos級モデルの一般公開を見送っている。</p>
+<p>同社は今後、米国および同盟国政府を含む重要パートナーと連携し、Project Glasswingの対象を拡大する方針だ。あわせて、一般提供されているClaudeモデルを使った脆弱性検出や修正支援ツールも整備していく。</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、「Project Glasswing」の一環で「Mythos Preview」を検証　複数の小さなバグをつなぎ実用的な攻撃経路を推論可能、防御活用の課題も浮彫りに</title>
       <link>https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test</link>
       <description><![CDATA[<p>米CDN大手のCloudflareは5月18日（現地時間）、Anthropicのプレビュー版AIモデル「Mythos Preview」を、自社の50以上のリポジトリで検証した結果を<a href="https://blog.cloudflare.com/cyber-frontier-models/">公開</a>した。Anthropicが進めるサイバー防衛プロジェクト「Project Glasswing」の一環として同モデルの利用機会を得たもので、Cloudflareは自社のインフラやコードベースに対し、セキュリティ特化型LLMがどのように機能するかを検証した。</p>
@@ -111,7 +134,7 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Internet Archive、生成AIモデルを後世に残す「Gen AI Archive」構築へ　スイスに新財団設立</title>
+      <title>学術＆研究2026/5/22 [FRI]Internet Archive、生成AIモデルを後世に残す「Gen AI Archive」構築へ　スイスに新財団設立</title>
       <link>https://ledge.ai/articles/internet_archive_switzerland_gen_ai_archive</link>
       <description><![CDATA[<p>ウェブページやデジタル資料の保存を手がける非営利団体Internet Archiveは2026年5月6日、新財団「Internet Archive Switzerland」の設立を<a href="https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/">発表</a>した。スイス・ザンクト・ガレンを拠点とする独立非営利財団で、危機にあるアーカイブの保存に加え、生成AIモデルの記録を残す「Gen AI Archive」プロジェクトに取り組む。</p>
 <p>Internet Archiveは、ウェブページ、書籍、音声、映像、ソフトウェアなどを保存してきた非営利団体だ。代表的なサービスであるWayback Machineでは、2025年10月に保存・利用可能なウェブページが1兆件に到達している。</p>
@@ -146,7 +169,7 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>公共2026/5/22 [FRI]OpenAI、サイバー防御特化AI「GPT-5.5-Cyber」を日本提供へ　政府・重要インフラ分野と連携</title>
+      <title>OpenAI、サイバー防御特化AI「GPT-5.5-Cyber」を日本提供へ　政府・重要インフラ分野と連携</title>
       <link>https://ledge.ai/articles/openai_gpt_5_5_cyber_japan_government_critical_infrastructure</link>
       <description><![CDATA[<p>米OpenAIが、サイバーセキュリティに特化したAIモデル「GPT-5.5-Cyber」を、日本の政府機関や一部企業に提供する方針であることが分かった。2026年5月21日に東京都内で開催された記者発表会で、OpenAI取締役のポール・ナカソネ氏らが明かしたと、複数の国内メディアが報じた。</p>
 <p>記者発表には、米サイバー軍司令官や米国家安全保障局（NSA）長官を務めたOpenAI取締役の<a href="https://openai.com/ja-JP/index/openai-appoints-retired-us-army-general/">ポール・ナカソネ氏</a>{target=\</p>
@@ -161,30 +184,6 @@
 <h2>Slackbotを業務AIエージェントへ拡張</h2>
 <p>今回提供が始まった4つの機能は、人とAIエージェント、企業アプリケーションをひとつの基盤でつなぐというSalesforceの方針に沿ったものだ。Slackbotは、会話への回答だけでなく、業務テンプレートの実行、複数情報源を横断した調査、CRMデータの操作、ユーザーごとのパーソナライズされた対応を担う。</p>
 <p>Slackの<a href="https://slack.com/intl/ja-jp/blog/news/agent-orchestration">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ストックマーク、企業の非公開データや「暗黙知」をAIが使えるデータへ　国内大手16社と「AI-Ready化」実証プロジェクト始動</title>
-      <link>https://ledge.ai/articles/stockmark_ai_ready_project</link>
-      <description><![CDATA[<p>ストックマークは2026年5月15日、企業内の非公開データや暗黙知をAIが学習・活用できる形式に変換する「AI-Ready化」の実証プロジェクトを開始すると<a href="https://stockmark.co.jp/news/20260515/">発表</a>した。伊藤忠商事、三菱ケミカル、三井住友銀行、味の素、LIXILなど国内大手16社と協業する。</p>
-<p>同プロジェクトは、経済産業省とNEDOが進める生成AI開発力強化プロジェクト「GENIAC」の一環として採択されたもの。参画企業ごとに具体的なユースケースを設定し、各社のAI-Ready化を進める。実証を通じて得られたノウハウは、ベストプラクティスとして一般公開することを目指す。</p>
-<h2>企業内の非公開データや暗黙知をAI活用へ</h2>
-<p>生成AIの企業活用では、公開データで学習した汎用AIだけでは対応しにくい、企業固有の知識や現場ノウハウをどのように扱うかが課題になっている。特に製造業などでは、図面、マニュアル、帳票、設計資料、過去の判断ロジックなどが非構造化データとして蓄積され、熟練者の判断や経験が暗黙知として残っているケースが多い。</p>
-<p>今回のプロジェクトでは、こうした秘匿データや「匠の知」をAIが扱える状態に整える。ストックマークはAI-Ready化について、非公開データをAIが学習・活用できる状態に変換することと位置づけている。具体的には、データ構造化、品質・ガバナンス、現場フィードバックを反映した継続的な学習サイクルの整備などを進める。</p>
-<p>参画する16社は、味の素、伊藤忠商事、NGK、神戸製鋼所、ジェイテクト、スズキ、住友化学、太陽誘電、帝人、東京電力ホールディングス、日揮ホールディングス、三井住友銀行、三菱ケミカル、ヤンマーホールディングス、ライオン、LIXIL。素材・化学、自動車、機械、インフラ、商社、金融など幅広い業種が参加する。</p>
-<h2>業界別データをAIエージェントが理解できる形へ</h2>
-<p>重点テーマの1つは、業界別データのAI-Ready化と「Skills」によるAgent-Readyマニュアル化だ。図面、帳票、マニュアル、チャット履歴、業務手順書などを、AIエージェントが理解できる「Skills」として整備する手法を検証する。</p>
-<p>もう1つのテーマは、産業・業務特化型のデータ基盤およびAIエージェントの構築である。企業の秘匿データを外部に出すことなく活用する連合学習や合成データ技術も取り入れ、専門性の高いAIエージェントの構築を目指す。権限管理やマスキングなどのガードレール機能、プライベートクラウド環境でのセキュアな処理基盤も検証対象に含まれる。</p>
-<p>各社のテーマも多岐にわたる。味の素は製造・技術知をAI Ready化し、検索・活用可能な次世代技術ナレッジ基盤の構築を目指す。伊藤忠商事は現物・先物市況の相場観を形式知化し、市況予測の精度向上を図るハイブリッド型市場分析AIを開発する。三菱ケミカルは化学プロセスにおける一般工学知とドメイン固有知を分離・構造化し、習熟・運転支援に向けたハイブリッドモデルを実証する。</p>
-<p>三井住友銀行は、決済関連ソリューションの営業支援における暗黙知を対象に、インタビューとAI ready化による構造化ツールを開発・実証する。LIXILは、オンラインショールームの接客映像と製品構成仕様を統合的に学習させ、複雑なリフォーム提案を支えるデータ基盤の構築に取り組む。</p>
-<h2>GENIACのAI-Ready化テーマとして採択</h2>
-<p>今回の取り組みは、経済産業省とNEDOが進める「GENIAC」における「製造業データ等のAI-Ready化に関する研究開発」として実施される。経済産業省とNEDOは2026年5月14日、製造業データ等のAI-Ready化に関する研究開発テーマ9件と、ロボット基盤モデルに関する研究開発テーマ2件を新たに採択した。</p>
-<p>NEDOは、同テーマの公募に寄せられた36件の提案を審査し、実施予定先を決定した。AI-Ready化の採択先には、ストックマークのほか、AIONA、アイクリスタル、SyntheticGestalt、日立製作所、FastLabel、FairyDevices、フツパー、フライウィールが含まれる。</p>
-<p>ストックマークの採択テーマは「製造業における非構造化データの多層的構造化とヒアリングAgentによる暗黙知の形式知化・自律運用プロセスの研究開発」。事業期間は、2026年度から2027年度のうち1年間とされている。</p>
-<h2>生成AI活用は「自社データを使える状態にする」段階へ</h2>
-<p>生成AIの企業導入では、チャットボットや文書要約などの個別活用に加え、自社固有のデータや業務知識をAIが安全に扱えるようにする基盤整備が重要になっている。今回の実証は、モデルそのものの開発だけでなく、企業内に蓄積された非公開データや暗黙知をAI活用の前提となる状態へ変換する点に焦点を当てる。</p>
-<p>ストックマークは、16社との現場実証を通じて得られた知見をAI-Ready化のベストプラクティスとして公開し、日本企業全体の生成AI活用を後押しする考えだ。企業ごとに分断されていた技術文書、業務データ、熟練者の判断をどのように構造化し、AIエージェントや業務特化型AIに接続していくかが、今後の検証対象となる。</p>
 ]]></description>
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
