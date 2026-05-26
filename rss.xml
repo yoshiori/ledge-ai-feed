@@ -95,22 +95,42 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>【社内事例公開】生成AI×SFAで業務部門が動く、JOINT AI Flow byGMOが繋ぐ実装パターン</title>
+      <link>https://ledge.ai/articles/ds-webinar_1</link>
+      <description><![CDATA[<p>「生成AIで業務はどう変わるか」――そう問われ続けて、もう1〜2年が経った。ChatGPTやAIエージェント、MCPといったキーワードは社内でも一般化し、議論のテーブルにのる頻度は増えている。一方で、「自社の業務にどう組み込めば成果につながるのか」という問いに、明確な答えを持てている企業はまだ限られているのが実情だ。
+特に営業領域では、SFAをはじめとした業務システムが整っていても、「データはあるが、現場の意思決定までは届かない」「ダッシュボードはあるのに、なかなか見られない」――こうした課題を抱える企業は少なくない。
+DataStrategy Webinar #1 では、GMO AIコネクト株式会社（旧ストラテジット）にゲスト登壇いただき、同社が社内で稼働させている「生成AI × SFA」の実装と運用を、具体的なかたちで紹介する。</p>
+<p><strong>取り上げる内容</strong></p>
+<ul>
+<li>AIエージェント／MCPの市場トレンドと、業務適用の現在地</li>
+<li>SFAをバックエンド、生成AIをフロントに据える“動く業務”の構造</li>
+<li>JOINT AI Flow byGMOによる連携実装パターン（データ抽出・通知・レポーティング）</li>
+<li>「自社で構築する」と「外部に委ねる」の判断軸</li>
+</ul>
+<p><strong>このような方におすすめ</strong></p>
+<ul>
+<li>業務部門でSFAや営業データの活用に課題を感じている方</li>
+<li>生成AIを“見せる”段階から“業務に組み込む”段階へ進めたい方</li>
+<li>AIエージェント／MCPの実務適用例を具体的に知りたい方</li>
+<li>経営企画／営業企画／情報システムなど、業務改革を推進する責任者</li>
+</ul>
+<h2>MCP（Model Context Protocol）とは ── 基本を整理する</h2>
+<p>2024年11月にAnthropicがオープンソースとして公開した「MCP（Model Context Protocol）」は、生成AIモデル（LLM）と外部のツール・データソースを、標準化された方法で接続するためのプロトコルである。役割としては、両者をつなぐ“共通プラグ”のようなものと捉えるとわかりやすい。
+これまで生成AIをSFAやERP、社内データベースと連携させるには、システムごとに個別の統合を組む必要があった。MCPはこの「組み合わせの数だけ個別実装が必要になる」構造の解消を狙ったもので、SFAベンダーがMCPサーバーを一つ公開すれば、対応する生成AIエージェントから共通の手順でアクセスできるという構造になる。
+OpenAIやGoogle、Microsoftといった主要プレイヤーも2025年以降、MCPへの対応を順次表明している。AIエージェントを“見せる”段階から、業務システムの中で動かす段階へ進めていくための技術基盤として、整備が進みつつある。
+SFA × 生成AIの実用化を考えるうえで、MCPは押さえておきたいキーワードのひとつだ。本ウェビナーでは、その実務適用の実態を社内事例から読み解いていく。</p>
+<p>:::button
+<a href="https://us02web.zoom.us/webinar/register/WN_XY5GGtQnRly7btMWhdgiIQ#/registration"><strong>ウェビナーに無料で申し込む  ▶</strong></a>{ target=\</p>
+]]></description>
+      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、科学研究向けAIツール群「Gemini for Science」発表　仮説生成・文献分析・計算科学的発見・生命科学DBとの連携を支援</title>
       <link>https://ledge.ai/articles/gemini_for_science_ai_research_tools</link>
       <description><![CDATA[<p>Googleは2026年5月20日、科学研究向けAIツール群「Gemini for Science」を<a href="https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/">発表</a>した。科学的な探求の規模と精度を高めることを目的に設計されたもので、仮説生成、文献分析、計算科学的発見、生命科学データベースとの連携など、研究プロセスの複数段階を支援する。</p>
 <p>Gemini for Scienceは、Google I/O 2026に合わせて発表されたAI for Science関連の取り組みだ。Google Labsで展開する実験ツールと、Google Antigravity上で利用できる専門スキル群「Science Skills」を組み合わせ、研究者が日常的に行う文献調査や仮説検討、計算実験の作業をAIで支援する。</p>
 <h2>Google Labsで3つの実験ツールを展開</h2>
 <p>Google Labsでは、Gemini for Scienceの一部として3つの<a href="https://labs.google/science/">実験ツール</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google I/O 2026開催——最新基盤モデルGemini 3.5 Flash発表　24時間動く個人AIエージェント「Gemini Spark」とマルチモーダルモデルGemini Omniなども公開</title>
-      <link>https://ledge.ai/articles/google_io_2026_gemini_spark_3_5_flash_omni</link>
-      <description><![CDATA[<p>Googleは5月19日（現地時間）、年次開発者会議「Google I/O 2026」を開催し、生成AI「Gemini」を軸にした新機能群を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/">発表</a>した。最大の焦点は、Geminiをユーザーの指示に応じて実際の作業を進める「エージェント」へ発展させることだ。</p>
-<p>今回の発表では、24時間365日動作する個人向けAIエージェント「Gemini Spark」を発表したほか、新モデル「Gemini 3.5 Flash」と「Gemini Omni」を公開した。Googleは、検索、Geminiアプリ、開発環境、ショッピング、動画生成、スマートグラスなど、幅広い製品にGeminiを組み込む方針を示している。</p>
-<h2>24時間365日動く個人AIエージェント「Gemini Spark」</h2>
-<p>Googleは、Geminiアプリ内で動作する個人向けAIエージェント「<a href="https://blog.google/intl/ja-jp/company-news/technology/next-evolution-gemini-app/">Gemini Spark</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
