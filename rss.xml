@@ -101,31 +101,6 @@
       <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare、「Project Glasswing」の一環で「Mythos Preview」を検証　複数の小さなバグをつなぎ実用的な攻撃経路を推論可能、防御活用の課題も浮彫りに</title>
-      <link>https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test</link>
-      <description><![CDATA[<p>米CDN大手のCloudflareは5月18日（現地時間）、Anthropicのプレビュー版AIモデル「Mythos Preview」を、自社の50以上のリポジトリで検証した結果を<a href="https://blog.cloudflare.com/cyber-frontier-models/">公開</a>した。Anthropicが進めるサイバー防衛プロジェクト「Project Glasswing」の一環として同モデルの利用機会を得たもので、Cloudflareは自社のインフラやコードベースに対し、セキュリティ特化型LLMがどのように機能するかを検証した。</p>
-<p>Project Glasswingは、Claude Mythos Previewを通じて重要ソフトウェアの脆弱性発見や修正を支援する取り組みだ。Anthropicは、Mythos Previewをコーディングやエージェントタスクにおける同社の高性能な汎用フロンティアモデルと位置づけており、参加組織向けに研究プレビューとして提供している。</p>
-<h2>複数のバグをつなぎ、実用的な攻撃経路を推論</h2>
-<p>Cloudflareは、Mythos Previewの特徴として、コード内の小さな弱点を個別に指摘するだけでなく、それらを組み合わせた場合に実際の攻撃につながるかまで推論できる点を挙げた。</p>
-<p>サイバー攻撃では、1つのバグだけで大きな被害につながるとは限らない。実際には、入力チェックの甘さ、メモリ処理の不備、通信処理の抜け穴など、複数の弱点を順番に組み合わせることで、より深刻な侵害につながることがある。Mythos Previewは、こうした「小さな手がかり」をつなぎ、攻撃として成立する可能性があるかを調べられるという。</p>
-<p>同モデルは、疑わしいバグを指摘するだけでなく、それが本当に再現できるかを確かめるための概念実証（PoC）も生成する。Cloudflareによると、Mythos Previewは疑わしいバグを引き起こすコードを書き、一時的な環境でコンパイルして実行し、期待通りに動作しなかった場合には仮説を調整して再試行する。</p>
-<p>これは、単に「ここに問題がありそうです」と知らせるだけではない。実際に試し、再現できるかを確認するところまで進める点が、従来の自動スキャナーや汎用AIモデルとの違いになる。</p>
-<p>一方でCloudflareは、同じような根本的なバグを他のフロンティアモデルでも見つけられるケースがあったとしている。差が出たのは、個別のバグを見つけた後、それらをつなぎ合わせ、より重大な問題として成立するかを調べる段階だったという。</p>
-<h2>誤検知や不確かな指摘は依然として課題</h2>
-<p>AIによる脆弱性発見には、ノイズの問題も残る。Cloudflareは、モデルにバグを探すよう指示すると、実際にバグがあるかどうかにかかわらず、バグ候補を見つけようとする傾向があると指摘した。調査結果には「おそらく」「潜在的に」「理論上可能」といった不確かな表現が含まれ、人的なトリアージ負荷につながる。</p>
-<p>特に、CやC++のようにメモリを直接制御できる言語では、バッファオーバーフローや境界外アクセスなどの候補が多く挙がりやすい。Cloudflareは、メモリ安全でない言語で書かれたプロジェクトでは、より多くの誤検知が見られたとしている。</p>
-<p>ただし、Mythos Previewの出力は、従来よりもトリアージしやすかったという。PoCを伴う調査結果は、問題が実際に再現可能かを判断しやすくする。Cloudflareは、出力の曖昧さが少なく、再現手順が明確で、修正または排除の判断に至るまでの作業が減ったとしている。</p>
-<h2>汎用エージェントをそのまま向けるだけでは不十分</h2>
-<p>Cloudflareは、汎用的なコーディングエージェントをリポジトリに向けて脆弱性を探すだけでは、大規模なコードベースを十分に調べきれないと説明している。大きなソフトウェアには、膨大なファイルや処理の流れが含まれる。1つのAIエージェントにすべてを読ませて調べさせても、一度に扱える情報量や検証できる仮説には限界がある。</p>
-<p>このためCloudflareは、Mythos Previewを中心に、脆弱性を探すための独自の検証システムを構築した。Cloudflareはこれを「脆弱性発見ハーネス」と呼んでいる。ここでいうハーネスは、AIモデルを安全かつ効率的に動かすための仕組みや作業工程のことだ。単にAIにコードを読ませるのではなく、調査、探索、検証、重複排除、追跡、フィードバック、レポート作成といった段階に分けて処理する。</p>
-<p><strong>Cloudflareが構築した脆弱性発見ハーネスの流れ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/image6_b61b67d983/image6_b61b67d983.png" alt="image6.png" />
-:::small
-画像の出典：<a href="https://blog.cloudflare.com/ja-jp/cyber-frontier-models/">Cloudflare</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 21 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>SMBCグループ、富士通、ソフトバンクが「国産ヘルスケア基盤」構築へ　医療データと健康データをAIで連携</title>
       <link>https://ledge.ai/articles/domestic_healthcare_ai_platform</link>
       <description><![CDATA[<p>三井住友フィナンシャルグループ（以下、SMBCグループ）、富士通、ソフトバンクは2026年5月19日、健康・医療分野での業務提携に関する基本合意書を締結し、「国産ヘルスケア基盤」を共同で構築すると<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260519_01/">発表</a>した。</p>
