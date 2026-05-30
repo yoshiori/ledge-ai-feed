@@ -91,6 +91,40 @@
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>今度はGoogle DeepMind、未解決エルデシュ問題を一挙に9件解決　形式証明AI「AlphaProof Nexus」で</title>
+      <link>https://ledge.ai/articles/deepmind_alphaproof_nexus_erdos_problems</link>
+      <description><![CDATA[<p>Google DeepMindなどの研究者らは2026年5月21日、AIによる形式証明探索フレームワーク「AlphaProof Nexus」に関する論文をarXivで<a href="https://arxiv.org/abs/2605.22763v1">公開</a>した。AlphaProof Nexusは、大規模言語モデル（LLM）と定理証明支援系「Lean」を組み合わせ、Erdős Problems repositoryで形式化されていた未解決問題353件のうち9件を自律的に解決したという。</p>
+<p>エルデシュ問題をめぐっては、OpenAIも2026年5月、同社の内部AIモデルが平面単位距離問題に関する従来の有力な予想を反証したと<a href="https://ledge.ai/articles/openai_erdos_unit_distance_problem_disproof">発表</a>していた。今回の研究は、自然言語による証明ではなく、Leanで機械検証可能な形式証明を生成した点が特徴だ。</p>
+<p>論文では、AlphaProof NexusがOEIS（オンライン整数列大辞典）の未解決予想492件のうち44件も証明したと報告されている。さらに、組合せ論、最適化、グラフ理論、代数幾何、量子光学などの研究にも展開されているという。</p>
+<h2>Leanで検証可能な証明をAIが探索</h2>
+<p>LLMは数学的推論で高い性能を示しつつある一方、自然言語で生成された証明には、微妙な論理ミスやハルシネーションが含まれる可能性がある。AlphaProof Nexusは、この課題に対して、証明をLeanで記述し、コンパイラが各ステップを検証する形式証明の枠組みを用いる。</p>
+<p>Leanでは、定義、定理、証明を機械検証可能なコードとして扱う。AlphaProof Nexusは、証明の未完成部分を示す「sorry」を含むLeanファイルを入力として受け取り、最終的に「sorry」のない証明を出力する。証明の途中でLeanコンパイラからのフィードバックを受け、誤りを修正しながら探索を進める。</p>
+<p>論文では、AlphaProof Nexusの基本エージェントが、Gemini 3.1 Proを使ってLeanコードを修正し、コンパイラのエラーメッセージをもとに証明スケッチを改善していく構成として説明されている。フル機能版では、オリンピアードレベルの形式証明に使われたAlphaProofを補助ツールとして呼び出し、有望な証明スケッチを評価する進化的探索も組み合わせている。</p>
+<p><strong>■ AlphaProof Nexusの全体構成</strong>：数学者がLean形式の問題、自然言語による補足情報、証明ライブラリなどを入力し、LLMベースの証明エージェント、Leanによる検証、証明スケッチの評価・蓄積を経て、機械検証可能な形式証明を出力する流れを示している。
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_4_acd11333fa/x2_4_acd11333fa.png" alt="x2 (4).png" /></p>
+<h2>353件中9件のErdős問題を解決</h2>
+<p>研究チームは、Thomas Bloom氏が管理するErdős Problemsのオンラインカタログと、オープンソースのFormal Conjectures repositoryでLean形式に落とし込まれていた問題を対象に評価を行った。実行時点で利用可能だった353件の形式化済みErdős問題にAlphaProof Nexusのフル機能版エージェントを適用し、9件を解決したという。</p>
+<p>解決後には、チーム内の専門家が、Lean上の定理文が元の予想を正しく表しているかを検証した。Lean証明と一部の自然言語証明は、Google DeepMindの公式GitHubリポジトリで公開されている。</p>
+<p>解決された問題には、1970年にErdősとSárközyが提示した問題 #12(i)、#12(ii) も含まれる。論文では、これら2問が56年間未解決だったと説明されている。</p>
+<p>また、問題 #125では、3進表記で0と1だけを使う整数集合と、4進表記で0と1だけを使う整数集合の和集合について、下密度が正かどうかを扱った。AlphaProof Nexusは、この下密度が0であることを示したという。</p>
+<p><strong>■ AlphaProof Nexusが解決したErdős問題の一覧</strong> ：1970年に提示された問題 #12(i)、#12(ii) や、1996年に提示された問題 #125 など、形式化済みの未解決問題9件について、問題の概要と証明手法が整理されている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_problems_from_the_Erdos_Problems_repository_autonomously_resolved_by_our_full_featured_agent_c79bb3d733/Open_problems_from_the_Erdos_Problems_repository_autonomously_resolved_by_our_full_featured_agent_c79bb3d733.jpg" alt="Open problems from the ErdosProblems repository autonomously resolved by our full-featured agent.jpg" /></p>
+<h2>基本エージェントも9件を解決、難問ではフル機能版が優位</h2>
+<p>論文では、エージェント設計の違いによる性能比較も行われている。比較対象は、Leanコンパイラのフィードバックを使う基本エージェント、AlphaProofを組み込んだ基本エージェント、進化的探索を使うエージェント、AlphaProofと進化的探索を組み合わせたフル機能版エージェントの4種類だ。</p>
+<p>事後分析では、基本エージェントも9件すべてのErdős問題を解決できた。ただし、難しい問題ではコストが高くなった。フル機能版エージェントは、特にErdős #125などの難しい問題で、基本構成よりも高い性能を示したという。</p>
+<p>一方で、AlphaProofを単独のツリー探索モードで使った場合や、より小型のGemini 3.0 Flash、Gemini 3.1 Flash-Liteを使った基本エージェントでは、9件のErdős問題をいずれも解決できなかったとされている。</p>
+<h2>OEIS予想44件、代数幾何や最適化にも展開</h2>
+<p>AlphaProof Nexusは、Erdős問題以外にも適用された。研究チームは、OEISに掲載された未解決予想のうち492件をGeminiでLean形式に自動形式化し、AlphaProof Nexusを適用した。その結果、手動レビューで正しく形式化され、未証明だったと確認された44件の予想について証明を見つけたという。</p>
+<p>代数幾何では、Hilbert関数に関する約15年未解決だった問題を解決した。最適化理論では、Anchored Gradient Descent-Ascentアルゴリズムについて、従来より強い収束率を示す結果を得た。グラフ理論、加法的組合せ論、量子光学の研究にも使われている。</p>
+<p>論文では、AlphaProof Nexusが単に既存の証明を検証するだけでなく、証明の探索や、問題の形式化に含まれる曖昧さの発見にも役立ったと説明されている。実際、Erdős問題 #125や #741(i) では、密度に関する元の非形式的な記述の解釈を修正する過程で、エージェントが誤形式化の検出に寄与した。</p>
+<h2>大半のErdős問題は未解決のまま</h2>
+<p>今回の成果は、AIによる形式証明探索が研究レベルの数学問題にも適用できることを示す一方、限界も明確にしている。AlphaProof Nexusが解決したのは、形式化済みErdős問題353件のうち9件であり、大半の問題は未解決のままだ。</p>
+<p>論文では、成功例が組合せ論、凸最適化、数論など、Leanの数学ライブラリが比較的成熟しており、問題を小さな補題に分解しやすい領域に集中していると説明されている。AIエージェントには、問題の核心部分を未証明の補題に押し込む、存在しない既知結果を主張する、といった失敗も確認された。</p>
+<p>研究チームは、AlphaProof Nexusを数学者の創造性を広げる対話的AIツールとして位置づけている。形式証明を介したAI支援が、研究レベルの数学問題にも適用され始めたことを示す成果といえる。</p>
+]]></description>
+      <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SMBCグループ、富士通、ソフトバンクが「国産ヘルスケア基盤」構築へ　医療データと健康データをAIで連携</title>
       <link>https://ledge.ai/articles/domestic_healthcare_ai_platform</link>
       <description><![CDATA[<p>三井住友フィナンシャルグループ（以下、SMBCグループ）、富士通、ソフトバンクは2026年5月19日、健康・医療分野での業務提携に関する基本合意書を締結し、「国産ヘルスケア基盤」を共同で構築すると<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260519_01/">発表</a>した。</p>
