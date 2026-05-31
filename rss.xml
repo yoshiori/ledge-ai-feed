@@ -130,36 +130,6 @@
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>【社内事例公開】生成AI×SFAで業務部門が動く、JOINT AI Flow byGMOが繋ぐ実装パターン</title>
-      <link>https://ledge.ai/articles/ds-webinar_1</link>
-      <description><![CDATA[<p>「生成AIで業務はどう変わるか」――そう問われ続けて、もう1〜2年が経った。ChatGPTやAIエージェント、MCPといったキーワードは社内でも一般化し、議論のテーブルにのる頻度は増えている。一方で、「自社の業務にどう組み込めば成果につながるのか」という問いに、明確な答えを持てている企業はまだ限られているのが実情だ。
-特に営業領域では、SFAをはじめとした業務システムが整っていても、「データはあるが、現場の意思決定までは届かない」「ダッシュボードはあるのに、なかなか見られない」――こうした課題を抱える企業は少なくない。
-DataStrategy Webinar #1 では、GMO AIコネクト株式会社（旧ストラテジット）にゲスト登壇いただき、同社が社内で稼働させている「生成AI × SFA」の実装と運用を、具体的なかたちで紹介する。</p>
-<p><strong>取り上げる内容</strong></p>
-<ul>
-<li>AIエージェント／MCPの市場トレンドと、業務適用の現在地</li>
-<li>SFAをバックエンド、生成AIをフロントに据える“動く業務”の構造</li>
-<li>JOINT AI Flow byGMOによる連携実装パターン（データ抽出・通知・レポーティング）</li>
-<li>「自社で構築する」と「外部に委ねる」の判断軸</li>
-</ul>
-<p><strong>このような方におすすめ</strong></p>
-<ul>
-<li>業務部門でSFAや営業データの活用に課題を感じている方</li>
-<li>生成AIを“見せる”段階から“業務に組み込む”段階へ進めたい方</li>
-<li>AIエージェント／MCPの実務適用例を具体的に知りたい方</li>
-<li>経営企画／営業企画／情報システムなど、業務改革を推進する責任者</li>
-</ul>
-<h2>MCP（Model Context Protocol）とは ── 基本を整理する</h2>
-<p>2024年11月にAnthropicがオープンソースとして公開した「MCP（Model Context Protocol）」は、生成AIモデル（LLM）と外部のツール・データソースを、標準化された方法で接続するためのプロトコルである。役割としては、両者をつなぐ“共通プラグ”のようなものと捉えるとわかりやすい。
-これまで生成AIをSFAやERP、社内データベースと連携させるには、システムごとに個別の統合を組む必要があった。MCPはこの「組み合わせの数だけ個別実装が必要になる」構造の解消を狙ったもので、SFAベンダーがMCPサーバーを一つ公開すれば、対応する生成AIエージェントから共通の手順でアクセスできるという構造になる。
-OpenAIやGoogle、Microsoftといった主要プレイヤーも2025年以降、MCPへの対応を順次表明している。AIエージェントを“見せる”段階から、業務システムの中で動かす段階へ進めていくための技術基盤として、整備が進みつつある。
-SFA × 生成AIの実用化を考えるうえで、MCPは押さえておきたいキーワードのひとつだ。本ウェビナーでは、その実務適用の実態を社内事例から読み解いていく。</p>
-<p>:::button
-<a href="https://us02web.zoom.us/webinar/register/WN_XY5GGtQnRly7btMWhdgiIQ#/registration"><strong>ウェビナーに無料で申し込む  ▶</strong></a>{ target=\</p>
-]]></description>
-      <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NTT、国産LLM「tsuzumi 2 Visionモデル」発表　図表入り日本語ビジネス文書を1GPU環境で処理</title>
       <link>https://ledge.ai/articles/ntt_tsuzumi_2_vision_model</link>
       <description><![CDATA[<p>NTTは2026年5月19日、NTT版LLM「tsuzumi 2」のアップデート版として、「tsuzumi 2 Visionモデル」を<a href="https://group.ntt/jp/newsrelease/2026/05/19/260519a.html">発表</a>した。図表やグラフ、チャートを含む日本語ビジネス文書を画像として読み込み、文書内の視覚情報を踏まえて回答できるようにした。</p>
