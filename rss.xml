@@ -47,29 +47,6 @@
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、未公開AI「Claude Mythos Preview」で1万件超の脆弱性を発見　Project Glasswing初期報告</title>
-      <link>https://ledge.ai/articles/anthropic_claude_mythos_preview_project_glasswing_vulnerabilities</link>
-      <description><![CDATA[<p>Anthropicは2026年5月22日、同社が4月に立ち上げたサイバーセキュリティプロジェクト「Project Glasswing」の初期状況を<a href="https://www.anthropic.com/research/glasswing-initial-update">公開</a>した。未公開AIモデル「Claude Mythos Preview」を活用し、世界的に重要なソフトウェア群から1万件超の高・重大度脆弱性を発見したという。</p>
-<p>Project Glasswingは、AIモデルのサイバー能力が高まるなか、攻撃者に悪用される前に重要ソフトウェアの脆弱性を見つけ、修正につなげることを目的とした取り組みだ。Anthropicは、Amazon Web Services、Apple、Broadcom、Cisco、CrowdStrike、Google、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networksなどと連携し、Claude Mythos Previewを防御目的で限定的に提供している。</p>
-<h2>約50のパートナーが参加、Cloudflareでは2000件のバグを発見</h2>
-<p>Anthropicによると、Project Glasswingには約50のパートナーが参加しており、開始から約1カ月で、多くのパートナーがそれぞれ数百件規模の高・重大度脆弱性を発見した。複数のパートナーは、バグ発見の速度が10倍以上になったと報告している。</p>
-<p>インターネットの高速化やセキュリティサービスを提供する米Cloudflareでは、重要システム群から2000件のバグが見つかり、そのうち400件が高・重大度だった。同社は、50以上のリポジトリにClaude Mythos Previewを適用し、コードレビューや脆弱性検出の工程に組み込んだ検証内容を<a href="https://ledge.ai/articles/cloudflare_mythos_preview_project_glasswing_vulnerability_test">説明</a>している。</p>
-<p>Claude Mythos Previewは、単にコード内の不具合らしき箇所を指摘するだけでなく、複数の脆弱性を組み合わせた攻撃経路の構築や、実際に悪用可能かを示す検証にも使われている。Anthropicは、こうした能力が防御側に大きな利点をもたらす一方で、悪用された場合のリスクも大きいとしている。</p>
-<h2>オープンソース1000件超をスキャン、脆弱性対応の負荷が課題に</h2>
-<p>Anthropicは、ここ数カ月にわたり、インターネットの基盤を支える1000件超のオープンソースプロジェクトもClaude Mythos Previewでスキャンしてきた。モデルはこれまでに、合計2万3019件の候補を発見し、そのうち高・重大度と推定される脆弱性は6202件にのぼる。</p>
-<p>独立したセキュリティ企業などによる確認も進められている。Anthropicは、脆弱性の再現、深刻度の再評価、既存の修正有無の確認、メンテナーへの詳細レポート作成といった工程を経て、ソフトウェアの保守者に報告している。</p>
-<p>Anthropicが公開したダッシュボードでは、候補の発見から、外部セキュリティ企業などによる確認、メンテナーへの報告、修正、セキュリティアドバイザリ公開までの流れが示されている。2026年5月22日時点で、2万3019件の候補のうち、1596件がメンテナーに報告され、1451件がメンテナーに確認された。修正済みは97件、公開されたセキュリティアドバイザリは88件だった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/7af1880d305b982764cfefc7dce87c677f1b0254_1634x1008_f1752280c2/7af1880d305b982764cfefc7dce87c677f1b0254_1634x1008_f1752280c2.jpg" alt="7af1880d305b982764cfefc7dce87c677f1b0254-1634x1008.jpg" /></p>
-<p>この落差は、AIによる脆弱性発見が容易になった一方で、人間による確認や修正、開示の工程が大きな負荷になっていることを示している。Anthropicは、複数のメンテナーから、修正に時間が必要なため開示ペースを落としてほしいと求められたことも明らかにしている。高・重大度のバグが修正されるまでには、平均で2週間かかるという。</p>
-<p>Anthropicは、Claude Mythos Previewがオープンソースの暗号ライブラリ「wolfSSL」の脆弱性を検出し、すでに修正とCVE登録につながった例も紹介している。詳細な技術分析は、修正が広く適用された後に公開する予定だという。</p>
-<h2>Claude Mythos Previewは一般提供せず</h2>
-<p>Claude Mythos Previewは、Anthropicが一般提供していない未公開のフロンティアモデルだ。同社はProject Glasswingの開始時点で、同モデルがソフトウェア脆弱性の発見や悪用可能性の検証において、熟練した人間の多くを上回る水準に達していると説明していた。</p>
-<p>英国AI Security Instituteは、Claude Mythos Previewについて、複数段階のサイバー攻撃を想定したサイバーレンジをエンドツーエンドで解いた初のモデルだと評価している。Anthropicは、同等の能力を持つモデルが今後より広く登場する可能性が高い一方、悪用を十分に防ぐ安全対策はまだ確立されていないとして、Mythos級モデルの一般公開を見送っている。</p>
-<p>同社は今後、米国および同盟国政府を含む重要パートナーと連携し、Project Glasswingの対象を拡大する方針だ。あわせて、一般提供されているClaudeモデルを使った脆弱性検出や修正支援ツールも整備していく。</p>
-]]></description>
-      <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>日立、ホンダとの出資会社Astemoと運転支援AIの開発基盤を共同構築へ　デジタルツインでSDV時代の車両智能化を加速</title>
       <link>https://ledge.ai/articles/astemo_hitachi_driving_assistance_ai_platform</link>
       <description><![CDATA[<p>Astemoと日立製作所は2026年5月20日、SDV（Software-Defined Vehicle）時代に向け、自動運転車両に搭載される運転支援AIの開発基盤を共同で構築する<a href="https://www.hitachi.com/ja-jp/press/articles/2026/05/0520a/">発表</a>した。</p>
