@@ -49,6 +49,20 @@
       <pubDate>Fri, 29 May 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>NTT、国産LLM「tsuzumi 2 Visionモデル」発表　図表入り日本語ビジネス文書を1GPU環境で処理</title>
+      <link>https://ledge.ai/articles/ntt_tsuzumi_2_vision_model</link>
+      <description><![CDATA[<p>NTTは2026年5月19日、NTT版LLM「tsuzumi 2」のアップデート版として、「tsuzumi 2 Visionモデル」を<a href="https://group.ntt/jp/newsrelease/2026/05/19/260519a.html">発表</a>した。図表やグラフ、チャートを含む日本語ビジネス文書を画像として読み込み、文書内の視覚情報を踏まえて回答できるようにした。</p>
+<p>tsuzumi 2は、NTTが開発した軽量な国産LLM。オンプレミスやプライベートクラウド環境での利用を想定しており、機微情報を扱う企業や行政機関などでの活用を見込む。今回のアップデートでは、図表入り文書の理解に加え、数値処理などの論理的思考能力も強化したという。</p>
+<h2>図表入り日本語ビジネス文書を読み取るVisionモデル</h2>
+<p>企業や行政機関の業務文書には、表、帳票、グラフ、フローチャート、スライド資料など、文字だけでは処理しづらい情報が多く含まれる。tsuzumi 2 Visionモデルは、こうした文書を画像として読み込み、図表やレイアウトを含めて内容を理解する。</p>
+<p>NTTは、与信審査などの業務支援における帳票からの必要事項抽出や、技術問い合わせ業務支援における原因判断フロー図の理解を実施例として示している。図表内の重要情報を抽出し、データベース化するような用途も想定する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260519ac_745288432d/260519ac_745288432d.jpg" alt="260519ac.jpg" /></p>
+<h2>1GPU環境で動作、オンプレミス利用も想定</h2>
+<p>tsuzumi 2は、軽量性を特徴とするNTT版LLMだ。NTTは2025年10月、tsuzumi 2を「高性能・高セキュア・低コストな純国産LLM」として<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">提供開始</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 28 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、PowerPoint内で使える「ChatGPT for PowerPoint」ベータ公開　スライド作成や既存のプレゼン資料の編集を支援</title>
       <link>https://ledge.ai/articles/chatgpt_for_powerpoint_beta_release</link>
       <description><![CDATA[<p>OpenAIは2026年5月22日（現地時間）、Microsoft PowerPoint内でChatGPTを利用できる「ChatGPT for PowerPoint」のベータ版を<a href="https://chatgpt.com/apps/powerpoint/">公開</a>した。PowerPointのサイドバーからChatGPTを開き、自然言語による指示で新しいスライドの作成、既存のプレゼン資料の更新、資料からプレゼン向けコンテンツへの変換、スライドの改善などを行える。</p>
@@ -137,20 +151,6 @@
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTT、国産LLM「tsuzumi 2 Visionモデル」発表　図表入り日本語ビジネス文書を1GPU環境で処理</title>
-      <link>https://ledge.ai/articles/ntt_tsuzumi_2_vision_model</link>
-      <description><![CDATA[<p>NTTは2026年5月19日、NTT版LLM「tsuzumi 2」のアップデート版として、「tsuzumi 2 Visionモデル」を<a href="https://group.ntt/jp/newsrelease/2026/05/19/260519a.html">発表</a>した。図表やグラフ、チャートを含む日本語ビジネス文書を画像として読み込み、文書内の視覚情報を踏まえて回答できるようにした。</p>
-<p>tsuzumi 2は、NTTが開発した軽量な国産LLM。オンプレミスやプライベートクラウド環境での利用を想定しており、機微情報を扱う企業や行政機関などでの活用を見込む。今回のアップデートでは、図表入り文書の理解に加え、数値処理などの論理的思考能力も強化したという。</p>
-<h2>図表入り日本語ビジネス文書を読み取るVisionモデル</h2>
-<p>企業や行政機関の業務文書には、表、帳票、グラフ、フローチャート、スライド資料など、文字だけでは処理しづらい情報が多く含まれる。tsuzumi 2 Visionモデルは、こうした文書を画像として読み込み、図表やレイアウトを含めて内容を理解する。</p>
-<p>NTTは、与信審査などの業務支援における帳票からの必要事項抽出や、技術問い合わせ業務支援における原因判断フロー図の理解を実施例として示している。図表内の重要情報を抽出し、データベース化するような用途も想定する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260519ac_745288432d/260519ac_745288432d.jpg" alt="260519ac.jpg" /></p>
-<h2>1GPU環境で動作、オンプレミス利用も想定</h2>
-<p>tsuzumi 2は、軽量性を特徴とするNTT版LLMだ。NTTは2025年10月、tsuzumi 2を「高性能・高セキュア・低コストな純国産LLM」として<a href="https://group.ntt/jp/newsrelease/2025/10/20/251020a.html">提供開始</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>大型AIカンファレンス「THE AI 2026」6月5日オンライン開催決定、本日より参加申込受付開始</title>
       <link>https://ledge.ai/articles/the-ai-2026_announce</link>
       <description><![CDATA[<p>「AIをはじめとする最先端テクノロジーを社会になめらかに浸透させる」をミッションに掲げ、国内最大級のAI（人工知能）関連メディア「Ledge.ai」を運営するほか、AIソリューションの企画・開発を行う株式会社レッジは、大型AIカンファレンス「THE AI 2026」を2026年6月5日（金）にオンラインで開催します。本日、イベントサイトをオープンし、あわせて参加申込（無料）の受付を開始しました。
@@ -175,28 +175,6 @@
 <p>Google Labsでは、Gemini for Scienceの一部として3つの<a href="https://labs.google/science/">実験ツール</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 23 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta Ray-Ban Display、指の動きで文字入力可能に　ニューラル手書き入力を全ユーザーへ展開</title>
-      <link>https://ledge.ai/articles/meta_rayban_display_neural_handwriting_input</link>
-      <description><![CDATA[<p>Metaは2026年5月14日（現地時間）、ディスプレイ内蔵型スマートグラス Meta Ray-Ban Display 向けの新機能を<a href="https://www.meta.com/ja-jp/blog/six-months-of-meta-ray-ban-display/">発表</a>した。指の動きで文字を入力できる「ニューラル手書き入力」を全ユーザーに展開するほか、グラス内ディスプレイの表示内容を録画できる機能などを追加する。</p>
-<p>Meta Ray-Ban Displayは、右目側にディスプレイを備えたAIグラスで、手首に装着する「Meta Neural Band」と組み合わせて操作する。今回のアップデートにより、音声だけに頼らず、指先の動きでメッセージに返信したり、ディスプレイに表示された内容を録画して共有したりできるようになる。</p>
-<h2>Meta Ray-Ban Displayに新機能、手書き入力を全ユーザーへ</h2>
-<p>ニューラル手書き入力は、Meta Neural Bandを装着した状態で、指で文字を書くような動きによってテキストを入力できる機能だ。Meta Ray-Ban Display上で、Instagram、WhatsApp、Messenger、AndroidおよびiOSの標準メッセージングに対応する。</p>
-<p><strong>Meta Neural Bandを使ったグラス上での操作例。右側では、指の動きによるメッセージ返信の様子が示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/rayban_meta_950727f039/rayban_meta_950727f039.jpg" alt="rayban meta.jpg" /></p>
-<p>同機能はこれまで、一部ユーザー向けに提供されていた。今回のアップデートで、Meta Ray-Ban Displayの全ユーザーが利用できるようになる。</p>
-<p>スマートグラスでは、音声操作だけでは使いにくい場面もある。ニューラル手書き入力は、周囲に話しかけずにテキストを入力できる点が特徴だ。公共の場や移動中でも、グラスを装着したままメッセージへの返信などを行える。</p>
-<p>Meta Neural Bandは、手首に装着して使う入力デバイスだ。手や指の微細な動きを検出し、Meta Ray-Ban Displayの操作に変換する。思考や脳波を読み取るものではなく、手首側の信号をもとに、ジェスチャー入力を実現する仕組みとなる。</p>
-<h2>ディスプレイ録画や歩行ナビも追加</h2>
-<p>今回のアップデートでは、ニューラル手書き入力に加えて、ディスプレイ録画機能も追加される。ディスプレイ録画では、グラス内に表示された操作内容、ユーザーが見ている外界の映像、音声を1つの動画として記録できる。録画した動画は、友人や家族、フォロワーに共有する用途を想定している。</p>
-<p>歩行ナビゲーション機能も拡大する。米国全域で利用できるようになるほか、ロンドン、パリ、ローマなど主要な海外都市での旅行時にも利用可能になる。</p>
-<p>ライブキャプション機能は、対面で話しかけられた音声や通話音声を文字起こしするものだ。今後、WhatsApp、Facebook Messenger、Instagram Directの音声にも対応する。</p>
-<p>Metaはこのほか、ホーム画面にリマインダー、天気、株価、カレンダーなどのウィジェットを追加し、SpotifyのプレイリストやInstagram Reelsへのアクセスも強化してきた。今回の新機能は、発売後に続けてきたソフトウェア更新の一環と位置づけられる。</p>
-<h2>開発者向けプレビューも開始、スマートグラスをアプリ基盤へ</h2>
-<p>Metaは同日、Meta Ray-Ban Display向けの<a href="https://developers.meta.com/blog/build-for-display-glasses/">Developer Preview</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 18 May 2026 22:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
