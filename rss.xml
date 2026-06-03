@@ -113,6 +113,28 @@
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>富士通、業務経験から学び続ける「自己進化マルチAIエージェント技術」開発　Takaneを自動強化、精度を平均28ポイント向上</title>
+      <link>https://ledge.ai/articles/fujitsu_self_evolving_multi_ai_agent_takane</link>
+      <description><![CDATA[<p>富士通は2026年5月25日、複数のAIエージェントが連携して業務を遂行し、実行結果や人によるフィードバック、制度改定、仕様変更などをもとに継続的かつ安全に学習する「自己進化マルチAIエージェント技術」を開発したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/05/25-01">発表</a>した。</p>
+<p>同技術は、AIエージェントが業務を実行するだけでなく、成功・失敗の理由を整理し、次に活かすべき知識や行動のコツを抽出するものだ。生成した改善案をそのまま記憶するのではなく、品質や安全性を検証したうえで、有効なものだけを学習する点を特徴としている。</p>
+<h2>業務特化型LLM「Takane」を自動強化</h2>
+<p>富士通は今回の技術を、業務特化型LLMの構築プロセスに適用した。従来は専門家が担っていたデータ選定、学習条件の調整、評価、改善といった工程を、マルチAIエージェントが自律的に実行・最適化する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/main_fed8ed06eb/main_fed8ed06eb.png" alt="main.png" /></p>
+<p>同社は、製造、医療、金融、行政など複数領域に向けて大規模言語モデル「Takane」を自動的に強化し、運用を通じて継続的に改善した。その結果、業務特化前と比べて平均28ポイントの精度向上を確認したという。</p>
+<p>医療分野では、診療記録や検査結果などの非構造データから、診断名、進行度、治療方針などを一貫した形式で抽出するタスクに適用した。これにより、業務に即した情報抽出や構造化が可能になったとしている。</p>
+<h2>設計仕様書検索にも適用</h2>
+<p>富士通は、大中規模病院向け電子カルテシステム「HOPE LifeMark-HX」と、地方公共団体向け業務ソリューション「MICJET住民記録」の設計仕様書群を対象としたAIエージェント型文書検索にも、今回の技術を適用した。</p>
+<p>法改正や制度改定に伴うソフトウェア改修では、影響範囲を特定するために、制度や業務に関する知識とシステム構造への深い理解が求められる。従来は熟練者の経験に頼る部分が大きかった。</p>
+<p>同技術を適用した結果、AIエージェントは過去の検索結果や失敗事例、人による修正内容を学習し、探索範囲の拡張や関連文書の抽出戦略を自律的に改善するようになったという。関連する周辺文書まで確認する、一見対象外に見える文書でも同じ業務領域であれば候補から外さないといった、熟練者の探索のコツを次の業務に活用できたとしている。</p>
+<p>富士通は今後、これらの知見と技術を「AI-Driven Software Development Platform」に適用し、設計・開発プロセス全体の高度化と効率化へ展開する方針だ。同社は2026年2月、TakaneとAIエージェント技術を活用し、ソフトウェアの要件定義から設計、実装、結合テストまでをAIエージェントが協調して実行するAIドリブン開発基盤を発表している。</p>
+<h2>Kozuchi Enterprise AI Factoryに組み込みへ</h2>
+<p>富士通は、今回開発した技術を専有型AIプラットフォーム「<a href="https://global.fujitsu/ja-jp/offering/kozuchi-enterprise-ai-factory">Fujitsu Kozuchi Enterprise AI Factory</a>」に組み込み、業務特化AIの内製化と自律運用を支援する中核技術として提供する予定だ。</p>
+<p>Fujitsu Kozuchi Enterprise AI Factoryは、企業が自社の専有環境で、生成AIモデルの開発、運用、追加学習までのサイクルを進められるプラットフォームである。Takane、業務特化型モデルを継続改善できる内製型ファインチューニング機能、AIモデル軽量化技術、ローコードのAIエージェント開発機能などを提供する。</p>
+<p>富士通はさらに、カーネギーメロン大学との共同研究の知見と生成AI再構成技術を組み合わせ、自己進化マルチAIエージェントシステムをより少ないメモリと電力で動作させる技術開発も進める。クラウド環境だけでなく、機密性の高いオンプレミス環境やエッジ環境で、業務を学び続けるAIチームの活用を目指す。</p>
+]]></description>
+      <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、画像生成AI「Nano Banana 2」を正式提供　Gemini APIで利用可能に、動画からサムネイル生成も対応</title>
       <link>https://ledge.ai/articles/google_nano_banana_2_gemini_api_formal_release</link>
       <description><![CDATA[<p>Google Cloudは2026年5月29日、画像生成・編集モデル「Nano Banana 2」と「Nano Banana Pro」を<a href="https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-and-nano-banana-pro-are-generally-available?hl=en">一般提供</a>{target=\</p>
