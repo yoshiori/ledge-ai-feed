@@ -12,6 +12,36 @@
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>富士通、業務経験から学び続ける「自己進化マルチAIエージェント技術」開発　Takaneを自動強化、精度を平均28ポイント向上</title>
+      <link>https://ledge.ai/articles/fujitsu_self_evolving_multi_ai_agent_takane</link>
+      <description><![CDATA[<p>富士通は2026年5月25日、複数のAIエージェントが連携して業務を遂行し、実行結果や人によるフィードバック、制度改定、仕様変更などをもとに継続的かつ安全に学習する「自己進化マルチAIエージェント技術」を開発したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/05/25-01">発表</a>した。</p>
+<p>同技術は、AIエージェントが業務を実行するだけでなく、成功・失敗の理由を整理し、次に活かすべき知識や行動のコツを抽出するものだ。生成した改善案をそのまま記憶するのではなく、品質や安全性を検証したうえで、有効なものだけを学習する点を特徴としている。</p>
+<h2>業務特化型LLM「Takane」を自動強化</h2>
+<p>富士通は今回の技術を、業務特化型LLMの構築プロセスに適用した。従来は専門家が担っていたデータ選定、学習条件の調整、評価、改善といった工程を、マルチAIエージェントが自律的に実行・最適化する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/main_fed8ed06eb/main_fed8ed06eb.png" alt="main.png" /></p>
+<p>同社は、製造、医療、金融、行政など複数領域に向けて大規模言語モデル「Takane」を自動的に強化し、運用を通じて継続的に改善した。その結果、業務特化前と比べて平均28ポイントの精度向上を確認したという。</p>
+<p>医療分野では、診療記録や検査結果などの非構造データから、診断名、進行度、治療方針などを一貫した形式で抽出するタスクに適用した。これにより、業務に即した情報抽出や構造化が可能になったとしている。</p>
+<h2>設計仕様書検索にも適用</h2>
+<p>富士通は、大中規模病院向け電子カルテシステム「HOPE LifeMark-HX」と、地方公共団体向け業務ソリューション「MICJET住民記録」の設計仕様書群を対象としたAIエージェント型文書検索にも、今回の技術を適用した。</p>
+<p>法改正や制度改定に伴うソフトウェア改修では、影響範囲を特定するために、制度や業務に関する知識とシステム構造への深い理解が求められる。従来は熟練者の経験に頼る部分が大きかった。</p>
+<p>同技術を適用した結果、AIエージェントは過去の検索結果や失敗事例、人による修正内容を学習し、探索範囲の拡張や関連文書の抽出戦略を自律的に改善するようになったという。関連する周辺文書まで確認する、一見対象外に見える文書でも同じ業務領域であれば候補から外さないといった、熟練者の探索のコツを次の業務に活用できたとしている。</p>
+<p>富士通は今後、これらの知見と技術を「AI-Driven Software Development Platform」に適用し、設計・開発プロセス全体の高度化と効率化へ展開する方針だ。同社は2026年2月、TakaneとAIエージェント技術を活用し、ソフトウェアの要件定義から設計、実装、結合テストまでをAIエージェントが協調して実行するAIドリブン開発基盤を発表している。</p>
+<h2>Kozuchi Enterprise AI Factoryに組み込みへ</h2>
+<p>富士通は、今回開発した技術を専有型AIプラットフォーム「<a href="https://global.fujitsu/ja-jp/offering/kozuchi-enterprise-ai-factory">Fujitsu Kozuchi Enterprise AI Factory</a>」に組み込み、業務特化AIの内製化と自律運用を支援する中核技術として提供する予定だ。</p>
+<p>Fujitsu Kozuchi Enterprise AI Factoryは、企業が自社の専有環境で、生成AIモデルの開発、運用、追加学習までのサイクルを進められるプラットフォームである。Takane、業務特化型モデルを継続改善できる内製型ファインチューニング機能、AIモデル軽量化技術、ローコードのAIエージェント開発機能などを提供する。</p>
+<p>富士通はさらに、カーネギーメロン大学との共同研究の知見と生成AI再構成技術を組み合わせ、自己進化マルチAIエージェントシステムをより少ないメモリと電力で動作させる技術開発も進める。クラウド環境だけでなく、機密性の高いオンプレミス環境やエッジ環境で、業務を学び続けるAIチームの活用を目指す。</p>
+]]></description>
+      <pubDate>Wed, 03 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、自社初の推論モデル「MAI-Thinking-1」含む7つのMAIモデルを発表　OpenClawベースの自律型エージェント「Scout」も提供開始</title>
+      <link>https://ledge.ai/articles/microsoft_mai_thinking_1_scout_autopilots</link>
+      <description><![CDATA[<p>Microsoftは2026年6月2日（現地時間）、年次開発者会議「Microsoft Build 2026」で、同社のAI部門Microsoft AIが開発する「MAI」モデル群の新モデル7種を<a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and-speech/4524632">発表</a>した。自社初の推論モデル「MAI-Thinking-1」をはじめ、コーディング、画像生成・編集、文字起こし、音声生成に対応するモデルを展開する。</p>
+<p>あわせて、自律型エージェントの新カテゴリ「Autopilots」と、その第一弾となる「Microsoft Scout」も<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 03 Jun 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Waymo、新型完全自動運転車両「Ojai」を投入へ　広い車内と第6世代Driverでロボタクシー拡大</title>
       <link>https://ledge.ai/articles/waymo_ojai_autonomous_robotaxi</link>
       <description><![CDATA[<p>米Waymoは2026年5月28日、新型完全自動運転車両「Ojai（オーハイ）」で、今後数週間以内に一部利用者向けの乗車を開始すると<a href="https://waymo.com/blog/2026/05/welcoming-riders-in-the-ojai">発表</a>{target=\</p>
@@ -38,36 +68,6 @@
 <p>ThinkARは、AI、AR、ウェアラブル技術を活用し、人と情報の新しいインターフェースを創出するテクノロジーカンパニーとして紹介されている。SB C&amp;Sは今回、ThinkARの国内正規販売代理店として取り扱いを開始し、販売ネットワークを拡大する。</p>
 <p>AIグラスの国内販売としては、ソフトバンク株式会社も6月4日、MetaのAIグラス「Ray-Ban Meta（Gen 2）」の販売を開始したと<a href="https://www.softbank.jp/corp/news/press/sbkk/2026/20260604_01/">発表</a>した。国内の通信事業者（MNO）による「Ray-Ban Meta」の取り扱いは初めてだという。同日からソフトバンクオンラインショップで販売し、7月下旬から一部のソフトバンクショップでも取り扱う予定だ。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/index_pic_01_baf1856902/index_pic_01_baf1856902.webp" alt="index_pic_01.webp" /></p>
-]]></description>
-      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>富士通、業務経験から学び続ける「自己進化マルチAIエージェント技術」開発　Takaneを自動強化、精度を平均28ポイント向上</title>
-      <link>https://ledge.ai/articles/fujitsu_self_evolving_multi_ai_agent_takane</link>
-      <description><![CDATA[<p>富士通は2026年5月25日、複数のAIエージェントが連携して業務を遂行し、実行結果や人によるフィードバック、制度改定、仕様変更などをもとに継続的かつ安全に学習する「自己進化マルチAIエージェント技術」を開発したと<a href="https://global.fujitsu/ja-jp/pr/news/2026/05/25-01">発表</a>した。</p>
-<p>同技術は、AIエージェントが業務を実行するだけでなく、成功・失敗の理由を整理し、次に活かすべき知識や行動のコツを抽出するものだ。生成した改善案をそのまま記憶するのではなく、品質や安全性を検証したうえで、有効なものだけを学習する点を特徴としている。</p>
-<h2>業務特化型LLM「Takane」を自動強化</h2>
-<p>富士通は今回の技術を、業務特化型LLMの構築プロセスに適用した。従来は専門家が担っていたデータ選定、学習条件の調整、評価、改善といった工程を、マルチAIエージェントが自律的に実行・最適化する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/main_fed8ed06eb/main_fed8ed06eb.png" alt="main.png" /></p>
-<p>同社は、製造、医療、金融、行政など複数領域に向けて大規模言語モデル「Takane」を自動的に強化し、運用を通じて継続的に改善した。その結果、業務特化前と比べて平均28ポイントの精度向上を確認したという。</p>
-<p>医療分野では、診療記録や検査結果などの非構造データから、診断名、進行度、治療方針などを一貫した形式で抽出するタスクに適用した。これにより、業務に即した情報抽出や構造化が可能になったとしている。</p>
-<h2>設計仕様書検索にも適用</h2>
-<p>富士通は、大中規模病院向け電子カルテシステム「HOPE LifeMark-HX」と、地方公共団体向け業務ソリューション「MICJET住民記録」の設計仕様書群を対象としたAIエージェント型文書検索にも、今回の技術を適用した。</p>
-<p>法改正や制度改定に伴うソフトウェア改修では、影響範囲を特定するために、制度や業務に関する知識とシステム構造への深い理解が求められる。従来は熟練者の経験に頼る部分が大きかった。</p>
-<p>同技術を適用した結果、AIエージェントは過去の検索結果や失敗事例、人による修正内容を学習し、探索範囲の拡張や関連文書の抽出戦略を自律的に改善するようになったという。関連する周辺文書まで確認する、一見対象外に見える文書でも同じ業務領域であれば候補から外さないといった、熟練者の探索のコツを次の業務に活用できたとしている。</p>
-<p>富士通は今後、これらの知見と技術を「AI-Driven Software Development Platform」に適用し、設計・開発プロセス全体の高度化と効率化へ展開する方針だ。同社は2026年2月、TakaneとAIエージェント技術を活用し、ソフトウェアの要件定義から設計、実装、結合テストまでをAIエージェントが協調して実行するAIドリブン開発基盤を発表している。</p>
-<h2>Kozuchi Enterprise AI Factoryに組み込みへ</h2>
-<p>富士通は、今回開発した技術を専有型AIプラットフォーム「<a href="https://global.fujitsu/ja-jp/offering/kozuchi-enterprise-ai-factory">Fujitsu Kozuchi Enterprise AI Factory</a>」に組み込み、業務特化AIの内製化と自律運用を支援する中核技術として提供する予定だ。</p>
-<p>Fujitsu Kozuchi Enterprise AI Factoryは、企業が自社の専有環境で、生成AIモデルの開発、運用、追加学習までのサイクルを進められるプラットフォームである。Takane、業務特化型モデルを継続改善できる内製型ファインチューニング機能、AIモデル軽量化技術、ローコードのAIエージェント開発機能などを提供する。</p>
-<p>富士通はさらに、カーネギーメロン大学との共同研究の知見と生成AI再構成技術を組み合わせ、自己進化マルチAIエージェントシステムをより少ないメモリと電力で動作させる技術開発も進める。クラウド環境だけでなく、機密性の高いオンプレミス環境やエッジ環境で、業務を学び続けるAIチームの活用を目指す。</p>
-]]></description>
-      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、自社初の推論モデル「MAI-Thinking-1」含む7つのMAIモデルを発表　OpenClawベースの自律型エージェント「Scout」も提供開始</title>
-      <link>https://ledge.ai/articles/microsoft_mai_thinking_1_scout_autopilots</link>
-      <description><![CDATA[<p>Microsoftは2026年6月2日（現地時間）、年次開発者会議「Microsoft Build 2026」で、同社のAI部門Microsoft AIが開発する「MAI」モデル群の新モデル7種を<a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and-speech/4524632">発表</a>した。自社初の推論モデル「MAI-Thinking-1」をはじめ、コーディング、画像生成・編集、文字起こし、音声生成に対応するモデルを展開する。</p>
-<p>あわせて、自律型エージェントの新カテゴリ「Autopilots」と、その第一弾となる「Microsoft Scout」も<a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
@@ -111,40 +111,6 @@
       <pubDate>Sat, 30 May 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>今度はGoogle DeepMind、未解決エルデシュ問題を一挙に9件解決　形式証明AI「AlphaProof Nexus」で</title>
-      <link>https://ledge.ai/articles/deepmind_alphaproof_nexus_erdos_problems</link>
-      <description><![CDATA[<p>Google DeepMindなどの研究者らは2026年5月21日、AIによる形式証明探索フレームワーク「AlphaProof Nexus」に関する論文をarXivで<a href="https://arxiv.org/abs/2605.22763v1">公開</a>した。AlphaProof Nexusは、大規模言語モデル（LLM）と定理証明支援系「Lean」を組み合わせ、Erdős Problems repositoryで形式化されていた未解決問題353件のうち9件を自律的に解決したという。</p>
-<p>エルデシュ問題をめぐっては、OpenAIも2026年5月、同社の内部AIモデルが平面単位距離問題に関する従来の有力な予想を反証したと<a href="https://ledge.ai/articles/openai_erdos_unit_distance_problem_disproof">発表</a>していた。今回の研究は、自然言語による証明ではなく、Leanで機械検証可能な形式証明を生成した点が特徴だ。</p>
-<p>論文では、AlphaProof NexusがOEIS（オンライン整数列大辞典）の未解決予想492件のうち44件も証明したと報告されている。さらに、組合せ論、最適化、グラフ理論、代数幾何、量子光学などの研究にも展開されているという。</p>
-<h2>Leanで検証可能な証明をAIが探索</h2>
-<p>LLMは数学的推論で高い性能を示しつつある一方、自然言語で生成された証明には、微妙な論理ミスやハルシネーションが含まれる可能性がある。AlphaProof Nexusは、この課題に対して、証明をLeanで記述し、コンパイラが各ステップを検証する形式証明の枠組みを用いる。</p>
-<p>Leanでは、定義、定理、証明を機械検証可能なコードとして扱う。AlphaProof Nexusは、証明の未完成部分を示す「sorry」を含むLeanファイルを入力として受け取り、最終的に「sorry」のない証明を出力する。証明の途中でLeanコンパイラからのフィードバックを受け、誤りを修正しながら探索を進める。</p>
-<p>論文では、AlphaProof Nexusの基本エージェントが、Gemini 3.1 Proを使ってLeanコードを修正し、コンパイラのエラーメッセージをもとに証明スケッチを改善していく構成として説明されている。フル機能版では、オリンピアードレベルの形式証明に使われたAlphaProofを補助ツールとして呼び出し、有望な証明スケッチを評価する進化的探索も組み合わせている。</p>
-<p><strong>■ AlphaProof Nexusの全体構成</strong>：数学者がLean形式の問題、自然言語による補足情報、証明ライブラリなどを入力し、LLMベースの証明エージェント、Leanによる検証、証明スケッチの評価・蓄積を経て、機械検証可能な形式証明を出力する流れを示している。
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/x2_4_acd11333fa/x2_4_acd11333fa.png" alt="x2 (4).png" /></p>
-<h2>353件中9件のErdős問題を解決</h2>
-<p>研究チームは、Thomas Bloom氏が管理するErdős Problemsのオンラインカタログと、オープンソースのFormal Conjectures repositoryでLean形式に落とし込まれていた問題を対象に評価を行った。実行時点で利用可能だった353件の形式化済みErdős問題にAlphaProof Nexusのフル機能版エージェントを適用し、9件を解決したという。</p>
-<p>解決後には、チーム内の専門家が、Lean上の定理文が元の予想を正しく表しているかを検証した。Lean証明と一部の自然言語証明は、Google DeepMindの公式GitHubリポジトリで公開されている。</p>
-<p>解決された問題には、1970年にErdősとSárközyが提示した問題 #12(i)、#12(ii) も含まれる。論文では、これら2問が56年間未解決だったと説明されている。</p>
-<p>また、問題 #125では、3進表記で0と1だけを使う整数集合と、4進表記で0と1だけを使う整数集合の和集合について、下密度が正かどうかを扱った。AlphaProof Nexusは、この下密度が0であることを示したという。</p>
-<p><strong>■ AlphaProof Nexusが解決したErdős問題の一覧</strong> ：1970年に提示された問題 #12(i)、#12(ii) や、1996年に提示された問題 #125 など、形式化済みの未解決問題9件について、問題の概要と証明手法が整理されている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Open_problems_from_the_Erdos_Problems_repository_autonomously_resolved_by_our_full_featured_agent_c79bb3d733/Open_problems_from_the_Erdos_Problems_repository_autonomously_resolved_by_our_full_featured_agent_c79bb3d733.jpg" alt="Open problems from the ErdosProblems repository autonomously resolved by our full-featured agent.jpg" /></p>
-<h2>基本エージェントも9件を解決、難問ではフル機能版が優位</h2>
-<p>論文では、エージェント設計の違いによる性能比較も行われている。比較対象は、Leanコンパイラのフィードバックを使う基本エージェント、AlphaProofを組み込んだ基本エージェント、進化的探索を使うエージェント、AlphaProofと進化的探索を組み合わせたフル機能版エージェントの4種類だ。</p>
-<p>事後分析では、基本エージェントも9件すべてのErdős問題を解決できた。ただし、難しい問題ではコストが高くなった。フル機能版エージェントは、特にErdős #125などの難しい問題で、基本構成よりも高い性能を示したという。</p>
-<p>一方で、AlphaProofを単独のツリー探索モードで使った場合や、より小型のGemini 3.0 Flash、Gemini 3.1 Flash-Liteを使った基本エージェントでは、9件のErdős問題をいずれも解決できなかったとされている。</p>
-<h2>OEIS予想44件、代数幾何や最適化にも展開</h2>
-<p>AlphaProof Nexusは、Erdős問題以外にも適用された。研究チームは、OEISに掲載された未解決予想のうち492件をGeminiでLean形式に自動形式化し、AlphaProof Nexusを適用した。その結果、手動レビューで正しく形式化され、未証明だったと確認された44件の予想について証明を見つけたという。</p>
-<p>代数幾何では、Hilbert関数に関する約15年未解決だった問題を解決した。最適化理論では、Anchored Gradient Descent-Ascentアルゴリズムについて、従来より強い収束率を示す結果を得た。グラフ理論、加法的組合せ論、量子光学の研究にも使われている。</p>
-<p>論文では、AlphaProof Nexusが単に既存の証明を検証するだけでなく、証明の探索や、問題の形式化に含まれる曖昧さの発見にも役立ったと説明されている。実際、Erdős問題 #125や #741(i) では、密度に関する元の非形式的な記述の解釈を修正する過程で、エージェントが誤形式化の検出に寄与した。</p>
-<h2>大半のErdős問題は未解決のまま</h2>
-<p>今回の成果は、AIによる形式証明探索が研究レベルの数学問題にも適用できることを示す一方、限界も明確にしている。AlphaProof Nexusが解決したのは、形式化済みErdős問題353件のうち9件であり、大半の問題は未解決のままだ。</p>
-<p>論文では、成功例が組合せ論、凸最適化、数論など、Leanの数学ライブラリが比較的成熟しており、問題を小さな補題に分解しやすい領域に集中していると説明されている。AIエージェントには、問題の核心部分を未証明の補題に押し込む、存在しない既知結果を主張する、といった失敗も確認された。</p>
-<p>研究チームは、AlphaProof Nexusを数学者の創造性を広げる対話的AIツールとして位置づけている。形式証明を介したAI支援が、研究レベルの数学問題にも適用され始めたことを示す成果といえる。</p>
-]]></description>
-      <pubDate>Fri, 29 May 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NTT、国産LLM「tsuzumi 2 Visionモデル」発表　図表入り日本語ビジネス文書を1GPU環境で処理</title>
       <link>https://ledge.ai/articles/ntt_tsuzumi_2_vision_model</link>
       <description><![CDATA[<p>NTTは2026年5月19日、NTT版LLM「tsuzumi 2」のアップデート版として、「tsuzumi 2 Visionモデル」を<a href="https://group.ntt/jp/newsrelease/2026/05/19/260519a.html">発表</a>した。図表やグラフ、チャートを含む日本語ビジネス文書を画像として読み込み、文書内の視覚情報を踏まえて回答できるようにした。</p>
@@ -186,16 +152,6 @@
 <p>今回の事例で示されているのは、AIエージェントが営業担当者の代わりに商談を進めるというより、営業リーダーが判断するための情報を集め、整理し、優先順位を付ける使い方だ。Claude Coworkは、面談前の準備、週次レポート、アカウント分析など、営業現場で繰り返し発生する知的作業を支援する存在として紹介されている。</p>
 ]]></description>
       <pubDate>Mon, 25 May 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、科学研究向けAIツール群「Gemini for Science」発表　仮説生成・文献分析・計算科学的発見・生命科学DBとの連携を支援</title>
-      <link>https://ledge.ai/articles/gemini_for_science_ai_research_tools</link>
-      <description><![CDATA[<p>Googleは2026年5月20日、科学研究向けAIツール群「Gemini for Science」を<a href="https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/">発表</a>した。科学的な探求の規模と精度を高めることを目的に設計されたもので、仮説生成、文献分析、計算科学的発見、生命科学データベースとの連携など、研究プロセスの複数段階を支援する。</p>
-<p>Gemini for Scienceは、Google I/O 2026に合わせて発表されたAI for Science関連の取り組みだ。Google Labsで展開する実験ツールと、Google Antigravity上で利用できる専門スキル群「Science Skills」を組み合わせ、研究者が日常的に行う文献調査や仮説検討、計算実験の作業をAIで支援する。</p>
-<h2>Google Labsで3つの実験ツールを展開</h2>
-<p>Google Labsでは、Gemini for Scienceの一部として3つの<a href="https://labs.google/science/">実験ツール</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 23 May 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
