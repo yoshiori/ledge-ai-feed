@@ -72,6 +72,32 @@
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、AIが後継AIを作る「再帰的自己改善」に警鐘　Claudeが自社コードの8割超を作成、開発の減速・一時停止メカニズムを提言</title>
+      <link>https://ledge.ai/articles/anthropic_recursive_self_improvement_ai_development_pause</link>
+      <description><![CDATA[<p>Anthropicは2026年6月4日（現地時間）、AIがAI開発を加速する現状と、その先にある「再帰的自己改善（recursive self-improvement）」の可能性を論じる声明「When AI builds itself」を<a href="https://www.anthropic.com/institute/recursive-self-improvement">公開</a>した。</p>
+<p>同社は、ClaudeがAnthropicの本番コードベースにマージされるコードの80％超を作成していると明らかにした。AIシステムがAI開発の工程に深く組み込まれるなか、フロンティアAI開発を国際的に検証可能な形で減速、または一時停止できる仕組みが必要だと提言している。</p>
+<p>再帰的自己改善とは、AIシステムが自律的に後継AIを設計・開発し、その後継AIがさらに次のAIを改善していくような状態を指す。Anthropicは、現時点でこの段階には到達しておらず、不可避でもないとしながら、各国政府や社会制度の準備が追いつかない速度で近づく可能性があると警鐘を鳴らした。</p>
+<p><strong>Anthropicが示したAI開発プロセスの変化。チャットボット、エージェント、ワーカーを経て、AIがAI開発の工程に深く関与する流れを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/whenaibuildeitself_1_9f1df6617a/whenaibuildeitself_1_9f1df6617a.jpg" alt="whenaibuildeitself-1.jpg" /></p>
+<h2>Claudeが本番コードの80％超を作成</h2>
+<p>Anthropicによると、2026年5月時点で、同社のコードベースにマージされるコードの80％超がClaudeによって書かれている。Claude Codeが2025年2月にリサーチプレビューとして公開される前、この割合は一桁台前半にとどまっていたという。</p>
+<p>エンジニア1人あたりのコード出力量にも変化が表れている。2021年から2024年まで、Anthropicのエンジニアが1日にマージするコード行数はほぼ一定だった。しかし、Claudeが単にコードを提案する段階から、自らコードを実行する段階へ移った2025年以降、出力量は増加し始めた。</p>
+<p>2026年第2四半期には、典型的なエンジニアが1日にマージするコード量は2024年比で8倍になった。Anthropicは、コード行数を品質ではなく量を測る不完全な指標だとしつつ、エンジニアが自らコードを書く役割から、Claudeが書いたコードを指示・レビューする役割へ移りつつあると説明している。</p>
+<p><strong>Anthropicにおける1人あたりのコード出力量の推移。2026年第2四半期には、2024年比で8倍に増加した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c.webp" alt="52a19d636c659cf4515dc0d7d70b8ceb1bbfd768-2200x1276.webp" /></p>
+<h2>実験の実行でもAIの役割が拡大</h2>
+<p>AI開発には、コードを書き、インフラを構築し、モデル訓練を監督するエンジニアリングと、どの実験を行うかを決め、結果を解釈し、次に試すべきアイデアを選ぶ研究の工程がある。</p>
+<p>Anthropicは、エンジニアリングではClaudeに十分に定義されていない問題を渡しても、解決方法を考えられるようになっていると説明している。研究面でも、明確に定義された実験の実行では、Claudeが熟練した人間に匹敵、または上回る成果を出し始めているという。</p>
+<p>一方で、現時点のClaudeは、何を目標にすべきか、どの実験を行う価値があるか、どの結果を信頼すべきかを自律的に判断する点では、人間との差が残る。Anthropicは、現在のClaudeを「後継AIを自律的に設計するシステム」とは位置づけていない。</p>
+<p>それでも、実装、実験、評価の多くをAIが担えるようになれば、少数の人間がより多くの研究開発を同時に指揮できる。こうした変化は、AI開発そのものに複利的な加速をもたらす可能性がある。</p>
+<h2>開発の減速・一時停止を検証できる仕組みが必要</h2>
+<p>Anthropicは、AIがAI開発を加速する流れが続いた場合に備え、社会制度やアライメント研究が技術の進歩に追いつくための時間を確保する選択肢が必要だとしている。具体的には、フロンティアAI開発を減速、または一時停止できる仕組みを世界が持つべきだと提言した。</p>
+<p>ただし、単独の企業が開発を止めるだけでは十分ではない。慎重な企業だけが停止すれば、より慎重でない主体に技術的な先行を許す可能性があるためだ。Anthropicは、複数国にまたがる複数のフロンティアAI開発企業が、同じ条件で停止に合意し、互いに実際に停止していることを検証できる体制が必要だとしている。</p>
+<p>同社は、こうした仕組みが存在するなら、他のフロンティア開発者も検証可能な形で同様に行動することを条件に、自社も減速または一時停止するとしている。AIがAI開発を補助する段階から、後継AIの設計・開発に関わる段階へ進む可能性を前に、開発速度そのものをどう統治するかが新たな論点になりつつある。</p>
+]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google検索の「AIによる概要」から自社コンテンツを除外可能に　英の競争・市場庁がGoogleに新要件</title>
       <link>https://ledge.ai/articles/google_ai_overviews_content_opt_out_cma</link>
       <description><![CDATA[<p>イギリスの競争・市場庁（CMA）は2026年6月3日、Googleの一般検索サービスに対し、新たな行動要件を課したと<a href="https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk">発表</a>した。これにより、ニュースメディアなどの出版社は、Google検索の「AIによる概要（AI Overviews）」などのAI機能に、自社コンテンツが利用されることを防ぐための管理手段を得ることになる。</p>
@@ -112,7 +138,7 @@
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft、AIエージェントで開発した量子チップ「Majorana 2」発表　量子ビットの信頼性1000倍、2029年の実用規模へ前進</title>
+      <title>学術＆研究2026/6/5 [FRI]Microsoft、AIエージェントで開発した量子チップ「Majorana 2」発表　量子ビットの信頼性1000倍、2029年の実用規模へ前進</title>
       <link>https://ledge.ai/articles/microsoft_majorana_2_ai_agent_quantum_chip</link>
       <description><![CDATA[<p>Microsoftは2026年6月4日、Microsoft Discoveryのエージェント型AIを活用して開発した次世代トポロジカル量子チップ「Majorana 2」を<a href="https://news.microsoft.com/source/asia/features/majorana-2-microsoft-discovery-agentic-ai/?lang=ja">発表</a>{target=\</p>
 ]]></description>
