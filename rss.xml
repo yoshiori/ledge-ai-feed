@@ -5,6 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、AIが後継AIを作る「再帰的自己改善」に警鐘　Claudeが自社コードの8割超を作成、開発の減速・一時停止メカニズムを提言</title>
+      <link>https://ledge.ai/articles/anthropic_recursive_self_improvement_ai_development_pause</link>
+      <description><![CDATA[<p>Anthropicは2026年6月4日（現地時間）、AIがAI開発を加速する現状と、その先にある「再帰的自己改善（recursive self-improvement）」の可能性を論じる声明「When AI builds itself」を<a href="https://www.anthropic.com/institute/recursive-self-improvement">公開</a>した。</p>
+<p>同社は、ClaudeがAnthropicの本番コードベースにマージされるコードの80％超を作成していると明らかにした。AIシステムがAI開発の工程に深く組み込まれるなか、フロンティアAI開発を国際的に検証可能な形で減速、または一時停止できる仕組みが必要だと提言している。</p>
+<p>再帰的自己改善とは、AIシステムが自律的に後継AIを設計・開発し、その後継AIがさらに次のAIを改善していくような状態を指す。Anthropicは、現時点でこの段階には到達しておらず、不可避でもないとしながら、各国政府や社会制度の準備が追いつかない速度で近づく可能性があると警鐘を鳴らした。</p>
+<p><strong>Anthropicが示したAI開発プロセスの変化。チャットボット、エージェント、ワーカーを経て、AIがAI開発の工程に深く関与する流れを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/whenaibuildeitself_1_9f1df6617a/whenaibuildeitself_1_9f1df6617a.jpg" alt="whenaibuildeitself-1.jpg" /></p>
+<h2>Claudeが本番コードの80％超を作成</h2>
+<p>Anthropicによると、2026年5月時点で、同社のコードベースにマージされるコードの80％超がClaudeによって書かれている。Claude Codeが2025年2月にリサーチプレビューとして公開される前、この割合は一桁台前半にとどまっていたという。</p>
+<p>エンジニア1人あたりのコード出力量にも変化が表れている。2021年から2024年まで、Anthropicのエンジニアが1日にマージするコード行数はほぼ一定だった。しかし、Claudeが単にコードを提案する段階から、自らコードを実行する段階へ移った2025年以降、出力量は増加し始めた。</p>
+<p>2026年第2四半期には、典型的なエンジニアが1日にマージするコード量は2024年比で8倍になった。Anthropicは、コード行数を品質ではなく量を測る不完全な指標だとしつつ、エンジニアが自らコードを書く役割から、Claudeが書いたコードを指示・レビューする役割へ移りつつあると説明している。</p>
+<p><strong>Anthropicにおける1人あたりのコード出力量の推移。2026年第2四半期には、2024年比で8倍に増加した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c.webp" alt="52a19d636c659cf4515dc0d7d70b8ceb1bbfd768-2200x1276.webp" /></p>
+<h2>実験の実行でもAIの役割が拡大</h2>
+<p>AI開発には、コードを書き、インフラを構築し、モデル訓練を監督するエンジニアリングと、どの実験を行うかを決め、結果を解釈し、次に試すべきアイデアを選ぶ研究の工程がある。</p>
+<p>Anthropicは、エンジニアリングではClaudeに十分に定義されていない問題を渡しても、解決方法を考えられるようになっていると説明している。研究面でも、明確に定義された実験の実行では、Claudeが熟練した人間に匹敵、または上回る成果を出し始めているという。</p>
+<p>一方で、現時点のClaudeは、何を目標にすべきか、どの実験を行う価値があるか、どの結果を信頼すべきかを自律的に判断する点では、人間との差が残る。Anthropicは、現在のClaudeを「後継AIを自律的に設計するシステム」とは位置づけていない。</p>
+<p>それでも、実装、実験、評価の多くをAIが担えるようになれば、少数の人間がより多くの研究開発を同時に指揮できる。こうした変化は、AI開発そのものに複利的な加速をもたらす可能性がある。</p>
+<h2>開発の減速・一時停止を検証できる仕組みが必要</h2>
+<p>Anthropicは、AIがAI開発を加速する流れが続いた場合に備え、社会制度やアライメント研究が技術の進歩に追いつくための時間を確保する選択肢が必要だとしている。具体的には、フロンティアAI開発を減速、または一時停止できる仕組みを世界が持つべきだと提言した。</p>
+<p>ただし、単独の企業が開発を止めるだけでは十分ではない。慎重な企業だけが停止すれば、より慎重でない主体に技術的な先行を許す可能性があるためだ。Anthropicは、複数国にまたがる複数のフロンティアAI開発企業が、同じ条件で停止に合意し、互いに実際に停止していることを検証できる体制が必要だとしている。</p>
+<p>同社は、こうした仕組みが存在するなら、他のフロンティア開発者も検証可能な形で同様に行動することを条件に、自社も減速または一時停止するとしている。AIがAI開発を補助する段階から、後継AIの設計・開発に関わる段階へ進む可能性を前に、開発速度そのものをどう統治するかが新たな論点になりつつある。</p>
+]]></description>
+      <pubDate>Mon, 08 Jun 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NTTグループなど6社、IOWN APNとフィジカルAIでコンビナート設備点検を高度化　岡山―東京約700kmでロボット遠隔操作・異常検知を実証</title>
       <link>https://ledge.ai/articles/iown_apn_physical_ai_chemical_plant_inspection</link>
       <description><![CDATA[<p>NTT東日本、NTTドコモビジネス、NTTドコモソリューションズ、NTTデータグループのNTTグループ4社と、富士通グループの1FINITY、三菱ケミカルは6月1日、次世代通信基盤「IOWN APN」と60GHz帯無線LAN、フィジカルAIを組み合わせ、コンビナート設備点検の高度化を目指した実証を実施したと<a href="https://www.ntt.com/about-us/press-releases/news/article/2026/0601_2.html">発表</a>{target=\</p>
@@ -88,32 +114,6 @@
 <p>訴状では、州の消費者保護法違反、肖像・画像利用に関する法令違反、プライバシー侵害、不当利得などが主張されている。原告側は、Familiar FacesがRing製品の販売上の価値を高める機能として使われており、本人の同意なく収集された生体情報からRing側が利益を得ていると訴える。</p>
 <p>Ringをめぐっては、2023年にも米連邦取引委員会（FTC）がプライバシーとセキュリティ上の問題を指摘した。FTCは当時、Ringが顧客動画へのアクセス管理を怠ったなどとして、580万ドルの返金を含む措置を<a href="https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users">発表</a> している。</p>
 <p>今回の訴訟は、家庭用セキュリティ機器の利便性と、所有者ではない第三者の生体情報保護がどこで衝突するのかを問うものとなる。玄関先や店舗入口で偶然カメラに映る人の同意をどう扱うべきかが、改めて争点になっている。</p>
-]]></description>
-      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIが後継AIを作る「再帰的自己改善」に警鐘　Claudeが自社コードの8割超を作成、開発の減速・一時停止メカニズムを提言</title>
-      <link>https://ledge.ai/articles/anthropic_recursive_self_improvement_ai_development_pause</link>
-      <description><![CDATA[<p>Anthropicは2026年6月4日（現地時間）、AIがAI開発を加速する現状と、その先にある「再帰的自己改善（recursive self-improvement）」の可能性を論じる声明「When AI builds itself」を<a href="https://www.anthropic.com/institute/recursive-self-improvement">公開</a>した。</p>
-<p>同社は、ClaudeがAnthropicの本番コードベースにマージされるコードの80％超を作成していると明らかにした。AIシステムがAI開発の工程に深く組み込まれるなか、フロンティアAI開発を国際的に検証可能な形で減速、または一時停止できる仕組みが必要だと提言している。</p>
-<p>再帰的自己改善とは、AIシステムが自律的に後継AIを設計・開発し、その後継AIがさらに次のAIを改善していくような状態を指す。Anthropicは、現時点でこの段階には到達しておらず、不可避でもないとしながら、各国政府や社会制度の準備が追いつかない速度で近づく可能性があると警鐘を鳴らした。</p>
-<p><strong>Anthropicが示したAI開発プロセスの変化。チャットボット、エージェント、ワーカーを経て、AIがAI開発の工程に深く関与する流れを示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/whenaibuildeitself_1_9f1df6617a/whenaibuildeitself_1_9f1df6617a.jpg" alt="whenaibuildeitself-1.jpg" /></p>
-<h2>Claudeが本番コードの80％超を作成</h2>
-<p>Anthropicによると、2026年5月時点で、同社のコードベースにマージされるコードの80％超がClaudeによって書かれている。Claude Codeが2025年2月にリサーチプレビューとして公開される前、この割合は一桁台前半にとどまっていたという。</p>
-<p>エンジニア1人あたりのコード出力量にも変化が表れている。2021年から2024年まで、Anthropicのエンジニアが1日にマージするコード行数はほぼ一定だった。しかし、Claudeが単にコードを提案する段階から、自らコードを実行する段階へ移った2025年以降、出力量は増加し始めた。</p>
-<p>2026年第2四半期には、典型的なエンジニアが1日にマージするコード量は2024年比で8倍になった。Anthropicは、コード行数を品質ではなく量を測る不完全な指標だとしつつ、エンジニアが自らコードを書く役割から、Claudeが書いたコードを指示・レビューする役割へ移りつつあると説明している。</p>
-<p><strong>Anthropicにおける1人あたりのコード出力量の推移。2026年第2四半期には、2024年比で8倍に増加した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c/52a19d636c659cf4515dc0d7d70b8ceb1bbfd768_2200x1276_3fda558e7c.webp" alt="52a19d636c659cf4515dc0d7d70b8ceb1bbfd768-2200x1276.webp" /></p>
-<h2>実験の実行でもAIの役割が拡大</h2>
-<p>AI開発には、コードを書き、インフラを構築し、モデル訓練を監督するエンジニアリングと、どの実験を行うかを決め、結果を解釈し、次に試すべきアイデアを選ぶ研究の工程がある。</p>
-<p>Anthropicは、エンジニアリングではClaudeに十分に定義されていない問題を渡しても、解決方法を考えられるようになっていると説明している。研究面でも、明確に定義された実験の実行では、Claudeが熟練した人間に匹敵、または上回る成果を出し始めているという。</p>
-<p>一方で、現時点のClaudeは、何を目標にすべきか、どの実験を行う価値があるか、どの結果を信頼すべきかを自律的に判断する点では、人間との差が残る。Anthropicは、現在のClaudeを「後継AIを自律的に設計するシステム」とは位置づけていない。</p>
-<p>それでも、実装、実験、評価の多くをAIが担えるようになれば、少数の人間がより多くの研究開発を同時に指揮できる。こうした変化は、AI開発そのものに複利的な加速をもたらす可能性がある。</p>
-<h2>開発の減速・一時停止を検証できる仕組みが必要</h2>
-<p>Anthropicは、AIがAI開発を加速する流れが続いた場合に備え、社会制度やアライメント研究が技術の進歩に追いつくための時間を確保する選択肢が必要だとしている。具体的には、フロンティアAI開発を減速、または一時停止できる仕組みを世界が持つべきだと提言した。</p>
-<p>ただし、単独の企業が開発を止めるだけでは十分ではない。慎重な企業だけが停止すれば、より慎重でない主体に技術的な先行を許す可能性があるためだ。Anthropicは、複数国にまたがる複数のフロンティアAI開発企業が、同じ条件で停止に合意し、互いに実際に停止していることを検証できる体制が必要だとしている。</p>
-<p>同社は、こうした仕組みが存在するなら、他のフロンティア開発者も検証可能な形で同様に行動することを条件に、自社も減速または一時停止するとしている。AIがAI開発を補助する段階から、後継AIの設計・開発に関わる段階へ進む可能性を前に、開発速度そのものをどう統治するかが新たな論点になりつつある。</p>
 ]]></description>
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
