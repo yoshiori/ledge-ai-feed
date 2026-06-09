@@ -72,6 +72,26 @@
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Amazon傘下Ringの顔認識機能めぐり米国で集団訴訟　訪問者・通行人の同意なき生体データ収集を主張</title>
+      <link>https://ledge.ai/articles/amazon_ring_familiar_faces_class_action</link>
+      <description><![CDATA[<p>米バージニア州在住のCharles Sigwalt氏は2026年6月1日、Amazon.comと同社傘下のRing LLCを相手取り、米ワシントン西部地区連邦地方裁判所に集団訴訟を<a href="https://www.classaction.org/media/sigwalt-v-amazon-com-inc.pdf">提起</a>した。Ringの顔認識機能「Familiar Faces」を通じ、訪問者や通行人の顔認識情報が本人の同意なく収集・保持・利用されていると主張している。請求額は、集団訴訟公正法上の要件として500万ドルを超えるとされる。</p>
+<p><strong>訴状に掲載されたRingカメラの例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ring_30b2bc10ff/ring_30b2bc10ff.jpg" alt="ring.jpg" /></p>
+<h2>「カメラの所有者ではない人」の同意が争点に</h2>
+<p>訴えによると、Sigwalt氏は友人や家族の家を訪問した際、自身の知らないところでFamiliar Facesにより顔認識データを収集されたという。原告側は、Ring利用者は同機能を有効化するか選べる一方、カメラの前を通る訪問者や通行人には通知や同意、オプトアウトの機会がないと問題視している。</p>
+<p>訴状は、Familiar Facesがゲストや通行人の顔をスキャンし、AIで分類したうえで、再識別に使える「face print」を作成すると主張する。原告側は、顔認識データを変更できない生体識別情報と位置づけ、住所やパスワードと違って漏えい後に差し替えられない点を強調している。</p>
+<h2>Ring公式は「デフォルトでオフ」と説明</h2>
+<p>Ringの公式ヘルプでは、Familiar Facesはカメラが知っている人物を認識した際に、「Person at Front Door」ではなく「Chris at Front Door」のように通知できる機能と説明されている。同機能はデフォルトでは無効で、Ringアプリからデバイスごとに有効化できる。カメラが顔を検出するとライブラリに追加され、ユーザーは人物に名前を付けられる。</p>
+<p>公式ヘルプによれば、プロフィールと顔認識情報はRing端末上ではなく、暗号化されたうえでクラウドに保存される。名前のないプロフィールは30日間認識されなければ削除され、すべてのプロフィールと顔認識情報は180日間認識されなければ自動削除される。一部地域では法令上の理由から同機能を提供していない。</p>
+<p>Amazonは日本でも、Ringデバイス向けに「顔なじみ認識」機能の提供開始を<a href="https://www.aboutamazon.jp/news/devices/ring-familiar-faces-function">発表</a>している。発表では、同機能をオプトイン方式とし、ユーザーが訪問者から収集された顔データの保存、処理、複製、使用をRingに許可する形になると説明している。</p>
+<h2>消費者保護法違反や不当利得などを主張</h2>
+<p>訴状では、州の消費者保護法違反、肖像・画像利用に関する法令違反、プライバシー侵害、不当利得などが主張されている。原告側は、Familiar FacesがRing製品の販売上の価値を高める機能として使われており、本人の同意なく収集された生体情報からRing側が利益を得ていると訴える。</p>
+<p>Ringをめぐっては、2023年にも米連邦取引委員会（FTC）がプライバシーとセキュリティ上の問題を指摘した。FTCは当時、Ringが顧客動画へのアクセス管理を怠ったなどとして、580万ドルの返金を含む措置を<a href="https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users">発表</a> している。</p>
+<p>今回の訴訟は、家庭用セキュリティ機器の利便性と、所有者ではない第三者の生体情報保護がどこで衝突するのかを問うものとなる。玄関先や店舗入口で偶然カメラに映る人の同意をどう扱うべきかが、改めて争点になっている。</p>
+]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、AIが後継AIを作る「再帰的自己改善」に警鐘　Claudeが自社コードの8割超を作成、開発の減速・一時停止メカニズムを提言</title>
       <link>https://ledge.ai/articles/anthropic_recursive_self_improvement_ai_development_pause</link>
       <description><![CDATA[<p>Anthropicは2026年6月4日（現地時間）、AIがAI開発を加速する現状と、その先にある「再帰的自己改善（recursive self-improvement）」の可能性を論じる声明「When AI builds itself」を<a href="https://www.anthropic.com/institute/recursive-self-improvement">公開</a>した。</p>
