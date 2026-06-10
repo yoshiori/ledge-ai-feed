@@ -150,6 +150,31 @@
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、最上位「Mythos級」AIを一般提供　保護機能付き「Claude Fable 5」で危険領域はOpus 4.8に切り替え</title>
+      <link>https://ledge.ai/articles/anthropic_claude_fable_5_mythos_safeguards</link>
+      <description><![CDATA[<p>Anthropicは2026年6月9日（現地時間）、新AIモデル「<a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5</a> 」の提供を始めた。同社がOpusクラスの上位に位置付ける「Mythos（ミュトス）クラス」のモデルで、これまで一般提供してきたどのモデルよりも高い能力を持つとしている。</p>
+<p>Claude Fable 5は、同じく新たに発表された「Claude Mythos 5」と同じ基盤モデルを使う。一方で、一般利用向けのFable 5には、サイバーセキュリティやバイオ・化学などの高リスク領域で悪用を防ぐための保護機能が加えられている。該当するリクエストは、同社の次に高性能なモデルである「Claude Opus 4.8」に切り替えて処理される。</p>
+<h2>ソフトウェア開発や知識労働、科学研究で高い性能</h2>
+<p>Anthropicは、Claude Fable 5について、ソフトウェアエンジニアリング、知識労働、ビジョン、科学研究などの幅広い領域で高い性能を示すとしている。特に、長く複雑なタスクほど、同社の従来モデルとの差が大きくなるという。</p>
+<p><strong>Claude Mythos 5 / Fable 5と主要モデルの性能比較：</strong> セキュリティやバイオ関連の一部ベンチマークでは、Claude Fable 5がClaude Opus 4.8へフォールバックするため、Claude Mythos 5との差が出る
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Mythos5_Claude_Fable_5_bench_75f2e35f43/Mythos5_Claude_Fable_5_bench_75f2e35f43.jpg" alt="Mythos5-Claude Fable 5 bench.jpg" /></p>
+<p>開発者向けには、Claude API、Claude Platform on AWS、Amazon Bedrock、Vertex AI、Microsoft Foundryで提供される。API上のモデルIDは「claude-fable-5」。コンテキストウィンドウは100万トークン、最大出力は12万8000トークンで、価格は入力100万トークンあたり10ドル、出力100万トークンあたり50ドルとなる。</p>
+<h2>高リスク領域ではOpus 4.8に切り替え</h2>
+<p>Claude Fable 5の特徴は、Mythos級の能力を一般利用向けに提供しながら、高リスク領域には制限を設けている点だ。</p>
+<p>Fable 5では、別のAIシステムである分類器がリクエストを監視し、サイバーセキュリティ、バイオ・化学、モデル蒸留などに関する一部のリクエストを検出する。悪用につながる可能性があると判断された場合、Fable 5は応答せず、Claude Opus 4.8が代わりに処理する。</p>
+<p>この保護機能は当初、保守的に調整されているため、無害なリクエストでも検出される場合がある。一方で、初期データでは、フォールバックが発生するのは平均して5％未満のセッションだという。</p>
+<p>Anthropicは2026年4月、サイバー防衛や重要ソフトウェア基盤の保護を目的とする「Project Glasswing」を発表し、最初のMythosクラスモデル「Claude Mythos Preview」を限られたパートナーに提供していた。Mythos級モデルは、脆弱性の発見や悪用などに使われる可能性があるため、一般公開には慎重な対応が取られていた。</p>
+<p>今回のClaude Fable 5は、そのMythos級の能力を、保護機能付きで広く提供する位置付けとなる。</p>
+<h2>Claude Mythos 5は防衛・研究向けに限定提供</h2>
+<p>同時に発表されたClaude Mythos 5は、Claude Fable 5と同じ基盤モデルを使うが、一部の保護機能を外した構成となる。提供先は、Project Glasswingの参加者など、サイバー防衛や重要インフラに関わる限られたパートナーに限定される。</p>
+<p>Anthropicは今後、米政府と協議しながらClaude Mythos 5の提供対象を段階的に広げる方針も示している。また、バイオ研究向けには、サイバー領域の保護機能を維持したまま、バイオ・化学領域の保護機能を外したアクセスプログラムを計画している。</p>
+<h2>Pro、Max、Teamなどでは段階的に提供</h2>
+<p>Claude Fable 5は、Claude APIと従量課金型のEnterpriseプランでは6月9日から利用できる。サブスクリプションプランでは、Pro、Max、Team、seat-based Enterpriseで6月22日まで追加料金なしで利用できる。</p>
+<p>ただし、6月23日以降は、これらのサブスクリプションプランからFable 5をいったん外し、利用にはusage creditsが必要になる予定だ。容量に余裕がある場合は、追加料金なしで利用できる期間を延長する可能性もある。</p>
+]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>GitHub、複数のAIエージェントを管理する「GitHub Copilotアプリ」詳細発表　開発作業の実行基盤</title>
       <link>https://ledge.ai/articles/github_copilot_app_agent_development_platform</link>
       <description><![CDATA[<p>GitHubは2026年6月2日、デスクトップアプリ「GitHub Copilot app」の詳細を<a href="https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/">発表</a>した。同アプリは、複数のAIエージェントによる開発作業を並行して管理する「エージェントネイティブ」なデスクトップ体験として位置づけられている。GitHubはMicrosoft Build 2026で、開発者とAIエージェントが同じワークフロー上で作業するための新機能群を紹介した。</p>
@@ -211,7 +236,7 @@
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/6/5 [FRI]Microsoft、AIエージェントで開発した量子チップ「Majorana 2」発表　量子ビットの信頼性1000倍、2029年の実用規模へ前進</title>
+      <title>Microsoft、AIエージェントで開発した量子チップ「Majorana 2」発表　量子ビットの信頼性1000倍、2029年の実用規模へ前進</title>
       <link>https://ledge.ai/articles/microsoft_majorana_2_ai_agent_quantum_chip</link>
       <description><![CDATA[<p>Microsoftは2026年6月4日、Microsoft Discoveryのエージェント型AIを活用して開発した次世代トポロジカル量子チップ「Majorana 2」を<a href="https://news.microsoft.com/source/asia/features/majorana-2-microsoft-discovery-agentic-ai/?lang=ja">発表</a>{target=\</p>
 ]]></description>
@@ -221,13 +246,6 @@
       <title>Microsoft、AIエージェント中心のデバイス向け基盤「Project Solara」発表　アプリではなくエージェントを呼び出す新体験へ</title>
       <link>https://ledge.ai/articles/microsoft_project_solara_agent_first_devices</link>
       <description><![CDATA[<p>Microsoftは2026年6月2日（現地時間）、米サンフランシスコで開催した開発者向けイベント「Microsoft Build 2026」で、AIエージェントを中心に動作する新しいデバイス向けプラットフォーム「Project Solara」を<a href="https://commandline.microsoft.com/project-solara-build-2026/">発表した</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、GTC Taipei 2026でAIエージェント基盤を一挙発表　RTX SparkやCosmos 3、GR00T参照設計でPCからロボットまで拡張</title>
-      <link>https://ledge.ai/articles/nvidia_gtc_taipei_2026_ai_agents_physical_ai</link>
-      <description><![CDATA[<p>NVIDIAは、台湾・台北で開催された「GTC Taipei 2026」で、AIエージェントとフィジカルAIに向けた新たな製品・モデル・開発基盤を相次いで発表した。Windows PC向けSoC「<a href="https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark">NVIDIA RTX Spark</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 01 Jun 2026 00:50:00 GMT</pubDate>
     </item>
