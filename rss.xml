@@ -143,7 +143,7 @@
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>FutureSearch、AGI予測の変化を可視化　2026年に入り「より早く来る」方向へ再び前倒し</title>
+      <title>学術＆研究2026/6/13 [SAT]FutureSearch、AGI予測の変化を可視化　2026年に入り「より早く来る」方向へ再び前倒し</title>
       <link>https://ledge.ai/articles/futuresearch_agi_timeline_tracker</link>
       <description><![CDATA[<p>AIの開発と研究を行うFutureSearchは2026年4月12日、AIが人間の認知労働の大部分を自動化する時期について、研究者や予測者らの見通しが2023年から2026年にかけてどう変化したかをまとめた記事「<a href="https://futuresearch.ai/blog/agi-timeline-tracker/">How long until AI automates all cognitive labor?</a>{target=\</p>
 ]]></description>
@@ -177,29 +177,33 @@
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTTグループなど6社、IOWN APNとフィジカルAIでコンビナート設備点検を高度化　岡山―東京約700kmでロボット遠隔操作・異常検知を実証</title>
-      <link>https://ledge.ai/articles/iown_apn_physical_ai_chemical_plant_inspection</link>
-      <description><![CDATA[<p>NTT東日本、NTTドコモビジネス、NTTドコモソリューションズ、NTTデータグループのNTTグループ4社と、富士通グループの1FINITY、三菱ケミカルは6月1日、次世代通信基盤「IOWN APN」と60GHz帯無線LAN、フィジカルAIを組み合わせ、コンビナート設備点検の高度化を目指した実証を実施したと<a href="https://www.ntt.com/about-us/press-releases/news/article/2026/0601_2.html">発表</a>{target=\</p>
+      <title>Huawei製AIチップ 「Ascend 910C」でDeepSeek-V4-Proを後学習　中国チーム、NVIDIA依存低減につながる大規模AI訓練の成果</title>
+      <link>https://ledge.ai/articles/huawei_ascend_910c_deepseek_v4_pro_post_training</link>
+      <description><![CDATA[<p>深圳河套学院は2026年5月28日、同学院のAI訓練プラットフォームプロジェクトチームが、ハルビン工業大学（深圳）、深圳大数据研究院、Huawei関連チーム、深智城AI算力平台と連携し、HuaweiのAIチップ「Ascend 910C」を用いた中国製計算クラスタ上で、DeepSeek-V4-Proの全パラメータ後学習を安定稼働させたと<a href="https://www.slai.edu.cn/zh-hans/article/495">発表</a>した。</p>
+<p>DeepSeek-V4-Proは、DeepSeekが2026年4月に公開した大規模言語モデル「DeepSeek-V4」シリーズの上位モデルである。総パラメータ数は1.6兆、推論時に有効化されるパラメータは490億とされ、100万トークンの長文コンテキストにも対応する。今回の発表は、こうした大規模モデルの後学習を、中国製AIチップ基盤で実施した事例として位置付けられる。</p>
+<h2>約1000枚規模のAscend 910Cクラスタで1500ステップ超を実行</h2>
+<p>深圳河套学院によると、プロジェクトチームは1カ月で訓練環境を構築し、Ascend 910Cを1000枚規模で用いた計算クラスタで、DeepSeek-V4-Proの全パラメータ継続学習およびSFT（教師ありファインチューニング）を安定稼働させた。</p>
+<p>訓練は1500ステップ超にわたり実行され、skipped iterationsとNaN iterationsはいずれも0だったという。モデル演算利用率を示すMFUは30％超、主要な訓練演算子の効率は初期版から14％向上し、Ascend超节点ではMFUが34.9％で安定したとしている。</p>
+<p>同学院は、公開情報で確認できる範囲では、第三者機関が中国製計算クラスタ上でDeepSeek-V4-Proの全パラメータ後学習を完了した初の工学実践だとしている。</p>
+<h2>LoRAではなく「全パラメータ後学習」</h2>
+<p>今回のポイントは、推論や一部パラメータだけを調整する軽量な微調整ではなく、全パラメータを対象にした後学習を実施した点にある。</p>
+<p>DeepSeek-V4-Proは、必要に応じて一部の「専門家」だけを使うMoE（Mixture of Experts）構造を採用する。推論時の効率は高めやすい一方、訓練では専門家間の負荷分散やノード間通信が複雑になりやすい。さらに、1.6兆パラメータ級のモデルでは、重み、勾配、活性化、オプティマイザ状態を複数のチップに分散して扱う必要がある。</p>
+<p>プロジェクトチームは、データ並列、テンソル並列、パイプライン並列、エキスパート並列を組み合わせ、巨大モデルをクラスタ上で分散して動かす仕組みを構築した。MoEルーティング、正規化、行列計算などの主要演算子もAscend環境に合わせて最適化し、専門家負荷のリアルタイム監視と均衡化を進めたという。</p>
+<h2>数学モデリング向けSFTでも性能向上を確認</h2>
+<p>実証では、産業向けの自動化・オペレーションズリサーチ分野を想定した数学モデリング能力の強化も試みた。</p>
+<p>チームは、数学モデリングタスク向けに3000件のSFTサンプルを作成し、DeepSeek-V4-Proに後学習を実施した。深圳河套学院が示した評価では、NL4OPT、OptiBench、ORGEval Code、ORGEval WLの4指標すべてで、後学習前を上回った。たとえばNL4OPTは93.1％から95.9％、ORGEval WLは40.6％から45.7％に上昇した。</p>
+<p>同学院は、単に大規模モデルを動かせたというだけでなく、専門タスク向けに能力を高められることを示した成果だと位置付けている。</p>
+<h2>中国製AI基盤の適用範囲が訓練へ広がるか</h2>
+<p>大規模AIモデルの開発では、NVIDIA製GPUを中心とする高性能計算基盤への依存が大きい。今回の発表は、中国製AIチップを用いた計算クラスタが、推論や軽量な微調整にとどまらず、より負荷の高い全パラメータ後学習にも使われ始めていることを示すものだ。</p>
+<p>一方で、今回確認できるのは、DeepSeek-V4-Proの全パラメータ継続学習およびSFTをAscend 910Cクラスタで安定稼働させたという内容である。ゼロからの大規模事前学習をAscend 910Cだけで完了したという発表ではなく、NVIDIA製GPUを全面的に代替できることを示したものでもない。</p>
+<p>それでも、1.6兆パラメータ級のMoEモデルで後学習を実施した今回の成果は、中国のAIインフラが大規模モデルの訓練工程へ適用範囲を広げる動きとして注目される。</p>
 ]]></description>
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NTTのIOWN技術、宇宙向け光通信端末へ　従来比10倍以上の通信速度向上を見据え次世代モジュール開発でアイルランドMBRYONICSと協業</title>
-      <link>https://ledge.ai/articles/iown_space_optical_communication_module</link>
-      <description><![CDATA[<p>NTTは2026年6月4日、アイルランドに本社を置くMBRYONICS, Ltd.と、宇宙向け光通信分野におけるパートナーシップに関する覚書（MoU）を6月3日に締結したと<a href="https://group.ntt/jp/newsrelease/2026/06/04/260604a.html">発表</a>した。IOWN構想のもとで研究開発してきた光通信技術を、宇宙向け光通信端末に応用する取り組みとなる。</p>
-<p>今回の協業では、MBRYONICSがNTTのデジタルコヒーレント技術を搭載した光トランシーバモジュールを開発する。同モジュールは、商用化が予定されている複数の宇宙向け光通信端末（OCT）に組み込まれる予定だ。NTTは、宇宙空間での通信速度を従来方式に比べて10倍以上に高められるとしている。</p>
-<h2>衛星コンステレーション拡大で大容量・低遅延通信が課題に</h2>
-<p>低軌道衛星を多数組み合わせる衛星コンステレーションの拡大により、宇宙空間で扱うデータ量は増加している。衛星間や衛星・地上間を結ぶ通信インフラには、より大容量で、遅延の少ない通信方式が求められるようになっている。</p>
-<p>光通信は、こうした宇宙通信の高度化を支える技術の一つだ。従来の無線通信に加え、レーザー光を使って衛星間や衛星・地上間を接続することで、宇宙空間における大容量通信の実現が期待されている。</p>
-<p>NTTは、次世代情報通信基盤構想「IOWN（Innovative Optical and Wireless Network）」のもと、光を中心とした通信・計算基盤の研究開発を進めてきた。今回の協業は、地上ネットワークで培ってきた光通信技術を、宇宙向けの通信端末に広げるものとなる。</p>
-<h2>光の波の性質を使うデジタルコヒーレント技術を宇宙へ</h2>
-<p>開発対象となる光トランシーバモジュールは、データを電気信号からレーザーによる光信号へ変換し、送受信する機器である。宇宙向け光通信端末に組み込むことで、衛星間通信や衛星・地上間通信の高速化を支える。</p>
-<p>搭載されるデジタルコヒーレント技術は、光の明るさだけでなく、光の波としての性質も利用する通信技術だ。光の位相や偏波といった情報を活用することで、同じ光の経路でも、より多くの情報を伝送しやすくなる。</p>
-<p><strong>宇宙光通信ネットワークのイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/260604aa_f96fc26a18/260604aa_f96fc26a18.jpg" alt="260604aa.jpg" /></p>
-<h2>NTT C89の事業拡大にもつなげる</h2>
-<p>協業先のMBRYONICSは、アイルランドを拠点に、衛星間や衛星・地上間を結ぶレーザ光通信技術を手がける企業である。宇宙向け光通信プラットフォームを開発しており、光通信端末や光地上局など、宇宙と地上を接続する通信基盤に関わる技術を展開している。</p>
-<p>NTTとMBRYONICSは、今回のMoUを契機に、宇宙光通信分野でのビジネス展開に向けた検討を進める。NTTは、IOWN技術による光通信をベースとした宇宙インフラ構築と、NTTグループの宇宙ビジネスブランド「NTT C89」の事業拡大をめざす。</p>
+      <title>NTTグループなど6社、IOWN APNとフィジカルAIでコンビナート設備点検を高度化　岡山―東京約700kmでロボット遠隔操作・異常検知を実証</title>
+      <link>https://ledge.ai/articles/iown_apn_physical_ai_chemical_plant_inspection</link>
+      <description><![CDATA[<p>NTT東日本、NTTドコモビジネス、NTTドコモソリューションズ、NTTデータグループのNTTグループ4社と、富士通グループの1FINITY、三菱ケミカルは6月1日、次世代通信基盤「IOWN APN」と60GHz帯無線LAN、フィジカルAIを組み合わせ、コンビナート設備点検の高度化を目指した実証を実施したと<a href="https://www.ntt.com/about-us/press-releases/news/article/2026/0601_2.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
