@@ -237,27 +237,6 @@
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>SBIグループ、Claudeを全役職員に展開へ　Anthropicと金融AIエージェント開発、Claude Securityも共同検証</title>
-      <link>https://ledge.ai/articles/sbi_anthropic_claude_financial_ai_agent</link>
-      <description><![CDATA[<p>SBIホールディングスは2026年6月2日、米Anthropic PBCとの間で、生成AIプラットフォーム「Claude」を活用した全社的なAIトランスフォーメーション（AX）を推進することに合意したと<a href="https://www.sbigroup.co.jp/news/2026/0602_16373.html">発表</a>した。</p>
-<p>SBIグループは、Claudeを原則として全グループ役職員に展開し、業務システムにもAPI経由で組み込む。Anthropicからは、最新モデル・機能を搭載したセキュリティ機能、生成AIへの優先的なアクセス、製品ロードマップの早期共有、エンジニアトレーニングの個別支援などを受ける。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sbi_anthropic_ridgei_780d232afd/sbi_anthropic_ridgei_780d232afd.jpg" alt="sbi anthropic ridgei.jpg" /></p>
-<h2>Claudeを全社展開、業務改革とAI人材育成を推進</h2>
-<p>SBIグループは、銀行、証券、保険、資産運用、暗号資産、メディアなど幅広い事業領域を持つ。今回の合意により、役職員が日常業務でClaudeを活用できる環境を整備し、業務改革とコスト削減を進める。創出した資金を次のAI投資に回し、顧客利便性の向上につなげる方針だ。</p>
-<p>主な活用領域には、システム開発プロセスでのAI利用、MCPに対応した顧客向けAIエージェントサービス、問い合わせ対応、データ分析、UI/UX改善、需要予測などが含まれる。法人営業やリレーションシップマネジメントでも、AIとデータを活用する。</p>
-<h2>Claude Securityを共同検証、金融向けの安全実装を目指す</h2>
-<p>SBIグループは、Anthropicの最新セキュリティ技術「Claude Security」の導入に向けた共同検証も実施する。対象は、Ridge-iとSBI証券が開発中の生成AIチャットサービスである。</p>
-<p>金融機関が生成AIを業務や顧客サービスに組み込むには、サイバーセキュリティ、データ保護、出力制御、説明可能性、規制対応などで高い水準が求められる。SBIグループは、Anthropicから最新モデルや機能への優先的なアクセス、防御技術に関する知見の共有を受けながら、金融領域に適したAI安全実装の標準モデル策定を目指す。</p>
-<h2>金融市場に接続するAIエージェントも共同実験</h2>
-<p>SBIグループとAnthropicは、日本の金融市場に接続するAIアクセス基盤やAIエージェントの共同実験も進める。SBIグループが持つ金融市場へのアクセス、知見、データアセットと、Anthropicが開発中の金融知識に関するAIエージェントサービスを組み合わせる。</p>
-<p>Claudeから日本の金融市場や金融商品情報、決済基盤へアクセスする基盤を構築し、SBIグループが掲げるグローバル金融コンシェルジュサービスの実現につなげる。銀行、証券、保険、資産運用、暗号資産、メディアを横断したプラットフォームにもClaudeを組み込み、資産運用アドバイス、家計分析、保険提案などを担うパーソナライズ型金融AIエージェントの提供を検討する。</p>
-<h2>Ridge-iを中核に実装体制を構築</h2>
-<p>実装面では、SBIホールディングスの持分法適用会社であるRidge-iを中核に、SBIグループ横断のエンジニアリング体制を構築する。Ridge-iは、セキュリティ技術の共同検証、ユースケース開発、AIエージェント開発、運用定着などをリードする。</p>
-<p>SBIグループは、Ridge-iの知見をグループ内のエンジニアと共有し、金融業界固有の規制や業務要件に即したAIエージェント開発の内製化と知見蓄積を進める。Claudeの導入にとどまらず、金融業務に適合したAIを自ら開発・運用する体制づくりを急ぐ。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIを「使った量」だけでは成果は測れない　Uber、AIコーディングツールに月額1500ドル上限制限、Amazonは社内AI利用ランキング閉鎖</title>
       <link>https://ledge.ai/articles/uber_ai_coding_tool_cost_limit_amazon_kirorank_close</link>
       <description><![CDATA[<p>Uber Technologiesが、AIコーディングツールの利用に対し、従業員1人あたり月額1500ドル（約24万円）のトークン支出上限を設けた。対象には、CursorやAnthropicのClaude Codeなどのエージェント型AIコーディングツールが含まれると、<a href="https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs">Bloomberg</a>{target=\</p>
