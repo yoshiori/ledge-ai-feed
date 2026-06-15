@@ -91,26 +91,6 @@
       <pubDate>Mon, 08 Jun 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon傘下Ringの顔認識機能めぐり米国で集団訴訟　訪問者・通行人の同意なき生体データ収集を主張</title>
-      <link>https://ledge.ai/articles/amazon_ring_familiar_faces_class_action</link>
-      <description><![CDATA[<p>米バージニア州在住のCharles Sigwalt氏は2026年6月1日、Amazon.comと同社傘下のRing LLCを相手取り、米ワシントン西部地区連邦地方裁判所に集団訴訟を<a href="https://www.classaction.org/media/sigwalt-v-amazon-com-inc.pdf">提起</a>した。Ringの顔認識機能「Familiar Faces」を通じ、訪問者や通行人の顔認識情報が本人の同意なく収集・保持・利用されていると主張している。請求額は、集団訴訟公正法上の要件として500万ドルを超えるとされる。</p>
-<p><strong>訴状に掲載されたRingカメラの例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ring_30b2bc10ff/ring_30b2bc10ff.jpg" alt="ring.jpg" /></p>
-<h2>「カメラの所有者ではない人」の同意が争点に</h2>
-<p>訴えによると、Sigwalt氏は友人や家族の家を訪問した際、自身の知らないところでFamiliar Facesにより顔認識データを収集されたという。原告側は、Ring利用者は同機能を有効化するか選べる一方、カメラの前を通る訪問者や通行人には通知や同意、オプトアウトの機会がないと問題視している。</p>
-<p>訴状は、Familiar Facesがゲストや通行人の顔をスキャンし、AIで分類したうえで、再識別に使える「face print」を作成すると主張する。原告側は、顔認識データを変更できない生体識別情報と位置づけ、住所やパスワードと違って漏えい後に差し替えられない点を強調している。</p>
-<h2>Ring公式は「デフォルトでオフ」と説明</h2>
-<p>Ringの公式ヘルプでは、Familiar Facesはカメラが知っている人物を認識した際に、「Person at Front Door」ではなく「Chris at Front Door」のように通知できる機能と説明されている。同機能はデフォルトでは無効で、Ringアプリからデバイスごとに有効化できる。カメラが顔を検出するとライブラリに追加され、ユーザーは人物に名前を付けられる。</p>
-<p>公式ヘルプによれば、プロフィールと顔認識情報はRing端末上ではなく、暗号化されたうえでクラウドに保存される。名前のないプロフィールは30日間認識されなければ削除され、すべてのプロフィールと顔認識情報は180日間認識されなければ自動削除される。一部地域では法令上の理由から同機能を提供していない。</p>
-<p>Amazonは日本でも、Ringデバイス向けに「顔なじみ認識」機能の提供開始を<a href="https://www.aboutamazon.jp/news/devices/ring-familiar-faces-function">発表</a>している。発表では、同機能をオプトイン方式とし、ユーザーが訪問者から収集された顔データの保存、処理、複製、使用をRingに許可する形になると説明している。</p>
-<h2>消費者保護法違反や不当利得などを主張</h2>
-<p>訴状では、州の消費者保護法違反、肖像・画像利用に関する法令違反、プライバシー侵害、不当利得などが主張されている。原告側は、Familiar FacesがRing製品の販売上の価値を高める機能として使われており、本人の同意なく収集された生体情報からRing側が利益を得ていると訴える。</p>
-<p>Ringをめぐっては、2023年にも米連邦取引委員会（FTC）がプライバシーとセキュリティ上の問題を指摘した。FTCは当時、Ringが顧客動画へのアクセス管理を怠ったなどとして、580万ドルの返金を含む措置を<a href="https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users">発表</a> している。</p>
-<p>今回の訴訟は、家庭用セキュリティ機器の利便性と、所有者ではない第三者の生体情報保護がどこで衝突するのかを問うものとなる。玄関先や店舗入口で偶然カメラに映る人の同意をどう扱うべきかが、改めて争点になっている。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、AI悪用サイバー攻撃832件を分析　侵入後の探索・横展開まで自動化が進行</title>
       <link>https://ledge.ai/articles/anthropic_ai_cyber_attack_automation</link>
       <description><![CDATA[<p>AI企業のAnthropicは2026年6月3日（現地時間）、AIを悪用したサイバー攻撃の実態を分析した調査結果を<a href="https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack">発表</a>した。2025年3月から2026年3月までに、悪意あるサイバー活動として停止したClaude関連アカウント832件を対象に、攻撃者の行動をMITRE ATT&amp;CKにマッピングした。</p>
@@ -256,6 +236,27 @@
       <title>AIを「使った量」だけでは成果は測れない　Uber、AIコーディングツールに月額1500ドル上限制限、Amazonは社内AI利用ランキング閉鎖</title>
       <link>https://ledge.ai/articles/uber_ai_coding_tool_cost_limit_amazon_kirorank_close</link>
       <description><![CDATA[<p>Uber Technologiesが、AIコーディングツールの利用に対し、従業員1人あたり月額1500ドル（約24万円）のトークン支出上限を設けた。対象には、CursorやAnthropicのClaude Codeなどのエージェント型AIコーディングツールが含まれると、<a href="https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs">Bloomberg</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa、OpenAIと提携　AIエージェントが購入まで担う「エージェンティックコマース」で安全な決済を可能に</title>
+      <link>https://ledge.ai/articles/visa_openai_agentic_commerce_payment</link>
+      <description><![CDATA[<p>Visaは2026年6月10日（米国時間）、OpenAIとの戦略的提携を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260611-2.html">発表</a>した。AIエージェントが利用者に代わって商品やサービスの購入を支援する「エージェンティックコマース」に対応し、OpenAIのサービス上で安全なVisa決済を可能にする。</p>
+<p>発表は、米サンフランシスコで開催されたVisa Payments Forumで行われた。Visaは、自社のグローバル決済ネットワーク、認証機能、セキュリティインフラをOpenAI上の体験に提供する。開発者や加盟店は、AIエージェントによって開始されるVisa決済を受け付けやすくなる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Visa_Partners_with_Open_AI_1e37a4c89e/Visa_Partners_with_Open_AI_1e37a4c89e.jpg" alt="Visa Partners with OpenAI .jpg" /></p>
+<h2>OpenAI上の体験にVisa決済を統合</h2>
+<p>今回の提携では、OpenAIのサービス上でVisaの決済機能を利用できるようにする。AIエージェントが商品やサービスの検索、比較、購入手続きの一部を担う場面で、Visaのネットワーク、トークン化、リスク管理機能を組み合わせ、安全性の高い取引を支援する。</p>
+<p>従来のAIショッピング支援は、商品を探す、候補を比較する、条件に合う選択肢を示すといった役割が中心だった。決済を伴う行動までAI体験に組み込むには、認証、承認、不正監視、利用者の権限管理が欠かせない。</p>
+<h2>利用額上限や承認要件を設定</h2>
+<p>AIエージェントによる購入では、利用者の意図しない取引や過剰な支出をどう防ぐかが重要になる。今回の仕組みでは、取引は消費者や企業が設定したガードレールの中で実行される。支出上限、承認が必要となる金額のしきい値、その他の権限レイヤーを設けることで、エージェントが作業を進める場合でも、購入者が主導権を保てるようにする。</p>
+<p>AIによって開始される取引には、Visaのグローバルネットワーク、決済トークン化、オーソリゼーション、エージェント識別、不正モニタリングのインフラが使われる。カード情報そのものをAIエージェントに渡すのではなく、トークン化された認証情報や取引ごとの承認を通じて、安全な決済を実現する構えだ。</p>
+<h2>Visa Intelligent Commerce構想の一部</h2>
+<p>OpenAIとの提携は、Visaが進める「Visa Intelligent Commerce」構想の一部でもある。Visa Intelligent Commerceは、AIエージェントによる取引に、決済認証情報、コントロール、認証、保護機能を組み込むことで、AI主導の取引を支援する取り組みだ。</p>
+<p>Visa Payments Forumでは、OpenAIとの提携に加え、AIやトークン、ステーブルコインに関する複数の発表も行われた。AI主導型コマースに向けたトークンの高度化や、不正検知と承認性能の向上を目的とした大規模トランザクションモデルも示された。</p>
+<h2>OpenAI側でもコマース基盤を整備</h2>
+<p>OpenAIは、ChatGPT上のコマース体験に向けた基盤として「<a href="https://developers.openai.com/commerce/">Agentic Commerce Protocol</a>」を整備している。Agentic Commerce Protocolは、加盟店とChatGPTユーザーをつなぐオープン標準で、構造化された商品カタログデータや在庫情報を扱い、文脈に応じた商品提示を可能にする。</p>
+<p>今回のVisaとの提携は、こうしたAIコマース体験に、決済ネットワーク側の安全対策を接続する動きといえる。AIエージェントが商品を探すだけでなく、購入を支援する段階へ進むにつれ、決済インフラ、本人確認、権限管理、不正対策の重要性は高まっている。</p>
 ]]></description>
       <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
