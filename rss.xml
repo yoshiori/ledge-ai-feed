@@ -5,11 +5,171 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>文科省、AI for Science拠点に分子科学研究所を採択　ロボットとAIで24時間使える実験基盤を構築</title>
+      <link>https://ledge.ai/articles/mext_ai_for_science_smart_cloud_lab</link>
+      <description><![CDATA[<p>文部科学省は2026年6月9日、共同利用・共同研究システム形成事業「大規模集積研究システム形成先導プログラム」の採択機関を<a href="https://www.mext.go.jp/b_menu/boshu/detail/mext_00538.html">決定</a>した。採択されたのは、自然科学研究機構 分子科学研究所を中核機関とする「大規模スマートクラウドラボを基盤とするケミ・マテリアル・ライフサイエンスの変革」。ロボットやAI自律実験システムを備えた研究基盤を整備し、AI for Scienceに活用できる高品質な研究データを大規模に生み出すことを目指す。</p>
+<p><strong>文部科学省が採択した「大規模スマートクラウドラボ」構想の概要：</strong> 自動合成・測定ロボット群やAI自律実験システムを整備し、全国の研究者が場所や時間の制約を受けずに高品質な研究データを創出・活用できる環境を目指す
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/smart_lab_7b4b9bdffb/smart_lab_7b4b9bdffb.jpg" alt="smart lab.jpg" /></p>
+<h2>全国の研究者が遠隔利用できる「スマートクラウドラボ」</h2>
+<p>同プログラムは、研究設備の自動化・自律化・遠隔化によるオートメーション／クラウドラボの形成と、研究データをAI for Scienceに活用するための基盤構築を目的とする。公募には5件の申請があり、外部有識者による審査を経て1件が採択された。</p>
+<p>採択事業では、全国の研究者が場所や時間の制約を受けずにアクセスできる実験環境「インテグレーテッド・スマート・クラウド・ラボ（iLIS）」を構築する。自動合成・測定ロボット群を整備したスマートファシリティや高機能中核研究装置を高速ネットワークで統合し、遠隔自動計測／解析システム、AI自律実験システムを備える。</p>
+<p>連携機関には、生理学研究所、基礎生物学研究所、生命創成探究センター、国立情報学研究所、国立遺伝学研究所、統計数理研究所、物質構造科学研究所、東京科学大学、総合研究大学院大学、日本電気株式会社が含まれる。</p>
+<h2>AIが利用できる研究データを大量に創出</h2>
+<p>構想の焦点は、実験の遠隔化やロボット化にとどまらない。採択事業概要では、「AIで利用可能なデータを大規模に産生」することが具体的な取組内容として掲げられている。</p>
+<p>対象は、ケミ・マテリアル・ライフサイエンスの分野にまたがる。自動化・遠隔化・高機能計測、ロボティクス活用、ネガティブデータを含むリアルデータの創出により、AIが扱いやすい高品質なデータを継続的に生み出す。さらに、異なる種類のデータ間の関係性をAIが解析できる形で蓄積し、メタデータの標準化や計測データの規格化も進める。</p>
+<h2>理論研究者もクラウド上から実験を実行可能に</h2>
+<p>iLISは、全国の研究者が活用できる新しい共同利用の形として位置づけられている。構想では、理論研究者でもクラウド上から実験を実行できる環境や、対話AIを経由したインターフェースを提供することが示されている。</p>
+<p>研究者はリモートでiLISの装置群を24時間活用でき、実験結果はリアルタイムでフィードバックされる。専門性や所属機関、地域による研究環境の差を縮小し、異分野の研究者が共通基盤を通じてデータを創出・利用できる仕組みを整える。</p>
+<h2>新規創薬や機能素材開発への波及も視野</h2>
+<p>扱うデータは、電子状態から個体・集団まで幅広いスケールに及ぶ。資料では、光物性、活性・表現型、MRI画像、遺伝情報、化学構造、タンパク質、脳活動、物質物性、遺伝子などが例示されている。これらの異種データをサンプルIDを軸に結び付け、完全なトレーサビリティを確保しながら、異分野横断で再利用できる形にする。</p>
+<p>文科省は、今回の事業により、研究生産性の飛躍的向上、AI駆動型研究の加速、インクルーシブサイエンスの推進、次世代ハイブリッド人材の育成、産業界への波及と国際競争力強化といった効果を見込む。異分野間のデータをつなぐことで、新規創薬、機能素材開発、ブレインテックなどへの応用も視野に入る。</p>
+]]></description>
+      <pubDate>Mon, 15 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa、OpenAIと提携　AIエージェントが購入まで担う「エージェンティックコマース」で安全な決済を可能に</title>
+      <link>https://ledge.ai/articles/visa_openai_agentic_commerce_payment</link>
+      <description><![CDATA[<p>Visaは2026年6月10日（米国時間）、OpenAIとの戦略的提携を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260611-2.html">発表</a>した。AIエージェントが利用者に代わって商品やサービスの購入を支援する「エージェンティックコマース」に対応し、OpenAIのサービス上で安全なVisa決済を可能にする。</p>
+<p>発表は、米サンフランシスコで開催されたVisa Payments Forumで行われた。Visaは、自社のグローバル決済ネットワーク、認証機能、セキュリティインフラをOpenAI上の体験に提供する。開発者や加盟店は、AIエージェントによって開始されるVisa決済を受け付けやすくなる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Visa_Partners_with_Open_AI_1e37a4c89e/Visa_Partners_with_Open_AI_1e37a4c89e.jpg" alt="Visa Partners with OpenAI .jpg" /></p>
+<h2>OpenAI上の体験にVisa決済を統合</h2>
+<p>今回の提携では、OpenAIのサービス上でVisaの決済機能を利用できるようにする。AIエージェントが商品やサービスの検索、比較、購入手続きの一部を担う場面で、Visaのネットワーク、トークン化、リスク管理機能を組み合わせ、安全性の高い取引を支援する。</p>
+<p>従来のAIショッピング支援は、商品を探す、候補を比較する、条件に合う選択肢を示すといった役割が中心だった。決済を伴う行動までAI体験に組み込むには、認証、承認、不正監視、利用者の権限管理が欠かせない。</p>
+<h2>利用額上限や承認要件を設定</h2>
+<p>AIエージェントによる購入では、利用者の意図しない取引や過剰な支出をどう防ぐかが重要になる。今回の仕組みでは、取引は消費者や企業が設定したガードレールの中で実行される。支出上限、承認が必要となる金額のしきい値、その他の権限レイヤーを設けることで、エージェントが作業を進める場合でも、購入者が主導権を保てるようにする。</p>
+<p>AIによって開始される取引には、Visaのグローバルネットワーク、決済トークン化、オーソリゼーション、エージェント識別、不正モニタリングのインフラが使われる。カード情報そのものをAIエージェントに渡すのではなく、トークン化された認証情報や取引ごとの承認を通じて、安全な決済を実現する構えだ。</p>
+<h2>Visa Intelligent Commerce構想の一部</h2>
+<p>OpenAIとの提携は、Visaが進める「Visa Intelligent Commerce」構想の一部でもある。Visa Intelligent Commerceは、AIエージェントによる取引に、決済認証情報、コントロール、認証、保護機能を組み込むことで、AI主導の取引を支援する取り組みだ。</p>
+<p>Visa Payments Forumでは、OpenAIとの提携に加え、AIやトークン、ステーブルコインに関する複数の発表も行われた。AI主導型コマースに向けたトークンの高度化や、不正検知と承認性能の向上を目的とした大規模トランザクションモデルも示された。</p>
+<h2>OpenAI側でもコマース基盤を整備</h2>
+<p>OpenAIは、ChatGPT上のコマース体験に向けた基盤として「<a href="https://developers.openai.com/commerce/">Agentic Commerce Protocol</a>」を整備している。Agentic Commerce Protocolは、加盟店とChatGPTユーザーをつなぐオープン標準で、構造化された商品カタログデータや在庫情報を扱い、文脈に応じた商品提示を可能にする。</p>
+<p>今回のVisaとの提携は、こうしたAIコマース体験に、決済ネットワーク側の安全対策を接続する動きといえる。AIエージェントが商品を探すだけでなく、購入を支援する段階へ進むにつれ、決済インフラ、本人確認、権限管理、不正対策の重要性は高まっている。</p>
+]]></description>
+      <pubDate>Mon, 15 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>【アーカイブ公開】THE AI 2026 ── AI誕生70年の“現在地”を映した全セッションを、期間限定で配信</title>
+      <link>https://ledge.ai/articles/the-ai-2026_archive</link>
+      <description><![CDATA[<p>2026年6月5日、オンラインAIカンファレンス「THE AI 2026」を開催した。「AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する」をテーマに掲げ、フィジカルAIから生成AIエージェント、国産AI基盤、そして現場のロボティクスまで、いまのAIの最前線を一日で見渡す構成とした。当日は朝から夕方まで講演が途切れることなく続き、実務に直結する具体例や踏み込んだ議論が多く、各セッションは好評を博した。
+このたび、当日見逃した方や、もう一度見返したい方に向けて、全セッションのアーカイブ動画を期間限定で公開する。視聴は申込制（無料）。本記事では、各講演の見どころを当日の様子とあわせて紹介する。</p>
+<h2>開催概要</h2>
+<p><strong>イベント名</strong>：THE AI 2026
+<strong>開催日</strong>：2026年6月5日（金）
+<strong>テーマ</strong>：AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する
+<strong>形式</strong>：オンラインLIVE配信
+<strong>アーカイブ視聴</strong>：2026年6月15日〜26日の期間限定で無料
+ 
+:::button
+<a href="https://ledge-the-ai-2026.studio.site/"><strong>アーカイブ視聴を申し込む</strong></a>{ target=\</p>
+]]></description>
+      <pubDate>Sun, 14 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTT、約800億円規模の「IOWN AI Fund」組成へ　AIインフラ関連スタートアップに投資</title>
+      <link>https://ledge.ai/articles/iown_ai_fund_startup_investment</link>
+      <description><![CDATA[<p>NTT、Young Sohn氏、SK Group、中華電信、日本政策投資銀行は2026年6月10日、AI時代の先端技術に投資する「IOWN AI Fund」を組成すると<a href="https://group.ntt/jp/newsrelease/2026/06/10/260610a.html">発表</a>した。ファンド規模は約800億円（約5億ドル）となる見込み。AIインフラ関連のスタートアップに投資し、NTTが提唱する次世代情報通信基盤「IOWN」のエコシステム構築と新規事業創出をめざす。</p>
+<p>ファンドの組成にあわせ、シリコンバレーと東京を拠点とする運営会社「Catalight Capital」も設立する。グローバルな運営体制のもと、有望なスタートアップの発掘と成長支援を進める。</p>
+<h2>20社以上が出資に関心</h2>
+<p>NTTによると、IOWN AI FundにはIOWN Global Forumに参画する事業会社や日本の金融機関など、20社以上が出資参加に関心を示している。公表資料では、NTT、SK、中華電信、DBJのほか、Arm、Broadcom、Corning、富士通、KDDI、みずほ銀行、三菱UFJ銀行、NEC、Samsung、SBIグループ、Sony、三井住友銀行、Toshibaなどの社名が示されている。</p>
+<p><strong>IOWN AI Fundへの賛同を表明している企業</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iown_ai_fund3_47a5d764b3/iown_ai_fund3_47a5d764b3.jpg" alt="iown ai fund3.jpg" /></p>
+<h2>フォトニクスや半導体、分散型AI基盤に投資</h2>
+<p>投資対象は、IOWN関連技術を中心とした幅広い領域に及ぶ。具体的には、フォトニクス技術、AI向け半導体やパッケージング、光デバイス、光電融合モジュール、冷却技術、分散型AI基盤制御、ソフトウェア、AIモデル・推論技術などが含まれる。</p>
+<p>応用領域としては、医療、製造、金融、ロボティクス、デジタルツイン、XR、AIエージェント関連サービスなどを想定する。投資ステージは、技術の実用化や事業化段階にあるミドルステージのスタートアップを中心とし、北米、アジア、欧州の企業を対象とする。</p>
+<h2>AI推論の拡大と電力制約が背景に</h2>
+<p>NTTは背景として、フィジカルAIやAgentic AIの進展により、AI活用が大規模モデルの学習中心から、リアルタイム処理や個別最適化が求められる推論利用へ広がっていると説明する。これに伴い、AI基盤も大規模データセンター中心から、エッジデータセンターを含む分散型へ移っていくとみている。</p>
+<p>一方で、AI利用の拡大は電力供給の制約も招いている。NTTは、光ネットワークで接続された分散型光AIデータセンターの需要が高まるとし、IOWN関連技術を活用してネットワーク、コンピューティング、電力を一体的に最適化する構想を描く。</p>
+<p>今回のファンドは、そうしたAIインフラの変化を見据え、世界のスタートアップ技術をIOWNエコシステムに取り込むための投資基盤となる。</p>
+]]></description>
+      <pubDate>Sun, 14 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、拡散モデルでテキスト生成を最大4倍高速化　オープンモデル「DiffusionGemma」を公開</title>
+      <link>https://ledge.ai/articles/google_deepmind_diffusiongemma_text_diffusion</link>
+      <description><![CDATA[<p>Google DeepMindは2026年6月10日（米国時間）、テキスト生成を高速化する実験的なオープンモデル「DiffusionGemma」を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 14 Jun 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Huawei製AIチップ 「Ascend 910C」でDeepSeek-V4-Proを後学習　中国チーム、NVIDIA依存低減につながる大規模AI訓練の成果</title>
+      <link>https://ledge.ai/articles/huawei_ascend_910c_deepseek_v4_pro_post_training</link>
+      <description><![CDATA[<p>深圳河套学院は2026年5月28日、同学院のAI訓練プラットフォームプロジェクトチームが、ハルビン工業大学（深圳）、深圳大数据研究院、Huawei関連チーム、深智城AI算力平台と連携し、HuaweiのAIチップ「Ascend 910C」を用いた中国製計算クラスタ上で、DeepSeek-V4-Proの全パラメータ後学習を安定稼働させたと<a href="https://www.slai.edu.cn/zh-hans/article/495">発表</a>した。</p>
+<p>DeepSeek-V4-Proは、DeepSeekが2026年4月に公開した大規模言語モデル「DeepSeek-V4」シリーズの上位モデルである。総パラメータ数は1.6兆、推論時に有効化されるパラメータは490億とされ、100万トークンの長文コンテキストにも対応する。今回の発表は、こうした大規模モデルの後学習を、中国製AIチップ基盤で実施した事例として位置付けられる。</p>
+<h2>約1000枚規模のAscend 910Cクラスタで1500ステップ超を実行</h2>
+<p>深圳河套学院によると、プロジェクトチームは1カ月で訓練環境を構築し、Ascend 910Cを1000枚規模で用いた計算クラスタで、DeepSeek-V4-Proの全パラメータ継続学習およびSFT（教師ありファインチューニング）を安定稼働させた。</p>
+<p>訓練は1500ステップ超にわたり実行され、skipped iterationsとNaN iterationsはいずれも0だったという。モデル演算利用率を示すMFUは30％超、主要な訓練演算子の効率は初期版から14％向上し、Ascend超节点ではMFUが34.9％で安定したとしている。</p>
+<p>同学院は、公開情報で確認できる範囲では、第三者機関が中国製計算クラスタ上でDeepSeek-V4-Proの全パラメータ後学習を完了した初の工学実践だとしている。</p>
+<h2>LoRAではなく「全パラメータ後学習」</h2>
+<p>今回のポイントは、推論や一部パラメータだけを調整する軽量な微調整ではなく、全パラメータを対象にした後学習を実施した点にある。</p>
+<p>DeepSeek-V4-Proは、必要に応じて一部の「専門家」だけを使うMoE（Mixture of Experts）構造を採用する。推論時の効率は高めやすい一方、訓練では専門家間の負荷分散やノード間通信が複雑になりやすい。さらに、1.6兆パラメータ級のモデルでは、重み、勾配、活性化、オプティマイザ状態を複数のチップに分散して扱う必要がある。</p>
+<p>プロジェクトチームは、データ並列、テンソル並列、パイプライン並列、エキスパート並列を組み合わせ、巨大モデルをクラスタ上で分散して動かす仕組みを構築した。MoEルーティング、正規化、行列計算などの主要演算子もAscend環境に合わせて最適化し、専門家負荷のリアルタイム監視と均衡化を進めたという。</p>
+<h2>数学モデリング向けSFTでも性能向上を確認</h2>
+<p>実証では、産業向けの自動化・オペレーションズリサーチ分野を想定した数学モデリング能力の強化も試みた。</p>
+<p>チームは、数学モデリングタスク向けに3000件のSFTサンプルを作成し、DeepSeek-V4-Proに後学習を実施した。深圳河套学院が示した評価では、NL4OPT、OptiBench、ORGEval Code、ORGEval WLの4指標すべてで、後学習前を上回った。たとえばNL4OPTは93.1％から95.9％、ORGEval WLは40.6％から45.7％に上昇した。</p>
+<p>同学院は、単に大規模モデルを動かせたというだけでなく、専門タスク向けに能力を高められることを示した成果だと位置付けている。</p>
+<h2>中国製AI基盤の適用範囲が訓練へ広がるか</h2>
+<p>大規模AIモデルの開発では、NVIDIA製GPUを中心とする高性能計算基盤への依存が大きい。今回の発表は、中国製AIチップを用いた計算クラスタが、推論や軽量な微調整にとどまらず、より負荷の高い全パラメータ後学習にも使われ始めていることを示すものだ。</p>
+<p>一方で、今回確認できるのは、DeepSeek-V4-Proの全パラメータ継続学習およびSFTをAscend 910Cクラスタで安定稼働させたという内容である。ゼロからの大規模事前学習をAscend 910Cだけで完了したという発表ではなく、NVIDIA製GPUを全面的に代替できることを示したものでもない。</p>
+<p>それでも、1.6兆パラメータ級のMoEモデルで後学習を実施した今回の成果は、中国のAIインフラが大規模モデルの訓練工程へ適用範囲を広げる動きとして注目される。</p>
+]]></description>
+      <pubDate>Sat, 13 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/6/13 [SAT]FutureSearch、AGI予測の変化を可視化　2026年に入り「より早く来る」方向へ再び前倒し</title>
+      <link>https://ledge.ai/articles/futuresearch_agi_timeline_tracker</link>
+      <description><![CDATA[<p>AIの開発と研究を行うFutureSearchは2026年4月12日、AIが人間の認知労働の大部分を自動化する時期について、研究者や予測者らの見通しが2023年から2026年にかけてどう変化したかをまとめた記事「<a href="https://futuresearch.ai/blog/agi-timeline-tracker/">How long until AI automates all cognitive labor?</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 13 Jun 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple、WWDC26で次世代Apple Intelligenceを発表　Google Gemini連携でSiri AIや画像生成を強化——個人文脈理解やアプリ横断操作に対応へ</title>
+      <link>https://ledge.ai/articles/apple_wwdc26_apple_intelligence_gemini_siri_ai</link>
+      <description><![CDATA[<p>Appleは2026年6月8日（現地時間）、年次開発者会議「WWDC26」で、GoogleおよびGeminiモデルとの協業により構築した次世代Apple Foundation Modelsを中核とする、新しいApple Intelligenceを<a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 12 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、音声対音声翻訳モデル「Gemini 3.5 Live Translate」発表　70以上の言語を数秒遅れで翻訳</title>
+      <link>https://ledge.ai/articles/google_gemini_3_5_live_translate</link>
+      <description><![CDATA[<p>Googleは2026年6月9日（米国時間）、ほぼリアルタイムの音声対音声翻訳に対応する音声モデル「Gemini 3.5 Live Translate」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 12 Jun 2026 11:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIを「使った量」だけでは成果は測れない　Uber、AIコーディングツールに月額1500ドル上限制限、Amazonは社内AI利用ランキング閉鎖</title>
+      <link>https://ledge.ai/articles/uber_ai_coding_tool_cost_limit_amazon_kirorank_close</link>
+      <description><![CDATA[<p>Uber Technologiesが、AIコーディングツールの利用に対し、従業員1人あたり月額1500ドル（約24万円）のトークン支出上限を設けた。対象には、CursorやAnthropicのClaude Codeなどのエージェント型AIコーディングツールが含まれると、<a href="https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs">Bloomberg</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 11 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国アリババ、消費者向けAIアプリ「Qwen App」を外部AIエージェントに開放　ケンタッキーフライドチキンやラッキンコーヒーが初期パートナーに</title>
       <link>https://ledge.ai/articles/qwen_app_third_party_ai_agents</link>
       <description><![CDATA[<p>中国Alibaba Groupは2026年6月3日、同社の消費者向けAIアプリ「Qwen App」のエコシステムを、第三者のAIエージェントおよびSkillに開放すると<a href="https://www.alibabacloud.com/blog/qwen-app-opens-its-ecosystem-to-third-party-agents-kfc-luckin-coffee-and-mixue-among-early-partners_603205">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 11 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NHK技研、映像の来歴情報で“AIフェイク”対策　撮影・編集・配信履歴をC2PAで検証</title>
+      <link>https://ledge.ai/articles/nhk_provenance_information_c2pa_ai_fake_detection</link>
+      <description><![CDATA[<p>NHK放送技術研究所（NHK技研）は、2026年5月28日から31日まで開催した技術展示イベント「<a href="https://prtimes.jp/main/html/rd/p/000000049.000160617.html">技研公開2026</a>」で、映像コンテンツの撮影・編集・配信履歴を記録し、検証できる「来歴情報技術」の研究成果を展示した。</p>
+<p>ニュース映像などの出どころや制作過程を確認できるようにする技術で、生成AIによる偽情報やなりすまし動画が広がりやすい環境で、コンテンツの信頼性を判断するための手がかりを提供する。</p>
+<h2>撮影から配信までの履歴をコンテンツに付与</h2>
+<p>NHKは、インターネットやSNSの普及により偽情報・誤情報が広まりやすくなる中、安心してコンテンツを受け取れる環境の実現に向けて、映像の出どころや制作過程などを示す来歴情報技術の研究を進めている。</p>
+<p>今回の展示では、デジタルコンテンツの来歴情報を扱う国際規格「C2PA（Coalition for Content Provenance and Authenticity）」に基づき、撮影・編集から配信までの各段階で来歴情報をコンテンツに付与するワークフローを構築した。来歴情報には改ざん検知が可能なデジタル署名を組み合わせ、コンテンツがどのような過程を経て視聴者に届いたのかを確認できるようにする。</p>
+<p><strong>来歴情報技術のワークフローイメージ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b.jpg" alt="160617-49-03153a47bce381ded7f20c9bef03e32e-3840x1689.jpg" /></p>
+<p>会場では、撮影から視聴に至るまでの放送コンテンツの制作・流通過程で、来歴情報がどのように付与され、提示されるかを紹介した。</p>
+<h2>AI生成・AI編集の有無を確認する手がかりに</h2>
+<p>C2PAは、デジタルコンテンツの出所や編集履歴を記録・検証するための技術標準である。コンテンツに付与された来歴情報を確認することで、利用者は、どの機器やソフトウェアで作成されたのか、どのような編集が加えられたのかといった情報を把握しやすくなる。</p>
+<p>生成AIの普及により、実在の人物や出来事を装った映像、文脈を変えて再利用された画像、AIで作成・加工されたコンテンツが流通しやすくなっている。来歴情報が正しく付与されたコンテンツであれば、カメラで撮影された素材なのか、生成AIやAI編集を含む素材なのかを確認する手がかりになり得る。</p>
+<p>ただし、この技術は映像そのものを解析して真偽を自動判定するものではない。来歴情報が付与されていないコンテンツや、来歴情報の付与・管理が適切に行われていないコンテンツまで万能に判別できるわけではない。AIフェイク対策としての意義は、コンテンツの内容を直接判定する点ではなく、制作・流通過程を検証可能にする点にある。</p>
+<h2>放送局のワークフローへの組み込みを想定</h2>
+<p>NHK技研の展示は、放送局の制作・配信ワークフローに来歴情報を組み込むことを想定している。撮影時点で来歴情報を付与し、編集や配信の過程でも履歴を追加していくことで、最終的に視聴者がコンテンツの来歴を確認できる仕組みを目指す。</p>
+<p>報道機関にとって、映像の真正性や制作過程を示す仕組みは、災害、事件、国際紛争など、誤情報が広がりやすい場面で重要になる。視聴者側も、コンテンツの出所や編集履歴を確認できれば、映像を受け取る際の判断材料を得やすくなる。</p>
+<p>C2PAをめぐっては、Adobe、Microsoft、BBC、Google、Meta、OpenAI、Sonyなどが関わる国際的な取り組みとして、コンテンツの透明性を高める標準化が進められている。NHK技研の来歴情報技術は、放送局が生成AI時代の情報流通にどう対応するかを示す研究成果の一つといえる。</p>
+]]></description>
+      <pubDate>Wed, 10 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、最上位「Mythos級」AIを一般提供　保護機能付き「Claude Fable 5」で危険領域はOpus 4.8に切り替え</title>
@@ -35,6 +195,31 @@
 <p>ただし、6月23日以降は、これらのサブスクリプションプランからFable 5をいったん外し、利用にはusage creditsが必要になる予定だ。容量に余裕がある場合は、追加料金なしで利用できる期間を延長する可能性もある。</p>
 ]]></description>
       <pubDate>Wed, 10 Jun 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、AI悪用サイバー攻撃832件を分析　侵入後の探索・横展開まで自動化が進行</title>
+      <link>https://ledge.ai/articles/anthropic_ai_cyber_attack_automation</link>
+      <description><![CDATA[<p>AI企業のAnthropicは2026年6月3日（現地時間）、AIを悪用したサイバー攻撃の実態を分析した調査結果を<a href="https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack">発表</a>した。2025年3月から2026年3月までに、悪意あるサイバー活動として停止したClaude関連アカウント832件を対象に、攻撃者の行動をMITRE ATT&amp;CKにマッピングした。</p>
+<p>MITRE ATT&amp;CKは、サイバー攻撃者が使う戦術や技術を体系化したフレームワークである。Anthropicは今回、13,873件の観測行動、482件のユニークなサブテクニックを分析した。対象は、攻撃手法を詳細に評価できるだけの情報があった事例に限られる。</p>
+<p>調査では、攻撃者がAIをマルウェア作成や難読化といった準備段階だけでなく、侵害後のアカウント探索、横展開、権限昇格など、より複雑な攻撃工程にも使い始めていることが示された。AIによって攻撃工程をつなぎ合わせる動きが進むなか、従来の脅威評価ではリスクを十分に捉えにくくなっているという。</p>
+<h2>マルウェア作成が最多、560件で確認</h2>
+<p>最も多く確認されたAI悪用は、攻撃能力の開発だった。832件中574件、全体の69％がMITRE ATT&amp;CKの「Develop Capabilities（能力開発）」に該当した。その大半にあたる560件では、マルウェア開発へのAI利用が確認された。</p>
+<p>攻撃者は、カスタムスクリプトの作成、DLLインジェクションの実装、検知回避のためのコード生成などにモデルを使っていた。難読化、ローカルシステムからのデータ収集、防御機能の無効化も多く見られた。現時点では、AI悪用の中心は依然として攻撃前の準備作業にある。</p>
+<p>ただし、調査期間の後半には変化も見られた。アカウント探索の出現率は8.9％増加し、自動データ流出は6.2％増加した。一方、能力開発は12％、フィッシングは8.6％減少した。単体のマルウェア作成から、実際の攻撃中に必要となる操作へと利用が移り始めている。</p>
+<h2>中リスク以上の攻撃者が33％から56％に増加</h2>
+<p>Anthropicは今回、AI Risk Enablement Score（ARiES）という独自のリスク評価手法も用いた。ARiESは、攻撃者の脅威プロファイル、モデルが有害行為に与えた寄与、観測された、または想定される影響を組み合わせ、AIが攻撃者にどれほど能力を与えたかを評価する。</p>
+<p>この評価では、中リスク以上に分類された攻撃者の割合が、調査期間の前半では約33％だったのに対し、後半では約56％に増えた。検知技術の改善が増加に影響した可能性もあるが、より運用的なネットワーク内作業をモデルに求める攻撃者が増えているという。</p>
+<h2>高リスク化の鍵は「侵入後」のAI活用</h2>
+<p>今回の調査で特に重要なのは、AIをどれだけ多くの攻撃技術に使ったかより、どの攻撃工程に使ったかがリスクを左右している点だ。</p>
+<p>横展開にAIを使った攻撃者は54件で、全体の6.5％にとどまった。しかし、これらの攻撃者の平均リスクスコアは56.4となり、全体平均の46.8を大きく上回った。横展開は、AIを使った高リスク攻撃者を見分ける最も強い指標だったという。</p>
+<p>高リスクの攻撃者は、リモートサービス、認証情報の窃取、Webシェル、内部ネットワークやアカウントの探索など、侵害後に必要となる作業でAIを多く使っていた。これらは従来、相応の技術力や経験を持つ攻撃者でなければ実行が難しい領域だった。</p>
+<p>Anthropicは、攻撃者の技術力、使用した技術の数、Claude CodeやAPI、チャットインターフェースといった利用経路だけでは、リスク水準を十分に説明できないとしている。AIが高度な作業を代行できるようになると、攻撃者自身の熟練度と攻撃の危険度が必ずしも一致しなくなるためだ。</p>
+<h2>AIが攻撃工程をつなぐ段階へ</h2>
+<p>Anthropicは、今後さらに重要になる要素として「scaffolding（スキャフォールディング）」を挙げている。これは、AIモデルの周囲に構築されるコード、ツール、アーキテクチャを指す。攻撃者がこれらを組み合わせることで、AIは単なるコード生成支援ではなく、攻撃工程を連結して実行する仕組みに近づく。</p>
+<p>同社が2025年11月に公表したサイバー諜報キャンペーンでは、攻撃者がClaude CodeをKali Linux環境やMCPサーバーと組み合わせ、偵察、脆弱性悪用、横展開、データ収集などを一連の流れとして実行させていた。</p>
+<p>今回の調査は、AIによるサイバー攻撃が「自動化されている」だけではなく、侵入後の探索や横展開といった、より危険度の高い工程へ広がりつつあることを示している。攻撃の速度と分類の枠組みの差が、新たなリスクになりつつある。</p>
+]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon、自然言語で指示できる次世代物流ロボット「Proteus」を欧州展開　100億ユーロ超投資で物流網を近代化</title>
@@ -89,198 +274,6 @@
 <p>同社は、こうした仕組みが存在するなら、他のフロンティア開発者も検証可能な形で同様に行動することを条件に、自社も減速または一時停止するとしている。AIがAI開発を補助する段階から、後継AIの設計・開発に関わる段階へ進む可能性を前に、開発速度そのものをどう統治するかが新たな論点になりつつある。</p>
 ]]></description>
       <pubDate>Mon, 08 Jun 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AI悪用サイバー攻撃832件を分析　侵入後の探索・横展開まで自動化が進行</title>
-      <link>https://ledge.ai/articles/anthropic_ai_cyber_attack_automation</link>
-      <description><![CDATA[<p>AI企業のAnthropicは2026年6月3日（現地時間）、AIを悪用したサイバー攻撃の実態を分析した調査結果を<a href="https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack">発表</a>した。2025年3月から2026年3月までに、悪意あるサイバー活動として停止したClaude関連アカウント832件を対象に、攻撃者の行動をMITRE ATT&amp;CKにマッピングした。</p>
-<p>MITRE ATT&amp;CKは、サイバー攻撃者が使う戦術や技術を体系化したフレームワークである。Anthropicは今回、13,873件の観測行動、482件のユニークなサブテクニックを分析した。対象は、攻撃手法を詳細に評価できるだけの情報があった事例に限られる。</p>
-<p>調査では、攻撃者がAIをマルウェア作成や難読化といった準備段階だけでなく、侵害後のアカウント探索、横展開、権限昇格など、より複雑な攻撃工程にも使い始めていることが示された。AIによって攻撃工程をつなぎ合わせる動きが進むなか、従来の脅威評価ではリスクを十分に捉えにくくなっているという。</p>
-<h2>マルウェア作成が最多、560件で確認</h2>
-<p>最も多く確認されたAI悪用は、攻撃能力の開発だった。832件中574件、全体の69％がMITRE ATT&amp;CKの「Develop Capabilities（能力開発）」に該当した。その大半にあたる560件では、マルウェア開発へのAI利用が確認された。</p>
-<p>攻撃者は、カスタムスクリプトの作成、DLLインジェクションの実装、検知回避のためのコード生成などにモデルを使っていた。難読化、ローカルシステムからのデータ収集、防御機能の無効化も多く見られた。現時点では、AI悪用の中心は依然として攻撃前の準備作業にある。</p>
-<p>ただし、調査期間の後半には変化も見られた。アカウント探索の出現率は8.9％増加し、自動データ流出は6.2％増加した。一方、能力開発は12％、フィッシングは8.6％減少した。単体のマルウェア作成から、実際の攻撃中に必要となる操作へと利用が移り始めている。</p>
-<h2>中リスク以上の攻撃者が33％から56％に増加</h2>
-<p>Anthropicは今回、AI Risk Enablement Score（ARiES）という独自のリスク評価手法も用いた。ARiESは、攻撃者の脅威プロファイル、モデルが有害行為に与えた寄与、観測された、または想定される影響を組み合わせ、AIが攻撃者にどれほど能力を与えたかを評価する。</p>
-<p>この評価では、中リスク以上に分類された攻撃者の割合が、調査期間の前半では約33％だったのに対し、後半では約56％に増えた。検知技術の改善が増加に影響した可能性もあるが、より運用的なネットワーク内作業をモデルに求める攻撃者が増えているという。</p>
-<h2>高リスク化の鍵は「侵入後」のAI活用</h2>
-<p>今回の調査で特に重要なのは、AIをどれだけ多くの攻撃技術に使ったかより、どの攻撃工程に使ったかがリスクを左右している点だ。</p>
-<p>横展開にAIを使った攻撃者は54件で、全体の6.5％にとどまった。しかし、これらの攻撃者の平均リスクスコアは56.4となり、全体平均の46.8を大きく上回った。横展開は、AIを使った高リスク攻撃者を見分ける最も強い指標だったという。</p>
-<p>高リスクの攻撃者は、リモートサービス、認証情報の窃取、Webシェル、内部ネットワークやアカウントの探索など、侵害後に必要となる作業でAIを多く使っていた。これらは従来、相応の技術力や経験を持つ攻撃者でなければ実行が難しい領域だった。</p>
-<p>Anthropicは、攻撃者の技術力、使用した技術の数、Claude CodeやAPI、チャットインターフェースといった利用経路だけでは、リスク水準を十分に説明できないとしている。AIが高度な作業を代行できるようになると、攻撃者自身の熟練度と攻撃の危険度が必ずしも一致しなくなるためだ。</p>
-<h2>AIが攻撃工程をつなぐ段階へ</h2>
-<p>Anthropicは、今後さらに重要になる要素として「scaffolding（スキャフォールディング）」を挙げている。これは、AIモデルの周囲に構築されるコード、ツール、アーキテクチャを指す。攻撃者がこれらを組み合わせることで、AIは単なるコード生成支援ではなく、攻撃工程を連結して実行する仕組みに近づく。</p>
-<p>同社が2025年11月に公表したサイバー諜報キャンペーンでは、攻撃者がClaude CodeをKali Linux環境やMCPサーバーと組み合わせ、偵察、脆弱性悪用、横展開、データ収集などを一連の流れとして実行させていた。</p>
-<p>今回の調査は、AIによるサイバー攻撃が「自動化されている」だけではなく、侵入後の探索や横展開といった、より危険度の高い工程へ広がりつつあることを示している。攻撃の速度と分類の枠組みの差が、新たなリスクになりつつある。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple、WWDC26で次世代Apple Intelligenceを発表　Google Gemini連携でSiri AIや画像生成を強化——個人文脈理解やアプリ横断操作に対応へ</title>
-      <link>https://ledge.ai/articles/apple_wwdc26_apple_intelligence_gemini_siri_ai</link>
-      <description><![CDATA[<p>Appleは2026年6月8日（現地時間）、年次開発者会議「WWDC26」で、GoogleおよびGeminiモデルとの協業により構築した次世代Apple Foundation Modelsを中核とする、新しいApple Intelligenceを<a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/6/13 [SAT]FutureSearch、AGI予測の変化を可視化　2026年に入り「より早く来る」方向へ再び前倒し</title>
-      <link>https://ledge.ai/articles/futuresearch_agi_timeline_tracker</link>
-      <description><![CDATA[<p>AIの開発と研究を行うFutureSearchは2026年4月12日、AIが人間の認知労働の大部分を自動化する時期について、研究者や予測者らの見通しが2023年から2026年にかけてどう変化したかをまとめた記事「<a href="https://futuresearch.ai/blog/agi-timeline-tracker/">How long until AI automates all cognitive labor?</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、拡散モデルでテキスト生成を最大4倍高速化　オープンモデル「DiffusionGemma」を公開</title>
-      <link>https://ledge.ai/articles/google_deepmind_diffusiongemma_text_diffusion</link>
-      <description><![CDATA[<p>Google DeepMindは2026年6月10日（米国時間）、テキスト生成を高速化する実験的なオープンモデル「DiffusionGemma」を<a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、音声対音声翻訳モデル「Gemini 3.5 Live Translate」発表　70以上の言語を数秒遅れで翻訳</title>
-      <link>https://ledge.ai/articles/google_gemini_3_5_live_translate</link>
-      <description><![CDATA[<p>Googleは2026年6月9日（米国時間）、ほぼリアルタイムの音声対音声翻訳に対応する音声モデル「Gemini 3.5 Live Translate」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Huawei製AIチップ 「Ascend 910C」でDeepSeek-V4-Proを後学習　中国チーム、NVIDIA依存低減につながる大規模AI訓練の成果</title>
-      <link>https://ledge.ai/articles/huawei_ascend_910c_deepseek_v4_pro_post_training</link>
-      <description><![CDATA[<p>深圳河套学院は2026年5月28日、同学院のAI訓練プラットフォームプロジェクトチームが、ハルビン工業大学（深圳）、深圳大数据研究院、Huawei関連チーム、深智城AI算力平台と連携し、HuaweiのAIチップ「Ascend 910C」を用いた中国製計算クラスタ上で、DeepSeek-V4-Proの全パラメータ後学習を安定稼働させたと<a href="https://www.slai.edu.cn/zh-hans/article/495">発表</a>した。</p>
-<p>DeepSeek-V4-Proは、DeepSeekが2026年4月に公開した大規模言語モデル「DeepSeek-V4」シリーズの上位モデルである。総パラメータ数は1.6兆、推論時に有効化されるパラメータは490億とされ、100万トークンの長文コンテキストにも対応する。今回の発表は、こうした大規模モデルの後学習を、中国製AIチップ基盤で実施した事例として位置付けられる。</p>
-<h2>約1000枚規模のAscend 910Cクラスタで1500ステップ超を実行</h2>
-<p>深圳河套学院によると、プロジェクトチームは1カ月で訓練環境を構築し、Ascend 910Cを1000枚規模で用いた計算クラスタで、DeepSeek-V4-Proの全パラメータ継続学習およびSFT（教師ありファインチューニング）を安定稼働させた。</p>
-<p>訓練は1500ステップ超にわたり実行され、skipped iterationsとNaN iterationsはいずれも0だったという。モデル演算利用率を示すMFUは30％超、主要な訓練演算子の効率は初期版から14％向上し、Ascend超节点ではMFUが34.9％で安定したとしている。</p>
-<p>同学院は、公開情報で確認できる範囲では、第三者機関が中国製計算クラスタ上でDeepSeek-V4-Proの全パラメータ後学習を完了した初の工学実践だとしている。</p>
-<h2>LoRAではなく「全パラメータ後学習」</h2>
-<p>今回のポイントは、推論や一部パラメータだけを調整する軽量な微調整ではなく、全パラメータを対象にした後学習を実施した点にある。</p>
-<p>DeepSeek-V4-Proは、必要に応じて一部の「専門家」だけを使うMoE（Mixture of Experts）構造を採用する。推論時の効率は高めやすい一方、訓練では専門家間の負荷分散やノード間通信が複雑になりやすい。さらに、1.6兆パラメータ級のモデルでは、重み、勾配、活性化、オプティマイザ状態を複数のチップに分散して扱う必要がある。</p>
-<p>プロジェクトチームは、データ並列、テンソル並列、パイプライン並列、エキスパート並列を組み合わせ、巨大モデルをクラスタ上で分散して動かす仕組みを構築した。MoEルーティング、正規化、行列計算などの主要演算子もAscend環境に合わせて最適化し、専門家負荷のリアルタイム監視と均衡化を進めたという。</p>
-<h2>数学モデリング向けSFTでも性能向上を確認</h2>
-<p>実証では、産業向けの自動化・オペレーションズリサーチ分野を想定した数学モデリング能力の強化も試みた。</p>
-<p>チームは、数学モデリングタスク向けに3000件のSFTサンプルを作成し、DeepSeek-V4-Proに後学習を実施した。深圳河套学院が示した評価では、NL4OPT、OptiBench、ORGEval Code、ORGEval WLの4指標すべてで、後学習前を上回った。たとえばNL4OPTは93.1％から95.9％、ORGEval WLは40.6％から45.7％に上昇した。</p>
-<p>同学院は、単に大規模モデルを動かせたというだけでなく、専門タスク向けに能力を高められることを示した成果だと位置付けている。</p>
-<h2>中国製AI基盤の適用範囲が訓練へ広がるか</h2>
-<p>大規模AIモデルの開発では、NVIDIA製GPUを中心とする高性能計算基盤への依存が大きい。今回の発表は、中国製AIチップを用いた計算クラスタが、推論や軽量な微調整にとどまらず、より負荷の高い全パラメータ後学習にも使われ始めていることを示すものだ。</p>
-<p>一方で、今回確認できるのは、DeepSeek-V4-Proの全パラメータ継続学習およびSFTをAscend 910Cクラスタで安定稼働させたという内容である。ゼロからの大規模事前学習をAscend 910Cだけで完了したという発表ではなく、NVIDIA製GPUを全面的に代替できることを示したものでもない。</p>
-<p>それでも、1.6兆パラメータ級のMoEモデルで後学習を実施した今回の成果は、中国のAIインフラが大規模モデルの訓練工程へ適用範囲を広げる動きとして注目される。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTT、約800億円規模の「IOWN AI Fund」組成へ　AIインフラ関連スタートアップに投資</title>
-      <link>https://ledge.ai/articles/iown_ai_fund_startup_investment</link>
-      <description><![CDATA[<p>NTT、Young Sohn氏、SK Group、中華電信、日本政策投資銀行は2026年6月10日、AI時代の先端技術に投資する「IOWN AI Fund」を組成すると<a href="https://group.ntt/jp/newsrelease/2026/06/10/260610a.html">発表</a>した。ファンド規模は約800億円（約5億ドル）となる見込み。AIインフラ関連のスタートアップに投資し、NTTが提唱する次世代情報通信基盤「IOWN」のエコシステム構築と新規事業創出をめざす。</p>
-<p>ファンドの組成にあわせ、シリコンバレーと東京を拠点とする運営会社「Catalight Capital」も設立する。グローバルな運営体制のもと、有望なスタートアップの発掘と成長支援を進める。</p>
-<h2>20社以上が出資に関心</h2>
-<p>NTTによると、IOWN AI FundにはIOWN Global Forumに参画する事業会社や日本の金融機関など、20社以上が出資参加に関心を示している。公表資料では、NTT、SK、中華電信、DBJのほか、Arm、Broadcom、Corning、富士通、KDDI、みずほ銀行、三菱UFJ銀行、NEC、Samsung、SBIグループ、Sony、三井住友銀行、Toshibaなどの社名が示されている。</p>
-<p><strong>IOWN AI Fundへの賛同を表明している企業</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/iown_ai_fund3_47a5d764b3/iown_ai_fund3_47a5d764b3.jpg" alt="iown ai fund3.jpg" /></p>
-<h2>フォトニクスや半導体、分散型AI基盤に投資</h2>
-<p>投資対象は、IOWN関連技術を中心とした幅広い領域に及ぶ。具体的には、フォトニクス技術、AI向け半導体やパッケージング、光デバイス、光電融合モジュール、冷却技術、分散型AI基盤制御、ソフトウェア、AIモデル・推論技術などが含まれる。</p>
-<p>応用領域としては、医療、製造、金融、ロボティクス、デジタルツイン、XR、AIエージェント関連サービスなどを想定する。投資ステージは、技術の実用化や事業化段階にあるミドルステージのスタートアップを中心とし、北米、アジア、欧州の企業を対象とする。</p>
-<h2>AI推論の拡大と電力制約が背景に</h2>
-<p>NTTは背景として、フィジカルAIやAgentic AIの進展により、AI活用が大規模モデルの学習中心から、リアルタイム処理や個別最適化が求められる推論利用へ広がっていると説明する。これに伴い、AI基盤も大規模データセンター中心から、エッジデータセンターを含む分散型へ移っていくとみている。</p>
-<p>一方で、AI利用の拡大は電力供給の制約も招いている。NTTは、光ネットワークで接続された分散型光AIデータセンターの需要が高まるとし、IOWN関連技術を活用してネットワーク、コンピューティング、電力を一体的に最適化する構想を描く。</p>
-<p>今回のファンドは、そうしたAIインフラの変化を見据え、世界のスタートアップ技術をIOWNエコシステムに取り込むための投資基盤となる。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NTTグループなど6社、IOWN APNとフィジカルAIでコンビナート設備点検を高度化　岡山―東京約700kmでロボット遠隔操作・異常検知を実証</title>
-      <link>https://ledge.ai/articles/iown_apn_physical_ai_chemical_plant_inspection</link>
-      <description><![CDATA[<p>NTT東日本、NTTドコモビジネス、NTTドコモソリューションズ、NTTデータグループのNTTグループ4社と、富士通グループの1FINITY、三菱ケミカルは6月1日、次世代通信基盤「IOWN APN」と60GHz帯無線LAN、フィジカルAIを組み合わせ、コンビナート設備点検の高度化を目指した実証を実施したと<a href="https://www.ntt.com/about-us/press-releases/news/article/2026/0601_2.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>文科省、AI for Science拠点に分子科学研究所を採択　ロボットとAIで24時間使える実験基盤を構築</title>
-      <link>https://ledge.ai/articles/mext_ai_for_science_smart_cloud_lab</link>
-      <description><![CDATA[<p>文部科学省は2026年6月9日、共同利用・共同研究システム形成事業「大規模集積研究システム形成先導プログラム」の採択機関を<a href="https://www.mext.go.jp/b_menu/boshu/detail/mext_00538.html">決定</a>した。採択されたのは、自然科学研究機構 分子科学研究所を中核機関とする「大規模スマートクラウドラボを基盤とするケミ・マテリアル・ライフサイエンスの変革」。ロボットやAI自律実験システムを備えた研究基盤を整備し、AI for Scienceに活用できる高品質な研究データを大規模に生み出すことを目指す。</p>
-<p><strong>文部科学省が採択した「大規模スマートクラウドラボ」構想の概要：</strong> 自動合成・測定ロボット群やAI自律実験システムを整備し、全国の研究者が場所や時間の制約を受けずに高品質な研究データを創出・活用できる環境を目指す
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/smart_lab_7b4b9bdffb/smart_lab_7b4b9bdffb.jpg" alt="smart lab.jpg" /></p>
-<h2>全国の研究者が遠隔利用できる「スマートクラウドラボ」</h2>
-<p>同プログラムは、研究設備の自動化・自律化・遠隔化によるオートメーション／クラウドラボの形成と、研究データをAI for Scienceに活用するための基盤構築を目的とする。公募には5件の申請があり、外部有識者による審査を経て1件が採択された。</p>
-<p>採択事業では、全国の研究者が場所や時間の制約を受けずにアクセスできる実験環境「インテグレーテッド・スマート・クラウド・ラボ（iLIS）」を構築する。自動合成・測定ロボット群を整備したスマートファシリティや高機能中核研究装置を高速ネットワークで統合し、遠隔自動計測／解析システム、AI自律実験システムを備える。</p>
-<p>連携機関には、生理学研究所、基礎生物学研究所、生命創成探究センター、国立情報学研究所、国立遺伝学研究所、統計数理研究所、物質構造科学研究所、東京科学大学、総合研究大学院大学、日本電気株式会社が含まれる。</p>
-<h2>AIが利用できる研究データを大量に創出</h2>
-<p>構想の焦点は、実験の遠隔化やロボット化にとどまらない。採択事業概要では、「AIで利用可能なデータを大規模に産生」することが具体的な取組内容として掲げられている。</p>
-<p>対象は、ケミ・マテリアル・ライフサイエンスの分野にまたがる。自動化・遠隔化・高機能計測、ロボティクス活用、ネガティブデータを含むリアルデータの創出により、AIが扱いやすい高品質なデータを継続的に生み出す。さらに、異なる種類のデータ間の関係性をAIが解析できる形で蓄積し、メタデータの標準化や計測データの規格化も進める。</p>
-<h2>理論研究者もクラウド上から実験を実行可能に</h2>
-<p>iLISは、全国の研究者が活用できる新しい共同利用の形として位置づけられている。構想では、理論研究者でもクラウド上から実験を実行できる環境や、対話AIを経由したインターフェースを提供することが示されている。</p>
-<p>研究者はリモートでiLISの装置群を24時間活用でき、実験結果はリアルタイムでフィードバックされる。専門性や所属機関、地域による研究環境の差を縮小し、異分野の研究者が共通基盤を通じてデータを創出・利用できる仕組みを整える。</p>
-<h2>新規創薬や機能素材開発への波及も視野</h2>
-<p>扱うデータは、電子状態から個体・集団まで幅広いスケールに及ぶ。資料では、光物性、活性・表現型、MRI画像、遺伝情報、化学構造、タンパク質、脳活動、物質物性、遺伝子などが例示されている。これらの異種データをサンプルIDを軸に結び付け、完全なトレーサビリティを確保しながら、異分野横断で再利用できる形にする。</p>
-<p>文科省は、今回の事業により、研究生産性の飛躍的向上、AI駆動型研究の加速、インクルーシブサイエンスの推進、次世代ハイブリッド人材の育成、産業界への波及と国際競争力強化といった効果を見込む。異分野間のデータをつなぐことで、新規創薬、機能素材開発、ブレインテックなどへの応用も視野に入る。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NHK技研、映像の来歴情報で“AIフェイク”対策　撮影・編集・配信履歴をC2PAで検証</title>
-      <link>https://ledge.ai/articles/nhk_provenance_information_c2pa_ai_fake_detection</link>
-      <description><![CDATA[<p>NHK放送技術研究所（NHK技研）は、2026年5月28日から31日まで開催した技術展示イベント「<a href="https://prtimes.jp/main/html/rd/p/000000049.000160617.html">技研公開2026</a>」で、映像コンテンツの撮影・編集・配信履歴を記録し、検証できる「来歴情報技術」の研究成果を展示した。</p>
-<p>ニュース映像などの出どころや制作過程を確認できるようにする技術で、生成AIによる偽情報やなりすまし動画が広がりやすい環境で、コンテンツの信頼性を判断するための手がかりを提供する。</p>
-<h2>撮影から配信までの履歴をコンテンツに付与</h2>
-<p>NHKは、インターネットやSNSの普及により偽情報・誤情報が広まりやすくなる中、安心してコンテンツを受け取れる環境の実現に向けて、映像の出どころや制作過程などを示す来歴情報技術の研究を進めている。</p>
-<p>今回の展示では、デジタルコンテンツの来歴情報を扱う国際規格「C2PA（Coalition for Content Provenance and Authenticity）」に基づき、撮影・編集から配信までの各段階で来歴情報をコンテンツに付与するワークフローを構築した。来歴情報には改ざん検知が可能なデジタル署名を組み合わせ、コンテンツがどのような過程を経て視聴者に届いたのかを確認できるようにする。</p>
-<p><strong>来歴情報技術のワークフローイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b.jpg" alt="160617-49-03153a47bce381ded7f20c9bef03e32e-3840x1689.jpg" /></p>
-<p>会場では、撮影から視聴に至るまでの放送コンテンツの制作・流通過程で、来歴情報がどのように付与され、提示されるかを紹介した。</p>
-<h2>AI生成・AI編集の有無を確認する手がかりに</h2>
-<p>C2PAは、デジタルコンテンツの出所や編集履歴を記録・検証するための技術標準である。コンテンツに付与された来歴情報を確認することで、利用者は、どの機器やソフトウェアで作成されたのか、どのような編集が加えられたのかといった情報を把握しやすくなる。</p>
-<p>生成AIの普及により、実在の人物や出来事を装った映像、文脈を変えて再利用された画像、AIで作成・加工されたコンテンツが流通しやすくなっている。来歴情報が正しく付与されたコンテンツであれば、カメラで撮影された素材なのか、生成AIやAI編集を含む素材なのかを確認する手がかりになり得る。</p>
-<p>ただし、この技術は映像そのものを解析して真偽を自動判定するものではない。来歴情報が付与されていないコンテンツや、来歴情報の付与・管理が適切に行われていないコンテンツまで万能に判別できるわけではない。AIフェイク対策としての意義は、コンテンツの内容を直接判定する点ではなく、制作・流通過程を検証可能にする点にある。</p>
-<h2>放送局のワークフローへの組み込みを想定</h2>
-<p>NHK技研の展示は、放送局の制作・配信ワークフローに来歴情報を組み込むことを想定している。撮影時点で来歴情報を付与し、編集や配信の過程でも履歴を追加していくことで、最終的に視聴者がコンテンツの来歴を確認できる仕組みを目指す。</p>
-<p>報道機関にとって、映像の真正性や制作過程を示す仕組みは、災害、事件、国際紛争など、誤情報が広がりやすい場面で重要になる。視聴者側も、コンテンツの出所や編集履歴を確認できれば、映像を受け取る際の判断材料を得やすくなる。</p>
-<p>C2PAをめぐっては、Adobe、Microsoft、BBC、Google、Meta、OpenAI、Sonyなどが関わる国際的な取り組みとして、コンテンツの透明性を高める標準化が進められている。NHK技研の来歴情報技術は、放送局が生成AI時代の情報流通にどう対応するかを示す研究成果の一つといえる。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>【アーカイブ公開】THE AI 2026 ── AI誕生70年の“現在地”を映した全セッションを、期間限定で配信</title>
-      <link>https://ledge.ai/articles/the-ai-2026_archive</link>
-      <description><![CDATA[<p>2026年6月5日、オンラインAIカンファレンス「THE AI 2026」を開催した。「AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する」をテーマに掲げ、フィジカルAIから生成AIエージェント、国産AI基盤、そして現場のロボティクスまで、いまのAIの最前線を一日で見渡す構成とした。当日は朝から夕方まで講演が途切れることなく続き、実務に直結する具体例や踏み込んだ議論が多く、各セッションは好評を博した。
-このたび、当日見逃した方や、もう一度見返したい方に向けて、全セッションのアーカイブ動画を期間限定で公開する。視聴は申込制（無料）。本記事では、各講演の見どころを当日の様子とあわせて紹介する。</p>
-<h2>開催概要</h2>
-<p><strong>イベント名</strong>：THE AI 2026
-<strong>開催日</strong>：2026年6月5日（金）
-<strong>テーマ</strong>：AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する
-<strong>形式</strong>：オンラインLIVE配信
-<strong>アーカイブ視聴</strong>：2026年6月15日〜26日の期間限定で無料
- 
-:::button
-<a href="https://ledge-the-ai-2026.studio.site/"><strong>アーカイブ視聴を申し込む</strong></a>{ target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIを「使った量」だけでは成果は測れない　Uber、AIコーディングツールに月額1500ドル上限制限、Amazonは社内AI利用ランキング閉鎖</title>
-      <link>https://ledge.ai/articles/uber_ai_coding_tool_cost_limit_amazon_kirorank_close</link>
-      <description><![CDATA[<p>Uber Technologiesが、AIコーディングツールの利用に対し、従業員1人あたり月額1500ドル（約24万円）のトークン支出上限を設けた。対象には、CursorやAnthropicのClaude Codeなどのエージェント型AIコーディングツールが含まれると、<a href="https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs">Bloomberg</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa、OpenAIと提携　AIエージェントが購入まで担う「エージェンティックコマース」で安全な決済を可能に</title>
-      <link>https://ledge.ai/articles/visa_openai_agentic_commerce_payment</link>
-      <description><![CDATA[<p>Visaは2026年6月10日（米国時間）、OpenAIとの戦略的提携を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260611-2.html">発表</a>した。AIエージェントが利用者に代わって商品やサービスの購入を支援する「エージェンティックコマース」に対応し、OpenAIのサービス上で安全なVisa決済を可能にする。</p>
-<p>発表は、米サンフランシスコで開催されたVisa Payments Forumで行われた。Visaは、自社のグローバル決済ネットワーク、認証機能、セキュリティインフラをOpenAI上の体験に提供する。開発者や加盟店は、AIエージェントによって開始されるVisa決済を受け付けやすくなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Visa_Partners_with_Open_AI_1e37a4c89e/Visa_Partners_with_Open_AI_1e37a4c89e.jpg" alt="Visa Partners with OpenAI .jpg" /></p>
-<h2>OpenAI上の体験にVisa決済を統合</h2>
-<p>今回の提携では、OpenAIのサービス上でVisaの決済機能を利用できるようにする。AIエージェントが商品やサービスの検索、比較、購入手続きの一部を担う場面で、Visaのネットワーク、トークン化、リスク管理機能を組み合わせ、安全性の高い取引を支援する。</p>
-<p>従来のAIショッピング支援は、商品を探す、候補を比較する、条件に合う選択肢を示すといった役割が中心だった。決済を伴う行動までAI体験に組み込むには、認証、承認、不正監視、利用者の権限管理が欠かせない。</p>
-<h2>利用額上限や承認要件を設定</h2>
-<p>AIエージェントによる購入では、利用者の意図しない取引や過剰な支出をどう防ぐかが重要になる。今回の仕組みでは、取引は消費者や企業が設定したガードレールの中で実行される。支出上限、承認が必要となる金額のしきい値、その他の権限レイヤーを設けることで、エージェントが作業を進める場合でも、購入者が主導権を保てるようにする。</p>
-<p>AIによって開始される取引には、Visaのグローバルネットワーク、決済トークン化、オーソリゼーション、エージェント識別、不正モニタリングのインフラが使われる。カード情報そのものをAIエージェントに渡すのではなく、トークン化された認証情報や取引ごとの承認を通じて、安全な決済を実現する構えだ。</p>
-<h2>Visa Intelligent Commerce構想の一部</h2>
-<p>OpenAIとの提携は、Visaが進める「Visa Intelligent Commerce」構想の一部でもある。Visa Intelligent Commerceは、AIエージェントによる取引に、決済認証情報、コントロール、認証、保護機能を組み込むことで、AI主導の取引を支援する取り組みだ。</p>
-<p>Visa Payments Forumでは、OpenAIとの提携に加え、AIやトークン、ステーブルコインに関する複数の発表も行われた。AI主導型コマースに向けたトークンの高度化や、不正検知と承認性能の向上を目的とした大規模トランザクションモデルも示された。</p>
-<h2>OpenAI側でもコマース基盤を整備</h2>
-<p>OpenAIは、ChatGPT上のコマース体験に向けた基盤として「<a href="https://developers.openai.com/commerce/">Agentic Commerce Protocol</a>」を整備している。Agentic Commerce Protocolは、加盟店とChatGPTユーザーをつなぐオープン標準で、構造化された商品カタログデータや在庫情報を扱い、文脈に応じた商品提示を可能にする。</p>
-<p>今回のVisaとの提携は、こうしたAIコマース体験に、決済ネットワーク側の安全対策を接続する動きといえる。AIエージェントが商品を探すだけでなく、購入を支援する段階へ進むにつれ、決済インフラ、本人確認、権限管理、不正対策の重要性は高まっている。</p>
-]]></description>
-      <pubDate>Thu, 04 Jun 2026 05:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
