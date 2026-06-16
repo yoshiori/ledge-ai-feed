@@ -5,6 +5,27 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google Cloud、AIエージェント向け知識共有フォーマット「OKF v0.1」発表　社内ナレッジをMarkdownで扱いやすく</title>
+      <link>https://ledge.ai/articles/google_cloud_open_knowledge_format_okf</link>
+      <description><![CDATA[<p>Google Cloudは2026年6月13日（現地時間）、AIエージェントが組織内の知識やデータの文脈を扱いやすくするためのオープン仕様「Open Knowledge Format（OKF）」を<a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing?hl=en">発表</a>した。</p>
+<p>OKFは、社内に散らばる業務知識やデータの説明を、AIエージェントと人間の双方が読みやすい形で表すためのフォーマットである。</p>
+<p>基盤モデルの性能が向上しても、AIエージェントが正確で実用的な結果を出すには、業務やデータに関する適切な文脈が必要になる。たとえば、社内で使われる指標の定義、データベースの列の意味、障害対応の手順、古いシステムとの関係などは、企業ごとに異なる。こうした知識がWiki、共有ドライブ、コード、データカタログ、担当者の頭の中などに分散していると、AIエージェントが業務に必要な情報を正しく参照しにくくなる。</p>
+<p>OKFは、この課題に対し、知識を特別なデータベースや専用APIではなく、プレーンなMarkdownファイルの集まりとして扱うことを提案する。Google Cloudは、OKFを「YAMLフロントマター付きのMarkdownファイルで知識を表す、ベンダー中立の形式」と<a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/README.md">説明</a>{target=”_blank”}。特定のAIエージェント、フレームワーク、モデルプロバイダー、配信システムに縛られない点が特徴だ。</p>
+<h2>人間もAIエージェントも読める知識形式</h2>
+<p>OKFでは、業務知識やデータの説明をMarkdown文書として記述する。本文は通常の文書として読めるため、人間が内容を確認しやすい。一方で、AIエージェントはその文書をそのまま文脈として読み込み、業務上の意味や関連情報をたどることができる。</p>
+<p>各ファイルには、本文に加えて、種類、関連リソース、タグ、更新日時などをYAML形式のメタデータとして付けられる。たとえば、ある売上テーブルについて、どのデータセットに属するのか、どの列が何を意味するのか、どの業務指標と関係するのかを文書として整理できる。別の文書では、APIの使い方や運用手順、参考資料へのリンクを記録することもできる。</p>
+<p>Google Cloudは、OKFの利点として、人間とAIエージェントの双方が読めること、Gitでバージョン管理できること、特定サービスにロックインされにくいこと、既存のMarkdown対応ツールと組み合わせやすいことを挙げている。Notion、Obsidian、MkDocsなどの知識管理ツールでも扱いやすく、社内ナレッジをソースコードのようにレビュー・更新していく運用にもつなげやすい。</p>
+<h2>GitHubで仕様やサンプルを公開</h2>
+<p>Google Cloudは、OKFの仕様やサンプルをGitHubで公開している。リポジトリには、OKF文書の例に加え、BigQueryデータセットからOKF文書を生成する参考実装や、OKFの内容をグラフ表示するビジュアライザーも含まれる。</p>
+<p>これらのツールは、OKFをどのように作成し、利用できるかを示すためのものだ。作成されたOKFは、知識管理ツール、検索インデックス、グラフビューア、LLMのコンテキストなどに取り込むことが想定されている。</p>
+<p>Google Cloudの<a href="https://docs.cloud.google.com/dataplex/docs/introduction">Knowledge Catalog</a>{target=”_blank”}も、OKFを取り込み、AIエージェントに提供できるよう更新された。Knowledge Catalogは、企業内のデータ資産にビジネス上の意味やガバナンス情報を与え、AIエージェントが正確な文脈を参照できるようにするデータカタログとして位置づけられている。</p>
+<h2>OKF v0.1は初期仕様、今後の拡張を想定</h2>
+<p><a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md">OKF v0.1の仕様文書</a>{target=”_blank”}では、知識をMarkdownファイルとYAMLメタデータで構成する基本ルールが示されている。現時点のOKFは完成された業界標準というより、今後の実装や利用例を通じて発展していく初期仕様である。</p>
+<p>企業でAIエージェントの導入が進むほど、モデルに何を答えさせるかだけでなく、どの知識をどの文脈で参照させるかが重要になる。OKFは、社内に蓄積されたデータや業務知識を、AIエージェントが扱いやすい形で整理するための共通形式を目指す取り組みといえる。</p>
+]]></description>
+      <pubDate>Tue, 16 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、ChatGPT広告のプライバシーポリシー更新を通知　6月22日から適用、Free／Goプランを広告表示対象に</title>
       <link>https://ledge.ai/articles/openai_chatgpt_ads_privacy_policy_update</link>
       <description><![CDATA[<p>OpenAIは2026年6月10日、ChatGPTの広告に関する情報を追加するため、プライバシーポリシーを更新したとユーザーに通知した。変更は6月22日から適用される。</p>
@@ -184,28 +205,6 @@
       <description><![CDATA[<p>中国Alibaba Groupは2026年6月3日、同社の消費者向けAIアプリ「Qwen App」のエコシステムを、第三者のAIエージェントおよびSkillに開放すると<a href="https://www.alibabacloud.com/blog/qwen-app-opens-its-ecosystem-to-third-party-agents-kfc-luckin-coffee-and-mixue-among-early-partners_603205">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 11 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NHK技研、映像の来歴情報で“AIフェイク”対策　撮影・編集・配信履歴をC2PAで検証</title>
-      <link>https://ledge.ai/articles/nhk_provenance_information_c2pa_ai_fake_detection</link>
-      <description><![CDATA[<p>NHK放送技術研究所（NHK技研）は、2026年5月28日から31日まで開催した技術展示イベント「<a href="https://prtimes.jp/main/html/rd/p/000000049.000160617.html">技研公開2026</a>」で、映像コンテンツの撮影・編集・配信履歴を記録し、検証できる「来歴情報技術」の研究成果を展示した。</p>
-<p>ニュース映像などの出どころや制作過程を確認できるようにする技術で、生成AIによる偽情報やなりすまし動画が広がりやすい環境で、コンテンツの信頼性を判断するための手がかりを提供する。</p>
-<h2>撮影から配信までの履歴をコンテンツに付与</h2>
-<p>NHKは、インターネットやSNSの普及により偽情報・誤情報が広まりやすくなる中、安心してコンテンツを受け取れる環境の実現に向けて、映像の出どころや制作過程などを示す来歴情報技術の研究を進めている。</p>
-<p>今回の展示では、デジタルコンテンツの来歴情報を扱う国際規格「C2PA（Coalition for Content Provenance and Authenticity）」に基づき、撮影・編集から配信までの各段階で来歴情報をコンテンツに付与するワークフローを構築した。来歴情報には改ざん検知が可能なデジタル署名を組み合わせ、コンテンツがどのような過程を経て視聴者に届いたのかを確認できるようにする。</p>
-<p><strong>来歴情報技術のワークフローイメージ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b/160617_49_03153a47bce381ded7f20c9bef03e32e_3840x1689_382c4f1e5b.jpg" alt="160617-49-03153a47bce381ded7f20c9bef03e32e-3840x1689.jpg" /></p>
-<p>会場では、撮影から視聴に至るまでの放送コンテンツの制作・流通過程で、来歴情報がどのように付与され、提示されるかを紹介した。</p>
-<h2>AI生成・AI編集の有無を確認する手がかりに</h2>
-<p>C2PAは、デジタルコンテンツの出所や編集履歴を記録・検証するための技術標準である。コンテンツに付与された来歴情報を確認することで、利用者は、どの機器やソフトウェアで作成されたのか、どのような編集が加えられたのかといった情報を把握しやすくなる。</p>
-<p>生成AIの普及により、実在の人物や出来事を装った映像、文脈を変えて再利用された画像、AIで作成・加工されたコンテンツが流通しやすくなっている。来歴情報が正しく付与されたコンテンツであれば、カメラで撮影された素材なのか、生成AIやAI編集を含む素材なのかを確認する手がかりになり得る。</p>
-<p>ただし、この技術は映像そのものを解析して真偽を自動判定するものではない。来歴情報が付与されていないコンテンツや、来歴情報の付与・管理が適切に行われていないコンテンツまで万能に判別できるわけではない。AIフェイク対策としての意義は、コンテンツの内容を直接判定する点ではなく、制作・流通過程を検証可能にする点にある。</p>
-<h2>放送局のワークフローへの組み込みを想定</h2>
-<p>NHK技研の展示は、放送局の制作・配信ワークフローに来歴情報を組み込むことを想定している。撮影時点で来歴情報を付与し、編集や配信の過程でも履歴を追加していくことで、最終的に視聴者がコンテンツの来歴を確認できる仕組みを目指す。</p>
-<p>報道機関にとって、映像の真正性や制作過程を示す仕組みは、災害、事件、国際紛争など、誤情報が広がりやすい場面で重要になる。視聴者側も、コンテンツの出所や編集履歴を確認できれば、映像を受け取る際の判断材料を得やすくなる。</p>
-<p>C2PAをめぐっては、Adobe、Microsoft、BBC、Google、Meta、OpenAI、Sonyなどが関わる国際的な取り組みとして、コンテンツの透明性を高める標準化が進められている。NHK技研の来歴情報技術は、放送局が生成AI時代の情報流通にどう対応するかを示す研究成果の一つといえる。</p>
-]]></description>
-      <pubDate>Wed, 10 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、最上位「Mythos級」AIを一般提供　保護機能付き「Claude Fable 5」で危険領域はOpus 4.8に切り替え</title>
