@@ -272,27 +272,6 @@
       <pubDate>Tue, 09 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub、複数のAIエージェントを管理する「GitHub Copilotアプリ」詳細発表　開発作業の実行基盤</title>
-      <link>https://ledge.ai/articles/github_copilot_app_agent_development_platform</link>
-      <description><![CDATA[<p>GitHubは2026年6月2日、デスクトップアプリ「GitHub Copilot app」の詳細を<a href="https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/">発表</a>した。同アプリは、複数のAIエージェントによる開発作業を並行して管理する「エージェントネイティブ」なデスクトップ体験として位置づけられている。GitHubはMicrosoft Build 2026で、開発者とAIエージェントが同じワークフロー上で作業するための新機能群を紹介した。</p>
-<p>GitHub Copilotアプリは、2026年5月にテクニカルプレビューとして公開された。Issue、プルリクエスト、プロンプト、過去のセッションなどから作業を開始し、コード変更のレビューやテスト、プルリクエスト作成までを一つの環境で扱う。6月2日には、既存のGitHub Copilot Pro、Pro+、Business、Enterpriseユーザー向けに対象が拡大された。</p>
-<h2>複数のAIエージェント作業を一元管理</h2>
-<p>中核となるのが、接続されたリポジトリ全体の作業を確認できる「My Work」ビューだ。開発者は、進行中のセッション、Issue、プルリクエスト、バックグラウンドの自動化を一か所で把握できる。AIエージェントの活用が広がるほど、複数の作業が並行して進み、どのタスクが実行中なのか、どこで人間の判断が必要なのかを追いにくくなる。GitHub Copilotアプリは、AIエージェントによる開発作業を管理するコントロールセンターを目指す。</p>
-<p>各セッションは、独立したgit worktree上で実行される。本番環境のバグ調査、バックログIssueの実装、レビュー対応などを並行して進めても、作業内容が互いに干渉しにくい。worktreeのセットアップやクリーンアップ、ブランチ管理はアプリ側が担う。</p>
-<p><strong>GitHub Copilotアプリ上で、Copilotがコード変更を提案する画面</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/CCR_Platform_Blog_Image_01_c56461cd1a/CCR_Platform_Blog_Image_01_c56461cd1a.webp" alt="CCRPlatform_BlogImage_01.webp" /></p>
-<h2>Canvasで作業過程を確認、サンドボックスで実行も</h2>
-<p>GitHub Copilotアプリには、エージェントの作業を可視化する「Canvas」も導入される。Canvasは、人間とAIエージェントが同じ作業面でやり取りするためのワークサーフェスだ。計画、プルリクエスト、ブラウザセッション、ターミナル、デプロイ、ダッシュボード、ワークフローの状態などを表示し、開発者は作業内容を確認しながら編集、承認、方向修正を行える。</p>
-<p>コードの実行と検証に向けて、ローカルおよびクラウドのサンドボックスも用意される。ローカルでは、Copilotがユーザーのマシン上の分離環境で動作し、ファイルシステムやネットワーク接続などへのアクセスは制限される。クラウドでは、GitHubがホストする一時的なLinux環境でセッションを実行できる。</p>
-<h2>Agent MergeでPR処理まで支援</h2>
-<p>GitHub Copilotアプリでは、プルリクエストのレビュー、チェック、マージまでを支援する「Agent Merge」も扱われる。Agent Mergeは、CIの状態、必要なレビュアー、失敗したチェックへの対応などを追跡し、条件が満たされた後のマージまでを支援する。どこまでCopilotに任せるかは、開発者が選択する。</p>
-<p>@<a href="https://youtu.be/mv6MMQ2j128?si=IHKYEU5b5z_99IVn">YouTube</a></p>
-<p>GitHubは、GitHub Copilotアプリを単体のデスクトップアプリにとどめず、アプリ、ツール、エージェントのための共通ランタイムとして拡張する方針だ。GitHub Copilot SDKを通じて、Copilotアプリと同じエージェント実行基盤を外部の開発にも広げる。</p>
-<p>GitHub Copilotは、コード補完やチャットから、Issue、プルリクエスト、レビュー、CI、マージまでをまたぐ開発ワークフロー全体へと適用範囲を広げている。GitHub Copilotアプリは、複数のAIエージェント作業を管理し、開発者が品質やポリシーを保ちながらAIエージェントを運用するための基盤として位置づけられる。</p>
-]]></description>
-      <pubDate>Tue, 09 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、AIが後継AIを作る「再帰的自己改善」に警鐘　Claudeが自社コードの8割超を作成、開発の減速・一時停止メカニズムを提言</title>
       <link>https://ledge.ai/articles/anthropic_recursive_self_improvement_ai_development_pause</link>
       <description><![CDATA[<p>Anthropicは2026年6月4日（現地時間）、AIがAI開発を加速する現状と、その先にある「再帰的自己改善（recursive self-improvement）」の可能性を論じる声明「When AI builds itself」を<a href="https://www.anthropic.com/institute/recursive-self-improvement">公開</a>した。</p>
