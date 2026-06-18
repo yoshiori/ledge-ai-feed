@@ -5,6 +5,23 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Sakana AI、初の商用プロダクト「Sakana Marlin」提供開始　最大約8時間かけて戦略調査を自律実行</title>
+      <link>https://ledge.ai/articles/sakana_marlin_autonomous_research_agent</link>
+      <description><![CDATA[<p>Sakana AIは2026年6月15日、ビジネス向けの自律型リサーチアシスタント「Sakana Marlin（サカナ・マーリン）」の<a href="https://sakana.ai/marlin-release/">提供を開始</a>した。同社初の商用プロダクトとなる。</p>
+<p>Sakana Marlinは、調査テーマを指示すると、最大約8時間にわたり自律的にリサーチを進めるAIエージェントである。仮説の立案、情報収集、検証を繰り返しながら論点を掘り下げ、最終的に構造化されたサマリースライドと数十ページの調査レポートを生成する。</p>
+<p><strong>Sakana Marlinの出力例。図表やグラフの自動生成、巻末のソース一覧作成などに対応する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marlin_release_jpn_figure_8806ec73af/marlin_release_jpn_figure_8806ec73af.png" alt="marlin-release-jpn-figure.png" /></p>
+<p>同社はSakana Marlinを、CSO（Chief Strategy Officer、最高戦略責任者）とそのチームが数週間かけて行うような戦略調査を担うためのプロダクトと位置づけている。ユーザーが最初に調査テーマを設定すると、Sakana Marlinが対話を通じて調査の狙いを精緻化する。方針が定まったあとは、人間の介入なしに調査を継続する。</p>
+<p>特徴は、即時応答ではなく、時間をかけて調査を深める点にある。Sakana Marlinは、単に情報を集約するだけではなく、複雑なビジネス環境の因果関係を整理し、経営層が検討できる戦略の選択肢として構造化することを目的としている。</p>
+<p>利用対象としては、金融機関や事業会社の経営戦略・事業企画部門、コンサルティングファーム、シンクタンク、調査会社などが想定されている。戦略立案、市場調査、リスク分析、競合分析など、日常的に高度なリサーチを必要とする業務での活用を見込む。</p>
+<p>Sakana AIによれば、Sakana Marlinは同社がこれまで蓄積してきた研究知見と実装経験を統合して開発したプロダクトである。背景には、複数のモデルを協調させて推論能力を高める「AB-MCTS」や、科学的発見のプロセスを自律化する「AI Scientist」などの研究成果がある。</p>
+<p>2026年4月からはクローズドβテストを実施した。金融機関、事業会社、コンサルティングファーム、シンクタンクなどのプロフェッショナル約300名が参加し、戦略立案、市場調査、リスク分析、競合分析といった実務で利用したという。正式リリースにあたっては、βテストで得た知見をもとに、リサーチ品質、出力フォーマット、長時間タスクの安定性を強化した。</p>
+<p>料金プランは、月額無料で使える従量課金のほか、Pro、Team、Enterpriseが用意されている。<a href="https://sakana.ai/marlin/">製品ページ</a>では、従量課金は1クレジット98円、1回の実行は100クレジット、Proは月額15万円、Teamは月額40万円、Enterpriseは個別見積もりとされている。</p>
+<p>Sakana AIは、Sakana Marlinの正式リリースを商用プロダクト展開の重要な一歩と位置づける。今後も、複数モデルの最適制御技術やエージェント技術の研究成果を取り込み、チャットサービスにとどまらないAIソリューションの開発を進めるとしている。</p>
+]]></description>
+      <pubDate>Thu, 18 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、企業向けAI導入支援の「Partner Network」発表　1億5000万ドル投資、30万人の認定コンサルタント育成へ</title>
       <link>https://ledge.ai/articles/openai_partner_network</link>
       <description><![CDATA[<p>OpenAIは2026年6月14日（米国時間）、企業におけるAI導入を支援する新たなエコシステム「OpenAI Partner Network」を<a href="https://openai.com/index/introducing-openai-partner-network/">発表</a>した。</p>
@@ -236,13 +253,6 @@
       <description><![CDATA[<p>Appleは2026年6月8日（現地時間）、年次開発者会議「WWDC26」で、GoogleおよびGeminiモデルとの協業により構築した次世代Apple Foundation Modelsを中核とする、新しいApple Intelligenceを<a href="https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 12 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、音声対音声翻訳モデル「Gemini 3.5 Live Translate」発表　70以上の言語を数秒遅れで翻訳</title>
-      <link>https://ledge.ai/articles/google_gemini_3_5_live_translate</link>
-      <description><![CDATA[<p>Googleは2026年6月9日（米国時間）、ほぼリアルタイムの音声対音声翻訳に対応する音声モデル「Gemini 3.5 Live Translate」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 12 Jun 2026 11:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIを「使った量」だけでは成果は測れない　Uber、AIコーディングツールに月額1500ドル上限制限、Amazonは社内AI利用ランキング閉鎖</title>
