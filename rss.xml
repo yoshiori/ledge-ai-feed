@@ -5,47 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
-      <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
-      <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
-<p>同機能は、文章で細かく指示するより、実際に操作を見せた方が伝えやすい作業をCodexに覚えさせるためのものだ。対象となるのは、反復的な作業、ユーザーの好みに依存する作業、手順が安定している作業などである。</p>
-<p>OpenAI Developersの公式Xアカウントも、Record &amp; Replayについて「Codexにワークフローを一度見せるだけで、スキルのように再利用できる」と説明している。Codexへの指示方法を、自然言語による説明だけでなく、実演によって補えるようにする点が今回の特徴だ。</p>
-<h2>実演した作業を、再利用できる手順に変える</h2>
-<p>利用するには、CodexアプリのPluginsから「Record a skill」を選び、Codexに必要な文脈を伝えたうえで作業を始める。Codexが記録の許可を求めた後、ユーザーはMac上で対象の作業を実演する。作業が終わったら、メニューバーやオーバーレイから記録を停止するか、Codexに完了したことを伝える。</p>
-<p>記録中、Codexは作業を学習するために必要な操作やウィンドウ内容を観察する。記録が終わると、取得したワークフローをもとに、どのような場面で使うのか、どの入力が必要なのか、どの手順をたどるのか、結果をどう確認するのかを含むスキル案を作成する。ユーザーは、そのスキルをさらに修正するようCodexに依頼することもできる。</p>
-<p>作成されたスキルは、新しいスレッドでCodexに利用を依頼できる。たとえば、アップロードするファイル、作成する作業項目、レポートの対象期間など、その回ごとに異なる値を伝えることで、Codexがスキルを再利用する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Show_Codex_a_workflow_once_b2523f3fc1/Show_Codex_a_workflow_once_b2523f3fc1.jpg" alt="Show Codex a workflow once.jpg" /></p>
-<h2>経費申請やIssue作成、動画公開などを想定</h2>
-<p>OpenAIは、Record &amp; Replayの利用例として、経費申請、駐車スペースの予約、GitHubなどで使う課題・作業項目を所定の形式で作成する作業、動画の公開、定期レポートのダウンロードなどを挙げている。</p>
-<p>Codexは作成されたスキルを、Computer Use、ブラウザ操作、接続済みプラグインなど、現在の環境で使えるツールと組み合わせて利用できる。コーディングそのものに限らず、開発周辺の定型作業や、個人・チームごとの細かな手順を再利用しやすくする機能といえる。</p>
-<h2>記録中は画面内容を観察、機微情報には注意</h2>
-<p>Record &amp; Replayは現在、対象ユーザー向けにmacOS版Codexアプリで利用できる。欧州経済領域、英国、スイスは対象外で、利用にはComputer Useが利用可能で、有効化されている必要がある。</p>
-<p>記録中は、Codexが操作とウィンドウ内容を観察する。OpenAIは、記録する作業を対象タスクに絞ること、秘密情報や機微情報の入力を避けることも求めている。便利さだけでなく、どの作業を見せるかをユーザー側で管理する必要があるという。</p>
-]]></description>
-      <pubDate>Mon, 22 Jun 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
-      <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
-      <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 22 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
-      <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
-      <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「AIエラーの喜劇」と呼ばれた法廷トラブル　双方の代理人が架空判例を引用、米連邦地裁が弁護士4人を制裁</title>
-      <link>https://ledge.ai/articles/ai_fake_cases_lawyer_sanctions</link>
-      <description><![CDATA[<p>米ミシシッピ州北部地区連邦地方裁判所は2026年6月8日、AIツールの出力を検証せず、存在しない判例を含む書面を提出したとして、双方の代理人を務めた弁護士4人に制裁を科す<a href="https://docs.justia.com/cases/federal/district-courts/mississippi/msndce/1%3A2024cv00218/50181/123/0.pdf">命令</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AI拡大への反発、雇用不安からインフラ負担へ　米データセンター計画75件・約1300億ドルが停滞、アルトマン氏は雇用悲観論を否定</title>
       <link>https://ledge.ai/articles/ai_backlash_data_center_jobs_infrastructure</link>
       <description><![CDATA[<p>AIの急速な拡大に対する社会的な反発が、雇用不安だけでなく、データセンター建設をめぐる地域政治にも広がっている。</p>
@@ -69,53 +28,28 @@
 <p>AIによる雇用不安が消えたわけではない。Reuters/Ipsosが6月10日に<a href="https://www.reuters.com/business/world-at-work/half-americans-fear-ai-could-put-someone-their-household-out-work-reutersipsos-2026-06-10/">報じた</a>別の調査では、米国人の53％が、AIによって自分または同居家族の誰かが職を失うことを懸念していると回答した。AI利用拡大への不安を示した人も73％にのぼった。</p>
 <p>データセンターへの反発も、この雇用不安と切り離されていない。Reutersは、データセンターへの懸念が、AIの急速な拡大によって労働市場が揺らぐのではないかという不安と結びついていると指摘している。</p>
 ]]></description>
-      <pubDate>Fri, 19 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sakana AI、初の商用プロダクト「Sakana Marlin」提供開始　最大約8時間かけて戦略調査を自律実行</title>
-      <link>https://ledge.ai/articles/sakana_marlin_autonomous_research_agent</link>
-      <description><![CDATA[<p>Sakana AIは2026年6月15日、ビジネス向けの自律型リサーチアシスタント「Sakana Marlin（サカナ・マーリン）」の<a href="https://sakana.ai/marlin-release/">提供を開始</a>した。同社初の商用プロダクトとなる。</p>
-<p>Sakana Marlinは、調査テーマを指示すると、最大約8時間にわたり自律的にリサーチを進めるAIエージェントである。仮説の立案、情報収集、検証を繰り返しながら論点を掘り下げ、最終的に構造化されたサマリースライドと数十ページの調査レポートを生成する。</p>
-<p><strong>Sakana Marlinの出力例。図表やグラフの自動生成、巻末のソース一覧作成などに対応する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marlin_release_jpn_figure_8806ec73af/marlin_release_jpn_figure_8806ec73af.png" alt="marlin-release-jpn-figure.png" /></p>
-<p>同社はSakana Marlinを、CSO（Chief Strategy Officer、最高戦略責任者）とそのチームが数週間かけて行うような戦略調査を担うためのプロダクトと位置づけている。ユーザーが最初に調査テーマを設定すると、Sakana Marlinが対話を通じて調査の狙いを精緻化する。方針が定まったあとは、人間の介入なしに調査を継続する。</p>
-<p>特徴は、即時応答ではなく、時間をかけて調査を深める点にある。Sakana Marlinは、単に情報を集約するだけではなく、複雑なビジネス環境の因果関係を整理し、経営層が検討できる戦略の選択肢として構造化することを目的としている。</p>
-<p>利用対象としては、金融機関や事業会社の経営戦略・事業企画部門、コンサルティングファーム、シンクタンク、調査会社などが想定されている。戦略立案、市場調査、リスク分析、競合分析など、日常的に高度なリサーチを必要とする業務での活用を見込む。</p>
-<p>Sakana AIによれば、Sakana Marlinは同社がこれまで蓄積してきた研究知見と実装経験を統合して開発したプロダクトである。背景には、複数のモデルを協調させて推論能力を高める「AB-MCTS」や、科学的発見のプロセスを自律化する「AI Scientist」などの研究成果がある。</p>
-<p>2026年4月からはクローズドβテストを実施した。金融機関、事業会社、コンサルティングファーム、シンクタンクなどのプロフェッショナル約300名が参加し、戦略立案、市場調査、リスク分析、競合分析といった実務で利用したという。正式リリースにあたっては、βテストで得た知見をもとに、リサーチ品質、出力フォーマット、長時間タスクの安定性を強化した。</p>
-<p>料金プランは、月額無料で使える従量課金のほか、Pro、Team、Enterpriseが用意されている。<a href="https://sakana.ai/marlin/">製品ページ</a>では、従量課金は1クレジット98円、1回の実行は100クレジット、Proは月額15万円、Teamは月額40万円、Enterpriseは個別見積もりとされている。</p>
-<p>Sakana AIは、Sakana Marlinの正式リリースを商用プロダクト展開の重要な一歩と位置づける。今後も、複数モデルの最適制御技術やエージェント技術の研究成果を取り込み、チャットサービスにとどまらないAIソリューションの開発を進めるとしている。</p>
+      <title>「AIエラーの喜劇」と呼ばれた法廷トラブル　双方の代理人が架空判例を引用、米連邦地裁が弁護士4人を制裁</title>
+      <link>https://ledge.ai/articles/ai_fake_cases_lawyer_sanctions</link>
+      <description><![CDATA[<p>米ミシシッピ州北部地区連邦地方裁判所は2026年6月8日、AIツールの出力を検証せず、存在しない判例を含む書面を提出したとして、双方の代理人を務めた弁護士4人に制裁を科す<a href="https://docs.justia.com/cases/federal/district-courts/mississippi/msndce/1%3A2024cv00218/50181/123/0.pdf">命令</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 18 Jun 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、企業向けAI導入支援の「Partner Network」発表　1億5000万ドル投資、30万人の認定コンサルタント育成へ</title>
-      <link>https://ledge.ai/articles/openai_partner_network</link>
-      <description><![CDATA[<p>OpenAIは2026年6月14日（米国時間）、企業におけるAI導入を支援する新たなエコシステム「OpenAI Partner Network」を<a href="https://openai.com/index/introducing-openai-partner-network/">発表</a>した。</p>
-<p>世界各地のパートナー企業が、OpenAIとともにAIソリューションを構築、販売、提供するためのプログラムである。OpenAIは同ネットワークに1億5000万ドルを投資し、2026年末までに30万人の認定コンサルタントを育成・支援する方針を示している。</p>
-<p>OpenAIは、企業がAIから価値を引き出すうえでの制約は、もはやモデル性能そのものではないとしている。重要になっているのは、適切なユースケースを見つけること、業務フローを再設計すること、既存システムと統合すること、そして組織全体で利用を定着させることだという。</p>
-<p>OpenAI Partner Networkは、こうした課題に対応するための導入支援網となる。パートナーは、顧客企業がどこでAIを活用すべきかを見極め、業務環境に合ったソリューションを構築し、企業が求める信頼性やガバナンスのもとで導入を進める役割を担う。</p>
-<p>公式ページには、Accenture、AWS、BCG、Bain &amp; Company、Capgemini、CGI、Cognizant、Infosys、McKinsey &amp; Company、PwC、Databricks、Dentsu、EY、NTT DATA、Snowflakeなどの企業が掲載されている。コンサルティング、システムインテグレーション、技術、データ基盤など、企業のAI導入に関わる幅広い領域の企業が参加する形だ。</p>
-<p>パートナー制度には、Select、Advanced、Eliteの3段階が設けられる。販売実績、技術力、共同販売への関与、導入経験などに基づいて評価される。今後は、Codex、サイバーセキュリティ、AIエージェントなどの領域で専門性を示す認定も導入する計画だという。</p>
+      <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
+      <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
+      <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 18 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、Facebook検索にAI回答機能「AI Mode」導入　公開投稿やGroups、Reelsをもとに回答</title>
-      <link>https://ledge.ai/articles/meta_facebook_ai_mode</link>
-      <description><![CDATA[<p>Metaは2026年6月15日（現地時間）、Facebook向けのAI新機能を<a href="https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/">発表</a>{target=\</p>
+      <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
+      <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
+      <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 17 Jun 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX、AIコーディングツール「Cursor」運営会社を600億ドルで買収へ　上場直後の大型AI投資</title>
-      <link>https://ledge.ai/articles/spacex_cursor_acquisition_ai_investment</link>
-      <description><![CDATA[<p>イーロン・マスク氏が率いるSpaceXは2026年6月16日（米国時間）、AIコーディングツール「Cursor」を展開する米Anysphereを600億ドル（約9兆6000億円）規模の株式交換で買収する合併契約を締結した。米証券取引委員会（SEC）に提出された<a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm">Form 8-K</a>で明らかになった。</p>
-<p>合併契約では、SpaceXの完全子会社X67 Inc.がAnysphereに吸収合併され、AnysphereはSpaceXの完全子会社として存続する。Anysphereの普通株と優先株は、SpaceXのClass A普通株を受け取る権利に転換される。取引完了には規制当局の承認などが必要で、SpaceXは2026年第3四半期中の完了を見込む。</p>
-<p>SpaceXは6月12日にNasdaqで取引を開始したばかり。同社は6月11日、Class A普通株のIPO価格を<a href="https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX_PricingAnnouncement.pdf">1株135ドル</a>に決定した。初日の取引では、<a href="https://www.wsj.com/livecoverage/spacex-ipo-stock-market-06-12-2026/card/spacex-shares-open-at-150-above-ipo-price-of-135-7ONi5jCqe7QQ5vdCr7Zv">初値150ドル</a>を付けた。</p>
-<p>SpaceXは4月時点で、Anysphereとの間で計算資源の提供と買収オプションに関する契約を結んでいた。<a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026040874/spacexukfwp.htm">投資家向け資料</a>では、ソフトウェア開発をAIの重要なユースケースと位置付け、Cursorとの連携を通じてAIモデルや関連製品の開発を進める可能性にも触れていた。</p>
-]]></description>
-      <pubDate>Wed, 17 Jun 2026 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、AIデータセンター建設へ熟練技能職を育成　1億1500万ドル投資、無料研修と就職保証</title>
@@ -138,7 +72,73 @@
 <p>AIモデルの性能競争が続くなか、データセンターの建設能力はAIサービスの供給力を左右する要素になっている。Metaの今回の施策は、AIインフラ投資を支える人材を、企業側が直接育成する取り組みとして位置付けられる。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_AWA_Carousel_03_06d1ed7615/01_AWA_Carousel_03_06d1ed7615.webp" alt="01_AWA_Carousel-03.webp" /></p>
 ]]></description>
-      <pubDate>Wed, 17 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、Facebook検索にAI回答機能「AI Mode」導入　公開投稿やGroups、Reelsをもとに回答</title>
+      <link>https://ledge.ai/articles/meta_facebook_ai_mode</link>
+      <description><![CDATA[<p>Metaは2026年6月15日（現地時間）、Facebook向けのAI新機能を<a href="https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
+      <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
+      <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
+<p>同機能は、文章で細かく指示するより、実際に操作を見せた方が伝えやすい作業をCodexに覚えさせるためのものだ。対象となるのは、反復的な作業、ユーザーの好みに依存する作業、手順が安定している作業などである。</p>
+<p>OpenAI Developersの公式Xアカウントも、Record &amp; Replayについて「Codexにワークフローを一度見せるだけで、スキルのように再利用できる」と説明している。Codexへの指示方法を、自然言語による説明だけでなく、実演によって補えるようにする点が今回の特徴だ。</p>
+<h2>実演した作業を、再利用できる手順に変える</h2>
+<p>利用するには、CodexアプリのPluginsから「Record a skill」を選び、Codexに必要な文脈を伝えたうえで作業を始める。Codexが記録の許可を求めた後、ユーザーはMac上で対象の作業を実演する。作業が終わったら、メニューバーやオーバーレイから記録を停止するか、Codexに完了したことを伝える。</p>
+<p>記録中、Codexは作業を学習するために必要な操作やウィンドウ内容を観察する。記録が終わると、取得したワークフローをもとに、どのような場面で使うのか、どの入力が必要なのか、どの手順をたどるのか、結果をどう確認するのかを含むスキル案を作成する。ユーザーは、そのスキルをさらに修正するようCodexに依頼することもできる。</p>
+<p>作成されたスキルは、新しいスレッドでCodexに利用を依頼できる。たとえば、アップロードするファイル、作成する作業項目、レポートの対象期間など、その回ごとに異なる値を伝えることで、Codexがスキルを再利用する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Show_Codex_a_workflow_once_b2523f3fc1/Show_Codex_a_workflow_once_b2523f3fc1.jpg" alt="Show Codex a workflow once.jpg" /></p>
+<h2>経費申請やIssue作成、動画公開などを想定</h2>
+<p>OpenAIは、Record &amp; Replayの利用例として、経費申請、駐車スペースの予約、GitHubなどで使う課題・作業項目を所定の形式で作成する作業、動画の公開、定期レポートのダウンロードなどを挙げている。</p>
+<p>Codexは作成されたスキルを、Computer Use、ブラウザ操作、接続済みプラグインなど、現在の環境で使えるツールと組み合わせて利用できる。コーディングそのものに限らず、開発周辺の定型作業や、個人・チームごとの細かな手順を再利用しやすくする機能といえる。</p>
+<h2>記録中は画面内容を観察、機微情報には注意</h2>
+<p>Record &amp; Replayは現在、対象ユーザー向けにmacOS版Codexアプリで利用できる。欧州経済領域、英国、スイスは対象外で、利用にはComputer Useが利用可能で、有効化されている必要がある。</p>
+<p>記録中は、Codexが操作とウィンドウ内容を観察する。OpenAIは、記録する作業を対象タスクに絞ること、秘密情報や機微情報の入力を避けることも求めている。便利さだけでなく、どの作業を見せるかをユーザー側で管理する必要があるという。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、企業向けAI導入支援の「Partner Network」発表　1億5000万ドル投資、30万人の認定コンサルタント育成へ</title>
+      <link>https://ledge.ai/articles/openai_partner_network</link>
+      <description><![CDATA[<p>OpenAIは2026年6月14日（米国時間）、企業におけるAI導入を支援する新たなエコシステム「OpenAI Partner Network」を<a href="https://openai.com/index/introducing-openai-partner-network/">発表</a>した。</p>
+<p>世界各地のパートナー企業が、OpenAIとともにAIソリューションを構築、販売、提供するためのプログラムである。OpenAIは同ネットワークに1億5000万ドルを投資し、2026年末までに30万人の認定コンサルタントを育成・支援する方針を示している。</p>
+<p>OpenAIは、企業がAIから価値を引き出すうえでの制約は、もはやモデル性能そのものではないとしている。重要になっているのは、適切なユースケースを見つけること、業務フローを再設計すること、既存システムと統合すること、そして組織全体で利用を定着させることだという。</p>
+<p>OpenAI Partner Networkは、こうした課題に対応するための導入支援網となる。パートナーは、顧客企業がどこでAIを活用すべきかを見極め、業務環境に合ったソリューションを構築し、企業が求める信頼性やガバナンスのもとで導入を進める役割を担う。</p>
+<p>公式ページには、Accenture、AWS、BCG、Bain &amp; Company、Capgemini、CGI、Cognizant、Infosys、McKinsey &amp; Company、PwC、Databricks、Dentsu、EY、NTT DATA、Snowflakeなどの企業が掲載されている。コンサルティング、システムインテグレーション、技術、データ基盤など、企業のAI導入に関わる幅広い領域の企業が参加する形だ。</p>
+<p>パートナー制度には、Select、Advanced、Eliteの3段階が設けられる。販売実績、技術力、共同販売への関与、導入経験などに基づいて評価される。今後は、Codex、サイバーセキュリティ、AIエージェントなどの領域で専門性を示す認定も導入する計画だという。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sakana AI、初の商用プロダクト「Sakana Marlin」提供開始　最大約8時間かけて戦略調査を自律実行</title>
+      <link>https://ledge.ai/articles/sakana_marlin_autonomous_research_agent</link>
+      <description><![CDATA[<p>Sakana AIは2026年6月15日、ビジネス向けの自律型リサーチアシスタント「Sakana Marlin（サカナ・マーリン）」の<a href="https://sakana.ai/marlin-release/">提供を開始</a>した。同社初の商用プロダクトとなる。</p>
+<p>Sakana Marlinは、調査テーマを指示すると、最大約8時間にわたり自律的にリサーチを進めるAIエージェントである。仮説の立案、情報収集、検証を繰り返しながら論点を掘り下げ、最終的に構造化されたサマリースライドと数十ページの調査レポートを生成する。</p>
+<p><strong>Sakana Marlinの出力例。図表やグラフの自動生成、巻末のソース一覧作成などに対応する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/marlin_release_jpn_figure_8806ec73af/marlin_release_jpn_figure_8806ec73af.png" alt="marlin-release-jpn-figure.png" /></p>
+<p>同社はSakana Marlinを、CSO（Chief Strategy Officer、最高戦略責任者）とそのチームが数週間かけて行うような戦略調査を担うためのプロダクトと位置づけている。ユーザーが最初に調査テーマを設定すると、Sakana Marlinが対話を通じて調査の狙いを精緻化する。方針が定まったあとは、人間の介入なしに調査を継続する。</p>
+<p>特徴は、即時応答ではなく、時間をかけて調査を深める点にある。Sakana Marlinは、単に情報を集約するだけではなく、複雑なビジネス環境の因果関係を整理し、経営層が検討できる戦略の選択肢として構造化することを目的としている。</p>
+<p>利用対象としては、金融機関や事業会社の経営戦略・事業企画部門、コンサルティングファーム、シンクタンク、調査会社などが想定されている。戦略立案、市場調査、リスク分析、競合分析など、日常的に高度なリサーチを必要とする業務での活用を見込む。</p>
+<p>Sakana AIによれば、Sakana Marlinは同社がこれまで蓄積してきた研究知見と実装経験を統合して開発したプロダクトである。背景には、複数のモデルを協調させて推論能力を高める「AB-MCTS」や、科学的発見のプロセスを自律化する「AI Scientist」などの研究成果がある。</p>
+<p>2026年4月からはクローズドβテストを実施した。金融機関、事業会社、コンサルティングファーム、シンクタンクなどのプロフェッショナル約300名が参加し、戦略立案、市場調査、リスク分析、競合分析といった実務で利用したという。正式リリースにあたっては、βテストで得た知見をもとに、リサーチ品質、出力フォーマット、長時間タスクの安定性を強化した。</p>
+<p>料金プランは、月額無料で使える従量課金のほか、Pro、Team、Enterpriseが用意されている。<a href="https://sakana.ai/marlin/">製品ページ</a>では、従量課金は1クレジット98円、1回の実行は100クレジット、Proは月額15万円、Teamは月額40万円、Enterpriseは個別見積もりとされている。</p>
+<p>Sakana AIは、Sakana Marlinの正式リリースを商用プロダクト展開の重要な一歩と位置づける。今後も、複数モデルの最適制御技術やエージェント技術の研究成果を取り込み、チャットサービスにとどまらないAIソリューションの開発を進めるとしている。</p>
+]]></description>
+      <pubDate>Thu, 18 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX、AIコーディングツール「Cursor」運営会社を600億ドルで買収へ　上場直後の大型AI投資</title>
+      <link>https://ledge.ai/articles/spacex_cursor_acquisition_ai_investment</link>
+      <description><![CDATA[<p>イーロン・マスク氏が率いるSpaceXは2026年6月16日（米国時間）、AIコーディングツール「Cursor」を展開する米Anysphereを600億ドル（約9兆6000億円）規模の株式交換で買収する合併契約を締結した。米証券取引委員会（SEC）に提出された<a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/spaceexplorationtechnologi.htm">Form 8-K</a>で明らかになった。</p>
+<p>合併契約では、SpaceXの完全子会社X67 Inc.がAnysphereに吸収合併され、AnysphereはSpaceXの完全子会社として存続する。Anysphereの普通株と優先株は、SpaceXのClass A普通株を受け取る権利に転換される。取引完了には規制当局の承認などが必要で、SpaceXは2026年第3四半期中の完了を見込む。</p>
+<p>SpaceXは6月12日にNasdaqで取引を開始したばかり。同社は6月11日、Class A普通株のIPO価格を<a href="https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX_PricingAnnouncement.pdf">1株135ドル</a>に決定した。初日の取引では、<a href="https://www.wsj.com/livecoverage/spacex-ipo-stock-market-06-12-2026/card/spacex-shares-open-at-150-above-ipo-price-of-135-7ONi5jCqe7QQ5vdCr7Zv">初値150ドル</a>を付けた。</p>
+<p>SpaceXは4月時点で、Anysphereとの間で計算資源の提供と買収オプションに関する契約を結んでいた。<a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026040874/spacexukfwp.htm">投資家向け資料</a>では、ソフトウェア開発をAIの重要なユースケースと位置付け、Cursorとの連携を通じてAIモデルや関連製品の開発を進める可能性にも触れていた。</p>
+]]></description>
+      <pubDate>Wed, 17 Jun 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google Cloud、AIエージェント向け知識共有フォーマット「OKF v0.1」発表　社内ナレッジをMarkdownで扱いやすく</title>
@@ -160,6 +160,13 @@
 <p>企業でAIエージェントの導入が進むほど、モデルに何を答えさせるかだけでなく、どの知識をどの文脈で参照させるかが重要になる。OKFは、社内に蓄積されたデータや業務知識を、AIエージェントが扱いやすい形で整理するための共通形式を目指す取り組みといえる。</p>
 ]]></description>
       <pubDate>Tue, 16 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon、Anthropic最新AIの安全保障リスクを米政権に指摘か　Fable 5停止の背景に浮上</title>
+      <link>https://ledge.ai/articles/amazon_anthropic_ai_security_risk_fable_5</link>
+      <description><![CDATA[<p>2026年6月13日（現地時間）、Amazon.comのCEOであるアンディ・ジャシー氏らが、Anthropicの最新AIモデルに安全保障上のリスクがあるとして、トランプ政権高官に懸念を伝えていたと、The Informationや<a href="https://www.reuters.com/business/retail-consumer/amazon-voiced-concerns-about-anthropic-ai-models-before-us-governments-crackdown-2026-06-13/">Reuters</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 15 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>文科省、AI for Science拠点に分子科学研究所を採択　ロボットとAIで24時間使える実験基盤を構築</title>
@@ -184,27 +191,6 @@
       <pubDate>Mon, 15 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Visa、OpenAIと提携　AIエージェントが購入まで担う「エージェンティックコマース」で安全な決済を可能に</title>
-      <link>https://ledge.ai/articles/visa_openai_agentic_commerce_payment</link>
-      <description><![CDATA[<p>Visaは2026年6月10日（米国時間）、OpenAIとの戦略的提携を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260611-2.html">発表</a>した。AIエージェントが利用者に代わって商品やサービスの購入を支援する「エージェンティックコマース」に対応し、OpenAIのサービス上で安全なVisa決済を可能にする。</p>
-<p>発表は、米サンフランシスコで開催されたVisa Payments Forumで行われた。Visaは、自社のグローバル決済ネットワーク、認証機能、セキュリティインフラをOpenAI上の体験に提供する。開発者や加盟店は、AIエージェントによって開始されるVisa決済を受け付けやすくなる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Visa_Partners_with_Open_AI_1e37a4c89e/Visa_Partners_with_Open_AI_1e37a4c89e.jpg" alt="Visa Partners with OpenAI .jpg" /></p>
-<h2>OpenAI上の体験にVisa決済を統合</h2>
-<p>今回の提携では、OpenAIのサービス上でVisaの決済機能を利用できるようにする。AIエージェントが商品やサービスの検索、比較、購入手続きの一部を担う場面で、Visaのネットワーク、トークン化、リスク管理機能を組み合わせ、安全性の高い取引を支援する。</p>
-<p>従来のAIショッピング支援は、商品を探す、候補を比較する、条件に合う選択肢を示すといった役割が中心だった。決済を伴う行動までAI体験に組み込むには、認証、承認、不正監視、利用者の権限管理が欠かせない。</p>
-<h2>利用額上限や承認要件を設定</h2>
-<p>AIエージェントによる購入では、利用者の意図しない取引や過剰な支出をどう防ぐかが重要になる。今回の仕組みでは、取引は消費者や企業が設定したガードレールの中で実行される。支出上限、承認が必要となる金額のしきい値、その他の権限レイヤーを設けることで、エージェントが作業を進める場合でも、購入者が主導権を保てるようにする。</p>
-<p>AIによって開始される取引には、Visaのグローバルネットワーク、決済トークン化、オーソリゼーション、エージェント識別、不正モニタリングのインフラが使われる。カード情報そのものをAIエージェントに渡すのではなく、トークン化された認証情報や取引ごとの承認を通じて、安全な決済を実現する構えだ。</p>
-<h2>Visa Intelligent Commerce構想の一部</h2>
-<p>OpenAIとの提携は、Visaが進める「Visa Intelligent Commerce」構想の一部でもある。Visa Intelligent Commerceは、AIエージェントによる取引に、決済認証情報、コントロール、認証、保護機能を組み込むことで、AI主導の取引を支援する取り組みだ。</p>
-<p>Visa Payments Forumでは、OpenAIとの提携に加え、AIやトークン、ステーブルコインに関する複数の発表も行われた。AI主導型コマースに向けたトークンの高度化や、不正検知と承認性能の向上を目的とした大規模トランザクションモデルも示された。</p>
-<h2>OpenAI側でもコマース基盤を整備</h2>
-<p>OpenAIは、ChatGPT上のコマース体験に向けた基盤として「<a href="https://developers.openai.com/commerce/">Agentic Commerce Protocol</a>」を整備している。Agentic Commerce Protocolは、加盟店とChatGPTユーザーをつなぐオープン標準で、構造化された商品カタログデータや在庫情報を扱い、文脈に応じた商品提示を可能にする。</p>
-<p>今回のVisaとの提携は、こうしたAIコマース体験に、決済ネットワーク側の安全対策を接続する動きといえる。AIエージェントが商品を探すだけでなく、購入を支援する段階へ進むにつれ、決済インフラ、本人確認、権限管理、不正対策の重要性は高まっている。</p>
-]]></description>
-      <pubDate>Mon, 15 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【アーカイブ公開】THE AI 2026 ── AI誕生70年の“現在地”を映した全セッションを、期間限定で配信</title>
       <link>https://ledge.ai/articles/the-ai-2026_archive</link>
       <description><![CDATA[<p>2026年6月5日、オンラインAIカンファレンス「THE AI 2026」を開催した。「AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する」をテーマに掲げ、フィジカルAIから生成AIエージェント、国産AI基盤、そして現場のロボティクスまで、いまのAIの最前線を一日で見渡す構成とした。当日は朝から夕方まで講演が途切れることなく続き、実務に直結する具体例や踏み込んだ議論が多く、各セッションは好評を博した。
@@ -220,30 +206,6 @@
 <a href="https://ledge-the-ai-2026.studio.site/"><strong>アーカイブ視聴を申し込む</strong></a>{ target=\</p>
 ]]></description>
       <pubDate>Sun, 14 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Huawei製AIチップ 「Ascend 910C」でDeepSeek-V4-Proを後学習　中国チーム、NVIDIA依存低減につながる大規模AI訓練の成果</title>
-      <link>https://ledge.ai/articles/huawei_ascend_910c_deepseek_v4_pro_post_training</link>
-      <description><![CDATA[<p>深圳河套学院は2026年5月28日、同学院のAI訓練プラットフォームプロジェクトチームが、ハルビン工業大学（深圳）、深圳大数据研究院、Huawei関連チーム、深智城AI算力平台と連携し、HuaweiのAIチップ「Ascend 910C」を用いた中国製計算クラスタ上で、DeepSeek-V4-Proの全パラメータ後学習を安定稼働させたと<a href="https://www.slai.edu.cn/zh-hans/article/495">発表</a>した。</p>
-<p>DeepSeek-V4-Proは、DeepSeekが2026年4月に公開した大規模言語モデル「DeepSeek-V4」シリーズの上位モデルである。総パラメータ数は1.6兆、推論時に有効化されるパラメータは490億とされ、100万トークンの長文コンテキストにも対応する。今回の発表は、こうした大規模モデルの後学習を、中国製AIチップ基盤で実施した事例として位置付けられる。</p>
-<h2>約1000枚規模のAscend 910Cクラスタで1500ステップ超を実行</h2>
-<p>深圳河套学院によると、プロジェクトチームは1カ月で訓練環境を構築し、Ascend 910Cを1000枚規模で用いた計算クラスタで、DeepSeek-V4-Proの全パラメータ継続学習およびSFT（教師ありファインチューニング）を安定稼働させた。</p>
-<p>訓練は1500ステップ超にわたり実行され、skipped iterationsとNaN iterationsはいずれも0だったという。モデル演算利用率を示すMFUは30％超、主要な訓練演算子の効率は初期版から14％向上し、Ascend超节点ではMFUが34.9％で安定したとしている。</p>
-<p>同学院は、公開情報で確認できる範囲では、第三者機関が中国製計算クラスタ上でDeepSeek-V4-Proの全パラメータ後学習を完了した初の工学実践だとしている。</p>
-<h2>LoRAではなく「全パラメータ後学習」</h2>
-<p>今回のポイントは、推論や一部パラメータだけを調整する軽量な微調整ではなく、全パラメータを対象にした後学習を実施した点にある。</p>
-<p>DeepSeek-V4-Proは、必要に応じて一部の「専門家」だけを使うMoE（Mixture of Experts）構造を採用する。推論時の効率は高めやすい一方、訓練では専門家間の負荷分散やノード間通信が複雑になりやすい。さらに、1.6兆パラメータ級のモデルでは、重み、勾配、活性化、オプティマイザ状態を複数のチップに分散して扱う必要がある。</p>
-<p>プロジェクトチームは、データ並列、テンソル並列、パイプライン並列、エキスパート並列を組み合わせ、巨大モデルをクラスタ上で分散して動かす仕組みを構築した。MoEルーティング、正規化、行列計算などの主要演算子もAscend環境に合わせて最適化し、専門家負荷のリアルタイム監視と均衡化を進めたという。</p>
-<h2>数学モデリング向けSFTでも性能向上を確認</h2>
-<p>実証では、産業向けの自動化・オペレーションズリサーチ分野を想定した数学モデリング能力の強化も試みた。</p>
-<p>チームは、数学モデリングタスク向けに3000件のSFTサンプルを作成し、DeepSeek-V4-Proに後学習を実施した。深圳河套学院が示した評価では、NL4OPT、OptiBench、ORGEval Code、ORGEval WLの4指標すべてで、後学習前を上回った。たとえばNL4OPTは93.1％から95.9％、ORGEval WLは40.6％から45.7％に上昇した。</p>
-<p>同学院は、単に大規模モデルを動かせたというだけでなく、専門タスク向けに能力を高められることを示した成果だと位置付けている。</p>
-<h2>中国製AI基盤の適用範囲が訓練へ広がるか</h2>
-<p>大規模AIモデルの開発では、NVIDIA製GPUを中心とする高性能計算基盤への依存が大きい。今回の発表は、中国製AIチップを用いた計算クラスタが、推論や軽量な微調整にとどまらず、より負荷の高い全パラメータ後学習にも使われ始めていることを示すものだ。</p>
-<p>一方で、今回確認できるのは、DeepSeek-V4-Proの全パラメータ継続学習およびSFTをAscend 910Cクラスタで安定稼働させたという内容である。ゼロからの大規模事前学習をAscend 910Cだけで完了したという発表ではなく、NVIDIA製GPUを全面的に代替できることを示したものでもない。</p>
-<p>それでも、1.6兆パラメータ級のMoEモデルで後学習を実施した今回の成果は、中国のAIインフラが大規模モデルの訓練工程へ適用範囲を広げる動きとして注目される。</p>
-]]></description>
-      <pubDate>Sat, 13 Jun 2026 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
