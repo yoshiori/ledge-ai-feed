@@ -5,6 +5,26 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
+      <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
+      <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
+<p>同機能は、文章で細かく指示するより、実際に操作を見せた方が伝えやすい作業をCodexに覚えさせるためのものだ。対象となるのは、反復的な作業、ユーザーの好みに依存する作業、手順が安定している作業などである。</p>
+<p>OpenAI Developersの公式Xアカウントも、Record &amp; Replayについて「Codexにワークフローを一度見せるだけで、スキルのように再利用できる」と説明している。Codexへの指示方法を、自然言語による説明だけでなく、実演によって補えるようにする点が今回の特徴だ。</p>
+<h2>実演した作業を、再利用できる手順に変える</h2>
+<p>利用するには、CodexアプリのPluginsから「Record a skill」を選び、Codexに必要な文脈を伝えたうえで作業を始める。Codexが記録の許可を求めた後、ユーザーはMac上で対象の作業を実演する。作業が終わったら、メニューバーやオーバーレイから記録を停止するか、Codexに完了したことを伝える。</p>
+<p>記録中、Codexは作業を学習するために必要な操作やウィンドウ内容を観察する。記録が終わると、取得したワークフローをもとに、どのような場面で使うのか、どの入力が必要なのか、どの手順をたどるのか、結果をどう確認するのかを含むスキル案を作成する。ユーザーは、そのスキルをさらに修正するようCodexに依頼することもできる。</p>
+<p>作成されたスキルは、新しいスレッドでCodexに利用を依頼できる。たとえば、アップロードするファイル、作成する作業項目、レポートの対象期間など、その回ごとに異なる値を伝えることで、Codexがスキルを再利用する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Show_Codex_a_workflow_once_b2523f3fc1/Show_Codex_a_workflow_once_b2523f3fc1.jpg" alt="Show Codex a workflow once.jpg" /></p>
+<h2>経費申請やIssue作成、動画公開などを想定</h2>
+<p>OpenAIは、Record &amp; Replayの利用例として、経費申請、駐車スペースの予約、GitHubなどで使う課題・作業項目を所定の形式で作成する作業、動画の公開、定期レポートのダウンロードなどを挙げている。</p>
+<p>Codexは作成されたスキルを、Computer Use、ブラウザ操作、接続済みプラグインなど、現在の環境で使えるツールと組み合わせて利用できる。コーディングそのものに限らず、開発周辺の定型作業や、個人・チームごとの細かな手順を再利用しやすくする機能といえる。</p>
+<h2>記録中は画面内容を観察、機微情報には注意</h2>
+<p>Record &amp; Replayは現在、対象ユーザー向けにmacOS版Codexアプリで利用できる。欧州経済領域、英国、スイスは対象外で、利用にはComputer Useが利用可能で、有効化されている必要がある。</p>
+<p>記録中は、Codexが操作とウィンドウ内容を観察する。OpenAIは、記録する作業を対象タスクに絞ること、秘密情報や機微情報の入力を避けることも求めている。便利さだけでなく、どの作業を見せるかをユーザー側で管理する必要があるという。</p>
+]]></description>
+      <pubDate>Mon, 22 Jun 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
       <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
       <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
