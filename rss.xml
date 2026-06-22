@@ -38,6 +38,25 @@
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ChatGPT広告、日本でパイロット運用　電通デジタルとHakuhodo DY ONEが取り扱い開始</title>
+      <link>https://ledge.ai/articles/chatgpt_ads_japan_pilot</link>
+      <description><![CDATA[<p>電通デジタルとHakuhodo DY ONEは2026年6月18日、OpenAIのAIサービス「ChatGPT」における広告パイロットについて、それぞれ国内ローンチパートナーとして取り扱いを開始したと発表した。ChatGPT上での広告体験を検証する動きが、日本のデジタルマーケティング領域でも始まる。</p>
+<h2>国内2社がローンチパートナーとして取り扱い</h2>
+<p><a href="https://www.dentsudigital.co.jp/sites/default/files/release/2026-06/DD2026_330_0618.pdf">電通デジタル</a>は、OpenAIとdentsu Japanの戦略的連携に続き、ChatGPTにおける広告の日本展開に向けたパイロット運用を開始するとした。同社によると、クライアント企業はChatGPTの広告体験や新たな顧客接点の可能性を検証できるようになる。電通デジタルは国内ローンチパートナーとして、活用方針策定や効果検証から導入・実装までを一貫して支援する。</p>
+<p><a href="https://www.hakuhodody-holdings.co.jp/news/corporate/202606180000-2.pdf">Hakuhodo DY ONE</a>も同日、OpenAIが提供するChatGPTにおける広告パイロットの取り扱いを、国内で先行して開始したと発表した。2026年6月にChatGPTの広告パイロットが日本で開始されたことを受け、国内ローンチパートナーとして取り扱い体制を構築したという。同社は、検索行動の先にある「対話」を新たなタッチポイントとして、企業のデジタルマーケティングを支援するとしている。</p>
+<h2>広告は回答とは分離、広告主に会話内容は共有されない</h2>
+<p>OpenAIは2026年5月7日の<a href="https://openai.com/ja-JP/index/testing-ads-in-chatgpt/">更新</a>で、ChatGPT広告パイロットを英国、メキシコ、ブラジル、日本、韓国に拡大する計画を示していた。OpenAIのヘルプセンターでは、広告は現在、オーストラリア、カナダ、日本、ニュージーランド、韓国、英国、米国で展開されており、テスト拡大に伴い提供状況は変わる可能性があると説明している。</p>
+<p><strong>ChatGPT広告の表示イメージ。回答とは分離され、スポンサー表示付きの広告カードとして表示される</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/10_430b06e23b/10_430b06e23b.webp" alt="10.webp" /></p>
+<p>ChatGPT広告は、ChatGPTの回答とは分離して表示される。OpenAIは、広告がChatGPTの回答に影響を与えることはなく、広告主が回答を形成、順位付け、変更することもできないと説明している。広告はスポンサー表示として明確にラベル付けされ、回答の下に表示される場合がある。</p>
+<p>プライバシー面についても、OpenAIは広告主にユーザーの会話内容、チャット履歴、メモリ、個人情報を共有しないとしている。広告主が受け取るのは、表示回数やクリック数など、広告の成果に関する集計された非識別情報に限られる。</p>
+<h2>対象はFreeとGo、PlusやProには表示されない</h2>
+<p>広告表示の対象は、FreeおよびGoプランのユーザーである。Plus、Pro、Business、Enterprise、Eduアカウントには広告は表示されない。またテスト中は、ユーザーが18歳未満であると申告した、またはOpenAIが18歳未満と推定したアカウントには広告を表示しないとしている。</p>
+<p>従来の検索広告は、キーワード検索を起点に広告接点を作ってきた。一方、ChatGPT広告では、ユーザーがAIとの対話を通じて情報を探し、比較し、理解する流れの中に広告が表示される。現時点ではパイロット運用であり、表示形式や広告主側の活用方法は、今後の検証を通じて調整されていくとみられる。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
       <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
       <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
@@ -48,29 +67,6 @@
       <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
       <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
       <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、AIデータセンター建設へ熟練技能職を育成　1億1500万ドル投資、無料研修と就職保証</title>
-      <link>https://ledge.ai/articles/meta_ai_datacenter_workforce_academy</link>
-      <description><![CDATA[<p>Metaは2026年6月8日、AIデータセンター建設を支える熟練技能職の育成プログラム「America’s Workforce Academy（AWA）」を開始すると<a href="https://about.fb.com/news/2026/06/americas-workforce-academy-free-skilled-trade-training/">発表</a>した。初年度に1億1500万ドル（約180億円）を投じ、参加者には無料で研修を提供する。卒業生には就職を保証し、電気工事、機械設備、配管など、需要の高い分野で業界標準の資格取得を支援する。</p>
-<h2>初年度1億1500万ドルを投じ、参加者は無料</h2>
-<p>AWAは、熟練技能職で長期的なキャリアを築くための全米規模の研修プログラムである。Metaは同プログラムについて、参加者が学習中も支援を受けられ、卒業後には仕事が保証される仕組みだと説明している。2026年のパイロット地域は、ルイジアナ州、オハイオ州、インディアナ州、テキサス州となる。</p>
-<p>対象となるのは、退役軍人、卒業直後の人、転職希望者、熟練技能職への新規参入者など。事前経験は不要で、Metaが授業料に加え、航空券、宿泊費、研修中の日当も負担する。参加者は費用面の負担を抑えながら、建設・設備関連の職種に進むための訓練を受けられる。</p>
-<h2>NCCER資格と独自証明書を取得</h2>
-<p>卒業生は、National Center for Construction Education and Research（NCCER）の認定資格と、America’s Workforce Certificateを取得する。Metaはこれらの資格について、雇用主や業界をまたいで活用できるものだとしている。</p>
-<p>対象分野には、電気工事、機械設備、配管が含まれる。Metaの公式プログラムページでは、米国の労働市場ではファイバー技術者、溶接工、配管工、電気技師など、数十万人規模の熟練技能職が必要とされていると説明している。</p>
-<p><strong>America’s Workforce Academyでは、電気工事、機械設備、配管などの分野で業界標準の資格取得を支援する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/_49472c587c/_49472c587c.webp" alt="ダウンロード.webp" /></p>
-<h2>AIインフラ建設を支える人材確保へ</h2>
-<p>発表は、AI開発に必要なデータセンター建設が、半導体や電力だけでなく、建設・設備・通信インフラの人材需要にも広がっていることを示す動きといえる。</p>
-<p>Metaでデータセンター担当バイスプレジデントを務めるRachel Peterson氏は、同社が現在構築しているAIインフラを実現するには大規模な労働力が必要だと説明している。電気技師、機械系技術者、ファイバー技術者などの熟練技能職に対し、明確でアクセスしやすいキャリアの入口を作る取り組みとして、AWAを位置付けた。</p>
-<p>Metaは、National Urban League、Associated Builders and Contractors、CBREなどと提携してAWAを運営する。CBREは候補者の受け入れから資格確認、実地研修までを担い、MetaのAIインフラ構築を支える熟練技能職の採用・育成・配置に関わるとしている。</p>
-<h2>先行プログラムには7日間で3万5000件の応募</h2>
-<p>AWAは、Metaが先行して実施したファイバー設置技術者向け研修「Level-Up」の需要を受けて立ち上げられた。Level-Upには開始から7日間で3万5000件の応募があったという。</p>
-<p>AIモデルの性能競争が続くなか、データセンターの建設能力はAIサービスの供給力を左右する要素になっている。Metaの今回の施策は、AIインフラ投資を支える人材を、企業側が直接育成する取り組みとして位置付けられる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/01_AWA_Carousel_03_06d1ed7615/01_AWA_Carousel_03_06d1ed7615.webp" alt="01_AWA_Carousel-03.webp" /></p>
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
