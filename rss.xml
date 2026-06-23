@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
+      <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
+      <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
+<p>同機能は、文章で細かく指示するより、実際に操作を見せた方が伝えやすい作業をCodexに覚えさせるためのものだ。対象となるのは、反復的な作業、ユーザーの好みに依存する作業、手順が安定している作業などである。</p>
+<p>OpenAI Developersの公式Xアカウントも、Record &amp; Replayについて「Codexにワークフローを一度見せるだけで、スキルのように再利用できる」と説明している。Codexへの指示方法を、自然言語による説明だけでなく、実演によって補えるようにする点が今回の特徴だ。</p>
+<h2>実演した作業を、再利用できる手順に変える</h2>
+<p>利用するには、CodexアプリのPluginsから「Record a skill」を選び、Codexに必要な文脈を伝えたうえで作業を始める。Codexが記録の許可を求めた後、ユーザーはMac上で対象の作業を実演する。作業が終わったら、メニューバーやオーバーレイから記録を停止するか、Codexに完了したことを伝える。</p>
+<p>記録中、Codexは作業を学習するために必要な操作やウィンドウ内容を観察する。記録が終わると、取得したワークフローをもとに、どのような場面で使うのか、どの入力が必要なのか、どの手順をたどるのか、結果をどう確認するのかを含むスキル案を作成する。ユーザーは、そのスキルをさらに修正するようCodexに依頼することもできる。</p>
+<p>作成されたスキルは、新しいスレッドでCodexに利用を依頼できる。たとえば、アップロードするファイル、作成する作業項目、レポートの対象期間など、その回ごとに異なる値を伝えることで、Codexがスキルを再利用する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Show_Codex_a_workflow_once_b2523f3fc1/Show_Codex_a_workflow_once_b2523f3fc1.jpg" alt="Show Codex a workflow once.jpg" /></p>
+<h2>経費申請やIssue作成、動画公開などを想定</h2>
+<p>OpenAIは、Record &amp; Replayの利用例として、経費申請、駐車スペースの予約、GitHubなどで使う課題・作業項目を所定の形式で作成する作業、動画の公開、定期レポートのダウンロードなどを挙げている。</p>
+<p>Codexは作成されたスキルを、Computer Use、ブラウザ操作、接続済みプラグインなど、現在の環境で使えるツールと組み合わせて利用できる。コーディングそのものに限らず、開発周辺の定型作業や、個人・チームごとの細かな手順を再利用しやすくする機能といえる。</p>
+<h2>記録中は画面内容を観察、機微情報には注意</h2>
+<p>Record &amp; Replayは現在、対象ユーザー向けにmacOS版Codexアプリで利用できる。欧州経済領域、英国、スイスは対象外で、利用にはComputer Useが利用可能で、有効化されている必要がある。</p>
+<p>記録中は、Codexが操作とウィンドウ内容を観察する。OpenAIは、記録する作業を対象タスクに絞ること、秘密情報や機微情報の入力を避けることも求めている。便利さだけでなく、どの作業を見せるかをユーザー側で管理する必要があるという。</p>
+]]></description>
+      <pubDate>Mon, 22 Jun 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
+      <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
+      <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 22 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI拡大への反発、雇用不安からインフラ負担へ　米データセンター計画75件・約1300億ドルが停滞、アルトマン氏は雇用悲観論を否定</title>
       <link>https://ledge.ai/articles/ai_backlash_data_center_jobs_infrastructure</link>
       <description><![CDATA[<p>AIの急速な拡大に対する社会的な反発が、雇用不安だけでなく、データセンター建設をめぐる地域政治にも広がっている。</p>
@@ -57,13 +84,6 @@
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
-      <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
-      <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
       <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
       <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
@@ -78,26 +98,6 @@
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
-      <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
-      <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
-<p>同機能は、文章で細かく指示するより、実際に操作を見せた方が伝えやすい作業をCodexに覚えさせるためのものだ。対象となるのは、反復的な作業、ユーザーの好みに依存する作業、手順が安定している作業などである。</p>
-<p>OpenAI Developersの公式Xアカウントも、Record &amp; Replayについて「Codexにワークフローを一度見せるだけで、スキルのように再利用できる」と説明している。Codexへの指示方法を、自然言語による説明だけでなく、実演によって補えるようにする点が今回の特徴だ。</p>
-<h2>実演した作業を、再利用できる手順に変える</h2>
-<p>利用するには、CodexアプリのPluginsから「Record a skill」を選び、Codexに必要な文脈を伝えたうえで作業を始める。Codexが記録の許可を求めた後、ユーザーはMac上で対象の作業を実演する。作業が終わったら、メニューバーやオーバーレイから記録を停止するか、Codexに完了したことを伝える。</p>
-<p>記録中、Codexは作業を学習するために必要な操作やウィンドウ内容を観察する。記録が終わると、取得したワークフローをもとに、どのような場面で使うのか、どの入力が必要なのか、どの手順をたどるのか、結果をどう確認するのかを含むスキル案を作成する。ユーザーは、そのスキルをさらに修正するようCodexに依頼することもできる。</p>
-<p>作成されたスキルは、新しいスレッドでCodexに利用を依頼できる。たとえば、アップロードするファイル、作成する作業項目、レポートの対象期間など、その回ごとに異なる値を伝えることで、Codexがスキルを再利用する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Show_Codex_a_workflow_once_b2523f3fc1/Show_Codex_a_workflow_once_b2523f3fc1.jpg" alt="Show Codex a workflow once.jpg" /></p>
-<h2>経費申請やIssue作成、動画公開などを想定</h2>
-<p>OpenAIは、Record &amp; Replayの利用例として、経費申請、駐車スペースの予約、GitHubなどで使う課題・作業項目を所定の形式で作成する作業、動画の公開、定期レポートのダウンロードなどを挙げている。</p>
-<p>Codexは作成されたスキルを、Computer Use、ブラウザ操作、接続済みプラグインなど、現在の環境で使えるツールと組み合わせて利用できる。コーディングそのものに限らず、開発周辺の定型作業や、個人・チームごとの細かな手順を再利用しやすくする機能といえる。</p>
-<h2>記録中は画面内容を観察、機微情報には注意</h2>
-<p>Record &amp; Replayは現在、対象ユーザー向けにmacOS版Codexアプリで利用できる。欧州経済領域、英国、スイスは対象外で、利用にはComputer Useが利用可能で、有効化されている必要がある。</p>
-<p>記録中は、Codexが操作とウィンドウ内容を観察する。OpenAIは、記録する作業を対象タスクに絞ること、秘密情報や機微情報の入力を避けることも求めている。便利さだけでなく、どの作業を見せるかをユーザー側で管理する必要があるという。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、企業向けAI導入支援の「Partner Network」発表　1億5000万ドル投資、30万人の認定コンサルタント育成へ</title>
       <link>https://ledge.ai/articles/openai_partner_network</link>
       <description><![CDATA[<p>OpenAIは2026年6月14日（米国時間）、企業におけるAI導入を支援する新たなエコシステム「OpenAI Partner Network」を<a href="https://openai.com/index/introducing-openai-partner-network/">発表</a>した。</p>
@@ -106,6 +106,23 @@
 <p>OpenAI Partner Networkは、こうした課題に対応するための導入支援網となる。パートナーは、顧客企業がどこでAIを活用すべきかを見極め、業務環境に合ったソリューションを構築し、企業が求める信頼性やガバナンスのもとで導入を進める役割を担う。</p>
 <p>公式ページには、Accenture、AWS、BCG、Bain &amp; Company、Capgemini、CGI、Cognizant、Infosys、McKinsey &amp; Company、PwC、Databricks、Dentsu、EY、NTT DATA、Snowflakeなどの企業が掲載されている。コンサルティング、システムインテグレーション、技術、データ基盤など、企業のAI導入に関わる幅広い領域の企業が参加する形だ。</p>
 <p>パートナー制度には、Select、Advanced、Eliteの3段階が設けられる。販売実績、技術力、共同販売への関与、導入経験などに基づいて評価される。今後は、Codex、サイバーセキュリティ、AIエージェントなどの領域で専門性を示す認定も導入する計画だという。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>【アーカイブ公開】THE AI 2026 ── AI誕生70年の“現在地”を映した全セッションを、期間限定で配信</title>
+      <link>https://ledge.ai/articles/the-ai-2026_archive</link>
+      <description><![CDATA[<p>2026年6月5日、オンラインAIカンファレンス「THE AI 2026」を開催した。「AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する」をテーマに掲げ、フィジカルAIから生成AIエージェント、国産AI基盤、そして現場のロボティクスまで、いまのAIの最前線を一日で見渡す構成とした。当日は朝から夕方まで講演が途切れることなく続き、実務に直結する具体例や踏み込んだ議論が多く、各セッションは好評を博した。
+このたび、当日見逃した方や、もう一度見返したい方に向けて、全セッションのアーカイブ動画を期間限定で公開する。視聴は申込制（無料）。本記事では、各講演の見どころを当日の様子とあわせて紹介する。</p>
+<h2>開催概要</h2>
+<p><strong>イベント名</strong>：THE AI 2026
+<strong>開催日</strong>：2026年6月5日（金）
+<strong>テーマ</strong>：AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する
+<strong>形式</strong>：オンラインLIVE配信
+<strong>アーカイブ視聴</strong>：2026年6月15日〜26日の期間限定で無料
+ 
+:::button
+<a href="https://ledge-the-ai-2026.studio.site/"><strong>アーカイブ視聴を申し込む</strong></a>{ target=\</p>
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
@@ -158,13 +175,6 @@
       <pubDate>Tue, 16 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Amazon、Anthropic最新AIの安全保障リスクを米政権に指摘か　Fable 5停止の背景に浮上</title>
-      <link>https://ledge.ai/articles/amazon_anthropic_ai_security_risk_fable_5</link>
-      <description><![CDATA[<p>2026年6月13日（現地時間）、Amazon.comのCEOであるアンディ・ジャシー氏らが、Anthropicの最新AIモデルに安全保障上のリスクがあるとして、トランプ政権高官に懸念を伝えていたと、The Informationや<a href="https://www.reuters.com/business/retail-consumer/amazon-voiced-concerns-about-anthropic-ai-models-before-us-governments-crackdown-2026-06-13/">Reuters</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 15 Jun 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>文科省、AI for Science拠点に分子科学研究所を採択　ロボットとAIで24時間使える実験基盤を構築</title>
       <link>https://ledge.ai/articles/mext_ai_for_science_smart_cloud_lab</link>
       <description><![CDATA[<p>文部科学省は2026年6月9日、共同利用・共同研究システム形成事業「大規模集積研究システム形成先導プログラム」の採択機関を<a href="https://www.mext.go.jp/b_menu/boshu/detail/mext_00538.html">決定</a>した。採択されたのは、自然科学研究機構 分子科学研究所を中核機関とする「大規模スマートクラウドラボを基盤とするケミ・マテリアル・ライフサイエンスの変革」。ロボットやAI自律実験システムを備えた研究基盤を整備し、AI for Scienceに活用できる高品質な研究データを大規模に生み出すことを目指す。</p>
@@ -185,23 +195,6 @@
 <p>文科省は、今回の事業により、研究生産性の飛躍的向上、AI駆動型研究の加速、インクルーシブサイエンスの推進、次世代ハイブリッド人材の育成、産業界への波及と国際競争力強化といった効果を見込む。異分野間のデータをつなぐことで、新規創薬、機能素材開発、ブレインテックなどへの応用も視野に入る。</p>
 ]]></description>
       <pubDate>Mon, 15 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>【アーカイブ公開】THE AI 2026 ── AI誕生70年の“現在地”を映した全セッションを、期間限定で配信</title>
-      <link>https://ledge.ai/articles/the-ai-2026_archive</link>
-      <description><![CDATA[<p>2026年6月5日、オンラインAIカンファレンス「THE AI 2026」を開催した。「AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する」をテーマに掲げ、フィジカルAIから生成AIエージェント、国産AI基盤、そして現場のロボティクスまで、いまのAIの最前線を一日で見渡す構成とした。当日は朝から夕方まで講演が途切れることなく続き、実務に直結する具体例や踏み込んだ議論が多く、各セッションは好評を博した。
-このたび、当日見逃した方や、もう一度見返したい方に向けて、全セッションのアーカイブ動画を期間限定で公開する。視聴は申込制（無料）。本記事では、各講演の見どころを当日の様子とあわせて紹介する。</p>
-<h2>開催概要</h2>
-<p><strong>イベント名</strong>：THE AI 2026
-<strong>開催日</strong>：2026年6月5日（金）
-<strong>テーマ</strong>：AI誕生70年の現在地 ── 技術融合と領域拡張で未来を演算する
-<strong>形式</strong>：オンラインLIVE配信
-<strong>アーカイブ視聴</strong>：2026年6月15日〜26日の期間限定で無料
- 
-:::button
-<a href="https://ledge-the-ai-2026.studio.site/"><strong>アーカイブ視聴を申し込む</strong></a>{ target=\</p>
-]]></description>
-      <pubDate>Sun, 14 Jun 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
