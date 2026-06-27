@@ -50,7 +50,7 @@
       <pubDate>Mon, 22 Jun 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/6/22 [MON]Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
+      <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
       <link>https://ledge.ai/articles/claude_code_usage_expertise</link>
       <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
 ]]></description>
@@ -117,6 +117,26 @@
       <title>Google、Gemini 3.5 Flashに画面操作機能「Computer Use」を統合　ブラウザ・モバイル・デスクトップ操作に対応</title>
       <link>https://ledge.ai/articles/google_gemini_3_5_flash_computer_use_integration</link>
       <description><![CDATA[<p>Googleは2026年6月24日（現地時間）、AIモデル「Gemini 3.5 Flash」で、AIエージェントがコンピュータ画面を認識し、クリックやキーボード入力などの操作を生成する「Computer Use」を組み込みツールとして利用できるようにしたと<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
+      <link>https://ledge.ai/articles/ibm_1nm_chip_nanostack</link>
+      <description><![CDATA[<p>IBMは2026年6月25日（現地時間）、世界初を謳う1nm未満世代の半導体チップ技術を<a href="https://jp.newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">発表</a>した。0.7nm、すなわち7オングストローム・ノードにおけるトランジスター・アーキテクチャを特徴とし、爪ほどのサイズのチップに約1000億個のトランジスターを集積する。</p>
+<p>同技術では、3Dチップ構造「ナノスタック」を採用する。IBMは、2021年に発表した2nmチップと比べてほぼ2倍の密度を実現し、2nmノード・チップ比で最大50％の性能向上、または最大70％のエネルギー効率向上が見込まれるとしている。生成AIやクラウドインフラなど、計算需要が増大する領域での応用が想定される。</p>
+<h2>爪サイズに約1000億個のトランジスター</h2>
+<p>今回の発表は、商用製品の発売ではなく、次世代半導体に向けたチップ技術とトランジスター・アーキテクチャの発表である。半導体分野で使われる「nm」は、現在ではチップ内の部品寸法をそのまま表すものではなく、製造技術の世代を示す呼び方として使われている。1nm未満世代のチップ技術も、チップ内の構造が一律に1nm未満で作られていることを意味しない。</p>
+<p>IBMの新技術では、爪ほどのサイズのチップ上に約1000億個のトランジスターを集積する。限られた面積により多くのトランジスターを載せることは、スマートフォンやPC、サーバー、通信機器、重要インフラなどの性能と省電力化に直結する。</p>
+<h2>3D構造「ナノスタック」で縦方向に積層</h2>
+<p>技術の中核にあるのが、IBMが開発した3Dチップ・アーキテクチャ「ナノスタック」である。従来のように平面方向へ小さくするだけでなく、トランジスターを垂直方向に積層し、水平方向にもずらして配置することで、同じ面積により多くのトランジスターを載せる。</p>
+<p><strong>IBMの1nm未満世代チップ技術を示す断面画像。右図ではシリコン原子15列のスケールが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IBM_Research_TEM_4_1f45c03e3e/IBM_Research_TEM_4_1f45c03e3e.jpg" alt="IBM-Research_TEM_4.jpg" /></p>
+<p>IBM Researchは、7オングストローム設計について、ウェハー接合、SRAMスケーリング、チャネル材料の革新など、複数の技術的な進展によって実現したと<a href="https://research.ibm.com/blog/sub-1nm-node-chips">説明</a>している。積層された各層で異なる材料を使えるため、トランジスターごとに性能と電力効率を最適化しやすくなる。</p>
+<h2>AI計算基盤の高密度化へ</h2>
+<p>IBMは、1nm未満世代のチップ技術が、生成AIやクラウドインフラ、次世代電子機器などの計算基盤に影響を及ぼすとしている。AIモデルの大規模化に伴い、計算性能だけでなく、電力効率やオンチップメモリの性能も重要性を増している。</p>
+<p>IBM Researchは、現在の一般的なAIアクセラレーターが約1500TOPSの処理性能を持つのに対し、7オングストローム技術を使うAIアクセラレーターでは約9000TOPS相当の可能性があると見積もっている。また、ナノスタック構造により、SRAMを40％スケーリングできると説明している。SRAMはチップ上に配置される高速メモリで、AI処理ではデータを計算ユニットへ効率よく供給する役割を持つ。</p>
+<p>ナノスタック技術についてIBMは、早ければ今後5年以内に生産へ進む道筋があるとしている。今回の発表は、具体的な商用製品や量産開始時期を示すものではなく、1nm未満世代に向けた研究開発上の成果と位置づけられる。</p>
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
