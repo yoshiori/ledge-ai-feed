@@ -30,6 +30,13 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Claude CodeでAIエージェントをどう指示するか　AnthropicがCLAUDE.md・スキル・サブエージェントなど7つの方法を解説</title>
+      <link>https://ledge.ai/articles/claude_code_ai_agent_instructions</link>
+      <description><![CDATA[<p>Anthropicは2026年6月18日（現地時間）、AIコーディング支援ツール「Claude Code」でClaudeの挙動を指示する7つの方法を解説する<a href="https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 25 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、Codexに作業を“見せて教える”新機能「Record&amp; Replay」　実演した手順をスキル化</title>
       <link>https://ledge.ai/articles/openai_codex_record_replay_skill</link>
       <description><![CDATA[<p>OpenAIは2026年6月18日（米国時間）、AIコーディングエージェント「Codex」のmacOS向けアプリに、新機能「<a href="https://developers.openai.com/codex/record-and-replay">Record &amp; Replay</a>」を追加した。ユーザーが実演した作業手順をCodexが記録し、再利用可能な「スキル」として作成できる機能である。</p>
@@ -72,13 +79,6 @@
 <h2>対象はFreeとGo、PlusやProには表示されない</h2>
 <p>広告表示の対象は、FreeおよびGoプランのユーザーである。Plus、Pro、Business、Enterprise、Eduアカウントには広告は表示されない。またテスト中は、ユーザーが18歳未満であると申告した、またはOpenAIが18歳未満と推定したアカウントには広告を表示しないとしている。</p>
 <p>従来の検索広告は、キーワード検索を起点に広告接点を作ってきた。一方、ChatGPT広告では、ユーザーがAIとの対話を通じて情報を探し、比較し、理解する流れの中に広告が表示される。現時点ではパイロット運用であり、表示形式や広告主側の活用方法は、今後の検証を通じて調整されていくとみられる。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude CodeでAIエージェントをどう指示するか　AnthropicがCLAUDE.md・スキル・サブエージェントなど7つの方法を解説</title>
-      <link>https://ledge.ai/articles/claude_code_ai_agent_instructions</link>
-      <description><![CDATA[<p>Anthropicは2026年6月18日（現地時間）、AIコーディング支援ツール「Claude Code」でClaudeの挙動を指示する7つの方法を解説する<a href="https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more">公式ブログ</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
