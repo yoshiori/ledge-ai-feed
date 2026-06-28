@@ -172,6 +172,33 @@
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
+      <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
+<p>現時点での提供先は、一部の信頼されたパートナーや組織に限られる。利用できる環境はOpenAI APIとCodexで、プレビュー期間中はChatGPTからは利用できない。OpenAIは今後数週間で、ChatGPT、Codex、APIへ提供範囲を広げる計画だ。</p>
+<h2>性能、価格、速度で分けた3モデル構成</h2>
+<p>GPT-5.6 Solは、今回のシリーズで最上位に位置付けられるフラッグシップモデルである。ソフトウェアエンジニアリング、コンピュータ操作、専門知識を使う業務、科学研究、サイバーセキュリティなどで性能を高めた。</p>
+<p>Terraは、日常業務向けのバランス型モデルとなる。GPT-5.5に対して競争力のある性能を持ちながら、価格を2分の1に抑えた。Lunaは3モデルの中で最も高速かつ低価格なモデルで、コスト効率を重視する用途を想定する。</p>
+<p>OpenAIはGPT-5.6から、新たな命名体系も導入した。数字はモデルの世代を示し、Sol、Terra、Lunaは性能階層を表す。性能、速度、価格の違いを明確にし、開発者や企業が用途に応じて選びやすくする狙いがある。</p>
+<h2>コーディング、科学研究、サイバーセキュリティで性能向上</h2>
+<p>GPT-5.6 Solには、より深い推論に時間を使う「max」reasoning effortが導入された。複数のサブエージェントを使って複雑な作業を進める「ultra」モードも追加される。</p>
+<p>コーディング分野では、コマンドライン上での計画、反復、ツール連携を評価するTerminal-Bench 2.1で性能を伸ばした。科学研究では、長期的なゲノミクス解析や定量生物学のワークフローを評価するGeneBench v1で、GPT-5.5を上回る結果を出しながら、使用トークン数を抑えた。</p>
+<p>サイバーセキュリティ分野でも、脆弱性研究や攻撃経路の分析を含む長期的なタスクで性能を高めている。ExploitBenchでは、GPT-5.6 SolがMythos Previewに近い性能を、約3分の1の出力トークンで示した。</p>
+<p><strong>TerminalBench 2.1でのスコア比較。GPT-5.6 Sol Ultraが91.9%、GPT-5.6 Solが88.8%を記録している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Terminal_Bench_2_1_1cbdf7b80c/Terminal_Bench_2_1_1cbdf7b80c.png" alt="TerminalBench 2.1.png" /></p>
+<h2>高リスク用途を意識し、まずは限定提供</h2>
+<p>OpenAIは、<a href="https://deploymentsafety.openai.com/gpt-5-6-preview">GPT-5.6 Preview System Card</a>でSol、Terra、Lunaの3モデルをサイバーセキュリティと生物・化学リスクの両方で「High capability」に分類した。一方で、最上位の「Critical」には達していない。</p>
+<p>GPT-5.6 SolとTerraは、脆弱性や攻撃の一部を見つける能力を持つ。ただし、テスト条件下では、強化された対象に対する自律的なエンドツーエンド攻撃を実行する段階には至らなかった。</p>
+<p>OpenAIは、コードレビュー、脆弱性研究、パッチ開発、デバッグ、セキュリティ教育、防御的テストなどの正当な利用を維持しながら、禁止された攻撃的利用を難しく、不確実で、検出しやすくする方針を取る。</p>
+<p>今回の限定プレビューは、こうした高リスク領域への対応も踏まえたものだ。OpenAIは米政府との継続的なやりとりの一環として、公開前に計画やモデル能力を共有し、まず少数の信頼されたパートナーに提供する。</p>
+<h2>ChatGPTでの利用は今後数週間で</h2>
+<p><a href="https://help.openai.com/ar/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna">OpenAI Help Center</a>によると、GPT-5.6の限定プレビューは広範なセルフサービス型プログラムではない。対象は、OpenAIのアカウント担当者を持つ一部の信頼されたパートナーや組織に限られる。個人ユーザー向けの公開申請やウェイトリストも用意されていない。</p>
+<p>API価格は100万トークンあたり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。GPT-5.6以降のモデルでは、明示的なキャッシュ区切りや30分以上のキャッシュ保持を含む、より予測しやすいプロンプトキャッシュも導入される。</p>
+<p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>プリファード、フルスクラッチ開発の国産生成AI基盤モデル「PLaMo 3.0 Prime」を正式提供　Reasoning／Non-reasoningモデルをAPI・オンプレで展開</title>
       <link>https://ledge.ai/articles/preferred_networks_plamo_3_0_prime</link>
       <description><![CDATA[<p>Preferred Networks（PFN）は2026年6月22日、フルスクラッチで開発する国産生成AI基盤モデル「[PLaMo 3.0 Prime」を正式に提供開始すると<a href="https://www.preferred.jp/ja/news/pr20260622">発表</a>{target=\</p>
