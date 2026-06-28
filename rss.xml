@@ -64,6 +64,26 @@
       <pubDate>Mon, 22 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
+      <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
+      <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
+<p><a href="https://www.courthousenews.com/wp-content/uploads/2026/06/kalibrate-class-action-california.pdf">訴状</a>では、複数のガソリンスタンド運営会社が同じ価格設定ソフトに価格判断を委ねることで、小売ガソリン価格の競争が弱まり、消費者が不当に高い価格を支払わされたと主張している。訴訟記録上の事件名は「Casciani, et al v. Knowledge Support Systems, Inc., et al」で、提訴日は6月22日と確認できる。</p>
+<h2>AIが価格を決める「共通価格アルゴリズム」が争点に</h2>
+<p>Kalibrate Fuel Pricingは、燃料小売業者向けに価格判断を支援するソフトウェアである。需要シグナルや価格弾力性、市場変化を踏まえ、販売量と利幅のバランスを取る価格推奨を行う製品として説明されている。POSシステムへの価格反映や、複数店舗への一括更新なども機能に含まれる。</p>
+<p>訴状が問題視しているのは、価格最適化ソフトそのものではなく、競合する複数のガソリンスタンドが同じ価格設定アルゴリズムを使い、競合店の価格や販売量、コストなどのデータをもとに価格判断を行ったとされる点である。原告側は、Kalibrate Fuel Pricingがガソリンスタンドのポンプ、価格表示板、POSに接続し、価格を自動的に反映する仕組みを持つとしたうえで、競争的な値下げを避け、高い価格を維持する方向に働いたと主張している。</p>
+<p><strong>Kalibrate Fuel Pricingの仕組みを示す図</strong> ：価格、コスト、販売量などのデータを使い、POSやポンプ、価格表示板へ価格を反映する流れが示されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_it_works_891aaa3a9b/how_it_works_891aaa3a9b.jpg" alt="how it works.jpg" /></p>
+<h2>州内1700店舗超に及ぶ可能性</h2>
+<p>訴状では、対象企業のカリフォルニア州内拠点として、Marathon系のARCOが1000店舗超、Speedway系が150店舗超、EG Americaが90店舗超、WalmartとSam’s Clubが25店舗超、Circle K系が400店舗超、Albertsonsが51店舗を運営しているとされる。単純合算では、対象として挙げられたガソリンスタンドは州内で1700店舗を超える規模になる。</p>
+<p>原告側は、Kalibrate Fuel Pricingの利用により、平均で1ガロンあたり約6セント、導入比率が高い地域では最大30セント程度、ガソリン価格が上昇した可能性があると主張している。カリフォルニア州では年間のガソリン消費量が大きく、1セントの価格上昇でも州全体では年間1億3400万ドル規模の負担増につながるとも訴えている。</p>
+<h2>AI価格設定はどこまで許されるのか</h2>
+<p>訴状では、カリフォルニア州の反トラスト法であるCartwright Act違反に加え、共通価格アルゴリズムに関する規定も争点になっている。カリフォルニア州の「<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325">AB 325</a>」は、競争を制限する契約や共謀の一部として「common pricing algorithm」を使ったり配布したりすることを違法とする条文を追加した。ここでいう共通価格アルゴリズムは、2者以上が使い、競合データを用いて価格や商業条件を推奨、調整、安定化、設定、または影響する手法と定義されている。</p>
+<p>AIで需要や価格弾力性を分析すること自体が、直ちに違法とされているわけではない。争点は、競合する企業が同じ価格設定システムを使い、競争上重要なデータを共有・利用することで、市場の価格競争を弱めたかどうかにある。</p>
+<p>原告側は、2022年6月22日以降、Kalibrate Fuel Pricingが使われていた被告側のガソリンスタンドでガソリンを購入した人や企業を対象に、集団訴訟としての認定、損害賠償、3倍賠償、返還、恒久的差し止め、陪審審理などを求めている。訴訟は提起直後の段階であり、今後は被告側の答弁や裁判所の判断を通じて、AI価格設定ソフトの利用実態と競争法上の評価が争われることになる。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ChatGPT広告、日本でパイロット運用　電通デジタルとHakuhodo DY ONEが取り扱い開始</title>
       <link>https://ledge.ai/articles/chatgpt_ads_japan_pilot</link>
       <description><![CDATA[<p>電通デジタルとHakuhodo DY ONEは2026年6月18日、OpenAIのAIサービス「ChatGPT」における広告パイロットについて、それぞれ国内ローンチパートナーとして取り扱いを開始したと発表した。ChatGPT上での広告体験を検証する動きが、日本のデジタルマーケティング領域でも始まる。</p>
