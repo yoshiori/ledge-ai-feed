@@ -5,6 +5,239 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
+      <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
+<p>現時点での提供先は、一部の信頼されたパートナーや組織に限られる。利用できる環境はOpenAI APIとCodexで、プレビュー期間中はChatGPTからは利用できない。OpenAIは今後数週間で、ChatGPT、Codex、APIへ提供範囲を広げる計画だ。</p>
+<h2>性能、価格、速度で分けた3モデル構成</h2>
+<p>GPT-5.6 Solは、今回のシリーズで最上位に位置付けられるフラッグシップモデルである。ソフトウェアエンジニアリング、コンピュータ操作、専門知識を使う業務、科学研究、サイバーセキュリティなどで性能を高めた。</p>
+<p>Terraは、日常業務向けのバランス型モデルとなる。GPT-5.5に対して競争力のある性能を持ちながら、価格を2分の1に抑えた。Lunaは3モデルの中で最も高速かつ低価格なモデルで、コスト効率を重視する用途を想定する。</p>
+<p>OpenAIはGPT-5.6から、新たな命名体系も導入した。数字はモデルの世代を示し、Sol、Terra、Lunaは性能階層を表す。性能、速度、価格の違いを明確にし、開発者や企業が用途に応じて選びやすくする狙いがある。</p>
+<h2>コーディング、科学研究、サイバーセキュリティで性能向上</h2>
+<p>GPT-5.6 Solには、より深い推論に時間を使う「max」reasoning effortが導入された。複数のサブエージェントを使って複雑な作業を進める「ultra」モードも追加される。</p>
+<p>コーディング分野では、コマンドライン上での計画、反復、ツール連携を評価するTerminal-Bench 2.1で性能を伸ばした。科学研究では、長期的なゲノミクス解析や定量生物学のワークフローを評価するGeneBench v1で、GPT-5.5を上回る結果を出しながら、使用トークン数を抑えた。</p>
+<p>サイバーセキュリティ分野でも、脆弱性研究や攻撃経路の分析を含む長期的なタスクで性能を高めている。ExploitBenchでは、GPT-5.6 SolがMythos Previewに近い性能を、約3分の1の出力トークンで示した。</p>
+<p><strong>TerminalBench 2.1でのスコア比較。GPT-5.6 Sol Ultraが91.9%、GPT-5.6 Solが88.8%を記録している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Terminal_Bench_2_1_1cbdf7b80c/Terminal_Bench_2_1_1cbdf7b80c.png" alt="TerminalBench 2.1.png" /></p>
+<h2>高リスク用途を意識し、まずは限定提供</h2>
+<p>OpenAIは、<a href="https://deploymentsafety.openai.com/gpt-5-6-preview">GPT-5.6 Preview System Card</a>でSol、Terra、Lunaの3モデルをサイバーセキュリティと生物・化学リスクの両方で「High capability」に分類した。一方で、最上位の「Critical」には達していない。</p>
+<p>GPT-5.6 SolとTerraは、脆弱性や攻撃の一部を見つける能力を持つ。ただし、テスト条件下では、強化された対象に対する自律的なエンドツーエンド攻撃を実行する段階には至らなかった。</p>
+<p>OpenAIは、コードレビュー、脆弱性研究、パッチ開発、デバッグ、セキュリティ教育、防御的テストなどの正当な利用を維持しながら、禁止された攻撃的利用を難しく、不確実で、検出しやすくする方針を取る。</p>
+<p>今回の限定プレビューは、こうした高リスク領域への対応も踏まえたものだ。OpenAIは米政府との継続的なやりとりの一環として、公開前に計画やモデル能力を共有し、まず少数の信頼されたパートナーに提供する。</p>
+<h2>ChatGPTでの利用は今後数週間で</h2>
+<p><a href="https://help.openai.com/ar/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna">OpenAI Help Center</a>によると、GPT-5.6の限定プレビューは広範なセルフサービス型プログラムではない。対象は、OpenAIのアカウント担当者を持つ一部の信頼されたパートナーや組織に限られる。個人ユーザー向けの公開申請やウェイトリストも用意されていない。</p>
+<p>API価格は100万トークンあたり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。GPT-5.6以降のモデルでは、明示的なキャッシュ区切りや30分以上のキャッシュ保持を含む、より予測しやすいプロンプトキャッシュも導入される。</p>
+<p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
+      <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
+      <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
+<p><a href="https://www.courthousenews.com/wp-content/uploads/2026/06/kalibrate-class-action-california.pdf">訴状</a>では、複数のガソリンスタンド運営会社が同じ価格設定ソフトに価格判断を委ねることで、小売ガソリン価格の競争が弱まり、消費者が不当に高い価格を支払わされたと主張している。訴訟記録上の事件名は「Casciani, et al v. Knowledge Support Systems, Inc., et al」で、提訴日は6月22日と確認できる。</p>
+<h2>AIが価格を決める「共通価格アルゴリズム」が争点に</h2>
+<p>Kalibrate Fuel Pricingは、燃料小売業者向けに価格判断を支援するソフトウェアである。需要シグナルや価格弾力性、市場変化を踏まえ、販売量と利幅のバランスを取る価格推奨を行う製品として説明されている。POSシステムへの価格反映や、複数店舗への一括更新なども機能に含まれる。</p>
+<p>訴状が問題視しているのは、価格最適化ソフトそのものではなく、競合する複数のガソリンスタンドが同じ価格設定アルゴリズムを使い、競合店の価格や販売量、コストなどのデータをもとに価格判断を行ったとされる点である。原告側は、Kalibrate Fuel Pricingがガソリンスタンドのポンプ、価格表示板、POSに接続し、価格を自動的に反映する仕組みを持つとしたうえで、競争的な値下げを避け、高い価格を維持する方向に働いたと主張している。</p>
+<p><strong>Kalibrate Fuel Pricingの仕組みを示す図</strong> ：価格、コスト、販売量などのデータを使い、POSやポンプ、価格表示板へ価格を反映する流れが示されている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_it_works_891aaa3a9b/how_it_works_891aaa3a9b.jpg" alt="how it works.jpg" /></p>
+<h2>州内1700店舗超に及ぶ可能性</h2>
+<p>訴状では、対象企業のカリフォルニア州内拠点として、Marathon系のARCOが1000店舗超、Speedway系が150店舗超、EG Americaが90店舗超、WalmartとSam’s Clubが25店舗超、Circle K系が400店舗超、Albertsonsが51店舗を運営しているとされる。単純合算では、対象として挙げられたガソリンスタンドは州内で1700店舗を超える規模になる。</p>
+<p>原告側は、Kalibrate Fuel Pricingの利用により、平均で1ガロンあたり約6セント、導入比率が高い地域では最大30セント程度、ガソリン価格が上昇した可能性があると主張している。カリフォルニア州では年間のガソリン消費量が大きく、1セントの価格上昇でも州全体では年間1億3400万ドル規模の負担増につながるとも訴えている。</p>
+<h2>AI価格設定はどこまで許されるのか</h2>
+<p>訴状では、カリフォルニア州の反トラスト法であるCartwright Act違反に加え、共通価格アルゴリズムに関する規定も争点になっている。カリフォルニア州の「<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325">AB 325</a>」は、競争を制限する契約や共謀の一部として「common pricing algorithm」を使ったり配布したりすることを違法とする条文を追加した。ここでいう共通価格アルゴリズムは、2者以上が使い、競合データを用いて価格や商業条件を推奨、調整、安定化、設定、または影響する手法と定義されている。</p>
+<p>AIで需要や価格弾力性を分析すること自体が、直ちに違法とされているわけではない。争点は、競合する企業が同じ価格設定システムを使い、競争上重要なデータを共有・利用することで、市場の価格競争を弱めたかどうかにある。</p>
+<p>原告側は、2022年6月22日以降、Kalibrate Fuel Pricingが使われていた被告側のガソリンスタンドでガソリンを購入した人や企業を対象に、集団訴訟としての認定、損害賠償、3倍賠償、返還、恒久的差し止め、陪審審理などを求めている。訴訟は提起直後の段階であり、今後は被告側の答弁や裁判所の判断を通じて、AI価格設定ソフトの利用実態と競争法上の評価が争われることになる。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>FBI、町を丸ごと再現したサイバー捜査訓練施設を公開　住宅・病院・電力会社で実戦型訓練</title>
+      <link>https://ledge.ai/articles/fbi_kinetic_cyber_range</link>
+      <description><![CDATA[<p>米連邦捜査局（FBI）は2026年6月9日、米アラバマ州ハンツビルのFBIキャンパス内で運用するサイバー捜査訓練施設「<a href="https://www.fbi.gov/news/stories/inside-the-fbis-kinetic-cyber-range">Kinetic Cyber Range（KCR）</a>」の内部を公開した。</p>
+<p>KCRは、住宅やホテル、電力会社、病院、ガソリンスタンドなどを備えた約22,000平方フィート（約2,000平方メートル）の屋内訓練環境である。各施設には、現実の現場に近いシステム、ネットワーク、デバイスが組み込まれている。2025年2月の開設以降、FBI職員や他機関の関係者を含む1,400人超が訓練を受けた。</p>
+<h2>住宅、病院、電力会社を備えた「捜査用の町」</h2>
+<p>KCRは、FBIのOperational Technology Divisionが運用する訓練施設で、FBIのハンツビル拠点にある。施設内には、家、ホテルの部屋、電力会社、病院、ガソリンスタンドなどが並び、小さな町のような環境が作られている。</p>
+<p>公開した動画では、裁判所、データセンター、アーケード、ビジネスセンターなども紹介されている。サイバー攻撃やデジタル証拠の捜査を、机上の演習ではなく、実際の現場に近い空間で学ぶための施設である。</p>
+<p>FBIのハンツビル拠点は、アラバマ州のRedstone Arsenalに置かれている。FBIは同拠点を、訓練、データ分析、サイバーインテリジェンスの成長領域として位置付けてきた。</p>
+<p>@<a href="https://www.youtube.com/watch?v=a8UMAc_8L5c">YouTube</a></p>
+<h2>教室型の訓練から、現場に近い演習へ</h2>
+<p>FBIは、従来の訓練では携帯電話や記録媒体、サーバーなどを教室で扱う形が中心だったと説明している。KCRでは、こうした理論や手順を、現実に近い状況へ持ち込む。</p>
+<p>たとえば、訓練生は車両の電子制御ユニットを取り外してデータを抽出したり、家庭内のIoT機器から押収すべきデバイスを判断したりする。企業ネットワーク内のデータにアクセスし、現場で何を収集し、何を収集しないかを判断する訓練も含まれる。</p>
+<p>KCRが扱うのは、サイバー攻撃の技術的な解析だけではない。デジタル証拠をどう扱うか、被害組織や関係者にどう説明するか、捜査の範囲をどう定めるかも訓練対象になる。</p>
+<h2>病院ランサムウェアやデータセンターも想定</h2>
+<p>施設内では、病院ネットワークがランサムウェア攻撃を受けた場面や、データセンターで多数のサーバーに対応する場面などが想定されている。FBIは、200台超のサーバーを備えたデータセンターでの訓練にも触れている。</p>
+<p>訓練にはロールプレイも組み込まれている。企業幹部や法務担当者を演じるスタッフに対し、訓練生が聞き取りを行い、どのデータを収集するのか、なぜ必要なのかを説明する。サイバー捜査では、技術的な解析力だけでなく、組織との調整や説明も重要になるためだ。</p>
+<p>KCRはFBI職員だけの施設ではない。公式動画では、NASA、米陸軍、地域の法執行機関なども訓練に参加していることが紹介されている。サイバー攻撃が企業、公共機関、重要インフラにまたがるなか、関係機関が共通の環境で演習する場にもなっている。</p>
+<h2>変化する脅威に合わせて訓練内容を更新</h2>
+<p>FBIは、KCRの訓練シナリオを新しい脅威や技術に合わせて更新していく方針だ。接続デバイス、IoT、ドローン、車両フォレンジック、新しい形のサイバー犯罪などが対象になる。</p>
+<p>サイバー犯罪は、PCやサーバーの中だけで完結しなくなっている。住宅内のスマート機器、車両、医療機関、電力会社、ガソリンスタンドなど、現実空間の機器やインフラと結びつく場面が増えている。KCRは、そうした捜査の変化に合わせ、教室では再現しにくい現場判断を訓練する施設として運用されている。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、『ミッドサマー』『Backrooms』のA24とAI研究で提携　映画制作のワークフロー開発へ</title>
+      <link>https://ledge.ai/articles/google_deepmind_a24_ai_research_partnership</link>
+      <description><![CDATA[<p>Google DeepMindは2026年6月22日、米独立系映画スタジオA24との研究提携を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/">発表</a>した。映画制作者が新しいワークフローや制作手法を開発できるよう、複数のプロジェクトで研究開発を進める。</p>
+<p>A24は、アカデミー賞作品賞を受賞した『エブリシング・エブリウェア・オール・アット・ワンス』や、ホラー映画『ミッドサマー』、YouTube発のホラー作品として注目された『Backrooms』などを手がける独立系映画スタジオである。<a href="https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe">Wall Street Journal</a>は、GoogleがA24に約7500万ドルを投資していると報じている。</p>
+<h2>映画制作者のワークフロー開発で協力</h2>
+<p>今回の提携は、特定のAI製品や映画制作ツールの提供開始ではなく、研究開発を目的とした協力として発表された。Google DeepMindとA24は、複数のプロジェクトを通じて、映画制作者が使う新しい技術や制作ワークフローの開発に取り組む。</p>
+<p>Google DeepMindは、将来のツールは実際に使うクリエイター自身によって形づくられるべきだとしている。A24の映画制作者が制作プロセスのなかでGoogle DeepMindの技術に触れ、研究者側は現場からのフィードバックや助言を得る構図になる。</p>
+<p>同社は、A24の映画制作者とGoogle DeepMindの研究者が並行してテスト、反復、構築を進めることで、次世代エンターテインメントと先端技術の距離を縮めるとしている。</p>
+<h2>作家性の強い映画をブランド化してきたA24</h2>
+<p>A24は、映画作家の個性を前面に出した作品づくりで知られる独立系映画スタジオである。『ムーンライト』や『エブリシング・エブリウェア・オール・アット・ワンス』でアカデミー賞作品賞を受賞し、『ミッドサマー』『ヘレディタリー／継承』などのホラー作品でも、作品そのものとスタジオ名が結びつくような存在感を築いてきた。</p>
+<p>Kane Parsons氏による『Backrooms』も、そうしたA24の現在地を示す作品のひとつだ。YouTubeで話題になったホラー映像シリーズをもとにした長編映画で、全米公開後に大きな反響を呼び、日本公開も決まっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bakrooms_89b5451581/bakrooms_89b5451581.jpg" alt="bakrooms.jpg" /></p>
+<p>今回の提携で特徴的なのは、Google DeepMindが研究開発の相手として、伝統的な大手映画会社ではなくA24を選んだ点である。映画賞で評価される作家性の強い作品から、若い世代に届くネット発の映像文化まで接点を持つA24と、映画制作者が実際に使うワークフローのなかでAI研究を進めることになる。</p>
+<h2>研究提携にあわせGoogleがA24へ投資</h2>
+<p>Googleは今回の提携にあわせ、A24への投資も明らかにしている。Wall Street Journalは、投資額が約7500万ドル、日本円で約121億円にのぼると報じた。</p>
+<p>Google DeepMindは今回の提携を、「研究と共有された好奇心に根ざした共同の旅の始まり」と位置づけている。映画制作の現場で生まれる発想や課題を取り込みながら、AI研究を次世代のエンターテインメント制作につなげようとする動きといえる。</p>
+<p><strong>Google DeepMind共同創業者兼CEOのDemis Hassabis氏のコメント：</strong> 映画制作者と初期段階から協力し、アーティストの創造的なビジョンを支えるAI機能を構築するとしている
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5.webp" alt="DemisQuote_withtitle.width-1000.format-webp.webp" /></p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Gemini 3.5 Flashに画面操作機能「Computer Use」を統合　ブラウザ・モバイル・デスクトップ操作に対応</title>
+      <link>https://ledge.ai/articles/google_gemini_3_5_flash_computer_use_integration</link>
+      <description><![CDATA[<p>Googleは2026年6月24日（現地時間）、AIモデル「Gemini 3.5 Flash」で、AIエージェントがコンピュータ画面を認識し、クリックやキーボード入力などの操作を生成する「Computer Use」を組み込みツールとして利用できるようにしたと<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/6/27 [SAT]IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
+      <link>https://ledge.ai/articles/ibm_1nm_chip_nanostack</link>
+      <description><![CDATA[<p>IBMは2026年6月25日（現地時間）、世界初を謳う1nm未満世代の半導体チップ技術を<a href="https://jp.newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">発表</a>した。0.7nm、すなわち7オングストローム・ノードにおけるトランジスター・アーキテクチャを特徴とし、爪ほどのサイズのチップに約1000億個のトランジスターを集積する。</p>
+<p>同技術では、3Dチップ構造「ナノスタック」を採用する。IBMは、2021年に発表した2nmチップと比べてほぼ2倍の密度を実現し、2nmノード・チップ比で最大50％の性能向上、または最大70％のエネルギー効率向上が見込まれるとしている。生成AIやクラウドインフラなど、計算需要が増大する領域での応用が想定される。</p>
+<h2>爪サイズに約1000億個のトランジスター</h2>
+<p>今回の発表は、商用製品の発売ではなく、次世代半導体に向けたチップ技術とトランジスター・アーキテクチャの発表である。半導体分野で使われる「nm」は、現在ではチップ内の部品寸法をそのまま表すものではなく、製造技術の世代を示す呼び方として使われている。1nm未満世代のチップ技術も、チップ内の構造が一律に1nm未満で作られていることを意味しない。</p>
+<p>IBMの新技術では、爪ほどのサイズのチップ上に約1000億個のトランジスターを集積する。限られた面積により多くのトランジスターを載せることは、スマートフォンやPC、サーバー、通信機器、重要インフラなどの性能と省電力化に直結する。</p>
+<h2>3D構造「ナノスタック」で縦方向に積層</h2>
+<p>技術の中核にあるのが、IBMが開発した3Dチップ・アーキテクチャ「ナノスタック」である。従来のように平面方向へ小さくするだけでなく、トランジスターを垂直方向に積層し、水平方向にもずらして配置することで、同じ面積により多くのトランジスターを載せる。</p>
+<p><strong>IBMの1nm未満世代チップ技術を示す断面画像。右図ではシリコン原子15列のスケールが示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IBM_Research_TEM_4_1f45c03e3e/IBM_Research_TEM_4_1f45c03e3e.jpg" alt="IBM-Research_TEM_4.jpg" /></p>
+<p>IBM Researchは、7オングストローム設計について、ウェハー接合、SRAMスケーリング、チャネル材料の革新など、複数の技術的な進展によって実現したと<a href="https://research.ibm.com/blog/sub-1nm-node-chips">説明</a>している。積層された各層で異なる材料を使えるため、トランジスターごとに性能と電力効率を最適化しやすくなる。</p>
+<h2>AI計算基盤の高密度化へ</h2>
+<p>IBMは、1nm未満世代のチップ技術が、生成AIやクラウドインフラ、次世代電子機器などの計算基盤に影響を及ぼすとしている。AIモデルの大規模化に伴い、計算性能だけでなく、電力効率やオンチップメモリの性能も重要性を増している。</p>
+<p>IBM Researchは、現在の一般的なAIアクセラレーターが約1500TOPSの処理性能を持つのに対し、7オングストローム技術を使うAIアクセラレーターでは約9000TOPS相当の可能性があると見積もっている。また、ナノスタック構造により、SRAMを40％スケーリングできると説明している。SRAMはチップ上に配置される高速メモリで、AI処理ではデータを計算ユニットへ効率よく供給する役割を持つ。</p>
+<p>ナノスタック技術についてIBMは、早ければ今後5年以内に生産へ進む道筋があるとしている。今回の発表は、具体的な商用製品や量産開始時期を示すものではなく、1nm未満世代に向けた研究開発上の成果と位置づけられる。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ノルウェー、小学生のAI利用を原則認めず　基礎学力への影響を懸念</title>
+      <link>https://ledge.ai/articles/norway_ai_school_restrictions</link>
+      <description><![CDATA[<p>ノルウェー政府は2026年6月19日、小学校にあたる1〜7年生について、学校活動で児童自身がAIを使うことを原則認めない方針を<a href="https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/">発表</a>した。2026年秋の新学期から適用する全国勧告として、Utdanningsdirektoratet（ノルウェー教育訓練局）に対し、学校開始前に新たな勧告を公表するよう求めている。</p>
+<h2>小学校では原則使わず、中高では段階的に活用</h2>
+<p>今回の方針は、AIを学校教育から一律に排除するものではなく、児童生徒の年齢や成熟度に応じて利用範囲を分けるものだ。1〜7年生は、学校での学習において自らAIを使うことを原則避ける。8〜10年生では、教師が十分な知識を身につけたうえで、段階的かつ慎重にAIを活用できる。高校段階では、進学や就労に備え、AIを適切に使う力を学ぶことが求められる。</p>
+<p>ヨーナス＝ガール・ストーレ首相は同日の<a href="https://www.regjeringen.no/no/aktuelt/statsministerens-innledning-pa-halvarlig-oppsummerende-pressekonferanse/id3166866/">半期総括会見</a>で、小学校の児童は原則としてAIにアクセスすべきではないと説明した。中学校では段階的・慎重に、高校では将来の教育や仕事に向けてAIを使う準備を進めるという考えを示している。</p>
+<h2>読み書き計算を優先、個別支援では例外も</h2>
+<p>背景にあるのは、読み書き計算などの基礎学力への危機感だ。政府は、学校で最も重要なのは児童が自ら読み、書き、計算を学ぶことだと位置づけている。生成AIを無批判に使えば、学習に必要な段階を飛ばすおそれがある。政府は、PISAやPIRLSなどの国際調査でノルウェーの児童生徒の基礎的能力が大きく低下していることにも言及している。</p>
+<p>一方で、AIの利用が例外なく排除されるわけではない。教育相は、さまざまな理由でAIベースのツールを必要とする児童生徒には利用機会を確保するとしている。たとえば、言語学習や個別に調整された学習支援では、AIが学習を促す場合がある。教育訓練局も、<a href="https://www.udir.no/kvalitet-og-kompetanse/digitalisering-skole/kunstig-intelligens-i-skolen/Utvikle_elevenes_kompetanse/">学校におけるAI利用の整理</a>のなかで、特別なニーズや個別最適な学習支援など、例外が成立し得る場面の検討を進めている。</p>
+<h2>紙の教科書や学習指導要領の見直しも</h2>
+<p>ノルウェー政府は同日、学校改革の一環として、AI利用の年齢別勧告に加え、紙の教科書へのアクセスを法制化する方針や、学習指導要領の見直しも示した。<a href="https://www.regjeringen.no/no/aktuelt/slik-vil-regjeringen-endre-skolehverdagen/id3167032/">教育省の発表</a>では、1〜7年生にAIへのアクセスを原則与えないこと、8〜10年生では教師の能力形成を前提に慎重に使うこと、高校ではAIを適切に使う力を身につけることが、学校生活を変える施策の一部として整理されている。</p>
+<p>ノルウェーでは、学校現場でのAI利用がすでに広がっている。政府が<a href="https://www.regjeringen.no/no/aktuelt/bruk-av-ki-oker-i-skolen-kunnskapsministeren-varsler-grep/id3146819/">2026年1月に公表した情報</a>では、AIツールは基礎学校の約4分の3、高校の90％超で児童生徒に使われているとされた。今回の勧告は、利用拡大が先行するなかで、低年齢層の学習への影響や教師側の準備状況を踏まえ、国として導入の線引きを明確にする動きといえる。</p>
+<p>生成AIを教育にどう取り入れるかは、各国の学校現場で重要な論点になっている。ノルウェーの方針は、AI活用そのものを否定するのではなく、小学校段階では基礎学力と自分で考える力を優先し、上級学年で段階的に扱うという考え方を示したものだ。低年齢層にどこまでAIを使わせるべきかをめぐる議論は、今後も各国の教育政策で焦点になりそうだ。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA、ロボット向け安全システム「Halos for Robotics」発表　フィジカルAIの実運用を支援</title>
+      <link>https://ledge.ai/articles/nvidia_halos_for_robotics_safety_system</link>
+      <description><![CDATA[<p>NVIDIAは2026年6月22日（現地時間）、ロボティクスとフィジカルAI向けの包括的な安全システム「NVIDIA Halos for Robotics」を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、初の独自AIチップ「Jalapeño（ハラペーニョ）」をBroadcomと発表　LLM推論向けに設計</title>
+      <link>https://ledge.ai/articles/openai_broadcom_jalapeno_ai_chip</link>
+      <description><![CDATA[<p>OpenAIと半導体大手の米Broadcomは6月24日、OpenAIが設計した初のAIチップ「Jalapeño（ハラペーニョ）」を<a href="https://openai.com/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。大規模言語モデル（LLM）の推論処理に最適化したチップで、ChatGPT、Codex、API、将来のエージェント製品など、OpenAIが運用するサービスの利用実態を踏まえて設計した。</p>
+<p>同チップは、OpenAIが「Intelligence Processor」と位置づける初のAIアクセラレーターである。両社は、複数世代にわたる計算基盤の第一歩として展開し、先端AIをより高速で、信頼性が高く、より多くの人が利用しやすいものにする基盤とする。</p>
+<h2>ChatGPTやCodexの運用知見をチップ設計に反映</h2>
+<p>このAIアクセラレーターは、既存のAIワークロード向けチップをLLM推論に転用するのではなく、現代のLLM推論を前提に設計された。OpenAIは、モデル、カーネル、サービングシステム、製品ニーズに関する知見をもとに、チップアーキテクチャ、メモリシステム、ネットワーク、スケジューリング、デプロイメントシステムまでを一体で最適化する方針を示している。</p>
+<p>OpenAIのハードウェアプログラムを率いるRichard Ho氏は、研究チームとの協業から得た知見をもとに、フロンティアAIモデルで重要になるカーネル、メモリ移動、ネットワーク、サービングパターンに合わせて設計したとする。エンジニアリングサンプルはすでにラボで稼働しており、GPT-5.3-Codex-Sparkを含むMLワークロードを、量産目標の周波数と電力で動かしている。</p>
+<p>OpenAIは、今回のチップについて、自社のワークロードに閉じた専用設計ではなく、現在および将来のLLMに対応できる柔軟性を持たせた設計としている。狙いは、主要AIアクセラレーターが持つ計算能力とスループットに、専用推論システムに近い低遅延性を組み合わせることにある。</p>
+<h2>初期設計から9カ月でテープアウト</h2>
+<p>OpenAIとBroadcomは、初期設計から製造テープアウトまで9カ月で共同開発した。開発では、OpenAIのエンジニアリングチームとBroadcomのシリコン実装の専門性に加え、OpenAIのモデルも設計や最適化の一部に活用した。</p>
+<p>OpenAIは、同じモデルがユーザー向けサービスを支えるだけでなく、将来のモデルを動かすインフラの改善にも使われていると位置づける。AIがチップ設計を支援することで、計算資源のコスト低減や、先端AIへのアクセス拡大につながる可能性を示した。</p>
+<h2>2026年末までに初期展開へ</h2>
+<p>OpenAIとBroadcomは2025年10月、OpenAI設計のAIアクセラレーターを10ギガワット規模で展開する協業を<a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">発表</a>していた。Broadcomは、AIアクセラレーターとネットワークシステムを組み込んだラックの展開を2026年後半に始め、2029年末までの完了を目指すとしている。</p>
+<p>今回のチップは、2026年末までの初期展開を想定している。Broadcomのシリコン実装、ネットワーク、接続技術に加え、Celesticaがボード、ラック、システム面の専門性を担う。</p>
+<p>OpenAIは最終性能を現在も測定中としている。初期テストでは、現行の最先端チップよりもワット当たり性能が大幅に高くなる見込みだが、ベンチマーク数値や詳細仕様はまだ公表していない。性能に関する詳細な技術レポートは、今後数カ月以内に示す予定だ。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、サイバー防御向けAI「GPT-5.5-Cyber」を更新　Claude Mythos 5の公表値を上回る85.6％</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_5_cyber_codex_security_update</link>
+      <description><![CDATA[<p>OpenAIは2026年6月22日（現地時間）、サイバーセキュリティ向けの取り組み「Daybreak」を拡張し、セキュリティ研究者向けAIモデル「GPT-5.5-Cyber」のアップデート版と、Codexにセキュリティ対策機能を追加する「Codex Security」プラグインの更新を<a href="https://openai.com/index/daybreak-securing-the-world/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>プリファード、フルスクラッチ開発の国産生成AI基盤モデル「PLaMo 3.0 Prime」を正式提供　Reasoning／Non-reasoningモデルをAPI・オンプレで展開</title>
+      <link>https://ledge.ai/articles/preferred_networks_plamo_3_0_prime</link>
+      <description><![CDATA[<p>Preferred Networks（PFN）は2026年6月22日、フルスクラッチで開発する国産生成AI基盤モデル「[PLaMo 3.0 Prime」を正式に提供開始すると<a href="https://www.preferred.jp/ja/news/pr20260622">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm、Meta向け次世代サーバーCPU「Dragonfly C1000」発表　AIデータセンター本格参入へ</title>
+      <link>https://ledge.ai/articles/qualcomm_dragonfly_c1000_meta</link>
+      <description><![CDATA[<p>米Qualcommは6月24日（現地時間）、ニューヨークで開いた投資家向けイベント「Investor Day」で、AIデータセンター向け製品群「Qualcomm Dragonfly」のロードマップを<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-meta-announce-strategic-multi-generation-agreement-">発表</a>した。データセンター向けCPU「Qualcomm Dragonfly C1000」は、Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産を開始する予定だ。</p>
+<h2>Metaの次世代サーバーに採用へ</h2>
+<p>Qualcomm TechnologiesとMetaは、データセンターCPUをめぐる複数世代の協業を発表した。C1000は、Metaの拡大するコンピュート基盤を支えるCPUとして位置付けられる。</p>
+<p><strong>Qualcomm Dragonfly C1000 CPU。Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産開始予定とされている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dragonfly_C1000_CPU_f8251c82a0/Dragonfly_C1000_CPU_f8251c82a0.png" alt="DragonflyC1000CPU.png" /></p>
+<p>Qualcommは、C1000をエージェント型AI、汎用処理、AIヘッドノード向けに設計したデータセンターCPUとしている。カスタム設計の「Qualcomm Oryon」CPUコアを採用し、250を超えるコア数のチップレット設計、PCIe Gen 7とCXLへの対応、空冷・液冷の両対応などを特徴に挙げている。</p>
+<p>C1000の商用提供は2028年を見込む。Meta向けの協業では、Qualcommの初代C1000 CPUが2028年後半から生産に入る予定だ。</p>
+<h2>CPU、推論アクセラレーター、接続製品をまとめて展開</h2>
+<p>発表は、C1000単体ではなく、AIデータセンター向けの包括的な製品ロードマップとして示された。Qualcomm Dragonflyには、C1000 CPUのほか、「Qualcomm High Bandwidth Compute（HBC）」、「Qualcomm Dragonfly AI300」推論アクセラレーター、接続製品、カスタムシリコンが含まれる。</p>
+<p><strong>Qualcomm Dragonflyの製品ロードマップ。接続製品、カスタムシリコン、AIアクセラレーター、CPUを含む構成として示された</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qualcomm_investor_day2026_4_92e67bad43/qualcomm_investor_day2026_4_92e67bad43.jpg" alt="qualcomm investor day2026 4.jpg" /></p>
+<p>Qualcommは、生成AIやエージェント型AIの普及により、データセンターでAI推論需要が増えるとみている。Dragonflyでは、トークンあたりの電力効率や総所有コストを重視し、ラックスケールのAI推論基盤として展開する。</p>
+<p>同社はこれまで、スマートフォンやPC、自動車、IoT向けの低消費電力チップで事業を広げてきた。Dragonflyは、その省電力設計や接続技術をデータセンター領域に広げる取り組みとなる。</p>
+<h2>HBCでメモリ帯域と電力効率を重視</h2>
+<p>技術面では、HBCが大きな焦点となる。HBCは、計算処理と高帯域メモリを近づける3Dスタック型の近接メモリ計算アーキテクチャで、AI推論で課題になりやすいデータ移動やメモリ帯域の制約に対応する。</p>
+<p><strong>Qualcomm High Bandwidth Compute（HBC）のイメージ。AI推論で課題となるメモリ帯域や電力効率の改善を狙う</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45.jpg" alt="Qualcomm High Bandwidth Compute (HBC).jpg" /></p>
+<p>Qualcommは、AI250にHBC Gen 1、AI300にHBC Gen 2を組み込む計画だ。AI300は、AI200、AI250に続く第3世代のラックレベルAI推論プラットフォームとして位置付けられ、商用サンプリングは2028年を見込む。</p>
+<p>C1000も、オプションでHBCを接続したCPUベースの推論に対応する。GPU中心のAIインフラに対し、Qualcommは電力効率、メモリ帯域、ラック単位の推論性能を前面に出して、データセンター市場での存在感を高める考えだ。</p>
+<h2>Hugging Face連携とModular買収でソフトウェア面も補強</h2>
+<p>同日のInvestor Dayでは、Hugging Faceとの関係拡大も<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-hugging-face-expand-relationship-to-advance-open--d">発表</a>{target=”_blank”}された。両社は、Qualcommのデバイスからデータセンターまでのプラットフォームと、Hugging Faceのモデル基盤や開発者向けツールを結び、エッジとクラウドをまたぐAIモデルの展開や、エージェント型AIのオーケストレーションを進める。</p>
+<p>Qualcommはあわせて、AIソフトウェア企業Modularの買収でも<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-to-acquire-modular">合意</a>{target=”_blank”}した。Modularは、CPU、GPU、NPU、カスタムASICなど複数のハードウェア上でAIモデルを動かすためのソフトウェア基盤を手がける企業だ。買収は、通常の完了条件や規制当局の承認を前提に、2026年後半の完了を見込む。</p>
+<p>Qualcommは、C1000を起点とするCPUロードマップ、AI300などの推論アクセラレーター、Hugging Faceとの開発者エコシステム、Modularのソフトウェア基盤を組み合わせ、AIデータセンター向け事業を本格化する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=XNHoxQAiNFQ">YouTube</a></p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
+      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
+      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
+<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
+<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
+<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
+<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
+<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
+<h2>35Bモデルと評価ベンチマークを公開</h2>
+<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
+<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
+<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
+<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
+<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
+<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
+<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
+<h2>エージェント訓練用の仮想環境として活用</h2>
+<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
+<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東京都、都庁舎にAI自動分別リサイクルボックス設置　リチウムイオン電池内蔵製品を回収</title>
       <link>https://ledge.ai/articles/weecle_ai_recycling_box_tokyo</link>
       <description><![CDATA[<p>東京都は2026年6月19日、都庁舎にAI自動分別リサイクルボックスを設置し、リチウムイオン電池とその使用製品を回収する「東京鉱山から資源を掘り起こし～都庁舎リチウムイオン電池回収キャンペーン～」を6月26日から開始すると<a href="https://www.metro.tokyo.lg.jp/information/press/2026/06/2026061914">発表</a>した。期間は9月30日まで。</p>
@@ -64,242 +297,9 @@
       <pubDate>Mon, 22 Jun 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
-      <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
-      <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
-<p><a href="https://www.courthousenews.com/wp-content/uploads/2026/06/kalibrate-class-action-california.pdf">訴状</a>では、複数のガソリンスタンド運営会社が同じ価格設定ソフトに価格判断を委ねることで、小売ガソリン価格の競争が弱まり、消費者が不当に高い価格を支払わされたと主張している。訴訟記録上の事件名は「Casciani, et al v. Knowledge Support Systems, Inc., et al」で、提訴日は6月22日と確認できる。</p>
-<h2>AIが価格を決める「共通価格アルゴリズム」が争点に</h2>
-<p>Kalibrate Fuel Pricingは、燃料小売業者向けに価格判断を支援するソフトウェアである。需要シグナルや価格弾力性、市場変化を踏まえ、販売量と利幅のバランスを取る価格推奨を行う製品として説明されている。POSシステムへの価格反映や、複数店舗への一括更新なども機能に含まれる。</p>
-<p>訴状が問題視しているのは、価格最適化ソフトそのものではなく、競合する複数のガソリンスタンドが同じ価格設定アルゴリズムを使い、競合店の価格や販売量、コストなどのデータをもとに価格判断を行ったとされる点である。原告側は、Kalibrate Fuel Pricingがガソリンスタンドのポンプ、価格表示板、POSに接続し、価格を自動的に反映する仕組みを持つとしたうえで、競争的な値下げを避け、高い価格を維持する方向に働いたと主張している。</p>
-<p><strong>Kalibrate Fuel Pricingの仕組みを示す図</strong> ：価格、コスト、販売量などのデータを使い、POSやポンプ、価格表示板へ価格を反映する流れが示されている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_it_works_891aaa3a9b/how_it_works_891aaa3a9b.jpg" alt="how it works.jpg" /></p>
-<h2>州内1700店舗超に及ぶ可能性</h2>
-<p>訴状では、対象企業のカリフォルニア州内拠点として、Marathon系のARCOが1000店舗超、Speedway系が150店舗超、EG Americaが90店舗超、WalmartとSam’s Clubが25店舗超、Circle K系が400店舗超、Albertsonsが51店舗を運営しているとされる。単純合算では、対象として挙げられたガソリンスタンドは州内で1700店舗を超える規模になる。</p>
-<p>原告側は、Kalibrate Fuel Pricingの利用により、平均で1ガロンあたり約6セント、導入比率が高い地域では最大30セント程度、ガソリン価格が上昇した可能性があると主張している。カリフォルニア州では年間のガソリン消費量が大きく、1セントの価格上昇でも州全体では年間1億3400万ドル規模の負担増につながるとも訴えている。</p>
-<h2>AI価格設定はどこまで許されるのか</h2>
-<p>訴状では、カリフォルニア州の反トラスト法であるCartwright Act違反に加え、共通価格アルゴリズムに関する規定も争点になっている。カリフォルニア州の「<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325">AB 325</a>」は、競争を制限する契約や共謀の一部として「common pricing algorithm」を使ったり配布したりすることを違法とする条文を追加した。ここでいう共通価格アルゴリズムは、2者以上が使い、競合データを用いて価格や商業条件を推奨、調整、安定化、設定、または影響する手法と定義されている。</p>
-<p>AIで需要や価格弾力性を分析すること自体が、直ちに違法とされているわけではない。争点は、競合する企業が同じ価格設定システムを使い、競争上重要なデータを共有・利用することで、市場の価格競争を弱めたかどうかにある。</p>
-<p>原告側は、2022年6月22日以降、Kalibrate Fuel Pricingが使われていた被告側のガソリンスタンドでガソリンを購入した人や企業を対象に、集団訴訟としての認定、損害賠償、3倍賠償、返還、恒久的差し止め、陪審審理などを求めている。訴訟は提起直後の段階であり、今後は被告側の答弁や裁判所の判断を通じて、AI価格設定ソフトの利用実態と競争法上の評価が争われることになる。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>FBI、町を丸ごと再現したサイバー捜査訓練施設を公開　住宅・病院・電力会社で実戦型訓練</title>
-      <link>https://ledge.ai/articles/fbi_kinetic_cyber_range</link>
-      <description><![CDATA[<p>米連邦捜査局（FBI）は2026年6月9日、米アラバマ州ハンツビルのFBIキャンパス内で運用するサイバー捜査訓練施設「<a href="https://www.fbi.gov/news/stories/inside-the-fbis-kinetic-cyber-range">Kinetic Cyber Range（KCR）</a>」の内部を公開した。</p>
-<p>KCRは、住宅やホテル、電力会社、病院、ガソリンスタンドなどを備えた約22,000平方フィート（約2,000平方メートル）の屋内訓練環境である。各施設には、現実の現場に近いシステム、ネットワーク、デバイスが組み込まれている。2025年2月の開設以降、FBI職員や他機関の関係者を含む1,400人超が訓練を受けた。</p>
-<h2>住宅、病院、電力会社を備えた「捜査用の町」</h2>
-<p>KCRは、FBIのOperational Technology Divisionが運用する訓練施設で、FBIのハンツビル拠点にある。施設内には、家、ホテルの部屋、電力会社、病院、ガソリンスタンドなどが並び、小さな町のような環境が作られている。</p>
-<p>公開した動画では、裁判所、データセンター、アーケード、ビジネスセンターなども紹介されている。サイバー攻撃やデジタル証拠の捜査を、机上の演習ではなく、実際の現場に近い空間で学ぶための施設である。</p>
-<p>FBIのハンツビル拠点は、アラバマ州のRedstone Arsenalに置かれている。FBIは同拠点を、訓練、データ分析、サイバーインテリジェンスの成長領域として位置付けてきた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=a8UMAc_8L5c">YouTube</a></p>
-<h2>教室型の訓練から、現場に近い演習へ</h2>
-<p>FBIは、従来の訓練では携帯電話や記録媒体、サーバーなどを教室で扱う形が中心だったと説明している。KCRでは、こうした理論や手順を、現実に近い状況へ持ち込む。</p>
-<p>たとえば、訓練生は車両の電子制御ユニットを取り外してデータを抽出したり、家庭内のIoT機器から押収すべきデバイスを判断したりする。企業ネットワーク内のデータにアクセスし、現場で何を収集し、何を収集しないかを判断する訓練も含まれる。</p>
-<p>KCRが扱うのは、サイバー攻撃の技術的な解析だけではない。デジタル証拠をどう扱うか、被害組織や関係者にどう説明するか、捜査の範囲をどう定めるかも訓練対象になる。</p>
-<h2>病院ランサムウェアやデータセンターも想定</h2>
-<p>施設内では、病院ネットワークがランサムウェア攻撃を受けた場面や、データセンターで多数のサーバーに対応する場面などが想定されている。FBIは、200台超のサーバーを備えたデータセンターでの訓練にも触れている。</p>
-<p>訓練にはロールプレイも組み込まれている。企業幹部や法務担当者を演じるスタッフに対し、訓練生が聞き取りを行い、どのデータを収集するのか、なぜ必要なのかを説明する。サイバー捜査では、技術的な解析力だけでなく、組織との調整や説明も重要になるためだ。</p>
-<p>KCRはFBI職員だけの施設ではない。公式動画では、NASA、米陸軍、地域の法執行機関なども訓練に参加していることが紹介されている。サイバー攻撃が企業、公共機関、重要インフラにまたがるなか、関係機関が共通の環境で演習する場にもなっている。</p>
-<h2>変化する脅威に合わせて訓練内容を更新</h2>
-<p>FBIは、KCRの訓練シナリオを新しい脅威や技術に合わせて更新していく方針だ。接続デバイス、IoT、ドローン、車両フォレンジック、新しい形のサイバー犯罪などが対象になる。</p>
-<p>サイバー犯罪は、PCやサーバーの中だけで完結しなくなっている。住宅内のスマート機器、車両、医療機関、電力会社、ガソリンスタンドなど、現実空間の機器やインフラと結びつく場面が増えている。KCRは、そうした捜査の変化に合わせ、教室では再現しにくい現場判断を訓練する施設として運用されている。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
       <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
       <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、『ミッドサマー』『Backrooms』のA24とAI研究で提携　映画制作のワークフロー開発へ</title>
-      <link>https://ledge.ai/articles/google_deepmind_a24_ai_research_partnership</link>
-      <description><![CDATA[<p>Google DeepMindは2026年6月22日、米独立系映画スタジオA24との研究提携を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/">発表</a>した。映画制作者が新しいワークフローや制作手法を開発できるよう、複数のプロジェクトで研究開発を進める。</p>
-<p>A24は、アカデミー賞作品賞を受賞した『エブリシング・エブリウェア・オール・アット・ワンス』や、ホラー映画『ミッドサマー』、YouTube発のホラー作品として注目された『Backrooms』などを手がける独立系映画スタジオである。<a href="https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe">Wall Street Journal</a>は、GoogleがA24に約7500万ドルを投資していると報じている。</p>
-<h2>映画制作者のワークフロー開発で協力</h2>
-<p>今回の提携は、特定のAI製品や映画制作ツールの提供開始ではなく、研究開発を目的とした協力として発表された。Google DeepMindとA24は、複数のプロジェクトを通じて、映画制作者が使う新しい技術や制作ワークフローの開発に取り組む。</p>
-<p>Google DeepMindは、将来のツールは実際に使うクリエイター自身によって形づくられるべきだとしている。A24の映画制作者が制作プロセスのなかでGoogle DeepMindの技術に触れ、研究者側は現場からのフィードバックや助言を得る構図になる。</p>
-<p>同社は、A24の映画制作者とGoogle DeepMindの研究者が並行してテスト、反復、構築を進めることで、次世代エンターテインメントと先端技術の距離を縮めるとしている。</p>
-<h2>作家性の強い映画をブランド化してきたA24</h2>
-<p>A24は、映画作家の個性を前面に出した作品づくりで知られる独立系映画スタジオである。『ムーンライト』や『エブリシング・エブリウェア・オール・アット・ワンス』でアカデミー賞作品賞を受賞し、『ミッドサマー』『ヘレディタリー／継承』などのホラー作品でも、作品そのものとスタジオ名が結びつくような存在感を築いてきた。</p>
-<p>Kane Parsons氏による『Backrooms』も、そうしたA24の現在地を示す作品のひとつだ。YouTubeで話題になったホラー映像シリーズをもとにした長編映画で、全米公開後に大きな反響を呼び、日本公開も決まっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bakrooms_89b5451581/bakrooms_89b5451581.jpg" alt="bakrooms.jpg" /></p>
-<p>今回の提携で特徴的なのは、Google DeepMindが研究開発の相手として、伝統的な大手映画会社ではなくA24を選んだ点である。映画賞で評価される作家性の強い作品から、若い世代に届くネット発の映像文化まで接点を持つA24と、映画制作者が実際に使うワークフローのなかでAI研究を進めることになる。</p>
-<h2>研究提携にあわせGoogleがA24へ投資</h2>
-<p>Googleは今回の提携にあわせ、A24への投資も明らかにしている。Wall Street Journalは、投資額が約7500万ドル、日本円で約121億円にのぼると報じた。</p>
-<p>Google DeepMindは今回の提携を、「研究と共有された好奇心に根ざした共同の旅の始まり」と位置づけている。映画制作の現場で生まれる発想や課題を取り込みながら、AI研究を次世代のエンターテインメント制作につなげようとする動きといえる。</p>
-<p><strong>Google DeepMind共同創業者兼CEOのDemis Hassabis氏のコメント：</strong> 映画制作者と初期段階から協力し、アーティストの創造的なビジョンを支えるAI機能を構築するとしている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5.webp" alt="DemisQuote_withtitle.width-1000.format-webp.webp" /></p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Gemini 3.5 Flashに画面操作機能「Computer Use」を統合　ブラウザ・モバイル・デスクトップ操作に対応</title>
-      <link>https://ledge.ai/articles/google_gemini_3_5_flash_computer_use_integration</link>
-      <description><![CDATA[<p>Googleは2026年6月24日（現地時間）、AIモデル「Gemini 3.5 Flash」で、AIエージェントがコンピュータ画面を認識し、クリックやキーボード入力などの操作を生成する「Computer Use」を組み込みツールとして利用できるようにしたと<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/6/27 [SAT]IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
-      <link>https://ledge.ai/articles/ibm_1nm_chip_nanostack</link>
-      <description><![CDATA[<p>IBMは2026年6月25日（現地時間）、世界初を謳う1nm未満世代の半導体チップ技術を<a href="https://jp.newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">発表</a>した。0.7nm、すなわち7オングストローム・ノードにおけるトランジスター・アーキテクチャを特徴とし、爪ほどのサイズのチップに約1000億個のトランジスターを集積する。</p>
-<p>同技術では、3Dチップ構造「ナノスタック」を採用する。IBMは、2021年に発表した2nmチップと比べてほぼ2倍の密度を実現し、2nmノード・チップ比で最大50％の性能向上、または最大70％のエネルギー効率向上が見込まれるとしている。生成AIやクラウドインフラなど、計算需要が増大する領域での応用が想定される。</p>
-<h2>爪サイズに約1000億個のトランジスター</h2>
-<p>今回の発表は、商用製品の発売ではなく、次世代半導体に向けたチップ技術とトランジスター・アーキテクチャの発表である。半導体分野で使われる「nm」は、現在ではチップ内の部品寸法をそのまま表すものではなく、製造技術の世代を示す呼び方として使われている。1nm未満世代のチップ技術も、チップ内の構造が一律に1nm未満で作られていることを意味しない。</p>
-<p>IBMの新技術では、爪ほどのサイズのチップ上に約1000億個のトランジスターを集積する。限られた面積により多くのトランジスターを載せることは、スマートフォンやPC、サーバー、通信機器、重要インフラなどの性能と省電力化に直結する。</p>
-<h2>3D構造「ナノスタック」で縦方向に積層</h2>
-<p>技術の中核にあるのが、IBMが開発した3Dチップ・アーキテクチャ「ナノスタック」である。従来のように平面方向へ小さくするだけでなく、トランジスターを垂直方向に積層し、水平方向にもずらして配置することで、同じ面積により多くのトランジスターを載せる。</p>
-<p><strong>IBMの1nm未満世代チップ技術を示す断面画像。右図ではシリコン原子15列のスケールが示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IBM_Research_TEM_4_1f45c03e3e/IBM_Research_TEM_4_1f45c03e3e.jpg" alt="IBM-Research_TEM_4.jpg" /></p>
-<p>IBM Researchは、7オングストローム設計について、ウェハー接合、SRAMスケーリング、チャネル材料の革新など、複数の技術的な進展によって実現したと<a href="https://research.ibm.com/blog/sub-1nm-node-chips">説明</a>している。積層された各層で異なる材料を使えるため、トランジスターごとに性能と電力効率を最適化しやすくなる。</p>
-<h2>AI計算基盤の高密度化へ</h2>
-<p>IBMは、1nm未満世代のチップ技術が、生成AIやクラウドインフラ、次世代電子機器などの計算基盤に影響を及ぼすとしている。AIモデルの大規模化に伴い、計算性能だけでなく、電力効率やオンチップメモリの性能も重要性を増している。</p>
-<p>IBM Researchは、現在の一般的なAIアクセラレーターが約1500TOPSの処理性能を持つのに対し、7オングストローム技術を使うAIアクセラレーターでは約9000TOPS相当の可能性があると見積もっている。また、ナノスタック構造により、SRAMを40％スケーリングできると説明している。SRAMはチップ上に配置される高速メモリで、AI処理ではデータを計算ユニットへ効率よく供給する役割を持つ。</p>
-<p>ナノスタック技術についてIBMは、早ければ今後5年以内に生産へ進む道筋があるとしている。今回の発表は、具体的な商用製品や量産開始時期を示すものではなく、1nm未満世代に向けた研究開発上の成果と位置づけられる。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ノルウェー、小学生のAI利用を原則認めず　基礎学力への影響を懸念</title>
-      <link>https://ledge.ai/articles/norway_ai_school_restrictions</link>
-      <description><![CDATA[<p>ノルウェー政府は2026年6月19日、小学校にあたる1〜7年生について、学校活動で児童自身がAIを使うことを原則認めない方針を<a href="https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/">発表</a>した。2026年秋の新学期から適用する全国勧告として、Utdanningsdirektoratet（ノルウェー教育訓練局）に対し、学校開始前に新たな勧告を公表するよう求めている。</p>
-<h2>小学校では原則使わず、中高では段階的に活用</h2>
-<p>今回の方針は、AIを学校教育から一律に排除するものではなく、児童生徒の年齢や成熟度に応じて利用範囲を分けるものだ。1〜7年生は、学校での学習において自らAIを使うことを原則避ける。8〜10年生では、教師が十分な知識を身につけたうえで、段階的かつ慎重にAIを活用できる。高校段階では、進学や就労に備え、AIを適切に使う力を学ぶことが求められる。</p>
-<p>ヨーナス＝ガール・ストーレ首相は同日の<a href="https://www.regjeringen.no/no/aktuelt/statsministerens-innledning-pa-halvarlig-oppsummerende-pressekonferanse/id3166866/">半期総括会見</a>で、小学校の児童は原則としてAIにアクセスすべきではないと説明した。中学校では段階的・慎重に、高校では将来の教育や仕事に向けてAIを使う準備を進めるという考えを示している。</p>
-<h2>読み書き計算を優先、個別支援では例外も</h2>
-<p>背景にあるのは、読み書き計算などの基礎学力への危機感だ。政府は、学校で最も重要なのは児童が自ら読み、書き、計算を学ぶことだと位置づけている。生成AIを無批判に使えば、学習に必要な段階を飛ばすおそれがある。政府は、PISAやPIRLSなどの国際調査でノルウェーの児童生徒の基礎的能力が大きく低下していることにも言及している。</p>
-<p>一方で、AIの利用が例外なく排除されるわけではない。教育相は、さまざまな理由でAIベースのツールを必要とする児童生徒には利用機会を確保するとしている。たとえば、言語学習や個別に調整された学習支援では、AIが学習を促す場合がある。教育訓練局も、<a href="https://www.udir.no/kvalitet-og-kompetanse/digitalisering-skole/kunstig-intelligens-i-skolen/Utvikle_elevenes_kompetanse/">学校におけるAI利用の整理</a>のなかで、特別なニーズや個別最適な学習支援など、例外が成立し得る場面の検討を進めている。</p>
-<h2>紙の教科書や学習指導要領の見直しも</h2>
-<p>ノルウェー政府は同日、学校改革の一環として、AI利用の年齢別勧告に加え、紙の教科書へのアクセスを法制化する方針や、学習指導要領の見直しも示した。<a href="https://www.regjeringen.no/no/aktuelt/slik-vil-regjeringen-endre-skolehverdagen/id3167032/">教育省の発表</a>では、1〜7年生にAIへのアクセスを原則与えないこと、8〜10年生では教師の能力形成を前提に慎重に使うこと、高校ではAIを適切に使う力を身につけることが、学校生活を変える施策の一部として整理されている。</p>
-<p>ノルウェーでは、学校現場でのAI利用がすでに広がっている。政府が<a href="https://www.regjeringen.no/no/aktuelt/bruk-av-ki-oker-i-skolen-kunnskapsministeren-varsler-grep/id3146819/">2026年1月に公表した情報</a>では、AIツールは基礎学校の約4分の3、高校の90％超で児童生徒に使われているとされた。今回の勧告は、利用拡大が先行するなかで、低年齢層の学習への影響や教師側の準備状況を踏まえ、国として導入の線引きを明確にする動きといえる。</p>
-<p>生成AIを教育にどう取り入れるかは、各国の学校現場で重要な論点になっている。ノルウェーの方針は、AI活用そのものを否定するのではなく、小学校段階では基礎学力と自分で考える力を優先し、上級学年で段階的に扱うという考え方を示したものだ。低年齢層にどこまでAIを使わせるべきかをめぐる議論は、今後も各国の教育政策で焦点になりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA、ロボット向け安全システム「Halos for Robotics」発表　フィジカルAIの実運用を支援</title>
-      <link>https://ledge.ai/articles/nvidia_halos_for_robotics_safety_system</link>
-      <description><![CDATA[<p>NVIDIAは2026年6月22日（現地時間）、ロボティクスとフィジカルAI向けの包括的な安全システム「NVIDIA Halos for Robotics」を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、初の独自AIチップ「Jalapeño（ハラペーニョ）」をBroadcomと発表　LLM推論向けに設計</title>
-      <link>https://ledge.ai/articles/openai_broadcom_jalapeno_ai_chip</link>
-      <description><![CDATA[<p>OpenAIと半導体大手の米Broadcomは6月24日、OpenAIが設計した初のAIチップ「Jalapeño（ハラペーニョ）」を<a href="https://openai.com/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。大規模言語モデル（LLM）の推論処理に最適化したチップで、ChatGPT、Codex、API、将来のエージェント製品など、OpenAIが運用するサービスの利用実態を踏まえて設計した。</p>
-<p>同チップは、OpenAIが「Intelligence Processor」と位置づける初のAIアクセラレーターである。両社は、複数世代にわたる計算基盤の第一歩として展開し、先端AIをより高速で、信頼性が高く、より多くの人が利用しやすいものにする基盤とする。</p>
-<h2>ChatGPTやCodexの運用知見をチップ設計に反映</h2>
-<p>このAIアクセラレーターは、既存のAIワークロード向けチップをLLM推論に転用するのではなく、現代のLLM推論を前提に設計された。OpenAIは、モデル、カーネル、サービングシステム、製品ニーズに関する知見をもとに、チップアーキテクチャ、メモリシステム、ネットワーク、スケジューリング、デプロイメントシステムまでを一体で最適化する方針を示している。</p>
-<p>OpenAIのハードウェアプログラムを率いるRichard Ho氏は、研究チームとの協業から得た知見をもとに、フロンティアAIモデルで重要になるカーネル、メモリ移動、ネットワーク、サービングパターンに合わせて設計したとする。エンジニアリングサンプルはすでにラボで稼働しており、GPT-5.3-Codex-Sparkを含むMLワークロードを、量産目標の周波数と電力で動かしている。</p>
-<p>OpenAIは、今回のチップについて、自社のワークロードに閉じた専用設計ではなく、現在および将来のLLMに対応できる柔軟性を持たせた設計としている。狙いは、主要AIアクセラレーターが持つ計算能力とスループットに、専用推論システムに近い低遅延性を組み合わせることにある。</p>
-<h2>初期設計から9カ月でテープアウト</h2>
-<p>OpenAIとBroadcomは、初期設計から製造テープアウトまで9カ月で共同開発した。開発では、OpenAIのエンジニアリングチームとBroadcomのシリコン実装の専門性に加え、OpenAIのモデルも設計や最適化の一部に活用した。</p>
-<p>OpenAIは、同じモデルがユーザー向けサービスを支えるだけでなく、将来のモデルを動かすインフラの改善にも使われていると位置づける。AIがチップ設計を支援することで、計算資源のコスト低減や、先端AIへのアクセス拡大につながる可能性を示した。</p>
-<h2>2026年末までに初期展開へ</h2>
-<p>OpenAIとBroadcomは2025年10月、OpenAI設計のAIアクセラレーターを10ギガワット規模で展開する協業を<a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">発表</a>していた。Broadcomは、AIアクセラレーターとネットワークシステムを組み込んだラックの展開を2026年後半に始め、2029年末までの完了を目指すとしている。</p>
-<p>今回のチップは、2026年末までの初期展開を想定している。Broadcomのシリコン実装、ネットワーク、接続技術に加え、Celesticaがボード、ラック、システム面の専門性を担う。</p>
-<p>OpenAIは最終性能を現在も測定中としている。初期テストでは、現行の最先端チップよりもワット当たり性能が大幅に高くなる見込みだが、ベンチマーク数値や詳細仕様はまだ公表していない。性能に関する詳細な技術レポートは、今後数カ月以内に示す予定だ。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、サイバー防御向けAI「GPT-5.5-Cyber」を更新　Claude Mythos 5の公表値を上回る85.6％</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_5_cyber_codex_security_update</link>
-      <description><![CDATA[<p>OpenAIは2026年6月22日（現地時間）、サイバーセキュリティ向けの取り組み「Daybreak」を拡張し、セキュリティ研究者向けAIモデル「GPT-5.5-Cyber」のアップデート版と、Codexにセキュリティ対策機能を追加する「Codex Security」プラグインの更新を<a href="https://openai.com/index/daybreak-securing-the-world/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
-      <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
-<p>現時点での提供先は、一部の信頼されたパートナーや組織に限られる。利用できる環境はOpenAI APIとCodexで、プレビュー期間中はChatGPTからは利用できない。OpenAIは今後数週間で、ChatGPT、Codex、APIへ提供範囲を広げる計画だ。</p>
-<h2>性能、価格、速度で分けた3モデル構成</h2>
-<p>GPT-5.6 Solは、今回のシリーズで最上位に位置付けられるフラッグシップモデルである。ソフトウェアエンジニアリング、コンピュータ操作、専門知識を使う業務、科学研究、サイバーセキュリティなどで性能を高めた。</p>
-<p>Terraは、日常業務向けのバランス型モデルとなる。GPT-5.5に対して競争力のある性能を持ちながら、価格を2分の1に抑えた。Lunaは3モデルの中で最も高速かつ低価格なモデルで、コスト効率を重視する用途を想定する。</p>
-<p>OpenAIはGPT-5.6から、新たな命名体系も導入した。数字はモデルの世代を示し、Sol、Terra、Lunaは性能階層を表す。性能、速度、価格の違いを明確にし、開発者や企業が用途に応じて選びやすくする狙いがある。</p>
-<h2>コーディング、科学研究、サイバーセキュリティで性能向上</h2>
-<p>GPT-5.6 Solには、より深い推論に時間を使う「max」reasoning effortが導入された。複数のサブエージェントを使って複雑な作業を進める「ultra」モードも追加される。</p>
-<p>コーディング分野では、コマンドライン上での計画、反復、ツール連携を評価するTerminal-Bench 2.1で性能を伸ばした。科学研究では、長期的なゲノミクス解析や定量生物学のワークフローを評価するGeneBench v1で、GPT-5.5を上回る結果を出しながら、使用トークン数を抑えた。</p>
-<p>サイバーセキュリティ分野でも、脆弱性研究や攻撃経路の分析を含む長期的なタスクで性能を高めている。ExploitBenchでは、GPT-5.6 SolがMythos Previewに近い性能を、約3分の1の出力トークンで示した。</p>
-<p><strong>TerminalBench 2.1でのスコア比較。GPT-5.6 Sol Ultraが91.9%、GPT-5.6 Solが88.8%を記録している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Terminal_Bench_2_1_1cbdf7b80c/Terminal_Bench_2_1_1cbdf7b80c.png" alt="TerminalBench 2.1.png" /></p>
-<h2>高リスク用途を意識し、まずは限定提供</h2>
-<p>OpenAIは、<a href="https://deploymentsafety.openai.com/gpt-5-6-preview">GPT-5.6 Preview System Card</a>でSol、Terra、Lunaの3モデルをサイバーセキュリティと生物・化学リスクの両方で「High capability」に分類した。一方で、最上位の「Critical」には達していない。</p>
-<p>GPT-5.6 SolとTerraは、脆弱性や攻撃の一部を見つける能力を持つ。ただし、テスト条件下では、強化された対象に対する自律的なエンドツーエンド攻撃を実行する段階には至らなかった。</p>
-<p>OpenAIは、コードレビュー、脆弱性研究、パッチ開発、デバッグ、セキュリティ教育、防御的テストなどの正当な利用を維持しながら、禁止された攻撃的利用を難しく、不確実で、検出しやすくする方針を取る。</p>
-<p>今回の限定プレビューは、こうした高リスク領域への対応も踏まえたものだ。OpenAIは米政府との継続的なやりとりの一環として、公開前に計画やモデル能力を共有し、まず少数の信頼されたパートナーに提供する。</p>
-<h2>ChatGPTでの利用は今後数週間で</h2>
-<p><a href="https://help.openai.com/ar/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna">OpenAI Help Center</a>によると、GPT-5.6の限定プレビューは広範なセルフサービス型プログラムではない。対象は、OpenAIのアカウント担当者を持つ一部の信頼されたパートナーや組織に限られる。個人ユーザー向けの公開申請やウェイトリストも用意されていない。</p>
-<p>API価格は100万トークンあたり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。GPT-5.6以降のモデルでは、明示的なキャッシュ区切りや30分以上のキャッシュ保持を含む、より予測しやすいプロンプトキャッシュも導入される。</p>
-<p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>プリファード、フルスクラッチ開発の国産生成AI基盤モデル「PLaMo 3.0 Prime」を正式提供　Reasoning／Non-reasoningモデルをAPI・オンプレで展開</title>
-      <link>https://ledge.ai/articles/preferred_networks_plamo_3_0_prime</link>
-      <description><![CDATA[<p>Preferred Networks（PFN）は2026年6月22日、フルスクラッチで開発する国産生成AI基盤モデル「[PLaMo 3.0 Prime」を正式に提供開始すると<a href="https://www.preferred.jp/ja/news/pr20260622">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm、Meta向け次世代サーバーCPU「Dragonfly C1000」発表　AIデータセンター本格参入へ</title>
-      <link>https://ledge.ai/articles/qualcomm_dragonfly_c1000_meta</link>
-      <description><![CDATA[<p>米Qualcommは6月24日（現地時間）、ニューヨークで開いた投資家向けイベント「Investor Day」で、AIデータセンター向け製品群「Qualcomm Dragonfly」のロードマップを<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-meta-announce-strategic-multi-generation-agreement-">発表</a>した。データセンター向けCPU「Qualcomm Dragonfly C1000」は、Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産を開始する予定だ。</p>
-<h2>Metaの次世代サーバーに採用へ</h2>
-<p>Qualcomm TechnologiesとMetaは、データセンターCPUをめぐる複数世代の協業を発表した。C1000は、Metaの拡大するコンピュート基盤を支えるCPUとして位置付けられる。</p>
-<p><strong>Qualcomm Dragonfly C1000 CPU。Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産開始予定とされている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dragonfly_C1000_CPU_f8251c82a0/Dragonfly_C1000_CPU_f8251c82a0.png" alt="DragonflyC1000CPU.png" /></p>
-<p>Qualcommは、C1000をエージェント型AI、汎用処理、AIヘッドノード向けに設計したデータセンターCPUとしている。カスタム設計の「Qualcomm Oryon」CPUコアを採用し、250を超えるコア数のチップレット設計、PCIe Gen 7とCXLへの対応、空冷・液冷の両対応などを特徴に挙げている。</p>
-<p>C1000の商用提供は2028年を見込む。Meta向けの協業では、Qualcommの初代C1000 CPUが2028年後半から生産に入る予定だ。</p>
-<h2>CPU、推論アクセラレーター、接続製品をまとめて展開</h2>
-<p>発表は、C1000単体ではなく、AIデータセンター向けの包括的な製品ロードマップとして示された。Qualcomm Dragonflyには、C1000 CPUのほか、「Qualcomm High Bandwidth Compute（HBC）」、「Qualcomm Dragonfly AI300」推論アクセラレーター、接続製品、カスタムシリコンが含まれる。</p>
-<p><strong>Qualcomm Dragonflyの製品ロードマップ。接続製品、カスタムシリコン、AIアクセラレーター、CPUを含む構成として示された</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qualcomm_investor_day2026_4_92e67bad43/qualcomm_investor_day2026_4_92e67bad43.jpg" alt="qualcomm investor day2026 4.jpg" /></p>
-<p>Qualcommは、生成AIやエージェント型AIの普及により、データセンターでAI推論需要が増えるとみている。Dragonflyでは、トークンあたりの電力効率や総所有コストを重視し、ラックスケールのAI推論基盤として展開する。</p>
-<p>同社はこれまで、スマートフォンやPC、自動車、IoT向けの低消費電力チップで事業を広げてきた。Dragonflyは、その省電力設計や接続技術をデータセンター領域に広げる取り組みとなる。</p>
-<h2>HBCでメモリ帯域と電力効率を重視</h2>
-<p>技術面では、HBCが大きな焦点となる。HBCは、計算処理と高帯域メモリを近づける3Dスタック型の近接メモリ計算アーキテクチャで、AI推論で課題になりやすいデータ移動やメモリ帯域の制約に対応する。</p>
-<p><strong>Qualcomm High Bandwidth Compute（HBC）のイメージ。AI推論で課題となるメモリ帯域や電力効率の改善を狙う</strong></p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45.jpg" alt="Qualcomm High Bandwidth Compute (HBC).jpg" /></p>
-<p>Qualcommは、AI250にHBC Gen 1、AI300にHBC Gen 2を組み込む計画だ。AI300は、AI200、AI250に続く第3世代のラックレベルAI推論プラットフォームとして位置付けられ、商用サンプリングは2028年を見込む。</p>
-<p>C1000も、オプションでHBCを接続したCPUベースの推論に対応する。GPU中心のAIインフラに対し、Qualcommは電力効率、メモリ帯域、ラック単位の推論性能を前面に出して、データセンター市場での存在感を高める考えだ。</p>
-<h2>Hugging Face連携とModular買収でソフトウェア面も補強</h2>
-<p>同日のInvestor Dayでは、Hugging Faceとの関係拡大も<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-hugging-face-expand-relationship-to-advance-open--d">発表</a>{target=”_blank”}された。両社は、Qualcommのデバイスからデータセンターまでのプラットフォームと、Hugging Faceのモデル基盤や開発者向けツールを結び、エッジとクラウドをまたぐAIモデルの展開や、エージェント型AIのオーケストレーションを進める。</p>
-<p>Qualcommはあわせて、AIソフトウェア企業Modularの買収でも<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-to-acquire-modular">合意</a>{target=”_blank”}した。Modularは、CPU、GPU、NPU、カスタムASICなど複数のハードウェア上でAIモデルを動かすためのソフトウェア基盤を手がける企業だ。買収は、通常の完了条件や規制当局の承認を前提に、2026年後半の完了を見込む。</p>
-<p>Qualcommは、C1000を起点とするCPUロードマップ、AI300などの推論アクセラレーター、Hugging Faceとの開発者エコシステム、Modularのソフトウェア基盤を組み合わせ、AIデータセンター向け事業を本格化する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=XNHoxQAiNFQ">YouTube</a></p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
-      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
-      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
-<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
-<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
-<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
-<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
-<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
-<h2>35Bモデルと評価ベンチマークを公開</h2>
-<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
-<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
-<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
-<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
-<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
-<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
-<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
-<h2>エージェント訓練用の仮想環境として活用</h2>
-<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
-<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
