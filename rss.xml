@@ -277,5 +277,31 @@
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
+    <item>
+      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
+      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
+      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
+<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
+<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
+<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
+<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
+<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
+<h2>35Bモデルと評価ベンチマークを公開</h2>
+<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
+<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
+<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
+<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
+<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
+<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
+<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
+<h2>エージェント訓練用の仮想環境として活用</h2>
+<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
+<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
