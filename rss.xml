@@ -247,5 +247,35 @@
 ]]></description>
       <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
+    <item>
+      <title>Qualcomm、Meta向け次世代サーバーCPU「Dragonfly C1000」発表　AIデータセンター本格参入へ</title>
+      <link>https://ledge.ai/articles/qualcomm_dragonfly_c1000_meta</link>
+      <description><![CDATA[<p>米Qualcommは6月24日（現地時間）、ニューヨークで開いた投資家向けイベント「Investor Day」で、AIデータセンター向け製品群「Qualcomm Dragonfly」のロードマップを<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-meta-announce-strategic-multi-generation-agreement-">発表</a>した。データセンター向けCPU「Qualcomm Dragonfly C1000」は、Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産を開始する予定だ。</p>
+<h2>Metaの次世代サーバーに採用へ</h2>
+<p>Qualcomm TechnologiesとMetaは、データセンターCPUをめぐる複数世代の協業を発表した。C1000は、Metaの拡大するコンピュート基盤を支えるCPUとして位置付けられる。</p>
+<p><strong>Qualcomm Dragonfly C1000 CPU。Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産開始予定とされている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Dragonfly_C1000_CPU_f8251c82a0/Dragonfly_C1000_CPU_f8251c82a0.png" alt="DragonflyC1000CPU.png" /></p>
+<p>Qualcommは、C1000をエージェント型AI、汎用処理、AIヘッドノード向けに設計したデータセンターCPUとしている。カスタム設計の「Qualcomm Oryon」CPUコアを採用し、250を超えるコア数のチップレット設計、PCIe Gen 7とCXLへの対応、空冷・液冷の両対応などを特徴に挙げている。</p>
+<p>C1000の商用提供は2028年を見込む。Meta向けの協業では、Qualcommの初代C1000 CPUが2028年後半から生産に入る予定だ。</p>
+<h2>CPU、推論アクセラレーター、接続製品をまとめて展開</h2>
+<p>発表は、C1000単体ではなく、AIデータセンター向けの包括的な製品ロードマップとして示された。Qualcomm Dragonflyには、C1000 CPUのほか、「Qualcomm High Bandwidth Compute（HBC）」、「Qualcomm Dragonfly AI300」推論アクセラレーター、接続製品、カスタムシリコンが含まれる。</p>
+<p><strong>Qualcomm Dragonflyの製品ロードマップ。接続製品、カスタムシリコン、AIアクセラレーター、CPUを含む構成として示された</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qualcomm_investor_day2026_4_92e67bad43/qualcomm_investor_day2026_4_92e67bad43.jpg" alt="qualcomm investor day2026 4.jpg" /></p>
+<p>Qualcommは、生成AIやエージェント型AIの普及により、データセンターでAI推論需要が増えるとみている。Dragonflyでは、トークンあたりの電力効率や総所有コストを重視し、ラックスケールのAI推論基盤として展開する。</p>
+<p>同社はこれまで、スマートフォンやPC、自動車、IoT向けの低消費電力チップで事業を広げてきた。Dragonflyは、その省電力設計や接続技術をデータセンター領域に広げる取り組みとなる。</p>
+<h2>HBCでメモリ帯域と電力効率を重視</h2>
+<p>技術面では、HBCが大きな焦点となる。HBCは、計算処理と高帯域メモリを近づける3Dスタック型の近接メモリ計算アーキテクチャで、AI推論で課題になりやすいデータ移動やメモリ帯域の制約に対応する。</p>
+<p><strong>Qualcomm High Bandwidth Compute（HBC）のイメージ。AI推論で課題となるメモリ帯域や電力効率の改善を狙う</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45/Qualcomm_High_Bandwidth_Compute_HBC_cac21eff45.jpg" alt="Qualcomm High Bandwidth Compute (HBC).jpg" /></p>
+<p>Qualcommは、AI250にHBC Gen 1、AI300にHBC Gen 2を組み込む計画だ。AI300は、AI200、AI250に続く第3世代のラックレベルAI推論プラットフォームとして位置付けられ、商用サンプリングは2028年を見込む。</p>
+<p>C1000も、オプションでHBCを接続したCPUベースの推論に対応する。GPU中心のAIインフラに対し、Qualcommは電力効率、メモリ帯域、ラック単位の推論性能を前面に出して、データセンター市場での存在感を高める考えだ。</p>
+<h2>Hugging Face連携とModular買収でソフトウェア面も補強</h2>
+<p>同日のInvestor Dayでは、Hugging Faceとの関係拡大も<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-hugging-face-expand-relationship-to-advance-open--d">発表</a>{target=”_blank”}された。両社は、Qualcommのデバイスからデータセンターまでのプラットフォームと、Hugging Faceのモデル基盤や開発者向けツールを結び、エッジとクラウドをまたぐAIモデルの展開や、エージェント型AIのオーケストレーションを進める。</p>
+<p>Qualcommはあわせて、AIソフトウェア企業Modularの買収でも<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-to-acquire-modular">合意</a>{target=”_blank”}した。Modularは、CPU、GPU、NPU、カスタムASICなど複数のハードウェア上でAIモデルを動かすためのソフトウェア基盤を手がける企業だ。買収は、通常の完了条件や規制当局の承認を前提に、2026年後半の完了を見込む。</p>
+<p>Qualcommは、C1000を起点とするCPUロードマップ、AI300などの推論アクセラレーター、Hugging Faceとの開発者エコシステム、Modularのソフトウェア基盤を組み合わせ、AIデータセンター向け事業を本格化する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=XNHoxQAiNFQ">YouTube</a></p>
+]]></description>
+      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
+    </item>
   </channel>
 </rss>
