@@ -95,6 +95,28 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
+      <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
+      <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
+<p>PHOTONは、現在のLLMで主流となっているTransformerと比較して、最大475倍のマルチクエリー性能を発揮するという。ここでいうマルチクエリー性能は、GPUリソース当たりのスループットを指す。単にLLMの精度や性能が475倍になるという意味ではなく、同じGPUリソースでより多くの出力を並列に生成できることが焦点となる。</p>
+<h2>Transformerの課題は、長文・同時処理で増えるメモリアクセス</h2>
+<p>生成AIの利用が広がるなか、LLMには長い文書を扱う処理や、多数のユーザーからの同時問い合わせに応答する処理が求められている。推論時により長く、多くの思考をさせることで性能を高める手法も広がっており、その分、計算資源への負荷は大きくなっている。</p>
+<p>現在主流のTransformerは、文章を細かなトークンに分解し、それぞれの関係を計算する。入力が長くなったり、同時に多くの問い合わせを処理したりすると、過去の情報を保持するためのメモリアクセスが増え、処理速度が落ちやすい。富士通は、こうした課題が長文処理や多数の同時利用で顕著になるとみている。</p>
+<p>PHOTONは、マルチエージェントのように複数の入出力を必要とする処理を、より少ないGPUリソースで扱うことを狙ったアーキテクチャだ。推論処理の効率を高めることで、GPUコストの削減につなげる。</p>
+<h2>トークン単位ではなく、意味単位で階層的に処理</h2>
+<p>PHOTONの特徴は、文章をトークン単位で平面的に処理するのではなく、意味のまとまりとして捉え、階層的に処理する点にある。</p>
+<p>通常のTransformerでは、生成の各ステップで過去のトークン列にアクセスしながら次のトークンを予測する。この仕組みは高い性能を支える一方、長文や多クエリー処理ではKVキャッシュの読み書きが増え、メモリ帯域がボトルネックになりやすい。</p>
+<p>PHOTONは、入力トークンを階層的に圧縮し、低レートの文脈状態として保持する。そこから軽量なトップダウンデコーダが細かなトークン表現を再構成することで、推論時に必要なメモリアクセスを抑える。<a href="https://arxiv.org/abs/2512.20687">arXivに掲載された論文</a>では、この仕組みを、水平なトークン単位の走査から、垂直方向・多解像度の文脈アクセスへ置き換える階層型自己回帰モデルとして位置づけている。</p>
+<h2>1.2Bモデルで約475倍、9クエリー統合でTransformerと同水準の性能</h2>
+<p>富士通は、600M、900M、1.2Bパラメータの各モデルサイズで数値実験を実施した。PHOTONは、従来のTransformerと比較してメモリ使用量を抑えながら、高い生成スループットを実現したという。</p>
+<p>特に1.2Bパラメータモデルでは、わずかな性能劣化と引き換えに、従来のTransformerと比べて約475倍のマルチクエリー計算能力を実現した。PHOTONは1回あたりの生成に必要なKVキャッシュ使用量が小さいため、同じGPUメモリ予算内で複数の生成結果を並列に得られる。</p>
+<p>富士通はあわせて、大量の出力を統合して性能を高める「マルチクエリー統合技術」も示している。同じ問題に対して少しずつ異なる複数の質問や候補を作り、その結果を統合することで、最終的な回答の正解率を高める。検証では、9クエリーを統合することで、従来のTransformerと同水準の性能を実現した。</p>
+<h2>ACL 2026のオーラルセッションで発表予定</h2>
+<p>PHOTONの成果は、2026年7月2日から米国サンディエゴで開催される自然言語処理分野の国際会議「[The 64th Annual Meeting of the Association for Computational Linguistics（ACL 2026）」のオーラルセッションで<a href="https://aip.riken.jp/news/acl2026/?lang=ja">発表</a>される予定だ。同社は今後、生成AI技術の効率を高め、GPUリソースや消費電力、運用コストの削減につなげる方針を示している。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google DeepMind、『ミッドサマー』『Backrooms』のA24とAI研究で提携　映画制作のワークフロー開発へ</title>
       <link>https://ledge.ai/articles/google_deepmind_a24_ai_research_partnership</link>
       <description><![CDATA[<p>Google DeepMindは2026年6月22日、米独立系映画スタジオA24との研究提携を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/">発表</a>した。映画制作者が新しいワークフローや制作手法を開発できるよう、複数のプロジェクトで研究開発を進める。</p>
