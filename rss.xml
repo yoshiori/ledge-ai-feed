@@ -71,6 +71,26 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
+      <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
+      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
+<h2>Claude Fable 5は7月1日から再開</h2>
+<p>Anthropicは6月12日、米政府がClaude Fable 5とClaude Mythos 5に輸出規制を適用したことを受け、両モデルのアクセスを<a href="https://www.anthropic.com/news/fable-mythos-access">全ユーザー向けに停止</a>していた。規制は米国内外の外国籍者を対象としていたが、Anthropicはリアルタイムで国籍を確認する確実な手段がなかったため、すべての顧客に対してアクセスを停止した。</p>
+<p>今回の発表により、Claude Fable 5は7月1日からグローバル提供を再開する。Pro、Max、Team、一部Enterpriseプランでは、7月7日まで週間利用上限の最大50％までClaude Fable 5が含まれる。その後はusage credits経由で利用できる。</p>
+<p>一方、Claude Mythos 5は全面的な提供再開ではない。Anthropicは、米政府が6月26日に承認したことを受け、一部の米国組織向けにClaude Mythos 5のアクセスを復旧した。今後は、Project Glasswingの国内外パートナーにアクセスを広げるため、政府との調整を続ける。</p>
+<h2>停止の背景にAmazon研究者の報告</h2>
+<p>Claude Fable 5とClaude Mythos 5は、Anthropicが6月9日に発表した最上位級のAIモデルである。両モデルは同じ基盤モデルを共有しているが、Claude Fable 5は一般利用向けに強いセーフガードを組み込んだモデルとして提供された。Claude Mythos 5は、一部領域のセーフガードを外したモデルで、防御的サイバーセキュリティ用途のProject Glasswingパートナー向けに限定提供されていた。</p>
+<p>Anthropicによると、6月12日の輸出規制は、Amazonの研究者がClaude Fable 5のセーフガードを回避する手法を見つけたとする報告を米政府が把握した後に出された。報告では、Fable 5にソフトウェア脆弱性を特定させる手法が示され、1件では脆弱性の悪用方法を示すコードも生成されたという。</p>
+<p>Anthropicは過去2週間、米政府やAmazonを含む関係者とともに報告内容を検証した。その結果、報告された手法はClaude Mythos 5級の独自のサイバー能力を引き出すものではなく、通常の防御的サイバーセキュリティ作業に関わる境界的な事例だったとしている。</p>
+<h2>安全分類器を更新、業界共通の評価枠組みも提案</h2>
+<p>Anthropicは今回、報告された挙動を対象にする新しい安全分類器を訓練した。Claude Fable 5へのリクエストが分類器によりブロックされた場合、ユーザーに通知され、そのリクエストはClaude Opus 4.8に送られる。新しい分類器は、Amazonの報告で示された特定の手法を99％超のケースでブロックするという。</p>
+<p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
+<p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
+<p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>FBI、町を丸ごと再現したサイバー捜査訓練施設を公開　住宅・病院・電力会社で実戦型訓練</title>
       <link>https://ledge.ai/articles/fbi_kinetic_cyber_range</link>
       <description><![CDATA[<p>米連邦捜査局（FBI）は2026年6月9日、米アラバマ州ハンツビルのFBIキャンパス内で運用するサイバー捜査訓練施設「<a href="https://www.fbi.gov/news/stories/inside-the-fbis-kinetic-cyber-range">Kinetic Cyber Range（KCR）</a>」の内部を公開した。</p>
@@ -95,7 +115,7 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
+      <title>学術＆研究2026/6/30 [TUE]富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
       <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
       <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
 <p>PHOTONは、現在のLLMで主流となっているTransformerと比較して、最大475倍のマルチクエリー性能を発揮するという。ここでいうマルチクエリー性能は、GPUリソース当たりのスループットを指す。単にLLMの精度や性能が475倍になるという意味ではなく、同じGPUリソースでより多くの出力を並列に生成できることが焦点となる。</p>
@@ -204,13 +224,6 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>NVIDIA、ロボット向け安全システム「Halos for Robotics」発表　フィジカルAIの実運用を支援</title>
-      <link>https://ledge.ai/articles/nvidia_halos_for_robotics_safety_system</link>
-      <description><![CDATA[<p>NVIDIAは2026年6月22日（現地時間）、ロボティクスとフィジカルAI向けの包括的な安全システム「NVIDIA Halos for Robotics」を<a href="https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、初の独自AIチップ「Jalapeño（ハラペーニョ）」をBroadcomと発表　LLM推論向けに設計</title>
       <link>https://ledge.ai/articles/openai_broadcom_jalapeno_ai_chip</link>
       <description><![CDATA[<p>OpenAIと半導体大手の米Broadcomは6月24日、OpenAIが設計した初のAIチップ「Jalapeño（ハラペーニョ）」を<a href="https://openai.com/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。大規模言語モデル（LLM）の推論処理に最適化したチップで、ChatGPT、Codex、API、将来のエージェント製品など、OpenAIが運用するサービスの利用実態を踏まえて設計した。</p>
@@ -253,13 +266,6 @@
 <p>Codexの利用拡大は、製品機能の広がりとも連動している。OpenAIは2026年6月2日、Codexがコーディングツールにとどまらず、レポート、スプレッドシート、プレゼンテーション、契約書、調査、データ分析、ワークフロー自動化などに使われているとする<a href="https://openai.com/index/codex-for-knowledge-work/">レポート</a>を公開していた。</p>
 <p>また、OpenAIの開発者向けドキュメントでは、Codexアプリの<a href="https://developers.openai.com/codex/app/computer-use">Computer Use機能</a>について、macOSやWindows上のグラフィカルユーザーインターフェースを見て操作できる機能として紹介されている。ブラウザ操作、アプリ設定の変更、GUI上でしか再現しない不具合の検証、複数アプリをまたぐ作業などが対象となる。一方で、Codexが操作できるのはユーザーが許可したアプリに限られ、権限確認や安全上の注意も必要になる。</p>
 <p>今回の論文は、OpenAI社内の利用状況が一般的な組織をそのまま代表するものではないとも明記している。OpenAIは、AIモデルへの習熟度が高く、利用制限が少なく、社内の知識共有も活発な特殊な環境にあるためだ。それでも、OpenAI社内で起きている変化は、AI利用の中心が「質問に答えるチャット」から「仕事を任せるエージェント」へ移りつつあることを示す事例といえる。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>プリファード、フルスクラッチ開発の国産生成AI基盤モデル「PLaMo 3.0 Prime」を正式提供　Reasoning／Non-reasoningモデルをAPI・オンプレで展開</title>
-      <link>https://ledge.ai/articles/preferred_networks_plamo_3_0_prime</link>
-      <description><![CDATA[<p>Preferred Networks（PFN）は2026年6月22日、フルスクラッチで開発する国産生成AI基盤モデル「[PLaMo 3.0 Prime」を正式に提供開始すると<a href="https://www.preferred.jp/ja/news/pr20260622">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
