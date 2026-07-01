@@ -166,6 +166,36 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表　Gemini Omni Flashは動画編集に対応</title>
+      <link>https://ledge.ai/articles/google_nano_banana_2_lite_gemini_omni_flash</link>
+      <description><![CDATA[<p>Googleは2026年6月30日（現地時間）、画像生成AI「Nano Banana」シリーズの新モデル「Nano Banana 2 Lite」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">発表</a>した。あわせて、動画の生成や会話型編集に対応する「Gemini Omni Flash」を、Google AI Studio、Gemini API、Gemini Enterprise Agent Platformで開発者向けに提供開始した。</p>
+<p>Nano Banana 2 Liteは、Nano Bananaファミリーで最も高速かつコスト効率の高いGemini Imageモデルと位置づけられる。Gemini Omni Flashは、テキスト、画像、動画を入力として扱い、自然言語の指示で動画を生成・編集できるモデルとなる。</p>
+<p><strong>■ Nano Bananaファミリーの比較。Nano Banana 2 Liteは、低レイテンシ・低コストの画像生成モデルとして位置づけられている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed.gif" alt="Copy_of_nb2-lite__model_table_light_V2.gif" /></p>
+<h2>Nano Banana 2 Liteは4秒で画像生成、1K画像あたり0.034ドル</h2>
+<p>Nano Banana 2 Liteは、画像生成・編集を高速かつ低コストに行うためのモデルだ。モデルIDは「gemini-3.1-flash-lite-image」。ラフ案の作成、インタラクティブなプロトタイピング、大量の画像生成など、速度とコストが重要になる用途を想定している。</p>
+<p>Googleの発表では、テキストから画像を4秒で生成でき、価格は1K画像あたり0.034ドル。既存の「Nano Banana（gemini-2.5-flash-image）」を利用している開発者には、Nano Banana 2 Liteへの移行も推奨している。</p>
+<p><strong>■ 画像生成・画像編集の評価、レイテンシ、価格の比較。Nano Banana 2 Liteは、速度とコストの低さを強く打ち出している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nb2_lite_benchmark_blog_0e453e2b46/nb2_lite_benchmark_blog_0e453e2b46.gif" alt="nb2-lite__benchmark_blog.gif" /></p>
+<p><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image">Gemini APIのモデルドキュメント</a>では、Nano Banana Liteは画像生成ファミリーの「効率性重視」のモデルとして説明されている。1K解像度、14種類のアスペクト比、複数ターンのローカル編集などに対応し、色の差し替え、ステッカー作成、背景調整といった軽量な編集にも向く。</p>
+<p>Nano Bananaファミリー全体では、Nano Banana 2 Liteが速度重視、Nano Banana 2が性能とコストのバランス重視、Nano Banana Proが複雑なプロ用途重視という位置づけになる。高精細な最終制作物よりも、下書きや大量生成、短い待ち時間での試行錯誤に適したモデルといえる。</p>
+<p><strong>■ 1分間に生成できる画像枚数の比較。Nano Banana 2 Liteは、短時間で多数の画像案を生成する用途を想定している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/howmany_animals_can_you_generate_10a1165e1b/howmany_animals_can_you_generate_10a1165e1b.jpg" alt="howmany animals can you generate.jpg" /></p>
+<h2>Gemini Omni Flashは動画を自然言語で編集</h2>
+<p>Gemini Omni Flashは、Geminiのマルチモーダル理解と動画生成・編集を組み合わせたモデルだ。Googleは5月にGemini Omniを発表しており、その最初のモデルとしてGemini Omni FlashをGeminiアプリ、Google Flow、YouTube Shorts向けに展開していた。今回、Google AI StudioとGemini APIを通じて、開発者向けにも提供された。</p>
+<p><a href="https://ai.google.dev/gemini-api/docs/changelog">Gemini APIのリリースノート</a>では、Gemini Omni Flashはパブリックプレビューとして公開され、モデルIDは「gemini-omni-flash-preview」となっている。テキストの説明から動画を生成したり、静止画をアニメーション化したりしたうえで、会話形式で出力を修正できる。動画は3〜10秒、720pで生成できる。</p>
+<p>特徴は、単に動画を作るだけでなく、自然言語で修正を重ねられる点にある。画像、テキスト、動画を組み合わせて場面の一貫性を保つ「マルチモーダル参照」や、テキスト・グラフィックと映像内の動作を結びつける表現にも対応する。</p>
+<p><strong>■ 動画編集における比較評価。Gemini Omni Flashは、全体的な好みと指示追従の両方で高いスコアを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca.webp" alt="Video_Editing__-Descending-_Ch.width-1000.format-webp.webp" /></p>
+<p>現時点では制約もある。Gemini Omni Flashの動画生成は現在10秒までで、より長い動画への対応は今後の予定となる。また、Gemini APIでは音声参照のアップロードやシーンの延長にはまだ対応していない。</p>
+<h2>画像生成から動画編集までをつなぐ開発者向け基盤に</h2>
+<p>Googleは、Nano Banana 2 LiteとGemini Omni Flashを組み合わせる使い方も示している。Nano Banana 2 Liteで高速に画像を生成し、その画像を参照素材としてGemini Omni Flashに渡すことで、静止画から動画を作成できる。</p>
+<p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
+<p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/6/27 [SAT]IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
       <link>https://ledge.ai/articles/ibm_1nm_chip_nanostack</link>
       <description><![CDATA[<p>IBMは2026年6月25日（現地時間）、世界初を謳う1nm未満世代の半導体チップ技術を<a href="https://jp.newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">発表</a>した。0.7nm、すなわち7オングストローム・ノードにおけるトランジスター・アーキテクチャを特徴とし、爪ほどのサイズのチップに約1000億個のトランジスターを集積する。</p>
