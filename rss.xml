@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、社内利用はChatGPT中心からCodex中心に　非技術部門にも広がり、業務AIエージェントの主役に</title>
+      <link>https://ledge.ai/articles/openai_codex_non_developer_usage</link>
+      <description><![CDATA[<p>OpenAIは2026年6月25日、AIエージェント「Codex」の利用実態を分析した研究論文「The Shift to Agentic AI: Evidence from Codex」を<a href="https://openai.com/index/how-agents-are-transforming-work/">公開した</a>。論文では、個人ユーザー、組織ユーザー、OpenAI社員の3つの集団を対象に、Codexがどのように使われているかを分析している。</p>
+<p>Codexはもともと、ソフトウェア開発を支援するAIエージェントとして登場した。OpenAIの<a href="https://openai.com/codex/">製品ページ</a>では、機能開発、リファクタリング、コードレビュー、テスト、リリース作業などを支援するツールとして位置づけられている。一方で今回の<a href="https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf">論文</a>は、Codexの用途が開発領域にとどまらず、文書作成、データ分析、コミュニケーション調整などの知識労働にも広がっていることを示した。</p>
+<h2>OpenAI社内ではChatGPT中心からCodex中心へ</h2>
+<p>変化が最も大きいのは、OpenAI社内での利用状況だ。OpenAIは、Codexが一般公開された当初、社内の業務AIツールとしてはChatGPTが中心だったとしている。</p>
+<p><strong>■ Codexが占める出力トークン比率の推移。OpenAI社内では99.8％に達する一方、組織ユーザーと個人ユーザーでは広がりに差がある</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Share_of_output_tokens_from_Codex_f366dde722/Share_of_output_tokens_from_Codex_f366dde722.png" alt="Share of output tokens from Codex.png" /></p>
+<p>2025年8月まで、OpenAI社員の平均的なCodex利用は、トークンベースで10％未満にとどまっていた。その後、Codexの機能拡張と利用拡大が進み、OpenAI社内ではCodexが主要な業務AIツールになった。</p>
+<p>OpenAIの発表によると、エンジニアリング部門が先行し、法務、財務、採用といった非技術部門でも2026年4月ごろにCodexが主要なAIツールになった。平均的なOpenAI社員では、現在、出力トークンの85％超をCodexが占めている。</p>
+<p><strong>■ OpenAI社内におけるCodex利用比率の推移。Engineeringに加え、Finance、Legal、RecruitingでもCodexの利用比率が大きく上昇している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Share_of_work_at_Open_AI_on_Codex_by_department_since_August_2025_cb2904ff20/Share_of_work_at_Open_AI_on_Codex_by_department_since_August_2025_cb2904ff20.png" alt="Share of work at OpenAI on Codex by department since August 2025.png" /></p>
+<p>論文ではさらに、2026年6月11日時点で、OpenAI社内におけるCodexとChatGPTの週間出力トークンのうち、Codexが99.8％を占めたとしている。ただし、これはOpenAI社内の利用データであり、外部の企業や個人ユーザー全体でChatGPTがCodexに置き換わったことを意味するものではない。</p>
+<h2>非開発者の利用増加が開発者を上回る</h2>
+<p>Codexの利用拡大で目立つのが、非開発者層の伸びだ。OpenAIは、2025年8月以降、非開発者ユーザーの増加率が開発者ユーザーを上回ったとしている。非開発者の週間ユーザー数は、個人ユーザーで137倍、組織ユーザーで189倍、OpenAI社内で12倍に増えた。</p>
+<p><strong>■ 非開発者ユーザーの増加推移。組織ユーザーと個人ユーザーで大きく伸びており、Codexの用途が開発者以外にも広がっていることを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Non_developer_66459fd971/Non_developer_66459fd971.png" alt="Non-developer.png" /></p>
+<p>もっとも、非開発者がエンジニアと同じ使い方をしているわけではない。OpenAIは、非開発者の利用拡大について、より多くの人が何らかのエージェント型作業にCodexを使い始めたことを示すものだとしている。社内では、非技術部門の社員が自動化、データ変換、ツール作成、デバッグ、構造化された分析など、従来は技術的な専門知識が必要だった作業にもCodexを使っている。</p>
+<p>Codexは、単に文章で答えるだけのAIではなく、複数ステップの作業を進めるAIとして使われている。論文は、従来のチャットボット型AIではユーザーとの対話が中心だったのに対し、エージェント型AIではユーザーが複数ステップのタスクを委任し、AIが外部ツールの利用、ファイル確認、コマンド実行、成果物の作成・修正を担うと位置づけている。</p>
+<h2>PC操作やSkillsが業務用途を広げる</h2>
+<p>Codexの利用拡大は、製品機能の広がりとも連動している。OpenAIは2026年6月2日、Codexがコーディングツールにとどまらず、レポート、スプレッドシート、プレゼンテーション、契約書、調査、データ分析、ワークフロー自動化などに使われているとする<a href="https://openai.com/index/codex-for-knowledge-work/">レポート</a>を公開していた。</p>
+<p>また、OpenAIの開発者向けドキュメントでは、Codexアプリの<a href="https://developers.openai.com/codex/app/computer-use">Computer Use機能</a>について、macOSやWindows上のグラフィカルユーザーインターフェースを見て操作できる機能として紹介されている。ブラウザ操作、アプリ設定の変更、GUI上でしか再現しない不具合の検証、複数アプリをまたぐ作業などが対象となる。一方で、Codexが操作できるのはユーザーが許可したアプリに限られ、権限確認や安全上の注意も必要になる。</p>
+<p>今回の論文は、OpenAI社内の利用状況が一般的な組織をそのまま代表するものではないとも明記している。OpenAIは、AIモデルへの習熟度が高く、利用制限が少なく、社内の知識共有も活発な特殊な環境にあるためだ。それでも、OpenAI社内で起きている変化は、AI利用の中心が「質問に答えるチャット」から「仕事を任せるエージェント」へ移りつつあることを示す事例といえる。</p>
+]]></description>
+      <pubDate>Tue, 30 Jun 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
       <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
       <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
@@ -293,33 +320,6 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、社内利用はChatGPT中心からCodex中心に　非技術部門にも広がり、業務AIエージェントの主役に</title>
-      <link>https://ledge.ai/articles/openai_codex_non_developer_usage</link>
-      <description><![CDATA[<p>OpenAIは2026年6月25日、AIエージェント「Codex」の利用実態を分析した研究論文「The Shift to Agentic AI: Evidence from Codex」を<a href="https://openai.com/index/how-agents-are-transforming-work/">公開した</a>。論文では、個人ユーザー、組織ユーザー、OpenAI社員の3つの集団を対象に、Codexがどのように使われているかを分析している。</p>
-<p>Codexはもともと、ソフトウェア開発を支援するAIエージェントとして登場した。OpenAIの<a href="https://openai.com/codex/">製品ページ</a>では、機能開発、リファクタリング、コードレビュー、テスト、リリース作業などを支援するツールとして位置づけられている。一方で今回の<a href="https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf">論文</a>は、Codexの用途が開発領域にとどまらず、文書作成、データ分析、コミュニケーション調整などの知識労働にも広がっていることを示した。</p>
-<h2>OpenAI社内ではChatGPT中心からCodex中心へ</h2>
-<p>変化が最も大きいのは、OpenAI社内での利用状況だ。OpenAIは、Codexが一般公開された当初、社内の業務AIツールとしてはChatGPTが中心だったとしている。</p>
-<p><strong>■ Codexが占める出力トークン比率の推移。OpenAI社内では99.8％に達する一方、組織ユーザーと個人ユーザーでは広がりに差がある</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Share_of_output_tokens_from_Codex_f366dde722/Share_of_output_tokens_from_Codex_f366dde722.png" alt="Share of output tokens from Codex.png" /></p>
-<p>2025年8月まで、OpenAI社員の平均的なCodex利用は、トークンベースで10％未満にとどまっていた。その後、Codexの機能拡張と利用拡大が進み、OpenAI社内ではCodexが主要な業務AIツールになった。</p>
-<p>OpenAIの発表によると、エンジニアリング部門が先行し、法務、財務、採用といった非技術部門でも2026年4月ごろにCodexが主要なAIツールになった。平均的なOpenAI社員では、現在、出力トークンの85％超をCodexが占めている。</p>
-<p><strong>■ OpenAI社内におけるCodex利用比率の推移。Engineeringに加え、Finance、Legal、RecruitingでもCodexの利用比率が大きく上昇している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Share_of_work_at_Open_AI_on_Codex_by_department_since_August_2025_cb2904ff20/Share_of_work_at_Open_AI_on_Codex_by_department_since_August_2025_cb2904ff20.png" alt="Share of work at OpenAI on Codex by department since August 2025.png" /></p>
-<p>論文ではさらに、2026年6月11日時点で、OpenAI社内におけるCodexとChatGPTの週間出力トークンのうち、Codexが99.8％を占めたとしている。ただし、これはOpenAI社内の利用データであり、外部の企業や個人ユーザー全体でChatGPTがCodexに置き換わったことを意味するものではない。</p>
-<h2>非開発者の利用増加が開発者を上回る</h2>
-<p>Codexの利用拡大で目立つのが、非開発者層の伸びだ。OpenAIは、2025年8月以降、非開発者ユーザーの増加率が開発者ユーザーを上回ったとしている。非開発者の週間ユーザー数は、個人ユーザーで137倍、組織ユーザーで189倍、OpenAI社内で12倍に増えた。</p>
-<p><strong>■ 非開発者ユーザーの増加推移。組織ユーザーと個人ユーザーで大きく伸びており、Codexの用途が開発者以外にも広がっていることを示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Non_developer_66459fd971/Non_developer_66459fd971.png" alt="Non-developer.png" /></p>
-<p>もっとも、非開発者がエンジニアと同じ使い方をしているわけではない。OpenAIは、非開発者の利用拡大について、より多くの人が何らかのエージェント型作業にCodexを使い始めたことを示すものだとしている。社内では、非技術部門の社員が自動化、データ変換、ツール作成、デバッグ、構造化された分析など、従来は技術的な専門知識が必要だった作業にもCodexを使っている。</p>
-<p>Codexは、単に文章で答えるだけのAIではなく、複数ステップの作業を進めるAIとして使われている。論文は、従来のチャットボット型AIではユーザーとの対話が中心だったのに対し、エージェント型AIではユーザーが複数ステップのタスクを委任し、AIが外部ツールの利用、ファイル確認、コマンド実行、成果物の作成・修正を担うと位置づけている。</p>
-<h2>PC操作やSkillsが業務用途を広げる</h2>
-<p>Codexの利用拡大は、製品機能の広がりとも連動している。OpenAIは2026年6月2日、Codexがコーディングツールにとどまらず、レポート、スプレッドシート、プレゼンテーション、契約書、調査、データ分析、ワークフロー自動化などに使われているとする<a href="https://openai.com/index/codex-for-knowledge-work/">レポート</a>を公開していた。</p>
-<p>また、OpenAIの開発者向けドキュメントでは、Codexアプリの<a href="https://developers.openai.com/codex/app/computer-use">Computer Use機能</a>について、macOSやWindows上のグラフィカルユーザーインターフェースを見て操作できる機能として紹介されている。ブラウザ操作、アプリ設定の変更、GUI上でしか再現しない不具合の検証、複数アプリをまたぐ作業などが対象となる。一方で、Codexが操作できるのはユーザーが許可したアプリに限られ、権限確認や安全上の注意も必要になる。</p>
-<p>今回の論文は、OpenAI社内の利用状況が一般的な組織をそのまま代表するものではないとも明記している。OpenAIは、AIモデルへの習熟度が高く、利用制限が少なく、社内の知識共有も活発な特殊な環境にあるためだ。それでも、OpenAI社内で起きている変化は、AI利用の中心が「質問に答えるチャット」から「仕事を任せるエージェント」へ移りつつあることを示す事例といえる。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Qualcomm、Meta向け次世代サーバーCPU「Dragonfly C1000」発表　AIデータセンター本格参入へ</title>
       <link>https://ledge.ai/articles/qualcomm_dragonfly_c1000_meta</link>
       <description><![CDATA[<p>米Qualcommは6月24日（現地時間）、ニューヨークで開いた投資家向けイベント「Investor Day」で、AIデータセンター向け製品群「Qualcomm Dragonfly」のロードマップを<a href="https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-meta-announce-strategic-multi-generation-agreement-">発表</a>した。データセンター向けCPU「Qualcomm Dragonfly C1000」は、Metaの次世代サーバーフリートに使われる計画で、2028年後半から生産を開始する予定だ。</p>
@@ -467,13 +467,6 @@
       <description><![CDATA[<p>Anthropicは2026年6月18日（現地時間）、AIコーディング支援ツール「Claude Code」でClaudeの挙動を指示する7つの方法を解説する<a href="https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more">公式ブログ</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 25 Jun 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>プリファード、フルスクラッチ開発の国産生成AI基盤モデル「PLaMo 3.0 Prime」を正式提供　Reasoning／Non-reasoningモデルをAPI・オンプレで展開</title>
-      <link>https://ledge.ai/articles/preferred_networks_plamo_3_0_prime</link>
-      <description><![CDATA[<p>Preferred Networks（PFN）は2026年6月22日、フルスクラッチで開発する国産生成AI基盤モデル「[PLaMo 3.0 Prime」を正式に提供開始すると<a href="https://www.preferred.jp/ja/news/pr20260622">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 25 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claude Codeは誰が何に使い、成果はどこで分かれるのか――Anthropicが利用データ40万件を分析</title>
