@@ -186,13 +186,6 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Gemini 3.5 Flashに画面操作機能「Computer Use」を統合　ブラウザ・モバイル・デスクトップ操作に対応</title>
-      <link>https://ledge.ai/articles/google_gemini_3_5_flash_computer_use_integration</link>
-      <description><![CDATA[<p>Googleは2026年6月24日（現地時間）、AIモデル「Gemini 3.5 Flash」で、AIエージェントがコンピュータ画面を認識し、クリックやキーボード入力などの操作を生成する「Computer Use」を組み込みツールとして利用できるようにしたと<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表　Gemini Omni Flashは動画編集に対応</title>
       <link>https://ledge.ai/articles/google_nano_banana_2_lite_gemini_omni_flash</link>
       <description><![CDATA[<p>Googleは2026年6月30日（現地時間）、画像生成AI「Nano Banana」シリーズの新モデル「Nano Banana 2 Lite」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">発表</a>した。あわせて、動画の生成や会話型編集に対応する「Gemini Omni Flash」を、Google AI Studio、Gemini API、Gemini Enterprise Agent Platformで開発者向けに提供開始した。</p>
@@ -219,6 +212,24 @@
 <p>Googleは、Nano Banana 2 LiteとGemini Omni Flashを組み合わせる使い方も示している。Nano Banana 2 Liteで高速に画像を生成し、その画像を参照素材としてGemini Omni Flashに渡すことで、静止画から動画を作成できる。</p>
 <p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
 <p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI・ボット・クローラーを排除し「人間にだけ届く広告」　博報堂DYが販売開始、サム・アルトマン氏らの虹彩認証「World ID」で人間証明</title>
+      <link>https://ledge.ai/articles/human_verified_ad_world_id_hakuhodo</link>
+      <description><![CDATA[<p>博報堂DYホールディングスは2026年6月29日、人間認証型アドネットワーク事業を手がける新会社「Ads for Humanity」を設立し、広告商品「Human-Verified Ad」の販売を始めたと<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2026/06/6582.html">発表</a>した。AIやボット、クローラーを排除し、人間にだけ広告を配信することを目指す。サム・アルトマン氏らが共同発明した人間認証技術「World ID」を活用する。</p>
+<p>World IDは、オンライン上で自分が本物の固有の人間であることを証明するための技術である。<a href="https://world.org/world-id">Worldの公式サイト</a>では、氏名、電話番号、メールアドレスなどの個人情報を共有せずに、ボットやAIシステムではないことを匿名で証明できる仕組みとされている。認証には専用デバイス「Orb」が使われ、虹彩画像などをもとに固有の人間であることを確認する。</p>
+<h2>AIエージェント時代に、人間だけを広告配信対象に</h2>
+<p>Ads for Humanityは、World IDの人間認証技術とLG Electronicsのブロックチェーン技術を基盤に、人間認証型アドネットワーク「Human-Verified Ad Network」を運営する。広告配信対象を人間認証されたユーザーに限定することで、AIエージェントやボットによる不正な広告接触を排除する。</p>
+<p>配信実績はブロックチェーンに記録され、改ざんできないエビデンスとして保存される。広告主は、自社広告が人間認証されたユーザーに対して配信されたことを検証できるという。広告商品「Human-Verified Ad」は、Hakuhodo DY ONEのマーケティングソリューション「WISE Ads」を通じて配信され、ディスプレイ広告、インフィード広告、動画広告に対応する。</p>
+<p>博報堂DYホールディングスは、AIエージェントの普及によって、広告配信と効果測定の前提が揺らぎつつあるとみている。従来のボットは機械的な動作が多く、一定の検知が可能だった。一方、最新のAIエージェントは、商品の比較検討、広告クリック、フォーム入力などを人間と区別しにくい形で実行できるようになっている。</p>
+<p>こうした非人間トラフィックが増えれば、広告費の不正詐取だけでなく、クリックや行動データに人間以外の行動が混入する。広告配信アルゴリズムが誤ったデータを学習すれば、生活者の実態から外れた最適化が進み、広告成果の低下にもつながりかねない。</p>
+<h2>2025年の実証実験を経て事業化</h2>
+<p>今回の事業化に先立ち、博報堂は2025年、LG Electronics、Tools for Humanityとともに、「Human-Verified Ad Network」の<a href="https://www.hakuhodo.co.jp/news/newsrelease/119834/">実証実験</a>を実施していた。食品、化粧品、家電、旅行、教育などの広告主10社、3500人超のユーザーが参加した。</p>
+<p>2026年の発表では、この実証実験について、従来型のWeb広告と比較してCTR（クリック率）が約10倍に向上し、直帰率が約15ポイント改善したとしている。博報堂DYホールディングスは、この成果を受け、人間認証型アドネットワーク事業を本格的に進めるため、2026年4月15日にAds for Humanityを設立した。</p>
+<p>Ads for Humanityは、博報堂DYホールディングスの100％出資会社で、所在地は東京都港区。代表者は森田英佑氏で、事業内容は人間認証型アドネットワーク事業となる。</p>
+<p>AIによる自律的な操作が広がるなか、インターネット上で「人間であること」をどう証明するかは、広告、SNS、マッチングアプリ、チケット販売など複数の領域で課題になっている。今回の取り組みは、World IDによる人間証明を広告配信の基盤に組み込み、人間に届いた広告だけを検証可能にする試みとなる。</p>
 ]]></description>
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
