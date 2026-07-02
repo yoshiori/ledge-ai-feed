@@ -356,6 +356,29 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始　RAG・安全運用まで見据えた5モデル構成</title>
+      <link>https://ledge.ai/articles/sb_intuitions_sarashina3_cloud_pf_type_a</link>
+      <description><![CDATA[<p>ソフトバンク傘下のSB Intuitionsは2026年6月30日、国産生成AI「Sarashina」の最新モデル群「Sarashina3シリーズ」の提供開始を<a href="https://www.sbintuitions.co.jp/news/press/20260630_01/">発表</a>した。ソフトバンクが提供するソブリン性を備えたクラウドサービス「Cloud PF Type A」で利用できる。標準モデル、軽量モデル、ガードモデル、ベクトル化モデル、リランキングモデルの5種類をそろえ、企業や自治体の業務利用を支援する。</p>
+<h2>5モデル構成で、生成から検索・安全運用まで対応</h2>
+<p>Sarashina3シリーズは、日本語応答性能や指示追従性能を高めた標準モデルに加え、業務利用に必要な周辺機能を担う専用モデルを組み合わせたモデル群だ。</p>
+<p>「Sarashina3 mini」は、性能と速度のバランスを重視した標準モデルで、外部APIを自律的に呼び出すエージェント機能や、数理的理解、コード生成能力を備える。「Sarashina3 nano」は、ビッグデータの分類や情報抽出など、定型タスクを大量に処理する用途を想定した軽量モデルとなる。</p>
+<p>安全運用向けには、入力・出力テキストの有害性を判定する「Sarashina3 guard」を用意した。有害と判定した場合は、過激な描写、情報漏えい、違法行為のほう助などのカテゴリコードも返す。生成AIを社内システムや顧客対応に組み込む際のフィルターとして活用できる。</p>
+<h2>RAG向けにembeddingとrerankも提供</h2>
+<p>RAG（検索拡張生成）向けには、「Sarashina3 embedding」と「Sarashina3 rerank」を提供する。embeddingはテキストの意味をベクトル化し、大量データから関連文書の候補を抽出するモデルだ。rerankは、embeddingで絞り込んだ候補文書をクエリとの関連度順に並べ替える。</p>
+<p>SB Intuitionsは、embeddingとrerankを組み合わせることで、RAGシステムにおけるハルシネーション抑制と回答精度向上につながるとしている。業務文書や社内ナレッジを生成AIと連携させる用途で、検索精度と安全性の両面を補う構成といえる。</p>
+<h2>30Tトークン以上で学習、エージェント能力も強化</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260605171344_4aa0bded34/20260605171344_4aa0bded34.png" alt="20260605171344.png" /></p>
+<p>SB Intuitionsの<a href="https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000">技術ブログ</a>{target=”_blank”}によると、Sarashina3 miniとSarashina3 nanoはフルスクラッチで開発された。事前学習では、日本語と英語を中心に30Tトークン規模のデータを利用し、独自の品質フィルタリングやデータ合成技術を取り入れたという。</p>
+<p>事後学習では、蒸留技術と多段階の強化学習を組み合わせ、指示追従、数学、ツール利用などの能力を前世代から向上させた。複数のツールを同時に呼び出す処理や、異なるツールを連続して使うマルチステップのエージェントタスクにも対応する。</p>
+<h2>国内クラウド上で企業・自治体向けに提供</h2>
+<p>提供基盤となるCloud PF Type Aは、Oracle Alloyを活用したクラウド基盤をソフトバンクの日本国内データセンターで管理・運用するサービスだ。ソフトバンクは、顧客データを国内で保管・管理できるデータ主権と、ソフトバンクによる運用・サポートを通じた運用主権を備えると説明している。</p>
+<p><strong>■ Cloud PF Type Aを活用した生成AIアプリケーションの構成例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca.webp" alt="media_153b3c50efe44d4054a8a539fe708db2c79ba785e.webp" /></p>
+<p>ソフトバンクは同日、Cloud PF Type A上でSarashinaを活用した生成AIサービスを<a href="https://www.softbank.jp/business/news/2026/0630-01">東日本のデータセンターで開始した</a>{target=”_blank”}。西日本のデータセンターでは、2026年10月に提供を始める予定だ。共有型ではSarashina3シリーズの5モデルを、専有型ではSarashina3 miniとSarashina3 nanoを提供する。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>東京外大、小規模語科のAI代替懸念に声明　教員置き換えを否定、28専攻語体制は維持へ</title>
       <link>https://ledge.ai/articles/tufs_ai_language_program_statement</link>
       <description><![CDATA[<p>東京外国語大学は2026年6月23日、同大の専攻言語教育をめぐり、いわゆる「小規模語科」の体制や生成AIの活用方針に関する懸念がSNS上で広がっていることを受け、学長である春名展生氏の名で<a href="https://www.tufs.ac.jp/NEWS/notice/260623_1.html">声明</a>を出した。大学側は、現行の28専攻語体制を縮小する考えはなく、教員を生成AIに置き換える考えもないとした。</p>
