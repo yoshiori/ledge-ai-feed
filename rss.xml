@@ -118,30 +118,6 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>FBI、町を丸ごと再現したサイバー捜査訓練施設を公開　住宅・病院・電力会社で実戦型訓練</title>
-      <link>https://ledge.ai/articles/fbi_kinetic_cyber_range</link>
-      <description><![CDATA[<p>米連邦捜査局（FBI）は2026年6月9日、米アラバマ州ハンツビルのFBIキャンパス内で運用するサイバー捜査訓練施設「<a href="https://www.fbi.gov/news/stories/inside-the-fbis-kinetic-cyber-range">Kinetic Cyber Range（KCR）</a>」の内部を公開した。</p>
-<p>KCRは、住宅やホテル、電力会社、病院、ガソリンスタンドなどを備えた約22,000平方フィート（約2,000平方メートル）の屋内訓練環境である。各施設には、現実の現場に近いシステム、ネットワーク、デバイスが組み込まれている。2025年2月の開設以降、FBI職員や他機関の関係者を含む1,400人超が訓練を受けた。</p>
-<h2>住宅、病院、電力会社を備えた「捜査用の町」</h2>
-<p>KCRは、FBIのOperational Technology Divisionが運用する訓練施設で、FBIのハンツビル拠点にある。施設内には、家、ホテルの部屋、電力会社、病院、ガソリンスタンドなどが並び、小さな町のような環境が作られている。</p>
-<p>公開した動画では、裁判所、データセンター、アーケード、ビジネスセンターなども紹介されている。サイバー攻撃やデジタル証拠の捜査を、机上の演習ではなく、実際の現場に近い空間で学ぶための施設である。</p>
-<p>FBIのハンツビル拠点は、アラバマ州のRedstone Arsenalに置かれている。FBIは同拠点を、訓練、データ分析、サイバーインテリジェンスの成長領域として位置付けてきた。</p>
-<p>@<a href="https://www.youtube.com/watch?v=a8UMAc_8L5c">YouTube</a></p>
-<h2>教室型の訓練から、現場に近い演習へ</h2>
-<p>FBIは、従来の訓練では携帯電話や記録媒体、サーバーなどを教室で扱う形が中心だったと説明している。KCRでは、こうした理論や手順を、現実に近い状況へ持ち込む。</p>
-<p>たとえば、訓練生は車両の電子制御ユニットを取り外してデータを抽出したり、家庭内のIoT機器から押収すべきデバイスを判断したりする。企業ネットワーク内のデータにアクセスし、現場で何を収集し、何を収集しないかを判断する訓練も含まれる。</p>
-<p>KCRが扱うのは、サイバー攻撃の技術的な解析だけではない。デジタル証拠をどう扱うか、被害組織や関係者にどう説明するか、捜査の範囲をどう定めるかも訓練対象になる。</p>
-<h2>病院ランサムウェアやデータセンターも想定</h2>
-<p>施設内では、病院ネットワークがランサムウェア攻撃を受けた場面や、データセンターで多数のサーバーに対応する場面などが想定されている。FBIは、200台超のサーバーを備えたデータセンターでの訓練にも触れている。</p>
-<p>訓練にはロールプレイも組み込まれている。企業幹部や法務担当者を演じるスタッフに対し、訓練生が聞き取りを行い、どのデータを収集するのか、なぜ必要なのかを説明する。サイバー捜査では、技術的な解析力だけでなく、組織との調整や説明も重要になるためだ。</p>
-<p>KCRはFBI職員だけの施設ではない。公式動画では、NASA、米陸軍、地域の法執行機関なども訓練に参加していることが紹介されている。サイバー攻撃が企業、公共機関、重要インフラにまたがるなか、関係機関が共通の環境で演習する場にもなっている。</p>
-<h2>変化する脅威に合わせて訓練内容を更新</h2>
-<p>FBIは、KCRの訓練シナリオを新しい脅威や技術に合わせて更新していく方針だ。接続デバイス、IoT、ドローン、車両フォレンジック、新しい形のサイバー犯罪などが対象になる。</p>
-<p>サイバー犯罪は、PCやサーバーの中だけで完結しなくなっている。住宅内のスマート機器、車両、医療機関、電力会社、ガソリンスタンドなど、現実空間の機器やインフラと結びつく場面が増えている。KCRは、そうした捜査の変化に合わせ、教室では再現しにくい現場判断を訓練する施設として運用されている。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2026/6/30 [TUE]富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
       <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
       <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
@@ -310,6 +286,27 @@
 <p>開発したモデルは、国内のモデル開発者やAI利活用事業者に広く提供する方針だ。Noetraと産総研は、研究開発成果のうち学習済みの重みを提供し、各産業の用途に応じた領域特化モデルの創出につなげるとしている。</p>
 <p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
 <p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Research、AIエージェント向け長期記憶システム「Memora」を公開　会話や作業履歴から必要な情報を効率検索</title>
+      <link>https://ledge.ai/articles/microsoft_research_memora_ai_agent_memory</link>
+      <description><![CDATA[<p>Microsoft Researchは2026年6月29日（現地時間）、AIエージェント向けの長期記憶システム「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を<a href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">公開</a>した。長期間にわたる会話や作業履歴を保存し、必要な情報だけを効率よく取り出すためのアーキテクチャである。論文は<a href="https://www.microsoft.com/en-us/research/publication/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">ICML 2026</a>に採択されており、コードも<a href="https://github.com/microsoft/Memora">GitHub</a>で公開されている。</p>
+<p>AIエージェントが長期的な作業を担うには、過去の会話、決定事項、制約、作業履歴を継続的に扱う必要がある。Microsoft Researchは、現在のAIエージェントについて、過去のやり取りを記憶できず、長いタスクでは関連情報を繰り返し与えるか、外部から取り出す必要があると説明している。会話や作業が長く複雑になるほど、この方法は効率が下がる。</p>
+<p>既存の大規模言語モデル（LLM）は、単体では過去の状態を保持しない。長い会話では履歴全体を読み直す必要があり、情報をそのまま保存すれば断片的でノイズが増え、要約すれば細かな条件や数値、判断の経緯が失われやすい。RAGのようにテキスト断片を検索する方法や、会話から事実を抽出する方法、ナレッジグラフを使う方法もあるが、Microsoft Researchは、これらには「詳細を残すこと」と「増え続ける記憶を効率よく整理すること」の間にトレードオフがあるとしている。</p>
+<h2>「保存する内容」と「取り出す手がかり」を分ける</h2>
+<p>Memoraは、この課題に対して「保存する内容」と「検索に使う手がかり」を分ける。記憶の中身である「memory value」には、会話や作業の詳細を保持する。一方、検索には「primary abstraction」と呼ぶ短い抽象表現を使う。Microsoft Researchによると、primary abstractionは記憶が何に関するものかを示す短いフレーズで、類似検索にはこの抽象表現だけを使う。</p>
+<p>さらにMemoraは、「cue anchors」と呼ぶ手がかりも使う。cue anchorsは、同じ記憶に別の経路からアクセスするための短いタグのような役割を持つ。これにより、単純な意味の近さだけでは見つけにくい関連情報にもたどり着けるようにする。</p>
+<p><strong>■ Memoraのアーキテクチャ概要</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_1_high_res_Memora_1_scaled_cb24624ab9/figure_1_high_res_Memora_1_scaled_cb24624ab9.png" alt="figure_1_high_res_Memora-1-scaled.png" /></p>
+<p>検索の仕組みも、一度だけ上位の類似項目を返す方式ではない。Memoraは、policy-guided retrieverと呼ぶ検索ポリシーを使い、クエリを更新しながら、cue anchorsを通じて関連する記憶へ探索を広げる。必要な記憶を取り出した時点で探索を止めるため、エージェントが過去の履歴全体を読み直さなくても、関連する情報にたどり着ける設計となっている。Microsoft Researchは、この検索ポリシーを強いLLMで制御する方法に加え、強化学習によって小型モデルに蒸留する方法も示している。</p>
+<h2>LoCoMoとLongMemEvalで評価</h2>
+<p>評価では、長期会話ベンチマークのLoCoMoとLongMemEvalが使われた。Microsoft Researchによると、MemoraはLoCoMoで86.3％、LongMemEvalで87.4％のLLM-judge accuracyを達成し、RAG、Mem0、Nemori、Zep、LangMem、フルコンテキスト推論を上回ったという。</p>
+<p><strong>■ LoCoMoにおける各手法の比較：</strong> MemoraはLLM-judgeで0.863を記録した
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_2_high_res_Memora_1_scaled_b07dc28523/figure_2_high_res_Memora_1_scaled_b07dc28523.png" alt="figure_2_high_res_Memora-1-scaled.png" /></p>
+<p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
+<p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
 ]]></description>
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
