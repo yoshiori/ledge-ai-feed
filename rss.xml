@@ -32,6 +32,54 @@
       <pubDate>Tue, 30 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>学術＆研究2026/6/30 [TUE]富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
+      <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
+      <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
+<p>PHOTONは、現在のLLMで主流となっているTransformerと比較して、最大475倍のマルチクエリー性能を発揮するという。ここでいうマルチクエリー性能は、GPUリソース当たりのスループットを指す。単にLLMの精度や性能が475倍になるという意味ではなく、同じGPUリソースでより多くの出力を並列に生成できることが焦点となる。</p>
+<h2>Transformerの課題は、長文・同時処理で増えるメモリアクセス</h2>
+<p>生成AIの利用が広がるなか、LLMには長い文書を扱う処理や、多数のユーザーからの同時問い合わせに応答する処理が求められている。推論時により長く、多くの思考をさせることで性能を高める手法も広がっており、その分、計算資源への負荷は大きくなっている。</p>
+<p>現在主流のTransformerは、文章を細かなトークンに分解し、それぞれの関係を計算する。入力が長くなったり、同時に多くの問い合わせを処理したりすると、過去の情報を保持するためのメモリアクセスが増え、処理速度が落ちやすい。富士通は、こうした課題が長文処理や多数の同時利用で顕著になるとみている。</p>
+<p>PHOTONは、マルチエージェントのように複数の入出力を必要とする処理を、より少ないGPUリソースで扱うことを狙ったアーキテクチャだ。推論処理の効率を高めることで、GPUコストの削減につなげる。</p>
+<h2>トークン単位ではなく、意味単位で階層的に処理</h2>
+<p>PHOTONの特徴は、文章をトークン単位で平面的に処理するのではなく、意味のまとまりとして捉え、階層的に処理する点にある。</p>
+<p>通常のTransformerでは、生成の各ステップで過去のトークン列にアクセスしながら次のトークンを予測する。この仕組みは高い性能を支える一方、長文や多クエリー処理ではKVキャッシュの読み書きが増え、メモリ帯域がボトルネックになりやすい。</p>
+<p>PHOTONは、入力トークンを階層的に圧縮し、低レートの文脈状態として保持する。そこから軽量なトップダウンデコーダが細かなトークン表現を再構成することで、推論時に必要なメモリアクセスを抑える。<a href="https://arxiv.org/abs/2512.20687">arXivに掲載された論文</a>では、この仕組みを、水平なトークン単位の走査から、垂直方向・多解像度の文脈アクセスへ置き換える階層型自己回帰モデルとして位置づけている。</p>
+<h2>1.2Bモデルで約475倍、9クエリー統合でTransformerと同水準の性能</h2>
+<p>富士通は、600M、900M、1.2Bパラメータの各モデルサイズで数値実験を実施した。PHOTONは、従来のTransformerと比較してメモリ使用量を抑えながら、高い生成スループットを実現したという。</p>
+<p>特に1.2Bパラメータモデルでは、わずかな性能劣化と引き換えに、従来のTransformerと比べて約475倍のマルチクエリー計算能力を実現した。PHOTONは1回あたりの生成に必要なKVキャッシュ使用量が小さいため、同じGPUメモリ予算内で複数の生成結果を並列に得られる。</p>
+<p>富士通はあわせて、大量の出力を統合して性能を高める「マルチクエリー統合技術」も示している。同じ問題に対して少しずつ異なる複数の質問や候補を作り、その結果を統合することで、最終的な回答の正解率を高める。検証では、9クエリーを統合することで、従来のTransformerと同水準の性能を実現した。</p>
+<h2>ACL 2026のオーラルセッションで発表予定</h2>
+<p>PHOTONの成果は、2026年7月2日から米国サンディエゴで開催される自然言語処理分野の国際会議「[The 64th Annual Meeting of the Association for Computational Linguistics（ACL 2026）」のオーラルセッションで<a href="https://aip.riken.jp/news/acl2026/?lang=ja">発表</a>される予定だ。同社は今後、生成AI技術の効率を高め、GPUリソースや消費電力、運用コストの削減につなげる方針を示している。</p>
+]]></description>
+      <pubDate>Tue, 30 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
+      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
+      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
+<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
+<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
+<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
+<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
+<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
+<h2>35Bモデルと評価ベンチマークを公開</h2>
+<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
+<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
+<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
+<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
+<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
+<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
+<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
+<h2>エージェント訓練用の仮想環境として活用</h2>
+<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
+<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
+]]></description>
+      <pubDate>Mon, 29 Jun 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
       <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
       <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
@@ -52,33 +100,6 @@
       <pubDate>Sun, 28 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
-      <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
-<p>現時点での提供先は、一部の信頼されたパートナーや組織に限られる。利用できる環境はOpenAI APIとCodexで、プレビュー期間中はChatGPTからは利用できない。OpenAIは今後数週間で、ChatGPT、Codex、APIへ提供範囲を広げる計画だ。</p>
-<h2>性能、価格、速度で分けた3モデル構成</h2>
-<p>GPT-5.6 Solは、今回のシリーズで最上位に位置付けられるフラッグシップモデルである。ソフトウェアエンジニアリング、コンピュータ操作、専門知識を使う業務、科学研究、サイバーセキュリティなどで性能を高めた。</p>
-<p>Terraは、日常業務向けのバランス型モデルとなる。GPT-5.5に対して競争力のある性能を持ちながら、価格を2分の1に抑えた。Lunaは3モデルの中で最も高速かつ低価格なモデルで、コスト効率を重視する用途を想定する。</p>
-<p>OpenAIはGPT-5.6から、新たな命名体系も導入した。数字はモデルの世代を示し、Sol、Terra、Lunaは性能階層を表す。性能、速度、価格の違いを明確にし、開発者や企業が用途に応じて選びやすくする狙いがある。</p>
-<h2>コーディング、科学研究、サイバーセキュリティで性能向上</h2>
-<p>GPT-5.6 Solには、より深い推論に時間を使う「max」reasoning effortが導入された。複数のサブエージェントを使って複雑な作業を進める「ultra」モードも追加される。</p>
-<p>コーディング分野では、コマンドライン上での計画、反復、ツール連携を評価するTerminal-Bench 2.1で性能を伸ばした。科学研究では、長期的なゲノミクス解析や定量生物学のワークフローを評価するGeneBench v1で、GPT-5.5を上回る結果を出しながら、使用トークン数を抑えた。</p>
-<p>サイバーセキュリティ分野でも、脆弱性研究や攻撃経路の分析を含む長期的なタスクで性能を高めている。ExploitBenchでは、GPT-5.6 SolがMythos Previewに近い性能を、約3分の1の出力トークンで示した。</p>
-<p><strong>TerminalBench 2.1でのスコア比較。GPT-5.6 Sol Ultraが91.9%、GPT-5.6 Solが88.8%を記録している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Terminal_Bench_2_1_1cbdf7b80c/Terminal_Bench_2_1_1cbdf7b80c.png" alt="TerminalBench 2.1.png" /></p>
-<h2>高リスク用途を意識し、まずは限定提供</h2>
-<p>OpenAIは、<a href="https://deploymentsafety.openai.com/gpt-5-6-preview">GPT-5.6 Preview System Card</a>でSol、Terra、Lunaの3モデルをサイバーセキュリティと生物・化学リスクの両方で「High capability」に分類した。一方で、最上位の「Critical」には達していない。</p>
-<p>GPT-5.6 SolとTerraは、脆弱性や攻撃の一部を見つける能力を持つ。ただし、テスト条件下では、強化された対象に対する自律的なエンドツーエンド攻撃を実行する段階には至らなかった。</p>
-<p>OpenAIは、コードレビュー、脆弱性研究、パッチ開発、デバッグ、セキュリティ教育、防御的テストなどの正当な利用を維持しながら、禁止された攻撃的利用を難しく、不確実で、検出しやすくする方針を取る。</p>
-<p>今回の限定プレビューは、こうした高リスク領域への対応も踏まえたものだ。OpenAIは米政府との継続的なやりとりの一環として、公開前に計画やモデル能力を共有し、まず少数の信頼されたパートナーに提供する。</p>
-<h2>ChatGPTでの利用は今後数週間で</h2>
-<p><a href="https://help.openai.com/ar/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna">OpenAI Help Center</a>によると、GPT-5.6の限定プレビューは広範なセルフサービス型プログラムではない。対象は、OpenAIのアカウント担当者を持つ一部の信頼されたパートナーや組織に限られる。個人ユーザー向けの公開申請やウェイトリストも用意されていない。</p>
-<p>API価格は100万トークンあたり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。GPT-5.6以降のモデルでは、明示的なキャッシュ区切りや30分以上のキャッシュ保持を含む、より予測しやすいプロンプトキャッシュも導入される。</p>
-<p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Anthropic、米政府の指示で停止していた「Claude Mythos 5」を重要インフラ向けに限定再展開へ</title>
       <link>https://ledge.ai/articles/anthropic_claude_mythos_5_fable_5_access_restore</link>
       <description><![CDATA[<p>Anthropicは2026年6月26日、米政府の指示によりアクセスを停止していたAIモデル「Claude Mythos 5」について、重要インフラを運用・防御する米国組織に限定して再展開できるとの通知を受けたと<a href="https://x.com/AnthropicAI/status/2070665903440871779">明らかにした</a>。</p>
@@ -95,7 +116,7 @@
 <p>Fable 5とMythos 5は同じ基盤モデルを使う。Fable 5は一般利用を想定し、サイバーセキュリティなど一部領域の悪用リスクを抑えるためのセーフガードを備える。一方、Mythos 5は一部領域のセーフガードを外したモデルとして、より限定的な用途に向けて設計された。</p>
 <p>高度なAIモデルは、脆弱性の発見や重要インフラの防御に役立つ一方、サイバー攻撃などに悪用される可能性もある。今回の発表は、政府の指示で停止された最上位モデルについて、防御用途に限って段階的にアクセスを戻す動きといえる。Fable 5の一般提供がいつ、どのような条件で再開されるかは、現時点では明らかになっていない。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
@@ -115,29 +136,7 @@
 <p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
 <p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/6/30 [TUE]富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
-      <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
-      <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
-<p>PHOTONは、現在のLLMで主流となっているTransformerと比較して、最大475倍のマルチクエリー性能を発揮するという。ここでいうマルチクエリー性能は、GPUリソース当たりのスループットを指す。単にLLMの精度や性能が475倍になるという意味ではなく、同じGPUリソースでより多くの出力を並列に生成できることが焦点となる。</p>
-<h2>Transformerの課題は、長文・同時処理で増えるメモリアクセス</h2>
-<p>生成AIの利用が広がるなか、LLMには長い文書を扱う処理や、多数のユーザーからの同時問い合わせに応答する処理が求められている。推論時により長く、多くの思考をさせることで性能を高める手法も広がっており、その分、計算資源への負荷は大きくなっている。</p>
-<p>現在主流のTransformerは、文章を細かなトークンに分解し、それぞれの関係を計算する。入力が長くなったり、同時に多くの問い合わせを処理したりすると、過去の情報を保持するためのメモリアクセスが増え、処理速度が落ちやすい。富士通は、こうした課題が長文処理や多数の同時利用で顕著になるとみている。</p>
-<p>PHOTONは、マルチエージェントのように複数の入出力を必要とする処理を、より少ないGPUリソースで扱うことを狙ったアーキテクチャだ。推論処理の効率を高めることで、GPUコストの削減につなげる。</p>
-<h2>トークン単位ではなく、意味単位で階層的に処理</h2>
-<p>PHOTONの特徴は、文章をトークン単位で平面的に処理するのではなく、意味のまとまりとして捉え、階層的に処理する点にある。</p>
-<p>通常のTransformerでは、生成の各ステップで過去のトークン列にアクセスしながら次のトークンを予測する。この仕組みは高い性能を支える一方、長文や多クエリー処理ではKVキャッシュの読み書きが増え、メモリ帯域がボトルネックになりやすい。</p>
-<p>PHOTONは、入力トークンを階層的に圧縮し、低レートの文脈状態として保持する。そこから軽量なトップダウンデコーダが細かなトークン表現を再構成することで、推論時に必要なメモリアクセスを抑える。<a href="https://arxiv.org/abs/2512.20687">arXivに掲載された論文</a>では、この仕組みを、水平なトークン単位の走査から、垂直方向・多解像度の文脈アクセスへ置き換える階層型自己回帰モデルとして位置づけている。</p>
-<h2>1.2Bモデルで約475倍、9クエリー統合でTransformerと同水準の性能</h2>
-<p>富士通は、600M、900M、1.2Bパラメータの各モデルサイズで数値実験を実施した。PHOTONは、従来のTransformerと比較してメモリ使用量を抑えながら、高い生成スループットを実現したという。</p>
-<p>特に1.2Bパラメータモデルでは、わずかな性能劣化と引き換えに、従来のTransformerと比べて約475倍のマルチクエリー計算能力を実現した。PHOTONは1回あたりの生成に必要なKVキャッシュ使用量が小さいため、同じGPUメモリ予算内で複数の生成結果を並列に得られる。</p>
-<p>富士通はあわせて、大量の出力を統合して性能を高める「マルチクエリー統合技術」も示している。同じ問題に対して少しずつ異なる複数の質問や候補を作り、その結果を統合することで、最終的な回答の正解率を高める。検証では、9クエリーを統合することで、従来のTransformerと同水準の性能を実現した。</p>
-<h2>ACL 2026のオーラルセッションで発表予定</h2>
-<p>PHOTONの成果は、2026年7月2日から米国サンディエゴで開催される自然言語処理分野の国際会議「[The 64th Annual Meeting of the Association for Computational Linguistics（ACL 2026）」のオーラルセッションで<a href="https://aip.riken.jp/news/acl2026/?lang=ja">発表</a>される予定だ。同社は今後、生成AI技術の効率を高め、GPUリソースや消費電力、運用コストの削減につなげる方針を示している。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、『ミッドサマー』『Backrooms』のA24とAI研究で提携　映画制作のワークフロー開発へ</title>
@@ -159,7 +158,7 @@
 <p><strong>Google DeepMind共同創業者兼CEOのDemis Hassabis氏のコメント：</strong> 映画制作者と初期段階から協力し、アーティストの創造的なビジョンを支えるAI機能を構築するとしている
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5.webp" alt="DemisQuote_withtitle.width-1000.format-webp.webp" /></p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表　Gemini Omni Flashは動画編集に対応</title>
@@ -189,7 +188,7 @@
 <p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
 <p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>マスク氏、次期AIモデル「Grok 4.5」の開発状況を投稿　買収直後のCursorデータを補助学習に追加、SpaceX・Teslaで限定試験に</title>
@@ -208,7 +207,7 @@
 <p>同じ投稿では、強化学習による改善が続いていることや、Grok Buildのハーネスが日々改善されていることにも触れている。</p>
 <p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AI・ボット・クローラーを排除し「人間にだけ届く広告」　博報堂DYが販売開始、サム・アルトマン氏らの虹彩認証「World ID」で人間証明</title>
@@ -226,7 +225,7 @@
 <p>Ads for Humanityは、博報堂DYホールディングスの100％出資会社で、所在地は東京都港区。代表者は森田英佑氏で、事業内容は人間認証型アドネットワーク事業となる。</p>
 <p>AIによる自律的な操作が広がるなか、インターネット上で「人間であること」をどう証明するかは、広告、SNS、マッチングアプリ、チケット販売など複数の領域で課題になっている。今回の取り組みは、World IDによる人間証明を広告配信の基盤に組み込み、人間に届いた広告だけを検証可能にする試みとなる。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>学術＆研究2026/6/27 [SAT]IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
@@ -246,7 +245,7 @@
 <p>IBM Researchは、現在の一般的なAIアクセラレーターが約1500TOPSの処理性能を持つのに対し、7オングストローム技術を使うAIアクセラレーターでは約9000TOPS相当の可能性があると見積もっている。また、ナノスタック構造により、SRAMを40％スケーリングできると説明している。SRAMはチップ上に配置される高速メモリで、AI処理ではデータを計算ユニットへ効率よく供給する役割を持つ。</p>
 <p>ナノスタック技術についてIBMは、早ければ今後5年以内に生産へ進む道筋があるとしている。今回の発表は、具体的な商用製品や量産開始時期を示すものではなく、1nm未満世代に向けた研究開発上の成果と位置づけられる。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>アイリスオーヤマ、清掃ロボット「JILBY」を7月1日発売　AIが清掃ルートや時間帯を提案</title>
@@ -267,7 +266,7 @@
 <p>操作面では、10インチの大型モニターを搭載した。集塵したゴミをためる紙パックを着脱しやすくし、機体を傾けやすくするためのフットステップも大きくした。安全機能として、LiDARセンサー、3Dカメラ、超音波センサー、段差センサー、センサー搭載バンパーなどを備え、人や障害物、段差を検知する。</p>
 <p>同社は今後、エレベーターやフラッパーゲート、自動ドアなど、外部システムと連携できる機能を順次追加する予定だ。清掃ロボットの導入が広がるなか、JILBYはロボット本体の性能だけでなく、運用データをAIで活用し、清掃業務の効率化と最適化を図る製品として展開される。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>経産省、国産フィジカルAI基盤モデルの開発事業を開始　ソフトバンクなどが出資のNoetra(旧・日本AI基盤モデル開発)と産総研を採択</title>
@@ -287,7 +286,7 @@
 <p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
 <p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Microsoft Research、AIエージェント向け長期記憶システム「Memora」を公開　会話や作業履歴から必要な情報を効率検索</title>
@@ -308,7 +307,7 @@
 <p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
 <p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、初の独自AIチップ「Jalapeño（ハラペーニョ）」をBroadcomと発表　LLM推論向けに設計</title>
@@ -327,7 +326,34 @@
 <p>今回のチップは、2026年末までの初期展開を想定している。Broadcomのシリコン実装、ネットワーク、接続技術に加え、Celesticaがボード、ラック、システム面の専門性を担う。</p>
 <p>OpenAIは最終性能を現在も測定中としている。初期テストでは、現行の最先端チップよりもワット当たり性能が大幅に高くなる見込みだが、ベンチマーク数値や詳細仕様はまだ公表していない。性能に関する詳細な技術レポートは、今後数カ月以内に示す予定だ。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
+      <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
+<p>現時点での提供先は、一部の信頼されたパートナーや組織に限られる。利用できる環境はOpenAI APIとCodexで、プレビュー期間中はChatGPTからは利用できない。OpenAIは今後数週間で、ChatGPT、Codex、APIへ提供範囲を広げる計画だ。</p>
+<h2>性能、価格、速度で分けた3モデル構成</h2>
+<p>GPT-5.6 Solは、今回のシリーズで最上位に位置付けられるフラッグシップモデルである。ソフトウェアエンジニアリング、コンピュータ操作、専門知識を使う業務、科学研究、サイバーセキュリティなどで性能を高めた。</p>
+<p>Terraは、日常業務向けのバランス型モデルとなる。GPT-5.5に対して競争力のある性能を持ちながら、価格を2分の1に抑えた。Lunaは3モデルの中で最も高速かつ低価格なモデルで、コスト効率を重視する用途を想定する。</p>
+<p>OpenAIはGPT-5.6から、新たな命名体系も導入した。数字はモデルの世代を示し、Sol、Terra、Lunaは性能階層を表す。性能、速度、価格の違いを明確にし、開発者や企業が用途に応じて選びやすくする狙いがある。</p>
+<h2>コーディング、科学研究、サイバーセキュリティで性能向上</h2>
+<p>GPT-5.6 Solには、より深い推論に時間を使う「max」reasoning effortが導入された。複数のサブエージェントを使って複雑な作業を進める「ultra」モードも追加される。</p>
+<p>コーディング分野では、コマンドライン上での計画、反復、ツール連携を評価するTerminal-Bench 2.1で性能を伸ばした。科学研究では、長期的なゲノミクス解析や定量生物学のワークフローを評価するGeneBench v1で、GPT-5.5を上回る結果を出しながら、使用トークン数を抑えた。</p>
+<p>サイバーセキュリティ分野でも、脆弱性研究や攻撃経路の分析を含む長期的なタスクで性能を高めている。ExploitBenchでは、GPT-5.6 SolがMythos Previewに近い性能を、約3分の1の出力トークンで示した。</p>
+<p><strong>TerminalBench 2.1でのスコア比較。GPT-5.6 Sol Ultraが91.9%、GPT-5.6 Solが88.8%を記録している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Terminal_Bench_2_1_1cbdf7b80c/Terminal_Bench_2_1_1cbdf7b80c.png" alt="TerminalBench 2.1.png" /></p>
+<h2>高リスク用途を意識し、まずは限定提供</h2>
+<p>OpenAIは、<a href="https://deploymentsafety.openai.com/gpt-5-6-preview">GPT-5.6 Preview System Card</a>でSol、Terra、Lunaの3モデルをサイバーセキュリティと生物・化学リスクの両方で「High capability」に分類した。一方で、最上位の「Critical」には達していない。</p>
+<p>GPT-5.6 SolとTerraは、脆弱性や攻撃の一部を見つける能力を持つ。ただし、テスト条件下では、強化された対象に対する自律的なエンドツーエンド攻撃を実行する段階には至らなかった。</p>
+<p>OpenAIは、コードレビュー、脆弱性研究、パッチ開発、デバッグ、セキュリティ教育、防御的テストなどの正当な利用を維持しながら、禁止された攻撃的利用を難しく、不確実で、検出しやすくする方針を取る。</p>
+<p>今回の限定プレビューは、こうした高リスク領域への対応も踏まえたものだ。OpenAIは米政府との継続的なやりとりの一環として、公開前に計画やモデル能力を共有し、まず少数の信頼されたパートナーに提供する。</p>
+<h2>ChatGPTでの利用は今後数週間で</h2>
+<p><a href="https://help.openai.com/ar/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna">OpenAI Help Center</a>によると、GPT-5.6の限定プレビューは広範なセルフサービス型プログラムではない。対象は、OpenAIのアカウント担当者を持つ一部の信頼されたパートナーや組織に限られる。個人ユーザー向けの公開申請やウェイトリストも用意されていない。</p>
+<p>API価格は100万トークンあたり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。GPT-5.6以降のモデルでは、明示的なキャッシュ区切りや30分以上のキャッシュ保持を含む、より予測しやすいプロンプトキャッシュも導入される。</p>
+<p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Qualcomm、Meta向け次世代サーバーCPU「Dragonfly C1000」発表　AIデータセンター本格参入へ</title>
@@ -357,33 +383,7 @@
 <p>Qualcommは、C1000を起点とするCPUロードマップ、AI300などの推論アクセラレーター、Hugging Faceとの開発者エコシステム、Modularのソフトウェア基盤を組み合わせ、AIデータセンター向け事業を本格化する。</p>
 <p>@<a href="https://www.youtube.com/watch?v=XNHoxQAiNFQ">YouTube</a></p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
-      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
-      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
-<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
-<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
-<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
-<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
-<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
-<h2>35Bモデルと評価ベンチマークを公開</h2>
-<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
-<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
-<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
-<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
-<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
-<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
-<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
-<h2>エージェント訓練用の仮想環境として活用</h2>
-<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
-<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始　RAG・安全運用まで見据えた5モデル構成</title>
@@ -406,7 +406,7 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca.webp" alt="media_153b3c50efe44d4054a8a539fe708db2c79ba785e.webp" /></p>
 <p>ソフトバンクは同日、Cloud PF Type A上でSarashinaを活用した生成AIサービスを<a href="https://www.softbank.jp/business/news/2026/0630-01">東日本のデータセンターで開始した</a>{target=”_blank”}。西日本のデータセンターでは、2026年10月に提供を始める予定だ。共有型ではSarashina3シリーズの5モデルを、専有型ではSarashina3 miniとSarashina3 nanoを提供する。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>東京外大、小規模語科のAI代替懸念に声明　教員置き換えを否定、28専攻語体制は維持へ</title>
@@ -427,7 +427,42 @@
 <p>東京外大は、教員を生成AIに置き換える考えはないとしたうえで、学生の自律学習などを支援する手段としてAI活用の可能性を模索する意義はあるとしている。背景として、ほとんどの学生が中等教育段階でICTツールを利用した英語学習を経験しており、卒業後に職場でAIを使用する可能性が高い時代にあることを挙げた。</p>
 <p>今後の施策については、現場に立つ教員との意見交換を通じて、可否や是非を判断していくとしている。大学は声明の最後で、財務状況や技術環境が変わるなかでも、これまで担ってきた社会的な役割と評価を次代へ継承し、時代の変化に対応しながら28専攻語の教育を続けるとした。</p>
 ]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>xAIのAIデータセンター発電施設に騒音訴訟　住民らが「ほぼ絶え間ない騒音・振動」と主張</title>
+      <link>https://ledge.ai/articles/xai_data_center_noise_lawsuit</link>
+      <description><![CDATA[<p>米ミシシッピ州サウスヘイブンにあるxAI関連のデータセンター向け発電施設をめぐり、地元住民がxAI、SpaceX、MZX Techを相手取った集団訴訟を提起した。<a href="https://dockets.justia.com/docket/mississippi/msndce/3%3A2026cv00148/52569">米ミシシッピ州北部地区連邦地方裁判所の訴訟記録</a>では、訴状は2026年6月8日に提出され、被告としてX.AI Corp.、Space Exploration Technologies Corp.、MZX Tech LLCが記載されている。</p>
+<p>住民側は、発電施設から出る騒音や振動によって、周辺の生活環境が損なわれていると主張している。生成AIの開発競争がデータセンターや電力インフラの整備を押し上げるなか、AIを支える物理基盤が地域社会との摩擦を生む事例として注目される。</p>
+<h2>xAIが進める200億ドル超のAIデータセンター計画</h2>
+<p>xAIはミシシッピ州サウスヘイブンで、大規模なAIデータセンター計画を進めている。ミシシッピ州知事室は2026年1月、xAIが同地に200億ドル超を投資し、データセンター「MACROHARDRR」を建設すると発表した。施設は、xAIが新たに取得したサウスヘイブンの発電施設用地と、テネシー州にある既存データセンターの近くに位置する。<a href="https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/">州政府の発表</a>では、完成後にxAIの計算能力が約2ギガワットに増える見通しも示されている。</p>
+<p>xAIは生成AIチャットボット「Grok」を展開している。同社はAIモデルの開発に向け、巨大な計算基盤「Colossus」の整備も進めてきた。高性能な生成AIモデルを開発・運用するには、大量のGPUだけでなく、それを支えるデータセンター、電力、冷却設備が欠かせない。今回の訴訟は、そのインフラ拡大が地域の生活環境に及ぼす影響をめぐるものだ。</p>
+<h2>住民側は「低周波騒音と振動」による生活への影響を訴え</h2>
+<p>住民側は、サウスヘイブンの発電施設から出る継続的な低周波騒音や振動により、睡眠や休息、屋外での会話、自宅で静かに過ごす時間が妨げられていると訴えている。訴状では、対象区域内に数千の住宅があり、1万人超の住民が集団訴訟の対象になり得るとの主張も示されている。</p>
+<p>原告側は、被告らが発電施設からの騒音を抑える義務を怠ったと主張し、損害賠償などを求めている。現時点で住民側の主張が裁判所に認められたわけではなく、今後の審理で被告側の反論や裁判所の判断が示されることになる。<a href="https://www.reuters.com/legal/government/musks-xai-spacex-hit-with-class-action-over-data-center-nuisance-2026-06-09/">Reuters</a>は、xAIとSpaceXがコメント要請にただちには応じなかったと報じている。</p>
+<h2>生成AIブームの裏側で膨らむ電力インフラ問題</h2>
+<p>生成AIの性能競争は、モデルやアプリケーションだけで完結しない。大規模モデルを訓練・運用するには、GPUクラスター、データセンター、発電設備、送電網、冷却設備といった巨大な物理インフラが必要になる。AI企業が計算能力の拡大を急ぐほど、その負荷は地域の電力供給、環境規制、生活環境にも及ぶ。</p>
+<p>サウスヘイブンのデータセンター計画は、州政府にとっては大規模投資と雇用創出の機会である一方、周辺住民にとっては騒音や振動をめぐる生活上の問題として表面化している。AIデータセンターの建設が各地で進むなか、電力インフラの確保と地域住民との合意形成は、AI企業にとっていっそう重要な課題になりそうだ。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
+      <link>https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent</link>
+      <description><![CDATA[<p>中国のAI企業Z.aiは2026年6月16日、オープンモデル「GLM-5.2」の公式ブログで、同モデルを利用できるAI開発エージェント環境「<a href="https://zcode.z.ai/en">ZCode</a>」を紹介した。ZCode公式サイトでは現在、GLM-5.2向けに最適化した「ZCode 3.0」を、macOS、Windows、Linux向けに提供している。</p>
+<p>ZCodeは、自然言語で計画、コーディング、レビュー、デプロイを進めるための開発環境だ。Claude CodeやCodexのように、開発作業をAIエージェントに任せるツール群に近い。</p>
+<h2>GLM-5.2を開発ワークフローに組み込む「ADE」</h2>
+<p>ZCodeの公式ドキュメントでは、ZCodeを「GLM-5.2を実際のコーディングワークフローに持ち込むためのAgentic Development Environment」と説明している。自然言語で指示することで、コーディング、デバッグ、テスト、プロジェクトのプレビュー、変更レビューなどを依頼できる。</p>
+<p>GLM-5.2は、1Mトークンのコンテキスト長と長時間タスクへの対応を特徴とするモデルだ。ZCodeでは、目標、ファイル、ターミナル結果、ブラウザーコンテキスト、実行モード、Gitの状態などを同じタスク内で保持し、計画から実装、検証までを継続的に進められるとしている。</p>
+<p>ZCode Agentは、GLM-5.2向けに調整された中核機能として提供される。Z.aiは、複雑なプロジェクト理解、長時間のタスク計画、複数ターンにわたる文脈保持、継続的なコード変更に強みがあると説明している。</p>
+<p>ZCodeの背景にあるGLM-5.2は、1Mトークンのコンテキスト長を備え、プロジェクト規模の開発文脈や長時間タスクを扱うことを想定したオープンモデルだ。Z.aiは公式ドキュメント上で、コーディング系ベンチマークにおいてClaude Opus 4.8に近い結果を示したとしている。</p>
+<h2>月18ドルからのGLM Coding Plan、Claude Codeなどにも接続</h2>
+<p>開発者向けには、「<a href="https://z.ai/subscribe">GLM Coding Plan</a>」を提供。AIコーディング向けのサブスクリプションパッケージとして説明されており、月18ドルから利用できるという（記事公開時点ではキャンペーン価格が表示されている）。</p>
+<p>GLM Coding Planは、ZCode以外のツールにも接続できる。Claude Code、OpenCode、Cursor、Cline、TRAE、Qoder、Droid、Kilo Code、Roo Code、Gooseなどのツールが対応環境として挙げられている。</p>
+<p>また、Coding PlanはAnthropic Messages形式とOpenAI Chat Completions形式の両方に対応する。Anthropic形式では「https://api.z.ai/api/anthropic」、OpenAI Chat Completions形式では「https://api.z.ai/api/coding/paas/v4」をBase URLとして設定する構成だ。Clineの例では、OpenAI Compatibleを選び、Z.aiのAPIキーとGLMモデル名を入力して利用する手順が示されている。</p>
+<p>Claude CodeやCodexのような開発エージェントが普及するなか、Z.aiはGLM-5.2を中心に、モデル、API、デスクトップアプリ、既存開発ツール連携をまとめて提供する形を取る。クローズドモデルが主導してきたAIコーディング領域で、中国発のオープンモデルを軸にした開発環境がどこまで利用を広げるかが注目される。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>東京都、都庁舎にAI自動分別リサイクルボックス設置　リチウムイオン電池内蔵製品を回収</title>
@@ -451,41 +486,6 @@
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_nr_1064_4583_img_01_24248754e1/kddi_nr_1064_4583_img_01_24248754e1.png" alt="kddi_nr-1064_4583_img_01.png" /></p>
 <p>KDDIは2005年から、全国のau Style、auショップなどで使用済み携帯電話・スマートフォンを回収してきた。回収端末は手作業で分解・分類し、素材ごとに仕分けて再資源化している。</p>
 <p>今回の都庁舎での取り組みは、リチウムイオン電池内蔵製品の回収に、AI自動分別リサイクルボックスを活用する実証的な取り組みとなる。東京都は、区市町村や事業者と連携しながら、適切な分別と資源循環につなげる。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>xAIのAIデータセンター発電施設に騒音訴訟　住民らが「ほぼ絶え間ない騒音・振動」と主張</title>
-      <link>https://ledge.ai/articles/xai_data_center_noise_lawsuit</link>
-      <description><![CDATA[<p>米ミシシッピ州サウスヘイブンにあるxAI関連のデータセンター向け発電施設をめぐり、地元住民がxAI、SpaceX、MZX Techを相手取った集団訴訟を提起した。<a href="https://dockets.justia.com/docket/mississippi/msndce/3%3A2026cv00148/52569">米ミシシッピ州北部地区連邦地方裁判所の訴訟記録</a>では、訴状は2026年6月8日に提出され、被告としてX.AI Corp.、Space Exploration Technologies Corp.、MZX Tech LLCが記載されている。</p>
-<p>住民側は、発電施設から出る騒音や振動によって、周辺の生活環境が損なわれていると主張している。生成AIの開発競争がデータセンターや電力インフラの整備を押し上げるなか、AIを支える物理基盤が地域社会との摩擦を生む事例として注目される。</p>
-<h2>xAIが進める200億ドル超のAIデータセンター計画</h2>
-<p>xAIはミシシッピ州サウスヘイブンで、大規模なAIデータセンター計画を進めている。ミシシッピ州知事室は2026年1月、xAIが同地に200億ドル超を投資し、データセンター「MACROHARDRR」を建設すると発表した。施設は、xAIが新たに取得したサウスヘイブンの発電施設用地と、テネシー州にある既存データセンターの近くに位置する。<a href="https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/">州政府の発表</a>では、完成後にxAIの計算能力が約2ギガワットに増える見通しも示されている。</p>
-<p>xAIは生成AIチャットボット「Grok」を展開している。同社はAIモデルの開発に向け、巨大な計算基盤「Colossus」の整備も進めてきた。高性能な生成AIモデルを開発・運用するには、大量のGPUだけでなく、それを支えるデータセンター、電力、冷却設備が欠かせない。今回の訴訟は、そのインフラ拡大が地域の生活環境に及ぼす影響をめぐるものだ。</p>
-<h2>住民側は「低周波騒音と振動」による生活への影響を訴え</h2>
-<p>住民側は、サウスヘイブンの発電施設から出る継続的な低周波騒音や振動により、睡眠や休息、屋外での会話、自宅で静かに過ごす時間が妨げられていると訴えている。訴状では、対象区域内に数千の住宅があり、1万人超の住民が集団訴訟の対象になり得るとの主張も示されている。</p>
-<p>原告側は、被告らが発電施設からの騒音を抑える義務を怠ったと主張し、損害賠償などを求めている。現時点で住民側の主張が裁判所に認められたわけではなく、今後の審理で被告側の反論や裁判所の判断が示されることになる。<a href="https://www.reuters.com/legal/government/musks-xai-spacex-hit-with-class-action-over-data-center-nuisance-2026-06-09/">Reuters</a>は、xAIとSpaceXがコメント要請にただちには応じなかったと報じている。</p>
-<h2>生成AIブームの裏側で膨らむ電力インフラ問題</h2>
-<p>生成AIの性能競争は、モデルやアプリケーションだけで完結しない。大規模モデルを訓練・運用するには、GPUクラスター、データセンター、発電設備、送電網、冷却設備といった巨大な物理インフラが必要になる。AI企業が計算能力の拡大を急ぐほど、その負荷は地域の電力供給、環境規制、生活環境にも及ぶ。</p>
-<p>サウスヘイブンのデータセンター計画は、州政府にとっては大規模投資と雇用創出の機会である一方、周辺住民にとっては騒音や振動をめぐる生活上の問題として表面化している。AIデータセンターの建設が各地で進むなか、電力インフラの確保と地域住民との合意形成は、AI企業にとっていっそう重要な課題になりそうだ。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
-      <link>https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent</link>
-      <description><![CDATA[<p>中国のAI企業Z.aiは2026年6月16日、オープンモデル「GLM-5.2」の公式ブログで、同モデルを利用できるAI開発エージェント環境「<a href="https://zcode.z.ai/en">ZCode</a>」を紹介した。ZCode公式サイトでは現在、GLM-5.2向けに最適化した「ZCode 3.0」を、macOS、Windows、Linux向けに提供している。</p>
-<p>ZCodeは、自然言語で計画、コーディング、レビュー、デプロイを進めるための開発環境だ。Claude CodeやCodexのように、開発作業をAIエージェントに任せるツール群に近い。</p>
-<h2>GLM-5.2を開発ワークフローに組み込む「ADE」</h2>
-<p>ZCodeの公式ドキュメントでは、ZCodeを「GLM-5.2を実際のコーディングワークフローに持ち込むためのAgentic Development Environment」と説明している。自然言語で指示することで、コーディング、デバッグ、テスト、プロジェクトのプレビュー、変更レビューなどを依頼できる。</p>
-<p>GLM-5.2は、1Mトークンのコンテキスト長と長時間タスクへの対応を特徴とするモデルだ。ZCodeでは、目標、ファイル、ターミナル結果、ブラウザーコンテキスト、実行モード、Gitの状態などを同じタスク内で保持し、計画から実装、検証までを継続的に進められるとしている。</p>
-<p>ZCode Agentは、GLM-5.2向けに調整された中核機能として提供される。Z.aiは、複雑なプロジェクト理解、長時間のタスク計画、複数ターンにわたる文脈保持、継続的なコード変更に強みがあると説明している。</p>
-<p>ZCodeの背景にあるGLM-5.2は、1Mトークンのコンテキスト長を備え、プロジェクト規模の開発文脈や長時間タスクを扱うことを想定したオープンモデルだ。Z.aiは公式ドキュメント上で、コーディング系ベンチマークにおいてClaude Opus 4.8に近い結果を示したとしている。</p>
-<h2>月18ドルからのGLM Coding Plan、Claude Codeなどにも接続</h2>
-<p>開発者向けには、「<a href="https://z.ai/subscribe">GLM Coding Plan</a>」を提供。AIコーディング向けのサブスクリプションパッケージとして説明されており、月18ドルから利用できるという（記事公開時点ではキャンペーン価格が表示されている）。</p>
-<p>GLM Coding Planは、ZCode以外のツールにも接続できる。Claude Code、OpenCode、Cursor、Cline、TRAE、Qoder、Droid、Kilo Code、Roo Code、Gooseなどのツールが対応環境として挙げられている。</p>
-<p>また、Coding PlanはAnthropic Messages形式とOpenAI Chat Completions形式の両方に対応する。Anthropic形式では「https://api.z.ai/api/anthropic」、OpenAI Chat Completions形式では「https://api.z.ai/api/coding/paas/v4」をBase URLとして設定する構成だ。Clineの例では、OpenAI Compatibleを選び、Z.aiのAPIキーとGLMモデル名を入力して利用する手順が示されている。</p>
-<p>Claude CodeやCodexのような開発エージェントが普及するなか、Z.aiはGLM-5.2を中心に、モデル、API、デスクトップアプリ、既存開発ツール連携をまとめて提供する形を取る。クローズドモデルが主導してきたAIコーディング領域で、中国発のオープンモデルを軸にした開発環境がどこまで利用を広げるかが注目される。</p>
 ]]></description>
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
