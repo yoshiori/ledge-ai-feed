@@ -216,6 +216,25 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>マスク氏、次期AIモデル「Grok 4.5」の開発状況を投稿　買収直後のCursorデータを補助学習に追加、SpaceX・Teslaで限定試験に</title>
+      <link>https://ledge.ai/articles/grok_4_5_spacex_tesla_private_beta</link>
+      <description><![CDATA[<p>イーロン・マスク氏は日本時間2026年6月28日、xAIの次期AIモデル「Grok 4.5」の開発状況を自身のXに<a href="https://x.com/elonmusk/status/2071184354756477041">投稿した</a>。投稿によると、Grok 4.5は「1.5T V9 foundation model」をベースにし、Cursorのデータを補助的な学習に加えたモデルで、SpaceXとTeslaで限定的な試験利用に入った。マスク氏はこの段階を「private beta」と表現している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok4_5_04e16f8694/grok4_5_04e16f8694.jpg" alt="grok4-5.jpg" /></p>
+<p>Grok 4.5は、xAIが公開モデルとして提供しているGrok 4.3の次の世代にあたるとみられる。xAIは6月17日、Grok 4.3をAmazon Bedrockで一般提供したと<a href="https://x.ai/news/grok-amazon-bedrock">発表</a>している。Grok 4.3は、1Mトークンのコンテキストウィンドウや設定可能な推論努力、ツール呼び出し機能を備えるモデルとして説明されている。</p>
+<h2>SpaceX・Teslaで先行検証</h2>
+<p>今回の投稿で示されたのは、Grok 4.5の一般提供ではなく、SpaceXとTeslaでの先行的な試験利用である。公開APIや一般ユーザー向けサービスでの提供時期には触れられていない。</p>
+<p>SpaceXは宇宙開発、Teslaは自動車やエネルギー、ロボティクスなどを手がける企業で、いずれもマスク氏が率いる企業である。Grok 4.5が両社でどの業務に使われるかは示されていないが、xAIの次期モデルはまず関連企業内で検証される段階に入った。</p>
+<h2>Cursorデータを補助学習に追加</h2>
+<p>投稿では、Grok 4.5に「Cursor data」を補助的な学習として加えたことも示された。Cursorは、コード生成や編集、開発者の作業支援に使われるAIコーディングツールである。</p>
+<p>ただし、投稿だけでは、Cursorデータの具体的な範囲や利用方法は確認できない。<a href="https://cursor.com/data-use">Cursor</a>の公式データ利用説明では、Privacy Modeを有効にした場合、Customer DataはCursorによる学習に使われず、モデルプロバイダーも保存・学習に使わないと説明している。一方、Privacy Modeを無効にした場合は、コードベースデータ、プロンプト、エディター操作、コード断片などをAI機能の改善やモデル学習に使う可能性があるとしている。</p>
+<h2>初期評価ではClaude Opusにも言及</h2>
+<p>マスク氏は投稿で、Grok 4.5の初期評価について、Anthropicの「Claude Opus」に近い、または上回る可能性があるとも述べた。Grok 4.5の性能については、現時点で公式の評価表や第三者による検証結果は確認できない。Claude Opusに近い、または上回る可能性があるという比較は、マスク氏の投稿に基づく初期的な見方にとどまる。</p>
+<p>同じ投稿では、強化学習による改善が続いていることや、Grok Buildのハーネスが日々改善されていることにも触れている。</p>
+<p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>AI・ボット・クローラーを排除し「人間にだけ届く広告」　博報堂DYが販売開始、サム・アルトマン氏らの虹彩認証「World ID」で人間証明</title>
       <link>https://ledge.ai/articles/human_verified_ad_world_id_hakuhodo</link>
       <description><![CDATA[<p>博報堂DYホールディングスは2026年6月29日、人間認証型アドネットワーク事業を手がける新会社「Ads for Humanity」を設立し、広告商品「Human-Verified Ad」の販売を始めたと<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2026/06/6582.html">発表</a>した。AIやボット、クローラーを排除し、人間にだけ広告を配信することを目指す。サム・アルトマン氏らが共同発明した人間認証技術「World ID」を活用する。</p>
@@ -291,23 +310,6 @@
 <p>開発したモデルは、国内のモデル開発者やAI利活用事業者に広く提供する方針だ。Noetraと産総研は、研究開発成果のうち学習済みの重みを提供し、各産業の用途に応じた領域特化モデルの創出につなげるとしている。</p>
 <p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
 <p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ノルウェー、小学生のAI利用を原則認めず　基礎学力への影響を懸念</title>
-      <link>https://ledge.ai/articles/norway_ai_school_restrictions</link>
-      <description><![CDATA[<p>ノルウェー政府は2026年6月19日、小学校にあたる1〜7年生について、学校活動で児童自身がAIを使うことを原則認めない方針を<a href="https://www.regjeringen.no/no/aktuelt/kunstig-intelligens-skal-i-all-hovedsak-ikke-brukes-i-barneskolen/id3166807/">発表</a>した。2026年秋の新学期から適用する全国勧告として、Utdanningsdirektoratet（ノルウェー教育訓練局）に対し、学校開始前に新たな勧告を公表するよう求めている。</p>
-<h2>小学校では原則使わず、中高では段階的に活用</h2>
-<p>今回の方針は、AIを学校教育から一律に排除するものではなく、児童生徒の年齢や成熟度に応じて利用範囲を分けるものだ。1〜7年生は、学校での学習において自らAIを使うことを原則避ける。8〜10年生では、教師が十分な知識を身につけたうえで、段階的かつ慎重にAIを活用できる。高校段階では、進学や就労に備え、AIを適切に使う力を学ぶことが求められる。</p>
-<p>ヨーナス＝ガール・ストーレ首相は同日の<a href="https://www.regjeringen.no/no/aktuelt/statsministerens-innledning-pa-halvarlig-oppsummerende-pressekonferanse/id3166866/">半期総括会見</a>で、小学校の児童は原則としてAIにアクセスすべきではないと説明した。中学校では段階的・慎重に、高校では将来の教育や仕事に向けてAIを使う準備を進めるという考えを示している。</p>
-<h2>読み書き計算を優先、個別支援では例外も</h2>
-<p>背景にあるのは、読み書き計算などの基礎学力への危機感だ。政府は、学校で最も重要なのは児童が自ら読み、書き、計算を学ぶことだと位置づけている。生成AIを無批判に使えば、学習に必要な段階を飛ばすおそれがある。政府は、PISAやPIRLSなどの国際調査でノルウェーの児童生徒の基礎的能力が大きく低下していることにも言及している。</p>
-<p>一方で、AIの利用が例外なく排除されるわけではない。教育相は、さまざまな理由でAIベースのツールを必要とする児童生徒には利用機会を確保するとしている。たとえば、言語学習や個別に調整された学習支援では、AIが学習を促す場合がある。教育訓練局も、<a href="https://www.udir.no/kvalitet-og-kompetanse/digitalisering-skole/kunstig-intelligens-i-skolen/Utvikle_elevenes_kompetanse/">学校におけるAI利用の整理</a>のなかで、特別なニーズや個別最適な学習支援など、例外が成立し得る場面の検討を進めている。</p>
-<h2>紙の教科書や学習指導要領の見直しも</h2>
-<p>ノルウェー政府は同日、学校改革の一環として、AI利用の年齢別勧告に加え、紙の教科書へのアクセスを法制化する方針や、学習指導要領の見直しも示した。<a href="https://www.regjeringen.no/no/aktuelt/slik-vil-regjeringen-endre-skolehverdagen/id3167032/">教育省の発表</a>では、1〜7年生にAIへのアクセスを原則与えないこと、8〜10年生では教師の能力形成を前提に慎重に使うこと、高校ではAIを適切に使う力を身につけることが、学校生活を変える施策の一部として整理されている。</p>
-<p>ノルウェーでは、学校現場でのAI利用がすでに広がっている。政府が<a href="https://www.regjeringen.no/no/aktuelt/bruk-av-ki-oker-i-skolen-kunnskapsministeren-varsler-grep/id3146819/">2026年1月に公表した情報</a>では、AIツールは基礎学校の約4分の3、高校の90％超で児童生徒に使われているとされた。今回の勧告は、利用拡大が先行するなかで、低年齢層の学習への影響や教師側の準備状況を踏まえ、国として導入の線引きを明確にする動きといえる。</p>
-<p>生成AIを教育にどう取り入れるかは、各国の学校現場で重要な論点になっている。ノルウェーの方針は、AI活用そのものを否定するのではなく、小学校段階では基礎学力と自分で考える力を優先し、上級学年で段階的に扱うという考え方を示したものだ。低年齢層にどこまでAIを使わせるべきかをめぐる議論は、今後も各国の教育政策で焦点になりそうだ。</p>
 ]]></description>
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
