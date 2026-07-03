@@ -472,6 +472,24 @@
       <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
+      <link>https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent</link>
+      <description><![CDATA[<p>中国のAI企業Z.aiは2026年6月16日、オープンモデル「GLM-5.2」の公式ブログで、同モデルを利用できるAI開発エージェント環境「<a href="https://zcode.z.ai/en">ZCode</a>」を紹介した。ZCode公式サイトでは現在、GLM-5.2向けに最適化した「ZCode 3.0」を、macOS、Windows、Linux向けに提供している。</p>
+<p>ZCodeは、自然言語で計画、コーディング、レビュー、デプロイを進めるための開発環境だ。Claude CodeやCodexのように、開発作業をAIエージェントに任せるツール群に近い。</p>
+<h2>GLM-5.2を開発ワークフローに組み込む「ADE」</h2>
+<p>ZCodeの公式ドキュメントでは、ZCodeを「GLM-5.2を実際のコーディングワークフローに持ち込むためのAgentic Development Environment」と説明している。自然言語で指示することで、コーディング、デバッグ、テスト、プロジェクトのプレビュー、変更レビューなどを依頼できる。</p>
+<p>GLM-5.2は、1Mトークンのコンテキスト長と長時間タスクへの対応を特徴とするモデルだ。ZCodeでは、目標、ファイル、ターミナル結果、ブラウザーコンテキスト、実行モード、Gitの状態などを同じタスク内で保持し、計画から実装、検証までを継続的に進められるとしている。</p>
+<p>ZCode Agentは、GLM-5.2向けに調整された中核機能として提供される。Z.aiは、複雑なプロジェクト理解、長時間のタスク計画、複数ターンにわたる文脈保持、継続的なコード変更に強みがあると説明している。</p>
+<p>ZCodeの背景にあるGLM-5.2は、1Mトークンのコンテキスト長を備え、プロジェクト規模の開発文脈や長時間タスクを扱うことを想定したオープンモデルだ。Z.aiは公式ドキュメント上で、コーディング系ベンチマークにおいてClaude Opus 4.8に近い結果を示したとしている。</p>
+<h2>月18ドルからのGLM Coding Plan、Claude Codeなどにも接続</h2>
+<p>開発者向けには、「<a href="https://z.ai/subscribe">GLM Coding Plan</a>」を提供。AIコーディング向けのサブスクリプションパッケージとして説明されており、月18ドルから利用できるという（記事公開時点ではキャンペーン価格が表示されている）。</p>
+<p>GLM Coding Planは、ZCode以外のツールにも接続できる。Claude Code、OpenCode、Cursor、Cline、TRAE、Qoder、Droid、Kilo Code、Roo Code、Gooseなどのツールが対応環境として挙げられている。</p>
+<p>また、Coding PlanはAnthropic Messages形式とOpenAI Chat Completions形式の両方に対応する。Anthropic形式では「https://api.z.ai/api/anthropic」、OpenAI Chat Completions形式では「https://api.z.ai/api/coding/paas/v4」をBase URLとして設定する構成だ。Clineの例では、OpenAI Compatibleを選び、Z.aiのAPIキーとGLMモデル名を入力して利用する手順が示されている。</p>
+<p>Claude CodeやCodexのような開発エージェントが普及するなか、Z.aiはGLM-5.2を中心に、モデル、API、デスクトップアプリ、既存開発ツール連携をまとめて提供する形を取る。クローズドモデルが主導してきたAIコーディング領域で、中国発のオープンモデルを軸にした開発環境がどこまで利用を広げるかが注目される。</p>
+]]></description>
+      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Claude CodeでAIエージェントをどう指示するか　AnthropicがCLAUDE.md・スキル・サブエージェントなど7つの方法を解説</title>
       <link>https://ledge.ai/articles/claude_code_ai_agent_instructions</link>
       <description><![CDATA[<p>Anthropicは2026年6月18日（現地時間）、AIコーディング支援ツール「Claude Code」でClaudeの挙動を指示する7つの方法を解説する<a href="https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more">公式ブログ</a>{target=\</p>
