@@ -119,6 +119,32 @@
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
+      <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
+      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
+<p>Claude Scienceは、新しいAIモデルではなく、既存のClaudeを科学研究向けのツール、データベース接続、計算環境と組み合わせるアプリである。Anthropicは、研究者がPubMed、Jupyter、R、クラスター端末など複数のツールを行き来している現状を挙げ、Claude Scienceによって研究作業を単一の環境にまとめられるとしている。</p>
+<h2>Python／R実行、科学データベース連携に対応</h2>
+<p><a href="https://claude.com/docs/claude-science/overview">Claude Science</a>はmacOSとLinuxで利用できるデスクトップアプリだ。研究者が自然言語で研究タスクや解析内容を指示すると、ClaudeがPython、R、shellコードを書き、サンドボックス内で実行する。</p>
+<p>Claude Scienceは、ユーザーが許可したフォルダを読み込み、科学データベースからデータを取得し、結果をバージョン管理された成果物として保存する。Anthropicによれば、ゲノミクス、シングルセル解析、プロテオミクス、構造生物学、ケモインフォマティクスなどに向けた60以上のスキルやコネクターを備える。</p>
+<p>また、Jupyter Notebookのように、ローカル環境だけでなく、SSHやHPCログインノードを通じたリモート環境でも利用できる。Anthropicは、研究者がすでに信頼しているモデル、データセット、パイプラインをClaude Scienceに接続し、再利用可能なスキルとして保存できるとしている。</p>
+<p><strong>Claude Scienceの画面。解析結果、コード、実行ログ、レビュー機能を単一の環境で扱える</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531.jpg" alt="6a43a5d70ebe75212a0ec830_science-pillars-1.jpg" /></p>
+<h2>図表や原稿を、作成過程ごと保存</h2>
+<p>Claude Scienceの特徴の1つは、研究成果の再現性と監査可能性を重視している点だ。Anthropicによると、Claude Scienceは、3Dタンパク質構造、ゲノムブラウザートラック、化学構造などの科学的な成果物をネイティブに表示できる。</p>
+<p>図表を生成した場合には、その図を作成したコード、実行環境、作成手順の説明、メッセージ履歴をあわせて保存する。これにより、数カ月後でも、どの入力からどのように結果が作られたのかを確認しやすくする。研究者は、図表についてClaude Scienceと会話しながら、グリッド線の削除や軸の変更などを自然言語で指示できる。</p>
+<p>Anthropicは、バックグラウンドで動くレビュアーが、Claudeの主張を実際の実行記録と照合できるとも説明している。ただし、公式ドキュメントでは、Claudeは誤る可能性があり、レビュアーはエラーを減らすが完全には排除しないと明記している。研究、出版、下流の意思決定に使う前には、結果を検証する必要がある。</p>
+<h2>TeamとEnterpriseでは管理者の有効化が必要</h2>
+<p>Claude Scienceは、Claude Pro、Max、Team、Enterpriseの各プランで利用できる。TeamとEnterpriseでは初期状態でオフになっており、組織の管理者が<a href="https://claude.com/docs/claude-science/enable-claude-science">設定画面から有効化</a>
+する必要がある。Freeプランでは利用できない。</p>
+<p>システム要件として、macOS 13以降またはLinux x64、約5GBの空き容量などが示されている。Linuxでは、socat、bubblewrap 0.8.0以降、カーネルで許可された非特権ユーザー名前空間も必要になる。</p>
+<p>また、Claude Scienceは研究ツールであり、臨床・診断用途を意図したものではない。公式ドキュメントでは、ファイルはユーザーのコンピューター上に残り、コードはサンドボックス内で実行されると説明している。新しいフォルダ、ネットワークホスト、リモートジョブを利用する際には、ユーザーの承認が必要になる。</p>
+<h2>科学研究向けClaude展開の一環</h2>
+<p>Anthropicは、Claudeをライフサイエンスや科学研究に活用する取り組みを進めてきた。公式の<a href="https://claude.com/solutions/life-sciences">ライフサイエンス向けページ</a>では、文献、ラボノート、解析プラットフォームを連携させ、仮説立案から最終提出までを支援する用途を示している。</p>
+<p>今回のClaude Scienceは、Claudeを単なるチャットAIやコーディング支援ツールにとどめず、研究者が日常的に使う解析環境、データベース、計算資源と結びつける取り組みといえる。Anthropicはベータ提供を通じてユーザーからのフィードバックを集め、プラットフォームを改善していくとしている。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
       <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
