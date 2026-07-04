@@ -145,6 +145,32 @@
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIモデルランキングサイト「Arena」、売上ペースを年換算で1億ドル規模に　企業向け評価サービスが急成長</title>
+      <link>https://ledge.ai/articles/arena_ai_evaluation_100m_revenue</link>
+      <description><![CDATA[<p>AIモデル評価プラットフォームのArenaは2026年6月29日、企業向けサービスの開始から8カ月以内に、現在の売上ペースを1年分に換算した売上規模が1億ドルを突破したと<a href="https://arena.ai/blog/arena-100m-revenue/">発表</a>した。</p>
+<p>Arenaは、ユーザーがAIモデルの回答を比較・投票する仕組みで知られる。公式発表によると、現在の月間訪問者数は1000万人超、累計会話数は7億件超、累計投票数は8200万件超に達している。</p>
+<p>なお、<a href="https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/">TechCrunch</a>によると、Arenaはこの指標をARRと呼んでいるが、課金は利用量ベースであり、伝統的な意味での年間経常収益とは異なるという。</p>
+<h2>UC Berkeley発の研究プロジェクトから商用評価サービスへ</h2>
+<p>Arenaはもともと、AI言語モデルを比較するためのUC Berkeley発の研究プロジェクトとして始まった。2026年1月には、LMArenaからArenaへの名称変更を<a href="https://arena.ai/blog/lmarena-is-now-arena/">発表</a>し、実利用におけるAI性能を測定するグローバルな評価プラットフォームとして位置付けを広げている。</p>
+<p>同社は2025年9月、企業やモデル開発企業、開発者向けの商用製品「AI Evaluations」を<a href="https://arena.ai/blog/ai-evaluations/">発表</a>した。AI Evaluationsは、実際のユーザーによるフィードバックに基づき、モデルの性能を分析する評価サービスだ。</p>
+<p>発表時点でLMArenaは、2億5000万件超の実会話、月間200万票超、月間ユーザー300万人超を記録していた。公開リーダーボードは引き続き無料で提供しながら、その評価基盤を企業向けサービスとして展開する構図となる。</p>
+<h2>売上の柱は企業向けの評価サービス</h2>
+<p>Arenaの公開リーダーボードは、一般ユーザーが無料でAIモデルの回答を比較・投票できる仕組みだ。一方、同社の売上は、ランキングを見る一般ユーザーからではなく、AIモデルやAIアプリの性能を検証したい企業、モデル開発企業、開発者向けの評価サービスから生まれている。</p>
+<p>企業側は、自社モデルが競合モデルと比べてどの領域で優れているのか、どのようなタスクで弱点が出るのか、ユーザーがどの回答を好むのかを把握するために、Arenaの評価基盤を利用する。公開リーダーボードで集まる人間の比較・投票データは、実利用に近いAI性能を測るための材料になる。</p>
+<p>同社の「AI Evaluations」は、コミュニティから得られるフィードバックに基づく詳細な評価、代表的なフィードバックデータのサンプルによる検証可能性、評価結果の納期を定めるSLAなどを提供する。無料で使えるランキングを入口に、大量の実利用データを集め、その評価手法を企業向けに提供することが、Arenaのビジネスモデルとなっている。</p>
+<h2>チャット比較からエージェント評価にも拡大</h2>
+<p>Arenaは、テキスト、コーディング、ビジョン、画像生成など複数の領域でモデルを比較している。近年は、チャットボットの回答比較にとどまらず、長時間のタスクを実行するAIエージェントの評価にも広げている。</p>
+<p>同社は公式発表で、Agent Arenaが長時間のエージェントタスクにおけるタスク完了率やハルシネーション率の評価を可能にすると説明している。また、Agent Modeは公開から約1カ月で月間500万ターン超に達し、週10％のペースで成長しているという。</p>
+<p>Arenaは、Agent Modeの紹介動画も公開している。動画では、Arena上でエージェントに調査や資料作成などの複雑な作業を依頼する流れが示されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Kq3-fV7w3Nk&amp;t=18s">YouTube</a></p>
+<p>従来の静的ベンチマークでは、ユーザーが実際にどのような作業でAIを使い、どの回答をよいと判断したかを捉えにくい。Arenaは、人間の比較・投票データを使って、実利用に近い形でモデル性能を測ることを強みにしている。</p>
+<h2>1月には1.5億ドル調達、評価基盤への需要拡大</h2>
+<p>Arenaは2026年1月、FelicisとUC Investmentsが主導するシリーズAで1億5000万ドルを調達したと<a href="https://arena.ai/blog/series-a/">発表</a>している。Andreessen Horowitz、Kleiner Perkins、Lightspeed Venture Partnersなども参加した。</p>
+<p>AIモデルの性能競争が激しくなるなか、開発企業にとっては、公開ベンチマークだけでなく、実際の利用場面に近い評価データの重要性が高まっている。Arenaの急成長は、AIモデルを「実際に使って比べる」評価が、研究コミュニティだけでなく商用サービスとしても大きな需要を持ち始めていることを示している。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
       <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
@@ -161,28 +187,6 @@
 <p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
 <p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
 <p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、『ミッドサマー』『Backrooms』のA24とAI研究で提携　映画制作のワークフロー開発へ</title>
-      <link>https://ledge.ai/articles/google_deepmind_a24_ai_research_partnership</link>
-      <description><![CDATA[<p>Google DeepMindは2026年6月22日、米独立系映画スタジオA24との研究提携を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/deepmind-a24-research-partnership/">発表</a>した。映画制作者が新しいワークフローや制作手法を開発できるよう、複数のプロジェクトで研究開発を進める。</p>
-<p>A24は、アカデミー賞作品賞を受賞した『エブリシング・エブリウェア・オール・アット・ワンス』や、ホラー映画『ミッドサマー』、YouTube発のホラー作品として注目された『Backrooms』などを手がける独立系映画スタジオである。<a href="https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe">Wall Street Journal</a>は、GoogleがA24に約7500万ドルを投資していると報じている。</p>
-<h2>映画制作者のワークフロー開発で協力</h2>
-<p>今回の提携は、特定のAI製品や映画制作ツールの提供開始ではなく、研究開発を目的とした協力として発表された。Google DeepMindとA24は、複数のプロジェクトを通じて、映画制作者が使う新しい技術や制作ワークフローの開発に取り組む。</p>
-<p>Google DeepMindは、将来のツールは実際に使うクリエイター自身によって形づくられるべきだとしている。A24の映画制作者が制作プロセスのなかでGoogle DeepMindの技術に触れ、研究者側は現場からのフィードバックや助言を得る構図になる。</p>
-<p>同社は、A24の映画制作者とGoogle DeepMindの研究者が並行してテスト、反復、構築を進めることで、次世代エンターテインメントと先端技術の距離を縮めるとしている。</p>
-<h2>作家性の強い映画をブランド化してきたA24</h2>
-<p>A24は、映画作家の個性を前面に出した作品づくりで知られる独立系映画スタジオである。『ムーンライト』や『エブリシング・エブリウェア・オール・アット・ワンス』でアカデミー賞作品賞を受賞し、『ミッドサマー』『ヘレディタリー／継承』などのホラー作品でも、作品そのものとスタジオ名が結びつくような存在感を築いてきた。</p>
-<p>Kane Parsons氏による『Backrooms』も、そうしたA24の現在地を示す作品のひとつだ。YouTubeで話題になったホラー映像シリーズをもとにした長編映画で、全米公開後に大きな反響を呼び、日本公開も決まっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bakrooms_89b5451581/bakrooms_89b5451581.jpg" alt="bakrooms.jpg" /></p>
-<p>今回の提携で特徴的なのは、Google DeepMindが研究開発の相手として、伝統的な大手映画会社ではなくA24を選んだ点である。映画賞で評価される作家性の強い作品から、若い世代に届くネット発の映像文化まで接点を持つA24と、映画制作者が実際に使うワークフローのなかでAI研究を進めることになる。</p>
-<h2>研究提携にあわせGoogleがA24へ投資</h2>
-<p>Googleは今回の提携にあわせ、A24への投資も明らかにしている。Wall Street Journalは、投資額が約7500万ドル、日本円で約121億円にのぼると報じた。</p>
-<p>Google DeepMindは今回の提携を、「研究と共有された好奇心に根ざした共同の旅の始まり」と位置づけている。映画制作の現場で生まれる発想や課題を取り込みながら、AI研究を次世代のエンターテインメント制作につなげようとする動きといえる。</p>
-<p><strong>Google DeepMind共同創業者兼CEOのDemis Hassabis氏のコメント：</strong> 映画制作者と初期段階から協力し、アーティストの創造的なビジョンを支えるAI機能を構築するとしている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5/Demis_Quote_withtitle_width_1000_format_webp_e72ffbfcf5.webp" alt="DemisQuote_withtitle.width-1000.format-webp.webp" /></p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
