@@ -5,6 +5,43 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
+      <link>https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent</link>
+      <description><![CDATA[<p>中国のAI企業Z.aiは2026年6月16日、オープンモデル「GLM-5.2」の公式ブログで、同モデルを利用できるAI開発エージェント環境「<a href="https://zcode.z.ai/en">ZCode</a>」を紹介した。ZCode公式サイトでは現在、GLM-5.2向けに最適化した「ZCode 3.0」を、macOS、Windows、Linux向けに提供している。</p>
+<p>ZCodeは、自然言語で計画、コーディング、レビュー、デプロイを進めるための開発環境だ。Claude CodeやCodexのように、開発作業をAIエージェントに任せるツール群に近い。</p>
+<h2>GLM-5.2を開発ワークフローに組み込む「ADE」</h2>
+<p>ZCodeの公式ドキュメントでは、ZCodeを「GLM-5.2を実際のコーディングワークフローに持ち込むためのAgentic Development Environment」と説明している。自然言語で指示することで、コーディング、デバッグ、テスト、プロジェクトのプレビュー、変更レビューなどを依頼できる。</p>
+<p>GLM-5.2は、1Mトークンのコンテキスト長と長時間タスクへの対応を特徴とするモデルだ。ZCodeでは、目標、ファイル、ターミナル結果、ブラウザーコンテキスト、実行モード、Gitの状態などを同じタスク内で保持し、計画から実装、検証までを継続的に進められるとしている。</p>
+<p>ZCode Agentは、GLM-5.2向けに調整された中核機能として提供される。Z.aiは、複雑なプロジェクト理解、長時間のタスク計画、複数ターンにわたる文脈保持、継続的なコード変更に強みがあると説明している。</p>
+<p>ZCodeの背景にあるGLM-5.2は、1Mトークンのコンテキスト長を備え、プロジェクト規模の開発文脈や長時間タスクを扱うことを想定したオープンモデルだ。Z.aiは公式ドキュメント上で、コーディング系ベンチマークにおいてClaude Opus 4.8に近い結果を示したとしている。</p>
+<h2>月18ドルからのGLM Coding Plan、Claude Codeなどにも接続</h2>
+<p>開発者向けには、「<a href="https://z.ai/subscribe">GLM Coding Plan</a>」を提供。AIコーディング向けのサブスクリプションパッケージとして説明されており、月18ドルから利用できるという（記事公開時点ではキャンペーン価格が表示されている）。</p>
+<p>GLM Coding Planは、ZCode以外のツールにも接続できる。Claude Code、OpenCode、Cursor、Cline、TRAE、Qoder、Droid、Kilo Code、Roo Code、Gooseなどのツールが対応環境として挙げられている。</p>
+<p>また、Coding PlanはAnthropic Messages形式とOpenAI Chat Completions形式の両方に対応する。Anthropic形式では「https://api.z.ai/api/anthropic」、OpenAI Chat Completions形式では「https://api.z.ai/api/coding/paas/v4」をBase URLとして設定する構成だ。Clineの例では、OpenAI Compatibleを選び、Z.aiのAPIキーとGLMモデル名を入力して利用する手順が示されている。</p>
+<p>Claude CodeやCodexのような開発エージェントが普及するなか、Z.aiはGLM-5.2を中心に、モデル、API、デスクトップアプリ、既存開発ツール連携をまとめて提供する形を取る。クローズドモデルが主導してきたAIコーディング領域で、中国発のオープンモデルを軸にした開発環境がどこまで利用を広げるかが注目される。</p>
+]]></description>
+      <pubDate>Fri, 03 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>マスク氏、次期AIモデル「Grok 4.5」の開発状況を投稿　買収直後のCursorデータを補助学習に追加、SpaceX・Teslaで限定試験に</title>
+      <link>https://ledge.ai/articles/grok_4_5_spacex_tesla_private_beta</link>
+      <description><![CDATA[<p>イーロン・マスク氏は日本時間2026年6月28日、xAIの次期AIモデル「Grok 4.5」の開発状況を自身のXに<a href="https://x.com/elonmusk/status/2071184354756477041">投稿した</a>。投稿によると、Grok 4.5は「1.5T V9 foundation model」をベースにし、Cursorのデータを補助的な学習に加えたモデルで、SpaceXとTeslaで限定的な試験利用に入った。マスク氏はこの段階を「private beta」と表現している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok4_5_04e16f8694/grok4_5_04e16f8694.jpg" alt="grok4-5.jpg" /></p>
+<p>Grok 4.5は、xAIが公開モデルとして提供しているGrok 4.3の次の世代にあたるとみられる。xAIは6月17日、Grok 4.3をAmazon Bedrockで一般提供したと<a href="https://x.ai/news/grok-amazon-bedrock">発表</a>している。Grok 4.3は、1Mトークンのコンテキストウィンドウや設定可能な推論努力、ツール呼び出し機能を備えるモデルとして説明されている。</p>
+<h2>SpaceX・Teslaで先行検証</h2>
+<p>今回の投稿で示されたのは、Grok 4.5の一般提供ではなく、SpaceXとTeslaでの先行的な試験利用である。公開APIや一般ユーザー向けサービスでの提供時期には触れられていない。</p>
+<p>SpaceXは宇宙開発、Teslaは自動車やエネルギー、ロボティクスなどを手がける企業で、いずれもマスク氏が率いる企業である。Grok 4.5が両社でどの業務に使われるかは示されていないが、xAIの次期モデルはまず関連企業内で検証される段階に入った。</p>
+<h2>Cursorデータを補助学習に追加</h2>
+<p>投稿では、Grok 4.5に「Cursor data」を補助的な学習として加えたことも示された。Cursorは、コード生成や編集、開発者の作業支援に使われるAIコーディングツールである。</p>
+<p>ただし、投稿だけでは、Cursorデータの具体的な範囲や利用方法は確認できない。<a href="https://cursor.com/data-use">Cursor</a>の公式データ利用説明では、Privacy Modeを有効にした場合、Customer DataはCursorによる学習に使われず、モデルプロバイダーも保存・学習に使わないと説明している。一方、Privacy Modeを無効にした場合は、コードベースデータ、プロンプト、エディター操作、コード断片などをAI機能の改善やモデル学習に使う可能性があるとしている。</p>
+<h2>初期評価ではClaude Opusにも言及</h2>
+<p>マスク氏は投稿で、Grok 4.5の初期評価について、Anthropicの「Claude Opus」に近い、または上回る可能性があるとも述べた。Grok 4.5の性能については、現時点で公式の評価表や第三者による検証結果は確認できない。Claude Opusに近い、または上回る可能性があるという比較は、マスク氏の投稿に基づく初期的な見方にとどまる。</p>
+<p>同じ投稿では、強化学習による改善が続いていることや、Grok Buildのハーネスが日々改善されていることにも触れている。</p>
+<p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
+]]></description>
+      <pubDate>Fri, 03 Jul 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、社内利用はChatGPT中心からCodex中心に　非技術部門にも広がり、業務AIエージェントの主役に</title>
       <link>https://ledge.ai/articles/openai_codex_non_developer_usage</link>
       <description><![CDATA[<p>OpenAIは2026年6月25日、AIエージェント「Codex」の利用実態を分析した研究論文「The Shift to Agentic AI: Evidence from Codex」を<a href="https://openai.com/index/how-agents-are-transforming-work/">公開した</a>。論文では、個人ユーザー、組織ユーザー、OpenAI社員の3つの集団を対象に、Codexがどのように使われているかを分析している。</p>
@@ -217,25 +254,6 @@
 <p>Googleは、Nano Banana 2 LiteとGemini Omni Flashを組み合わせる使い方も示している。Nano Banana 2 Liteで高速に画像を生成し、その画像を参照素材としてGemini Omni Flashに渡すことで、静止画から動画を作成できる。</p>
 <p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
 <p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏、次期AIモデル「Grok 4.5」の開発状況を投稿　買収直後のCursorデータを補助学習に追加、SpaceX・Teslaで限定試験に</title>
-      <link>https://ledge.ai/articles/grok_4_5_spacex_tesla_private_beta</link>
-      <description><![CDATA[<p>イーロン・マスク氏は日本時間2026年6月28日、xAIの次期AIモデル「Grok 4.5」の開発状況を自身のXに<a href="https://x.com/elonmusk/status/2071184354756477041">投稿した</a>。投稿によると、Grok 4.5は「1.5T V9 foundation model」をベースにし、Cursorのデータを補助的な学習に加えたモデルで、SpaceXとTeslaで限定的な試験利用に入った。マスク氏はこの段階を「private beta」と表現している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok4_5_04e16f8694/grok4_5_04e16f8694.jpg" alt="grok4-5.jpg" /></p>
-<p>Grok 4.5は、xAIが公開モデルとして提供しているGrok 4.3の次の世代にあたるとみられる。xAIは6月17日、Grok 4.3をAmazon Bedrockで一般提供したと<a href="https://x.ai/news/grok-amazon-bedrock">発表</a>している。Grok 4.3は、1Mトークンのコンテキストウィンドウや設定可能な推論努力、ツール呼び出し機能を備えるモデルとして説明されている。</p>
-<h2>SpaceX・Teslaで先行検証</h2>
-<p>今回の投稿で示されたのは、Grok 4.5の一般提供ではなく、SpaceXとTeslaでの先行的な試験利用である。公開APIや一般ユーザー向けサービスでの提供時期には触れられていない。</p>
-<p>SpaceXは宇宙開発、Teslaは自動車やエネルギー、ロボティクスなどを手がける企業で、いずれもマスク氏が率いる企業である。Grok 4.5が両社でどの業務に使われるかは示されていないが、xAIの次期モデルはまず関連企業内で検証される段階に入った。</p>
-<h2>Cursorデータを補助学習に追加</h2>
-<p>投稿では、Grok 4.5に「Cursor data」を補助的な学習として加えたことも示された。Cursorは、コード生成や編集、開発者の作業支援に使われるAIコーディングツールである。</p>
-<p>ただし、投稿だけでは、Cursorデータの具体的な範囲や利用方法は確認できない。<a href="https://cursor.com/data-use">Cursor</a>の公式データ利用説明では、Privacy Modeを有効にした場合、Customer DataはCursorによる学習に使われず、モデルプロバイダーも保存・学習に使わないと説明している。一方、Privacy Modeを無効にした場合は、コードベースデータ、プロンプト、エディター操作、コード断片などをAI機能の改善やモデル学習に使う可能性があるとしている。</p>
-<h2>初期評価ではClaude Opusにも言及</h2>
-<p>マスク氏は投稿で、Grok 4.5の初期評価について、Anthropicの「Claude Opus」に近い、または上回る可能性があるとも述べた。Grok 4.5の性能については、現時点で公式の評価表や第三者による検証結果は確認できない。Claude Opusに近い、または上回る可能性があるという比較は、マスク氏の投稿に基づく初期的な見方にとどまる。</p>
-<p>同じ投稿では、強化学習による改善が続いていることや、Grok Buildのハーネスが日々改善されていることにも触れている。</p>
-<p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
@@ -503,24 +521,6 @@
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
-      <link>https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent</link>
-      <description><![CDATA[<p>中国のAI企業Z.aiは2026年6月16日、オープンモデル「GLM-5.2」の公式ブログで、同モデルを利用できるAI開発エージェント環境「<a href="https://zcode.z.ai/en">ZCode</a>」を紹介した。ZCode公式サイトでは現在、GLM-5.2向けに最適化した「ZCode 3.0」を、macOS、Windows、Linux向けに提供している。</p>
-<p>ZCodeは、自然言語で計画、コーディング、レビュー、デプロイを進めるための開発環境だ。Claude CodeやCodexのように、開発作業をAIエージェントに任せるツール群に近い。</p>
-<h2>GLM-5.2を開発ワークフローに組み込む「ADE」</h2>
-<p>ZCodeの公式ドキュメントでは、ZCodeを「GLM-5.2を実際のコーディングワークフローに持ち込むためのAgentic Development Environment」と説明している。自然言語で指示することで、コーディング、デバッグ、テスト、プロジェクトのプレビュー、変更レビューなどを依頼できる。</p>
-<p>GLM-5.2は、1Mトークンのコンテキスト長と長時間タスクへの対応を特徴とするモデルだ。ZCodeでは、目標、ファイル、ターミナル結果、ブラウザーコンテキスト、実行モード、Gitの状態などを同じタスク内で保持し、計画から実装、検証までを継続的に進められるとしている。</p>
-<p>ZCode Agentは、GLM-5.2向けに調整された中核機能として提供される。Z.aiは、複雑なプロジェクト理解、長時間のタスク計画、複数ターンにわたる文脈保持、継続的なコード変更に強みがあると説明している。</p>
-<p>ZCodeの背景にあるGLM-5.2は、1Mトークンのコンテキスト長を備え、プロジェクト規模の開発文脈や長時間タスクを扱うことを想定したオープンモデルだ。Z.aiは公式ドキュメント上で、コーディング系ベンチマークにおいてClaude Opus 4.8に近い結果を示したとしている。</p>
-<h2>月18ドルからのGLM Coding Plan、Claude Codeなどにも接続</h2>
-<p>開発者向けには、「<a href="https://z.ai/subscribe">GLM Coding Plan</a>」を提供。AIコーディング向けのサブスクリプションパッケージとして説明されており、月18ドルから利用できるという（記事公開時点ではキャンペーン価格が表示されている）。</p>
-<p>GLM Coding Planは、ZCode以外のツールにも接続できる。Claude Code、OpenCode、Cursor、Cline、TRAE、Qoder、Droid、Kilo Code、Roo Code、Gooseなどのツールが対応環境として挙げられている。</p>
-<p>また、Coding PlanはAnthropic Messages形式とOpenAI Chat Completions形式の両方に対応する。Anthropic形式では「https://api.z.ai/api/anthropic」、OpenAI Chat Completions形式では「https://api.z.ai/api/coding/paas/v4」をBase URLとして設定する構成だ。Clineの例では、OpenAI Compatibleを選び、Z.aiのAPIキーとGLMモデル名を入力して利用する手順が示されている。</p>
-<p>Claude CodeやCodexのような開発エージェントが普及するなか、Z.aiはGLM-5.2を中心に、モデル、API、デスクトップアプリ、既存開発ツール連携をまとめて提供する形を取る。クローズドモデルが主導してきたAIコーディング領域で、中国発のオープンモデルを軸にした開発環境がどこまで利用を広げるかが注目される。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>東京都、都庁舎にAI自動分別リサイクルボックス設置　リチウムイオン電池内蔵製品を回収</title>
       <link>https://ledge.ai/articles/weecle_ai_recycling_box_tokyo</link>
       <description><![CDATA[<p>東京都は2026年6月19日、都庁舎にAI自動分別リサイクルボックスを設置し、リチウムイオン電池とその使用製品を回収する「東京鉱山から資源を掘り起こし～都庁舎リチウムイオン電池回収キャンペーン～」を6月26日から開始すると<a href="https://www.metro.tokyo.lg.jp/information/press/2026/06/2026061914">発表</a>した。期間は9月30日まで。</p>
@@ -558,13 +558,6 @@
       <description><![CDATA[<p>Anthropicは2026年6月16日、AIコーディングアシスタント「Claude Code」の利用実態を分析した研究記事「<a href="https://www.anthropic.com/research/claude-code-expertise">Agentic coding and persistent returns to expertise</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 22 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、データセンターの水使用量を上回る「水の補充」へ　2030年までに年間190億ガロン超を見込む</title>
-      <link>https://ledge.ai/articles/google_data_center_water_replenishment</link>
-      <description><![CDATA[<p>Googleは2026年6月3日、データセンターを建設・運用する地域の水資源管理に関する新たな取り組みを<a href="https://blog.google/company-news/outreach-and-initiatives/sustainability/new-water-stewardship-commitments/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 20 Jun 2026 04:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
