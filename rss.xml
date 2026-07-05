@@ -144,25 +144,6 @@
       <pubDate>Sun, 28 Jun 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、米政府の指示で停止していた「Claude Mythos 5」を重要インフラ向けに限定再展開へ</title>
-      <link>https://ledge.ai/articles/anthropic_claude_mythos_5_fable_5_access_restore</link>
-      <description><![CDATA[<p>Anthropicは2026年6月26日、米政府の指示によりアクセスを停止していたAIモデル「Claude Mythos 5」について、重要インフラを運用・防御する米国組織に限定して再展開できるとの通知を受けたと<a href="https://x.com/AnthropicAI/status/2070665903440871779">明らかにした</a>。</p>
-<p>同社は6月12日以降、Claude Mythos 5とClaude Fable 5へのアクセス回復に向けて米政府と協議してきたとした。今回、再展開の対象となるのは、Anthropicが「最も強力なサイバーセキュリティモデル」と位置づけるClaude Mythos 5である。Fable 5については、一般提供の再開に向けて協議を続ける。</p>
-<h2>Mythos 5は重要インフラ防御向けに限定復帰</h2>
-<p>Claude Mythos 5は、Anthropicが6月9日に発表した<a href="https://ledge.ai/articles/anthropic_claude_fable_5_mythos_safeguards">最上位クラスのAIモデル</a>である。サイバーセキュリティ分野で高い能力を持つモデルと位置づけられ、当初から広く一般に提供するのではなく、米政府との協力のもと、重要ソフトウェアの防御を目的とする「Project Glasswing」を通じて限定提供する方針だった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Claude_Fable_5_and_Claude_Mythos_5_2acd91abd5/Claude_Fable_5_and_Claude_Mythos_5_2acd91abd5.jpg" alt="Claude Fable 5 and Claude Mythos 5.jpg" /></p>
-<p><a href="https://www.anthropic.com/glasswing">Project Glasswing</a>は、重要インフラや主要ソフトウェアを守る組織に高度なAIモデルを提供し、脆弱性の発見や修正に活用する取り組みである。今回の再展開も、全面的な提供再開ではなく、重要インフラの運用や防御に関わる米国組織を対象とした限定的な措置となる。</p>
-<h2>米政府指令でFable 5とともに停止</h2>
-<p>Anthropicは6月12日、米政府が国家安全保障上の権限を理由に、Claude Fable 5とClaude Mythos 5へのアクセス停止を求める輸出管理指令を出したと<a href="https://ledge.ai/articles/claude_fable_5_mythos_5_access_suspended">発表</a>していた。</p>
-<p>指令は、米国内外を問わず、外国籍の人物によるFable 5とMythos 5へのアクセス停止を求める内容だった。Anthropicは、指令に準拠するため、実務上すべての顧客に対して両モデルへのアクセスを停止する必要があるとしていた。ほかのAnthropicモデルへのアクセスには影響しない。</p>
-<p>この停止措置の後、Anthropicは米政府と協議を続けてきた。今回、まずMythos 5について、重要インフラ防御に関わる一部の米国組織向けにアクセスを戻す道が開かれた形だ。</p>
-<h2>Fable 5の一般提供再開は協議継続</h2>
-<p>Fable 5とMythos 5は同じ基盤モデルを使う。Fable 5は一般利用を想定し、サイバーセキュリティなど一部領域の悪用リスクを抑えるためのセーフガードを備える。一方、Mythos 5は一部領域のセーフガードを外したモデルとして、より限定的な用途に向けて設計された。</p>
-<p>高度なAIモデルは、脆弱性の発見や重要インフラの防御に役立つ一方、サイバー攻撃などに悪用される可能性もある。今回の発表は、政府の指示で停止された最上位モデルについて、防御用途に限って段階的にアクセスを戻す動きといえる。Fable 5の一般提供がいつ、どのような条件で再開されるかは、現時点では明らかになっていない。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
       <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
@@ -231,6 +212,13 @@
 <p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
 <p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
 <p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
+]]></description>
+      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Geminiアプリのパーソナライズ画像生成を米国で無料提供　GoogleフォトやGmailの文脈を反映 米国の対象ユーザーが無料で利用できるように</title>
+      <link>https://ledge.ai/articles/google_gemini_personalized_image_generation_free_us</link>
+      <description><![CDATA[<p>Googleは2026年6月29日（現地時間）、Geminiアプリでユーザーの好みや生活スタイルを反映した画像生成を、米国の対象ユーザー向けに無料で[提供開始したことを<a href="https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
