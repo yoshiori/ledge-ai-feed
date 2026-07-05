@@ -69,7 +69,7 @@
       <pubDate>Tue, 30 Jun 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/6/30 [TUE]富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
+      <title>富士通、LLMのGPU効率を最大475倍に高めるポストTransformerの新アーキテクチャ「PHOTON」を開発</title>
       <link>https://ledge.ai/articles/fujitsu_photon_llm_gpu_efficiency</link>
       <description><![CDATA[<p>富士通は2026年6月24日、大規模言語モデル（LLM）のコスト削減を目的とする新アーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks（PHOTON）」を開発したと<a href="https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture">発表</a>した。</p>
 <p>PHOTONは、現在のLLMで主流となっているTransformerと比較して、最大475倍のマルチクエリー性能を発揮するという。ここでいうマルチクエリー性能は、GPUリソース当たりのスループットを指す。単にLLMの精度や性能が475倍になるという意味ではなく、同じGPUリソースでより多くの出力を並列に生成できることが焦点となる。</p>
@@ -156,7 +156,7 @@
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
+      <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
       <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
 <p>Claude Scienceは、新しいAIモデルではなく、既存のClaudeを科学研究向けのツール、データベース接続、計算環境と組み合わせるアプリである。Anthropicは、研究者がPubMed、Jupyter、R、クラスター端末など複数のツールを行き来している現状を挙げ、Claude Scienceによって研究作業を単一の環境にまとめられるとしている。</p>
@@ -276,26 +276,6 @@
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/6/27 [SAT]IBM、1nm未満世代のチップ技術を発表　爪サイズに約1000億個のトランジスター、3D構造でAI計算基盤の高密度化へ</title>
-      <link>https://ledge.ai/articles/ibm_1nm_chip_nanostack</link>
-      <description><![CDATA[<p>IBMは2026年6月25日（現地時間）、世界初を謳う1nm未満世代の半導体チップ技術を<a href="https://jp.newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology">発表</a>した。0.7nm、すなわち7オングストローム・ノードにおけるトランジスター・アーキテクチャを特徴とし、爪ほどのサイズのチップに約1000億個のトランジスターを集積する。</p>
-<p>同技術では、3Dチップ構造「ナノスタック」を採用する。IBMは、2021年に発表した2nmチップと比べてほぼ2倍の密度を実現し、2nmノード・チップ比で最大50％の性能向上、または最大70％のエネルギー効率向上が見込まれるとしている。生成AIやクラウドインフラなど、計算需要が増大する領域での応用が想定される。</p>
-<h2>爪サイズに約1000億個のトランジスター</h2>
-<p>今回の発表は、商用製品の発売ではなく、次世代半導体に向けたチップ技術とトランジスター・アーキテクチャの発表である。半導体分野で使われる「nm」は、現在ではチップ内の部品寸法をそのまま表すものではなく、製造技術の世代を示す呼び方として使われている。1nm未満世代のチップ技術も、チップ内の構造が一律に1nm未満で作られていることを意味しない。</p>
-<p>IBMの新技術では、爪ほどのサイズのチップ上に約1000億個のトランジスターを集積する。限られた面積により多くのトランジスターを載せることは、スマートフォンやPC、サーバー、通信機器、重要インフラなどの性能と省電力化に直結する。</p>
-<h2>3D構造「ナノスタック」で縦方向に積層</h2>
-<p>技術の中核にあるのが、IBMが開発した3Dチップ・アーキテクチャ「ナノスタック」である。従来のように平面方向へ小さくするだけでなく、トランジスターを垂直方向に積層し、水平方向にもずらして配置することで、同じ面積により多くのトランジスターを載せる。</p>
-<p><strong>IBMの1nm未満世代チップ技術を示す断面画像。右図ではシリコン原子15列のスケールが示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IBM_Research_TEM_4_1f45c03e3e/IBM_Research_TEM_4_1f45c03e3e.jpg" alt="IBM-Research_TEM_4.jpg" /></p>
-<p>IBM Researchは、7オングストローム設計について、ウェハー接合、SRAMスケーリング、チャネル材料の革新など、複数の技術的な進展によって実現したと<a href="https://research.ibm.com/blog/sub-1nm-node-chips">説明</a>している。積層された各層で異なる材料を使えるため、トランジスターごとに性能と電力効率を最適化しやすくなる。</p>
-<h2>AI計算基盤の高密度化へ</h2>
-<p>IBMは、1nm未満世代のチップ技術が、生成AIやクラウドインフラ、次世代電子機器などの計算基盤に影響を及ぼすとしている。AIモデルの大規模化に伴い、計算性能だけでなく、電力効率やオンチップメモリの性能も重要性を増している。</p>
-<p>IBM Researchは、現在の一般的なAIアクセラレーターが約1500TOPSの処理性能を持つのに対し、7オングストローム技術を使うAIアクセラレーターでは約9000TOPS相当の可能性があると見積もっている。また、ナノスタック構造により、SRAMを40％スケーリングできると説明している。SRAMはチップ上に配置される高速メモリで、AI処理ではデータを計算ユニットへ効率よく供給する役割を持つ。</p>
-<p>ナノスタック技術についてIBMは、早ければ今後5年以内に生産へ進む道筋があるとしている。今回の発表は、具体的な商用製品や量産開始時期を示すものではなく、1nm未満世代に向けた研究開発上の成果と位置づけられる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>アイリスオーヤマ、清掃ロボット「JILBY」を7月1日発売　AIが清掃ルートや時間帯を提案</title>
       <link>https://ledge.ai/articles/irisohyama_jilby_ai_cleaning_robot</link>
       <description><![CDATA[<p>アイリスオーヤマは2026年6月26日、法人向けDX清掃ロボット「JILBY（ジルビー）」を2026年7月1日から発売すると<a href="https://www.irisohyama.co.jp/news/2026/?date=0626">発表</a>した。同社として初めて、ソフトウェアとハードウェアの開発・製造を完全内製した清掃ロボットとなる。NTT西日本グループが提供する「AIロボティクスプラットフォーム」と連携し、AIエージェントが清掃ルートや頻度、時間帯などを提案する。</p>
@@ -380,25 +360,6 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_2_high_res_Memora_1_scaled_b07dc28523/figure_2_high_res_Memora_1_scaled_b07dc28523.png" alt="figure_2_high_res_Memora-1-scaled.png" /></p>
 <p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
 <p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、初の独自AIチップ「Jalapeño（ハラペーニョ）」をBroadcomと発表　LLM推論向けに設計</title>
-      <link>https://ledge.ai/articles/openai_broadcom_jalapeno_ai_chip</link>
-      <description><![CDATA[<p>OpenAIと半導体大手の米Broadcomは6月24日、OpenAIが設計した初のAIチップ「Jalapeño（ハラペーニョ）」を<a href="https://openai.com/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。大規模言語モデル（LLM）の推論処理に最適化したチップで、ChatGPT、Codex、API、将来のエージェント製品など、OpenAIが運用するサービスの利用実態を踏まえて設計した。</p>
-<p>同チップは、OpenAIが「Intelligence Processor」と位置づける初のAIアクセラレーターである。両社は、複数世代にわたる計算基盤の第一歩として展開し、先端AIをより高速で、信頼性が高く、より多くの人が利用しやすいものにする基盤とする。</p>
-<h2>ChatGPTやCodexの運用知見をチップ設計に反映</h2>
-<p>このAIアクセラレーターは、既存のAIワークロード向けチップをLLM推論に転用するのではなく、現代のLLM推論を前提に設計された。OpenAIは、モデル、カーネル、サービングシステム、製品ニーズに関する知見をもとに、チップアーキテクチャ、メモリシステム、ネットワーク、スケジューリング、デプロイメントシステムまでを一体で最適化する方針を示している。</p>
-<p>OpenAIのハードウェアプログラムを率いるRichard Ho氏は、研究チームとの協業から得た知見をもとに、フロンティアAIモデルで重要になるカーネル、メモリ移動、ネットワーク、サービングパターンに合わせて設計したとする。エンジニアリングサンプルはすでにラボで稼働しており、GPT-5.3-Codex-Sparkを含むMLワークロードを、量産目標の周波数と電力で動かしている。</p>
-<p>OpenAIは、今回のチップについて、自社のワークロードに閉じた専用設計ではなく、現在および将来のLLMに対応できる柔軟性を持たせた設計としている。狙いは、主要AIアクセラレーターが持つ計算能力とスループットに、専用推論システムに近い低遅延性を組み合わせることにある。</p>
-<h2>初期設計から9カ月でテープアウト</h2>
-<p>OpenAIとBroadcomは、初期設計から製造テープアウトまで9カ月で共同開発した。開発では、OpenAIのエンジニアリングチームとBroadcomのシリコン実装の専門性に加え、OpenAIのモデルも設計や最適化の一部に活用した。</p>
-<p>OpenAIは、同じモデルがユーザー向けサービスを支えるだけでなく、将来のモデルを動かすインフラの改善にも使われていると位置づける。AIがチップ設計を支援することで、計算資源のコスト低減や、先端AIへのアクセス拡大につながる可能性を示した。</p>
-<h2>2026年末までに初期展開へ</h2>
-<p>OpenAIとBroadcomは2025年10月、OpenAI設計のAIアクセラレーターを10ギガワット規模で展開する協業を<a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">発表</a>していた。Broadcomは、AIアクセラレーターとネットワークシステムを組み込んだラックの展開を2026年後半に始め、2029年末までの完了を目指すとしている。</p>
-<p>今回のチップは、2026年末までの初期展開を想定している。Broadcomのシリコン実装、ネットワーク、接続技術に加え、Celesticaがボード、ラック、システム面の専門性を担う。</p>
-<p>OpenAIは最終性能を現在も測定中としている。初期テストでは、現行の最先端チップよりもワット当たり性能が大幅に高くなる見込みだが、ベンチマーク数値や詳細仕様はまだ公表していない。性能に関する詳細な技術レポートは、今後数カ月以内に示す予定だ。</p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
     </item>
