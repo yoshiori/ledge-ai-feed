@@ -5,11 +5,263 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
+      <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
+      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
+<p>Claude Scienceは、新しいAIモデルではなく、既存のClaudeを科学研究向けのツール、データベース接続、計算環境と組み合わせるアプリである。Anthropicは、研究者がPubMed、Jupyter、R、クラスター端末など複数のツールを行き来している現状を挙げ、Claude Scienceによって研究作業を単一の環境にまとめられるとしている。</p>
+<h2>Python／R実行、科学データベース連携に対応</h2>
+<p><a href="https://claude.com/docs/claude-science/overview">Claude Science</a>はmacOSとLinuxで利用できるデスクトップアプリだ。研究者が自然言語で研究タスクや解析内容を指示すると、ClaudeがPython、R、shellコードを書き、サンドボックス内で実行する。</p>
+<p>Claude Scienceは、ユーザーが許可したフォルダを読み込み、科学データベースからデータを取得し、結果をバージョン管理された成果物として保存する。Anthropicによれば、ゲノミクス、シングルセル解析、プロテオミクス、構造生物学、ケモインフォマティクスなどに向けた60以上のスキルやコネクターを備える。</p>
+<p>また、Jupyter Notebookのように、ローカル環境だけでなく、SSHやHPCログインノードを通じたリモート環境でも利用できる。Anthropicは、研究者がすでに信頼しているモデル、データセット、パイプラインをClaude Scienceに接続し、再利用可能なスキルとして保存できるとしている。</p>
+<p><strong>Claude Scienceの画面。解析結果、コード、実行ログ、レビュー機能を単一の環境で扱える</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531.jpg" alt="6a43a5d70ebe75212a0ec830_science-pillars-1.jpg" /></p>
+<h2>図表や原稿を、作成過程ごと保存</h2>
+<p>Claude Scienceの特徴の1つは、研究成果の再現性と監査可能性を重視している点だ。Anthropicによると、Claude Scienceは、3Dタンパク質構造、ゲノムブラウザートラック、化学構造などの科学的な成果物をネイティブに表示できる。</p>
+<p>図表を生成した場合には、その図を作成したコード、実行環境、作成手順の説明、メッセージ履歴をあわせて保存する。これにより、数カ月後でも、どの入力からどのように結果が作られたのかを確認しやすくする。研究者は、図表についてClaude Scienceと会話しながら、グリッド線の削除や軸の変更などを自然言語で指示できる。</p>
+<p>Anthropicは、バックグラウンドで動くレビュアーが、Claudeの主張を実際の実行記録と照合できるとも説明している。ただし、公式ドキュメントでは、Claudeは誤る可能性があり、レビュアーはエラーを減らすが完全には排除しないと明記している。研究、出版、下流の意思決定に使う前には、結果を検証する必要がある。</p>
+<h2>TeamとEnterpriseでは管理者の有効化が必要</h2>
+<p>Claude Scienceは、Claude Pro、Max、Team、Enterpriseの各プランで利用できる。TeamとEnterpriseでは初期状態でオフになっており、組織の管理者が<a href="https://claude.com/docs/claude-science/enable-claude-science">設定画面から有効化</a>
+する必要がある。Freeプランでは利用できない。</p>
+<p>システム要件として、macOS 13以降またはLinux x64、約5GBの空き容量などが示されている。Linuxでは、socat、bubblewrap 0.8.0以降、カーネルで許可された非特権ユーザー名前空間も必要になる。</p>
+<p>また、Claude Scienceは研究ツールであり、臨床・診断用途を意図したものではない。公式ドキュメントでは、ファイルはユーザーのコンピューター上に残り、コードはサンドボックス内で実行されると説明している。新しいフォルダ、ネットワークホスト、リモートジョブを利用する際には、ユーザーの承認が必要になる。</p>
+<h2>科学研究向けClaude展開の一環</h2>
+<p>Anthropicは、Claudeをライフサイエンスや科学研究に活用する取り組みを進めてきた。公式の<a href="https://claude.com/solutions/life-sciences">ライフサイエンス向けページ</a>では、文献、ラボノート、解析プラットフォームを連携させ、仮説立案から最終提出までを支援する用途を示している。</p>
+<p>今回のClaude Scienceは、Claudeを単なるチャットAIやコーディング支援ツールにとどめず、研究者が日常的に使う解析環境、データベース、計算資源と結びつける取り組みといえる。Anthropicはベータ提供を通じてユーザーからのフィードバックを集め、プラットフォームを改善していくとしている。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIモデルランキングサイト「Arena」、売上ペースを年換算で1億ドル規模に　企業向け評価サービスが急成長</title>
+      <link>https://ledge.ai/articles/arena_ai_evaluation_100m_revenue</link>
+      <description><![CDATA[<p>AIモデル評価プラットフォームのArenaは2026年6月29日、企業向けサービスの開始から8カ月以内に、現在の売上ペースを1年分に換算した売上規模が1億ドルを突破したと<a href="https://arena.ai/blog/arena-100m-revenue/">発表</a>した。</p>
+<p>Arenaは、ユーザーがAIモデルの回答を比較・投票する仕組みで知られる。公式発表によると、現在の月間訪問者数は1000万人超、累計会話数は7億件超、累計投票数は8200万件超に達している。</p>
+<p>なお、<a href="https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/">TechCrunch</a>によると、Arenaはこの指標をARRと呼んでいるが、課金は利用量ベースであり、伝統的な意味での年間経常収益とは異なるという。</p>
+<h2>UC Berkeley発の研究プロジェクトから商用評価サービスへ</h2>
+<p>Arenaはもともと、AI言語モデルを比較するためのUC Berkeley発の研究プロジェクトとして始まった。2026年1月には、LMArenaからArenaへの名称変更を<a href="https://arena.ai/blog/lmarena-is-now-arena/">発表</a>し、実利用におけるAI性能を測定するグローバルな評価プラットフォームとして位置付けを広げている。</p>
+<p>同社は2025年9月、企業やモデル開発企業、開発者向けの商用製品「AI Evaluations」を<a href="https://arena.ai/blog/ai-evaluations/">発表</a>した。AI Evaluationsは、実際のユーザーによるフィードバックに基づき、モデルの性能を分析する評価サービスだ。</p>
+<p>発表時点でLMArenaは、2億5000万件超の実会話、月間200万票超、月間ユーザー300万人超を記録していた。公開リーダーボードは引き続き無料で提供しながら、その評価基盤を企業向けサービスとして展開する構図となる。</p>
+<h2>売上の柱は企業向けの評価サービス</h2>
+<p>Arenaの公開リーダーボードは、一般ユーザーが無料でAIモデルの回答を比較・投票できる仕組みだ。一方、同社の売上は、ランキングを見る一般ユーザーからではなく、AIモデルやAIアプリの性能を検証したい企業、モデル開発企業、開発者向けの評価サービスから生まれている。</p>
+<p>企業側は、自社モデルが競合モデルと比べてどの領域で優れているのか、どのようなタスクで弱点が出るのか、ユーザーがどの回答を好むのかを把握するために、Arenaの評価基盤を利用する。公開リーダーボードで集まる人間の比較・投票データは、実利用に近いAI性能を測るための材料になる。</p>
+<p>同社の「AI Evaluations」は、コミュニティから得られるフィードバックに基づく詳細な評価、代表的なフィードバックデータのサンプルによる検証可能性、評価結果の納期を定めるSLAなどを提供する。無料で使えるランキングを入口に、大量の実利用データを集め、その評価手法を企業向けに提供することが、Arenaのビジネスモデルとなっている。</p>
+<h2>チャット比較からエージェント評価にも拡大</h2>
+<p>Arenaは、テキスト、コーディング、ビジョン、画像生成など複数の領域でモデルを比較している。近年は、チャットボットの回答比較にとどまらず、長時間のタスクを実行するAIエージェントの評価にも広げている。</p>
+<p>同社は公式発表で、Agent Arenaが長時間のエージェントタスクにおけるタスク完了率やハルシネーション率の評価を可能にすると説明している。また、Agent Modeは公開から約1カ月で月間500万ターン超に達し、週10％のペースで成長しているという。</p>
+<p>Arenaは、Agent Modeの紹介動画も公開している。動画では、Arena上でエージェントに調査や資料作成などの複雑な作業を依頼する流れが示されている。</p>
+<p>@<a href="https://www.youtube.com/watch?v=Kq3-fV7w3Nk&amp;t=18s">YouTube</a></p>
+<p>従来の静的ベンチマークでは、ユーザーが実際にどのような作業でAIを使い、どの回答をよいと判断したかを捉えにくい。Arenaは、人間の比較・投票データを使って、実利用に近い形でモデル性能を測ることを強みにしている。</p>
+<h2>1月には1.5億ドル調達、評価基盤への需要拡大</h2>
+<p>Arenaは2026年1月、FelicisとUC Investmentsが主導するシリーズAで1億5000万ドルを調達したと<a href="https://arena.ai/blog/series-a/">発表</a>している。Andreessen Horowitz、Kleiner Perkins、Lightspeed Venture Partnersなども参加した。</p>
+<p>AIモデルの性能競争が激しくなるなか、開発企業にとっては、公開ベンチマークだけでなく、実際の利用場面に近い評価データの重要性が高まっている。Arenaの急成長は、AIモデルを「実際に使って比べる」評価が、研究コミュニティだけでなく商用サービスとしても大きな需要を持ち始めていることを示している。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
+      <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
+      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
+<h2>Claude Fable 5は7月1日から再開</h2>
+<p>Anthropicは6月12日、米政府がClaude Fable 5とClaude Mythos 5に輸出規制を適用したことを受け、両モデルのアクセスを<a href="https://www.anthropic.com/news/fable-mythos-access">全ユーザー向けに停止</a>していた。規制は米国内外の外国籍者を対象としていたが、Anthropicはリアルタイムで国籍を確認する確実な手段がなかったため、すべての顧客に対してアクセスを停止した。</p>
+<p>今回の発表により、Claude Fable 5は7月1日からグローバル提供を再開する。Pro、Max、Team、一部Enterpriseプランでは、7月7日まで週間利用上限の最大50％までClaude Fable 5が含まれる。その後はusage credits経由で利用できる。</p>
+<p>一方、Claude Mythos 5は全面的な提供再開ではない。Anthropicは、米政府が6月26日に承認したことを受け、一部の米国組織向けにClaude Mythos 5のアクセスを復旧した。今後は、Project Glasswingの国内外パートナーにアクセスを広げるため、政府との調整を続ける。</p>
+<h2>停止の背景にAmazon研究者の報告</h2>
+<p>Claude Fable 5とClaude Mythos 5は、Anthropicが6月9日に発表した最上位級のAIモデルである。両モデルは同じ基盤モデルを共有しているが、Claude Fable 5は一般利用向けに強いセーフガードを組み込んだモデルとして提供された。Claude Mythos 5は、一部領域のセーフガードを外したモデルで、防御的サイバーセキュリティ用途のProject Glasswingパートナー向けに限定提供されていた。</p>
+<p>Anthropicによると、6月12日の輸出規制は、Amazonの研究者がClaude Fable 5のセーフガードを回避する手法を見つけたとする報告を米政府が把握した後に出された。報告では、Fable 5にソフトウェア脆弱性を特定させる手法が示され、1件では脆弱性の悪用方法を示すコードも生成されたという。</p>
+<p>Anthropicは過去2週間、米政府やAmazonを含む関係者とともに報告内容を検証した。その結果、報告された手法はClaude Mythos 5級の独自のサイバー能力を引き出すものではなく、通常の防御的サイバーセキュリティ作業に関わる境界的な事例だったとしている。</p>
+<h2>安全分類器を更新、業界共通の評価枠組みも提案</h2>
+<p>Anthropicは今回、報告された挙動を対象にする新しい安全分類器を訓練した。Claude Fable 5へのリクエストが分類器によりブロックされた場合、ユーザーに通知され、そのリクエストはClaude Opus 4.8に送られる。新しい分類器は、Amazonの報告で示された特定の手法を99％超のケースでブロックするという。</p>
+<p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
+<p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
+<p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare、WebページやAPIをアクセスごとに課金できる「Monetization Gateway」発表　AIエージェント時代の収益化基盤に</title>
+      <link>https://ledge.ai/articles/cloudflare_monetization_gateway_x402</link>
+      <description><![CDATA[<p>Cloudflareは2026年7月1日、Cloudflareで保護しているWebページ、データセット、API、MCPツールなどにアクセスごとの課金ルールを設定できる「Cloudflare Monetization Gateway」を<a href="https://blog.cloudflare.com/monetization-gateway/">発表</a>した。AIエージェントやプログラムがコンテンツやツールを利用するたびに支払う仕組みを想定しており、HTTP 402を活用する支払いプロトコル「x402」を使う。</p>
+<p>Cloudflareは同日、AIトラフィックの分類強化や分析機能、商業パートナーシップなどを含む一連の取り組みも<a href="https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、Geminiアプリのパーソナライズ画像生成を米国で無料提供　GoogleフォトやGmailの文脈を反映 米国の対象ユーザーが無料で利用できるように</title>
+      <link>https://ledge.ai/articles/google_gemini_personalized_image_generation_free_us</link>
+      <description><![CDATA[<p>Googleは2026年6月29日（現地時間）、Geminiアプリでユーザーの好みや生活スタイルを反映した画像生成を、米国の対象ユーザー向けに無料で[提供開始したことを<a href="https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表　Gemini Omni Flashは動画編集に対応</title>
+      <link>https://ledge.ai/articles/google_nano_banana_2_lite_gemini_omni_flash</link>
+      <description><![CDATA[<p>Googleは2026年6月30日（現地時間）、画像生成AI「Nano Banana」シリーズの新モデル「Nano Banana 2 Lite」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">発表</a>した。あわせて、動画の生成や会話型編集に対応する「Gemini Omni Flash」を、Google AI Studio、Gemini API、Gemini Enterprise Agent Platformで開発者向けに提供開始した。</p>
+<p>Nano Banana 2 Liteは、Nano Bananaファミリーで最も高速かつコスト効率の高いGemini Imageモデルと位置づけられる。Gemini Omni Flashは、テキスト、画像、動画を入力として扱い、自然言語の指示で動画を生成・編集できるモデルとなる。</p>
+<p><strong>■ Nano Bananaファミリーの比較。Nano Banana 2 Liteは、低レイテンシ・低コストの画像生成モデルとして位置づけられている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed.gif" alt="Copy_of_nb2-lite__model_table_light_V2.gif" /></p>
+<h2>Nano Banana 2 Liteは4秒で画像生成、1K画像あたり0.034ドル</h2>
+<p>Nano Banana 2 Liteは、画像生成・編集を高速かつ低コストに行うためのモデルだ。モデルIDは「gemini-3.1-flash-lite-image」。ラフ案の作成、インタラクティブなプロトタイピング、大量の画像生成など、速度とコストが重要になる用途を想定している。</p>
+<p>Googleの発表では、テキストから画像を4秒で生成でき、価格は1K画像あたり0.034ドル。既存の「Nano Banana（gemini-2.5-flash-image）」を利用している開発者には、Nano Banana 2 Liteへの移行も推奨している。</p>
+<p><strong>■ 画像生成・画像編集の評価、レイテンシ、価格の比較。Nano Banana 2 Liteは、速度とコストの低さを強く打ち出している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nb2_lite_benchmark_blog_0e453e2b46/nb2_lite_benchmark_blog_0e453e2b46.gif" alt="nb2-lite__benchmark_blog.gif" /></p>
+<p><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image">Gemini APIのモデルドキュメント</a>では、Nano Banana Liteは画像生成ファミリーの「効率性重視」のモデルとして説明されている。1K解像度、14種類のアスペクト比、複数ターンのローカル編集などに対応し、色の差し替え、ステッカー作成、背景調整といった軽量な編集にも向く。</p>
+<p>Nano Bananaファミリー全体では、Nano Banana 2 Liteが速度重視、Nano Banana 2が性能とコストのバランス重視、Nano Banana Proが複雑なプロ用途重視という位置づけになる。高精細な最終制作物よりも、下書きや大量生成、短い待ち時間での試行錯誤に適したモデルといえる。</p>
+<p><strong>■ 1分間に生成できる画像枚数の比較。Nano Banana 2 Liteは、短時間で多数の画像案を生成する用途を想定している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/howmany_animals_can_you_generate_10a1165e1b/howmany_animals_can_you_generate_10a1165e1b.jpg" alt="howmany animals can you generate.jpg" /></p>
+<h2>Gemini Omni Flashは動画を自然言語で編集</h2>
+<p>Gemini Omni Flashは、Geminiのマルチモーダル理解と動画生成・編集を組み合わせたモデルだ。Googleは5月にGemini Omniを発表しており、その最初のモデルとしてGemini Omni FlashをGeminiアプリ、Google Flow、YouTube Shorts向けに展開していた。今回、Google AI StudioとGemini APIを通じて、開発者向けにも提供された。</p>
+<p><a href="https://ai.google.dev/gemini-api/docs/changelog">Gemini APIのリリースノート</a>では、Gemini Omni Flashはパブリックプレビューとして公開され、モデルIDは「gemini-omni-flash-preview」となっている。テキストの説明から動画を生成したり、静止画をアニメーション化したりしたうえで、会話形式で出力を修正できる。動画は3〜10秒、720pで生成できる。</p>
+<p>特徴は、単に動画を作るだけでなく、自然言語で修正を重ねられる点にある。画像、テキスト、動画を組み合わせて場面の一貫性を保つ「マルチモーダル参照」や、テキスト・グラフィックと映像内の動作を結びつける表現にも対応する。</p>
+<p><strong>■ 動画編集における比較評価。Gemini Omni Flashは、全体的な好みと指示追従の両方で高いスコアを示している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca.webp" alt="Video_Editing__-Descending-_Ch.width-1000.format-webp.webp" /></p>
+<p>現時点では制約もある。Gemini Omni Flashの動画生成は現在10秒までで、より長い動画への対応は今後の予定となる。また、Gemini APIでは音声参照のアップロードやシーンの延長にはまだ対応していない。</p>
+<h2>画像生成から動画編集までをつなぐ開発者向け基盤に</h2>
+<p>Googleは、Nano Banana 2 LiteとGemini Omni Flashを組み合わせる使い方も示している。Nano Banana 2 Liteで高速に画像を生成し、その画像を参照素材としてGemini Omni Flashに渡すことで、静止画から動画を作成できる。</p>
+<p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
+<p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI・ボット・クローラーを排除し「人間にだけ届く広告」　博報堂DYが販売開始、サム・アルトマン氏らの虹彩認証「World ID」で人間証明</title>
+      <link>https://ledge.ai/articles/human_verified_ad_world_id_hakuhodo</link>
+      <description><![CDATA[<p>博報堂DYホールディングスは2026年6月29日、人間認証型アドネットワーク事業を手がける新会社「Ads for Humanity」を設立し、広告商品「Human-Verified Ad」の販売を始めたと<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2026/06/6582.html">発表</a>した。AIやボット、クローラーを排除し、人間にだけ広告を配信することを目指す。サム・アルトマン氏らが共同発明した人間認証技術「World ID」を活用する。</p>
+<p>World IDは、オンライン上で自分が本物の固有の人間であることを証明するための技術である。<a href="https://world.org/world-id">Worldの公式サイト</a>では、氏名、電話番号、メールアドレスなどの個人情報を共有せずに、ボットやAIシステムではないことを匿名で証明できる仕組みとされている。認証には専用デバイス「Orb」が使われ、虹彩画像などをもとに固有の人間であることを確認する。</p>
+<h2>AIエージェント時代に、人間だけを広告配信対象に</h2>
+<p>Ads for Humanityは、World IDの人間認証技術とLG Electronicsのブロックチェーン技術を基盤に、人間認証型アドネットワーク「Human-Verified Ad Network」を運営する。広告配信対象を人間認証されたユーザーに限定することで、AIエージェントやボットによる不正な広告接触を排除する。</p>
+<p>配信実績はブロックチェーンに記録され、改ざんできないエビデンスとして保存される。広告主は、自社広告が人間認証されたユーザーに対して配信されたことを検証できるという。広告商品「Human-Verified Ad」は、Hakuhodo DY ONEのマーケティングソリューション「WISE Ads」を通じて配信され、ディスプレイ広告、インフィード広告、動画広告に対応する。</p>
+<p>博報堂DYホールディングスは、AIエージェントの普及によって、広告配信と効果測定の前提が揺らぎつつあるとみている。従来のボットは機械的な動作が多く、一定の検知が可能だった。一方、最新のAIエージェントは、商品の比較検討、広告クリック、フォーム入力などを人間と区別しにくい形で実行できるようになっている。</p>
+<p>こうした非人間トラフィックが増えれば、広告費の不正詐取だけでなく、クリックや行動データに人間以外の行動が混入する。広告配信アルゴリズムが誤ったデータを学習すれば、生活者の実態から外れた最適化が進み、広告成果の低下にもつながりかねない。</p>
+<h2>2025年の実証実験を経て事業化</h2>
+<p>今回の事業化に先立ち、博報堂は2025年、LG Electronics、Tools for Humanityとともに、「Human-Verified Ad Network」の<a href="https://www.hakuhodo.co.jp/news/newsrelease/119834/">実証実験</a>を実施していた。食品、化粧品、家電、旅行、教育などの広告主10社、3500人超のユーザーが参加した。</p>
+<p>2026年の発表では、この実証実験について、従来型のWeb広告と比較してCTR（クリック率）が約10倍に向上し、直帰率が約15ポイント改善したとしている。博報堂DYホールディングスは、この成果を受け、人間認証型アドネットワーク事業を本格的に進めるため、2026年4月15日にAds for Humanityを設立した。</p>
+<p>Ads for Humanityは、博報堂DYホールディングスの100％出資会社で、所在地は東京都港区。代表者は森田英佑氏で、事業内容は人間認証型アドネットワーク事業となる。</p>
+<p>AIによる自律的な操作が広がるなか、インターネット上で「人間であること」をどう証明するかは、広告、SNS、マッチングアプリ、チケット販売など複数の領域で課題になっている。今回の取り組みは、World IDによる人間証明を広告配信の基盤に組み込み、人間に届いた広告だけを検証可能にする試みとなる。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>アイリスオーヤマ、清掃ロボット「JILBY」を7月1日発売　AIが清掃ルートや時間帯を提案</title>
+      <link>https://ledge.ai/articles/irisohyama_jilby_ai_cleaning_robot</link>
+      <description><![CDATA[<p>アイリスオーヤマは2026年6月26日、法人向けDX清掃ロボット「JILBY（ジルビー）」を2026年7月1日から発売すると<a href="https://www.irisohyama.co.jp/news/2026/?date=0626">発表</a>した。同社として初めて、ソフトウェアとハードウェアの開発・製造を完全内製した清掃ロボットとなる。NTT西日本グループが提供する「AIロボティクスプラットフォーム」と連携し、AIエージェントが清掃ルートや頻度、時間帯などを提案する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_a25260e5d9/1_a25260e5d9.webp" alt="1.webp" /></p>
+<h2>ソフト・ハードを完全内製、シンクロボがソフトウェア開発</h2>
+<p><a href="https://www.irisohyama.co.jp/b2b/robotics/products/jilby/">JILBY</a>は、床面の集塵清掃を自動で行う法人向けの清掃ロボットである。ソフトウェアは、アイリスグループのシンクロボが初めて開発を手掛けた。ハードウェアは、アイリスオーヤマの大連工場で製造する。</p>
+<p>同社は2023年7月、ロボット開発を行うスマイルロボティクスの全株式を取得し、グループ会社化した。現在のシンクロボである。今回のJILBYにより、製品の企画、開発、製造、販売に加え、アフターサービスまでを一貫して担う体制を整える。</p>
+<p>アイリスオーヤマは、2020年にロボティクス事業へ参入した。業務用清掃ロボットのベンダーシェアでは2023年から3年連続で1位を獲得したとしている。サービスロボットの累計導入社数は7000社、累計出荷台数は2万5000台を超えるという。</p>
+<h2>AIエージェントが清掃ルートや時間帯を提案</h2>
+<p>JILBYは、NTT西日本グループの「AIロボティクスプラットフォーム」と連携する。タブレットやスマートフォンなどの端末を通じて、ユーザーとロボットがテキストや音声で双方向にやり取りできる。蓄積された清掃データなどをもとにAIが学習し、AIエージェントが最適な清掃ルート、頻度、時間帯などを提案する。</p>
+<p>エージェントは、床の汚れ情報を把握し、清掃ロボットが適切な清掃方法を検討・提案する仕組みを紹介している。消耗品交換などのメンテナンス通知や、稼働状況をもとにした清掃レポート作成、清掃プラン提案も想定する。</p>
+<p>@<a href="https://www.youtube.com/watch?v=a4c2XMh95zk">YouTube</a></p>
+<p>同社は、JILBYをNTT西日本開発のAIエージェントに対応させる共同プロジェクトとして位置付けている。清掃ロボットを単なる自動清掃機器ではなく、現場の状況を共有し、清掃計画を支援する業務パートナーへ近づける狙いがある。</p>
+<h2>自動充電や静音モード、10インチモニターを搭載</h2>
+<p>JILBYは、清掃完了後に充電ステーションへ戻る自動充電機能を備える。着脱式バッテリーも採用しており、別のバッテリーを入れ替えることで連続稼働できる。清掃モードはノーマルモード、集塵力の強いパワーモード、稼働音を抑えた静音モードを用意する。</p>
+<p>操作面では、10インチの大型モニターを搭載した。集塵したゴミをためる紙パックを着脱しやすくし、機体を傾けやすくするためのフットステップも大きくした。安全機能として、LiDARセンサー、3Dカメラ、超音波センサー、段差センサー、センサー搭載バンパーなどを備え、人や障害物、段差を検知する。</p>
+<p>同社は今後、エレベーターやフラッパーゲート、自動ドアなど、外部システムと連携できる機能を順次追加する予定だ。清掃ロボットの導入が広がるなか、JILBYはロボット本体の性能だけでなく、運用データをAIで活用し、清掃業務の効率化と最適化を図る製品として展開される。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>経産省、国産フィジカルAI基盤モデルの開発事業を開始　ソフトバンクなどが出資のNoetra(旧・日本AI基盤モデル開発)と産総研を採択</title>
+      <link>https://ledge.ai/articles/meti_nedo_physical_ai_foundation_model</link>
+      <description><![CDATA[<p>経済産業省は2026年6月30日、ロボットなど実世界で働くAI「フィジカルAI」の実現に向け、国産のマルチモーダル基盤モデルを開発する事業を始めると<a href="https://www.meti.go.jp/press/2026/06/20260630005/20260630005.html">発表</a>した。新エネルギー・産業技術総合開発機構（NEDO）の公募で、Noetra株式会社と産業技術総合研究所（産総研）が実施先に選ばれた。</p>
+<p>事業名は「AIロボット・フィジカルAIを見据えたマルチモーダル基盤モデル開発事業」。期間は2026年度から2030年度まで。NEDOは3月24日から4月22日にかけて公募を実施し、15件の申請を審査したうえで、Noetraと産総研の提案を<a href="https://www.nedo.go.jp/koubo/CD3_100431.html">採択</a>した。</p>
+<h2>実世界で働くAIの土台を国産で開発</h2>
+<p>今回の事業が対象にするのは、文章だけでなく、画像、動画、音声、センサーデータなどを扱えるマルチモーダル基盤モデルだ。生成AIはこれまで、文書作成や画像生成などデジタル空間での活用が先行してきた。一方、ロボットや製造設備、自動運転などにAIを組み込むには、現実世界の状況を認識し、判断や制御につなげる能力が必要になる。</p>
+<p>経産省は、製造業などの現場にあるデータを活用しながら、将来にわたって安心して利用できる国産モデルを構築する必要があるとしている。日本が強みを持つ製造業やロボット分野で、海外モデルに依存しすぎないAI基盤を整える狙いがある。</p>
+<p>NEDOは、フィジカルAIの実現により、製造業などの生産性向上やエネルギー消費の効率化が期待されるとしている。単に高性能なAIモデルを作るだけでなく、工場や物流、インフラなど、実際の現場で使える基盤技術に育てることが焦点となる。</p>
+<h2>Noetraがモデル開発、産総研が先端技術を支える</h2>
+<p>実施体制では、Noetraがマルチモーダル基盤モデルの開発と提供を担う。国内のモデル開発事業者やAI利活用企業のニーズを踏まえ、国際的にも競争力のあるモデルを目指す。</p>
+<p>産総研は、国内外の研究機関と連携し、先端的な技術開発を担当する。モデルの基盤能力を高める研究に加え、実世界で使うための拡張性や評価方法の開発も進める。</p>
+<p>研究開発テーマは「実世界ネイティブに資するフィジカルAI基盤技術の研究開発」。高度な日本語理解、論理推論、指示遂行といった基礎能力に加え、画像、動画、音声、物理特性などを統合的に扱う能力を高める。実施期間は2026年6月から2031年3月までとされている。</p>
+<h2>学習済み重みを提供、国内AIエコシステム形成へ</h2>
+<p>開発したモデルは、国内のモデル開発者やAI利活用事業者に広く提供する方針だ。Noetraと産総研は、研究開発成果のうち学習済みの重みを提供し、各産業の用途に応じた領域特化モデルの創出につなげるとしている。</p>
+<p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
+<p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、AI専門家6000人を顧客企業に配置する新組織「Frontier Company」設立　25億ドル投資でAI導入を支援</title>
+      <link>https://ledge.ai/articles/microsoft_frontier_company_ai_deployment_support</link>
+      <description><![CDATA[<p>Microsoftは2026年7月2日（現地時間）、企業のAI導入を支援する新しい事業組織「Microsoft Frontier Company」を<a href="https://news.microsoft.com/source/asia/features/https-blogs-microsoft-com-blog-2026-07-02-microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/?lang=ja">発表</a>した。同社は25億ドルを投資し、6000名の業界・エンジニアリング専門家を顧客の現場に配置する。顧客企業とともにAIシステムを設計、展開、継続改善し、測定可能なビジネス成果につなげることを狙う。</p>
+<p>Microsoftは同組織について、AIを通じた「フロンティア トランスフォーメーション」を世界中の顧客に提供する新しい事業組織と説明している。メンバーは、業界知識、業務改善の経験、エンタープライズ向けAIエンジニアリングの専門知識を組み合わせ、企業のAI導入を支援する。</p>
+<h2>AI導入を「成果」まで支援</h2>
+<p>Microsoft Frontier Companyは、技術者が顧客の現場に入り、顧客固有の業務やデータに合わせてシステムを作り込む支援モデルを発展させたものだ。6000名の専門家が顧客とともにAIシステムを共同設計し、展開後も継続的に改善する。</p>
+<p>同社は、顧客企業がAI導入の実験段階を超え、投資に見合う成果を求める段階に移っているとみている。単にAIツールを導入するだけでなく、業務プロセスや意思決定、既存システムと結びつけ、実際の成果につなげることが求められているという。</p>
+<p>Microsoftの<a href="https://www.microsoft.com/en-us/frontier-company">公式サービスページ</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Research、AIエージェント向け長期記憶システム「Memora」を公開　会話や作業履歴から必要な情報を効率検索</title>
+      <link>https://ledge.ai/articles/microsoft_research_memora_ai_agent_memory</link>
+      <description><![CDATA[<p>Microsoft Researchは2026年6月29日（現地時間）、AIエージェント向けの長期記憶システム「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を<a href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">公開</a>した。長期間にわたる会話や作業履歴を保存し、必要な情報だけを効率よく取り出すためのアーキテクチャである。論文は<a href="https://www.microsoft.com/en-us/research/publication/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">ICML 2026</a>に採択されており、コードも<a href="https://github.com/microsoft/Memora">GitHub</a>で公開されている。</p>
+<p>AIエージェントが長期的な作業を担うには、過去の会話、決定事項、制約、作業履歴を継続的に扱う必要がある。Microsoft Researchは、現在のAIエージェントについて、過去のやり取りを記憶できず、長いタスクでは関連情報を繰り返し与えるか、外部から取り出す必要があると説明している。会話や作業が長く複雑になるほど、この方法は効率が下がる。</p>
+<p>既存の大規模言語モデル（LLM）は、単体では過去の状態を保持しない。長い会話では履歴全体を読み直す必要があり、情報をそのまま保存すれば断片的でノイズが増え、要約すれば細かな条件や数値、判断の経緯が失われやすい。RAGのようにテキスト断片を検索する方法や、会話から事実を抽出する方法、ナレッジグラフを使う方法もあるが、Microsoft Researchは、これらには「詳細を残すこと」と「増え続ける記憶を効率よく整理すること」の間にトレードオフがあるとしている。</p>
+<h2>「保存する内容」と「取り出す手がかり」を分ける</h2>
+<p>Memoraは、この課題に対して「保存する内容」と「検索に使う手がかり」を分ける。記憶の中身である「memory value」には、会話や作業の詳細を保持する。一方、検索には「primary abstraction」と呼ぶ短い抽象表現を使う。Microsoft Researchによると、primary abstractionは記憶が何に関するものかを示す短いフレーズで、類似検索にはこの抽象表現だけを使う。</p>
+<p>さらにMemoraは、「cue anchors」と呼ぶ手がかりも使う。cue anchorsは、同じ記憶に別の経路からアクセスするための短いタグのような役割を持つ。これにより、単純な意味の近さだけでは見つけにくい関連情報にもたどり着けるようにする。</p>
+<p><strong>■ Memoraのアーキテクチャ概要</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_1_high_res_Memora_1_scaled_cb24624ab9/figure_1_high_res_Memora_1_scaled_cb24624ab9.png" alt="figure_1_high_res_Memora-1-scaled.png" /></p>
+<p>検索の仕組みも、一度だけ上位の類似項目を返す方式ではない。Memoraは、policy-guided retrieverと呼ぶ検索ポリシーを使い、クエリを更新しながら、cue anchorsを通じて関連する記憶へ探索を広げる。必要な記憶を取り出した時点で探索を止めるため、エージェントが過去の履歴全体を読み直さなくても、関連する情報にたどり着ける設計となっている。Microsoft Researchは、この検索ポリシーを強いLLMで制御する方法に加え、強化学習によって小型モデルに蒸留する方法も示している。</p>
+<h2>LoCoMoとLongMemEvalで評価</h2>
+<p>評価では、長期会話ベンチマークのLoCoMoとLongMemEvalが使われた。Microsoft Researchによると、MemoraはLoCoMoで86.3％、LongMemEvalで87.4％のLLM-judge accuracyを達成し、RAG、Mem0、Nemori、Zep、LangMem、フルコンテキスト推論を上回ったという。</p>
+<p><strong>■ LoCoMoにおける各手法の比較：</strong> MemoraはLLM-judgeで0.863を記録した
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_2_high_res_Memora_1_scaled_b07dc28523/figure_2_high_res_Memora_1_scaled_b07dc28523.png" alt="figure_2_high_res_Memora-1-scaled.png" /></p>
+<p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
+<p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>xAIのAIデータセンター発電施設に騒音訴訟　住民らが「ほぼ絶え間ない騒音・振動」と主張</title>
+      <link>https://ledge.ai/articles/xai_data_center_noise_lawsuit</link>
+      <description><![CDATA[<p>米ミシシッピ州サウスヘイブンにあるxAI関連のデータセンター向け発電施設をめぐり、地元住民がxAI、SpaceX、MZX Techを相手取った集団訴訟を提起した。<a href="https://dockets.justia.com/docket/mississippi/msndce/3%3A2026cv00148/52569">米ミシシッピ州北部地区連邦地方裁判所の訴訟記録</a>では、訴状は2026年6月8日に提出され、被告としてX.AI Corp.、Space Exploration Technologies Corp.、MZX Tech LLCが記載されている。</p>
+<p>住民側は、発電施設から出る騒音や振動によって、周辺の生活環境が損なわれていると主張している。生成AIの開発競争がデータセンターや電力インフラの整備を押し上げるなか、AIを支える物理基盤が地域社会との摩擦を生む事例として注目される。</p>
+<h2>xAIが進める200億ドル超のAIデータセンター計画</h2>
+<p>xAIはミシシッピ州サウスヘイブンで、大規模なAIデータセンター計画を進めている。ミシシッピ州知事室は2026年1月、xAIが同地に200億ドル超を投資し、データセンター「MACROHARDRR」を建設すると発表した。施設は、xAIが新たに取得したサウスヘイブンの発電施設用地と、テネシー州にある既存データセンターの近くに位置する。<a href="https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/">州政府の発表</a>では、完成後にxAIの計算能力が約2ギガワットに増える見通しも示されている。</p>
+<p>xAIは生成AIチャットボット「Grok」を展開している。同社はAIモデルの開発に向け、巨大な計算基盤「Colossus」の整備も進めてきた。高性能な生成AIモデルを開発・運用するには、大量のGPUだけでなく、それを支えるデータセンター、電力、冷却設備が欠かせない。今回の訴訟は、そのインフラ拡大が地域の生活環境に及ぼす影響をめぐるものだ。</p>
+<h2>住民側は「低周波騒音と振動」による生活への影響を訴え</h2>
+<p>住民側は、サウスヘイブンの発電施設から出る継続的な低周波騒音や振動により、睡眠や休息、屋外での会話、自宅で静かに過ごす時間が妨げられていると訴えている。訴状では、対象区域内に数千の住宅があり、1万人超の住民が集団訴訟の対象になり得るとの主張も示されている。</p>
+<p>原告側は、被告らが発電施設からの騒音を抑える義務を怠ったと主張し、損害賠償などを求めている。現時点で住民側の主張が裁判所に認められたわけではなく、今後の審理で被告側の反論や裁判所の判断が示されることになる。<a href="https://www.reuters.com/legal/government/musks-xai-spacex-hit-with-class-action-over-data-center-nuisance-2026-06-09/">Reuters</a>は、xAIとSpaceXがコメント要請にただちには応じなかったと報じている。</p>
+<h2>生成AIブームの裏側で膨らむ電力インフラ問題</h2>
+<p>生成AIの性能競争は、モデルやアプリケーションだけで完結しない。大規模モデルを訓練・運用するには、GPUクラスター、データセンター、発電設備、送電網、冷却設備といった巨大な物理インフラが必要になる。AI企業が計算能力の拡大を急ぐほど、その負荷は地域の電力供給、環境規制、生活環境にも及ぶ。</p>
+<p>サウスヘイブンのデータセンター計画は、州政府にとっては大規模投資と雇用創出の機会である一方、周辺住民にとっては騒音や振動をめぐる生活上の問題として表面化している。AIデータセンターの建設が各地で進むなか、電力インフラの確保と地域住民との合意形成は、AI企業にとっていっそう重要な課題になりそうだ。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>中国UBTECH、18歳未満は使えない等身大AIロボット「UWORLD U1」発表　人に寄り添う感情認識LLMと長期記憶を搭載</title>
       <link>https://ledge.ai/articles/ubtech_uworld_u1_humanoid_robot</link>
       <description><![CDATA[<p>中国のロボットメーカーUBTECH Roboticsは2026年6月30日、深圳で開催した「2026 Global Launch Event」で、等身大ヒューマノイドロボット「UWORLD U1」シリーズを<a href="https://www.prnewswire.com/jp/news-releases/ubtechuworld-u1-302816625.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、外科手術不要で脳活動から文章を復元するAI「Brain2Qwerty v2」発表　MEG記録で平均61％の単語正解率</title>
+      <link>https://ledge.ai/articles/meta_brain2qwerty_v2_noninvasive_bci</link>
+      <description><![CDATA[<p>Metaは2026年6月29日、外科的な脳インプラントを使わず、脳活動から文章を復元するAIモデル「Brain2Qwerty v2」を<a href="https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/">発表</a>した。脳磁図（MEG）で記録した脳活動をもとに、タイピング中の自然文を復号する非侵襲型のブレイン・コンピューター・インターフェース（BCI）研究である。</p>
+<h2>外科手術を伴わないBCI研究</h2>
+<p>Brain2Qwerty v2は、脳損傷などで話す、または動く能力を失った人のコミュニケーション支援を将来的な目的とする。現在の高性能なBCIの多くは、脳内または脳表面に電極を埋め込む外科手術を必要とする。一方、Metaの研究は、外部装置であるMEGを使って脳活動を記録し、AIで文章に変換する点に特徴がある。</p>
+<p><strong>■ Brain2Qwerty v2は、MEGで記録した脳活動から文章を復元する非侵襲型BCIとして紹介されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Brain2_Qwenty_1_056c36bef7/Brain2_Qwenty_1_056c36bef7.jpg" alt="Brain2Qwenty-1.jpg" /></p>
+<p>BCIの分野では、イーロン・マスク氏が共同創業したNeuralinkが、脳内インプラントを用いる埋め込み型の手法を進めている。これに対し、Brain2Qwerty v2は外科手術を伴わず、MEGで記録した脳活動から文章を復元する点に特徴がある。侵襲型BCIとは異なる方向から、コミュニケーション支援の可能性を探る研究といえる。</p>
+<h2>9人のMEG記録から約2万2000文を収集</h2>
+<p>研究では、9人のボランティアがそれぞれ10時間、MEG装置を装着して文章をタイピングした。Metaは、このデータから約2万2000文を収集し、Brain2Qwerty v2を学習させた。</p>
+<p><strong>■ Brain2Qwerty v2の復号パイプライン。MEG信号をConformer、Aligner、LLMで処理し、文章を再構成する</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/731219869_1076086811651166_7777400260549956173_n_a9200236cf/731219869_1076086811651166_7777400260549956173_n_a9200236cf.png" alt="731219869_1076086811651166_7777400260549956173_n.png" /></p>
+<p>モデルは、手作業で神経イベントを検出する従来型の処理ではなく、脳信号から直接文章を復号するエンドツーエンドの深層学習パイプラインを採用している。脳活動の記録から文字、単語、文章を段階的に復元し、大規模言語モデル（LLM）を神経データでファインチューニングすることで、意味的な文脈も活用する構成だ。</p>
+<h2>平均61％、最良参加者で78％の単語正解率</h2>
+<p>Metaによると、Brain2Qwerty v2は平均61％の単語正解率を達成した。最良の参加者では78％に達し、半数以上の文を「単語の誤りが1語以下」の範囲で復号できたという。</p>
+<p><strong>■ Brain2Qwerty v2では、学習データ量や文字・単語単位の正解率がv1から向上した。図中の78％は最良参加者の単語正解率を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/731158975_1696243454915298_6767206741376253564_n_5d2829220f/731158975_1696243454915298_6767206741376253564_n_5d2829220f.png" alt="731158975_1696243454915298_6767206741376253564_n.png" /></p>
+<p>Brain2Qwerty v2は、2025年に発表されたBrain2Qwerty v1を発展させたモデルである。v1は、MEGで記録した脳活動からキー入力を予測する研究だったが、各キー入力のタイミング情報を必要としたため、リアルタイム動作には向かなかった。v2ではこの制約を緩和し、連続した脳活動記録から文章を直接生成する。</p>
+<h2>日常利用にはまだ課題</h2>
+<p>ただし、実用化には大きな課題が残るという。現時点の復号性能は日常利用にはまだ不十分で、単語単位や文字単位の誤りが多いとMetaが<a href="https://facebookresearch.github.io/brain2qwerty/">明記</a>している。また、今回使われたMEG装置は大型のスキャナーであり、多くの患者が利用できる環境ではない。</p>
+<p>一方でMetaは、学習データが増えるほど復号性能が向上する傾向があり、現時点では性能向上が頭打ちになる兆候は見られていないとしている。より大規模なデータセットによって、外科手術を伴う侵襲型BCIとの性能差をさらに縮められる可能性があるという見方だ。</p>
+<p>加えて、MEGセンサー自体の小型化やウェアラブル化も進んでおり、将来的には臨床現場でより実用的に使える可能性があるとしている。Brain2Qwerty v2は、「頭の中の考えを自由に読み取るAI」ではない。健康な参加者が文章を記憶し、タイピングしている際のMEG記録から、対応する文章を復元する研究である。臨床利用や製品化に直結する段階ではないものの、外科手術を伴わないBCIの実現に向けた一歩と位置づけられる。</p>
+]]></description>
+      <pubDate>Sat, 04 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携</title>
@@ -47,6 +299,29 @@
 <p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
 ]]></description>
       <pubDate>Fri, 03 Jul 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始　RAG・安全運用まで見据えた5モデル構成</title>
+      <link>https://ledge.ai/articles/sb_intuitions_sarashina3_cloud_pf_type_a</link>
+      <description><![CDATA[<p>ソフトバンク傘下のSB Intuitionsは2026年6月30日、国産生成AI「Sarashina」の最新モデル群「Sarashina3シリーズ」の提供開始を<a href="https://www.sbintuitions.co.jp/news/press/20260630_01/">発表</a>した。ソフトバンクが提供するソブリン性を備えたクラウドサービス「Cloud PF Type A」で利用できる。標準モデル、軽量モデル、ガードモデル、ベクトル化モデル、リランキングモデルの5種類をそろえ、企業や自治体の業務利用を支援する。</p>
+<h2>5モデル構成で、生成から検索・安全運用まで対応</h2>
+<p>Sarashina3シリーズは、日本語応答性能や指示追従性能を高めた標準モデルに加え、業務利用に必要な周辺機能を担う専用モデルを組み合わせたモデル群だ。</p>
+<p>「Sarashina3 mini」は、性能と速度のバランスを重視した標準モデルで、外部APIを自律的に呼び出すエージェント機能や、数理的理解、コード生成能力を備える。「Sarashina3 nano」は、ビッグデータの分類や情報抽出など、定型タスクを大量に処理する用途を想定した軽量モデルとなる。</p>
+<p>安全運用向けには、入力・出力テキストの有害性を判定する「Sarashina3 guard」を用意した。有害と判定した場合は、過激な描写、情報漏えい、違法行為のほう助などのカテゴリコードも返す。生成AIを社内システムや顧客対応に組み込む際のフィルターとして活用できる。</p>
+<h2>RAG向けにembeddingとrerankも提供</h2>
+<p>RAG（検索拡張生成）向けには、「Sarashina3 embedding」と「Sarashina3 rerank」を提供する。embeddingはテキストの意味をベクトル化し、大量データから関連文書の候補を抽出するモデルだ。rerankは、embeddingで絞り込んだ候補文書をクエリとの関連度順に並べ替える。</p>
+<p>SB Intuitionsは、embeddingとrerankを組み合わせることで、RAGシステムにおけるハルシネーション抑制と回答精度向上につながるとしている。業務文書や社内ナレッジを生成AIと連携させる用途で、検索精度と安全性の両面を補う構成といえる。</p>
+<h2>30Tトークン以上で学習、エージェント能力も強化</h2>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260605171344_4aa0bded34/20260605171344_4aa0bded34.png" alt="20260605171344.png" /></p>
+<p>SB Intuitionsの<a href="https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000">技術ブログ</a>{target=”_blank”}によると、Sarashina3 miniとSarashina3 nanoはフルスクラッチで開発された。事前学習では、日本語と英語を中心に30Tトークン規模のデータを利用し、独自の品質フィルタリングやデータ合成技術を取り入れたという。</p>
+<p>事後学習では、蒸留技術と多段階の強化学習を組み合わせ、指示追従、数学、ツール利用などの能力を前世代から向上させた。複数のツールを同時に呼び出す処理や、異なるツールを連続して使うマルチステップのエージェントタスクにも対応する。</p>
+<h2>国内クラウド上で企業・自治体向けに提供</h2>
+<p>提供基盤となるCloud PF Type Aは、Oracle Alloyを活用したクラウド基盤をソフトバンクの日本国内データセンターで管理・運用するサービスだ。ソフトバンクは、顧客データを国内で保管・管理できるデータ主権と、ソフトバンクによる運用・サポートを通じた運用主権を備えると説明している。</p>
+<p><strong>■ Cloud PF Type Aを活用した生成AIアプリケーションの構成例</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca.webp" alt="media_153b3c50efe44d4054a8a539fe708db2c79ba785e.webp" /></p>
+<p>ソフトバンクは同日、Cloud PF Type A上でSarashinaを活用した生成AIサービスを<a href="https://www.softbank.jp/business/news/2026/0630-01">東日本のデータセンターで開始した</a>{target=”_blank”}。西日本のデータセンターでは、2026年10月に提供を始める予定だ。共有型ではSarashina3シリーズの5モデルを、専有型ではSarashina3 miniとSarashina3 nanoを提供する。</p>
+]]></description>
+      <pubDate>Thu, 02 Jul 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、社内利用はChatGPT中心からCodex中心に　非技術部門にも広がり、業務AIエージェントの主役に</title>
@@ -98,287 +373,6 @@
       <pubDate>Tue, 30 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AlibabaのQwen、AIエージェント向け言語ワールドモデル「Qwen-AgentWorld」公開　7領域の環境変化をシミュレート</title>
-      <link>https://ledge.ai/articles/qwen_agentworld_language_world_model</link>
-      <description><![CDATA[<p>中国Alibaba CloudのAIモデル群Qwenは、AIエージェント向けの言語ワールドモデル「Qwen-AgentWorld」を<a href="https://qwen.ai/blog?id=qwen-agentworld">公開</a>した。公式GitHubでは、2026年6月24日にオープンウェイトモデル「Qwen-AgentWorld-35B-A3B」と評価ベンチマーク「AgentWorldBench」をリリースしたと記載している。関連する技術論文は、6月23日にarXivで公開された。</p>
-<p>Qwen-AgentWorldは、エージェントの行動と過去のやり取りをもとに、次に起きる環境状態を言語で予測するモデルである。通常の大規模言語モデルが「次に出すテキスト」を生成するのに対し、Qwen-AgentWorldは、ターミナルでコマンドを実行した後の出力や、Web画面を操作した後の状態など、エージェントが行動した後の環境変化をシミュレートする。</p>
-<p><strong>Qwen-AgentWorldの概要。MCP、検索、ターミナル、Web、OSなどの環境変化を言語でシミュレートし、エージェント訓練への応用を示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/teaser_1_83be88fd27/teaser_1_83be88fd27.png" alt="teaser (1).png" /></p>
-<h2>MCP、検索、ターミナル、Web、OSなど7領域に対応</h2>
-<p>Qwen-AgentWorldが対象とする領域は、MCP、Search、Terminal、SWE、Android、Web、OSの7つ。MCPはツール呼び出し、SWEはソフトウェアエンジニアリングを指す。テキストベースのターミナル操作だけでなく、Android、Web、OSといったGUI環境も含め、単一モデルで複数のエージェント相互作用領域を扱う点が特徴となる。</p>
-<p>モデルは、7領域にわたる1000万件超の実環境相互作用軌跡を使って学習された。学習は、継続事前学習（CPT）、教師ありファインチューニング（SFT）、強化学習（RL）の3段階で構成される。環境に関する知識をCPTで取り込み、SFTで次状態予測の推論能力を引き出し、RLでシミュレーションの忠実度を高める設計だ。</p>
-<h2>35Bモデルと評価ベンチマークを公開</h2>
-<p>公開された「Qwen-AgentWorld-35B-A3B」は、総パラメータ数35B、アクティブパラメータ3BのMoEモデルで、コンテキスト長は262,144トークン。Hugging Face上でモデル重みと設定ファイルが提供されており、vLLMやSGLangなどの推論フレームワークに対応する。</p>
-<p>あわせて公開されたAgentWorldBenchは、言語ワールドモデルが予測した環境観測を評価するベンチマークである。評価はMCP、Search、Terminal、SWE、Android、Web、OSの7領域を対象とし、形式、事実性、一貫性、現実性、品質の5軸でスコアリングする。</p>
-<p><strong>AgentWorldBenchの構成。7領域、2170件の評価サンプル、5つの評価軸で言語ワールドモデルの環境予測能力を測る</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_overview_893442792b/bench_overview_893442792b.png" alt="bench_overview.png" /></p>
-<h2>397B版は自社ベンチでGPT-5.4を上回る結果</h2>
-<p>技術論文では、公開モデルの35B-A3Bに加え、大規模版の「Qwen-AgentWorld-397B-A17B」も示されている。AgentWorldBenchの総合スコアでは、Qwen-AgentWorld-397B-A17Bが58.71を記録し、GPT-5.4の58.25、Claude Opus 4.8の56.59を上回った。公開モデルのQwen-AgentWorld-35B-A3Bは56.39となり、同じ35B規模のQwen3.5-35B-A3Bから改善した。</p>
-<p>ただし、この結果はAgentWorldBench上の評価であり、実環境におけるあらゆるエージェント性能を保証するものではない。Qwen-AgentWorldの焦点は、エージェントそのものを直接置き換えることではなく、エージェントが行動した後の環境を再現し、訓練や評価に使えるシミュレーターを構築する点にある。</p>
-<p><strong>AgentWorldBenchにおける領域別スコア。Qwen-AgentWorld-397B-A17Bは、検索、ターミナル、SWEなど複数領域で高いスコアを示した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/bench_results_bar_a6daf213f6/bench_results_bar_a6daf213f6.png" alt="bench_results_bar.png" /></p>
-<h2>エージェント訓練用の仮想環境として活用</h2>
-<p>Qwen-AgentWorldは、AIエージェントの訓練や評価に使う仮想環境として位置づけられている。実際のWeb、OS、ターミナル環境だけでエージェントを訓練する場合、環境の再現性や安全性、スケーラビリティが課題になりやすい。言語ワールドモデルで環境変化を再現できれば、エージェントが試行錯誤する場を大規模に用意しやすくなる。</p>
-<p>Qwenは、Qwen-AgentWorld-35B-A3Bのモデル重みとAgentWorldBenchをApache 2.0ライセンスで公開している。AIエージェント開発が、単体モデルの性能競争から、訓練環境や評価環境の設計へ広がるなか、Qwen-AgentWorldはエージェント向けワールドモデルの実装例として注目される。</p>
-]]></description>
-      <pubDate>Mon, 29 Jun 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI価格設定ソフトでガソリン価格をつり上げたとして集団訴訟　BP、Walmart、7-Elevenなどが対象に</title>
-      <link>https://ledge.ai/articles/ai_gas_price_setting_lawsuit</link>
-      <description><![CDATA[<p>米カリフォルニア州の消費者3人は2026年6月22日（現地時間）、燃料小売向けAI価格設定ソフト「<a href="https://kalibrate.com/kalibrate-fuel-pricing-software/">Kalibrate Fuel Pricing</a>」をめぐり、KalibrateとBP、Walmart、Marathon Petroleum、7-Eleven、Circle K、Albertsonsなどを相手取り、カリフォルニア州東部地区連邦地方裁判所に集団訴訟を起こした。</p>
-<p><a href="https://www.courthousenews.com/wp-content/uploads/2026/06/kalibrate-class-action-california.pdf">訴状</a>では、複数のガソリンスタンド運営会社が同じ価格設定ソフトに価格判断を委ねることで、小売ガソリン価格の競争が弱まり、消費者が不当に高い価格を支払わされたと主張している。訴訟記録上の事件名は「Casciani, et al v. Knowledge Support Systems, Inc., et al」で、提訴日は6月22日と確認できる。</p>
-<h2>AIが価格を決める「共通価格アルゴリズム」が争点に</h2>
-<p>Kalibrate Fuel Pricingは、燃料小売業者向けに価格判断を支援するソフトウェアである。需要シグナルや価格弾力性、市場変化を踏まえ、販売量と利幅のバランスを取る価格推奨を行う製品として説明されている。POSシステムへの価格反映や、複数店舗への一括更新なども機能に含まれる。</p>
-<p>訴状が問題視しているのは、価格最適化ソフトそのものではなく、競合する複数のガソリンスタンドが同じ価格設定アルゴリズムを使い、競合店の価格や販売量、コストなどのデータをもとに価格判断を行ったとされる点である。原告側は、Kalibrate Fuel Pricingがガソリンスタンドのポンプ、価格表示板、POSに接続し、価格を自動的に反映する仕組みを持つとしたうえで、競争的な値下げを避け、高い価格を維持する方向に働いたと主張している。</p>
-<p><strong>Kalibrate Fuel Pricingの仕組みを示す図</strong> ：価格、コスト、販売量などのデータを使い、POSやポンプ、価格表示板へ価格を反映する流れが示されている
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/how_it_works_891aaa3a9b/how_it_works_891aaa3a9b.jpg" alt="how it works.jpg" /></p>
-<h2>州内1700店舗超に及ぶ可能性</h2>
-<p>訴状では、対象企業のカリフォルニア州内拠点として、Marathon系のARCOが1000店舗超、Speedway系が150店舗超、EG Americaが90店舗超、WalmartとSam’s Clubが25店舗超、Circle K系が400店舗超、Albertsonsが51店舗を運営しているとされる。単純合算では、対象として挙げられたガソリンスタンドは州内で1700店舗を超える規模になる。</p>
-<p>原告側は、Kalibrate Fuel Pricingの利用により、平均で1ガロンあたり約6セント、導入比率が高い地域では最大30セント程度、ガソリン価格が上昇した可能性があると主張している。カリフォルニア州では年間のガソリン消費量が大きく、1セントの価格上昇でも州全体では年間1億3400万ドル規模の負担増につながるとも訴えている。</p>
-<h2>AI価格設定はどこまで許されるのか</h2>
-<p>訴状では、カリフォルニア州の反トラスト法であるCartwright Act違反に加え、共通価格アルゴリズムに関する規定も争点になっている。カリフォルニア州の「<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB325">AB 325</a>」は、競争を制限する契約や共謀の一部として「common pricing algorithm」を使ったり配布したりすることを違法とする条文を追加した。ここでいう共通価格アルゴリズムは、2者以上が使い、競合データを用いて価格や商業条件を推奨、調整、安定化、設定、または影響する手法と定義されている。</p>
-<p>AIで需要や価格弾力性を分析すること自体が、直ちに違法とされているわけではない。争点は、競合する企業が同じ価格設定システムを使い、競争上重要なデータを共有・利用することで、市場の価格競争を弱めたかどうかにある。</p>
-<p>原告側は、2022年6月22日以降、Kalibrate Fuel Pricingが使われていた被告側のガソリンスタンドでガソリンを購入した人や企業を対象に、集団訴訟としての認定、損害賠償、3倍賠償、返還、恒久的差し止め、陪審審理などを求めている。訴訟は提起直後の段階であり、今後は被告側の答弁や裁判所の判断を通じて、AI価格設定ソフトの利用実態と競争法上の評価が争われることになる。</p>
-]]></description>
-      <pubDate>Sun, 28 Jun 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
-      <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
-      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
-<p>Claude Scienceは、新しいAIモデルではなく、既存のClaudeを科学研究向けのツール、データベース接続、計算環境と組み合わせるアプリである。Anthropicは、研究者がPubMed、Jupyter、R、クラスター端末など複数のツールを行き来している現状を挙げ、Claude Scienceによって研究作業を単一の環境にまとめられるとしている。</p>
-<h2>Python／R実行、科学データベース連携に対応</h2>
-<p><a href="https://claude.com/docs/claude-science/overview">Claude Science</a>はmacOSとLinuxで利用できるデスクトップアプリだ。研究者が自然言語で研究タスクや解析内容を指示すると、ClaudeがPython、R、shellコードを書き、サンドボックス内で実行する。</p>
-<p>Claude Scienceは、ユーザーが許可したフォルダを読み込み、科学データベースからデータを取得し、結果をバージョン管理された成果物として保存する。Anthropicによれば、ゲノミクス、シングルセル解析、プロテオミクス、構造生物学、ケモインフォマティクスなどに向けた60以上のスキルやコネクターを備える。</p>
-<p>また、Jupyter Notebookのように、ローカル環境だけでなく、SSHやHPCログインノードを通じたリモート環境でも利用できる。Anthropicは、研究者がすでに信頼しているモデル、データセット、パイプラインをClaude Scienceに接続し、再利用可能なスキルとして保存できるとしている。</p>
-<p><strong>Claude Scienceの画面。解析結果、コード、実行ログ、レビュー機能を単一の環境で扱える</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531.jpg" alt="6a43a5d70ebe75212a0ec830_science-pillars-1.jpg" /></p>
-<h2>図表や原稿を、作成過程ごと保存</h2>
-<p>Claude Scienceの特徴の1つは、研究成果の再現性と監査可能性を重視している点だ。Anthropicによると、Claude Scienceは、3Dタンパク質構造、ゲノムブラウザートラック、化学構造などの科学的な成果物をネイティブに表示できる。</p>
-<p>図表を生成した場合には、その図を作成したコード、実行環境、作成手順の説明、メッセージ履歴をあわせて保存する。これにより、数カ月後でも、どの入力からどのように結果が作られたのかを確認しやすくする。研究者は、図表についてClaude Scienceと会話しながら、グリッド線の削除や軸の変更などを自然言語で指示できる。</p>
-<p>Anthropicは、バックグラウンドで動くレビュアーが、Claudeの主張を実際の実行記録と照合できるとも説明している。ただし、公式ドキュメントでは、Claudeは誤る可能性があり、レビュアーはエラーを減らすが完全には排除しないと明記している。研究、出版、下流の意思決定に使う前には、結果を検証する必要がある。</p>
-<h2>TeamとEnterpriseでは管理者の有効化が必要</h2>
-<p>Claude Scienceは、Claude Pro、Max、Team、Enterpriseの各プランで利用できる。TeamとEnterpriseでは初期状態でオフになっており、組織の管理者が<a href="https://claude.com/docs/claude-science/enable-claude-science">設定画面から有効化</a>
-する必要がある。Freeプランでは利用できない。</p>
-<p>システム要件として、macOS 13以降またはLinux x64、約5GBの空き容量などが示されている。Linuxでは、socat、bubblewrap 0.8.0以降、カーネルで許可された非特権ユーザー名前空間も必要になる。</p>
-<p>また、Claude Scienceは研究ツールであり、臨床・診断用途を意図したものではない。公式ドキュメントでは、ファイルはユーザーのコンピューター上に残り、コードはサンドボックス内で実行されると説明している。新しいフォルダ、ネットワークホスト、リモートジョブを利用する際には、ユーザーの承認が必要になる。</p>
-<h2>科学研究向けClaude展開の一環</h2>
-<p>Anthropicは、Claudeをライフサイエンスや科学研究に活用する取り組みを進めてきた。公式の<a href="https://claude.com/solutions/life-sciences">ライフサイエンス向けページ</a>では、文献、ラボノート、解析プラットフォームを連携させ、仮説立案から最終提出までを支援する用途を示している。</p>
-<p>今回のClaude Scienceは、Claudeを単なるチャットAIやコーディング支援ツールにとどめず、研究者が日常的に使う解析環境、データベース、計算資源と結びつける取り組みといえる。Anthropicはベータ提供を通じてユーザーからのフィードバックを集め、プラットフォームを改善していくとしている。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIモデルランキングサイト「Arena」、売上ペースを年換算で1億ドル規模に　企業向け評価サービスが急成長</title>
-      <link>https://ledge.ai/articles/arena_ai_evaluation_100m_revenue</link>
-      <description><![CDATA[<p>AIモデル評価プラットフォームのArenaは2026年6月29日、企業向けサービスの開始から8カ月以内に、現在の売上ペースを1年分に換算した売上規模が1億ドルを突破したと<a href="https://arena.ai/blog/arena-100m-revenue/">発表</a>した。</p>
-<p>Arenaは、ユーザーがAIモデルの回答を比較・投票する仕組みで知られる。公式発表によると、現在の月間訪問者数は1000万人超、累計会話数は7億件超、累計投票数は8200万件超に達している。</p>
-<p>なお、<a href="https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/">TechCrunch</a>によると、Arenaはこの指標をARRと呼んでいるが、課金は利用量ベースであり、伝統的な意味での年間経常収益とは異なるという。</p>
-<h2>UC Berkeley発の研究プロジェクトから商用評価サービスへ</h2>
-<p>Arenaはもともと、AI言語モデルを比較するためのUC Berkeley発の研究プロジェクトとして始まった。2026年1月には、LMArenaからArenaへの名称変更を<a href="https://arena.ai/blog/lmarena-is-now-arena/">発表</a>し、実利用におけるAI性能を測定するグローバルな評価プラットフォームとして位置付けを広げている。</p>
-<p>同社は2025年9月、企業やモデル開発企業、開発者向けの商用製品「AI Evaluations」を<a href="https://arena.ai/blog/ai-evaluations/">発表</a>した。AI Evaluationsは、実際のユーザーによるフィードバックに基づき、モデルの性能を分析する評価サービスだ。</p>
-<p>発表時点でLMArenaは、2億5000万件超の実会話、月間200万票超、月間ユーザー300万人超を記録していた。公開リーダーボードは引き続き無料で提供しながら、その評価基盤を企業向けサービスとして展開する構図となる。</p>
-<h2>売上の柱は企業向けの評価サービス</h2>
-<p>Arenaの公開リーダーボードは、一般ユーザーが無料でAIモデルの回答を比較・投票できる仕組みだ。一方、同社の売上は、ランキングを見る一般ユーザーからではなく、AIモデルやAIアプリの性能を検証したい企業、モデル開発企業、開発者向けの評価サービスから生まれている。</p>
-<p>企業側は、自社モデルが競合モデルと比べてどの領域で優れているのか、どのようなタスクで弱点が出るのか、ユーザーがどの回答を好むのかを把握するために、Arenaの評価基盤を利用する。公開リーダーボードで集まる人間の比較・投票データは、実利用に近いAI性能を測るための材料になる。</p>
-<p>同社の「AI Evaluations」は、コミュニティから得られるフィードバックに基づく詳細な評価、代表的なフィードバックデータのサンプルによる検証可能性、評価結果の納期を定めるSLAなどを提供する。無料で使えるランキングを入口に、大量の実利用データを集め、その評価手法を企業向けに提供することが、Arenaのビジネスモデルとなっている。</p>
-<h2>チャット比較からエージェント評価にも拡大</h2>
-<p>Arenaは、テキスト、コーディング、ビジョン、画像生成など複数の領域でモデルを比較している。近年は、チャットボットの回答比較にとどまらず、長時間のタスクを実行するAIエージェントの評価にも広げている。</p>
-<p>同社は公式発表で、Agent Arenaが長時間のエージェントタスクにおけるタスク完了率やハルシネーション率の評価を可能にすると説明している。また、Agent Modeは公開から約1カ月で月間500万ターン超に達し、週10％のペースで成長しているという。</p>
-<p>Arenaは、Agent Modeの紹介動画も公開している。動画では、Arena上でエージェントに調査や資料作成などの複雑な作業を依頼する流れが示されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Kq3-fV7w3Nk&amp;t=18s">YouTube</a></p>
-<p>従来の静的ベンチマークでは、ユーザーが実際にどのような作業でAIを使い、どの回答をよいと判断したかを捉えにくい。Arenaは、人間の比較・投票データを使って、実利用に近い形でモデル性能を測ることを強みにしている。</p>
-<h2>1月には1.5億ドル調達、評価基盤への需要拡大</h2>
-<p>Arenaは2026年1月、FelicisとUC Investmentsが主導するシリーズAで1億5000万ドルを調達したと<a href="https://arena.ai/blog/series-a/">発表</a>している。Andreessen Horowitz、Kleiner Perkins、Lightspeed Venture Partnersなども参加した。</p>
-<p>AIモデルの性能競争が激しくなるなか、開発企業にとっては、公開ベンチマークだけでなく、実際の利用場面に近い評価データの重要性が高まっている。Arenaの急成長は、AIモデルを「実際に使って比べる」評価が、研究コミュニティだけでなく商用サービスとしても大きな需要を持ち始めていることを示している。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
-      <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
-      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
-<h2>Claude Fable 5は7月1日から再開</h2>
-<p>Anthropicは6月12日、米政府がClaude Fable 5とClaude Mythos 5に輸出規制を適用したことを受け、両モデルのアクセスを<a href="https://www.anthropic.com/news/fable-mythos-access">全ユーザー向けに停止</a>していた。規制は米国内外の外国籍者を対象としていたが、Anthropicはリアルタイムで国籍を確認する確実な手段がなかったため、すべての顧客に対してアクセスを停止した。</p>
-<p>今回の発表により、Claude Fable 5は7月1日からグローバル提供を再開する。Pro、Max、Team、一部Enterpriseプランでは、7月7日まで週間利用上限の最大50％までClaude Fable 5が含まれる。その後はusage credits経由で利用できる。</p>
-<p>一方、Claude Mythos 5は全面的な提供再開ではない。Anthropicは、米政府が6月26日に承認したことを受け、一部の米国組織向けにClaude Mythos 5のアクセスを復旧した。今後は、Project Glasswingの国内外パートナーにアクセスを広げるため、政府との調整を続ける。</p>
-<h2>停止の背景にAmazon研究者の報告</h2>
-<p>Claude Fable 5とClaude Mythos 5は、Anthropicが6月9日に発表した最上位級のAIモデルである。両モデルは同じ基盤モデルを共有しているが、Claude Fable 5は一般利用向けに強いセーフガードを組み込んだモデルとして提供された。Claude Mythos 5は、一部領域のセーフガードを外したモデルで、防御的サイバーセキュリティ用途のProject Glasswingパートナー向けに限定提供されていた。</p>
-<p>Anthropicによると、6月12日の輸出規制は、Amazonの研究者がClaude Fable 5のセーフガードを回避する手法を見つけたとする報告を米政府が把握した後に出された。報告では、Fable 5にソフトウェア脆弱性を特定させる手法が示され、1件では脆弱性の悪用方法を示すコードも生成されたという。</p>
-<p>Anthropicは過去2週間、米政府やAmazonを含む関係者とともに報告内容を検証した。その結果、報告された手法はClaude Mythos 5級の独自のサイバー能力を引き出すものではなく、通常の防御的サイバーセキュリティ作業に関わる境界的な事例だったとしている。</p>
-<h2>安全分類器を更新、業界共通の評価枠組みも提案</h2>
-<p>Anthropicは今回、報告された挙動を対象にする新しい安全分類器を訓練した。Claude Fable 5へのリクエストが分類器によりブロックされた場合、ユーザーに通知され、そのリクエストはClaude Opus 4.8に送られる。新しい分類器は、Amazonの報告で示された特定の手法を99％超のケースでブロックするという。</p>
-<p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
-<p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
-<p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare、WebページやAPIをアクセスごとに課金できる「Monetization Gateway」発表　AIエージェント時代の収益化基盤に</title>
-      <link>https://ledge.ai/articles/cloudflare_monetization_gateway_x402</link>
-      <description><![CDATA[<p>Cloudflareは2026年7月1日、Cloudflareで保護しているWebページ、データセット、API、MCPツールなどにアクセスごとの課金ルールを設定できる「Cloudflare Monetization Gateway」を<a href="https://blog.cloudflare.com/monetization-gateway/">発表</a>した。AIエージェントやプログラムがコンテンツやツールを利用するたびに支払う仕組みを想定しており、HTTP 402を活用する支払いプロトコル「x402」を使う。</p>
-<p>Cloudflareは同日、AIトラフィックの分類強化や分析機能、商業パートナーシップなどを含む一連の取り組みも<a href="https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Geminiアプリのパーソナライズ画像生成を米国で無料提供　GoogleフォトやGmailの文脈を反映 米国の対象ユーザーが無料で利用できるように</title>
-      <link>https://ledge.ai/articles/google_gemini_personalized_image_generation_free_us</link>
-      <description><![CDATA[<p>Googleは2026年6月29日（現地時間）、Geminiアプリでユーザーの好みや生活スタイルを反映した画像生成を、米国の対象ユーザー向けに無料で[提供開始したことを<a href="https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、最速・低コストの画像生成モデル「Nano Banana 2 Lite」発表　Gemini Omni Flashは動画編集に対応</title>
-      <link>https://ledge.ai/articles/google_nano_banana_2_lite_gemini_omni_flash</link>
-      <description><![CDATA[<p>Googleは2026年6月30日（現地時間）、画像生成AI「Nano Banana」シリーズの新モデル「Nano Banana 2 Lite」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">発表</a>した。あわせて、動画の生成や会話型編集に対応する「Gemini Omni Flash」を、Google AI Studio、Gemini API、Gemini Enterprise Agent Platformで開発者向けに提供開始した。</p>
-<p>Nano Banana 2 Liteは、Nano Bananaファミリーで最も高速かつコスト効率の高いGemini Imageモデルと位置づけられる。Gemini Omni Flashは、テキスト、画像、動画を入力として扱い、自然言語の指示で動画を生成・編集できるモデルとなる。</p>
-<p><strong>■ Nano Bananaファミリーの比較。Nano Banana 2 Liteは、低レイテンシ・低コストの画像生成モデルとして位置づけられている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed/Copy_of_nb2_lite_model_table_light_V2_21a0ca47ed.gif" alt="Copy_of_nb2-lite__model_table_light_V2.gif" /></p>
-<h2>Nano Banana 2 Liteは4秒で画像生成、1K画像あたり0.034ドル</h2>
-<p>Nano Banana 2 Liteは、画像生成・編集を高速かつ低コストに行うためのモデルだ。モデルIDは「gemini-3.1-flash-lite-image」。ラフ案の作成、インタラクティブなプロトタイピング、大量の画像生成など、速度とコストが重要になる用途を想定している。</p>
-<p>Googleの発表では、テキストから画像を4秒で生成でき、価格は1K画像あたり0.034ドル。既存の「Nano Banana（gemini-2.5-flash-image）」を利用している開発者には、Nano Banana 2 Liteへの移行も推奨している。</p>
-<p><strong>■ 画像生成・画像編集の評価、レイテンシ、価格の比較。Nano Banana 2 Liteは、速度とコストの低さを強く打ち出している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/nb2_lite_benchmark_blog_0e453e2b46/nb2_lite_benchmark_blog_0e453e2b46.gif" alt="nb2-lite__benchmark_blog.gif" /></p>
-<p><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image">Gemini APIのモデルドキュメント</a>では、Nano Banana Liteは画像生成ファミリーの「効率性重視」のモデルとして説明されている。1K解像度、14種類のアスペクト比、複数ターンのローカル編集などに対応し、色の差し替え、ステッカー作成、背景調整といった軽量な編集にも向く。</p>
-<p>Nano Bananaファミリー全体では、Nano Banana 2 Liteが速度重視、Nano Banana 2が性能とコストのバランス重視、Nano Banana Proが複雑なプロ用途重視という位置づけになる。高精細な最終制作物よりも、下書きや大量生成、短い待ち時間での試行錯誤に適したモデルといえる。</p>
-<p><strong>■ 1分間に生成できる画像枚数の比較。Nano Banana 2 Liteは、短時間で多数の画像案を生成する用途を想定している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/howmany_animals_can_you_generate_10a1165e1b/howmany_animals_can_you_generate_10a1165e1b.jpg" alt="howmany animals can you generate.jpg" /></p>
-<h2>Gemini Omni Flashは動画を自然言語で編集</h2>
-<p>Gemini Omni Flashは、Geminiのマルチモーダル理解と動画生成・編集を組み合わせたモデルだ。Googleは5月にGemini Omniを発表しており、その最初のモデルとしてGemini Omni FlashをGeminiアプリ、Google Flow、YouTube Shorts向けに展開していた。今回、Google AI StudioとGemini APIを通じて、開発者向けにも提供された。</p>
-<p><a href="https://ai.google.dev/gemini-api/docs/changelog">Gemini APIのリリースノート</a>では、Gemini Omni Flashはパブリックプレビューとして公開され、モデルIDは「gemini-omni-flash-preview」となっている。テキストの説明から動画を生成したり、静止画をアニメーション化したりしたうえで、会話形式で出力を修正できる。動画は3〜10秒、720pで生成できる。</p>
-<p>特徴は、単に動画を作るだけでなく、自然言語で修正を重ねられる点にある。画像、テキスト、動画を組み合わせて場面の一貫性を保つ「マルチモーダル参照」や、テキスト・グラフィックと映像内の動作を結びつける表現にも対応する。</p>
-<p><strong>■ 動画編集における比較評価。Gemini Omni Flashは、全体的な好みと指示追従の両方で高いスコアを示している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca/Video_Editing_Descending_Ch_width_1000_format_webp_fccf4f99ca.webp" alt="Video_Editing__-Descending-_Ch.width-1000.format-webp.webp" /></p>
-<p>現時点では制約もある。Gemini Omni Flashの動画生成は現在10秒までで、より長い動画への対応は今後の予定となる。また、Gemini APIでは音声参照のアップロードやシーンの延長にはまだ対応していない。</p>
-<h2>画像生成から動画編集までをつなぐ開発者向け基盤に</h2>
-<p>Googleは、Nano Banana 2 LiteとGemini Omni Flashを組み合わせる使い方も示している。Nano Banana 2 Liteで高速に画像を生成し、その画像を参照素材としてGemini Omni Flashに渡すことで、静止画から動画を作成できる。</p>
-<p>今回の発表は、Googleの生成メディアAIを画像生成から動画生成・編集へ広げるものとなる。大量のビジュアル案をすばやく作り、必要に応じて動画化し、さらに会話形式で編集する。Googleは、こうした制作工程を、開発者がアプリケーションや業務ワークフローに組み込みやすくしようとしている。</p>
-<p>安全性と透明性の面では、Nano Banana 2 LiteとGemini OmniにSynthIDの透かしを用いる。生成・編集されたコンテンツは、Geminiアプリ、Gemini in Chrome、Google検索を通じて確認できる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI・ボット・クローラーを排除し「人間にだけ届く広告」　博報堂DYが販売開始、サム・アルトマン氏らの虹彩認証「World ID」で人間証明</title>
-      <link>https://ledge.ai/articles/human_verified_ad_world_id_hakuhodo</link>
-      <description><![CDATA[<p>博報堂DYホールディングスは2026年6月29日、人間認証型アドネットワーク事業を手がける新会社「Ads for Humanity」を設立し、広告商品「Human-Verified Ad」の販売を始めたと<a href="https://www.hakuhodody-holdings.co.jp/news/corporate/2026/06/6582.html">発表</a>した。AIやボット、クローラーを排除し、人間にだけ広告を配信することを目指す。サム・アルトマン氏らが共同発明した人間認証技術「World ID」を活用する。</p>
-<p>World IDは、オンライン上で自分が本物の固有の人間であることを証明するための技術である。<a href="https://world.org/world-id">Worldの公式サイト</a>では、氏名、電話番号、メールアドレスなどの個人情報を共有せずに、ボットやAIシステムではないことを匿名で証明できる仕組みとされている。認証には専用デバイス「Orb」が使われ、虹彩画像などをもとに固有の人間であることを確認する。</p>
-<h2>AIエージェント時代に、人間だけを広告配信対象に</h2>
-<p>Ads for Humanityは、World IDの人間認証技術とLG Electronicsのブロックチェーン技術を基盤に、人間認証型アドネットワーク「Human-Verified Ad Network」を運営する。広告配信対象を人間認証されたユーザーに限定することで、AIエージェントやボットによる不正な広告接触を排除する。</p>
-<p>配信実績はブロックチェーンに記録され、改ざんできないエビデンスとして保存される。広告主は、自社広告が人間認証されたユーザーに対して配信されたことを検証できるという。広告商品「Human-Verified Ad」は、Hakuhodo DY ONEのマーケティングソリューション「WISE Ads」を通じて配信され、ディスプレイ広告、インフィード広告、動画広告に対応する。</p>
-<p>博報堂DYホールディングスは、AIエージェントの普及によって、広告配信と効果測定の前提が揺らぎつつあるとみている。従来のボットは機械的な動作が多く、一定の検知が可能だった。一方、最新のAIエージェントは、商品の比較検討、広告クリック、フォーム入力などを人間と区別しにくい形で実行できるようになっている。</p>
-<p>こうした非人間トラフィックが増えれば、広告費の不正詐取だけでなく、クリックや行動データに人間以外の行動が混入する。広告配信アルゴリズムが誤ったデータを学習すれば、生活者の実態から外れた最適化が進み、広告成果の低下にもつながりかねない。</p>
-<h2>2025年の実証実験を経て事業化</h2>
-<p>今回の事業化に先立ち、博報堂は2025年、LG Electronics、Tools for Humanityとともに、「Human-Verified Ad Network」の<a href="https://www.hakuhodo.co.jp/news/newsrelease/119834/">実証実験</a>を実施していた。食品、化粧品、家電、旅行、教育などの広告主10社、3500人超のユーザーが参加した。</p>
-<p>2026年の発表では、この実証実験について、従来型のWeb広告と比較してCTR（クリック率）が約10倍に向上し、直帰率が約15ポイント改善したとしている。博報堂DYホールディングスは、この成果を受け、人間認証型アドネットワーク事業を本格的に進めるため、2026年4月15日にAds for Humanityを設立した。</p>
-<p>Ads for Humanityは、博報堂DYホールディングスの100％出資会社で、所在地は東京都港区。代表者は森田英佑氏で、事業内容は人間認証型アドネットワーク事業となる。</p>
-<p>AIによる自律的な操作が広がるなか、インターネット上で「人間であること」をどう証明するかは、広告、SNS、マッチングアプリ、チケット販売など複数の領域で課題になっている。今回の取り組みは、World IDによる人間証明を広告配信の基盤に組み込み、人間に届いた広告だけを検証可能にする試みとなる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>アイリスオーヤマ、清掃ロボット「JILBY」を7月1日発売　AIが清掃ルートや時間帯を提案</title>
-      <link>https://ledge.ai/articles/irisohyama_jilby_ai_cleaning_robot</link>
-      <description><![CDATA[<p>アイリスオーヤマは2026年6月26日、法人向けDX清掃ロボット「JILBY（ジルビー）」を2026年7月1日から発売すると<a href="https://www.irisohyama.co.jp/news/2026/?date=0626">発表</a>した。同社として初めて、ソフトウェアとハードウェアの開発・製造を完全内製した清掃ロボットとなる。NTT西日本グループが提供する「AIロボティクスプラットフォーム」と連携し、AIエージェントが清掃ルートや頻度、時間帯などを提案する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/1_a25260e5d9/1_a25260e5d9.webp" alt="1.webp" /></p>
-<h2>ソフト・ハードを完全内製、シンクロボがソフトウェア開発</h2>
-<p><a href="https://www.irisohyama.co.jp/b2b/robotics/products/jilby/">JILBY</a>は、床面の集塵清掃を自動で行う法人向けの清掃ロボットである。ソフトウェアは、アイリスグループのシンクロボが初めて開発を手掛けた。ハードウェアは、アイリスオーヤマの大連工場で製造する。</p>
-<p>同社は2023年7月、ロボット開発を行うスマイルロボティクスの全株式を取得し、グループ会社化した。現在のシンクロボである。今回のJILBYにより、製品の企画、開発、製造、販売に加え、アフターサービスまでを一貫して担う体制を整える。</p>
-<p>アイリスオーヤマは、2020年にロボティクス事業へ参入した。業務用清掃ロボットのベンダーシェアでは2023年から3年連続で1位を獲得したとしている。サービスロボットの累計導入社数は7000社、累計出荷台数は2万5000台を超えるという。</p>
-<h2>AIエージェントが清掃ルートや時間帯を提案</h2>
-<p>JILBYは、NTT西日本グループの「AIロボティクスプラットフォーム」と連携する。タブレットやスマートフォンなどの端末を通じて、ユーザーとロボットがテキストや音声で双方向にやり取りできる。蓄積された清掃データなどをもとにAIが学習し、AIエージェントが最適な清掃ルート、頻度、時間帯などを提案する。</p>
-<p>エージェントは、床の汚れ情報を把握し、清掃ロボットが適切な清掃方法を検討・提案する仕組みを紹介している。消耗品交換などのメンテナンス通知や、稼働状況をもとにした清掃レポート作成、清掃プラン提案も想定する。</p>
-<p>@<a href="https://www.youtube.com/watch?v=a4c2XMh95zk">YouTube</a></p>
-<p>同社は、JILBYをNTT西日本開発のAIエージェントに対応させる共同プロジェクトとして位置付けている。清掃ロボットを単なる自動清掃機器ではなく、現場の状況を共有し、清掃計画を支援する業務パートナーへ近づける狙いがある。</p>
-<h2>自動充電や静音モード、10インチモニターを搭載</h2>
-<p>JILBYは、清掃完了後に充電ステーションへ戻る自動充電機能を備える。着脱式バッテリーも採用しており、別のバッテリーを入れ替えることで連続稼働できる。清掃モードはノーマルモード、集塵力の強いパワーモード、稼働音を抑えた静音モードを用意する。</p>
-<p>操作面では、10インチの大型モニターを搭載した。集塵したゴミをためる紙パックを着脱しやすくし、機体を傾けやすくするためのフットステップも大きくした。安全機能として、LiDARセンサー、3Dカメラ、超音波センサー、段差センサー、センサー搭載バンパーなどを備え、人や障害物、段差を検知する。</p>
-<p>同社は今後、エレベーターやフラッパーゲート、自動ドアなど、外部システムと連携できる機能を順次追加する予定だ。清掃ロボットの導入が広がるなか、JILBYはロボット本体の性能だけでなく、運用データをAIで活用し、清掃業務の効率化と最適化を図る製品として展開される。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、外科手術不要で脳活動から文章を復元するAI「Brain2Qwerty v2」発表　MEG記録で平均61％の単語正解率</title>
-      <link>https://ledge.ai/articles/meta_brain2qwerty_v2_noninvasive_bci</link>
-      <description><![CDATA[<p>Metaは2026年6月29日、外科的な脳インプラントを使わず、脳活動から文章を復元するAIモデル「Brain2Qwerty v2」を<a href="https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/">発表</a>した。脳磁図（MEG）で記録した脳活動をもとに、タイピング中の自然文を復号する非侵襲型のブレイン・コンピューター・インターフェース（BCI）研究である。</p>
-<h2>外科手術を伴わないBCI研究</h2>
-<p>Brain2Qwerty v2は、脳損傷などで話す、または動く能力を失った人のコミュニケーション支援を将来的な目的とする。現在の高性能なBCIの多くは、脳内または脳表面に電極を埋め込む外科手術を必要とする。一方、Metaの研究は、外部装置であるMEGを使って脳活動を記録し、AIで文章に変換する点に特徴がある。</p>
-<p><strong>■ Brain2Qwerty v2は、MEGで記録した脳活動から文章を復元する非侵襲型BCIとして紹介されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Brain2_Qwenty_1_056c36bef7/Brain2_Qwenty_1_056c36bef7.jpg" alt="Brain2Qwenty-1.jpg" /></p>
-<p>BCIの分野では、イーロン・マスク氏が共同創業したNeuralinkが、脳内インプラントを用いる埋め込み型の手法を進めている。これに対し、Brain2Qwerty v2は外科手術を伴わず、MEGで記録した脳活動から文章を復元する点に特徴がある。侵襲型BCIとは異なる方向から、コミュニケーション支援の可能性を探る研究といえる。</p>
-<h2>9人のMEG記録から約2万2000文を収集</h2>
-<p>研究では、9人のボランティアがそれぞれ10時間、MEG装置を装着して文章をタイピングした。Metaは、このデータから約2万2000文を収集し、Brain2Qwerty v2を学習させた。</p>
-<p><strong>■ Brain2Qwerty v2の復号パイプライン。MEG信号をConformer、Aligner、LLMで処理し、文章を再構成する</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/731219869_1076086811651166_7777400260549956173_n_a9200236cf/731219869_1076086811651166_7777400260549956173_n_a9200236cf.png" alt="731219869_1076086811651166_7777400260549956173_n.png" /></p>
-<p>モデルは、手作業で神経イベントを検出する従来型の処理ではなく、脳信号から直接文章を復号するエンドツーエンドの深層学習パイプラインを採用している。脳活動の記録から文字、単語、文章を段階的に復元し、大規模言語モデル（LLM）を神経データでファインチューニングすることで、意味的な文脈も活用する構成だ。</p>
-<h2>平均61％、最良参加者で78％の単語正解率</h2>
-<p>Metaによると、Brain2Qwerty v2は平均61％の単語正解率を達成した。最良の参加者では78％に達し、半数以上の文を「単語の誤りが1語以下」の範囲で復号できたという。</p>
-<p><strong>■ Brain2Qwerty v2では、学習データ量や文字・単語単位の正解率がv1から向上した。図中の78％は最良参加者の単語正解率を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/731158975_1696243454915298_6767206741376253564_n_5d2829220f/731158975_1696243454915298_6767206741376253564_n_5d2829220f.png" alt="731158975_1696243454915298_6767206741376253564_n.png" /></p>
-<p>Brain2Qwerty v2は、2025年に発表されたBrain2Qwerty v1を発展させたモデルである。v1は、MEGで記録した脳活動からキー入力を予測する研究だったが、各キー入力のタイミング情報を必要としたため、リアルタイム動作には向かなかった。v2ではこの制約を緩和し、連続した脳活動記録から文章を直接生成する。</p>
-<h2>日常利用にはまだ課題</h2>
-<p>ただし、実用化には大きな課題が残るという。現時点の復号性能は日常利用にはまだ不十分で、単語単位や文字単位の誤りが多いとMetaが<a href="https://facebookresearch.github.io/brain2qwerty/">明記</a>している。また、今回使われたMEG装置は大型のスキャナーであり、多くの患者が利用できる環境ではない。</p>
-<p>一方でMetaは、学習データが増えるほど復号性能が向上する傾向があり、現時点では性能向上が頭打ちになる兆候は見られていないとしている。より大規模なデータセットによって、外科手術を伴う侵襲型BCIとの性能差をさらに縮められる可能性があるという見方だ。</p>
-<p>加えて、MEGセンサー自体の小型化やウェアラブル化も進んでおり、将来的には臨床現場でより実用的に使える可能性があるとしている。Brain2Qwerty v2は、「頭の中の考えを自由に読み取るAI」ではない。健康な参加者が文章を記憶し、タイピングしている際のMEG記録から、対応する文章を復元する研究である。臨床利用や製品化に直結する段階ではないものの、外科手術を伴わないBCIの実現に向けた一歩と位置づけられる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>経産省、国産フィジカルAI基盤モデルの開発事業を開始　ソフトバンクなどが出資のNoetra(旧・日本AI基盤モデル開発)と産総研を採択</title>
-      <link>https://ledge.ai/articles/meti_nedo_physical_ai_foundation_model</link>
-      <description><![CDATA[<p>経済産業省は2026年6月30日、ロボットなど実世界で働くAI「フィジカルAI」の実現に向け、国産のマルチモーダル基盤モデルを開発する事業を始めると<a href="https://www.meti.go.jp/press/2026/06/20260630005/20260630005.html">発表</a>した。新エネルギー・産業技術総合開発機構（NEDO）の公募で、Noetra株式会社と産業技術総合研究所（産総研）が実施先に選ばれた。</p>
-<p>事業名は「AIロボット・フィジカルAIを見据えたマルチモーダル基盤モデル開発事業」。期間は2026年度から2030年度まで。NEDOは3月24日から4月22日にかけて公募を実施し、15件の申請を審査したうえで、Noetraと産総研の提案を<a href="https://www.nedo.go.jp/koubo/CD3_100431.html">採択</a>した。</p>
-<h2>実世界で働くAIの土台を国産で開発</h2>
-<p>今回の事業が対象にするのは、文章だけでなく、画像、動画、音声、センサーデータなどを扱えるマルチモーダル基盤モデルだ。生成AIはこれまで、文書作成や画像生成などデジタル空間での活用が先行してきた。一方、ロボットや製造設備、自動運転などにAIを組み込むには、現実世界の状況を認識し、判断や制御につなげる能力が必要になる。</p>
-<p>経産省は、製造業などの現場にあるデータを活用しながら、将来にわたって安心して利用できる国産モデルを構築する必要があるとしている。日本が強みを持つ製造業やロボット分野で、海外モデルに依存しすぎないAI基盤を整える狙いがある。</p>
-<p>NEDOは、フィジカルAIの実現により、製造業などの生産性向上やエネルギー消費の効率化が期待されるとしている。単に高性能なAIモデルを作るだけでなく、工場や物流、インフラなど、実際の現場で使える基盤技術に育てることが焦点となる。</p>
-<h2>Noetraがモデル開発、産総研が先端技術を支える</h2>
-<p>実施体制では、Noetraがマルチモーダル基盤モデルの開発と提供を担う。国内のモデル開発事業者やAI利活用企業のニーズを踏まえ、国際的にも競争力のあるモデルを目指す。</p>
-<p>産総研は、国内外の研究機関と連携し、先端的な技術開発を担当する。モデルの基盤能力を高める研究に加え、実世界で使うための拡張性や評価方法の開発も進める。</p>
-<p>研究開発テーマは「実世界ネイティブに資するフィジカルAI基盤技術の研究開発」。高度な日本語理解、論理推論、指示遂行といった基礎能力に加え、画像、動画、音声、物理特性などを統合的に扱う能力を高める。実施期間は2026年6月から2031年3月までとされている。</p>
-<h2>学習済み重みを提供、国内AIエコシステム形成へ</h2>
-<p>開発したモデルは、国内のモデル開発者やAI利活用事業者に広く提供する方針だ。Noetraと産総研は、研究開発成果のうち学習済みの重みを提供し、各産業の用途に応じた領域特化モデルの創出につなげるとしている。</p>
-<p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
-<p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、AI専門家6000人を顧客企業に配置する新組織「Frontier Company」設立　25億ドル投資でAI導入を支援</title>
-      <link>https://ledge.ai/articles/microsoft_frontier_company_ai_deployment_support</link>
-      <description><![CDATA[<p>Microsoftは2026年7月2日（現地時間）、企業のAI導入を支援する新しい事業組織「Microsoft Frontier Company」を<a href="https://news.microsoft.com/source/asia/features/https-blogs-microsoft-com-blog-2026-07-02-microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/?lang=ja">発表</a>した。同社は25億ドルを投資し、6000名の業界・エンジニアリング専門家を顧客の現場に配置する。顧客企業とともにAIシステムを設計、展開、継続改善し、測定可能なビジネス成果につなげることを狙う。</p>
-<p>Microsoftは同組織について、AIを通じた「フロンティア トランスフォーメーション」を世界中の顧客に提供する新しい事業組織と説明している。メンバーは、業界知識、業務改善の経験、エンタープライズ向けAIエンジニアリングの専門知識を組み合わせ、企業のAI導入を支援する。</p>
-<h2>AI導入を「成果」まで支援</h2>
-<p>Microsoft Frontier Companyは、技術者が顧客の現場に入り、顧客固有の業務やデータに合わせてシステムを作り込む支援モデルを発展させたものだ。6000名の専門家が顧客とともにAIシステムを共同設計し、展開後も継続的に改善する。</p>
-<p>同社は、顧客企業がAI導入の実験段階を超え、投資に見合う成果を求める段階に移っているとみている。単にAIツールを導入するだけでなく、業務プロセスや意思決定、既存システムと結びつけ、実際の成果につなげることが求められているという。</p>
-<p>Microsoftの<a href="https://www.microsoft.com/en-us/frontier-company">公式サービスページ</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Research、AIエージェント向け長期記憶システム「Memora」を公開　会話や作業履歴から必要な情報を効率検索</title>
-      <link>https://ledge.ai/articles/microsoft_research_memora_ai_agent_memory</link>
-      <description><![CDATA[<p>Microsoft Researchは2026年6月29日（現地時間）、AIエージェント向けの長期記憶システム「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を<a href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">公開</a>した。長期間にわたる会話や作業履歴を保存し、必要な情報だけを効率よく取り出すためのアーキテクチャである。論文は<a href="https://www.microsoft.com/en-us/research/publication/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">ICML 2026</a>に採択されており、コードも<a href="https://github.com/microsoft/Memora">GitHub</a>で公開されている。</p>
-<p>AIエージェントが長期的な作業を担うには、過去の会話、決定事項、制約、作業履歴を継続的に扱う必要がある。Microsoft Researchは、現在のAIエージェントについて、過去のやり取りを記憶できず、長いタスクでは関連情報を繰り返し与えるか、外部から取り出す必要があると説明している。会話や作業が長く複雑になるほど、この方法は効率が下がる。</p>
-<p>既存の大規模言語モデル（LLM）は、単体では過去の状態を保持しない。長い会話では履歴全体を読み直す必要があり、情報をそのまま保存すれば断片的でノイズが増え、要約すれば細かな条件や数値、判断の経緯が失われやすい。RAGのようにテキスト断片を検索する方法や、会話から事実を抽出する方法、ナレッジグラフを使う方法もあるが、Microsoft Researchは、これらには「詳細を残すこと」と「増え続ける記憶を効率よく整理すること」の間にトレードオフがあるとしている。</p>
-<h2>「保存する内容」と「取り出す手がかり」を分ける</h2>
-<p>Memoraは、この課題に対して「保存する内容」と「検索に使う手がかり」を分ける。記憶の中身である「memory value」には、会話や作業の詳細を保持する。一方、検索には「primary abstraction」と呼ぶ短い抽象表現を使う。Microsoft Researchによると、primary abstractionは記憶が何に関するものかを示す短いフレーズで、類似検索にはこの抽象表現だけを使う。</p>
-<p>さらにMemoraは、「cue anchors」と呼ぶ手がかりも使う。cue anchorsは、同じ記憶に別の経路からアクセスするための短いタグのような役割を持つ。これにより、単純な意味の近さだけでは見つけにくい関連情報にもたどり着けるようにする。</p>
-<p><strong>■ Memoraのアーキテクチャ概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_1_high_res_Memora_1_scaled_cb24624ab9/figure_1_high_res_Memora_1_scaled_cb24624ab9.png" alt="figure_1_high_res_Memora-1-scaled.png" /></p>
-<p>検索の仕組みも、一度だけ上位の類似項目を返す方式ではない。Memoraは、policy-guided retrieverと呼ぶ検索ポリシーを使い、クエリを更新しながら、cue anchorsを通じて関連する記憶へ探索を広げる。必要な記憶を取り出した時点で探索を止めるため、エージェントが過去の履歴全体を読み直さなくても、関連する情報にたどり着ける設計となっている。Microsoft Researchは、この検索ポリシーを強いLLMで制御する方法に加え、強化学習によって小型モデルに蒸留する方法も示している。</p>
-<h2>LoCoMoとLongMemEvalで評価</h2>
-<p>評価では、長期会話ベンチマークのLoCoMoとLongMemEvalが使われた。Microsoft Researchによると、MemoraはLoCoMoで86.3％、LongMemEvalで87.4％のLLM-judge accuracyを達成し、RAG、Mem0、Nemori、Zep、LangMem、フルコンテキスト推論を上回ったという。</p>
-<p><strong>■ LoCoMoにおける各手法の比較：</strong> MemoraはLLM-judgeで0.863を記録した
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_2_high_res_Memora_1_scaled_b07dc28523/figure_2_high_res_Memora_1_scaled_b07dc28523.png" alt="figure_2_high_res_Memora-1-scaled.png" /></p>
-<p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
-<p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、GPT-5.6を発表　最上位「Sol」、低価格「Terra」、高速「Luna」の3モデルを限定プレビュー</title>
       <link>https://ledge.ai/articles/openai_gpt_5_6_sol_terra_luna_preview</link>
       <description><![CDATA[<p>OpenAIは2026年6月26日（現地時間）、最新のAIモデルファミリー「GPT-5.6」を<a href="https://openai.com/index/previewing-gpt-5-6-sol/">発表</a>した。最上位モデルの「GPT-5.6 Sol」、日常業務向けのバランス型モデル「GPT-5.6 Terra」、高速で低価格な「GPT-5.6 Luna」の3モデルで構成される。</p>
@@ -404,71 +398,6 @@
 <p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始　RAG・安全運用まで見据えた5モデル構成</title>
-      <link>https://ledge.ai/articles/sb_intuitions_sarashina3_cloud_pf_type_a</link>
-      <description><![CDATA[<p>ソフトバンク傘下のSB Intuitionsは2026年6月30日、国産生成AI「Sarashina」の最新モデル群「Sarashina3シリーズ」の提供開始を<a href="https://www.sbintuitions.co.jp/news/press/20260630_01/">発表</a>した。ソフトバンクが提供するソブリン性を備えたクラウドサービス「Cloud PF Type A」で利用できる。標準モデル、軽量モデル、ガードモデル、ベクトル化モデル、リランキングモデルの5種類をそろえ、企業や自治体の業務利用を支援する。</p>
-<h2>5モデル構成で、生成から検索・安全運用まで対応</h2>
-<p>Sarashina3シリーズは、日本語応答性能や指示追従性能を高めた標準モデルに加え、業務利用に必要な周辺機能を担う専用モデルを組み合わせたモデル群だ。</p>
-<p>「Sarashina3 mini」は、性能と速度のバランスを重視した標準モデルで、外部APIを自律的に呼び出すエージェント機能や、数理的理解、コード生成能力を備える。「Sarashina3 nano」は、ビッグデータの分類や情報抽出など、定型タスクを大量に処理する用途を想定した軽量モデルとなる。</p>
-<p>安全運用向けには、入力・出力テキストの有害性を判定する「Sarashina3 guard」を用意した。有害と判定した場合は、過激な描写、情報漏えい、違法行為のほう助などのカテゴリコードも返す。生成AIを社内システムや顧客対応に組み込む際のフィルターとして活用できる。</p>
-<h2>RAG向けにembeddingとrerankも提供</h2>
-<p>RAG（検索拡張生成）向けには、「Sarashina3 embedding」と「Sarashina3 rerank」を提供する。embeddingはテキストの意味をベクトル化し、大量データから関連文書の候補を抽出するモデルだ。rerankは、embeddingで絞り込んだ候補文書をクエリとの関連度順に並べ替える。</p>
-<p>SB Intuitionsは、embeddingとrerankを組み合わせることで、RAGシステムにおけるハルシネーション抑制と回答精度向上につながるとしている。業務文書や社内ナレッジを生成AIと連携させる用途で、検索精度と安全性の両面を補う構成といえる。</p>
-<h2>30Tトークン以上で学習、エージェント能力も強化</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260605171344_4aa0bded34/20260605171344_4aa0bded34.png" alt="20260605171344.png" /></p>
-<p>SB Intuitionsの<a href="https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000">技術ブログ</a>{target=”_blank”}によると、Sarashina3 miniとSarashina3 nanoはフルスクラッチで開発された。事前学習では、日本語と英語を中心に30Tトークン規模のデータを利用し、独自の品質フィルタリングやデータ合成技術を取り入れたという。</p>
-<p>事後学習では、蒸留技術と多段階の強化学習を組み合わせ、指示追従、数学、ツール利用などの能力を前世代から向上させた。複数のツールを同時に呼び出す処理や、異なるツールを連続して使うマルチステップのエージェントタスクにも対応する。</p>
-<h2>国内クラウド上で企業・自治体向けに提供</h2>
-<p>提供基盤となるCloud PF Type Aは、Oracle Alloyを活用したクラウド基盤をソフトバンクの日本国内データセンターで管理・運用するサービスだ。ソフトバンクは、顧客データを国内で保管・管理できるデータ主権と、ソフトバンクによる運用・サポートを通じた運用主権を備えると説明している。</p>
-<p><strong>■ Cloud PF Type Aを活用した生成AIアプリケーションの構成例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca.webp" alt="media_153b3c50efe44d4054a8a539fe708db2c79ba785e.webp" /></p>
-<p>ソフトバンクは同日、Cloud PF Type A上でSarashinaを活用した生成AIサービスを<a href="https://www.softbank.jp/business/news/2026/0630-01">東日本のデータセンターで開始した</a>{target=”_blank”}。西日本のデータセンターでは、2026年10月に提供を始める予定だ。共有型ではSarashina3シリーズの5モデルを、専有型ではSarashina3 miniとSarashina3 nanoを提供する。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>xAIのAIデータセンター発電施設に騒音訴訟　住民らが「ほぼ絶え間ない騒音・振動」と主張</title>
-      <link>https://ledge.ai/articles/xai_data_center_noise_lawsuit</link>
-      <description><![CDATA[<p>米ミシシッピ州サウスヘイブンにあるxAI関連のデータセンター向け発電施設をめぐり、地元住民がxAI、SpaceX、MZX Techを相手取った集団訴訟を提起した。<a href="https://dockets.justia.com/docket/mississippi/msndce/3%3A2026cv00148/52569">米ミシシッピ州北部地区連邦地方裁判所の訴訟記録</a>では、訴状は2026年6月8日に提出され、被告としてX.AI Corp.、Space Exploration Technologies Corp.、MZX Tech LLCが記載されている。</p>
-<p>住民側は、発電施設から出る騒音や振動によって、周辺の生活環境が損なわれていると主張している。生成AIの開発競争がデータセンターや電力インフラの整備を押し上げるなか、AIを支える物理基盤が地域社会との摩擦を生む事例として注目される。</p>
-<h2>xAIが進める200億ドル超のAIデータセンター計画</h2>
-<p>xAIはミシシッピ州サウスヘイブンで、大規模なAIデータセンター計画を進めている。ミシシッピ州知事室は2026年1月、xAIが同地に200億ドル超を投資し、データセンター「MACROHARDRR」を建設すると発表した。施設は、xAIが新たに取得したサウスヘイブンの発電施設用地と、テネシー州にある既存データセンターの近くに位置する。<a href="https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/">州政府の発表</a>では、完成後にxAIの計算能力が約2ギガワットに増える見通しも示されている。</p>
-<p>xAIは生成AIチャットボット「Grok」を展開している。同社はAIモデルの開発に向け、巨大な計算基盤「Colossus」の整備も進めてきた。高性能な生成AIモデルを開発・運用するには、大量のGPUだけでなく、それを支えるデータセンター、電力、冷却設備が欠かせない。今回の訴訟は、そのインフラ拡大が地域の生活環境に及ぼす影響をめぐるものだ。</p>
-<h2>住民側は「低周波騒音と振動」による生活への影響を訴え</h2>
-<p>住民側は、サウスヘイブンの発電施設から出る継続的な低周波騒音や振動により、睡眠や休息、屋外での会話、自宅で静かに過ごす時間が妨げられていると訴えている。訴状では、対象区域内に数千の住宅があり、1万人超の住民が集団訴訟の対象になり得るとの主張も示されている。</p>
-<p>原告側は、被告らが発電施設からの騒音を抑える義務を怠ったと主張し、損害賠償などを求めている。現時点で住民側の主張が裁判所に認められたわけではなく、今後の審理で被告側の反論や裁判所の判断が示されることになる。<a href="https://www.reuters.com/legal/government/musks-xai-spacex-hit-with-class-action-over-data-center-nuisance-2026-06-09/">Reuters</a>は、xAIとSpaceXがコメント要請にただちには応じなかったと報じている。</p>
-<h2>生成AIブームの裏側で膨らむ電力インフラ問題</h2>
-<p>生成AIの性能競争は、モデルやアプリケーションだけで完結しない。大規模モデルを訓練・運用するには、GPUクラスター、データセンター、発電設備、送電網、冷却設備といった巨大な物理インフラが必要になる。AI企業が計算能力の拡大を急ぐほど、その負荷は地域の電力供給、環境規制、生活環境にも及ぶ。</p>
-<p>サウスヘイブンのデータセンター計画は、州政府にとっては大規模投資と雇用創出の機会である一方、周辺住民にとっては騒音や振動をめぐる生活上の問題として表面化している。AIデータセンターの建設が各地で進むなか、電力インフラの確保と地域住民との合意形成は、AI企業にとっていっそう重要な課題になりそうだ。</p>
-]]></description>
-      <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>東京都、都庁舎にAI自動分別リサイクルボックス設置　リチウムイオン電池内蔵製品を回収</title>
-      <link>https://ledge.ai/articles/weecle_ai_recycling_box_tokyo</link>
-      <description><![CDATA[<p>東京都は2026年6月19日、都庁舎にAI自動分別リサイクルボックスを設置し、リチウムイオン電池とその使用製品を回収する「東京鉱山から資源を掘り起こし～都庁舎リチウムイオン電池回収キャンペーン～」を6月26日から開始すると<a href="https://www.metro.tokyo.lg.jp/information/press/2026/06/2026061914">発表</a>した。期間は9月30日まで。</p>
-<p>同キャンペーンでは、新宿区の回収拠点として、都庁第一本庁舎1階南側の全国観光PRコーナー横に、フォーステックが展開するAI自動分別リサイクルボックス「Weecle」を設置する。KDDI、VOLTAも協力し、家庭に保管されている小型充電式家電の回収とリサイクルを進める。</p>
-<h2>都庁舎で小型充電式家電を回収</h2>
-<p>回収対象は、投入口のサイズである23.5cm×21cm×33cm以内の小型充電式家電。携帯電話、スマートフォン、モバイルバッテリー、加熱式たばこ、デジタルカメラ、ハンディファン、ワイヤレスイヤフォン、ゲーム機、電動歯ブラシ、電気シェーバーなどが例として挙げられている。</p>
-<p>回収に協力した人には、東京ポイント200ポイントと都星人シールを渡す。実施時間は午前9時から午後5時までで、土日祝日も対象となる。</p>
-<p><strong>AI自動分別リサイクルボックス「Weecle」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260619_04_03_c2eeb7a941/20260619_04_03_c2eeb7a941.png" alt="20260619_04_03.png" /></p>
-<p>東京都は、リチウムイオン電池の適切な分別と「東京鉱山」からの資源回収を促進するため、区市町村や事業者と連携した回収キャンペーンを進めている。リチウムイオン電池を含む製品は、不適切に廃棄されると発火につながるおそれがある。都市部に眠る金属資源を回収する観点からも、家庭内に保管されたままの使用済み製品をいかに回収につなげるかが課題となっている。</p>
-<h2>AI画像認識で投入品を判定</h2>
-<p>「Weecle Technology by Bin-e」は、ポーランド企業Bin-eが開発し、フォーステックが日本で展開するAI自動分別リサイクルボックスである。投入された品目をAI画像認識で判定し、回収対象品目を自動分別する。</p>
-<p>通信機能も備えており、容量レベルや回収状況を可視化できる。利用者に向けて回収対象品目や投入方法を案内するデジタルサイネージも搭載する。小型充電式家電の回収に対応するため、本体には耐火性容器と消火フィルムを内蔵している。</p>
-<p><strong>AI自動分別リサイクルボックス「Weecle」の概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_nr_1064_4583_img_02_01dcbdcd93/kddi_nr_1064_4583_img_02_01dcbdcd93.png" alt="kddi_nr-1064_4583_img_02.png" /></p>
-<p>フォーステックは、今回の設置について「Weecle」の日本初設置としている。リサイクルボックスにAI画像認識や通信機能を組み合わせることで、回収対象の判定や回収状況の把握を支援する。</p>
-<h2>KDDI、VOLTAと連携して回収・リサイクルへ</h2>
-<p>各者の役割は、東京都および新宿区が都庁における取り組みの実施と都民への周知を担い、フォーステックがAI自動分別リサイクルボックスの提供と運用支援を行う。KDDIは使用済み携帯電話・スマートフォンの回収・リサイクルを担当し、VOLTAはモバイルバッテリー、加熱式たばこ、その他のリチウムイオン電池および内蔵製品の回収・リサイクルを担う。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_nr_1064_4583_img_01_24248754e1/kddi_nr_1064_4583_img_01_24248754e1.png" alt="kddi_nr-1064_4583_img_01.png" /></p>
-<p>KDDIは2005年から、全国のau Style、auショップなどで使用済み携帯電話・スマートフォンを回収してきた。回収端末は手作業で分解・分類し、素材ごとに仕分けて再資源化している。</p>
-<p>今回の都庁舎での取り組みは、リチウムイオン電池内蔵製品の回収に、AI自動分別リサイクルボックスを活用する実証的な取り組みとなる。東京都は、区市町村や事業者と連携しながら、適切な分別と資源循環につなげる。</p>
-]]></description>
-      <pubDate>Fri, 26 Jun 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claude CodeでAIエージェントをどう指示するか　AnthropicがCLAUDE.md・スキル・サブエージェントなど7つの方法を解説</title>
