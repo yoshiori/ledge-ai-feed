@@ -57,22 +57,9 @@
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Claude Fable 5の提供を7月1日から再開へ　米政府の輸出規制解除を受け順次復旧</title>
-      <link>https://ledge.ai/articles/claude_fable_5_export_restrictions_lifted</link>
-      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、米国政府の輸出規制によりアクセスを停止していたAIモデル「Claude Fable 5」と「Claude Mythos 5」について、規制が解除されたと<a href="https://www.anthropic.com/news/redeploying-fable-5">発表した</a>。Claude Fable 5は7月1日から、Claude Platform、Claude.ai、Claude Code、Claude Coworkで世界のユーザー向けに提供を再開する。AWS、Google Cloud、Microsoft Foundryでのアクセスも、可能な限り早く再有効化する。</p>
-<h2>Claude Fable 5は7月1日から再開</h2>
-<p>Anthropicは6月12日、米政府がClaude Fable 5とClaude Mythos 5に輸出規制を適用したことを受け、両モデルのアクセスを<a href="https://www.anthropic.com/news/fable-mythos-access">全ユーザー向けに停止</a>していた。規制は米国内外の外国籍者を対象としていたが、Anthropicはリアルタイムで国籍を確認する確実な手段がなかったため、すべての顧客に対してアクセスを停止した。</p>
-<p>今回の発表により、Claude Fable 5は7月1日からグローバル提供を再開する。Pro、Max、Team、一部Enterpriseプランでは、7月7日まで週間利用上限の最大50％までClaude Fable 5が含まれる。その後はusage credits経由で利用できる。</p>
-<p>一方、Claude Mythos 5は全面的な提供再開ではない。Anthropicは、米政府が6月26日に承認したことを受け、一部の米国組織向けにClaude Mythos 5のアクセスを復旧した。今後は、Project Glasswingの国内外パートナーにアクセスを広げるため、政府との調整を続ける。</p>
-<h2>停止の背景にAmazon研究者の報告</h2>
-<p>Claude Fable 5とClaude Mythos 5は、Anthropicが6月9日に発表した最上位級のAIモデルである。両モデルは同じ基盤モデルを共有しているが、Claude Fable 5は一般利用向けに強いセーフガードを組み込んだモデルとして提供された。Claude Mythos 5は、一部領域のセーフガードを外したモデルで、防御的サイバーセキュリティ用途のProject Glasswingパートナー向けに限定提供されていた。</p>
-<p>Anthropicによると、6月12日の輸出規制は、Amazonの研究者がClaude Fable 5のセーフガードを回避する手法を見つけたとする報告を米政府が把握した後に出された。報告では、Fable 5にソフトウェア脆弱性を特定させる手法が示され、1件では脆弱性の悪用方法を示すコードも生成されたという。</p>
-<p>Anthropicは過去2週間、米政府やAmazonを含む関係者とともに報告内容を検証した。その結果、報告された手法はClaude Mythos 5級の独自のサイバー能力を引き出すものではなく、通常の防御的サイバーセキュリティ作業に関わる境界的な事例だったとしている。</p>
-<h2>安全分類器を更新、業界共通の評価枠組みも提案</h2>
-<p>Anthropicは今回、報告された挙動を対象にする新しい安全分類器を訓練した。Claude Fable 5へのリクエストが分類器によりブロックされた場合、ユーザーに通知され、そのリクエストはClaude Opus 4.8に送られる。新しい分類器は、Amazonの報告で示された特定の手法を99％超のケースでブロックするという。</p>
-<p>ただし、新しい分類器には通常のコーディングやデバッグ作業でも無害なリクエストをより多くブロックする副作用がある。Anthropicは、正当なリクエストと悪用の試みをより正確に区別し、誤検知を減らすため、今後も分類器を改良する。</p>
-<p>今回の一連の出来事を受け、AnthropicはAIモデルのジェルブレイクの重大度を評価する業界共通の枠組みも提案している。同社はAmazon、Microsoft、Google、Project Glasswingのパートナーとともに、ジェルブレイクが攻撃者にもたらす能力の増加幅、対象範囲、攻撃化の容易さ、手法の入手しやすさなどを基準にした評価枠組みの策定を始めた。</p>
-<p>Anthropicはあわせて、国家安全保障に関わる能力を大きく前進させるモデルについて、米政府との事前評価、情報共有、共同研究を強化する方針も示した。今回の復旧は、最上位級モデルの提供再開であると同時に、高性能AIモデルの公開と安全対策をめぐる政府・クラウド企業・AI企業の調整が本格化していることを示している。</p>
+      <title>キャンメイク、実在社員もとにした「AI社員」公開　商品紹介の自然さに評価、SNSでは賛否も</title>
+      <link>https://ledge.ai/articles/canmake_ai_employee</link>
+      <description><![CDATA[<p>化粧品ブランド「キャンメイク」を展開する井田ラボラトリーズは2026年7月1日、実際に働く複数の社員をもとにした「キャンメイクAI社員」プロジェクトを<a href="https://prtimes.jp/main/html/rd/p/000000254.000019685.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
