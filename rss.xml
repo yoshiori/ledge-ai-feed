@@ -5,6 +5,14 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Cloudflare、WebページやAPIをアクセスごとに課金できる「Monetization Gateway」発表　AIエージェント時代の収益化基盤に</title>
+      <link>https://ledge.ai/articles/cloudflare_monetization_gateway_x402</link>
+      <description><![CDATA[<p>Cloudflareは2026年7月1日、Cloudflareで保護しているWebページ、データセット、API、MCPツールなどにアクセスごとの課金ルールを設定できる「Cloudflare Monetization Gateway」を<a href="https://blog.cloudflare.com/monetization-gateway/">発表</a>した。AIエージェントやプログラムがコンテンツやツールを利用するたびに支払う仕組みを想定しており、HTTP 402を活用する支払いプロトコル「x402」を使う。</p>
+<p>Cloudflareは同日、AIトラフィックの分類強化や分析機能、商業パートナーシップなどを含む一連の取り組みも<a href="https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 06 Jul 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
       <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
@@ -60,14 +68,6 @@
       <title>キャンメイク、実在社員もとにした「AI社員」公開　商品紹介の自然さに評価、SNSでは賛否も</title>
       <link>https://ledge.ai/articles/canmake_ai_employee</link>
       <description><![CDATA[<p>化粧品ブランド「キャンメイク」を展開する井田ラボラトリーズは2026年7月1日、実際に働く複数の社員をもとにした「キャンメイクAI社員」プロジェクトを<a href="https://prtimes.jp/main/html/rd/p/000000254.000019685.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare、WebページやAPIをアクセスごとに課金できる「Monetization Gateway」発表　AIエージェント時代の収益化基盤に</title>
-      <link>https://ledge.ai/articles/cloudflare_monetization_gateway_x402</link>
-      <description><![CDATA[<p>Cloudflareは2026年7月1日、Cloudflareで保護しているWebページ、データセット、API、MCPツールなどにアクセスごとの課金ルールを設定できる「Cloudflare Monetization Gateway」を<a href="https://blog.cloudflare.com/monetization-gateway/">発表</a>した。AIエージェントやプログラムがコンテンツやツールを利用するたびに支払う仕組みを想定しており、HTTP 402を活用する支払いプロトコル「x402」を使う。</p>
-<p>Cloudflareは同日、AIトラフィックの分類強化や分析機能、商業パートナーシップなどを含む一連の取り組みも<a href="https://www.cloudflare.com/ja-jp/press/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
@@ -223,29 +223,6 @@
       <pubDate>Fri, 03 Jul 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>ソフトバンク傘下のSB Intuitions、国産LLM「Sarashina3シリーズ」を提供開始　RAG・安全運用まで見据えた5モデル構成</title>
-      <link>https://ledge.ai/articles/sb_intuitions_sarashina3_cloud_pf_type_a</link>
-      <description><![CDATA[<p>ソフトバンク傘下のSB Intuitionsは2026年6月30日、国産生成AI「Sarashina」の最新モデル群「Sarashina3シリーズ」の提供開始を<a href="https://www.sbintuitions.co.jp/news/press/20260630_01/">発表</a>した。ソフトバンクが提供するソブリン性を備えたクラウドサービス「Cloud PF Type A」で利用できる。標準モデル、軽量モデル、ガードモデル、ベクトル化モデル、リランキングモデルの5種類をそろえ、企業や自治体の業務利用を支援する。</p>
-<h2>5モデル構成で、生成から検索・安全運用まで対応</h2>
-<p>Sarashina3シリーズは、日本語応答性能や指示追従性能を高めた標準モデルに加え、業務利用に必要な周辺機能を担う専用モデルを組み合わせたモデル群だ。</p>
-<p>「Sarashina3 mini」は、性能と速度のバランスを重視した標準モデルで、外部APIを自律的に呼び出すエージェント機能や、数理的理解、コード生成能力を備える。「Sarashina3 nano」は、ビッグデータの分類や情報抽出など、定型タスクを大量に処理する用途を想定した軽量モデルとなる。</p>
-<p>安全運用向けには、入力・出力テキストの有害性を判定する「Sarashina3 guard」を用意した。有害と判定した場合は、過激な描写、情報漏えい、違法行為のほう助などのカテゴリコードも返す。生成AIを社内システムや顧客対応に組み込む際のフィルターとして活用できる。</p>
-<h2>RAG向けにembeddingとrerankも提供</h2>
-<p>RAG（検索拡張生成）向けには、「Sarashina3 embedding」と「Sarashina3 rerank」を提供する。embeddingはテキストの意味をベクトル化し、大量データから関連文書の候補を抽出するモデルだ。rerankは、embeddingで絞り込んだ候補文書をクエリとの関連度順に並べ替える。</p>
-<p>SB Intuitionsは、embeddingとrerankを組み合わせることで、RAGシステムにおけるハルシネーション抑制と回答精度向上につながるとしている。業務文書や社内ナレッジを生成AIと連携させる用途で、検索精度と安全性の両面を補う構成といえる。</p>
-<h2>30Tトークン以上で学習、エージェント能力も強化</h2>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/20260605171344_4aa0bded34/20260605171344_4aa0bded34.png" alt="20260605171344.png" /></p>
-<p>SB Intuitionsの<a href="https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000">技術ブログ</a>{target=”_blank”}によると、Sarashina3 miniとSarashina3 nanoはフルスクラッチで開発された。事前学習では、日本語と英語を中心に30Tトークン規模のデータを利用し、独自の品質フィルタリングやデータ合成技術を取り入れたという。</p>
-<p>事後学習では、蒸留技術と多段階の強化学習を組み合わせ、指示追従、数学、ツール利用などの能力を前世代から向上させた。複数のツールを同時に呼び出す処理や、異なるツールを連続して使うマルチステップのエージェントタスクにも対応する。</p>
-<h2>国内クラウド上で企業・自治体向けに提供</h2>
-<p>提供基盤となるCloud PF Type Aは、Oracle Alloyを活用したクラウド基盤をソフトバンクの日本国内データセンターで管理・運用するサービスだ。ソフトバンクは、顧客データを国内で保管・管理できるデータ主権と、ソフトバンクによる運用・サポートを通じた運用主権を備えると説明している。</p>
-<p><strong>■ Cloud PF Type Aを活用した生成AIアプリケーションの構成例</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca/media_153b3c50efe44d4054a8a539fe708db2c79ba785e_f76c23d0ca.webp" alt="media_153b3c50efe44d4054a8a539fe708db2c79ba785e.webp" /></p>
-<p>ソフトバンクは同日、Cloud PF Type A上でSarashinaを活用した生成AIサービスを<a href="https://www.softbank.jp/business/news/2026/0630-01">東日本のデータセンターで開始した</a>{target=”_blank”}。西日本のデータセンターでは、2026年10月に提供を始める予定だ。共有型ではSarashina3シリーズの5モデルを、専有型ではSarashina3 miniとSarashina3 nanoを提供する。</p>
-]]></description>
-      <pubDate>Thu, 02 Jul 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、社内利用はChatGPT中心からCodex中心に　非技術部門にも広がり、業務AIエージェントの主役に</title>
       <link>https://ledge.ai/articles/openai_codex_non_developer_usage</link>
       <description><![CDATA[<p>OpenAIは2026年6月25日、AIエージェント「Codex」の利用実態を分析した研究論文「The Shift to Agentic AI: Evidence from Codex」を<a href="https://openai.com/index/how-agents-are-transforming-work/">公開した</a>。論文では、個人ユーザー、組織ユーザー、OpenAI社員の3つの集団を対象に、Codexがどのように使われているかを分析している。</p>
@@ -320,13 +297,6 @@
 <p>OpenAIは今後数週間で、GPT-5.6 Sol、Terra、LunaをChatGPT、Codex、APIへ広げる。まずは限定プレビューを通じて追加のテストと調整を進め、安全性と実用性を確認しながら提供範囲を拡大する。</p>
 ]]></description>
       <pubDate>Sat, 27 Jun 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude CodeでAIエージェントをどう指示するか　AnthropicがCLAUDE.md・スキル・サブエージェントなど7つの方法を解説</title>
-      <link>https://ledge.ai/articles/claude_code_ai_agent_instructions</link>
-      <description><![CDATA[<p>Anthropicは2026年6月18日（現地時間）、AIコーディング支援ツール「Claude Code」でClaudeの挙動を指示する7つの方法を解説する<a href="https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 25 Jun 2026 22:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
