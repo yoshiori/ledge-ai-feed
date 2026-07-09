@@ -118,27 +118,6 @@
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft Research、AIエージェント向け長期記憶システム「Memora」を公開　会話や作業履歴から必要な情報を効率検索</title>
-      <link>https://ledge.ai/articles/microsoft_research_memora_ai_agent_memory</link>
-      <description><![CDATA[<p>Microsoft Researchは2026年6月29日（現地時間）、AIエージェント向けの長期記憶システム「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を<a href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">公開</a>した。長期間にわたる会話や作業履歴を保存し、必要な情報だけを効率よく取り出すためのアーキテクチャである。論文は<a href="https://www.microsoft.com/en-us/research/publication/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">ICML 2026</a>に採択されており、コードも<a href="https://github.com/microsoft/Memora">GitHub</a>で公開されている。</p>
-<p>AIエージェントが長期的な作業を担うには、過去の会話、決定事項、制約、作業履歴を継続的に扱う必要がある。Microsoft Researchは、現在のAIエージェントについて、過去のやり取りを記憶できず、長いタスクでは関連情報を繰り返し与えるか、外部から取り出す必要があると説明している。会話や作業が長く複雑になるほど、この方法は効率が下がる。</p>
-<p>既存の大規模言語モデル（LLM）は、単体では過去の状態を保持しない。長い会話では履歴全体を読み直す必要があり、情報をそのまま保存すれば断片的でノイズが増え、要約すれば細かな条件や数値、判断の経緯が失われやすい。RAGのようにテキスト断片を検索する方法や、会話から事実を抽出する方法、ナレッジグラフを使う方法もあるが、Microsoft Researchは、これらには「詳細を残すこと」と「増え続ける記憶を効率よく整理すること」の間にトレードオフがあるとしている。</p>
-<h2>「保存する内容」と「取り出す手がかり」を分ける</h2>
-<p>Memoraは、この課題に対して「保存する内容」と「検索に使う手がかり」を分ける。記憶の中身である「memory value」には、会話や作業の詳細を保持する。一方、検索には「primary abstraction」と呼ぶ短い抽象表現を使う。Microsoft Researchによると、primary abstractionは記憶が何に関するものかを示す短いフレーズで、類似検索にはこの抽象表現だけを使う。</p>
-<p>さらにMemoraは、「cue anchors」と呼ぶ手がかりも使う。cue anchorsは、同じ記憶に別の経路からアクセスするための短いタグのような役割を持つ。これにより、単純な意味の近さだけでは見つけにくい関連情報にもたどり着けるようにする。</p>
-<p><strong>■ Memoraのアーキテクチャ概要</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_1_high_res_Memora_1_scaled_cb24624ab9/figure_1_high_res_Memora_1_scaled_cb24624ab9.png" alt="figure_1_high_res_Memora-1-scaled.png" /></p>
-<p>検索の仕組みも、一度だけ上位の類似項目を返す方式ではない。Memoraは、policy-guided retrieverと呼ぶ検索ポリシーを使い、クエリを更新しながら、cue anchorsを通じて関連する記憶へ探索を広げる。必要な記憶を取り出した時点で探索を止めるため、エージェントが過去の履歴全体を読み直さなくても、関連する情報にたどり着ける設計となっている。Microsoft Researchは、この検索ポリシーを強いLLMで制御する方法に加え、強化学習によって小型モデルに蒸留する方法も示している。</p>
-<h2>LoCoMoとLongMemEvalで評価</h2>
-<p>評価では、長期会話ベンチマークのLoCoMoとLongMemEvalが使われた。Microsoft Researchによると、MemoraはLoCoMoで86.3％、LongMemEvalで87.4％のLLM-judge accuracyを達成し、RAG、Mem0、Nemori、Zep、LangMem、フルコンテキスト推論を上回ったという。</p>
-<p><strong>■ LoCoMoにおける各手法の比較：</strong> MemoraはLLM-judgeで0.863を記録した
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/figure_2_high_res_Memora_1_scaled_b07dc28523/figure_2_high_res_Memora_1_scaled_b07dc28523.png" alt="figure_2_high_res_Memora-1-scaled.png" /></p>
-<p>効率面でも、MemoraはMem0と比べて1会話あたりの記憶エントリ数を約半分に抑えた。Microsoft Researchは、Memoraの記憶エントリ数が344件、Mem0が651件だったとしている。また、フルコンテキスト推論と比べて、コンテキストトークンの消費を最大98％削減したという。これは、履歴全体をモデルに読み込ませるのではなく、必要な記憶だけを取り出す設計によるものだ。</p>
-<p>長期間にわたりユーザーと協働するAIエージェントでは、単に会話を長く保持するだけでなく、過去の決定や条件をどのように整理し、必要な場面で取り出すかが課題となる。Memoraは、その記憶管理に向けた研究の一つとなる。</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NVIDIA、収益共有型のAIインフラ提供モデルを発表　GPUクラウド事業者と組みアクセス拡大へ</title>
       <link>https://ledge.ai/articles/nvidia_revenue_sharing_ai_infrastructure_model</link>
       <description><![CDATA[<p>NVIDIAは2026年7月1日、AI関連企業がGPU搭載のAIインフラへアクセスしやすくする新たなビジネスモデルを<a href="https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/">発表</a>{target=\</p>
