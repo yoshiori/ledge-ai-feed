@@ -27,32 +27,6 @@
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
-      <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
-      <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
-<p>Claude Scienceは、新しいAIモデルではなく、既存のClaudeを科学研究向けのツール、データベース接続、計算環境と組み合わせるアプリである。Anthropicは、研究者がPubMed、Jupyter、R、クラスター端末など複数のツールを行き来している現状を挙げ、Claude Scienceによって研究作業を単一の環境にまとめられるとしている。</p>
-<h2>Python／R実行、科学データベース連携に対応</h2>
-<p><a href="https://claude.com/docs/claude-science/overview">Claude Science</a>はmacOSとLinuxで利用できるデスクトップアプリだ。研究者が自然言語で研究タスクや解析内容を指示すると、ClaudeがPython、R、shellコードを書き、サンドボックス内で実行する。</p>
-<p>Claude Scienceは、ユーザーが許可したフォルダを読み込み、科学データベースからデータを取得し、結果をバージョン管理された成果物として保存する。Anthropicによれば、ゲノミクス、シングルセル解析、プロテオミクス、構造生物学、ケモインフォマティクスなどに向けた60以上のスキルやコネクターを備える。</p>
-<p>また、Jupyter Notebookのように、ローカル環境だけでなく、SSHやHPCログインノードを通じたリモート環境でも利用できる。Anthropicは、研究者がすでに信頼しているモデル、データセット、パイプラインをClaude Scienceに接続し、再利用可能なスキルとして保存できるとしている。</p>
-<p><strong>Claude Scienceの画面。解析結果、コード、実行ログ、レビュー機能を単一の環境で扱える</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531/6a43a5d70ebe75212a0ec830_science_pillars_1_5b18366531.jpg" alt="6a43a5d70ebe75212a0ec830_science-pillars-1.jpg" /></p>
-<h2>図表や原稿を、作成過程ごと保存</h2>
-<p>Claude Scienceの特徴の1つは、研究成果の再現性と監査可能性を重視している点だ。Anthropicによると、Claude Scienceは、3Dタンパク質構造、ゲノムブラウザートラック、化学構造などの科学的な成果物をネイティブに表示できる。</p>
-<p>図表を生成した場合には、その図を作成したコード、実行環境、作成手順の説明、メッセージ履歴をあわせて保存する。これにより、数カ月後でも、どの入力からどのように結果が作られたのかを確認しやすくする。研究者は、図表についてClaude Scienceと会話しながら、グリッド線の削除や軸の変更などを自然言語で指示できる。</p>
-<p>Anthropicは、バックグラウンドで動くレビュアーが、Claudeの主張を実際の実行記録と照合できるとも説明している。ただし、公式ドキュメントでは、Claudeは誤る可能性があり、レビュアーはエラーを減らすが完全には排除しないと明記している。研究、出版、下流の意思決定に使う前には、結果を検証する必要がある。</p>
-<h2>TeamとEnterpriseでは管理者の有効化が必要</h2>
-<p>Claude Scienceは、Claude Pro、Max、Team、Enterpriseの各プランで利用できる。TeamとEnterpriseでは初期状態でオフになっており、組織の管理者が<a href="https://claude.com/docs/claude-science/enable-claude-science">設定画面から有効化</a>
-する必要がある。Freeプランでは利用できない。</p>
-<p>システム要件として、macOS 13以降またはLinux x64、約5GBの空き容量などが示されている。Linuxでは、socat、bubblewrap 0.8.0以降、カーネルで許可された非特権ユーザー名前空間も必要になる。</p>
-<p>また、Claude Scienceは研究ツールであり、臨床・診断用途を意図したものではない。公式ドキュメントでは、ファイルはユーザーのコンピューター上に残り、コードはサンドボックス内で実行されると説明している。新しいフォルダ、ネットワークホスト、リモートジョブを利用する際には、ユーザーの承認が必要になる。</p>
-<h2>科学研究向けClaude展開の一環</h2>
-<p>Anthropicは、Claudeをライフサイエンスや科学研究に活用する取り組みを進めてきた。公式の<a href="https://claude.com/solutions/life-sciences">ライフサイエンス向けページ</a>では、文献、ラボノート、解析プラットフォームを連携させ、仮説立案から最終提出までを支援する用途を示している。</p>
-<p>今回のClaude Scienceは、Claudeを単なるチャットAIやコーディング支援ツールにとどめず、研究者が日常的に使う解析環境、データベース、計算資源と結びつける取り組みといえる。Anthropicはベータ提供を通じてユーザーからのフィードバックを集め、プラットフォームを改善していくとしている。</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>キャンメイク、実在社員もとにした「AI社員」公開　商品紹介の自然さに評価、SNSでは賛否も</title>
       <link>https://ledge.ai/articles/canmake_ai_employee</link>
       <description><![CDATA[<p>化粧品ブランド「キャンメイク」を展開する井田ラボラトリーズは2026年7月1日、実際に働く複数の社員をもとにした「キャンメイクAI社員」プロジェクトを<a href="https://prtimes.jp/main/html/rd/p/000000254.000019685.html">発表</a>{target=\</p>
@@ -63,26 +37,6 @@
       <title>Google、Geminiアプリのパーソナライズ画像生成を米国で無料提供　GoogleフォトやGmailの文脈を反映 米国の対象ユーザーが無料で利用できるように</title>
       <link>https://ledge.ai/articles/google_gemini_personalized_image_generation_free_us</link>
       <description><![CDATA[<p>Googleは2026年6月29日（現地時間）、Geminiアプリでユーザーの好みや生活スタイルを反映した画像生成を、米国の対象ユーザー向けに無料で[提供開始したことを<a href="https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>経産省、国産フィジカルAI基盤モデルの開発事業を開始　ソフトバンクなどが出資のNoetra(旧・日本AI基盤モデル開発)と産総研を採択</title>
-      <link>https://ledge.ai/articles/meti_nedo_physical_ai_foundation_model</link>
-      <description><![CDATA[<p>経済産業省は2026年6月30日、ロボットなど実世界で働くAI「フィジカルAI」の実現に向け、国産のマルチモーダル基盤モデルを開発する事業を始めると<a href="https://www.meti.go.jp/press/2026/06/20260630005/20260630005.html">発表</a>した。新エネルギー・産業技術総合開発機構（NEDO）の公募で、Noetra株式会社と産業技術総合研究所（産総研）が実施先に選ばれた。</p>
-<p>事業名は「AIロボット・フィジカルAIを見据えたマルチモーダル基盤モデル開発事業」。期間は2026年度から2030年度まで。NEDOは3月24日から4月22日にかけて公募を実施し、15件の申請を審査したうえで、Noetraと産総研の提案を<a href="https://www.nedo.go.jp/koubo/CD3_100431.html">採択</a>した。</p>
-<h2>実世界で働くAIの土台を国産で開発</h2>
-<p>今回の事業が対象にするのは、文章だけでなく、画像、動画、音声、センサーデータなどを扱えるマルチモーダル基盤モデルだ。生成AIはこれまで、文書作成や画像生成などデジタル空間での活用が先行してきた。一方、ロボットや製造設備、自動運転などにAIを組み込むには、現実世界の状況を認識し、判断や制御につなげる能力が必要になる。</p>
-<p>経産省は、製造業などの現場にあるデータを活用しながら、将来にわたって安心して利用できる国産モデルを構築する必要があるとしている。日本が強みを持つ製造業やロボット分野で、海外モデルに依存しすぎないAI基盤を整える狙いがある。</p>
-<p>NEDOは、フィジカルAIの実現により、製造業などの生産性向上やエネルギー消費の効率化が期待されるとしている。単に高性能なAIモデルを作るだけでなく、工場や物流、インフラなど、実際の現場で使える基盤技術に育てることが焦点となる。</p>
-<h2>Noetraがモデル開発、産総研が先端技術を支える</h2>
-<p>実施体制では、Noetraがマルチモーダル基盤モデルの開発と提供を担う。国内のモデル開発事業者やAI利活用企業のニーズを踏まえ、国際的にも競争力のあるモデルを目指す。</p>
-<p>産総研は、国内外の研究機関と連携し、先端的な技術開発を担当する。モデルの基盤能力を高める研究に加え、実世界で使うための拡張性や評価方法の開発も進める。</p>
-<p>研究開発テーマは「実世界ネイティブに資するフィジカルAI基盤技術の研究開発」。高度な日本語理解、論理推論、指示遂行といった基礎能力に加え、画像、動画、音声、物理特性などを統合的に扱う能力を高める。実施期間は2026年6月から2031年3月までとされている。</p>
-<h2>学習済み重みを提供、国内AIエコシステム形成へ</h2>
-<p>開発したモデルは、国内のモデル開発者やAI利活用事業者に広く提供する方針だ。Noetraと産総研は、研究開発成果のうち学習済みの重みを提供し、各産業の用途に応じた領域特化モデルの創出につなげるとしている。</p>
-<p>これにより、1つの国産基盤モデルを起点に、製造、ロボット、モビリティ、インフラなどの分野で応用モデルが生まれる循環を作る。経産省が進める「<a href="https://www.meti.go.jp/speeches/kaiken/2026/20260630001.html">AIロボティクス戦略</a>」でも、国産マルチモーダル基盤モデルは重要プロジェクトに位置づけられている。</p>
-<p>同戦略では、2040年にロボット導入台数約1000万台を目標に掲げる。対象分野には、従来の製造業に加え、飲食・食品製造や医療も含まれる。フィジカルAIは、こうした現場でロボットが状況を理解し、人の作業を補助・代替していくための中核技術となる。</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
