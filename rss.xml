@@ -20,6 +20,13 @@
       <pubDate>Mon, 06 Jul 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIに引用される日本のドメイン、YouTube首位・note急上昇　Ahrefsが最新ランキング公開</title>
+      <link>https://ledge.ai/articles/ai_cited_domains_japan_ahrefs_ranking</link>
+      <description><![CDATA[<p>シンガポールのマーケティングデータ収集・解析企業「Ahrefs（エイチレフス）」は2026年7月2日、ChatGPTやGoogleの「AIモード」など、AIプラットフォームが日本で引用するドメインの最新ランキングを<a href="https://prtimes.jp/main/html/rd/p/000000058.000157671.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/7/3 [FRI]Anthropic、科学研究向けAIワークベンチ「Claude Science」発表　解析・論文作成・HPC実行を単一環境に</title>
       <link>https://ledge.ai/articles/anthropic_claude_science_ai_workbench</link>
       <description><![CDATA[<p>Anthropicは2026年6月30日（現地時間）、科学者が計算研究を行うための単一の環境を提供するAIワークベンチ「Claude Science」を<a href="https://www.anthropic.com/news/claude-science-ai-workbench">発表</a>した。研究者が使うツールやパッケージを統合し、解析結果や図表、原稿などを再現可能な成果物として管理できるアプリで、Claude Pro、Max、Team、Enterpriseユーザー向けにベータ提供される。</p>
@@ -42,32 +49,6 @@
 <h2>科学研究向けClaude展開の一環</h2>
 <p>Anthropicは、Claudeをライフサイエンスや科学研究に活用する取り組みを進めてきた。公式の<a href="https://claude.com/solutions/life-sciences">ライフサイエンス向けページ</a>では、文献、ラボノート、解析プラットフォームを連携させ、仮説立案から最終提出までを支援する用途を示している。</p>
 <p>今回のClaude Scienceは、Claudeを単なるチャットAIやコーディング支援ツールにとどめず、研究者が日常的に使う解析環境、データベース、計算資源と結びつける取り組みといえる。Anthropicはベータ提供を通じてユーザーからのフィードバックを集め、プラットフォームを改善していくとしている。</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIモデルランキングサイト「Arena」、売上ペースを年換算で1億ドル規模に　企業向け評価サービスが急成長</title>
-      <link>https://ledge.ai/articles/arena_ai_evaluation_100m_revenue</link>
-      <description><![CDATA[<p>AIモデル評価プラットフォームのArenaは2026年6月29日、企業向けサービスの開始から8カ月以内に、現在の売上ペースを1年分に換算した売上規模が1億ドルを突破したと<a href="https://arena.ai/blog/arena-100m-revenue/">発表</a>した。</p>
-<p>Arenaは、ユーザーがAIモデルの回答を比較・投票する仕組みで知られる。公式発表によると、現在の月間訪問者数は1000万人超、累計会話数は7億件超、累計投票数は8200万件超に達している。</p>
-<p>なお、<a href="https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/">TechCrunch</a>によると、Arenaはこの指標をARRと呼んでいるが、課金は利用量ベースであり、伝統的な意味での年間経常収益とは異なるという。</p>
-<h2>UC Berkeley発の研究プロジェクトから商用評価サービスへ</h2>
-<p>Arenaはもともと、AI言語モデルを比較するためのUC Berkeley発の研究プロジェクトとして始まった。2026年1月には、LMArenaからArenaへの名称変更を<a href="https://arena.ai/blog/lmarena-is-now-arena/">発表</a>し、実利用におけるAI性能を測定するグローバルな評価プラットフォームとして位置付けを広げている。</p>
-<p>同社は2025年9月、企業やモデル開発企業、開発者向けの商用製品「AI Evaluations」を<a href="https://arena.ai/blog/ai-evaluations/">発表</a>した。AI Evaluationsは、実際のユーザーによるフィードバックに基づき、モデルの性能を分析する評価サービスだ。</p>
-<p>発表時点でLMArenaは、2億5000万件超の実会話、月間200万票超、月間ユーザー300万人超を記録していた。公開リーダーボードは引き続き無料で提供しながら、その評価基盤を企業向けサービスとして展開する構図となる。</p>
-<h2>売上の柱は企業向けの評価サービス</h2>
-<p>Arenaの公開リーダーボードは、一般ユーザーが無料でAIモデルの回答を比較・投票できる仕組みだ。一方、同社の売上は、ランキングを見る一般ユーザーからではなく、AIモデルやAIアプリの性能を検証したい企業、モデル開発企業、開発者向けの評価サービスから生まれている。</p>
-<p>企業側は、自社モデルが競合モデルと比べてどの領域で優れているのか、どのようなタスクで弱点が出るのか、ユーザーがどの回答を好むのかを把握するために、Arenaの評価基盤を利用する。公開リーダーボードで集まる人間の比較・投票データは、実利用に近いAI性能を測るための材料になる。</p>
-<p>同社の「AI Evaluations」は、コミュニティから得られるフィードバックに基づく詳細な評価、代表的なフィードバックデータのサンプルによる検証可能性、評価結果の納期を定めるSLAなどを提供する。無料で使えるランキングを入口に、大量の実利用データを集め、その評価手法を企業向けに提供することが、Arenaのビジネスモデルとなっている。</p>
-<h2>チャット比較からエージェント評価にも拡大</h2>
-<p>Arenaは、テキスト、コーディング、ビジョン、画像生成など複数の領域でモデルを比較している。近年は、チャットボットの回答比較にとどまらず、長時間のタスクを実行するAIエージェントの評価にも広げている。</p>
-<p>同社は公式発表で、Agent Arenaが長時間のエージェントタスクにおけるタスク完了率やハルシネーション率の評価を可能にすると説明している。また、Agent Modeは公開から約1カ月で月間500万ターン超に達し、週10％のペースで成長しているという。</p>
-<p>Arenaは、Agent Modeの紹介動画も公開している。動画では、Arena上でエージェントに調査や資料作成などの複雑な作業を依頼する流れが示されている。</p>
-<p>@<a href="https://www.youtube.com/watch?v=Kq3-fV7w3Nk&amp;t=18s">YouTube</a></p>
-<p>従来の静的ベンチマークでは、ユーザーが実際にどのような作業でAIを使い、どの回答をよいと判断したかを捉えにくい。Arenaは、人間の比較・投票データを使って、実利用に近い形でモデル性能を測ることを強みにしている。</p>
-<h2>1月には1.5億ドル調達、評価基盤への需要拡大</h2>
-<p>Arenaは2026年1月、FelicisとUC Investmentsが主導するシリーズAで1億5000万ドルを調達したと<a href="https://arena.ai/blog/series-a/">発表</a>している。Andreessen Horowitz、Kleiner Perkins、Lightspeed Venture Partnersなども参加した。</p>
-<p>AIモデルの性能競争が激しくなるなか、開発企業にとっては、公開ベンチマークだけでなく、実際の利用場面に近い評価データの重要性が高まっている。Arenaの急成長は、AIモデルを「実際に使って比べる」評価が、研究コミュニティだけでなく商用サービスとしても大きな需要を持ち始めていることを示している。</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
