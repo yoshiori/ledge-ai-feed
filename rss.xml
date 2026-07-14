@@ -42,6 +42,25 @@
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、アルゴリズム発見AI「AlphaEvolve」をGoogle Cloudで一般提供　物流・半導体・創薬などに展開</title>
+      <link>https://ledge.ai/articles/google_alphaevolve_general_availability</link>
+      <description><![CDATA[<p>Googleは2026年7月10日（現地時間）、アルゴリズムの発見と最適化を支援するAIエージェント「AlphaEvolve」を、Google Cloudの「Gemini Enterprise Agent Platform」で一般提供したと<a href="https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone?hl=en">発表</a>した。2025年5月にGoogle DeepMindが研究成果として公開し、同年12月から限定公開プレビューを実施していた。今回、Google Cloud顧客が正式に導入できる一般提供段階へ移行した。</p>
+<h2>動くコードをもとに、より優れたアルゴリズムを探索</h2>
+<p>AlphaEvolveは、Geminiを基盤とするコード最適化・発見エージェントだ。利用者が用意した動作可能な「種」となるプログラムを出発点に、Geminiが改良候補を生成する。候補コードを評価器で実行・採点し、性能の高い案を残しながら、世代を重ねるように探索を続ける。</p>
+<p><strong>LLMによる候補生成、評価、プログラムの蓄積を繰り返し、最適なアルゴリズムを探索するAlphaEvolveの仕組み</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alpha_Evolve_on_google_cloud_32890d7d73/alpha_Evolve_on_google_cloud_32890d7d73.jpg" alt="alphaEvolve on google cloud.jpg" /></p>
+<p>導入は、問題と初期アルゴリズムを定義する「Define」、正確性や処理速度などの評価指標を設定する「Measure」、指標に沿ってコードを探索・改善する「Optimize」、得られたアルゴリズムを実環境へ適用する「Apply」の4段階で進める。</p>
+<p>一般的なコーディング支援AIとは用途が異なる。自然言語の指示から一からアプリを作ったり、コードの書式を整えたりするものではなく、正しく動作する既存コードに対し、巨大な選択肢の中からより効率的な設計を探すことに特化している。組み合わせ最適化や数学的探索など、候補数が膨大で人手では調べ切れない問題を主な対象とする。</p>
+<h2>倉庫の移動距離削減や創薬計算の高速化に活用</h2>
+<p>早期利用では、物流、半導体、ゲノム解析、高性能計算、金融などで検証された。物流企業FM Logisticは、すでに最適化されていた倉庫内ルートをさらに10.4％改善し、従業員の移動距離を年間1万5000km以上削減したという。JetBrainsは統合開発環境（IDE）の性能を15〜20％以上改善した。</p>
+<p>創薬・材料開発向けソフトウェアを手がけるSchrödingerは、機械学習力場の学習と推論に関わるアルゴリズムへAlphaEvolveを適用し、処理速度を約4倍に高めた。Google社内でも、次世代TPUの回路設計やデータベース「Google Spanner」の最適化などに利用されている。</p>
+<h2>無料の一般向けサービスではなく、企業・研究者向け</h2>
+<p>今回の「一般提供」は、Geminiアプリなどで誰でも無料利用できるようになったという意味ではない。利用には課金を有効にしたGoogle Cloudプロジェクトと、Gemini Enterpriseのライセンスが必要になる。試用ライセンスを含む各プランでアクセスできるが、APIやIAM（アクセス権限）の設定、候補コードを実行して採点する評価環境も利用者側で準備する。</p>
+<p>研究プロジェクトとして始まったAlphaEvolveは、企業や研究機関が実際の最適化問題へ導入できるクラウドサービスへ移った。コードを書くAIだけでなく、評価可能な問題について新しいアルゴリズムを探索するAIへと、企業向けAIエージェントの用途を広げる発表となった。</p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、Instagram公開アカウントを参照する「Muse Image」機能を停止　公開3日で方針転換</title>
       <link>https://ledge.ai/articles/meta_muse_image_instagram_feature_disabled</link>
       <description><![CDATA[<p>米Metaは2026年7月10日（現地時間）、画像生成モデル「Muse Image」で、Meta AIアプリからInstagramの公開アカウントを＠メンションし、その公開写真を参照したAI画像を生成できる機能を終了した。7日にMuse Imageとともに発表したばかりで、公開から3日で方針を転換した。</p>
