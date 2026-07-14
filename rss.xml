@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>バイトダンスとアリババ、人格や話し方を設定できるAIエージェント機能を相次ぎ終了へ　中国の擬人化AI新規制が7月15日施行</title>
+      <link>https://ledge.ai/articles/bytedance_alibaba_custom_ai_agents_shutdown</link>
+      <description><![CDATA[<p>中国のテクノロジー大手、字節跳動（バイトダンス）と阿里巴巴（アリババ）が、ユーザー独自の人格や話し方を設定できるAIエージェント機能を相次いで終了する。<a href="https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom">South China Morning Post</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 12 Jul 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>国内ロボット大手3社がフィジカルAIで連携　川崎重工・ファナック・安川電機、触覚データ含む基盤データセット構築へ</title>
       <link>https://ledge.ai/articles/kawasaki_fanuc_yaskawa_physical_ai_dataset</link>
       <description><![CDATA[<p>川崎重工業、大阪大学、ファナック、FingerVision、安川電機は2026年7月2日、製造現場で収集した視覚・触覚・言語・動作データを統合的に扱う「VTLA（Vision-Tactile-Language-Action）モデル」向けデータセットの構築プロジェクトが、経済産業省・NEDOのAI研究プロジェクト「GENIAC」の公募事業に採択されたと<a href="https://www.khi.co.jp/pressrelease/news_260702-1.pdf">発表</a>{target=\</p>
@@ -38,13 +45,6 @@
       <link>https://ledge.ai/articles/asics_rebuilderai_ai_shoe_design</link>
       <description><![CDATA[<p>:::small
 画像の出典：<a href="https://corp.asics.com/jp/ventures/article/%E3%82%A2%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E3%80%812026%E3%83%91%E3%83%AA%E3%80%8Cvivatech%E3%80%8D%E3%81%A7rebuilderai%E3%81%A8%E3%81%A8%E3%82%82%E3%81%ABai%E3%81%AE%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA%E3%83%BB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92-">アシックス・ベンチャーズ</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>バイトダンスとアリババ、人格や話し方を設定できるAIエージェント機能を相次ぎ終了へ　中国の擬人化AI新規制が7月15日施行</title>
-      <link>https://ledge.ai/articles/bytedance_alibaba_custom_ai_agents_shutdown</link>
-      <description><![CDATA[<p>中国のテクノロジー大手、字節跳動（バイトダンス）と阿里巴巴（アリババ）が、ユーザー独自の人格や話し方を設定できるAIエージェント機能を相次いで終了する。<a href="https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom">South China Morning Post</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
@@ -116,25 +116,6 @@
 <p>加えて、MEGセンサー自体の小型化やウェアラブル化も進んでおり、将来的には臨床現場でより実用的に使える可能性があるとしている。Brain2Qwerty v2は、「頭の中の考えを自由に読み取るAI」ではない。健康な参加者が文章を記憶し、タイピングしている際のMEG記録から、対応する文章を復元する研究である。臨床利用や製品化に直結する段階ではないものの、外科手術を伴わないBCIの実現に向けた一歩と位置づけられる。</p>
 ]]></description>
       <pubDate>Sat, 04 Jul 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>マスク氏、次期AIモデル「Grok 4.5」の開発状況を投稿　買収直後のCursorデータを補助学習に追加、SpaceX・Teslaで限定試験に</title>
-      <link>https://ledge.ai/articles/grok_4_5_spacex_tesla_private_beta</link>
-      <description><![CDATA[<p>イーロン・マスク氏は日本時間2026年6月28日、xAIの次期AIモデル「Grok 4.5」の開発状況を自身のXに<a href="https://x.com/elonmusk/status/2071184354756477041">投稿した</a>。投稿によると、Grok 4.5は「1.5T V9 foundation model」をベースにし、Cursorのデータを補助的な学習に加えたモデルで、SpaceXとTeslaで限定的な試験利用に入った。マスク氏はこの段階を「private beta」と表現している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/grok4_5_04e16f8694/grok4_5_04e16f8694.jpg" alt="grok4-5.jpg" /></p>
-<p>Grok 4.5は、xAIが公開モデルとして提供しているGrok 4.3の次の世代にあたるとみられる。xAIは6月17日、Grok 4.3をAmazon Bedrockで一般提供したと<a href="https://x.ai/news/grok-amazon-bedrock">発表</a>している。Grok 4.3は、1Mトークンのコンテキストウィンドウや設定可能な推論努力、ツール呼び出し機能を備えるモデルとして説明されている。</p>
-<h2>SpaceX・Teslaで先行検証</h2>
-<p>今回の投稿で示されたのは、Grok 4.5の一般提供ではなく、SpaceXとTeslaでの先行的な試験利用である。公開APIや一般ユーザー向けサービスでの提供時期には触れられていない。</p>
-<p>SpaceXは宇宙開発、Teslaは自動車やエネルギー、ロボティクスなどを手がける企業で、いずれもマスク氏が率いる企業である。Grok 4.5が両社でどの業務に使われるかは示されていないが、xAIの次期モデルはまず関連企業内で検証される段階に入った。</p>
-<h2>Cursorデータを補助学習に追加</h2>
-<p>投稿では、Grok 4.5に「Cursor data」を補助的な学習として加えたことも示された。Cursorは、コード生成や編集、開発者の作業支援に使われるAIコーディングツールである。</p>
-<p>ただし、投稿だけでは、Cursorデータの具体的な範囲や利用方法は確認できない。<a href="https://cursor.com/data-use">Cursor</a>の公式データ利用説明では、Privacy Modeを有効にした場合、Customer DataはCursorによる学習に使われず、モデルプロバイダーも保存・学習に使わないと説明している。一方、Privacy Modeを無効にした場合は、コードベースデータ、プロンプト、エディター操作、コード断片などをAI機能の改善やモデル学習に使う可能性があるとしている。</p>
-<h2>初期評価ではClaude Opusにも言及</h2>
-<p>マスク氏は投稿で、Grok 4.5の初期評価について、Anthropicの「Claude Opus」に近い、または上回る可能性があるとも述べた。Grok 4.5の性能については、現時点で公式の評価表や第三者による検証結果は確認できない。Claude Opusに近い、または上回る可能性があるという比較は、マスク氏の投稿に基づく初期的な見方にとどまる。</p>
-<p>同じ投稿では、強化学習による改善が続いていることや、Grok Buildのハーネスが日々改善されていることにも触れている。</p>
-<p>Grok 4.5については、現時点ではSpaceXとTeslaでの限定的な試験利用が示された段階で、一般提供やAPI公開の時期は示されていない。</p>
-]]></description>
-      <pubDate>Fri, 03 Jul 2026 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
