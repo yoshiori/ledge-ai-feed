@@ -75,6 +75,31 @@
       <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、ブラウザ内でAIを高速実行する「LiteRT.js」を発表　WebGPU対応、既存ランタイム比で最大約3倍</title>
+      <link>https://ledge.ai/articles/google_litert_js_web_ai_inference</link>
+      <description><![CDATA[<p>Googleは2026年7月9日、AIモデルをウェブブラウザ内で高速に実行するJavaScript向けランタイム「LiteRT.js」を<a href="https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/">発表</a>した。推論処理を端末内で完結できるため、サーバーへのデータ送信を抑え、プライバシーの向上や通信遅延、サーバー運用コストの削減につなげられるとしている。</p>
+<h2>LiteRTをウェブブラウザへ拡張</h2>
+<p>LiteRT.jsは、GoogleのオンデバイスAI向けランタイム「LiteRT」を、ウェブブラウザ上で利用できるようにするJavaScript向けの実行基盤だ。LiteRTは旧TensorFlow Liteを引き継ぐ仕組みで、スマートフォンやデスクトップ、組み込み機器などでAIモデルを動かすために使われてきた。</p>
+<p>LiteRT.jsでは、LiteRTと共通の「.tflite」形式のモデルをブラウザ内で実行できる。CPU処理にはWebAssemblyを介してXNNPACKを利用し、GPU処理にはWebGPUとGoogleの「ML Drift」を用いる。NPU向けにはWebNNへの対応も進めるが、WebNNは現時点で実験段階にあり、一般的なブラウザ機能としては提供されていない。</p>
+<p><strong>■ LiteRT.jsのアーキテクチャ：</strong> CPUではXNNPACK、GPUではWebGPU経由のML Driftを利用し、NPU向けのWebNNは実験段階となる
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/diagram1_uua0_K_Lc_original_7fbd3890c2/diagram1_uua0_K_Lc_original_7fbd3890c2.jpg" alt="diagram1_uua0KLc.original.jpg" /></p>
+<h2>PyTorchやTensorFlow.jsの既存資産を活用</h2>
+<p>開発者はJavaScriptまたはTypeScriptで作成したウェブアプリにLiteRT.jsを組み込み、テキスト生成、物体検出、音声処理などをクライアント側で実行できる。PyTorch、JAX、TensorFlowで構築したモデルをLiteRT形式へ変換でき、量子化によるモデルサイズの縮小や高速化にも対応する。</p>
+<p>既存のTensorFlow.jsパイプラインとの連携も想定する。前処理や後処理にはTensorFlow.jsを使いながら、モデル推論部分をLiteRT.jsへ移行できるため、既存のウェブAIアプリを全面的に作り直さずに推論部分の高速化を図れる。</p>
+<h2>Googleの測定で既存ランタイム比最大約3倍</h2>
+<p>Googleは画像認識や音声処理のモデルを使い、LiteRT.jsとONNX Runtimeの実行性能を比較した。2024年モデルのM4搭載MacBook Proを使った管理環境での測定では、CPUとWebGPUの双方で最大約3倍の性能を示したという。</p>
+<p><strong>■ LiteRT.jsとONNX RuntimeのCPU・WebGPU性能比較：</strong> 2024年モデルのM4搭載MacBook Proを使った管理環境で測定したもので、利用環境によって結果は異なる
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Data_image_1600x900_original_f0bd8d65c6/Data_image_1600x900_original_f0bd8d65c6.png" alt="Data_image_1600x900.original.png" /></p>
+<p>また、CPU実行を基準にすると、WebGPUまたはWebNNを使った処理はモデルによって5～60倍高速だったとしている。ただし、結果はGPU性能、発熱による速度制限、ブラウザやドライバーの最適化状況などによって異なる。これらの数値はGoogleによる自社測定である。</p>
+<h2>ベクトル検索や画像高解像度化のデモを公開</h2>
+<p>Googleは、軽量埋め込みモデル「EmbeddingGemma」を使ったブラウザ内ベクトル検索、YOLOによる物体検出、ウェブカメラ映像から奥行きを推定する3D表示、画像を4倍に高解像度化するデモを公開した。LiteRT.jsのnpmパッケージとソースコードも公開しており、開発者は実際のウェブアプリへ組み込める。</p>
+<p>今後はWebNNとの統合を進め、NPUを使った推論性能の向上や、端末上で動く生成AIへの最適化を拡充する方針だ。ブラウザでLLMを動かす「LiteRT-LM.js」も案内しており、GoogleはLiteRTの対応範囲をモバイルやデスクトップからウェブへ広げる。</p>
+<p>:::box
+<a href="https://ledge.ai/articles/google_embeddinggemma_ondevice_release">関連記事：Google、オンデバイス向け埋め込みモデル「EmbeddingGemma」を公開──約3億パラメータで200MB動作を実現</a></p>
+]]></description>
+      <pubDate>Sun, 05 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta、Instagram公開アカウントを参照する「Muse Image」機能を停止　公開3日で方針転換</title>
       <link>https://ledge.ai/articles/meta_muse_image_instagram_feature_disabled</link>
       <description><![CDATA[<p>米Metaは2026年7月10日（現地時間）、画像生成モデル「Muse Image」で、Meta AIアプリからInstagramの公開アカウントを＠メンションし、その公開写真を参照したAI画像を生成できる機能を終了した。7日にMuse Imageとともに発表したばかりで、公開から3日で方針を転換した。</p>
