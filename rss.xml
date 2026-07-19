@@ -169,6 +169,32 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
       <pubDate>Sat, 11 Jul 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>元OpenAI CTOのミラ・ムラティ氏率いるThinking Machines Lab、用途に合わせて追加学習できるAIモデル「Inkling」発表　全ウェイトを公開</title>
+      <link>https://ledge.ai/articles/thinking_machines_inkling</link>
+      <description><![CDATA[<p>元OpenAI CTOで、Thinking Machines Lab共同創業者兼CEOのミラ・ムラティ氏が率いる同社は2026年7月15日、オープンウェイトAIモデル「Inkling」を<a href="https://thinkingmachines.ai/news/introducing-inkling/">発表</a>した。</p>
+<p>汎用モデルとしての性能だけでなく、企業や研究者が独自の知識や目的に合わせて追加学習できることを重視した。モデルを自前の環境で動かしたり、追加学習したりするための全ウェイト（学習済みパラメータ）は、Hugging Faceで公開している。</p>
+<h2>テキスト、画像、音声を扱う9750億パラメータのAIモデル</h2>
+<p>Inklingは、処理内容に応じて一部の機能だけを使う「Mixture-of-Experts（MoE）」方式を採用したAIモデルである。パラメータ数は全体で9750億だが、1回の処理で使うのは410億となる。</p>
+<p>テキスト、画像、音声を入力でき、回答はテキストで出力する。音声の文字起こしや録音内容に関する質問への回答、画像やグラフの読み取り、コーディング、ツール操作などに対応する。最大100万トークンのコンテキストを扱える。</p>
+<p>事前学習には、テキスト、画像、音声、動画からなる45兆トークンを使用した。公式の<a href="https://thinkingmachines.ai/model-card/inkling/">モデルカード</a>{target=”_blank”}によると、公開データや第三者から取得したデータ、合成・加工したデータなどが含まれる。</p>
+<p>InklingはApache License 2.0で提供され、<a href="https://huggingface.co/thinkingmachines/Inkling">Hugging Face</a>{target=”_blank”}では通常版に加え、データ量を圧縮したNVFP4版も公開している。ただし、自前で動かすには通常版で合計2TB以上、NVFP4版でも600GB以上のGPUメモリが必要とされており、運用には大規模な計算環境が必要となる。</p>
+<h2>「最も強いモデル」ではなく、追加学習の土台を目指す</h2>
+<p>Thinking Machines Labは、Inklingについて「現在利用できるオープンモデルや非公開モデルの中で、総合的に最も強いモデルではない」と明記している。その代わり、幅広い用途に対応するマルチモーダル機能や、効率よく考える能力、追加学習のしやすさを組み合わせたモデルと位置付けた。</p>
+<p><strong>推論、コーディング、事実性、画像、音声など10項目におけるAIモデルの比較。青線がInkling</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Generalist_model_37f6521f43/Generalist_model_37f6521f43.jpg" alt="Generalist model.jpg" /></p>
+<p>同社は、優れた汎用モデルであっても、企業や組織が実際に抱える課題をそのまま解決できるとは限らず、固有の知識を使った追加学習によって差を埋められるとしている。</p>
+<p>Inklingは、同社の追加学習基盤「<a href="https://thinkingmachines.ai/tinker/">Tinker</a>{target=”_blank”}」で利用できる。Tinkerは、利用者が学習データや学習方法を指定し、GPUの管理や分散処理をThinking Machines Lab側に任せられるサービスである。元のモデル全体を書き換えず、小さな追加部分を学習させる「LoRA」に対応している。</p>
+<p>公式発表では、Inkling自身にTinkerを操作させ、追加学習用のプログラム作成から学習、評価、更新まで実行させるデモも公開した。Tinker上では、6万4000または25万6000トークンのコンテキストを選択できる。</p>
+<p><strong>「回答で英字の『e』を使わないモデルになるよう自分自身を追加学習し、更新版に切り替える」と指示されたInkling</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/inkling_demo_44425dd01a/inkling_demo_44425dd01a.jpg" alt="inkling demo.jpg" /></p>
+<h2>思考量を調整し、速度と性能のバランスを変更</h2>
+<p>Inklingは、回答を出すまでに使う「思考量」を調整できる。簡単な処理では短く考えて応答を速め、複雑な推論では時間とトークンを多く使うといった設定が可能となる。</p>
+<p>同社の評価では、AIエージェントのコーディング能力を測る「Terminal Bench 2.1」で、NVIDIAのNemotron 3 Ultraと同程度の成績を約3分の1の出力トークン数で達成したという。ただし、これらはThinking Machines Labが自社環境で実施した評価を含む。</p>
+<p>同社はあわせて、全体で2760億、処理時に120億パラメータを使う軽量モデル「Inkling-Small」もプレビューした。現時点ではテストを進めている段階で、全ウェイトは準備が整い次第公開する予定としている。</p>
+]]></description>
+      <pubDate>Sat, 11 Jul 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>国内ロボット大手3社がフィジカルAIで連携　川崎重工・ファナック・安川電機、触覚データ含む基盤データセット構築へ</title>
       <link>https://ledge.ai/articles/kawasaki_fanuc_yaskawa_physical_ai_dataset</link>
       <description><![CDATA[<p>川崎重工業、大阪大学、ファナック、FingerVision、安川電機は2026年7月2日、製造現場で収集した視覚・触覚・言語・動作データを統合的に扱う「VTLA（Vision-Tactile-Language-Action）モデル」向けデータセットの構築プロジェクトが、経済産業省・NEDOのAI研究プロジェクト「GENIAC」の公募事業に採択されたと<a href="https://www.khi.co.jp/pressrelease/news_260702-1.pdf">発表</a>{target=\</p>
