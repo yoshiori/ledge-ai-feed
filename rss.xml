@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>音楽生成AI「Suno」、YouTube Musicから200万件超の音源を収集か　流出ソースコードで判明</title>
+      <link>https://ledge.ai/articles/suno_youtube_music_scraping_source_code_leak</link>
+      <description><![CDATA[<p>音楽生成AI「Suno」の流出したとされるソースコードを分析した結果、同社がYouTube MusicやDeezer、Genius、ストック音楽ライブラリなどから大量の音楽や歌詞を収集し、AIモデルの学習データを構築していたと米テックメディアの<a href="https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/">404 Media</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 20 Jul 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、人間とボット・AIエージェントの操作をセッション単位で判別する「Precursor」発表　CAPTCHA通過後も継続検証</title>
       <link>https://ledge.ai/articles/cloudflare_precursor_session_bot_detection</link>
       <description><![CDATA[<p>米Cloudflareは2026年7月13日、サイト訪問者の操作をセッション全体にわたって分析し、人間によるアクセスとボットやAIエージェントによる自動操作を判別する検証システム「Precursor」の一般提供を開始したと<a href="https://blog.cloudflare.com/introducing-precursor/">発表</a>{target=\</p>
@@ -116,13 +123,6 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
 <h2>約1,000人体制で導入企業を支援</h2>
 <p>ソフトバンクは、サイバーセキュリティー対策に特化した「AIサイバー防衛室」を7月16日に設置する予定である。今後はSB OAI Japanと合わせて約1,000人体制を構築し、Patching as a Serviceの提供と導入企業へのコンサルティングを進める。</p>
 <p>今後は、サイバー攻撃への対策を強化するオプションサービスも順次追加する。さらに、ソースコード全体の刷新や整理、使用言語の変更、保守が難しくなったオンプレミス環境からクラウドへの移行などを支援するモダナイゼーションサービスも提供する予定だ。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>音楽生成AI「Suno」、YouTube Musicから200万件超の音源を収集か　流出ソースコードで判明</title>
-      <link>https://ledge.ai/articles/suno_youtube_music_scraping_source_code_leak</link>
-      <description><![CDATA[<p>音楽生成AI「Suno」の流出したとされるソースコードを分析した結果、同社がYouTube MusicやDeezer、Genius、ストック音楽ライブラリなどから大量の音楽や歌詞を収集し、AIモデルの学習データを構築していたと米テックメディアの<a href="https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/">404 Media</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
