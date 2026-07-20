@@ -83,6 +83,22 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、AIの弱点を自動探索する内部専用モデル「GPT-Red」発表　GPT-5.1への評価で84％のシナリオに攻撃成功</title>
+      <link>https://ledge.ai/articles/openai_gpt_red</link>
+      <description><![CDATA[<p>OpenAIは2026年7月15日、AIモデルやAIエージェントの安全上の弱点を自動で探すレッドチーミングモデル「GPT-Red」を<a href="https://openai.com/index/unlocking-self-improvement-gpt-red/">発表</a>した。プロンプトインジェクションなどの攻撃を生成し、対象モデルの反応を見ながら手法を改善する。発見した攻撃はGPT-5.6の訓練にも活用した。</p>
+<p>GPT-Redは外部提供する製品ではなく、OpenAIが内部で使用する攻撃専用モデルである。悪用され得る能力を外部に渡さないため、一般提供するモデルとは分離して管理している。</p>
+<h2>攻撃側と防御側を自己対戦で強化</h2>
+<p>GPT-Redは、攻撃側と防御側を競わせる自己対戦方式の強化学習で訓練された。</p>
+<p>攻撃側はプロンプトインジェクションなどによって対象モデルに誤った行動を取らせると報酬を得る。一方、防御側の複数のLLMは、攻撃を拒みながら本来の作業を完了すると報酬を得る。防御側が強くなるほど、GPT-Redもより強力で多様な攻撃を探す必要がある。</p>
+<p>訓練では、ローカルファイルの一部やウェブページ上のバナー、メール本文、外部ツールの出力などをGPT-Redが操作できる環境を用意した。訓練終了時には、GPT-5.5までの本番モデルや内部モデルを含め、対戦したほぼすべてのモデルを突破できたという。</p>
+<p><strong>ファイル内に埋め込まれた不正な指示に従うGPT-5.1（左）と、指示を無視するGPT-5.6（右）の比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Sample_prompt_injected_conversations_9bfcbd8d0a/Sample_prompt_injected_conversations_9bfcbd8d0a.jpg" alt="Sample prompt-injected conversations.jpg" /></p>
+<h2>GPT-5.1への評価で人間のレッドチームを上回る</h2>
+<p>OpenAIは、Dziemian氏らによる<a href="https://arxiv.org/abs/2603.15714">間接プロンプトインジェクション競技</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sakana AIなどの研究、小型ニューラルネットワーク搭載の隣接通信だけで全体形状と損傷方向を判断する「Smart Cellular Bricks」　立方体ブロックの「集団知能」を実証</title>
       <link>https://ledge.ai/articles/sakana_ai_smart_cellular_bricks</link>
       <description><![CDATA[<p>Sakana AIは2026年7月13日、コペンハーゲンIT大学、Autodeskの研究者と共同で進めた「Smart Cellular Bricks」の研究成果が、学術誌<a href="https://www.nature.com/articles/s41467-026-75166-7">Nature Communications</a>{target=\</p>
