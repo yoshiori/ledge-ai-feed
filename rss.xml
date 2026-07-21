@@ -12,6 +12,13 @@
       <pubDate>Mon, 20 Jul 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Unitree、全長1.82mのヒト型ロボット「H2」で格闘大会へ　フルサイズ機が公開対戦する「CMG 2026」を告知</title>
+      <link>https://ledge.ai/articles/unitree_h2_humanoid_robot_combat_competition</link>
+      <description><![CDATA[<p>中国のロボットメーカーUnitree Roboticsは2026年7月9日（現地時間）、ヒト型ロボットによる格闘大会「CMG 2026 Humanoid Robot Combat Competition」の予告映像を<a href="https://x.com/UnitreeRobotics/status/2075157558889984076">公式X</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 20 Jul 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Canva、バイブコーディング「Canvaコード 2.0」提供開始　Webサイトやアプリを生成し、デザインのように直接編集</title>
       <link>https://ledge.ai/articles/canva_code_2_0_launch</link>
       <description><![CDATA[<p>Canvaは7月15日、自然言語の指示からWebサイトやアプリ、インタラクティブなランディングページなどを作成できる「<a href="https://prtimes.jp/main/html/rd/p/000000062.000066101.html">Canvaコード 2.0</a>{target=\</p>
@@ -126,13 +133,6 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Unitree、全長1.82mのヒト型ロボット「H2」で格闘大会へ　フルサイズ機が公開対戦する「CMG 2026」を告知</title>
-      <link>https://ledge.ai/articles/unitree_h2_humanoid_robot_combat_competition</link>
-      <description><![CDATA[<p>中国のロボットメーカーUnitree Roboticsは2026年7月9日（現地時間）、ヒト型ロボットによる格闘大会「CMG 2026 Humanoid Robot Combat Competition」の予告映像を<a href="https://x.com/UnitreeRobotics/status/2075157558889984076">公式X</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google、ブラウザ内でAIを高速実行する「LiteRT.js」を発表　WebGPU対応、既存ランタイム比で最大約3倍</title>
       <link>https://ledge.ai/articles/google_litert_js_web_ai_inference</link>
       <description><![CDATA[<p>Googleは2026年7月9日、AIモデルをウェブブラウザ内で高速に実行するJavaScript向けランタイム「LiteRT.js」を<a href="https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/">発表</a>した。推論処理を端末内で完結できるため、サーバーへのデータ送信を抑え、プライバシーの向上や通信遅延、サーバー運用コストの削減につなげられるとしている。</p>
@@ -163,32 +163,6 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
       <description><![CDATA[<p>AI開発企業のAIdeaLabは2026年7月13日、経済産業省とNEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）が進める国内生成AI開発力強化プロジェクト「<a href="https://www.meti.go.jp/policy/mono_info_service/geniac/index.html">GENIAC</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 14 Jul 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、アルゴリズム発見AI「AlphaEvolve」をGoogle Cloudで一般提供　物流・半導体・創薬などに展開</title>
-      <link>https://ledge.ai/articles/google_alphaevolve_general_availability</link>
-      <description><![CDATA[<p>Googleは2026年7月10日（現地時間）、アルゴリズムの発見と最適化を支援するAIエージェント「AlphaEvolve」を、Google Cloudの「Gemini Enterprise Agent Platform」で一般提供したと<a href="https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone?hl=en">発表</a>した。2025年5月にGoogle DeepMindが研究成果として公開し、同年12月から限定公開プレビューを実施していた。今回、Google Cloud顧客が正式に導入できる一般提供段階へ移行した。</p>
-<h2>動くコードをもとに、より優れたアルゴリズムを探索</h2>
-<p>AlphaEvolveは、Geminiを基盤とするコード最適化・発見エージェントだ。利用者が用意した動作可能な「種」となるプログラムを出発点に、Geminiが改良候補を生成する。候補コードを評価器で実行・採点し、性能の高い案を残しながら、世代を重ねるように探索を続ける。</p>
-<p><strong>LLMによる候補生成、評価、プログラムの蓄積を繰り返し、最適なアルゴリズムを探索するAlphaEvolveの仕組み</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/alpha_Evolve_on_google_cloud_32890d7d73/alpha_Evolve_on_google_cloud_32890d7d73.jpg" alt="alphaEvolve on google cloud.jpg" /></p>
-<p>導入は、問題と初期アルゴリズムを定義する「Define」、正確性や処理速度などの評価指標を設定する「Measure」、指標に沿ってコードを探索・改善する「Optimize」、得られたアルゴリズムを実環境へ適用する「Apply」の4段階で進める。</p>
-<p>一般的なコーディング支援AIとは用途が異なる。自然言語の指示から一からアプリを作ったり、コードの書式を整えたりするものではなく、正しく動作する既存コードに対し、巨大な選択肢の中からより効率的な設計を探すことに特化している。組み合わせ最適化や数学的探索など、候補数が膨大で人手では調べ切れない問題を主な対象とする。</p>
-<h2>倉庫の移動距離削減や創薬計算の高速化に活用</h2>
-<p>早期利用では、物流、半導体、ゲノム解析、高性能計算、金融などで検証された。物流企業FM Logisticは、すでに最適化されていた倉庫内ルートをさらに10.4％改善し、従業員の移動距離を年間1万5000km以上削減したという。JetBrainsは統合開発環境（IDE）の性能を15〜20％以上改善した。</p>
-<p>創薬・材料開発向けソフトウェアを手がけるSchrödingerは、機械学習力場の学習と推論に関わるアルゴリズムへAlphaEvolveを適用し、処理速度を約4倍に高めた。Google社内でも、次世代TPUの回路設計やデータベース「Google Spanner」の最適化などに利用されている。</p>
-<h2>無料の一般向けサービスではなく、企業・研究者向け</h2>
-<p>今回の「一般提供」は、Geminiアプリなどで誰でも無料利用できるようになったという意味ではない。利用には課金を有効にしたGoogle Cloudプロジェクトと、Gemini Enterpriseのライセンスが必要になる。試用ライセンスを含む各プランでアクセスできるが、APIやIAM（アクセス権限）の設定、候補コードを実行して採点する評価環境も利用者側で準備する。</p>
-<p>研究プロジェクトとして始まったAlphaEvolveは、企業や研究機関が実際の最適化問題へ導入できるクラウドサービスへ移った。コードを書くAIだけでなく、評価可能な問題について新しいアルゴリズムを探索するAIへと、企業向けAIエージェントの用途を広げる発表となった。</p>
-]]></description>
-      <pubDate>Tue, 14 Jul 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>国内ロボット大手3社がフィジカルAIで連携　川崎重工・ファナック・安川電機、触覚データ含む基盤データセット構築へ</title>
-      <link>https://ledge.ai/articles/kawasaki_fanuc_yaskawa_physical_ai_dataset</link>
-      <description><![CDATA[<p>川崎重工業、大阪大学、ファナック、FingerVision、安川電機は2026年7月2日、製造現場で収集した視覚・触覚・言語・動作データを統合的に扱う「VTLA（Vision-Tactile-Language-Action）モデル」向けデータセットの構築プロジェクトが、経済産業省・NEDOのAI研究プロジェクト「GENIAC」の公募事業に採択されたと<a href="https://www.khi.co.jp/pressrelease/news_260702-1.pdf">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 08 Jul 2026 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
