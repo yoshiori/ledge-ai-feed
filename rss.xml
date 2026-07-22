@@ -47,6 +47,31 @@
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、「Gemini 3.6 Flash」など3モデル発表　AIエージェント向けに性能・効率を改善、脆弱性修正特化モデルも</title>
+      <link>https://ledge.ai/articles/google_gemini_3_6_flash_3_5_flash_lite_cyber</link>
+      <description><![CDATA[<p>Googleは2026年7月21日（現地時間）、AIモデル「Gemini 3.6 Flash」「Gemini 3.5 Flash-Lite」「Gemini 3.5 Flash Cyber」の3モデルを<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/">発表</a>した。</p>
+<p>このうち、Gemini 3.6 FlashとGemini 3.5 Flash-Liteは同日から一般提供を開始した。一方、サイバーセキュリティ特化型のGemini 3.5 Flash Cyberは、政府機関と信頼できるパートナーを対象に、コードの脆弱性修正を支援するAIエージェント「CodeMender」を通じて近日中に限定提供する。</p>
+<h2>Gemini 3.6 Flash、性能向上とトークン効率改善を両立</h2>
+<p>Gemini 3.6 Flashは、Gemini 3.5 Flashを基盤に改良した汎用モデルである。Googleは、コーディング、知識を扱う業務、マルチモーダル処理、Computer UseといったAIエージェント向けベンチマークで、従来世代を上回る性能を示したとしている。</p>
+<p>公開されたグラフでは、長期的なソフトウェア開発タスクを測るDeepSWE v1.1で49％、機械学習エンジニアリングを測るMLE-Benchで63.9％、知識業務の評価であるGDPVal-AA v2で1421、Computer Useの評価であるOSWorld-Verifiedで83.0％を記録した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_6_flash_evals_figure_width_1200_format_webp_f72bb89842/gemini_3_6_flash_evals_figure_width_1200_format_webp_f72bb89842.webp" alt="gemini-3-6-flash__evals__figure-.width-1200.format-webp.webp" /></p>
+<p>Googleはあわせて、Gemini 3.6 Flashが性能向上だけでなく、出力トークン数の削減でも改善したと説明している。公開グラフによると、DeepSWE v1.1では平均出力トークン数がGemini 3.5 Flashの27.6万から9.7万へ減少した。Artificial Analysis Intelligence Indexでも2.8万から2.3万へ減っており、回答生成の効率を高めたことがうかがえる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/gemini_3_6_flash_evals_quality_width_1200_format_webp_fe978c6fd9/gemini_3_6_flash_evals_quality_width_1200_format_webp_fe978c6fd9.webp" alt="gemini-3-6-flash__evals__quality.width-1200.format-webp.webp" /></p>
+<p>料金は、Gemini 3.6 Flashが100万入力トークン当たり1.50ドル、100万出力トークン当たり7.50ドル。Gemini 3.5 Flashより出力単価を引き下げた。最大100万トークンのコンテキスト長と最大6万4000トークンの出力に対応し、Gemini API、Google AI Studio、Android Studio、Gemini Enterprise Agent Platform、Geminiアプリなどで利用できる。</p>
+<h2>Gemini 3.5 Flash-Lite、3.5シリーズ最速・最低価格モデル</h2>
+<p>Gemini 3.5 Flash-Liteは、大量処理や低遅延用途に向けた軽量モデルである。Googleは、Gemini 3.5シリーズの中で最速かつ最低価格のモデルと位置付けている。</p>
+<p>翻訳、分類、文書処理、検索、AIエージェントの補助的な推論処理などを想定しており、コストを抑えながら広い用途で使える点が特徴だ。Googleが示したデータでは、Artificial Analysisの測定で毎秒350出力トークンを生成したという。</p>
+<p>料金は100万入力トークン当たり0.30ドル、100万出力トークン当たり2.50ドル。Gemini 3.6 Flashと同様に、最大100万トークンの入力と6万4000トークンの出力に対応する。Google検索への展開も進めるとしている。</p>
+<h2>Gemini 3.5 Flash Cyber、脆弱性の発見・検証・修正に特化</h2>
+<p>Gemini 3.5 Flash Cyberは、Gemini 3.5 Flashを基盤に、ソフトウェアの脆弱性の発見、検証、修正に特化するよう追加学習したモデルである。通常のGemini APIで広く一般提供するのではなく、Google DeepMindのAIエージェント「CodeMender」を通じて限定的に展開する。</p>
+<p>サイバーセキュリティ能力を測るCyberGym Evaluationでは、CodeMender内で最大5回呼び出したGemini 3.5 Flash Cyberが83.2％を記録した。Anthropicのエージェント内で動作するMythos Previewの83.1％とほぼ同水準だった一方、OpenAIのエージェント内で動作するGPT-5.6 Solの83.6％、Mythos 5の83.8％、GPT-5.5-Cyberの85.6％は下回った。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/cyber_gym_evaluation_4f2100c387/cyber_gym_evaluation_4f2100c387.jpg" alt="cyber gym evaluation.jpg" />
+:::small
+画像の出典：<a href="https://deepmind.google/blog/introducing-gemini-3-5-cyber-flash/">Google DeepMind</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「Ledge.ai EXPO 2026 AUTUMN」の事前登録を開始　AIの「いま」を体感するオンライン展示会</title>
       <link>https://ledge.ai/articles/ledgeai-expo-2026-autumn</link>
       <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、「AIのいまを『浴びる』場」をコンセプトにした、オンライン展示会「Ledge.ai EXPO 2026 AUTUMN」を2026年8月25日から9月28日に開催いたします。
@@ -103,13 +128,6 @@ URL： <a href="https://ledge.ai/expo">https://ledge.ai/expo</a>
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Sample_prompt_injected_conversations_9bfcbd8d0a/Sample_prompt_injected_conversations_9bfcbd8d0a.jpg" alt="Sample prompt-injected conversations.jpg" /></p>
 <h2>GPT-5.1への評価で人間のレッドチームを上回る</h2>
 <p>OpenAIは、Dziemian氏らによる<a href="https://arxiv.org/abs/2603.15714">間接プロンプトインジェクション競技</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sakana AIなどの研究、小型ニューラルネットワーク搭載の隣接通信だけで全体形状と損傷方向を判断する「Smart Cellular Bricks」　立方体ブロックの「集団知能」を実証</title>
-      <link>https://ledge.ai/articles/sakana_ai_smart_cellular_bricks</link>
-      <description><![CDATA[<p>Sakana AIは2026年7月13日、コペンハーゲンIT大学、Autodeskの研究者と共同で進めた「Smart Cellular Bricks」の研究成果が、学術誌<a href="https://www.nature.com/articles/s41467-026-75166-7">Nature Communications</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
