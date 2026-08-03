@@ -28,6 +28,34 @@
       <pubDate>Mon, 27 Jul 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Alibaba、2.4兆パラメータの「Qwen3.8-Max」発表　10日超の自律コーディング、Max級初のオープンウェイト化へ</title>
+      <link>https://ledge.ai/articles/alibaba_qwen3_8_max_2_4_trillion_parameters</link>
+      <description><![CDATA[<p>Alibaba CloudのQwenチームは2026年8月3日（中国時間）、最新のAIモデル「Qwen3.8-Max」を<a href="https://qwen.ai/blog?id=qwen3.8">正式発表</a>した。総パラメータ数は2.4兆で、推論時には950億パラメータが稼働するMixture of Experts（MoE）モデルとなる。コーディングや専門業務、長期間にわたるAIエージェントタスク、画像・動画の理解能力などを強化した。</p>
+<p>Qwenチームは、同モデルをQwenシリーズでこれまで最も高性能なモデルと位置付けている。<a href="https://www.qwencloud.com/models/qwen3.8-max">QwenCloud</a>を通じて利用できるほか、翌週にはモデルウェイトを公開する予定だという。</p>
+<h2>2.4兆パラメータのMoE、最大100万トークンの文脈に対応</h2>
+<p>Qwen3.8-Maxは、複数の専門的なネットワークから処理に必要な部分を選んで稼働させるMoE構成を採用する。モデル全体では2.4兆パラメータを持つ一方、1回の推論で稼働するパラメータ数は950億となる。</p>
+<p>入力はテキスト、画像、動画に対応し、テキストを出力する。QwenCloudのモデルページでは、最大100万トークンのコンテキスト、外部ツールを呼び出すFunction Calling、構造化出力、ウェブ検索、コンテキストキャッシュなどへの対応も案内している。</p>
+<p>Qwenチームは、視覚情報を単に認識するだけでなく、タスクの計画、実行、結果の検証まで一連の工程で利用できると説明する。長大な文書や動画を解析し、途中で得た結果を次の処理へ反映する長期タスクも想定しているという。</p>
+<h2>10日を超える自律コーディング、法務や金融などの専門業務も</h2>
+<p>Qwenチームは、Qwen3.8-Maxの重点領域として「Coding」と「Cowork」を掲げる。</p>
+<p>Codingでは、10日を超える期間にわたってソフトウェア開発を自律的に進め、プロジェクトを完成まで導けるとしている。短いコードを生成するだけでなく、長期的な計画を立て、実行結果を確認しながら作業を継続する能力を強化した。</p>
+<p>Coworkは、ソフトウェア開発に限らず、人間が担ってきた専門業務をAIエージェントとして処理する能力を指す。QwenCloudのモデルページでは、法務、金融、デザインなど数百種類の専門タスクを扱い、一つの対話の中で実務に利用できる成果物を作成できると説明している。</p>
+<p>また、200ページを超える財務資料や複雑なPDFについて、文章だけでなくグラフや文書構造も組み合わせて分析できるという。</p>
+<h2>約550ターンの試行で人間チームの87％を上回る</h2>
+<p>Qwenチームは、Qwen3.8-Maxを「WWW 2025 Multimodal Dialogue Intent Recognition Challenge」に参加させた事例も公開した。</p>
+<p>同モデルには、1基のGPU、36基のvCPU、440GiBのメモリ、最大24時間という条件が与えられた。画像と言語を組み合わせたモデルの微調整や、複数モデルによるアンサンブルなど、約550ターンにわたって手法を段階的に変更した結果、最終スコアは0.853に達した。</p>
+<p>Qwenチームによると、この成績は参加した人間の526チーム中458チームを上回り、全体の87％より高い結果だったという。</p>
+<p><strong>Qwen3.8-Maxが試行を重ね、WWW 2025のマルチモーダル対話意図認識タスクでスコアを0.853まで高めた過程</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_54e0361354/3_54e0361354.png" alt="ダウンロード (3).png" /></p>
+<h2>PaperBenchやOSWorldなどで比較対象の最高値</h2>
+<p><a href="https://qwen.ai/blog?id=qwen3.8">Qwen公式ブログ</a>に掲載されたベンチマーク比較では、研究成果の再現能力を評価する「PaperBench」で93.0、コンピューター操作能力を測る「OSWorld-Verified」で86.1を記録した。</p>
+<p>このほか、身体性を伴う推論を評価する「ERQA」で77.8、視覚認識を測る「PerceptionBench」で63.5、長時間動画の理解能力を評価する「LVBench」で81.8となり、図に掲載された比較対象の中で最高値を記録している。</p>
+<p>一方、ソフトウェア開発能力を測る「SWE-Pro」や「FrontierSWE」、専門業務を評価する「CoworkBench」などでは、他社モデルがQwen3.8-Maxを上回る項目もある。公開された数値はQwenチームによる評価であり、モデルごとに使用したAIエージェント基盤や評価条件が異なる可能性にも留意する必要がある。</p>
+<p>Qwenチームは翌週、Qwen3.8-Maxのモデルウェイトを公開する予定だ。Qwen-Maxクラスでモデルウェイトを公開するのは初めてで、より小規模な「Qwen3.8-27B」もオープンウェイトで提供する方針を示している。</p>
+]]></description>
+      <pubDate>Fri, 24 Jul 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、Claudeが評価中に実在3組織へ権限なくアクセス　設定不備でインターネットに接続、PyPIへ悪意あるパッケージも公開</title>
       <link>https://ledge.ai/articles/anthropic_claude_cybersecurity_eval_incidents</link>
       <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
