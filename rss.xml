@@ -70,6 +70,31 @@
       <pubDate>Fri, 24 Jul 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、パーソナルAIエージェント「Gemini Spark」をChromeに統合　物件内覧予約や航空券調査を代行、まず米国で</title>
+      <link>https://ledge.ai/articles/google_gemini_spark_chrome_integration</link>
+      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、24時間稼働するパーソナルAIエージェント「Gemini Spark」をWebブラウザ「Google Chrome」に直接統合し、複数段階のWeb操作を自動化する機能を米国で提供開始すると<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/">発表</a>した。ユーザーの許可を得て、ログイン済みアカウントや保存されたパスワードを利用し、物件の内覧予約や航空便の調査、予約手続きの開始などを代行できる。</p>
+<h2>ログイン状態を引き継ぎ、複雑なWeb作業を処理</h2>
+<p>今回追加された「Chrome auto browse」は、Gemini SparkがChrome上でWebサイトを横断し、複数の操作を伴う用事を処理する機能である。</p>
+<p>例えば、ユーザーが保存していた物件について内覧日時を予約したり、条件に合う航空便を調べて予約手続きを途中まで進めたりできる。通常のAIチャットがWeb上の情報を検索して回答するのに対し、Sparkはユーザーに代わってサイトを操作し、実際の手続きを進める。</p>
+<p><strong>Gemini SparkがChrome上で航空便の情報を入力するデモ。ユーザーの許可を得て、Webサイト上の複数段階の操作を進める</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark_8d3bc609d8/geminispark_8d3bc609d8.jpg" alt="geminispark.jpg" /></p>
+<p>ログインが必要なサイトについても、ユーザーが許可すれば、Chromeでログイン済みのアカウントやGoogle パスワード マネージャーに保存された認証情報を利用できる。一方、支払いなど機密性の高い操作に到達した場合は、ユーザーへ操作を引き継ぐ設計となっている。</p>
+<p>Chrome auto browseは、まず米国で提供を開始する。Googleは今後、対象地域を拡大する方針を示しているが、日本での提供時期は明らかにしていない。</p>
+<p><strong>Chromeとの連携機能は、米国のGoogle AI ProおよびUltraユーザーを対象に順次提供され、今後ほかの地域にも拡大する予定だ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark2_2616abb864/geminispark2_2616abb864.jpg" alt="geminispark2.jpg" /></p>
+<h2>端末を閉じても動作する24時間型AIエージェント</h2>
+<p>Gemini Sparkは、Googleが2026年5月に発表したパーソナルAIエージェントである。Gemini 3.5と、長時間にわたるタスクの実行を支える「Google Antigravity」の仕組みを使用する。</p>
+<p>Google Cloud上で動作するため、パソコンを閉じたりスマートフォンをロックしたりした後も、バックグラウンドでタスクを継続できる。Gmail、Google ドキュメント、Google スプレッドシートなどと連携し、メールから情報を抽出して資料を作成する、定期的に情報を確認する、メールの下書きを作るといったワークフローを実行できる。</p>
+<p>Googleは7月29日、日本のGoogle AI Proユーザーにも今後数週間以内にGemini Sparkを順次提供すると発表した。日本語と英語に対応し、Google AI UltraおよびProユーザーが利用できるとしている。</p>
+<p>また、7月30日の発表では、Google AI Proユーザー向けのSparkを、新たに160カ国以上へ拡大すると説明した。ただし、Spark本体の提供地域拡大と、Chrome auto browseの提供地域は異なり、Chromeを直接操作する機能は当初米国のみとなる。</p>
+<h2>プロンプトインジェクションに多層防御</h2>
+<p>AIエージェントがWebサイトを操作する場合、ページ内に埋め込まれた命令によって、ユーザーが意図しない操作を実行させられる「間接プロンプトインジェクション」が課題となる。</p>
+<p>GoogleはChromeのエージェント機能に、操作内容を別のAIモデルが検証する「User Alignment Critic」を導入している。Webページの情報を読み取って操作を計画するモデルとは分離し、実行予定の操作がユーザーの指示に沿っているかを確認する。</p>
+<p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
+]]></description>
+      <pubDate>Fri, 24 Jul 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、音楽生成AI「Lyria 3.5」発表　歌詞・歌声・メロディーを強化、Flow Musicで提供開始</title>
       <link>https://ledge.ai/articles/google_lyria_3_5_music_generation</link>
       <description><![CDATA[<p>Googleは2026年7月29日（現地時間）、最新版の音楽生成AIモデル「Lyria 3.5」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/">発表</a>{target=\</p>
