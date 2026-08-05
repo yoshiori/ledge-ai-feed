@@ -162,6 +162,13 @@
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>IBM、AI開発支援「IBM Bob」を強化　サブエージェントや並列実行、IBM Z・IBM i・Java刷新向け機能を追加</title>
+      <link>https://ledge.ai/articles/ibm_bob_enterprise_ai_development_features</link>
+      <description><![CDATA[<p>日本IBMは2026年7月14日、エンタープライズ向けAI開発パートナー「IBM Bob」の新機能を<a href="https://jp.newsroom.ibm.com/2026-07-14-ibm-advances-enterprise-ai-software-development-with-multi-agent-capabilities-and-specialized-modernization-workflow">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LINEヤフー、「Agent i」に写真検索「ショッピングレンズ」追加　同一商品の取扱ストア・価格をまとめて比較</title>
       <link>https://ledge.ai/articles/line_yahoo_agent_i_shopping_lens</link>
       <description><![CDATA[<p>LINEヤフーは2026年7月30日、AIエージェント「Agent i」の「お買い物」エージェントに、写真から商品を探せる「ショッピングレンズ」を<a href="https://www.lycorp.co.jp/ja/news/release/020686/">追加</a>{target=\</p>
@@ -235,27 +242,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <title>東北大学とソフトバンク、「AI for Disaster Science共創研究所」を8月設立　災害デジタルツインとLLM・VLM、AIエージェントを融合</title>
       <link>https://ledge.ai/articles/softbank_tohoku_ai_for_disaster_science</link>
       <description><![CDATA[<p>東北大学とソフトバンクは2026年7月27日、「ソフトバンク・東北大学 AI for Disaster Science共創研究所」を8月1日に東北大学災害科学国際研究所内に設立すると<a href="https://www.tohoku.ac.jp/japanese/2026/07/press20260727-01-softbank.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI前提の組織設計――VALANCE独占インタビュー「AI駆動型組織」のつくり方</title>
-      <link>https://ledge.ai/articles/valance_interview_20260724</link>
-      <description><![CDATA[<p>生成AIを導入したのに、現場では誰も使わない。
-そんな状況は、もはや珍しくない。PoCは成功しても全社展開できない。ライセンスだけ配布され、利用率は伸びない。AI導入に取り組む企業が増える一方で、「組織として使いこなす」ことに苦戦する企業も少なくない。
-VALANCE株式会社 COOの山口氏は、その理由を「AIの性能」ではなく、「組織設計」にあると指摘する。山口氏が目指すのは、AIを単なる便利なツールとして使うことではない。AIが働くことを前提に、人・組織・データ・ガバナンスまでを含めて設計し直す「AI駆動型組織」だ。
-同社ではAI活用を個人の工夫に任せるのではなく、全社員がAIを使える環境を整備し、業務の型をAIへ移しながら組織そのものをアップデートしている。本稿では、AI前提の組織をどのように設計・運営しているのか、その思想と実践について話を聞いた。
-※取材は2026年7月24日に行われた。</p>
-<h2>「AI導入は経営者の論理」。だから現場任せでは進まない</h2>
-<p>「AIを現場から広げよう」。多くの企業がそう考える一方で、山口氏は、その発想自体に限界があると指摘する。
-「ビジネスにおいてAIを使うメリットって、突き詰めると経営者の論理なんですよ。」
-経営者にとってAIは、生産性向上やコスト削減につながる投資だ。しかし、現場から見える景色は違う。AIで仕事が早く終わっても、その分だけ新しい仕事が増えるのであれば、積極的に使う理由は薄い。つまり、AI導入が進まない理由は、「社員がAIを知らないから」でも、「教育が足りないから」でもない。経営と現場で、AIを使うインセンティブが一致していないということである。このズレを放置したまま「もっと活用しよう」と呼びかけても、大きな変化は起こりにくい。
-では、経営者は何を変えるべきなのか。ここでポイントになるのは、「AIを使え」と指示することではない。山口氏が繰り返し語ったのは、経営がやるべき仕事は「（2026年7月時点であれば）経営者自身がAIでアプリ開発・ハーネス設計・ループエンジニアリングなどを体験し、環境と規律を整えること」だ。AI活用が進まない企業では、「どのAIを使うか」「どう活用するか」といった議論から始まりがちだ。しかし同社では、その順番が逆になる。まず全社員にAIへアクセスできる環境を用意し、セキュリティやデータ管理のルールを整備する。そして、全員が一度はAIで成果物を作るところまでを入社オンボーディングに組み込んでいる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/VALANCE_int_1_2471e7c956/VALANCE_int_1_2471e7c956.png" alt="VALANCE_int_1.png" /></p>
-<p>「入社オンボーディングの最後に『AIを使ってアプリを1個作らなきゃいけない』という関門があるんです。だから僕らの会社では、強制的に全員が1度はアプリを作ったことがある状態が担保されています」
-つまり、「AIを使うかどうか」を個人の判断に委ねない。一方で、その先の使い方までは細かく管理しない。山口氏はこの考え方を、「上から環境と規律を敷き、中で自由に走らせ、その走りを観測する」と表現する。この順番が重要で、環境だけを整えても使われない。逆に、活用だけを促してもセキュリティやデータ整備が追いつかない。だからまず経営が責任を持って「AIを使うことが自然な状態」を設計し、その上で現場の創意工夫に任せる。AI時代にトップダウンが必要なのは、現場の自由を奪うためではない。むしろ、現場が安心して自由に試行錯誤できる土台を作るためなのである。</p>
-<h2>人が切り拓いた「轍（わだち）」をAIへ渡していく</h2>
-<p>AIで業務を自動化するというと、多くの企業は最初から仕組みを作ろうとする。しかし、VALANCEでは順番が逆だ。まずは人が実際に手を動かし、試行錯誤しながら業務の進め方を固める。「このやり方ならうまくいく」という型ができて初めて、その仕事をAIエージェントへ引き継いでいく。山口氏は、この考え方を「自分達の後ろをエージェント化する」と表現した。AIに渡すのは、正解のない仕事ではない。人が切り拓いた\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
