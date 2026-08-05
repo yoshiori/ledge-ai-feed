@@ -68,6 +68,30 @@
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Genspark、Windows・Mac向けAIオフィススイート「GenOffice」Alpha版を公開　基本機能は無料、コードも公開</title>
+      <link>https://ledge.ai/articles/genoffice_ai_office_suite_alpha</link>
+      <description><![CDATA[<p>Gensparkは2026年8月3日（現地時間）、Windows／Mac向けのAIオフィススイート「GenOffice」のAlpha版を<a href="https://www.genspark.ai/blog/genoffice-open-source-ai-office">公開</a>した。文書、表計算、プレゼンテーション、PDFの4種類の編集機能に「Genspark Super Agent」を組み込み、編集画面から自然言語で調査や執筆、データ分析、スライド作成などを指示できる。公式サイトから無料でダウンロードでき、基本的なオフィス機能は広告や透かしなしで利用できる。AI機能の利用時にはGensparkのクレジットを消費する。</p>
+<h2>Docs・Sheets・Slides・PDFを1つのデスクトップアプリに統合</h2>
+<p>GenOfficeは、「Docs」「Sheets」「Slides」「PDF」の4つのエディターを備える。<code>.docx</code>、<code>.xlsx</code>、<code>.pptx</code>、<code>.pdf</code>形式のファイルを読み書きでき、既存のMicrosoft Office文書などを開いて編集することも可能だ。</p>
+<p>Docsでは、プロンプトを入力することで文章の下書きや段落の書き換え、読者に合わせた文体の変更などを実行できる。AIは別のチャット画面ではなく、文書の編集画面内で動作する。</p>
+<p>Sheetsでは、予算管理表や月次の差異分析、ピボットテーブルの概要などをAIに指示できる。元データを読み込ませて分析させたり、必要な数式をセルに生成させたりすることも可能だ。</p>
+<p>Slidesでは、テーマを入力すると、AIが資料の構成を考え、各スライドの文章やレイアウトを生成する。作成された資料は、そのまま編集画面上で修正できる。</p>
+<p>PDFでは、契約書や論文、明細書などを閲覧しながら、選択した文章についてAIに質問できる。PDFから文章をコピーして別のチャットサービスへ移動する必要がないという。</p>
+<p>@<a href="https://w%EF%BD%93ww.youtube.com/watch?v=B2pLdMX95v4">YouTube</a></p>
+<h2>各エディターに共通のAIパネルを搭載</h2>
+<p><a href="https://github.com/genspark-ai/genoffice">公式GitHub</a>によると、GenOfficeは4つのエディターと、それらをまとめるスイート画面で構成される。各アプリには共通のAIパネルが組み込まれており、Docsでは段落などの単位でAIによる編集内容や差分を確認できる。</p>
+<p>Sheets、Slides、PDFでは、AIエージェントが表計算ファイルやスライド、PDFの状態を読み取り、ツールを呼び出しながら編集処理を行う。AIモデルへの処理要求はGenspark側のサービスを経由するため、利用者がモデル提供企業のAPIキーを端末内に保存する必要はないとしている。</p>
+<p>現在、GitHubではWindows x64向けのインストーラーと、Apple Silicon搭載Mac向けのインストーラーが配布されている。</p>
+<h2>基本機能は無料、ソースコードもGitHubで公開</h2>
+<p>GenOfficeの文書作成や編集などの基本機能は無料で、ライセンス料金や広告、透かしは設けない。一方、AIによる調査、データ分析、文章・資料の生成などにはGensparkクレジットを使用する。</p>
+<p><strong>GitHubでソースコードが公開されたAIオフィススイート「GenOffice」</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067_c5ca01318b/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067_c5ca01318b.jpg" alt="68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067.jpg" /></p>
+<p>ソースコードもGitHubで公開されており、利用者は既存製品への組み込みや、用途に合わせたカスタマイズ、プルリクエストによる開発参加などが可能だ。コードは原則としてApache License 2.0で提供されるが、将来の企業向けモジュール用として用意された<code>ee/</code>ディレクトリには、別の「GenOffice Enterprise License」が適用される。</p>
+<p>Gensparkによると、今回のAlpha版は1人のエンジニアが1週間で開発し、使用したAIモデルのトークン費用は1万ドルだったという。同社は、現段階では不具合や未実装の機能が残っているとしており、GitHubのIssueやプルリクエスト、利用者コミュニティーを通じてフィードバックを募っている。</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、AIでChromeの脆弱性発見・修正を高速化　直近2世代で1072件、過去23世代の合計超える</title>
       <link>https://ledge.ai/articles/google_chrome_ai_security_bug_fix</link>
       <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、Webブラウザ「Google Chrome」のセキュリティ強化にAIを活用する<a href="https://blog.google/security/chrome-stronger-with-every-update/">取り組み</a>を明らかにした。脆弱性の発見から検証・分類、修正案やテストの作成までAIの利用範囲を広げており、Chrome 149と150では計1072件のセキュリティバグを修正した。これは、それ以前の23世代で修正した件数の合計を上回るという。</p>
@@ -170,18 +194,6 @@
 <p>Metaは2025年10月にも、Blue Owl Capitalが運用するファンドと、米ルイジアナ州で建設中の「Hyperion」データセンターを開発・保有する合弁事業を<a href="https://about.fb.com/news/2025/10/meta-blue-owl-capital-develop-hyperion-data-center/">設立</a>{target=”_blank”}している。</p>
 <p>Hyperionの合弁事業も、外部ファンド側が80％、Metaが20％を保有する構造で、総開発費は約270億ドルとされた。Metaはデータセンター全体を賃借しながら、建設管理と施設管理を担当する。</p>
 <p>BlackRockとの今回の合弁事業も同様に、MetaがAIインフラの設計・建設・運営を主導しつつ、外部投資家の資本と債務調達を組み合わせる形となる。大規模な計算能力を必要とするAI開発に向け、データセンターを自社単独で保有する方式に加え、合弁事業と長期賃貸契約を活用する資金調達モデルを拡大している。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、サイバー特化AI「MAI-Cyber-1-Flash」をMDASHに統合　CyberGym 95.95％、従来構成比でコスト半減</title>
-      <link>https://ledge.ai/articles/microsoft_mai_cyber_1_flash_mdash</link>
-      <description><![CDATA[<p>Microsoftは2026年7月27日（現地時間）、サイバーセキュリティに特化したAIモデル「MAI-Cyber-1-Flash」を、脆弱性の発見や検証、修正を支援するマルチモデル型AIシステム「MDASH」に組み込んだと<a href="https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/">発表</a>した。</p>
-<p>MAI-Cyber-1-Flashに大半のタスクを処理させ、特に難しいタスクだけを高性能モデル「GPT-5.4」へ振り分ける。同社によると、この構成はサイバーセキュリティベンチマーク「CyberGym」で95.95％を記録し、従来のMDASH構成と比べてコストを50％削減したという。</p>
-<h2>最大90％のタスクを処理、難問はGPT-5.4へ</h2>
-<p>MAI-Cyber-1-Flashは、Microsoftが初めて開発したサイバーセキュリティ特化モデルである。複雑なコードベースから脆弱性を発見し、検証、優先順位付け、修正までのワークフローを支援する。</p>
-<p>Microsoftによると、MAI-Cyber-1-FlashはMDASHで実行されるタスクの最大90％を処理できる。残る約10％の特に難しいタスクには、より大規模でコストの高いGPT-5.4を使用する。すべての処理を高性能モデルへ任せるのではなく、タスクの難易度に応じてモデルを使い分けることで、性能と運用コストの両立を図った。</p>
-<p><a href="https://microsoft.ai/pdf/MAI-Cyber-1-Flash-Model-Card.pdf">モデルカード</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
