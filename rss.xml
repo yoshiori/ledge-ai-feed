@@ -5,11 +5,43 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、パーソナルAIエージェント「Gemini Spark」をChromeに統合　物件内覧予約や航空券調査を代行、まず米国で</title>
+      <link>https://ledge.ai/articles/google_gemini_spark_chrome_integration</link>
+      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、24時間稼働するパーソナルAIエージェント「Gemini Spark」をWebブラウザ「Google Chrome」に直接統合し、複数段階のWeb操作を自動化する機能を米国で提供開始すると<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/">発表</a>した。ユーザーの許可を得て、ログイン済みアカウントや保存されたパスワードを利用し、物件の内覧予約や航空便の調査、予約手続きの開始などを代行できる。</p>
+<h2>ログイン状態を引き継ぎ、複雑なWeb作業を処理</h2>
+<p>今回追加された「Chrome auto browse」は、Gemini SparkがChrome上でWebサイトを横断し、複数の操作を伴う用事を処理する機能である。</p>
+<p>例えば、ユーザーが保存していた物件について内覧日時を予約したり、条件に合う航空便を調べて予約手続きを途中まで進めたりできる。通常のAIチャットがWeb上の情報を検索して回答するのに対し、Sparkはユーザーに代わってサイトを操作し、実際の手続きを進める。</p>
+<p><strong>Gemini SparkがChrome上で航空便の情報を入力するデモ。ユーザーの許可を得て、Webサイト上の複数段階の操作を進める</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark_8d3bc609d8/geminispark_8d3bc609d8.jpg" alt="geminispark.jpg" /></p>
+<p>ログインが必要なサイトについても、ユーザーが許可すれば、Chromeでログイン済みのアカウントやGoogle パスワード マネージャーに保存された認証情報を利用できる。一方、支払いなど機密性の高い操作に到達した場合は、ユーザーへ操作を引き継ぐ設計となっている。</p>
+<p>Chrome auto browseは、まず米国で提供を開始する。Googleは今後、対象地域を拡大する方針を示しているが、日本での提供時期は明らかにしていない。</p>
+<p><strong>Chromeとの連携機能は、米国のGoogle AI ProおよびUltraユーザーを対象に順次提供され、今後ほかの地域にも拡大する予定だ</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark2_2616abb864/geminispark2_2616abb864.jpg" alt="geminispark2.jpg" /></p>
+<h2>端末を閉じても動作する24時間型AIエージェント</h2>
+<p>Gemini Sparkは、Googleが2026年5月に発表したパーソナルAIエージェントである。Gemini 3.5と、長時間にわたるタスクの実行を支える「Google Antigravity」の仕組みを使用する。</p>
+<p>Google Cloud上で動作するため、パソコンを閉じたりスマートフォンをロックしたりした後も、バックグラウンドでタスクを継続できる。Gmail、Google ドキュメント、Google スプレッドシートなどと連携し、メールから情報を抽出して資料を作成する、定期的に情報を確認する、メールの下書きを作るといったワークフローを実行できる。</p>
+<p>Googleは7月29日、日本のGoogle AI Proユーザーにも今後数週間以内にGemini Sparkを順次提供すると発表した。日本語と英語に対応し、Google AI UltraおよびProユーザーが利用できるとしている。</p>
+<p>また、7月30日の発表では、Google AI Proユーザー向けのSparkを、新たに160カ国以上へ拡大すると説明した。ただし、Spark本体の提供地域拡大と、Chrome auto browseの提供地域は異なり、Chromeを直接操作する機能は当初米国のみとなる。</p>
+<h2>プロンプトインジェクションに多層防御</h2>
+<p>AIエージェントがWebサイトを操作する場合、ページ内に埋め込まれた命令によって、ユーザーが意図しない操作を実行させられる「間接プロンプトインジェクション」が課題となる。</p>
+<p>GoogleはChromeのエージェント機能に、操作内容を別のAIモデルが検証する「User Alignment Critic」を導入している。Webページの情報を読み取って操作を計画するモデルとは分離し、実行予定の操作がユーザーの指示に沿っているかを確認する。</p>
+<p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
+]]></description>
+      <pubDate>Tue, 04 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、Copilot「スーパーアプリ」を2026年内に提供へ　チャット、業務代行、AIエージェント、コードを統合</title>
       <link>https://ledge.ai/articles/microsoft_copilot_super_app</link>
       <description><![CDATA[<p>Microsoftは2026年7月29日（現地時間）、AIアシスタント「Copilot」のChat、Cowork、Autopilots、Codeを、個人向けと法人向けを横断する1つの「スーパーアプリ」に2026年7～9月期中に統合する方針を明らかにした。同社の会長兼CEOであるサティア・ナデラ氏が、2026会計年度第4四半期の<a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">決算説明会</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 02 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claudeが評価中に実在3組織へ権限なくアクセス　設定不備でインターネットに接続、PyPIへ悪意あるパッケージも公開</title>
+      <link>https://ledge.ai/articles/anthropic_claude_cybersecurity_eval_incidents</link>
+      <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 31 Jul 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、文字起こしAI「GPT Transcribe」「GPT Live Transcribe」公開　専門用語・多言語・ノイズ環境の認識精度を向上</title>
@@ -24,13 +56,6 @@
       <description><![CDATA[<p>OpenAIの複数モデルで駆動する自律型AIエージェントが、Hugging Faceへの攻撃過程で、米Modal Labsのインフラ上にあった顧客環境にも侵入し、そのサンドボックスを攻撃拠点として悪用していたことが分かった。<a href="https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/">Reuters</a>{target=\</p>
 ]]></description>
       <pubDate>Wed, 29 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>日立、SI全工程にAIエージェントを適用する「Agentic AI Integration Platform」開発　社内試行で設計～テストの生産性約200倍も、2027年度に全体30％向上へ</title>
-      <link>https://ledge.ai/articles/hitachi_agentic_ai_integration_platform</link>
-      <description><![CDATA[<p>日立製作所は2026年7月24日、企業向けシステムインテグレーション（SI）の全工程にAIを全面適用する「Agentic AI Integration Platform」を開発したと<a href="https://www.hitachi.com/ja-jp/press/articles/2026/07/0724/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 29 Jul 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Alibaba、2.4兆パラメータの「Qwen3.8-Max」発表　10日超の自律コーディング、Max級初のオープンウェイト化へ</title>
@@ -57,13 +82,6 @@
 <p>このほか、身体性を伴う推論を評価する「ERQA」で77.8、視覚認識を測る「PerceptionBench」で63.5、長時間動画の理解能力を評価する「LVBench」で81.8となり、図に掲載された比較対象の中で最高値を記録している。</p>
 <p>一方、ソフトウェア開発能力を測る「SWE-Pro」や「FrontierSWE」、専門業務を評価する「CoworkBench」などでは、他社モデルがQwen3.8-Maxを上回る項目もある。公開された数値はQwenチームによる評価であり、モデルごとに使用したAIエージェント基盤や評価条件が異なる可能性にも留意する必要がある。</p>
 <p>Qwenチームは翌週、Qwen3.8-Maxのモデルウェイトを公開する予定だ。Qwen-Maxクラスでモデルウェイトを公開するのは初めてで、より小規模な「Qwen3.8-27B」もオープンウェイトで提供する方針を示している。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claudeが評価中に実在3組織へ権限なくアクセス　設定不備でインターネットに接続、PyPIへ悪意あるパッケージも公開</title>
-      <link>https://ledge.ai/articles/anthropic_claude_cybersecurity_eval_incidents</link>
-      <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
@@ -133,31 +151,6 @@
       <title>Google DeepMind、ロボット向けAIモデル群「Gemini Robotics 2」発表　ヒューマノイドの全身制御・複数ロボット協働に対応</title>
       <link>https://ledge.ai/articles/google_deepmind_gemini_robotics_2</link>
       <description><![CDATA[<p>Google DeepMindは現地時間2026年7月30日、ロボット向けAIモデル群「Gemini Robotics 2」を<a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、パーソナルAIエージェント「Gemini Spark」をChromeに統合　物件内覧予約や航空券調査を代行、まず米国で</title>
-      <link>https://ledge.ai/articles/google_gemini_spark_chrome_integration</link>
-      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、24時間稼働するパーソナルAIエージェント「Gemini Spark」をWebブラウザ「Google Chrome」に直接統合し、複数段階のWeb操作を自動化する機能を米国で提供開始すると<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/">発表</a>した。ユーザーの許可を得て、ログイン済みアカウントや保存されたパスワードを利用し、物件の内覧予約や航空便の調査、予約手続きの開始などを代行できる。</p>
-<h2>ログイン状態を引き継ぎ、複雑なWeb作業を処理</h2>
-<p>今回追加された「Chrome auto browse」は、Gemini SparkがChrome上でWebサイトを横断し、複数の操作を伴う用事を処理する機能である。</p>
-<p>例えば、ユーザーが保存していた物件について内覧日時を予約したり、条件に合う航空便を調べて予約手続きを途中まで進めたりできる。通常のAIチャットがWeb上の情報を検索して回答するのに対し、Sparkはユーザーに代わってサイトを操作し、実際の手続きを進める。</p>
-<p><strong>Gemini SparkがChrome上で航空便の情報を入力するデモ。ユーザーの許可を得て、Webサイト上の複数段階の操作を進める</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark_8d3bc609d8/geminispark_8d3bc609d8.jpg" alt="geminispark.jpg" /></p>
-<p>ログインが必要なサイトについても、ユーザーが許可すれば、Chromeでログイン済みのアカウントやGoogle パスワード マネージャーに保存された認証情報を利用できる。一方、支払いなど機密性の高い操作に到達した場合は、ユーザーへ操作を引き継ぐ設計となっている。</p>
-<p>Chrome auto browseは、まず米国で提供を開始する。Googleは今後、対象地域を拡大する方針を示しているが、日本での提供時期は明らかにしていない。</p>
-<p><strong>Chromeとの連携機能は、米国のGoogle AI ProおよびUltraユーザーを対象に順次提供され、今後ほかの地域にも拡大する予定だ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark2_2616abb864/geminispark2_2616abb864.jpg" alt="geminispark2.jpg" /></p>
-<h2>端末を閉じても動作する24時間型AIエージェント</h2>
-<p>Gemini Sparkは、Googleが2026年5月に発表したパーソナルAIエージェントである。Gemini 3.5と、長時間にわたるタスクの実行を支える「Google Antigravity」の仕組みを使用する。</p>
-<p>Google Cloud上で動作するため、パソコンを閉じたりスマートフォンをロックしたりした後も、バックグラウンドでタスクを継続できる。Gmail、Google ドキュメント、Google スプレッドシートなどと連携し、メールから情報を抽出して資料を作成する、定期的に情報を確認する、メールの下書きを作るといったワークフローを実行できる。</p>
-<p>Googleは7月29日、日本のGoogle AI Proユーザーにも今後数週間以内にGemini Sparkを順次提供すると発表した。日本語と英語に対応し、Google AI UltraおよびProユーザーが利用できるとしている。</p>
-<p>また、7月30日の発表では、Google AI Proユーザー向けのSparkを、新たに160カ国以上へ拡大すると説明した。ただし、Spark本体の提供地域拡大と、Chrome auto browseの提供地域は異なり、Chromeを直接操作する機能は当初米国のみとなる。</p>
-<h2>プロンプトインジェクションに多層防御</h2>
-<p>AIエージェントがWebサイトを操作する場合、ページ内に埋め込まれた命令によって、ユーザーが意図しない操作を実行させられる「間接プロンプトインジェクション」が課題となる。</p>
-<p>GoogleはChromeのエージェント機能に、操作内容を別のAIモデルが検証する「User Alignment Critic」を導入している。Webページの情報を読み取って操作を計画するモデルとは分離し、実行予定の操作がユーザーの指示に沿っているかを確認する。</p>
-<p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
