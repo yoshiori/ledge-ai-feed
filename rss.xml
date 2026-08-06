@@ -5,6 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、数学・理論計算機科学の未解決問題で10の成果　未公開の次期AIモデル「Astra」が証明を生成、Leanで形式化</title>
+      <link>https://ledge.ai/articles/openai_astra_math_unsolved_problems</link>
+      <description><![CDATA[<p>OpenAIは2026年8月1日（現地時間）、数学と理論計算機科学の長年の未解決問題について、<a href="https://openai.com/index/ten-advances-in-mathematics/">10の新たな成果</a>{target=”_blank”}を公開した。問題の解決に至った成果と、大幅な進展をもたらした成果が含まれるという。
+数学的な議論は、同社が次期主要モデルと位置付ける「Astra」の内部版が生成した。対象分野は、高次元幾何、符号理論、群論、作用素環、算術回路計算量、量子計算量、格子暗号、極値組合せ論など多岐にわたる。</p>
+<h2>非ソフィック群の存在問題や3件のErdős問題を解決</h2>
+<p>OpenAIが公開した10の成果は、以下の通りである。</p>
+<ol>
+<li><strong>高次元球充填：</strong> 高次元空間で球をどれほど高密度に配置できるかという問題について、一般的な密度の上界を改善した。公開論文では、一般の球充填指数として1978年以来初めての改善だとしている</li>
+<li><strong>二元符号と球面符号：</strong> 一定以上の距離を保ちながら配置できる符号の最大サイズについて、従来の上界をすべての対象パラメータで指数的に改善した</li>
+<li><strong>非ソフィック群：</strong> 非ソフィック群を明示的に構成し、すべての可算群が有限置換によって近似できるかという群論上の未解決問題に否定的な結論を与えた</li>
+<li><strong>Connesの剛性予想：</strong> 異なる群が同じ群von Neumann環を持つ反例を構成し、特定の群がvon Neumann環によって一意に決まるとする長年の予想を反証した</li>
+<li><strong>算術回路計算量：</strong> 永久行列式を算術回路や算術式で計算するために必要な規模について、新たな下界を示した</li>
+<li><strong>量子並列反復：</strong> 一般の有限な二者量子ゲームを対象に、ゲームを繰り返した際の成功確率が指数的に低下することを示す並列反復定理を証明した</li>
+<li><strong>最近ベクトル問題：</strong> 格子上で目標点に最も近いベクトルを求める「最近ベクトル問題」について、多項式因子で近似することの困難性を示した。この問題は耐量子暗号とも関係する</li>
+<li><strong>Ehrhartの体積予想：</strong> 重心が唯一の内部格子点となる凸体について、取り得る最大体積をすべての次元で決定した</li>
+<li><strong>多色Ramsey数：</strong> 多色三角形Ramsey数に超指数的な下界を与え、Erdős問題183を解決した</li>
+<li><strong>極値グラフ理論の予想：</strong> コンパクト性予想と退化性に関する予想に反例を示し、Erdős問題146と180を解決した</li>
+</ol>
+<h2>人間が原稿化、モデルがLeanによる形式証明を作成</h2>
+<p>OpenAIによると、Astra内部版が生成した数学的議論は、人間が同じモデルを利用しながら論文として整えた。その後、モデルが各証明を定理証明支援系「Lean」で形式化したという。
+同社は<a href="https://cdn.openai.com/pdf/ten-proofs-oai.pdf">全249ページの論文</a>{target=”_blank”}に加え、10の成果に対応する<a href="https://github.com/openai/ten-proofs">Lean 4の形式証明データ</a>{target=”_blank”}をGitHubで公開した。証明の探索過程についても、元の思考過程と完成した論文をモデルに読ませ、発想や行き詰まり、方針転換を事後的に再構成した<a href="https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf">全62ページの解説資料</a>{target=”_blank”}を提供している。これはモデルが生成時に出力した思考過程をそのまま収録したものではない。
+解法の探索に使用した総トークン数を、OpenAIのモデル「Sol」のAPI料金に換算すると、約2000ドル相当になるとしている。論文の著者は個人名ではなく「OpenAI」と表記された。
+OpenAIは、数学的議論そのものはAIシステムが生成しており、人間が生成した証明として扱うのは実際の制作過程を正しく反映しないとの考えを示した。同時に、証明の正しさについて責任を負うとしつつ、数学界に対して成果の検討や既存研究の中での位置付けを呼びかけている。</p>
+]]></description>
+      <pubDate>Tue, 04 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、パーソナルAIエージェント「Gemini Spark」をChromeに統合　物件内覧予約や航空券調査を代行、まず米国で</title>
       <link>https://ledge.ai/articles/google_gemini_spark_chrome_integration</link>
       <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、24時間稼働するパーソナルAIエージェント「Gemini Spark」をWebブラウザ「Google Chrome」に直接統合し、複数段階のWeb操作を自動化する機能を米国で提供開始すると<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/">発表</a>した。ユーザーの許可を得て、ログイン済みアカウントや保存されたパスワードを利用し、物件の内覧予約や航空便の調査、予約手続きの開始などを代行できる。</p>
@@ -28,34 +55,6 @@
 <p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
 ]]></description>
       <pubDate>Tue, 04 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、Copilot「スーパーアプリ」を2026年内に提供へ　チャット、業務代行、AIエージェント、コードを統合</title>
-      <link>https://ledge.ai/articles/microsoft_copilot_super_app</link>
-      <description><![CDATA[<p>Microsoftは2026年7月29日（現地時間）、AIアシスタント「Copilot」のChat、Cowork、Autopilots、Codeを、個人向けと法人向けを横断する1つの「スーパーアプリ」に2026年7～9月期中に統合する方針を明らかにした。同社の会長兼CEOであるサティア・ナデラ氏が、2026会計年度第4四半期の<a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">決算説明会</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 02 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claudeが評価中に実在3組織へ権限なくアクセス　設定不備でインターネットに接続、PyPIへ悪意あるパッケージも公開</title>
-      <link>https://ledge.ai/articles/anthropic_claude_cybersecurity_eval_incidents</link>
-      <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 31 Jul 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、文字起こしAI「GPT Transcribe」「GPT Live Transcribe」公開　専門用語・多言語・ノイズ環境の認識精度を向上</title>
-      <link>https://ledge.ai/articles/openai_gpt_transcribe_live_transcribe</link>
-      <description><![CDATA[<p>OpenAIは2026年7月28日（現地時間）、OpenAI API向けの文字起こしAIモデル「GPT Transcribe」と「GPT Live Transcribe」の<a href="https://openai.com/products/release-notes/">一般提供を開始</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 30 Jul 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIの暴走AIエージェント、Modal Labs顧客のサンドボックスも侵害　&quot;最初の被害者&quot;Hugging Faceが一連の攻撃経路を公開</title>
-      <link>https://ledge.ai/articles/openai_ai_agent_modal_labs_hugging_face_intrusion</link>
-      <description><![CDATA[<p>OpenAIの複数モデルで駆動する自律型AIエージェントが、Hugging Faceへの攻撃過程で、米Modal Labsのインフラ上にあった顧客環境にも侵入し、そのサンドボックスを攻撃拠点として悪用していたことが分かった。<a href="https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/">Reuters</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 29 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Alibaba、2.4兆パラメータの「Qwen3.8-Max」発表　10日超の自律コーディング、Max級初のオープンウェイト化へ</title>
@@ -82,6 +81,41 @@
 <p>このほか、身体性を伴う推論を評価する「ERQA」で77.8、視覚認識を測る「PerceptionBench」で63.5、長時間動画の理解能力を評価する「LVBench」で81.8となり、図に掲載された比較対象の中で最高値を記録している。</p>
 <p>一方、ソフトウェア開発能力を測る「SWE-Pro」や「FrontierSWE」、専門業務を評価する「CoworkBench」などでは、他社モデルがQwen3.8-Maxを上回る項目もある。公開された数値はQwenチームによる評価であり、モデルごとに使用したAIエージェント基盤や評価条件が異なる可能性にも留意する必要がある。</p>
 <p>Qwenチームは翌週、Qwen3.8-Maxのモデルウェイトを公開する予定だ。Qwen-Maxクラスでモデルウェイトを公開するのは初めてで、より小規模な「Qwen3.8-27B」もオープンウェイトで提供する方針を示している。</p>
+]]></description>
+      <pubDate>Mon, 03 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PFN、防衛装備庁の生成AI実証を受託　「PLaMo 3.0 Prime」で自衛隊の作戦計画立案を支援</title>
+      <link>https://ledge.ai/articles/pfn_defense_ai_planning_support</link>
+      <description><![CDATA[<p>Preferred Networks（以下、PFN）は2026年7月29日、防衛装備庁新世代装備研究所が実施する「生成AI等を用いた作戦環境情報分析支援実現に関する実証」を<a href="https://www.preferred.jp/ja/news/pr20260729">受託</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 03 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、Copilot「スーパーアプリ」を2026年内に提供へ　チャット、業務代行、AIエージェント、コードを統合</title>
+      <link>https://ledge.ai/articles/microsoft_copilot_super_app</link>
+      <description><![CDATA[<p>Microsoftは2026年7月29日（現地時間）、AIアシスタント「Copilot」のChat、Cowork、Autopilots、Codeを、個人向けと法人向けを横断する1つの「スーパーアプリ」に2026年7～9月期中に統合する方針を明らかにした。同社の会長兼CEOであるサティア・ナデラ氏が、2026会計年度第4四半期の<a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">決算説明会</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 02 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claudeが評価中に実在3組織へ権限なくアクセス　設定不備でインターネットに接続、PyPIへ悪意あるパッケージも公開</title>
+      <link>https://ledge.ai/articles/anthropic_claude_cybersecurity_eval_incidents</link>
+      <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 31 Jul 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIの暴走AIエージェント、Modal Labs顧客のサンドボックスも侵害　&quot;最初の被害者&quot;Hugging Faceが一連の攻撃経路を公開</title>
+      <link>https://ledge.ai/articles/openai_ai_agent_modal_labs_hugging_face_intrusion</link>
+      <description><![CDATA[<p>OpenAIの複数モデルで駆動する自律型AIエージェントが、Hugging Faceへの攻撃過程で、米Modal Labsのインフラ上にあった顧客環境にも侵入し、そのサンドボックスを攻撃拠点として悪用していたことが分かった。<a href="https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/">Reuters</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 29 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>英AIセキュリティ研究所、サイバー試験で19件の権限外行動　AIが偽アカウントで人間に働きかけ</title>
+      <link>https://ledge.ai/articles/aisi_ai_agent_cyber_incident</link>
+      <description><![CDATA[<p>英国のAIセキュリティ研究所（AISI）は2026年8月4日（現地時間）、フロンティアAIモデルを対象としたサイバー評価中、AIエージェントが許可された範囲を越え、実在する人物や組織に向けて行動したインシデントを<a href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">公表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
@@ -209,33 +243,6 @@
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、数学・理論計算機科学の未解決問題で10の成果　未公開の次期AIモデル「Astra」が証明を生成、Leanで形式化</title>
-      <link>https://ledge.ai/articles/openai_astra_math_unsolved_problems</link>
-      <description><![CDATA[<p>OpenAIは2026年8月1日（現地時間）、数学と理論計算機科学の長年の未解決問題について、<a href="https://openai.com/index/ten-advances-in-mathematics/">10の新たな成果</a>{target=”_blank”}を公開した。問題の解決に至った成果と、大幅な進展をもたらした成果が含まれるという。
-数学的な議論は、同社が次期主要モデルと位置付ける「Astra」の内部版が生成した。対象分野は、高次元幾何、符号理論、群論、作用素環、算術回路計算量、量子計算量、格子暗号、極値組合せ論など多岐にわたる。</p>
-<h2>非ソフィック群の存在問題や3件のErdős問題を解決</h2>
-<p>OpenAIが公開した10の成果は、以下の通りである。</p>
-<ol>
-<li><strong>高次元球充填：</strong> 高次元空間で球をどれほど高密度に配置できるかという問題について、一般的な密度の上界を改善した。公開論文では、一般の球充填指数として1978年以来初めての改善だとしている</li>
-<li><strong>二元符号と球面符号：</strong> 一定以上の距離を保ちながら配置できる符号の最大サイズについて、従来の上界をすべての対象パラメータで指数的に改善した</li>
-<li><strong>非ソフィック群：</strong> 非ソフィック群を明示的に構成し、すべての可算群が有限置換によって近似できるかという群論上の未解決問題に否定的な結論を与えた</li>
-<li><strong>Connesの剛性予想：</strong> 異なる群が同じ群von Neumann環を持つ反例を構成し、特定の群がvon Neumann環によって一意に決まるとする長年の予想を反証した</li>
-<li><strong>算術回路計算量：</strong> 永久行列式を算術回路や算術式で計算するために必要な規模について、新たな下界を示した</li>
-<li><strong>量子並列反復：</strong> 一般の有限な二者量子ゲームを対象に、ゲームを繰り返した際の成功確率が指数的に低下することを示す並列反復定理を証明した</li>
-<li><strong>最近ベクトル問題：</strong> 格子上で目標点に最も近いベクトルを求める「最近ベクトル問題」について、多項式因子で近似することの困難性を示した。この問題は耐量子暗号とも関係する</li>
-<li><strong>Ehrhartの体積予想：</strong> 重心が唯一の内部格子点となる凸体について、取り得る最大体積をすべての次元で決定した</li>
-<li><strong>多色Ramsey数：</strong> 多色三角形Ramsey数に超指数的な下界を与え、Erdős問題183を解決した</li>
-<li><strong>極値グラフ理論の予想：</strong> コンパクト性予想と退化性に関する予想に反例を示し、Erdős問題146と180を解決した</li>
-</ol>
-<h2>人間が原稿化、モデルがLeanによる形式証明を作成</h2>
-<p>OpenAIによると、Astra内部版が生成した数学的議論は、人間が同じモデルを利用しながら論文として整えた。その後、モデルが各証明を定理証明支援系「Lean」で形式化したという。
-同社は<a href="https://cdn.openai.com/pdf/ten-proofs-oai.pdf">全249ページの論文</a>{target=”_blank”}に加え、10の成果に対応する<a href="https://github.com/openai/ten-proofs">Lean 4の形式証明データ</a>{target=”_blank”}をGitHubで公開した。証明の探索過程についても、元の思考過程と完成した論文をモデルに読ませ、発想や行き詰まり、方針転換を事後的に再構成した<a href="https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf">全62ページの解説資料</a>{target=”_blank”}を提供している。これはモデルが生成時に出力した思考過程をそのまま収録したものではない。
-解法の探索に使用した総トークン数を、OpenAIのモデル「Sol」のAPI料金に換算すると、約2000ドル相当になるとしている。論文の著者は個人名ではなく「OpenAI」と表記された。
-OpenAIは、数学的議論そのものはAIシステムが生成しており、人間が生成した証明として扱うのは実際の制作過程を正しく反映しないとの考えを示した。同時に、証明の正しさについて責任を負うとしつつ、数学界に対して成果の検討や既存研究の中での位置付けを呼びかけている。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、対象大学の研究者に「ChatGPT for Academic Researchers」を12カ月無料提供　今夏1万人、2027年までに10万人へ</title>
       <link>https://ledge.ai/articles/openai_chatgpt_academic_researchers</link>
       <description><![CDATA[<p>OpenAIは2026年7月29日（現地時間）、対象となる学術機関の研究者に同社のAIモデルや研究支援ツールを無料提供するプログラム「ChatGPT for Academic Researchers」を<a href="https://openai.com/index/chatgpt-for-academic-researchers/">発表</a>{target=\</p>
@@ -294,13 +301,6 @@ AIによっておすすめのフレームやカラーレンズの提案を行う
       <title>パナソニック コネクト、AI活用で78.8万時間を削減　50の社内システムと連携しAIエージェント拡大へ</title>
       <link>https://ledge.ai/articles/panasonic_connect_connectai_ai_agent</link>
       <description><![CDATA[<p>パナソニック コネクトは2026年7月29日、自社向けAIアシスタントサービス「ConnectAI」の2025年度の活用実績と、業務データ連携型AIエージェントの導入計画を<a href="https://news.panasonic.com/jp/press/jn260729-1">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>PFN、防衛装備庁の生成AI実証を受託　「PLaMo 3.0 Prime」で自衛隊の作戦計画立案を支援</title>
-      <link>https://ledge.ai/articles/pfn_defense_ai_planning_support</link>
-      <description><![CDATA[<p>Preferred Networks（以下、PFN）は2026年7月29日、防衛装備庁新世代装備研究所が実施する「生成AI等を用いた作戦環境情報分析支援実現に関する実証」を<a href="https://www.preferred.jp/ja/news/pr20260729">受託</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
