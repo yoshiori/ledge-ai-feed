@@ -86,6 +86,17 @@
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Cloudflare、AIエージェントの実行基盤を両面強化　「@cloudflare/computer」公開、Kimi・GLMの推論効率化も</title>
+      <link>https://ledge.ai/articles/cloudflare_computer_workers_ai</link>
+      <description><![CDATA[<p>Cloudflareは2026年8月3日（現地時間）、AIエージェント向けのオープンソースライブラリ「@cloudflare/computer」の早期プレビュー版を<a href="https://blog.cloudflare.com/cloudflare-computer/">公開</a>した。ファイルシステムと複数のコード実行環境をまとめ、AIエージェントごとに仮想的な作業用コンピューターを提供する。</p>
+<p>同日、同社はAI推論サービス「Workers AI」で、大規模なオープンモデルを効率的に動かすための技術解説も<a href="https://blog.cloudflare.com/smaller-faster-safer-models/">公開</a>した。Moonshot AIの「Kimi K2.6」とZ.aiの「GLM 5.2」を対象に、GPUメモリの使用量や推論コストを抑える手法を紹介している。</p>
+<h2>Cloudflare、AIエージェント用の仮想コンピューターをOSSで公開</h2>
+<h3>MCPやブラウザー、コンテナを1つの作業環境から利用</h3>
+<p><a href="https://blog.cloudflare.com/ja-jp/cloudflare-computer/">「@cloudflare/computer」</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Genspark、Windows・Mac向けAIオフィススイート「GenOffice」Alpha版を公開　基本機能は無料、コードも公開</title>
       <link>https://ledge.ai/articles/genoffice_ai_office_suite_alpha</link>
       <description><![CDATA[<p>Gensparkは2026年8月3日（現地時間）、Windows／Mac向けのAIオフィススイート「GenOffice」のAlpha版を<a href="https://www.genspark.ai/blog/genoffice-open-source-ai-office">公開</a>した。文書、表計算、プレゼンテーション、PDFの4種類の編集機能に「Genspark Super Agent」を組み込み、編集画面から自然言語で調査や執筆、データ分析、スライド作成などを指示できる。公式サイトから無料でダウンロードでき、基本的なオフィス機能は広告や透かしなしで利用できる。AI機能の利用時にはGensparkのクレジットを消費する。</p>
