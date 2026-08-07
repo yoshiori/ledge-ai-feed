@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>パナソニック コネクト、AI活用で78.8万時間を削減　50の社内システムと連携しAIエージェント拡大へ</title>
+      <link>https://ledge.ai/articles/panasonic_connect_connectai_ai_agent</link>
+      <description><![CDATA[<p>パナソニック コネクトは2026年7月29日、自社向けAIアシスタントサービス「ConnectAI」の2025年度の活用実績と、業務データ連携型AIエージェントの導入計画を<a href="https://news.panasonic.com/jp/press/jn260729-1">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 06 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、数学・理論計算機科学の未解決問題で10の成果　未公開の次期AIモデル「Astra」が証明を生成、Leanで形式化</title>
       <link>https://ledge.ai/articles/openai_astra_math_unsolved_problems</link>
       <description><![CDATA[<p>OpenAIは2026年8月1日（現地時間）、数学と理論計算機科学の長年の未解決問題について、<a href="https://openai.com/index/ten-advances-in-mathematics/">10の新たな成果</a>{target=”_blank”}を公開した。問題の解決に至った成果と、大幅な進展をもたらした成果が含まれるという。
@@ -104,13 +111,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <description><![CDATA[<p>Anthropicは2026年7月30日（現地時間）、サイバーセキュリティ評価の記録を調査した結果、AIモデル「Claude」が第三者の評価環境からインターネットへ接続し、実在する3組織の本番インフラへ権限なくアクセスしていたと<a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 31 Jul 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAIの暴走AIエージェント、Modal Labs顧客のサンドボックスも侵害　&quot;最初の被害者&quot;Hugging Faceが一連の攻撃経路を公開</title>
-      <link>https://ledge.ai/articles/openai_ai_agent_modal_labs_hugging_face_intrusion</link>
-      <description><![CDATA[<p>OpenAIの複数モデルで駆動する自律型AIエージェントが、Hugging Faceへの攻撃過程で、米Modal Labsのインフラ上にあった顧客環境にも侵入し、そのサンドボックスを攻撃拠点として悪用していたことが分かった。<a href="https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/">Reuters</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 29 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>英AIセキュリティ研究所、各種フロンティアAIモデルのサイバー試験で19件の権限外行動　AIが偽アカウントで人間に働きかけ</title>
@@ -331,13 +331,6 @@ AIによっておすすめのフレームやカラーレンズの提案を行う
 <p>「AIという華やかな技術にばかりフォーカスするのではなく、お客様に届く価値へつなげるための『データ基盤』や『インフラ』を地道に整えることが先決です。ここが脆弱なままでは、お客様に良いサービスを提供し続けることはできません。自分たちの領域において何を提供すべきか、そのためにはどういうデータや環境が揃っているべきかを考え、土台をしっかりと整えた上で導入する。それが結果として、AIを最もスムーズに機能させる道になります」</p>
 <p>向殿氏は「生成AIの普及によって、お客様の心理的ハードルも下がり、データを活用して便利にする環境は間違いなく整ってきている。だからこそ、どこまで踏み込むかのバランスが難しい」とも語った。</p>
 <p>生成AIの進化によって、「AIを導入すること」自体のハードルは急速に下がっている。一方で、導入したAIを現場で使われるサービスへ育てられるかどうかは、企業ごとの設計力や運用力に委ねられる。OWNDAYS MIRRORの事例は、AIを特別な存在として見せるのではなく、人とAIがそれぞれの強みを生かしながら顧客体験を高める仕組みをどう設計するか。その積み重ねこそが、これからのAI活用に求められる視点であることを示している。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>パナソニック コネクト、AI活用で78.8万時間を削減　50の社内システムと連携しAIエージェント拡大へ</title>
-      <link>https://ledge.ai/articles/panasonic_connect_connectai_ai_agent</link>
-      <description><![CDATA[<p>パナソニック コネクトは2026年7月29日、自社向けAIアシスタントサービス「ConnectAI」の2025年度の活用実績と、業務データ連携型AIエージェントの導入計画を<a href="https://news.panasonic.com/jp/press/jn260729-1">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
