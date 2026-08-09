@@ -127,6 +127,13 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、AI学習用に数百万冊の書籍を裁断・スキャンし廃棄　希少本・古書の保存めぐり懸念</title>
+      <link>https://ledge.ai/articles/anthropic_book_scanning_rare_books</link>
+      <description><![CDATA[<p>Anthropicが数百万冊の紙の書籍を購入し、製本を外してページを裁断・スキャンした後、原本を廃棄していたことをめぐり、希少本や古書の保存への懸念が広がっている。英<a href="https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain">Guardian</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、AIエージェントの実行基盤を両面強化　「@cloudflare/computer」公開、Kimi・GLMの推論効率化も</title>
       <link>https://ledge.ai/articles/cloudflare_computer_workers_ai</link>
       <description><![CDATA[<p>Cloudflareは2026年8月3日（現地時間）、AIエージェント向けのオープンソースライブラリ「@cloudflare/computer」の早期プレビュー版を<a href="https://blog.cloudflare.com/cloudflare-computer/">公開</a>した。ファイルシステムと複数のコード実行環境をまとめ、AIエージェントごとに仮想的な作業用コンピューターを提供する。</p>
@@ -226,13 +233,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
 <p>Chromeは主要バージョンを2週間ごとに公開する体制へ移行し、セキュリティ更新を毎週提供する予定である。Googleはさらに、セキュリティ更新を週2回提供する試験を進めている。</p>
 <p>ブラウザの再起動を待たずに更新を適用する「ダイナミックパッチ」の研究も進める。Chromeのマルチプロセス構造を利用し、レンダラーやGPUなどのバックグラウンドプロセスを更新済みのものへ順次置き換えることで、多くの場合にブラウザ全体の再起動を不要にする構想である。</p>
 <p>Chrome 150では、macOS上でChromeのウィンドウがすべて閉じられ、バックグラウンドで動作している状態を利用した自動再起動機能も導入した。適用待ちの更新がある場合、このタイミングでChromeを自動的に再起動し、アップデートを反映する。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、ロボット向けAIモデル群「Gemini Robotics 2」発表　ヒューマノイドの全身制御・複数ロボット協働に対応</title>
-      <link>https://ledge.ai/articles/google_deepmind_gemini_robotics_2</link>
-      <description><![CDATA[<p>Google DeepMindは現地時間2026年7月30日、ロボット向けAIモデル群「Gemini Robotics 2」を<a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
