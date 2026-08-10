@@ -287,6 +287,24 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft、エンジニアに「AIを大量に使えばいいわけではない」　社内メールで成果重視を強調</title>
+      <link>https://ledge.ai/articles/microsoft_ai_token_usage_outcomes</link>
+      <description><![CDATA[<p>Microsoftが社内エンジニアのAI利用について、トークン消費量そのものを増やすのではなく、業務成果を重視するよう求めていることが分かった。<a href="https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/">404 Media</a>{target=”_blank”}が2026年8月4日（現地時間）に報じ、The RegisterやTechRadarなど複数メディアも伝えている。</p>
+<h2>「トークンを大量に使うこと」が目的ではない</h2>
+<p>報道によると、Microsoft CoreAI担当エグゼクティブ・バイスプレジデントのJay Parikh氏は従業員向けメールで、GitHub Copilotの利用を加速させる一方、トークンの消費方法を意識する必要があると説明した。</p>
+<p>そのうえで、「Tokenmaxxing is not what we are optimizing for（トークンマキシングは、われわれが最適化しているものではない）」とし、顧客や事業を前進させる成果に集中するよう求めたという。</p>
+<p>「Tokenmaxxing（トークンマキシング）」は、生成AIへの入力や出力で消費するトークン量をできるだけ増やし、その利用量自体をAI活用の指標とするような考え方を指す。</p>
+<p><a href="https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage">TechRadar</a>{target=”_blank”}によると、Microsoftでは2026年7月から各部門に「AIトークン予算目標」が設けられ、従業員は自身のAI利用コストも確認できるようになったという。社内ガイドラインでは、多くのエンジニアが月に数百ドルから数千ドル相当のトークンを消費しているとのデータも示されたと報じられている。</p>
+<p>ただし、MicrosoftはAI利用そのものを減らそうとしているわけではない。Parikh氏は報道されたメールで、少ないトークンを目指すのではなく「1トークン当たりのインパクト」を高めることが目的だと説明している。The RegisterがMicrosoftに今回の報道について問い合わせたところ、同社は「付け加えることはない」と回答した。</p>
+<h2>Microsoft公式も「活動量＝成果」ではないと強調</h2>
+<p>今回報じられた考え方は、Microsoftが公開している開発者の生産性評価の方針とも重なる。</p>
+<p>Microsoftは5月28日、AI時代の開発者生産性を評価するフレームワーク「EngThrive」を公式技術メディア「Command Line」で<a href="https://commandline.microsoft.com/engineering-thrive-engthrive-productivity-measurement-framework-agentic-ai-era/">紹介</a>{target=”_blank”}した。その中で、AIによってコード量やプルリクエスト数などが大きく変化するなか、開発者の活動量だけで生産性を判断すべきではないと説明。「Activity metrics are not outcome metrics（活動指標は成果指標ではない）」と明記している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Activity_metrics_are_not_outcome_metrics_ecced0e0bb/Activity_metrics_are_not_outcome_metrics_ecced0e0bb.jpg" alt="Activity metrics are not outcome metrics.jpg" /></p>
+<p>さらに、Microsoft所属研究者が7月に公開した<a href="https://arxiv.org/abs/2607.01418">研究</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>大塚商会、JAPAN AIと資本業務提携　中堅・中小企業の「AI活用」からAX実現を支援</title>
       <link>https://ledge.ai/articles/otsuka_shokai_japan_ai_business_alliance</link>
       <description><![CDATA[<p>株式会社大塚商会は8月4日、JAPAN AI株式会社と資本業務提携を締結したと<a href="https://www.otsuka-shokai.co.jp/corporate/release/2026/260804.html">発表</a>した。両社は、中堅・中小企業向けに生成AIやAIエージェントの導入・活用を支援し、企業のAX（AI Transformation）推進を加速させる。</p>
