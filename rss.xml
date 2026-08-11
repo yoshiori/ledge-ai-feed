@@ -127,6 +127,13 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、Claude Code「auto mode」をデフォルト化へ　危険なコマンドを89％ブロック、人間は13.6％</title>
+      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_default</link>
+      <description><![CDATA[<p>Anthropicは2026年8月7日（現地時間）、AIコーディングツール「Claude Code」で、コマンド実行前の権限確認を自動化する「auto mode」をデフォルト化すると<a href="https://claude.com/blog/auto-mode-default-in-claude-code">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Cloudflare、AIエージェントの実行基盤を両面強化　「@cloudflare/computer」公開、Kimi・GLMの推論効率化も</title>
       <link>https://ledge.ai/articles/cloudflare_computer_workers_ai</link>
       <description><![CDATA[<p>Cloudflareは2026年8月3日（現地時間）、AIエージェント向けのオープンソースライブラリ「@cloudflare/computer」の早期プレビュー版を<a href="https://blog.cloudflare.com/cloudflare-computer/">公開</a>した。ファイルシステムと複数のコード実行環境をまとめ、AIエージェントごとに仮想的な作業用コンピューターを提供する。</p>
@@ -171,30 +178,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
       <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
       <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Genspark、Windows・Mac向けAIオフィススイート「GenOffice」Alpha版を公開　基本機能は無料、コードも公開</title>
-      <link>https://ledge.ai/articles/genoffice_ai_office_suite_alpha</link>
-      <description><![CDATA[<p>Gensparkは2026年8月3日（現地時間）、Windows／Mac向けのAIオフィススイート「GenOffice」のAlpha版を<a href="https://www.genspark.ai/blog/genoffice-open-source-ai-office">公開</a>した。文書、表計算、プレゼンテーション、PDFの4種類の編集機能に「Genspark Super Agent」を組み込み、編集画面から自然言語で調査や執筆、データ分析、スライド作成などを指示できる。公式サイトから無料でダウンロードでき、基本的なオフィス機能は広告や透かしなしで利用できる。AI機能の利用時にはGensparkのクレジットを消費する。</p>
-<h2>Docs・Sheets・Slides・PDFを1つのデスクトップアプリに統合</h2>
-<p>GenOfficeは、「Docs」「Sheets」「Slides」「PDF」の4つのエディターを備える。<code>.docx</code>、<code>.xlsx</code>、<code>.pptx</code>、<code>.pdf</code>形式のファイルを読み書きでき、既存のMicrosoft Office文書などを開いて編集することも可能だ。</p>
-<p>Docsでは、プロンプトを入力することで文章の下書きや段落の書き換え、読者に合わせた文体の変更などを実行できる。AIは別のチャット画面ではなく、文書の編集画面内で動作する。</p>
-<p>Sheetsでは、予算管理表や月次の差異分析、ピボットテーブルの概要などをAIに指示できる。元データを読み込ませて分析させたり、必要な数式をセルに生成させたりすることも可能だ。</p>
-<p>Slidesでは、テーマを入力すると、AIが資料の構成を考え、各スライドの文章やレイアウトを生成する。作成された資料は、そのまま編集画面上で修正できる。</p>
-<p>PDFでは、契約書や論文、明細書などを閲覧しながら、選択した文章についてAIに質問できる。PDFから文章をコピーして別のチャットサービスへ移動する必要がないという。</p>
-<p>@<a href="https://w%EF%BD%93ww.youtube.com/watch?v=B2pLdMX95v4">YouTube</a></p>
-<h2>各エディターに共通のAIパネルを搭載</h2>
-<p><a href="https://github.com/genspark-ai/genoffice">公式GitHub</a>によると、GenOfficeは4つのエディターと、それらをまとめるスイート画面で構成される。各アプリには共通のAIパネルが組み込まれており、Docsでは段落などの単位でAIによる編集内容や差分を確認できる。</p>
-<p>Sheets、Slides、PDFでは、AIエージェントが表計算ファイルやスライド、PDFの状態を読み取り、ツールを呼び出しながら編集処理を行う。AIモデルへの処理要求はGenspark側のサービスを経由するため、利用者がモデル提供企業のAPIキーを端末内に保存する必要はないとしている。</p>
-<p>現在、GitHubではWindows x64向けのインストーラーと、Apple Silicon搭載Mac向けのインストーラーが配布されている。</p>
-<h2>基本機能は無料、ソースコードもGitHubで公開</h2>
-<p>GenOfficeの文書作成や編集などの基本機能は無料で、ライセンス料金や広告、透かしは設けない。一方、AIによる調査、データ分析、文章・資料の生成などにはGensparkクレジットを使用する。</p>
-<p><strong>GitHubでソースコードが公開されたAIオフィススイート「GenOffice」</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067_c5ca01318b/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067_c5ca01318b.jpg" alt="68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4232704c644d58393576342f6d617872657364656661756c742e6a7067.jpg" /></p>
-<p>ソースコードもGitHubで公開されており、利用者は既存製品への組み込みや、用途に合わせたカスタマイズ、プルリクエストによる開発参加などが可能だ。コードは原則としてApache License 2.0で提供されるが、将来の企業向けモジュール用として用意された<code>ee/</code>ディレクトリには、別の「GenOffice Enterprise License」が適用される。</p>
-<p>Gensparkによると、今回のAlpha版は1人のエンジニアが1週間で開発し、使用したAIモデルのトークン費用は1万ドルだったという。同社は、現段階では不具合や未実装の機能が残っているとしており、GitHubのIssueやプルリクエスト、利用者コミュニティーを通じてフィードバックを募っている。</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
