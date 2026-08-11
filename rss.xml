@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
+      <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
+      <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 09 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、AI学習用に数百万冊の書籍を裁断・スキャンし廃棄　希少本・古書の保存めぐり懸念</title>
       <link>https://ledge.ai/articles/anthropic_book_scanning_rare_books</link>
       <description><![CDATA[<p>Anthropicが数百万冊の紙の書籍を購入し、製本を外してページを裁断・スキャンした後、原本を廃棄していたことをめぐり、希少本や古書の保存への懸念が広がっている。英<a href="https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain">Guardian</a>{target=\</p>
@@ -12,11 +19,56 @@
       <pubDate>Sun, 09 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>SpaceX、NVIDIAとAI衛星「Starmind AI1」を共同設計　マスク氏 「NVIDIA GPUを独占採用、だって最高だから」</title>
+      <link>https://ledge.ai/articles/spacex_nvidia_starmind_ai1</link>
+      <description><![CDATA[<p>SpaceXは2026年8月4日（現地時間）、AIデータセンター衛星群「Starmind」のAI衛星「AI1」に搭載するコンピュートペイロードを、NVIDIAと共同設計すると公式Xで<a href="https://x.com/SpaceX/status/2084723854534951218">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 08 Aug 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>パナソニック コネクト、AI活用で78.8万時間を削減　50の社内システムと連携しAIエージェント拡大へ</title>
       <link>https://ledge.ai/articles/panasonic_connect_connectai_ai_agent</link>
       <description><![CDATA[<p>パナソニック コネクトは2026年7月29日、自社向けAIアシスタントサービス「ConnectAI」の2025年度の活用実績と、業務データ連携型AIエージェントの導入計画を<a href="https://news.panasonic.com/jp/press/jn260729-1">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 06 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、AIでChromeの脆弱性発見・修正を高速化　直近2世代で1072件、過去23世代の合計超える</title>
+      <link>https://ledge.ai/articles/google_chrome_ai_security_bug_fix</link>
+      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、Webブラウザ「Google Chrome」のセキュリティ強化にAIを活用する<a href="https://blog.google/security/chrome-stronger-with-every-update/">取り組み</a>を明らかにした。脆弱性の発見から検証・分類、修正案やテストの作成までAIの利用範囲を広げており、Chrome 149と150では計1072件のセキュリティバグを修正した。これは、それ以前の23世代で修正した件数の合計を上回るという。</p>
+<h2>発見から修正まで、AIを脆弱性対応の工程全体に導入</h2>
+<p>Chromeのセキュリティバグは、発見、検証・分類、修正、修正版の公開、利用者によるアップデート適用という流れで処理される。Googleは現在、このうち複数の工程にAIを導入している。</p>
+<p>セキュリティバグは、画面の停止などを引き起こす一般的な不具合とは異なり、攻撃者が個人データを読み取ったり、利用者に気付かれず端末を操作したりするための脆弱性として悪用される可能性がある。このため、発見だけでなく、修正を利用者の環境へ届けるまでの時間を短縮する必要がある。</p>
+<p><strong>Chromeのセキュリティバグが発見され、検証・分類、修正、公開を経てアップデートとして適用されるまでの流れ</strong><br />
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Chrome_Blog_Assets_Life_of_a_Bug_width_1200_format_webp_3f39b4442b/Chrome_Blog_Assets_Life_of_a_Bug_width_1200_format_webp_3f39b4442b.webp" alt="Chrome_Blog_Assets_Life_of_a_Bug.width-1200.format-webp.webp" /></p>
+<p>GoogleのChrome Security Teamは、2023年からLLMを使ってファジングの対象範囲や性能を高めてきた。2024年にはGoogle Project Zeroと共同で、LLMに脆弱性調査用のツールを与える研究プロジェクト「Naptime」を開発。2025年にはGoogle DeepMindおよびProject Zeroと、脆弱性発見AIエージェント「Big Sleep」に取り組んだ。</p>
+<p>2026年初頭には、Geminiを使ってChromeのコード全体から脆弱性を探すエージェント基盤を構築した。これにより発見した問題の一つには、侵害されたレンダラーからブラウザにローカルファイルを読み取らせる可能性がある「サンドボックスエスケープ」が含まれていた。この脆弱性は、Chromeのコード内に13年以上残っていたという。</p>
+<p>同社はその後、Chromeで過去に確認されたCVEやGitの変更履歴をAIが参照できる知識ベースを構築。オープンウェイトモデルとプロプライエタリモデルを組み合わせられるようにしたほか、別のコンテキストで発見内容を評価する「批評エージェント」も追加した。</p>
+<p>AIによる解析は、一般のインターネットへ接続できない制限された環境で実行する。ネットワーク要求を監視して不審な通信を遮断し、AIエージェントが指定されたソースコード領域以外のファイルへアクセスしたり、ローカル環境を自由に変更したりできないよう制限している。</p>
+<h2>検証・分類を自動化、月に数百時間を削減</h2>
+<p>AIによって発見される脆弱性が増えるのに合わせ、Googleは報告内容の検証や分類も自動化している。</p>
+<p>自動処理では、最初にスパムや重複した報告を除外し、Chromeのセキュリティ問題が明確に記述されているかを確認する。次に、概念実証コードなどを使って問題を再現し、影響を受けるOSやChromeのバージョンを特定する。</p>
+<p>さらに、スタックトレース、問題が最初に混入した時期、深刻度などの情報を報告へ追加し、該当するコンポーネントと担当開発者を割り当てる。深刻度については、開発者がAIによる判定を修正できる。</p>
+<p>Googleによると、従来は1件のセキュリティ報告を分類するのに5分から30分以上かかっていた。現在の自動化された処理により、開発者の作業時間を毎月数百時間削減していると推定している。</p>
+<h2>修正エージェントと批評エージェントが候補を選定</h2>
+<p>脆弱性の修正にも、複数のAIエージェントを連携させるワークフローを採用している。</p>
+<p>まず修正エージェントが、問題に関するコードや周辺情報を参照して複数の修正候補を生成する。続いて批評エージェントが各候補を評価し、Chromeの基盤となるChromiumやGoogleのコーディング規則、対象コード固有の慣例に適合しているかを確認する。</p>
+<p>修正エージェントと批評エージェントは、一般的なコードレビューを模したループを繰り返す。別のテスト作成エージェントは、Chromeが対応する複数のOSや構成で修正が機能するかを確認するテストを作成する。</p>
+<p>最終的な修正内容は開発者が確認する。Googleは、現在では大半の脆弱性についてLLMが修正候補を生成しており、テスト作成の自動化によって、場合によっては数週間分の開発作業を削減できるとしている。</p>
+<h2>Chrome 149と150で1072件を修正</h2>
+<p>こうしたAI活用の拡大に伴い、Chromeで修正されるセキュリティバグの数は急増している。</p>
+<p>Googleによると、Chrome 149とChrome 150で修正したセキュリティバグは計1072件に達した。直前のChrome 126から148までの23世代で修正した件数の合計を、わずか2世代で上回った。</p>
+<p><strong>Chrome安定版の各世代で修正したセキュリティバグ数。棒グラフは総修正数、赤線はGoogle社内で発見した件数を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Bug_Fixes_by_Milestone_2_width_1200_format_webp_4348164b0d/Bug_Fixes_by_Milestone_2_width_1200_format_webp_4348164b0d.webp" alt="Bug_Fixes_by_Milestone_2.width-1200.format-webp.webp" /></p>
+<p>ただし、1072件のすべてをAIが発見した、またはAIだけで自動修正したという意味ではない。Googleが明らかにしているのは、AIによる発見が増加し、大半の脆弱性でLLMが修正候補を生成するなど、AIを組み込んだ処理基盤が修正ペースの上昇を支えていることである。</p>
+<p>Big Sleepや、脆弱性修正AIエージェント「CodeMender」は、Chromeの継続的インテグレーション（CI）システムにも組み込まれている。すべてのコード変更に対して24時間ごとに検査を実施しており、2026年5月だけで本番環境へ入る前に20件を超える脆弱性を阻止した。この中には、最重要度に分類される「S1+」の問題も含まれていたという。</p>
+<h2>セキュリティ更新を週2回提供する試験も</h2>
+<p>脆弱性を修正しても、利用者の端末へアップデートが届くまでに時間がかかれば、公開された修正コードを攻撃者が解析して悪用する「N-day攻撃」の危険が残る。</p>
+<p>Chromeは主要バージョンを2週間ごとに公開する体制へ移行し、セキュリティ更新を毎週提供する予定である。Googleはさらに、セキュリティ更新を週2回提供する試験を進めている。</p>
+<p>ブラウザの再起動を待たずに更新を適用する「ダイナミックパッチ」の研究も進める。Chromeのマルチプロセス構造を利用し、レンダラーやGPUなどのバックグラウンドプロセスを更新済みのものへ順次置き換えることで、多くの場合にブラウザ全体の再起動を不要にする構想である。</p>
+<p>Chrome 150では、macOS上でChromeのウィンドウがすべて閉じられ、バックグラウンドで動作している状態を利用した自動再起動機能も導入した。適用待ちの更新がある場合、このタイミングでChromeを自動的に再起動し、アップデートを反映する。</p>
+]]></description>
+      <pubDate>Wed, 05 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、数学・理論計算機科学の未解決問題で10の成果　未公開の次期AIモデル「Astra」が証明を生成、Leanで形式化</title>
@@ -69,41 +121,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
 <p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
 ]]></description>
       <pubDate>Tue, 04 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、ロボット向けAIモデル群「Gemini Robotics 2」発表　ヒューマノイドの全身制御・複数ロボット協働に対応</title>
-      <link>https://ledge.ai/articles/google_deepmind_gemini_robotics_2</link>
-      <description><![CDATA[<p>Google DeepMindは現地時間2026年7月30日、ロボット向けAIモデル群「Gemini Robotics 2」を<a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 04 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Alibaba、2.4兆パラメータの「Qwen3.8-Max」発表　10日超の自律コーディング、Max級初のオープンウェイト化へ</title>
-      <link>https://ledge.ai/articles/alibaba_qwen3_8_max_2_4_trillion_parameters</link>
-      <description><![CDATA[<p>Alibaba CloudのQwenチームは2026年8月3日（中国時間）、最新のAIモデル「Qwen3.8-Max」を<a href="https://qwen.ai/blog?id=qwen3.8">正式発表</a>した。総パラメータ数は2.4兆で、推論時には950億パラメータが稼働するMixture of Experts（MoE）モデルとなる。コーディングや専門業務、長期間にわたるAIエージェントタスク、画像・動画の理解能力などを強化した。</p>
-<p>Qwenチームは、同モデルをQwenシリーズでこれまで最も高性能なモデルと位置付けている。<a href="https://www.qwencloud.com/models/qwen3.8-max">QwenCloud</a>を通じて利用できるほか、翌週にはモデルウェイトを公開する予定だという。</p>
-<h2>2.4兆パラメータのMoE、最大100万トークンの文脈に対応</h2>
-<p>Qwen3.8-Maxは、複数の専門的なネットワークから処理に必要な部分を選んで稼働させるMoE構成を採用する。モデル全体では2.4兆パラメータを持つ一方、1回の推論で稼働するパラメータ数は950億となる。</p>
-<p>入力はテキスト、画像、動画に対応し、テキストを出力する。QwenCloudのモデルページでは、最大100万トークンのコンテキスト、外部ツールを呼び出すFunction Calling、構造化出力、ウェブ検索、コンテキストキャッシュなどへの対応も案内している。</p>
-<p>Qwenチームは、視覚情報を単に認識するだけでなく、タスクの計画、実行、結果の検証まで一連の工程で利用できると説明する。長大な文書や動画を解析し、途中で得た結果を次の処理へ反映する長期タスクも想定しているという。</p>
-<h2>10日を超える自律コーディング、法務や金融などの専門業務も</h2>
-<p>Qwenチームは、Qwen3.8-Maxの重点領域として「Coding」と「Cowork」を掲げる。</p>
-<p>Codingでは、10日を超える期間にわたってソフトウェア開発を自律的に進め、プロジェクトを完成まで導けるとしている。短いコードを生成するだけでなく、長期的な計画を立て、実行結果を確認しながら作業を継続する能力を強化した。</p>
-<p>Coworkは、ソフトウェア開発に限らず、人間が担ってきた専門業務をAIエージェントとして処理する能力を指す。QwenCloudのモデルページでは、法務、金融、デザインなど数百種類の専門タスクを扱い、一つの対話の中で実務に利用できる成果物を作成できると説明している。</p>
-<p>また、200ページを超える財務資料や複雑なPDFについて、文章だけでなくグラフや文書構造も組み合わせて分析できるという。</p>
-<h2>約550ターンの試行で人間チームの87％を上回る</h2>
-<p>Qwenチームは、Qwen3.8-Maxを「WWW 2025 Multimodal Dialogue Intent Recognition Challenge」に参加させた事例も公開した。</p>
-<p>同モデルには、1基のGPU、36基のvCPU、440GiBのメモリ、最大24時間という条件が与えられた。画像と言語を組み合わせたモデルの微調整や、複数モデルによるアンサンブルなど、約550ターンにわたって手法を段階的に変更した結果、最終スコアは0.853に達した。</p>
-<p>Qwenチームによると、この成績は参加した人間の526チーム中458チームを上回り、全体の87％より高い結果だったという。</p>
-<p><strong>Qwen3.8-Maxが試行を重ね、WWW 2025のマルチモーダル対話意図認識タスクでスコアを0.853まで高めた過程</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/3_54e0361354/3_54e0361354.png" alt="ダウンロード (3).png" /></p>
-<h2>PaperBenchやOSWorldなどで比較対象の最高値</h2>
-<p><a href="https://qwen.ai/blog?id=qwen3.8">Qwen公式ブログ</a>に掲載されたベンチマーク比較では、研究成果の再現能力を評価する「PaperBench」で93.0、コンピューター操作能力を測る「OSWorld-Verified」で86.1を記録した。</p>
-<p>このほか、身体性を伴う推論を評価する「ERQA」で77.8、視覚認識を測る「PerceptionBench」で63.5、長時間動画の理解能力を評価する「LVBench」で81.8となり、図に掲載された比較対象の中で最高値を記録している。</p>
-<p>一方、ソフトウェア開発能力を測る「SWE-Pro」や「FrontierSWE」、専門業務を評価する「CoworkBench」などでは、他社モデルがQwen3.8-Maxを上回る項目もある。公開された数値はQwenチームによる評価であり、モデルごとに使用したAIエージェント基盤や評価条件が異なる可能性にも留意する必要がある。</p>
-<p>Qwenチームは翌週、Qwen3.8-Maxのモデルウェイトを公開する予定だ。Qwen-Maxクラスでモデルウェイトを公開するのは初めてで、より小規模な「Qwen3.8-27B」もオープンウェイトで提供する方針を示している。</p>
-]]></description>
-      <pubDate>Mon, 03 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Microsoft、Copilot「スーパーアプリ」を2026年内に提供へ　チャット、業務代行、AIエージェント、コードを統合</title>
@@ -178,13 +195,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
 <p>欧州委員会は、AI生成・加工コンテンツを示す<a href="https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content">EU共通アイコン</a>も公開している。</p>
 <p>アイコンには、AIが制作に関与したことを示す基本版のほか、全体をAIで生成したことを示すもの、人間が作ったコンテンツの一部をAIで加工したことを示すものが用意されている。</p>
 <p>アイコンの利用自体は任意であり、使用しただけでAI法への適合が認められるわけではない。一方、第50条に基づく表示義務そのものは任意ではなく、対象となる提供者や導入者は、EUアイコンまたは同等の方法によって規則に対応する必要がある。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
-      <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
-      <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
@@ -300,13 +310,6 @@ AIによっておすすめのフレームやカラーレンズの提案を行う
 <p>「AIという華やかな技術にばかりフォーカスするのではなく、お客様に届く価値へつなげるための『データ基盤』や『インフラ』を地道に整えることが先決です。ここが脆弱なままでは、お客様に良いサービスを提供し続けることはできません。自分たちの領域において何を提供すべきか、そのためにはどういうデータや環境が揃っているべきかを考え、土台をしっかりと整えた上で導入する。それが結果として、AIを最もスムーズに機能させる道になります」</p>
 <p>向殿氏は「生成AIの普及によって、お客様の心理的ハードルも下がり、データを活用して便利にする環境は間違いなく整ってきている。だからこそ、どこまで踏み込むかのバランスが難しい」とも語った。</p>
 <p>生成AIの進化によって、「AIを導入すること」自体のハードルは急速に下がっている。一方で、導入したAIを現場で使われるサービスへ育てられるかどうかは、企業ごとの設計力や運用力に委ねられる。OWNDAYS MIRRORの事例は、AIを特別な存在として見せるのではなく、人とAIがそれぞれの強みを生かしながら顧客体験を高める仕組みをどう設計するか。その積み重ねこそが、これからのAI活用に求められる視点であることを示している。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX、NVIDIAとAI衛星「Starmind AI1」を共同設計　マスク氏 「NVIDIA GPUを独占採用、だって最高だから」</title>
-      <link>https://ledge.ai/articles/spacex_nvidia_starmind_ai1</link>
-      <description><![CDATA[<p>SpaceXは2026年8月4日（現地時間）、AIデータセンター衛星群「Starmind」のAI衛星「AI1」に搭載するコンピュートペイロードを、NVIDIAと共同設計すると公式Xで<a href="https://x.com/SpaceX/status/2084723854534951218">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
