@@ -209,6 +209,20 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
+      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
+      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
+<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
+<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
+<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
+<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
+<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
+<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft、エンジニアに「AIを大量に使えばいいわけではない」　社内メールで成果重視を強調</title>
       <link>https://ledge.ai/articles/microsoft_ai_token_usage_outcomes</link>
       <description><![CDATA[<p>Microsoftが社内エンジニアのAI利用について、トークン消費量そのものを増やすのではなく、業務成果を重視するよう求めていることが分かった。<a href="https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/">404 Media</a>{target=”_blank”}が2026年8月4日（現地時間）に報じ、The RegisterやTechRadarなど複数メディアも伝えている。</p>
@@ -237,20 +251,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <title>OpenAI、Hugging Face侵害の詳細をBlack Hatで説明　AIエージェント同士が「掲示板」を作り攻撃情報を共有</title>
       <link>https://ledge.ai/articles/openai_hugging_face_black_hat_2026</link>
       <description><![CDATA[<p>OpenAIは2026年8月5日（現地時間）、米ラスベガスで開催されたセキュリティカンファレンス「<a href="https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401">Black Hat USA 2026</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>大塚商会、JAPAN AIと資本業務提携　中堅・中小企業の「AI活用」からAX実現を支援</title>
-      <link>https://ledge.ai/articles/otsuka_shokai_japan_ai_business_alliance</link>
-      <description><![CDATA[<p>株式会社大塚商会は8月4日、JAPAN AI株式会社と資本業務提携を締結したと<a href="https://www.otsuka-shokai.co.jp/corporate/release/2026/260804.html">発表</a>した。両社は、中堅・中小企業向けに生成AIやAIエージェントの導入・活用を支援し、企業のAX（AI Transformation）推進を加速させる。</p>
-<p>今回の提携では、大塚商会が持つ幅広い顧客基盤と、JAPAN AIが提供するAI開発技術・プロダクトを組み合わせることで、単なるツール提供にとどまらない伴走型の支援体制を構築する。</p>
-<h2>「効率化」ではなく「業務品質向上」を目指す</h2>
-<p>大塚商会では、これまでJAPAN AI株式会社が提供するAI基盤技術「JAPAN AI AGENT」をベースにした、「たよれーる ビジネスAIエージェント」を提供し、AIエージェントや独自エージェントを通じて、中堅・中小企業の業務支援を進めてきた。2026年7月には、生成AIを活用してプログラムを開発するバイブコーディングを活用した「業務プロセス自動化 AIサービス」も発表しており、AI活用支援のラインアップを拡充している。</p>
-<p>同社は、RPAの延長線上にある単なる業務時間削減ではなく、AIによる業務品質の向上につながる活用にこだわっているという。今回の資本業務提携も、その考え方を具現化する取り組みの一つと位置付けられる。</p>
-<h2>AI活用から「AX」へ</h2>
-<p>生成AIの導入は広がる一方で、多くの企業では「チャットツールを導入しただけ」「PoCで止まっている」といった課題も少なくない。今回の提携では、マルチLLMの活用、業務に特化したAIエージェントの開発、さらに伴走支援までを組み合わせることで、AIを実際の業務変革へつなげることを目指す。
-大塚商会は今後も、中堅・中小企業におけるAI活用の定着とAX推進に向け、JAPAN AIとの協業を進めていくとしている。</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
