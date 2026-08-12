@@ -158,17 +158,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare、AIエージェントの実行基盤を両面強化　「@cloudflare/computer」公開、Kimi・GLMの推論効率化も</title>
-      <link>https://ledge.ai/articles/cloudflare_computer_workers_ai</link>
-      <description><![CDATA[<p>Cloudflareは2026年8月3日（現地時間）、AIエージェント向けのオープンソースライブラリ「@cloudflare/computer」の早期プレビュー版を<a href="https://blog.cloudflare.com/cloudflare-computer/">公開</a>した。ファイルシステムと複数のコード実行環境をまとめ、AIエージェントごとに仮想的な作業用コンピューターを提供する。</p>
-<p>同日、同社はAI推論サービス「Workers AI」で、大規模なオープンモデルを効率的に動かすための技術解説も<a href="https://blog.cloudflare.com/smaller-faster-safer-models/">公開</a>した。Moonshot AIの「Kimi K2.6」とZ.aiの「GLM 5.2」を対象に、GPUメモリの使用量や推論コストを抑える手法を紹介している。</p>
-<h2>Cloudflare、AIエージェント用の仮想コンピューターをOSSで公開</h2>
-<h3>MCPやブラウザー、コンテナを1つの作業環境から利用</h3>
-<p><a href="https://blog.cloudflare.com/ja-jp/cloudflare-computer/">「@cloudflare/computer」</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>EU、AI生成コンテンツの透明性規則を適用開始　機械可読マークとディープフェイク表示を義務化</title>
       <link>https://ledge.ai/articles/eu_ai_act_ai_generated_content_transparency</link>
       <description><![CDATA[<p>欧州連合（EU）で2026年8月2日、AI法（AI Act）第50条に基づく透明性規則の適用が始まった。生成AIなどの提供者には、AIが生成・加工した画像や音声、動画、テキストを機械的に検出できるようにすることが求められる。AIシステムを業務などで使用する導入者には、ディープフェイクや一定のAI生成テキストについて、人が認識できる形で表示する義務が課される。</p>
@@ -202,6 +191,13 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <title>Google DeepMind、デミス・ハサビスCEOが退任し会長に、本社Alphabetチーフサイエンティストも兼任　GDMはカヴクチュオール氏が率いる</title>
       <link>https://ledge.ai/articles/google_deepmind_hassabis_alphabet_chief_scientist</link>
       <description><![CDATA[<p>Googleは2026年8月5日（現地時間）、Google DeepMind（GDM）の経営体制を変更すると<a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>お盆の旅行計画や混雑・遅延確認もGoogle マップに“相談”　Gemini融合の新機能、日本で順次提供開始</title>
+      <link>https://ledge.ai/articles/google_maps_ask_maps_japan</link>
+      <description><![CDATA[<p>Googleは2026年8月7日、Google マップの新しい会話型AI機能「<a href="https://blog.google/intl/ja-jp/products/connect-communicate/japanese-ask-maps/">マップに相談（Ask Maps）</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
