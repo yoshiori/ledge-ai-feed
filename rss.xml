@@ -5,6 +5,20 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
+      <link>https://ledge.ai/articles/openai_astra_critical_cyber</link>
+      <description><![CDATA[<p>OpenAIは2026年8月7日（現地時間）、開発中のAIモデル「Astra」について、サイバーセキュリティ能力が同社の安全性基準で最高水準となる「Critical」に達している可能性を排除できないと<a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 10 Aug 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成AIは「使わせるだけ」では成果につながらない？　ルール・利用状況の管理で業務削減の実感に差　KPMG調査</title>
+      <link>https://ledge.ai/articles/kpmg_ai_governance_productivity</link>
+      <description><![CDATA[<p>KPMGコンサルティングは2026年7月29日、国内企業や官公庁などに勤務する2,788人を対象に、AIの利用状況やガバナンスの実態を調べた「AIの利活用・ガバナンス等の動向調査」を<a href="https://kpmg.com/jp/ja/media/press-releases/2026/07/kc-aiutilization-survey.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 10 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
       <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
       <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
@@ -31,44 +45,6 @@
       <description><![CDATA[<p>パナソニック コネクトは2026年7月29日、自社向けAIアシスタントサービス「ConnectAI」の2025年度の活用実績と、業務データ連携型AIエージェントの導入計画を<a href="https://news.panasonic.com/jp/press/jn260729-1">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 06 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、AIでChromeの脆弱性発見・修正を高速化　直近2世代で1072件、過去23世代の合計超える</title>
-      <link>https://ledge.ai/articles/google_chrome_ai_security_bug_fix</link>
-      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、Webブラウザ「Google Chrome」のセキュリティ強化にAIを活用する<a href="https://blog.google/security/chrome-stronger-with-every-update/">取り組み</a>を明らかにした。脆弱性の発見から検証・分類、修正案やテストの作成までAIの利用範囲を広げており、Chrome 149と150では計1072件のセキュリティバグを修正した。これは、それ以前の23世代で修正した件数の合計を上回るという。</p>
-<h2>発見から修正まで、AIを脆弱性対応の工程全体に導入</h2>
-<p>Chromeのセキュリティバグは、発見、検証・分類、修正、修正版の公開、利用者によるアップデート適用という流れで処理される。Googleは現在、このうち複数の工程にAIを導入している。</p>
-<p>セキュリティバグは、画面の停止などを引き起こす一般的な不具合とは異なり、攻撃者が個人データを読み取ったり、利用者に気付かれず端末を操作したりするための脆弱性として悪用される可能性がある。このため、発見だけでなく、修正を利用者の環境へ届けるまでの時間を短縮する必要がある。</p>
-<p><strong>Chromeのセキュリティバグが発見され、検証・分類、修正、公開を経てアップデートとして適用されるまでの流れ</strong><br />
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Chrome_Blog_Assets_Life_of_a_Bug_width_1200_format_webp_3f39b4442b/Chrome_Blog_Assets_Life_of_a_Bug_width_1200_format_webp_3f39b4442b.webp" alt="Chrome_Blog_Assets_Life_of_a_Bug.width-1200.format-webp.webp" /></p>
-<p>GoogleのChrome Security Teamは、2023年からLLMを使ってファジングの対象範囲や性能を高めてきた。2024年にはGoogle Project Zeroと共同で、LLMに脆弱性調査用のツールを与える研究プロジェクト「Naptime」を開発。2025年にはGoogle DeepMindおよびProject Zeroと、脆弱性発見AIエージェント「Big Sleep」に取り組んだ。</p>
-<p>2026年初頭には、Geminiを使ってChromeのコード全体から脆弱性を探すエージェント基盤を構築した。これにより発見した問題の一つには、侵害されたレンダラーからブラウザにローカルファイルを読み取らせる可能性がある「サンドボックスエスケープ」が含まれていた。この脆弱性は、Chromeのコード内に13年以上残っていたという。</p>
-<p>同社はその後、Chromeで過去に確認されたCVEやGitの変更履歴をAIが参照できる知識ベースを構築。オープンウェイトモデルとプロプライエタリモデルを組み合わせられるようにしたほか、別のコンテキストで発見内容を評価する「批評エージェント」も追加した。</p>
-<p>AIによる解析は、一般のインターネットへ接続できない制限された環境で実行する。ネットワーク要求を監視して不審な通信を遮断し、AIエージェントが指定されたソースコード領域以外のファイルへアクセスしたり、ローカル環境を自由に変更したりできないよう制限している。</p>
-<h2>検証・分類を自動化、月に数百時間を削減</h2>
-<p>AIによって発見される脆弱性が増えるのに合わせ、Googleは報告内容の検証や分類も自動化している。</p>
-<p>自動処理では、最初にスパムや重複した報告を除外し、Chromeのセキュリティ問題が明確に記述されているかを確認する。次に、概念実証コードなどを使って問題を再現し、影響を受けるOSやChromeのバージョンを特定する。</p>
-<p>さらに、スタックトレース、問題が最初に混入した時期、深刻度などの情報を報告へ追加し、該当するコンポーネントと担当開発者を割り当てる。深刻度については、開発者がAIによる判定を修正できる。</p>
-<p>Googleによると、従来は1件のセキュリティ報告を分類するのに5分から30分以上かかっていた。現在の自動化された処理により、開発者の作業時間を毎月数百時間削減していると推定している。</p>
-<h2>修正エージェントと批評エージェントが候補を選定</h2>
-<p>脆弱性の修正にも、複数のAIエージェントを連携させるワークフローを採用している。</p>
-<p>まず修正エージェントが、問題に関するコードや周辺情報を参照して複数の修正候補を生成する。続いて批評エージェントが各候補を評価し、Chromeの基盤となるChromiumやGoogleのコーディング規則、対象コード固有の慣例に適合しているかを確認する。</p>
-<p>修正エージェントと批評エージェントは、一般的なコードレビューを模したループを繰り返す。別のテスト作成エージェントは、Chromeが対応する複数のOSや構成で修正が機能するかを確認するテストを作成する。</p>
-<p>最終的な修正内容は開発者が確認する。Googleは、現在では大半の脆弱性についてLLMが修正候補を生成しており、テスト作成の自動化によって、場合によっては数週間分の開発作業を削減できるとしている。</p>
-<h2>Chrome 149と150で1072件を修正</h2>
-<p>こうしたAI活用の拡大に伴い、Chromeで修正されるセキュリティバグの数は急増している。</p>
-<p>Googleによると、Chrome 149とChrome 150で修正したセキュリティバグは計1072件に達した。直前のChrome 126から148までの23世代で修正した件数の合計を、わずか2世代で上回った。</p>
-<p><strong>Chrome安定版の各世代で修正したセキュリティバグ数。棒グラフは総修正数、赤線はGoogle社内で発見した件数を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Bug_Fixes_by_Milestone_2_width_1200_format_webp_4348164b0d/Bug_Fixes_by_Milestone_2_width_1200_format_webp_4348164b0d.webp" alt="Bug_Fixes_by_Milestone_2.width-1200.format-webp.webp" /></p>
-<p>ただし、1072件のすべてをAIが発見した、またはAIだけで自動修正したという意味ではない。Googleが明らかにしているのは、AIによる発見が増加し、大半の脆弱性でLLMが修正候補を生成するなど、AIを組み込んだ処理基盤が修正ペースの上昇を支えていることである。</p>
-<p>Big Sleepや、脆弱性修正AIエージェント「CodeMender」は、Chromeの継続的インテグレーション（CI）システムにも組み込まれている。すべてのコード変更に対して24時間ごとに検査を実施しており、2026年5月だけで本番環境へ入る前に20件を超える脆弱性を阻止した。この中には、最重要度に分類される「S1+」の問題も含まれていたという。</p>
-<h2>セキュリティ更新を週2回提供する試験も</h2>
-<p>脆弱性を修正しても、利用者の端末へアップデートが届くまでに時間がかかれば、公開された修正コードを攻撃者が解析して悪用する「N-day攻撃」の危険が残る。</p>
-<p>Chromeは主要バージョンを2週間ごとに公開する体制へ移行し、セキュリティ更新を毎週提供する予定である。Googleはさらに、セキュリティ更新を週2回提供する試験を進めている。</p>
-<p>ブラウザの再起動を待たずに更新を適用する「ダイナミックパッチ」の研究も進める。Chromeのマルチプロセス構造を利用し、レンダラーやGPUなどのバックグラウンドプロセスを更新済みのものへ順次置き換えることで、多くの場合にブラウザ全体の再起動を不要にする構想である。</p>
-<p>Chrome 150では、macOS上でChromeのウィンドウがすべて閉じられ、バックグラウンドで動作している状態を利用した自動再起動機能も導入した。適用待ちの更新がある場合、このタイミングでChromeを自動的に再起動し、アップデートを反映する。</p>
-]]></description>
-      <pubDate>Wed, 05 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、数学・理論計算機科学の未解決問題で10の成果　未公開の次期AIモデル「Astra」が証明を生成、Leanで形式化</title>
@@ -195,13 +171,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>生成AIは「使わせるだけ」では成果につながらない？　ルール・利用状況の管理で業務削減の実感に差　KPMG調査</title>
-      <link>https://ledge.ai/articles/kpmg_ai_governance_productivity</link>
-      <description><![CDATA[<p>KPMGコンサルティングは2026年7月29日、国内企業や官公庁などに勤務する2,788人を対象に、AIの利用状況やガバナンスの実態を調べた「AIの利活用・ガバナンス等の動向調査」を<a href="https://kpmg.com/jp/ja/media/press-releases/2026/07/kc-aiutilization-survey.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Meta、ターミナル型AIコーディングエージェント「Muse Code」をベータ公開　100万トークンの新モデル「Muse Spark 1.2」搭載</title>
       <link>https://ledge.ai/articles/meta_muse_code_muse_spark_1_2</link>
       <description><![CDATA[<p>Metaは2026年8月5日（現地時間）、ターミナル上で動作するAIコーディングエージェント「Muse Code」をベータ版として<a href="https://developer.meta.com/ai/resources/blog/build-with-muse-code/">公開</a>{target=\</p>
@@ -237,13 +206,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
 <p>Microsoftは5月28日、AI時代の開発者生産性を評価するフレームワーク「EngThrive」を公式技術メディア「Command Line」で<a href="https://commandline.microsoft.com/engineering-thrive-engthrive-productivity-measurement-framework-agentic-ai-era/">紹介</a>{target=”_blank”}した。その中で、AIによってコード量やプルリクエスト数などが大きく変化するなか、開発者の活動量だけで生産性を判断すべきではないと説明。「Activity metrics are not outcome metrics（活動指標は成果指標ではない）」と明記している。</p>
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Activity_metrics_are_not_outcome_metrics_ecced0e0bb/Activity_metrics_are_not_outcome_metrics_ecced0e0bb.jpg" alt="Activity metrics are not outcome metrics.jpg" /></p>
 <p>さらに、Microsoft所属研究者が7月に公開した<a href="https://arxiv.org/abs/2607.01418">研究</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
-      <link>https://ledge.ai/articles/openai_astra_critical_cyber</link>
-      <description><![CDATA[<p>OpenAIは2026年8月7日（現地時間）、開発中のAIモデル「Astra」について、サイバーセキュリティ能力が同社の安全性基準で最高水準となる「Critical」に達している可能性を排除できないと<a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
