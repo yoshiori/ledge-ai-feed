@@ -5,6 +5,69 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
+      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
+      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
+      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
+      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Geminiアプリ、月間ユーザー10億人突破　Google史上最速の成長製品に</title>
+      <link>https://ledge.ai/articles/gemini_app_one_billion_mau</link>
+      <description><![CDATA[<p>Googleは2026年8月11日（現地時間）、生成AI「Gemini」アプリの月間アクティブユーザー数（MAU）が10億人を超えたと<a href="https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
+      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
+      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
+<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
+<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
+<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
+<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
+<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
+<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>お盆の旅行計画や混雑・遅延確認もGoogle マップに“相談”　Gemini融合の新機能、日本で順次提供開始</title>
+      <link>https://ledge.ai/articles/google_maps_ask_maps_japan</link>
+      <description><![CDATA[<p>Googleは2026年8月7日、Google マップの新しい会話型AI機能「<a href="https://blog.google/intl/ja-jp/products/connect-communicate/japanese-ask-maps/">マップに相談（Ask Maps）</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、Hugging Face侵害の詳細をBlack Hatで説明　AIエージェント同士が「掲示板」を作り攻撃情報を共有</title>
+      <link>https://ledge.ai/articles/openai_hugging_face_black_hat_2026</link>
+      <description><![CDATA[<p>OpenAIは2026年8月5日（現地時間）、米ラスベガスで開催されたセキュリティカンファレンス「<a href="https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401">Black Hat USA 2026</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 11 Aug 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、「Claude Fable 5」の生物学セーフガードを緩和　誤検知85％削減、危険領域の制限は維持</title>
+      <link>https://ledge.ai/articles/anthropic_fable_5_biology_safeguards</link>
+      <description><![CDATA[<p>Anthropicは2026年8月7日（現地時間）、高性能AIモデル「Claude Fable 5」に組み込んでいる生物学分野のセーフガードを更新したと<a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 11 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude Code「auto mode」をデフォルト化へ　危険なコマンドを89％ブロック、人間は13.6％</title>
+      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_default</link>
+      <description><![CDATA[<p>Anthropicは2026年8月7日（現地時間）、AIコーディングツール「Claude Code」で、コマンド実行前の権限確認を自動化する「auto mode」をデフォルト化すると<a href="https://claude.com/blog/auto-mode-default-in-claude-code">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 10 Aug 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
       <link>https://ledge.ai/articles/openai_astra_critical_cyber</link>
       <description><![CDATA[<p>OpenAIは2026年8月7日（現地時間）、開発中のAIモデル「Astra」について、サイバーセキュリティ能力が同社の安全性基準で最高水準となる「Critical」に達している可能性を排除できないと<a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">発表</a>{target=\</p>
@@ -17,6 +80,24 @@
       <description><![CDATA[<p>KPMGコンサルティングは2026年7月29日、国内企業や官公庁などに勤務する2,788人を対象に、AIの利用状況やガバナンスの実態を調べた「AIの利活用・ガバナンス等の動向調査」を<a href="https://kpmg.com/jp/ja/media/press-releases/2026/07/kc-aiutilization-survey.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 10 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、エンジニアに「AIを大量に使えばいいわけではない」　社内メールで成果重視を強調</title>
+      <link>https://ledge.ai/articles/microsoft_ai_token_usage_outcomes</link>
+      <description><![CDATA[<p>Microsoftが社内エンジニアのAI利用について、トークン消費量そのものを増やすのではなく、業務成果を重視するよう求めていることが分かった。<a href="https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/">404 Media</a>{target=”_blank”}が2026年8月4日（現地時間）に報じ、The RegisterやTechRadarなど複数メディアも伝えている。</p>
+<h2>「トークンを大量に使うこと」が目的ではない</h2>
+<p>報道によると、Microsoft CoreAI担当エグゼクティブ・バイスプレジデントのJay Parikh氏は従業員向けメールで、GitHub Copilotの利用を加速させる一方、トークンの消費方法を意識する必要があると説明した。</p>
+<p>そのうえで、「Tokenmaxxing is not what we are optimizing for（トークンマキシングは、われわれが最適化しているものではない）」とし、顧客や事業を前進させる成果に集中するよう求めたという。</p>
+<p>「Tokenmaxxing（トークンマキシング）」は、生成AIへの入力や出力で消費するトークン量をできるだけ増やし、その利用量自体をAI活用の指標とするような考え方を指す。</p>
+<p><a href="https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage">TechRadar</a>{target=”_blank”}によると、Microsoftでは2026年7月から各部門に「AIトークン予算目標」が設けられ、従業員は自身のAI利用コストも確認できるようになったという。社内ガイドラインでは、多くのエンジニアが月に数百ドルから数千ドル相当のトークンを消費しているとのデータも示されたと報じられている。</p>
+<p>ただし、MicrosoftはAI利用そのものを減らそうとしているわけではない。Parikh氏は報道されたメールで、少ないトークンを目指すのではなく「1トークン当たりのインパクト」を高めることが目的だと説明している。The RegisterがMicrosoftに今回の報道について問い合わせたところ、同社は「付け加えることはない」と回答した。</p>
+<h2>Microsoft公式も「活動量＝成果」ではないと強調</h2>
+<p>今回報じられた考え方は、Microsoftが公開している開発者の生産性評価の方針とも重なる。</p>
+<p>Microsoftは5月28日、AI時代の開発者生産性を評価するフレームワーク「EngThrive」を公式技術メディア「Command Line」で<a href="https://commandline.microsoft.com/engineering-thrive-engthrive-productivity-measurement-framework-agentic-ai-era/">紹介</a>{target=”_blank”}した。その中で、AIによってコード量やプルリクエスト数などが大きく変化するなか、開発者の活動量だけで生産性を判断すべきではないと説明。「Activity metrics are not outcome metrics（活動指標は成果指標ではない）」と明記している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Activity_metrics_are_not_outcome_metrics_ecced0e0bb/Activity_metrics_are_not_outcome_metrics_ecced0e0bb.jpg" alt="Activity metrics are not outcome metrics.jpg" /></p>
+<p>さらに、Microsoft所属研究者が7月に公開した<a href="https://arxiv.org/abs/2607.01418">研究</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 10 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
@@ -38,6 +119,27 @@
       <description><![CDATA[<p>SpaceXは2026年8月4日（現地時間）、AIデータセンター衛星群「Starmind」のAI衛星「AI1」に搭載するコンピュートペイロードを、NVIDIAと共同設計すると公式Xで<a href="https://x.com/SpaceX/status/2084723854534951218">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 08 Aug 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、デミス・ハサビスCEOが退任し会長に、本社Alphabetチーフサイエンティストも兼任　GDMはカヴクチュオール氏が率いる</title>
+      <link>https://ledge.ai/articles/google_deepmind_hassabis_alphabet_chief_scientist</link>
+      <description><![CDATA[<p>Googleは2026年8月5日（現地時間）、Google DeepMind（GDM）の経営体制を変更すると<a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 08 Aug 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/8/7 [FRI]AI設計ウイルス研究がScienceに正式掲載　バイオセキュリティ専門家が安全管理に警鐘</title>
+      <link>https://ledge.ai/articles/ai_designed_virus_science_biosecurity</link>
+      <description><![CDATA[<p>米Arc InstituteとStanford Universityなどの研究チームによる、生成AIで完全なバクテリオファージのゲノムを設計する研究が2026年8月6日（現地時間）、米科学誌<a href="https://www.science.org/doi/10.1126/science.aec2657">Scienceに掲載</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 07 Aug 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、ターミナル型AIコーディングエージェント「Muse Code」をベータ公開　100万トークンの新モデル「Muse Spark 1.2」搭載</title>
+      <link>https://ledge.ai/articles/meta_muse_code_muse_spark_1_2</link>
+      <description><![CDATA[<p>Metaは2026年8月5日（現地時間）、ターミナル上で動作するAIコーディングエージェント「Muse Code」をベータ版として<a href="https://developer.meta.com/ai/resources/blog/build-with-muse-code/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 07 Aug 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>パナソニック コネクト、AI活用で78.8万時間を削減　50の社内システムと連携しAIエージェント拡大へ</title>
@@ -72,133 +174,6 @@
 OpenAIは、数学的議論そのものはAIシステムが生成しており、人間が生成した証明として扱うのは実際の制作過程を正しく反映しないとの考えを示した。同時に、証明の正しさについて責任を負うとしつつ、数学界に対して成果の検討や既存研究の中での位置付けを呼びかけている。</p>
 ]]></description>
       <pubDate>Tue, 04 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、パーソナルAIエージェント「Gemini Spark」をChromeに統合　物件内覧予約や航空券調査を代行、まず米国で</title>
-      <link>https://ledge.ai/articles/google_gemini_spark_chrome_integration</link>
-      <description><![CDATA[<p>Googleは2026年7月30日（現地時間）、24時間稼働するパーソナルAIエージェント「Gemini Spark」をWebブラウザ「Google Chrome」に直接統合し、複数段階のWeb操作を自動化する機能を米国で提供開始すると<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/">発表</a>した。ユーザーの許可を得て、ログイン済みアカウントや保存されたパスワードを利用し、物件の内覧予約や航空便の調査、予約手続きの開始などを代行できる。</p>
-<h2>ログイン状態を引き継ぎ、複雑なWeb作業を処理</h2>
-<p>今回追加された「Chrome auto browse」は、Gemini SparkがChrome上でWebサイトを横断し、複数の操作を伴う用事を処理する機能である。</p>
-<p>例えば、ユーザーが保存していた物件について内覧日時を予約したり、条件に合う航空便を調べて予約手続きを途中まで進めたりできる。通常のAIチャットがWeb上の情報を検索して回答するのに対し、Sparkはユーザーに代わってサイトを操作し、実際の手続きを進める。</p>
-<p><strong>Gemini SparkがChrome上で航空便の情報を入力するデモ。ユーザーの許可を得て、Webサイト上の複数段階の操作を進める</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark_8d3bc609d8/geminispark_8d3bc609d8.jpg" alt="geminispark.jpg" /></p>
-<p>ログインが必要なサイトについても、ユーザーが許可すれば、Chromeでログイン済みのアカウントやGoogle パスワード マネージャーに保存された認証情報を利用できる。一方、支払いなど機密性の高い操作に到達した場合は、ユーザーへ操作を引き継ぐ設計となっている。</p>
-<p>Chrome auto browseは、まず米国で提供を開始する。Googleは今後、対象地域を拡大する方針を示しているが、日本での提供時期は明らかにしていない。</p>
-<p><strong>Chromeとの連携機能は、米国のGoogle AI ProおよびUltraユーザーを対象に順次提供され、今後ほかの地域にも拡大する予定だ</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/geminispark2_2616abb864/geminispark2_2616abb864.jpg" alt="geminispark2.jpg" /></p>
-<h2>端末を閉じても動作する24時間型AIエージェント</h2>
-<p>Gemini Sparkは、Googleが2026年5月に発表したパーソナルAIエージェントである。Gemini 3.5と、長時間にわたるタスクの実行を支える「Google Antigravity」の仕組みを使用する。</p>
-<p>Google Cloud上で動作するため、パソコンを閉じたりスマートフォンをロックしたりした後も、バックグラウンドでタスクを継続できる。Gmail、Google ドキュメント、Google スプレッドシートなどと連携し、メールから情報を抽出して資料を作成する、定期的に情報を確認する、メールの下書きを作るといったワークフローを実行できる。</p>
-<p>Googleは7月29日、日本のGoogle AI Proユーザーにも今後数週間以内にGemini Sparkを順次提供すると発表した。日本語と英語に対応し、Google AI UltraおよびProユーザーが利用できるとしている。</p>
-<p>また、7月30日の発表では、Google AI Proユーザー向けのSparkを、新たに160カ国以上へ拡大すると説明した。ただし、Spark本体の提供地域拡大と、Chrome auto browseの提供地域は異なり、Chromeを直接操作する機能は当初米国のみとなる。</p>
-<h2>プロンプトインジェクションに多層防御</h2>
-<p>AIエージェントがWebサイトを操作する場合、ページ内に埋め込まれた命令によって、ユーザーが意図しない操作を実行させられる「間接プロンプトインジェクション」が課題となる。</p>
-<p>GoogleはChromeのエージェント機能に、操作内容を別のAIモデルが検証する「User Alignment Critic」を導入している。Webページの情報を読み取って操作を計画するモデルとは分離し、実行予定の操作がユーザーの指示に沿っているかを確認する。</p>
-<p>このほか、エージェントがアクセスできるWebサイトの範囲をタスクに必要なドメインへ制限する仕組みや、重要な操作におけるユーザー確認、脅威のリアルタイム検知などを組み合わせる。今回のSpark統合でも、プロンプトインジェクションへの対策を講じ、支払いなどの操作はユーザー自身に戻すとしている。</p>
-]]></description>
-      <pubDate>Tue, 04 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、Copilot「スーパーアプリ」を2026年内に提供へ　チャット、業務代行、AIエージェント、コードを統合</title>
-      <link>https://ledge.ai/articles/microsoft_copilot_super_app</link>
-      <description><![CDATA[<p>Microsoftは2026年7月29日（現地時間）、AIアシスタント「Copilot」のChat、Cowork、Autopilots、Codeを、個人向けと法人向けを横断する1つの「スーパーアプリ」に2026年7～9月期中に統合する方針を明らかにした。同社の会長兼CEOであるサティア・ナデラ氏が、2026会計年度第4四半期の<a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">決算説明会</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 02 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/8/7 [FRI]AI設計ウイルス研究がScienceに正式掲載　バイオセキュリティ専門家が安全管理に警鐘</title>
-      <link>https://ledge.ai/articles/ai_designed_virus_science_biosecurity</link>
-      <description><![CDATA[<p>米Arc InstituteとStanford Universityなどの研究チームによる、生成AIで完全なバクテリオファージのゲノムを設計する研究が2026年8月6日（現地時間）、米科学誌<a href="https://www.science.org/doi/10.1126/science.aec2657">Scienceに掲載</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude Code「auto mode」をデフォルト化へ　危険なコマンドを89％ブロック、人間は13.6％</title>
-      <link>https://ledge.ai/articles/anthropic_claude_code_auto_mode_default</link>
-      <description><![CDATA[<p>Anthropicは2026年8月7日（現地時間）、AIコーディングツール「Claude Code」で、コマンド実行前の権限確認を自動化する「auto mode」をデフォルト化すると<a href="https://claude.com/blog/auto-mode-default-in-claude-code">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
-      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
-      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、「Claude Fable 5」の生物学セーフガードを緩和　誤検知85％削減、危険領域の制限は維持</title>
-      <link>https://ledge.ai/articles/anthropic_fable_5_biology_safeguards</link>
-      <description><![CDATA[<p>Anthropicは2026年8月7日（現地時間）、高性能AIモデル「Claude Fable 5」に組み込んでいる生物学分野のセーフガードを更新したと<a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Geminiアプリ、月間ユーザー10億人突破　Google史上最速の成長製品に</title>
-      <link>https://ledge.ai/articles/gemini_app_one_billion_mau</link>
-      <description><![CDATA[<p>Googleは2026年8月11日（現地時間）、生成AI「Gemini」アプリの月間アクティブユーザー数（MAU）が10億人を超えたと<a href="https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、デミス・ハサビスCEOが退任し会長に、本社Alphabetチーフサイエンティストも兼任　GDMはカヴクチュオール氏が率いる</title>
-      <link>https://ledge.ai/articles/google_deepmind_hassabis_alphabet_chief_scientist</link>
-      <description><![CDATA[<p>Googleは2026年8月5日（現地時間）、Google DeepMind（GDM）の経営体制を変更すると<a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>お盆の旅行計画や混雑・遅延確認もGoogle マップに“相談”　Gemini融合の新機能、日本で順次提供開始</title>
-      <link>https://ledge.ai/articles/google_maps_ask_maps_japan</link>
-      <description><![CDATA[<p>Googleは2026年8月7日、Google マップの新しい会話型AI機能「<a href="https://blog.google/intl/ja-jp/products/connect-communicate/japanese-ask-maps/">マップに相談（Ask Maps）</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
-      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
-      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
-<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
-<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
-<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
-<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
-<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
-<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、エンジニアに「AIを大量に使えばいいわけではない」　社内メールで成果重視を強調</title>
-      <link>https://ledge.ai/articles/microsoft_ai_token_usage_outcomes</link>
-      <description><![CDATA[<p>Microsoftが社内エンジニアのAI利用について、トークン消費量そのものを増やすのではなく、業務成果を重視するよう求めていることが分かった。<a href="https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/">404 Media</a>{target=”_blank”}が2026年8月4日（現地時間）に報じ、The RegisterやTechRadarなど複数メディアも伝えている。</p>
-<h2>「トークンを大量に使うこと」が目的ではない</h2>
-<p>報道によると、Microsoft CoreAI担当エグゼクティブ・バイスプレジデントのJay Parikh氏は従業員向けメールで、GitHub Copilotの利用を加速させる一方、トークンの消費方法を意識する必要があると説明した。</p>
-<p>そのうえで、「Tokenmaxxing is not what we are optimizing for（トークンマキシングは、われわれが最適化しているものではない）」とし、顧客や事業を前進させる成果に集中するよう求めたという。</p>
-<p>「Tokenmaxxing（トークンマキシング）」は、生成AIへの入力や出力で消費するトークン量をできるだけ増やし、その利用量自体をAI活用の指標とするような考え方を指す。</p>
-<p><a href="https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage">TechRadar</a>{target=”_blank”}によると、Microsoftでは2026年7月から各部門に「AIトークン予算目標」が設けられ、従業員は自身のAI利用コストも確認できるようになったという。社内ガイドラインでは、多くのエンジニアが月に数百ドルから数千ドル相当のトークンを消費しているとのデータも示されたと報じられている。</p>
-<p>ただし、MicrosoftはAI利用そのものを減らそうとしているわけではない。Parikh氏は報道されたメールで、少ないトークンを目指すのではなく「1トークン当たりのインパクト」を高めることが目的だと説明している。The RegisterがMicrosoftに今回の報道について問い合わせたところ、同社は「付け加えることはない」と回答した。</p>
-<h2>Microsoft公式も「活動量＝成果」ではないと強調</h2>
-<p>今回報じられた考え方は、Microsoftが公開している開発者の生産性評価の方針とも重なる。</p>
-<p>Microsoftは5月28日、AI時代の開発者生産性を評価するフレームワーク「EngThrive」を公式技術メディア「Command Line」で<a href="https://commandline.microsoft.com/engineering-thrive-engthrive-productivity-measurement-framework-agentic-ai-era/">紹介</a>{target=”_blank”}した。その中で、AIによってコード量やプルリクエスト数などが大きく変化するなか、開発者の活動量だけで生産性を判断すべきではないと説明。「Activity metrics are not outcome metrics（活動指標は成果指標ではない）」と明記している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Activity_metrics_are_not_outcome_metrics_ecced0e0bb/Activity_metrics_are_not_outcome_metrics_ecced0e0bb.jpg" alt="Activity metrics are not outcome metrics.jpg" /></p>
-<p>さらに、Microsoft所属研究者が7月に公開した<a href="https://arxiv.org/abs/2607.01418">研究</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Hugging Face侵害の詳細をBlack Hatで説明　AIエージェント同士が「掲示板」を作り攻撃情報を共有</title>
-      <link>https://ledge.ai/articles/openai_hugging_face_black_hat_2026</link>
-      <description><![CDATA[<p>OpenAIは2026年8月5日（現地時間）、米ラスベガスで開催されたセキュリティカンファレンス「<a href="https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401">Black Hat USA 2026</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
-      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
-      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
