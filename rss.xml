@@ -127,36 +127,6 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>EU、AI生成コンテンツの透明性規則を適用開始　機械可読マークとディープフェイク表示を義務化</title>
-      <link>https://ledge.ai/articles/eu_ai_act_ai_generated_content_transparency</link>
-      <description><![CDATA[<p>欧州連合（EU）で2026年8月2日、AI法（AI Act）第50条に基づく透明性規則の適用が始まった。生成AIなどの提供者には、AIが生成・加工した画像や音声、動画、テキストを機械的に検出できるようにすることが求められる。AIシステムを業務などで使用する導入者には、ディープフェイクや一定のAI生成テキストについて、人が認識できる形で表示する義務が課される。</p>
-<p>欧州委員会は7月31日、AI法の執行と新たな透明性規則を8月2日から開始すると<a href="https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august">発表</a>した。</p>
-<h2>生成AIの提供者には機械可読マークを義務付け</h2>
-<p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02024R1689-20260727">AI法第50条</a>では、合成された音声、画像、動画、テキストを生成するAIシステムの提供者に対し、出力を機械可読形式でマークし、人工的に生成または加工されたものとして検出できるようにすることを求めている。</p>
-<p>使用する技術については、技術的に可能な範囲で、有効性や相互運用性、堅牢性、信頼性を確保する必要がある。ウォーターマークやコンテンツの来歴を示すメタデータなどを利用し、外部のシステムからAI生成物を識別できるようにすることが想定されている。</p>
-<p>ただし、スペルチェックなど標準的な編集を補助するAIや、入力されたデータや意味を実質的に変更しないAIについては、機械可読マークの義務は適用されない。</p>
-<p>また、人と直接対話するチャットボットなどのAIシステムは、相手が人間ではなくAIであることを利用者に通知しなければならない。AIであることが利用状況から明らかな場合などには例外が設けられている。</p>
-<h2>ディープフェイクは人が分かる形で表示</h2>
-<p>AIシステムを使用してコンテンツを公開する企業や団体などの導入者には、機械可読マークとは別に、人が認識できる形での情報開示が求められる。</p>
-<p>対象となるのは、実在する人物、物体、場所、組織、出来事などに似せて作られ、本物または真実であるかのように見えるAI生成・加工画像、音声、動画などの「ディープフェイク」である。表示は、視聴者が初めてコンテンツに接する時点までに、明確かつ識別可能な形で行わなければならない。</p>
-<p>芸術、創作、風刺、フィクションなどに該当する作品については、作品の表示や鑑賞を妨げない適切な方法で、AI生成・加工物が含まれていることを示せばよい。</p>
-<h2>公共的事項を扱うAI生成テキストも対象</h2>
-<p>政治、行政、司法、公共の安全や健康、環境、経済、科学、文化など、公共的な関心事項について人々に情報を提供する目的で公開されるAI生成・加工テキストも、表示義務の対象となる。</p>
-<p>一方、AI生成テキストが人間による実質的な確認や編集管理を受け、個人または法人が公開内容について編集責任を負っている場合、表示義務は適用されない。</p>
-<p>欧州委員会の<a href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act">公式FAQ</a>では、人間による確認とは、専門的な知識や判断に基づいて内容を実質的に検討することだと説明している。スペルや文法の修正といった形式的な確認だけでは、人間による確認や編集管理とは認められない。</p>
-<p>このため、AIを補助的に使用したニュース記事や解説記事であっても、編集部が内容を確認・修正し、公開について責任を負っている場合には、AI生成テキストとしての表示が一律に必要になるわけではない。</p>
-<h2>既存AIシステムは12月2日まで移行期間</h2>
-<p>第50条の透明性義務は8月2日から適用されるが、同日より前にEU市場へ投入された生成AIシステムについては、機械可読マークに関する義務への対応期限が2026年12月2日まで延長されている。</p>
-<p>この移行期間は、提供者による機械可読マークの実装に限られる。ディープフェイクの表示など、導入者に課されるその他の透明性義務は8月2日から適用される。また、8月2日より前に生成されたコンテンツを遡って表示する義務はない。</p>
-<p>第50条への違反には、最大1500万ユーロ、または企業の場合は前年度の全世界売上高の3％に相当する制裁金が科される可能性がある。</p>
-<h2>EU共通のAI生成コンテンツ表示アイコンも公開</h2>
-<p>欧州委員会は、AI生成・加工コンテンツを示す<a href="https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content">EU共通アイコン</a>も公開している。</p>
-<p>アイコンには、AIが制作に関与したことを示す基本版のほか、全体をAIで生成したことを示すもの、人間が作ったコンテンツの一部をAIで加工したことを示すものが用意されている。</p>
-<p>アイコンの利用自体は任意であり、使用しただけでAI法への適合が認められるわけではない。一方、第50条に基づく表示義務そのものは任意ではなく、対象となる提供者や導入者は、EUアイコンまたは同等の方法によって規則に対応する必要がある。</p>
-]]></description>
-      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Geminiアプリ、月間ユーザー10億人突破　Google史上最速の成長製品に</title>
       <link>https://ledge.ai/articles/gemini_app_one_billion_mau</link>
       <description><![CDATA[<p>Googleは2026年8月11日（現地時間）、生成AI「Gemini」アプリの月間アクティブユーザー数（MAU）が10億人を超えたと<a href="https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/">公式ブログ</a>{target=\</p>
@@ -220,6 +190,13 @@ OpenAIは、数学的議論そのものはAIシステムが生成しており、
       <title>OpenAI、Hugging Face侵害の詳細をBlack Hatで説明　AIエージェント同士が「掲示板」を作り攻撃情報を共有</title>
       <link>https://ledge.ai/articles/openai_hugging_face_black_hat_2026</link>
       <description><![CDATA[<p>OpenAIは2026年8月5日（現地時間）、米ラスベガスで開催されたセキュリティカンファレンス「<a href="https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401">Black Hat USA 2026</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
+      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
+      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 17 Jul 2026 07:50:00 GMT</pubDate>
     </item>
