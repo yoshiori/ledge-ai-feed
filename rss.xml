@@ -34,6 +34,13 @@
       <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Alibaba「Qwen」シリーズ、半年で30億ダウンロード　新モデル「Qwen3.8-27B」のウェイトも公開</title>
+      <link>https://ledge.ai/articles/alibaba_qwen_3_billion_downloads_qwen3_8_27b</link>
+      <description><![CDATA[<p>中国・アリババ（阿里巴巴）が展開するオープンウェイトAIモデル「Qwen」シリーズが、過去6カ月間で世界累計30億回以上ダウンロードされたことがわかった。Bloombergが2026年8月15日、アリババの説明として<a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">報じた</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【イベントレポート】AIエージェント時代、企業競争力を決めるのは『知識実装』ーー株式会社CAT.AI メディア勉強会</title>
       <link>https://ledge.ai/articles/cat-ai-study-meeting</link>
       <description><![CDATA[<p>2026年8月5日、株式会社CAT.AIによるメディア向け勉強会が開催された。テーマは「AIエージェント時代、企業競争力を左右するAI実装とは」。勉強会では、AI活用の競争軸が「モデル選定」から「自社の知識や価値観をAIへ実装すること」へ移りつつあるとの見解が示された。</p>
@@ -129,20 +136,6 @@
       <title>Google DeepMind、手話を文字にする多言語AI「SL2T」発表　Pixel 11でASL→英語入力、50以上の手話言語で学習</title>
       <link>https://ledge.ai/articles/google_deepmind_sign_language_to_text_pixel_11</link>
       <description><![CDATA[<p>Google DeepMindは2026年8月12日、手話の映像をテキストに翻訳する多言語AIモデル「sign-language-to-text（SL2T）」を<a href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
-      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
-      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
-<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
-<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
-<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
-<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
-<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
-<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
 ]]></description>
       <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
