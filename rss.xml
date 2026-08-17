@@ -5,6 +5,21 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>AIセキュリティに「万能なルール」はない――Elithが語る、AI時代に求められる防御の考え方</title>
+      <link>https://ledge.ai/articles/elith-interview</link>
+      <description><![CDATA[<p>生成AIやAIエージェントの導入が企業で加速する一方、「AIをどう安全に使うか」という問いは、ますます重要性を増している。
+多くの企業では、AI利用のガイドライン策定やプロンプトによる制御、ガードレールの導入など、さまざまな対策が進められている。しかし、それらを積み重ねるだけで、本当にAIは安全になるのだろうか。</p>
+<p>この問いに一石を投じたのが、AIセキュリティの研究開発と企業向けソリューションを展開する株式会社Elithだ。同社は、防御用プロンプトを増やしても攻撃耐性は高まらず、むしろ攻撃側が有利になるケースがあることを研究で示した。</p>
+<p>AIセキュリティは従来の情報セキュリティと何が違うのか。そして企業は、AI時代のリスクとどう向き合うべきなのか。株式会社Elith 代表取締役の井上氏に話を聞いた。</p>
+<p>※取材は2026年8月4日に行われた。</p>
+<h2>AIセキュリティは「侵入を防ぐ」から「侵入される前提」へ</h2>
+<p>「従来のセキュリティとの一番大きな違いは、そもそもブロックできないことです。」</p>
+<p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
+<p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
+]]></description>
+      <pubDate>Mon, 17 Aug 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google DeepMind、手話を文字にする多言語AI「SL2T」発表　Pixel 11でASL→英語入力、50以上の手話言語で学習</title>
       <link>https://ledge.ai/articles/google_deepmind_sign_language_to_text_pixel_11</link>
       <description><![CDATA[<p>Google DeepMindは2026年8月12日、手話の映像をテキストに翻訳する多言語AIモデル「sign-language-to-text（SL2T）」を<a href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/">発表</a>{target=\</p>
@@ -162,13 +177,6 @@
       <description><![CDATA[<p>Googleは2026年8月7日、Google マップの新しい会話型AI機能「<a href="https://blog.google/intl/ja-jp/products/connect-communicate/japanese-ask-maps/">マップに相談（Ask Maps）</a>{target=\</p>
 ]]></description>
       <pubDate>Wed, 12 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Hugging Face侵害の詳細をBlack Hatで説明　AIエージェント同士が「掲示板」を作り攻撃情報を共有</title>
-      <link>https://ledge.ai/articles/openai_hugging_face_black_hat_2026</link>
-      <description><![CDATA[<p>OpenAIは2026年8月5日（現地時間）、米ラスベガスで開催されたセキュリティカンファレンス「<a href="https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401">Black Hat USA 2026</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 11 Aug 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
