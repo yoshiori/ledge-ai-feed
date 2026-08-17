@@ -5,56 +5,33 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>Google「Gemini 3.7 Flash」公開　わずか3週間で更新、コーディング・AIエージェント強化　初回価格は従来比半額</title>
-      <link>https://ledge.ai/articles/gemini_3_7_flash_coding_agent_update</link>
-      <description><![CDATA[<p>Googleは2026年8月13日（米国時間）、コーディングやAIエージェント機能を強化した主力AIモデル「[Gemini 3.7 Flash」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 17 Aug 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Uber、東京ロボタクシー試験運行で日の丸交通と提携　WayveのAI搭載・日産リーフを2026年後半に導入</title>
-      <link>https://ledge.ai/articles/uber_hinomaru_robotaxi_tokyo</link>
-      <description><![CDATA[<p>Uber Technologiesは2026年8月13日、2026年後半に東京で予定するロボタクシー（自動運転タクシー）の試験運行について、日の丸交通と運行パートナーシップ契約を締結したと<a href="https://www.uber.com/jp/ja/newsroom/robotaxi-partner-hk/">発表</a>した。日の丸交通が認可を受けた運行主体となり、Wayveの自動運転システム「AI Driver」を搭載した日産リーフを運行する。初期段階では完全無人ではなく、日の丸交通の乗務員がセーフティドライバーとして同乗する。</p>
-<p>今回の契約は、Uber、Wayve、日産自動車が2026年3月に発表した<a href="https://wayve.ai/press/wayve-nissan-uber-robotaxi-collaboration/">東京でのロボタクシー展開に向けた協業</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 17 Aug 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIセキュリティに「万能なルール」はない――Elithが語る、AI時代に求められる防御の考え方</title>
-      <link>https://ledge.ai/articles/elith-interview</link>
-      <description><![CDATA[<p>生成AIやAIエージェントの導入が企業で加速する一方、「AIをどう安全に使うか」という問いは、ますます重要性を増している。
-多くの企業では、AI利用のガイドライン策定やプロンプトによる制御、ガードレールの導入など、さまざまな対策が進められている。しかし、それらを積み重ねるだけで、本当にAIは安全になるのだろうか。</p>
-<p>この問いに一石を投じたのが、AIセキュリティの研究開発と企業向けソリューションを展開する株式会社Elithだ。同社は、防御用プロンプトを増やしても攻撃耐性は高まらず、むしろ攻撃側が有利になるケースがあることを研究で示した。</p>
-<p>AIセキュリティは従来の情報セキュリティと何が違うのか。そして企業は、AI時代のリスクとどう向き合うべきなのか。株式会社Elith 代表取締役の井上氏に話を聞いた。</p>
-<p>※取材は2026年8月4日に行われた。</p>
-<h2>AIセキュリティは「侵入を防ぐ」から「侵入される前提」へ</h2>
-<p>「従来のセキュリティとの一番大きな違いは、そもそもブロックできないことです。」</p>
-<p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
-<p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
-]]></description>
-      <pubDate>Mon, 17 Aug 2026 01:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind、手話を文字にする多言語AI「SL2T」発表　Pixel 11でASL→英語入力、50以上の手話言語で学習</title>
-      <link>https://ledge.ai/articles/google_deepmind_sign_language_to_text_pixel_11</link>
-      <description><![CDATA[<p>Google DeepMindは2026年8月12日、手話の映像をテキストに翻訳する多言語AIモデル「sign-language-to-text（SL2T）」を<a href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI元COOブラッド・ライトキャップ氏が退社　安全・倫理責任者など重要人物の離職相次ぐ</title>
-      <link>https://ledge.ai/articles/openai_brad_lightcap_executive_departures</link>
-      <description><![CDATA[<p>OpenAIの元最高執行責任者（COO）Brad Lightcap（ブラッド・ライトキャップ）氏は2026年8月11日（現地時間）、約8年間在籍した同社を退社すると発表した。OpenAIでは7月以降、最高未来責任者や安全システム責任者、AI倫理責任者など重要ポストを担った人物の退社や常勤職からの離脱が続いている。</p>
-<p>Lightcap氏は<a href="https://x.com/bradlightcap/status/2087211567012032862">Xへの投稿</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 15 Aug 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>学術＆研究2026/8/15 [SAT]AIとの長い会話で「妄想スパイラル」が悪化　自傷を止めない割合30％→41％、スタンフォード大などの研究</title>
       <link>https://ledge.ai/articles/ai_delusional_spirals_stanford</link>
       <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 15 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
+      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
+      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
+      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
+      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alibaba、「Qwen3.8-Max」で大口商用ユーザーに収益分配求める方針　オープンモデルを“フリーミアム”化か</title>
+      <link>https://ledge.ai/articles/alibaba_qwen3_8_max_revenue_sharing</link>
+      <description><![CDATA[<p>中国のAI大手Alibaba（阿里巴巴）が、オープンウェイト化を予定するAIモデル「Qwen3.8-Max」について、大口の商用ユーザーに収益の一部を同社へ分配するよう求める方針であることが分かった。<a href="https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/">Reuters</a>が2026年8月7日（現地時間）、計画を知る関係者2人の話として報じた。Alibabaは収益分配の方針を公式には発表しておらず、分配率についても協議中だという。</p>
+<p>Alibabaは8月3日にQwen3.8-Maxを<a href="https://www.alibabagroup.com/en-US/document-2021044032125272064">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>【イベントレポート】AIエージェント時代、企業競争力を決めるのは『知識実装』ーー株式会社CAT.AI メディア勉強会</title>
@@ -117,15 +94,65 @@
 生成AIの成果を単なる「効率化」にとどめず、「企業競争力」へと変換するためには、経営陣が主導してAI活用に必要な組織体制の整備やコスト管理、ガバナンス設計に取り組み、AIを企業活動の基盤として組み込んでいくことが重要になる。</p>
 <p><a href="https://cat-ai.co.jp/">AI-BPOで業務を自動化・全体最適化するCXプラットフォーム｜CAT.AI</a></p>
 ]]></description>
-      <pubDate>Fri, 14 Aug 2026 01:50:00 GMT</pubDate>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Alibaba、「Qwen3.8-Max」で大口商用ユーザーに収益分配求める方針　オープンモデルを“フリーミアム”化か</title>
-      <link>https://ledge.ai/articles/alibaba_qwen3_8_max_revenue_sharing</link>
-      <description><![CDATA[<p>中国のAI大手Alibaba（阿里巴巴）が、オープンウェイト化を予定するAIモデル「Qwen3.8-Max」について、大口の商用ユーザーに収益の一部を同社へ分配するよう求める方針であることが分かった。<a href="https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/">Reuters</a>が2026年8月7日（現地時間）、計画を知る関係者2人の話として報じた。Alibabaは収益分配の方針を公式には発表しておらず、分配率についても協議中だという。</p>
-<p>Alibabaは8月3日にQwen3.8-Maxを<a href="https://www.alibabagroup.com/en-US/document-2021044032125272064">発表</a>{target=\</p>
+      <title>AIセキュリティに「万能なルール」はない――Elithが語る、AI時代に求められる防御の考え方</title>
+      <link>https://ledge.ai/articles/elith-interview</link>
+      <description><![CDATA[<p>生成AIやAIエージェントの導入が企業で加速する一方、「AIをどう安全に使うか」という問いは、ますます重要性を増している。
+多くの企業では、AI利用のガイドライン策定やプロンプトによる制御、ガードレールの導入など、さまざまな対策が進められている。しかし、それらを積み重ねるだけで、本当にAIは安全になるのだろうか。</p>
+<p>この問いに一石を投じたのが、AIセキュリティの研究開発と企業向けソリューションを展開する株式会社Elithだ。同社は、防御用プロンプトを増やしても攻撃耐性は高まらず、むしろ攻撃側が有利になるケースがあることを研究で示した。</p>
+<p>AIセキュリティは従来の情報セキュリティと何が違うのか。そして企業は、AI時代のリスクとどう向き合うべきなのか。株式会社Elith 代表取締役の井上氏に話を聞いた。</p>
+<p>※取材は2026年8月4日に行われた。</p>
+<h2>AIセキュリティは「侵入を防ぐ」から「侵入される前提」へ</h2>
+<p>「従来のセキュリティとの一番大きな違いは、そもそもブロックできないことです。」</p>
+<p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
+<p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
 ]]></description>
-      <pubDate>Fri, 14 Aug 2026 00:50:00 GMT</pubDate>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google「Gemini 3.7 Flash」公開　わずか3週間で更新、コーディング・AIエージェント強化　初回価格は従来比半額</title>
+      <link>https://ledge.ai/articles/gemini_3_7_flash_coding_agent_update</link>
+      <description><![CDATA[<p>Googleは2026年8月13日（米国時間）、コーディングやAIエージェント機能を強化した主力AIモデル「[Gemini 3.7 Flash」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Geminiアプリ、月間ユーザー10億人突破　Google史上最速の成長製品に</title>
+      <link>https://ledge.ai/articles/gemini_app_one_billion_mau</link>
+      <description><![CDATA[<p>Googleは2026年8月11日（現地時間）、生成AI「Gemini」アプリの月間アクティブユーザー数（MAU）が10億人を超えたと<a href="https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/">公式ブログ</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google DeepMind、手話を文字にする多言語AI「SL2T」発表　Pixel 11でASL→英語入力、50以上の手話言語で学習</title>
+      <link>https://ledge.ai/articles/google_deepmind_sign_language_to_text_pixel_11</link>
+      <description><![CDATA[<p>Google DeepMindは2026年8月12日、手話の映像をテキストに翻訳する多言語AIモデル「sign-language-to-text（SL2T）」を<a href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
+      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
+      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
+<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
+<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
+<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
+<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
+<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
+<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI元COOブラッド・ライトキャップ氏が退社　安全・倫理責任者など重要人物の離職相次ぐ</title>
+      <link>https://ledge.ai/articles/openai_brad_lightcap_executive_departures</link>
+      <description><![CDATA[<p>OpenAIの元最高執行責任者（COO）Brad Lightcap（ブラッド・ライトキャップ）氏は2026年8月11日（現地時間）、約8年間在籍した同社を退社すると発表した。OpenAIでは7月以降、最高未来責任者や安全システム責任者、AI倫理責任者など重要ポストを担った人物の退社や常勤職からの離脱が続いている。</p>
+<p>Lightcap氏は<a href="https://x.com/bradlightcap/status/2087211567012032862">Xへの投稿</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、サイバー防御者向け「Daybreak」をBlue／Redに2階層化　Redで新モデル「GPT-5.6-Cyber」提供</title>
@@ -149,42 +176,15 @@
 <p>OpenAIのPreparedness Framework（準備態勢フレームワーク）では、GPT-5.6-Cyberのサイバー能力を「High」と評価したものの、最上位の「Critical」の基準には達していないとしている。詳細な評価をまとめたSystem Cardは今後公開する予定だ。</p>
 <p>Daybreak BlueとRedは、認可された業務を行う承認済みの個人・組織が対象となる。OpenAIは本人確認、アカウント保護、モニタリング、用途制限、法的な確認などを組み合わせてアクセスを管理する。また、Daybreakを利用する個人アカウントには、9月1日からハードウェアセキュリティキーの導入を義務付けるとしている。</p>
 ]]></description>
-      <pubDate>Thu, 13 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
-      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
-      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
+      <title>Uber、東京ロボタクシー試験運行で日の丸交通と提携　WayveのAI搭載・日産リーフを2026年後半に導入</title>
+      <link>https://ledge.ai/articles/uber_hinomaru_robotaxi_tokyo</link>
+      <description><![CDATA[<p>Uber Technologiesは2026年8月13日、2026年後半に東京で予定するロボタクシー（自動運転タクシー）の試験運行について、日の丸交通と運行パートナーシップ契約を締結したと<a href="https://www.uber.com/jp/ja/newsroom/robotaxi-partner-hk/">発表</a>した。日の丸交通が認可を受けた運行主体となり、Wayveの自動運転システム「AI Driver」を搭載した日産リーフを運行する。初期段階では完全無人ではなく、日の丸交通の乗務員がセーフティドライバーとして同乗する。</p>
+<p>今回の契約は、Uber、Wayve、日産自動車が2026年3月に発表した<a href="https://wayve.ai/press/wayve-nissan-uber-robotaxi-collaboration/">東京でのロボタクシー展開に向けた協業</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 13 Aug 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
-      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
-      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Geminiアプリ、月間ユーザー10億人突破　Google史上最速の成長製品に</title>
-      <link>https://ledge.ai/articles/gemini_app_one_billion_mau</link>
-      <description><![CDATA[<p>Googleは2026年8月11日（現地時間）、生成AI「Gemini」アプリの月間アクティブユーザー数（MAU）が10億人を超えたと<a href="https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/">公式ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 12 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、ローカルAIエージェント向け「Muse Glimmer」公開　296億パラメータ、量子化版は24GB GPUで動作</title>
-      <link>https://ledge.ai/articles/meta_muse_glimmer_open_model</link>
-      <description><![CDATA[<p>Metaは2026年8月10日（現地時間）、ローカル環境で常時稼働するAIエージェント向けに設計したAIモデル「Muse Glimmer」を<a href="https://developer.meta.com/ai/models/muse-glimmer/">公開</a>した。約296億パラメータながら、量子化版は24GBのVRAMを搭載したハードウェアで動作するよう最適化されている。ツールを使った複数段階の作業やコーディング、失敗からの復旧など、AIエージェントとして長時間タスクを実行する能力を重視したモデルで、重みはApache 2.0ライセンスで公開されている。</p>
-<h2>同規模のGemma、Qwenと比較　エージェント系で高いスコア</h2>
-<p>MetaはMuse Glimmer-30Bを、同程度の規模を持つ「Gemma4-31B」「Qwen3.6-27B」と複数のベンチマークで比較した。</p>
-<p>AIエージェントのツール利用能力を測る「MCP Atlas」ではMuse Glimmerが75.5、Gemma4-31Bが54.2、Qwen3.6-27Bが62.5となった。「DeepSearch QA」では74.6、「GAIA2」では43.3を記録し、いずれも比較した2モデルを上回った。</p>
-<p>コーディング分野でも「SWE-Bench Pro」でMuse Glimmerが51.2となり、Gemma4-31Bの36.9、Qwen3.6-27Bの50.2を上回った。一方、「OSWorld-Verified」や「SWE-Bench Verified」などではQwen3.6-27Bの方が高く、すべての評価項目でMuse Glimmerが首位となったわけではない。</p>
-<p><strong>Muse Glimmer-30BとGemma4-31B、Qwen3.6-27Bのエージェント／コーディング系ベンチマーク比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/muse_glimmer_benchmarks_490101abc7/muse_glimmer_benchmarks_490101abc7.jpg" alt="muse glimmer benchmarks.jpg" /></p>
-<p>なお、Metaは<a href="https://research.meta.ai/static/muse-glimmer-methodology">評価方法</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 12 Aug 2026 07:50:00 GMT</pubDate>
+      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
@@ -194,43 +194,11 @@
       <pubDate>Mon, 10 Aug 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>生成AIは「使わせるだけ」では成果につながらない？　ルール・利用状況の管理で業務削減の実感に差　KPMG調査</title>
-      <link>https://ledge.ai/articles/kpmg_ai_governance_productivity</link>
-      <description><![CDATA[<p>KPMGコンサルティングは2026年7月29日、国内企業や官公庁などに勤務する2,788人を対象に、AIの利用状況やガバナンスの実態を調べた「AIの利活用・ガバナンス等の動向調査」を<a href="https://kpmg.com/jp/ja/media/press-releases/2026/07/kc-aiutilization-survey.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 10 Aug 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、エンジニアに「AIを大量に使えばいいわけではない」　社内メールで成果重視を強調</title>
-      <link>https://ledge.ai/articles/microsoft_ai_token_usage_outcomes</link>
-      <description><![CDATA[<p>Microsoftが社内エンジニアのAI利用について、トークン消費量そのものを増やすのではなく、業務成果を重視するよう求めていることが分かった。<a href="https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/">404 Media</a>{target=”_blank”}が2026年8月4日（現地時間）に報じ、The RegisterやTechRadarなど複数メディアも伝えている。</p>
-<h2>「トークンを大量に使うこと」が目的ではない</h2>
-<p>報道によると、Microsoft CoreAI担当エグゼクティブ・バイスプレジデントのJay Parikh氏は従業員向けメールで、GitHub Copilotの利用を加速させる一方、トークンの消費方法を意識する必要があると説明した。</p>
-<p>そのうえで、「Tokenmaxxing is not what we are optimizing for（トークンマキシングは、われわれが最適化しているものではない）」とし、顧客や事業を前進させる成果に集中するよう求めたという。</p>
-<p>「Tokenmaxxing（トークンマキシング）」は、生成AIへの入力や出力で消費するトークン量をできるだけ増やし、その利用量自体をAI活用の指標とするような考え方を指す。</p>
-<p><a href="https://www.techradar.com/pro/tokenmaxxing-is-not-what-we-are-optimizing-for-microsoft-tells-engineer-to-calm-down-on-ai-usage">TechRadar</a>{target=”_blank”}によると、Microsoftでは2026年7月から各部門に「AIトークン予算目標」が設けられ、従業員は自身のAI利用コストも確認できるようになったという。社内ガイドラインでは、多くのエンジニアが月に数百ドルから数千ドル相当のトークンを消費しているとのデータも示されたと報じられている。</p>
-<p>ただし、MicrosoftはAI利用そのものを減らそうとしているわけではない。Parikh氏は報道されたメールで、少ないトークンを目指すのではなく「1トークン当たりのインパクト」を高めることが目的だと説明している。The RegisterがMicrosoftに今回の報道について問い合わせたところ、同社は「付け加えることはない」と回答した。</p>
-<h2>Microsoft公式も「活動量＝成果」ではないと強調</h2>
-<p>今回報じられた考え方は、Microsoftが公開している開発者の生産性評価の方針とも重なる。</p>
-<p>Microsoftは5月28日、AI時代の開発者生産性を評価するフレームワーク「EngThrive」を公式技術メディア「Command Line」で<a href="https://commandline.microsoft.com/engineering-thrive-engthrive-productivity-measurement-framework-agentic-ai-era/">紹介</a>{target=”_blank”}した。その中で、AIによってコード量やプルリクエスト数などが大きく変化するなか、開発者の活動量だけで生産性を判断すべきではないと説明。「Activity metrics are not outcome metrics（活動指標は成果指標ではない）」と明記している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Activity_metrics_are_not_outcome_metrics_ecced0e0bb/Activity_metrics_are_not_outcome_metrics_ecced0e0bb.jpg" alt="Activity metrics are not outcome metrics.jpg" /></p>
-<p>さらに、Microsoft所属研究者が7月に公開した<a href="https://arxiv.org/abs/2607.01418">研究</a>{target=\</p>
-]]></description>
-      <pubDate>Mon, 10 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
       <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
       <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 09 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AI学習用に数百万冊の書籍を裁断・スキャンし廃棄　希少本・古書の保存めぐり懸念</title>
-      <link>https://ledge.ai/articles/anthropic_book_scanning_rare_books</link>
-      <description><![CDATA[<p>Anthropicが数百万冊の紙の書籍を購入し、製本を外してページを裁断・スキャンした後、原本を廃棄していたことをめぐり、希少本や古書の保存への懸念が広がっている。英<a href="https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain">Guardian</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 09 Aug 2026 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
