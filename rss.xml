@@ -5,32 +5,11 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>学術＆研究2026/8/15 [SAT]AIとの長い会話で「妄想スパイラル」が悪化　自傷を止めない割合30％→41％、スタンフォード大などの研究</title>
-      <link>https://ledge.ai/articles/ai_delusional_spirals_stanford</link>
-      <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 15 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
-      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
-      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 13 Aug 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
-      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
-      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Alibaba「Qwen」シリーズ、半年で30億ダウンロード　新モデル「Qwen3.8-27B」のウェイトも公開</title>
       <link>https://ledge.ai/articles/alibaba_qwen_3_billion_downloads_qwen3_8_27b</link>
       <description><![CDATA[<p>中国・アリババ（阿里巴巴）が展開するオープンウェイトAIモデル「Qwen」シリーズが、過去6カ月間で世界累計30億回以上ダウンロードされたことがわかった。Bloombergが2026年8月15日、アリババの説明として<a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">報じた</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIセキュリティに「万能なルール」はない――Elithが語る、AI時代に求められる防御の考え方</title>
@@ -45,28 +24,28 @@
 <p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
 <p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google「Gemini 3.7 Flash」公開　わずか3週間で更新、コーディング・AIエージェント強化　初回価格は従来比半額</title>
       <link>https://ledge.ai/articles/gemini_3_7_flash_coding_agent_update</link>
       <description><![CDATA[<p>Googleは2026年8月13日（米国時間）、コーディングやAIエージェント機能を強化した主力AIモデル「[Gemini 3.7 Flash」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/">公開</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、手話を文字にする多言語AI「SL2T」発表　Pixel 11でASL→英語入力、50以上の手話言語で学習</title>
       <link>https://ledge.ai/articles/google_deepmind_sign_language_to_text_pixel_11</link>
       <description><![CDATA[<p>Google DeepMindは2026年8月12日、手話の映像をテキストに翻訳する多言語AIモデル「sign-language-to-text（SL2T）」を<a href="https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google Meet、対面会議でもGeminiが自動メモ　要約・アクション項目・全文文字起こしをGoogle Docsに保存</title>
       <link>https://ledge.ai/articles/google_meet_in_person_ai_notes</link>
       <description><![CDATA[<p>Googleは2026年8月13日、Google MeetのAIによる自動メモ機能「Take notes for me（自動メモ生成）」を、対面会議でも利用できるようにすると<a href="https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIで人事業務は変わる。これからの人事部に求められる役割とは――MCD3に聞くAI時代の人事</title>
@@ -125,7 +104,7 @@
 <p>ただし、AIが導き出した分析結果だけで組織が動くわけではない。重要なのは、データから得られた示唆をもとに、人と人との対話を生み出し、組織として実行される方向へ導いていくことだ。AIは人事の代わりに判断する存在ではなく、人事がより本質的な課題に向き合うための基盤となる。</p>
 <p>HRテックもまた、単なる業務効率化ツールから、経営と人材戦略をつなぐ基盤へと進化している。AI時代に問われるのは、「AIによって人事がなくなるのか」ではない。データによって見えるものが増えるほど、最後に問われるのは、その情報をもとに人と組織をどう動かすかという人事の力である。</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI元COOブラッド・ライトキャップ氏が退社　安全・倫理責任者など重要人物の離職相次ぐ</title>
@@ -133,7 +112,7 @@
       <description><![CDATA[<p>OpenAIの元最高執行責任者（COO）Brad Lightcap（ブラッド・ライトキャップ）氏は2026年8月11日（現地時間）、約8年間在籍した同社を退社すると発表した。OpenAIでは7月以降、最高未来責任者や安全システム責任者、AI倫理責任者など重要ポストを担った人物の退社や常勤職からの離脱が続いている。</p>
 <p>Lightcap氏は<a href="https://x.com/bradlightcap/status/2087211567012032862">Xへの投稿</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、Linux版「ChatGPT」デスクトップアプリをプレビュー公開　「Work」「Codex」も利用可能</title>
@@ -148,14 +127,14 @@
 <p>OpenAIは7月9日、従来のCodexアプリをmacOSとWindows向けChatGPTデスクトップアプリに統合した。Codexは独立したコーディング用の画面を維持しながら、ChatGPTのChat、Workと同じアプリ内から利用できる形となった。今回のLinux版公開により、この統合型のデスクトップ環境がLinuxにも拡大したことになる。</p>
 <p>Linux版の詳細なインストール手順や対応ディストリビューションは、OpenAIの公式ドキュメントで公開されている。プレビュー期間中は機能や対応環境が変更される可能性がある。</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、GPT-5.6 Solを最大14倍高速化　Cerebras基盤の「Ultrafast」発表</title>
       <link>https://ledge.ai/articles/openai_gpt_5_6_sol_ultrafast_cerebras</link>
       <description><![CDATA[<p>OpenAIと米Cerebrasは2026年8月13日（現地時間）、AIモデル「GPT-5.6 Sol」を高速で動作させる新たなAPIサービスティア「Ultrafast mode」を<a href="https://openai.com/index/previewing-ultrafast/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Uber、東京ロボタクシー試験運行で日の丸交通と提携　WayveのAI搭載・日産リーフを2026年後半に導入</title>
@@ -163,14 +142,28 @@
       <description><![CDATA[<p>Uber Technologiesは2026年8月13日、2026年後半に東京で予定するロボタクシー（自動運転タクシー）の試験運行について、日の丸交通と運行パートナーシップ契約を締結したと<a href="https://www.uber.com/jp/ja/newsroom/robotaxi-partner-hk/">発表</a>した。日の丸交通が認可を受けた運行主体となり、Wayveの自動運転システム「AI Driver」を搭載した日産リーフを運行する。初期段階では完全無人ではなく、日の丸交通の乗務員がセーフティドライバーとして同乗する。</p>
 <p>今回の契約は、Uber、Wayve、日産自動車が2026年3月に発表した<a href="https://wayve.ai/press/wayve-nissan-uber-robotaxi-collaboration/">東京でのロボタクシー展開に向けた協業</a>{target=\</p>
 ]]></description>
-      <pubDate>Wed, 12 Aug 2026 05:50:00 GMT</pubDate>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、開発中AI「Astra」が初の最高水準「Critical」に達する可能性　一部の内部活動を停止</title>
-      <link>https://ledge.ai/articles/openai_astra_critical_cyber</link>
-      <description><![CDATA[<p>OpenAIは2026年8月7日（現地時間）、開発中のAIモデル「Astra」について、サイバーセキュリティ能力が同社の安全性基準で最高水準となる「Critical」に達している可能性を排除できないと<a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">発表</a>{target=\</p>
+      <title>学術＆研究2026/8/15 [SAT]AIとの長い会話で「妄想スパイラル」が悪化　自傷を止めない割合30％→41％、スタンフォード大などの研究</title>
+      <link>https://ledge.ai/articles/ai_delusional_spirals_stanford</link>
+      <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
 ]]></description>
-      <pubDate>Mon, 10 Aug 2026 07:50:00 GMT</pubDate>
+      <pubDate>Sat, 15 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、Claude生成テキストに「見えない透かし」　コピペ後も付随、APIやClaude Codeも対象</title>
+      <link>https://ledge.ai/articles/anthropic_claude_text_watermark</link>
+      <description><![CDATA[<p>Anthropicは2026年8月10日（現地時間）に更新した<a href="https://support.claude.com/ja/articles/16266773-claude%E3%81%8C%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%81%A6%E7%94%9F%E6%88%90ai%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%82%92%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%99%E3%82%8B%E3%81%8B">公式サポートページ</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
+      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
+      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
