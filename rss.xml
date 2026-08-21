@@ -5,11 +5,32 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google Meet、対面会議でもGeminiが自動メモ　要約・アクション項目・全文文字起こしをGoogle Docsに保存</title>
+      <link>https://ledge.ai/articles/google_meet_in_person_ai_notes</link>
+      <description><![CDATA[<p>Googleは2026年8月13日、Google MeetのAIによる自動メモ機能「Take notes for me（自動メモ生成）」を、対面会議でも利用できるようにすると<a href="https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 18 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5.6 Solを最大14倍高速化　Cerebras基盤の「Ultrafast」発表</title>
+      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_ultrafast_cerebras</link>
+      <description><![CDATA[<p>OpenAIと米Cerebrasは2026年8月13日（現地時間）、AIモデル「GPT-5.6 Sol」を高速で動作させる新たなAPIサービスティア「Ultrafast mode」を<a href="https://openai.com/index/previewing-ultrafast/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 18 Aug 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Alibaba「Qwen」シリーズ、半年で30億ダウンロード　新モデル「Qwen3.8-27B」のウェイトも公開</title>
       <link>https://ledge.ai/articles/alibaba_qwen_3_billion_downloads_qwen3_8_27b</link>
       <description><![CDATA[<p>中国・アリババ（阿里巴巴）が展開するオープンウェイトAIモデル「Qwen」シリーズが、過去6カ月間で世界累計30億回以上ダウンロードされたことがわかった。Bloombergが2026年8月15日、アリババの説明として<a href="https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google">報じた</a>{target=\</p>
 ]]></description>
       <pubDate>Mon, 17 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google「Gemini 3.7 Flash」公開　わずか3週間で更新、コーディング・AIエージェント強化　初回価格は従来比半額</title>
+      <link>https://ledge.ai/articles/gemini_3_7_flash_coding_agent_update</link>
+      <description><![CDATA[<p>Googleは2026年8月13日（米国時間）、コーディングやAIエージェント機能を強化した主力AIモデル「[Gemini 3.7 Flash」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 17 Aug 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX傘下のCursor、コードホスティング「Origin」提供開始　GitHub同期に対応、AIエージェント時代を想定</title>
@@ -33,20 +54,6 @@
 <p>「従来のセキュリティとの一番大きな違いは、そもそもブロックできないことです。」</p>
 <p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
 <p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google「Gemini 3.7 Flash」公開　わずか3週間で更新、コーディング・AIエージェント強化　初回価格は従来比半額</title>
-      <link>https://ledge.ai/articles/gemini_3_7_flash_coding_agent_update</link>
-      <description><![CDATA[<p>Googleは2026年8月13日（米国時間）、コーディングやAIエージェント機能を強化した主力AIモデル「[Gemini 3.7 Flash」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Meet、対面会議でもGeminiが自動メモ　要約・アクション項目・全文文字起こしをGoogle Docsに保存</title>
-      <link>https://ledge.ai/articles/google_meet_in_person_ai_notes</link>
-      <description><![CDATA[<p>Googleは2026年8月13日、Google MeetのAIによる自動メモ機能「Take notes for me（自動メモ生成）」を、対面会議でも利用できるようにすると<a href="https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
@@ -146,13 +153,6 @@
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、GPT-5.6 Solを最大14倍高速化　Cerebras基盤の「Ultrafast」発表</title>
-      <link>https://ledge.ai/articles/openai_gpt_5_6_sol_ultrafast_cerebras</link>
-      <description><![CDATA[<p>OpenAIと米Cerebrasは2026年8月13日（現地時間）、AIモデル「GPT-5.6 Sol」を高速で動作させる新たなAPIサービスティア「Ultrafast mode」を<a href="https://openai.com/index/previewing-ultrafast/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、モデル開発を一時「減速」　最新モデルのRL学習を2週間停止、最大規模の学習は現在も保留</title>
       <link>https://ledge.ai/articles/openai_model_development_slowdown_rl_pause</link>
       <description><![CDATA[<p>OpenAIは2026年8月18日（現地時間）、AIモデルの能力向上に伴うリスクへの安全対策を強化するため、モデル開発のスケーリングを一時的に減速したことを<a href="https://openai.com/index/pacing-model-development-cyber-capabilities/">発表</a>{target=\</p>
@@ -197,20 +197,6 @@
       <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 15 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>テレビ朝日、サントリー「GREEN DA・KA・RA」のCM映像を全編生成AIで制作　放送現場でのAI活用も進む</title>
-      <link>https://ledge.ai/articles/tv_asahi_green_dakara_generative_ai_cm</link>
-      <description><![CDATA[<p>テレビ朝日は2026年8月9日、映像部分を全編生成AIで制作したテレビCM「楽しい夏にはGREEN DA・KA・RA」篇を制作したと<a href="https://prtimes.jp/main/html/rd/p/000000501.000030888.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 13 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ガートナー、日本のデジタル・ワークプレース2026年版を発表　エージェント型AIは主流採用まで5〜10年</title>
-      <link>https://ledge.ai/articles/gartner_japan_digital_workplace_hype_cycle_2026</link>
-      <description><![CDATA[<p>ガートナージャパンは2026年8月5日、[「日本における未来のデジタル・ワークプレースのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 09 Aug 2026 22:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
