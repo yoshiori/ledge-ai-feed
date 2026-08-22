@@ -33,6 +33,28 @@
       <pubDate>Mon, 17 Aug 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>AIセキュリティに「万能なルール」はない――Elithが語る、AI時代に求められる防御の考え方</title>
+      <link>https://ledge.ai/articles/elith-interview</link>
+      <description><![CDATA[<p>生成AIやAIエージェントの導入が企業で加速する一方、「AIをどう安全に使うか」という問いは、ますます重要性を増している。
+多くの企業では、AI利用のガイドライン策定やプロンプトによる制御、ガードレールの導入など、さまざまな対策が進められている。しかし、それらを積み重ねるだけで、本当にAIは安全になるのだろうか。</p>
+<p>この問いに一石を投じたのが、AIセキュリティの研究開発と企業向けソリューションを展開する株式会社Elithだ。同社は、防御用プロンプトを増やしても攻撃耐性は高まらず、むしろ攻撃側が有利になるケースがあることを研究で示した。</p>
+<p>AIセキュリティは従来の情報セキュリティと何が違うのか。そして企業は、AI時代のリスクとどう向き合うべきなのか。株式会社Elith 代表取締役の井上氏に話を聞いた。</p>
+<p>※取材は2026年8月4日に行われた。</p>
+<h2>AIセキュリティは「侵入を防ぐ」から「侵入される前提」へ</h2>
+<p>「従来のセキュリティとの一番大きな違いは、そもそもブロックできないことです。」</p>
+<p>井上氏は開口一番、そう語った。従来の情報セキュリティでは、外部からの攻撃をファイアウォールなどで遮断し、システム内部へ侵入させないことが基本的な考え方だった。一方、生成AIはチャットインターフェースを介してユーザーから自然言語を受け取り、それを処理する仕組みである。つまり、「入力されること」そのものが前提となっている。井上氏は、この構造の違いこそがAIセキュリティを難しくしている要因だと説明する。</p>
+<p>「チャットベースなので、もう入られているんですよ。今までのように\</p>
+]]></description>
+      <pubDate>Mon, 17 Aug 2026 01:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>学術＆研究2026/8/15 [SAT]AIとの長い会話で「妄想スパイラル」が悪化　自傷を止めない割合30％→41％、スタンフォード大などの研究</title>
+      <link>https://ledge.ai/articles/ai_delusional_spirals_stanford</link>
+      <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>生成AIで架空の女性「中村りほ」を演出し政治投稿　立憲民主党栃木県連の男性党員がX運用</title>
       <link>https://ledge.ai/articles/ai_fake_political_persona_x</link>
       <description><![CDATA[<p>立憲民主党栃木県連に党員として登録する男性が、生成AIで作成したとみられる女性画像を使い、架空の女性「中村りほ」としてXで選挙や政治活動に関する投稿をしていたことが2026年8月19日までに分かった。共同通信などが県連への取材をもとに<a href="https://news.livedoor.com/article/detail/32106812/">報じた</a>{target=”_blank”}。問題のXアカウントは現在、凍結されている。</p>
@@ -217,13 +239,6 @@
       <description><![CDATA[<p>ビザ・ワールドワイド・ジャパンは2026年8月17日、オンラインでの買い物をAIやAIエージェントにどこまで任せられるかを尋ねた消費者調査の結果を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260817.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/8/15 [SAT]AIとの長い会話で「妄想スパイラル」が悪化　自傷を止めない割合30％→41％、スタンフォード大などの研究</title>
-      <link>https://ledge.ai/articles/ai_delusional_spirals_stanford</link>
-      <description><![CDATA[<p>スタンフォード大学などの研究チームは2026年8月5日、AIチャットボットがユーザーの妄想的な考えを助長する可能性を評価する新手法「<a href="https://arxiv.org/abs/2608.05004">DelusionEval</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 15 Aug 2026 02:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
