@@ -83,6 +83,34 @@
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Googleと英政府、AIで温暖化につながる飛行機雲を避けるプロジェクト「Operation Blue Skies」始動　北大西洋の空域全体で実証へ</title>
+      <link>https://ledge.ai/articles/google_operation_blue_skies_contrail_avoidance</link>
+      <description><![CDATA[<p>Googleは2026年8月18日（現地時間）、英政府や英国の航空管制サービス大手NATSなどと共同で、AIを使って飛行機雲（コントレイル）の発生を避ける大規模実証プログラム「Operation Blue Skies」を開始すると<a href="https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/">発表</a>した。航空会社ごとの実証から対象を広げ、北大西洋の航空管制空域全体で飛行機雲回避を試す。GoogleとNATSは、政府支援による海洋空域規模の飛行機雲回避実証として世界初としている。</p>
+<p><strong>■ Operation Blue Skiesの実証対象となる北大西洋のシャンウィック空域。赤色は飛行機雲の発生予測領域、白線は衛星画像からAIが検出した飛行機雲を示す</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Shanwick_Oceanic_Diagram_width_1200_format_webp_b653c28048/Shanwick_Oceanic_Diagram_width_1200_format_webp_b653c28048.jpg" alt="Shanwick_Oceanic_Diagram.width-1200.format-webp.jpg" /></p>
+<h2>AIが飛行機雲のできやすい場所を予測、航空機の高度を調整</h2>
+<p>飛行機雲は、航空機が低温で湿度の高い空域を飛行した際、ジェットエンジンの排気に含まれる粒子の周囲で水蒸気が凝結・凍結することで形成される雲である。条件によっては長時間残って巻雲のように広がり、地表から宇宙へ逃げる熱を閉じ込めるため、気候を温暖化させる方向に働く。</p>
+<p>Googleは、温暖化につながる飛行機雲が航空全体の気候影響のおよそ3分の1を占めるとしている。一方、飛行機雲が形成されやすい空域を事前に予測できれば、航空機の高度などをわずかに変更して、その空域を避けられる可能性がある。</p>
+<p><strong>■ 飛行機雲が形成される仕組みと気候への影響を示したGoogleの解説図。日中は太陽光を反射する一方、地表からの熱を閉じ込める働きもあり、全体では温暖化につながる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Contrails_what_are_contrails_width_1250_77b688eafb/Contrails_what_are_contrails_width_1250_77b688eafb.jpg" alt="Contrails_what-are-contrails.width-1250.jpg" /></p>
+<p><strong>■ 航空の気候影響に占める要因を示したGoogle Researchの図。Lee et al. 2021に基づき、飛行機雲の割合を35.3％としている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Contrails_aviations_climate_impact_width_1250_94aebf0b20/Contrails_aviations_climate_impact_width_1250_94aebf0b20.jpg" alt="Contrails_aviations-climate-impact.width-1250.jpg" /></p>
+<p>Googleはこれまで、衛星画像や気象データ、飛行経路のデータなどをAIで分析し、飛行機雲が形成されやすい場所を予測する技術を研究してきた。</p>
+<p>2023年にはAmerican Airlinesと70便を使った実証を行い、AIによる予測を参考に飛行高度を変更した結果、飛行機雲を<a href="https://blog.google/innovation-and-ai/technology/ai/ai-airlines-contrails-climate-change/">54％削減</a>した。その後、航空会社の飛行計画システムにAI予測を組み込んだ実証へ拡大。2026年3月に公表した2400便の大西洋横断便を対象とした研究では、回避計画に沿って飛行できた便について、対照群と比較して飛行機雲形成率が62％低かったとしている。</p>
+<h2>北大西洋の約1万便が通過する空域で実証</h2>
+<p>Operation Blue Skiesでは、こうした航空会社単位の取り組みを、複数の航空会社が行き交う空域全体へ広げる。</p>
+<p>対象となるのは、北大西洋航路の東半分に位置する「シャンウィック（Shanwick）空域」。Googleによると、この空域だけで世界の飛行機雲による温暖化影響の約5％を占めるという。</p>
+<p>プログラムは30カ月間で、2026～2027年と2027～2028年の冬季に、それぞれ約4カ月間の運用実証を行う。NATSによると、実際に航空機の高度を変更する試験日は各冬20～40日程度を<a href="https://www.nats.aero/news/operation-blue-skies-takes-off-landmark-oceanic-airspace-trial-to-test-ai-driven-contrail-avoidance/">予定</a>しており、航空交通量が比較的少ない時間帯を中心に実施する。</p>
+<p>試験時間中には年間約1万便がシャンウィック空域を通過する見込みだが、経路を変更するのはこのうち、飛行機雲が発生しやすい空域を通過すると予測された一部の便となる。通常の航空管制の仕組みを使い、小規模な高度変更によって温暖化効果の強い飛行機雲の形成を回避できるか検証する。</p>
+<h2>GoogleのAI予測をNATSの航空管制に組み込む</h2>
+<p>実証ではGoogle UKが、温暖化につながる飛行機雲の発生場所を予測するAIモデルを開発する。さらに機械学習と衛星画像を使い、航空機が高度を変更した後に実際に飛行機雲の形成を避けられたかを追跡する。</p>
+<p>NATSは実際の空域運用や航空管制との調整、安全性の評価、航空管制官の訓練を担当する。英気象庁は飛行機雲予測のための気象予測能力を開発し、Contrails.orgは予測モデルの評価や試験条件の設計、データ分析を担う。インペリアル・カレッジ・ロンドンとケンブリッジ大学は、実証結果と気候への影響を独立して<a href="https://www.metoffice.gov.uk/blog/2026/operation-blue-skies-advancing-weather-intelligence-for-aviation">評価</a>する。</p>
+<p>Operation Blue Skiesの事業規模は500万ポンド（約10億円）で、英運輸省がATI Programmeを通じて265万ポンドを支援する。Google UKはAI研究やエンジニアリング、高性能コンピューティング基盤など140万ポンド相当を現物提供する。</p>
+<p>これまでの実証では、航空会社が自社便ごとに飛行機雲を避ける方法が中心だった。Operation Blue Skiesでは、AIによる予測を航空管制側に組み込み、異なる航空会社の複数の航空機が同じ空域を飛ぶ環境でも安全に運用できるかを検証する。空域規模での効果と運用上の課題を確認することが、今回の30カ月間のプログラムの中心となる。</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、破綻したスピリット航空の社内データを1000万ドルで落札　メール1億件・Teams 5億件、AIモデル改善へ</title>
       <link>https://ledge.ai/articles/google_spirit_airlines_ai_training_data</link>
       <description><![CDATA[<p>Googleが、経営破綻した米格安航空会社Spirit Airlines（スピリット航空）の大量の社内データを1000万ドルで取得する見通しであることが分かった。2026年8月14日に米連邦破産裁判所へ提出された<a href="https://document.epiq11.com/document/getdocumentbycode?docId=4606206&amp;projectCode=SPJ&amp;source=DM">資料</a>によると、Googleは同社のデータ資産を巡るオークションで最高額を提示した。対象には約1億件のメールや約5億件のMicrosoft Teamsのデータなどが含まれる。</p>
@@ -222,14 +250,6 @@
 <p>Salesforceは、Slack CodeのパートナーとしてAnthropic、Cognition、GitHub、OpenAI、Vercelなどを挙げている。ClaudeやDevin、GitHub Copilot、ChatGPT、Vercelのエージェントなどとの連携を進めている。</p>
 <p>また、code channel内のAIエージェントにはSlackの既存のセキュリティモデルや権限、管理者向けの制御が適用されるとしている。コードを本番環境に反映するなど重要な操作については、専門家による確認を挟む仕組みも説明している。</p>
 <p>Salesforceによると、Slack CodeはSlackの各プランで利用可能で、利用するAIエージェントについては各パートナー側のアクセス権が別途必要となる。提供状況は地域などによって異なる場合があるとのこと。</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Uber、東京ロボタクシー試験運行で日の丸交通と提携　WayveのAI搭載・日産リーフを2026年後半に導入</title>
-      <link>https://ledge.ai/articles/uber_hinomaru_robotaxi_tokyo</link>
-      <description><![CDATA[<p>Uber Technologiesは2026年8月13日、2026年後半に東京で予定するロボタクシー（自動運転タクシー）の試験運行について、日の丸交通と運行パートナーシップ契約を締結したと<a href="https://www.uber.com/jp/ja/newsroom/robotaxi-partner-hk/">発表</a>した。日の丸交通が認可を受けた運行主体となり、Wayveの自動運転システム「AI Driver」を搭載した日産リーフを運行する。初期段階では完全無人ではなく、日の丸交通の乗務員がセーフティドライバーとして同乗する。</p>
-<p>今回の契約は、Uber、Wayve、日産自動車が2026年3月に発表した<a href="https://wayve.ai/press/wayve-nissan-uber-robotaxi-collaboration/">東京でのロボタクシー展開に向けた協業</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
