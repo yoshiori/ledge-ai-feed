@@ -249,6 +249,31 @@
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Sakana AI、「Sakana Translate」を新世代Namazuに更新　日英翻訳の自社評価でGoogle翻訳・DeepLなど上回る</title>
+      <link>https://ledge.ai/articles/sakana_translate_namazu_update</link>
+      <description><![CDATA[<p>Sakana AIは2026年8月21日、翻訳サービス「Sakana Translate」の翻訳モデルを新世代の「Sakana Namazu」にアップデートしたと<a href="https://sakana.ai/translate-update/">発表</a>した。日本語・英語・中国語の双方向翻訳という提供範囲は変わらないが、ベースモデルの刷新と学習手法の改善によって、訳文の自然さを高めたとしている。サービスは引き続き無料で利用できる。</p>
+<h2>新世代「Sakana Namazu」を翻訳エンジンに採用</h2>
+<p>Sakana Namazuは、日本語だけでなく、その背景にある文化や文脈の理解を重視して開発されたSakana AIの日本語特化LLMである。同社は2026年8月3日、新世代のSakana NamazuをAPIとして<a href="https://sakana.ai/namazu-api/">提供</a>している。</p>
+<p>新世代モデルは、Moonshot AIが公開するオープンモデル「Kimi K2.6」をベースに、Sakana AI独自のデータを使って日本語や日本の業務文脈に適合させたものだ。今回、これをSakana Translateの翻訳モデルにも採用した。</p>
+<p>Sakana AIは翻訳例として、「お宮参りに行きます。」という日本語を紹介している。Sakana Translateは「We are going to the shrine for our baby's first visit.」と訳しており、「お宮参り」を単純に固有語として置き換えるのではなく、文化的な意味を英語で説明する形に変換している。</p>
+<p><strong>■ 「お宮参り」の日英翻訳例。Sakana AIは、日本独特の文化背景を踏まえた自然な翻訳例として紹介している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_example_cad9ff02df/translate_example_cad9ff02df.png" alt="translate-example.png" /></p>
+<h2>日英160件を比較　Google翻訳との比較では66.9％</h2>
+<p>Sakana AIは翻訳品質を評価するため、同社が開発した翻訳評価手法「TransEvalnia」を使用した。TransEvalniaは、訳語の適切さや自然さなど複数の観点から、2つの翻訳文のどちらが優れているかを判定する手法で、2025年に<a href="https://arxiv.org/abs/2507.12724">論文</a>が公開されている。</p>
+<p>今回の評価では、Sakana AIが独自に用意した日英翻訳タスク160件について、Sakana Translateと他の翻訳モデル・サービスを1対1で比較した。</p>
+<p>Sakana Translateの出力がより優れていると判定された割合は、Google翻訳との比較で66.9％、Opus 4.8で56.8％、DeepLで54.0％となり、すべての比較対象で50％を上回った。</p>
+<p>ただし、これはSakana AIが独自に用意した翻訳タスクと自社開発の評価手法を用いた結果であり、第三者機関による評価ではない。</p>
+<p><strong>■ 日英翻訳160件を用いた1対1評価の結果。数値はSakana AIによる自社評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_score_37576ef275/translate_score_37576ef275.png" alt="translate-score.png" /></p>
+<h2>翻訳・添削・質疑の3機能は継続　ファイル翻訳も予定</h2>
+<p>Sakana Translateは2026年7月に<a href="https://sakana.ai/translate-release/">公開</a>された翻訳サービスで、「翻訳」「添削」「質疑」の3機能を備える。</p>
+<p>翻訳では最大約5000字の長文に対応し、訳文をストリーミング表示する。添削では、文法だけでなく自然さや丁寧さ、トーン、相手との距離感などを調整し、変更箇所を差分で表示する。質疑では、翻訳結果についてニュアンスや別表現、文法、語彙選択などを追加で質問できる。</p>
+<p>今回のモデル更新に伴う追加操作は必要なく、アップデート以降は3機能すべてが新しいモデルで動作する。</p>
+<p>今後は、PDFやMicrosoft Officeファイルを直接アップロードして翻訳する機能のほか、用語集との連携、特定業界向けの翻訳モデル、API提供を予定している。SSOや監査ログ、オンプレミス対応など、企業向け機能の展開も進めるとしている。</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Slack、AIコーディングエージェントとチームで共同開発　新機能「Slack Code」発表</title>
       <link>https://ledge.ai/articles/slack_code_ai_coding_agents</link>
       <description><![CDATA[<p>Salesforce傘下のSlackは2026年8月20日（現地時間）、AIコーディングエージェントとチームで共同作業するための新機能「Slack Code」を<a href="https://www.salesforce.com/introducing-slack-code/">発表</a>した。AIエージェントとのコーディング作業を個人のブラウザやターミナル内に閉じず、Slack上の専用チャンネルでチームと共有できるようにする。</p>
