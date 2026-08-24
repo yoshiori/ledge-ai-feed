@@ -110,6 +110,28 @@
       <pubDate>Mon, 17 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、「Claude Mythos 5」をClaude Securityに導入　モデルは直接開放せず脆弱性スキャンに限定</title>
+      <link>https://ledge.ai/articles/anthropic_claude_mythos_5_security_vulnerability_scan</link>
+      <description><![CDATA[<p>Anthropicは2026年8月21日（現地時間）、同社がサイバーセキュリティ分野で最も高性能と位置づけるAIモデル「Claude Mythos 5」を、セキュリティ向けサービス「Claude Security」の脆弱性スキャンで利用できるようにしたと<a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">発表</a>した。</p>
+<p>Claude Securityは、コードベースから脆弱性を検出し、修正案を提示するサービスで、Claude Enterpriseの顧客向けにパブリックベータとして提供されている。今回の特徴は、利用者にMythos 5そのものへの直接アクセスを与えるのではなく、脆弱性の検出や修正案といった防御用途の結果に限定して、その能力を利用できるようにした点にある。</p>
+<h2>Claude SecurityのスキャンをMythos 5で実行</h2>
+<p>Claude Securityは2026年4月30日、Claude Enterpriseの顧客向けにパブリックベータとして<a href="https://claude.com/blog/claude-security-public-beta">公開</a>された。当初、脆弱性の検出や修正には「Claude Opus 4.7」を使用していたが、今回、Claude Securityアプリ上で実行するスキャンをMythos 5へ切り替えた。</p>
+<p>Enterpriseの管理者がClaude Securityを有効化すると、利用者はリポジトリを選択してMythos 5によるスキャンを実行できる。検出結果には、脆弱性の種類を示すCWE（Common Weakness Enumeration）の分類、信頼度、深刻度、修正案などが表示される。</p>
+<p>修正はWeb版のClaude Codeから実施できるが、この段階では組織がClaude Codeで利用できる別のモデルを使用する。Mythos 5によるスキャンを利用しても、Claude Codeなどほかの機能でMythos 5を直接利用できるようになるわけではない。また、生成された修正パッチは適用前に人間による確認と承認が必要となる。</p>
+<p>Mythos 5によるスキャンに専用の追加料金はなく、既存のEnterpriseプランにおける通常のトークン使用量として課金される。</p>
+<h2>モデルそのものは直接開放せず</h2>
+<p>Anthropicは2026年6月、Claude Mythos 5を<a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">発表</a>した。同社は同モデルをサイバーセキュリティや生物学研究で高い能力を持つモデルと位置づける一方、その能力が攻撃などにも転用できることから、当初は審査を通過した一部のパートナーに利用を限定していた。</p>
+<p>今回のClaude Securityへの導入でも、こうした制限そのものをなくしたわけではない。</p>
+<p>Anthropicは、利用者がモデルへ直接指示できる場合、悪意のある利用者が攻撃目的の処理を実行させようとするリスクが高まると説明している。一方、脆弱性に対する修正パッチやセキュリティ警告など、用途を限定した結果だけを受け取る仕組みであれば、リスクを抑えながら防御側にモデルの能力を提供できるとしている。</p>
+<p>Claude SecurityではMythos 5がバックグラウンドでコードを解析するものの、利用者がMythos 5へ自由にプロンプトを送り、例えば脆弱性を悪用するコードの作成を指示することはできない。</p>
+<h2>パートナーのセキュリティ製品にもMythos 5を展開へ</h2>
+<p>Anthropicは今回、Claude Securityだけでなく、サイバーセキュリティ関連の技術企業やサービス企業とも連携し、各社の既存製品やサービスへのMythos 5統合を進める方針を明らかにした。こちらでも、利用者がMythos 5を直接操作するのではなく、特定のセキュリティ機能の裏側でモデルを動かす形を想定している。</p>
+<p>さらに、オープンソースソフトウェアのセキュリティ強化を支援する「Defender Advantage Fund（0xDAF）」も新設する。脆弱性の修正やスキャン・修正作業の自動化などに取り組む組織に対し、総額3,500万ドル相当のClaudeクレジットを提供する。</p>
+<p>Anthropicは今後、正当なサイバーセキュリティ活動を行う組織向けの「Cyber Verification Program」も拡大し、Mythosクラスのモデルを利用できる範囲を段階的に広げる方針を示している。</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SpaceX傘下のCursor、コードホスティング「Origin」提供開始　GitHub同期に対応、AIエージェント時代を想定</title>
       <link>https://ledge.ai/articles/cursor_origin_code_hosting</link>
       <description><![CDATA[<p>AIコーディングツール「Cursor」の開発元は2026年8月17日、コードホスティングサービス「Origin」の初期ベータ版の提供を開始したことを<a href="https://cursor.com/ja/changelog/origin-code-hosting">発表</a>した。リポジトリのホスティングやPR（プルリクエスト）、コード閲覧、GitHubとの同期などに対応し、すべての有料プランを対象に順次提供する。CursorはOriginを「エージェント時代のgit forge」と位置づけている。</p>
@@ -265,21 +287,6 @@ KDDI Market Compassについては、3年間で数十社への導入、累計売
       <title>AIエージェントがHugging Faceへ自律侵入　OpenAIブロックマン氏「防御側の猶予は今」、10項目を提言</title>
       <link>https://ledge.ai/articles/openai_brockman_defenders_window_ai_cybersecurity</link>
       <description><![CDATA[<p>OpenAIの共同創業者で社長を務めるグレッグ・ブロックマン氏は2026年8月17日、AIのサイバー攻撃能力が高まるなか、企業や組織が防御側として今取り組むべき対策をまとめた記事「The Defender’s Window」を<a href="https://openai.com/index/the-defenders-window/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Linux版「ChatGPT」デスクトップアプリをプレビュー公開　「Work」「Codex」も利用可能</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_linux_desktop_app</link>
-      <description><![CDATA[<p>OpenAIは2026年8月11日（現地時間）、Linux向け「ChatGPT」デスクトップアプリのプレビュー版を公開した。ChatGPTに加え、複雑な業務をAIに任せる「ChatGPT Work」や、コーディングエージェント「Codex」をデスクトップアプリから利用できる。これまでmacOSとWindows向けに展開してきた統合デスクトップ環境が、Linuxにも広がった。</p>
-<h2>Ubuntu、Debian、Fedoraに対応　x64とARM64をサポート</h2>
-<p>Linux版は現時点でプレビューとして提供されており、Ubuntu 24.04 LTS／26.04 LTS、Debian 13、Fedora 43／44のデスクトップ版に対応する。プロセッサはx64とARM64の両方をサポートする。</p>
-<p>UbuntuとDebian向けには<code>.deb</code>パッケージ、Fedora向けには<code>.rpm</code>パッケージを用意する。インストール後にChatGPTアカウントでログインすると、プロジェクトやローカルファイルを扱えるほか、Codexも利用できる。</p>
-<p>一方、正式版と同等の機能がすべて利用できるわけではない。OpenAIによると、AIが画面を見ながらクリックや文字入力などを行う「Computer Use」など、一部の機能はLinux版のプレビューではまだ利用できない。</p>
-<h2>Chat、Work、Codexを1つのデスクトップアプリに</h2>
-<p>現在のChatGPTデスクトップアプリでは、通常の「Chat」と「Work」をChatGPT側で切り替えられるほか、Codexには専用ビューが用意されている。Workではファイルなどの文脈をもとに複数ステップの業務を進めることができ、Codexではローカルの開発環境を使ったコーディング作業などを行える。</p>
-<p>OpenAIは7月9日、従来のCodexアプリをmacOSとWindows向けChatGPTデスクトップアプリに統合した。Codexは独立したコーディング用の画面を維持しながら、ChatGPTのChat、Workと同じアプリ内から利用できる形となった。今回のLinux版公開により、この統合型のデスクトップ環境がLinuxにも拡大したことになる。</p>
-<p>Linux版の詳細なインストール手順や対応ディストリビューションは、OpenAIの公式ドキュメントで公開されている。プレビュー期間中は機能や対応環境が変更される可能性がある。</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
