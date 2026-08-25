@@ -127,6 +127,13 @@
       <pubDate>Mon, 17 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
+      <link>https://ledge.ai/articles/anthropic_claude_academy</link>
+      <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anthropic、「Claude Mythos 5」をClaude Securityに導入　モデルは直接開放せず脆弱性スキャンに限定</title>
       <link>https://ledge.ai/articles/anthropic_claude_mythos_5_security_vulnerability_scan</link>
       <description><![CDATA[<p>Anthropicは2026年8月21日（現地時間）、同社がサイバーセキュリティ分野で最も高性能と位置づけるAIモデル「Claude Mythos 5」を、セキュリティ向けサービス「Claude Security」の脆弱性スキャンで利用できるようにしたと<a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">発表</a>した。</p>
@@ -145,16 +152,6 @@
 <p>Anthropicは今回、Claude Securityだけでなく、サイバーセキュリティ関連の技術企業やサービス企業とも連携し、各社の既存製品やサービスへのMythos 5統合を進める方針を明らかにした。こちらでも、利用者がMythos 5を直接操作するのではなく、特定のセキュリティ機能の裏側でモデルを動かす形を想定している。</p>
 <p>さらに、オープンソースソフトウェアのセキュリティ強化を支援する「Defender Advantage Fund（0xDAF）」も新設する。脆弱性の修正やスキャン・修正作業の自動化などに取り組む組織に対し、総額3,500万ドル相当のClaudeクレジットを提供する。</p>
 <p>Anthropicは今後、正当なサイバーセキュリティ活動を行う組織向けの「Cyber Verification Program」も拡大し、Mythosクラスのモデルを利用できる範囲を段階的に広げる方針を示している。</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpaceX傘下のCursor、コードホスティング「Origin」提供開始　GitHub同期に対応、AIエージェント時代を想定</title>
-      <link>https://ledge.ai/articles/cursor_origin_code_hosting</link>
-      <description><![CDATA[<p>AIコーディングツール「Cursor」の開発元は2026年8月17日、コードホスティングサービス「Origin」の初期ベータ版の提供を開始したことを<a href="https://cursor.com/ja/changelog/origin-code-hosting">発表</a>した。リポジトリのホスティングやPR（プルリクエスト）、コード閲覧、GitHubとの同期などに対応し、すべての有料プランを対象に順次提供する。CursorはOriginを「エージェント時代のgit forge」と位置づけている。</p>
-<p>Cursorを開発する米Anysphereは8月14日、イーロン・マスク氏率いるSpaceXによる買収が正式に完了したと<a href="https://cursor.com/ja/blog/joining-spacex">発表</a>したばかりだ。SpaceX傘下入りから3日後に、AIによるコーディングだけでなく、そのコードを保存・共有する開発基盤にも領域を広げた形となる。ただし、Origin自体は買収完了前の6月にCursorのイベント「Compile」で「新しいGitプラットフォーム」としてすでに予告されていた。</p>
-<h2>Cursor上でコードをホスト　PRやコード検索にも対応</h2>
-<p><a href="https://cursor.com/docs/origin">Origin</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
