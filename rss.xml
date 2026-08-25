@@ -23,6 +23,23 @@
       <pubDate>Sat, 22 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Slack、AIコーディングエージェントとチームで共同開発　新機能「Slack Code」発表</title>
+      <link>https://ledge.ai/articles/slack_code_ai_coding_agents</link>
+      <description><![CDATA[<p>Salesforce傘下のSlackは2026年8月20日（現地時間）、AIコーディングエージェントとチームで共同作業するための新機能「Slack Code」を<a href="https://www.salesforce.com/introducing-slack-code/">発表</a>した。AIエージェントとのコーディング作業を個人のブラウザやターミナル内に閉じず、Slack上の専用チャンネルでチームと共有できるようにする。</p>
+<h2>AIエージェントとの作業を専用チャンネルで共有</h2>
+<p>Slack Codeでは、Slack上の会話からAIコーディングエージェントを呼び出すと、特定のタスクやプロジェクト向けの「code channel」を作成できる。</p>
+<p><strong>Slack Codeの利用イメージ。AIエージェントとの会話やコードの変更内容を、Slack上でチームと共有できる</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533.jpg" alt="Agentic coding is now multiplayer Introducing Slack Code.jpg" /></p>
+<p>チャンネル内では、AIエージェントとの会話だけでなく、作業計画やコードの差分、HTMLのライブプレビューなどをチームで確認できる。メンバーは途中でフィードバックを与えたり、作業内容を確認したりできるため、エンジニアだけでなく、プロダクトマネージャーやデザイナーなども同じ場所から開発作業に参加できるとしている。</p>
+<p>タスクが完了したcode channelはアーカイブでき、作業履歴はSlack上に残る。Slackは、個人とAIエージェントの間で進んでいたコーディング作業を、チーム全体から見える形にすることをSlack Codeの特徴としている。</p>
+<h2>ClaudeやDevin、GitHub Copilotなどと連携</h2>
+<p>Salesforceは、Slack CodeのパートナーとしてAnthropic、Cognition、GitHub、OpenAI、Vercelなどを挙げている。ClaudeやDevin、GitHub Copilot、ChatGPT、Vercelのエージェントなどとの連携を進めている。</p>
+<p>また、code channel内のAIエージェントにはSlackの既存のセキュリティモデルや権限、管理者向けの制御が適用されるとしている。コードを本番環境に反映するなど重要な操作については、専門家による確認を挟む仕組みも説明している。</p>
+<p>Salesforceによると、Slack CodeはSlackの各プランで利用可能で、利用するAIエージェントについては各パートナー側のアクセス権が別途必要となる。提供状況は地域などによって異なる場合があるとのこと。</p>
+]]></description>
+      <pubDate>Fri, 21 Aug 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、モデル開発を一時「減速」　最新モデルのRL学習を2週間停止、最大規模の学習は現在も保留</title>
       <link>https://ledge.ai/articles/openai_model_development_slowdown_rl_pause</link>
       <description><![CDATA[<p>OpenAIは2026年8月18日（現地時間）、AIモデルの能力向上に伴うリスクへの安全対策を強化するため、モデル開発のスケーリングを一時的に減速したことを<a href="https://openai.com/index/pacing-model-development-cyber-capabilities/">発表</a>{target=\</p>
@@ -407,23 +424,6 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
 <p>翻訳では最大約5000字の長文に対応し、訳文をストリーミング表示する。添削では、文法だけでなく自然さや丁寧さ、トーン、相手との距離感などを調整し、変更箇所を差分で表示する。質疑では、翻訳結果についてニュアンスや別表現、文法、語彙選択などを追加で質問できる。</p>
 <p>今回のモデル更新に伴う追加操作は必要なく、アップデート以降は3機能すべてが新しいモデルで動作する。</p>
 <p>今後は、PDFやMicrosoft Officeファイルを直接アップロードして翻訳する機能のほか、用語集との連携、特定業界向けの翻訳モデル、API提供を予定している。SSOや監査ログ、オンプレミス対応など、企業向け機能の展開も進めるとしている。</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Slack、AIコーディングエージェントとチームで共同開発　新機能「Slack Code」発表</title>
-      <link>https://ledge.ai/articles/slack_code_ai_coding_agents</link>
-      <description><![CDATA[<p>Salesforce傘下のSlackは2026年8月20日（現地時間）、AIコーディングエージェントとチームで共同作業するための新機能「Slack Code」を<a href="https://www.salesforce.com/introducing-slack-code/">発表</a>した。AIエージェントとのコーディング作業を個人のブラウザやターミナル内に閉じず、Slack上の専用チャンネルでチームと共有できるようにする。</p>
-<h2>AIエージェントとの作業を専用チャンネルで共有</h2>
-<p>Slack Codeでは、Slack上の会話からAIコーディングエージェントを呼び出すと、特定のタスクやプロジェクト向けの「code channel」を作成できる。</p>
-<p><strong>Slack Codeの利用イメージ。AIエージェントとの会話やコードの変更内容を、Slack上でチームと共有できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533.jpg" alt="Agentic coding is now multiplayer Introducing Slack Code.jpg" /></p>
-<p>チャンネル内では、AIエージェントとの会話だけでなく、作業計画やコードの差分、HTMLのライブプレビューなどをチームで確認できる。メンバーは途中でフィードバックを与えたり、作業内容を確認したりできるため、エンジニアだけでなく、プロダクトマネージャーやデザイナーなども同じ場所から開発作業に参加できるとしている。</p>
-<p>タスクが完了したcode channelはアーカイブでき、作業履歴はSlack上に残る。Slackは、個人とAIエージェントの間で進んでいたコーディング作業を、チーム全体から見える形にすることをSlack Codeの特徴としている。</p>
-<h2>ClaudeやDevin、GitHub Copilotなどと連携</h2>
-<p>Salesforceは、Slack CodeのパートナーとしてAnthropic、Cognition、GitHub、OpenAI、Vercelなどを挙げている。ClaudeやDevin、GitHub Copilot、ChatGPT、Vercelのエージェントなどとの連携を進めている。</p>
-<p>また、code channel内のAIエージェントにはSlackの既存のセキュリティモデルや権限、管理者向けの制御が適用されるとしている。コードを本番環境に反映するなど重要な操作については、専門家による確認を挟む仕組みも説明している。</p>
-<p>Salesforceによると、Slack CodeはSlackの各プランで利用可能で、利用するAIエージェントについては各パートナー側のアクセス権が別途必要となる。提供状況は地域などによって異なる場合があるとのこと。</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
