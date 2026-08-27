@@ -5,7 +5,7 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
+      <title>ラーニング2026/8/25 [TUE]Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
       <link>https://ledge.ai/articles/anthropic_claude_academy</link>
       <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
 ]]></description>
@@ -152,31 +152,7 @@
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、破綻したスピリット航空の社内データを1000万ドルで落札　メール1億件・Teams 5億件、AIモデル改善へ</title>
-      <link>https://ledge.ai/articles/google_spirit_airlines_ai_training_data</link>
-      <description><![CDATA[<p>Googleが、経営破綻した米格安航空会社Spirit Airlines（スピリット航空）の大量の社内データを1000万ドルで取得する見通しであることが分かった。2026年8月14日に米連邦破産裁判所へ提出された<a href="https://document.epiq11.com/document/getdocumentbycode?docId=4606206&amp;projectCode=SPJ&amp;source=DM">資料</a>によると、Googleは同社のデータ資産を巡るオークションで最高額を提示した。対象には約1億件のメールや約5億件のMicrosoft Teamsのデータなどが含まれる。</p>
-<p>Googleは取得するデータを製品開発やAIモデルの改善に利用する方針だ。ただし、売却には破産裁判所の承認が必要で、従業員データのプライバシーを巡って労働組合が異議を申し立てている。審理は当初の8月19日から9月9日に延期された。</p>
-<h2>メール1億件、Teams 5億件　約3000万行のソースコードも</h2>
-<p>裁判所への提出資料によると、Googleが取得する予定のデータには、約1億件のメールと8万件のメールアカウント、約1708万件のOneDriveデータ、約2058万件のSharePointデータ、約5億件のTeamsデータが含まれる。</p>
-<p>このほか、財務や会計、航空機の運航、収益管理、人事、研修、マーケティングなど、Spirit Airlinesの事業活動に伴って蓄積された幅広いデータも売却対象となる。</p>
-<p>ソフトウェア関連では、Webやモバイル、バックエンドを含む516のソースコードリポジトリと約3000万行のコード、プルリクエストやコミット履歴、バグ報告なども含まれている。</p>
-<p>Googleの落札額は1000万ドル。AI関連の人材サービスを手掛けるMercor.ioも入札に参加し、750万ドルを提示していた。裁判所資料ではGoogleが落札者、Mercor.ioが予備の買い手として指定されている。</p>
-<p><a href="https://www.reuters.com/legal/litigation/google-buy-spirit-airlines-business-data-10-million-2026-08-17/">Reuters</a>によると、Googleは今回取得する企業データについて、製品やAIモデルの改善に役立つとしている。Googleは、受け取る前に第三者が個人を特定できる情報を除去すると説明している。</p>
-<h2>個人情報は除外する契約　従業員側はプライバシーを懸念</h2>
-<p>売却契約では、個人に結び付く「Personal Data」は対象から除外するとしている。データはGoogleへ渡される前に第三者によって匿名化され、Googleも匿名化された状態を維持し、特定の人物や世帯と意図的に結び付けないことを約束している。弁護士・依頼人間の秘匿特権などで保護された資料も対象外となる。</p>
-<p>一方、Spirit Airlinesの客室乗務員を代表するAssociation of Flight Attendants-CWA（AFA-CWA）は2026年8月18日、売却に対する<a href="https://cdn.arstechnica.net/wp-content/uploads/2026/08/In-RE-Spirit-Airlines-Bankruptcy-Association-of-Flight-Attendants-Limited-Objection-to-Data-Sale-8-18-26.pdf">異議申立書</a>を破産裁判所に提出した。</p>
-<p>AFA-CWAは、対象に長年にわたる給与や勤務時間、研修、採用などの記録に加え、メールやTeamsで交わされた自由記述のコミュニケーションが含まれることを問題視している。氏名などの識別情報を取り除いても、内容や文脈そのものに機密性が残る可能性があると主張する。</p>
-<p>さらに売却契約では、匿名化後も異なるデータ間の関連性を維持することが求められている。AFA-CWAは、小規模な部署や勤務拠点などの情報を組み合わせることで、特定の人物や少人数の集団について推測できる可能性があるとして、従業員データの除外や追加の保護措置を求めている。これはAFA-CWA側の主張であり、特定のデータから実際に個人を再特定できると立証したものではない。</p>
-<p>この異議を受け、Googleへの売却を承認する審理は9月9日に延期された。</p>
-<h2>Googleの1000万ドルを上回る対抗提案も浮上</h2>
-<p>さらに、Googleへの売却がまだ確定していない中、新たな動きも出ている。</p>
-<p><a href="https://www.businessinsider.com/micro1-challenges-google-bid-spirit-airlines-data-2026-8">Business Insider</a>は2026年8月21日、AIスタートアップのmicro1がSpirit Airlinesのデータについて1250万ドルの対抗提案を行ったと報じた。Googleの1000万ドルを上回る金額だが、micro1は当初の入札期限に間に合っておらず、この提案を裁判所が考慮するかは現時点で決まっていない。</p>
-<p>Spirit Airlinesの社内データは、航空会社の日常業務で蓄積されたメールやチャット、文書、ソフトウェア、業務記録などを大量に含む。今回の破産手続きでは、こうした企業内部のデータそのものに複数のAI関連企業が数百万ドル規模の価格を付ける一方、そこで働いていた従業員の情報をどこまで売却対象にできるのかという問題も表面化している。</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共2026/8/23 [SUN]ChatGPTなどが引用する「情報源」を大量投入か　イスラエル政府関連サイト、1週間強で100本超を公開</title>
+      <title>ChatGPTなどが引用する「情報源」を大量投入か　イスラエル政府関連サイト、1週間強で100本超を公開</title>
       <link>https://ledge.ai/articles/hanover_ai_chatbot_influence</link>
       <description><![CDATA[<p>外交政策シンクタンクのクインシー研究所が運営するオンラインマガジン「Responsible Statecraft」は2026年8月17日、Hanover Institute for Public Policy（ハノーバー公共政策研究所）が1週間強で少なくとも100本の記事を公開し、AIチャットボットへの影響を狙って作られた可能性があると<a href="https://responsiblestatecraft.org/israel-influence-chatgpt/">報じた</a>。同研究所のコンテンツ配布に関わる米Piroは、イスラエル政府広告庁（LaPam）につながる契約のもとで情報発信業務を担っており、別途、LLMに引用されやすいコンテンツを設計するサービスも展開している。</p>
 <h2>1週間強で100本超　AIへの質問のような記事タイトル</h2>
@@ -221,6 +197,31 @@
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/When_considering_the_maximum_acceptable_latency_6181af74ad/When_considering_the_maximum_acceptable_latency_6181af74ad.jpg" alt="When considering the maximum acceptable latency.jpg" /></p>
 <p>こうした処理を支えるエッジまたはデバイス搭載AIについて、42％の組織が戦略を策定して予算を確保しており、39％は現在開発を進めている段階だ。</p>
 <p>インテルは、ロボティクスとフィジカルAIの融合が進む中、ロボットの実証段階から大規模展開への移行を支える技術として、エッジAI向け半導体のほか「Intel Robotics AI Suite」や「OpenVINO Physical AI」などを展開している。</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「日本AI大賞2026」エントリー受付中　効率化にとどまらないAI活用の挑戦を表彰</title>
+      <link>https://ledge.ai/articles/japan-ai-awards-announce</link>
+      <description><![CDATA[<p>日本AI大賞実行委員会は、AIを活用して人や組織の可能性を引き出す取り組みを表彰する「日本AI大賞2026」のエントリーを受け付けている。</p>
+<p>応募対象は、AIを活用して成果を上げた個人または組織。規模や業種、知名度は問わず、民間企業のほか、自治体や国の機関、学校、病院、地域団体なども対象となる。ベンダーやSIer、コンサルティング会社など、他組織のAI活用を支援した事例も応募できる。</p>
+<p>:::button
+<a href="https://ai-awards.jp/">詳細・エントリーはこちら</a>
+:::</p>
+<h2>法人・個人を対象に4部門で募集</h2>
+<p>応募部門は、法人向けの「AI活用部門」「AI活用支援部門」と、個人向けの「AIエキスパート部門」「AIエバンジェリスト部門」の4部門。</p>
+<p>審査では取り組みの派手さや規模ではなく、「ビジョン・挑戦性」「実践と成果」「独自性」「共有価値」の4つの観点から挑戦の内容を評価する。</p>
+<p>エントリーは2ステップで、まず約3分のプレエントリーを行い、その後、本エントリーで「ビジョン」「取り組む前の現状・課題」「AI活用」「取り組む中での課題」「インパクト」「今後の展開」の6つの問いに回答する。自薦のほか、周囲の取り組みを推薦することも可能だ。</p>
+<p>表彰式は11月12日、シティホール＆ギャラリー 五反田で「AI &amp; Security Summit 2026」として日本セキュリティ大賞と同日開催する。
+当日はファイナリストが自身の挑戦を10分間でプレゼンテーションし、その内容をもとに各賞を決定する。基調講演や表彰式、合同ネットワーキングも予定している。</p>
+<h2>日本AI大賞 概要</h2>
+<ul>
+<li>エントリー締切：2026年8月28日（金）23:59</li>
+<li>ファイナリスト発表：2026年9月下旬</li>
+<li>表彰式：2026年11月12日（木）11:00–19:00</li>
+<li>会場：シティホール＆ギャラリー 五反田</li>
+<li>応募費用：無料</li>
+</ul>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
@@ -363,6 +364,13 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Meta、100万GPU時代を見据えた新プロトコル「MetaRoCE」発表　AI向けEthernet通信を再設計</title>
+      <link>https://ledge.ai/articles/meta_metaroce_ai_ethernet</link>
+      <description><![CDATA[<p>Metaは2026年8月24日、AI向けの大規模ネットワークを想定した新しいRDMAトランスポートプロトコル「MetaRoCE」を<a href="https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI独自推論チップ「ハラペーニョ」実測公開、NVIDIA GB200/GB300比でワット当たり最大1.9倍</title>
       <link>https://ledge.ai/articles/openai_jalapeno_benchmark_results</link>
       <description><![CDATA[<p>OpenAIは2026年8月25日（現地時間）、同社初のカスタム推論チップ「Jalapeño（ハラペーニョ）」の実測ベンチマーク結果を<a href="https://openai.com/index/jalapeno-first-results/">公開</a>した。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tの3モデルで評価し、比較対象のAIシステムに対して、ピーク時のワット当たり処理性能で1.5〜1.9倍、エンドツーエンドのレイテンシで1.7〜3.6倍の性能を示したとしている。</p>
@@ -416,7 +424,7 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32　人類男子世界記録9秒58を上回る</title>
+      <title>エンタメ＆アート2026/8/26 [WED]北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32　人類男子世界記録9秒58を上回る</title>
       <link>https://ledge.ai/articles/world_humanoid_robot_games_tiangong_100m</link>
       <description><![CDATA[<p>中国・北京で2026年8月22日、人型ロボットの性能を競う「第2回世界人型ロボット運動会」が開幕した。北京人型ロボットイノベーションセンター（北京人形機器人創新中心）が開発した人型ロボット「天工Ultra」は、100m予選で9秒32を記録。ウサイン・ボルト氏が持つ人間の男子100m世界記録9秒58を上回るタイムとなった。</p>
 <p>北京市経済・情報化局の<a href="https://jxj.beijing.gov.cn/jxdt/zwyw/202608/t20260824_4833872.html">発表</a>{target=\</p>
