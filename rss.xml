@@ -363,6 +363,27 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI独自推論チップ「ハラペーニョ」実測公開、NVIDIA GB200/GB300比でワット当たり最大1.9倍</title>
+      <link>https://ledge.ai/articles/openai_jalapeno_benchmark_results</link>
+      <description><![CDATA[<p>OpenAIは2026年8月25日（現地時間）、同社初のカスタム推論チップ「Jalapeño（ハラペーニョ）」の実測ベンチマーク結果を<a href="https://openai.com/index/jalapeno-first-results/">公開</a>した。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tの3モデルで評価し、比較対象のAIシステムに対して、ピーク時のワット当たり処理性能で1.5〜1.9倍、エンドツーエンドのレイテンシで1.7〜3.6倍の性能を示したとしている。</p>
+<p>JalapeñoはOpenAIがLLMの推論処理向けに設計した独自アクセラレーターで、2026年6月にBroadcomとともに<a href="https://openai.com/ja-JP/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。OpenAIがチップをゼロから設計し、BroadcomやCelesticaがチップ実装、ボード、ラック、ネットワーク、量産システムなどを支援している。6月の発表時には最終的な性能を測定中としており、今回その実測結果が公開された。</p>
+<h2>GPT-OSSなど3モデルでワット当たり性能1.5〜1.9倍</h2>
+<p>性能評価には、SemiAnalysisが公開する推論ベンチマーク「InferenceX」を使用した。OpenAIは、単純なチップ単体の処理性能ではなく、ユーザーが求める応答速度を維持しながら、一定の電力でどれだけのAI処理を行えるかを評価している。</p>
+<p>ピーク時のワット当たり処理性能では、GPT-OSS 120BでJalapeñoが8万5448 mixed tokens/s/kW、比較対象のNVIDIA GB200が4万4960で約1.9倍となった。DeepSeek R1ではGB300比で約1.7倍、Kimi K2.5ではGB300比で約1.5倍だった。</p>
+<p><strong>■ Jalapeñoと比較対象システムのピーク時のワット当たり処理性能。GPT-OSS 120Bで1.9倍、DeepSeek R1で1.7倍、Kimi K2.5で1.5倍となった</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peak_mixed_token_throughput_at_each_platform_s_best_operating_point_655dd9a45f/Peak_mixed_token_throughput_at_each_platform_s_best_operating_point_655dd9a45f.jpg" alt="Peak mixed-token throughput at each platform’s best operating point.jpg" /></p>
+<h2>1ユーザー当たりの生成速度は最大4.1倍</h2>
+<p>1ユーザー当たりのデコード速度でも差が出た。JalapeñoはGPT-OSS 120Bで毎秒1459トークン、DeepSeek R1で毎秒700トークン、Kimi K2.5で毎秒694トークンを記録した。比較対象はそれぞれ毎秒535、169、182トークンで、Jalapeñoは約2.7〜4.1倍となる。</p>
+<p>エンドツーエンドのレイテンシについても、GPT-OSS 120Bで約1.7倍、DeepSeek R1で約3.6倍、Kimi K2.5で約3.4倍低かったとしている。</p>
+<p><strong>■ Jalapeñoと比較対象システムの1ユーザー当たり最大デコード速度。GPT-OSS 120Bで2.7倍、DeepSeek R1で4.1倍、Kimi K2.5で3.8倍となった</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peak_per_user_decoding_throughput_across_three_model_families_3d3d332e52/Peak_per_user_decoding_throughput_across_three_model_families_3d3d332e52.jpg" alt="Peak per-user decoding throughput across three model families.jpg" /></p>
+<p>OpenAIによると、Jalapeñoの定格電力は700Wで、今回テストしたワークロードでは実測の持続消費電力が550W以下だったという。推論処理では、プロンプトを処理する「プリフィル」と、回答をトークン単位で生成する「デコード」でボトルネックが異なる。Jalapeñoはチップ、メモリ、ネットワーク、ソフトウェアを一体で設計し、データ移動や通信による待ち時間を抑える構成を採用した。</p>
+<p>なお、InferenceXを運営するSemiAnalysisは、OpenAIの研究施設でベンチマークの実行を確認したと<a href="https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia">説明</a>{target=”_blank”}している。一方、数値自体はOpenAIから提供されたもので、SemiAnalysisがInferenceXの全ベンチマークを独自に実施したものではないとしている。</p>
+<p>OpenAIはJalapeñoを2026年末までに自社のコンピューティングインフラへ導入する計画で、第2世代はすでに開発が進み、第3世代の設計にも着手している。同社は今後もNVIDIAなどパートナー企業のアクセラレーターを学習・推論の両方で広く利用しながら、Jalapeñoを複数世代の独自推論プラットフォームとして展開する方針だ。</p>
+]]></description>
+      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Sakana AI、「Sakana Translate」を新世代Namazuに更新　日英翻訳の自社評価でGoogle翻訳・DeepLなど上回る</title>
       <link>https://ledge.ai/articles/sakana_translate_namazu_update</link>
       <description><![CDATA[<p>Sakana AIは2026年8月21日、翻訳サービス「Sakana Translate」の翻訳モデルを新世代の「Sakana Namazu」にアップデートしたと<a href="https://sakana.ai/translate-update/">発表</a>した。日本語・英語・中国語の双方向翻訳という提供範囲は変わらないが、ベースモデルの刷新と学習手法の改善によって、訳文の自然さを高めたとしている。サービスは引き続き無料で利用できる。</p>
@@ -391,13 +412,6 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <title>決済プラットフォーム運営の米Stripe、AIモデルゲートウェイOpenRouterを買収へ　400超のモデルを横断、トークン利用を最適化</title>
       <link>https://ledge.ai/articles/stripe_openrouter_acquisition</link>
       <description><![CDATA[<p>決済プラットフォームを展開するStripeは2026年8月19日（米国時間）、AIモデルのゲートウェイやルーティングプラットフォームを提供する「OpenRouter」の買収に合意したと<a href="https://stripe.com/jp/newsroom/news/stripe-agrees-to-acquire-openrouter">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントに買い物は任せても「完全自動購入」は1％　Visa調査、50％が「自分で確認」を重視</title>
-      <link>https://ledge.ai/articles/visa_ai_agent_shopping_survey</link>
-      <description><![CDATA[<p>ビザ・ワールドワイド・ジャパンは2026年8月17日、オンラインでの買い物をAIやAIエージェントにどこまで任せられるかを尋ねた消費者調査の結果を<a href="https://www.visa.co.jp/about-visa/newsroom/press-releases/nr-jp-260817.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 16 Aug 2026 22:50:00 GMT</pubDate>
     </item>
