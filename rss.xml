@@ -5,13 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>ラーニング2026/8/25 [TUE]Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
-      <link>https://ledge.ai/articles/anthropic_claude_academy</link>
-      <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Alibaba、AI動画生成「Wan3.0」を一般提供　最大30秒、PDF・PowerPoint・Webページも動画化</title>
       <link>https://ledge.ai/articles/alibaba_wan3_general_availability</link>
       <description><![CDATA[<p>中国Alibabaは2026年8月24日、AI動画生成モデル「Wan3.0」の一般提供を開始したと<a href="https://www.linkedin.com/posts/alibaba-cloud-computing-company_letswanit-activity-7497523770602143744-pHA4">発表</a>した。Alibaba CloudのAI開発基盤「Model Studio」と「Qwen Cloud」で利用できる。Wan3.0は8月上旬から公開ベータを実施しており、今回一般提供へ移行した。</p>
@@ -29,7 +22,14 @@
 <p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/beta_version_of_Wan3_0_2db32b5b61/beta_version_of_Wan3_0_2db32b5b61.jpg" alt="beta version of Wan3-0.jpg" /></p>
 <p>なお、Model Studioの公式ブログでは、現時点の課題として音声の質感や画面内の文字を描画する精度には改善の余地があるとしている。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+      <pubDate>Wed, 26 Aug 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ラーニング2026/8/25 [TUE]Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
+      <link>https://ledge.ai/articles/anthropic_claude_academy</link>
+      <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、「Claude Mythos 5」をClaude Securityに導入　モデルは直接開放せず脆弱性スキャンに限定</title>
@@ -239,6 +239,31 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Alibaba「Qwen3.8-Flash-Next」公開、Qwen4の次世代アーキテクチャを先行投入　学習コストは約9分の1</title>
+      <link>https://ledge.ai/articles/qwen3_8_flash_next_qwen4_architecture</link>
+      <description><![CDATA[<p>AlibabaのAI研究チームQwenは2026年8月26日、マルチモーダルMoE（Mixture of Experts）モデル「Qwen3.8-Flash-Next」を<a href="https://qwen.ai/blog?id=qwen3.8-flash-next">公開</a>た。モデルウェイトも公開している。Qwen3.8-Flash-Nextは、次世代モデル「Qwen4」で採用予定のアーキテクチャを先行して試すためのモデルと位置付けられている。</p>
+<h2>Qwen4のアーキテクチャを正式投入前に公開</h2>
+<p>Qwenは今回のモデルについて、Qwen3.5に先駆けて「Qwen3-Next」を公開した際と同じ役割を担うと説明している。Qwen3-Nextで導入された「Gated DeltaNet（GDN）」とAttentionを組み合わせた設計は、その後Qwen3.5、Qwen3.6、Qwen3.7、Qwen3.8シリーズに採用された。</p>
+<p>今回もQwen4のモデル群を構築する前にアーキテクチャ変更を公開し、外部の開発者や研究者が検証できるようにする。モデルは<a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next/tree/main">Hugging Face</a>とModelScopeでオープンウェイトとして提供されている。</p>
+<p>Qwen3.8-Flash-Nextの本体は1250億パラメータで、これとは別に510億パラメータの「N-gram Embedding」を備える。一方、MoE構造によって1トークンの処理時に活性化するパラメータは60億に抑えた。Qwenによると、Qwen3.7-Plusと比較して学習コストは約9分の1となり、推論コストも削減したという。</p>
+<p>ネイティブでは26万2144トークンのコンテキスト長に対応し、YaRNを利用することで最大100万トークンまで拡張できる。</p>
+<h2>長文処理を効率化する「QSA」など4つの変更</h2>
+<p>Qwen3.8-Flash-Nextでは、Attention、Residual、Embedding、Optimizationの4領域でアーキテクチャを変更した。</p>
+<p>Attentionには、Gated DeltaNetと新技術「Qwen Sparse Attention（QSA）」を組み合わせた構造を採用した。GDNが過去の情報を固定サイズの状態に圧縮して保持する一方、QSAは長いコンテキストを小さなブロックにまとめ、重要な領域を選択してAttentionを実行する。Qwenはこれを、GDNが効率的に「記憶」し、QSAが必要な情報を正確に「検索」する仕組みと説明している。</p>
+<p>また、「Gated Residual（GR）」では従来1本だったResidual Streamを4つの経路に広げ、情報の読み書きを動的なゲートで制御する。「N-gram Embedding」は現在のトークンと直前の複数トークンからなる局所的な文脈を使って埋め込みを参照することで、トークン当たりの計算量を大きく増やさずモデル容量を拡張する。学習にはMuon optimizerを採用し、大規模モデル向けに最適化方法も調整した。</p>
+<p><strong>■ Qwen3.8-Flash-Nextのアーキテクチャ。GDNとQSAを組み合わせ、Residual StreamやN-gram Embeddingも刷新した</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/architecture_1_4327005517/architecture_1_4327005517.png" alt="architecture (1).png" /></p>
+<h2>コーディングや長時間の業務タスクでQwen3.7-Plusを上回る</h2>
+<p>Qwenが公開した評価では、コーディングやAIエージェントを使った業務タスクを中心にQwen3.7-Plusを上回った。</p>
+<p>例えば「SWE-bench Pro」はQwen3.7-Plusの55.8に対して62.5、「SWE-bench Multilingual」は75.8に対して81.0だった。長時間にわたるオフィス作業を評価する「CoWorkBench」では65.1から73.9、職業上のタスクを評価する「JobBench」では27.6から55.7となっている。いずれもQwenが公開した評価結果であり、ベンチマークによって評価条件は異なる。</p>
+<p>長文処理については、100万トークン時のQSAのAttention Kernelで、Prefillが最大7.6倍、Decodeが最大4.9倍高速になったとしている。また、Prefix Cacheのヒット率を90％とした実験では、100万トークンのコンテキストでQwen3.7-Plusの8.6倍のPrefillスループットを記録したという。</p>
+<p><strong>■ 長いコンテキストから重要な領域を選択する「Qwen Sparse Attention（QSA）」の仕組み</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qsa_arch_fb2e74077c/qsa_arch_fb2e74077c.png" alt="qsa_arch.png" /></p>
+<p>Qwen3.8-Flash-Nextは<a href="https://github.com/QwenLM/Qwen3.8-Flash-Next">公式GitHub</a>でも公開されており、Transformers、llama.cpp、SGLang、vLLMなどでの利用方法が案内されている。AlibabaのAI業務プラットフォーム「QwenWork」では新設した「Standard」モードに採用。商用サービス向けモデルは「Qwen3.8-Flash」として<a href="https://www.qwencloud.com/models/qwen3.8-flash">QwenCloud</a>で提供され、100万トークンのコンテキストやOpenAI、Anthropic互換APIに対応する。</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>防衛省の情報分析をSakana AIがAI支援　公開情報で収集・分析・管理、AIエージェント技術を実証</title>
       <link>https://ledge.ai/articles/sakana_ai_defense_information_analysis</link>
       <description><![CDATA[<p>Sakana AIは2026年8月24日、防衛省と「総合分析業務に必要なAI機能の調査・実証」に関する契約を締結したと<a href="https://sakana.ai/defense-integrated-analysis/">発表</a>{target=”_blank”}した。契約締結日は2026年7月29日。防衛装備庁が<a href="https://www.mod.go.jp/atla/soubiseisaku/newentry/startup_contr_r080806.pdf">公表した契約結果</a>{target=”_blank”}によると、契約額は3億2903万2000円で、Sakana AIのAIエージェント技術などを活用し、防衛省の情報分析業務を支援するAI機能を調査・実証するという。</p>
@@ -261,31 +286,6 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Sakana AI、「Sakana Translate」を新世代Namazuに更新　日英翻訳の自社評価でGoogle翻訳・DeepLなど上回る</title>
-      <link>https://ledge.ai/articles/sakana_translate_namazu_update</link>
-      <description><![CDATA[<p>Sakana AIは2026年8月21日、翻訳サービス「Sakana Translate」の翻訳モデルを新世代の「Sakana Namazu」にアップデートしたと<a href="https://sakana.ai/translate-update/">発表</a>した。日本語・英語・中国語の双方向翻訳という提供範囲は変わらないが、ベースモデルの刷新と学習手法の改善によって、訳文の自然さを高めたとしている。サービスは引き続き無料で利用できる。</p>
-<h2>新世代「Sakana Namazu」を翻訳エンジンに採用</h2>
-<p>Sakana Namazuは、日本語だけでなく、その背景にある文化や文脈の理解を重視して開発されたSakana AIの日本語特化LLMである。同社は2026年8月3日、新世代のSakana NamazuをAPIとして<a href="https://sakana.ai/namazu-api/">提供</a>している。</p>
-<p>新世代モデルは、Moonshot AIが公開するオープンモデル「Kimi K2.6」をベースに、Sakana AI独自のデータを使って日本語や日本の業務文脈に適合させたものだ。今回、これをSakana Translateの翻訳モデルにも採用した。</p>
-<p>Sakana AIは翻訳例として、「お宮参りに行きます。」という日本語を紹介している。Sakana Translateは「We are going to the shrine for our baby's first visit.」と訳しており、「お宮参り」を単純に固有語として置き換えるのではなく、文化的な意味を英語で説明する形に変換している。</p>
-<p><strong>■ 「お宮参り」の日英翻訳例。Sakana AIは、日本独特の文化背景を踏まえた自然な翻訳例として紹介している</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_example_cad9ff02df/translate_example_cad9ff02df.png" alt="translate-example.png" /></p>
-<h2>日英160件を比較　Google翻訳との比較では66.9％</h2>
-<p>Sakana AIは翻訳品質を評価するため、同社が開発した翻訳評価手法「TransEvalnia」を使用した。TransEvalniaは、訳語の適切さや自然さなど複数の観点から、2つの翻訳文のどちらが優れているかを判定する手法で、2025年に<a href="https://arxiv.org/abs/2507.12724">論文</a>が公開されている。</p>
-<p>今回の評価では、Sakana AIが独自に用意した日英翻訳タスク160件について、Sakana Translateと他の翻訳モデル・サービスを1対1で比較した。</p>
-<p>Sakana Translateの出力がより優れていると判定された割合は、Google翻訳との比較で66.9％、Opus 4.8で56.8％、DeepLで54.0％となり、すべての比較対象で50％を上回った。</p>
-<p>ただし、これはSakana AIが独自に用意した翻訳タスクと自社開発の評価手法を用いた結果であり、第三者機関による評価ではない。</p>
-<p><strong>■ 日英翻訳160件を用いた1対1評価の結果。数値はSakana AIによる自社評価</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_score_37576ef275/translate_score_37576ef275.png" alt="translate-score.png" /></p>
-<h2>翻訳・添削・質疑の3機能は継続　ファイル翻訳も予定</h2>
-<p>Sakana Translateは2026年7月に<a href="https://sakana.ai/translate-release/">公開</a>された翻訳サービスで、「翻訳」「添削」「質疑」の3機能を備える。</p>
-<p>翻訳では最大約5000字の長文に対応し、訳文をストリーミング表示する。添削では、文法だけでなく自然さや丁寧さ、トーン、相手との距離感などを調整し、変更箇所を差分で表示する。質疑では、翻訳結果についてニュアンスや別表現、文法、語彙選択などを追加で質問できる。</p>
-<p>今回のモデル更新に伴う追加操作は必要なく、アップデート以降は3機能すべてが新しいモデルで動作する。</p>
-<p>今後は、PDFやMicrosoft Officeファイルを直接アップロードして翻訳する機能のほか、用語集との連携、特定業界向けの翻訳モデル、API提供を予定している。SSOや監査ログ、オンプレミス対応など、企業向け機能の展開も進めるとしている。</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>決済プラットフォーム運営の米Stripe、AIモデルゲートウェイOpenRouterを買収へ　400超のモデルを横断、トークン利用を最適化</title>
       <link>https://ledge.ai/articles/stripe_openrouter_acquisition</link>
       <description><![CDATA[<p>決済プラットフォームを展開するStripeは2026年8月19日（米国時間）、AIモデルのゲートウェイやルーティングプラットフォームを提供する「OpenRouter」の買収に合意したと<a href="https://stripe.com/jp/newsroom/news/stripe-agrees-to-acquire-openrouter">発表</a>{target=\</p>
@@ -293,7 +293,7 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>エンタメ＆アート2026/8/26 [WED]北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32　人類男子世界記録9秒58を上回る</title>
+      <title>北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32　人類男子世界記録9秒58を上回る</title>
       <link>https://ledge.ai/articles/world_humanoid_robot_games_tiangong_100m</link>
       <description><![CDATA[<p>中国・北京で2026年8月22日、人型ロボットの性能を競う「第2回世界人型ロボット運動会」が開幕した。北京人型ロボットイノベーションセンター（北京人形機器人創新中心）が開発した人型ロボット「天工Ultra」は、100m予選で9秒32を記録。ウサイン・ボルト氏が持つ人間の男子100m世界記録9秒58を上回るタイムとなった。</p>
 <p>北京市経済・情報化局の<a href="https://jxj.beijing.gov.cn/jxdt/zwyw/202608/t20260824_4833872.html">発表</a>{target=\</p>
@@ -408,13 +408,6 @@ KDDI Market Compassについては、3年間で数十社への導入、累計売
 <p>Salesforceによると、Slack CodeはSlackの各プランで利用可能で、利用するAIエージェントについては各パートナー側のアクセス権が別途必要となる。提供状況は地域などによって異なる場合があるとのこと。</p>
 ]]></description>
       <pubDate>Fri, 21 Aug 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントがHugging Faceへ自律侵入　OpenAIブロックマン氏「防御側の猶予は今」、10項目を提言</title>
-      <link>https://ledge.ai/articles/openai_brockman_defenders_window_ai_cybersecurity</link>
-      <description><![CDATA[<p>OpenAIの共同創業者で社長を務めるグレッグ・ブロックマン氏は2026年8月17日、AIのサイバー攻撃能力が高まるなか、企業や組織が防御側として今取り組むべき対策をまとめた記事「The Defender’s Window」を<a href="https://openai.com/index/the-defenders-window/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 21 Aug 2026 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
