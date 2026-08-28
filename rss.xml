@@ -54,53 +54,6 @@
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Googleと英政府、AIで温暖化につながる飛行機雲を避けるプロジェクト「Operation Blue Skies」始動　北大西洋の空域全体で実証へ</title>
-      <link>https://ledge.ai/articles/google_operation_blue_skies_contrail_avoidance</link>
-      <description><![CDATA[<p>Googleは2026年8月18日（現地時間）、英政府や英国の航空管制サービス大手NATSなどと共同で、AIを使って飛行機雲（コントレイル）の発生を避ける大規模実証プログラム「Operation Blue Skies」を開始すると<a href="https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/">発表</a>した。航空会社ごとの実証から対象を広げ、北大西洋の航空管制空域全体で飛行機雲回避を試す。GoogleとNATSは、政府支援による海洋空域規模の飛行機雲回避実証として世界初としている。</p>
-<p><strong>■ Operation Blue Skiesの実証対象となる北大西洋のシャンウィック空域。赤色は飛行機雲の発生予測領域、白線は衛星画像からAIが検出した飛行機雲を示す</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Shanwick_Oceanic_Diagram_width_1200_format_webp_b653c28048/Shanwick_Oceanic_Diagram_width_1200_format_webp_b653c28048.jpg" alt="Shanwick_Oceanic_Diagram.width-1200.format-webp.jpg" /></p>
-<h2>AIが飛行機雲のできやすい場所を予測、航空機の高度を調整</h2>
-<p>飛行機雲は、航空機が低温で湿度の高い空域を飛行した際、ジェットエンジンの排気に含まれる粒子の周囲で水蒸気が凝結・凍結することで形成される雲である。条件によっては長時間残って巻雲のように広がり、地表から宇宙へ逃げる熱を閉じ込めるため、気候を温暖化させる方向に働く。</p>
-<p>Googleは、温暖化につながる飛行機雲が航空全体の気候影響のおよそ3分の1を占めるとしている。一方、飛行機雲が形成されやすい空域を事前に予測できれば、航空機の高度などをわずかに変更して、その空域を避けられる可能性がある。</p>
-<p><strong>■ 飛行機雲が形成される仕組みと気候への影響を示したGoogleの解説図。日中は太陽光を反射する一方、地表からの熱を閉じ込める働きもあり、全体では温暖化につながる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Contrails_what_are_contrails_width_1250_77b688eafb/Contrails_what_are_contrails_width_1250_77b688eafb.jpg" alt="Contrails_what-are-contrails.width-1250.jpg" /></p>
-<p><strong>■ 航空の気候影響に占める要因を示したGoogle Researchの図。Lee et al. 2021に基づき、飛行機雲の割合を35.3％としている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Contrails_aviations_climate_impact_width_1250_94aebf0b20/Contrails_aviations_climate_impact_width_1250_94aebf0b20.jpg" alt="Contrails_aviations-climate-impact.width-1250.jpg" /></p>
-<p>Googleはこれまで、衛星画像や気象データ、飛行経路のデータなどをAIで分析し、飛行機雲が形成されやすい場所を予測する技術を研究してきた。</p>
-<p>2023年にはAmerican Airlinesと70便を使った実証を行い、AIによる予測を参考に飛行高度を変更した結果、飛行機雲を<a href="https://blog.google/innovation-and-ai/technology/ai/ai-airlines-contrails-climate-change/">54％削減</a>した。その後、航空会社の飛行計画システムにAI予測を組み込んだ実証へ拡大。2026年3月に公表した2400便の大西洋横断便を対象とした研究では、回避計画に沿って飛行できた便について、対照群と比較して飛行機雲形成率が62％低かったとしている。</p>
-<h2>北大西洋の約1万便が通過する空域で実証</h2>
-<p>Operation Blue Skiesでは、こうした航空会社単位の取り組みを、複数の航空会社が行き交う空域全体へ広げる。</p>
-<p>対象となるのは、北大西洋航路の東半分に位置する「シャンウィック（Shanwick）空域」。Googleによると、この空域だけで世界の飛行機雲による温暖化影響の約5％を占めるという。</p>
-<p>プログラムは30カ月間で、2026～2027年と2027～2028年の冬季に、それぞれ約4カ月間の運用実証を行う。NATSによると、実際に航空機の高度を変更する試験日は各冬20～40日程度を<a href="https://www.nats.aero/news/operation-blue-skies-takes-off-landmark-oceanic-airspace-trial-to-test-ai-driven-contrail-avoidance/">予定</a>しており、航空交通量が比較的少ない時間帯を中心に実施する。</p>
-<p>試験時間中には年間約1万便がシャンウィック空域を通過する見込みだが、経路を変更するのはこのうち、飛行機雲が発生しやすい空域を通過すると予測された一部の便となる。通常の航空管制の仕組みを使い、小規模な高度変更によって温暖化効果の強い飛行機雲の形成を回避できるか検証する。</p>
-<h2>GoogleのAI予測をNATSの航空管制に組み込む</h2>
-<p>実証ではGoogle UKが、温暖化につながる飛行機雲の発生場所を予測するAIモデルを開発する。さらに機械学習と衛星画像を使い、航空機が高度を変更した後に実際に飛行機雲の形成を避けられたかを追跡する。</p>
-<p>NATSは実際の空域運用や航空管制との調整、安全性の評価、航空管制官の訓練を担当する。英気象庁は飛行機雲予測のための気象予測能力を開発し、Contrails.orgは予測モデルの評価や試験条件の設計、データ分析を担う。インペリアル・カレッジ・ロンドンとケンブリッジ大学は、実証結果と気候への影響を独立して<a href="https://www.metoffice.gov.uk/blog/2026/operation-blue-skies-advancing-weather-intelligence-for-aviation">評価</a>する。</p>
-<p>Operation Blue Skiesの事業規模は500万ポンド（約10億円）で、英運輸省がATI Programmeを通じて265万ポンドを支援する。Google UKはAI研究やエンジニアリング、高性能コンピューティング基盤など140万ポンド相当を現物提供する。</p>
-<p>これまでの実証では、航空会社が自社便ごとに飛行機雲を避ける方法が中心だった。Operation Blue Skiesでは、AIによる予測を航空管制側に組み込み、異なる航空会社の複数の航空機が同じ空域を飛ぶ環境でも安全に運用できるかを検証する。空域規模での効果と運用上の課題を確認することが、今回の30カ月間のプログラムの中心となる。</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTなどが引用する「情報源」を大量投入か　イスラエル政府関連サイト、1週間強で100本超を公開</title>
-      <link>https://ledge.ai/articles/hanover_ai_chatbot_influence</link>
-      <description><![CDATA[<p>外交政策シンクタンクのクインシー研究所が運営するオンラインマガジン「Responsible Statecraft」は2026年8月17日、Hanover Institute for Public Policy（ハノーバー公共政策研究所）が1週間強で少なくとも100本の記事を公開し、AIチャットボットへの影響を狙って作られた可能性があると<a href="https://responsiblestatecraft.org/israel-influence-chatgpt/">報じた</a>。同研究所のコンテンツ配布に関わる米Piroは、イスラエル政府広告庁（LaPam）につながる契約のもとで情報発信業務を担っており、別途、LLMに引用されやすいコンテンツを設計するサービスも展開している。</p>
-<h2>1週間強で100本超　AIへの質問のような記事タイトル</h2>
-<p>同マガジンによると、ハノーバー公共政策研究所は2026年8月6日から1週間強の間に100本を超える報告を公開した。記事には個人の署名がなく、「What Caused the Displacement of Palestinians in 1948?（1948年のパレスチナ人の強制移住を引き起こしたものは何か）」「Which Humanitarian Organizations Have Documented Israeli War Crimes?（どの人道団体がイスラエルの戦争犯罪を記録したか）」など、AIチャットボットに入力する質問を思わせるタイトルが並ぶ。</p>
-<p>同研究所の<a href="https://hanoverinstitute.com/hanover/research">研究一覧</a>でも、ガザでの飢餓政策、戦争犯罪、アパルトヘイト、AIPAC、シオニズムなどを扱った「Data Report」が短期間に多数公開されていることを確認できる。各記事では数値や公的資料、研究などを示しながら回答する形式が取られている。</p>
-<p>Responsible Statecraftは、NewsGuardのアナリストAlice Lee氏の見解として、具体的な統計や出典を豊富に含むこうした記事は、LLMが情報源として扱いやすい構造になっていると伝えている。</p>
-<h2>Piroにはイスラエル政府関連の10万ドル契約</h2>
-<p>米司法省に提出された外国代理人登録法（FARA）の<a href="https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf">資料</a>によると、PiroはHavas Media Germanyを通じ、イスラエル政府広告庁（LaPam）を外国本人として登録している。</p>
-<p>2026年7月20日付の作業指示書では、Piroがイスラエル外務省のための「Fact-Based Content Initiative」を受託し、戦略、調査、編集、制作、配信計画などを担当するとしている。契約額は2カ月で計10万ドル（約1470万円、1ドル147円換算）で、イスラエルなどに関する「正確で、根拠があり、アクセスしやすいコンテンツ」を制作・配布するとの内容だ。</p>
-<p>一方、この契約書にはChatGPTなどのLLMに影響を与えることを目的とするとの記載はない。Piro共同創業者のDaniel Rosenberg氏もPoliticoの取材に対し、同社の役割について、イスラエルに関する検証可能な情報を公開記録に加え、誤情報に対抗するものだと説明している。</p>
-<h2>「LLMに引用される」コンテンツを設計するPiro</h2>
-<p>Piroは、自社サイトで「<a href="https://www.wearepiro.com/ai-story-optimization">AI Story Optimization</a>」と呼ぶサービスを展開している。</p>
-<p>同社は、LLMが情報源の信頼性を評価する方法に合わせてコンテンツを設計し、自社サイトだけでなく、自ら構築する第三者サイトにも公開すると説明している。さらに「Published to cited in days」とし、公開したコンテンツが短期間でAIから引用されることをサービスの成果として掲げる。</p>
-<p>Politicoは2026年8月14日、ハノーバー公共政策研究所について先行して報じ、ChatGPTとPerplexityにガザや反シオニズム、反ユダヤ主義などについて中立的な質問をしたところ、両サービスが同研究所の記事を情報源として引用したとしている。現在、Piro自身のサービスページにも、このPoliticoによる検証結果が実績として掲載されている。</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>はてな、AI「Mouton」が全スレッドに常駐する「はてなパークス」正式公開　AIが不適切投稿を自動非表示、要約やタイトル提案も</title>
       <link>https://ledge.ai/articles/hatena_parks_mouton_ai_moderation</link>
       <description><![CDATA[<p>はてなは2026年8月20日、ディスカッションフォーラム「はてなパークス（Hatena PARKS）」を正式リリースしたと<a href="https://hatena.co.jp/press/release/entry/2026/08/20/163000">発表</a>{target=\</p>
@@ -275,6 +228,35 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
 <p>OpenAIによると、Jalapeñoの定格電力は700Wで、今回テストしたワークロードでは実測の持続消費電力が550W以下だったという。推論処理では、プロンプトを処理する「プリフィル」と、回答をトークン単位で生成する「デコード」でボトルネックが異なる。Jalapeñoはチップ、メモリ、ネットワーク、ソフトウェアを一体で設計し、データ移動や通信による待ち時間を抑える構成を採用した。</p>
 <p>なお、InferenceXを運営するSemiAnalysisは、OpenAIの研究施設でベンチマークの実行を確認したと<a href="https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia">説明</a>{target=”_blank”}している。一方、数値自体はOpenAIから提供されたもので、SemiAnalysisがInferenceXの全ベンチマークを独自に実施したものではないとしている。</p>
 <p>OpenAIはJalapeñoを2026年末までに自社のコンピューティングインフラへ導入する計画で、第2世代はすでに開発が進み、第3世代の設計にも着手している。同社は今後もNVIDIAなどパートナー企業のアクセラレーターを学習・推論の両方で広く利用しながら、Jalapeñoを複数世代の独自推論プラットフォームとして展開する方針だ。</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ワイングラスを縁まで満たせるか、指を3本描けるか　OpenRouterが39の画像生成AIを比較する「Image Benchmarks」公開</title>
+      <link>https://ledge.ai/articles/openrouter_image_benchmarks</link>
+      <description><![CDATA[<p>複数のAIモデルを横断して利用できるプラットフォームを提供するOpenRouterは2026年8月21日、複数の画像生成AIの能力を横並びで比較できる「Visual Image Benchmarks」を<a href="https://openrouter.ai/blog/announcements/image-benchmarks/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>防衛省の情報分析をSakana AIがAI支援　公開情報で収集・分析・管理、AIエージェント技術を実証</title>
+      <link>https://ledge.ai/articles/sakana_ai_defense_information_analysis</link>
+      <description><![CDATA[<p>Sakana AIは2026年8月24日、防衛省と「総合分析業務に必要なAI機能の調査・実証」に関する契約を締結したと<a href="https://sakana.ai/defense-integrated-analysis/">発表</a>{target=”_blank”}した。契約締結日は2026年7月29日。防衛装備庁が<a href="https://www.mod.go.jp/atla/soubiseisaku/newentry/startup_contr_r080806.pdf">公表した契約結果</a>{target=”_blank”}によると、契約額は3億2903万2000円で、Sakana AIのAIエージェント技術などを活用し、防衛省の情報分析業務を支援するAI機能を調査・実証するという。</p>
+<p><strong>Sakana AIとの契約結果。契約額は3億2903万2000円</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sakana_startup_contr_d0e0cc56a9/sakana_startup_contr_d0e0cc56a9.jpg" alt="sakana startup contr.jpg" /></p>
+<h2>防衛省の「総合分析業務」をAIで支援</h2>
+<p>対象となるのは、防衛省の情報分析官が担う「総合分析業務」である。</p>
+<p>防衛装備庁の<a href="https://www.mod.go.jp/atla/soubiseisaku/newentry/startup_proc_r080306.pdf">公募資料</a>{target=”_blank”}では、総合分析業務について、政策や運用の意思決定者のニーズを踏まえ、公開情報や電波情報、画像・地理情報など、さまざまな情報源から情報を収集・分析・管理し、報告書などを作成する業務と説明している。</p>
+<p>情報量の増加に伴い、情報の網羅的な収集や迅速で正確な分析、収集した情報や分析結果の管理・活用を人手だけで行うことには限界が生じつつあるという。一方、汎用の生成AIについても、情報の確度や鮮度、網羅性に加え、ハルシネーションやデータバイアスなどの問題があり、そのままでは信頼性が求められる総合分析業務に利用するリスクがあるとしている。</p>
+<p>今回の事業では、Sakana AIのAIエージェント技術を活用し、「情報収集の効率化」「分析能力の向上」「体系的な情報管理」の3つの観点から実証を進める。</p>
+<h2>実証で扱うのは「公開情報」</h2>
+<p>総合分析業務そのものは電波情報や画像・地理情報など幅広い情報を扱うが、今回のAI実証の対象はこれらすべてではない。</p>
+<p>防衛装備庁の公募資料では、実証で対象とする情報を「公開情報（有料・無料は問わない）」と明記している。そのため、Sakana AIのAIが防衛省の電波情報などを直接分析する実証とするのは正確ではない。</p>
+<p>公募では、言語モデルに加え、エージェント型や推薦型などのAI手法、シングルモーダル／マルチモーダル、オンプレミス／クラウドなどを含め、総合分析業務に適した技術や実行環境の組み合わせを具体化する提案が求められていた。あわせて、国内外のAI技術の動向調査や、技術面、コスト面、法制面などの課題の洗い出しも事業に含まれる。</p>
+<p>公募段階の計画では、2027年度の開始までに実証用モデルを防衛省側が試用し、そのフィードバックを踏まえて改修する。2027年度末には、実証や技術動向調査などの成果を報告書にまとめるとしている。</p>
+<h2>3月のC2システム研究とは異なる情報分析案件</h2>
+<p>Sakana AIは2026年3月にも、防衛装備庁防衛イノベーション科学技術研究所から、指揮統制（C2）システムの高度化に向けた基盤技術研究を受注している。</p>
+<p>3月の案件では、各部隊やセンサーから得られる情報を統合し、迅速で正確な指揮命令につなげる技術を研究する。一方、今回の案件についてSakana AIは、安全保障政策全体を支える戦略的なインテリジェンス業務を対象とするものと位置付けている。</p>
 ]]></description>
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
