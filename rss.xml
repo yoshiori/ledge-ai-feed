@@ -391,6 +391,31 @@ KDDI Market Compassについては、3年間で数十社への導入、累計売
       <pubDate>Mon, 24 Aug 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Sakana AI、「Sakana Translate」を新世代Namazuに更新　日英翻訳の自社評価でGoogle翻訳・DeepLなど上回る</title>
+      <link>https://ledge.ai/articles/sakana_translate_namazu_update</link>
+      <description><![CDATA[<p>Sakana AIは2026年8月21日、翻訳サービス「Sakana Translate」の翻訳モデルを新世代の「Sakana Namazu」にアップデートしたと<a href="https://sakana.ai/translate-update/">発表</a>した。日本語・英語・中国語の双方向翻訳という提供範囲は変わらないが、ベースモデルの刷新と学習手法の改善によって、訳文の自然さを高めたとしている。サービスは引き続き無料で利用できる。</p>
+<h2>新世代「Sakana Namazu」を翻訳エンジンに採用</h2>
+<p>Sakana Namazuは、日本語だけでなく、その背景にある文化や文脈の理解を重視して開発されたSakana AIの日本語特化LLMである。同社は2026年8月3日、新世代のSakana NamazuをAPIとして<a href="https://sakana.ai/namazu-api/">提供</a>している。</p>
+<p>新世代モデルは、Moonshot AIが公開するオープンモデル「Kimi K2.6」をベースに、Sakana AI独自のデータを使って日本語や日本の業務文脈に適合させたものだ。今回、これをSakana Translateの翻訳モデルにも採用した。</p>
+<p>Sakana AIは翻訳例として、「お宮参りに行きます。」という日本語を紹介している。Sakana Translateは「We are going to the shrine for our baby's first visit.」と訳しており、「お宮参り」を単純に固有語として置き換えるのではなく、文化的な意味を英語で説明する形に変換している。</p>
+<p><strong>■ 「お宮参り」の日英翻訳例。Sakana AIは、日本独特の文化背景を踏まえた自然な翻訳例として紹介している</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_example_cad9ff02df/translate_example_cad9ff02df.png" alt="translate-example.png" /></p>
+<h2>日英160件を比較　Google翻訳との比較では66.9％</h2>
+<p>Sakana AIは翻訳品質を評価するため、同社が開発した翻訳評価手法「TransEvalnia」を使用した。TransEvalniaは、訳語の適切さや自然さなど複数の観点から、2つの翻訳文のどちらが優れているかを判定する手法で、2025年に<a href="https://arxiv.org/abs/2507.12724">論文</a>が公開されている。</p>
+<p>今回の評価では、Sakana AIが独自に用意した日英翻訳タスク160件について、Sakana Translateと他の翻訳モデル・サービスを1対1で比較した。</p>
+<p>Sakana Translateの出力がより優れていると判定された割合は、Google翻訳との比較で66.9％、Opus 4.8で56.8％、DeepLで54.0％となり、すべての比較対象で50％を上回った。</p>
+<p>ただし、これはSakana AIが独自に用意した翻訳タスクと自社開発の評価手法を用いた結果であり、第三者機関による評価ではない。</p>
+<p><strong>■ 日英翻訳160件を用いた1対1評価の結果。数値はSakana AIによる自社評価</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/translate_score_37576ef275/translate_score_37576ef275.png" alt="translate-score.png" /></p>
+<h2>翻訳・添削・質疑の3機能は継続　ファイル翻訳も予定</h2>
+<p>Sakana Translateは2026年7月に<a href="https://sakana.ai/translate-release/">公開</a>された翻訳サービスで、「翻訳」「添削」「質疑」の3機能を備える。</p>
+<p>翻訳では最大約5000字の長文に対応し、訳文をストリーミング表示する。添削では、文法だけでなく自然さや丁寧さ、トーン、相手との距離感などを調整し、変更箇所を差分で表示する。質疑では、翻訳結果についてニュアンスや別表現、文法、語彙選択などを追加で質問できる。</p>
+<p>今回のモデル更新に伴う追加操作は必要なく、アップデート以降は3機能すべてが新しいモデルで動作する。</p>
+<p>今後は、PDFやMicrosoft Officeファイルを直接アップロードして翻訳する機能のほか、用語集との連携、特定業界向けの翻訳モデル、API提供を予定している。SSOや監査ログ、オンプレミス対応など、企業向け機能の展開も進めるとしている。</p>
+]]></description>
+      <pubDate>Sun, 23 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>生成AIで架空の女性「中村りほ」を演出し政治投稿　立憲民主党栃木県連の男性党員がX運用</title>
       <link>https://ledge.ai/articles/ai_fake_political_persona_x</link>
       <description><![CDATA[<p>立憲民主党栃木県連に党員として登録する男性が、生成AIで作成したとみられる女性画像を使い、架空の女性「中村りほ」としてXで選挙や政治活動に関する投稿をしていたことが2026年8月19日までに分かった。共同通信などが県連への取材をもとに<a href="https://news.livedoor.com/article/detail/32106812/">報じた</a>{target=”_blank”}。問題のXアカウントは現在、凍結されている。</p>
@@ -407,47 +432,6 @@ KDDI Market Compassについては、3年間で数十社への導入、累計売
 <p>今回のアカウントでは、生成AIで作成されたとみられる人物画像に架空の経歴や政治活動を組み合わせ、実在する人物のような形で発信が続けられていた。生成AIによる人物画像が、SNS上で政治活動を行う架空の人物を演出するために使われた事例となった。</p>
 ]]></description>
       <pubDate>Sat, 22 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、破綻したスピリット航空の社内データを1000万ドルで落札　メール1億件・Teams 5億件、AIモデル改善へ</title>
-      <link>https://ledge.ai/articles/google_spirit_airlines_ai_training_data</link>
-      <description><![CDATA[<p>Googleが、経営破綻した米格安航空会社Spirit Airlines（スピリット航空）の大量の社内データを1000万ドルで取得する見通しであることが分かった。2026年8月14日に米連邦破産裁判所へ提出された<a href="https://document.epiq11.com/document/getdocumentbycode?docId=4606206&amp;projectCode=SPJ&amp;source=DM">資料</a>によると、Googleは同社のデータ資産を巡るオークションで最高額を提示した。対象には約1億件のメールや約5億件のMicrosoft Teamsのデータなどが含まれる。</p>
-<p>Googleは取得するデータを製品開発やAIモデルの改善に利用する方針だ。ただし、売却には破産裁判所の承認が必要で、従業員データのプライバシーを巡って労働組合が異議を申し立てている。審理は当初の8月19日から9月9日に延期された。</p>
-<h2>メール1億件、Teams 5億件　約3000万行のソースコードも</h2>
-<p>裁判所への提出資料によると、Googleが取得する予定のデータには、約1億件のメールと8万件のメールアカウント、約1708万件のOneDriveデータ、約2058万件のSharePointデータ、約5億件のTeamsデータが含まれる。</p>
-<p>このほか、財務や会計、航空機の運航、収益管理、人事、研修、マーケティングなど、Spirit Airlinesの事業活動に伴って蓄積された幅広いデータも売却対象となる。</p>
-<p>ソフトウェア関連では、Webやモバイル、バックエンドを含む516のソースコードリポジトリと約3000万行のコード、プルリクエストやコミット履歴、バグ報告なども含まれている。</p>
-<p>Googleの落札額は1000万ドル。AI関連の人材サービスを手掛けるMercor.ioも入札に参加し、750万ドルを提示していた。裁判所資料ではGoogleが落札者、Mercor.ioが予備の買い手として指定されている。</p>
-<p><a href="https://www.reuters.com/legal/litigation/google-buy-spirit-airlines-business-data-10-million-2026-08-17/">Reuters</a>によると、Googleは今回取得する企業データについて、製品やAIモデルの改善に役立つとしている。Googleは、受け取る前に第三者が個人を特定できる情報を除去すると説明している。</p>
-<h2>個人情報は除外する契約　従業員側はプライバシーを懸念</h2>
-<p>売却契約では、個人に結び付く「Personal Data」は対象から除外するとしている。データはGoogleへ渡される前に第三者によって匿名化され、Googleも匿名化された状態を維持し、特定の人物や世帯と意図的に結び付けないことを約束している。弁護士・依頼人間の秘匿特権などで保護された資料も対象外となる。</p>
-<p>一方、Spirit Airlinesの客室乗務員を代表するAssociation of Flight Attendants-CWA（AFA-CWA）は2026年8月18日、売却に対する<a href="https://cdn.arstechnica.net/wp-content/uploads/2026/08/In-RE-Spirit-Airlines-Bankruptcy-Association-of-Flight-Attendants-Limited-Objection-to-Data-Sale-8-18-26.pdf">異議申立書</a>を破産裁判所に提出した。</p>
-<p>AFA-CWAは、対象に長年にわたる給与や勤務時間、研修、採用などの記録に加え、メールやTeamsで交わされた自由記述のコミュニケーションが含まれることを問題視している。氏名などの識別情報を取り除いても、内容や文脈そのものに機密性が残る可能性があると主張する。</p>
-<p>さらに売却契約では、匿名化後も異なるデータ間の関連性を維持することが求められている。AFA-CWAは、小規模な部署や勤務拠点などの情報を組み合わせることで、特定の人物や少人数の集団について推測できる可能性があるとして、従業員データの除外や追加の保護措置を求めている。これはAFA-CWA側の主張であり、特定のデータから実際に個人を再特定できると立証したものではない。</p>
-<p>この異議を受け、Googleへの売却を承認する審理は9月9日に延期された。</p>
-<h2>Googleの1000万ドルを上回る対抗提案も浮上</h2>
-<p>さらに、Googleへの売却がまだ確定していない中、新たな動きも出ている。</p>
-<p><a href="https://www.businessinsider.com/micro1-challenges-google-bid-spirit-airlines-data-2026-8">Business Insider</a>は2026年8月21日、AIスタートアップのmicro1がSpirit Airlinesのデータについて1250万ドルの対抗提案を行ったと報じた。Googleの1000万ドルを上回る金額だが、micro1は当初の入札期限に間に合っておらず、この提案を裁判所が考慮するかは現時点で決まっていない。</p>
-<p>Spirit Airlinesの社内データは、航空会社の日常業務で蓄積されたメールやチャット、文書、ソフトウェア、業務記録などを大量に含む。今回の破産手続きでは、こうした企業内部のデータそのものに複数のAI関連企業が数百万ドル規模の価格を付ける一方、そこで働いていた従業員の情報をどこまで売却対象にできるのかという問題も表面化している。</p>
-]]></description>
-      <pubDate>Fri, 21 Aug 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Slack、AIコーディングエージェントとチームで共同開発　新機能「Slack Code」発表</title>
-      <link>https://ledge.ai/articles/slack_code_ai_coding_agents</link>
-      <description><![CDATA[<p>Salesforce傘下のSlackは2026年8月20日（現地時間）、AIコーディングエージェントとチームで共同作業するための新機能「Slack Code」を<a href="https://www.salesforce.com/introducing-slack-code/">発表</a>した。AIエージェントとのコーディング作業を個人のブラウザやターミナル内に閉じず、Slack上の専用チャンネルでチームと共有できるようにする。</p>
-<h2>AIエージェントとの作業を専用チャンネルで共有</h2>
-<p>Slack Codeでは、Slack上の会話からAIコーディングエージェントを呼び出すと、特定のタスクやプロジェクト向けの「code channel」を作成できる。</p>
-<p><strong>Slack Codeの利用イメージ。AIエージェントとの会話やコードの変更内容を、Slack上でチームと共有できる</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533/Agentic_coding_is_now_multiplayer_Introducing_Slack_Code_c4843b6533.jpg" alt="Agentic coding is now multiplayer Introducing Slack Code.jpg" /></p>
-<p>チャンネル内では、AIエージェントとの会話だけでなく、作業計画やコードの差分、HTMLのライブプレビューなどをチームで確認できる。メンバーは途中でフィードバックを与えたり、作業内容を確認したりできるため、エンジニアだけでなく、プロダクトマネージャーやデザイナーなども同じ場所から開発作業に参加できるとしている。</p>
-<p>タスクが完了したcode channelはアーカイブでき、作業履歴はSlack上に残る。Slackは、個人とAIエージェントの間で進んでいたコーディング作業を、チーム全体から見える形にすることをSlack Codeの特徴としている。</p>
-<h2>ClaudeやDevin、GitHub Copilotなどと連携</h2>
-<p>Salesforceは、Slack CodeのパートナーとしてAnthropic、Cognition、GitHub、OpenAI、Vercelなどを挙げている。ClaudeやDevin、GitHub Copilot、ChatGPT、Vercelのエージェントなどとの連携を進めている。</p>
-<p>また、code channel内のAIエージェントにはSlackの既存のセキュリティモデルや権限、管理者向けの制御が適用されるとしている。コードを本番環境に反映するなど重要な操作については、専門家による確認を挟む仕組みも説明している。</p>
-<p>Salesforceによると、Slack CodeはSlackの各プランで利用可能で、利用するAIエージェントについては各パートナー側のアクセス権が別途必要となる。提供状況は地域などによって異なる場合があるとのこと。</p>
-]]></description>
-      <pubDate>Fri, 21 Aug 2026 07:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
