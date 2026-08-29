@@ -54,6 +54,29 @@
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google DeepMind、23年続く宇宙MMORPG「EVE Online」をAI研究環境に　経済・戦争・外交が続く永続世界で長期学習</title>
+      <link>https://ledge.ai/articles/google_deepmind_eve_online_ai_research</link>
+      <description><![CDATA[<p>Google DeepMindは2026年8月21日、宇宙MMORPG「EVE Online」などを手がけるFenris Creationsと進めている研究提携について、EVEシリーズの世界をAI研究に活用する具体的な取り組みを<a href="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/">発表</a>{target=”_blank”}した。</p>
+<p>2003年にサービスを開始したEVE Onlineでは、プレイヤーが同じ宇宙を共有し、20年以上にわたって経済や同盟、戦争、外交などを作り上げてきた。Google DeepMindは、この長期間にわたって変化し続ける仮想世界を使い、AIの継続学習や長期記憶、長期的な計画、人間を含む多数の主体との相互作用を研究する。</p>
+<h2>23年分の歴史が残る「リセットされない」世界</h2>
+<p>一般的なゲームでは、試合ごとに明確な目標や終了地点があり、その後は状態がリセットされる。一方、EVE Onlineの世界「New Eden」は継続して存在し、市場価格や資源、プレイヤー間の関係などが変化し続ける。</p>
+<p>Fenris Creationsは2026年8月20日の<a href="https://www.eveonline.com/news/view/eve-online-and-ai-research">説明</a>{target=”_blank”}で、EVE Onlineには変動する市場、希少な資源、不完全な情報があり、多数のプレイヤーがそれぞれ異なる目的を持って活動していると説明している。</p>
+<p>AIエージェントにとっても、単に戦闘に勝つ方法を学べばよいわけではない。すべての情報を得られない状態で計画し、他の主体による妨害に対応し、協力や裏切りの可能性も考慮する必要がある。ある判断の結果が数カ月、場合によっては数年にわたって影響することもある。</p>
+<p>Google DeepMindは、こうした環境を通じて「継続学習」「記憶」「長期計画」「複雑なマルチエージェント環境」という4つの能力を研究する。特に長期計画では、数週間から数カ月、さらには数年単位で推論する能力を対象としている。</p>
+<h2>まずプレイヤーから隔離したEVE Onlineで研究</h2>
+<p>ただし、研究用AIがすぐに現在のEVE Onlineへ投入されるわけではない。</p>
+<p>研究はまず、ライブ環境のプレイヤーから切り離したローカルサーバー上のEVE Onlineで始める。シミュレーションや過去の情報を利用し、制御された環境でモデルを検証する。</p>
+<p>その後はオンライン宇宙サバイバルゲーム「EVE Frontier」を使い、人間とAIエージェントが永続的でオープンな世界の中で共存する研究へ進む。EVE Frontierには、プレイヤーが機能をプログラムできる「Smart Assemblies」などがあり、世界のルール自体が変化し得る環境でAIの適応能力を調べられるという。</p>
+<p>さらに、FPS形式の「EVE Vanguard」では、短時間の戦術的な判断から宇宙全体を対象とした長期戦略まで、異なる時間軸や抽象度で行動するAIエージェントを研究できるとしている。</p>
+<p>Google DeepMindによると、能力が十分に成熟した場合にのみ、EVE OnlineやEVE Vanguardでの活用を検討する。</p>
+<h2>Geminiを使った初心者支援はすでに提供</h2>
+<p>両社の協力からは、すでにEVE Online向けのAI機能も生まれている。</p>
+<p>初心者向け支援機能「Aura Guidance」ではGeminiを利用し、ゲーム内の初心者向けチャット「Rookie Help」に蓄積されたプレイヤー同士の質問と回答をもとに、新規プレイヤーへ情報を提供している。</p>
+<p>Fenris Creationsは、AIにプレイヤーの代わりにEVE Onlineをプレイさせたり、意思決定を自動化したりすることを目的としているわけではないと説明している。今回の研究では、長期間にわたって変化し続ける仮想世界の中でAIが学習、記憶、計画し、人間を含む他の主体とどのように関わるかを検証していく。</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>はてな、AI「Mouton」が全スレッドに常駐する「はてなパークス」正式公開　AIが不適切投稿を自動非表示、要約やタイトル提案も</title>
       <link>https://ledge.ai/articles/hatena_parks_mouton_ai_moderation</link>
       <description><![CDATA[<p>はてなは2026年8月20日、ディスカッションフォーラム「はてなパークス（Hatena PARKS）」を正式リリースしたと<a href="https://hatena.co.jp/press/release/entry/2026/08/20/163000">発表</a>{target=\</p>
@@ -105,13 +128,6 @@
 <li>会場：シティホール＆ギャラリー 五反田</li>
 <li>応募費用：無料</li>
 </ul>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>KDDI、日本発AIスタートアップ5社の米国顧客開拓を支援　「Beyond Borders Accelerator」開始</title>
-      <link>https://ledge.ai/articles/kddi_beyond_borders_accelerator</link>
-      <description><![CDATA[<p>KDDIは2026年8月20日、日本発スタートアップの海外展開を支援するアクセラレータープログラム「KDDI Beyond Borders Accelerator」を開始すると<a href="https://newsroom.kddi.com/news/detail/kddi_nr-1127_4673.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
@@ -200,6 +216,37 @@ AIの大きな強みは、スピードと、24時間365日稼働できる点に�
       <title>Meta、100万GPU時代を見据えた新プロトコル「MetaRoCE」発表　AI向けEthernet通信を再設計</title>
       <link>https://ledge.ai/articles/meta_metaroce_ai_ethernet</link>
       <description><![CDATA[<p>Metaは2026年8月24日、AI向けの大規模ネットワークを想定した新しいRDMAトランスポートプロトコル「MetaRoCE」を<a href="https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、52の州などの司法当局と未成年ユーザーの保護に最大約180億ドル（約２兆9000億円）で和解　Instagram・Facebookに未成年2時間制限、13歳未満を判定するAIモデル開発へ</title>
+      <link>https://ledge.ai/articles/meta_teen_safety_settlement_ai_age_model</link>
+      <description><![CDATA[<p>Meta Platformsは2026年8月26日（現地時間）、米48州とワシントンD.C.、3つの米領地域の司法長官52人と、InstagramとFacebookにおける未成年ユーザーの保護を巡る和解に合意したと<a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx">発表</a>{target=”_blank”}した。Metaによると、支払いは約180億ドル（1ドル159円換算で約2兆8600億円）規模で、10年間にわたり分割して支払う。和解では18歳未満の利用時間や夜間利用を制限するほか、13歳未満のユーザーを推定するAI年齢確認モデルの開発・学習・テストも盛り込まれた。</p>
+<p>今回の和解は、2023年に米各州がMetaを相手取って起こした訴訟などを解決するものだ。州側は、MetaがInstagramやFacebookに子どもや10代の過度な利用を促す機能を組み込み、リスクについて利用者や家族らを誤認させたほか、13歳未満の子どものデータ収集・利用を巡り児童オンラインプライバシー保護法（COPPA）に違反したなどと主張していた。Metaは和解文書で、こうした主張や法的責任を否定している。</p>
+<h2>1日2時間まで、午前0時から6時は利用をブロック</h2>
+<p>和解に基づき、対象地域ではInstagramとFacebookの18歳未満のユーザーに、保護者の許可がなければ解除できない複数の制限が適用される。Metaが示した主な内容は以下の通り。</p>
+<ul>
+<li>FacebookとInstagramを合計した1日2時間の利用上限</li>
+<li>午前0時～6時はアプリの利用を原則ブロック</li>
+<li>学校時間にあたる午前8時～午後3時は通知を原則停止</li>
+<li>投稿の「いいね」やリアクション数を標準で非表示</li>
+<li>パーソナライズされないフィードを選択可能に</li>
+<li>自動再生を無効化できる設定</li>
+<li>美容整形や極端なメイクを再現するフィルターを未成年には使用不可に</li>
+<li>保護者向け監督機能を強化</li>
+</ul>
+<p>利用時間の上限はFacebookとInstagramをまたいで計算され、複数アカウントを使っているとMetaが検出した場合も合算される。ダイレクトメッセージについては、利用時間制限や夜間・学校時間帯の制限対象から除外されるとしている。</p>
+<h2>13歳未満を判定する「U13 Age Model」を1年以内に開発</h2>
+<p>AIに関する具体的な義務も和解文書に盛り込まれた。</p>
+<p>Metaは和解の発効から1年以内に、同社のSNS利用者が13歳未満かどうかを予測する年齢確認モデルのプロトタイプ「U13 Age Model」を開発し、学習と初期テストを実施する。既存の13歳未満検出手法との性能比較を含む結果を、独立監査人に報告することも求められる。</p>
+<p>さらに発効から2年以内には、U13 Age Modelを使って和解対象地域におけるMetaのSNSアカウントを評価し、13歳未満とみられるユーザーの特定・削除目標の達成に活用する。モデルの性能を継続的に改善し、目標を達成できなかった場合は、その理由や改善内容を独立監査人に説明する仕組みも定められている。</p>
+<p>年齢確認システムについては、第三者による定期的なテストも要求する。テスト用・学習用データとは別のデータで実環境に近い性能を検証し、年齢や人種、性別、障害の有無など異なる人口集団での性能も確認する。画像や動画を利用する場合は、姿勢や照明など撮影条件の違いも考慮する。</p>
+<p>また、13歳未満の利用者に関するデータをU13 Age Modelの開発、学習、テスト、性能測定のために保持することは認める一方、広告配信やマーケティング、アルゴリズム最適化には利用できないとしている。
+約53億ドルはTikTokとYouTubeの対応が条件
+Metaが示した約180億ドルのうち、約70％にあたる約127億ドルは10年間で参加する州などに配分される。一方、残る約30％、約53億ドルの支払いには条件が設定された。</p>
+<p>TikTokとYouTubeが1日1時間の利用制限、夜間利用制限、年齢確認措置を導入し、それぞれが所定の支払いを行った場合に、残る資金が段階的に支払われる仕組みだ。両社が同様の枠組みに参加した場合、Metaについても1日2時間の上限が1アプリあたり1時間に短縮され、夜間利用制限も午後10時～午前7時へ拡大する。</p>
+<p>なお、金額の示し方は発表主体によって異なる。ニュージャージー州司法長官は、多州間訴訟に関するMetaの支払いを最低121億ドル、最大171億ドルと<a href="https://www.njoag.gov/attorney-general-davenport-announces-historic-17-billion-settlement-with-meta/">発表</a>{target=”_blank”}している。一方、テキサス州司法長官は同州が10億ドル超を受け取ると<a href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-over-1-billion-meta-historic-settlement-protects-texas-kids">発表</a>{target=”_blank”}しており、Metaは52司法長官との合意全体について約180億ドルと説明している。</p>
 ]]></description>
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
     </item>
