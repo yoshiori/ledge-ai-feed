@@ -32,28 +32,6 @@
       <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、「Claude Mythos 5」をClaude Securityに導入　モデルは直接開放せず脆弱性スキャンに限定</title>
-      <link>https://ledge.ai/articles/anthropic_claude_mythos_5_security_vulnerability_scan</link>
-      <description><![CDATA[<p>Anthropicは2026年8月21日（現地時間）、同社がサイバーセキュリティ分野で最も高性能と位置づけるAIモデル「Claude Mythos 5」を、セキュリティ向けサービス「Claude Security」の脆弱性スキャンで利用できるようにしたと<a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">発表</a>した。</p>
-<p>Claude Securityは、コードベースから脆弱性を検出し、修正案を提示するサービスで、Claude Enterpriseの顧客向けにパブリックベータとして提供されている。今回の特徴は、利用者にMythos 5そのものへの直接アクセスを与えるのではなく、脆弱性の検出や修正案といった防御用途の結果に限定して、その能力を利用できるようにした点にある。</p>
-<h2>Claude SecurityのスキャンをMythos 5で実行</h2>
-<p>Claude Securityは2026年4月30日、Claude Enterpriseの顧客向けにパブリックベータとして<a href="https://claude.com/blog/claude-security-public-beta">公開</a>された。当初、脆弱性の検出や修正には「Claude Opus 4.7」を使用していたが、今回、Claude Securityアプリ上で実行するスキャンをMythos 5へ切り替えた。</p>
-<p>Enterpriseの管理者がClaude Securityを有効化すると、利用者はリポジトリを選択してMythos 5によるスキャンを実行できる。検出結果には、脆弱性の種類を示すCWE（Common Weakness Enumeration）の分類、信頼度、深刻度、修正案などが表示される。</p>
-<p>修正はWeb版のClaude Codeから実施できるが、この段階では組織がClaude Codeで利用できる別のモデルを使用する。Mythos 5によるスキャンを利用しても、Claude Codeなどほかの機能でMythos 5を直接利用できるようになるわけではない。また、生成された修正パッチは適用前に人間による確認と承認が必要となる。</p>
-<p>Mythos 5によるスキャンに専用の追加料金はなく、既存のEnterpriseプランにおける通常のトークン使用量として課金される。</p>
-<h2>モデルそのものは直接開放せず</h2>
-<p>Anthropicは2026年6月、Claude Mythos 5を<a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">発表</a>した。同社は同モデルをサイバーセキュリティや生物学研究で高い能力を持つモデルと位置づける一方、その能力が攻撃などにも転用できることから、当初は審査を通過した一部のパートナーに利用を限定していた。</p>
-<p>今回のClaude Securityへの導入でも、こうした制限そのものをなくしたわけではない。</p>
-<p>Anthropicは、利用者がモデルへ直接指示できる場合、悪意のある利用者が攻撃目的の処理を実行させようとするリスクが高まると説明している。一方、脆弱性に対する修正パッチやセキュリティ警告など、用途を限定した結果だけを受け取る仕組みであれば、リスクを抑えながら防御側にモデルの能力を提供できるとしている。</p>
-<p>Claude SecurityではMythos 5がバックグラウンドでコードを解析するものの、利用者がMythos 5へ自由にプロンプトを送り、例えば脆弱性を悪用するコードの作成を指示することはできない。</p>
-<h2>パートナーのセキュリティ製品にもMythos 5を展開へ</h2>
-<p>Anthropicは今回、Claude Securityだけでなく、サイバーセキュリティ関連の技術企業やサービス企業とも連携し、各社の既存製品やサービスへのMythos 5統合を進める方針を明らかにした。こちらでも、利用者がMythos 5を直接操作するのではなく、特定のセキュリティ機能の裏側でモデルを動かす形を想定している。</p>
-<p>さらに、オープンソースソフトウェアのセキュリティ強化を支援する「Defender Advantage Fund（0xDAF）」も新設する。脆弱性の修正やスキャン・修正作業の自動化などに取り組む組織に対し、総額3,500万ドル相当のClaudeクレジットを提供する。</p>
-<p>Anthropicは今後、正当なサイバーセキュリティ活動を行う組織向けの「Cyber Verification Program」も拡大し、Mythosクラスのモデルを利用できる範囲を段階的に広げる方針を示している。</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Google DeepMind、23年続く宇宙MMORPG「EVE Online」をAI研究環境に　経済・戦争・外交が続く永続世界で長期学習</title>
       <link>https://ledge.ai/articles/google_deepmind_eve_online_ai_research</link>
       <description><![CDATA[<p>Google DeepMindは2026年8月21日、宇宙MMORPG「EVE Online」などを手がけるFenris Creationsと進めている研究提携について、EVEシリーズの世界をAI研究に活用する具体的な取り組みを<a href="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/">発表</a>{target=”_blank”}した。</p>
