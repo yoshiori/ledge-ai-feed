@@ -5,45 +5,18 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>Alibaba、AI動画生成「Wan3.0」を一般提供　最大30秒、PDF・PowerPoint・Webページも動画化</title>
-      <link>https://ledge.ai/articles/alibaba_wan3_general_availability</link>
-      <description><![CDATA[<p>中国Alibabaは2026年8月24日、AI動画生成モデル「Wan3.0」の一般提供を開始したと<a href="https://www.linkedin.com/posts/alibaba-cloud-computing-company_letswanit-activity-7497523770602143744-pHA4">発表</a>した。Alibaba CloudのAI開発基盤「Model Studio」と「Qwen Cloud」で利用できる。Wan3.0は8月上旬から公開ベータを実施しており、今回一般提供へ移行した。</p>
-<h2>最大30秒を一度に生成、文書やWebページも動画の素材に</h2>
-<p>Wan3.0は、Alibabaの動画生成モデル「Wan」シリーズの新世代モデルである。1回の生成で最大30秒の動画に対応し、前モデル「Wan2.7-Video」の最大15秒から生成時間を延ばした。プロンプトの内容に応じて動画の長さを提案する機能や、生成した動画を続きから延長する機能も備える。</p>
-<p>入力にはテキストや画像だけでなく、動画、音声を組み合わせて参照できる。さらにPDFやPowerPoint、Word文書、表計算ファイルなどの文書やWebページも入力でき、文書に含まれる情報をもとに動画を生成できる。Model Studioの公式ブログでは、プレゼン資料を広告動画にしたり、研修資料を動画教材にしたり、表計算データをアニメーション付きのグラフとして表現したりする用途を例示している。</p>
-<p><strong>Wan3.0を使った動画生成のデモ画面</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/This_is_Wan3_0_625b1a0036/This_is_Wan3_0_625b1a0036.jpg" alt="This is Wan3.0..jpg" /></p>
-<p>また、参照した人物や小道具、空間、映像スタイルなどを生成中に一貫して維持する能力を強化したという。生成済みの動画について、映像やストーリー、台詞を変更する編集機能も利用でき、最初から動画全体を生成し直さずに修正できるとしている。</p>
-<h2>1080pは1秒0.20ドル、Standard版は期間限定で30％割引</h2>
-<p>Alibaba Cloudが示したStandard APIの通常料金は、生成動画1秒あたり480pが0.05ドル、720pが0.10ドル、1080pが0.20ドル。30秒の動画を生成した場合、通常料金ではそれぞれ1.50ドル、3ドル、6ドルとなる。</p>
-<p>一般提供開始に合わせ、Alibaba Cloud Model StudioとQwen Cloudでは、2026年8月23日から9月23日までWan3.0 Standardを30％割引で提供するキャンペーンも実施している。</p>
-<p>Alibabaは2026年8月7日付の公式ブログでWan3.0の公開ベータ開始を<a href="https://www.alibabacloud.com/blog/alibaba-unveils-wan3-0-with-twice-as-long-video-outputs-from-a-richer-variety-of-inputs_603439">発表</a>
-していた。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/beta_version_of_Wan3_0_2db32b5b61/beta_version_of_Wan3_0_2db32b5b61.jpg" alt="beta version of Wan3-0.jpg" /></p>
-<p>なお、Model Studioの公式ブログでは、現時点の課題として音声の質感や画面内の文字を描画する精度には改善の余地があるとしている。</p>
-]]></description>
-      <pubDate>Wed, 26 Aug 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
-      <link>https://ledge.ai/articles/anthropic_claude_academy</link>
-      <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>バイトダンスなど新手法「DiffusionOPSD」、画像生成AIの学習GPU時間を最大63％減　20条件中19条件で最高スコア</title>
       <link>https://ledge.ai/articles/bytedance_diffusionopsd</link>
       <description><![CDATA[<p>中国ByteDanceの研究組織ByteDance Seedなどの共同研究チームは2026年8月25日、画像生成に使われる拡散モデルのポストトレーニング手法「DiffusionOPSD（On-Policy Self-Distillation in Diffusion Models）」を<a href="https://arxiv.org/abs/2608.24646">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google Cloud、金融・法務に特化した「Gemini Enterprise」2製品をプレビュー提供　50以上の金融スキルや法務MCP連携</title>
       <link>https://ledge.ai/articles/google_cloud_gemini_enterprise_financial_legal</link>
       <description><![CDATA[<p>Google Cloudは2026年8月25日（現地時間）、企業向けAIプラットフォーム「Gemini Enterprise」を金融・法務分野に特化させた「Gemini Enterprise for Financial Services」と「Gemini Enterprise for Legal」を<a href="https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Financial-Services">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google DeepMind、23年続く宇宙MMORPG「EVE Online」をAI研究環境に　経済・戦争・外交が続く永続世界で長期学習</title>
@@ -66,7 +39,7 @@
 <p>初心者向け支援機能「Aura Guidance」ではGeminiを利用し、ゲーム内の初心者向けチャット「Rookie Help」に蓄積されたプレイヤー同士の質問と回答をもとに、新規プレイヤーへ情報を提供している。</p>
 <p>Fenris Creationsは、AIにプレイヤーの代わりにEVE Onlineをプレイさせたり、意思決定を自動化したりすることを目的としているわけではないと説明している。今回の研究では、長期間にわたって変化し続ける仮想世界の中でAIが学習、記憶、計画し、人間を含む他の主体とどのように関わるかを検証していく。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、Play Booksの対象電子書籍をGemini Notebookのソースに　「Expert Intelligence」10万冊超で開始</title>
@@ -76,7 +49,7 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
 <h2>購入した本をGemini Notebookの「ソース」に</h2>
 <p>Googleが発表した<a href="https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/">「Expert Intelligence」</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「日本AI大賞2026」エントリー受付中　効率化にとどまらないAI活用の挑戦を表彰</title>
@@ -101,7 +74,7 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
 <li>応募費用：無料</li>
 </ul>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「Ledge.ai EXPO 2026 AUTUMN」を本日より公開　9月4日には参加無料のLIVEウェビナーも</title>
@@ -130,14 +103,14 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
 時間14:35～</p>
 <h3>自社データを活用できないなら、企業の生成AI活用は始まらない ～シャドーITと情報漏洩を防ぐ\</h3>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、100万GPU時代を見据えた新プロトコル「MetaRoCE」発表　AI向けEthernet通信を再設計</title>
       <link>https://ledge.ai/articles/meta_metaroce_ai_ethernet</link>
       <description><![CDATA[<p>Metaは2026年8月24日、AI向けの大規模ネットワークを想定した新しいRDMAトランスポートプロトコル「MetaRoCE」を<a href="https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>公共2026/8/29 [SAT]Meta、52の州などの司法当局と未成年ユーザーの保護に最大約180億ドル（約２兆9000億円）で和解　Instagram・Facebookに未成年2時間制限、13歳未満を判定するAIモデル開発へ</title>
@@ -168,7 +141,7 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <p>TikTokとYouTubeが1日1時間の利用制限、夜間利用制限、年齢確認措置を導入し、それぞれが所定の支払いを行った場合に、残る資金が段階的に支払われる仕組みだ。両社が同様の枠組みに参加した場合、Metaについても1日2時間の上限が1アプリあたり1時間に短縮され、夜間利用制限も午後10時～午前7時へ拡大する。</p>
 <p>なお、金額の示し方は発表主体によって異なる。ニュージャージー州司法長官は、多州間訴訟に関するMetaの支払いを最低121億ドル、最大171億ドルと<a href="https://www.njoag.gov/attorney-general-davenport-announces-historic-17-billion-settlement-with-meta/">発表</a>{target=”_blank”}している。一方、テキサス州司法長官は同州が10億ドル超を受け取ると<a href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-over-1-billion-meta-historic-settlement-protects-texas-kids">発表</a>{target=”_blank”}しており、Metaは52司法長官との合意全体について約180億ドルと説明している。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、AIサイバー攻撃の高度化を警告　政府・企業に「集団的対応」、100超の組織が公開書簡</title>
@@ -190,7 +163,7 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <p>またOpenAIは8月26日、社内のサイバーセキュリティ評価中に研究モデルがインターネットから隔離するための制御を回避し、OpenAIの研究インフラやHugging Faceのシステムの一部に侵入したインシデントの詳細を<a href="https://openai.com/ja-JP/index/hugging-face-incident-and-the-road-ahead/">公表</a>している。</p>
 <p>今回の公開書簡は、こうしたAIのサイバー能力の向上を前提に、重要インフラを含む防御側へのAI導入や、企業・政府をまたいだ情報共有と支援を具体的に求める内容となっている。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI独自推論チップ「ハラペーニョ」実測公開、NVIDIA GB200/GB300比でワット当たり最大1.9倍</title>
@@ -211,21 +184,21 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <p>なお、InferenceXを運営するSemiAnalysisは、OpenAIの研究施設でベンチマークの実行を確認したと<a href="https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia">説明</a>{target=”_blank”}している。一方、数値自体はOpenAIから提供されたもので、SemiAnalysisがInferenceXの全ベンチマークを独自に実施したものではないとしている。</p>
 <p>OpenAIはJalapeñoを2026年末までに自社のコンピューティングインフラへ導入する計画で、第2世代はすでに開発が進み、第3世代の設計にも着手している。同社は今後もNVIDIAなどパートナー企業のアクセラレーターを学習・推論の両方で広く利用しながら、Jalapeñoを複数世代の独自推論プラットフォームとして展開する方針だ。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>ワイングラスを縁まで満たせるか、指を3本描けるか　OpenRouterが39の画像生成AIを比較する「Image Benchmarks」公開</title>
       <link>https://ledge.ai/articles/openrouter_image_benchmarks</link>
       <description><![CDATA[<p>複数のAIモデルを横断して利用できるプラットフォームを提供するOpenRouterは2026年8月21日、複数の画像生成AIの能力を横並びで比較できる「Visual Image Benchmarks」を<a href="https://openrouter.ai/blog/announcements/image-benchmarks/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Qualcomm、日本のロボット産業に長期投資へ　「Qualcomm Japan Robotics Center」設立を計画</title>
       <link>https://ledge.ai/articles/qualcomm_japan_robotics_investment</link>
       <description><![CDATA[<p>Qualcomm Technologiesは2026年8月25日、日本のロボティクス分野を対象とする長期投資イニシアチブを設ける意向を<a href="https://www.qualcomm.com/news/releases/2026/08/qualcomm-launches-comprehensive-robotics-investment-initiative-i">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Alibaba「Qwen3.8-Flash-Next」公開、Qwen4の次世代アーキテクチャを先行投入　学習コストは約9分の1</title>
@@ -250,7 +223,7 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qsa_arch_fb2e74077c/qsa_arch_fb2e74077c.png" alt="qsa_arch.png" /></p>
 <p>Qwen3.8-Flash-Nextは<a href="https://github.com/QwenLM/Qwen3.8-Flash-Next">公式GitHub</a>でも公開されており、Transformers、llama.cpp、SGLang、vLLMなどでの利用方法が案内されている。AlibabaのAI業務プラットフォーム「QwenWork」では新設した「Standard」モードに採用。商用サービス向けモデルは「Qwen3.8-Flash」として<a href="https://www.qwencloud.com/models/qwen3.8-flash">QwenCloud</a>で提供され、100万トークンのコンテキストやOpenAI、Anthropic互換APIに対応する。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>防衛省の情報分析をSakana AIがAI支援　公開情報で収集・分析・管理、AIエージェント技術を実証</title>
@@ -272,7 +245,7 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <p>Sakana AIは2026年3月にも、防衛装備庁防衛イノベーション科学技術研究所から、指揮統制（C2）システムの高度化に向けた基盤技術研究を受注している。</p>
 <p>3月の案件では、各部隊やセンサーから得られる情報を統合し、迅速で正確な指揮命令につなげる技術を研究する。一方、今回の案件についてSakana AIは、安全保障政策全体を支える戦略的なインテリジェンス業務を対象とするものと位置付けている。</p>
 ]]></description>
-      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>北京「世界人型ロボット運動会」、天工Ultraが100mを9秒32　人類男子世界記録9秒58を上回る</title>
@@ -280,7 +253,86 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <description><![CDATA[<p>中国・北京で2026年8月22日、人型ロボットの性能を競う「第2回世界人型ロボット運動会」が開幕した。北京人型ロボットイノベーションセンター（北京人形機器人創新中心）が開発した人型ロボット「天工Ultra」は、100m予選で9秒32を記録。ウサイン・ボルト氏が持つ人間の男子100m世界記録9秒58を上回るタイムとなった。</p>
 <p>北京市経済・情報化局の<a href="https://jxj.beijing.gov.cn/jxdt/zwyw/202608/t20260824_4833872.html">発表</a>{target=\</p>
 ]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alibaba、AI動画生成「Wan3.0」を一般提供　最大30秒、PDF・PowerPoint・Webページも動画化</title>
+      <link>https://ledge.ai/articles/alibaba_wan3_general_availability</link>
+      <description><![CDATA[<p>中国Alibabaは2026年8月24日、AI動画生成モデル「Wan3.0」の一般提供を開始したと<a href="https://www.linkedin.com/posts/alibaba-cloud-computing-company_letswanit-activity-7497523770602143744-pHA4">発表</a>した。Alibaba CloudのAI開発基盤「Model Studio」と「Qwen Cloud」で利用できる。Wan3.0は8月上旬から公開ベータを実施しており、今回一般提供へ移行した。</p>
+<h2>最大30秒を一度に生成、文書やWebページも動画の素材に</h2>
+<p>Wan3.0は、Alibabaの動画生成モデル「Wan」シリーズの新世代モデルである。1回の生成で最大30秒の動画に対応し、前モデル「Wan2.7-Video」の最大15秒から生成時間を延ばした。プロンプトの内容に応じて動画の長さを提案する機能や、生成した動画を続きから延長する機能も備える。</p>
+<p>入力にはテキストや画像だけでなく、動画、音声を組み合わせて参照できる。さらにPDFやPowerPoint、Word文書、表計算ファイルなどの文書やWebページも入力でき、文書に含まれる情報をもとに動画を生成できる。Model Studioの公式ブログでは、プレゼン資料を広告動画にしたり、研修資料を動画教材にしたり、表計算データをアニメーション付きのグラフとして表現したりする用途を例示している。</p>
+<p><strong>Wan3.0を使った動画生成のデモ画面</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/This_is_Wan3_0_625b1a0036/This_is_Wan3_0_625b1a0036.jpg" alt="This is Wan3.0..jpg" /></p>
+<p>また、参照した人物や小道具、空間、映像スタイルなどを生成中に一貫して維持する能力を強化したという。生成済みの動画について、映像やストーリー、台詞を変更する編集機能も利用でき、最初から動画全体を生成し直さずに修正できるとしている。</p>
+<h2>1080pは1秒0.20ドル、Standard版は期間限定で30％割引</h2>
+<p>Alibaba Cloudが示したStandard APIの通常料金は、生成動画1秒あたり480pが0.05ドル、720pが0.10ドル、1080pが0.20ドル。30秒の動画を生成した場合、通常料金ではそれぞれ1.50ドル、3ドル、6ドルとなる。</p>
+<p>一般提供開始に合わせ、Alibaba Cloud Model StudioとQwen Cloudでは、2026年8月23日から9月23日までWan3.0 Standardを30％割引で提供するキャンペーンも実施している。</p>
+<p>Alibabaは2026年8月7日付の公式ブログでWan3.0の公開ベータ開始を<a href="https://www.alibabacloud.com/blog/alibaba-unveils-wan3-0-with-twice-as-long-video-outputs-from-a-richer-variety-of-inputs_603439">発表</a>
+していた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/beta_version_of_Wan3_0_2db32b5b61/beta_version_of_Wan3_0_2db32b5b61.jpg" alt="beta version of Wan3-0.jpg" /></p>
+<p>なお、Model Studioの公式ブログでは、現時点の課題として音声の質感や画面内の文字を描画する精度には改善の余地があるとしている。</p>
+]]></description>
+      <pubDate>Wed, 26 Aug 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、無料学習サイト「Claude Academy」公開　Claude CodeやMCP、AIの能力と限界まで学べる</title>
+      <link>https://ledge.ai/articles/anthropic_claude_academy</link>
+      <description><![CDATA[<p>Anthropicは2026年8月20日（現地時間）、生成AIや同社のAI「Claude」の活用方法を学べる無料学習サイト「Claude Academy」を<a href="https://x.com/claudeai/status/2090518650251804742">公開</a>{target=\</p>
+]]></description>
       <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>「困ったら、まずAI」が当たり前に。LINEヤフーコミュニケーションズが見据える、生成AI時代のCS——独占インタビュー</title>
+      <link>https://ledge.ai/articles/lineyahoo-communications-interview</link>
+      <description><![CDATA[<p>「困りごとがあれば、まず生成AIに相談する」——。</p>
+<p>これまで、商品やサービスについて疑問やトラブルが生じた際、ユーザーは検索エンジンで情報を探したり、企業のヘルプページを確認したり、それでも解決しなければカスタマーサポート（CS）へ問い合わせたりするのが一般的だった。</p>
+<p>しかし今、その「問い合わせに至るまで」の行動が変化している。</p>
+<p>LINEヤフーコミュニケーションズ株式会社の調査では、若年層を中心に、企業への問い合わせ前にAIを「相談相手」として活用する実態が明らかになった。AIに疑問を投げかけ、情報を整理し、自分の状況を言語化したうえで企業に問い合わせる。そんな新しい顧客行動が生まれている。</p>
+<p>では、AIがユーザーの「問い合わせ前の疑問解消・整理」を担うようになったとき、企業のCSには何が求められるのか。今回は、LINEヤフーコミュニケーションズ株式会社でコマースCS推進を牽引する飯田氏に、生成AIによって変わる顧客行動と、AIエージェント時代の企業と顧客のコミュニケーションについて聞いた。</p>
+<h2>「問い合わせる前」に、ユーザーはAIへ相談している</h2>
+<p>今回、同社が着目したのは、企業に問い合わせる「前」のユーザー行動だ。その背景には、海外で起きている顧客接点の変化があったという。</p>
+<p>「きっかけの一つは、ガートナー社が発表した海外の調査事例でした。海外では顧客体験の半分以上が、企業公式よりもサードパーティのプラットフォーム、たとえば検索やSNSなどから始まっているというデータがありました。そこで、日本でも同じような変化が起きているのではないかと考えたことがスタートです」</p>
+<p>飯田氏によると、実際のサポート現場でも、ユーザーが企業へ問い合わせる前にWeb検索やSNS、生成AIなどを使い、自ら情報を集める動きが広がっていると感じていたという。こうしたユーザー行動の変化を可視化し、今後のヘルプページや自己解決コンテンツ、サポート設計を考える材料とするため、同社は調査を実施した。その結果から浮かび上がったのが、「困ったら、まずAIに聞く」という新たな行動だ。</p>
+<p>18〜29歳に、商品・サービスについて困ったときや確認したいとき、最初に情報を探したり問い合わせたりする方法を聞いたところ、「ChatGPT、Gemini、Copilotなどの生成AIサービス」が35.9％で最多となった。「Web」の31.7％、「YouTube、X、Instagram、TikTokなどの動画・SNS」の20.7％を上回る結果となっている。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/152561_51_d874476c9aec257416671475d5a18299_999x312_00d073e47b/152561_51_d874476c9aec257416671475d5a18299_999x312_00d073e47b.webp" alt="152561-51-d874476c9aec257416671475d5a18299-999x312.webp" /></p>
+<p>さらに、この傾向は18〜29歳に限ったものではない。生成AIを最初の情報収集・問い合わせ手段として利用する割合は、30代でも35.1％と18〜29歳とほぼ同水準だった。40代では27.4％となっており、年代による差はあるものの、生成AIを「最初の相談先」とする行動が幅広い世代に広がりつつあることがうかがえる。</p>
+<p>なかでも飯田氏が注目するのが、若年層にとって生成AIが特別なツールではなく、日常的な存在になっていることだ。</p>
+<p>「若年層におけるこの変化は想定内ではありました。今の若い世代はスマートフォンネイティブであり、同時に『AIネイティブ』でもあります。必要に迫られて使うというよりは、ごく自然な日常の相談相手としてAIを活用している印象です」</p>
+<p>従来のWeb検索では、ユーザー自身が検索キーワードを考え、複数のページから必要な情報を探し出す必要があった。一方、生成AIには、まだ整理できていない疑問や困りごとをそのまま投げかけ、対話しながら問題を整理していくことができる。この違いは、生成AIが単なる「新しい検索手段」ではないことを示している。</p>
+<p>「何か疑問や困りごとが生じた際、『とりあえずAIに聞いてみる』という行動パターンが、生活様式そのものに組み込まれています。生成AIは単なる検索エンジンの代替にとどまらず、CSに状況を説明するための『課題の整理』や『言語化のサポート役』も担っています」</p>
+<p>これまで企業は、自社のWebサイトやFAQ、問い合わせ窓口などを顧客との主要な接点として設計してきた。しかし生成AIが「最初の相談先」になれば、ユーザーは企業の公式チャネルにたどり着く前に、AIとの対話を経ている可能性がある。</p>
+<h2>「AIに聞いたけど解決しなかった」——CS現場でも変化</h2>
+<p>もっとも、生成AIだけですべての問題が解決するわけではない。
+一般的な情報の整理や平均的なケースへの回答は生成AIが得意とする一方、個々のユーザーに固有の事情が絡む問題では、企業側の対応が必要になる。</p>
+<p>「生成AIは平均的な情報整理や一般的な回答には非常に強いのですが、個別のイレギュラーな状況や、背景にある細かな文脈（コンテキスト）を読み取る点においては、まだ発展途上です」</p>
+<p>たとえば契約内容や個人の利用環境、金銭、配送などが絡むトラブルでは、サービス固有の公式情報だけでなく、個々のユーザーが置かれている状況を踏まえた判断が求められる。さらに、CSにはもう一つ、AIには簡単に代替できない領域がある。それは、ユーザーの感情を汲み取りながら対応することだ。</p>
+<p>「CSの現場にはユーザーの『感情』が伴うケースも少なくありません。困りごとを抱えて不安になったり、感情が高ぶったりしているお客様に対して、状況を丁寧にヒアリングし、感情に寄り添いながら適切な解決へ導く役割は、今後も人の手によるカスタマーサポートが担うべき重要な領域だと考えています」</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/lineyahoo_iida_924a7589c0/lineyahoo_iida_924a7589c0.png" alt="lineyahoo_iida.png" /></p>
+<p>実際、CSの現場でも生成AIの利用をうかがわせる問い合わせを目にするようになってきているという。</p>
+<p>「問い合わせの冒頭に『AIに聞いたけれど解決しなかったので』といった枕詞がついているケースや、『うまくまとめられないのでAIに文章を整理してもらいました』と、課題と背景が見出し付きで整理された問い合わせが届くこともあります」</p>
+<p>これはCSにとって、必ずしも悪い変化ではない。ユーザーがAIとの対話を通じて事前に困りごとや状況を整理していれば、CS側も問い合わせ内容を把握しやすくなり、よりスムーズな対応につなげられるからだ。
+一方で、AIで解決できる疑問が増えれば、企業のCSに寄せられるのは、AIだけでは解決できなかった問い合わせが中心になっていく。今後、CSには、より複雑な問い合わせへの対応が求められるようになる可能性がある。</p>
+<h2>AIエージェント時代、CSは「問い合わせに答える仕事」から変わる</h2>
+<p>では、AIエージェントの活用がさらに進んだ先で、CSはどのような姿になっていくのか。
+AIの大きな強みは、スピードと、24時間365日稼働できる点にある。一般的な質問や迅速な初期対応をAIが担えば、ユーザーは必要な情報へより早くたどり着ける。LINEヤフーでも、ヘルプページなどでユーザーの困りごとに回答するAIエージェントの搭載を進めている。
+一方、人に求められるのは、AIだけで解決できない問い合わせへの対応だけではない。飯田氏は、これから人が担う役割を二つ挙げる。</p>
+<p>「人が担うべきは『全体設計』と『高難度な個別のコミュニケーション』の2軸です」</p>
+<p>なかでも今後重要になるのが、「全体設計」の役割だ。CSには日々、ユーザーがどこでつまずき、何に困り、どのような情報を求めているのかが集まってくる。そうした顧客との接点から得られる知見を、問い合わせ対応だけで終わらせず、サービスそのものの改善に生かしていくことが求められる。</p>
+<p>「今後は単に問い合わせに答えるだけでなく、サービス全体の導線設計や企画・改善といった上流工程にCSの知見を生かしていく役割が広がっていくと考えています」</p>
+<p>AIによる自動化は、CSの仕事をなくすのではなく、その役割の重心を変えていく。目の前の問い合わせに対応するだけでなく、顧客の声をもとに、問い合わせそのものを減らすためのサービスや導線を設計する。AIエージェント時代には、こうしたより上流の領域でCSの知見を生かすことが、これまで以上に重要になりそうだ。</p>
+<h2>AIはCSのライバルでありパートナー</h2>
+<p>生成AIによって、企業への問い合わせに至るプロセスに、新たな一段階が加わった。ユーザーは企業に問い合わせる前にAIへ相談し、情報を集め、問題を整理する。企業側から見れば、これまで自社のWebサイトやFAQ、CSが担っていた「顧客の疑問に答える」という役割の一部を、ChatGPTやGeminiなどの生成AIが担うようになったとも言える。だからこそ、飯田氏はCS担当者の視点そのものを変える必要があると指摘する。</p>
+<p>「これからのCSは、ライバルを『同業他社のカスタマーサポート』として比べるのではなく、『AIをライバルとして捉える』という意識が必要になってくると感じています」</p>
+<p>重要なのは、AIに勝つことではない。AIが持つ圧倒的な利便性を前提に、それでも「人や企業公式だからこそ提供できる価値は何か」を考えることだ。</p>
+<p>「AIの圧倒的な利便性や強みを認めたうえで、『AIでは解決できない、自分たち（人・企業公式）の強みや価値はどこにあるのか』を問い続けること」</p>
+<p>AIに一般的な質問を任せ、人は複雑な問題や感情を伴うコミュニケーションに集中する。
+さらに、CSで得られた顧客の声を、サービスの改善や導線設計に反映していく。そうした役割分担が進めば、AIはCSの「代替者」ではなく、顧客体験を高めるためのパートナーになる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/lineyahoo_iida2_6105bdb352/lineyahoo_iida2_6105bdb352.png" alt="lineyahoo_iida2.png" /></p>
+<p>「AIを対立構造として捉えるのではなく、強力なパートナーとして使いこなしながら、人間だからこそ提供できる寄り添いや、高度な解決力を磨いていくことが、これからのAI時代を生き抜くカギになると考えています」</p>
+<p>生成AIの普及によって、ユーザーが企業にたどり着くまでの行動はすでに変わり始めている。企業に求められるのは、AIをCSに導入することだけではなく、「顧客がすでにAIを使っている」ことを前提に、顧客との接点そのものを捉え直すことだ。AIが日常の相談相手となる時代、企業が顧客とどこで、どのように関係を築いていくのか。その問いに向き合うことが、これからのCSには求められている。</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>中国Moonshot AIの「Kimi」、日本向け展開を本格化　「今日から、日本での歩みを始める」</title>
@@ -288,56 +340,6 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <description><![CDATA[<p>中国のMoonshot AIは2026年8月21日（日本時間）、AIアシスタント「Kimi」の日本公式X（@KimiAI_Japan）で、日本向けの展開を打ち出した。「はじめまして、日本。Kimiです。今日から、日本での歩みを始めます」と<a href="https://x.com/KimiAI_Japan/status/2090631222934294575">投稿</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 25 Aug 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>法人向けAIサービス説明会を開催　AIの競争軸は「モデル」から「データ」へ―KDDI</title>
-      <link>https://ledge.ai/articles/kddi-market-compass-session</link>
-      <description><![CDATA[<p>KDDIは8月20日、法人向けAIサービス説明会を開催した。説明会では、同社が描くAI戦略とともに、JR西日本SC開発と共同で同日提供を開始した「KDDI Market Compass」を紹介した。</p>
-<p>生成AIを巡っては、より高性能なLLMの登場やモデル間の性能競争に注目が集まりがちだ。そうした話題の一方で、そのAIを「何のデータで、どう業務に生かすのか」ということの重要度がより高まってきているという点を強調した。</p>
-<p>KDDIが持つ人流データに、各業界の企業が長年蓄積してきた専門知識や経験を掛け合わせ、実際の意思決定に使えるAIをつくる。その「業界特化型AI」の第1弾として投入するのが、商業施設の市場調査から戦略立案までを支援するKDDI Market Compassだ。</p>
-<h2>AIの価値を左右するのは「使えるデータ」</h2>
-<p>説明会の冒頭、KDDI ビジネスグロース事業本部 グロース事業推進本部 AIインテグレーション事業推進部長の北条裕樹氏は、KDDIがこれからの社会を「AI前提社会」と捉えていると説明した。</p>
-<p>AIは分析や予測を支援する従来型のものから、文章や画像を生成する生成AIへ。さらに自律的に判断・行動するエージェンティックAIやフィジカルAIへと進化している。企業にとっても、AIは単なる業務支援ツールではなく、意思決定や業務実行に入り込む存在になりつつある。</p>
-<p>こうした変化の中で、KDDIが競争力の源泉として注目するのが「データ」だ。</p>
-<p>「近年はAIモデルの性能差が縮まりつつあり、競争力を左右するのは『どのようなデータを持っているか』ということになっています」</p>
-<p>重要なのはデータ量だけではない。種類や鮮度、正確性、価値など、AIが実際に活用できるデータをどれだけ持っているかが成果を左右するという。</p>
-<p>KDDIにとって、その強みの一つとなるのが位置情報をもとにした人流データだ。同社はこれまでも、商圏・人流分析サービス「KDDI Location Analyzer」などを通じて、位置情報を市場分析に活用してきた。今回発表されたKDDI Market Compassも、この人流データがサービスの重要な基盤となっている。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_2_2925d3e5f1/kddi_2_2925d3e5f1.png" alt="kddi_2.png" /></p>
-<p>ただし、KDDIが目指すのは、データを提供したり、生成AIと組み合わせたりするだけではない。北条氏は、実際の業務でAIを活用するには、その業界固有の判断基準やノウハウを取り込むことが重要だと指摘する。KDDIがデータとAIを提供し、そこに各業界の企業が持つ専門知識を組み込む。それによって業務課題の解決に直結する「業界特化型AI」をつくるという構想だ。</p>
-<h2>「人流データ×実践知」、第1弾は商業施設開発</h2>
-<p>その第1弾として披露されたのが、JR西日本SC開発と共同で提供するKDDI Market Compassだ。KDDIの人流データや属性データに、JR西日本SC開発が商業施設開発で培ってきたマーケティングの実践知と生成AIを組み合わせ、市場調査、分析、戦略立案までを一気通貫で支援する。</p>
-<p>JR西日本SC開発は「ルクア大阪」をはじめとした商業施設を運営する一方、新規施設の開発やマーケティングも自ら手掛けてきた。説明会に登壇したJR西日本SC開発 執行役員 カンパニー統括本部 副統括本部長 兼 経営戦略部 部長の舟本恵氏が強調したのが、商業施設における「ローカライゼーション」の重要性だ。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IMG_2237_e1d4783130/IMG_2237_e1d4783130.jpg" alt="IMG_2237.JPG" /></p>
-<p>ECでは、一人ひとりの嗜好に合わせて異なる商品を提示するパーソナライゼーションが可能だ。一方、リアルな商業施設には床面積や誘致できるテナント数に物理的な制約がある。
-だからこそ、その地域に暮らす生活者を理解し、限られた店舗や商品を地域のニーズに合わせて組み合わせる必要がある。</p>
-<p>「地域の中には当然、多様な生活者、多様なニーズがあります。それらをできるだけ高い解像度で把握した上で、限られた床面積やテナント数という制約の中で最も価値の高い形に凝縮していく」</p>
-<p>そのためJR西日本SC開発では、商圏の設定や競合分析、デプスインタビュー、アンケート、3C分析、SWOT分析、ターゲティングなどを組み合わせた9段階のマーケティングプロセスを構築してきた。今回、KDDI Market Compassに組み込まれたのは、その分析結果だけではない。「何を調べるべきなのか」「どの観点で評価するべきなのか」「どうやって仮説を組み立てるのか」。専門家が現場で積み重ねてきた思考のプロセスそのものを、分析ロジックとしてAIに実装した。</p>
-<h2>人流データから「この場所で何をつくるか」を考える</h2>
-<p>説明会では、KDDI Market Compassの実際の画面を使ったデモンストレーションも披露された。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/IMG_2241_d8dd175e18/IMG_2241_d8dd175e18.jpg" alt="IMG_2241.JPG" /></p>
-<p>利用者が分析のゴールと開発予定地、床面積などの施設情報を入力すると、AIが「商圏」「競合」「顧客ニーズ」の3つの観点から分析する。なかでもKDDIならではの強みとなるのが商圏分析だ。</p>
-<p>KDDIが持つ位置情報をもとにした人流データを使い、出店予定地周辺で実際に人がどのように移動しているのかを分析する。単純に施設を中心とした一定距離を商圏として捉えるのではなく、実際の人流と照らし合わせながら施設計画を考えられる。
-競合分析では、周辺状況や業態などから競合候補を抽出。顧客ニーズ分析では、施設を訪れる可能性がある生活者のペルソナを100人分生成し、性別や年代、ライフスタイルなどからニーズを分析する。</p>
-<p>これらを踏まえ、最終的にターゲットや施設コンセプト、テナント構成などの戦略仮説まで提示する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/kddi_3_c72552cd78/kddi_3_c72552cd78.png" alt="kddi_3.png" /></p>
-<p>現時点でアウトプットはテキスト形式となり、Word形式のレポートとして出力可能だ。
-利用するLLMの具体的なモデル名は明らかにされておらず、説明会では「グローバルモデルを採用している」とされた。</p>
-<h2>市場分析を最短1日に</h2>
-<p>こうした仕組みによって狙うのが、専門性の高い市場分析業務の高速化と標準化だ。
-JR西日本SC開発がJR大阪駅西口直結の商業施設「バルチカ03」を開発した際には、市場の定義から生活者調査、分析、戦略への落とし込みまでに4カ月以上を要したという。
-KDDI Market CompassのPoCでは、従来4カ月以上かかっていた市場分析業務を最短1日まで短縮できることを確認。分析コストも約60％削減できる見込みとしている。</p>
-<p>一方、KDDI Market Compassが目指しているのは「AIに商業施設をつくらせる」ことではない。舟本氏は、「より早く、より再現性高く、そして地域生活者に即した戦略の仮説を作る」ことが同サービスで実現したいことだと説明した。</p>
-<p>質疑応答でも、北条氏は既存の商圏分析ツールとの差について「市場調査だけではなく、仮説の立案や戦略検討、いわゆる意思決定までを支援できる」点を挙げた。データを可視化して終わるのではなく、そこから「では、どうするか」を考えるところまでAIで支援する。そのために必要となるのが、専門家が持つ実践知というわけだ。</p>
-<h2>KDDIは「業界特化型AI」をどこまで広げるのか</h2>
-<p>KDDI Market Compassは、まずショッピングセンターや複合施設など、比較的規模の大きい商業施設を主な対象としてSaaS形式で提供するが、その分析プロセスは商業施設だけに閉じたものではない。</p>
-<p>KDDIは今後、不動産開発における市場性評価や投資判断、都市開発におけるエリア分析や再開発構想などへの展開を想定する。さらに小売分野では顧客ニーズ分析や店舗ごとの売り場づくり、物流分野では物流データ分析や全体最適化なども検討している。
-KDDI Market Compassについては、3年間で数十社への導入、累計売上高10億円程度を見込むという。</p>
-<p>今回の説明会で示されたのは、一つの商業施設向けAIサービスだけではない。
-汎用的なAIモデルをそのまま企業へ提供するのではなく、KDDIが持つデータと、それぞれの業界で企業が蓄積してきた専門知識や経験を組み合わせ、実際の業務プロセスへ落とし込んでいくという方向性だった。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/DSC_04904_8269b75d2c/DSC_04904_8269b75d2c.jpg" alt="DSC04904.JPG" /></p>
-<p>AIモデルそのものの性能だけでは差別化が難しくなっていくとすれば、「どのような独自データを持っているか」、そして「業界の知見をどうAIに実装するか」が、企業向けAIサービスの次の競争軸となる。</p>
-]]></description>
-      <pubDate>Mon, 24 Aug 2026 01:50:00 GMT</pubDate>
     </item>
     <item>
       <title>生成AIで架空の女性「中村りほ」を演出し政治投稿　立憲民主党栃木県連の男性党員がX運用</title>
