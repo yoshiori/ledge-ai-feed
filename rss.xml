@@ -184,6 +184,28 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、AIサイバー攻撃の高度化を警告　政府・企業に「集団的対応」、100超の組織が公開書簡</title>
+      <link>https://ledge.ai/articles/openai_collective_cyber_defense</link>
+      <description><![CDATA[<p>OpenAIは2026年8月27日（現地時間）、AIを使ったサイバー攻撃への備えを産業界や政府に求める公開書簡「A call for collective action on cyber defense」を<a href="https://openai.com/collective-cyberdefense/">公開</a>した。公開ページの署名欄には、Anthropic、AWS、Google、Microsoft、Oracle、Cisco、CrowdStrike、Palo Alto Networksなど、AIやクラウド、サイバーセキュリティ、金融など幅広い分野の100以上の企業・団体が名を連ねている。</p>
+<p><strong>■ OpenAIの公開書簡に賛同する企業・団体</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Supporting_organizations_e07b40d107/Supporting_organizations_e07b40d107.jpg" alt="Supporting organizations.jpg" /></p>
+<h2>「現状のセキュリティでは不十分」　3つの原則を提示</h2>
+<p>公開書簡は、今後数カ月でAIモデルの能力向上が進むにつれ、AIを使ったサイバー攻撃がより広範かつ高度になるとの見方を示した。病院や浄水場、インターネットを支えるインフラなど、社会が依存する企業や公共サービスもリスクにさらされるとしている。</p>
+<p>一方、AIの進歩は防御側にも新たな手段をもたらしているとして、現在を防御体制を強化できる「defenders’ window（防御側に開かれた好機）」と位置付けた。</p>
+<p>そのうえで、集団的な対応に向けた3つの原則を提示した。長年放置されたバグや過剰な権限、設定ミス、未修正のソフトウェア、弱い認証などを抱えた従来のセキュリティ対策だけでは不十分だとし、サイバー防御に使えるAIをより多くの防御担当者へ提供すること、さらに企業や政府をまたいだ世界規模の協力体制を構築することを求めている。</p>
+<h2>政府には病院や水道へのAI提供、AI企業には資金やモデルへのアクセスを要請</h2>
+<p>公開書簡では、「すべての組織」「サイバーセキュリティ企業と技術パートナー」「政府」「フロンティアAI企業」の4主体ごとに、具体的な行動も示した。</p>
+<p>一般企業には、サイバー防御を経営上の優先事項とし、最もリスクの高い脆弱性への対応を急ぐよう求めた。AIが生成したコードを含め、購入・開発・導入するシステムのセキュリティ基準を引き上げることも挙げている。</p>
+<p>政府に対しては、国内外で脅威情報を共有する仕組みを強化するとともに、十分な人員や予算を持たない重要インフラの防御に資金を投入するよう求めた。病院や水道事業者、地方政府などが、防御能力を持つAIや認可されたセキュリティテスト、専門家の支援を利用できる環境を整えることも提案している。</p>
+<p>フロンティアAI企業には、十分な資金や訓練、モデルへの適切なアクセスを提供するほか、AIエージェントのIDを追跡可能かつ責任主体を明確にできる仕組みを整えることを要請した。セキュリティ監視や脆弱性の非公開報告、修正結果の検証に投資し、政府やセキュリティ企業、オープンソースのメンテナーとツールや脅威評価を共有することも求めている。</p>
+<h2>OpenAIは「今後数カ月」が防御強化の機会と説明</h2>
+<p>OpenAI共同創業者兼PresidentのGreg Brockman氏は8月17日に公開した「<a href="https://openai.com/index/the-defenders-window/">The Defender’s Window</a>」で、AIモデルが現実のサイバー攻撃の一部を自動化できるようになりつつあるとして、企業はAIを使ったセキュリティ対策の自動化を急ぐ必要があるとの考えを示していた。</p>
+<p>またOpenAIは8月26日、社内のサイバーセキュリティ評価中に研究モデルがインターネットから隔離するための制御を回避し、OpenAIの研究インフラやHugging Faceのシステムの一部に侵入したインシデントの詳細を<a href="https://openai.com/ja-JP/index/hugging-face-incident-and-the-road-ahead/">公表</a>している。</p>
+<p>今回の公開書簡は、こうしたAIのサイバー能力の向上を前提に、重要インフラを含む防御側へのAI導入や、企業・政府をまたいだ情報共有と支援を具体的に求める内容となっている。</p>
+]]></description>
+      <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI独自推論チップ「ハラペーニョ」実測公開、NVIDIA GB200/GB300比でワット当たり最大1.9倍</title>
       <link>https://ledge.ai/articles/openai_jalapeno_benchmark_results</link>
       <description><![CDATA[<p>OpenAIは2026年8月25日（現地時間）、同社初のカスタム推論チップ「Jalapeño（ハラペーニョ）」の実測ベンチマーク結果を<a href="https://openai.com/index/jalapeno-first-results/">公開</a>した。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tの3モデルで評価し、比較対象のAIシステムに対して、ピーク時のワット当たり処理性能で1.5〜1.9倍、エンドツーエンドのレイテンシで1.7〜3.6倍の性能を示したとしている。</p>
