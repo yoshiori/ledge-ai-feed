@@ -69,25 +69,12 @@
       <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>インテル調査、ロボット導入意欲と運用準備にギャップ　6割が5年以内に「多数のロボット運用」、正式な協働戦略は4割</title>
-      <link>https://ledge.ai/articles/intel_robotics_readiness_gap</link>
-      <description><![CDATA[<p>インテルは2026年8月20日、ロボティクス導入の準備状況に関する委託調査「The Robotics Readiness Gap」の結果を<a href="https://newsroom.intel.com/ja/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%EF%BC%88ai%EF%BC%89/%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%81%AE6%E5%89%B2%E3%81%8C%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%B0%8E%E5%85%A5%E3%81%AB%E5%A4%9A%E5%A4%A7%E3%81%AA%E6%84%8F%E6%AC%B2">発表</a>した。回答者の6割が5年以内に自組織で多数のロボットを運用すると予想した一方、人間とロボットの協働に関する正式な戦略を策定している組織は40％にとどまった。</p>
-<p>調査はMan Bites Dog、Coleman Parkes Researchとのパートナーシップで実施した。米国、英国、ドイツ、日本、中国、韓国の6カ国で、年間売上高5億ドルを超える組織の経営・IT部門のシニアリーダー、ロボティクス専門家、政府・医療関係者の計800人を対象としている。</p>
-<h2>2030年には人間とロボットの混在を想定、現在の正式戦略は4割</h2>
-<p>調査では、67％が2030年までに人間とロボットが混在する労働力を管理できる体制が整うと回答した。また、74％は同年までに人材計画とロボティクス戦略が不可分になると予想している。一方、現時点で人間とロボットの協働について正式な戦略を持つ組織は40％だった。</p>
-<p><strong>■ 2030年までに人間とロボットが混在する労働力を管理できるとの見通しと、現在正式な協働戦略を持つ組織の割合を業種別に比較。防衛分野では48ポイントの差がある</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Confidence_vs_preparedness_by_sector_0d8a6eebc5/Confidence_vs_preparedness_by_sector_0d8a6eebc5.jpg" alt="Confidence vs preparedness by sector.jpg" /></p>
-<p>業種別では、将来の運用に対する自信と現在の戦略整備状況との差が、防衛で48ポイント、スマートシティで30ポイント、製造業で26ポイント、小売で25ポイント、医療で22ポイントとなった。</p>
-<p>回答者の10人中4人は、必要なスキルや人材の不足がロボティクス導入を大規模化する際の阻害要因になっていると回答した。また、本格的なロボティクス導入によって業務のアウトプットが2倍になる可能性があるとも予測している。後者は実測値ではなく、調査回答者による将来予測である。</p>
-<h2>55％が「安全性への懸念で導入が遅れた」</h2>
-<p>安全性も導入上の課題として挙げられた。31％はロボティクスが最も大きな価値をもたらす領域として安全性を挙げた一方、55％は安全性への懸念によってロボティクスの導入が遅れたと回答した。</p>
-<p>また、68％は、より明確なグローバル安全基準が策定されれば導入が加速すると回答している。ロボットの外観については、77％が見た目より性能を重視すると答え、65％は現在のロボットの形状やサイズが現実の利用ニーズではなく、技術上の制約によって決まっているとみている。</p>
-<h2>78％が「100ミリ秒以内」の意思決定を要求</h2>
-<p>ロボットを大規模展開するためのAI基盤についても調べた。ミッションクリティカルなロボティクス用途で許容できる最大レイテンシーについて、23％が10ミリ秒未満、55％が10～100ミリ秒と回答した。合わせて78％が100ミリ秒以内での意思決定を求めている。</p>
-<p><strong>■ 重要なロボティクス用途で許容できる最大レイテンシー。23％が10ミリ秒未満、55％が10～100ミリ秒と回答した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/When_considering_the_maximum_acceptable_latency_6181af74ad/When_considering_the_maximum_acceptable_latency_6181af74ad.jpg" alt="When considering the maximum acceptable latency.jpg" /></p>
-<p>こうした処理を支えるエッジまたはデバイス搭載AIについて、42％の組織が戦略を策定して予算を確保しており、39％は現在開発を進めている段階だ。</p>
-<p>インテルは、ロボティクスとフィジカルAIの融合が進む中、ロボットの実証段階から大規模展開への移行を支える技術として、エッジAI向け半導体のほか「Intel Robotics AI Suite」や「OpenVINO Physical AI」などを展開している。</p>
+      <title>Google、Play Booksの対象電子書籍をGemini Notebookのソースに　「Expert Intelligence」10万冊超で開始</title>
+      <link>https://ledge.ai/articles/google_play_books_gemini_notebook_expert_intelligence</link>
+      <description><![CDATA[<p>Googleは2026年8月27日（現地時間）、Google Play Booksで購入した対象電子書籍をAIリサーチツール「Gemini Notebook」（旧NotebookLM）に直接追加できる機能の提供を<a href="https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/">開始</a>した。
+Google横断の取り組み「Expert Intelligence」の一環で、開始時点で主要出版社の10万冊超に対応するという。</p>
+<h2>購入した本をGemini Notebookの「ソース」に</h2>
+<p>Googleが発表した<a href="https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/">「Expert Intelligence」</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 25 Aug 2026 22:50:00 GMT</pubDate>
     </item>
