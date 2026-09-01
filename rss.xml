@@ -216,6 +216,29 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>OpenAI、SpaceX傘下のCursorへのモデル提供終了へ　11月12日を提案、新モデルは提供せず</title>
+      <link>https://ledge.ai/articles/openai_cursor_model_access_end</link>
+      <description><![CDATA[<p>OpenAIは2026年8月28日（現地時間）、AIコーディングツール「Cursor」にOpenAIモデルを提供する契約を終了する方針を<a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/">発表</a>した。8月14日にCursorがSpaceXに正式買収されたことを受けた措置で、OpenAIは11月12日を停止日として提案している。ただし正式な終了日は現時点で確定しておらず、Cursor側がそれ以前にアクセスを終了する可能性もあるという。</p>
+<h2>SpaceX買収で「支配権変更」条項を行使へ</h2>
+<p>OpenAIによると、同社とCursorの個別契約には、企業の支配権が変更された場合、一定期間内に契約を解除できる条項が設けられている。</p>
+<p>Cursorは8月14日、SpaceXによる買収が正式に完了したと<a href="https://cursor.com/ja/blog/joining-spacex">発表</a>{target=”_blank”}した。同社は4月にSpaceXとモデル学習で提携し、SpaceXAIの「Colossus」インフラを利用して自社モデルの学習を拡大していた。買収後はSpaceXが持つ大規模なGPU基盤を活用し、より高性能で低コストなモデルの開発を進めるとしている。</p>
+<p>OpenAIは今回、Cursorの支配権変更を受けて契約を解除できる期間に入ったと説明。開発者がCursor経由でOpenAIモデルを利用できる期間をできる限り長くするため、契約上認められる最大限の通知期間を設け、11月12日を停止日として提案したという。</p>
+<h2>OpenAI、SpaceXによる利用規約順守に懸念</h2>
+<p>OpenAIは契約終了を決めた理由について、SpaceXがOpenAIの技術を利用規約の範囲内で使用すると確信できないためだと説明している。</p>
+<p>同社は、イーロン・マスク氏の企業との過去の契約や利用規約を巡る経緯を判断材料として挙げた。大規模なパートナーにモデルを提供する際には、利用規約の順守や大規模利用時の安全性を確保するため、通常は個別契約を締結しているという。</p>
+<p>OpenAIとCursorは約4年間にわたり協力してきた。OpenAIはCursorのチームや製品を高く評価しているとしつつ、今回の判断により契約を終了する方針を示した。</p>
+<h2>将来モデルはCursorに提供せず、「Astra」も対象</h2>
+<p>移行期間中は、Cursorが現在利用しているOpenAIモデルへのアクセスを継続する予定だ。一方、OpenAIは今後登場する新しいモデルについてはCursorへ提供しない方針を明らかにした。</p>
+<p>OpenAIは公式発表で、今後投入予定のモデル「Astra」にも触れ、AIの能力向上に伴い、モデルが利用規約に沿って使われることへの責任が一段と大きくなっていると説明している。</p>
+<p>なお、11月12日は現時点で正式な契約終了日ではない。OpenAIのヘルプページでは、同日までを移行期間として「提案している」と説明しており、Cursorがそれより早く提供を終了する可能性もある。正式な終了日は両社間で確定後に公表するとしている。</p>
+<h2>自分のAPIキーならCursor内でもOpenAIモデルを利用可能</h2>
+<p>契約終了後も、CursorからOpenAIモデルを利用する手段がすべて失われるわけではない。</p>
+<p>OpenAIは、ユーザー自身のOpenAI APIキーをCursorに設定することで、ローカルのChatやAgent機能からOpenAIモデルを利用できると案内している。また、Cursor上でOpenAIの「Codex IDE extension」を利用する方法や、Amazon Bedrock、AzureなどのAIゲートウェイを経由する方法も示した。</p>
+<p>ただし、自前のAPIキーを利用できるのは対応するローカルのChatやAgentなどに限られる。Cursor TabやAuto、Cloud／Background Agents、Automations、Cursor CLI、API、SDKなどでは、自前のOpenAI APIキーを利用できないとしている。</p>
+]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ワイングラスを縁まで満たせるか、指を3本描けるか　OpenRouterが39の画像生成AIを比較する「Image Benchmarks」公開</title>
       <link>https://ledge.ai/articles/openrouter_image_benchmarks</link>
       <description><![CDATA[<p>複数のAIモデルを横断して利用できるプラットフォームを提供するOpenRouterは2026年8月21日、複数の画像生成AIの能力を横並びで比較できる「Visual Image Benchmarks」を<a href="https://openrouter.ai/blog/announcements/image-benchmarks/">発表</a>{target=\</p>
