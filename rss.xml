@@ -241,27 +241,6 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI独自推論チップ「ハラペーニョ」実測公開、NVIDIA GB200/GB300比でワット当たり最大1.9倍</title>
-      <link>https://ledge.ai/articles/openai_jalapeno_benchmark_results</link>
-      <description><![CDATA[<p>OpenAIは2026年8月25日（現地時間）、同社初のカスタム推論チップ「Jalapeño（ハラペーニョ）」の実測ベンチマーク結果を<a href="https://openai.com/index/jalapeno-first-results/">公開</a>した。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tの3モデルで評価し、比較対象のAIシステムに対して、ピーク時のワット当たり処理性能で1.5〜1.9倍、エンドツーエンドのレイテンシで1.7〜3.6倍の性能を示したとしている。</p>
-<p>JalapeñoはOpenAIがLLMの推論処理向けに設計した独自アクセラレーターで、2026年6月にBroadcomとともに<a href="https://openai.com/ja-JP/index/openai-broadcom-jalapeno-inference-chip/">発表</a>した。OpenAIがチップをゼロから設計し、BroadcomやCelesticaがチップ実装、ボード、ラック、ネットワーク、量産システムなどを支援している。6月の発表時には最終的な性能を測定中としており、今回その実測結果が公開された。</p>
-<h2>GPT-OSSなど3モデルでワット当たり性能1.5〜1.9倍</h2>
-<p>性能評価には、SemiAnalysisが公開する推論ベンチマーク「InferenceX」を使用した。OpenAIは、単純なチップ単体の処理性能ではなく、ユーザーが求める応答速度を維持しながら、一定の電力でどれだけのAI処理を行えるかを評価している。</p>
-<p>ピーク時のワット当たり処理性能では、GPT-OSS 120BでJalapeñoが8万5448 mixed tokens/s/kW、比較対象のNVIDIA GB200が4万4960で約1.9倍となった。DeepSeek R1ではGB300比で約1.7倍、Kimi K2.5ではGB300比で約1.5倍だった。</p>
-<p><strong>■ Jalapeñoと比較対象システムのピーク時のワット当たり処理性能。GPT-OSS 120Bで1.9倍、DeepSeek R1で1.7倍、Kimi K2.5で1.5倍となった</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peak_mixed_token_throughput_at_each_platform_s_best_operating_point_655dd9a45f/Peak_mixed_token_throughput_at_each_platform_s_best_operating_point_655dd9a45f.jpg" alt="Peak mixed-token throughput at each platform’s best operating point.jpg" /></p>
-<h2>1ユーザー当たりの生成速度は最大4.1倍</h2>
-<p>1ユーザー当たりのデコード速度でも差が出た。JalapeñoはGPT-OSS 120Bで毎秒1459トークン、DeepSeek R1で毎秒700トークン、Kimi K2.5で毎秒694トークンを記録した。比較対象はそれぞれ毎秒535、169、182トークンで、Jalapeñoは約2.7〜4.1倍となる。</p>
-<p>エンドツーエンドのレイテンシについても、GPT-OSS 120Bで約1.7倍、DeepSeek R1で約3.6倍、Kimi K2.5で約3.4倍低かったとしている。</p>
-<p><strong>■ Jalapeñoと比較対象システムの1ユーザー当たり最大デコード速度。GPT-OSS 120Bで2.7倍、DeepSeek R1で4.1倍、Kimi K2.5で3.8倍となった</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Peak_per_user_decoding_throughput_across_three_model_families_3d3d332e52/Peak_per_user_decoding_throughput_across_three_model_families_3d3d332e52.jpg" alt="Peak per-user decoding throughput across three model families.jpg" /></p>
-<p>OpenAIによると、Jalapeñoの定格電力は700Wで、今回テストしたワークロードでは実測の持続消費電力が550W以下だったという。推論処理では、プロンプトを処理する「プリフィル」と、回答をトークン単位で生成する「デコード」でボトルネックが異なる。Jalapeñoはチップ、メモリ、ネットワーク、ソフトウェアを一体で設計し、データ移動や通信による待ち時間を抑える構成を採用した。</p>
-<p>なお、InferenceXを運営するSemiAnalysisは、OpenAIの研究施設でベンチマークの実行を確認したと<a href="https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia">説明</a>{target=”_blank”}している。一方、数値自体はOpenAIから提供されたもので、SemiAnalysisがInferenceXの全ベンチマークを独自に実施したものではないとしている。</p>
-<p>OpenAIはJalapeñoを2026年末までに自社のコンピューティングインフラへ導入する計画で、第2世代はすでに開発が進み、第3世代の設計にも着手している。同社は今後もNVIDIAなどパートナー企業のアクセラレーターを学習・推論の両方で広く利用しながら、Jalapeñoを複数世代の独自推論プラットフォームとして展開する方針だ。</p>
-]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ワイングラスを縁まで満たせるか、指を3本描けるか　OpenRouterが39の画像生成AIを比較する「Image Benchmarks」公開</title>
       <link>https://ledge.ai/articles/openrouter_image_benchmarks</link>
       <description><![CDATA[<p>複数のAIモデルを横断して利用できるプラットフォームを提供するOpenRouterは2026年8月21日、複数の画像生成AIの能力を横並びで比較できる「Visual Image Benchmarks」を<a href="https://openrouter.ai/blog/announcements/image-benchmarks/">発表</a>{target=\</p>
