@@ -126,29 +126,6 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google DeepMind、23年続く宇宙MMORPG「EVE Online」をAI研究環境に　経済・戦争・外交が続く永続世界で長期学習</title>
-      <link>https://ledge.ai/articles/google_deepmind_eve_online_ai_research</link>
-      <description><![CDATA[<p>Google DeepMindは2026年8月21日、宇宙MMORPG「EVE Online」などを手がけるFenris Creationsと進めている研究提携について、EVEシリーズの世界をAI研究に活用する具体的な取り組みを<a href="https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/">発表</a>{target=”_blank”}した。</p>
-<p>2003年にサービスを開始したEVE Onlineでは、プレイヤーが同じ宇宙を共有し、20年以上にわたって経済や同盟、戦争、外交などを作り上げてきた。Google DeepMindは、この長期間にわたって変化し続ける仮想世界を使い、AIの継続学習や長期記憶、長期的な計画、人間を含む多数の主体との相互作用を研究する。</p>
-<h2>23年分の歴史が残る「リセットされない」世界</h2>
-<p>一般的なゲームでは、試合ごとに明確な目標や終了地点があり、その後は状態がリセットされる。一方、EVE Onlineの世界「New Eden」は継続して存在し、市場価格や資源、プレイヤー間の関係などが変化し続ける。</p>
-<p>Fenris Creationsは2026年8月20日の<a href="https://www.eveonline.com/news/view/eve-online-and-ai-research">説明</a>{target=”_blank”}で、EVE Onlineには変動する市場、希少な資源、不完全な情報があり、多数のプレイヤーがそれぞれ異なる目的を持って活動していると説明している。</p>
-<p>AIエージェントにとっても、単に戦闘に勝つ方法を学べばよいわけではない。すべての情報を得られない状態で計画し、他の主体による妨害に対応し、協力や裏切りの可能性も考慮する必要がある。ある判断の結果が数カ月、場合によっては数年にわたって影響することもある。</p>
-<p>Google DeepMindは、こうした環境を通じて「継続学習」「記憶」「長期計画」「複雑なマルチエージェント環境」という4つの能力を研究する。特に長期計画では、数週間から数カ月、さらには数年単位で推論する能力を対象としている。</p>
-<h2>まずプレイヤーから隔離したEVE Onlineで研究</h2>
-<p>ただし、研究用AIがすぐに現在のEVE Onlineへ投入されるわけではない。</p>
-<p>研究はまず、ライブ環境のプレイヤーから切り離したローカルサーバー上のEVE Onlineで始める。シミュレーションや過去の情報を利用し、制御された環境でモデルを検証する。</p>
-<p>その後はオンライン宇宙サバイバルゲーム「EVE Frontier」を使い、人間とAIエージェントが永続的でオープンな世界の中で共存する研究へ進む。EVE Frontierには、プレイヤーが機能をプログラムできる「Smart Assemblies」などがあり、世界のルール自体が変化し得る環境でAIの適応能力を調べられるという。</p>
-<p>さらに、FPS形式の「EVE Vanguard」では、短時間の戦術的な判断から宇宙全体を対象とした長期戦略まで、異なる時間軸や抽象度で行動するAIエージェントを研究できるとしている。</p>
-<p>Google DeepMindによると、能力が十分に成熟した場合にのみ、EVE OnlineやEVE Vanguardでの活用を検討する。</p>
-<h2>Geminiを使った初心者支援はすでに提供</h2>
-<p>両社の協力からは、すでにEVE Online向けのAI機能も生まれている。</p>
-<p>初心者向け支援機能「Aura Guidance」ではGeminiを利用し、ゲーム内の初心者向けチャット「Rookie Help」に蓄積されたプレイヤー同士の質問と回答をもとに、新規プレイヤーへ情報を提供している。</p>
-<p>Fenris Creationsは、AIにプレイヤーの代わりにEVE Onlineをプレイさせたり、意思決定を自動化したりすることを目的としているわけではないと説明している。今回の研究では、長期間にわたって変化し続ける仮想世界の中でAIが学習、記憶、計画し、人間を含む他の主体とどのように関わるかを検証していく。</p>
-]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>「Ledge.ai EXPO 2026 AUTUMN」を本日より公開　9月4日には参加無料のLIVEウェビナーも</title>
       <link>https://ledge.ai/articles/ledgeai-expo-2026-autumn-open</link>
       <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、「AIのいまを『浴びる』場」をコンセプトにした、オンライン展示会「Ledge.ai EXPO 2026 AUTUMN」を公開しました。</p>
