@@ -134,6 +134,13 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>エンタメ＆アート2026/9/3 [THU]GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
+      <link>https://ledge.ai/articles/grok_ani_animates_subscription</link>
+      <description><![CDATA[<p>米Animation Inc.は2026年8月29日（現地時間）、AIコンパニオンアプリ「Animates」へのGrok Companions移行について<a href="https://x.com/animates__ai/status/2093736164788191551">公式X</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「Ledge.ai EXPO 2026 AUTUMN」を本日より公開　9月4日には参加無料のLIVEウェビナーも</title>
       <link>https://ledge.ai/articles/ledgeai-expo-2026-autumn-open</link>
       <description><![CDATA[<p>AI特化型ニュースメディア「Ledge.ai」を運営する株式会社レッジは、「AIのいまを『浴びる』場」をコンセプトにした、オンライン展示会「Ledge.ai EXPO 2026 AUTUMN」を公開しました。</p>
@@ -163,7 +170,7 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>公共2026/8/29 [SAT]Meta、52の州などの司法当局と未成年ユーザーの保護に最大約180億ドル（約２兆9000億円）で和解　Instagram・Facebookに未成年2時間制限、13歳未満を判定するAIモデル開発へ</title>
+      <title>Meta、52の州などの司法当局と未成年ユーザーの保護に最大約180億ドル（約２兆9000億円）で和解　Instagram・Facebookに未成年2時間制限、13歳未満を判定するAIモデル開発へ</title>
       <link>https://ledge.ai/articles/meta_teen_safety_settlement_ai_age_model</link>
       <description><![CDATA[<p>Meta Platformsは2026年8月26日（現地時間）、米48州とワシントンD.C.、3つの米領地域の司法長官52人と、InstagramとFacebookにおける未成年ユーザーの保護を巡る和解に合意したと<a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx">発表</a>{target=”_blank”}した。Metaによると、支払いは約180億ドル（1ドル159円換算で約2兆8600億円）規模で、10年間にわたり分割して支払う。和解では18歳未満の利用時間や夜間利用を制限するほか、13歳未満のユーザーを推定するAI年齢確認モデルの開発・学習・テストも盛り込まれた。</p>
 <p>今回の和解は、2023年に米各州がMetaを相手取って起こした訴訟などを解決するものだ。州側は、MetaがInstagramやFacebookに子どもや10代の過度な利用を促す機能を組み込み、リスクについて利用者や家族らを誤認させたほか、13歳未満の子どものデータ収集・利用を巡り児童オンラインプライバシー保護法（COPPA）に違反したなどと主張していた。Metaは和解文書で、こうした主張や法的責任を否定している。</p>
@@ -246,32 +253,7 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Alibaba「Qwen3.8-Flash-Next」公開、Qwen4の次世代アーキテクチャを先行投入　学習コストは約9分の1</title>
-      <link>https://ledge.ai/articles/qwen3_8_flash_next_qwen4_architecture</link>
-      <description><![CDATA[<p>AlibabaのAI研究チームQwenは2026年8月26日、マルチモーダルMoE（Mixture of Experts）モデル「Qwen3.8-Flash-Next」を<a href="https://qwen.ai/blog?id=qwen3.8-flash-next">公開</a>た。モデルウェイトも公開している。Qwen3.8-Flash-Nextは、次世代モデル「Qwen4」で採用予定のアーキテクチャを先行して試すためのモデルと位置付けられている。</p>
-<h2>Qwen4のアーキテクチャを正式投入前に公開</h2>
-<p>Qwenは今回のモデルについて、Qwen3.5に先駆けて「Qwen3-Next」を公開した際と同じ役割を担うと説明している。Qwen3-Nextで導入された「Gated DeltaNet（GDN）」とAttentionを組み合わせた設計は、その後Qwen3.5、Qwen3.6、Qwen3.7、Qwen3.8シリーズに採用された。</p>
-<p>今回もQwen4のモデル群を構築する前にアーキテクチャ変更を公開し、外部の開発者や研究者が検証できるようにする。モデルは<a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next/tree/main">Hugging Face</a>とModelScopeでオープンウェイトとして提供されている。</p>
-<p>Qwen3.8-Flash-Nextの本体は1250億パラメータで、これとは別に510億パラメータの「N-gram Embedding」を備える。一方、MoE構造によって1トークンの処理時に活性化するパラメータは60億に抑えた。Qwenによると、Qwen3.7-Plusと比較して学習コストは約9分の1となり、推論コストも削減したという。</p>
-<p>ネイティブでは26万2144トークンのコンテキスト長に対応し、YaRNを利用することで最大100万トークンまで拡張できる。</p>
-<h2>長文処理を効率化する「QSA」など4つの変更</h2>
-<p>Qwen3.8-Flash-Nextでは、Attention、Residual、Embedding、Optimizationの4領域でアーキテクチャを変更した。</p>
-<p>Attentionには、Gated DeltaNetと新技術「Qwen Sparse Attention（QSA）」を組み合わせた構造を採用した。GDNが過去の情報を固定サイズの状態に圧縮して保持する一方、QSAは長いコンテキストを小さなブロックにまとめ、重要な領域を選択してAttentionを実行する。Qwenはこれを、GDNが効率的に「記憶」し、QSAが必要な情報を正確に「検索」する仕組みと説明している。</p>
-<p>また、「Gated Residual（GR）」では従来1本だったResidual Streamを4つの経路に広げ、情報の読み書きを動的なゲートで制御する。「N-gram Embedding」は現在のトークンと直前の複数トークンからなる局所的な文脈を使って埋め込みを参照することで、トークン当たりの計算量を大きく増やさずモデル容量を拡張する。学習にはMuon optimizerを採用し、大規模モデル向けに最適化方法も調整した。</p>
-<p><strong>■ Qwen3.8-Flash-Nextのアーキテクチャ。GDNとQSAを組み合わせ、Residual StreamやN-gram Embeddingも刷新した</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/architecture_1_4327005517/architecture_1_4327005517.png" alt="architecture (1).png" /></p>
-<h2>コーディングや長時間の業務タスクでQwen3.7-Plusを上回る</h2>
-<p>Qwenが公開した評価では、コーディングやAIエージェントを使った業務タスクを中心にQwen3.7-Plusを上回った。</p>
-<p>例えば「SWE-bench Pro」はQwen3.7-Plusの55.8に対して62.5、「SWE-bench Multilingual」は75.8に対して81.0だった。長時間にわたるオフィス作業を評価する「CoWorkBench」では65.1から73.9、職業上のタスクを評価する「JobBench」では27.6から55.7となっている。いずれもQwenが公開した評価結果であり、ベンチマークによって評価条件は異なる。</p>
-<p>長文処理については、100万トークン時のQSAのAttention Kernelで、Prefillが最大7.6倍、Decodeが最大4.9倍高速になったとしている。また、Prefix Cacheのヒット率を90％とした実験では、100万トークンのコンテキストでQwen3.7-Plusの8.6倍のPrefillスループットを記録したという。</p>
-<p><strong>■ 長いコンテキストから重要な領域を選択する「Qwen Sparse Attention（QSA）」の仕組み</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qsa_arch_fb2e74077c/qsa_arch_fb2e74077c.png" alt="qsa_arch.png" /></p>
-<p>Qwen3.8-Flash-Nextは<a href="https://github.com/QwenLM/Qwen3.8-Flash-Next">公式GitHub</a>でも公開されており、Transformers、llama.cpp、SGLang、vLLMなどでの利用方法が案内されている。AlibabaのAI業務プラットフォーム「QwenWork」では新設した「Standard」モードに採用。商用サービス向けモデルは「Qwen3.8-Flash」として<a href="https://www.qwencloud.com/models/qwen3.8-flash">QwenCloud</a>で提供され、100万トークンのコンテキストやOpenAI、Anthropic互換APIに対応する。</p>
-]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「史上最大級の知財窃盗」Sony・Warner系音楽出版社がAnthropic提訴　海賊版取得や歌詞スクレイピングを主張</title>
+      <title>エンタメ＆アート2026/8/31 [MON]「史上最大級の知財窃盗」Sony・Warner系音楽出版社がAnthropic提訴　海賊版取得や歌詞スクレイピングを主張</title>
       <link>https://ledge.ai/articles/sony_warner_anthropic_copyright_lawsuit</link>
       <description><![CDATA[<p>米Sony Music Publishing（US）LLCとWarner Chappell Musicを中心とする音楽出版社グループは2026年8月28日（現地時間）、AI企業Anthropicと共同創業者でCEOのDario Amodei氏、共同創業者のBenjamin Mann氏を著作権侵害で米カリフォルニア州北部地区連邦地裁に提訴した。</p>
 <p><a href="https://www.musicbusinessworldwide.com/files/2026/08/COMPLAINT-in-Sony_Music_Publishing_US_LLC_e.pdf">訴状</a>{target=\</p>
