@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Anthropic、AIエージェントがロボットや実験機器を操作する共通仕様「MHS」を発表</title>
+      <link>https://ledge.ai/articles/anthropic_model_hardware_standard_mhs</link>
+      <description><![CDATA[<p>Anthropicは2026年8月27日（現地時間）、AIエージェントが実験機器やロボットなどの物理的な機器を安全に操作するための共通仕様「Model Hardware Standard（MHS）」のリサーチプレビューを開始したと<a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>【寄稿】ホタルが教えてくれた“現地の日常”。ミシガンで暮らして見えたAI先進国アメリカのリアル</title>
       <link>https://ledge.ai/articles/brycen-us-report</link>
       <description><![CDATA[<h2>ホタルが教えてくれた「現地の日常」</h2>
@@ -260,28 +267,6 @@ Metaが示した約180億ドルのうち、約70％にあたる約127億ドル�
 <p><strong>■ 長いコンテキストから重要な領域を選択する「Qwen Sparse Attention（QSA）」の仕組み</strong>
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/qsa_arch_fb2e74077c/qsa_arch_fb2e74077c.png" alt="qsa_arch.png" /></p>
 <p>Qwen3.8-Flash-Nextは<a href="https://github.com/QwenLM/Qwen3.8-Flash-Next">公式GitHub</a>でも公開されており、Transformers、llama.cpp、SGLang、vLLMなどでの利用方法が案内されている。AlibabaのAI業務プラットフォーム「QwenWork」では新設した「Standard」モードに採用。商用サービス向けモデルは「Qwen3.8-Flash」として<a href="https://www.qwencloud.com/models/qwen3.8-flash">QwenCloud</a>で提供され、100万トークンのコンテキストやOpenAI、Anthropic互換APIに対応する。</p>
-]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>防衛省の情報分析をSakana AIがAI支援　公開情報で収集・分析・管理、AIエージェント技術を実証</title>
-      <link>https://ledge.ai/articles/sakana_ai_defense_information_analysis</link>
-      <description><![CDATA[<p>Sakana AIは2026年8月24日、防衛省と「総合分析業務に必要なAI機能の調査・実証」に関する契約を締結したと<a href="https://sakana.ai/defense-integrated-analysis/">発表</a>{target=”_blank”}した。契約締結日は2026年7月29日。防衛装備庁が<a href="https://www.mod.go.jp/atla/soubiseisaku/newentry/startup_contr_r080806.pdf">公表した契約結果</a>{target=”_blank”}によると、契約額は3億2903万2000円で、Sakana AIのAIエージェント技術などを活用し、防衛省の情報分析業務を支援するAI機能を調査・実証するという。</p>
-<p><strong>Sakana AIとの契約結果。契約額は3億2903万2000円</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/sakana_startup_contr_d0e0cc56a9/sakana_startup_contr_d0e0cc56a9.jpg" alt="sakana startup contr.jpg" /></p>
-<h2>防衛省の「総合分析業務」をAIで支援</h2>
-<p>対象となるのは、防衛省の情報分析官が担う「総合分析業務」である。</p>
-<p>防衛装備庁の<a href="https://www.mod.go.jp/atla/soubiseisaku/newentry/startup_proc_r080306.pdf">公募資料</a>{target=”_blank”}では、総合分析業務について、政策や運用の意思決定者のニーズを踏まえ、公開情報や電波情報、画像・地理情報など、さまざまな情報源から情報を収集・分析・管理し、報告書などを作成する業務と説明している。</p>
-<p>情報量の増加に伴い、情報の網羅的な収集や迅速で正確な分析、収集した情報や分析結果の管理・活用を人手だけで行うことには限界が生じつつあるという。一方、汎用の生成AIについても、情報の確度や鮮度、網羅性に加え、ハルシネーションやデータバイアスなどの問題があり、そのままでは信頼性が求められる総合分析業務に利用するリスクがあるとしている。</p>
-<p>今回の事業では、Sakana AIのAIエージェント技術を活用し、「情報収集の効率化」「分析能力の向上」「体系的な情報管理」の3つの観点から実証を進める。</p>
-<h2>実証で扱うのは「公開情報」</h2>
-<p>総合分析業務そのものは電波情報や画像・地理情報など幅広い情報を扱うが、今回のAI実証の対象はこれらすべてではない。</p>
-<p>防衛装備庁の公募資料では、実証で対象とする情報を「公開情報（有料・無料は問わない）」と明記している。そのため、Sakana AIのAIが防衛省の電波情報などを直接分析する実証とするのは正確ではない。</p>
-<p>公募では、言語モデルに加え、エージェント型や推薦型などのAI手法、シングルモーダル／マルチモーダル、オンプレミス／クラウドなどを含め、総合分析業務に適した技術や実行環境の組み合わせを具体化する提案が求められていた。あわせて、国内外のAI技術の動向調査や、技術面、コスト面、法制面などの課題の洗い出しも事業に含まれる。</p>
-<p>公募段階の計画では、2027年度の開始までに実証用モデルを防衛省側が試用し、そのフィードバックを踏まえて改修する。2027年度末には、実証や技術動向調査などの成果を報告書にまとめるとしている。</p>
-<h2>3月のC2システム研究とは異なる情報分析案件</h2>
-<p>Sakana AIは2026年3月にも、防衛装備庁防衛イノベーション科学技術研究所から、指揮統制（C2）システムの高度化に向けた基盤技術研究を受注している。</p>
-<p>3月の案件では、各部隊やセンサーから得られる情報を統合し、迅速で正確な指揮命令につなげる技術を研究する。一方、今回の案件についてSakana AIは、安全保障政策全体を支える戦略的なインテリジェンス業務を対象とするものと位置付けている。</p>
 ]]></description>
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
