@@ -155,37 +155,6 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、52の州などの司法当局と未成年ユーザーの保護に最大約180億ドル（約２兆9000億円）で和解　Instagram・Facebookに未成年2時間制限、13歳未満を判定するAIモデル開発へ</title>
-      <link>https://ledge.ai/articles/meta_teen_safety_settlement_ai_age_model</link>
-      <description><![CDATA[<p>Meta Platformsは2026年8月26日（現地時間）、米48州とワシントンD.C.、3つの米領地域の司法長官52人と、InstagramとFacebookにおける未成年ユーザーの保護を巡る和解に合意したと<a href="https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx">発表</a>{target=”_blank”}した。Metaによると、支払いは約180億ドル（1ドル159円換算で約2兆8600億円）規模で、10年間にわたり分割して支払う。和解では18歳未満の利用時間や夜間利用を制限するほか、13歳未満のユーザーを推定するAI年齢確認モデルの開発・学習・テストも盛り込まれた。</p>
-<p>今回の和解は、2023年に米各州がMetaを相手取って起こした訴訟などを解決するものだ。州側は、MetaがInstagramやFacebookに子どもや10代の過度な利用を促す機能を組み込み、リスクについて利用者や家族らを誤認させたほか、13歳未満の子どものデータ収集・利用を巡り児童オンラインプライバシー保護法（COPPA）に違反したなどと主張していた。Metaは和解文書で、こうした主張や法的責任を否定している。</p>
-<h2>1日2時間まで、午前0時から6時は利用をブロック</h2>
-<p>和解に基づき、対象地域ではInstagramとFacebookの18歳未満のユーザーに、保護者の許可がなければ解除できない複数の制限が適用される。Metaが示した主な内容は以下の通り。</p>
-<ul>
-<li>FacebookとInstagramを合計した1日2時間の利用上限</li>
-<li>午前0時～6時はアプリの利用を原則ブロック</li>
-<li>学校時間にあたる午前8時～午後3時は通知を原則停止</li>
-<li>投稿の「いいね」やリアクション数を標準で非表示</li>
-<li>パーソナライズされないフィードを選択可能に</li>
-<li>自動再生を無効化できる設定</li>
-<li>美容整形や極端なメイクを再現するフィルターを未成年には使用不可に</li>
-<li>保護者向け監督機能を強化</li>
-</ul>
-<p>利用時間の上限はFacebookとInstagramをまたいで計算され、複数アカウントを使っているとMetaが検出した場合も合算される。ダイレクトメッセージについては、利用時間制限や夜間・学校時間帯の制限対象から除外されるとしている。</p>
-<h2>13歳未満を判定する「U13 Age Model」を1年以内に開発</h2>
-<p>AIに関する具体的な義務も和解文書に盛り込まれた。</p>
-<p>Metaは和解の発効から1年以内に、同社のSNS利用者が13歳未満かどうかを予測する年齢確認モデルのプロトタイプ「U13 Age Model」を開発し、学習と初期テストを実施する。既存の13歳未満検出手法との性能比較を含む結果を、独立監査人に報告することも求められる。</p>
-<p>さらに発効から2年以内には、U13 Age Modelを使って和解対象地域におけるMetaのSNSアカウントを評価し、13歳未満とみられるユーザーの特定・削除目標の達成に活用する。モデルの性能を継続的に改善し、目標を達成できなかった場合は、その理由や改善内容を独立監査人に説明する仕組みも定められている。</p>
-<p>年齢確認システムについては、第三者による定期的なテストも要求する。テスト用・学習用データとは別のデータで実環境に近い性能を検証し、年齢や人種、性別、障害の有無など異なる人口集団での性能も確認する。画像や動画を利用する場合は、姿勢や照明など撮影条件の違いも考慮する。</p>
-<p>また、13歳未満の利用者に関するデータをU13 Age Modelの開発、学習、テスト、性能測定のために保持することは認める一方、広告配信やマーケティング、アルゴリズム最適化には利用できないとしている。
-約53億ドルはTikTokとYouTubeの対応が条件
-Metaが示した約180億ドルのうち、約70％にあたる約127億ドルは10年間で参加する州などに配分される。一方、残る約30％、約53億ドルの支払いには条件が設定された。</p>
-<p>TikTokとYouTubeが1日1時間の利用制限、夜間利用制限、年齢確認措置を導入し、それぞれが所定の支払いを行った場合に、残る資金が段階的に支払われる仕組みだ。両社が同様の枠組みに参加した場合、Metaについても1日2時間の上限が1アプリあたり1時間に短縮され、夜間利用制限も午後10時～午前7時へ拡大する。</p>
-<p>なお、金額の示し方は発表主体によって異なる。ニュージャージー州司法長官は、多州間訴訟に関するMetaの支払いを最低121億ドル、最大171億ドルと<a href="https://www.njoag.gov/attorney-general-davenport-announces-historic-17-billion-settlement-with-meta/">発表</a>{target=”_blank”}している。一方、テキサス州司法長官は同州が10億ドル超を受け取ると<a href="https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-over-1-billion-meta-historic-settlement-protects-texas-kids">発表</a>{target=”_blank”}しており、Metaは52司法長官との合意全体について約180億ドルと説明している。</p>
-]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、ChatGPT広告が年換算売上高10億ドルに　開始200日未満、広告主は数万社</title>
       <link>https://ledge.ai/articles/openai_chatgpt_ads_annualized_revenue_1b</link>
       <description><![CDATA[<p>OpenAIは2026年8月31日（現地時間）、ChatGPT上で展開する広告サービス「ChatGPT Ads」の売上高が、年換算のランレートで10億ドル（約1600億円）に達したと<a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/">発表</a>した。米国で広告のテストを開始してから200日未満での到達となる。広告主は数万社に増え、ChatGPT Adsは40カ国超で利用できるようになった。</p>
