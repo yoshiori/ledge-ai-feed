@@ -120,6 +120,13 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ニューヨーク市、公立校の8年生まで生成AI利用を1年間停止　約60万人対象、高校は限定利用</title>
+      <link>https://ledge.ai/articles/nyc_public_schools_generative_ai_moratorium</link>
+      <description><![CDATA[<p>米ニューヨーク市は2026年9月2日（現地時間）、市内の公立学校で2-K（2歳児向け教育）から8年生までを対象に、児童・生徒が直接利用する生成AI（student-facing generative AI）を2026-27学年度の1年間停止すると<a href="https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI、ChatGPT広告が年換算売上高10億ドルに　開始200日未満、広告主は数万社</title>
       <link>https://ledge.ai/articles/openai_chatgpt_ads_annualized_revenue_1b</link>
       <description><![CDATA[<p>OpenAIは2026年8月31日（現地時間）、ChatGPT上で展開する広告サービス「ChatGPT Ads」の売上高が、年換算のランレートで10億ドル（約1600億円）に達したと<a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/">発表</a>した。米国で広告のテストを開始してから200日未満での到達となる。広告主は数万社に増え、ChatGPT Adsは40カ国超で利用できるようになった。</p>
@@ -161,6 +168,39 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
 <p>契約終了後も、CursorからOpenAIモデルを利用する手段がすべて失われるわけではない。</p>
 <p>OpenAIは、ユーザー自身のOpenAI APIキーをCursorに設定することで、ローカルのChatやAgent機能からOpenAIモデルを利用できると案内している。また、Cursor上でOpenAIの「Codex IDE extension」を利用する方法や、Amazon Bedrock、AzureなどのAIゲートウェイを経由する方法も示した。</p>
 <p>ただし、自前のAPIキーを利用できるのは対応するローカルのChatやAgentなどに限られる。Cursor TabやAuto、Cloud／Background Agents、Automations、Cursor CLI、API、SDKなどでは、自前のOpenAI APIキーを利用できないとしている。</p>
+]]></description>
+      <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Runway、コードを介さず画面をリアルタイム生成するAI「Solaris」発表　「インターフェースワールドモデル」第1弾</title>
+      <link>https://ledge.ai/articles/runway_solaris_interface_world_model</link>
+      <description><![CDATA[<p>AI開発企業Runwayは2026年8月31日（現地時間）、新たなAIシステム群「インターフェースワールドモデル（Interface World Models）」の最初のモデルとなる「Solaris」を<a href="https://runway.com/news/research/introducing-solaris">発表</a>した。コードなどの中間表現を介してWebサイトやアプリを実装するのではなく、ユーザーの操作に応じてインターフェースそのものをフレーム単位でリアルタイム生成する。</p>
+<p>Solarisは、クリックやドラッグなどの操作を受け取りながら画面を連続的に生成する。Runwayは、Webサイトやアプリの新たな構築方法だけでなく、コンピュータを操作するAIエージェントの訓練環境としての活用も想定している。</p>
+<p>@<a href="https://www.youtube.com/watch?v=c2yCePPnrSA">YouTube</a></p>
+<h2>コードを介さず、画面そのものをリアルタイム生成</h2>
+<p>一般的なソフトウェアでは、視覚的なデザインをコードなどの中間表現に落とし込み、その記述をもとに画面や挙動を実装する。Runwayは、この変換によって視覚情報が失われるほか、インターフェースの挙動も開発者があらかじめ実装した範囲に限定されると指摘する。</p>
+<p>Solarisは、こうした中間表現を介さず、単一のワールドモデルが画面とユーザー操作への反応を生成する。ユーザーが操作するたびに次のフレームを生成するため、あらかじめ用意された画面や操作パターンだけに限定されない。</p>
+<p>論文では例として、仮想衣料品店のインターフェースを紹介している。ユーザーが画面上の赤い靴や青いシャツを自身の画像へドラッグすると、着用した状態へ画面が変化し、商品がカートへ追加される。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/ecomm_fashion_strip_789f7e4bfb/ecomm_fashion_strip_789f7e4bfb.jpg" alt="ecomm_fashion_strip.jpg" /></p>
+<p>また、食材をボウルへドラッグしてサラダを作ったり、炎を物体へ移動させて燃焼の様子を確認したり、車を回転させたりボンネットを開いたりするインタフェースなども示されている。</p>
+<h2>言語モデルが「何をするか」、ワールドモデルが「どう見せるか」を担当</h2>
+<p>Solarisは、Runwayの動画生成AIモデル「Gen-4.5」を基盤として開発された。論文によると、ユーザーによるクリックやドラッグなどの入力を、テキストや画像と同様に次のフレームを生成するための条件として扱う。</p>
+<p>リアルタイム生成を実現するため、フレームを過去のフレームに基づいて順番に生成する自己回帰型の仕組みを採用したほか、多数のノイズ除去ステップを少数に圧縮する蒸留を実施。さらに高速化したモデル自身の出力を使って学習し、長時間の操作でも画面の品質を維持できるようにしたという。</p>
+<p>Solarisでは、言語モデルとワールドモデルの役割も分けられている。言語モデルはセッションの状態を保持し、ユーザーの操作が何を意味するのか、現在の画面を変更するのか別の場面へ移るのかなどを判断する。一方、ワールドモデルは、その意図に基づいて画面と挙動をリアルタイムで生成する。</p>
+<p><strong>■ Solarisの構成。言語モデルがユーザー操作の意味を判断し、ワールドモデルが画面と挙動を生成する</strong></p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/solaris_figure_288a5213a9/solaris_figure_288a5213a9.jpg" alt="solaris_figure.jpg" /></p>
+<p>たとえば、同じ「ドラッグ」という操作でも、対象や文脈に応じて手首を拡大したり、手の大きさを測定したりと異なる挙動を生成できる。既存ソフトウェアの操作を再現するのではなく、セッション中に言語モデルが挙動を決め、それをワールドモデルが描画する仕組みだ。</p>
+<h2>Claude Opus 5によるコード生成型UIより「自然」と評価</h2>
+<p>Runwayの研究チームは、Solarisと、言語モデルがコードを生成して構築したインターフェースとの比較実験も実施した。SolarisとClaude Opus 5に同じ画像と操作指示を与え、30種類の操作例について250人が約7500件の一対比較を行った。</p>
+<p>論文版の集計では、「指示により忠実に従っているか」という評価でSolarisが62％、Claude Opus 5によるコード版が25％、同等が13％だった。「画面内でより自然に振る舞っているか」では、Solarisが72％、コード版が21％、同等が7％となった。</p>
+<p><strong>■ SolarisとClaude Opus 5によるコード生成型インターフェースのユーザー比較。論文版では、指示追従と自然さの双方でSolarisが高い支持を得た</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/user_study_c94ebf708d/user_study_c94ebf708d.png" alt="user_study.png" /></p>
+<p>研究チームは、コードで構築したインターフェースでも要求された変化を再現できる場合はあるものの、個々の操作を独立した更新として処理する傾向があるとしている。これに対しSolarisは、物体や素材、環境がどのように振る舞うかをワールドモデルが扱うことで、画面全体との一貫性を保った反応を生成できるという。</p>
+<h2>AIエージェントの訓練環境への活用も想定</h2>
+<p>Runwayは、SolarisをWebサイトやアプリの生成だけでなく、コンピュータを操作するAIエージェントの訓練にも利用できるとしている。テキストベースのAIモデルはコードで作られたインターフェース上で訓練されることで、特定のレイアウトに依存しやすく、少し異なるUIへの対応が難しくなると同社はいう。</p>
+<p>Solarisでは、インターフェース自体を生成し続けられるため、レイアウトや操作方法が変化する環境を作り出せる。Runwayは、これまで存在しなかったレイアウトを含む動的なインターフェース上で、AIエージェントを訓練できる可能性を挙げている。</p>
+<p>一方、現段階のSolarisには課題も残る。論文では、安定して読みやすい文字をリアルタイム生成すること、長時間のセッションで視覚的・意味的な一貫性を維持すること、誤った情報をもっともらしく表示するリスク、スクリーンリーダーなど既存のアクセシビリティ技術との統合を挙げている。</p>
+<p>Runwayによると、Solarisは720pでの画質、リアルタイム操作、セッションを通じた一貫性を重視して開発した。現時点では一般提供されておらず、Runwayはパートナー企業と公開に向けて取り組むとともに、早期アクセスの申し込みを受け付けている。</p>
 ]]></description>
       <pubDate>Sun, 30 Aug 2026 02:50:00 GMT</pubDate>
     </item>
