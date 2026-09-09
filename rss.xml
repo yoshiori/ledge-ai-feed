@@ -74,16 +74,6 @@
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、Play Booksの対象電子書籍をGemini Notebookのソースに　「Expert Intelligence」10万冊超で開始</title>
-      <link>https://ledge.ai/articles/google_play_books_gemini_notebook_expert_intelligence</link>
-      <description><![CDATA[<p>Googleは2026年8月27日（現地時間）、Google Play Booksで購入した対象電子書籍をAIリサーチツール「Gemini Notebook」（旧NotebookLM）に直接追加できる機能の提供を<a href="https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/">開始</a>した。
-Google横断の取り組み「Expert Intelligence」の一環で、開始時点で主要出版社の10万冊超に対応するという。</p>
-<h2>購入した本をGemini Notebookの「ソース」に</h2>
-<p>Googleが発表した<a href="https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/">「Expert Intelligence」</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
       <link>https://ledge.ai/articles/grok_ani_animates_subscription</link>
       <description><![CDATA[<p>米Animation Inc.は2026年8月29日（現地時間）、AIコンパニオンアプリ「Animates」へのGrok Companions移行について<a href="https://x.com/animates__ai/status/2093736164788191551">公式X</a>{target=\</p>
@@ -128,24 +118,43 @@ Google横断の取り組み「Expert Intelligence」の一環で、開始時点�
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、ChatGPT広告が年換算売上高10億ドルに　開始200日未満、広告主は数万社</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_ads_annualized_revenue_1b</link>
-      <description><![CDATA[<p>OpenAIは2026年8月31日（現地時間）、ChatGPT上で展開する広告サービス「ChatGPT Ads」の売上高が、年換算のランレートで10億ドル（約1600億円）に達したと<a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/">発表</a>した。米国で広告のテストを開始してから200日未満での到達となる。広告主は数万社に増え、ChatGPT Adsは40カ国超で利用できるようになった。</p>
-<p>なお、OpenAIが発表した「annualized revenue run rate」は、過去1年間の実売上高ではなく、現在の売上ペースを年換算した指標である。</p>
-<h2>開始200日未満で年換算10億ドル、広告主は数万社</h2>
-<p>OpenAIは2026年2月9日、米国のChatGPTで広告のテストを開始した。当初の対象はログイン済みの成人ユーザーのうちFreeおよびGoプランの利用者で、その後、カナダやオーストラリアなどへ対象地域を拡大。8月11日には日本、英国、メキシコ、ブラジル、韓国でもChatGPT Adsの提供を開始した。</p>
-<p>開始から200日を待たずして、広告事業の年換算売上高は10億ドルに達した。OpenAIによると、広告主はすでに数万社に上り、広告事業を支えるテクノロジーおよび効果測定のパートナーも50社を超えている。</p>
-<p>OpenAIは広告を、消費者向けサブスクリプション、企業向けサービス、利用量に応じて課金するAPIと並ぶ「多角的なビジネスモデル」の柱の一つと位置づける。ChatGPTの週間アクティブユーザーは10億人を超えており、広告収入によって無料で利用できる選択肢を提供していくとしている。</p>
-<h2>Ads Managerをインドや欧州、中東などへ拡大</h2>
-<p>広告主側の利用環境も整備されている。</p>
-<p>OpenAIは5月、広告主が自らキャンペーンを作成・管理できるセルフサービス型の「Ads Manager」をベータ版として導入した。広告主は予算や入札額の設定、広告のアップロード、キャンペーン管理、パフォーマンス確認などを行える。従来のCPM（1000回表示あたりの料金）に加えて、クリックに応じて課金するCPC方式も導入している。</p>
-<p>8月31日の発表では、Ads Managerによるセルフサービスでの広告購入をインド、欧州、中東、北アフリカへ拡大するとした。ChatGPT Ads自体は、OpenAIの広告担当チームや代理店、テクノロジーパートナーを通じて40カ国超で提供されている。</p>
-<p>5月のAds Manager導入後は中小企業の利用も増え、現在では中小企業が広告事業の「相当な割合」を占めるという。また、CPCと成果に基づいて最適化する入札方式がキャンペーンの過半数を占め、広告効果を測定するOpenAI PixelやConversions API、商品フィード、地域ターゲティング、カスタムオーディエンスなども導入されている。</p>
-<h2>日本でも8月から広告を提供、回答とは分離</h2>
-<p>日本では8月11日からChatGPT Adsの提供が始まった。FreeおよびGoプランでは広告が表示される場合がある一方、Plus、Pro、Business、Enterprise、Eduでは広告は表示されない。</p>
-<p>ChatGPT Adsでは、ユーザーが現在行っている会話の文脈をもとに関連する広告を選ぶ。国やユーザー設定によっては、ChatGPTでのより広い利用状況から得られる情報も広告のパーソナライズに利用される場合がある。</p>
-<p>一方、広告はChatGPTの回答とは明確に分離して表示され、広告によって回答内容が左右されることはないとしている。また、広告主がユーザーの非公開の会話内容にアクセスすることもない。</p>
-<p>OpenAIは今後、ChatGPT Adsの提供地域をさらに広げるとともに、新たな広告形式や広告目的、購入方法、効果測定機能を追加する方針を示している。</p>
+      <title>OpenAI、GPT-6 Astra超えの未公開AIが現代数学の七大難問「ナビエ・ストークス方程式」の解決証明を生成　先行研究の扱いに数学者が異議も</title>
+      <link>https://ledge.ai/articles/openai_navier_stokes_ai_proof</link>
+      <description><![CDATA[<p>OpenAIは2026年9月8日（現地時間）、社内の未公開AIシステムが、数学の未解決問題「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと<a href="https://openai.com/index/navier-stokes-solution/">発表</a>した。解析的な証明に加え、定理証明支援系「Lean」で形式化した証明も公開している。</p>
+<p>この問題は、Clay Mathematics Institute（CMI）が2000年に選定した7つの「ミレニアム懸賞問題」の1つで、それぞれの解決に100万ドルの賞金が設定されている。OpenAIによると、証明を生成したのは現在も訓練中の未公開モデルで、9月3日に発表した「GPT-6 Astra」よりも大幅に高性能だという。約1万のAIエージェントを並列で動かして問題に取り組んだとしている。</p>
+<h2>「滑らかな流れ」は途中で壊れるのか</h2>
+<p>ナビエ・ストークス方程式は、水や空気などの流体の動きを記述する方程式である。航空機の設計や天気予報、血流の研究など幅広い分野で利用されている。</p>
+<p>実際の水や空気は分子の集まりだが、ナビエ・ストークス方程式では一つ一つの分子を追跡せず、流体を滑らかにつながった「連続体」として扱う。</p>
+<p>長年の問題となってきたのが、3次元の流体が最初は滑らかに動いていたとしても、その状態がいつまでも維持されるのかという点だ。</p>
+<p>数学上は、流体の速度が有限時間のうちに際限なく大きくなる「特異点」が生じる可能性がある。粘性には流れを滑らかにする働きがあるにもかかわらず、それでも特異点が生じ得るのかは、1930年代から約90年にわたり解決されていなかった。</p>
+<p>OpenAIのシステムが今回生成したのは、最初は静止して滑らかな状態にある流体に滑らかな外力を加えると、エネルギーを有限に保ったまま有限時間で特異点が生じる例の証明だ。</p>
+<p>つまり、「どんな流体でも必ず途中で特異点が生じる」と証明したわけではない。滑らかな状態から始めても、条件によっては速度が際限なく大きくなり、滑らかさが失われるケースが存在することを示した。</p>
+<p>OpenAIは、この結果によってCMIの公式問題設定にある命題「C」と「D」が成立し、ミレニアム懸賞問題を解決するとしている。</p>
+<p>証明で構成されたのは、内側へらせん状に巻き込みながら細長く引き伸ばされていく渦だ。中心部分は小さくなりながら速度を増し、全体のエネルギーは有限のまま、最終的に速度が際限なく大きくなる特異点を形成するという。</p>
+<p><strong>■ OpenAIが示した、内側へ巻き込みながら軸方向に引き伸ばされる渦の構造</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/navier_stokes_light_master_a9ab2ebe00/navier_stokes_light_master_a9ab2ebe00.webp" alt="navier-stokes-light-master.webp" /></p>
+<h2>GPT-6 Astra超えの未公開モデル、約1万エージェントを投入</h2>
+<p>今回の成果は、数学上の結果だけでなく、OpenAIが使用したAIシステムの規模でも注目される。</p>
+<p>OpenAIは8月28日から、数学を含む社内ベンチマークで高い性能を示す新たな未公開モデルの訓練を開始。9月1日、このモデルを使って未解決のミレニアム懸賞問題などに取り組む実験を始めた。</p>
+<p><strong>■ OpenAIが公開した、GPT-6 Astraと未公開の内部モデルの厳選した未解決数学問題のセットにおける性能比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e.jpg" alt="Performance of GPT-6 Astra and our Internal Model on a curated set of open math problems.jpg" /></p>
+<p>OpenAIによると、この未公開モデルは9月3日に発表したGPT-6 Astraよりも大幅に高性能だという。公開されたグラフでは、数学問題セットにおいて、さまざまなテスト時計算量の条件で内部モデルの正答率がGPT-6 Astraを上回っている。</p>
+<p>複数のAIエージェントをグループに分け、異なるアプローチを並行して探索させた。ナビエ・ストークス問題の解決につながったグループでは、約1万のエージェントが同時に動作したという。</p>
+<p>最初のエージェントを投入してから約88時間後の9月5日に解決案へ到達。その後、GPT-6 Astraを使ったLeanによる形式化と検証にさらに17時間を要した。</p>
+<p>ナビエ・ストークス問題への取り組みだけで、エージェント間では約270万件のメッセージが交わされ、約1300億の出力トークンが使われたとしている。</p>
+<p>OpenAIは今回の成果について、AIモデルの能力向上の速度を示すものだと説明している。また、ミレニアム懸賞問題の賞金を請求する意図はないと明らかにした。</p>
+<h2>数学者が発表までの経緯を問題視</h2>
+<p>今回の発表を巡っては、ニューヨーク大学（NYU）の数学者Tristan Buckmaster氏が、OpenAIが研究に着手した経緯などを問題視している。</p>
+<p>Buckmaster氏は数学者のLevent Alpöge氏と共同で、AIを活用しながら流体方程式の特異点に関する研究を進めていた。<a href="https://cims.nyu.edu/~tristanb/statement.pdf">公開した声明</a>によると、両氏は8月中旬までに、滑らかな外力を加えた場合のブシネスク方程式やオイラー方程式で有限時間に特異点が生じる結果を得ていたという。</p>
+<p>Buckmaster氏は9月3日、自分たちの研究の進展に関する情報がOpenAIへ伝わった可能性があると知り、OpenAI所属の数学者に連絡。その後のやり取りで、OpenAIの未公開モデルが「外力あり」のナビエ・ストークス方程式で有限時間に特異点が生じる証明を生成したと知らされたとしている。</p>
+<p>同氏は、滑らかな外力を使ってミレニアム懸賞問題の解決を目指す手法は、Diego Córdoba氏とLuis Martínez-Zoroa氏が開拓し、自分たちも取り組んでいた方向性だったと説明。OpenAIがこの方向に短期間で到達したことについて疑問を示した。また、OpenAI側から共同発表に関する複数の提案を受けた際のやり取りについても詳細に記している。</p>
+<p>一方、Buckmaster氏は「OpenAIの証明を見ておらず、モデルが何をどのように行ったかは分からない」「自分たちのデータが使われたかどうかも分からない」とし、OpenAIが研究成果を不正に利用したと断定しているわけではない。</p>
+<p>OpenAIも<a href="https://openai.com/index/navier-stokes-solution/">公式発表</a>でこの経緯に言及した。同社によると、ミレニアム懸賞問題への取り組みは9月1日に聞いたうわさをきっかけに開始し、後にその情報がAlpöge氏とBuckmaster氏の研究に関するものだったと判明したという。</p>
+<p>OpenAIは、両氏の研究を公開前に閲覧したことはなく、問題を解くために特定のユーザーデータへアクセスすることもなかったと説明している。一方で、両氏によるOpenAI製品の利用から得られた匿名化データがモデル改善に使われた可能性については「可能性は低いが排除できない」としている。</p>
+<h2>CMIは現在も「未解決」に分類</h2>
+<p>一方、CMIのナビエ・ストークス方程式の公式ページでは、9月9日時点で同問題は引き続き<a href="https://www.claymath.org/millennium/navier-stokes-equation/">「Unsolved（未解決）</a>{target=”_blank”}」とされている。</p>
+<p>CMIの<a href="https://www.claymath.org/millennium-problems/rules/">ミレニアム懸賞問題の規則</a>{target=”_blank”}では、提案された解答を審査する前提として、適格な媒体で公表されていること、公表から少なくとも2年が経過していること、世界の数学界で広く受け入れられていることの3条件を定めている。</p>
+<p>このため現段階では、ナビエ・ストークス問題が正式に解決されたと確定したわけではない。OpenAIが公開した証明が今後、数学者による検証を経てどのように評価されるかが次の焦点となる。</p>
 ]]></description>
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
