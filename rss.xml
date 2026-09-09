@@ -5,6 +5,97 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAI、GPT-6 Astra超えの未公開AIが現代数学の七大難問「ナビエ・ストークス方程式」の解決証明を生成　先行研究の扱いに数学者が異議も</title>
+      <link>https://ledge.ai/articles/openai_navier_stokes_ai_proof</link>
+      <description><![CDATA[<p>OpenAIは2026年9月8日（現地時間）、社内の未公開AIシステムが、数学の未解決問題「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと<a href="https://openai.com/index/navier-stokes-solution/">発表</a>した。解析的な証明に加え、定理証明支援系「Lean」で形式化した証明も公開している。</p>
+<p>この問題は、Clay Mathematics Institute（CMI）が2000年に選定した7つの「ミレニアム懸賞問題」の1つで、それぞれの解決に100万ドルの賞金が設定されている。OpenAIによると、証明を生成したのは現在も訓練中の未公開モデルで、9月3日に発表した「GPT-6 Astra」よりも大幅に高性能だという。約1万のAIエージェントを並列で動かして問題に取り組んだとしている。</p>
+<h2>「滑らかな流れ」は途中で壊れるのか</h2>
+<p>ナビエ・ストークス方程式は、水や空気などの流体の動きを記述する方程式である。航空機の設計や天気予報、血流の研究など幅広い分野で利用されている。</p>
+<p>実際の水や空気は分子の集まりだが、ナビエ・ストークス方程式では一つ一つの分子を追跡せず、流体を滑らかにつながった「連続体」として扱う。</p>
+<p>長年の問題となってきたのが、3次元の流体が最初は滑らかに動いていたとしても、その状態がいつまでも維持されるのかという点だ。</p>
+<p>数学上は、流体の速度が有限時間のうちに際限なく大きくなる「特異点」が生じる可能性がある。粘性には流れを滑らかにする働きがあるにもかかわらず、それでも特異点が生じ得るのかは、1930年代から約90年にわたり解決されていなかった。</p>
+<p>OpenAIのシステムが今回生成したのは、最初は静止して滑らかな状態にある流体に滑らかな外力を加えると、エネルギーを有限に保ったまま有限時間で特異点が生じる例の証明だ。</p>
+<p>つまり、「どんな流体でも必ず途中で特異点が生じる」と証明したわけではない。滑らかな状態から始めても、条件によっては速度が際限なく大きくなり、滑らかさが失われるケースが存在することを示した。</p>
+<p>OpenAIは、この結果によってCMIの公式問題設定にある命題「C」と「D」が成立し、ミレニアム懸賞問題を解決するとしている。</p>
+<p>証明で構成されたのは、内側へらせん状に巻き込みながら細長く引き伸ばされていく渦だ。中心部分は小さくなりながら速度を増し、全体のエネルギーは有限のまま、最終的に速度が際限なく大きくなる特異点を形成するという。</p>
+<p><strong>■ OpenAIが示した、内側へ巻き込みながら軸方向に引き伸ばされる渦の構造</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/navier_stokes_light_master_a9ab2ebe00/navier_stokes_light_master_a9ab2ebe00.webp" alt="navier-stokes-light-master.webp" /></p>
+<h2>GPT-6 Astra超えの未公開モデル、約1万エージェントを投入</h2>
+<p>今回の成果は、数学上の結果だけでなく、OpenAIが使用したAIシステムの規模でも注目される。</p>
+<p>OpenAIは8月28日から、数学を含む社内ベンチマークで高い性能を示す新たな未公開モデルの訓練を開始。9月1日、このモデルを使って未解決のミレニアム懸賞問題などに取り組む実験を始めた。</p>
+<p><strong>■ OpenAIが公開した、GPT-6 Astraと未公開の内部モデルの厳選した未解決数学問題のセットにおける性能比較</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e.jpg" alt="Performance of GPT-6 Astra and our Internal Model on a curated set of open math problems.jpg" /></p>
+<p>OpenAIによると、この未公開モデルは9月3日に発表したGPT-6 Astraよりも大幅に高性能だという。公開されたグラフでは、数学問題セットにおいて、さまざまなテスト時計算量の条件で内部モデルの正答率がGPT-6 Astraを上回っている。</p>
+<p>複数のAIエージェントをグループに分け、異なるアプローチを並行して探索させた。ナビエ・ストークス問題の解決につながったグループでは、約1万のエージェントが同時に動作したという。</p>
+<p>最初のエージェントを投入してから約88時間後の9月5日に解決案へ到達。その後、GPT-6 Astraを使ったLeanによる形式化と検証にさらに17時間を要した。</p>
+<p>ナビエ・ストークス問題への取り組みだけで、エージェント間では約270万件のメッセージが交わされ、約1300億の出力トークンが使われたとしている。</p>
+<p>OpenAIは今回の成果について、AIモデルの能力向上の速度を示すものだと説明している。また、ミレニアム懸賞問題の賞金を請求する意図はないと明らかにした。</p>
+<h2>数学者が発表までの経緯を問題視</h2>
+<p>今回の発表を巡っては、ニューヨーク大学（NYU）の数学者Tristan Buckmaster氏が、OpenAIが研究に着手した経緯などを問題視している。</p>
+<p>Buckmaster氏は数学者のLevent Alpöge氏と共同で、AIを活用しながら流体方程式の特異点に関する研究を進めていた。<a href="https://cims.nyu.edu/~tristanb/statement.pdf">公開した声明</a>によると、両氏は8月中旬までに、滑らかな外力を加えた場合のブシネスク方程式やオイラー方程式で有限時間に特異点が生じる結果を得ていたという。</p>
+<p>Buckmaster氏は9月3日、自分たちの研究の進展に関する情報がOpenAIへ伝わった可能性があると知り、OpenAI所属の数学者に連絡。その後のやり取りで、OpenAIの未公開モデルが「外力あり」のナビエ・ストークス方程式で有限時間に特異点が生じる証明を生成したと知らされたとしている。</p>
+<p>同氏は、滑らかな外力を使ってミレニアム懸賞問題の解決を目指す手法は、Diego Córdoba氏とLuis Martínez-Zoroa氏が開拓し、自分たちも取り組んでいた方向性だったと説明。OpenAIがこの方向に短期間で到達したことについて疑問を示した。また、OpenAI側から共同発表に関する複数の提案を受けた際のやり取りについても詳細に記している。</p>
+<p>一方、Buckmaster氏は「OpenAIの証明を見ておらず、モデルが何をどのように行ったかは分からない」「自分たちのデータが使われたかどうかも分からない」とし、OpenAIが研究成果を不正に利用したと断定しているわけではない。</p>
+<p>OpenAIも<a href="https://openai.com/index/navier-stokes-solution/">公式発表</a>でこの経緯に言及した。同社によると、ミレニアム懸賞問題への取り組みは9月1日に聞いたうわさをきっかけに開始し、後にその情報がAlpöge氏とBuckmaster氏の研究に関するものだったと判明したという。</p>
+<p>OpenAIは、両氏の研究を公開前に閲覧したことはなく、問題を解くために特定のユーザーデータへアクセスすることもなかったと説明している。一方で、両氏によるOpenAI製品の利用から得られた匿名化データがモデル改善に使われた可能性については「可能性は低いが排除できない」としている。</p>
+<h2>CMIは現在も「未解決」に分類</h2>
+<p>一方、CMIのナビエ・ストークス方程式の公式ページでは、9月9日時点で同問題は引き続き<a href="https://www.claymath.org/millennium/navier-stokes-equation/">「Unsolved（未解決）</a>{target=”_blank”}」とされている。</p>
+<p>CMIの<a href="https://www.claymath.org/millennium-problems/rules/">ミレニアム懸賞問題の規則</a>{target=”_blank”}では、提案された解答を審査する前提として、適格な媒体で公表されていること、公表から少なくとも2年が経過していること、世界の数学界で広く受け入れられていることの3条件を定めている。</p>
+<p>このため現段階では、ナビエ・ストークス問題が正式に解決されたと確定したわけではない。OpenAIが公開した証明が今後、数学者による検証を経てどのように評価されるかが次の焦点となる。</p>
+]]></description>
+      <pubDate>Wed, 09 Sep 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Office責任者、職場の『AIスロップ』に苦言　AI生成文書をAIで要約する流れを『doom loop』と指摘</title>
+      <link>https://ledge.ai/articles/microsoft_office_ai_slop_doom_loop</link>
+      <description><![CDATA[<p>Microsoft傘下のLinkedIn CEOでMicrosoft Office担当EVP（エグゼクティブ・バイスプレジデント）のRyan Roslansky氏は、LinkedInへの投稿で、AIが生成したものの独自の視点や中身に乏しい「AI slop（AIスロップ）」がSNSだけでなく、日常業務にも入り込んでいると指摘した。明らかにAI生成だと感じた文書を受け取り、自身のAIに要約させたところ、新しい考えにつながるものが何も残らなかったとして、こうした状況を『doom loop（悪循環）』と表現している。</p>
+<h2>AI生成文書を別のAIで要約、「新しい考えが何もなかった」</h2>
+<p>Roslansky氏は<a href="https://www.linkedin.com/posts/ryanroslansky_ai-slop-isnt-happening-just-on-social-networks-activity-7496622259214659585-Kxjf">LinkedInへの投稿</a>で、「AIスロップはSNSだけで起きているのではなく、日々の仕事でも起きている」と述べた。</p>
+<p>同氏によると、明らかにAIが生成した文書を誰かから受け取り、それを読んだ後、自身のAIに要約させたという。しかし、最終的に得られたものには、元のアイデアに新しい考えを加える内容がなかった。</p>
+<p>こうした状況を同氏は「doom loop」と表現。「気をつけなければ、同じような一般論であふれる中、文章を書いたり読んだりすることを避けるためだけに、多額のコストをかけることになる」と問題提起した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ryan_Roslansky_c632c2f211/Ryan_Roslansky_c632c2f211.jpg" alt="Ryan Roslansky.jpg" /></p>
+<p>一方で、Roslansky氏はAIそのものの利用を否定しているわけではない。AIによって何かを実行したり、学んだり、創作したりしつつ、そこに人間それぞれの視点や経験を加え、成果を発展させていく使い方を求めている。</p>
+<h2>LinkedInも「AIスロップ」の拡散を抑制</h2>
+<p>Roslansky氏がCEOを務めるLinkedInも、2026年6月4日に<a href="https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin">「AIスロップ」への対策</a>を発表している。</p>
+<p>LinkedInはAIスロップについて、表面上は洗練されていても、独自の視点や実質を欠く低労力のAI生成コンテンツと説明。AIを文章作成の支援に利用すること自体は認めながら、投稿やコメントには本人の声や視点が反映される必要があるとしている。</p>
+<p>同社は、AI生成とみられ、明確な視点に欠けるコンテンツについて、ユーザーの直接のネットワークを超えて広く配信されにくくする仕組みを導入。初期テストでは、一般的で独自性に乏しいコンテンツを94％の割合で正しく特定できたとしている</p>
+<h2>MicrosoftはAIエージェントや独自AIモデルを相次いで展開</h2>
+<p>こうした発言は、Microsoft自身がAIの導入を積極的に進める中で出たものでもある。</p>
+<p>Roslansky氏はLinkedIn CEOとMicrosoft Office担当EVPを兼務し、Microsoft公式ブログによると、Word、Excel、PowerPoint、Copilotなどのエンジニアリングを率いている。</p>
+<p>Microsoftは2026年6月2日、AIエージェントを中心に据えた新しいデバイス向けのチップ・ツー・クラウドプラットフォーム「<a href="https://commandline.microsoft.com/project-solara-build-2026/">Project Solara</a>」を発表した。同社は従来の「アプリを開く」コンピューティングから、ユーザーの意図に応じてAIエージェントを呼び出す形への移行を構想している。</p>
+<p>同日には画像生成・編集AI「MAI-Image-2.5」と高速版「MAI-Image-2.5-Flash」も発表。またAnthropicは、Microsoft 365向けに、Word、Excel、PowerPoint、Outlook内でClaudeを利用できる「<a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a>」を提供している。</p>
+<p>AIを業務や製品に広く組み込む動きが進む一方、Roslansky氏の投稿は、AIによってコンテンツを大量に生成すること自体ではなく、人間独自の視点や経験を成果物に残すことの重要性を指摘したものとなっている。</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>トランプ政権、AI学習は「フェアユース」と主張　米司法省がOpenAI著作権訴訟で意見書</title>
+      <link>https://ledge.ai/articles/trump_administration_ai_training_fair_use</link>
+      <description><![CDATA[<p>米司法省は2026年9月1日（現地時間）、米OpenAIを巡る複数の著作権侵害訴訟で、著作権で保護された文章を大規模言語モデル（LLM）の学習に利用する行為はフェアユースに当たるとの立場を示す<a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.640396/gov.uscourts.nysd.640396.1682.0.pdf">意見書「Statement of Interest of the United States」</a>を、ニューヨーク南部地区連邦地裁に提出した。司法省は、著作物の「取得」「学習」「出力」はそれぞれ異なる著作権上の問題を生じ得るとしたうえで、今回の主張を学習段階に絞っている。ただし、今回提出された意見書は判決ではなく、裁判所を拘束するものではない。訴訟当事者ではない米政府が、米国法典28編517条に基づいて法的立場を示した書面となる。</p>
+<h2>司法省、AIモデルの学習を「極めて変革的」と主張</h2>
+<p>フェアユースとは、一定の条件下で著作権者の許諾なしに著作物の利用を認める米著作権法上の考え方だ。意見書は、OpenAIを巡る著作権侵害訴訟をまとめて扱う「In re: OpenAI, Inc. Copyright Infringement Litigation」に提出された。司法省は米国法典28編517条に基づき、訴訟当事者ではない米政府の利害関係を裁判所に示した。</p>
+<p>書面では説明を簡略化するため、主に米紙The New York TimesとOpenAIを取り上げているが、法的主張は書籍の著者や出版社などを含む関連訴訟の当事者にも同様に適用するとしている。</p>
+<p>司法省はLLMの開発過程を、学習データを収集・保存する「取得」、データをモデルに入力して学習させる「学習」、ユーザーの質問にモデルが回答する「出力」の3段階に整理した。このうち今回の意見書では、著作物をコピーして学習材料としてモデルに与える行為がフェアユースに当たるかを検討対象としている。</p>
+<p>司法省は、文章をLLMの学習に利用する目的について、原著作物の表現内容を複製して提供するためではなく、語彙や構文などの統計的なパターンをモデルに学習させるためだと説明。学習時の著作物のコピーを「極めて変革的」な利用と位置づけ、フェアユースを強く支持すると主張した。OpenAIによるLLMの商用利用も考慮要素となるものの、学習の高い変革性を踏まえれば、その重みは限定的だとの見方を示した。</p>
+<h2>著作物を再現する「出力」は別問題</h2>
+<p>一方、司法省はAIによる著作物利用を一律に適法と主張しているわけではない。</p>
+<p>意見書では、LLMが出力段階で元の著作物を再構成し、ユーザーに提供する場合、その利用が変革的ではない可能性があると指摘した。特定の出力が著作物と実質的に類似しているかなどは、学習そのものとは切り離して個別に判断する必要があるとしている。</p>
+<p>また、学習データを最初に集める「取得」の段階についても、学習とは別の著作権上の問題になり得る。今回の意見書は、取得方法そのものが適法だったかについて判断を示すものではない。</p>
+<p>このため、今回の司法省の立場は「OpenAIによる著作物利用全般は合法」というものではなく、あくまで「著作物をLLMの学習に利用する行為」についてフェアユースを支持したものとなる。</p>
+<h2>ライセンス義務はAI市場の参入障壁になると指摘</h2>
+<p>司法省は、フェアユースを判断する際に考慮される著作物の市場への影響についても、AI学習は原著作物の代替品を公衆に提供するものではないと主張した。</p>
+<p>学習段階では著作物自体が一般公開されるわけではなく、原作品の購入などを直接置き換えるものではないことから、市場への影響をみるフェアユースの要素もOpenAI側に有利に働くとの見方を示している。</p>
+<p>さらに、AIモデルの学習に広くライセンス料の支払いを求めた場合、費用を負担できる大手テクノロジー企業だけがモデルを開発できる状況になりかねないと指摘。ライセンス料がAI市場への参入障壁となり、最大手企業によるLLM学習の寡占を招くことは公共の利益に反すると主張した。</p>
+<p>ただし司法省は、AI学習向けのライセンス制度が経済的・実務的に成立するかについては立場を取っていない。ニュース速報や有料記事、独自データなどへの特別なアクセスを巡り、出版社とAI企業が個別にライセンス契約を結ぶことも否定していない。</p>
+<h2>米政府、AI学習のフェアユース支持を政策として明確化</h2>
+<p>今回の意見書は、米政府がこれまで示してきたAI政策とも一致する。</p>
+<p>ホワイトハウスは2026年3月に公表した<a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">「National Policy Framework for Artificial Intelligence」</a>で、著作権で保護された素材を使ったAIモデルの学習は著作権法に違反しないとの政権の立場を明記した。一方で反対意見が存在することも認め、AI学習がフェアユースに該当するかについては裁判所が判断すべきだとしている。</p>
+<p>司法省は今回、米国のAI産業の競争力に加えて国家安全保障にも言及した。国内でAI産業を発展させることを著しく困難にする法制度は、米国の国家安全保障を脅かし、同様の制約を受けない外国の競争相手を有利にする可能性があるとしている。</p>
+<p>意見書の最後では、フェアユースは個々の事実や利用方法に応じて判断されるものだとしたうえで、AIモデルの学習を原則としてライセンスなしでは認めないような広範な著作権責任を課すことは「法的に誤り」だと主張している。</p>
+]]></description>
+      <pubDate>Mon, 07 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google「Gemini 3.8 Flash」、Meta「Muse Spark 1.3」AI新モデル相次ぎリリース　GoogleはAI画像生成・編集ツール「Google Pics」も提供開始</title>
       <link>https://ledge.ai/articles/google_gemini_3_8_flash_meta_muse_spark_1_3_google_pics</link>
       <description><![CDATA[<p>GoogleとMetaが2026年9月初旬、AIモデルの新バージョンを相次いで投入した。Googleは9月2日（現地時間）、最新モデル「Gemini 3.8 Flash」とサイバーセキュリティ向けモデル「Gemini 3.8 Flash Cyber」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">発表</a>{target=\</p>
@@ -81,29 +172,6 @@
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft Office責任者、職場の『AIスロップ』に苦言　AI生成文書をAIで要約する流れを『doom loop』と指摘</title>
-      <link>https://ledge.ai/articles/microsoft_office_ai_slop_doom_loop</link>
-      <description><![CDATA[<p>Microsoft傘下のLinkedIn CEOでMicrosoft Office担当EVP（エグゼクティブ・バイスプレジデント）のRyan Roslansky氏は、LinkedInへの投稿で、AIが生成したものの独自の視点や中身に乏しい「AI slop（AIスロップ）」がSNSだけでなく、日常業務にも入り込んでいると指摘した。明らかにAI生成だと感じた文書を受け取り、自身のAIに要約させたところ、新しい考えにつながるものが何も残らなかったとして、こうした状況を『doom loop（悪循環）』と表現している。</p>
-<h2>AI生成文書を別のAIで要約、「新しい考えが何もなかった」</h2>
-<p>Roslansky氏は<a href="https://www.linkedin.com/posts/ryanroslansky_ai-slop-isnt-happening-just-on-social-networks-activity-7496622259214659585-Kxjf">LinkedInへの投稿</a>で、「AIスロップはSNSだけで起きているのではなく、日々の仕事でも起きている」と述べた。</p>
-<p>同氏によると、明らかにAIが生成した文書を誰かから受け取り、それを読んだ後、自身のAIに要約させたという。しかし、最終的に得られたものには、元のアイデアに新しい考えを加える内容がなかった。</p>
-<p>こうした状況を同氏は「doom loop」と表現。「気をつけなければ、同じような一般論であふれる中、文章を書いたり読んだりすることを避けるためだけに、多額のコストをかけることになる」と問題提起した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ryan_Roslansky_c632c2f211/Ryan_Roslansky_c632c2f211.jpg" alt="Ryan Roslansky.jpg" /></p>
-<p>一方で、Roslansky氏はAIそのものの利用を否定しているわけではない。AIによって何かを実行したり、学んだり、創作したりしつつ、そこに人間それぞれの視点や経験を加え、成果を発展させていく使い方を求めている。</p>
-<h2>LinkedInも「AIスロップ」の拡散を抑制</h2>
-<p>Roslansky氏がCEOを務めるLinkedInも、2026年6月4日に<a href="https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin">「AIスロップ」への対策</a>を発表している。</p>
-<p>LinkedInはAIスロップについて、表面上は洗練されていても、独自の視点や実質を欠く低労力のAI生成コンテンツと説明。AIを文章作成の支援に利用すること自体は認めながら、投稿やコメントには本人の声や視点が反映される必要があるとしている。</p>
-<p>同社は、AI生成とみられ、明確な視点に欠けるコンテンツについて、ユーザーの直接のネットワークを超えて広く配信されにくくする仕組みを導入。初期テストでは、一般的で独自性に乏しいコンテンツを94％の割合で正しく特定できたとしている</p>
-<h2>MicrosoftはAIエージェントや独自AIモデルを相次いで展開</h2>
-<p>こうした発言は、Microsoft自身がAIの導入を積極的に進める中で出たものでもある。</p>
-<p>Roslansky氏はLinkedIn CEOとMicrosoft Office担当EVPを兼務し、Microsoft公式ブログによると、Word、Excel、PowerPoint、Copilotなどのエンジニアリングを率いている。</p>
-<p>Microsoftは2026年6月2日、AIエージェントを中心に据えた新しいデバイス向けのチップ・ツー・クラウドプラットフォーム「<a href="https://commandline.microsoft.com/project-solara-build-2026/">Project Solara</a>」を発表した。同社は従来の「アプリを開く」コンピューティングから、ユーザーの意図に応じてAIエージェントを呼び出す形への移行を構想している。</p>
-<p>同日には画像生成・編集AI「MAI-Image-2.5」と高速版「MAI-Image-2.5-Flash」も発表。またAnthropicは、Microsoft 365向けに、Word、Excel、PowerPoint、Outlook内でClaudeを利用できる「<a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a>」を提供している。</p>
-<p>AIを業務や製品に広く組み込む動きが進む一方、Roslansky氏の投稿は、AIによってコンテンツを大量に生成すること自体ではなく、人間独自の視点や経験を成果物に残すことの重要性を指摘したものとなっている。</p>
-]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>NVIDIA、Hugging Faceを129億3030万ドルで買収へ　オープンプラットフォーム維持、2027年前半完了予定</title>
       <link>https://ledge.ai/articles/nvidia_hugging_face_acquisition</link>
       <description><![CDATA[<p>NVIDIAは2026年9月3日（米国時間）、AIモデルやデータセットの共有・開発プラットフォームを運営する米Hugging Faceを129億3030万ドルで買収することに合意したと<a href="https://blogs.nvidia.co.jp/blog/nvidia-to-acquire-hugging-face/">発表</a>{target=\</p>
@@ -114,47 +182,6 @@
       <title>ニューヨーク市、公立校の8年生まで生成AI利用を1年間停止　約60万人対象、高校は限定利用</title>
       <link>https://ledge.ai/articles/nyc_public_schools_generative_ai_moratorium</link>
       <description><![CDATA[<p>米ニューヨーク市は2026年9月2日（現地時間）、市内の公立学校で2-K（2歳児向け教育）から8年生までを対象に、児童・生徒が直接利用する生成AI（student-facing generative AI）を2026-27学年度の1年間停止すると<a href="https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、GPT-6 Astra超えの未公開AIが現代数学の七大難問「ナビエ・ストークス方程式」の解決証明を生成　先行研究の扱いに数学者が異議も</title>
-      <link>https://ledge.ai/articles/openai_navier_stokes_ai_proof</link>
-      <description><![CDATA[<p>OpenAIは2026年9月8日（現地時間）、社内の未公開AIシステムが、数学の未解決問題「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと<a href="https://openai.com/index/navier-stokes-solution/">発表</a>した。解析的な証明に加え、定理証明支援系「Lean」で形式化した証明も公開している。</p>
-<p>この問題は、Clay Mathematics Institute（CMI）が2000年に選定した7つの「ミレニアム懸賞問題」の1つで、それぞれの解決に100万ドルの賞金が設定されている。OpenAIによると、証明を生成したのは現在も訓練中の未公開モデルで、9月3日に発表した「GPT-6 Astra」よりも大幅に高性能だという。約1万のAIエージェントを並列で動かして問題に取り組んだとしている。</p>
-<h2>「滑らかな流れ」は途中で壊れるのか</h2>
-<p>ナビエ・ストークス方程式は、水や空気などの流体の動きを記述する方程式である。航空機の設計や天気予報、血流の研究など幅広い分野で利用されている。</p>
-<p>実際の水や空気は分子の集まりだが、ナビエ・ストークス方程式では一つ一つの分子を追跡せず、流体を滑らかにつながった「連続体」として扱う。</p>
-<p>長年の問題となってきたのが、3次元の流体が最初は滑らかに動いていたとしても、その状態がいつまでも維持されるのかという点だ。</p>
-<p>数学上は、流体の速度が有限時間のうちに際限なく大きくなる「特異点」が生じる可能性がある。粘性には流れを滑らかにする働きがあるにもかかわらず、それでも特異点が生じ得るのかは、1930年代から約90年にわたり解決されていなかった。</p>
-<p>OpenAIのシステムが今回生成したのは、最初は静止して滑らかな状態にある流体に滑らかな外力を加えると、エネルギーを有限に保ったまま有限時間で特異点が生じる例の証明だ。</p>
-<p>つまり、「どんな流体でも必ず途中で特異点が生じる」と証明したわけではない。滑らかな状態から始めても、条件によっては速度が際限なく大きくなり、滑らかさが失われるケースが存在することを示した。</p>
-<p>OpenAIは、この結果によってCMIの公式問題設定にある命題「C」と「D」が成立し、ミレニアム懸賞問題を解決するとしている。</p>
-<p>証明で構成されたのは、内側へらせん状に巻き込みながら細長く引き伸ばされていく渦だ。中心部分は小さくなりながら速度を増し、全体のエネルギーは有限のまま、最終的に速度が際限なく大きくなる特異点を形成するという。</p>
-<p><strong>■ OpenAIが示した、内側へ巻き込みながら軸方向に引き伸ばされる渦の構造</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/navier_stokes_light_master_a9ab2ebe00/navier_stokes_light_master_a9ab2ebe00.webp" alt="navier-stokes-light-master.webp" /></p>
-<h2>GPT-6 Astra超えの未公開モデル、約1万エージェントを投入</h2>
-<p>今回の成果は、数学上の結果だけでなく、OpenAIが使用したAIシステムの規模でも注目される。</p>
-<p>OpenAIは8月28日から、数学を含む社内ベンチマークで高い性能を示す新たな未公開モデルの訓練を開始。9月1日、このモデルを使って未解決のミレニアム懸賞問題などに取り組む実験を始めた。</p>
-<p><strong>■ OpenAIが公開した、GPT-6 Astraと未公開の内部モデルの厳選した未解決数学問題のセットにおける性能比較</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e/Performance_of_GPT_6_Astra_and_our_Internal_Model_on_a_curated_set_of_open_math_problems_1151646a3e.jpg" alt="Performance of GPT-6 Astra and our Internal Model on a curated set of open math problems.jpg" /></p>
-<p>OpenAIによると、この未公開モデルは9月3日に発表したGPT-6 Astraよりも大幅に高性能だという。公開されたグラフでは、数学問題セットにおいて、さまざまなテスト時計算量の条件で内部モデルの正答率がGPT-6 Astraを上回っている。</p>
-<p>複数のAIエージェントをグループに分け、異なるアプローチを並行して探索させた。ナビエ・ストークス問題の解決につながったグループでは、約1万のエージェントが同時に動作したという。</p>
-<p>最初のエージェントを投入してから約88時間後の9月5日に解決案へ到達。その後、GPT-6 Astraを使ったLeanによる形式化と検証にさらに17時間を要した。</p>
-<p>ナビエ・ストークス問題への取り組みだけで、エージェント間では約270万件のメッセージが交わされ、約1300億の出力トークンが使われたとしている。</p>
-<p>OpenAIは今回の成果について、AIモデルの能力向上の速度を示すものだと説明している。また、ミレニアム懸賞問題の賞金を請求する意図はないと明らかにした。</p>
-<h2>数学者が発表までの経緯を問題視</h2>
-<p>今回の発表を巡っては、ニューヨーク大学（NYU）の数学者Tristan Buckmaster氏が、OpenAIが研究に着手した経緯などを問題視している。</p>
-<p>Buckmaster氏は数学者のLevent Alpöge氏と共同で、AIを活用しながら流体方程式の特異点に関する研究を進めていた。<a href="https://cims.nyu.edu/~tristanb/statement.pdf">公開した声明</a>によると、両氏は8月中旬までに、滑らかな外力を加えた場合のブシネスク方程式やオイラー方程式で有限時間に特異点が生じる結果を得ていたという。</p>
-<p>Buckmaster氏は9月3日、自分たちの研究の進展に関する情報がOpenAIへ伝わった可能性があると知り、OpenAI所属の数学者に連絡。その後のやり取りで、OpenAIの未公開モデルが「外力あり」のナビエ・ストークス方程式で有限時間に特異点が生じる証明を生成したと知らされたとしている。</p>
-<p>同氏は、滑らかな外力を使ってミレニアム懸賞問題の解決を目指す手法は、Diego Córdoba氏とLuis Martínez-Zoroa氏が開拓し、自分たちも取り組んでいた方向性だったと説明。OpenAIがこの方向に短期間で到達したことについて疑問を示した。また、OpenAI側から共同発表に関する複数の提案を受けた際のやり取りについても詳細に記している。</p>
-<p>一方、Buckmaster氏は「OpenAIの証明を見ておらず、モデルが何をどのように行ったかは分からない」「自分たちのデータが使われたかどうかも分からない」とし、OpenAIが研究成果を不正に利用したと断定しているわけではない。</p>
-<p>OpenAIも<a href="https://openai.com/index/navier-stokes-solution/">公式発表</a>でこの経緯に言及した。同社によると、ミレニアム懸賞問題への取り組みは9月1日に聞いたうわさをきっかけに開始し、後にその情報がAlpöge氏とBuckmaster氏の研究に関するものだったと判明したという。</p>
-<p>OpenAIは、両氏の研究を公開前に閲覧したことはなく、問題を解くために特定のユーザーデータへアクセスすることもなかったと説明している。一方で、両氏によるOpenAI製品の利用から得られた匿名化データがモデル改善に使われた可能性については「可能性は低いが排除できない」としている。</p>
-<h2>CMIは現在も「未解決」に分類</h2>
-<p>一方、CMIのナビエ・ストークス方程式の公式ページでは、9月9日時点で同問題は引き続き<a href="https://www.claymath.org/millennium/navier-stokes-equation/">「Unsolved（未解決）</a>{target=”_blank”}」とされている。</p>
-<p>CMIの<a href="https://www.claymath.org/millennium-problems/rules/">ミレニアム懸賞問題の規則</a>{target=”_blank”}では、提案された解答を審査する前提として、適格な媒体で公表されていること、公表から少なくとも2年が経過していること、世界の数学界で広く受け入れられていることの3条件を定めている。</p>
-<p>このため現段階では、ナビエ・ストークス問題が正式に解決されたと確定したわけではない。OpenAIが公開した証明が今後、数学者による検証を経てどのように評価されるかが次の焦点となる。</p>
 ]]></description>
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
@@ -225,52 +252,11 @@
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>トランプ政権、AI学習は「フェアユース」と主張　米司法省がOpenAI著作権訴訟で意見書</title>
-      <link>https://ledge.ai/articles/trump_administration_ai_training_fair_use</link>
-      <description><![CDATA[<p>米司法省は2026年9月1日（現地時間）、米OpenAIを巡る複数の著作権侵害訴訟で、著作権で保護された文章を大規模言語モデル（LLM）の学習に利用する行為はフェアユースに当たるとの立場を示す<a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.640396/gov.uscourts.nysd.640396.1682.0.pdf">意見書「Statement of Interest of the United States」</a>を、ニューヨーク南部地区連邦地裁に提出した。司法省は、著作物の「取得」「学習」「出力」はそれぞれ異なる著作権上の問題を生じ得るとしたうえで、今回の主張を学習段階に絞っている。ただし、今回提出された意見書は判決ではなく、裁判所を拘束するものではない。訴訟当事者ではない米政府が、米国法典28編517条に基づいて法的立場を示した書面となる。</p>
-<h2>司法省、AIモデルの学習を「極めて変革的」と主張</h2>
-<p>フェアユースとは、一定の条件下で著作権者の許諾なしに著作物の利用を認める米著作権法上の考え方だ。意見書は、OpenAIを巡る著作権侵害訴訟をまとめて扱う「In re: OpenAI, Inc. Copyright Infringement Litigation」に提出された。司法省は米国法典28編517条に基づき、訴訟当事者ではない米政府の利害関係を裁判所に示した。</p>
-<p>書面では説明を簡略化するため、主に米紙The New York TimesとOpenAIを取り上げているが、法的主張は書籍の著者や出版社などを含む関連訴訟の当事者にも同様に適用するとしている。</p>
-<p>司法省はLLMの開発過程を、学習データを収集・保存する「取得」、データをモデルに入力して学習させる「学習」、ユーザーの質問にモデルが回答する「出力」の3段階に整理した。このうち今回の意見書では、著作物をコピーして学習材料としてモデルに与える行為がフェアユースに当たるかを検討対象としている。</p>
-<p>司法省は、文章をLLMの学習に利用する目的について、原著作物の表現内容を複製して提供するためではなく、語彙や構文などの統計的なパターンをモデルに学習させるためだと説明。学習時の著作物のコピーを「極めて変革的」な利用と位置づけ、フェアユースを強く支持すると主張した。OpenAIによるLLMの商用利用も考慮要素となるものの、学習の高い変革性を踏まえれば、その重みは限定的だとの見方を示した。</p>
-<h2>著作物を再現する「出力」は別問題</h2>
-<p>一方、司法省はAIによる著作物利用を一律に適法と主張しているわけではない。</p>
-<p>意見書では、LLMが出力段階で元の著作物を再構成し、ユーザーに提供する場合、その利用が変革的ではない可能性があると指摘した。特定の出力が著作物と実質的に類似しているかなどは、学習そのものとは切り離して個別に判断する必要があるとしている。</p>
-<p>また、学習データを最初に集める「取得」の段階についても、学習とは別の著作権上の問題になり得る。今回の意見書は、取得方法そのものが適法だったかについて判断を示すものではない。</p>
-<p>このため、今回の司法省の立場は「OpenAIによる著作物利用全般は合法」というものではなく、あくまで「著作物をLLMの学習に利用する行為」についてフェアユースを支持したものとなる。</p>
-<h2>ライセンス義務はAI市場の参入障壁になると指摘</h2>
-<p>司法省は、フェアユースを判断する際に考慮される著作物の市場への影響についても、AI学習は原著作物の代替品を公衆に提供するものではないと主張した。</p>
-<p>学習段階では著作物自体が一般公開されるわけではなく、原作品の購入などを直接置き換えるものではないことから、市場への影響をみるフェアユースの要素もOpenAI側に有利に働くとの見方を示している。</p>
-<p>さらに、AIモデルの学習に広くライセンス料の支払いを求めた場合、費用を負担できる大手テクノロジー企業だけがモデルを開発できる状況になりかねないと指摘。ライセンス料がAI市場への参入障壁となり、最大手企業によるLLM学習の寡占を招くことは公共の利益に反すると主張した。</p>
-<p>ただし司法省は、AI学習向けのライセンス制度が経済的・実務的に成立するかについては立場を取っていない。ニュース速報や有料記事、独自データなどへの特別なアクセスを巡り、出版社とAI企業が個別にライセンス契約を結ぶことも否定していない。</p>
-<h2>米政府、AI学習のフェアユース支持を政策として明確化</h2>
-<p>今回の意見書は、米政府がこれまで示してきたAI政策とも一致する。</p>
-<p>ホワイトハウスは2026年3月に公表した<a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">「National Policy Framework for Artificial Intelligence」</a>で、著作権で保護された素材を使ったAIモデルの学習は著作権法に違反しないとの政権の立場を明記した。一方で反対意見が存在することも認め、AI学習がフェアユースに該当するかについては裁判所が判断すべきだとしている。</p>
-<p>司法省は今回、米国のAI産業の競争力に加えて国家安全保障にも言及した。国内でAI産業を発展させることを著しく困難にする法制度は、米国の国家安全保障を脅かし、同様の制約を受けない外国の競争相手を有利にする可能性があるとしている。</p>
-<p>意見書の最後では、フェアユースは個々の事実や利用方法に応じて判断されるものだとしたうえで、AIモデルの学習を原則としてライセンスなしでは認めないような広範な著作権責任を課すことは「法的に誤り」だと主張している。</p>
-]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>米国防総省、OpenAIのカスタム版「ChatGPT Mil」導入　300万人超向けに提供　Anthropicへのサプライチェーンリスク指定は地裁で違法判断</title>
       <link>https://ledge.ai/articles/us_defense_department_chatgpt_mil</link>
       <description><![CDATA[<p>米国防総省は2026年8月31日（現地時間）、米OpenAIの「ChatGPT」を国防総省向けにカスタマイズした「ChatGPT Mil」を、生成AI基盤「GenAI.mil」で提供開始したと<a href="https://www.war.gov/News/Releases/Release/Article/4586352/department-of-war-launches-openais-chatgpt-mil-on-genaimil/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、AIエージェントがロボットや実験機器を操作する共通仕様「MHS」を発表</title>
-      <link>https://ledge.ai/articles/anthropic_model_hardware_standard_mhs</link>
-      <description><![CDATA[<p>Anthropicは2026年8月27日（現地時間）、AIエージェントが実験機器やロボットなどの物理的な機器を安全に操作するための共通仕様「Model Hardware Standard（MHS）」のリサーチプレビューを開始したと<a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 02 Sep 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>タイミーとZEALS、フィジカルAIの学習データ収集をスポットワークに　新たな仕事カテゴリー創出へ</title>
-      <link>https://ledge.ai/articles/zeals_timee_physical_ai_data_collection_spot_work</link>
-      <description><![CDATA[<p>ZEALS（ジールス）とタイミーは2026年8月27日、ヒューマノイドなどフィジカルAIの学習・改善に使う現実世界のデータ収集・整理をスポットワークとして設計する、新たな仕事カテゴリー「データ収集スポットワーク」の創出に向けた共創パートナーシップを締結したと<a href="https://omakaserobotics.ai/news/timee-partnership">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Wed, 02 Sep 2026 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
