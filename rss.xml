@@ -46,86 +46,6 @@
       <pubDate>Wed, 09 Sep 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft Office責任者、職場の『AIスロップ』に苦言　AI生成文書をAIで要約する流れを『doom loop』と指摘</title>
-      <link>https://ledge.ai/articles/microsoft_office_ai_slop_doom_loop</link>
-      <description><![CDATA[<p>Microsoft傘下のLinkedIn CEOでMicrosoft Office担当EVP（エグゼクティブ・バイスプレジデント）のRyan Roslansky氏は、LinkedInへの投稿で、AIが生成したものの独自の視点や中身に乏しい「AI slop（AIスロップ）」がSNSだけでなく、日常業務にも入り込んでいると指摘した。明らかにAI生成だと感じた文書を受け取り、自身のAIに要約させたところ、新しい考えにつながるものが何も残らなかったとして、こうした状況を『doom loop（悪循環）』と表現している。</p>
-<h2>AI生成文書を別のAIで要約、「新しい考えが何もなかった」</h2>
-<p>Roslansky氏は<a href="https://www.linkedin.com/posts/ryanroslansky_ai-slop-isnt-happening-just-on-social-networks-activity-7496622259214659585-Kxjf">LinkedInへの投稿</a>で、「AIスロップはSNSだけで起きているのではなく、日々の仕事でも起きている」と述べた。</p>
-<p>同氏によると、明らかにAIが生成した文書を誰かから受け取り、それを読んだ後、自身のAIに要約させたという。しかし、最終的に得られたものには、元のアイデアに新しい考えを加える内容がなかった。</p>
-<p>こうした状況を同氏は「doom loop」と表現。「気をつけなければ、同じような一般論であふれる中、文章を書いたり読んだりすることを避けるためだけに、多額のコストをかけることになる」と問題提起した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ryan_Roslansky_c632c2f211/Ryan_Roslansky_c632c2f211.jpg" alt="Ryan Roslansky.jpg" /></p>
-<p>一方で、Roslansky氏はAIそのものの利用を否定しているわけではない。AIによって何かを実行したり、学んだり、創作したりしつつ、そこに人間それぞれの視点や経験を加え、成果を発展させていく使い方を求めている。</p>
-<h2>LinkedInも「AIスロップ」の拡散を抑制</h2>
-<p>Roslansky氏がCEOを務めるLinkedInも、2026年6月4日に<a href="https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin">「AIスロップ」への対策</a>を発表している。</p>
-<p>LinkedInはAIスロップについて、表面上は洗練されていても、独自の視点や実質を欠く低労力のAI生成コンテンツと説明。AIを文章作成の支援に利用すること自体は認めながら、投稿やコメントには本人の声や視点が反映される必要があるとしている。</p>
-<p>同社は、AI生成とみられ、明確な視点に欠けるコンテンツについて、ユーザーの直接のネットワークを超えて広く配信されにくくする仕組みを導入。初期テストでは、一般的で独自性に乏しいコンテンツを94％の割合で正しく特定できたとしている</p>
-<h2>MicrosoftはAIエージェントや独自AIモデルを相次いで展開</h2>
-<p>こうした発言は、Microsoft自身がAIの導入を積極的に進める中で出たものでもある。</p>
-<p>Roslansky氏はLinkedIn CEOとMicrosoft Office担当EVPを兼務し、Microsoft公式ブログによると、Word、Excel、PowerPoint、Copilotなどのエンジニアリングを率いている。</p>
-<p>Microsoftは2026年6月2日、AIエージェントを中心に据えた新しいデバイス向けのチップ・ツー・クラウドプラットフォーム「<a href="https://commandline.microsoft.com/project-solara-build-2026/">Project Solara</a>」を発表した。同社は従来の「アプリを開く」コンピューティングから、ユーザーの意図に応じてAIエージェントを呼び出す形への移行を構想している。</p>
-<p>同日には画像生成・編集AI「MAI-Image-2.5」と高速版「MAI-Image-2.5-Flash」も発表。またAnthropicは、Microsoft 365向けに、Word、Excel、PowerPoint、Outlook内でClaudeを利用できる「<a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a>」を提供している。</p>
-<p>AIを業務や製品に広く組み込む動きが進む一方、Roslansky氏の投稿は、AIによってコンテンツを大量に生成すること自体ではなく、人間独自の視点や経験を成果物に残すことの重要性を指摘したものとなっている。</p>
-]]></description>
-      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>RIZAP、社員が個人利用の生成AIに氏名・疾患情報を誤アップロード　IHI健保分は210人、OpenAI社と公表</title>
-      <link>https://ledge.ai/articles/rizap_generative_ai_personal_data_upload</link>
-      <description><![CDATA[<p>RIZAPは2026年9月3日、社員が個人で使用していた外部の生成AIサービスに、顧客の氏名や疾患情報などの個人情報・要配慮個人情報を誤ってアップロードしたと<a href="https://business.rizap.jp/news/2492">発表</a>{target=”_blank”}した。RIZAPは対象件数や生成AIサービス名を明らかにしていないが、委託元のIHIグループ健康保険組合は、自組合の対象者が210人で、データがOpenAI社のサービスにアップロードされたと公表している。</p>
-<h2>氏名や保険証番号、高血圧症・糖尿病などの疾患情報をアップロード</h2>
-<p>RIZAPによると、健康経営・保険者事業部の社員が、特定保健指導管理システムのデータ集計作業中、個人で使用していた外部の生成AIサービスに対象データを誤ってアップロードした。</p>
-<p>対象となったのは、2026年1月1日から8月19日までに同システムへ登録された特定保健指導対象者データの一部。保険証記号番号、メールアドレス、氏名、生年月日、性別のほか、一部の対象者について住所や電話番号が含まれていた。</p>
-<p>さらに、要配慮個人情報に当たる特定保健指導の支援形態や、高血圧症、糖尿病、脂質異常症といった疾患情報も含まれていた。RIZAPは対象となる顧客の総数を公表していない。</p>
-<p>事象の発見後、作業した社員が該当するチャット履歴を削除し、学習データへの利用を停止する設定を実施した。RIZAPは生成AIサービスの運営事業者にもデータの取り扱い状況を照会した。</p>
-<p>同社によると、アップロードした情報が生成AIの学習に利用された可能性や、サービス運営事業者以外の第三者に閲覧された可能性はないことを確認した。一方で、サービス運営事業者の役職員などが情報を閲覧できる状態にあった可能性については、9月3日時点で確認を続けている。</p>
-<h2>IHI健保は対象210人、アップロード先を「OpenAI社」と公表</h2>
-<p>RIZAPに特定保健指導業務を委託している<a href="https://www.ihikenpo.or.jp/asp/news/news.asp?articleid=189769&amp;page=1">IHIグループ健康保険組合</a>{target=”_blank”}
-は、RIZAPに先立つ9月2日に本件を公表している。</p>
-<p>IHI健保によると、8月24日にRIZAPから報告を受けた。個人情報を生成AIに参照させていたことは、当該社員の自己申告によって判明したという。</p>
-<p>同健保で情報漏えいの可能性がある対象者は、2024年度から2026年度にRIZAPの特定保健指導を利用した210人としている。この210人はIHI健保に関係する人数であり、本件全体の対象者数ではない。</p>
-<p>またIHI健保は、RIZAP側の発表では明示されていない生成AI事業者について「OpenAI社」と公表した。事案発覚後、RIZAPがサービス上のデータ削除などを行い、9月1日にOpenAIから「当該データはモデルの学習に利用されていない」との回答を得たとしている。</p>
-<h2>未許諾の生成AIサービス利用を禁止、AIMS導入も検討</h2>
-<p>RIZAPは個人情報保護委員会への報告を完了し、対象データの提供元となった団体や企業と調整しながら、対象者への連絡を進めている。</p>
-<p>再発防止策として、社内で許諾されていない生成AIサービスや、外部への情報提供が許可されていないサービスを業務で利用することを禁止するルールを改めて全社に周知した。</p>
-<p>技術面ではアクセス権限や利用環境を点検・見直し、許可されていない外部サービスへのデータ持ち出しを防ぐ管理体制を整備する。さらに、既存の情報セキュリティマネジメントシステム（ISMS）に加え、AIマネジメントシステム（AIMS）の導入も検討するとしている。</p>
-]]></description>
-      <pubDate>Tue, 08 Sep 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>トランプ政権、AI学習は「フェアユース」と主張　米司法省がOpenAI著作権訴訟で意見書</title>
-      <link>https://ledge.ai/articles/trump_administration_ai_training_fair_use</link>
-      <description><![CDATA[<p>米司法省は2026年9月1日（現地時間）、米OpenAIを巡る複数の著作権侵害訴訟で、著作権で保護された文章を大規模言語モデル（LLM）の学習に利用する行為はフェアユースに当たるとの立場を示す<a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.640396/gov.uscourts.nysd.640396.1682.0.pdf">意見書「Statement of Interest of the United States」</a>を、ニューヨーク南部地区連邦地裁に提出した。司法省は、著作物の「取得」「学習」「出力」はそれぞれ異なる著作権上の問題を生じ得るとしたうえで、今回の主張を学習段階に絞っている。ただし、今回提出された意見書は判決ではなく、裁判所を拘束するものではない。訴訟当事者ではない米政府が、米国法典28編517条に基づいて法的立場を示した書面となる。</p>
-<h2>司法省、AIモデルの学習を「極めて変革的」と主張</h2>
-<p>フェアユースとは、一定の条件下で著作権者の許諾なしに著作物の利用を認める米著作権法上の考え方だ。意見書は、OpenAIを巡る著作権侵害訴訟をまとめて扱う「In re: OpenAI, Inc. Copyright Infringement Litigation」に提出された。司法省は米国法典28編517条に基づき、訴訟当事者ではない米政府の利害関係を裁判所に示した。</p>
-<p>書面では説明を簡略化するため、主に米紙The New York TimesとOpenAIを取り上げているが、法的主張は書籍の著者や出版社などを含む関連訴訟の当事者にも同様に適用するとしている。</p>
-<p>司法省はLLMの開発過程を、学習データを収集・保存する「取得」、データをモデルに入力して学習させる「学習」、ユーザーの質問にモデルが回答する「出力」の3段階に整理した。このうち今回の意見書では、著作物をコピーして学習材料としてモデルに与える行為がフェアユースに当たるかを検討対象としている。</p>
-<p>司法省は、文章をLLMの学習に利用する目的について、原著作物の表現内容を複製して提供するためではなく、語彙や構文などの統計的なパターンをモデルに学習させるためだと説明。学習時の著作物のコピーを「極めて変革的」な利用と位置づけ、フェアユースを強く支持すると主張した。OpenAIによるLLMの商用利用も考慮要素となるものの、学習の高い変革性を踏まえれば、その重みは限定的だとの見方を示した。</p>
-<h2>著作物を再現する「出力」は別問題</h2>
-<p>一方、司法省はAIによる著作物利用を一律に適法と主張しているわけではない。</p>
-<p>意見書では、LLMが出力段階で元の著作物を再構成し、ユーザーに提供する場合、その利用が変革的ではない可能性があると指摘した。特定の出力が著作物と実質的に類似しているかなどは、学習そのものとは切り離して個別に判断する必要があるとしている。</p>
-<p>また、学習データを最初に集める「取得」の段階についても、学習とは別の著作権上の問題になり得る。今回の意見書は、取得方法そのものが適法だったかについて判断を示すものではない。</p>
-<p>このため、今回の司法省の立場は「OpenAIによる著作物利用全般は合法」というものではなく、あくまで「著作物をLLMの学習に利用する行為」についてフェアユースを支持したものとなる。</p>
-<h2>ライセンス義務はAI市場の参入障壁になると指摘</h2>
-<p>司法省は、フェアユースを判断する際に考慮される著作物の市場への影響についても、AI学習は原著作物の代替品を公衆に提供するものではないと主張した。</p>
-<p>学習段階では著作物自体が一般公開されるわけではなく、原作品の購入などを直接置き換えるものではないことから、市場への影響をみるフェアユースの要素もOpenAI側に有利に働くとの見方を示している。</p>
-<p>さらに、AIモデルの学習に広くライセンス料の支払いを求めた場合、費用を負担できる大手テクノロジー企業だけがモデルを開発できる状況になりかねないと指摘。ライセンス料がAI市場への参入障壁となり、最大手企業によるLLM学習の寡占を招くことは公共の利益に反すると主張した。</p>
-<p>ただし司法省は、AI学習向けのライセンス制度が経済的・実務的に成立するかについては立場を取っていない。ニュース速報や有料記事、独自データなどへの特別なアクセスを巡り、出版社とAI企業が個別にライセンス契約を結ぶことも否定していない。</p>
-<h2>米政府、AI学習のフェアユース支持を政策として明確化</h2>
-<p>今回の意見書は、米政府がこれまで示してきたAI政策とも一致する。</p>
-<p>ホワイトハウスは2026年3月に公表した<a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">「National Policy Framework for Artificial Intelligence」</a>で、著作権で保護された素材を使ったAIモデルの学習は著作権法に違反しないとの政権の立場を明記した。一方で反対意見が存在することも認め、AI学習がフェアユースに該当するかについては裁判所が判断すべきだとしている。</p>
-<p>司法省は今回、米国のAI産業の競争力に加えて国家安全保障にも言及した。国内でAI産業を発展させることを著しく困難にする法制度は、米国の国家安全保障を脅かし、同様の制約を受けない外国の競争相手を有利にする可能性があるとしている。</p>
-<p>意見書の最後では、フェアユースは個々の事実や利用方法に応じて判断されるものだとしたうえで、AIモデルの学習を原則としてライセンスなしでは認めないような広範な著作権責任を課すことは「法的に誤り」だと主張している。</p>
-]]></description>
-      <pubDate>Mon, 07 Sep 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google「Gemini 3.8 Flash」、Meta「Muse Spark 1.3」AI新モデル相次ぎリリース　GoogleはAI画像生成・編集ツール「Google Pics」も提供開始</title>
-      <link>https://ledge.ai/articles/google_gemini_3_8_flash_meta_muse_spark_1_3_google_pics</link>
-      <description><![CDATA[<p>GoogleとMetaが2026年9月初旬、AIモデルの新バージョンを相次いで投入した。Googleは9月2日（現地時間）、最新モデル「Gemini 3.8 Flash」とサイバーセキュリティ向けモデル「Gemini 3.8 Flash Cyber」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sun, 06 Sep 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AIエージェントで攻撃者は「眠らなくなる」――ExaSecurity代表が語る、AI時代のセキュリティ</title>
       <link>https://ledge.ai/articles/exasecurity-interview</link>
       <description><![CDATA[<p>企業のAI活用が次の段階へ進む一方で、セキュリティを取り巻く環境も大きく変わり始めている。</p>
@@ -177,28 +97,21 @@
 <p>国内でも、重要インフラを中心としたサイバー防御の強化に加え、サプライチェーン全体のセキュリティ水準向上に向けた制度整備が進んでいる。政府の動きを見ても、企業のセキュリティ対策を評価する仕組みの構築や、新たな領域のサイバー脅威に対応するガイドライン整備が急速に打ち出されている。直接的な規制対象にならない企業であっても、取引先から高度なセキュリティ対策を求められるケースは間違いなく増えていくだろう。</p>
 <p>AIを「導入してから守る」のではなく、「安全に使えるからこそ導入を加速できる」状態を作る。AI活用とセキュリティを別々に考える時代は、すでに終わりを告げているのかもしれない。</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GMO AIR、人型ロボット専用「GMOヒューマノイド救急車」導入　故障現場へエンジニアが駆けつけ</title>
       <link>https://ledge.ai/articles/gmo_humanoid_ambulance</link>
       <description><![CDATA[<p>GMO AI&amp;ロボティクス商事（GMO AIR）は2026年9月8日、人型ロボット（ヒューマノイド）の故障やトラブル時に現場へ駆けつけ、診断・修理や代替機の提供を行う専用保守車両「<a href="https://ai-robotics.gmo/news/article/gmo-humanoid-ambulance/">GMOヒューマノイド救急車</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google、AI天気予報「WeatherNext 3」発表　急変する雨を捉える毎時予報、降水予測を高精度化</title>
       <link>https://ledge.ai/articles/google_weathernext_3</link>
       <description><![CDATA[<p>Google DeepMindとGoogle Researchは2026年9月3日（米国時間）、AIを使った世界全体を対象とする全球気象予測モデル「WeatherNext 3」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
-      <link>https://ledge.ai/articles/grok_ani_animates_subscription</link>
-      <description><![CDATA[<p>米Animation Inc.は2026年8月29日（現地時間）、AIコンパニオンアプリ「Animates」へのGrok Companions移行について<a href="https://x.com/animates__ai/status/2093736164788191551">公式X</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AI利用率88.6％、それでも法務は楽にならない？　LexisNexis調査に見る日本企業の「AI導入後」の課題</title>
@@ -238,7 +151,7 @@ AI利用への懸念として最も多かったのは「正確性・ハルシネ
 <p>しかし、その先にあるのは「もっとAIを使う」という単純な話ではない。
 散在するデータやツールをつなぎ、定型的な業務を標準化し、AIが担う部分と専門家が判断する部分を組み合わせる。今回の調査から見えてきたのは、生成AI活用の焦点が「AIを導入すること」から「AIを前提に仕事そのものを設計し直すこと」へ移り始めているということだろう。</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>「1人で月100本」の時代、クリエイターは不要になるのか　“AIネイティブ”で変わるエンタメ制作</title>
@@ -300,28 +213,51 @@ AI利用への懸念として最も多かったのは「正確性・ハルシネ
 AIネイティブなエンタメ制作の広がりによって問われているのは、クリエイターが必要かどうかではなく、これからのクリエイターが「何を担うのか」なのかもしれない。秋山氏は最後に、こう付け加えた。</p>
 <p>「これはあくまで、今この領域でやっている人間の一つの見解です。来週には考えていることが変わっているかもしれないくらい技術の進化が速い。毎日のように新しいものが出てきて、それを試して、『だったら世の中はこう変わるのではないか』と考え直す。その繰り返しです。なんとかこの波に振り落とされないように、僕自身も必死にキャッチアップしています」</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Meta、パーソナルAIエージェント『Muse』発表　メール送信や買い物も代行、米国で提供開始</title>
       <link>https://ledge.ai/articles/meta_muse_personal_ai_agent</link>
       <description><![CDATA[<p>Metaは2026年9月8日（米国時間）、利用者に代わってさまざまな作業を実行するパーソナルAIエージェント「Muse」を<a href="https://about.fb.com/ja/news/2026/09/introducing-muse-personal-ai-agent/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Office責任者、職場の『AIスロップ』に苦言　AI生成文書をAIで要約する流れを『doom loop』と指摘</title>
+      <link>https://ledge.ai/articles/microsoft_office_ai_slop_doom_loop</link>
+      <description><![CDATA[<p>Microsoft傘下のLinkedIn CEOでMicrosoft Office担当EVP（エグゼクティブ・バイスプレジデント）のRyan Roslansky氏は、LinkedInへの投稿で、AIが生成したものの独自の視点や中身に乏しい「AI slop（AIスロップ）」がSNSだけでなく、日常業務にも入り込んでいると指摘した。明らかにAI生成だと感じた文書を受け取り、自身のAIに要約させたところ、新しい考えにつながるものが何も残らなかったとして、こうした状況を『doom loop（悪循環）』と表現している。</p>
+<h2>AI生成文書を別のAIで要約、「新しい考えが何もなかった」</h2>
+<p>Roslansky氏は<a href="https://www.linkedin.com/posts/ryanroslansky_ai-slop-isnt-happening-just-on-social-networks-activity-7496622259214659585-Kxjf">LinkedInへの投稿</a>で、「AIスロップはSNSだけで起きているのではなく、日々の仕事でも起きている」と述べた。</p>
+<p>同氏によると、明らかにAIが生成した文書を誰かから受け取り、それを読んだ後、自身のAIに要約させたという。しかし、最終的に得られたものには、元のアイデアに新しい考えを加える内容がなかった。</p>
+<p>こうした状況を同氏は「doom loop」と表現。「気をつけなければ、同じような一般論であふれる中、文章を書いたり読んだりすることを避けるためだけに、多額のコストをかけることになる」と問題提起した。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ryan_Roslansky_c632c2f211/Ryan_Roslansky_c632c2f211.jpg" alt="Ryan Roslansky.jpg" /></p>
+<p>一方で、Roslansky氏はAIそのものの利用を否定しているわけではない。AIによって何かを実行したり、学んだり、創作したりしつつ、そこに人間それぞれの視点や経験を加え、成果を発展させていく使い方を求めている。</p>
+<h2>LinkedInも「AIスロップ」の拡散を抑制</h2>
+<p>Roslansky氏がCEOを務めるLinkedInも、2026年6月4日に<a href="https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin">「AIスロップ」への対策</a>を発表している。</p>
+<p>LinkedInはAIスロップについて、表面上は洗練されていても、独自の視点や実質を欠く低労力のAI生成コンテンツと説明。AIを文章作成の支援に利用すること自体は認めながら、投稿やコメントには本人の声や視点が反映される必要があるとしている。</p>
+<p>同社は、AI生成とみられ、明確な視点に欠けるコンテンツについて、ユーザーの直接のネットワークを超えて広く配信されにくくする仕組みを導入。初期テストでは、一般的で独自性に乏しいコンテンツを94％の割合で正しく特定できたとしている</p>
+<h2>MicrosoftはAIエージェントや独自AIモデルを相次いで展開</h2>
+<p>こうした発言は、Microsoft自身がAIの導入を積極的に進める中で出たものでもある。</p>
+<p>Roslansky氏はLinkedIn CEOとMicrosoft Office担当EVPを兼務し、Microsoft公式ブログによると、Word、Excel、PowerPoint、Copilotなどのエンジニアリングを率いている。</p>
+<p>Microsoftは2026年6月2日、AIエージェントを中心に据えた新しいデバイス向けのチップ・ツー・クラウドプラットフォーム「<a href="https://commandline.microsoft.com/project-solara-build-2026/">Project Solara</a>」を発表した。同社は従来の「アプリを開く」コンピューティングから、ユーザーの意図に応じてAIエージェントを呼び出す形への移行を構想している。</p>
+<p>同日には画像生成・編集AI「MAI-Image-2.5」と高速版「MAI-Image-2.5-Flash」も発表。またAnthropicは、Microsoft 365向けに、Word、Excel、PowerPoint、Outlook内でClaudeを利用できる「<a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a>」を提供している。</p>
+<p>AIを業務や製品に広く組み込む動きが進む一方、Roslansky氏の投稿は、AIによってコンテンツを大量に生成すること自体ではなく、人間独自の視点や経験を成果物に残すことの重要性を指摘したものとなっている。</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA、Hugging Faceを129億3030万ドルで買収へ　オープンプラットフォーム維持、2027年前半完了予定</title>
       <link>https://ledge.ai/articles/nvidia_hugging_face_acquisition</link>
       <description><![CDATA[<p>NVIDIAは2026年9月3日（米国時間）、AIモデルやデータセットの共有・開発プラットフォームを運営する米Hugging Faceを129億3030万ドルで買収することに合意したと<a href="https://blogs.nvidia.co.jp/blog/nvidia-to-acquire-hugging-face/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>卓上型汎用AIロボ「Palmimo DevKit」、PoCや研究向けに先行販売開始　LLMの指示で歩く・話す、MCPにも対応</title>
       <link>https://ledge.ai/articles/palmimo_devkit_ai_robot_mcp</link>
       <description><![CDATA[<p>生成AIやロボットなどの先端技術サービスを手がけるJizaiは2026年9月3日、カスタマイズ可能な汎用AIロボット「Palmimo（パルミーモ）」を自分のコードで動かせる卓上型開発キット「Palmimo DevKit」の先行販売を<a href="https://jizai.ai/news/palmimo-devkit-early-access/">開始</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Tesla、ハンドルもペダルもない「Cybercab」でロボタクシー運行開始　米オースティンで</title>
@@ -330,6 +266,70 @@ AIネイティブなエンタメ制作の広がりによって問われている
 <p>Cybercabは2人乗りで、ハンドルやアクセル、ブレーキペダルといった一般的な運転操作装置を備えない、自動運転を前提に設計された車両だ。</p>
 <p>Teslaは2025年6月、オースティンでRobotaxiサービスを開始している。当初は市販車の「Model Y」を使っていたが、CybercabはRobotaxiでの利用を前提にゼロから設計された自動運転専用車だ。今回、そのCybercabが実際の配車サービスに加わった。</p>
 <p>Teslaの<a href="https://www.tesla.com/support/robotaxi/cybercab">Cybercab公式FAQ</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>RIZAP、社員が個人利用の生成AIに氏名・疾患情報を誤アップロード　IHI健保分は210人、OpenAI社と公表</title>
+      <link>https://ledge.ai/articles/rizap_generative_ai_personal_data_upload</link>
+      <description><![CDATA[<p>RIZAPは2026年9月3日、社員が個人で使用していた外部の生成AIサービスに、顧客の氏名や疾患情報などの個人情報・要配慮個人情報を誤ってアップロードしたと<a href="https://business.rizap.jp/news/2492">発表</a>{target=”_blank”}した。RIZAPは対象件数や生成AIサービス名を明らかにしていないが、委託元のIHIグループ健康保険組合は、自組合の対象者が210人で、データがOpenAI社のサービスにアップロードされたと公表している。</p>
+<h2>氏名や保険証番号、高血圧症・糖尿病などの疾患情報をアップロード</h2>
+<p>RIZAPによると、健康経営・保険者事業部の社員が、特定保健指導管理システムのデータ集計作業中、個人で使用していた外部の生成AIサービスに対象データを誤ってアップロードした。</p>
+<p>対象となったのは、2026年1月1日から8月19日までに同システムへ登録された特定保健指導対象者データの一部。保険証記号番号、メールアドレス、氏名、生年月日、性別のほか、一部の対象者について住所や電話番号が含まれていた。</p>
+<p>さらに、要配慮個人情報に当たる特定保健指導の支援形態や、高血圧症、糖尿病、脂質異常症といった疾患情報も含まれていた。RIZAPは対象となる顧客の総数を公表していない。</p>
+<p>事象の発見後、作業した社員が該当するチャット履歴を削除し、学習データへの利用を停止する設定を実施した。RIZAPは生成AIサービスの運営事業者にもデータの取り扱い状況を照会した。</p>
+<p>同社によると、アップロードした情報が生成AIの学習に利用された可能性や、サービス運営事業者以外の第三者に閲覧された可能性はないことを確認した。一方で、サービス運営事業者の役職員などが情報を閲覧できる状態にあった可能性については、9月3日時点で確認を続けている。</p>
+<h2>IHI健保は対象210人、アップロード先を「OpenAI社」と公表</h2>
+<p>RIZAPに特定保健指導業務を委託している<a href="https://www.ihikenpo.or.jp/asp/news/news.asp?articleid=189769&amp;page=1">IHIグループ健康保険組合</a>{target=”_blank”}
+は、RIZAPに先立つ9月2日に本件を公表している。</p>
+<p>IHI健保によると、8月24日にRIZAPから報告を受けた。個人情報を生成AIに参照させていたことは、当該社員の自己申告によって判明したという。</p>
+<p>同健保で情報漏えいの可能性がある対象者は、2024年度から2026年度にRIZAPの特定保健指導を利用した210人としている。この210人はIHI健保に関係する人数であり、本件全体の対象者数ではない。</p>
+<p>またIHI健保は、RIZAP側の発表では明示されていない生成AI事業者について「OpenAI社」と公表した。事案発覚後、RIZAPがサービス上のデータ削除などを行い、9月1日にOpenAIから「当該データはモデルの学習に利用されていない」との回答を得たとしている。</p>
+<h2>未許諾の生成AIサービス利用を禁止、AIMS導入も検討</h2>
+<p>RIZAPは個人情報保護委員会への報告を完了し、対象データの提供元となった団体や企業と調整しながら、対象者への連絡を進めている。</p>
+<p>再発防止策として、社内で許諾されていない生成AIサービスや、外部への情報提供が許可されていないサービスを業務で利用することを禁止するルールを改めて全社に周知した。</p>
+<p>技術面ではアクセス権限や利用環境を点検・見直し、許可されていない外部サービスへのデータ持ち出しを防ぐ管理体制を整備する。さらに、既存の情報セキュリティマネジメントシステム（ISMS）に加え、AIマネジメントシステム（AIMS）の導入も検討するとしている。</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>トランプ政権、AI学習は「フェアユース」と主張　米司法省がOpenAI著作権訴訟で意見書</title>
+      <link>https://ledge.ai/articles/trump_administration_ai_training_fair_use</link>
+      <description><![CDATA[<p>米司法省は2026年9月1日（現地時間）、米OpenAIを巡る複数の著作権侵害訴訟で、著作権で保護された文章を大規模言語モデル（LLM）の学習に利用する行為はフェアユースに当たるとの立場を示す<a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.640396/gov.uscourts.nysd.640396.1682.0.pdf">意見書「Statement of Interest of the United States」</a>を、ニューヨーク南部地区連邦地裁に提出した。司法省は、著作物の「取得」「学習」「出力」はそれぞれ異なる著作権上の問題を生じ得るとしたうえで、今回の主張を学習段階に絞っている。ただし、今回提出された意見書は判決ではなく、裁判所を拘束するものではない。訴訟当事者ではない米政府が、米国法典28編517条に基づいて法的立場を示した書面となる。</p>
+<h2>司法省、AIモデルの学習を「極めて変革的」と主張</h2>
+<p>フェアユースとは、一定の条件下で著作権者の許諾なしに著作物の利用を認める米著作権法上の考え方だ。意見書は、OpenAIを巡る著作権侵害訴訟をまとめて扱う「In re: OpenAI, Inc. Copyright Infringement Litigation」に提出された。司法省は米国法典28編517条に基づき、訴訟当事者ではない米政府の利害関係を裁判所に示した。</p>
+<p>書面では説明を簡略化するため、主に米紙The New York TimesとOpenAIを取り上げているが、法的主張は書籍の著者や出版社などを含む関連訴訟の当事者にも同様に適用するとしている。</p>
+<p>司法省はLLMの開発過程を、学習データを収集・保存する「取得」、データをモデルに入力して学習させる「学習」、ユーザーの質問にモデルが回答する「出力」の3段階に整理した。このうち今回の意見書では、著作物をコピーして学習材料としてモデルに与える行為がフェアユースに当たるかを検討対象としている。</p>
+<p>司法省は、文章をLLMの学習に利用する目的について、原著作物の表現内容を複製して提供するためではなく、語彙や構文などの統計的なパターンをモデルに学習させるためだと説明。学習時の著作物のコピーを「極めて変革的」な利用と位置づけ、フェアユースを強く支持すると主張した。OpenAIによるLLMの商用利用も考慮要素となるものの、学習の高い変革性を踏まえれば、その重みは限定的だとの見方を示した。</p>
+<h2>著作物を再現する「出力」は別問題</h2>
+<p>一方、司法省はAIによる著作物利用を一律に適法と主張しているわけではない。</p>
+<p>意見書では、LLMが出力段階で元の著作物を再構成し、ユーザーに提供する場合、その利用が変革的ではない可能性があると指摘した。特定の出力が著作物と実質的に類似しているかなどは、学習そのものとは切り離して個別に判断する必要があるとしている。</p>
+<p>また、学習データを最初に集める「取得」の段階についても、学習とは別の著作権上の問題になり得る。今回の意見書は、取得方法そのものが適法だったかについて判断を示すものではない。</p>
+<p>このため、今回の司法省の立場は「OpenAIによる著作物利用全般は合法」というものではなく、あくまで「著作物をLLMの学習に利用する行為」についてフェアユースを支持したものとなる。</p>
+<h2>ライセンス義務はAI市場の参入障壁になると指摘</h2>
+<p>司法省は、フェアユースを判断する際に考慮される著作物の市場への影響についても、AI学習は原著作物の代替品を公衆に提供するものではないと主張した。</p>
+<p>学習段階では著作物自体が一般公開されるわけではなく、原作品の購入などを直接置き換えるものではないことから、市場への影響をみるフェアユースの要素もOpenAI側に有利に働くとの見方を示している。</p>
+<p>さらに、AIモデルの学習に広くライセンス料の支払いを求めた場合、費用を負担できる大手テクノロジー企業だけがモデルを開発できる状況になりかねないと指摘。ライセンス料がAI市場への参入障壁となり、最大手企業によるLLM学習の寡占を招くことは公共の利益に反すると主張した。</p>
+<p>ただし司法省は、AI学習向けのライセンス制度が経済的・実務的に成立するかについては立場を取っていない。ニュース速報や有料記事、独自データなどへの特別なアクセスを巡り、出版社とAI企業が個別にライセンス契約を結ぶことも否定していない。</p>
+<h2>米政府、AI学習のフェアユース支持を政策として明確化</h2>
+<p>今回の意見書は、米政府がこれまで示してきたAI政策とも一致する。</p>
+<p>ホワイトハウスは2026年3月に公表した<a href="https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf">「National Policy Framework for Artificial Intelligence」</a>で、著作権で保護された素材を使ったAIモデルの学習は著作権法に違反しないとの政権の立場を明記した。一方で反対意見が存在することも認め、AI学習がフェアユースに該当するかについては裁判所が判断すべきだとしている。</p>
+<p>司法省は今回、米国のAI産業の競争力に加えて国家安全保障にも言及した。国内でAI産業を発展させることを著しく困難にする法制度は、米国の国家安全保障を脅かし、同様の制約を受けない外国の競争相手を有利にする可能性があるとしている。</p>
+<p>意見書の最後では、フェアユースは個々の事実や利用方法に応じて判断されるものだとしたうえで、AIモデルの学習を原則としてライセンスなしでは認めないような広範な著作権責任を課すことは「法的に誤り」だと主張している。</p>
+]]></description>
+      <pubDate>Mon, 07 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google「Gemini 3.8 Flash」、Meta「Muse Spark 1.3」AI新モデル相次ぎリリース　GoogleはAI画像生成・編集ツール「Google Pics」も提供開始</title>
+      <link>https://ledge.ai/articles/google_gemini_3_8_flash_meta_muse_spark_1_3_google_pics</link>
+      <description><![CDATA[<p>GoogleとMetaが2026年9月初旬、AIモデルの新バージョンを相次いで投入した。Googleは9月2日（現地時間）、最新モデル「Gemini 3.8 Flash」とサイバーセキュリティ向けモデル「Gemini 3.8 Flash Cyber」を<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 06 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
+      <link>https://ledge.ai/articles/grok_ani_animates_subscription</link>
+      <description><![CDATA[<p>米Animation Inc.は2026年8月29日（現地時間）、AIコンパニオンアプリ「Animates」へのGrok Companions移行について<a href="https://x.com/animates__ai/status/2093736164788191551">公式X</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
