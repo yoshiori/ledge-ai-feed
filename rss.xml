@@ -77,6 +77,13 @@
       <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google、Windows版「Gemini」アプリを世界で提供開始　Alt＋Spaceで作業中に即呼び出し、Gmail・Driveとも連携</title>
+      <link>https://ledge.ai/articles/google_gemini_windows_desktop_app</link>
+      <description><![CDATA[<p>Googleは2026年9月10日（米国時間）、AIアシスタント「Gemini」のWindows向けデスクトップアプリを<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/">全世界で提供開始</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>LINEヤフー「Agent i」にタスク機能　最新情報・値下がり・イベントをAIが継続追跡、指定タイミングで通知</title>
       <link>https://ledge.ai/articles/line_yahoo_agent_i_task_feature</link>
       <description><![CDATA[<p>LINEヤフーは2026年9月11日、AIエージェント「Agent i」に、ユーザーが登録した条件に応じて情報を継続的に収集し、指定したタイミングで知らせる「タスク機能」を<a href="https://www.lycorp.co.jp/ja/news/release/020805/">提供開始した</a>{target=\</p>
@@ -124,6 +131,23 @@
       <title>OpenAI研究者ダニエル・セルサム氏、AIリスクで個人声明　開発ペース減速だけでは不充分、「監視下の評価」では測れない問題を指摘</title>
       <link>https://ledge.ai/articles/openai_daniel_selsam_ai_risk_statement</link>
       <description><![CDATA[<p>OpenAIの研究者Daniel Selsam氏は2026年9月14日（現地時間）、AIのリスクに関する個人的な見解をまとめた声明「Personal Statement on AI Risk」を<a href="https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>国産汎用ロボット開発の成果と課題　ugo Nova発表、実装と量産へ向けた議論</title>
+      <link>https://ledge.ai/articles/physical_ai_summit_2026_report</link>
+      <description><![CDATA[<p>2026年9月16日、RX Japan合同会社は、パレスホテル東京で「フィジカルAI Summit（Presented by NexTech Week）」を初開催した。会場では、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）の「ポスト5G情報通信システム基盤強化研究開発事業」の一環として実施されている「国産汎用ロボット開発コンペティション」の振り返りと、採択企業による発表が行われた。</p>
+<p>各社が短期間で開発した試作機を披露するなか、ｕｇｏ株式会社は新たな双腕ロボット「ugo Nova」を発表。展示ブースでは来場者が実機を間近で見ながら、開発者の説明を聞くことができた。技術の成果に加え、現場での運用や安全性、量産に向けた部品調達をどう整えるかも、この日の議論になった。</p>
+<h2>試作で見えた、データを集めるための操作性と保守性</h2>
+<p>コンペティションを主催するのは、一般社団法人AIロボット協会（AIRoA：AI Robot Association）だ。NEDO委託事業「ポスト5G情報通信システム基盤強化研究開発事業／ロボティクス分野の生成AI基盤モデルの開発に向けたデータプラットフォームに係る開発」の一環として、ロボット基盤モデルの学習に使うデータを集めるため、国産の双腕モバイルマニピュレータの開発を進めている。移動機構と2本の腕を備え、場所を変えながら物を扱うロボットである。</p>
+<p>採択企業のうち、この日発表したのは、THK株式会社、ｕｇｏ、株式会社不二越、株式会社Keigan、株式会社Enactic、株式会社EmplifAI（コンソーシアム）、株式会社HatsuMuvの7社。産業用ロボットを手がける企業からスタートアップまでが参加する。試作機の開発に続いて改良機、量産機へ進む計画だが、次のフェーズへの移行には評価基準を満たす必要がある。</p>
+<p>各社の発表では、ロボットを動かすだけでなく、人が操作しやすく、学習に使えるデータを継続して集められる機体にするための課題が示された。</p>
+<p>Enacticは、双腕ロボット「OpenArm」を基に、腰や昇降、移動の機構を備えた機体を開発。外からロボットを見ながら操作する場合と、ロボット側のカメラ映像を見て操作する場合では、操作の難しさが異なると説明した。開発者が動かせることと、初めて触る人でも扱えることの間には差があり、その操作性は収集するデータの品質にも関わる。</p>
+<p>THKは、早い段階で試作機を作り、実際の作業を通じて問題を洗い出した。手先のぶれや剛性不足、物をつかんだ感覚の伝わりにくさに対し、制御、機構、つかむ部分の形状を見直したという。Keiganは、アクチュエータから開発する強みを生かし、顧客自身が部品を交換できる構造や保守性を重視。故障時の停止時間を抑えることも、継続的なデータ収集や現場運用を支える要素になる。</p>
+<p>EmplifAIは人との共同作業や表情・会話を含めたデータの扱いを、HatsuMuvは人の身体の動きを生かした操作と研究用途に応じた構成の柔軟性を紹介した。不二越は、製造現場が求めているのは作業の自動化であり、従来の生産性や信頼性に、柔軟性、人との親和性、自律性を加えていく必要があると説明した。</p>
+<h2>「ugo Nova」発表、データ収集から実機検証まで</h2>
+<p>各社ピッチの最後に登壇したｕｇｏの代表取締役CEO、松井健氏が紹介したのが、<a href="https://ugo.plus/information/2026/09/16/ugo-nova/">同日発表の「ugo Nova」</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
