@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>Google、Windows版「Gemini」アプリを世界で提供開始　Alt＋Spaceで作業中に即呼び出し、Gmail・Driveとも連携</title>
+      <link>https://ledge.ai/articles/google_gemini_windows_desktop_app</link>
+      <description><![CDATA[<p>Googleは2026年9月10日（米国時間）、AIアシスタント「Gemini」のWindows向けデスクトップアプリを<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/">全世界で提供開始</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 17 Sep 2026 00:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>アモデイ氏のAI開発“減速論”に「必要なのは“高IQの大統領”」トランプ氏　中国は対立をけん制、マスク氏「AGIはGrok 5」</title>
       <link>https://ledge.ai/articles/ai_pacing_trump_china_musk_grok5</link>
       <description><![CDATA[<p>ドナルド・トランプ米大統領は2026年9月14日（現地時間）、自身のSNS「Truth Social」で、AIに必要な制御や「ガードレール」は強く賢い「高IQ」の大統領だと述べた。同日、中国外交部も、AI開発の減速を巡る議論について「恐怖をあおること、対立、悪質な競争」は健全なグローバルAIガバナンスを妨げるとの見解を示した。</p>
@@ -12,19 +19,12 @@
 <h2>トランプ氏「AIに必要なのは高IQの大統領」</h2>
 <p>発端となったのは、Anthropicのダリオ・アモデイCEOが9月12日に<a href="https://ledge.ai/articles/david_sacks_anthropic_openai_ai_pacing_regulation">公開</a>{target=\</p>
 ]]></description>
-      <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
+      <pubDate>Wed, 16 Sep 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Amazon Adsから「ChatGPT」に広告出稿可能に　OpenAIと提携、米国の一部広告主がパイロット運用</title>
       <link>https://ledge.ai/articles/amazon_ads_openai_chatgpt_ads</link>
       <description><![CDATA[<p>Amazonの広告部門Amazon Adsは2026年9月10日（現地時間）、米OpenAIとの提携を<a href="https://advertising.amazon.com/ja-jp/library/news/amazon-ads-chat-gpt-advertising-integration">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google、Windows版「Gemini」アプリを世界で提供開始　Alt＋Spaceで作業中に即呼び出し、Gmail・Driveとも連携</title>
-      <link>https://ledge.ai/articles/google_gemini_windows_desktop_app</link>
-      <description><![CDATA[<p>Googleは2026年9月10日（米国時間）、AIアシスタント「Gemini」のWindows向けデスクトップアプリを<a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/">全世界で提供開始</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
     </item>
@@ -203,13 +203,6 @@
       <pubDate>Fri, 11 Sep 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google、AI天気予報「WeatherNext 3」発表　急変する雨を捉える毎時予報、降水予測を高精度化</title>
-      <link>https://ledge.ai/articles/google_weathernext_3</link>
-      <description><![CDATA[<p>Google DeepMindとGoogle Researchは2026年9月3日（米国時間）、AIを使った世界全体を対象とする全球気象予測モデル「WeatherNext 3」を<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 10 Sep 2026 22:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>OpenAI、GPT-6 Astra超えの未公開AIが現代数学の七大難問「ナビエ・ストークス方程式」の解決証明を生成　先行研究の扱いに数学者が異議も</title>
       <link>https://ledge.ai/articles/openai_navier_stokes_ai_proof</link>
       <description><![CDATA[<p>OpenAIは2026年9月8日（現地時間）、社内の未公開AIシステムが、数学の未解決問題「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと<a href="https://openai.com/index/navier-stokes-solution/">発表</a>した。解析的な証明に加え、定理証明支援系「Lean」で形式化した証明も公開している。</p>
@@ -249,29 +242,6 @@
 <p>このため現段階では、ナビエ・ストークス問題が正式に解決されたと確定したわけではない。OpenAIが公開した証明が今後、数学者による検証を経てどのように評価されるかが次の焦点となる。</p>
 ]]></description>
       <pubDate>Wed, 09 Sep 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Office責任者、職場の『AIスロップ』に苦言　AI生成文書をAIで要約する流れを『doom loop』と指摘</title>
-      <link>https://ledge.ai/articles/microsoft_office_ai_slop_doom_loop</link>
-      <description><![CDATA[<p>Microsoft傘下のLinkedIn CEOでMicrosoft Office担当EVP（エグゼクティブ・バイスプレジデント）のRyan Roslansky氏は、LinkedInへの投稿で、AIが生成したものの独自の視点や中身に乏しい「AI slop（AIスロップ）」がSNSだけでなく、日常業務にも入り込んでいると指摘した。明らかにAI生成だと感じた文書を受け取り、自身のAIに要約させたところ、新しい考えにつながるものが何も残らなかったとして、こうした状況を『doom loop（悪循環）』と表現している。</p>
-<h2>AI生成文書を別のAIで要約、「新しい考えが何もなかった」</h2>
-<p>Roslansky氏は<a href="https://www.linkedin.com/posts/ryanroslansky_ai-slop-isnt-happening-just-on-social-networks-activity-7496622259214659585-Kxjf">LinkedInへの投稿</a>で、「AIスロップはSNSだけで起きているのではなく、日々の仕事でも起きている」と述べた。</p>
-<p>同氏によると、明らかにAIが生成した文書を誰かから受け取り、それを読んだ後、自身のAIに要約させたという。しかし、最終的に得られたものには、元のアイデアに新しい考えを加える内容がなかった。</p>
-<p>こうした状況を同氏は「doom loop」と表現。「気をつけなければ、同じような一般論であふれる中、文章を書いたり読んだりすることを避けるためだけに、多額のコストをかけることになる」と問題提起した。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Ryan_Roslansky_c632c2f211/Ryan_Roslansky_c632c2f211.jpg" alt="Ryan Roslansky.jpg" /></p>
-<p>一方で、Roslansky氏はAIそのものの利用を否定しているわけではない。AIによって何かを実行したり、学んだり、創作したりしつつ、そこに人間それぞれの視点や経験を加え、成果を発展させていく使い方を求めている。</p>
-<h2>LinkedInも「AIスロップ」の拡散を抑制</h2>
-<p>Roslansky氏がCEOを務めるLinkedInも、2026年6月4日に<a href="https://news.linkedin.com/2026/keeping-conversations-real-on-linkedin">「AIスロップ」への対策</a>を発表している。</p>
-<p>LinkedInはAIスロップについて、表面上は洗練されていても、独自の視点や実質を欠く低労力のAI生成コンテンツと説明。AIを文章作成の支援に利用すること自体は認めながら、投稿やコメントには本人の声や視点が反映される必要があるとしている。</p>
-<p>同社は、AI生成とみられ、明確な視点に欠けるコンテンツについて、ユーザーの直接のネットワークを超えて広く配信されにくくする仕組みを導入。初期テストでは、一般的で独自性に乏しいコンテンツを94％の割合で正しく特定できたとしている</p>
-<h2>MicrosoftはAIエージェントや独自AIモデルを相次いで展開</h2>
-<p>こうした発言は、Microsoft自身がAIの導入を積極的に進める中で出たものでもある。</p>
-<p>Roslansky氏はLinkedIn CEOとMicrosoft Office担当EVPを兼務し、Microsoft公式ブログによると、Word、Excel、PowerPoint、Copilotなどのエンジニアリングを率いている。</p>
-<p>Microsoftは2026年6月2日、AIエージェントを中心に据えた新しいデバイス向けのチップ・ツー・クラウドプラットフォーム「<a href="https://commandline.microsoft.com/project-solara-build-2026/">Project Solara</a>」を発表した。同社は従来の「アプリを開く」コンピューティングから、ユーザーの意図に応じてAIエージェントを呼び出す形への移行を構想している。</p>
-<p>同日には画像生成・編集AI「MAI-Image-2.5」と高速版「MAI-Image-2.5-Flash」も発表。またAnthropicは、Microsoft 365向けに、Word、Excel、PowerPoint、Outlook内でClaudeを利用できる「<a href="https://claude.com/claude-for-microsoft-365">Claude for Microsoft 365</a>」を提供している。</p>
-<p>AIを業務や製品に広く組み込む動きが進む一方、Roslansky氏の投稿は、AIによってコンテンツを大量に生成すること自体ではなく、人間独自の視点や経験を成果物に残すことの重要性を指摘したものとなっている。</p>
-]]></description>
-      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
