@@ -43,6 +43,13 @@
       <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft AI、MAIモデル向け「AI行動規範」初稿を公開　「人間はAIより重要」、停止・修正への抵抗を禁止</title>
+      <link>https://ledge.ai/articles/microsoft_ai_code_of_conduct</link>
+      <description><![CDATA[<p>MicrosoftのAI部門Microsoft AI（MAI）は2026年9月14日（現地時間）、自社で開発するMAIモデル向けの行動規範「Humanist AI Code of Conduct」の初稿を<a href="https://microsoft.ai/news/mai-code-of-conduct/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>NASAとIBM、月探査向けAI「NASA-IBM Lunar Foundation Model」を公開　氷・クレーター・火山地形を解析</title>
       <link>https://ledge.ai/articles/nasa_ibm_lunar_foundation_model</link>
       <description><![CDATA[<p>NASA（米航空宇宙局）とIBMは2026年9月10日（現地時間）、月の科学探査向けAI基盤モデル「NASA-IBM Lunar Foundation Model」をオープンソースで一般公開した。数十年にわたって蓄積された月の観測データを学習し、クレーターの検出や火山地形の分析、月の極域に氷が存在する可能性の推定などに活用できる。NASAによると、月科学に特化したオープンソースAIモデルとして初期のものの一つだ。</p>
@@ -93,30 +100,6 @@
 <p>EmplifAIは人との共同作業や表情・会話を含めたデータの扱いを、HatsuMuvは人の身体の動きを生かした操作と研究用途に応じた構成の柔軟性を紹介した。不二越は、製造現場が求めているのは作業の自動化であり、従来の生産性や信頼性に、柔軟性、人との親和性、自律性を加えていく必要があると説明した。</p>
 <h2>「ugo Nova」発表、データ収集から実機検証まで</h2>
 <p>各社ピッチの最後に登壇したｕｇｏの代表取締役CEO、松井健氏が紹介したのが、<a href="https://ugo.plus/information/2026/09/16/ugo-nova/">同日発表の「ugo Nova」</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm、AmazonとAIデータセンター向けカスタムシリコンで複数世代協業　1.6T光接続も共同開発</title>
-      <link>https://ledge.ai/articles/qualcomm_amazon_ai_data_center_custom_silicon</link>
-      <description><![CDATA[<p>Qualcommは2026年9月8日（現地時間）、大規模AIデータセンター向けのカスタムシリコンを巡り、Amazonと複数世代にわたる協業を実施すると<a href="https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-multi-generational-product-collaboration-with">発表</a>した。両社はAI推論向けのカスタムシリコンに加え、最大1.6T（テラビット/秒）と将来世代の高速光接続技術でも協業する。</p>
-<h2>AI推論向けカスタムシリコン、AWSのAIインフラを支える</h2>
-<p>今回の協業では、AmazonのAIインフラと、Qualcommが持つ低消費電力プロセッシング、半導体設計、システム統合技術を組み合わせ、大規模AIデータセンター向けのカスタムシリコン実現に向けて協業する。</p>
-<p>Qualcommによると、両社は複数世代にわたって協業し、AWSで拡大するAIインフラを支える。特にAIの「推論」を対象としており、学習済みAIモデルを実際のサービスで動かす際の処理を担うインフラの効率化を図る。</p>
-<p>AIデータセンターでは、モデルの大規模化や利用拡大に伴い、演算能力だけでなく、電力効率やメモリ帯域、データを高速にやり取りするネットワーク性能も課題となっている。Qualcommは2026年6月に発表したデータセンター向け「Qualcomm Dragonfly」ロードマップで、CPUやAI推論アクセラレーター、接続技術と並び、顧客向けのカスタムシリコンを事業領域の一つに位置付けている。</p>
-<h2>最大1.6Tの光接続技術でも協業</h2>
-<p>両社はカスタムシリコンだけでなく、AIデータセンター内の高速なデータ転送を担う光接続技術でも協業する。</p>
-<p>QualcommのSerDes（シリアライザ／デシリアライザ）や光DSP（デジタル信号プロセッサ）技術を活用し、最大1.6Tと将来世代の接続ソリューションを開発する。Qualcommは現在、AI・クラウド向けとして800Gおよび1.6Tの光・電気接続技術を展開している。</p>
-<p>Qualcomm CEOのCristiano Amon氏は、AI需要の拡大に伴い、データセンターでは演算と接続の両方で性能と効率を高める必要があると説明。AWS 副社長のPrasad Kalyanaraman氏も、カスタムシリコンと高度な接続技術を組み合わせ、性能や効率、コスト面を改善したインフラを提供するとしている。</p>
-<h2>Amazonの購入額に連動、最大2500万株のワラント発行</h2>
-<p>Qualcommが同日、米証券取引委員会（SEC）に提出した<a href="https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm">Form 8-K</a>からは、今回の協業に関する商業条件の一部も明らかになっている。</p>
-<p>提出書類によると、Qualcommは9月3日、Amazon Data Servicesなどとの戦略的協業に関連し、AmazonによるQualcommのサーバーチップ製品や技術、システム、製造サービスの購入に連動するワラントを発行した。</p>
-<p>これに伴いQualcommは、Amazon関連会社のAmazon.com NV Investment Holdings LLCに対し、Qualcomm株を最大2500万株取得できるワラント（新株予約権に相当）を発行した。行使価格は1株161.26ドルで、有効期限は2036年9月3日となる。</p>
-<p>ワラントは、商業契約の締結や拘束力のある発注、Amazonによる実際の購入に応じて段階的に権利確定する。対象となるAmazonからQualcommへの支払いは最大600億ドルまで設定されており、発行時点では初期購入コミットメントに基づいて375万株分が権利確定している。</p>
-<p>ただし、600億ドルはAmazonがすでに発注・購入を確約した金額ではない。ワラントの権利確定条件として設定された支払い額の上限であり、実際の購入額は今後の契約や発注、購入状況に応じて決まる。</p>
-<h2>QualcommもAmazon Bedrockを半導体設計に活用</h2>
-<p>今回の協業では、Qualcomm側もAWSのAIインフラを活用する。</p>
-<p>Qualcommは、半導体設計で用いるEDA（電子設計自動化）向けに、生成AI基盤「Amazon Bedrock」を含むAWSのAIインフラの利用を拡大する計画だ。半導体の設計工程にAIを取り入れ、設計サイクルの短縮を目指すとしている。</p>
 ]]></description>
       <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
     </item>
@@ -200,6 +183,13 @@
       <link>https://ledge.ai/articles/ubtech_humanoid_robot_factory</link>
       <description><![CDATA[<p>中国のロボット企業UBTECH Robotics（優必選科技）は2026年9月12日、中国・広西チワン族自治区柳州市で、産業用人型ロボットを大規模生産する「スーパー・スマート工場」の稼働を開始した。年間1万台超の計画生産能力を持ち、設計上は10分に1台のペースでロボットを完成させられるという。UBTECHは、万台級の生産能力に対応する人型ロボット工場として「世界初」とうたっている。</p>
 <p><a href="https://www.lztz.gov.cn/tzdt/szjj/bs/202609/t20260914_3794462.html">柳州市の公式発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>米政府、中国AI企業の「産業規模の知識蒸留」を警告　Claudeの出力を自社AI訓練に利用した事例も</title>
+      <link>https://ledge.ai/articles/us_china_ai_knowledge_distillation</link>
+      <description><![CDATA[<p>米国家安全保障局（NSA）、米国土安全保障省サイバーセキュリティ・インフラセキュリティ庁（CISA）、米連邦捜査局（FBI）は2026年9月8日（現地時間）、中国を拠点とするAI企業が米国のフロンティアAIモデルに対して「産業規模」の知識蒸留を行っているとして、共同サイバーセキュリティ勧告を<a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4592113/nsa-and-others-warn-china-based-ai-companies-are-distilling-us-frontier-ai-mode/">公開</a>{target=\</p>
 ]]></description>
       <pubDate>Sat, 12 Sep 2026 04:50:00 GMT</pubDate>
     </item>
