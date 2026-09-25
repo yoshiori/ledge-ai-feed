@@ -40,39 +40,23 @@
       <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>ゲーム開発者の85.8％が生成AIを業務利用　CESAが初調査、「人による確認・修正・監修」が最多</title>
+      <link>https://ledge.ai/articles/cesa_game_industry_report_2026_ai</link>
+      <description><![CDATA[<p>一般社団法人コンピュータエンターテインメント協会（CESA）は2026年9月17日、日本のゲーム産業の現状や市場動向を分析した年次レポート「CESAゲーム産業レポート2026 プレビュー版」を<a href="https://www.cesa.or.jp/information/info6/001290/cesa_2026.html">発刊した</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google、米国の10代AI利用調査を公開　94%が過去1年に利用、利用経験者の74%が週1回以上“学習パートナー”に</title>
+      <link>https://ledge.ai/articles/google_us_teens_ai_usage_survey</link>
+      <description><![CDATA[<p>Googleは2026年9月16日、RXNと実施した米国の10代によるAI利用・意識調査「U.S. Future Report」の結果を公式ブログで<a href="https://blog.google/innovation-and-ai/technology/families/teens-ai-research-findings/">公開</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>チャールズ国王、AI企業幹部をスコットランドに招集　「存亡にかかわる危険」に言及、国際協力を訴え</title>
       <link>https://ledge.ai/articles/king_charles_ai_summit</link>
       <description><![CDATA[<p>英国王室は2026年9月17日（現地時間）、チャールズ国王がスコットランドのダンフリーズ・ハウスで、AI業界のリーダーや政府関係者、市民社会の有識者を集めたAIサミットを開催したと<a href="https://www.royal.uk/news-and-activity/2026-09-17/the-king-convenes-tech-leaders-for-ai-summit-in-scotland">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft AI、MAIモデル向け「AI行動規範」初稿を公開　「人間はAIより重要」、停止・修正への抵抗を禁止</title>
-      <link>https://ledge.ai/articles/microsoft_ai_code_of_conduct</link>
-      <description><![CDATA[<p>MicrosoftのAI部門Microsoft AI（MAI）は2026年9月14日（現地時間）、自社で開発するMAIモデル向けの行動規範「Humanist AI Code of Conduct」の初稿を<a href="https://microsoft.ai/news/mai-code-of-conduct/">公開</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NASAとIBM、月探査向けAI「NASA-IBM Lunar Foundation Model」を公開　氷・クレーター・火山地形を解析</title>
-      <link>https://ledge.ai/articles/nasa_ibm_lunar_foundation_model</link>
-      <description><![CDATA[<p>NASA（米航空宇宙局）とIBMは2026年9月10日（現地時間）、月の科学探査向けAI基盤モデル「NASA-IBM Lunar Foundation Model」をオープンソースで一般公開した。数十年にわたって蓄積された月の観測データを学習し、クレーターの検出や火山地形の分析、月の極域に氷が存在する可能性の推定などに活用できる。NASAによると、月科学に特化したオープンソースAIモデルとして初期のものの一つだ。</p>
-<h2>約200万の画像タイルで学習　異なる観測データを一つのAIに</h2>
-<p>NASA-IBM Lunar Foundation Modelは、NASAの月探査機「Lunar Reconnaissance Orbiter（LRO）」の観測データを中心に学習した基盤モデルである。</p>
-<p>NASAによると、学習には約200万の画像タイルを使用した。このうち100万以上が約1メートル解像度の高解像度カメラ画像で、約96万4000が約100メートル解像度のマルチスペクトル画像だ。LROに加え、NASAのGRAILやLunar Prospector、宇宙航空研究開発機構（JAXA）の月周回衛星「SELENE（かぐや）」などのデータも利用している。</p>
-<p>IBMとNASAはモデル開発に合わせ、4つのミッションに搭載された9種類の観測機器から、30以上の空間的に位置合わせされたデータレイヤーを集約した機械学習向け月データセットも構築した。画像だけでなく、地形、温度、鉱物、重力など異なる種類・解像度の情報を組み合わせて扱えることが特徴だ。</p>
-<p>モデルカードによると、モデルはViT-Bをベースとしたエンコーダー／デコーダー構成で、11種類のモダリティを扱う。地球観測向けAIモデル「TerraMind」の手法を月面データ向けに応用し、異なる解像度や観測条件のデータから共通する特徴を学習している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Lunar_Ice_Prospectivity_Use_Case_2a2da8cdcb/Lunar_Ice_Prospectivity_Use_Case_2a2da8cdcb.jpg" alt="Lunar-Ice-Prospectivity-Use-Case.jpg" /></p>
-<h2>月の氷、クレーター、火山地形を分析</h2>
-<p>NASAとIBMは、モデルの主な用途として「月極域の氷の存在可能性の推定」「クレーターの検出」「火山地形の分析」を挙げている。</p>
-<p>月の極域には、太陽光がほとんど届かない「永久影領域」が存在する。こうした場所では氷が長期間保存されている可能性があり、将来の月探査では水や酸素、燃料などの資源として利用できる可能性がある。</p>
-<p>氷が存在する可能性を推定する評価では、NASA-IBM Lunar Foundation ModelはSwinV2-Bと比べてRMSE（平均二乗誤差平方根）を最大22％削減した。なお、モデルが出力するのは実際に氷を観測した結果ではなく、温度や地形などから推定した「氷が存在する可能性」を示すデータである。</p>
-<p>クレーター検出では、約1メートル解像度の画像で専用モデルと同等の性能を示したほか、約100メートル解像度では学習データを半分にした条件でもSwinV2-Bを約19％上回ったという。また、「Irregular Mare Patches（不規則な玄武岩質の海斑）」と呼ばれる火山地形の範囲を特定するタスクでは、比較モデルを約3％上回った。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Lunar_Crater_Detection_Use_Case_e4cfd31aa1/Lunar_Crater_Detection_Use_Case_e4cfd31aa1.jpg" alt="Lunar-Crater-Detection-Use-Case.jpg" /></p>
-<h2>アルテミス計画が進む中、研究者が自由に利用可能</h2>
-<p>IBM Researchは今回のモデルについて、NASAの有人月探査「アルテミス計画」が進み、将来的な月面での長期活動が検討される中で、月面を理解するための地図や観測データの解析が重要になると説明している。NASAは、クレーターや地形の解析、月の地質学的な歴史の研究、極域の氷の調査などにモデルを活用できるとしている。</p>
-<p>モデルはHugging Faceで公開され、ライセンスはApache 2.0。ファインチューニングなどに利用するコードもGitHubで公開されており、研究者は特定の月科学タスク向けにモデルを適応させられる。</p>
-<p>一方、公開されたモデルカードでは、着陸地点の認証や危険回避といった実際の運用上の意思決定には検証されていないと明記されている。現段階では、月面活動を直接制御するAIではなく、月観測データの分析や研究を支援するための基盤モデルという位置付けである。</p>
 ]]></description>
       <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
