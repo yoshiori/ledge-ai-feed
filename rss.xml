@@ -113,13 +113,6 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI、AIモデルの「ミスアライメント」報告フレームワークを公開　データ捏造など6件の事例も公表</title>
-      <link>https://ledge.ai/articles/openai_model_misalignment_reporting</link>
-      <description><![CDATA[<p>公開リポジトリで見つけたAPIキーを無断で使う、ミスをユーザーに隠すよう後続のAIへ指示を残す、ファイルを許可なくインターネット上へ公開する――。OpenAIは2026年9月16日（現地時間）、こうしたAIモデルの「ミスアライメント（misalignment）」を追跡・調査し、継続的に公表するための新たなフレームワークを<a href="https://openai.com/index/model-misalignment-reporting-framework/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Spotify、Claude Codeの大量ファイル読み込みでトークン消費を平均90％削減　単純作業を別AIへ振り分ける「shunt」公開</title>
       <link>https://ledge.ai/articles/spotify_claude_code_shunt_token_savings</link>
       <description><![CDATA[<p>SpotifyのPrincipal Product Managerを務めるDimitri Mazmanov氏は2026年9月3日、AIコーディングツール「Claude Code」で大量のファイル読み込みなどを別のAIモデルへ振り分け、Claudeが消費するトークンを大幅に減らす手法をを<a href="https://www.engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90">公式技術ブログ</a>{target=\</p>
@@ -127,9 +120,9 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>米政府、中国AI企業の「産業規模の知識蒸留」を警告　Claudeの出力を自社AI訓練に利用した事例も</title>
-      <link>https://ledge.ai/articles/us_china_ai_knowledge_distillation</link>
-      <description><![CDATA[<p>米国家安全保障局（NSA）、米国土安全保障省サイバーセキュリティ・インフラセキュリティ庁（CISA）、米連邦捜査局（FBI）は2026年9月8日（現地時間）、中国を拠点とするAI企業が米国のフロンティアAIモデルに対して「産業規模」の知識蒸留を行っているとして、共同サイバーセキュリティ勧告を<a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4592113/nsa-and-others-warn-china-based-ai-companies-are-distilling-us-frontier-ai-mode/">公開</a>{target=\</p>
+      <title>元OpenAI研究者が率いるTypeSafe AI、プログラムの判断に特化した「Jev」を公開　文章を生成せず、選択肢や確率を返す</title>
+      <link>https://ledge.ai/articles/typesafe_jev_system_one_model</link>
+      <description><![CDATA[<p>TypeSafe AIは2026年9月15日（現地時間）、ソフトウェア内の判断に特化したAIモデル群「System One Models」を発表し、第1弾「Jev」の早期アクセス提供を<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">開始</a>{target=\</p>
 ]]></description>
       <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
