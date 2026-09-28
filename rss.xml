@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>元OpenAI研究者が率いるTypeSafe AI、プログラムの判断に特化した「Jev」を公開　文章を生成せず、選択肢や確率を返す</title>
+      <link>https://ledge.ai/articles/typesafe_jev_system_one_model</link>
+      <description><![CDATA[<p>TypeSafe AIは2026年9月15日（現地時間）、ソフトウェア内の判断に特化したAIモデル群「System One Models」を発表し、第1弾「Jev」の早期アクセス提供を<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">開始</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 25 Sep 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Amazon、MetaのAIエージェント「Muse」の購入代行をブロック　透明性とサービス側の意思尊重を要求</title>
       <link>https://ledge.ai/articles/amazon_blocks_meta_muse_shopping</link>
       <description><![CDATA[<p>Amazonが、MetaのパーソナルAIエージェント「Muse」によるAmazon.comでの購入代行をブロックしたと、米<a href="https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/">GeekWire</a>{target=\</p>
@@ -115,25 +122,11 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>元OpenAI研究者が率いるTypeSafe AI、プログラムの判断に特化した「Jev」を公開　文章を生成せず、選択肢や確率を返す</title>
-      <link>https://ledge.ai/articles/typesafe_jev_system_one_model</link>
-      <description><![CDATA[<p>TypeSafe AIは2026年9月15日（現地時間）、ソフトウェア内の判断に特化したAIモデル群「System One Models」を発表し、第1弾「Jev」の早期アクセス提供を<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">開始</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>ローソン、生成AI発案の“なんだこりゃ？”商品3品を発売　レモンタルト×ピクルスなど、9月29日から</title>
       <link>https://ledge.ai/articles/lawson_generative_ai_products</link>
       <description><![CDATA[<p>ローソンは2026年9月16日、生成AIが発案した商品コンセプトをもとに開発したスイーツ、ベーカリー、サラダの3商品を、9月29日から関東・甲信越のローソンで発売すると<a href="https://www.lawson.co.jp/company/news/detail/1532206_2504.html">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Tue, 22 Sep 2026 02:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spotify、Claude Codeの大量ファイル読み込みでトークン消費を平均90％削減　単純作業を別AIへ振り分ける「shunt」公開</title>
-      <link>https://ledge.ai/articles/spotify_claude_code_shunt_token_savings</link>
-      <description><![CDATA[<p>SpotifyのPrincipal Product Managerを務めるDimitri Mazmanov氏は2026年9月3日、AIコーディングツール「Claude Code」で大量のファイル読み込みなどを別のAIモデルへ振り分け、Claudeが消費するトークンを大幅に減らす手法をを<a href="https://www.engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90">公式技術ブログ</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 18 Sep 2026 05:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
