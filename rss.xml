@@ -50,6 +50,31 @@
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>DeepL、Copilot・ChatGPT・Claudeから翻訳可能に　MCP連携で文書翻訳や企業の用語集に対応</title>
+      <link>https://ledge.ai/articles/deepl_mcp_ai_assistants</link>
+      <description><![CDATA[<p>DeepLは2026年9月22日、Microsoft Copilot、ChatGPT、ClaudeなどのAIアシスタントから、MCPを通じて同社の翻訳機能を利用できるようになったと<a href="https://www.deepl.com/ja/blog/deepl-available-in-microsoft-copilot-chatgpt-claude-mcp">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>フィジカルAIを社会で動かすために何が必要か　GMO大会議でつながった現場の失敗、データ、AIの理論</title>
+      <link>https://ledge.ai/articles/gmo_physical_ai_conference_2026</link>
+      <description><![CDATA[<p>GMOインターネットグループ株式会社は2026年9月15日、「第4回GMO大会議・秋・フィジカルAI 2026」を開催した。AIをロボットなどの機器と結び付け、物理世界で働かせる「フィジカルAI」をテーマに、開発企業や研究者、行政関係者が、社会実装に向けた技術と運用の課題を議論した。</p>
+<p>会場ではヒューマノイドのダンスが披露されたほか、AIと機器をつなぐ共通仕様、ロボットの学習データの作り方、故障やサイバー攻撃への対応などが取り上げられた。東京大学の藤井輝夫総長は、AIの振る舞いを理解する理論と、社会の中で使うための制度を整える必要性にも言及した。</p>
+<h2>熊谷氏が訴えた、日本のものづくりとAIへの危機感</h2>
+<p>冒頭、ステージでは複数のヒューマノイドがダンスを披露した。GMOインターネットグループ 代表取締役 グループ代表 会長兼社長執行役員・CEO兼グループAI変革最高責任者・CAIOの熊谷正寿氏が注目を促したのは、動作そのものに加え、その進歩の速さだ。昨年と比べて何ができるようになったのか。現在の完成度だけで将来の可能性を判断しないよう、会場に呼びかけた。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/02_d64def61c5/02_d64def61c5.jpg" alt="02.jpg" /></p>
+<p>熊谷氏の講演を貫いていたのは、日本の産業競争力に対する強い危機感だった。海外のAI・ロボット開発が加速するなか、日本の研究開発投資や事業化も速度を上げなければならない。製造業で蓄積してきた技術を、AIと結び付けて次の産業へ育てる必要があると訴えた。</p>
+<p>「日本を、日本人として愛しています。日本を良くしたいという気持ちが本当にございます」</p>
+<p>こう語った熊谷氏は、企業だけでなく、大学や行政も含めた連携の必要性を強調した。計算資源を動かす電力のコストにも言及し、AIの競争力はモデル開発だけで決まるものではないという問題意識を示した。</p>
+<h2>AnthropicのMHSは、AIと機器の接続をどう変えるのか</h2>
+<p>AIから物理機器へ指示を渡す方法について講演したのは、Anthropic Japan合同会社 代表執行役社長の東條英俊氏だ。機器接続の共通仕様、Model Hardware Standard（MHS）を紹介した。</p>
+<p>東條氏は、AIと外部のツールを接続するMCPの「ハードウェア版」に近いものとして説明した。AIエージェントが、ロボットや実験機器などを操作するための共通仕様である。</p>
+<p>米Anthropic, PBC（以下、Anthropic）が8月27日に、一部の研究機関やメーカーを対象とする<a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">リサーチプレビューを開始</a>{target=\</p>
+]]></description>
+      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google、米国の10代AI利用調査を公開　94%が過去1年に利用、利用経験者の74%が週1回以上“学習パートナー”に</title>
       <link>https://ledge.ai/articles/google_us_teens_ai_usage_survey</link>
       <description><![CDATA[<p>Googleは2026年9月16日、RXNと実施した米国の10代によるAI利用・意識調査「U.S. Future Report」の結果を公式ブログで<a href="https://blog.google/innovation-and-ai/technology/families/teens-ai-research-findings/">公開</a>{target=\</p>
