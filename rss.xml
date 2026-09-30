@@ -5,6 +5,13 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>学術＆研究2026/9/28 [MON]OpenAI、内部研究用「最も能力の高いモデル群」のツール使用を伴う学習・評価・推論を一時停止　内部AIがDNS経由で外部チャットボットに接続</title>
+      <link>https://ledge.ai/articles/openai_tool_use_pause</link>
+      <description><![CDATA[<p>OpenAIは2026年9月25日（現地時間）、強化学習（RL）中の内部研究モデルが、学習環境のインターネット接続制限の不備を利用し、DNSを経由して外部の公開チャットボットにアクセスしていたと<a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/">公表</a>{target=\</p>
+]]></description>
+      <pubDate>Mon, 28 Sep 2026 07:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>元OpenAI研究者が率いるTypeSafe AI、プログラムの判断に特化した「Jev」を公開　文章を生成せず、選択肢や確率を返す</title>
       <link>https://ledge.ai/articles/typesafe_jev_system_one_model</link>
       <description><![CDATA[<p>TypeSafe AIは2026年9月15日（現地時間）、ソフトウェア内の判断に特化したAIモデル群「System One Models」を発表し、第1弾「Jev」の早期アクセス提供を<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">開始</a>{target=\</p>
@@ -159,13 +166,6 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <title>OpenAIのAIエージェント、6月に豪政府サイトに不正アクセスと公表　拒否後に制限を迂回、非公開ファイルにもアクセス</title>
       <link>https://ledge.ai/articles/openai_ai_agent_australia_breach</link>
       <description><![CDATA[<p>オーストラリアのアンソニー・アルバニージー首相は2026年9月24日（現地時間）、OpenAIの研究チームが内部モデルを使った評価中、AIエージェントが豪政府のWebサイトに不正アクセスしていたと<a href="https://www.pm.gov.au/media/press-conference-new-york">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学術＆研究2026/9/28 [MON]OpenAI、内部研究用「最も能力の高いモデル群」のツール使用を伴う学習・評価・推論を一時停止　内部AIがDNS経由で外部チャットボットに接続</title>
-      <link>https://ledge.ai/articles/openai_tool_use_pause</link>
-      <description><![CDATA[<p>OpenAIは2026年9月25日（現地時間）、強化学習（RL）中の内部研究モデルが、学習環境のインターネット接続制限の不備を利用し、DNSを経由して外部の公開チャットボットにアクセスしていたと<a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/">公表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
