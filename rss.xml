@@ -5,6 +5,47 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>エージェント型AI・フィジカルAIが「過度な期待」のピーク期に　ガートナー、日本のクラウドとAIの2026年版ハイプ・サイクル発表</title>
+      <link>https://ledge.ai/articles/gartner_japan_cloud_ai_hype_cycle_2026</link>
+      <description><![CDATA[<p>ガートナージャパンは2026年9月28日、「日本におけるクラウドとAIのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-09-28-gartner-unveils-the-2026-hype-cycle-for-cloud-and-ai-in-japan">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Wed, 30 Sep 2026 22:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft、「Copilot」を大幅刷新　Home・Code・Autopilotを追加、Word・Excel・PowerPointも統合</title>
+      <link>https://ledge.ai/articles/microsoft_copilot_home_code_autopilot</link>
+      <description><![CDATA[<p>Microsoftは2026年9月25日（現地時間）、AIアシスタント「Microsoft Copilot」を再設計し、「Home」「Code」「Autopilot」の3機能を中核とする新しいCopilotを<a href="https://news.microsoft.com/source/asia/features/introducing-the-new-copilot-with-home-code-and-autopilot/?lang=ja">発表</a>した。Word、Excel、PowerPointをCopilot内から利用できるようにするほか、AIへのタスク委任、アプリ構築、常時稼働するAIエージェントまでを1つの環境にまとめる。</p>
+<h2>Chatとタスク委任、Officeを集約する「Home」</h2>
+<p>新しい「Home」は、Copilotを利用する際の起点となる画面だ。対話型の「Chat」と、複数工程からなる仕事をAIに任せる「Cowork」を1カ所に集約する。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Home_FINAL_2_5452a5bbbc/OMB_Home_FINAL_2_5452a5bbbc.png" alt="OMB-Home-FINAL-2.png" /></p>
+<p>Chatでは質問や情報検索、文章の下書きなどを行える。一方のCoworkでは、ユーザーがタスクを指定すると、一連の作業を最後まで実行し、RFPへの回答や顧客向け資料、ローンチ資料などの成果物を作成する。</p>
+<p>さらに「Office in Copilot」により、Word、Excel、PowerPointの機能もCopilot内から利用可能になる。Copilotとの会話から文書を作成したり、予算をモデル化したり、プレゼンテーションを作成したりでき、生成されたファイルは通常のOffice文書として編集できる。</p>
+<p>Microsoftは今後、ユーザーがChat、Cowork、Codeのどれを使うかを選ばなくても、依頼内容に応じてCopilotが適切な機能へ自動的に振り分ける仕組みも導入する予定だ。</p>
+<p>@<a href="https://www.youtube.com/watch?v=OgInADh5Tcs">YouTube</a></p>
+<h2>GitHub Copilotの技術を使う「Code」、自然言語からアプリ構築</h2>
+<p>「Code」は、自然言語を使ってアプリや業務向けソリューションを構築するための機能だ。Microsoftは、ソフトウェア開発者だけでなく、幅広いユーザーが独自のソリューションを構築できる機能として位置付けている。GitHub Copilotと同じ基盤技術を採用し、生成したコードはサンドボックス環境で実行される。</p>
+<p>アプリやトラッカー、ダッシュボード、自動化、ワークフローなど、作りたいものを自然言語で説明すると、Copilotが実装方法を選択して構築する。Microsoftは、専門の開発者だけでなく、幅広いユーザーが業務に必要な小規模ソリューションを作れるようにする狙いを示している。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Code_FINAL_2_960x540_2a6027f317/OMB_Code_FINAL_2_960x540_2a6027f317.png" alt="OMB-Code-FINAL-2-960x540.png" /></p>
+<p>同社はあわせて<a href="https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/">「Microsoft Copilot Managed Runtime」</a>をパブリックプレビューとして発表した。Copilotが生成したコードを企業のMicrosoft 365テナント内で実行するための基盤で、IT部門による権限管理や組織のポリシー、ガバナンスを適用できる。</p>
+<p>Managed RuntimeはCoworkやCode、Copilot Studioで構築したアプリに共通する基盤として使われ、サードパーティーやプロコード開発者にも開放する。</p>
+<p>Codeは9月末からFrontierプログラムで提供を開始し、その後数週間で対象を拡大する。2026年後半にはMicrosoft 365 PremiumおよびProの加入者向けにもプレビュー提供する予定だ。</p>
+<h2>旧「Scout」は常時稼働する「Autopilot」に</h2>
+<p>「Autopilot」は、Microsoftがこれまで<a href="https://www.microsoft.com/en-us/copilot/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/">「Scout」と呼んでいた常時稼働型AIエージェント</a>を発展させた機能だ。ユーザーが名前、役割、目標を設定すると、毎回プロンプトで指示しなくても継続的に作業する。</p>
+<p>Teamsなどのチャネルを確認してスレッドを追跡したり、定期業務を実行したり、数日前に中断したプロジェクトを再開したりできる。クラウド上で稼働するため、ユーザーが別の作業をしている間や端末を操作していない時間にも処理を続けられる。</p>
+<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Autopilot_FINAL_2_960x540_2b8fc64621/OMB_Autopilot_FINAL_2_960x540_2b8fc64621.png" alt="OMB-Autopilot-FINAL-2-960x540.png" /></p>
+<p>Autopilotには独自のID、メモリ、コンピューター、ワークスペースが与えられ、組織のMicrosoft 365テナント内で動作する。TeamsやOutlook、チャット、チャネル、ドキュメントなどから同僚のように＠メンションでき、アクセス許可や監査、ガバナンスの仕組みも適用される。</p>
+<p>Autopilotは9月末にプライベートプレビューの対象を拡大する予定だ。</p>
+<p>@<a href="https://youtu.be/Jv-iQSZ3YVY">YouTube</a></p>
+<h2>メールや会議を整理する「Today」、Teamsには「@Copilot」も</h2>
+<p>Microsoftは今回の公式発表で、今後追加するCopilotの機能も明らかにした。</p>
+<p>Homeに追加予定の「Today」は、メール、カレンダー、Teamsのスレッド、会議、タスクを横断し、対応が必要な仕事を整理する機能だ。情報を一覧化するだけでなく、メールの下書きや予定変更案、フォローアップなども事前に準備する。</p>
+<p>Todayは10月にCopilotでプライベートプレビューを開始し、今後OutlookやTeamsにも展開する予定だ。</p>
+<p>Teamsでは「@Copilot」も導入する。チャネルやグループチャット、会議の文脈とアクセス権を共有した状態でCopilotを呼び出し、過去の議論を調べたり、複数部門にまたがる作業や意思決定を整理したりできる。9月末までにTeamsでプライベートプレビューを開始する予定だ。</p>
+<p>HomeとCodeはFrontierプログラムを通じて順次提供される。Microsoftは新しいCopilotを、質問、タスク委任、アプリ構築、自動化などを1カ所で行うための環境として展開していく。</p>
+]]></description>
+      <pubDate>Tue, 29 Sep 2026 05:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>学術＆研究2026/9/28 [MON]OpenAI、内部研究用「最も能力の高いモデル群」のツール使用を伴う学習・評価・推論を一時停止　内部AIがDNS経由で外部チャットボットに接続</title>
       <link>https://ledge.ai/articles/openai_tool_use_pause</link>
       <description><![CDATA[<p>OpenAIは2026年9月25日（現地時間）、強化学習（RL）中の内部研究モデルが、学習環境のインターネット接続制限の不備を利用し、DNSを経由して外部の公開チャットボットにアクセスしていたと<a href="https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/">公表</a>{target=\</p>
@@ -74,13 +115,6 @@
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>エージェント型AI・フィジカルAIが「過度な期待」のピーク期に　ガートナー、日本のクラウドとAIの2026年版ハイプ・サイクル発表</title>
-      <link>https://ledge.ai/articles/gartner_japan_cloud_ai_hype_cycle_2026</link>
-      <description><![CDATA[<p>ガートナージャパンは2026年9月28日、「日本におけるクラウドとAIのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-09-28-gartner-unveils-the-2026-hype-cycle-for-cloud-and-ai-in-japan">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>フィジカルAIを社会で動かすために何が必要か　GMO大会議でつながった現場の失敗、データ、AIの理論</title>
       <link>https://ledge.ai/articles/gmo_physical_ai_conference_2026</link>
       <description><![CDATA[<p>GMOインターネットグループ株式会社は2026年9月15日、「第4回GMO大会議・秋・フィジカルAI 2026」を開催した。AIをロボットなどの機器と結び付け、物理世界で働かせる「フィジカルAI」をテーマに、開発企業や研究者、行政関係者が、社会実装に向けた技術と運用の課題を議論した。</p>
@@ -95,40 +129,6 @@
 <p>AIから物理機器へ指示を渡す方法について講演したのは、Anthropic Japan合同会社 代表執行役社長の東條英俊氏だ。機器接続の共通仕様、Model Hardware Standard（MHS）を紹介した。</p>
 <p>東條氏は、AIと外部のツールを接続するMCPの「ハードウェア版」に近いものとして説明した。AIエージェントが、ロボットや実験機器などを操作するための共通仕様である。</p>
 <p>米Anthropic, PBC（以下、Anthropic）が8月27日に、一部の研究機関やメーカーを対象とする<a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">リサーチプレビューを開始</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft、「Copilot」を大幅刷新　Home・Code・Autopilotを追加、Word・Excel・PowerPointも統合</title>
-      <link>https://ledge.ai/articles/microsoft_copilot_home_code_autopilot</link>
-      <description><![CDATA[<p>Microsoftは2026年9月25日（現地時間）、AIアシスタント「Microsoft Copilot」を再設計し、「Home」「Code」「Autopilot」の3機能を中核とする新しいCopilotを<a href="https://news.microsoft.com/source/asia/features/introducing-the-new-copilot-with-home-code-and-autopilot/?lang=ja">発表</a>した。Word、Excel、PowerPointをCopilot内から利用できるようにするほか、AIへのタスク委任、アプリ構築、常時稼働するAIエージェントまでを1つの環境にまとめる。</p>
-<h2>Chatとタスク委任、Officeを集約する「Home」</h2>
-<p>新しい「Home」は、Copilotを利用する際の起点となる画面だ。対話型の「Chat」と、複数工程からなる仕事をAIに任せる「Cowork」を1カ所に集約する。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Home_FINAL_2_5452a5bbbc/OMB_Home_FINAL_2_5452a5bbbc.png" alt="OMB-Home-FINAL-2.png" /></p>
-<p>Chatでは質問や情報検索、文章の下書きなどを行える。一方のCoworkでは、ユーザーがタスクを指定すると、一連の作業を最後まで実行し、RFPへの回答や顧客向け資料、ローンチ資料などの成果物を作成する。</p>
-<p>さらに「Office in Copilot」により、Word、Excel、PowerPointの機能もCopilot内から利用可能になる。Copilotとの会話から文書を作成したり、予算をモデル化したり、プレゼンテーションを作成したりでき、生成されたファイルは通常のOffice文書として編集できる。</p>
-<p>Microsoftは今後、ユーザーがChat、Cowork、Codeのどれを使うかを選ばなくても、依頼内容に応じてCopilotが適切な機能へ自動的に振り分ける仕組みも導入する予定だ。</p>
-<p>@<a href="https://www.youtube.com/watch?v=OgInADh5Tcs">YouTube</a></p>
-<h2>GitHub Copilotの技術を使う「Code」、自然言語からアプリ構築</h2>
-<p>「Code」は、自然言語を使ってアプリや業務向けソリューションを構築するための機能だ。Microsoftは、ソフトウェア開発者だけでなく、幅広いユーザーが独自のソリューションを構築できる機能として位置付けている。GitHub Copilotと同じ基盤技術を採用し、生成したコードはサンドボックス環境で実行される。</p>
-<p>アプリやトラッカー、ダッシュボード、自動化、ワークフローなど、作りたいものを自然言語で説明すると、Copilotが実装方法を選択して構築する。Microsoftは、専門の開発者だけでなく、幅広いユーザーが業務に必要な小規模ソリューションを作れるようにする狙いを示している。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Code_FINAL_2_960x540_2a6027f317/OMB_Code_FINAL_2_960x540_2a6027f317.png" alt="OMB-Code-FINAL-2-960x540.png" /></p>
-<p>同社はあわせて<a href="https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/">「Microsoft Copilot Managed Runtime」</a>をパブリックプレビューとして発表した。Copilotが生成したコードを企業のMicrosoft 365テナント内で実行するための基盤で、IT部門による権限管理や組織のポリシー、ガバナンスを適用できる。</p>
-<p>Managed RuntimeはCoworkやCode、Copilot Studioで構築したアプリに共通する基盤として使われ、サードパーティーやプロコード開発者にも開放する。</p>
-<p>Codeは9月末からFrontierプログラムで提供を開始し、その後数週間で対象を拡大する。2026年後半にはMicrosoft 365 PremiumおよびProの加入者向けにもプレビュー提供する予定だ。</p>
-<h2>旧「Scout」は常時稼働する「Autopilot」に</h2>
-<p>「Autopilot」は、Microsoftがこれまで<a href="https://www.microsoft.com/en-us/copilot/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/">「Scout」と呼んでいた常時稼働型AIエージェント</a>を発展させた機能だ。ユーザーが名前、役割、目標を設定すると、毎回プロンプトで指示しなくても継続的に作業する。</p>
-<p>Teamsなどのチャネルを確認してスレッドを追跡したり、定期業務を実行したり、数日前に中断したプロジェクトを再開したりできる。クラウド上で稼働するため、ユーザーが別の作業をしている間や端末を操作していない時間にも処理を続けられる。</p>
-<p><img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/OMB_Autopilot_FINAL_2_960x540_2b8fc64621/OMB_Autopilot_FINAL_2_960x540_2b8fc64621.png" alt="OMB-Autopilot-FINAL-2-960x540.png" /></p>
-<p>Autopilotには独自のID、メモリ、コンピューター、ワークスペースが与えられ、組織のMicrosoft 365テナント内で動作する。TeamsやOutlook、チャット、チャネル、ドキュメントなどから同僚のように＠メンションでき、アクセス許可や監査、ガバナンスの仕組みも適用される。</p>
-<p>Autopilotは9月末にプライベートプレビューの対象を拡大する予定だ。</p>
-<p>@<a href="https://youtu.be/Jv-iQSZ3YVY">YouTube</a></p>
-<h2>メールや会議を整理する「Today」、Teamsには「@Copilot」も</h2>
-<p>Microsoftは今回の公式発表で、今後追加するCopilotの機能も明らかにした。</p>
-<p>Homeに追加予定の「Today」は、メール、カレンダー、Teamsのスレッド、会議、タスクを横断し、対応が必要な仕事を整理する機能だ。情報を一覧化するだけでなく、メールの下書きや予定変更案、フォローアップなども事前に準備する。</p>
-<p>Todayは10月にCopilotでプライベートプレビューを開始し、今後OutlookやTeamsにも展開する予定だ。</p>
-<p>Teamsでは「@Copilot」も導入する。チャネルやグループチャット、会議の文脈とアクセス権を共有した状態でCopilotを呼び出し、過去の議論を調べたり、複数部門にまたがる作業や意思決定を整理したりできる。9月末までにTeamsでプライベートプレビューを開始する予定だ。</p>
-<p>HomeとCodeはFrontierプログラムを通じて順次提供される。Microsoftは新しいCopilotを、質問、タスク委任、アプリ構築、自動化などを1カ所で行うための環境として展開していく。</p>
 ]]></description>
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
@@ -199,13 +199,6 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <description><![CDATA[<p>米ホワイトハウスは2026年9月25日（現地時間）、中国の習近平国家主席による米国への国賓訪問に関するファクトシートを<a href="https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/">公開</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ローソン、生成AI発案の“なんだこりゃ？”商品3品を発売　レモンタルト×ピクルスなど、9月29日から</title>
-      <link>https://ledge.ai/articles/lawson_generative_ai_products</link>
-      <description><![CDATA[<p>ローソンは2026年9月16日、生成AIが発案した商品コンセプトをもとに開発したスイーツ、ベーカリー、サラダの3商品を、9月29日から関東・甲信越のローソンで発売すると<a href="https://www.lawson.co.jp/company/news/detail/1532206_2504.html">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Tue, 22 Sep 2026 02:50:00 GMT</pubDate>
     </item>
     <item>
       <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
