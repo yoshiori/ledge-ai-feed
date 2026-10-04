@@ -5,6 +5,25 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
+      <title>OpenAIのセキュリティ担当Joe氏「ここ3か月は地獄のような日々だった」　AIインシデント対応の内情を投稿、隔離・監視の強化を提言</title>
+      <link>https://ledge.ai/articles/openai_joe_agent_security</link>
+      <description><![CDATA[<p>OpenAIのAgent Securityチームに所属するJoe氏は2026年9月27日、AI関連のインシデント対応を内側から説明する<a href="https://x.com/joedaroo/status/2104335929293127851">長文投稿</a>をXで公開した。モデルの能力向上に対応するには、隔離環境の強化に加え、アクセス権の管理、行動監視、安全性研究者とセキュリティ担当者の連携が必要だと述べている。</p>
+<p>投稿は個人の立場によるもので、OpenAIを代表する公式説明ではない。非公開のインシデント詳細を明かすものでもないと断っている。</p>
+<h2>インシデント対応で「この3カ月は地獄」</h2>
+<p>Joe氏によると、Agent SecurityはAI安全性研究とセキュリティの間をつなぐチームだ。モデルが安全に行動するための条件を検討し、人間の意図や制約から外れる行動や、隔離境界を越える動きを検知する監視機能の構築にも携わる。モデルに問題が起きれば、夜間にも呼び出されるという。</p>
+<p>同氏は過去3カ月を「地獄」と表現し、最近のインシデント対応のため、家族の結婚式にも出席できなかったと述べた。AI企業に改善を求めることは必要だとしつつ、担当者個人への攻撃を控えるよう求めている。</p>
+<p>背景には、OpenAIが8月26日に詳細を公表した<a href="https://ledge.ai/articles/openai_hugging_face_incident_report">Hugging Faceへの侵害インシデント</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 03 Oct 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta、カメラ非搭載の「Ray-Ban Meta Audio」発表　音声AIに対応、最大12時間駆動で日本は2027年展開予定</title>
+      <link>https://ledge.ai/articles/meta_ray_ban_audio_ai_glasses</link>
+      <description><![CDATA[<p>Metaは2026年9月23日（現地時間）、開発者イベント「Meta Connect 2026」で、カメラを搭載しないAIスマートグラス「Ray-Ban Meta Audio」を<a href="https://about.fb.com/ja/news/2026/09/ai-glasses-lineup-added/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sat, 03 Oct 2026 02:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>エージェント型AI・フィジカルAIが「過度な期待」のピーク期に　ガートナー、日本のクラウドとAIの2026年版ハイプ・サイクル発表</title>
       <link>https://ledge.ai/articles/gartner_japan_cloud_ai_hype_cycle_2026</link>
       <description><![CDATA[<p>ガートナージャパンは2026年9月28日、「日本におけるクラウドとAIのハイプ・サイクル：2026年」を<a href="https://www.gartner.co.jp/ja/newsroom/press-releases/2026-09-28-gartner-unveils-the-2026-hype-cycle-for-cloud-and-ai-in-japan">発表</a>{target=\</p>
@@ -53,20 +72,6 @@
       <pubDate>Mon, 28 Sep 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>AnthropicのClaude、バクテリオファージから未知の酵素システムを発見　ゲノム編集に利用のCRISPRに似た反復配列 、アモデイ氏は医学研究の加速に期待</title>
-      <link>https://ledge.ai/articles/anthropic_claude_art_discovery</link>
-      <description><![CDATA[<p>Anthropicは2026年9月23日（現地時間）、AI「Claude」を使ったDNA配列の解析により、これまで報告されていなかった酵素システム「ART（array-associated reverse transcriptases）」を発見したと<a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">発表した</a>{target=\</p>
-]]></description>
-      <pubDate>Sat, 26 Sep 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>元OpenAI研究者が率いるTypeSafe AI、プログラムの判断に特化した「Jev」を公開　文章を生成せず、選択肢や確率を返す</title>
-      <link>https://ledge.ai/articles/typesafe_jev_system_one_model</link>
-      <description><![CDATA[<p>TypeSafe AIは2026年9月15日（現地時間）、ソフトウェア内の判断に特化したAIモデル群「System One Models」を発表し、第1弾「Jev」の早期アクセス提供を<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">開始</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 25 Sep 2026 07:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【寄稿】ニューヨークで目を引いた「黄色いトヨタ」。街の変化から考える製造業とフィジカルAI</title>
       <link>https://ledge.ai/articles/brycen_us_report_2</link>
       <description><![CDATA[<p><strong>AIを車やロボットなどの動作につなげるフィジカルAIでは、モデルの性能に加え、実際の利用環境に適応する力が問われる。AI学習用データの整備やアノテーションを手がけるブライセンも、米国での事業展開を進めている。現地法人BRYCEN USAの立ち上げを担った芥川公文氏による現地レポート第2回は、ニューヨークへ。イエローキャブや歴史ある建物の変化を入り口に、技術を社会で使える製品へと育てる条件を考える。</strong></p>
@@ -112,13 +117,6 @@
       <title>Google「Gemini 4 Argon」発表　出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る　まずはサイバー防御向けに限定提供</title>
       <link>https://ledge.ai/articles/google_gemini_4_argon</link>
       <description><![CDATA[<p>Googleは2026年9月30日（現地時間）、新たなフロンティアAIモデル「Gemini 4 Argon」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini4argon/">発表</a>{target=\</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta、カメラ非搭載の「Ray-Ban Meta Audio」発表　音声AIに対応、最大12時間駆動で日本は2027年展開予定</title>
-      <link>https://ledge.ai/articles/meta_ray_ban_audio_ai_glasses</link>
-      <description><![CDATA[<p>Metaは2026年9月23日（現地時間）、開発者イベント「Meta Connect 2026」で、カメラを搭載しないAIスマートグラス「Ray-Ban Meta Audio」を<a href="https://about.fb.com/ja/news/2026/09/ai-glasses-lineup-added/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
@@ -225,16 +223,11 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAIのセキュリティ担当Joe氏「ここ3か月は地獄のような日々だった」　AIインシデント対応の内情を投稿、隔離・監視の強化を提言</title>
-      <link>https://ledge.ai/articles/openai_joe_agent_security</link>
-      <description><![CDATA[<p>OpenAIのAgent Securityチームに所属するJoe氏は2026年9月27日、AI関連のインシデント対応を内側から説明する<a href="https://x.com/joedaroo/status/2104335929293127851">長文投稿</a>をXで公開した。モデルの能力向上に対応するには、隔離環境の強化に加え、アクセス権の管理、行動監視、安全性研究者とセキュリティ担当者の連携が必要だと述べている。</p>
-<p>投稿は個人の立場によるもので、OpenAIを代表する公式説明ではない。非公開のインシデント詳細を明かすものでもないと断っている。</p>
-<h2>インシデント対応で「この3カ月は地獄」</h2>
-<p>Joe氏によると、Agent SecurityはAI安全性研究とセキュリティの間をつなぐチームだ。モデルが安全に行動するための条件を検討し、人間の意図や制約から外れる行動や、隔離境界を越える動きを検知する監視機能の構築にも携わる。モデルに問題が起きれば、夜間にも呼び出されるという。</p>
-<p>同氏は過去3カ月を「地獄」と表現し、最近のインシデント対応のため、家族の結婚式にも出席できなかったと述べた。AI企業に改善を求めることは必要だとしつつ、担当者個人への攻撃を控えるよう求めている。</p>
-<p>背景には、OpenAIが8月26日に詳細を公表した<a href="https://ledge.ai/articles/openai_hugging_face_incident_report">Hugging Faceへの侵害インシデント</a>{target=\</p>
+      <title>GrokのAIコンパニオン「Ani」がAnimatesへ　最上位プランは月額5800円</title>
+      <link>https://ledge.ai/articles/grok_ani_animates_subscription</link>
+      <description><![CDATA[<p>米Animation Inc.は2026年8月29日（現地時間）、AIコンパニオンアプリ「Animates」へのGrok Companions移行について<a href="https://x.com/animates__ai/status/2093736164788191551">公式X</a>{target=\</p>
 ]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
+      <pubDate>Thu, 03 Sep 2026 00:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
