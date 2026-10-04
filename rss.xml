@@ -67,23 +67,6 @@
       <pubDate>Fri, 25 Sep 2026 07:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>アリババ、AIスマホ向け「Qwen Intelligence」発表　複数アプリをまたぐタスク実行をメーカーに提供</title>
-      <link>https://ledge.ai/articles/alibaba_qwen_intelligence_ai_smartphones</link>
-      <description><![CDATA[<p>中国アリババは2026年9月22日、杭州で開いたApsara Conference（雲栖大会）で、AIスマートフォン向けのフルスタックソリューション「Qwen Intelligence」を<a href="https://www.alibabagroup.com/zh-CN/document-2039431633571938304">発表</a>{target=”_blank”}した。スマートフォンメーカーが、利用者の指示を理解し、複数のアプリにまたがる作業を進めるAIエージェントを端末に組み込むための製品だ。新浪科技は同日、Qwen Intelligenceの公開テストも始まったと<a href="https://finance.sina.com.cn/jjxw/2026-09-22/doc-inissuhz6934476.shtml">報じた</a>{target=”_blank”}。</p>
-<p>アリババグループCEOの呉泳銘氏は、モバイル端末が複雑なタスクを実行できるよう、パートナーにAIソリューションを提供すると説明した。Alibaba Cloudの<a href="https://www.alibabacloud.com/blog/alibaba-launches-qwen-intelligence-to-power-next-generation-agentic-smartphones_603597">公式ブログ</a>{target=”_blank”}によると、発表にはAlibaba Token Hub（ATH）副社長で、Token FoundryのQwen Mobile AI責任者を務めるSteven Hoi氏が登壇した。</p>
-<p><strong>Apsara ConferenceでQwen Intelligenceを発表するSteven Hoi氏</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/5a1fdae99faf83279652c752223a30f4bd80b396_ea2570266c/5a1fdae99faf83279652c752223a30f4bd80b396_ea2570266c.jpg" alt="5a1fdae99faf83279652c752223a30f4bd80b396.jpg" /></p>
-<h2>計画・アプリ操作・生成の3種類を提供</h2>
-<p>Qwen Intelligenceは、スマートフォン向けに最適化したQwenモデルから、タスクを実行するエージェントまでを対象とする。初期段階では「Mobile Planner Agent」「Mobile-Use Agent」「Creative Agent」の3製品を提供する。</p>
-<p>Mobile Planner Agentは、利用者の依頼を複数の作業に分け、必要なツールを選んで実行順序を組み立てる。Mobile-Use Agentは、アプリ間の操作を担う。Alibaba Cloudによると、利用できる場合はAPIを優先し、必要に応じて画面上の操作を使う方式だ。Creative Agentは、スマートフォンでの画像生成や編集などを扱う。</p>
-<p>メーカーは製品全体を導入するほか、必要なモデルやエージェントを選んで自社のシステムに組み込める。公式ドキュメントは、端末側とクラウド側の処理をタスクに応じて使い分ける構成も説明している。一方、個人が手持ちのスマートフォンへ直接導入できる範囲や、日本での提供条件は公式資料から確認できない。</p>
-<h2>HONORが初の採用パートナーに</h2>
-<p>Alibaba Cloudによると、スマートフォンメーカーのHONORがQwen Intelligenceを初めて採用した。両社は次世代のAIスマートフォン向けに、用途に応じたモデルとソリューションを共同開発している。アリババは、9月28日に発表予定の「HONOR Magic9」シリーズと「HONOR Robot Phone」が、Qwen Intelligenceを組み込む最初の端末になるとしている。</p>
-<p>アリババは、スマートフォン上のエージェントを評価するため、タスクの計画やアプリをまたぐ実行などを測るベンチマークも用意した。公式ブログによれば、計画から実行までを評価する「MobilePA-Bench」には、実際の利用場面を想定した1000件以上のタスクと、200種類以上のモバイル向けツールが含まれる。</p>
-]]></description>
-      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>【寄稿】ニューヨークで目を引いた「黄色いトヨタ」。街の変化から考える製造業とフィジカルAI</title>
       <link>https://ledge.ai/articles/brycen_us_report_2</link>
       <description><![CDATA[<p><strong>AIを車やロボットなどの動作につなげるフィジカルAIでは、モデルの性能に加え、実際の利用環境に適応する力が問われる。AI学習用データの整備やアノテーションを手がけるブライセンも、米国での事業展開を進めている。現地法人BRYCEN USAの立ち上げを担った芥川公文氏による現地レポート第2回は、ニューヨークへ。イエローキャブや歴史ある建物の変化を入り口に、技術を社会で使える製品へと育てる条件を考える。</strong></p>
@@ -238,6 +221,18 @@ AI社員が自律的に仕事をすれば、その分LLMへのリクエストも
 <p>「日本は製造業が強いと言われますが、何が強いかというと、やっぱり現場の力だと思っています。現場で創意工夫して、改善していく。その力が日本の製造業を支えてきたんじゃないかと」</p>
 <p>これまで技能継承とは、「人から人へ技を伝えること」だった。しかしAIによって、人の作業をデータとして記録し、比較し、そこから暗黙知を見つけられるようになれば、その意味は変わってくる。なぜその作業が優れているのかを発見し、次の人が学び、さらに改善する。そして、そこで蓄積されたデータを、いずれ機械にも引き継いでいく。</p>
 <p>AI時代の技能継承で企業が残すべきなのは、完成された「マニュアル」だけではない。熟練者がまだ現場にいる今、その人が実際にどう動き、どう工夫しているのかという「生の作業データ」を残すこと。それが、人への技能継承だけでなく、将来の自動化まで見据えた最初の一歩になりそうだ。</p>
+]]></description>
+      <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAIのセキュリティ担当Joe氏「ここ3か月は地獄のような日々だった」　AIインシデント対応の内情を投稿、隔離・監視の強化を提言</title>
+      <link>https://ledge.ai/articles/openai_joe_agent_security</link>
+      <description><![CDATA[<p>OpenAIのAgent Securityチームに所属するJoe氏は2026年9月27日、AI関連のインシデント対応を内側から説明する<a href="https://x.com/joedaroo/status/2104335929293127851">長文投稿</a>をXで公開した。モデルの能力向上に対応するには、隔離環境の強化に加え、アクセス権の管理、行動監視、安全性研究者とセキュリティ担当者の連携が必要だと述べている。</p>
+<p>投稿は個人の立場によるもので、OpenAIを代表する公式説明ではない。非公開のインシデント詳細を明かすものでもないと断っている。</p>
+<h2>インシデント対応で「この3カ月は地獄」</h2>
+<p>Joe氏によると、Agent SecurityはAI安全性研究とセキュリティの間をつなぐチームだ。モデルが安全に行動するための条件を検討し、人間の意図や制約から外れる行動や、隔離境界を越える動きを検知する監視機能の構築にも携わる。モデルに問題が起きれば、夜間にも呼び出されるという。</p>
+<p>同氏は過去3カ月を「地獄」と表現し、最近のインシデント対応のため、家族の結婚式にも出席できなかったと述べた。AI企業に改善を求めることは必要だとしつつ、担当者個人への攻撃を控えるよう求めている。</p>
+<p>背景には、OpenAIが8月26日に詳細を公表した<a href="https://ledge.ai/articles/openai_hugging_face_incident_report">Hugging Faceへの侵害インシデント</a>{target=\</p>
 ]]></description>
       <pubDate>Thu, 24 Sep 2026 03:50:00 GMT</pubDate>
     </item>
