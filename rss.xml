@@ -155,6 +155,29 @@ AIが人間からの指示を待たずに動くようになれば、トークン
       <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Google Cloud「Geminiエージェント」発表　他社のClaudeも選択可能、モデルを替えても業務の文脈を保持　PCを閉じても業務を継続</title>
+      <link>https://ledge.ai/articles/google_cloud_gemini_agent</link>
+      <description><![CDATA[<p>Google Cloudは2026年10月8日（米国時間）、GoogleのGeminiモデル群に加え、AnthropicのClaudeモデルも使い分ける業務向けAIエージェント「Geminiエージェント」を<a href="https://cloud.google.com/blog/ja/products/ai-machine-learning/welcome-to-gemini-at-work-2026">発表</a>した。業務に適したモデルを選択し、モデルを変更しても業務の文脈やデータ、作業手順を保持できる。今後は、その他の主要な独自モデルやオープンモデルへの対応も予定している。</p>
+<h2>Googleのエージェントで、AnthropicのClaudeも選択可能</h2>
+<p>Geminiエージェントは、質問への回答、資料や画像の作成、コードの記述・実行などを単一のインターフェースとAPIで扱う。ユーザーが求める成果を伝えると、作業を計画し、必要なツールや業務システムに接続して処理を進める。</p>
+<p><strong>Geminiエージェントの操作画面。入力欄の下には、週次レポートや製品発売資料・価格分析のタスクが完了状態で表示されている</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_max_2000x2000_7698450c18/Gemini_max_2000x2000_7698450c18.png" alt="Gemini.max-2000x2000.png" /></p>
+<p>特徴は、業務を進めるエージェントと、その内部で使うAIモデルを分けて設計している点だ。Google製モデルだけに限定せず、現時点ではGeminiモデル群とAnthropicのClaudeモデルを横断して、作業に適したモデルを使う。大きなプロジェクトの中で、タスクごとに異なるモデルを組み合わせることもできる。</p>
+<p>Google CloudのシニアAIプロダクトマネージャーであるシュバム・サブー氏は、<a href="https://x.com/Saboo_Shubham_/status/2108265508223193319">X投稿</a>でGemini 4 ArgonまたはClaude Opus 5.5を選択できると説明した。公開されたモデル選択画面には、Gemini 3.8 FlashとClaude Sonnet 5.5も表示されている。</p>
+<p>モデルを変更しても、蓄積した業務の文脈やデータ、作業手順をまとめた「スキル」は保持される。利用するモデルの選択と、エージェントに蓄積する業務情報を切り離した構成である。</p>
+<h2>PCを閉じても作業を継続、専用アカウントを持つAI同僚も</h2>
+<p>Geminiエージェントはクラウド上で動作し、数時間から数日かかる作業も、ユーザーがPCを閉じた後に継続する。Web、スマートフォン、Windows、Mac、コマンドラインに加え、Google Workspace、Microsoft 365、Slackなどからアクセスでき、端末やアプリをまたいで同じ記憶や業務の文脈を維持する。</p>
+<p>複雑な作業では、タスクごとに一時的なサブエージェントを作成し、並列または順番に処理を進める。継続的にチームの役割を担う「コワーカーエージェント」も作成できる。</p>
+<p>コワーカーエージェントには、メールアドレス、カレンダー、Google ドライブなどを含む専用のGoogle Workspaceアカウントが付与される。Google Chatに追加し、メンションして作業を依頼できる。ユーザー本人ではなくエージェント自身のIDで動作し、共有された情報だけにアクセスする。</p>
+<h2>モデルの振り分けと支出上限で費用を管理</h2>
+<p>Salesforce、ServiceNow、Jira、BigQueryなどの業務システムと連携し、外部の機能やデータにつなぐ標準規格「Model Context Protocol（MCP）」にも対応する。企業は独自のツールやスキルを社内の共有レジストリに登録できる。</p>
+<p>費用管理には、処理内容に応じて性能と費用を踏まえたモデルへ振り分ける「Smart Routing」を用意する。Google Cloudの課金管理画面でプロジェクトごとに支出上限を設定でき、上限に達するとエージェントが一時停止する。</p>
+<p>管理面では、エージェントごとにIDとアクセス権限を設定し、操作を監査ログに記録する。処理は隔離された実行環境で行い、「Agent Gateway」を通じて通信に組織のポリシーを適用する。</p>
+<p>Google Cloudの<a href="https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini">中小企業向け発表</a>によると、同エージェントは中小企業の顧客に早期アクセスで提供中であり、全顧客への提供を予定している。</p>
+]]></description>
+      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>「日本AI大賞2026」ファイナリスト16組発表、126件の応募から選出。豊田市や横須賀市、日本ハムなど</title>
       <link>https://ledge.ai/articles/japan-ai-awards-2026-finalist</link>
       <description><![CDATA[<p>一般社団法人日本デジタルトランスフォーメーション推進協会（JDX）が事務局を務める日本AI大賞実行委員会は9月30日、「日本AI大賞2026」のファイナリスト16組を発表した。全国から寄せられた126件の応募から、書面審査を経て組織の部8組、個人の部8組を選出した。</p>
@@ -256,6 +279,26 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 :::button
 <a href="https://ledgeai-benkyokai.studio.site/">10月のAI勉強会視聴申し込みはこちら</a>
 :::</p>
+]]></description>
+      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>仏Mistral、1兆パラメータの「Mistral Large 4」プレビュー開始　モデルの重みは10月末に公開予定</title>
+      <link>https://ledge.ai/articles/mistral_large_4_public_preview</link>
+      <description><![CDATA[<p>フランスのAI開発企業Mistralは2026年10月6日（現地時間）、最新AIモデル「Mistral Large 4」（ML4）のパブリックプレビューを<a href="https://mistral.ai/news/mistral-large-4/">開始</a>した。約1兆パラメータのマルチモーダルモデルで、ソフトウェア開発や画像理解、ツールを使って業務を進めるAIエージェントなどに対応する。Mistral StudioでプレビューAPIを利用でき、学習済みモデルの内部パラメータである「重み」は10月末に公開する予定だ。</p>
+<h2>総1.05兆パラメータ、100万トークンのコンテキストに対応</h2>
+<p>ML4は、入力に応じてモデル内の一部を選んで計算するMixture-of-Experts（MoE）構造を採用した。総パラメータ数は1.05兆で、このうち処理時に使われる稼働パラメータ数は、埋め込み・出力層を含めて520億となる。画像を解析するための視覚エンコーダーは16億パラメータで構成される。</p>
+<p>コンテキスト長は100万トークン。構造化出力、関数呼び出し、文書に関する質問応答、エージェント向けAPIなどを利用できる。同社は、これまでに開発した中で最大かつ最も高性能なモデルと位置付け、通称を「Le Chonk」としている。</p>
+<h2>コード品質や画像理解、金融・法務の業務を評価</h2>
+<p>Mistralは、コード生成、画像内の対象を特定する処理、金融・法務などの業務でML4の性能を評価した。</p>
+<p>コード品質については、Surge AIと共同で、モデル名を伏せた人手評価を実施した。専門の評価者が出力を5段階で採点し、ML4のプレビュー版は3.74点で、比較対象の5モデル中2位となった。Claude Opus 5の4.22点には届かなかったが、Kimi K3やGLM-5.3を上回ったという。</p>
+<p><strong>モデル名を伏せてコード品質を5段階で評価 ML4のプレビュー版は比較対象の5モデル中2位となった。図中の数値は小数第1位に丸められている。</strong>
+<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/human_evaluation_surge_human_eval_on_code_1_20jg_Wu_5336cdb9bc/human_evaluation_surge_human_eval_on_code_1_20jg_Wu_5336cdb9bc.webp" alt="human-evaluation---surge-(human-eval-on-code) 1_20jgWu.webp" /></p>
+<p>画像理解では、複雑な文書やグラフ、技術図面、衛星画像などを扱うデモを紹介した。金融・法務向けには、複雑なスプレッドシートや文書の作成・編集・修正などを想定している。性能比較はプレビュー版に対する評価であり、同社は追加のベンチマークも今後公表する予定だ。</p>
+<h2>欧州の自社基盤で学習、重み公開前に安全性を検証</h2>
+<p>ML4は、欧州にあるMistralの自社データセンターで、3800基のNVIDIA Grace Blackwell GPUを使ってゼロから学習した。プレビュー版も同じ基盤で提供する。</p>
+<p>重みの公開に先立ち、サイバーセキュリティ分野の企業や審査済みのパートナー、政府当局と、実環境での安全性検証を進める。検証参加者には、応答内容に対する安全上の制限を緩め、サイバー分野の能力を拡張したモデルへのアクセスを提供する。</p>
+<p><a href="https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B">公式Hugging Faceページ</a>は、現時点では重みの公開待ちとなっている。Mistralは月末の公開に合わせ、モデル構造の追加詳細や学習後の調整手法も公表する予定だ。</p>
 ]]></description>
       <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
     </item>
