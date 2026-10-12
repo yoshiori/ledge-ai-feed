@@ -5,55 +5,6 @@
     <link>https://ledge.ai/</link>
     <description>Ledge.ai の最新テクノロジー記事</description>
     <item>
-      <title>AI推論の「通信待ち」でGPUが待機　スタンフォード大名誉教授、通信プロトコル「TCP」に代わる「Homa」を提案</title>
-      <link>https://ledge.ai/articles/homa_ai_datacenter_transport</link>
-      <description><![CDATA[<p>スタンフォード大学の名誉教授であるジョン・オースターハウト氏が、AI推論やエージェントを支えるデータセンターで、通信プロトコル「TCP」に代わる「Homa」の普及を進めている。The Registerが2026年10月1日、同氏への取材を交えて<a href="https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629">報じた</a>{target=\</p>
-]]></description>
-      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>「日本AI大賞2026」ファイナリスト16組発表、126件の応募から選出。豊田市や横須賀市、日本ハムなど</title>
-      <link>https://ledge.ai/articles/japan-ai-awards-2026-finalist</link>
-      <description><![CDATA[<p>一般社団法人日本デジタルトランスフォーメーション推進協会（JDX）が事務局を務める日本AI大賞実行委員会は9月30日、「日本AI大賞2026」のファイナリスト16組を発表した。全国から寄せられた126件の応募から、書面審査を経て組織の部8組、個人の部8組を選出した。</p>
-<p>ファイナリストは11月12日、東京・五反田で開催される「AI &amp; Security Summit 2026」で最終選考となるプレゼンテーション審査に臨む。同日、表彰式を開催し、各賞を発表する。</p>
-<h2>自治体、農業、介護、営業など16のAI活用がファイナリストに</h2>
-<p>日本AI大賞は、「何を目指して、AIを活用したか。」をテーマに、明確なビジョンのもとAIを活用し、目標達成や新事業の創出に挑んだ実践事例を発掘・表彰するアワード。2026年に新設された。
-7月7日から8月28日まで、「AI活用部門」「AI活用支援部門」「AIエキスパート部門」「AIエバンジェリスト部門」の4部門で募集し、企業や自治体、団体、個人から計126件の応募が集まった。</p>
-<p>組織の部では、水道使用量とAIを組み合わせた漏水・空き家予測、営業組織におけるAI活用、自治体への生成AI全庁導入、農場の事務作業のAI化、ケアマネジャーの業務支援など、幅広い領域の取り組みが選ばれた。</p>
-<p>ファイナリストは以下の通り。</p>
-<h3>組織の部</h3>
-<p><strong>豊田市上下水道局</strong>
-「ＡＩ漏水空き家予測　～水道使用量とＡＩが紡ぐ部局横断DX～」</p>
-<p><strong>株式会社博報堂ＤＹコーポレートイニシアティブ</strong>
-「『わたしが助かる』から『みんなが助かる』へ。おせっかい心こそ、AIアプリの開発エンジン。」</p>
-<p><strong>株式会社川六</strong>
-「Augmented Hospitality（拡張されたおもてなし）で実現する地方創生」</p>
-<p><strong>西部ガスホールディングス株式会社</strong>
-「AI不信だった営業組織を変え、人とAIが共創する営業組織へ」</p>
-<p><strong>横須賀市</strong>
-「『変化を力に進むまち』全国初の生成AI全庁導入による、職員と組織のマインドシフト」</p>
-<p><strong>遠藤ファーム株式会社</strong>
-「AIに事務を任せ、もう一度『百姓』に還る――従業員5名の農場が4事業を持つまで」</p>
-<p><strong>日本ハム株式会社</strong>
-「SaaS内製化で実現する自律型DX推進 ～ニッポンハムグループの挑戦～」</p>
-<p><strong>株式会社フローラ</strong>
-「AIで、ケアマネの時間を人に返す。〜 2040年『ケアマネ難民ゼロ』を目指す、エンリッチモデル〜」</p>
-<h3>個人の部</h3>
-<p>個人の部では、社内におけるAI活用の民主化、保育現場へのAI導入、生成AI時代のデザインリテラシー普及、老舗和菓子企業でのAI活用、多言語の飲食店運営へのAI導入などの取り組みが選ばれた。</p>
-<p><strong>齊藤 玖美子氏（パーソルホールディングス株式会社）</strong>
-「はたらく未来を共創する、AI活用の民主化と共創文化創出への挑戦」</p>
-<p><strong>伊豆 勇紀氏（宮城県）</strong>
-「宮城の保育にAIの力を！～保育士の子どもと向き合う時間を生み出すために～」</p>
-<p><strong>宇土 善之氏（Emaps株式会社）</strong>
-「再現性のある、時代に合ったセラピストを育成するブレシア®AI ── 医療とヘルスケアの谷間を、埋められる人を増やす」</p>
-<p><strong>須藤 絵理香氏（株式会社電通）</strong>
-「生成AI時代の『自分の中での判断軸』を育てる、デザインリテラシー普及活動」</p>
-<p><strong>内田 綺乃氏（株式会社豆子郎）</strong>
-「和菓子の老舗で、AIを\</p>
-]]></description>
-      <pubDate>Mon, 05 Oct 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>AI活用の次の課題は「コストと成果」の可視化――LayerXに聞くトークンマネジメント</title>
       <link>https://ledge.ai/articles/LayerX_token_management_interview</link>
       <description><![CDATA[<p>生成AIの活用が企業に広がるなか、AIにかかるコストをどう管理するかが新たな課題になりつつある。
@@ -108,14 +59,14 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>何トークン使ったか。どのモデルを使ったか。いくらかかったか。これらは引き続き必要だ。しかし、その先には「何件の仕事を完了したのか」「1タスクを完了するのにいくらかかったのか」「人間が担当する場合と比べてどうだったのか」という指標が加わっていく。トークンマネジメントとは、単なる生成AIの利用料金管理ではない。</p>
 <p>企業のAI活用が本格化するほど、「たくさん使うこと」そのものに価値はなくなる。問われるのは、そのトークンを何のために使い、どんな仕事を完了し、どれだけの価値につなげたのかだ。AIを使うことが当たり前になった先では、「どう使うか」だけでなく、「どう管理し、成果につなげるか」が企業に問われていく。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、防御側のClaude利用制限を3段階化で緩和　Mythos 5.1も対象、個人研究者から重要インフラまで</title>
       <link>https://ledge.ai/articles/anthropic_cyber_verification_program_expansion</link>
       <description><![CDATA[<p>Anthropicは2026年10月6日（現地時間）、セキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡充すると<a href="https://www.anthropic.com/news/cyber-verification-program">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、ロボットは身体作業の74％を実行可能と推計　人間より安く担えるのは全労働時間の0.3％</title>
@@ -138,7 +89,7 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/a010c2b04ed72ac124d232ae06dbacfbd8fb24d8_7680x4320_864952c7f8/a010c2b04ed72ac124d232ae06dbacfbd8fb24d8_7680x4320_864952c7f8.jpg" alt="a010c2b04ed72ac124d232ae06dbacfbd8fb24d8-7680x4320.jpg" /></p>
 <p>現在の技術で、人間より安く実行できる作業を全労働時間の10％まで広げるには、ロボットの費用が約70％下がる必要がある。過去の傾向と同じ年約3％のペースで下がると仮定すると、約40年かかる計算だ。これは一定の条件を置いた試算であり、新たなロボット技術や製造方法による費用低下で変わり得る。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIが使ったツールをAI自身が口コミ評価　Armatureが「agent.reviews」を公開、ほかのエージェントの選択に活用</title>
@@ -163,14 +114,14 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>公開するレビューには、秘密情報や個人情報、顧客データ、非公開コードなどを含めないよう求める。投稿前には、ルールに基づく検査、情報漏えいを検出する分類器、小規模な言語モデルによる確認の3段階でチェックするという。</p>
 <p>ただし、レビューに付くエージェント名やモデル、作業結果は<a href="https://agent.reviews/how-it-works.md">エージェント自身の申告</a>に基づく。「Verified」の表示は、そのエージェントの利用者がサインインしたことを示す。作業の実施や評価内容の正しさを第三者が検証したことを意味するものではない。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Claudeを「日記」に使った米女性が逮捕　銃撃の脅迫をAnthropicが人間の審査後に通報</title>
       <link>https://ledge.ai/articles/claude_diary_threat_police_report</link>
       <description><![CDATA[<p>米フロリダ州で、AnthropicのAI「Claude」を日記のように使っていた女性が、保安官事務所を銃撃するとの書き込みをしたとして逮捕された。地元局WINK Newsが2026年9月30日（現地時間）、逮捕報告書に基づいて<a href="https://swfl.io/2026/09/30/woman-arrested-after-ai-threat-against-lee-county-sheriffs-office-investigators">報じた</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic、Google ドキュメント・スプレッドシート・スライドにClaude統合　直接編集とチャットからの作成に対応</title>
@@ -197,14 +148,14 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>アドオンの対象プランはPro、Max、Team、Enterprise。<a href="https://workspace.google.com/marketplace/app/claude/12459801340?hl=ja">Google Workspace Marketplace</a>から一度インストールすると、3アプリで利用できる。各アプリの「拡張機能」からClaudeを開き、Claudeアカウントでサインインする。組織では、管理者が全体または指定したグループに導入することも可能だ。</p>
 <p>アドオンの対応ブラウザーはChrome、Edge、Safariで、今回のベータ版ではFirefoxはサポートされない。アドオンは単体ではDrive内の別ファイルの新規作成やPDF出力に対応せず、操作範囲は開いているファイルに限られる。詳細な利用条件と制限は<a href="https://support.claude.com/ja/articles/16951679-google-docs-sheets-slides-%E3%81%A7-claude-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B">日本語の公式ヘルプ</a>で確認できる。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>仏ゴンクール賞、AI執筆疑惑の小説を候補から除外　作家は否定、出版社も確認・否定できず</title>
       <link>https://ledge.ai/articles/goncourt_novel_ai_allegations</link>
       <description><![CDATA[<p>フランスの文学賞「ゴンクール賞」を選考するアカデミー・ゴンクールは2026年9月25日（現地時間）、ハイチ出身でケベックを拠点とする作家Thélyson Orélien氏の小説『C’était ça ou mourir』を、第一次選考の候補リストから<a href="https://www.academiegoncourt.com/_files/ugd/d5bd15_0d57d8368a57400da14f59ebc4021bed.pdf">除外すると発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>Google Cloud「Geminiエージェント」発表　他社のClaudeも選択可能、モデルを替えても業務の文脈を保持　PCを閉じても業務を継続</title>
@@ -227,7 +178,14 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>管理面では、エージェントごとにIDとアクセス権限を設定し、操作を監査ログに記録する。処理は隔離された実行環境で行い、「Agent Gateway」を通じて通信に組織のポリシーを適用する。</p>
 <p>Google Cloudの<a href="https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini">中小企業向け発表</a>によると、同エージェントは中小企業の顧客に早期アクセスで提供中であり、全顧客への提供を予定している。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI推論の「通信待ち」でGPUが待機　スタンフォード大名誉教授、通信プロトコル「TCP」に代わる「Homa」を提案</title>
+      <link>https://ledge.ai/articles/homa_ai_datacenter_transport</link>
+      <description><![CDATA[<p>スタンフォード大学の名誉教授であるジョン・オースターハウト氏が、AI推論やエージェントを支えるデータセンターで、通信プロトコル「TCP」に代わる「Homa」の普及を進めている。The Registerが2026年10月1日、同氏への取材を交えて<a href="https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629">報じた</a>{target=\</p>
+]]></description>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>AIに任せられる仕事と、任せられない仕事。その境界はどこにある？――第6回 Ledge.ai AI勉強会 開催レポート</title>
@@ -290,7 +248,7 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <a href="https://ledgeai-benkyokai.studio.site/">10月のAI勉強会視聴申し込みはこちら</a>
 :::</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>仏Mistral、1兆パラメータの「Mistral Large 4」プレビュー開始　モデルの重みは10月末に公開予定</title>
@@ -310,21 +268,21 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>重みの公開に先立ち、サイバーセキュリティ分野の企業や審査済みのパートナー、政府当局と、実環境での安全性検証を進める。検証参加者には、応答内容に対する安全上の制限を緩め、サイバー分野の能力を拡張したモデルへのアクセスを提供する。</p>
 <p><a href="https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B">公式Hugging Faceページ</a>は、現時点では重みの公開待ちとなっている。Mistralは月末の公開に合わせ、モデル構造の追加詳細や学習後の調整手法も公表する予定だ。</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI、ChatGPTの画像生成中にビジュアル広告を表示へ　10月後半から米国でテスト</title>
       <link>https://ledge.ai/articles/openai_chatgpt_visual_ads_image_generation</link>
       <description><![CDATA[<p>OpenAIは2026年10月5日、ChatGPTの画像生成中に表示する新しいビジュアル広告フォーマットを<a href="https://openai.com/ja-JP/index/new-chatgpt-ads-format-and-measurement/">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>米Reflection、5010億パラメーターの「Beam」発表　推論効率を重視、10月中にApache 2.0で重み公開へ</title>
       <link>https://ledge.ai/articles/reflection_beam_open_weight_model</link>
       <description><![CDATA[<p>米AIスタートアップのReflectionは2026年10月5日、コーディングや推論、AIエージェントによる作業に対応する同社初のオープンウェイトモデル「Beam」を<a href="https://reflection.ai/blog/introducing-beam">発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
       <title>マスク氏、SpaceXAIを「SpaceXSI」に改称する意向　トランプ政権の「AI→SI」呼称変更後に</title>
@@ -337,21 +295,68 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>変更の時期や具体的な手続きについては明らかにしていない。同社のXアカウントはReutersの報道時点で旧名称のままだった。</p>
 <p>SpaceXは2026年2月2日、AI開発企業xAIの<a href="https://x.ai/news/xai-joins-spacex">買収を発表</a>{target=\</p>
 ]]></description>
-      <pubDate>Sun, 04 Oct 2026 04:50:00 GMT</pubDate>
+      <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta、カメラ非搭載の「Ray-Ban Meta Audio」発表　音声AIに対応、最大12時間駆動で日本は2027年展開予定</title>
-      <link>https://ledge.ai/articles/meta_ray_ban_audio_ai_glasses</link>
-      <description><![CDATA[<p>Metaは2026年9月23日（現地時間）、開発者イベント「Meta Connect 2026」で、カメラを搭載しないAIスマートグラス「Ray-Ban Meta Audio」を<a href="https://about.fb.com/ja/news/2026/09/ai-glasses-lineup-added/">発表</a>{target=\</p>
+      <title>Anthropicの自社活用事例、Claudeが購入相談を24時間対応　商談化率2倍超、営業は顧客との対話に集中</title>
+      <link>https://ledge.ai/articles/anthropic_claude_buying_agent</link>
+      <description><![CDATA[<p>Anthropicは2026年9月30日（現地時間）、Claudeの購入相談に応じるAIエージェントの活用事例を公式ブログで<a href="https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents">公開</a>した。同社の営業開発リーダーであるカール・ジョンソン氏が、AIによる問い合わせ対応と営業チームの働き方の変化を紹介している。</p>
+<h2>数日待ちだった購入相談に、AIが24時間対応</h2>
+<p>同社には毎月数万件の営業問い合わせが寄せられ、従来のフォーム経由では返信まで数日かかることもあった。質問の多くは料金や最低契約人数、セキュリティに関するもので、営業担当者はドキュメントに記載済みの内容を繰り返し説明していた。</p>
+<p>そこで同社は、購入相談を担う「Buying Agent」を構築した。顧客の要望を聞き、料金やデータの扱いなどの質問に答えたうえで、プランと利用人数を提案する。購入を希望する顧客には決済へ進む導線を案内し、大規模・複雑な案件は会話の詳細とともに営業担当者へ引き継ぐ。質問への回答だけで終わる場合もある。</p>
+<p>エージェントは1日数千件の会話に24時間対応している。利用は任意で、顧客は開始時にAIか営業担当者かを選べる。</p>
+<h2>## 営業担当者は顧客との対話に集中</h2>
+<p>AIが購入前の疑問を解消することで、営業担当者は顧客の要望や、それまでに伝えられた内容を把握した状態で会話を始められるようになった。チームは時間と労力の大部分を、購入検討の早い段階での説明や、顧客との直接の会話、イベントでの対面交流に振り向けている。</p>
+<p>同社によると、AIから営業担当者へ引き継がれた見込み客は、従来のフォーム経由と比べて商談化する割合が2倍超となり、成約までの時間も約5日短縮した。</p>
+<p>担当者1人の事例では、成約までに必要なメールのやり取りが約10通から約6通に減り、成約件数が2.5倍になったという。</p>
+<h2>営業担当者もプロンプトの改善に参加</h2>
+<p>開発には、エージェントの実行環境やセッション管理などを提供する<a href="https://claude.com/blog/claude-managed-agents">Claude Managed Agents</a>のベータ版を使用した。最初のエージェントはエンジニア1人が数週間で構築した。</p>
+<p>営業やコンテンツの担当者も、AIへの指示文であるシステムプロンプトを直接見直し、顧客向けに反映する前にテスト環境で確認している。</p>
+<p>プランの推薦では、顧客の要望に合うことを重視する。小規模なチームには、大企業向けのEnterpriseプランではなくTeamプランを勧める場合もある。</p>
 ]]></description>
-      <pubDate>Sat, 03 Oct 2026 02:50:00 GMT</pubDate>
+      <pubDate>Wed, 07 Oct 2026 00:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Google「Gemini 4 Argon」発表　出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る　まずはサイバー防御向けに限定提供</title>
-      <link>https://ledge.ai/articles/google_gemini_4_argon</link>
-      <description><![CDATA[<p>Googleは2026年9月30日（現地時間）、新たなフロンティアAIモデル「Gemini 4 Argon」を<a href="https://blog.google/intl/ja-jp/company-news/technology/gemini4argon/">発表</a>{target=\</p>
+      <title>「日本AI大賞2026」ファイナリスト16組発表、126件の応募から選出。豊田市や横須賀市、日本ハムなど</title>
+      <link>https://ledge.ai/articles/japan-ai-awards-2026-finalist</link>
+      <description><![CDATA[<p>一般社団法人日本デジタルトランスフォーメーション推進協会（JDX）が事務局を務める日本AI大賞実行委員会は9月30日、「日本AI大賞2026」のファイナリスト16組を発表した。全国から寄せられた126件の応募から、書面審査を経て組織の部8組、個人の部8組を選出した。</p>
+<p>ファイナリストは11月12日、東京・五反田で開催される「AI &amp; Security Summit 2026」で最終選考となるプレゼンテーション審査に臨む。同日、表彰式を開催し、各賞を発表する。</p>
+<h2>自治体、農業、介護、営業など16のAI活用がファイナリストに</h2>
+<p>日本AI大賞は、「何を目指して、AIを活用したか。」をテーマに、明確なビジョンのもとAIを活用し、目標達成や新事業の創出に挑んだ実践事例を発掘・表彰するアワード。2026年に新設された。
+7月7日から8月28日まで、「AI活用部門」「AI活用支援部門」「AIエキスパート部門」「AIエバンジェリスト部門」の4部門で募集し、企業や自治体、団体、個人から計126件の応募が集まった。</p>
+<p>組織の部では、水道使用量とAIを組み合わせた漏水・空き家予測、営業組織におけるAI活用、自治体への生成AI全庁導入、農場の事務作業のAI化、ケアマネジャーの業務支援など、幅広い領域の取り組みが選ばれた。</p>
+<p>ファイナリストは以下の通り。</p>
+<h3>組織の部</h3>
+<p><strong>豊田市上下水道局</strong>
+「ＡＩ漏水空き家予測　～水道使用量とＡＩが紡ぐ部局横断DX～」</p>
+<p><strong>株式会社博報堂ＤＹコーポレートイニシアティブ</strong>
+「『わたしが助かる』から『みんなが助かる』へ。おせっかい心こそ、AIアプリの開発エンジン。」</p>
+<p><strong>株式会社川六</strong>
+「Augmented Hospitality（拡張されたおもてなし）で実現する地方創生」</p>
+<p><strong>西部ガスホールディングス株式会社</strong>
+「AI不信だった営業組織を変え、人とAIが共創する営業組織へ」</p>
+<p><strong>横須賀市</strong>
+「『変化を力に進むまち』全国初の生成AI全庁導入による、職員と組織のマインドシフト」</p>
+<p><strong>遠藤ファーム株式会社</strong>
+「AIに事務を任せ、もう一度『百姓』に還る――従業員5名の農場が4事業を持つまで」</p>
+<p><strong>日本ハム株式会社</strong>
+「SaaS内製化で実現する自律型DX推進 ～ニッポンハムグループの挑戦～」</p>
+<p><strong>株式会社フローラ</strong>
+「AIで、ケアマネの時間を人に返す。〜 2040年『ケアマネ難民ゼロ』を目指す、エンリッチモデル〜」</p>
+<h3>個人の部</h3>
+<p>個人の部では、社内におけるAI活用の民主化、保育現場へのAI導入、生成AI時代のデザインリテラシー普及、老舗和菓子企業でのAI活用、多言語の飲食店運営へのAI導入などの取り組みが選ばれた。</p>
+<p><strong>齊藤 玖美子氏（パーソルホールディングス株式会社）</strong>
+「はたらく未来を共創する、AI活用の民主化と共創文化創出への挑戦」</p>
+<p><strong>伊豆 勇紀氏（宮城県）</strong>
+「宮城の保育にAIの力を！～保育士の子どもと向き合う時間を生み出すために～」</p>
+<p><strong>宇土 善之氏（Emaps株式会社）</strong>
+「再現性のある、時代に合ったセラピストを育成するブレシア®AI ── 医療とヘルスケアの谷間を、埋められる人を増やす」</p>
+<p><strong>須藤 絵理香氏（株式会社電通）</strong>
+「生成AI時代の『自分の中での判断軸』を育てる、デザインリテラシー普及活動」</p>
+<p><strong>内田 綺乃氏（株式会社豆子郎）</strong>
+「和菓子の老舗で、AIを\</p>
 ]]></description>
-      <pubDate>Fri, 02 Oct 2026 07:50:00 GMT</pubDate>
+      <pubDate>Mon, 05 Oct 2026 23:50:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
