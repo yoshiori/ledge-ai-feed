@@ -69,33 +69,6 @@ AIが人間からの指示を待たずに動くようになれば、トークン
       <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic、Google ドキュメント・スプレッドシート・スライドにClaude統合　直接編集とチャットからの作成に対応</title>
-      <link>https://ledge.ai/articles/claude_google_workspace_beta</link>
-      <description><![CDATA[<p>Anthropicは2026年10月6日（米国時間）、Google ドキュメント、スプレッドシート、スライド内でAIアシスタント「Claude」を利用できるアドオン「<a href="https://claude.com/claude-for-google-workspace">Claude for Google Workspace</a>」のパブリックベータを<a href="https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides">公開</a>した。Claudeの全有料プランが対象となる。併せて、ClaudeのチャットからGoogleの各ファイルを作成・編集できるコネクタもベータ公開した。</p>
-<h2>Googleの各アプリ内で、Claudeがファイルを直接編集</h2>
-<p>Claude for Google Workspaceは、Googleの各アプリにClaudeのサイドバーを追加するアドオンである。開いているファイルや、選択した文章・セル・スライドを読み取り、ユーザーの指示に応じてその場で編集する。内容をClaudeへコピーし、回答を元のファイルへ貼り付ける手間を省ける。</p>
-<p>Google ドキュメントでは、周囲の書式を維持しながら文章を修正したり、見出しのスタイルを変更したりできる。長い文章の書き直しでは、変更対象を示す提案カードをサイドバーに表示し、ユーザーが適用するかどうかを選べる。文書の要約や、作業メモを担当者・期限などを含む表へ整理する用途にも対応する。</p>
-<p><strong>■ Claudeのサイドバーで、SalesforceとGoogle Driveのコネクタを有効にした画面</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/claude_for_docs_da092d0b93/claude_for_docs_da092d0b93.jpg" alt="claude for docs.jpg" /></p>
-<p>Google スプレッドシートでは、数式の作成・修正、ピボットテーブルやグラフの作成、新しいタブの追加が可能だ。データの結合や整形では、対象範囲をPythonで処理し、結果をシートへ書き戻せる。例えば、元データを添付して予算と実績の比較レポートを作成し、予算超過の項目を洗い出すといった作業を依頼できる。</p>
-<p>Google スライドでは、既存の資料のレイアウトやテーマに合わせてスライドを作成する。作成後には、要素の重なりやスライドからのはみ出し、読みにくい文字なども確認できる。</p>
-<p>@<a href="https://youtu.be/idJQMJwHtyM">YouTube</a></p>
-<h2>ClaudeのチャットからもGoogleファイルを作成・編集</h2>
-<p>同時公開したGoogle ドキュメント、スプレッドシート、スライドのコネクタは、Claudeのチャットを起点に各ファイルを操作する機能である。</p>
-<p>Docs、Sheets、Slidesのコネクタを有効にし、Googleファイルのリンクをチャットに貼り付けるか、Google形式の文書・表・スライドの作成を依頼すると、会話の横にファイルを表示できる。この表示はChrome上のClaudeのWeb版と、組み込みブラウザーを有効にしたClaude Desktopに対応する。</p>
-<p>ユーザーとClaudeが同じファイルを同時に編集することも可能で、アクセス範囲は接続したGoogleアカウントの既存の共有権限に従う。TeamとEnterpriseでは、組織のオーナーによるコネクタの有効化が必要となる。</p>
-<p>アドオンが主に開いているファイルを編集するのに対し、コネクタは新規ファイルの作成にも対応する。Docs、Sheets、SlidesのコネクタはGoogle Driveコネクタとは別で、ファイルの検索やアップロード、共有は引き続きGoogle Driveコネクタが担う。</p>
-<h2>編集前の確認と、既存のコネクタ・スキルに対応</h2>
-<p>アドオンの標準設定は「Ask before edits（編集前に確認）」で、Claudeが変更内容の概要を示し、ユーザーの承認後に編集する。「Accept all edits（すべての編集を受け入れる）」を選ぶと、通常の編集は確認を挟まずに進められる。ただし、リンクや外部画像の挿入など、一部の操作には個別の承認が必要となる。</p>
-<p>Claudeアカウントでサインインすると、普段利用しているモデル、コネクタ、スキルをサイドバーから使える。例えば、Salesforceの顧客情報やGoogle Drive内の打ち合わせメモを参照し、登録したスキルの手順に沿って報告資料を作成できる。</p>
-<p><strong>■ Google スライド内のClaudeサイドバーで、SalesforceとGoogle Driveのコネクタを有効にした画面</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/salesforce_connectors_bd50271e9e/salesforce_connectors_bd50271e9e.jpg" alt="salesforce connectors.jpg" /></p>
-<p>アドオンの対象プランはPro、Max、Team、Enterprise。<a href="https://workspace.google.com/marketplace/app/claude/12459801340?hl=ja">Google Workspace Marketplace</a>から一度インストールすると、3アプリで利用できる。各アプリの「拡張機能」からClaudeを開き、Claudeアカウントでサインインする。組織では、管理者が全体または指定したグループに導入することも可能だ。</p>
-<p>アドオンの対応ブラウザーはChrome、Edge、Safariで、今回のベータ版ではFirefoxはサポートされない。アドオンは単体ではDrive内の別ファイルの新規作成やPDF出力に対応せず、操作範囲は開いているファイルに限られる。詳細な利用条件と制限は<a href="https://support.claude.com/ja/articles/16951679-google-docs-sheets-slides-%E3%81%A7-claude-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B">日本語の公式ヘルプ</a>で確認できる。</p>
-]]></description>
-      <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
       <title>仏ゴンクール賞、AI執筆疑惑の小説を候補から除外　作家は否定、出版社も確認・否定できず</title>
       <link>https://ledge.ai/articles/goncourt_novel_ai_allegations</link>
       <description><![CDATA[<p>フランスの文学賞「ゴンクール賞」を選考するアカデミー・ゴンクールは2026年9月25日（現地時間）、ハイチ出身でケベックを拠点とする作家Thélyson Orélien氏の小説『C’était ça ou mourir』を、第一次選考の候補リストから<a href="https://www.academiegoncourt.com/_files/ugd/d5bd15_0d57d8368a57400da14f59ebc4021bed.pdf">除外すると発表</a>{target=\</p>
@@ -173,6 +146,13 @@ AIが人間からの指示を待たずに動くようになれば、トークン
       <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft、Qwenベースの判断特化AI「Microsoft-Decision-1」発表　先行モデル「Jev」と同価格で提供</title>
+      <link>https://ledge.ai/articles/microsoft_decision_1</link>
+      <description><![CDATA[<p>Microsoftは2026年10月9日（米国時間）、判断処理に特化した小型AIモデル「Microsoft-Decision-1」を<a href="https://commandline.microsoft.com/microsoft-decision-1-model-foundry/">発表</a>{target=\</p>
+]]></description>
+      <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
+    </item>
+    <item>
       <title>仏Mistral、1兆パラメータの「Mistral Large 4」プレビュー開始　モデルの重みは10月末に公開予定</title>
       <link>https://ledge.ai/articles/mistral_large_4_public_preview</link>
       <description><![CDATA[<p>フランスのAI開発企業Mistralは2026年10月6日（現地時間）、最新AIモデル「Mistral Large 4」（ML4）のパブリックプレビューを<a href="https://mistral.ai/news/mistral-large-4/">開始</a>した。約1兆パラメータのマルチモーダルモデルで、ソフトウェア開発や画像理解、ツールを使って業務を進めるAIエージェントなどに対応する。Mistral StudioでプレビューAPIを利用でき、学習済みモデルの内部パラメータである「重み」は10月末に公開する予定だ。</p>
@@ -189,13 +169,6 @@ AIが人間からの指示を待たずに動くようになれば、トークン
 <p>ML4は、欧州にあるMistralの自社データセンターで、3800基のNVIDIA Grace Blackwell GPUを使ってゼロから学習した。プレビュー版も同じ基盤で提供する。</p>
 <p>重みの公開に先立ち、サイバーセキュリティ分野の企業や審査済みのパートナー、政府当局と、実環境での安全性検証を進める。検証参加者には、応答内容に対する安全上の制限を緩め、サイバー分野の能力を拡張したモデルへのアクセスを提供する。</p>
 <p><a href="https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B">公式Hugging Faceページ</a>は、現時点では重みの公開待ちとなっている。Mistralは月末の公開に合わせ、モデル構造の追加詳細や学習後の調整手法も公表する予定だ。</p>
-]]></description>
-      <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、ChatGPTの画像生成中にビジュアル広告を表示へ　10月後半から米国でテスト</title>
-      <link>https://ledge.ai/articles/openai_chatgpt_visual_ads_image_generation</link>
-      <description><![CDATA[<p>OpenAIは2026年10月5日、ChatGPTの画像生成中に表示する新しいビジュアル広告フォーマットを<a href="https://openai.com/ja-JP/index/new-chatgpt-ads-format-and-measurement/">発表</a>{target=\</p>
 ]]></description>
       <pubDate>Sun, 11 Oct 2026 23:50:00 GMT</pubDate>
     </item>
