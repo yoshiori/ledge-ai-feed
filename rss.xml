@@ -174,28 +174,5 @@ AIを使って開発工数を減らせても、人月で価格を決める仕組
 ]]></description>
       <pubDate>Fri, 09 Oct 2026 23:50:00 GMT</pubDate>
     </item>
-    <item>
-      <title>Google Cloud「Geminiエージェント」発表　他社のClaudeも選択可能、モデルを替えても業務の文脈を保持　PCを閉じても業務を継続</title>
-      <link>https://ledge.ai/articles/google_cloud_gemini_agent</link>
-      <description><![CDATA[<p>Google Cloudは2026年10月8日（米国時間）、GoogleのGeminiモデル群に加え、AnthropicのClaudeモデルも使い分ける業務向けAIエージェント「Geminiエージェント」を<a href="https://cloud.google.com/blog/ja/products/ai-machine-learning/welcome-to-gemini-at-work-2026">発表</a>した。業務に適したモデルを選択し、モデルを変更しても業務の文脈やデータ、作業手順を保持できる。今後は、その他の主要な独自モデルやオープンモデルへの対応も予定している。</p>
-<h2>Googleのエージェントで、AnthropicのClaudeも選択可能</h2>
-<p>Geminiエージェントは、質問への回答、資料や画像の作成、コードの記述・実行などを単一のインターフェースとAPIで扱う。ユーザーが求める成果を伝えると、作業を計画し、必要なツールや業務システムに接続して処理を進める。</p>
-<p><strong>Geminiエージェントの操作画面。入力欄の下には、週次レポートや製品発売資料・価格分析のタスクが完了状態で表示されている</strong>
-<img src="https://storage.googleapis.com/ledge-ai-prd-public-bucket/media/Gemini_max_2000x2000_7698450c18/Gemini_max_2000x2000_7698450c18.png" alt="Gemini.max-2000x2000.png" /></p>
-<p>特徴は、業務を進めるエージェントと、その内部で使うAIモデルを分けて設計している点だ。Google製モデルだけに限定せず、現時点ではGeminiモデル群とAnthropicのClaudeモデルを横断して、作業に適したモデルを使う。大きなプロジェクトの中で、タスクごとに異なるモデルを組み合わせることもできる。</p>
-<p>Google CloudのシニアAIプロダクトマネージャーであるシュバム・サブー氏は、<a href="https://x.com/Saboo_Shubham_/status/2108265508223193319">X投稿</a>でGemini 4 ArgonまたはClaude Opus 5.5を選択できると説明した。公開されたモデル選択画面には、Gemini 3.8 FlashとClaude Sonnet 5.5も表示されている。</p>
-<p>モデルを変更しても、蓄積した業務の文脈やデータ、作業手順をまとめた「スキル」は保持される。利用するモデルの選択と、エージェントに蓄積する業務情報を切り離した構成である。</p>
-<h2>PCを閉じても作業を継続、専用アカウントを持つAI同僚も</h2>
-<p>Geminiエージェントはクラウド上で動作し、数時間から数日かかる作業も、ユーザーがPCを閉じた後に継続する。Web、スマートフォン、Windows、Mac、コマンドラインに加え、Google Workspace、Microsoft 365、Slackなどからアクセスでき、端末やアプリをまたいで同じ記憶や業務の文脈を維持する。</p>
-<p>複雑な作業では、タスクごとに一時的なサブエージェントを作成し、並列または順番に処理を進める。継続的にチームの役割を担う「コワーカーエージェント」も作成できる。</p>
-<p>コワーカーエージェントには、メールアドレス、カレンダー、Google ドライブなどを含む専用のGoogle Workspaceアカウントが付与される。Google Chatに追加し、メンションして作業を依頼できる。ユーザー本人ではなくエージェント自身のIDで動作し、共有された情報だけにアクセスする。</p>
-<h2>モデルの振り分けと支出上限で費用を管理</h2>
-<p>Salesforce、ServiceNow、Jira、BigQueryなどの業務システムと連携し、外部の機能やデータにつなぐ標準規格「Model Context Protocol（MCP）」にも対応する。企業は独自のツールやスキルを社内の共有レジストリに登録できる。</p>
-<p>費用管理には、処理内容に応じて性能と費用を踏まえたモデルへ振り分ける「Smart Routing」を用意する。Google Cloudの課金管理画面でプロジェクトごとに支出上限を設定でき、上限に達するとエージェントが一時停止する。</p>
-<p>管理面では、エージェントごとにIDとアクセス権限を設定し、操作を監査ログに記録する。処理は隔離された実行環境で行い、「Agent Gateway」を通じて通信に組織のポリシーを適用する。</p>
-<p>Google Cloudの<a href="https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini">中小企業向け発表</a>によると、同エージェントは中小企業の顧客に早期アクセスで提供中であり、全顧客への提供を予定している。</p>
-]]></description>
-      <pubDate>Fri, 09 Oct 2026 07:50:00 GMT</pubDate>
-    </item>
   </channel>
 </rss>
